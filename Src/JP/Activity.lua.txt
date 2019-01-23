@@ -1,0 +1,185 @@
+slot0 = class("Activity", import(".BaseVO"))
+
+slot0.Ctor = function (slot0, slot1)
+	slot0.id = slot1.id
+	slot0.configId = slot0.id
+	slot0.stopTime = slot1.stop_time
+	slot0.data1 = defaultValue(slot1.data1, 0)
+	slot0.data2 = defaultValue(slot1.data2, 0)
+	slot0.data3 = defaultValue(slot1.data3, 0)
+	slot0.data4 = defaultValue(slot1.data4, 0)
+	slot0.data1_list = {}
+
+	for slot5, slot6 in ipairs(slot1.data1_list) do
+		table.insert(slot0.data1_list, slot6)
+	end
+
+	slot0.data2_list = {}
+
+	for slot5, slot6 in ipairs(slot1.data2_list) do
+		table.insert(slot0.data2_list, slot6)
+	end
+
+	slot0.data3_list = {}
+
+	for slot5, slot6 in ipairs(slot1.data3_list) do
+		table.insert(slot0.data3_list, slot6)
+	end
+
+	slot0.data1KeyValueList = {}
+	slot2 = ipairs
+	slot3 = slot1.date1_key_value_list or {}
+
+	for slot5, slot6 in slot2(slot3) do
+		slot0.data1KeyValueList[slot6.key] = {}
+		slot7 = ipairs
+		slot8 = slot6.value_list or {}
+
+		for slot10, slot11 in slot7(slot8) do
+			slot0.data1KeyValueList[slot6.key][slot11.key] = slot11.value
+		end
+	end
+end
+
+slot0.updateDataList = function (slot0, slot1)
+	table.insert(slot0.data1_list, slot1)
+end
+
+slot0.updateKVPList = function (slot0, slot1, slot2, slot3)
+	if not slot0.data1KeyValueList[slot1] then
+		slot0.data1KeyValueList[slot1] = {}
+	end
+
+	slot0.data1KeyValueList[slot1][slot2] = slot3
+end
+
+slot0.getKVPList = function (slot0, slot1, slot2)
+	if not slot0.data1KeyValueList[slot1] then
+		slot0.data1KeyValueList[slot1] = {}
+	end
+
+	return slot0.data1KeyValueList[slot1][slot2] or 0
+end
+
+slot0.getData1 = function (slot0)
+	return slot0.data1
+end
+
+slot0.getData3 = function (slot0)
+	return slot0.data3
+end
+
+slot0.getData1List = function (slot0)
+	return slot0.data1_list
+end
+
+slot0.bindConfigTable = function (slot0)
+	return pg.activity_template
+end
+
+slot0.isEnd = function (slot0)
+	return slot0.stopTime > 0 and slot0.stopTime <= pg.TimeMgr.GetInstance():GetServerTime()
+end
+
+slot0.increaseUsedCount = function (slot0, slot1)
+	if slot1 == 1 then
+		slot0.data1 = slot0.data1 + 1
+	elseif slot1 == 2 then
+		slot0.data2 = slot0.data2 + 1
+	end
+end
+
+slot0.readyToAchieve = function (slot0)
+	slot1 = false
+
+	if slot0:getConfig("type") == ActivityConst.ACTIVITY_TYPE_LEVELAWARD then
+		slot3 = getProxy(PlayerProxy):getRawData()
+
+		for slot8 = 1, #pg.activity_level_award[slot0:getConfig("config_id")].front_drops, 1 do
+			if slot4.front_drops[slot8][1] <= slot3.level and not _.include(slot0.data1_list, slot10) then
+				slot1 = true
+
+				break
+			end
+		end
+	elseif slot2 == ActivityConst.ACTIVITY_TYPE_TASK_LIST and (slot0:getConfig("config_id") == 2 or slot0:getConfig("config_id") == 3) then
+		slot3 = getProxy(TaskProxy)
+		slot1 = slot0.data3 > 0 and _.any(_.flatten({
+			slot0:getConfig("config_data")[slot5]
+		}), function (slot0)
+			return slot0:getTaskById(slot0) and slot1:isFinish()
+		end)
+	end
+
+	return slot1
+end
+
+slot0.isShow = function (slot0)
+	return slot0:getConfig("is_show") == 1
+end
+
+slot0.left4Day = function (slot0)
+	if slot0.stopTime - pg.TimeMgr.GetInstance():GetServerTime() < 345600 then
+		return true
+	end
+
+	return false
+end
+
+slot0.getAwardInfos = function (slot0)
+	return slot0.data1KeyValueList or {}
+end
+
+slot0.updateData = function (slot0, slot1, slot2)
+	if slot0:getConfig("type") == ActivityConst.ACTIVITY_TYPE_LOTTERY then
+		if not slot0:getAwardInfos()[slot1] then
+			slot0.data1KeyValueList[slot1] = {}
+		end
+
+		for slot8, slot9 in ipairs(slot2) do
+			if slot0.data1KeyValueList[slot1][slot9] then
+				slot0.data1KeyValueList[slot1][slot9] = slot0.data1KeyValueList[slot1][slot9] + 1
+			else
+				slot0.data1KeyValueList[slot1][slot9] = 1
+			end
+		end
+	end
+end
+
+slot0.getTaskShip = function (slot0)
+	return slot0:getConfig("config_client")[1]
+end
+
+slot0.getNotificationMsg = function (slot0)
+	slot2 = ActivityProxy.ACTIVITY_SHOW_AWARDS
+
+	if slot0:getConfig("type") == ActivityConst.ACTIVITY_TYPE_SHOP then
+		slot2 = ActivityProxy.ACTIVITY_SHOP_SHOW_AWARDS
+	elseif slot1 == ActivityConst.ACTIVITY_TYPE_LOTTERY then
+		slot2 = ActivityProxy.ACTIVITY_LOTTERY_SHOW_AWARDS
+	elseif slot1 == ActivityConst.ACTIVITY_TYPE_HITMONSTERNIAN then
+		slot2 = ActivityProxy.ACTIVITY_HITMONSTER_SHOW_AWARDS
+	elseif slot1 == ActivityConst.ACTIVITY_TYPE_REFLUX then
+		slot2 = ActivityProxy.ACTIVITY_SHOW_REFLUX_AWARDS
+	end
+
+	return slot2
+end
+
+slot0.getCountForHitMonster = function (slot0)
+	if slot0:getConfig("type") == ActivityConst.ACTIVITY_TYPE_HITMONSTERNIAN then
+		return ((pg.TimeMgr:GetInstance():parseTimeFrom(pg.TimeMgr:GetInstance():GetServerTime() - pg.TimeMgr:GetInstance():parseTimeFromConfig(slot0:getConfig("time")[2])) + 1) * (slot0:getConfig("config_data")[5] or 1) + (slot0:getConfig("config_data")[4] or 1)) - slot0.data2
+	end
+end
+
+slot0.getDayIndex = function (slot0)
+	slot2 = pg.TimeMgr.GetInstance()
+
+	return slot2:DiffDay(pg.TimeMgr:GetInstance():parseTimeFromConfig(slot0:getConfig("time")[2]), slot2:GetServerTime()) + 1
+end
+
+slot0.getStartTime = function (slot0)
+	return pg.TimeMgr:GetInstance():parseTimeFromConfig(slot0:getConfig("time")[2])
+end
+
+return slot0

@@ -2346,6 +2346,471 @@ pg.equip_skin_template = {
 			54014
 		}
 	},
+	[140] = {
+		bullet_name = "zidan_cup",
+		name = "紅茶弾",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "優雅なお茶会タイム",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		icon = "91311",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 140,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	},
+	[141] = {
+		bullet_name = "zidan_cookie",
+		name = "クッキー弾",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "お茶が進む甘さと硬さ",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		icon = "91312",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 141,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	},
+	[142] = {
+		bullet_name = "zidan_buding",
+		name = "プリン弾",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "「洋風のお茶請けってことかしら…？」",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		icon = "91313",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 142,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	},
+	[143] = {
+		bullet_name = "paodan_benzhong",
+		name = "時計塔砲弾",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "魔法使いたちの秘密結社とされる王家スポット。…いや、魔術かな？",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		icon = "91314",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 143,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[144] = {
+		bullet_name = "paodan_huangjialiaoli",
+		name = "グルメ砲弾",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "「ロイヤルの誇らしきグルメでございます」",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		icon = "91315",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 144,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[145] = {
+		bullet_name = "paodan_dianhuating",
+		name = "ボックス砲弾",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "「もしもし？」",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		icon = "91316",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 145,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[146] = {
+		bullet_name = "yulei_guaizhang",
+		name = "ステッキ魚雷",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "ロイヤル紳士の必需アイテム・その一",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		icon = "91321",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 146,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[147] = {
+		bullet_name = "yulei_yandou",
+		name = "キセル魚雷",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "ロイヤル紳士の必需アイテム・その二",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		icon = "91322",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 147,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[148] = {
+		bullet_name = "yulei_mingjiu",
+		name = "銘酒魚雷",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "「ロイヤルの銘酒でもいかがでしょうか」",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		icon = "91323",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 148,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[149] = {
+		bullet_name = "feiji_reqiqiu",
+		name = "王家熱気球（攻撃）",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "ロイヤル屈指の饅頭空挺部隊",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		icon = "91331",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 149,
+		derivate_torpedo = "yulei_yandou",
+		ship_skin_id = 0,
+		equip_type = {
+			8
+		},
+		weapon_ids = {
+			61503,
+			61504
+		}
+	},
+	[150] = {
+		bullet_name = "feiji_reqiqiu",
+		name = "王家熱気球（戦闘）",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "ロイヤル屈指の饅頭空挺部隊",
+		ship_config_id = 100011,
+		derivate_boom = "paodan_huangjialiaoli",
+		icon = "91331",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 150,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			7
+		},
+		weapon_ids = {
+			61505,
+			54010
+		}
+	},
+	[151] = {
+		bullet_name = "feiji_reqiqiu",
+		name = "王家熱気球（爆撃）",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "ロイヤル屈指の饅頭空挺部隊",
+		ship_config_id = 100011,
+		derivate_boom = "paodan_huangjialiaoli",
+		icon = "91331",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 151,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			9
+		},
+		weapon_ids = {
+			61501,
+			54014
+		}
+	},
+	[152] = {
+		bullet_name = "feiji_tieta",
+		name = "王家大鉄塔（攻撃）",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "ロイヤル屈指の饅頭突撃部隊",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		icon = "91332",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 152,
+		derivate_torpedo = "yulei_mingjiu",
+		ship_skin_id = 0,
+		equip_type = {
+			8
+		},
+		weapon_ids = {
+			61503,
+			61504
+		}
+	},
+	[153] = {
+		bullet_name = "feiji_tieta",
+		name = "王家大鉄塔（戦闘）",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "ロイヤル屈指の饅頭突撃部隊",
+		ship_config_id = 100011,
+		derivate_boom = "paodan_benzhong",
+		icon = "91332",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 153,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			7
+		},
+		weapon_ids = {
+			61505,
+			54010
+		}
+	},
+	[154] = {
+		bullet_name = "feiji_tieta",
+		name = "王家大鉄塔（爆撃）",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "ロイヤル屈指の饅頭突撃部隊",
+		ship_config_id = 100011,
+		derivate_boom = "paodan_benzhong",
+		icon = "91332",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 154,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			9
+		},
+		weapon_ids = {
+			61501,
+			54014
+		}
+	},
+	[155] = {
+		bullet_name = "feiji_bashi",
+		name = "王家二階建（攻撃）",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "ロイヤル屈指のエアバス部隊",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		icon = "91333",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 155,
+		derivate_torpedo = "yulei_guaizhang",
+		ship_skin_id = 0,
+		equip_type = {
+			8
+		},
+		weapon_ids = {
+			61503,
+			61504
+		}
+	},
+	[156] = {
+		bullet_name = "feiji_bashi",
+		name = "王家二階建（戦闘）",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "ロイヤル屈指のエアバス部隊",
+		ship_config_id = 100011,
+		derivate_boom = "paodan_dianhuating",
+		icon = "91333",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 156,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			7
+		},
+		weapon_ids = {
+			61505,
+			54010
+		}
+	},
+	[157] = {
+		bullet_name = "feiji_bashi",
+		name = "王家二階建（爆撃）",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "ロイヤル屈指のエアバス部隊",
+		ship_config_id = 100011,
+		derivate_boom = "paodan_dianhuating",
+		icon = "91333",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 157,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			9
+		},
+		weapon_ids = {
+			61501,
+			54014
+		}
+	},
 	[1001] = {
 		bullet_name = "Nep_bullet_shizi",
 		name = "十字キー砲弾（P）",
@@ -3294,6 +3759,24 @@ pg.equip_skin_template = {
 		135,
 		136,
 		137,
+		140,
+		141,
+		142,
+		143,
+		144,
+		145,
+		146,
+		147,
+		148,
+		149,
+		150,
+		151,
+		152,
+		153,
+		154,
+		155,
+		156,
+		157,
 		1001,
 		1002,
 		1003,

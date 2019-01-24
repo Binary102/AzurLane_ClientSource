@@ -283,39 +283,41 @@ slot0.getActivityTask = function (slot0, slot1)
 	slot3 = pg.TimeMgr.GetInstance()
 	slot5 = math.max(slot1.data3, 1)
 	slot6 = 0
-	slot7 = nil
+	slot7, slot8 = nil
 
-	for slot11 = math.max(slot1.data3, 1), math.clamp(slot3:DiffDay(slot1.data1, slot3:GetServerTime()) + 1, 1, #slot1:getConfig("config_data")), 1 do
-		slot13 = nil
+	for slot12 = math.max(slot1.data3, 1), math.clamp(slot3:DiffDay(slot1.data1, slot3:GetServerTime()) + 1, 1, #slot1:getConfig("config_data")), 1 do
+		slot14, slot15 = nil
 
-		for slot17, slot18 in ipairs(slot12) do
-			slot20 = slot0:getFinishTaskById(slot18)
+		for slot19, slot20 in ipairs(slot13) do
+			slot22 = slot0:getFinishTaskById(slot20)
 
-			if slot0:getTaskById(slot18) then
-				if not slot13 or slot19:getTaskStatus() == 1 then
-					slot13 = slot18
+			if slot0:getTaskById(slot20) then
+				if not slot14 or slot21:getTaskStatus() == 1 then
+					slot14 = slot20
+					slot15 = slot21
 				end
-			elseif slot20 then
-				slot5 = slot11
-				slot6 = slot17
-				slot7 = slot18
+			elseif slot22 then
+				slot5 = slot12
+				slot6 = slot19
+				slot7 = slot20
+				slot8 = slot22
 			end
 		end
 
-		if slot13 then
-			return slot13
+		if slot14 then
+			return slot14, slot15
 		end
 	end
 
-	for slot11 = slot5, slot4, 1 do
-		for slot16, slot17 in ipairs(slot12) do
-			if (slot5 < slot11 or slot6 < slot16) and not slot0:getFinishTaskById(slot17) then
-				return slot17
+	for slot12 = slot5, slot4, 1 do
+		for slot17, slot18 in ipairs(slot13) do
+			if (slot5 < slot12 or slot6 < slot17) and not slot0:getFinishTaskById(slot18) then
+				return slot18
 			end
 		end
 	end
 
-	return slot7
+	return slot7, slot8
 end
 
 slot0.getAcademyTask = function (slot0, slot1)

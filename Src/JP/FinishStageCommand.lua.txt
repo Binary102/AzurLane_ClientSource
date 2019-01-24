@@ -9,6 +9,14 @@ slot0.execute = function (slot0, slot1)
 		slot0:sendNotification(GAME.FINISH_STAGE_DONE, {
 			system = slot6
 		})
+	elseif slot6 == SYSTEM_DODGEM then
+		slot0:sendNotification(GAME.ACTIVITY_OPERATION, {
+			cmd = 1,
+			activity_id = ActivityConst.PIG_YEAR_RED_POCKET_SHIP_ID,
+			statistics = slot2.statistics,
+			arg1 = slot2.statistics._battleScore,
+			arg2 = slot2.statistics.dodgemResult.score
+		})
 	else
 		ys.Battle.BattleState.GenerateVertifyData()
 

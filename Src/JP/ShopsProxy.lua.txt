@@ -111,8 +111,6 @@ slot0.updateNormalGroupList = function (slot0, slot1, slot2)
 end
 
 slot0.addActivityShops = function (slot0, slot1)
-	print("!!!!!!!!!!!!!!!!!!!!!!")
-
 	slot0.activityShops = slot1
 
 	slot0:sendNotification(slot0.ACTIVITY_SHOPS_UPDATED)

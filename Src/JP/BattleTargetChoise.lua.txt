@@ -67,14 +67,8 @@ ys.Battle.BattleTargetChoise = {
 		slot5 = slot1.ship_tag_list
 
 		for slot9, slot10 in pairs(slot3) do
-			slot11 = slot10:GetLabelTag() or {}
-
-			for slot15, slot16 in ipairs(slot5) do
-				if table.contains(slot11, slot16) then
-					slot4[#slot4 + 1] = slot10
-
-					break
-				end
+			if slot10:ContainsLabelTag(slot5) then
+				slot4[#slot4 + 1] = slot10
 			end
 		end
 

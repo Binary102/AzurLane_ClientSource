@@ -91,6 +91,12 @@ slot0.register = function (slot0)
 				slot1:onOniEnter()
 			end
 
+			if _.any(slot0.map_update, function (slot0)
+				return slot0.item_type == ChapterConst.AttachBomb_Enemy
+			end) then
+				slot1:onBombEnemyEnter()
+			end
+
 			if #slot0.map_update > 0 then
 				_.each(slot0.map_update, function (slot0)
 					if slot0.item_type == ChapterConst.AttachStory and slot0.item_data == ChapterConst.StoryTrigger then
@@ -444,95 +450,89 @@ slot0.getMaps = function (slot0)
 	slot1 = {}
 	slot2 = pg.expedition_data_by_map
 	slot3 = (OPEN_REMASTER and slot0:buildRemasterMaps()) or {}
+	slot5 = slot0:getActiveChapter() and slot4:getConfig("map")
 
-	for slot7, slot8 in ipairs(slot2.all) do
-		slot1[slot8] = slot3[slot8] or Map.New({
-			id = slot8
-		})
+	for slot9, slot10 in ipairs(slot2.all) do
+		if not slot3[slot10] or Map.New({
+			id = slot10
+		}):isInValidMap() or slot5 == slot11.id then
+			slot1[slot11.id] = slot11
+		end
 	end
 
-	slot5 = getProxy(BayProxy).getRawData(slot4)
+	slot7 = getProxy(BayProxy).getRawData(slot6)
 
-	for slot10, slot11 in ipairs(Chapter.bindConfigTable().all) do
-		slot13 = slot1[slot6[slot11].map]
+	for slot12, slot13 in ipairs(Chapter.bindConfigTable().all) do
+		if slot1[slot8[slot13].map] then
+			if slot0.data[slot14.id] then
+				for slot20, slot21 in ipairs(slot16:getEliteFleetList()) do
+					slot22 = #slot21
 
-		if slot0.data[slot6[slot11].id] then
-			for slot18, slot19 in ipairs(slot14:getEliteFleetList()) do
-				slot20 = #slot19
+					while slot22 > 0 do
+						if slot7[slot21[slot22]] == nil then
+							table.remove(slot21, slot22)
+						end
 
-				while slot20 > 0 do
-					if slot5[slot19[slot20]] == nil then
-						table.remove(slot19, slot20)
+						slot22 = slot22 - 1
 					end
-
-					slot20 = slot20 - 1
 				end
 			end
-		end
 
-		slot15 = nil
+			slot17 = nil
 
-		if slot14 then
-			slot15 = slot14:clone()
+			if slot16 then
+				slot17 = slot16:clone()
 
-			slot0:duplicateEliteFleet(slot14)
-		elseif slot12.model ~= ChapterConst.TypeMainSub and Chapter.New({
-			id = slot12.id
-		}).getConfig(slot15, "type") == Chapter.CustomFleet and slot0.mapEliteFleetCache[slot13.configId] then
-			slot15:setEliteFleetList(slot0.mapEliteFleetCache[slot13.configId])
-		end
-
-		if slot15 and slot15:isValid() then
-			slot13:updateChapter(slot15)
-		end
-	end
-
-	slot7 = true
-	slot9 = getProxy(PlayerProxy).getData(slot8)
-	slot10 = nil
-
-	for slot14, slot15 in ipairs(slot2.all) do
-		slot17 = slot1[slot15 + 1]
-
-		slot1[slot15].updateChapters(slot16, slot10)
-
-		slot18 = slot1[slot15].getConfig(slot16, "level_limit")
-
-		if slot1[slot15].getMapType(slot16) == Map.SCENARIO then
-			slot16:setUnlock(slot7 and slot18 <= slot9.level)
-
-			if slot17 then
-				slot7 = slot16:isClear() and slot17:getConfig("level_limit") <= slot9.level
-			else
-				slot7 = slot16:isClear()
+				slot0:duplicateEliteFleet(slot16)
+			elseif slot14.model ~= ChapterConst.TypeMainSub and Chapter.New({
+				id = slot14.id
+			}).getConfig(slot17, "type") == Chapter.CustomFleet and slot0.mapEliteFleetCache[slot15.configId] then
+				slot17:setEliteFleetList(slot0.mapEliteFleetCache[slot15.configId])
 			end
-		elseif slot16:isActivity() then
-			slot16:setUnlock(slot18 <= slot9.level and slot16:isAnyChapterUnlocked())
+
+			if slot17 and slot17:isValid() then
+				slot15:updateChapter(slot17)
+			end
+		end
+	end
+
+	slot9 = true
+	slot11 = getProxy(PlayerProxy).getData(slot10)
+	slot12 = nil
+
+	for slot16, slot17 in ipairs(slot2.all) do
+		if slot1[slot17] then
+			slot19 = slot1[slot17 + 1]
+
+			slot18:updateChapters(slot12)
+
+			slot20 = slot18:getConfig("level_limit")
+
+			if slot18:getMapType() == Map.SCENARIO then
+				slot18:setUnlock(slot9 and slot20 <= slot11.level)
+
+				if slot19 then
+					slot9 = slot18:isClear() and slot19:getConfig("level_limit") <= slot11.level
+				else
+					slot9 = slot18:isClear()
+				end
+			elseif slot18:isActivity() then
+				slot18:setUnlock(slot20 <= slot11.level and slot18:isAnyChapterUnlocked())
+			else
+				slot18:setUnlock(slot20 <= slot11.level)
+			end
+
+			slot12 = slot18
+
+			if slot1[slot18:getBindMap()] then
+				slot18:setBindMapVO(slot1[slot21])
+			end
 		else
-			slot16:setUnlock(slot18 <= slot9.level)
-		end
-
-		slot10 = slot16
-
-		if slot1[slot16:getBindMap()] then
-			slot16:setBindMapVO(slot1[slot19])
+			slot12 = nil
 		end
 	end
 
-	slot11 = {}
-	slot13 = (slot0:getActiveChapter() and slot12.id) or 0
-
-	for slot17, slot18 in pairs(slot1) do
-		slot19 = _.any(_.values(slot18.chapters), function (slot0)
-			return slot0.id == slot0
-		end)
-
-		if not slot18:isInValidMap() or slot19 then
-			slot11[slot18.id] = slot18
-		end
-	end
-
-	return slot11
+	return slot1
 end
 
 slot0.getActiveChapter = function (slot0)

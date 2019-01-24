@@ -304,7 +304,7 @@ slot0.update = function (slot0, slot1)
 end
 
 slot0.retreat = function (slot0)
-	if (slot0:findChapterCell(ChapterConst.AttachBoss) and slot1.flag == 1) or slot0:existOni() then
+	if (slot0:findChapterCell(ChapterConst.AttachBoss) and slot1.flag == 1) or slot0:existOni() or slot0:isPlayingWithBombEnemy() then
 		slot0.todayDefeatCount = slot0.todayDefeatCount + 1
 	end
 
@@ -328,7 +328,7 @@ slot0.getRound = function (slot0)
 end
 
 slot0.existMoveLimit = function (slot0)
-	return slot0:getPlayType() == ChapterConst.TypeRange or slot0:getPlayType() == ChapterConst.TypeTransport or slot0:getPlayType() == ChapterConst.TypeExtra or slot0:getPlayType() == ChapterConst.TypeSpHunt
+	return slot0:getPlayType() == ChapterConst.TypeRange or slot0:getPlayType() == ChapterConst.TypeTransport or slot0:getPlayType() == ChapterConst.TypeExtra or slot0:getPlayType() == ChapterConst.TypeSpHunt or slot0:getPlayType() == ChapterConst.TypeSpBomb
 end
 
 slot0.getChapterCell = function (slot0, slot1, slot2)
@@ -1270,7 +1270,7 @@ slot0.considerAsObstacle = function (slot0, slot1, slot2, slot3)
 
 	if slot1 == ChapterConst.SubjectPlayer then
 		if slot4.flag == 0 then
-			if slot4.attachment == ChapterConst.AttachEnemy or slot4.attachment == ChapterConst.AttachAmbush or slot4.attachment == ChapterConst.AttachElite or slot4.attachment == ChapterConst.AttachBoss or slot4.attachment == ChapterConst.AttachRival or slot4.attachment == ChapterConst.AttachAreaBoss then
+			if slot4.attachment == ChapterConst.AttachEnemy or slot4.attachment == ChapterConst.AttachAmbush or slot4.attachment == ChapterConst.AttachElite or slot4.attachment == ChapterConst.AttachBoss or slot4.attachment == ChapterConst.AttachRival or slot4.attachment == ChapterConst.AttachAreaBoss or slot4.attachment == ChapterConst.AttachBomb_Enemy then
 				return true
 			end
 
@@ -1314,6 +1314,10 @@ slot0.considerAsStayPoint = function (slot0, slot1, slot2, slot3)
 		if slot0:existOni(slot2, slot3) then
 			return false
 		end
+
+		if slot0:existBombEnemy(slot2, slot3) then
+			return false
+		end
 	elseif slot1 == ChapterConst.SubjectChampion then
 		if slot4.flag ~= 1 and slot4.attachment ~= ChapterConst.AttachNone then
 			return false
@@ -1347,7 +1351,7 @@ end
 
 slot0.existEnemy = function (slot0, slot1, slot2, slot3)
 	if slot1 == ChapterConst.SubjectPlayer then
-		if slot0:getChapterCell(slot2, slot3) and slot4.flag == 0 and (slot4.attachment == ChapterConst.AttachAmbush or slot4.attachment == ChapterConst.AttachEnemy or slot4.attachment == ChapterConst.AttachElite or slot4.attachment == ChapterConst.AttachBoss or slot4.attachment == ChapterConst.AttachRival or slot4.attachment == ChapterConst.AttachAreaBoss) then
+		if slot0:getChapterCell(slot2, slot3) and slot4.flag == 0 and (slot4.attachment == ChapterConst.AttachAmbush or slot4.attachment == ChapterConst.AttachEnemy or slot4.attachment == ChapterConst.AttachElite or slot4.attachment == ChapterConst.AttachBoss or slot4.attachment == ChapterConst.AttachRival or slot4.attachment == ChapterConst.AttachAreaBoss or slot4.attachment == ChapterConst.AttachBomb_Enemy) then
 			return true
 		end
 
@@ -1385,6 +1389,30 @@ slot0.existOni = function (slot0, slot1, slot2)
 	return _.any(slot0.champions, function (slot0)
 		return slot0.attachment == ChapterConst.AttachOni and slot0.flag == 0 and (not slot0 or slot0 == slot0.row) and (not slot1 or slot1 == slot0.column)
 	end)
+end
+
+slot0.existBombEnemy = function (slot0, slot1, slot2)
+	if slot1 and slot2 then
+		return slot0:getChapterCell(slot1, slot2).attachment == ChapterConst.AttachBomb_Enemy and slot3.flag == 0
+	end
+
+	for slot6, slot7 in pairs(slot0.cells) do
+		if slot7.attachment == ChapterConst.AttachBomb_Enemy and slot7.flag == 0 and (not slot1 or slot1 == slot7.row) and (not slot2 or slot2 == slot7.column) then
+			return true
+		end
+	end
+
+	return false
+end
+
+slot0.isPlayingWithBombEnemy = function (slot0)
+	for slot4, slot5 in pairs(slot0.cells) do
+		if slot5.attachment == ChapterConst.AttachBomb_Enemy then
+			return true
+		end
+	end
+
+	return false
 end
 
 slot0.calcWalkableCells = function (slot0, slot1, slot2, slot3, slot4)
@@ -1588,7 +1616,7 @@ slot0.getQuadCellPic = function (slot0, slot1)
 	slot2 = nil
 
 	if slot1.trait == ChapterConst.TraitLurk then
-	elseif (slot1.attachment == ChapterConst.AttachEnemy or slot1.attachment == ChapterConst.AttachElite or slot1.attachment == ChapterConst.AttachAmbush or slot1.attachment == ChapterConst.AttachBoss or slot1.attachment == ChapterConst.AttachAreaBoss or slot1.attachment == ChapterConst.AttachRival) and slot1.flag == 0 then
+	elseif (slot1.attachment == ChapterConst.AttachEnemy or slot1.attachment == ChapterConst.AttachElite or slot1.attachment == ChapterConst.AttachAmbush or slot1.attachment == ChapterConst.AttachBoss or slot1.attachment == ChapterConst.AttachRival or slot1.attachment == ChapterConst.AttachAreaBoss or slot1.attachment == ChapterConst.AttachBomb_Enemy) and slot1.flag == 0 then
 		slot2 = "cell_enemy"
 	elseif slot1.attachment == ChapterConst.AttachBox and slot1.flag == 0 then
 		if pg.box_data_template[slot1.attachmentId].type == ChapterConst.BoxDrop or slot3.type == ChapterConst.BoxStrategy or slot3.type == ChapterConst.BoxSupply or slot3.type == ChapterConst.BoxEnemy then
@@ -1833,10 +1861,10 @@ slot0.triggerCheck = function (slot0, slot1, slot2, slot3)
 			}
 
 			return _.any(_.values(slot0.cells), function (slot0)
-				return ManhattonDist(not slot0:existOni(slot0.row, slot0.column) and ((slot0:existChampion(slot0.row, slot0.column) and slot0:getChampion(slot0.row, slot0.column):getConfig("type")) or (slot0:existEnemy(ChapterConst.SubjectPlayer, slot0.row, slot0.column) and pg.expedition_data_template[slot0.attachmentId].type) or nil), {
+				return ManhattonDist(not slot0:existOni(slot0.row, slot0.column) and not slot0:existBombEnemy(slot0.row, slot0.column) and ((slot0:existChampion(slot0.row, slot0.column) and slot0:getChampion(slot0.row, slot0.column):getConfig("type")) or (slot0:existEnemy(ChapterConst.SubjectPlayer, slot0.row, slot0.column) and pg.expedition_data_template[slot0.attachmentId].type) or nil), {
 					row = slot0.row,
 					column = slot0.column
-				}) <= slot2[2] and ((type(slot2[3]) == "number" and slot2[3] == (not slot0.existOni(slot0.row, slot0.column) and ((slot0.existChampion(slot0.row, slot0.column) and slot0.getChampion(slot0.row, slot0.column).getConfig("type")) or (slot0.existEnemy(ChapterConst.SubjectPlayer, slot0.row, slot0.column) and pg.expedition_data_template[slot0.attachmentId].type) or nil))) or (type(slot2[3]) == "table" and table.contains(slot2[3], not slot0.existOni(slot0.row, slot0.column) and ((slot0.existChampion(slot0.row, slot0.column) and slot0.getChampion(slot0.row, slot0.column).getConfig("type")) or (slot0.existEnemy(ChapterConst.SubjectPlayer, slot0.row, slot0.column) and pg.expedition_data_template[slot0.attachmentId].type) or nil))))
+				}) <= slot2[2] and ((type(slot2[3]) == "number" and slot2[3] == (not slot0.existOni(slot0.row, slot0.column) and not slot0.existBombEnemy(slot0.row, slot0.column) and ((slot0.existChampion(slot0.row, slot0.column) and slot0.getChampion(slot0.row, slot0.column).getConfig("type")) or (slot0.existEnemy(ChapterConst.SubjectPlayer, slot0.row, slot0.column) and pg.expedition_data_template[slot0.attachmentId].type) or nil))) or (type(slot2[3]) == "table" and table.contains(slot2[3], not slot0.existOni(slot0.row, slot0.column) and not slot0.existBombEnemy(slot0.row, slot0.column) and ((slot0.existChampion(slot0.row, slot0.column) and slot0.getChampion(slot0.row, slot0.column).getConfig("type")) or (slot0.existEnemy(ChapterConst.SubjectPlayer, slot0.row, slot0.column) and pg.expedition_data_template[slot0.attachmentId].type) or nil))))
 			end)
 			return
 		end
@@ -1938,6 +1966,19 @@ slot0.onOniEnter = function (slot0)
 	slot0.roundIndex = 0
 end
 
+slot0.onBombEnemyEnter = function (slot0)
+	for slot4, slot5 in pairs(slot0.cells) do
+		slot5.attachment = ChapterConst.AttachNone
+		slot5.attachmentId = nil
+		slot5.flag = nil
+		slot5.data = nil
+	end
+
+	slot0.champions = {}
+	slot0.modelCount = 0
+	slot0.roundIndex = 0
+end
+
 slot0.clearSubmarineFleet = function (slot0)
 	for slot4 = #slot0.fleets, 1, -1 do
 		if slot0.fleets[slot4]:getFleetType() == FleetType.Submarine then
@@ -1948,6 +1989,42 @@ end
 
 slot0.getOniChapterInfo = function (slot0)
 	return pg.chapter_capture[slot0.id]
+end
+
+slot0.getBombChapterInfo = function (slot0)
+	return pg.chapter_boom[slot0.id]
+end
+
+slot0.getSpAppearStory = function (slot0)
+	if slot0:existOni() then
+		for slot4, slot5 in ipairs(chapter.champions) do
+			if slot5.trait == ChapterConst.TraitLurk and slot5.attachment == ChapterConst.AttachOni and slot5:getConfig("appear_story") and #slot6 > 0 then
+				return slot6
+			end
+		end
+	elseif slot0:isPlayingWithBombEnemy() then
+		for slot4, slot5 in pairs(slot0.cells) do
+			if slot5.attachment == ChapterConst.AttachBomb_Enemy and slot5.trait == ChapterConst.TraitLurk and pg.specialunit_template[slot5.attachmentId].appear_story and #slot6.appear_story > 0 then
+				return slot6.appear_story
+			end
+		end
+	end
+end
+
+slot0.getSpAppearGuide = function (slot0)
+	if slot0:existOni() then
+		for slot4, slot5 in ipairs(chapter.champions) do
+			if slot5.trait == ChapterConst.TraitLurk and slot5.attachment == ChapterConst.AttachOni and slot5:getConfig("appear_guide") and #slot6 > 0 then
+				return slot6
+			end
+		end
+	elseif slot0:isPlayingWithBombEnemy() then
+		for slot4, slot5 in pairs(slot0.cells) do
+			if slot5.attachment == ChapterConst.AttachBomb_Enemy and slot5.trait == ChapterConst.TraitLurk and pg.specialunit_template[slot5.attachmentId].appear_guide and #slot6.appear_guide > 0 then
+				return slot6.appear_guide
+			end
+		end
+	end
 end
 
 return slot0

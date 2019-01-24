@@ -313,7 +313,9 @@ slot0.calExpValue = function (slot0)
 	slot5 = 1
 
 	for slot9, slot10 in pairs(slot4) do
-		slot5 = tonumber(slot3[slot10.id].benefit_effect) / 100 + slot5
+		if slot10.timestamp >= pg.TimeMgr:GetInstance():GetServerTime() then
+			slot5 = tonumber(slot3[slot10.id].benefit_effect) / 100 + slot5
+		end
 	end
 
 	return pg.gameset["dorm_exp_ratio_by_" .. slot1].key_value / 100 * (pg.gameset.dorm_exp_base.key_value + slot2.exp * slot0.dormVO:getComfortable() / (slot0.dormVO.getComfortable() + pg.gameset.dorm_exp_ratio_comfort_degree.key_value)) * slot5 * (1 + 0.05 * slot0.playerVO.level)

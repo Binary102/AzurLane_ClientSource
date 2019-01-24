@@ -4,8 +4,8 @@ slot0.ON_SWITCH = "LotteryMediator:ON_SWITCH"
 slot0.OPEN = "LotteryMediator:OPEN"
 
 slot0.register = function (slot0)
-	slot0:bind(slot0.ON_LAUNCH, function (slot0, slot1, slot2, slot3, slot4, slot5)
-		if not slot0:getActivityById(slot1) or slot6:isEnd() then
+	slot0:bind(slot0.ON_LAUNCH, function (slot0, slot1, slot2, slot3, slot4)
+		if not slot0:getActivityById(slot1) or slot5:isEnd() then
 			return
 		end
 
@@ -14,8 +14,7 @@ slot0.register = function (slot0)
 			activity_id = slot1,
 			arg1 = slot3,
 			arg2 = slot2,
-			callback = slot4,
-			isAwardMerge = slot5
+			isAwardMerge = slot4
 		})
 	end)
 	slot0:bind(slot0.ON_SWITCH, function (slot0, slot1, slot2)

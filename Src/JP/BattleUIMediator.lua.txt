@@ -132,6 +132,10 @@ slot6.InitSubmarineWarning = function (slot0)
 	slot0._submarineView = slot0.Battle.BattleSubmarineView.New(slot0._ui:findTF("Submarine"))
 end
 
+slot6.InitScoreBar = function (slot0)
+	slot0._scoreBarView = slot0.Battle.BattleScoreBarView.New(slot0._ui:findTF("DodgemCountBar"))
+end
+
 slot6.InitAutoBtn = function (slot0)
 	slot0._autoBtn = slot0._ui:findTF("AutoBtn")
 	slot0._autoBtn.localScale = Vector3(slot2, slot2, 1)
@@ -211,6 +215,8 @@ slot6.RemoveUIEvent = function (slot0)
 	slot0._cameraUtil:UnregisterEventListener(slot0, slot0.BULLET_TIME)
 	slot0._dataProxy:UnregisterEventListener(slot0, slot0.ADD_SUBMARINE_WARINING)
 	slot0._dataProxy:UnregisterEventListener(slot0, slot0.REMOVE_SUBMARINE_WARINING)
+	slot0._dataProxy:UnregisterEventListener(slot0, slot0.UPDATE_DODGEM_SCORE)
+	slot0._dataProxy:UnregisterEventListener(slot0, slot0.UPDATE_DODGEM_COMBO)
 	slot0._userFleet:UnregisterEventListener(slot0, slot0.SHOW_BUFFER)
 	slot0._userFleet:UnregisterEventListener(slot0, slot1.POINT_HIT_CHARGE)
 	slot0._userFleet:UnregisterEventListener(slot0, slot1.POINT_HIT_CANCEL)
@@ -251,6 +257,14 @@ end
 
 slot6.ShowSimulationView = function (slot0)
 	slot0._simulationBuffCountView:SetActive(true)
+end
+
+slot6.ShowDodgemScoreBar = function (slot0)
+	slot0:InitScoreBar()
+	slot0._dataProxy:RegisterEventListener(slot0, slot0.UPDATE_DODGEM_SCORE, slot0.onUpdateDodgemScore)
+	slot0._dataProxy:RegisterEventListener(slot0, slot0.UPDATE_DODGEM_COMBO, slot0.onUpdateDodgemCombo)
+	slot0._scoreBarView:UpdateScore(0)
+	slot0._scoreBarView:SetActive(true)
 end
 
 slot6.onStageInit = function (slot0, slot1)
@@ -394,6 +408,14 @@ end
 
 slot6.onUpdateCountDown = function (slot0, slot1)
 	slot0._timerView:SetCountDownText(slot0._dataProxy:GetCountDown())
+end
+
+slot6.onUpdateDodgemScore = function (slot0, slot1)
+	slot0._scoreBarView:UpdateScore(slot1.Data.totalScore)
+end
+
+slot6.onUpdateDodgemCombo = function (slot0, slot1)
+	slot0._scoreBarView:UpdateCombo(slot1.Data.combo)
 end
 
 slot6.onAddAirStrike = function (slot0, slot1)

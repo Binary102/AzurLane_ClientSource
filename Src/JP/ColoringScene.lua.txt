@@ -8,6 +8,7 @@ slot0.Letters = {
 	"F",
 	"G"
 }
+slot0.CharPrefab = "anshan"
 slot0.PageNums = 5
 
 slot0.getUIName = function (slot0)
@@ -87,7 +88,7 @@ slot0.didEnter = function (slot0)
 		slot0:uiStartAnimating()
 	end)
 	slot0:initColoring()
-	slot0:updateAwardDisplay()
+	slot0:loadChar()
 end
 
 slot0.uiStartAnimating = function (slot0)
@@ -467,6 +468,22 @@ slot0.searchColoringCells = function (slot0, slot1, slot2, slot3, slot4)
 			{
 				row = 0,
 				column = 1
+			},
+			{
+				row = -1,
+				column = -1
+			},
+			{
+				row = -1,
+				column = 1
+			},
+			{
+				row = 1,
+				column = -1
+			},
+			{
+				row = 1,
+				column = 1
 			}
 		}
 
@@ -522,7 +539,7 @@ slot0.onBackPressed = function (slot0)
 end
 
 slot0.willExit = function (slot0)
-	return
+	slot0:unloadChar()
 end
 
 return slot0

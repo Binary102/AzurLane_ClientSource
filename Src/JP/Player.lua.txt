@@ -18,6 +18,7 @@ slot1 = {
 	[104.0] = "star",
 	[112.0] = "jiujiu",
 	[111.0] = "faxipt",
+	[119.0] = "British_pt",
 	[102.0] = "pt",
 	[110.0] = "yisegefuke_pt",
 	[118.0] = "tiancheng",
@@ -52,6 +53,7 @@ slot2 = {
 	[104.0] = 59105,
 	[112.0] = 59113,
 	[111.0] = 59112,
+	[119.0] = 59121,
 	[102.0] = 59103,
 	[110.0] = 59111,
 	[118.0] = 59120,
@@ -359,8 +361,8 @@ slot0.getStoryIndexAgainID = function (slot0, slot1)
 	return 0
 end
 
-slot0.IsPlayed = function (slot0, slot1)
-	return (table.contains(slot0.stories, slot1) or slot0.stories[slot1]) and slot0:IsPlayedAgain(slot1)
+slot0.IsPlayed = function (slot0, slot1, slot2)
+	return (table.contains(slot0.stories, slot1) or slot0.stories[slot1]) and (slot2 or slot0:IsPlayedAgain(slot1))
 end
 
 slot0.IsPlayedAgain = function (slot0, slot1)

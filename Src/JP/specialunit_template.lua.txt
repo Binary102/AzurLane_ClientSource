@@ -9,6 +9,7 @@ pg.specialunit_template = {
 		ai_move = 2,
 		appear_guide = "NG0010",
 		id = 1150001,
+		enemy_point = 0,
 		s_score_drop = 71801,
 		ai_arg = {
 			{
@@ -136,6 +137,7 @@ pg.specialunit_template = {
 		ai_move = 2,
 		appear_guide = "",
 		id = 1150002,
+		enemy_point = 0,
 		s_score_drop = 71802,
 		ai_arg = {
 			{
@@ -263,6 +265,7 @@ pg.specialunit_template = {
 		ai_move = 2,
 		appear_guide = "",
 		id = 1150003,
+		enemy_point = 0,
 		s_score_drop = 71803,
 		ai_arg = {
 			{
@@ -390,6 +393,7 @@ pg.specialunit_template = {
 		ai_move = 2,
 		appear_guide = "",
 		id = 1150004,
+		enemy_point = 0,
 		s_score_drop = 71804,
 		ai_arg = {
 			{
@@ -517,6 +521,7 @@ pg.specialunit_template = {
 		ai_move = 2,
 		appear_guide = "",
 		id = 1150005,
+		enemy_point = 0,
 		s_score_drop = 71805,
 		ai_arg = {
 			{
@@ -644,6 +649,7 @@ pg.specialunit_template = {
 		ai_move = 2,
 		appear_guide = "",
 		id = 1150006,
+		enemy_point = 0,
 		s_score_drop = 71806,
 		ai_arg = {
 			{
@@ -771,6 +777,7 @@ pg.specialunit_template = {
 		ai_move = 2,
 		appear_guide = "NG0010",
 		id = 1150011,
+		enemy_point = 0,
 		s_score_drop = 71807,
 		ai_arg = {
 			{
@@ -898,6 +905,7 @@ pg.specialunit_template = {
 		ai_move = 2,
 		appear_guide = "",
 		id = 1150012,
+		enemy_point = 0,
 		s_score_drop = 71808,
 		ai_arg = {
 			{
@@ -1025,6 +1033,7 @@ pg.specialunit_template = {
 		ai_move = 2,
 		appear_guide = "",
 		id = 1150013,
+		enemy_point = 0,
 		s_score_drop = 71809,
 		ai_arg = {
 			{
@@ -1152,6 +1161,7 @@ pg.specialunit_template = {
 		ai_move = 2,
 		appear_guide = "",
 		id = 1150014,
+		enemy_point = 0,
 		s_score_drop = 71810,
 		ai_arg = {
 			{
@@ -1279,6 +1289,7 @@ pg.specialunit_template = {
 		ai_move = 2,
 		appear_guide = "",
 		id = 1150015,
+		enemy_point = 0,
 		s_score_drop = 71811,
 		ai_arg = {
 			{
@@ -1406,6 +1417,7 @@ pg.specialunit_template = {
 		ai_move = 2,
 		appear_guide = "",
 		id = 1150016,
+		enemy_point = 0,
 		s_score_drop = 71812,
 		ai_arg = {
 			{
@@ -1524,6 +1536,48 @@ pg.specialunit_template = {
 			}
 		}
 	},
+	[1150020] = {
+		appear_story = "LINGDONG19",
+		name = "侦查舰队",
+		ai = 0,
+		prefab = "qz1",
+		c_score_drop = 0,
+		ai_move = 0,
+		appear_guide = "NG0012",
+		id = 1150020,
+		enemy_point = 5,
+		s_score_drop = 0,
+		ai_arg = {},
+		alert_range = {}
+	},
+	[1150021] = {
+		appear_story = "LINGDONG19",
+		name = "主力舰队",
+		ai = 0,
+		prefab = "zl1",
+		c_score_drop = 0,
+		ai_move = 0,
+		appear_guide = "NG0012",
+		id = 1150021,
+		enemy_point = 8,
+		s_score_drop = 0,
+		ai_arg = {},
+		alert_range = {}
+	},
+	[1150022] = {
+		appear_story = "LINGDONG19",
+		name = "航空舰队",
+		ai = 0,
+		prefab = "hm1",
+		c_score_drop = 0,
+		ai_move = 0,
+		appear_guide = "NG0012",
+		id = 1150022,
+		enemy_point = 10,
+		s_score_drop = 0,
+		ai_arg = {},
+		alert_range = {}
+	},
 	all = {
 		1150001,
 		1150002,
@@ -1536,7 +1590,10 @@ pg.specialunit_template = {
 		1150013,
 		1150014,
 		1150015,
-		1150016
+		1150016,
+		1150020,
+		1150021,
+		1150022
 	}
 }
 

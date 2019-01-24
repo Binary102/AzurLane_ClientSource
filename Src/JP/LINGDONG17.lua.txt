@@ -95,7 +95,7 @@ return {
 			side = 0,
 			nameColor = "#D6341DFF",
 			dir = 1,
-			say = "…（無言に顔をそっぽ向く）",
+			say = "…（無言で顔を背ける）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -325,7 +325,7 @@ return {
 			side = 1,
 			nameColor = "#D6341DFF",
 			dir = 1,
-			say = "どうやらこちらの計算に間違えがあったようだ…",
+			say = "どうやらこちらの計算に間違いがあったようだ…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

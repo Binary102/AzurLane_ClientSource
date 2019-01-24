@@ -77,14 +77,10 @@ slot0.getItems = function (slot0)
 	return slot0:filterItems(true), slot0:filterItems(false)
 end
 
-slot0.canOpen = function (slot0, slot1)
-	if not slot1 then
-		return true
-	else
-		return _.all(slot1:getMainItems(), function (slot0)
-			return slot0.surplus == 0
-		end)
-	end
+slot0.canOpenNext = function (slot0)
+	return _.all(slot0:getMainItems(), function (slot0)
+		return slot0.surplus == 0
+	end)
 end
 
 return slot0

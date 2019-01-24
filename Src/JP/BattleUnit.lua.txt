@@ -64,6 +64,8 @@ slot9.Init = function (slot0)
 	slot0._GCDTimerList = {}
 	slot0._buffList = {}
 	slot0._labelTagList = {}
+	slot0._sonarDetectedCount = 0
+	slot0._sonarDuration = 0
 end
 
 slot9.Update = function (slot0, slot1)
@@ -174,19 +176,26 @@ slot9.GetAllTagCount = function (slot0)
 end
 
 slot9.Detected = function (slot0, slot1)
-	slot0._sonarDetected = true
+	slot0._sonarDetectedCount = slot0._sonarDetectedCount + 1
+	slot0._sonarDetectedStartTime = slot0._sonarDetectedStartTime or pg.TimeMgr.GetInstance():GetCombatTime()
+	slot0._sonarDuration = slot0._sonarDuration + slot1
 
 	slot0:DispatchEvent(slot0.Event.New(slot1.SUBMARINE_DETECTED, {
-		duration = slot1 * 0.5
+		duration = (slot0._sonarDuration - (pg.TimeMgr.GetInstance():GetCombatTime() - slot0._sonarDetectedStartTime)) * 0.5
 	}))
 end
 
 slot9.Undetected = function (slot0)
-	slot0._sonarDetected = false
+	slot0._sonarDetectedCount = math.max(0, slot0._sonarDetectedCount - 1)
 
-	slot0:DispatchEvent(slot0.Event.New(slot1.SUBMARINE_DETECTED, {
-		detected = false
-	}))
+	if slot0._sonarDetectedCount == 0 then
+		slot0._sonarDetectedStartTime = nil
+		slot0._sonarDuration = 0
+
+		slot0:DispatchEvent(slot0.Event.New(slot1.SUBMARINE_DETECTED, {
+			detected = false
+		}))
+	end
 end
 
 slot9.GetSingleWeaponTagCount = function (slot0, slot1)
@@ -216,11 +225,11 @@ slot9.SendAttackTrigger = function (slot0)
 end
 
 slot9.HandleDamageToDeath = function (slot0)
-	slot0:SetDeathReason(slot0.UnitDeathReason.DESTRUCT)
 	slot0:UpdateHP(math.floor(-slot0._currentHP), {
 		isMiss = false,
 		isCri = true,
-		isHeal = false
+		isHeal = false,
+		damageReason = slot0.UnitDeathReason.DESTRUCT
 	})
 end
 
@@ -269,6 +278,7 @@ slot9.UpdateHP = function (slot0, slot1, slot2, slot3, slot4)
 	slot0:DispatchEvent(slot2.Event.New(slot3.UPDATE_HP, slot13))
 
 	if not slot0:IsAlive() and slot10 then
+		slot0:SetDeathReason(slot2.damageReason)
 		slot0:DeadAction()
 	end
 
@@ -315,6 +325,12 @@ end
 
 slot9.GetDeathReason = function (slot0)
 	return slot0._deathReason or slot0.UnitDeathReason.KILLED
+end
+
+slot9.DispatchScorePoint = function (slot0, slot1)
+	slot0:DispatchEvent(slot0.Event.New(slot0.Battle.BattleUnitEvent.UPDATE_SCORE, {
+		score = slot1
+	}))
 end
 
 slot9.SetTemplate = function (slot0, slot1, slot2)
@@ -367,6 +383,20 @@ end
 
 slot9.GetLabelTag = function (slot0)
 	return slot0._labelTagList
+end
+
+slot9.ContainsLabelTag = function (slot0, slot1)
+	if slot0._labelTagList == nil then
+		return false
+	end
+
+	for slot5, slot6 in ipairs(slot1) do
+		if table.contains(slot0._labelTagList, slot6) then
+			return true
+		end
+	end
+
+	return false
 end
 
 slot9.AddLabelTag = function (slot0, slot1)
@@ -1160,7 +1190,7 @@ slot9.GetDiveInvisible = function (slot0)
 end
 
 slot9.GetDiveDetected = function (slot0)
-	return slot0:GetDiveInvisible() and slot0._sonarDetected
+	return slot0:GetDiveInvisible() and slot0._sonarDetectedCount > 0
 end
 
 slot9.GetRaidDuration = function (slot0)

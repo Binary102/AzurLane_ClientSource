@@ -823,6 +823,21 @@ pg.memory_group = {
 			641
 		}
 	},
+	[149] = {
+		title = "ワイワイ旧正月！",
+		type = 2,
+		id = 149,
+		icon = "title_event",
+		memories = {
+			677,
+			678,
+			679,
+			680,
+			681,
+			682,
+			683
+		}
+	},
 	[201] = {
 		title = "『装甲騎兵ボトムズ』コラボシナリオ",
 		type = 2,
@@ -1346,6 +1361,81 @@ pg.memory_group = {
 			612
 		}
 	},
+	[535] = {
+		title = "人見知りの黒猫",
+		type = 3,
+		id = 535,
+		icon = "title_chara_chuchun",
+		memories = {
+			642,
+			643,
+			644,
+			645,
+			646,
+			647,
+			648
+		}
+	},
+	[536] = {
+		title = "妹の成長期？！",
+		type = 3,
+		id = 536,
+		icon = "title_chara_wensensi",
+		memories = {
+			649,
+			650,
+			651,
+			652,
+			653,
+			654,
+			655
+		}
+	},
+	[537] = {
+		title = "銃弾と、愛を込めて",
+		type = 3,
+		id = 537,
+		icon = "title_chara_xiefeierde",
+		memories = {
+			656,
+			657,
+			658,
+			659,
+			660,
+			661,
+			662
+		}
+	},
+	[538] = {
+		title = "天狼星占坑",
+		type = 3,
+		id = 538,
+		icon = "title_chara_tianlangxing",
+		memories = {
+			663,
+			664,
+			665,
+			666,
+			667,
+			668,
+			669
+		}
+	},
+	[539] = {
+		title = "厌战占坑",
+		type = 3,
+		id = 539,
+		icon = "title_chara_yanzhan",
+		memories = {
+			670,
+			671,
+			672,
+			673,
+			674,
+			675,
+			676
+		}
+	},
 	all = {
 		1,
 		2,
@@ -1397,6 +1487,7 @@ pg.memory_group = {
 		146,
 		147,
 		148,
+		149,
 		201,
 		501,
 		502,
@@ -1430,7 +1521,12 @@ pg.memory_group = {
 		531,
 		532,
 		533,
-		534
+		534,
+		535,
+		536,
+		537,
+		538,
+		539
 	}
 }
 

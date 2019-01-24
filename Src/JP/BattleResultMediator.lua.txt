@@ -71,6 +71,7 @@ slot0.register = function (slot0)
 				table.insert(slot10, slot20)
 			end
 		end
+	elseif slot9 == SYSTEM_DODGEM then
 	else
 		slot10 = slot6:getShipsByFleet(slot5:getFleetById(slot11))
 	end
@@ -117,11 +118,18 @@ slot0.register = function (slot0)
 				slot1:showExtraChapterActSocre()
 			end
 
-			if getProxy(ChapterProxy):getActiveChapter() and slot5:existOni() and _.any(slot5.fleets, function (slot0)
-				return slot0:getFleetType() == FleetType.Submarine
-			end) then
-				slot5:clearSubmarineFleet()
-				slot4:updateChapter(slot5)
+			if getProxy(ChapterProxy):getActiveChapter() then
+				if slot5:existOni() then
+					slot5:clearSubmarineFleet()
+					slot4:updateChapter(slot5)
+				elseif slot5:isPlayingWithBombEnemy() then
+					slot5.fleets = {
+						slot5.fleet
+					}
+					slot5.findex = 1
+
+					slot4:updateChapter(slot5)
+				end
 			end
 		elseif slot0 == SYSTEM_SHAM then
 			slot2 = slot1:getContextByMediator(LevelMediator2)

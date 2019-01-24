@@ -2529,6 +2529,47 @@ pg.expedition_data_by_map = {
 			}
 		}
 	},
+	[1130100] = {
+		map = 1130100,
+		name = "月夜の開幕曲|| ||CHAPTER SP||S.P.",
+		bgm = "level02",
+		type = 3,
+		on_activity = 10186,
+		title = "SP",
+		drop_by_map_display = "",
+		enter_story = "",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "",
+		cloud_suffix = "white",
+		bg = "Map_1130000",
+		destory_icon_suffix = "blue",
+		animtor = 0,
+		bind_map = 1130100,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
 	[1140001] = {
 		map = 1140001,
 		name = "光と影のアイリス-前編|| ||CHAPTER EX||E.X.",
@@ -3183,6 +3224,211 @@ pg.expedition_data_by_map = {
 			}
 		}
 	},
+	[1190000] = {
+		map = 1190000,
+		name = "凛冽なりし冬の王冠-前編|| ||CHAPTER EX||E.X.",
+		bgm = "Story-6",
+		type = 4,
+		on_activity = 10190,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "LINGDONG01",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "icestorm",
+		cloud_suffix = "",
+		bg = "Map_1090000",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1190010,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1190001] = {
+		map = 1190001,
+		name = "凛冽なりし冬の王冠-後編|| ||CHAPTER EX||E.X.",
+		bgm = "level03",
+		type = 4,
+		on_activity = 10191,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "LINGDONG11",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "icestorm_hard",
+		cloud_suffix = "",
+		bg = "Map_1090001",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1190011,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1190010] = {
+		map = 1190010,
+		name = "凛冽なりし冬の王冠-前編|| ||CHAPTER EX||E.X.",
+		bgm = "Story-6",
+		type = 5,
+		on_activity = 10190,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "LINGDONG01",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "icestorm",
+		cloud_suffix = "",
+		bg = "Map_1090000",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1190000,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1190011] = {
+		map = 1190011,
+		name = "凛冽なりし冬の王冠-後編|| ||CHAPTER EX||E.X.",
+		bgm = "level03",
+		type = 5,
+		on_activity = 10191,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "LINGDONG11",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "icestorm_hard",
+		cloud_suffix = "",
+		bg = "Map_1090001",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1190001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1190021] = {
+		map = 1190021,
+		name = "凛冽なりし冬の王冠·EX|| ||CHAPTER EX||E.X.",
+		bgm = "level03",
+		type = 8,
+		on_activity = 10191,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "icestorm_hard",
+		cloud_suffix = "",
+		bg = "Map_1090001",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1190011,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
 	[2100000] = {
 		map = 2100000,
 		name = "『紅染の来訪者』-前編|| ||CHAPTER EX||E.X.",
@@ -3406,6 +3652,7 @@ pg.expedition_data_by_map = {
 		1120012,
 		1120021,
 		1130000,
+		1130100,
 		1140001,
 		1140002,
 		1140011,
@@ -3424,6 +3671,11 @@ pg.expedition_data_by_map = {
 		1180011,
 		1180012,
 		1180021,
+		1190000,
+		1190001,
+		1190010,
+		1190011,
+		1190021,
 		2100000,
 		2100001,
 		2100010,

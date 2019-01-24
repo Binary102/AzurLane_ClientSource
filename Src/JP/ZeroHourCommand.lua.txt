@@ -48,21 +48,7 @@ class("ZeroHourCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 	end
 
 	for slot18, slot19 in ipairs(getProxy(ActivityProxy).getPanelActivities(slot14)) do
-		slot19.autoActionForbidden = false
-
-		if slot19.type == ActivityConst.ACTIVITY_TYPE_MONTHSIGN then
-			if (os.server_date("*t", pg.TimeMgr.GetInstance():GetServerTime()).year == slot19.data1 + 1 and slot20.month == 1) or (slot20.year == slot19.data1 and slot20.month == slot19.data2 + 1) then
-				slot19.data1 = slot20.year
-				slot19.data2 = slot20.month
-				slot19.data1_list = {}
-			end
-		elseif slot19.type == ActivityConst.ACTIVITY_TYPE_BB then
-			slot19.data2 = 0
-		elseif slot19.type == ActivityConst.ACTIVITY_TYPE_LOTTERY_AWARD then
-			slot19.data2 = 0
-		end
-
-		if slot19.type == ActivityConst.ACTIVITY_TYPE_HITMONSTERNIAN then
+		if slot20() then
 			slot14:updateActivity(slot19)
 		end
 	end
@@ -119,6 +105,10 @@ class("ZeroHourCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 		slot24.data1KeyValueList = {}
 
 		slot22:updateActivity(slot24)
+	end
+
+	if slot22:getActivityByType(ActivityConst.ACTIVITY_TYPE_MONOPOLY) and not slot25:isEnd() then
+		slot22:updateActivity(slot25)
 	end
 end
 

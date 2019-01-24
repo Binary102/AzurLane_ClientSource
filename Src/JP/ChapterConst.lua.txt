@@ -10,6 +10,7 @@ slot0.TypeTransport = 3
 slot0.TypeMainSub = 4
 slot0.TypeExtra = 5
 slot0.TypeSpHunt = 7
+slot0.TypeSpBomb = 8
 slot0.SubjectPlayer = 1
 slot0.SubjectChampion = 2
 slot0.MaxRow = 10
@@ -35,6 +36,7 @@ slot0.AttachTransport_Target = 18
 slot0.AttachChampionSub = 19
 slot0.AttachOni = 20
 slot0.AttachOni_Target = 21
+slot0.AttachBomb_Enemy = 24
 slot0.Story = 1
 slot0.StoryObstacle = 2
 slot0.StoryTrigger = 3
@@ -92,7 +94,7 @@ slot0.NeedMarkAsLurk = function (slot0)
 	if slot0.attachment == slot0.AttachBox then
 		return slot0.flag == 0 and (pg.box_data_template[slot0.attachmentId].type == slot0.BoxDrop or pg.box_data_template[slot0.attachmentId].type == slot0.BoxStrategy or pg.box_data_template[slot0.attachmentId].type == slot0.BoxSupply or pg.box_data_template[slot0.attachmentId].type == slot0.BoxEnemy)
 	else
-		return slot0.flag == 0 and (slot0.attachment == slot0.AttachEnemy or slot0.attachment == slot0.AttachElite or slot0.attachment == slot0.AttachBoss or slot0.attachment == slot0.AttachStory or slot0.attachment == slot0.AttachRival)
+		return slot0.flag == 0 and (slot0.attachment == slot0.AttachEnemy or slot0.attachment == slot0.AttachElite or slot0.attachment == slot0.AttachBoss or slot0.attachment == slot0.AttachStory or slot0.attachment == slot0.AttachRival or slot0.attachment == slot0.AttachBomb_Enemy)
 	end
 end
 

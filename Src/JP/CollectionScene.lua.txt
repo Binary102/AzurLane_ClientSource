@@ -894,7 +894,7 @@ slot0.onInitMemory = function (slot0, slot1)
 		if slot0.info then
 			if slot0.isGroup then
 				slot1:showSubMemories(slot0.info)
-			elseif slot0.info.is_open == 1 or pg.StoryMgr.GetInstance():IsPlayed(slot0.info.story) then
+			elseif slot0.info.is_open == 1 or pg.StoryMgr.GetInstance():IsPlayed(slot0.info.story, true) then
 				slot1:playMemory(slot0.info)
 			end
 		end

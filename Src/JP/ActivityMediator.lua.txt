@@ -12,10 +12,27 @@ slot0.CLOSE_HITMONSTERNIAN = "event close hit monster nian"
 slot0.EVENT_COLORING_ACHIEVE = "event coloring achieve"
 slot0.ON_TASK_SUBMIT = "event on task submit"
 slot0.ON_TASK_GO = "event on task go"
+slot0.OPEN_MONOPOLY = "event open monopoly"
+slot0.CLOSE_MONOPOLY = "event close monopoly"
+slot0.GO_DODGEM = "event go dodgem"
 
 slot0.register = function (slot0)
 	slot0.UIAvalibleCallbacks = {}
 
+	slot0:bind(slot0.OPEN_MONOPOLY, function ()
+		if slot0.UIAvalible then
+			slot0()
+		else
+			table.insert(slot0.UIAvalibleCallbacks, slot0)
+		end
+	end)
+	slot0:bind(slot0.CLOSE_MONOPOLY, function ()
+		if getProxy(ContextProxy):getContextByMediator(MonopolyMediator) then
+			slot0:sendNotification(GAME.REMOVE_LAYERS, {
+				context = slot1
+			})
+		end
+	end)
 	slot0:bind(slot0.EVENT_OPERATION, function (slot0, slot1)
 		slot0:sendNotification(GAME.ACTIVITY_OPERATION, slot1)
 	end)
@@ -97,6 +114,12 @@ slot0.register = function (slot0)
 			taskVO = slot1
 		})
 	end)
+	slot0:bind(slot0.GO_DODGEM, function (slot0)
+		slot0:sendNotification(GAME.BEGIN_STAGE, {
+			system = SYSTEM_DODGEM,
+			stageId = ys.Battle.BattleConfig.BATTLE_DODGEM_STAGES[math.random(#ys.Battle.BattleConfig.BATTLE_DODGEM_STAGES)]
+		})
+	end)
 
 	slot1 = getProxy(ActivityProxy)
 
@@ -124,7 +147,8 @@ slot0.listNotificationInterests = function (slot0)
 		ActivityProxy.ACTIVITY_SHOW_BB_RESULT,
 		ActivityProxy.ACTIVITY_SHOW_LOTTERY_AWARD_RESULT,
 		GAME.COLORING_ACHIEVE_DONE,
-		GAME.SUBMIT_TASK_DONE
+		GAME.SUBMIT_TASK_DONE,
+		GAME.BEGIN_STAGE_DONE
 	}
 end
 
@@ -137,15 +161,7 @@ slot0.handleNotification = function (slot0, slot1)
 		end
 
 		slot0.viewComponent:updateActivity(slot3)
-
-		if ActivityConst.AOERLIANG_TASK_ID == slot3.id then
-			slot0.viewComponent:update_task_list_auto_aoerliang(slot3)
-		end
 	elseif slot2 == ActivityProxy.ACTIVITY_OPERATION_DONE then
-		if ActivityConst.AOERLIANG_TASK_ID == slot3 then
-			return
-		end
-
 		slot0:showNextActivity()
 	elseif slot2 == ActivityProxy.ACTIVITY_SHOW_AWARDS then
 		slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3.awards, slot3.callback)
@@ -159,13 +175,21 @@ slot0.handleNotification = function (slot0, slot1)
 				slot0.viewComponent:flush_coloring()
 			end)
 		end)
-	elseif slot2 == GAME.SUBMIT_TASK_DONE then
-		getProxy(TaskProxy).setOnAchieved(slot4, true)
-		slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3, function ()
-			slot0:setOnAchieved(false)
-			slot0.setOnAchieved:addTmpToTask()
-			slot1.viewComponent:updateTaskLayers()
-		end)
+	else
+		if slot2 == GAME.SUBMIT_TASK_DONE then
+			getProxy(TaskProxy).setOnAchieved(slot4, true)
+			slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3, function ()
+				slot0:setOnAchieved(false)
+				slot0.setOnAchieved:addTmpToTask()
+				slot1.viewComponent:updateTaskLayers()
+			end)
+
+			return
+		end
+
+		if slot2 == GAME.BEGIN_STAGE_DONE then
+			slot0:sendNotification(GAME.GO_SCENE, SCENE.COMBATLOAD, slot3)
+		end
 	end
 end
 

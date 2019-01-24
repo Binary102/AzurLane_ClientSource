@@ -3,24 +3,32 @@ class("TaskGoCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 		return
 	end
 
-	if slot3:getConfig("scene") and #slot6 > 0 then
-		if slot6[1] == "ACTIVITY_MAP" then
-			slot13.mapIdx, slot13.chapterId = getProxy(ChapterProxy):getLastMapForActivity()
+	slot6 = getProxy(ChapterProxy)
+
+	if slot3:getConfig("scene") and #slot7 > 0 then
+		if slot7[1] == "ACTIVITY_MAP" then
+			slot8, slot9 = slot6:getLastMapForActivity()
+
+			if not getProxy(ActivityProxy):getActivityById(pg.expedition_data_by_map[slot8].on_activity) or slot10:isEnd() then
+				pg.TipsMgr:GetInstance():ShowTips(i18n("common_activity_end"))
+
+				return
+			end
 
 			pg.m02:sendNotification(GAME.GO_SCENE, SCENE.LEVEL, {
-				chapterId = slot8,
-				mapIdx = slot7
+				chapterId = slot9,
+				mapIdx = slot8
 			})
-		elseif SCENE[slot6[1]] then
-			slot0:sendNotification(GAME.GO_SCENE, SCENE[slot6[1]], slot6[2])
+		elseif SCENE[slot7[1]] then
+			slot0:sendNotification(GAME.GO_SCENE, SCENE[slot7[1]], slot7[2])
 		end
 
 		return
 	end
 
-	slot8 = slot3:getConfigTable().sub_type
+	slot9 = slot3:getConfigTable().sub_type
 	slot11 = {
-		chapterId = getProxy(ChapterProxy).getActiveChapter(slot9) and slot10.id,
+		chapterId = slot6:getActiveChapter() and slot10.id,
 		mapIdx = slot10 and slot10:getConfig("map")
 	}
 	slot12 = {
@@ -34,9 +42,9 @@ class("TaskGoCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 		inEvent = true,
 		inAdmiral = true
 	}
-	slot14 = math.fmod(slot8, 10)
+	slot14 = math.fmod(slot9, 10)
 
-	if math.modf(slot8 / 10) == 0 then
+	if math.modf(slot9 / 10) == 0 then
 		slot0:sendNotification(GAME.GO_SCENE, SCENE.LEVEL, slot11)
 	elseif slot13 == 1 then
 		if slot14 == 9 then
@@ -45,7 +53,7 @@ class("TaskGoCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 			slot0:sendNotification(GAME.GO_SCENE, SCENE.LEVEL, slot11)
 		end
 	elseif slot13 == 2 then
-		slot15 = slot7.target_id_for_client
+		slot15 = slot8.target_id_for_client
 
 		if slot14 == 0 and slot15 ~= 0 then
 			slot16 = Chapter.New({
@@ -65,12 +73,12 @@ class("TaskGoCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 		elseif slot14 == 7 then
 			slot0:sendNotification(GAME.GO_SCENE, SCENE.MILITARYEXERCISE)
 		elseif slot14 == 8 then
-			if slot9:getShamChapter() and slot16.active then
+			if slot6:getShamChapter() and slot16.active then
 				slot0:sendNotification(GAME.GO_SCENE, SCENE.LEVEL, {
 					chapterVO = slot16
 				})
 			else
-				slot0:sendNotification(GAME.GO_SCENE, SCENE.LEVEL)
+				slot0:sendNotification(GAME.GO_SCENE, SCENE.LEVEL, slot11)
 			end
 		elseif slot14 == 9 then
 			slot0:sendNotification(GAME.BEGIN_STAGE, {
@@ -81,7 +89,7 @@ class("TaskGoCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 			slot0:sendNotification(GAME.GO_SCENE, SCENE.LEVEL, slot11)
 		else
 			if type(slot15) == "table" then
-				slot16 = slot9:getMaps()
+				slot16 = slot6:getMaps()
 
 				if _.all(slot15, function (slot0)
 					return slot0[Chapter.New({
@@ -182,6 +190,12 @@ class("TaskGoCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 			slot0:sendNotification(GAME.GO_SCENE, SCENE.SHOP, {
 				warp = ShopsLayer.TYPE_SHAM_SHOP
 			})
+		elseif slot14 == 1 then
+			slot0:sendNotification(GAME.GO_SCENE, SCENE.LEVEL, slot11)
+		elseif slot14 == 2 then
+			slot0:sendNotification(GAME.GO_SCENE, SCENE.SHOP, {
+				warp = ShopsLayer.TYPE_SHOP_STREET
+			})
 		end
 	elseif slot13 == 13 then
 		if slot14 == 0 then
@@ -206,7 +220,7 @@ class("TaskGoCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 			})
 		end
 	elseif slot13 == 102 then
-		slot15 = slot7.target_id_for_client
+		slot15 = slot8.target_id_for_client
 
 		if slot14 == 0 and slot15 ~= 0 then
 			slot16 = Chapter.New({
@@ -223,7 +237,7 @@ class("TaskGoCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 			end
 		else
 			if type(slot15) == "table" then
-				slot16 = slot9:getMaps()
+				slot16 = slot6:getMaps()
 
 				if _.all(slot15, function (slot0)
 					return slot0[Chapter.New({

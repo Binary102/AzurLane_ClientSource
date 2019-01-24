@@ -37305,7 +37305,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[43060] = {
-		name = "試作203mmSKC三連装砲 ",
+		name = "試作203mmSKC三連装砲",
 		type = 3,
 		id = 43060,
 		tech = 0,
@@ -43648,6 +43648,96 @@ pg.equip_data_statistics = {
 		},
 		property_rate = {}
 	},
+	[60371] = {
+		name = "0",
+		type = 99,
+		nationality = 0,
+		speciality = "なし",
+		range = 0,
+		angle = 0,
+		tech = 1,
+		ambush_extra = 0,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "",
+		avoid_extra = 0,
+		rarity = 1,
+		descrip = "外观空袭展示用",
+		scatter = "0",
+		ammo = "なし",
+		value_3 = 0,
+		id = 60371,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {
+			60371
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {}
+	},
+	[60372] = {
+		id = 60372,
+		base = 60371,
+		weapon_id = {
+			60372
+		},
+		property_rate = {}
+	},
+	[60373] = {
+		id = 60373,
+		base = 60371,
+		weapon_id = {
+			60373
+		},
+		property_rate = {}
+	},
+	[60381] = {
+		name = "0",
+		type = 99,
+		nationality = 0,
+		speciality = "なし",
+		range = 0,
+		angle = 0,
+		tech = 1,
+		ambush_extra = 0,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "",
+		avoid_extra = 0,
+		rarity = 1,
+		descrip = "外观空袭展示用",
+		scatter = "0",
+		ammo = "なし",
+		value_3 = 0,
+		id = 60381,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {
+			60381
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {}
+	},
+	[60382] = {
+		id = 60382,
+		base = 60381,
+		weapon_id = {
+			60382
+		},
+		property_rate = {}
+	},
+	[60383] = {
+		id = 60383,
+		base = 60381,
+		weapon_id = {
+			60383
+		},
+		property_rate = {}
+	},
 	[61007] = {
 		name = "0",
 		type = 1,
@@ -45304,6 +45394,43 @@ pg.equip_data_statistics = {
 		base = 71161,
 		weapon_id = {
 			71162
+		},
+		property_rate = {}
+	},
+	[71171] = {
+		name = "0",
+		type = 1,
+		nationality = 0,
+		speciality = "なし",
+		range = 0,
+		angle = 0,
+		tech = 1,
+		ambush_extra = 0,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "",
+		avoid_extra = 0,
+		rarity = 1,
+		descrip = "スキル弾幕",
+		scatter = "0",
+		ammo = "なし",
+		value_3 = 0,
+		id = 71171,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {
+			71171
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {}
+	},
+	[71172] = {
+		id = 71172,
+		base = 71171,
+		weapon_id = {
+			71172
 		},
 		property_rate = {}
 	},
@@ -48005,6 +48132,43 @@ pg.equip_data_statistics = {
 		base = 79341,
 		weapon_id = {
 			79342
+		},
+		property_rate = {}
+	},
+	[79361] = {
+		name = "0",
+		type = 1,
+		nationality = 0,
+		speciality = "なし",
+		range = 0,
+		angle = 0,
+		tech = 1,
+		ambush_extra = 0,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "",
+		avoid_extra = 0,
+		rarity = 1,
+		descrip = "スキル弾幕",
+		scatter = "0",
+		ammo = "なし",
+		value_3 = 0,
+		id = 79361,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {
+			79361
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {}
+	},
+	[79362] = {
+		id = 79362,
+		base = 79361,
+		weapon_id = {
+			79362
 		},
 		property_rate = {}
 	},
@@ -53283,6 +53447,12 @@ pg.equip_data_statistics = {
 		60361,
 		60362,
 		60363,
+		60371,
+		60372,
+		60373,
+		60381,
+		60382,
+		60383,
 		61007,
 		61008,
 		61009,
@@ -53367,6 +53537,8 @@ pg.equip_data_statistics = {
 		71152,
 		71161,
 		71162,
+		71171,
+		71172,
 		71211,
 		71212,
 		71221,
@@ -53513,6 +53685,8 @@ pg.equip_data_statistics = {
 		79332,
 		79341,
 		79342,
+		79361,
+		79362,
 		90000,
 		90001,
 		90002,

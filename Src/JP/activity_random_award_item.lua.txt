@@ -1050,6 +1050,24 @@ pg.activity_random_award_item = {
 		commodity_id = 18013,
 		num = 3
 	},
+	[100028] = {
+		id = 100028,
+		resource_category = 4,
+		commodity_id = 201131,
+		num = 1
+	},
+	[100029] = {
+		id = 100029,
+		resource_category = 2,
+		commodity_id = 18033,
+		num = 3
+	},
+	[100030] = {
+		id = 100030,
+		resource_category = 2,
+		commodity_id = 18023,
+		num = 3
+	},
 	all = {
 		1,
 		2,
@@ -1225,7 +1243,10 @@ pg.activity_random_award_item = {
 		100024,
 		100025,
 		100026,
-		100027
+		100027,
+		100028,
+		100029,
+		100030
 	}
 }
 

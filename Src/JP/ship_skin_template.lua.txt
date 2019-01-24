@@ -19244,7 +19244,7 @@ pg.ship_skin_template = {
 		}
 	},
 	[202171] = {
-		name = "Going Underground",
+		name = "Dark Bolt",
 		bullet_skin_main = "",
 		ship_group = 20217,
 		illustrator2 = -1,

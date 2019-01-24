@@ -16,7 +16,9 @@ slot1.DoDataEffect = function (slot0, slot1, slot2)
 end
 
 slot1.DoDataEffectWithoutTarget = function (slot0, slot1)
-	slot0:DoDataEffect(slot1, nil)
+	if slot0:_GetWeapon(slot1) then
+		slot2:SingleFire()
+	end
 end
 
 slot1._GetWeapon = function (slot0, slot1)

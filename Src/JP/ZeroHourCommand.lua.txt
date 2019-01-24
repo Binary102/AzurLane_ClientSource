@@ -106,10 +106,6 @@ class("ZeroHourCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 
 		slot22:updateActivity(slot24)
 	end
-
-	if slot22:getActivityByType(ActivityConst.ACTIVITY_TYPE_MONOPOLY) and not slot25:isEnd() then
-		slot22:updateActivity(slot25)
-	end
 end
 
 return class("ZeroHourCommand", pm.SimpleCommand)

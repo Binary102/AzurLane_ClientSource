@@ -253,13 +253,6 @@ class("BeginStageCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 					end
 				end)
 			end
-		elseif slot3 == SYSTEM_DODGEM then
-			slot0:sendNotification(GAME.BEGIN_STAGE_DONE, {
-				prefabFleet = ys.Battle.BattleDataFunction.GetDungeonTmpDataByID(slot9).fleet_prefab,
-				stageId = slot2.stageId,
-				system = slot3,
-				drops = {}
-			})
 		end
 	end
 end

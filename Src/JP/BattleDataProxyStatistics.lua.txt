@@ -55,17 +55,6 @@ ys.Battle.BattleDataProxy.RivalInit = function (slot0, slot1)
 	end
 end
 
-ys.Battle.BattleDataProxy.DodgemCountInit = function (slot0)
-	slot0._dodgemStatistics = {
-		kill = 0,
-		combo = 0,
-		miss = 0,
-		fail = 0,
-		score = 0,
-		maxCombo = 0
-	}
-end
-
 ys.Battle.BattleDataProxy.SetFlagShipID = function (slot0, slot1)
 	if slot1 then
 		slot0._statistics._flagShipID = slot1:GetAttrByName("id")
@@ -304,57 +293,6 @@ ys.Battle.BattleDataProxy.CalcChallengeScore = function (slot0, slot1)
 	end
 
 	slot0._statistics._totalTime = slot0._totalTime
-end
-
-ys.Battle.BattleDataProxy.CalcDodgemCount = function (slot0, slot1)
-	slot3 = slot1:GetTemplate().type
-
-	if slot1:GetDeathReason() == ys.Battle.BattleConst.UnitDeathReason.CRUSH then
-		slot0._dodgemStatistics.kill = slot0._dodgemStatistics.kill + 1
-
-		if slot3 == ShipType.JinBi then
-			slot0._dodgemStatistics.combo = slot0._dodgemStatistics.combo + 1
-			slot0._dodgemStatistics.maxCombo = math.max(slot0._dodgemStatistics.maxCombo, slot0._dodgemStatistics.combo)
-			slot0._dodgemStatistics.score = slot0._dodgemStatistics.score + slot0:GetScorePoint()
-
-			slot0:DispatchEvent(ys.Event.New(slot0.UPDATE_DODGEM_SCORE, {
-				totalScore = slot0._dodgemStatistics.score + slot0.GetScorePoint()
-			}))
-		elseif slot3 == ShipType.ZiBao then
-			slot0._dodgemStatistics.fail = slot0._dodgemStatistics.fail + 1
-			slot0._dodgemStatistics.combo = 0
-		end
-
-		slot0:DispatchEvent(ys.Event.New(slot0.UPDATE_DODGEM_COMBO, {
-			combo = slot0._dodgemStatistics.combo
-		}))
-	elseif slot3 == ShipType.JinBi then
-		slot0._dodgemStatistics.miss = slot0._dodgemStatistics.miss + 1
-	end
-end
-
-ys.Battle.BattleDataProxy.GetScorePoint = function (slot0)
-	slot1 = nil
-
-	if slot0._dodgemStatistics.combo == 1 then
-		slot1 = 1
-	elseif slot0._dodgemStatistics.combo == 2 then
-		slot1 = 2
-	elseif slot0._dodgemStatistics.combo > 2 then
-		slot1 = 3
-	end
-
-	return slot1
-end
-
-ys.Battle.BattleDataProxy.CalcDodgemScore = function (slot0)
-	if slot0.BATTLE_DODGEM_PASS_SCORE <= slot0._dodgemStatistics.score then
-		slot0._statistics._battleScore = slot1.BattleScore.S
-	else
-		slot0._statistics._battleScore = slot1.BattleScore.B
-	end
-
-	slot0._statistics.dodgemResult = slot0._dodgemStatistics
 end
 
 return

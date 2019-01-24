@@ -177,7 +177,7 @@ slot0.displayAwards = function (slot0)
 				return
 			end
 
-			if slot1.type == DROP_TYPE_RESOURCE or slot1.type == DROP_TYPE_ITEM or slot1.type == DROP_TYPE_VITEM then
+			if slot1.type == DROP_TYPE_RESOURCE or slot1.type == DROP_TYPE_ITEM then
 				slot0:emit(AwardInfoMediator.ON_ITEM, slot1.cfg.id)
 			elseif slot1.type == DROP_TYPE_FURNITURE then
 				slot0:emit(AwardInfoMediator.ON_FURNITURE, slot1.cfg.id)

@@ -50,14 +50,6 @@ class("AddItemCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 				end
 			elseif slot5 == 7 then
 				getProxy(ChapterProxy).remasterTickets = math.min(getProxy(ChapterProxy).remasterTickets + slot2.count, pg.gameset.reactivity_ticket_max.key_value)
-			elseif slot5 == 9 then
-				slot6 = getProxy(ActivityProxy)
-
-				if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_MONOPOLY) then
-					slot7.data1_list[1] = slot7.data1_list[1] + slot2.count
-
-					slot6:updateActivity(slot7)
-				end
 			end
 		else
 			slot3:addItemById(slot2.id, slot2.count)

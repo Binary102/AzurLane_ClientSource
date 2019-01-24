@@ -48,15 +48,6 @@ return {
 					}
 				},
 				{
-					triggerType = 6,
-					waveIndex = 222,
-					preWaves = {},
-					triggerParams = {
-						event = "HideSkillUI",
-						id = "B003"
-					}
-				},
-				{
 					triggerType = 1,
 					waveIndex = 202,
 					preWaves = {},
@@ -87,9 +78,8 @@ return {
 						887
 					},
 					triggerParams = {
-						id = "B002",
 						event = "ShowSkill3",
-						type = 1
+						id = 1
 					}
 				},
 				{
@@ -109,9 +99,8 @@ return {
 						885
 					},
 					triggerParams = {
-						id = "B002",
 						event = "ReleaseAfter",
-						type = 1
+						id = 1
 					}
 				},
 				{

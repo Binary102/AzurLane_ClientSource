@@ -363,11 +363,5 @@ ys.Battle.BattleConfig.BATTLE_SHADER = {
 	SEMI_TRANSPARENT = "assets/artresource/shader/unlit_colored_semitransparent.shader",
 	GRID_TRANSPARENT = "assets/artresource/shader/Skeleton-Colored_Additive.shader"
 }
-ys.Battle.BattleConfig.BATTLE_DODGEM_STAGES = {
-	1140101,
-	1140102,
-	1140103
-}
-ys.Battle.BattleConfig.BATTLE_DODGEM_PASS_SCORE = 10
 
 return

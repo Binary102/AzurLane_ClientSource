@@ -22,7 +22,7 @@ slot5.Initialize = function (slot0)
 end
 
 slot5.Init = function (slot0)
-	slot0:InitPopNumPool(slot0.Battle.BattlePopNumManager.CONTAINER_HP)
+	slot0:InitPopNumPool()
 
 	slot0._characterList = {}
 	slot0._bulletList = {}
@@ -48,14 +48,7 @@ slot5.InitPopNumPool = function (slot0)
 	slot0._popNumPool = slot0.Battle.BattlePopNumManager:GetInstance()
 	slot1 = slot0._state:GetUI()
 
-	slot0._popNumPool:Init(slot1:findTF("HP_POP"), slot1:findTF(slot0.Battle.BattlePopNumManager.CONTAINER_HP))
-end
-
-slot5.InitPopScorePool = function (slot0)
-	slot0._popNumPool = slot0.Battle.BattlePopNumManager:GetInstance()
-	slot1 = slot0._state:GetUI()
-
-	slot0._popNumPool:InitScroePop(slot1:findTF("HP_POP"), slot1:findTF(slot0.Battle.BattlePopNumManager.CONTAINER_SCORE))
+	slot0._popNumPool:Init(slot1:findTF("HP_POP"), slot1:findTF("HPTextContainer"))
 end
 
 slot5.InitFlagShipMark = function (slot0)
@@ -96,9 +89,6 @@ slot5.InitPlayerAntiSubArea = function (slot0)
 	slot0._anitSubArea:SetActive(false)
 
 	slot0._antiSubScanAnima = slot0._anitSubAreaTF:Find("Quad"):GetComponent(typeof(Animator))
-	slot0._anitSubAreaTFList = {
-		[slot0._anitSubAreaTF] = true
-	}
 end
 
 slot5.AddEvent = function (slot0)
@@ -212,27 +202,7 @@ slot5.updateSonarView = function (slot0, slot1)
 	end
 end
 
-slot5.onSonarScan = function (slot0, slot1)
-	if slot1.Data.indieSonar then
-		slot0._fxPool:GetFX("AntiSubArea").transform.localScale = Vector3(100, 0, 100)
-
-		SetActive(slot0._fxPool.GetFX("AntiSubArea").transform.Find(slot4, "static"), false)
-
-		slot5 = slot0._fxPool.GetFX("AntiSubArea").transform.Find(slot4, "Quad")
-		slot6 = slot5:GetComponent(typeof(Animator))
-		slot6.enabled = true
-
-		slot6:Play("antiSubZoom", -1, 0)
-
-		slot0._anitSubAreaTFList[slot0._fxPool.GetFX("AntiSubArea").transform] = true
-
-		slot5:GetComponent("DftAniEvent"):SetEndEvent(function (slot0)
-			slot0._anitSubAreaTFList[] = nil
-		end)
-
-		return
-	end
-
+slot5.onSonarScan = function (slot0)
 	if slot0._antiSubScanAnima and slot0._sonarActive then
 		slot0._antiSubScanAnima.enabled = true
 
@@ -358,10 +328,7 @@ end
 
 slot5.UpdateAntiAirArea = function (slot0)
 	slot0._antiAirAreaTF.position = slot0._leftFleetMotion:GetPos()
-
-	for slot4, slot5 in pairs(slot0._anitSubAreaTFList) do
-		slot4.position = slot0._leftFleetMotion:GetPos()
-	end
+	slot0._anitSubAreaTF.position = slot0._leftFleetMotion:GetPos()
 end
 
 slot5.AddBullet = function (slot0, slot1)
@@ -378,10 +345,6 @@ end
 
 slot5.GetBulletRoot = function (slot0)
 	return slot0._bulletContainer
-end
-
-slot5.EnablePopContainer = function (slot0, slot1, slot2)
-	setActive(slot0._state:GetUI():findTF(slot1), slot2)
 end
 
 slot5.AddPlayerCharacter = function (slot0, slot1)
@@ -508,8 +471,6 @@ slot5.Clear = function (slot0)
 	slot0._popNumPool:Clear()
 	slot0.Battle.BattleHPBarManager:GetInstance():Clear()
 	slot0.Battle.BattleArrowManager:GetInstance():Clear()
-
-	slot0._anitSubAreaTFList = nil
 end
 
 slot5.Dispose = function (slot0)

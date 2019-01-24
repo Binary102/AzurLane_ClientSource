@@ -241,9 +241,7 @@ ys.Battle.BattleConst.FXContainerIndex = {
 ys.Battle.BattleConst.UnitDeathReason = {
 	KILLED = 1,
 	LEAVE = 2,
-	DESTRUCT = 3,
-	TOUCHDOWN = 4,
-	CRUSH = 5
+	DESTRUCT = 3
 }
 ys.Battle.BattleConst.BattleScore = {
 	D = 0,

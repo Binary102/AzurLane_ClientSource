@@ -3,6 +3,31 @@ slot1 = ys.Battle.BattleConst
 slot2 = ys.Battle.BattleConfig
 ys.Battle.BattleDebugConsole = class("BattleDebugConsole")
 ys.Battle.BattleDebugConsole.__name = "BattleDebugConsole"
+ys.Battle.BattleDebugConsole.CalcDamageNormal = ys.Battle.BattleFormulas.CalculateDamage
+ys.Battle.BattleDebugConsole.CalcDamageNormalA2M = ys.Battle.BattleFormulas.CalculateDamageFromAircraftToMainShip
+ys.Battle.BattleDebugConsole.CalcDamageNormalS2M = ys.Battle.BattleFormulas.CalculateDamageFromShipToMainShip
+ys.Battle.BattleDebugConsole.CalcDamageNormalCrush = ys.Battle.BattleFormulas.CalculateCrashDamage
+
+ys.Battle.BattleDebugConsole.CalcDamageLock = function ()
+	return 0, {
+		false,
+		true,
+		false
+	}
+end
+
+ys.Battle.BattleDebugConsole.CalcDamageLockA2M = function ()
+	return 0
+end
+
+ys.Battle.BattleDebugConsole.CalcDamageLockS2M = function ()
+	return 0
+end
+
+ys.Battle.BattleDebugConsole.CalcDamageLockCrush = function ()
+	return 0, 0
+end
+
 ys.Battle.BattleDebugConsole.ProxyUpdateNormal = ys.Battle.BattleDataProxy.Update
 ys.Battle.BattleDebugConsole.ProxyUpdateAutoComponentNormal = ys.Battle.BattleDataProxy.UpdateAutoComponent
 ys.Battle.BattleDebugConsole.UPDATE_PLAYER_WEAPON = "updatePlayerWeapon"
@@ -187,16 +212,32 @@ ys.Battle.BattleDebugConsole.initComponent = function (slot0)
 	slot0._lockCrushDMG = slot0._common:Find("crush_damage")
 
 	onToggle(nil, slot0._lockCommonDMG, function (slot0)
-		slot0._dataProxy:SetupCalculateDamage((slot0 and slot0._dataProxy.SetupCalculateDamage.Battle.BattleFormulas.CalcDamageLock) or nil)
+		if slot0 then
+			slot0.Battle.BattleFormulas.CalculateDamage = slot1.CalcDamageLock
+		else
+			slot0.Battle.BattleFormulas.CalculateDamage = slot1.CalcDamageNormal
+		end
 	end, SFX_PANEL)
 	onToggle(nil, slot0._lockS2MDMG, function (slot0)
-		slot0._dataProxy:SetupDamageKamikazeAir((slot0 and slot0._dataProxy.SetupDamageKamikazeAir.Battle.BattleFormulas.CalcDamageLockA2M) or nil)
+		if slot0 then
+			slot0.Battle.BattleFormulas.CalculateDamageFromShipToMainShip = slot1.CalcDamageLockS2M
+		else
+			slot0.Battle.BattleFormulas.CalculateDamageFromShipToMainShip = slot1.CalcDamageNormalS2M
+		end
 	end, SFX_PANEL)
 	onToggle(nil, slot0._lockA2MDMG, function (slot0)
-		slot0._dataProxy:SetupDamageKamikazeShip((slot0 and slot0._dataProxy.SetupDamageKamikazeShip.Battle.BattleFormulas.CalcDamageLockS2M) or nil)
+		if slot0 then
+			slot0.Battle.BattleFormulas.CalculateDamageFromAircraftToMainShip = slot1.CalcDamageLockA2M
+		else
+			slot0.Battle.BattleFormulas.CalculateDamageFromAircraftToMainShip = slot1.CalcDamageNormalA2M
+		end
 	end, SFX_PANEL)
 	onToggle(nil, slot0._lockCrushDMG, function (slot0)
-		slot0._dataProxy:SetupDamageCrush((slot0 and slot0._dataProxy.SetupDamageCrush.Battle.BattleFormulas.CalcDamageLockCrush) or nil)
+		if slot0 then
+			slot0.Battle.BattleFormulas.CalculateCrashDamage = slot1.CalcDamageLockCrush
+		else
+			slot0.Battle.BattleFormulas.CalculateCrashDamage = slot1.CalcDamageNormalCrush
+		end
 	end, SFX_PANEL)
 
 	slot0._triggerWave = slot0._common:Find("wave_trigger")

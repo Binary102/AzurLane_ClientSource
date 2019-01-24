@@ -225,16 +225,6 @@ slot0.getPreheatAnim = function (slot0)
 	end
 end
 
-slot0.hasTailAction = function (slot0)
-	return slot0:getTailAction() ~= nil
-end
-
-slot0.getTailAction = function (slot0)
-	if slot0:isSpine() then
-		return slot0:getInterActionSpineCfg()[3][4]
-	end
-end
-
 slot0.hasAnimatorMask = function (slot0)
 	return slot0:getConfig("animator") and slot1[3]
 end

@@ -71,7 +71,6 @@ slot0.register = function (slot0)
 				table.insert(slot10, slot20)
 			end
 		end
-	elseif slot9 == SYSTEM_DODGEM then
 	else
 		slot10 = slot6:getShipsByFleet(slot5:getFleetById(slot11))
 	end

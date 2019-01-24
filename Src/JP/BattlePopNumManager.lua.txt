@@ -3,9 +3,6 @@ slot1 = require("Mgr/Pool/PoolUtil")
 slot2 = singletonClass("BattlePopNumManager")
 ys.Battle.BattlePopNumManager = slot2
 slot2.__name = "BattlePopNumManager"
-slot2.CONTAINER_HP = "HPTextContainer"
-slot2.CONTAINER_SCORE = "ScoreTextContainer"
-slot2.POP_SCORE = "score"
 slot2.POP_MISS = "miss"
 slot2.POP_HEAL = "heal"
 slot2.POP_COMMON = "common"
@@ -36,20 +33,16 @@ end
 slot2.Init = function (slot0, slot1, slot2)
 	slot0._allPool = {}
 	slot0._activeList = {}
-	slot0._allPool[slot0.POP_COMMON] = slot0:generatePool(slot0.POP_COMMON, slot2, slot1, 10)
-	slot0._allPool[slot0.POP_MISS] = slot0:generatePool(slot0.POP_MISS, slot2, slot1, 10)
-	slot0._allPool[slot0.POP_UNBREAK] = slot0:generatePool(slot0.POP_UNBREAK, slot2, slot1, 10)
-	slot0._allPool[slot0.POP_HEAL] = slot0:generatePool(slot0.POP_HEAL, slot2, slot1, 0)
-	slot0._allPool[slot0.POP_NORMAL] = slot0:generatePool(slot0.POP_NORMAL, slot2, slot1, 0)
-	slot0._allPool[slot0.POP_EXPLO] = slot0:generatePool(slot0.POP_EXPLO, slot2, slot1, 0)
-	slot0._allPool[slot0.POP_PIERCE] = slot0:generatePool(slot0.POP_PIERCE, slot2, slot1, 0)
-	slot0._allPool[slot0.POP_CT_NORMAL] = slot0:generatePool(slot0.POP_CT_NORMAL, slot2, slot1, 0)
-	slot0._allPool[slot0.POP_CT_EXPLO] = slot0:generatePool(slot0.POP_CT_EXPLO, slot2, slot1, 0)
-	slot0._allPool[slot0.POP_CT_PIERCE] = slot0:generatePool(slot0.POP_CT_PIERCE, slot2, slot1, 0)
-end
-
-slot2.InitScroePop = function (slot0, slot1, slot2)
-	slot0._allPool[slot0.POP_SCORE] = slot0:generatePool(slot0.POP_SCORE, slot2, slot1, 5)
+	slot0._allPool[slot0.POP_COMMON] = slot0:generatePool(slot0.POP_COMMON, slot2, slot1, 10, 10)
+	slot0._allPool[slot0.POP_MISS] = slot0:generatePool(slot0.POP_MISS, slot2, slot1, 10, 10)
+	slot0._allPool[slot0.POP_UNBREAK] = slot0:generatePool(slot0.POP_UNBREAK, slot2, slot1, 10, 10)
+	slot0._allPool[slot0.POP_HEAL] = slot0:generatePool(slot0.POP_HEAL, slot2, slot1, 0, 5)
+	slot0._allPool[slot0.POP_NORMAL] = slot0:generatePool(slot0.POP_NORMAL, slot2, slot1, 0, 10)
+	slot0._allPool[slot0.POP_EXPLO] = slot0:generatePool(slot0.POP_EXPLO, slot2, slot1, 0, 10)
+	slot0._allPool[slot0.POP_PIERCE] = slot0:generatePool(slot0.POP_PIERCE, slot2, slot1, 0, 10)
+	slot0._allPool[slot0.POP_CT_NORMAL] = slot0:generatePool(slot0.POP_CT_NORMAL, slot2, slot1, 0, 5)
+	slot0._allPool[slot0.POP_CT_EXPLO] = slot0:generatePool(slot0.POP_CT_EXPLO, slot2, slot1, 0, 5)
+	slot0._allPool[slot0.POP_CT_PIERCE] = slot0:generatePool(slot0.POP_CT_PIERCE, slot2, slot1, 0, 5)
 end
 
 slot2.Clear = function (slot0)
@@ -86,16 +79,6 @@ slot2.GetPop = function (slot0, slot1, slot2, slot3, slot4, slot5)
 	return slot9
 end
 
-slot2.GetScorePop = function (slot0, slot1)
-	slot3 = slot0._allPool[slot0.POP_SCORE].GetObject(slot2)
-
-	slot3:SetText(slot1)
-
-	slot0._activeList[slot3] = 1
-
-	return slot3
-end
-
 slot2.getType = function (slot0, slot1, slot2, slot3)
 	slot4 = 1
 	slot5 = nil
@@ -113,7 +96,7 @@ slot2.getType = function (slot0, slot1, slot2, slot3)
 	end
 end
 
-slot2.generatePool = function (slot0, slot1, slot2, slot3, slot4)
+slot2.generatePool = function (slot0, slot1, slot2, slot3, slot4, slot5)
 	return pg.LuaObPool.New(slot0.Battle.BattlePopNum, {
 		template = slot3:Find(slot1).gameObject,
 		parentTF = slot2,

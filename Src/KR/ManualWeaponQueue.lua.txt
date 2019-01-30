@@ -1,0 +1,119 @@
+ys = ys or {}
+slot1 = ys.Battle.BattleConst
+slot2 = ys.Battle.BattleUnitEvent
+ys.Battle.ManualWeaponQueue = class("ManualWeaponQueue")
+ys.Battle.ManualWeaponQueue.__name = "ManualWeaponQueue"
+
+ys.Battle.ManualWeaponQueue.Ctor = function (slot0)
+	slot0:init()
+end
+
+ys.Battle.ManualWeaponQueue.init = function (slot0)
+	slot0.EventListener.AttachEventListener(slot0)
+
+	slot0._weaponList = {}
+	slot0._coolDownQueue = {}
+end
+
+ys.Battle.ManualWeaponQueue.AppendWeapon = function (slot0, slot1)
+	slot0._weaponList[slot1] = true
+
+	slot0:addWeaponEvent(slot1)
+
+	if slot1:GetCurrentState() == slot1.STATE_OVER_HEAT then
+		slot0._coolDownQueue[#slot0._coolDownQueue + 1] = slot1
+	end
+end
+
+ys.Battle.ManualWeaponQueue.Containers = function (slot0, slot1)
+	return slot0._weaponList[slot1]
+end
+
+ys.Battle.ManualWeaponQueue.GetQueueHead = function (slot0)
+	return slot0._coolDownQueue[1]
+end
+
+ys.Battle.ManualWeaponQueue.CheckWeaponInitalCD = function (slot0)
+	for slot4, slot5 in pairs(slot0._weaponList) do
+		if not slot4:GetModifyInitialCD() then
+			slot0._coolDownQueue[#slot0._coolDownQueue + 1] = slot4
+		end
+	end
+
+	if #slot0._coolDownQueue == 0 then
+		return
+	end
+
+	while slot1 > 1 do
+		slot0._coolDownQueue[slot1]:OverHeat()
+
+		slot1 = slot1 - 1
+	end
+
+	slot0._coolDownQueue[slot1]:InitialCD()
+end
+
+ys.Battle.ManualWeaponQueue.FlushWeaponReloadRequire = function (slot0)
+	for slot4, slot5 in pairs(slot0._weaponList) do
+		slot4:FlushReloadRequire()
+	end
+end
+
+ys.Battle.ManualWeaponQueue.Clear = function (slot0)
+	for slot4, slot5 in pairs(slot0._weaponList) do
+		slot0:removeWeaponEvent(slot4)
+	end
+
+	slot0._weaponList = nil
+	slot0._coolDownQueue = nil
+
+	slot0.EventListener.DetachEventListener(slot0)
+end
+
+ys.Battle.ManualWeaponQueue.addWeaponEvent = function (slot0, slot1)
+	slot1:RegisterEventListener(slot0, slot0.MANUAL_WEAPON_FIRE, slot0.onManualWeaponFire)
+	slot1:RegisterEventListener(slot0, slot0.MANUAL_WEAPON_READY, slot0.onManualWeaponReady)
+end
+
+ys.Battle.ManualWeaponQueue.removeWeaponEvent = function (slot0, slot1)
+	slot1:UnregisterEventListener(slot0, slot0.MANUAL_WEAPON_READY)
+	slot1:UnregisterEventListener(slot0, slot0.MANUAL_WEAPON_FIRE)
+end
+
+ys.Battle.ManualWeaponQueue.onManualWeaponFire = function (slot0, slot1)
+	slot1.Dispatcher:OverHeat()
+
+	if #slot0._coolDownQueue == 0 then
+		slot2:EnterCoolDown()
+	end
+
+	slot0._coolDownQueue[#slot0._coolDownQueue + 1] = slot2
+end
+
+ys.Battle.ManualWeaponQueue.onManualWeaponReady = function (slot0, slot1)
+	slot0:removeFromCDQueue(slot1.Dispatcher)
+end
+
+ys.Battle.ManualWeaponQueue.removeFromCDQueue = function (slot0, slot1)
+	slot2 = nil
+
+	for slot6, slot7 in ipairs(slot0._coolDownQueue) do
+		if slot1 == slot7 then
+			slot2 = slot6
+
+			break
+		end
+	end
+
+	if slot2 ~= -1 then
+		table.remove(slot0._coolDownQueue, 1)
+	end
+
+	slot3 = slot0._coolDownQueue[1]
+
+	if slot2 == 1 and slot3 then
+		slot3:EnterCoolDown()
+	end
+end
+
+return

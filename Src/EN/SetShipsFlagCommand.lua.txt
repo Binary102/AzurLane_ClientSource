@@ -1,0 +1,128 @@
+slot0 = class("SetShipsFlagCommand", pm.SimpleCommand)
+
+slot0.execute = function (slot0, slot1)
+	slot0.shipsById = slot1:getBody().shipsById
+	slot0.flags = slot1.getBody().flags or {}
+	slot3 = slot2.blackBlockShipIds or {}
+
+	for slot7, slot8 in pairs(slot0.shipsById) do
+		slot0:clearShipAllFlag(slot7)
+	end
+
+	if defaultValue(slot0.flags.inChapter, true) and getProxy(ChapterProxy):getActiveChapter() then
+		_.each(slot6:getShips(), function (slot0)
+			slot0:setShipFlag(slot0.id, "inChapter", true)
+		end)
+	end
+
+	if defaultValue(slot0.flags.inSham, false) and getProxy(ChapterProxy):getShamChapter() and slot7:isOpen() and slot7.active then
+		_.each(slot7:getShips(), function (slot0)
+			slot0:setShipFlag(slot0.id, "inSham", true)
+		end)
+	end
+
+	if defaultValue(slot0.flags.inChallenge, false) then
+		_.each(getProxy(ChallengeProxy).getCurrentChallengeInfo(slot7).getShips(slot8), function (slot0)
+			slot0:setShipFlag(slot0.id, "inChallenge", true)
+		end)
+	end
+
+	slot8 = defaultValue(slot0.flags.inPvp, true)
+
+	if defaultValue(slot0.flags.inFleet, true) then
+		slot0.fleetShipIds = getProxy(FleetProxy).getAllShipIds(slot9)
+
+		for slot13, slot14 in ipairs(slot0.fleetShipIds) do
+			if slot0.shipsById[slot14] and (slot15:getFleetId() ~= FleetProxy.PVP_FLEET_ID or not not slot8) then
+				slot0:setShipFlag(slot14, "inFleet", true)
+			end
+		end
+	end
+
+	if slot0.flags.inElite then
+		for slot15, slot16 in ipairs(slot11) do
+			for slot20, slot21 in ipairs(slot16) do
+				slot0:setShipFlag(slot21, "inElite", true)
+			end
+		end
+	end
+
+	if defaultValue(slot0.flags.inBackyard, true) then
+		for slot15, slot16 in pairs(slot11) do
+			slot0:setShipFlag(slot15, "inBackyard", true)
+		end
+	end
+
+	if defaultValue(slot0.flags.inClass, true) then
+		slot0._inClassShipList = getProxy(NavalAcademyProxy).GetShipIDs(slot11)
+
+		for slot15, slot16 in ipairs(slot0._inClassShipList) do
+			slot0:setShipFlag(slot16, "inClass", true)
+		end
+	end
+
+	if defaultValue(slot0.flags.inTactics, true) then
+		for slot17, slot18 in pairs(slot13) do
+			slot0:setShipFlag(slot18.shipId, "inTactics", true)
+		end
+	end
+
+	if defaultValue(slot0.flags.inEvent, true) then
+		for slot18, slot19 in ipairs(slot14) do
+			slot0:setShipFlag(slot19, "inEvent", true)
+		end
+	end
+
+	if defaultValue(slot0.flags.inAdmiral, true) then
+		slot0:setShipFlag(getProxy(PlayerProxy).getRawData(slot14).character, "inAdmiral", true)
+	end
+
+	if defaultValue(slot0.flags.inExercise, true) then
+		for slot20, slot21 in pairs(getProxy(MilitaryExerciseProxy).getExerciseFleet(slot15).vanguardShips) do
+			slot0:setShipFlag(slot21, "inExercise", true)
+		end
+
+		for slot20, slot21 in pairs(slot16.mainShips) do
+			slot0:setShipFlag(slot21, "inExercise", true)
+		end
+	end
+
+	for slot18, slot19 in pairs(slot3) do
+		slot0:setShipBlackBlock(slot19)
+	end
+
+	slot0:sendNotification(GAME.SET_SHIP_FLAG_DONE, {
+		shipsById = slot0.shipsById
+	})
+end
+
+slot0.setShipBlackBlock = function (slot0, slot1)
+	if slot0.shipsById[slot1] then
+		slot2.blackBlock = true
+	end
+end
+
+slot0.setShipFlag = function (slot0, slot1, slot2, slot3)
+	if slot0.shipsById[slot1] then
+		slot4[slot2] = slot3
+	end
+end
+
+slot0.clearShipAllFlag = function (slot0, slot1)
+	if slot0.shipsById[slot1] then
+		slot2.inFleet = nil
+		slot2.inChapter = nil
+		slot2.inEvent = nil
+		slot2.inBackyard = nil
+		slot2.inClass = nil
+		slot2.inTactics = nil
+		slot2.inExercise = nil
+		slot2.inAdmiral = nil
+		slot2.inSham = nil
+		slot2.inChallenge = nil
+		slot2.inElite = nil
+		slot2.blackBlock = nil
+	end
+end
+
+return slot0

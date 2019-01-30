@@ -1,0 +1,32 @@
+ys = ys or {}
+slot1 = ys.Battle.BattleBulletEvent
+slot2 = ys.Battle.BattleResourceManager
+slot3 = class("BattleBombBullet", ys.Battle.BattleBullet)
+ys.Battle.BattleBombBullet = slot3
+slot3.__name = "BattleBombBullet"
+
+slot3.Ctor = function (slot0)
+	slot0.super.Ctor(slot0)
+end
+
+slot3.Dispose = function (slot0)
+	if slot0._alert then
+		slot0._alert:Dispose()
+	end
+
+	slot0.super.Dispose(slot0)
+end
+
+slot3.AddBulletEvent = function (slot0)
+	slot0._bulletData:RegisterEventListener(slot0, slot0.EXPLODE, slot0.onBulletExplode)
+end
+
+slot3.RemoveBulletEvent = function (slot0)
+	slot0._bulletData:UnregisterEventListener(slot0, slot0.EXPLODE)
+end
+
+slot3.onBulletExplode = function (slot0, slot1)
+	slot0:_bulletHitFunc()
+end
+
+return

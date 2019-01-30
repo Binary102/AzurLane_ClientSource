@@ -1,0 +1,83 @@
+slot0 = class("HitMonsterNianMediator", import("..base.ContextMediator"))
+slot0.ON_HIT = "HitMonsterNianMediator:ON_HIT"
+slot0.ON_RESET = "HitMonsterNianMediator:ON_RESET"
+slot0.ON_SHAM_HIT = "HitMonsterNianMediator:ON_SHAM_HIT"
+
+slot0.register = function (slot0)
+	slot0.viewComponent:setActivity(slot2)
+	slot0:bind(slot0.ON_HIT, function (slot0)
+		if not slot0 or slot0:isEnd() then
+			pg.TipsMgr:GetInstance():ShowTips("common_activity_end")
+
+			return
+		end
+
+		slot1:sendNotification(GAME.ACTIVITY_OPERATION, {
+			cmd = 1,
+			activity_id = slot0.id
+		})
+	end)
+	slot0:bind(slot0.ON_RESET, function ()
+		slot0 = slot0:getActivityByType(ActivityConst.ACTIVITY_TYPE_HITMONSTERNIAN)
+		slot0.maxHp = 10
+		slot0.count = 10
+		slot0.damage = 0
+
+		0.viewComponent:resetMonster(slot0)
+	end)
+	slot0:bind(slot0.ON_SHAM_HIT, function ()
+		slot0 = math.random(1, 2)
+		slot0.viewComponent.activityVO.damage = slot0.viewComponent.activityVO.damage + slot0
+		slot0.viewComponent.activityVO.count = slot0.viewComponent.activityVO.count - 1
+
+		slot0.viewComponent:updateMonster(slot0.viewComponent.activityVO)
+	end)
+	slot0:bind(slot0.ON_RESET, function ()
+		slot0 = slot0:getActivityByType(ActivityConst.ACTIVITY_TYPE_HITMONSTERNIAN)
+		slot0.maxHp = 10
+		slot0.count = 10
+		slot0.damage = 0
+
+		0.viewComponent:resetMonster(slot0)
+	end)
+	slot0:bind(slot0.ON_SHAM_HIT, function ()
+		slot0 = math.random(1, 2)
+		slot0.viewComponent.activityVO.damage = slot0.viewComponent.activityVO.damage + slot0
+		slot0.viewComponent.activityVO.count = slot0.viewComponent.activityVO.count - 1
+
+		slot0.viewComponent:updateMonster(slot0.viewComponent.activityVO)
+	end)
+end
+
+slot0.listNotificationInterests = function (slot0)
+	return {
+		ActivityProxy.ACTIVITY_UPDATED,
+		GAME.TRIGGER_HIT_MONSTER_STORY,
+		ActivityProxy.ACTIVITY_HITMONSTER_SHOW_AWARDS,
+		ActivityProxy.ACTIVITY_OPERATION_ERRO
+	}
+end
+
+slot0.handleNotification = function (slot0, slot1)
+	slot3 = slot1:getBody()
+
+	if slot1:getName() == ActivityProxy.ACTIVITY_UPDATED then
+		if slot3 and slot3:getConfig("type") == ActivityConst.ACTIVITY_TYPE_HITMONSTERNIAN then
+			slot0.viewComponent:updateMonster(slot3)
+		end
+	elseif slot2 == GAME.TRIGGER_HIT_MONSTER_STORY then
+		slot0.viewComponent:triggerStory()
+	elseif slot2 == ActivityProxy.ACTIVITY_HITMONSTER_SHOW_AWARDS then
+		slot0.viewComponent.getAwardCallback = function ()
+			slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot1.awards, slot1.callback)
+
+			slot0.viewComponent.emit.viewComponent.getAwardCallback = nil
+		end
+	elseif slot2 == ActivityProxy.ACTIVITY_OPERATION_ERRO and getProxy(ActivityProxy):getActivityById(slot3.actId).getConfig(slot4, "type") == ActivityConst.ACTIVITY_TYPE_HITMONSTERNIAN then
+		pg.TipsMgr:GetInstance():ShowTips(i18n("activity_hit_monster_erro", slot3.code))
+		slot0.viewComponent:enableClick(true)
+		setActive(slot0.viewComponent.hitBtnstate, true)
+	end
+end
+
+return slot0

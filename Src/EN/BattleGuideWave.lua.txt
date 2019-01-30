@@ -1,0 +1,26 @@
+ys = ys or {}
+ys.Battle.BattleGuideWave = class("BattleGuideWave", ys.Battle.BattleWaveInfo)
+ys.Battle.BattleGuideWave.__name = "BattleGuideWave"
+
+ys.Battle.BattleGuideWave.Ctor = function (slot0)
+	slot0.super.Ctor(slot0)
+end
+
+ys.Battle.BattleGuideWave.SetWaveData = function (slot0, slot1)
+	slot0.super.SetWaveData(slot0, slot1)
+
+	slot0._event = slot0._param.event
+end
+
+ys.Battle.BattleGuideWave.DoWave = function (slot0)
+	slot0.super.DoWave(slot0)
+	pg.GuideMgr2:GetInstance():dispatch({
+		viewComponent = slot0.__cname,
+		event = slot0._event,
+		func = function ()
+			slot0:doFinish()
+		end
+	})
+end
+
+return

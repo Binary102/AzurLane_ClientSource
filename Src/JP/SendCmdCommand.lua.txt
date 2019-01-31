@@ -27,7 +27,7 @@ class("SendCmdCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 		print("response: " .. slot0.msg)
 		slot0:sendNotification(GAME.SEND_CMD_DONE, slot0.msg)
 
-		if slot0.sendNotification == "into" then
+		if slot0.sendNotification == "into" and string.find(slot0.msg, "Result:ok") then
 			ys.Battle.BattleState.GenerateVertifyData()
 			slot0:sendNotification(GAME.GO_SCENE, SCENE.COMBATLOAD, {
 				token = 99,

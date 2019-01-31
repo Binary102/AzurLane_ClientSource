@@ -12426,6 +12426,990 @@ pg.ship_data_statistics = {
 		},
 		tag_list = {}
 	},
+	[101381] = {
+		oxy_max = 0,
+		type = 1,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "キンバリー",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 2,
+		oxy_recovery = 0,
+		rarity = 3,
+		ammo = 0,
+		id = 101381,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Kimberly",
+		skin_id = 101380,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 1,
+		armor_type = 1,
+		attrs = {
+			331,
+			15,
+			53,
+			34,
+			0,
+			74,
+			0,
+			73,
+			59,
+			42,
+			77,
+			51
+		},
+		attrs_growth = {
+			8075,
+			152,
+			520,
+			664,
+			0,
+			366,
+			0,
+			1074,
+			876,
+			0,
+			0,
+			502
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"C",
+			"C",
+			"E",
+			"B",
+			"C",
+			"C"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			108,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			1.2,
+			1.2
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Fletcher"
+		}
+	},
+	[101382] = {
+		oxy_max = 0,
+		type = 1,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "キンバリー",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		rarity = 3,
+		ammo = 0,
+		id = 101382,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Kimberly",
+		skin_id = 101380,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 1,
+		armor_type = 1,
+		attrs = {
+			412,
+			19,
+			66,
+			42,
+			0,
+			74,
+			0,
+			73,
+			59,
+			42,
+			77,
+			64
+		},
+		attrs_growth = {
+			8075,
+			152,
+			520,
+			664,
+			0,
+			366,
+			0,
+			1074,
+			876,
+			0,
+			0,
+			502
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"C",
+			"C",
+			"E",
+			"B",
+			"C",
+			"C"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			108,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.12,
+			1.22,
+			1.22
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Fletcher"
+		}
+	},
+	[101383] = {
+		oxy_max = 0,
+		type = 1,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "キンバリー",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		rarity = 3,
+		ammo = 0,
+		id = 101383,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Kimberly",
+		skin_id = 101380,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 1,
+		armor_type = 1,
+		attrs = {
+			573,
+			26,
+			92,
+			59,
+			0,
+			74,
+			0,
+			73,
+			59,
+			42,
+			77,
+			89
+		},
+		attrs_growth = {
+			8075,
+			152,
+			520,
+			664,
+			0,
+			366,
+			0,
+			1074,
+			876,
+			0,
+			0,
+			502
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"C",
+			"C",
+			"E",
+			"B",
+			"C",
+			"C"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			108,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			1.25,
+			1.25
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Fletcher"
+		}
+	},
+	[101384] = {
+		oxy_max = 0,
+		type = 1,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "キンバリー",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		rarity = 3,
+		ammo = 0,
+		id = 101384,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Kimberly",
+		skin_id = 101380,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 1,
+		armor_type = 1,
+		attrs = {
+			816,
+			38,
+			131,
+			84,
+			0,
+			74,
+			0,
+			73,
+			59,
+			42,
+			77,
+			126
+		},
+		attrs_growth = {
+			8075,
+			152,
+			520,
+			664,
+			0,
+			366,
+			0,
+			1074,
+			876,
+			0,
+			0,
+			502
+		},
+		attrs_growth_extra = {
+			8075,
+			358,
+			1136,
+			454,
+			0,
+			872,
+			0,
+			-627,
+			-614,
+			0,
+			0,
+			446
+		},
+		grades = {
+			"C",
+			"C",
+			"E",
+			"B",
+			"C",
+			"C"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			108,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.3,
+			1.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Fletcher"
+		}
+	},
+	[101391] = {
+		oxy_max = 0,
+		type = 1,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "マラニー",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 2,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 101391,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Mullany",
+		skin_id = 101390,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 1,
+		armor_type = 1,
+		attrs = {
+			341,
+			17,
+			54,
+			32,
+			0,
+			76,
+			0,
+			72,
+			59,
+			42,
+			89,
+			52
+		},
+		attrs_growth = {
+			8315,
+			164,
+			536,
+			632,
+			0,
+			376,
+			0,
+			1062,
+			876,
+			0,
+			0,
+			518
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"C",
+			"C",
+			"E",
+			"B",
+			"C",
+			"C"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			108,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			1.2,
+			1.2
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Fletcher"
+		}
+	},
+	[101392] = {
+		oxy_max = 0,
+		type = 1,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "マラニー",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 101392,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Mullany",
+		skin_id = 101390,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 1,
+		armor_type = 1,
+		attrs = {
+			424,
+			21,
+			67,
+			40,
+			0,
+			76,
+			0,
+			72,
+			59,
+			42,
+			89,
+			65
+		},
+		attrs_growth = {
+			8315,
+			164,
+			536,
+			632,
+			0,
+			376,
+			0,
+			1062,
+			876,
+			0,
+			0,
+			518
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"C",
+			"C",
+			"E",
+			"B",
+			"C",
+			"C"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			108,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.17,
+			1.22,
+			1.22
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Fletcher"
+		}
+	},
+	[101393] = {
+		oxy_max = 0,
+		type = 1,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "マラニー",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 101393,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Mullany",
+		skin_id = 101390,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 1,
+		armor_type = 1,
+		attrs = {
+			590,
+			29,
+			94,
+			56,
+			0,
+			76,
+			0,
+			72,
+			59,
+			42,
+			89,
+			91
+		},
+		attrs_growth = {
+			8315,
+			164,
+			536,
+			632,
+			0,
+			376,
+			0,
+			1062,
+			876,
+			0,
+			0,
+			518
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"C",
+			"C",
+			"E",
+			"B",
+			"C",
+			"C"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			108,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.25,
+			1.25
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Fletcher"
+		}
+	},
+	[101394] = {
+		oxy_max = 0,
+		type = 1,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "マラニー",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 101394,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Mullany",
+		skin_id = 101390,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 1,
+		armor_type = 1,
+		attrs = {
+			840,
+			42,
+			134,
+			79,
+			0,
+			76,
+			0,
+			72,
+			59,
+			42,
+			89,
+			130
+		},
+		attrs_growth = {
+			8315,
+			164,
+			536,
+			632,
+			0,
+			376,
+			0,
+			1062,
+			876,
+			0,
+			0,
+			518
+		},
+		attrs_growth_extra = {
+			8315,
+			391,
+			1148,
+			426,
+			0,
+			892,
+			0,
+			-620,
+			-614,
+			0,
+			0,
+			444
+		},
+		grades = {
+			"C",
+			"C",
+			"E",
+			"B",
+			"C",
+			"C"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			108,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.25,
+			1.3,
+			1.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Fletcher"
+		}
+	},
 	[102011] = {
 		oxy_max = 0,
 		type = 2,
@@ -56414,6 +57398,1006 @@ pg.ship_data_statistics = {
 		},
 		tag_list = {}
 	},
+	[202211] = {
+		oxy_max = 0,
+		type = 2,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "キュラソー",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 2,
+		oxy_recovery = 0,
+		rarity = 3,
+		ammo = 0,
+		id = 202211,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Curacoa",
+		skin_id = 202210,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 2,
+		armor_type = 1,
+		attrs = {
+			510,
+			25,
+			0,
+			29,
+			0,
+			67,
+			0,
+			58,
+			26,
+			29,
+			24,
+			13
+		},
+		attrs_growth = {
+			12445,
+			244,
+			0,
+			564,
+			0,
+			334,
+			0,
+			852,
+			390,
+			0,
+			0,
+			124
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"C",
+			"E",
+			"E",
+			"B",
+			"A",
+			"C"
+		},
+		lock = {
+			"air",
+			"torpedo"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			211
+		},
+		default_equip_list = {
+			101,
+			104,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.05,
+			0.7,
+			0.7,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[202212] = {
+		oxy_max = 0,
+		type = 2,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "キュラソー",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		rarity = 3,
+		ammo = 0,
+		id = 202212,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Curacoa",
+		skin_id = 202210,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 2,
+		armor_type = 1,
+		attrs = {
+			634,
+			31,
+			0,
+			36,
+			0,
+			67,
+			0,
+			58,
+			26,
+			29,
+			24,
+			16
+		},
+		attrs_growth = {
+			12445,
+			244,
+			0,
+			564,
+			0,
+			334,
+			0,
+			852,
+			390,
+			0,
+			0,
+			124
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"C",
+			"E",
+			"E",
+			"B",
+			"A",
+			"C"
+		},
+		lock = {
+			"air",
+			"torpedo"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			212
+		},
+		default_equip_list = {
+			101,
+			104,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			0.7,
+			0.7,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[202213] = {
+		oxy_max = 0,
+		type = 2,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "キュラソー",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		rarity = 3,
+		ammo = 0,
+		id = 202213,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Curacoa",
+		skin_id = 202210,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 2,
+		armor_type = 1,
+		attrs = {
+			883,
+			43,
+			0,
+			50,
+			0,
+			67,
+			0,
+			58,
+			26,
+			29,
+			24,
+			22
+		},
+		attrs_growth = {
+			12445,
+			244,
+			0,
+			564,
+			0,
+			334,
+			0,
+			852,
+			390,
+			0,
+			0,
+			124
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"C",
+			"E",
+			"E",
+			"B",
+			"A",
+			"C"
+		},
+		lock = {
+			"air",
+			"torpedo"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			213
+		},
+		default_equip_list = {
+			101,
+			104,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			0.75,
+			0.75,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[202214] = {
+		oxy_max = 0,
+		type = 2,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "キュラソー",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		rarity = 3,
+		ammo = 0,
+		id = 202214,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Curacoa",
+		skin_id = 202210,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 2,
+		armor_type = 1,
+		attrs = {
+			1257,
+			62,
+			0,
+			71,
+			0,
+			67,
+			0,
+			58,
+			26,
+			29,
+			24,
+			32
+		},
+		attrs_growth = {
+			12445,
+			244,
+			0,
+			564,
+			0,
+			334,
+			0,
+			852,
+			390,
+			0,
+			0,
+			124
+		},
+		attrs_growth_extra = {
+			3734,
+			581,
+			0,
+			381,
+			0,
+			791,
+			0,
+			-17,
+			730,
+			0,
+			0,
+			206
+		},
+		grades = {
+			"C",
+			"E",
+			"E",
+			"B",
+			"A",
+			"C"
+		},
+		lock = {
+			"air",
+			"torpedo"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			214
+		},
+		default_equip_list = {
+			101,
+			104,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			0.8,
+			0.8,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[202221] = {
+		oxy_max = 0,
+		type = 2,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "カーリュー",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 2,
+		oxy_recovery = 0,
+		rarity = 3,
+		ammo = 0,
+		id = 202221,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Curlew",
+		skin_id = 202220,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 2,
+		armor_type = 1,
+		attrs = {
+			477,
+			24,
+			0,
+			33,
+			0,
+			70,
+			0,
+			57,
+			26,
+			29,
+			45,
+			13
+		},
+		attrs_growth = {
+			11645,
+			234,
+			0,
+			656,
+			0,
+			346,
+			0,
+			840,
+			390,
+			0,
+			0,
+			124
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"C",
+			"E",
+			"E",
+			"B",
+			"A",
+			"C"
+		},
+		lock = {
+			"air",
+			"torpedo"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			211
+		},
+		default_equip_list = {
+			101,
+			104,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1,
+			0.7,
+			0.7,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[202222] = {
+		oxy_max = 0,
+		type = 2,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "カーリュー",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		rarity = 3,
+		ammo = 0,
+		id = 202222,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Curlew",
+		skin_id = 202220,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 2,
+		armor_type = 1,
+		attrs = {
+			593,
+			30,
+			0,
+			41,
+			0,
+			70,
+			0,
+			57,
+			26,
+			29,
+			45,
+			16
+		},
+		attrs_growth = {
+			11645,
+			234,
+			0,
+			656,
+			0,
+			346,
+			0,
+			840,
+			390,
+			0,
+			0,
+			124
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"C",
+			"E",
+			"E",
+			"B",
+			"A",
+			"C"
+		},
+		lock = {
+			"air",
+			"torpedo"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			212
+		},
+		default_equip_list = {
+			101,
+			104,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.05,
+			0.7,
+			0.7,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[202223] = {
+		oxy_max = 0,
+		type = 2,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "カーリュー",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		rarity = 3,
+		ammo = 0,
+		id = 202223,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Curlew",
+		skin_id = 202220,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 2,
+		armor_type = 1,
+		attrs = {
+			826,
+			42,
+			0,
+			58,
+			0,
+			70,
+			0,
+			57,
+			26,
+			29,
+			45,
+			22
+		},
+		attrs_growth = {
+			11645,
+			234,
+			0,
+			656,
+			0,
+			346,
+			0,
+			840,
+			390,
+			0,
+			0,
+			124
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"C",
+			"E",
+			"E",
+			"B",
+			"A",
+			"C"
+		},
+		lock = {
+			"air",
+			"torpedo"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			213
+		},
+		default_equip_list = {
+			101,
+			104,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.05,
+			0.75,
+			0.75,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[202224] = {
+		oxy_max = 0,
+		type = 2,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "カーリュー",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		rarity = 3,
+		ammo = 0,
+		id = 202224,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Curlew",
+		skin_id = 202220,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 2,
+		armor_type = 1,
+		attrs = {
+			1176,
+			59,
+			0,
+			82,
+			0,
+			70,
+			0,
+			57,
+			26,
+			29,
+			45,
+			32
+		},
+		attrs_growth = {
+			11645,
+			234,
+			0,
+			656,
+			0,
+			346,
+			0,
+			840,
+			390,
+			0,
+			0,
+			124
+		},
+		attrs_growth_extra = {
+			3491,
+			554,
+			0,
+			439,
+			0,
+			824,
+			0,
+			-15,
+			730,
+			0,
+			0,
+			206
+		},
+		grades = {
+			"C",
+			"E",
+			"E",
+			"B",
+			"A",
+			"C"
+		},
+		lock = {
+			"air",
+			"torpedo"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			214
+		},
+		default_equip_list = {
+			101,
+			104,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			0.8,
+			0.8,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
 	[202201] = {
 		oxy_max = 0,
 		type = 2,
@@ -63758,6 +65742,126 @@ pg.ship_data_statistics = {
 		},
 		tag_list = {}
 	},
+	[205124] = {
+		oxy_max = 0,
+		type = 5,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "ウォースパイト改",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 6,
+		oxy_recovery = 0,
+		rarity = 5,
+		ammo = 0,
+		id = 205124,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Warspite",
+		skin_id = 205020,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 2,
+		armor_type = 3,
+		attrs = {
+			3197,
+			209,
+			0,
+			101,
+			0,
+			58,
+			0,
+			24,
+			6,
+			24,
+			90,
+			58
+		},
+		attrs_growth = {
+			31650,
+			830,
+			0,
+			804,
+			0,
+			290,
+			0,
+			360,
+			84,
+			0,
+			0,
+			232
+		},
+		attrs_growth_extra = {
+			18990,
+			562,
+			0,
+			546,
+			0,
+			685,
+			0,
+			235,
+			786,
+			0,
+			0,
+			328
+		},
+		grades = {
+			"S",
+			"E",
+			"E",
+			"D",
+			"C",
+			"S"
+		},
+		lock = {
+			"torpedo",
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			3,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.3,
+			2,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
 	[205031] = {
 		oxy_max = 0,
 		type = 5,
@@ -67126,6 +69230,486 @@ pg.ship_data_statistics = {
 			1.25,
 			1.2,
 			1.4
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[206051] = {
+		oxy_max = 0,
+		type = 6,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "チェイサー",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 2,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 206051,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Chaser",
+		skin_id = 206050,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 2,
+		armor_type = 2,
+		attrs = {
+			778,
+			0,
+			0,
+			48,
+			56,
+			68,
+			0,
+			28,
+			15,
+			18,
+			82,
+			35
+		},
+		attrs_growth = {
+			18975,
+			0,
+			0,
+			940,
+			550,
+			340,
+			0,
+			414,
+			228,
+			0,
+			0,
+			344
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"E",
+			"E",
+			"A",
+			"D",
+			"B",
+			"B"
+		},
+		lock = {
+			"cannon",
+			"torpedo"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			113,
+			114,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			1.3,
+			0.8
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[206052] = {
+		oxy_max = 0,
+		type = 6,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "チェイサー",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 206052,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Chaser",
+		skin_id = 206050,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 2,
+		armor_type = 2,
+		attrs = {
+			968,
+			0,
+			0,
+			60,
+			70,
+			68,
+			0,
+			28,
+			15,
+			18,
+			82,
+			44
+		},
+		attrs_growth = {
+			18975,
+			0,
+			0,
+			940,
+			550,
+			340,
+			0,
+			414,
+			228,
+			0,
+			0,
+			344
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"E",
+			"E",
+			"A",
+			"D",
+			"B",
+			"B"
+		},
+		lock = {
+			"cannon",
+			"torpedo"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			113,
+			114,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.3,
+			0.8
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[206053] = {
+		oxy_max = 0,
+		type = 6,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "チェイサー",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 206053,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Chaser",
+		skin_id = 206050,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 2,
+		armor_type = 2,
+		attrs = {
+			1347,
+			0,
+			0,
+			83,
+			97,
+			68,
+			0,
+			28,
+			15,
+			18,
+			82,
+			61
+		},
+		attrs_growth = {
+			18975,
+			0,
+			0,
+			940,
+			550,
+			340,
+			0,
+			414,
+			228,
+			0,
+			0,
+			344
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"E",
+			"E",
+			"A",
+			"D",
+			"B",
+			"B"
+		},
+		lock = {
+			"cannon",
+			"torpedo"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			113,
+			114,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			2,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.3,
+			1.3,
+			0.8
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[206054] = {
+		oxy_max = 0,
+		type = 6,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "チェイサー",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 206054,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Chaser",
+		skin_id = 206050,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 2,
+		armor_type = 2,
+		attrs = {
+			1917,
+			0,
+			0,
+			119,
+			139,
+			68,
+			0,
+			28,
+			15,
+			18,
+			82,
+			87
+		},
+		attrs_growth = {
+			18975,
+			0,
+			0,
+			940,
+			550,
+			340,
+			0,
+			414,
+			228,
+			0,
+			0,
+			344
+		},
+		attrs_growth_extra = {
+			13283,
+			0,
+			0,
+			618,
+			1161,
+			800,
+			0,
+			226,
+			857,
+			0,
+			0,
+			420
+		},
+		grades = {
+			"E",
+			"E",
+			"A",
+			"D",
+			"B",
+			"B"
+		},
+		lock = {
+			"cannon",
+			"torpedo"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			113,
+			114,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			3,
+			3,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.3,
+			1.45,
+			0.8
 		},
 		strategy_list = {},
 		strategy_list_ai = {},
@@ -156951,6 +159535,2078 @@ pg.ship_data_statistics = {
 		},
 		tag_list = {}
 	},
+	[900161] = {
+		oxy_max = 0,
+		type = 5,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "ウォースパイト",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 6,
+		oxy_recovery = 0,
+		rarity = 5,
+		ammo = 0,
+		id = 900161,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Warspite",
+		skin_id = 205020,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 2,
+		armor_type = 3,
+		attrs = {
+			3197,
+			209,
+			0,
+			101,
+			0,
+			58,
+			0,
+			24,
+			6,
+			24,
+			90,
+			0
+		},
+		attrs_growth = {
+			31650,
+			830,
+			0,
+			804,
+			0,
+			290,
+			0,
+			360,
+			84,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			18990,
+			562,
+			0,
+			546,
+			0,
+			685,
+			0,
+			235,
+			786,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"S",
+			"E",
+			"E",
+			"D",
+			"D",
+			"A"
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			3,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.3,
+			2,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[900162] = {
+		oxy_max = 0,
+		type = 1,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "長春",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 900162,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "PRAN Chang Chun",
+		skin_id = 501030,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 5,
+		armor_type = 1,
+		attrs = {
+			904,
+			60,
+			104,
+			79,
+			0,
+			73,
+			0,
+			67,
+			61,
+			45.6,
+			61,
+			122
+		},
+		attrs_growth = {
+			8955,
+			238,
+			416,
+			628,
+			0,
+			364,
+			0,
+			996,
+			906,
+			0,
+			0,
+			488
+		},
+		attrs_growth_extra = {
+			8945,
+			565,
+			987,
+			430,
+			0,
+			866,
+			0,
+			-584,
+			-631,
+			0,
+			0,
+			447
+		},
+		grades = {
+			"A",
+			"D",
+			"E",
+			"B",
+			"C",
+			"D"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.55,
+			1,
+			1.05
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[900163] = {
+		oxy_max = 0,
+		type = 1,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "長春",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 900163,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "qipao",
+		skin_id = 501031,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 5,
+		armor_type = 1,
+		attrs = {
+			904,
+			60,
+			104,
+			79,
+			0,
+			73,
+			0,
+			67,
+			61,
+			45.6,
+			61,
+			122
+		},
+		attrs_growth = {
+			8955,
+			238,
+			416,
+			628,
+			0,
+			364,
+			0,
+			996,
+			906,
+			0,
+			0,
+			488
+		},
+		attrs_growth_extra = {
+			8945,
+			565,
+			987,
+			430,
+			0,
+			866,
+			0,
+			-584,
+			-631,
+			0,
+			0,
+			447
+		},
+		grades = {
+			"A",
+			"D",
+			"E",
+			"B",
+			"C",
+			"D"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.55,
+			1,
+			1.05
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[900164] = {
+		oxy_max = 0,
+		type = 1,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "太原",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 900164,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "qipao",
+		skin_id = 501041,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 5,
+		armor_type = 1,
+		attrs = {
+			904,
+			60,
+			104,
+			79,
+			0,
+			73,
+			0,
+			67,
+			61,
+			45.6,
+			61,
+			122
+		},
+		attrs_growth = {
+			8955,
+			238,
+			416,
+			628,
+			0,
+			364,
+			0,
+			996,
+			906,
+			0,
+			0,
+			488
+		},
+		attrs_growth_extra = {
+			8945,
+			565,
+			987,
+			430,
+			0,
+			866,
+			0,
+			-584,
+			-631,
+			0,
+			0,
+			447
+		},
+		grades = {
+			"A",
+			"D",
+			"E",
+			"B",
+			"C",
+			"D"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.55,
+			1,
+			1.05
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[900165] = {
+		oxy_max = 0,
+		type = 1,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "キンバリー",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 900165,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "qipao",
+		skin_id = 101382,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 5,
+		armor_type = 1,
+		attrs = {
+			904,
+			60,
+			104,
+			79,
+			0,
+			73,
+			0,
+			67,
+			61,
+			45.6,
+			61,
+			122
+		},
+		attrs_growth = {
+			8955,
+			238,
+			416,
+			628,
+			0,
+			364,
+			0,
+			996,
+			906,
+			0,
+			0,
+			488
+		},
+		attrs_growth_extra = {
+			8945,
+			565,
+			987,
+			430,
+			0,
+			866,
+			0,
+			-584,
+			-631,
+			0,
+			0,
+			447
+		},
+		grades = {
+			"A",
+			"D",
+			"E",
+			"B",
+			"C",
+			"D"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.55,
+			1,
+			1.05
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[900166] = {
+		oxy_max = 0,
+		type = 1,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "マラニ―",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 900166,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "qipao",
+		skin_id = 101392,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 5,
+		armor_type = 1,
+		attrs = {
+			904,
+			60,
+			104,
+			79,
+			0,
+			73,
+			0,
+			67,
+			61,
+			45.6,
+			61,
+			122
+		},
+		attrs_growth = {
+			8955,
+			238,
+			416,
+			628,
+			0,
+			364,
+			0,
+			996,
+			906,
+			0,
+			0,
+			488
+		},
+		attrs_growth_extra = {
+			8945,
+			565,
+			987,
+			430,
+			0,
+			866,
+			0,
+			-584,
+			-631,
+			0,
+			0,
+			447
+		},
+		grades = {
+			"A",
+			"D",
+			"E",
+			"B",
+			"C",
+			"D"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.55,
+			1,
+			1.05
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[900167] = {
+		oxy_max = 0,
+		type = 1,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "綾波",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 900167,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "qipao",
+		skin_id = 301054,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 5,
+		armor_type = 1,
+		attrs = {
+			904,
+			60,
+			104,
+			79,
+			0,
+			73,
+			0,
+			67,
+			61,
+			45.6,
+			61,
+			122
+		},
+		attrs_growth = {
+			8955,
+			238,
+			416,
+			628,
+			0,
+			364,
+			0,
+			996,
+			906,
+			0,
+			0,
+			488
+		},
+		attrs_growth_extra = {
+			8945,
+			565,
+			987,
+			430,
+			0,
+			866,
+			0,
+			-584,
+			-631,
+			0,
+			0,
+			447
+		},
+		grades = {
+			"A",
+			"D",
+			"E",
+			"B",
+			"C",
+			"D"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.55,
+			1,
+			1.05
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[900168] = {
+		oxy_max = 0,
+		type = 1,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "夕暮",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 900168,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "qipao",
+		skin_id = 301262,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 5,
+		armor_type = 1,
+		attrs = {
+			904,
+			60,
+			104,
+			79,
+			0,
+			73,
+			0,
+			67,
+			61,
+			45.6,
+			61,
+			122
+		},
+		attrs_growth = {
+			8955,
+			238,
+			416,
+			628,
+			0,
+			364,
+			0,
+			996,
+			906,
+			0,
+			0,
+			488
+		},
+		attrs_growth_extra = {
+			8945,
+			565,
+			987,
+			430,
+			0,
+			866,
+			0,
+			-584,
+			-631,
+			0,
+			0,
+			447
+		},
+		grades = {
+			"A",
+			"D",
+			"E",
+			"B",
+			"C",
+			"D"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.55,
+			1,
+			1.05
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[900169] = {
+		oxy_max = 0,
+		type = 1,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "ラフィー",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 900169,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "qipao",
+		skin_id = 101173,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 5,
+		armor_type = 1,
+		attrs = {
+			904,
+			60,
+			104,
+			79,
+			0,
+			73,
+			0,
+			67,
+			61,
+			45.6,
+			61,
+			122
+		},
+		attrs_growth = {
+			8955,
+			238,
+			416,
+			628,
+			0,
+			364,
+			0,
+			996,
+			906,
+			0,
+			0,
+			488
+		},
+		attrs_growth_extra = {
+			8945,
+			565,
+			987,
+			430,
+			0,
+			866,
+			0,
+			-584,
+			-631,
+			0,
+			0,
+			447
+		},
+		grades = {
+			"A",
+			"D",
+			"E",
+			"B",
+			"C",
+			"D"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.55,
+			1,
+			1.05
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[900170] = {
+		oxy_max = 0,
+		type = 1,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "エンタープライズ",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 900170,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "qipao",
+		skin_id = 107062,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 5,
+		armor_type = 1,
+		attrs = {
+			904,
+			60,
+			104,
+			79,
+			0,
+			73,
+			0,
+			67,
+			61,
+			45.6,
+			61,
+			122
+		},
+		attrs_growth = {
+			8955,
+			238,
+			416,
+			628,
+			0,
+			364,
+			0,
+			996,
+			906,
+			0,
+			0,
+			488
+		},
+		attrs_growth_extra = {
+			8945,
+			565,
+			987,
+			430,
+			0,
+			866,
+			0,
+			-584,
+			-631,
+			0,
+			0,
+			447
+		},
+		grades = {
+			"A",
+			"D",
+			"E",
+			"B",
+			"C",
+			"D"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.55,
+			1,
+			1.05
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[900171] = {
+		oxy_max = 0,
+		type = 1,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "レキシントン",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 900171,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "qipao",
+		skin_id = 107021,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 5,
+		armor_type = 1,
+		attrs = {
+			904,
+			60,
+			104,
+			79,
+			0,
+			73,
+			0,
+			67,
+			61,
+			45.6,
+			61,
+			122
+		},
+		attrs_growth = {
+			8955,
+			238,
+			416,
+			628,
+			0,
+			364,
+			0,
+			996,
+			906,
+			0,
+			0,
+			488
+		},
+		attrs_growth_extra = {
+			8945,
+			565,
+			987,
+			430,
+			0,
+			866,
+			0,
+			-584,
+			-631,
+			0,
+			0,
+			447
+		},
+		grades = {
+			"A",
+			"D",
+			"E",
+			"B",
+			"C",
+			"D"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.55,
+			1,
+			1.05
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[900172] = {
+		oxy_max = 0,
+		type = 1,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "ベルファスト",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 900172,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "qipao",
+		skin_id = 202121,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 5,
+		armor_type = 1,
+		attrs = {
+			904,
+			60,
+			104,
+			79,
+			0,
+			73,
+			0,
+			67,
+			61,
+			45.6,
+			61,
+			122
+		},
+		attrs_growth = {
+			8955,
+			238,
+			416,
+			628,
+			0,
+			364,
+			0,
+			996,
+			906,
+			0,
+			0,
+			488
+		},
+		attrs_growth_extra = {
+			8945,
+			565,
+			987,
+			430,
+			0,
+			866,
+			0,
+			-584,
+			-631,
+			0,
+			0,
+			447
+		},
+		grades = {
+			"A",
+			"D",
+			"E",
+			"B",
+			"C",
+			"D"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.55,
+			1,
+			1.05
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[900173] = {
+		oxy_max = 0,
+		type = 1,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "セントー ",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 900173,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "qipao",
+		skin_id = 206042,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 5,
+		armor_type = 1,
+		attrs = {
+			904,
+			60,
+			104,
+			79,
+			0,
+			73,
+			0,
+			67,
+			61,
+			45.6,
+			61,
+			122
+		},
+		attrs_growth = {
+			8955,
+			238,
+			416,
+			628,
+			0,
+			364,
+			0,
+			996,
+			906,
+			0,
+			0,
+			488
+		},
+		attrs_growth_extra = {
+			8945,
+			565,
+			987,
+			430,
+			0,
+			866,
+			0,
+			-584,
+			-631,
+			0,
+			0,
+			447
+		},
+		grades = {
+			"A",
+			"D",
+			"E",
+			"B",
+			"C",
+			"D"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.55,
+			1,
+			1.05
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[900174] = {
+		oxy_max = 0,
+		type = 1,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "モナーク ",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 900174,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "qipao",
+		skin_id = 299022,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 5,
+		armor_type = 1,
+		attrs = {
+			904,
+			60,
+			104,
+			79,
+			0,
+			73,
+			0,
+			67,
+			61,
+			45.6,
+			61,
+			122
+		},
+		attrs_growth = {
+			8955,
+			238,
+			416,
+			628,
+			0,
+			364,
+			0,
+			996,
+			906,
+			0,
+			0,
+			488
+		},
+		attrs_growth_extra = {
+			8945,
+			565,
+			987,
+			430,
+			0,
+			866,
+			0,
+			-584,
+			-631,
+			0,
+			0,
+			447
+		},
+		grades = {
+			"A",
+			"D",
+			"E",
+			"B",
+			"C",
+			"D"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.55,
+			1,
+			1.05
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[900175] = {
+		oxy_max = 0,
+		type = 1,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "キュラソー",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 900175,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "qipao",
+		skin_id = 202211,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 5,
+		armor_type = 1,
+		attrs = {
+			904,
+			60,
+			104,
+			79,
+			0,
+			73,
+			0,
+			67,
+			61,
+			45.6,
+			61,
+			122
+		},
+		attrs_growth = {
+			8955,
+			238,
+			416,
+			628,
+			0,
+			364,
+			0,
+			996,
+			906,
+			0,
+			0,
+			488
+		},
+		attrs_growth_extra = {
+			8945,
+			565,
+			987,
+			430,
+			0,
+			866,
+			0,
+			-584,
+			-631,
+			0,
+			0,
+			447
+		},
+		grades = {
+			"A",
+			"D",
+			"E",
+			"B",
+			"C",
+			"D"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.55,
+			1,
+			1.05
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[900176] = {
+		oxy_max = 0,
+		type = 1,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "カーリュー ",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 900176,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "qipao",
+		skin_id = 202221,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 5,
+		armor_type = 1,
+		attrs = {
+			904,
+			60,
+			104,
+			79,
+			0,
+			73,
+			0,
+			67,
+			61,
+			45.6,
+			61,
+			122
+		},
+		attrs_growth = {
+			8955,
+			238,
+			416,
+			628,
+			0,
+			364,
+			0,
+			996,
+			906,
+			0,
+			0,
+			488
+		},
+		attrs_growth_extra = {
+			8945,
+			565,
+			987,
+			430,
+			0,
+			866,
+			0,
+			-584,
+			-631,
+			0,
+			0,
+			447
+		},
+		grades = {
+			"A",
+			"D",
+			"E",
+			"B",
+			"C",
+			"D"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.55,
+			1,
+			1.05
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[900177] = {
+		oxy_max = 0,
+		type = 1,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "チェイサー",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 900177,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "qipao",
+		skin_id = 206051,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 5,
+		armor_type = 1,
+		attrs = {
+			904,
+			60,
+			104,
+			79,
+			0,
+			73,
+			0,
+			67,
+			61,
+			45.6,
+			61,
+			122
+		},
+		attrs_growth = {
+			8955,
+			238,
+			416,
+			628,
+			0,
+			364,
+			0,
+			996,
+			906,
+			0,
+			0,
+			488
+		},
+		attrs_growth_extra = {
+			8945,
+			565,
+			987,
+			430,
+			0,
+			866,
+			0,
+			-584,
+			-631,
+			0,
+			0,
+			447
+		},
+		grades = {
+			"A",
+			"D",
+			"E",
+			"B",
+			"C",
+			"D"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.55,
+			1,
+			1.05
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[900178] = {
+		oxy_max = 0,
+		type = 1,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "シリアス",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 900178,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "qipao",
+		skin_id = 202201,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 5,
+		armor_type = 1,
+		attrs = {
+			904,
+			60,
+			104,
+			79,
+			0,
+			73,
+			0,
+			67,
+			61,
+			45.6,
+			61,
+			122
+		},
+		attrs_growth = {
+			8955,
+			238,
+			416,
+			628,
+			0,
+			364,
+			0,
+			996,
+			906,
+			0,
+			0,
+			488
+		},
+		attrs_growth_extra = {
+			8945,
+			565,
+			987,
+			430,
+			0,
+			866,
+			0,
+			-584,
+			-631,
+			0,
+			0,
+			447
+		},
+		grades = {
+			"A",
+			"D",
+			"E",
+			"B",
+			"C",
+			"D"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.55,
+			1,
+			1.05
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
 	[10100011] = {
 		oxy_max = 0,
 		type = 2,
@@ -166782,6 +171438,14 @@ pg.ship_data_statistics = {
 		101372,
 		101373,
 		101374,
+		101381,
+		101382,
+		101383,
+		101384,
+		101391,
+		101392,
+		101393,
+		101394,
 		102011,
 		102012,
 		102013,
@@ -167135,6 +171799,14 @@ pg.ship_data_statistics = {
 		202192,
 		202193,
 		202194,
+		202211,
+		202212,
+		202213,
+		202214,
+		202221,
+		202222,
+		202223,
+		202224,
 		202201,
 		202202,
 		202203,
@@ -167195,6 +171867,7 @@ pg.ship_data_statistics = {
 		205022,
 		205023,
 		205024,
+		205124,
 		205031,
 		205032,
 		205033,
@@ -167223,6 +171896,10 @@ pg.ship_data_statistics = {
 		206042,
 		206043,
 		206044,
+		206051,
+		206052,
+		206053,
+		206054,
 		207021,
 		207022,
 		207023,
@@ -167934,6 +172611,24 @@ pg.ship_data_statistics = {
 		900158,
 		900159,
 		900160,
+		900161,
+		900162,
+		900163,
+		900164,
+		900165,
+		900166,
+		900167,
+		900168,
+		900169,
+		900170,
+		900171,
+		900172,
+		900173,
+		900174,
+		900175,
+		900176,
+		900177,
+		900178,
 		10100011,
 		10100012,
 		10100013,

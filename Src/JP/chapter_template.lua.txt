@@ -55020,7 +55020,7 @@ pg.chapter_template = {
 			0
 		},
 		icon = {
-			"moguiyu"
+			"unknown1"
 		},
 		awards = {
 			{
@@ -59790,7 +59790,7 @@ pg.chapter_template = {
 			0
 		},
 		icon = {
-			"moguiyu"
+			"unknown1"
 		},
 		awards = {
 			{
@@ -97797,7 +97797,7 @@ pg.chapter_template = {
 			0
 		},
 		icon = {
-			"moguiyu"
+			"unknown1"
 		},
 		awards = {
 			{
@@ -103161,7 +103161,7 @@ pg.chapter_template = {
 			0
 		},
 		icon = {
-			"moguiyu"
+			"unknown1"
 		},
 		awards = {
 			{
@@ -103876,7 +103876,7 @@ pg.chapter_template = {
 			0
 		},
 		icon = {
-			"moguiyu"
+			"unknown1"
 		},
 		awards = {},
 		grids = {
@@ -124309,7 +124309,7 @@ pg.chapter_template = {
 			0
 		},
 		icon = {
-			"moguiyu"
+			"unknown1"
 		},
 		awards = {},
 		grids = {

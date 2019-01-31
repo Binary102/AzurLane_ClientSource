@@ -1240,17 +1240,7 @@ slot0.getChampionVisibility = function (slot0, slot1, slot2, slot3)
 end
 
 slot0.mergeChampion = function (slot0, slot1)
-	slot2 = nil
-
-	for slot6, slot7 in ipairs(slot0.champions) do
-		if slot7.row == slot1.row and slot7.column == slot1.column then
-			slot2 = slot6
-
-			break
-		end
-	end
-
-	if slot2 then
+	if slot0:getChampionIndex(slot1.row, slot1.column) then
 		slot0.champions[slot2] = slot1
 	else
 		slot1.trait = ChapterConst.TraitLurk

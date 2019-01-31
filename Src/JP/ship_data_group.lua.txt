@@ -3891,7 +3891,7 @@ pg.ship_data_group = {
 		code = 125,
 		type = 3,
 		group_type = 20307,
-		trans_type = 0,
+		trans_type = 7,
 		trans_radar_chart = {
 			"A",
 			"C",
@@ -4195,14 +4195,21 @@ pg.ship_data_group = {
 	[131] = {
 		nationality = 2,
 		hide = 0,
-		trans_skin = 0,
+		trans_skin = 205029,
 		handbook_type = 0,
 		redirect_id = 101,
 		code = 131,
 		type = 5,
 		group_type = 20502,
-		trans_type = 0,
-		trans_radar_chart = {},
+		trans_type = 5,
+		trans_radar_chart = {
+			"S",
+			"E",
+			"E",
+			"D",
+			"C",
+			"S"
+		},
 		trans_skill = {},
 		description = {
 			{
@@ -6236,7 +6243,7 @@ pg.ship_data_group = {
 		code = 226,
 		type = 7,
 		group_type = 30703,
-		trans_type = 0,
+		trans_type = 7,
 		trans_radar_chart = {
 			"E",
 			"E",
@@ -6270,7 +6277,7 @@ pg.ship_data_group = {
 		code = 227,
 		type = 7,
 		group_type = 30704,
-		trans_type = 0,
+		trans_type = 7,
 		trans_radar_chart = {
 			"E",
 			"E",
@@ -7610,7 +7617,7 @@ pg.ship_data_group = {
 		code = 301,
 		type = 1,
 		group_type = 10131,
-		trans_type = 0,
+		trans_type = 1,
 		trans_radar_chart = {
 			"B",
 			"B",
@@ -9022,6 +9029,116 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[372] = {
+		nationality = 2,
+		hide = 0,
+		trans_skin = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		code = 372,
+		type = 2,
+		group_type = 20221,
+		trans_type = 0,
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"イベント：ワイワイ旧正月",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[373] = {
+		nationality = 2,
+		hide = 0,
+		trans_skin = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		code = 373,
+		type = 2,
+		group_type = 20222,
+		trans_type = 0,
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"イベント：ワイワイ旧正月",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[374] = {
+		nationality = 1,
+		hide = 0,
+		trans_skin = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		code = 374,
+		type = 1,
+		group_type = 10138,
+		trans_type = 0,
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"イベント：ワイワイ旧正月",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[375] = {
+		nationality = 1,
+		hide = 0,
+		trans_skin = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		code = 375,
+		type = 1,
+		group_type = 10139,
+		trans_type = 0,
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"イベント：ワイワイ旧正月",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[376] = {
+		nationality = 2,
+		hide = 0,
+		trans_skin = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		code = 376,
+		type = 6,
+		group_type = 20605,
+		trans_type = 0,
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"イベント：ワイワイ旧正月",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[10001] = {
 		nationality = 101,
 		hide = 0,
@@ -9756,6 +9873,11 @@ pg.ship_data_group = {
 		369,
 		370,
 		371,
+		372,
+		373,
+		374,
+		375,
+		376,
 		10001,
 		10002,
 		10003,

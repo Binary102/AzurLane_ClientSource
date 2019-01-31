@@ -38,6 +38,7 @@ class("LogoutCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 	DockyardScene.indexFlag2 = nil
 	DockyardScene.indexFlag3 = nil
 	LevelMediator2.prevRefreshBossTimeTime = nil
+	MainUIMediator.lastRequestVersionTime = nil
 	BattleScene.autoBotIsAcitve = nil
 	InvestigationLayer.Caches = {}
 

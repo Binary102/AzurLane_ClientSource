@@ -11,20 +11,20 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"前进吧，{namecode:144}！\n\n<size=30>七 约会吧，{namecode:144}！</size>",
+					"シリアス改造計画\n\n<size=30>五 手を取らせて</size>",
 					1
 				}
 			}
 		},
 		{
-			bgName = "bg_story_room",
+			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			bgm = "story-2",
-			actor = 303091,
+			bgm = "story-1",
+			actor = 202151,
 			nameColor = "#a9f548",
-			say = "……",
+			say = "ここはこうやって回転して、こう動かして……",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -52,13 +52,12 @@ return {
 			}
 		},
 		{
-			expression = 5,
+			actor = 202201,
 			side = 2,
-			dir = 1,
-			blackBg = true,
-			actor = 303091,
+			bgName = "bg_story_task",
 			nameColor = "#a9f548",
-			say = "（不，不说点什么的话，呜呜……）",
+			dir = 1,
+			say = "こう…ですか？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,168 +68,77 @@ return {
 			}
 		},
 		{
-			expression = 5,
+			actor = 202151,
 			side = 2,
-			bgName = "bg_story_room",
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "うんうん、いい感じです♪　あとは実際のパートナーと練習すれば問題ないでしょう",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			bgName = "bg_story_task",
+			dir = 1,
+			say = "オーロラにパーティーでのダンスを教えてもらった。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 3,
+			side = 2,
+			dir = 1,
+			bgName = "bg_story_task",
+			actor = 202201,
+			nameColor = "#a9f548",
+			say = "誇らしきご主人様。何卒よろしくお願いいたします",
+			flashout = {
+				dur = 0.5,
+				black = true,
+				alpha = {
+					0,
+					1
+				}
+			},
+			flashin = {
+				delay = 0.5,
+				dur = 0.5,
+				black = true,
+				alpha = {
+					1,
+					0
+				}
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "bg_story_task",
 			withoutActorName = true,
-			dir = 1,
-			actor = 303091,
+			actor = 202201,
 			nameColor = "#a9f548",
-			say = "{namecode:144}的脸涨得通红",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 4,
-			side = 2,
-			bgName = "bg_story_room",
-			dir = 1,
-			actor = 303091,
-			nameColor = "#a9f548",
-			say = "……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			bgName = "bg_story_room",
-			dir = 1,
-			say = "再不说点什么的话，这个让人难以忍受的气氛就结束不了……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			bgName = "bg_story_room",
-			dir = 1,
-			say = "刚要开口时——",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 6,
-			side = 2,
-			bgName = "bg_story_room",
-			dir = 1,
-			actor = 303091,
-			nameColor = "#a9f548",
-			say = "指挥官，能，能和我约会吗！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			bgName = "bg_story_room",
-			dir = 1,
-			say = "……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 6,
-			side = 2,
-			bgName = "bg_story_room",
-			dir = 1,
-			actor = 303091,
-			nameColor = "#a9f548",
-			say = "我，我在说什么呀！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			action = {
-				{
-					y = 30,
-					type = "shake",
-					delay = 0,
-					dur = 0.15,
-					x = 0,
-					number = 3
-				}
-			}
-		},
-		{
-			expression = 6,
-			side = 2,
-			bgName = "bg_story_room",
-			dir = 1,
-			actor = 303091,
-			nameColor = "#a9f548",
-			say = "请，请务必忘记我刚刚那奇怪的发言！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			action = {
-				{
-					y = 30,
-					type = "shake",
-					delay = 0,
-					dur = 0.15,
-					x = 0,
-					number = 2
-				}
-			},
-			options = {
-				{
-					content = "答应约会",
-					flag = 1
-				}
-			}
-		},
-		{
-			expression = 5,
-			side = 2,
-			bgName = "bg_story_room",
-			dir = 1,
-			actor = 303091,
-			nameColor = "#a9f548",
-			say = "欸",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 5,
-			side = 2,
-			bgName = "bg_story_room",
-			dir = 1,
-			actor = 303091,
-			nameColor = "#a9f548",
-			say = "对，对不起！刚刚的只是胡言乱语所以——",
+			say = "秘書艦でメイド、そしてパーティーのパートナーである彼女は優雅に手を差し伸べてくれた。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,19 +149,16 @@ return {
 			},
 			options = {
 				{
-					content = "表示“想要更加的了解{namecode:144}”",
+					content = "シリアスの手を取る",
 					flag = 1
 				}
 			}
 		},
 		{
-			expression = 2,
 			side = 2,
-			bgName = "bg_story_room",
+			bgName = "bg_story_task",
 			dir = 1,
-			actor = 303091,
-			nameColor = "#a9f548",
-			say = "啊…我、我也想要更加了解指挥官…",
+			say = "まだ少しぎこちないが、急ごしらえとは思えない上達っぷりだ。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,22 +170,27 @@ return {
 		},
 		{
 			side = 2,
-			bgName = "bg_story_room",
+			bgName = "bg_story_task",
 			dir = 1,
-			say = "原本尴尬而慌乱的脸上，露出了微笑。",
+			say = "ダンスの練習をしている最中、彼女は急に小声で語ってきた。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
 			}
 		},
 		{
 			expression = 1,
 			side = 2,
-			bgName = "bg_story_room",
+			bgName = "bg_story_task",
 			dir = 1,
-			actor = 303091,
+			actorScale = 1.5,
+			actor = 202201,
 			nameColor = "#a9f548",
-			say = "嗯！那，那就约好了，在——",
+			say = "……シリアスはとても感謝しております",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -288,56 +198,21 @@ return {
 			painting = {
 				alpha = 0.3,
 				time = 1
-			}
-		},
-		{
-			stopbgm = true,
-			nameColor = "#a9f548",
-			bgName = "bg_story_room",
-			side = 2,
-			dir = 1,
-			actorName = "{namecode:63}",
-			say = "喂，你们几个堆在门这里干啥？在偷听吗？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actorName = "{namecode:55}",
-			side = 2,
-			bgName = "bg_story_room",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "啊，糟了，是The·风纪委员长·{namecode:63}！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			bgName = "bg_story_room",
-			dir = 1,
-			say = "门突然被推开了，几个身影拥挤着倒在了门前",
-			dialogShake = {
-				speed = 0.09,
-				x = 8.5,
-				number = 2
 			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
+			actorPosition = {
+				x = 0,
+				y = -150
 			}
 		},
 		{
+			expression = 1,
 			side = 2,
-			bgName = "bg_story_room",
+			bgName = "bg_story_task",
 			dir = 1,
-			bgm = "story-1",
-			actor = 301301,
+			actorScale = 1.5,
+			actor = 202201,
 			nameColor = "#a9f548",
-			say = "啧，在这关键的时候……",
+			say = "たかが卑しきメイドなのに、ここまで気を使ってくださって……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -345,15 +220,21 @@ return {
 			painting = {
 				alpha = 0.3,
 				time = 1
+			},
+			actorPosition = {
+				x = 0,
+				y = -150
 			}
 		},
 		{
-			actor = 303081,
+			expression = 1,
 			side = 2,
-			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			bgName = "bg_story_task",
 			dir = 1,
-			say = "小{namecode:63}……你这也太不解风情了吧？",
+			actorScale = 1.5,
+			actor = 202201,
+			nameColor = "#a9f548",
+			say = "メイドとして分不相応だと重々承知しておりますが、シリアスには……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -361,31 +242,17 @@ return {
 			painting = {
 				alpha = 0.3,
 				time = 1
-			}
-		},
-		{
-			actor = 303031,
-			side = 2,
-			bgName = "bg_story_room",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "差一点就到手的独家新闻啊！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
 			},
-			painting = {
-				alpha = 0.3,
-				time = 1
+			actorPosition = {
+				x = 0,
+				y = -150
 			}
 		},
 		{
-			actor = 303071,
 			side = 2,
-			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			bgName = "bg_story_task",
 			dir = 1,
-			say = "欸，我，我做错了什么吗？还有这一地的纸鹤……这，这到底是怎么回事？",
+			say = "（むにゅっ）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -397,13 +264,94 @@ return {
 		},
 		{
 			side = 2,
-			bgName = "bg_story_room",
+			bgName = "bg_story_task",
+			dir = 1,
+			say = "感情の起伏でステップが一瞬乱れたためか、少し重量感のある柔らかい感触がこちらに伝わった。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 1,
+			side = 2,
+			bgName = "bg_story_task",
+			dir = 1,
+			actorScale = 1.5,
+			actor = 202201,
+			nameColor = "#a9f548",
+			say = "…………誇らしきご主人様…………",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			actorPosition = {
+				x = 0,
+				y = -150
+			}
+		},
+		{
+			expression = 1,
+			side = 2,
+			bgName = "bg_story_task",
+			dir = 1,
+			actorScale = 1.5,
+			actor = 202201,
+			nameColor = "#a9f548",
+			say = "申し訳ございません！これは、その…………",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			actorPosition = {
+				x = 0,
+				y = -150
+			},
+			action = {
+				{
+					delay = 0,
+					dur = 0.2,
+					type = "zoom",
+					to = {
+						1,
+						1,
+						1
+					}
+				},
+				{
+					y = 150,
+					type = "move",
+					delay = 0,
+					dur = 0.2,
+					x = 0
+				}
+			}
+		},
+		{
+			side = 2,
+			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "小小的闹剧就这样画上了句号，接下来…要考虑约会的地点了呢",
+			say = "気づけば、羞恥で赤らめられている顔がほんの一瞬だけ至近距離に迫っていた。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
 			}
 		}
 	}

@@ -254,7 +254,7 @@ return {
 							},
 							bossData = {
 								hpBarNum = 99,
-								icon = "moguiyu"
+								icon = "unknown1"
 							},
 							phase = {
 								{

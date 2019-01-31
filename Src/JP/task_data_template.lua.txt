@@ -15994,6 +15994,518 @@ pg.task_data_template = {
 			}
 		}
 	},
+	[5401] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5296,
+		type = 5,
+		name = "メイドとしては……",
+		count_inherit = 0,
+		desc = "魚雷天ぷらを3個準備する（消費）",
+		target_id_2 = "",
+		sub_type = 1000,
+		added_tip = 1,
+		story_icon = "tianlangxing",
+		award_choice = "",
+		level = 1,
+		next_task = "5402",
+		visibility = 1,
+		story_id = "TIANLANGXING1",
+		target_id_for_client = 50003,
+		id = 5401,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "50003",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		},
+		scene = {
+			"BACKYARD"
+		}
+	},
+	[5402] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5297,
+		type = 5,
+		name = "陛下からの最高指令",
+		count_inherit = 0,
+		desc = "任意の艦を10回強化する",
+		target_id_2 = "",
+		sub_type = 34,
+		added_tip = 1,
+		story_icon = "tianlangxing",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5403",
+		visibility = 1,
+		story_id = "TIANLANGXING2",
+		target_id_for_client = 0,
+		id = 5402,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5403] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5298,
+		type = 5,
+		name = "メイド隊の支援",
+		count_inherit = 0,
+		desc = "シリアスを含めた艦隊で出撃し、20回勝利する",
+		target_id_2 = "",
+		sub_type = 18,
+		added_tip = 1,
+		story_icon = "tianlangxing",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5404",
+		visibility = 1,
+		story_id = "TIANLANGXING3",
+		target_id_for_client = 20220,
+		id = 5403,
+		target_num = 20,
+		fix_task = 0,
+		target_id = "20220",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5404] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5299,
+		type = 5,
+		name = "ビッグセブンのアドバイス",
+		count_inherit = 0,
+		desc = "シリアスを含めた艦隊で3回デイリーチャレンジをクリアする",
+		target_id_2 = "",
+		sub_type = 19,
+		added_tip = 1,
+		story_icon = "tianlangxing",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5405",
+		visibility = 1,
+		story_id = "TIANLANGXING4",
+		target_id_for_client = 20220,
+		id = 5404,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "20220",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5405] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5300,
+		type = 5,
+		name = "手を取らせて",
+		count_inherit = 0,
+		desc = "シリアスの親密度が100に到達",
+		target_id_2 = "",
+		sub_type = 1012,
+		added_tip = 1,
+		story_icon = "tianlangxing",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5406",
+		visibility = 1,
+		story_id = "TIANLANGXING5",
+		target_id_for_client = 20220,
+		id = 5405,
+		target_num = 10000,
+		fix_task = 0,
+		target_id = "20220",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				5
+			},
+			{
+				2,
+				16022,
+				1
+			}
+		}
+	},
+	[5406] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5301,
+		type = 5,
+		name = "アクシデント",
+		count_inherit = 0,
+		desc = "シリアスを3回限界突破する",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 1,
+		story_icon = "tianlangxing",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5407",
+		visibility = 1,
+		story_id = "TIANLANGXING6",
+		target_id_for_client = 202204,
+		id = 5406,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "202204",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18012,
+				1
+			}
+		}
+	},
+	[5407] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5302,
+		type = 5,
+		name = "夜空を照らす青星の輝き",
+		count_inherit = 0,
+		desc = "シリアスのレベルが100に到達",
+		target_id_2 = "",
+		sub_type = 1013,
+		added_tip = 1,
+		story_icon = "tianlangxing",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "TIANLANGXING7",
+		target_id_for_client = 20220,
+		id = 5407,
+		target_num = 100,
+		fix_task = 0,
+		target_id = "20220",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18013,
+				1
+			}
+		}
+	},
+	[5411] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5303,
+		type = 5,
+		name = "陛下との朝",
+		count_inherit = 0,
+		desc = "魚雷天ぷらを3個準備する（消費）",
+		target_id_2 = "",
+		sub_type = 1000,
+		added_tip = 1,
+		story_icon = "yanzhan",
+		award_choice = "",
+		level = 1,
+		next_task = "5412",
+		visibility = 1,
+		story_id = "YANZHAN1",
+		target_id_for_client = 50003,
+		id = 5411,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "50003",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		},
+		scene = {
+			"BACKYARD"
+		}
+	},
+	[5412] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5304,
+		type = 5,
+		name = "秘書艦のお仕事",
+		count_inherit = 0,
+		desc = "任意の艦を10回強化する",
+		target_id_2 = "",
+		sub_type = 34,
+		added_tip = 1,
+		story_icon = "yanzhan",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5413",
+		visibility = 1,
+		story_id = "YANZHAN2",
+		target_id_for_client = 0,
+		id = 5412,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5413] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5305,
+		type = 5,
+		name = "疾風のオールドレディ",
+		count_inherit = 0,
+		desc = "ウォースパイトを含めた艦隊で出撃し、20回勝利する",
+		target_id_2 = "",
+		sub_type = 18,
+		added_tip = 1,
+		story_icon = "yanzhan",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5414",
+		visibility = 1,
+		story_id = "YANZHAN3",
+		target_id_for_client = 20502,
+		id = 5413,
+		target_num = 20,
+		fix_task = 0,
+		target_id = "20502",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5414] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5306,
+		type = 5,
+		name = "惹かれ合う勇者たち",
+		count_inherit = 0,
+		desc = "ウォースパイトを含めた艦隊で3回デイリーチャレンジをクリアする",
+		target_id_2 = "",
+		sub_type = 19,
+		added_tip = 1,
+		story_icon = "yanzhan",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5415",
+		visibility = 1,
+		story_id = "YANZHAN4",
+		target_id_for_client = 20502,
+		id = 5414,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "20502",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5415] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5307,
+		type = 5,
+		name = "ささやかな悩み",
+		count_inherit = 0,
+		desc = "ウォースパイトの親密度が100に到達",
+		target_id_2 = "",
+		sub_type = 1012,
+		added_tip = 1,
+		story_icon = "yanzhan",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5416",
+		visibility = 1,
+		story_id = "YANZHAN5",
+		target_id_for_client = 20502,
+		id = 5415,
+		target_num = 10000,
+		fix_task = 0,
+		target_id = "20502",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				5
+			},
+			{
+				2,
+				16002,
+				1
+			}
+		}
+	},
+	[5416] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5308,
+		type = 5,
+		name = "陛下の気配り？",
+		count_inherit = 0,
+		desc = "ウォースパイトを3回限界突破する",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 1,
+		story_icon = "yanzhan",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5417",
+		visibility = 1,
+		story_id = "YANZHAN6",
+		target_id_for_client = 205024,
+		id = 5416,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "205024",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18022,
+				1
+			}
+		}
+	},
+	[5417] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5309,
+		type = 5,
+		name = "守るための剣",
+		count_inherit = 0,
+		desc = "ウォースパイトのレベルが100に到達",
+		target_id_2 = "",
+		sub_type = 1013,
+		added_tip = 1,
+		story_icon = "yanzhan",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "YANZHAN7",
+		target_id_for_client = 20502,
+		id = 5417,
+		target_num = 100,
+		fix_task = 0,
+		target_id = "20502",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18023,
+				1
+			}
+		}
+	},
 	[6001] = {
 		is_head = 0,
 		guild_coin_award = 0,
@@ -50305,6 +50817,798 @@ pg.task_data_template = {
 			}
 		}
 	},
+	[14168] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 90546,
+		type = 6,
+		name = "2019春节耗油1",
+		count_inherit = 14169,
+		desc = "累計燃料消費500",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "14169",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14168,
+		target_num = 500,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59764,
+				100
+			},
+			{
+				8,
+				59765,
+				40
+			},
+			{
+				8,
+				59766,
+				40
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[14169] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90547,
+		type = 6,
+		name = "2019春节耗油2",
+		count_inherit = 14170,
+		desc = "累計燃料消費1000",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "14170",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14169,
+		target_num = 1000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59768,
+				31
+			},
+			{
+				8,
+				59769,
+				166
+			},
+			{
+				8,
+				59770,
+				103
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[14170] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90548,
+		type = 6,
+		name = "2019春节耗油3",
+		count_inherit = 14171,
+		desc = "累計燃料消費1500",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "14171",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14170,
+		target_num = 1500,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59764,
+				156
+			},
+			{
+				8,
+				59765,
+				35
+			},
+			{
+				8,
+				59766,
+				50
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[14171] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90549,
+		type = 6,
+		name = "2019春节耗油4",
+		count_inherit = 14172,
+		desc = "累計燃料消費2000",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "14172",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14171,
+		target_num = 2000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59764,
+				20
+			},
+			{
+				8,
+				59765,
+				40
+			},
+			{
+				8,
+				59766,
+				100
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[14172] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90550,
+		type = 6,
+		name = "2019春节耗油5",
+		count_inherit = 14173,
+		desc = "累計燃料消費2500",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "14173",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14172,
+		target_num = 2500,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59768,
+				10
+			},
+			{
+				8,
+				59769,
+				51
+			},
+			{
+				8,
+				59770,
+				18
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[14173] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90551,
+		type = 6,
+		name = "2019春节耗油6",
+		count_inherit = 14174,
+		desc = "累計燃料消費3000",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "14174",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14173,
+		target_num = 3000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59764,
+				150
+			},
+			{
+				8,
+				59765,
+				45
+			},
+			{
+				8,
+				59766,
+				175
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[14174] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90552,
+		type = 6,
+		name = "2019春节耗油7",
+		count_inherit = 14175,
+		desc = "累計燃料消費4000",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "14175",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14174,
+		target_num = 4000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59768,
+				8
+			},
+			{
+				8,
+				59769,
+				166
+			},
+			{
+				8,
+				59770,
+				28
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[14175] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90553,
+		type = 6,
+		name = "2019春节耗油8",
+		count_inherit = 14176,
+		desc = "累計燃料消費5000",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "14176",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14175,
+		target_num = 5000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59764,
+				150
+			},
+			{
+				8,
+				59765,
+				45
+			},
+			{
+				8,
+				59766,
+				92
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[14176] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90554,
+		type = 6,
+		name = "2019春节耗油9",
+		count_inherit = 14177,
+		desc = "累計燃料消費6000",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "14177",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14176,
+		target_num = 6000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59764,
+				156
+			},
+			{
+				8,
+				59765,
+				45
+			},
+			{
+				8,
+				59766,
+				88
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[14177] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90555,
+		type = 6,
+		name = "2019春节耗油10",
+		count_inherit = 14178,
+		desc = "累計燃料消費7000",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "14178",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14177,
+		target_num = 7000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59768,
+				2
+			},
+			{
+				8,
+				59769,
+				188
+			},
+			{
+				8,
+				59767,
+				68
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[14178] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90556,
+		type = 6,
+		name = "2019春节耗油11",
+		count_inherit = 14179,
+		desc = "累計燃料消費8000",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "14179",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14178,
+		target_num = 8000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59764,
+				188
+			},
+			{
+				8,
+				59765,
+				45
+			},
+			{
+				8,
+				59766,
+				88
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[14179] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90557,
+		type = 6,
+		name = "2019春节耗油12",
+		count_inherit = 14180,
+		desc = "累計燃料消費9000",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "14180",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14179,
+		target_num = 9000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59764,
+				156
+			},
+			{
+				8,
+				59765,
+				45
+			},
+			{
+				8,
+				59766,
+				88
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[14180] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90558,
+		type = 6,
+		name = "2019春节耗油13",
+		count_inherit = 14181,
+		desc = "累計燃料消費10000",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "14181",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14180,
+		target_num = 10000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59768,
+				8
+			},
+			{
+				8,
+				59769,
+				188
+			},
+			{
+				8,
+				59770,
+				52
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[14181] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90559,
+		type = 6,
+		name = "2019春节耗油14",
+		count_inherit = 14182,
+		desc = "累計燃料消費11000",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "14182",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14181,
+		target_num = 11000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59764,
+				200
+			},
+			{
+				8,
+				59765,
+				55
+			},
+			{
+				8,
+				59766,
+				88
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[14182] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90560,
+		type = 6,
+		name = "2019春节耗油15",
+		count_inherit = 14183,
+		desc = "累計燃料消費12000",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "14183",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14182,
+		target_num = 12000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59764,
+				200
+			},
+			{
+				8,
+				59765,
+				50
+			},
+			{
+				8,
+				59770,
+				88
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[14183] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90561,
+		type = 6,
+		name = "2019春节耗油16",
+		count_inherit = 14184,
+		desc = "累計燃料消費13000",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "14184",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14183,
+		target_num = 13000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59768,
+				16
+			},
+			{
+				8,
+				59769,
+				188
+			},
+			{
+				8,
+				59767,
+				70
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[14184] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90562,
+		type = 6,
+		name = "2019春节耗油17",
+		count_inherit = 14185,
+		desc = "累計燃料消費14000",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "14185",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14184,
+		target_num = 14000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59764,
+				200
+			},
+			{
+				8,
+				59765,
+				60
+			},
+			{
+				8,
+				59766,
+				88
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[14185] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90563,
+		type = 6,
+		name = "2019春节耗油18",
+		count_inherit = 0,
+		desc = "累計燃料消費15000",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14185,
+		target_num = 15000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59768,
+				7
+			},
+			{
+				8,
+				59769,
+				188
+			},
+			{
+				8,
+				59766,
+				88
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
 	[30201] = {
 		is_head = 1,
 		guild_coin_award = 0,
@@ -55727,6 +57031,20 @@ pg.task_data_template = {
 		5395,
 		5396,
 		5397,
+		5401,
+		5402,
+		5403,
+		5404,
+		5405,
+		5406,
+		5407,
+		5411,
+		5412,
+		5413,
+		5414,
+		5415,
+		5416,
+		5417,
 		6001,
 		6002,
 		6003,
@@ -56711,6 +58029,24 @@ pg.task_data_template = {
 		14165,
 		14166,
 		14167,
+		14168,
+		14169,
+		14170,
+		14171,
+		14172,
+		14173,
+		14174,
+		14175,
+		14176,
+		14177,
+		14178,
+		14179,
+		14180,
+		14181,
+		14182,
+		14183,
+		14184,
+		14185,
 		30201,
 		30202,
 		31001,

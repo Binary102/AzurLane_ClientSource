@@ -2208,13 +2208,14 @@ pg.gametip = {
 ・絵が完成（着色枠を全て着色・「空白絵」は除く）すると、
 報酬を入手することができます。
 ・おえかき完成の報酬一覧：
- No.1 イベント限定家具
- No.2 ランダム教科書T3 
- No.3 イベント限定家具 
- No.4 汎用パーツT3*2 
- No.5 イベント限定家具
- No.6 汎用パーツT3*3
- No.7 アルバコア
+ No.1 ランダム教科書T3 x1，サイコロ x3
+ No.2 ランダム教科書T3 x2，サイコロ x3 
+ No.3 ランダム教科書T3 x3，サイコロ x3 
+ No.4 艦砲パーツT3*2，サイコロ x2 
+ No.5 艦砲パーツT3*3，サイコロ x2
+ No.6 汎用パーツT3*3，サイコロ x2
+ No.7 汎用パーツT3*4，サイコロ x2 
+ No.8 鞍山 x1，サイコロ x1 
 ・全ての絵が塗り終わると、「空白絵」がアンロックされます。
 ・空白絵に絵の具を使って絵を描いても絵の具を消費しませんが、
 報酬も得られません。
@@ -2224,8 +2225,10 @@ pg.gametip = {
 ・「リセット」は現在の絵の着色済みの枠の色を全て消すことが
 出来ます。
 ・イベント終了後、未使用の絵の具はリセットされます。
-・9月20日（木）まで毎日新しい絵が一枚ずつ解放されます。
-・空白絵は9月21日（金）以降開放できます。]]
+・2月7日（木）まで毎日新しい絵が一枚ずつ解放されます。
+・空白絵は2月8日（金）以降開放できます。
+・サイコロは「東煌すごろく」で使用することですごろくを遊び、
+報酬を手に入れることができます。]]
 			}
 		}
 	},
@@ -4791,12 +4794,20 @@ pg.gametip = {
 	},
 	help_build_2 = {
 		tip = [[
-					<size=25>レアリティ出現割合</size>
-
+					<size=19>レアリティ出現割合
 						<color=#fff157>SSレア</color>：$2%
 						<color=#966af6>Sレア</color>：$3%
 						<color=#60a9ff>レア</color>：$4%
-						ノーマル：$5%]],
+						ノーマル：$5%
+
+						 【期間限定】
+					<color=#966af6>        長春</color>：1.5%<color=#A9F548>(up!)</color>
+					<color=#966af6>        太原</color>：1.5%<color=#A9F548>(up!)</color>
+				<color=#966af6>       マラニ―</color>：1.5%<color=#A9F548>(up!)</color>
+					<color=#966af6>チェイサー</color>：1.5%<color=#A9F548>(up!)</color>
+					<color=#60a9ff>キンバリー</color>：3.5%<color=#A9F548>(up!)</color>
+					<color=#60a9ff>キュラソー</color>：3.5%<color=#A9F548>(up!)</color>
+					<color=#60a9ff>カーリュー</color>：3.5%<color=#A9F548>(up!)</color></size>]],
 		key = "help_build_2"
 	},
 	help_build_4 = {
@@ -5117,6 +5128,31 @@ pg.gametip = {
 			disableScroll = true,
 			pageMode = true,
 			defaultpage = 1,
+			ImageMode = true,
+			windowSize = {
+				x = 836,
+				y = 740
+			},
+			windowPos = {
+				y = 15
+			},
+			helpSize = {
+				x = 836,
+				y = 660
+			}
+		}
+	},
+	help_battle_warspite = {
+		key = "help_battle_warspite",
+		tip = {
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/battle_warspite"
+				}
+			},
+			disableScroll = true,
+			pageMode = false,
 			ImageMode = true,
 			windowSize = {
 				x = 836,
@@ -5953,6 +5989,10 @@ pg.gametip = {
 	ship_remould_warning_102174 = {
 		tip = "近代化改修は<color=#A9F548>輝く☆マイク</color>を消費します。\n続けますか？ ",
 		key = "ship_remould_warning_102174"
+	},
+	ship_remould_warning_205124 = {
+		tip = "近代化改修は<color=#A9F548>戦士の心得</color>を消費します。\n続けますか？ ",
+		key = "ship_remould_warning_205124"
 	},
 	ship_remould_warning_310014 = {
 		tip = [[
@@ -7947,6 +7987,38 @@ pg.gametip = {
 			}
 		}
 	},
+	goldship_help_tip = {
+		key = "goldship_help_tip",
+		tip = {
+			{
+				info = "遊び方："
+			},
+			{
+				info = "    1.コインを持ってる饅頭と接触すると、スコアを入手できます；"
+			},
+			{
+				info = "    2.連続でコインを持ってる饅頭と接触すると、COMBO数が増加\nし、接触時の入手スコアが上昇します；"
+			},
+			{
+				info = "    3.爆竹を持ってる饅頭と接触すると、COMBO数が0にリセット\nされます；"
+			},
+			{
+				info = "    4.スコアを10以上入手すると、【歴戦の証】を1個入手できます。\nまた、ミニゲームをクリアした時に、【サイコロ】を1個入手でき\nます ；"
+			},
+			{
+				info = "    ※【歴戦の証】の入手可能個数は2/6まで（最大7個）、【サイコ\nロ】の一日の入手可能個数は2/14 メンテナンス時まで1日1個ずつ\n追加される（最大15個） ；"
+			},
+			{
+				info = "    5.【歴戦の証】を7個入手すると、ウォースパイトの近代化改修\n（改造）素材アイテム【戦士の心得】を入手可能 ；"
+			},
+			{
+				info = "    6.ミニゲームで撤退した場合【歴戦の証】と【サイコロ】を入手で\nきません ；"
+			},
+			{
+				info = "    7.残り時間が0になると、ミニゲームが終了になります ；"
+			}
+		}
+	},
 	acl_gold_count = {
 		tip = "目標消費：",
 		key = "acl_gold_count"
@@ -8562,7 +8634,7 @@ pg.gametip = {
 		key = "ranking_word_2"
 	},
 	ranking_word_3 = {
-		tip = "-0",
+		tip = "0",
 		key = "ranking_word_3"
 	},
 	ranking_word_4 = {
@@ -8781,6 +8853,86 @@ pg.gametip = {
 	exit_backyard_exp_display = {
 		tip = "$1が訓練で$2の経験値を入手しました",
 		key = "exit_backyard_exp_display"
+	},
+	help_monopoly = {
+		key = "help_monopoly",
+		tip = {
+			{
+				info = "ルール："
+			},
+			{
+				info = "1.右下のサイコロをタップすると、アイテム「サイコロ」を1個消\n費し、すごろく盤で一回移動することができます；"
+			},
+			{
+				info = "2.サイコロを8個消費する度に、年玉（特別ボーナス）を入手する\nことができます；"
+			},
+			{
+				info = "3.7個目までの年玉は「年玉・大」となっており、8個目以降の年\n玉は普通のボーナスになります；"
+			},
+			{
+				info = [[
+4.サイコロはイベント期間中、毎日4つ自動で加算されます。また
+、イベント「四天王の大冒険・鞍山編」「四天王の大冒険・撫順
+編」「戦士の特別訓練」でも追加のサイコロを入手することがで
+きます；]]
+			},
+			{
+				info = "5.すごろくを10週し、11回出発地点に到達すると、駆逐艦「キン\nバリー」の着せ替え「安陽の異文化勉強」を入手できます；"
+			},
+			{
+				info = "6.すごろくの各マスで様々な効果があります。また、出発時点を\n通過すると資金を少しを入手することができます；"
+			},
+			{
+				info = "    ：資金を少し入手できます；",
+				icon = {
+					posX = 0,
+					atlas = "attricon",
+					posY = 0,
+					scale = 0.19,
+					path = "jinbi"
+				}
+			},
+			{
+				info = "    ：燃料を少し入手できます；",
+				icon = {
+					posX = 0,
+					atlas = "attricon",
+					posY = 0,
+					scale = 0.19,
+					path = "shiyou"
+				}
+			},
+			{
+				info = "    ：ランダムなミニイベントが起きます；",
+				icon = {
+					posX = 0,
+					atlas = "attricon",
+					posY = 0,
+					scale = 0.19,
+					path = "minyun"
+				}
+			},
+			{
+				info = "    ：ランダムなアイテムを入手できます；",
+				icon = {
+					posX = 0,
+					atlas = "attricon",
+					posY = 0,
+					scale = 0.19,
+					path = "daoju"
+				}
+			},
+			{
+				info = "    ：ランダムな移動イベント；",
+				icon = {
+					posX = 0,
+					atlas = "attricon",
+					posY = 0,
+					scale = 0.19,
+					path = "teshu"
+				}
+			}
+		}
 	}
 }
 

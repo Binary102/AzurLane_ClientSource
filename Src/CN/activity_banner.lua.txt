@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.activity_banner = {
 	{
-		param = "224",
+		param = "234",
 		type = 3,
 		id = 1,
 		pic = "temp1",
@@ -10,7 +10,7 @@ pg.activity_banner = {
 				{
 					2019,
 					1,
-					24
+					31
 				},
 				{
 					0,
@@ -33,7 +33,7 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "223",
+		param = "232",
 		time = "stop",
 		type = 3,
 		id = 2,
@@ -75,7 +75,7 @@ pg.activity_banner = {
 				{
 					2019,
 					1,
-					24
+					31
 				},
 				{
 					0,
@@ -110,7 +110,6 @@ pg.activity_banner = {
 		}
 	},
 	{
-		time = "stop",
 		type = 2,
 		id = 8,
 		pic = "temp8",
@@ -119,36 +118,13 @@ pg.activity_banner = {
 			{
 				wrap = 3
 			}
-		}
-	},
-	{
-		time = "stop",
-		type = 2,
-		id = 9,
-		pic = "temp9",
-		param = {
-			"scene charge",
-			{
-				wrap = 3
-			}
-		}
-	},
-	{
-		type = 2,
-		id = 10,
-		pic = "temp10",
-		param = {
-			"scene shop",
-			{
-				warp = "shopstreet"
-			}
 		},
 		time = {
 			{
 				{
 					2019,
 					1,
-					24
+					31
 				},
 				{
 					0,
@@ -167,6 +143,30 @@ pg.activity_banner = {
 					59,
 					59
 				}
+			}
+		}
+	},
+	{
+		time = "stop",
+		type = 2,
+		id = 9,
+		pic = "temp9",
+		param = {
+			"scene charge",
+			{
+				wrap = 3
+			}
+		}
+	},
+	{
+		time = "stop",
+		type = 2,
+		id = 10,
+		pic = "temp10",
+		param = {
+			"scene shop",
+			{
+				warp = "shopstreet"
 			}
 		}
 	},

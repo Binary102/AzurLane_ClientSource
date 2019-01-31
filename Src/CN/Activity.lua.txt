@@ -77,6 +77,20 @@ slot0.bindConfigTable = function (slot0)
 	return pg.activity_template
 end
 
+slot0.getDataConfigTable = function (slot0)
+	slot2 = slot0:getConfig("config_id")
+
+	if slot0:getConfig("type") == ActivityConst.ACTIVITY_TYPE_HITMONSTERNIAN then
+		return pg.activity_event_nianshou[tonumber(slot2)]
+	elseif slot1 == ActivityConst.ACTIVITY_TYPE_MONOPOLY then
+		return pg.activity_event_monopoly[tonumber(slot2)]
+	end
+end
+
+slot0.getDataConfig = function (slot0, slot1)
+	return slot0:getDataConfigTable()[slot1]
+end
+
 slot0.isEnd = function (slot0)
 	return slot0.stopTime > 0 and slot0.stopTime <= pg.TimeMgr.GetInstance():GetServerTime()
 end
@@ -102,20 +116,34 @@ slot0.readyToAchieve = function (slot0)
 				break
 			end
 		end
-	elseif slot2 == ActivityConst.ACTIVITY_TYPE_TASK_LIST and (slot0:getConfig("config_id") == 2 or slot0:getConfig("config_id") == 3) then
-		slot3 = getProxy(TaskProxy)
-		slot1 = slot0.data3 > 0 and _.any(_.flatten({
-			slot0:getConfig("config_data")[slot5]
-		}), function (slot0)
-			return slot0:getTaskById(slot0) and slot1:isFinish()
-		end)
+	elseif slot2 == ActivityConst.ACTIVITY_TYPE_TASK_LIST then
+		if slot0:getConfig("config_id") == 2 or slot0:getConfig("config_id") == 3 then
+			slot3 = getProxy(TaskProxy)
+			slot1 = slot0.data3 > 0 and _.any(_.flatten({
+				slot0:getConfig("config_data")[slot5]
+			}), function (slot0)
+				return slot0:getTaskById(slot0) and slot1:isFinish()
+			end)
+		end
+	elseif slot2 == ActivityConst.ACTIVITY_TYPE_HITMONSTERNIAN then
+		return not (slot0:getDataConfig("hp") <= slot0.data3) and slot0:getCountForHitMonster() > 0
+	elseif slot2 == ActivityConst.ACTIVITY_TYPE_MONOPOLY then
+		return (math.ceil((pg.TimeMgr.GetInstance():GetServerTime() - slot0.data1) / 86400) * slot0:getDataConfig("daily_time") + slot0.data1_list[1]) - slot0.data1_list[2] > 0 or slot0.data2_list[1] - slot0.data2_list[2] > 0
+	elseif slot2 == ActivityConst.ACTIVITY_TYPE_DODGEM then
+		slot3 = pg.TimeMgr.GetInstance()
+
+		return (slot0.data4 == 0 and slot0.data2 >= 7) or defaultValue(slot0.data2_list[1], 0) > 0 or defaultValue(slot0.data2_list[2], 0) > 0 or slot0.data2 < math.min(slot3:DiffDay(slot0.data1, slot3:GetServerTime()) + 1, 7) or slot0.data3 < slot3.DiffDay(slot0.data1, slot3.GetServerTime()) + 1
 	end
 
 	return slot1
 end
 
 slot0.isShow = function (slot0)
-	return slot0:getConfig("is_show") == 1
+	return slot0:getConfig("is_show") > 0
+end
+
+slot0.getShowPriority = function (slot0)
+	return slot0:getConfig("is_show")
 end
 
 slot0.left4Day = function (slot0)
@@ -168,7 +196,7 @@ end
 
 slot0.getCountForHitMonster = function (slot0)
 	if slot0:getConfig("type") == ActivityConst.ACTIVITY_TYPE_HITMONSTERNIAN then
-		return ((pg.TimeMgr:GetInstance():parseTimeFrom(pg.TimeMgr:GetInstance():GetServerTime() - pg.TimeMgr:GetInstance():parseTimeFromConfig(slot0:getConfig("time")[2])) + 1) * (slot0:getConfig("config_data")[5] or 1) + (slot0:getConfig("config_data")[4] or 1)) - slot0.data2
+		return ((pg.TimeMgr:GetInstance():parseTimeFrom(pg.TimeMgr:GetInstance():GetServerTime() - pg.TimeMgr:GetInstance():parseTimeFromConfig(slot0:getConfig("time")[2])) + 1) * slot0:getDataConfig("daily_count") + slot0:getDataConfig("first_extra_count")) - slot0.data2
 	end
 end
 

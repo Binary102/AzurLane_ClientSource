@@ -11,20 +11,18 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"前进吧，{namecode:144}！\n\n<size=30>七 约会吧，{namecode:144}！</size>",
+					"天狼星改造计划\n\n<size=30>一 身为女仆……</size>",
 					1
 				}
 			}
 		},
 		{
-			bgName = "bg_story_room",
 			side = 2,
+			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
-			bgm = "story-2",
-			actor = 303091,
-			nameColor = "#a9f548",
-			say = "……",
+			bgm = "story-1",
+			say = "港区·指挥室",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -52,13 +50,10 @@ return {
 			}
 		},
 		{
-			expression = 5,
 			side = 2,
+			bgName = "bg_story_task",
 			dir = 1,
-			blackBg = true,
-			actor = 303091,
-			nameColor = "#a9f548",
-			say = "（不，不说点什么的话，呜呜……）",
+			say = "偶然得到贝尔法斯特的推荐，任命了原来在女仆队中负责警备工作的天狼星为秘书舰",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,27 +64,109 @@ return {
 			}
 		},
 		{
-			expression = 5,
+			actor = 202201,
 			side = 2,
-			bgName = "bg_story_room",
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "今天也请允许天狼星作为秘书舰协助您，我骄傲的主人",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 2,
+			side = 2,
+			bgName = "bg_story_task",
+			dir = 1,
+			actor = 202201,
+			nameColor = "#a9f548",
+			say = "如果有什么天狼星能做的，请您尽管开口。虽然远不及女仆长能干，但是天狼星会全力以赴，定不负您的期待！",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			bgName = "bg_story_task",
+			dir = 1,
+			say = "试着把工作交给这位举止飒爽、努力上进的女仆……",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			bgName = "bg_story_task",
+			dir = 1,
+			actor = 202201,
+			nameColor = "#a9f548",
+			say = "…………？",
+			flashout = {
+				dur = 0.5,
+				black = true,
+				alpha = {
+					0,
+					1
+				}
+			},
+			flashin = {
+				delay = 0.5,
+				dur = 0.5,
+				black = true,
+				alpha = {
+					1,
+					0
+				}
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "bg_story_task",
 			withoutActorName = true,
-			dir = 1,
-			actor = 303091,
+			actor = 202201,
 			nameColor = "#a9f548",
-			say = "{namecode:144}的脸涨得通红",
+			say = "天狼星疑惑地歪了歪头。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
 			}
 		},
 		{
-			expression = 4,
+			actor = 202201,
 			side = 2,
-			bgName = "bg_story_room",
-			dir = 1,
-			actor = 303091,
+			bgName = "bg_story_task",
 			nameColor = "#a9f548",
-			say = "……",
+			dir = 1,
+			say = "您说昨天的演习报告……吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,59 +178,11 @@ return {
 		},
 		{
 			side = 2,
-			bgName = "bg_story_room",
+			bgName = "bg_story_task",
 			dir = 1,
-			say = "再不说点什么的话，这个让人难以忍受的气氛就结束不了……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			bgName = "bg_story_room",
-			dir = 1,
-			say = "刚要开口时——",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 6,
-			side = 2,
-			bgName = "bg_story_room",
-			dir = 1,
-			actor = 303091,
+			actor = 202201,
 			nameColor = "#a9f548",
-			say = "指挥官，能，能和我约会吗！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			bgName = "bg_story_room",
-			dir = 1,
-			say = "……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 6,
-			side = 2,
-			bgName = "bg_story_room",
-			dir = 1,
-			actor = 303091,
-			nameColor = "#a9f548",
-			say = "我，我在说什么呀！",
+			say = "十分抱歉……昨天以为主人已经过目，就擅自处理了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,96 +193,46 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 0,
 					type = "shake",
 					delay = 0,
-					dur = 0.15,
-					x = 0,
-					number = 3
-				}
-			}
-		},
-		{
-			expression = 6,
-			side = 2,
-			bgName = "bg_story_room",
-			dir = 1,
-			actor = 303091,
-			nameColor = "#a9f548",
-			say = "请，请务必忘记我刚刚那奇怪的发言！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			action = {
-				{
-					y = 30,
-					type = "shake",
-					delay = 0,
-					dur = 0.15,
-					x = 0,
+					dur = 0.4,
+					x = 15,
 					number = 2
-				}
-			},
-			options = {
-				{
-					content = "答应约会",
-					flag = 1
-				}
-			}
-		},
-		{
-			expression = 5,
-			side = 2,
-			bgName = "bg_story_room",
-			dir = 1,
-			actor = 303091,
-			nameColor = "#a9f548",
-			say = "欸",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 5,
-			side = 2,
-			bgName = "bg_story_room",
-			dir = 1,
-			actor = 303091,
-			nameColor = "#a9f548",
-			say = "对，对不起！刚刚的只是胡言乱语所以——",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			options = {
-				{
-					content = "表示“想要更加的了解{namecode:144}”",
-					flag = 1
 				}
 			}
 		},
 		{
 			expression = 2,
 			side = 2,
-			bgName = "bg_story_room",
+			bgName = "bg_story_task",
 			dir = 1,
-			actor = 303091,
+			actor = 202201,
 			nameColor = "#a9f548",
-			say = "啊…我、我也想要更加了解指挥官…",
+			say = "我、我这就去找！",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			action = {
+				{
+					y = 0,
+					type = "move",
+					delay = 0.5,
+					dur = 0.5,
+					x = 1500
+				}
+			}
+		},
+		{
+			side = 2,
+			bgName = "bg_story_task",
+			dir = 1,
+			say = "天狼星慌慌张张地跪在堆成小山的废纸堆前翻找起来。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,127 +244,28 @@ return {
 		},
 		{
 			side = 2,
-			bgName = "bg_story_room",
+			bgName = "bg_story_task",
 			dir = 1,
-			say = "原本尴尬而慌乱的脸上，露出了微笑。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 1,
-			side = 2,
-			bgName = "bg_story_room",
-			dir = 1,
-			actor = 303091,
+			actor = 202201,
 			nameColor = "#a9f548",
-			say = "嗯！那，那就约好了，在——",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
+			say = "不好意思主人，打扫要从哪里开始比较好……？",
+			flashout = {
+				dur = 0.5,
+				black = true,
+				alpha = {
+					0,
+					1
+				}
 			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			stopbgm = true,
-			nameColor = "#a9f548",
-			bgName = "bg_story_room",
-			side = 2,
-			dir = 1,
-			actorName = "{namecode:63}",
-			say = "喂，你们几个堆在门这里干啥？在偷听吗？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actorName = "{namecode:55}",
-			side = 2,
-			bgName = "bg_story_room",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "啊，糟了，是The·风纪委员长·{namecode:63}！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			bgName = "bg_story_room",
-			dir = 1,
-			say = "门突然被推开了，几个身影拥挤着倒在了门前",
-			dialogShake = {
-				speed = 0.09,
-				x = 8.5,
-				number = 2
+			flashin = {
+				delay = 0.5,
+				dur = 0.5,
+				black = true,
+				alpha = {
+					1,
+					0
+				}
 			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			bgName = "bg_story_room",
-			dir = 1,
-			bgm = "story-1",
-			actor = 301301,
-			nameColor = "#a9f548",
-			say = "啧，在这关键的时候……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 303081,
-			side = 2,
-			bgName = "bg_story_room",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "小{namecode:63}……你这也太不解风情了吧？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 303031,
-			side = 2,
-			bgName = "bg_story_room",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "差一点就到手的独家新闻啊！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 303071,
-			side = 2,
-			bgName = "bg_story_room",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "欸，我，我做错了什么吗？还有这一地的纸鹤……这，这到底是怎么回事？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -397,13 +277,138 @@ return {
 		},
 		{
 			side = 2,
-			bgName = "bg_story_room",
+			bgName = "bg_story_task",
+			dir = 1,
+			actor = 202201,
+			nameColor = "#a9f548",
+			say = "非常抱歉，泡茶一直是由女仆队的其他伙伴负责的，天狼星没有做过……",
+			flashout = {
+				dur = 0.5,
+				black = true,
+				alpha = {
+					0,
+					1
+				}
+			},
+			flashin = {
+				delay = 0.5,
+				dur = 0.5,
+				black = true,
+				alpha = {
+					1,
+					0
+				}
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			action = {
+				{
+					y = 0,
+					type = "shake",
+					delay = 1,
+					dur = 0.4,
+					x = 15,
+					number = 2
+				}
+			}
+		},
+		{
+			bgName = "bg_story_task",
+			side = 2,
+			dir = 1,
+			say = "作为护卫（Secret Service）的她确实无懈可击，\n但是在普通事务方面却是仅仅及格的水准，实在很难令人开口夸赞。",
+			flashout = {
+				dur = 0.5,
+				black = true,
+				alpha = {
+					0,
+					1
+				}
+			},
+			flashin = {
+				delay = 0.5,
+				dur = 0.5,
+				black = true,
+				alpha = {
+					1,
+					0
+				}
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 202201,
+			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "万分抱歉，天狼星身为秘书舰，不但无法胜任工作，还占用了骄傲的主人很多时间……",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 2,
+			side = 2,
+			bgName = "bg_story_task",
+			dir = 1,
+			actor = 202201,
+			nameColor = "#a9f548",
+			say = "请……请惩罚犯了错误的女仆吧！",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			bgName = "bg_story_task",
+			dir = 1,
+			say = "天狼星深深低头，拼命道歉。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "小小的闹剧就这样画上了句号，接下来…要考虑约会的地点了呢",
+			say = "看着她这么努力的样子，让人忍不住想要为她做点什么",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
 			}
 		}
 	}

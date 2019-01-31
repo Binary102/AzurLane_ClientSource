@@ -59,6 +59,10 @@ slot7.UpdateWeaponVO = function (slot0, slot1)
 	slot0._airAssistVO:Update(slot1)
 	slot0._fleetAntiAir:Update(slot1)
 	slot0._fleetSonar:Update(slot1)
+
+	for slot5, slot6 in pairs(slot0._indieSonarList) do
+		slot5:Update(slot1)
+	end
 end
 
 slot7.UpdateFleetDamage = function (slot0, slot1)
@@ -77,8 +81,10 @@ slot7.DispatchFleetDamageChange = function (slot0)
 	slot0:DispatchEvent(slot0.Event.New(slot1.FLEET_DMG_CHANGE, {}))
 end
 
-slot7.DispatchSonarScan = function (slot0)
-	slot0:DispatchEvent(slot0.Event.New(slot1.SONAR_SCAN, {}))
+slot7.DispatchSonarScan = function (slot0, slot1)
+	slot0:DispatchEvent(slot0.Event.New(slot1.SONAR_SCAN, {
+		indieSonar = slot1
+	}))
 end
 
 slot7.FreeMainUnit = function (slot0, slot1)
@@ -318,6 +324,7 @@ slot7.Dispose = function (slot0)
 	slot0._fleetSonar:Dispose()
 
 	slot0._fleetSonar = nil
+	slot0._indieSonarList = nil
 end
 
 slot7.refreshFleetFormation = function (slot0, slot1)
@@ -340,6 +347,11 @@ slot7.refreshFleetFormation = function (slot0, slot1)
 		slot0._leaderUnit:LeaderSetting()
 		slot0._fleetAntiAir:SwitchHost(slot0._motionReferenceUnit)
 		slot0._fleetSonar:SwitchHost(slot0._motionReferenceUnit)
+
+		for slot7, slot8 in pairs(slot0._indieSonarList) do
+			slot7:SwitchHost(slot0._motionReferenceUnit)
+		end
+
 		slot0._motionVO:UpdatePos(slot0._motionReferenceUnit)
 	elseif slot0._fleetAntiAir:GetCurrentState() ~= slot0._fleetAntiAir.STATE_DISABLE then
 		for slot8, slot9 in pairs(slot4) do
@@ -362,6 +374,7 @@ slot7.init = function (slot0)
 	slot0._fleetAntiAir = slot0.Battle.BattleFleetAntiAirUnit.New()
 	slot0._motionVO = slot0.Battle.BattleFleetMotionVO.New()
 	slot0._fleetSonar = slot0.Battle.BattleFleetSonar.New(slot0)
+	slot0._indieSonarList = {}
 	slot0._scoutList = {}
 	slot0._mainList = {}
 	slot0._subList = {}
@@ -701,6 +714,26 @@ end
 
 slot7.GetSubList = function (slot0)
 	return slot0._subList
+end
+
+slot7.AppendIndieSonar = function (slot0, slot1, slot2)
+	slot3 = slot0.Battle.BattleIndieSonar.New(slot0, slot1, slot2)
+
+	slot3:SwitchHost(slot0._motionReferenceUnit)
+
+	slot0._indieSonarList[slot3] = true
+
+	slot3:Detect()
+end
+
+slot7.RemoveIndieSonar = function (slot0, slot1)
+	for slot5, slot6 in pairs(slot0._indieSonarList) do
+		if slot1 == slot5 then
+			slot0._indieSonarList[slot5] = nil
+
+			break
+		end
+	end
 end
 
 return

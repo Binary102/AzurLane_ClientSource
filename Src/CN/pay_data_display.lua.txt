@@ -402,7 +402,7 @@ pg.pay_data_display = {
 		descrip_extra = "*福袋将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
 		name = "2019新年福袋",
 		descrip = "可获得一件角色换装，2019钻，和大量其他奖励",
-		subject = "新年福袋",
+		subject = "2019新年福袋",
 		extra_service = 3,
 		money = 198,
 		tag = 1,
@@ -490,6 +490,99 @@ pg.pay_data_display = {
 			}
 		}
 	},
+	[13] = {
+		limit_arg = 1,
+		descrip_extra = "*福袋将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+		name = "2019春节福袋",
+		descrip = "可获得一件角色换装，2019钻，和大量其他奖励",
+		subject = "2019春节福袋",
+		extra_service = 3,
+		money = 198,
+		tag = 1,
+		gem = 0,
+		limit_type = 2,
+		picture = "fudai",
+		id_str = "com.bilibili.blhx.zuanshi110",
+		first_pay_double = 0,
+		extra_gem = 0,
+		id = 13,
+		airijp_id = "com.yostarjp.azurlane.diamond107",
+		extra_service_item = {
+			{
+				2,
+				59904,
+				1
+			},
+			{
+				1,
+				4,
+				2019
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					1,
+					10
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					2,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				59904,
+				1
+			},
+			{
+				1,
+				4,
+				2019
+			},
+			{
+				2,
+				15008,
+				50
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -501,7 +594,8 @@ pg.pay_data_display = {
 		8,
 		9,
 		11,
-		12
+		12,
+		13
 	}
 }
 

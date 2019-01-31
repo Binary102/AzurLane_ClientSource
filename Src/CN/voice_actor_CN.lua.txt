@@ -651,6 +651,10 @@ pg.voice_actor_CN = {
 	{
 		actor_name = "洲崎绫 ",
 		code = 163
+	},
+	{
+		actor_name = "内田彩",
+		code = 164
 	}
 }
 

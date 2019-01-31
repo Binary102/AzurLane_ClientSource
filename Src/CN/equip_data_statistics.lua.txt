@@ -45972,6 +45972,53 @@ pg.equip_data_statistics = {
 		},
 		property_rate = {}
 	},
+	[60381] = {
+		name = "航空攻击展示-追赶者I",
+		type = 99,
+		nationality = 0,
+		speciality = "无",
+		range = 0,
+		angle = 0,
+		tech = 1,
+		ambush_extra = 0,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "",
+		avoid_extra = 0,
+		rarity = 1,
+		descrip = "航母空袭展示用",
+		scatter = "0",
+		ammo = "无",
+		value_3 = 0,
+		id = 60381,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {
+			60381
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {}
+	},
+	[60382] = {
+		name = "航空攻击展示-追赶者II",
+		base = 60381,
+		id = 60382,
+		weapon_id = {
+			60382
+		},
+		property_rate = {}
+	},
+	[60383] = {
+		name = "航空攻击展示-追赶者III",
+		base = 60381,
+		id = 60383,
+		weapon_id = {
+			60383
+		},
+		property_rate = {}
+	},
 	[61007] = {
 		name = "约克城技能随机扫射海面LV1",
 		type = 1,
@@ -47665,6 +47712,44 @@ pg.equip_data_statistics = {
 		id = 71162,
 		weapon_id = {
 			71162
+		},
+		property_rate = {}
+	},
+	[71171] = {
+		name = "全弹发射-谷物女神级I",
+		type = 1,
+		nationality = 0,
+		speciality = "无",
+		range = 0,
+		angle = 0,
+		tech = 1,
+		ambush_extra = 0,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "",
+		avoid_extra = 0,
+		rarity = 1,
+		descrip = "技能弹幕",
+		scatter = "0",
+		ammo = "无",
+		value_3 = 0,
+		id = 71171,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {
+			71171
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {}
+	},
+	[71172] = {
+		name = "全弹发射-谷物女神级II",
+		base = 71171,
+		id = 71172,
+		weapon_id = {
+			71172
 		},
 		property_rate = {}
 	},
@@ -56057,6 +56142,9 @@ pg.equip_data_statistics = {
 		60371,
 		60372,
 		60373,
+		60381,
+		60382,
+		60383,
 		61007,
 		61008,
 		61009,
@@ -56141,6 +56229,8 @@ pg.equip_data_statistics = {
 		71152,
 		71161,
 		71162,
+		71171,
+		71172,
 		71211,
 		71212,
 		71221,

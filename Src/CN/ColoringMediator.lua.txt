@@ -48,7 +48,6 @@ slot0.handleNotification = function (slot0, slot1)
 	elseif slot2 == GAME.COLORING_ACHIEVE_DONE then
 		slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3.drops, function ()
 			slot0.viewComponent:updatePage()
-			slot0.viewComponent.updatePage.viewComponent:updateAwardDisplay()
 		end)
 	end
 end

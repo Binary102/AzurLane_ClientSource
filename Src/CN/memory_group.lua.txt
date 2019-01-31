@@ -868,6 +868,21 @@ pg.memory_group = {
 			641
 		}
 	},
+	[149] = {
+		title = "闹腾嬉戏东煌春节",
+		type = 2,
+		id = 149,
+		icon = "title_event",
+		memories = {
+			677,
+			678,
+			679,
+			680,
+			681,
+			682,
+			683
+		}
+	},
 	[501] = {
 		title = "{namecode:98}的委托",
 		type = 3,
@@ -1421,6 +1436,36 @@ pg.memory_group = {
 			662
 		}
 	},
+	[538] = {
+		title = "天狼星改造计划",
+		type = 3,
+		id = 538,
+		icon = "title_chara_tianlangxing",
+		memories = {
+			663,
+			664,
+			665,
+			666,
+			667,
+			668,
+			669
+		}
+	},
+	[539] = {
+		title = "皇家的骑士",
+		type = 3,
+		id = 539,
+		icon = "title_chara_yanzhan",
+		memories = {
+			670,
+			671,
+			672,
+			673,
+			674,
+			675,
+			676
+		}
+	},
 	all = {
 		1,
 		2,
@@ -1475,6 +1520,7 @@ pg.memory_group = {
 		146,
 		147,
 		148,
+		149,
 		501,
 		502,
 		503,
@@ -1510,7 +1556,9 @@ pg.memory_group = {
 		534,
 		535,
 		536,
-		537
+		537,
+		538,
+		539
 	}
 }
 

@@ -39,30 +39,6 @@ ys.Battle.BattleControllerCommand.CheckDebugCombinedKey = function (slot0)
 			slot0._state:GetMediatorByName(slot0.Battle.BattleReferenceBoxMediator.__name):ActiveUnitDetail(true)
 		elseif Input.GetKeyUp(KeyCode.Keypad6) then
 			slot0._state:GetMediatorByName(slot0.Battle.BattleReferenceBoxMediator.__name):ActiveUnitDetail(false)
-		elseif Input.GetKeyUp(KeyCode.KeypadPeriod) then
-			pg.TipsMgr:GetInstance():ShowTips("┏━━━━━━━━━━━━━━━━━━━┓")
-			pg.TipsMgr:GetInstance():ShowTips("┃ヽ(•̀ω•́ )ゝ无駄无駄无駄无駄无駄无駄(ง •̀_•́)ง┃")
-			pg.TipsMgr:GetInstance():ShowTips("┗━━━━━━━━━━━━━━━━━━━┛")
-
-			slot0.Battle.BattleFormulas.CalculateDamage = function ()
-				return 0, {
-					false,
-					true,
-					false
-				}
-			end
-
-			slot0.Battle.BattleFormulas.CalculateDamageFromAircraftToMainShip = function ()
-				return 0
-			end
-
-			slot0.Battle.BattleFormulas.CalculateDamageFromShipToMainShip = function ()
-				return 0
-			end
-
-			slot0.Battle.BattleFormulas.CalculateCrashDamage = function ()
-				return 0, 0
-			end
 		elseif Input.GetKeyUp(KeyCode.KeypadPlus) then
 			if slot0.Battle.BattleConfig.BASIC_TIME_SCALE < 1 then
 				slot0.removeSpeed(2)

@@ -423,9 +423,18 @@ pg.gameset = {
 		key_value = 2
 	},
 	coloring_story = {
-		description = "",
 		key = "coloring_story",
-		key_value = 0
+		key_value = 0,
+		description = {
+			"ANSHAN01",
+			nil,
+			"ANSHAN02",
+			nil,
+			"ANSHAN03",
+			nil,
+			"ANSHAN04",
+			"ANSHAN05"
+		}
 	},
 	card_pairs_story = {
 		key = "card_pairs_story",
@@ -676,6 +685,11 @@ pg.gameset = {
 		description = "",
 		key = "language_default",
 		key_value = 2
+	},
+	event_tips = {
+		description = "",
+		key = "event_tips",
+		key_value = 1
 	}
 }
 

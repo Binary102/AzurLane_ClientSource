@@ -2520,6 +2520,216 @@ pg.furniture_data_template = {
 		canputonGrid = {},
 		interAction_group = {}
 	},
+	[100001] = {
+		can_rotate = 0,
+		name = "本ID禁用，后端固定会删除",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		picture = "qiandao/yiyue",
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 1,
+		icon = "yiyueicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 4,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 100001,
+		comfortable = 0,
+		describe = "本ID禁用",
+		dorm_id = 0,
+		gem_price = 120,
+		can_trigger = 0,
+		themeId = 0,
+		time = "always",
+		new = 1,
+		discount_time = "",
+		size = {
+			7,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		spine = {
+			{
+				"201901login",
+				"normal"
+			},
+			[3] = {
+				{
+					0,
+					0
+				},
+				{
+					{
+						"yun"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			[4] = {},
+			[5] = {
+				-25.8,
+				11.1
+			},
+			[6] = {
+				1,
+				1
+			}
+		},
+		spine_extra = {
+			{
+				{},
+				{
+					21.2,
+					-11
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		animator = {
+			{
+				"201901loginCharControl",
+				"201901loginCharControl2"
+			}
+		},
+		interAction_group = {}
+	},
+	[100002] = {
+		can_rotate = 0,
+		name = "友情的打气筒",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		picture = "qiandao/yiyue",
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 1,
+		icon = "19.01.15icon",
+		deblocking = 1,
+		level = 1,
+		rarity = 4,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 100002,
+		comfortable = 0,
+		describe = "飞高高～飞高高～…唔！？太高了太高了！！QAQ",
+		dorm_id = 0,
+		gem_price = 120,
+		can_trigger = 0,
+		themeId = 0,
+		time = "always",
+		new = 1,
+		discount_time = "",
+		size = {
+			7,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		spine = {
+			{
+				"201901login",
+				"normal"
+			},
+			[3] = {
+				{
+					0,
+					0
+				},
+				{
+					{
+						"yun"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			[4] = {},
+			[5] = {
+				-25.8,
+				11.1
+			},
+			[6] = {
+				1,
+				1
+			}
+		},
+		spine_extra = {
+			{
+				{},
+				{
+					21.2,
+					-11
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		animator = {
+			{
+				"201901loginCharControl",
+				"201901loginCharControl2"
+			}
+		},
+		interAction_group = {}
+	},
+	[100003] = {
+		can_rotate = 0,
+		name = "梦幻的竹蜻蜓",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		effect = "",
+		icon = "19.02.15icon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 1,
+		deblocking = 1,
+		level = 1,
+		rarity = 4,
+		picture = "",
+		canputon = 0,
+		discount = 0,
+		id = 100003,
+		comfortable = 0,
+		describe = "于天空自由飞翔的梦想，在此实现！",
+		dorm_id = 0,
+		gem_price = 120,
+		can_trigger = 0,
+		themeId = 0,
+		spine_extra = "",
+		time = "always",
+		new = 1,
+		discount_time = "",
+		size = {},
+		offset = {},
+		canputonGrid = {},
+		interAction_group = {}
+	},
 	[1001] = {
 		can_rotate = 0,
 		name = "破地板",
@@ -28721,7 +28931,7 @@ pg.furniture_data_template = {
 		rarity = 4,
 		picture = "cj/dibancj",
 		canputon = 0,
-		discount = 0,
+		discount = 20,
 		id = 19001,
 		comfortable = 4,
 		describe = "新春佳节到！",
@@ -28732,11 +28942,36 @@ pg.furniture_data_template = {
 		spine_extra = "",
 		time = "always",
 		new = 0,
-		discount_time = "",
 		size = {},
 		offset = {},
 		canputonGrid = {},
-		interAction_group = {}
+		interAction_group = {},
+		discount_time = {
+			{
+				{
+					2019,
+					1,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					2,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
 	},
 	[19002] = {
 		can_rotate = 0,
@@ -28757,7 +28992,7 @@ pg.furniture_data_template = {
 		rarity = 4,
 		picture = "cj/qiangbicj",
 		canputon = 0,
-		discount = 0,
+		discount = 20,
 		id = 19002,
 		comfortable = 4,
 		describe = "新春佳节到！",
@@ -28768,11 +29003,36 @@ pg.furniture_data_template = {
 		spine_extra = "",
 		time = "always",
 		new = 0,
-		discount_time = "",
 		size = {},
 		offset = {},
 		canputonGrid = {},
-		interAction_group = {}
+		interAction_group = {},
+		discount_time = {
+			{
+				{
+					2019,
+					1,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					2,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
 	},
 	[19101] = {
 		can_rotate = 0,
@@ -28793,7 +29053,7 @@ pg.furniture_data_template = {
 		rarity = 1,
 		picture = "cj/bianpao2cj",
 		canputon = 0,
-		discount = 0,
+		discount = 20,
 		id = 19101,
 		comfortable = 1,
 		describe = "“嘭”的一声蹿上天",
@@ -28804,14 +29064,39 @@ pg.furniture_data_template = {
 		spine_extra = "",
 		time = "always",
 		new = 0,
-		discount_time = "",
 		size = {
 			1,
 			1
 		},
 		offset = {},
 		canputonGrid = {},
-		interAction_group = {}
+		interAction_group = {},
+		discount_time = {
+			{
+				{
+					2019,
+					1,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					2,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
 	},
 	[19102] = {
 		can_rotate = 0,
@@ -28832,7 +29117,7 @@ pg.furniture_data_template = {
 		rarity = 2,
 		picture = "cj/caishencj",
 		canputon = 0,
-		discount = 0,
+		discount = 20,
 		id = 19102,
 		comfortable = 2,
 		describe = "财源广进！",
@@ -28843,14 +29128,39 @@ pg.furniture_data_template = {
 		spine_extra = "",
 		time = "always",
 		new = 0,
-		discount_time = "",
 		size = {
 			2,
 			2
 		},
 		offset = {},
 		canputonGrid = {},
-		interAction_group = {}
+		interAction_group = {},
+		discount_time = {
+			{
+				{
+					2019,
+					1,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					2,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
 	},
 	[19103] = {
 		can_rotate = 0,
@@ -28871,7 +29181,7 @@ pg.furniture_data_template = {
 		rarity = 2,
 		picture = "cj/dengzicj",
 		canputon = 0,
-		discount = 0,
+		discount = 20,
 		id = 19103,
 		comfortable = 2,
 		describe = "得儿咙咚呛",
@@ -28882,7 +29192,6 @@ pg.furniture_data_template = {
 		spine_extra = "",
 		time = "always",
 		new = 0,
-		discount_time = "",
 		size = {
 			2,
 			2
@@ -28902,7 +29211,33 @@ pg.furniture_data_template = {
 				}
 			}
 		},
-		interAction_group = {}
+		interAction_group = {},
+		discount_time = {
+			{
+				{
+					2019,
+					1,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					2,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
 	},
 	[19104] = {
 		can_rotate = 0,
@@ -28923,7 +29258,7 @@ pg.furniture_data_template = {
 		rarity = 1,
 		picture = "cj/dengcj",
 		canputon = 0,
-		discount = 0,
+		discount = 20,
 		id = 19104,
 		comfortable = 1,
 		describe = "大红灯笼高高挂！",
@@ -28934,14 +29269,39 @@ pg.furniture_data_template = {
 		spine_extra = "",
 		time = "always",
 		new = 0,
-		discount_time = "",
 		size = {
 			1,
 			2
 		},
 		offset = {},
 		canputonGrid = {},
-		interAction_group = {}
+		interAction_group = {},
+		discount_time = {
+			{
+				{
+					2019,
+					1,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					2,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
 	},
 	[19105] = {
 		can_rotate = 0,
@@ -28962,7 +29322,7 @@ pg.furniture_data_template = {
 		rarity = 3,
 		picture = "cj/ditancj",
 		canputon = 0,
-		discount = 0,
+		discount = 20,
 		id = 19105,
 		comfortable = 3,
 		describe = "祝你吉祥如意~啾",
@@ -28973,14 +29333,39 @@ pg.furniture_data_template = {
 		spine_extra = "",
 		time = "always",
 		new = 0,
-		discount_time = "",
 		size = {
 			3,
 			2
 		},
 		offset = {},
 		canputonGrid = {},
-		interAction_group = {}
+		interAction_group = {},
+		discount_time = {
+			{
+				{
+					2019,
+					1,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					2,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
 	},
 	[19106] = {
 		can_rotate = 0,
@@ -29001,7 +29386,7 @@ pg.furniture_data_template = {
 		rarity = 1,
 		picture = "cj/gelancj",
 		canputon = 0,
-		discount = 0,
+		discount = 20,
 		id = 19106,
 		comfortable = 1,
 		describe = "千万不要翻越隔栏哦",
@@ -29012,14 +29397,39 @@ pg.furniture_data_template = {
 		spine_extra = "",
 		time = "always",
 		new = 0,
-		discount_time = "",
 		size = {
 			4,
 			1
 		},
 		offset = {},
 		canputonGrid = {},
-		interAction_group = {}
+		interAction_group = {},
+		discount_time = {
+			{
+				{
+					2019,
+					1,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					2,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
 	},
 	[19107] = {
 		can_rotate = 0,
@@ -29040,7 +29450,7 @@ pg.furniture_data_template = {
 		rarity = 2,
 		picture = "cj/gou2cj",
 		canputon = 0,
-		discount = 0,
+		discount = 20,
 		id = 19107,
 		comfortable = 2,
 		describe = "一只黄色的汪酱",
@@ -29051,14 +29461,39 @@ pg.furniture_data_template = {
 		spine_extra = "",
 		time = "always",
 		new = 0,
-		discount_time = "",
 		size = {
 			2,
 			2
 		},
 		offset = {},
 		canputonGrid = {},
-		interAction_group = {}
+		interAction_group = {},
+		discount_time = {
+			{
+				{
+					2019,
+					1,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					2,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
 	},
 	[19108] = {
 		can_rotate = 0,
@@ -29079,7 +29514,7 @@ pg.furniture_data_template = {
 		rarity = 2,
 		picture = "cj/heichacj",
 		canputon = 0,
-		discount = 0,
+		discount = 20,
 		id = 19108,
 		comfortable = 2,
 		describe = "一只黑色的汪酱",
@@ -29090,14 +29525,39 @@ pg.furniture_data_template = {
 		spine_extra = "",
 		time = "always",
 		new = 0,
-		discount_time = "",
 		size = {
 			2,
 			2
 		},
 		offset = {},
 		canputonGrid = {},
-		interAction_group = {}
+		interAction_group = {},
+		discount_time = {
+			{
+				{
+					2019,
+					1,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					2,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
 	},
 	[19109] = {
 		can_rotate = 0,
@@ -29118,7 +29578,7 @@ pg.furniture_data_template = {
 		rarity = 4,
 		picture = "cj/guohecj",
 		canputon = 0,
-		discount = 0,
+		discount = 20,
 		id = 19109,
 		comfortable = 4,
 		describe = "大大的果盒，甚至能够躲人进去",
@@ -29129,7 +29589,6 @@ pg.furniture_data_template = {
 		spine_extra = "",
 		time = "always",
 		new = 0,
-		discount_time = "",
 		size = {
 			8,
 			8
@@ -29210,7 +29669,33 @@ pg.furniture_data_template = {
 				}
 			}
 		},
-		interAction_group = {}
+		interAction_group = {},
+		discount_time = {
+			{
+				{
+					2019,
+					1,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					2,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
 	},
 	[19110] = {
 		can_rotate = 0,
@@ -29231,7 +29716,7 @@ pg.furniture_data_template = {
 		rarity = 2,
 		picture = "cj/huatancj",
 		canputon = 0,
-		discount = 0,
+		discount = 20,
 		id = 19110,
 		comfortable = 2,
 		describe = "庭院里的小花坛，不要踩进去哟",
@@ -29242,14 +29727,39 @@ pg.furniture_data_template = {
 		spine_extra = "",
 		time = "always",
 		new = 0,
-		discount_time = "",
 		size = {
 			4,
 			2
 		},
 		offset = {},
 		canputonGrid = {},
-		interAction_group = {}
+		interAction_group = {},
+		discount_time = {
+			{
+				{
+					2019,
+					1,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					2,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
 	},
 	[19111] = {
 		can_rotate = 0,
@@ -29270,7 +29780,7 @@ pg.furniture_data_template = {
 		rarity = 2,
 		picture = "cj/langcj",
 		canputon = 0,
-		discount = 0,
+		discount = 20,
 		id = 19111,
 		comfortable = 2,
 		describe = "一小段廊道，可以走上去看看",
@@ -29281,7 +29791,6 @@ pg.furniture_data_template = {
 		spine_extra = "",
 		time = "always",
 		new = 0,
-		discount_time = "",
 		size = {
 			4,
 			2
@@ -29302,7 +29811,33 @@ pg.furniture_data_template = {
 				"cj/langcj_using"
 			}
 		},
-		interAction_group = {}
+		interAction_group = {},
+		discount_time = {
+			{
+				{
+					2019,
+					1,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					2,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
 	},
 	[19112] = {
 		can_rotate = 0,
@@ -29323,7 +29858,7 @@ pg.furniture_data_template = {
 		rarity = 2,
 		picture = "cj/penzaicj",
 		canputon = 0,
-		discount = 0,
+		discount = 20,
 		id = 19112,
 		comfortable = 2,
 		describe = "大吉大利！",
@@ -29334,14 +29869,39 @@ pg.furniture_data_template = {
 		spine_extra = "",
 		time = "always",
 		new = 0,
-		discount_time = "",
 		size = {
 			2,
 			2
 		},
 		offset = {},
 		canputonGrid = {},
-		interAction_group = {}
+		interAction_group = {},
+		discount_time = {
+			{
+				{
+					2019,
+					1,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					2,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
 	},
 	[19113] = {
 		can_rotate = 0,
@@ -29362,7 +29922,7 @@ pg.furniture_data_template = {
 		rarity = 3,
 		picture = "cj/shitoulucj",
 		canputon = 0,
-		discount = 0,
+		discount = 20,
 		id = 19113,
 		comfortable = 3,
 		describe = "铺满石头的小路",
@@ -29373,14 +29933,39 @@ pg.furniture_data_template = {
 		spine_extra = "",
 		time = "always",
 		new = 0,
-		discount_time = "",
 		size = {
 			4,
 			6
 		},
 		offset = {},
 		canputonGrid = {},
-		interAction_group = {}
+		interAction_group = {},
+		discount_time = {
+			{
+				{
+					2019,
+					1,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					2,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
 	},
 	[19114] = {
 		can_rotate = 0,
@@ -29401,7 +29986,7 @@ pg.furniture_data_template = {
 		rarity = 1,
 		picture = "cj/shuyecj",
 		canputon = 0,
-		discount = 0,
+		discount = 20,
 		id = 19114,
 		comfortable = 1,
 		describe = "好多落叶，都堆成一堆了",
@@ -29412,14 +29997,39 @@ pg.furniture_data_template = {
 		spine_extra = "",
 		time = "always",
 		new = 0,
-		discount_time = "",
 		size = {
 			2,
 			2
 		},
 		offset = {},
 		canputonGrid = {},
-		interAction_group = {}
+		interAction_group = {},
+		discount_time = {
+			{
+				{
+					2019,
+					1,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					2,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
 	},
 	[19115] = {
 		can_rotate = 0,
@@ -29440,7 +30050,7 @@ pg.furniture_data_template = {
 		rarity = 2,
 		picture = "cj/taijiecj",
 		canputon = 0,
-		discount = 0,
+		discount = 20,
 		id = 19115,
 		comfortable = 2,
 		describe = "铺了红毯的大门台阶",
@@ -29451,14 +30061,39 @@ pg.furniture_data_template = {
 		spine_extra = "",
 		time = "always",
 		new = 0,
-		discount_time = "",
 		size = {
 			4,
 			2
 		},
 		offset = {},
 		canputonGrid = {},
-		interAction_group = {}
+		interAction_group = {},
+		discount_time = {
+			{
+				{
+					2019,
+					1,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					2,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
 	},
 	[19116] = {
 		can_rotate = 0,
@@ -29479,7 +30114,7 @@ pg.furniture_data_template = {
 		rarity = 4,
 		picture = "cj/wutaicj",
 		canputon = 0,
-		discount = 0,
+		discount = 20,
 		id = 19116,
 		comfortable = 4,
 		describe = "画了一只蛮啾的大舞台",
@@ -29490,7 +30125,6 @@ pg.furniture_data_template = {
 		spine_extra = "",
 		time = "always",
 		new = 0,
-		discount_time = "",
 		size = {
 			10,
 			8
@@ -29532,7 +30166,33 @@ pg.furniture_data_template = {
 				}
 			}
 		},
-		interAction_group = {}
+		interAction_group = {},
+		discount_time = {
+			{
+				{
+					2019,
+					1,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					2,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
 	},
 	[19117] = {
 		can_rotate = 1,
@@ -29553,7 +30213,7 @@ pg.furniture_data_template = {
 		rarity = 4,
 		picture = "cj/xuyuanshucj",
 		canputon = 0,
-		discount = 0,
+		discount = 20,
 		id = 19117,
 		comfortable = 4,
 		describe = "让我们为来年许愿吧",
@@ -29564,14 +30224,39 @@ pg.furniture_data_template = {
 		spine_extra = "",
 		time = "always",
 		new = 0,
-		discount_time = "",
 		size = {
 			3,
 			5
 		},
 		offset = {},
 		canputonGrid = {},
-		interAction_group = {}
+		interAction_group = {},
+		discount_time = {
+			{
+				{
+					2019,
+					1,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					2,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
 	},
 	[19118] = {
 		can_rotate = 0,
@@ -29592,7 +30277,7 @@ pg.furniture_data_template = {
 		rarity = 2,
 		picture = "cj/yuanbaocj",
 		canputon = 0,
-		discount = 0,
+		discount = 20,
 		id = 19118,
 		comfortable = 2,
 		describe = "大大一颗金元宝",
@@ -29603,14 +30288,39 @@ pg.furniture_data_template = {
 		spine_extra = "",
 		time = "always",
 		new = 0,
-		discount_time = "",
 		size = {
 			2,
 			2
 		},
 		offset = {},
 		canputonGrid = {},
-		interAction_group = {}
+		interAction_group = {},
+		discount_time = {
+			{
+				{
+					2019,
+					1,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					2,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
 	},
 	[19119] = {
 		can_rotate = 0,
@@ -29631,7 +30341,7 @@ pg.furniture_data_template = {
 		rarity = 3,
 		picture = "cj/zhuocj",
 		canputon = 1,
-		discount = 0,
+		discount = 20,
 		id = 19119,
 		comfortable = 3,
 		describe = "大鼓样式的桌子",
@@ -29642,7 +30352,6 @@ pg.furniture_data_template = {
 		spine_extra = "",
 		time = "always",
 		new = 0,
-		discount_time = "",
 		size = {
 			3,
 			2
@@ -29661,7 +30370,33 @@ pg.furniture_data_template = {
 				3
 			}
 		},
-		interAction_group = {}
+		interAction_group = {},
+		discount_time = {
+			{
+				{
+					2019,
+					1,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					2,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
 	},
 	[19120] = {
 		can_rotate = 0,
@@ -29682,7 +30417,7 @@ pg.furniture_data_template = {
 		rarity = 5,
 		belong = 1,
 		canputon = 0,
-		discount = 0,
+		discount = 20,
 		id = 19120,
 		comfortable = 5,
 		describe = "一飞冲天，红红火火",
@@ -29693,7 +30428,6 @@ pg.furniture_data_template = {
 		spine_extra = "",
 		time = "always",
 		new = 0,
-		discount_time = "",
 		size = {
 			5,
 			4
@@ -29751,7 +30485,33 @@ pg.furniture_data_template = {
 				"yanhuaBCharControl"
 			}
 		},
-		interAction_group = {}
+		interAction_group = {},
+		discount_time = {
+			{
+				{
+					2019,
+					1,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					2,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
 	},
 	[19201] = {
 		can_rotate = 0,
@@ -29772,7 +30532,7 @@ pg.furniture_data_template = {
 		rarity = 1,
 		picture = "cj/tangyuancj",
 		canputon = 0,
-		discount = 0,
+		discount = 20,
 		id = 19201,
 		comfortable = 1,
 		describe = "要来一口热乎乎的汤圆么",
@@ -29783,14 +30543,39 @@ pg.furniture_data_template = {
 		spine_extra = "",
 		time = "always",
 		new = 0,
-		discount_time = "",
 		size = {
 			1,
 			1
 		},
 		offset = {},
 		canputonGrid = {},
-		interAction_group = {}
+		interAction_group = {},
+		discount_time = {
+			{
+				{
+					2019,
+					1,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					2,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
 	},
 	[19202] = {
 		can_rotate = 0,
@@ -29811,7 +30596,7 @@ pg.furniture_data_template = {
 		rarity = 1,
 		picture = "cj/jiaozicj",
 		canputon = 0,
-		discount = 0,
+		discount = 20,
 		id = 19202,
 		comfortable = 1,
 		describe = "过年当然要吃饺子啦",
@@ -29822,14 +30607,39 @@ pg.furniture_data_template = {
 		spine_extra = "",
 		time = "always",
 		new = 0,
-		discount_time = "",
 		size = {
 			1,
 			1
 		},
 		offset = {},
 		canputonGrid = {},
-		interAction_group = {}
+		interAction_group = {},
+		discount_time = {
+			{
+				{
+					2019,
+					1,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					2,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
 	},
 	[19301] = {
 		can_rotate = 0,
@@ -29850,7 +30660,7 @@ pg.furniture_data_template = {
 		rarity = 2,
 		picture = "cj/bianpaocj",
 		canputon = 0,
-		discount = 0,
+		discount = 20,
 		id = 19301,
 		comfortable = 2,
 		describe = "噼里啪啦！！",
@@ -29861,14 +30671,39 @@ pg.furniture_data_template = {
 		spine_extra = "",
 		time = "always",
 		new = 0,
-		discount_time = "",
 		size = {
 			2,
 			6
 		},
 		offset = {},
 		canputonGrid = {},
-		interAction_group = {}
+		interAction_group = {},
+		discount_time = {
+			{
+				{
+					2019,
+					1,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					2,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
 	},
 	[19302] = {
 		can_rotate = 0,
@@ -29889,7 +30724,7 @@ pg.furniture_data_template = {
 		rarity = 1,
 		picture = "cj/chuangcj",
 		canputon = 0,
-		discount = 0,
+		discount = 20,
 		id = 19302,
 		comfortable = 1,
 		describe = "五角形的窗户",
@@ -29900,14 +30735,39 @@ pg.furniture_data_template = {
 		spine_extra = "",
 		time = "always",
 		new = 0,
-		discount_time = "",
 		size = {
 			2,
 			6
 		},
 		offset = {},
 		canputonGrid = {},
-		interAction_group = {}
+		interAction_group = {},
+		discount_time = {
+			{
+				{
+					2019,
+					1,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					2,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
 	},
 	[19303] = {
 		can_rotate = 0,
@@ -29928,7 +30788,7 @@ pg.furniture_data_template = {
 		rarity = 2,
 		picture = "cj/duilian1cj",
 		canputon = 0,
-		discount = 0,
+		discount = 20,
 		id = 19303,
 		comfortable = 2,
 		describe = "充满了喜庆气息的对联",
@@ -29939,14 +30799,39 @@ pg.furniture_data_template = {
 		spine_extra = "",
 		time = "always",
 		new = 0,
-		discount_time = "",
 		size = {
 			2,
 			6
 		},
 		offset = {},
 		canputonGrid = {},
-		interAction_group = {}
+		interAction_group = {},
+		discount_time = {
+			{
+				{
+					2019,
+					1,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					2,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
 	},
 	[19304] = {
 		can_rotate = 0,
@@ -29967,7 +30852,7 @@ pg.furniture_data_template = {
 		rarity = 2,
 		picture = "cj/duilian2cj",
 		canputon = 0,
-		discount = 0,
+		discount = 20,
 		id = 19304,
 		comfortable = 2,
 		describe = "充满了喜庆气息的对联",
@@ -29978,14 +30863,39 @@ pg.furniture_data_template = {
 		spine_extra = "",
 		time = "always",
 		new = 0,
-		discount_time = "",
 		size = {
 			2,
 			6
 		},
 		offset = {},
 		canputonGrid = {},
-		interAction_group = {}
+		interAction_group = {},
+		discount_time = {
+			{
+				{
+					2019,
+					1,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					2,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
 	},
 	[19305] = {
 		can_rotate = 0,
@@ -30006,7 +30916,7 @@ pg.furniture_data_template = {
 		rarity = 2,
 		picture = "cj/fucj",
 		canputon = 0,
-		discount = 0,
+		discount = 20,
 		id = 19305,
 		comfortable = 2,
 		describe = "福到咯！",
@@ -30017,14 +30927,39 @@ pg.furniture_data_template = {
 		spine_extra = "",
 		time = "always",
 		new = 0,
-		discount_time = "",
 		size = {
 			4,
 			6
 		},
 		offset = {},
 		canputonGrid = {},
-		interAction_group = {}
+		interAction_group = {},
+		discount_time = {
+			{
+				{
+					2019,
+					1,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					2,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
 	},
 	[19306] = {
 		can_rotate = 0,
@@ -30045,7 +30980,7 @@ pg.furniture_data_template = {
 		rarity = 3,
 		picture = "cj/men2cj",
 		canputon = 0,
-		discount = 0,
+		discount = 20,
 		id = 19306,
 		comfortable = 3,
 		describe = "红木房间门，不要偷看房间里哦",
@@ -30056,14 +30991,39 @@ pg.furniture_data_template = {
 		spine_extra = "",
 		time = "always",
 		new = 0,
-		discount_time = "",
 		size = {
 			8,
 			6
 		},
 		offset = {},
 		canputonGrid = {},
-		interAction_group = {}
+		interAction_group = {},
+		discount_time = {
+			{
+				{
+					2019,
+					1,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					2,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
 	},
 	[19307] = {
 		can_rotate = 0,
@@ -30084,7 +31044,7 @@ pg.furniture_data_template = {
 		rarity = 3,
 		picture = "cj/mencj",
 		canputon = 0,
-		discount = 0,
+		discount = 20,
 		id = 19307,
 		comfortable = 3,
 		describe = "宅邸的扣环大门",
@@ -30095,14 +31055,39 @@ pg.furniture_data_template = {
 		spine_extra = "",
 		time = "always",
 		new = 0,
-		discount_time = "",
 		size = {
 			8,
 			6
 		},
 		offset = {},
 		canputonGrid = {},
-		interAction_group = {}
+		interAction_group = {},
+		discount_time = {
+			{
+				{
+					2019,
+					1,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					2,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
 	},
 	[20001] = {
 		can_rotate = 0,
@@ -62654,78 +63639,1508 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
-	[100001] = {
+	[39001] = {
 		can_rotate = 0,
-		name = "本ID禁用，后端固定会删除",
+		name = "猪年墙纸",
 		gain_by = "",
-		type = 7,
+		type = 1,
 		dir = 0,
-		picture = "qiandao/yiyue",
+		effect = "",
+		icon = "qiangbiznicon",
+		is_get_time_note = 0,
+		belong = 0,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 150,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 4,
+		picture = "zhunian/qiangbizn",
+		canputon = 0,
+		discount = 0,
+		id = 39001,
+		comfortable = 4,
+		describe = "画着节日风格纹路的红色墙纸，温暖而喜庆",
+		dorm_id = 0,
+		gem_price = 450,
+		can_trigger = 0,
+		themeId = 39,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					1,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					2,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[39002] = {
+		can_rotate = 0,
+		name = "猪年地板",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		effect = "",
+		icon = "dibanznicon",
+		is_get_time_note = 0,
+		belong = 0,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 150,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 5,
+		rarity = 4,
+		picture = "zhunian/dibanzn",
+		canputon = 0,
+		discount = 0,
+		id = 39002,
+		comfortable = 4,
+		describe = "精巧的嵌花木质地板，看起来制作难度不低",
+		dorm_id = 0,
+		gem_price = 450,
+		can_trigger = 0,
+		themeId = 39,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					1,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					2,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[39101] = {
+		can_rotate = 0,
+		name = "梅花摆件",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		icon = "baijianznicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "zhunian/baijianzn",
+		canputon = 0,
+		discount = 0,
+		id = 39101,
+		comfortable = 2,
+		describe = "花瓶里的梅枝是真的，不要忘记浇水",
+		dorm_id = 0,
+		gem_price = 120,
+		can_trigger = 0,
+		themeId = 39,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					1,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					2,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[39102] = {
+		can_rotate = 0,
+		name = "小猪包子",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		icon = "baoziznicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		picture = "zhunian/baozizn",
+		canputon = 0,
+		discount = 0,
+		id = 39102,
+		comfortable = 3,
+		describe = "可爱得让人甚至有些不忍心下口",
+		dorm_id = 0,
+		gem_price = 240,
+		can_trigger = 0,
+		themeId = 39,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					1,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					2,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[39103] = {
+		can_rotate = 0,
+		name = "东煌风茶几",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		icon = "chajiznicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		picture = "zhunian/chajizn",
+		canputon = 1,
+		discount = 0,
+		id = 39103,
+		comfortable = 3,
+		describe = "一盘茶点一壶茶，又是一个闲适的午后～",
+		dorm_id = 0,
+		gem_price = 240,
+		can_trigger = 0,
+		themeId = 39,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			3
+		},
+		offset = {
+			0,
+			-2.09
+		},
+		canputonGrid = {
+			{
+				1,
+				1
+			},
+			{
+				1,
+				2
+			},
+			{
+				1,
+				3
+			},
+			{
+				2,
+				1
+			},
+			{
+				2,
+				2
+			},
+			{
+				2,
+				3
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					1,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					2,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[39104] = {
+		can_rotate = 0,
+		name = "红被双人床",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "chuangznicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		picture = "zhunian/chuangzn",
+		canputon = 0,
+		discount = 0,
+		id = 39104,
+		comfortable = 3,
+		describe = "舒适温暖的双人床，躺上去就不容易下来了",
+		dorm_id = 0,
+		gem_price = 240,
+		can_trigger = 0,
+		themeId = 39,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			5,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					19.6,
+					40.4
+				},
+				{
+					-1,
+					1
+				}
+			},
+			{
+				"sleep",
+				{
+					-22,
+					26
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					1,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					2,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[39105] = {
+		can_rotate = 0,
+		name = "金猪存钱罐",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		icon = "cunqianznicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		picture = "zhunian/cunqianzn",
+		canputon = 0,
+		discount = 0,
+		id = 39105,
+		comfortable = 3,
+		describe = "每天一个硬币，一月一把硬币~",
+		dorm_id = 0,
+		gem_price = 240,
+		can_trigger = 0,
+		themeId = 39,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					1,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					2,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[39106] = {
+		can_rotate = 0,
+		name = "节庆地毯·红",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		effect = "",
+		icon = "ditan2znicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "zhunian/ditan2zn",
+		canputon = 0,
+		discount = 0,
+		id = 39106,
+		comfortable = 2,
+		describe = "精心编制的红色手工地毯，很有节庆的氛围",
+		dorm_id = 0,
+		gem_price = 120,
+		can_trigger = 0,
+		themeId = 39,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			4,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					1,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					2,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[39107] = {
+		can_rotate = 0,
+		name = "节庆地毯·白",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		effect = "",
+		icon = "ditanznicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "zhunian/ditanzn",
+		canputon = 0,
+		discount = 0,
+		id = 39107,
+		comfortable = 2,
+		describe = "精心编制的白底手工地毯，很有节庆的氛围",
+		dorm_id = 0,
+		gem_price = 120,
+		can_trigger = 0,
+		themeId = 39,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			8,
+			10
+		},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					1,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					2,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[39108] = {
+		can_rotate = 0,
+		name = "小猪福袋",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		icon = "fudaiznicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		picture = "zhunian/fudaizn",
+		canputon = 0,
+		discount = 0,
+		id = 39108,
+		comfortable = 3,
+		describe = "快打开看看吧~",
+		dorm_id = 0,
+		gem_price = 240,
+		can_trigger = 0,
+		themeId = 39,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					1,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					2,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[39109] = {
+		can_rotate = 0,
+		name = "春节装饰柜",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		icon = "guizi2znicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		picture = "zhunian/guizi2zn",
+		canputon = 0,
+		discount = 0,
+		id = 39109,
+		comfortable = 3,
+		describe = "放置了各种各样年货的柜子，家中必备",
+		dorm_id = 0,
+		gem_price = 240,
+		can_trigger = 0,
+		themeId = 39,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					1,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					2,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[39110] = {
+		can_rotate = 0,
+		name = "实木床头柜",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		icon = "guiziznicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 2,
+		advice = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "zhunian/guizizn",
+		canputon = 0,
+		discount = 0,
+		id = 39110,
+		comfortable = 2,
+		describe = "东煌风格的床头柜，看起来很贵的样子",
+		dorm_id = 0,
+		gem_price = 120,
+		can_trigger = 0,
+		themeId = 39,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					1,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					2,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[39111] = {
+		can_rotate = 0,
+		name = "布老虎",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
 		is_get_time_note = 0,
 		count = 1,
 		advice = 0,
 		effect = "",
 		dorm_icon_price = 40,
-		not_for_sale = 1,
-		icon = "yiyueicon",
+		not_for_sale = 0,
+		icon = "huznicon",
 		deblocking = 1,
 		level = 1,
-		rarity = 4,
-		belong = 1,
+		rarity = 2,
+		picture = "zhunian/huzn",
 		canputon = 0,
 		discount = 0,
-		id = 100001,
-		comfortable = 0,
-		describe = "本ID禁用",
+		id = 39111,
+		comfortable = 2,
+		describe = "手工制作的布老虎，嗷~嗷~",
 		dorm_id = 0,
 		gem_price = 120,
 		can_trigger = 0,
-		themeId = 0,
-		time = "always",
+		themeId = 39,
+		spine_extra = "",
 		new = 1,
 		discount_time = "",
 		size = {
-			7,
-			8
+			3,
+			3
 		},
 		offset = {},
 		canputonGrid = {},
-		spine = {
+		interAction = {
 			{
-				"201901login",
-				"normal"
-			},
-			[3] = {
+				"sit",
 				{
-					0,
-					0
+					20.5,
+					71.8
 				},
 				{
-					{
-						"yun"
-					}
-				},
-				{},
-				{
+					1,
 					1
-				}
-			},
-			[4] = {},
-			[5] = {
-				-25.8,
-				11.1
-			},
-			[6] = {
-				1,
-				1
+				},
+				"zhunian/huzn_using"
 			}
 		},
-		spine_extra = {
+		time = {
 			{
-				{},
 				{
-					21.2,
-					-11
+					2019,
+					1,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					2,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[39112] = {
+		can_rotate = 1,
+		name = "药酒缸",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "jiugangznicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		picture = "zhunian/jiugangzn",
+		canputon = 0,
+		discount = 0,
+		id = 39112,
+		comfortable = 3,
+		describe = "小心不要泡太久了，会晕的哟",
+		dorm_id = 0,
+		gem_price = 240,
+		can_trigger = 0,
+		themeId = 39,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"wash",
+				{
+					-32,
+					14
+				},
+				{
+					1,
+					1
+				},
+				"zhunian/jiugangzn_using"
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					1,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					2,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[39113] = {
+		can_rotate = 1,
+		name = "陈年酒坛",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		icon = "jiuznicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "zhunian/jiuzn",
+		canputon = 0,
+		discount = 0,
+		id = 39113,
+		comfortable = 2,
+		describe = "小孩子是不可以喝酒的哦！",
+		dorm_id = 0,
+		gem_price = 120,
+		can_trigger = 0,
+		themeId = 39,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					1,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					2,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[39114] = {
+		can_rotate = 0,
+		name = "梅花屏风",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		icon = "lanznicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		picture = "zhunian/lanzn",
+		canputon = 0,
+		discount = 0,
+		id = 39114,
+		comfortable = 3,
+		describe = "东煌风格的屏风，上面的梅花刺绣是谁做的呢？",
+		dorm_id = 0,
+		gem_price = 240,
+		can_trigger = 0,
+		themeId = 39,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					1,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					2,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[39115] = {
+		can_rotate = 1,
+		name = "书法写字台",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		icon = "taiznicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		picture = "zhunian/taizn",
+		canputon = 0,
+		discount = 0,
+		id = 39115,
+		comfortable = 3,
+		describe = "来写一副春节对联吧~",
+		dorm_id = 0,
+		gem_price = 240,
+		can_trigger = 0,
+		themeId = 39,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					1,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					2,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[39116] = {
+		can_rotate = 0,
+		name = "小猪团子",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		icon = "tuanziznicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		picture = "zhunian/tuanzizn",
+		canputon = 0,
+		discount = 0,
+		id = 39116,
+		comfortable = 3,
+		describe = "猪猪造型的糯米团子，猜一猜里面是什么馅的",
+		dorm_id = 0,
+		gem_price = 240,
+		can_trigger = 0,
+		themeId = 39,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			3,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					1,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					2,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[39117] = {
+		can_rotate = 0,
+		name = "小沙发",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 20,
+		not_for_sale = 0,
+		icon = "yizi2znicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 1,
+		picture = "zhunian/yizi2zn",
+		canputon = 0,
+		discount = 0,
+		id = 39117,
+		comfortable = 1,
+		describe = "节日风格的客厅小沙发",
+		dorm_id = 0,
+		gem_price = 60,
+		can_trigger = 0,
+		themeId = 39,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			3,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					28.4,
+					1.1
+				},
+				{
+					1,
+					1
+				},
+				"zhunian/yizi2zn_using"
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					1,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					2,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[39118] = {
+		can_rotate = 0,
+		name = "小猪躺椅",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "yizi3znicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "zhunian/yizi3zn",
+		canputon = 0,
+		discount = 0,
+		id = 39118,
+		comfortable = 2,
+		describe = "小猪和大家都喜欢的节日躺椅",
+		dorm_id = 0,
+		gem_price = 120,
+		can_trigger = 0,
+		themeId = 39,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			4,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					-8.6,
+					24.5
+				},
+				{
+					1,
+					1
+				},
+				"zhunian/yizi3zn_using"
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					1,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					2,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[39119] = {
+		can_rotate = 0,
+		name = "大沙发",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "yizi4znicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		picture = "zhunian/yizi4zn",
+		canputon = 0,
+		discount = 0,
+		id = 39119,
+		comfortable = 3,
+		describe = "可以坐两个人的长排沙发，小猪说坐起来很舒服",
+		dorm_id = 0,
+		gem_price = 240,
+		can_trigger = 0,
+		themeId = 39,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-18.6,
+					-6.2
+				},
+				{
+					-1,
+					1
+				},
+				"zhunian/yizi4zn_using"
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					1,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					2,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[39120] = {
+		can_rotate = 0,
+		name = "用餐椅",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 2,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 20,
+		not_for_sale = 0,
+		icon = "yiziznicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 1,
+		picture = "zhunian/yizizn",
+		canputon = 0,
+		discount = 0,
+		id = 39120,
+		comfortable = 1,
+		describe = "实木的椅子和软软的坐垫，靠背上的字是什么呢？",
+		dorm_id = 0,
+		gem_price = 60,
+		can_trigger = 0,
+		themeId = 39,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					20,
+					28
 				},
 				{
 					1,
@@ -62733,76 +65148,490 @@ pg.furniture_data_template = {
 				}
 			}
 		},
-		animator = {
+		time = {
 			{
-				"201901loginCharControl",
-				"201901loginCharControl2"
+				{
+					2019,
+					1,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					2,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
 			}
 		},
 		interAction_group = {}
 	},
-	[100002] = {
+	[39121] = {
 		can_rotate = 0,
-		name = "友情的打气筒",
+		name = "金元宝",
 		gain_by = "",
-		type = 7,
+		type = 3,
+		dir = 0,
+		effect = "",
+		icon = "yuanbaoznicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "zhunian/yuanbaozn",
+		canputon = 0,
+		discount = 0,
+		id = 39121,
+		comfortable = 2,
+		describe = "招财进宝，恭喜发财~",
+		dorm_id = 0,
+		gem_price = 120,
+		can_trigger = 0,
+		themeId = 39,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					1,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					2,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[39122] = {
+		can_rotate = 0,
+		name = "饭桌",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		icon = "zhuoznicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "zhunian/zhuozn",
+		canputon = 1,
+		discount = 0,
+		id = 39122,
+		comfortable = 2,
+		describe = "快来坐坐好~年夜饭要开饭咯！",
+		dorm_id = 0,
+		gem_price = 120,
+		can_trigger = 0,
+		themeId = 39,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			3,
+			3
+		},
+		offset = {
+			0,
+			14.72
+		},
+		canputonGrid = {
+			{
+				2,
+				2
+			},
+			{
+				2,
+				3
+			},
+			{
+				2,
+				4
+			},
+			{
+				3,
+				2
+			},
+			{
+				3,
+				3
+			},
+			{
+				3,
+				4
+			},
+			{
+				4,
+				2
+			},
+			{
+				4,
+				3
+			},
+			{
+				4,
+				4
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					1,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					2,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[39123] = {
+		can_rotate = 0,
+		name = "猪头抱枕",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "zhuznicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		picture = "zhunian/zhuzn",
+		canputon = 0,
+		discount = 0,
+		id = 39123,
+		comfortable = 3,
+		describe = "说不定…可以套在头上？",
+		dorm_id = 0,
+		gem_price = 240,
+		can_trigger = 0,
+		themeId = 39,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-6,
+					81
+				},
+				{
+					-1,
+					1
+				},
+				"zhunian/zhuzn_using"
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					1,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					2,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[39124] = {
+		can_rotate = 0,
+		name = "福字坐垫",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "zuodianznicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "zhunian/zuodianzn",
+		canputon = 0,
+		discount = 0,
+		id = 39124,
+		comfortable = 2,
+		describe = "似乎很软的坐垫，坐起来应该很舒服吧",
+		dorm_id = 0,
+		gem_price = 120,
+		can_trigger = 0,
+		themeId = 39,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-10,
+					38
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					1,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					2,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[39125] = {
+		can_rotate = 0,
+		name = "盆栽",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		icon = "penzai2znicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 2,
+		advice = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "zhunian/penzai2zn",
+		canputon = 0,
+		discount = 0,
+		id = 39125,
+		comfortable = 2,
+		describe = "乍一看是普通的盆栽，其实这是摇钱树~",
+		dorm_id = 0,
+		gem_price = 120,
+		can_trigger = 0,
+		themeId = 39,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					1,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					2,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[39126] = {
+		can_rotate = 0,
+		name = "大火锅",
+		gain_by = "",
+		type = 2,
 		dir = 0,
 		picture = "",
 		is_get_time_note = 0,
 		count = 1,
 		advice = 0,
 		effect = "",
-		dorm_icon_price = 40,
-		not_for_sale = 1,
-		icon = "19.01.15icon",
+		dorm_icon_price = 0,
+		not_for_sale = 0,
+		icon = "huoguoznicon",
 		deblocking = 1,
 		level = 1,
 		rarity = 4,
 		belong = 1,
 		canputon = 0,
 		discount = 0,
-		id = 100002,
-		comfortable = 0,
-		describe = "飞高高～飞高高～…唔！？太高了太高了！！QAQ",
+		id = 39126,
+		comfortable = 4,
+		describe = "硕大的火锅，香味四溢，让人难以抑制食欲",
 		dorm_id = 0,
-		gem_price = 120,
+		gem_price = 150,
 		can_trigger = 0,
-		themeId = 0,
-		time = "always",
+		themeId = 39,
 		new = 1,
 		discount_time = "",
 		size = {
-			7,
-			8
+			5,
+			5
 		},
 		offset = {},
 		canputonGrid = {},
 		spine = {
 			{
-				"201901login",
+				"xiaozhuhuoguoB",
 				"normal"
 			},
-			[3] = {
+			{
+				"xiaozhuhuoguoT"
+			},
+			{
 				{
 					0,
 					0
 				},
 				{
 					{
-						"yun"
+						"tuozhuai2"
 					}
 				},
-				{},
 				{
-					1
+					nil,
+					nil,
+					nil,
+					"wash"
+				},
+				{
+					0
 				}
 			},
-			[4] = {},
-			[5] = {
-				-25.8,
-				11.1
+			{},
+			{
+				0,
+				0
 			},
-			[6] = {
+			{
 				1,
 				1
 			}
@@ -62820,10 +65649,676 @@ pg.furniture_data_template = {
 				}
 			}
 		},
+		time = {
+			{
+				{
+					2019,
+					1,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					2,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
 		animator = {
 			{
-				"201901loginCharControl",
-				"201901loginCharControl2"
+				"xiaozhuhuoguoCharContrl",
+				"xiaozhuhuoguoCharContrl2"
+			}
+		},
+		interAction_group = {}
+	},
+	[39201] = {
+		can_rotate = 0,
+		name = "小火锅",
+		gain_by = "",
+		type = 3,
+		dir = 0,
+		effect = "",
+		icon = "huoguoznicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 2,
+		rarity = 2,
+		picture = "zhunian/huoguozn",
+		canputon = 0,
+		discount = 0,
+		id = 39201,
+		comfortable = 2,
+		describe = "小号的火锅，不过食材跟大火锅是一样的",
+		dorm_id = 0,
+		gem_price = 120,
+		can_trigger = 0,
+		themeId = 39,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					1,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					2,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[39202] = {
+		can_rotate = 0,
+		name = "红包",
+		gain_by = "",
+		type = 3,
+		dir = 0,
+		effect = "",
+		icon = "hongbaoznicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 2,
+		rarity = 2,
+		picture = "zhunian/hongbaozn",
+		canputon = 0,
+		discount = 0,
+		id = 39202,
+		comfortable = 2,
+		describe = "发红包咯！快来看看你的手气吧！",
+		dorm_id = 0,
+		gem_price = 120,
+		can_trigger = 0,
+		themeId = 39,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					1,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					2,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[39203] = {
+		can_rotate = 0,
+		name = "水果篮",
+		gain_by = "",
+		type = 3,
+		dir = 0,
+		effect = "",
+		icon = "guolanznicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 2,
+		rarity = 2,
+		picture = "zhunian/guolanzn",
+		canputon = 0,
+		discount = 0,
+		id = 39203,
+		comfortable = 2,
+		describe = "新鲜的水果摆放在篮子里，要多吃水果哦~",
+		dorm_id = 0,
+		gem_price = 120,
+		can_trigger = 0,
+		themeId = 39,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					1,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					2,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[39301] = {
+		can_rotate = 0,
+		name = "红纱窗户",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		effect = "",
+		icon = "chuanghu2znicon",
+		is_get_time_note = 0,
+		belong = 2,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 5,
+		rarity = 3,
+		picture = "zhunian/chuanghu2zn",
+		canputon = 0,
+		discount = 0,
+		id = 39301,
+		comfortable = 3,
+		describe = "透过红色薄纱看到的庭院，别有一番风韵",
+		dorm_id = 0,
+		gem_price = 240,
+		can_trigger = 0,
+		themeId = 39,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			6,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					1,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					2,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[39302] = {
+		can_rotate = 0,
+		name = "春字符",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		effect = "",
+		icon = "chunznicon",
+		is_get_time_note = 0,
+		belong = 3,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 5,
+		rarity = 3,
+		picture = "zhunian/chunzn",
+		canputon = 0,
+		discount = 0,
+		id = 39302,
+		comfortable = 3,
+		describe = "吉祥如意，喜迎新春",
+		dorm_id = 0,
+		gem_price = 240,
+		can_trigger = 0,
+		themeId = 39,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					1,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					2,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[39303] = {
+		can_rotate = 0,
+		name = "吉祥",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		effect = "",
+		icon = "duilianznicon",
+		is_get_time_note = 0,
+		belong = 4,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 5,
+		rarity = 2,
+		picture = "zhunian/duilianzn",
+		canputon = 0,
+		discount = 0,
+		id = 39303,
+		comfortable = 2,
+		describe = "祈福吉祥的挂帘，应该一对一起挂才是",
+		dorm_id = 0,
+		gem_price = 120,
+		can_trigger = 0,
+		themeId = 39,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					1,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					2,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[39304] = {
+		can_rotate = 0,
+		name = "如意",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		effect = "",
+		icon = "duilian2znicon",
+		is_get_time_note = 0,
+		belong = 4,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 5,
+		rarity = 2,
+		picture = "zhunian/duilian2zn",
+		canputon = 0,
+		discount = 0,
+		id = 39304,
+		comfortable = 2,
+		describe = "许愿如意的挂帘，应该一对一起挂才是",
+		dorm_id = 0,
+		gem_price = 120,
+		can_trigger = 0,
+		themeId = 39,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					1,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					2,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[39305] = {
+		can_rotate = 0,
+		name = "木窗户",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		effect = "",
+		icon = "chuanghuznicon",
+		is_get_time_note = 0,
+		belong = 2,
+		count = 3,
+		advice = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 5,
+		rarity = 2,
+		picture = "zhunian/chuanghuzn",
+		canputon = 0,
+		discount = 0,
+		id = 39305,
+		comfortable = 2,
+		describe = "木雕镂空的窗户，从空隙中可以看到窗外",
+		dorm_id = 0,
+		gem_price = 120,
+		can_trigger = 0,
+		themeId = 39,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					1,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					2,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[39306] = {
+		can_rotate = 0,
+		name = "山水画",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		effect = "",
+		icon = "huaznicon",
+		is_get_time_note = 0,
+		belong = 2,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 5,
+		rarity = 2,
+		picture = "zhunian/huazn",
+		canputon = 0,
+		discount = 0,
+		id = 39306,
+		comfortable = 2,
+		describe = "山水笔墨恢弘磅礴，不知道是出自哪位大家之手？",
+		dorm_id = 0,
+		gem_price = 120,
+		can_trigger = 0,
+		themeId = 39,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					1,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					2,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[39307] = {
+		can_rotate = 0,
+		name = "雕花窗户",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		effect = "",
+		icon = "yangtaiznicon",
+		is_get_time_note = 0,
+		belong = 2,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 5,
+		rarity = 3,
+		picture = "zhunian/yangtaizn",
+		canputon = 0,
+		discount = 0,
+		id = 39307,
+		comfortable = 3,
+		describe = "可以看到窗外的庭院，怡人的风也能吹进室内",
+		dorm_id = 0,
+		gem_price = 240,
+		can_trigger = 0,
+		themeId = 39,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			6,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					1,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					2,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
 			}
 		},
 		interAction_group = {}
@@ -62879,6 +66374,9 @@ pg.furniture_data_template = {
 		138,
 		139,
 		140,
+		100001,
+		100002,
+		100003,
 		1001,
 		1002,
 		1101,
@@ -63886,8 +67384,44 @@ pg.furniture_data_template = {
 		38303,
 		38304,
 		38305,
-		100001,
-		100002
+		39001,
+		39002,
+		39101,
+		39102,
+		39103,
+		39104,
+		39105,
+		39106,
+		39107,
+		39108,
+		39109,
+		39110,
+		39111,
+		39112,
+		39113,
+		39114,
+		39115,
+		39116,
+		39117,
+		39118,
+		39119,
+		39120,
+		39121,
+		39122,
+		39123,
+		39124,
+		39125,
+		39126,
+		39201,
+		39202,
+		39203,
+		39301,
+		39302,
+		39303,
+		39304,
+		39305,
+		39306,
+		39307
 	}
 }
 

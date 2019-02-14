@@ -53452,6 +53452,1432 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[41001] = {
+		can_rotate = 0,
+		name = "롤러코스터 벽지",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		effect = "",
+		icon = "qiangbivticon",
+		is_get_time_note = 0,
+		belong = 0,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 150,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 4,
+		picture = "valentine/qiangbivt",
+		canputon = 0,
+		discount = 0,
+		id = 41001,
+		comfortable = 4,
+		describe = "이름하여 '만쥬 익스프레스'! 최고의 스릴을 당신에게~",
+		dorm_id = 0,
+		gem_price = 450,
+		can_trigger = 0,
+		themeId = 41,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					2,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					3,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[41002] = {
+		can_rotate = 0,
+		name = "만쥬 랜드 바닥",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		effect = "",
+		icon = "dibanvticon",
+		is_get_time_note = 0,
+		belong = 0,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 150,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 5,
+		rarity = 4,
+		picture = "valentine/dibanvt",
+		canputon = 0,
+		discount = 0,
+		id = 41002,
+		comfortable = 4,
+		describe = "넘어짐 방지를 위해 가공된 유원지의 바닥재.",
+		dorm_id = 0,
+		gem_price = 450,
+		can_trigger = 0,
+		themeId = 41,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					2,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					3,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[41101] = {
+		can_rotate = 1,
+		name = "안내 게시판",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		icon = "banvticon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "valentine/banvt",
+		canputon = 0,
+		discount = 0,
+		id = 41101,
+		comfortable = 2,
+		describe = "\"다음엔 어떤 걸 타볼까나~?\"",
+		dorm_id = 0,
+		gem_price = 120,
+		can_trigger = 0,
+		themeId = 41,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					2,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					3,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[41102] = {
+		can_rotate = 0,
+		name = "레몬 컵",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "chabei1vticon",
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		picture = "valentine/chabei1vt",
+		canputon = 0,
+		discount = 0,
+		id = 41102,
+		comfortable = 3,
+		describe = "커피잔인지 찻잔인지 조금 애매한 디자인.",
+		dorm_id = 0,
+		gem_price = 240,
+		can_trigger = 0,
+		themeId = 41,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					0,
+					53
+				},
+				{
+					-1,
+					1
+				},
+				"valentine/chabei1vt_using"
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					2,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					3,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[41103] = {
+		can_rotate = 0,
+		name = "스트로베리 컵",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "chabei2vticon",
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		picture = "valentine/chabei2vt",
+		canputon = 0,
+		discount = 0,
+		id = 41103,
+		comfortable = 3,
+		describe = "커피잔인지 찻잔인지 조금 애매한 디자인.",
+		dorm_id = 0,
+		gem_price = 240,
+		can_trigger = 0,
+		themeId = 41,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					0,
+					53
+				},
+				{
+					-1,
+					1
+				},
+				"valentine/chabei2vt_using"
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					2,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					3,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[41104] = {
+		can_rotate = 0,
+		name = "그레이프 컵",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "chabei3vticon",
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		picture = "valentine/chabei3vt",
+		canputon = 0,
+		discount = 0,
+		id = 41104,
+		comfortable = 3,
+		describe = "커피잔인지 찻잔인지 조금 애매한 디자인.",
+		dorm_id = 0,
+		gem_price = 240,
+		can_trigger = 0,
+		themeId = 41,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					0,
+					53
+				},
+				{
+					-1,
+					1
+				},
+				"valentine/chabei3vt_using"
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					2,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					3,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[41105] = {
+		can_rotate = 0,
+		name = "해적 동굴",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		icon = "dongkuvticon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		picture = "valentine/dongkuvt",
+		canputon = 0,
+		discount = 0,
+		id = 41105,
+		comfortable = 3,
+		describe = "\"두고 봐라! 이 몸께서 곧 제패해줄 테니까!\"",
+		dorm_id = 0,
+		gem_price = 240,
+		can_trigger = 0,
+		themeId = 41,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			5,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					2,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					3,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[41106] = {
+		can_rotate = 0,
+		name = "해적선",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "haidaochuanvticon",
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		picture = "valentine/haidaochuanvt",
+		canputon = 0,
+		discount = 0,
+		id = 41106,
+		comfortable = 3,
+		describe = "\"이건 또 해군과는 다른 멋이 있구먼!\"",
+		dorm_id = 0,
+		gem_price = 240,
+		can_trigger = 0,
+		themeId = 41,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			7,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"dance",
+				{
+					47,
+					-20
+				},
+				{
+					1,
+					1
+				},
+				"valentine/haidaochuanvt_using"
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					2,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					3,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[41107] = {
+		can_rotate = 0,
+		name = "하트 분재",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		icon = "huashuvticon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 3,
+		advice = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "valentine/huashuvt",
+		canputon = 0,
+		discount = 0,
+		id = 41107,
+		comfortable = 2,
+		describe = "\"언니는 이런 느낌의 분재를 갖고 있구나…\" / \"아, 아니라니깐!\"",
+		dorm_id = 0,
+		gem_price = 120,
+		can_trigger = 0,
+		themeId = 41,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					2,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					3,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[41108] = {
+		can_rotate = 0,
+		name = "만쥬 랜드 화단",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		icon = "huatanvticon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 3,
+		advice = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "valentine/huatanvt",
+		canputon = 0,
+		discount = 0,
+		id = 41108,
+		comfortable = 2,
+		describe = "행복함과 즐거움이 넘치는 화단.",
+		dorm_id = 0,
+		gem_price = 120,
+		can_trigger = 0,
+		themeId = 41,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					2,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					3,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[41109] = {
+		can_rotate = 0,
+		name = "솜사탕 노점",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "miahuatangchevticon",
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		picture = "valentine/miahuatangchevt",
+		canputon = 0,
+		discount = 0,
+		id = 41109,
+		comfortable = 3,
+		describe = "\"후후~ 불면은 구멍이 뚫리는 커다란 솜사탕!\"",
+		dorm_id = 0,
+		gem_price = 240,
+		can_trigger = 0,
+		themeId = 41,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"wash",
+				{
+					-13.9,
+					-8.1
+				},
+				{
+					1,
+					1
+				},
+				"valentine/miahuatangchevt_using",
+				0,
+				{
+					{
+						0,
+						191
+					},
+					{
+						172,
+						176
+					},
+					"valentine/miahuatangchevt_mask"
+				}
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					2,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					3,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[41110] = {
+		can_rotate = 0,
+		name = "범퍼카",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "pengpengchevticon",
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		picture = "valentine/pengpengchevt",
+		canputon = 0,
+		discount = 0,
+		id = 41110,
+		comfortable = 3,
+		describe = "범퍼카로 배틀!",
+		dorm_id = 0,
+		gem_price = 240,
+		can_trigger = 0,
+		themeId = 41,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			8,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-136,
+					8
+				},
+				{
+					1,
+					1
+				},
+				"valentine/pengpengchevt_using1"
+			},
+			{
+				"sit",
+				{
+					99,
+					24
+				},
+				{
+					-1,
+					1
+				},
+				"valentine/pengpengchevt_using2"
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					2,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					3,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[41111] = {
+		can_rotate = 0,
+		name = "만쥬 분수",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		icon = "penquanvticon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		picture = "valentine/penquanvt",
+		canputon = 0,
+		discount = 0,
+		id = 41111,
+		comfortable = 3,
+		describe = "유원지의 트레이드마크인 만쥬 분수.",
+		dorm_id = 0,
+		gem_price = 240,
+		can_trigger = 0,
+		themeId = 41,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			6,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					2,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					3,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[41112] = {
+		can_rotate = 0,
+		name = "핫도그 노점",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		icon = "regouchevticon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "valentine/regouchevt",
+		canputon = 0,
+		discount = 0,
+		id = 41112,
+		comfortable = 2,
+		describe = "이글 유니온의 대표적인 음식…일지도?",
+		dorm_id = 0,
+		gem_price = 120,
+		can_trigger = 0,
+		themeId = 41,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					2,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					3,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[41113] = {
+		can_rotate = 0,
+		name = "사과나무",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		icon = "shuvticon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		picture = "valentine/shuvt",
+		canputon = 0,
+		discount = 0,
+		id = 41113,
+		comfortable = 3,
+		describe = "올라가면 안돼요!",
+		dorm_id = 0,
+		gem_price = 240,
+		can_trigger = 0,
+		themeId = 41,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					2,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					3,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[41114] = {
+		can_rotate = 1,
+		name = "아이스크림 하우스",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "xuegaovticon",
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		picture = "valentine/xuegaovt",
+		canputon = 0,
+		discount = 0,
+		id = 41114,
+		comfortable = 3,
+		describe = "\"오늘은 어떤 걸로 할까나…스위티!\"",
+		dorm_id = 0,
+		gem_price = 240,
+		can_trigger = 0,
+		themeId = 41,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-11,
+					-101
+				},
+				{
+					-1,
+					1
+				},
+				"valentine/xuegaovt_using"
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					2,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					3,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[41115] = {
+		can_rotate = 0,
+		name = "유원지 벤치",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "yizivticon",
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "valentine/yizivt",
+		canputon = 0,
+		discount = 0,
+		id = 41115,
+		comfortable = 2,
+		describe = "놀다 지치면 한숨 쉬었다 가자.",
+		dorm_id = 0,
+		gem_price = 120,
+		can_trigger = 0,
+		themeId = 41,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-43,
+					27
+				},
+				{
+					-1,
+					1
+				},
+				"valentine/yizivt_using"
+			},
+			{
+				"sit",
+				{
+					10,
+					1
+				},
+				{
+					-1,
+					1
+				},
+				"valentine/yizivt_using"
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					2,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					3,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[41116] = {
+		can_rotate = 0,
+		name = "회전목마",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "xuanzhuanmumavticon",
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		picture = "valentine/xuanzhuanmumavt",
+		canputon = 0,
+		discount = 0,
+		id = 41116,
+		comfortable = 3,
+		describe = "사랑은…돌아오는거야!",
+		dorm_id = 0,
+		gem_price = 240,
+		can_trigger = 0,
+		themeId = 41,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			7,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-136.2,
+					-78.9
+				},
+				{
+					-1,
+					1
+				},
+				"valentine/xuanzhuanmumavt_using1"
+			},
+			{
+				"sit",
+				{
+					128.7,
+					-81.4
+				},
+				{
+					1,
+					1
+				},
+				"valentine/xuanzhuanmumavt_using2"
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					2,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					3,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[41117] = {
+		can_rotate = 0,
+		name = "만쥬 열기구",
+		gain_by = "",
+		type = 11,
+		dir = 0,
+		picture = "",
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 0,
+		not_for_sale = 0,
+		icon = "qiqiuvticon",
+		deblocking = 1,
+		level = 1,
+		rarity = 4,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 41117,
+		comfortable = 4,
+		describe = "더욱더 높은 고도까지 상승할 수 있도록 개발된 열기구.",
+		dorm_id = 0,
+		gem_price = 150,
+		can_trigger = 0,
+		themeId = 41,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		spine = {
+			{
+				"reqiqiuB",
+				"normal"
+			},
+			{
+				"reqiqiuT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			},
+			0.5
+		},
+		time = {
+			{
+				{
+					2019,
+					2,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					3,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		animator = {
+			{
+				"reqiqiuCharControl"
+			}
+		},
+		interAction_group = {}
+	},
 	all = {
 		1,
 		2,
@@ -54308,7 +55734,26 @@ pg.furniture_data_template = {
 		39304,
 		39305,
 		39306,
-		39307
+		39307,
+		41001,
+		41002,
+		41101,
+		41102,
+		41103,
+		41104,
+		41105,
+		41106,
+		41107,
+		41108,
+		41109,
+		41110,
+		41111,
+		41112,
+		41113,
+		41114,
+		41115,
+		41116,
+		41117
 	}
 }
 

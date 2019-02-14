@@ -1186,11 +1186,11 @@ pg.skill_data_display = {
 	},
 	[11420] = {
 		id = 11420,
-		name = "BIG SEVEN - 벚꽃"
+		name = "BIG SEVEN - 사쿠라"
 	},
 	[11430] = {
 		id = 11430,
-		name = "BIG SEVEN - 벚꽃"
+		name = "BIG SEVEN - 사쿠라"
 	},
 	[11450] = {
 		id = 11450,

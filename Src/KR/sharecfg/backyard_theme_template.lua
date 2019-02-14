@@ -353,7 +353,7 @@ pg.backyard_theme_template = {
 		name = "별들과의 만남",
 		desc = "심오한 우주에는 무수한 비밀이 숨겨져 있다.",
 		deblocking = 1,
-		new = 1,
+		new = 0,
 		hot = 0,
 		Cfg_2 = 8,
 		is_view = 1,
@@ -1244,6 +1244,41 @@ pg.backyard_theme_template = {
 			39307
 		}
 	},
+	[41] = {
+		Cfg_1 = 5,
+		name = "만쥬 랜드",
+		desc = "꿈과 환상의 나라, 만쥬 랜드에 온 여러분을 환영한다쥬!",
+		deblocking = 1,
+		new = 1,
+		hot = 1,
+		Cfg_2 = 8,
+		is_view = 1,
+		discount = 0,
+		id = 41,
+		icon = "vtthemeicon",
+		comfortable = 0,
+		discount_time = "",
+		ids = {
+			41001,
+			41002,
+			41101,
+			41102,
+			41103,
+			41104,
+			41105,
+			41106,
+			41107,
+			41108,
+			41109,
+			41110,
+			41111,
+			41112,
+			41113,
+			41114,
+			41115,
+			41116
+		}
+	},
 	all = {
 		1,
 		2,
@@ -1270,7 +1305,8 @@ pg.backyard_theme_template = {
 		36,
 		37,
 		38,
-		39
+		39,
+		41
 	}
 }
 

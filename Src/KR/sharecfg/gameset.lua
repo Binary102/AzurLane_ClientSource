@@ -679,7 +679,7 @@ pg.gameset = {
 	event_tips = {
 		description = "",
 		key = "event_tips",
-		key_value = 1
+		key_value = 0
 	}
 }
 

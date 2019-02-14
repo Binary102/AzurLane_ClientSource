@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"お花見大会\n\n<size=30>その二  花見の誘い</size>",
+					"꽃구경 대소동\n\n<size=30>제2장 - 꽃구경 초대하기</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			bgm = "story-1",
 			actor = 307031,
 			nameColor = "#a9f548",
-			say = "じゃあ、私がみんなに声を掛けますね。",
+			say = "그럼, 내가 다들 한 번 불러볼게.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -39,7 +39,7 @@ return {
 			dir = -1,
 			actor = 307031,
 			nameColor = "#a9f548",
-			say = "あら、翔鶴と瑞鶴？ちょうどいいところに。",
+			say = "어라, 쇼카쿠랑 즈이카쿠잖아? 마침 잘 됐네.",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -74,7 +74,7 @@ return {
 			dir = 1,
 			hideOther = true,
 			nameColor = "#a9f548",
-			say = "うん？",
+			say = "음?",
 			subActors = {
 				{
 					actor = 307054,
@@ -98,7 +98,7 @@ return {
 			bgName = "bg_story_school",
 			side = 2,
 			dir = 1,
-			say = "蒼龍先輩ですか……",
+			say = "소류 선배구나……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			}
 		},
 		{
-			say = "あははは…ごめんね、急に呼び止めて。今度みんなでお花見するんだけど、あなたたちも来ない？",
+			say = "아하하하…미안, 갑자기 불러 세워서. 이번에 다 같이 꽃구경을 가볼까 하는데, 너희들도 올래?",
 			side = 0,
 			bgName = "bg_story_school",
 			dir = -1,
@@ -134,7 +134,7 @@ return {
 			bgName = "bg_story_school",
 			side = 1,
 			dir = -1,
-			say = "お花見…ですか？",
+			say = "꽃구경…인가요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			bgName = "bg_story_school",
 			side = 1,
 			dir = 1,
-			say = "そういえばもう春ですね……",
+			say = "그러고 보니 이제 곧 봄이네요……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			bgName = "bg_story_school",
 			side = 0,
 			dir = -1,
-			say = "鳳翔さんが美味しい料理を用意してくれるそうよ。",
+			say = "호쇼 씨가 맛있는 요리를 준다더라고.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 			bgName = "bg_story_school",
 			side = 1,
 			dir = -1,
-			say = "ぜひ私たちにも参加させてくださいお願いします！",
+			say = "저희도 꼭 가고 싶습니다!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,7 +198,7 @@ return {
 			bgName = "bg_story_school",
 			side = 1,
 			dir = 1,
-			say = "瑞鶴…将来悪い人に騙されないかお姉ちゃんすごく心配だわ…",
+			say = "즈이카쿠도 참…나중에 나쁜 사람한테 속아 넘어가거나 하진 않을지 걱정되네…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,7 +214,7 @@ return {
 			bgName = "bg_story_school",
 			side = 2,
 			dir = 1,
-			say = "如月も…おはなみ…いきたい…",
+			say = "키사라기도…꽃구경…가고 싶어…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			}
 		},
 		{
-			say = "アメさんあるの？睦月、アメさんたべたい！",
+			say = "사탕 있어? 무츠키, 사탕 먹고 싶어!",
 			side = 0,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -250,7 +250,7 @@ return {
 			bgName = "bg_story_school",
 			side = 2,
 			dir = -1,
-			say = "ほら、睦月ちゃん、如月ちゃん、甘いものはいいけど、食べ過ぎはダメって教えたでしょ？",
+			say = "무츠키, 키사라기, 단 걸 먹는 것 까진 괜찮지만, 너무 많이 먹으면 안됀다?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,7 +261,7 @@ return {
 			}
 		},
 		{
-			say = "うふふ、本当に「蒼龍先生」ですね…",
+			say = "우후후, 정말로 '소류 선생님' 이네요…",
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,

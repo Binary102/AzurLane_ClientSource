@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"お花見大会\n\n<size=30>その六  花見で一杯</size>",
+					"꽃구경 대소동\n\n<size=30>제6장 - 꽃을 바라보며 한잔</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			bgm = "story-1",
 			actor = 305034,
 			nameColor = "#a9f548",
-			say = "…ぷはぁ～やっぱりお花見にはこれがないとな～",
+			say = "…푸하~ 역시 꽃구경엔 이게 있어야지~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -34,7 +34,7 @@ return {
 			}
 		},
 		{
-			say = "姉さんの飲みっぷりは相変わらず豪快ね…じゃあ私も――",
+			say = "언니는 여전히 술 마시는 게 호쾌하다니까~ 자 그럼 나도…",
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -59,7 +59,7 @@ return {
 			bgName = "bg_story_school",
 			side = 2,
 			dir = -1,
-			say = "おーほっほっほ！「花見酒」とは風流よのう！",
+			say = "오~홋홋호! '꽃구경' 에는 역시 풍류를 빼놓으면 섭하지!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			}
 		},
 		{
-			say = "重桜の風習ね…悪くないわ。",
+			say = "사쿠라 엠파이어의 풍습인가…나쁘지 않군.",
 			side = 0,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -95,7 +95,7 @@ return {
 			bgName = "bg_story_school",
 			side = 0,
 			dir = 1,
-			say = "風に舞うサクラの下で酒を飲むなんて、意外と風情があるものね。",
+			say = "바람에 나부끼는 벚꽃 아래서 한잔하는 것도, 의외로 운치가 있어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			bgName = "bg_story_school",
 			side = 1,
 			dir = 1,
-			say = "重桜のお酒、美味しい…けぷー",
+			say = "사쿠라 엠파이어의 술, 맛있어…(꿀꺽꿀꺽꿀꺽)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			dir = 1,
 			actor = 306034,
 			nameColor = "#a9f548",
-			say = "あら？あちらも騒がしいですね……",
+			say = "어라? 저쪽도 시끌벅적하네요……",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -160,7 +160,7 @@ return {
 			bgName = "bg_story_school",
 			side = 2,
 			dir = 1,
-			say = "これは…あとでまた「ジゴク」が見えそうな飲みっぷりですわ～うふふ",
+			say = "이 술판은…나중에 또 '지옥' 이 펼쳐질 것 같은 분위기네요~ 우후후.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

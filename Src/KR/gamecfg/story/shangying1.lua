@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"お花見大会\n\n<size=30>その一  早春日和</size>",
+					"꽃구경 대소동\n\n<size=30>제1장 - 이른 봄 날씨</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			bgm = "story-1",
 			actor = 307031,
 			nameColor = "#a9f548",
-			say = "はあ……知らないうちになんだか暖かくなってきてますね……",
+			say = "하아……모르는 새 금방 또 따뜻해졌네……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -39,7 +39,7 @@ return {
 			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
-			say = "そうですね～そろそろ春ですね～",
+			say = "그렇네요~ 슬슬 봄이 오려나 봐요～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
-			say = "時の流れが早いですね……",
+			say = "시간 참 빨리 가네……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
-			say = "そうですね～あ、お茶でもどうぞ～",
+			say = "그렇네요~ 아, 차라도 한잔 드셔요~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
-			say = "あ、どうも…――って、ほ、鳳翔さん！？いつからそこにいましたの！？……",
+			say = "아, 감사합니다…에엣?! 호, 호쇼 씨?! 언제부터 거기 있었던 거에요!?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,7 +98,7 @@ return {
 			}
 		},
 		{
-			say = "わっ！？鳳翔さん、気配を消すのは流石です！",
+			say = "우와! 호쇼 씨, 대단해요! 이렇게까지 인기척을 지울 수 있다니!",
 			side = 0,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -123,7 +123,7 @@ return {
 			bgName = "bg_story_room",
 			side = 0,
 			dir = 1,
-			say = "姉さま、実はさっきお茶を用意した時ちょうど鳳翔さんに会って、少し手伝ってもらいました！",
+			say = "언니, 실은 아까 차를 준비할 때 호쇼 씨랑 만나게 되서, 살짝 도움을 좀 받았어요!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			bgName = "bg_story_room",
 			side = 1,
 			dir = 1,
-			say = "そ、そういうことですか…ありがとうございます。",
+			say = "그, 그렇게 된 건가요…감사합니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			bgName = "bg_story_room",
 			side = 0,
 			dir = 1,
-			say = "いえいえ、お気になさらず～",
+			say = "아니에요~ 별일 아닌걸요~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			bgName = "bg_story_room",
 			side = 1,
 			dir = 1,
-			say = "そういえば…うちのサクラもそろそろ咲く頃ですね…",
+			say = "그러고 보니…슬슬 벚꽃이 필 때가 다 되었네요…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			bgName = "bg_story_room",
 			side = 0,
 			dir = 1,
-			say = "（にこにこ）",
+			say = "(생긋)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,7 +203,7 @@ return {
 			bgName = "bg_story_room",
 			side = 0,
 			dir = 1,
-			say = "じゃあ…お花見とかでどうでしょう～",
+			say = "그럼…꽃구경이라도 어떠세요~?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +219,7 @@ return {
 			bgName = "bg_story_room",
 			side = 0,
 			dir = 1,
-			say = "春といえばサクラを愛でながら宴会ですね～",
+			say = "봄이라면 역시 벚꽃을 구경하며 여는 연회가~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			bgName = "bg_story_room",
 			side = 0,
 			dir = 1,
-			say = "おお！素晴らしいアイデアです！ぜひやりましょう！",
+			say = "오오! 진짜 좋은 아이디어네요! 꼭 해보고 싶어요!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,7 +251,7 @@ return {
 			bgName = "bg_story_room",
 			side = 1,
 			dir = 1,
-			say = "…まあ、お花見をやるのはいいけど、なんで飛龍が盛り上がってるの……？",
+			say = "…뭐, 꽃구경하는 건 좋지만…어째서 히류가 들떠있는 거야……?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,7 +267,7 @@ return {
 			bgName = "bg_story_room",
 			side = 0,
 			dir = 1,
-			say = "だってこれってすなわち「女子会」じゃないですか！うん、ぼくもがんばりますよ！",
+			say = "어째서냐니, 이건 '레이디스 파티' 잖아요! 음, 저도 노력할 테니까요!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +283,7 @@ return {
 			bgName = "bg_story_room",
 			side = 1,
 			dir = 1,
-			say = "い、いや…そういうものじゃないと思うんだけど…",
+			say = "아, 아니…그런 게 아니라고 생각하는데…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +299,7 @@ return {
 			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
-			say = "はいはい、準備はこの鳳翔におまかせください～",
+			say = "네에 네에, 준비는 이 호쇼에게 맡겨주세요~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -100,7 +100,7 @@ return {
 			actor = 203031,
 			dir = 1,
 			hideOther = true,
-			actorName = "안샨",
+			actorName = "모두",
 			say = "오~~!",
 			subActors = {
 				{

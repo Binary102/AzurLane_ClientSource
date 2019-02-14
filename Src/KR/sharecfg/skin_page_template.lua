@@ -35,6 +35,11 @@ pg.skin_page_template = {
 		name = "ハロウィン",
 		res = "wansheng"
 	},
+	[9] = {
+		id = 9,
+		name = "私服",
+		res = "sifu"
+	},
 	[9999] = {
 		id = 9999,
 		name = "その他",
@@ -48,6 +53,7 @@ pg.skin_page_template = {
 		6,
 		7,
 		8,
+		9,
 		9999
 	}
 }

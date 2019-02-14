@@ -1857,7 +1857,7 @@ pg.expedition_data_by_map = {
 	},
 	[1110002] = {
 		map = 1110002,
-		name = "검게 물든 강철의 벚꽃 (후)|| ||EX. CHAPTER||EX.",
+		name = "검게 물든 강철의 벚꽃 (하)|| ||EX. CHAPTER||EX.",
 		bgm = "Nagato-map",
 		type = 4,
 		on_activity = 20123,

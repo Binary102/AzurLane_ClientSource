@@ -2205,7 +2205,7 @@ pg.gametip = {
 [지우개]는 한 칸의 색깔을 지울 수 있습니다.
 ・[리셋]은 현재 그림의 모든 색칠을 전부 지울 수 있습니다.
 ・이벤트 종료 후 미사용한 물감은 전부 리셋됩니다.
-・2/7(수)까지 매일 새로운 그림이 하나씩 개방됩니다.
+・2/7(목)까지 매일 새로운 그림이 하나씩 개방됩니다.
 ・백지는 2/8(금) 이후 부터 개방됩니다.
 ・[세뱃돈마블] 이벤트에서 주사위를 사용하여 보수를 
 획득해보세요!]]
@@ -4765,19 +4765,7 @@ pg.gametip = {
 						<color=#60a9ff>          Rare</color>：$4%
 						          Normal：$5% 
 
-									【상시 건조】
-								<color=#966af6>얏센 </color>：1.5%<color=#A9F548>(up!)</color>
-
-									【한정건조】
-							<color=#966af6>    창춘 </color>：1.5%<color=#A9F548>(up!)</color>
-					   <color=#966af6>         타이위안 </color>：1.5%<color=#A9F548>(up!)</color>
-					  <color=#966af6>          멀라니 </color>：1.5%<color=#A9F548>(up!)</color>
-								<color=#966af6>체이서 </color>：1.5%<color=#A9F548>(up!)</color>
-						   <color=#60a9ff>     킴벌리 </color>：3.5%<color=#A9F548>(up!)</color>
-						   <color=#60a9ff>     퀴라소 </color>：3.5%<color=#A9F548>(up!)</color>
-						<color=#60a9ff>        컬루 </color>：3.5%<color=#A9F548>(up!)</color>
-
-]],
+									]],
 		key = "help_build_2"
 	},
 	help_build_4 = {
@@ -7085,7 +7073,7 @@ pg.gametip = {
 		key = "activity_switch_award_pool_failed"
 	},
 	shop_street_activity_tip = {
-		tip = "·이벤트 기간(<color=#A1E400FF>18.12.27-19.1.16</COLOR>)에는 갱신 시마다\n반드시 <color=#A1E400FF>장비 스킨 상자</COLOR>가 출현합니다.",
+		tip = "·이벤트 기간(<color=#A1E400FF>1.31-2.13</COLOR>)에는 갱신 시마다\n반드시 <color=#A1E400FF>장비 스킨 상자</COLOR>가 출현합니다.",
 		key = "shop_street_activity_tip"
 	},
 	twitter_link_title = {
@@ -7151,6 +7139,39 @@ pg.gametip = {
 	emoji_type_3 = {
 		tip = "도트 그래픽",
 		key = "emoji_type_3"
+	},
+	card_pairs_help_tip = {
+		key = "card_pairs_help_tip",
+		tip = {
+			{
+				info = "이벤트 규칙："
+			},
+			{
+				info = " <color=#A1E400FF>1. 매일 0:00:00에 [기억 카드] 의 잔여 획득 가능 장수가 1장 증가한다</color>"
+			},
+			{
+				info = " 2. 같은 카드를 2장 뒤집으면, 카드를 없앨 수 있다."
+			},
+			{
+				info = " 3. 카드를 뒤집기 시작하면 시간이 카운트 되기 시작한다."
+			},
+			{
+				info = " 4.카드를 전부 없애면, [기억 카드] 획득 가능 횟수를 소비하여\n[기억 카드] 를 1장 획득할 수 있다."
+			},
+			{
+				info = " 5. 카드를 전부 없앤 뒤 임의의 구역을 터치하면 새 게임이 시작된다."
+			},
+			{
+				info = " 6. [기억 카드] 를 7장 입수하면 호쇼 스킨 [초저녁의 꿈]을 획득 가능."
+			},
+			{
+				info = " 7. 이벤트 배너에 게임을 완료한 최단 시간 기록이 표시된다."
+			}
+		}
+	},
+	card_pairs_tips = {
+		tip = "오늘은 더 이상 [기억 카드] 를 획득할 수 없습니다. 새 게임을 시작하시겠습니까? ",
+		key = "card_pairs_tips"
 	},
 	upgrade_to_next_maxlevel_failed = {
 		tip = "이미 최고레벨에 도달하여,\n인식 각성을 진행할 수 없습니다.",

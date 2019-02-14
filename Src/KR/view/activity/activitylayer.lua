@@ -275,6 +275,10 @@ slot4 = slot4.CHANGMEN_TASK_LIST
 slot5 = "clutter/clutter_pt"
 slot3[slot4] = slot5
 slot4 = ActivityConst
+slot4 = slot4.WINTER_RE_PREVIEW_ID
+slot5 = "clutter/activity_bg_preview_winter_re"
+slot3[slot4] = slot5
+slot4 = ActivityConst
 slot4 = slot4.NEW_YEAR_OVERVIEW
 slot5 = "clutter/newyear_bg"
 slot3[slot4] = slot5
@@ -6727,8 +6731,9 @@ function slot4(slot0)
 end
 
 slot0.clear_answer = slot4
+slot4 = "flush_card_pairs"
 
-function slot4(slot0)
+function slot5(slot0)
 	slot1 = slot0.activity
 	slot2 = slot1
 	slot1 = slot1.getConfig
@@ -6889,7 +6894,7 @@ function slot4(slot0)
 	end
 end
 
-slot0.flush_card_pairs = slot4
+slot0[slot4] = slot5
 slot4 = "flush_boss_battle"
 
 function slot5(slot0)

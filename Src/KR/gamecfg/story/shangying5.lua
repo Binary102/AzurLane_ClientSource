@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"お花見大会\n\n<size=30>その五  桜に幕</size>",
+					"꽃구경 대소동\n\n<size=30>제5장 - 벚꽃</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			bgm = "story-1",
 			actor = 306034,
 			nameColor = "#a9f548",
-			say = "やはり春といえば桜ですね。",
+			say = "봄이라 하면 역시 벚꽃이죠.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -39,7 +39,7 @@ return {
 			bgName = "bg_story_school",
 			side = 2,
 			dir = 1,
-			say = "うふふ、桜の下でみんなと料理を囲む……こういう宴会はやはり楽しいですね。",
+			say = "우후후, 벚꽃 아래서 모두와 함께 요리를 즐기는 것……이런 연회는 역시 즐겁네요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			bgName = "bg_story_school",
 			side = 2,
 			dir = 1,
-			say = "鳳翔さんも準備お疲れ様です。",
+			say = "호쇼 씨도 준비하느라 고생하셨어요!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,7 +66,7 @@ return {
 			}
 		},
 		{
-			say = "みんなが楽しんでいるのを見てこっちもやりがいを感じますわ。あら？そこにいるのは――",
+			say = "모두가 즐거워하는 걸 보니 저도 준비한 보람이 있네요. 어머? 저기 있는 건……",
 			side = 0,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -91,7 +91,7 @@ return {
 			dir = 1,
 			actor = 401234,
 			nameColor = "#a9f548",
-			say = "ここが会場のようね。…わぁ、みんな盛り上がってる！",
+			say = "연회는 여기서 하는 건가…와아, 다들 들떠있네!",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -119,7 +119,7 @@ return {
 			}
 		},
 		{
-			say = "美味しそうな料理のかおり～",
+			say = "맛있는 음식 냄새가 여기까지 나요~",
 			side = 0,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -144,7 +144,7 @@ return {
 			bgName = "bg_story_school",
 			side = 1,
 			dir = 1,
-			say = "あとお酒の…",
+			say = "그리고 술 냄새도…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			bgName = "bg_story_school",
 			side = 0,
 			dir = 1,
-			say = "重桜の伝統行事――「お花見」、です。みんなも参加していいです。",
+			say = "사쿠라 엠파이어의 전통 행사, 꽃구경이에요. 다들 와도 좋아요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			bgName = "bg_story_school",
 			side = 1,
 			dir = 1,
-			say = "綾波、ありがとう！",
+			say = "아야나미, 고마워!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			bgName = "bg_story_school",
 			side = 0,
 			dir = 1,
-			say = "あ！あそこまだ空いてるね！早く行こ？",
+			say = "아! 저기 아직 비어있어! 빨리 가자~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			bgName = "bg_story_school",
 			side = 1,
 			dir = 1,
-			say = "お酒の…かおり……美味しそう…",
+			say = "술…냄새……맛있겠다…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			dir = 1,
 			actor = 306034,
 			nameColor = "#a9f548",
-			say = "うふふ、なんだか微笑ましいですわ～",
+			say = "우후후, 왠지 흐뭇하네요~",
 			flashout = {
 				dur = 1,
 				black = true,

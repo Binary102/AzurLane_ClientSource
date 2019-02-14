@@ -5392,6 +5392,61 @@ pg.shop_template = {
 			}
 		}
 	},
+	[60151] = {
+		group_type = 0,
+		resource_num = 980,
+		desc = "980钻石购买限时礼包-比翼双飞",
+		type = 2,
+		is_auto_use = 1,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		order = 0,
+		group = 0,
+		num = 1,
+		isHX = 0,
+		showInAudit = 0,
+		discount = 0,
+		resource_type = 14,
+		id = 60151,
+		genre = "gift_package",
+		discount_time = {},
+		limit_args = {
+			{
+				"time",
+				1
+			}
+		},
+		effect_args = {
+			40100
+		},
+		time = {
+			{
+				{
+					2019,
+					2,
+					14
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					2,
+					20
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	[61001] = {
 		group_type = 0,
 		resource_num = 200,
@@ -5718,6 +5773,81 @@ pg.shop_template = {
 			{
 				"level",
 				40
+			}
+		}
+	},
+	[70001] = {
+		group_type = 0,
+		resource_num = 800,
+		desc = "함선 소녀 스킨 - 「환상의 행복」을 구입",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 6,
+		order = 991,
+		group = 0,
+		num = 1,
+		isHX = 0,
+		showInAudit = 1,
+		discount = 20,
+		resource_type = 14,
+		id = 70001,
+		genre = "skin_shop",
+		discount_time = {
+			{
+				{
+					2019,
+					2,
+					14
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					2,
+					20
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		limit_args = {},
+		effect_args = {
+			213011
+		},
+		time = {
+			{
+				{
+					2019,
+					2,
+					14
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					2,
+					20
+				},
+				{
+					23,
+					59,
+					59
+				}
 			}
 		}
 	},
@@ -12946,6 +13076,106 @@ pg.shop_template = {
 			}
 		}
 	},
+	[70160] = {
+		group_type = 0,
+		resource_num = 780,
+		desc = "购买皮肤：扶桑人妻",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		order = 990,
+		group = 0,
+		num = 1,
+		isHX = 0,
+		showInAudit = 0,
+		discount = 0,
+		resource_type = 14,
+		id = 70160,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			305012
+		},
+		time = {
+			{
+				{
+					2019,
+					2,
+					14
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					2,
+					20
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[70161] = {
+		group_type = 0,
+		resource_num = 1080,
+		desc = "购买皮肤：独角兽JK",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		order = 990,
+		group = 0,
+		num = 1,
+		isHX = 0,
+		showInAudit = 0,
+		discount = 0,
+		resource_type = 14,
+		id = 70161,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			206033
+		},
+		time = {
+			{
+				{
+					2019,
+					2,
+					14
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					2,
+					20
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -13122,6 +13352,7 @@ pg.shop_template = {
 		60146,
 		60147,
 		60150,
+		60151,
 		61001,
 		61002,
 		61003,
@@ -13134,6 +13365,7 @@ pg.shop_template = {
 		61010,
 		61011,
 		61012,
+		70001,
 		70002,
 		70003,
 		70004,
@@ -13275,7 +13507,9 @@ pg.shop_template = {
 		70156,
 		70157,
 		70158,
-		70159
+		70159,
+		70160,
+		70161
 	}
 }
 

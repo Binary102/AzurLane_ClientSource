@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"お花見大会\n\n<size=30>その七  二人の後夜祭</size>",
+					"꽃구경 대소동\n\n<size=30>제7장 - 둘만의 2차</size>",
 					1
 				}
 			}
@@ -24,7 +24,7 @@ return {
 			bgm = "story-2",
 			actor = 306034,
 			nameColor = "#a9f548",
-			say = "宴は楽しいですが、宴が終わった後の静けさはなんだか寂しいですね……",
+			say = "연회는 즐겁습니다만, 연회가 끝난 후의 이 조용함은 왠지 쓸쓸하네요……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			dir = 1,
 			actor = 306034,
 			actorName = "{namecode:89}",
-			say = "あら？指揮官様？もうお休みになったと思いましたけど…まだ起きていらっしゃったのですか？",
+			say = "어라? 지휘관님? 벌써 쉬러 가신 줄 알았는데…아직 깨어있으셨나 봐요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			dir = 1,
 			actor = 306034,
 			actorName = "{namecode:89}",
-			say = "この鳳翔と夜ザクラを見たい、ですか？",
+			say = "이 호쇼와 함께 벚꽃을 보고 싶다…고요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			dir = 1,
 			actor = 0,
 			nameColor = "#a9f548",
-			say = "（ぺこり）",
+			say = "(끄덕)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			dir = 1,
 			actor = 306034,
 			actorName = "{namecode:89}",
-			say = "うふふ…それでしたら、少々お待ち下さい。今支度いたしますわ。",
+			say = "우후후…그러시다면, 잠시만 기다려주셔요. 지금 준비할게요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			actorName = "{namecode:89}",
 			actor = 900018,
 			nameColor = "#a9f548",
-			say = "「旦那さん、今宵のお花見お供させておくんなし」",
+			say = "\"낭군님, 오늘밤 꽃구경은 제가 모시도록 하겠사옵니다.\"",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -143,7 +143,7 @@ return {
 			dir = 1,
 			actor = 0,
 			nameColor = "#a9f548",
-			say = "！！！",
+			say = "!!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			dir = 1,
 			actor = 900018,
 			actorName = "{namecode:89}",
-			say = "どうですか？…ドキドキしますか？指揮官様？",
+			say = "어떠세요? …두근두근하시나요? 지휘관님?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			dir = 1,
 			actor = 0,
 			nameColor = "#a9f548",
-			say = "！！",
+			say = "!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			dir = 1,
 			actor = 900018,
 			actorName = "{namecode:89}",
-			say = "うふふ、指揮官様からお褒めの言葉をいただけるなんて…鳳翔は満足しましたわ。",
+			say = "우후후, 지휘관님께 칭찬받다니…호쇼는 몸 둘 바를 모르겠사와요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			dir = 1,
 			actor = 900018,
 			actorName = "{namecode:89}",
-			say = "では、続いては「月見酒」…月と夜ザクラの下で乾杯といたしましょうか？「旦那さま」？",
+			say = "그럼, 계속해서 이 '월견주' 를…저 달과 밤 벚꽃을 바라보며 건배하실까요? 낭군님?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

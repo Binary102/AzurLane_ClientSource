@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"お花見大会\n\n<size=30>その三  お花見の準備</size>",
+					"꽃구경 대소동\n\n<size=30>제3장 - 꽃구경 준비하기</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			bgm = "story-1",
 			actor = 306034,
 			nameColor = "#a9f548",
-			say = "は～い、こちらの準備もお願いしますね～",
+			say = "네에~ 여기 준비도 부탁드릴게요~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -39,7 +39,7 @@ return {
 			dir = 1,
 			actor = 307041,
 			nameColor = "#a9f548",
-			say = "一人ではさすがに大変ですね…すみません！手伝ってくれる人を連れてきました！",
+			say = "혼자 하는 건 역시 힘들겠죠…죄송합니다! 도와줄 분들을 데려왔어요!",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -67,7 +67,7 @@ return {
 			}
 		},
 		{
-			say = "あらら、これは…",
+			say = "어머머, 이 분은…",
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -92,7 +92,7 @@ return {
 			bgName = "bg_story_school",
 			side = 2,
 			dir = 1,
-			say = "僕も手伝うよ！",
+			say = "나도 도와줄게!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +108,7 @@ return {
 			bgName = "bg_story_school",
 			side = 2,
 			dir = 1,
-			say = "料理は…豪華なものは作れないけど、普通のなら手伝えると思うよ！",
+			say = "요리는…호화스러운 건 못 만들겠지만, 평범한 거라면 도울 수 있을 거야!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			bgName = "bg_story_school",
 			side = 2,
 			dir = 1,
-			say = "私たちにも手伝わせてくださいね。",
+			say = "저희가 도와드릴게요~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			bgName = "bg_story_school",
 			side = 2,
 			dir = 1,
-			say = "お花見、すごく楽しみにしていました！",
+			say = "꽃구경, 엄청 기대하고 있다구요~!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			}
 		},
 		{
-			say = "うふふ、賑やかになってきましたね。",
+			say = "우후후, 떠들썩해졌네요.",
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -176,7 +176,7 @@ return {
 			bgName = "bg_story_school",
 			side = 2,
 			dir = 1,
-			say = "お花見やりましょうって言っただけで、みんな手伝いに来てくれました。",
+			say = "꽃구경을 하러 가자고만 말했는데, 다들 이렇게 도와준다고 와줬어요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			bgName = "bg_story_school",
 			side = 2,
 			dir = 1,
-			say = "結構期待されてますね～",
+			say = "다들 꽤 기대하고 있는 모양이네요~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			bgName = "bg_story_school",
 			side = 2,
 			dir = 1,
-			say = "ではみんなの期待に応えられるよう、最高の料理をお作りいたしましょう～。",
+			say = "그럼 모두의 기대에 부응할 수 있도록, 최고의 요리를 만들어보자고요~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

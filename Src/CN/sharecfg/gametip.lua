@@ -4767,19 +4767,12 @@ NPC角色正式加入时，保留强化、突破状态及技能等级；
 	},
 	help_build_2 = {
 		tip = [[
-<size=19>							<color=#fff157>超稀有舰船</color>：$2%
+					   <size=25>$1建造概率分布</size>
+
+							<color=#fff157>超稀有舰船</color>：$2%
 							 <color=#966af6>精锐舰船</color>：$3%
 							 <color=#60a9ff>稀有舰船</color>：$4%
-							 普通舰船：$5%
-
-							  【限时建造】
-							<color=#966af6>    长春</color>：1.5%<color=#A9F548>(up!)</color>
-						<color=#966af6>         太原</color>：1.5%<color=#A9F548>(up!)</color>
-					<color=#966af6>          马拉尼</color>：1.5%<color=#A9F548>(up!)</color>
-							<color=#966af6>追赶者</color>：1.5%<color=#A9F548>(up!)</color>
-						<color=#60a9ff>     金伯利</color>：3.5%<color=#A9F548>(up!)</color>
-						<color=#60a9ff>     库拉索</color>：3.5%<color=#A9F548>(up!)</color>
-						<color=#60a9ff>         杓鹬</color>：3.5%<color=#A9F548>(up!)</color></size>]],
+							 普通舰船：$5%]],
 		key = "help_build_2"
 	},
 	help_build_4 = {

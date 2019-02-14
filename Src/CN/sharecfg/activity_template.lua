@@ -7857,6 +7857,7 @@ pg.activity_template = {
 	},
 	[224] = {
 		mark = 20190124,
+		time = "stop",
 		type = 12,
 		config_id = 0,
 		is_show = 1,
@@ -7870,33 +7871,6 @@ pg.activity_template = {
 			1190012,
 			1190013
 		},
-		time = {
-			timer,
-			{
-				{
-					2019,
-					1,
-					24
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					2,
-					14
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		bg = {
 			"clutter/crown"
 		}
@@ -7904,6 +7878,7 @@ pg.activity_template = {
 	[225] = {
 		mark = 20190124,
 		bg = "",
+		time = "stop",
 		type = 12,
 		config_id = 0,
 		is_show = 0,
@@ -7917,38 +7892,12 @@ pg.activity_template = {
 			1190015,
 			1190016,
 			1190017
-		},
-		time = {
-			timer,
-			{
-				{
-					2019,
-					1,
-					24
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					2,
-					14
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[226] = {
 		mark = 20190124,
 		bg = "",
+		time = "stop",
 		type = 13,
 		config_id = 0,
 		is_show = 0,
@@ -7971,33 +7920,6 @@ pg.activity_template = {
 			14165,
 			14166,
 			14167
-		},
-		time = {
-			timer,
-			{
-				{
-					2019,
-					1,
-					24
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					2,
-					14
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[227] = {
@@ -8084,39 +8006,13 @@ pg.activity_template = {
 	[229] = {
 		mark = 20190124,
 		bg = "",
+		time = "stop",
 		type = 1,
 		config_id = 4,
 		is_show = 0,
 		config_client = "",
 		id = 229,
-		config_data = {},
-		time = {
-			timer,
-			{
-				{
-					2019,
-					1,
-					24
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					2,
-					14
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		config_data = {}
 	},
 	[230] = {
 		mark = 20190124,
@@ -8202,38 +8098,12 @@ pg.activity_template = {
 	[232] = {
 		mark = 20190131,
 		bg = "",
+		time = "stop",
 		type = 50,
 		config_id = 1,
-		is_show = 3,
+		is_show = 1,
 		config_data = "",
 		id = 232,
-		time = {
-			timer,
-			{
-				{
-					2019,
-					1,
-					31
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					2,
-					14
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		config_client = {
 			{
 				8,
@@ -8250,75 +8120,23 @@ pg.activity_template = {
 	[233] = {
 		mark = 20190131,
 		bg = "",
+		time = "stop",
 		type = 32,
 		config_id = 1,
-		is_show = 2,
+		is_show = 1,
 		config_data = "",
 		config_client = "",
-		id = 233,
-		time = {
-			timer,
-			{
-				{
-					2019,
-					1,
-					31
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					2,
-					14
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		id = 233
 	},
 	[234] = {
 		mark = 20190131,
 		bg = "",
+		time = "stop",
 		type = 26,
 		config_id = 0,
-		is_show = 5,
+		is_show = 1,
 		config_data = "activity_drop_234",
 		id = 234,
-		time = {
-			timer,
-			{
-				{
-					2019,
-					1,
-					31
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					2,
-					14
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		config_client = {
 			id = 2,
 			bg = "loadingbg/bg_build_2_act"
@@ -8327,6 +8145,7 @@ pg.activity_template = {
 	[235] = {
 		mark = 20190131,
 		bg = "",
+		time = "stop",
 		type = 43,
 		config_id = 0,
 		is_show = 0,
@@ -8369,38 +8188,12 @@ pg.activity_template = {
 				26,
 				0
 			}
-		},
-		time = {
-			timer,
-			{
-				{
-					2019,
-					1,
-					31
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					2,
-					14
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[236] = {
 		mark = 20190131,
 		bg = "",
+		time = "stop",
 		type = 13,
 		config_id = 0,
 		is_show = 0,
@@ -8425,33 +8218,6 @@ pg.activity_template = {
 			14183,
 			14184,
 			14185
-		},
-		time = {
-			timer,
-			{
-				{
-					2019,
-					1,
-					31
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					2,
-					14
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[237] = {
@@ -8535,19 +8301,108 @@ pg.activity_template = {
 	[239] = {
 		mark = 20190131,
 		bg = "",
+		time = "stop",
 		type = 51,
 		config_id = 1,
-		is_show = 4,
+		is_show = 1,
 		config_client = "",
 		id = 239,
-		config_data = {},
+		config_data = {}
+	},
+	[240] = {
+		mark = 20190214,
+		type = 33,
+		config_id = 0,
+		is_show = 1,
+		id = 240,
+		config_data = {
+			{
+				{
+					59771,
+					10
+				}
+			},
+			8077,
+			{
+				8966,
+				8966,
+				8966,
+				8966,
+				8966,
+				8966,
+				8966,
+				8966,
+				8966,
+				8966
+			},
+			10
+		},
 		time = {
 			timer,
 			{
 				{
 					2019,
-					1,
-					31
+					2,
+					14
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					3,
+					7
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		bg = {
+			"clutter/card_pairs_bg"
+		},
+		config_client = {
+			{
+				nil,
+				"SHANGYING1",
+				"SHANGYING2",
+				"SHANGYING3",
+				"SHANGYING4",
+				"SHANGYING5",
+				"SHANGYING6",
+				"SHANGYING7"
+			},
+			{
+				showingTime = 0.3,
+				aniTime = 0.2,
+				firstShowingTime = 2
+			}
+		}
+	},
+	[241] = {
+		mark = 20190214,
+		bg = "",
+		type = 29,
+		config_id = 15,
+		is_show = 0,
+		config_client = "",
+		id = 241,
+		config_data = {
+			31201
+		},
+		time = {
+			timer,
+			{
+				{
+					2019,
+					2,
+					14
 				},
 				{
 					0,
@@ -8559,7 +8414,7 @@ pg.activity_template = {
 				{
 					2019,
 					2,
-					14
+					21
 				},
 				{
 					23,
@@ -9533,6 +9388,8 @@ pg.activity_template = {
 		237,
 		238,
 		239,
+		240,
+		241,
 		1001,
 		1002,
 		1004,

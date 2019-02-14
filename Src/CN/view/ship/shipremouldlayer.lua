@@ -483,6 +483,7 @@ function slot0.updateFinished(slot0, slot1)
 	if slot3.use_ship > 0 then
 		setActive(slot0.shipTF:Find("addTF"), false)
 		setActive(slot0.shipTF:Find("icon_bg"), true)
+		removeOnButton(slot0.shipTF)
 		updateDrop(slot0.shipTF, {
 			type = DROP_TYPE_SHIP,
 			id = slot0.shipVO.configId

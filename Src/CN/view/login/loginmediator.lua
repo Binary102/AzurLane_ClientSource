@@ -113,6 +113,8 @@ function slot0.handleNotification(slot0, slot1)
 				viewComponent = GatewayNoticeLayer
 			}))
 		end
+
+		getProxy(SettingsProxy):initEveryPlay()
 	elseif slot2 == GAME.USER_REGISTER_SUCCESS then
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			modal = true,

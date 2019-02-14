@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"꽃구경 대소동\n\n<size=30>제7장 - 둘만의 2차</size>",
+					"벚꽃놀이 대소동\n\n<size=30>제7장 - 둘만의 후야제</size>",
 					1
 				}
 			}

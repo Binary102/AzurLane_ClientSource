@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"꽃구경 대소동\n\n<size=30>제4장 - 연회의 시작</size>",
+					"벚꽃놀이 대소동\n\n<size=30>제4장 - 연회의 시작</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			bgm = "story-1",
 			actor = 306034,
 			nameColor = "#a9f548",
-			say = "그럼, 봄철 꽃구경을 시작해볼까요~!",
+			say = "그럼, 봄철 벚꽃놀이를 시작해볼까요~!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			dir = -1,
 			actor = 301114,
 			nameColor = "#a9f548",
-			say = "그렇구나! 모두가 함께 폭풍 흡입하는 게 '꽃구경' 이구나!",
+			say = "그렇구나! 모두가 함께 폭풍 흡입하는 게 '벚꽃놀이' 구나!",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -227,7 +227,7 @@ return {
 			bgName = "bg_story_school",
 			side = 0,
 			dir = 1,
-			say = "아카츠키 언니…\"꽃구경 때 먹을 간식을 사오겠소!\" 라는 메모를 남기고 밖으로 나갔습니다……",
+			say = "아카츠키 언니…\"벚꽃놀이 때 먹을 간식을 사오겠소!\" 라는 메모를 남기고 밖으로 나갔습니다……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"꽃구경 대소동\n\n<size=30>제5장 - 벚꽃</size>",
+					"벚꽃놀이 대소동\n\n<size=30>제5장 - 하늘에 수 놓는 벚꽃</size>",
 					1
 				}
 			}
@@ -160,7 +160,7 @@ return {
 			bgName = "bg_story_school",
 			side = 0,
 			dir = 1,
-			say = "사쿠라 엠파이어의 전통 행사, 꽃구경이에요. 다들 와도 좋아요.",
+			say = "사쿠라 엠파이어의 전통 행사, 벚꽃놀이에요. 다들 와도 좋아요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"꽃구경 대소동\n\n<size=30>제1장 - 이른 봄 날씨</size>",
+					"벚꽃놀이 대소동\n\n<size=30>제1장 - 이른 봄 날씨</size>",
 					1
 				}
 			}
@@ -203,7 +203,7 @@ return {
 			bgName = "bg_story_room",
 			side = 0,
 			dir = 1,
-			say = "그럼…꽃구경이라도 어떠세요~?",
+			say = "그럼…벚꽃놀이라도 어떠세요~?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,7 +251,7 @@ return {
 			bgName = "bg_story_room",
 			side = 1,
 			dir = 1,
-			say = "…뭐, 꽃구경하는 건 좋지만…어째서 히류가 들떠있는 거야……?",
+			say = "…뭐, 벚꽃놀이 하는 건 좋지만…어째서 히류가 들떠있는 거야……?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

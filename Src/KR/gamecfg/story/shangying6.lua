@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"꽃구경 대소동\n\n<size=30>제6장 - 꽃을 바라보며 한잔</size>",
+					"벚꽃놀이 대소동\n\n<size=30>제6장 - 꽃을 바라보며 한잔</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			bgm = "story-1",
 			actor = 305034,
 			nameColor = "#a9f548",
-			say = "…푸하~ 역시 꽃구경엔 이게 있어야지~",
+			say = "…푸하~ 역시 벚꽃놀이엔 이게 있어야지~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			bgName = "bg_story_school",
 			side = 2,
 			dir = -1,
-			say = "오~홋홋호! '꽃구경' 에는 역시 풍류를 빼놓으면 섭하지!",
+			say = "오~홋홋호! 벚꽃놀이에는 역시 풍류를 빼놓으면 섭하지!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -79899,6 +79899,490 @@ pg.ship_data_statistics = {
 		},
 		tag_list = {}
 	},
+	[301311] = {
+		oxy_max = 0,
+		type = 1,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "마츠카제",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 2,
+		oxy_recovery = 0,
+		rarity = 3,
+		ammo = 0,
+		id = 301311,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Matsukaze",
+		skin_id = 301310,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 3,
+		armor_type = 1,
+		attrs = {
+			252,
+			11,
+			77,
+			24,
+			0,
+			74,
+			0,
+			67,
+			71,
+			44.8,
+			45,
+			45
+		},
+		attrs_growth = {
+			6140,
+			108,
+			760,
+			480,
+			0,
+			370,
+			0,
+			990,
+			1044,
+			0,
+			0,
+			450
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"D",
+			"B",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			105,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			0.7,
+			1.2,
+			0.7
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[301312] = {
+		oxy_max = 0,
+		type = 1,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "마츠카제",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		rarity = 3,
+		ammo = 0,
+		id = 301312,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Matsukaze",
+		skin_id = 301310,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 3,
+		armor_type = 1,
+		attrs = {
+			313,
+			14,
+			96,
+			30,
+			0,
+			74,
+			0,
+			67,
+			71,
+			44.8,
+			45,
+			56
+		},
+		attrs_growth = {
+			6140,
+			108,
+			760,
+			480,
+			0,
+			370,
+			0,
+			990,
+			1044,
+			0,
+			0,
+			450
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"D",
+			"B",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			105,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			0.7,
+			1.25,
+			0.7
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[301313] = {
+		oxy_max = 0,
+		type = 1,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "마츠카제",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		rarity = 3,
+		ammo = 0,
+		id = 301313,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Matsukaze",
+		skin_id = 301310,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 3,
+		armor_type = 1,
+		attrs = {
+			436,
+			19,
+			134,
+			42,
+			0,
+			74,
+			0,
+			67,
+			71,
+			44.8,
+			45,
+			79
+		},
+		attrs_growth = {
+			6140,
+			108,
+			760,
+			480,
+			0,
+			370,
+			0,
+			990,
+			1044,
+			0,
+			0,
+			450
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"D",
+			"B",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			105,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			0.7,
+			1.35,
+			0.7
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[301314] = {
+		oxy_max = 0,
+		type = 1,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "마츠카제",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		rarity = 3,
+		ammo = 0,
+		id = 301314,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Matsukaze",
+		skin_id = 301310,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 3,
+		armor_type = 1,
+		attrs = {
+			620,
+			27,
+			191,
+			60,
+			0,
+			74,
+			0,
+			67,
+			71,
+			44.8,
+			45,
+			113
+		},
+		attrs_growth = {
+			6140,
+			108,
+			760,
+			480,
+			0,
+			370,
+			0,
+			990,
+			1044,
+			0,
+			0,
+			450
+		},
+		attrs_growth_extra = {
+			6130,
+			252,
+			1198,
+			323,
+			0,
+			875,
+			0,
+			-578,
+			-759,
+			0,
+			0,
+			448
+		},
+		grades = {
+			"D",
+			"B",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			105,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			0.75,
+			1.4,
+			0.75
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
 	[301321] = {
 		oxy_max = 0,
 		type = 1,
@@ -163154,6 +163638,10 @@ pg.ship_data_statistics = {
 		301302,
 		301303,
 		301304,
+		301311,
+		301312,
+		301313,
+		301314,
 		301321,
 		301322,
 		301323,

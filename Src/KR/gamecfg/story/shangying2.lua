@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"꽃구경 대소동\n\n<size=30>제2장 - 꽃구경 초대하기</size>",
+					"벚꽃놀이 대소동\n\n<size=30>제2장 - 벚꽃놀이 초대하기</size>",
 					1
 				}
 			}
@@ -109,7 +109,7 @@ return {
 			}
 		},
 		{
-			say = "아하하하…미안, 갑자기 불러 세워서. 이번에 다 같이 꽃구경을 가볼까 하는데, 너희들도 올래?",
+			say = "아하하하…미안, 갑자기 불러 세워서. 이번에 다 같이 벚꽃놀이라도 가볼까 하는데, 너희들도 올래?",
 			side = 0,
 			bgName = "bg_story_school",
 			dir = -1,
@@ -134,7 +134,7 @@ return {
 			bgName = "bg_story_school",
 			side = 1,
 			dir = -1,
-			say = "꽃구경…인가요?",
+			say = "벚꽃놀이…말인가요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,7 +214,7 @@ return {
 			bgName = "bg_story_school",
 			side = 2,
 			dir = 1,
-			say = "키사라기도…꽃구경…가고 싶어…",
+			say = "키사라기도…벚꽃놀이…가고 싶어…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

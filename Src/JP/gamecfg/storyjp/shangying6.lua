@@ -160,7 +160,7 @@ return {
 			bgName = "bg_story_school",
 			side = 2,
 			dir = 1,
-			say = "これは…あとでまた「ジゴク」が見えそうな飲みっぷりですわ～うふふ",
+			say = "これは…あとでまた「ジゴク」が見れそうな飲みっぷりですわ～うふふ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

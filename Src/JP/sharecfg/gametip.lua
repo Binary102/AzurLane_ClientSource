@@ -4794,20 +4794,12 @@ pg.gametip = {
 	},
 	help_build_2 = {
 		tip = [[
-					<size=19>レアリティ出現割合
+					<size=25>レアリティ出現割合</size>
+
 						<color=#fff157>SSレア</color>：$2%
 						<color=#966af6>Sレア</color>：$3%
 						<color=#60a9ff>レア</color>：$4%
-						ノーマル：$5%
-
-						 【期間限定】
-					<color=#966af6>        長春</color>：1.5%<color=#A9F548>(up!)</color>
-					<color=#966af6>        太原</color>：1.5%<color=#A9F548>(up!)</color>
-				<color=#966af6>       マラニ―</color>：1.5%<color=#A9F548>(up!)</color>
-					<color=#966af6>チェイサー</color>：1.5%<color=#A9F548>(up!)</color>
-					<color=#60a9ff>キンバリー</color>：3.5%<color=#A9F548>(up!)</color>
-					<color=#60a9ff>キュラソー</color>：3.5%<color=#A9F548>(up!)</color>
-					<color=#60a9ff>カーリュー</color>：3.5%<color=#A9F548>(up!)</color></size>]],
+						ノーマル：$5%]],
 		key = "help_build_2"
 	},
 	help_build_4 = {

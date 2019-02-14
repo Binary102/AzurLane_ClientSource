@@ -400,6 +400,14 @@ function slot0.performance(slot0, slot1, slot2, slot3, slot4)
 				pg.StoryMgr.GetInstance():Play(slot1, pg.StoryMgr.GetInstance().Play)
 				coroutine.yield()
 			end
+		elseif slot0 == ActivityConst.ACTIVITY_TYPE_DODGEM then
+			if slot5.cmd == 2 and slot4.number[3] > 0 then
+				table.insert(slot6, {
+					id = 59761,
+					count = 1,
+					type = 8
+				})
+			end
 		elseif slot0 == ActivityConst.ACTIVITY_TYPE_DODGEM and slot5.cmd == 2 and slot4.number[3] > 0 then
 			table.insert(slot6, {
 				id = 59761,

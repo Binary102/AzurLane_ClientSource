@@ -131,7 +131,7 @@ function pg.ShareMgr.Share(slot0, slot1)
 		slot14 = slot13:TakePhoto(slot9)
 
 		slot14:LoadImage(slot15)
-		AiriSdkMgr.inst:ShareCustomScreenshot(slot2.description, slot14)
+		GameShare(slot2.description, slot14)
 		slot0.UIMgr.GetInstance():LoadingOn()
 
 		time = Timer.New(function ()

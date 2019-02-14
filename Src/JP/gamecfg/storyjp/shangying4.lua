@@ -227,7 +227,7 @@ return {
 			bgName = "bg_story_school",
 			side = 0,
 			dir = 1,
-			say = "暁姉さん…「お花見で食べるおやつを買ってくるでござる」のメモを残して出かけました……",
+			say = "暁姉さん…「お花見で食べるおやつを買ってくるでござる」とメモを残して出かけました……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

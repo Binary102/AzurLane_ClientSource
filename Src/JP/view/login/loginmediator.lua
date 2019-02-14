@@ -205,7 +205,7 @@ function slot0.handleNotification(slot0, slot1)
 			hideNo = true,
 			content = i18n("airi_error_code_100200"),
 			onYes = function ()
-				AiriSdkMgr.inst:ClearAccountCache()
+				ClearAccountCache()
 
 				slot0 = getProxy(SettingsProxy)
 

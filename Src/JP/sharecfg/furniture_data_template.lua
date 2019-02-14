@@ -60266,6 +60266,1432 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[41001] = {
+		can_rotate = 0,
+		name = "コースター壁",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		effect = "",
+		icon = "qiangbivticon",
+		is_get_time_note = 0,
+		belong = 0,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 150,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 4,
+		picture = "valentine/qiangbivt",
+		canputon = 0,
+		discount = 0,
+		id = 41001,
+		comfortable = 4,
+		describe = "名付けて「饅頭☆ザ☆ライド」！最高のスリルな体験をあなたに――",
+		dorm_id = 0,
+		gem_price = 450,
+		can_trigger = 0,
+		themeId = 41,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					2,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					3,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[41002] = {
+		can_rotate = 0,
+		name = "饅頭ランドフロア",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		effect = "",
+		icon = "dibanvticon",
+		is_get_time_note = 0,
+		belong = 0,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 150,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 5,
+		rarity = 4,
+		picture = "valentine/dibanvt",
+		canputon = 0,
+		discount = 0,
+		id = 41002,
+		comfortable = 4,
+		describe = "転倒防止のための加工がされた遊園地の床",
+		dorm_id = 0,
+		gem_price = 450,
+		can_trigger = 0,
+		themeId = 41,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					2,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					3,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[41101] = {
+		can_rotate = 1,
+		name = "遊園地の回覧板",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		icon = "banvticon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "valentine/banvt",
+		canputon = 0,
+		discount = 0,
+		id = 41101,
+		comfortable = 2,
+		describe = "次は～どれに～しようかな～？",
+		dorm_id = 0,
+		gem_price = 120,
+		can_trigger = 0,
+		themeId = 41,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					2,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					3,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[41102] = {
+		can_rotate = 0,
+		name = "レモンカップ",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "chabei1vticon",
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		picture = "valentine/chabei1vt",
+		canputon = 0,
+		discount = 0,
+		id = 41102,
+		comfortable = 3,
+		describe = "コーヒーカップ？ティーカップ？",
+		dorm_id = 0,
+		gem_price = 240,
+		can_trigger = 0,
+		themeId = 41,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					0,
+					53
+				},
+				{
+					-1,
+					1
+				},
+				"valentine/chabei1vt_using"
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					2,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					3,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[41103] = {
+		can_rotate = 0,
+		name = "ストロベリーカップ",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "chabei2vticon",
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		picture = "valentine/chabei2vt",
+		canputon = 0,
+		discount = 0,
+		id = 41103,
+		comfortable = 3,
+		describe = "コーヒーカップ？ティーカップ？",
+		dorm_id = 0,
+		gem_price = 240,
+		can_trigger = 0,
+		themeId = 41,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					0,
+					53
+				},
+				{
+					-1,
+					1
+				},
+				"valentine/chabei2vt_using"
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					2,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					3,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[41104] = {
+		can_rotate = 0,
+		name = "グレープカップ",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "chabei3vticon",
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		picture = "valentine/chabei3vt",
+		canputon = 0,
+		discount = 0,
+		id = 41104,
+		comfortable = 3,
+		describe = "コーヒーカップ？ティーカップ？",
+		dorm_id = 0,
+		gem_price = 240,
+		can_trigger = 0,
+		themeId = 41,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					0,
+					53
+				},
+				{
+					-1,
+					1
+				},
+				"valentine/chabei3vt_using"
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					2,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					3,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[41105] = {
+		can_rotate = 0,
+		name = "パイレーツ洞窟",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		icon = "dongkuvticon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		picture = "valentine/dongkuvt",
+		canputon = 0,
+		discount = 0,
+		id = 41105,
+		comfortable = 3,
+		describe = "「今に見ていろ！オレがすぐ制覇してやるからな！」",
+		dorm_id = 0,
+		gem_price = 240,
+		can_trigger = 0,
+		themeId = 41,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			5,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					2,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					3,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[41106] = {
+		can_rotate = 0,
+		name = "海賊船",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "haidaochuanvticon",
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		picture = "valentine/haidaochuanvt",
+		canputon = 0,
+		discount = 0,
+		id = 41106,
+		comfortable = 3,
+		describe = "「これはまた水軍とやらと違う趣になるよのう」",
+		dorm_id = 0,
+		gem_price = 240,
+		can_trigger = 0,
+		themeId = 41,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			7,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"dance",
+				{
+					47,
+					-20
+				},
+				{
+					1,
+					1
+				},
+				"valentine/haidaochuanvt_using"
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					2,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					3,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[41107] = {
+		can_rotate = 0,
+		name = "ハートの盆栽",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		icon = "huashuvticon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 3,
+		advice = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "valentine/huashuvt",
+		canputon = 0,
+		discount = 0,
+		id = 41107,
+		comfortable = 2,
+		describe = "「姉貴ってこんな感じの盆栽も持ってるんだ…」「違うってば！」",
+		dorm_id = 0,
+		gem_price = 120,
+		can_trigger = 0,
+		themeId = 41,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					2,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					3,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[41108] = {
+		can_rotate = 0,
+		name = "遊園地の花壇",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		icon = "huatanvticon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 3,
+		advice = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "valentine/huatanvt",
+		canputon = 0,
+		discount = 0,
+		id = 41108,
+		comfortable = 2,
+		describe = "幸せと楽しさが溢れる花壇",
+		dorm_id = 0,
+		gem_price = 120,
+		can_trigger = 0,
+		themeId = 41,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					2,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					3,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[41109] = {
+		can_rotate = 0,
+		name = "綿あめの屋台",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "miahuatangchevticon",
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		picture = "valentine/miahuatangchevt",
+		canputon = 0,
+		discount = 0,
+		id = 41109,
+		comfortable = 3,
+		describe = "ふわふわな綿あめでもいかが？",
+		dorm_id = 0,
+		gem_price = 240,
+		can_trigger = 0,
+		themeId = 41,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"wash",
+				{
+					-13.9,
+					-8.1
+				},
+				{
+					1,
+					1
+				},
+				"valentine/miahuatangchevt_using",
+				0,
+				{
+					{
+						0,
+						191
+					},
+					{
+						172,
+						176
+					},
+					"valentine/miahuatangchevt_mask"
+				}
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					2,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					3,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[41110] = {
+		can_rotate = 0,
+		name = "バンパーカー",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "pengpengchevticon",
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		picture = "valentine/pengpengchevt",
+		canputon = 0,
+		discount = 0,
+		id = 41110,
+		comfortable = 3,
+		describe = "バーンパーバトル！",
+		dorm_id = 0,
+		gem_price = 240,
+		can_trigger = 0,
+		themeId = 41,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			8,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-136,
+					8
+				},
+				{
+					1,
+					1
+				},
+				"valentine/pengpengchevt_using1"
+			},
+			{
+				"sit",
+				{
+					99,
+					24
+				},
+				{
+					-1,
+					1
+				},
+				"valentine/pengpengchevt_using2"
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					2,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					3,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[41111] = {
+		can_rotate = 0,
+		name = "饅頭噴水",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		icon = "penquanvticon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		picture = "valentine/penquanvt",
+		canputon = 0,
+		discount = 0,
+		id = 41111,
+		comfortable = 3,
+		describe = "遊園地のトレードマークである饅頭噴水",
+		dorm_id = 0,
+		gem_price = 240,
+		can_trigger = 0,
+		themeId = 41,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			6,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					2,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					3,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[41112] = {
+		can_rotate = 0,
+		name = "ホットドッグワゴン",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		icon = "regouchevticon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "valentine/regouchevt",
+		canputon = 0,
+		discount = 0,
+		id = 41112,
+		comfortable = 2,
+		describe = "ユニオンの代表的なグルメ…かも？",
+		dorm_id = 0,
+		gem_price = 120,
+		can_trigger = 0,
+		themeId = 41,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					2,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					3,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[41113] = {
+		can_rotate = 0,
+		name = "リンゴの木",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		icon = "shuvticon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		picture = "valentine/shuvt",
+		canputon = 0,
+		discount = 0,
+		id = 41113,
+		comfortable = 3,
+		describe = "登ってはダメですよ",
+		dorm_id = 0,
+		gem_price = 240,
+		can_trigger = 0,
+		themeId = 41,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					2,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					3,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[41114] = {
+		can_rotate = 1,
+		name = "アイスクリームハウス",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "xuegaovticon",
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		picture = "valentine/xuegaovt",
+		canputon = 0,
+		discount = 0,
+		id = 41114,
+		comfortable = 3,
+		describe = "「今日はどれにしようかな…スウィーティー！」",
+		dorm_id = 0,
+		gem_price = 240,
+		can_trigger = 0,
+		themeId = 41,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-11,
+					-101
+				},
+				{
+					-1,
+					1
+				},
+				"valentine/xuegaovt_using"
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					2,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					3,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[41115] = {
+		can_rotate = 0,
+		name = "遊園地のベンチ",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "yizivticon",
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "valentine/yizivt",
+		canputon = 0,
+		discount = 0,
+		id = 41115,
+		comfortable = 2,
+		describe = "疲れたら一休み",
+		dorm_id = 0,
+		gem_price = 120,
+		can_trigger = 0,
+		themeId = 41,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-43,
+					27
+				},
+				{
+					-1,
+					1
+				},
+				"valentine/yizivt_using"
+			},
+			{
+				"sit",
+				{
+					10,
+					1
+				},
+				{
+					-1,
+					1
+				},
+				"valentine/yizivt_using"
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					2,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					3,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[41116] = {
+		can_rotate = 0,
+		name = "メリーゴーランド",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "xuanzhuanmumavticon",
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		picture = "valentine/xuanzhuanmumavt",
+		canputon = 0,
+		discount = 0,
+		id = 41116,
+		comfortable = 3,
+		describe = "回れ回れー",
+		dorm_id = 0,
+		gem_price = 240,
+		can_trigger = 0,
+		themeId = 41,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			7,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-136.2,
+					-78.9
+				},
+				{
+					-1,
+					1
+				},
+				"valentine/xuanzhuanmumavt_using1"
+			},
+			{
+				"sit",
+				{
+					128.7,
+					-81.4
+				},
+				{
+					1,
+					1
+				},
+				"valentine/xuanzhuanmumavt_using2"
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					2,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					3,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[41117] = {
+		can_rotate = 0,
+		name = "饅頭気球",
+		gain_by = "",
+		type = 11,
+		dir = 0,
+		picture = "",
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 0,
+		not_for_sale = 0,
+		icon = "qiqiuvticon",
+		deblocking = 1,
+		level = 1,
+		rarity = 4,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 41117,
+		comfortable = 4,
+		describe = "より高い高度を目指して開発された饅頭気球",
+		dorm_id = 0,
+		gem_price = 150,
+		can_trigger = 0,
+		themeId = 41,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		spine = {
+			{
+				"reqiqiuB",
+				"normal"
+			},
+			{
+				"reqiqiuT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			},
+			0.5
+		},
+		time = {
+			{
+				{
+					2019,
+					2,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					3,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		animator = {
+			{
+				"reqiqiuCharControl"
+			}
+		},
+		interAction_group = {}
+	},
 	all = {
 		1,
 		2,
@@ -61234,7 +62660,26 @@ pg.furniture_data_template = {
 		39304,
 		39305,
 		39306,
-		39307
+		39307,
+		41001,
+		41002,
+		41101,
+		41102,
+		41103,
+		41104,
+		41105,
+		41106,
+		41107,
+		41108,
+		41109,
+		41110,
+		41111,
+		41112,
+		41113,
+		41114,
+		41115,
+		41116,
+		41117
 	}
 }
 

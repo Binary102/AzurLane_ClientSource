@@ -22,13 +22,13 @@ class("ChargeCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 			if isAiriJP() then
 				if AiriCheckAudit() then
 					print("serverTag:audit 请求购买物品")
-					AiriSdkMgr.inst:NewBuy(slot0:getConfig("airijp_id"), "audit", slot0.pay_id)
+					AiriBuy(slot0:getConfig("airijp_id"), "audit", slot0.pay_id)
 				elseif AiriCheckPreAudit() then
 					print("serverTag:preAudit 请求购买物品")
-					AiriSdkMgr.inst:NewBuy(slot0:getConfig("airijp_id"), "preAudit", slot0.pay_id)
+					AiriBuy(slot0:getConfig("airijp_id"), "preAudit", slot0.pay_id)
 				else
 					print("serverTag:production 请求购买物品")
-					AiriSdkMgr.inst:NewBuy(slot0:getConfig("airijp_id"), "production", slot0.pay_id)
+					AiriBuy(slot0:getConfig("airijp_id"), "production", slot0.pay_id)
 				end
 
 				print("请求购买的airijp_id为：" .. slot0:getConfig("airijp_id"))

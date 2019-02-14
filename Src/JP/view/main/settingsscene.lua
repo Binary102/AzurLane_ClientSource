@@ -196,12 +196,14 @@ function slot0.checkTranscodeView(slot0)
 end
 
 function slot0.checkAccountTwitterView(slot0)
-	setActive(slot0.twitterUnlinkBtn, AiriSdkMgr.AiriSDKInst.IsTwitterLinked)
-	setActive(slot0.twitterLinkSign, AiriSdkMgr.AiriSDKInst.IsTwitterLinked)
-	setActive(slot0.twitterBtn, not AiriSdkMgr.AiriSDKInst.IsTwitterLinked)
+	slot1 = IsSocialLink(AIRI_PLATFORM_TWITTER)
 
-	if AiriSdkMgr.AiriSDKInst.IsTwitterLinked then
-		setText(slot0.twitterLinkSign, i18n("twitter_link_title", AiriSdkMgr.AiriSDKInst.TwitterUsername))
+	setActive(slot0.twitterUnlinkBtn, slot1)
+	setActive(slot0.twitterLinkSign, slot1)
+	setActive(slot0.twitterBtn, not slot1)
+
+	if slot1 then
+		setText(slot0.twitterLinkSign, i18n("twitter_link_title", GetSocialName(AIRI_PLATFORM_TWITTER)))
 	end
 end
 
@@ -727,17 +729,17 @@ function slot0.didEnter(slot0)
 
 	onButton(slot0, slot0.getCodeBtn, function ()
 		if slot0.transcode == "" then
-			AiriSdkMgr.inst:TranscodeRequest()
+			TranscodeRequest()
 			pg.UIMgr.GetInstance():LoadingOn()
 		end
 	end)
 	onButton(slot0, slot0.twitterBtn, function ()
 		pg.UIMgr.GetInstance():LoadingOn()
-		AiriSdkMgr.inst:LinkTwitter()
+		LinkSocial(AIRI_PLATFORM_TWITTER)
 	end)
 	onButton(slot0, slot0.twitterUnlinkBtn, function ()
 		pg.UIMgr.GetInstance():LoadingOn()
-		AiriSdkMgr.inst:UnlinkTwitter()
+		UnlinkSocial(AIRI_PLATFORM_TWITTER)
 	end)
 	onButton(slot0, slot0.goTranscodeUIBtn, function ()
 		setActive(slot0.accountTwitterUI, false)

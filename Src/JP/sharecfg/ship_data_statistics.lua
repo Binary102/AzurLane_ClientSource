@@ -40459,10 +40459,6 @@ pg.ship_data_statistics = {
 					-3
 				},
 				{
-					1,
-					0
-				},
-				{
 					3,
 					0
 				}
@@ -40699,10 +40695,6 @@ pg.ship_data_statistics = {
 				{
 					0,
 					-3
-				},
-				{
-					1,
-					0
 				},
 				{
 					3,
@@ -40943,10 +40935,6 @@ pg.ship_data_statistics = {
 					-3
 				},
 				{
-					1,
-					0
-				},
-				{
 					3,
 					0
 				}
@@ -41183,10 +41171,6 @@ pg.ship_data_statistics = {
 				{
 					0,
 					-3
-				},
-				{
-					1,
-					0
 				},
 				{
 					3,

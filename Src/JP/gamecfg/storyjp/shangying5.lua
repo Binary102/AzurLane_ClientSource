@@ -66,7 +66,7 @@ return {
 			}
 		},
 		{
-			say = "みんなが楽しんでいるのを見てこっちもやりがいを感じますわ。あら？そこにいるのは――",
+			say = "みんなが楽しんでいるのを見るとこっちもやりがいを感じますわ。あら？そこにいるのは――",
 			side = 0,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -160,7 +160,7 @@ return {
 			bgName = "bg_story_school",
 			side = 0,
 			dir = 1,
-			say = "重桜の伝統行事――「お花見」、です。みんなも参加していいです。",
+			say = "重桜の伝統行事――「お花見」です。みんなも参加していいです。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			bgName = "bg_story_school",
 			side = 1,
 			dir = 1,
-			say = "お酒の…かおり……美味しそう…",
+			say = "お酒の…香り……美味しそう…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

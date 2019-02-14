@@ -897,6 +897,10 @@ function slot0.tryRequestMainSub(slot0)
 end
 
 function slot0.tryRequestVersion(slot0)
+	if VersionMgr.Inst:OnProxyUsing() then
+		return
+	end
+
 	if UpdateMgr.Inst.currentVersion.Major > 0 and (not slot0.lastRequestVersionTime or Time.realtimeSinceStartup - slot0.lastRequestVersionTime > 1800) then
 		slot0.lastRequestVersionTime = Time.realtimeSinceStartup
 
@@ -910,11 +914,9 @@ function slot0.tryRequestVersion(slot0)
 					hideNo = true,
 					content = i18n("new_version_tip"),
 					onYes = function ()
-						print("exit app")
 						Application.Quit()
 					end,
-					onClose = function ()
-						print("exit app")
+					onNo = function ()
 						Application.Quit()
 					end
 				})

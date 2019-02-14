@@ -137,7 +137,7 @@ function slot0.showUserAgreement(slot0, slot1)
 			slot1()
 
 			if isAiriJP() then
-				AiriSdkMgr.inst:Login()
+				AiriLogin()
 				pg.UIMgr.GetInstance():LoadingOn()
 			end
 		end
@@ -337,7 +337,7 @@ function slot0.didEnter(slot0)
 		if isPlatform() then
 			if not isTencent() then
 				if isAiriJP() then
-					AiriSdkMgr.inst:Login()
+					AiriLogin()
 				else
 					BilibiliSdkMgr.inst:login(0)
 				end
@@ -404,7 +404,7 @@ function slot0.didEnter(slot0)
 		if not getProxy(SettingsProxy):getUserAgreement() then
 			slot0.event:emit(LoginMediator.ON_LOGIN_PROCESS)
 		else
-			AiriSdkMgr.inst:Login()
+			AiriLogin()
 			pg.UIMgr.GetInstance():LoadingOn()
 		end
 	end)
@@ -412,7 +412,7 @@ function slot0.didEnter(slot0)
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			content = i18n("clear_transcode_cache_confirm"),
 			onYes = function ()
-				AiriSdkMgr.inst:ClearAccountCache()
+				ClearAccountCache()
 
 				slot0 = getProxy(SettingsProxy)
 
@@ -430,7 +430,7 @@ function slot0.didEnter(slot0)
 		setActive(slot0.transcodeAlert, true)
 	end)
 	onButton(slot0, slot0.twitterLoginBtn, function ()
-		AiriSdkMgr.inst:LoginWithTwitter()
+		LoginWithSocial(AIRI_PLATFORM_TWITTER)
 	end)
 	onButton(slot0, slot0.tcSureBtn, function ()
 		slot1 = slot0.transcodeTxt.text
@@ -441,7 +441,7 @@ function slot0.didEnter(slot0)
 				content = i18n("transcode_empty_tip")
 			})
 		else
-			AiriSdkMgr.inst:LoginWithTranscode(slot0, slot1)
+			LoginWithTranscode(slot0, slot1)
 			pg.UIMgr:GetInstance():LoadingOn()
 		end
 	end)

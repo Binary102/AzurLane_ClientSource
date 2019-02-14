@@ -80731,6 +80731,974 @@ pg.ship_data_statistics = {
 		},
 		tag_list = {}
 	},
+	[304021] = {
+		oxy_max = 0,
+		type = 4,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "Hiei",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 2,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 304021,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Hiei",
+		skin_id = 304020,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 3,
+		armor_type = 2,
+		attrs = {
+			1087,
+			69,
+			0,
+			51,
+			0,
+			59,
+			0,
+			21,
+			8,
+			30,
+			37,
+			0
+		},
+		attrs_growth = {
+			26510,
+			686,
+			0,
+			1004,
+			0,
+			292,
+			0,
+			312,
+			114,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"A",
+			"E",
+			"E",
+			"C",
+			"C",
+			"B"
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.05,
+			1.5,
+			0.9
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[304022] = {
+		oxy_max = 0,
+		type = 4,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "Hiei",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 304022,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Hiei",
+		skin_id = 304020,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 3,
+		armor_type = 2,
+		attrs = {
+			1352,
+			86,
+			0,
+			64,
+			0,
+			59,
+			0,
+			21,
+			8,
+			30,
+			37,
+			0
+		},
+		attrs_growth = {
+			26510,
+			686,
+			0,
+			1004,
+			0,
+			292,
+			0,
+			312,
+			114,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"A",
+			"E",
+			"E",
+			"C",
+			"C",
+			"B"
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			1.5,
+			0.9
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[304023] = {
+		oxy_max = 0,
+		type = 4,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "Hiei",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 304023,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Hiei",
+		skin_id = 304020,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 3,
+		armor_type = 2,
+		attrs = {
+			1882,
+			120,
+			0,
+			89,
+			0,
+			59,
+			0,
+			21,
+			8,
+			30,
+			37,
+			0
+		},
+		attrs_growth = {
+			26510,
+			686,
+			0,
+			1004,
+			0,
+			292,
+			0,
+			312,
+			114,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"A",
+			"E",
+			"E",
+			"C",
+			"C",
+			"B"
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			3,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.5,
+			0.9
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[304024] = {
+		oxy_max = 0,
+		type = 4,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "Hiei",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 304024,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Hiei",
+		skin_id = 304020,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 3,
+		armor_type = 2,
+		attrs = {
+			2678,
+			172,
+			0,
+			126,
+			0,
+			59,
+			0,
+			21,
+			8,
+			30,
+			37,
+			0
+		},
+		attrs_growth = {
+			26510,
+			686,
+			0,
+			1004,
+			0,
+			292,
+			0,
+			312,
+			114,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			19883,
+			1208,
+			0,
+			613,
+			0,
+			691,
+			0,
+			343,
+			681,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"A",
+			"E",
+			"E",
+			"C",
+			"C",
+			"B"
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			3,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.35,
+			1.5,
+			0.9
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[304041] = {
+		oxy_max = 0,
+		type = 4,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "Kirishima",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 2,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 304041,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Kirishima",
+		skin_id = 304040,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 3,
+		armor_type = 2,
+		attrs = {
+			1087,
+			69,
+			0,
+			51,
+			0,
+			59,
+			0,
+			21,
+			8,
+			30,
+			37,
+			0
+		},
+		attrs_growth = {
+			26510,
+			686,
+			0,
+			1004,
+			0,
+			292,
+			0,
+			312,
+			114,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"A",
+			"E",
+			"E",
+			"C",
+			"C",
+			"B"
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.05,
+			1.5,
+			0.9
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[304042] = {
+		oxy_max = 0,
+		type = 4,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "Kirishima",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 304042,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Kirishima",
+		skin_id = 304040,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 3,
+		armor_type = 2,
+		attrs = {
+			1352,
+			86,
+			0,
+			64,
+			0,
+			59,
+			0,
+			21,
+			8,
+			30,
+			37,
+			0
+		},
+		attrs_growth = {
+			26510,
+			686,
+			0,
+			1004,
+			0,
+			292,
+			0,
+			312,
+			114,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"A",
+			"E",
+			"E",
+			"C",
+			"C",
+			"B"
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			1.5,
+			0.9
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[304043] = {
+		oxy_max = 0,
+		type = 4,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "Kirishima",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 304043,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Kirishima",
+		skin_id = 304040,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 3,
+		armor_type = 2,
+		attrs = {
+			1882,
+			120,
+			0,
+			89,
+			0,
+			59,
+			0,
+			21,
+			8,
+			30,
+			37,
+			0
+		},
+		attrs_growth = {
+			26510,
+			686,
+			0,
+			1004,
+			0,
+			292,
+			0,
+			312,
+			114,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"A",
+			"E",
+			"E",
+			"C",
+			"C",
+			"B"
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			3,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.5,
+			0.9
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[304044] = {
+		oxy_max = 0,
+		type = 4,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "Kirishima",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 304044,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Kirishima",
+		skin_id = 304040,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 3,
+		armor_type = 2,
+		attrs = {
+			2678,
+			172,
+			0,
+			126,
+			0,
+			59,
+			0,
+			21,
+			8,
+			30,
+			37,
+			0
+		},
+		attrs_growth = {
+			26510,
+			686,
+			0,
+			1004,
+			0,
+			292,
+			0,
+			312,
+			114,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			19883,
+			1208,
+			0,
+			613,
+			0,
+			691,
+			0,
+			343,
+			681,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"A",
+			"E",
+			"E",
+			"C",
+			"C",
+			"B"
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			3,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.35,
+			1.5,
+			0.9
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
 	[304051] = {
 		oxy_max = 0,
 		type = 4,
@@ -85079,6 +86047,486 @@ pg.ship_data_statistics = {
 		},
 		tag_list = {}
 	},
+	[306021] = {
+		oxy_max = 0,
+		type = 6,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "Junyo",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 2,
+		oxy_recovery = 0,
+		rarity = 3,
+		ammo = 0,
+		id = 306021,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Jun'yō",
+		skin_id = 306020,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 3,
+		armor_type = 2,
+		attrs = {
+			860,
+			0,
+			0,
+			46,
+			52,
+			58,
+			0,
+			25,
+			19,
+			25.5,
+			80,
+			19
+		},
+		attrs_growth = {
+			20985,
+			0,
+			0,
+			900,
+			512,
+			288,
+			0,
+			372,
+			276,
+			0,
+			0,
+			186
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"E",
+			"E",
+			"B",
+			"D",
+			"B",
+			"B"
+		},
+		lock = {
+			"cannon",
+			"torpedo"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			117,
+			119,
+			118
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			0.85,
+			0.95,
+			1.05
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[306022] = {
+		oxy_max = 0,
+		type = 6,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "Junyo",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		rarity = 3,
+		ammo = 0,
+		id = 306022,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Jun'yō",
+		skin_id = 306020,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 3,
+		armor_type = 2,
+		attrs = {
+			1070,
+			0,
+			0,
+			57,
+			65,
+			58,
+			0,
+			25,
+			19,
+			25.5,
+			80,
+			24
+		},
+		attrs_growth = {
+			20985,
+			0,
+			0,
+			900,
+			512,
+			288,
+			0,
+			372,
+			276,
+			0,
+			0,
+			186
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"E",
+			"E",
+			"B",
+			"D",
+			"B",
+			"B"
+		},
+		lock = {
+			"cannon",
+			"torpedo"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			117,
+			119,
+			118
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			0.88,
+			0.98,
+			1.08
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[306023] = {
+		oxy_max = 0,
+		type = 6,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "Junyo",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		rarity = 3,
+		ammo = 0,
+		id = 306023,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Jun'yō",
+		skin_id = 306020,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 3,
+		armor_type = 2,
+		attrs = {
+			1490,
+			0,
+			0,
+			80,
+			90,
+			58,
+			0,
+			25,
+			19,
+			25.5,
+			80,
+			33
+		},
+		attrs_growth = {
+			20985,
+			0,
+			0,
+			900,
+			512,
+			288,
+			0,
+			372,
+			276,
+			0,
+			0,
+			186
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"E",
+			"E",
+			"B",
+			"D",
+			"B",
+			"B"
+		},
+		lock = {
+			"cannon",
+			"torpedo"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			117,
+			119,
+			118
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			2,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			0.93,
+			1.03,
+			1.13
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[306024] = {
+		oxy_max = 0,
+		type = 6,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "Junyo",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		rarity = 3,
+		ammo = 0,
+		id = 306024,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Jun'yō",
+		skin_id = 306020,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 3,
+		armor_type = 2,
+		attrs = {
+			2119,
+			0,
+			0,
+			114,
+			129,
+			58,
+			0,
+			25,
+			19,
+			25.5,
+			80,
+			47
+		},
+		attrs_growth = {
+			20985,
+			0,
+			0,
+			900,
+			512,
+			288,
+			0,
+			372,
+			276,
+			0,
+			0,
+			186
+		},
+		attrs_growth_extra = {
+			14683,
+			0,
+			0,
+			615,
+			1127,
+			680,
+			0,
+			233,
+			654,
+			0,
+			0,
+			285
+		},
+		grades = {
+			"E",
+			"E",
+			"B",
+			"D",
+			"B",
+			"B"
+		},
+		lock = {
+			"cannon",
+			"torpedo"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			117,
+			119,
+			118
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			2,
+			3
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1,
+			1.1,
+			1.2
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
 	[306031] = {
 		oxy_max = 0,
 		type = 6,
@@ -86030,6 +87478,486 @@ pg.ship_data_statistics = {
 		equipment_proficiency = {
 			1.3,
 			1.3,
+			0.8
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[306061] = {
+		oxy_max = 0,
+		type = 6,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "Ryuujou",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 2,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 306061,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Ryūjō",
+		skin_id = 306060,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 3,
+		armor_type = 2,
+		attrs = {
+			707,
+			0,
+			0,
+			47,
+			65,
+			66,
+			0,
+			29,
+			24,
+			28,
+			42,
+			17
+		},
+		attrs_growth = {
+			17255,
+			0,
+			0,
+			920,
+			646,
+			326,
+			0,
+			432,
+			348,
+			0,
+			0,
+			170
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"E",
+			"E",
+			"A",
+			"C",
+			"B",
+			"C"
+		},
+		lock = {
+			"cannon",
+			"torpedo"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			117,
+			119,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			1.35,
+			0.8
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[306062] = {
+		oxy_max = 0,
+		type = 6,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "Ryuujou",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 306062,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Ryūjō",
+		skin_id = 306060,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 3,
+		armor_type = 2,
+		attrs = {
+			880,
+			0,
+			0,
+			59,
+			81,
+			66,
+			0,
+			29,
+			24,
+			28,
+			42,
+			21
+		},
+		attrs_growth = {
+			17255,
+			0,
+			0,
+			920,
+			646,
+			326,
+			0,
+			432,
+			348,
+			0,
+			0,
+			170
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"E",
+			"E",
+			"A",
+			"C",
+			"B",
+			"C"
+		},
+		lock = {
+			"cannon",
+			"torpedo"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			117,
+			119,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.35,
+			0.8
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[306063] = {
+		oxy_max = 0,
+		type = 6,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "Ryuujou",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 306063,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Ryūjō",
+		skin_id = 306060,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 3,
+		armor_type = 2,
+		attrs = {
+			1225,
+			0,
+			0,
+			82,
+			113,
+			66,
+			0,
+			29,
+			24,
+			28,
+			42,
+			30
+		},
+		attrs_growth = {
+			17255,
+			0,
+			0,
+			920,
+			646,
+			326,
+			0,
+			432,
+			348,
+			0,
+			0,
+			170
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"E",
+			"E",
+			"A",
+			"C",
+			"B",
+			"C"
+		},
+		lock = {
+			"cannon",
+			"torpedo"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			117,
+			119,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			2,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.3,
+			1.35,
+			0.8
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[306064] = {
+		oxy_max = 0,
+		type = 6,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "Ryuujou",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 306064,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Ryūjō",
+		skin_id = 306060,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 3,
+		armor_type = 2,
+		attrs = {
+			1742,
+			0,
+			0,
+			116,
+			162,
+			66,
+			0,
+			29,
+			24,
+			28,
+			42,
+			43
+		},
+		attrs_growth = {
+			17255,
+			0,
+			0,
+			920,
+			646,
+			326,
+			0,
+			432,
+			348,
+			0,
+			0,
+			170
+		},
+		attrs_growth_extra = {
+			12072,
+			0,
+			0,
+			614,
+			1203,
+			777,
+			0,
+			223,
+			642,
+			0,
+			0,
+			264
+		},
+		grades = {
+			"E",
+			"E",
+			"A",
+			"C",
+			"B",
+			"C"
+		},
+		lock = {
+			"cannon",
+			"torpedo"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			117,
+			119,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			3,
+			3,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.3,
+			1.45,
 			0.8
 		},
 		strategy_list = {},
@@ -125222,6 +127150,14 @@ pg.ship_data_statistics = {
 		303132,
 		303133,
 		303134,
+		304021,
+		304022,
+		304023,
+		304024,
+		304041,
+		304042,
+		304043,
+		304044,
 		304051,
 		304052,
 		304053,
@@ -125258,6 +127194,10 @@ pg.ship_data_statistics = {
 		305112,
 		305113,
 		305114,
+		306021,
+		306022,
+		306023,
+		306024,
 		306031,
 		306032,
 		306033,
@@ -125266,6 +127206,10 @@ pg.ship_data_statistics = {
 		306052,
 		306053,
 		306054,
+		306061,
+		306062,
+		306063,
+		306064,
 		307011,
 		307012,
 		307013,

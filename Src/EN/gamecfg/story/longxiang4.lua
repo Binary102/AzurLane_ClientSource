@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"轻型航母{namecode:90}参上！\n\n<size=30>四 危险！诱惑少女的谜之味觉 </size>",
+					"Light Carrier Ryuujou, Moving Out!\n\n<size=30>Chapter 4: Danger! A Girl's Mysterious Appeal!</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "某日・港区",
+			say = "Days later - Port",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -49,7 +49,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "演习结束时，不知为何{namecode:90}一个人先行离开，就这样不知所踪了。",
+			say = "That concludes our exercise. I have no idea why Ryuujou left early all by herself - it's quite unlike her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "您说小{namecode:90}不知道去哪里了，吗……那可真是令人困扰呢……",
+			say = "So, Ryuujou went missing? How troublesome...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我今天也没见到她呢，真不知道能不能帮上忙……",
+			say = "I haven't even seen her today... so I'm not sure I can help...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这个时间的话，她会不会先去食堂了呢……",
+			say = "Since it's around this time, do you think she might have went to the canteen first?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
-			say = "总之接受了{namecode:89}的建议，前往了港区食堂。",
+			say = "With that said, we took Houshou's advice and headed to the canteen...",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -134,7 +134,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "令人出乎意料、大吃一惊的场景映入眼帘……！",
+			say = "When we got there, an unbelievable scene unfolded before our eyes...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			dir = 1,
 			actor = 306061,
 			nameColor = "#a9f548",
-			say = "啊呜啊呜啊呜……真香！！",
+			say = "*Om nom nom*... ...Delicious!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,7 +173,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "肚子不饱战斗不胜……胜利后的饱餐实在是人生中最幸福的时刻了！",
+			say = "An army marches on its stomach... Ahh, a hearty meal after a tough victory is what life is all about!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "跟主公为我做的饭比起来稍有逊色，但是已经足够好吃了呢！",
+			say = "It's not as good as the food that Milord cooks for me, but this is still great!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			dir = 1,
 			actor = 306061,
 			nameColor = "#a9f548",
-			say = "果然吃到撑超级幸福！！吧唧吧唧吧唧",
+			say = "Ahh, it's not satisfying unless I eat until I'm stuffed!! *munch munch*",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,7 +232,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:90}，请留意一下你的吃相",
+			say = "Ryuujou, please mind your etiquette when eating.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +248,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:90}酱，饭还有很多，不用这么着急吃哦？",
+			say = "Ryuujou, the food isn't going anywhere. You can afford to slow down.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -264,7 +264,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "被指挥官看到的话印象分会大减哦",
+			say = "You wouldn't want Commander to see you like this, would you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,7 +281,7 @@ return {
 			dir = 1,
 			actor = 306061,
 			nameColor = "#a9f548",
-			say = "主公这会儿应该还在演习场，不会暴露的！啊呜啊呜",
+			say = "No need to worry about that... Milord will be in the training area for a while longer! *munch munch*",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -307,7 +307,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，指挥官殿下，您在找{namecode:90}吗？",
+			say = "Ah, Commander! Were you looking for Ryuujou?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,7 +324,7 @@ return {
 			dir = 1,
 			actor = 306061,
 			nameColor = "#a9f548",
-			say = "………………………………………………诶？",
+			say = "... .... ... ... ... Ehh?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -340,7 +340,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊呀呀……",
+			say = "Oh dear...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -357,7 +357,7 @@ return {
 			dir = 1,
 			actor = 306061,
 			nameColor = "#a9f548",
-			say = "主、主公！十分抱歉让您看到这副不堪入目的样子！",
+			say = "M-milord! I apologize deeply for showing you such unsightly behavior!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -384,7 +384,7 @@ return {
 			dir = 1,
 			actor = 306061,
 			nameColor = "#a9f548",
-			say = "请、请您、请您一定原谅……呜呜……",
+			say = "C-could you p-please f-forgive... waaaaah...!!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -408,7 +408,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "{namecode:90}双眼含泪，拿着筷子的双手不住地颤抖着。",
+			say = "The chopsticks fell from Ryuujou's trembling hands as tears began to stream down her face.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -419,7 +419,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "对她这番过激的反应感到十分奇怪，最后还是以好言安慰收场。不过{namecode:90}花了半个小时才勉强冷静下来……",
+			say = "Though everyone was a bit baffled by her exaggerated reaction, they still managed to calm her down with their kind words. It just took them a good half hour.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -7688,6 +7688,65 @@ pg.ship_data_breakout = {
 		use_item = {},
 		weapon_ids = {}
 	},
+	[301241] = {
+		use_gold = 300,
+		pre_id = 0,
+		use_char_num = 1,
+		use_char = 30124,
+		breakout_id = 301242,
+		breakout_view = "Unlock All Out Assault Ⅰ/Torpedo efficiency +5%",
+		id = 301241,
+		icon = "10001",
+		level = 10,
+		use_item = {},
+		weapon_ids = {
+			72041
+		}
+	},
+	[301242] = {
+		use_gold = 800,
+		pre_id = 301241,
+		use_char_num = 1,
+		use_char = 30124,
+		breakout_id = 301243,
+		breakout_view = "Torpedo base +1/Torpedo preload +1/Torpedo efficiency +10%",
+		id = 301242,
+		icon = "10001",
+		level = 30,
+		use_item = {},
+		weapon_ids = {
+			106,
+			106
+		}
+	},
+	[301243] = {
+		use_gold = 1500,
+		pre_id = 301242,
+		use_char_num = 2,
+		use_char = 30124,
+		breakout_id = 301244,
+		breakout_view = "Improve All Out Assault/All weapons' efficiency +5%",
+		id = 301243,
+		icon = "10001",
+		level = 70,
+		use_item = {},
+		weapon_ids = {
+			72042
+		}
+	},
+	[301244] = {
+		use_gold = 0,
+		pre_id = 301243,
+		use_char_num = 0,
+		use_char = 30124,
+		breakout_id = 0,
+		breakout_view = "N/A",
+		id = 301244,
+		icon = "10001",
+		level = 0,
+		use_item = {},
+		weapon_ids = {}
+	},
 	[301261] = {
 		use_gold = 300,
 		pre_id = 0,
@@ -7845,6 +7904,65 @@ pg.ship_data_breakout = {
 		breakout_id = 0,
 		breakout_view = "N/A",
 		id = 301284,
+		icon = "10001",
+		level = 0,
+		use_item = {},
+		weapon_ids = {}
+	},
+	[301301] = {
+		use_gold = 300,
+		pre_id = 0,
+		use_char_num = 1,
+		use_char = 30130,
+		breakout_id = 301302,
+		breakout_view = "Unlock All Out Assault Ⅰ/Torpedo efficiency +5%",
+		id = 301301,
+		icon = "10001",
+		level = 10,
+		use_item = {},
+		weapon_ids = {
+			72081
+		}
+	},
+	[301302] = {
+		use_gold = 800,
+		pre_id = 301301,
+		use_char_num = 1,
+		use_char = 30130,
+		breakout_id = 301303,
+		breakout_view = "Torpedo base +1/Torpedo preload +1/Torpedo efficiency +10%",
+		id = 301302,
+		icon = "10001",
+		level = 30,
+		use_item = {},
+		weapon_ids = {
+			105,
+			105
+		}
+	},
+	[301303] = {
+		use_gold = 1500,
+		pre_id = 301302,
+		use_char_num = 2,
+		use_char = 30130,
+		breakout_id = 301304,
+		breakout_view = "Improve All Out Assault/All weapons' efficiency +5%",
+		id = 301303,
+		icon = "10001",
+		level = 70,
+		use_item = {},
+		weapon_ids = {
+			72082
+		}
+	},
+	[301304] = {
+		use_gold = 0,
+		pre_id = 301303,
+		use_char_num = 0,
+		use_char = 30130,
+		breakout_id = 0,
+		breakout_view = "N/A",
+		id = 301304,
 		icon = "10001",
 		level = 0,
 		use_item = {},
@@ -10129,6 +10247,71 @@ pg.ship_data_breakout = {
 		breakout_id = 0,
 		breakout_view = "N/A",
 		id = 306054,
+		icon = "10001",
+		level = 0,
+		use_item = {},
+		weapon_ids = {}
+	},
+	[306061] = {
+		use_gold = 500,
+		pre_id = 0,
+		use_char_num = 1,
+		use_char = 30606,
+		breakout_id = 306062,
+		breakout_view = "All Torpedo Bombers +1/Fighter efficiency +5%",
+		id = 306061,
+		icon = "10001",
+		level = 10,
+		use_item = {},
+		weapon_ids = {
+			60371,
+			54011
+		}
+	},
+	[306062] = {
+		use_gold = 1500,
+		pre_id = 306061,
+		use_char_num = 1,
+		use_char = 30606,
+		breakout_id = 306063,
+		breakout_view = "Hangar capacity +1/All Torpedo Bombers +1/Fighter efficiency +10%",
+		id = 306062,
+		icon = "10001",
+		level = 30,
+		use_item = {},
+		weapon_ids = {
+			60372,
+			54011,
+			60372,
+			54011
+		}
+	},
+	[306063] = {
+		use_gold = 2500,
+		pre_id = 306062,
+		use_char_num = 2,
+		use_char = 30606,
+		breakout_id = 306064,
+		breakout_view = "All aircraft +1/Torpedo Bomber efficiency +10%",
+		id = 306063,
+		icon = "10001",
+		level = 70,
+		use_item = {},
+		weapon_ids = {
+			60373,
+			54012,
+			60373,
+			54012
+		}
+	},
+	[306064] = {
+		use_gold = 0,
+		pre_id = 306063,
+		use_char_num = 0,
+		use_char = 30606,
+		breakout_id = 0,
+		breakout_view = "N/A",
+		id = 306064,
 		icon = "10001",
 		level = 0,
 		use_item = {},
@@ -13341,6 +13524,10 @@ pg.ship_data_breakout = {
 		301202,
 		301203,
 		301204,
+		301241,
+		301242,
+		301243,
+		301244,
 		301261,
 		301262,
 		301263,
@@ -13352,6 +13539,10 @@ pg.ship_data_breakout = {
 		301282,
 		301283,
 		301284,
+		301301,
+		301302,
+		301303,
+		301304,
 		301311,
 		301312,
 		301313,
@@ -13504,6 +13695,10 @@ pg.ship_data_breakout = {
 		306052,
 		306053,
 		306054,
+		306061,
+		306062,
+		306063,
+		306064,
 		307011,
 		307012,
 		307013,

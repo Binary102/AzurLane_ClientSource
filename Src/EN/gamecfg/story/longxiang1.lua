@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"轻型航母{namecode:90}参上！\n\n<size=30>一 登场！日出之国的轻航母</size>",
+					"Light Carrier Ryuujou, Moving Out!\n\n<size=30>Chapter 1: Debut! Light Carrier from the Land of the Rising Sun</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "她们是拥有人类之型，钢铁之躯的战斗少女 ",
+			say = "The shipgirls are warriors born from the will of humanity, given bodies of steel. ",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -47,7 +47,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "曾在那次大战中大显身手，如今以心智魔方的力量变成人形，",
+			say = "With the power of Wisdom Cubes, the spirits of vessels that fought during the Great War were given human forms.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "活跃在与全人类的敌人——塞壬的战斗之中",
+			say = "Now, they aid humanity against their greatest enemies - the Sirens!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "港区・仓库",
+			say = "Port - Warehouse",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -96,7 +96,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "灰头土脸的指挥官正拼命翻找着收在仓库深处的某个稀有装备。",
+			say = "The commander, face darkened with dust and grime, is digging through the back of the warehouse in search of rare equipment...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "咚！当！咣咣！",
+			say = "Clang! Bang! Ba-boom!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "……找东西的过程好像并不怎么顺利。",
+			say = "... but doesn't seem to be having much luck.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "面对着垒的如同小山一样高资源材料和装备，指挥官已经精疲力尽并且摇摇欲坠了。",
+			say = "Commander looked about ready to collapse underneath the mountain of materials and equipment.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
-			say = "……危险！",
+			say = "...Watch out!",
 			dialogShake = {
 				speed = 0.1,
 				x = 9.5,
@@ -153,7 +153,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "光芒一闪。从某处放出的式神劈开浑浊的空气，然后——",
+			say = "In a flash of light, talismans flew forth as if cutting through the thick, stagnant air of the warehouse. And then-",
 			flashN = {
 				color = {
 					1,
@@ -183,7 +183,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "在指挥官被砸中之前，式神便完美接住了从高处掉下的材料。",
+			say = "They swerved upward, catching the crate of materials that was about to fall onto the commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "???",
-			say = "天在呼唤！地在呼唤！人在呼唤！千钧一发需要帮助的主公也在呼唤！",
+			say = "The skies and the seas are crying for help! The people of this land are crying for help! And now, milord, you too are crying for help!",
 			effects = {
 				{
 					active = true,
@@ -213,7 +213,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "日出之国的武士，轻航母{namecode:90}，前来参见！",
+			say = "I am the ranger from the Land of the Rising Sun! Light cruiser, Ryuujou, moving out!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……的说！",
+			say = "... that is all!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "如同白昼一般的出场效果闪光。",
+			say = "She beamed with light, as if she was an anime character making her grand debut.",
 			flashN = {
 				color = {
 					1,
@@ -265,7 +265,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "（爆炸效果……果然还是算了吧）",
+			say = "(But what about the explosion special effects? ... Nevermind, let's forget about it)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,7 +277,7 @@ return {
 			dir = 1,
 			actor = 306061,
 			nameColor = "#a9f548",
-			say = "主公！您没事吗？吾也来帮忙！",
+			say = "Milord! Are you injured? I'm coming to help!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,7 +302,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "秘书舰{namecode:90}，今天也在努力保护指挥官！",
+			say = "As the secretary ship, I'm doing my best to protect you, Commander!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

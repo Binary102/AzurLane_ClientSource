@@ -18626,6 +18626,167 @@ pg.skill_data_template = {
 			}
 		}
 	},
+	[11750] = {
+		desc_get = "",
+		name = "Light Carrier Unit ",
+		desc = "$1 chance to activate when this ship launches an Airstrike: increases the Reload of all Light Carriers in the Main Fleet by $2 and decreases the DMG they receive by $2 for 8 seconds.",
+		type = 1,
+		max_level = 10,
+		id = 11750,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"40.0%",
+				"70.0%"
+			},
+			{
+				"5.0%",
+				"15.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"40.0%",
+					"+3.3%"
+				},
+				{
+					"43.3%",
+					"+3.3%"
+				},
+				{
+					"46.6%",
+					"+3.3%"
+				},
+				{
+					"49.9%",
+					"+3.3%"
+				},
+				{
+					"53.2%",
+					"+3.3%"
+				},
+				{
+					"56.5%",
+					"+3.3%"
+				},
+				{
+					"59.8%",
+					"+3.3%"
+				},
+				{
+					"63.1%",
+					"+3.3%"
+				},
+				{
+					"66.4%",
+					"+3.6%"
+				},
+				{
+					"70.0%"
+				}
+			},
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			}
+		}
+	},
+	[11760] = {
+		desc_get = "",
+		name = "Raid Signal ",
+		desc = "5 seconds after this ship has finished loading its Airstrike: launches an additional attack with a bomber squadron ($1). This skill can only activate a maximum of two times per battle.",
+		type = 1,
+		max_level = 10,
+		id = 11760,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"Lv.1",
+					"+1"
+				},
+				{
+					"Lv.2",
+					"+1"
+				},
+				{
+					"Lv.3",
+					"+1"
+				},
+				{
+					"Lv.4",
+					"+1"
+				},
+				{
+					"Lv.5",
+					"+1"
+				},
+				{
+					"Lv.6",
+					"+1"
+				},
+				{
+					"Lv.7",
+					"+1"
+				},
+				{
+					"Lv.8",
+					"+1"
+				},
+				{
+					"Lv.9",
+					"+1"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
 	[11780] = {
 		desc_get = "",
 		name = "Ageless Phoenix ",
@@ -24227,6 +24388,8 @@ pg.skill_data_template = {
 		11720,
 		11730,
 		11740,
+		11750,
+		11760,
 		11780,
 		11790,
 		11800,

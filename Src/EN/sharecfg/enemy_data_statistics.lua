@@ -16231,7 +16231,7 @@ pg.enemy_data_statistics = {
 	},
 	[235] = {
 		cannon = 0,
-		name = "Ryujo",
+		name = "Ryuujou",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,

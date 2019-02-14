@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"春天的赏樱大会\n\n<size=30>四  宴会开幕</size>",
+					"Flower Festival\n\n<size=30>Chapter 4 - The Banquet Begins</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			bgm = "story-1",
 			actor = 306034,
 			nameColor = "#a9f548",
-			say = "那么～赏樱大会～开始咯～",
+			say = "Now then, let the Flower Festival begin!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -40,8 +40,8 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			actor = 0,
-			actorName = "众人",
-			say = "噢！！",
+			actorName = "Everyone",
+			say = "Woohoo!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			bgName = "bg_story_school",
 			side = 2,
 			dir = 1,
-			say = "呵呵，这边准备了非常多的料理哟，尽情享受吧～",
+			say = "We prepared a whole banquet worth of food, so dig in and enjoy yourselves~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			dir = 1,
 			actor = 307064,
 			nameColor = "#a9f548",
-			say = "{namecode:95}姐～这个天妇罗好好吃～",
+			say = "Mmm! Sis, you have to try this tempura, it's amazing!",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -101,7 +101,7 @@ return {
 			}
 		},
 		{
-			say = "是是…——",
+			say = "I'm sure it is...",
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -126,7 +126,7 @@ return {
 			dir = -1,
 			actor = 301114,
 			nameColor = "#a9f548",
-			say = "原来如此！大家聚在一起大吃大喝就是所谓的“赏樱大会”啊！",
+			say = "I see! So this \"Flower Festival\" thing is all about stuffing your face with food!",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -154,7 +154,7 @@ return {
 			}
 		},
 		{
-			say = "我想应该不是这样的…",
+			say = "I'm pretty sure it isn't...",
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -179,7 +179,7 @@ return {
 			bgName = "bg_story_school",
 			side = 0,
 			dir = -1,
-			say = "呒…菠萝包，好吃…",
+			say = "Hum, hum... I've never had melon bread this good before...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			bgName = "bg_story_school",
 			side = 1,
 			dir = 1,
-			say = "哈欠～天气好得让人想要睡一觉了呢…",
+			say = "Ahh, what a perfectly sunny day... Perfect for a nap, too...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			bgName = "bg_story_school",
 			side = 1,
 			dir = 1,
-			say = "话说{namecode:11}呢？怎么没跟你们一起来",
+			say = "Hey, wait, where's Akatsuki? Wasn't she coming with you, Ikazuchi?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 			bgName = "bg_story_school",
 			side = 0,
 			dir = 1,
-			say = "{namecode:11}姐姐…留下了“我去买点赏樱时可以吃的零食”的字条就出门了（远目",
+			say = "She left a note saying she had embarked on a journey to \"find the perfect snack to eat at the Flower Festival\"...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,7 +243,7 @@ return {
 			bgName = "bg_story_school",
 			side = 1,
 			dir = 1,
-			say = "那大约…是三天前的事情了（远目",
+			say = "Uhh... didn't she leave that note like 3 days ago...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,8 +260,8 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			actor = 0,
-			actorName = "众人",
-			say = "……",
+			actorName = "Everyone",
+			say = "...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

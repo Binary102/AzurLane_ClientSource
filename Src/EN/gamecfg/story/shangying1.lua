@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"春天的赏樱大会\n\n<size=30>一  春日和</size>",
+					"Flower Festival\n\n<size=30>Chapter 1 - Spring Springs Forth</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			bgm = "story-1",
 			actor = 307031,
 			nameColor = "#a9f548",
-			say = "呼…不知不觉，天气开始转暖了呢",
+			say = "*Whew*... It feels like it's gotten hot much earlier than last year...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -39,7 +39,7 @@ return {
 			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
-			say = "是的呢，毕竟也差不多是春天了",
+			say = "It certainly does! Soon it will be spring.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
-			say = "时间过得真快啊…",
+			say = "The seasons go by quick...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
-			say = "是的呢，来，喝杯茶吧",
+			say = "They certainly do! Would you like a cup of tea?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
-			say = "噢，谢谢…——呜哇！凤、{namecode:89}！？什么时候开始在这里的…",
+			say = "Yes, please... Wait, Houshou?! How long have you been here...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,7 +98,7 @@ return {
 			}
 		},
 		{
-			say = "哇！{namecode:89}手脚这么快啊！",
+			say = "This is where you went, Houshou?! You must've mastered the art of masking your presence!",
 			side = 0,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -123,7 +123,7 @@ return {
 			bgName = "bg_story_room",
 			side = 0,
 			dir = 1,
-			say = "刚在准备泡茶的时候遇到了{namecode:89}，就请她帮了点忙",
+			say = "Ah, sis, Houshou here gave me a hand with making this tea just earlier!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			bgName = "bg_story_room",
 			side = 1,
 			dir = 1,
-			say = "原、原来如此…",
+			say = "I see, so she was helping you... Thanks, Houshou.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			bgName = "bg_story_room",
 			side = 0,
 			dir = 1,
-			say = "呵呵…一点小事～",
+			say = "There's no need to thank me, I'm just glad to help~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			bgName = "bg_story_room",
 			side = 1,
 			dir = 1,
-			say = "不过春天啊…樱花也差不多要开了呢",
+			say = "Oh yeah, since spring is around the corner, the cherry trees should start blooming soon...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			bgName = "bg_story_room",
 			side = 0,
 			dir = 1,
-			say = "（微笑）",
+			say = "It's that time of year...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,7 +203,7 @@ return {
 			bgName = "bg_story_room",
 			side = 0,
 			dir = 1,
-			say = "那就…来开宴会吧～",
+			say = "Then why don't we have a Flower Festival so we can watch them bloom together?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +219,7 @@ return {
 			bgName = "bg_story_room",
 			side = 0,
 			dir = 1,
-			say = "说到春天就是赏樱大会了吧～",
+			say = "Nothing embodies the beauty of spring better than the blooming cherry tree, after all~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			bgName = "bg_story_room",
 			side = 0,
 			dir = 1,
-			say = "哦哦！来开吧来开吧！",
+			say = "That sounds like a great idea! I think we should do it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,7 +251,7 @@ return {
 			bgName = "bg_story_room",
 			side = 1,
 			dir = 1,
-			say = "…倒是个好主意，不过你们还真有热情呢…",
+			say = "I mean, sure, but... why does the idea of a Flower Festival excite you so much, Hiryuu?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,7 +267,7 @@ return {
 			bgName = "bg_story_room",
 			side = 0,
 			dir = 1,
-			say = "这就是所谓的“女子会”吗？好嘞！",
+			say = "Why? Because a Flower Festival is a festival for girls! I just have to attend it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +283,7 @@ return {
 			bgName = "bg_story_room",
 			side = 1,
 			dir = 1,
-			say = "不，我想应该不是你想的那种…",
+			say = "Um... it's not exactly a girls-only festival, though...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +299,7 @@ return {
 			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
-			say = "准备就交给我吧～",
+			say = "If you're in favor of it, then let's do it! Please, allow me to make all the necessary preparations~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

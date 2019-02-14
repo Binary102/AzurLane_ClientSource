@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"春天的赏樱大会\n\n<size=30>七  两个人的后夜祭</size>",
+					"Flower Festival\n\n<size=30>Chapter 7 - Private Time</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			bgm = "story-2",
 			actor = 306034,
 			nameColor = "#a9f548",
-			say = "呼…虽然宴会本身让人开心，但宴会结束后的静寂，总是让人觉得有点落寞呢…",
+			say = "The banquet was wonderful, but I felt rather lonely when it had ended and everyone went home...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -39,7 +39,7 @@ return {
 			bgName = "bg_night",
 			side = 2,
 			dir = 1,
-			say = "哎呀？指挥官老爷？您怎么在这里，还以为您早就休息了呢",
+			say = "Oh, is that you, Commander? I thought you had already gone to sleep...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			bgName = "bg_night",
 			side = 2,
 			dir = 1,
-			say = "难道是想要和我赏会夜樱～？",
+			say = "Would you like to... see the moonlit cherry trees, together with me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			dir = 1,
 			actor = 0,
 			nameColor = "#a9f548",
-			say = "…（点头）",
+			say = "(Nod)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			bgName = "bg_night",
 			side = 2,
 			dir = 1,
-			say = "呵呵…既然如此，那请您稍等，让我做点准备",
+			say = "Ahaha... I see. Then please wait a moment while I get ready.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			dir = 1,
 			actor = 900018,
 			nameColor = "#a9f548",
-			say = "「老爷，今夜能有幸与您共赏繁星吗？」",
+			say = "Oh, my beloved, please allow me to accompany you to see the cherry trees tonight.",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -138,7 +138,7 @@ return {
 			dir = 1,
 			actor = 0,
 			nameColor = "#a9f548",
-			say = "！！！",
+			say = "(Gulp!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 			bgName = "bg_night",
 			side = 2,
 			dir = 1,
-			say = "如何，心动了吗？指挥官老爷？",
+			say = "Do you like my look? ...Does it excite you, Commander?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			dir = 1,
 			actor = 0,
 			nameColor = "#a9f548",
-			say = "！！",
+			say = "!!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			bgName = "bg_night",
 			side = 2,
 			dir = 1,
-			say = "呵呵，有您的赞赏，{namecode:89}就已经觉得满足了呢",
+			say = "It is an honor to be admired by you, Commander...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,7 +203,7 @@ return {
 			bgName = "bg_night",
 			side = 2,
 			dir = 1,
-			say = "那么，月见酒…就着美好的夜色与樱花干杯吧，老爷～？",
+			say = "Now then, why don't we enjoy a drink beneath the moonlit cherry trees... my beloved?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

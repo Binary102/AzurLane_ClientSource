@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"轻型航母{namecode:90}参上！\n\n<size=30>二 特训！拼尽全力即是重樱之约</size>",
+					"Light Carrier Ryuujou, Moving Out!\n\n<size=30>Chapter 2: Training! Hard work is the tenet of the Sakura Empire!</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "battle-1",
-			say = "港区・演习海域",
+			say = "Port - Training Grounds",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -51,7 +51,7 @@ return {
 			dir = 1,
 			actor = 306051,
 			nameColor = "#a9f548",
-			say = "啊……不行了……咱的手腕已经提不起来了……",
+			say = "Phew... I'm totally beat... I can't even lift my arms anymore...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			dir = 1,
 			actor = 307041,
 			nameColor = "#a9f548",
-			say = "哈……哈……再这样下去貌似真不行了……",
+			say = "Haah... haah... I don't think... I can keep going...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "还不够。重樱的空母只是这种程度就被累倒可不行。",
+			say = "We're not done yet. Is this the best that the carriers of the Sakura Fleet can do?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			dir = 1,
 			actor = 307061,
 			nameColor = "#a9f548",
-			say = "前辈们，比往常都要严厉啊……啊{namecode:95}姐！吐槽什么的之后再说！",
+			say = "Our seniors are being more strict than usual, eh... Ah, wait, Shoukaku! Wait until afterwards to complain!",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -152,7 +152,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "真是的，我明明还什么都没说啊……",
+			say = "Jeez, I didn't even say anything yet...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "总，总之，吾们已经快要累死了，今天就放过吾们吧……",
+			say = "A-anyway, since we're all worn out and stuff, cut me some slack...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "果然这种强度还是太勉强了吗？那么今天就到这……",
+			say = "So that's all you can handle, huh? Well then, let's call it a day...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +200,7 @@ return {
 			dir = 1,
 			actor = 306061,
 			nameColor = "#a9f548",
-			say = "我还可以继续！",
+			say = "I can still keep going!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +226,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哦，竟然还能动。真是了不起",
+			say = "Hmm, you can still move? Not bad.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,7 +243,7 @@ return {
 			dir = 1,
 			actor = 306061,
 			nameColor = "#a9f548",
-			say = "正如{namecode:92}之前所言！这种程度对重樱的空母来说根本就不算什么！",
+			say = "It's just as Kaga said before! This is nothing for a carrier of the Sakura Empire!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "战场上的哭求毫无用处！身为武人，万事皆须拼尽全力，的说！",
+			say = "Crying and begging are useless on the battlefield! True warriors must work hard and settle things with their skills!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +275,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼哼，不愧是原来的一航战，毅力果然惊人呢。{namecode:92}，继续训练",
+			say = "Hehe, as expected of the former First Carrier Division. Such inspirational perseverance! Kaga, let's continue training!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			}
 		},
 		{
-			say = "但是……",
+			say = "But...",
 			side = 1,
 			bgName = "bg_story_nepu1",
 			dir = 1,
@@ -311,7 +311,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "过去曾与{namecode:89}和我们一起驰骋海上的小女孩，究竟能坚持到哪一步……就让我好好检验一下吧！",
+			say = "So, the little girl who followed Houshou and us around the seas thinks she has grown up... Well, let us see how much you've improved!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -327,7 +327,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "姐姐大人……我知道了",
+			say = "Understood.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -344,7 +344,7 @@ return {
 			dir = 1,
 			actor = 306061,
 			nameColor = "#a9f548",
-			say = "那么！大家也再加把劲！努力加用功，拿出战斗精神上吧！",
+			say = "Well then! Everyone, let's keep at it! Let's muster our fighting spirits and work harder!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -355,14 +355,14 @@ return {
 			}
 		},
 		{
-			actorName = "众人",
+			actorName = "Everyone",
 			side = 0,
 			bgName = "bg_story_nepu1",
 			hideOther = true,
 			dir = 1,
 			actor = 307061,
 			nameColor = "#a9f548",
-			say = "诶——！",
+			say = "Whaaaat....?!",
 			dialogShake = {
 				speed = 0.1,
 				x = 9.5,
@@ -396,7 +396,7 @@ return {
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			blackBg = true,
-			say = "结果，训练强度变成了原定的两倍",
+			say = "In the end, everyone got a double dose of training.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -11,7 +11,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = -1,
-			say = "机场方面已经传来空袭警报，看起来{namecode:90}直接发动攻击了。萨拉，怎么说？",
+			say = "We've received warnings of incoming airstrikes from the air base. This must be Ryuujou's attack squadron. Sara, what should we do?",
 			bgm = "level",
 			typewriter = {
 				speed = 0.05,
@@ -27,7 +27,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
-			say = "不要慌～机场的防空火力应该能撑住一段时间，而且我刚才派出的那一波战斗机队应该足够应付了",
+			say = "There's no use panicking~ The base's anti-air defenses should be able to hold them at bay. My fighters should be more than enough to clean up.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -46,7 +46,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "现在更要紧的应该是尽快用侦察机找到{namecode:95}和{namecode:96}的位置呢……她们一定就在附近的海域",
+			say = "More importantly, we must focus on locating Shoukaku and Zuikaku with our recon planes... They must be nearby.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "也是……这么直接的攻击，吸引注意的意图很明显了。啧，跟珊瑚海那时如出一辙呢……",
+			say = "You have a point.... Such a direct attack like this makes me think that this is a decoy. Surely... it's not a repeat of that time at the Coral Sea...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "谁知道呢，说不定和之前我们的撤离一样，人家也是迫于上头的命令……",
+			say = "Who knows? Maybe they ended up in the same situation as we were in, and were commanded to retreat...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "嗯…不过不得不说，这一招相当有效啊",
+			say = "Hmm... I suppose there's no point speculating. But this strategy is undeniably effective.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "这座岛是我们必须守住的地方，我们不能任由{namecode:90}随意轰炸……",
+			say = "We have no choice but to defend this island. We can't let them bomb us freely...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "但是如果把火力都集中到{namecode:90}那里，我们两个就很危险了…而一旦我们倒下，机场也就等于失守……",
+			say = "But if we overcommit to staving off the airstrikes, we will be vulnerable to attack... And if we are to fall, the entire island will follow suit.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "所以说，我们的相互协作就很重要了呢……",
+			say = "So, we've got to work together to get out of this...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过，在中途岛损失了那么多航母，竟然还敢以航母为诱饵",
+			say = "However, considering how many carriers they lost at Midway, they'd use another one as bait?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "该说是胆大还是什么呢……我都有些想夸奖她们了。",
+			say = "I'm not sure whether to commend their bravery or their stupidity...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,7 +181,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "不过我们也没有那么好骗…——嗯？",
+			say = "They're trying to catch us off guard, but we won't be had so easily... Wait, what's that?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +196,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "果然来了吗，{namecode:95}和{namecode:96}的攻击队……",
+			say = "So they're here. Zuikaku and Shoukaku's air group...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呼……没办法，先撑过这一波吧！",
+			say = "We have no choice... let's get through this!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

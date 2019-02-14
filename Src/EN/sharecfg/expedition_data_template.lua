@@ -42500,11 +42500,11 @@ pg.expedition_data_template = {
 			},
 			{
 				2,
-				54021
+				59900
 			},
 			{
 				2,
-				59001
+				54021
 			},
 			{
 				2,
@@ -43203,11 +43203,11 @@ pg.expedition_data_template = {
 			},
 			{
 				2,
-				54021
+				59900
 			},
 			{
 				2,
-				59001
+				54021
 			},
 			{
 				2,
@@ -43988,11 +43988,11 @@ pg.expedition_data_template = {
 			},
 			{
 				2,
-				54021
+				59900
 			},
 			{
 				2,
-				59001
+				54021
 			},
 			{
 				2,
@@ -45243,11 +45243,11 @@ pg.expedition_data_template = {
 			},
 			{
 				2,
-				54021
+				59900
 			},
 			{
 				2,
-				54011
+				54021
 			}
 		}
 	},
@@ -47082,11 +47082,11 @@ pg.expedition_data_template = {
 			},
 			{
 				2,
-				54022
+				59900
 			},
 			{
 				2,
-				54011
+				54022
 			}
 		}
 	},
@@ -48921,11 +48921,11 @@ pg.expedition_data_template = {
 			},
 			{
 				2,
-				54022
+				59900
 			},
 			{
 				2,
-				54011
+				54022
 			}
 		}
 	},
@@ -50760,11 +50760,11 @@ pg.expedition_data_template = {
 			},
 			{
 				2,
-				54022
+				59900
 			},
 			{
 				2,
-				54011
+				54022
 			}
 		}
 	},
@@ -52599,11 +52599,11 @@ pg.expedition_data_template = {
 			},
 			{
 				2,
-				54022
+				59900
 			},
 			{
 				2,
-				54011
+				54022
 			}
 		}
 	},
@@ -54487,11 +54487,11 @@ pg.expedition_data_template = {
 			},
 			{
 				2,
-				54022
+				59900
 			},
 			{
 				2,
-				54012
+				54022
 			}
 		}
 	},
@@ -56375,11 +56375,11 @@ pg.expedition_data_template = {
 			},
 			{
 				2,
-				54022
+				59900
 			},
 			{
 				2,
-				54012
+				54022
 			}
 		}
 	},
@@ -58263,11 +58263,11 @@ pg.expedition_data_template = {
 			},
 			{
 				2,
-				54022
+				59900
 			},
 			{
 				2,
-				54012
+				54022
 			}
 		}
 	},
@@ -60151,11 +60151,11 @@ pg.expedition_data_template = {
 			},
 			{
 				2,
-				54022
+				59900
 			},
 			{
 				2,
-				54012
+				54022
 			}
 		}
 	},
@@ -60911,11 +60911,11 @@ pg.expedition_data_template = {
 			},
 			{
 				2,
-				54023
+				59900
 			},
 			{
 				2,
-				54012
+				54023
 			}
 		}
 	},
@@ -61671,11 +61671,11 @@ pg.expedition_data_template = {
 			},
 			{
 				2,
-				54023
+				59900
 			},
 			{
 				2,
-				54012
+				54023
 			}
 		}
 	},
@@ -62431,11 +62431,11 @@ pg.expedition_data_template = {
 			},
 			{
 				2,
-				54023
+				59900
 			},
 			{
 				2,
-				54012
+				54023
 			}
 		}
 	},
@@ -63191,11 +63191,11 @@ pg.expedition_data_template = {
 			},
 			{
 				2,
-				54023
+				59900
 			},
 			{
 				2,
-				54012
+				54023
 			}
 		}
 	},
@@ -63951,11 +63951,11 @@ pg.expedition_data_template = {
 			},
 			{
 				2,
-				54023
+				59900
 			},
 			{
 				2,
-				54012
+				54023
 			}
 		}
 	},
@@ -64711,11 +64711,11 @@ pg.expedition_data_template = {
 			},
 			{
 				2,
-				54023
+				59900
 			},
 			{
 				2,
-				54012
+				54023
 			}
 		}
 	},
@@ -65471,11 +65471,11 @@ pg.expedition_data_template = {
 			},
 			{
 				2,
-				54023
+				59900
 			},
 			{
 				2,
-				54012
+				54023
 			}
 		}
 	},
@@ -66231,11 +66231,11 @@ pg.expedition_data_template = {
 			},
 			{
 				2,
-				54023
+				59900
 			},
 			{
 				2,
-				54012
+				54023
 			}
 		}
 	},
@@ -66991,11 +66991,11 @@ pg.expedition_data_template = {
 			},
 			{
 				2,
-				54024
+				59900
 			},
 			{
 				2,
-				54013
+				54024
 			}
 		}
 	},
@@ -67751,11 +67751,11 @@ pg.expedition_data_template = {
 			},
 			{
 				2,
-				54024
+				59900
 			},
 			{
 				2,
-				54013
+				54024
 			}
 		}
 	},
@@ -68511,11 +68511,11 @@ pg.expedition_data_template = {
 			},
 			{
 				2,
-				54024
+				59900
 			},
 			{
 				2,
-				54013
+				54024
 			}
 		}
 	},
@@ -69271,11 +69271,11 @@ pg.expedition_data_template = {
 			},
 			{
 				2,
-				54024
+				59900
 			},
 			{
 				2,
-				54013
+				54024
 			}
 		}
 	},
@@ -106532,6 +106532,1845 @@ pg.expedition_data_template = {
 		scale = 100,
 		award_display = {}
 	},
+	[1170001] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 1,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Small Reconnaissance Fleet",
+		exp_commander = 0,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1170001,
+		icon = "qz1",
+		difficulty = 1,
+		level = 24,
+		exp = 120,
+		limit_type = 1,
+		extraenemy_difficulty = 0,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 10005,
+		bonus_time = 0,
+		plot_type = 0,
+		id = 1170001,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57494
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17022
+			},
+			{
+				2,
+				17032
+			}
+		}
+	},
+	[1170002] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 2,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Medium Reconnaissance Fleet",
+		exp_commander = 0,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1170002,
+		icon = "qz1",
+		difficulty = 1,
+		level = 26,
+		exp = 143,
+		limit_type = 1,
+		extraenemy_difficulty = 0,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 10005,
+		bonus_time = 0,
+		plot_type = 0,
+		id = 1170002,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57494
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17022
+			},
+			{
+				2,
+				17032
+			}
+		}
+	},
+	[1170003] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 3,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Large Reconnaissance Fleet",
+		exp_commander = 0,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1170003,
+		icon = "qz1",
+		difficulty = 1,
+		level = 28,
+		exp = 168,
+		limit_type = 1,
+		extraenemy_difficulty = 0,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 10005,
+		bonus_time = 0,
+		plot_type = 0,
+		id = 1170003,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57494
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17022
+			},
+			{
+				2,
+				17032
+			}
+		}
+	},
+	[1170004] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 4,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Small Main Fleet",
+		exp_commander = 0,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1170004,
+		icon = "zl1",
+		difficulty = 1,
+		level = 24,
+		exp = 120,
+		limit_type = 1,
+		extraenemy_difficulty = 0,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 10005,
+		bonus_time = 0,
+		plot_type = 0,
+		id = 1170004,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57494
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17012
+			},
+			{
+				2,
+				17032
+			}
+		}
+	},
+	[1170005] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 5,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Medium Main Fleet",
+		exp_commander = 0,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1170005,
+		icon = "zl1",
+		difficulty = 1,
+		level = 26,
+		exp = 143,
+		limit_type = 1,
+		extraenemy_difficulty = 0,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 10005,
+		bonus_time = 0,
+		plot_type = 0,
+		id = 1170005,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57494
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17012
+			},
+			{
+				2,
+				17032
+			}
+		}
+	},
+	[1170006] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 6,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Large Main Fleet",
+		exp_commander = 0,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1170006,
+		icon = "zl1",
+		difficulty = 1,
+		level = 28,
+		exp = 168,
+		limit_type = 1,
+		extraenemy_difficulty = 0,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 10005,
+		bonus_time = 0,
+		plot_type = 0,
+		id = 1170006,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57494
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17012
+			},
+			{
+				2,
+				17032
+			}
+		}
+	},
+	[1170007] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 7,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Small Aviation Fleet",
+		exp_commander = 0,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1170007,
+		icon = "hm1",
+		difficulty = 1,
+		level = 24,
+		exp = 120,
+		limit_type = 1,
+		extraenemy_difficulty = 0,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 10005,
+		bonus_time = 0,
+		plot_type = 0,
+		id = 1170007,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57494
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17042
+			},
+			{
+				2,
+				17032
+			}
+		}
+	},
+	[1170008] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 8,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Medium Aviation Fleet",
+		exp_commander = 0,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1170008,
+		icon = "hm1",
+		difficulty = 1,
+		level = 26,
+		exp = 143,
+		limit_type = 1,
+		extraenemy_difficulty = 0,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 10005,
+		bonus_time = 0,
+		plot_type = 0,
+		id = 1170008,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57494
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17042
+			},
+			{
+				2,
+				17032
+			}
+		}
+	},
+	[1170009] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 9,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Large Aviation Fleet",
+		exp_commander = 0,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1170009,
+		icon = "hm1",
+		difficulty = 1,
+		level = 28,
+		exp = 168,
+		limit_type = 1,
+		extraenemy_difficulty = 0,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 10005,
+		bonus_time = 0,
+		plot_type = 0,
+		id = 1170009,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57494
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17042
+			},
+			{
+				2,
+				17032
+			}
+		}
+	},
+	[1170010] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 10,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Small Cargo Fleet",
+		exp_commander = 0,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1170010,
+		icon = "ys1",
+		difficulty = 1,
+		level = 24,
+		exp = 120,
+		limit_type = 1,
+		extraenemy_difficulty = 0,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 10005,
+		bonus_time = 0,
+		plot_type = 0,
+		id = 1170010,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54012
+			}
+		}
+	},
+	[1170011] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 11,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Medium Cargo Fleet",
+		exp_commander = 0,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1170011,
+		icon = "ys1",
+		difficulty = 1,
+		level = 26,
+		exp = 143,
+		limit_type = 1,
+		extraenemy_difficulty = 0,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 10005,
+		bonus_time = 0,
+		plot_type = 0,
+		id = 1170011,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54012
+			}
+		}
+	},
+	[1170012] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 12,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Large Cargo Fleet",
+		exp_commander = 0,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1170012,
+		icon = "ys1",
+		difficulty = 1,
+		level = 28,
+		exp = 168,
+		limit_type = 1,
+		extraenemy_difficulty = 0,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 10005,
+		bonus_time = 0,
+		plot_type = 0,
+		id = 1170012,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54012
+			}
+		}
+	},
+	[1170101] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Enemy Flagship",
+		exp_commander = 0,
+		activity_id = 0,
+		exp_commander_ratio = 50,
+		time_limit = 120,
+		dungeon_id = 1170101,
+		icon = "bossicon",
+		difficulty = 1,
+		level = 30,
+		exp = 217,
+		limit_type = 1,
+		extraenemy_difficulty = 0,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 10005,
+		bonus_time = 0,
+		plot_type = 0,
+		id = 1170101,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57491
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59119
+			},
+			{
+				2,
+				54015
+			}
+		}
+	},
+	[1170021] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 1,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Small Reconnaissance Fleet",
+		exp_commander = 0,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1170021,
+		icon = "qz1",
+		difficulty = 1,
+		level = 38,
+		exp = 190,
+		limit_type = 1,
+		extraenemy_difficulty = 0,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 10005,
+		bonus_time = 0,
+		plot_type = 0,
+		id = 1170021,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57495
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17022
+			},
+			{
+				2,
+				17032
+			}
+		}
+	},
+	[1170022] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 2,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Medium Reconnaissance Fleet",
+		exp_commander = 0,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1170022,
+		icon = "qz1",
+		difficulty = 1,
+		level = 42,
+		exp = 231,
+		limit_type = 1,
+		extraenemy_difficulty = 0,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 10005,
+		bonus_time = 0,
+		plot_type = 0,
+		id = 1170022,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57495
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17022
+			},
+			{
+				2,
+				17032
+			}
+		}
+	},
+	[1170023] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 3,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Large Reconnaissance Fleet",
+		exp_commander = 0,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1170023,
+		icon = "qz1",
+		difficulty = 1,
+		level = 46,
+		exp = 276,
+		limit_type = 1,
+		extraenemy_difficulty = 0,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 10005,
+		bonus_time = 0,
+		plot_type = 0,
+		id = 1170023,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57495
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17022
+			},
+			{
+				2,
+				17032
+			}
+		}
+	},
+	[1170024] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 4,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Small Main Fleet",
+		exp_commander = 0,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1170024,
+		icon = "zl1",
+		difficulty = 1,
+		level = 38,
+		exp = 190,
+		limit_type = 1,
+		extraenemy_difficulty = 0,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 10005,
+		bonus_time = 0,
+		plot_type = 0,
+		id = 1170024,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57495
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17012
+			},
+			{
+				2,
+				17032
+			}
+		}
+	},
+	[1170025] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 5,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Medium Main Fleet",
+		exp_commander = 0,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1170025,
+		icon = "zl1",
+		difficulty = 1,
+		level = 42,
+		exp = 231,
+		limit_type = 1,
+		extraenemy_difficulty = 0,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 10005,
+		bonus_time = 0,
+		plot_type = 0,
+		id = 1170025,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57495
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17012
+			},
+			{
+				2,
+				17032
+			}
+		}
+	},
+	[1170026] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 6,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Large Main Fleet",
+		exp_commander = 0,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1170026,
+		icon = "zl1",
+		difficulty = 1,
+		level = 46,
+		exp = 276,
+		limit_type = 1,
+		extraenemy_difficulty = 0,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 10005,
+		bonus_time = 0,
+		plot_type = 0,
+		id = 1170026,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57495
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17012
+			},
+			{
+				2,
+				17032
+			}
+		}
+	},
+	[1170027] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 7,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Small Aviation Fleet",
+		exp_commander = 0,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1170027,
+		icon = "hm1",
+		difficulty = 1,
+		level = 38,
+		exp = 190,
+		limit_type = 1,
+		extraenemy_difficulty = 0,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 10005,
+		bonus_time = 0,
+		plot_type = 0,
+		id = 1170027,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57495
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17042
+			},
+			{
+				2,
+				17032
+			}
+		}
+	},
+	[1170028] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 8,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Medium Aviation Fleet",
+		exp_commander = 0,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1170028,
+		icon = "hm1",
+		difficulty = 1,
+		level = 42,
+		exp = 231,
+		limit_type = 1,
+		extraenemy_difficulty = 0,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 10005,
+		bonus_time = 0,
+		plot_type = 0,
+		id = 1170028,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57495
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17042
+			},
+			{
+				2,
+				17032
+			}
+		}
+	},
+	[1170029] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 9,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Large Aviation Fleet",
+		exp_commander = 0,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1170029,
+		icon = "hm1",
+		difficulty = 1,
+		level = 46,
+		exp = 276,
+		limit_type = 1,
+		extraenemy_difficulty = 0,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 10005,
+		bonus_time = 0,
+		plot_type = 0,
+		id = 1170029,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57495
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17042
+			},
+			{
+				2,
+				17032
+			}
+		}
+	},
+	[1170030] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 10,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Small Cargo Fleet",
+		exp_commander = 0,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1170030,
+		icon = "ys1",
+		difficulty = 1,
+		level = 38,
+		exp = 190,
+		limit_type = 1,
+		extraenemy_difficulty = 0,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 10005,
+		bonus_time = 0,
+		plot_type = 0,
+		id = 1170030,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54012
+			}
+		}
+	},
+	[1170031] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 11,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Medium Cargo Fleet",
+		exp_commander = 0,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1170031,
+		icon = "ys1",
+		difficulty = 1,
+		level = 42,
+		exp = 231,
+		limit_type = 1,
+		extraenemy_difficulty = 0,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 10005,
+		bonus_time = 0,
+		plot_type = 0,
+		id = 1170031,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54012
+			}
+		}
+	},
+	[1170032] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 12,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Large Cargo Fleet",
+		exp_commander = 0,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1170032,
+		icon = "ys1",
+		difficulty = 1,
+		level = 46,
+		exp = 276,
+		limit_type = 1,
+		extraenemy_difficulty = 0,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 10005,
+		bonus_time = 0,
+		plot_type = 0,
+		id = 1170032,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54012
+			}
+		}
+	},
+	[1170102] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Enemy Flagship",
+		exp_commander = 0,
+		activity_id = 0,
+		exp_commander_ratio = 50,
+		time_limit = 120,
+		dungeon_id = 1170102,
+		icon = "bossicon",
+		difficulty = 1,
+		level = 50,
+		exp = 362,
+		limit_type = 1,
+		extraenemy_difficulty = 0,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 10005,
+		bonus_time = 0,
+		plot_type = 0,
+		id = 1170102,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57492
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59119
+			},
+			{
+				2,
+				54015
+			}
+		}
+	},
+	[1170041] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 1,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Small Reconnaissance Fleet",
+		exp_commander = 0,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1170041,
+		icon = "qz1",
+		difficulty = 1,
+		level = 68,
+		exp = 340,
+		limit_type = 1,
+		extraenemy_difficulty = 0,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 10005,
+		bonus_time = 0,
+		plot_type = 0,
+		id = 1170041,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57496
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17023
+			},
+			{
+				2,
+				17033
+			}
+		}
+	},
+	[1170042] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 2,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Medium Reconnaissance Fleet",
+		exp_commander = 0,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1170042,
+		icon = "qz1",
+		difficulty = 1,
+		level = 72,
+		exp = 396,
+		limit_type = 1,
+		extraenemy_difficulty = 0,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 10005,
+		bonus_time = 0,
+		plot_type = 0,
+		id = 1170042,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57496
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17023
+			},
+			{
+				2,
+				17033
+			}
+		}
+	},
+	[1170043] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 3,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Large Reconnaissance Fleet",
+		exp_commander = 0,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1170043,
+		icon = "qz1",
+		difficulty = 1,
+		level = 76,
+		exp = 456,
+		limit_type = 1,
+		extraenemy_difficulty = 0,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 10005,
+		bonus_time = 0,
+		plot_type = 0,
+		id = 1170043,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57496
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17023
+			},
+			{
+				2,
+				17033
+			}
+		}
+	},
+	[1170044] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 4,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Small Main Fleet",
+		exp_commander = 0,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1170044,
+		icon = "zl1",
+		difficulty = 1,
+		level = 68,
+		exp = 340,
+		limit_type = 1,
+		extraenemy_difficulty = 0,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 10005,
+		bonus_time = 0,
+		plot_type = 0,
+		id = 1170044,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57496
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17013
+			},
+			{
+				2,
+				17033
+			}
+		}
+	},
+	[1170045] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 5,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Medium Main Fleet",
+		exp_commander = 0,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1170045,
+		icon = "zl1",
+		difficulty = 1,
+		level = 72,
+		exp = 396,
+		limit_type = 1,
+		extraenemy_difficulty = 0,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 10005,
+		bonus_time = 0,
+		plot_type = 0,
+		id = 1170045,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57496
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17013
+			},
+			{
+				2,
+				17033
+			}
+		}
+	},
+	[1170046] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 6,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Large Main Fleet",
+		exp_commander = 0,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1170046,
+		icon = "zl1",
+		difficulty = 1,
+		level = 76,
+		exp = 456,
+		limit_type = 1,
+		extraenemy_difficulty = 0,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 10005,
+		bonus_time = 0,
+		plot_type = 0,
+		id = 1170046,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57496
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17013
+			},
+			{
+				2,
+				17033
+			}
+		}
+	},
+	[1170047] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 7,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Small Aviation Fleet",
+		exp_commander = 0,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1170047,
+		icon = "hm1",
+		difficulty = 1,
+		level = 68,
+		exp = 340,
+		limit_type = 1,
+		extraenemy_difficulty = 0,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 10005,
+		bonus_time = 0,
+		plot_type = 0,
+		id = 1170047,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57496
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17043
+			},
+			{
+				2,
+				17033
+			}
+		}
+	},
+	[1170048] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 8,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Medium Aviation Fleet",
+		exp_commander = 0,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1170048,
+		icon = "hm1",
+		difficulty = 1,
+		level = 72,
+		exp = 396,
+		limit_type = 1,
+		extraenemy_difficulty = 0,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 10005,
+		bonus_time = 0,
+		plot_type = 0,
+		id = 1170048,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57496
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17043
+			},
+			{
+				2,
+				17033
+			}
+		}
+	},
+	[1170049] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 9,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Large Aviation Fleet",
+		exp_commander = 0,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1170049,
+		icon = "hm1",
+		difficulty = 1,
+		level = 76,
+		exp = 456,
+		limit_type = 1,
+		extraenemy_difficulty = 0,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 10005,
+		bonus_time = 0,
+		plot_type = 0,
+		id = 1170049,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57496
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17043
+			},
+			{
+				2,
+				17033
+			}
+		}
+	},
+	[1170050] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 10,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Small Cargo Fleet",
+		exp_commander = 0,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1170050,
+		icon = "ys1",
+		difficulty = 1,
+		level = 68,
+		exp = 340,
+		limit_type = 1,
+		extraenemy_difficulty = 0,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 10005,
+		bonus_time = 0,
+		plot_type = 0,
+		id = 1170050,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54013
+			}
+		}
+	},
+	[1170051] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 11,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Medium Cargo Fleet",
+		exp_commander = 0,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1170051,
+		icon = "ys1",
+		difficulty = 1,
+		level = 72,
+		exp = 396,
+		limit_type = 1,
+		extraenemy_difficulty = 0,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 10005,
+		bonus_time = 0,
+		plot_type = 0,
+		id = 1170051,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54013
+			}
+		}
+	},
+	[1170052] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 12,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Large Cargo Fleet",
+		exp_commander = 0,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1170052,
+		icon = "ys1",
+		difficulty = 1,
+		level = 76,
+		exp = 456,
+		limit_type = 1,
+		extraenemy_difficulty = 0,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 10005,
+		bonus_time = 0,
+		plot_type = 0,
+		id = 1170052,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54013
+			}
+		}
+	},
+	[1170103] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Enemy Flagship",
+		exp_commander = 0,
+		activity_id = 0,
+		exp_commander_ratio = 50,
+		time_limit = 120,
+		dungeon_id = 1170103,
+		icon = "bossicon",
+		difficulty = 1,
+		level = 80,
+		exp = 580,
+		limit_type = 1,
+		extraenemy_difficulty = 0,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 10005,
+		bonus_time = 0,
+		plot_type = 0,
+		id = 1170103,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57493
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59119
+			},
+			{
+				2,
+				54016
+			}
+		}
+	},
 	[1180001] = {
 		sink_limit = 1,
 		ai = 0,
@@ -117656,6 +119495,45 @@ pg.expedition_data_template = {
 		1085211,
 		1085212,
 		1085500,
+		1170001,
+		1170002,
+		1170003,
+		1170004,
+		1170005,
+		1170006,
+		1170007,
+		1170008,
+		1170009,
+		1170010,
+		1170011,
+		1170012,
+		1170101,
+		1170021,
+		1170022,
+		1170023,
+		1170024,
+		1170025,
+		1170026,
+		1170027,
+		1170028,
+		1170029,
+		1170030,
+		1170031,
+		1170032,
+		1170102,
+		1170041,
+		1170042,
+		1170043,
+		1170044,
+		1170045,
+		1170046,
+		1170047,
+		1170048,
+		1170049,
+		1170050,
+		1170051,
+		1170052,
+		1170103,
 		1180001,
 		1180002,
 		1180003,

@@ -7454,6 +7454,518 @@ pg.task_data_template = {
 			}
 		}
 	},
+	[5331] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5247,
+		type = 5,
+		name = "Chapter 1: Debut! Light Carrier from the Land of the Rising Sun",
+		count_inherit = 0,
+		desc = "Submit 3 \"Torpedo Tempura\"",
+		target_id_2 = "",
+		sub_type = 1000,
+		added_tip = 1,
+		story_icon = "longxiang",
+		award_choice = "",
+		level = 1,
+		next_task = "5332",
+		visibility = 1,
+		story_id = "LONGXIANG1",
+		target_id_for_client = 50003,
+		id = 5331,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "50003",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		},
+		scene = {
+			"BACKYARD"
+		}
+	},
+	[5332] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5248,
+		type = 5,
+		name = "Chapter 2: Training! Hard work is the tenet of the Sakura Empire!",
+		count_inherit = 0,
+		desc = "Enhance any ship 10 times. ",
+		target_id_2 = "",
+		sub_type = 34,
+		added_tip = 1,
+		story_icon = "longxiang",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5333",
+		visibility = 1,
+		story_id = "LONGXIANG2",
+		target_id_for_client = 0,
+		id = 5332,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5333] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5249,
+		type = 5,
+		name = "Chapter 3: Focus! Don't stop until you've reached your goal!",
+		count_inherit = 0,
+		desc = "Sortie a fleet with Ryuujou and obtain\n20 victories",
+		target_id_2 = "",
+		sub_type = 18,
+		added_tip = 1,
+		story_icon = "longxiang",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5334",
+		visibility = 1,
+		story_id = "LONGXIANG3",
+		target_id_for_client = 30606,
+		id = 5333,
+		target_num = 20,
+		fix_task = 0,
+		target_id = "30606",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5334] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5250,
+		type = 5,
+		name = "Chapter 4: Danger! A Girl's Mysterious Appeal!",
+		count_inherit = 0,
+		desc = "Complete 3 Daily Challenges with \nRyuujou in the fleet",
+		target_id_2 = "",
+		sub_type = 19,
+		added_tip = 1,
+		story_icon = "longxiang",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5335",
+		visibility = 1,
+		story_id = "LONGXIANG4",
+		target_id_for_client = 30606,
+		id = 5334,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "30606",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5335] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5251,
+		type = 5,
+		name = "Chapter 5: Worries! What's going on with me lately?",
+		count_inherit = 0,
+		desc = "Reach 100 affection with Concord",
+		target_id_2 = "",
+		sub_type = 1012,
+		added_tip = 1,
+		story_icon = "longxiang",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5336",
+		visibility = 1,
+		story_id = "LONGXIANG5",
+		target_id_for_client = 30606,
+		id = 5335,
+		target_num = 10000,
+		fix_task = 0,
+		target_id = "30606",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				5
+			},
+			{
+				2,
+				16002,
+				1
+			}
+		}
+	},
+	[5336] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5252,
+		type = 5,
+		name = "Chapter 6: Enemies! The identity of the legendary idol is...?!",
+		count_inherit = 0,
+		desc = "Fully limit Break Ryuujou",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 1,
+		story_icon = "longxiang",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5337",
+		visibility = 1,
+		story_id = "LONGXIANG6",
+		target_id_for_client = 306064,
+		id = 5336,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "306064",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18032,
+				1
+			}
+		}
+	},
+	[5337] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5253,
+		type = 5,
+		name = "Chapter 7: Bravery! Commander, I love you!",
+		count_inherit = 0,
+		desc = "Reach level 100 with Concord",
+		target_id_2 = "",
+		sub_type = 1013,
+		added_tip = 1,
+		story_icon = "longxiang",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "LONGXIANG7",
+		target_id_for_client = 30606,
+		id = 5337,
+		target_num = 100,
+		fix_task = 0,
+		target_id = "30606",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18032,
+				2
+			}
+		}
+	},
+	[5341] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5254,
+		type = 5,
+		name = "Secretary Ooshio",
+		count_inherit = 0,
+		desc = "Submit 3 \"Torpedo Tempura\"",
+		target_id_2 = "",
+		sub_type = 1000,
+		added_tip = 1,
+		story_icon = "dachao",
+		award_choice = "",
+		level = 1,
+		next_task = "5342",
+		visibility = 1,
+		story_id = "DACHAO1",
+		target_id_for_client = 50003,
+		id = 5341,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "50003",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		},
+		scene = {
+			"BACKYARD"
+		}
+	},
+	[5342] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5255,
+		type = 5,
+		name = "Do Ya Like Girls?",
+		count_inherit = 0,
+		desc = "Enhance any ship 10 times. ",
+		target_id_2 = "",
+		sub_type = 34,
+		added_tip = 1,
+		story_icon = "dachao",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5343",
+		visibility = 1,
+		story_id = "DACHAO2",
+		target_id_for_client = 0,
+		id = 5342,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5343] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5256,
+		type = 5,
+		name = "Fate or Miracle?",
+		count_inherit = 0,
+		desc = "Sortie a fleet with Ooshio and obtain\n20 victories",
+		target_id_2 = "",
+		sub_type = 18,
+		added_tip = 1,
+		story_icon = "dachao",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5344",
+		visibility = 1,
+		story_id = "DACHAO3",
+		target_id_for_client = 30164,
+		id = 5343,
+		target_num = 20,
+		fix_task = 0,
+		target_id = "30164",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5344] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5257,
+		type = 5,
+		name = "The Trusted Press Corps",
+		count_inherit = 0,
+		desc = "Complete 3 Daily Challenges with \nOoshio in the fleet",
+		target_id_2 = "",
+		sub_type = 19,
+		added_tip = 1,
+		story_icon = "dachao",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5345",
+		visibility = 1,
+		story_id = "DACHAO4",
+		target_id_for_client = 30164,
+		id = 5344,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "30164",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5345] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5258,
+		type = 5,
+		name = "Time for Overtime!",
+		count_inherit = 0,
+		desc = "Reach 100 affection with Ooshio",
+		target_id_2 = "",
+		sub_type = 1012,
+		added_tip = 1,
+		story_icon = "dachao",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5346",
+		visibility = 1,
+		story_id = "DACHAO5",
+		target_id_for_client = 30164,
+		id = 5345,
+		target_num = 10000,
+		fix_task = 0,
+		target_id = "30164",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				5
+			},
+			{
+				2,
+				16002,
+				1
+			}
+		}
+	},
+	[5346] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5259,
+		type = 5,
+		name = "Catgirl Tea Party",
+		count_inherit = 0,
+		desc = "Fully limit Break Ooshio",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 1,
+		story_icon = "dachao",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5347",
+		visibility = 1,
+		story_id = "DACHAO6",
+		target_id_for_client = 301644,
+		id = 5346,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "301644",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18002,
+				1
+			}
+		}
+	},
+	[5347] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5260,
+		type = 5,
+		name = "See Ya Next Time~",
+		count_inherit = 0,
+		desc = "Reach level 100 with Ooshio",
+		target_id_2 = "",
+		sub_type = 1013,
+		added_tip = 1,
+		story_icon = "dachao",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "DACHAO7",
+		target_id_for_client = 30164,
+		id = 5347,
+		target_num = 100,
+		fix_task = 0,
+		target_id = "30164",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18002,
+				2
+			}
+		}
+	},
 	[6001] = {
 		is_head = 0,
 		guild_coin_award = 0,
@@ -8410,6 +8922,234 @@ pg.task_data_template = {
 			{
 				3,
 				24040,
+				1
+			}
+		}
+	},
+	[10031] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8071,
+		type = 6,
+		name = "Valentine Skin 1",
+		count_inherit = 0,
+		desc = "Build 1 ship",
+		target_id_2 = "",
+		sub_type = 30,
+		added_tip = 1,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "HOSHO1",
+		target_id_for_client = 0,
+		id = 10031,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				80
+			}
+		}
+	},
+	[10032] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8072,
+		type = 6,
+		name = "Valentine Skin 2",
+		count_inherit = 0,
+		desc = "Clear SP1 and receive jewels.",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 1,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "HOSHO2",
+		target_id_for_client = 1010000,
+		id = 10032,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1010000",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				100
+			}
+		}
+	},
+	[10033] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8073,
+		type = 6,
+		name = "Valentine Skin 3",
+		count_inherit = 0,
+		desc = "Clear SP2 and receive Dew Water.",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 1,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "HOSHO3",
+		target_id_for_client = 1011000,
+		id = 10033,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1011000",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				120
+			}
+		}
+	},
+	[10034] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8074,
+		type = 6,
+		name = "Valentine Skin 4",
+		count_inherit = 0,
+		desc = "Clear SP3 and receive Haori.",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 1,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "HOSHO4",
+		target_id_for_client = 1012000,
+		id = 10034,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1012000",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54033,
+				1
+			}
+		}
+	},
+	[10035] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8075,
+		type = 6,
+		name = "Valentine Skin 5",
+		count_inherit = 0,
+		desc = "Complete 1 commission.",
+		target_id_2 = "",
+		sub_type = 80,
+		added_tip = 1,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "HOSHO5",
+		target_id_for_client = 0,
+		id = 10035,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				150
+			}
+		}
+	},
+	[10036] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8076,
+		type = 6,
+		name = "Valentine Skin 6",
+		count_inherit = 0,
+		desc = "Join maritime events 3 times and receive \n Ancient Mirror.",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 1,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "HOSHO6",
+		target_id_for_client = 0,
+		id = 10036,
+		target_num = 3,
+		fix_task = 0,
+		target_id = {
+			1010000,
+			1011000,
+			1012000
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54034,
+				1
+			}
+		}
+	},
+	[10037] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8077,
+		type = 6,
+		name = "Valentine Skin 7",
+		count_inherit = 0,
+		desc = "Watch memories.",
+		target_id_2 = "",
+		sub_type = 101,
+		added_tip = 1,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "HOSHO7",
+		target_id_for_client = 0,
+		id = 10037,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				7,
+				306031,
 				1
 			}
 		}
@@ -14579,6 +15319,716 @@ pg.task_data_template = {
 			"ACTIVITY_MAP"
 		}
 	},
+	[14021] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 90329,
+		type = 6,
+		name = "龙骧-PT累积1",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "30075",
+		sub_type = 1001,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "14022",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 117,
+		id = 14021,
+		target_num = 100,
+		fix_task = 0,
+		target_id = "117",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54005,
+				5
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[14022] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90330,
+		type = 6,
+		name = "龙骧-PT累积2",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "30075",
+		sub_type = 1001,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "14023",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 117,
+		id = 14022,
+		target_num = 300,
+		fix_task = 0,
+		target_id = "117",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18021,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[14023] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90331,
+		type = 6,
+		name = "龙骧-PT累积3",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "30075",
+		sub_type = 1001,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "14024",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 117,
+		id = 14023,
+		target_num = 700,
+		fix_task = 0,
+		target_id = "117",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[14024] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90332,
+		type = 6,
+		name = "龙骧-PT累积4",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "30075",
+		sub_type = 1001,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "14025",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 117,
+		id = 14024,
+		target_num = 1000,
+		fix_task = 0,
+		target_id = "117",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18031,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[14025] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90333,
+		type = 6,
+		name = "龙骧-PT累积5",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "30075",
+		sub_type = 1001,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "14026",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 117,
+		id = 14025,
+		target_num = 1500,
+		fix_task = 0,
+		target_id = "117",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[14026] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90334,
+		type = 6,
+		name = "龙骧-PT累积6",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "30075",
+		sub_type = 1001,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "14027",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 117,
+		id = 14026,
+		target_num = 2000,
+		fix_task = 0,
+		target_id = "117",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18021,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[14027] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90335,
+		type = 6,
+		name = "龙骧-PT累积7",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "30075",
+		sub_type = 1001,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "14028",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 117,
+		id = 14027,
+		target_num = 3000,
+		fix_task = 0,
+		target_id = "117",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				1000
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[14028] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90336,
+		type = 6,
+		name = "龙骧-PT累积8",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "30075",
+		sub_type = 1001,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "14029",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 117,
+		id = 14028,
+		target_num = 4000,
+		fix_task = 0,
+		target_id = "117",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18022,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[14029] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90337,
+		type = 6,
+		name = "龙骧-PT累积9",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "30075",
+		sub_type = 1001,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "14030",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 117,
+		id = 14029,
+		target_num = 5000,
+		fix_task = 0,
+		target_id = "117",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				16003,
+				2
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[14030] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90338,
+		type = 6,
+		name = "龙骧-PT累积10",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "30075",
+		sub_type = 1001,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "14031",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 117,
+		id = 14030,
+		target_num = 6000,
+		fix_task = 0,
+		target_id = "117",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18032,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[14031] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90339,
+		type = 6,
+		name = "龙骧-PT累积11",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "30075",
+		sub_type = 1001,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "14032",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 117,
+		id = 14031,
+		target_num = 7000,
+		fix_task = 0,
+		target_id = "117",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				16023,
+				2
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[14032] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90340,
+		type = 6,
+		name = "龙骧-PT累积12",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "30075",
+		sub_type = 1001,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "14033",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 117,
+		id = 14032,
+		target_num = 8000,
+		fix_task = 0,
+		target_id = "117",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18023,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[14033] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90341,
+		type = 6,
+		name = "龙骧-PT累积13",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "30075",
+		sub_type = 1001,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "14034",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 117,
+		id = 14033,
+		target_num = 9000,
+		fix_task = 0,
+		target_id = "117",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				16013,
+				2
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[14034] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90342,
+		type = 6,
+		name = "龙骧-PT累积14",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "30075",
+		sub_type = 1001,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 117,
+		id = 14034,
+		target_num = 10000,
+		fix_task = 0,
+		target_id = "117",
+		open_need = {},
+		award_display = {
+			{
+				4,
+				306061,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[14035] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 90343,
+		type = 6,
+		name = "龙骧地图任务1",
+		count_inherit = 0,
+		desc = "Clear SP1",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "14036",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1170001,
+		id = 14035,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1170001",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				200
+			},
+			{
+				2,
+				18012,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[14036] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90344,
+		type = 6,
+		name = "龙骧地图任务2",
+		count_inherit = 0,
+		desc = "Clear SP2",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "14037",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1170002,
+		id = 14036,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1170002",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				200
+			},
+			{
+				2,
+				18012,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[14037] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90345,
+		type = 6,
+		name = "龙骧地图任务3",
+		count_inherit = 0,
+		desc = "Clear SP3",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1170003,
+		id = 14037,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1170003",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				200
+			},
+			{
+				2,
+				18013,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[14038] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 90346,
+		type = 6,
+		name = "龙骧地图任务4",
+		count_inherit = 0,
+		desc = "Complete SP1 with 3 stars",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "14039",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1170001,
+		id = 14038,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1170001",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[14039] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90347,
+		type = 6,
+		name = "龙骧地图任务5",
+		count_inherit = 0,
+		desc = "Complete SP2 with 3 stars",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "14040",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1170002,
+		id = 14039,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1170002",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[14040] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90348,
+		type = 6,
+		name = "龙骧地图任务6",
+		count_inherit = 0,
+		desc = "Complete SP3 with 3 stars",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1170003,
+		id = 14040,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1170003",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
 	[14055] = {
 		is_head = 1,
 		guild_coin_award = 0,
@@ -18964,6 +20414,20 @@ pg.task_data_template = {
 		5325,
 		5326,
 		5327,
+		5331,
+		5332,
+		5333,
+		5334,
+		5335,
+		5336,
+		5337,
+		5341,
+		5342,
+		5343,
+		5344,
+		5345,
+		5346,
+		5347,
 		6001,
 		6002,
 		6003,
@@ -18994,6 +20458,13 @@ pg.task_data_template = {
 		10003,
 		10004,
 		10005,
+		10031,
+		10032,
+		10033,
+		10034,
+		10035,
+		10036,
+		10037,
 		10057,
 		10058,
 		10059,
@@ -19171,6 +20642,26 @@ pg.task_data_template = {
 		14018,
 		14019,
 		14020,
+		14021,
+		14022,
+		14023,
+		14024,
+		14025,
+		14026,
+		14027,
+		14028,
+		14029,
+		14030,
+		14031,
+		14032,
+		14033,
+		14034,
+		14035,
+		14036,
+		14037,
+		14038,
+		14039,
+		14040,
 		14055,
 		14056,
 		14057,

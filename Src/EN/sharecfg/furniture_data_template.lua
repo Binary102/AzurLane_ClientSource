@@ -36674,6 +36674,1432 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[41001] = {
+		can_rotate = 0,
+		name = "Rollercoaster Wallpaper",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		effect = "",
+		icon = "qiangbivticon",
+		is_get_time_note = 0,
+		belong = 0,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 150,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 4,
+		picture = "valentine/qiangbivt",
+		canputon = 0,
+		discount = 0,
+		id = 41001,
+		comfortable = 4,
+		describe = "Experience thrills and chills on these two-dimensional valleys and hills!",
+		dorm_id = 0,
+		gem_price = 450,
+		can_trigger = 0,
+		themeId = 41,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					2,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					3,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[41002] = {
+		can_rotate = 0,
+		name = "Amusement Park Flooring",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		effect = "",
+		icon = "dibanvticon",
+		is_get_time_note = 0,
+		belong = 0,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 150,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 5,
+		rarity = 4,
+		picture = "valentine/dibanvt",
+		canputon = 0,
+		discount = 0,
+		id = 41002,
+		comfortable = 4,
+		describe = "Specially crafted to prevent children from tripping.",
+		dorm_id = 0,
+		gem_price = 450,
+		can_trigger = 0,
+		themeId = 41,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					2,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					3,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[41101] = {
+		can_rotate = 1,
+		name = "Bulletin Board",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		icon = "banvticon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "valentine/banvt",
+		canputon = 0,
+		discount = 0,
+		id = 41101,
+		comfortable = 2,
+		describe = "So much to do, so much to see! Where should we go next?",
+		dorm_id = 0,
+		gem_price = 120,
+		can_trigger = 0,
+		themeId = 41,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					2,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					3,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[41102] = {
+		can_rotate = 0,
+		name = "Lime Teacup",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "chabei1vticon",
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		picture = "valentine/chabei1vt",
+		canputon = 0,
+		discount = 0,
+		id = 41102,
+		comfortable = 3,
+		describe = "Although designed to look like a teacup, it appears to contain coffee.",
+		dorm_id = 0,
+		gem_price = 240,
+		can_trigger = 0,
+		themeId = 41,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					0,
+					53
+				},
+				{
+					-1,
+					1
+				},
+				"valentine/chabei1vt_using"
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					2,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					3,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[41103] = {
+		can_rotate = 0,
+		name = "Strawberry Teacup",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "chabei2vticon",
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		picture = "valentine/chabei2vt",
+		canputon = 0,
+		discount = 0,
+		id = 41103,
+		comfortable = 3,
+		describe = "Although designed to look like a teacup, it appears to contain coffee.",
+		dorm_id = 0,
+		gem_price = 240,
+		can_trigger = 0,
+		themeId = 41,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					0,
+					53
+				},
+				{
+					-1,
+					1
+				},
+				"valentine/chabei2vt_using"
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					2,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					3,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[41104] = {
+		can_rotate = 0,
+		name = "Grape Teacup",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "chabei3vticon",
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		picture = "valentine/chabei3vt",
+		canputon = 0,
+		discount = 0,
+		id = 41104,
+		comfortable = 3,
+		describe = "Although designed to look like a teacup, it appears to contain coffee.",
+		dorm_id = 0,
+		gem_price = 240,
+		can_trigger = 0,
+		themeId = 41,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					0,
+					53
+				},
+				{
+					-1,
+					1
+				},
+				"valentine/chabei3vt_using"
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					2,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					3,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[41105] = {
+		can_rotate = 0,
+		name = "Pirate Cave",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		icon = "dongkuvticon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		picture = "valentine/dongkuvt",
+		canputon = 0,
+		discount = 0,
+		id = 41105,
+		comfortable = 3,
+		describe = "Yarr-har, fiddle dee dee!",
+		dorm_id = 0,
+		gem_price = 240,
+		can_trigger = 0,
+		themeId = 41,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			5,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					2,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					3,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[41106] = {
+		can_rotate = 0,
+		name = "Pirate Ship",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "haidaochuanvticon",
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		picture = "valentine/haidaochuanvt",
+		canputon = 0,
+		discount = 0,
+		id = 41106,
+		comfortable = 3,
+		describe = "We heard you like ships, so you can put a ship on this ship.",
+		dorm_id = 0,
+		gem_price = 240,
+		can_trigger = 0,
+		themeId = 41,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			7,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"dance",
+				{
+					47,
+					-20
+				},
+				{
+					1,
+					1
+				},
+				"valentine/haidaochuanvt_using"
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					2,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					3,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[41107] = {
+		can_rotate = 0,
+		name = "Potted Heart Plant",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		icon = "huashuvticon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 3,
+		advice = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "valentine/huashuvt",
+		canputon = 0,
+		discount = 0,
+		id = 41107,
+		comfortable = 2,
+		describe = "Money doesn't grow on trees, but maybe love does...?",
+		dorm_id = 0,
+		gem_price = 120,
+		can_trigger = 0,
+		themeId = 41,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					2,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					3,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[41108] = {
+		can_rotate = 0,
+		name = "Flowerbed",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		icon = "huatanvticon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 3,
+		advice = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "valentine/huatanvt",
+		canputon = 0,
+		discount = 0,
+		id = 41108,
+		comfortable = 2,
+		describe = "Increases the Joy factor of nearby Rides by 3.5%. Allegedly.",
+		dorm_id = 0,
+		gem_price = 120,
+		can_trigger = 0,
+		themeId = 41,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					2,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					3,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[41109] = {
+		can_rotate = 0,
+		name = "Cotton Candy Cart",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "miahuatangchevticon",
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		picture = "valentine/miahuatangchevt",
+		canputon = 0,
+		discount = 0,
+		id = 41109,
+		comfortable = 3,
+		describe = "\"I've never tasted candy like that before! I want one, Ark!\"",
+		dorm_id = 0,
+		gem_price = 240,
+		can_trigger = 0,
+		themeId = 41,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"wash",
+				{
+					-13.9,
+					-8.1
+				},
+				{
+					1,
+					1
+				},
+				"valentine/miahuatangchevt_using",
+				0,
+				{
+					{
+						0,
+						191
+					},
+					{
+						172,
+						176
+					},
+					"valentine/miahuatangchevt_mask"
+				}
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					2,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					3,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[41110] = {
+		can_rotate = 0,
+		name = "Bumper Cars",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "pengpengchevticon",
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		picture = "valentine/pengpengchevt",
+		canputon = 0,
+		discount = 0,
+		id = 41110,
+		comfortable = 3,
+		describe = "The only kinds of cars that don't require a sober mind or a license!",
+		dorm_id = 0,
+		gem_price = 240,
+		can_trigger = 0,
+		themeId = 41,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			8,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-136,
+					8
+				},
+				{
+					1,
+					1
+				},
+				"valentine/pengpengchevt_using1"
+			},
+			{
+				"sit",
+				{
+					99,
+					24
+				},
+				{
+					-1,
+					1
+				},
+				"valentine/pengpengchevt_using2"
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					2,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					3,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[41111] = {
+		can_rotate = 0,
+		name = "Manjuu Fountain",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		icon = "penquanvticon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		picture = "valentine/penquanvt",
+		canputon = 0,
+		discount = 0,
+		id = 41111,
+		comfortable = 3,
+		describe = "Rumor has it that shooting it for a few minutes triggers a secret boss battle.",
+		dorm_id = 0,
+		gem_price = 240,
+		can_trigger = 0,
+		themeId = 41,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			6,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					2,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					3,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[41112] = {
+		can_rotate = 0,
+		name = "Hotdog Wagon",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		icon = "regouchevticon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "valentine/regouchevt",
+		canputon = 0,
+		discount = 0,
+		id = 41112,
+		comfortable = 2,
+		describe = "All hotdogs sold here contain only Union-approved additives!",
+		dorm_id = 0,
+		gem_price = 120,
+		can_trigger = 0,
+		themeId = 41,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					2,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					3,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[41113] = {
+		can_rotate = 0,
+		name = "Apple Tree",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		icon = "shuvticon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		picture = "valentine/shuvt",
+		canputon = 0,
+		discount = 0,
+		id = 41113,
+		comfortable = 3,
+		describe = "Stay under it for long enough and you might get a free snack! Or a concussion.",
+		dorm_id = 0,
+		gem_price = 240,
+		can_trigger = 0,
+		themeId = 41,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					2,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					3,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[41114] = {
+		can_rotate = 1,
+		name = "Ice Cream Stand",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "xuegaovticon",
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		picture = "valentine/xuegaovt",
+		canputon = 0,
+		discount = 0,
+		id = 41114,
+		comfortable = 3,
+		describe = "You scream, I scream, we all scream for ice cream.",
+		dorm_id = 0,
+		gem_price = 240,
+		can_trigger = 0,
+		themeId = 41,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-11,
+					-101
+				},
+				{
+					-1,
+					1
+				},
+				"valentine/xuegaovt_using"
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					2,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					3,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[41115] = {
+		can_rotate = 0,
+		name = "Amusement Park Bench",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "yizivticon",
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "valentine/yizivt",
+		canputon = 0,
+		discount = 0,
+		id = 41115,
+		comfortable = 2,
+		describe = "Having too much fun? Sit down and have a break!",
+		dorm_id = 0,
+		gem_price = 120,
+		can_trigger = 0,
+		themeId = 41,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-43,
+					27
+				},
+				{
+					-1,
+					1
+				},
+				"valentine/yizivt_using"
+			},
+			{
+				"sit",
+				{
+					10,
+					1
+				},
+				{
+					-1,
+					1
+				},
+				"valentine/yizivt_using"
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					2,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					3,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[41116] = {
+		can_rotate = 0,
+		name = "Merry-Go-Round",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "xuanzhuanmumavticon",
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		picture = "valentine/xuanzhuanmumavt",
+		canputon = 0,
+		discount = 0,
+		id = 41116,
+		comfortable = 3,
+		describe = "The horses on the ride go round and round, round and round...",
+		dorm_id = 0,
+		gem_price = 240,
+		can_trigger = 0,
+		themeId = 41,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			7,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-136.2,
+					-78.9
+				},
+				{
+					-1,
+					1
+				},
+				"valentine/xuanzhuanmumavt_using1"
+			},
+			{
+				"sit",
+				{
+					128.7,
+					-81.4
+				},
+				{
+					1,
+					1
+				},
+				"valentine/xuanzhuanmumavt_using2"
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					2,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					3,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[41117] = {
+		can_rotate = 0,
+		name = "Manjuu Blimp",
+		gain_by = "",
+		type = 11,
+		dir = 0,
+		picture = "",
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 0,
+		not_for_sale = 0,
+		icon = "qiqiuvticon",
+		deblocking = 1,
+		level = 1,
+		rarity = 4,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 41117,
+		comfortable = 4,
+		describe = "To go where no ship has gone before... to the skies!",
+		dorm_id = 0,
+		gem_price = 150,
+		can_trigger = 0,
+		themeId = 41,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		spine = {
+			{
+				"reqiqiuB",
+				"normal"
+			},
+			{
+				"reqiqiuT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			},
+			0.5
+		},
+		time = {
+			{
+				{
+					2019,
+					2,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					3,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		animator = {
+			{
+				"reqiqiuCharControl"
+			}
+		},
+		interAction_group = {}
+	},
 	all = {
 		1,
 		2,
@@ -37284,7 +38710,26 @@ pg.furniture_data_template = {
 		39304,
 		39305,
 		39306,
-		39307
+		39307,
+		41001,
+		41002,
+		41101,
+		41102,
+		41103,
+		41104,
+		41105,
+		41106,
+		41107,
+		41108,
+		41109,
+		41110,
+		41111,
+		41112,
+		41113,
+		41114,
+		41115,
+		41116,
+		41117
 	}
 }
 

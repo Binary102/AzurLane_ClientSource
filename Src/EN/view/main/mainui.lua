@@ -269,10 +269,18 @@ function slot0.didEnter(slot0)
 		slot0:switchForm(slot1.STATE_ALL_HIDE)
 	end, SFX_MAIN)
 	onButton(slot0, slot0._cameraBtn, function ()
-		slot0(slot0, MainUIMediator.OPEN_SNAPSHOT, {
-			skinId = slot0.flagShip.skinId,
-			live2d = slot0.Live2dChar ~= nil
-		})
+		if CheckPermissionGranted(ANDROID_CAMERA_PERMISSION) then
+			slot0:openSnapShot()
+		else
+			pg.MsgboxMgr:GetInstance():ShowMsgBox({
+				content = i18n("apply_permission_camera_tip1"),
+				onYes = function ()
+					ApplyPermission({
+						ANDROID_CAMERA_PERMISSION
+					})
+				end
+			})
+		end
 	end, SFX_MAIN)
 	onButton(slot0, slot0._mallBtn, function ()
 		slot0:emit(MainUIMediator.GO_MALL)
@@ -435,6 +443,13 @@ function slot0.didEnter(slot0)
 		slot0:emit(MainUIMediator.ON_SHIP_DETAIL, slot0.flagShip)
 	end)
 	slot0:paintMove(355, "mainNormal", false, -30)
+end
+
+function slot0.openSnapShot(slot0)
+	slot0:emit(MainUIMediator.OPEN_SNAPSHOT, {
+		skinId = slot0.flagShip.skinId,
+		live2d = slot0.Live2dChar ~= nil
+	})
 end
 
 function slot0.updateMonopolyBtn(slot0, slot1)

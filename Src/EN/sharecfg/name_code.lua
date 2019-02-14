@@ -447,8 +447,8 @@ pg.name_code = {
 	},
 	{
 		id = 90,
-		name = "Ryujo",
-		code = "Ryujo"
+		name = "Ryuujou",
+		code = "Ryuujou"
 	},
 	{
 		id = 91,

@@ -11,7 +11,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "唉……",
+			say = "Haah...",
 			bgm = "level",
 			typewriter = {
 				speed = 0.05,
@@ -27,7 +27,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
-			say = "波特兰，你从刚才开始已经看了105次印第安纳波利斯的照片，叹了115次气了……",
+			say = "Portland, since we've started the mission, you've looked at Indianapolis's photo 105 times and sighed 115 times...",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -46,7 +46,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "只是和妹妹分开而已，也用不着这么失落吧。",
+			say = "She's just out on another mission, and that much is enough to send you spiralling down into despair?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "印第她可是有那——么可爱的呀！亚特兰大你也是做姐姐的，难道不明白妹妹的可爱之处吗！",
+			say = "But Indy is just thaaat cute! Atlanta, you're also a big sister, right? Don't you also know about the cuteness of little sisters?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我的妹妹……一个是超级大笨蛋，另一个是超级胆小鬼——",
+			say = "Cuteness is of no concern to me. In the first place, one is a dork and the other is a crybaby...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呃，好吧，确实都挺可爱的。",
+			say = "But I suppose I'll admit, they're both cute...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你看嘛，那离开妹妹不应该感到伤心和难过吗！",
+			say = "You see? Don't you feel lonely when you can't be with them?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +141,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "圣地亚哥那个笨蛋不在身边我倒是觉得清净了不少……",
+			say = "Dunno. I actually like being able to hear myself think when San Diego isn't orbiting around me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "当然，可以的话我也希望和妹妹们在一起，不过毕竟大家都有任务在身，这也是没办法的事。",
+			say = "Of course, I'd prefer to be with them, but there's no getting around the fact that everyone has a job to do.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "大家最后能平安无事地重新团聚就已经很好了",
+			say = "And that job is to protect the home that everyone can reunite to.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,7 +186,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼哼，为了印第，我是不会受伤的，即使是受伤了，我就是爬也要爬到她的身边！",
+			say = "Hehe, in order to protect Indy, I won't be harmed by anything! Even if I do get hurt, I'd still claw my way to her side!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你这家伙，对妹妹的执念还真是……在你身边我都不好意思自称姐姐了。",
+			say = "If there's one thing I can count on, it's your unhealthy obsession with your sister... Jeez, compared to you, I can't even consider myself a big sister...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "咦，有萨拉托加发来的电报……",
+			say = "Ah... a message from Saratoga...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "怎么了？",
+			say = "What does it say?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +246,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……说{namecode:90}是诱饵，{namecode:95}和{namecode:96}的攻势已经到了！",
+			say = "... Ryuujou is a decoy, and the real attack from Shoukaku and Zuikaku is coming!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,7 +261,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "什么？！",
+			say = "What?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……我的对空火力比较强，就让我回去支援萨拉托加她们吧，波特兰你带着剩下的人继续前进。",
+			say = "My anti-air capabilities are quite strong, so I'll head back to support Saratoga. Portland, take the others and continue on.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,7 +301,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔…萨拉托加说不用，这边面对{namecode:90}的话，更需要你，那边交给她就好。",
+			say = "No, Saratoga said that she and Enterprise will be able to handle it, and that your abilities will be needed here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -316,7 +316,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……知道了，那就继续前进吧。",
+			say = "I see... got it. Let's move forward then!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

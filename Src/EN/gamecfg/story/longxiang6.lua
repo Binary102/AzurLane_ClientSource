@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"轻型航母{namecode:90}参上！\n\n<size=30>六 宿敌！？传说中的偶像究竟是？！</size>",
+					"Light Carrier Ryuujou, Moving Out!\n\n<size=30>Chapter 6: Enemies! The identity of the legendary idol is...?!</size>",
 					1
 				}
 			}
@@ -25,7 +25,7 @@ return {
 			bgm = "story-1",
 			actor = 306061,
 			nameColor = "#a9f548",
-			say = "主公现在在做什么呢……",
+			say = "I wonder what Milord is doing right now...",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -59,7 +59,7 @@ return {
 			soundeffect = "event:/battle/plane",
 			actor = 107031,
 			nameColor = "#a9f548",
-			say = "锵锵！来自舰载机的吓一跳攻击！",
+			say = "Ta-da! Carrier-based aircraft surprise attack!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			dir = 1,
 			actor = 306061,
 			nameColor = "#a9f548",
-			say = "啊……嗯……",
+			say = "Haah...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			}
 		},
 		{
-			say = "诶、诶？{namecode:90}酱？今天的反应很差哦……",
+			say = "U-um... Ryuujou? Your reaction today was so lame...",
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -123,7 +123,7 @@ return {
 			dir = 1,
 			actor = 306061,
 			nameColor = "#a9f548",
-			say = "萨拉托加小姐……今天没有心情陪你恶作剧。抱歉。",
+			say = "Saratoga... I'm not really in the mood for your pranks today, sorry.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这样啊…？那就让加加我来帮你解决烦恼吧！",
+			say = "Is that so...? Well, Saratoga knows just the thing to cheer you up!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这、这可不行！萨拉托加小姐是白鹰的空母，吾是……",
+			say = "Y-you musn't! You're a carrier of the Eagle Union and I'm...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			dir = 1,
 			actor = 306061,
 			nameColor = "#a9f548",
-			say = "虽然大家现在都是同一个舰队的伙伴，但也不能那么轻易的把内心敞开给别人！",
+			say = "Even though we're all in the same fleet now, it's not so easy to just open my heart!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,7 +198,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过说起来，好像听说你之前去给主公送和列克星敦小姐一起的什么“演唱会”的门票吧！",
+			say = "But now that I think about it, I heard that you gave tickets to Milord for Lexington's live concert!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,7 +215,7 @@ return {
 			dir = 1,
 			actor = 306061,
 			nameColor = "#a9f548",
-			say = "竟然敢占用主公重要的勤务时间，吾这个秘书舰绝不允许！",
+			say = "As the secretary ship, I can't condone such an egregious attempt to rob Milord of precious working time!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			dir = 1,
 			actor = 306061,
 			nameColor = "#a9f548",
-			say = "…………直说的话，萨拉托加小姐你是宿敌才对！",
+			say = "In other words, Saratoga, you're my rival!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +257,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "原来如此，是相思病呀",
+			say = "I see, I see. You're lovesick.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			dir = 1,
 			actor = 306061,
 			nameColor = "#a9f548",
-			say = "诶？",
+			say = "Eh?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 			}
 		},
 		{
-			say = "明白了。也就是说{namecode:90}酱想对指挥官展示自己好的一面",
+			say = "I understand now. In other words, Ryuujou wants to show off her appeal to Commander.",
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -311,7 +311,7 @@ return {
 			dir = 1,
 			actor = 306061,
 			nameColor = "#a9f548",
-			say = "唔！？",
+			say = "Wha?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -337,7 +337,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那件事我可是听说了哟。虽然被指挥官撞见那种场景的确可以算的上是灾难了，不过指挥官可不是那种斤斤计较的人呢！",
+			say = "I heard about what happened~ While it may have been a bit of a faux pas, Commander is not so close-minded!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -353,7 +353,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "所以比起一个人烦恼，直接向指挥官表达自己真正的心意就好啦！",
+			say = "Therefore, instead of canning all your worries inside, why not tell Commander how you really feel?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -370,7 +370,7 @@ return {
 			dir = 1,
 			actor = 306061,
 			nameColor = "#a9f548",
-			say = "这、这种事情对吾来说……",
+			say = "I-I don't need to do such a thing...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -385,7 +385,7 @@ return {
 					type = "shake",
 					delay = 0.2,
 					dur = 0.4,
-					x = 15,
+					x = 40,
 					number = 2
 				}
 			}
@@ -396,7 +396,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "肯定没问题的！加加我可是在为大家的恋爱应援哦♪",
+			say = "It'll be fineee! Miss Sara wants to see love blossom for everyone~♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -414,7 +414,7 @@ return {
 			blackBg = true,
 			actor = 306061,
 			nameColor = "#a9f548",
-			say = "萨拉托加小姐…………",
+			say = "Saratoga...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

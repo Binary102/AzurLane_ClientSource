@@ -14,7 +14,7 @@ pg.class_upgrade_group = {
 	},
 	{
 		name = "Today's class:\nCruiser Firepower - Choosing the Right Ammo",
-		id = 302011,
+		id = 302041,
 		icon = "Props/CLCA",
 		name_show = "Cruiser Firepower Class",
 		day = 2,
@@ -65,7 +65,7 @@ pg.class_upgrade_group = {
 	},
 	{
 		name = "Today's class:\nCruiser Combat - Maximizing Firepower",
-		id = 302011,
+		id = 302041,
 		icon = "Props/CLCA",
 		name_show = "Cruiser Combat Class",
 		day = 6,

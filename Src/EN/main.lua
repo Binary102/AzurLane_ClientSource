@@ -24,7 +24,7 @@ PLATFORM_US = 4
 PLATFORM_CODE = PLATFORM_US
 
 if PLATFORM_CODE == PLATFORM_US then
-	if CSharpVersion > 21 then
+	if CSharpVersion > 23 then
 		require("Support/Helpers/AiriSdkSupport")
 		require("Support/Helpers/AiriTrackSupport")
 	else

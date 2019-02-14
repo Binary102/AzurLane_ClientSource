@@ -132,6 +132,28 @@ pg.task_data_trigger = {
 			}
 		}
 	},
+	[32] = {
+		group_id = 30606,
+		id = 32,
+		activity_id = 30504,
+		args = {
+			{
+				1,
+				5331
+			}
+		}
+	},
+	[33] = {
+		group_id = 30164,
+		id = 33,
+		activity_id = 30505,
+		args = {
+			{
+				1,
+				5341
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -144,7 +166,9 @@ pg.task_data_trigger = {
 		14,
 		29,
 		30,
-		31
+		31,
+		32,
+		33
 	}
 }
 

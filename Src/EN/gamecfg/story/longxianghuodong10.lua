@@ -11,7 +11,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
-			say = "咕呜…还是力量不足啊……",
+			say = "Ugh... so this is... all I could do...",
 			bgm = "battle-boss-2",
 			typewriter = {
 				speed = 0.05,
@@ -28,7 +28,7 @@ return {
 			side = 1,
 			dir = 1,
 			actor = 306061,
-			say = "不过这样一来，也算是…帮上大家的忙了吧……",
+			say = "I suppose... even in defeat... I was able to be of some use to everyone...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,7 +43,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "下次、下次不会再输给你们了啊啊啊——",
+			say = "But next time... I definitely won't lose...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			dir = 1,
 			actor = 103061,
 			nameColor = "#a9f548",
-			say = "赢了……吗？",
+			say = "Is it over...?",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -99,7 +99,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
-			say = "前方的重樱舰队已经开始撤退了！",
+			say = "The Sakura ships have begun to withdraw!",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -118,7 +118,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "波特兰，你还好吧？",
+			say = "Portland, are you all right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，还、还行。呼，真是危险呢",
+			say = "Um... I think so. That was close~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,7 +148,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那就好，再来就看萨拉托加那边了吧——",
+			say = "That's good then. Next, we should check in to see how Saratoga is doing-",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			dir = 1,
 			actor = 307051,
 			nameColor = "#a9f548",
-			say = "{namecode:90}最后…还是输掉了吗…",
+			say = "So in the end, they took out Ryuujou...",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -195,7 +195,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			say = "可恶，明明直接由我们上的话……",
+			say = "Curse them! If only we were there to fight them directly...!",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -214,7 +214,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这是命令，没办法…而且她的付出并没有白费",
+			say = "Zuikaku, orders are orders. All we can do is make sure that her sacrifices are not in vain.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,7 +229,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "重创了灰色幽灵，也算是为靠不住的前辈们报了仇了。接下来就该轮到我们——",
+			say = "By landing a hit on that Grey Ghost, I suppose we've also partially avenged our unreliable seniors. Next, it's our turn to...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +245,7 @@ return {
 			bgm = "battle-boss-2",
 			actor = 307061,
 			nameColor = "#a9f548",
-			say = "等等，姐姐！{namecode:39}那边传来情报，她带领的舰队突然遇袭，运输计划受阻！",
+			say = "Shoukaku, wait! I've just been alerted that Jintsuu's division has been intercepted by the enemy!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "什么？！",
+			say = "What?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -11,7 +11,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "好无聊啊，企业，我们等下找明尼阿波利斯上岸烤肉去吧！",
+			say = "Enterprise, I'm sooo bored~ Why don't we go grab Minneapolis and then head to shore for a barbecue?",
 			bgm = "level",
 			typewriter = {
 				speed = 0.05,
@@ -27,7 +27,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
-			say = "萨拉，不要太懈怠，我们的任务可不轻松。",
+			say = "Saratoga, don't be too relaxed. Our mission isn't to be taken lightly.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -46,7 +46,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "知道的啦~开个玩笑而已。这个机场对我们很重要，我还没有贪玩到忘记这件事~",
+			say = "Got it, I was just joking~ This air base is really important, isn't it? I may like to play around, but I wouldn't forget that!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "对面是绝对不会坐视我们占领这里的，侦察机已经发现了集结而来的重樱舰队",
+			say = "Our enemies won't sit by idly while we occupy this place. Our recon planes have already confirmed that the Sakura Fleet is moving.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "胡蜂因为补给不足先返航了，现在就剩下我们两了",
+			say = "To make matters worse, Wasp had to head south to resupply. It's up to the two of us to make a difference here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "虽然之前重樱并没有对我方造成太大损失，但是，如果当时我们在那里的话，萨沃岛的战局就……",
+			say = "Come to think of it, I'm fortunate to have only gotten scratches from the last battle... Although if we were there at Savo, perhaps...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎呀～企业你也不用太过自责啦，被迫返航补给也不能算是我们的错嘛",
+			say = "Meh, it's not your fault, Enty~ The decision was made by the top brass, wasn't it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "害得明尼阿波利斯的三个姐妹受重伤的事情，我也觉得很遗憾……不过，光是难过也没用吧，我们还是得把应该做的事情做了",
+			say = "Though I'm upset that Astoria and the others were hurt, just being mad won't accomplish anything... We simply have to do what we have to do.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "我知道，但是……",
+			say = "I know, but...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我知道企业最近精神一直比较紧绷但是！",
+			say = "That's enough for now! Enterprise, I know just how stressed you've been lately~!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "战争还在继续，不保持冷静可是会在关键时刻失误的，放轻松，放轻松~",
+			say = "The battle isn't over yet. If you don't keep calm, you might make a mistake at a crucial moment. Relax, relax~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,7 +181,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "……我知道了，你说得对。",
+			say = "You're right... I understand.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +196,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "抱歉，萨拉，明明你也在担心列克星敦，还要让你来安慰我……",
+			say = "Sorry, Sara. I know you're still coping with Lexington, you don't have to worry about me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没事没事，我可是无所不能的萨拉小姐，这种事毛毛雨啦~",
+			say = "It's fine, it's fine! Something like this is a walk in the park for me!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +226,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "姐姐也一定希望我能保持现在的心态，然后连她的份一起战斗的～",
+			say = "I'm sure that my sister would want me to keep my spirits up and get a punch in for her sake~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "说得对，我也要向你学习，连带姐姐的份，向重樱讨回来才行。",
+			say = "You're exactly right, I should learn from your example. I have to get back at the Sakura Fleet for my sister's sake as well.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +256,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯嗯，这就对了~所以等一下要不要一起吃烤肉？",
+			say = "All righty, that decides it~! So, wanna grab barbecue?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,7 +271,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "哈哈……那就恭敬不如从命了。",
+			say = "Hah... I suppose I'll take you up on that offer.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

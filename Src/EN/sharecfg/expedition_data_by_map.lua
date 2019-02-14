@@ -1562,6 +1562,47 @@ pg.expedition_data_by_map = {
 		bind_map = 1150012,
 		clouds_pos = {}
 	},
+	[1170001] = {
+		map = 1170001,
+		name = "The Smoldering South Sea|| ||CHAPTER SP||S.P. ",
+		bgm = "level",
+		type = 3,
+		on_activity = 30072,
+		title = "SP",
+		drop_by_map_display = "",
+		enter_story = "",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "",
+		cloud_suffix = "white",
+		bg = "map_5",
+		destory_icon_suffix = "blue",
+		animtor = 0,
+		bind_map = 1170001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
 	[1180001] = {
 		map = 1180001,
 		name = "Crimson Echoes - Part 1 || ||CHAPTER EX||S.P.",
@@ -1802,6 +1843,7 @@ pg.expedition_data_by_map = {
 		1150011,
 		1150012,
 		1150021,
+		1170001,
 		1180001,
 		1180002,
 		1180011,

@@ -1392,6 +1392,14 @@ pg.skill_data_display = {
 		id = 11740,
 		name = "Wind Rider "
 	},
+	[11750] = {
+		id = 11750,
+		name = "Light Carrier Unit"
+	},
+	[11760] = {
+		id = 11760,
+		name = "Raid Signal"
+	},
 	[11780] = {
 		id = 11780,
 		name = "Ageless Phoenix "
@@ -2777,6 +2785,8 @@ pg.skill_data_display = {
 		11721,
 		11730,
 		11740,
+		11750,
+		11760,
 		11780,
 		11790,
 		11800,

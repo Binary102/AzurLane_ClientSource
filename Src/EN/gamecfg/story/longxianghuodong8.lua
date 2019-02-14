@@ -11,7 +11,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "唉…不知道印第在阿留申群岛那边怎么样了。",
+			say = "Haah... I wonder what Indy is doing right now~",
 			bgm = "level",
 			typewriter = {
 				speed = 0.05,
@@ -27,7 +27,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "有好好吃饭吗，有好好睡觉吗，每天有按时刷牙吗——",
+			say = "I wonder if she's eating and sleeping well, and brushing her teeth on time every day~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "----—该不会因为太沉默被同僚欺负吧？！",
+			say = "Ah! What if she's getting bullied because she's the quiet type?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
-			say = "你未免也担心得太多了……妹妹可不是那么柔弱的存在，多相信她一点吧",
+			say = "You're worrying too much... For how much you dote on her, you really ought to believe in her a bit more. She's not that weak, you know.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -76,7 +76,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊！意思是印第要从我身边独立了吗？！呜呜呜，不要啊印第，永远留在姐姐身边……",
+			say = "Ahh!! Does that mean she's grown up enough to fly away on her own? Indy, don't leave meee! Stay with your big sister forever~!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我可没这么说……唉，算了，每次跟你一起，都觉得完全严肃不起来……你就不会觉得紧张吗？",
+			say = "That's not even what I said... Ah, forget it. Every time I'm around you, I can't seem to stay serious... Portland, do you not get nervous at all?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "紧张呀，这片海域在战略意义上的重要性，以及我们对其保持控制的必要性……这些我还是明白的啦",
+			say = "Nervous? Sure I am. It's extremely important for us to maintain control of this strategic naval route. Even I understand that much.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "只有控制了这座岛屿和周边的海域，我们的补给路线和前线基地的建设才能得到保证",
+			say = "Only by controlling this island and its surrounding waters can we ensure the safety of our supply lines and the establishment of our forward operating base.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +146,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "所以无论如何，我们必须保住它呢，这么重要的任务，我当然也会紧张啦。",
+			say = "We can't let this place fall no matter what, so of course I am nervous.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……难以置信，这么逻辑清晰的话居然是从你口中说出来的。",
+			say = "Words of such logic and clarity are flowing from Portland's mouth... pinch me...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "但是在我对印第的爱面前，这点紧张就像是灰尘一样微不足道！！",
+			say = "But! In the face of my love for Indy, such nervousness is nothing more than dust in the wind!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……好吧，我认输了，不愧是白鹰巡洋舰中的可靠前辈。",
+			say = "Sigh... I thought you'd say that sooner or later...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼哼哼，我对印第的爱是无敌的！",
+			say = "Hehehe, my love for Indy is boundless!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是是是，集中精神继续前进吧，{namecode:90}应该就在前面了——",
+			say = "Yes, yes. Boundless indeed. Let's keep moving forward - we're already approaching our target.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

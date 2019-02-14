@@ -254,7 +254,7 @@ function slot0.setShip(slot0, slot1)
 	findTF(slot15, "type_bg/type"):GetComponent(typeof(Image)).sprite = GetSpriteFromAtlas("shiptype", tostring(slot0._shipVO:getShipType()))
 
 	slot0._shipType:SetNativeSize()
-	setText(slot0:findTF("name_bg/Text", slot15), slot0._shipVO.name)
+	setText(slot0:findTF("name_bg/Text", slot15), slot0._shipVO:getName())
 	setActive(slot0.commanderIcon, slot1:hasCommander())
 
 	if slot1.hasCommander() then

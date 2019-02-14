@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"春天的赏樱大会\n\n<size=30>五  樱与幕</size>",
+					"Flower Festival\n\n<size=30>Chapter 5 - Cherry Flowers and Cheery Folks</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			bgm = "story-1",
 			actor = 306034,
 			nameColor = "#a9f548",
-			say = "果然说到春天，就少不了樱花呢",
+			say = "There really is nothing that embodies spring better than the cherry tree.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -39,7 +39,7 @@ return {
 			bgName = "bg_story_school",
 			side = 2,
 			dir = 1,
-			say = "呵呵，不论什么时候，举办宴会总是让人感到开心呢",
+			say = "And sitting underneath one, surrounded by friends and food... I can't think of anything more enjoyable.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			bgName = "bg_story_school",
 			side = 2,
 			dir = 1,
-			say = "辛苦{namecode:89}准备了～",
+			say = "You must've worked hard to make this gathering a reality, Houshou.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,7 +66,7 @@ return {
 			}
 		},
 		{
-			say = "看到大家那么开心，就觉得值得了呢，恩？那边是——",
+			say = "Yes, but seeing everyone enjoying themselves makes it all worth it... Hm? Do we have more guests coming?",
 			side = 0,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -91,7 +91,7 @@ return {
 			dir = 1,
 			actor = 401234,
 			nameColor = "#a9f548",
-			say = "这边就是会场吗？哇，好热闹！",
+			say = "Looks like this is the place. And looks like everyone's having a good time!",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -119,7 +119,7 @@ return {
 			}
 		},
 		{
-			say = "我闻到美食的味道了～",
+			say = "Not to mention all the yummy food they've got~",
 			side = 0,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -144,7 +144,7 @@ return {
 			bgName = "bg_story_school",
 			side = 1,
 			dir = 1,
-			say = "酒香…",
+			say = "And the alcohol...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			bgName = "bg_story_school",
 			side = 0,
 			dir = 1,
-			say = "重樱春季特产——“赏樱大会”…大家一起才好",
+			say = "Yes, this is the Flower Festival – a Sakura Empire tradition. You can join us if you'd like.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			bgName = "bg_story_school",
 			side = 1,
 			dir = 1,
-			say = "谢谢{namecode:6}的邀请～",
+			say = "We certainly would!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			bgName = "bg_story_school",
 			side = 0,
 			dir = 1,
-			say = "啊，那边还有位置，我们快过去吧～",
+			say = "I think we can sit over here! Come on!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			bgName = "bg_story_school",
 			side = 1,
 			dir = 1,
-			say = "酒…的香气——",
+			say = "The smell of sake... beckons me...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			dir = 1,
 			actor = 306034,
 			nameColor = "#a9f548",
-			say = "真是让人会心一笑的场景呢～",
+			say = "Ahaha, how pleasant to see more people join us.",
 			flashout = {
 				dur = 1,
 				black = true,

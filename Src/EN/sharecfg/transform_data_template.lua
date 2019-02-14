@@ -11444,6 +11444,391 @@ When equipping <color=#A9F548>Reconnaissance</color>, <color=#A9F548>Yamashiro V
 			50
 		}
 	},
+	[26901] = {
+		use_gold = 300,
+		name = "Hull Improvement Ⅰ",
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 1,
+		star_limit = 2,
+		id = 26901,
+		icon = "hp_1",
+		skill_id = 0,
+		descrip = "",
+		condition_id = {},
+		effect = {
+			{
+				durability = 45
+			}
+		},
+		ship_id = {},
+		use_item = {
+			{
+				{
+					18001,
+					2
+				}
+			}
+		},
+		gear_score = {
+			10
+		}
+	},
+	[26902] = {
+		use_gold = 400,
+		name = "Reload Enhancement Ⅰ",
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 5,
+		star_limit = 2,
+		id = 26902,
+		icon = "rl_1",
+		skill_id = 0,
+		descrip = "",
+		condition_id = {
+			26901
+		},
+		effect = {
+			{
+				reload = 5
+			}
+		},
+		ship_id = {},
+		use_item = {
+			{
+				{
+					18001,
+					2
+				}
+			}
+		},
+		gear_score = {
+			10
+		}
+	},
+	[26903] = {
+		use_gold = 600,
+		name = "Torpedo Improvement Ⅰ",
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 20,
+		star_limit = 3,
+		id = 26903,
+		icon = "tpup_1",
+		skill_id = 0,
+		descrip = "",
+		condition_id = {
+			26901
+		},
+		effect = {
+			{
+				equipment_proficiency_2 = 0.05
+			}
+		},
+		ship_id = {},
+		use_item = {
+			{
+				{
+					18001,
+					3
+				}
+			}
+		},
+		gear_score = {
+			15
+		}
+	},
+	[26904] = {
+		use_gold = 800,
+		name = "Torpedo Enhancement Ⅰ",
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 25,
+		star_limit = 3,
+		id = 26904,
+		icon = "tp_1",
+		skill_id = 0,
+		descrip = "",
+		condition_id = {
+			26903
+		},
+		effect = {
+			{
+				torpedo = 10
+			}
+		},
+		ship_id = {},
+		use_item = {
+			{
+				{
+					18001,
+					3
+				}
+			}
+		},
+		gear_score = {
+			15
+		}
+	},
+	[26905] = {
+		use_gold = 1000,
+		name = "Anti-Air Gun Improvement Ⅰ",
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 35,
+		star_limit = 4,
+		id = 26905,
+		icon = "aaup_1",
+		skill_id = 0,
+		descrip = "",
+		condition_id = {
+			26903
+		},
+		effect = {
+			{
+				equipment_proficiency_3 = 0.05
+			}
+		},
+		ship_id = {},
+		use_item = {
+			{
+				{
+					18001,
+					3
+				}
+			}
+		},
+		gear_score = {
+			20
+		}
+	},
+	[26906] = {
+		use_gold = 1200,
+		name = "Anti-Air Enhancement Ⅰ",
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 40,
+		star_limit = 4,
+		id = 26906,
+		icon = "aa_1",
+		skill_id = 0,
+		descrip = "",
+		condition_id = {
+			26905
+		},
+		effect = {
+			{
+				antiaircraft = 15
+			}
+		},
+		ship_id = {},
+		use_item = {
+			{
+				{
+					18001,
+					4
+				}
+			}
+		},
+		gear_score = {
+			20
+		}
+	},
+	[26907] = {
+		use_gold = 1500,
+		name = "Motor Enhancement",
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 50,
+		star_limit = 4,
+		id = 26907,
+		icon = "sp_1",
+		skill_id = 0,
+		descrip = "",
+		condition_id = {
+			26905
+		},
+		effect = {
+			{
+				speed = 3
+			}
+		},
+		ship_id = {},
+		use_item = {
+			{
+				{
+					18002,
+					3
+				}
+			}
+		},
+		gear_score = {
+			25
+		}
+	},
+	[26908] = {
+		use_gold = 1800,
+		name = "Tactical Learning",
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 55,
+		star_limit = 4,
+		id = 26908,
+		icon = "skill_red",
+		skill_id = 11130,
+		descrip = "",
+		condition_id = {
+			26907
+		},
+		effect = {
+			{
+				skill_id = 11130
+			}
+		},
+		ship_id = {},
+		use_item = {
+			{
+				{
+					18002,
+					3
+				}
+			}
+		},
+		gear_score = {
+			25
+		}
+	},
+	[26909] = {
+		use_gold = 2000,
+		name = "Hull Improvement Ⅱ",
+		max_level = 2,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 70,
+		star_limit = 5,
+		id = 26909,
+		icon = "hp_2",
+		skill_id = 0,
+		descrip = "",
+		condition_id = {
+			26907
+		},
+		effect = {
+			{
+				durability = 45
+			},
+			{
+				durability = 75
+			}
+		},
+		ship_id = {},
+		use_item = {
+			{
+				{
+					18002,
+					1
+				}
+			},
+			{
+				{
+					18002,
+					2
+				}
+			}
+		},
+		gear_score = {
+			10,
+			20
+		}
+	},
+	[26910] = {
+		use_gold = 2500,
+		name = "Reload Enhancement Ⅱ",
+		max_level = 2,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 75,
+		star_limit = 5,
+		id = 26910,
+		icon = "rl_2",
+		skill_id = 0,
+		descrip = "",
+		condition_id = {
+			26902,
+			26909
+		},
+		effect = {
+			{
+				reload = 5
+			},
+			{
+				reload = 10
+			}
+		},
+		ship_id = {},
+		use_item = {
+			{
+				{
+					18002,
+					2
+				}
+			},
+			{
+				{
+					18002,
+					2
+				}
+			}
+		},
+		gear_score = {
+			10,
+			20
+		}
+	},
+	[26911] = {
+		use_gold = 3000,
+		name = "Modernization",
+		max_level = 1,
+		skin_id = 301309,
+		use_ship = 1,
+		level_limit = 85,
+		star_limit = 5,
+		id = 26911,
+		icon = "mt_blue",
+		skill_id = 0,
+		descrip = "",
+		condition_id = {
+			26908,
+			26909,
+			26910
+		},
+		effect = {
+			{
+				antiaircraft = 25,
+				hit = 10
+			}
+		},
+		ship_id = {},
+		use_item = {
+			{
+				{
+					18003,
+					1
+				}
+			}
+		},
+		gear_score = {
+			50
+		}
+	},
 	[30901] = {
 		use_gold = 400,
 		name = "Hull Improvement Ⅰ",
@@ -12591,6 +12976,17 @@ When equipping <color=#A9F548>Reconnaissance</color>, <color=#A9F548>Yamashiro V
 		26309,
 		26310,
 		26311,
+		26901,
+		26902,
+		26903,
+		26904,
+		26905,
+		26906,
+		26907,
+		26908,
+		26909,
+		26910,
+		26911,
 		30901,
 		30902,
 		30903,

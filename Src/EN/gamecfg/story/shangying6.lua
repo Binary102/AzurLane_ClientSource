@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"春天的赏樱大会\n\n<size=30>六  花见酒</size>",
+					"Flower Festival\n\n<size=30>Chapter 6 - Sakura Sake</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			bgm = "story-1",
 			actor = 305034,
 			nameColor = "#a9f548",
-			say = "噗哈～果然说到赏樱花，就少不了这个呢～",
+			say = "*Glug glug*... Ahh, can't have a Flower Festival without something to drink!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -34,7 +34,7 @@ return {
 			}
 		},
 		{
-			say = "{namecode:76}姐的喝法还是那么豪爽呢，那我也——",
+			say = "Going straight for the sake, like always, eh... I think I'll have some, too...",
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -59,7 +59,7 @@ return {
 			bgName = "bg_story_school",
 			side = 2,
 			dir = -1,
-			say = "嘻嘻嘻，「花见酒」，还真是诗意啊～",
+			say = "Hohoho~! Nothing says elegance like Flower Festival sake!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			}
 		},
 		{
-			say = "重樱的风俗吗…真是不错呢",
+			say = "I suppose this is part of the tradition... Can't say I dislike it.",
 			side = 0,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -95,7 +95,7 @@ return {
 			bgName = "bg_story_school",
 			side = 0,
 			dir = 1,
-			say = "在飘零的樱花下举杯共饮，倒也别具一番风味",
+			say = "Drinking sake under a cherry tree waving in the wind feels... surprisingly charming.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			bgName = "bg_story_school",
 			side = 1,
 			dir = 1,
-			say = "重樱的酒，美味…嗝——",
+			say = "Yep, you can't top that Sakura Empire sake... *Buuuurp*...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			dir = 1,
 			actor = 306034,
 			nameColor = "#a9f548",
-			say = "那边也是另一番的热闹场景呢～",
+			say = "Oh dear, it seems they're getting busy with their beverages~",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -160,7 +160,7 @@ return {
 			bgName = "bg_story_school",
 			side = 2,
 			dir = 1,
-			say = "已经能预感到一会将会变成的“炼狱”景象了呢，呵呵～",
+			say = "Hmm... I hope they don't have too much to drink, or else they might get \"shipfaced\"~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

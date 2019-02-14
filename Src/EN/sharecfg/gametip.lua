@@ -2023,6 +2023,14 @@ pg.gametip = {
 		tip = "Commander, you haven't unlocked this feature yet!",
 		key = "main_navalAcademyScene_systemClose"
 	},
+	main_navalAcademyScene_noClass = {
+		tip = "This class isn't scheduled for today! Please find another teacher.",
+		key = "main_navalAcademyScene_noClass"
+	},
+	main_navalAcademyScene_noClassDialogue = {
+		tip = "You forgot the schedule again! We don't have this class today.",
+		key = "main_navalAcademyScene_noClassDialogue"
+	},
 	main_navalAcademyScene_quest_startClass = {
 		tip = "<color=#A9F548>Class is starting! Please take your seats~!</color>",
 		key = "main_navalAcademyScene_quest_startClass"
@@ -2038,6 +2046,10 @@ pg.gametip = {
 	main_navalAcademyScene_quest_Classover_short = {
 		tip = "Class dismissed! <color=#A9F548>$1</color> studied hard. <color=#A9F548>$2 +$3</color>!",
 		key = "main_navalAcademyScene_quest_Classover_short"
+	},
+	main_navalAcademyScene_full = {
+		tip = "This student has completed <color=#A9F548>all course credits</color>!",
+		key = "main_navalAcademyScene_full"
 	},
 	main_navalAcademyScene_upgrade_complete = {
 		tip = "<color=#A9F548>$1</color> upgraded! Max capacity <color=#9CFF5CE6>+$2</color>!",
@@ -4476,48 +4488,44 @@ Urgent Ops times: Wednesday, Saturday, Sunday]]
 	},
 	help_build = {
 		tip = [[
-						<size=23>$1 Construct Rate:</size>
+				<size=23>$1 Construct Rate:</size>
 
-										<color=#fff157> Super Rare</color>: $2%
-										 <color=#966af6>Elite</color>: $3%
-										 <color=#60a9ff>Rare</color>: $4%
-										 Common: $5% 
+								<color=#fff157> Super Rare</color>: $2%
+								 <color=#966af6>Elite</color>: $3%
+								 <color=#60a9ff>Rare</color>: $4%
+								 Common: $5% 
 
-									【Building Event】
-								<color=#966af6>Admiral Graf Spee</color>：1.4%<color=#A9F548>(up!)</color>
-]],
+									]],
 		key = "help_build"
 	},
 	help_build_1 = {
 		tip = [[
-						<size=23>$1 Construct Rate:</size>
+				<size=23>$1 Construct Rate:</size>
 
-										<color=#fff157> Super Rare</color>: $2%
-										 <color=#966af6>Elite</color>: $3%
-										 <color=#60a9ff>Rare</color>: $4%
-										 Common: $5% 
+								<color=#fff157> Super Rare</color>: $2%
+								 <color=#966af6>Elite</color>: $3%
+								 <color=#60a9ff>Rare</color>: $4%
+								 Common: $5% 
 
-									]],
+							 【Building Event】
+
+							<color=#966af6>   Ryuujou</color>：1.4%<color=#A9F548>(up!)</color>
+
+]],
 		key = "help_build_1"
 	},
 	help_build_2 = {
 		tip = [[
-						<size=23>$1 Construct Rate:</size>
+				<size=23>$1 Construct Rate:</size>
 
-										<color=#fff157> Super Rare</color>: $2%
-										 <color=#966af6>Elite</color>: $3%
-										 <color=#60a9ff>Rare</color>: $4%
-										 Common: $5% 
+								<color=#fff157> Super Rare</color>: $2%
+								 <color=#966af6>Elite</color>: $3%
+								 <color=#60a9ff>Rare</color>: $4%
+								 Common: $5% 
 
-									【Building Event】
-								<color=#966af6>   Yat Sen</color>：1.5%<color=#A9F548>(up!)</color>
-							   <color=#966af6>    Chang Chun</color>：1.5%<color=#A9F548>(up!)</color>
-						  <color=#966af6>         Tai Yuan</color>：1.5%<color=#A9F548>(up!)</color>
-						 <color=#966af6>          Mullany</color>：1.5%<color=#A9F548>(up!)</color>
-								   <color=#966af6>Chaser</color>：1.5%<color=#A9F548>(up!)</color>
-							  <color=#60a9ff>     Kimberly</color>：3.5%<color=#A9F548>(up!)</color>
-							  <color=#60a9ff>     Curacoa</color>：3.5%<color=#A9F548>(up!)</color>
-						  <color=#60a9ff>         Curlew</color>：3.5%<color=#A9F548>(up!)</color>
+							 【Building Event】
+
+							<color=#966af6>   Hatsushimo</color>：1.5%<color=#A9F548>(up!)</color>
 
 ]],
 		key = "help_build_2"
@@ -4584,7 +4592,7 @@ Urgent Ops times: Wednesday, Saturday, Sunday]]
 		key = "naval_academy_res_desc_shop"
 	},
 	naval_academy_res_desc_class = {
-		tip = "大講堂を強化すると、<color=#A9F548>熟練度上限、授業における熟練度変換の速さ</color>と<color=#A9F548>熟練度入手倍率</color>が上昇",
+		tip = "Upgrading the Lecture Hall will increase <color=#A9F548>Proficiency Limit</color>, <color=#A9F548>Proficiency Gain</color>, and <color=#A9F548>Proficiency to EXP</color> ",
 		key = "naval_academy_res_desc_class"
 	},
 	number_1 = {
@@ -5934,19 +5942,19 @@ She'll also receive a <color=#a0ff40>3%</color> stats bonus</size>.]],
 		key = "qiuqiu_total_count"
 	},
 	longxiang_count = {
-		tip = "目标式符-J：",
+		tip = "J Talisman target: ",
 		key = "longxiang_count"
 	},
 	longxiang_total_count = {
-		tip = "当前式符-J：",
+		tip = "J Talisman total: ",
 		key = "longxiang_total_count"
 	},
 	pt_count = {
-		tip = "Target$1 :",
+		tip = "Target $1 :",
 		key = "pt_count"
 	},
 	pt_total_count = {
-		tip = "In possession$1 :",
+		tip = "In possession $1 :",
 		key = "pt_total_count"
 	},
 	remould_ship_ok = {
@@ -6030,7 +6038,7 @@ She'll also receive a <color=#a0ff40>3%</color> stats bonus</size>.]],
 		key = "ship_profile_voice_locked"
 	},
 	ship_profile_skin_locked = {
-		tip = "Gear not yet unlocked.",
+		tip = "Skin not yet unlocked.",
 		key = "ship_profile_skin_locked"
 	},
 	ship_profile_words = {
@@ -6393,40 +6401,114 @@ She'll also receive a <color=#a0ff40>3%</color> stats bonus</size>.]],
 		tip = "Restore default volume settings?",
 		key = "sure_resume_volume"
 	},
+	course_class_not_ready = {
+		tip = "The teacher and students aren't here yet! Class can't begin until they arrive.",
+		key = "course_class_not_ready"
+	},
+	course_student_max_level = {
+		tip = "One of the students is fully leveled up. Unable to begin class!",
+		key = "course_student_max_level"
+	},
+	course_stop_confirm = {
+		tip = "Are you sure you want to cancel class and earn partial EXP?",
+		key = "course_stop_confirm"
+	},
+	course_class_help = {
+		key = "course_class_help",
+		tip = {
+			{
+				info = [[
+Lecture Hall Information
+
+When you put Students in the Lecture Hall, they can
+ partake in a Lecture which converts the fleet's
+ accumulated Proficiency into EXP.
+
+- About Proficiency
+A set amount of the EXP earned by Level 100 or higher
+ ships will be automatically added to the Lecture Hall in 
+the form of Proficiency.
+Proficiency is shared among the whole fleet and you
+ cannot accumulate more than the Lecture Hall can hold.
+Upgrading the Lecture Hall will increase the cap of how
+ much Proficiency you can accumulate as well as increase
+ the amount of Proficiency earned.
+
+- About Lectures
+The types of ships you can send to study in the Lecture Hall 
+depends on the day of the week.
+Once you have begun a Lecture, you can end it at any 
+time you wish.
+Ending the Lecture will convert Proficiency to EXP for the 
+Students depending on how long the Lecture lasted.
+The maximum amount of time a Lecture can last is 12 
+hours. After 12 hours have passed, the Lecture will 
+automatically be deemed finished.
+Up to the point before the Lecture finishes, the 
+acquired Proficiency will be automatically converted into 
+EXP for the Students in attendance.
+
+- About Students
+Only ships below Level 100 can be added the Lecture Hall.
+The more Students you add, the more efficient the 
+conversion rate of Proficiency to EXP will be.
+Students will lose a small amount of Morale when 
+participating in a Lecture.
+Monitors can partake in Battleship 
+Lectures.
+Repair Ships can partake in Destroyer and Cruiser Lectures.
+Aviation Battleships can partake in Carrier and Battleship 
+Lectures.
+
+- Lecture Schedule
+Monday: Destroyers - Amazon's Amazing Torpedo Tactics!
+Tuesday: Cruisers - The Right Ammo for The Right Time
+Wednesday: Battleships - Why The "Bigger Gun Principle" 
+Works
+Thursday: Carriers - Positioning Out on The Open Ocean
+Friday: Destroyers - Tactics Even a Monkey Could 
+Understand!
+Saturday: Cruisers - How To Maximize Your Firepower
+
+There are no Lectures on Sundays, but you will earn 
+double the amount of Proficiency from sorties.]]
+			}
+		}
+	},
 	course_class_name = {
-		tip = "今日の授業：《$1》",
+		tip = "Today's Lecture: $1",
 		key = "course_class_name"
 	},
 	course_proficiency_not_enough = {
-		tip = "熟練度が不足しています",
+		tip = "You do not have enough Proficiency.",
 		key = "course_proficiency_not_enough"
 	},
 	course_state_rest = {
-		tip = "準備中",
+		tip = "Setting Up",
 		key = "course_state_rest"
 	},
 	course_state_lession = {
-		tip = "授業時間：",
+		tip = "Elapsed Time:",
 		key = "course_state_lession"
 	},
 	course_energy_not_enough = {
-		tip = "<color=#A9F548>$1</color>のコンディションが低く、授業には参加できません",
+		tip = "<color=#A9F548>$1</color> has too low Morale to attend the Lecture.",
 		key = "course_energy_not_enough"
 	},
 	course_proficiency_tip = {
-		tip = "限界突破を3回行った<material=outline c=#3D3D3DFF x1y-1><color=#A9F548FF>レベル$1</color></material>の艦は出撃時、得られる経験値の<material=outline c=#3D3D3DFF x1y-1><color=#A9F548FF>$2%</color></material>分の熟練度を獲得できます",
+		tip = "When you sortie with ships that are <material=outline c=#3D3D3DFF x1y-1><color=#A9F548FF>Level $1</color></material> or higher, the Lecture Hall will automatically store <material=outline c=#3D3D3DFF x1y-1><color=#A9F548FF>$2%</color></material> of the EXP they earn in the form of Proficiency.",
 		key = "course_proficiency_tip"
 	},
 	course_sunday_tip = {
-		tip = "本日は授業がありません（出撃時に入手する熟練度が2倍）",
+		tip = "There are no Lectures today, but the Proficiency you acquire when sortieing will be doubled.",
 		key = "course_sunday_tip"
 	},
 	course_exit_confirm = {
-		tip = "授業はまだ始まっていません。大講堂画面を閉じますか？",
+		tip = "The Lecture has not started yet. Would you like to leave the Lecture Hall?",
 		key = "course_exit_confirm"
 	},
 	course_learning = {
-		tip = "ただいま授業中",
+		tip = "A Lecture has already commenced.",
 		key = "course_learning"
 	},
 	time_remaining_tip = {
@@ -6724,6 +6806,43 @@ She'll also receive a <color=#a0ff40>3%</color> stats bonus</size>.]],
 	emoji_type_3 = {
 		tip = "Pixel ",
 		key = "emoji_type_3"
+	},
+	card_pairs_help_tip = {
+		key = "card_pairs_help_tip",
+		tip = {
+			{
+				info = "Game Rules:\n"
+			},
+			{
+				info = " <color=#A1E400FF>1. Every day at 0:00:00 for the duration of the event, you\n get 1 Round that can be used to acquire a Memory Card.\n You can hold up to a maximum of 10 Rounds.</color>"
+			},
+			{
+				info = " 2. When you match 2 identical cards on the board, they will\n disappear."
+			},
+			{
+				info = " 3. The game's timer starts ticking when you flip the first\n card."
+			},
+			{
+				info = " 4. When you have matched all the cards with their pairs, you\n will get a Memory Card if you have 1 or more Rounds\n remaining. This will then consume 1 Round."
+			},
+			{
+				info = " 5. When you have matched all the cards, you can tap\n anywhere to play the game again."
+			},
+			{
+				info = " 6.When you have collected 10 Memory Cards, you will\n receive Houshou's skin."
+			},
+			{
+				info = [[
+ 7. Your fastest clearing record will be displayed on the
+ event page.
+
+]]
+			}
+		}
+	},
+	card_pairs_tips = {
+		tip = "You cannot acquire any more Memory Cards today. Would you still like to play the game?",
+		key = "card_pairs_tips"
 	},
 	extra_chapter_socre_tip = {
 		tip = [[
@@ -7220,15 +7339,15 @@ $3]],
 		key = "apply_permission_camera_tip3"
 	},
 	apply_permission_record_audio_tip1 = {
-		tip = "To use AR camera game feature, need permission to access camera.",
+		tip = "To use AR Record game feature, need permission to access Record.",
 		key = "apply_permission_record_audio_tip1"
 	},
 	apply_permission_record_audio_tip2 = {
-		tip = "You have turned off camera permission, please confirm camera permission in the game settings menu.",
+		tip = "You have turned off Record permission, please confirm Record permission in the game settings menu.",
 		key = "apply_permission_record_audio_tip2"
 	},
 	apply_permission_record_audio_tip3 = {
-		tip = "You refused to authorize camera permission, unable to use AR camera game feature.",
+		tip = "You refused to authorize Record permission, unable to use AR Recording game feature.",
 		key = "apply_permission_record_audio_tip3"
 	},
 	story_skip_confirm = {

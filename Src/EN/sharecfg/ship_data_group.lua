@@ -4602,6 +4602,28 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[174] = {
+		nationality = 3,
+		hide = 0,
+		trans_skin = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		code = 174,
+		type = 1,
+		group_type = 30124,
+		trans_type = 0,
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"Time-Limited Construction",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[176] = {
 		nationality = 3,
 		hide = 0,
@@ -5203,6 +5225,28 @@ pg.ship_data_group = {
 					{
 						chapterid = 202
 					}
+				},
+				0
+			}
+		}
+	},
+	[223] = {
+		nationality = 3,
+		hide = 0,
+		trans_skin = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		code = 223,
+		type = 6,
+		group_type = 30606,
+		trans_type = 0,
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"Event: The Solomon Ranger",
+				{
+					""
 				},
 				0
 			}
@@ -6160,6 +6204,41 @@ pg.ship_data_group = {
 				"Event: Divergent Chessboard",
 				{
 					""
+				},
+				0
+			}
+		}
+	},
+	[269] = {
+		nationality = 3,
+		hide = 0,
+		trans_skin = 301309,
+		handbook_type = 0,
+		redirect_id = 101,
+		code = 269,
+		type = 1,
+		group_type = 30130,
+		trans_type = 1,
+		trans_radar_chart = {
+			"D",
+			"B",
+			"E",
+			"A",
+			"C",
+			"D"
+		},
+		trans_skill = {
+			11130
+		},
+		description = {
+			{
+				"Light ship Construction",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
 				},
 				0
 			}
@@ -7193,6 +7272,7 @@ pg.ship_data_group = {
 		167,
 		168,
 		170,
+		174,
 		176,
 		182,
 		183,
@@ -7215,6 +7295,7 @@ pg.ship_data_group = {
 		368,
 		220,
 		222,
+		223,
 		224,
 		225,
 		226,
@@ -7250,6 +7331,7 @@ pg.ship_data_group = {
 		265,
 		266,
 		267,
+		269,
 		270,
 		271,
 		272,

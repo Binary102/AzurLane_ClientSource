@@ -1281,7 +1281,7 @@ end
 function slot0.updateInimacy(slot0, slot1)
 	SetActive(slot0.inimacyTF, slot1)
 	onButton(slot0, slot0.inimacyTF, function ()
-		if (not slot0.boatVO:hasInterActionFurnitrue() and not slot0.boatVO:hasSpineInterAction()) or not slot0.boatVO:hasSpineExtra() then
+		if not slot0.boatVO:hasInterActionFurnitrue() and not slot0.boatVO:hasSpineInterAction() and not slot0.boatVO:hasSpineExtra() then
 			slot0:switchAnimation("motou")
 		end
 

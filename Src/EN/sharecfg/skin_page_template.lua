@@ -25,6 +25,11 @@ pg.skin_page_template = {
 		name = "水着",
 		res = "yongzhuang"
 	},
+	[9] = {
+		id = 9,
+		name = "私服",
+		res = "sifu"
+	},
 	[9999] = {
 		id = 9999,
 		name = "その他",
@@ -36,6 +41,7 @@ pg.skin_page_template = {
 		3,
 		4,
 		6,
+		9,
 		9999
 	}
 }

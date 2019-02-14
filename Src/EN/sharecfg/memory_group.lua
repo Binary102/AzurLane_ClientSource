@@ -99,6 +99,22 @@ pg.memory_group = {
 			50
 		}
 	},
+	[104] = {
+		title = "A Day with {namecode:89}",
+		type = 2,
+		id = 104,
+		icon = "title_event",
+		memories = {
+			82,
+			83,
+			84,
+			85,
+			86,
+			87,
+			88,
+			89
+		}
+	},
 	[107] = {
 		title = "Mid-Autumn Festival",
 		type = 2,
@@ -340,6 +356,21 @@ pg.memory_group = {
 			220
 		}
 	},
+	[124] = {
+		title = "Flower Festival",
+		type = 2,
+		id = 124,
+		icon = "title_event",
+		memories = {
+			239,
+			240,
+			241,
+			242,
+			243,
+			244,
+			245
+		}
+	},
 	[125] = {
 		title = "Sakura School Festival",
 		type = 2,
@@ -383,6 +414,25 @@ pg.memory_group = {
 			498,
 			499,
 			500
+		}
+	},
+	[145] = {
+		title = "The Solomon Ranger",
+		type = 2,
+		id = 145,
+		icon = "title_event",
+		memories = {
+			574,
+			575,
+			576,
+			577,
+			578,
+			579,
+			580,
+			581,
+			582,
+			583,
+			584
 		}
 	},
 	[147] = {
@@ -548,6 +598,21 @@ pg.memory_group = {
 			521
 		}
 	},
+	[531] = {
+		title = "Light Carrier Ryuujou, Moving Out!",
+		type = 3,
+		id = 531,
+		icon = "title_chara_longxiang",
+		memories = {
+			567,
+			568,
+			569,
+			570,
+			571,
+			572,
+			573
+		}
+	},
 	all = {
 		1,
 		2,
@@ -555,6 +620,7 @@ pg.memory_group = {
 		4,
 		101,
 		102,
+		104,
 		107,
 		108,
 		110,
@@ -570,9 +636,11 @@ pg.memory_group = {
 		120,
 		121,
 		122,
+		124,
 		125,
 		128,
 		141,
+		145,
 		147,
 		148,
 		149,
@@ -581,7 +649,8 @@ pg.memory_group = {
 		513,
 		528,
 		529,
-		530
+		530,
+		531
 	}
 }
 

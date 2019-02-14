@@ -651,7 +651,10 @@ function slot0.listNotificationInterests(slot0)
 		GAME.CHAPTER_OP_DONE,
 		CommanderProxy.COMMANDER_BOX_FINISHED,
 		GAME.FETCH_NPC_SHIP_DONE,
-		GAME.MAINUI_ACT_BTN_DONE
+		GAME.MAINUI_ACT_BTN_DONE,
+		PERMISSION_GRANTED,
+		PERMISSION_REJECT,
+		PERMISSION_NEVER_REMIND
 	}
 end
 
@@ -734,6 +737,28 @@ function slot0.handleNotification(slot0, slot1)
 		slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3.items, slot3.callback)
 	elseif slot2 == GAME.MAINUI_ACT_BTN_DONE then
 		slot0.viewComponent:notifyActivitySummary(slot3.cnt, slot3.priority)
+	elseif PERMISSION_GRANTED == slot2 then
+		if slot3 == ANDROID_CAMERA_PERMISSION then
+			slot0.viewComponent:openSnapShot()
+		end
+	elseif PERMISSION_REJECT == slot2 then
+		if slot3 == ANDROID_CAMERA_PERMISSION then
+			pg.MsgboxMgr:GetInstance():ShowMsgBox({
+				content = i18n("apply_permission_camera_tip3"),
+				onYes = function ()
+					ApplyPermission({
+						ANDROID_CAMERA_PERMISSION
+					})
+				end
+			})
+		end
+	elseif PERMISSION_NEVER_REMIND and slot3 == ANDROID_CAMERA_PERMISSION then
+		pg.MsgboxMgr:GetInstance():ShowMsgBox({
+			content = i18n("apply_permission_camera_tip2"),
+			onYes = function ()
+				OpenDetailSetting()
+			end
+		})
 	end
 end
 

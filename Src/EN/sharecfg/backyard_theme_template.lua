@@ -906,6 +906,41 @@ pg.backyard_theme_template = {
 			39307
 		}
 	},
+	[41] = {
+		Cfg_1 = 5,
+		name = "Manjuu Amusement Park ",
+		desc = "The mystical, magical Manjuu Amusement Park welcomes one and all! ",
+		deblocking = 1,
+		new = 1,
+		hot = 1,
+		Cfg_2 = 8,
+		is_view = 1,
+		discount = 0,
+		id = 41,
+		icon = "vtthemeicon",
+		comfortable = 0,
+		discount_time = "",
+		ids = {
+			41001,
+			41002,
+			41101,
+			41102,
+			41103,
+			41104,
+			41105,
+			41106,
+			41107,
+			41108,
+			41109,
+			41110,
+			41111,
+			41112,
+			41113,
+			41114,
+			41115,
+			41116
+		}
+	},
 	all = {
 		1,
 		2,
@@ -924,7 +959,8 @@ pg.backyard_theme_template = {
 		35,
 		37,
 		38,
-		39
+		39,
+		41
 	}
 }
 

@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"轻型航母{namecode:90}参上！\n\n<size=30>五 烦恼！到底最近怎么了……？</size>",
+					"Light Carrier Ryuujou, Moving Out!\n\n<size=30>Chapter 5: Worries! What's going on with me lately?</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "港区・重樱宿舍",
+			say = "Port - Sakura Dorm",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -52,7 +52,7 @@ return {
 			dir = 1,
 			actor = 306061,
 			nameColor = "#a9f548",
-			say = "果、果然还是很后悔……让主公看到那副粗鲁的样子，真是武士之耻…！",
+			say = "I-I'm still full of regret from letting Milord see such rudeness... what a shameful thing for a ranger...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			dir = 1,
 			actor = 306061,
 			nameColor = "#a9f548",
-			say = "呜…！这件事竟然会让吾如此烦恼……！",
+			say = "Ugh...! This thing has been bugging me for so long now...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "休息日在自己的房间的{namecode:90}显得坐立难安。",
+			say = "On her day off, the restless Ryuujou was pacing around in her room.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			dir = 1,
 			actor = 306061,
 			nameColor = "#a9f548",
-			say = "这样下去的话，别说秘书舰了，就连军人的本职工作可能都没法照常进行了呢……",
+			say = "If this keeps up, I won't even be able to do my normal military work, let alone serve as the secretary ship.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "虽然是久违的休息日，今天的{namecode:90}从早上开始便没踏出房门一步。",
+			say = "Though it was her day off, Ryuujou hadn't stepped outside her room even a single time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "回过神来才发现，早上起床擦了三次地板，整理东西两个小时，为了把玩偶藏起来，竟然花了一整个上午的时间。",
+			say = "Before she noticed, she had already cleaned the floor three times, spent two hours organizing things, and hid away all the dolls in her room. When all was said and done, the morning was already over.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			dir = 1,
 			actor = 306061,
 			nameColor = "#a9f548",
-			say = "唉，{namecode:6}推荐的“游戏机”都没来得及玩…！",
+			say = "Aww, I didn't even have a chance to play the game that Ayanami recommended...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			dir = 1,
 			actor = 306061,
 			nameColor = "#a9f548",
-			say = "这么一想，最近总是不在状态啊…",
+			say = "Now that I think about it, I've been a bit off recently...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			dir = 1,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
-			say = "对、对不起！吾忘了昨天您拜托我的资料…！",
+			say = "I-I'm sorry! I forgot the information you told me yesterday...!",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -235,7 +235,7 @@ return {
 			bgName = "bg_story_outdoor",
 			actor = 306061,
 			nameColor = "#a9f548",
-			say = "灰色幽灵！你总算来了！身为前一航战的一员，这个仇非报不可！",
+			say = "You've come, Grey Ghost! As a former member of the First Carrier Division, I will have my vengeance!",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -268,7 +268,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（主公在看的时候正是挽回名誉的绝佳机会！嗯，主公在哪个方向……）",
+			say = "(This will be a great opportunity to redeem myself in front of Milord... Come to think of it, where is...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 			dir = 1,
 			actor = 306061,
 			nameColor = "#a9f548",
-			say = "好痛！……判定中弹！？怎么会这样！",
+			say = "O-ow!! ..I-I've been hit?! No way!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -312,7 +312,7 @@ return {
 			bgName = "star_level_bg_103",
 			actor = 306061,
 			nameColor = "#a9f548",
-			say = "光辉，虽说确实是我提出想要挑件和主公外出购物时穿的可爱衣服的……",
+			say = "Illustrious, even though it was me who suggested to go shopping for cute outfits that Milord would like...",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -345,7 +345,7 @@ return {
 			dir = 1,
 			actor = 306061,
 			nameColor = "#a9f548",
-			say = "就、就算这样也不用给我这么轻飘飘的衣服吧……！",
+			say = "N-no matter how you look at it, there's no way I could wear such... breezy clothing...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -372,7 +372,7 @@ return {
 			actor = 306061,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
-			say = "吾到底是怎么了啊……",
+			say = "Just what in the world is wrong with me...",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -409,7 +409,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "{namecode:90}为了驱散心底的不安，拿出几个小时前塞进抽屉的玩偶——",
+			say = "In order to soothe the worries eating away at her, Ryuujou dug a Manjuu plushie out from the closet she had stuffed it in just hours earlier...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -420,7 +420,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			blackBg = true,
-			say = "就这么紧抱着它在被子里滚来滚去，度过了一整天。",
+			say = "And squeezed it tightly while rolling around in bed for the rest of the day.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

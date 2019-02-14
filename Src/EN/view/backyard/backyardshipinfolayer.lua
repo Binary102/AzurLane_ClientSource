@@ -372,7 +372,7 @@ function slot0.updateShip(slot0, slot1, slot2)
 				math.max(slot1:getLevelExpConfig().exp - slot1.exp, 0)
 			},
 			{
-				i18n("word_exp_chinese") .. i18n("word_get"),
+				i18n("word_exp_chinese"),
 				slot0.speed
 			}
 		})
@@ -402,7 +402,7 @@ function slot0.updateShip(slot0, slot1, slot2)
 				math.max(slot1:getLevelExpConfig().exp - slot1.exp, 0)
 			},
 			{
-				i18n("word_exp_chinese") .. i18n("word_get"),
+				i18n("word_exp_chinese"),
 				(slot0.speed or "") .. "/h"
 			}
 		})

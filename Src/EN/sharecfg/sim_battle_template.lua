@@ -8,8 +8,8 @@ pg.sim_battle_template = {
 			32
 		},
 		sim_shop_time = {
-			32,
-			32
+			1,
+			31
 		},
 		goods = {
 			10001,
@@ -38,8 +38,8 @@ pg.sim_battle_template = {
 			32
 		},
 		sim_shop_time = {
-			32,
-			32
+			1,
+			28
 		},
 		goods = {
 			10001,
@@ -68,7 +68,7 @@ pg.sim_battle_template = {
 			32
 		},
 		sim_shop_time = {
-			7,
+			1,
 			31
 		},
 		goods = {
@@ -128,8 +128,8 @@ pg.sim_battle_template = {
 			32
 		},
 		sim_shop_time = {
-			32,
-			32
+			1,
+			31
 		},
 		goods = {
 			10001,
@@ -158,8 +158,8 @@ pg.sim_battle_template = {
 			32
 		},
 		sim_shop_time = {
-			32,
-			32
+			1,
+			30
 		},
 		goods = {
 			10001,
@@ -188,8 +188,8 @@ pg.sim_battle_template = {
 			32
 		},
 		sim_shop_time = {
-			32,
-			32
+			1,
+			31
 		},
 		goods = {
 			10001,
@@ -218,8 +218,8 @@ pg.sim_battle_template = {
 			32
 		},
 		sim_shop_time = {
-			32,
-			32
+			1,
+			31
 		},
 		goods = {
 			10001,
@@ -248,8 +248,8 @@ pg.sim_battle_template = {
 			32
 		},
 		sim_shop_time = {
-			32,
-			32
+			1,
+			30
 		},
 		goods = {
 			10001,
@@ -278,8 +278,8 @@ pg.sim_battle_template = {
 			32
 		},
 		sim_shop_time = {
-			32,
-			32
+			1,
+			31
 		},
 		goods = {
 			10001,
@@ -308,8 +308,8 @@ pg.sim_battle_template = {
 			32
 		},
 		sim_shop_time = {
-			32,
-			32
+			1,
+			30
 		},
 		goods = {
 			10001,
@@ -338,8 +338,8 @@ pg.sim_battle_template = {
 			32
 		},
 		sim_shop_time = {
-			32,
-			32
+			1,
+			31
 		},
 		goods = {
 			10001,

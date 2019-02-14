@@ -11,7 +11,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "嘻嘻嘻，太天真了！以为用{namecode:90}做诱饵达成了目的？这下有的你们哭的～",
+			say = "Hehehe~ too naive! Did you think we'd fall for your little decoy?",
 			bgm = "level",
 			typewriter = {
 				speed = 0.05,
@@ -27,7 +27,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
-			say = "萨拉，咳咳，你做了什么？",
+			say = "Saratoga... just what are you doing...",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -46,7 +46,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘿嘿嘿，就让萨拉老师来为你分析一下吧～",
+			say = "Hehe, let Miss Sara break it down for you~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "重樱肯定是想要夺回岛上的设施的，毕竟本来就是她们建造的",
+			say = "If the Sakura Fleet plans to retake this island, there surely must also be an accompanying supply line...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "然而无论是想要夺回还是摧毁设施，都只能先打败我们。而以我们看到的战斗力量来说——",
+			say = "But Shoukaku and Zuikaku were nowhere to be found, and neither were Hiei and Kirishima. That could only mean...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "……我懂了，应该还有别的往岛上前进的部队。",
+			say = "I see... there's a separate force escorting the transport fleet...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "bingo～不愧是企业同学～萨拉老师好感动！",
+			say = "Bingo~! As expected of my brightest pupil! Miss Sara is very proud of you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我联络了守备岛屿的其他同伴，让她们趁着{namecode:90}被波特兰她们纠缠时搜索一下周边海域",
+			say = "I contacted our allies to search the surrounding waters while Portland and the others tied Ryuujou down.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "然后就真的被我抓到了～想必正是为登陆作战运输的物资吧",
+			say = "And with that, I was able to capture their transport ships! If they were using a decoy in the first place, they were bound to be planning something like this.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "……厉害，以一敌二还能分心想到这种事吗。",
+			say = "Impressive. You managed to think that far ahead even while fighting the enemy?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘻嘻，小意思小意思，多夸夸我也没关系哦？",
+			say = "Hehe~ it's fine to praise me more~♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,7 +181,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过话虽这么说，企业吸引了敌人的火力也为我们争取了制定作战计划的时间呢……",
+			say = "Having that all said though, Enterprise was the one who drew the enemy's fire and gave us the time to develop this plan...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +196,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "从这点来说，能够如此成功的阻止敌人的计划也是企业你的功劳呢！",
+			say = "From this standpoint, you share the same credit for successfully stopping our enemies in their tracks!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "哈哈，如果是这样的话，我受的伤也算是值得了",
+			say = "Thank you. If that is the case, then these wounds are well-earned.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +226,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不要说这种话啦…企业你伤得有点重了呢…",
+			say = "Don't say that... your injuries are quite severe...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这种情况下对面的{namecode:95}{namecode:96}多半也已经撤退了，你就先安心回港口修养吧～",
+			say = "Since the Sakura Fleet has already withdrawn, you should return to port and get some emergency repairs.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +256,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这里就交给我和胡蜂了！",
+			say = "Wasp and I will handle the rest, so don't worry!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,7 +271,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "那就……麻烦你们了。",
+			say = "Sorry for causing you trouble... I'll leave the rest to you then.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "虽然我们暂时拿下一局，不过…接下来的战斗一定会更加严苛的，不打起精神来可不行！",
+			say = "Although we managed to win a battle, the war isn't over yet, and the next battle will be even more difficult. We've got to keep our spirits up!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,7 +301,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "嗯…既然彼此都不可能愿意放弃，那这场战争…还很长呢——",
+			say = "That's right... as long as both sides refuse to budge, this war will continue to rage on...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

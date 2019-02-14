@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"春天的赏樱大会\n\n<size=30>三  祭典的准备</size>",
+					"Flower Festival\n\n<size=30>Chapter 3 - Preparing for the Party</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			bgm = "story-1",
 			actor = 306034,
 			nameColor = "#a9f548",
-			say = "好～那就开始准备吧～",
+			say = "There... Now, could someone help me with these boxes~?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -39,7 +39,7 @@ return {
 			dir = 1,
 			actor = 307041,
 			nameColor = "#a9f548",
-			say = "一个人忙不过来的吧！看看我带了些谁来～",
+			say = "Sorry for leaving you to do everything alone... But I brought some people who can lend us a hand!",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -67,7 +67,7 @@ return {
 			}
 		},
 		{
-			say = "哎呀呀，这是",
+			say = "Oh, who might they be...?",
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -92,7 +92,7 @@ return {
 			bgName = "bg_story_school",
 			side = 2,
 			dir = 1,
-			say = "请让我也帮点忙吧～",
+			say = "Me, for one!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +108,7 @@ return {
 			bgName = "bg_story_school",
 			side = 2,
 			dir = 1,
-			say = "料理吗…虽然做不出很华丽的东西，帮忙做点平常的料理还是可以的～",
+			say = "I can probably help you with the food as long as it's not too fancy!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			bgName = "bg_story_school",
 			side = 2,
 			dir = 1,
-			say = "我们也来帮忙了～",
+			say = "Please allow us to help you out as well.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			bgName = "bg_story_school",
 			side = 2,
 			dir = 1,
-			say = "赏樱大会呀，真是期待呢～",
+			say = "I'm so excited for the Flower Festival I can hardly wait!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			}
 		},
 		{
-			say = "哎呀呀，真是热闹呢",
+			say = "My, it's starting to get crowded in here!",
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -176,7 +176,7 @@ return {
 			bgName = "bg_story_school",
 			side = 2,
 			dir = 1,
-			say = "我说到赏樱大会，大家就主动过来帮忙了呢～",
+			say = "All I did was tell them about the Flower Festival and they all came here to help!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			bgName = "bg_story_school",
 			side = 2,
 			dir = 1,
-			say = "看来大家都对赏樱大会很期待呀～",
+			say = "They must have really high expectations of it~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			bgName = "bg_story_school",
 			side = 2,
 			dir = 1,
-			say = "好～那就来做出不辜负大家期待的赏樱料理吧～",
+			say = "Then, to meet their expectations, I think we should make some gourmet food for all our guests to enjoy~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

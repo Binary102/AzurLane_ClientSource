@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"轻型航母{namecode:90}参上！\n\n<size=30>七  勇气！果然还是最喜欢指挥官了！</size>",
+					"Light Carrier Ryuujou, Moving Out!\n\n<size=30>Chapter 7: Bravery! Commander, I love you!</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "学园・校舍后面",
+			say = "Academy - Behind the School",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -49,7 +49,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "今天的公务结束后，被{namecode:90}叫到学院校舍后面，说是有想对主公传达的事情",
+			say = "After I finished work, Ryuujou called me to meet her behind the school, saying \"Milord, I have something important to tell you.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "既然是秘书舰，为什么不在指挥室说呢……？",
+			say = "But she's the secretary ship, so why can't she just say it in the office...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……………………………",
+			say = "... .... ... ... ... ... ... ... ... ...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			dir = 1,
 			actor = 306061,
 			nameColor = "#a9f548",
-			say = "…………………………………………………………",
+			say = "... .... ... ... ... ... ... ... ... ...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "尴尬的气氛在渐渐扩散。",
+			say = "The awkward atmosphere grew thicker.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,7 +114,7 @@ return {
 			dir = 1,
 			actor = 306061,
 			nameColor = "#a9f548",
-			say = "那那那那那个！感、感谢您在公务时间之外抽出时间来见吾！",
+			say = "Uh... uh... um...! Th-thank you for taking time outside your business hours to see me!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +141,7 @@ return {
 			dir = 1,
 			actor = 306061,
 			nameColor = "#a9f548",
-			say = "实、实际上有件思考了很久的事情想跟您商量！",
+			say = "A-actually, there is something that's been on my mind for a long time that I've wanted to discuss with you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +158,7 @@ return {
 			dir = 1,
 			actor = 306061,
 			nameColor = "#a9f548",
-			say = "希望您每天都能为吾做味增汤！",
+			say = "Milord, I would like you to make miso soup for me every day!",
 			effects = {
 				{
 					active = true,
@@ -178,7 +178,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "脸色通红的{namecode:90}开始手忙脚乱地进行说明。",
+			say = "Ryuujou, blushing from ear to ear, fumbled over her words as she hastily tried to explain what she meant.",
 			effects = {
 				{
 					active = false,
@@ -197,7 +197,7 @@ return {
 			dir = 1,
 			actor = 306061,
 			nameColor = "#a9f548",
-			say = "总、总之，之前在食堂被主公您看到了如此不成体统的一面之后，吾一天到晚都十分在意您的视线！",
+			say = "A-anyway, ever since you saw me at the cafeteria, I've been worried about that day and night!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "然后萨拉托加小姐她们又为我支了很多招……那个……说是只要吾把整颗心所想传达给主公的话，肯定……",
+			say = "So, Saratoga told me that... um... as long as I express my feelings... Milord would surely understand...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			dir = 1,
 			actor = 306061,
 			nameColor = "#a9f548",
-			say = "直说的话，萨拉托加小姐说“在校舍背面对指挥官告白的话肯定会被被壁咚然后心脏加速之前就都会万事解决啦！”，所以才变成现在这样！",
+			say = "To be honest, Saratoga told me \"If you confess behind the school building, Commander will slam you into the wall and all your worries will be washed away by the pounding of your hearts,\" so that's how this ended up happening...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +257,7 @@ return {
 			dir = 1,
 			actor = 306061,
 			nameColor = "#a9f548",
-			say = "哈……哈……果然吾对于这种男女之情真是……完全应付不来呢……",
+			say = "Haah... haah... this kind of stuff... between a man and a woman... I can't deal with it after all...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,7 +271,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "虽然有很多想吐槽的地方，但是她的真心无法否定。",
+			say = "Even though there was so much that I wanted to shake my head at, her true feelings were undeniable.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +283,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "其实吾只是想向主公展示出更好的自己…希望您能转过来看看吾……",
+			say = "Truthfully... I just wanted you to think better of me... so you would turn around and look at me...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -300,7 +300,7 @@ return {
 			dir = 1,
 			actor = 306061,
 			nameColor = "#a9f548",
-			say = "所以，请接受吾的心意！不肖{namecode:90}为了主公水里来火里去也在所不惜！",
+			say = "That's why... please accept my feelings! Milord, this humble Ryuujou will gladly face any challenge for your sake!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -327,7 +327,7 @@ return {
 			dir = 1,
 			actor = 306061,
 			nameColor = "#a9f548",
-			say = "最喜欢指挥官了！",
+			say = "Commander, I love you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -342,7 +342,7 @@ return {
 			bgName = "star_level_bg_103",
 			dir = 1,
 			blackBg = true,
-			say = "对于{namecode:90}的告白，你会——",
+			say = "Will you accept my confession...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

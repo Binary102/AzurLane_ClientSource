@@ -11,7 +11,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "那是……",
+			say = "That girl is...",
 			bgm = "level",
 			typewriter = {
 				speed = 0.05,
@@ -27,7 +27,7 @@ return {
 			dir = -1,
 			actor = 305061,
 			nameColor = "#a9f548",
-			say = "为什么都是战舰，我的速度会比{namecode:71}和{namecode:73}慢那么多呢？",
+			say = "Why am I so much slower than Hiei and Kirishima even though we're all battleships?",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -59,7 +59,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "为什么一定要让{namecode:90}去当诱饵呢？",
+			say = "Why does Ryuujou have to act as a decoy anyway?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "哎呀，要是{namecode:74}姐姐在身边就好了……",
+			say = "Arghh... if only Nagato was here...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			dir = 1,
 			actor = 103061,
 			nameColor = "#a9f548",
-			say = "……虽然不如印第，不过好像也是个出色的妹妹呢！",
+			say = "... Even though she doesn't compare to Indy, what a virtuous little sister!",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -121,7 +121,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
-			say = "你应该不会手下留情吧。",
+			say = "... And you're going to hold back because of it?",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -140,7 +140,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没有啦，我只是感慨一下，我的心里永远只有印第一个！",
+			say = "Don't worry! No matter how many cute and virtuous little sisters are out there, the only one that matters in my heart is Indy!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哈……",
+			say = "Good grief...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

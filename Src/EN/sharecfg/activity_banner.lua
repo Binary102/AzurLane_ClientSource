@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.activity_banner = {
 	{
-		param = "30064",
+		param = "30074",
 		type = 3,
 		id = 1,
 		pic = "temp2",
@@ -9,8 +9,8 @@ pg.activity_banner = {
 			{
 				{
 					2019,
-					1,
-					31
+					2,
+					14
 				},
 				{
 					0,
@@ -22,7 +22,7 @@ pg.activity_banner = {
 				{
 					2019,
 					2,
-					13
+					21
 				},
 				{
 					23,
@@ -33,9 +33,18 @@ pg.activity_banner = {
 		}
 	},
 	{
+		time = "always",
 		type = 2,
 		id = 2,
-		pic = "temp5",
+		pic = "temp3",
+		param = {
+			"scene level"
+		}
+	},
+	{
+		type = 2,
+		id = 3,
+		pic = "temp9",
 		param = {
 			"scene charge",
 			{
@@ -46,8 +55,8 @@ pg.activity_banner = {
 			{
 				{
 					2019,
-					1,
-					31
+					2,
+					14
 				},
 				{
 					0,
@@ -55,6 +64,26 @@ pg.activity_banner = {
 					0
 				}
 			},
+			{
+				{
+					2019,
+					2,
+					20
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		param = "30077",
+		type = 3,
+		id = 4,
+		pic = "temp6",
+		time = {
 			{
 				{
 					2019,
@@ -62,26 +91,6 @@ pg.activity_banner = {
 					14
 				},
 				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		param = "30062",
-		type = 3,
-		id = 3,
-		pic = "temp4",
-		time = {
-			{
-				{
-					2019,
-					1,
-					31
-				},
-				{
 					0,
 					0,
 					0
@@ -90,45 +99,8 @@ pg.activity_banner = {
 			{
 				{
 					2019,
-					2,
-					7
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		type = 2,
-		id = 4,
-		pic = "temp11",
-		param = {
-			"scene get boat",
-			{
-				wrap = 1
-			}
-		},
-		time = {
-			{
-				{
-					2019,
-					1,
-					31
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					2,
-					7
+					3,
+					6
 				},
 				{
 					23,
@@ -141,43 +113,6 @@ pg.activity_banner = {
 	{
 		type = 2,
 		id = 5,
-		pic = "temp6",
-		param = {
-			"scene charge",
-			{
-				wrap = 1
-			}
-		},
-		time = {
-			{
-				{
-					2019,
-					1,
-					31
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					2,
-					7
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		type = 2,
-		id = 6,
 		pic = "temp7",
 		param = {
 			"scene charge",
@@ -213,92 +148,67 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "30059",
-		type = 3,
+		type = 2,
+		id = 6,
+		pic = "temp12",
+		param = {
+			"scene back yard"
+		},
+		time = {
+			{
+				{
+					2019,
+					2,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					3,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		type = 2,
 		id = 7,
-		pic = "temp9",
-		time = {
+		pic = "temp5",
+		param = {
+			"scene charge",
 			{
-				{
-					2019,
-					1,
-					21
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					2,
-					7
-				},
-				{
-					23,
-					59,
-					59
-				}
+				wrap = 1
 			}
-		}
-	},
-	{
-		param = "30055",
-		type = 3,
-		id = 8,
-		pic = "temp3",
+		},
 		time = {
-			{
-				{
-					2019,
-					1,
-					10
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					2,
-					6
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		param = "30047",
-		type = 3,
-		id = 9,
-		pic = "temp8",
-		time = {
-			{
-				{
-					2019,
-					1,
-					1
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
 			{
 				{
 					2019,
 					1,
 					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					2,
+					17
 				},
 				{
 					23,
@@ -312,7 +222,7 @@ pg.activity_banner = {
 		param = "0",
 		time = "always",
 		type = 3,
-		id = 10,
+		id = 8,
 		pic = "temp1"
 	},
 	all = {
@@ -323,9 +233,7 @@ pg.activity_banner = {
 		5,
 		6,
 		7,
-		8,
-		9,
-		10
+		8
 	}
 }
 

@@ -72,6 +72,15 @@ pg.open_systems_limited = {
 		mediator = "ShamShop",
 		level = 10
 	},
+	{
+		scene = "MAINUI",
+		name = "Auditorium",
+		guid_end_id = 0,
+		guidId = 0,
+		id = 9,
+		mediator = "ClassMediator",
+		level = 50
+	},
 	all = {
 		1,
 		2,
@@ -80,7 +89,8 @@ pg.open_systems_limited = {
 		5,
 		6,
 		7,
-		8
+		8,
+		9
 	}
 }
 

@@ -4239,7 +4239,7 @@ pg.shop_template = {
 		is_auto_use = 1,
 		group_limit = 0,
 		group_buy_count = 0,
-		tag = 2,
+		tag = 1,
 		order = 0,
 		group = 0,
 		num = 1,
@@ -4274,7 +4274,7 @@ pg.shop_template = {
 				{
 					2019,
 					2,
-					14
+					17
 				},
 				{
 					23,
@@ -4508,6 +4508,79 @@ pg.shop_template = {
 		limit_args = {},
 		effect_args = {
 			15009
+		}
+	},
+	[70001] = {
+		group_type = 0,
+		resource_num = 800,
+		desc = "Buy skin - Illusory Happiness",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		order = 9914,
+		group = 0,
+		num = 6,
+		discount = 20,
+		resource_type = 14,
+		id = 70001,
+		genre = "skin_shop",
+		discount_time = {
+			{
+				{
+					2019,
+					2,
+					14
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					2,
+					20
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		limit_args = {},
+		effect_args = {
+			213011
+		},
+		time = {
+			{
+				{
+					2019,
+					2,
+					14
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					2,
+					20
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
 		}
 	},
 	[70002] = {
@@ -7035,7 +7108,7 @@ pg.shop_template = {
 				{
 					2019,
 					2,
-					14
+					17
 				},
 				{
 					23,
@@ -7139,6 +7212,29 @@ pg.shop_template = {
 					59
 				}
 			}
+		}
+	},
+	[70049] = {
+		group_type = 0,
+		resource_num = 700,
+		desc = "Buy skin - Nicholas: Niko Nurse",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		order = 9915,
+		time = "always",
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 70049,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			101311
 		}
 	},
 	[70050] = {
@@ -8594,7 +8690,7 @@ pg.shop_template = {
 				{
 					2019,
 					2,
-					14
+					17
 				},
 				{
 					23,
@@ -8642,7 +8738,7 @@ pg.shop_template = {
 				{
 					2019,
 					2,
-					14
+					17
 				},
 				{
 					23,
@@ -8690,7 +8786,7 @@ pg.shop_template = {
 				{
 					2019,
 					2,
-					14
+					17
 				},
 				{
 					23,
@@ -8738,7 +8834,7 @@ pg.shop_template = {
 				{
 					2019,
 					2,
-					14
+					17
 				},
 				{
 					23,
@@ -8786,7 +8882,7 @@ pg.shop_template = {
 				{
 					2019,
 					2,
-					14
+					17
 				},
 				{
 					23,
@@ -8834,7 +8930,7 @@ pg.shop_template = {
 				{
 					2019,
 					2,
-					14
+					17
 				},
 				{
 					23,
@@ -8882,7 +8978,7 @@ pg.shop_template = {
 				{
 					2019,
 					2,
-					14
+					17
 				},
 				{
 					23,
@@ -8930,7 +9026,7 @@ pg.shop_template = {
 				{
 					2019,
 					2,
-					14
+					17
 				},
 				{
 					23,
@@ -8978,7 +9074,7 @@ pg.shop_template = {
 				{
 					2019,
 					2,
-					14
+					17
 				},
 				{
 					23,
@@ -9026,7 +9122,7 @@ pg.shop_template = {
 				{
 					2019,
 					2,
-					14
+					17
 				},
 				{
 					23,
@@ -9074,7 +9170,103 @@ pg.shop_template = {
 				{
 					2019,
 					2,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[70160] = {
+		group_type = 0,
+		resource_num = 700,
+		desc = "购买皮肤：扶桑人妻",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		order = 9913,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 70160,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			305012
+		},
+		time = {
+			{
+				{
+					2019,
+					2,
 					14
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					2,
+					20
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[70161] = {
+		group_type = 0,
+		resource_num = 780,
+		desc = "购买皮肤：独角兽JK",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		order = 9912,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 70161,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			206033
+		},
+		time = {
+			{
+				{
+					2019,
+					2,
+					14
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					2,
+					20
 				},
 				{
 					23,
@@ -9392,7 +9584,7 @@ pg.shop_template = {
 				{
 					2019,
 					2,
-					14
+					17
 				},
 				{
 					23,
@@ -9572,6 +9764,7 @@ pg.shop_template = {
 		61008,
 		61009,
 		61010,
+		70001,
 		70002,
 		70003,
 		70004,
@@ -9619,6 +9812,7 @@ pg.shop_template = {
 		70046,
 		70047,
 		70048,
+		70049,
 		70050,
 		70051,
 		70052,
@@ -9660,6 +9854,8 @@ pg.shop_template = {
 		70157,
 		70158,
 		70159,
+		70160,
+		70161,
 		90000,
 		90001,
 		90002,

@@ -11,7 +11,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
-			say = "终于来了吗。",
+			say = "So, you've finally come.",
 			bgm = "battle-boss-2",
 			typewriter = {
 				speed = 0.05,
@@ -27,7 +27,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "已经将飞机都收回来了准备应对我们的攻击了吗……",
+			say = "You've already called back all your planes in preparation for our attack...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "喂，你知道自己被上头当作弃子了吗？即使这样还要坚持战斗吗？",
+			say = "Hey, you know that you've been left for dead, right? And despite knowing that you're a decoy, you still have the will to fight?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "想要以此来动摇我的决心吗？可笑！这点小事我早已知晓！",
+			say = "Do you think you can shake my resolve with those words? Laughable. I knew about this long ago.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			side = 1,
 			dir = 1,
 			actor = 306061,
-			say = "如果牺牲我一个，能够为大家带来胜利的话……哪怕刀山火海，我{namecode:90}也在所不辞！",
+			say = "If my sacrifice can bring victory to all my comrades, I will gladly go through hell for their sake!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "……这就是重樱的意志吗。",
+			say = "... So this is the determination of the Sakura Empire.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼，这有什么～如果是为了印第的话，我连这个世界也能毁灭给你看！",
+			say = "Hmph! What's so impressive about that? If it's for Indy's sake, I would gladly set this entire world on fire!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "……",
+			say = "... Can it, Portland...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "听说自由之国都是些软弱之辈，没想到还是有这般有骨气的人吗……",
+			say = "I heard that the Union was a country of weaklings, but it seems that there are those who have true resolve.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,7 +148,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = ".....居然达成共识了？！",
+			say = "...Wait, why are you two suddenly bonding over this?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			side = 1,
 			dir = 1,
 			actor = 306061,
-			say = "但！是！",
+			say = "But!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,8 +179,8 @@ return {
 			bgName = "bg_story_rj",
 			side = 2,
 			dir = 1,
-			actorName = "枭",
-			say = "即使是弃子，也不会那么轻易地任人宰割的！",
+			actorName = "Ryuujou",
+			say = "Even if I am abandoned, you will find that I am not so easily beaten!",
 			effects = {
 				{
 					active = true,
@@ -193,37 +193,37 @@ return {
 			}
 		},
 		{
-			actorName = "枭",
+			actorName = "Ryuujou",
 			side = 2,
 			bgName = "bg_story_rj",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "听好了，自由之国的战士们，我乃来自日出之国的武士，{namecode:90}！",
+			say = "Listen up, warriors from the land of the free! I am Ryuujou, a ranger from the land of the rising sun!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "枭",
+			actorName = "Ryuujou",
 			side = 2,
 			bgName = "bg_story_rj",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "想要称呼我为弃子的话，就先赢过我再说吧！",
+			say = "You'll have to beat me first before you can call me a decoy!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "枭",
+			actorName = "Ryuujou",
 			nameColor = "#a9f548",
 			bgName = "bg_story_rj",
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "龙骧麟振，前无坚敌！",
+			say = "Virtuous dragons, devour the enemies before us! Advance!",
 			dialogShake = {
 				speed = 0.09,
 				x = 8.5,

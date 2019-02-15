@@ -404,7 +404,7 @@ pg.gameset = {
 	elite_quota = {
 		description = "",
 		key = "elite_quota",
-		key_value = 6
+		key_value = 3
 	},
 	coloring_story = {
 		key = "coloring_story",

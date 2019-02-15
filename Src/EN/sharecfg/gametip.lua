@@ -4525,7 +4525,7 @@ Urgent Ops times: Wednesday, Saturday, Sunday]]
 
 							 【Building Event】
 
-							<color=#966af6>   Hatsushimo</color>：1.5%<color=#A9F548>(up!)</color>
+							<color=#60a9ff>   Hatsushimo</color>：1.5%<color=#A9F548>(up!)</color>
 
 ]],
 		key = "help_build_2"

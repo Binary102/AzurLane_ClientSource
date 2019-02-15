@@ -99,22 +99,6 @@ pg.memory_group = {
 			50
 		}
 	},
-	[104] = {
-		title = "A Day with {namecode:89}",
-		type = 2,
-		id = 104,
-		icon = "title_event",
-		memories = {
-			82,
-			83,
-			84,
-			85,
-			86,
-			87,
-			88,
-			89
-		}
-	},
 	[107] = {
 		title = "Mid-Autumn Festival",
 		type = 2,
@@ -620,7 +604,6 @@ pg.memory_group = {
 		4,
 		101,
 		102,
-		104,
 		107,
 		108,
 		110,

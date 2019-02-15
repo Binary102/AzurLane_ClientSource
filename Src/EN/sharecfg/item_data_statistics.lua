@@ -8764,7 +8764,7 @@ May combine <color=#fad545>5</color> to craft <color=#fad545>1</color> <color=#9
 		index = {}
 	},
 	[41480] = {
-		display = "A Valentine Gift from Mullaney",
+		display = "A Valentine Gift from Mullany",
 		rarity = 8,
 		type = 1,
 		name = "Valentine Gift ",

@@ -11,7 +11,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "第二批物资船队受到了铁血舰队的截击...吗？",
+			say = "We just received a message informing us that the second convoy has been attacked by Iron Blood forces.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "虽然也是意料之中的事，倒不如说正是歪打正着的引出了个大猎物呢",
+			say = "We had already anticipated this, and it would seem that we have a shark on the hook.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
-			say = "对手又是她吗？...",
+			say = "One of the \"ugly\" ones?",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -60,7 +60,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是的，也算是老面孔了，这次也是时候彻底做个了结了",
+			say = "Correct. We have fought her in the past, but it seems this time we'll be able to settle things for good.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "但是...目前我们的战斗力不足以正面对抗战列舰",
+			say = "But we don't stand a chance if we go up against a battleship with our firepower...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不用担心，司令部早有准备，一艘乔治五世级战列舰正在赶来支援",
+			say = "There is no need to worry. Headquarters has already taken precautions against the enemy. Duke of York should be en route to provide support.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我们的任务就是在这之前跟踪并限制铁血和塞壬的行动就好",
+			say = "Our mission is simply to pursue and pester the supporting Iron Blood forces until Duke of York has arrived.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "无敌、火枪手，前方侦察就拜托你们了！",
+			say = "Matchless, Musketeer, may I ask you to provide reconnaissance?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,8 +136,8 @@ return {
 			actor = 201264,
 			dir = 1,
 			hideOther = true,
-			actorName = "无敌&火枪手",
-			say = "遵命！",
+			actorName = "Matchless&Musketeer",
+			say = "Of course!",
 			subActors = {
 				{
 					actor = 201274,
@@ -160,7 +160,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "来吧，孩子们，开始狩猎巨兽了！",
+			say = "Now then, ladies... It's time to reel in the catch!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

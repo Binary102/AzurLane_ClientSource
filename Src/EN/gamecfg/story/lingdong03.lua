@@ -11,7 +11,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "荣耀归于皇家，赐予汝身华美的消亡，God save the queen",
+			say = "Glory to the Royal Family, and demise to all those that opposite it. God Save the Queen!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -22,7 +22,7 @@ return {
 			}
 		},
 		{
-			say = "……————",
+			say = "...",
 			side = 2,
 			blackBg = true,
 			dir = 1,
@@ -48,7 +48,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "大家都辛苦了，这一战只是有惊无险~",
+			say = "Your performance was splendid, everyone. It seems they were not so troublesome after all.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
-			say = "呼呼，塞壬的新型机也没有想象中的那么可怕嘛嘻嘻，还是说其实是我们太强了？",
+			say = "Thank goodness... Those new Siren models aren't all that scary. Or maybe we're just really strong...?",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -82,7 +82,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不管怎样，终于...可以继续启程了吗？",
+			say = "Anyway, now we should hopefully be able to go home...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "...等一下...收到了来自司令部的紧急电报",
+			say = "Wait just a moment, please, Norfolk. I'm receiving an urgent message from headquarters...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,7 +112,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = ".............",
+			say = "... Hmm...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = ".......",
+			say = "...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "...看来，我们要绕次远路了...",
+			say = "... It seems we will have to take a detour.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

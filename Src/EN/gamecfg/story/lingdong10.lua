@@ -11,7 +11,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "虽然是负隅顽抗，但也算是战斗到了最后一刻呢",
+			say = "Though her struggle was futile from the beginning, she was a warrior who fought until the very end.",
 			bgm = "level03",
 			typewriter = {
 				speed = 0.05,
@@ -27,7 +27,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "皇家的姐妹们！与沙恩霍斯特的战斗以我们的胜利而告终！",
+			say = "Sisters of the Royal Navy! The battle against Scharnhorst has ended in victory for us! However...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我希望在将来，你们中的任何人面对强大于自己数倍的对手时，会像今天沙恩霍斯特一样勇敢作战！",
+			say = "I hope that any of thee who are ever called upon to fight against an opponent many times superior, will fight as gallantly as Scharnhorst fought today!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好了，孩子们，该回家了~接下来，还有一系列的作战行动呢",
+			say = "All right, girls. 'tis time to go home... There are still combat operations to be carried out.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,13 +87,13 @@ return {
 			}
 		},
 		{
-			actorName = "测试者",
+			actorName = "Tester",
 			side = 2,
 			dir = -1,
 			blackBg = true,
 			actor = 900011,
 			nameColor = "#ff0000",
-			say = "沙恩霍斯特的信号在北海消失了",
+			say = "I'm no longer receiving Scharnhorst's identification signal from the testing area.",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -121,13 +121,13 @@ return {
 			}
 		},
 		{
-			say = "嗯，依然和过去一样，就算给予了更强的力量也不足以改变既定的结果",
+			say = "Hmm, so it's just like back then with the Z Fleet... Giving her even more power doesn't affect the outcome.",
 			side = 1,
 			nameColor = "#ff0000",
 			dir = 1,
 			blackBg = true,
 			actor = 900012,
-			actorName = "观察者",
+			actorName = "Observer",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -147,8 +147,8 @@ return {
 			dir = -1,
 			blackBg = true,
 			actor = 900011,
-			actorName = "测试者",
-			say = "除此之外，这一次出现了一个很令人在意的分歧奇点...",
+			actorName = "Tester",
+			say = "But there's one thing that caught my interest.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,8 +164,8 @@ return {
 			dir = -1,
 			blackBg = true,
 			actor = 900011,
-			actorName = "测试者",
-			say = "——皇家送往北方联合的第二批物资船队在护航舰队追击沙恩霍斯特时，被舰载机击沉了",
+			actorName = "Tester",
+			say = "The second Royal Navy convoy heading for the Northern Union was sunk by planes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,8 +181,8 @@ return {
 			dir = -1,
 			blackBg = true,
 			actor = 900011,
-			actorName = "测试者",
-			say = "现在局势下的铁血并没有在北海执行大规模空袭的能力，究竟是...",
+			actorName = "Tester",
+			say = "On the current settings, Iron Blood shouldn't have the strength to launch an aerial attack... So how could this happen...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,8 +198,8 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 900012,
-			actorName = "观察者",
-			say = "按照原定的剧本...皇家的孩子们现在应该正在筹备着下一个更大的空袭作战吧",
+			actorName = "Observer",
+			say = "According to the script... Next up, the Royal Navy should be the ones launching a large-scale aerial attack.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,8 +215,8 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 900012,
-			actorName = "观察者",
-			say = "你发现的这个情报，确实也有必要详细观察一下...",
+			actorName = "Observer",
+			say = "In light of this information, we will have to observe them even more closely.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,8 +232,8 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 900012,
-			actorName = "观察者",
-			say = "那么，北海区域就交给你负责了——「净化者」",
+			actorName = "Observer",
+			say = "We're leaving the North Sea in your hands, Purifier.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -249,8 +249,8 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 900021,
-			actorName = "净化者",
-			say = "哎呀呀，终于轮到我出场了吗！~",
+			actorName = "Purifier",
+			say = "Ahahahaha! Yay, it's finally my turn!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,13 +261,13 @@ return {
 			}
 		},
 		{
-			say = "如果是那个家伙在捣蛋的话，你知道该如何处理...",
+			say = "And if \"she\" gets in the way... Ahaha, well, you already know what to do.",
 			side = 2,
 			nameColor = "#ff0000",
 			dir = 1,
 			blackBg = true,
 			actor = 900012,
-			actorName = "观察者",
+			actorName = "Observer",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -287,8 +287,8 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 900021,
-			actorName = "净化者",
-			say = "好呀好呀！我一定会陪她们好好玩玩的！呵呵呵呵~",
+			actorName = "Purifier",
+			say = "Of course! Oh, I'm going to have so much fun out there! Ahahahahahaha!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

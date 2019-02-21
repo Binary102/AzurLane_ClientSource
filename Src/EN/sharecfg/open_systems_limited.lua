@@ -74,7 +74,7 @@ pg.open_systems_limited = {
 	},
 	{
 		scene = "MAINUI",
-		name = "Auditorium",
+		name = "Lecture Hall",
 		guid_end_id = 0,
 		guidId = 0,
 		id = 9,

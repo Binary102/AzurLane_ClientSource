@@ -3,7 +3,7 @@ pg.navalacademy_data_template = {
 	{
 		slot = 0,
 		painting = 0,
-		name = "Great Hall",
+		name = "Lecture Hall",
 		id = 1,
 		information = "",
 		schedule = {}

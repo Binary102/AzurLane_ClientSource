@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"这个女仆不太冷\n\n<size=30>三 女仆的兴趣</size>",
+					"Loaded with Lead and Love\n\n<size=30>Chapter 3 - A Maid's Hobby</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
-			say = "主人对我们女仆队平时的生活状态有兴趣？",
+			say = "Master, are you interested in how we maids spend our everyday life?",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -62,7 +62,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…既然如此，请在假日的时候来看看吧，毕竟是主人，还是会招待您一下的——",
+			say = "If that's the case, please stop by during the next day off. We'll be sure to extend our Royal hospitality to you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "如此这般，在休息日敲响了谢菲尔德宿舍的门",
+			say = "So on the next Sunday, I made my way over to the Royal dormitory and rung the bell...",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -117,7 +117,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…是主人啊，姑且问一句，来找我有什么事吗？",
+			say = "Master, you're here. Is there something I can do for you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			withoutActorName = true,
 			actor = 202081,
 			nameColor = "#a9f548",
-			say = "……",
+			say = "H-huh...? I thought...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "开玩笑的，请进吧",
+			say = "It's a joke. Please come in.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
-			say = "不愧是谢菲尔德的房间，整洁无比，看不到一丝污垢",
+			say = "I expected nothing less of Sheffield's room. Impeccable, without a trace of dust.",
 			flashout = {
 				dur = 0.25,
 				black = true,
@@ -197,7 +197,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "主人，请用红茶",
+			say = "Here, Master. Please have some black tea.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,37 +211,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "……不愧是皇家女仆，泡出来的红茶水平都有水准以上",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 202081,
-			side = 2,
-			bgName = "bg_story_task",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "那么，请您自便，主人。想要待多久就待多久吧",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			bgName = "bg_story_task",
-			dir = 1,
-			say = "总觉得自己完全没被当成主人看待？",
+			say = "A Royal maid's skill is truly formidable... a normal person would be hard-pressed to make tea of this caliber.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +227,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…您想多了，“想待多久就呆多久”可是主人的特权",
+			say = "Well then, Master, you may leave whenever you want.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,21 +241,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "…也就是说是其他人就会直接送客吗，不愧是谢菲尔德。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			bgName = "bg_story_task",
-			dir = 1,
-			say = "桌上似乎放着什么，这是…拆卸到一半的手枪？",
+			say = "Somehow... I don't feel like I'm the \"Master\" here at all...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,7 +257,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "枪械也是需要保养的，如果不保养，就会像懒惰的主人一样慢慢生锈。",
+			say = "You're overthinking things. When I said \"you may leave whenever you want,\" I merely meant that you may stay as long as you like.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -315,39 +271,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "…还是一如既往地不客气啊……不过，这手枪和谢菲尔德的舰装有点像呢",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 202081,
-			side = 2,
-			bgName = "bg_story_task",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "枪械只是一点点个人的兴趣而已，不过如果主人有兴趣的话……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 202081,
-			side = 2,
-			bgName = "bg_story_task",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "我来教您“工作用”枪械的选择、分解、维护、配件和射击的技巧吧",
+			say = "Then... does that mean other people can't stay as long as they like? Does Sheffield kick them out?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -361,7 +285,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "谢菲尔德的教学吗…似乎还挺有趣的…",
+			say = "Also, there seems to be something on the table... is this a disassembled pistol?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -377,7 +301,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…是吗，既然如此，请做好心理准备吧，我会一点一滴、好好地“锻炼”您的",
+			say = "Guns require maintenance as well. If they are not taken care of, they will stop working, just like lazy commanders.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -391,7 +315,83 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "感觉到谢菲尔德背后有火焰在静静地燃烧…",
+			say = "As terse as ever... Come to think of it, Sheffield, doesn't this gun look a bit like your rigging?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 202081,
+			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "It's just a hobby of mine. Although if you're interested, Master...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 202081,
+			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "Allow me to tell you everything you need to know about \"work\" firearms, including selection, disassembly, maintenance, accessories, and technique...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			bgName = "bg_story_task",
+			dir = 1,
+			say = "It's a bit like drinking out of a fire hose, but your lecture is undoubtedly quite interesting.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 202081,
+			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "... Is that so. In that case, I will make sure your body remembers every detail. Prepare yourself.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			bgName = "bg_story_task",
+			dir = 1,
+			say = "Although her voice was still calm as always, I could somehow sense a passion, burning deep within her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -406,7 +406,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "于是，休息日多了一门枪械课程",
+			say = "And thus, my day off turned into a seminar on firearms.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

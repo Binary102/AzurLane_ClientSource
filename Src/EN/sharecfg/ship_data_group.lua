@@ -693,7 +693,7 @@ pg.ship_data_group = {
 		code = 26,
 		type = 1,
 		group_type = 10124,
-		trans_type = 0,
+		trans_type = 1,
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -1550,15 +1550,24 @@ pg.ship_data_group = {
 	[52] = {
 		nationality = 1,
 		hide = 0,
-		trans_skin = 0,
+		trans_skin = 105019,
 		handbook_type = 0,
 		redirect_id = 101,
 		code = 52,
 		type = 5,
 		group_type = 10501,
 		trans_type = 5,
-		trans_radar_chart = {},
-		trans_skill = {},
+		trans_radar_chart = {
+			"A",
+			"E",
+			"E",
+			"D",
+			"C",
+			"A"
+		},
+		trans_skill = {
+			2041
+		},
 		description = {
 			{
 				"Honor medal exchange",
@@ -1596,15 +1605,24 @@ pg.ship_data_group = {
 	[53] = {
 		nationality = 1,
 		hide = 0,
-		trans_skin = 0,
+		trans_skin = 105029,
 		handbook_type = 0,
 		redirect_id = 101,
 		code = 53,
 		type = 5,
 		group_type = 10502,
 		trans_type = 5,
-		trans_radar_chart = {},
-		trans_skill = {},
+		trans_radar_chart = {
+			"A",
+			"E",
+			"E",
+			"D",
+			"C",
+			"A"
+		},
+		trans_skill = {
+			2041
+		},
 		description = {
 			{
 				"Honor medal exchange",
@@ -2870,6 +2888,28 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[93] = {
+		nationality = 2,
+		hide = 0,
+		trans_skin = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		code = 93,
+		type = 1,
+		group_type = 20113,
+		trans_type = 0,
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"Event: Winter's Crown",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[94] = {
 		nationality = 2,
 		hide = 0,
@@ -3191,6 +3231,28 @@ pg.ship_data_group = {
 						projectName = "light",
 						page = 1
 					}
+				},
+				0
+			}
+		}
+	},
+	[111] = {
+		nationality = 2,
+		hide = 0,
+		trans_skin = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		code = 111,
+		type = 2,
+		group_type = 20208,
+		trans_type = 0,
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"Event: Winter's Crown",
+				{
+					""
 				},
 				0
 			}
@@ -4057,6 +4119,28 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[136] = {
+		nationality = 2,
+		hide = 0,
+		trans_skin = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		code = 136,
+		type = 5,
+		group_type = 20507,
+		trans_type = 0,
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"Event: Winter's Crown",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[140] = {
 		nationality = 2,
 		hide = 0,
@@ -4226,6 +4310,28 @@ pg.ship_data_group = {
 						projectName = "special",
 						page = 1
 					}
+				},
+				0
+			}
+		}
+	},
+	[146] = {
+		nationality = 2,
+		hide = 0,
+		trans_skin = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		code = 146,
+		type = 7,
+		group_type = 20704,
+		trans_type = 0,
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"Event: Winter's Crown",
+				{
+					""
 				},
 				0
 			}
@@ -4595,6 +4701,28 @@ pg.ship_data_group = {
 		description = {
 			{
 				"Visitors Dyed in Red",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[171] = {
+		nationality = 3,
+		hide = 0,
+		trans_skin = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		code = 171,
+		type = 1,
+		group_type = 30121,
+		trans_type = 0,
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"Monthly Sign-in",
 				{
 					""
 				},
@@ -6715,6 +6843,94 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[325] = {
+		nationality = 2,
+		hide = 0,
+		trans_skin = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		code = 325,
+		type = 1,
+		group_type = 20126,
+		trans_type = 0,
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"Event: Winter's Crown",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[326] = {
+		nationality = 2,
+		hide = 0,
+		trans_skin = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		code = 326,
+		type = 1,
+		group_type = 20127,
+		trans_type = 0,
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"Event: Winter's Crown",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[327] = {
+		nationality = 2,
+		hide = 0,
+		trans_skin = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		code = 327,
+		type = 2,
+		group_type = 20216,
+		trans_type = 0,
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"Event: Winter's Crown",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[328] = {
+		nationality = 2,
+		hide = 0,
+		trans_skin = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		code = 328,
+		type = 2,
+		group_type = 20217,
+		trans_type = 0,
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"Event: Winter's Crown",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[345] = {
 		nationality = 4,
 		hide = 0,
@@ -6866,6 +7082,28 @@ pg.ship_data_group = {
 		description = {
 			{
 				"Event: Crimson Echoes",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[371] = {
+		nationality = 2,
+		hide = 0,
+		trans_skin = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		code = 371,
+		type = 2,
+		group_type = 20220,
+		trans_type = 0,
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"Event: Winter's Crown",
 				{
 					""
 				},
@@ -7227,6 +7465,7 @@ pg.ship_data_group = {
 		90,
 		91,
 		92,
+		93,
 		94,
 		101,
 		102,
@@ -7234,6 +7473,7 @@ pg.ship_data_group = {
 		104,
 		105,
 		106,
+		111,
 		114,
 		115,
 		116,
@@ -7255,10 +7495,12 @@ pg.ship_data_group = {
 		132,
 		133,
 		135,
+		136,
 		140,
 		142,
 		144,
 		145,
+		146,
 		149,
 		150,
 		151,
@@ -7272,6 +7514,7 @@ pg.ship_data_group = {
 		167,
 		168,
 		170,
+		171,
 		174,
 		176,
 		182,
@@ -7350,6 +7593,10 @@ pg.ship_data_group = {
 		316,
 		317,
 		319,
+		325,
+		326,
+		327,
+		328,
 		345,
 		362,
 		363,
@@ -7357,6 +7604,7 @@ pg.ship_data_group = {
 		366,
 		369,
 		370,
+		371,
 		372,
 		373,
 		374,

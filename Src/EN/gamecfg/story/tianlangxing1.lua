@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"天狼星改造计划\n\n<size=30>一 身为女仆……</size>",
+					"Sirius' Improvement Plan\n\n<size=30>Chapter 1 - A Maid Must...</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "港区·指挥室",
+			say = "Port - Office",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -53,7 +53,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "偶然得到贝尔法斯特的推荐，任命了原来在女仆队中负责警备工作的天狼星为秘书舰",
+			say = "Owing to some strange turn of events, Belfast introduced me to the Maid Fleet's chief bodyguard, Sirius, and I selected her to be my secretary.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "今天也请允许天狼星作为秘书舰协助您，我骄傲的主人",
+			say = "I am here to support you from this day onwards, my honourable Master.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			dir = 1,
 			actor = 202201,
 			nameColor = "#a9f548",
-			say = "如果有什么天狼星能做的，请您尽管开口。虽然远不及女仆长能干，但是天狼星会全力以赴，定不负您的期待！",
+			say = "If there is anything at all that I can help with, please tell me. Though I am not as talented as Belfast, I shall do my absolute best to meet your expectations.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,7 +100,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "试着把工作交给这位举止飒爽、努力上进的女仆……",
+			say = "I tried giving this cool-looking and diligent maid an assignment, but...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			dir = 1,
 			actor = 202201,
 			nameColor = "#a9f548",
-			say = "…………？",
+			say = "......?",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -150,7 +150,7 @@ return {
 			withoutActorName = true,
 			actor = 202201,
 			nameColor = "#a9f548",
-			say = "天狼星疑惑地歪了歪头。",
+			say = "Sirius tilted her head sideways like she didn't understand what I said.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "您说昨天的演习报告……吗？",
+			say = "Are you... asking for yesterday's exercise reports?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 			dir = 1,
 			actor = 202201,
 			nameColor = "#a9f548",
-			say = "十分抱歉……昨天以为主人已经过目，就擅自处理了……",
+			say = "My sincerest apologies... I thought you had already finished reading them yesterday, so I disposed of them...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +209,7 @@ return {
 			dir = 1,
 			actor = 202201,
 			nameColor = "#a9f548",
-			say = "我、我这就去找！",
+			say = "I-I shall locate them at once!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,7 +232,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "天狼星慌慌张张地跪在堆成小山的废纸堆前翻找起来。",
+			say = "Sirius hurriedly got on her knees and began digging through an old pile of papers.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +248,7 @@ return {
 			dir = 1,
 			actor = 202201,
 			nameColor = "#a9f548",
-			say = "不好意思主人，打扫要从哪里开始比较好……？",
+			say = "Pardon the interruption, Master, but... what would you like me to clean first?",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -281,7 +281,7 @@ return {
 			dir = 1,
 			actor = 202201,
 			nameColor = "#a9f548",
-			say = "非常抱歉，泡茶一直是由女仆队的其他伙伴负责的，天狼星没有做过……",
+			say = "I'm truly sorry, but I have always gotten my fellow maids to brew tea on my behalf, so I have never done it myself...",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -322,7 +322,7 @@ return {
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
-			say = "作为护卫（Secret Service）的她确实无懈可击，\n但是在普通事务方面却是仅仅及格的水准，实在很难令人开口夸赞。",
+			say = "I have no complaints about your skill as a bodyguard, but as help around the office, I can't say the same...",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -355,7 +355,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "万分抱歉，天狼星身为秘书舰，不但无法胜任工作，还占用了骄傲的主人很多时间……",
+			say = "I do apologise. Not only am I unable to fully carry out my duties as a secretary, I've even wasted your highly valuable time, my honourable Master...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -372,7 +372,7 @@ return {
 			dir = 1,
 			actor = 202201,
 			nameColor = "#a9f548",
-			say = "请……请惩罚犯了错误的女仆吧！",
+			say = "Please... Please teach this naughty maid some proper manners!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -386,7 +386,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "天狼星深深低头，拼命道歉。",
+			say = "Sirius lowered her head and began profusely apologizing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -401,7 +401,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "看着她这么努力的样子，让人忍不住想要为她做点什么",
+			say = "Seeing her like this made me want to repay her for all her hard work in some way.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

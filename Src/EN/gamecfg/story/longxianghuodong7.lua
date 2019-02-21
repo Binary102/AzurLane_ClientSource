@@ -233,7 +233,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "Every time you laugh like that, someone alway finds themselves on the receiving end of one of your nasty pranks...",
+			say = "Every time you laugh like that, someone always finds themselves on the receiving end of one of your nasty pranks...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

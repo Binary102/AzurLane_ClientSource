@@ -11,65 +11,20 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"足柄个人角色物语\n\n<size=30>五 占坑</size>",
+					"Ashigara, Advance!\n\n<size=30>Chapter 5 - Ashigara, Confused!</size>",
 					1
 				}
 			}
 		},
 		{
-			side = 2,
-			dir = 1,
 			blackBg = true,
-			say = "她们是拥有人类之型，钢铁之躯的战斗少女 ",
-			flashout = {
-				dur = 1,
-				black = true,
-				alpha = {
-					0,
-					1
-				}
-			},
-			flashin = {
-				delay = 1,
-				dur = 1,
-				black = true,
-				alpha = {
-					1,
-					0
-				}
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
 			side = 2,
-			dir = 1,
-			blackBg = true,
-			say = "曾在那次大战中大显身手，如今以心智魔方的力量变成人形，",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			dir = 1,
-			blackBg = true,
-			say = "活跃在与全人类的敌人——塞壬的战斗之中",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
-			bgm = "story-1",
-			say = "港区・仓库",
+			bgm = "story-2",
+			actor = 303091,
+			nameColor = "#a9f548",
+			say = "Uplifting my heart... fulfilling my desires... just what in the world...",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -90,70 +45,212 @@ return {
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
 			}
 		},
 		{
+			expression = 4,
 			side = 2,
-			bgName = "bg_story_task",
 			dir = 1,
-			say = "灰头土脸的指挥官正拼命翻找着收在仓库深处的某个稀有装备。",
+			blackBg = true,
+			actor = 303091,
+			nameColor = "#a9f548",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
 			}
 		},
 		{
+			expression = 1,
 			side = 2,
-			bgName = "bg_story_task",
 			dir = 1,
-			say = "咚！当！咣咣！",
+			blackBg = true,
+			actor = 303091,
+			nameColor = "#a9f548",
+			say = "Forget it, it's not the time to be worried about that kind of stuff.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
 			}
 		},
 		{
+			expression = 2,
 			side = 2,
-			bgName = "bg_story_task",
 			dir = 1,
-			say = "……找东西的过程好像并不怎么顺利。",
+			blackBg = true,
+			actor = 303091,
+			nameColor = "#a9f548",
+			say = "Ever since I started studying with Myoukou, secretary duties have become easier and easier.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
 			}
 		},
 		{
+			expression = 3,
 			side = 2,
-			bgName = "bg_story_task",
 			dir = 1,
-			say = "面对着垒的如同小山一样高资源材料和装备，指挥官已经精疲力尽并且摇摇欲坠了。",
+			blackBg = true,
+			actor = 303091,
+			nameColor = "#a9f548",
+			say = "And I'm really glad that Commander looks happy too.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 2,
+			side = 2,
+			dir = 1,
+			blackBg = true,
+			actor = 303091,
+			nameColor = "#a9f548",
+			say = "If I can keep this up, maybe Commander will pay attention me even more?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 5,
+			side = 2,
+			dir = 1,
+			blackBg = true,
+			actor = 303091,
+			nameColor = "#a9f548",
+			say = "And when that happens... Um... Ehh...? Then what happens...?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 2,
+			side = 2,
+			dir = 1,
+			blackBg = true,
+			actor = 303091,
+			nameColor = "#a9f548",
+			say = "Uh, umm... I must be tired from today's training... and getting sleepy...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			stopbgm = true,
+			side = 2,
+			dir = 1,
+			blackBg = true,
+			actorName = "？？？",
+			nameColor = "#a9f548",
+			say = "She's still asleep? It's going to be bad if she doesn't wake up soon!",
+			flashout = {
+				dur = 1,
+				black = true,
+				alpha = {
+					0,
+					1
+				}
+			},
+			flashin = {
+				delay = 1,
+				dur = 1,
+				black = true,
+				alpha = {
+					1,
+					0
+				}
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
 			}
 		},
 		{
 			nameColor = "#a9f548",
-			actorName = "???",
-			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
-			say = "……危险！",
+			blackBg = true,
+			actorName = "？？？",
+			say = "Heyyy! Ashigara! Get up already!",
 			dialogShake = {
-				speed = 0.1,
-				x = 9.5,
+				speed = 0.09,
+				x = 8.5,
 				number = 2
 			},
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
 			}
 		},
 		{
+			expression = 4,
 			side = 2,
-			bgName = "bg_story_task",
 			dir = 1,
-			say = "光芒一闪。从某处放出的式神劈开浑浊的空气，然后——",
+			blackBg = true,
+			actor = 303091,
+			nameColor = "#a9f548",
+			say = "Nnnnhh... what is it... an emergency task?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 6,
+			side = 2,
+			bgName = "bg_story_room",
+			nameColor = "#a9f548",
+			dir = 1,
+			bgm = "story-1",
+			actor = 303091,
+			say = "...w-w-what time is it?!",
 			flashN = {
 				color = {
 					1,
@@ -164,120 +261,16 @@ return {
 					{
 						0,
 						1,
-						0.5
+						0.2
 					},
 					{
 						1,
 						0,
-						0.5,
-						0.5
+						0.2,
+						0.2
 					}
 				}
 			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			bgName = "bg_story_task",
-			dir = 1,
-			say = "在指挥官被砸中之前，式神便完美接住了从高处掉下的材料。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#a9f548",
-			bgName = "bg_story_task",
-			side = 2,
-			dir = 1,
-			actorName = "???",
-			say = "天在呼唤！地在呼唤！人在呼唤！千钧一发需要帮助的主公也在呼唤！",
-			effects = {
-				{
-					active = true,
-					name = "speed"
-				}
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actorName = "???",
-			side = 2,
-			bgName = "bg_story_task",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "日出之国的武士，轻航母{namecode:90}，前来参见！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actorName = "???",
-			side = 2,
-			bgName = "bg_story_task",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "……的说！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			bgName = "bg_story_task",
-			dir = 1,
-			say = "如同白昼一般的出场效果闪光。",
-			flashN = {
-				color = {
-					1,
-					1,
-					1
-				},
-				alpha = {
-					{
-						0,
-						1,
-						0.5
-					},
-					{
-						1,
-						0,
-						0.5,
-						0.5
-					}
-				}
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			bgName = "bg_story_task",
-			dir = 1,
-			say = "（爆炸效果……果然还是算了吧）",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			bgName = "bg_story_task",
-			dir = 1,
-			actor = 306061,
-			nameColor = "#a9f548",
-			say = "主公！您没事吗？吾也来帮忙！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,21 +284,321 @@ return {
 					y = 30,
 					type = "shake",
 					delay = 0,
-					dur = 0.2,
+					dur = 0.15,
 					x = 0,
-					number = 2
+					number = 3
 				}
 			}
 		},
 		{
+			expression = 6,
 			side = 2,
-			bgName = "bg_story_task",
+			bgName = "bg_story_room",
 			dir = 1,
-			blackBg = true,
-			say = "秘书舰{namecode:90}，今天也在努力保护指挥官！",
+			actor = 303091,
+			nameColor = "#a9f548",
+			say = "I-I'm going to be late! ...I'm not even dressed yet?! Afterwards, my hair... my hair! But Myoukou's the one who usually does it for me...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			action = {
+				{
+					y = 30,
+					type = "shake",
+					delay = 0,
+					dur = 0.15,
+					x = 0,
+					number = 3
+				}
+			}
+		},
+		{
+			expression = 4,
+			side = 2,
+			bgName = "bg_story_room",
+			dir = 1,
+			actor = 303091,
+			nameColor = "#a9f548",
+			say = "How can I let Commander see me like this? Surely...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 301301,
+			side = 2,
+			bgName = "bg_story_room",
+			nameColor = "#a9f548",
+			dir = -1,
+			say = "Easy there, missy. Hold your horses!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 4,
+			side = 0,
+			bgName = "bg_story_room",
+			say = "K-Kamikaze?! What are you doing here?",
+			dir = 1,
+			actor = 303091,
+			nameColor = "#a9f548",
+			paintingFadeOut = {
+				time = 0.5,
+				side = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 301301,
+			side = 1,
+			bgName = "bg_story_room",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "When I passed by the office, I noticed you weren't there. I dropped by just in case something had happened, and lo and behold, do we have a little incident on our hands! Ho ho!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 301301,
+			side = 1,
+			bgName = "bg_story_room",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "But don't worry, I asked Commander to give you a day off for \"sick leave.\"",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 301301,
+			side = 1,
+			bgName = "bg_story_room",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "All righty? Just leave the rest to me. It's not every day I get to look after you young folks, ho ho~",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 5,
+			side = 0,
+			bgName = "bg_story_room",
+			dir = 1,
+			actor = 303091,
+			nameColor = "#a9f548",
+			say = "...Sorry for the trouble...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 301301,
+			side = 1,
+			bgName = "bg_story_room",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "What are you apologizing for? Everyone has bad days.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 301301,
+			side = 1,
+			bgName = "bg_story_room",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "You must have burnt yourself out from all the training. This is a sign of fatigue, so make sure you properly rest today.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 301301,
+			side = 1,
+			bgName = "bg_story_room",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "Although~ Ho ho, I did hear something juicy just now. \"Ahhhn, I can't let Commander see me like this~\"",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 301301,
+			side = 1,
+			bgName = "bg_story_room",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "Could it be... that you've taken a fancy to the chief?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 5,
+			side = 0,
+			bgName = "bg_story_room",
+			dir = 1,
+			actor = 303091,
+			nameColor = "#a9f548",
+			say = "Eh? That, that's because...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 301301,
+			side = 1,
+			bgName = "bg_story_room",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "Ho ho, you don't need to answer me. As long as you figure it out, that is all that matters.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			bgName = "bg_story_room",
+			dir = 1,
+			actor = 303091,
+			nameColor = "#a9f548",
+			say = "……",
+			flashout = {
+				dur = 0.5,
+				black = true,
+				alpha = {
+					0,
+					1
+				}
+			},
+			flashin = {
+				delay = 0.5,
+				dur = 0.5,
+				black = true,
+				alpha = {
+					1,
+					0
+				}
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 4,
+			side = 2,
+			bgName = "bg_story_room",
+			dir = 1,
+			actor = 303091,
+			nameColor = "#a9f548",
+			say = "(I've... taken a fancy to Commander...?)",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 5,
+			side = 2,
+			bgName = "bg_story_room",
+			dir = 1,
+			blackBg = true,
+			actor = 303091,
+			nameColor = "#a9f548",
+			say = "(Could it be, I'm actually...)",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
 			}
 		}
 	}

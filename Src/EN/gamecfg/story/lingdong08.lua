@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "……————",
+			say = "...",
 			side = 2,
 			blackBg = true,
 			dir = 1,
@@ -33,7 +33,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "——啊！！！",
+			say = "... Gah!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +48,7 @@ return {
 			nameColor = "#ff0000",
 			side = 1,
 			dir = 1,
-			say = "多么凄美的烟火啊，现在已经大破的你还想怎样追上我呢？",
+			say = "Pretty good, for a maid. But I can tell you don't have much strength left, and soon the sharks will be nibbling at your feet...",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -67,7 +67,7 @@ return {
 			side = 1,
 			nameColor = "#ff0000",
 			dir = 1,
-			say = "那么，就让我给予你属于战士荣耀的终末吧，全舰炮瞄准——",
+			say = "I will grant you a soldier's demise. All guns, train sights on...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			}
 		},
 		{
-			say = "……————",
+			say = "...",
 			side = 2,
 			blackBg = true,
 			dir = 1,
@@ -104,7 +104,7 @@ return {
 			side = 1,
 			nameColor = "#ff0000",
 			dir = 1,
-			say = "！！！前主炮塔“安东”被击毁！？是哪里打来的炮弹！？",
+			say = "... What the?! Anton's been hit...?! Who did that?! Who the hell did that?! Who's the slimy little crumpet-munching island ape bastard out there who just signed her own death warrant?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我也知道6英寸炮无法击穿你的装甲...",
+			say = "... I know very well that my 6-inch guns cannot penetrate your armour. However...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "所以，至少...也得为她们争取到一些优势...",
+			say = "My mission was simply to create a more favourable situation for my allies...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那么...我的任务也已经完成了...捕鼠夹已经亲手合上了——",
+			say = "Even if I were to perish here, I have already assured our victory... I hope you will enjoy having the Duke for company...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "可惜的是...以后不能再为女王献上亲手沏的红茶了...",
+			say = "My Majesty... I'm afraid it seems... I will no longer be able to brew tea for you... Ugh...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,7 +179,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘿嘿，抱歉抱歉，你还死不了~剩下的大鱼就交给我们来接手了",
+			say = "Sorry, but it is not thy time yet, housekeeper. The shark shall be mine to hunt.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "驱逐舰队全员，掩护贝尔法斯特撤退",
+			say = "Destroyers, protect Belfast and evacuate right now!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,8 +210,8 @@ return {
 			actor = 201264,
 			dir = 1,
 			hideOther = true,
-			actorName = "无敌&火枪手",
-			say = "遵命——烟雾弹掩护开始！",
+			actorName = "Matchless & Musketeer",
+			say = "Roger! Deploying smokescreen!",
 			subActors = {
 				{
 					actor = 201274,
@@ -234,7 +234,7 @@ return {
 			side = 2,
 			nameColor = "#ff0000",
 			dir = 1,
-			say = "居然还有一支主力舰队...之前完全没有观察到动静",
+			say = "Looks like the damn cavalry has arrived... You little rats managed to sneak up on me...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -249,7 +249,7 @@ return {
 			side = 2,
 			nameColor = "#ff0000",
 			dir = 1,
-			say = "知道自己的主炮无法击穿战列舰所以之前一直专门瞄着雷达塔攻击吗...",
+			say = "That maid knew she couldn't pierce my armor, so she went for my radar, huh...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -264,7 +264,7 @@ return {
 			side = 2,
 			nameColor = "#ff0000",
 			dir = 1,
-			say = "哈哈哈，彻底败给你了",
+			say = "Hmph. I guess this is it for me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -279,7 +279,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			say = "真不好意思，打扰你们的对决了，然而现在，你的对手是我~",
+			say = "Heheh, my sincerest apologies for interrupting thy duel. But now, thine opponent is me.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -298,7 +298,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "乔治五世级战列舰三号舰——约克公爵号向您问好",
+			say = "Warm regards from the fifth ship of the George V-class, Duke of York.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,7 +313,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "全炮门瞄准——敌舰沙恩霍斯特，开火！",
+			say = "Fiiiiire!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

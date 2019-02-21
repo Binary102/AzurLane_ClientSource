@@ -11,7 +11,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "特攻舰队全员注意，虽然之前遭到了一点小小的骚扰，我们也失去了同司令部的联系…",
+			say = "Attention, members of Special Task Force One. Though we may have suffered a setback and lost communication with headquarters...",
 			bgm = "level03",
 			typewriter = {
 				speed = 0.05,
@@ -27,7 +27,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "但是，不明的攻击同时也帮我们打散了北海的这片大雾，现在正是最好的机会！",
+			say = "The attack from the unidentified superweapon has parted the fog of war, the biggest uncertainty factor in our operation so far. Make use of this opportunity and attack!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "现决定，继续执行“钨”行动——",
+			say = "From here, we shall continue \"Operation Tungsten!\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "立刻调动剩余所有可使用的舰载机，预定于20分钟后开始行动！",
+			say = "Mobilise all usable carrier-based aircraft, and prepare to launch in 20 minutes time!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

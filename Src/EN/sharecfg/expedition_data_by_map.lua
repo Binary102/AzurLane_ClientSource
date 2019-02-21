@@ -1808,6 +1808,211 @@ pg.expedition_data_by_map = {
 			}
 		}
 	},
+	[1190000] = {
+		map = 1190000,
+		name = "Winter's Crown - Part 1|| ||EX CHAPTER||E.X.",
+		bgm = "Story-6",
+		type = 4,
+		on_activity = 30081,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "LINGDONG01",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "icestorm",
+		cloud_suffix = "",
+		bg = "Map_1090000",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1190010,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1190001] = {
+		map = 1190001,
+		name = "Winter's Crown - Part 2|| ||EX CHAPTER||E.X.",
+		bgm = "level03",
+		type = 4,
+		on_activity = 30082,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "LINGDONG11",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "icestorm_hard",
+		cloud_suffix = "",
+		bg = "Map_1090001",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1190011,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1190010] = {
+		map = 1190010,
+		name = "Winter's Crown - Part 1|| ||EX CHAPTER||E.X.",
+		bgm = "Story-6",
+		type = 5,
+		on_activity = 30081,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "LINGDONG01",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "icestorm",
+		cloud_suffix = "",
+		bg = "Map_1090000",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1190000,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1190011] = {
+		map = 1190011,
+		name = "Winter's Crown - Part 2|| ||EX CHAPTER||E.X.",
+		bgm = "level03",
+		type = 5,
+		on_activity = 30082,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "LINGDONG11",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "icestorm_hard",
+		cloud_suffix = "",
+		bg = "Map_1090001",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1190001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1190021] = {
+		map = 1190021,
+		name = "Winter's Crown - EX|| ||EX CHAPTER||E.X. ",
+		bgm = "level03",
+		type = 8,
+		on_activity = 30082,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "icestorm_hard",
+		cloud_suffix = "",
+		bg = "Map_1090001",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1190011,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -1848,7 +2053,12 @@ pg.expedition_data_by_map = {
 		1180002,
 		1180011,
 		1180012,
-		1180021
+		1180021,
+		1190000,
+		1190001,
+		1190010,
+		1190011,
+		1190021
 	}
 }
 

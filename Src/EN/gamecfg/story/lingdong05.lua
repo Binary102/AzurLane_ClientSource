@@ -11,7 +11,7 @@ return {
 			side = 2,
 			nameColor = "#ff0000",
 			dir = 1,
-			say = "又见面了啊，皇家的贵妇人们",
+			say = "We meet again, my Royal adversaries. Or should I call you a royal pain in my ass?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			say = "皇家战斗女仆团在此向贵舰献上午后的问候~",
+			say = "I am Belfast, chief of the Royal Maids. The pleasure is all mine.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -45,7 +45,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "要不是您的突然造访，我们现在也许正在斯卡帕湾的港口边享受着午后的红茶呢~",
+			say = "Had it not been for your fleet's sudden visit, I could have been in Scapa Flow by now, brewing the afternoon tea for the young mistress...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +60,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "所以，能麻烦您在此立刻沉没吗（笑",
+			say = "If you'll pardon my request, would you kindly scuttle yourself to make this easier for all parties involved?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			side = 1,
 			nameColor = "#ff0000",
 			dir = 1,
-			say = "依然是这么咄咄逼人的架势呀，看来一场战斗又无可避免了",
+			say = "Just as full of yourselves as ever, huh... I knew this battle would come one day.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			side = 1,
 			nameColor = "#ff0000",
 			dir = 1,
-			say = "也好，也该热热这快被冰海冻僵的身躯了",
+			say = "Good timing, too! My cannons have been aching for some target practice to warm up in this freezing weather!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			side = 1,
 			nameColor = "#ff0000",
 			dir = 1,
-			say = "沙恩霍斯特号——迎敌！",
+			say = "En garde, you pompous, tea-swigging bastards!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

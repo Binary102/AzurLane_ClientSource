@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"这个女仆不太冷\n\n<size=30>四 习惯成自然</size>",
+					"Loaded with Lead and Love\n\n<size=30>Chapter 4 - Motivation?</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "港区·指挥室",
+			say = "Port - Office",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -55,7 +55,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "主人，请把脚稍微抬一下。",
+			say = "Master, please wipe your feet first.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,51 +69,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "在处理秘书舰的工作之余，谢菲尔德一如既往地热衷于指挥室的清扫中",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 202081,
-			side = 2,
-			bgName = "bg_story_task",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "清扫很快乐，没有比看到一切都井井有条更让人高兴的事了",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			bgName = "bg_story_task",
-			dir = 1,
-			say = "确实，自从谢菲尔德担任秘书舰以来，指挥室的环境一直是干净的地板能反光的状态",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			bgName = "bg_story_task",
-			dir = 1,
-			say = "工作效率也确实提高了，不过……",
+			say = "In addition to her normal duties as secretary, Sheffield insisted on keeping the office clean as well.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +85,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "顺便一提，唯一不井井有条的就只有时不时会发呆的主人您了。",
+			say = "Cleaning is a joy, after all. There is nothing more satisfying than seeing everything in order.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +99,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "不知该说是环境的整洁还是谢菲尔德的严格带来的效率呢……",
+			say = "That is true. Ever since you took on the secretary position, the office has been refreshing and pristine.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,44 +110,10 @@ return {
 			}
 		},
 		{
-			actor = 202191,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "打扰了，主人。贝尔法斯特拜托我把这份文件转交给您。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 202191,
-			side = 2,
-			bgName = "bg_story_task",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "不用客气，这是我分内的事情，另外也是顺便来看看女仆队的同僚…",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 202191,
-			side = 2,
-			bgName = "bg_story_task",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "谢菲，看起来秘书舰的工作相当合你的心意呢",
+			say = "I can't deny that my work productivity has increased as well, but...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +129,21 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "请不要突然说一些不着边际的话。",
+			say = "I simply would like to point out that there are things that even I cannot keep in order. For example, this indolent Master here who loves to daydream.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			bgName = "bg_story_task",
+			dir = 1,
+			say = "What I was going to say was, I'm not sure if it's due to the clean work environment or to your strictness.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +159,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵，原本还有些不放心，现在看来是不用操心了呢~",
+			say = "Sorry to intrude, Master. Belfast asked me to deliver this message to you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +175,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "主人，虽然谢菲平时说话很不客气，不过正因如此，她是绝不会做自己不喜欢做的事情的",
+			say = "Here you go. Don't worry about me, it's just how we handle internal affairs. Moreover, I figured I would take this opportunity to visit a fellow member of the Maid Team.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,24 +186,12 @@ return {
 			}
 		},
 		{
+			actor = 202191,
 			side = 2,
 			bgName = "bg_story_task",
+			nameColor = "#a9f548",
 			dir = 1,
-			say = "…也就是说",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			bgName = "bg_story_task",
-			dir = 1,
-			say = "（砰！）",
+			say = "Sheffy, you look like you're quite accustomed to secretary work.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,51 +207,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这里、稍微、有些脏了",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			bgName = "bg_story_task",
-			dir = 1,
-			say = "感觉到一阵凉风从耳边吹过，刚才那个，是清洁弹…吧？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			bgName = "bg_story_task",
-			dir = 1,
-			say = "谢菲尔德一脸平静地走向射击的位置",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 202081,
-			side = 2,
-			bgName = "bg_story_task",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "刚刚才清洁过这里？不，还是有些灰尘，看来我还是不够仔细呢",
+			say = "I have no idea who you're talking to. Or what you're talking about.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -343,7 +223,127 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵…看来我说了多余的话呢，主人、谢菲，就请你们继续好好相处咯？",
+			say = "Hehe, I see. I was a bit worried at first, but it seems like everything is fine over here.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 202191,
+			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "Commander, Sheffy might sound rude at times, but she would absolutely never do anything that she didn't want to do.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			bgName = "bg_story_task",
+			dir = 1,
+			say = "I see... In other words...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			bgName = "bg_story_task",
+			dir = 1,
+			say = "(Bang!)",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 202081,
+			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "How negligent. I forgot to clean up these two dirty spots.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			bgName = "bg_story_task",
+			dir = 1,
+			say = "I felt a cold gust go past my ear... Just now, was that a cleaning bullet?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			bgName = "bg_story_task",
+			dir = 1,
+			say = "Sheffield stood there calmly as if she hadn't just fired a warning shot into the wall.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 202081,
+			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "I thought I had already cleaned here, but looks like I missed a spot. How careless of me.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 202191,
+			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "Oh my, it looks like I've said some extraneous things. In any case, Master, please continue to get along well with Sheffy~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -358,7 +358,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "纽卡斯尔带着颇有深意的笑容走出了指挥室",
+			say = "Newcastle grinned mischievously as she left the room. Just what part of this looks like \"getting along?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

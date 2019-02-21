@@ -34,7 +34,7 @@ return {
 			side = 2,
 			nameColor = "#ff0000",
 			dir = 1,
-			say = "…这次的炸弹…该说果然不愧是特制的吗…",
+			say = "... Was that all...? It seems the only thing special about that bomb was its name.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -49,7 +49,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			say = "！！！为什么，都已经被炸成这样了还不肯投降！再这样下去你真的会沉的！",
+			say = "You've nearly been bombed to pieces, yet you won't surrender?! You're going to sink if you let this continue!",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -68,7 +68,7 @@ return {
 			side = 1,
 			nameColor = "#ff0000",
 			dir = 1,
-			say = "…投降…吗？",
+			say = "So you want me to surrender, huh...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			side = 1,
 			nameColor = "#ff0000",
 			dir = 1,
-			say = "对不起，比起投降，作为战舰战斗到最后一刻可能才是我们的夙愿…",
+			say = "... Sorry, that's not happening. As a battleship, it's my wish to continue fighting till the very end.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,7 +98,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "为什么你们这些铁血的死脑筋都这么顽固，和之前那位一模一样！",
+			say = "Just how obstinate can you Iron Blood ships be?! Your sister said the same thing!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			side = 1,
 			nameColor = "#ff0000",
 			dir = 1,
-			say = "你…你见过我的姐姐？",
+			say = "Bismarck...?! You've... met my sister...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -128,7 +128,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是啊！当时几乎整个皇家舰队都被调动起来了，我也不例外，虽然只是从远处观察到了战情而已…",
+			say = "I have! We had almost the entire Royal Navy fighting your sister, me included. All I did was monitor her from a long distance with my planes, though...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你们说的话，几乎一模一样！",
+			say = "Still, it's true, Bismarck said those very same words!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +158,7 @@ return {
 			side = 1,
 			nameColor = "#ff0000",
 			dir = 1,
-			say = "……",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,7 +173,7 @@ return {
 			side = 1,
 			nameColor = "#ff0000",
 			dir = 1,
-			say = "皇家的小姐…谢谢你",
+			say = "... I see... Thank you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,7 +188,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哈！？？",
+			say = "Huh? Thanks for what...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,7 +203,7 @@ return {
 			side = 1,
 			nameColor = "#ff0000",
 			dir = 1,
-			say = "我的姐姐，她实在太优秀了，她贯彻了自己的理念并且收获了至高的战果",
+			say = "She upheld her own beliefs, even till the very end, and sunk with the greatest service record ever seen.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			side = 1,
 			nameColor = "#ff0000",
 			dir = 1,
-			say = "就算是在百年后，应该依然会有人类记得她的名字并且津津乐道吧~",
+			say = "Even in our world, her name will long remain in the memory of many people...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,7 +233,7 @@ return {
 			side = 1,
 			nameColor = "#ff0000",
 			dir = 1,
-			say = "作为一艘铁血战舰，最可悲的无非是一生默默无闻、被人遗忘，最后等待他人处置的命运…",
+			say = "To us Iron Blood battleships, there's nothing more tragic than leaving your fate in the hands of others and being forgotten, having achieved nothing...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +248,7 @@ return {
 			side = 1,
 			nameColor = "#ff0000",
 			dir = 1,
-			say = "而你们的出现，至少又给了我一次主炮齐射的机会——",
+			say = "And I have you to thank for coming here and giving me one more chance to fire my cannons...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +263,7 @@ return {
 			side = 1,
 			nameColor = "#ff0000",
 			dir = 1,
-			say = "…就这样战斗到最后也不错呢！",
+			say = "If I must trade my existence for one last honorable battle... then that's fine.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,7 +278,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -293,7 +293,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "什么嘛…你这样也太狡猾了！",
+			say = "What are you saying?! This is no honourable way to go!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +308,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "真当自己是悲情英雄吗！真当这样很潇洒吗！？…明明可以有继续活下去的机会！",
+			say = "What are you, the Drama Queen in the North?! Or do you just want to look cool?! I'm offering you the chance to live, and you refuse...?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -323,7 +323,7 @@ return {
 			side = 1,
 			nameColor = "#ff0000",
 			dir = 1,
-			say = "……",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -338,7 +338,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "搞得人家就像个大恶人一样……",
+			say = "You're making ME out to be the villain here...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -353,7 +353,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼！真是的…没心情了，航向180度，半速撤离海域——",
+			say = "... Fine. I give up. Task Force One, we're pulling out. Turn 180 degrees and advance at half speed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -368,7 +368,7 @@ return {
 			side = 1,
 			nameColor = "#ff0000",
 			dir = 1,
-			say = "…这样真的好吗？这可是你收获战功、名留青史最好的机会",
+			say = "... You're leaving? This is your chance to earn glory, your chance to make glorious history...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -383,7 +383,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "功名什么的…我也很想要啊！可是可是…我只是不希望…",
+			say = "Of course honour and glory are appealing... But I can't stand to earn them this way...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -398,7 +398,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不，人家只是...舰载机没燃料了！...哼，算你运气好！",
+			say = "W-what I mean is... my planes are out of fuel, that's all! ...My word, how lucky for you! Hmph!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -413,7 +413,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "回报旗舰约克公爵号：“钨”行动失败",
+			say = "Message to flagship Duke of York...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -428,7 +428,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "——我们重创但仍未能击沉北方的女王…",
+			say = "\"The 'Queen in the North' has been seriously damaged, but could not be sunk. Operation Tungsten has ended in failure...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -444,7 +444,7 @@ return {
 			blackBg = true,
 			actor = 405024,
 			nameColor = "#ff0000",
-			say = "……真是个令人捉摸不透的皇家大小姐呀…",
+			say = "... What an unpredictable lady...",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -477,7 +477,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "…想必未来也没有机会再见面了吧…",
+			say = "... I doubt we will ever meet again...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -509,7 +509,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "带着这份天真的你究竟能走得多远呢，如果有机会，真是想好好看看呀——（笑）",
+			say = "I wonder how far your compassion will get you... I hope to one day find out...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

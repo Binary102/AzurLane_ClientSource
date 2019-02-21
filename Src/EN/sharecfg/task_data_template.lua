@@ -7601,7 +7601,7 @@ pg.task_data_template = {
 		type = 5,
 		name = "Chapter 5: Worries! What's going on with me lately?",
 		count_inherit = 0,
-		desc = "Reach 100 affection with Concord",
+		desc = "Reach 100 affection with Ryuujou",
 		target_id_2 = "",
 		sub_type = 1012,
 		added_tip = 1,
@@ -7685,7 +7685,7 @@ pg.task_data_template = {
 		type = 5,
 		name = "Chapter 7: Bravery! Commander, I love you!",
 		count_inherit = 0,
-		desc = "Reach level 100 with Concord",
+		desc = "Reach level 100 with Ryuujou",
 		target_id_2 = "",
 		sub_type = 1013,
 		added_tip = 1,
@@ -7973,6 +7973,774 @@ pg.task_data_template = {
 				2,
 				18002,
 				2
+			}
+		}
+	},
+	[5351] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5261,
+		type = 5,
+		name = "Ashigara, Fight!",
+		count_inherit = 0,
+		desc = "Submit 3 \"Torpedo Tempura\"",
+		target_id_2 = "",
+		sub_type = 1000,
+		added_tip = 1,
+		story_icon = "zubing",
+		award_choice = "",
+		level = 1,
+		next_task = "5352",
+		visibility = 1,
+		story_id = "ZUBING1",
+		target_id_for_client = 50003,
+		id = 5351,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "50003",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		},
+		scene = {
+			"BACKYARD"
+		}
+	},
+	[5352] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5262,
+		type = 5,
+		name = "Ashigara, Work!",
+		count_inherit = 0,
+		desc = "Enhance any ship 10 times. ",
+		target_id_2 = "",
+		sub_type = 34,
+		added_tip = 1,
+		story_icon = "zubing",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5353",
+		visibility = 1,
+		story_id = "ZUBING2",
+		target_id_for_client = 0,
+		id = 5352,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5353] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5263,
+		type = 5,
+		name = "Ashigara, Strike!",
+		count_inherit = 0,
+		desc = "Sortie a fleet with Ashigara and obtain\n20 victories",
+		target_id_2 = "",
+		sub_type = 18,
+		added_tip = 1,
+		story_icon = "zubing",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5354",
+		visibility = 1,
+		story_id = "ZUBING3",
+		target_id_for_client = 30309,
+		id = 5353,
+		target_num = 20,
+		fix_task = 0,
+		target_id = "30309",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5354] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5264,
+		type = 5,
+		name = "Ashigara, Why do you Fight?",
+		count_inherit = 0,
+		desc = "Complete 3 Daily Challenges with \nAshigara in the fleet",
+		target_id_2 = "",
+		sub_type = 19,
+		added_tip = 1,
+		story_icon = "zubing",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5355",
+		visibility = 1,
+		story_id = "ZUBING4",
+		target_id_for_client = 30309,
+		id = 5354,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "30309",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5355] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5265,
+		type = 5,
+		name = "Ashigara, Confused!",
+		count_inherit = 0,
+		desc = "Reach 100 Affinity with Ashigara",
+		target_id_2 = "",
+		sub_type = 1012,
+		added_tip = 1,
+		story_icon = "zubing",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5356",
+		visibility = 1,
+		story_id = "ZUBING5",
+		target_id_for_client = 30309,
+		id = 5355,
+		target_num = 10000,
+		fix_task = 0,
+		target_id = "30309",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				5
+			},
+			{
+				2,
+				16002,
+				1
+			}
+		}
+	},
+	[5356] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5266,
+		type = 5,
+		name = "Ashigara, (Love) Stricken!",
+		count_inherit = 0,
+		desc = "Fully Limit Break Ashigara",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 1,
+		story_icon = "zubing",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5357",
+		visibility = 1,
+		story_id = "ZUBING6",
+		target_id_for_client = 303094,
+		id = 5356,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "303094",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18012,
+				1
+			}
+		}
+	},
+	[5357] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5267,
+		type = 5,
+		name = "Ashigara, Go Out!",
+		count_inherit = 0,
+		desc = "Reach level 100 with Ashigara",
+		target_id_2 = "",
+		sub_type = 1013,
+		added_tip = 1,
+		story_icon = "zubing",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "ZUBING7",
+		target_id_for_client = 30309,
+		id = 5357,
+		target_num = 100,
+		fix_task = 0,
+		target_id = "30309",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18012,
+				2
+			}
+		}
+	},
+	[5391] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5289,
+		type = 5,
+		name = "The Cleaning Crew",
+		count_inherit = 0,
+		desc = "Submit 3 \"Torpedo Tempura\"",
+		target_id_2 = "",
+		sub_type = 1000,
+		added_tip = 1,
+		story_icon = "xiefeierde",
+		award_choice = "",
+		level = 1,
+		next_task = "5392",
+		visibility = 1,
+		story_id = "XIEFEIERDE1",
+		target_id_for_client = 50003,
+		id = 5391,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "50003",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		},
+		scene = {
+			"BACKYARD"
+		}
+	},
+	[5392] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5290,
+		type = 5,
+		name = "For the Sake of \"Cleaning\"",
+		count_inherit = 0,
+		desc = "Enhance any ship 10 times. ",
+		target_id_2 = "",
+		sub_type = 34,
+		added_tip = 1,
+		story_icon = "xiefeierde",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5393",
+		visibility = 1,
+		story_id = "XIEFEIERDE2",
+		target_id_for_client = 0,
+		id = 5392,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5393] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5291,
+		type = 5,
+		name = "A Maid's Hobby",
+		count_inherit = 0,
+		desc = "Sortie a fleet with Sheffield and obtain\n20 victories",
+		target_id_2 = "",
+		sub_type = 18,
+		added_tip = 1,
+		story_icon = "xiefeierde",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5394",
+		visibility = 1,
+		story_id = "XIEFEIERDE3",
+		target_id_for_client = 20208,
+		id = 5393,
+		target_num = 20,
+		fix_task = 0,
+		target_id = "20208",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5394] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5292,
+		type = 5,
+		name = "Motivation?",
+		count_inherit = 0,
+		desc = "Complete 3 Daily Challenges with \nSheffield in the fleet",
+		target_id_2 = "",
+		sub_type = 19,
+		added_tip = 1,
+		story_icon = "xiefeierde",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5395",
+		visibility = 1,
+		story_id = "XIEFEIERDE4",
+		target_id_for_client = 20208,
+		id = 5394,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "20208",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5395] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5293,
+		type = 5,
+		name = "Weekend Rendezvous",
+		count_inherit = 0,
+		desc = "Reach 100 Affinity with Sheffield",
+		target_id_2 = "",
+		sub_type = 1012,
+		added_tip = 1,
+		story_icon = "xiefeierde",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5396",
+		visibility = 1,
+		story_id = "XIEFEIERDE5",
+		target_id_for_client = 20208,
+		id = 5395,
+		target_num = 10000,
+		fix_task = 0,
+		target_id = "20208",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				5
+			},
+			{
+				2,
+				16012,
+				1
+			}
+		}
+	},
+	[5396] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5294,
+		type = 5,
+		name = "A Maid's Feelings (Part 1)",
+		count_inherit = 0,
+		desc = "Fully limit Break Sheffield",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 1,
+		story_icon = "xiefeierde",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5397",
+		visibility = 1,
+		story_id = "XIEFEIERDE6",
+		target_id_for_client = 202084,
+		id = 5396,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "202084",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18012,
+				1
+			}
+		}
+	},
+	[5397] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5295,
+		type = 5,
+		name = "A Maid's Feelings (Part 2)",
+		count_inherit = 0,
+		desc = "Reach level 100 with Sheffield",
+		target_id_2 = "",
+		sub_type = 1013,
+		added_tip = 1,
+		story_icon = "xiefeierde",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "XIEFEIERDE7",
+		target_id_for_client = 20208,
+		id = 5397,
+		target_num = 100,
+		fix_task = 0,
+		target_id = "20208",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18012,
+				2
+			}
+		}
+	},
+	[5401] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5296,
+		type = 5,
+		name = "A Maid Must...",
+		count_inherit = 0,
+		desc = "Submit 3 \"Torpedo Tempura\"",
+		target_id_2 = "",
+		sub_type = 1000,
+		added_tip = 1,
+		story_icon = "tianlangxing",
+		award_choice = "",
+		level = 1,
+		next_task = "5402",
+		visibility = 1,
+		story_id = "TIANLANGXING1",
+		target_id_for_client = 50003,
+		id = 5401,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "50003",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		},
+		scene = {
+			"BACKYARD"
+		}
+	},
+	[5402] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5297,
+		type = 5,
+		name = "Her Majesty's Orders",
+		count_inherit = 0,
+		desc = "Enhance any ship 10 times. ",
+		target_id_2 = "",
+		sub_type = 34,
+		added_tip = 1,
+		story_icon = "tianlangxing",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5403",
+		visibility = 1,
+		story_id = "TIANLANGXING2",
+		target_id_for_client = 0,
+		id = 5402,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5403] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5298,
+		type = 5,
+		name = "The Maids' Aid",
+		count_inherit = 0,
+		desc = "Sortie a fleet with Sirius and obtain\n20 victories",
+		target_id_2 = "",
+		sub_type = 18,
+		added_tip = 1,
+		story_icon = "tianlangxing",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5404",
+		visibility = 1,
+		story_id = "TIANLANGXING3",
+		target_id_for_client = 20220,
+		id = 5403,
+		target_num = 20,
+		fix_task = 0,
+		target_id = "20220",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5404] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5299,
+		type = 5,
+		name = "Big Seven Advice",
+		count_inherit = 0,
+		desc = "Complete 3 Daily Challenges with \nSirius in the fleet",
+		target_id_2 = "",
+		sub_type = 19,
+		added_tip = 1,
+		story_icon = "tianlangxing",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5405",
+		visibility = 1,
+		story_id = "TIANLANGXING4",
+		target_id_for_client = 20220,
+		id = 5404,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "20220",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5405] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5300,
+		type = 5,
+		name = "Take My Hand",
+		count_inherit = 0,
+		desc = "Reach 100 Affinity with Sirius",
+		target_id_2 = "",
+		sub_type = 1012,
+		added_tip = 1,
+		story_icon = "tianlangxing",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5406",
+		visibility = 1,
+		story_id = "TIANLANGXING5",
+		target_id_for_client = 20220,
+		id = 5405,
+		target_num = 10000,
+		fix_task = 0,
+		target_id = "20220",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				5
+			},
+			{
+				2,
+				16022,
+				1
+			}
+		}
+	},
+	[5406] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5301,
+		type = 5,
+		name = "Banquet Panic",
+		count_inherit = 0,
+		desc = "Fully limit Break Sirius",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 1,
+		story_icon = "tianlangxing",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5407",
+		visibility = 1,
+		story_id = "TIANLANGXING6",
+		target_id_for_client = 202204,
+		id = 5406,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "202204",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18012,
+				1
+			}
+		}
+	},
+	[5407] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5302,
+		type = 5,
+		name = "Like The Brightest Star",
+		count_inherit = 0,
+		desc = "Reach level 100 with Sirius",
+		target_id_2 = "",
+		sub_type = 1013,
+		added_tip = 1,
+		story_icon = "tianlangxing",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "TIANLANGXING7",
+		target_id_for_client = 20220,
+		id = 5407,
+		target_num = 100,
+		fix_task = 0,
+		target_id = "20220",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18013,
+				1
 			}
 		}
 	},
@@ -18006,6 +18774,619 @@ pg.task_data_template = {
 			"ACTIVITY_MAP"
 		}
 	},
+	[14152] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 90476,
+		type = 6,
+		name = "『凛冬王冠复刻』通关A1/C1",
+		count_inherit = 0,
+		desc = "Clear A1 or C1",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "14153",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14152,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1190001,
+			1190011
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			}
+		}
+	},
+	[14153] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90477,
+		type = 6,
+		name = "『凛冬王冠复刻』通关A2/C2",
+		count_inherit = 0,
+		desc = "Clear A2 or C2",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "14154",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14153,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1190002,
+			1190012
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			}
+		}
+	},
+	[14154] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90478,
+		type = 6,
+		name = "『凛冬王冠复刻』通关A3/C3",
+		count_inherit = 0,
+		desc = "Clear A3 or C3",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "14155",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14154,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1190003,
+			1190013
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			}
+		}
+	},
+	[14155] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90479,
+		type = 6,
+		name = "『凛冬王冠复刻』通关B1/D1",
+		count_inherit = 0,
+		desc = "Clear B1 or D1",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "14156",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14155,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1190004,
+			1190014
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			}
+		}
+	},
+	[14156] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90480,
+		type = 6,
+		name = "『凛冬王冠复刻』通关B2/D2",
+		count_inherit = 0,
+		desc = "Clear B2 or D2",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "14157",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14156,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1190005,
+			1190015
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			}
+		}
+	},
+	[14157] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90481,
+		type = 6,
+		name = "『凛冬王冠复刻』通关B3/D3",
+		count_inherit = 0,
+		desc = "Clear B3 or D3",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14157,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1190006,
+			1190016
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			}
+		}
+	},
+	[14158] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 90482,
+		type = 6,
+		name = "『凛冬王冠复刻』通关EX",
+		count_inherit = 0,
+		desc = "Clear the EX stage",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1190017,
+		id = 14158,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1190017",
+		open_need = {},
+		award_display = {
+			{
+				5,
+				119,
+				1
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[14159] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 90483,
+		type = 6,
+		name = "『凛冬王冠复刻』A1/C1的3星",
+		count_inherit = 0,
+		desc = "Complete A1 or C1 with 3 stars",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "14160",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14159,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1190001,
+			1190011
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18001,
+				1
+			}
+		}
+	},
+	[14160] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90484,
+		type = 6,
+		name = "『凛冬王冠复刻』A2/C2的3星",
+		count_inherit = 0,
+		desc = "Complete A2 or C2 with 3 stars",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "14161",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14160,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1190002,
+			1190012
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18002,
+				1
+			}
+		}
+	},
+	[14161] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90485,
+		type = 6,
+		name = "『凛冬王冠复刻』A3/C3的3星",
+		count_inherit = 0,
+		desc = "Complete A3 or C3 with 3 stars",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "14162",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14161,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1190003,
+			1190013
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18002,
+				2
+			}
+		}
+	},
+	[14162] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90486,
+		type = 6,
+		name = "『凛冬王冠复刻』B1/D1的3星",
+		count_inherit = 0,
+		desc = "Complete B1 or D1 with 3 stars",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "14163",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14162,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1190004,
+			1190014
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18002,
+				1
+			}
+		}
+	},
+	[14163] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90487,
+		type = 6,
+		name = "『凛冬王冠复刻』B2/D2的3星",
+		count_inherit = 0,
+		desc = "Complete B2 or D2 with 3 stars",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "14164",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14163,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1190005,
+			1190015
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18003,
+				1
+			}
+		}
+	},
+	[14164] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90488,
+		type = 6,
+		name = "『凛冬王冠复刻』B3/D3的3星",
+		count_inherit = 0,
+		desc = "Complete B3 or D3 with 3 stars",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14164,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1190006,
+			1190016
+		},
+		open_need = {},
+		award_display = {
+			{
+				4,
+				201271,
+				1
+			}
+		}
+	},
+	[14165] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 90489,
+		type = 36,
+		name = "『凛冬王冠复刻』日常建造",
+		count_inherit = 0,
+		desc = "Construct 3 ships",
+		target_id_2 = "",
+		sub_type = 30,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14165,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59121,
+				300
+			}
+		}
+	},
+	[14166] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 90490,
+		type = 36,
+		name = "『凛冬王冠复刻』日常出击",
+		count_inherit = 0,
+		desc = "Sortie and obtain 15 victories",
+		target_id_2 = "",
+		sub_type = 20,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14166,
+		target_num = 15,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59121,
+				300
+			}
+		}
+	},
+	[14167] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 90491,
+		type = 36,
+		name = "『凛冬王冠复刻』日常困难本",
+		count_inherit = 0,
+		desc = "Sortie and clear 1 non-event \nHard Mode map",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14167,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			10101,
+			10102,
+			10103,
+			10104,
+			10201,
+			10202,
+			10203,
+			10204,
+			10301,
+			10302,
+			10303,
+			10304,
+			10401,
+			10402,
+			10403,
+			10404,
+			10501,
+			10502,
+			10503,
+			10504,
+			10601,
+			10602,
+			10603,
+			10604,
+			10701,
+			10702,
+			10703,
+			10704,
+			10801,
+			10802,
+			10803,
+			10804
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59121,
+				100
+			}
+		}
+	},
 	[14168] = {
 		is_head = 1,
 		guild_coin_award = 0,
@@ -20438,6 +21819,27 @@ pg.task_data_template = {
 		5345,
 		5346,
 		5347,
+		5351,
+		5352,
+		5353,
+		5354,
+		5355,
+		5356,
+		5357,
+		5391,
+		5392,
+		5393,
+		5394,
+		5395,
+		5396,
+		5397,
+		5401,
+		5402,
+		5403,
+		5404,
+		5405,
+		5406,
+		5407,
 		6001,
 		6002,
 		6003,
@@ -20727,6 +22129,22 @@ pg.task_data_template = {
 		14107,
 		14108,
 		14109,
+		14152,
+		14153,
+		14154,
+		14155,
+		14156,
+		14157,
+		14158,
+		14159,
+		14160,
+		14161,
+		14162,
+		14163,
+		14164,
+		14165,
+		14166,
+		14167,
 		14168,
 		14169,
 		14170,

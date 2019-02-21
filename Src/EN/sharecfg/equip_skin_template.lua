@@ -1881,6 +1881,471 @@ pg.equip_skin_template = {
 			54014
 		}
 	},
+	[140] = {
+		bullet_name = "zidan_cup",
+		name = "Cup of Tea Shell",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "There's never a bad time for teatime.",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		icon = "91311",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 140,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	},
+	[141] = {
+		bullet_name = "zidan_cookie",
+		name = "Biscuit Shell",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "It complements tea and tea complements it.",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		icon = "91312",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 141,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	},
+	[142] = {
+		bullet_name = "zidan_buding",
+		name = "Pudding Shell",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "\"I wonder if pudding and jelly are related... Distant cousins, perhaps?\"",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		icon = "91313",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 142,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	},
+	[143] = {
+		bullet_name = "paodan_benzhong",
+		name = "Clock Tower Shell",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "It's a bird! It's a plane! It's... Big Ben?!",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		icon = "91314",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 143,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[144] = {
+		bullet_name = "paodan_huangjialiaoli",
+		name = "Gourmet Shell",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "Taking the act of pieing someone to the extreme.",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		icon = "91315",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 144,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[145] = {
+		bullet_name = "paodan_dianhuating",
+		name = "Phone Booth Shell",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "Hey, I just met you, and this is crazy...",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		icon = "91316",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 145,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[146] = {
+		bullet_name = "yulei_guaizhang",
+		name = "Cane Torpedo",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "One essential piece of attire for a Royal individual of the male persuasion.",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		icon = "91321",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 146,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[147] = {
+		bullet_name = "yulei_yandou",
+		name = "Pipe Torpedo",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "Another essential piece of attire for a Royal individual of the male persuasion.",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		icon = "91322",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 147,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[148] = {
+		bullet_name = "yulei_mingjiu",
+		name = "Whisky Torpedo",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "\"Oh, this is the fine stuff, chap! It'll cost you a guinea or two!\"",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		icon = "91323",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 148,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[149] = {
+		bullet_name = "feiji_reqiqiu",
+		name = "Royal Air Balloon (Torpedo)",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "The best of the best of the Royal Navy Manjuu Airborne Troops.",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		icon = "91331",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 149,
+		derivate_torpedo = "yulei_yandou",
+		ship_skin_id = 0,
+		equip_type = {
+			8
+		},
+		weapon_ids = {
+			61503,
+			61504
+		}
+	},
+	[150] = {
+		bullet_name = "feiji_reqiqiu",
+		name = "Royal Air Balloon (Fighter)",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "The best of the best of the Royal Navy Manjuu Airborne Troops.",
+		ship_config_id = 100011,
+		derivate_boom = "paodan_huangjialiaoli",
+		icon = "91331",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 150,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			7
+		},
+		weapon_ids = {
+			61505,
+			54010
+		}
+	},
+	[151] = {
+		bullet_name = "feiji_reqiqiu",
+		name = "Royal Air Balloon (Bomber)",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "The best of the best of the Royal Navy Manjuu Airborne Troops.",
+		ship_config_id = 100011,
+		derivate_boom = "paodan_huangjialiaoli",
+		icon = "91331",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 151,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			9
+		},
+		weapon_ids = {
+			61501,
+			54014
+		}
+	},
+	[152] = {
+		bullet_name = "feiji_tieta",
+		name = "Grand Tower (Torpedo)",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "Well, it's not Royal, but... like we've done with many things originating from Iris, we nicked it anyway.",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		icon = "91332",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 152,
+		derivate_torpedo = "yulei_mingjiu",
+		ship_skin_id = 0,
+		equip_type = {
+			8
+		},
+		weapon_ids = {
+			61503,
+			61504
+		}
+	},
+	[153] = {
+		bullet_name = "feiji_tieta",
+		name = "Grand Tower (Fighter)",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "Well, it's not Royal, but... like we've done with many things originating from Iris, we nicked it anyway.",
+		ship_config_id = 100011,
+		derivate_boom = "paodan_benzhong",
+		icon = "91332",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 153,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			7
+		},
+		weapon_ids = {
+			61505,
+			54010
+		}
+	},
+	[154] = {
+		bullet_name = "feiji_tieta",
+		name = "Grand Tower (Bomber)",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "Well, it's not Royal, but... like we've done with many things originating from Iris, we nicked it anyway.",
+		ship_config_id = 100011,
+		derivate_boom = "paodan_benzhong",
+		icon = "91332",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 154,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			9
+		},
+		weapon_ids = {
+			61501,
+			54014
+		}
+	},
+	[155] = {
+		bullet_name = "feiji_bashi",
+		name = "Double-Decker (Torpedo)",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "The latest and greatest from the Royal Navy Manjuu Transportation Corps.",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		icon = "91333",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 155,
+		derivate_torpedo = "yulei_guaizhang",
+		ship_skin_id = 0,
+		equip_type = {
+			8
+		},
+		weapon_ids = {
+			61503,
+			61504
+		}
+	},
+	[156] = {
+		bullet_name = "feiji_bashi",
+		name = "Double-Decker (Fighter)",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "The latest and greatest from the Royal Navy Manjuu Transportation Corps.",
+		ship_config_id = 100011,
+		derivate_boom = "paodan_dianhuating",
+		icon = "91333",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 156,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			7
+		},
+		weapon_ids = {
+			61505,
+			54010
+		}
+	},
+	[157] = {
+		bullet_name = "feiji_bashi",
+		name = "Double-Decker (Bomber)",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "The latest and greatest from the Royal Navy Manjuu Transportation Corps.",
+		ship_config_id = 100011,
+		derivate_boom = "paodan_dianhuating",
+		icon = "91333",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 157,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			9
+		},
+		weapon_ids = {
+			61501,
+			54014
+		}
+	},
 	[1001] = {
 		bullet_name = "Nep_bullet_shizi",
 		name = "Joypad Shell (P)",
@@ -2346,6 +2811,24 @@ pg.equip_skin_template = {
 		135,
 		136,
 		137,
+		140,
+		141,
+		142,
+		143,
+		144,
+		145,
+		146,
+		147,
+		148,
+		149,
+		150,
+		151,
+		152,
+		153,
+		154,
+		155,
+		156,
+		157,
 		1001,
 		1002,
 		1003,

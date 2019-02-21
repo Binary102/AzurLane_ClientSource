@@ -326,7 +326,7 @@ pg.memory_group = {
 		}
 	},
 	[122] = {
-		title = "Harukaze's Star",
+		title = "Sea Star on Shore",
 		type = 2,
 		id = 122,
 		icon = "title_event",
@@ -338,6 +338,32 @@ pg.memory_group = {
 			218,
 			219,
 			220
+		}
+	},
+	[123] = {
+		title = "Winter's Crown ",
+		type = 2,
+		id = 123,
+		icon = "title_event",
+		memories = {
+			221,
+			222,
+			223,
+			224,
+			225,
+			226,
+			227,
+			228,
+			229,
+			230,
+			231,
+			232,
+			233,
+			234,
+			235,
+			236,
+			237,
+			238
 		}
 	},
 	[124] = {
@@ -597,6 +623,51 @@ pg.memory_group = {
 			573
 		}
 	},
+	[533] = {
+		title = "Ashigara, Advance! ",
+		type = 3,
+		id = 533,
+		icon = "title_chara_zubing",
+		memories = {
+			599,
+			600,
+			601,
+			602,
+			603,
+			604,
+			605
+		}
+	},
+	[537] = {
+		title = "Loaded with Lead and Love ",
+		type = 3,
+		id = 537,
+		icon = "title_chara_xiefeierde",
+		memories = {
+			656,
+			657,
+			658,
+			659,
+			660,
+			661,
+			662
+		}
+	},
+	[538] = {
+		title = "Sirius' Improvement Plan ",
+		type = 3,
+		id = 538,
+		icon = "title_chara_tianlangxing",
+		memories = {
+			663,
+			664,
+			665,
+			666,
+			667,
+			668,
+			669
+		}
+	},
 	all = {
 		1,
 		2,
@@ -619,6 +690,7 @@ pg.memory_group = {
 		120,
 		121,
 		122,
+		123,
 		124,
 		125,
 		128,
@@ -633,7 +705,10 @@ pg.memory_group = {
 		528,
 		529,
 		530,
-		531
+		531,
+		533,
+		537,
+		538
 	}
 }
 

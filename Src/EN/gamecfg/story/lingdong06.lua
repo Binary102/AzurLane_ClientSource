@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "……————",
+			say = "...",
 			side = 2,
 			blackBg = true,
 			dir = 1,
@@ -33,7 +33,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "啊！雷达和锅炉受到重创损坏，战斗无法继续...呜",
+			say = "Eek! My radar and engine have been hit... I can't continue fighting... I'm sorry...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +48,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
-			say = "够了，不和你们这些烦人的小家伙继续纠缠了，我们还有更重要的任务！",
+			say = "Tsk... I don't have time for you little worms! I have more important things to do!",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -67,7 +67,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "转向150度，满速前进，立刻撤离战场——",
+			say = "Starboard, 150 degrees! Full speed retreat!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,7 +82,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这次又准备要逃了？我们都还没热身完呢",
+			say = "Oh, are you going to run away once more? How unfortunate, I had just started enjoying myself...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "谢菲尔德，你的状况如何，还能继续追击吗？",
+			say = "Sheffield, what's your current status? Will you be able to pursue her?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,7 +112,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
-			say = "非常抱歉，动力出现了问题...无法满速前进",
+			say = "I'm sorry, I'm having trouble with my engine... I won't be able to pursue at maximum speed.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -131,7 +131,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "了解，辛苦你们了，剩下的就交给我吧",
+			say = "Understood. But, I would wager that she's bluffing and will turn to attack the convoy soon enough. How soon do you think you can affect repairs?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +146,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你打算...？",
+			say = "A reasonable assumption. But if we can't repair quickly, you're intent upon going after her... alone?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，不能放过这次机会，那对丑陋姐妹欠下我们皇家太多的债了！",
+			say = "Those sisters have caused the Royal Navy far too much trouble... We have been given a chance to make them pay, and I will not let it slip by!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

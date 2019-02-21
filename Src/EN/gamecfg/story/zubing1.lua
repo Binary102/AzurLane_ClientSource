@@ -11,65 +11,18 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"足柄个人角色物语\n\n<size=30>一 占坑</size>",
+					"Ashigara, Advance!\n\n<size=30>一 Chapter 1: Ashigara, Fight!</size>",
 					1
 				}
 			}
 		},
 		{
 			side = 2,
-			dir = 1,
-			blackBg = true,
-			say = "她们是拥有人类之型，钢铁之躯的战斗少女 ",
-			flashout = {
-				dur = 1,
-				black = true,
-				alpha = {
-					0,
-					1
-				}
-			},
-			flashin = {
-				delay = 1,
-				dur = 1,
-				black = true,
-				alpha = {
-					1,
-					0
-				}
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			dir = 1,
-			blackBg = true,
-			say = "曾在那次大战中大显身手，如今以心智魔方的力量变成人形，",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			dir = 1,
-			blackBg = true,
-			say = "活跃在与全人类的敌人——塞壬的战斗之中",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			bgName = "bg_story_task",
+			bgName = "bg_story_nepu1",
 			dir = 1,
 			bgmDelay = 2,
-			bgm = "story-1",
-			say = "港区・仓库",
+			bgm = "level",
+			say = "One day, at the training grounds",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -94,9 +47,9 @@ return {
 		},
 		{
 			side = 2,
-			bgName = "bg_story_task",
+			bgName = "bg_story_nepu1",
 			dir = 1,
-			say = "灰头土脸的指挥官正拼命翻找着收在仓库深处的某个稀有装备。",
+			say = "The heavy cruisers of the Sakura Fleet are currently carrying out exercises.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,138 +57,136 @@ return {
 		},
 		{
 			side = 2,
-			bgName = "bg_story_task",
+			bgName = "bg_story_nepu1",
 			dir = 1,
-			say = "咚！当！咣咣！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			bgName = "bg_story_task",
-			dir = 1,
-			say = "……找东西的过程好像并不怎么顺利。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			bgName = "bg_story_task",
-			dir = 1,
-			say = "面对着垒的如同小山一样高资源材料和装备，指挥官已经精疲力尽并且摇摇欲坠了。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
+			actor = 303031,
 			nameColor = "#a9f548",
-			actorName = "???",
-			bgName = "bg_story_task",
-			side = 2,
-			dir = 1,
-			say = "……危险！",
-			dialogShake = {
-				speed = 0.1,
-				x = 9.5,
-				number = 2
+			say = "\"Aim to be number one in the base! Fight for glory, Torpedo Squadron of the Sakura Fleet!\" Ahh, what a fine headline!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
 			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			bgName = "bg_story_task",
-			dir = 1,
-			say = "光芒一闪。从某处放出的式神劈开浑浊的空气，然后——",
-			flashN = {
-				color = {
-					1,
-					1,
-					1
-				},
-				alpha = {
-					{
-						0,
-						1,
-						0.5
-					},
-					{
-						1,
-						0,
-						0.5,
-						0.5
-					}
-				}
+			painting = {
+				alpha = 0.3,
+				time = 1
 			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			bgName = "bg_story_task",
-			dir = 1,
-			say = "在指挥官被砸中之前，式神便完美接住了从高处掉下的材料。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#a9f548",
-			bgName = "bg_story_task",
-			side = 2,
-			dir = 1,
-			actorName = "???",
-			say = "天在呼唤！地在呼唤！人在呼唤！千钧一发需要帮助的主公也在呼唤！",
-			effects = {
+			action = {
 				{
-					active = true,
-					name = "speed"
+					y = 0,
+					type = "shake",
+					delay = 0,
+					dur = 0.4,
+					x = 15,
+					number = 2
+				}
+			}
+		},
+		{
+			actor = 303041,
+			side = 2,
+			bgName = "bg_story_nepu1",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "Sis, stop taking selfies already! You're a part of this exercise too!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 303071,
+			side = 2,
+			bgName = "bg_story_nepu1",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "Nachi, take this seriously! Commander will be watching us as well!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 303081,
+			side = 2,
+			bgName = "bg_story_nepu1",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "Lighten up, you two. A genius like me can handle some exercises without even breaking a sweat!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 303081,
+			side = 2,
+			bgName = "bg_story_nepu1",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "Wouldn't you rather see how our little sister is holding up?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			bgName = "bg_story_nepu1",
+			dir = 1,
+			actor = 303091,
+			nameColor = "#a9f548",
+			say = "...Hah!",
+			flashout = {
+				dur = 0.5,
+				black = true,
+				alpha = {
+					0,
+					1
+				}
+			},
+			flashin = {
+				delay = 0.5,
+				dur = 0.5,
+				black = true,
+				alpha = {
+					1,
+					0
 				}
 			},
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
 			}
 		},
 		{
-			actorName = "???",
+			expression = 4,
 			side = 2,
-			bgName = "bg_story_task",
+			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "日出之国的武士，轻航母{namecode:90}，前来参见！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actorName = "???",
-			side = 2,
-			bgName = "bg_story_task",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "……的说！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			bgName = "bg_story_task",
-			dir = 1,
-			say = "如同白昼一般的出场效果闪光。",
+			soundeffect = "event:/battle/boom2",
+			actor = 303091,
+			say = "!!",
 			flashN = {
 				color = {
 					1,
@@ -246,38 +197,184 @@ return {
 					{
 						0,
 						1,
-						0.5
+						0.2
 					},
 					{
 						1,
 						0,
-						0.5,
-						0.5
+						0.2,
+						0.2
+					},
+					{
+						0,
+						1,
+						0.2,
+						0.4
+					},
+					{
+						1,
+						0,
+						0.2,
+						0.6
 					}
 				}
 			},
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
 			}
 		},
 		{
 			side = 2,
-			bgName = "bg_story_task",
+			bgName = "bg_story_nepu1",
 			dir = 1,
-			say = "（爆炸效果……果然还是算了吧）",
+			actor = 303091,
+			nameColor = "#a9f548",
+			say = "Hiya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			action = {
+				{
+					y = 0,
+					type = "move",
+					delay = 0.2,
+					dur = 1,
+					x = 2500
+				}
 			}
 		},
 		{
+			actor = 303111,
 			side = 2,
-			bgName = "bg_story_task",
-			dir = 1,
-			actor = 306061,
+			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
-			say = "主公！您没事吗？吾也来帮忙！",
+			dir = 1,
+			say = "Fast. But also accurate. Not bad.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 303121,
+			side = 2,
+			bgName = "bg_story_nepu1",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "Ara? Are you glad that your underclassman is catching up to you?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 303111,
+			side = 2,
+			bgName = "bg_story_nepu1",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "H-hmph... She still has a ways to go...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 303091,
+			side = 2,
+			bgName = "bg_story_nepu1",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "... Phew!!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 1,
+			side = 2,
+			dir = 1,
+			bgName = "bg_story_nepu1",
+			actor = 303091,
+			nameColor = "#a9f548",
+			say = "Haah... are we done?",
+			flashout = {
+				dur = 0.5,
+				black = true,
+				alpha = {
+					0,
+					1
+				}
+			},
+			flashin = {
+				delay = 0.5,
+				dur = 0.5,
+				black = true,
+				alpha = {
+					1,
+					0
+				}
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 312011,
+			side = 2,
+			bgName = "bg_story_nepu1",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "Good work, nya! Your performance was definitely number one, nya! I'm sure you left a deep impression on Commander, nya.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 3,
+			side = 2,
+			bgName = "bg_story_nepu1",
+			dir = 1,
+			actor = 303091,
+			nameColor = "#a9f548",
+			say = "R-really?! Um... I'm very glad to hear that!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,14 +395,36 @@ return {
 			}
 		},
 		{
+			expression = 1,
 			side = 2,
-			bgName = "bg_story_task",
+			bgName = "bg_story_nepu1",
 			dir = 1,
-			blackBg = true,
-			say = "秘书舰{namecode:90}，今天也在努力保护指挥官！",
+			actor = 303091,
+			nameColor = "#a9f548",
+			say = "However, I still have to do better next time...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 303091,
+			side = 2,
+			nameColor = "#a9f548",
+			dir = 1,
+			blackBg = true,
+			say = "(Indeed... I must aspire to become even stronger!)",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
 			}
 		}
 	}

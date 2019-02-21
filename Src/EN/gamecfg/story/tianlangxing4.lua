@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"天狼星改造计划\n\n<size=30>四 来自Big seven的建议</size>",
+					"Sirius' Improvement Plan\n\n<size=30>Chapter 4 - Big Seven Advice</size>",
 					1
 				}
 			}
@@ -24,7 +24,7 @@ return {
 			bgm = "story-1",
 			actor = 202201,
 			nameColor = "#a9f548",
-			say = "纳尔逊、罗德尼，拜托你们了",
+			say = "Nelson, Rodney, please share your insight with me.",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -57,7 +57,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "虽然不知道我们的建议能派上多少用场，姑且说说吧",
+			say = "I don't know how useful our advice would be, but we could maybe teach you something.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "姐姐，既然是指挥官拜托我们的，认真一点比较好吧？",
+			say = "Nelson? Please, the Commander directly asked us for help, so we should take this seriously.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "请来了纳尔逊与罗德尼，给天狼星提供一些关于上流宴会的建议。",
+			say = "I decided to ask Nelson and Rodney on Sirius' behalf for advice on how to behave at a formal banquet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "首先……先整理一下情况，宴会准备得怎么样了？",
+			say = "Then for starters... let's get an idea of the situation. What's the status of your preparations for the banquet?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "陛下有厌战陪伴在旁，所以准备以保护主人为中心——",
+			say = "Her Majesty will have Lady Warspite for protection, so my plan thus far is to be the Master's bodyguard instead.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			dir = 1,
 			actor = 202201,
 			nameColor = "#a9f548",
-			say = "参加者个人信息的调查已经过了一遍，警卫是否有欠缺以及紧急情况时的逃脱路线的调查已经完成了九成",
+			say = "I have done a general background check on all of the attendees, and my survey of the perimeter's defences and emergency escape routes is 90% complete.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			dir = 1,
 			actor = 202201,
 			nameColor = "#a9f548",
-			say = "主人参会用的物品、车上与港区联络手段的设置、备用衣物、饮酒时的常备药等也已经准备好了",
+			say = "Lastly, I've prepared various banquet items for the Master, installed a communications device in the Master's car, prepared spare clothing, and prepared antiemetic medicine.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "连备用衣物和醒酒药都准备好了，看来贝尔法斯特等人的指导确实起到了效果。",
+			say = "I guess the maids' advice was useful to Sirius, seeing as she prepared an extra set of clothes and some anti-nausea medicine.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这，这样啊……确实准备得很全……",
+			say = "H-huh, I see... You've prepared for just about everything...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			dir = 1,
 			actor = 202201,
 			nameColor = "#a9f548",
-			say = "如果还有什么不备之处请尽管明言（低头",
+			say = "If there is anything I may have not accounted for, please do let me know.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯……姐姐，还是先从基础的东西开始教她比较好？",
+			say = "Um, Nelson... I think we should probably start with teaching her the basics of attending a banquet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			dir = 1,
 			actor = 205041,
 			nameColor = "#a9f548",
-			say = "大概就是这些了。说起来，好像忘了一件很重要的事……礼裙怎么办？",
+			say = "That should be everything. Oh, right, I nearly forgot to ask an important question: do you have a dress prepared?",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -275,7 +275,7 @@ return {
 			dir = 1,
 			actor = 202201,
 			nameColor = "#a9f548",
-			say = "啊……",
+			say = "I've... Um...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,7 +291,7 @@ return {
 			dir = 1,
 			actor = 205031,
 			nameColor = "#a9f548",
-			say = "果然……我去商店那边问问吧。从各种意义上你和光辉她们的身材差不多，{namecode:98}的话说不定立刻能准备好",
+			say = "Figures... You should go ask Illustrious or Akashi. You're basically already wearing a dress, so they might be able to get you a new one right away.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,7 +302,7 @@ return {
 			},
 			options = {
 				{
-					content = "同意纳尔逊的话",
+					content = "Support Nelson's proposal",
 					flag = 1
 				}
 			}
@@ -314,7 +314,7 @@ return {
 			dir = 1,
 			actor = 202201,
 			nameColor = "#a9f548",
-			say = "纳尔逊、主人，太感谢了！",
+			say = "Nelson, Master, you have my sincerest thanks for all of your help!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -329,7 +329,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "……真是帮大忙了。",
+			say = "...You could say that again. Nelson and Rodney were a huge help.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -116047,9 +116047,9 @@ pg.enemy_data_statistics = {
 		luck_growth = 0,
 		antiaircraft_growth = 1200,
 		equipment_list = {
-			470100,
-			470101,
-			470326
+			531033,
+			531034,
+			531035
 		}
 	},
 	[10101005] = {
@@ -116943,9 +116943,9 @@ pg.enemy_data_statistics = {
 		luck_growth = 0,
 		antiaircraft_growth = 1200,
 		equipment_list = {
-			470100,
-			470101,
-			470326
+			531033,
+			531034,
+			531035
 		}
 	},
 	[10102005] = {
@@ -117953,9 +117953,9 @@ pg.enemy_data_statistics = {
 		luck_growth = 0,
 		antiaircraft_growth = 1400,
 		equipment_list = {
-			470100,
-			470101,
-			470326
+			531033,
+			531034,
+			531035
 		}
 	},
 	[10103005] = {
@@ -118849,9 +118849,9 @@ pg.enemy_data_statistics = {
 		luck_growth = 0,
 		antiaircraft_growth = 1400,
 		equipment_list = {
-			470100,
-			470101,
-			470326
+			531033,
+			531034,
+			531035
 		}
 	},
 	[10104005] = {
@@ -119859,9 +119859,9 @@ pg.enemy_data_statistics = {
 		luck_growth = 0,
 		antiaircraft_growth = 1400,
 		equipment_list = {
-			470100,
-			470101,
-			470326
+			531033,
+			531034,
+			531035
 		}
 	},
 	[10105005] = {
@@ -142491,9 +142491,9 @@ pg.enemy_data_statistics = {
 		bubble_fx = "",
 		antiaircraft_growth = 1200,
 		equipment_list = {
-			470100,
-			470101,
-			470326
+			531033,
+			531034,
+			531035
 		},
 		appear_fx = {
 			"appearsmall"

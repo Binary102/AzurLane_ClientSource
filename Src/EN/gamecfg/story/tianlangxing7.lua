@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"天狼星改造计划\n\n<size=30>七 星光闪耀于夜空</size>",
+					"Sirius' Improvement Plan\n\n<size=30>Chapter 7 - Like The Brightest Star</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "level",
-			say = "战斗仅仅持续了几分钟。",
+			say = "The fight was over in a matter of minutes.",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -53,7 +53,7 @@ return {
 			side = 2,
 			bgName = "bg_battle_night",
 			dir = 1,
-			say = "到达塞壬出没的海域时，塞壬已经化为了在海面上漂浮的残骸了。",
+			say = "As soon as the Sirens had made their appearance, they were promptly turned into little more than wrecks.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			dir = 1,
 			actor = 205011,
 			nameColor = "#a9f548",
-			say = "什么嘛！把本王的主力部队的风头给抢光了！",
+			say = "What rubbish! They stole the limelight from my Home Fleet!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			bgName = "bg_battle_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "陛下，就算是想宣示武力，也不用对舰载机用上主力部队吧……打倒敌人的是皇家海军，结果也挺好的不是吗？",
+			say = "There is no need to mobilise the Home Fleet to fight mere planes, Your Majesty... At any rate, this was a victory for the Royal Navy, so wouldn't you agree this is a splendid outcome?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			bgName = "bg_battle_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼！",
+			say = "Hmph!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			bgm = "story-2",
 			actor = 205021,
 			nameColor = "#a9f548",
-			say = "不过…果然不愧是强化过对空能力的黛朵级——",
+			say = "...I must admit, the anti-air capabilities of the Dido-class are a marvel to behold.",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -162,7 +162,7 @@ return {
 			bgName = "bg_battle_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不对，能展示出如此身手，应该还是多亏了那时指挥官瞬间做出的判断吧",
+			say = "Or perhaps this fine display of skill was only possible thanks to your swift decision back there, Commander?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			side = 2,
 			bgName = "bg_battle_night",
 			dir = 1,
-			say = "如果是天狼星一定可以做到——让她单独出击的决定正是出于这份信赖",
+			say = "That decision I made in the banquet hall came from my trust in Sirius and the knowledge that if anyone could do it, it would be her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			side = 2,
 			bgName = "bg_battle_night",
 			dir = 1,
-			say = "而结果正好证明了这个决定是正确的。仅此而已。",
+			say = "And that decision turned out to be right. That's all there's to it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			side = 2,
 			bgName = "bg_battle_night",
 			dir = 1,
-			say = "就这样，身着白色蔷薇礼裙的天狼星凯旋归来了。",
+			say = "And so, Sirius, donning her white rose dress, made her triumphant return.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			dir = 1,
 			actor = 900178,
 			nameColor = "#a9f548",
-			say = "天狼星已为您扫清了前进道路，我骄傲的主人",
+			say = "My honourable Master, I have cleared the path so that you may move forward.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,7 +238,7 @@ return {
 			withoutActorName = true,
 			actor = 900178,
 			nameColor = "#a9f548",
-			say = "她静静的，优雅地把手伸向这边。仿佛夜色中的大海也是宴会的舞池一般",
+			say = "Silently and elegantly, she reached her hand out to me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,7 +254,7 @@ return {
 			bgName = "bg_battle_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "无论身着什么样的服饰，我都是您的女仆，必将全力实现您的期望",
+			say = "No matter the attire I may wear, I will always be your maid, doing everything in her power to fulfil your wishes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,7 +271,7 @@ return {
 			dir = 1,
 			actor = 900178,
 			nameColor = "#a9f548",
-			say = "如果您希望的话，那么天狼星会变的比任何人都耀眼，比任何人都美丽",
+			say = "Were it your wish, I would more brightly and magnificently than anyone else.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -287,7 +287,7 @@ return {
 			bgName = "bg_battle_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "无论在宴会舞台的灯光下，还是硝烟弥漫的战场上，请让我一直看着您，陪伴在您的身边，直到永远——",
+			say = "Whether on the dance floor of a banquet or in the clouds of smoke on the battlefield, please allow this humble servant of yours to be your partner now and forever.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,7 +302,7 @@ return {
 			bgName = "bg_battle_night",
 			dir = 1,
 			blackBg = true,
-			say = "此刻的天狼星是如此美丽，如同寒冬的钻石一般，闪耀动人",
+			say = "Like a polished diamond resting in the snow, she was gleaming, and so utterly beautiful.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

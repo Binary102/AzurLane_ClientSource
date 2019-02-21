@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"这个女仆不太冷\n\n<size=30>七 谢菲尔德的心意·下</size>",
+					"Loaded with Lead and Love\n\n<size=30>Chapter 7 - A Maid's Feelings (Part 2)</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "港区·卧室",
+			say = "Port - Bedroom",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -55,7 +55,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "今天您竟然醒的这么早，难道太阳从西边出来了吗。",
+			say = "Good morning, Commander. For you to be awake at this time... should I actually be saying \"good night?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "……其实是没有睡着。",
+			say = "Not quite, but it is true that I haven't been able to get back to sleep...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "想起刚才朦胧中听到的对话",
+			say = "Sheffield, I was thinking of giving you a leave.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			},
 			options = {
 				{
-					content = "表示谢菲今天可以给自己放个假。",
+					content = "Tell her that she can go home today",
 					flag = 1
 				}
 			}
@@ -103,7 +103,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "不知为何，谢菲原本流畅的动作忽然停住了。",
+			say = "For some reason, Sheffield's normally fluid, adroit movements suddenly ground to a halt.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "…回想起来，自己确实在不知不觉中太过依赖谢菲尔德了，却一直没有关注过“她真正想要做的事情”，所以——",
+			say = "Looking back at it, I realized how much I've been imposing on you unwittingly, never even paying attention to what you really wanted to do, so...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……主人。",
+			say = "Master...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			withoutActorName = true,
 			actor = 202081,
 			nameColor = "#a9f548",
-			say = "谢菲忽然走到自己身边，并用手搭上自己的额头",
+			say = "Sheffield suddenly drew close and put her hand on my forehead.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……并没有发烧呢，难道是在哪里敲到脑袋了？",
+			say = "You don't seem to have a fever... did you perhaps hit your head?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			withoutActorName = true,
 			actor = 202081,
 			nameColor = "#a9f548",
-			say = "似乎被很失礼地担心了。",
+			say = "I don't think I've ever been tended to more rudely.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			},
 			options = {
 				{
-					content = "说明理由",
+					content = "Explain the reason to her",
 					flag = 1
 				}
 			}
@@ -205,7 +205,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "原来如此，您听到了刚才我和纽卡斯尔的交谈吗……",
+			say = "So, that's what happened. You heard the conversation I had with Newcastle...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "真是的，明明没听到或者全部听到就不会有这种误解，真是让人没辙的主人。",
+			say = "Good grief, as expected of you, Master. Jumping to conclusions without hearing the whole story.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,37 +235,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "谢菲不知为何叹了一口气。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 202081,
-			side = 2,
-			bgName = "bg_story_task",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "刚才的谈话，其实是恋爱方面的谈心",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			bgName = "bg_story_task",
-			dir = 1,
-			say = "……！！？？恋爱方面？",
+			say = "Sheffield let out a long sigh.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,7 +251,37 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "纽卡斯尔告诉我，既然爱慕您的话，就应该更勇敢地告诉您。",
+			say = "The discussion we were having just now, was actually about romance.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			bgName = "bg_story_task",
+			dir = 1,
+			say = "R-romance?!!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 202081,
+			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "Newcastle told me that since I love you, I should be brave and tell you directly.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,7 +297,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "但我觉得，像这样待在您的身边就已经满足了，却没想到会导致您的这番行动，那就没有办法了……",
+			say = "I thought that it would be fine to just stay by your side like this, but if Master decides to develop strange misconceptions, I have no choice but to be clear.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -311,23 +311,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "谢菲突然直视着自己的双眼。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 202081,
-			side = 2,
-			bgName = "bg_story_task",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "主人，谢菲尔德平时的言行有令您困扰吗？",
+			say = "Sheffield looked straight at me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -343,7 +327,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如果有的话，您可以理解为这是我的爱情表现",
+			say = "Master, are you troubled by the way I talk and act toward you? If so, you must understand that is the way I express my love.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -359,7 +343,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "对我来说，能够这样永远侍奉您就是我的愿望，我的幸福",
+			say = "Master, for me, being able to serve you forever is my one true wish, my happiness.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -375,7 +359,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "——我深爱着您，主人。",
+			say = "Master, I love you. So very much.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -390,7 +374,22 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "虽然绕了一些弯路，不过看来，问题的答案很明显呢，当然是——",
+			say = "Even her confession was true to herself.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			bgName = "bg_story_task",
+			dir = 1,
+			blackBg = true,
+			say = "Though our journey together was full of detours, I knew just how I wanted to respond to her feelings",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

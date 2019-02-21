@@ -655,6 +655,18 @@ pg.voice_actor_CN = {
 	{
 		actor_name = "Aya Uchida",
 		code = 164
+	},
+	{
+		actor_name = "Rui Tanabe",
+		code = 165
+	},
+	{
+		actor_name = "Asuka Ohgame",
+		code = 166
+	},
+	{
+		actor_name = "Konomi Fujimura",
+		code = 167
 	}
 }
 

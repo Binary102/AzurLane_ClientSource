@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"这个女仆不太冷\n\n<size=30>六 谢菲尔德的心意·上</size>",
+					"Loaded with Lead and Love\n\n<size=30>Chapter 6 - A Maid's Feelings (Part 1)</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "港区·卧室",
+			say = "Port - Commander's personal quarters",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -55,7 +55,7 @@ return {
 			dir = 1,
 			actor = 202081,
 			nameColor = "#a9f548",
-			say = "早上好，主人。早饭已经准备好了，请洗漱吧。",
+			say = "Good morning, Master. Breakfast is ready, so please get rinsed. I mean, washed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,7 +66,7 @@ return {
 			},
 			options = {
 				{
-					content = "精神奕奕地打招呼",
+					content = "Greet her energetically",
 					flag = 1
 				}
 			}
@@ -77,7 +77,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "请不要带着奇怪的高扬感来打招呼，您就这么期待着我来吗",
+			say = "Please don't greet me as if you're one of those Destroyer girls. Surely you did not miss me that much.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,23 +91,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "在逐渐习惯了谢菲的打扫服务之后，每到休息日甚至开始有些期待起睁开眼能够见到谢菲了",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 202081,
-			side = 2,
-			bgName = "bg_story_task",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "……没想到主人居然会这么堕落，大意了",
+			say = "But I did! Since you've been helping me around the house so much, I look forward to seeing you even on the weekends.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +107,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不能这么惯着主人，今天早饭吃完后的餐具自己收拾吧",
+			say = "...I never thought that I was catering to such a depraved Master. How careless of me...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +123,23 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "还是说您就像成为一个永远要靠女仆收拾屋子照顾的废柴主人吗？",
+			say = "Perhaps I should not pamper you anymore, so please clean up the table after breakfast by yourself.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 202081,
+			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "Surely you do not mean to tell me that you want to become a piece of bloated driftwood who expects to be cleaned up after by maids?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "（要是这样的生活能持续下去就好了……）",
+			say = "\"I just want to be able to stay with you like this.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			stopbgm = true,
-			say = "数日后，港区·卧室",
+			say = "Days later, Port - Commander's personal quarters",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -199,7 +199,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "早晨醒得早了些，时间…似乎还很早，应该还能睡会……",
+			say = "I found myself awake earlier than usual. What's the time...? Seems like I can afford to go back to sleep...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "朦胧中听到房门外似乎有谈话声——",
+			say = "I could hazily hear a conversation occuring in the hallway outside my room...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,12 +224,12 @@ return {
 			}
 		},
 		{
-			actorName = "纽卡斯尔",
+			actorName = "Newcastle",
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "……真的好吗？",
+			say = "...Are you really fine with this?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,12 +240,12 @@ return {
 			}
 		},
 		{
-			actorName = "谢菲尔德",
+			actorName = "Sheffield",
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "女仆就该是这个样子的，我可没有贝尔法斯特那么贪心。",
+			say = "This is how a maid should conduct herself. After all, I'm not as greedy as Belfast.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,12 +256,12 @@ return {
 			}
 		},
 		{
-			actorName = "纽卡斯尔",
+			actorName = "Newcastle",
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "……但是谢菲“想要这样”的心情是不会就这样平复的哦",
+			say = "But Sheffy, deep down, you know you want this. And your heart isn't going to let you give up so easily...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,12 +272,12 @@ return {
 			}
 		},
 		{
-			actorName = "谢菲尔德",
+			actorName = "Sheffield",
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "我……",
+			say = "I...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -288,12 +288,12 @@ return {
 			}
 		},
 		{
-			actorName = "纽卡斯尔",
+			actorName = "Newcastle",
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "即便是要追求平稳，我还是觉得能够不用隐藏自己心情的“平稳”才是更好的吧",
+			say = "Even if you want to pursue stability in your life, I still feel that you should pursue a stability that still allows you to be true to yourself.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -307,7 +307,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "似乎听到了一些很难懂的对话……",
+			say = "I seemed to have overheard quite a difficult conversation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

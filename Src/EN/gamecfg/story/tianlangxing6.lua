@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"天狼星改造计划\n\n<size=30>六 意外事件</size>",
+					"Sirius' Improvement Plan\n\n<size=30>Chapter 6 - Banquet Panic</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "宴会当天——",
+			say = "It was now the day of the banquet.",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -55,7 +55,7 @@ return {
 			dir = 1,
 			actor = 205011,
 			nameColor = "#a9f548",
-			say = "真，真的假的！",
+			say = "My word, I can't believe it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "陛下，怎么了？",
+			say = "Can't believe what, Your Majesty?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			dir = 1,
 			actor = 205011,
 			nameColor = "#a9f548",
-			say = "那是女仆队的天狼星……！？",
+			say = "That! Isn't that Sirius, one of our Royal Maids...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			say = "伊丽莎白会惊讶也可以理解。穿上礼裙的天狼星和平常的女仆打扮时优雅十足，宛若他人一般。",
+			say = "I can see why Her Majesty would be surprised. Sirius' banquet dress makes her look so refined that you might mistake her for someone else entirely.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			say = "这既要感谢女仆队、纳尔逊、罗德尼以及欧若拉她们的指导——",
+			say = "Of course, we also have the Royal Maids, Nelson, Rodney, and Aurora to thank for their guidance.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			say = "能够完美的融入宴会气氛……甚至比宴会上的任何人都要闪耀，无疑更多是她刻苦努力的成果。",
+			say = "In the end, it's because of Sirius' hard work that we look perfectly presentable at the banquet... Actually, I'd go as far as saying we're the most presentable couple in attendance.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如您的指示，天狼星会担任您的舞伴",
+			say = "Now I shall be your partner for the dance, just as you requested.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 			dir = 1,
 			actor = 900178,
 			nameColor = "#a9f548",
-			say = "请尽管观阅欣赏天狼星努力的成果",
+			say = "It is my hope that you will see the fruits of my endeavors.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			dir = 1,
 			actor = 900178,
 			nameColor = "#a9f548",
-			say = "我骄傲的主人啊——邀请您，与我共舞一曲",
+			say = "Now then, my honourable Master, shall we dance?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,7 +210,7 @@ return {
 			},
 			options = {
 				{
-					content = "牵住天狼星的手",
+					content = "Take Sirius' hand",
 					flag = 1
 				}
 			}
@@ -223,7 +223,7 @@ return {
 			bgm = "story-6",
 			actor = 205021,
 			nameColor = "#a9f548",
-			say = "警报！陛下！塞壬的舰载机正在接近周边海域！",
+			say = "Your Majesty! Siren planes have been sighted approaching from the shoreline!",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -256,7 +256,7 @@ return {
 			dir = 1,
 			actor = 205011,
 			nameColor = "#a9f548",
-			say = "哼！竟敢打扰本王参加的宴会，胆子真大！召集一下待机中的女仆队，赶紧把那些塞壬赶出去！",
+			say = "Hah! They've got guts to dare disrupt a banquet with me in attendance! Mobilise the maids and eliminate the enemy at once!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +283,7 @@ return {
 			dir = 1,
 			actor = 900178,
 			nameColor = "#a9f548",
-			say = "……从这里直接出发应该能最先到达",
+			say = "...I believe the quickest route should be through here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +299,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "您怎么看，我骄傲的主人？",
+			say = "How do you feel, my honourable Master?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,7 +313,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			say = "当时之所以决定参加宴会，就是想回报她平时的努力，让她能够有表现自己的机会。",
+			say = "In that moment, I remembered why I wanted Sirius to attend this banquet: to reward her for all her hard work, and to let her shine.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -327,7 +327,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			say = "既然她身负警卫工作，还拥有女仆队屈指可数的战斗能力，那么对她而言最耀眼的地方就是——",
+			say = "And being a bodyguard and the most proficient fighter of all the maids, if there's one thing she shines at, it would have to be...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -343,7 +343,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "明白了，我骄傲的主人。",
+			say = "Understood, my honourable Master.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -361,7 +361,7 @@ return {
 			blackBg = true,
 			actor = 900178,
 			nameColor = "#a9f548",
-			say = "——如果这是您的愿望，天狼星将全力绽放光芒",
+			say = "...Then as you command, I shall shine as bright as my namesake star.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -1400,6 +1400,14 @@ pg.skill_data_display = {
 		id = 11760,
 		name = "Raid Signal"
 	},
+	[11761] = {
+		id = 11761,
+		name = "Hold on, I'm not ready yet"
+	},
+	[11762] = {
+		id = 11762,
+		name = "Ready to go"
+	},
 	[11780] = {
 		id = 11780,
 		name = "Ageless Phoenix "
@@ -1431,6 +1439,10 @@ pg.skill_data_display = {
 	[11850] = {
 		id = 11850,
 		name = "Flashing Blade of Surabaya"
+	},
+	[11860] = {
+		id = 11860,
+		name = "苍狼之印"
 	},
 	[11890] = {
 		id = 11890,
@@ -2360,6 +2372,14 @@ pg.skill_data_display = {
 		id = 29351,
 		name = "专属弹幕-圣地亚哥"
 	},
+	[29361] = {
+		id = 29361,
+		name = "专属弹幕-天狼星I"
+	},
+	[29362] = {
+		id = 29362,
+		name = "专属弹幕-天狼星II"
+	},
 	[101010] = {
 		id = 101010,
 		name = "Protagonist Aura"
@@ -2787,6 +2807,8 @@ pg.skill_data_display = {
 		11740,
 		11750,
 		11760,
+		11761,
+		11762,
 		11780,
 		11790,
 		11800,
@@ -2795,6 +2817,7 @@ pg.skill_data_display = {
 		11811,
 		11820,
 		11850,
+		11860,
 		11890,
 		11900,
 		19000,
@@ -3027,6 +3050,8 @@ pg.skill_data_display = {
 		29341,
 		29342,
 		29351,
+		29361,
+		29362,
 		101010,
 		101020,
 		101030,

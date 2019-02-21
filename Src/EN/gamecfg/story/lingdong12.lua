@@ -11,7 +11,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "“报告司令部，特攻舰队在30分钟前遭到塞壬和不明武器的攻击…阵型被打散”",
+			say = "Report to Headquarters: \"30 minutes ago, Special Task Force One encountered the Siren and an unidentified superweapon... Our formation was broken.\"",
 			bgm = "battle-boss-4",
 			typewriter = {
 				speed = 0.05,
@@ -27,7 +27,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "“目前虽然已经重新合流…但是…舰队受创率超过40%，继续执行“钨”行动将会有很大的风险”",
+			say = "\"Though we have managed to regroup, our fleet has already sustained over 40% damage. There is significant risk in continuing 'Operation Tungsten.'\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "“请司令部反馈接下来的行动方案——”",
+			say = "\"Requesting additional mission directives...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "………",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…",
+			say = "...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "可恶…信号还是发不出去吗",
+			say = "Bastards... the communications are jammed!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			say = "嗯…和当时在镜面海域时一样的情况呢…接下来只能靠我们自己啦",
+			say = "I can't connect either... The situation is the same as in the Mirror Sea... We'll need to make do on our own...",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -121,7 +121,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "万幸的是，多亏了这层装甲，舰载机孩子们基本都完好无损呢~",
+			say = "Fortunately, thanks to my armour, my little darlings went mostly unscathed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不愧是皇家引以为傲的装甲航母姐妹啊，汝的意思是作战依然可以继续？",
+			say = "As expected of the Royal Navy's armoured carriers. Does this mean that combat can continue?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是的，都好不容易来到这里了，不会会那位“北方的女王”不就太可惜了吗？~",
+			say = "It does. We've already gotten this far, so we should pay a visit to this \"Lone Queen in the North.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "对了，我也给她准备了从世界另一头带来的礼物哦——",
+			say = "I've even prepared something special, just for her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,14 +177,14 @@ return {
 			}
 		},
 		{
-			actorName = "净化者",
+			actorName = "Purifier",
 			side = 2,
 			dir = 1,
 			blackBg = true,
 			stopbgm = true,
 			actor = 900021,
 			nameColor = "#ff0000",
-			say = "真是奇怪啊，这么大个的奇异点，却没有出现任何目标…",
+			say = "That's odd... Little Ms. Sunshine created such a massive singularity here, yet she's nowhere to be seen...",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -217,8 +217,8 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 900021,
-			actorName = "净化者",
-			say = "还以为能和传说中的她见上一面呢…",
+			actorName = "Purifier",
+			say = "Shame, I've always wanted to meet a Prototype, at least once~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,8 +234,8 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 900021,
-			actorName = "净化者",
-			say = "嘛，还是跟观察者同步一下信息吧~",
+			actorName = "Purifier",
+			say = "Oh well. I'd better send a message to the Observer~!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

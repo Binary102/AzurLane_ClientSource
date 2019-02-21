@@ -472,7 +472,7 @@ pg.shop_template = {
 	{
 		group_type = 0,
 		resource_num = -1,
-		desc = "Upgrade Great Hall",
+		desc = "Upgrade Lecture Hall",
 		type = 0,
 		is_auto_use = 0,
 		group_limit = 0,
@@ -2359,6 +2359,29 @@ pg.shop_template = {
 			30312
 		}
 	},
+	[31990] = {
+		group_type = 0,
+		resource_num = 7000,
+		desc = "7000物资兑换1个外观装备箱",
+		type = 2,
+		is_auto_use = 1,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 0,
+		order = 0,
+		time = "always",
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 1,
+		id = 31990,
+		genre = "shopping_street",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			30311
+		}
+	},
 	[31991] = {
 		group_type = 0,
 		resource_num = 7000,
@@ -4231,6 +4254,112 @@ pg.shop_template = {
 			}
 		}
 	},
+	[60148] = {
+		group_type = 0,
+		resource_num = 120,
+		desc = "Spend 120 Gems to buy 凛冬 Strategic Supplies",
+		type = 2,
+		is_auto_use = 1,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 6,
+		order = 0,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 60148,
+		genre = "gift_package",
+		discount_time = {},
+		limit_args = {
+			{
+				"time",
+				5
+			}
+		},
+		effect_args = {
+			40117
+		},
+		time = {
+			{
+				{
+					2019,
+					2,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					3,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[60149] = {
+		group_type = 0,
+		resource_num = 980,
+		desc = "Spend 200 Gems to buy 凛冬 Strategic Supplies",
+		type = 2,
+		is_auto_use = 1,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 6,
+		order = 0,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 60149,
+		genre = "gift_package",
+		discount_time = {},
+		limit_args = {
+			{
+				"time",
+				1
+			}
+		},
+		effect_args = {
+			40118
+		},
+		time = {
+			{
+				{
+					2019,
+					2,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					3,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	[60150] = {
 		group_type = 0,
 		resource_num = 500,
@@ -4239,7 +4368,7 @@ pg.shop_template = {
 		is_auto_use = 1,
 		group_limit = 0,
 		group_buy_count = 0,
-		tag = 1,
+		tag = 2,
 		order = 0,
 		group = 0,
 		num = 1,
@@ -4521,7 +4650,7 @@ pg.shop_template = {
 		tag = 2,
 		order = 9914,
 		group = 0,
-		num = 6,
+		num = 1,
 		discount = 20,
 		resource_type = 14,
 		id = 70001,
@@ -8652,6 +8781,246 @@ pg.shop_template = {
 			}
 		}
 	},
+	[70141] = {
+		group_type = 0,
+		resource_num = 880,
+		desc = "购买皮肤：胜利-常服",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 6,
+		order = 9911,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 70141,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			207041
+		},
+		time = {
+			{
+				{
+					2019,
+					2,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					3,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[70142] = {
+		group_type = 0,
+		resource_num = 700,
+		desc = "购买皮肤：谢菲尔德-常服",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 6,
+		order = 9910,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 70142,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			202081
+		},
+		time = {
+			{
+				{
+					2019,
+					2,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					3,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[70143] = {
+		group_type = 0,
+		resource_num = 880,
+		desc = "购买皮肤：约克公爵-晚礼服",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 6,
+		order = 9909,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 70143,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			205072
+		},
+		time = {
+			{
+				{
+					2019,
+					2,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					3,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[70144] = {
+		group_type = 0,
+		resource_num = 780,
+		desc = "购买皮肤：牙买加-常服",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 6,
+		order = 9908,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 70144,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			202171
+		},
+		time = {
+			{
+				{
+					2019,
+					2,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					3,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[70145] = {
+		group_type = 0,
+		resource_num = 880,
+		desc = "购买皮肤：天狼星-晚礼服",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 6,
+		order = 9907,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 70145,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			202201
+		},
+		time = {
+			{
+				{
+					2019,
+					2,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					3,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	[70146] = {
 		group_type = 0,
 		resource_num = 1180,
@@ -9182,7 +9551,7 @@ pg.shop_template = {
 	},
 	[70160] = {
 		group_type = 0,
-		resource_num = 700,
+		resource_num = 780,
 		desc = "购买皮肤：扶桑人妻",
 		type = 6,
 		is_auto_use = 0,
@@ -9230,7 +9599,7 @@ pg.shop_template = {
 	},
 	[70161] = {
 		group_type = 0,
-		resource_num = 780,
+		resource_num = 1080,
 		desc = "购买皮肤：独角兽JK",
 		type = 6,
 		is_auto_use = 0,
@@ -9695,6 +10064,7 @@ pg.shop_template = {
 		31143,
 		31144,
 		31989,
+		31990,
 		31991,
 		31996,
 		31997,
@@ -9753,6 +10123,8 @@ pg.shop_template = {
 		60145,
 		60146,
 		60147,
+		60148,
+		60149,
 		60150,
 		61001,
 		61002,
@@ -9843,6 +10215,11 @@ pg.shop_template = {
 		70135,
 		70136,
 		70138,
+		70141,
+		70142,
+		70143,
+		70144,
+		70145,
 		70146,
 		70147,
 		70148,

@@ -237,10 +237,6 @@ slot3 = ActivityConst
 slot3 = slot3.NEW_YEAR_OVERVIEW
 slot4 = "new_year_overview"
 slot2[slot3] = slot4
-slot3 = ActivityConst
-slot3 = slot3.PIG_YEAR_RED_POCKET_SHIP_ID
-slot4 = "red_pocket_ship"
-slot2[slot3] = slot4
 slot3 = {}
 slot4 = ActivityConst
 slot4 = slot4.AOERLIANG_RE_TASK_ID
@@ -323,10 +319,6 @@ slot4[slot5] = slot6
 slot5 = ActivityConst
 slot5 = slot5.NEW_YEAR_OVERVIEW
 slot6 = "clutter/newyear_bg"
-slot4[slot5] = slot6
-slot5 = ActivityConst
-slot5 = slot5.PIG_YEAR_RED_POCKET_SHIP_ID
-slot6 = "clutter/activity_bg_red_pocket_ship"
 slot4[slot5] = slot6
 slot5 = {
 	"changmen",
@@ -4559,6 +4551,814 @@ end
 slot0.clear_task_list_glory = slot5
 
 function slot5(slot0)
+	slot2 = slot0
+	slot1 = slot0.flush_task_list_auto
+
+	slot1(slot2)
+end
+
+slot0.flush_task_list_auto_xiaotiane = slot5
+
+function slot5(slot0)
+	slot1 = slot0.pages
+	slot2 = slot0
+	slot3 = ActivityConst
+	slot3 = slot3.XIAOTIANE_ACTIVITY_ID
+	slot2 = slot2[slot3]
+	slot1 = slot1[slot2]
+	slot3 = slot0
+	slot2 = slot0.clear_task_list_auto
+	slot4 = slot1
+
+	slot2(slot3, slot4)
+end
+
+slot0.clear_task_list_auto_xiaotiane = slot5
+
+function slot5(slot0)
+	slot1 = slot0.activity
+	slot2 = slot0.pages
+	slot3 = slot0
+	slot4 = slot1.id
+	slot3 = slot3[slot4]
+	slot2 = slot2[slot3]
+	slot3 = slot0.pagesInit
+	slot4 = slot2.name
+	slot3 = slot3[slot4]
+
+	if not slot3 then
+		slot3 = {}
+		slot5 = slot0
+		slot4 = slot0.findTF
+		slot6 = "BG"
+		slot7 = slot2
+		slot4 = slot4(slot5, slot6, slot7)
+		slot3.bg = slot4
+		slot5 = slot0
+		slot4 = slot0.findTF
+		slot6 = "layer"
+		slot7 = slot2
+		slot4 = slot4(slot5, slot6, slot7)
+		slot3.layer = slot4
+		slot5 = slot0
+		slot4 = slot0.findTF
+		slot6 = "ship"
+		slot7 = slot2
+		slot4 = slot4(slot5, slot6, slot7)
+		slot3.ship = slot4
+		slot4 = nil
+		slot5 = slot1.id
+		slot6 = ActivityConst
+		slot6 = slot6.XIAOTIANE_ACTIVITY_ID
+
+		if slot5 == slot6 then
+			slot5 = GetImageSpriteFromAtlasAsync
+			slot6 = "clutter/bg_xiaotiane"
+			slot7 = ""
+			slot8 = slot3.bg
+
+			slot5(slot6, slot7, slot8)
+
+			slot4 = "xiaotiane_2"
+		end
+
+		slot5 = slot3.ship
+
+		if slot5 and slot4 then
+			slot3.charPrefeb = slot4
+			slot5 = PoolMgr
+			slot5 = slot5.GetInstance
+			slot5 = slot5()
+			slot6 = slot5
+			slot5 = slot5.GetSpineChar
+			slot7 = slot3.charPrefeb
+			slot8 = false
+
+			function slot9(slot0)
+				slot1 = slot0.transform
+				slot2 = Vector3
+				slot3 = 0.7
+				slot4 = 0.7
+				slot5 = 1
+				slot2 = slot2(slot3, slot4, slot5)
+				slot1.localScale = slot2
+				slot1 = slot0.transform
+				slot2 = slot1
+				slot1 = slot1.SetParent
+				slot3 = slot0
+				slot3 = slot3.ship
+				slot4 = false
+
+				slot1(slot2, slot3, slot4)
+
+				slot2 = slot0
+				slot1 = slot0.GetComponent
+				slot3 = typeof
+				slot4 = SpineAnimUI
+				slot1 = slot1(slot2, slot3(slot4))
+				slot2 = slot1
+				slot1 = slot1.SetAction
+				slot3 = "stand"
+				slot4 = 0
+
+				slot1(slot2, slot3, slot4)
+
+				slot1 = slot0
+				slot1.char = slot0
+			end
+
+			slot5(slot6, slot7, slot8, slot9)
+		end
+
+		slot5 = slot0.pagesInit
+		slot6 = slot2.name
+		slot5[slot6] = slot3
+		slot5 = slot0.pageId
+		slot6 = slot2.name
+		slot7 = slot1.id
+		slot5[slot6] = slot7
+	end
+
+	slot4 = slot1.data3
+	slot5 = 1
+
+	if slot4 <= slot5 then
+		slot6 = slot0
+		slot5 = slot0.update_task_list_auto
+
+		slot5(slot6)
+	else
+		slot6 = slot0
+		slot5 = slot0.tween_task_list_auto_layer
+		slot7 = 1
+
+		slot5(slot6, slot7)
+	end
+end
+
+slot0.flush_task_list_auto = slot5
+
+function slot5(slot0)
+	slot1 = slot0.activity
+	slot2 = slot0.pages
+	slot3 = slot0
+	slot4 = slot1.id
+	slot3 = slot3[slot4]
+	slot2 = slot2[slot3]
+	slot3 = slot0.pagesInit
+	slot4 = slot2.name
+	slot3 = slot3[slot4]
+	slot4 = getProxy
+	slot5 = TaskProxy
+	slot4 = slot4(slot5)
+	slot6 = slot1
+	slot5 = slot1.getConfig
+	slot7 = "config_data"
+	slot5 = slot5(slot6, slot7)
+	slot6 = pg
+	slot6 = slot6.TimeMgr
+	slot6 = slot6.GetInstance
+	slot6 = slot6()
+	slot8 = slot6
+	slot7 = slot6.DiffDay
+	slot9 = slot1.data1
+	slot11 = slot6
+	slot10 = slot6.GetServerTime
+	slot7 = slot7(slot8, slot9, slot10(slot11))
+	slot7 = slot7 + 1
+	slot8 = math
+	slot8 = slot8.clamp
+	slot9 = slot7
+	slot10 = 1
+	slot11 = #slot5
+	slot8 = slot8(slot9, slot10, slot11)
+	slot7 = slot8
+	slot8 = slot1.data3
+
+	if slot8 ~= 0 and slot8 < slot7 then
+		slot9 = _
+		slot9 = slot9.all
+		slot10 = _
+		slot10 = slot10.flatten
+		slot11 = {}
+		slot12 = slot5[slot8]
+		slot11[1] = slot12
+		slot10 = slot10(slot11)
+
+		function slot11(slot0)
+			return slot0:getFinishTaskById(slot0) ~= nil
+		end
+
+		slot9 = slot9(slot10, slot11)
+
+		if slot9 then
+			slot10 = slot0
+			slot9 = slot0.emit
+			slot11 = ActivityMediator
+			slot11 = slot11.EVENT_OPERATION
+			slot12 = {
+				cmd = 1
+			}
+			slot13 = slot1.id
+			slot12.activity_id = slot13
+
+			slot9(slot10, slot11, slot12)
+		end
+	else
+		slot10 = slot0
+		slot9 = slot0.update_task_list_auto_layer
+		slot11 = slot1
+		slot12 = slot3.layer
+		slot13 = slot8
+
+		slot9(slot10, slot11, slot12, slot13)
+	end
+end
+
+slot0.update_task_list_auto = slot5
+
+function slot5(slot0, slot1, slot2, slot3)
+	slot5 = slot1
+	slot4 = slot1.getConfig
+	slot6 = "config_data"
+	slot4 = slot4(slot5, slot6)
+	slot5 = _
+	slot5 = slot5.flatten
+	slot6 = {}
+	slot7 = slot4[slot3]
+	slot6[1] = slot7
+	slot5 = slot5(slot6)
+	slot7 = slot2
+	slot6 = slot2.Find
+	slot8 = "AD"
+	slot6 = slot6(slot7, slot8)
+	slot8 = slot2
+	slot7 = slot2.Find
+	slot9 = "day"
+	slot7 = slot7(slot8, slot9)
+	slot9 = slot2
+	slot8 = slot2.Find
+	slot10 = "dayText"
+	slot8 = slot8(slot9, slot10)
+	slot10 = slot2
+	slot9 = slot2.Find
+	slot11 = "item"
+	slot9 = slot9(slot10, slot11)
+	slot11 = slot2
+	slot10 = slot2.Find
+	slot12 = "items"
+	slot10 = slot10(slot11, slot12)
+	slot11 = setActive
+	slot12 = slot9
+	slot13 = false
+
+	slot11(slot12, slot13)
+
+	slot11 = slot1.id
+	slot12 = ActivityConst
+	slot12 = slot12.XIAOTIANE_ACTIVITY_ID
+
+	if slot11 == slot12 then
+		slot11 = GetImageSpriteFromAtlasAsync
+		slot12 = "clutter/ad_xiaotiane"
+		slot13 = ""
+		slot14 = slot6
+
+		slot11(slot12, slot13, slot14)
+
+		slot11 = GetImageSpriteFromAtlasAsync
+		slot12 = "numbericon/t1/"
+		slot13 = slot3
+		slot12 = slot12 .. slot13
+		slot13 = ""
+		slot14 = slot7
+
+		slot11(slot12, slot13, slot14)
+	else
+		slot11 = slot1.id
+		slot12 = ActivityConst
+		slot12 = slot12.KELEIWEN_ACTIVITY_ID
+
+		if slot11 == slot12 then
+			slot11 = GetImageSpriteFromAtlasAsync
+			slot12 = "clutter/bg_keleiwen"
+			slot13 = ""
+			slot14 = slot6
+
+			slot11(slot12, slot13, slot14)
+
+			slot11 = GetImageSpriteFromAtlasAsync
+			slot12 = "numbericon/t1/"
+			slot13 = slot3
+			slot12 = slot12 .. slot13
+			slot13 = ""
+			slot14 = slot7
+
+			slot11(slot12, slot13, slot14)
+		else
+			slot11 = slot1.id
+			slot12 = ActivityConst
+			slot12 = slot12.Z23_ACTIVITY_ID
+
+			if slot11 == slot12 then
+				slot11 = GetImageSpriteFromAtlasAsync
+				slot12 = "clutter/ad_z23"
+				slot13 = ""
+				slot14 = slot6
+
+				slot11(slot12, slot13, slot14)
+
+				slot11 = GetImageSpriteFromAtlasAsync
+				slot12 = "numbericon/t2/"
+				slot13 = slot3
+				slot12 = slot12 .. slot13
+				slot13 = ""
+				slot14 = slot7
+				slot15 = true
+
+				slot11(slot12, slot13, slot14, slot15)
+			else
+				slot11 = slot1.id
+				slot12 = ActivityConst
+				slot12 = slot12.WOWS_ACTIVITY_ID
+
+				if slot11 == slot12 then
+					slot11 = GetImageSpriteFromAtlasAsync
+					slot12 = "clutter/bg_wows"
+					slot13 = ""
+					slot14 = slot6
+
+					slot11(slot12, slot13, slot14)
+				else
+					slot11 = slot1.id
+					slot12 = ActivityConst
+					slot12 = slot12.BILI_ACTIVITY_ID
+
+					if slot11 == slot12 then
+						slot11 = GetImageSpriteFromAtlasAsync
+						slot12 = "clutter/bg_bili"
+						slot13 = ""
+						slot14 = slot6
+
+						slot11(slot12, slot13, slot14)
+					else
+						slot11 = slot1.id
+						slot12 = ActivityConst
+						slot12 = slot12.AOERLIANG_TASK_ID
+
+						if slot11 == slot12 then
+							slot11 = GetImageSpriteFromAtlasAsync
+							slot12 = "clutter/aoerliang_task"
+							slot13 = ""
+							slot14 = slot6
+
+							slot11(slot12, slot13, slot14)
+
+							slot11 = setText
+							slot12 = slot7
+							slot13 = "Step"
+							slot14 = slot3
+							slot13 = slot13 .. slot14
+
+							slot11(slot12, slot13)
+						else
+							slot11 = slot1.id
+							slot12 = ActivityConst
+							slot12 = slot12.VAMPIRE_SIGN_ID
+
+							if slot11 == slot12 then
+								slot11 = GetImageSpriteFromAtlasAsync
+								slot12 = "clutter/vampire_login_bg"
+								slot13 = ""
+								slot14 = slot6
+
+								slot11(slot12, slot13, slot14)
+							else
+								slot11 = slot1.id
+								slot12 = ActivityConst
+								slot12 = slot12.CENTAUR_ACTIVITY_ID
+
+								if slot11 == slot12 then
+									slot11 = GetImageSpriteFromAtlasAsync
+									slot12 = "clutter/centaur_activity_bg"
+									slot13 = ""
+									slot14 = slot6
+
+									slot11(slot12, slot13, slot14)
+								else
+									slot12 = slot1
+									slot11 = slot1.getConfig
+									slot13 = "bg"
+									slot11 = slot11(slot12, slot13)
+									slot12 = slot11[1]
+
+									if not slot12 or slot12 == "" then
+										slot12 = "clutter/zhunuo"
+									end
+
+									slot13 = GetImageSpriteFromAtlasAsync
+									slot14 = slot12
+									slot15 = ""
+									slot16 = slot6
+
+									slot13(slot14, slot15, slot16)
+								end
+							end
+						end
+					end
+				end
+			end
+		end
+	end
+
+	slot11 = slot1.id
+	slot12 = ActivityConst
+	slot12 = slot12.Z23_ACTIVITY_ID
+
+	if slot11 ~= slot12 then
+		slot11 = slot1.id
+		slot12 = ActivityConst
+		slot12 = slot12.RUYUE_ACTIVITY_ID
+
+		if slot11 ~= slot12 then
+			slot11 = slot1.id
+			slot12 = ActivityConst
+			slot12 = slot12.VAMPIRE_SIGN_ID
+
+			if slot11 ~= slot12 then
+				slot11 = slot1.id
+				slot12 = ActivityConst
+				slot12 = slot12.CENTAUR_ACTIVITY_ID
+
+				if slot11 == slot12 then
+					slot11 = setText
+					slot12 = slot8
+					slot13 = "<color="
+					slot14 = COLOR_GREEN
+					slot15 = ">"
+					slot16 = slot3
+					slot17 = "</color>"
+					slot18 = "/"
+					slot19 = #slot4
+					slot13 = slot13 .. slot14 .. slot15 .. slot16 .. slot17 .. slot18 .. slot19
+
+					slot11(slot12, slot13)
+				else
+					slot11 = slot1.id
+					slot12 = ActivityConst
+					slot12 = slot12.WOWS_ACTIVITY_ID
+
+					if slot11 == slot12 then
+					else
+						slot11 = setText
+						slot12 = slot8
+						slot13 = i18n
+						slot14 = "activity_xiaotiane_progress"
+						slot15 = slot3
+						slot16 = #slot4
+
+						slot11(slot12, slot13(slot14, slot15, slot16))
+					end
+				end
+			end
+		end
+	end
+
+	slot11 = UIItemList
+	slot11 = slot11.New
+	slot12 = slot10
+	slot13 = slot9
+	slot11 = slot11(slot12, slot13)
+	slot13 = slot11
+	slot12 = slot11.make
+
+	function slot14(slot0, slot1, slot2)
+		slot3 = UIItemList
+		slot3 = slot3.EventUpdate
+
+		if slot0 == slot3 then
+			slot3 = getProxy
+			slot4 = TaskProxy
+			slot3 = slot3(slot4)
+			slot4 = slot0
+			slot5 = slot1 + 1
+			slot4 = slot4[slot5]
+			slot5 = pg
+			slot5 = slot5.task_data_template
+			slot5 = slot5[slot4]
+			slot6 = slot5.award_display
+			slot6 = slot6[1]
+			slot7 = setText
+			slot9 = slot2
+			slot8 = slot2.Find
+			slot10 = "name"
+			slot8 = slot8(slot9, slot10)
+			slot9 = slot5.desc
+
+			slot7(slot8, slot9)
+
+			slot7 = setSlider
+			slot9 = slot2
+			slot8 = slot2.Find
+			slot10 = "progress"
+			slot8 = slot8(slot9, slot10)
+			slot9 = 0
+			slot10 = 1
+			slot11 = 1
+
+			slot7(slot8, slot9, slot10, slot11)
+
+			slot7 = setText
+			slot9 = slot2
+			slot8 = slot2.Find
+			slot10 = "progressText"
+			slot8 = slot8(slot9, slot10)
+			slot9 = slot5.target_num
+			slot10 = "/"
+			slot11 = slot5.target_num
+			slot9 = slot9 .. slot10 .. slot11
+
+			slot7(slot8, slot9)
+
+			slot8 = slot2
+			slot7 = slot2.Find
+			slot9 = "award"
+			slot7 = slot7(slot8, slot9)
+			slot8 = setActive
+			slot9 = slot7
+			slot10 = slot6
+
+			slot8(slot9, slot10)
+
+			slot8 = {}
+			slot9 = slot6[1]
+			slot8.type = slot9
+			slot9 = slot6[2]
+			slot8.id = slot9
+			slot9 = slot6[3]
+			slot8.count = slot9
+			slot9 = updateDrop
+			slot10 = slot7
+			slot11 = slot8
+
+			slot9(slot10, slot11)
+
+			slot9 = onButton
+			slot10 = slot1
+			slot11 = slot7
+
+			function slot12()
+				slot0 = slot0
+				slot1 = slot0
+				slot0 = slot0.emit
+				slot2 = slot1
+				slot2 = slot2.ON_DROP
+				slot3 = slot2
+
+				slot0(slot1, slot2, slot3)
+			end
+
+			slot13 = SFX_PANEL
+
+			slot9(slot10, slot11, slot12, slot13)
+
+			slot10 = slot2
+			slot9 = slot2.Find
+			slot11 = "btn"
+			slot9 = slot9(slot10, slot11)
+			slot11 = slot9
+			slot10 = slot9.GetComponent
+			slot12 = typeof
+			slot13 = Image
+			slot10 = slot10(slot11, slot12(slot13))
+			slot11 = false
+			slot10.enabled = slot11
+			slot10 = setButtonEnabled
+			slot11 = slot9
+			slot12 = false
+
+			slot10(slot11, slot12)
+
+			slot10 = slot3
+			slot10 = slot10.id
+			slot11 = ActivityConst
+			slot11 = slot11.WOWS_ACTIVITY_ID
+
+			if slot10 == slot11 then
+			else
+				slot10 = setActive
+				slot12 = slot9
+				slot11 = slot9.Find
+				slot13 = "get"
+				slot11 = slot11(slot12, slot13)
+				slot12 = true
+
+				slot10(slot11, slot12)
+
+				slot10 = setActive
+				slot12 = slot9
+				slot11 = slot9.Find
+				slot13 = "achieved"
+				slot11 = slot11(slot12, slot13)
+				slot12 = true
+
+				slot10(slot11, slot12)
+			end
+
+			slot11 = slot3
+			slot10 = slot3.getTaskById
+			slot12 = slot4
+			slot10 = slot10(slot11, slot12)
+
+			if not slot10 then
+				slot11 = slot3
+				slot10 = slot3.getFinishTaskById
+				slot12 = slot4
+				slot10 = slot10(slot11, slot12)
+			end
+
+			if slot10 then
+				slot11 = slot10.progress
+				slot13 = slot10
+				slot12 = slot10.getConfig
+				slot14 = "target_num"
+				slot12 = slot12(slot13, slot14)
+				slot13 = setText
+				slot15 = slot2
+				slot14 = slot2.Find
+				slot16 = "name"
+				slot14 = slot14(slot15, slot16)
+				slot16 = slot10
+				slot15 = slot10.getConfig
+				slot17 = "desc"
+
+				slot13(slot14, slot15(slot16, slot17))
+
+				slot13 = setSlider
+				slot15 = slot2
+				slot14 = slot2.Find
+				slot16 = "progress"
+				slot14 = slot14(slot15, slot16)
+				slot15 = 0
+				slot16 = 1
+				slot17 = slot11 / slot12
+
+				slot13(slot14, slot15, slot16, slot17)
+
+				slot13 = setText
+				slot15 = slot2
+				slot14 = slot2.Find
+				slot16 = "progressText"
+				slot14 = slot14(slot15, slot16)
+				slot15 = slot11
+				slot16 = "/"
+				slot17 = slot12
+				slot15 = slot15 .. slot16 .. slot17
+
+				slot13(slot14, slot15)
+
+				slot13 = slot3
+				slot13 = slot13.id
+				slot14 = ActivityConst
+				slot14 = slot14.WOWS_ACTIVITY_ID
+
+				if slot13 ~= slot14 then
+					slot13 = slot3
+					slot13 = slot13.id
+					slot14 = ActivityConst
+					slot14 = slot14.BILI_ACTIVITY_ID
+
+					if slot13 ~= slot14 then
+						slot13 = slot3
+						slot13 = slot13.id
+						slot14 = ActivityConst
+						slot14 = slot14.AOERLIANG_TASK_ID
+
+						if slot13 ~= slot14 then
+							slot13 = slot3
+							slot13 = slot13.id
+							slot14 = ActivityConst
+							slot14 = slot14.VAMPIRE_SIGN_ID
+
+							if slot13 ~= slot14 then
+								slot13 = slot3
+								slot13 = slot13.id
+								slot14 = ActivityConst
+								slot14 = slot14.CENTAUR_ACTIVITY_ID
+
+								if slot13 == slot14 then
+									slot13 = setActive
+									slot15 = slot9
+									slot14 = slot9.Find
+									slot16 = "get"
+									slot14 = slot14(slot15, slot16)
+									slot16 = slot10
+									slot15 = slot10.isFinish
+									slot15 = slot15(slot16)
+
+									if slot15 then
+										slot16 = slot10
+										slot15 = slot10.isReceive
+										slot15 = slot15(slot16)
+										slot15 = not slot15
+									end
+
+									slot13(slot14, slot15)
+								else
+									slot13 = setActive
+									slot15 = slot9
+									slot14 = slot9.Find
+									slot16 = "get"
+									slot14 = slot14(slot15, slot16)
+									slot16 = slot10
+									slot15 = slot10.isFinish
+
+									slot13(slot14, slot15(slot16))
+								end
+							end
+						end
+					end
+				end
+
+				slot13 = setActive
+				slot15 = slot9
+				slot14 = slot9.Find
+				slot16 = "achieved"
+				slot14 = slot14(slot15, slot16)
+				slot16 = slot10
+				slot15 = slot10.isReceive
+
+				slot13(slot14, slot15(slot16))
+
+				slot14 = slot9
+				slot13 = slot9.GetComponent
+				slot15 = typeof
+				slot16 = Image
+				slot13 = slot13(slot14, slot15(slot16))
+				slot15 = slot10
+				slot14 = slot10.isFinish
+				slot14 = slot14(slot15)
+				slot14 = not slot14
+				slot13.enabled = slot14
+				slot13 = setButtonEnabled
+				slot14 = slot9
+				slot16 = slot10
+				slot15 = slot10.isReceive
+				slot15 = slot15(slot16)
+				slot15 = not slot15
+
+				slot13(slot14, slot15)
+
+				slot13 = onButton
+				slot14 = slot1
+				slot15 = slot9
+
+				function slot16()
+					slot0 = slot0
+					slot1 = slot0
+					slot0 = slot0.isFinish
+					slot0 = slot0(slot1)
+
+					if not slot0 then
+						slot0 = slot1
+						slot1 = slot0
+						slot0 = slot0.emit
+						slot2 = ActivityMediator
+						slot2 = slot2.ON_TASK_GO
+						slot3 = slot0
+
+						slot0(slot1, slot2, slot3)
+					else
+						slot0 = slot1
+						slot1 = slot0
+						slot0 = slot0.emit
+						slot2 = ActivityMediator
+						slot2 = slot2.ON_TASK_SUBMIT
+						slot3 = slot0
+
+						slot0(slot1, slot2, slot3)
+					end
+				end
+
+				slot17 = SFX_PANEL
+
+				slot13(slot14, slot15, slot16, slot17)
+			end
+		end
+	end
+
+	slot12(slot13, slot14)
+
+	slot13 = slot11
+	slot12 = slot11.align
+	slot14 = #slot5
+
+	slot12(slot13, slot14)
+end
+
+slot0.update_task_list_auto_layer = slot5
+
+function slot5(slot0)
 	slot1 = slot0.activity
 	slot3 = slot0
 	slot2 = slot0.activity2Page
@@ -4574,6 +5374,180 @@ function slot5(slot0)
 end
 
 slot0.updateTaskLayers = slot5
+
+function slot5(slot0, slot1)
+	slot2 = slot0.activity
+	slot3 = slot0.pages
+	slot4 = slot0
+	slot5 = slot2.id
+	slot4 = slot4[slot5]
+	slot3 = slot3[slot4]
+	slot4 = slot0.pagesInit
+	slot5 = slot3.name
+	slot4 = slot4[slot5]
+	slot5 = slot4.layer
+	slot6 = slot5
+	slot5 = slot5.Find
+	slot7 = "scroll"
+	slot5 = slot5(slot6, slot7)
+
+	if not slot5 then
+		slot6 = slot0
+		slot5 = slot0.update_task_list_auto
+
+		slot5(slot6)
+
+		return
+	end
+
+	slot0:update_task_list_auto_layer(slot2, slot4.layer, slot1)
+
+	slot5 = getProxy(TaskProxy)
+	slot7 = pg.TimeMgr.GetInstance()
+	slot8 = math.clamp(slot7:DiffDay(slot2.data1, slot7:GetServerTime()) + 1, 1, #slot2:getConfig("config_data"))
+
+	if (slot1 or slot2.data3) >= slot2.data3 and slot1 < slot8 then
+		slot9 = _
+		slot9 = slot9.all
+		slot10 = _
+		slot10 = slot10.flatten
+		slot11 = {}
+		slot12 = slot6[slot1]
+		slot11[1] = slot12
+		slot10 = slot10(slot11)
+
+		function slot11(slot0)
+			return slot0:getFinishTaskById(slot0) ~= nil
+		end
+
+		slot9 = slot9(slot10, slot11)
+
+		if slot9 then
+			slot9 = cloneTplTo
+			slot10 = slot4.layer
+			slot11 = slot3
+			slot12 = "mask_layer"
+			slot9 = slot9(slot10, slot11, slot12)
+			slot10 = slot4.ship
+
+			if slot10 then
+				slot10 = slot4.ship
+				slot11 = slot10
+				slot10 = slot10.SetAsLastSibling
+
+				slot10(slot11)
+			end
+
+			slot11 = slot9
+			slot10 = slot9.Find
+			slot12 = "scroll"
+			slot10 = slot10(slot11, slot12)
+			slot11 = setActive
+			slot12 = slot10
+			slot13 = true
+
+			slot11(slot12, slot13)
+
+			slot11 = slot9.sizeDelta
+			slot12 = slot0._tf
+			slot13 = slot12
+			slot12 = slot12.GetComponent
+			slot14 = typeof
+			slot15 = CanvasGroup
+			slot12 = slot12(slot13, slot14(slot15))
+			slot13 = false
+			slot12.interactable = slot13
+			slot13 = LeanTween
+			slot13 = slot13.value
+			slot14 = slot9.gameObject
+			slot15 = 1
+			slot16 = 0
+			slot17 = 0.5
+			slot13 = slot13(slot14, slot15, slot16, slot17)
+			slot14 = slot13
+			slot13 = slot13.setOnUpdate
+			slot15 = System
+			slot15 = slot15.Action_float
+
+			function slot16(slot0)
+				slot1 = slot0
+				slot2 = Vector2
+				slot2 = slot2.New
+				slot3 = slot1
+				slot3 = slot3.x
+				slot4 = slot1
+				slot4 = slot4.y
+				slot4 = slot4 * slot0
+				slot2 = slot2(slot3, slot4)
+				slot1.sizeDelta = slot2
+			end
+
+			slot13 = slot13(slot14, slot15(slot16))
+			slot14 = slot13
+			slot13 = slot13.setOnComplete
+			slot15 = System
+			slot15 = slot15.Action
+
+			function slot16()
+				slot0 = slot0
+				slot1 = true
+				slot0.interactable = slot1
+				slot0 = Destroy
+				slot1 = slot1
+
+				slot0(slot1)
+			end
+
+			slot13(slot14, slot15(slot16))
+
+			slot14 = slot0
+			slot13 = slot0.update_task_list_auto
+
+			slot13(slot14)
+		end
+	end
+end
+
+slot0.tween_task_list_auto_layer = slot5
+
+function slot5(slot0, slot1)
+	slot2 = slot0.pagesInit
+	slot3 = slot1.name
+	slot2 = slot2[slot3]
+
+	if slot2 then
+		slot3 = clearImageSprite
+		slot4 = slot2.bg
+
+		slot3(slot4)
+
+		slot3 = slot2.char
+
+		if slot3 then
+			slot3 = slot2.char
+			slot3 = slot3.transform
+			slot4 = Vector3
+			slot4 = slot4.one
+			slot3.localScale = slot4
+			slot3 = PoolMgr
+			slot3 = slot3.GetInstance
+			slot3 = slot3()
+			slot4 = slot3
+			slot3 = slot3.ReturnSpineChar
+			slot5 = slot2.charPrefeb
+			slot6 = slot2.char
+
+			slot3(slot4, slot5, slot6)
+
+			slot3 = nil
+			slot2.char = slot3
+			slot3 = nil
+			slot2.charPrefeb = slot3
+		end
+	end
+end
+
+slot0.clear_task_list_auto = slot5
 
 function slot5(slot0)
 	slot1 = slot0.activity
@@ -5024,8 +5998,9 @@ function slot5(slot0)
 end
 
 slot0.flush_hit_monster_nian = slot5
+slot5 = "close_hit_monster_nian"
 
-function slot5(slot0)
+function slot6(slot0)
 	slot2 = slot0
 	slot1 = slot0.emit
 	slot3 = ActivityMediator
@@ -5034,15 +6009,17 @@ function slot5(slot0)
 	slot1(slot2, slot3)
 end
 
-slot0.close_hit_monster_nian = slot5
+slot0[slot5] = slot6
+slot5 = "clear_hit_monster_nian"
 
-function slot5(slot0)
+function slot6(slot0)
 	return
 end
 
-slot0.clear_hit_monster_nian = slot5
+slot0[slot5] = slot6
+slot5 = "flush_coloring"
 
-function slot5(slot0)
+function slot6(slot0)
 	slot1 = slot0.activity
 	slot2 = slot0.pages
 	slot3 = slot0
@@ -5363,9 +6340,10 @@ function slot5(slot0)
 	slot4()
 end
 
-slot0.flush_coloring = slot5
+slot0[slot5] = slot6
+slot5 = "clear_coloring"
 
-function slot5(slot0)
+function slot6(slot0)
 	slot1 = slot0.pages
 	slot2 = slot0
 	slot3 = ActivityConst
@@ -5384,9 +6362,10 @@ function slot5(slot0)
 	end
 end
 
-slot0.clear_coloring = slot5
+slot0[slot5] = slot6
+slot5 = "playBonusAnim"
 
-function slot5(slot0, slot1)
+function slot6(slot0, slot1)
 	slot3 = slot0
 	slot2 = slot0.findTF
 	slot4 = "bonus_anim"
@@ -5433,9 +6412,10 @@ function slot5(slot0, slot1)
 	slot4(slot5, slot6)
 end
 
-slot0.playBonusAnim = slot5
+slot0[slot5] = slot6
+slot5 = "displayBBAnim"
 
-function slot5(slot0, slot1)
+function slot6(slot0, slot1)
 	slot2 = PLATFORM_CODE
 	slot3 = PLATFORM_CH
 
@@ -5548,7 +6528,7 @@ function slot5(slot0, slot1)
 	slot6(slot7, slot8)
 end
 
-slot0.displayBBAnim = slot5
+slot0[slot5] = slot6
 slot5 = "displayBBResult"
 
 function slot6(slot0, slot1, slot2)
@@ -9825,8 +10805,59 @@ slot5 = "flush_pt_page_longxiang"
 function slot6(slot0)
 	slot2 = slot0
 	slot1 = slot0.flush_task_list_pt
+	slot1, slot2, slot3 = slot1(slot2)
+	slot4 = slot0.activity
+	slot5 = slot0.pages
+	slot7 = slot0
+	slot6 = slot0.activity2Page
+	slot8 = slot4
+	slot6 = slot6(slot7, slot8)
+	slot5 = slot5[slot6]
+	slot6 = slot0.pagesInit
+	slot7 = slot5.name
+	slot6 = slot6[slot7]
+	slot7 = slot6.btn
+	slot8 = slot7
+	slot7 = slot7.GetComponent
+	slot9 = typeof
+	slot10 = Image
+	slot7 = slot7(slot8, slot9(slot10))
+	slot8 = false
+	slot7.enabled = slot8
+	slot7 = setActive
+	slot8 = slot6.btn
+	slot9 = slot8
+	slot8 = slot8.Find
+	slot10 = "get"
+	slot8 = slot8(slot9, slot10)
+	slot9 = true
 
-	slot1(slot2)
+	slot7(slot8, slot9)
+
+	slot7 = setActive
+	slot8 = slot6.btn
+	slot9 = slot8
+	slot8 = slot8.Find
+	slot10 = "achieved"
+	slot8 = slot8(slot9, slot10)
+	slot9 = false
+
+	slot7(slot8, slot9)
+
+	slot7 = setActive
+	slot8 = slot6.btn
+	slot10 = slot2
+	slot9 = slot2.isFinish
+	slot9 = slot9(slot10)
+
+	if slot9 then
+		slot10 = slot2
+		slot9 = slot2.isReceive
+		slot9 = slot9(slot10)
+		slot9 = not slot9
+	end
+
+	slot7(slot8, slot9)
 
 	return
 end

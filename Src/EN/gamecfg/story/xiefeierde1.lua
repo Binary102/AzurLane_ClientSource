@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"这个女仆不太冷\n\n<size=30>一 女仆队，清扫中</size>",
+					"Loaded with Lead and Love\n\n<size=30>Chapter 1 - The Cleaning Crew</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "虽然是休息日，不过也没有特别想做的事情，就在港区随便逛逛吧",
+			say = "Though I was supposed to be taking the day off, I didn't particularly have anything I wanted to do, so I soon found myself wandering aimlessly around the port.",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -55,7 +55,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actorName = "？？？",
-			say = "萨福克，我们来比比谁先跑到那边的走廊吧！",
+			say = "Hey, Suffolk! Let's have a race to see who can get across the corridor faster!",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -88,7 +88,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "欸，我才不要，反正我也跑不过你，让我再发会儿呆…",
+			say = "Eh? I think I'll pass~ Besides, I can't keep up with you anyway, so just let me space out over here~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你们两个，我只是稍微离开了一会儿就变成这样了……",
+			say = "I take my eyes off you two for a second, and....",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "皇家的宿舍里传来了萨福克和肯特的声音，还有一个声音是——",
+			say = "I could hear the voices of Kent and Suffolk coming from the Royal Navy dormitory, but who was this third voice?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			},
 			options = {
 				{
-					content = "过去看看",
+					content = "Take a look",
 					flag = 1
 				}
 			}
@@ -140,7 +140,7 @@ return {
 			dir = 1,
 			actor = 202081,
 			nameColor = "#a9f548",
-			say = "肯特，虽然你跑得很勤，但是在拖过的地面上跑多少次都不会变干净的。",
+			say = "Kent, though I commend your dedication towards staying active, you may find that you cannot clean the floor by running all over it.",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -173,7 +173,7 @@ return {
 			dir = 1,
 			actor = 203031,
 			nameColor = "#a9f548",
-			say = "呜！…是——",
+			say = "I understand... it's my mistake!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…萨福克，我刚才离开的时候你就已经在那里了吧？",
+			say = "Suffolk, you haven't moved from that cranny since before I left. It must either be very cozy, or very, very, dirty.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			dir = 1,
 			actor = 203041,
 			nameColor = "#a9f548",
-			say = "诶？怎怎怎么会呢！我已经动过了哦！",
+			say = "Eh? Y-y-you've got it wrong! I've been cleaning properly!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "果然，是最近担任秘书舰的谢菲尔德",
+			say = "Sure enough, it was Sheffield, who recently was assigned to secretary duties.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +256,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…？是主人啊…有什么事吗？",
+			say = "Hm... Master? Do you require something?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,7 +272,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……只是随便逛逛吗",
+			say = "So, you're just taking a stroll...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -288,7 +288,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那请您后退几步，那里的地板刚刚拖过",
+			say = "Well then, if you don't mind, please take a few steps back. You're soiling the freshly-mopped floor.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,23 +302,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "和工作的时候一样，毫不留情呢…",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 202081,
-			side = 2,
-			bgName = "bg_story_school",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "另外，若只是闲逛的话，请随便找个别的地方去，现在这一带正在清扫中",
+			say = "Ah... as professionally merciless as ever...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -334,7 +318,23 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……要是大约一小时后回来的话，我还能为您泡一杯红茶或是准备一些点心，或许",
+			say = "Also, since you're just taking a stroll, I would like to recommend you a more pleasant place to stroll to. Anywhere but here, actually, since we are currently busy cleaning.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 202081,
+			side = 2,
+			bgName = "bg_story_school",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "If you return in, say, about an hour, there may be the possibility of tea and scones. Just maybe.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -348,7 +348,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "说着谢菲尔德又开始了清扫，不愧是连贝尔法斯特都赞不绝口的职业精神…",
+			say = "As soon as she finished talking, Sheffield promptly returned to her cleaning. So this is the absolute professionalism that even has Belfast's seal of approval...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -363,7 +363,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			blackBg = true,
-			say = "……似乎确实也没什么事，稍后再来吧",
+			say = "Well, since I really did have nothing better to do, I might as well come back later.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

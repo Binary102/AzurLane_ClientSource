@@ -9,7 +9,7 @@ return {
 		{
 			soundeffect = "event:/battle/boom1",
 			side = 2,
-			say = "……————",
+			say = "...",
 			blackBg = true,
 			dir = 1,
 			bgm = "level03",
@@ -34,7 +34,7 @@ return {
 			side = 2,
 			nameColor = "#ff0000",
 			dir = 1,
-			say = "报告司令部“我舰将战至最后一弹，沙恩霍斯特永远向前！”",
+			say = "Command, this is Scharnhorst! I will fight on until the last shell is fired!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -49,7 +49,7 @@ return {
 			side = 2,
 			nameColor = "#ff0000",
 			dir = 1,
-			say = "炮台“凯撒”，继续瞄准敌舰约克公爵，开火！",
+			say = "Caesar! Lock sights on Duke of York!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,7 +64,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			say = "够了，是时候偿还欠下的罪孽了，安安心心的沉没吧——",
+			say = "Thou tires me with thy prattle. Thy role here is over... Sink!",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -79,7 +79,7 @@ return {
 			}
 		},
 		{
-			say = "……————",
+			say = "...",
 			side = 2,
 			blackBg = true,
 			dir = 1,
@@ -105,7 +105,7 @@ return {
 			side = 2,
 			nameColor = "#ff0000",
 			dir = 1,
-			say = "哈哈哈，驰骋北海一生，被人挂上“丑陋姐妹”的名号",
+			say = "... Ahahaha... My sister and I caused so much havoc in the North Sea that people started calling us \"the Ugly Sisters\"...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			side = 2,
 			nameColor = "#ff0000",
 			dir = 1,
-			say = "无数次死里逃生，最终却败在了你这个鲁莽的小家伙手上，",
+			say = "Countless times I've managed to flee from danger, and yet, this is where it ends for me...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			side = 2,
 			nameColor = "#ff0000",
 			dir = 1,
-			say = "到了最后也还是这么咄咄逼人...",
+			say = "By the hand of a bunch of arrogant Royal Navy ships, no less...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,7 +173,7 @@ return {
 			nameColor = "#ff0000",
 			dir = 1,
 			blackBg = true,
-			say = "不过，这也正是你最迷人的一点呀...",
+			say = "But that's what's so charming about you...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			nameColor = "#ff0000",
 			dir = 1,
 			blackBg = true,
-			say = "——皇家的女仆小姐",
+			say = "... Auf Wiedersehen, servants of the Royal Family.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

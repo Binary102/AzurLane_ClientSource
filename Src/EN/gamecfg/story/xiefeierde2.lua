@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"这个女仆不太冷\n\n<size=30>二 一切为了“清扫”</size>",
+					"Loaded with Lead and Love\n\n<size=30>Chapter 2 - For the Sake of \"Cleaning\"</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "港区·商店",
+			say = "Port - Shop",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -53,7 +53,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "因为补给确认方面的事务来到了{namecode:98}的商店，不过似乎有人先来了的样子",
+			say = "Early in the morning, I headed to Akashi's shop in order to take care of some business. To my surprise, someone was there before me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "谢菲尔德的要求真的差点难倒{namecode:98}了喵！不过…哼哼，最后还是完成了喵！",
+			say = "Sheffield's request for Akashi was a bit unreasonable, but... Hehe, I managed to pull through in the end, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			dir = 1,
 			actor = 312011,
 			nameColor = "#a9f548",
-			say = "将将——这就是“{namecode:98}特制清洁弹“喵！",
+			say = "Tada! Akashi's \"Special Cleaning Bullets,\" nya!",
 			effects = {
 				{
 					active = true,
@@ -107,7 +107,7 @@ return {
 			dir = 1,
 			actor = 202081,
 			nameColor = "#a9f548",
-			say = "…{namecode:98}小姐，了不起",
+			say = "Impressive work as always, Akashi.",
 			effects = {
 				{
 					active = false,
@@ -127,7 +127,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "似乎能感觉到谢菲尔德淡漠的眼神中闪耀着一丝兴奋的光芒，不过…",
+			say = "Sheffield was wearing the same poker face as usual, but her eyes seemed to glimmer with excitement.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			},
 			options = {
 				{
-					content = "询问清洁弹是什么",
+					content = "\"Akashi's Special Cleaning Bullets? What are those?\"",
 					flag = 1
 				}
 			}
@@ -149,7 +149,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…是主人吗",
+			say = "Master...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼哼哼，那边的客人，你看起来一脸困惑的样子喵？那就让{namecode:98}来——",
+			say = "Ehehe, confused-looking customer over there. Yes, you, nya! Let Akashi demonstrate -",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,7 +179,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "（砰——！）",
+			say = "(Boom!)",
 			dialogShake = {
 				speed = 0.09,
 				delay = 0.5,
@@ -219,7 +219,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "谢菲尔德直接往墙角开了一枪",
+			say = "In a single fluid motion, Sheffield loaded the \"cleaning bullets\" into her pistol and unloaded them into the wall.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			dir = 1,
 			actor = 312011,
 			nameColor = "#a9f548",
-			say = "喵！？吓了一跳喵！谢菲尔德你也太直接了喵！",
+			say = "Nyaa?! W-woah... what are you doing, nya! That's not what I meant by demonstrate!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,7 +261,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "与其解释那么多，不如直接实践一下更方便",
+			say = "Showing is more straightforward than explaining.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +275,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "谢菲尔德射击的地方出现了些许蓝色的泡沫，难道说……",
+			say = "Something began to emerge from the place that Sheffield shot at... Bubbles...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,7 +291,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，我拜托{namecode:98}小姐制作了包含清洁剂的子弹",
+			say = "As you can see, I asked Miss Akashi to make me bullets containing detergent.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -307,7 +307,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "弹头是特殊材料制成的喵，一旦受到冲击就会释放出清洁剂喵！",
+			say = "The heads are custom-made with special materials and will release the detergent upon impact, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -323,7 +323,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这样一来，平时一些不好打扫的地方也能到轻易地解决了",
+			say = "Indeed. With this, I will be able to clean some things that are not easily reached.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -337,7 +337,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "感觉又是好像很厉害，又好像没什么所谓的道具…",
+			say = "I couldn't decide if this was an awesome idea or a terrible one...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -352,7 +352,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "不过，难得看到谢菲尔德高兴(?)的样子，就这样吧",
+			say = "But it's rare to see Sheffield happy(?), so I suppose I'll let her have her fun.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

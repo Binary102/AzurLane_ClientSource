@@ -11,7 +11,7 @@ return {
 			nameColor = "#ff0000",
 			side = 2,
 			dir = 1,
-			say = "...居然单舰追上来了吗...单单一艘轻巡洋舰居然敢正面挑战战列舰...",
+			say = "You saw through my trick, huh... What do you think you, a lone light cruiser, can do to a battleship like me?",
 			bgm = "battle-boss-5",
 			typewriter = {
 				speed = 0.05,
@@ -27,7 +27,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			say = "为了女王的威名和皇家的荣耀，我愿意献上我的一切——",
+			say = "I am prepared to fight tooth and nail for Her Majesty's and the Royal Family's glory and reputation.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -46,7 +46,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "全炮门瞄准——敌舰沙恩霍斯特，开火！",
+			say = "All guns, train sights on the enemy! Prepare to fire!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			side = 1,
 			nameColor = "#ff0000",
 			dir = 1,
-			say = "值得令人敬佩的精神，我为之前称呼你们为矫情的贵妇人而道歉",
+			say = "I was wrong to call you pompous. If you're going all out, then I too will treat you with respect and fight you with all my strength.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			side = 1,
 			nameColor = "#ff0000",
 			dir = 1,
-			say = "相应的，我也会使出我的全力，准备好了吗？",
+			say = "Come at me! I hope you're prepared to be chewed into pieces!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

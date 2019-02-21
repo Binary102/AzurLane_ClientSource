@@ -867,6 +867,99 @@ pg.pay_data_display = {
 			}
 		}
 	},
+	[107] = {
+		limit_arg = 1,
+		descrip_extra = "*After your purchase, the Lucky Bag will be sent to your mailbox. \n*If you receive a ship skin that you already own, you will instead be given the corresponding skin's value in Gems. ",
+		name = "Glacier Blast ",
+		descrip = "Contains 1 x random Ship skin (Winter‘s Crown), 3 x random Gear skins (Winter's Crown), and other rewards ",
+		subject = "Glacier Blast ",
+		extra_service = 3,
+		money = 2999,
+		tag = 1,
+		gem = 0,
+		limit_type = 2,
+		picture = "fudai53",
+		id_str = "com.yostaren.azurlane.diamond117",
+		first_pay_double = 0,
+		extra_gem = 0,
+		id = 107,
+		airijp_id = "com.yostaren.azurlane.diamond117",
+		extra_service_item = {
+			{
+				2,
+				59954,
+				1
+			},
+			{
+				1,
+				4,
+				2019
+			},
+			{
+				2,
+				30311,
+				3
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					2,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					3,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				59954,
+				1
+			},
+			{
+				1,
+				4,
+				2019
+			},
+			{
+				2,
+				30311,
+				3
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -882,7 +975,8 @@ pg.pay_data_display = {
 		103,
 		104,
 		105,
-		106
+		106,
+		107
 	}
 }
 

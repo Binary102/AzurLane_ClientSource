@@ -11,7 +11,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "特攻舰队全员注意，我们已经重创了提尔比茨这匹北方的孤狼，作战目标基本达成",
+			say = "Members of Special Task Force One, we have inflicted devastating damage upon Tirpitz. Our combat objectives have nearly been accomplished.",
 			bgm = "story-5",
 			typewriter = {
 				speed = 0.05,
@@ -27,7 +27,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "由于塞壬的介入，出于安全考虑，本次“钨”作战提前结束，全体成员准备返航！",
+			say = "Due to the intervention of the Sirens, \"Operation Tungsten\" will conclude prematurely out of safety considerations. All members, prepare to return!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过…居然连汝出手都没能击沉提尔比茨，她的底力真是出人意料呀",
+			say = "However, for her to not sink despite all that... is her armour impenetrable?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "汝大可不必如此消沉，某种程度上也是我们错误评估了敌方的实力，未来仍有机会——",
+			say = "Thou need not be so depressed. We miscalculated the strength of the enemy, but there will still be other opportunities in the future.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "！！外围护航的侦察机被不明目标击落，3点钟方向可能有不明目标存在！",
+			say = "Alert! We've shot down enemy fighters! We're detecting something at 3 o'clock!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -128,7 +128,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
-			say = "是来自塞壬说的那个“奇异点”的方向么？",
+			say = "3 o'clock...! That must be the \"singularity\" that the Sirens mentioned?",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -147,7 +147,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是的，还没来得及发现目标就被…目前已经派遣其他侦察机前往侦查了",
+			say = "Yes! I haven't confirmed the enemy's position yet, but I've ordered my recon planes to investigate...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…放任北方海域给塞壬如此肆无忌惮的出入也实在有损皇家威名",
+			say = "Allowing the Sirens to run rampant in our waters is a disgrace to the Queen's name.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "特攻舰队全员注意，作战目标临时变更——调查不明海域情报，请各位随时做好迎击塞壬的准备",
+			say = "Attention, all members of Special Task Force One! There has been a change in plans. Investigate these unknown waters and prepare for a Siren attack!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "对了，胜利…",
+			say = "By the way, Victorious...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,7 +222,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯？",
+			say = "Yes?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +237,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你看那个“奇异点”…",
+			say = "The shape of that \"singularity...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,7 +252,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "像不像女王头上戴的王冠呢？",
+			say = "Does it not resemble the shape of a Queen's crown?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

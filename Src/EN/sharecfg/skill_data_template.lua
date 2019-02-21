@@ -5202,7 +5202,7 @@ pg.skill_data_template = {
 	[5051] = {
 		desc_get = "",
 		name = "Flagship Cover",
-		desc = "Reduce flagship's DMG taken by $1 while alive.",
+		desc = "While alive, reduce DMG taken by Flagship by $1.",
 		type = 3,
 		max_level = 10,
 		id = 5051,
@@ -19274,6 +19274,109 @@ pg.skill_data_template = {
 			}
 		}
 	},
+	[11860] = {
+		desc_get = "",
+		name = "Mark of Sirius ",
+		desc = "Increases the Aviation of allied Carriers and Light Carriers by $1 and also increases their Hit Rate against Destroyers, Light Cruisers, and Heavy Cruisers by $1. In addition, for each Carrier or Light Carrier present in the Main Fleet, this ship will receive one stack of the following buffs: Firepower, Torpedo, and Reload stats increase by $2. ",
+		type = 3,
+		max_level = 10,
+		id = 11860,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"1.0%",
+				"10.0%"
+			},
+			{
+				"1.5%",
+				"7.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"1.0%",
+					"+1.0%"
+				},
+				{
+					"2.0%",
+					"+1.0%"
+				},
+				{
+					"3.0%",
+					"+1.0%"
+				},
+				{
+					"4.0%",
+					"+1.0%"
+				},
+				{
+					"5.0%",
+					"+1.0%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+1.0%"
+				},
+				{
+					"8.0%",
+					"+1.0%"
+				},
+				{
+					"9.0%",
+					"+1.0%"
+				},
+				{
+					"10.0%"
+				}
+			},
+			{
+				{
+					"1.5%",
+					"+0.6%"
+				},
+				{
+					"2.1%",
+					"+0.6%"
+				},
+				{
+					"2.7%",
+					"+0.6%"
+				},
+				{
+					"3.3%",
+					"+0.6%"
+				},
+				{
+					"3.9%",
+					"+0.6%"
+				},
+				{
+					"4.5%",
+					"+0.6%"
+				},
+				{
+					"5.1%",
+					"+0.6%"
+				},
+				{
+					"5.7%",
+					"+0.6%"
+				},
+				{
+					"6.3%",
+					"+0.7%"
+				},
+				{
+					"7.0%"
+				}
+			}
+		}
+	},
 	[11890] = {
 		desc_get = "Decreases the Burn DMG this ship takes by 5% (15% at max level) and decreases Burn Duration by 3 seconds. Once per battle, if this ship's HP falls below 25%, its Evasion Rate will increase by 10% (30% at max level) for 10 seconds.",
 		name = "Miracle Within The Flames",
@@ -22691,6 +22794,28 @@ pg.skill_data_template = {
 		desc_get_add = {},
 		desc_add = {}
 	},
+	[29361] = {
+		desc_get = "",
+		name = "All Out Assault: Sirius I ",
+		desc = "Activate All Out Assault: Sirius I once every 15 times the main guns are fired. ",
+		type = 1,
+		max_level = 1,
+		id = 29361,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[29362] = {
+		desc_get = "",
+		name = "All Out Assault: Sirius II ",
+		desc = "Activate All Out Assault: Sirius II once every 10 times the main guns are fired. ",
+		type = 1,
+		max_level = 1,
+		id = 29362,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
 	[101010] = {
 		desc_get = "",
 		name = "Protagonist Aura",
@@ -24396,6 +24521,7 @@ pg.skill_data_template = {
 		11810,
 		11820,
 		11850,
+		11860,
 		11890,
 		11900,
 		19000,
@@ -24635,6 +24761,8 @@ pg.skill_data_template = {
 		29341,
 		29342,
 		29351,
+		29361,
+		29362,
 		101010,
 		101020,
 		101030,

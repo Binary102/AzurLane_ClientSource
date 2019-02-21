@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"天狼星改造计划\n\n<size=30>五 携手起舞</size>",
+					"Sirius' Improvement Plan\n\n<size=30>Chapter 5 - Take My Hand</size>",
 					1
 				}
 			}
@@ -24,7 +24,7 @@ return {
 			bgm = "story-1",
 			actor = 202151,
 			nameColor = "#a9f548",
-			say = "这样转一圈，然后这样……",
+			say = "Now you turn around like this... Then move like this...",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -57,7 +57,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这样……吗？",
+			say = "Like... so?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "对对，就是这样♪再跟舞伴练习一下就没问题了",
+			say = "Yes, you've got it! Now you should have no problem practicing with an actual partner.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "找到欧罗拉来教天狼星跳社交舞。",
+			say = "I got Aurora to teach Sirius the dance we'll have at the banquet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			bgName = "bg_story_task",
 			actor = 202201,
 			nameColor = "#a9f548",
-			say = "我骄傲的主人，还请多多关照",
+			say = "My honourable Master, I kindly ask of you to join me and help me practice this dance.",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -138,7 +138,7 @@ return {
 			withoutActorName = true,
 			actor = 202201,
 			nameColor = "#a9f548",
-			say = "身兼秘书舰、女仆、宴会女伴三职的天狼星优雅地将手伸过来",
+			say = "Sirius, my all-in-one banquet partner, secretary, and personal maid elegantly reached her hand out to me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			},
 			options = {
 				{
-					content = "牵起天狼星的手",
+					content = "Take Sirius' hand",
 					flag = 1
 				}
 			}
@@ -158,7 +158,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "虽然动作上还有一点点生硬，不过已经完全看不出来是临时抱佛脚了。",
+			say = "She hadn't quite nailed it yet, but she'd improved remarkably in such a short amount of time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "在舞蹈练习中，她突然小声说。",
+			say = "Then, as we were practicing the dance, she suddenly started whispering to me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			actorScale = 1.5,
 			actor = 202201,
 			nameColor = "#a9f548",
-			say = "……非常感谢您",
+			say = "...I am truly thankful for all of your help.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,7 +212,7 @@ return {
 			actorScale = 1.5,
 			actor = 202201,
 			nameColor = "#a9f548",
-			say = "对于区区女仆，您居然会照顾到这个地步……",
+			say = "Though I am a mere maid, you have been so kind to me...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,7 +234,7 @@ return {
 			actorScale = 1.5,
 			actor = 202201,
 			nameColor = "#a9f548",
-			say = "我明白作为女仆不该说这样的话，不过……",
+			say = "I know that this is far outside my jurisdiction as a maid, but nevertheless...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,7 +252,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "（碰）",
+			say = "(Boing)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,7 +266,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "或许是因为感情的起伏瞬间打乱了步伐，从纤细的舞伴那边传来了有着重量感的柔软触感。",
+			say = "...I guess the wave of emotion made one of us miss a step, and now I felt the sensation of something heavy yet soft pressing against me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,7 +284,7 @@ return {
 			actorScale = 1.5,
 			actor = 202201,
 			nameColor = "#a9f548",
-			say = "…我骄傲的主人…",
+			say = "...My honourable Master, I...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -306,7 +306,7 @@ return {
 			actorScale = 1.5,
 			actor = 202201,
 			nameColor = "#a9f548",
-			say = "实在抱歉！这是，那个……",
+			say = "Oh my goodness, I am so sorry! I... Um...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -344,7 +344,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "这才反应过来，刚才一瞬间，天狼星因为羞耻变得红扑扑的脸庞离自己只有咫尺之遥。",
+			say = "For just a single moment, Sirius' expression turned bright red as our faces were mere inches away.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

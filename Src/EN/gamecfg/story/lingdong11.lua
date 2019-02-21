@@ -11,7 +11,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "第一特攻舰队已经准时抵达目标海域，顺利完成合流",
+			say = "Special Task Force One has arrived at the objective. Rendezvous complete.",
 			bgm = "story-6",
 			typewriter = {
 				speed = 0.05,
@@ -27,7 +27,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "皇家舰队，胜利号向您献上最高的问候~",
+			say = "Victorious of the Royal Navy has arrived!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
-			say = "远道而来辛苦了，望汝还能习惯北海的海况，迷人的女士",
+			say = "Thou have cometh from far away. Dost thou still remember the Northern Sea?",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -61,7 +61,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "就算在世界的另一端战斗了2年，故乡的海风和这…冰冷的海水怎么样也不可能忘掉呀（苦笑",
+			say = "I may have always been fighting on the other side of the world, but... how could I possibly forget my birthplace and its nostalgic sea breeze?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 207044,
-			say = "哦哦，对了对了，这一次我还带回了来自白鹰的特产哦！",
+			say = "Oh, right, I've brought some fighter planes with me from the Eagle Union!",
 			shake = {
 				speed = 5,
 				y = 20,
@@ -96,7 +96,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哦？",
+			say = "Is that so?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "看，这种叫做海盗的战斗机，性能一点都不比女王的喷火逊色！还能挂载好多好多的炸弹！！",
+			say = "Have a look! This little darling is known as a \"Corsair\"! It has specs comparable to our Seafires! And you wouldn't believe how many bombs it can carry!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "白鹰那边的孩子们可厉害了！！还有还有，这种叫做SBD的俯冲…",
+			say = "The Eagle Union's fighters are just so marvelous! And look at this, this is a Wildcat! It can...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +141,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "咳咳…那么~回到正题，这次行动的目标情况如何？",
+			say = "Ahem... Returning to the topic at hand, what of the target?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊~不好意思，刚才一不小心就激动了…",
+			say = "Ah, you'll have to excuse me. I can't help myself when I get excited...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "刚才派出的侦察机已经发现了我们的猎物，依然一动不动的呆在那儿，看起来已经完全无法动弹了呢",
+			say = "Ahem! My recon planes have already spotted the target. She hasn't moved an inch. Perhaps she can't even move at all?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,7 +186,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这匹北方的孤狼，之前受到X艇的重创居然还能幸存下来，真是惊人的防御..",
+			say = "The lone wolf of the north... Though struck by X-boats, she managed to survive. Truly, a defence most formidable.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不管怎样，这次的行动对于皇家来说可是一劳永逸解决北海威胁的机会",
+			say = "In any case, this is an opportunity for the Royal Navy to solve the threat in the Northern Sea once and for all.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘻嘻，只要等到雾气散开，孩子们就可以起飞了哦~ ",
+			say = "Indeed. As soon as this fog has cleared up, I'll send out my little darlings to attack!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那么，特攻舰队全员注意，由皇家舰队司令部直接下达的特殊作战——“钨”行动将在1小时后准时开始",
+			say = "...How reliable. Well then, all ships participating in this operation, standby! \"Operation Tungsten\" shall begin in one hour's time as planned!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +246,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我们的猎物——提尔比茨，只是在做最后的困兽之斗，让我们——",
+			say = "Our prey is Tirpitz! What meaningless resistance will she be able to mount? Fleet-",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -307,7 +307,7 @@ return {
 			bgm = "story-6",
 			actor = 205074,
 			nameColor = "#a9f548",
-			say = "！！！受到不明攻击，立刻报告损害情况！！！",
+			say = "What?! An attack from a new enemy? Report the damages, hurry!",
 			dialogShake = {
 				speed = 0.09,
 				x = 15,
@@ -327,7 +327,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			say = "海…海面崩塌了…",
+			say = "Is the ocean... falling apart...?!",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -346,7 +346,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "………",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -361,7 +361,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不..是海面..被抛到天上去了？？",
+			say = "N-no, it's something else... The ocean itself is being sucked up into the sky!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -376,8 +376,8 @@ return {
 			nameColor = "#ff0000",
 			side = 2,
 			dir = 1,
-			actorName = "净化者",
-			say = "啊呀呀，居然选在这个地方开启了新的奇异点，真是出人意料啊——",
+			actorName = "Purifier",
+			say = "Ahahaha~! What an interesting choice to create a singularity here!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -392,7 +392,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "果然又是你们的鬼把戏吗？",
+			say = "Accursed Sirens, is this thy witchcraft?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -407,8 +407,8 @@ return {
 			nameColor = "#ff0000",
 			side = 2,
 			dir = 1,
-			actorName = "净化者",
-			say = "不不不，我可没这么大的能耐开启这么大个的…",
+			actorName = "Purifier",
+			say = "Huh? How exactly am I supposed to create a singularity of this size?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -423,7 +423,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "紧急情况，计划有变，全员一级战备！",
+			say = "We have an emergency situation. Adjusting strategic operations. Prepare all forces for combat!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -438,7 +438,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "目标——塞壬大型舰，自由开火！",
+			say = "Target the Siren! Fire at will!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -453,8 +453,8 @@ return {
 			nameColor = "#ff0000",
 			side = 2,
 			dir = 1,
-			actorName = "净化者",
-			say = "喂！等人把话说完啊，真是一群铁壳脑袋！",
+			actorName = "Purifier",
+			say = "Hey! Didn't your momma teach you about listening to what people have to say? ...Fine, have it your way. Let's have some fun!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

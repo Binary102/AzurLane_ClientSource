@@ -11,7 +11,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（这片海域就是当年姐姐走过的航路吗...海水真是冰冷刺骨啊）",
+			say = "(My sister once sailed across this same ocean... It must have been just as freezing back then...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
-			say = "...前方，发现型号不明的塞壬...正在高速朝我们袭来",
+			say = "... Vessels of an unknown identification signal detected at 12 o'clock. They are rapidly approaching.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -45,7 +45,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呜...没..没见过的敌人？？",
+			say = "T-they're enemies we've never encounter before?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +60,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这个似乎就是白鹰之前警告过我们的塞壬的新型机，会主动拦截靠近的舰队，是非常麻烦的对手",
+			say = "They must be the new models the Eagle Union warned us about. They indiscriminately open fire on any passing vessel... They are extremely troublesome, indeed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过，既然运输船队已经都安全了，总是这么遮遮掩掩也有损女王和皇家的威严",
+			say = "With the second convoy en route, we cannot simply ignore this threat.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那么，全员一级作战准备，让敌人看看皇家战斗女仆团的优雅舞姿吧！",
+			say = "All units, enter battle formations! Let us show our enemies the courage of the Royal Navy!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "领命！",
+			say = "... Roger that!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

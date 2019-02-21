@@ -4507,11 +4507,7 @@ Urgent Ops times: Wednesday, Saturday, Sunday]]
 								 <color=#60a9ff>Rare</color>: $4%
 								 Common: $5% 
 
-							 【Building Event】
-
-							<color=#966af6>   Ryuujou</color>：1.4%<color=#A9F548>(up!)</color>
-
-]],
+									]],
 		key = "help_build_1"
 	},
 	help_build_2 = {
@@ -4523,28 +4519,25 @@ Urgent Ops times: Wednesday, Saturday, Sunday]]
 								 <color=#60a9ff>Rare</color>: $4%
 								 Common: $5% 
 
-							 【Building Event】
-
-							<color=#60a9ff>   Hatsushimo</color>：1.5%<color=#A9F548>(up!)</color>
-
-]],
+									]],
 		key = "help_build_2"
 	},
 	help_build_4 = {
 		tip = [[
-						<size=23>$1 Construct Rate:</size>
+				<size=23>$1 Construct Rate:</size>
 
-										<color=#fff157> Super Rare</color>: $2%
-										 <color=#966af6>Elite</color>: $3%
-										 <color=#60a9ff>Rare</color>: $4%
-										 Common: $5%
-							【Building Event】</size>
+								<color=#fff157> Super Rare</color>: $2%
+								 <color=#966af6>Elite</color>: $3%
+								 <color=#60a9ff>Rare</color>: $4%
+								 Common: $5% 
 
-							<color=#fff157>       Amagi</color>：2%<color=#A9F548>(up!)</color>
-							<color=#fff157>       Kaga(BB)</color>：0.5%
-							<color=#966af6>       Ashigara</color>：2.5%<color=#A9F548>(up!)</color>
-							<color=#60a9ff>       Hatakaze</color>：5%<color=#A9F548>(up!)</color>
-							<color=#60a9ff>       Naka</color>：5%<color=#A9F548>(up!)</color>
+							<size=23>【Building Event】</size>
+
+							<color=#fff157>   Victorious</color>：2.25%<color=#A9F548>(up!)</color>
+							<color=#fff157>   Sirius</color>：2%<color=#A9F548>(up!)</color>
+							<color=#966af6>   Sheffield</color>：2.5%<color=#A9F548>(up!)</color>
+							<color=#966af6>   Grenville</color>：2.5%<color=#A9F548>(up!)</color>
+							<color=#60a9ff>   Jamaica</color>：5%<color=#A9F548>(up!)</color>
 ]],
 		key = "help_build_4"
 	},
@@ -6410,7 +6403,7 @@ She'll also receive a <color=#a0ff40>3%</color> stats bonus</size>.]],
 		key = "course_student_max_level"
 	},
 	course_stop_confirm = {
-		tip = "Are you sure you want to cancel class and earn partial EXP?",
+		tip = "End the lecture now?",
 		key = "course_stop_confirm"
 	},
 	course_class_help = {
@@ -6442,8 +6435,7 @@ time you wish.
 Ending the Lecture will convert Proficiency to EXP for the 
 Students depending on how long the Lecture lasted.
 The maximum amount of time a Lecture can last is 12 
-hours. After 12 hours have passed, the Lecture will 
-automatically be deemed finished.
+hours.
 Up to the point before the Lecture finishes, the 
 acquired Proficiency will be automatically converted into 
 EXP for the Students in attendance.
@@ -6736,7 +6728,7 @@ double the amount of Proficiency from sorties.]]
 		key = "activity_switch_award_pool_failed"
 	},
 	shop_street_activity_tip = {
-		tip = "※<color=#A1E400FF>Gear Skins</color> are purchasable during(<color=#A1E400FF>01.31 – 02.14</COLOR>)!",
+		tip = "※<color=#A1E400FF>Gear Skins</color> are purchasable during(<color=#A1E400FF>02.21 – 03.13</COLOR>)!",
 		key = "shop_street_activity_tip"
 	},
 	twitter_link_title = {
@@ -7359,11 +7351,11 @@ $3]],
 		key = "amercian_notice_1"
 	},
 	amercian_notice_2 = {
-		tip = "*When target reward in current pool has been given,\n   the next phase is unlocked.",
+		tip = "※Acquire target reward to unlock the next phase",
 		key = "amercian_notice_2"
 	},
 	amercian_notice_3 = {
-		tip = "Period：2018.10.26~11.22",
+		tip = "Period：2019.2.21~3.20",
 		key = "amercian_notice_3"
 	},
 	amercian_notice_4 = {

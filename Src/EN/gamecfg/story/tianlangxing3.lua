@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"天狼星改造计划\n\n<size=30>三 女仆队的支援</size>",
+					"Sirius' Improvement Plan\n\n<size=30>Chapter 3 - The Maids' Aid</size>",
 					1
 				}
 			}
@@ -24,7 +24,7 @@ return {
 			bgm = "story-1",
 			actor = 202121,
 			nameColor = "#a9f548",
-			say = "“为了避免她在宴会上的举止被人看出是女仆，需要让她对女仆应有的举止拥有清晰的认识——",
+			say = "To be able to blend in among the crowd at the banquet, there is a need for Sirius to understand precisely what a maid's duties are and how a maid should behave.",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -64,7 +64,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "“同时，既然身为秘书舰，从侍奉主人的角度出发，关于女仆的基本实力也需要更上一层楼”",
+			say = "In addition, now that Sirius have been selected for the assignment, there is a need to improve on her ability to serve as a secretary.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……是这个意思吗，指挥官？",
+			say = "...Is this an accurate summary of your request, Master?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "拜托了皇家女仆队的贝尔法斯特等人对天狼星进行指导。",
+			say = "I went to the Royal Navy Maids and requested their guidance on Sirius.",
 			effects = {
 				{
 					active = false,
@@ -116,7 +116,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "女仆长，请多多关照了",
+			say = "I humbly request your gentle treatment, Belfast.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,7 +132,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "虽然天狼星平时不负责基本的女仆业务，但是现在是特殊情况",
+			say = "Although ordinary maid business has never been Sirius' job, this is a special case.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,7 +148,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这次就不考虑平时的分工，让大家依次进行说明吧",
+			say = "For this instance, don't worry about the tasks you are usually assigned; let's all take turns explaining.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			dir = 1,
 			actor = 202201,
 			nameColor = "#a9f548",
-			say = "那就拜托各位了。……为了主人……！",
+			say = "Very well. If it's for my Master's sake, I'll do anything...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,7 +181,7 @@ return {
 			dir = 1,
 			actor = 202221,
 			nameColor = "#a9f548",
-			say = "礼仪举止也得一并教呢",
+			say = "First, we will have to teach you proper etiquette.",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -214,7 +214,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，不用那么死板，先从能做和不能做的事情记起吧——",
+			say = "Well, I say there's no need to be overly formal, so let's instead start by teaching her the dos and don'ts, shall we?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			dir = 1,
 			actor = 202081,
 			nameColor = "#a9f548",
-			say = "……指挥室的扫除不要先擦地板，先整理柜子比较好做",
+			say = "When cleaning the Commander's office, you should start with cleaning the shelves, not sweep the floor, as it is easier that way.",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -264,8 +264,8 @@ return {
 			actor = 202201,
 			dir = 1,
 			hideOther = true,
-			actorName = "天狼星&小贝法",
-			say = "原来如此，我明白了",
+			actorName = "Belette & Sirius",
+			say = "I see. That will come handy in the future.",
 			subActors = {
 				{
 					actor = 202181,
@@ -289,7 +289,7 @@ return {
 			dir = 1,
 			actor = 203031,
 			nameColor = "#a9f548",
-			say = "emmm…肯特选手好像没什么可教的？",
+			say = "Emm, I don't think there's anything special that Contestant Kent can teach you.",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -323,7 +323,7 @@ return {
 			dir = 1,
 			actor = 203041,
 			nameColor = "#a9f548",
-			say = "我可以教你一点不会被女仆长发现的摸鱼方法哦？",
+			say = "Maybe I could teach you how to skip work without Belfast finding out about it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -339,7 +339,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……关于这点我也想恭听一下呢",
+			say = "...I would be quite interested in knowing how you do so.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -353,7 +353,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "……………………",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -370,7 +370,7 @@ return {
 			dir = 1,
 			actor = 202201,
 			nameColor = "#a9f548",
-			say = "……深深感受到了自己的不足……",
+			say = "...I feel I have become aware of just how much I don't know...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -385,7 +385,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "天狼星的女仆属性提升了。",
+			say = "Looks like Sirius is getting closer to becoming a made maid.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

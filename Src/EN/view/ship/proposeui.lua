@@ -743,17 +743,15 @@ function slot0.showStoryUI(slot0, slot1)
 				Ship.SetExpression(findTF(slot0.targetActorTF, "fitter"):GetChild(0), slot0.paintingName, "propose")
 			end
 
-			setText(slot0.storyContent, )
+			slot0.onWords = true
 
-			setText.onWords = true
+			slot0:TypeWriter()
 
-			setText:TypeWriter()
+			slot0.TypeWriter.initStory = true
 
-			setText.TypeWriter.initStory = true
+			slot0.TypeWriter:setMask(false)
 
-			setText.TypeWriter:setMask(false)
-
-			if not setText.TypeWriter.setMask.weddingReview then
+			if not slot0.TypeWriter.setMask.weddingReview then
 				slot0:showTip()
 			end
 

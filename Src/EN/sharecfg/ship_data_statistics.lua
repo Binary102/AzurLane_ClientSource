@@ -34531,10 +34531,6 @@ pg.ship_data_statistics = {
 					-3
 				},
 				{
-					1,
-					0
-				},
-				{
 					3,
 					0
 				}
@@ -34771,10 +34767,6 @@ pg.ship_data_statistics = {
 				{
 					0,
 					-3
-				},
-				{
-					1,
-					0
 				},
 				{
 					3,
@@ -35015,10 +35007,6 @@ pg.ship_data_statistics = {
 					-3
 				},
 				{
-					1,
-					0
-				},
-				{
 					3,
 					0
 				}
@@ -35255,10 +35243,6 @@ pg.ship_data_statistics = {
 				{
 					0,
 					-3
-				},
-				{
-					1,
-					0
 				},
 				{
 					3,
@@ -39674,6 +39658,490 @@ pg.ship_data_statistics = {
 		},
 		tag_list = {}
 	},
+	[201131] = {
+		oxy_max = 0,
+		type = 1,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "Grenville",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 2,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 201131,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Grenville",
+		skin_id = 201130,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 2,
+		armor_type = 1,
+		attrs = {
+			245,
+			16,
+			69,
+			31,
+			0,
+			74,
+			0,
+			67,
+			78,
+			43.2,
+			32,
+			53
+		},
+		attrs_growth = {
+			5965,
+			156,
+			682,
+			600,
+			0,
+			368,
+			0,
+			996,
+			1158,
+			0,
+			0,
+			526
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"D",
+			"B",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			108,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			1.25,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[201132] = {
+		oxy_max = 0,
+		type = 1,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "Grenville",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 201132,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Grenville",
+		skin_id = 201130,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 2,
+		armor_type = 1,
+		attrs = {
+			305,
+			20,
+			86,
+			39,
+			0,
+			74,
+			0,
+			67,
+			78,
+			43.2,
+			32,
+			66
+		},
+		attrs_growth = {
+			5965,
+			156,
+			682,
+			600,
+			0,
+			368,
+			0,
+			996,
+			1158,
+			0,
+			0,
+			526
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"D",
+			"B",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			108,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.25,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[201133] = {
+		oxy_max = 0,
+		type = 1,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "Grenville",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 201133,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Grenville",
+		skin_id = 201130,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 2,
+		armor_type = 1,
+		attrs = {
+			424,
+			28,
+			120,
+			54,
+			0,
+			74,
+			0,
+			67,
+			78,
+			43.2,
+			32,
+			92
+		},
+		attrs_growth = {
+			5965,
+			156,
+			682,
+			600,
+			0,
+			368,
+			0,
+			996,
+			1158,
+			0,
+			0,
+			526
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"D",
+			"B",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			108,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.3,
+			1.25,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[201134] = {
+		oxy_max = 0,
+		type = 1,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "Grenville",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 201134,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Grenville",
+		skin_id = 201130,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 2,
+		armor_type = 1,
+		attrs = {
+			603,
+			39,
+			171,
+			76,
+			0,
+			74,
+			0,
+			67,
+			78,
+			43.2,
+			32,
+			132
+		},
+		attrs_growth = {
+			5965,
+			156,
+			682,
+			600,
+			0,
+			368,
+			0,
+			996,
+			1158,
+			0,
+			0,
+			526
+		},
+		attrs_growth_extra = {
+			5965,
+			369,
+			1208,
+			413,
+			0,
+			870,
+			0,
+			-584,
+			-878,
+			0,
+			0,
+			443
+		},
+		grades = {
+			"D",
+			"B",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			108,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.35,
+			1.3,
+			1.05
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
 	[201141] = {
 		oxy_max = 0,
 		type = 1,
@@ -41626,6 +42094,974 @@ pg.ship_data_statistics = {
 		},
 		tag_list = {}
 	},
+	[201261] = {
+		oxy_max = 0,
+		type = 1,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "Matchless",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 2,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 201261,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Matchless",
+		skin_id = 201260,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 2,
+		armor_type = 1,
+		attrs = {
+			271,
+			14,
+			75,
+			29,
+			0,
+			74,
+			0,
+			66,
+			78,
+			43.2,
+			76,
+			55
+		},
+		attrs_growth = {
+			6620,
+			138,
+			742,
+			576,
+			0,
+			366,
+			0,
+			972,
+			1158,
+			0,
+			0,
+			546
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"D",
+			"B",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1,
+			1.4,
+			0.95
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[201262] = {
+		oxy_max = 0,
+		type = 1,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "Matchless",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 201262,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Matchless",
+		skin_id = 201260,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 2,
+		armor_type = 1,
+		attrs = {
+			337,
+			17,
+			94,
+			36,
+			0,
+			74,
+			0,
+			66,
+			78,
+			43.2,
+			76,
+			69
+		},
+		attrs_growth = {
+			6620,
+			138,
+			742,
+			576,
+			0,
+			366,
+			0,
+			972,
+			1158,
+			0,
+			0,
+			546
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"D",
+			"B",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.05,
+			1.4,
+			0.95
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[201263] = {
+		oxy_max = 0,
+		type = 1,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "Matchless",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 201263,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Matchless",
+		skin_id = 201260,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 2,
+		armor_type = 1,
+		attrs = {
+			470,
+			24,
+			131,
+			51,
+			0,
+			74,
+			0,
+			66,
+			78,
+			43.2,
+			76,
+			96
+		},
+		attrs_growth = {
+			6620,
+			138,
+			742,
+			576,
+			0,
+			366,
+			0,
+			972,
+			1158,
+			0,
+			0,
+			546
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"D",
+			"B",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			1.4,
+			0.95
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[201264] = {
+		oxy_max = 0,
+		type = 1,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "Matchless",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 201264,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Matchless",
+		skin_id = 201260,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 2,
+		armor_type = 1,
+		attrs = {
+			668,
+			35,
+			186,
+			72,
+			0,
+			74,
+			0,
+			66,
+			78,
+			43.2,
+			76,
+			137
+		},
+		attrs_growth = {
+			6620,
+			138,
+			742,
+			576,
+			0,
+			366,
+			0,
+			972,
+			1158,
+			0,
+			0,
+			546
+		},
+		attrs_growth_extra = {
+			6610,
+			327,
+			1202,
+			392,
+			0,
+			872,
+			0,
+			-567,
+			-878,
+			0,
+			0,
+			438
+		},
+		grades = {
+			"D",
+			"B",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.45,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[201271] = {
+		oxy_max = 0,
+		type = 1,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "Musketeer",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 2,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 201271,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Musketeer",
+		skin_id = 201270,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 2,
+		armor_type = 1,
+		attrs = {
+			271,
+			14,
+			76,
+			29,
+			0,
+			74,
+			0,
+			65,
+			78,
+			43.2,
+			67,
+			55
+		},
+		attrs_growth = {
+			6620,
+			138,
+			752,
+			572,
+			0,
+			368,
+			0,
+			960,
+			1158,
+			0,
+			0,
+			546
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"D",
+			"B",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1,
+			1.4,
+			0.95
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[201272] = {
+		oxy_max = 0,
+		type = 1,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "Musketeer",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 201272,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Musketeer",
+		skin_id = 201270,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 2,
+		armor_type = 1,
+		attrs = {
+			337,
+			17,
+			95,
+			36,
+			0,
+			74,
+			0,
+			65,
+			78,
+			43.2,
+			67,
+			69
+		},
+		attrs_growth = {
+			6620,
+			138,
+			752,
+			572,
+			0,
+			368,
+			0,
+			960,
+			1158,
+			0,
+			0,
+			546
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"D",
+			"B",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.05,
+			1.4,
+			0.95
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[201273] = {
+		oxy_max = 0,
+		type = 1,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "Musketeer",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 201273,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Musketeer",
+		skin_id = 201270,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 2,
+		armor_type = 1,
+		attrs = {
+			470,
+			24,
+			132,
+			50,
+			0,
+			74,
+			0,
+			65,
+			78,
+			43.2,
+			67,
+			96
+		},
+		attrs_growth = {
+			6620,
+			138,
+			752,
+			572,
+			0,
+			368,
+			0,
+			960,
+			1158,
+			0,
+			0,
+			546
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"D",
+			"B",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			1.4,
+			0.95
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[201274] = {
+		oxy_max = 0,
+		type = 1,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "Musketeer",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 201274,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Musketeer",
+		skin_id = 201270,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 2,
+		armor_type = 1,
+		attrs = {
+			668,
+			35,
+			189,
+			72,
+			0,
+			74,
+			0,
+			65,
+			78,
+			43.2,
+			67,
+			137
+		},
+		attrs_growth = {
+			6620,
+			138,
+			752,
+			572,
+			0,
+			368,
+			0,
+			960,
+			1158,
+			0,
+			0,
+			546
+		},
+		attrs_growth_extra = {
+			6610,
+			327,
+			1200,
+			388,
+			0,
+			870,
+			0,
+			-560,
+			-878,
+			0,
+			0,
+			438
+		},
+		grades = {
+			"D",
+			"B",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.45,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
 	[202011] = {
 		oxy_max = 0,
 		type = 2,
@@ -43105,6 +44541,502 @@ pg.ship_data_statistics = {
 			1.45,
 			1.55,
 			1,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[202081] = {
+		oxy_max = 0,
+		type = 2,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "Sheffield",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 2,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 202081,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Sheffield",
+		skin_id = 202080,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 2,
+		armor_type = 1,
+		attrs = {
+			656,
+			29,
+			55,
+			67,
+			0,
+			67,
+			0,
+			55,
+			29,
+			32,
+			78,
+			21
+		},
+		attrs_growth = {
+			15990,
+			284,
+			544,
+			1304,
+			0,
+			334,
+			0,
+			810,
+			432,
+			0,
+			0,
+			208
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"B",
+			"B",
+			"E",
+			"B",
+			"A",
+			"C"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			211
+		},
+		default_equip_list = {
+			101,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.3,
+			1.4,
+			1.1,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[202082] = {
+		oxy_max = 0,
+		type = 2,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "Sheffield",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 202082,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Sheffield",
+		skin_id = 202080,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 2,
+		armor_type = 1,
+		attrs = {
+			816,
+			36,
+			69,
+			83,
+			0,
+			67,
+			0,
+			55,
+			29,
+			32,
+			78,
+			26
+		},
+		attrs_growth = {
+			15990,
+			284,
+			544,
+			1304,
+			0,
+			334,
+			0,
+			810,
+			432,
+			0,
+			0,
+			208
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"B",
+			"B",
+			"E",
+			"B",
+			"A",
+			"C"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			212
+		},
+		default_equip_list = {
+			101,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.35,
+			1.4,
+			1.1,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[202083] = {
+		oxy_max = 0,
+		type = 2,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "Sheffield",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 202083,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Sheffield",
+		skin_id = 202080,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 2,
+		armor_type = 1,
+		attrs = {
+			1136,
+			50,
+			96,
+			116,
+			0,
+			67,
+			0,
+			55,
+			29,
+			32,
+			78,
+			37
+		},
+		attrs_growth = {
+			15990,
+			284,
+			544,
+			1304,
+			0,
+			334,
+			0,
+			810,
+			432,
+			0,
+			0,
+			208
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"B",
+			"B",
+			"E",
+			"B",
+			"A",
+			"C"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			213
+		},
+		default_equip_list = {
+			101,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.35,
+			1.5,
+			1.1,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[202084] = {
+		oxy_max = 0,
+		type = 2,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "Sheffield",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 202084,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Sheffield",
+		skin_id = 202080,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 2,
+		armor_type = 1,
+		attrs = {
+			1615,
+			72,
+			137,
+			165,
+			0,
+			67,
+			0,
+			55,
+			29,
+			32,
+			78,
+			52
+		},
+		attrs_growth = {
+			15990,
+			284,
+			544,
+			1304,
+			0,
+			334,
+			0,
+			810,
+			432,
+			0,
+			0,
+			208
+		},
+		attrs_growth_extra = {
+			3198,
+			676,
+			1152,
+			556,
+			0,
+			791,
+			0,
+			0,
+			723,
+			0,
+			0,
+			306
+		},
+		grades = {
+			"B",
+			"B",
+			"E",
+			"B",
+			"A",
+			"C"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			214
+		},
+		default_equip_list = {
+			101,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.5,
+			1.5,
+			1.1,
 			0.3
 		},
 		strategy_list = {},
@@ -45594,6 +47526,1990 @@ pg.ship_data_statistics = {
 		},
 		tag_list = {}
 	},
+	[202161] = {
+		oxy_max = 0,
+		type = 2,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "Fiji",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 2,
+		oxy_recovery = 0,
+		rarity = 3,
+		ammo = 0,
+		id = 202161,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Fiji",
+		skin_id = 202160,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 2,
+		armor_type = 1,
+		attrs = {
+			617,
+			29,
+			50,
+			48,
+			0,
+			67,
+			0,
+			59,
+			29,
+			32,
+			11,
+			28
+		},
+		attrs_growth = {
+			15040,
+			290,
+			492,
+			932,
+			0,
+			334,
+			0,
+			870,
+			432,
+			0,
+			0,
+			280
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"C",
+			"C",
+			"E",
+			"B",
+			"B",
+			"C"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			211
+		},
+		default_equip_list = {
+			101,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.45,
+			1.1,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[202162] = {
+		oxy_max = 0,
+		type = 2,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "Fiji",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		rarity = 3,
+		ammo = 0,
+		id = 202162,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Fiji",
+		skin_id = 202160,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 2,
+		armor_type = 1,
+		attrs = {
+			767,
+			36,
+			62,
+			60,
+			0,
+			67,
+			0,
+			59,
+			29,
+			32,
+			11,
+			35
+		},
+		attrs_growth = {
+			15040,
+			290,
+			492,
+			932,
+			0,
+			334,
+			0,
+			870,
+			432,
+			0,
+			0,
+			280
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"C",
+			"C",
+			"E",
+			"B",
+			"B",
+			"C"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			212
+		},
+		default_equip_list = {
+			101,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.25,
+			1.45,
+			1.1,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[202163] = {
+		oxy_max = 0,
+		type = 2,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "Fiji",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		rarity = 3,
+		ammo = 0,
+		id = 202163,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Fiji",
+		skin_id = 202160,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 2,
+		armor_type = 1,
+		attrs = {
+			1068,
+			51,
+			87,
+			83,
+			0,
+			67,
+			0,
+			59,
+			29,
+			32,
+			11,
+			49
+		},
+		attrs_growth = {
+			15040,
+			290,
+			492,
+			932,
+			0,
+			334,
+			0,
+			870,
+			432,
+			0,
+			0,
+			280
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"C",
+			"C",
+			"E",
+			"B",
+			"B",
+			"C"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			213
+		},
+		default_equip_list = {
+			101,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.25,
+			1.55,
+			1.1,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[202164] = {
+		oxy_max = 0,
+		type = 2,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "Fiji",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		rarity = 3,
+		ammo = 0,
+		id = 202164,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Fiji",
+		skin_id = 202160,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 2,
+		armor_type = 1,
+		attrs = {
+			1519,
+			73,
+			124,
+			118,
+			0,
+			67,
+			0,
+			59,
+			29,
+			32,
+			11,
+			70
+		},
+		attrs_growth = {
+			15040,
+			290,
+			492,
+			932,
+			0,
+			334,
+			0,
+			870,
+			432,
+			0,
+			0,
+			280
+		},
+		attrs_growth_extra = {
+			3758,
+			685,
+			1107,
+			617,
+			0,
+			791,
+			0,
+			0,
+			723,
+			0,
+			0,
+			372
+		},
+		grades = {
+			"C",
+			"C",
+			"E",
+			"B",
+			"B",
+			"C"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			214
+		},
+		default_equip_list = {
+			101,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.4,
+			1.55,
+			1.1,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[202171] = {
+		oxy_max = 0,
+		type = 2,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "Jamaica",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 2,
+		oxy_recovery = 0,
+		rarity = 3,
+		ammo = 0,
+		id = 202171,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Jamaica",
+		skin_id = 202170,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 2,
+		armor_type = 1,
+		attrs = {
+			625,
+			29,
+			50,
+			62,
+			0,
+			67,
+			0,
+			58,
+			29,
+			32,
+			67,
+			30
+		},
+		attrs_growth = {
+			15250,
+			288,
+			494,
+			1220,
+			0,
+			332,
+			0,
+			864,
+			432,
+			0,
+			0,
+			294
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"C",
+			"C",
+			"E",
+			"B",
+			"B",
+			"C"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			211
+		},
+		default_equip_list = {
+			101,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.45,
+			1.1,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[202172] = {
+		oxy_max = 0,
+		type = 2,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "Jamaica",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		rarity = 3,
+		ammo = 0,
+		id = 202172,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Jamaica",
+		skin_id = 202170,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 2,
+		armor_type = 1,
+		attrs = {
+			778,
+			36,
+			62,
+			77,
+			0,
+			67,
+			0,
+			58,
+			29,
+			32,
+			67,
+			37
+		},
+		attrs_growth = {
+			15250,
+			288,
+			494,
+			1220,
+			0,
+			332,
+			0,
+			864,
+			432,
+			0,
+			0,
+			294
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"C",
+			"C",
+			"E",
+			"B",
+			"B",
+			"C"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			212
+		},
+		default_equip_list = {
+			101,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.25,
+			1.45,
+			1.1,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[202173] = {
+		oxy_max = 0,
+		type = 2,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "Jamaica",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		rarity = 3,
+		ammo = 0,
+		id = 202173,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Jamaica",
+		skin_id = 202170,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 2,
+		armor_type = 1,
+		attrs = {
+			1083,
+			51,
+			87,
+			108,
+			0,
+			67,
+			0,
+			58,
+			29,
+			32,
+			67,
+			52
+		},
+		attrs_growth = {
+			15250,
+			288,
+			494,
+			1220,
+			0,
+			332,
+			0,
+			864,
+			432,
+			0,
+			0,
+			294
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"C",
+			"C",
+			"E",
+			"B",
+			"B",
+			"C"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			213
+		},
+		default_equip_list = {
+			101,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.25,
+			1.55,
+			1.1,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[202174] = {
+		oxy_max = 0,
+		type = 2,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "Jamaica",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		rarity = 3,
+		ammo = 0,
+		id = 202174,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Jamaica",
+		skin_id = 202170,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 2,
+		armor_type = 1,
+		attrs = {
+			1540,
+			72,
+			124,
+			154,
+			0,
+			67,
+			0,
+			58,
+			29,
+			32,
+			67,
+			74
+		},
+		attrs_growth = {
+			15250,
+			288,
+			494,
+			1220,
+			0,
+			332,
+			0,
+			864,
+			432,
+			0,
+			0,
+			294
+		},
+		attrs_growth_extra = {
+			3810,
+			680,
+			1105,
+			582,
+			0,
+			786,
+			0,
+			0,
+			723,
+			0,
+			0,
+			388
+		},
+		grades = {
+			"C",
+			"C",
+			"E",
+			"B",
+			"B",
+			"C"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			214
+		},
+		default_equip_list = {
+			101,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.4,
+			1.55,
+			1.1,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[202181] = {
+		oxy_max = 0,
+		type = 2,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "Belfast",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 2,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 202181,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Belfast",
+		skin_id = 202180,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 2,
+		armor_type = 1,
+		attrs = {
+			558,
+			29,
+			61,
+			53,
+			0,
+			68,
+			0,
+			55,
+			28,
+			32,
+			89,
+			36
+		},
+		attrs_growth = {
+			13610,
+			290,
+			602,
+			1040,
+			0,
+			340,
+			0,
+			810,
+			408,
+			0,
+			0,
+			354
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"C",
+			"B",
+			"E",
+			"B",
+			"C",
+			"C"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			211
+		},
+		default_equip_list = {
+			101,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.4,
+			1,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[202182] = {
+		oxy_max = 0,
+		type = 2,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "Belfast",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 202182,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Belfast",
+		skin_id = 202180,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 2,
+		armor_type = 1,
+		attrs = {
+			694,
+			36,
+			76,
+			66,
+			0,
+			68,
+			0,
+			55,
+			28,
+			32,
+			89,
+			45
+		},
+		attrs_growth = {
+			13610,
+			290,
+			602,
+			1040,
+			0,
+			340,
+			0,
+			810,
+			408,
+			0,
+			0,
+			354
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"C",
+			"B",
+			"E",
+			"B",
+			"C",
+			"C"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			212
+		},
+		default_equip_list = {
+			101,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.25,
+			1.4,
+			1,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[202183] = {
+		oxy_max = 0,
+		type = 2,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "Belfast",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 202183,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Belfast",
+		skin_id = 202180,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 2,
+		armor_type = 1,
+		attrs = {
+			966,
+			51,
+			106,
+			92,
+			0,
+			68,
+			0,
+			55,
+			28,
+			32,
+			89,
+			63
+		},
+		attrs_growth = {
+			13610,
+			290,
+			602,
+			1040,
+			0,
+			340,
+			0,
+			810,
+			408,
+			0,
+			0,
+			354
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"C",
+			"B",
+			"E",
+			"B",
+			"C",
+			"C"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			213
+		},
+		default_equip_list = {
+			101,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.25,
+			1.5,
+			1,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[202184] = {
+		oxy_max = 0,
+		type = 2,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "Belfast",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 202184,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Belfast",
+		skin_id = 202180,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 2,
+		armor_type = 1,
+		attrs = {
+			1375,
+			73,
+			151,
+			131,
+			0,
+			68,
+			0,
+			55,
+			28,
+			32,
+			89,
+			89
+		},
+		attrs_growth = {
+			13610,
+			290,
+			602,
+			1040,
+			0,
+			340,
+			0,
+			810,
+			408,
+			0,
+			0,
+			354
+		},
+		attrs_growth_extra = {
+			2722,
+			685,
+			1187,
+			611,
+			0,
+			800,
+			0,
+			0,
+			732,
+			0,
+			0,
+			423
+		},
+		grades = {
+			"C",
+			"B",
+			"E",
+			"B",
+			"C",
+			"C"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			214
+		},
+		default_equip_list = {
+			101,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.4,
+			1.5,
+			1,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[202191] = {
+		oxy_max = 0,
+		type = 2,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "Newcastle ",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 2,
+		oxy_recovery = 0,
+		rarity = 3,
+		ammo = 0,
+		id = 202191,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Newcastle",
+		skin_id = 202190,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 2,
+		armor_type = 1,
+		attrs = {
+			637,
+			27,
+			53,
+			66,
+			0,
+			66,
+			0,
+			55,
+			29,
+			32,
+			78,
+			20
+		},
+		attrs_growth = {
+			15535,
+			264,
+			524,
+			1288,
+			0,
+			326,
+			0,
+			810,
+			432,
+			0,
+			0,
+			202
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"B",
+			"B",
+			"E",
+			"B",
+			"A",
+			"C"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			211
+		},
+		default_equip_list = {
+			101,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.15,
+			1.4,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[202192] = {
+		oxy_max = 0,
+		type = 2,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "Newcastle ",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		rarity = 3,
+		ammo = 0,
+		id = 202192,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Newcastle",
+		skin_id = 202190,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 2,
+		armor_type = 1,
+		attrs = {
+			792,
+			34,
+			66,
+			82,
+			0,
+			66,
+			0,
+			55,
+			29,
+			32,
+			78,
+			25
+		},
+		attrs_growth = {
+			15535,
+			264,
+			524,
+			1288,
+			0,
+			326,
+			0,
+			810,
+			432,
+			0,
+			0,
+			202
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"B",
+			"B",
+			"E",
+			"B",
+			"A",
+			"C"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			212
+		},
+		default_equip_list = {
+			101,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.25,
+			1.15,
+			1.4,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[202193] = {
+		oxy_max = 0,
+		type = 2,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "Newcastle ",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		rarity = 3,
+		ammo = 0,
+		id = 202193,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Newcastle",
+		skin_id = 202190,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 2,
+		armor_type = 1,
+		attrs = {
+			1103,
+			47,
+			92,
+			114,
+			0,
+			66,
+			0,
+			55,
+			29,
+			32,
+			78,
+			35
+		},
+		attrs_growth = {
+			15535,
+			264,
+			524,
+			1288,
+			0,
+			326,
+			0,
+			810,
+			432,
+			0,
+			0,
+			202
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"B",
+			"B",
+			"E",
+			"B",
+			"A",
+			"C"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			213
+		},
+		default_equip_list = {
+			101,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.25,
+			1.25,
+			1.4,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[202194] = {
+		oxy_max = 0,
+		type = 2,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "Newcastle ",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		rarity = 3,
+		ammo = 0,
+		id = 202194,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Newcastle",
+		skin_id = 202190,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 2,
+		armor_type = 1,
+		attrs = {
+			1569,
+			67,
+			132,
+			163,
+			0,
+			66,
+			0,
+			55,
+			29,
+			32,
+			78,
+			50
+		},
+		attrs_growth = {
+			15535,
+			264,
+			524,
+			1288,
+			0,
+			326,
+			0,
+			810,
+			432,
+			0,
+			0,
+			202
+		},
+		attrs_growth_extra = {
+			3105,
+			629,
+			1136,
+			561,
+			0,
+			777,
+			0,
+			0,
+			723,
+			0,
+			0,
+			294
+		},
+		grades = {
+			"B",
+			"B",
+			"E",
+			"B",
+			"A",
+			"C"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			214
+		},
+		default_equip_list = {
+			101,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.4,
+			1.25,
+			1.4,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
 	[202211] = {
 		oxy_max = 0,
 		type = 2,
@@ -46585,6 +50501,502 @@ pg.ship_data_statistics = {
 			1.1,
 			0.8,
 			0.8,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[202201] = {
+		oxy_max = 0,
+		type = 2,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "Sirius",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		rarity = 5,
+		ammo = 0,
+		id = 202201,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Sirius",
+		skin_id = 202200,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 2,
+		armor_type = 1,
+		attrs = {
+			647,
+			28,
+			30,
+			74,
+			0,
+			67,
+			0,
+			58,
+			28,
+			32.25,
+			70,
+			40
+		},
+		attrs_growth = {
+			15770,
+			276,
+			294,
+			1444,
+			0,
+			332,
+			0,
+			858,
+			414,
+			0,
+			0,
+			396
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"B",
+			"D",
+			"E",
+			"B",
+			"A",
+			"C"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			211
+		},
+		default_equip_list = {
+			100,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			1.2,
+			1.3,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[202202] = {
+		oxy_max = 0,
+		type = 2,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "Sirius",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		rarity = 5,
+		ammo = 0,
+		id = 202202,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Sirius",
+		skin_id = 202200,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 2,
+		armor_type = 1,
+		attrs = {
+			805,
+			35,
+			37,
+			92,
+			0,
+			67,
+			0,
+			58,
+			28,
+			32.25,
+			70,
+			50
+		},
+		attrs_growth = {
+			15770,
+			276,
+			294,
+			1444,
+			0,
+			332,
+			0,
+			858,
+			414,
+			0,
+			0,
+			396
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"B",
+			"D",
+			"E",
+			"B",
+			"A",
+			"C"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			212
+		},
+		default_equip_list = {
+			100,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.2,
+			1.3,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[202203] = {
+		oxy_max = 0,
+		type = 2,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "Sirius",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		rarity = 5,
+		ammo = 0,
+		id = 202203,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Sirius",
+		skin_id = 202200,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 2,
+		armor_type = 1,
+		attrs = {
+			1120,
+			49,
+			52,
+			128,
+			0,
+			67,
+			0,
+			58,
+			28,
+			32.25,
+			70,
+			70
+		},
+		attrs_growth = {
+			15770,
+			276,
+			294,
+			1444,
+			0,
+			332,
+			0,
+			858,
+			414,
+			0,
+			0,
+			396
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"B",
+			"D",
+			"E",
+			"B",
+			"A",
+			"C"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			213
+		},
+		default_equip_list = {
+			100,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.3,
+			1.3,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[202204] = {
+		oxy_max = 0,
+		type = 2,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "Sirius",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 6,
+		oxy_recovery = 0,
+		rarity = 5,
+		ammo = 0,
+		id = 202204,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Sirius",
+		skin_id = 202200,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 2,
+		armor_type = 1,
+		attrs = {
+			1593,
+			69,
+			74,
+			182,
+			0,
+			67,
+			0,
+			58,
+			28,
+			32.25,
+			70,
+			99
+		},
+		attrs_growth = {
+			15770,
+			276,
+			294,
+			1444,
+			0,
+			332,
+			0,
+			858,
+			414,
+			0,
+			0,
+			396
+		},
+		attrs_growth_extra = {
+			3154,
+			654,
+			696,
+			484,
+			0,
+			786,
+			0,
+			-13,
+			726,
+			0,
+			0,
+			437
+		},
+		grades = {
+			"B",
+			"D",
+			"E",
+			"B",
+			"A",
+			"C"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			214
+		},
+		default_equip_list = {
+			100,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.35,
+			1.3,
+			1.3,
 			0.3
 		},
 		strategy_list = {},
@@ -54340,6 +58752,490 @@ pg.ship_data_statistics = {
 			674,
 			0,
 			246,
+			677,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"S",
+			"E",
+			"E",
+			"D",
+			"D",
+			"A"
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			3,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.35,
+			2,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[205071] = {
+		oxy_max = 0,
+		type = 5,
+		personality = 2,
+		backyard_speed = "0.2",
+		name = "Duke of York",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		rarity = 5,
+		ammo = 0,
+		id = 205071,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Duke of York",
+		skin_id = 205070,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 2,
+		armor_type = 3,
+		attrs = {
+			1334,
+			82,
+			0,
+			42,
+			0,
+			56,
+			0,
+			22,
+			7,
+			28.3,
+			73,
+			0
+		},
+		attrs_growth = {
+			32540,
+			808,
+			0,
+			820,
+			0,
+			280,
+			0,
+			330,
+			108,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"S",
+			"E",
+			"E",
+			"D",
+			"D",
+			"A"
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.05,
+			2,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[205072] = {
+		oxy_max = 0,
+		type = 5,
+		personality = 2,
+		backyard_speed = "0.2",
+		name = "Duke of York",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		rarity = 5,
+		ammo = 0,
+		id = 205072,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Duke of York",
+		skin_id = 205070,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 2,
+		armor_type = 3,
+		attrs = {
+			1659,
+			102,
+			0,
+			52,
+			0,
+			56,
+			0,
+			22,
+			7,
+			28.3,
+			73,
+			0
+		},
+		attrs_growth = {
+			32540,
+			808,
+			0,
+			820,
+			0,
+			280,
+			0,
+			330,
+			108,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"S",
+			"E",
+			"E",
+			"D",
+			"D",
+			"A"
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			2,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[205073] = {
+		oxy_max = 0,
+		type = 5,
+		personality = 2,
+		backyard_speed = "0.2",
+		name = "Duke of York",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		rarity = 5,
+		ammo = 0,
+		id = 205073,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Duke of York",
+		skin_id = 205070,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 2,
+		armor_type = 3,
+		attrs = {
+			2310,
+			143,
+			0,
+			73,
+			0,
+			56,
+			0,
+			22,
+			7,
+			28.3,
+			73,
+			0
+		},
+		attrs_growth = {
+			32540,
+			808,
+			0,
+			820,
+			0,
+			280,
+			0,
+			330,
+			108,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"S",
+			"E",
+			"E",
+			"D",
+			"D",
+			"A"
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			3,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			2,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[205074] = {
+		oxy_max = 0,
+		type = 5,
+		personality = 2,
+		backyard_speed = "0.2",
+		name = "Duke of York",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 6,
+		oxy_recovery = 0,
+		rarity = 5,
+		ammo = 0,
+		id = 205074,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Duke of York",
+		skin_id = 205070,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 2,
+		armor_type = 3,
+		attrs = {
+			3286,
+			203,
+			0,
+			104,
+			0,
+			56,
+			0,
+			22,
+			7,
+			28.3,
+			73,
+			0
+		},
+		attrs_growth = {
+			32540,
+			808,
+			0,
+			820,
+			0,
+			280,
+			0,
+			330,
+			108,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			17892,
+			875,
+			0,
+			568,
+			0,
+			658,
+			0,
+			240,
 			677,
 			0,
 			0,
@@ -126814,6 +131710,10 @@ pg.ship_data_statistics = {
 		201122,
 		201123,
 		201124,
+		201131,
+		201132,
+		201133,
+		201134,
 		201141,
 		201142,
 		201143,
@@ -126830,6 +131730,14 @@ pg.ship_data_statistics = {
 		201232,
 		201233,
 		201234,
+		201261,
+		201262,
+		201263,
+		201264,
+		201271,
+		201272,
+		201273,
+		201274,
 		202011,
 		202012,
 		202013,
@@ -126842,6 +131750,10 @@ pg.ship_data_statistics = {
 		202032,
 		202033,
 		202034,
+		202081,
+		202082,
+		202083,
+		202084,
 		202111,
 		202112,
 		202113,
@@ -126862,6 +131774,22 @@ pg.ship_data_statistics = {
 		202152,
 		202153,
 		202154,
+		202161,
+		202162,
+		202163,
+		202164,
+		202171,
+		202172,
+		202173,
+		202174,
+		202181,
+		202182,
+		202183,
+		202184,
+		202191,
+		202192,
+		202193,
+		202194,
 		202211,
 		202212,
 		202213,
@@ -126870,6 +131798,10 @@ pg.ship_data_statistics = {
 		202222,
 		202223,
 		202224,
+		202201,
+		202202,
+		202203,
+		202204,
 		203011,
 		203012,
 		203013,
@@ -126934,6 +131866,10 @@ pg.ship_data_statistics = {
 		205062,
 		205063,
 		205064,
+		205071,
+		205072,
+		205073,
+		205074,
 		206011,
 		206012,
 		206013,

@@ -12,7 +12,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"Cross Star of Spring\n\n<size=30>4: Caught Red-Handed?</size>",
+					"Sea Star on Shore\n\n<size=30>4: Caught Red-Handed?</size>",
 					1
 				}
 			}

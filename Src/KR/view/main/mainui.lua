@@ -959,7 +959,6 @@ function slot0.ShowAssistInfo(slot0, slot1, slot2)
 
 				return
 			end)
-			Ship.SetExpression(findTF(slot0._paintingTF, "fitter"):GetChild(0), findTF(slot0._paintingTF, "fitter"))
 			slot0:initShipChat()
 
 			return

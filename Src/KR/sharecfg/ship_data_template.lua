@@ -2735,6 +2735,7 @@ pg.ship_data_template = {
 		},
 		buff_list_display = {
 			1001,
+			4081,
 			20051
 		},
 		hide_buff_list = {
@@ -2781,6 +2782,7 @@ pg.ship_data_template = {
 		},
 		buff_list_display = {
 			1001,
+			4081,
 			20051
 		},
 		hide_buff_list = {
@@ -2827,6 +2829,7 @@ pg.ship_data_template = {
 		},
 		buff_list_display = {
 			1001,
+			4081,
 			20051
 		},
 		hide_buff_list = {
@@ -2873,6 +2876,7 @@ pg.ship_data_template = {
 		},
 		buff_list_display = {
 			1001,
+			4081,
 			20052
 		},
 		hide_buff_list = {

@@ -10069,6 +10069,21 @@ pg.item_data_template = {
 			0
 		}
 	},
+	[59773] = {
+		limit = "[]",
+		display_effect = "",
+		other_resource_cost = "[]",
+		usage = "usage_undefined",
+		other_item_cost = "[]",
+		usage_arg = "[]",
+		id = 59773,
+		compose_number = 0,
+		target_id = 0,
+		open_ui = {
+			0,
+			0
+		}
+	},
 	[59900] = {
 		limit = "[]",
 		display_effect = "",
@@ -10783,6 +10798,7 @@ pg.item_data_template = {
 		59759,
 		59760,
 		59762,
+		59773,
 		59900,
 		60011,
 		60012

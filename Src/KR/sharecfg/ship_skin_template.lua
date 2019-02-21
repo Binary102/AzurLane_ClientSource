@@ -2556,6 +2556,108 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[101249] = {
+		name = "심즈·改 ",
+		ship_group = 10124,
+		illustrator2 = -1,
+		bg = "",
+		bullet_skin_secondary = "",
+		painting = "ximusi_g",
+		painting_hx = "",
+		air_bullet_skin = "",
+		shop_type_id = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		isSwimsuit = 0,
+		skin_type = 2,
+		id = 101249,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "ximusi_g",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		desc = "저기 말야, 지휘관~ 아무리 나한테 잘해줘도 장난은 그만두지 않을 거라구~ 아, 그래도 다른 애들한테도 살짝 장난쳐줬으면 한다면, 한 번 고려는 해 볼게~ 히히히. ",
+		voice_actor = 98,
+		air_bomb_skin = "",
+		illustrator = 1,
+		rarity_bg = "",
+		isHX = 0,
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.726,
+					0.923,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.744,
+					0.923,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.166,
+					0.062,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.738,
+					0.892,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				40,
+				{
+					{
+						"smoke",
+						{
+							-0.487,
+							2.324,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[101250] = {
 		name = "허먼",
 		ship_group = 10125,
@@ -3221,7 +3323,6 @@ pg.ship_skin_template = {
 		l2d_para_range = "",
 		lip_sync_gain = 0,
 		show_skin = "stand",
-		l2d_voice_calibrate = "",
 		tag = {
 			1,
 			2
@@ -3300,6 +3401,11 @@ pg.ship_skin_template = {
 			"touch_body",
 			"touch_special",
 			"touch_head"
+		},
+		l2d_voice_calibrate = {
+			login = 2.2,
+			propose = 2.5,
+			home = 2.2
 		}
 	},
 	[101270] = {
@@ -4867,7 +4973,7 @@ pg.ship_skin_template = {
 		main_UI_FX = "",
 		shop_id = 0,
 		desc = "플레처급 구축함 - 멀라니 (DD-528) ",
-		voice_actor = -1,
+		voice_actor = 166,
 		air_bomb_skin = "",
 		illustrator = -1,
 		rarity_bg = "",
@@ -4962,7 +5068,7 @@ pg.ship_skin_template = {
 		main_UI_FX = "",
 		shop_id = 70156,
 		desc = "왜 그래 지휘관? 이상한 거라도 본 듯한 눈으로……아아, 이 옷은 이스트 글림에서 교류학습할 때 받은 건데……어, 어때……나한테…어울려? ",
-		voice_actor = -1,
+		voice_actor = 166,
 		air_bomb_skin = "",
 		illustrator = -1,
 		rarity_bg = "",
@@ -6149,7 +6255,7 @@ pg.ship_skin_template = {
 		}
 	},
 	[102089] = {
-		name = "샌디에이고·改",
+		name = "샌디에이고·改 ",
 		ship_group = 10208,
 		illustrator2 = 19,
 		bg = "",
@@ -6171,7 +6277,7 @@ pg.ship_skin_template = {
 		aircraft_skin = "",
 		main_UI_FX = "",
 		shop_id = 0,
-		desc = "에헷☆ 뭔지는 잘 모르겠지만, 샌디에이고가 왠지 굉장히 강해졌어! 지휘관, 이 반짝반짝거리는 '필' 이 보여?",
+		desc = "에헷☆ 뭔지는 잘 모르겠지만, 샌디에이고가 왠지 굉장히 강해졌어! 지휘관, 이 반짝반짝거리는 '필' 이 보여? ",
 		voice_actor = 5,
 		air_bomb_skin = "",
 		illustrator = 1,
@@ -14337,7 +14443,7 @@ pg.ship_skin_template = {
 		}
 	},
 	[201011] = {
-		name = "리틀 오케스트라",
+		name = "리틀 오케스트라 ",
 		ship_group = 20101,
 		illustrator2 = -1,
 		bg = "107",
@@ -14359,7 +14465,7 @@ pg.ship_skin_template = {
 		aircraft_skin = "",
 		main_UI_FX = "",
 		shop_id = 70102,
-		desc = "파티에는 오케스트라가 빠질 수 없지! 자~봐봐, 로열 네이비 구축함들로 편성된, 이 몸이 리더를 맡고 있는 교향악단이 흥을 더 돋궈줄 거야! 그럼 처음은…아아아앗! 망토를 밟았어?!",
+		desc = "파티에는 오케스트라가 빠질 수 없지! 자~ 봐봐, 로열 네이비 구축함들로 편성된, 이 몸이 리더를 맡고 있는 교향악단이 흥을 책임져주지! 그럼 처음은… 아아아앗! 망토를 밟아버렸어?! ",
 		voice_actor = 4,
 		air_bomb_skin = "",
 		illustrator = 15,
@@ -17962,7 +18068,7 @@ pg.ship_skin_template = {
 		}
 	},
 	[202019] = {
-		name = "리엔더·改",
+		name = "리엔더·改 ",
 		ship_group = 20201,
 		illustrator2 = -1,
 		bg = "",
@@ -17984,7 +18090,7 @@ pg.ship_skin_template = {
 		aircraft_skin = "",
 		main_UI_FX = "",
 		shop_id = 0,
-		desc = "안녕하세요, 지휘관님. 앞으로 지도편달 잘 부탁드립니다. ──응? 어라라… 저, 리엔더라구요?",
+		desc = "평안하십니까, 지휘관님. 앞으로 지도편달 잘 부탁드립니다. ……응? 어머머… 저, 리엔더라구요? ",
 		voice_actor = 66,
 		air_bomb_skin = "",
 		illustrator = 1,
@@ -24827,7 +24933,7 @@ pg.ship_skin_template = {
 		main_UI_FX = "",
 		shop_id = 0,
 		desc = "어태커급 항공모함 - 체이서 (HMS Chaser) ",
-		voice_actor = -1,
+		voice_actor = 165,
 		air_bomb_skin = "",
 		illustrator = -1,
 		rarity_bg = "",
@@ -24935,7 +25041,7 @@ pg.ship_skin_template = {
 		main_UI_FX = "",
 		shop_id = 70159,
 		desc = "이 이스트 글림의 옷은 어울릴까? 나, 이글 유니온 출신에 로열 네이비에서 자랐지만, 실은 이스트 글림에도 조금이나마 발자국을 남겼었다고. 그럼, 오리엔탈한 차와 문화에 대해 이야기라도 해볼까, 후후후♪ ",
-		voice_actor = -1,
+		voice_actor = 165,
 		air_bomb_skin = "",
 		illustrator = -1,
 		rarity_bg = "",
@@ -33649,7 +33755,7 @@ pg.ship_skin_template = {
 		main_UI_FX = "",
 		shop_id = 0,
 		desc = "유구모급 구축함 5번함 - 마키나미 ",
-		voice_actor = -1,
+		voice_actor = 165,
 		air_bomb_skin = "",
 		illustrator = -1,
 		rarity_bg = "",
@@ -34927,7 +35033,7 @@ pg.ship_skin_template = {
 		main_UI_FX = "",
 		shop_id = 0,
 		desc = "센다이형 경순양함 3번함 - 나카 ",
-		voice_actor = -1,
+		voice_actor = 167,
 		air_bomb_skin = "",
 		illustrator = -1,
 		rarity_bg = "",
@@ -36542,7 +36648,7 @@ pg.ship_skin_template = {
 		}
 	},
 	[303114] = {
-		name = "학교 로맨티카",
+		name = "학교 로맨티카 ",
 		ship_group = 30311,
 		illustrator2 = -1,
 		bg = "103",
@@ -36564,7 +36670,7 @@ pg.ship_skin_template = {
 		aircraft_skin = "",
 		main_UI_FX = "",
 		shop_id = 70072,
-		desc = "후우……학교생활인가. 소인에겐 아직 새로운 경험이겠군. 머리는 이런 느낌으로 묶는 게 좋겠지……지휘관 나리, 어떤가?",
+		desc = "후우……학교생활인가. 소인에겐 아직 새로운 경험이겠군. 머리는 이런 느낌으로 묶는 게 좋겠지……지휘관 나리, 어떤가? ",
 		voice_actor = 8,
 		air_bomb_skin = "",
 		illustrator = 21,
@@ -60642,6 +60748,7 @@ pg.ship_skin_template = {
 		101173,
 		101179,
 		101240,
+		101249,
 		101250,
 		101251,
 		101259,

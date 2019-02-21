@@ -5273,7 +5273,7 @@ pg.activity_template = {
 				{
 					2019,
 					2,
-					1
+					22
 				},
 				{
 					0,
@@ -5285,7 +5285,7 @@ pg.activity_template = {
 				{
 					2019,
 					2,
-					10
+					28
 				},
 				{
 					23,
@@ -5374,6 +5374,7 @@ pg.activity_template = {
 	[20137] = {
 		mark = 20190214,
 		bg = "",
+		time = "stop",
 		type = 29,
 		config_id = 15,
 		is_show = 0,
@@ -5381,6 +5382,33 @@ pg.activity_template = {
 		id = 20137,
 		config_data = {
 			31201
+		}
+	},
+	[20138] = {
+		mark = 20190221,
+		bg = "",
+		type = 45,
+		config_id = 0,
+		is_show = 1,
+		id = 20138,
+		config_data = {
+			{
+				{
+					59772,
+					18
+				}
+			},
+			8912,
+			{
+				8967,
+				8968,
+				8969,
+				8970,
+				8971,
+				8972,
+				8973
+			},
+			7
 		},
 		time = {
 			timer,
@@ -5388,7 +5416,7 @@ pg.activity_template = {
 				{
 					2019,
 					2,
-					14
+					21
 				},
 				{
 					0,
@@ -5399,8 +5427,8 @@ pg.activity_template = {
 			{
 				{
 					2019,
-					2,
-					21
+					3,
+					7
 				},
 				{
 					23,
@@ -5408,6 +5436,29 @@ pg.activity_template = {
 					59
 				}
 			}
+		},
+		config_client = {
+			{
+				"SHENGDIYAGEGAI1",
+				nil,
+				"SHENGDIYAGEGAI2",
+				nil,
+				"SHENGDIYAGEGAI3",
+				nil,
+				nil,
+				"SHENGDIYAGEGAI4"
+			},
+			{},
+			{
+				1,
+				1,
+				1,
+				1,
+				2,
+				3,
+				9
+			},
+			{}
 		}
 	},
 	[25000] = {
@@ -5836,6 +5887,7 @@ pg.activity_template = {
 		20135,
 		20136,
 		20137,
+		20138,
 		25000,
 		25001,
 		25002,

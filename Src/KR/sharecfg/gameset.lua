@@ -642,7 +642,7 @@ pg.gameset = {
 	},
 	gardroad_count = {
 		key = "gardroad_count",
-		key_value = 3,
+		key_value = 1,
 		description = {
 			{
 				20001,

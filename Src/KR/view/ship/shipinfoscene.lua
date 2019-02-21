@@ -2100,11 +2100,7 @@ function slot0.loadPainting(slot0, slot1)
 		slot0.paintingCode = slot1
 
 		if slot0.paintingCode then
-			setPaintingPrefabAsync(slot0.painting, slot0.paintingCode, slot0.paintingFrameName, function ()
-				Ship.SetExpression(findTF(slot0.painting, "fitter"):GetChild(0), slot0.paintingCode)
-
-				return
-			end)
+			setPaintingPrefabAsync(slot0.painting, slot0.paintingCode, slot0.paintingFrameName)
 		end
 	end
 

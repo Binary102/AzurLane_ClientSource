@@ -230,7 +230,7 @@ ERROR_MESSAGE = {
 }
 SPECIAL_DATE = {}
 CRI_BG_FLAG = false
-OPEN_ESCORT = false
+OPEN_ESCORT = true
 OPEN_REMASTER = false
 AUTO_LINKLINK = false
 

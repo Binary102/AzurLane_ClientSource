@@ -10,6 +10,7 @@ function slot0.onRegister(slot0)
 	slot0:resetEquipSceneIndex()
 
 	slot0.nextTipAoutBattleTime = PlayerPrefs.GetInt("AutoBattleTip", 0)
+	slot0._everyplayInited = false
 end
 
 function slot0.SetLive2dEnable(slot0, slot1)
@@ -165,6 +166,21 @@ end
 
 function slot0.isTipAutoBattle(slot0)
 	return slot0.nextTipAoutBattleTime < pg.TimeMgr.GetInstance():GetServerTime()
+end
+
+function slot0.initEveryPlay(slot0)
+	if PLATFORM_CODE ~= PLATFORM_CH then
+		return
+	end
+
+	if not slot0._everyplayInited then
+		print("Init Everyplay")
+		Everyplay.Initialize()
+
+		slot0._everyplayInited = true
+	else
+		print("Everyplay had inited")
+	end
 end
 
 return slot0

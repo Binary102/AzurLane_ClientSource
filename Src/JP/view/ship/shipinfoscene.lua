@@ -6683,25 +6683,7 @@ function slot7(slot0, slot1)
 			slot4 = slot0.paintingCode
 			slot5 = slot0.paintingFrameName
 
-			function slot6()
-				slot0 = Ship
-				slot0 = slot0.SetExpression
-				slot1 = findTF
-				slot2 = slot0
-				slot2 = slot2.painting
-				slot3 = "fitter"
-				slot1 = slot1(slot2, slot3)
-				slot2 = slot1
-				slot1 = slot1.GetChild
-				slot3 = 0
-				slot1 = slot1(slot2, slot3)
-				slot2 = slot0
-				slot2 = slot2.paintingCode
-
-				slot0(slot1, slot2)
-			end
-
-			slot2(slot3, slot4, slot5, slot6)
+			slot2(slot3, slot4, slot5)
 		end
 	end
 end

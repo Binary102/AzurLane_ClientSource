@@ -2484,6 +2484,105 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[101249] = {
+		name = "シムス改",
+		bullet_skin_main = "",
+		ship_group = 10124,
+		illustrator2 = -1,
+		bullet_skin_secondary = "",
+		painting = "ximusi_g",
+		air_bullet_skin = "",
+		shop_type_id = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		skin_type = 2,
+		id = 101249,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "ximusi_g",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		desc = "指揮官さぁ～いくらわたしを良くしてもいたずらをやめさせられないよ～あ、でもぉ、ほかの子にちょっとイタズラさせたかったら考えられなくもないぞーヒヒヒ",
+		voice_actor = 98,
+		air_bomb_skin = "",
+		illustrator = 1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.726,
+					0.923,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.744,
+					0.923,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.166,
+					0.062,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.738,
+					0.892,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				40,
+				{
+					{
+						"smoke",
+						{
+							-0.487,
+							2.324,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[101250] = {
 		name = "ハムマン",
 		bullet_skin_main = "",
@@ -3128,7 +3227,6 @@ pg.ship_skin_template = {
 		l2d_para_range = "",
 		lip_sync_gain = 0,
 		show_skin = "stand",
-		l2d_voice_calibrate = "",
 		tag = {
 			1,
 			2
@@ -3207,6 +3305,11 @@ pg.ship_skin_template = {
 			"touch_body",
 			"touch_special",
 			"touch_head"
+		},
+		l2d_voice_calibrate = {
+			login = 2.2,
+			propose = 2.5,
+			home = 2.2
 		}
 	},
 	[101270] = {
@@ -4816,7 +4919,7 @@ pg.ship_skin_template = {
 		main_UI_FX = "",
 		shop_id = 0,
 		desc = "フレッチャー級駆逐艦・マラニー（DD-528)",
-		voice_actor = -1,
+		voice_actor = 166,
 		air_bomb_skin = "",
 		illustrator = -1,
 		rarity_bg = "",
@@ -4908,7 +5011,7 @@ pg.ship_skin_template = {
 		main_UI_FX = "",
 		shop_id = 70156,
 		desc = "どうしたの指揮官？変なものでも見たような目で……ああ、この衣装は東煌で交流学習した時に手に入れたものだけど……ど、どうかな……わたしに…似合ってる？",
-		voice_actor = -1,
+		voice_actor = 166,
 		air_bomb_skin = "",
 		illustrator = -1,
 		rarity_bg = "",
@@ -22164,7 +22267,7 @@ pg.ship_skin_template = {
 		aircraft_skin = "",
 		main_UI_FX = "",
 		shop_id = 0,
-		desc = "この私を見つけ出すとは…あなたも力<†フォース†>の持ち主ですね？ヨーク級魔導重巡洋砲艦ヨークです。これも運命です。共に戦いましょう",
+		desc = "これは昇格<†アップグレード†>だけではなく、覚醒<†アウェイクニング†>！運命などこの私が変えてみせますわ！",
 		voice_actor = 23,
 		air_bomb_skin = "",
 		illustrator = 18,
@@ -25412,7 +25515,7 @@ pg.ship_skin_template = {
 		main_UI_FX = "",
 		shop_id = 0,
 		desc = "アタッカー級航空母艦・チェイサー（HMS Chaser）",
-		voice_actor = -1,
+		voice_actor = 165,
 		air_bomb_skin = "",
 		illustrator = -1,
 		rarity_bg = "",
@@ -25517,7 +25620,7 @@ pg.ship_skin_template = {
 		main_UI_FX = "",
 		shop_id = 70159,
 		desc = "この東煌（どんふぁん）の衣装は似合ってるのかな？わたくし、ユニオン生まれでロイヤル育ちだけど、実は東煌にもちょっとした足跡を残したわよ？では、オリエンタルなお茶と文化についておしゃべりでもしようかしら、ふふふ♪",
-		voice_actor = -1,
+		voice_actor = 165,
 		air_bomb_skin = "",
 		illustrator = -1,
 		rarity_bg = "",
@@ -35148,7 +35251,7 @@ pg.ship_skin_template = {
 		main_UI_FX = "",
 		shop_id = 0,
 		desc = "夕雲型駆逐艦五番艦・巻波",
-		voice_actor = -1,
+		voice_actor = 165,
 		air_bomb_skin = "",
 		illustrator = -1,
 		rarity_bg = "",
@@ -36687,7 +36790,7 @@ pg.ship_skin_template = {
 		main_UI_FX = "",
 		shop_id = 0,
 		desc = "川内型軽巡洋艦三番艦・那珂",
-		voice_actor = -1,
+		voice_actor = 167,
 		air_bomb_skin = "",
 		illustrator = -1,
 		rarity_bg = "",
@@ -43775,7 +43878,7 @@ pg.ship_skin_template = {
 		aircraft_skin = "",
 		main_UI_FX = "",
 		shop_id = 0,
-		desc = "これで強くなったというのなら……指揮官、何をジロジロ見ていますか？まだやるべき仕事があるでしょう？",
+		desc = "これで強くなったというのなら……指揮官、何をジロジロ見ているのですか？まだやるべき仕事があるでしょう？",
 		voice_actor = 15,
 		air_bomb_skin = "",
 		illustrator = 12,
@@ -61283,6 +61386,7 @@ pg.ship_skin_template = {
 		101173,
 		101179,
 		101240,
+		101249,
 		101250,
 		101251,
 		101259,

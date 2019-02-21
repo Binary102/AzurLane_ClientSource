@@ -655,6 +655,18 @@ pg.voice_actor_CN = {
 	{
 		actor_name = "内田彩",
 		code = 164
+	},
+	{
+		actor_name = "田辺留依",
+		code = 165
+	},
+	{
+		actor_name = "大亀あすか",
+		code = 166
+	},
+	{
+		actor_name = "藤村鼓乃美",
+		code = 167
 	}
 }
 

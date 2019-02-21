@@ -161,12 +161,13 @@ function slot0.execute(slot0, slot1)
 			system = slot6,
 			data = slot5,
 			score = slot11,
-			key = (slot17 % 49993 * slot2.token % 49993) % 49993 + slot2.statistics._totalTime,
+			key = math.floor((slot17 % 49993 * slot2.token % 49993) % 49993 + slot2.statistics._totalTime),
 			statistics = slot16,
 			kill_id_list = slot2.statistics.kill_id_list,
 			total_time = slot2.statistics._totalTime,
 			bot_percentage = slot2.statistics._botPercentage,
-			extra_param = slot15
+			extra_param = slot15,
+			file_check = tostring(math.floor((GetBattleCheck() % 88824 * slot2.token % 88824) % (88824 + math.floor((slot17 % 49993 * slot2.token % 49993) % 49993 + slot2.statistics._totalTime))))
 		}, 40004, function (slot0)
 			if slot0.result == 0 then
 				if slot0 == SYSTEM_PERFORM then
@@ -328,6 +329,8 @@ function slot0.execute(slot0, slot1)
 
 					slot10:updateChallenge(slot5)
 				end
+			elseif slot0.result == 1030 then
+				pg.TipsMgr:GetInstance():ShowTips(i18n("md5_error"))
 			else
 				print("stage_finishStage error--" .. slot0.result)
 				pg.TipsMgr:GetInstance():ShowTips(errorTip("stage_finishStage", slot0.result))

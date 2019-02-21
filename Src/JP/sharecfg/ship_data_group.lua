@@ -687,15 +687,24 @@ pg.ship_data_group = {
 	[26] = {
 		nationality = 1,
 		hide = 0,
-		trans_skin = 0,
+		trans_skin = 101249,
 		handbook_type = 0,
 		redirect_id = 101,
 		code = 26,
 		type = 1,
 		group_type = 10124,
-		trans_type = 0,
-		trans_radar_chart = {},
-		trans_skill = {},
+		trans_type = 1,
+		trans_radar_chart = {
+			"B",
+			"C",
+			"E",
+			"B",
+			"B",
+			"C"
+		},
+		trans_skill = {
+			4081
+		},
 		description = {
 			{
 				"支援要請（ランダム出現）",

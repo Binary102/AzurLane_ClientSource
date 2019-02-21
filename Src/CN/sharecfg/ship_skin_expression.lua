@@ -3812,6 +3812,37 @@ pg.ship_skin_expression = {
 		battle = "4",
 		login = "3",
 		detail = ""
+	},
+	ximusi_g = {
+		default = "",
+		feeling3 = "3",
+		main_1 = "3",
+		touch = "3",
+		expedition = "",
+		win_mvp = "2",
+		home = "",
+		unlock = "",
+		touch2 = "1",
+		mail = "",
+		painting = "ximusi_g",
+		mission = "2",
+		main_2 = "",
+		lose = "1",
+		main_3 = "",
+		feeling1 = "1",
+		profile = "",
+		feeling4 = "",
+		feeling5 = "3",
+		propose = "",
+		hp_warning = "",
+		upgrade = "3",
+		mission_complete = "3",
+		headtouch = "",
+		feeling2 = "",
+		skill = "",
+		battle = "",
+		login = "",
+		detail = ""
 	}
 }
 

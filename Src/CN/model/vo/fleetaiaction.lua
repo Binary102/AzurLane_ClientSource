@@ -54,9 +54,11 @@ function slot0.applyToFleet(slot0, slot1, slot2, slot3)
 			end)
 		end
 	elseif slot0.target then
-		if not _.detect(slot0.cellUpdates, function (slot0)
+		if not (_.detect(slot0.cellUpdates, function (slot0)
+			return slot0.row == slot0.target.row and slot0.column == slot0.target.column and slot0.flag ~= 1
+		end) or _.detect(slot0.cellUpdates, function (slot0)
 			return slot0.row == slot0.target.row and slot0.column == slot0.target.column
-		end) then
+		end)) then
 			return false, "can not find cell update at: [" .. slot0.target.row .. ", " .. slot0.target.column .. "]"
 		end
 

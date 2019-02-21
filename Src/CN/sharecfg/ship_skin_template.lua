@@ -2587,6 +2587,105 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[101249] = {
+		name = "西姆斯.改",
+		bullet_skin_main = "",
+		ship_group = 10124,
+		illustrator2 = -1,
+		bullet_skin_secondary = "",
+		painting = "ximusi_g",
+		air_bullet_skin = "",
+		shop_type_id = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		skin_type = 2,
+		id = 101249,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "ximusi_g",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		desc = "指挥官，就算对我这么好，我还是不会停止捉弄你的哦？啊，不过，要是你想让我帮你捉弄别人的话，我也可以考虑一下哦~",
+		voice_actor = 98,
+		air_bomb_skin = "",
+		illustrator = 1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.726,
+					0.923,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.744,
+					0.923,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.166,
+					0.062,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.738,
+					0.892,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				40,
+				{
+					{
+						"smoke",
+						{
+							-0.487,
+							2.324,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[101250] = {
 		name = "哈曼",
 		bullet_skin_main = "",
@@ -3231,7 +3330,6 @@ pg.ship_skin_template = {
 		l2d_para_range = "",
 		lip_sync_gain = 0,
 		show_skin = "stand",
-		l2d_voice_calibrate = "",
 		tag = {
 			1,
 			2
@@ -3309,6 +3407,11 @@ pg.ship_skin_template = {
 			"mail",
 			"touch_body",
 			"touch_head"
+		},
+		l2d_voice_calibrate = {
+			login = 2.2,
+			propose = 2.5,
+			home = 2.2
 		}
 	},
 	[101270] = {
@@ -4918,7 +5021,7 @@ pg.ship_skin_template = {
 		main_UI_FX = "",
 		shop_id = 0,
 		desc = "弗莱彻级驱逐舰—马拉尼，舷号DD-528",
-		voice_actor = -1,
+		voice_actor = 166,
 		air_bomb_skin = "",
 		illustrator = -1,
 		rarity_bg = "",
@@ -5010,7 +5113,7 @@ pg.ship_skin_template = {
 		main_UI_FX = "",
 		shop_id = 70156,
 		desc = "怎么了指挥官，用奇怪的眼神看着我？唔，这身衣服是在东煌交流学习时得到的…怎、怎么样…适合我吗？",
-		voice_actor = -1,
+		voice_actor = 166,
 		air_bomb_skin = "",
 		illustrator = -1,
 		rarity_bg = "",
@@ -25978,7 +26081,7 @@ pg.ship_skin_template = {
 		main_UI_FX = "",
 		shop_id = 0,
 		desc = "攻击者级航空母舰—追赶者，舷号D32",
-		voice_actor = -1,
+		voice_actor = 165,
 		air_bomb_skin = "",
 		illustrator = -1,
 		rarity_bg = "",
@@ -26083,7 +26186,7 @@ pg.ship_skin_template = {
 		main_UI_FX = "",
 		shop_id = 70159,
 		desc = "这一身东煌的装扮，是不是很适合我呢？虽然生在白鹰，长在皇家，但我也在东煌留下过痕迹哦～让我们来聊聊东煌的茶与文化吧？呵呵～",
-		voice_actor = -1,
+		voice_actor = 165,
 		air_bomb_skin = "",
 		illustrator = -1,
 		rarity_bg = "",
@@ -35605,7 +35708,7 @@ pg.ship_skin_template = {
 		main_UI_FX = "",
 		shop_id = 0,
 		desc = "{namecode:35}级驱逐舰五番舰—{namecode:162}",
-		voice_actor = -1,
+		voice_actor = 165,
 		air_bomb_skin = "",
 		illustrator = -1,
 		rarity_bg = "",
@@ -37144,7 +37247,7 @@ pg.ship_skin_template = {
 		main_UI_FX = "",
 		shop_id = 0,
 		desc = "{namecode:38}级轻巡洋舰三番舰—{namecode:40}",
-		voice_actor = -1,
+		voice_actor = 167,
 		air_bomb_skin = "",
 		illustrator = -1,
 		rarity_bg = "",
@@ -61702,6 +61805,7 @@ pg.ship_skin_template = {
 		101173,
 		101179,
 		101240,
+		101249,
 		101250,
 		101251,
 		101259,

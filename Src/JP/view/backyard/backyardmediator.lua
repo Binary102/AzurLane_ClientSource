@@ -172,7 +172,7 @@ function slot0.startUpBackyard(slot0, slot1)
 
 			setActive(slot0, true)
 			setParent(slot0, slot0.viewComponent._tf)
-			tf(slot0):SetAsFirstSibling()
+			tf(slot0):SetSiblingIndex(1)
 			pg.backyard:registerMediator(BackyardMainMediator.New(slot1))
 			slot1:init()
 		end
@@ -189,16 +189,6 @@ function slot0.startUpBackyard(slot0, slot1)
 			return
 		end)
 	end
-
-	slot0.viewComponent:initLoading(function ()
-		if slot0 then
-			return slot0:getProgress()
-		else
-			return 0
-		end
-
-		return
-	end)
 
 	getProxy(DormProxy).floor = slot0.contextData.floor
 

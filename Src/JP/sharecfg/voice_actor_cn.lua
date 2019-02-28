@@ -667,6 +667,10 @@ pg.voice_actor_CN = {
 	{
 		actor_name = "藤村鼓乃美",
 		code = 167
+	},
+	{
+		actor_name = "諸星すみれ",
+		code = 168
 	}
 }
 

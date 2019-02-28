@@ -116,6 +116,10 @@ function slot0.SetStageID(slot0, slot1)
 		setActive(slot8, false)
 		setActive(slot9, false)
 		setWidgetText(slot7, i18n("battle_result_defeat_all_enemys", slot4))
+	elseif slot3 == 5 then
+		setActive(slot8, false)
+		setActive(slot9, false)
+		setWidgetText(slot7, i18n("battle_preCombatLayer_damage_before_end"))
 	end
 
 	setActive(slot0.guideDesc, slot2.guide_desc and #slot2.guide_desc > 0)
@@ -359,8 +363,12 @@ function slot0.switchToEditMode(slot0)
 			slot0:swtichToPreviewMode()
 		end)
 	end, SFX_CONFIRM)
-	slot0:EnableAddGrid(Fleet.MAIN)
-	slot0:EnableAddGrid(Fleet.VANGUARD)
+
+	if slot0.contextData.system ~= SYSTEM_HP_SHARE_ACT_BOSS then
+		slot0:EnableAddGrid(Fleet.MAIN)
+		slot0:EnableAddGrid(Fleet.VANGUARD)
+	end
+
 	slot1(slot0._characterList.vanguard)
 	slot1(slot0._characterList.main)
 
@@ -657,14 +665,18 @@ function slot0.enabledCharacter(slot0, slot1, slot2, slot3, slot4)
 
 			pg.DelegateInfo.Add(slot0, GetOrAddComponent(slot5, "UILongPressTrigger").onLongPressed)
 			GetOrAddComponent(slot5, "UILongPressTrigger").onLongPressed:AddListener(function ()
-				slot0:emit(PreCombatMediator.OPEN_SHIP_INFO, slot1.id, slot0._currentFleetVO)
+				if slot0.contextData.system ~= SYSTEM_HP_SHARE_ACT_BOSS then
+					slot0:emit(PreCombatMediator.OPEN_SHIP_INFO, slot1.id, slot0._currentFleetVO)
+				end
 
 				return
 			end)
 			pg.DelegateInfo.Add(slot0, GetOrAddComponent(slot5, "ModelDrag").onModelClick)
 			GetOrAddComponent(slot5, "ModelDrag").onModelClick:AddListener(function ()
-				playSoundEffect(SFX_UI_CLICK)
-				playSoundEffect:emit(PreCombatMediator.CHANGE_FLEET_SHIP, playSoundEffect, slot0._currentFleetVO, )
+				if slot0.contextData.system ~= SYSTEM_HP_SHARE_ACT_BOSS then
+					playSoundEffect(SFX_UI_CLICK)
+					playSoundEffect:emit(PreCombatMediator.CHANGE_FLEET_SHIP, playSoundEffect, slot0._currentFleetVO, )
+				end
 
 				return
 			end)
@@ -699,7 +711,7 @@ function slot0.enabledCharacter(slot0, slot1, slot2, slot3, slot4)
 					return
 				end
 
-				if slot1.position.x > UnityEngine.Screen.width * 0.65 or slot1.position.y < UnityEngine.Screen.height * 0.25 then
+				if slot1.contextData.system ~= SYSTEM_HP_SHARE_ACT_BOSS and (slot1.position.x > UnityEngine.Screen.width * 0.65 or slot1.position.y < UnityEngine.Screen.height * 0.25) then
 					if not slot1._currentFleetVO:canRemove(slot2) then
 						slot3, slot4 = slot1._currentFleetVO:getShipPos(slot2)
 
@@ -772,7 +784,7 @@ function slot0.displayFleetInfo(slot0)
 end
 
 function slot0.SetFleetStepper(slot0)
-	if slot0.contextData.system ~= SYSTEM_DUEL then
+	if slot0.contextData.system ~= SYSTEM_DUEL and slot0.contextData.system ~= SYSTEM_HP_SHARE_ACT_BOSS then
 		SetActive(slot0._nextPage, slot0._curFleetIndex < #slot0._legalFleetIdList)
 		SetActive(slot0._prevPage, slot0._curFleetIndex > 1)
 	else

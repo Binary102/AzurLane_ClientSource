@@ -3344,6 +3344,22 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[13011] = {
+		display = "連装ボフォース40mm機関砲「Hazemeyer」T0設計図",
+		rarity = 4,
+		type = 9,
+		name = "連装ボフォース40mm機関砲「Hazemeyer」T0設計図",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 13011,
+		icon = "Equips/26620",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[15001] = {
 		display = "艦船を退役させることで手に入る勲章。本部に戦力支援を要請することが出来る",
 		rarity = 3,
@@ -16923,7 +16939,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[41443] = {
-		display = "-",
+		display = "0",
 		rarity = 8,
 		type = 1,
 		name = "バレンタインプレゼント",
@@ -58173,6 +58189,48 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[57560] = {
+		display = "一定の確率で下記の設計図を入手できます",
+		rarity = 1,
+		type = 99,
+		name = "ランダム設計図",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 57560,
+		icon = "Props/55000",
+		display_icon = {
+			{
+				2,
+				13011,
+				1
+			},
+			{
+				2,
+				10025,
+				1
+			},
+			{
+				2,
+				10029,
+				1
+			},
+			{
+				2,
+				10030,
+				1
+			},
+			{
+				2,
+				10033,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
 	[59000] = {
 		display = "参加キャラは経験値を獲得できます",
 		rarity = 2,
@@ -58585,6 +58643,22 @@ pg.item_data_statistics = {
 		link_id = 0,
 		id = 59121,
 		icon = "Props/crownPT",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59122] = {
+		display = "「特別演習　超空強襲波」で特別ステージクリアで入手できるポイント。イベント画面右下「累計演習Pt報酬」で各種報酬を入手可能",
+		rarity = 2,
+		type = 98,
+		name = "演習Pt",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 59122,
+		icon = "Props/59122",
 		display_icon = {},
 		price = {},
 		index = {}
@@ -60733,6 +60807,7 @@ pg.item_data_statistics = {
 		13008,
 		13009,
 		13010,
+		13011,
 		15001,
 		15002,
 		15003,
@@ -61915,6 +61990,7 @@ pg.item_data_statistics = {
 		57554,
 		57555,
 		57556,
+		57560,
 		59000,
 		59001,
 		59002,
@@ -61941,6 +62017,7 @@ pg.item_data_statistics = {
 		59119,
 		59120,
 		59121,
+		59122,
 		59601,
 		59602,
 		59603,

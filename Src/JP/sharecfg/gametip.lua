@@ -372,6 +372,10 @@ pg.gametip = {
 		tip = "特殊任務に参加しています",
 		key = "word_shipState_event"
 	},
+	word_shipState_activity = {
+		tip = "この艦は特別作戦編成に編成されています",
+		key = "word_shipState_activity"
+	},
 	word_shipState_sham = {
 		tip = "特殊作戦を遂行しています",
 		key = "word_shipState_sham"
@@ -1089,6 +1093,10 @@ pg.gametip = {
 	battle_preCombatLayer_time_hold = {
 		tip = "$1秒間持ちこたえる",
 		key = "battle_preCombatLayer_time_hold"
+	},
+	battle_preCombatLayer_damage_before_end = {
+		tip = "時間制限内で最大ダメージを狙おう",
+		key = "battle_preCombatLayer_damage_before_end"
 	},
 	battle_preCombatMediator_leastLimit = {
 		tip = "第一艦隊に艦を配置する必要があります",
@@ -2839,6 +2847,10 @@ pg.gametip = {
 	ship_energy_low_warn = {
 		tip = "$1の$2のコンディションが良くない模様。出撃すると親密度が下がり、もらえる経験値が50%になる",
 		key = "ship_energy_low_warn"
+	},
+	ship_energy_low_warn_no_exp = {
+		tip = "編成中の<color=#A9F548FF>$2</color>のコンディションが低い状態になっています。出撃すると<color=#D6341D>親密度が下がってしまいます</color>が、出撃しますか？",
+		key = "ship_energy_low_warn_no_exp"
 	},
 	test_ship_intensify_tip = {
 		tip = "ブリは強化できません",
@@ -4813,12 +4825,9 @@ pg.gametip = {
 						<color=#60a9ff>レア</color>：$4%
 						ノーマル：$5%
 
-						 【期間限定】
-				<color=#fff157>ヴィクトリアス</color>：2.25%<color=#A9F548>(up!)</color>
-					<color=#fff157>  シリアス</color>：2%<color=#A9F548>(up!)</color>
-				<color=#966af6>シェフィールド</color>：2.5%<color=#A9F548>(up!)</color>
-					<color=#966af6>マッチレス</color>：2.5%<color=#A9F548>(up!)</color>
-					<color=#60a9ff>ジャマイカ</color>：5%<color=#A9F548>(up!)</color></size>]],
+						【期間限定】
+					<color=#fff157>シャングリラ</color>：2%<color=#A9F548>(up!)</color>
+					<color=#fff157>エセックス</color>：1.8%<color=#A9F548>(up!)</color></size>]],
 		key = "help_build_4"
 	},
 	help_build_5 = {
@@ -6225,9 +6234,9 @@ pg.gametip = {
 		tip = "SR",
 		key = "word_sr"
 	},
-	world_r = {
+	word_r = {
 		tip = "R",
-		key = "world_r"
+		key = "word_r"
 	},
 	ship_renameShip_error = {
 		tip = "名前変更に失敗しました",
@@ -8656,6 +8665,10 @@ pg.gametip = {
 		tip = "得点",
 		key = "ranking_word_9"
 	},
+	ranking_word_10 = {
+		tip = "演習Pt",
+		key = "ranking_word_10"
+	},
 	spece_illegal_tip = {
 		tip = "名前にスペースを入れることはできません",
 		key = "spece_illegal_tip"
@@ -8932,6 +8945,73 @@ pg.gametip = {
 	md5_error = {
 		tip = "エラーが発生しました。ゲームを再起動してください",
 		key = "md5_error"
+	},
+	world_boss_help = {
+		key = "world_boss_help",
+		tip = {
+			{
+				info = "ルール："
+			},
+			{
+				info = "1.共闘イベントでは、特別ステージを攻略することで「演習Pt」\nを入手し、作戦進捗を進め、「特別演習ゲージ」を減らすことが\n出来ます；"
+			},
+			{
+				info = "2.特別ステージはボスであるエセックスを撃破する・ステージ残\nり時間が0になる・敗北することでステージクリアとなり、\n「演習pt」を獲得できます；"
+			},
+			{
+				info = "3.「演習Pt」はエセックスに与えた総ダメージにより決められま\nす；"
+			},
+			{
+				info = "4.特別演習の作戦進捗は同じサーバーのすべての指揮官が獲得し\nた「演習Pt」の合計数によって左右されます；"
+			},
+			{
+				info = [[
+5.特別ステージは演習の段階（残りゲージ75%・50%・25%）に
+応じて、ボスである「エセックス」の能力が上昇し、砲撃・雷撃
+ダメージが軽減されてしまいますが、航空攻撃によるダメージ
+（攻撃機の魚雷も含む）が上昇します；]]
+			},
+			{
+				info = "6.ゲージが0％になった時、もしくはイベント終了時、達成した\n作戦進捗に応じて、作戦に参加した（ゲージが0%になるまで1回\nでも演習Ptを入手した）指揮官に報酬がメールで配布されます；"
+			},
+			{
+				info = "7.特別ステージは通常の艦隊とは違う「特別演習編成」を使用し\nます（イベントページの「編成」で編成可能）；"
+			},
+			{
+				info = [[
+8.特別演習編成に下記の対象艦を編成した場合、ステージクリア
+時入手する「演習Pt」が上昇します；
+    シャングリラ 演習Pt+20%
+    インディペンデンス 演習Pt+10%]]
+			},
+			{
+				info = "9.イベント期間では、個人で獲得した演習Ptの累計数に応じて、\n軽空母「インディペンデンス」などを含む「Pt累計報酬」を入手\nすることが出来ます；"
+			},
+			{
+				info = "10. 特別ステージでは指揮官経験値・オフニャ経験値・艦船\n経験値・熟練度を入手することができません；"
+			},
+			{
+				info = "11. 特別ステージでは疲労度は正常に増減されます；"
+			},
+			{
+				info = "12.ゲージが0%になっても、引き続き特殊ステージに挑戦し、\n「演習Pt」を入手することができます；"
+			},
+			{
+				info = "13.「Pt累計報酬」の受取期限は3/13（水）23:59までとなりま\nす；"
+			}
+		}
+	},
+	world_boss_tip = {
+		tip = "「<color=#7e7e7f>$1</color>」が作戦進捗に<color=#8299bc>$2</color>Ptを貢献しました！ ",
+		key = "world_boss_tip"
+	},
+	world_boss_award_limit = {
+		tip = "残り<color=#FFDE00FF>$1%</color>以下で開放 ",
+		key = "world_boss_award_limit"
+	},
+	backyard_is_loading = {
+		tip = "ただいま家具を準備しています…",
+		key = "backyard_is_loading"
 	}
 }
 

@@ -4269,7 +4269,7 @@ pg.ship_skin_template = {
 		main_UI_FX = "",
 		shop_id = 0,
 		desc = "フレッチャー級駆逐艦・ヘイゼルウッド（DD-531)",
-		voice_actor = -1,
+		voice_actor = 161,
 		air_bomb_skin = "",
 		illustrator = -1,
 		rarity_bg = "",
@@ -4733,7 +4733,7 @@ pg.ship_skin_template = {
 		main_UI_FX = "",
 		shop_id = 0,
 		desc = "フレッチャー級駆逐艦・キンバリー（DD-521)",
-		voice_actor = -1,
+		voice_actor = 168,
 		air_bomb_skin = "",
 		illustrator = -1,
 		rarity_bg = "",
@@ -4825,7 +4825,7 @@ pg.ship_skin_template = {
 		main_UI_FX = "",
 		shop_id = 0,
 		desc = "東煌の衣装を着ていると、あの頃のことを思い出しますね…指揮官、ユニオンの衣装と東煌の衣装、どっちのほうが好きですか？",
-		voice_actor = -1,
+		voice_actor = 168,
 		air_bomb_skin = "",
 		illustrator = -1,
 		rarity_bg = "",
@@ -8892,6 +8892,100 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[103061] = {
+		name = "学園でインディちゃんと！",
+		bullet_skin_main = "",
+		ship_group = 10306,
+		illustrator2 = -1,
+		bullet_skin_secondary = "",
+		painting = "botelan_2",
+		air_bullet_skin = "",
+		shop_type_id = 4,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "103",
+		skin_type = 0,
+		id = 103061,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "botelan_2",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70164,
+		desc = "指揮官見て見て、私の手作り「ぬいぐるみインディちゃん」ですよ！とっても可愛いと思いません！？手芸部の部活動での自信作です！",
+		voice_actor = 10,
+		air_bomb_skin = "",
+		illustrator = 10,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.069,
+					0.936,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.149,
+					0.103,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.045,
+					0.896,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.703,
+							2.275,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[103069] = {
 		name = "ポートランド改",
 		bullet_skin_main = "",
@@ -9028,6 +9122,113 @@ pg.ship_skin_template = {
 		show_skin = "stand",
 		l2d_voice_calibrate = "",
 		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.876,
+					1.689,
+					0
+				}
+			},
+			vicegun = {
+				{
+					-0.034,
+					2.917,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					-0.034,
+					2.917,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-1.18,
+							1.53,
+							0
+						}
+					}
+				}
+			},
+			{
+				30,
+				{
+					{
+						"smoke",
+						{
+							1.16,
+							1.21,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[103071] = {
+		name = "学園でお姉ちゃんと……",
+		bullet_skin_main = "",
+		ship_group = 10307,
+		illustrator2 = -1,
+		bullet_skin_secondary = "",
+		painting = "bolisi_2",
+		air_bullet_skin = "",
+		shop_type_id = 4,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "103",
+		skin_type = 0,
+		id = 103071,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "bolisi_2",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70165,
+		desc = "学園生活…お姉ちゃんと指揮官がいるといい、よね…",
+		voice_actor = 7,
+		air_bomb_skin = "",
+		illustrator = 10,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
 		live2d_offset = {
 			0,
 			0,
@@ -13843,6 +14044,350 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[107220] = {
+		name = "インディペンデンス",
+		bullet_skin_main = "",
+		ship_group = 10722,
+		illustrator2 = -1,
+		bullet_skin_secondary = "",
+		painting = "duli",
+		air_bullet_skin = "",
+		shop_type_id = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		skin_type = -1,
+		id = 107220,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "duli",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		desc = "インディペンデンス級航空母艦・インディペンデンス（CVL-22)",
+		voice_actor = 130,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					1.129,
+					0.685,
+					0
+				}
+			},
+			plane = {
+				{
+					1.465,
+					0.75,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.647,
+							2.225,
+							-0.25
+						}
+					}
+				}
+			}
+		}
+	},
+	[107221] = {
+		name = "此方の学園へ",
+		bullet_skin_main = "",
+		ship_group = 10722,
+		illustrator2 = -1,
+		bullet_skin_secondary = "",
+		painting = "duli_2",
+		air_bullet_skin = "",
+		shop_type_id = 4,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "103",
+		skin_type = 0,
+		id = 107221,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "duli_2",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70163,
+		desc = "ここが学園…か。ふぅ…先生に報告する前に、まずは荷物を――",
+		voice_actor = 130,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					0.924,
+					1.132,
+					0
+				}
+			},
+			plane = {
+				{
+					0.914,
+					1.198,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.573,
+							2.346,
+							-0.25
+						}
+					}
+				}
+			}
+		}
+	},
+	[107380] = {
+		name = "シャングリラ",
+		bullet_skin_main = "",
+		ship_group = 10738,
+		illustrator2 = -1,
+		bullet_skin_secondary = "",
+		painting = "xianggelila",
+		air_bullet_skin = "",
+		shop_type_id = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		skin_type = -1,
+		id = 107380,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "xianggelila",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		desc = "エセックス級航空母艦・シャングリラ（CV-38)",
+		voice_actor = 161,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					1.269,
+					0.955,
+					0
+				}
+			},
+			plane = {
+				{
+					1.456,
+					0.862,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.517,
+							2.402,
+							-0.25
+						}
+					}
+				}
+			}
+		}
+	},
+	[107381] = {
+		name = "ユートピアの蒐集家",
+		bullet_skin_main = "",
+		ship_group = 10738,
+		illustrator2 = -1,
+		bullet_skin_secondary = "",
+		painting = "xianggelila_2",
+		air_bullet_skin = "",
+		shop_type_id = 9,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "110",
+		skin_type = 0,
+		id = 107381,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "xianggelila_2",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70162,
+		desc = "指揮官、私の「ユートピア」へようこそ。ここにあるのは全て自慢のコレクション――さて、この私から一度説明をいたしましょうか？",
+		voice_actor = 161,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					0.83,
+					0.694,
+					0
+				}
+			},
+			plane = {
+				{
+					1.045,
+					0.675,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.612,
+							2.709,
+							-0.38
+						}
+					}
+				}
+			}
+		}
+	},
 	[108010] = {
 		name = "デイス",
 		bullet_skin_main = "",
@@ -16457,7 +17002,7 @@ pg.ship_skin_template = {
 		main_UI_FX = "",
 		shop_id = 0,
 		desc = "G級駆逐艦・グレンヴィル（H03)",
-		voice_actor = -1,
+		voice_actor = 62,
 		air_bomb_skin = "",
 		illustrator = -1,
 		rarity_bg = "",
@@ -46514,7 +47059,7 @@ pg.ship_skin_template = {
 		main_UI_FX = "",
 		shop_id = 0,
 		desc = "1936B型駆逐艦-Z35 ",
-		voice_actor = -1,
+		voice_actor = 123,
 		air_bomb_skin = "",
 		illustrator = -1,
 		rarity_bg = "",
@@ -48240,7 +48785,8 @@ pg.ship_skin_template = {
 			"touch_head"
 		},
 		l2d_voice_calibrate = {
-			propose = 2.5
+			propose = 2.5,
+			main_2 = 5.3
 		}
 	},
 	[403050] = {
@@ -61449,8 +61995,10 @@ pg.ship_skin_template = {
 		103040,
 		103050,
 		103060,
+		103061,
 		103069,
 		103070,
+		103071,
 		103080,
 		103081,
 		103090,
@@ -61499,6 +62047,10 @@ pg.ship_skin_template = {
 		107070,
 		107080,
 		107090,
+		107220,
+		107221,
+		107380,
+		107381,
 		108010,
 		108020,
 		112010,

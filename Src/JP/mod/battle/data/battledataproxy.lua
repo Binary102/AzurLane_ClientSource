@@ -276,6 +276,14 @@ function slot8.CelebrateVictory(slot0, slot1)
 	end
 end
 
+function slot8.GetVanguardBornCoordinate(slot0, slot1)
+	if slot1 == slot0.FRIENDLY_CODE then
+		return slot0._currentStageData.fleetCorrdinate
+	elseif slot1 == slot0.FOE_CODE then
+		return slot0._currentStageData.rivalCorrdinate
+	end
+end
+
 function slot8.GetTotalBounds(slot0)
 	return slot0._totalUpperBound, slot0._totalLowerBound, slot0._totalLeftBound, slot0._totalRightBound
 end
@@ -612,20 +620,12 @@ function slot8.KillNPCTeam(slot0, slot1)
 end
 
 function slot8.SpawnVanguard(slot0, slot1, slot2)
-	slot3 = nil
-
-	if slot2 == slot0.FRIENDLY_CODE then
-		slot3 = slot0._currentStageData.fleetCorrdinate
-	elseif slot2 == slot0.FOE_CODE then
-		slot3 = slot0._currentStageData.rivalCorrdinate
-	end
-
 	slot4 = slot0:generatePlayerUnit(slot1, slot2, BuildVector3(slot3), slot0._commanderBuff)
 
 	slot0:GetFleetByIFF(slot2).AppendPlayerUnit(slot5, slot4)
 	slot0._cldSystem:InitShipCld(slot4)
-	slot0:DispatchEvent(slot2.Event.New(slot3.ADD_UNIT, {
-		type = slot1.UnitType.PLAYER_UNIT,
+	slot0:DispatchEvent(slot1.Event.New(slot2.ADD_UNIT, {
+		type = slot0.UnitType.PLAYER_UNIT,
 		unit = slot4
 	}))
 

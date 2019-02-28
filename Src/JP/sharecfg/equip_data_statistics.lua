@@ -2126,7 +2126,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[620] = {
-		name = "SHS ",
+		name = "SHS",
 		type = 10,
 		id = 620,
 		tech = 0,
@@ -3257,7 +3257,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[1260] = {
-		name = "高性能火器管制レーダー ",
+		name = "高性能火器管制レーダー",
 		type = 10,
 		id = 1260,
 		tech = 0,
@@ -6270,7 +6270,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[2800] = {
-		name = "94式高射装置 ",
+		name = "94式高射装置",
 		type = 10,
 		id = 2800,
 		tech = 0,
@@ -6970,7 +6970,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[3120] = {
-		name = "改良型シュノーケル ",
+		name = "改良型シュノーケル",
 		type = 10,
 		id = 3120,
 		tech = 0,
@@ -7161,7 +7161,7 @@ pg.equip_data_statistics = {
 		id = 4000,
 		tech = 1,
 		nationality = 2,
-		speciality = "対潜 ",
+		speciality = "対潜",
 		range = 18,
 		ambush_extra = 0,
 		value_2 = 0,
@@ -7217,7 +7217,7 @@ pg.equip_data_statistics = {
 		type = 14,
 		id = 4020,
 		tech = 2,
-		speciality = "対潜 ",
+		speciality = "対潜",
 		range = 18,
 		scatter = "5",
 		ambush_extra = 0,
@@ -7275,7 +7275,7 @@ pg.equip_data_statistics = {
 		type = 14,
 		id = 4040,
 		tech = 3,
-		speciality = "対潜 ",
+		speciality = "対潜",
 		range = 18,
 		scatter = "5",
 		ambush_extra = 0,
@@ -7360,7 +7360,7 @@ pg.equip_data_statistics = {
 		type = 14,
 		id = 4100,
 		tech = 1,
-		speciality = "対潜 ",
+		speciality = "対潜",
 		range = 20,
 		scatter = "6",
 		ambush_extra = 0,
@@ -7418,7 +7418,7 @@ pg.equip_data_statistics = {
 		type = 14,
 		id = 4120,
 		tech = 2,
-		speciality = "対潜 ",
+		speciality = "対潜",
 		range = 20,
 		scatter = "6",
 		ambush_extra = 0,
@@ -7503,7 +7503,7 @@ pg.equip_data_statistics = {
 		type = 14,
 		id = 4140,
 		tech = 3,
-		speciality = "対潜 ",
+		speciality = "対潜",
 		range = 20,
 		scatter = "6",
 		ambush_extra = 0,
@@ -7624,7 +7624,7 @@ pg.equip_data_statistics = {
 		type = 15,
 		id = 4200,
 		tech = 1,
-		speciality = "対潜 ",
+		speciality = "対潜",
 		range = 22,
 		scatter = "5",
 		ambush_extra = 0,
@@ -7682,7 +7682,7 @@ pg.equip_data_statistics = {
 		type = 15,
 		id = 4220,
 		tech = 2,
-		speciality = "対潜 ",
+		speciality = "対潜",
 		range = 22,
 		scatter = "5",
 		ambush_extra = 0,
@@ -7767,7 +7767,7 @@ pg.equip_data_statistics = {
 		type = 15,
 		id = 4240,
 		tech = 3,
-		speciality = "対潜 ",
+		speciality = "対潜",
 		range = 22,
 		scatter = "5",
 		ambush_extra = 0,
@@ -7888,7 +7888,7 @@ pg.equip_data_statistics = {
 		type = 15,
 		id = 4300,
 		tech = 1,
-		speciality = "対潜 ",
+		speciality = "対潜",
 		range = 25,
 		scatter = "6",
 		ambush_extra = 0,
@@ -7946,7 +7946,7 @@ pg.equip_data_statistics = {
 		type = 15,
 		id = 4320,
 		tech = 2,
-		speciality = "対潜 ",
+		speciality = "対潜",
 		range = 25,
 		scatter = "6",
 		ambush_extra = 0,
@@ -8031,7 +8031,7 @@ pg.equip_data_statistics = {
 		type = 15,
 		id = 4340,
 		tech = 3,
-		speciality = "対潜 ",
+		speciality = "対潜",
 		range = 25,
 		scatter = "6",
 		ambush_extra = 0,
@@ -9403,7 +9403,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[5500] = {
-		name = "潜水艦用550mm24V魚雷 ",
+		name = "潜水艦用550mm24V魚雷",
 		type = 13,
 		id = 5500,
 		tech = 1,
@@ -9461,7 +9461,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[5520] = {
-		name = "潜水艦用550mm24V魚雷 ",
+		name = "潜水艦用550mm24V魚雷",
 		type = 13,
 		id = 5520,
 		tech = 2,
@@ -9546,7 +9546,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[5540] = {
-		name = "潜水艦用550mm24V魚雷 ",
+		name = "潜水艦用550mm24V魚雷",
 		type = 13,
 		id = 5540,
 		tech = 3,
@@ -10913,7 +10913,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[7320] = {
-		name = "130mm副砲Mle1932 ",
+		name = "130mm副砲Mle1932",
 		type = 1,
 		id = 7320,
 		tech = 0,
@@ -11005,7 +11005,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[7340] = {
-		name = "潜水艦用203mm連装砲Mle1924 ",
+		name = "潜水艦用203mm連装砲Mle1924",
 		type = 3,
 		id = 7340,
 		tech = 0,
@@ -16409,7 +16409,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[17260] = {
-		name = "F4U（VF-17中隊） ",
+		name = "F4U（VF-17中隊）",
 		type = 7,
 		id = 17260,
 		tech = 0,
@@ -17230,6 +17230,169 @@ pg.equip_data_statistics = {
 		},
 		property_rate = {}
 	},
+	[18060] = {
+		name = "TBDデバステイター（VT-8中隊）",
+		type = 8,
+		id = 18060,
+		tech = 0,
+		speciality = "雷撃",
+		range = 90,
+		scatter = "0",
+		ambush_extra = 0,
+		value_2 = 45,
+		icon = "18060",
+		value_1 = "112 x 2",
+		attribute_2 = "air",
+		avoid_extra = 0,
+		rarity = 5,
+		angle = 90,
+		nationality = 1,
+		ammo = "通常弾",
+		descrip = "かのミッドウェイ海戦で空母ホーネットに配属された、ジョン・ウォルドロン少佐が率いる攻撃機中隊 ",
+		value_3 = 0,
+		attribute_1 = "damage",
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {
+			18060
+		},
+		skill_id = {
+			6320
+		},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {}
+	},
+	[18061] = {
+		base = 18060,
+		id = 18061,
+		descrip = "",
+		value_1 = "129 x 2",
+		skill_id = {
+			6321
+		},
+		weapon_id = {
+			18061
+		},
+		property_rate = {}
+	},
+	[18062] = {
+		base = 18060,
+		id = 18062,
+		descrip = "",
+		value_1 = "146 x 2",
+		skill_id = {
+			6322
+		},
+		weapon_id = {
+			18062
+		},
+		property_rate = {}
+	},
+	[18063] = {
+		base = 18060,
+		id = 18063,
+		descrip = "",
+		value_1 = "163 x 2",
+		skill_id = {
+			6323
+		},
+		weapon_id = {
+			18063
+		},
+		property_rate = {}
+	},
+	[18064] = {
+		base = 18060,
+		id = 18064,
+		descrip = "",
+		value_1 = "180 x 2",
+		skill_id = {
+			6324
+		},
+		weapon_id = {
+			18064
+		},
+		property_rate = {}
+	},
+	[18065] = {
+		base = 18060,
+		id = 18065,
+		descrip = "",
+		value_1 = "197 x 2",
+		skill_id = {
+			6325
+		},
+		weapon_id = {
+			18065
+		},
+		property_rate = {}
+	},
+	[18066] = {
+		base = 18060,
+		id = 18066,
+		descrip = "",
+		value_1 = "214 x 2",
+		skill_id = {
+			6326
+		},
+		weapon_id = {
+			18066
+		},
+		property_rate = {}
+	},
+	[18067] = {
+		base = 18060,
+		id = 18067,
+		descrip = "",
+		value_1 = "231 x 2",
+		skill_id = {
+			6327
+		},
+		weapon_id = {
+			18067
+		},
+		property_rate = {}
+	},
+	[18068] = {
+		base = 18060,
+		id = 18068,
+		descrip = "",
+		value_1 = "247 x 2",
+		skill_id = {
+			6328
+		},
+		weapon_id = {
+			18068
+		},
+		property_rate = {}
+	},
+	[18069] = {
+		base = 18060,
+		id = 18069,
+		descrip = "",
+		value_1 = "264 x 2",
+		skill_id = {
+			6329
+		},
+		weapon_id = {
+			18069
+		},
+		property_rate = {}
+	},
+	[18070] = {
+		base = 18060,
+		id = 18070,
+		descrip = "",
+		value_1 = "281 x 2",
+		skill_id = {
+			6330
+		},
+		weapon_id = {
+			18070
+		},
+		property_rate = {}
+	},
 	[18100] = {
 		name = "TBFアベンジャー",
 		type = 8,
@@ -17695,7 +17858,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[19060] = {
-		name = "SBD（マクラスキー隊） ",
+		name = "SBD（マクラスキー隊）",
 		type = 9,
 		id = 19060,
 		tech = 0,
@@ -23976,7 +24139,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[26600] = {
-		name = "連装ボフォース40mm機関砲STAAG ",
+		name = "連装ボフォース40mm機関砲STAAG",
 		speciality = "対空",
 		tech = 0,
 		type = 6,
@@ -24094,6 +24257,128 @@ pg.equip_data_statistics = {
 		value_1 = "96/回",
 		weapon_id = {
 			26610
+		},
+		property_rate = {}
+	},
+	[26620] = {
+		name = "連装ボフォース40mm機関砲「Hazemeyer」",
+		speciality = "対空",
+		tech = 0,
+		type = 6,
+		rarity = 5,
+		id = 26620,
+		angle = 360,
+		scatter = "0",
+		ambush_extra = 0,
+		value_2 = 45,
+		icon = "26620",
+		value_1 = "38/回",
+		attribute_2 = "antiaircraft",
+		avoid_extra = 0,
+		range = 30,
+		nationality = 2,
+		attribute_3 = "hit",
+		ammo = "通常弾",
+		descrip = "0",
+		value_3 = 5,
+		attribute_1 = "damage",
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {
+			26620
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {}
+	},
+	[26621] = {
+		base = 26620,
+		id = 26621,
+		value_1 = "43/回",
+		weapon_id = {
+			26621
+		},
+		property_rate = {}
+	},
+	[26622] = {
+		base = 26620,
+		id = 26622,
+		value_1 = "48/回",
+		weapon_id = {
+			26622
+		},
+		property_rate = {}
+	},
+	[26623] = {
+		base = 26620,
+		id = 26623,
+		value_1 = "54/回",
+		weapon_id = {
+			26623
+		},
+		property_rate = {}
+	},
+	[26624] = {
+		base = 26620,
+		id = 26624,
+		value_1 = "60/回",
+		weapon_id = {
+			26624
+		},
+		property_rate = {}
+	},
+	[26625] = {
+		base = 26620,
+		id = 26625,
+		value_1 = "66/回",
+		weapon_id = {
+			26625
+		},
+		property_rate = {}
+	},
+	[26626] = {
+		base = 26620,
+		id = 26626,
+		value_1 = "72/回",
+		weapon_id = {
+			26626
+		},
+		property_rate = {}
+	},
+	[26627] = {
+		base = 26620,
+		id = 26627,
+		value_1 = "78/回",
+		weapon_id = {
+			26627
+		},
+		property_rate = {}
+	},
+	[26628] = {
+		base = 26620,
+		id = 26628,
+		value_1 = "84/回",
+		weapon_id = {
+			26628
+		},
+		property_rate = {}
+	},
+	[26629] = {
+		base = 26620,
+		id = 26629,
+		value_1 = "90/回",
+		weapon_id = {
+			26629
+		},
+		property_rate = {}
+	},
+	[26630] = {
+		base = 26620,
+		id = 26630,
+		value_1 = "96/回",
+		weapon_id = {
+			26630
 		},
 		property_rate = {}
 	},
@@ -25351,7 +25636,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[28060] = {
-		name = "ソードフィッシュ（818中隊） ",
+		name = "ソードフィッシュ（818中隊）",
 		type = 8,
 		id = 28060,
 		tech = 0,
@@ -43738,6 +44023,51 @@ pg.equip_data_statistics = {
 		},
 		property_rate = {}
 	},
+	[60391] = {
+		name = "0",
+		type = 99,
+		nationality = 0,
+		speciality = "なし",
+		range = 0,
+		angle = 0,
+		tech = 1,
+		ambush_extra = 0,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "",
+		avoid_extra = 0,
+		rarity = 1,
+		descrip = "外观空袭展示用",
+		scatter = "0",
+		ammo = "なし",
+		value_3 = 0,
+		id = 60391,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {
+			60391
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {}
+	},
+	[60392] = {
+		id = 60392,
+		base = 60391,
+		weapon_id = {
+			60392
+		},
+		property_rate = {}
+	},
+	[60393] = {
+		id = 60393,
+		base = 60391,
+		weapon_id = {
+			60393
+		},
+		property_rate = {}
+	},
 	[61007] = {
 		name = "0",
 		type = 1,
@@ -48173,7 +48503,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90000] = {
-		name = "130mm単装砲Mle1924 ",
+		name = "130mm単装砲Mle1924",
 		type = 1,
 		id = 90000,
 		tech = 1,
@@ -48237,7 +48567,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90020] = {
-		name = "130mm単装砲Mle1924 ",
+		name = "130mm単装砲Mle1924",
 		type = 1,
 		id = 90020,
 		tech = 2,
@@ -48302,7 +48632,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90040] = {
-		name = "130mm単装砲Mle1924 ",
+		name = "130mm単装砲Mle1924",
 		type = 1,
 		id = 90040,
 		tech = 3,
@@ -48394,7 +48724,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90100] = {
-		name = "138.6mm単装砲Mle1929 ",
+		name = "138.6mm単装砲Mle1929",
 		type = 1,
 		id = 90100,
 		tech = 1,
@@ -48486,7 +48816,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90120] = {
-		name = "138.6mm単装砲Mle1929 ",
+		name = "138.6mm単装砲Mle1929",
 		type = 1,
 		id = 90120,
 		tech = 2,
@@ -48614,7 +48944,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90140] = {
-		name = "138.6mm単装砲Mle1929 ",
+		name = "138.6mm単装砲Mle1929",
 		type = 1,
 		id = 90140,
 		tech = 3,
@@ -48742,7 +49072,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90200] = {
-		name = "152mm三連装砲Mle1930 ",
+		name = "152mm三連装砲Mle1930",
 		type = 2,
 		id = 90200,
 		tech = 1,
@@ -48805,7 +49135,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90220] = {
-		name = "152mm三連装砲Mle1930 ",
+		name = "152mm三連装砲Mle1930",
 		type = 2,
 		id = 90220,
 		tech = 2,
@@ -48869,7 +49199,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90240] = {
-		name = "152mm三連装砲Mle1930 ",
+		name = "152mm三連装砲Mle1930",
 		type = 2,
 		id = 90240,
 		tech = 3,
@@ -48960,7 +49290,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90300] = {
-		name = "330mm四連装砲Mle1931 ",
+		name = "330mm四連装砲Mle1931",
 		type = 4,
 		id = 90300,
 		tech = 1,
@@ -49023,7 +49353,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90320] = {
-		name = "330mm四連装砲Mle1931 ",
+		name = "330mm四連装砲Mle1931",
 		type = 4,
 		id = 90320,
 		tech = 2,
@@ -49113,7 +49443,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90340] = {
-		name = "330mm四連装砲Mle1931 ",
+		name = "330mm四連装砲Mle1931",
 		type = 4,
 		id = 90340,
 		tech = 3,
@@ -49239,7 +49569,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90400] = {
-		name = "380mm四連装砲Mle1935 ",
+		name = "380mm四連装砲Mle1935",
 		type = 4,
 		id = 90400,
 		tech = 1,
@@ -49329,7 +49659,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90420] = {
-		name = "380mm四連装砲Mle1935 ",
+		name = "380mm四連装砲Mle1935",
 		type = 4,
 		id = 90420,
 		tech = 2,
@@ -49455,7 +49785,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90440] = {
-		name = "380mm四連装砲Mle1935 ",
+		name = "380mm四連装砲Mle1935",
 		type = 4,
 		id = 90440,
 		tech = 3,
@@ -51329,6 +51659,17 @@ pg.equip_data_statistics = {
 		18044,
 		18045,
 		18046,
+		18060,
+		18061,
+		18062,
+		18063,
+		18064,
+		18065,
+		18066,
+		18067,
+		18068,
+		18069,
+		18070,
 		18100,
 		18101,
 		18102,
@@ -51883,6 +52224,17 @@ pg.equip_data_statistics = {
 		26608,
 		26609,
 		26610,
+		26620,
+		26621,
+		26622,
+		26623,
+		26624,
+		26625,
+		26626,
+		26627,
+		26628,
+		26629,
+		26630,
 		27000,
 		27001,
 		27002,
@@ -53453,6 +53805,9 @@ pg.equip_data_statistics = {
 		60381,
 		60382,
 		60383,
+		60391,
+		60392,
+		60393,
 		61007,
 		61008,
 		61009,

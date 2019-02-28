@@ -40,6 +40,10 @@ function slot0.register(slot0)
 			selectedMin = 1,
 			skipSelect = true,
 			selectedMax = 1,
+			flags = {
+				inSham = true,
+				inActivity = true
+			},
 			ignoredIds = slot2,
 			selectedIds = slot1.contextData.materialShipIds or {},
 			onShip = Ship.canDestroyShip,

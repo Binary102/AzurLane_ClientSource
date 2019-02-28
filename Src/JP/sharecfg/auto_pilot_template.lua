@@ -5714,6 +5714,27 @@ pg.auto_pilot_template = {
 				}
 			}
 		}
+	},
+	[90031] = {
+		id = 90031,
+		name = "随机移动_弹幕",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 1,
+				type = 3,
+				param = {
+					stopCount = 90,
+					Z2 = 80,
+					moveCount = 240,
+					Z1 = 35,
+					duration = -1,
+					X1 = 0,
+					X2 = 5
+				}
+			}
+		}
 	}
 }
 

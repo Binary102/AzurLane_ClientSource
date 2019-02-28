@@ -780,7 +780,13 @@ function slot0.showPainting(slot0)
 
 		slot0.paintingName = slot3:getPainting()
 
-		setPaintingPrefabAsync(slot0._painting, slot0.paintingName, "jiesuan")
+		setPaintingPrefabAsync(slot0._painting, slot0.paintingName, "jiesuan", function ()
+			if findTF(slot0._painting, "fitter").childCount > 0 then
+				Ship.SetExpression(findTF(slot0._painting, "fitter"):GetChild(0), slot0.paintingName, "win_mvp")
+			end
+
+			return
+		end)
 
 		slot1, slot2 = Ship.getWords(slot3.skinId, "win_mvp")
 
@@ -1049,12 +1055,14 @@ function slot0.willExit(slot0)
 
 	slot0._currentVoice = nil
 
-	for slot4 = #slot0._nameTxts, 1, -1 do
-		slot0._nameTxts[slot4]:destroy()
-		table.remove(slot0._nameTxts, slot4)
-	end
+	if slot0._nameTxts then
+		for slot4 = #slot0._nameTxts, 1, -1 do
+			slot0._nameTxts[slot4]:destroy()
+			table.remove(slot0._nameTxts, slot4)
+		end
 
-	slot0._nameTxts = nil
+		slot0._nameTxts = nil
+	end
 
 	return
 end

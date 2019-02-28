@@ -3216,10 +3216,9 @@ function slot5(slot0, slot1, slot2, slot3, slot4)
 	slot6 = slot0.pagesInit
 	slot7 = slot5.name
 	slot6 = slot6[slot7]
-	slot8 = slot0
-	slot7 = slot0.GetDoingTask
-	slot9 = slot1
-	slot7, slot8, slot9 = slot7(slot8, slot9)
+	slot7 = GetDoingTask
+	slot8 = slot1
+	slot7, slot8, slot9 = slot7(slot8)
 	slot11 = slot9
 	slot10 = slot9.isReceive
 	slot10 = slot10(slot11)
@@ -3584,10 +3583,9 @@ function slot5(slot0, slot1)
 		end
 	end
 
-	slot8 = slot0
-	slot7 = slot0.GetDoingTask
-	slot9 = slot2
-	slot7, slot8, slot9 = slot7(slot8, slot9)
+	slot7 = GetDoingTask
+	slot8 = slot2
+	slot7, slot8, slot9 = slot7(slot8)
 	slot10 = getProxy
 	slot11 = ActivityProxy
 	slot10 = slot10(slot11)
@@ -6086,10 +6084,9 @@ function slot6(slot0, slot1, slot2, slot3)
 		slot9[slot10] = slot11
 	end
 
-	slot9 = slot0
-	slot8 = slot0.GetDoingTask
-	slot10 = slot4
-	slot8, slot9, slot10 = slot8(slot9, slot10)
+	slot8 = GetDoingTask
+	slot9 = slot4
+	slot8, slot9, slot10 = slot8(slot9)
 
 	if slot10 then
 		slot11 = setActive
@@ -9071,10 +9068,9 @@ function slot6(slot0)
 	slot5 = slot1.getConfig
 	slot7 = "config_data"
 	slot4 = slot4(slot5(slot6, slot7))
-	slot6 = slot0
-	slot5 = slot0.GetDoingTask
-	slot7 = slot1
-	slot5, slot6, slot7 = slot5(slot6, slot7)
+	slot5 = GetDoingTask
+	slot6 = slot1
+	slot5, slot6, slot7 = slot5(slot6)
 	slot9 = slot7
 	slot8 = slot7.getConfig
 	slot10 = "award_display"
@@ -10621,10 +10617,9 @@ function slot6(slot0)
 		return
 	end
 
-	slot9 = slot0
-	slot8 = slot0.GetDoingTask
-	slot10 = slot5
-	slot8, slot9, slot10 = slot8(slot9, slot10)
+	slot8 = GetDoingTask
+	slot9 = slot5
+	slot8, slot9, slot10 = slot8(slot9)
 	slot12 = slot10
 	slot11 = slot10.getConfig
 	slot13 = "award_display"
@@ -11394,85 +11389,6 @@ function slot6(slot0, slot1)
 	slot2 = true
 
 	return slot2
-end
-
-slot0[slot5] = slot6
-slot5 = "GetDoingTask"
-
-function slot6(slot0, slot1)
-	slot2 = getProxy
-	slot3 = TaskProxy
-	slot2 = slot2(slot3)
-	slot3 = _
-	slot3 = slot3.flatten
-	slot5 = slot1
-	slot4 = slot1.getConfig
-	slot6 = "config_data"
-	slot3 = slot3(slot4(slot5, slot6))
-	slot4, slot5, slot6 = nil
-	slot8 = slot1
-	slot7 = slot1.getConfig
-	slot9 = "type"
-	slot7 = slot7(slot8, slot9)
-	slot8 = ActivityConst
-	slot8 = slot8.ACTIVITY_TYPE_TASKS
-
-	if slot7 == slot8 then
-		slot7 = #slot3
-		slot8 = 1
-		slot9 = -1
-
-		for slot10 = slot7, slot8, slot9 do
-			slot5 = slot3[slot10]
-			slot12 = slot2
-			slot11 = slot2.getTaskById
-			slot13 = slot5
-			slot11 = slot11(slot12, slot13)
-
-			if not slot11 then
-				slot12 = slot2
-				slot11 = slot2.getFinishTaskById
-				slot13 = slot5
-				slot11 = slot11(slot12, slot13)
-				slot6 = slot11
-			end
-
-			if slot6 then
-				slot4 = slot10
-
-				break
-			end
-		end
-	else
-		slot8 = slot2
-		slot7 = slot2.getActivityTask
-		slot9 = slot1
-		slot7, slot8 = slot7(slot8, slot9)
-		slot6 = slot8
-		slot5 = slot7
-		slot7 = table
-		slot7 = slot7.indexof
-		slot8 = slot3
-		slot9 = slot5
-		slot7 = slot7(slot8, slot9)
-		slot4 = slot7
-
-		if not slot6 then
-			slot4 = slot4 - 1
-			slot5 = slot3[slot4]
-			slot8 = slot2
-			slot7 = slot2.getFinishTaskById
-			slot9 = slot5
-			slot7 = slot7(slot8, slot9)
-			slot6 = slot7
-		end
-	end
-
-	slot7 = slot4
-	slot8 = slot5
-	slot9 = slot6
-
-	return slot7, slot8, slot9
 end
 
 slot0[slot5] = slot6

@@ -197,7 +197,7 @@ end
 function slot0.getShipsByFleet(slot0, slot1)
 	slot2 = {}
 
-	for slot6, slot7 in ipairs(slot1.ships) do
+	for slot6, slot7 in ipairs(slot1:getShipIds()) do
 		table.insert(slot2, slot0.data[slot7])
 	end
 
@@ -216,6 +216,26 @@ function slot0.getSortShipsByFleet(slot0, slot1)
 	end
 
 	return Clone(slot2)
+end
+
+function slot0.getShipByTeam(slot0, slot1, slot2)
+	slot3 = {}
+
+	if slot2 == TeamType.Vanguard then
+		for slot7, slot8 in ipairs(slot1.vanguardShips) do
+			table.insert(slot3, slot0.data[slot8])
+		end
+	elseif slot2 == TeamType.Main then
+		for slot7, slot8 in ipairs(slot1.mainShips) do
+			table.insert(slot3, slot0.data[slot8])
+		end
+	elseif slot2 == TeamType.Submarine then
+		for slot7, slot8 in ipairs(slot1.subShips) do
+			table.insert(slot3, slot0.data[slot8])
+		end
+	end
+
+	return Clone(slot3)
 end
 
 function slot0.getShipsByTypes(slot0, slot1)
@@ -546,6 +566,43 @@ function slot0.getChallengeRecommendShip(slot0, slot1, slot2)
 	return slot7
 end
 
+function slot0.getActivityRecommendShips(slot0, slot1, slot2, slot3)
+	slot5 = {}
+
+	for slot9, slot10 in ipairs(slot4) do
+		slot5[slot10] = slot10:getShipCombatPower()
+	end
+
+	table.sort(slot4, function (slot0, slot1)
+		return slot0[slot0] < slot0[slot1]
+	end)
+
+	slot6 = {}
+
+	for slot10, slot11 in ipairs(slot2) do
+		slot6[#slot6 + 1] = slot0.data[slot11]:getGroupId()
+	end
+
+	slot7 = getProxy(EventProxy):getActiveShipIds()
+	slot8 = #slot4
+	slot9 = {}
+
+	while slot8 > 0 and slot3 > 0 do
+		slot12 = slot4[slot8].getGroupId(slot10)
+
+		if not table.contains(slot2, slot4[slot8].id) and not table.contains(slot7, slot11) and not table.contains(slot6, slot12) then
+			table.insert(slot9, slot10)
+			table.insert(slot6, slot12)
+
+			slot3 = slot3 - 1
+		end
+
+		slot8 = slot8 - 1
+	end
+
+	return slot9
+end
+
 function slot0.getDelegationRecommendShips(slot0, slot1)
 	slot3 = math.max(slot1.template.ship_lv, 2)
 
@@ -588,27 +645,37 @@ function slot0.getDelegationRecommendShips(slot0, slot1)
 		end
 	end
 
+	slot14 = {}
+
+	for slot20, slot21 in pairs(slot16) do
+		for slot25, slot26 in pairs(slot21) do
+			for slot31, slot32 in ipairs(slot27) do
+				table.insert(slot14, slot32)
+			end
+		end
+	end
+
 	if slot7 then
 		slot3 = 2
 	end
 
-	slot14 = #slot5
-	slot15 = nil
+	slot17 = #slot5
+	slot18 = nil
 
-	while slot14 > 0 do
-		slot17 = slot5[slot14].id
-		slot18 = slot5[slot14].getGroupId(slot16)
+	while slot17 > 0 do
+		slot20 = slot5[slot17].id
+		slot21 = slot5[slot17].getGroupId(slot19)
 
-		if slot3 <= slot5[slot14].level and not slot16:isActivityNpc() and slot16.lockState ~= Ship.LOCK_STATE_UNLOCK and not table.contains(slot4, slot17) and not table.contains(slot8, slot17) and not table.contains(slot9, slot17) and not table.contains(slot10, slot17) and not table.contains(slot12, slot17) and not table.contains(slot6, slot18) then
-			slot15 = slot16
+		if slot3 <= slot5[slot17].level and not slot19:isActivityNpc() and slot19.lockState ~= Ship.LOCK_STATE_UNLOCK and not table.contains(slot4, slot20) and not table.contains(slot8, slot20) and not table.contains(slot9, slot20) and not table.contains(slot10, slot20) and not table.contains(slot12, slot20) and not table.contains(slot14, slot20) and not table.contains(slot6, slot21) then
+			slot18 = slot19
 
 			break
 		else
-			slot14 = slot14 - 1
+			slot17 = slot17 - 1
 		end
 	end
 
-	return slot15
+	return slot18
 end
 
 function slot0.fileterShips(slot0, slot1)

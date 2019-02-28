@@ -18,27 +18,18 @@ function slot0.register(slot0)
 	slot0:bind(slot0.ON_START, function (slot0)
 		slot2 = getProxy(ChapterProxy).getActiveChapter(slot1)
 		slot4 = slot2:getStageId(slot2.fleet.line.row, slot2.fleet.line.column)
-		slot5 = false
-		slot6 = ""
+		slot5 = {}
 
-		for slot10, slot11 in pairs(slot2.fleet.ships) do
-			if slot11.energy == Ship.ENERGY_LOW then
-				slot5 = true
-				slot6 = slot6 .. "「" .. slot11:getConfig("name") .. "」"
-			end
+		for slot9, slot10 in pairs(slot2.fleet.ships) do
+			table.insert(slot5, slot10)
 		end
 
-		if slot5 then
-			pg.MsgboxMgr.GetInstance():ShowMsgBox({
-				content = i18n("ship_energy_low_warn", slot3.name, slot6),
-				onYes = function ()
-					slot0:sendNotification(GAME.BEGIN_STAGE, {
-						system = SYSTEM_SCENARIO,
-						stageId = slot0
-					})
-				end
+		if Fleet.EnergyCheck(slot5, slot3.name, function ()
+			slot0:sendNotification(GAME.BEGIN_STAGE, {
+				system = SYSTEM_SCENARIO,
+				stageId = slot0
 			})
-		else
+		end) then
 			slot8 = ""
 
 			if getProxy(PlayerProxy):getData():GoldMax(1) then
@@ -49,17 +40,11 @@ function slot0.register(slot0)
 				pg.MsgboxMgr.GetInstance():ShowMsgBox({
 					content = slot8,
 					onYes = function ()
-						slot0:sendNotification(GAME.BEGIN_STAGE, {
-							system = SYSTEM_SCENARIO,
-							stageId = slot0
-						})
+						slot0()
 					end
 				})
 			else
-				slot0:sendNotification(GAME.BEGIN_STAGE, {
-					system = SYSTEM_SCENARIO,
-					stageId = slot4
-				})
+				slot6()
 			end
 		end
 	end)

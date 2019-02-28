@@ -883,6 +883,19 @@ pg.memory_group = {
 			683
 		}
 	},
+	[150] = {
+		title = "特别演习·埃塞克斯级",
+		type = 2,
+		id = 150,
+		icon = "title_event",
+		memories = {
+			684,
+			685,
+			686,
+			687,
+			688
+		}
+	},
 	[501] = {
 		title = "{namecode:98}的委托",
 		type = 3,
@@ -1466,6 +1479,21 @@ pg.memory_group = {
 			676
 		}
 	},
+	[540] = {
+		title = "纪行的藏红花",
+		type = 3,
+		id = 540,
+		icon = "title_chara_xianggelila",
+		memories = {
+			689,
+			690,
+			691,
+			692,
+			693,
+			694,
+			695
+		}
+	},
 	all = {
 		1,
 		2,
@@ -1521,6 +1549,7 @@ pg.memory_group = {
 		147,
 		148,
 		149,
+		150,
 		501,
 		502,
 		503,
@@ -1558,7 +1587,8 @@ pg.memory_group = {
 		536,
 		537,
 		538,
-		539
+		539,
+		540
 	}
 }
 

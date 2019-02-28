@@ -34,7 +34,7 @@ slot1 = {
 			4
 		},
 		{
-			i18n("world_r"),
+			i18n("word_r"),
 			3
 		}
 	}

@@ -2,8 +2,8 @@ ys = ys or {}
 slot1 = ys.Battle.BattleDataFunction
 slot2 = ys.Battle.BattleFormulas
 slot3 = ys.Battle.BattleAttr
-slot4 = ys.Battle.BattleConst
-slot5 = ys.Battle.BattleConfig
+slot5 = ys.Battle.BattleConst.EquipmentType
+slot6 = ys.Battle.BattleConfig
 ys.Battle.BattlePlayerUnit = class("BattlePlayerUnit", ys.Battle.BattleUnit)
 ys.Battle.BattlePlayerUnit.__name = "BattlePlayerUnit"
 
@@ -132,46 +132,10 @@ function ys.Battle.BattlePlayerUnit.setWeapon(slot0, slot1)
 
 			function slot13(slot0, slot1, slot2)
 				for slot7 = 1, slot0[slot1], 1 do
-					slot3._totalWeapon[#slot3._totalWeapon + 1] = slot2.Battle.BattleDataFunction.CreateWeaponUnit(slot0, slot3, slot4, slot1)
+					slot9 = slot2:AddWeapon(slot0, slot1, slot2, slot3, slot1).GetTemplateData(slot8).type
 
-					if slot1 then
-						slot8:SetEquipmentInfo(slot1)
-					end
-
-					if slot8:GetTemplateData().type == slot5.EquipmentType.POINT_HIT_AND_LOCK then
-						if slot7 <= slot6 then
-							slot8:SetModifyInitialCD()
-						end
-
-						slot3._chargeList[#slot3._chargeList + 1] = slot8
-
-						slot3._weaponQueue:AppendChargeWeapon(slot8)
-					elseif slot9 == slot5.EquipmentType.MANUAL_TORPEDO then
-						if slot7 <= slot6 then
-							slot8:SetModifyInitialCD()
-						end
-
-						slot3._manualTorpedoList[#slot3._manualTorpedoList + 1] = slot8
-
-						slot3._weaponQueue:AppendManualTorpedo(slot8)
-					elseif slot9 == slot5.EquipmentType.PASSIVE_SCOUT then
-					elseif slot9 == slot5.EquipmentType.FLEET_ANTI_AIR then
-						slot3._fleetAAList[#slot3._fleetAAList + 1] = slot8
-					else
-						slot3:AddAutoWeapon(slot8)
-					end
-
-					if slot9 == slot5.EquipmentType.PASSIVE_SCOUT then
-						slot3._hiveList[#slot3._hiveList + 1] = slot8
-					end
-
-					if slot9 == slot5.EquipmentType.ANTI_AIR then
-						slot3._AAList[#slot3._AAList + 1] = slot8
-					end
-
-					if slot2 and slot2 ~= 0 then
-						slot8:SetSkinData(slot2)
-						slot3:SetPriorityWeaponSkin(slot2)
+					if slot7 <= slot4 and (slot9 == slot5.POINT_HIT_AND_LOCK or slot9 == slot5.MANUAL_TORPEDO) then
+						slot8:SetModifyInitialCD()
 					end
 				end
 			end
@@ -192,30 +156,7 @@ function ys.Battle.BattlePlayerUnit.setWeapon(slot0, slot1)
 
 	for slot11, slot12 in ipairs(slot7) do
 		if slot12 and slot12 ~= -1 then
-			slot0._totalWeapon[#slot0._totalWeapon + 1] = slot1.Battle.BattleDataFunction.CreateWeaponUnit(slot12, slot0, slot4[slot11 + slot6] or 1, slot11 + slot6)
-
-			if slot14:GetTemplateData().type == slot2.EquipmentType.POINT_HIT_AND_LOCK then
-				slot0._chargeList[#slot0._chargeList + 1] = slot14
-
-				slot0._weaponQueue:AppendChargeWeapon(slot14)
-			elseif slot15 == slot2.EquipmentType.MANUAL_TORPEDO then
-				slot0._manualTorpedoList[#slot0._manualTorpedoList + 1] = slot14
-
-				slot0._weaponQueue:AppendManualTorpedo(slot14)
-			elseif slot15 == slot2.EquipmentType.PASSIVE_SCOUT then
-			elseif slot15 == slot2.EquipmentType.FLEET_ANTI_AIR then
-				slot0._fleetAAList[#slot0._fleetAAList + 1] = slot14
-			else
-				slot0:AddAutoWeapon(slot14)
-			end
-
-			if slot15 == slot2.EquipmentType.PASSIVE_SCOUT then
-				slot0._hiveList[#slot0._hiveList + 1] = slot14
-			end
-
-			if slot15 == slot2.EquipmentType.ANTI_AIR then
-				slot0._AAList[#slot0._AAList + 1] = slot14
-			end
+			slot0:AddWeapon(slot12, nil, nil, slot4[slot11 + slot6] or 1, slot11 + slot6)
 		end
 	end
 
@@ -236,7 +177,7 @@ function ys.Battle.BattlePlayerUnit.setWeapon(slot0, slot1)
 		slot10 = 1
 
 		for slot14, slot15 in ipairs(slot8) do
-			slot0:AddAutoWeapon(slot1.Battle.BattleDataFunction.CreateWeaponUnit(slot15, slot0, slot10, slot9))
+			slot0:AddAutoWeapon(slot2.Battle.BattleDataFunction.CreateWeaponUnit(slot15, slot0, slot10, slot9))
 		end
 	end
 end
@@ -249,6 +190,84 @@ end
 
 function ys.Battle.BattlePlayerUnit.GetPriorityWeaponSkin(slot0)
 	return slot0._priorityWeaponSkinID
+end
+
+function ys.Battle.BattlePlayerUnit.AddWeapon(slot0, slot1, slot2, slot3, slot4, slot5)
+	slot0._totalWeapon[#slot0._totalWeapon + 1] = slot0.Battle.BattleDataFunction.CreateWeaponUnit(slot1, slot0, slot4, slot5)
+
+	if slot2 then
+		slot6:SetEquipmentInfo(slot2)
+	end
+
+	if slot6:GetTemplateData().type == slot1.POINT_HIT_AND_LOCK then
+		slot0._chargeList[#slot0._chargeList + 1] = slot6
+
+		slot0._weaponQueue:AppendChargeWeapon(slot6)
+	elseif slot7 == slot1.MANUAL_TORPEDO then
+		slot0._manualTorpedoList[#slot0._manualTorpedoList + 1] = slot6
+
+		slot0._weaponQueue:AppendManualTorpedo(slot6)
+	elseif slot7 == slot1.PASSIVE_SCOUT then
+	elseif slot7 == slot1.FLEET_ANTI_AIR then
+		slot0._fleetAAList[#slot0._fleetAAList + 1] = slot6
+	else
+		slot0:AddAutoWeapon(slot6)
+	end
+
+	if slot7 == slot1.PASSIVE_SCOUT then
+		slot0._hiveList[#slot0._hiveList + 1] = slot6
+	end
+
+	if slot7 == slot1.ANTI_AIR then
+		slot0._AAList[#slot0._AAList + 1] = slot6
+	end
+
+	if slot3 and slot3 ~= 0 then
+		slot6:SetSkinData(slot3)
+		slot0:SetPriorityWeaponSkin(slot3)
+	end
+
+	return slot6
+end
+
+function ys.Battle.BattlePlayerUnit.RemoveWeapon(slot0, slot1)
+	slot3 = nil
+
+	if slot0.GetWeaponPropertyDataFromID(slot1).type == slot1.PASSIVE_SCOUT then
+		for slot7, slot8 in ipairs(slot0._hiveList) do
+			if slot8:GetWeaponId() == slot1 then
+				slot3 = slot8
+
+				table.remove(slot0._hiveList, slot7)
+
+				break
+			end
+		end
+	elseif slot2 == slot1.SCOUT then
+		for slot7, slot8 in ipairs(slot0._autoWeaponList) do
+			if slot8:GetWeaponId() == slot1 then
+				slot0:RemoveAutoWeapon(slot8)
+
+				break
+			end
+		end
+	end
+
+	if slot3 then
+		for slot7, slot8 in ipairs(slot0._totalWeapon) do
+			if slot8 == slot3 then
+				table.remove(slot0._totalWeapon, slot7)
+
+				break
+			end
+		end
+	end
+
+	return slot3
+end
+
+function ys.Battle.BattlePlayerUnit.ShiftWeapon(slot0, slot1)
+	return
 end
 
 function ys.Battle.BattlePlayerUnit.LeaderSetting(slot0)

@@ -182,8 +182,14 @@ function ys.Battle.BattleBuffEffect.onDying(slot0, slot1, slot2)
 	slot0:onTrigger(slot1, slot2)
 end
 
-function ys.Battle.BattleBuffEffect.onFriendlyDying(slot0, slot1, slot2)
-	slot0:onTrigger(slot1, slot2)
+function ys.Battle.BattleBuffEffect.onFriendlyAircraftDying(slot0, slot1, slot2, slot3)
+	if slot0._tempData.arg_list.templateID then
+		if slot3.unit.GetTemplateID(slot4) == slot0._tempData.arg_list.templateID then
+			slot0:onTrigger(slot1, slot2)
+		end
+	else
+		slot0:onTrigger(slot1, slot2)
+	end
 end
 
 function ys.Battle.BattleBuffEffect.onFriendlyShipDying(slot0, slot1, slot2)

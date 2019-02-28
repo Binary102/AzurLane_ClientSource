@@ -23,6 +23,10 @@ function slot0.register(slot0)
 			else
 				slot0.data[slot5.id] = Activity.New(slot5)
 			end
+
+			if pg.activity_template[slot5.id].type == ActivityConst.ACTIVITY_TYPE_BOSS_BATTLE_MARK_2 then
+				slot0:updateActivityFleet(slot5)
+			end
 		end
 
 		if slot0.data[ActivityConst.MILITARY_EXERCISE_ACTIVITY_ID] then
@@ -46,6 +50,10 @@ function slot0.register(slot0)
 			slot0:addActivity(slot1)
 		else
 			slot0:updateActivity(slot1)
+		end
+
+		if pg.activity_template[slot1.id].type == ActivityConst.ACTIVITY_TYPE_BOSS_BATTLE_MARK_2 then
+			slot0:updateActivityFleet(slot0.activity_info)
 		end
 	end)
 end
@@ -366,6 +374,45 @@ function slot0.monitorTaskList(slot0, slot1)
 			activity_id = slot1.id
 		})
 	end
+
+	return
+end
+
+function slot0.updateActivityFleet(slot0, slot1)
+	getProxy(FleetProxy):addActivityFleet(slot1.id, slot1.group_list)
+
+	return
+end
+
+function slot0.recommendActivityFleet(slot0, slot1, slot2)
+	slot5 = getProxy(BayProxy)
+	slot6 = getProxy(FleetProxy):getActivityFleets()[slot1][slot2]
+
+	function slot7(slot0, slot1)
+		for slot7, slot8 in ipairs(slot3) do
+			slot1:insertShip(slot8, nil, slot0)
+		end
+
+		return
+	end
+
+	if Fleet.SUBMARINE_FLEET_ID <= slot2 then
+		if not slot6:isFull() then
+			slot7(TeamType.Submarine, TeamType.SubmarineMax - #slot6.subShips)
+		end
+	else
+		slot9 = TeamType.MainMax - #slot6.mainShips
+
+		if TeamType.VanguardMax - #slot6.vanguardShips > 0 then
+			slot7(TeamType.Vanguard, slot8)
+		end
+
+		if slot9 > 0 then
+			slot7(TeamType.Main, slot9)
+		end
+	end
+
+	getProxy(FleetProxy):updateActivityFleet(slot1, slot2, slot6)
 
 	return
 end

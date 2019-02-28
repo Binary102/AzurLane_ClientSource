@@ -348,7 +348,15 @@ function slot0.showRandomShipWord(slot0, slot1, slot2, slot3)
 		end
 
 		slot0.wordTweenId = LeanTween.scale(slot0.chat.gameObject, Vector3.New(1, 1, 1), slot4):setFrom(Vector3.New(0, 0, 0)):setEase(LeanTweenType.easeOutBack):setOnComplete(System.Action(function ()
+			if IsNil(slot0.chat) then
+				return
+			end
+
 			slot0.wordTweenId = LeanTween.scale(slot0.chat.gameObject, Vector3.New(0, 0, 1), LeanTween.scale):setFrom(Vector3.New(1, 1, 1)):setEase(LeanTweenType.easeInBack):setDelay(LeanTween.scale(slot0.chat.gameObject, Vector3.New(0, 0, 1), LeanTween.scale).setFrom(Vector3.New(1, 1, 1)).setEase(LeanTweenType.easeInBack)):setOnComplete(System.Action(function ()
+				if IsNil(slot0.chat) then
+					return
+				end
+
 				slot0:clearShipWord()
 			end)).uniqueId
 		end)).uniqueId

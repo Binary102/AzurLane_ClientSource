@@ -165,6 +165,7 @@ ys.Battle.BattleAttr = {
 		slot0._attr or .velocity = ys.Battle.BattleFormulas.ConvertShipSpeed(slot0._tmpData.speed + slot0._tmpData.speed_growth * ((slot0._level or 1) - 1) / 1000)
 		slot0._attr or .luck = slot0._tmpData.luck + slot0._tmpData.luck_growth * ((slot0._level or 1) - 1) / 1000
 		slot0._attr or .bulletSpeedRatio = 0
+		slot0._attr or .id = "enemy_" .. tostring(slot0._tmpData.id)
 		slot0._attr or .repressReduce = 1
 		slot0._attr or .comboTag = "combo_" .. slot0._attr or .battleUID
 
@@ -184,7 +185,10 @@ ys.Battle.BattleAttr = {
 		slot0._attr = slot2
 		slot2.battleUID = slot0:GetUniqueID()
 		slot2.hostUID = slot1:GetUniqueID()
-		slot2.id = slot1._attr.id
+
+		if type(slot1._attr.id) == "number" then
+			slot2.id = slot1._attr.id
+		end
 
 		for slot6, slot7 in ipairs(slot0.AttrListInheritance) do
 			slot2[slot7] = slot1._attr[slot7]

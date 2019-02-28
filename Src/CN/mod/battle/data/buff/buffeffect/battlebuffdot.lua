@@ -38,11 +38,8 @@ end
 
 function ys.Battle.BattleBuffDOT.onUpdate(slot0, slot1, slot2, slot3)
 	if slot0._nextEffectTime <= slot3 then
-		slot1:UpdateHP(-slot0:CalcNumber(slot1, slot2), {
-			isMiss = false,
-			isCri = false,
-			isHeal = false
-		})
+		slot1:UpdateHP(-slot0:CalcNumber(slot1, slot2), slot5)
+		slot0.Battle.BattleDataProxy:GetInstance():DamageStatistics(nil, slot1:GetAttrByName("id"), slot0.CalcNumber(slot1, slot2))
 
 		if slot1:IsAlive() then
 			slot0._nextEffectTime = slot0._nextEffectTime + slot0._time
@@ -51,11 +48,8 @@ function ys.Battle.BattleBuffDOT.onUpdate(slot0, slot1, slot2, slot3)
 end
 
 function ys.Battle.BattleBuffDOT.onRemove(slot0, slot1, slot2)
-	slot1:UpdateHP(-slot0:CalcNumber(slot1, slot2), {
-		isMiss = false,
-		isCri = false,
-		isHeal = false
-	})
+	slot1:UpdateHP(-slot0:CalcNumber(slot1, slot2), slot4)
+	slot0.Battle.BattleDataProxy:GetInstance():DamageStatistics(nil, slot1:GetAttrByName("id"), slot0.CalcNumber(slot1, slot2))
 end
 
 function ys.Battle.BattleBuffDOT.CalcNumber(slot0, slot1, slot2)

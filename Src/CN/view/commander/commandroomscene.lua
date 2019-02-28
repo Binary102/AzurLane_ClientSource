@@ -743,7 +743,7 @@ end
 
 function slot0.onBackPressed(slot0)
 	if slot0.boxesPanel and slot0.boxesPanel:isShow() then
-		slot0.boxesPanel:hideBoxPanel()
+		slot0.boxesPanel:hide()
 
 		return
 	end

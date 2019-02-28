@@ -18511,6 +18511,159 @@ pg.equip_data_statistics = {
 		},
 		property_rate = {}
 	},
+	[18060] = {
+		name = "TBD蹂躏者(VT-8中队)",
+		type = 8,
+		id = 18060,
+		tech = 0,
+		speciality = "雷击",
+		range = 90,
+		scatter = "无",
+		ambush_extra = 0,
+		value_2 = 45,
+		icon = "18060",
+		value_1 = "116 x 2",
+		attribute_2 = "air",
+		avoid_extra = 0,
+		rarity = 5,
+		angle = 90,
+		nationality = 1,
+		ammo = "通常",
+		descrip = "中途岛海战中，大黄蜂号所属VT-8中队，约翰·沃尔德伦少校所率领的TBD蹂躏者鱼雷机机队",
+		value_3 = 0,
+		attribute_1 = "damage",
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {
+			18060
+		},
+		skill_id = {
+			6320
+		},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {}
+	},
+	[18061] = {
+		base = 18060,
+		id = 18061,
+		value_1 = "134 x 2",
+		skill_id = {
+			6321
+		},
+		weapon_id = {
+			18061
+		},
+		property_rate = {}
+	},
+	[18062] = {
+		base = 18060,
+		id = 18062,
+		value_1 = "152 x 2",
+		skill_id = {
+			6322
+		},
+		weapon_id = {
+			18062
+		},
+		property_rate = {}
+	},
+	[18063] = {
+		base = 18060,
+		id = 18063,
+		value_1 = "170 x 2",
+		skill_id = {
+			6323
+		},
+		weapon_id = {
+			18063
+		},
+		property_rate = {}
+	},
+	[18064] = {
+		base = 18060,
+		id = 18064,
+		value_1 = "188 x 2",
+		skill_id = {
+			6324
+		},
+		weapon_id = {
+			18064
+		},
+		property_rate = {}
+	},
+	[18065] = {
+		base = 18060,
+		id = 18065,
+		value_1 = "206 x 2",
+		skill_id = {
+			6325
+		},
+		weapon_id = {
+			18065
+		},
+		property_rate = {}
+	},
+	[18066] = {
+		base = 18060,
+		id = 18066,
+		value_1 = "224 x 2",
+		skill_id = {
+			6326
+		},
+		weapon_id = {
+			18066
+		},
+		property_rate = {}
+	},
+	[18067] = {
+		base = 18060,
+		id = 18067,
+		value_1 = "242 x 2",
+		skill_id = {
+			6327
+		},
+		weapon_id = {
+			18067
+		},
+		property_rate = {}
+	},
+	[18068] = {
+		base = 18060,
+		id = 18068,
+		value_1 = "260 x 2",
+		skill_id = {
+			6328
+		},
+		weapon_id = {
+			18068
+		},
+		property_rate = {}
+	},
+	[18069] = {
+		base = 18060,
+		id = 18069,
+		value_1 = "278 x 2",
+		skill_id = {
+			6329
+		},
+		weapon_id = {
+			18069
+		},
+		property_rate = {}
+	},
+	[18070] = {
+		base = 18060,
+		id = 18070,
+		value_1 = "296 x 2",
+		skill_id = {
+			6330
+		},
+		weapon_id = {
+			18070
+		},
+		property_rate = {}
+	},
 	[18100] = {
 		name = "TBF复仇者",
 		type = 8,
@@ -25573,6 +25726,128 @@ pg.equip_data_statistics = {
 		value_1 = "96/轮",
 		weapon_id = {
 			26610
+		},
+		property_rate = {}
+	},
+	[26620] = {
+		name = "双联装40mm博福斯海兹梅耶",
+		speciality = "防空",
+		tech = 0,
+		type = 6,
+		rarity = 5,
+		id = 26620,
+		angle = 360,
+		scatter = "无",
+		ambush_extra = 0,
+		value_2 = 45,
+		icon = "26620",
+		value_1 = "38/轮",
+		attribute_2 = "antiaircraft",
+		avoid_extra = 0,
+		range = 30,
+		nationality = 2,
+		attribute_3 = "hit",
+		ammo = "通常",
+		descrip = "说明未填写",
+		value_3 = 5,
+		attribute_1 = "damage",
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {
+			26620
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {}
+	},
+	[26621] = {
+		base = 26620,
+		id = 26621,
+		value_1 = "43/轮",
+		weapon_id = {
+			26621
+		},
+		property_rate = {}
+	},
+	[26622] = {
+		base = 26620,
+		id = 26622,
+		value_1 = "48/轮",
+		weapon_id = {
+			26622
+		},
+		property_rate = {}
+	},
+	[26623] = {
+		base = 26620,
+		id = 26623,
+		value_1 = "54/轮",
+		weapon_id = {
+			26623
+		},
+		property_rate = {}
+	},
+	[26624] = {
+		base = 26620,
+		id = 26624,
+		value_1 = "60/轮",
+		weapon_id = {
+			26624
+		},
+		property_rate = {}
+	},
+	[26625] = {
+		base = 26620,
+		id = 26625,
+		value_1 = "66/轮",
+		weapon_id = {
+			26625
+		},
+		property_rate = {}
+	},
+	[26626] = {
+		base = 26620,
+		id = 26626,
+		value_1 = "72/轮",
+		weapon_id = {
+			26626
+		},
+		property_rate = {}
+	},
+	[26627] = {
+		base = 26620,
+		id = 26627,
+		value_1 = "78/轮",
+		weapon_id = {
+			26627
+		},
+		property_rate = {}
+	},
+	[26628] = {
+		base = 26620,
+		id = 26628,
+		value_1 = "84/轮",
+		weapon_id = {
+			26628
+		},
+		property_rate = {}
+	},
+	[26629] = {
+		base = 26620,
+		id = 26629,
+		value_1 = "90/轮",
+		weapon_id = {
+			26629
+		},
+		property_rate = {}
+	},
+	[26630] = {
+		base = 26620,
+		id = 26630,
+		value_1 = "96/轮",
+		weapon_id = {
+			26630
 		},
 		property_rate = {}
 	},
@@ -46019,6 +46294,53 @@ pg.equip_data_statistics = {
 		},
 		property_rate = {}
 	},
+	[60391] = {
+		name = "航空攻击展示-独立I",
+		type = 99,
+		nationality = 0,
+		speciality = "无",
+		range = 0,
+		angle = 0,
+		tech = 1,
+		ambush_extra = 0,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "",
+		avoid_extra = 0,
+		rarity = 1,
+		descrip = "航母空袭展示用",
+		scatter = "0",
+		ammo = "无",
+		value_3 = 0,
+		id = 60391,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {
+			60391
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {}
+	},
+	[60392] = {
+		name = "航空攻击展示-独立II",
+		base = 60391,
+		id = 60392,
+		weapon_id = {
+			60392
+		},
+		property_rate = {}
+	},
+	[60393] = {
+		name = "航空攻击展示-独立III",
+		base = 60391,
+		id = 60393,
+		weapon_id = {
+			60393
+		},
+		property_rate = {}
+	},
 	[61007] = {
 		name = "约克城技能随机扫射海面LV1",
 		type = 1,
@@ -53937,6 +54259,17 @@ pg.equip_data_statistics = {
 		18044,
 		18045,
 		18046,
+		18060,
+		18061,
+		18062,
+		18063,
+		18064,
+		18065,
+		18066,
+		18067,
+		18068,
+		18069,
+		18070,
 		18100,
 		18101,
 		18102,
@@ -54509,6 +54842,17 @@ pg.equip_data_statistics = {
 		26608,
 		26609,
 		26610,
+		26620,
+		26621,
+		26622,
+		26623,
+		26624,
+		26625,
+		26626,
+		26627,
+		26628,
+		26629,
+		26630,
 		27000,
 		27001,
 		27002,
@@ -56145,6 +56489,9 @@ pg.equip_data_statistics = {
 		60381,
 		60382,
 		60383,
+		60391,
+		60392,
+		60393,
 		61007,
 		61008,
 		61009,

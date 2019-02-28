@@ -7925,6 +7925,7 @@ pg.activity_template = {
 	[227] = {
 		mark = 20190124,
 		bg = "",
+		time = "stop",
 		type = 36,
 		config_id = 0,
 		is_show = 0,
@@ -7937,71 +7938,18 @@ pg.activity_template = {
 			0.36,
 			0.6,
 			10
-		},
-		time = {
-			timer,
-			{
-				{
-					2019,
-					1,
-					24
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					2,
-					20
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[228] = {
 		mark = 20190124,
 		bg = "",
+		time = "stop",
 		type = 16,
 		config_id = 119,
 		is_show = 0,
 		config_data = "100",
 		config_client = "",
-		id = 228,
-		time = {
-			timer,
-			{
-				{
-					2019,
-					1,
-					24
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					2,
-					20
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		id = 228
 	},
 	[229] = {
 		mark = 20190124,
@@ -8017,6 +7965,7 @@ pg.activity_template = {
 	[230] = {
 		mark = 20190124,
 		bg = "",
+		time = "stop",
 		type = 22,
 		config_id = 1,
 		is_show = 0,
@@ -8026,33 +7975,6 @@ pg.activity_template = {
 			14,
 			15,
 			16
-		},
-		time = {
-			timer,
-			{
-				{
-					2019,
-					1,
-					24
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					2,
-					20
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		},
 		config_client = {
 			resId = 119
@@ -8473,6 +8395,198 @@ pg.activity_template = {
 				9
 			},
 			{}
+		}
+	},
+	[243] = {
+		mark = 20190228,
+		bg = "",
+		type = 52,
+		config_id = 1,
+		is_show = 0,
+		id = 243,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2019,
+					2,
+					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					3,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			story = {
+				{
+					10000,
+					"AISAIKESIBOSS1"
+				},
+				{
+					7500,
+					"AISAIKESIBOSS2"
+				},
+				{
+					5000,
+					"AISAIKESIBOSS3"
+				},
+				{
+					2500,
+					"AISAIKESIBOSS4"
+				},
+				{
+					0,
+					"AISAIKESIBOSS5"
+				}
+			}
+		}
+	},
+	[244] = {
+		mark = 20190228,
+		bg = "",
+		type = 46,
+		config_id = 2001,
+		is_show = 0,
+		config_data = "100",
+		config_client = "",
+		id = 244,
+		time = {
+			timer,
+			{
+				{
+					2019,
+					2,
+					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					3,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[245] = {
+		mark = 20190228,
+		bg = "",
+		type = 13,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 245,
+		config_data = {
+			14186,
+			14187,
+			14188,
+			14189,
+			14190,
+			14191,
+			14192,
+			14193,
+			14194,
+			14195,
+			14196,
+			14197,
+			14198,
+			14199,
+			14200,
+			14201,
+			14202,
+			14203,
+			14204,
+			14205
+		},
+		time = {
+			timer,
+			{
+				{
+					2019,
+					2,
+					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					3,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[246] = {
+		mark = 20190228,
+		bg = "",
+		type = 1,
+		config_id = 4,
+		is_show = 0,
+		config_client = "",
+		id = 246,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2019,
+					2,
+					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					3,
+					7
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
 		}
 	},
 	[1001] = {
@@ -9208,6 +9322,20 @@ pg.activity_template = {
 			{}
 		}
 	},
+	[2038] = {
+		mark = 20190228,
+		bg = "",
+		time = "always",
+		type = 17,
+		config_id = 5421,
+		is_show = 0,
+		config_client = "",
+		id = 2038,
+		config_data = {
+			0,
+			{}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -9442,6 +9570,10 @@ pg.activity_template = {
 		240,
 		241,
 		242,
+		243,
+		244,
+		245,
+		246,
 		1001,
 		1002,
 		1004,
@@ -9483,7 +9615,8 @@ pg.activity_template = {
 		2034,
 		2035,
 		2036,
-		2037
+		2037,
+		2038
 	}
 }
 

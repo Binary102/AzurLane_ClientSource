@@ -21,7 +21,7 @@ slot0.type2pic = {
 	"chara_rank_collect",
 	"challenge_rank",
 	"title_extra_chapter",
-	"title_extra_chapter",
+	"chara_rank_boss_battle",
 	military = "chara_rank_mil"
 }
 slot0.tpye2titleWord = {
@@ -65,7 +65,7 @@ slot0.tpye2titleWord = {
 		5,
 		7,
 		8,
-		4
+		10
 	},
 	military = {
 		5,
@@ -81,7 +81,7 @@ end
 
 function slot0.getRankMsgList(slot0)
 	if not slot0.rankMsgList then
-		slot0.rankMsgList, slot0.rankMsgInfo = BillboardMediator:getRankMsg()
+		slot0.rankMsgList, slot0.rankMsgInfo = getProxy(MilitaryExerciseProxy):getRankMsg()
 	end
 
 	return slot0.rankMsgList
@@ -171,6 +171,7 @@ function slot0.init(slot0)
 	slot0.rankItems = {}
 	slot0.rtPage = {}
 	slot0.rtBtn = {}
+	slot0.pageInit = {}
 	slot0.closeBtn = slot0:findTF("top/btnBack")
 	slot0.res = slot0:findTF("frame/res")
 	slot0.sortBtns = slot0:findTF("frame/table_panel")
@@ -226,9 +227,15 @@ function slot0.init(slot0)
 
 		slot0.rtBtn[slot7] = cloneTplTo(slot0.tableTpl, slot0.sortBtns, slot0.type2name[slot8.type] .. "_btn")
 
-		GetImageSpriteFromAtlasAsync("ui/billboardui_atlas", slot0.type2pic[slot8.type], slot0:findTF("Image", slot0.rtBtn[slot7]), true)
-		GetImageSpriteFromAtlasAsync("ui/billboardui_atlas", slot0.type2pic[slot8.type] .. "_sel", slot0:findTF("check_mark/Image", slot0.rtBtn[slot7]), true)
+		GetImageSpriteFromAtlasAsync("ui/billboardui_atlas", slot0.type2pic[slot8.type], slot0:findTF("off/Image", slot0.rtBtn[slot7]), true)
+		GetImageSpriteFromAtlasAsync("ui/billboardui_atlas", slot0.type2pic[slot8.type] .. "_sel", slot0:findTF("on/Image", slot0.rtBtn[slot7]), true)
 		onToggle(slot0, slot0.rtBtn[slot7], function (slot0)
+			if slot0 and not slot0.pageInit[] then
+				slot0:emit(BillboardMediator.INIT_RANK, slot0:getRankMsgInfo(slot0.emit))
+
+				slot0.pageInit[] = true
+			end
+
 			setActive(slot0.rtPage[slot1], slot0)
 			setActive(slot0.tipText, slot0)
 		end, SFX_UI_TAG)
@@ -273,7 +280,6 @@ function slot0.didEnter(slot0)
 	triggerToggle(slot0.sortBtns:Find(slot0.contextData.index or BillboardLayer.PAGE_MILITARY), true)
 	setActive(slot0.sortBtns, not ((slot0.contextData.index or BillboardLayer.PAGE_MILITARY) == BillboardLayer.PAGE_EXTRA_CHAPTER and slot0.contextData.view == "LevelScene2"))
 	setActive(slot0:findTF("frame/extra_chapter_bg"), (slot0.contextData.index or BillboardLayer.PAGE_MILITARY) == BillboardLayer.PAGE_EXTRA_CHAPTER and slot0.contextData.view == "LevelScene2")
-	setActive(slot0.sortBtns:Find("pledge_btn"), false)
 
 	return
 
@@ -594,7 +600,8 @@ function slot0.updatePowerRankTF(slot0, slot1, slot2)
 end
 
 function slot0.updatePlayerRankInfo(slot0, slot1)
-	slot2 = slot0:findTF("content/player_info", slot0.rtPage[slot1])
+	setActive(slot2, true)
+
 	slot3 = slot0:getRankMsgInfo(slot1)
 
 	if not slot0.collectCountAll then

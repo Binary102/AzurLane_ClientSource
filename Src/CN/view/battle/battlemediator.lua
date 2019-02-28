@@ -23,7 +23,8 @@ function slot0.register(slot0)
 			memory = slot0.contextData.memory,
 			exitCallback = slot0.contextData.exitCallback,
 			system = slot1,
-			statistics = slot1
+			statistics = slot1,
+			actID = slot0.contextData.actId
 		})
 	end)
 	slot0:bind(slot0.ON_AUTO, function (slot0, slot1)
@@ -51,10 +52,11 @@ function slot0.register(slot0)
 	slot0:bind(slot0.ON_BACK_PRE_SCENE, function ()
 		slot0 = getProxy(ContextProxy)
 		slot2 = slot0:getContextByMediator(LevelMediator2)
+		slot3 = slot0:getContextByMediator(ActivityBossBattleMediator2)
 
 		if slot0:getContextByMediator(DailyLevelMediator) then
 			if slot0 == SYSTEM_CHALLENGE then
-				getProxy(ChallengeProxy).escapeChallenge(slot3)
+				getProxy(ChallengeProxy).escapeChallenge(slot4)
 				slot1:removeChild(slot1:getContextByMediator(ChallengePreCombatMediator))
 			else
 				slot1:removeChild(slot1:getContextByMediator(PreCombatMediator))
@@ -65,14 +67,15 @@ function slot0.register(slot0)
 				slot2:removeChild(slot2:getContextByMediator(ShamPreCombatMediator))
 			elseif slot0 == SYSTEM_GUILD then
 				if slot2:getContextByMediator(GuildPreCombatMediator) then
-					slot2:removeChild(slot3)
+					slot2:removeChild(slot4)
 				end
 			elseif slot0 == SYSTEM_SCENARIO then
 				slot2:removeChild(slot2:getContextByMediator(ChapterPreCombatMediator))
 			elseif slot0 ~= SYSTEM_PERFORM then
 				slot2:removeChild(slot2:getContextByMediator(PreCombatMediator))
 			end
-		elseif academyContext and slot0 == SYSTEM_PERFORM then
+		elseif slot3 and slot3:getContextByMediator(PreCombatMediator) then
+			slot3:removeChild(slot4)
 		end
 
 		slot1:sendNotification(GAME.GO_BACK)
@@ -240,7 +243,8 @@ function slot0.GenBattleData(slot0)
 		MainUnitList = {},
 		VanguardUnitList = {},
 		SubUnitList = {},
-		SubFlag = -1
+		SubFlag = -1,
+		ActID = slot0.contextData.actId
 	}
 	slot3 = getProxy(BayProxy)
 	slot4 = {}
@@ -338,33 +342,69 @@ function slot0.GenBattleData(slot0)
 		end
 
 		slot0.viewComponent:setFleet(slot10, slot11, slot12)
+	elseif slot2 == SYSTEM_HP_SHARE_ACT_BOSS then
+		if slot0.contextData.mainFleetId then
+			slot8 = getProxy(FleetProxy).getActivityFleets(slot5)[slot0.contextData.actId][11]
+			slot9 = _.values(getProxy(FleetProxy).getActivityFleets(slot5)[slot0.contextData.actId][slot0.contextData.mainFleetId].getCommanders(slot7))
+			slot1.CommanderList = getProxy(FleetProxy).getActivityFleets(slot5)[slot0.contextData.actId][slot0.contextData.mainFleetId].buildBattleBuffList(slot7)
+			slot0.mainShips = slot3:getShipsByFleet(slot7)
+			slot10 = {}
+			slot11 = {}
+			slot12 = {}
+
+			for slot17, slot18 in ipairs(slot13) do
+				if table.contains(slot4, slot18) then
+					BattleVertify.cloneShipVertiry = true
+				end
+
+				slot4[#slot4 + 1] = slot18
+
+				table.insert(slot10, slot19)
+				table.insert(slot1.MainUnitList, slot0(slot2, slot19, slot9))
+			end
+
+			for slot18, slot19 in ipairs(slot14) do
+				if table.contains(slot4, slot19) then
+					BattleVertify.cloneShipVertiry = true
+				end
+
+				slot4[#slot4 + 1] = slot19
+
+				table.insert(slot11, slot20)
+				table.insert(slot1.VanguardUnitList, slot0(slot2, slot20, slot9))
+			end
+
+			slot15 = _.values(slot8:getCommanders())
+
+			for slot20, slot21 in ipairs(slot16) do
+				if table.contains(slot4, slot21) then
+					BattleVertify.cloneShipVertiry = true
+				end
+
+				slot4[#slot4 + 1] = slot21
+
+				table.insert(slot12, slot22)
+				table.insert(slot1.SubUnitList, slot0(slot2, slot22, slot15))
+			end
+
+			slot18 = getProxy(PlayerProxy).getRawData(slot17)
+			slot19 = slot8:GetCostSum().oil + slot7:GetCostSum().oil
+
+			if slot8:isLegalToFight() == true and slot19 < slot18.oil then
+				slot1.SubFlag = 1
+				slot1.TotalSubAmmo = 1
+			end
+
+			slot1.SubCommanderList = slot8:buildBattleBuffList()
+
+			slot0.viewComponent:setFleet(slot10, slot11, slot12)
+		end
 	elseif slot0.contextData.mainFleetId then
-		slot6 = getProxy(FleetProxy).getFleetById(slot5, slot0.contextData.mainFleetId)
+		slot6, slot7 = nil
 		slot0.mainShips = slot3:getShipsByFleet(slot6)
-		slot7 = {}
 		slot8 = {}
-
-		for slot13, slot14 in ipairs(slot9) do
-			if table.contains(slot4, slot14) then
-				BattleVertify.cloneShipVertiry = true
-			end
-
-			slot4[#slot4 + 1] = slot14
-
-			table.insert(slot7, slot15)
-			table.insert(slot1.MainUnitList, slot0(slot2, slot15))
-		end
-
-		for slot14, slot15 in ipairs(slot10) do
-			if table.contains(slot4, slot15) then
-				BattleVertify.cloneShipVertiry = true
-			end
-
-			slot4[#slot4 + 1] = slot15
-
-			table.insert(slot8, slot16)
-			table.insert(slot1.VanguardUnitList, slot0(slot2, slot16))
-		end
+		slot9 = {}
+		slot10 = {}
 
 		for slot15, slot16 in ipairs(slot11) do
 			if table.contains(slot4, slot16) then
@@ -373,11 +413,22 @@ function slot0.GenBattleData(slot0)
 
 			slot4[#slot4 + 1] = slot16
 
-			table.insert(subVOs, slot17)
-			table.insert(slot1.SubUnitList, slot0(slot2, slot17))
+			table.insert(slot8, slot17)
+			table.insert(slot1.MainUnitList, slot0(slot2, slot17))
 		end
 
-		slot0.viewComponent:setFleet(slot7, slot8, subVOs)
+		for slot16, slot17 in ipairs(slot12) do
+			if table.contains(slot4, slot17) then
+				BattleVertify.cloneShipVertiry = true
+			end
+
+			slot4[#slot4 + 1] = slot17
+
+			table.insert(slot9, slot18)
+			table.insert(slot1.VanguardUnitList, slot0(slot2, slot18))
+		end
+
+		slot0.viewComponent:setFleet(slot8, slot9, slot10)
 	end
 
 	slot1.RivalVanguardUnitList = {}
@@ -490,6 +541,10 @@ function slot0.GenBattleData(slot0)
 		end
 	end
 
+	if slot2 == SYSTEM_HP_SHARE_ACT_BOSS then
+		slot1.SpecificBossHPRate = slot0.contextData.specificBossHPRate
+	end
+
 	slot1.DropInfoList = slot0.contextData.drops
 end
 
@@ -528,7 +583,7 @@ function slot0.handleNotification(slot0, slot1)
 
 			slot0:addSubLayers(Context.New({
 				mediator = BattleResultMediator,
-				viewComponent = (slot5 ~= SYSTEM_CHALLENGE or BattleChallengeResultLayer) and (slot5 ~= SYSTEM_DODGEM or BattleDodgemResultLayer) and BattleResultLayer,
+				viewComponent = (slot5 ~= SYSTEM_CHALLENGE or BattleChallengeResultLayer) and (slot5 ~= SYSTEM_DODGEM or BattleDodgemResultLayer) and (slot5 ~= SYSTEM_HP_SHARE_ACT_BOSS or BattleContributionResultLayer) and BattleResultLayer,
 				data = {
 					system = slot5,
 					rivalId = slot0.contextData.rivalId,
@@ -541,7 +596,9 @@ function slot0.handleNotification(slot0, slot1)
 					score = slot3.score,
 					drops = slot3.drops,
 					prefabFleet = slot3.prefabFleet,
-					commanderExps = slot3.commanderExps
+					commanderExps = slot3.commanderExps,
+					actId = slot0.contextData.actId,
+					result = slot3.result
 				}
 			}))
 		end

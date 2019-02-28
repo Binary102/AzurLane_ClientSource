@@ -35,6 +35,7 @@ function slot0.register(slot0)
 
 	if slot0.contextData.mode == DockyardScene.MODE_MOD or slot0.contextData.mode == DockyardScene.MODE_DESTROY then
 		slot0.contextData.flags or {}.inSham = true
+		slot0.contextData.flags or .inActivity = true
 		slot0.contextData.flags = slot0.contextData.flags or 
 	end
 

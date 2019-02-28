@@ -4923,6 +4923,136 @@ pg.ship_data_breakout = {
 		use_item = {},
 		weapon_ids = {}
 	},
+	[107221] = {
+		use_gold = 500,
+		pre_id = 0,
+		use_char_num = 1,
+		use_char = 10722,
+		breakout_id = 107222,
+		breakout_view = "所有战斗机+1/战斗机效率提高5%",
+		id = 107221,
+		icon = "10001",
+		level = 10,
+		use_item = {},
+		weapon_ids = {
+			60391,
+			54011
+		}
+	},
+	[107222] = {
+		use_gold = 1500,
+		pre_id = 107221,
+		use_char_num = 1,
+		use_char = 10722,
+		breakout_id = 107223,
+		breakout_view = "机库容量+1/所有鱼雷机+1/战斗机效率提高10%",
+		id = 107222,
+		icon = "10001",
+		level = 30,
+		use_item = {},
+		weapon_ids = {
+			60392,
+			54011,
+			60392,
+			54011
+		}
+	},
+	[107223] = {
+		use_gold = 2500,
+		pre_id = 107222,
+		use_char_num = 2,
+		use_char = 10722,
+		breakout_id = 107224,
+		breakout_view = "所有舰载机+1/鱼雷机效率提高15%",
+		id = 107223,
+		icon = "10001",
+		level = 70,
+		use_item = {},
+		weapon_ids = {
+			60393,
+			54012,
+			60393,
+			54012
+		}
+	},
+	[107224] = {
+		use_gold = 0,
+		pre_id = 107223,
+		use_char_num = 0,
+		use_char = 10722,
+		breakout_id = 0,
+		breakout_view = "无",
+		id = 107224,
+		icon = "10001",
+		level = 0,
+		use_item = {},
+		weapon_ids = {}
+	},
+	[107381] = {
+		use_gold = 1000,
+		pre_id = 0,
+		use_char_num = 1,
+		use_char = 10738,
+		breakout_id = 107382,
+		breakout_view = "所有战斗机+1/舰载机效率提高3%",
+		id = 107381,
+		icon = "10001",
+		level = 10,
+		use_item = {},
+		weapon_ids = {
+			60321,
+			54014
+		}
+	},
+	[107382] = {
+		use_gold = 3000,
+		pre_id = 107381,
+		use_char_num = 1,
+		use_char = 10738,
+		breakout_id = 107383,
+		breakout_view = "机库容量+1/所有轰炸机+1/舰载机效率提高5%",
+		id = 107382,
+		icon = "10001",
+		level = 30,
+		use_item = {},
+		weapon_ids = {
+			60322,
+			54014,
+			60322,
+			54014
+		}
+	},
+	[107383] = {
+		use_gold = 10000,
+		pre_id = 107382,
+		use_char_num = 2,
+		use_char = 10738,
+		breakout_id = 107384,
+		breakout_view = "所有舰载机+1/舰载机效率提高7%",
+		id = 107383,
+		icon = "10001",
+		level = 70,
+		use_item = {},
+		weapon_ids = {
+			60323,
+			54015,
+			60323,
+			54015
+		}
+	},
+	[107384] = {
+		use_gold = 0,
+		pre_id = 107383,
+		use_char_num = 0,
+		use_char = 10738,
+		breakout_id = 0,
+		breakout_view = "无",
+		id = 107384,
+		icon = "10001",
+		level = 0,
+		use_item = {},
+		weapon_ids = {}
+	},
 	[108011] = {
 		use_gold = 500,
 		pre_id = 0,
@@ -18909,6 +19039,14 @@ pg.ship_data_breakout = {
 		107092,
 		107093,
 		107094,
+		107221,
+		107222,
+		107223,
+		107224,
+		107381,
+		107382,
+		107383,
+		107384,
 		108011,
 		108012,
 		108013,

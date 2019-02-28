@@ -372,8 +372,12 @@ pg.gametip = {
 		tip = "该角色在执行特殊任务哟~",
 		key = "word_shipState_event"
 	},
+	word_shipState_activity = {
+		tip = "该角色在特殊作战编队中哦~",
+		key = "word_shipState_activity"
+	},
 	word_shipState_sham = {
-		tip = "该角色在正在「模拟战」作战哦~",
+		tip = "该角色正在「模拟战」作战哦~",
 		key = "word_shipState_sham"
 	},
 	word_shipType_quZhu = {
@@ -1075,6 +1079,10 @@ pg.gametip = {
 	battle_preCombatLayer_time_hold = {
 		tip = "坚持$1秒战斗结束",
 		key = "battle_preCombatLayer_time_hold"
+	},
+	battle_preCombatLayer_damage_before_end = {
+		tip = "战斗结束前尽可能取得更高伤害",
+		key = "battle_preCombatLayer_damage_before_end"
 	},
 	battle_preCombatMediator_leastLimit = {
 		tip = "无法取消，第一舰队上必须要有舰船！",
@@ -2815,6 +2823,10 @@ pg.gametip = {
 	ship_energy_low_warn = {
 		tip = "$1中$2处于低心情状态，强制出击将降低好感且获得经验减半",
 		key = "ship_energy_low_warn"
+	},
+	ship_energy_low_warn_no_exp = {
+		tip = "编队中<color=#A9F548FF>$2</color>处于<color=#D6341D>低心情状态</color>，强制出击将<color=#D6341D>降低好感</color>，确定要继续出击吗？",
+		key = "ship_energy_low_warn_no_exp"
 	},
 	test_ship_intensify_tip = {
 		tip = "布里无法进行强化",
@@ -4786,11 +4798,8 @@ NPC角色正式加入时，保留强化、突破状态及技能等级；
 							 普通舰船：$5%
 
 							  【限时建造】
-							<color=#fff157>    胜利</color>：2.25%<color=#A9F548>(up!)</color>
-						<color=#fff157>     天狼星</color>：2%<color=#A9F548>(up!)</color>
-					<color=#966af6>      谢菲尔德</color>：2.5%<color=#A9F548>(up!)</color>
-							<color=#966af6>    无敌</color>：2.5%<color=#A9F548>(up!)</color>
-						<color=#60a9ff>     牙买加</color>：5%<color=#A9F548>(up!)</color></size>]],
+							<color=#fff157>  香格里拉</color>：2%<color=#A9F548>(up!)</color>
+							<color=#fff157>  埃塞克斯</color>：1.8%<color=#A9F548>(up!)</color></size>]],
 		key = "help_build_4"
 	},
 	help_build_5 = {
@@ -6189,9 +6198,9 @@ NPC角色正式加入时，保留强化、突破状态及技能等级；
 		tip = "精锐",
 		key = "word_sr"
 	},
-	world_r = {
+	word_r = {
 		tip = "稀有",
-		key = "world_r"
+		key = "word_r"
 	},
 	ship_renameShip_error = {
 		tip = "专属舰更名失败",
@@ -8777,6 +8786,10 @@ $3]],
 		tip = "积分",
 		key = "ranking_word_9"
 	},
+	ranking_word_10 = {
+		tip = "贡献值",
+		key = "ranking_word_10"
+	},
 	spece_illegal_tip = {
 		tip = "不能使用空格",
 		key = "spece_illegal_tip"
@@ -9036,6 +9049,65 @@ $3]],
 	md5_error = {
 		tip = "检测到有最新版数据，请关闭游戏并更新",
 		key = "md5_error"
+	},
+	world_boss_help = {
+		key = "world_boss_help",
+		tip = {
+			{
+				info = "活动说明："
+			},
+			{
+				info = "1. 活动期间，参与演习战斗，当击破敌人、超时或作战失败时，\n根据演习战斗中造成的伤害总量结算贡献值；"
+			},
+			{
+				info = "2. 演习战斗中，造成的伤害越高，获得奖励越丰厚，获得的贡\n献值也越多；"
+			},
+			{
+				info = "3. 活动期间，根据本服所有玩家获得的贡献值，消耗埃塞克斯\n的演习据点耐久；"
+			},
+			{
+				info = "4. 当演习据点耐久下降至75%、50%、25%、以及耐久完全\n耗尽后，会记录本服达成的里程碑时间。同时，在演习中获得\n过贡献值的玩家可以获得演习奖励；"
+			},
+			{
+				info = "5. 演习奖励将在据点耐久完成耗尽后，通过邮件发放；"
+			},
+			{
+				info = "6. 如果活动结束时耐久未被耗尽，则会根据据点推进进度，为\n获得过贡献值的玩家发放对应进度的奖励；"
+			},
+			{
+				info = "7. 演习战斗的出击队伍可以通过【编队】按钮编组出击队伍，\n允许携带潜艇和指挥喵；"
+			},
+			{
+				info = "8. 演习战斗中，携带香格里拉和独立可以获得额外的总贡献值\n加成。携带香格里拉获得20%的加成，携带独立获得10%的加\n成，同时携带最多可获得30%的贡献值加成；"
+			},
+			{
+				info = "9. 演习战斗中，无法获得指挥舰、出战角色和指挥喵经验；"
+			},
+			{
+				info = "10. 演习战斗中，会正常增减出战角色的心情；"
+			},
+			{
+				info = "11. 随着据点耐久的下降，演习战斗中敌方旗舰的伤害能力会\n逐步提升，同时降低受到的炮击、雷击伤害，但会提高受到的\n航空伤害；"
+			},
+			{
+				info = "12. 活动期间，还可以领取个人贡献奖励，个人贡献奖励需要\n当据点攻略进度和拥有的贡献值达到指定要求后才能领取；"
+			},
+			{
+				info = "13. 2.28~3.7期间可以参与演习战斗，奖励领取的截止时间为\n3.13；"
+			}
+		}
+	},
+	world_boss_tip = {
+		tip = "「<color=#7e7e7f>$1</color>」为演习做出了<color=#8299bc>$2</color>贡献 ",
+		key = "world_boss_tip"
+	},
+	world_boss_award_limit = {
+		tip = "演习据点耐久降至<color=#FFDE00FF>$1%</color>及以下后解锁 ",
+		key = "world_boss_award_limit"
+	},
+	backyard_is_loading = {
+		tip = "后宅准备中，请稍等～",
+		key = "backyard_is_loading"
 	}
 }
 

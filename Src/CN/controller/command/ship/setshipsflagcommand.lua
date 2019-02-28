@@ -47,6 +47,26 @@ function slot0.execute(slot0, slot1)
 		end
 	end
 
+	if slot0.flags.inActivity then
+		slot10 = getProxy(FleetProxy).getActivityFleets(slot9)
+
+		if type(slot0.flags.inActivity) == "number" then
+			for slot15, slot16 in pairs(slot11) do
+				for slot21, slot22 in ipairs(slot17) do
+					slot0:setShipFlag(slot22, "inActivity", true)
+				end
+			end
+		elseif type(slot0.flags.inActivity) == "boolean" then
+			for slot14, slot15 in pairs(slot10) do
+				for slot19, slot20 in pairs(slot15) do
+					for slot25, slot26 in ipairs(slot21) do
+						slot0:setShipFlag(slot26, "inActivity", true)
+					end
+				end
+			end
+		end
+	end
+
 	if defaultValue(slot0.flags.inBackyard, true) then
 		for slot15, slot16 in pairs(slot11) do
 			slot0:setShipFlag(slot15, "inBackyard", true)
@@ -122,6 +142,7 @@ function slot0.clearShipAllFlag(slot0, slot1)
 		slot2.inChallenge = nil
 		slot2.inElite = nil
 		slot2.blackBlock = nil
+		slot2.inActivity = nil
 	end
 end
 

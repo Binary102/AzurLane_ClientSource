@@ -174,6 +174,12 @@ function slot0.didEnter(slot0)
 		slot0:closePreFurnSelected()
 	end, SFX_PANEL)
 	onButton(slot0, slot0.decorationBtn, function ()
+		if slot0.inInitFurnitrues then
+			pg.TipsMgr:GetInstance():ShowTips(i18n("backyard_is_loading"))
+
+			return
+		end
+
 		if slot0.blockEvent then
 			return
 		end
@@ -248,7 +254,7 @@ function slot0.updateHouseArea(slot0, slot1)
 	slot0.baseBG = tf(slot2)
 
 	slot0.baseBG:SetParent(slot0:findTF("bg"), false)
-	slot0.baseBG:SetSiblingIndex(1)
+	slot0.baseBG:SetSiblingIndex(0)
 
 	slot0:findTF("bg").sizeDelta = Vector2(slot0.baseBG.rect.width + 50, slot0.baseBG.rect.height + 60 * slot0.houseVO.level)
 
@@ -396,7 +402,9 @@ function slot0.removeItem(slot0, slot1)
 	end
 
 	if not slot1:hasParent() then
-		slot0.map:RemoveItem(slot2)
+		if slot0.map then
+			slot0.map:RemoveItem(slot2)
+		end
 	elseif slot0.maps[slot1.parent] then
 		slot0.maps[slot1.parent]:RemoveItem(slot2)
 	end
@@ -429,7 +437,18 @@ function slot0.initFurnitures(slot0)
 		table.insert(slot2, function (slot0)
 			slot0.loadingCount = slot0.loadingCount + 1
 
-			slot0:loadFurnitureModel(slot0.loadFurnitureModel, slot0)
+			slot0:loadFurnitureModel(slot0.loadFurnitureModel, function (slot0)
+				if not slot0 then
+					slot0()
+
+					return
+				end
+
+				LeanTween.scale(rtf(slot0), Vector3(slot0.localScale.x + 0.2, slot0.localScale.y + 0.2, 1), 0.2):setFrom(0):setOnComplete(System.Action(function ()
+					LeanTween.scale(rtf(slot0), Vector3(slot1, Vector3, 1), 0.1)
+				end))
+				slot0()
+			end)
 		end)
 	end
 
@@ -445,6 +464,7 @@ function slot0.initFurnitures(slot0)
 		end)
 	end
 
+	slot0.inInitFurnitrues = true
 	slot0.loadingTotal = #slot2 + #slot3
 
 	seriesAsync(slot2, function ()
@@ -453,6 +473,8 @@ function slot0.initFurnitures(slot0)
 		end)
 		seriesAsync:sortWallFurns()
 		seriesAsync:sortAllMat()
+
+		seriesAsync.inInitFurnitrues = nil
 	end)
 end
 
@@ -475,6 +497,7 @@ function slot0.loadFurnitureModel(slot0, slot1, slot2)
 
 	slot4 = slot0.backyardPoolMgr:Dequeue(slot0.backyardPoolMgr.POOL_NAME.FURNITURE)
 
+	setActive(slot4, false)
 	SetParent(slot4, slot0.furContain)
 
 	slot4.gameObject.name = slot1.id
@@ -524,8 +547,10 @@ function slot0.loadFurnitureModel(slot0, slot1, slot2)
 			triggerButton(slot1)
 		end
 
+		setActive(slot1, true)
+
 		if slot0 then
-			slot0()
+			slot0(slot1)
 		end
 
 		return
@@ -1020,11 +1045,25 @@ function slot0.updateFurnitruePos(slot0, slot1, slot2)
 	end
 
 	if slot1.parent ~= 0 then
-		slot4.localPosition = Vector2(slot4.localPosition.x + slot0.furnitureVOs[slot1.parent].getConfig(slot6, "offset")[1], slot4.localPosition.y + slot0.furnitureVOs[slot1.parent].getConfig(slot6, "offset")[2])
+		slot9 = Vector2
+		slot10 = slot4.localPosition.x
 
-		slot4:SetParent(slot0.furnitureModals[slot1.parent]:Find("childs"), true)
+		if not slot0.furnitureVOs[slot1.parent].getConfig(slot6, "offset")[1] then
+			slot11 = 0
+		end
 
-		if slot0.maps[slot1.parent] then
+		slot10 = slot10 + slot11
+		slot11 = slot7.y
+
+		if not slot8[2] then
+			slot12 = 0
+		end
+
+		slot4.localPosition = slot9(slot10, slot11 + slot12)
+
+		slot4:SetParent(slot0.furnitureModals[slot5]:Find("childs"), true)
+
+		if slot0.maps[slot5] then
 			slot0.maps[slot5].afterSortFunc(slot0.maps[slot5].sortedItems)
 		end
 	end

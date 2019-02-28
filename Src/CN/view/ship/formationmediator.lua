@@ -53,7 +53,7 @@ function slot0.register(slot0)
 			slot0.contextData.contextData.toggle = slot2
 			slot0 = {}
 
-			for slot4, slot5 in ipairs(slot1.ships) do
+			for slot4, slot5 in ipairs(slot1:getShipIds()) do
 				table.insert(slot0, slot0.ships[slot5])
 			end
 

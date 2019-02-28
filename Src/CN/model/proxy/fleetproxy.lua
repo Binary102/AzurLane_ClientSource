@@ -5,6 +5,8 @@ slot0.FLEET_RENAMED = "fleet renamed"
 slot0.PVP_FLEET_ID = 101
 
 function slot0.register(slot0)
+	slot0.activityFleetData = {}
+
 	slot0:on(12101, function (slot0)
 		slot0.data = {}
 
@@ -182,6 +184,97 @@ function slot0.getCommanders(slot0)
 	end
 
 	return slot1
+end
+
+function slot0.getActivityFleets(slot0)
+	return slot0.activityFleetData
+end
+
+function slot0.addActivityFleet(slot0, slot1, slot2)
+	if not slot0.activityFleetData[slot1] then
+		slot0.activityFleetData[slot1] = {}
+	end
+
+	slot3 = slot0.activityFleetData[slot1]
+
+	for slot7, slot8 in ipairs(slot2) do
+		slot3[Fleet.New(slot8).id] = Fleet.New(slot8)
+	end
+
+	slot5 = pg.activity_event_worldboss[pg.activity_template[slot1].config_id].group_num
+	slot6 = pg.activity_event_worldboss[pg.activity_template[slot1].config_id].submarine_num
+	slot7 = 0
+
+	while slot5 > slot7 do
+		if slot3[slot7 + 1] == nil then
+			slot3[slot7] = Fleet.New({
+				id = slot7,
+				ship_list = {}
+			})
+		end
+	end
+
+	slot7 = 0
+
+	while slot6 > slot7 do
+		if slot3[Fleet.SUBMARINE_FLEET_ID + slot7] == nil then
+			slot3[slot8] = Fleet.New({
+				id = slot8,
+				ship_list = {}
+			})
+		end
+
+		slot7 = slot7 + 1
+	end
+end
+
+function slot0.updateActivityFleet(slot0, slot1, slot2, slot3)
+	slot0.activityFleetData[slot1][slot2] = slot3
+end
+
+function slot0.commitActivityFleet(slot0, slot1)
+	slot0.editSrcCache = nil
+	slot0.EdittingFleet = nil
+
+	slot0.facade:sendNotification(GAME.EDIT_ACTIVITY_FLEET, {
+		actID = slot1,
+		fleets = slot0.activityFleetData[slot1]
+	})
+end
+
+function slot0.checkActivityFleet(slot0, slot1)
+	for slot6, slot7 in pairs(slot2) do
+		if slot6 < Fleet.SUBMARINE_FLEET_ID and slot7:isLegalToFight() == true then
+			return true
+		end
+	end
+
+	return false
+end
+
+function slot0.removeActivityFleetCommander(slot0, slot1)
+	for slot5, slot6 in pairs(slot0.activityFleetData) do
+		for slot10, slot11 in pairs(slot6) do
+			slot12 = false
+
+			for slot17, slot18 in pairs(slot13) do
+				if slot1 == slot18.id then
+					slot11:updateCommanderByPos(slot17, nil)
+					slot11:updateCommanderSkills()
+					slot0:updateActivityFleet(slot5, slot10, slot11)
+					slot0:commitActivityFleet(slot5)
+
+					slot12 = true
+
+					break
+				end
+			end
+
+			if slot12 then
+				break
+			end
+		end
+	end
 end
 
 return slot0

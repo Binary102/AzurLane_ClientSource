@@ -5302,43 +5302,50 @@ function slot10(slot0)
 		slot2 = slot1.SetEndEvent
 
 		function slot4(slot0)
-			slot1 = slot0
-			slot1 = slot1.awakenAni
-			slot2 = slot1
-			slot1 = slot1.GetComponent
-			slot3 = "Animator"
-			slot1 = slot1(slot2, slot3)
-			slot2 = slot1
-			slot1 = slot1.SetBool
-			slot3 = "endFlag"
-			slot4 = false
+			slot1 = IsNil
+			slot2 = slot0
+			slot2 = slot2.awakenAni
+			slot1 = slot1(slot2)
 
-			slot1(slot2, slot3, slot4)
+			if not slot1 then
+				slot1 = slot0
+				slot1 = slot1.awakenAni
+				slot2 = slot1
+				slot1 = slot1.GetComponent
+				slot3 = "Animator"
+				slot1 = slot1(slot2, slot3)
+				slot2 = slot1
+				slot1 = slot1.SetBool
+				slot3 = "endFlag"
+				slot4 = false
 
-			slot1 = pg
-			slot1 = slot1.UIMgr
-			slot1 = slot1.GetInstance
-			slot1 = slot1()
-			slot2 = slot1
-			slot1 = slot1.UnblurPanel
-			slot3 = slot0
-			slot3 = slot3.awakenAni
-			slot4 = slot0
-			slot4 = slot4.common
+				slot1(slot2, slot3, slot4)
 
-			slot1(slot2, slot3, slot4)
+				slot1 = pg
+				slot1 = slot1.UIMgr
+				slot1 = slot1.GetInstance
+				slot1 = slot1()
+				slot2 = slot1
+				slot1 = slot1.UnblurPanel
+				slot3 = slot0
+				slot3 = slot3.awakenAni
+				slot4 = slot0
+				slot4 = slot4.common
 
-			slot1 = slot0
-			slot1 = slot1.awakenAni
-			slot2 = slot1
-			slot1 = slot1.SetActive
-			slot3 = false
+				slot1(slot2, slot3, slot4)
 
-			slot1(slot2, slot3)
+				slot1 = slot0
+				slot1 = slot1.awakenAni
+				slot2 = slot1
+				slot1 = slot1.SetActive
+				slot3 = false
 
-			slot1 = slot0
-			slot2 = false
-			slot1.awakenPlay = slot2
+				slot1(slot2, slot3)
+
+				slot1 = slot0
+				slot2 = false
+				slot1.awakenPlay = slot2
+			end
 		end
 
 		slot2(slot3, slot4)

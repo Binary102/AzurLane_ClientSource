@@ -992,6 +992,15 @@ function slot1(slot0, slot1, slot2)
 
 			slot5(slot6, slot7)
 
+			slot5 = setActive
+			slot6 = findTF
+			slot7 = slot2
+			slot8 = "ship_type"
+			slot6 = slot6(slot7, slot8)
+			slot7 = false
+
+			slot5(slot6, slot7)
+
 			slot6 = slot2
 			slot5 = slot2.Find
 			slot7 = "icon_bg/energy"

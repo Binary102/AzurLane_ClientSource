@@ -197,7 +197,7 @@ end
 function slot0.getShipsByFleet(slot0, slot1)
 	slot2 = {}
 
-	for slot6, slot7 in ipairs(slot1.ships) do
+	for slot6, slot7 in ipairs(slot1:getShipIds()) do
 		table.insert(slot2, slot0.data[slot7])
 	end
 
@@ -216,6 +216,26 @@ function slot0.getSortShipsByFleet(slot0, slot1)
 	end
 
 	return Clone(slot2)
+end
+
+function slot0.getShipByTeam(slot0, slot1, slot2)
+	slot3 = {}
+
+	if slot2 == TeamType.Vanguard then
+		for slot7, slot8 in ipairs(slot1.vanguardShips) do
+			table.insert(slot3, slot0.data[slot8])
+		end
+	elseif slot2 == TeamType.Main then
+		for slot7, slot8 in ipairs(slot1.mainShips) do
+			table.insert(slot3, slot0.data[slot8])
+		end
+	elseif slot2 == TeamType.Submarine then
+		for slot7, slot8 in ipairs(slot1.subShips) do
+			table.insert(slot3, slot0.data[slot8])
+		end
+	end
+
+	return Clone(slot3)
 end
 
 function slot0.getShipsByTypes(slot0, slot1)
@@ -544,6 +564,42 @@ function slot0.getChallengeRecommendShip(slot0, slot1, slot2)
 	end
 
 	return slot7
+end
+
+function slot0.getActivityRecommendShips(slot0, slot1, slot2, slot3)
+	slot5 = {}
+
+	for slot9, slot10 in ipairs(slot4) do
+		slot5[slot10] = slot10:getShipCombatPower()
+	end
+
+	table.sort(slot4, function (slot0, slot1)
+		return slot0[slot0] < slot0[slot1]
+	end)
+
+	slot6 = {}
+
+	for slot10, slot11 in ipairs(slot2) do
+		slot6[#slot6 + 1] = slot0.data[slot11]:getGroupId()
+	end
+
+	slot7 = #slot4
+	slot8 = {}
+
+	while slot7 > 0 and slot3 > 0 do
+		slot11 = slot4[slot7].getGroupId(slot9)
+
+		if not table.contains(slot2, slot4[slot7].id) and not table.contains(slot6, slot11) then
+			table.insert(slot8, slot9)
+			table.insert(slot6, slot11)
+
+			slot3 = slot3 - 1
+		end
+
+		slot7 = slot7 - 1
+	end
+
+	return slot8
 end
 
 function slot0.getDelegationRecommendShips(slot0, slot1)

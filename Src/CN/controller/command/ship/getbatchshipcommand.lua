@@ -1,17 +1,17 @@
 class("GetBatchShipCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 	slot3 = getProxy(BuildShipProxy).getData(slot2)
 	slot5 = slot1:getBody() or {}.anim
-	slot8 = slot2:getNeedFinishCount()
-	slot10 = getProxy(PlayerProxy):getData()
+	slot7 = getProxy(BagProxy).getItemById(slot6, ITEM_ID_EQUIP_QUICK_FINISH)
+	slot10 = getProxy(PlayerProxy).getData(slot9)
 
-	if not getProxy(BagProxy).getItemById(slot6, ITEM_ID_EQUIP_QUICK_FINISH) or slot7.count == 0 then
+	if slot2:getNeedFinishCount() > 0 and (not slot7 or slot7.count == 0) then
 		pg.TipsMgr:GetInstance():ShowTips(i18n("common_no_item_1"))
 
 		return
 	end
 
-	slot8 = math.min(slot8, slot7.count)
-	slot12 = table.getCount(getProxy(BayProxy).getData(slot11))
+	slot8 = math.min(slot8, (slot7 and slot7.count) or 0)
+	slot12 = table.getCount(getProxy(BayProxy).getData(math.min))
 	slot13 = {}
 	slot14 = 0
 

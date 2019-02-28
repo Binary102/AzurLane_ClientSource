@@ -69,6 +69,24 @@ function slot0.execute(slot0, slot1)
 					print("finish stage error: can not find submarine fleet.")
 				end
 			end
+		elseif slot6 == SYSTEM_HP_SHARE_ACT_BOSS then
+			slot14 = slot3:getShipsByFleet(slot9:getActivityFleets()[slot2.actID][slot2.mainFleetId])
+			slot12 = slot9.getActivityFleets()[slot2.actID][slot2.mainFleetId].getEndCost(slot17).gold
+			slot13 = slot9.getActivityFleets()[slot2.actID][slot2.mainFleetId].getEndCost(slot17).oil
+
+			if slot2.statistics.submarineAid then
+				if slot9:getActivityFleets()[slot2.actID][Fleet.SUBMARINE_FLEET_ID] then
+					for slot26, slot27 in ipairs(slot22) do
+						if slot2.statistics[slot27.id] then
+							table.insert(slot14, slot27)
+
+							slot13 = slot13 + slot27:getEndBattleExpend()
+						end
+					end
+				else
+					print("finish stage error: can not find submarine fleet.")
+				end
+			end
 		elseif slot6 == SYSTEM_SHAM then
 			slot14 = {}
 
@@ -115,6 +133,10 @@ function slot0.execute(slot0, slot1)
 			slot13 = slot15.getEndCost().oil
 		end
 
+		if slot6 == SYSTEM_HP_SHARE_ACT_BOSS then
+			slot11 = ys.Battle.BattleConst.BattleScore.S
+		end
+
 		slot15 = 0
 		slot16 = {}
 		slot17 = slot6 + slot5 + slot11
@@ -152,11 +174,23 @@ function slot0.execute(slot0, slot1)
 			end
 		end
 
-		if slot6 == SYSTEM_SCENARIO then
-			slot19 = slot10:getActiveChapter()
+		slot18 = {}
 
-			slot19:writeBack(ys.Battle.BattleConst.BattleScore.C < slot11, slot2)
-			slot10:updateChapter(slot19)
+		if slot6 == SYSTEM_HP_SHARE_ACT_BOSS then
+			for slot22, slot23 in ipairs(slot2.statistics._enemyInfoList) do
+				table.insert(slot18, {
+					enemy_id = slot23.id,
+					damage_taken = slot23.damage,
+					total_hp = slot23.totalHp
+				})
+			end
+		end
+
+		if slot6 == SYSTEM_SCENARIO then
+			slot20 = slot10:getActiveChapter()
+
+			slot20:writeBack(ys.Battle.BattleConst.BattleScore.C < slot11, slot2)
+			slot10:updateChapter(slot20)
 		end
 
 		pg.ConnectionMgr.GetInstance():Send(40003, {
@@ -169,9 +203,10 @@ function slot0.execute(slot0, slot1)
 			total_time = slot2.statistics._totalTime,
 			bot_percentage = slot2.statistics._botPercentage,
 			extra_param = slot15,
-			file_check = tostring(math.floor((GetBattleCheck() % 88824 * slot2.token % 88824) % (88824 + math.floor((slot17 % 49993 * slot2.token % 49993) % 49993 + slot2.statistics._totalTime))))
+			file_check = tostring(math.floor((GetBattleCheck() % 88824 * slot2.token % 88824) % (88824 + math.floor((slot17 % 49993 * slot2.token % 49993) % 49993 + slot2.statistics._totalTime)))),
+			enemy_info = slot18
 		}, 40004, function (slot0)
-			if slot0.result == 0 then
+			if slot0.result == 0 or slot0.result == 1030 then
 				if slot0 == SYSTEM_PERFORM then
 					slot1:sendNotification(GAME.FINISH_STAGE_DONE, {
 						system = slot0,
@@ -274,7 +309,8 @@ function slot0.execute(slot0, slot1)
 					score = slot5,
 					drops = slot2,
 					prefabFleet = prefabFleet,
-					commanderExps = slot1.commanderExpList or {}
+					commanderExps = slot1.commanderExpList or {},
+					result = slot0.result
 				})
 
 				if slot0 == SYSTEM_SCENARIO then
@@ -331,8 +367,6 @@ function slot0.execute(slot0, slot1)
 
 					slot10:updateChallenge(slot5)
 				end
-			elseif slot0.result == 1030 then
-				pg.TipsMgr:GetInstance():ShowTips(i18n("md5_error"))
 			else
 				print("stage_finishStage error--" .. slot0.result)
 				pg.TipsMgr:GetInstance():ShowTips(errorTip("stage_finishStage", slot0.result))

@@ -212,9 +212,16 @@ function slot0.updateExchangeShips(slot0, slot1, slot2, slot3)
 end
 
 function slot0.updateFlagShipChangeTime(slot0)
+	slot2 = slot0.flagShipTime - pg.TimeMgr.GetInstance():GetServerTime()
 	slot3 = ""
 
-	if slot0.flagShipTime - pg.TimeMgr.GetInstance():GetServerTime() < 86400 then
+	if slot0.downCountTimer then
+		slot0.downCountTimer:Stop()
+
+		slot0.downCountTimer = nil
+	end
+
+	if slot2 < 86400 then
 		slot0.downCountTimer = Timer.New(function ()
 			slot1 = pg.TimeMgr:GetInstance():DescCDTime(slot0.flagShipTime - pg.TimeMgr.GetInstance():GetServerTime())
 

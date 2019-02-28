@@ -29372,6 +29372,134 @@ pg.enemy_data_statistics = {
 		},
 		equipment_list = {}
 	},
+	[339] = {
+		cannon = 0,
+		name = "世界BOSS埃塞克斯",
+		antiaircraft_growth = 0,
+		speed_growth = 0,
+		luck = 0,
+		air = 0,
+		nationality = 1,
+		icon_type = 7,
+		type = 7,
+		rarity = 0,
+		antiaircraft = 0,
+		dodge_growth = 0,
+		icon = "aisaikesi",
+		star = 0,
+		battle_unit_type = 49,
+		antisub_growth = 0,
+		air_growth = 0,
+		antisub = 0,
+		friendly_cld = 0,
+		durability = 99999,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		bubble_interval = 0,
+		speed = 15,
+		armor = 0,
+		id = 339,
+		scale = 150,
+		drop_id = 0,
+		wave_fx = "movewave",
+		prefab = "aisaikesi",
+		cannon_growth = 0,
+		pilot_ai_template_id = 20001,
+		reload = 150,
+		bubble_fx = "",
+		dodge = 0,
+		bubble_initial = 0,
+		reload_growth = 0,
+		hit = 0,
+		torpedo = 0,
+		durability_growth = 0,
+		luck_growth = 0,
+		hit_growth = 0,
+		armor_type = 2,
+		cld_box = {
+			5.5,
+			7.5,
+			10
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.1,
+					1.3,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.1,
+					0.43,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.18,
+					0.27,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.1,
+					0.43,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.41,
+							2.37,
+							0
+						}
+					}
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		appear_fx = {},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		hp_bar = {
+			150,
+			4
+		},
+		equipment_list = {}
+	},
 	[400] = {
 		cannon = 6,
 		name = "无名老妖",
@@ -139040,6 +139168,182 @@ pg.enemy_data_statistics = {
 		},
 		equipment_list = {}
 	},
+	[11900101] = {
+		cannon = 420,
+		name = "埃塞克斯",
+		antiaircraft = 520,
+		speed_growth = 0,
+		armor = 0,
+		air = 520,
+		battle_unit_type = 95,
+		hit_growth = 210,
+		antisub = 0,
+		bubble_fx = "",
+		bubble_initial = 0,
+		dodge_growth = 284,
+		antisub_growth = 0,
+		air_growth = 0,
+		base = 339,
+		durability = 1000000,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		bubble_interval = 0,
+		speed = 30,
+		luck = 0,
+		id = 11900101,
+		cannon_growth = 0,
+		pilot_ai_template_id = 20001,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 200,
+		torpedo = 0,
+		durability_growth = 0,
+		luck_growth = 0,
+		antiaircraft_growth = 0,
+		appear_fx = {
+			"bossguangxiao",
+			"appearQ"
+		},
+		cld_box = {
+			5.5,
+			7.5,
+			8
+		},
+		equipment_list = {}
+	},
+	[11900102] = {
+		cannon = 420,
+		name = "埃塞克斯",
+		antiaircraft = 520,
+		speed_growth = 0,
+		armor = 0,
+		air = 520,
+		battle_unit_type = 95,
+		hit_growth = 210,
+		antisub = 0,
+		bubble_fx = "",
+		bubble_initial = 0,
+		dodge_growth = 284,
+		antisub_growth = 0,
+		air_growth = 0,
+		base = 339,
+		durability = 1000000,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		bubble_interval = 0,
+		speed = 30,
+		luck = 0,
+		id = 11900102,
+		cannon_growth = 0,
+		pilot_ai_template_id = 20001,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 200,
+		torpedo = 0,
+		durability_growth = 0,
+		luck_growth = 0,
+		antiaircraft_growth = 0,
+		appear_fx = {
+			"bossguangxiao",
+			"appearQ"
+		},
+		cld_box = {
+			5.5,
+			7.5,
+			8
+		},
+		equipment_list = {}
+	},
+	[11900103] = {
+		cannon = 420,
+		name = "埃塞克斯",
+		antiaircraft = 520,
+		speed_growth = 0,
+		armor = 0,
+		air = 520,
+		battle_unit_type = 95,
+		hit_growth = 210,
+		antisub = 0,
+		bubble_fx = "",
+		bubble_initial = 0,
+		dodge_growth = 284,
+		antisub_growth = 0,
+		air_growth = 0,
+		base = 339,
+		durability = 1000000,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		bubble_interval = 0,
+		speed = 30,
+		luck = 0,
+		id = 11900103,
+		cannon_growth = 0,
+		pilot_ai_template_id = 20001,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 200,
+		torpedo = 0,
+		durability_growth = 0,
+		luck_growth = 0,
+		antiaircraft_growth = 0,
+		appear_fx = {
+			"bossguangxiao",
+			"appearQ"
+		},
+		cld_box = {
+			5.5,
+			7.5,
+			8
+		},
+		equipment_list = {}
+	},
+	[11900104] = {
+		cannon = 420,
+		name = "埃塞克斯",
+		antiaircraft = 520,
+		speed_growth = 0,
+		armor = 0,
+		air = 520,
+		battle_unit_type = 95,
+		hit_growth = 210,
+		antisub = 0,
+		bubble_fx = "",
+		bubble_initial = 0,
+		dodge_growth = 284,
+		antisub_growth = 0,
+		air_growth = 0,
+		base = 339,
+		durability = 1000000,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		bubble_interval = 0,
+		speed = 30,
+		luck = 0,
+		id = 11900104,
+		cannon_growth = 0,
+		pilot_ai_template_id = 20001,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 200,
+		torpedo = 0,
+		durability_growth = 0,
+		luck_growth = 0,
+		antiaircraft_growth = 0,
+		appear_fx = {
+			"bossguangxiao",
+			"appearQ"
+		},
+		cld_box = {
+			5.5,
+			7.5,
+			8
+		},
+		equipment_list = {}
+	},
 	[900001] = {
 		name = "拉菲",
 		antisub = 0,
@@ -141675,6 +141979,7 @@ pg.enemy_data_statistics = {
 		336,
 		337,
 		338,
+		339,
 		400,
 		401,
 		402,
@@ -143953,6 +144258,10 @@ pg.enemy_data_statistics = {
 		11800462,
 		11800501,
 		11800502,
+		11900101,
+		11900102,
+		11900103,
+		11900104,
 		900001,
 		900002,
 		900003,

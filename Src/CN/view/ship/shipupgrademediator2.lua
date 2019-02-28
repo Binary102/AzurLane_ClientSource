@@ -34,7 +34,8 @@ function slot0.register(slot0)
 		slot0:sendNotification(GAME.GO_SCENE, SCENE.DOCKYARD, {
 			skipSelect = true,
 			flags = {
-				inSham = true
+				inSham = true,
+				inActivity = true
 			},
 			selectedMax = slot2 or 1,
 			selectedMin = slot2 or 1,

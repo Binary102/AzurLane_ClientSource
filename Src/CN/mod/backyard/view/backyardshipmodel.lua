@@ -1372,6 +1372,8 @@ function slot0.clearSpineExtra(slot0, slot1, slot2)
 		slot0:closeBodyMask()
 	end
 
+	slot0.tf.eulerAngles = Vector3(0, 0, 0)
+
 	return
 end
 

@@ -1,21 +1,18 @@
 class("AddItemCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 	if slot1:getBody().dropType == DROP_TYPE_RESOURCE then
-		getProxy(PlayerProxy).getData(slot4).addResources(slot5, {
+		slot4 = getProxy(PlayerProxy)
+		slot5 = slot4:getData()
+
+		slot5:addResources({
 			[id2res(slot2.id)] = slot2.count
 		})
-
-		for slot11, slot12 in ipairs(slot7) do
-			if slot2.id == slot12:getConfig("config_id") and not slot12:isEnd() then
-				slot12.data1 = slot2.count + slot12.data1
-
-				slot6:updateActivity(slot12)
-
-				break
-			end
-		end
-
+		slot7(getProxy(ActivityProxy).getActivitiesByType(slot6, ActivityConst.ACTIVITY_TYPE_PT_RANK))
 		slot4:updatePlayer(slot5)
-	elseif slot2.dropType == DROP_TYPE_ITEM then
+
+		return
+	end
+
+	if slot2.dropType == DROP_TYPE_ITEM then
 		slot3 = getProxy(BagProxy)
 
 		if Item.New({

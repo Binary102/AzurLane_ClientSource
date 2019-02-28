@@ -17474,7 +17474,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Cleveland-Class"
+		}
 	},
 	[102092] = {
 		oxy_max = 0,
@@ -17596,7 +17598,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Cleveland-Class"
+		}
 	},
 	[102093] = {
 		oxy_max = 0,
@@ -17718,7 +17722,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Cleveland-Class"
+		}
 	},
 	[102094] = {
 		oxy_max = 0,
@@ -17840,7 +17846,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Cleveland-Class"
+		}
 	},
 	[102101] = {
 		oxy_max = 0,
@@ -17962,7 +17970,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Cleveland-Class"
+		}
 	},
 	[102102] = {
 		oxy_max = 0,
@@ -18084,7 +18094,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Cleveland-Class"
+		}
 	},
 	[102103] = {
 		oxy_max = 0,
@@ -18206,7 +18218,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Cleveland-Class"
+		}
 	},
 	[102104] = {
 		oxy_max = 0,
@@ -18328,7 +18342,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Cleveland-Class"
+		}
 	},
 	[102111] = {
 		oxy_max = 0,
@@ -19922,7 +19938,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Cleveland-Class"
+		}
 	},
 	[102142] = {
 		oxy_max = 0,
@@ -20044,7 +20062,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Cleveland-Class"
+		}
 	},
 	[102143] = {
 		oxy_max = 0,
@@ -20166,7 +20186,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Cleveland-Class"
+		}
 	},
 	[102144] = {
 		oxy_max = 0,
@@ -20288,7 +20310,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Cleveland-Class"
+		}
 	},
 	[102151] = {
 		oxy_max = 0,
@@ -20410,7 +20434,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Cleveland-Class"
+		}
 	},
 	[102152] = {
 		oxy_max = 0,
@@ -20532,7 +20558,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Cleveland-Class"
+		}
 	},
 	[102153] = {
 		oxy_max = 0,
@@ -20654,7 +20682,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Cleveland-Class"
+		}
 	},
 	[102154] = {
 		oxy_max = 0,
@@ -20776,7 +20806,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Cleveland-Class"
+		}
 	},
 	[102161] = {
 		oxy_max = 0,
@@ -38842,6 +38874,970 @@ pg.ship_data_statistics = {
 			1.4,
 			1.3,
 			1.2
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[107221] = {
+		oxy_max = 0,
+		type = 6,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "인디펜던스 ",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 2,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 107221,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Independence",
+		skin_id = 107220,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 1,
+		armor_type = 2,
+		attrs = {
+			800,
+			0,
+			0,
+			50,
+			58,
+			67,
+			0,
+			29,
+			21,
+			31,
+			78,
+			26
+		},
+		attrs_growth = {
+			19505,
+			0,
+			0,
+			984,
+			572,
+			332,
+			0,
+			426,
+			306,
+			0,
+			0,
+			258
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"E",
+			"E",
+			"A",
+			"C",
+			"B",
+			"B"
+		},
+		lock = {
+			"cannon",
+			"torpedo"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			109,
+			110,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			1.3,
+			0.8
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[107222] = {
+		oxy_max = 0,
+		type = 6,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "인디펜던스 ",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 107222,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Independence",
+		skin_id = 107220,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 1,
+		armor_type = 2,
+		attrs = {
+			995,
+			0,
+			0,
+			62,
+			72,
+			67,
+			0,
+			29,
+			21,
+			31,
+			78,
+			32
+		},
+		attrs_growth = {
+			19505,
+			0,
+			0,
+			984,
+			572,
+			332,
+			0,
+			426,
+			306,
+			0,
+			0,
+			258
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"E",
+			"E",
+			"A",
+			"C",
+			"B",
+			"B"
+		},
+		lock = {
+			"cannon",
+			"torpedo"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			109,
+			110,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.3,
+			0.8
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[107223] = {
+		oxy_max = 0,
+		type = 6,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "인디펜던스 ",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 107223,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Independence",
+		skin_id = 107220,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 1,
+		armor_type = 2,
+		attrs = {
+			1385,
+			0,
+			0,
+			87,
+			101,
+			67,
+			0,
+			29,
+			21,
+			31,
+			78,
+			45
+		},
+		attrs_growth = {
+			19505,
+			0,
+			0,
+			984,
+			572,
+			332,
+			0,
+			426,
+			306,
+			0,
+			0,
+			258
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"E",
+			"E",
+			"A",
+			"C",
+			"B",
+			"B"
+		},
+		lock = {
+			"cannon",
+			"torpedo"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			109,
+			110,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			2,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.3,
+			1.3,
+			0.8
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[107224] = {
+		oxy_max = 0,
+		type = 6,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "인디펜던스 ",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 107224,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Independence",
+		skin_id = 107220,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 1,
+		armor_type = 2,
+		attrs = {
+			1970,
+			0,
+			0,
+			124,
+			144,
+			67,
+			0,
+			29,
+			21,
+			31,
+			78,
+			65
+		},
+		attrs_growth = {
+			19505,
+			0,
+			0,
+			984,
+			572,
+			332,
+			0,
+			426,
+			306,
+			0,
+			0,
+			258
+		},
+		attrs_growth_extra = {
+			11697,
+			0,
+			0,
+			615,
+			1172,
+			786,
+			0,
+			229,
+			1049,
+			0,
+			0,
+			357
+		},
+		grades = {
+			"E",
+			"E",
+			"A",
+			"C",
+			"B",
+			"B"
+		},
+		lock = {
+			"cannon",
+			"torpedo"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			109,
+			110,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			3,
+			3,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.3,
+			1.45,
+			0.8
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[107381] = {
+		oxy_max = 0,
+		type = 7,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "샹그릴라 ",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		rarity = 5,
+		ammo = 0,
+		id = 107381,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Shangri-La",
+		skin_id = 107380,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 1,
+		armor_type = 2,
+		attrs = {
+			1108,
+			0,
+			0,
+			63,
+			82,
+			48,
+			0,
+			31,
+			13,
+			33,
+			83,
+			0
+		},
+		attrs_growth = {
+			27030,
+			0,
+			0,
+			1232,
+			816,
+			238,
+			0,
+			462,
+			198,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"E",
+			"E",
+			"S",
+			"B",
+			"B",
+			"B"
+		},
+		lock = {
+			"cannon",
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			109,
+			111,
+			110
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.25,
+			1.15,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[107382] = {
+		oxy_max = 0,
+		type = 7,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "샹그릴라 ",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		rarity = 5,
+		ammo = 0,
+		id = 107382,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Shangri-La",
+		skin_id = 107380,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 1,
+		armor_type = 2,
+		attrs = {
+			1378,
+			0,
+			0,
+			78,
+			102,
+			48,
+			0,
+			31,
+			13,
+			33,
+			83,
+			0
+		},
+		attrs_growth = {
+			27030,
+			0,
+			0,
+			1232,
+			816,
+			238,
+			0,
+			462,
+			198,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"E",
+			"E",
+			"S",
+			"B",
+			"B",
+			"B"
+		},
+		lock = {
+			"cannon",
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			109,
+			111,
+			110
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.28,
+			1.18,
+			1.03
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[107383] = {
+		oxy_max = 0,
+		type = 7,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "샹그릴라 ",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		rarity = 5,
+		ammo = 0,
+		id = 107383,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Shangri-La",
+		skin_id = 107380,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 1,
+		armor_type = 2,
+		attrs = {
+			1919,
+			0,
+			0,
+			109,
+			143,
+			48,
+			0,
+			31,
+			13,
+			33,
+			83,
+			0
+		},
+		attrs_growth = {
+			27030,
+			0,
+			0,
+			1232,
+			816,
+			238,
+			0,
+			462,
+			198,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"E",
+			"E",
+			"S",
+			"B",
+			"B",
+			"B"
+		},
+		lock = {
+			"cannon",
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			109,
+			111,
+			110
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			2,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.33,
+			1.23,
+			1.08
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[107384] = {
+		oxy_max = 0,
+		type = 7,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "샹그릴라 ",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 6,
+		oxy_recovery = 0,
+		rarity = 5,
+		ammo = 0,
+		id = 107384,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Shangri-La",
+		skin_id = 107380,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 1,
+		armor_type = 2,
+		attrs = {
+			2730,
+			0,
+			0,
+			155,
+			204,
+			48,
+			0,
+			31,
+			13,
+			33,
+			83,
+			0
+		},
+		attrs_growth = {
+			27030,
+			0,
+			0,
+			1232,
+			816,
+			238,
+			0,
+			462,
+			198,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			16212,
+			0,
+			0,
+			576,
+			1170,
+			565,
+			0,
+			-2,
+			762,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"E",
+			"E",
+			"S",
+			"B",
+			"B",
+			"B"
+		},
+		lock = {
+			"cannon",
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			109,
+			111,
+			110
+		},
+		depth_charge_list = {},
+		base_list = {
+			3,
+			3,
+			2
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.4,
+			1.3,
+			1.15
 		},
 		strategy_list = {},
 		strategy_list_ai = {},
@@ -163309,6 +164305,14 @@ pg.ship_data_statistics = {
 		107092,
 		107093,
 		107094,
+		107221,
+		107222,
+		107223,
+		107224,
+		107381,
+		107382,
+		107383,
+		107384,
 		108011,
 		108012,
 		108013,

@@ -21612,6 +21612,141 @@ pg.bullet_template = {
 		},
 		push_power = {}
 	},
+	[19988] = {
+		range_offset = 20,
+		modle_ID = "Bomberbomb1",
+		type = 2,
+		antisub_enhancement = 0,
+		nobreakdown_sfx = "",
+		alert_fx = "AlertArea",
+		nobreakdown_fx = "huohua",
+		out_bound = 0,
+		miss_fx = "ShellMissBig",
+		miss_sfx = "",
+		hit_fx = "ShellHit",
+		range = 200,
+		effect_type = 1,
+		hit_sfx = "battle/hit",
+		track_fx = "",
+		pierce_count = 0,
+		ammo_type = 1,
+		id = 19988,
+		velocity = 0,
+		damage_type = {
+			0.8,
+			0.9,
+			1.1
+		},
+		DMG_font = {
+			{
+				3,
+				0.9
+			},
+			{
+				3,
+				1
+			},
+			{
+				3,
+				1.1
+			}
+		},
+		acceleration = {},
+		cld_box = {
+			1.8,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		hit_type = {
+			time = -1,
+			range = 15
+		},
+		attach_buff = {},
+		extra_param = {
+			gravity = -0.05,
+			randomOffsetX = 36,
+			launchVrtSpeed = -3,
+			offsetY = 60,
+			airdrop = true,
+			offsetX = -5,
+			randomOffsetZ = 36,
+			diveFilter = {
+				2
+			}
+		},
+		push_power = {}
+	},
+	[19989] = {
+		range_offset = 20,
+		modle_ID = "Bomberbomb1",
+		type = 2,
+		antisub_enhancement = 0,
+		nobreakdown_sfx = "",
+		alert_fx = "AlertArea",
+		nobreakdown_fx = "huohua",
+		out_bound = 0,
+		miss_fx = "ShellMissBig",
+		miss_sfx = "",
+		hit_fx = "ShellHit",
+		range = 200,
+		effect_type = 1,
+		hit_sfx = "battle/hit",
+		track_fx = "",
+		pierce_count = 0,
+		ammo_type = 1,
+		id = 19989,
+		velocity = 0,
+		damage_type = {
+			0.8,
+			0.9,
+			1.1
+		},
+		DMG_font = {
+			{
+				3,
+				0.9
+			},
+			{
+				3,
+				1
+			},
+			{
+				3,
+				1.1
+			}
+		},
+		acceleration = {},
+		cld_box = {
+			1.8,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		hit_type = {
+			time = -1,
+			range = 15
+		},
+		attach_buff = {},
+		extra_param = {
+			gravity = -0.05,
+			launchVrtSpeed = -3,
+			offsetY = 60,
+			airdrop = true,
+			diveFilter = {
+				2
+			}
+		},
+		push_power = {}
+	},
 	[20001] = {
 		range_offset = 20,
 		modle_ID = "newBullet2",
@@ -75038,6 +75173,616 @@ pg.bullet_template = {
 		extra_param = {},
 		push_power = {}
 	},
+	[600801] = {
+		range_offset = 10,
+		modle_ID = "BulletGER",
+		type = 1,
+		antisub_enhancement = 0,
+		nobreakdown_sfx = "",
+		alert_fx = "",
+		nobreakdown_fx = "huohua",
+		out_bound = 1,
+		miss_fx = "ShellMiss",
+		miss_sfx = "",
+		hit_fx = "Clhit",
+		range = 80,
+		effect_type = 1,
+		hit_sfx = "battle/hit",
+		track_fx = "",
+		pierce_count = 3,
+		ammo_type = 2,
+		id = 600801,
+		velocity = 6,
+		damage_type = {
+			0.8,
+			1,
+			1.3
+		},
+		DMG_font = {
+			{
+				1,
+				1
+			},
+			{
+				1,
+				1
+			},
+			{
+				1,
+				1
+			}
+		},
+		acceleration = {
+			{
+				u = 0,
+				flip = false,
+				v = -0.2,
+				t = 1
+			}
+		},
+		cld_box = {
+			6,
+			2,
+			2
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		hit_type = {},
+		attach_buff = {},
+		extra_param = {},
+		push_power = {}
+	},
+	[600802] = {
+		range_offset = 0,
+		modle_ID = "bullet1",
+		type = 1,
+		antisub_enhancement = 0,
+		nobreakdown_sfx = "",
+		alert_fx = "",
+		nobreakdown_fx = "huohua",
+		out_bound = 1,
+		miss_fx = "ShellMiss",
+		miss_sfx = "battle/sink",
+		hit_fx = "BlueHit",
+		range = 90,
+		effect_type = 1,
+		hit_sfx = "battle/hit",
+		track_fx = "",
+		pierce_count = 0,
+		ammo_type = 1,
+		id = 600802,
+		velocity = 8,
+		damage_type = {
+			1,
+			0.8,
+			0.6
+		},
+		DMG_font = {
+			{
+				1,
+				1
+			},
+			{
+				1,
+				1
+			},
+			{
+				1,
+				1
+			}
+		},
+		acceleration = {
+			{
+				u = 0,
+				flip = false,
+				v = 0.27,
+				t = 0
+			},
+			{
+				u = 0,
+				flip = false,
+				v = -0.27,
+				t = 0.5
+			},
+			{
+				u = 0,
+				flip = false,
+				v = 0.5,
+				t = 1
+			},
+			{
+				u = 0,
+				flip = false,
+				v = 0,
+				t = 1.2
+			}
+		},
+		cld_box = {
+			2,
+			2,
+			2
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		hit_type = {},
+		attach_buff = {},
+		extra_param = {},
+		push_power = {}
+	},
+	[600803] = {
+		range_offset = 0,
+		modle_ID = "bullet1",
+		type = 1,
+		antisub_enhancement = 0,
+		nobreakdown_sfx = "",
+		alert_fx = "",
+		nobreakdown_fx = "huohua",
+		out_bound = 1,
+		miss_fx = "ShellMiss",
+		miss_sfx = "battle/sink",
+		hit_fx = "BlueHit",
+		range = 90,
+		effect_type = 1,
+		hit_sfx = "battle/hit",
+		track_fx = "",
+		pierce_count = 0,
+		ammo_type = 1,
+		id = 600803,
+		velocity = 8,
+		damage_type = {
+			1,
+			0.8,
+			0.6
+		},
+		DMG_font = {
+			{
+				1,
+				1
+			},
+			{
+				1,
+				1
+			},
+			{
+				1,
+				1
+			}
+		},
+		acceleration = {
+			{
+				u = 0,
+				flip = false,
+				v = -0.27,
+				t = 0
+			},
+			{
+				u = 0,
+				flip = false,
+				v = 0.27,
+				t = 0.5
+			},
+			{
+				u = 0,
+				flip = false,
+				v = -0.5,
+				t = 1
+			},
+			{
+				u = 0,
+				flip = false,
+				v = 0,
+				t = 1.2
+			}
+		},
+		cld_box = {
+			2,
+			2,
+			2
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		hit_type = {},
+		attach_buff = {},
+		extra_param = {},
+		push_power = {}
+	},
+	[600804] = {
+		range_offset = 0,
+		modle_ID = "bullet1",
+		type = 1,
+		antisub_enhancement = 0,
+		nobreakdown_sfx = "",
+		alert_fx = "",
+		nobreakdown_fx = "huohua",
+		out_bound = 1,
+		miss_fx = "ShellMiss",
+		miss_sfx = "battle/sink",
+		hit_fx = "BlueHit",
+		range = 90,
+		effect_type = 1,
+		hit_sfx = "battle/hit",
+		track_fx = "",
+		pierce_count = 0,
+		ammo_type = 1,
+		id = 600804,
+		velocity = 8,
+		damage_type = {
+			1,
+			0.8,
+			0.6
+		},
+		DMG_font = {
+			{
+				1,
+				1
+			},
+			{
+				1,
+				1
+			},
+			{
+				1,
+				1
+			}
+		},
+		acceleration = {
+			{
+				u = 0,
+				flip = false,
+				v = 0.27,
+				t = 0
+			},
+			{
+				u = 0,
+				flip = false,
+				v = -0.27,
+				t = 0.5
+			},
+			{
+				u = 0,
+				flip = false,
+				v = 0.5,
+				t = 1
+			},
+			{
+				u = 0,
+				flip = false,
+				v = 0,
+				t = 1.2
+			}
+		},
+		cld_box = {
+			2,
+			2,
+			2
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		hit_type = {},
+		attach_buff = {},
+		extra_param = {},
+		push_power = {}
+	},
+	[600805] = {
+		range_offset = 0,
+		modle_ID = "bullet1",
+		type = 1,
+		antisub_enhancement = 0,
+		nobreakdown_sfx = "",
+		alert_fx = "",
+		nobreakdown_fx = "huohua",
+		out_bound = 1,
+		miss_fx = "ShellMiss",
+		miss_sfx = "battle/sink",
+		hit_fx = "BlueHit",
+		range = 90,
+		effect_type = 1,
+		hit_sfx = "battle/hit",
+		track_fx = "",
+		pierce_count = 0,
+		ammo_type = 1,
+		id = 600805,
+		velocity = 8,
+		damage_type = {
+			1,
+			0.8,
+			0.6
+		},
+		DMG_font = {
+			{
+				1,
+				1
+			},
+			{
+				1,
+				1
+			},
+			{
+				1,
+				1
+			}
+		},
+		acceleration = {
+			{
+				u = 0,
+				flip = false,
+				v = -0.27,
+				t = 0
+			},
+			{
+				u = 0,
+				flip = false,
+				v = 0.27,
+				t = 0.5
+			},
+			{
+				u = 0,
+				flip = false,
+				v = -0.5,
+				t = 1
+			},
+			{
+				u = 0,
+				flip = false,
+				v = 0,
+				t = 1.2
+			}
+		},
+		cld_box = {
+			2,
+			2,
+			2
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		hit_type = {},
+		attach_buff = {},
+		extra_param = {},
+		push_power = {}
+	},
+	[600806] = {
+		range_offset = 0,
+		modle_ID = "bullet1",
+		type = 1,
+		antisub_enhancement = 0,
+		nobreakdown_sfx = "",
+		alert_fx = "",
+		nobreakdown_fx = "huohua",
+		out_bound = 1,
+		miss_fx = "ShellMiss",
+		miss_sfx = "battle/sink",
+		hit_fx = "BlueHit",
+		range = 90,
+		effect_type = 1,
+		hit_sfx = "battle/hit",
+		track_fx = "",
+		pierce_count = 0,
+		ammo_type = 1,
+		id = 600806,
+		velocity = 8,
+		damage_type = {
+			1,
+			0.8,
+			0.6
+		},
+		DMG_font = {
+			{
+				1,
+				1
+			},
+			{
+				1,
+				1
+			},
+			{
+				1,
+				1
+			}
+		},
+		acceleration = {
+			{
+				u = 0,
+				flip = false,
+				v = 0.27,
+				t = 0
+			},
+			{
+				u = 0,
+				flip = false,
+				v = -0.27,
+				t = 0.5
+			},
+			{
+				u = 0,
+				flip = false,
+				v = 0.5,
+				t = 1
+			},
+			{
+				u = 0,
+				flip = false,
+				v = 0,
+				t = 1.2
+			}
+		},
+		cld_box = {
+			2,
+			2,
+			2
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		hit_type = {},
+		attach_buff = {},
+		extra_param = {},
+		push_power = {}
+	},
+	[600807] = {
+		range_offset = 0,
+		modle_ID = "bullet1",
+		type = 1,
+		antisub_enhancement = 0,
+		nobreakdown_sfx = "",
+		alert_fx = "",
+		nobreakdown_fx = "huohua",
+		out_bound = 1,
+		miss_fx = "ShellMiss",
+		miss_sfx = "battle/sink",
+		hit_fx = "BlueHit",
+		range = 90,
+		effect_type = 1,
+		hit_sfx = "battle/hit",
+		track_fx = "",
+		pierce_count = 0,
+		ammo_type = 1,
+		id = 600807,
+		velocity = 8,
+		damage_type = {
+			1,
+			0.8,
+			0.6
+		},
+		DMG_font = {
+			{
+				1,
+				1
+			},
+			{
+				1,
+				1
+			},
+			{
+				1,
+				1
+			}
+		},
+		acceleration = {
+			{
+				u = 0,
+				flip = false,
+				v = -0.27,
+				t = 0
+			},
+			{
+				u = 0,
+				flip = false,
+				v = 0.27,
+				t = 0.5
+			},
+			{
+				u = 0,
+				flip = false,
+				v = -0.5,
+				t = 1
+			},
+			{
+				u = 0,
+				flip = false,
+				v = 0,
+				t = 1.2
+			}
+		},
+		cld_box = {
+			2,
+			2,
+			2
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		hit_type = {},
+		attach_buff = {},
+		extra_param = {},
+		push_power = {}
+	},
+	[600808] = {
+		range_offset = 10,
+		modle_ID = "kuasheHE",
+		type = 1,
+		antisub_enhancement = 0,
+		nobreakdown_sfx = "",
+		alert_fx = "",
+		nobreakdown_fx = "huohua",
+		out_bound = 1,
+		miss_fx = "ShellMiss",
+		miss_sfx = "",
+		hit_fx = "Clhit",
+		range = 80,
+		effect_type = 1,
+		hit_sfx = "battle/hit",
+		track_fx = "",
+		pierce_count = 3,
+		ammo_type = 2,
+		id = 600808,
+		velocity = 4,
+		damage_type = {
+			0.8,
+			1,
+			1.3
+		},
+		DMG_font = {
+			{
+				1,
+				1
+			},
+			{
+				1,
+				1
+			},
+			{
+				1,
+				1
+			}
+		},
+		acceleration = {
+			{
+				u = 0,
+				flip = false,
+				v = -0.5,
+				t = 1
+			},
+			{
+				u = 0,
+				flip = false,
+				v = 0.5,
+				t = 1
+			}
+		},
+		cld_box = {
+			6,
+			2,
+			2
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		hit_type = {},
+		attach_buff = {},
+		extra_param = {},
+		push_power = {}
+	},
 	[999981] = {
 		range_offset = 0,
 		modle_ID = "Bullet1",
@@ -84913,6 +85658,8 @@ pg.bullet_template = {
 		19985,
 		19986,
 		19987,
+		19988,
+		19989,
 		20001,
 		20002,
 		20003,
@@ -85786,6 +86533,14 @@ pg.bullet_template = {
 		600602,
 		600700,
 		600701,
+		600801,
+		600802,
+		600803,
+		600804,
+		600805,
+		600806,
+		600807,
+		600808,
 		999981,
 		999982,
 		999983,

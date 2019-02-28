@@ -1836,6 +1836,85 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[100003] = {
+		can_rotate = 0,
+		name = "몽환적인 도르래",
+		gain_by = "",
+		type = 11,
+		dir = 0,
+		picture = "",
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 1,
+		icon = "19.02.15icon",
+		deblocking = 1,
+		level = 1,
+		rarity = 4,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 100003,
+		comfortable = 0,
+		describe = "하늘에서 자유롭게 날고싶은 꿈, 여기서 실현하다!",
+		dorm_id = 0,
+		gem_price = 120,
+		can_trigger = 0,
+		themeId = 0,
+		spine_extra = "",
+		time = "always",
+		new = 1,
+		discount_time = "",
+		size = {
+			3,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		spine = {
+			{
+				"zhuqingting",
+				"normal"
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"tuozhuai2"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			},
+			0.5
+		},
+		animator = {
+			{
+				"zhuqingtingCharControl"
+			}
+		},
+		interAction_group = {}
+	},
 	[1001] = {
 		can_rotate = 0,
 		name = "낡은 바닥",
@@ -54918,6 +54997,7 @@ pg.furniture_data_template = {
 		138,
 		140,
 		100002,
+		100003,
 		1001,
 		1002,
 		1101,

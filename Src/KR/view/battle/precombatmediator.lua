@@ -1,8 +1,6 @@
 slot0 = class("PreCombatMediator", import("..base.ContextMediator"))
 slot0.ON_START = "PreCombatMediator:ON_START"
 slot0.ON_CHANGE_FLEET = "PreCombatMediator:ON_CHANGE_FLEET"
-slot0.OPEN_BIANDUI = "PreCombatMediator:OPEN_BIANDUI"
-slot0.ON_CHANGE_FORMATION = "PreCombatMediator:ON_CHANGE_FORMATION"
 slot0.ON_COMMIT_EDIT = "PreCombatMediator:ON_COMMIT_EDIT"
 slot0.ON_ABORT_EDIT = "PreCombatMediator:ON_ABORT_EDIT"
 slot0.OPEN_SHIP_INFO = "PreCombatMediator:OPEN_SHIP_INFO"
@@ -21,10 +19,16 @@ function slot0.register(slot0)
 	slot0.viewComponent:SetShips(slot0.ships)
 
 	slot2 = getProxy(FleetProxy)
-	slot3 = slot2:getData()
+	slot3 = nil
 
-	if slot2.EdittingFleet ~= nil then
-		slot3[slot2.EdittingFleet.id] = slot2.EdittingFleet
+	if slot0.contextData.system == SYSTEM_HP_SHARE_ACT_BOSS then
+		slot3 = slot2:getActivityFleets()[slot0.contextData.actID]
+	else
+		slot3 = slot2:getData()
+
+		if slot2.EdittingFleet ~= nil then
+			slot3[slot2.EdittingFleet.id] = slot2.EdittingFleet
+		end
 	end
 
 	slot0.viewComponent:SetFleets(slot3)
@@ -33,11 +37,13 @@ function slot0.register(slot0)
 		slot0:abortEditting()
 	end)
 
-	if slot0.contextData.system ~= SYSTEM_DUEL then
+	if slot0.contextData.system == SYSTEM_DUEL then
+		slot0.viewComponent:SetCurrentFleet(FleetProxy.PVP_FLEET_ID)
+	elseif slot0.contextData.system == SYSTEM_HP_SHARE_ACT_BOSS then
+		slot0.viewComponent:SetCurrentFleet(1)
+	else
 		slot0.viewComponent:SetStageID(slot0.contextData.stageId)
 		slot0.viewComponent:SetCurrentFleet(slot4.combatFleetId)
-	else
-		slot0.viewComponent:SetCurrentFleet(FleetProxy.PVP_FLEET_ID)
 	end
 
 	slot0:bind(slot0.ON_CHANGE_FLEET, function (slot0, slot1)
@@ -45,13 +51,6 @@ function slot0.register(slot0)
 	end)
 	slot0:bind(slot0.ON_AUTO, function (slot0, slot1)
 		slot0:onAutoBtn(slot1)
-	end)
-	slot0:bind(slot0.ON_CHANGE_FORMATION, function (slot0, slot1, slot2)
-		slot2.formation = slot1
-
-		slot0:refreshEdit(slot2)
-		slot0.viewComponent:EnableAddGrid()
-		slot0.viewComponent:MarkEdited()
 	end)
 	slot0:bind(slot0.CHANGE_FLEET_SHIPS_ORDER, function (slot0, slot1)
 		slot0:refreshEdit(slot1)
@@ -66,7 +65,7 @@ function slot0.register(slot0)
 		slot0.contextData.form = PreCombatLayer.FORM_EDIT
 		slot3 = {}
 
-		for slot7, slot8 in ipairs(slot2.ships) do
+		for slot7, slot8 in ipairs(slot2:getShipIds()) do
 			table.insert(slot3, slot0.ships[slot8])
 		end
 
@@ -156,47 +155,43 @@ function slot0.register(slot0)
 	end)
 	slot0:bind(slot0.ON_START, function (slot0, slot1)
 		function slot2()
-			(not slot0.contextData.rivalId or slot0.contextData.rivalId) and slot0.contextData.stageId:sendNotification(GAME.BEGIN_STAGE, {
-				stageId = (not slot0.contextData.rivalId or slot0.contextData.rivalId) and slot0.contextData.stageId,
-				mainFleetId = slot1,
-				system = (not slot0.contextData.rivalId or slot0.contextData.rivalId) and slot0.contextData.stageId.contextData.system,
-				rivalId = (not slot0.contextData.rivalId or slot0.contextData.rivalId) and slot0.contextData.stageId.contextData.rivalId
-			})
+			if slot0.contextData.system == SYSTEM_HP_SHARE_ACT_BOSS then
+				slot0.contextData.func()
+			else
+				(not slot0.contextData.rivalId or slot0.contextData.rivalId) and slot0.contextData.stageId:sendNotification(GAME.BEGIN_STAGE, {
+					stageId = (not slot0.contextData.rivalId or slot0.contextData.rivalId) and slot0.contextData.stageId,
+					mainFleetId = slot1,
+					system = (not slot0.contextData.rivalId or slot0.contextData.rivalId) and slot0.contextData.stageId.contextData.system,
+					rivalId = (not slot0.contextData.rivalId or slot0.contextData.rivalId) and slot0.contextData.stageId.contextData.rivalId
+				})
+			end
 		end
 
-		if slot0.contextData.system ~= SYSTEM_DUEL then
-			slot4 = {}
+		if slot0.contextData.system == SYSTEM_DUEL then
+			slot2()
+		else
+			slot3, slot4 = nil
 
-			for slot8, slot9 in ipairs(slot1:getFleetById(slot1).ships) do
-				table.insert(slot4, slot2:getShipById(slot9))
-			end
-
-			slot5 = false
-			slot6 = ""
-
-			for slot10, slot11 in ipairs(slot4) do
-				if slot11.energy == Ship.ENERGY_LOW then
-					slot5 = true
-					slot6 = slot6 .. "「" .. slot11:getConfig("name") .. "」"
-				end
-			end
-
-			if slot5 then
-				if slot3.name == "" then
-					slot7 = Fleet.DEFAULT_NAME[slot1]
-				end
-
-				pg.MsgboxMgr.GetInstance():ShowMsgBox({
-					content = i18n("ship_energy_low_warn", slot7, slot6),
-					onYes = function ()
-						slot0()
-					end
-				})
+			if slot0.contextData.system == SYSTEM_HP_SHARE_ACT_BOSS then
+				slot3 = slot1:getActivityFleets()[slot0.contextData.actID][1]
+				slot4 = "ship_energy_low_warn_no_exp"
 			else
+				slot3 = slot1:getFleetById(slot1)
+			end
+
+			slot5 = {}
+
+			for slot9, slot10 in ipairs(slot3.ships) do
+				table.insert(slot5, slot2:getShipById(slot10))
+			end
+
+			if slot3.name == "" or slot6 == nil then
+				slot6 = Fleet.DEFAULT_NAME[slot1]
+			end
+
+			if Fleet.EnergyCheck(slot5, slot6, slot2, slot4) then
 				slot2()
 			end
-		else
-			slot2()
 		end
 	end)
 end
@@ -210,17 +205,22 @@ function slot0.changeFleet(slot0, slot1)
 end
 
 function slot0.refreshEdit(slot0, slot1)
-	slot2 = getProxy(FleetProxy)
-	slot2.EdittingFleet = slot1
-	slot2:getData()[slot1.id] = slot1
+	getProxy(FleetProxy).EdittingFleet = slot1
+	slot3 = nil
+	(slot0.contextData.system ~= SYSTEM_HP_SHARE_ACT_BOSS or slot2:getActivityFleets()[slot0.contextData.actID]) and slot2:getData()[slot1.id] = slot1
 
-	slot0.viewComponent:SetFleets(slot3)
+	slot0.viewComponent:SetFleets((slot0.contextData.system ~= SYSTEM_HP_SHARE_ACT_BOSS or slot2.getActivityFleets()[slot0.contextData.actID]) and slot2.getData())
 	slot0.viewComponent:UpdateFleetView(false)
 end
 
 function slot0.commitEdit(slot0, slot1)
 	if getProxy(FleetProxy).EdittingFleet == nil or slot3:isFirstFleet() or slot3:isLegalToFight() == true then
-		slot2:commitEdittingFleet(slot1)
+		if slot0.contextData.system == SYSTEM_HP_SHARE_ACT_BOSS then
+			slot2:commitActivityFleet(slot0.contextData.actID)
+			slot1()
+		else
+			slot2:commitEdittingFleet(slot1)
+		end
 	elseif #slot3.ships == 0 then
 		slot2:commitEdittingFleet(slot1)
 		slot0:changeFleet(1)

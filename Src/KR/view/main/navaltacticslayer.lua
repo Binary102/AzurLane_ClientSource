@@ -316,6 +316,10 @@ function slot0.addDeleteStudentQueue(slot0, slot1, slot2, slot3, slot4)
 end
 
 function slot0.pushDeleteStudentQueue(slot0)
+	if not slot0.studentVOs then
+		return
+	end
+
 	if #slot0.deleteStuentQueue > 0 and not slot0.openMsgBox then
 		table.remove(slot0.deleteStuentQueue, 1)
 		scrollTo(slot0:findTF("students/contain", slot0.mainPanel), 0, 1 - math.max(slot0.deleteStuentQueue[1][1] - 2, 0) / (NavalAcademyProxy.MAX_SKILL_CLASS_NUM - 2))

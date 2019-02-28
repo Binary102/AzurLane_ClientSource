@@ -368,6 +368,10 @@ pg.gametip = {
 		tip = "해당 함선은 특수 임무를 진행 중입니다.",
 		key = "word_shipState_event"
 	},
+	word_shipState_activity = {
+		tip = "그 캐릭터는 특수 작전부대에 편성중이야 ",
+		key = "word_shipState_activity"
+	},
 	word_shipState_sham = {
 		tip = "해당 함선은 모의전을 진행 중입니다.",
 		key = "word_shipState_sham"
@@ -1072,6 +1076,10 @@ pg.gametip = {
 	battle_preCombatLayer_time_hold = {
 		tip = "$1초 동안 버틸 것",
 		key = "battle_preCombatLayer_time_hold"
+	},
+	battle_preCombatLayer_damage_before_end = {
+		tip = "가능한 목표에 더 많은 피해를 입히다 ",
+		key = "battle_preCombatLayer_damage_before_end"
 	},
 	battle_preCombatMediator_leastLimit = {
 		tip = "제 1 함대에는 함선을 배속해야 합니다.",
@@ -2813,6 +2821,10 @@ pg.gametip = {
 	ship_energy_low_warn = {
 		tip = "$1에 배속된 $2의 컨디션이 좋지 않은 것 같습니다. 출격 시 호감도가 내려가고, 획득하는 경험치가 50%로 감소합니다.",
 		key = "ship_energy_low_warn"
+	},
+	ship_energy_low_warn_no_exp = {
+		tip = "편대중<color=#A9F548FF>$2</color>처하다<color=#D6341D>기분이 안 좋은 상태 </color>，강제 출격하다<color=#D6341D>호감이 떨어지다</color>，계속 ",
+		key = "ship_energy_low_warn_no_exp"
 	},
 	test_ship_intensify_tip = {
 		tip = "부린은 강화할 수 없습니다.",
@@ -4791,9 +4803,8 @@ pg.gametip = {
 									Normal：$5%
 
 									【한정건조】
-				<color=#fff157>나가토</color>：2%<color=#A9F548>(up!)</color>			<color=#fff157>카와카제</color>：2%<color=#A9F548>(up!)</color>
-				<color=#966af6>하루츠키</color>：2.5%<color=#A9F548>(up!)</color>		<color=#966af6>요이즈키</color>：2.5%<color=#A9F548>(up!)</color>
-				<color=#60a9ff>후미즈키</color>：5%<color=#A9F548>(up!)</color>		<color=#60a9ff>아사시오 </color>：5%<color=#A9F548>(up!)</color></size>]],
+							<color=#fff157>샹그릴라</color>：2.0%<color=#A9F548>(up!)</color>
+							<color=#fff157>에식스</color>：1.8%<color=#A9F548>(up!)</color></size>]],
 		key = "help_build_4"
 	},
 	help_build_5 = {
@@ -6192,9 +6203,9 @@ pg.gametip = {
 		tip = "SR",
 		key = "word_sr"
 	},
-	world_r = {
+	word_r = {
 		tip = "R",
-		key = "world_r"
+		key = "word_r"
 	},
 	ship_renameShip_error = {
 		tip = "이름 변경에 실패했습니다.",
@@ -8630,6 +8641,10 @@ pg.gametip = {
 		tip = "점수",
 		key = "ranking_word_9"
 	},
+	ranking_word_10 = {
+		tip = "기여치 ",
+		key = "ranking_word_10"
+	},
 	spece_illegal_tip = {
 		tip = "이름에는 스페이스를 넣을 수 없습니다.",
 		key = "spece_illegal_tip"
@@ -8906,6 +8921,71 @@ pg.gametip = {
 	md5_error = {
 		tip = "에러가 발생했습니다. 게임을 재기동하여 주십시오. ",
 		key = "md5_error"
+	},
+	world_boss_help = {
+		key = "world_boss_help",
+		tip = {
+			{
+				info = "활동설명："
+			},
+			{
+				info = " 1. 활동기간, 훈련전투참여, 적을 격파, 시간을 초과하거나 작전\n 실패했을때，훈련전투에 따른 피해 총량에 따라서 작용한다；"
+			},
+			{
+				info = " 2. 훈련 전투중，피해를 입힐수록 높아지고，받는 보너스도\n 올라간다，획듣한 기여치에 따라 더 올라간다；"
+			},
+			{
+				info = " 3. 활동기간，본서버의 모든 플레이어가 획득한 기여치에 따라,\n 에식스의 연습 거점 내구가 소모된다；"
+			},
+			{
+				info = [[
+ 4. 훈련거점 내구력이 75%,50%,25% 로 떨어졌을 때 내구가
+ 완전히 소진된후 본서버의 달성되는 이정표 시간이 기록된다.
+ 동시에 연습에 받은 공헌수치를 확득한 플레이어는 보너스를
+ 받을수 있다.；]]
+			},
+			{
+				info = " 5. 연습 보너스 거점 내구 소진 완료 후 우편을 통해 배부；"
+			},
+			{
+				info = " 6. 활동 종료시 내구력이 소진되지 않았으면, 거점에 따라 진도를\n 따라 추진하여 경험치를 획득한 플레이어는 진도에 따라 보너스를\n 지급합니다.；"
+			},
+			{
+				info = " 7. 훈련전투의 출격 대오는 [편대]버튼을 통해 대열을 편성할 수\n 있다，잠수함 휴대와 지휘 고양이 허용；"
+			},
+			{
+				info = [[
+ 8. 훈련전투중, 샹그릴라와 인디펜던스를 휴대하면 추가적인 총
+ 기여치를 얻는다 더 얻는다. 상그릴라를 가지고 20%의 더 얻는다.
+ 인디펜던스를 가지고 10%를 더 얻는다. 동시에 최대 30%의
+ 기여값을 추가 얻는다.；]]
+			},
+			{
+				info = " 9. 거점의 내구력이 저하됨에 따라 훈련 전투에서 적의 기함의 피해\n 능력은 향상된다 동시에 받는 포격 벼락 피해, 하지만 항공피해를\n 높일 수 있다.；"
+			},
+			{
+				info = " 10. 활동기간, 개인 공헌 보너스도 받을수 있다. 개인 공헌 보너스\n 거점 공략 진도와 보유기여치가 지정된 요구 사항에 도달한\n 후에 받을 수 있다. ；"
+			},
+			{
+				info = [[
+ 활동기간, 개인 공헌 보너스도 받을수 있다. 개인 공헌 보너스
+ 거점 공략 진도와 보유기여치가 지정된 요구 사항에 도달한 후에
+ 받을 수 있다. 11. 2.28~3.7기간 동안 연습 전투에 참여할 수
+ 있다, 보너스 수령 마감은 3.13 ；]]
+			}
+		}
+	},
+	world_boss_tip = {
+		tip = "「<color=#7e7e7f>$1</color>」훈련을 위해<color=#8299bc>$2</color>기여했다 ",
+		key = "world_boss_tip"
+	},
+	world_boss_award_limit = {
+		tip = "훈련 진도가<color=#FFDE00FF>$1%</color>에 도달 후 잠금 해제 ",
+		key = "world_boss_award_limit"
+	},
+	backyard_is_loading = {
+		tip = "다음 준비중, 잠시만 기다려주세요 ",
+		key = "backyard_is_loading"
 	}
 }
 

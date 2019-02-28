@@ -3392,6 +3392,22 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[13011] = {
+		display = "40mm 연장 보포스 해즐미어T0설계도 ",
+		rarity = 4,
+		type = 9,
+		name = "40mm 연장 보포스 해즐미어T0설계도 ",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 13011,
+		icon = "Equips/26620",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[15001] = {
 		display = "함선을 퇴역시키는 것으로 얻을 수 있는 훈장, 본부에 전력 지원을 요청하는 데에 사용할 수 있다.",
 		rarity = 3,
@@ -46581,6 +46597,48 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[57560] = {
+		display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
+		rarity = 1,
+		type = 99,
+		name = "랜덤 설계도",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 57560,
+		icon = "Props/55000",
+		display_icon = {
+			{
+				2,
+				13011,
+				1
+			},
+			{
+				2,
+				10025,
+				1
+			},
+			{
+				2,
+				10029,
+				1
+			},
+			{
+				2,
+				10030,
+				1
+			},
+			{
+				2,
+				10033,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
 	[59000] = {
 		display = "참가한 캐릭터는 경험치를 획득할 수 있습니다.",
 		rarity = 2,
@@ -46929,6 +46987,22 @@ pg.item_data_statistics = {
 		link_id = 0,
 		id = 59120,
 		icon = "Props/tiancheng",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59122] = {
+		display = "用于凛冬王冠活动获取补给，活动结束后将会消失",
+		rarity = 2,
+		type = 98,
+		name = "世界boss-pt",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 59122,
+		icon = "Props/crownPT",
 		display_icon = {},
 		price = {},
 		index = {}
@@ -48838,6 +48912,7 @@ pg.item_data_statistics = {
 		13008,
 		13009,
 		13010,
+		13011,
 		15001,
 		15002,
 		15003,
@@ -49745,6 +49820,7 @@ pg.item_data_statistics = {
 		57554,
 		57555,
 		57556,
+		57560,
 		59000,
 		59001,
 		59002,
@@ -49767,6 +49843,7 @@ pg.item_data_statistics = {
 		59118,
 		59119,
 		59120,
+		59122,
 		59601,
 		59602,
 		59603,

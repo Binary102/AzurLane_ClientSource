@@ -164,9 +164,13 @@ function slot0.displayAwards(slot0)
 
 		if slot6.riraty then
 			PoolMgr.GetInstance():GetUI("IconColorful_white", true, function (slot0)
-				setParent(slot0, slot0)
+				if IsNil(slot0) or IsNil(slot0._tf) then
+					return
+				end
+
+				setParent(slot0, setParent)
 				setActive(slot0, true)
-				table.insert(slot1.blinks, slot0)
+				table.insert(slot0.blinks, slot0)
 			end)
 		end
 

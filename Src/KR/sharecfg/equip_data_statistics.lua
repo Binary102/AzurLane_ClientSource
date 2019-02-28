@@ -17780,6 +17780,159 @@ pg.equip_data_statistics = {
 		},
 		property_rate = {}
 	},
+	[18060] = {
+		name = "TBD데버스테이터(VT-8중대) ",
+		type = 8,
+		id = 18060,
+		tech = 0,
+		speciality = "뇌격",
+		range = 90,
+		scatter = "없음",
+		ambush_extra = 0,
+		value_2 = 45,
+		icon = "18060",
+		value_1 = "112 x 2",
+		attribute_2 = "air",
+		avoid_extra = 0,
+		rarity = 5,
+		angle = 90,
+		nationality = 1,
+		ammo = "통상탄",
+		descrip = "미드웨어 해전 중, 호넷호 소속 VT-8중대, 존 월드런이 이끄는 TBD데버스테이터 어뢰 기관대 ",
+		value_3 = 0,
+		attribute_1 = "damage",
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {
+			18060
+		},
+		skill_id = {
+			6320
+		},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {}
+	},
+	[18061] = {
+		base = 18060,
+		id = 18061,
+		value_1 = "129 x 2",
+		skill_id = {
+			6321
+		},
+		weapon_id = {
+			18061
+		},
+		property_rate = {}
+	},
+	[18062] = {
+		base = 18060,
+		id = 18062,
+		value_1 = "146 x 2",
+		skill_id = {
+			6322
+		},
+		weapon_id = {
+			18062
+		},
+		property_rate = {}
+	},
+	[18063] = {
+		base = 18060,
+		id = 18063,
+		value_1 = "163 x 2",
+		skill_id = {
+			6323
+		},
+		weapon_id = {
+			18063
+		},
+		property_rate = {}
+	},
+	[18064] = {
+		base = 18060,
+		id = 18064,
+		value_1 = "180 x 2",
+		skill_id = {
+			6324
+		},
+		weapon_id = {
+			18064
+		},
+		property_rate = {}
+	},
+	[18065] = {
+		base = 18060,
+		id = 18065,
+		value_1 = "197 x 2",
+		skill_id = {
+			6325
+		},
+		weapon_id = {
+			18065
+		},
+		property_rate = {}
+	},
+	[18066] = {
+		base = 18060,
+		id = 18066,
+		value_1 = "214 x 2",
+		skill_id = {
+			6326
+		},
+		weapon_id = {
+			18066
+		},
+		property_rate = {}
+	},
+	[18067] = {
+		base = 18060,
+		id = 18067,
+		value_1 = "231 x 2",
+		skill_id = {
+			6327
+		},
+		weapon_id = {
+			18067
+		},
+		property_rate = {}
+	},
+	[18068] = {
+		base = 18060,
+		id = 18068,
+		value_1 = "247 x 2",
+		skill_id = {
+			6328
+		},
+		weapon_id = {
+			18068
+		},
+		property_rate = {}
+	},
+	[18069] = {
+		base = 18060,
+		id = 18069,
+		value_1 = "264 x 2",
+		skill_id = {
+			6329
+		},
+		weapon_id = {
+			18069
+		},
+		property_rate = {}
+	},
+	[18070] = {
+		base = 18060,
+		id = 18070,
+		value_1 = "281 x 2",
+		skill_id = {
+			6330
+		},
+		weapon_id = {
+			18070
+		},
+		property_rate = {}
+	},
 	[18100] = {
 		name = "TBF 어벤저",
 		type = 8,
@@ -24842,6 +24995,128 @@ pg.equip_data_statistics = {
 		value_1 = "96/회",
 		weapon_id = {
 			26610
+		},
+		property_rate = {}
+	},
+	[26620] = {
+		name = "40mm 연장 보포스 해즐미어 ",
+		speciality = "대공",
+		tech = 0,
+		type = 6,
+		rarity = 5,
+		id = 26620,
+		angle = 360,
+		scatter = "없음",
+		ambush_extra = 0,
+		value_2 = 45,
+		icon = "26620",
+		value_1 = "38/회",
+		attribute_2 = "antiaircraft",
+		avoid_extra = 0,
+		range = 30,
+		nationality = 2,
+		attribute_3 = "hit",
+		ammo = "통상탄",
+		descrip = "说明未填写",
+		value_3 = 5,
+		attribute_1 = "damage",
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {
+			26620
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {}
+	},
+	[26621] = {
+		base = 26620,
+		id = 26621,
+		value_1 = "43/회",
+		weapon_id = {
+			26621
+		},
+		property_rate = {}
+	},
+	[26622] = {
+		base = 26620,
+		id = 26622,
+		value_1 = "48/회",
+		weapon_id = {
+			26622
+		},
+		property_rate = {}
+	},
+	[26623] = {
+		base = 26620,
+		id = 26623,
+		value_1 = "54/회",
+		weapon_id = {
+			26623
+		},
+		property_rate = {}
+	},
+	[26624] = {
+		base = 26620,
+		id = 26624,
+		value_1 = "60/회",
+		weapon_id = {
+			26624
+		},
+		property_rate = {}
+	},
+	[26625] = {
+		base = 26620,
+		id = 26625,
+		value_1 = "66/회",
+		weapon_id = {
+			26625
+		},
+		property_rate = {}
+	},
+	[26626] = {
+		base = 26620,
+		id = 26626,
+		value_1 = "72/회",
+		weapon_id = {
+			26626
+		},
+		property_rate = {}
+	},
+	[26627] = {
+		base = 26620,
+		id = 26627,
+		value_1 = "78/회",
+		weapon_id = {
+			26627
+		},
+		property_rate = {}
+	},
+	[26628] = {
+		base = 26620,
+		id = 26628,
+		value_1 = "84/회",
+		weapon_id = {
+			26628
+		},
+		property_rate = {}
+	},
+	[26629] = {
+		base = 26620,
+		id = 26629,
+		value_1 = "90/회",
+		weapon_id = {
+			26629
+		},
+		property_rate = {}
+	},
+	[26630] = {
+		base = 26620,
+		id = 26630,
+		value_1 = "96/회",
+		weapon_id = {
+			26630
 		},
 		property_rate = {}
 	},
@@ -53022,6 +53297,17 @@ pg.equip_data_statistics = {
 		18044,
 		18045,
 		18046,
+		18060,
+		18061,
+		18062,
+		18063,
+		18064,
+		18065,
+		18066,
+		18067,
+		18068,
+		18069,
+		18070,
 		18100,
 		18101,
 		18102,
@@ -53594,6 +53880,17 @@ pg.equip_data_statistics = {
 		26608,
 		26609,
 		26610,
+		26620,
+		26621,
+		26622,
+		26623,
+		26624,
+		26625,
+		26626,
+		26627,
+		26628,
+		26629,
+		26630,
 		27000,
 		27001,
 		27002,

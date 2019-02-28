@@ -8524,6 +8524,50 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[377] = {
+		nationality = 1,
+		hide = 0,
+		trans_skin = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		code = 377,
+		type = 6,
+		group_type = 10722,
+		trans_type = 0,
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"이벤트：특별훈련·에식스급",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[378] = {
+		nationality = 1,
+		hide = 0,
+		trans_skin = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		code = 378,
+		type = 7,
+		group_type = 10738,
+		trans_type = 0,
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"이벤트：특별훈련·에식스급",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[10001] = {
 		nationality = 101,
 		hide = 0,
@@ -9242,6 +9286,8 @@ pg.ship_data_group = {
 		374,
 		375,
 		376,
+		377,
+		378,
 		10001,
 		10002,
 		10003,

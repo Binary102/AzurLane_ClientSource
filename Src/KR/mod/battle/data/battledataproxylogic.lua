@@ -90,7 +90,7 @@ function ys.Battle.BattleDataProxy.HandleDamage(slot0, slot1, slot2, slot3)
 	end
 
 	slot2:UpdateHP(slot8 * -1, slot17, slot1:GetPosition(), slot10)
-	slot0:DamageStatistics(slot1:GetAttrByName("id"), slot2:GetAttrByName("id"), slot8, slot1:GetWeapon())
+	slot0:DamageStatistics(slot1:GetAttrByName("id"), slot2:GetAttrByName("id"), slot8)
 
 	if not slot11 and slot1:GetWeaponTempData().type ~= slot2.EquipmentType.ANTI_AIR then
 		slot1:BuffTrigger(ys.Battle.BattleConst.BuffEffectType.ON_BULLET_HIT, slot16)
@@ -98,7 +98,7 @@ function ys.Battle.BattleDataProxy.HandleDamage(slot0, slot1, slot2, slot3)
 
 	slot19 = true
 
-	if slot2:GetUnitType() ~= slot2.UnitType.AIRCRAFT_UNIT and slot18 ~= slot2.UnitType.AIRFIGHTER_UNIT and slot18 ~= slot2.UnitType.FUNNEL_UNIT then
+	if slot2:GetUnitType() ~= slot2.UnitType.AIRCRAFT_UNIT and slot18 ~= slot2.UnitType.AIRFIGHTER_UNIT and slot18 ~= slot2.UnitType.FUNNEL_UNIT and slot18 ~= slot2.UnitType.UAV_UNIT then
 		slot19 = false
 	end
 
@@ -152,7 +152,7 @@ function ys.Battle.BattleDataProxy.HandleDirectDamage(slot0, slot1, slot2, slot3
 	if not slot7 then
 		slot9 = true
 
-		if slot1:GetUnitType() ~= slot0.UnitType.AIRCRAFT_UNIT and slot8 ~= slot0.UnitType.AIRFIGHTER_UNIT and slot8 ~= slot0.UnitType.FUNNEL_UNIT then
+		if slot1:GetUnitType() ~= slot0.UnitType.AIRCRAFT_UNIT and slot8 ~= slot0.UnitType.AIRFIGHTER_UNIT and slot8 ~= slot0.UnitType.FUNNEL_UNIT and slot8 ~= slot0.UnitType.UAV_UNIT then
 			slot9 = false
 		end
 
@@ -163,13 +163,15 @@ end
 function ys.Battle.BattleDataProxy.obituary(slot0, slot1, slot2, slot3)
 	for slot7, slot8 in pairs(slot0._unitList) do
 		if slot8 ~= slot1 then
-			if slot8:GetIFF() == vehicleIFF then
-				slot8:TriggerBuff(slot0.BuffEffectType.ON_FRIENDLY_DYING, {
-					killer = slot3
-				})
-
-				if not slot2 then
+			if slot8:GetIFF() == slot1:GetIFF() then
+				if slot2 then
+					slot8:TriggerBuff(slot0.BuffEffectType.ON_FRIENDLY_AIRCRAFT_DYING, {
+						unit = slot1,
+						killer = slot3
+					})
+				else
 					slot8:TriggerBuff(slot0.BuffEffectType.ON_FRIENDLY_SHIP_DYING, {
+						unit = slot1,
 						killer = slot3
 					})
 				end

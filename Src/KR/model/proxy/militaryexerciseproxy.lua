@@ -38,7 +38,7 @@ slot0.RANK_TYPE_LIST = {
 	},
 	RANK_TYPE_ACT_BOSS_BATTLE = {
 		type = 7,
-		act_type = ActivityConst.ACTIVITY_TYPE_BOSS_BATTLE
+		act_type = ActivityConst.ACTIVITY_TYPE_BOSS_RANK
 	}
 }
 
@@ -276,7 +276,11 @@ function slot0.getPowerRank(slot0, slot1, slot2, slot3, slot4)
 	return slot0.powerRankList[slot5][slot2][slot3]
 end
 
-function slot0.buildRankMsg(slot0)
+function slot0.checkAndBuildRankMsg(slot0)
+	if slot0.rankMsgList and slot0.rankMsgInfo then
+		return
+	end
+
 	slot0.rankMsgList = {}
 	slot0.rankMsgInfo = {}
 	slot1 = getProxy(ActivityProxy)
@@ -294,7 +298,7 @@ function slot0.buildRankMsg(slot0)
 
 				table.insert(slot0.rankMsgList, slot13.id)
 			end
-		else
+		elseif slot7.type ~= 4 then
 			slot0.rankMsgInfo[slot7.type] = {
 				type = slot7.type,
 				medal_small = slot7.medal_small
@@ -308,11 +312,15 @@ end
 function slot0.getRankMsgId(slot0, slot1, slot2)
 	for slot6, slot7 in ipairs(slot0.rankMsgList) do
 		if slot0.rankMsgInfo[slot7].type == slot1 and (not slot2 or slot2 == slot8.act_id) then
-			return slot2 or slot1
+			return slot2 or slot1, slot0.rankMsgInfo[slot7]
 		end
 	end
 
 	return nil
+end
+
+function slot0.getRankMsg(slot0)
+	return slot0.rankMsgList, slot0.rankMsgInfo
 end
 
 return slot0

@@ -38,8 +38,16 @@ function slot0.register(slot0)
 			pg.TipsMgr:GetInstance():ShowTips(slot0.content)
 		elseif slot0.type == ChatConst.CODE_GUILDBOSS_OPEN then
 			slot0:sendNotification(GAME.BOSS_EVENT_START)
-		elseif slot0.type == ChatConst.CODE_ACTBOSS_MSG_ADDED then
-			slot0:sendNotification(GAME.ACTIVITY_BOSS_MSG_ADDED, slot0.content)
+		elseif slot0.type == ChatConst.CODE_ACTOBSS_MSG_WORD then
+			slot0:sendNotification(GAME.ACTIVITY_BOSS_MSG_ADDED, {
+				name = slot0.player.name,
+				score = slot0.content
+			})
+			table.insert(slot0.actBossMsg, )
+
+			if #slot0.actBossMsg > 6 then
+				table.remove(slot0.actBossMsg, 1)
+			end
 		else
 			slot1, slot5 = wordVer(slot0.content, {
 				isReplace = true
@@ -80,6 +88,7 @@ function slot0.register(slot0)
 	end)
 
 	slot0.informs = {}
+	slot0.actBossMsg = {}
 end
 
 function slot0.addNewMsg(slot0, slot1)

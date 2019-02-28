@@ -4302,7 +4302,7 @@ pg.ship_skin_template = {
 		main_UI_FX = "",
 		shop_id = 0,
 		desc = "플레처급 구축함 – 헤이즐우드(DD-531)",
-		voice_actor = -1,
+		voice_actor = 161,
 		air_bomb_skin = "",
 		illustrator = -1,
 		rarity_bg = "",
@@ -4781,7 +4781,7 @@ pg.ship_skin_template = {
 		main_UI_FX = "",
 		shop_id = 0,
 		desc = "플레처급 구축함 - 킴벌리 (DD-521) ",
-		voice_actor = -1,
+		voice_actor = 168,
 		air_bomb_skin = "",
 		illustrator = -1,
 		rarity_bg = "",
@@ -4876,7 +4876,7 @@ pg.ship_skin_template = {
 		main_UI_FX = "",
 		shop_id = 70155,
 		desc = "이스트 글림의 의상을 입고 있으면 그 시절의 일이 떠오르네요… 지휘관님, 이글 유니온의 의상과 이스트 글림의 의상, 어떤 게 좋으신가요? ",
-		voice_actor = -1,
+		voice_actor = 168,
 		air_bomb_skin = "",
 		illustrator = -1,
 		rarity_bg = "",
@@ -9058,6 +9058,103 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[103061] = {
+		name = "학원에서 인디랑! ",
+		ship_group = 10306,
+		illustrator2 = -1,
+		bg = "103",
+		bullet_skin_secondary = "",
+		painting = "botelan_2",
+		painting_hx = "",
+		air_bullet_skin = "",
+		shop_type_id = 4,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		isSwimsuit = 0,
+		skin_type = 0,
+		id = 103061,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "botelan_2",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70164,
+		desc = "지휘관님, 이것 좀 보세요! 제가 직접 만든 '인디 인형'에요! 정말 귀엽지 않나요!? 수예부 동아리 활동하면서 만든 자신작이에요! ",
+		voice_actor = 10,
+		air_bomb_skin = "",
+		illustrator = 10,
+		rarity_bg = "",
+		isHX = 0,
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.069,
+					0.936,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.149,
+					0.103,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.045,
+					0.896,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.703,
+							2.275,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[103069] = {
 		name = "포틀랜드·改",
 		ship_group = 10306,
@@ -9267,6 +9364,103 @@ pg.ship_skin_template = {
 						{
 							1.16,
 							1.21,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[103071] = {
+		name = "학원에서 언니랑…… ",
+		ship_group = 10307,
+		illustrator2 = -1,
+		bg = "103",
+		bullet_skin_secondary = "",
+		painting = "bolisi_2",
+		painting_hx = "",
+		air_bullet_skin = "",
+		shop_type_id = 4,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		isSwimsuit = 0,
+		skin_type = 0,
+		id = 103071,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "bolisi_2",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70165,
+		desc = "학원 생활… 언니랑 지휘관이 있다면, 좋겠네… ",
+		voice_actor = 7,
+		air_bomb_skin = "",
+		illustrator = 10,
+		rarity_bg = "",
+		isHX = 0,
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.96,
+					1.129,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.159,
+					0.065,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.969,
+					0.961,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.779,
+							2.099,
 							0
 						}
 					}
@@ -13962,6 +14156,362 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[107220] = {
+		name = "인디펜던스 ",
+		ship_group = 10722,
+		illustrator2 = -1,
+		bg = "",
+		bullet_skin_secondary = "",
+		painting = "duli",
+		painting_hx = "",
+		air_bullet_skin = "",
+		shop_type_id = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		isSwimsuit = 0,
+		skin_type = -1,
+		id = 107220,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "duli",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		desc = "인디펜던스급 항공모함 - 인디펜던스(CVL-22) ",
+		voice_actor = 130,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		isHX = 0,
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					1.129,
+					0.685,
+					0
+				}
+			},
+			plane = {
+				{
+					1.465,
+					0.75,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.647,
+							2.225,
+							-0.25
+						}
+					}
+				}
+			}
+		}
+	},
+	[107221] = {
+		name = "이쪽의 학원으로 ",
+		ship_group = 10722,
+		illustrator2 = -1,
+		bg = "103",
+		bullet_skin_secondary = "",
+		painting = "duli_2",
+		painting_hx = "",
+		air_bullet_skin = "",
+		shop_type_id = 4,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		isSwimsuit = 0,
+		skin_type = 0,
+		id = 107221,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "duli_2",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70163,
+		desc = "여기가 학원…인가. 후우…선생님께 보고하기 전에, 먼저 짐을…… ",
+		voice_actor = 130,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		isHX = 0,
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					0.924,
+					1.132,
+					0
+				}
+			},
+			plane = {
+				{
+					0.914,
+					1.198,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.573,
+							2.346,
+							-0.25
+						}
+					}
+				}
+			}
+		}
+	},
+	[107380] = {
+		name = "샹그릴라 ",
+		ship_group = 10738,
+		illustrator2 = -1,
+		bg = "",
+		bullet_skin_secondary = "",
+		painting = "xianggelila",
+		painting_hx = "",
+		air_bullet_skin = "",
+		shop_type_id = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		isSwimsuit = 0,
+		skin_type = -1,
+		id = 107380,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "xianggelila",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		desc = "에식스급 항공모함 - 샹그릴라(CV-38) ",
+		voice_actor = 161,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		isHX = 0,
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					1.269,
+					0.955,
+					0
+				}
+			},
+			plane = {
+				{
+					1.456,
+					0.862,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.517,
+							2.402,
+							-0.25
+						}
+					}
+				}
+			}
+		}
+	},
+	[107381] = {
+		name = "유토피아의 수집가 ",
+		ship_group = 10738,
+		illustrator2 = -1,
+		bg = "110",
+		bullet_skin_secondary = "",
+		painting = "xianggelila_2",
+		painting_hx = "",
+		air_bullet_skin = "",
+		shop_type_id = 9,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		isSwimsuit = 0,
+		skin_type = 0,
+		id = 107381,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "xianggelila_2",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70162,
+		desc = "지휘관님, 저의 '유토피아'에 온 것을 환영합니다. 여기 있는 것은 제 자랑스러운 컬렉션…… 그럼, 제가 일단 설명해 드리도록 할까요？ ",
+		voice_actor = 161,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		isHX = 0,
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					0.83,
+					0.694,
+					0
+				}
+			},
+			plane = {
+				{
+					1.045,
+					0.675,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.612,
+							2.709,
+							-0.38
+						}
+					}
+				}
+			}
+		}
+	},
 	[108010] = {
 		name = "데이스",
 		ship_group = 10801,
@@ -14664,7 +15214,7 @@ pg.ship_skin_template = {
 		aircraft_skin = "",
 		main_UI_FX = "",
 		shop_id = 70066,
-		desc = "응? 지휘관도 외출하는 걸까. ...그런 눈으로 보지 마... 나도 외출 정도는... 으음, 목적지...중간까지라도 함께 걸을...까?",
+		desc = "응? 지휘관도 외출하는 걸까. …그런 눈으로 보지 마… 나도 외출 정도는… 으음, 목적지…중간까지라도 함께 걸을…까?",
 		voice_actor = 110,
 		air_bomb_skin = "",
 		illustrator = 38,
@@ -27260,7 +27810,7 @@ pg.ship_skin_template = {
 		}
 	},
 	[301058] = {
-		name = "화려한 귀신의 백무구",
+		name = "화려한 귀신의 백무구 ",
 		ship_group = 30105,
 		illustrator2 = -1,
 		bg = "",
@@ -27282,7 +27832,7 @@ pg.ship_skin_template = {
 		aircraft_skin = "",
 		main_UI_FX = "",
 		shop_id = 0,
-		desc = "아야나미……에요. 이 옷, 아직 익숙하진 않지만…지휘관, 아야나미한테 어울리나요?",
+		desc = "아야나미……에요. 이 옷, 아직 익숙하진 않지만…지휘관, 아야나미한테 어울리나요? ",
 		voice_actor = 32,
 		air_bomb_skin = "",
 		illustrator = 2,
@@ -43727,7 +44277,7 @@ pg.ship_skin_template = {
 		}
 	},
 	[312012] = {
-		name = "검은 고양이의 습격!",
+		name = "검은 고양이의 습격! ",
 		ship_group = 31201,
 		illustrator2 = -1,
 		bg = "107",
@@ -43749,7 +44299,7 @@ pg.ship_skin_template = {
 		aircraft_skin = "",
 		main_UI_FX = "",
 		shop_id = 70100,
-		desc = "후후후…평소에 열심히 저축한 건 다 이때를 위해서다…냥냥♪ 사쿠라 엠파이어와 서양 문물을 융합한 특별 드레스다냥! 지휘관, 오늘도 다이아 어떠냥?",
+		desc = "후후후…평소에 열심히 저축한 건 다 이때를 위해서다…냥냥♪ 사쿠라 엠파이어와 서양 문물을 융합한 특별 드레스다냥! 지휘관, 오늘도 다이아 어떠냥? ",
 		voice_actor = 28,
 		air_bomb_skin = "",
 		illustrator = 10,
@@ -45051,7 +45601,7 @@ pg.ship_skin_template = {
 		main_UI_FX = "",
 		shop_id = 0,
 		desc = "1936년 B형 구축함 – Z35",
-		voice_actor = -1,
+		voice_actor = 123,
 		air_bomb_skin = "",
 		illustrator = -1,
 		rarity_bg = "",
@@ -46823,7 +47373,8 @@ pg.ship_skin_template = {
 			"touch_head"
 		},
 		l2d_voice_calibrate = {
-			propose = 2.5
+			propose = 2.5,
+			main_2 = 5.3
 		}
 	},
 	[403050] = {
@@ -60810,8 +61361,10 @@ pg.ship_skin_template = {
 		103040,
 		103050,
 		103060,
+		103061,
 		103069,
 		103070,
+		103071,
 		103080,
 		103081,
 		103090,
@@ -60858,6 +61411,10 @@ pg.ship_skin_template = {
 		107070,
 		107080,
 		107090,
+		107220,
+		107221,
+		107380,
+		107381,
 		108010,
 		108020,
 		112010,

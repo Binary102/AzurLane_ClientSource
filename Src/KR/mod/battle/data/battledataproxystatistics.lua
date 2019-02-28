@@ -13,7 +13,8 @@ function ys.Battle.BattleDataProxy.StatisticsInit(slot0, slot1)
 		_totalTime = 0,
 		_deadCount = 0,
 		_boss_destruct = 0,
-		_botPercentage = 0
+		_botPercentage = 0,
+		_enemyInfoList = {}
 	}
 
 	for slot5, slot6 in ipairs(slot1) do
@@ -42,6 +43,19 @@ function ys.Battle.BattleDataProxy.InitAidUnitStatistics(slot0, slot1)
 		gearScore = slot1:GetGearScore()
 	})["id"]] = 
 	slot0._statistics.submarineAid = true
+end
+
+function ys.Battle.BattleDataProxy.InitSpecificEnemyStatistics(slot0, slot1)
+	slot0._statistics[({
+		id = slot1:GetAttrByName("id"),
+		damage = 0,
+		output = 0,
+		kill_count = 0,
+		bp = 0,
+		max_hp = slot1:GetAttrByName("maxHP"),
+		maxDamageOnce = 0,
+		gearScore = slot1:GetGearScore()
+	})["id"]] = 
 end
 
 function ys.Battle.BattleDataProxy.RivalInit(slot0, slot1)
@@ -355,6 +369,21 @@ function ys.Battle.BattleDataProxy.CalcDodgemScore(slot0)
 	end
 
 	slot0._statistics.dodgemResult = slot0._dodgemStatistics
+end
+
+function ys.Battle.BattleDataProxy.CalcSpecificEnemyInfo(slot0, slot1)
+	slot0._statistics.specificDamage = 0
+	slot3 = {}
+
+	for slot7, slot8 in ipairs(slot2) do
+		slot0._statistics.specificDamage = slot0._statistics.specificDamage + slot0._statistics["enemy_" .. slot8].damage
+
+		table.insert(slot0._statistics._enemyInfoList, {
+			id = slot8,
+			damage = slot0._statistics["enemy_" .. slot8].damage,
+			totalHp = slot0._statistics["enemy_" .. slot8].max_hp
+		})
+	end
 end
 
 return

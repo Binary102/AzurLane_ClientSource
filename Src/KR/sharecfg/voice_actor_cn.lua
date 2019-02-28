@@ -667,6 +667,10 @@ pg.voice_actor_CN = {
 	{
 		actor_name = "Konomi Fujimura",
 		code = 167
+	},
+	{
+		actor_name = "Sumire Morohoshi",
+		code = 168
 	}
 }
 

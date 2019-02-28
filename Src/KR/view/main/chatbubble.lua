@@ -69,6 +69,10 @@ function slot0.update(slot0, slot1)
 
 	if slot1.emojiId then
 		PoolMgr.GetInstance():GetPrefab("emoji/" .. pg.emoji_template[slot1.emojiId].pic, pg.emoji_template[slot1.emojiId].pic, true, function (slot0)
+			if IsNil(slot0.tf) then
+				return
+			end
+
 			if slot0.face and slot0.data then
 				slot0.name = slot1.pic
 

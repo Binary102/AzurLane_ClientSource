@@ -4033,10 +4033,9 @@ function slot4(slot0, slot1, slot2, slot3, slot4)
 	slot6 = slot0.pagesInit
 	slot7 = slot5.name
 	slot6 = slot6[slot7]
-	slot8 = slot0
-	slot7 = slot0.GetDoingTask
-	slot9 = slot1
-	slot7, slot8, slot9 = slot7(slot8, slot9)
+	slot7 = GetDoingTask
+	slot8 = slot1
+	slot7, slot8, slot9 = slot7(slot8)
 	slot11 = slot9
 	slot10 = slot9.isReceive
 	slot10 = slot10(slot11)
@@ -4401,10 +4400,9 @@ function slot4(slot0, slot1)
 		end
 	end
 
-	slot8 = slot0
-	slot7 = slot0.GetDoingTask
-	slot9 = slot2
-	slot7, slot8, slot9 = slot7(slot8, slot9)
+	slot7 = GetDoingTask
+	slot8 = slot2
+	slot7, slot8, slot9 = slot7(slot8)
 	slot10 = getProxy
 	slot11 = ActivityProxy
 	slot10 = slot10(slot11)
@@ -7391,10 +7389,9 @@ function slot5(slot0, slot1, slot2, slot3)
 		slot9[slot10] = slot11
 	end
 
-	slot9 = slot0
-	slot8 = slot0.GetDoingTask
-	slot10 = slot4
-	slot8, slot9, slot10 = slot8(slot9, slot10)
+	slot8 = GetDoingTask
+	slot9 = slot4
+	slot8, slot9, slot10 = slot8(slot9)
 
 	if slot10 then
 		slot11 = setActive
@@ -10366,10 +10363,9 @@ function slot5(slot0)
 	slot5 = slot1.getConfig
 	slot7 = "config_data"
 	slot4 = slot4(slot5(slot6, slot7))
-	slot6 = slot0
-	slot5 = slot0.GetDoingTask
-	slot7 = slot1
-	slot5, slot6, slot7 = slot5(slot6, slot7)
+	slot5 = GetDoingTask
+	slot6 = slot1
+	slot5, slot6, slot7 = slot5(slot6)
 	slot9 = slot7
 	slot8 = slot7.getConfig
 	slot10 = "award_display"
@@ -11939,10 +11935,9 @@ function slot5(slot0)
 		return
 	end
 
-	slot9 = slot0
-	slot8 = slot0.GetDoingTask
-	slot10 = slot5
-	slot8, slot9, slot10 = slot8(slot9, slot10)
+	slot8 = GetDoingTask
+	slot9 = slot5
+	slot8, slot9, slot10 = slot8(slot9)
 	slot12 = slot10
 	slot11 = slot10.getConfig
 	slot13 = "award_display"

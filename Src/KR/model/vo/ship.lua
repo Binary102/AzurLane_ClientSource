@@ -1557,6 +1557,8 @@ function slot0.canDestroyShip(slot0, slot1)
 		})
 
 		return false, nil
+	elseif slot0.inActivity then
+		return false, i18n("word_shipState_activity")
 	elseif slot0.inSham then
 		return false, i18n("word_shipState_sham")
 	elseif slot0.inChallenge then
@@ -1668,6 +1670,7 @@ slot6 = {
 		inElite = 2,
 		inFleet = 2,
 		inClass = 2,
+		inActivity = 2,
 		inTactics = 2,
 		inBackyard = 2
 	},
@@ -1677,6 +1680,7 @@ slot6 = {
 		inElite = 0,
 		inFleet = 2,
 		inClass = 2,
+		inActivity = 2,
 		inTactics = 2,
 		inBackyard = 2
 	},
@@ -1686,6 +1690,7 @@ slot6 = {
 		inElite = 0,
 		inFleet = 1,
 		inClass = 2,
+		inActivity = 2,
 		inTactics = 2,
 		inBackyard = 2
 	},
@@ -1695,6 +1700,7 @@ slot6 = {
 		inElite = 2,
 		inFleet = 2,
 		inClass = 0,
+		inActivity = 2,
 		inTactics = 2,
 		inBackyard = 2
 	},
@@ -1704,6 +1710,7 @@ slot6 = {
 		inElite = 2,
 		inFleet = 2,
 		inClass = 0,
+		inActivity = 2,
 		inTactics = 2,
 		inBackyard = 0
 	},
@@ -1713,7 +1720,18 @@ slot6 = {
 		inElite = 2,
 		inFleet = 2,
 		inClass = 2,
+		inActivity = 2,
 		inTactics = 0,
+		inBackyard = 2
+	},
+	inActivity = {
+		inEvent = 2,
+		inChapter = 2,
+		inElite = 2,
+		inFleet = 2,
+		inClass = 2,
+		inActivity = 0,
+		inTactics = 2,
 		inBackyard = 2
 	}
 }
@@ -1724,7 +1742,8 @@ slot7 = {
 	"inClass",
 	"inTactics",
 	"inBackyard",
-	"inElite"
+	"inElite",
+	"inActivity"
 }
 slot8 = {
 	inFleet = {
@@ -1734,6 +1753,9 @@ slot8 = {
 		tips_block = "word_shipState_fight"
 	},
 	inElite = {
+		tips_block = "word_shipState_fight"
+	},
+	inActivity = {
 		tips_block = "word_shipState_fight"
 	},
 	inEvent = {

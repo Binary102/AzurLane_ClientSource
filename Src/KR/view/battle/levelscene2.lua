@@ -13,6 +13,12 @@ if Application.isEditor then
 	end
 end
 
+slot2 = {
+	vanguard = 1,
+	submarine = 3,
+	main = 2
+}
+
 function slot0.getUIName(slot0)
 	return "LevelUI2"
 end
@@ -62,6 +68,7 @@ function slot0.init(slot0)
 	slot0.damageText = slot0:findTF("damage", slot0.topPanel)
 	slot0.mapHelpBtn = slot0:findTF("help_button", slot0.topPanel)
 	slot0.avoidText = slot0:findTF("text_avoid", slot0.topPanel)
+	slot0.moveDownText = slot0:findTF("text_move_down", slot0.topPanel)
 	slot0.commanderTinkle = slot0:findTF("neko_tinkle", slot0.topPanel)
 	slot0.remasterWindow = slot0:findTF("remaster_window", slot0.topPanel)
 	slot0.panelBarrier = slot0:findTF("panel_barrier", slot0.rightStage)
@@ -323,7 +330,11 @@ function slot0.didEnter(slot0)
 					helps = i18n("guild_battle_help_tip")
 				})
 			elseif slot1 == ChapterConst.TypeNone then
-				if slot0:existOni() then
+				if slot0:existCoastalGunNoMatterLiveOrDead() then
+					pg.MsgboxMgr.GetInstance():ShowHelpWindow({
+						helps = i18n("levelScene_coastalgun_help_tip")
+					})
+				elseif slot0:existOni() then
 					pg.MsgboxMgr.GetInstance():ShowHelpWindow({
 						helps = i18n("levelScene_sphunt_help_tip")
 					})
@@ -1821,10 +1832,19 @@ function slot0.updateMapItem(slot0, slot1, slot2, slot3)
 			slot0:switchToChapter(slot1)
 		else
 			slot0:displayChapterPanel(slot1, Vector3(slot2.localPosition.x - 10, slot2.localPosition.y + 150))
+			slot0:tryPlayChapterInfoGuide(slot1)
 		end
 
 		return
 	end, SFX_UI_WEIGHANCHOR_SELECT)
+end
+
+function slot0.tryPlayChapterInfoGuide(slot0, slot1)
+	if slot1:existLoop() then
+		pg.GuideMgr:GetInstance():play("NG0013", {})
+	end
+
+	return
 end
 
 function slot0.tryPlayMapStory(slot0)
@@ -1960,21 +1980,22 @@ function slot0.displayChapterPanel(slot0, slot1, slot2)
 	slot0.levelInfoPanel:attach(slot0)
 	slot0.levelInfoPanel:set(slot1, slot2)
 
-	function slot0.levelInfoPanel.onConfirm()
-		slot0 = getProxy(BayProxy)
-
-		if slot0.player.ship_bag_max <= slot0:getShipCount() then
-			NoPosMsgBox(i18n("switch_to_shop_tip_noDockyard"), openDockyardClear, gotoChargeScene)
+	function slot0.levelInfoPanel.onConfirm(slot0)
+		if slot0.player.ship_bag_max <= getProxy(BayProxy).getShipCount(slot1) then
+			NoPosMsgBox(i18n("switch_to_shop_tip_noDockyard"), openDockyardClear, gotoChargeScene, openDockyardIntensify)
 
 			return
 		end
 
 		slot0:hideChapterPanel()
 
-		if slot1:getConfig("type") == Chapter.CustomFleet then
-			slot0:displayFleetEdit(slot1)
+		slot3 = slot1:clone()
+		slot3.loopFlag = slot0
+
+		if slot3:getConfig("type") == Chapter.CustomFleet then
+			slot0:displayFleetEdit(slot3)
 		else
-			slot0:displayFleetSelect(slot1)
+			slot0:displayFleetSelect(slot3)
 		end
 
 		return
@@ -2041,7 +2062,7 @@ function slot0.displayFleetSelect(slot0, slot1)
 			end
 
 			slot0:trackChapter(slot0, function ()
-				slot0:emit(LevelMediator2.ON_TRACKING, slot1.id, )
+				slot0:emit(LevelMediator2.ON_TRACKING, slot1.id, , slot1.loopFlag)
 
 				return
 			end)
@@ -2202,32 +2223,33 @@ function slot0.flushFleetEditButton(slot0, slot1)
 		end)
 
 		slot11 = {}
+		slot12 = {}
 
-		for slot15 = 1, 3, 1 do
-			slot16, slot17, slot18 = nil
-			slot19 = (slot6[slot15] and slot1.shipVOs[slot6[slot15]]) or nil
+		for slot16 = 1, 3, 1 do
+			slot17, slot18, slot19 = nil
+			slot20 = (slot6[slot16] and slot1.shipVOs[slot6[slot16]]) or nil
 
-			if slot19 then
-				for slot23, slot24 in ipairs(slot2) do
-					if type(slot24) == "number" then
-						if slot24 == 0 or slot19:getShipType() == slot24 then
-							slot17 = slot19
-							slot18 = slot24
+			if slot20 then
+				for slot24, slot25 in ipairs(slot2) do
+					if type(slot25) == "number" then
+						if slot25 == 0 or slot20:getShipType() == slot25 then
+							slot18 = slot20
+							slot19 = slot25
 
-							table.remove(slot2, slot23)
-							table.insert(slot11, slot23)
+							table.remove(slot2, slot24)
+							table.insert(slot11, slot24)
 
-							slot9 = slot9 or slot19:getShipType() == slot24
+							slot9 = slot9 or slot20:getShipType() == slot25
 
 							break
 						end
 					else
-						if type(slot24) == "string" and table.contains(Clone(ShipType.BundleList[slot24]), slot19:getShipType()) then
-							slot17 = slot19
-							slot18 = slot24
+						if type(slot25) == "string" and table.contains(Clone(ShipType.BundleList[slot25]), slot20:getShipType()) then
+							slot18 = slot20
+							slot19 = slot25
 
-							table.remove(slot2, slot23)
-							table.insert(slot11, slot23)
+							table.remove(slot2, slot24)
+							table.insert(slot11, slot24)
 
 							slot9 = true
 
@@ -2236,48 +2258,52 @@ function slot0.flushFleetEditButton(slot0, slot1)
 					end
 				end
 			else
-				slot18 = slot2[1]
+				slot19 = slot2[1]
 
 				table.remove(slot2, 1)
-				table.insert(slot11, slot15)
+				table.insert(slot11, 1)
 			end
 
-			if slot18 == 0 then
+			if slot19 == 0 then
 				slot10 = slot10 + 1
 			end
 
-			setActive((slot17 and cloneTplTo(slot2, slot7)) or cloneTplTo(slot3, slot7), true)
+			table.insert(slot12, (slot18 and cloneTplTo(slot2, slot7)) or cloneTplTo(slot3, slot7))
+			setActive((slot18 and cloneTplTo(slot2, slot7)) or cloneTplTo(slot3, slot7), true)
 
-			if slot17 then
-				updateShip(slot20, slot17)
-				setActive(slot1:findTF("event_block", slot20), slot17.inEvent)
+			if slot18 then
+				updateShip(slot21, slot18)
+				setActive(slot1:findTF("event_block", slot21), slot18.inEvent)
 
-				slot5[slot17] = true
+				slot5[slot18] = true
 			else
 				slot8 = slot8 + 1
 			end
 
-			slot16 = findTF(slot20, "icon_bg")
+			slot17 = findTF(slot21, "icon_bg")
 
-			setActive(slot1:findTF("ship_type", slot20), true)
+			setActive(slot1:findTF("ship_type", slot21), true)
 
-			if type(slot18) == "number" then
-				if slot18 ~= 0 then
-					setImageSprite(slot1:findTF("ship_type", slot20), GetSpriteFromAtlas("shiptype", ShipType.Type2CNLabel(slot18)), true)
+			if type(slot19) == "number" then
+				if slot19 ~= 0 then
+					setImageSprite(slot1:findTF("ship_type", slot21), GetSpriteFromAtlas("shiptype", ShipType.Type2CNLabel(slot19)), true)
 				else
-					setActive(slot1:findTF("ship_type", slot20), false)
+					setActive(slot1:findTF("ship_type", slot21), false)
 				end
 			else
-				if type(slot18) == "string" then
-					setImageSprite(slot1:findTF("ship_type", slot20), GetSpriteFromAtlas("shiptype", ShipType.BundleType2CNLabel(slot18)), true)
+				if type(slot19) == "string" then
+					setImageSprite(slot1:findTF("ship_type", slot21), GetSpriteFromAtlas("shiptype", ShipType.BundleType2CNLabel(slot19)), true)
 				end
 			end
 
-			setActive(slot1:findTF("ship_type", slot20), not slot17 and slot18 ~= 0)
+			setActive(slot1:findTF("ship_type", slot21), not slot18 and slot19 ~= 0)
+			table.sort(setActive, function (slot0, slot1)
+				return slot0[slot0:getTeamType()] < slot0[slot1:getTeamType()] or (slot0[slot0:getTeamType()] == slot0[slot1:getTeamType()] and table.indexof(slot1, slot0.id) < table.indexof(slot1, slot1.id))
+			end)
 
-			slot21 = GetOrAddComponent(slot16, typeof(UILongPressTrigger))
+			slot23 = GetOrAddComponent(slot17, typeof(UILongPressTrigger))
 
-			function slot22()
+			function slot24()
 				slot0:hideFleetEdit()
 				slot0.hideFleetEdit:emit(LevelMediator2.ON_ELITE_OEPN_DECK, {
 					shipType = slot1,
@@ -2291,21 +2317,22 @@ function slot0.flushFleetEditButton(slot0, slot1)
 				return
 			end
 
-			slot21.onReleased:RemoveAllListeners()
-			slot21.onLongPressed:RemoveAllListeners()
-			slot21.onReleased:AddListener(function ()
+			slot23.onReleased:RemoveAllListeners()
+			slot23.onLongPressed:RemoveAllListeners()
+			slot23.onReleased:AddListener(function ()
 				slot0()
 
 				return
 			end)
-			slot21.onLongPressed:AddListener(function ()
+			slot23.onLongPressed:AddListener(function ()
 				if not slot0 then
 					slot1()
 				else
 					slot2:hideFleetEdit()
 					slot2:emit(LevelMediator2.ON_FLEET_SHIPINFO, {
 						shipId = slot0.id,
-						chapter = 
+						shipVOs = slot3,
+						chapter = slot3
 					})
 				end
 
@@ -2313,8 +2340,8 @@ function slot0.flushFleetEditButton(slot0, slot1)
 			end)
 		end
 
-		for slot15 = 1, 3, 1 do
-			slot7:GetChild(3 - slot15):SetSiblingIndex(slot11[3 - slot15])
+		for slot16 = 3, 1, -1 do
+			slot12[slot16]:SetSiblingIndex(slot11[slot16] - 1)
 		end
 
 		if (slot9 == true or slot10 == 3) and slot8 ~= 3 then
@@ -2533,7 +2560,7 @@ function slot0.displayFleetEdit(slot0, slot1)
 			function slot2()
 				slot0:hideFleetEdit()
 				slot0.hideFleetEdit:trackChapter(slot0.hideFleetEdit, function ()
-					slot0:emit(LevelMediator2.ON_ELITE_TRACKING, slot1.id)
+					slot0:emit(LevelMediator2.ON_ELITE_TRACKING, slot1.id, slot1.loopFlag)
 
 					return
 				end)
@@ -4046,6 +4073,10 @@ function slot0.tryPlayChapterStory(slot0)
 	else
 		if slot1.id == 1160002 then
 			pg.GuideMgr:GetInstance():play("NG0011")
+		else
+			if slot1.id == 1200001 then
+				pg.GuideMgr:GetInstance():play("NG0014")
+			end
 		end
 	end
 
@@ -4229,13 +4260,14 @@ function slot0.destroyAirStrike(slot0)
 end
 
 function slot0.doPlayAnim(slot0, slot1, slot2, slot3)
+	slot0:frozen()
+
 	slot0.uiAnims = slot0.uiAnims or {}
 
 	function slot5()
 		slot0.playing = true
 
-		slot0:frozen()
-		slot0:SetActive(true)
+		true:SetActive(true)
 
 		if true then
 			slot2(slot1)
@@ -4377,7 +4409,6 @@ function slot0.doPlayStrikeAnim(slot0, slot1, slot2, slot3)
 
 		slot5 = slot1:GetComponent("DftAniEvent")
 		slot6 = slot3:GetComponent("SpineAnimUI")
-		slot7 = slot6:GetComponent("SkeletonGraphic")
 
 		slot5:SetStartEvent(function (slot0)
 			slot0:SetAction("attack", 0)
@@ -4411,6 +4442,9 @@ function slot0.doPlayStrikeAnim(slot0, slot1, slot2, slot3)
 		end)
 		onButton(slot0, slot1, slot4, SFX_CANCEL)
 		coroutine.yield()
+
+		slot6:GetComponent("SkeletonGraphic").freeze = false
+
 		retPaintingPrefab(slot3, slot5:getPainting())
 		PoolMgr.GetInstance():ReturnSpineChar(slot5:getPrefab(), slot3)
 		setActive(slot0, false)
@@ -4634,6 +4668,36 @@ function slot0.easeAvoid(slot0, slot1, slot2)
 		return
 	end)):setOnComplete(System.Action(function ()
 		setActive(slot0.avoidText, false)
+		setActive:unfrozen()
+
+		if setActive then
+			slot1()
+		end
+
+		return
+	end))
+
+	return
+end
+
+function slot0.easeMoveDown(slot0, slot1, slot2)
+	slot0:frozen()
+
+	slot0.moveDownText.position = slot0.uiCam:ScreenToWorldPoint(slot3)
+	slot0.moveDownText.localPosition.y = slot0.moveDownText.localPosition.y + 100
+	slot0.moveDownText.localPosition.z = 0
+	slot0.moveDownText.localPosition = slot0.moveDownText.localPosition
+
+	setActive(slot0.moveDownText, true)
+	LeanTween.value(go(slot0.moveDownText), 0, 1, 1):setOnUpdate(System.Action_float(function (slot0)
+		slot0.moveDownText.localPosition.y = slot1.y - 100 * slot0
+		slot0.moveDownText.localPosition = slot0.moveDownText.localPosition
+
+		setImageAlpha(slot0.moveDownText, 1 - slot0)
+
+		return
+	end)):setOnComplete(System.Action(function ()
+		setActive(slot0.moveDownText, false)
 		setActive:unfrozen()
 
 		if setActive then

@@ -53531,6 +53531,1884 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[40001] = {
+		can_rotate = 0,
+		name = "설국의 산들",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		effect = "",
+		icon = "qiangbixdicon",
+		is_get_time_note = 0,
+		belong = 0,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 150,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 4,
+		picture = "xuedi/qiangbixd",
+		canputon = 0,
+		discount = 0,
+		id = 40001,
+		comfortable = 4,
+		describe = "설국의 산들을 모티브로 한 벽지. 기분 최고♪",
+		dorm_id = 0,
+		gem_price = 450,
+		can_trigger = 0,
+		themeId = 40,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					3,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[40002] = {
+		can_rotate = 0,
+		name = "눈이 쌓인 바닥",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		effect = "",
+		icon = "dibanxdicon",
+		is_get_time_note = 0,
+		belong = 0,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 150,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 5,
+		rarity = 4,
+		picture = "xuedi/dibanxd",
+		canputon = 0,
+		discount = 0,
+		id = 40002,
+		comfortable = 4,
+		describe = "스키 타기 매우 좋아 보이는(?) 눈이 쌓인 바닥",
+		dorm_id = 0,
+		gem_price = 450,
+		can_trigger = 0,
+		themeId = 40,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					3,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[40101] = {
+		can_rotate = 0,
+		name = "이글루",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		icon = "bingwuxdicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		picture = "xuedi/bingwuxd",
+		canputon = 0,
+		discount = 0,
+		id = 40101,
+		comfortable = 3,
+		describe = "\"나, 알아! 밖은 얼음이지만, 안은 따뜻하단 거!\"",
+		dorm_id = 0,
+		gem_price = 240,
+		can_trigger = 0,
+		themeId = 40,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			4,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					3,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[40102] = {
+		can_rotate = 0,
+		name = "눈 내린 풀숲",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		icon = "caoxdicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 2,
+		advice = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "xuedi/caoxd",
+		canputon = 0,
+		discount = 0,
+		id = 40102,
+		comfortable = 2,
+		describe = "은색의 세계를 이어 주는 녹색",
+		dorm_id = 0,
+		gem_price = 120,
+		can_trigger = 0,
+		themeId = 40,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			3,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					3,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[40103] = {
+		can_rotate = 1,
+		name = "우드 박스",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		icon = "chaixdicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "xuedi/chaixd",
+		canputon = 0,
+		discount = 0,
+		id = 40103,
+		comfortable = 2,
+		describe = "장작이 들어있는 나무 상자. 최고의 에너지원",
+		dorm_id = 0,
+		gem_price = 120,
+		can_trigger = 0,
+		themeId = 40,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					3,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[40104] = {
+		can_rotate = 0,
+		name = "설산 온천",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "chixdicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		picture = "xuedi/chixd",
+		canputon = 0,
+		discount = 0,
+		id = 40104,
+		comfortable = 3,
+		describe = "눈 내린 경치를 보며 즐길 수 있는 온천",
+		dorm_id = 0,
+		gem_price = 240,
+		can_trigger = 0,
+		themeId = 40,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			6,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"wash",
+				{
+					58.6,
+					-58.2
+				},
+				{
+					1,
+					1
+				},
+				"xuedi/chixd_using"
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					3,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[40105] = {
+		can_rotate = 0,
+		name = "등유 랜턴",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		icon = "dengxdicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "xuedi/dengxd",
+		canputon = 0,
+		discount = 0,
+		id = 40105,
+		comfortable = 2,
+		describe = "산 속 오두막집을 밝히는 희망의 등불",
+		dorm_id = 0,
+		gem_price = 120,
+		can_trigger = 0,
+		themeId = 40,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					3,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[40106] = {
+		can_rotate = 1,
+		name = "얼음 조각",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "diaoxdicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		picture = "xuedi/diaoxd",
+		canputon = 0,
+		discount = 0,
+		id = 40106,
+		comfortable = 3,
+		describe = "설산의 스노우 페스티벌!",
+		dorm_id = 0,
+		gem_price = 240,
+		can_trigger = 0,
+		themeId = 40,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-4.9,
+					61.2
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					3,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[40107] = {
+		can_rotate = 0,
+		name = "군고구마",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		icon = "fanshuxdicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		picture = "xuedi/fanshuxd",
+		canputon = 0,
+		discount = 0,
+		id = 40107,
+		comfortable = 3,
+		describe = "어째선지 스키장에 설치된 군고구마 구이(드럼 캔 식). 뜨거운 군고구마는 대호평인 모양",
+		dorm_id = 0,
+		gem_price = 240,
+		can_trigger = 0,
+		themeId = 40,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					3,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[40108] = {
+		can_rotate = 0,
+		name = "바다표범 군",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		icon = "haibaoxdicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		picture = "xuedi/haibaoxd",
+		canputon = 0,
+		discount = 0,
+		id = 40108,
+		comfortable = 3,
+		describe = "작은 바다표범 군. 귀여울…지도…？",
+		dorm_id = 0,
+		gem_price = 240,
+		can_trigger = 0,
+		themeId = 40,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					3,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[40109] = {
+		can_rotate = 0,
+		name = "머플러 만쥬",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		icon = "jiuxdicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "xuedi/jiuxd",
+		canputon = 0,
+		discount = 0,
+		id = 40109,
+		comfortable = 2,
+		describe = "(※특수 방한 기능 있음. 단, 머플러 한 장만 두르고 설산에 도전하지는 말아주시기 바랍니다)",
+		dorm_id = 0,
+		gem_price = 120,
+		can_trigger = 0,
+		themeId = 40,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					3,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[40110] = {
+		can_rotate = 0,
+		name = "방어 낚시터",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		icon = "kulongxdicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "xuedi/kulongxd",
+		canputon = 0,
+		discount = 0,
+		id = 40110,
+		comfortable = 2,
+		describe = "한 번은 해보고 싶은, 방어 낚시. (구멍에 빠지지 않도록 주의)",
+		dorm_id = 0,
+		gem_price = 120,
+		can_trigger = 0,
+		themeId = 40,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					3,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[40111] = {
+		can_rotate = 0,
+		name = "눈 내린 펜스",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		icon = "langanxdicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 20,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 1,
+		picture = "xuedi/langanxd",
+		canputon = 0,
+		discount = 0,
+		id = 40111,
+		comfortable = 1,
+		describe = "스키장을 가르는 펜스",
+		dorm_id = 0,
+		gem_price = 60,
+		can_trigger = 0,
+		themeId = 40,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					3,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[40112] = {
+		can_rotate = 0,
+		name = "눈 내린 길",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		effect = "",
+		icon = "luxdicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		picture = "xuedi/luxd",
+		canputon = 0,
+		discount = 0,
+		id = 40112,
+		comfortable = 3,
+		describe = "녹은 눈으로 약간 미끄러워진 길",
+		dorm_id = 0,
+		gem_price = 240,
+		can_trigger = 0,
+		themeId = 40,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					3,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[40114] = {
+		can_rotate = 0,
+		name = "펭귄 만쥬",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		icon = "qiexdicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		picture = "xuedi/qiexd",
+		canputon = 0,
+		discount = 0,
+		id = 40114,
+		comfortable = 3,
+		describe = "펭귄이 된 만쥬. \"만쥬란 건 대체 뭘까요…\"",
+		dorm_id = 0,
+		gem_price = 240,
+		can_trigger = 0,
+		themeId = 40,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					3,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[40115] = {
+		can_rotate = 0,
+		name = "커다란 눈덩이",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		icon = "qiuxdicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "xuedi/qiuxd",
+		canputon = 0,
+		discount = 0,
+		id = 40115,
+		comfortable = 2,
+		describe = "커다란 눈덩이. \"이걸 눈싸움할 때 탄약고로 쓰자!\"",
+		dorm_id = 0,
+		gem_price = 120,
+		can_trigger = 0,
+		themeId = 40,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					3,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[40116] = {
+		can_rotate = 0,
+		name = "눈 내린 돌",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		icon = "shitouxdicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "xuedi/shitouxd",
+		canputon = 0,
+		discount = 0,
+		id = 40116,
+		comfortable = 2,
+		describe = "스키 타다가 부딪히면 큰일",
+		dorm_id = 0,
+		gem_price = 120,
+		can_trigger = 0,
+		themeId = 40,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					3,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[40117] = {
+		can_rotate = 0,
+		name = "눈 내린 나무",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		icon = "shuxdicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "xuedi/shuxd",
+		canputon = 0,
+		discount = 0,
+		id = 40117,
+		comfortable = 2,
+		describe = "은색의 세계를 이어 주는 녹색",
+		dorm_id = 0,
+		gem_price = 120,
+		can_trigger = 0,
+		themeId = 40,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					3,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[40118] = {
+		can_rotate = 0,
+		name = "백곰 아저씨",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 150,
+		not_for_sale = 0,
+		icon = "xiongxdicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 4,
+		picture = "xuedi/xiongxd",
+		canputon = 0,
+		discount = 0,
+		id = 40118,
+		comfortable = 4,
+		describe = "\"소인의 친구올시다!\"",
+		dorm_id = 0,
+		gem_price = 450,
+		can_trigger = 0,
+		themeId = 40,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			4,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					29,
+					82.6
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					3,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[40119] = {
+		can_rotate = 0,
+		name = "스노우 부츠",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		icon = "xuexdicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "xuedi/xuexd",
+		canputon = 0,
+		discount = 0,
+		id = 40119,
+		comfortable = 2,
+		describe = "방한, 방수, 미끄럼 방지 기능을 갖춘 스노우 부츠",
+		dorm_id = 0,
+		gem_price = 120,
+		can_trigger = 0,
+		themeId = 40,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					3,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[40120] = {
+		can_rotate = 0,
+		name = "눈 위의 발자국",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		effect = "",
+		icon = "yingxdicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "xuedi/yingxd",
+		canputon = 0,
+		discount = 0,
+		id = 40120,
+		comfortable = 2,
+		describe = "이건… 사건이 터질 듯한 예감!",
+		dorm_id = 0,
+		gem_price = 120,
+		can_trigger = 0,
+		themeId = 40,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			4,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					3,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[40121] = {
+		can_rotate = 0,
+		name = "눈 내린 벤치",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 2,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "yizixdicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		picture = "xuedi/yizixd",
+		canputon = 0,
+		discount = 0,
+		id = 40121,
+		comfortable = 3,
+		describe = "스키 타다 지쳤을 땐 잠깐 휴식하자",
+		dorm_id = 0,
+		gem_price = 240,
+		can_trigger = 0,
+		themeId = 40,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-10.7,
+					23.5
+				},
+				{
+					-1,
+					1
+				},
+				"xuedi/yizixd_using"
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					3,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[40122] = {
+		can_rotate = 0,
+		name = "낮은 펜스",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		icon = "zhalan1xdicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "xuedi/zhalan1xd",
+		canputon = 0,
+		discount = 0,
+		id = 40122,
+		comfortable = 2,
+		describe = "버튼을 누르면 넘어갈 수 있을 것 같은 펜스",
+		dorm_id = 0,
+		gem_price = 120,
+		can_trigger = 0,
+		themeId = 40,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					3,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[40123] = {
+		can_rotate = 0,
+		name = "높은 펜스",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		icon = "zhalan2xdicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		picture = "xuedi/zhalan2xd",
+		canputon = 0,
+		discount = 0,
+		id = 40123,
+		comfortable = 3,
+		describe = "버튼을 눌러도 넘어갈 수 없을 것 같은 펜스",
+		dorm_id = 0,
+		gem_price = 240,
+		can_trigger = 0,
+		themeId = 40,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			4,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					3,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[40124] = {
+		can_rotate = 0,
+		name = "설산 텐트",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 2,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 150,
+		not_for_sale = 0,
+		icon = "zhangpengxdicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 4,
+		picture = "xuedi/zhangpengxd",
+		canputon = 0,
+		discount = 0,
+		id = 40124,
+		comfortable = 4,
+		describe = "\"아하! 이게 '스노우 닌자 하우스'란 거네!\"",
+		dorm_id = 0,
+		gem_price = 450,
+		can_trigger = 0,
+		themeId = 40,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					5.3,
+					-27.6
+				},
+				{
+					1,
+					1
+				},
+				"xuedi/zhangpengxd_using"
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					3,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[40125] = {
+		can_rotate = 0,
+		name = "눈 미끄럼틀",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		picture = "xuedi/xuepoxd",
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 0,
+		not_for_sale = 0,
+		icon = "xuepoxdicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 40125,
+		comfortable = 3,
+		describe = "스키를 신지 않아도 내려갈 수 있는 미끄럼틀",
+		dorm_id = 0,
+		gem_price = 150,
+		can_trigger = 0,
+		themeId = 40,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			5,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		spine = {
+			{
+				"xueqiaoB",
+				"normal"
+			},
+			{
+				"xueqiaoT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					},
+					{
+						"walk"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					3,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		animator = {
+			{
+				"xueqiaoCharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[40126] = {
+		can_rotate = 1,
+		name = "만쥬 케이블카",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		picture = "xuedi/lanchexd",
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 0,
+		not_for_sale = 0,
+		icon = "lanchexdicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 40126,
+		comfortable = 3,
+		describe = "설산의 초단거리 이동이 가능한 호화로운 만쥬 케이블카",
+		dorm_id = 0,
+		gem_price = 150,
+		can_trigger = 0,
+		themeId = 40,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			5,
+			21
+		},
+		offset = {},
+		canputonGrid = {},
+		spine = {
+			{
+				"lancheB",
+				"normal"
+			},
+			{
+				"lancheT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					},
+					{
+						"walk"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					3,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		animator = {
+			{
+				"lancheBCharControl"
+			}
+		},
+		interAction_group = {}
+	},
 	[41001] = {
 		can_rotate = 0,
 		name = "롤러코스터 벽지",
@@ -55815,6 +57693,33 @@ pg.furniture_data_template = {
 		39305,
 		39306,
 		39307,
+		40001,
+		40002,
+		40101,
+		40102,
+		40103,
+		40104,
+		40105,
+		40106,
+		40107,
+		40108,
+		40109,
+		40110,
+		40111,
+		40112,
+		40114,
+		40115,
+		40116,
+		40117,
+		40118,
+		40119,
+		40120,
+		40121,
+		40122,
+		40123,
+		40124,
+		40125,
+		40126,
 		41001,
 		41002,
 		41101,

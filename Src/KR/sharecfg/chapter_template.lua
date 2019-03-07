@@ -11,6 +11,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 101000,
 		id = 101,
 		pre_chapter = 0,
@@ -20,6 +21,7 @@ pg.chapter_template = {
 		model = 1,
 		investigation_ratio = 6,
 		num_2 = 3,
+		land_based = "",
 		unlocklevel = 0,
 		boss_refresh_special = 1,
 		uifx = "",
@@ -43,6 +45,7 @@ pg.chapter_template = {
 		avoid_ratio = 3,
 		star_require_2 = 2,
 		time = 99999999,
+		limit_move = 0,
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -236,6 +239,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 102000,
 		id = 102,
 		pre_chapter = 101,
@@ -245,6 +249,7 @@ pg.chapter_template = {
 		model = 1,
 		investigation_ratio = 6,
 		num_2 = 5,
+		land_based = "",
 		unlocklevel = 0,
 		boss_refresh_special = 2,
 		uifx = "",
@@ -268,6 +273,7 @@ pg.chapter_template = {
 		avoid_ratio = 3,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -570,6 +576,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 103000,
 		id = 103,
 		pre_chapter = 102,
@@ -579,6 +586,7 @@ pg.chapter_template = {
 		model = 1,
 		investigation_ratio = 7,
 		num_2 = 5,
+		land_based = "",
 		unlocklevel = 0,
 		boss_refresh_special = 2,
 		uifx = "",
@@ -602,6 +610,7 @@ pg.chapter_template = {
 		avoid_ratio = 3,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 0,
 		scale = {
 			0.52,
@@ -938,6 +947,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 104000,
 		id = 104,
 		pre_chapter = 103,
@@ -947,6 +957,7 @@ pg.chapter_template = {
 		model = 1,
 		investigation_ratio = 8,
 		num_2 = 7,
+		land_based = "",
 		unlocklevel = 0,
 		boss_refresh_special = 3,
 		uifx = "",
@@ -970,6 +981,7 @@ pg.chapter_template = {
 		avoid_ratio = 4,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 0,
 		scale = {
 			0.66,
@@ -1393,6 +1405,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 201000,
 		id = 201,
 		pre_chapter = 104,
@@ -1402,6 +1415,7 @@ pg.chapter_template = {
 		model = 1,
 		investigation_ratio = 10,
 		num_2 = 10,
+		land_based = "",
 		unlocklevel = 0,
 		boss_refresh_special = 2,
 		uifx = "",
@@ -1425,6 +1439,7 @@ pg.chapter_template = {
 		avoid_ratio = 4,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 0,
 		scale = {
 			0.665,
@@ -1943,6 +1958,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 202000,
 		id = 202,
 		pre_chapter = 201,
@@ -1952,6 +1968,7 @@ pg.chapter_template = {
 		model = 1,
 		investigation_ratio = 10,
 		num_2 = 12,
+		land_based = "",
 		unlocklevel = 10,
 		boss_refresh_special = 3,
 		uifx = "",
@@ -1975,6 +1992,7 @@ pg.chapter_template = {
 		avoid_ratio = 4,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 0,
 		scale = {
 			0.665,
@@ -2546,6 +2564,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 203000,
 		id = 203,
 		pre_chapter = 202,
@@ -2555,6 +2574,7 @@ pg.chapter_template = {
 		model = 1,
 		investigation_ratio = 11,
 		num_2 = 12,
+		land_based = "",
 		unlocklevel = 10,
 		boss_refresh_special = 3,
 		uifx = "",
@@ -2578,6 +2598,7 @@ pg.chapter_template = {
 		avoid_ratio = 5,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -3126,6 +3147,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 204000,
 		id = 204,
 		pre_chapter = 203,
@@ -3135,6 +3157,7 @@ pg.chapter_template = {
 		model = 1,
 		investigation_ratio = 12,
 		num_2 = 12,
+		land_based = "",
 		unlocklevel = 10,
 		boss_refresh_special = 3,
 		uifx = "",
@@ -3158,6 +3181,7 @@ pg.chapter_template = {
 		avoid_ratio = 5,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 0,
 		scale = {
 			0.38,
@@ -3676,6 +3700,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 301000,
 		id = 301,
 		pre_chapter = 204,
@@ -3685,6 +3710,7 @@ pg.chapter_template = {
 		model = 1,
 		investigation_ratio = 14,
 		num_2 = 12,
+		land_based = "",
 		unlocklevel = 20,
 		boss_refresh_special = 3,
 		uifx = "",
@@ -3708,6 +3734,7 @@ pg.chapter_template = {
 		avoid_ratio = 6,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -4247,6 +4274,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 302000,
 		id = 302,
 		pre_chapter = 301,
@@ -4256,6 +4284,7 @@ pg.chapter_template = {
 		model = 1,
 		investigation_ratio = 14,
 		num_2 = 12,
+		land_based = "",
 		unlocklevel = 20,
 		boss_refresh_special = 3,
 		uifx = "",
@@ -4279,6 +4308,7 @@ pg.chapter_template = {
 		avoid_ratio = 6,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -4842,6 +4872,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 303000,
 		id = 303,
 		pre_chapter = 302,
@@ -4851,6 +4882,7 @@ pg.chapter_template = {
 		model = 1,
 		investigation_ratio = 15,
 		num_2 = 12,
+		land_based = "",
 		unlocklevel = 20,
 		boss_refresh_special = 3,
 		uifx = "",
@@ -4874,6 +4906,7 @@ pg.chapter_template = {
 		avoid_ratio = 7,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 0,
 		scale = {
 			0.64,
@@ -5432,6 +5465,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 304000,
 		id = 304,
 		pre_chapter = 303,
@@ -5441,6 +5475,7 @@ pg.chapter_template = {
 		model = 1,
 		investigation_ratio = 16,
 		num_2 = 12,
+		land_based = "",
 		unlocklevel = 20,
 		boss_refresh_special = 3,
 		uifx = "",
@@ -5464,6 +5499,7 @@ pg.chapter_template = {
 		avoid_ratio = 7,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 1,
 		scale = {
 			0.53,
@@ -6008,6 +6044,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 43200,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 305000,
 		id = 305,
 		pre_chapter = 0,
@@ -6017,6 +6054,7 @@ pg.chapter_template = {
 		model = 4,
 		investigation_ratio = 16,
 		num_2 = 0,
+		land_based = "",
 		unlocklevel = 20,
 		boss_refresh_special = 3,
 		uifx = "",
@@ -6040,6 +6078,7 @@ pg.chapter_template = {
 		avoid_ratio = 7,
 		star_require_2 = 0,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 1,
 		scale = {
 			0.53,
@@ -6649,6 +6688,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 401000,
 		id = 401,
 		pre_chapter = 304,
@@ -6658,6 +6698,7 @@ pg.chapter_template = {
 		model = 1,
 		investigation_ratio = 18,
 		num_2 = 15,
+		land_based = "",
 		unlocklevel = 25,
 		boss_refresh_special = 3,
 		uifx = "",
@@ -6681,6 +6722,7 @@ pg.chapter_template = {
 		avoid_ratio = 8,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -7137,6 +7179,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 402000,
 		id = 402,
 		pre_chapter = 401,
@@ -7146,6 +7189,7 @@ pg.chapter_template = {
 		model = 1,
 		investigation_ratio = 18,
 		num_2 = 15,
+		land_based = "",
 		unlocklevel = 25,
 		boss_refresh_special = 3,
 		uifx = "",
@@ -7169,6 +7213,7 @@ pg.chapter_template = {
 		avoid_ratio = 8,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 0,
 		scale = {
 			0.4,
@@ -7618,6 +7663,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 403000,
 		id = 403,
 		pre_chapter = 402,
@@ -7627,6 +7673,7 @@ pg.chapter_template = {
 		model = 1,
 		investigation_ratio = 19,
 		num_2 = 15,
+		land_based = "",
 		unlocklevel = 25,
 		boss_refresh_special = 3,
 		uifx = "",
@@ -7650,6 +7697,7 @@ pg.chapter_template = {
 		avoid_ratio = 9,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 0,
 		scale = {
 			0.66,
@@ -8044,6 +8092,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 404000,
 		id = 404,
 		pre_chapter = 403,
@@ -8053,6 +8102,7 @@ pg.chapter_template = {
 		model = 1,
 		investigation_ratio = 20,
 		num_2 = 18,
+		land_based = "",
 		unlocklevel = 25,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -8076,6 +8126,7 @@ pg.chapter_template = {
 		avoid_ratio = 9,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 1,
 		scale = {
 			0.63,
@@ -8607,6 +8658,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 43200,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 405000,
 		id = 405,
 		pre_chapter = 0,
@@ -8616,6 +8668,7 @@ pg.chapter_template = {
 		model = 4,
 		investigation_ratio = 20,
 		num_2 = 0,
+		land_based = "",
 		unlocklevel = 25,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -8639,6 +8692,7 @@ pg.chapter_template = {
 		avoid_ratio = 9,
 		star_require_2 = 0,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 1,
 		scale = {
 			0.63,
@@ -9221,6 +9275,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 501000,
 		id = 501,
 		pre_chapter = 404,
@@ -9230,6 +9285,7 @@ pg.chapter_template = {
 		model = 1,
 		investigation_ratio = 22,
 		num_2 = 18,
+		land_based = "",
 		unlocklevel = 30,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -9253,6 +9309,7 @@ pg.chapter_template = {
 		avoid_ratio = 10,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -9789,6 +9846,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 502000,
 		id = 502,
 		pre_chapter = 501,
@@ -9798,6 +9856,7 @@ pg.chapter_template = {
 		model = 1,
 		investigation_ratio = 22,
 		num_2 = 18,
+		land_based = "",
 		unlocklevel = 30,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -9821,6 +9880,7 @@ pg.chapter_template = {
 		avoid_ratio = 10,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 0,
 		scale = {
 			0.66,
@@ -10295,6 +10355,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 503000,
 		id = 503,
 		pre_chapter = 502,
@@ -10304,6 +10365,7 @@ pg.chapter_template = {
 		model = 1,
 		investigation_ratio = 23,
 		num_2 = 18,
+		land_based = "",
 		unlocklevel = 30,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -10327,6 +10389,7 @@ pg.chapter_template = {
 		avoid_ratio = 11,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 0,
 		scale = {
 			0.54,
@@ -10771,6 +10834,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 504000,
 		id = 504,
 		pre_chapter = 503,
@@ -10780,6 +10844,7 @@ pg.chapter_template = {
 		model = 1,
 		investigation_ratio = 24,
 		num_2 = 20,
+		land_based = "",
 		unlocklevel = 30,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -10803,6 +10868,7 @@ pg.chapter_template = {
 		avoid_ratio = 11,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 1,
 		scale = {
 			0.51,
@@ -11272,6 +11338,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 43200,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 505000,
 		id = 505,
 		pre_chapter = 0,
@@ -11281,6 +11348,7 @@ pg.chapter_template = {
 		model = 4,
 		investigation_ratio = 24,
 		num_2 = 0,
+		land_based = "",
 		unlocklevel = 30,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -11304,6 +11372,7 @@ pg.chapter_template = {
 		avoid_ratio = 11,
 		star_require_2 = 0,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 1,
 		scale = {
 			0.51,
@@ -11824,6 +11893,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 601000,
 		id = 601,
 		pre_chapter = 504,
@@ -11833,6 +11903,7 @@ pg.chapter_template = {
 		model = 1,
 		investigation_ratio = 26,
 		num_2 = 20,
+		land_based = "",
 		unlocklevel = 40,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -11856,6 +11927,7 @@ pg.chapter_template = {
 		avoid_ratio = 12,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 0,
 		scale = {
 			0.66,
@@ -12363,6 +12435,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 602000,
 		id = 602,
 		pre_chapter = 601,
@@ -12372,6 +12445,7 @@ pg.chapter_template = {
 		model = 1,
 		investigation_ratio = 26,
 		num_2 = 20,
+		land_based = "",
 		unlocklevel = 40,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -12395,6 +12469,7 @@ pg.chapter_template = {
 		avoid_ratio = 12,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 0,
 		scale = {
 			0.55,
@@ -12958,6 +13033,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 603000,
 		id = 603,
 		pre_chapter = 602,
@@ -12967,6 +13043,7 @@ pg.chapter_template = {
 		model = 1,
 		investigation_ratio = 27,
 		num_2 = 20,
+		land_based = "",
 		unlocklevel = 40,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -12990,6 +13067,7 @@ pg.chapter_template = {
 		avoid_ratio = 13,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 0,
 		scale = {
 			0.36,
@@ -13477,6 +13555,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 604000,
 		id = 604,
 		pre_chapter = 603,
@@ -13486,6 +13565,7 @@ pg.chapter_template = {
 		model = 1,
 		investigation_ratio = 28,
 		num_2 = 25,
+		land_based = "",
 		unlocklevel = 40,
 		boss_refresh_special = 5,
 		uifx = "",
@@ -13509,6 +13589,7 @@ pg.chapter_template = {
 		avoid_ratio = 13,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 1,
 		scale = {
 			0.338,
@@ -14040,6 +14121,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 43200,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 605000,
 		id = 605,
 		pre_chapter = 0,
@@ -14049,6 +14131,7 @@ pg.chapter_template = {
 		model = 4,
 		investigation_ratio = 28,
 		num_2 = 0,
+		land_based = "",
 		unlocklevel = 40,
 		boss_refresh_special = 5,
 		uifx = "",
@@ -14072,6 +14155,7 @@ pg.chapter_template = {
 		avoid_ratio = 13,
 		star_require_2 = 0,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 1,
 		scale = {
 			0.338,
@@ -14602,6 +14686,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 701000,
 		id = 701,
 		pre_chapter = 604,
@@ -14611,6 +14696,7 @@ pg.chapter_template = {
 		model = 1,
 		investigation_ratio = 30,
 		num_2 = 20,
+		land_based = "",
 		unlocklevel = 50,
 		boss_refresh_special = 5,
 		uifx = "",
@@ -14634,6 +14720,7 @@ pg.chapter_template = {
 		avoid_ratio = 14,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 0,
 		scale = {
 			0.66,
@@ -14988,6 +15075,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 702000,
 		id = 702,
 		pre_chapter = 701,
@@ -14997,6 +15085,7 @@ pg.chapter_template = {
 		model = 1,
 		investigation_ratio = 30,
 		num_2 = 20,
+		land_based = "",
 		unlocklevel = 50,
 		boss_refresh_special = 5,
 		uifx = "",
@@ -15020,6 +15109,7 @@ pg.chapter_template = {
 		avoid_ratio = 14,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 0,
 		scale = {
 			0.55,
@@ -15477,6 +15567,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 703000,
 		id = 703,
 		pre_chapter = 702,
@@ -15486,6 +15577,7 @@ pg.chapter_template = {
 		model = 1,
 		investigation_ratio = 31,
 		num_2 = 20,
+		land_based = "",
 		unlocklevel = 50,
 		boss_refresh_special = 5,
 		uifx = "",
@@ -15509,6 +15601,7 @@ pg.chapter_template = {
 		avoid_ratio = 15,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 0,
 		scale = {
 			0.36,
@@ -16037,6 +16130,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 704000,
 		id = 704,
 		pre_chapter = 703,
@@ -16046,6 +16140,7 @@ pg.chapter_template = {
 		model = 1,
 		investigation_ratio = 32,
 		num_2 = 25,
+		land_based = "",
 		unlocklevel = 50,
 		boss_refresh_special = 5,
 		uifx = "",
@@ -16069,6 +16164,7 @@ pg.chapter_template = {
 		avoid_ratio = 15,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 1,
 		scale = {
 			0.338,
@@ -16581,6 +16677,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 43200,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 705000,
 		id = 705,
 		pre_chapter = 0,
@@ -16590,6 +16687,7 @@ pg.chapter_template = {
 		model = 4,
 		investigation_ratio = 32,
 		num_2 = 0,
+		land_based = "",
 		unlocklevel = 50,
 		boss_refresh_special = 5,
 		uifx = "",
@@ -16613,6 +16711,7 @@ pg.chapter_template = {
 		avoid_ratio = 15,
 		star_require_2 = 0,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 1,
 		scale = {
 			0.338,
@@ -17128,6 +17227,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 801000,
 		id = 801,
 		pre_chapter = 704,
@@ -17137,6 +17237,7 @@ pg.chapter_template = {
 		model = 1,
 		investigation_ratio = 31,
 		num_2 = 30,
+		land_based = "",
 		unlocklevel = 60,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -17160,6 +17261,7 @@ pg.chapter_template = {
 		avoid_ratio = 16,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 0,
 		scale = {
 			0.66,
@@ -17536,6 +17638,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 802000,
 		id = 802,
 		pre_chapter = 801,
@@ -17545,6 +17648,7 @@ pg.chapter_template = {
 		model = 1,
 		investigation_ratio = 31,
 		num_2 = 30,
+		land_based = "",
 		unlocklevel = 60,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -17568,6 +17672,7 @@ pg.chapter_template = {
 		avoid_ratio = 17,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 0,
 		scale = {
 			0.55,
@@ -18030,6 +18135,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 803000,
 		id = 803,
 		pre_chapter = 802,
@@ -18039,6 +18145,7 @@ pg.chapter_template = {
 		model = 1,
 		investigation_ratio = 32,
 		num_2 = 30,
+		land_based = "",
 		unlocklevel = 60,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -18062,6 +18169,7 @@ pg.chapter_template = {
 		avoid_ratio = 17,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 1,
 		scale = {
 			0.36,
@@ -18587,6 +18695,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 804000,
 		id = 804,
 		pre_chapter = 803,
@@ -18596,6 +18705,7 @@ pg.chapter_template = {
 		model = 1,
 		investigation_ratio = 33,
 		num_2 = 35,
+		land_based = "",
 		unlocklevel = 60,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -18619,6 +18729,7 @@ pg.chapter_template = {
 		avoid_ratio = 18,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 1,
 		scale = {
 			0.338,
@@ -19207,6 +19318,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 43200,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 805000,
 		id = 805,
 		pre_chapter = 0,
@@ -19216,6 +19328,7 @@ pg.chapter_template = {
 		model = 4,
 		investigation_ratio = 33,
 		num_2 = 0,
+		land_based = "",
 		unlocklevel = 60,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -19239,6 +19352,7 @@ pg.chapter_template = {
 		avoid_ratio = 18,
 		star_require_2 = 0,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 1,
 		scale = {
 			0.338,
@@ -19816,6 +19930,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 901000,
 		id = 901,
 		pre_chapter = 804,
@@ -19825,6 +19940,7 @@ pg.chapter_template = {
 		model = 1,
 		investigation_ratio = 32,
 		num_2 = 30,
+		land_based = "",
 		unlocklevel = 65,
 		boss_refresh_special = 5,
 		uifx = "",
@@ -19848,6 +19964,7 @@ pg.chapter_template = {
 		avoid_ratio = 17,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 0,
 		scale = {
 			0.36,
@@ -20318,6 +20435,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 902000,
 		id = 902,
 		pre_chapter = 901,
@@ -20327,6 +20445,7 @@ pg.chapter_template = {
 		model = 1,
 		investigation_ratio = 32,
 		num_2 = 30,
+		land_based = "",
 		unlocklevel = 65,
 		boss_refresh_special = 5,
 		uifx = "",
@@ -20350,6 +20469,7 @@ pg.chapter_template = {
 		avoid_ratio = 18,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 0,
 		scale = {
 			0.35,
@@ -20858,6 +20978,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 903000,
 		id = 903,
 		pre_chapter = 902,
@@ -20867,6 +20988,7 @@ pg.chapter_template = {
 		model = 1,
 		investigation_ratio = 33,
 		num_2 = 35,
+		land_based = "",
 		unlocklevel = 65,
 		boss_refresh_special = 5,
 		uifx = "",
@@ -20890,6 +21012,7 @@ pg.chapter_template = {
 		avoid_ratio = 18,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 1,
 		scale = {
 			0.66,
@@ -21422,6 +21545,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 904000,
 		id = 904,
 		pre_chapter = 903,
@@ -21431,6 +21555,7 @@ pg.chapter_template = {
 		model = 1,
 		investigation_ratio = 34,
 		num_2 = 40,
+		land_based = "",
 		unlocklevel = 65,
 		boss_refresh_special = 5,
 		uifx = "",
@@ -21454,6 +21579,7 @@ pg.chapter_template = {
 		avoid_ratio = 19,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 1,
 		scale = {
 			0.66,
@@ -22008,6 +22134,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 43200,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 905000,
 		id = 905,
 		pre_chapter = 0,
@@ -22017,6 +22144,7 @@ pg.chapter_template = {
 		model = 4,
 		investigation_ratio = 34,
 		num_2 = 0,
+		land_based = "",
 		unlocklevel = 65,
 		boss_refresh_special = 5,
 		uifx = "",
@@ -22040,6 +22168,7 @@ pg.chapter_template = {
 		avoid_ratio = 19,
 		star_require_2 = 0,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 1,
 		scale = {
 			0.66,
@@ -22604,6 +22733,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 1001000,
 		id = 1001,
 		pre_chapter = 904,
@@ -22613,6 +22743,7 @@ pg.chapter_template = {
 		model = 1,
 		investigation_ratio = 33,
 		num_2 = 30,
+		land_based = "",
 		unlocklevel = 70,
 		boss_refresh_special = 6,
 		uifx = "",
@@ -22636,6 +22767,7 @@ pg.chapter_template = {
 		avoid_ratio = 18,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 0,
 		scale = {
 			0.66,
@@ -23125,6 +23257,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 1002000,
 		id = 1002,
 		pre_chapter = 1001,
@@ -23134,6 +23267,7 @@ pg.chapter_template = {
 		model = 1,
 		investigation_ratio = 33,
 		num_2 = 30,
+		land_based = "",
 		unlocklevel = 70,
 		boss_refresh_special = 6,
 		uifx = "",
@@ -23157,6 +23291,7 @@ pg.chapter_template = {
 		avoid_ratio = 19,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 1,
 		scale = {
 			0.55,
@@ -23702,6 +23837,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 1003000,
 		id = 1003,
 		pre_chapter = 1002,
@@ -23711,6 +23847,7 @@ pg.chapter_template = {
 		model = 1,
 		investigation_ratio = 34,
 		num_2 = 35,
+		land_based = "",
 		unlocklevel = 70,
 		boss_refresh_special = 6,
 		uifx = "",
@@ -23734,6 +23871,7 @@ pg.chapter_template = {
 		avoid_ratio = 19,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 1,
 		scale = {
 			0.36,
@@ -24296,6 +24434,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 1004000,
 		id = 1004,
 		pre_chapter = 1003,
@@ -24305,6 +24444,7 @@ pg.chapter_template = {
 		model = 1,
 		investigation_ratio = 35,
 		num_2 = 40,
+		land_based = "",
 		unlocklevel = 70,
 		boss_refresh_special = 6,
 		uifx = "",
@@ -24328,6 +24468,7 @@ pg.chapter_template = {
 		avoid_ratio = 20,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 1,
 		scale = {
 			0.338,
@@ -24904,6 +25045,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 43200,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 1005000,
 		id = 1005,
 		pre_chapter = 0,
@@ -24913,6 +25055,7 @@ pg.chapter_template = {
 		model = 4,
 		investigation_ratio = 35,
 		num_2 = 0,
+		land_based = "",
 		unlocklevel = 70,
 		boss_refresh_special = 6,
 		uifx = "",
@@ -24936,6 +25079,7 @@ pg.chapter_template = {
 		avoid_ratio = 20,
 		star_require_2 = 0,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 1,
 		scale = {
 			0.338,
@@ -25501,6 +25645,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 1101000,
 		id = 1101,
 		pre_chapter = 1004,
@@ -25510,6 +25655,7 @@ pg.chapter_template = {
 		model = 1,
 		investigation_ratio = 34,
 		num_2 = 30,
+		land_based = "",
 		unlocklevel = 75,
 		boss_refresh_special = 6,
 		uifx = "",
@@ -25533,6 +25679,7 @@ pg.chapter_template = {
 		avoid_ratio = 19,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 1,
 		scale = {
 			0.38,
@@ -26071,6 +26218,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 1102000,
 		id = 1102,
 		pre_chapter = 1101,
@@ -26080,6 +26228,7 @@ pg.chapter_template = {
 		model = 1,
 		investigation_ratio = 34,
 		num_2 = 35,
+		land_based = "",
 		unlocklevel = 75,
 		boss_refresh_special = 6,
 		uifx = "",
@@ -26103,6 +26252,7 @@ pg.chapter_template = {
 		avoid_ratio = 20,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 1,
 		scale = {
 			0.38,
@@ -26756,6 +26906,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 1103000,
 		id = 1103,
 		pre_chapter = 1102,
@@ -26765,6 +26916,7 @@ pg.chapter_template = {
 		model = 1,
 		investigation_ratio = 35,
 		num_2 = 40,
+		land_based = "",
 		unlocklevel = 75,
 		boss_refresh_special = 6,
 		uifx = "",
@@ -26788,6 +26940,7 @@ pg.chapter_template = {
 		avoid_ratio = 20,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 1,
 		scale = {
 			0.65,
@@ -27411,6 +27564,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 1104000,
 		id = 1104,
 		pre_chapter = 1103,
@@ -27420,6 +27574,7 @@ pg.chapter_template = {
 		model = 1,
 		investigation_ratio = 36,
 		num_2 = 45,
+		land_based = "",
 		unlocklevel = 75,
 		boss_refresh_special = 6,
 		uifx = "",
@@ -27443,6 +27598,7 @@ pg.chapter_template = {
 		avoid_ratio = 21,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 1,
 		scale = {
 			0.65,
@@ -28175,6 +28331,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 43200,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 1105000,
 		id = 1105,
 		pre_chapter = 0,
@@ -28184,6 +28341,7 @@ pg.chapter_template = {
 		model = 4,
 		investigation_ratio = 36,
 		num_2 = 0,
+		land_based = "",
 		unlocklevel = 75,
 		boss_refresh_special = 6,
 		uifx = "",
@@ -28207,6 +28365,7 @@ pg.chapter_template = {
 		avoid_ratio = 21,
 		star_require_2 = 0,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 1,
 		scale = {
 			0.65,
@@ -28946,6 +29105,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 1201000,
 		id = 1201,
 		pre_chapter = 1104,
@@ -28955,6 +29115,7 @@ pg.chapter_template = {
 		model = 1,
 		investigation_ratio = 35,
 		num_2 = 30,
+		land_based = "",
 		unlocklevel = 80,
 		boss_refresh_special = 6,
 		uifx = "",
@@ -28978,6 +29139,7 @@ pg.chapter_template = {
 		avoid_ratio = 20,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 1,
 		scale = {
 			0.35,
@@ -29494,6 +29656,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 1202000,
 		id = 1202,
 		pre_chapter = 1201,
@@ -29503,6 +29666,7 @@ pg.chapter_template = {
 		model = 1,
 		investigation_ratio = 35,
 		num_2 = 35,
+		land_based = "",
 		unlocklevel = 80,
 		boss_refresh_special = 6,
 		uifx = "",
@@ -29526,6 +29690,7 @@ pg.chapter_template = {
 		avoid_ratio = 21,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 1,
 		scale = {
 			0.66,
@@ -30155,6 +30320,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 1203000,
 		id = 1203,
 		pre_chapter = 1202,
@@ -30164,6 +30330,7 @@ pg.chapter_template = {
 		model = 1,
 		investigation_ratio = 36,
 		num_2 = 40,
+		land_based = "",
 		unlocklevel = 80,
 		boss_refresh_special = 6,
 		uifx = "",
@@ -30187,6 +30354,7 @@ pg.chapter_template = {
 		avoid_ratio = 21,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 1,
 		scale = {
 			0.66,
@@ -30852,6 +31020,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 1204000,
 		id = 1204,
 		pre_chapter = 1203,
@@ -30861,6 +31030,7 @@ pg.chapter_template = {
 		model = 1,
 		investigation_ratio = 37,
 		num_2 = 45,
+		land_based = "",
 		unlocklevel = 80,
 		boss_refresh_special = 6,
 		uifx = "",
@@ -30884,6 +31054,7 @@ pg.chapter_template = {
 		avoid_ratio = 22,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 1,
 		scale = {
 			0.66,
@@ -31665,6 +31836,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 43200,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 1205000,
 		id = 1205,
 		pre_chapter = 0,
@@ -31674,6 +31846,7 @@ pg.chapter_template = {
 		model = 4,
 		investigation_ratio = 37,
 		num_2 = 0,
+		land_based = "",
 		unlocklevel = 80,
 		boss_refresh_special = 6,
 		uifx = "",
@@ -31697,6 +31870,7 @@ pg.chapter_template = {
 		avoid_ratio = 22,
 		star_require_2 = 0,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 1,
 		scale = {
 			0.66,
@@ -32485,6 +32659,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 10500,
 		id = 10000,
 		pre_chapter = 0,
@@ -32494,6 +32669,7 @@ pg.chapter_template = {
 		model = 1,
 		investigation_ratio = 16,
 		num_2 = 5,
+		land_based = "",
 		unlocklevel = 15,
 		boss_refresh_special = 2,
 		uifx = "",
@@ -32517,6 +32693,7 @@ pg.chapter_template = {
 		avoid_ratio = 8,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -32590,10 +32767,6 @@ pg.chapter_template = {
 			{
 				2,
 				54012
-			},
-			{
-				2,
-				54022
 			},
 			{
 				2,
@@ -32843,6 +33016,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 10501,
 		id = 10001,
 		pre_chapter = 10000,
@@ -32852,6 +33026,7 @@ pg.chapter_template = {
 		model = 1,
 		investigation_ratio = 17,
 		num_2 = 20,
+		land_based = "",
 		unlocklevel = 15,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -32875,6 +33050,7 @@ pg.chapter_template = {
 		avoid_ratio = 9,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 0,
 		scale = {
 			0.53,
@@ -33277,6 +33453,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 10502,
 		id = 10002,
 		pre_chapter = 10001,
@@ -33286,6 +33463,7 @@ pg.chapter_template = {
 		model = 1,
 		investigation_ratio = 18,
 		num_2 = 25,
+		land_based = "",
 		unlocklevel = 15,
 		boss_refresh_special = 5,
 		uifx = "",
@@ -33309,6 +33487,7 @@ pg.chapter_template = {
 		avoid_ratio = 10,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 0,
 		scale = {
 			0.52,
@@ -33741,6 +33920,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 10101,
 		boss_expedition_id = 10101000,
 		id = 10101,
 		pre_chapter = 0,
@@ -33750,8 +33930,9 @@ pg.chapter_template = {
 		model = 1,
 		investigation_ratio = 6,
 		num_2 = 3,
+		land_based = "",
 		unlocklevel = 10,
-		boss_refresh_special = 0,
+		boss_refresh_special = 1,
 		uifx = "UIhuohua2",
 		name = "근해 연습 ",
 		chapter_name = "1–1",
@@ -33773,6 +33954,7 @@ pg.chapter_template = {
 		avoid_ratio = 3,
 		star_require_2 = 2,
 		time = 99999999,
+		limit_move = 0,
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -34002,6 +34184,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 10102,
 		boss_expedition_id = 10102000,
 		id = 10102,
 		pre_chapter = 0,
@@ -34011,8 +34194,9 @@ pg.chapter_template = {
 		model = 1,
 		investigation_ratio = 6,
 		num_2 = 5,
+		land_based = "",
 		unlocklevel = 10,
-		boss_refresh_special = 0,
+		boss_refresh_special = 2,
 		uifx = "UIhuohua2",
 		name = "치욕의 날",
 		chapter_name = "1–2",
@@ -34034,6 +34218,7 @@ pg.chapter_template = {
 		avoid_ratio = 3,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -34370,6 +34555,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 10103,
 		boss_expedition_id = 10103000,
 		id = 10103,
 		pre_chapter = 0,
@@ -34379,8 +34565,9 @@ pg.chapter_template = {
 		model = 1,
 		investigation_ratio = 7,
 		num_2 = 5,
+		land_based = "",
 		unlocklevel = 10,
-		boss_refresh_special = 0,
+		boss_refresh_special = 2,
 		uifx = "UIhuohua2",
 		name = "불타오르는 군항",
 		chapter_name = "1–3",
@@ -34402,6 +34589,7 @@ pg.chapter_template = {
 		avoid_ratio = 3,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 0,
 		scale = {
 			0.52,
@@ -34774,6 +34962,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 10104,
 		boss_expedition_id = 10104000,
 		id = 10104,
 		pre_chapter = 0,
@@ -34783,8 +34972,9 @@ pg.chapter_template = {
 		model = 1,
 		investigation_ratio = 8,
 		num_2 = 7,
+		land_based = "",
 		unlocklevel = 10,
-		boss_refresh_special = 0,
+		boss_refresh_special = 3,
 		uifx = "UIhuohua2",
 		name = "동쪽에서 온 적",
 		chapter_name = "1–4",
@@ -34806,6 +34996,7 @@ pg.chapter_template = {
 		avoid_ratio = 4,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 0,
 		scale = {
 			0.66,
@@ -35261,6 +35452,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 10201,
 		boss_expedition_id = 10201000,
 		id = 10201,
 		pre_chapter = 0,
@@ -35270,8 +35462,9 @@ pg.chapter_template = {
 		model = 1,
 		investigation_ratio = 10,
 		num_2 = 10,
+		land_based = "",
 		unlocklevel = 20,
-		boss_refresh_special = 0,
+		boss_refresh_special = 2,
 		uifx = "UIhuohua2",
 		name = "툴라기섬 지원",
 		chapter_name = "2–1",
@@ -35293,6 +35486,7 @@ pg.chapter_template = {
 		avoid_ratio = 4,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 0,
 		scale = {
 			0.665,
@@ -35848,6 +36042,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 10202,
 		boss_expedition_id = 10202000,
 		id = 10202,
 		pre_chapter = 0,
@@ -35857,8 +36052,9 @@ pg.chapter_template = {
 		model = 1,
 		investigation_ratio = 10,
 		num_2 = 12,
+		land_based = "",
 		unlocklevel = 20,
-		boss_refresh_special = 0,
+		boss_refresh_special = 3,
 		uifx = "UIhuohua2",
 		name = "태양에 드리운 먹구름",
 		chapter_name = "2–2",
@@ -35880,6 +36076,7 @@ pg.chapter_template = {
 		avoid_ratio = 4,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 0,
 		scale = {
 			0.665,
@@ -36488,6 +36685,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 10203,
 		boss_expedition_id = 10203000,
 		id = 10203,
 		pre_chapter = 0,
@@ -36497,8 +36695,9 @@ pg.chapter_template = {
 		model = 1,
 		investigation_ratio = 11,
 		num_2 = 12,
+		land_based = "",
 		unlocklevel = 20,
-		boss_refresh_special = 0,
+		boss_refresh_special = 3,
 		uifx = "UIhuohua2",
 		name = "출전! 산호해",
 		chapter_name = "2–3",
@@ -36520,6 +36719,7 @@ pg.chapter_template = {
 		avoid_ratio = 5,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -37105,6 +37305,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 10204,
 		boss_expedition_id = 10204000,
 		id = 10204,
 		pre_chapter = 0,
@@ -37114,8 +37315,9 @@ pg.chapter_template = {
 		model = 1,
 		investigation_ratio = 12,
 		num_2 = 12,
+		land_based = "",
 		unlocklevel = 20,
-		boss_refresh_special = 0,
+		boss_refresh_special = 3,
 		uifx = "UIhuohua2",
 		name = "구원, 요크타운",
 		chapter_name = "2–4",
@@ -37137,6 +37339,7 @@ pg.chapter_template = {
 		avoid_ratio = 5,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 0,
 		scale = {
 			0.38,
@@ -37692,6 +37895,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 10301,
 		boss_expedition_id = 10301000,
 		id = 10301,
 		pre_chapter = 0,
@@ -37701,8 +37905,9 @@ pg.chapter_template = {
 		model = 1,
 		investigation_ratio = 14,
 		num_2 = 12,
+		land_based = "",
 		unlocklevel = 25,
-		boss_refresh_special = 0,
+		boss_refresh_special = 3,
 		uifx = "UIhuohua2",
 		name = "미드웨이 결전!",
 		chapter_name = "3–1",
@@ -37724,6 +37929,7 @@ pg.chapter_template = {
 		avoid_ratio = 6,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -38300,6 +38506,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 10302,
 		boss_expedition_id = 10302000,
 		id = 10302,
 		pre_chapter = 0,
@@ -38309,8 +38516,9 @@ pg.chapter_template = {
 		model = 1,
 		investigation_ratio = 14,
 		num_2 = 12,
+		land_based = "",
 		unlocklevel = 25,
-		boss_refresh_special = 0,
+		boss_refresh_special = 3,
 		uifx = "UIhuohua2",
 		name = "운명의 5분 ",
 		chapter_name = "3–2",
@@ -38332,6 +38540,7 @@ pg.chapter_template = {
 		avoid_ratio = 6,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -38932,6 +39141,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 10303,
 		boss_expedition_id = 10303000,
 		id = 10303,
 		pre_chapter = 0,
@@ -38941,8 +39151,9 @@ pg.chapter_template = {
 		model = 1,
 		investigation_ratio = 15,
 		num_2 = 12,
+		land_based = "",
 		unlocklevel = 25,
-		boss_refresh_special = 0,
+		boss_refresh_special = 3,
 		uifx = "UIhuohua2",
 		name = "배수의 진",
 		chapter_name = "3–3",
@@ -38964,6 +39175,7 @@ pg.chapter_template = {
 		avoid_ratio = 7,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 0,
 		scale = {
 			0.64,
@@ -39559,6 +39771,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 10304,
 		boss_expedition_id = 10304000,
 		id = 10304,
 		pre_chapter = 0,
@@ -39568,8 +39781,9 @@ pg.chapter_template = {
 		model = 1,
 		investigation_ratio = 16,
 		num_2 = 12,
+		land_based = "",
 		unlocklevel = 25,
-		boss_refresh_special = 0,
+		boss_refresh_special = 3,
 		uifx = "UIhuohua2",
 		name = "최후의 반격",
 		chapter_name = "3–4",
@@ -39591,6 +39805,7 @@ pg.chapter_template = {
 		avoid_ratio = 7,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 0,
 		scale = {
 			0.53,
@@ -40172,6 +40387,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 10401,
 		boss_expedition_id = 10401000,
 		id = 10401,
 		pre_chapter = 0,
@@ -40181,8 +40397,9 @@ pg.chapter_template = {
 		model = 1,
 		investigation_ratio = 18,
 		num_2 = 15,
+		land_based = "",
 		unlocklevel = 30,
-		boss_refresh_special = 0,
+		boss_refresh_special = 3,
 		uifx = "UIhuohua2",
 		name = "새벽녘의 사신",
 		chapter_name = "4–1",
@@ -40204,6 +40421,7 @@ pg.chapter_template = {
 		avoid_ratio = 8,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -40702,6 +40920,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 10402,
 		boss_expedition_id = 10402000,
 		id = 10402,
 		pre_chapter = 0,
@@ -40711,8 +40930,9 @@ pg.chapter_template = {
 		model = 1,
 		investigation_ratio = 18,
 		num_2 = 15,
+		land_based = "",
 		unlocklevel = 30,
-		boss_refresh_special = 0,
+		boss_refresh_special = 3,
 		uifx = "UIhuohua2",
 		name = "피로 물든 새벽",
 		chapter_name = "4–2",
@@ -40734,6 +40954,7 @@ pg.chapter_template = {
 		avoid_ratio = 8,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 0,
 		scale = {
 			0.4,
@@ -41225,6 +41446,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 10403,
 		boss_expedition_id = 10403000,
 		id = 10403,
 		pre_chapter = 0,
@@ -41234,8 +41456,9 @@ pg.chapter_template = {
 		model = 1,
 		investigation_ratio = 19,
 		num_2 = 15,
+		land_based = "",
 		unlocklevel = 30,
-		boss_refresh_special = 0,
+		boss_refresh_special = 3,
 		uifx = "UIhuohua2",
 		name = "동솔로몬 조우전",
 		chapter_name = "4–3",
@@ -41257,6 +41480,7 @@ pg.chapter_template = {
 		avoid_ratio = 9,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 0,
 		scale = {
 			0.66,
@@ -41693,6 +41917,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 10404,
 		boss_expedition_id = 10404000,
 		id = 10404,
 		pre_chapter = 0,
@@ -41702,8 +41927,9 @@ pg.chapter_template = {
 		model = 1,
 		investigation_ratio = 20,
 		num_2 = 18,
+		land_based = "",
 		unlocklevel = 30,
-		boss_refresh_special = 0,
+		boss_refresh_special = 4,
 		uifx = "UIhuohua2",
 		name = "복수전",
 		chapter_name = "4–4",
@@ -41725,6 +41951,7 @@ pg.chapter_template = {
 		avoid_ratio = 9,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 0,
 		scale = {
 			0.63,
@@ -42298,6 +42525,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 10501,
 		boss_expedition_id = 10501000,
 		id = 10501,
 		pre_chapter = 0,
@@ -42307,8 +42535,9 @@ pg.chapter_template = {
 		model = 1,
 		investigation_ratio = 22,
 		num_2 = 18,
+		land_based = "",
 		unlocklevel = 40,
-		boss_refresh_special = 0,
+		boss_refresh_special = 4,
 		uifx = "UIhuohua2",
 		name = "수송 저지 작전",
 		chapter_name = "5–1",
@@ -42330,6 +42559,7 @@ pg.chapter_template = {
 		avoid_ratio = 10,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -42908,6 +43138,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 10502,
 		boss_expedition_id = 10502000,
 		id = 10502,
 		pre_chapter = 0,
@@ -42917,8 +43148,9 @@ pg.chapter_template = {
 		model = 1,
 		investigation_ratio = 22,
 		num_2 = 18,
+		land_based = "",
 		unlocklevel = 40,
-		boss_refresh_special = 0,
+		boss_refresh_special = 4,
 		uifx = "UIhuohua2",
 		name = "산타크루즈의 하늘",
 		chapter_name = "5–2",
@@ -42940,6 +43172,7 @@ pg.chapter_template = {
 		avoid_ratio = 10,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 0,
 		scale = {
 			0.66,
@@ -43456,6 +43689,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 10503,
 		boss_expedition_id = 10503000,
 		id = 10503,
 		pre_chapter = 0,
@@ -43465,8 +43699,9 @@ pg.chapter_template = {
 		model = 1,
 		investigation_ratio = 23,
 		num_2 = 18,
+		land_based = "",
 		unlocklevel = 40,
-		boss_refresh_special = 0,
+		boss_refresh_special = 4,
 		uifx = "UIhuohua2",
 		name = "호넷의 죽음",
 		chapter_name = "5–3",
@@ -43488,6 +43723,7 @@ pg.chapter_template = {
 		avoid_ratio = 11,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 0,
 		scale = {
 			0.54,
@@ -43974,6 +44210,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 10504,
 		boss_expedition_id = 10504000,
 		id = 10504,
 		pre_chapter = 0,
@@ -43983,8 +44220,9 @@ pg.chapter_template = {
 		model = 1,
 		investigation_ratio = 24,
 		num_2 = 20,
+		land_based = "",
 		unlocklevel = 40,
-		boss_refresh_special = 0,
+		boss_refresh_special = 4,
 		uifx = "UIhuohua2",
 		name = "전장에서의 퇴각",
 		chapter_name = "5–4",
@@ -44006,6 +44244,7 @@ pg.chapter_template = {
 		avoid_ratio = 11,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 0,
 		scale = {
 			0.51,
@@ -44517,6 +44756,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 10601,
 		boss_expedition_id = 10601000,
 		id = 10601,
 		pre_chapter = 0,
@@ -44526,8 +44766,9 @@ pg.chapter_template = {
 		model = 1,
 		investigation_ratio = 26,
 		num_2 = 20,
+		land_based = "",
 		unlocklevel = 50,
-		boss_refresh_special = 0,
+		boss_refresh_special = 4,
 		uifx = "UIhuohua2",
 		name = "야밤의 대결",
 		chapter_name = "6–1",
@@ -44549,6 +44790,7 @@ pg.chapter_template = {
 		avoid_ratio = 12,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 0,
 		scale = {
 			0.66,
@@ -45099,6 +45341,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 10602,
 		boss_expedition_id = 10602000,
 		id = 10602,
 		pre_chapter = 0,
@@ -45108,8 +45351,9 @@ pg.chapter_template = {
 		model = 1,
 		investigation_ratio = 26,
 		num_2 = 20,
+		land_based = "",
 		unlocklevel = 50,
-		boss_refresh_special = 0,
+		boss_refresh_special = 4,
 		uifx = "UIhuohua2",
 		name = "전면 반격",
 		chapter_name = "6–2",
@@ -45131,6 +45375,7 @@ pg.chapter_template = {
 		avoid_ratio = 12,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 0,
 		scale = {
 			0.55,
@@ -45737,6 +45982,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 10603,
 		boss_expedition_id = 10603000,
 		id = 10603,
 		pre_chapter = 0,
@@ -45746,8 +45992,9 @@ pg.chapter_template = {
 		model = 1,
 		investigation_ratio = 27,
 		num_2 = 20,
+		land_based = "",
 		unlocklevel = 50,
-		boss_refresh_special = 0,
+		boss_refresh_special = 4,
 		uifx = "UIhuohua2",
 		name = "거포 최후의 결전 ",
 		chapter_name = "6–3",
@@ -45769,6 +46016,7 @@ pg.chapter_template = {
 		avoid_ratio = 13,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 0,
 		scale = {
 			0.36,
@@ -46299,6 +46547,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 10604,
 		boss_expedition_id = 10604000,
 		id = 10604,
 		pre_chapter = 0,
@@ -46308,8 +46557,9 @@ pg.chapter_template = {
 		model = 1,
 		investigation_ratio = 28,
 		num_2 = 25,
+		land_based = "",
 		unlocklevel = 50,
-		boss_refresh_special = 0,
+		boss_refresh_special = 5,
 		uifx = "UIhuohua2",
 		name = "솔로몬의 악몽",
 		chapter_name = "6–4",
@@ -46331,6 +46581,7 @@ pg.chapter_template = {
 		avoid_ratio = 13,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 0,
 		scale = {
 			0.338,
@@ -46905,6 +47156,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 10701,
 		boss_expedition_id = 10701000,
 		id = 10701,
 		pre_chapter = 0,
@@ -46914,8 +47166,9 @@ pg.chapter_template = {
 		model = 1,
 		investigation_ratio = 30,
 		num_2 = 30,
+		land_based = "",
 		unlocklevel = 60,
-		boss_refresh_special = 0,
+		boss_refresh_special = 5,
 		uifx = "UIhuohua2",
 		name = "증원 저지",
 		chapter_name = "7–1",
@@ -46937,6 +47190,7 @@ pg.chapter_template = {
 		avoid_ratio = 14,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 0,
 		scale = {
 			0.66,
@@ -47336,6 +47590,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 10702,
 		boss_expedition_id = 10702000,
 		id = 10702,
 		pre_chapter = 0,
@@ -47345,8 +47600,9 @@ pg.chapter_template = {
 		model = 1,
 		investigation_ratio = 30,
 		num_2 = 30,
+		land_based = "",
 		unlocklevel = 60,
-		boss_refresh_special = 0,
+		boss_refresh_special = 5,
 		uifx = "UIhuohua2",
 		name = "난전",
 		chapter_name = "7–2",
@@ -47368,6 +47624,7 @@ pg.chapter_template = {
 		avoid_ratio = 14,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 0,
 		scale = {
 			0.55,
@@ -47870,6 +48127,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 10703,
 		boss_expedition_id = 10703000,
 		id = 10703,
 		pre_chapter = 0,
@@ -47879,8 +48137,9 @@ pg.chapter_template = {
 		model = 1,
 		investigation_ratio = 31,
 		num_2 = 30,
+		land_based = "",
 		unlocklevel = 60,
-		boss_refresh_special = 0,
+		boss_refresh_special = 5,
 		uifx = "UIhuohua2",
 		name = "기습",
 		chapter_name = "7–3",
@@ -47902,6 +48161,7 @@ pg.chapter_template = {
 		avoid_ratio = 15,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 0,
 		scale = {
 			0.36,
@@ -48475,6 +48735,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 10704,
 		boss_expedition_id = 10704000,
 		id = 10704,
 		pre_chapter = 0,
@@ -48484,8 +48745,9 @@ pg.chapter_template = {
 		model = 1,
 		investigation_ratio = 32,
 		num_2 = 35,
+		land_based = "",
 		unlocklevel = 60,
-		boss_refresh_special = 0,
+		boss_refresh_special = 5,
 		uifx = "UIhuohua2",
 		name = "예상 밖의 혼란",
 		chapter_name = "7–4",
@@ -48507,6 +48769,7 @@ pg.chapter_template = {
 		avoid_ratio = 15,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 0,
 		scale = {
 			0.338,
@@ -49064,6 +49327,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 10801,
 		boss_expedition_id = 10801000,
 		id = 10801,
 		pre_chapter = 0,
@@ -49073,8 +49337,9 @@ pg.chapter_template = {
 		model = 1,
 		investigation_ratio = 31,
 		num_2 = 25,
+		land_based = "",
 		unlocklevel = 70,
-		boss_refresh_special = 0,
+		boss_refresh_special = 4,
 		uifx = "UIhuohua2",
 		name = "차가운 바람",
 		chapter_name = "8–1",
@@ -49096,6 +49361,7 @@ pg.chapter_template = {
 		avoid_ratio = 16,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 0,
 		scale = {
 			0.66,
@@ -49517,6 +49783,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 10802,
 		boss_expedition_id = 10802000,
 		id = 10802,
 		pre_chapter = 0,
@@ -49526,8 +49793,9 @@ pg.chapter_template = {
 		model = 1,
 		investigation_ratio = 31,
 		num_2 = 25,
+		land_based = "",
 		unlocklevel = 70,
-		boss_refresh_special = 0,
+		boss_refresh_special = 4,
 		uifx = "UIhuohua2",
 		name = "북극권의 새벽녘",
 		chapter_name = "8–2",
@@ -49549,6 +49817,7 @@ pg.chapter_template = {
 		avoid_ratio = 17,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 0,
 		scale = {
 			0.55,
@@ -50056,6 +50325,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 10803,
 		boss_expedition_id = 10803000,
 		id = 10803,
 		pre_chapter = 0,
@@ -50065,8 +50335,9 @@ pg.chapter_template = {
 		model = 1,
 		investigation_ratio = 32,
 		num_2 = 25,
+		land_based = "",
 		unlocklevel = 70,
-		boss_refresh_special = 0,
+		boss_refresh_special = 4,
 		uifx = "UIhuohua2",
 		name = "빙해의 거친 파도",
 		chapter_name = "8–3",
@@ -50088,6 +50359,7 @@ pg.chapter_template = {
 		avoid_ratio = 17,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 0,
 		scale = {
 			0.36,
@@ -50658,6 +50930,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 10804,
 		boss_expedition_id = 10804000,
 		id = 10804,
 		pre_chapter = 0,
@@ -50667,8 +50940,9 @@ pg.chapter_template = {
 		model = 1,
 		investigation_ratio = 33,
 		num_2 = 30,
+		land_based = "",
 		unlocklevel = 70,
-		boss_refresh_special = 0,
+		boss_refresh_special = 4,
 		uifx = "UIhuohua2",
 		name = "잊혀진 전장 ",
 		chapter_name = "8–4",
@@ -50690,6 +50964,7 @@ pg.chapter_template = {
 		avoid_ratio = 18,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 0,
 		scale = {
 			0.338,
@@ -51323,6 +51598,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 0,
 		id = 20001,
 		pre_chapter = 0,
@@ -51332,6 +51608,7 @@ pg.chapter_template = {
 		model = 3,
 		investigation_ratio = 0,
 		num_2 = 0,
+		land_based = "",
 		unlocklevel = 0,
 		boss_refresh_special = 0,
 		uifx = "",
@@ -51355,6 +51632,7 @@ pg.chapter_template = {
 		avoid_ratio = 0,
 		star_require_2 = 0,
 		time = 43200,
+		limit_move = 1,
 		submarine_num = 0,
 		scale = {
 			0.55,
@@ -51770,6 +52048,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 0,
 		id = 20002,
 		pre_chapter = 0,
@@ -51779,6 +52058,7 @@ pg.chapter_template = {
 		model = 3,
 		investigation_ratio = 0,
 		num_2 = 0,
+		land_based = "",
 		unlocklevel = 0,
 		boss_refresh_special = 0,
 		uifx = "",
@@ -51802,6 +52082,7 @@ pg.chapter_template = {
 		avoid_ratio = 0,
 		star_require_2 = 0,
 		time = 43200,
+		limit_move = 1,
 		submarine_num = 0,
 		scale = {
 			0.36,
@@ -52269,6 +52550,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 0,
 		id = 20003,
 		pre_chapter = 0,
@@ -52278,6 +52560,7 @@ pg.chapter_template = {
 		model = 3,
 		investigation_ratio = 0,
 		num_2 = 0,
+		land_based = "",
 		unlocklevel = 0,
 		boss_refresh_special = 0,
 		uifx = "",
@@ -52301,6 +52584,7 @@ pg.chapter_template = {
 		avoid_ratio = 0,
 		star_require_2 = 0,
 		time = 43200,
+		limit_move = 1,
 		submarine_num = 0,
 		scale = {
 			0.338,
@@ -52860,6 +53144,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "GUOQING4",
+		chapter_safe = 0,
 		boss_expedition_id = 1030016,
 		id = 1040001,
 		pre_chapter = 0,
@@ -52869,6 +53154,7 @@ pg.chapter_template = {
 		model = 1,
 		investigation_ratio = 14,
 		num_2 = 20,
+		land_based = "",
 		unlocklevel = 0,
 		boss_refresh_special = 5,
 		uifx = "",
@@ -52892,6 +53178,7 @@ pg.chapter_template = {
 		avoid_ratio = 8,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -53357,6 +53644,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "GUOQING7",
+		chapter_safe = 0,
 		boss_expedition_id = 1030032,
 		id = 1040002,
 		pre_chapter = 1040001,
@@ -53366,6 +53654,7 @@ pg.chapter_template = {
 		model = 1,
 		investigation_ratio = 15,
 		num_2 = 25,
+		land_based = "",
 		unlocklevel = 0,
 		boss_refresh_special = 5,
 		uifx = "",
@@ -53389,6 +53678,7 @@ pg.chapter_template = {
 		avoid_ratio = 9,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 0,
 		scale = {
 			0.65,
@@ -53910,6 +54200,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "GUOQING9",
+		chapter_safe = 0,
 		boss_expedition_id = 1030048,
 		id = 1040003,
 		pre_chapter = 1040002,
@@ -53919,6 +54210,7 @@ pg.chapter_template = {
 		model = 1,
 		investigation_ratio = 16,
 		num_2 = 30,
+		land_based = "",
 		unlocklevel = 0,
 		boss_refresh_special = 6,
 		uifx = "",
@@ -53942,6 +54234,7 @@ pg.chapter_template = {
 		avoid_ratio = 10,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 0,
 		scale = {
 			0.64,
@@ -54532,6 +54825,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "GUOQING12",
+		chapter_safe = 0,
 		boss_expedition_id = 1030064,
 		id = 1040004,
 		pre_chapter = 1040003,
@@ -54541,6 +54835,7 @@ pg.chapter_template = {
 		model = 1,
 		investigation_ratio = 15,
 		num_2 = 30,
+		land_based = "",
 		unlocklevel = 0,
 		boss_refresh_special = 6,
 		uifx = "",
@@ -54564,6 +54859,7 @@ pg.chapter_template = {
 		avoid_ratio = 10,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -55105,6 +55401,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "GUOQING15",
+		chapter_safe = 0,
 		boss_expedition_id = 1030080,
 		id = 1040005,
 		pre_chapter = 1040004,
@@ -55114,6 +55411,7 @@ pg.chapter_template = {
 		model = 1,
 		investigation_ratio = 16,
 		num_2 = 35,
+		land_based = "",
 		unlocklevel = 0,
 		boss_refresh_special = 6,
 		uifx = "",
@@ -55137,6 +55435,7 @@ pg.chapter_template = {
 		avoid_ratio = 11,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 0,
 		scale = {
 			0.66,
@@ -55777,6 +56076,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "GUOQING18",
+		chapter_safe = 0,
 		boss_expedition_id = 1030096,
 		id = 1040006,
 		pre_chapter = 1040005,
@@ -55786,6 +56086,7 @@ pg.chapter_template = {
 		model = 1,
 		investigation_ratio = 17,
 		num_2 = 35,
+		land_based = "",
 		unlocklevel = 0,
 		boss_refresh_special = 7,
 		uifx = "",
@@ -55809,6 +56110,7 @@ pg.chapter_template = {
 		avoid_ratio = 12,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 0,
 		scale = {
 			0.52,
@@ -56446,6 +56748,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "GUOQING4",
+		chapter_safe = 0,
 		boss_expedition_id = 1030215,
 		id = 1040011,
 		pre_chapter = 0,
@@ -56455,6 +56758,7 @@ pg.chapter_template = {
 		model = 1,
 		investigation_ratio = 17,
 		num_2 = 25,
+		land_based = "",
 		unlocklevel = 0,
 		boss_refresh_special = 5,
 		uifx = "",
@@ -56478,6 +56782,7 @@ pg.chapter_template = {
 		avoid_ratio = 12,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -56986,6 +57291,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "GUOQING7",
+		chapter_safe = 0,
 		boss_expedition_id = 1030231,
 		id = 1040012,
 		pre_chapter = 1040011,
@@ -56995,6 +57301,7 @@ pg.chapter_template = {
 		model = 1,
 		investigation_ratio = 18,
 		num_2 = 25,
+		land_based = "",
 		unlocklevel = 0,
 		boss_refresh_special = 6,
 		uifx = "",
@@ -57018,6 +57325,7 @@ pg.chapter_template = {
 		avoid_ratio = 13,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 0,
 		scale = {
 			0.65,
@@ -57581,6 +57889,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "GUOQING9",
+		chapter_safe = 0,
 		boss_expedition_id = 1030247,
 		id = 1040013,
 		pre_chapter = 1040012,
@@ -57590,6 +57899,7 @@ pg.chapter_template = {
 		model = 1,
 		investigation_ratio = 19,
 		num_2 = 30,
+		land_based = "",
 		unlocklevel = 0,
 		boss_refresh_special = 6,
 		uifx = "",
@@ -57613,6 +57923,7 @@ pg.chapter_template = {
 		avoid_ratio = 14,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 0,
 		scale = {
 			0.64,
@@ -58246,6 +58557,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "GUOQING12",
+		chapter_safe = 0,
 		boss_expedition_id = 1030263,
 		id = 1040014,
 		pre_chapter = 1040013,
@@ -58255,6 +58567,7 @@ pg.chapter_template = {
 		model = 1,
 		investigation_ratio = 19,
 		num_2 = 30,
+		land_based = "",
 		unlocklevel = 0,
 		boss_refresh_special = 6,
 		uifx = "",
@@ -58278,6 +58591,7 @@ pg.chapter_template = {
 		avoid_ratio = 14,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -58861,6 +59175,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "GUOQING15",
+		chapter_safe = 0,
 		boss_expedition_id = 1030279,
 		id = 1040015,
 		pre_chapter = 1040014,
@@ -58870,6 +59185,7 @@ pg.chapter_template = {
 		model = 1,
 		investigation_ratio = 20,
 		num_2 = 35,
+		land_based = "",
 		unlocklevel = 0,
 		boss_refresh_special = 7,
 		uifx = "",
@@ -58893,6 +59209,7 @@ pg.chapter_template = {
 		avoid_ratio = 15,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 0,
 		scale = {
 			0.66,
@@ -59575,6 +59892,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "GUOQING18",
+		chapter_safe = 0,
 		boss_expedition_id = 1030295,
 		id = 1040016,
 		pre_chapter = 1040015,
@@ -59584,6 +59902,7 @@ pg.chapter_template = {
 		model = 1,
 		investigation_ratio = 21,
 		num_2 = 40,
+		land_based = "",
 		unlocklevel = 0,
 		boss_refresh_special = 7,
 		uifx = "",
@@ -59607,6 +59926,7 @@ pg.chapter_template = {
 		avoid_ratio = 16,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 0,
 		scale = {
 			0.52,
@@ -60285,6 +60605,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 1050500,
 		id = 1050011,
 		pre_chapter = 0,
@@ -60294,6 +60615,7 @@ pg.chapter_template = {
 		model = 1,
 		investigation_ratio = 18,
 		num_2 = 20,
+		land_based = "",
 		unlocklevel = 0,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -60317,6 +60639,7 @@ pg.chapter_template = {
 		avoid_ratio = 9,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -60835,6 +61158,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 1051500,
 		id = 1050012,
 		pre_chapter = 1050011,
@@ -60844,6 +61168,7 @@ pg.chapter_template = {
 		model = 1,
 		investigation_ratio = 20,
 		num_2 = 30,
+		land_based = "",
 		unlocklevel = 0,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -60867,6 +61192,7 @@ pg.chapter_template = {
 		avoid_ratio = 10,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 0,
 		scale = {
 			0.49,
@@ -61387,6 +61713,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 1052500,
 		id = 1050013,
 		pre_chapter = 1050012,
@@ -61396,6 +61723,7 @@ pg.chapter_template = {
 		model = 1,
 		investigation_ratio = 22,
 		num_2 = 35,
+		land_based = "",
 		unlocklevel = 0,
 		boss_refresh_special = 5,
 		uifx = "",
@@ -61419,6 +61747,7 @@ pg.chapter_template = {
 		avoid_ratio = 11,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 0,
 		scale = {
 			0.61,
@@ -62062,6 +62391,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 1060016,
 		id = 1060001,
 		pre_chapter = 0,
@@ -62071,6 +62401,7 @@ pg.chapter_template = {
 		model = 1,
 		investigation_ratio = 12,
 		num_2 = 15,
+		land_based = "",
 		unlocklevel = 0,
 		boss_refresh_special = 3,
 		uifx = "",
@@ -62094,6 +62425,7 @@ pg.chapter_template = {
 		avoid_ratio = 8,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -62471,6 +62803,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 1060032,
 		id = 1060002,
 		pre_chapter = 1060001,
@@ -62480,6 +62813,7 @@ pg.chapter_template = {
 		model = 2,
 		investigation_ratio = 12,
 		num_2 = 25,
+		land_based = "",
 		unlocklevel = 0,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -62503,6 +62837,7 @@ pg.chapter_template = {
 		avoid_ratio = 9,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 1,
 		submarine_num = 0,
 		scale = {
 			0.65,
@@ -62970,6 +63305,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 1060048,
 		id = 1060003,
 		pre_chapter = 1060002,
@@ -62979,6 +63315,7 @@ pg.chapter_template = {
 		model = 2,
 		investigation_ratio = 13,
 		num_2 = 25,
+		land_based = "",
 		unlocklevel = 0,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -63002,6 +63339,7 @@ pg.chapter_template = {
 		avoid_ratio = 10,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 1,
 		submarine_num = 0,
 		scale = {
 			0.64,
@@ -63555,6 +63893,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 1060064,
 		id = 1060004,
 		pre_chapter = 1060003,
@@ -63564,6 +63903,7 @@ pg.chapter_template = {
 		model = 2,
 		investigation_ratio = 14,
 		num_2 = 30,
+		land_based = "",
 		unlocklevel = 0,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -63587,6 +63927,7 @@ pg.chapter_template = {
 		avoid_ratio = 11,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 1,
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -64114,6 +64455,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 1060080,
 		id = 1060005,
 		pre_chapter = 1060004,
@@ -64123,6 +64465,7 @@ pg.chapter_template = {
 		model = 2,
 		investigation_ratio = 14,
 		num_2 = 30,
+		land_based = "",
 		unlocklevel = 0,
 		boss_refresh_special = 5,
 		uifx = "",
@@ -64146,6 +64489,7 @@ pg.chapter_template = {
 		avoid_ratio = 12,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 1,
 		submarine_num = 0,
 		scale = {
 			0.66,
@@ -64772,6 +65116,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 1060096,
 		id = 1060006,
 		pre_chapter = 1060005,
@@ -64781,6 +65126,7 @@ pg.chapter_template = {
 		model = 2,
 		investigation_ratio = 15,
 		num_2 = 35,
+		land_based = "",
 		unlocklevel = 0,
 		boss_refresh_special = 5,
 		uifx = "",
@@ -64804,6 +65150,7 @@ pg.chapter_template = {
 		avoid_ratio = 13,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 1,
 		submarine_num = 0,
 		scale = {
 			0.52,
@@ -65592,6 +65939,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 1060215,
 		id = 1060011,
 		pre_chapter = 0,
@@ -65601,6 +65949,7 @@ pg.chapter_template = {
 		model = 1,
 		investigation_ratio = 14,
 		num_2 = 20,
+		land_based = "",
 		unlocklevel = 0,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -65624,6 +65973,7 @@ pg.chapter_template = {
 		avoid_ratio = 10,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -66042,6 +66392,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 1060231,
 		id = 1060012,
 		pre_chapter = 1060011,
@@ -66051,6 +66402,7 @@ pg.chapter_template = {
 		model = 2,
 		investigation_ratio = 15,
 		num_2 = 25,
+		land_based = "",
 		unlocklevel = 0,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -66074,6 +66426,7 @@ pg.chapter_template = {
 		avoid_ratio = 11,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 1,
 		submarine_num = 0,
 		scale = {
 			0.65,
@@ -66582,6 +66935,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 1060247,
 		id = 1060013,
 		pre_chapter = 1060012,
@@ -66591,6 +66945,7 @@ pg.chapter_template = {
 		model = 2,
 		investigation_ratio = 16,
 		num_2 = 30,
+		land_based = "",
 		unlocklevel = 0,
 		boss_refresh_special = 5,
 		uifx = "",
@@ -66614,6 +66969,7 @@ pg.chapter_template = {
 		avoid_ratio = 12,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 1,
 		submarine_num = 0,
 		scale = {
 			0.64,
@@ -67208,6 +67564,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 1060263,
 		id = 1060014,
 		pre_chapter = 1060013,
@@ -67217,6 +67574,7 @@ pg.chapter_template = {
 		model = 2,
 		investigation_ratio = 17,
 		num_2 = 35,
+		land_based = "",
 		unlocklevel = 0,
 		boss_refresh_special = 5,
 		uifx = "",
@@ -67240,6 +67598,7 @@ pg.chapter_template = {
 		avoid_ratio = 13,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 1,
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -67808,6 +68167,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 1060279,
 		id = 1060015,
 		pre_chapter = 1060014,
@@ -67817,6 +68177,7 @@ pg.chapter_template = {
 		model = 2,
 		investigation_ratio = 18,
 		num_2 = 35,
+		land_based = "",
 		unlocklevel = 0,
 		boss_refresh_special = 6,
 		uifx = "",
@@ -67840,6 +68201,7 @@ pg.chapter_template = {
 		avoid_ratio = 14,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 1,
 		submarine_num = 0,
 		scale = {
 			0.66,
@@ -68507,6 +68869,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 1060295,
 		id = 1060016,
 		pre_chapter = 1060015,
@@ -68516,6 +68879,7 @@ pg.chapter_template = {
 		model = 2,
 		investigation_ratio = 19,
 		num_2 = 40,
+		land_based = "",
 		unlocklevel = 0,
 		boss_refresh_special = 6,
 		uifx = "",
@@ -68539,6 +68903,7 @@ pg.chapter_template = {
 		avoid_ratio = 15,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 1,
 		submarine_num = 0,
 		scale = {
 			0.52,
@@ -69368,6 +69733,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 1071500,
 		id = 1070201,
 		pre_chapter = 0,
@@ -69377,6 +69743,7 @@ pg.chapter_template = {
 		model = 1,
 		investigation_ratio = 15,
 		num_2 = 25,
+		land_based = "",
 		unlocklevel = 0,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -69400,6 +69767,7 @@ pg.chapter_template = {
 		avoid_ratio = 8,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -69918,6 +70286,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 1072500,
 		id = 1070202,
 		pre_chapter = 1070201,
@@ -69927,6 +70296,7 @@ pg.chapter_template = {
 		model = 1,
 		investigation_ratio = 18,
 		num_2 = 30,
+		land_based = "",
 		unlocklevel = 0,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -69950,6 +70320,7 @@ pg.chapter_template = {
 		avoid_ratio = 9,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 0,
 		scale = {
 			0.49,
@@ -70567,6 +70938,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 1073500,
 		id = 1070203,
 		pre_chapter = 1070202,
@@ -70576,6 +70948,7 @@ pg.chapter_template = {
 		model = 1,
 		investigation_ratio = 21,
 		num_2 = 35,
+		land_based = "",
 		unlocklevel = 0,
 		boss_refresh_special = 5,
 		uifx = "",
@@ -70599,6 +70972,7 @@ pg.chapter_template = {
 		avoid_ratio = 10,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 0,
 		scale = {
 			0.61,
@@ -71274,6 +71648,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 1081500,
 		id = 1080001,
 		pre_chapter = 0,
@@ -71283,6 +71658,7 @@ pg.chapter_template = {
 		model = 1,
 		investigation_ratio = 15,
 		num_2 = 20,
+		land_based = "",
 		unlocklevel = 0,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -71306,6 +71682,7 @@ pg.chapter_template = {
 		avoid_ratio = 7,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -71757,6 +72134,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 1082500,
 		id = 1080002,
 		pre_chapter = 1080001,
@@ -71766,6 +72144,7 @@ pg.chapter_template = {
 		model = 1,
 		investigation_ratio = 17,
 		num_2 = 25,
+		land_based = "",
 		unlocklevel = 0,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -71789,6 +72168,7 @@ pg.chapter_template = {
 		avoid_ratio = 8,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 0,
 		scale = {
 			0.65,
@@ -72345,6 +72725,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 1083500,
 		id = 1080003,
 		pre_chapter = 1080002,
@@ -72354,6 +72735,7 @@ pg.chapter_template = {
 		model = 1,
 		investigation_ratio = 19,
 		num_2 = 30,
+		land_based = "",
 		unlocklevel = 0,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -72377,6 +72759,7 @@ pg.chapter_template = {
 		avoid_ratio = 9,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -72926,6 +73309,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 1084500,
 		id = 1080004,
 		pre_chapter = 1080003,
@@ -72935,6 +73319,7 @@ pg.chapter_template = {
 		model = 1,
 		investigation_ratio = 21,
 		num_2 = 35,
+		land_based = "",
 		unlocklevel = 0,
 		boss_refresh_special = 5,
 		uifx = "",
@@ -72958,6 +73343,7 @@ pg.chapter_template = {
 		avoid_ratio = 10,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 0,
 		scale = {
 			0.62,
@@ -73620,6 +74006,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 1085500,
 		id = 1080005,
 		pre_chapter = 0,
@@ -73629,6 +74016,7 @@ pg.chapter_template = {
 		model = 1,
 		investigation_ratio = 25,
 		num_2 = 8,
+		land_based = "",
 		unlocklevel = 0,
 		boss_refresh_special = 3,
 		uifx = "",
@@ -73652,6 +74040,7 @@ pg.chapter_template = {
 		avoid_ratio = 13,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 0,
 		scale = {
 			0.47,
@@ -74361,6 +74750,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 1090016,
 		id = 1090001,
 		pre_chapter = 0,
@@ -74370,6 +74760,7 @@ pg.chapter_template = {
 		model = 2,
 		investigation_ratio = 11,
 		num_2 = 15,
+		land_based = "",
 		unlocklevel = 0,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -74393,6 +74784,7 @@ pg.chapter_template = {
 		avoid_ratio = 8,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 1,
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -74825,6 +75217,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 1090032,
 		id = 1090002,
 		pre_chapter = 1090001,
@@ -74834,6 +75227,7 @@ pg.chapter_template = {
 		model = 2,
 		investigation_ratio = 11,
 		num_2 = 20,
+		land_based = "",
 		unlocklevel = 0,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -74857,6 +75251,7 @@ pg.chapter_template = {
 		avoid_ratio = 9,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 1,
 		submarine_num = 0,
 		scale = {
 			0.65,
@@ -75321,6 +75716,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 1090048,
 		id = 1090003,
 		pre_chapter = 1090002,
@@ -75330,6 +75726,7 @@ pg.chapter_template = {
 		model = 2,
 		investigation_ratio = 12,
 		num_2 = 25,
+		land_based = "",
 		unlocklevel = 0,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -75353,6 +75750,7 @@ pg.chapter_template = {
 		avoid_ratio = 10,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 1,
 		submarine_num = 0,
 		scale = {
 			0.64,
@@ -75875,6 +76273,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 1090064,
 		id = 1090004,
 		pre_chapter = 1090003,
@@ -75884,6 +76283,7 @@ pg.chapter_template = {
 		model = 2,
 		investigation_ratio = 13,
 		num_2 = 30,
+		land_based = "",
 		unlocklevel = 0,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -75907,6 +76307,7 @@ pg.chapter_template = {
 		avoid_ratio = 11,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 1,
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -76440,6 +76841,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 1090080,
 		id = 1090005,
 		pre_chapter = 1090004,
@@ -76449,6 +76851,7 @@ pg.chapter_template = {
 		model = 2,
 		investigation_ratio = 13,
 		num_2 = 30,
+		land_based = "",
 		unlocklevel = 0,
 		boss_refresh_special = 5,
 		uifx = "",
@@ -76472,6 +76875,7 @@ pg.chapter_template = {
 		avoid_ratio = 12,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 1,
 		submarine_num = 0,
 		scale = {
 			0.66,
@@ -77083,6 +77487,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 1090096,
 		id = 1090006,
 		pre_chapter = 1090005,
@@ -77092,6 +77497,7 @@ pg.chapter_template = {
 		model = 2,
 		investigation_ratio = 14,
 		num_2 = 35,
+		land_based = "",
 		unlocklevel = 0,
 		boss_refresh_special = 5,
 		uifx = "",
@@ -77115,6 +77521,7 @@ pg.chapter_template = {
 		avoid_ratio = 13,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 1,
 		submarine_num = 0,
 		scale = {
 			0.52,
@@ -77901,6 +78308,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 1090215,
 		id = 1090011,
 		pre_chapter = 0,
@@ -77910,6 +78318,7 @@ pg.chapter_template = {
 		model = 2,
 		investigation_ratio = 13,
 		num_2 = 20,
+		land_based = "",
 		unlocklevel = 0,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -77933,6 +78342,7 @@ pg.chapter_template = {
 		avoid_ratio = 10,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 1,
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -78420,6 +78830,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 1090231,
 		id = 1090012,
 		pre_chapter = 1090011,
@@ -78429,6 +78840,7 @@ pg.chapter_template = {
 		model = 2,
 		investigation_ratio = 14,
 		num_2 = 25,
+		land_based = "",
 		unlocklevel = 0,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -78452,6 +78864,7 @@ pg.chapter_template = {
 		avoid_ratio = 11,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 1,
 		submarine_num = 0,
 		scale = {
 			0.65,
@@ -78971,6 +79384,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 1090247,
 		id = 1090013,
 		pre_chapter = 1090012,
@@ -78980,6 +79394,7 @@ pg.chapter_template = {
 		model = 2,
 		investigation_ratio = 15,
 		num_2 = 30,
+		land_based = "",
 		unlocklevel = 0,
 		boss_refresh_special = 5,
 		uifx = "",
@@ -79003,6 +79418,7 @@ pg.chapter_template = {
 		avoid_ratio = 12,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 1,
 		submarine_num = 0,
 		scale = {
 			0.64,
@@ -79580,6 +79996,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 1090263,
 		id = 1090014,
 		pre_chapter = 1090013,
@@ -79589,6 +80006,7 @@ pg.chapter_template = {
 		model = 2,
 		investigation_ratio = 16,
 		num_2 = 35,
+		land_based = "",
 		unlocklevel = 0,
 		boss_refresh_special = 5,
 		uifx = "",
@@ -79612,6 +80030,7 @@ pg.chapter_template = {
 		avoid_ratio = 13,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 1,
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -80200,6 +80619,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 1090279,
 		id = 1090015,
 		pre_chapter = 1090014,
@@ -80209,6 +80629,7 @@ pg.chapter_template = {
 		model = 2,
 		investigation_ratio = 17,
 		num_2 = 35,
+		land_based = "",
 		unlocklevel = 0,
 		boss_refresh_special = 6,
 		uifx = "",
@@ -80232,6 +80653,7 @@ pg.chapter_template = {
 		avoid_ratio = 14,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 1,
 		submarine_num = 0,
 		scale = {
 			0.66,
@@ -80898,6 +81320,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 1090295,
 		id = 1090016,
 		pre_chapter = 1090015,
@@ -80907,6 +81330,7 @@ pg.chapter_template = {
 		model = 2,
 		investigation_ratio = 18,
 		num_2 = 40,
+		land_based = "",
 		unlocklevel = 0,
 		boss_refresh_special = 6,
 		uifx = "",
@@ -80930,6 +81354,7 @@ pg.chapter_template = {
 		avoid_ratio = 15,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 1,
 		submarine_num = 0,
 		scale = {
 			0.52,
@@ -81771,6 +82196,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 1090311,
 		id = 1090017,
 		pre_chapter = 1090016,
@@ -81780,6 +82206,7 @@ pg.chapter_template = {
 		model = 1,
 		investigation_ratio = 20,
 		num_2 = 10,
+		land_based = "",
 		unlocklevel = 0,
 		boss_refresh_special = 3,
 		uifx = "",
@@ -81803,6 +82230,7 @@ pg.chapter_template = {
 		avoid_ratio = 15,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -82600,6 +83028,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 3000013,
 		id = 1110001,
 		pre_chapter = 0,
@@ -82609,6 +83038,7 @@ pg.chapter_template = {
 		model = 2,
 		investigation_ratio = 0,
 		num_2 = 15,
+		land_based = "",
 		unlocklevel = 0,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -82632,6 +83062,7 @@ pg.chapter_template = {
 		avoid_ratio = 8,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 1,
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -83167,6 +83598,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 3000113,
 		id = 1110002,
 		pre_chapter = 1110001,
@@ -83176,6 +83608,7 @@ pg.chapter_template = {
 		model = 2,
 		investigation_ratio = 0,
 		num_2 = 20,
+		land_based = "",
 		unlocklevel = 0,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -83199,6 +83632,7 @@ pg.chapter_template = {
 		avoid_ratio = 9,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 1,
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -83657,6 +84091,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 3000213,
 		id = 1110003,
 		pre_chapter = 1110002,
@@ -83666,6 +84101,7 @@ pg.chapter_template = {
 		model = 2,
 		investigation_ratio = 0,
 		num_2 = 20,
+		land_based = "",
 		unlocklevel = 0,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -83689,6 +84125,7 @@ pg.chapter_template = {
 		avoid_ratio = 10,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 1,
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -84197,6 +84634,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 3000313,
 		id = 1110004,
 		pre_chapter = 1110003,
@@ -84206,6 +84644,7 @@ pg.chapter_template = {
 		model = 2,
 		investigation_ratio = 0,
 		num_2 = 25,
+		land_based = "",
 		unlocklevel = 0,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -84229,6 +84668,7 @@ pg.chapter_template = {
 		avoid_ratio = 10,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 1,
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -84825,6 +85265,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "YINGHUA11",
+		chapter_safe = 0,
 		boss_expedition_id = 3000413,
 		id = 1110005,
 		pre_chapter = 1110004,
@@ -84834,6 +85275,7 @@ pg.chapter_template = {
 		model = 2,
 		investigation_ratio = 0,
 		num_2 = 30,
+		land_based = "",
 		unlocklevel = 0,
 		boss_refresh_special = 5,
 		uifx = "",
@@ -84857,6 +85299,7 @@ pg.chapter_template = {
 		avoid_ratio = 11,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 1,
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -85504,6 +85947,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 3000513,
 		id = 1110006,
 		pre_chapter = 1110005,
@@ -85513,6 +85957,7 @@ pg.chapter_template = {
 		model = 2,
 		investigation_ratio = 0,
 		num_2 = 30,
+		land_based = "",
 		unlocklevel = 0,
 		boss_refresh_special = 5,
 		uifx = "",
@@ -85536,6 +85981,7 @@ pg.chapter_template = {
 		avoid_ratio = 12,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 1,
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -86134,6 +86580,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 3000613,
 		id = 1110011,
 		pre_chapter = 0,
@@ -86143,6 +86590,7 @@ pg.chapter_template = {
 		model = 2,
 		investigation_ratio = 0,
 		num_2 = 25,
+		land_based = "",
 		unlocklevel = 0,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -86166,6 +86614,7 @@ pg.chapter_template = {
 		avoid_ratio = 12,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 1,
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -86743,6 +87192,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 3000713,
 		id = 1110012,
 		pre_chapter = 1110011,
@@ -86752,6 +87202,7 @@ pg.chapter_template = {
 		model = 2,
 		investigation_ratio = 0,
 		num_2 = 25,
+		land_based = "",
 		unlocklevel = 0,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -86775,6 +87226,7 @@ pg.chapter_template = {
 		avoid_ratio = 13,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 1,
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -87275,6 +87727,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 3000813,
 		id = 1110013,
 		pre_chapter = 1110012,
@@ -87284,6 +87737,7 @@ pg.chapter_template = {
 		model = 2,
 		investigation_ratio = 0,
 		num_2 = 30,
+		land_based = "",
 		unlocklevel = 0,
 		boss_refresh_special = 5,
 		uifx = "",
@@ -87307,6 +87761,7 @@ pg.chapter_template = {
 		avoid_ratio = 14,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 1,
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -87899,6 +88354,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 3000913,
 		id = 1110014,
 		pre_chapter = 1110013,
@@ -87908,6 +88364,7 @@ pg.chapter_template = {
 		model = 2,
 		investigation_ratio = 0,
 		num_2 = 35,
+		land_based = "",
 		unlocklevel = 0,
 		boss_refresh_special = 5,
 		uifx = "",
@@ -87931,6 +88388,7 @@ pg.chapter_template = {
 		avoid_ratio = 14,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 1,
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -88569,6 +89027,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "YINGHUA11",
+		chapter_safe = 0,
 		boss_expedition_id = 3001013,
 		id = 1110015,
 		pre_chapter = 1110014,
@@ -88578,6 +89037,7 @@ pg.chapter_template = {
 		model = 2,
 		investigation_ratio = 0,
 		num_2 = 40,
+		land_based = "",
 		unlocklevel = 0,
 		boss_refresh_special = 6,
 		uifx = "",
@@ -88601,6 +89061,7 @@ pg.chapter_template = {
 		avoid_ratio = 15,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 1,
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -89292,6 +89753,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 3001113,
 		id = 1110016,
 		pre_chapter = 1110015,
@@ -89301,6 +89763,7 @@ pg.chapter_template = {
 		model = 2,
 		investigation_ratio = 0,
 		num_2 = 40,
+		land_based = "",
 		unlocklevel = 0,
 		boss_refresh_special = 6,
 		uifx = "",
@@ -89324,6 +89787,7 @@ pg.chapter_template = {
 		avoid_ratio = 16,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 1,
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -89966,6 +90430,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 3001201,
 		id = 1110021,
 		pre_chapter = 0,
@@ -89975,6 +90440,7 @@ pg.chapter_template = {
 		model = 5,
 		investigation_ratio = 0,
 		num_2 = 4,
+		land_based = "",
 		unlocklevel = 0,
 		boss_refresh_special = 0,
 		uifx = "",
@@ -89998,6 +90464,7 @@ pg.chapter_template = {
 		avoid_ratio = 17,
 		star_require_2 = 4,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -90341,6 +90808,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 1000016,
 		id = 1120001,
 		pre_chapter = 201,
@@ -90350,6 +90818,7 @@ pg.chapter_template = {
 		model = 1,
 		investigation_ratio = 0,
 		num_2 = 20,
+		land_based = "",
 		unlocklevel = 0,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -90373,6 +90842,7 @@ pg.chapter_template = {
 		avoid_ratio = 12,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -90865,6 +91335,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 1000032,
 		id = 1120002,
 		pre_chapter = 1120001,
@@ -90874,6 +91345,7 @@ pg.chapter_template = {
 		model = 1,
 		investigation_ratio = 0,
 		num_2 = 20,
+		land_based = "",
 		unlocklevel = 0,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -90897,6 +91369,7 @@ pg.chapter_template = {
 		avoid_ratio = 13,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -91529,6 +92002,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 1000048,
 		id = 1120003,
 		pre_chapter = 1120002,
@@ -91538,6 +92012,7 @@ pg.chapter_template = {
 		model = 1,
 		investigation_ratio = 0,
 		num_2 = 20,
+		land_based = "",
 		unlocklevel = 0,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -91561,6 +92036,7 @@ pg.chapter_template = {
 		avoid_ratio = 13,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 1,
 		scale = {
 			0.66,
@@ -92160,6 +92636,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 1000064,
 		id = 1120004,
 		pre_chapter = 1120003,
@@ -92169,6 +92646,7 @@ pg.chapter_template = {
 		model = 1,
 		investigation_ratio = 0,
 		num_2 = 25,
+		land_based = "",
 		unlocklevel = 0,
 		boss_refresh_special = 5,
 		uifx = "",
@@ -92192,6 +92670,7 @@ pg.chapter_template = {
 		avoid_ratio = 14,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 1,
 		scale = {
 			0.52,
@@ -92909,6 +93388,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 1000080,
 		id = 1120005,
 		pre_chapter = 1120004,
@@ -92918,6 +93398,7 @@ pg.chapter_template = {
 		model = 1,
 		investigation_ratio = 0,
 		num_2 = 20,
+		land_based = "",
 		unlocklevel = 0,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -92941,6 +93422,7 @@ pg.chapter_template = {
 		avoid_ratio = 14,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -93453,6 +93935,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 1000096,
 		id = 1120006,
 		pre_chapter = 1120005,
@@ -93462,6 +93945,7 @@ pg.chapter_template = {
 		model = 1,
 		investigation_ratio = 0,
 		num_2 = 20,
+		land_based = "",
 		unlocklevel = 0,
 		boss_refresh_special = 5,
 		uifx = "",
@@ -93485,6 +93969,7 @@ pg.chapter_template = {
 		avoid_ratio = 15,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -94005,6 +94490,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 1000112,
 		id = 1120007,
 		pre_chapter = 1120006,
@@ -94014,6 +94500,7 @@ pg.chapter_template = {
 		model = 1,
 		investigation_ratio = 0,
 		num_2 = 20,
+		land_based = "",
 		unlocklevel = 0,
 		boss_refresh_special = 5,
 		uifx = "",
@@ -94037,6 +94524,7 @@ pg.chapter_template = {
 		avoid_ratio = 15,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 1,
 		scale = {
 			0.66,
@@ -94612,6 +95100,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 1000128,
 		id = 1120008,
 		pre_chapter = 1120007,
@@ -94621,6 +95110,7 @@ pg.chapter_template = {
 		model = 1,
 		investigation_ratio = 0,
 		num_2 = 25,
+		land_based = "",
 		unlocklevel = 0,
 		boss_refresh_special = 5,
 		uifx = "",
@@ -94644,6 +95134,7 @@ pg.chapter_template = {
 		avoid_ratio = 16,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 1,
 		scale = {
 			0.52,
@@ -95375,6 +95866,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 1000215,
 		id = 1120011,
 		pre_chapter = 201,
@@ -95384,6 +95876,7 @@ pg.chapter_template = {
 		model = 1,
 		investigation_ratio = 0,
 		num_2 = 30,
+		land_based = "",
 		unlocklevel = 0,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -95407,6 +95900,7 @@ pg.chapter_template = {
 		avoid_ratio = 14,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -95940,6 +96434,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 1000231,
 		id = 1120012,
 		pre_chapter = 1120011,
@@ -95949,6 +96444,7 @@ pg.chapter_template = {
 		model = 1,
 		investigation_ratio = 0,
 		num_2 = 30,
+		land_based = "",
 		unlocklevel = 0,
 		boss_refresh_special = 5,
 		uifx = "",
@@ -95972,6 +96468,7 @@ pg.chapter_template = {
 		avoid_ratio = 15,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -96647,6 +97144,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 1000247,
 		id = 1120013,
 		pre_chapter = 1120012,
@@ -96656,6 +97154,7 @@ pg.chapter_template = {
 		model = 1,
 		investigation_ratio = 0,
 		num_2 = 30,
+		land_based = "",
 		unlocklevel = 0,
 		boss_refresh_special = 5,
 		uifx = "",
@@ -96679,6 +97178,7 @@ pg.chapter_template = {
 		avoid_ratio = 16,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 1,
 		scale = {
 			0.66,
@@ -97319,6 +97819,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 1000263,
 		id = 1120014,
 		pre_chapter = 1120013,
@@ -97328,6 +97829,7 @@ pg.chapter_template = {
 		model = 1,
 		investigation_ratio = 0,
 		num_2 = 35,
+		land_based = "",
 		unlocklevel = 0,
 		boss_refresh_special = 5,
 		uifx = "",
@@ -97351,6 +97853,7 @@ pg.chapter_template = {
 		avoid_ratio = 17,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 1,
 		scale = {
 			0.52,
@@ -98109,6 +98612,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 1000279,
 		id = 1120015,
 		pre_chapter = 1120014,
@@ -98118,6 +98622,7 @@ pg.chapter_template = {
 		model = 1,
 		investigation_ratio = 0,
 		num_2 = 30,
+		land_based = "",
 		unlocklevel = 0,
 		boss_refresh_special = 5,
 		uifx = "",
@@ -98141,6 +98646,7 @@ pg.chapter_template = {
 		avoid_ratio = 16,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -98694,6 +99200,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 1000295,
 		id = 1120016,
 		pre_chapter = 1120015,
@@ -98703,6 +99210,7 @@ pg.chapter_template = {
 		model = 1,
 		investigation_ratio = 0,
 		num_2 = 30,
+		land_based = "",
 		unlocklevel = 0,
 		boss_refresh_special = 5,
 		uifx = "",
@@ -98726,6 +99234,7 @@ pg.chapter_template = {
 		avoid_ratio = 17,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -99287,6 +99796,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 1000311,
 		id = 1120017,
 		pre_chapter = 1120016,
@@ -99296,6 +99806,7 @@ pg.chapter_template = {
 		model = 1,
 		investigation_ratio = 0,
 		num_2 = 30,
+		land_based = "",
 		unlocklevel = 0,
 		boss_refresh_special = 5,
 		uifx = "",
@@ -99319,6 +99830,7 @@ pg.chapter_template = {
 		avoid_ratio = 17,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 1,
 		scale = {
 			0.66,
@@ -99935,6 +100447,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 1000327,
 		id = 1120018,
 		pre_chapter = 1120017,
@@ -99944,6 +100457,7 @@ pg.chapter_template = {
 		model = 1,
 		investigation_ratio = 0,
 		num_2 = 35,
+		land_based = "",
 		unlocklevel = 0,
 		boss_refresh_special = 5,
 		uifx = "",
@@ -99967,6 +100481,7 @@ pg.chapter_template = {
 		avoid_ratio = 18,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 1,
 		scale = {
 			0.52,
@@ -100739,6 +101254,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 1130500,
 		id = 1130001,
 		pre_chapter = 201,
@@ -100748,6 +101264,7 @@ pg.chapter_template = {
 		model = 1,
 		investigation_ratio = 0,
 		num_2 = 20,
+		land_based = "",
 		unlocklevel = 0,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -100771,6 +101288,7 @@ pg.chapter_template = {
 		avoid_ratio = 12,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -101199,6 +101717,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 1131500,
 		id = 1130002,
 		pre_chapter = 1130001,
@@ -101208,6 +101727,7 @@ pg.chapter_template = {
 		model = 1,
 		investigation_ratio = 0,
 		num_2 = 25,
+		land_based = "",
 		unlocklevel = 0,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -101231,6 +101751,7 @@ pg.chapter_template = {
 		avoid_ratio = 14,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 0,
 		scale = {
 			0.49,
@@ -101720,6 +102241,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 1132500,
 		id = 1130003,
 		pre_chapter = 1130002,
@@ -101729,6 +102251,7 @@ pg.chapter_template = {
 		model = 1,
 		investigation_ratio = 0,
 		num_2 = 35,
+		land_based = "",
 		unlocklevel = 0,
 		boss_refresh_special = 5,
 		uifx = "",
@@ -101752,6 +102275,7 @@ pg.chapter_template = {
 		avoid_ratio = 16,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 0,
 		scale = {
 			0.61,
@@ -102279,6 +102803,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 1060016,
 		id = 1150001,
 		pre_chapter = 0,
@@ -102288,6 +102813,7 @@ pg.chapter_template = {
 		model = 7,
 		investigation_ratio = 0,
 		num_2 = 15,
+		land_based = "",
 		unlocklevel = 0,
 		boss_refresh_special = 3,
 		uifx = "",
@@ -102311,6 +102837,7 @@ pg.chapter_template = {
 		avoid_ratio = 8,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 1,
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -102831,6 +103358,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 1060032,
 		id = 1150002,
 		pre_chapter = 1150001,
@@ -102840,6 +103368,7 @@ pg.chapter_template = {
 		model = 7,
 		investigation_ratio = 0,
 		num_2 = 25,
+		land_based = "",
 		unlocklevel = 0,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -102863,6 +103392,7 @@ pg.chapter_template = {
 		avoid_ratio = 9,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 1,
 		submarine_num = 1,
 		scale = {
 			0.65,
@@ -103444,6 +103974,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 1060048,
 		id = 1150003,
 		pre_chapter = 1150002,
@@ -103453,6 +103984,7 @@ pg.chapter_template = {
 		model = 7,
 		investigation_ratio = 0,
 		num_2 = 25,
+		land_based = "",
 		unlocklevel = 0,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -103476,6 +104008,7 @@ pg.chapter_template = {
 		avoid_ratio = 10,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 1,
 		submarine_num = 1,
 		scale = {
 			0.64,
@@ -104148,6 +104681,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 1060064,
 		id = 1150004,
 		pre_chapter = 1150003,
@@ -104157,6 +104691,7 @@ pg.chapter_template = {
 		model = 7,
 		investigation_ratio = 0,
 		num_2 = 30,
+		land_based = "",
 		unlocklevel = 0,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -104180,6 +104715,7 @@ pg.chapter_template = {
 		avoid_ratio = 11,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 1,
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -104790,6 +105326,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 1060080,
 		id = 1150005,
 		pre_chapter = 1150004,
@@ -104799,6 +105336,7 @@ pg.chapter_template = {
 		model = 7,
 		investigation_ratio = 0,
 		num_2 = 30,
+		land_based = "",
 		unlocklevel = 0,
 		boss_refresh_special = 5,
 		uifx = "",
@@ -104822,6 +105360,7 @@ pg.chapter_template = {
 		avoid_ratio = 12,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 1,
 		submarine_num = 1,
 		scale = {
 			0.66,
@@ -105573,6 +106112,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 1060096,
 		id = 1150006,
 		pre_chapter = 1150005,
@@ -105582,6 +106122,7 @@ pg.chapter_template = {
 		model = 7,
 		investigation_ratio = 0,
 		num_2 = 35,
+		land_based = "",
 		unlocklevel = 0,
 		boss_refresh_special = 5,
 		uifx = "",
@@ -105605,6 +106146,7 @@ pg.chapter_template = {
 		avoid_ratio = 13,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 1,
 		submarine_num = 1,
 		scale = {
 			0.52,
@@ -106535,6 +107077,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 1060215,
 		id = 1150011,
 		pre_chapter = 0,
@@ -106544,6 +107087,7 @@ pg.chapter_template = {
 		model = 7,
 		investigation_ratio = 0,
 		num_2 = 20,
+		land_based = "",
 		unlocklevel = 0,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -106567,6 +107111,7 @@ pg.chapter_template = {
 		avoid_ratio = 10,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 1,
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -107128,6 +107673,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 1060231,
 		id = 1150012,
 		pre_chapter = 1150011,
@@ -107137,6 +107683,7 @@ pg.chapter_template = {
 		model = 7,
 		investigation_ratio = 0,
 		num_2 = 25,
+		land_based = "",
 		unlocklevel = 0,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -107160,6 +107707,7 @@ pg.chapter_template = {
 		avoid_ratio = 11,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 1,
 		submarine_num = 1,
 		scale = {
 			0.65,
@@ -107782,6 +108330,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 1060247,
 		id = 1150013,
 		pre_chapter = 1150012,
@@ -107791,6 +108340,7 @@ pg.chapter_template = {
 		model = 7,
 		investigation_ratio = 0,
 		num_2 = 30,
+		land_based = "",
 		unlocklevel = 0,
 		boss_refresh_special = 5,
 		uifx = "",
@@ -107814,6 +108364,7 @@ pg.chapter_template = {
 		avoid_ratio = 12,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 1,
 		submarine_num = 1,
 		scale = {
 			0.64,
@@ -108527,6 +109078,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 1060263,
 		id = 1150014,
 		pre_chapter = 1150013,
@@ -108536,6 +109088,7 @@ pg.chapter_template = {
 		model = 7,
 		investigation_ratio = 0,
 		num_2 = 35,
+		land_based = "",
 		unlocklevel = 0,
 		boss_refresh_special = 5,
 		uifx = "",
@@ -108559,6 +109112,7 @@ pg.chapter_template = {
 		avoid_ratio = 13,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 1,
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -109210,6 +109764,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 1060279,
 		id = 1150015,
 		pre_chapter = 1150014,
@@ -109219,6 +109774,7 @@ pg.chapter_template = {
 		model = 7,
 		investigation_ratio = 0,
 		num_2 = 35,
+		land_based = "",
 		unlocklevel = 0,
 		boss_refresh_special = 6,
 		uifx = "",
@@ -109242,6 +109798,7 @@ pg.chapter_template = {
 		avoid_ratio = 14,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 1,
 		submarine_num = 1,
 		scale = {
 			0.66,
@@ -110034,6 +110591,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 1060295,
 		id = 1150016,
 		pre_chapter = 1150015,
@@ -110043,6 +110601,7 @@ pg.chapter_template = {
 		model = 7,
 		investigation_ratio = 0,
 		num_2 = 40,
+		land_based = "",
 		unlocklevel = 0,
 		boss_refresh_special = 6,
 		uifx = "",
@@ -110066,6 +110625,7 @@ pg.chapter_template = {
 		avoid_ratio = 15,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 1,
 		submarine_num = 1,
 		scale = {
 			0.52,
@@ -111037,6 +111597,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 1060500,
 		id = 1150021,
 		pre_chapter = 0,
@@ -111046,6 +111607,7 @@ pg.chapter_template = {
 		model = 5,
 		investigation_ratio = 0,
 		num_2 = 4,
+		land_based = "",
 		unlocklevel = 0,
 		boss_refresh_special = 0,
 		uifx = "",
@@ -111069,6 +111631,7 @@ pg.chapter_template = {
 		avoid_ratio = 17,
 		star_require_2 = 4,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 0,
 		scale = {
 			0.52,
@@ -111518,6 +112081,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "LINKPREHEAT1-2",
+		chapter_safe = 0,
 		boss_expedition_id = 1160501,
 		id = 1160001,
 		pre_chapter = 0,
@@ -111527,6 +112091,7 @@ pg.chapter_template = {
 		model = 1,
 		investigation_ratio = 0,
 		num_2 = 20,
+		land_based = "",
 		unlocklevel = 0,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -111550,6 +112115,7 @@ pg.chapter_template = {
 		avoid_ratio = 7,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -112010,6 +112576,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 1160502,
 		id = 1160002,
 		pre_chapter = 1160001,
@@ -112019,6 +112586,7 @@ pg.chapter_template = {
 		model = 1,
 		investigation_ratio = 0,
 		num_2 = 25,
+		land_based = "",
 		unlocklevel = 0,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -112042,6 +112610,7 @@ pg.chapter_template = {
 		avoid_ratio = 8,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -112619,6 +113188,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 1160503,
 		id = 1160003,
 		pre_chapter = 1160002,
@@ -112628,6 +113198,7 @@ pg.chapter_template = {
 		model = 1,
 		investigation_ratio = 0,
 		num_2 = 30,
+		land_based = "",
 		unlocklevel = 0,
 		boss_refresh_special = 99,
 		uifx = "",
@@ -112651,6 +113222,7 @@ pg.chapter_template = {
 		avoid_ratio = 9,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 1,
 		scale = {
 			0.65,
@@ -113140,6 +113712,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 1160504,
 		id = 1160004,
 		pre_chapter = 1160003,
@@ -113149,6 +113722,7 @@ pg.chapter_template = {
 		model = 1,
 		investigation_ratio = 0,
 		num_2 = 35,
+		land_based = "",
 		unlocklevel = 0,
 		boss_refresh_special = 99,
 		uifx = "",
@@ -113172,6 +113746,7 @@ pg.chapter_template = {
 		avoid_ratio = 10,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 1,
 		scale = {
 			0.62,
@@ -113917,6 +114492,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 1160510,
 		id = 1160005,
 		pre_chapter = 1160004,
@@ -113926,6 +114502,7 @@ pg.chapter_template = {
 		model = 5,
 		investigation_ratio = 0,
 		num_2 = 4,
+		land_based = "",
 		unlocklevel = 0,
 		boss_refresh_special = 0,
 		uifx = "",
@@ -113949,6 +114526,7 @@ pg.chapter_template = {
 		avoid_ratio = 17,
 		star_require_2 = 4,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 0,
 		scale = {
 			0.47,
@@ -114445,6 +115023,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "LONGXIANGHUODONG3",
+		chapter_safe = 0,
 		boss_expedition_id = 1170101,
 		id = 1170001,
 		pre_chapter = 0,
@@ -114454,6 +115033,7 @@ pg.chapter_template = {
 		model = 1,
 		investigation_ratio = 0,
 		num_2 = 20,
+		land_based = "",
 		unlocklevel = 0,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -114477,6 +115057,7 @@ pg.chapter_template = {
 		avoid_ratio = 12,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -114947,6 +115528,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "LONGXIANGHUODONG6",
+		chapter_safe = 0,
 		boss_expedition_id = 1170102,
 		id = 1170002,
 		pre_chapter = 1170001,
@@ -114956,6 +115538,7 @@ pg.chapter_template = {
 		model = 1,
 		investigation_ratio = 0,
 		num_2 = 25,
+		land_based = "",
 		unlocklevel = 0,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -114979,6 +115562,7 @@ pg.chapter_template = {
 		avoid_ratio = 14,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 1,
 		scale = {
 			0.49,
@@ -115507,6 +116091,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 1170103,
 		id = 1170003,
 		pre_chapter = 1170002,
@@ -115516,6 +116101,7 @@ pg.chapter_template = {
 		model = 1,
 		investigation_ratio = 0,
 		num_2 = 35,
+		land_based = "",
 		unlocklevel = 0,
 		boss_refresh_special = 5,
 		uifx = "",
@@ -115539,6 +116125,7 @@ pg.chapter_template = {
 		avoid_ratio = 16,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 1,
 		scale = {
 			0.61,
@@ -116106,6 +116693,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 1180013,
 		id = 1180001,
 		pre_chapter = 0,
@@ -116115,6 +116703,7 @@ pg.chapter_template = {
 		model = 2,
 		investigation_ratio = 0,
 		num_2 = 15,
+		land_based = "",
 		unlocklevel = 0,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -116138,6 +116727,7 @@ pg.chapter_template = {
 		avoid_ratio = 8,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 1,
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -116673,6 +117263,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 1180113,
 		id = 1180002,
 		pre_chapter = 1180001,
@@ -116682,6 +117273,7 @@ pg.chapter_template = {
 		model = 2,
 		investigation_ratio = 0,
 		num_2 = 20,
+		land_based = "",
 		unlocklevel = 0,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -116705,6 +117297,7 @@ pg.chapter_template = {
 		avoid_ratio = 9,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 1,
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -117211,6 +117804,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 1180213,
 		id = 1180003,
 		pre_chapter = 1180002,
@@ -117220,6 +117814,7 @@ pg.chapter_template = {
 		model = 2,
 		investigation_ratio = 0,
 		num_2 = 20,
+		land_based = "",
 		unlocklevel = 0,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -117243,6 +117838,7 @@ pg.chapter_template = {
 		avoid_ratio = 10,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 1,
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -117845,6 +118441,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 1180313,
 		id = 1180004,
 		pre_chapter = 1180003,
@@ -117854,6 +118451,7 @@ pg.chapter_template = {
 		model = 2,
 		investigation_ratio = 0,
 		num_2 = 25,
+		land_based = "",
 		unlocklevel = 0,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -117877,6 +118475,7 @@ pg.chapter_template = {
 		avoid_ratio = 10,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 1,
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -118480,6 +119079,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 1180413,
 		id = 1180005,
 		pre_chapter = 1180004,
@@ -118489,6 +119089,7 @@ pg.chapter_template = {
 		model = 2,
 		investigation_ratio = 0,
 		num_2 = 30,
+		land_based = "",
 		unlocklevel = 0,
 		boss_refresh_special = 5,
 		uifx = "",
@@ -118512,6 +119113,7 @@ pg.chapter_template = {
 		avoid_ratio = 11,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 1,
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -119158,6 +119760,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 1180513,
 		id = 1180006,
 		pre_chapter = 1180005,
@@ -119167,6 +119770,7 @@ pg.chapter_template = {
 		model = 2,
 		investigation_ratio = 0,
 		num_2 = 30,
+		land_based = "",
 		unlocklevel = 0,
 		boss_refresh_special = 5,
 		uifx = "",
@@ -119190,6 +119794,7 @@ pg.chapter_template = {
 		avoid_ratio = 12,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 1,
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -119810,6 +120415,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 1180613,
 		id = 1180011,
 		pre_chapter = 0,
@@ -119819,6 +120425,7 @@ pg.chapter_template = {
 		model = 2,
 		investigation_ratio = 0,
 		num_2 = 25,
+		land_based = "",
 		unlocklevel = 0,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -119842,6 +120449,7 @@ pg.chapter_template = {
 		avoid_ratio = 12,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 1,
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -120419,6 +121027,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 1180713,
 		id = 1180012,
 		pre_chapter = 1180011,
@@ -120428,6 +121037,7 @@ pg.chapter_template = {
 		model = 2,
 		investigation_ratio = 0,
 		num_2 = 25,
+		land_based = "",
 		unlocklevel = 0,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -120451,6 +121061,7 @@ pg.chapter_template = {
 		avoid_ratio = 13,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 1,
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -120999,6 +121610,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 1180813,
 		id = 1180013,
 		pre_chapter = 1180012,
@@ -121008,6 +121620,7 @@ pg.chapter_template = {
 		model = 2,
 		investigation_ratio = 0,
 		num_2 = 30,
+		land_based = "",
 		unlocklevel = 0,
 		boss_refresh_special = 5,
 		uifx = "",
@@ -121031,6 +121644,7 @@ pg.chapter_template = {
 		avoid_ratio = 14,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 1,
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -121675,6 +122289,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 1180913,
 		id = 1180014,
 		pre_chapter = 1180013,
@@ -121684,6 +122299,7 @@ pg.chapter_template = {
 		model = 2,
 		investigation_ratio = 0,
 		num_2 = 35,
+		land_based = "",
 		unlocklevel = 0,
 		boss_refresh_special = 5,
 		uifx = "",
@@ -121707,6 +122323,7 @@ pg.chapter_template = {
 		avoid_ratio = 14,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 1,
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -122352,6 +122969,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 1181013,
 		id = 1180015,
 		pre_chapter = 1180014,
@@ -122361,6 +122979,7 @@ pg.chapter_template = {
 		model = 2,
 		investigation_ratio = 0,
 		num_2 = 40,
+		land_based = "",
 		unlocklevel = 0,
 		boss_refresh_special = 6,
 		uifx = "",
@@ -122384,6 +123003,7 @@ pg.chapter_template = {
 		avoid_ratio = 15,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 1,
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -123074,6 +123694,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 1181113,
 		id = 1180016,
 		pre_chapter = 1180015,
@@ -123083,6 +123704,7 @@ pg.chapter_template = {
 		model = 2,
 		investigation_ratio = 0,
 		num_2 = 40,
+		land_based = "",
 		unlocklevel = 0,
 		boss_refresh_special = 6,
 		uifx = "",
@@ -123106,6 +123728,7 @@ pg.chapter_template = {
 		avoid_ratio = 16,
 		star_require_2 = 2,
 		time = 43200,
+		limit_move = 1,
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -123770,6 +124393,7 @@ pg.chapter_template = {
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
+		chapter_safe = 0,
 		boss_expedition_id = 1181201,
 		id = 1180021,
 		pre_chapter = 0,
@@ -123779,6 +124403,7 @@ pg.chapter_template = {
 		model = 5,
 		investigation_ratio = 0,
 		num_2 = 4,
+		land_based = "",
 		unlocklevel = 0,
 		boss_refresh_special = 0,
 		uifx = "",
@@ -123802,6 +124427,7 @@ pg.chapter_template = {
 		avoid_ratio = 17,
 		star_require_2 = 4,
 		time = 43200,
+		limit_move = 0,
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -124134,6 +124760,3970 @@ pg.chapter_template = {
 		activity_random_box = {},
 		risk_levels = {}
 	},
+	[1200001] = {
+		num_3 = 1,
+		mine_id = 2001,
+		collection_team = 0,
+		progress_boss = 100,
+		pos_x = "0.1625",
+		group_num = 2,
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		activate_time = 0,
+		story_refresh_boss = "",
+		chapter_safe = 0,
+		boss_expedition_id = 1210013,
+		id = 1200001,
+		pre_chapter = 0,
+		star_require_1 = 1,
+		pos_y = "0.402083333",
+		num_1 = 1,
+		model = 2,
+		investigation_ratio = 0,
+		num_2 = 6,
+		unlocklevel = 0,
+		boss_refresh_special = 0,
+		uifx = "",
+		name = "철혈의 행군",
+		chapter_name = "SP0",
+		type = 1,
+		act_id = 20144,
+		enter_story = "NAERWEIKE1",
+		boss_refresh = 0,
+		event_skip = 0,
+		oil = 10,
+		friendly_id = 0,
+		mitigation_rate = 0,
+		mitigation_level = 0,
+		ammo_total = 5,
+		map = 1200100,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "북극의 협만에 침입한 메탈 블러드 함대. 그 목표는 로열에게 발각 되기 전에 부동항 '나르비크'를 탈취하는 것이었다……",
+		difficulty = 8,
+		avoid_ratio = 7,
+		star_require_2 = 4,
+		time = 43200,
+		limit_move = 1,
+		submarine_num = 0,
+		scale = {
+			0.61,
+			0.41,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {},
+		ai_expedition_list = {
+			1
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		enemy_refresh = {
+			0,
+			2,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			0
+		},
+		ai_refresh = {
+			0
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		icon = {
+			"eidsvold"
+		},
+		awards = {},
+		grids = {
+			{
+				5,
+				9,
+				true,
+				0
+			},
+			{
+				5,
+				8,
+				false,
+				0
+			},
+			{
+				5,
+				7,
+				false,
+				0
+			},
+			{
+				5,
+				6,
+				false,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				false,
+				0
+			},
+			{
+				5,
+				3,
+				false,
+				100
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				0,
+				true,
+				0
+			},
+			{
+				4,
+				9,
+				true,
+				0
+			},
+			{
+				4,
+				8,
+				true,
+				0
+			},
+			{
+				4,
+				7,
+				false,
+				100
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				0
+			},
+			{
+				4,
+				4,
+				false,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				0
+			},
+			{
+				3,
+				9,
+				true,
+				8
+			},
+			{
+				3,
+				8,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				0,
+				true,
+				1
+			},
+			{
+				2,
+				9,
+				true,
+				0
+			},
+			{
+				2,
+				8,
+				true,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				false,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				true,
+				1
+			},
+			{
+				1,
+				9,
+				false,
+				0
+			},
+			{
+				1,
+				8,
+				true,
+				0
+			},
+			{
+				1,
+				7,
+				true,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				0
+			},
+			{
+				1,
+				5,
+				false,
+				100
+			},
+			{
+				1,
+				4,
+				true,
+				0
+			},
+			{
+				1,
+				3,
+				true,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				0
+			},
+			{
+				1,
+				1,
+				false,
+				0
+			},
+			{
+				1,
+				0,
+				true,
+				0
+			},
+			{
+				0,
+				9,
+				false,
+				0
+			},
+			{
+				0,
+				8,
+				false,
+				0
+			},
+			{
+				0,
+				7,
+				true,
+				0
+			},
+			{
+				0,
+				6,
+				true,
+				0
+			},
+			{
+				0,
+				5,
+				false,
+				0
+			},
+			{
+				0,
+				4,
+				false,
+				0
+			},
+			{
+				0,
+				3,
+				false,
+				0
+			},
+			{
+				0,
+				2,
+				false,
+				100
+			},
+			{
+				0,
+				1,
+				true,
+				0
+			},
+			{
+				0,
+				0,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				5,
+				7,
+				"3x1_2naerweike",
+				0,
+				0
+			},
+			{
+				4,
+				4,
+				"2x1_2naerweike",
+				-4,
+				-34
+			},
+			{
+				2,
+				6,
+				"1x1_2naerweike",
+				0,
+				21
+			},
+			{
+				1,
+				1,
+				"1x1_1naerweike",
+				-1,
+				18
+			},
+			{
+				0,
+				9,
+				"2x1_3naerweike",
+				-41,
+				-20
+			},
+			{
+				0,
+				4,
+				"3x1_1naerweike",
+				-8,
+				-4
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {
+			{
+				-20000
+			}
+		},
+		theme = {
+			"sea_naerweike",
+			45,
+			20,
+			-38,
+			-70,
+			100,
+			100,
+			4,
+			4
+		},
+		box_list = {},
+		random_box_list = {
+			2,
+			101,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0,
+			0,
+			0,
+			1
+		},
+		story_refresh = {},
+		defeat_story = {
+			"NAERWEIKE2"
+		},
+		defeat_story_count = {
+			1
+		},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {},
+		land_based = {
+			{
+				5,
+				3,
+				1
+			},
+			{
+				4,
+				7,
+				1
+			},
+			{
+				1,
+				5,
+				2
+			},
+			{
+				0,
+				2,
+				2
+			}
+		}
+	},
+	[1200002] = {
+		num_3 = 1,
+		mine_id = 2001,
+		collection_team = 0,
+		progress_boss = 35,
+		pos_x = "0.2375",
+		group_num = 2,
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		activate_time = 0,
+		story_refresh_boss = "",
+		chapter_safe = 1200002,
+		boss_expedition_id = 1210113,
+		id = 1200002,
+		pre_chapter = 1200001,
+		star_require_1 = 1,
+		pos_y = "0.123958333",
+		num_1 = 1,
+		model = 2,
+		investigation_ratio = 0,
+		num_2 = 25,
+		unlocklevel = 0,
+		boss_refresh_special = 4,
+		uifx = "",
+		name = "폭설 속의 정찰",
+		chapter_name = "SP1",
+		type = 1,
+		act_id = 20144,
+		enter_story = "NAERWEIKE3",
+		boss_refresh = 4,
+		event_skip = 0,
+		oil = 10,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 5,
+		ammo_total = 5,
+		map = 1200100,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "적 방위전력의 출현에 따라 나르비크가 점령되었다는 사실이 판명되었다. 정찰을 위해 H급 구축함들이 협만에 잠입한다……",
+		difficulty = 6,
+		avoid_ratio = 8,
+		star_require_2 = 2,
+		time = 43200,
+		limit_move = 1,
+		submarine_num = 1,
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1210101,
+				15,
+				0
+			},
+			{
+				1210102,
+				20,
+				0
+			},
+			{
+				1210103,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {
+			1210101,
+			1210102,
+			1210103
+		},
+		elite_expedition_list = {
+			1210102,
+			1210103
+		},
+		ai_expedition_list = {
+			1210110
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		enemy_refresh = {
+			2,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			0
+		},
+		ai_refresh = {
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		icon = {
+			"Z19"
+		},
+		awards = {
+			{
+				2,
+				57567
+			},
+			{
+				2,
+				57561
+			},
+			{
+				2,
+				54012
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				6,
+				10,
+				false,
+				0
+			},
+			{
+				6,
+				9,
+				false,
+				0
+			},
+			{
+				6,
+				8,
+				false,
+				0
+			},
+			{
+				6,
+				7,
+				false,
+				100
+			},
+			{
+				6,
+				6,
+				true,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				0
+			},
+			{
+				6,
+				3,
+				false,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				0
+			},
+			{
+				6,
+				0,
+				true,
+				0
+			},
+			{
+				5,
+				10,
+				true,
+				0
+			},
+			{
+				5,
+				9,
+				true,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				false,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				0,
+				true,
+				6
+			},
+			{
+				4,
+				10,
+				true,
+				0
+			},
+			{
+				4,
+				9,
+				true,
+				0
+			},
+			{
+				4,
+				8,
+				true,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				6
+			},
+			{
+				4,
+				3,
+				true,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				6
+			},
+			{
+				3,
+				10,
+				true,
+				0
+			},
+			{
+				3,
+				9,
+				true,
+				0
+			},
+			{
+				3,
+				8,
+				true,
+				6
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				6
+			},
+			{
+				3,
+				5,
+				false,
+				100
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				16
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				0,
+				true,
+				1
+			},
+			{
+				2,
+				10,
+				true,
+				4
+			},
+			{
+				2,
+				9,
+				false,
+				100
+			},
+			{
+				2,
+				8,
+				true,
+				4
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				false,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				6
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				6
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				true,
+				1
+			},
+			{
+				1,
+				10,
+				true,
+				8
+			},
+			{
+				1,
+				9,
+				false,
+				0
+			},
+			{
+				1,
+				8,
+				true,
+				6
+			},
+			{
+				1,
+				7,
+				true,
+				0
+			},
+			{
+				1,
+				6,
+				false,
+				0
+			},
+			{
+				1,
+				5,
+				false,
+				0
+			},
+			{
+				1,
+				4,
+				true,
+				0
+			},
+			{
+				1,
+				3,
+				false,
+				100
+			},
+			{
+				1,
+				2,
+				true,
+				0
+			},
+			{
+				1,
+				1,
+				true,
+				6
+			},
+			{
+				1,
+				0,
+				true,
+				0
+			},
+			{
+				0,
+				10,
+				true,
+				0
+			},
+			{
+				0,
+				9,
+				false,
+				0
+			},
+			{
+				0,
+				8,
+				true,
+				6
+			},
+			{
+				0,
+				7,
+				true,
+				0
+			},
+			{
+				0,
+				6,
+				true,
+				0
+			},
+			{
+				0,
+				5,
+				true,
+				0
+			},
+			{
+				0,
+				4,
+				true,
+				12
+			},
+			{
+				0,
+				3,
+				true,
+				0
+			},
+			{
+				0,
+				2,
+				false,
+				0
+			},
+			{
+				0,
+				1,
+				false,
+				0
+			},
+			{
+				0,
+				0,
+				false,
+				0
+			}
+		},
+		float_items = {
+			{
+				6,
+				9,
+				"3x1_2naerweike",
+				0,
+				9
+			},
+			{
+				6,
+				3,
+				"2x1_2naerweike",
+				0,
+				45
+			},
+			{
+				1,
+				6,
+				"2x1_3naerweike",
+				-45,
+				-23
+			},
+			{
+				0,
+				9,
+				"2x1_1naerweike",
+				1,
+				-33
+			},
+			{
+				0,
+				1,
+				"3x1_1naerweike",
+				3,
+				-9
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {
+			{
+				-20000
+			}
+		},
+		theme = {
+			"sea_naerweike",
+			45,
+			20,
+			66,
+			-103,
+			100,
+			100,
+			4,
+			4
+		},
+		box_list = {},
+		random_box_list = {
+			3,
+			21,
+			102,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				5,
+				4
+			},
+			{
+				3,
+				2
+			},
+			{
+				1,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {
+			{
+				6,
+				7,
+				1
+			},
+			{
+				3,
+				5,
+				2
+			},
+			{
+				2,
+				9,
+				2
+			},
+			{
+				1,
+				3,
+				2
+			}
+		}
+	},
+	[1200003] = {
+		num_3 = 1,
+		mine_id = 2001,
+		collection_team = 0,
+		progress_boss = 28,
+		pos_x = "0.62109375",
+		group_num = 2,
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		activate_time = 0,
+		story_refresh_boss = "",
+		chapter_safe = 1200003,
+		boss_expedition_id = 1210213,
+		id = 1200003,
+		pre_chapter = 1200002,
+		star_require_1 = 1,
+		pos_y = "0.379166667",
+		num_1 = 1,
+		model = 2,
+		investigation_ratio = 0,
+		num_2 = 30,
+		unlocklevel = 0,
+		boss_refresh_special = 5,
+		uifx = "",
+		name = "섬격의 부동항",
+		chapter_name = "SP2",
+		type = 1,
+		act_id = 20144,
+		enter_story = "NAERWEIKE6",
+		boss_refresh = 5,
+		event_skip = 0,
+		oil = 10,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 5,
+		ammo_total = 5,
+		map = 1200100,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "항내에서 보급 중인 무방비 상태의 적에게, 악천후로 시시각각 가까워지는 작전행동의 한계. 새벽의 폭설을 가르고 섬격의 칼날이 급습한다……",
+		difficulty = 7,
+		avoid_ratio = 9,
+		star_require_2 = 2,
+		time = 43200,
+		limit_move = 1,
+		submarine_num = 1,
+		scale = {
+			0.49,
+			0.35,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1210201,
+				15,
+				0
+			},
+			{
+				1210202,
+				20,
+				0
+			},
+			{
+				1210203,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {
+			1210201,
+			1210202,
+			1210203
+		},
+		elite_expedition_list = {
+			1210202,
+			1210203
+		},
+		ai_expedition_list = {
+			1210210
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		enemy_refresh = {
+			2,
+			2,
+			1,
+			1
+		},
+		elite_refresh = {
+			0
+		},
+		ai_refresh = {
+			2
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		icon = {
+			"Z21"
+		},
+		awards = {
+			{
+				2,
+				57568
+			},
+			{
+				2,
+				57562
+			},
+			{
+				2,
+				54012
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				6,
+				10,
+				false,
+				0
+			},
+			{
+				6,
+				9,
+				false,
+				0
+			},
+			{
+				6,
+				8,
+				false,
+				0
+			},
+			{
+				6,
+				7,
+				true,
+				6
+			},
+			{
+				6,
+				6,
+				true,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				6
+			},
+			{
+				6,
+				3,
+				true,
+				6
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				false,
+				0
+			},
+			{
+				6,
+				0,
+				true,
+				0
+			},
+			{
+				5,
+				10,
+				true,
+				8
+			},
+			{
+				5,
+				9,
+				true,
+				6
+			},
+			{
+				5,
+				8,
+				false,
+				100
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				false,
+				100
+			},
+			{
+				5,
+				1,
+				false,
+				0
+			},
+			{
+				5,
+				0,
+				true,
+				6
+			},
+			{
+				4,
+				10,
+				true,
+				0
+			},
+			{
+				4,
+				9,
+				true,
+				4
+			},
+			{
+				4,
+				8,
+				true,
+				6
+			},
+			{
+				4,
+				7,
+				true,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				6
+			},
+			{
+				4,
+				5,
+				false,
+				0
+			},
+			{
+				4,
+				4,
+				false,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				6
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				1
+			},
+			{
+				3,
+				10,
+				false,
+				0
+			},
+			{
+				3,
+				9,
+				true,
+				0
+			},
+			{
+				3,
+				8,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				16
+			},
+			{
+				3,
+				6,
+				true,
+				6
+			},
+			{
+				3,
+				5,
+				false,
+				0
+			},
+			{
+				3,
+				4,
+				false,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				6
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				6
+			},
+			{
+				3,
+				0,
+				true,
+				0
+			},
+			{
+				2,
+				10,
+				true,
+				0
+			},
+			{
+				2,
+				9,
+				true,
+				4
+			},
+			{
+				2,
+				8,
+				true,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				false,
+				100
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				12
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				true,
+				1
+			},
+			{
+				1,
+				10,
+				true,
+				0
+			},
+			{
+				1,
+				9,
+				false,
+				0
+			},
+			{
+				1,
+				8,
+				true,
+				12
+			},
+			{
+				1,
+				7,
+				true,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				0
+			},
+			{
+				1,
+				5,
+				false,
+				0
+			},
+			{
+				1,
+				4,
+				true,
+				0
+			},
+			{
+				1,
+				3,
+				true,
+				0
+			},
+			{
+				1,
+				2,
+				false,
+				100
+			},
+			{
+				1,
+				1,
+				true,
+				0
+			},
+			{
+				1,
+				0,
+				true,
+				6
+			},
+			{
+				0,
+				10,
+				true,
+				0
+			},
+			{
+				0,
+				9,
+				false,
+				0
+			},
+			{
+				0,
+				8,
+				false,
+				0
+			},
+			{
+				0,
+				7,
+				true,
+				6
+			},
+			{
+				0,
+				6,
+				true,
+				0
+			},
+			{
+				0,
+				5,
+				true,
+				0
+			},
+			{
+				0,
+				4,
+				true,
+				0
+			},
+			{
+				0,
+				3,
+				true,
+				0
+			},
+			{
+				0,
+				2,
+				false,
+				0
+			},
+			{
+				0,
+				1,
+				false,
+				0
+			},
+			{
+				0,
+				0,
+				false,
+				0
+			}
+		},
+		float_items = {
+			{
+				6,
+				9,
+				"3x1_2naerweike",
+				0,
+				12
+			},
+			{
+				6,
+				1,
+				"2x1_1naerweike",
+				0,
+				38
+			},
+			{
+				3,
+				10,
+				"1x1_1naerweike",
+				0,
+				0
+			},
+			{
+				3,
+				4,
+				"2x2_1naerweike",
+				53,
+				-32
+			},
+			{
+				1,
+				5,
+				"1x1_2naerweike",
+				0,
+				23
+			},
+			{
+				0,
+				9,
+				"2x1_3naerweike",
+				-46,
+				-28
+			},
+			{
+				0,
+				1,
+				"3x1_1naerweike",
+				0,
+				-3
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {
+			{
+				-20000
+			}
+		},
+		theme = {
+			"sea_naerweike",
+			45,
+			20,
+			22,
+			-67,
+			100,
+			100,
+			4,
+			4
+		},
+		box_list = {},
+		random_box_list = {
+			4,
+			22,
+			102,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0,
+			0,
+			1
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				5,
+				4
+			},
+			{
+				3,
+				2
+			},
+			{
+				1,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {
+			{
+				5,
+				8,
+				1
+			},
+			{
+				5,
+				2,
+				4
+			},
+			{
+				2,
+				5,
+				4
+			},
+			{
+				1,
+				2,
+				2
+			}
+		}
+	},
+	[1200004] = {
+		num_3 = 1,
+		mine_id = 2001,
+		collection_team = 0,
+		progress_boss = 22,
+		pos_x = "0.68515625",
+		group_num = 2,
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		activate_time = 0,
+		story_refresh_boss = "",
+		chapter_safe = 1200004,
+		boss_expedition_id = 1210313,
+		id = 1200004,
+		pre_chapter = 1200003,
+		star_require_1 = 1,
+		pos_y = "0.10625",
+		num_1 = 1,
+		model = 2,
+		investigation_ratio = 0,
+		num_2 = 35,
+		unlocklevel = 0,
+		boss_refresh_special = 5,
+		uifx = "",
+		name = "피오르드의 별",
+		chapter_name = "SP3",
+		type = 1,
+		act_id = 20144,
+		enter_story = "NAERWEIKE9",
+		boss_refresh = 5,
+		event_skip = 0,
+		oil = 10,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 5,
+		ammo_total = 5,
+		map = 1200100,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "완벽한 기습 뒤에 행해지는 긴박한 퇴각전. 용감하게 싸우는 협만의 빛나는 별들의 운명은 어떻게 될지……",
+		difficulty = 8,
+		avoid_ratio = 10,
+		star_require_2 = 2,
+		time = 43200,
+		limit_move = 1,
+		submarine_num = 1,
+		scale = {
+			0.61,
+			0.41,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1210301,
+				15,
+				0
+			},
+			{
+				1210302,
+				20,
+				0
+			},
+			{
+				1210303,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {
+			1210301,
+			1210302,
+			1210303
+		},
+		elite_expedition_list = {
+			1210302,
+			1210303
+		},
+		ai_expedition_list = {
+			1210310
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		enemy_refresh = {
+			2,
+			2,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			0
+		},
+		ai_refresh = {
+			2
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		icon = {
+			"z2"
+		},
+		awards = {
+			{
+				2,
+				57569
+			},
+			{
+				2,
+				57563
+			},
+			{
+				2,
+				54013
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				6,
+				10,
+				true,
+				6
+			},
+			{
+				6,
+				9,
+				true,
+				12
+			},
+			{
+				6,
+				8,
+				true,
+				0
+			},
+			{
+				6,
+				7,
+				false,
+				100
+			},
+			{
+				6,
+				6,
+				true,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				6
+			},
+			{
+				6,
+				4,
+				true,
+				6
+			},
+			{
+				6,
+				3,
+				true,
+				6
+			},
+			{
+				6,
+				2,
+				false,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				6
+			},
+			{
+				6,
+				0,
+				true,
+				6
+			},
+			{
+				5,
+				10,
+				true,
+				0
+			},
+			{
+				5,
+				9,
+				true,
+				6
+			},
+			{
+				5,
+				8,
+				true,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				16
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				6
+			},
+			{
+				5,
+				0,
+				true,
+				6
+			},
+			{
+				4,
+				10,
+				false,
+				0
+			},
+			{
+				4,
+				9,
+				false,
+				0
+			},
+			{
+				4,
+				8,
+				false,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				6
+			},
+			{
+				4,
+				4,
+				true,
+				6
+			},
+			{
+				4,
+				3,
+				false,
+				100
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				0
+			},
+			{
+				3,
+				10,
+				true,
+				8
+			},
+			{
+				3,
+				9,
+				true,
+				4
+			},
+			{
+				3,
+				8,
+				true,
+				4
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				6
+			},
+			{
+				3,
+				3,
+				false,
+				0
+			},
+			{
+				3,
+				2,
+				false,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				0,
+				true,
+				1
+			},
+			{
+				2,
+				10,
+				false,
+				0
+			},
+			{
+				2,
+				9,
+				false,
+				0
+			},
+			{
+				2,
+				8,
+				false,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				false,
+				100
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				6
+			},
+			{
+				2,
+				3,
+				false,
+				0
+			},
+			{
+				2,
+				2,
+				false,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				true,
+				1
+			},
+			{
+				1,
+				10,
+				true,
+				6
+			},
+			{
+				1,
+				9,
+				true,
+				6
+			},
+			{
+				1,
+				8,
+				true,
+				6
+			},
+			{
+				1,
+				7,
+				true,
+				0
+			},
+			{
+				1,
+				6,
+				false,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				0
+			},
+			{
+				1,
+				4,
+				true,
+				0
+			},
+			{
+				1,
+				3,
+				true,
+				0
+			},
+			{
+				1,
+				2,
+				false,
+				100
+			},
+			{
+				1,
+				1,
+				true,
+				0
+			},
+			{
+				1,
+				0,
+				true,
+				0
+			},
+			{
+				0,
+				10,
+				true,
+				0
+			},
+			{
+				0,
+				9,
+				true,
+				6
+			},
+			{
+				0,
+				8,
+				true,
+				6
+			},
+			{
+				0,
+				7,
+				true,
+				0
+			},
+			{
+				0,
+				6,
+				true,
+				6
+			},
+			{
+				0,
+				5,
+				true,
+				6
+			},
+			{
+				0,
+				4,
+				true,
+				0
+			},
+			{
+				0,
+				3,
+				true,
+				12
+			},
+			{
+				0,
+				2,
+				true,
+				0
+			},
+			{
+				0,
+				1,
+				true,
+				0
+			},
+			{
+				0,
+				0,
+				true,
+				6
+			}
+		},
+		float_items = {
+			{
+				6,
+				2,
+				"1x1_1naerweike",
+				0,
+				15
+			},
+			{
+				4,
+				9,
+				"3x1_1naerweike",
+				0,
+				-7
+			},
+			{
+				3,
+				2,
+				"2x2_1naerweike",
+				53,
+				38
+			},
+			{
+				2,
+				9,
+				"3x1_2naerweike",
+				0,
+				16
+			},
+			{
+				1,
+				6,
+				"1x1_2naerweike",
+				0,
+				13
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {
+			{
+				-20000
+			}
+		},
+		theme = {
+			"sea_naerweike",
+			45,
+			20,
+			-38,
+			-70,
+			100,
+			100,
+			4,
+			4
+		},
+		box_list = {},
+		random_box_list = {
+			6,
+			22,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0,
+			0,
+			0,
+			1
+		},
+		story_refresh = {},
+		defeat_story = {
+			"NAERWEIKE12"
+		},
+		defeat_story_count = {
+			1
+		},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				5,
+				4
+			},
+			{
+				3,
+				2
+			},
+			{
+				1,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {
+			{
+				6,
+				7,
+				1
+			},
+			{
+				4,
+				3,
+				3
+			},
+			{
+				2,
+				6,
+				2
+			},
+			{
+				1,
+				2,
+				4
+			}
+		}
+	},
+	[2200001] = {
+		num_3 = 1,
+		mine_id = 2001,
+		collection_team = 0,
+		progress_boss = 100,
+		pos_x = "0.35625",
+		group_num = 1,
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		activate_time = 0,
+		story_refresh_boss = "",
+		chapter_safe = 0,
+		boss_expedition_id = 10500,
+		id = 2200001,
+		pre_chapter = 0,
+		star_require_1 = 1,
+		pos_y = "0.43125",
+		num_1 = 1,
+		model = 1,
+		investigation_ratio = 16,
+		num_2 = 5,
+		land_based = "",
+		unlocklevel = 15,
+		boss_refresh_special = 2,
+		uifx = "",
+		name = "불길한 먹구름 ",
+		chapter_name = "SP.1",
+		type = 2,
+		act_id = 20005,
+		enter_story = "",
+		boss_refresh = 2,
+		event_skip = 0,
+		oil = 10,
+		friendly_id = 0,
+		mitigation_rate = 0,
+		mitigation_level = 0,
+		ammo_total = 5,
+		map = 2200000,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "적 함대가 말레이 해역에 집결! 새로 결성된 「Z 함대」가 적정 조사를 일임받았으니, 「Z 함대」를 엄호하고 임무를 완수하라! ",
+		difficulty = 4,
+		avoid_ratio = 8,
+		star_require_2 = 2,
+		time = 43200,
+		limit_move = 0,
+		submarine_num = 0,
+		scale = {
+			0.34,
+			0.7,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					5,
+					0,
+					0
+				},
+				{
+					2,
+					0,
+					0
+				}
+			}
+		},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				10141,
+				40,
+				0
+			}
+		},
+		ambush_expedition_list = {
+			10141
+		},
+		guarder_expedition_list = {
+			10141
+		},
+		elite_expedition_list = {
+			10141
+		},
+		ai_expedition_list = {
+			1
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		enemy_refresh = {
+			0,
+			1
+		},
+		elite_refresh = {
+			1
+		},
+		ai_refresh = {
+			0
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		icon = {
+			"jingang"
+		},
+		awards = {
+			{
+				2,
+				57001
+			},
+			{
+				2,
+				54012
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				5,
+				7,
+				false,
+				0
+			},
+			{
+				5,
+				6,
+				false,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				false,
+				0
+			},
+			{
+				5,
+				3,
+				false,
+				0
+			},
+			{
+				5,
+				2,
+				false,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				1
+			},
+			{
+				4,
+				7,
+				false,
+				0
+			},
+			{
+				4,
+				6,
+				false,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				6
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				4
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				8
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				false,
+				0
+			},
+			{
+				3,
+				3,
+				false,
+				0
+			},
+			{
+				3,
+				2,
+				false,
+				0
+			},
+			{
+				3,
+				1,
+				false,
+				0
+			}
+		},
+		float_items = {
+			{
+				5,
+				7,
+				"rock_day",
+				0,
+				-5
+			},
+			{
+				5,
+				3,
+				"1x3NormalIsland_1",
+				0,
+				0
+			},
+			{
+				4,
+				7,
+				"1x1NormalIsland_1",
+				0,
+				0
+			},
+			{
+				4,
+				6,
+				"1x2NormalIsland_1",
+				3,
+				-40
+			},
+			{
+				3,
+				3,
+				"2x1NormalIsland_1",
+				50,
+				0
+			},
+			{
+				3,
+				2,
+				"rock_day",
+				0,
+				-10
+			},
+			{
+				3,
+				1,
+				"1x1NormalIsland_2",
+				0,
+				0
+			}
+		},
+		ambush_event_ratio = {
+			{
+				3001,
+				10000
+			}
+		},
+		ambush_ratio_extra = {
+			{
+				4,
+				3,
+				4000
+			},
+			{
+				4,
+				1,
+				2000
+			},
+			{
+				3,
+				5,
+				6000
+			}
+		},
+		theme = {
+			"sea_day",
+			45,
+			20,
+			55,
+			-41,
+			100,
+			100,
+			4,
+			4
+		},
+		box_list = {},
+		random_box_list = {
+			3,
+			102,
+			1004,
+			5001
+		},
+		box_refresh = {
+			1
+		},
+		story_refresh = {
+			"TACT10001"
+		},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {}
+	},
+	[2200002] = {
+		num_3 = 1,
+		mine_id = 2001,
+		collection_team = 0,
+		progress_boss = 42,
+		pos_x = "0.58203125",
+		group_num = 2,
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		activate_time = 0,
+		story_refresh_boss = "",
+		chapter_safe = 0,
+		boss_expedition_id = 10501,
+		id = 2200002,
+		pre_chapter = 2200001,
+		star_require_1 = 1,
+		pos_y = "0.294791667",
+		num_1 = 1,
+		model = 1,
+		investigation_ratio = 17,
+		num_2 = 20,
+		land_based = "",
+		unlocklevel = 15,
+		boss_refresh_special = 4,
+		uifx = "",
+		name = "Z 함대의 최후",
+		chapter_name = "SP.2",
+		type = 2,
+		act_id = 20005,
+		enter_story = "",
+		boss_refresh = 4,
+		event_skip = 0,
+		oil = 10,
+		friendly_id = 0,
+		mitigation_rate = 0,
+		mitigation_level = 0,
+		ammo_total = 5,
+		map = 2200000,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "사쿠라 엠파이어의 기지항공대를 상대로, 프린스 오브 웨일즈와 리펄스의 대공화력이 부족하여 전투가 교착 상태에 빠졌다. ",
+		difficulty = 5,
+		avoid_ratio = 9,
+		star_require_2 = 2,
+		time = 43200,
+		limit_move = 0,
+		submarine_num = 0,
+		scale = {
+			0.53,
+			0.45,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					5,
+					0,
+					0
+				},
+				{
+					2,
+					0,
+					0
+				}
+			},
+			{
+				{
+					4,
+					0,
+					0
+				},
+				{
+					1,
+					0,
+					0
+				}
+			}
+		},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				10211,
+				35,
+				0
+			},
+			{
+				10221,
+				35,
+				0
+			},
+			{
+				10241,
+				20,
+				0
+			}
+		},
+		ambush_expedition_list = {
+			10291
+		},
+		guarder_expedition_list = {
+			10291
+		},
+		elite_expedition_list = {
+			10211,
+			10221
+		},
+		ai_expedition_list = {
+			1
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		enemy_refresh = {
+			0,
+			2,
+			2,
+			1
+		},
+		elite_refresh = {
+			3
+		},
+		ai_refresh = {
+			0
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		icon = {
+			"jingang"
+		},
+		awards = {
+			{
+				2,
+				57022
+			},
+			{
+				2,
+				57002
+			},
+			{
+				2,
+				54012
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				6,
+				7,
+				true,
+				8
+			},
+			{
+				6,
+				6,
+				true,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				4
+			},
+			{
+				6,
+				4,
+				true,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				4
+			},
+			{
+				6,
+				2,
+				true,
+				1
+			},
+			{
+				6,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				6
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				false,
+				0
+			},
+			{
+				5,
+				3,
+				false,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				6
+			},
+			{
+				5,
+				1,
+				true,
+				1
+			},
+			{
+				4,
+				7,
+				true,
+				6
+			},
+			{
+				4,
+				6,
+				true,
+				6
+			},
+			{
+				4,
+				5,
+				true,
+				4
+			},
+			{
+				4,
+				4,
+				false,
+				0
+			},
+			{
+				4,
+				3,
+				false,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				false,
+				0
+			},
+			{
+				3,
+				6,
+				false,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				6
+			},
+			{
+				3,
+				2,
+				true,
+				4
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				7,
+				false,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				8
+			},
+			{
+				2,
+				5,
+				true,
+				4
+			},
+			{
+				2,
+				4,
+				true,
+				6
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				false,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				5,
+				3,
+				"2x2NormalIsland_1",
+				51,
+				35
+			},
+			{
+				3,
+				6,
+				"1x1NormalIsland_1",
+				0,
+				0
+			},
+			{
+				2,
+				7,
+				"1x2NormalIsland_2",
+				4,
+				-39
+			},
+			{
+				2,
+				2,
+				"1x1NormalIsland_2",
+				0,
+				0
+			}
+		},
+		ambush_event_ratio = {
+			{
+				3001,
+				7000
+			}
+		},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_day",
+			45,
+			20,
+			62,
+			-15,
+			100,
+			100,
+			4,
+			4
+		},
+		box_list = {},
+		random_box_list = {
+			3,
+			102,
+			1004,
+			5001
+		},
+		box_refresh = {
+			1
+		},
+		story_refresh = {
+			"TACT10004"
+		},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {}
+	},
+	[2200003] = {
+		num_3 = 1,
+		mine_id = 2001,
+		collection_team = 0,
+		progress_boss = 28,
+		pos_x = "0.44921875",
+		group_num = 2,
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		activate_time = 0,
+		story_refresh_boss = "",
+		chapter_safe = 0,
+		boss_expedition_id = 10502,
+		id = 2200003,
+		pre_chapter = 2200002,
+		star_require_1 = 1,
+		pos_y = "0.080208333",
+		num_1 = 1,
+		model = 1,
+		investigation_ratio = 18,
+		num_2 = 25,
+		land_based = "",
+		unlocklevel = 15,
+		boss_refresh_special = 5,
+		uifx = "",
+		name = "거함거포의 진혼곡",
+		chapter_name = "SP.3",
+		type = 2,
+		act_id = 20005,
+		enter_story = "",
+		boss_refresh = 5,
+		event_skip = 0,
+		oil = 10,
+		friendly_id = 0,
+		mitigation_rate = 0,
+		mitigation_level = 0,
+		ammo_total = 5,
+		map = 2200000,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "리나운과 프린스 오브 웨일즈가 다수의 어뢰에 피격당했다. 동시에 사쿠라 엠파이어의 남방부대도 접근해온다. 최후의 일각까지 버텨라! ",
+		difficulty = 6,
+		avoid_ratio = 10,
+		star_require_2 = 2,
+		time = 43200,
+		limit_move = 0,
+		submarine_num = 0,
+		scale = {
+			0.52,
+			0.36,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					5,
+					0,
+					0
+				},
+				{
+					2,
+					0,
+					0
+				}
+			},
+			{
+				{
+					4,
+					0,
+					0
+				},
+				{
+					1,
+					0,
+					0
+				}
+			}
+		},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				10311,
+				35,
+				0
+			},
+			{
+				10321,
+				35,
+				0
+			},
+			{
+				10341,
+				20,
+				0
+			}
+		},
+		ambush_expedition_list = {
+			10391
+		},
+		guarder_expedition_list = {
+			10391
+		},
+		elite_expedition_list = {
+			10311,
+			10321
+		},
+		ai_expedition_list = {
+			1
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		enemy_refresh = {
+			0,
+			2,
+			2,
+			1
+		},
+		elite_refresh = {
+			3
+		},
+		ai_refresh = {
+			0
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		icon = {
+			"aidang"
+		},
+		awards = {
+			{
+				2,
+				57023
+			},
+			{
+				2,
+				57003
+			},
+			{
+				2,
+				54012
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				6,
+				8,
+				true,
+				8
+			},
+			{
+				6,
+				7,
+				true,
+				6
+			},
+			{
+				6,
+				6,
+				true,
+				0
+			},
+			{
+				6,
+				5,
+				false,
+				0
+			},
+			{
+				6,
+				4,
+				false,
+				0
+			},
+			{
+				6,
+				3,
+				false,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				1
+			},
+			{
+				5,
+				8,
+				true,
+				8
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				4
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				2
+			},
+			{
+				5,
+				3,
+				false,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				6
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				8,
+				true,
+				6
+			},
+			{
+				4,
+				7,
+				true,
+				4
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				6
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				false,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				6
+			},
+			{
+				3,
+				8,
+				false,
+				0
+			},
+			{
+				3,
+				7,
+				false,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				6
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				4
+			},
+			{
+				3,
+				1,
+				true,
+				1
+			},
+			{
+				2,
+				8,
+				false,
+				0
+			},
+			{
+				2,
+				7,
+				false,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				6
+			},
+			{
+				2,
+				4,
+				true,
+				6
+			},
+			{
+				2,
+				3,
+				true,
+				1
+			},
+			{
+				2,
+				2,
+				true,
+				6
+			},
+			{
+				2,
+				1,
+				false,
+				0
+			}
+		},
+		float_items = {
+			{
+				6,
+				3,
+				"1x3NormalIsland_1",
+				76,
+				0
+			},
+			{
+				4,
+				3,
+				"1x2NormalIsland_2",
+				2,
+				-32
+			},
+			{
+				2,
+				8,
+				"1x2NormalIsland_1",
+				-42,
+				-33
+			},
+			{
+				2,
+				1,
+				"1x1NormalIsland_1",
+				0,
+				0
+			}
+		},
+		ambush_event_ratio = {
+			{
+				3001,
+				5000
+			}
+		},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_day",
+			45,
+			20,
+			11,
+			-26,
+			100,
+			100,
+			4,
+			4
+		},
+		box_list = {},
+		random_box_list = {
+			3,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			1
+		},
+		story_refresh = {
+			"TACT10007"
+		},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {}
+	},
 	all = {
 		101,
 		102,
@@ -124344,7 +128934,14 @@ pg.chapter_template = {
 		1180014,
 		1180015,
 		1180016,
-		1180021
+		1180021,
+		1200001,
+		1200002,
+		1200003,
+		1200004,
+		2200001,
+		2200002,
+		2200003
 	}
 }
 

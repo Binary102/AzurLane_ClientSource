@@ -17791,7 +17791,7 @@ pg.equip_data_statistics = {
 		ambush_extra = 0,
 		value_2 = 45,
 		icon = "18060",
-		value_1 = "112 x 2",
+		value_1 = "116 x 2",
 		attribute_2 = "air",
 		avoid_extra = 0,
 		rarity = 5,
@@ -17816,7 +17816,7 @@ pg.equip_data_statistics = {
 	[18061] = {
 		base = 18060,
 		id = 18061,
-		value_1 = "129 x 2",
+		value_1 = "134 x 2",
 		skill_id = {
 			6321
 		},
@@ -17828,7 +17828,7 @@ pg.equip_data_statistics = {
 	[18062] = {
 		base = 18060,
 		id = 18062,
-		value_1 = "146 x 2",
+		value_1 = "152 x 2",
 		skill_id = {
 			6322
 		},
@@ -17840,7 +17840,7 @@ pg.equip_data_statistics = {
 	[18063] = {
 		base = 18060,
 		id = 18063,
-		value_1 = "163 x 2",
+		value_1 = "170 x 2",
 		skill_id = {
 			6323
 		},
@@ -17852,7 +17852,7 @@ pg.equip_data_statistics = {
 	[18064] = {
 		base = 18060,
 		id = 18064,
-		value_1 = "180 x 2",
+		value_1 = "188 x 2",
 		skill_id = {
 			6324
 		},
@@ -17864,7 +17864,7 @@ pg.equip_data_statistics = {
 	[18065] = {
 		base = 18060,
 		id = 18065,
-		value_1 = "197 x 2",
+		value_1 = "206 x 2",
 		skill_id = {
 			6325
 		},
@@ -17876,7 +17876,7 @@ pg.equip_data_statistics = {
 	[18066] = {
 		base = 18060,
 		id = 18066,
-		value_1 = "214 x 2",
+		value_1 = "224 x 2",
 		skill_id = {
 			6326
 		},
@@ -17888,7 +17888,7 @@ pg.equip_data_statistics = {
 	[18067] = {
 		base = 18060,
 		id = 18067,
-		value_1 = "231 x 2",
+		value_1 = "242 x 2",
 		skill_id = {
 			6327
 		},
@@ -17900,7 +17900,7 @@ pg.equip_data_statistics = {
 	[18068] = {
 		base = 18060,
 		id = 18068,
-		value_1 = "247 x 2",
+		value_1 = "260 x 2",
 		skill_id = {
 			6328
 		},
@@ -17912,7 +17912,7 @@ pg.equip_data_statistics = {
 	[18069] = {
 		base = 18060,
 		id = 18069,
-		value_1 = "264 x 2",
+		value_1 = "278 x 2",
 		skill_id = {
 			6329
 		},
@@ -17924,7 +17924,7 @@ pg.equip_data_statistics = {
 	[18070] = {
 		base = 18060,
 		id = 18070,
-		value_1 = "281 x 2",
+		value_1 = "296 x 2",
 		skill_id = {
 			6330
 		},

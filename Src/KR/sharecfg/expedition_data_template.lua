@@ -131622,7 +131622,7 @@ pg.expedition_data_template = {
 		name = "소형 정찰 함대",
 		exp_commander = 2,
 		activity_id = 0,
-		exp_commander_ratio = 70,
+		exp_commander_ratio = 30,
 		time_limit = 120,
 		dungeon_id = 1085010,
 		icon = "qz1",
@@ -131651,7 +131651,7 @@ pg.expedition_data_template = {
 		name = "중형 정찰 함대",
 		exp_commander = 2,
 		activity_id = 0,
-		exp_commander_ratio = 70,
+		exp_commander_ratio = 30,
 		time_limit = 120,
 		dungeon_id = 1085020,
 		icon = "qz1",
@@ -131680,7 +131680,7 @@ pg.expedition_data_template = {
 		name = "대형 정찰 함대",
 		exp_commander = 2,
 		activity_id = 0,
-		exp_commander_ratio = 70,
+		exp_commander_ratio = 30,
 		time_limit = 120,
 		dungeon_id = 1085030,
 		icon = "qz1",
@@ -131709,7 +131709,7 @@ pg.expedition_data_template = {
 		name = "소형 주력 함대",
 		exp_commander = 2,
 		activity_id = 0,
-		exp_commander_ratio = 70,
+		exp_commander_ratio = 30,
 		time_limit = 120,
 		dungeon_id = 1085040,
 		icon = "zl1",
@@ -131738,7 +131738,7 @@ pg.expedition_data_template = {
 		name = "중형 주력 함대",
 		exp_commander = 2,
 		activity_id = 0,
-		exp_commander_ratio = 70,
+		exp_commander_ratio = 30,
 		time_limit = 120,
 		dungeon_id = 1085050,
 		icon = "zl1",
@@ -131767,7 +131767,7 @@ pg.expedition_data_template = {
 		name = "대형 주력 함대",
 		exp_commander = 2,
 		activity_id = 0,
-		exp_commander_ratio = 70,
+		exp_commander_ratio = 30,
 		time_limit = 120,
 		dungeon_id = 1085060,
 		icon = "zl1",
@@ -131796,7 +131796,7 @@ pg.expedition_data_template = {
 		name = "소형 항공 함대",
 		exp_commander = 2,
 		activity_id = 0,
-		exp_commander_ratio = 70,
+		exp_commander_ratio = 30,
 		time_limit = 120,
 		dungeon_id = 1085070,
 		icon = "hm1",
@@ -131825,7 +131825,7 @@ pg.expedition_data_template = {
 		name = "중형 항공 함대",
 		exp_commander = 2,
 		activity_id = 0,
-		exp_commander_ratio = 70,
+		exp_commander_ratio = 30,
 		time_limit = 120,
 		dungeon_id = 1085080,
 		icon = "hm1",
@@ -131854,7 +131854,7 @@ pg.expedition_data_template = {
 		name = "대형 항공 함대",
 		exp_commander = 2,
 		activity_id = 0,
-		exp_commander_ratio = 70,
+		exp_commander_ratio = 30,
 		time_limit = 120,
 		dungeon_id = 1085090,
 		icon = "hm1",
@@ -131883,7 +131883,7 @@ pg.expedition_data_template = {
 		name = "소형 수송 함대",
 		exp_commander = 2,
 		activity_id = 0,
-		exp_commander_ratio = 70,
+		exp_commander_ratio = 30,
 		time_limit = 120,
 		dungeon_id = 1085100,
 		icon = "ys1",
@@ -131912,7 +131912,7 @@ pg.expedition_data_template = {
 		name = "중형 수송 함대",
 		exp_commander = 2,
 		activity_id = 0,
-		exp_commander_ratio = 70,
+		exp_commander_ratio = 30,
 		time_limit = 120,
 		dungeon_id = 1085110,
 		icon = "ys1",
@@ -131941,7 +131941,7 @@ pg.expedition_data_template = {
 		name = "대형 수송 함대",
 		exp_commander = 2,
 		activity_id = 0,
-		exp_commander_ratio = 70,
+		exp_commander_ratio = 30,
 		time_limit = 120,
 		dungeon_id = 1085120,
 		icon = "ys1",
@@ -131970,7 +131970,7 @@ pg.expedition_data_template = {
 		name = "매복 함대",
 		exp_commander = 2,
 		activity_id = 0,
-		exp_commander_ratio = 70,
+		exp_commander_ratio = 30,
 		time_limit = 120,
 		dungeon_id = 1085020,
 		icon = "qz1",
@@ -131999,7 +131999,7 @@ pg.expedition_data_template = {
 		name = "매복 함대",
 		exp_commander = 2,
 		activity_id = 0,
-		exp_commander_ratio = 70,
+		exp_commander_ratio = 30,
 		time_limit = 120,
 		dungeon_id = 1085050,
 		icon = "zl1",
@@ -132028,7 +132028,7 @@ pg.expedition_data_template = {
 		name = "매복 함대",
 		exp_commander = 2,
 		activity_id = 0,
-		exp_commander_ratio = 70,
+		exp_commander_ratio = 30,
 		time_limit = 120,
 		dungeon_id = 1085080,
 		icon = "hm1",
@@ -132057,7 +132057,7 @@ pg.expedition_data_template = {
 		name = "적 중요 함대",
 		exp_commander = 2,
 		activity_id = 0,
-		exp_commander_ratio = 100,
+		exp_commander_ratio = 50,
 		time_limit = 200,
 		dungeon_id = 1085500,
 		icon = "bossicon",
@@ -159709,7 +159709,7 @@ pg.expedition_data_template = {
 		activity_id = 0,
 		exp_commander_ratio = 0,
 		time_limit = 150,
-		dungeon_id = 1201204,
+		dungeon_id = 1201205,
 		icon = "bossicon",
 		difficulty = 2,
 		level = 120,
@@ -159736,6 +159736,935 @@ pg.expedition_data_template = {
 			{
 				2,
 				54017
+			}
+		}
+	},
+	[1210013] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		add_icon = "",
+		name = "적 중요 함대",
+		exp_commander = 0,
+		activity_id = 0,
+		exp_commander_ratio = 50,
+		time_limit = 120,
+		dungeon_id = 1210013,
+		icon = "bossicon",
+		difficulty = 1,
+		level = 20,
+		exp = 145,
+		limit_type = 1,
+		extraenemy_difficulty = 0,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 50021,
+		activity_id2 = 0,
+		bonus_time = 0,
+		plot_type = 0,
+		id = 1210013,
+		scale = 100,
+		award_display = {}
+	},
+	[1210101] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 1,
+		ai_mov = 0,
+		add_icon = "",
+		name = "소형 정찰 함대",
+		exp_commander = 0,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1210101,
+		icon = "qz1",
+		difficulty = 1,
+		level = 30,
+		exp = 150,
+		limit_type = 1,
+		extraenemy_difficulty = 0,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 50021,
+		activity_id2 = 0,
+		bonus_time = 0,
+		plot_type = 0,
+		id = 1210101,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57564
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17022
+			},
+			{
+				2,
+				17032
+			}
+		}
+	},
+	[1210102] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 2,
+		ai_mov = 0,
+		add_icon = "",
+		name = "중형 정찰 함대",
+		exp_commander = 0,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1210102,
+		icon = "qz1",
+		difficulty = 1,
+		level = 31,
+		exp = 170,
+		limit_type = 1,
+		extraenemy_difficulty = 0,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 50021,
+		activity_id2 = 0,
+		bonus_time = 0,
+		plot_type = 0,
+		id = 1210102,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57564
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17022
+			},
+			{
+				2,
+				17032
+			}
+		}
+	},
+	[1210103] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 3,
+		ai_mov = 0,
+		add_icon = "",
+		name = "대형 정찰 함대",
+		exp_commander = 0,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1210103,
+		icon = "qz1",
+		difficulty = 1,
+		level = 32,
+		exp = 192,
+		limit_type = 1,
+		extraenemy_difficulty = 0,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 50021,
+		activity_id2 = 0,
+		bonus_time = 0,
+		plot_type = 0,
+		id = 1210103,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57564
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17022
+			},
+			{
+				2,
+				17032
+			}
+		}
+	},
+	[1210110] = {
+		sink_limit = 1,
+		ai = 3,
+		guide_desc = "",
+		type = 3,
+		ai_mov = 3,
+		add_icon = "",
+		name = "엘리트 함대",
+		exp_commander = 0,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1210110,
+		icon = "z18",
+		difficulty = 2,
+		level = 33,
+		exp = 223,
+		limit_type = 1,
+		extraenemy_difficulty = 0,
+		rank_activity_id = 0,
+		icon_type = 2,
+		map_id = 50021,
+		activity_id2 = 0,
+		bonus_time = 0,
+		plot_type = 0,
+		id = 1210110,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57561
+			},
+			{
+				2,
+				54022
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54015
+			}
+		}
+	},
+	[1210111] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 3,
+		ai_mov = 0,
+		add_icon = "",
+		name = "엘리트 함대",
+		exp_commander = 0,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1210110,
+		icon = "z18",
+		difficulty = 2,
+		level = 33,
+		exp = 223,
+		limit_type = 1,
+		extraenemy_difficulty = 0,
+		rank_activity_id = 0,
+		icon_type = 2,
+		map_id = 50021,
+		activity_id2 = 0,
+		bonus_time = 0,
+		plot_type = 0,
+		id = 1210111,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57561
+			},
+			{
+				2,
+				54022
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54015
+			}
+		}
+	},
+	[1210113] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		add_icon = "",
+		name = "적 중요 함대",
+		exp_commander = 0,
+		activity_id = 0,
+		exp_commander_ratio = 50,
+		time_limit = 120,
+		dungeon_id = 1210113,
+		icon = "bossicon",
+		difficulty = 1,
+		level = 35,
+		exp = 254,
+		limit_type = 1,
+		extraenemy_difficulty = 0,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 50021,
+		activity_id2 = 0,
+		bonus_time = 0,
+		plot_type = 0,
+		id = 1210113,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57561
+			},
+			{
+				2,
+				54022
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54015
+			}
+		}
+	},
+	[1210201] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 1,
+		ai_mov = 0,
+		add_icon = "",
+		name = "소형 정찰 함대",
+		exp_commander = 1,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1210201,
+		icon = "qz1",
+		difficulty = 1,
+		level = 45,
+		exp = 225,
+		limit_type = 1,
+		extraenemy_difficulty = 0,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 50021,
+		activity_id2 = 0,
+		bonus_time = 0,
+		plot_type = 0,
+		id = 1210201,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57565
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17022
+			},
+			{
+				2,
+				17032
+			}
+		}
+	},
+	[1210202] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 2,
+		ai_mov = 0,
+		add_icon = "",
+		name = "중형 정찰 함대",
+		exp_commander = 1,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1210202,
+		icon = "qz1",
+		difficulty = 1,
+		level = 46,
+		exp = 253,
+		limit_type = 1,
+		extraenemy_difficulty = 0,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 50021,
+		activity_id2 = 0,
+		bonus_time = 0,
+		plot_type = 0,
+		id = 1210202,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57565
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17022
+			},
+			{
+				2,
+				17032
+			}
+		}
+	},
+	[1210203] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 3,
+		ai_mov = 0,
+		add_icon = "",
+		name = "대형 정찰 함대",
+		exp_commander = 1,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1210203,
+		icon = "qz1",
+		difficulty = 1,
+		level = 47,
+		exp = 282,
+		limit_type = 1,
+		extraenemy_difficulty = 0,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 50021,
+		activity_id2 = 0,
+		bonus_time = 0,
+		plot_type = 0,
+		id = 1210203,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57565
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17022
+			},
+			{
+				2,
+				17032
+			}
+		}
+	},
+	[1210210] = {
+		sink_limit = 1,
+		ai = 3,
+		guide_desc = "",
+		type = 3,
+		ai_mov = 3,
+		add_icon = "",
+		name = "엘리트 함대",
+		exp_commander = 1,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1210210,
+		icon = "z18",
+		difficulty = 2,
+		level = 48,
+		exp = 324,
+		limit_type = 1,
+		extraenemy_difficulty = 0,
+		rank_activity_id = 0,
+		icon_type = 2,
+		map_id = 50021,
+		activity_id2 = 0,
+		bonus_time = 0,
+		plot_type = 0,
+		id = 1210210,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57562
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54015
+			}
+		}
+	},
+	[1210211] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 3,
+		ai_mov = 0,
+		add_icon = "",
+		name = "엘리트 함대",
+		exp_commander = 1,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1210210,
+		icon = "z18",
+		difficulty = 2,
+		level = 48,
+		exp = 324,
+		limit_type = 1,
+		extraenemy_difficulty = 0,
+		rank_activity_id = 0,
+		icon_type = 2,
+		map_id = 50021,
+		activity_id2 = 0,
+		bonus_time = 0,
+		plot_type = 0,
+		id = 1210211,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57562
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54015
+			}
+		}
+	},
+	[1210213] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		add_icon = "",
+		name = "적 중요 함대",
+		exp_commander = 1,
+		activity_id = 0,
+		exp_commander_ratio = 50,
+		time_limit = 120,
+		dungeon_id = 1210213,
+		icon = "bossicon",
+		difficulty = 1,
+		level = 50,
+		exp = 362,
+		limit_type = 1,
+		extraenemy_difficulty = 0,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 50021,
+		activity_id2 = 0,
+		bonus_time = 0,
+		plot_type = 0,
+		id = 1210213,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57562
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54015
+			}
+		}
+	},
+	[1210301] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 1,
+		ai_mov = 0,
+		add_icon = "",
+		name = "소형 정찰 함대",
+		exp_commander = 2,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1210301,
+		icon = "qz1",
+		difficulty = 1,
+		level = 60,
+		exp = 300,
+		limit_type = 1,
+		extraenemy_difficulty = 0,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 50021,
+		activity_id2 = 0,
+		bonus_time = 0,
+		plot_type = 0,
+		id = 1210301,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57566
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17023
+			},
+			{
+				2,
+				17033
+			}
+		}
+	},
+	[1210302] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 2,
+		ai_mov = 0,
+		add_icon = "",
+		name = "중형 정찰 함대",
+		exp_commander = 2,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1210302,
+		icon = "qz1",
+		difficulty = 1,
+		level = 61,
+		exp = 335,
+		limit_type = 1,
+		extraenemy_difficulty = 0,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 50021,
+		activity_id2 = 0,
+		bonus_time = 0,
+		plot_type = 0,
+		id = 1210302,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57566
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17023
+			},
+			{
+				2,
+				17033
+			}
+		}
+	},
+	[1210303] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 3,
+		ai_mov = 0,
+		add_icon = "",
+		name = "대형 정찰 함대",
+		exp_commander = 2,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1210303,
+		icon = "qz1",
+		difficulty = 1,
+		level = 62,
+		exp = 372,
+		limit_type = 1,
+		extraenemy_difficulty = 0,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 50021,
+		activity_id2 = 0,
+		bonus_time = 0,
+		plot_type = 0,
+		id = 1210303,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57566
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17023
+			},
+			{
+				2,
+				17033
+			}
+		}
+	},
+	[1210310] = {
+		sink_limit = 1,
+		ai = 3,
+		guide_desc = "",
+		type = 3,
+		ai_mov = 3,
+		add_icon = "",
+		name = "엘리트 함대",
+		exp_commander = 2,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1210310,
+		icon = "z18",
+		difficulty = 2,
+		level = 63,
+		exp = 425,
+		limit_type = 1,
+		extraenemy_difficulty = 0,
+		rank_activity_id = 0,
+		icon_type = 2,
+		map_id = 50021,
+		activity_id2 = 0,
+		bonus_time = 0,
+		plot_type = 0,
+		id = 1210310,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57563
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54016
+			}
+		}
+	},
+	[1210311] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 3,
+		ai_mov = 0,
+		add_icon = "",
+		name = "엘리트 함대",
+		exp_commander = 2,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1210310,
+		icon = "z18",
+		difficulty = 2,
+		level = 63,
+		exp = 425,
+		limit_type = 1,
+		extraenemy_difficulty = 0,
+		rank_activity_id = 0,
+		icon_type = 2,
+		map_id = 50021,
+		activity_id2 = 0,
+		bonus_time = 0,
+		plot_type = 0,
+		id = 1210311,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57563
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54016
+			}
+		}
+	},
+	[1210313] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		add_icon = "",
+		name = "적 중요 함대",
+		exp_commander = 2,
+		activity_id = 0,
+		exp_commander_ratio = 50,
+		time_limit = 120,
+		dungeon_id = 1210313,
+		icon = "bossicon",
+		difficulty = 1,
+		level = 65,
+		exp = 471,
+		limit_type = 1,
+		extraenemy_difficulty = 0,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 50021,
+		activity_id2 = 0,
+		bonus_time = 0,
+		plot_type = 0,
+		id = 1210313,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57563
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54016
 			}
 		}
 	},
@@ -174227,6 +175156,25 @@ pg.expedition_data_template = {
 		1201203,
 		1201204,
 		1201205,
+		1210013,
+		1210101,
+		1210102,
+		1210103,
+		1210110,
+		1210111,
+		1210113,
+		1210201,
+		1210202,
+		1210203,
+		1210210,
+		1210211,
+		1210213,
+		1210301,
+		1210302,
+		1210303,
+		1210310,
+		1210311,
+		1210313,
 		5000020,
 		5000021,
 		5000022,

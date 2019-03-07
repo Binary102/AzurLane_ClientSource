@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"특별훈련 에식스급\n\n<size=30>1　특별훈련 내막!</size>",
+					"특별훈련·에식스급\n\n<size=30>1 에식스, 시련의 바다로</size>",
 					1
 				}
 			}
@@ -24,7 +24,7 @@ return {
 			bgm = "story-1",
 			actor = 107061,
 			nameColor = "#a9f548",
-			say = "이번 대규모훈련의 중요한 것은 적 항공모함의 나타났을 경우 어떻게 신속하게 대응하는지를 시뮬레이션하는 것이다.",
+			say = "이번 특별 연습은 적 항공모함의 항공 공격에 대한 대응, 그리고 적 항공모함 자체에 대한 즉각 반격. 이 두 가지 상황을 가정한 거야.",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -57,7 +57,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "동시에, 화이트 호크의 항공파워도 보여줄수 있습니다.",
+			say = "동시에 우리 유니온의 항공모함 전력이 얼마나 뛰어난지 보여줄 모범 경기이기도 하지.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "훈련은 두개로 나뉜다, 블루팀 담당은\"공습\"으로 가상의 적 항공모함 역할을 하는것이고, 레드팀은 출격팀을 이끌고 블루팀 적기를 위협하는 임무를 맡는다.",
+			say = "참가자는 크게 두 개의 그룹으로 나뉘어. '적'으로서 공중 지원하는 블루 그룹, 그리고 적 공중전력의 무력화를 목표로 하는 혼성 편대가 레드 그룹.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			}
 		},
 		{
-			say = "네~~? 그말은, 우리들중에 누구는 적을 해야한다는 말이에요?",
+			say = "저기, 그러니까 우리 중에서 적 역할을 할 애도 필요하다는 거야?",
 			side = 0,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -109,7 +109,7 @@ return {
 			dir = 1,
 			actor = 107061,
 			nameColor = "#a9f548",
-			say = "바로 그렇다",
+			say = "맞아.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "그럼 누나, 양쪽 사람이 정해진건가요?",
+			say = "그럼 구체적으로 누가 어느 그룹에 들어갈 지는 정해뒀어?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "이번 훈련은 비교적 특별하고, 레드팀은 아직 정해지지 않았기 때문에 레드팀은 지휘관이 직접 선출하겠다.그전에--",
+			say = "레드 그룹의 멤버는 지휘관이 편성한다……..그렇게 정해져 있는데.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "인디펜던스, 레드팀 지휘관은 네가 맡아주길 바란다.",
+			say = "그 리더를 나더러 지정해달라고 해서 말야. 인디펜던스, 부탁할 수 있을까?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			dir = 1,
 			actor = 107221,
 			nameColor = "#a9f548",
-			say = "제가요…하지만 저는 이제 막 함대에 가입했는데, 제가 할수 있을까요?",
+			say = "나? 이 함대에 부속된지 얼마 안 됐는데, 내가 해도 괜찮을까…?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +200,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "하지만, 이건 적응할 수 있는 좋은 기회잖아 안그래?",
+			say = "그래서 부탁 하는 거야. 함대 사람들과 친해지기에 좋은 기회라고 생각하지 않아?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "그렇군요. 알겠습니다, 최선을 다해 임무를 완수 하겠습니다.",
+			say = "그래…알겠어. 전력으로 힘쓰도록 하지.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,7 +233,7 @@ return {
 			blackBg = true,
 			actor = 107221,
 			nameColor = "#a9f548",
-			say = "(이번기회에, 모두에게 나의 실력을 보려주겠어…!)",
+			say = "(그리고 이 연습을 기회로, 나의 실력을 모두에게…!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -249,7 +249,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "그리고 블루팀을 선발하겠다. 블루팀을 맡는 사람은 힘들 수 도 있기 때문에…블루팀은 내가 맡도록 하겠다.",
+			say = "다음으로는, 블루 그룹의 인원 선정인데…그렇지, 연속 전투의 부담과 적 역할의 전력을 상정하면 이 자리는 내가……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,7 +265,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "엔터프라이즈선배, 괜찮으시다면, 제가 블루팀 훈련 담당하게 해주세요",
+			say = "엔터프라이즈 선배. 리더는 제가 하게 해주세요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,7 +281,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "실력이든 전투경험이든, 제가 생각하기엔 적을 상대하기에 충분하다고 생각합니다. 그리고, 저 역시 이번 기회를 통해 함대에서 훈련한 성과를 점검해 보고 싶습니다.",
+			say = "실력이나 전투 실력이나 이번 적 역할에 적임이라고 생각하고, 저 자신의 훈련 성과가 어느 정도인지 시험해보고 싶어요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,7 +297,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "에식스? 하지만--",
+			say = "에식스? 하지만……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,7 +313,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "좋다. 엔터프라이즈, 이번 임무는 후배에게 맡기도록 해, 늘 혼자서 하려고 하지마.",
+			say = "엔터프라이즈, 이번에는 후배에게 맡기는 게 좋겠어. 항상 뭐든 자기가 하려고 하는 것은 좋지 않으니까……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -329,7 +329,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "맞아, 언니, 맨날 나대려고 하지마! 하하",
+			say = "맞아, 엔터프라이즈 언니! 가끔은 다른 사람에게도 활약할 기회를 주는 게 좋아!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -345,7 +345,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…알겠어. 에식스, 이번엔 너에게 맡기지. 구체적인 내용은 잠시 후에 알려줄게 –",
+			say = "…알았어. 그럼 에식스, 블루 그룹의 리더를 부탁할게. 진행 주의점은 나중에 설명하기로 하고……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -361,7 +361,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "전력을 다해 나가자!",
+			say = "……당신의 전력을 보여줘!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -403,7 +403,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "level",
-			say = "훈련 해역",
+			say = "연습 해역",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -436,7 +436,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "그렇군요… 선배로부터 적군 지휘관자리를 뺏었군요.",
+			say = "과연…… 연습전의 '적' 포지션을 엔터프라이즈 씨에게서 가로채 왔군요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -453,7 +453,7 @@ return {
 			dir = 1,
 			actor = 107381,
 			nameColor = "#a9f548",
-			say = "원래 이번 훈련을 관찰하고 기록하는 일만 담당했죠. 하지만 선배가 \"에식스가 도움이 필요할때 전력을 다해 도와줘\"라고 했어요. 에식스, 정말 제가 안도와줘도 되요?",
+			say = "이번 연습에서는 기록 담당이지만, 나도 엔터프라이즈 씨에게 '필요하다면 에식스를 도와줘'라고 부탁을 받았어요. 에식스, 정말 제 도움 필요없어요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -469,7 +469,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "이번은 나 혼자 맡은 책임이야. 나의 한계가 어디인지 시험해보고 싶어…",
+			say = "미안, 이번에는 혼자 하게 해줘. 내 한계가 어디까지인지 알고 싶어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -485,7 +485,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "시간이 거의 다 됐어요.",
+			say = "그렇군요. ……슬슬 시간이네요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -503,7 +503,7 @@ return {
 			soundeffect = "event:/battle/plane",
 			actor = 107091,
 			nameColor = "#ff5c5c",
-			say = "네. 그럼, 함재기, 전부출격!",
+			say = "알려줘서 고마워. ……함재기, 전기 발진!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

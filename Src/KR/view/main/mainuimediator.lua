@@ -686,6 +686,7 @@ function slot0.handleNotification(slot0, slot1)
 	elseif slot2 == CommanderProxy.COMMANDER_BOX_FINISHED then
 		slot0:updateCommanderNotices(true)
 	elseif slot2 == GAME.FETCH_NPC_SHIP_DONE then
+		slot0.viewComponent:stopCurVoice()
 		slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3.items, slot3.callback)
 	elseif slot2 == GAME.MAINUI_ACT_BTN_DONE then
 		slot0.viewComponent:notifyActivitySummary(slot3.cnt, slot3.priority)
@@ -814,7 +815,7 @@ function slot0.playStroys(slot0, slot1)
 		slot9 = slot6.getConfig("config_client").npc[2]
 		slot10 = {
 			function (slot0)
-				if pg.StoryMgr:GetInstance():IsPlayed(slot0) then
+				if slot0 == "" or pg.StoryMgr:GetInstance():IsPlayed(slot0) then
 					slot0()
 				else
 					pg.StoryMgr:GetInstance():Play(slot0, slot0, true, true)

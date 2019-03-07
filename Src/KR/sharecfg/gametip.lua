@@ -369,7 +369,7 @@ pg.gametip = {
 		key = "word_shipState_event"
 	},
 	word_shipState_activity = {
-		tip = "그 캐릭터는 특수 작전부대에 편성중이야 ",
+		tip = "해당 캐릭터는 특수 작전부대에 편성되어 있습니다. ",
 		key = "word_shipState_activity"
 	},
 	word_shipState_sham = {
@@ -2823,7 +2823,7 @@ pg.gametip = {
 		key = "ship_energy_low_warn"
 	},
 	ship_energy_low_warn_no_exp = {
-		tip = "편대중<color=#A9F548FF>$2</color>처하다<color=#D6341D>기분이 안 좋은 상태 </color>，강제 출격하다<color=#D6341D>호감이 떨어지다</color>，계속 ",
+		tip = "함대에 <color=#A9F548FF>$2</color>이(가) <color=#D6341D>지친 상태</color>이며, 강제로 출격하면 <color=#D6341D>호감도가 감소합니다</color>. 그래도 출격하시겠습니까? ",
 		key = "ship_energy_low_warn_no_exp"
 	},
 	test_ship_intensify_tip = {
@@ -3146,42 +3146,83 @@ pg.gametip = {
 		key = "levelScene_chapter_not_open"
 	},
 	levelScene_activate_remaster = {
-		tip = "[개방 티켓]을 소모하여, 해당 이벤트 스테이지를 개방 하시겠습니까? (개방 중인 이벤트는 조기 종료됩니다) ",
+		tip = "<color=#ffff00>데이터 키</color>를 소비하여 상설 복각 이벤트를 개방하시겠습니까? (개방 중인 상설 복각 이벤트는 예정보다 빨리 종료됩니다.) ",
 		key = "levelScene_activate_remaster"
 	},
 	levelScene_remaster_tickets_not_enough = {
-		tip = "入场券数量不足",
+		tip = "데이터 키가 부족합니다. ",
 		key = "levelScene_remaster_tickets_not_enough"
 	},
 	levelScene_remaster_do_not_open = {
-		tip = "해당 항목은 아직 개방되지 않았습니다. 기대해주세요!",
+		tip = "아직 개방되지 않았습니다. ",
 		key = "levelScene_remaster_do_not_open"
 	},
 	levelScene_remaster_help_tip = {
 		key = "levelScene_remaster_help_tip",
 		tip = {
 			{
-				info = "作战档案说明\n作战档案系统是通过研究特殊作战档案，进行模拟作战的系统\n以往的特殊作战的攻略进度不会被继承，需重新攻略 "
+				info = [[
+<color=#A9F548>작전 문서</color> 설명: 
+<color=#A9F548>작전 문서</color>란, 과거 개최된 이벤트 스테이지를 다시 공략
+할 수 있는<color=#A9F548>작전 내역</color>을 일정 시간 동안 개방할 수 있는 아이템입니다.
+<color=#A9F548>작전 내역</color>에 실장되기 전의 과거 플레이한 스테이지의 공략
+ 진척 상황은 이어지지 않습니다.]]
 			},
 			{
-				info = "    \n1. 司令部每日能够提供两份<color=#A9F548>档案密钥</color>，请在每日任务中领取"
+				info = " \n 1.<color=#A9F548>데이터 키</color>는 현재 상황에서는 매일 데일리 임무를 통해 2개를\n입수할 수 있습니다."
 			},
 			{
-				info = "    2.<color=#A9F548>档案密钥</color>存储上限为30份，领取超过存储上限的<color=#A9F548>档案密钥</color>\n将自动消失"
+				info = " 2.<color=#A9F548>데이터 키</color>는 최대 30개까지 소지 가능합니다. 30개를 소지하고 있는\n상태에서 새로 입수한<color=#A9F548>데이터 키</color>는 자동으로 제거됩니다."
 			},
 			{
-				info = "    3.通过消耗<color=#A9F548>档案密钥</color>，可以解锁当前选择的特殊作战15分钟\n的开放权"
+				info = " 3.<color=#A9F548>데이터 키</color> 1개당, <color=#A9F548>작전 내역</color>의 상설 이벤트 하나를,\n15분간 개방할 수 있습니다."
 			},
 			{
-				info = "    4.特殊作战解锁期间，可以出击本作战内可挑战的任意关卡"
+				info = " 4.<color=#A9F548>작전 내역</color>에 실장된 이벤트의 엑스트라 스테이지 이외\n의 스테이지에 도전할 수 있습니다."
 			},
 			{
-				info = "    5.特殊作战解锁时间结束后，已经在关卡战斗地图中的舰队\n不会被强制撤离，可以继续完成该轮作战"
+				info = " 5.스테이지 도전 중에 이벤트 개방 시간이 지나도, 스테이지\n클리어, 퇴각, 작전 시간 종료까지 도전을 계속할 수 있습니다."
+			}
+		}
+	},
+	levelScene_activate_loop_mode_failed = {
+		tip = "해역 위험도 [안전해역] 및 해역★3을 달성하면 주회 모드를 선택할 수 있습니다. ",
+		key = "levelScene_activate_loop_mode_failed"
+	},
+	levelScene_coastalgun_help_tip = {
+		key = "levelScene_coastalgun_help_tip",
+		tip = {
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/coastalgun_1"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/coastalgun_2"
+				}
+			},
+			disableScroll = true,
+			pageMode = true,
+			defaultpage = 1,
+			ImageMode = true,
+			windowSize = {
+				x = 836,
+				y = 740
+			},
+			windowPos = {
+				y = 15
+			},
+			helpSize = {
+				x = 836,
+				y = 660
 			}
 		}
 	},
 	tack_tickets_max_warning = {
-		tip = "所持<color=#ffff00>档案密钥</color>数量达到上限，完成任务后只能获得<color=#D6341DFF>$1</color>份<color=#ffff00>档案密钥</color>，是否确认领取？",
+		tip = "<color=#ffff00>데이터 키</color>의 소지 횟수에는 한계가 있습니다. 임무 보수인 데이터 키는 <color=#D6341DFF>$1</color> 만 입수 가능합니다. 임무 보수를 받으시겠습니까? ",
 		key = "tack_tickets_max_warning"
 	},
 	error_refresh_sub_chapter = {
@@ -4792,7 +4833,9 @@ pg.gametip = {
 						<color=#60a9ff>          Rare</color>：$4%
 						          Normal：$5% 
 
-									]],
+									【한정건조】
+								<color=#966af6>하디</color>：1.4%<color=#A9F548>(up!)</color>
+								<color=#966af6>Z2</color>：1.4%<color=#A9F548>(up!)</color>]],
 		key = "help_build_2"
 	},
 	help_build_4 = {
@@ -6276,7 +6319,7 @@ pg.gametip = {
 		key = "reduce_sp3_pass_count"
 	},
 	qiuqiu_count = {
-		tip = "목표 쥬쥬 갯수：",
+		tip = "목표 기여치：",
 		key = "qiuqiu_count"
 	},
 	qiuqiu_total_count = {
@@ -6441,21 +6484,19 @@ pg.gametip = {
 	},
 	vote_primary_rule = {
 		tip = [[
-<size=20>预选赛</size>
-<size=19>将所有角色随机分为四组，每组进行为期5天的人气投票，根据全服务器投票结果从每个小组中选出3名得票最多的角色，共12名进入决赛阶段</size>
+<size=20>예선</size>
+<size=19> 참가 함선은 4 그룹으로 나뉘며, 한 그룹에 5일간 투표 기간이 개설되어, 그룹 내 상위 3함선(총 12함선)이 본선에 참가할 수 있습니다.</size>
 
-<size=20>决赛投票</size>
-<size=19>预选赛中诞生的12名人气角色，将进行为期10天的决赛投票，该阶段之前累积的投票数量清零</size>
+<size=20>본선</size>
+<size=19>본선에 참가하는 12함선으로 10일간 투표를 거쳐 최종 순위를 결정합니다. 예선의 투표 수는 반영되지 않습니다.</size>
 
-<size=20>活动奖励</size>
-<size=19>将根据决赛排名优先制作角色的誓约换装（如果获得冠军的角色已有誓约换装，原则上誓约制作权顺延一位）</size>
 
-<size=20>选票获取</size>
-<size=19>25级以上玩家每天可以通过活动任务获得选票，普通选票限当天使用
-真爱选票可以保留至决赛，只有当日进行过普通投票的角色，才能进行真爱投票</size>
 
-<size=20>同票规则</size>
-<size=19>当小组赛、决赛最终排名出现影响结果的同票情况时，以最后被投票的角色优先</size>]],
+<size=20>투표에 대해</size>
+<size=19>Lv15이상인 지휘관은 매일 특정한 임무 달성을 통해 일반표를 최대 3표까지 입수할 수 있습니다（일반표는 매일 리셋됩니다.). 
+특별표는 같은 함선에 일반표로 투표한 후에 사용할 수 있는 표입니다. 또한, 특별표는 매일 리셋되지 않으며, 본선까지 모아둘 수 있습니다.
+
+※ 득표 수가 동일한 경우, "마지막에 투표된 캐릭터"가 상위에 랭크됩니다.</size> ]],
 		key = "vote_primary_rule"
 	},
 	vote_final_title1 = {
@@ -6971,7 +7012,7 @@ pg.gametip = {
 		key = "level_risk_level_mitigation_rate"
 	},
 	level_diffcult_chapter_state_safety = {
-		tip = "<size=24>해당 해역을 <color=#A9F548>3☆ 클리어</color> 및 <color=#A9F548>안전해역</color>으로 변경시키면\n출격 함대가 <color=#A9F548>적 중요함대</color>를 직접 공격할 수 있게 됩니다. </size>",
+		tip = "<size=24>해당 해역을 <color=#A9F548>3☆ 클리어</color> 및 <color=#A9F548>안전해역</color>으로 변경시키면\n출격 함대가 <color=#A9F548>적 중요함대</color>를 직접 공격할 수 있게 됩니다. </size> ",
 		key = "level_diffcult_chapter_state_safety"
 	},
 	level_chapter_state_high_risk = {
@@ -8926,52 +8967,50 @@ pg.gametip = {
 		key = "world_boss_help",
 		tip = {
 			{
-				info = "활동설명："
+				info = "이벤트 설명："
 			},
 			{
-				info = " 1. 활동기간, 훈련전투참여, 적을 격파, 시간을 초과하거나 작전\n 실패했을때，훈련전투에 따른 피해 총량에 따라서 작용한다；"
+				info = " 1. 이벤트 기간동안, 훈련 전투 참여, 적군 격파, 시간을 초과하거나\n 작전 실패했을때， 훈련 전투에 따른 총 피해량에 따라서 작용한다；"
 			},
 			{
-				info = " 2. 훈련 전투중，피해를 입힐수록 높아지고，받는 보너스도\n 올라간다，획듣한 기여치에 따라 더 올라간다；"
+				info = " 2. 훈련 전투중，피해를 입힐수록 높아지고，받는 보상도\n 올라간다，획득한 공헌 포인트에 따라 \n 더 올라간다；"
 			},
 			{
-				info = " 3. 활동기간，본서버의 모든 플레이어가 획득한 기여치에 따라,\n 에식스의 연습 거점 내구가 소모된다；"
+				info = " 3. 이벤트 기간，본 서버의 모든 플레이어가 획득한 공헌 포인트에\n 따라, 에식스 의 연습 거점 내구가 소모된다；"
 			},
 			{
 				info = [[
  4. 훈련거점 내구력이 75%,50%,25% 로 떨어졌을 때 내구가
- 완전히 소진된후 본서버의 달성되는 이정표 시간이 기록된다.
- 동시에 연습에 받은 공헌수치를 확득한 플레이어는 보너스를
+ 완전히 소진된 후 본 서버의 달성되는 이정표 시간이 기록된다.
+ 동시에 연습에 받은
+ 공헌 수치를 확득한 플레이어는 보너스를
  받을수 있다.；]]
 			},
 			{
 				info = " 5. 연습 보너스 거점 내구 소진 완료 후 우편을 통해 배부；"
 			},
 			{
-				info = " 6. 활동 종료시 내구력이 소진되지 않았으면, 거점에 따라 진도를\n 따라 추진하여 경험치를 획득한 플레이어는 진도에 따라 보너스를\n 지급합니다.；"
+				info = " 6. 이벤트 종료시 내구력이 소진되지 않았으면, 거점에\n 따라 진도를 따라 추진하여 경험치를 획득한 플레이어는 진도에\n 따라 보상을 지급합니다.；"
 			},
 			{
-				info = " 7. 훈련전투의 출격 대오는 [편대]버튼을 통해 대열을 편성할 수\n 있다，잠수함 휴대와 지휘 고양이 허용；"
-			},
-			{
-				info = [[
- 8. 훈련전투중, 샹그릴라와 인디펜던스를 휴대하면 추가적인 총
- 기여치를 얻는다 더 얻는다. 상그릴라를 가지고 20%의 더 얻는다.
- 인디펜던스를 가지고 10%를 더 얻는다. 동시에 최대 30%의
- 기여값을 추가 얻는다.；]]
-			},
-			{
-				info = " 9. 거점의 내구력이 저하됨에 따라 훈련 전투에서 적의 기함의 피해\n 능력은 향상된다 동시에 받는 포격 벼락 피해, 하지만 항공피해를\n 높일 수 있다.；"
-			},
-			{
-				info = " 10. 활동기간, 개인 공헌 보너스도 받을수 있다. 개인 공헌 보너스\n 거점 공략 진도와 보유기여치가 지정된 요구 사항에 도달한\n 후에 받을 수 있다. ；"
+				info = " 7. 훈련 전투의 출격하는 함선은 [편성]버튼을 통해 대열을 편성할 수\n 있다， 잠수함 추기 및 지휘냥 허용；"
 			},
 			{
 				info = [[
- 활동기간, 개인 공헌 보너스도 받을수 있다. 개인 공헌 보너스
- 거점 공략 진도와 보유기여치가 지정된 요구 사항에 도달한 후에
- 받을 수 있다. 11. 2.28~3.7기간 동안 연습 전투에 참여할 수
- 있다, 보너스 수령 마감은 3.13 ；]]
+ 8. 훈련 전투 중, 샹그릴라와 인디펜던스를 휴대하면 추가적인 총 
+공헌 포인트를 
+ 더 얻는다. 상그릴라를 가지고 20%의 더 얻는다. 인디펜던스를
+ 가지고 10%를 더 얻는다. 동시에 최대 30%의 공헌 포인트를 추가로 
+ 얻는다.；]]
+			},
+			{
+				info = " 9. 거점의 내구력이 저하됨에 따라 훈련 전투에서 적의 기함의 피해\n 능력은 향상된다. 동시에 받는 포격 벼락 피해, 하지만 항공피해를\n 높일 수 있다.；"
+			},
+			{
+				info = " 10. 이벤트 기간 동안, 개인 공헌 보상도 받을수 있다. 개인 공헌 보상\n 거점 공략 진도와 보유 공헌 포인트가 지정된 요구 사항에 도달한\n 후에 받을 수 있다.；"
+			},
+			{
+				info = " 11. 2.28~3.7기간 동안 연습 전투에 참여할\n 수 있다, 보너스 수령 마감은\n 3.13 23:59:59 ；"
 			}
 		}
 	},
@@ -8986,6 +9025,26 @@ pg.gametip = {
 	backyard_is_loading = {
 		tip = "다음 준비중, 잠시만 기다려주세요 ",
 		key = "backyard_is_loading"
+	},
+	levelScene_loop_help_tip = {
+		key = "levelScene_loop_help_tip",
+		tip = {
+			{
+				info = [[
+해역 위협도가<color=#A9F548>"안전해역"</color>이며, 또한 해역<color=#A9F548>☆3 클리어</color>를 달성하면, 
+해역 선택 화면에서 같은 스테이지를<color=#A9F548>"주회 모드"</color>로 설정할 수
+있게 됩니다.
+
+"주회 모드"의 특징은 아래와 같습니다：
+1. 메인 스테이지의 하드 모드 스테이지에서, 적 호위함대가
+<color=#A9F548>출현하지 않게 됩니다</color>.
+2. 이벤트 스테이지의 적 배치 및 행동 로직이 변화합니다.
+3. 이벤트 스테이지에서 아군의<color=#A9F548> 이동 제한이 해제되며</color>, 해역 지도에서 자
+유롭게 이동할 수 있습니다.
+4. 이벤트 "피오르드의 별"에서는 적의 해안방어포가 <color=#A9F548>출현하지 않게
+됩니다</color>.]]
+			}
+		}
 	}
 }
 

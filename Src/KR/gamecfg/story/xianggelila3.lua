@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"기행의 장홍화\n\n<size=30>3 기묘한\"인연\"</size>",
+					"기행의 사프란\n\n<size=30>3 궁합이…찰떡?</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "level",
-			say = "어느 하루·해역훈련",
+			say = "연습 해역에서……",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -53,7 +53,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			say = "전에 약속했듯이 샹그릴라와 에식스는 훈련을 시작했다.",
+			say = "에식스와 샹그릴라의 특훈이 시작되었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "지휘관님도 오셨네요..샹그릴라님. 오늘은 어떤훈련을 진해하죠?",
+			say = "지휘관님, 잘 부탁드립니다. ……샹그릴라, 오늘의 특훈 항목은?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			}
 		},
 		{
-			say = "넵. 그전의 특수 훈련기록에 따라——",
+			say = "그렇군요. 얼마 전 특별 훈련 자료 등에 따르면……",
 			side = 0,
 			bgName = "bg_story_nepu1",
 			dir = 1,
@@ -105,7 +105,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "일반적인 단함전술로 엔터프라이즈 선배님을 대응하면 이기기 힘들것 같네요.",
+			say = "함재기를 단독으로 통상 운용하면 엔터프라이즈 선배에게 이길 확률은 적지만요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,7 +122,7 @@ return {
 			dir = 1,
 			actor = 107381,
 			nameColor = "#a9f548",
-			say = "하지만 저희의 다른 함선과 조합해서 엔터프라이즈 선배님과의 일대일이 아닌 집단 대항방법을 사용하면 아마도 기회가 있을지도 몰라요.",
+			say = "아군과 연계해서 직접 싸우지 않고 집단 전투로 가져가면, 어쩌면 승기를 잡을 수 있을지도 몰라요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "오늘은 일단 제가 생각한 대응조치로 훈련을 시작해봅시다.",
+			say = "먼저 제가 짜온 계획대로 한번 움직여보면 어떨까요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 			dir = -1,
 			actor = 107091,
 			nameColor = "#a9f548",
-			say = "그렇구나..이럴땐 이렇게 공격편성을 분산시키고..",
+			say = "과연…… 이때는 공격대를 이렇게 나눠서……",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -187,7 +187,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "네. 신예기의 운영방법은 엑스님 확실히 엔터프라이즈선배님보다 더 경험이 있으시나본데……",
+			say = "그렇네요. 최신예기 운용에 있어서는 에식스가 승기를 잡을 수 있을테니까요……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			dir = -1,
 			actor = 107091,
 			nameColor = "#a9f548",
-			say = "이렇게하면. 엔터프라이즈선배님의 전술에 대응가능할것 같네요.",
+			say = "좋아! 이걸로 될 것 같…… 응?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			say = "열심히 전술짜는중. 바로 이때——",
+			say = "그때……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,7 +234,7 @@ return {
 			dir = -1,
 			actor = 107071,
 			nameColor = "#a9f548",
-			say = "헤이!",
+			say = "이봐~.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,7 +260,7 @@ return {
 			dir = -1,
 			actor = 107091,
 			nameColor = "#a9f548",
-			say = "와! 호..호넷님…",
+			say = "호, 호넷 선배?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -287,7 +287,7 @@ return {
 			dir = 1,
 			actor = 107381,
 			nameColor = "#a9f548",
-			say = "갑자기 그렇게 놀래키면 안됩니다. 카우걸 아가씨?",
+			say = "호넷 씨, 갑자기 놀라게 하지 말아주세요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +303,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "아하하. 미안미안, 이렇게 열심히 연구하는줄 몰랐네. 아~ 지휘관도 있었네. 뭐 재밌는 일이라도 있냐아~~?",
+			say = "미안 미안! 이렇게까지 집중하고 있을 줄은 몰랐어…… 아, 지휘관님도 있잖아? 뭐 재밌는 거라도 하는 거야?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -319,7 +319,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "저희는 지금 특훈중이예요. 에식스씨와 엔터프라이즈 선배님과의 전투에서 승리하기 위한 특훈.",
+			say = "다음 대항 연습에서 엔터프라이즈 선배에게 이기기 위한 특훈을 하고 있어요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -335,7 +335,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "언니를 이긴다고? 들어보니 완전 재밌군. 제발 나도 껴줘!",
+			say = "엔프라 언니를 이겨? 엄청 재미있겠다! 나도 끼어도 될까?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,7 +351,7 @@ return {
 			dir = -1,
 			actor = 107071,
 			nameColor = "#a9f548",
-			say = "그렇구나… 나쁘진 않네, 그런데… 전체적으로 봤을 때 이 전술이 예전 경험에 너무 치우쳐져있는 것 같지 않아?",
+			say = "흠흠…… 확실히 재미있는 전술이기는 하지만, 왠지 경험론에 너무 의지하는 것 같기도 하네……",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -382,7 +382,7 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "bg_story_nepu1",
-			say = "…경험이 있어야 정확한 결론을 내리죠. 엔터프라이즈 선배님의 실력도 이런 경험을 쌓아서 얻은 결과가 아닐까요?",
+			say = "경험을 기초 삼아 이론이 완성되는 법이죠. 엔터프라이즈 선배의 실력도 수많은 전훈으로 인한 것 아닌가요?",
 			dir = 1,
 			actor = 107381,
 			nameColor = "#a9f548",
@@ -405,7 +405,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "말은 맞긴한데. 임기응변도 있어야 될것같다고 생각해. 음, 예를 들어 플랜B라든가… 나랑 언니도 한땐 예상외의 상황을 맞설때가 많았거든.",
+			say = "그야 물론 그렇긴 하지만. 임기응변이라고 할까, 차선책도 중요해. 그래, 나도 엔터프라이즈 언니도 예상 외의 상황에 휘둘린 적이 꽤 있으니까.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -422,7 +422,7 @@ return {
 			dir = 1,
 			actor = 107381,
 			nameColor = "#a9f548",
-			say = "연습전. 알겠어요. 지휘관님도 계시니 이참에 저희가 지금 전투연습을 예약 해볼까요? 누구의 전략방침이 더 효과적인지.",
+			say = "……이대로는 서로 양보가 없을 것 같고, 어느 쪽의 의견이 옳은지 모의전으로 정하면 어떨까요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -438,7 +438,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "오호? 자신있는 모양이군! 도전장을 보냈는데 거절할 이유가 없지!",
+			say = "오! 그거 참 좋은 생각이네! 대항 연습의 전초전이라는 느낌으로 해볼까?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -454,7 +454,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "그럼 시간은… 3일후에, 재판은… 지휘관님과 에식스씨께 부탁할게요",
+			say = "상관없어요. 그럼 시간은 3일 후, 심판은 지휘관님과 에식스에게 부탁하죠.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -470,7 +470,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "(낮은소리로) 미안해요. 에식스씨 훈련은 아마 잠시 중단해야 할꺼같네요.",
+			say = "(작은 목소리) 에식스, 미안해요. 지금은 제 어리광에 어울려주겠어요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -486,7 +486,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "(낮은소리로) 아하하… 샹그릴라님 열혈적인면도 첨이네요. 잘됐네요. 타인의 전투를 관찰하는것도 일종의 학습이죠. 연습전 화이팅하세요!",
+			say = "(작은 목소리) 알았어. 샹그릴라가 이렇게까지 진지해지다니 별일이네…… 아하하하……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -502,7 +502,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "그럼 3일후 연습장에서 보자! 헤헷~",
+			say = "그럼 이걸로 결정이네! 후후후~♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -517,7 +517,7 @@ return {
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			blackBg = true,
-			say = "뭔가 귀찮은 일에 말려든 것 같다.",
+			say = "왠지 휘말린 듯한 느낌이 든다……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"기행의 장홍화\n\n<size=30>6 전술과 직감의 대결</size>",
+					"기행의 사프란\n\n<size=30>6 비장의 카드는…</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "level",
-			say = "연습당일·연습해역",
+			say = "모의전 당일-연습 해역.",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -51,7 +51,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "준비되셨어요? 샹그릴라님?",
+			say = "샹그릴라, 괜찮아?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "네. 호넷씨에 대한 전술은 이미 준비완료인 상태에요. 나머지는 실전에 투입하는 거 뿐이죠.",
+			say = "만반의 준비를 했어요. 남은 건 실전 응용 뿐.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "흠~ 그럼 이 호넷대인께서 기를 싹 죽여주지.",
+			say = "흐흥, 그렇다면 호넷 님이 코를 꺾어줘야겠네~.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "저도 마찬가지예요. 그럼 온몸으로 이 전술의 중요성을 체험해봅시다!",
+			say = "저야말로, 호넷 씨의 움직임을 읽어 드리겠어요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			dir = 1,
 			actor = 307061,
 			nameColor = "#a9f548",
-			say = "와우~ 불타오른다 불타오른다!",
+			say = "오오! 뭔가 굉장히 불타오르고 있어!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +141,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "어떤 전투일까? 많이 기대되네.",
+			say = "어떤 전투가 될지 기대되네.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "호네엣~ 화이팅~",
+			say = "호넷, 힘내~!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			dir = 1,
 			actor = 107381,
 			nameColor = "#a9f548",
-			say = "선배님… 그리고 여러분, 다 오셨네요.",
+			say = "생각 외로 많은 사람이 관전하러 왔네요……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			dir = -1,
 			actor = 107071,
 			nameColor = "#a9f548",
-			say = "아하하. 의외로 핫매치가 돼버렸네!",
+			say = "아하하하…… 뭐, 모의전이라고 해서 봐주지 않을 거야!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			dir = 1,
 			actor = 107381,
 			nameColor = "#a9f548",
-			say = "그럼… 스타트 신호, 지휘관님께 부탁할께요.",
+			say = "그 점은 피차일반이네요. 잘 부탁해요! 호넷 씨!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			bgName = "bg_story_nepu1",
 			side = 2,
 			dir = 1,
-			say = "스타트 신호에 따라.. 쌍방이 잽싸게 움직이고있다——",
+			say = "전투는 의외로 비등한 양상을 나타내고 있었다.",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -265,7 +265,7 @@ return {
 			soundeffect = "event:/battle/plane",
 			actor = 107071,
 			nameColor = "#a9f548",
-			say = "가자. 함재기들!",
+			say = "함재기들, 공격!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,7 +282,7 @@ return {
 			dir = 1,
 			actor = 107381,
 			nameColor = "#a9f548",
-			say = "기존의 데이터 분석에 의하면. 이번에는 양동 작전일 확률이 90%——",
+			say = "미끼일 확률이 90%…… 이 정도는 파악하고 있다고요……!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +299,7 @@ return {
 			soundeffect = "event:/battle/plane",
 			actor = 107071,
 			nameColor = "#a9f548",
-			say = "칫. 안 속아 넘어가는군… 그럼… 이건 어때!",
+			say = "쳇, 이건 어떠냐!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -315,7 +315,7 @@ return {
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			actor = 107381,
-			say = "이것도… 예상하고 있었어요!",
+			say = "이 정도는……!",
 			flashN = {
 				color = {
 					1,
@@ -363,7 +363,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "호넷이 고전에 빠진거 같은데.",
+			say = "호넷이 밀리고 있네.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -379,7 +379,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "ㅎㅎ… 이번 연습은 아마 전술의 승리가 될 거 같아.",
+			say = "정보전을 한 보람이 있네요. 후후후♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -395,7 +395,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "아직 끝나지 않았어. 결과는 누구도 몰라~",
+			say = "아니, 승패를 판단하기는 아직 일러.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -406,7 +406,7 @@ return {
 			}
 		},
 		{
-			say = "마지막이다!",
+			say = "이 정도로는 샹그릴라에 닿을 수 없다구요……!",
 			side = 2,
 			dir = 1,
 			bgName = "bg_story_nepu1",
@@ -447,7 +447,7 @@ return {
 			soundeffect = "event:/battle/plane",
 			actor = 107071,
 			nameColor = "#a9f548",
-			say = "쳇! 이 호넷 대인을 얕보지 마라!!",
+			say = "미안하지만, 이쪽은 '샹그릴라에서 발진한' 쪽이라고!",
 			effects = {
 				{
 					active = true,
@@ -479,7 +479,7 @@ return {
 			dir = 1,
 			actor = 107381,
 			nameColor = "#a9f548",
-			say = "설마 공격편성을 숨기고 있었어요? ! 흑!!",
+			say = "앗?! 필사적인 폭격 공격이……!",
 			effects = {
 				{
 					active = false,
@@ -498,7 +498,7 @@ return {
 		{
 			side = 2,
 			bgName = "bg_story_nepu1",
-			say = "쿠르릉——",
+			say = "모의전이 일으킨 흰 연기가 해역을 뒤덮었다.",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
 			flashN = {
@@ -548,7 +548,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "이것은……？！",
+			say = "이건……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -564,7 +564,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "마지막으로 피격되기 전, 호넷이 계속 숨기고 있던 함재기를 풀어놓은건가..",
+			say = "착탄 판정이 동시에 들어갔네요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -581,7 +581,7 @@ return {
 			blackBg = true,
 			actor = 107091,
 			nameColor = "#a9f548",
-			say = "결과는……무승부?",
+			say = "무승부……인 건가요……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

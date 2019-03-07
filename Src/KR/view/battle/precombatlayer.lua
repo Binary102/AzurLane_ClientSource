@@ -87,39 +87,32 @@ function slot0.SetStageID(slot0, slot1)
 	removeAllChildren(slot0._spoilsContainer)
 
 	slot0._stageID = slot1
-	slot3 = pg.expedition_data_template[slot1].limit_type
-	slot4 = pg.expedition_data_template[slot1].time_limit
-	slot5 = pg.expedition_data_template[slot1].sink_limit
 
-	for slot10, slot11 in ipairs(slot6) do
+	for slot7, slot8 in ipairs(slot3) do
 		updateDrop(cloneTplTo(slot0._item, slot0._spoilsContainer), {
-			id = slot11[2],
-			type = slot11[1]
+			id = slot8[2],
+			type = slot8[1]
 		})
 	end
 
-	slot7 = findTF(slot0._goals, "goal_tpl")
-	slot8 = findTF(slot0._goals, "goal_sink")
-	slot9 = findTF(slot0._goals, "goal_time")
+	slot4 = findTF(slot0._goals, "goal_tpl")
+	slot5 = findTF(slot0._goals, "goal_sink")
+	slot6 = findTF(slot0._goals, "goal_time")
 
-	if slot3 == 1 then
-		slot10 = nil
+	if limitType == 1 then
+		slot7 = nil
 
-		setWidgetText(slot7, i18n("battle_preCombatLayer_victory"))
-		setWidgetText(slot8, (slot5 >= 2 or i18n("battle_preCombatLayer_undefeated")) and i18n("battle_preCombatLayer_sink_limit", slot5))
-		setWidgetText(slot9, i18n("battle_preCombatLayer_time_limit", slot4))
-	elseif slot3 == 2 then
-		setActive(slot8, false)
-		setActive(slot9, false)
-		setWidgetText(slot7, i18n("battle_preCombatLayer_time_hold", slot4))
-	elseif slot3 == 3 then
-		setActive(slot8, false)
-		setActive(slot9, false)
-		setWidgetText(slot7, i18n("battle_result_defeat_all_enemys", slot4))
-	elseif slot3 == 5 then
-		setActive(slot8, false)
-		setActive(slot9, false)
-		setWidgetText(slot7, i18n("battle_preCombatLayer_damage_before_end"))
+		setWidgetText(slot4, i18n("battle_preCombatLayer_victory"))
+		setWidgetText(slot5, (sinkLimit >= 2 or i18n("battle_preCombatLayer_undefeated")) and i18n("battle_preCombatLayer_sink_limit", sinkLimit))
+		setWidgetText(slot6, i18n("battle_preCombatLayer_time_limit", timeLimit))
+	elseif limitType == 2 then
+		setActive(slot5, false)
+		setActive(slot6, false)
+		setWidgetText(slot4, i18n("battle_preCombatLayer_time_hold", timeLimit))
+	elseif limitType == 3 then
+		setActive(slot5, false)
+		setActive(slot6, false)
+		setWidgetText(slot4, i18n("battle_result_defeat_all_enemys", timeLimit))
 	end
 
 	setActive(slot0.guideDesc, slot2.guide_desc and #slot2.guide_desc > 0)
@@ -363,12 +356,8 @@ function slot0.switchToEditMode(slot0)
 			slot0:swtichToPreviewMode()
 		end)
 	end, SFX_CONFIRM)
-
-	if slot0.contextData.system ~= SYSTEM_HP_SHARE_ACT_BOSS then
-		slot0:EnableAddGrid(Fleet.MAIN)
-		slot0:EnableAddGrid(Fleet.VANGUARD)
-	end
-
+	slot0:EnableAddGrid(Fleet.MAIN)
+	slot0:EnableAddGrid(Fleet.VANGUARD)
 	slot1(slot0._characterList.vanguard)
 	slot1(slot0._characterList.main)
 
@@ -707,7 +696,7 @@ function slot0.enabledCharacter(slot0, slot1, slot2, slot3, slot4)
 					return
 				end
 
-				if slot1.contextData.system ~= SYSTEM_HP_SHARE_ACT_BOSS and (slot1.position.x > UnityEngine.Screen.width * 0.65 or slot1.position.y < UnityEngine.Screen.height * 0.25) then
+				if slot1.position.x > UnityEngine.Screen.width * 0.65 or slot1.position.y < UnityEngine.Screen.height * 0.25 then
 					if not slot1._currentFleetVO:canRemove(slot2) then
 						slot3, slot4 = slot1._currentFleetVO:getShipPos(slot2)
 
@@ -780,7 +769,7 @@ function slot0.displayFleetInfo(slot0)
 end
 
 function slot0.SetFleetStepper(slot0)
-	if slot0.contextData.system ~= SYSTEM_DUEL and slot0.contextData.system ~= SYSTEM_HP_SHARE_ACT_BOSS then
+	if slot0.contextData.system ~= SYSTEM_DUEL then
 		SetActive(slot0._nextPage, slot0._curFleetIndex < #slot0._legalFleetIdList)
 		SetActive(slot0._prevPage, slot0._curFleetIndex > 1)
 	else

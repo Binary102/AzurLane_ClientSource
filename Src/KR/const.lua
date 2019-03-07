@@ -232,7 +232,7 @@ ERROR_MESSAGE = {
 SPECIAL_DATE = {}
 CRI_BG_FLAG = false
 OPEN_ESCORT = false
-OPEN_REMASTER = false
+OPEN_REMASTER = true
 AUTO_LINKLINK = false
 
 return

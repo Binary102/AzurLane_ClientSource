@@ -204,35 +204,49 @@ function slot0.addActivityFleet(slot0, slot1, slot2)
 	end
 
 	slot3 = slot0.activityFleetData[slot1]
+	slot4 = getProxy(BayProxy)
+	slot5 = nil
 
-	for slot7, slot8 in ipairs(slot2) do
-		slot3[Fleet.New(slot8).id] = Fleet.New(slot8)
+	for slot9, slot10 in ipairs(slot2) do
+		slot3[Fleet.New(slot10).id] = Fleet.New(slot10)
+
+		for slot15, slot16 in ipairs(slot10.ship_list) do
+			if not slot4:getShipById(slot16) then
+				slot5 = true
+
+				break
+			end
+		end
 	end
 
-	slot5 = pg.activity_event_worldboss[pg.activity_template[slot1].config_id].group_num
-	slot6 = pg.activity_event_worldboss[pg.activity_template[slot1].config_id].submarine_num
-	slot7 = 0
+	if slot5 then
+		slot0:commitActivityFleet(slot1)
+	end
 
-	while slot5 > slot7 do
-		if slot3[slot7 + 1] == nil then
-			slot3[slot7] = Fleet.New({
-				id = slot7,
+	slot7 = pg.activity_event_worldboss[pg.activity_template[slot1].config_id].group_num
+	slot8 = pg.activity_event_worldboss[pg.activity_template[slot1].config_id].submarine_num
+	slot9 = 0
+
+	while slot7 > slot9 do
+		if slot3[slot9 + 1] == nil then
+			slot3[slot9] = Fleet.New({
+				id = slot9,
 				ship_list = {}
 			})
 		end
 	end
 
-	slot7 = 0
+	slot9 = 0
 
-	while slot6 > slot7 do
-		if slot3[Fleet.SUBMARINE_FLEET_ID + slot7] == nil then
-			slot3[slot8] = Fleet.New({
-				id = slot8,
+	while slot8 > slot9 do
+		if slot3[Fleet.SUBMARINE_FLEET_ID + slot9] == nil then
+			slot3[slot10] = Fleet.New({
+				id = slot10,
 				ship_list = {}
 			})
 		end
 
-		slot7 = slot7 + 1
+		slot9 = slot9 + 1
 	end
 end
 

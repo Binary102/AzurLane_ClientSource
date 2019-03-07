@@ -97,6 +97,8 @@ function slot0.NoneChapterFleetCheck(slot0, slot1, slot2)
 		end
 	elseif slot3 == FleetSkill.TriggerInSubTeam then
 		return true
+	else
+		return false
 	end
 end
 

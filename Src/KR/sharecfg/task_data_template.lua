@@ -3685,6 +3685,38 @@ pg.task_data_template = {
 			}
 		}
 	},
+	[1301] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 1301,
+		type = 36,
+		name = "作战档案-日常",
+		count_inherit = 0,
+		desc = "매일 로그인해서 '데이터 키'를 GET! ",
+		target_id_2 = "",
+		sub_type = 1011,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 1301,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59823,
+				2
+			}
+		}
+	},
 	[2001] = {
 		is_head = 1,
 		guild_coin_award = 0,
@@ -12374,7 +12406,7 @@ pg.task_data_template = {
 		guild_coin_award = 0,
 		award = 5310,
 		type = 5,
-		name = "회상",
+		name = "회상 ",
 		count_inherit = 0,
 		desc = "어뢰 튀김을 3개 제출한다.",
 		target_id_2 = "",
@@ -12408,7 +12440,7 @@ pg.task_data_template = {
 		guild_coin_award = 0,
 		award = 5311,
 		type = 5,
-		name = "동료의 고민",
+		name = "동료의 고민 ",
 		count_inherit = 0,
 		desc = "임의의 함선소녀를 10회 강화한다.",
 		target_id_2 = "",
@@ -12440,7 +12472,7 @@ pg.task_data_template = {
 		guild_coin_award = 0,
 		award = 5312,
 		type = 5,
-		name = "기묘한\"인연\"",
+		name = "궁합이…찰떡? ",
 		count_inherit = 0,
 		desc = "샹그릴라를 포함한 함대를 출격시켜\n20회 승리한다.",
 		target_id_2 = "",
@@ -12472,7 +12504,7 @@ pg.task_data_template = {
 		guild_coin_award = 0,
 		award = 5313,
 		type = 5,
-		name = "전술준비·상",
+		name = "탐문?·상 ",
 		count_inherit = 0,
 		desc = "샹그릴라를 포함한 함대로 데일리 챌린지를\n3회 클리어한다.",
 		target_id_2 = "",
@@ -12504,7 +12536,7 @@ pg.task_data_template = {
 		guild_coin_award = 0,
 		award = 5314,
 		type = 5,
-		name = "전술준비·하",
+		name = "탐문?·하 ",
 		count_inherit = 0,
 		desc = "샹그릴라의 호감도를 100까지 달성한다.",
 		target_id_2 = "",
@@ -12546,7 +12578,7 @@ pg.task_data_template = {
 		guild_coin_award = 0,
 		award = 5315,
 		type = 5,
-		name = "전술과 직감의 저항",
+		name = "비장의 카드는…. ",
 		count_inherit = 0,
 		desc = "샹그릴라의 한계돌파를 3회 진행한다.",
 		target_id_2 = "",
@@ -12588,7 +12620,7 @@ pg.task_data_template = {
 		guild_coin_award = 0,
 		award = 5316,
 		type = 5,
-		name = "최후의 전투 종결",
+		name = "전투가 끝난 후 ",
 		count_inherit = 0,
 		desc = "샹그릴라의 레벨을 100까지 달성한다.",
 		target_id_2 = "",
@@ -36501,6 +36533,682 @@ pg.task_data_template = {
 			}
 		}
 	},
+	[14206] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 90635,
+		type = 36,
+		name = "世界BOSS每日任务",
+		count_inherit = 0,
+		desc = "임무 설명: 특별연습에 5회 참여한다. ",
+		target_id_2 = "",
+		sub_type = 20,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14206,
+		target_num = 5,
+		fix_task = 0,
+		target_id = {
+			1201201,
+			1201202,
+			1201203,
+			1201204,
+			1201205
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59122,
+				300
+			}
+		},
+		scene = {
+			"ACT_BOSS_BATTLE"
+		}
+	},
+	[14207] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90636,
+		type = 6,
+		name = "SP1·通过任务 纳尔维克",
+		count_inherit = 0,
+		desc = "SP1 클리어",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "14208",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1200002,
+		id = 14207,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1200002",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			}
+		}
+	},
+	[14208] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90637,
+		type = 6,
+		name = "SP2·通过任务 纳尔维克",
+		count_inherit = 0,
+		desc = "SP2 클리어",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "14209",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1200003,
+		id = 14208,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1200003",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			}
+		}
+	},
+	[14209] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90638,
+		type = 6,
+		name = "SP3·通过任务 纳尔维克",
+		count_inherit = 0,
+		desc = "SP3 클리어",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1200004,
+		id = 14209,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1200004",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			}
+		}
+	},
+	[14210] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 90639,
+		type = 6,
+		name = "SP1·三星任务 纳尔维克",
+		count_inherit = 0,
+		desc = "SP1의 모든 작전목표(★3)를 달성하라!",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "14211",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1200002,
+		id = 14210,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1200002",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18002,
+				1
+			}
+		}
+	},
+	[14211] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90640,
+		type = 6,
+		name = "SP2·三星任务 纳尔维克",
+		count_inherit = 0,
+		desc = "SP2의 모든 작전목표(★3)를 달성하라!",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "14212",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1200003,
+		id = 14211,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1200003",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18002,
+				2
+			}
+		}
+	},
+	[14212] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90641,
+		type = 6,
+		name = "SP3·三星任务 纳尔维克",
+		count_inherit = 0,
+		desc = "SP3의 모든 작전목표(★3)를 달성하라!",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1200004,
+		id = 14212,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1200004",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18003,
+				1
+			}
+		}
+	},
+	[14213] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 90642,
+		type = 6,
+		name = "纳尔维克临时角色加入",
+		count_inherit = 0,
+		desc = "不该看到",
+		target_id_2 = "",
+		sub_type = 1011,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14213,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				4,
+				201201,
+				1
+			}
+		}
+	},
+	[14214] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 90643,
+		type = 6,
+		name = "纳尔维克sp3累计1",
+		count_inherit = 0,
+		desc = "SP3을 10회 클리어한다.",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 1200004,
+		id = 14214,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "1200004",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18002,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[14215] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 90644,
+		type = 6,
+		name = "纳尔维克sp3累计2",
+		count_inherit = 0,
+		desc = "SP3을 20회 클리어한다.",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 1200004,
+		id = 14215,
+		target_num = 20,
+		fix_task = 0,
+		target_id = "1200004",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18002,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[14216] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 90645,
+		type = 6,
+		name = "纳尔维克sp3累计3",
+		count_inherit = 0,
+		desc = "SP3을 40회 클리어한다.",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 1200004,
+		id = 14216,
+		target_num = 40,
+		fix_task = 0,
+		target_id = "1200004",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18003,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[14217] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 90646,
+		type = 6,
+		name = "纳尔维克sp3累计4",
+		count_inherit = 0,
+		desc = "SP3을 60회 클리어한다.",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 1200004,
+		id = 14217,
+		target_num = 60,
+		fix_task = 0,
+		target_id = "1200004",
+		open_need = {},
+		award_display = {
+			{
+				4,
+				201161,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[14218] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90664,
+		type = 26,
+		name = "纳尔维克猎人好感PT累计1",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "20146",
+		sub_type = 1001,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 120,
+		id = 14218,
+		target_num = 100,
+		fix_task = 0,
+		target_id = "120",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				300
+			}
+		}
+	},
+	[14219] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90665,
+		type = 26,
+		name = "纳尔维克猎人好感PT累计2",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "20146",
+		sub_type = 1001,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 120,
+		id = 14219,
+		target_num = 200,
+		fix_task = 0,
+		target_id = "120",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				300
+			}
+		}
+	},
+	[14220] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90666,
+		type = 26,
+		name = "纳尔维克猎人好感PT累计3",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "20146",
+		sub_type = 1001,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 120,
+		id = 14220,
+		target_num = 350,
+		fix_task = 0,
+		target_id = "120",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				500
+			}
+		}
+	},
+	[14221] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90667,
+		type = 26,
+		name = "纳尔维克猎人好感PT累计4",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "20146",
+		sub_type = 1001,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 120,
+		id = 14221,
+		target_num = 500,
+		fix_task = 0,
+		target_id = "120",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				16013,
+				1
+			}
+		}
+	},
+	[14222] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90668,
+		type = 26,
+		name = "纳尔维克猎人好感PT累计5",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "20146",
+		sub_type = 1001,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 120,
+		id = 14222,
+		target_num = 650,
+		fix_task = 0,
+		target_id = "120",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				16023,
+				1
+			}
+		}
+	},
+	[14223] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90669,
+		type = 26,
+		name = "纳尔维克猎人好感PT累计6",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "20146",
+		sub_type = 1001,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 120,
+		id = 14223,
+		target_num = 800,
+		fix_task = 0,
+		target_id = "120",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				16003,
+				1
+			}
+		}
+	},
+	[14224] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90670,
+		type = 26,
+		name = "纳尔维克猎人好感PT累计7",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "20146",
+		sub_type = 1001,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 120,
+		id = 14224,
+		target_num = 1000,
+		fix_task = 0,
+		target_id = "120",
+		open_need = {},
+		award_display = {
+			{
+				4,
+				201201,
+				1
+			}
+		}
+	},
+	[14225] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 90647,
+		type = 6,
+		name = "序章·通过任务 纳尔维克",
+		count_inherit = 0,
+		desc = "SP0 클리어",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "14207",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1200001,
+		id = 14225,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1200001",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			}
+		}
+	},
 	[30201] = {
 		is_head = 1,
 		guild_coin_award = 0,
@@ -36593,6 +37301,210 @@ pg.task_data_template = {
 			{
 				2,
 				50004,
+				1
+			}
+		}
+	},
+	[31001] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 8138,
+		type = 36,
+		name = "보통표 획득 (건조)",
+		count_inherit = 0,
+		desc = "건조를 1번 시행한다.",
+		target_id_2 = "",
+		sub_type = 30,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 25,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 31001,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59821,
+				1
+			}
+		}
+	},
+	[31002] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 8138,
+		type = 36,
+		name = "보통표 획득 (출격)",
+		count_inherit = 0,
+		desc = "함대를 출격시켜, 15번 승리하라!",
+		target_id_2 = "",
+		sub_type = 20,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 25,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 31002,
+		target_num = 15,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59821,
+				1
+			}
+		}
+	},
+	[31003] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 8138,
+		type = 36,
+		name = "보통표 획득 (의뢰)",
+		count_inherit = 0,
+		desc = "의뢰를 4번 수행한다.",
+		target_id_2 = "",
+		sub_type = 80,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 25,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 31003,
+		target_num = 4,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59821,
+				1
+			}
+		}
+	},
+	[31004] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 8139,
+		type = 6,
+		name = "특수표 획득",
+		count_inherit = 0,
+		desc = "일간 임무 「일반표 획득」을 12번 클리어",
+		target_id_2 = "",
+		sub_type = 91,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 25,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 31004,
+		target_num = 12,
+		fix_task = 0,
+		target_id = {
+			31001,
+			31002,
+			31003
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59822,
+				1
+			}
+		}
+	},
+	[31005] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 8139,
+		type = 6,
+		name = "특수표 획득 2",
+		count_inherit = 0,
+		desc = "일간 임무 「일반표 획득」을 20번 클리어",
+		target_id_2 = "",
+		sub_type = 91,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 25,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 31005,
+		target_num = 20,
+		fix_task = 0,
+		target_id = {
+			31001,
+			31002,
+			31003
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59822,
+				1
+			}
+		}
+	},
+	[31006] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 8139,
+		type = 6,
+		name = "특수표 획득 3",
+		count_inherit = 0,
+		desc = "일간 임무 「일반표 획득」을 1번 클리어",
+		target_id_2 = "",
+		sub_type = 91,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 25,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 31006,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			31001,
+			31002,
+			31003
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59822,
 				1
 			}
 		}
@@ -40217,6 +41129,7 @@ pg.task_data_template = {
 		1132,
 		1141,
 		1201,
+		1301,
 		2001,
 		2011,
 		2012,
@@ -41138,9 +42051,35 @@ pg.task_data_template = {
 		14203,
 		14204,
 		14205,
+		14206,
+		14207,
+		14208,
+		14209,
+		14210,
+		14211,
+		14212,
+		14213,
+		14214,
+		14215,
+		14216,
+		14217,
+		14218,
+		14219,
+		14220,
+		14221,
+		14222,
+		14223,
+		14224,
+		14225,
 		30201,
 		30202,
 		30203,
+		31001,
+		31002,
+		31003,
+		31004,
+		31005,
+		31006,
 		40001,
 		40002,
 		51001,

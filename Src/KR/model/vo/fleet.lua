@@ -49,8 +49,6 @@ function slot0.Ctor(slot0, slot1)
 		slot0.commanderIds[slot6.pos] = slot6.id
 	end
 
-	slot0.skills = {}
-
 	slot0:updateCommanderSkills()
 end
 
@@ -157,6 +155,8 @@ function slot0.findCommanderBySkillId(slot0, slot1)
 end
 
 function slot0.updateCommanderSkills(slot0)
+	slot0.skills = {}
+
 	for slot5, slot6 in pairs(slot1) do
 		for slot10, slot11 in ipairs(slot6:getSkills()) do
 			for slot15, slot16 in ipairs(slot11:getTacticSkill()) do
@@ -218,7 +218,7 @@ function slot0.buildBattleBuffList(slot0)
 end
 
 function slot0.getSkills(slot0)
-	return slot0.skills
+	return slot0.skills or {}
 end
 
 function slot0.getShipIds(slot0)
@@ -247,14 +247,16 @@ function slot0.updateShips(slot0, slot1)
 	slot2 = getProxy(BayProxy)
 
 	for slot6, slot7 in ipairs(slot1) do
-		table.insert(slot0.ships, slot7)
+		if slot2:getShipById(slot7) then
+			table.insert(slot0.ships, slot7)
 
-		if slot2:getShipById(slot7).getTeamType(slot8) == TeamType.Vanguard then
-			table.insert(slot0.vanguardShips, slot7)
-		elseif slot9 == TeamType.Main then
-			table.insert(slot0.mainShips, slot7)
-		elseif slot9 == TeamType.Submarine then
-			table.insert(slot0.subShips, slot7)
+			if slot8:getTeamType() == TeamType.Vanguard then
+				table.insert(slot0.vanguardShips, slot7)
+			elseif slot9 == TeamType.Main then
+				table.insert(slot0.mainShips, slot7)
+			elseif slot9 == TeamType.Submarine then
+				table.insert(slot0.subShips, slot7)
+			end
 		end
 	end
 end

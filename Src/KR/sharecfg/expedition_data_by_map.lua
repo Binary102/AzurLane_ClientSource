@@ -2755,6 +2755,67 @@ pg.expedition_data_by_map = {
 			}
 		}
 	},
+	[1200100] = {
+		map = 1200100,
+		name = "피오르드의 별|| ||CHAPTER SP||S.P. ",
+		bgm = "level02",
+		type = 3,
+		on_activity = 20144,
+		title = "SP",
+		drop_by_map_display = "",
+		enter_story = "",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "map_1200001",
+		cloud_suffix = "",
+		bg = "map_1200001",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 0,
+		clouds_pos = {}
+	},
+	[2200000] = {
+		map = 2200000,
+		name = "노력, 희망과 계획 || ||SP. CHAPTER||SP.",
+		bgm = "level02",
+		type = 3,
+		on_activity = 0,
+		title = "SP",
+		drop_by_map_display = "",
+		enter_story = "UIACT10000",
+		level_limit = 15,
+		uifx = "",
+		guide_id = "",
+		ani_name = "",
+		cloud_suffix = "white",
+		bg = "map_10000",
+		destory_icon_suffix = "blue",
+		animtor = 0,
+		bind_map = 0,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -2818,7 +2879,9 @@ pg.expedition_data_by_map = {
 		1180002,
 		1180011,
 		1180012,
-		1180021
+		1180021,
+		1200100,
+		2200000
 	}
 }
 

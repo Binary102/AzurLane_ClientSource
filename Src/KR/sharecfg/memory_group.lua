@@ -785,6 +785,26 @@ pg.memory_group = {
 			688
 		}
 	},
+	[151] = {
+		title = "피오르드의 별 ",
+		type = 2,
+		id = 151,
+		icon = "title_event",
+		memories = {
+			696,
+			697,
+			698,
+			699,
+			700,
+			701,
+			702,
+			703,
+			704,
+			705,
+			706,
+			707
+		}
+	},
 	[501] = {
 		title = "아카시의 의뢰",
 		type = 3,
@@ -1129,7 +1149,7 @@ pg.memory_group = {
 		}
 	},
 	[540] = {
-		title = "기행의 장홍화 ",
+		title = "기행의 사프란 ",
 		type = 3,
 		id = 540,
 		icon = "title_chara_xianggelila",
@@ -1192,6 +1212,7 @@ pg.memory_group = {
 		148,
 		149,
 		150,
+		151,
 		501,
 		502,
 		510,

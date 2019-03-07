@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"기행의 장홍화\n\n<size=30>2 동료의 고민</size>",
+					"기행의 사프란\n\n<size=30>2 동료의 고민</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "어느 하루·해역훈련",
+			say = "어느 날, 연습 해역.",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -55,7 +55,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "오늘 훈련은 여기까지입니다. 지휘관님. 지휘실로 돌아가셔서 나머지 마무리하시죠---",
+			say = "오늘 해야 할 연습 항목은 여기까지네요. 지휘관님, 슬슬 집무실로 돌아가서 리뷰를……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "좋은아침, 지휘관님. 샹그릴라. 훈련 시찰하시느라 수고하셨어요. 음……",
+			say = "앗, 안녕하세요. 지휘관님, 샹그릴라. ……윽.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,7 +82,7 @@ return {
 			}
 		},
 		{
-			say = "에식스씨구나. 좋은아침.",
+			say = "에식스, 안녕하세요.",
 			side = 0,
 			bgName = "bg_story_nepu1",
 			dir = 1,
@@ -108,7 +108,7 @@ return {
 			withoutActorName = true,
 			actor = 107381,
 			nameColor = "#a9f548",
-			say = "에식스가 말하려다 멈춘 것을 보고 샹그릴라가 먼저 말을 건넸다.",
+			say = "이쪽에서 인사를 건네기도 전에 샹그릴라가 이야기를 꺼냈다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "에식스님…무슨 고민이라도 있어요?",
+			say = "에식스는…… 무슨 고민이라도 있나요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +141,7 @@ return {
 			dir = -1,
 			actor = 107091,
 			nameColor = "#a9f548",
-			say = "그..그건 어떻게 아셨어요?",
+			say = "에? 어떻게 그걸……?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			withoutActorName = true,
 			actor = 107091,
 			nameColor = "#a9f548",
-			say = "금방 에식스의 리액션이 이상하긴했다.",
+			say = "듣고 보니, 확실히 지금의 반응은 좀 신경이 쓰인다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			dir = 1,
 			actor = 107381,
 			nameColor = "#a9f548",
-			say = "후후. 제가 맞춰볼께요. 백영 대형훈련 때문에 걱정하신거 맞죠?",
+			say = "그건 유니온의 항공 대항 연습 때문인가요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,7 +202,7 @@ return {
 			dir = -1,
 			actor = 107091,
 			nameColor = "#a9f548",
-			say = "(낮은소리로) 우와? 혹시 나한테 독심술을 쓴건가요, 샹그릴라?",
+			say = "(작은 목소리로) 독심술이라도 쓰는 건지 매번 놀랍네……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +219,7 @@ return {
 			dir = 1,
 			actor = 107381,
 			nameColor = "#a9f548",
-			say = "(낮은소리로) 반응을 보니, 에식스씨 고민중 80%는 우리의\"선배\"와 뗄 수 없는 관계죠~?",
+			say = "(작은 목소리로) 에식스가 저런 표정을 짓는 건, 엔터프라이즈 선배 때문일 것이 확실하니깐요. 후후후.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -236,7 +236,7 @@ return {
 			dir = -1,
 			actor = 107091,
 			nameColor = "#a9f548",
-			say = "윽..제..제가 말씀드릴께요. 사실은——",
+			say = "크, 크흠! 대단한 일은 아니에요. 실은…….(이러쿵저러쿵)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +262,7 @@ return {
 			dir = 1,
 			actor = 107381,
 			nameColor = "#a9f548",
-			say = "음..다음번 대형훈련전 확실히 엔터프라이즈 선배님을 이길수 있는 방법이라. 정 안되더라도., 최소한 선배님을 크게 놀라야하는데,,,",
+			say = "그렇군요…… 다음 연습 때에 엔터프라이즈 선배를 이기거나, 적어도 놀라게라도 해줄 수 있을 작전……",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -296,7 +296,7 @@ return {
 			dir = 1,
 			actor = 107381,
 			nameColor = "#a9f548",
-			say = "개의치 않는다면. 제가 자그마한 도움이라도 드릴까요?",
+			say = "저라도 괜찮다면 함께 생각해볼래요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -312,7 +312,7 @@ return {
 			dir = -1,
 			actor = 107091,
 			nameColor = "#a9f548",
-			say = "진짜요!? … 어흑!",
+			say = "진짜?! ……크, 크흠!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -338,7 +338,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "마침 저도 기록결과에 대한 전투 부분 이론을 검토해보고 싶었어요, 어떻게 보면 에식스씨도 도움을 주러 오신거죠.",
+			say = "데이터로 정리한 행동 패턴이 과연 어디까지 통용될 지도 검증하고 싶고, 오히려 에식스의 협력을 받고 싶어요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -354,7 +354,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "그럼..잘 부탁드릴께요!",
+			say = "그렇군요…… 알겠어요! 샹그릴라, 고마워요!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -371,7 +371,7 @@ return {
 			bgName = "bg_story_task",
 			actor = 107381,
 			nameColor = "#a9f548",
-			say = "동황에 이런명언이 있죠. \"지피지기면 백전백승\"한다고.",
+			say = "적을 알고 나를 알면, 백전백승'.",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -405,7 +405,7 @@ return {
 			dir = 1,
 			actor = 107381,
 			nameColor = "#a9f548",
-			say = "비록 고전검사이론이지만 엔터프라이즈 선배님을 맞서 정보랑 경험의 중요성은 더 이상 설명할 필요가 없죠",
+			say = "고전적이기는 하지만, 상대가 엔터프라이즈 선배씩이나 되면 더욱 그렇죠.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -421,7 +421,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "일단 지금까지 해왔던 작전기록과 나의\"기록\"을 종합하고……",
+			say = "그렇다면, 지금까지의 작전 데이터와 제 '기록'도 합쳐셔 생각하는 게 좋겠어요……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -437,7 +437,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "맞아요…",
+			say = "확실히……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -454,7 +454,7 @@ return {
 			dir = 1,
 			actor = 107381,
 			nameColor = "#a9f548",
-			say = "넵. 그리고 기록대로 엔터프라이즈 선배님의 전투스타일에 맞서 당신을 위해 특훈을 마련할거예요.",
+			say = "좀 비겁할 지도 모르지만, 이번에는 엔터프라이즈 선배 대책의 특훈이라도 짜보기로 할까요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -471,7 +471,7 @@ return {
 			dir = 1,
 			actor = 107381,
 			nameColor = "#a9f548",
-			say = "아 ~ 지휘관님도 와서 봐주세요. 물론 별거아니에요.",
+			say = "아, 지휘관님도 원하시면 견학하셔도 괜찮아요. 비밀리에 하는 것도 아니니까요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -486,7 +486,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "샹그릴라가 그렇게 말했으면 시간 내서 가봐야지.",
+			say = "모처럼이니 두 사람의 훈련을 나중에 견학하러 가기로 했다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

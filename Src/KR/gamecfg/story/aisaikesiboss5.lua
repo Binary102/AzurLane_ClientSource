@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"특별훈련 에식스급\n\n<size=30>5　최고의 기억</size>",
+					"특별훈련·에식스급\n\n<size=30>5 베스트 메모리즈</size>",
 					1
 				}
 			}
@@ -24,7 +24,7 @@ return {
 			bgm = "story-1",
 			actor = 107061,
 			nameColor = "#a9f548",
-			say = "에식스, 샹그릴라, 인디펜더스, 그리고 훈련 참가한 모두들, 모두 수고했다.",
+			say = "에식스, 샹그릴라, 인디펜던스, 그리고 특별연습에 참가한 멤버들.",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -57,7 +57,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "이번 훈련중, 우리는 함대에 화이트 호크의 항공전술을 보여줬을 뿐만아니라, 많은 귀중한 전투 데이터를 얻었다, 완벽한 성공이라고 할 수 있지.",
+			say = "이번 연습으로 우리는 유니온의 공중전력의 실력을 보여줬을 뿐아니라, 귀중한 전투 데이터를 수집할 수 있었어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "훈련 성공을 위하여, 건배!",
+			say = "그 결과는 대성공이라고 말해도 과언이 아니야. 그럼, 푸르른 자유를 위해……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			dir = 1,
 			actor = 107061,
 			nameColor = "#a9f548",
-			say = "에익스.사실대로, 첨은 적을 상대했을때, 이렇게 맹렬한 공세를직면하리라고는 전혀 예상하지 못 했어…하지만 너가 완벽히 임무를 완수해줬구나.",
+			say = "에식스가 적 역할을 자청했을 때, 솔직히 이렇게까지 엄청난 공격을 연달아 하리라고는 생각하지 못했어. ……뭐, 덕분에 연습의 목적을 달성할 수 있었지.",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -143,7 +143,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "무척 훌륭하다!",
+			say = "정말, 감탄했어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			dir = 1,
 			actor = 107091,
 			nameColor = "#a9f548",
-			say = "저,저는 제 몫을 했을뿐입니다… 선배라면 분명 저보다 더 잘 하실 수 있으실거에요!",
+			say = "마, 맡은 바 임무를 수행했을 뿐입니다! 엔터프라이즈 선배라면 훨씬……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "하하하, 겸손할 필요없어, 이번 가장 큰 공신은 바로 너야.",
+			say = "그렇게 겸손하지 않아도 돼. 이번 연습의 최고 공로자는 너야.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			bgName = "bg_story_task",
 			actor = 107381,
 			nameColor = "#a9f548",
-			say = "맞다, 훈련기록 과정중에 사진을 많이 찍었어. 다 같이 한번 볼까?",
+			say = "이번 연습 중에 기록용 사진을 찍었는데, 같이 보지 않을래요?",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -226,7 +226,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "",
+			say = "오오! 이게 그 '컬렉션'이라는 그거야?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "뒷면애 글씨를 쓴거 같군…\"행장 준비를 하고 출발준비를 하는 에식스\". 으흠…이사진은 확실히 느낌있어보이는군.",
+			say = "사진 뒤에 메모가 적혀 있네…… '출격 준비를 마친 멋진 에식스'. 흠, 딱 그 말 그대로네.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			dir = 1,
 			actor = 107091,
 			nameColor = "#a9f548",
-			say = "저, 정말로요?!",
+			say = "그, 그런가요?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -276,7 +276,7 @@ return {
 			dir = 1,
 			actor = 107091,
 			nameColor = "#a9f548",
-			say = "(약간 부끄럽다)",
+			say = "(부끄러워!!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,7 +292,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "그리고 이거는 인디펜던스,\"총에 맞는 인디펜던스\"…",
+			say = "이건 인디펜던스네. 어디 보자…… '탄환에 맞아 데미지 컨트롤을 서두르는 인디펜던스'……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -309,7 +309,7 @@ return {
 			dir = 1,
 			actor = 107221,
 			nameColor = "#a9f548",
-			say = "정말 죄송해요, 모두에게 못 볼걸 보여줬네…",
+			say = "……보기 흉한 모습을 보였어……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -325,7 +325,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "이사진은,\"한가한 카우보이 아가씨\"…? 게으름 피우고 있는것 같네…",
+			say = "느긋하게 있는 호넷 씨'? 여기 '(농땡이 의혹)'은……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -341,7 +341,7 @@ return {
 			dir = 1,
 			actor = 107071,
 			nameColor = "#a9f548",
-			say = "",
+			say = "농땡이 안 부렸다니까!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -367,7 +367,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "그리고\"몰래 장난치는 사라토가\"내쫒고 있는 요크타운\"먼곳의 엔터프라이즈를 바라보다\"…",
+			say = "간계를 꾸미는 듯한 새러토가 씨', '구축함들을 이끄는 요크타운 씨', '수평선 너머를 바라보는 엔터프라이즈 씨'……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -383,7 +383,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "찍은 사진이 엄청 많아요, 대단해요…",
+			say = "아직 이렇게나 많이 있네……꽤 힘들었겠어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -399,7 +399,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "어디까지나 훈련 세부 기록하는게 내가 맡은 역할이였으니까.",
+			say = "아니에요. 기록 담당자로서 당연한 일이니까요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -416,7 +416,7 @@ return {
 			dir = 1,
 			actor = 107381,
 			nameColor = "#a9f548",
-			say = "그럼, 훈련 마지막 기록으로, 우리 다같이 사진한장 찍는거 어때?",
+			say = "그리고 아직 찍지 않은 마지막 한장은…… 그렇지. 마지막으로 연습 참가자 전원의 단체 사진은 어떨까요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -432,7 +432,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "그래, 모두들 집중해봐---",
+			say = "좋아. 다들, 단체 사진 찍지 않을래?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -449,7 +449,7 @@ return {
 			dir = 1,
 			actor = 107221,
 			nameColor = "#a9f548",
-			say = "잠깐 잠시만요, 왜 제가 앞에서야히죠…",
+			say = "우왓? 왜 내가 제일 앞에?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -476,7 +476,7 @@ return {
 			dir = 1,
 			actor = 107381,
 			nameColor = "#a9f548",
-			say = "너가 레드팀 대장인데, 대장이 맨 앞에 없어서 되겠나. 에식스도, 빨리와.",
+			say = "레드 그룹의 리더잖아, 가장 앞에 서야지. 에식스도 이쪽으로 와줘.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -492,7 +492,7 @@ return {
 			dir = 1,
 			actor = 107381,
 			nameColor = "#a9f548",
-			say = "그럼, 셋, 둘, 하나---",
+			say = "자, 3, 2, 1……",
 			flashout = {
 				dur = 0.2,
 				black = true,
@@ -523,7 +523,7 @@ return {
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
-			say = "찰칼",
+			say = "(찰칵)",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -555,7 +555,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "이렇게해서, 이번 훈련도 완벽하게 끝났다.",
+			say = "이렇게 해서 유니온의 특별연습은 막을 내렸다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

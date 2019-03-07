@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"기행의 장홍화\n\n<size=30>1　추억</size>",
+					"기행의 사프란\n\n<size=30>1 회상</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "아침·지휘실",
+			say = "아침, 집무실.",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -49,7 +49,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "비서함대 샹그릴라와 함께 작업 중",
+			say = "비서함인 샹그릴라와 함께 작업을 하고 있었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,7 @@ return {
 			dir = 1,
 			actor = 107381,
 			nameColor = "#a9f548",
-			say = "——무슨일이시죠?",
+			say = "……뭔가 곤란한 일이라도 있으신가요…?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			},
 			options = {
 				{
-					content = "사실…",
+					content = "실은……",
 					flag = 1
 				}
 			}
@@ -88,7 +88,7 @@ return {
 			optionFlag = 1,
 			actor = 107381,
 			nameColor = "#a9f548",
-			say = "그렇구나, 어제 저녁 체크하신 부분파일을 어디에다 두셨는지 까먹으셨군요 ",
+			say = "그렇군요, 어젯밤 확인한 서류를 어디에 뒀는지 잊으셨군요. ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			dir = 1,
 			actor = 107381,
 			nameColor = "#a9f548",
-			say = "알겠어요. 일단 진정하시구요. 제가 지휘관님께 안정효과가 있는 초약차를 준비했어요. 드세요.",
+			say = "허둥지둥해도 아무것도 변하지 않으니, 일단은 진정하세요. 사프란티를 준비했으니, 먼저 이거라도 드세요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			dir = 1,
 			actor = 107381,
 			nameColor = "#a9f548",
-			say = "——지금 그 파일이 대략 어떤 특성이 있으신지 기억하실수 있어요?",
+			say = "……혹시 그 서류에 특징이 있다면 가르쳐주시겠어요?",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -154,7 +154,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "레드색 라벨 있고, 제본 있고, 서명 완료 했고, 도장 찍힌 문서가 없네요..?",
+			say = "빨간 라벨이 붙어 있다', '제본, 사인 완료', '날인만 안 찍혀 있다'……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,7 +170,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "저의 기억이 틀리지 않았다면. 아마 여기 좌측 세번째 폴더안에 있을거에요. 왜냐면 지휘관님께서 어제 당부하셨거든요 오늘 지휘부에 보내드려야된다고 그래서 제가 기억해 뒀어요.",
+			say = "제 기억이 틀림없다면, 그 문서는 여기 왼쪽에서 세번째 폴더에 있을 거예요. 아마도 오늘 우편을 보낼 예정이었는데……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "..이래저래. 샹그릴라가 비서함대 직위를 맡은 후 그녀의 \"기록\"이 우리 업무에 큰 도움을 선사했다.",
+			say = "이런 이유로 샹그릴라를 비서함으로 임명한 이후, 이렇게 그녀의 '기록'에 여러 차례 도움을 받았다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			dir = 1,
 			actor = 107381,
 			nameColor = "#a9f548",
-			say = "……알고보면 이 항구에 온 후 정말 많은 친구를 알게 되었어.",
+			say = "……생각해보니 여기 모항으로 온 이래로, 많은 동료와 만났네요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "네. 지휘관님도 아시다시피 저는 참여하는것보다 기록관찰을 더 즐기는 타입이라..",
+			say = "그렇죠, 지휘관님도 알고 계시죠? 저는 굳이 따지자면 밖에서 관찰하기를 좋아하는 타입이라……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,7 +234,7 @@ return {
 			withoutActorName = true,
 			actor = 107381,
 			nameColor = "#a9f548",
-			say = "샹그릴라는 스스로 항상 챙기고있는 사진첩에서 사진 한장을 꺼냈다.",
+			say = "샹그릴라는 앨범을 가져와서 한 장의 사진을 꺼냈다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +245,7 @@ return {
 			},
 			options = {
 				{
-					content = "가까이 본다",
+					content = "사진을 들여다본다.",
 					flag = 1
 				}
 			}
@@ -257,7 +257,7 @@ return {
 			optionFlag = 1,
 			actor = 107381,
 			nameColor = "#a9f548",
-			say = "이름은\"친구\". 뒷면의 글씨는\"샹그릴라. 첨으로 화를 낸 결과\"",
+			say = "제목은 '동료', 메모는 '샹그릴라, 처음으로 토라졌을 때의 상황'.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,7 +273,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "처음엔 그냥 에식스를 도울 수 만 있었으면 좋겠어…",
+			say = "처음에는 일단은 에식스를 도와야겠다는 생각 뿐이었는데……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -289,7 +289,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "결국 사소한 일땜에 끝까지 파고들고. 그 노력이 어떻게보면 에식스 자신을 놀라게 할 정도였지.",
+			say = "이유를 잊어버릴 정도로 작은 일에 열중해서, 그랬더니 에식스도 놀라울 정도로 열심히 해줘서……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -306,7 +306,7 @@ return {
 			dir = 1,
 			actor = 107381,
 			nameColor = "#a9f548",
-			say = "지금 생각해보면 아주 웃겼어. 후후",
+			say = "지금 생각해보면 정말 이상하네요. 후후후.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,7 +320,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "그녀가 말했듯이 그녀가 처음에 모항에 왔을때 확실히 그런 행동과 동기가 \"에식스\"느낌이였다.",
+			say = "분명, 모항에 갓 착임했었던 그녀는, 뭐든 하나부터 열까지 '에식스'에게 신경을 썼었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -335,7 +335,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "그녀가 이 모항에 온지 시간이 꽤 됐던 일이였다.",
+			say = "그런 그녀의 다른 일면을 안 것은, 그녀가 모항에 착임하고 얼마 안 되었을 무렵의 일이었다……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

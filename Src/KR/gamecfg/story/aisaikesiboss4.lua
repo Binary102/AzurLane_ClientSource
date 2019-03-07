@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"특별훈련 에식스급\n\n<size=30>4　노력의 목표</size>",
+					"특별훈련·에식스급\n\n<size=30>4 목표, 그리고 노력</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "오늘의 훈련도 막을 내렸다",
+			say = "특별연습도 한창 막바지에 들어가는 중에……",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -55,7 +55,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "에식스 언니, 잠깐 볼 수 있을까?",
+			say = "에식스 씨, 하나 물어봐도 될까?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "무슨 일 이야?",
+			say = "인디펜던스? 물어보세요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			dir = 1,
 			actor = 107221,
 			nameColor = "#a9f548",
-			say = "그게… 에식스는 언니는 \"강해진다\"라는걸 어떻게 생각해?",
+			say = "응, 에식스 씨. 저기, '강해지려면' 어떻게 해야 할까?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			dir = 1,
 			actor = 107221,
 			nameColor = "#a9f548",
-			say = "이번 훈련, 내 생각에 나는 아직 잘 하지도 못하고 실력에 부족한점이 있어. 모두들 다 에식스 언니를 칭찬하고있고, 그래서 물어보고 싶어…이런 것들에 대해서.",
+			say = "나는 항상, 내 자신의 약함을 어떻게 극복해야 좋을지 고민하고 있어. 여기 모항 사람들의 칭찬이 자자한, 적 역할의 에식스 씨의 의견을 듣고 싶어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,7 +122,7 @@ return {
 			dir = -1,
 			actor = 107091,
 			nameColor = "#a9f548",
-			say = "정,정말로?",
+			say = "그, 글쎄……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			blackBg = true,
 			actor = 107091,
 			nameColor = "#a9f548",
-			say = "(사람들에게 인정받는 느낌, 의외로..괜찮,다)",
+			say = "(……매번 엔터프라이즈 선배와 비교되기 일쑨데, 이렇게 단독으로 평가 받는 것도 의외로…… 나쁘지 않네.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			bgName = "bg_story_outdoor",
 			actor = 107381,
 			nameColor = "#a9f548",
-			say = "좋아, 이 사진은 \"칭찬 받아서 기쁜 마음을 감출 수 없는 에식스\"지?",
+			say = "음, 이 사진은 '칭찬을 받아서 얼굴이 풀어질 수밖에 없는 에식스'면 되겠지.",
 			flashout = {
 				dur = 0.1,
 				black = false,
@@ -190,7 +190,7 @@ return {
 			dir = -1,
 			actor = 107091,
 			nameColor = "#a9f548",
-			say = "상, 샹그릴라! 언제 왔어, 아니, 이런 부끄러운 사진은 찍지 말라고!",
+			say = "샹그릴라?! 어느새?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,7 +214,7 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "bg_story_outdoor",
-			say = "이런건 소중한 \"기록\"이야. 그것보다, 먼저 문제있는\"학생\"부터 해결해야지, 에식스\"선생님\"?",
+			say = "아하하하…… 이런 중요한 순간이야말로 '기록'해야지. 그것보다…… 인디펜던스 씨의 질문에 대답하지 않아도 괜찮아? '에식스 선생님'?",
 			dir = 1,
 			actor = 107381,
 			nameColor = "#a9f548",
@@ -238,7 +238,7 @@ return {
 			dir = -1,
 			actor = 107091,
 			nameColor = "#a9f548",
-			say = "아,아아…제가 생각하기엔, 자기의\"목표\"를 세우는 것도 괜찮은 것 같아요.",
+			say = "크흠! ……우선은 '목표'를 설정하는 게 좋아.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -264,7 +264,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "\"목표\"?",
+			say = "목표?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -280,7 +280,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "맞아. 내 생각엔 확실한 목표를 세운다면 자신을 끌어올리는데 더 큰 도움이 될거야",
+			say = "그래, 명확한 목표만 있다면, 노력할 때 훨씬 효율이 잘 나오잖아.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,7 +297,7 @@ return {
 			dir = 1,
 			actor = 107221,
 			nameColor = "#a9f548",
-			say = "그렇구나…하지만, 어떤걸 목표로 해야할까…",
+			say = "그렇다면, 나는 대체 무엇을 목표로 정해야 하지……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -314,7 +314,7 @@ return {
 			dir = 1,
 			actor = 107381,
 			nameColor = "#a9f548",
-			say = "예를들어…에식스가 제일 존경하는 선배도 큰 목표인데 엔터프라이즈 언니 어때?",
+			say = "에식스가 가장 존경하고, 가장 뛰어넘고 싶은 목표인 엔터프라이즈 씨는 어때?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -331,7 +331,7 @@ return {
 			dir = -1,
 			actor = 107091,
 			nameColor = "#a9f548",
-			say = "와와?!----아아아, 응…언니는 제가 제일 존경하는 선배에요, 또 제가 넘고 싶은 대상이기도 해요.",
+			say = "?! 그, 그래…… 확실히 엔터프라이즈는 가장 존경하는 선배면서, 가장 뛰어넘고 싶은 사람이지만……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -357,7 +357,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "하지만, 항구 안에는 뛰어난 사람들이 적지않아요. 선배가 숙적이라고 부르는 사쿠라의 항공모함 실력도 너무 강해요, 언젠가 그녀와도 승부를 가려야 하겠죠.",
+			say = "하지만, 이 모항에는 그 외에도 강한 분들이 많이 있어. 예를 들어 사쿠라 엠파이어에서 선배의 라이벌인 즈이카쿠 씨도 꽤 실력자고, 로열네이비의 아크로열 씨도 상당한 고수라고 들었어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -374,7 +374,7 @@ return {
 			dir = -1,
 			actor = 107091,
 			nameColor = "#a9f548",
-			say = "다른 시각으로 보면, 사실 선배 말고, 다른 선배들에게도 배울게 많다는 것을 알 수 있죠",
+			say = "엔터프라이즈 선배 외에도, 내가 뛰어넘을 보람이 가장 큰 목표는 분명 있을 거야. 잘 살펴보면 말이야.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -390,7 +390,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "물론, 저의 최종 목표는 선배와 완벽한 공감대를 형성하는거지…바로 이런\"목표\"가 있기 때문에, 저는 끊임없이 저를 향상시킬 수 있어요",
+			say = "뭐 나는 아무리 살펴봐도, 엔터프라이즈 선배야말로 내가 가장 인정을 받고 싶은 상대라는 것은 변하지 않았지만……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -407,7 +407,7 @@ return {
 			dir = 1,
 			actor = 107381,
 			nameColor = "#a9f548",
-			say = "정말 에식스 너 밖에 할 수 없는 말이다~ 하지만 인디펜던스 상황으로 봤을땐, 사실 너 이미 답을 알고있지?",
+			say = "에식스답네. 후후후. 단지, 나는 인디펜던스 씨는 처음부터 '강해지는 방법'을 알고 있을 거라고 생각해요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -423,7 +423,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "자신이 부족하다는 것을 인지하고, 적극적으로 다른 사람들에게 도움을 받는다면, 조금씩 성장해갈거야---",
+			say = "단점을 인정하고 보완하려는 발상, 타인에게 생각을 묻고 자신의 성장을 중요시하는 향상심……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -440,7 +440,7 @@ return {
 			dir = 1,
 			actor = 107381,
 			nameColor = "#a9f548",
-			say = "전에도 말했듯이, 인디펜던스씨, 너무 마음을 조급한거 아니야?",
+			say = "초조해하지만 않으면, 분명 멋진 성과를 얻을 수 있을 거예요. 인디펜던스 씨.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -456,7 +456,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "네…처음엔 이번 훈련을 통해 저의 실력을 보여 드리고 싶었어요, 하지만 제가 너무 쉽게 생각했던거 같아요.",
+			say = "알겠어. 충고해줘서 고마워.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -473,7 +473,7 @@ return {
 			dir = 1,
 			actor = 107221,
 			nameColor = "#a9f548",
-			say = "（(가야 할 길이…아직 멀었구나)",
+			say = "에식스 씨, 샹그릴라 씨, 내일 연습도 잘 부탁해.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -490,7 +490,7 @@ return {
 			dir = 1,
 			actor = 107221,
 			nameColor = "#a9f548",
-			say = "",
+			say = "(수확이 있었어…… 응, 이렇게 물어보고 다녀서 정말 다행이야.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -508,7 +508,7 @@ return {
 			blackBg = true,
 			actor = 107221,
 			nameColor = "#a9f548",
-			say = "(역시 덴버가 말했듯이, 많은 동료들과 교류하는 것이 좋겠구나…)",
+			say = "(덴버의 말대로 역시 다른 사람과도 잘 대화하는 게 좋겠어……)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

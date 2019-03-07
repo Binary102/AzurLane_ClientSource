@@ -21747,6 +21747,68 @@ pg.bullet_template = {
 		},
 		push_power = {}
 	},
+	[19990] = {
+		range_offset = 20,
+		modle_ID = "Torpedo01",
+		type = 3,
+		antisub_enhancement = 0,
+		nobreakdown_sfx = "",
+		alert_fx = "TorAlert",
+		nobreakdown_fx = "huohua",
+		out_bound = 0,
+		miss_fx = "",
+		miss_sfx = "",
+		hit_fx = "TorpedoHit3",
+		range = 100,
+		effect_type = 1,
+		hit_sfx = "battle/torpedo-hit",
+		track_fx = "",
+		pierce_count = 0,
+		ammo_type = 4,
+		id = 19990,
+		velocity = 3,
+		damage_type = {
+			0.8,
+			1,
+			1.3
+		},
+		DMG_font = {
+			{
+				3,
+				0.8
+			},
+			{
+				3,
+				1
+			},
+			{
+				3,
+				1.3
+			}
+		},
+		acceleration = {},
+		cld_box = {
+			1.8,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		hit_type = {
+			time = -1,
+			range = 3
+		},
+		attach_buff = {},
+		extra_param = {
+			diveFilter = {
+				2
+			}
+		},
+		push_power = {}
+	},
 	[20001] = {
 		range_offset = 20,
 		modle_ID = "newBullet2",
@@ -34940,7 +35002,7 @@ pg.bullet_template = {
 	},
 	[73011] = {
 		range_offset = 10,
-		modle_ID = "BulletUK",
+		modle_ID = "Bullet1",
 		type = 1,
 		antisub_enhancement = 0,
 		nobreakdown_sfx = "",
@@ -34950,36 +35012,36 @@ pg.bullet_template = {
 		miss_fx = "ShellMiss",
 		miss_sfx = "battle/sink",
 		hit_fx = "pofang",
-		range = 80,
+		range = 100,
 		effect_type = 1,
 		hit_sfx = "battle/hit",
 		track_fx = "",
 		pierce_count = 0,
-		ammo_type = 1,
+		ammo_type = 2,
 		id = 73011,
-		velocity = 3,
+		velocity = 18,
 		damage_type = {
-			1,
-			0.8,
-			0.6
+			0.9,
+			0.7,
+			0.4
 		},
 		DMG_font = {
 			{
-				1,
+				2,
 				1
 			},
 			{
-				1,
-				1
+				2,
+				0.9
 			},
 			{
-				1,
-				1
+				4,
+				0.8
 			}
 		},
 		acceleration = {
 			{
-				u = 0.1,
+				u = 0.035,
 				flip = false,
 				v = 0,
 				t = 0
@@ -85660,6 +85722,7 @@ pg.bullet_template = {
 		19987,
 		19988,
 		19989,
+		19990,
 		20001,
 		20002,
 		20003,

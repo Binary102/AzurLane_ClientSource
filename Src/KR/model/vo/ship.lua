@@ -1690,7 +1690,7 @@ slot6 = {
 		inElite = 0,
 		inFleet = 1,
 		inClass = 2,
-		inActivity = 2,
+		inActivity = 0,
 		inTactics = 2,
 		inBackyard = 2
 	},
@@ -1725,7 +1725,7 @@ slot6 = {
 		inBackyard = 2
 	},
 	inActivity = {
-		inEvent = 2,
+		inEvent = 0,
 		inChapter = 2,
 		inElite = 2,
 		inFleet = 2,

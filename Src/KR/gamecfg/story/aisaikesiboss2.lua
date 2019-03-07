@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"특별훈련 에식스급\n\n<size=30>2　인디펜던스의 분투</size>",
+					"특별훈련·에식스급\n\n<size=30>2 출격 인디펜던스</size>",
 					1
 				}
 			}
@@ -25,7 +25,7 @@ return {
 			bgm = "level",
 			actor = 107221,
 			nameColor = "#a9f548",
-			say = "아… 상상했던 것 보다 더 어려워…",
+			say = "큭…… 생각보다 함대 연계가 어렵네……",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -58,7 +58,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "함재기의 지휘… 오늘의 상태…좋아야 할 텐데…",
+			say = "함재기 조작에도, 내 컨디션에도 문제는 없어…… 그런데도……!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			dir = 1,
 			actor = 107221,
 			nameColor = "#a9f548",
-			say = "역시 아직 경항공모함은 한계인가?",
+			say = "역시 경항공모함의 지휘운용에는 한계가 있다는 건가……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			}
 		},
 		{
-			say = "인디펜던스씨, 잠시만 실례해도 될까요?",
+			say = "인디펜던스 씨, 잠깐 괜찮을까요?",
 			side = 1,
 			bgName = "bg_story_nepu1",
 			dir = -1,
@@ -111,7 +111,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "당신은 기록을 맡은…샹그릴라씨?",
+			say = "당신은 기록 담당자…… 샹그릴라 씨?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -128,7 +128,7 @@ return {
 			dir = -1,
 			actor = 107381,
 			nameColor = "#a9f548",
-			say = "맞아요. 좀 무례할 수도 있지만 제가..제가 인디펜던스씨를 분석해 드릴게요, 당신은 훈련중 몇가지 문제점을 가지고 있어요 .",
+			say = "네, 죄송하지만 관찰자로서 인디펜던스 씨가 지금 직면한 문제를 분석했는데……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "당신은 함재기 조작은 문제가 없어요, 하지만…경계 기군의 위치는 너무 앞쪽이어서, 다른 부대와 떨어져있고 심지어 레이더 초함과도 동떨어져 있어요.",
+			say = "함재기의 조작 자체는 문제가 없지만, 직접엄호대의 배치가 너무 앞으로 나갔고 감시역의 함선과도 너무 떨어져 있어요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			dir = -1,
 			actor = 107381,
 			nameColor = "#a9f548",
-			say = "인디펜던스씨, 당신 좀… 너무 성급한거 아니에요? 계속 이런식으로 전투를 한다면 아마 그 다음엔 더 힘들어 질거에요.",
+			say = "혹시…… 초조해하는 거 아닌가요? 이대로 적과 접촉하면 큰일이 날 것 같아요……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,7 +178,7 @@ return {
 			dir = 1,
 			actor = 107221,
 			nameColor = "#a9f548",
-			say = "너무… 성급하다고요…? 네… 알겠습니다. 알려줘서 고마워요..",
+			say = "내가 초조해 한다고? 알았어. 충고 고마워.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "저는 아직 임무가 남아있으니. 먼저 갈께요.",
+			say = "아니요. 그럼 저는 이만.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,7 +210,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "부대와 떨어져있다라..",
+			say = "동료와의 연계라……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 			dir = 1,
 			actor = 107221,
 			nameColor = "#a9f548",
-			say = "(하지만, 어떻게 하면 부대와 다 같이 잘 조합 할 수 있지…)",
+			say = "(에식스를 상대한다면 확실히 그게 중요하지. 하지만 어떻게……)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,7 +243,7 @@ return {
 			dir = 1,
 			actor = 102091,
 			nameColor = "#a9f548",
-			say = "오 인디펜던스! 어떻게 혼자 여기 있니, 방금 훈련한거 고민하는거야?",
+			say = "오? 인디펜던스? 뭐 고민이라도 있어?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			dir = 1,
 			actor = 107221,
 			nameColor = "#a9f548",
-			say = "(크리푸만…? 아아…그녀한테 도움을 청해야하나… 초함인 그녀에게 무슨 다른 속셈이 있을지 몰라…)",
+			say = "(클리블랜드……? 여기선 순순히 물어보는 것이 좋겠지? 네임쉽인 그녀라면 뭔가 팁을 줄 것 같아.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "사실은 그렇습니다…",
+			say = "실은……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -304,7 +304,7 @@ return {
 			bgm = "story-1",
 			actor = 102091,
 			nameColor = "#a9f548",
-			say = "아아, 다른 부대와의 조합문제야?",
+			say = "그렇군, 동료와 연계를 하는 법이라……",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -337,7 +337,7 @@ return {
 			dir = 1,
 			actor = 102091,
 			nameColor = "#a9f548",
-			say = "글쎄…",
+			say = "그야……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -363,7 +363,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "언니도 답을 모르지? 어쩜 매번 언니도 맨앞에있는 거잖아. 아하하",
+			say = "그건 클리블랜드 언니도 잘 모르지 않아? 왜냐면 맨날 기세등등해서 나서니까. 헤헤헤.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -379,7 +379,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "상관없어, 언니는 머리가 최강이, 저런 적든은 언니 머리로도 해결 할 수 있어.",
+			say = "문제 없어. 최강의 클리블랜드 언니라면 혼자서도 적을 모두 이겨낼 거야.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -395,7 +395,7 @@ return {
 			dir = 1,
 			actor = 102091,
 			nameColor = "#a9f548",
-			say = "아? 너, 너희들 언제 나타났어?",
+			say = "어라? 다들 언제부터 온 거야?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -421,7 +421,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "방금전부터 계속 있었잖아.",
+			say = "처음부터 있었는데?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -437,7 +437,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "(언니 4명이 모두 왔다…)",
+			say = "(나의 언니?격이 될, 클리블랜드, 콜롬비아, 몬트필리어, 그리고 덴버……)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -453,7 +453,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "결국 언니 3명중 한명도 조언이 없네…하하",
+			say = "……결국 언니도, 다른 사람도 잘 설명 못하는 것 같네…… 아하하하.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -469,7 +469,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "내 생각엔 평소에 다 함께 교류하고 서로 이해하고, 싸울 떄 동료들의 생각을 더 잘 읽을 수 있어.",
+			say = "내 생각에는 평소에 모두와 자주 이야기하고, 서로에 대해 잘 알게 되면 전투 시에도 연계가 잘 될 것 같아!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -485,7 +485,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "인디펜던스은 항구에 온지 얼마 안 됐구나? 그럼 우리 넷이 널 데리고 항구로 모험을 가도록하지! 가자!",
+			say = "인디펜던스는 분명 여기에 막 배치된 참이었지? 모항을 안내해줄게! 가자!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -502,7 +502,7 @@ return {
 			dir = 1,
 			actor = 107221,
 			nameColor = "#a9f548",
-			say = "아…네? 지금요? 하지만 아직 훈련을---",
+			say = "앗, 지금? 하지만 지금부터 연습을……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -528,7 +528,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "괜찮아,가자~ 지휘관이 이해해 줄 거야.",
+			say = "괜찮아. 자, 지휘관님도 분명 이해해줄 거야!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -545,7 +545,7 @@ return {
 			dir = 1,
 			actor = 107221,
 			nameColor = "#a9f548",
-			say = "아,아…",
+			say = "아, 알았어……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -561,7 +561,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "그럼 우리 출발하자!",
+			say = "그럼 다함께 출발할까?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -577,7 +577,7 @@ return {
 			dir = 1,
 			actor = 102091,
 			nameColor = "#a9f548",
-			say = "아니지 기다려봐, 분명히 첨음에 고민을 들어준건 나야, 고민 해결해 줄 기회를 빼겼네!",
+			say = "아니 이게 아냐! 상담을 받은 건 나라고! 멋진 모습은 전혀 보여주지 못했잖아!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -603,7 +603,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "괜찮아, 언니, 다음에 또 기회 있을거야!",
+			say = "문제 없습니다. 언니, 또 기회가 올 거에요!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -635,7 +635,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "(이 언니 4명 너무 친해…)",
+			say = "(다들 사이가 좋구나……)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -85,6 +85,24 @@ function slot0.execute(slot0, slot1)
 					print("finish stage error: can not find submarine fleet.")
 				end
 			end
+		elseif slot6 == SYSTEM_HP_SHARE_ACT_BOSS then
+			slot14 = slot3:getShipsByFleet(slot9:getActivityFleets()[slot2.actID][slot2.mainFleetId])
+			slot12 = slot9.getActivityFleets()[slot2.actID][slot2.mainFleetId].getEndCost(slot17).gold
+			slot13 = slot9.getActivityFleets()[slot2.actID][slot2.mainFleetId].getEndCost(slot17).oil
+
+			if slot2.statistics.submarineAid then
+				if slot9:getActivityFleets()[slot2.actID][Fleet.SUBMARINE_FLEET_ID] then
+					for slot26, slot27 in ipairs(slot22) do
+						if slot2.statistics[slot27.id] then
+							table.insert(slot14, slot27)
+
+							slot13 = slot13 + slot27:getEndBattleExpend()
+						end
+					end
+				else
+					print("finish stage error: can not find submarine fleet.")
+				end
+			end
 		elseif slot6 == SYSTEM_SHAM then
 			slot14 = {}
 

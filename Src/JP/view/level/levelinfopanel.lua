@@ -33,6 +33,11 @@ function slot0.init(slot0)
 	end)
 	setActive(slot0.trDropTpl, false)
 
+	slot0.loopBtn = slot0:findTF("panel/loop_button")
+	slot0.loopToggle = slot0.loopBtn:Find("toggle")
+	slot0.loopOn = slot0.loopToggle:Find("on")
+	slot0.loopOff = slot0.loopToggle:Find("off")
+	slot0.loopHelpBtn = slot0.loopBtn:Find("help_button")
 	slot0.btnConfirm = slot0:findTF("panel/start_button")
 	slot0.btnCancel = slot0:findTF("panel/btnBack")
 	slot0.delayTween = {}
@@ -98,9 +103,33 @@ function slot0.set(slot0, slot1, slot2)
 	slot0.awards = slot0:getChapterAwards()
 
 	slot0.dropList:align(#slot0.awards)
+	setActive(slot0.loopBtn, slot1:existLoop())
+
+	if slot1.existLoop() then
+		setActive(slot0.loopOn, PlayerPrefs.GetInt("chapter_loop_flag_" .. slot1.id, -1) == 1 or (slot9 == -1 and slot1:canActivateLoop()))
+		setActive(slot0.loopOff, not (PlayerPrefs.GetInt("chapter_loop_flag_" .. slot1.id, -1) == 1 or (slot9 == -1 and slot1.canActivateLoop())))
+		onButton(slot0, slot0.loopBtn, function ()
+			if not slot0 then
+				pg.TipsMgr.GetInstance():ShowTips(i18n("levelScene_activate_loop_mode_failed"))
+
+				return
+			end
+
+			slot1(slot2, (not PlayerPrefs.SetInt.loopOn.gameObject.activeSelf and 1) or 0)
+			PlayerPrefs.Save()
+			setActive(slot1.loopOn, slot0)
+			setActive(slot1.loopOff, not slot0)
+		end, SFX_PANEL)
+		onButton(slot0, slot0.loopHelpBtn, function ()
+			pg.MsgboxMgr.GetInstance():ShowHelpWindow({
+				helps = i18n("levelScene_loop_help_tip")
+			})
+		end, SFX_PANEL)
+	end
+
 	onButton(slot0, slot0.btnConfirm, function ()
 		if slot0.onConfirm then
-			slot0.onConfirm()
+			slot1 and slot0.loopOn.gameObject.activeSelf.onConfirm((slot1 and slot0.loopOn.gameObject.activeSelf and 1) or 0)
 		end
 	end, SFX_UI_WEIGHANCHOR_GO)
 	onButton(slot0, slot0.btnCancel, function ()
@@ -114,7 +143,7 @@ function slot0.set(slot0, slot1, slot2)
 		end
 	end, SFX_CANCEL)
 
-	slot6 = slot1:getConfig("risk_levels") or {}
+	slot7 = slot1:getConfig("risk_levels") or {}
 
 	onButton(slot0, slot0.passState, function ()
 		if not slot0:hasMitigation() then
@@ -134,14 +163,14 @@ function slot0.set(slot0, slot1, slot2)
 		triggerButton(slot0.passState)
 	end, SFX_PANEL)
 
-	slot7 = slot0:findTF("panel")
-	slot7.transform.localPosition = slot0.posStart
+	slot8 = slot0:findTF("panel")
+	slot8.transform.localPosition = slot0.posStart
 
-	table.insert(slot0.delayTween, LeanTween.move(slot7, Vector3.zero, 0.2).uniqueId)
+	table.insert(slot0.delayTween, LeanTween.move(slot8, Vector3.zero, 0.2).uniqueId)
 
-	slot7.localScale = Vector3.zero
+	slot8.localScale = Vector3.zero
 
-	table.insert(slot0.delayTween, LeanTween.scale(slot7, Vector3(1, 1, 1), 0.2).uniqueId)
+	table.insert(slot0.delayTween, LeanTween.scale(slot8, Vector3(1, 1, 1), 0.2).uniqueId)
 	table.insert(slot0.delayTween, LeanTween.moveX(slot0.passState, 0, 0.35):setEase(LeanTweenType.easeInOutSine):setDelay(0.3).uniqueId)
 end
 

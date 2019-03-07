@@ -3429,6 +3429,26 @@ pg.expedition_data_by_map = {
 			}
 		}
 	},
+	[1200100] = {
+		map = 1200100,
+		name = "輝ける峡湾の星|| ||CHAPTER SP||S.P.",
+		bgm = "level02",
+		type = 3,
+		on_activity = 10213,
+		title = "SP",
+		drop_by_map_display = "",
+		enter_story = "",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "map_1200001",
+		cloud_suffix = "",
+		bg = "map_1200001",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1200100,
+		clouds_pos = {}
+	},
 	[2100000] = {
 		map = 2100000,
 		name = "『紅染の来訪者』-前編|| ||CHAPTER EX||E.X.",
@@ -3593,6 +3613,47 @@ pg.expedition_data_by_map = {
 			}
 		}
 	},
+	[2200000] = {
+		map = 2200000,
+		name = "努力、希望と計画|| ||CHAPTER SP||S.P.",
+		bgm = "level02",
+		type = 3,
+		on_activity = 0,
+		title = "SP",
+		drop_by_map_display = "",
+		enter_story = "UIACT10000",
+		level_limit = 15,
+		uifx = "",
+		guide_id = "",
+		ani_name = "",
+		cloud_suffix = "white",
+		bg = "map_10000",
+		destory_icon_suffix = "blue",
+		animtor = 0,
+		bind_map = 0,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -3676,10 +3737,12 @@ pg.expedition_data_by_map = {
 		1190010,
 		1190011,
 		1190021,
+		1200100,
 		2100000,
 		2100001,
 		2100010,
-		2100011
+		2100011,
+		2200000
 	}
 }
 

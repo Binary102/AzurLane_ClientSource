@@ -9254,48 +9254,35 @@ pg.ship_skin_template = {
 		bound_bone = {
 			cannon = {
 				{
-					1.876,
-					1.689,
+					1.96,
+					1.129,
 					0
 				}
 			},
 			vicegun = {
 				{
-					-0.034,
-					2.917,
+					0.159,
+					0.065,
 					0
 				}
 			},
 			antiaircraft = {
 				{
-					-0.034,
-					2.917,
+					1.969,
+					0.961,
 					0
 				}
 			}
 		},
 		smoke = {
 			{
-				70,
+				50,
 				{
 					{
 						"smoke",
 						{
-							-1.18,
-							1.53,
-							0
-						}
-					}
-				}
-			},
-			{
-				30,
-				{
-					{
-						"smoke",
-						{
-							1.16,
-							1.21,
+							-0.779,
+							2.099,
 							0
 						}
 					}
@@ -17177,6 +17164,190 @@ pg.ship_skin_template = {
 						{
 							-0.265,
 							0.657,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[201160] = {
+		name = "ハーディ",
+		bullet_skin_main = "",
+		ship_group = 20116,
+		illustrator2 = -1,
+		bullet_skin_secondary = "",
+		painting = "yonggan",
+		air_bullet_skin = "",
+		shop_type_id = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		skin_type = -1,
+		id = 201160,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "yonggan",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		desc = "H級駆逐艦・ハーディ（H87)",
+		voice_actor = -1,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.43,
+					1.13,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.17,
+					0.02,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.36,
+					0.94,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.39,
+							2.59,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[201200] = {
+		name = "ハンター",
+		bullet_skin_main = "",
+		ship_group = 20120,
+		illustrator2 = -1,
+		bullet_skin_secondary = "",
+		painting = "lieren",
+		air_bullet_skin = "",
+		shop_type_id = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		skin_type = -1,
+		id = 201200,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "lieren",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		desc = "H級駆逐艦・ハンター（H35)",
+		voice_actor = -1,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.7,
+					1.25,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.19,
+					0.02,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.79,
+					1.16,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.49,
+							2.33,
 							0
 						}
 					}
@@ -46077,6 +46248,98 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[401020] = {
+		name = "Z2",
+		bullet_skin_main = "",
+		ship_group = 40102,
+		illustrator2 = -1,
+		bullet_skin_secondary = "",
+		painting = "z2",
+		air_bullet_skin = "",
+		shop_type_id = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		skin_type = -1,
+		id = 401020,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "z2",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		desc = "1934型駆逐艦・Z2ゲオルク・ティーレ",
+		voice_actor = -1,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.25,
+					1.47,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.18,
+					0.1,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.14,
+					1.23,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.5,
+							2.24,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[401180] = {
 		name = "Z18",
 		bullet_skin_main = "",
@@ -62079,6 +62342,8 @@ pg.ship_skin_template = {
 		201129,
 		201130,
 		201140,
+		201160,
+		201200,
 		201210,
 		201212,
 		201218,
@@ -62365,6 +62630,7 @@ pg.ship_skin_template = {
 		312012,
 		401010,
 		401011,
+		401020,
 		401180,
 		401190,
 		401200,

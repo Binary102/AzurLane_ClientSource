@@ -608,6 +608,7 @@ function slot0.listNotificationInterests(slot0)
 		CommanderProxy.COMMANDER_BOX_FINISHED,
 		GAME.FETCH_NPC_SHIP_DONE,
 		GAME.MAINUI_ACT_BTN_DONE,
+		NewShipMediator.OPEN,
 		PERMISSION_GRANTED,
 		PERMISSION_REJECT,
 		PERMISSION_NEVER_REMIND
@@ -693,6 +694,8 @@ function slot0.handleNotification(slot0, slot1)
 		slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3.items, slot3.callback)
 	elseif slot2 == GAME.MAINUI_ACT_BTN_DONE then
 		slot0.viewComponent:notifyActivitySummary(slot3.cnt, slot3.priority)
+	elseif slot2 == NewShipMediator.OPEN then
+		slot0.viewComponent:stopCurVoice()
 	elseif PERMISSION_GRANTED == slot2 then
 		if slot3 == ANDROID_CAMERA_PERMISSION then
 			slot0.viewComponent:openSnapShot()
@@ -836,7 +839,7 @@ function slot0.playStroys(slot0, slot1)
 		slot9 = slot6.getConfig("config_client").npc[2]
 		slot10 = {
 			function (slot0)
-				if pg.StoryMgr:GetInstance():IsPlayed(slot0) then
+				if slot0 == "" or pg.StoryMgr:GetInstance():IsPlayed(slot0) then
 					slot0()
 				else
 					pg.StoryMgr:GetInstance():Play(slot0, slot0, true, true)

@@ -19579,7 +19579,7 @@ pg.ship_data_statistics = {
 		type = 2,
 		personality = 2,
 		backyard_speed = "0.3",
-		name = "セントルイス ",
+		name = "セントルイス",
 		oxy_cost = 0,
 		huntingrange_level = 0,
 		star = 4,
@@ -19701,7 +19701,7 @@ pg.ship_data_statistics = {
 		type = 2,
 		personality = 2,
 		backyard_speed = "0.3",
-		name = "セントルイス ",
+		name = "セントルイス",
 		oxy_cost = 0,
 		huntingrange_level = 0,
 		star = 5,
@@ -20319,7 +20319,7 @@ pg.ship_data_statistics = {
 		type = 2,
 		personality = 2,
 		backyard_speed = "0.3",
-		name = "デンバー ",
+		name = "デンバー",
 		oxy_cost = 0,
 		huntingrange_level = 0,
 		star = 2,
@@ -20443,7 +20443,7 @@ pg.ship_data_statistics = {
 		type = 2,
 		personality = 2,
 		backyard_speed = "0.3",
-		name = "デンバー ",
+		name = "デンバー",
 		oxy_cost = 0,
 		huntingrange_level = 0,
 		star = 3,
@@ -20567,7 +20567,7 @@ pg.ship_data_statistics = {
 		type = 2,
 		personality = 2,
 		backyard_speed = "0.3",
-		name = "デンバー ",
+		name = "デンバー",
 		oxy_cost = 0,
 		huntingrange_level = 0,
 		star = 4,
@@ -20691,7 +20691,7 @@ pg.ship_data_statistics = {
 		type = 2,
 		personality = 2,
 		backyard_speed = "0.3",
-		name = "デンバー ",
+		name = "デンバー",
 		oxy_cost = 0,
 		huntingrange_level = 0,
 		star = 5,
@@ -47071,7 +47071,7 @@ pg.ship_data_statistics = {
 		type = 1,
 		personality = 2,
 		backyard_speed = "0.13",
-		name = " フォーチュン",
+		name = "フォーチュン",
 		oxy_cost = 0,
 		huntingrange_level = 0,
 		star = 2,
@@ -47192,7 +47192,7 @@ pg.ship_data_statistics = {
 		type = 1,
 		personality = 2,
 		backyard_speed = "0.13",
-		name = " フォーチュン",
+		name = "フォーチュン",
 		oxy_cost = 0,
 		huntingrange_level = 0,
 		star = 3,
@@ -47313,7 +47313,7 @@ pg.ship_data_statistics = {
 		type = 1,
 		personality = 2,
 		backyard_speed = "0.13",
-		name = " フォーチュン",
+		name = "フォーチュン",
 		oxy_cost = 0,
 		huntingrange_level = 0,
 		star = 4,
@@ -47434,7 +47434,7 @@ pg.ship_data_statistics = {
 		type = 1,
 		personality = 2,
 		backyard_speed = "0.13",
-		name = " フォーチュン",
+		name = "フォーチュン",
 		oxy_cost = 0,
 		huntingrange_level = 0,
 		star = 5,
@@ -48509,6 +48509,974 @@ pg.ship_data_statistics = {
 		equipment_proficiency = {
 			1.3,
 			1.35,
+			1.05
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[201161] = {
+		oxy_max = 0,
+		type = 1,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "ハーディ",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 2,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 201161,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Hardy",
+		skin_id = 201160,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 2,
+		armor_type = 1,
+		attrs = {
+			245,
+			15,
+			71,
+			29,
+			0,
+			74,
+			0,
+			72,
+			78,
+			43.2,
+			40,
+			47
+		},
+		attrs_growth = {
+			5965,
+			148,
+			700,
+			576,
+			0,
+			366,
+			0,
+			1068,
+			1158,
+			0,
+			0,
+			466
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"D",
+			"B",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			1.3,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[201162] = {
+		oxy_max = 0,
+		type = 1,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "ハーディ",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 201162,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Hardy",
+		skin_id = 201160,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 2,
+		armor_type = 1,
+		attrs = {
+			305,
+			19,
+			89,
+			36,
+			0,
+			74,
+			0,
+			72,
+			78,
+			43.2,
+			40,
+			59
+		},
+		attrs_growth = {
+			5965,
+			148,
+			700,
+			576,
+			0,
+			366,
+			0,
+			1068,
+			1158,
+			0,
+			0,
+			466
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"D",
+			"B",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			1.3,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[201163] = {
+		oxy_max = 0,
+		type = 1,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "ハーディ",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 201163,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Hardy",
+		skin_id = 201160,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 2,
+		armor_type = 1,
+		attrs = {
+			424,
+			26,
+			124,
+			51,
+			0,
+			74,
+			0,
+			72,
+			78,
+			43.2,
+			40,
+			82
+		},
+		attrs_growth = {
+			5965,
+			148,
+			700,
+			576,
+			0,
+			366,
+			0,
+			1068,
+			1158,
+			0,
+			0,
+			466
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"D",
+			"B",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.25,
+			1.3,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[201164] = {
+		oxy_max = 0,
+		type = 1,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "ハーディ",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 201164,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Hardy",
+		skin_id = 201160,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 2,
+		armor_type = 1,
+		attrs = {
+			603,
+			37,
+			176,
+			72,
+			0,
+			74,
+			0,
+			72,
+			78,
+			43.2,
+			40,
+			117
+		},
+		attrs_growth = {
+			5965,
+			148,
+			700,
+			576,
+			0,
+			366,
+			0,
+			1068,
+			1158,
+			0,
+			0,
+			466
+		},
+		attrs_growth_extra = {
+			5965,
+			347,
+			1210,
+			392,
+			0,
+			872,
+			0,
+			-626,
+			-878,
+			0,
+			0,
+			450
+		},
+		grades = {
+			"D",
+			"B",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.3,
+			1.35,
+			1.05
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[201201] = {
+		oxy_max = 0,
+		type = 1,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "ハンター",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 2,
+		oxy_recovery = 0,
+		rarity = 3,
+		ammo = 0,
+		id = 201201,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Hunter",
+		skin_id = 201200,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 2,
+		armor_type = 1,
+		attrs = {
+			221,
+			14,
+			67,
+			29,
+			0,
+			72,
+			0,
+			70,
+			78,
+			43.2,
+			24,
+			46
+		},
+		attrs_growth = {
+			5390,
+			140,
+			664,
+			572,
+			0,
+			360,
+			0,
+			1032,
+			1158,
+			0,
+			0,
+			454
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"D",
+			"B",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.05,
+			1.25,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[201202] = {
+		oxy_max = 0,
+		type = 1,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "ハンター",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		rarity = 3,
+		ammo = 0,
+		id = 201202,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Hunter",
+		skin_id = 201200,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 2,
+		armor_type = 1,
+		attrs = {
+			275,
+			18,
+			84,
+			36,
+			0,
+			72,
+			0,
+			70,
+			78,
+			43.2,
+			24,
+			57
+		},
+		attrs_growth = {
+			5390,
+			140,
+			664,
+			572,
+			0,
+			360,
+			0,
+			1032,
+			1158,
+			0,
+			0,
+			454
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"D",
+			"B",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			1.25,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[201203] = {
+		oxy_max = 0,
+		type = 1,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "ハンター",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		rarity = 3,
+		ammo = 0,
+		id = 201203,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Hunter",
+		skin_id = 201200,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 2,
+		armor_type = 1,
+		attrs = {
+			383,
+			25,
+			117,
+			50,
+			0,
+			72,
+			0,
+			70,
+			78,
+			43.2,
+			24,
+			80
+		},
+		attrs_growth = {
+			5390,
+			140,
+			664,
+			572,
+			0,
+			360,
+			0,
+			1032,
+			1158,
+			0,
+			0,
+			454
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"D",
+			"B",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.25,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[201204] = {
+		oxy_max = 0,
+		type = 1,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "ハンター",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		rarity = 3,
+		ammo = 0,
+		id = 201204,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Hunter",
+		skin_id = 201200,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 2,
+		armor_type = 1,
+		attrs = {
+			544,
+			35,
+			167,
+			72,
+			0,
+			72,
+			0,
+			70,
+			78,
+			43.2,
+			24,
+			114
+		},
+		attrs_growth = {
+			5390,
+			140,
+			664,
+			572,
+			0,
+			360,
+			0,
+			1032,
+			1158,
+			0,
+			0,
+			454
+		},
+		attrs_growth_extra = {
+			5380,
+			325,
+			1206,
+			388,
+			0,
+			848,
+			0,
+			-602,
+			-878,
+			0,
+			0,
+			447
+		},
+		grades = {
+			"D",
+			"B",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.25,
+			1.3,
 			1.05
 		},
 		strategy_list = {},
@@ -68299,7 +69267,7 @@ pg.ship_data_statistics = {
 		type = 5,
 		personality = 2,
 		backyard_speed = "0.2",
-		name = "デューク・オブ・ヨーク ",
+		name = "デューク・オブ・ヨーク",
 		oxy_cost = 0,
 		huntingrange_level = 0,
 		star = 3,
@@ -68420,7 +69388,7 @@ pg.ship_data_statistics = {
 		type = 5,
 		personality = 2,
 		backyard_speed = "0.2",
-		name = "デューク・オブ・ヨーク ",
+		name = "デューク・オブ・ヨーク",
 		oxy_cost = 0,
 		huntingrange_level = 0,
 		star = 4,
@@ -68541,7 +69509,7 @@ pg.ship_data_statistics = {
 		type = 5,
 		personality = 2,
 		backyard_speed = "0.2",
-		name = "デューク・オブ・ヨーク ",
+		name = "デューク・オブ・ヨーク",
 		oxy_cost = 0,
 		huntingrange_level = 0,
 		star = 5,
@@ -68662,7 +69630,7 @@ pg.ship_data_statistics = {
 		type = 5,
 		personality = 2,
 		backyard_speed = "0.2",
-		name = "デューク・オブ・ヨーク ",
+		name = "デューク・オブ・ヨーク",
 		oxy_cost = 0,
 		huntingrange_level = 0,
 		star = 6,
@@ -69743,7 +70711,7 @@ pg.ship_data_statistics = {
 		type = 6,
 		personality = 2,
 		backyard_speed = "0.3",
-		name = "セントー ",
+		name = "セントー",
 		oxy_cost = 0,
 		huntingrange_level = 0,
 		star = 3,
@@ -69863,7 +70831,7 @@ pg.ship_data_statistics = {
 		type = 6,
 		personality = 2,
 		backyard_speed = "0.3",
-		name = "セントー ",
+		name = "セントー",
 		oxy_cost = 0,
 		huntingrange_level = 0,
 		star = 4,
@@ -69983,7 +70951,7 @@ pg.ship_data_statistics = {
 		type = 6,
 		personality = 2,
 		backyard_speed = "0.3",
-		name = "セントー ",
+		name = "セントー",
 		oxy_cost = 0,
 		huntingrange_level = 0,
 		star = 5,
@@ -70103,7 +71071,7 @@ pg.ship_data_statistics = {
 		type = 6,
 		personality = 2,
 		backyard_speed = "0.3",
-		name = "セントー ",
+		name = "セントー",
 		oxy_cost = 0,
 		huntingrange_level = 0,
 		star = 6,
@@ -120878,6 +121846,498 @@ pg.ship_data_statistics = {
 			"Z-Class"
 		}
 	},
+	[401021] = {
+		oxy_max = 0,
+		type = 1,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "Z2",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 2,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 401021,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "KMS Georg Thiele",
+		skin_id = 401020,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 4,
+		armor_type = 1,
+		attrs = {
+			334,
+			16,
+			83,
+			29,
+			0,
+			76,
+			0,
+			64,
+			55,
+			43.2,
+			44,
+			48
+		},
+		attrs_growth = {
+			8140,
+			154,
+			818,
+			564,
+			0,
+			376,
+			0,
+			948,
+			816,
+			0,
+			0,
+			480
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"D",
+			"A",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.2,
+			0.7
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Z-Class"
+		}
+	},
+	[401022] = {
+		oxy_max = 0,
+		type = 1,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "Z2",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 401022,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "KMS Georg Thiele",
+		skin_id = 401020,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 4,
+		armor_type = 1,
+		attrs = {
+			415,
+			20,
+			103,
+			36,
+			0,
+			76,
+			0,
+			64,
+			55,
+			43.2,
+			44,
+			60
+		},
+		attrs_growth = {
+			8140,
+			154,
+			818,
+			564,
+			0,
+			376,
+			0,
+			948,
+			816,
+			0,
+			0,
+			480
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"D",
+			"A",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.25,
+			0.7
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Z-Class"
+		}
+	},
+	[401023] = {
+		oxy_max = 0,
+		type = 1,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "Z2",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 401023,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "KMS Georg Thiele",
+		skin_id = 401020,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 4,
+		armor_type = 1,
+		attrs = {
+			578,
+			28,
+			144,
+			50,
+			0,
+			76,
+			0,
+			64,
+			55,
+			43.2,
+			44,
+			84
+		},
+		attrs_growth = {
+			8140,
+			154,
+			818,
+			564,
+			0,
+			376,
+			0,
+			948,
+			816,
+			0,
+			0,
+			480
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"D",
+			"A",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.35,
+			0.7
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Z-Class"
+		}
+	},
+	[401024] = {
+		oxy_max = 0,
+		type = 1,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "Z2",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 401024,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "KMS Georg Thiele",
+		skin_id = 401020,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 4,
+		armor_type = 1,
+		attrs = {
+			822,
+			39,
+			206,
+			71,
+			0,
+			76,
+			0,
+			64,
+			55,
+			43.2,
+			44,
+			120
+		},
+		attrs_growth = {
+			8140,
+			154,
+			818,
+			564,
+			0,
+			376,
+			0,
+			948,
+			816,
+			0,
+			0,
+			480
+		},
+		attrs_growth_extra = {
+			7317,
+			364,
+			1169,
+			381,
+			0,
+			892,
+			0,
+			-556,
+			-579,
+			0,
+			0,
+			447
+		},
+		grades = {
+			"D",
+			"A",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.25,
+			1.4,
+			0.75
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Z-Class"
+		}
+	},
 	[401181] = {
 		oxy_max = 0,
 		type = 1,
@@ -151570,7 +153030,7 @@ pg.ship_data_statistics = {
 		type = 1,
 		personality = 2,
 		backyard_speed = "0.3",
-		name = "エルドリッジ ",
+		name = "エルドリッジ",
 		oxy_cost = 0,
 		huntingrange_level = 0,
 		star = 3,
@@ -161902,7 +163362,7 @@ pg.ship_data_statistics = {
 		type = 1,
 		personality = 2,
 		backyard_speed = "0.3",
-		name = "セントー ",
+		name = "セントー",
 		oxy_cost = 0,
 		huntingrange_level = 0,
 		star = 5,
@@ -162017,7 +163477,7 @@ pg.ship_data_statistics = {
 		type = 1,
 		personality = 2,
 		backyard_speed = "0.3",
-		name = "モナーク ",
+		name = "モナーク",
 		oxy_cost = 0,
 		huntingrange_level = 0,
 		star = 5,
@@ -162247,7 +163707,7 @@ pg.ship_data_statistics = {
 		type = 1,
 		personality = 2,
 		backyard_speed = "0.3",
-		name = "カーリュー ",
+		name = "カーリュー",
 		oxy_cost = 0,
 		huntingrange_level = 0,
 		star = 5,
@@ -169400,7 +170860,7 @@ pg.ship_data_statistics = {
 		type = 2,
 		personality = 2,
 		backyard_speed = "0.3",
-		name = "ネプチューン ",
+		name = "ネプチューン",
 		oxy_cost = 0,
 		huntingrange_level = 0,
 		star = 3,
@@ -169524,7 +170984,7 @@ pg.ship_data_statistics = {
 		type = 2,
 		personality = 2,
 		backyard_speed = "0.3",
-		name = "ネプチューン ",
+		name = "ネプチューン",
 		oxy_cost = 0,
 		huntingrange_level = 0,
 		star = 4,
@@ -169648,7 +171108,7 @@ pg.ship_data_statistics = {
 		type = 2,
 		personality = 2,
 		backyard_speed = "0.3",
-		name = "ネプチューン ",
+		name = "ネプチューン",
 		oxy_cost = 0,
 		huntingrange_level = 0,
 		star = 5,
@@ -169772,7 +171232,7 @@ pg.ship_data_statistics = {
 		type = 2,
 		personality = 2,
 		backyard_speed = "0.3",
-		name = "ネプチューン ",
+		name = "ネプチューン",
 		oxy_cost = 0,
 		huntingrange_level = 0,
 		star = 6,
@@ -169896,7 +171356,7 @@ pg.ship_data_statistics = {
 		type = 5,
 		personality = 2,
 		backyard_speed = "0.3",
-		name = "モナーク ",
+		name = "モナーク",
 		oxy_cost = 0,
 		huntingrange_level = 0,
 		star = 3,
@@ -170016,7 +171476,7 @@ pg.ship_data_statistics = {
 		type = 5,
 		personality = 2,
 		backyard_speed = "0.3",
-		name = "モナーク ",
+		name = "モナーク",
 		oxy_cost = 0,
 		huntingrange_level = 0,
 		star = 4,
@@ -170136,7 +171596,7 @@ pg.ship_data_statistics = {
 		type = 5,
 		personality = 2,
 		backyard_speed = "0.3",
-		name = "モナーク ",
+		name = "モナーク",
 		oxy_cost = 0,
 		huntingrange_level = 0,
 		star = 5,
@@ -170256,7 +171716,7 @@ pg.ship_data_statistics = {
 		type = 5,
 		personality = 2,
 		backyard_speed = "0.3",
-		name = "モナーク ",
+		name = "モナーク",
 		oxy_cost = 0,
 		huntingrange_level = 0,
 		star = 6,
@@ -170376,7 +171836,7 @@ pg.ship_data_statistics = {
 		type = 3,
 		personality = 2,
 		backyard_speed = "0.3",
-		name = "伊吹 ",
+		name = "伊吹",
 		oxy_cost = 0,
 		huntingrange_level = 0,
 		star = 3,
@@ -170864,7 +172324,7 @@ pg.ship_data_statistics = {
 		type = 5,
 		personality = 2,
 		backyard_speed = "0.3",
-		name = "出雲 ",
+		name = "出雲",
 		oxy_cost = 0,
 		huntingrange_level = 0,
 		star = 3,
@@ -170984,7 +172444,7 @@ pg.ship_data_statistics = {
 		type = 5,
 		personality = 2,
 		backyard_speed = "0.3",
-		name = "出雲 ",
+		name = "出雲",
 		oxy_cost = 0,
 		huntingrange_level = 0,
 		star = 4,
@@ -171104,7 +172564,7 @@ pg.ship_data_statistics = {
 		type = 5,
 		personality = 2,
 		backyard_speed = "0.3",
-		name = "出雲 ",
+		name = "出雲",
 		oxy_cost = 0,
 		huntingrange_level = 0,
 		star = 5,
@@ -171224,7 +172684,7 @@ pg.ship_data_statistics = {
 		type = 5,
 		personality = 2,
 		backyard_speed = "0.3",
-		name = "出雲 ",
+		name = "出雲",
 		oxy_cost = 0,
 		huntingrange_level = 0,
 		star = 6,
@@ -171344,7 +172804,7 @@ pg.ship_data_statistics = {
 		type = 3,
 		personality = 2,
 		backyard_speed = "0.3",
-		name = "ローン ",
+		name = "ローン",
 		oxy_cost = 0,
 		huntingrange_level = 0,
 		star = 3,
@@ -171466,7 +172926,7 @@ pg.ship_data_statistics = {
 		type = 3,
 		personality = 2,
 		backyard_speed = "0.3",
-		name = "ローン ",
+		name = "ローン",
 		oxy_cost = 0,
 		huntingrange_level = 0,
 		star = 4,
@@ -171588,7 +173048,7 @@ pg.ship_data_statistics = {
 		type = 3,
 		personality = 2,
 		backyard_speed = "0.3",
-		name = "ローン ",
+		name = "ローン",
 		oxy_cost = 0,
 		huntingrange_level = 0,
 		star = 5,
@@ -171710,7 +173170,7 @@ pg.ship_data_statistics = {
 		type = 3,
 		personality = 2,
 		backyard_speed = "0.3",
-		name = "ローン ",
+		name = "ローン",
 		oxy_cost = 0,
 		huntingrange_level = 0,
 		star = 6,
@@ -171832,7 +173292,7 @@ pg.ship_data_statistics = {
 		type = 3,
 		personality = 2,
 		backyard_speed = "0.3",
-		name = "サン・ルイ ",
+		name = "サン・ルイ",
 		oxy_cost = 0,
 		huntingrange_level = 0,
 		star = 3,
@@ -171954,7 +173414,7 @@ pg.ship_data_statistics = {
 		type = 3,
 		personality = 2,
 		backyard_speed = "0.3",
-		name = "サン・ルイ ",
+		name = "サン・ルイ",
 		oxy_cost = 0,
 		huntingrange_level = 0,
 		star = 4,
@@ -172076,7 +173536,7 @@ pg.ship_data_statistics = {
 		type = 3,
 		personality = 2,
 		backyard_speed = "0.3",
-		name = "サン・ルイ ",
+		name = "サン・ルイ",
 		oxy_cost = 0,
 		huntingrange_level = 0,
 		star = 5,
@@ -172198,7 +173658,7 @@ pg.ship_data_statistics = {
 		type = 3,
 		personality = 2,
 		backyard_speed = "0.3",
-		name = "サン・ルイ ",
+		name = "サン・ルイ",
 		oxy_cost = 0,
 		huntingrange_level = 0,
 		star = 6,
@@ -172707,6 +174167,14 @@ pg.ship_data_statistics = {
 		201142,
 		201143,
 		201144,
+		201161,
+		201162,
+		201163,
+		201164,
+		201201,
+		201202,
+		201203,
+		201204,
 		201211,
 		201212,
 		201213,
@@ -173289,6 +174757,10 @@ pg.ship_data_statistics = {
 		401012,
 		401013,
 		401014,
+		401021,
+		401022,
+		401023,
+		401024,
 		401181,
 		401182,
 		401183,

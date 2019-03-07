@@ -3203,6 +3203,42 @@ pg.gametip = {
 			}
 		}
 	},
+	levelScene_activate_loop_mode_failed = {
+		tip = "海域危険度が【安全海域】・海域★3達成で周回モードを選択できるようになります",
+		key = "levelScene_activate_loop_mode_failed"
+	},
+	levelScene_coastalgun_help_tip = {
+		key = "levelScene_coastalgun_help_tip",
+		tip = {
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/coastalgun_1"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/coastalgun_2"
+				}
+			},
+			disableScroll = true,
+			pageMode = true,
+			defaultpage = 1,
+			ImageMode = true,
+			windowSize = {
+				x = 836,
+				y = 740
+			},
+			windowPos = {
+				y = 15
+			},
+			helpSize = {
+				x = 836,
+				y = 660
+			}
+		}
+	},
 	tack_tickets_max_warning = {
 		tip = "<color=#ffff00>データキー</color>の所持回数は上限になっています。任務報酬のデータキーは<color=#D6341DFF>$1</color>しか入手できません。任務報酬を受け取りますか？",
 		key = "tack_tickets_max_warning"
@@ -4470,20 +4506,17 @@ pg.gametip = {
 「仮加入」キャラについて：
 
 ・「仮加入」とは：
-コラボキャラは「イベント期間中限定で」艦隊に加入します。イ
-ベント終了時に「正式加入」を達成していない場合、艦隊からい
-なくなります（強化や限界突破に消費されたアイテムは返還され
+仮加入キャラは「イベント期間中限定で」艦隊に加入します。
+イベント終了時に「正式加入」を達成していない場合、艦隊から
+いなくなります（強化や限界突破に消費されたアイテムは返還され
 ません）。
 ・「正式加入」とは：
-コラボキャラを「正式加入」させるには、「友好度」を入手し、
-コラボイベントページで各段階の「友好度報酬」を全て獲得する
+キャラを「正式加入」させるには、「友好度」を入手し、
+イベントページで各段階の「友好度報酬」を全て獲得する
 ことにより「正式加入」させることが出来ます。
-・「正式加入」可能な期間について：
-「うたわれるもの」コラボキャラクター【フミルィル】
-2018年11月22日～2018年12月13日メンテナンスまで
 
 ※「仮加入」キャラの機能制限：
-「仮加入」状態のコラボキャラクターは「正式加入」しない限り、
+「仮加入」状態のキャラクターは「正式加入」しない限り、
 一部の機能しか利用することが出来ません。
 利用可能機能：
 （演習以外の）艦隊への編成、戦闘参加、強化、スキル強化、限
@@ -4814,7 +4847,11 @@ pg.gametip = {
 						<color=#fff157>SSレア</color>：$2%
 						<color=#966af6>Sレア</color>：$3%
 						<color=#60a9ff>レア</color>：$4%
-						ノーマル：$5%]],
+						ノーマル：$5%
+
+						【期間限定】
+					<color=#966af6>ハーディ</color>：1.4%<color=#A9F548>(up!)</color>
+							<color=#966af6>Z2</color>：1.4%<color=#A9F548>(up!)</color>]],
 		key = "help_build_2"
 	},
 	help_build_4 = {
@@ -7002,7 +7039,7 @@ pg.gametip = {
 		key = "level_risk_level_mitigation_rate"
 	},
 	level_diffcult_chapter_state_safety = {
-		tip = "<size=24><color=#A9F548>☆3達成＆海域脅威度を「安全海域」にすると、敵中枢艦隊が最初から出現するようになります</color></size>",
+		tip = "<size=24><color=#A9F548>☆3達成＆海域脅威度を「安全海域」にすると、周回モードに切り替えることができます</color></size>",
 		key = "level_diffcult_chapter_state_safety"
 	},
 	level_chapter_state_high_risk = {
@@ -9012,6 +9049,26 @@ pg.gametip = {
 	backyard_is_loading = {
 		tip = "ただいま家具を準備しています…",
 		key = "backyard_is_loading"
+	},
+	levelScene_loop_help_tip = {
+		key = "levelScene_loop_help_tip",
+		tip = {
+			{
+				info = [[
+海域脅威度が<color=#A9F548>「安全海域」</color>で、かつ海域<color=#A9F548>☆3クリア</color>を達成すると、
+海域選択画面で同ステージを<color=#A9F548>「周回モード」</color>に設定することが可能
+になります。
+
+「周回モード」の特徴は下記になります：
+1.メインステージのハードモードステージでは、敵の護衛艦隊が<color=#A9F548>出
+現しなくなります</color>。
+2.イベントステージの敵の配置・行動ロジックが変化します。
+3.イベントステージで味方の<color=#A9F548>移動制限が解除され</color>、海域マップで自
+由に移動できます。
+4.イベント「輝ける峡湾の星」では敵沿岸砲台が<color=#A9F548>出現しなくなりま
+す</color>。]]
+			}
+		}
 	}
 }
 

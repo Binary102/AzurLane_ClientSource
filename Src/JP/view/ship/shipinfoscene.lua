@@ -310,13 +310,14 @@ function slot7(slot0, slot1)
 	slot5 = slot0.npcFlagTF
 	slot7 = slot1
 	slot6 = slot1.isActivityNpc
+	slot6 = slot6(slot7)
 
-	slot4(slot5, slot6(slot7))
+	if slot6 then
+		slot4(slot5, slot0.page ~= slot0.PAGE.UPGRADE)
+		slot0:setToggleEnable()
 
-	slot5 = slot0
-	slot4 = slot0.setToggleEnable
-
-	slot4(slot5)
+		return
+	end
 end
 
 slot0.setShip = slot7

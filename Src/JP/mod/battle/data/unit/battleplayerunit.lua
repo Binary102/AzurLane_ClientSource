@@ -235,10 +235,28 @@ function ys.Battle.BattlePlayerUnit.RemoveWeapon(slot0, slot1)
 
 	if slot0.GetWeaponPropertyDataFromID(slot1).type == slot1.PASSIVE_SCOUT then
 		for slot7, slot8 in ipairs(slot0._hiveList) do
-			if slot8:GetTemplateData().type == slot2 then
+			if slot8:GetWeaponId() == slot1 then
 				slot3 = slot8
 
 				table.remove(slot0._hiveList, slot7)
+
+				break
+			end
+		end
+	elseif slot2 == slot1.SCOUT then
+		for slot7, slot8 in ipairs(slot0._autoWeaponList) do
+			if slot8:GetWeaponId() == slot1 then
+				slot0:RemoveAutoWeapon(slot8)
+
+				break
+			end
+		end
+	end
+
+	if slot3 then
+		for slot7, slot8 in ipairs(slot0._totalWeapon) do
+			if slot8 == slot3 then
+				table.remove(slot0._totalWeapon, slot7)
 
 				break
 			end

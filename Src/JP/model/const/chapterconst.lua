@@ -37,6 +37,7 @@ slot0.AttachChampionSub = 19
 slot0.AttachOni = 20
 slot0.AttachOni_Target = 21
 slot0.AttachBomb_Enemy = 24
+slot0.AttachLandbase = 100
 slot0.Story = 1
 slot0.StoryObstacle = 2
 slot0.StoryTrigger = 3
@@ -47,6 +48,7 @@ slot0.BoxTorpedo = 7
 slot0.BoxAirStrike = 4
 slot0.BoxEnemy = 5
 slot0.BoxSupply = 6
+slot0.LBCoastalGun = 1
 slot0.RoundPlayer = 0
 slot0.RoundEnemy = 1
 slot0.AIEasy = 1
@@ -268,5 +270,9 @@ slot0.ShamMyAssisShipLevelLimit = 10
 slot0.MirrorShamId = 90000
 slot0.ShamMoneyItem = 59900
 slot0.EscortMoneyItem = 59900
+slot0.MarkHuntingRange = 1
+slot0.MarkBomb = 2
+slot0.MarkCoastalGun = 3
+slot0.MarkEscapeGrid = 4
 
 return slot0

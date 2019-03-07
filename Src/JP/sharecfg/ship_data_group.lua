@@ -3153,6 +3153,50 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[96] = {
+		nationality = 2,
+		hide = 0,
+		trans_skin = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		code = 96,
+		type = 1,
+		group_type = 20116,
+		trans_type = 0,
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"イベント：輝ける峡湾の星",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[100] = {
+		nationality = 2,
+		hide = 0,
+		trans_skin = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		code = 100,
+		type = 1,
+		group_type = 20120,
+		trans_type = 0,
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"イベント：輝ける峡湾の星",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[101] = {
 		nationality = 2,
 		hide = 0,
@@ -9192,6 +9236,28 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[379] = {
+		nationality = 4,
+		hide = 0,
+		trans_skin = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		code = 379,
+		type = 1,
+		group_type = 40102,
+		trans_type = 0,
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"イベント：輝ける峡湾の星",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[10001] = {
 		nationality = 101,
 		hide = 0,
@@ -9726,6 +9792,8 @@ pg.ship_data_group = {
 		92,
 		93,
 		94,
+		96,
+		100,
 		101,
 		102,
 		103,
@@ -9933,6 +10001,7 @@ pg.ship_data_group = {
 		376,
 		377,
 		378,
+		379,
 		10001,
 		10002,
 		10003,

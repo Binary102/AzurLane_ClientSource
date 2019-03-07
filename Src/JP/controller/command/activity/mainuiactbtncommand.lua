@@ -28,6 +28,8 @@ function slot0.shouldNotify(slot0, slot1)
 		return false
 	end
 
+	print("---------------------" .. slot1.id, ActivityConst.NARVIK_PREVIEW_ID, ActivityConst.HUNTER_PT_ID)
+
 	if slot2 == ActivityConst.ACTIVITY_TYPE_LEVELAWARD then
 	elseif slot2 == ActivityConst.ACTIVITY_TYPE_BB then
 	elseif slot2 ~= ActivityConst.ACTIVITY_TYPE_TASKS then
@@ -35,6 +37,10 @@ function slot0.shouldNotify(slot0, slot1)
 		elseif slot2 == ActivityConst.ACTIVITY_TYPE_DODGEM or slot2 == ActivityConst.ACTIVITY_TYPE_HITMONSTERNIAN or slot2 == ActivityConst.ACTIVITY_TYPE_MONOPOLY then
 			return slot1:readyToAchieve()
 		end
+	end
+
+	if slot1.id == ActivityConst.NARVIK_PREVIEW_ID or slot1.id == ActivityConst.HUNTER_PT_ID then
+		return slot1:readyToAchieve()
 	end
 
 	return slot3

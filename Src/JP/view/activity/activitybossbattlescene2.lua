@@ -194,9 +194,24 @@ slot0.setPlayer = slot2
 
 function slot2(slot0, slot1)
 	slot0.activity = slot1
-	slot0.bossHP = slot1.data1
-	slot0.monument = slot1.data1_list
-	slot0.isdead = slot1.data2 == 1
+	slot2 = slot1.data1
+	slot0.bossHP = slot2
+	slot2 = slot1.data1_list
+	slot0.monument = slot2
+	slot2 = slot1.data2
+
+	if slot2 ~= 1 then
+		slot2 = slot0.monument
+		slot2 = slot2[4]
+
+		if slot2[4] then
+			slot2 = false
+		end
+	else
+		slot2 = true
+	end
+
+	slot0.isdead = slot2
 	slot2 = math
 	slot2 = slot2.floor
 	slot3 = math
@@ -276,30 +291,34 @@ function slot2(slot0, slot1)
 
 		slot3 = false
 		slot0.enterStage = slot3
-		slot3 = slot0.timeMgr
-		slot4 = slot3
-		slot3 = slot3.GetServerTime
-		slot3 = slot3(slot4)
-		slot4 = slot0.timeMgr
-		slot5 = slot4
-		slot4 = slot4.parseTimeFromConfig
-		slot6 = slot0.battleTime
-		slot4 = slot4(slot5, slot6)
+		slot3 = slot0.battleTime
 
-		if slot4 <= slot3 then
-			slot3 = pg
-			slot3 = slot3.TipsMgr
+		if slot3 ~= 0 then
+			slot3 = slot0.timeMgr
 			slot4 = slot3
-			slot3 = slot3.GetInstance
+			slot3 = slot3.GetServerTime
 			slot3 = slot3(slot4)
-			slot4 = slot3
-			slot3 = slot3.ShowTips
-			slot5 = i18n
-			slot6 = "common_activity_end"
+			slot4 = slot0.timeMgr
+			slot5 = slot4
+			slot4 = slot4.parseTimeFromConfig
+			slot6 = slot0.battleTime
+			slot4 = slot4(slot5, slot6)
 
-			slot3(slot4, slot5(slot6))
+			if slot4 <= slot3 then
+				slot3 = pg
+				slot3 = slot3.TipsMgr
+				slot4 = slot3
+				slot3 = slot3.GetInstance
+				slot3 = slot3(slot4)
+				slot4 = slot3
+				slot3 = slot3.ShowTips
+				slot5 = i18n
+				slot6 = "common_activity_end"
 
-			return
+				slot3(slot4, slot5(slot6))
+
+				return
+			end
 		end
 
 		slot4 = slot0
@@ -538,13 +557,14 @@ function slot2(slot0)
 	slot1.onCombat = slot2
 	slot1 = slot0.fleetEditPanel
 
-	function slot2(slot0)
-		slot1 = slot0
-		slot2 = slot1
-		slot1 = slot1.openShipInfo
-		slot3 = slot0
+	function slot2(slot0, slot1)
+		slot2 = slot0
+		slot3 = slot2
+		slot2 = slot2.openShipInfo
+		slot4 = slot0
+		slot5 = slot1
 
-		slot1(slot2, slot3)
+		slot2(slot3, slot4, slot5)
 	end
 
 	slot1.onLongPressShip = slot2
@@ -1646,16 +1666,17 @@ end
 
 slot0.hideFleetEdit = slot2
 
-function slot2(slot0, slot1)
-	slot3 = slot0
-	slot2 = slot0.emit
-	slot4 = ActivityBossBattleMediator2
-	slot4 = slot4.ON_FLEET_SHIPINFO
-	slot5 = {
-		shipId = slot1
+function slot2(slot0, slot1, slot2)
+	slot4 = slot0
+	slot3 = slot0.emit
+	slot5 = ActivityBossBattleMediator2
+	slot5 = slot5.ON_FLEET_SHIPINFO
+	slot6 = {
+		shipId = slot1,
+		shipVOs = slot2
 	}
 
-	slot2(slot3, slot4, slot5)
+	slot3(slot4, slot5, slot6)
 end
 
 slot0.openShipInfo = slot2

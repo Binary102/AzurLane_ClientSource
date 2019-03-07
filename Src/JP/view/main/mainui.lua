@@ -1417,7 +1417,7 @@ function slot0.notifyActivitySummary(slot0, slot1, slot2)
 			slot4 = {}
 
 			if not slot0 or not slot1.id then
-				slot5 = nil
+				slot5 = ActivityConst.NARVIK_PREVIEW_ID
 			end
 
 			slot4.id = slot5

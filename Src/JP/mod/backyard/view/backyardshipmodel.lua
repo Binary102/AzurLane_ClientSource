@@ -149,7 +149,7 @@ function slot0.updateExpTFScale(slot0, slot1)
 end
 
 function slot0.changeInnerDir(slot0, slot1)
-	slot0.expTF.localScale = Vector3(1 / slot0 * slot1, 1 / slot0, 1)
+	slot0:updateExpTFScale(slot1)
 
 	if slot0.bodyMask and go(slot0.bodyMask).activeSelf then
 		tf(slot0.bodyMask).localScale = Vector3(slot1, 1, 1)
@@ -843,6 +843,29 @@ function slot0.startSpineAnimator(slot0, slot1, slot2)
 		SetParent(slot4, slot7)
 	end
 
+	if slot4:GetComponent(typeof(DftAniEvent)) then
+		slot7 = 1
+
+		slot6:SetTriggerEvent(function (slot0)
+			if slot0.localScale.x < 0 then
+				slot1 = -1
+
+				slot2:changeInnerDir(1)
+			end
+
+			return
+		end)
+		slot6:SetEndEvent(function (slot0)
+			if slot0 == -1 then
+				slot1:changeInnerDir(-1)
+
+				slot0 = 1
+			end
+
+			return
+		end)
+	end
+
 	setActive(slot4, true)
 
 	return
@@ -867,6 +890,11 @@ function slot0.endSpineAnimator(slot0, slot1, slot2)
 			if slot2 then
 				slot4 = slot3:Find("animator" .. slot2)
 			end
+		end
+
+		if slot4:GetComponent(typeof(DftAniEvent)) then
+			slot5:SetTriggerEvent(nil)
+			slot5:SetTriggerEvent(nil)
 		end
 
 		setActive(slot4, false)

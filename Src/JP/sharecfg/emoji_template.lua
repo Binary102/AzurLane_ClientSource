@@ -895,7 +895,7 @@ pg.emoji_template = {
 		id = 218,
 		index = 18,
 		pic = "line_part2_18",
-		desc = "<color=#A9F548>[嗜のみですわ]</color>",
+		desc = "<color=#A9F548>[嗜みですわ]</color>",
 		type = {
 			1
 		}

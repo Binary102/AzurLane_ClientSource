@@ -665,14 +665,18 @@ function slot0.enabledCharacter(slot0, slot1, slot2, slot3, slot4)
 
 			pg.DelegateInfo.Add(slot0, GetOrAddComponent(slot5, "UILongPressTrigger").onLongPressed)
 			GetOrAddComponent(slot5, "UILongPressTrigger").onLongPressed:AddListener(function ()
-				slot0:emit(PreCombatMediator.OPEN_SHIP_INFO, slot1.id, slot0._currentFleetVO)
+				if slot0.contextData.system ~= SYSTEM_HP_SHARE_ACT_BOSS then
+					slot0:emit(PreCombatMediator.OPEN_SHIP_INFO, slot1.id, slot0._currentFleetVO)
+				end
 
 				return
 			end)
 			pg.DelegateInfo.Add(slot0, GetOrAddComponent(slot5, "ModelDrag").onModelClick)
 			GetOrAddComponent(slot5, "ModelDrag").onModelClick:AddListener(function ()
-				playSoundEffect(SFX_UI_CLICK)
-				playSoundEffect:emit(PreCombatMediator.CHANGE_FLEET_SHIP, playSoundEffect, slot0._currentFleetVO, )
+				if slot0.contextData.system ~= SYSTEM_HP_SHARE_ACT_BOSS then
+					playSoundEffect(SFX_UI_CLICK)
+					playSoundEffect:emit(PreCombatMediator.CHANGE_FLEET_SHIP, playSoundEffect, slot0._currentFleetVO, )
+				end
 
 				return
 			end)

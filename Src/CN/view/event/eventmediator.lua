@@ -35,6 +35,7 @@ function slot0.register(slot0)
 				inPvp = true,
 				inFleet = true,
 				inClass = false,
+				inActivity = true,
 				inTactics = false,
 				inBackyard = false,
 				inSham = true,

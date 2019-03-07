@@ -247,14 +247,16 @@ function slot0.updateShips(slot0, slot1)
 	slot2 = getProxy(BayProxy)
 
 	for slot6, slot7 in ipairs(slot1) do
-		table.insert(slot0.ships, slot7)
+		if slot2:getShipById(slot7) then
+			table.insert(slot0.ships, slot7)
 
-		if slot2:getShipById(slot7).getTeamType(slot8) == TeamType.Vanguard then
-			table.insert(slot0.vanguardShips, slot7)
-		elseif slot9 == TeamType.Main then
-			table.insert(slot0.mainShips, slot7)
-		elseif slot9 == TeamType.Submarine then
-			table.insert(slot0.subShips, slot7)
+			if slot8:getTeamType() == TeamType.Vanguard then
+				table.insert(slot0.vanguardShips, slot7)
+			elseif slot9 == TeamType.Main then
+				table.insert(slot0.mainShips, slot7)
+			elseif slot9 == TeamType.Submarine then
+				table.insert(slot0.subShips, slot7)
+			end
 		end
 	end
 end

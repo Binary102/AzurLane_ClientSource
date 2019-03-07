@@ -7,8 +7,9 @@ return {
 				type = "BattleSkillFire",
 				target_choise = "TargetNil",
 				arg_list = {
-					weapon_id = 73012,
-					emitter = "BattleBulletEmitter"
+					emitter = "BattleBulletEmitter",
+					delay = 1,
+					weapon_id = 73012
 				}
 			}
 		}
@@ -35,8 +36,9 @@ return {
 			type = "BattleSkillFire",
 			target_choise = "TargetNil",
 			arg_list = {
-				weapon_id = 73012,
-				emitter = "BattleBulletEmitter"
+				emitter = "BattleBulletEmitter",
+				delay = 1,
+				weapon_id = 73012
 			}
 		}
 	}

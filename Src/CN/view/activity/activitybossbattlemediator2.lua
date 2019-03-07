@@ -120,6 +120,7 @@ function slot0.register(slot0)
 
 		slot0:sendNotification(GAME.GO_SCENE, SCENE.DOCKYARD, {
 			selectedMin = 0,
+			skipSelect = true,
 			selectedMax = 1,
 			ignoredIds = slot9,
 			activeShipId = slot11,
@@ -142,7 +143,8 @@ function slot0.register(slot0)
 	end)
 	slot0:bind(slot0.ON_FLEET_SHIPINFO, function (slot0, slot1)
 		slot0:sendNotification(GAME.GO_SCENE, SCENE.SHIPINFO, {
-			shipId = slot1.shipId
+			shipId = slot1.shipId,
+			shipVOs = slot1.shipVOs
 		})
 
 		slot0.contextData.editFleet = true
@@ -206,14 +208,13 @@ function slot0.register(slot0)
 		slot0.activityProxy:updateActivity(slot0.activityProxy.getActivityByType(ActivityConst.ACTIVITY_TYPE_BOSS_RANK))
 	end)
 
-	slot3 = slot0.activityProxy:getActivityByType(ActivityConst.ACTIVITY_TYPE_BOSS_BATTLE_MARK_2)
-	slot4 = slot3:getConfig("config_id")
+	slot4 = slot0.activityProxy:getActivityByType(ActivityConst.ACTIVITY_TYPE_BOSS_BATTLE_MARK_2).getConfig(slot3, "config_id")
 
 	slot0.viewComponent:setPtID(pg.activity_event_worldboss[slot4].damage_resource)
 
 	pg.extraenemy_template[pg.activity_event_worldboss[slot4].boss_id[1]].expedition[0] = pg.extraenemy_template[pg.activity_event_worldboss[slot4].boss_id[1]].expedition_dead
 
-	slot0.viewComponent:setInfomation(slot6, slot5, slot8, slot9)
+	slot0.viewComponent:setInfomation((pg.activity_event_worldboss[slot4].time == "stop" and 0) or pg.activity_event_worldboss[slot4].time[2], pg.activity_event_worldboss[slot4].reward_pt, slot8, slot9)
 	slot0.viewComponent:setPlayer(slot10)
 	slot0:sendNotification(GAME.ACTIVITY_BOSS_PAGE_UPDATE, {
 		activity_id = slot3.id

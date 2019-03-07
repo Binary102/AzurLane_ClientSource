@@ -3,6 +3,7 @@ pg.activity_event_worldboss = {
 	{
 		group_num = 1,
 		submarine_num = 1,
+		time = "stop",
 		damage_resource = 2001,
 		id = 1,
 		boss_id = {
@@ -90,35 +91,9 @@ pg.activity_event_worldboss = {
 				14205
 			}
 		},
-		time = {
-			{
-				{
-					2019,
-					2,
-					12
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					3,
-					7
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		formula = {
-			4,
-			0.32
+			0.02,
+			0.75
 		},
 		expedition = {
 			{
@@ -148,7 +123,7 @@ pg.activity_event_worldboss = {
 			{
 				1201205,
 				{
-					11900104
+					11900105
 				}
 			}
 		}

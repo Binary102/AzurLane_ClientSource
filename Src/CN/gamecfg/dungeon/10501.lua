@@ -245,13 +245,13 @@ return {
 					}
 				},
 				{
-					key = true,
 					triggerType = 0,
 					waveIndex = 104,
 					conditionType = 0,
 					preWaves = {
 						101,
-						102
+						102,
+						500
 					},
 					triggerParam = {},
 					spawn = {

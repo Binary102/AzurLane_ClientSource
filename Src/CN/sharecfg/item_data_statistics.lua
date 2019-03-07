@@ -17928,262 +17928,6 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
-	[41482] = {
-		display = "涅普顿赠送的情人节礼物",
-		rarity = 8,
-		type = 1,
-		name = "情人节礼物",
-		shop_id = -1,
-		shiptrans_id = 0,
-		virtual_type = 0,
-		replace_item = 0,
-		link_id = 0,
-		id = 41482,
-		icon = "SquareIcon/HDN101",
-		display_icon = {},
-		price = {},
-		index = {}
-	},
-	[41483] = {
-		display = "诺瓦露赠送的情人节礼物",
-		rarity = 8,
-		type = 1,
-		name = "情人节礼物",
-		shop_id = -1,
-		shiptrans_id = 0,
-		virtual_type = 0,
-		replace_item = 0,
-		link_id = 0,
-		id = 41483,
-		icon = "SquareIcon/HDN201",
-		display_icon = {},
-		price = {},
-		index = {}
-	},
-	[41484] = {
-		display = "布兰赠送的情人节礼物",
-		rarity = 8,
-		type = 1,
-		name = "情人节礼物",
-		shop_id = -1,
-		shiptrans_id = 0,
-		virtual_type = 0,
-		replace_item = 0,
-		link_id = 0,
-		id = 41484,
-		icon = "SquareIcon/HDN301",
-		display_icon = {},
-		price = {},
-		index = {}
-	},
-	[41485] = {
-		display = "贝露赠送的情人节礼物",
-		rarity = 8,
-		type = 1,
-		name = "情人节礼物",
-		shop_id = -1,
-		shiptrans_id = 0,
-		virtual_type = 0,
-		replace_item = 0,
-		link_id = 0,
-		id = 41485,
-		icon = "SquareIcon/HDN401",
-		display_icon = {},
-		price = {},
-		index = {}
-	},
-	[41486] = {
-		display = "绀紫之心赠送的情人节礼物",
-		rarity = 8,
-		type = 1,
-		name = "情人节礼物",
-		shop_id = -1,
-		shiptrans_id = 0,
-		virtual_type = 0,
-		replace_item = 0,
-		link_id = 0,
-		id = 41486,
-		icon = "SquareIcon/HDN102_1",
-		display_icon = {},
-		price = {},
-		index = {}
-	},
-	[41487] = {
-		display = "圣黑之心赠送的情人节礼物",
-		rarity = 8,
-		type = 1,
-		name = "情人节礼物",
-		shop_id = -1,
-		shiptrans_id = 0,
-		virtual_type = 0,
-		replace_item = 0,
-		link_id = 0,
-		id = 41487,
-		icon = "SquareIcon/HDN202_1",
-		display_icon = {},
-		price = {},
-		index = {}
-	},
-	[41488] = {
-		display = "群白之心赠送的情人节礼物",
-		rarity = 8,
-		type = 1,
-		name = "情人节礼物",
-		shop_id = -1,
-		shiptrans_id = 0,
-		virtual_type = 0,
-		replace_item = 0,
-		link_id = 0,
-		id = 41488,
-		icon = "SquareIcon/HDN302_1",
-		display_icon = {},
-		price = {},
-		index = {}
-	},
-	[41489] = {
-		display = "翡绿之心赠送的情人节礼物",
-		rarity = 8,
-		type = 1,
-		name = "情人节礼物",
-		shop_id = -1,
-		shiptrans_id = 0,
-		virtual_type = 0,
-		replace_item = 0,
-		link_id = 0,
-		id = 41489,
-		icon = "SquareIcon/HDN402_1",
-		display_icon = {},
-		price = {},
-		index = {}
-	},
-	[41490] = {
-		display = "22赠送的情人节礼物",
-		rarity = 8,
-		type = 1,
-		name = "情人节礼物",
-		shop_id = -1,
-		shiptrans_id = 0,
-		virtual_type = 0,
-		replace_item = 0,
-		link_id = 0,
-		id = 41490,
-		icon = "SquareIcon/22",
-		display_icon = {},
-		price = {},
-		index = {}
-	},
-	[41491] = {
-		display = "33赠送的情人节礼物",
-		rarity = 8,
-		type = 1,
-		name = "情人节礼物",
-		shop_id = -1,
-		shiptrans_id = 0,
-		virtual_type = 0,
-		replace_item = 0,
-		link_id = 0,
-		id = 41491,
-		icon = "SquareIcon/33",
-		display_icon = {},
-		price = {},
-		index = {}
-	},
-	[41492] = {
-		display = "久远赠送的情人节礼物",
-		rarity = 8,
-		type = 1,
-		name = "情人节礼物",
-		shop_id = -1,
-		shiptrans_id = 0,
-		virtual_type = 0,
-		replace_item = 0,
-		link_id = 0,
-		id = 41492,
-		icon = "SquareIcon/jiuyuan",
-		display_icon = {},
-		price = {},
-		index = {}
-	},
-	[41493] = {
-		display = "猫音赠送的情人节礼物",
-		rarity = 8,
-		type = 1,
-		name = "情人节礼物",
-		shop_id = -1,
-		shiptrans_id = 0,
-		virtual_type = 0,
-		replace_item = 0,
-		link_id = 0,
-		id = 41493,
-		icon = "SquareIcon/maoyin",
-		display_icon = {},
-		price = {},
-		index = {}
-	},
-	[41494] = {
-		display = "露露缇耶赠送的情人节礼物",
-		rarity = 8,
-		type = 1,
-		name = "情人节礼物",
-		shop_id = -1,
-		shiptrans_id = 0,
-		virtual_type = 0,
-		replace_item = 0,
-		link_id = 0,
-		id = 41494,
-		icon = "SquareIcon/lulutiye",
-		display_icon = {},
-		price = {},
-		index = {}
-	},
-	[41495] = {
-		display = "乌璐露赠送的情人节礼物",
-		rarity = 8,
-		type = 1,
-		name = "情人节礼物",
-		shop_id = -1,
-		shiptrans_id = 0,
-		virtual_type = 0,
-		replace_item = 0,
-		link_id = 0,
-		id = 41495,
-		icon = "SquareIcon/wululu",
-		display_icon = {},
-		price = {},
-		index = {}
-	},
-	[41496] = {
-		display = "萨拉娜赠送的情人节礼物",
-		rarity = 8,
-		type = 1,
-		name = "情人节礼物",
-		shop_id = -1,
-		shiptrans_id = 0,
-		virtual_type = 0,
-		replace_item = 0,
-		link_id = 0,
-		id = 41496,
-		icon = "SquareIcon/salana",
-		display_icon = {},
-		price = {},
-		index = {}
-	},
-	[41497] = {
-		display = "芙米露露赠送的情人节礼物",
-		rarity = 8,
-		type = 1,
-		name = "情人节礼物",
-		shop_id = -1,
-		shiptrans_id = 0,
-		virtual_type = 0,
-		replace_item = 0,
-		link_id = 0,
-		id = 41497,
-		icon = "SquareIcon/fumilulu",
-		display_icon = {},
-		price = {},
-		index = {}
-	},
 	[41498] = {
 		display = "海王星赠送的情人节礼物",
 		rarity = 8,
@@ -35690,123 +35434,7 @@ pg.item_data_statistics = {
 		link_id = 0,
 		id = 57021,
 		icon = "Props/54000",
-		display_icon = {
-			{
-				4,
-				201231,
-				1
-			},
-			{
-				4,
-				203071,
-				1
-			},
-			{
-				4,
-				203081,
-				1
-			},
-			{
-				4,
-				204021,
-				1
-			},
-			{
-				4,
-				101091,
-				1
-			},
-			{
-				4,
-				202021,
-				1
-			},
-			{
-				4,
-				202031,
-				1
-			},
-			{
-				4,
-				203051,
-				1
-			},
-			{
-				4,
-				101031,
-				1
-			},
-			{
-				4,
-				101041,
-				1
-			},
-			{
-				4,
-				101061,
-				1
-			},
-			{
-				4,
-				101071,
-				1
-			},
-			{
-				4,
-				201061,
-				1
-			},
-			{
-				4,
-				201071,
-				1
-			},
-			{
-				4,
-				201111,
-				1
-			},
-			{
-				4,
-				202011,
-				1
-			},
-			{
-				4,
-				206011,
-				1
-			},
-			{
-				4,
-				206011,
-				1
-			},
-			{
-				4,
-				105011,
-				1
-			},
-			{
-				4,
-				105021,
-				1
-			},
-			{
-				4,
-				106021,
-				1
-			},
-			{
-				4,
-				107011,
-				1
-			},
-			{
-				4,
-				107041,
-				1
-			}
-		},
+		display_icon = {},
 		price = {},
 		index = {}
 	},
@@ -35958,6 +35586,16 @@ pg.item_data_statistics = {
 			{
 				4,
 				205061,
+				1
+			},
+			{
+				4,
+				205041,
+				1
+			},
+			{
+				4,
+				201231,
 				1
 			},
 			{
@@ -60275,6 +59913,634 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[57561] = {
+		display = "有几率获得以下设计图",
+		rarity = 1,
+		type = 99,
+		name = "未知设计图",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 57561,
+		icon = "Props/55000",
+		display_icon = {
+			{
+				2,
+				10035,
+				1
+			},
+			{
+				2,
+				10079,
+				1
+			},
+			{
+				2,
+				6,
+				1
+			},
+			{
+				2,
+				19,
+				1
+			},
+			{
+				2,
+				30,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[57562] = {
+		display = "有几率获得以下设计图",
+		rarity = 1,
+		type = 99,
+		name = "未知设计图",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 57562,
+		icon = "Props/55000",
+		display_icon = {
+			{
+				2,
+				10014,
+				1
+			},
+			{
+				2,
+				10035,
+				1
+			},
+			{
+				2,
+				10036,
+				1
+			},
+			{
+				2,
+				10079,
+				1
+			},
+			{
+				2,
+				33,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[57563] = {
+		display = "有几率获得以下设计图",
+		rarity = 1,
+		type = 99,
+		name = "未知设计图",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 57563,
+		icon = "Props/55000",
+		display_icon = {
+			{
+				2,
+				11005,
+				1
+			},
+			{
+				2,
+				10015,
+				1
+			},
+			{
+				2,
+				10035,
+				1
+			},
+			{
+				2,
+				10036,
+				1
+			},
+			{
+				2,
+				10079,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[57564] = {
+		display = "有几率获得以下设计图",
+		rarity = 1,
+		type = 99,
+		name = "未知设计图",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 57564,
+		icon = "Props/55000",
+		display_icon = {
+			{
+				2,
+				10035,
+				1
+			},
+			{
+				2,
+				10079,
+				1
+			},
+			{
+				2,
+				6,
+				1
+			},
+			{
+				2,
+				19,
+				1
+			},
+			{
+				2,
+				30,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[57565] = {
+		display = "有几率获得以下设计图",
+		rarity = 1,
+		type = 99,
+		name = "未知设计图",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 57565,
+		icon = "Props/55000",
+		display_icon = {
+			{
+				2,
+				10014,
+				1
+			},
+			{
+				2,
+				10035,
+				1
+			},
+			{
+				2,
+				10036,
+				1
+			},
+			{
+				2,
+				10079,
+				1
+			},
+			{
+				2,
+				33,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[57566] = {
+		display = "有几率获得以下设计图",
+		rarity = 1,
+		type = 99,
+		name = "未知设计图",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 57566,
+		icon = "Props/55000",
+		display_icon = {
+			{
+				2,
+				10015,
+				1
+			},
+			{
+				2,
+				10035,
+				1
+			},
+			{
+				2,
+				10036,
+				1
+			},
+			{
+				2,
+				10079,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[57567] = {
+		display = "当前关卡有几率获得以下角色",
+		rarity = 1,
+		type = 99,
+		name = "未知角色",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 57567,
+		icon = "Props/54000",
+		display_icon = {
+			{
+				4,
+				101111,
+				1
+			},
+			{
+				4,
+				301151,
+				1
+			},
+			{
+				4,
+				101091,
+				1
+			},
+			{
+				4,
+				101121,
+				1
+			},
+			{
+				4,
+				201011,
+				1
+			},
+			{
+				4,
+				201121,
+				1
+			},
+			{
+				4,
+				201221,
+				1
+			},
+			{
+				4,
+				101031,
+				1
+			},
+			{
+				4,
+				101041,
+				1
+			},
+			{
+				4,
+				101061,
+				1
+			},
+			{
+				4,
+				101071,
+				1
+			},
+			{
+				4,
+				101131,
+				1
+			},
+			{
+				4,
+				101141,
+				1
+			},
+			{
+				4,
+				101151,
+				1
+			},
+			{
+				4,
+				201061,
+				1
+			},
+			{
+				4,
+				201071,
+				1
+			},
+			{
+				4,
+				201081,
+				1
+			},
+			{
+				4,
+				201091,
+				1
+			},
+			{
+				4,
+				201101,
+				1
+			},
+			{
+				4,
+				201111,
+				1
+			},
+			{
+				4,
+				102011,
+				1
+			},
+			{
+				4,
+				102021,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[57568] = {
+		display = "当前关卡有几率获得以下角色",
+		rarity = 1,
+		type = 99,
+		name = "未知角色",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 57568,
+		icon = "Props/54000",
+		display_icon = {
+			{
+				4,
+				201141,
+				1
+			},
+			{
+				4,
+				205011,
+				1
+			},
+			{
+				4,
+				101091,
+				1
+			},
+			{
+				4,
+				101121,
+				1
+			},
+			{
+				4,
+				201011,
+				1
+			},
+			{
+				4,
+				201121,
+				1
+			},
+			{
+				4,
+				201221,
+				1
+			},
+			{
+				4,
+				101031,
+				1
+			},
+			{
+				4,
+				101041,
+				1
+			},
+			{
+				4,
+				101061,
+				1
+			},
+			{
+				4,
+				101071,
+				1
+			},
+			{
+				4,
+				101131,
+				1
+			},
+			{
+				4,
+				101141,
+				1
+			},
+			{
+				4,
+				101151,
+				1
+			},
+			{
+				4,
+				201061,
+				1
+			},
+			{
+				4,
+				201071,
+				1
+			},
+			{
+				4,
+				201081,
+				1
+			},
+			{
+				4,
+				201091,
+				1
+			},
+			{
+				4,
+				201101,
+				1
+			},
+			{
+				4,
+				201111,
+				1
+			},
+			{
+				4,
+				102011,
+				1
+			},
+			{
+				4,
+				102021,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[57569] = {
+		display = "当前关卡有几率获得以下角色",
+		rarity = 1,
+		type = 99,
+		name = "未知角色",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 57569,
+		icon = "Props/54000",
+		display_icon = {
+			{
+				4,
+				401021,
+				1
+			},
+			{
+				4,
+				401011,
+				1
+			},
+			{
+				4,
+				101091,
+				1
+			},
+			{
+				4,
+				101121,
+				1
+			},
+			{
+				4,
+				201011,
+				1
+			},
+			{
+				4,
+				201121,
+				1
+			},
+			{
+				4,
+				201221,
+				1
+			},
+			{
+				4,
+				101031,
+				1
+			},
+			{
+				4,
+				101041,
+				1
+			},
+			{
+				4,
+				101061,
+				1
+			},
+			{
+				4,
+				101071,
+				1
+			},
+			{
+				4,
+				101131,
+				1
+			},
+			{
+				4,
+				101141,
+				1
+			},
+			{
+				4,
+				101151,
+				1
+			},
+			{
+				4,
+				201061,
+				1
+			},
+			{
+				4,
+				201071,
+				1
+			},
+			{
+				4,
+				201081,
+				1
+			},
+			{
+				4,
+				201091,
+				1
+			},
+			{
+				4,
+				201101,
+				1
+			},
+			{
+				4,
+				201111,
+				1
+			},
+			{
+				4,
+				102011,
+				1
+			},
+			{
+				4,
+				102021,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
 	[59000] = {
 		display = "参与角色将获得经验值",
 		rarity = 2,
@@ -60740,17 +61006,33 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[59122] = {
-		display = "用于凛冬王冠活动获取补给，活动结束后将会消失",
+		display = "参与『特别演习·埃塞克斯级』获得的点数，累计一定程度可以领取报酬",
 		rarity = 2,
 		type = 98,
-		name = "世界boss-pt",
+		name = "贡献值",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
 		replace_item = 0,
 		link_id = 0,
 		id = 59122,
-		icon = "Props/crownPT",
+		icon = "Props/59122",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59123] = {
+		display = "用于『纳尔维克海战』活动提升角色好感，活动结束后将会消失",
+		rarity = 2,
+		type = 98,
+		name = "友好度-猎人",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 59123,
+		icon = "Props/lierenPT",
 		display_icon = {},
 		price = {},
 		index = {}
@@ -63555,22 +63837,6 @@ pg.item_data_statistics = {
 		41479,
 		41480,
 		41481,
-		41482,
-		41483,
-		41484,
-		41485,
-		41486,
-		41487,
-		41488,
-		41489,
-		41490,
-		41491,
-		41492,
-		41493,
-		41494,
-		41495,
-		41496,
-		41497,
 		41498,
 		41499,
 		41500,
@@ -64184,6 +64450,15 @@ pg.item_data_statistics = {
 		57555,
 		57556,
 		57560,
+		57561,
+		57562,
+		57563,
+		57564,
+		57565,
+		57566,
+		57567,
+		57568,
+		57569,
 		59000,
 		59001,
 		59002,
@@ -64214,6 +64489,7 @@ pg.item_data_statistics = {
 		59120,
 		59121,
 		59122,
+		59123,
 		59601,
 		59602,
 		59603,

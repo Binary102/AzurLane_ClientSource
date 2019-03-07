@@ -355,8 +355,9 @@ function slot1(slot0, slot1, slot2)
 			slot20 = slot3.id
 			slot21 = TeamType
 			slot21 = slot21.Submarine
+			slot22 = slot3
 
-			slot16(slot17, slot18, slot19, slot20, slot21)
+			slot16(slot17, slot18, slot19, slot20, slot21, slot22)
 		else
 			slot17 = slot0
 			slot16 = slot0.updateShips
@@ -365,8 +366,9 @@ function slot1(slot0, slot1, slot2)
 			slot20 = slot3.id
 			slot21 = TeamType
 			slot21 = slot21.Main
+			slot22 = slot3
 
-			slot16(slot17, slot18, slot19, slot20, slot21)
+			slot16(slot17, slot18, slot19, slot20, slot21, slot22)
 
 			slot17 = slot0
 			slot16 = slot0.updateShips
@@ -375,8 +377,9 @@ function slot1(slot0, slot1, slot2)
 			slot20 = slot3.id
 			slot21 = TeamType
 			slot21 = slot21.Vanguard
+			slot22 = slot3
 
-			slot16(slot17, slot18, slot19, slot20, slot21)
+			slot16(slot17, slot18, slot19, slot20, slot21, slot22)
 		end
 
 		slot17 = slot0
@@ -539,16 +542,16 @@ end
 
 slot0.updateCommanders = slot1
 
-function slot1(slot0, slot1, slot2, slot3, slot4)
-	slot5 = UIItemList
-	slot5 = slot5.New
-	slot6 = slot1
-	slot7 = slot0.tfShipTpl
-	slot5 = slot5(slot6, slot7)
-	slot7 = slot5
-	slot6 = slot5.make
+function slot1(slot0, slot1, slot2, slot3, slot4, slot5)
+	slot6 = UIItemList
+	slot6 = slot6.New
+	slot7 = slot1
+	slot8 = slot0.tfShipTpl
+	slot6 = slot6(slot7, slot8)
+	slot8 = slot6
+	slot7 = slot6.make
 
-	function slot8(slot0, slot1, slot2)
+	function slot9(slot0, slot1, slot2)
 		slot3 = UIItemList
 		slot3 = slot3.EventUpdate
 
@@ -690,10 +693,25 @@ function slot1(slot0, slot1, slot2, slot3, slot4)
 					slot0 = slot0.onLongPressShip
 					slot1 = slot0
 					slot1 = slot1.id
+					slot2 = _
+					slot2 = slot2.map
+					slot3 = slot2
+					slot4 = slot3
+					slot3 = slot3.getShipIds
+					slot3 = slot3(slot4)
 
-					slot0(slot1)
+					function slot4(slot0)
+						slot1 = slot0
+						slot2 = slot1
+						slot1 = slot1.getShipById
+						slot3 = slot0
+
+						return slot1(slot2, slot3)
+					end
+
+					slot0(slot1, slot2(slot3, slot4))
 				else
-					slot0 = slot2
+					slot0 = slot4
 
 					slot0()
 				end
@@ -703,13 +721,13 @@ function slot1(slot0, slot1, slot2, slot3, slot4)
 		end
 	end
 
-	slot6(slot7, slot8)
+	slot7(slot8, slot9)
 
-	slot7 = slot5
-	slot6 = slot5.align
-	slot8 = 3
+	slot8 = slot6
+	slot7 = slot6.align
+	slot9 = 3
 
-	slot6(slot7, slot8)
+	slot7(slot8, slot9)
 end
 
 slot0.updateShips = slot1

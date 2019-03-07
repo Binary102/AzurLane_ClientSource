@@ -3167,6 +3167,42 @@ pg.gametip = {
 			}
 		}
 	},
+	levelScene_activate_loop_mode_failed = {
+		tip = "需要将关卡进行至安全海域、并且达成三星条件才可选择周回模式",
+		key = "levelScene_activate_loop_mode_failed"
+	},
+	levelScene_coastalgun_help_tip = {
+		key = "levelScene_coastalgun_help_tip",
+		tip = {
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/coastalgun_1"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/coastalgun_2"
+				}
+			},
+			disableScroll = true,
+			pageMode = true,
+			defaultpage = 1,
+			ImageMode = true,
+			windowSize = {
+				x = 836,
+				y = 740
+			},
+			windowPos = {
+				y = 15
+			},
+			helpSize = {
+				x = 836,
+				y = 660
+			}
+		}
+	},
 	tack_tickets_max_warning = {
 		tip = "所持<color=#ffff00>档案密钥</color>数量达到上限，完成任务后只能获得<color=#D6341DFF>$1</color>份<color=#ffff00>档案密钥</color>，是否确认领取？",
 		key = "tack_tickets_max_warning"
@@ -4777,7 +4813,11 @@ NPC角色正式加入时，保留强化、突破状态及技能等级；
 							<color=#fff157>超稀有舰船</color>：$2%
 							 <color=#966af6>精锐舰船</color>：$3%
 							 <color=#60a9ff>稀有舰船</color>：$4%
-							 普通舰船：$5%]],
+							 普通舰船：$5%
+
+							  【限时建造】
+							<color=#fff157>  香格里拉</color>：2%<color=#A9F548>(up!)</color>
+							<color=#fff157>  埃塞克斯</color>：1.8%<color=#A9F548>(up!)</color>]],
 		key = "help_build_1"
 	},
 	help_build_2 = {
@@ -4787,7 +4827,11 @@ NPC角色正式加入时，保留强化、突破状态及技能等级；
 							<color=#fff157>超稀有舰船</color>：$2%
 							 <color=#966af6>精锐舰船</color>：$3%
 							 <color=#60a9ff>稀有舰船</color>：$4%
-							 普通舰船：$5%]],
+							 普通舰船：$5%
+
+							  【限时建造】
+							<color=#966af6>  勇敢</color>：1.4%<color=#A9F548>(up!)</color>
+							<color=#966af6>  Z2</color>：1.4%<color=#A9F548>(up!)</color>]],
 		key = "help_build_2"
 	},
 	help_build_4 = {
@@ -4798,8 +4842,11 @@ NPC角色正式加入时，保留强化、突破状态及技能等级；
 							 普通舰船：$5%
 
 							  【限时建造】
-							<color=#fff157>  香格里拉</color>：2%<color=#A9F548>(up!)</color>
-							<color=#fff157>  埃塞克斯</color>：1.8%<color=#A9F548>(up!)</color></size>]],
+							<color=#fff157>    胜利</color>：2.25%<color=#A9F548>(up!)</color>
+						<color=#fff157>     天狼星</color>：2%<color=#A9F548>(up!)</color>
+					<color=#966af6>      谢菲尔德</color>：2.5%<color=#A9F548>(up!)</color>
+							<color=#966af6>    无敌</color>：2.5%<color=#A9F548>(up!)</color>
+						<color=#60a9ff>     牙买加</color>：5%<color=#A9F548>(up!)</color></size>]],
 		key = "help_build_4"
 	},
 	help_build_5 = {
@@ -6777,7 +6824,7 @@ NPC角色正式加入时，保留强化、突破状态及技能等级；
 		key = "level_risk_level_mitigation_rate"
 	},
 	level_diffcult_chapter_state_safety = {
-		tip = "<size=24>地图达成<color=#A9F548>3星收集</color>并成为<color=#A9F548>安全海域</color>后\n出击舰队可直接攻击<color=#A9F548>敌方旗舰</color></size>",
+		tip = "<size=24>地图达成<color=#A9F548>3星收集</color>并成为<color=#A9F548>安全海域</color>后\n开启周回模式，出击舰队可直接攻击<color=#A9F548>敌方旗舰</color></size>",
 		key = "level_diffcult_chapter_state_safety"
 	},
 	level_chapter_state_high_risk = {
@@ -9098,16 +9145,32 @@ $3]],
 		}
 	},
 	world_boss_tip = {
-		tip = "「<color=#7e7e7f>$1</color>」为演习做出了<color=#8299bc>$2</color>贡献 ",
+		tip = "「<color=#7e7e7f>$1</color>」为演习做出了<color=#8299bc>$2</color>贡献",
 		key = "world_boss_tip"
 	},
 	world_boss_award_limit = {
-		tip = "演习据点耐久降至<color=#FFDE00FF>$1%</color>及以下后解锁 ",
+		tip = "演习据点耐久降至<color=#FFDE00FF>$1%</color>及以下后解锁",
 		key = "world_boss_award_limit"
 	},
 	backyard_is_loading = {
 		tip = "后宅准备中，请稍等～",
 		key = "backyard_is_loading"
+	},
+	levelScene_loop_help_tip = {
+		key = "levelScene_loop_help_tip",
+		tip = {
+			{
+				info = [[
+海域达成<color=#A9F548>三星条件</color>并达成<color=#A9F548>安全海域</color>后可开启<color=#A9F548>周回模式</color>
+
+启用周回模式后，海域将有以下变化：
+
+1 通常海域困难模式中<color=#A9F548>不会出现</color>敌人护卫舰队
+2 活动关卡的敌人设置将会出现一部分变化
+3 活动关卡中我方的移动格数<color=#A9F548>不会受到移动力限制</color>，可自由移动
+4 活动“峡湾间的星辰”将<color=#A9F548>不会出现岸防炮</color>]]
+			}
+		}
 	}
 }
 

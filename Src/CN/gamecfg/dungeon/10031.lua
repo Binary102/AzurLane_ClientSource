@@ -163,16 +163,11 @@ return {
 							onceNumber = 3,
 							totalNumber = 6,
 							formation = 10006,
-							delay = 0,
 							templateID = 31201,
+							delay = 0,
 							score = 1,
 							weaponID = {
-								316509
-							},
-							attr = {
-								airPower = 125,
-								maxHP = 90,
-								attackRating = 23
+								300016
 							}
 						}
 					}
@@ -255,16 +250,11 @@ return {
 							onceNumber = 3,
 							totalNumber = 6,
 							formation = 10006,
-							delay = 0,
 							templateID = 31301,
+							delay = 0,
 							score = 1,
 							weaponID = {
-								316507
-							},
-							attr = {
-								airPower = 125,
-								maxHP = 90,
-								attackRating = 23
+								300015
 							}
 						}
 					}

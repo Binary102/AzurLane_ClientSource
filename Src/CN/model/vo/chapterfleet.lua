@@ -64,6 +64,7 @@ function slot0.update(slot0, slot1)
 
 	slot0.baseSpeed = slot0:calcBaseSpeed()
 	slot0.rotation = Quaternion.identity
+	slot0.slowSpeedFactor = slot1.move_step_down
 
 	slot0:updateCommanders(slot1.commander_list)
 
@@ -430,8 +431,12 @@ function slot0.containsSameKind(slot0, slot1)
 	end)
 end
 
+function slot0.increaseSlowSpeedFactor(slot0)
+	slot0.slowSpeedFactor = slot0.slowSpeedFactor + 1
+end
+
 function slot0.getSpeed(slot0)
-	return slot0.baseSpeed + (slot0:triggerSkill(FleetSkill.TypeMoveSpeed) or 0)
+	return math.max((slot0.baseSpeed + (slot0:triggerSkill(FleetSkill.TypeMoveSpeed) or 0)) - slot0.slowSpeedFactor, 1)
 end
 
 function slot0.calcBaseSpeed(slot0)

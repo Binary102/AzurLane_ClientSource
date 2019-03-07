@@ -2777,20 +2777,20 @@ pg.furniture_data_template = {
 		can_rotate = 0,
 		name = "神奇的魔法帽",
 		gain_by = "",
-		type = 11,
+		type = 7,
 		dir = 0,
-		picture = "",
+		effect = "",
+		icon = "19.03.15icon",
 		is_get_time_note = 0,
+		belong = 1,
 		count = 1,
 		advice = 0,
-		effect = "",
 		dorm_icon_price = 40,
 		not_for_sale = 1,
-		icon = "19.03.15icon",
 		deblocking = 1,
 		level = 1,
 		rarity = 4,
-		belong = 1,
+		picture = "",
 		canputon = 0,
 		discount = 0,
 		id = 100004,
@@ -2805,51 +2805,11 @@ pg.furniture_data_template = {
 		new = 1,
 		discount_time = "",
 		size = {
-			3,
+			4,
 			4
 		},
 		offset = {},
 		canputonGrid = {},
-		spine = {
-			{
-				"zhuqingting",
-				"normal"
-			},
-			{},
-			{
-				{
-					0,
-					0
-				},
-				{
-					{
-						"tuozhuai2"
-					}
-				},
-				{
-					nil,
-					1
-				},
-				{
-					1
-				}
-			},
-			{},
-			{
-				0,
-				0
-			},
-			{
-				1,
-				1
-			},
-			0.5
-		},
-		animator = {
-			{
-				"zhuqingtingCharControl"
-			}
-		},
 		interAction_group = {}
 	},
 	[1001] = {
@@ -66445,6 +66405,1884 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[40001] = {
+		can_rotate = 0,
+		name = "雪国山峦",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		effect = "",
+		icon = "qiangbixdicon",
+		is_get_time_note = 0,
+		belong = 0,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 150,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 4,
+		picture = "xuedi/qiangbixd",
+		canputon = 0,
+		discount = 0,
+		id = 40001,
+		comfortable = 4,
+		describe = "没法听到呐喊后的回声是唯一的遗憾了吧～",
+		dorm_id = 0,
+		gem_price = 450,
+		can_trigger = 0,
+		themeId = 40,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					3,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[40002] = {
+		can_rotate = 0,
+		name = "绵绵雪地",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		effect = "",
+		icon = "dibanxdicon",
+		is_get_time_note = 0,
+		belong = 0,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 150,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 5,
+		rarity = 4,
+		picture = "xuedi/dibanxd",
+		canputon = 0,
+		discount = 0,
+		id = 40002,
+		comfortable = 4,
+		describe = "一起来踩雪吧！",
+		dorm_id = 0,
+		gem_price = 450,
+		can_trigger = 0,
+		themeId = 40,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					3,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[40101] = {
+		can_rotate = 0,
+		name = "冰屋",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		icon = "bingwuxdicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		picture = "xuedi/bingwuxd",
+		canputon = 0,
+		discount = 0,
+		id = 40101,
+		comfortable = 3,
+		describe = "虽然是冰做的，里面却还是很温暖，为什么呢……",
+		dorm_id = 0,
+		gem_price = 240,
+		can_trigger = 0,
+		themeId = 40,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			4,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					3,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[40102] = {
+		can_rotate = 0,
+		name = "盖雪草堆",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		icon = "caoxdicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 2,
+		advice = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "xuedi/caoxd",
+		canputon = 0,
+		discount = 0,
+		id = 40102,
+		comfortable = 2,
+		describe = "点缀白雪世界的一抹绿～",
+		dorm_id = 0,
+		gem_price = 120,
+		can_trigger = 0,
+		themeId = 40,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			3,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					3,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[40103] = {
+		can_rotate = 1,
+		name = "木柴堆",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		icon = "chaixdicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "xuedi/chaixd",
+		canputon = 0,
+		discount = 0,
+		id = 40103,
+		comfortable = 2,
+		describe = "无论是用来烤红薯还是取暖都很好用哦~",
+		dorm_id = 0,
+		gem_price = 120,
+		can_trigger = 0,
+		themeId = 40,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					3,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[40104] = {
+		can_rotate = 0,
+		name = "雪山温泉",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "chixdicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		picture = "xuedi/chixd",
+		canputon = 0,
+		discount = 0,
+		id = 40104,
+		comfortable = 3,
+		describe = "果然雪山就应该搭配温泉呢～",
+		dorm_id = 0,
+		gem_price = 240,
+		can_trigger = 0,
+		themeId = 40,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			6,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"wash",
+				{
+					58.6,
+					-58.2
+				},
+				{
+					1,
+					1
+				},
+				"xuedi/chixd_using"
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					3,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[40105] = {
+		can_rotate = 0,
+		name = "防风灯",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		icon = "dengxdicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "xuedi/dengxd",
+		canputon = 0,
+		discount = 0,
+		id = 40105,
+		comfortable = 2,
+		describe = "小小的灯火，照亮你我的笑颜～",
+		dorm_id = 0,
+		gem_price = 120,
+		can_trigger = 0,
+		themeId = 40,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					3,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[40106] = {
+		can_rotate = 1,
+		name = "冰雕",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "diaoxdicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		picture = "xuedi/diaoxd",
+		canputon = 0,
+		discount = 0,
+		id = 40106,
+		comfortable = 3,
+		describe = "经过雕琢的冰块就成了装饰品，坐上去合个影吧~",
+		dorm_id = 0,
+		gem_price = 240,
+		can_trigger = 0,
+		themeId = 40,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-4.9,
+					61.2
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					3,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[40107] = {
+		can_rotate = 0,
+		name = "烤红薯",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		icon = "fanshuxdicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		picture = "xuedi/fanshuxd",
+		canputon = 0,
+		discount = 0,
+		id = 40107,
+		comfortable = 3,
+		describe = "烤红薯是童年回忆的味道",
+		dorm_id = 0,
+		gem_price = 240,
+		can_trigger = 0,
+		themeId = 40,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					3,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[40108] = {
+		can_rotate = 0,
+		name = "肥海豹",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		icon = "haibaoxdicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		picture = "xuedi/haibaoxd",
+		canputon = 0,
+		discount = 0,
+		id = 40108,
+		comfortable = 3,
+		describe = "可爱的小海豹…可爱…大概",
+		dorm_id = 0,
+		gem_price = 240,
+		can_trigger = 0,
+		themeId = 40,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					3,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[40109] = {
+		can_rotate = 0,
+		name = "围巾啾",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		icon = "jiuxdicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "xuedi/jiuxd",
+		canputon = 0,
+		discount = 0,
+		id = 40109,
+		comfortable = 2,
+		describe = "在雪地里睡着…会死的哦？",
+		dorm_id = 0,
+		gem_price = 120,
+		can_trigger = 0,
+		themeId = 40,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					3,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[40110] = {
+		can_rotate = 0,
+		name = "冰窟窿",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		icon = "kulongxdicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "xuedi/kulongxd",
+		canputon = 0,
+		discount = 0,
+		id = 40110,
+		comfortable = 2,
+		describe = "打碎冰块就可以垂钓了！但是小心不要掉下去哦？",
+		dorm_id = 0,
+		gem_price = 120,
+		can_trigger = 0,
+		themeId = 40,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					3,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[40111] = {
+		can_rotate = 0,
+		name = "隔栏",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		icon = "langanxdicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 20,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 1,
+		picture = "xuedi/langanxd",
+		canputon = 0,
+		discount = 0,
+		id = 40111,
+		comfortable = 1,
+		describe = "前方危险，不要轻易靠近哦？",
+		dorm_id = 0,
+		gem_price = 60,
+		can_trigger = 0,
+		themeId = 40,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					3,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[40112] = {
+		can_rotate = 0,
+		name = "木板小路",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		effect = "",
+		icon = "luxdicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		picture = "xuedi/luxd",
+		canputon = 0,
+		discount = 0,
+		id = 40112,
+		comfortable = 3,
+		describe = "残留着积雪的木板路，小心滑倒哟",
+		dorm_id = 0,
+		gem_price = 240,
+		can_trigger = 0,
+		themeId = 40,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					3,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[40114] = {
+		can_rotate = 0,
+		name = "雪山企鹅",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		icon = "qiexdicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		picture = "xuedi/qiexd",
+		canputon = 0,
+		discount = 0,
+		id = 40114,
+		comfortable = 3,
+		describe = "咦？企鹅…玩偶？",
+		dorm_id = 0,
+		gem_price = 240,
+		can_trigger = 0,
+		themeId = 40,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					3,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[40115] = {
+		can_rotate = 0,
+		name = "雪球",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		icon = "qiuxdicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "xuedi/qiuxd",
+		canputon = 0,
+		discount = 0,
+		id = 40115,
+		comfortable = 2,
+		describe = "打雪仗还是堆雪人呢？当然是两个都要！",
+		dorm_id = 0,
+		gem_price = 120,
+		can_trigger = 0,
+		themeId = 40,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					3,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[40116] = {
+		can_rotate = 0,
+		name = "小石头",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		icon = "shitouxdicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "xuedi/shitouxd",
+		canputon = 0,
+		discount = 0,
+		id = 40116,
+		comfortable = 2,
+		describe = "如果撞到了大概会很疼吧",
+		dorm_id = 0,
+		gem_price = 120,
+		can_trigger = 0,
+		themeId = 40,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					3,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[40117] = {
+		can_rotate = 0,
+		name = "绿色小树",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		icon = "shuxdicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "xuedi/shuxd",
+		canputon = 0,
+		discount = 0,
+		id = 40117,
+		comfortable = 2,
+		describe = "白雪中的另一抹绿",
+		dorm_id = 0,
+		gem_price = 120,
+		can_trigger = 0,
+		themeId = 40,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					3,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[40118] = {
+		can_rotate = 0,
+		name = "白熊",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 150,
+		not_for_sale = 0,
+		icon = "xiongxdicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 4,
+		picture = "xuedi/xiongxd",
+		canputon = 0,
+		discount = 0,
+		id = 40118,
+		comfortable = 4,
+		describe = "咦……？这种地方会有…北极熊吗？",
+		dorm_id = 0,
+		gem_price = 450,
+		can_trigger = 0,
+		themeId = 40,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			4,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					29,
+					82.6
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					3,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[40119] = {
+		can_rotate = 0,
+		name = "雪地靴",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		icon = "xuexdicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "xuedi/xuexd",
+		canputon = 0,
+		discount = 0,
+		id = 40119,
+		comfortable = 2,
+		describe = "保暖又轻巧，而且最重要的是可以防止跌倒~",
+		dorm_id = 0,
+		gem_price = 120,
+		can_trigger = 0,
+		themeId = 40,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					3,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[40120] = {
+		can_rotate = 0,
+		name = "脚印",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		effect = "",
+		icon = "yingxdicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "xuedi/yingxd",
+		canputon = 0,
+		discount = 0,
+		id = 40120,
+		comfortable = 2,
+		describe = "这是…悬疑案件的预感！",
+		dorm_id = 0,
+		gem_price = 120,
+		can_trigger = 0,
+		themeId = 40,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			4,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					3,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[40121] = {
+		can_rotate = 0,
+		name = "雪山长椅",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 2,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "yizixdicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		picture = "xuedi/yizixd",
+		canputon = 0,
+		discount = 0,
+		id = 40121,
+		comfortable = 3,
+		describe = "滑雪累了就坐下来休息下吧？",
+		dorm_id = 0,
+		gem_price = 240,
+		can_trigger = 0,
+		themeId = 40,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-10.7,
+					23.5
+				},
+				{
+					-1,
+					1
+				},
+				"xuedi/yizixd_using"
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					3,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[40122] = {
+		can_rotate = 0,
+		name = "矮栅栏",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		icon = "zhalan1xdicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "xuedi/zhalan1xd",
+		canputon = 0,
+		discount = 0,
+		id = 40122,
+		comfortable = 2,
+		describe = "打雪仗时候的绝佳掩体，嘿~看我的！",
+		dorm_id = 0,
+		gem_price = 120,
+		can_trigger = 0,
+		themeId = 40,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					3,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[40123] = {
+		can_rotate = 0,
+		name = "高栅栏",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		icon = "zhalan2xdicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		picture = "xuedi/zhalan2xd",
+		canputon = 0,
+		discount = 0,
+		id = 40123,
+		comfortable = 3,
+		describe = "不可以随便翻过去哦？",
+		dorm_id = 0,
+		gem_price = 240,
+		can_trigger = 0,
+		themeId = 40,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			4,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					3,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[40124] = {
+		can_rotate = 0,
+		name = "露营帐篷",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 2,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 150,
+		not_for_sale = 0,
+		icon = "zhangpengxdicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 4,
+		picture = "xuedi/zhangpengxd",
+		canputon = 0,
+		discount = 0,
+		id = 40124,
+		comfortable = 4,
+		describe = "在温暖的帐篷里小睡，仿佛窗外的风雪都变得温柔起来。",
+		dorm_id = 0,
+		gem_price = 450,
+		can_trigger = 0,
+		themeId = 40,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					5.3,
+					-27.6
+				},
+				{
+					1,
+					1
+				},
+				"xuedi/zhangpengxd_using"
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					3,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[40125] = {
+		can_rotate = 0,
+		name = "滑雪坡",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		picture = "xuedi/xuepoxd",
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 0,
+		not_for_sale = 0,
+		icon = "xuepoxdicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 40125,
+		comfortable = 3,
+		describe = "前进！前进！不要停下来～",
+		dorm_id = 0,
+		gem_price = 150,
+		can_trigger = 0,
+		themeId = 40,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			5,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		spine = {
+			{
+				"xueqiaoB",
+				"normal"
+			},
+			{
+				"xueqiaoT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					},
+					{
+						"walk"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					3,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		animator = {
+			{
+				"xueqiaoCharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[40126] = {
+		can_rotate = 1,
+		name = "啾啾缆车",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		picture = "xuedi/lanchexd",
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 0,
+		not_for_sale = 0,
+		icon = "lanchexdicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 40126,
+		comfortable = 3,
+		describe = "在缆车上乱动的话，会掉下去的哟？",
+		dorm_id = 0,
+		gem_price = 150,
+		can_trigger = 0,
+		themeId = 40,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			5,
+			21
+		},
+		offset = {},
+		canputonGrid = {},
+		spine = {
+			{
+				"lancheB",
+				"normal"
+			},
+			{
+				"lancheT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					},
+					{
+						"walk"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					3,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		animator = {
+			{
+				"lancheBCharControl"
+			}
+		},
+		interAction_group = {}
+	},
 	[41001] = {
 		can_rotate = 0,
 		name = "过山车轨道",
@@ -68971,6 +70809,33 @@ pg.furniture_data_template = {
 		39305,
 		39306,
 		39307,
+		40001,
+		40002,
+		40101,
+		40102,
+		40103,
+		40104,
+		40105,
+		40106,
+		40107,
+		40108,
+		40109,
+		40110,
+		40111,
+		40112,
+		40114,
+		40115,
+		40116,
+		40117,
+		40118,
+		40119,
+		40120,
+		40121,
+		40122,
+		40123,
+		40124,
+		40125,
+		40126,
 		41001,
 		41002,
 		41101,

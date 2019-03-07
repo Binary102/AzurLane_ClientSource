@@ -71,7 +71,8 @@ return {
 								icon = "aisaikesi"
 							},
 							buffList = {
-								8607
+								8607,
+								8610
 							},
 							phase = {
 								{

@@ -76,6 +76,10 @@ function ys.Battle.BattleEnemyCharacter.AddShadow(slot0, slot1)
 	slot0.super.AddShadow(slot0, slot1)
 end
 
+function ys.Battle.BattleEnemyCharacter.GetSpecificFXScale(slot0)
+	return slot0._unitData:GetTemplate().specific_fx_scale
+end
+
 function ys.Battle.BattleEnemyCharacter.OnAnimatorTrigger(slot0)
 	slot0._unitData:CharacterActionTriggerCallback()
 end

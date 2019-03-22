@@ -19,7 +19,7 @@ return {
 			arg_list = {
 				group = 60024,
 				number = -0.15,
-				attr = "damageGetRatio"
+				attr = "injureRatio"
 			}
 		}
 	}

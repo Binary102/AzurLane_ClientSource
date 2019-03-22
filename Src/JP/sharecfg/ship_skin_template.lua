@@ -51,6 +51,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -156,6 +161,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -203,6 +213,103 @@ pg.ship_skin_template = {
 						{
 							-0.436,
 							2.45,
+							-0.16
+						}
+					}
+				}
+			}
+		}
+	},
+	[101020] = {
+		name = "デューイ",
+		bullet_skin_main = "",
+		ship_group = 10102,
+		illustrator2 = -1,
+		bullet_skin_secondary = "",
+		painting = "duwei",
+		air_bullet_skin = "",
+		shop_type_id = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		skin_type = -1,
+		id = 101020,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "duwei",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		desc = "ファラガット級駆逐艦・デューイ（DD-349)",
+		voice_actor = -1,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.1,
+					0.79,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.18,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.15,
+					0.74,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.45,
+							2.37,
 							-0.16
 						}
 					}
@@ -261,6 +368,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -366,6 +478,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -458,6 +575,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -563,6 +685,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -655,6 +782,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -762,6 +894,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -854,6 +991,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -961,6 +1103,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -1053,6 +1200,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -1158,6 +1310,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -1263,6 +1420,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -1368,6 +1530,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -1473,6 +1640,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -1578,6 +1750,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -1683,6 +1860,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -1788,6 +1970,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -1893,6 +2080,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -2003,6 +2195,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -2128,6 +2325,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -2221,6 +2423,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -2331,6 +2538,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -2423,6 +2635,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -2535,6 +2752,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -2634,6 +2856,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -2746,6 +2973,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -2845,6 +3077,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -2957,6 +3194,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -3064,6 +3306,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -3158,6 +3405,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -3251,6 +3503,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -3363,6 +3620,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -3468,6 +3730,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -3560,6 +3827,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -3652,6 +3924,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -3744,6 +4021,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -3836,6 +4118,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -3928,6 +4215,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -4022,6 +4314,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -4114,6 +4411,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -4206,6 +4508,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -4298,6 +4605,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -4390,6 +4702,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -4484,6 +4801,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -4576,6 +4898,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -4670,6 +4997,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -4762,6 +5094,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -4856,6 +5193,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -4948,6 +5290,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -5042,6 +5389,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -5134,6 +5486,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -5244,6 +5601,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -5354,6 +5716,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -5469,6 +5836,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -5584,6 +5956,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -5701,6 +6078,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -5793,6 +6175,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -5903,6 +6290,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -6013,6 +6405,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -6125,6 +6522,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -6217,6 +6619,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -6309,6 +6716,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -6424,6 +6836,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -6523,6 +6940,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -6655,6 +7077,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -6754,6 +7181,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -6866,6 +7298,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -6965,6 +7402,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -7066,6 +7508,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -7166,6 +7613,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -7285,6 +7737,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -7384,6 +7841,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -7484,6 +7946,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -7603,6 +8070,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -7717,6 +8189,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -7811,6 +8288,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -7910,6 +8392,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -8002,6 +8489,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -8094,6 +8586,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -8188,6 +8685,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -8280,6 +8782,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -8392,6 +8899,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -8504,6 +9016,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -8609,6 +9126,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -8719,6 +9241,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -8838,6 +9365,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -8945,6 +9477,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -9037,6 +9574,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -9142,6 +9684,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -9249,6 +9796,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -9341,6 +9893,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -9435,6 +9992,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -9527,6 +10089,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -9621,6 +10188,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -9713,6 +10285,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -9805,6 +10382,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -9897,6 +10479,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -9989,6 +10576,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -10094,6 +10686,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -10188,6 +10785,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -10280,6 +10882,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -10390,6 +10997,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -10482,6 +11094,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -10592,6 +11209,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -10684,6 +11306,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -10799,6 +11426,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -10914,6 +11546,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -11029,6 +11666,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -11144,6 +11786,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -11236,6 +11883,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -11328,6 +11980,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -11420,6 +12077,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -11512,6 +12174,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -11604,6 +12271,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -11723,6 +12395,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -11822,6 +12499,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -11921,6 +12603,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -12019,6 +12706,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -12117,6 +12809,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -12215,6 +12912,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -12313,6 +13015,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -12411,6 +13118,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -12533,6 +13245,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -12645,6 +13362,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -12771,6 +13493,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -12882,6 +13609,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -12987,6 +13719,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -13079,6 +13816,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -13171,6 +13913,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -13269,6 +14016,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -13354,6 +14106,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -13457,6 +14214,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -13557,6 +14319,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -13644,6 +14411,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -13729,6 +14501,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -13814,6 +14591,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -13912,6 +14694,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -13997,6 +14784,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -14011,6 +14803,96 @@ pg.ship_skin_template = {
 				{
 					1.09,
 					1.32,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.41,
+							2.37,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[107170] = {
+		name = "バンカー・ヒル",
+		bullet_skin_main = "",
+		ship_group = 10717,
+		illustrator2 = -1,
+		bullet_skin_secondary = "",
+		painting = "bangkeshan",
+		air_bullet_skin = "",
+		shop_type_id = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		skin_type = -1,
+		id = 107170,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "bangkeshan",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		desc = "エセックス級航空母艦・バンカー・ヒル（CV-17)",
+		voice_actor = -1,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					1.29,
+					1.03,
+					0
+				}
+			},
+			plane = {
+				{
+					1.41,
+					1.07,
 					0
 				}
 			}
@@ -14082,6 +14964,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -14169,6 +15056,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -14254,6 +15146,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -14341,6 +15238,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -14426,6 +15328,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -14511,6 +15418,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -14596,6 +15508,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -14696,6 +15613,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -14781,6 +15703,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -14893,6 +15820,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -14985,6 +15917,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -15084,6 +16021,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -15183,6 +16125,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -15282,6 +16229,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -15381,6 +16333,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -15480,6 +16437,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -15592,6 +16554,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -15704,6 +16671,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -15809,6 +16781,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -15901,6 +16878,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -16006,6 +16988,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -16098,6 +17085,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -16203,6 +17195,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -16310,6 +17307,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -16404,6 +17406,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -16438,6 +17445,105 @@ pg.ship_skin_template = {
 						{
 							-0.38,
 							2.2,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[201104] = {
+		name = "オファーはメイドさん",
+		bullet_skin_main = "",
+		ship_group = 20110,
+		illustrator2 = -1,
+		bullet_skin_secondary = "",
+		painting = "xiaotiane_4",
+		air_bullet_skin = "",
+		shop_type_id = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "104",
+		skin_type = 0,
+		id = 201104,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "xiaotiane_4",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70172,
+		desc = "ご、ご主人様、ごきげんよう……し、指揮官、うちをそんなにじっと見ないでぇ…うぅ、これもアイドルの宣伝のお仕事ってサラトガさんが……",
+		voice_actor = 46,
+		air_bomb_skin = "",
+		illustrator = 17,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.877,
+					1.001,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.021,
+					0.08,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.011,
+					0.932,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.323,
+							2.219,
 							0
 						}
 					}
@@ -16496,6 +17602,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -16601,6 +17712,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -16711,6 +17827,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -16803,6 +17924,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -16913,6 +18039,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -17018,6 +18149,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -17117,6 +18253,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -17222,6 +18363,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -17314,6 +18460,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -17404,6 +18555,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -17528,6 +18684,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -17638,6 +18799,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -17730,6 +18896,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -17829,6 +19000,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -17953,6 +19129,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -18067,6 +19248,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -18166,6 +19352,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -18265,6 +19456,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -18377,6 +19573,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -18489,6 +19690,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -18588,6 +19794,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -18687,6 +19898,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -18786,6 +20002,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -18908,6 +20129,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -19007,6 +20233,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -19119,6 +20350,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -19218,6 +20454,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -19332,6 +20573,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -19431,6 +20677,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -19543,6 +20794,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -19642,6 +20898,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -19741,6 +21002,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -19855,6 +21121,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -19954,6 +21225,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -20067,6 +21343,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -20195,6 +21476,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -20294,6 +21580,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -20406,6 +21697,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -20518,6 +21814,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -20619,6 +21920,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -20720,6 +22026,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -20819,6 +22130,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -20918,6 +22234,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -21019,6 +22340,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -21118,6 +22444,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -21217,6 +22548,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -21316,6 +22652,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -21415,6 +22756,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -21514,6 +22860,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -21615,6 +22966,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -21714,6 +23070,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -21815,6 +23176,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -21914,6 +23280,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -22015,6 +23386,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -22114,6 +23490,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -22236,6 +23617,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -22348,6 +23734,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -22453,6 +23844,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -22565,6 +23961,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -22677,6 +24078,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -22789,6 +24195,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -22901,6 +24312,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -23013,6 +24429,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -23112,6 +24533,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -23224,6 +24650,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -23323,6 +24754,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -23422,6 +24858,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -23527,6 +24968,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -23632,6 +25078,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -23737,6 +25188,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -23842,6 +25298,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -23934,6 +25395,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -24051,6 +25517,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -24143,6 +25614,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -24260,6 +25736,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -24352,6 +25833,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -24444,6 +25930,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -24549,6 +26040,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -24641,6 +26137,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -24746,6 +26247,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -24851,6 +26357,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -24963,6 +26474,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -25064,6 +26580,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -25163,6 +26684,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -25264,6 +26790,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -25363,6 +26894,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -25461,6 +26997,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -25580,6 +27121,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -25688,6 +27234,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -25795,6 +27346,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -25920,6 +27476,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -26027,6 +27588,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -26153,6 +27719,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -26259,6 +27830,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -26367,6 +27943,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -26473,6 +28054,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -26573,6 +28159,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -26658,6 +28249,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -26756,6 +28352,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -26843,6 +28444,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -26928,6 +28534,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -27026,6 +28637,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -27113,6 +28729,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -27198,6 +28819,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -27285,6 +28911,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -27370,6 +29001,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -27475,6 +29111,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -27567,6 +29208,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -27691,6 +29337,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -27797,6 +29448,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -27896,6 +29552,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -27997,6 +29658,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -28096,6 +29762,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -28196,6 +29867,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -28311,6 +29987,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -28428,6 +30109,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -28527,6 +30213,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -28626,6 +30317,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -28727,6 +30423,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -28826,6 +30527,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -28925,6 +30631,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -29024,6 +30735,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -29122,6 +30838,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -29221,6 +30942,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -29345,6 +31071,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -29444,6 +31175,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -29556,6 +31292,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -29655,6 +31396,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -29781,6 +31527,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -29880,6 +31631,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -29987,6 +31743,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -30079,6 +31840,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -30171,6 +31937,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -30276,6 +32047,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -30379,6 +32155,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -30489,6 +32270,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -30594,6 +32380,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -30686,6 +32477,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -30791,6 +32587,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -30890,6 +32691,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -30982,6 +32788,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -31087,6 +32898,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -31179,6 +32995,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -31271,6 +33092,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -31383,6 +33209,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -31482,6 +33313,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -31581,6 +33417,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -31680,6 +33521,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -31779,6 +33625,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -31893,6 +33744,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -31994,6 +33850,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -32093,6 +33954,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -32192,6 +34058,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -32291,6 +34162,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -32390,6 +34266,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -32489,6 +34370,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -32588,6 +34474,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -32687,6 +34578,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -32788,6 +34684,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -32887,6 +34788,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -32986,6 +34892,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -33087,6 +34998,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -33186,6 +35102,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -33285,6 +35206,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -33384,6 +35310,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -33483,6 +35414,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -33575,6 +35511,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -33667,6 +35608,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -33759,6 +35705,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -33858,6 +35809,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -33950,6 +35906,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -34055,6 +36016,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -34147,6 +36113,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -34239,6 +36210,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -34331,6 +36307,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -34432,6 +36413,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -34531,6 +36517,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -34632,6 +36623,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -34731,6 +36727,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -34832,6 +36833,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -34931,6 +36937,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -35030,6 +37041,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -35129,6 +37145,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -35228,6 +37249,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -35327,6 +37353,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -35421,6 +37452,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -35513,6 +37549,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -35607,6 +37648,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -35699,6 +37745,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -35798,6 +37849,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -35897,6 +37953,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -35996,6 +38057,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -36095,6 +38161,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -36207,6 +38278,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -36306,6 +38382,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -36418,6 +38499,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -36517,6 +38603,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -36629,6 +38720,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -36741,6 +38837,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -36840,6 +38941,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -36939,6 +39045,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -37038,6 +39149,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -37137,6 +39253,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -37236,6 +39357,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -37337,6 +39463,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -37436,6 +39567,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -37535,6 +39671,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -37634,6 +39775,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -37733,6 +39879,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -37845,6 +39996,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -37944,6 +40100,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -38056,6 +40217,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -38155,6 +40321,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -38267,6 +40438,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -38379,6 +40555,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -38491,6 +40672,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -38603,6 +40789,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -38704,6 +40895,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -38803,6 +40999,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -38915,6 +41116,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -39029,6 +41235,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -39130,6 +41341,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -39229,6 +41445,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -39328,6 +41549,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -39440,6 +41666,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -39570,6 +41801,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -39671,6 +41907,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -39770,6 +42011,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -39869,6 +42115,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -39981,6 +42232,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -40080,6 +42336,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -40185,6 +42446,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -40284,6 +42550,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -40383,6 +42654,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -40477,6 +42753,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -40569,6 +42850,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -40670,6 +42956,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -40769,6 +43060,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -40868,6 +43164,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -40969,6 +43270,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -41070,6 +43376,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -41169,6 +43480,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -41268,6 +43584,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -41380,6 +43701,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -41494,6 +43820,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -41594,6 +43925,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -41693,6 +44029,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -41792,6 +44133,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -41891,6 +44237,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -41990,6 +44341,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -42089,6 +44445,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -42188,6 +44549,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -42287,6 +44653,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -42379,6 +44750,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -42471,6 +44847,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -42563,6 +44944,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -42655,6 +45041,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -42756,6 +45147,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -42855,6 +45251,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -42947,6 +45348,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -43039,6 +45445,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -43144,6 +45555,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -43236,6 +45652,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -43334,6 +45755,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -43433,6 +45859,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -43518,6 +45949,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -43603,6 +46039,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -43701,6 +46142,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -43801,6 +46247,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -43886,6 +46337,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -43984,6 +46440,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -44082,6 +46543,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -44182,6 +46648,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -44267,6 +46738,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -44352,6 +46828,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -44452,6 +46933,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -44539,6 +47025,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -44624,6 +47115,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -44709,6 +47205,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -44809,6 +47310,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -44894,6 +47400,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -44979,6 +47490,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -45064,6 +47580,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -45149,6 +47670,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -45236,6 +47762,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -45336,6 +47867,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -45423,6 +47959,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -45508,6 +48049,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -45595,6 +48141,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -45680,6 +48231,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -45763,6 +48319,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -45895,6 +48456,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -45996,6 +48562,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -46095,6 +48666,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -46207,6 +48783,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -46299,6 +48880,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -46391,6 +48977,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -46483,6 +49074,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -46588,6 +49184,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -46700,6 +49301,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -46810,6 +49416,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -46940,6 +49551,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -47052,6 +49668,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -47151,6 +49772,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -47252,6 +49878,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -47351,6 +49982,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -47450,6 +50086,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -47563,6 +50204,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -47680,6 +50326,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -47792,6 +50443,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -47904,6 +50560,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -48003,6 +50664,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -48115,6 +50781,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -48227,6 +50898,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -48339,6 +51015,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -48461,6 +51142,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -48575,6 +51261,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -48674,6 +51365,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -48773,6 +51469,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -48885,6 +51586,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -48985,6 +51691,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -49103,6 +51814,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -49204,6 +51920,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -49303,6 +52024,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -49402,6 +52128,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -49514,6 +52245,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -49626,6 +52362,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -49739,6 +52480,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -49856,6 +52602,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -49955,6 +52706,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -50058,6 +52814,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -50145,6 +52906,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -50230,6 +52996,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -50317,6 +53088,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -50402,6 +53178,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -50487,6 +53268,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -50586,6 +53372,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -50685,6 +53476,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -50786,6 +53582,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -50885,6 +53686,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -50985,6 +53791,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -51102,6 +53913,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -51201,6 +54017,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -51313,6 +54134,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -51411,6 +54237,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -51510,6 +54341,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -51609,6 +54445,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -51721,6 +54562,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -51820,6 +54666,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -51919,6 +54770,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -52018,6 +54874,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -52130,6 +54991,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -52229,6 +55095,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -52328,6 +55199,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -52427,6 +55303,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -52526,6 +55407,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -52625,6 +55511,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -52725,6 +55616,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -52842,6 +55738,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -52941,6 +55842,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -53040,6 +55946,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -53139,6 +56050,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -53238,6 +56154,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -53338,6 +56259,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -53455,6 +56381,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -53554,6 +56485,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -53671,6 +56607,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -53783,6 +56724,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -53895,6 +56841,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -54007,6 +56958,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -54119,6 +57075,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -54224,6 +57185,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -54334,6 +57300,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -54432,6 +57403,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -54554,6 +57530,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -54676,6 +57657,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -54788,6 +57774,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -54900,6 +57891,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -55012,6 +58008,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -55124,6 +58125,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -55236,6 +58242,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -55348,6 +58359,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -55440,6 +58456,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -55552,6 +58573,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -55664,6 +58690,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -55776,6 +58807,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -55888,6 +58924,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -56000,6 +59041,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -56085,6 +59131,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -56170,6 +59221,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -56269,6 +59325,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -56381,6 +59442,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -56479,6 +59545,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -56599,6 +59670,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -56719,6 +59795,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -56804,6 +59885,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -56902,6 +59988,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -57022,6 +60113,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -57120,6 +60216,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -57240,6 +60341,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -57338,6 +60444,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -57436,6 +60547,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -57534,6 +60650,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -57632,6 +60753,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -57730,6 +60856,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -57828,6 +60959,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -57940,6 +61076,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -58038,6 +61179,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -58130,6 +61276,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -58222,6 +61373,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -58321,6 +61477,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -58436,6 +61597,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -58528,6 +61694,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -58620,6 +61791,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -58718,6 +61894,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -58816,6 +61997,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -58931,6 +62117,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -59030,6 +62221,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -59122,6 +62318,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -59214,6 +62415,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -59306,6 +62512,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -59398,6 +62609,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -59492,6 +62708,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -59584,6 +62805,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -59678,6 +62904,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -59770,6 +63001,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -59864,6 +63100,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -59956,6 +63197,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -60050,6 +63296,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -60142,6 +63393,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -60236,6 +63492,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -60328,6 +63589,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -60422,6 +63688,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -60514,6 +63785,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -60608,6 +63884,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -60700,6 +63981,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -60794,6 +64080,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -60886,6 +64177,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -60980,6 +64276,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -61072,6 +64373,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -61166,6 +64472,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -61258,6 +64569,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -61350,6 +64666,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -61444,6 +64765,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -61538,6 +64864,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -61630,6 +64961,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -61723,6 +65059,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -61844,6 +65185,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -61938,6 +65284,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -62030,6 +65381,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -62129,6 +65485,11 @@ pg.ship_skin_template = {
 				0,
 				0.75,
 				-1.299
+			},
+			{
+				0,
+				0,
+				0
 			}
 		},
 		bound_bone = {
@@ -62173,6 +65534,7 @@ pg.ship_skin_template = {
 	all = {
 		100000,
 		100010,
+		101020,
 		101030,
 		101039,
 		101040,
@@ -62310,6 +65672,7 @@ pg.ship_skin_template = {
 		107070,
 		107080,
 		107090,
+		107170,
 		107220,
 		107221,
 		107380,
@@ -62335,6 +65698,7 @@ pg.ship_skin_template = {
 		201101,
 		201102,
 		201103,
+		201104,
 		201109,
 		201110,
 		201119,

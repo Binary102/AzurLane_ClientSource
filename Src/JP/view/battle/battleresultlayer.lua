@@ -4,6 +4,16 @@ slot0.DURATION_LOSE_FADE_IN = 1.5
 slot0.DURATION_GRADE_LAST = 1.5
 slot0.DURATION_MOVE = 0.7
 slot0.DURATION_WIN_SCALE = 0.7
+slot0.ObjectiveList = {
+	"battle_result_victory",
+	"battle_result_undefeated",
+	"battle_result_sink_limit",
+	"battle_preCombatLayer_time_hold",
+	"battle_result_time_limit",
+	"battle_result_boss_destruct",
+	"battle_preCombatLayer_damage_before_end",
+	"battle_result_defeat_all_enemys"
+}
 
 function slot0.getUIName(slot0)
 	return "BattleResultUI"
@@ -232,33 +242,25 @@ function slot0.rankAnimaFinish(slot0)
 	slot1 = slot0:findTF("main/condition")
 
 	SetActive(slot1, true)
-
-	slot4 = slot1:Find("condition_1")
-	slot5 = slot1:Find("condition_2")
-	slot6 = slot1:Find("condition_3")
-
-	if pg.expedition_data_template[slot0.contextData.stageId].limit_type == 1 or slot3.limit_type == 4 then
-		slot7 = nil
-
-		slot0:setCondition(slot4, i18n("battle_result_victory"), slot0.contextData.score > 1)
-		slot0:setCondition(slot5, (slot3.sink_limit >= 2 or i18n("battle_result_undefeated")) and i18n("battle_result_sink_limit", slot3.sink_limit), not slot0.contextData.statistics._deadUnit)
-
-		if slot3.limit_type == 1 then
-			slot0:setCondition(slot6, i18n("battle_result_time_limit", slot3.time_limit), not slot0.contextData.statistics._badTime)
-		elseif slot3.limit_type == 4 then
-			slot0:setCondition(slot6, i18n("battle_result_boss_destruct"), slot0.contextData.statistics._boss_destruct < 1)
-		end
-	elseif slot3.limit_type == 2 then
-		setActive(slot4, false)
-		setActive(slot5, false)
-		slot0:setCondition(slot6, i18n("battle_preCombatLayer_time_hold", slot3.time_limit), slot0.contextData.score > 1)
-	elseif slot3.limit_type == 3 then
-		slot0:setCondition(slot6, i18n("battle_result_defeat_all_enemys"), slot0.contextData.score > 1)
-		setActive(slot4, false)
-		setActive(slot5, false)
-	end
+	slot4(pg.expedition_data_template[slot0.contextData.stageId].objective_1, slot1:Find("condition_1"))
+	slot4(pg.expedition_data_template[slot0.contextData.stageId].objective_2, slot1:Find("condition_2"))
+	slot4(pg.expedition_data_template[slot0.contextData.stageId].objective_3, slot1:Find("condition_3"))
 
 	slot0._stateFlag = "report"
+end
+
+function slot0.objectiveCheck(slot0, slot1)
+	if slot0 == 1 or slot0 == 4 or slot0 == 8 then
+		return slot1.score > 1
+	elseif slot0 == 2 or slot0 == 3 then
+		return not slot1.statistics._deadUnit
+	elseif slot0 == 6 then
+		return slot1.statistics._boss_destruct < 1
+	elseif slot0 == 5 then
+		return not slot1.statistics._badTime
+	elseif slot0 == 7 then
+		return true
+	end
 end
 
 function slot0.setCondition(slot0, slot1, slot2, slot3)

@@ -68,6 +68,10 @@ function slot2.GetCharacterFX(slot0, slot1, slot2, slot3, slot4, slot5)
 		LuaHelper.SetGOParentGO(slot6, slot2:GetGO(), true)
 	end
 
+	if slot2:GetSpecificFXScale()[slot1] then
+		slot6.transform.localScale = Vector3(slot6.transform.localScale.x * slot10[slot1], slot6.transform.localScale.y * slot10[slot1], slot6.transform.localScale.z * slot10[slot1])
+	end
+
 	pg.EffectMgr.GetInstance():PlayBattleEffect(slot6, slot8, slot3, slot4, slot5)
 
 	return slot6

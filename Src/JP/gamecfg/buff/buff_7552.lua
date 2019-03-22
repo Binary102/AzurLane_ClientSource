@@ -24,7 +24,7 @@ return {
 			},
 			arg_list = {
 				number = -0.03,
-				attr = "damageGetRatio"
+				attr = "injureRatio"
 			}
 		}
 	}

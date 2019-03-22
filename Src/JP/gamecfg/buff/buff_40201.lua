@@ -18,7 +18,7 @@ return {
 			arg_list = {
 				ability = "command",
 				convertRate = -1.2,
-				convertAttr = "damageGetRatio"
+				convertAttr = "injureRatio"
 			}
 		}
 	}

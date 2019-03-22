@@ -101,31 +101,31 @@ function slot0.NeedMarkAsLurk(slot0)
 end
 
 function slot0.NeedEasePathCell(slot0)
-	if slot0.attachment == ChapterConst.AttachNone then
+	if slot0.attachment == slot0.AttachNone then
 		return true
 	end
 
-	if slot0.attachment == ChapterConst.AttachAmbush and slot0.flag ~= 0 then
+	if slot0.attachment == slot0.AttachAmbush and slot0.flag ~= 0 then
 		return true
 	end
 
-	if (slot0.attachment == ChapterConst.AttachRival or slot0.attachment == ChapterConst.AttachEnemy or slot0.attachment == ChapterConst.AttachElite) and slot0.flag == 1 then
+	if (slot0.attachment == slot0.AttachRival or slot0.attachment == slot0.AttachEnemy or slot0.attachment == slot0.AttachElite) and slot0.flag == 1 then
 		return true
 	end
 
-	if slot0.attachment == ChapterConst.AttachSupply and slot0.attachmentId <= 0 then
+	if slot0.attachment == slot0.AttachSupply and slot0.attachmentId <= 0 then
 		return true
 	end
 
-	if slot0.attachment == ChapterConst.AttachBox then
-		if pg.box_data_template[slot0.attachmentId].type == ChapterConst.BoxAirStrike or slot1.type == ChapterConst.BoxTorpedo then
+	if slot0.attachment == slot0.AttachBox then
+		if pg.box_data_template[slot0.attachmentId].type == slot0.BoxAirStrike or slot1.type == slot0.BoxTorpedo then
 			return true
-		elseif (slot1.type == ChapterConst.BoxDrop or slot1.type == ChapterConst.BoxStrategy or slot1.type == ChapterConst.BoxEnemy or slot1.type == ChapterConst.BoxSupply) and slot0.flag == 1 then
+		elseif (slot1.type == slot0.BoxDrop or slot1.type == slot0.BoxStrategy or slot1.type == slot0.BoxEnemy or slot1.type == slot0.BoxSupply) and slot0.flag == 1 then
 			return true
 		end
 	end
 
-	if slot0.attachment == ChapterConst.AttachStory and slot0.flag ~= 0 and (slot0.flag ~= 3 or slot0.data ~= ChapterConst.StoryObstacle) then
+	if slot0.attachment == slot0.AttachStory and slot0.flag ~= 0 and (slot0.flag ~= 3 or slot0.data ~= slot0.StoryObstacle) then
 		return true
 	end
 
@@ -133,11 +133,11 @@ function slot0.NeedEasePathCell(slot0)
 end
 
 function slot0.NeedClearStep(slot0)
-	if slot0.attachment == ChapterConst.AttachAmbush and slot0.flag == 2 then
+	if slot0.attachment == slot0.AttachAmbush and slot0.flag == 2 then
 		return true
 	end
 
-	if slot0.attachment == ChapterConst.AttachBox and pg.box_data_template[slot0.attachmentId].type == ChapterConst.BoxAirStrike then
+	if slot0.attachment == slot0.AttachBox and pg.box_data_template[slot0.attachmentId].type == slot0.BoxAirStrike then
 		return true
 	end
 
@@ -205,30 +205,32 @@ slot0.HpGreen = 3000
 function slot0.GetAmbushDisplay(slot0)
 	slot1, slot2 = nil
 
-	if slot0 <= 0 then
-		slot1 = "安全"
+	if not slot0 then
+		slot1 = pg.gametip.ambush_display_0.tip
+		slot2 = Color.New(0.9607843137254902, 0.3764705882352941, 0.2823529411764706)
+	elseif slot0 <= 0 then
+		slot1 = pg.gametip.ambush_display_1.tip
 		slot2 = Color.New(0.6627450980392157, 0.9607843137254902, 0.2823529411764706)
 	elseif slot0 < 0.1 then
-		slot1 = "低"
+		slot1 = pg.gametip.ambush_display_2.tip
 		slot2 = Color.New(0.6627450980392157, 0.9607843137254902, 0.2823529411764706)
 	elseif slot0 < 0.2 then
-		slot1 = "普通"
+		slot1 = pg.gametip.ambush_display_3.tip
 		slot2 = Color.New(0.6627450980392157, 0.9607843137254902, 0.2823529411764706)
 	elseif slot0 < 0.33 then
-		slot1 = "中"
+		slot1 = pg.gametip.ambush_display_4.tip
 		slot2 = Color.New(0.984313725490196, 0.788235294117647, 0.21568627450980393)
 	elseif slot0 < 0.5 then
-		slot1 = "高"
+		slot1 = pg.gametip.ambush_display_5.tip
 		slot2 = Color.New(0.9607843137254902, 0.3764705882352941, 0.2823529411764706)
 	else
-		slot1 = "危険"
+		slot1 = pg.gametip.ambush_display_6.tip
 		slot2 = Color.New(0.9607843137254902, 0.3764705882352941, 0.2823529411764706)
 	end
 
 	return slot1, slot2
 end
 
-slot0.EnemyAttackDisplay = "接敵"
 slot0.ShipMoveAction = "move"
 slot0.ShipIdleAction = "normal"
 slot0.ShipStepDuration = 0.5
@@ -274,5 +276,36 @@ slot0.MarkHuntingRange = 1
 slot0.MarkBomb = 2
 slot0.MarkCoastalGun = 3
 slot0.MarkEscapeGrid = 4
+slot0.AirDominance = {
+	[0] = {
+		name = pg.gametip.no_airspace_competition.tip,
+		color = Color.New(1, 1, 1)
+	},
+	{
+		name = pg.strategy_data_template[pg.gameset.air_dominance_level_5.key_value].name,
+		StgId = pg.gameset.air_dominance_level_5.key_value,
+		color = Color.New(0.9921568627450981, 0.4, 0.39215686274509803)
+	},
+	{
+		name = pg.strategy_data_template[pg.gameset.air_dominance_level_4.key_value].name,
+		StgId = pg.gameset.air_dominance_level_4.key_value,
+		color = Color.New(0.9568627450980393, 0.5647058823529412, 0.34901960784313724)
+	},
+	{
+		name = pg.strategy_data_template[pg.gameset.air_dominance_level_3.key_value].name,
+		StgId = pg.gameset.air_dominance_level_3.key_value,
+		color = Color.New(0.9568627450980393, 0.8470588235294118, 0.23921568627450981)
+	},
+	{
+		name = pg.strategy_data_template[pg.gameset.air_dominance_level_2.key_value].name,
+		StgId = pg.gameset.air_dominance_level_2.key_value,
+		color = Color.New(0.7333333333333333, 0.7725490196078432, 0.2)
+	},
+	{
+		name = pg.strategy_data_template[pg.gameset.air_dominance_level_1.key_value].name,
+		StgId = pg.gameset.air_dominance_level_1.key_value,
+		color = Color.New(0.615686274509804, 0.9215686274509803, 0.14901960784313725)
+	}
+}
 
 return slot0

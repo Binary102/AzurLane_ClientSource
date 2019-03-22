@@ -626,7 +626,11 @@ function slot0.playAnimsFollowFurniture(slot0, slot1)
 				slot4.viewComponent:emit(BackyardMainMediator.ADD_BOAT_MOVE, slot4.boatVO.id, true)
 			end
 		else
-			slot1:SetAction(slot0[slot0][1], 0)
+			if type(slot0[slot0][1]) == "table" then
+				slot1 = slot1[math.random(1, #slot1)]
+			end
+
+			slot1:SetAction(slot1, 0)
 
 			if slot4.roles[1] then
 				slot4.roles[1]:SetAction(slot1, 0)
@@ -771,6 +775,10 @@ function slot0.playAnims(slot0, slot1)
 		slot0 = 0
 
 		for slot3, slot4 in pairs(slot1.roles) do
+			if type(slot2[1][1]) == "table" then
+				slot6 = slot6[math.random(1, #slot6)]
+			end
+
 			slot4:SetAction(slot6, 0)
 
 			if _.detect(slot3, function (slot0)

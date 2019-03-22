@@ -411,12 +411,12 @@ function slot0.updateScoreAndRank(slot0, slot1, slot2)
 	slot0.rank = slot2
 end
 
-function slot0.updatePvpCount(slot0, slot1)
+function slot0.increasePvpCount(slot0)
 	slot0.pvp_attack_count = slot0.pvp_attack_count + 1
+end
 
-	if slot1 then
-		slot0.pvp_win_count = slot0.pvp_win_count + 1
-	end
+function slot0.increasePvpWinCount(slot0)
+	slot0.pvp_win_count = slot0.pvp_win_count + 1
 end
 
 function slot0.isEnough(slot0, slot1)

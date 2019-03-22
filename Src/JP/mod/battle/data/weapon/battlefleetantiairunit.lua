@@ -17,8 +17,6 @@ slot8.STATE_ATTACK = "ATTACK"
 slot8.STATE_OVER_HEAT = "OVER_HEAT"
 
 function slot8.Ctor(slot0)
-	slot0._proxy = slot0.Battle.BattleDataProxy.GetInstance()
-
 	slot0:init()
 end
 
@@ -154,12 +152,9 @@ function slot8.Fire(slot0)
 		return
 	end
 
-	slot0._proxy:SpawnColumnArea(slot1.AOEField.AIR, slot0._host:GetIFF(), slot0._host:GetPosition(), slot0._range * 2, -1, function (slot0)
+	slot0._dataProxy:SpawnColumnArea(slot1.AOEField.AIR, slot0._host:GetIFF(), slot0._host:GetPosition(), slot0._range * 2, -1, function (slot0)
 		slot1 = {}
-
-		for slot6, slot7 in pairs(slot2) do
-			slot7:GetPosition()
-		end
+		slot2 = slot0._dataProxy:GetAircraftList()
 
 		for slot6, slot7 in ipairs(slot0) do
 			if slot7.Active and slot2[slot7.UID] and slot8:IsVisitable() then

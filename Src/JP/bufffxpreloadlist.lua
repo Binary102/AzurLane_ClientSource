@@ -12,5 +12,9 @@ return {
 	"hongsebuff",
 	"ginbuli_skill",
 	"kinbuli_skill",
-	"EVDdowm"
+	"EVDdowm",
+	"Pojia01",
+	"zhihuiRing02",
+	"fangkongRing02",
+	"zhihuiRing02_buff"
 }

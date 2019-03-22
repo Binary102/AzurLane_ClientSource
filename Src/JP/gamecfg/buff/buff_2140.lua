@@ -18,7 +18,7 @@ return {
 				},
 				arg_list = {
 					number = -0.05,
-					attr = "damageGetRatioByBulletTorpedo"
+					attr = "injureRatioByBulletTorpedo"
 				}
 			}
 		}
@@ -42,7 +42,7 @@ return {
 				},
 				arg_list = {
 					number = -0.066,
-					attr = "damageGetRatioByBulletTorpedo"
+					attr = "injureRatioByBulletTorpedo"
 				}
 			}
 		}
@@ -66,7 +66,7 @@ return {
 				},
 				arg_list = {
 					number = -0.082,
-					attr = "damageGetRatioByBulletTorpedo"
+					attr = "injureRatioByBulletTorpedo"
 				}
 			}
 		}
@@ -90,7 +90,7 @@ return {
 				},
 				arg_list = {
 					number = -0.1,
-					attr = "damageGetRatioByBulletTorpedo"
+					attr = "injureRatioByBulletTorpedo"
 				}
 			}
 		}
@@ -114,7 +114,7 @@ return {
 				},
 				arg_list = {
 					number = -0.116,
-					attr = "damageGetRatioByBulletTorpedo"
+					attr = "injureRatioByBulletTorpedo"
 				}
 			}
 		}
@@ -138,7 +138,7 @@ return {
 				},
 				arg_list = {
 					number = -0.132,
-					attr = "damageGetRatioByBulletTorpedo"
+					attr = "injureRatioByBulletTorpedo"
 				}
 			}
 		}
@@ -162,7 +162,7 @@ return {
 				},
 				arg_list = {
 					number = -0.15,
-					attr = "damageGetRatioByBulletTorpedo"
+					attr = "injureRatioByBulletTorpedo"
 				}
 			}
 		}
@@ -186,7 +186,7 @@ return {
 				},
 				arg_list = {
 					number = -0.166,
-					attr = "damageGetRatioByBulletTorpedo"
+					attr = "injureRatioByBulletTorpedo"
 				}
 			}
 		}
@@ -210,7 +210,7 @@ return {
 				},
 				arg_list = {
 					number = -0.182,
-					attr = "damageGetRatioByBulletTorpedo"
+					attr = "injureRatioByBulletTorpedo"
 				}
 			}
 		}
@@ -234,7 +234,7 @@ return {
 				},
 				arg_list = {
 					number = -0.2,
-					attr = "damageGetRatioByBulletTorpedo"
+					attr = "injureRatioByBulletTorpedo"
 				}
 			}
 		}
@@ -274,7 +274,7 @@ return {
 			},
 			arg_list = {
 				number = -0.05,
-				attr = "damageGetRatioByBulletTorpedo"
+				attr = "injureRatioByBulletTorpedo"
 			}
 		}
 	}

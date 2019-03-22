@@ -117,11 +117,11 @@ function slot0.readyToAchieve(slot0)
 			end
 		end
 	elseif slot2 == ActivityConst.ACTIVITY_TYPE_TASKS then
-		slot3, slot4, slot5 = GetDoingTask(slot0)
+		slot3, slot4, slot5 = getDoingTask(slot0, true)
 		slot1 = slot5 and slot5:isFinish() and not slot5:isReceive()
 	elseif slot2 == ActivityConst.ACTIVITY_TYPE_TASK_LIST then
 		if slot0:getConfig("config_id") == 2 or slot0:getConfig("config_id") == 3 then
-			slot3, slot4, slot5 = GetDoingTask(slot0)
+			slot3, slot4, slot5 = getDoingTask(slot0, true)
 			slot1 = slot5 and slot5:isFinish() and not slot5:isReceive()
 		end
 	elseif slot2 == ActivityConst.ACTIVITY_TYPE_HITMONSTERNIAN then

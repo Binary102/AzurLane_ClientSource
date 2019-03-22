@@ -55,6 +55,9 @@ function slot2.AddHPBar(slot0, slot1)
 	slot0:SetTemplateInfo()
 	slot0:initBarComponent()
 	slot0:SetHPBarCountText()
+
+	slot0._cacheHP = slot0._unitData:GetCurrentHP()
+
 	slot0:UpdateHpBar()
 end
 
@@ -114,13 +117,16 @@ function slot2.initBarComponent(slot0)
 		slot3 = slot3 + 1
 	end
 
+	slot0._topBarIndex = slot0._HPBarTf.childCount - 1
+
 	while slot1 <= slot0._HPBarTotalCount do
 		if math.fmod(slot1, slot4) == 0 then
 			slot6 = slot4
 		end
 
 		slot0._bossBarInfoList[slot1] = {
-			lowerBound = (slot1 - 1) * slot0._stepHP,
+			upperBound = slot1 * slot0._stepHP,
+			lowerBound = ()["upperBound"] - slot0._stepHP,
 			progressImage = slot5[slot6].progressImage,
 			deltaImage = slot5[slot6].deltaImage,
 			progressTF = slot5[slot6].progressTF,
@@ -162,41 +168,65 @@ function slot2.UpdateHpBar(slot0)
 		return
 	end
 
-	slot0._cacheHP = slot1
-	slot2 = slot0._bossBarInfoList[slot0._currentIndex]
-	slot3 = nil
-
-	while slot1 < slot2.lowerBound do
-		if slot0._currentIndex > 5 then
-			slot2.progressImage.fillAmount = 1
-			slot2.deltaImage.fillAmount = 1
-
-			slot2.progressTF:SetSiblingIndex(0)
-			slot2.deltaTF:SetSiblingIndex(0)
-		else
-			SetActive(slot2.progressImage, false)
-			SetActive(slot2.deltaImage, false)
-		end
-
-		slot0._currentIndex = slot0._currentIndex - 1
-		slot2 = slot0._bossBarInfoList[slot0._currentIndex]
-		slot3 = true
-	end
-
-	if slot3 then
-		LeanTween.cancel(slot0._HPBar)
-	end
-
-	slot2.progressImage.fillAmount = (slot1 - slot2.lowerBound) / slot0._stepHP
-
 	if not slot0._chargeTimer.paused then
 		slot0._chargeTimer:Stop()
 		slot0._chargeTimer:Stop()
 		slot0._chargeTimer:Reset()
 	end
 
-	slot0._chargeTimer:Start()
+	slot2 = slot0._bossBarInfoList[slot0._currentIndex]
+
+	if slot1 < slot0._cacheHP then
+		slot3 = nil
+
+		while slot1 < slot2.lowerBound do
+			if slot0._currentIndex > 5 then
+				slot2.progressImage.fillAmount = 1
+				slot2.deltaImage.fillAmount = 1
+
+				slot2.progressTF:SetSiblingIndex(0)
+				slot2.deltaTF:SetSiblingIndex(0)
+			else
+				SetActive(slot2.progressImage, false)
+				SetActive(slot2.deltaImage, false)
+			end
+
+			slot0._currentIndex = slot0._currentIndex - 1
+			slot2 = slot0._bossBarInfoList[slot0._currentIndex]
+			slot3 = true
+		end
+
+		if slot3 then
+			LeanTween.cancel(slot0._HPBar)
+		end
+
+		slot0._chargeTimer:Start()
+	elseif slot0._cacheHP < slot1 then
+		while slot2.upperBound < slot1 do
+			slot2.progressImage.fillAmount = 1
+			slot2.deltaImage.fillAmount = 1
+			slot0._currentIndex = slot0._currentIndex + 1
+			slot2 = slot0._bossBarInfoList[slot0._currentIndex]
+
+			if slot0._currentIndex > 5 then
+				slot2.deltaTF:SetSiblingIndex(slot0._topBarIndex)
+				slot2.progressTF:SetSiblingIndex(slot0._topBarIndex)
+			else
+				SetActive(slot2.progressImage, true)
+				SetActive(slot2.deltaImage, true)
+			end
+		end
+	end
+
+	slot2.progressImage.fillAmount = (slot1 - slot2.lowerBound) / slot0._stepHP
+
+	if slot0._cacheHP < slot1 then
+		slot2.deltaImage.fillAmount = slot3
+	end
+
 	slot0:SetHPBarCountText()
+
+	slot0._cacheHP = slot1
 end
 
 function slot2.generateTween(slot0, slot1, slot2)

@@ -3703,6 +3703,10 @@ pg.gametip = {
 		tip = "潜航力",
 		key = "attribute_oxy_max"
 	},
+	attribute_dodge_limit = {
+		tip = "回避上限",
+		key = "attribute_dodge_limit"
+	},
 	skill = {
 		tip = "スキル",
 		key = "skill"
@@ -4847,11 +4851,7 @@ pg.gametip = {
 						<color=#fff157>SSレア</color>：$2%
 						<color=#966af6>Sレア</color>：$3%
 						<color=#60a9ff>レア</color>：$4%
-						ノーマル：$5%
-
-						【期間限定】
-					<color=#966af6>ハーディ</color>：1.4%<color=#A9F548>(up!)</color>
-							<color=#966af6>Z2</color>：1.4%<color=#A9F548>(up!)</color>]],
+						ノーマル：$5%]],
 		key = "help_build_2"
 	},
 	help_build_4 = {
@@ -7764,9 +7764,21 @@ pg.gametip = {
 					atlas = "helpbg/level_ui_help"
 				}
 			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/battle_ac_2"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/battle_ac_1"
+				}
+			},
 			disableScroll = true,
 			pageMode = true,
-			defaultpage = 1,
+			defaultpage = 10,
 			ImageMode = true,
 			windowSize = {
 				x = 836,
@@ -9064,9 +9076,125 @@ pg.gametip = {
 現しなくなります</color>。
 2.イベントステージの敵の配置・行動ロジックが変化します。
 3.イベントステージで味方の<color=#A9F548>移動制限が解除され</color>、海域マップで自
-由に移動できます。
-4.イベント「輝ける峡湾の星」では敵沿岸砲台が<color=#A9F548>出現しなくなりま
-す</color>。]]
+由に移動できます。]]
+			}
+		}
+	},
+	no_airspace_competition = {
+		tip = "制空戦なし",
+		key = "no_airspace_competition"
+	},
+	level_scene_title_word_1 = {
+		tip = "索敵値：",
+		key = "level_scene_title_word_1"
+	},
+	level_scene_title_word_2 = {
+		tip = "海域脅威度：",
+		key = "level_scene_title_word_2"
+	},
+	level_scene_title_word_3 = {
+		tip = "制空値：",
+		key = "level_scene_title_word_3"
+	},
+	level_scene_title_word_4 = {
+		tip = "空域：",
+		key = "level_scene_title_word_4"
+	},
+	level_scene_title_word_5 = {
+		tip = "制空値：         <color=#18ff23>推奨：       </color>",
+		key = "level_scene_title_word_5"
+	},
+	ambush_display_0 = {
+		tip = "接敵",
+		key = "ambush_display_0"
+	},
+	ambush_display_1 = {
+		tip = "安全",
+		key = "ambush_display_1"
+	},
+	ambush_display_2 = {
+		tip = "低",
+		key = "ambush_display_2"
+	},
+	ambush_display_3 = {
+		tip = "普通",
+		key = "ambush_display_3"
+	},
+	ambush_display_4 = {
+		tip = "中",
+		key = "ambush_display_4"
+	},
+	ambush_display_5 = {
+		tip = "高",
+		key = "ambush_display_5"
+	},
+	ambush_display_6 = {
+		tip = "危険",
+		key = "ambush_display_6"
+	},
+	no_way_to_escape = {
+		tip = "離脱できるマスがありません",
+		key = "no_way_to_escape"
+	},
+	word_attr_ac = {
+		tip = "制空",
+		key = "word_attr_ac"
+	},
+	help_battle_ac = {
+		key = "help_battle_ac",
+		tip = {
+			{
+				info = [[
+■制空値とは：
+「制空値」とは海域における航空戦力の拮抗状況に影響するもので、
+味方出撃艦隊と出撃海域それぞれに「制空値」があり、
+味方の制空値と敵制空値との比較によって
+「制空権」が決定されます。
+
+「制空権」の状況により、下記の項目に影響があります。
+・味方の航空攻撃が与えるダメージ
+・味方艦隊が受ける敵航空攻撃によるダメージ
+・味方艦隊の一部ステータス（命中・回避・偵察値が微増/減）
+
+また、味方艦隊と海域の制空値が両方一定の数値より低い場合、
+「制空権」による影響が無効になります。
+制空権の効果は海域マップ画面上部のアイコンをタップすることで
+確認することが出来ます。
+
+■制空値の決め方
+味方艦隊の制空値は下記の項目を参照します。
+・味方艦隊の制空艦（正規空母、軽空母、航空戦艦）数
+・味方艦隊の「航空」ステータス
+・味方艦隊の搭載中の艦載機（戦闘機・爆撃機・攻撃機・水上機）
+味方艦隊の初期制空値は海域マップ選択画面の出撃準備画面で
+確認することが出来ます。
+
+海域制空値は下記の項目を参照します。
+・海域深度（章数）
+・味方艦隊の「対空」ステータス
+ハードモードにおける海域制空値は「周回モード」の設定により
+変化します。
+
+■tips
+・味方艦隊の現在の制空値は「海域マップ画面で戦闘可能な艦」
+　によって決められます。
+・味方艦隊が直接戦闘に参加しなくても、制空値に貢献することが
+　できます。
+・味方制空艦が戦闘不能になると、その艦の分だけ味方艦隊の
+　制空値が低下します。]]
+			}
+		}
+	},
+	help_attribute_dodge_limit = {
+		key = "help_attribute_dodge_limit",
+		tip = {
+			{
+				info = [[
+回避上限とは：
+艦載機が敵防空砲に攻撃される際、対空砲火を回避する確率の上限。
+
+防空砲攻撃の回避率は装備艦の航空ステータス、敵防空艦の
+対空ステータスと艦載機によって決められる。]]
 			}
 		}
 	}

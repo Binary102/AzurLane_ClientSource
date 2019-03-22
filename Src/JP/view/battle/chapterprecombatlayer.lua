@@ -212,27 +212,16 @@ function slot0.updateStageView(slot0, slot1)
 		end, SFX_PANEL)
 	end)
 	slot9:align(#slot6)
-
-	slot10 = findTF(slot0._goals, "goal_tpl")
-	slot11 = findTF(slot0._goals, "goal_sink")
-	slot12 = findTF(slot0._goals, "goal_time")
-
-	if slot3 == 1 or slot3 == 4 then
-		slot13 = nil
-
-		setWidgetText(slot10, i18n("battle_preCombatLayer_victory"))
-		setWidgetText(slot11, (slot5 >= 2 or i18n("battle_preCombatLayer_undefeated")) and i18n("battle_preCombatLayer_sink_limit", slot5))
-
-		if slot3 == 1 then
-			setWidgetText(slot12, i18n("battle_preCombatLayer_time_limit", slot4))
-		elseif slot3 == 4 then
-			setWidgetText(slot12, i18n("battle_preCombatLayer_boss_destruct"))
+	slot10(slot2.objective_1, findTF(slot0._goals, "goal_tpl"))
+	slot10(slot2.objective_2, findTF(slot0._goals, "goal_sink"))
+	function (slot0, slot1)
+		if type(slot0) == "table" then
+			setActive(slot1, true)
+			setWidgetText(slot1, i18n(PreCombatLayer.ObjectiveList[slot0[1]], slot0[2]))
+		else
+			setActive(slot1, false)
 		end
-	elseif slot3 == 2 then
-		setActive(slot11, false)
-		setActive(slot12, false)
-		setWidgetText(slot10, i18n("battle_preCombatLayer_time_hold", slot4))
-	end
+	end(slot2.objective_3, findTF(slot0._goals, "goal_time"))
 end
 
 function slot0.updateBattleFleetView(slot0)

@@ -368,10 +368,22 @@ end
 
 function ys.Battle.BattleBulletUnit.SetWeapon(slot0, slot1)
 	slot0._weapon = slot1
+
+	if slot1 then
+		slot0._correctedDMG = slot0._weapon:GetCorrectedDMG()
+	end
 end
 
 function ys.Battle.BattleBulletUnit.GetWeapon(slot0)
 	return slot0._weapon
+end
+
+function ys.Battle.BattleBulletUnit.GetCorrectedDMG(slot0)
+	return slot0._correctedDMG
+end
+
+function ys.Battle.BattleBulletUnit.OverrideCorrectedDMG(slot0, slot1)
+	slot0._correctedDMG = slot0.WeaponDamagePreCorrection(slot0._weapon, slot1)
 end
 
 function ys.Battle.BattleBulletUnit.GetWeaponTempData(slot0)

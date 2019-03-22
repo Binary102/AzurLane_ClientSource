@@ -217,27 +217,35 @@ function slot0.updateActivityData(slot0, slot1, slot2, slot3, slot4)
 		slot6:updatePlayer(slot13)
 	elseif slot5 == ActivityConst.ACTIVITY_TYPE_ZPROJECT then
 	elseif slot5 == ActivityConst.ACTIVITY_TYPE_TASK_LIST then
-		if slot1.cmd == 1 and slot7:getActivityTask(slot3) and slot7:getTaskById(slot8) then
-			for slot13, slot14 in ipairs(slot9) do
-				if table.contains(_.flatten({
-					slot14
-				}), slot8) then
-					slot3.data2 = slot8
-					slot3.data3 = slot13
+		if slot1.cmd == 1 then
+			slot8, slot9 = getActivityTask(slot3)
 
-					break
+			if slot9 and not slot9:isReceive() then
+				for slot14, slot15 in ipairs(slot10) do
+					if table.contains(_.flatten({
+						slot15
+					}), slot8) then
+						slot3.data2 = slot8
+						slot3.data3 = slot14
+
+						break
+					end
 				end
 			end
 		end
 	elseif slot5 == ActivityConst.ACTIVITY_TYPE_TASK_RES then
-		if slot1.cmd == 1 and slot7:getActivityTask(slot3) and slot7:getTaskById(slot8) then
-			for slot13, slot14 in ipairs(slot9) do
-				if table.contains(_.flatten({
-					slot14
-				}), slot8) then
-					slot3.data3 = slot13
+		if slot1.cmd == 1 then
+			slot8, slot9 = getActivityTask(slot3)
 
-					break
+			if slot9 and not slot9:isReceive() then
+				for slot14, slot15 in ipairs(slot10) do
+					if table.contains(_.flatten({
+						slot15
+					}), slot8) then
+						slot3.data3 = slot14
+
+						break
+					end
 				end
 			end
 		end

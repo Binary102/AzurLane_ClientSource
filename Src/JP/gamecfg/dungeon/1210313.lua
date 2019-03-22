@@ -468,8 +468,7 @@ return {
 						205
 					},
 					triggerParams = {
-						id = "NAERWEIKE11",
-						progress = 100
+						id = "NAERWEIKE11"
 					}
 				},
 				{

@@ -49,6 +49,8 @@ function slot0.Ctor(slot0, slot1)
 		slot0.commanderIds[slot6.pos] = slot6.id
 	end
 
+	slot0.skills = {}
+
 	slot0:updateCommanderSkills()
 end
 
@@ -155,8 +157,6 @@ function slot0.findCommanderBySkillId(slot0, slot1)
 end
 
 function slot0.updateCommanderSkills(slot0)
-	slot0.skills = {}
-
 	for slot5, slot6 in pairs(slot1) do
 		for slot10, slot11 in ipairs(slot6:getSkills()) do
 			for slot15, slot16 in ipairs(slot11:getTacticSkill()) do
@@ -218,7 +218,7 @@ function slot0.buildBattleBuffList(slot0)
 end
 
 function slot0.getSkills(slot0)
-	return slot0.skills or {}
+	return slot0.skills
 end
 
 function slot0.getShipIds(slot0)
@@ -641,6 +641,20 @@ function slot0.EnergyCheck(slot0, slot1, slot2, slot3)
 	else
 		return true
 	end
+end
+
+function slot0.getFleetAirDominanceValue(slot0)
+	slot1 = getProxy(BayProxy)
+	slot2 = slot0:getCommanders()
+	slot3 = 0
+
+	for slot7, slot8 in ipairs(slot0.ships) do
+		slot3 = function (slot0, slot1)
+			return slot0 + calcAirDominanceValue(slot0:getShipById(slot1), slot1)
+		end(slot3, slot8)
+	end
+
+	return slot3
 end
 
 return slot0

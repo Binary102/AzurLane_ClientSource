@@ -230,6 +230,13 @@ function slot2(slot0, slot1, slot2)
 			slot9 = slot9.zero
 			slot4 = slot4(slot5, slot6, slot7, slot8, slot9)
 			slot6 = slot4
+			slot5 = slot4.OverrideCorrectedDMG
+			slot7 = slot4
+			slot7 = slot7.damage
+
+			slot5(slot6, slot7)
+
+			slot6 = slot4
 			slot5 = slot4.SetOffsetPriority
 			slot7 = slot3
 
@@ -245,12 +252,12 @@ function slot2(slot0, slot1, slot2)
 			slot6 = slot4
 			slot5 = slot4.SetRotateInfo
 			slot7 = nil
-			slot8 = slot4
+			slot8 = slot5
 			slot9 = slot2
 
 			slot5(slot6, slot7, slot8, slot9)
 
-			slot5 = slot5
+			slot5 = slot6
 			slot5 = slot5.GetFactoryList
 			slot5 = slot5()
 			slot7 = slot4
@@ -260,12 +267,12 @@ function slot2(slot0, slot1, slot2)
 			slot5 = slot5[slot6]
 			slot7 = slot5
 			slot6 = slot5.CreateBullet
-			slot8 = slot6
+			slot8 = slot7
 			slot9 = slot8
 			slot8 = slot8.GetTf
 			slot8 = slot8(slot9)
 			slot9 = slot4
-			slot10 = slot6
+			slot10 = slot7
 			slot11 = slot10
 			slot10 = slot10.GetPosition
 

@@ -689,7 +689,72 @@ pg.gameset = {
 	event_tips = {
 		description = "",
 		key = "event_tips",
+		key_value = 0
+	},
+	air_dominance_level_1 = {
+		description = "",
+		key = "air_dominance_level_1",
+		key_value = 10011
+	},
+	air_dominance_level_2 = {
+		description = "",
+		key = "air_dominance_level_2",
+		key_value = 10012
+	},
+	air_dominance_level_3 = {
+		description = "",
+		key = "air_dominance_level_3",
+		key_value = 10013
+	},
+	air_dominance_level_4 = {
+		description = "",
+		key = "air_dominance_level_4",
+		key_value = 10014
+	},
+	air_dominance_level_5 = {
+		description = "",
+		key = "air_dominance_level_5",
+		key_value = 10015
+	},
+	air_dominance_p = {
+		description = "",
+		key = "air_dominance_p",
+		key_value = 10
+	},
+	air_dominance_q = {
+		description = "",
+		key = "air_dominance_q",
+		key_value = 5
+	},
+	air_dominance_s = {
+		description = "",
+		key = "air_dominance_s",
+		key_value = 6
+	},
+	air_dominance_t = {
+		description = "",
+		key = "air_dominance_t",
+		key_value = 4
+	},
+	air_dominance_r = {
+		description = "",
+		key = "air_dominance_r",
 		key_value = 1
+	},
+	air_dominance_a = {
+		description = "",
+		key = "air_dominance_a",
+		key_value = 8000
+	},
+	air_dominance_x = {
+		description = "",
+		key = "air_dominance_x",
+		key_value = 150
+	},
+	air_dominance_y = {
+		description = "",
+		key = "air_dominance_y",
+		key_value = 450
 	}
 }
 

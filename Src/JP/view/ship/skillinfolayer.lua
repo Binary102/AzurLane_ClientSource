@@ -30,9 +30,9 @@ function slot0.init(slot0)
 	setText(slot0.skillInfoLv, "Lv." .. ((slot2 and slot2.level) or 1))
 
 	if slot4 then
-		setText(slot0.skillInfoIntro, colorNumber(getSkillDescGet(slot1), COLOR_GREEN))
+		setText(slot0.skillInfoIntro, getSkillDescGet(slot1))
 	else
-		setText(slot0.skillInfoIntro, colorNumber(getSkillDesc(slot1, slot6), COLOR_GREEN))
+		setText(slot0.skillInfoIntro, getSkillDesc(slot1, slot6))
 	end
 
 	setActive(slot0.skillInfoSp, false)

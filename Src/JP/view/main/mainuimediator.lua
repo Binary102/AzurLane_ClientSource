@@ -908,10 +908,13 @@ function slot0.tryRequestVersion(slot0)
 		slot0.lastRequestVersionTime = Time.realtimeSinceStartup
 
 		pg.UIMgr.GetInstance():LoadingOn()
+
+		slot1 = true
+
 		VersionMgr.Inst:FetchVersion(function (slot0)
 			pg.UIMgr.GetInstance():LoadingOff()
 
-			if UpdateMgr.Inst.currentVersion.Build < slot0.Build then
+			if UpdateMgr.Inst.currentVersion.Build < false.Build then
 				pg.MsgboxMgr.GetInstance():ShowMsgBox({
 					modal = true,
 					hideNo = true,
@@ -926,6 +929,12 @@ function slot0.tryRequestVersion(slot0)
 			end
 		end)
 	end
+
+	LeanTween.delayedCall(3, System.Action(function ()
+		if onFetching then
+			pg.UIMgr.GetInstance():LoadingOff()
+		end
+	end))
 end
 
 function slot0.checkCV(slot0)

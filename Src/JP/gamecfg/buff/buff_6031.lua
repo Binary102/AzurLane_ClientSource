@@ -17,7 +17,7 @@ return {
 			},
 			arg_list = {
 				number = -0.3,
-				attr = "damageGetRatioByBulletTorpedo"
+				attr = "injureRatioByBulletTorpedo"
 			}
 		}
 	}

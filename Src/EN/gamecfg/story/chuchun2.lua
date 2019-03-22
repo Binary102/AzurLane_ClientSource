@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"{namecode:30}的烦恼\n\n<size=30>二 同伴的建议</size>",
+					"The Timid Black Cat\n\n<size=30>Advice From a Friend</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "港区·重樱宿舍",
+			say = "Port - Sakura Empire Dormitory",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -51,7 +51,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "呜…早知道会变成这个样子，就不要自告奋勇去做报告了…",
+			say = "*Whimper*... I thought this would happen... I should've never accepted the task...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			dir = 1,
 			actor = 301211,
 			nameColor = "#92fc63",
-			say = "明明在回来的路上已经做过那么多次练习了，为什么在指挥官面前还是……",
+			say = "I practiced it so much on my way to the office, but I just can't say the words in front of the Commander...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "哟！",
+			say = "Yo, Hatsuharu!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			dir = 1,
 			actor = 301211,
 			nameColor = "#92fc63",
-			say = "呀！呜、呜呜…原来是{namecode:85}小姐吗",
+			say = "*Eek*?! *Whimper*... H-hello, Hiyou...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			}
 		},
 		{
-			say = "啊，抱、抱歉，吓到你了吗？",
+			say = "Oh, did I spook you there? Sorry.",
 			side = 1,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -155,7 +155,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "不用担心，委托报告我已经帮你完成了。真是的，害怕的话，一开始就交给我不就好了嘛！",
+			say = "I gave the report on your behalf, so don't fret over it. If you were so scared of giving the report, you should've just asked me to do it...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "那个，谢、谢谢…不过我还是想……",
+			say = "Um, t-thank you... I'm just...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "…还在烦恼刚刚的事情吗？",
+			say = "... You're still anxious about it, aren't you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,7 +203,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "嗯…我想变得自信一点，所以想试着努力一下",
+			say = "Mhm... I wanted to try to get over my social anxiety...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +219,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "…但是一站在指挥官面前，之前想好的话突然一下子就全部忘记了…",
+			say = "... B-but as soon as I stepped into the office, I forgot everything I had p-practiced on the way there...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "嗯…原来如此，我明白了！{namecode:30}还是太缺乏自信了啊！",
+			say = "I see... So that's how it is. Sounds to me like your problem is a lack of confidence.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,7 +251,7 @@ return {
 			dir = 1,
 			actor = 301211,
 			nameColor = "#92fc63",
-			say = "（点头）",
+			say = "(Hatsuharu nodded in agreement.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,7 +277,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "自信的话——啊，有了！",
+			say = "Let's see, something to boost your confidence... Aha! I've got it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -293,7 +293,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "我找找……找到了！",
+			say = "This should help!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -309,7 +309,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "这是…眼罩？",
+			say = "... An... eyepatch...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -325,7 +325,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "没错！靠这个把软弱和缺乏自信都隐藏起来！来，戴上吧。对了，还要有个佩刀……要不把我的借给你吧！",
+			say = "Uh-huh. If you hide your eye, people won't be able to sense the weakness within you. Put it on, give it a try. Oh yeah, you need an imposing sword as well. Wanna borrow mine?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -341,7 +341,7 @@ return {
 			dir = 1,
 			actor = 301211,
 			nameColor = "#92fc63",
-			say = "呜…还、还是不用了——",
+			say = "T-thanks, but no thanks...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -367,7 +367,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "不行！在这里犹豫，停滞不前的话是没法变得自信的！",
+			say = "Don't say that. If you give up now, you'll never get over your social anxiety.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -383,7 +383,7 @@ return {
 			dir = 1,
 			actor = 306011,
 			nameColor = "#92fc63",
-			say = "就是现在，出发吧，大海盗{namecode:30}！无论是指挥官还是别的什么的，就用你的力量通通去征服吧！",
+			say = "... Maybe we need to take more drastic measures. Hatsuharu, let's head out, right now! You have the power within you to conquer the high seas, the Commander, and even your social anxiety!",
 			effects = {
 				{
 					active = true,
@@ -405,7 +405,7 @@ return {
 			dir = 1,
 			actor = 301211,
 			nameColor = "#92fc63",
-			say = "啊呜…我……",
+			say = "*Whimper*... I don't think I...",
 			effects = {
 				{
 					active = false,
@@ -437,7 +437,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "{namecode:30}姐，一会有个巡逻任务一起去——",
+			say = "Hey, Hatsuharu~ So, I was thinking we could go on a patrol together later.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -453,7 +453,7 @@ return {
 			dir = 1,
 			actor = 301231,
 			nameColor = "#92fc63",
-			say = "哇，姐姐好帅！",
+			say = "Whoa, Hatsuharu! You look pretty cool!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -479,7 +479,7 @@ return {
 			dir = 1,
 			actor = 301211,
 			nameColor = "#92fc63",
-			say = "呜呜呜…我果然还是不行啦！！！",
+			say = "*Whimper*... I-I can't do thiiiiis!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -490,12 +490,11 @@ return {
 			},
 			action = {
 				{
-					y = 30,
-					type = "shake",
-					delay = 0,
-					dur = 0.15,
-					x = 0,
-					number = 3
+					y = 0,
+					type = "move",
+					delay = 0.5,
+					dur = 1,
+					x = -2000
 				}
 			}
 		},
@@ -504,7 +503,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			blackBg = true,
-			say = "如此这般，伟大的“征服”在出发前便夭折了",
+			say = "And so, Hiyou's plans of conquering the high seas never left the drawing board.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

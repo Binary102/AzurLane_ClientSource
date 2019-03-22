@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"叫我{namecode:22}大人！\n\n<size=30>五　{namecode:22}和游乐园·上</size>",
+					"\"Call me Yukikaze the Great!\"\n\n<size=30>Chapter 5: Yukikaze and the Amusement Park (Pt 1)</size>",
 					1
 				}
 			}
@@ -24,7 +24,7 @@ return {
 			bgm = "story-1",
 			actor = 301164,
 			actorName = "{namecode:22}",
-			say = "想去游乐园了？哼，那种地方我{namecode:22}大人怎么会喜……呃呃呃……",
+			say = "You want to take me to the amusement park? Hmph, do you seriously think that Yukikaze the Great and Mature would want to... Arghhh...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			dir = 1,
 			actor = 301164,
 			actorName = "{namecode:22}",
-			say = "……哼，这可是指挥官实在想去{namecode:22}大人迫不得已才跟着你去的哦！",
+			say = "...Hmph! Commander, since you're begging me to go so desperately, I suppose I can follow you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			dir = 1,
 			actor = 301164,
 			actorName = "{namecode:22}",
-			say = "哼！好好感谢本大人吧！",
+			say = "Hmph! You should bow before me in gratitude!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "于是休息日去了游乐园——",
+			say = "After all was said and done, we went to the amusement park over the weekend...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			actorName = "{namecode:22}",
 			actor = 301164,
 			nameColor = "#a9f548",
-			say = "旋转木马？那种幼稚的玩意儿{namecode:22}大人是肯定不会去玩的！",
+			say = "Merry-go-round? Yukikaze the Great would never do something so childish?",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -119,7 +119,7 @@ return {
 			actorName = "{namecode:22}",
 			actor = 301164,
 			nameColor = "#a9f548",
-			say = "过山车？和海上的大浪比起来只不过算是鸡毛蒜皮罢了！",
+			say = "Roller coaster? That's like a nap on a soft bed compared to being on the rough seas!",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -153,7 +153,7 @@ return {
 			actorName = "{namecode:22}",
 			actor = 301164,
 			nameColor = "#a9f548",
-			say = "摩天轮！？那、那个不是约会的时候坐的东西吗！？雪、{namecode:22}大人倒是不——",
+			say = "Ferris wheel? Isn't that for dates? Yukikaze the Great does not...",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -187,7 +187,7 @@ return {
 			dir = 1,
 			actor = 301164,
 			actorName = "{namecode:22}",
-			say = "嗯？要去那个鬼屋挑战一下吗？",
+			say = "Huh? So, you want to go for a test of courage in that haunted mansion?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			dir = 1,
 			actor = 301164,
 			actorName = "{namecode:22}",
-			say = "啊～哈哈哈！这种骗小孩的玩意，{namecode:22}大人是不会害怕的啦！！",
+			say = "Wa ha ha! Only a child would get spooked by one of these cheap haunted mansions! Yukikaze the Great isn't afraid of anything!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "5分钟后",
+			say = "5 minutes later...",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -248,7 +248,7 @@ return {
 			blackBg = true,
 			actor = 301164,
 			actorName = "{namecode:22}",
-			say = "呜哇啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊！！！！",
+			say = "Fugyaaaaaaaaaaaaaahhh!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			blackBg = true,
 			actor = 301164,
 			actorName = "{namecode:22}",
-			say = "（颤抖）……好、好可怕……！不不不不要松开手啊啊啊啊啊啊 ――！",
+			say = "*trembling* ... Wh-wh-what was that...! H-h-h-here... hold onto my hand and... AAAAAAAHHH!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -295,7 +295,7 @@ return {
 			blackBg = true,
 			actor = 301164,
 			actorName = "{namecode:22}",
-			say = "指挥官！救救我啊啊啊啊啊啊！",
+			say = "Commander! Save meeeeeeeee!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -318,7 +318,7 @@ return {
 			side = 0,
 			dir = 1,
 			blackBg = true,
-			say = "……",
+			say = "... ...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -331,7 +331,7 @@ return {
 			actorName = "{namecode:22}",
 			actor = 301164,
 			nameColor = "#a9f548",
-			say = "要、要死了……",
+			say = "I... I thought I was gonna die...",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -375,7 +375,7 @@ return {
 			dir = 1,
 			actor = 301164,
 			actorName = "{namecode:22}",
-			say = "指、指挥官……呜呜呜呜……",
+			say = "C-Commander... Waaaahhh...!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -400,7 +400,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			blackBg = true,
-			say = "不经意间发现{namecode:22}紧紧抱住了自己。",
+			say = "At that time, the only thing I could do was to hug Yukikaze tightly.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

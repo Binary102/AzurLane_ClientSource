@@ -136,14 +136,35 @@ pg.expedition_daily_template = {
 		expedition_and_lv_limit_list = {}
 	},
 	[601] = {
-		tips = "Coming Soon",
-		pic = "daily4",
-		limit_time = 0,
+		tips = "战术研修每天开启",
+		pic = "daily6",
+		limit_time = 3,
 		id = 601,
 		title = "战术研修",
-		des = "Coming Soon",
-		weekday = {},
-		expedition_and_lv_limit_list = {}
+		des = "强大的特战敌人出现了！击破有几率获得战术升级材料",
+		weekday = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7
+		},
+		expedition_and_lv_limit_list = {
+			{
+				6000,
+				60
+			},
+			{
+				6001,
+				60
+			},
+			{
+				6002,
+				60
+			}
+		}
 	},
 	all = {
 		201,

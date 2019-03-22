@@ -28,7 +28,7 @@ return {
 		},
 		{
 			side = 0,
-			say = "{namecode:95}!!! You’re safe, I’m so relieved...",
+			say = "Sis! Thank god you're o...",
 			actorName = "{namecode:96}",
 			actor = 307061,
 			nameColor = "#a9f548",
@@ -92,7 +92,7 @@ return {
 			actorName = "{namecode:96}",
 			side = 0,
 			nameColor = "#a9f548",
-			say = "...Why, why are you doing this?",
+			say = "... Why are you doing this?",
 			shake = {
 				speed = 1,
 				number = 3
@@ -112,7 +112,7 @@ return {
 			dir = -1,
 			actor = 307011,
 			nameColor = "#ff0000",
-			say = "In order for us to be favored by the \"Creator\", a great sacrifice must be made.",
+			say = "An exquisite sacrifice is needed so that the Creator will continue gracing us with his blessings.",
 			shake = {
 				speed = 1,
 				number = 3
@@ -131,7 +131,7 @@ return {
 			actorName = "{namecode:92}",
 			side = 1,
 			nameColor = "#ff0000",
-			say = "All this, is for the sake of the Sakura Empire’s future.",
+			say = "This is all for the sake of the Sakura Empire's future.",
 			shake = {
 				speed = 1,
 				number = 3
@@ -150,7 +150,7 @@ return {
 			actorName = "{namecode:96}",
 			side = 0,
 			nameColor = "#a9f548",
-			say = "“For the sake of the Sakura Empire”, those words, how many times have we been lied to with those words...",
+			say = "... \"The Sakura Empire's future\"... How many times do you think you can fool people with those words?!",
 			shake = {
 				speed = 1,
 				number = 3
@@ -169,7 +169,7 @@ return {
 			actorName = "{namecode:96}",
 			side = 0,
 			nameColor = "#a9f548",
-			say = "This curse brought upon us cannot be a gift from the deity, it will not deliver us our future!",
+			say = "That cursed power is no gift from the gods! It won't deliver us our future!",
 			shake = {
 				speed = 1,
 				number = 3
@@ -188,7 +188,7 @@ return {
 			actorName = "{namecode:96}",
 			side = 0,
 			nameColor = "#a9f548",
-			say = "Ever since the first fight, I could tell that something was fishy.",
+			say = "I knew it... I knew all along that what you two were doing was crazy.",
 			shake = {
 				speed = 1,
 				number = 3
@@ -207,7 +207,7 @@ return {
 			actorName = "{namecode:96}",
 			side = 0,
 			nameColor = "#a9f548",
-			say = "This time, I’m really angry because you’ve picked the wrong target.",
+			say = "And by forcing my sister into your dirty little schemes, you've made me really, REALLY mad!",
 			shake = {
 				speed = 1,
 				number = 3
@@ -227,7 +227,7 @@ return {
 			dir = -1,
 			actor = 307011,
 			nameColor = "#ff0000",
-			say = "Hehehe, you should focus on defeating the opponent in front of you~",
+			say = "*Giggle*~ Have you thought about how you're going to defeat the enemy in front of you?",
 			shake = {
 				speed = 1,
 				number = 3
@@ -247,7 +247,7 @@ return {
 			dir = -1,
 			actor = 307011,
 			nameColor = "#ff0000",
-			say = "Her soul has already been offered to the \"Creator\". As for the rest of this useless shell, it will be your endpoint!",
+			say = "We've already offered her soul to the Creator. And now we will turn you into an empty husk as well!",
 			shake = {
 				speed = 1,
 				number = 3

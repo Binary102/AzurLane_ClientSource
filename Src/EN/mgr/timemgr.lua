@@ -115,6 +115,8 @@ function pg.TimeMgr.RealtimeSinceStartup(slot0)
 end
 
 function pg.TimeMgr.SetServerTime(slot0, slot1, slot2)
+	SwitchTimeZone(slot1)
+
 	slot0._deltaTime = slot1 - slot0:RealtimeSinceStartup()
 
 	print("self._deltaTime :", slot0._deltaTime, slot0:RealtimeSinceStartup())

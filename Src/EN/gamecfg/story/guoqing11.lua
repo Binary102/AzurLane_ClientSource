@@ -7,7 +7,7 @@ return {
 	scripts = {
 		{
 			side = 0,
-			say = "That child from the fifth fleet is heading towards the sculpture room. So annoying... why won't she give up.",
+			say = "Our brave little bird seems to be heading to the Sculpture Room. How annoying...",
 			nameColor = "#ff0000",
 			blackBg = true,
 			actor = 307061,
@@ -27,7 +27,7 @@ return {
 			}
 		},
 		{
-			say = "How many times are they going to interfere with us. Can't they understand the “Creator’s” will?!",
+			say = "How many times must they meddle in things that aren't their concern? Why do they not realize the magnificence of the Creator's plans?",
 			side = 1,
 			actorName = "？？？",
 			blackBg = true,
@@ -44,7 +44,7 @@ return {
 			}
 		},
 		{
-			say = "We just need to make sure the MOLD itself is not woken up, the carving process won't take too long.",
+			say = "My sister, please, control yourself. As long as the Original does not awaken, all will be well. Sculpting it should not take long.",
 			side = 0,
 			actorName = "？？？",
 			blackBg = true,
@@ -62,7 +62,7 @@ return {
 		},
 		{
 			side = 1,
-			say = "Let's send that child over there to stall her.",
+			say = "Then let's send out a rabbit to stall the little bird. She's been waiting for her tea party long enough...",
 			nameColor = "#ff0000",
 			blackBg = true,
 			actor = 307061,

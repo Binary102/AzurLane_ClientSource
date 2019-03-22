@@ -12,7 +12,7 @@ return {
 			actorName = "{namecode:132}",
 			side = 2,
 			nameColor = "#ff0000",
-			say = "Sigh, {namecode:79}-jan yields... even though we were given new powers, {namecode:96} still defeated us ruthlessly... sigh...",
+			say = "I surrender, you win... Even with the power granted to me by the Creator, I couldn't defeat you... *Sob*...",
 			shake = {
 				speed = 1,
 				number = 3
@@ -28,7 +28,7 @@ return {
 		},
 		{
 			side = 0,
-			say = "Did you hesitate in the heat of the battle?",
+			say = "... You were holding back, weren't you?",
 			actorName = "{namecode:96}",
 			actor = 307061,
 			nameColor = "#a9f548",
@@ -54,7 +54,7 @@ return {
 			actorName = "{namecode:132}",
 			side = 1,
 			nameColor = "#ff0000",
-			say = "Of-of course not! I was hesitant to tell you that {namecode:95} was actually imprisoned in the central big house in the \"Sanctuary\".",
+			say = "N-no I wasn't! And I'm not going to tell you that they locked Shoukaku away within the deepest part of the Sanctuary! It's super secret!",
 			shake = {
 				speed = 1,
 				number = 3
@@ -73,7 +73,7 @@ return {
 			actorName = "{namecode:96}",
 			side = 0,
 			nameColor = "#a9f548",
-			say = "Thanks~ I’ll take my leave~",
+			say = "Thanks. I'll be taking my leave now.",
 			shake = {
 				speed = 1,
 				number = 3
@@ -111,7 +111,7 @@ return {
 			actorName = "{namecode:96}",
 			side = 0,
 			nameColor = "#a9f548",
-			say = "What is it, got second doubts?",
+			say = "What is it now?",
 			shake = {
 				speed = 1,
 				number = 3
@@ -130,7 +130,7 @@ return {
 			actorName = "{namecode:132}",
 			side = 1,
 			nameColor = "#ff0000",
-			say = "Please save our future... those girls, they aren’t bad by nature...",
+			say = "Please... save our future... Those girls aren't all bad...",
 			shake = {
 				speed = 1,
 				number = 3
@@ -168,7 +168,7 @@ return {
 			actorName = "{namecode:96}",
 			side = 0,
 			nameColor = "#a9f548",
-			say = "Mmhm, I promise!",
+			say = "Okay, I will!",
 			shake = {
 				speed = 1,
 				number = 3

@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"{namecode:30}的烦恼\n\n<size=30>六 改变与决心</size>",
+					"The Timid Black Cat\n\n<size=30>Hatsuharu's Determination</size>",
 					1
 				}
 			}
@@ -24,7 +24,7 @@ return {
 			bgm = "story-1",
 			actor = 301211,
 			nameColor = "#a9f548",
-			say = "为什么，指挥官也会在这里？",
+			say = "C-Commander, why are you here...?",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -52,7 +52,7 @@ return {
 			},
 			options = {
 				{
-					content = "表示因为担心{namecode:30}",
+					content = "Because I was worried about you, just like Hatsushimo said.",
 					flag = 1
 				}
 			}
@@ -63,7 +63,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呜…指挥官，为什么要那么关心我…",
+			say = "*Whimper*... Thank you for caring so much about me, Commander...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "无论是担任秘书舰，还是演习的时候，我都是半吊子的存在，老是拖指挥官、拖大家的后腿…",
+			say = "But that doesn't change the fact... that I'm subpar, both as a secretary and as a soldier... All I do is get in people's ways...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			dir = 1,
 			actor = 301211,
 			nameColor = "#a9f548",
-			say = "胆小也好、对人恐惧也好，也一直没法好好克服……",
+			say = "I can't even overcome my social anxiety...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			},
 			options = {
 				{
-					content = "说出{namecode:30}的改变",
+					content = "Cheer up Hatsuharu",
 					flag = 1
 				}
 			}
@@ -117,7 +117,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我的…改变？",
+			say = "... I've... changed...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "第一次和指挥官交流的时候？",
+			say = "... Since the first time we talked...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那个时候我自告奋勇去负责了委托队的报告，结果把之前准备好的台词全忘了，然后就逃走了…",
+			say = "I went to report the results of a commission, but once I stood in front of you I forgot everything I was going to say and ran away...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			dir = 1,
 			actor = 301211,
 			nameColor = "#a9f548",
-			say = "后来…后来我成了秘书舰…但是每次和别人说话的时候，都要指挥官帮忙才能顺利进行下去…",
+			say = "Then I became your secretary, you helped me become better at talking, and I somehow managed to hold a conversation with strangers...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "现在和指挥官的对话？…啊，好像…我正在，和指挥官，普通的对话着…",
+			say = "And now I can actually talk to you, and... W-wait... I'm actually able to... hold a conversation with you...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "终于意识到了呀~{namecode:30}姐，很迟钝呢~",
+			say = "So you finally realized it. You've always been slow to catch on~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这么说来，明明和指挥官做了那么多的对话练习，我却一直没有注意到……",
+			say = "The Commander helped me so much... I don't understand how I didn't realize it sooner...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +239,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊哈哈，这样才像{namecode:30}姐嘛",
+			say = "Well, that's just like you, Hatsuharu!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呜…不过…指挥官一直在给我勇气，我却全部忽略掉了…",
+			say = "*Sob*... The Commander was always cheering me up... And somehow I didn't even realize it...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,7 +271,7 @@ return {
 			dir = 1,
 			actor = 301211,
 			nameColor = "#a9f548",
-			say = "我，我，我实在是……",
+			say = "I... I'm...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,7 +292,7 @@ return {
 			},
 			options = {
 				{
-					content = "表示期待明天的对话练习",
+					content = "Tell Hatsuharu what you plan to talk about tomorrow",
 					flag = 1
 				}
 			}
@@ -303,7 +303,7 @@ return {
 			dir = 1,
 			actor = 301211,
 			nameColor = "#a9f548",
-			say = "！！我，我明白了…我会加油的！",
+			say = "O-okay! That sounds good!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -329,7 +329,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "看来已经不再消沉了嘛，太好了呢，{namecode:30}",
+			say = "Hah, looks like my work here is done.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -345,7 +345,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "谢谢你们…{namecode:85}、{namecode:129}、{namecode:141}…还有…指挥官…我、我会再努力一把的！",
+			say = "Thank you so much... Hiyou, Hatsushimo, Wakaba, and you too, Commander... I'll keep at it! One day I'll be anxiety-free!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -360,7 +360,7 @@ return {
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			blackBg = true,
-			say = "伴随着{namecode:30}的笑容，今天一天也落下了帷幕。",
+			say = "Hatsushimo's eyes were twinkling with determination.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

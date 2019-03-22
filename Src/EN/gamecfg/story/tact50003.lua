@@ -4,27 +4,10 @@ return {
 	once = true,
 	scripts = {
 		{
-			mode = 1,
-			sequence = {
-				{
-					"",
-					0.2
-				}
-			},
-			signDate = {
-				"8月9日 凌晨  图拉吉岛南方海域",
-				0.2,
-				{
-					1050,
-					-685
-				}
-			}
-		},
-		{
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "此刻的北方舰队，三名同为新奥尔良级的重巡姐妹正在快乐地交流着。",
+			say = "Apart from Chicago's South Group, the three sisters Astoria, Quincy, and Vincennes were assigned to the Eagle Union's North Fleet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -34,7 +17,7 @@ return {
 			actor = 103101,
 			side = 2,
 			nameColor = "#a9f548",
-			say = "阿斯托利亚姐姐，好热……",
+			say = "Astoria, it's so hot...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +31,7 @@ return {
 			actor = 103081,
 			side = 2,
 			nameColor = "#a9f548",
-			say = "欸，那你把外套脱了过来姐姐帮你拿着吧。",
+			say = "Okay~ In that case, why don't you take off your blazer and pass it over to me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +45,7 @@ return {
 			actor = 103101,
 			side = 2,
 			nameColor = "#a9f548",
-			say = "脱了也好热，我要晕倒了……",
+			say = "It's still too hot even if I take it off... I'm gonna melt...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +59,7 @@ return {
 			actor = 103091,
 			side = 2,
 			nameColor = "#a9f548",
-			say = "这边是热带气候，一整年都是这个气温，现在是晚上，已经算是最凉爽的时候了哦？",
+			say = "We're in the tropics, after all. This is just how the climate is all year 'round. At least it cools down at night.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +73,7 @@ return {
 			actor = 103091,
 			side = 2,
 			nameColor = "#a9f548",
-			say = "不过这两天都在帮忙搬运物资，文森斯累了也是没有办法的事呢。",
+			say = "That said, Vincennes has been busy lugging supplies around the last two days, so it only makes sense that she'd be tired...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +86,7 @@ return {
 		{
 			actor = 103101,
 			side = 1,
-			say = "而且巡逻好累好无聊……为什么要巡逻，不是有企业姐姐他们？",
+			say = "Also, going on patrol is tiring and boring... Why do we have to run around when Enterprise and the others could handle it?",
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -122,7 +105,7 @@ return {
 			actor = 103091,
 			side = 0,
 			nameColor = "#a9f548",
-			say = "因为上头害怕附近有潜伏着的敌方的空母，所以下午的时候就早早命令企业她们提前离开这片海域了呢",
+			say = "Um, it seems that the admiralty is worried that there are enemy carriers lurking around, so they issued orders to have her withdrawn...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +119,7 @@ return {
 			actor = 103091,
 			side = 0,
 			nameColor = "#a9f548",
-			say = "所以我们今晚才需要巡逻保证登陆部队的安全哦",
+			say = "That's why we're needed to patrol the area and ensure the safety of the landing force.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +133,7 @@ return {
 			actor = 103081,
 			side = 1,
 			nameColor = "#a9f548",
-			say = "呜哇，昆西懂得好多，我完全不知道这些欸，只知道今晚有巡逻任务，总觉得昆西比我更像姐姐……",
+			say = "Quincy knows everything, doesn't she? Is she becoming a better big sister than me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +147,7 @@ return {
 			actor = 103091,
 			side = 0,
 			nameColor = "#a9f548",
-			say = "哪有，当姐姐又不是比谁知道的多，我能帮到阿斯托利亚姐姐也很高兴呢~",
+			say = "Th-that wasn't my intention... I just want to be helpful to you, Astoria...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,7 +161,7 @@ return {
 			actor = 103081,
 			side = 1,
 			nameColor = "#a9f548",
-			say = "话是这么说……唔，不行，我不甘心，昆西，这次任务结束后来教我怎么才能变得像你一样知道得那么多。",
+			say = "Hm... is that so? But not this time! You've shown me that I need to get smarter! Quincy, after this mission is over, teach me how to get smart!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +175,7 @@ return {
 			actor = 103091,
 			side = 0,
 			nameColor = "#a9f548",
-			say = "是是~",
+			say = "Um, sure!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +189,7 @@ return {
 			actor = 103101,
 			side = 1,
 			nameColor = "#a9f548",
-			say = "唔，昆西姐姐，我好困。",
+			say = "Quincy, I'm sleepy...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -220,7 +203,7 @@ return {
 			actor = 103091,
 			side = 0,
 			nameColor = "#a9f548",
-			say = "唔，真是没办法，过来吧，我来背你。",
+			say = "I suppose there's no helping it... Vincennes, come here, I'll carry you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,7 +217,7 @@ return {
 			actor = 103101,
 			side = 1,
 			nameColor = "#a9f548",
-			say = "耶，我最喜欢昆西姐姐啦~",
+			say = "Yay! Quincy, I love you~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +231,7 @@ return {
 			actor = 103081,
 			side = 1,
 			nameColor = "#a9f548",
-			say = "我呢我呢？",
+			say = "What about Astoria? You know, your other big sister?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +245,7 @@ return {
 			actor = 103101,
 			side = 1,
 			nameColor = "#a9f548",
-			say = "唔……第二喜欢？",
+			say = "Um... I love you second best?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -276,7 +259,7 @@ return {
 			actor = 103081,
 			side = 1,
 			nameColor = "#a9f548",
-			say = "……好像，还行？",
+			say = "Hm... I suppose that's still a silver medal...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -289,7 +272,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "这时，一阵突然的强光忽然将三姐妹笼罩其中。",
+			say = "Suddenly, all three sisters were illuminated by searchlights.",
 			flashout = {
 				dur = 1,
 				black = false,
@@ -316,7 +299,7 @@ return {
 			actor = 103101,
 			side = 2,
 			nameColor = "#a9f548",
-			say = "唔……是后面不小心打开了探照灯吗？",
+			say = "Searchlights...? Or did someone behind us accidentally turn on the high beams...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -329,7 +312,7 @@ return {
 		{
 			actor = 103081,
 			side = 0,
-			say = "不对！这是……敌袭！昆西，文森斯，准备战斗！",
+			say = "Wait, no! These are... enemies! Quincy, Vincennes, prepare for battle!",
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,

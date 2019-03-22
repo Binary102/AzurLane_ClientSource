@@ -76,6 +76,10 @@ function slot0.register(slot0)
 		slot10 = slot6:getShipsByFleet(slot5:getFleetById(slot11))
 	end
 
+	if slot9 == SYSTEM_HP_SHARE_ACT_BOSS then
+		slot0.viewComponent:setActId(slot0.contextData.actId)
+	end
+
 	slot0.viewComponent:setShips(slot10)
 	slot0:bind(slot0.ON_CHALLENGE_RANK, function (slot0)
 		slot1 = getProxy(ContextProxy)
@@ -146,6 +150,10 @@ function slot0.register(slot0)
 
 			if slot1:getContextByMediator(DailyLevelMediator) then
 				slot3:removeChild(slot3:getContextByMediator(ChallengePreCombatMediator))
+			end
+		elseif slot0 == SYSTEM_HP_SHARE_ACT_BOSS then
+			if slot1:getContextByMediator(ActivityBossBattleMediator2):getContextByMediator(PreCombatMediator) then
+				slot2:removeChild(slot3)
 			end
 		elseif slot1:getContextByMediator(LevelMediator2) then
 			slot2:removeChild(slot2:getContextByMediator(PreCombatMediator))

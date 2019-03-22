@@ -177,8 +177,8 @@ pg.name_code = {
 	},
 	{
 		id = 36,
-		name = "Makigumo",
-		code = "Makigumo"
+		name = "Makinami",
+		code = "Makinami"
 	},
 	{
 		id = 37,
@@ -342,8 +342,8 @@ pg.name_code = {
 	},
 	{
 		id = 69,
-		name = "Chokai",
-		code = "Chokai"
+		name = "Choukai",
+		code = "Choukai"
 	},
 	{
 		id = 70,
@@ -422,8 +422,8 @@ pg.name_code = {
 	},
 	{
 		id = 85,
-		name = "Hiyo",
-		code = "Hiyo"
+		name = "Hiyou",
+		code = "Hiyou"
 	},
 	{
 		id = 86,
@@ -657,8 +657,8 @@ pg.name_code = {
 	},
 	{
 		id = 132,
-		name = "Yamashiro Variant",
-		code = "Yamashiro Variant"
+		name = "Yamashiro Retrofit",
+		code = "Yamashiro Retrofit"
 	},
 	{
 		id = 133,

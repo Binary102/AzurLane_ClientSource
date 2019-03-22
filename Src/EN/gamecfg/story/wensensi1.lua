@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"妹妹的变化\n\n<size=30>一 妹妹的日常</size>",
+					"My Sister's Growth Spurt?!\n\n<size=30>Chapter 1: My Sister's Daily Routine</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "指挥官，休息日来一起来玩吗？",
+			say = "Commander, wanna come over to play this weekend?",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -60,7 +60,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "某天，突然收到了文森斯的邀请，于是在休息日来到了白鹰宿舍——",
+			say = "One day, I suddenly received an invitation from Vincennes. That weekend, I found myself in front of the gates to the Union's dorm...",
 			effects = {
 				{
 					active = false,
@@ -82,7 +82,7 @@ return {
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "story-1",
-			say = "港区·白鹰宿舍",
+			say = "Port - Eagle Union Dorms",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -115,7 +115,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊…指挥官，欢迎。我听文森斯说过了",
+			say = "Ah, Commander, you made it. Vincennes told me you were on your way.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "文森斯，别睡了，指挥官来咯，你们不是约好一起玩的吗？",
+			say = "Vincennes, wake up! Weren't you the one who invited Commander over to play?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "踏入房间，映入眼帘的是正躺在昆西的大腿上睡觉的文森斯",
+			say = "I stepped inside the dorm and saw Vincennes, sound asleep in Quincy's lap.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			dir = 1,
 			actor = 103101,
 			nameColor = "#a9f548",
-			say = "唔……嗯？让我再睡会……",
+			say = "Zzzz.... huh? Ugh... five more minutes...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不遵守约定可不是好孩子哦？",
+			say = "It's not good to keep to keep people waiting for you...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,7 +203,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那指挥官也来一起睡觉好了……呼……",
+			say = "Then... Commander should come take a nap too... zzz...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "文森斯说着又睡了过去。",
+			say = "Vincennes fell asleep again, mid sentence.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,7 +233,7 @@ return {
 			dir = 1,
 			actor = 103091,
 			nameColor = "#a9f548",
-			say = "抱歉呢，指挥官，文森斯她就是这样的孩子。",
+			say = "I'm sorry, Commander, Vincennes is just always like this...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -244,7 +244,7 @@ return {
 			},
 			options = {
 				{
-					content = "表示没有关系",
+					content = "\"I don't mind!\"",
 					flag = 1
 				}
 			}
@@ -255,7 +255,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "说起来，文森斯担任秘书舰的时候，没有给指挥官带来什么麻烦吧？",
+			say = "That reminds me, how is Vincennes doing as your secretary? She didn't make any trouble for you, did she?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,7 +271,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这孩子，该说性格稍微有些自由奔放吗…大概是因为我们都太宠她了吧……",
+			say = "Her personality is a bit too laid back... perhaps we've spoiled her too much...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -287,7 +287,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "平时这样倒是没什么，但是毕竟工作是工作，要是指挥官觉得不好的话…",
+			say = "Being like this at home is one thing, but I'm worried that she's like this on the job as well... If it's troublesome for you, then...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +303,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "让我来代替文森斯担任秘书舰也没关系的！",
+			say = "You can always let me take her place!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -317,7 +317,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "并没有让文森斯变得能干的选项啊…",
+			say = "Is there no option to help her become more reliable?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -328,7 +328,7 @@ return {
 			},
 			options = {
 				{
-					content = "表示文森斯现在这样就好",
+					content = "\"Though, Vincennes is fine as she is\"",
 					flag = 1
 				}
 			}
@@ -339,7 +339,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是、是吗…指挥官这么说我就放心了……",
+			say = "I, I see... I'm relieved if that is the case, Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -355,7 +355,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔，姐姐你们…有点吵",
+			say = "Zzz... Sis... you're being noisy...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -371,7 +371,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊哈哈，抱歉抱歉，那指挥官，要一起来午睡吗？",
+			say = "Hehe... sorry, sorry. Um, Commander, should we all take a nap then?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -385,7 +385,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "说是一起午睡，不过这边躺在哪……正想这个的时候，昆西轻轻拍了拍自己空着的另一条腿",
+			say = "Just as I was thinking about where I would even be able to lie down, Quincy smiled at me and gently patted her unoccupied leg.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -400,7 +400,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			blackBg = true,
-			say = "虽然没敢答应…不过，姑且还是在她们房间休息了一段时间",
+			say = "I didn't dare take her up on her offer, but I did sit down next to Vincennes for a while until she woke up.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

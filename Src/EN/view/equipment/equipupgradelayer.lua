@@ -127,15 +127,19 @@ function slot0.updateEquipment(slot0)
 	slot0:updateAttrs(slot0:findTF("attrs", slot0.equipmentPanel), slot2, (slot0.contextData.equipmentVO.config.next > 0 and Equipment.New({
 		id = slot2.config.next
 	})) or nil)
-	setText(findTF(slot0.equipmentPanel, "name_container/name"), slot2.config.name)
+
+	slot4 = findTF(slot0.equipmentPanel, "name_container/name"):GetComponent(typeof(Text))
+	slot4.text = slot2.config.name
+	slot4.fontSize = 24 - (string.len(slot4.text) - 10) / 10
+
 	setActive(findTF(slot0.equipmentPanel, "name_container/unique"), slot2:isUnique() and slot0.isShowUnique)
 	updateEquipment(setActive, slot2)
 
-	slot5 = Equipment.canUpgrade(slot2.id)
+	slot6 = Equipment.canUpgrade(slot2.id)
 
-	setActive(slot0.notActiveBtn, not slot5)
-	setButtonEnabled(slot0.startBtn, slot5)
-	setActive(slot0.overLimit, not slot5)
+	setActive(slot0.notActiveBtn, not slot6)
+	setButtonEnabled(slot0.startBtn, slot6)
+	setActive(slot0.overLimit, not slot6)
 end
 
 function slot0.updateAttrs(slot0, slot1, slot2, slot3)

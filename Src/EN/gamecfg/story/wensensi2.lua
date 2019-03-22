@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"妹妹的变化\n\n<size=30>二 妹妹的忧郁</size>",
+					"My Sister's Growth Spurt?!\n\n<size=30>Chapter 2: My Sister's Troubles</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "港区·白鹰宿舍",
+			say = "Port - Eagle Union Dorms",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -49,7 +49,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "又一次接受文森斯的邀请来到了文森斯的宿舍",
+			say = "I received another invitation from Vincennes to the Eagle Union Dorms.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "文森斯，这是我刚买的芒果千层，来，啊~~",
+			say = "Vincennes, I bought some mango crepe cake just now! Here, ahhn~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			}
 		},
 		{
-			say = "怎么连阿斯托里亚姐姐都变成这样了……",
+			say = "Astoria... why are you doing this too...",
 			side = 1,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -101,7 +101,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "我也是姐姐嘛！怎么能把疼爱妹妹的事情全部交给昆西呢！",
+			say = "Because I'm a big sister, of course! I can't let Quincy keep you all to herself!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔…阿斯托里亚姐姐…",
+			say = "Ugh... Astoria... *nom nom*",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "文森斯有些无奈地被阿斯托里亚一口一口喂着蛋糕。",
+			say = "Vincennes' objections were quickly silenced by the spoonfuls of cake that Astoria fed her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			dir = 1,
 			actor = 103102,
 			nameColor = "#a9f548",
-			say = "指挥官，help me…",
+			say = "Commander, help me...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +158,7 @@ return {
 			},
 			options = {
 				{
-					content = "坐下一起吃蛋糕",
+					content = "Help her finish the cake",
 					flag = 1
 				}
 			}
@@ -169,7 +169,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "欸嘿嘿……",
+			say = "Ehehe...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "在一边，阿斯托里亚看着文森斯露出了有些……幸福的笑容？",
+			say = "From the side, Astoria was watching Vincennes with a... \"happy\" smile?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "总觉得阿斯托里亚的角色都变了……？",
+			say = "Astoria, your aura seems to have... darkened a few shades?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "什么嘛，指挥官，用那种眼神看着我。虽然比不上昆西，我也是姐姐，姐，姐！",
+			say = "Hey, wait a second, Commander! I may not be Quincy but I'm also Vincennes' big sister! Got it? Big~ sister~!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,7 +229,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "而且以前我和文森斯分开比较多，像现在这样一起生活就会觉得，我的妹妹好可爱啊！",
+			say = "Besides, we didn't get to spend a lot of time together before, so being able to spend time with my adorable little sister like this is like a dream come true!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,7 +243,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "阿斯托里亚说着一把把文森斯抱在怀里。",
+			say = "Upon saying that, Astoria threw herself around Vincennes and squeezed her hard.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "姐姐……别抱那么紧……",
+			say = "Sis... can't... breathe!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,7 +273,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "总觉得，阿斯托里亚莫非有变成波特兰的潜质……？",
+			say = "Somehow, I started getting the feeling that Astoria and Portland could become really good friends...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,7 +284,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			blackBg = true,
-			say = "不过，她的想法也不是不能理解，文森斯身上确实有一种让人想要去照顾她的气场呢……",
+			say = "I suppose I can relate with how you're feeling, Astoria. Vincennes does give off that aura that makes you want to protect her...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

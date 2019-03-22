@@ -18,7 +18,7 @@ pg.skill_data_display = {
 	},
 	[13] = {
 		id = 13,
-		name = "维修Lv4"
+		name = "Repair IV"
 	},
 	[42] = {
 		id = 42,
@@ -342,7 +342,7 @@ pg.skill_data_display = {
 	},
 	[4121] = {
 		id = 4121,
-		name = "防护装甲"
+		name = "Protective Armor "
 	},
 	[4130] = {
 		id = 4130,
@@ -538,7 +538,7 @@ pg.skill_data_display = {
 	},
 	[8521] = {
 		id = 8521,
-		name = "新生連合艦隊旗艦"
+		name = "新生重樱联合"
 	},
 	[9010] = {
 		id = 9010,

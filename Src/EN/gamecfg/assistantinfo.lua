@@ -118,6 +118,7 @@ pg.AssistantInfo = {
 		"home",
 		"mail",
 		"touch",
+		"touch2",
 		"headtouch"
 	},
 	idleActions = {

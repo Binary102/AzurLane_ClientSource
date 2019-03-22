@@ -12,7 +12,7 @@ return {
 			actorName = "{namecode:92}",
 			side = 2,
 			nameColor = "#ff0000",
-			say = "What a useless Pawn! Well, here's my the chance, got you!!",
+			say = "Of course this is all a Pawn would be capable of... It's over. Come here!",
 			shake = {
 				speed = 1,
 				number = 3
@@ -31,7 +31,7 @@ return {
 			actorName = "{namecode:92}",
 			side = 2,
 			nameColor = "#ff0000",
-			say = "Your soul, is ours!",
+			say = "Your soul is mine!",
 			shake = {
 				speed = 1,
 				number = 3
@@ -50,7 +50,7 @@ return {
 			actorName = "{namecode:96}",
 			side = 2,
 			nameColor = "#a9f548",
-			say = "Darn!!!",
+			say = "Gah...! I can't... move...!",
 			shake = {
 				speed = 1,
 				number = 3
@@ -70,7 +70,7 @@ return {
 			soundeffect = "event:/battle/boom2",
 			actor = 307061,
 			actorName = "{namecode:96}",
-			say = "...Shou...{namecode:95}?",
+			say = "What...?! Sho... Shoukaku?!",
 			flashout = {
 				dur = 0.3,
 				alpha = {
@@ -101,7 +101,7 @@ return {
 		},
 		{
 			side = 1,
-			say = "Promise... you will protect... forever...",
+			say = "I promised... I would always... protect you...!",
 			actorName = "{namecode:95}",
 			actor = 307051,
 			nameColor = "#a9f548",
@@ -127,7 +127,7 @@ return {
 			actorName = "{namecode:96}",
 			side = 0,
 			nameColor = "#a9f548",
-			say = "{namecode:95}...",
+			say = "Sis, you're...",
 			shake = {
 				speed = 1,
 				number = 3
@@ -147,7 +147,7 @@ return {
 			dir = -1,
 			actor = 307021,
 			nameColor = "#ff0000",
-			say = "Is... is this the so-called awakening... being ignited by the most important memory at just the right time and place...",
+			say = "This must be an Awakening Response... Brought on by remembering something important from the depths of her mind at just the right time...",
 			shake = {
 				speed = 1,
 				number = 3
@@ -167,7 +167,7 @@ return {
 			dir = -1,
 			actor = 307011,
 			nameColor = "#ff0000",
-			say = "{namecode:92}, time to retreat. The logs are saved for the \"Creator\". If you happen to see any Pawns wake up, then it is your top priority to report it in the logs.",
+			say = "Kaga, let's retreat. Our priority right now is to report to the Creator that a Pawn has Awakened.",
 			shake = {
 				speed = 1,
 				number = 3
@@ -206,7 +206,7 @@ return {
 			actorName = "{namecode:96}",
 			side = 0,
 			nameColor = "#a9f548",
-			say = "{namecode:95}... I’m sorry, all this time and I’ve still haven’t grown up. Still so reckless and short-sighted...",
+			say = "Sis... I'm sorry... I haven't matured one bit... I'm still so reckless and shortsighted...",
 			shake = {
 				speed = 1,
 				number = 3
@@ -225,7 +225,7 @@ return {
 			actorName = "{namecode:95}",
 			side = 1,
 			nameColor = "#a9f548",
-			say = "As long as you’re safe, then we still have hope... only you, can defeat the opponent upon us.",
+			say = "As long as you're safe and well, there is still hope... You are the only one who can defeat the enemy that is upon us...",
 			shake = {
 				speed = 1,
 				number = 3
@@ -244,7 +244,7 @@ return {
 			actorName = "{namecode:95}",
 			side = 1,
 			nameColor = "#a9f548",
-			say = "I’ll always be by your side... always protecting you...",
+			say = "I will always be by your side... always protecting you...",
 			shake = {
 				speed = 1,
 				number = 3
@@ -263,7 +263,7 @@ return {
 			actorName = "{namecode:95}",
 			side = 1,
 			nameColor = "#a9f548",
-			say = "Look ahead with confidence...stay true to our goals...",
+			say = "Always look forward, confidently... and stay true to our goals...",
 			shake = {
 				speed = 1,
 				number = 3
@@ -282,7 +282,7 @@ return {
 			actorName = "{namecode:96}",
 			side = 0,
 			nameColor = "#a9f548",
-			say = "{namecode:95}...",
+			say = "Sis...",
 			shake = {
 				speed = 1,
 				number = 3
@@ -301,7 +301,7 @@ return {
 			actorName = "{namecode:95}",
 			side = 1,
 			nameColor = "#a9f548",
-			say = "Go on now, find out their intentions. We cannot let the future of the Sakura Empire be ruined in their hands...",
+			say = "Now go, chase after Akagi and Kaga... We cannot let them sully the Sakura Empire's future...",
 			shake = {
 				speed = 1,
 				number = 3

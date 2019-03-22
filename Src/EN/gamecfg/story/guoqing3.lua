@@ -31,7 +31,7 @@ return {
 			actorName = "{namecode:96}",
 			side = 2,
 			nameColor = "#a9f548",
-			say = "This looks like a graveyard of those who sought out \"Sanctuary\"...had my luck been just as bad...",
+			say = "This looks like a graveyard for those who sought out the Sanctuary... Had I not been so lucky, this would have been my final resting place, too...",
 			shake = {
 				speed = 1,
 				number = 3
@@ -50,7 +50,7 @@ return {
 			actorName = "{namecode:96}",
 			side = 2,
 			nameColor = "#a9f548",
-			say = "...anyways, I must try to contact {namecode:95} first, this place...I’m getting a bad feeling about this place.",
+			say = "... Anyway, I need to establish radio contact with Shoukaku. This place is giving me the creeps...",
 			shake = {
 				speed = 1,
 				number = 3

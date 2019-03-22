@@ -165,6 +165,7 @@ ys.Battle.BattleAttr = {
 		slot0._attr or .velocity = ys.Battle.BattleFormulas.ConvertShipSpeed(slot0._tmpData.speed + slot0._tmpData.speed_growth * ((slot0._level or 1) - 1) / 1000)
 		slot0._attr or .luck = slot0._tmpData.luck + slot0._tmpData.luck_growth * ((slot0._level or 1) - 1) / 1000
 		slot0._attr or .bulletSpeedRatio = 0
+		slot0._attr or .id = "enemy_" .. tostring(slot0._tmpData.id)
 		slot0._attr or .repressReduce = 1
 		slot0._attr or .comboTag = "combo_" .. slot0._attr or .battleUID
 

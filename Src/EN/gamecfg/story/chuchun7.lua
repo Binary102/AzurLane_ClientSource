@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"{namecode:30}的烦恼\n\n<size=30>七 秘书舰的日常</size>",
+					"The Timid Black Cat\n\n<size=30>The Black Cat's Daily Life</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "一段时间过后，港区·指挥室",
+			say = "A while later...",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -51,7 +51,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "欸，真的不行吗？",
+			say = "Aww, you mean you can't do it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我想应该是不行的呢，毕竟这可是用于舰队扩充的预算…",
+			say = "I-I'm fairly sure, yes! Those funds are necessary to expand the fleet...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			dir = 1,
 			actor = 900034,
 			nameColor = "#a9f548",
-			say = "啊啊啊！…以文化研究的名义免费弄到游戏新作的计划竟然泡汤了——",
+			say = "So my plan to buy new games in the name of cultural research has failed?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呜呜…我明白了…不过还是谢谢你的接待了，{namecode:30}",
+			say = "Dang... So be it... Thanks for your time, Hatsuharu...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呼~该说…很有长岛小姐的风格吗？",
+			say = "*Pant*... *pant*... I'm sorry, Long Island...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "居然想用多余的公费来买游戏…不过…",
+			say = "So she wanted to use our funds to buy games, huh... Nice try...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "{namecode:30}已经变得能和其他人正常交流了",
+			say = "Long Island's schemes aside... Slowly but surely, Hatsuharu has been getting better at conversing with people.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "接着是近期的演习计划…还有科研项目的安排…",
+			say = "Next, we have to work out the practice schedule... and plan for the research tasks...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			dir = 1,
 			actor = 301231,
 			nameColor = "#a9f548",
-			say = "{namecode:30}姐姐！",
+			say = "Hey, Hatsuharu!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,7 +210,7 @@ return {
 			dir = 1,
 			actor = 301211,
 			nameColor = "#a9f548",
-			say = "{namecode:141}？呀！不要突然扑过来啊！",
+			say = "Wakaba?! C-could you not hug me from behind out of nowhere?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -236,7 +236,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘿嘿，有点想姐姐了呢",
+			say = "But I wanted to see you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,7 +252,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "昨天不是才在一个宿舍睡的吗…",
+			say = "Didn't you see me just yesterday...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,7 +266,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "两人的关系依旧是那么好啊",
+			say = "It's always great to see sister ships getting along this well.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,7 +282,7 @@ return {
 			dir = 1,
 			actor = 301231,
 			nameColor = "#a9f548",
-			say = "对了对了，姐姐，你什么时候和指挥官表白呀？",
+			say = "Oh yeah, I was wondering something! When are you gonna confess to the Commander?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -309,7 +309,7 @@ return {
 			dir = 1,
 			actor = 301211,
 			stopbgm = true,
-			say = "哈咿？",
+			say = "W-when am I what?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -323,7 +323,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "！？",
+			say = "Huh?!",
 			dialogShake = {
 				speed = 0.09,
 				x = 8.5,
@@ -345,7 +345,7 @@ return {
 			bgm = "story-1",
 			actor = 301211,
 			nameColor = "#a9f548",
-			say = "<size=45>你你你你你在说什么呀！</size>",
+			say = "<size=45>W-w-what are you talking about, Wakaba?!</size>",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -367,7 +367,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我上次听到了哦，姐姐一个人在宿舍的时候，说什么“什么时候指挥官会教我表白的话”。嘿嘿，姐姐一定是对指挥官——",
+			say = "Just the other day you were wondering to yourself when the best time to \"confess to the Commander\" is! *Giggle*, I'm sure you 2 would make a great coup-",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -383,7 +383,7 @@ return {
 			dir = 1,
 			actor = 301231,
 			nameColor = "#a9f548",
-			say = "啊呜！",
+			say = "Whuah?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -408,7 +408,7 @@ return {
 			dir = 1,
 			actor = 301211,
 			nameColor = "#a9f548",
-			say = "为、为什么{namecode:141}会听到这些啊！！！",
+			say = "H-how in the world did you hear that?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -429,7 +429,7 @@ return {
 			}
 		},
 		{
-			say = "欸嘿嘿，不要小看了{namecode:141}酱的耳朵哟~",
+			say = "*Giggle*~ My ears are sharper than you might think~",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -463,7 +463,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "对了对了，还有——",
+			say = "Speaking of which, there was one time when Hatsuharu was hoping that you-",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -479,7 +479,7 @@ return {
 			dir = 1,
 			actor = 301211,
 			nameColor = "#a9f548",
-			say = "<size=45>不，不要再说了啦！！！</size>",
+			say = "<size=45>D-don't say any more!</size>",
 			effects = {
 				{
 					active = true,
@@ -506,7 +506,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "似乎有所进展，又似乎没什么改变，和{namecode:30}一起的日子，还将持续下去",
+			say = "It seems our rowdy days will continue for some time.",
 			effects = {
 				{
 					active = false,

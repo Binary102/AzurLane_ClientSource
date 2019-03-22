@@ -7,7 +7,7 @@ return {
 	scripts = {
 		{
 			side = 0,
-			say = "These annoying pests have taken the bait, all systems are functioning properly.",
+			say = "That idiot has taken the bait. All systems normal.",
 			nameColor = "#ff0000",
 			blackBg = true,
 			actor = 307061,
@@ -27,7 +27,7 @@ return {
 			}
 		},
 		{
-			say = "It’s that child from the fifth fleet again, so persistent, so naive.",
+			say = "Ah, the little one from the 5th Carrier Division? So persistent, yet so naïve...",
 			side = 1,
 			actorName = "？？？",
 			blackBg = true,
@@ -44,7 +44,7 @@ return {
 			}
 		},
 		{
-			say = "Those who dare to fight against the “Creator” will eventually pay the price for their arrogance.",
+			say = "Those who dare oppose the Creator shall pay for their ignorance with their lives.",
 			side = 1,
 			actorName = "？？？",
 			blackBg = true,
@@ -62,7 +62,7 @@ return {
 		},
 		{
 			side = 0,
-			say = "Send them to sortie, this is a good chance to test out our new weapons given to us by the \"Creator\".~",
+			say = "Let's give them a little surprise. This is a perfect opportunity to test the new weapon the Creator gave us...",
 			nameColor = "#ff0000",
 			blackBg = true,
 			actor = 307061,
@@ -83,7 +83,7 @@ return {
 		},
 		{
 			side = 0,
-			say = "How dare you interfere in my encounter with the “Creator”. Your insolence must be punished!",
+			say = "Those who dare stand between the Creator and me must be punished...",
 			nameColor = "#ff0000",
 			blackBg = true,
 			actor = 307061,

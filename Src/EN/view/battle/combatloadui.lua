@@ -108,29 +108,40 @@ function slot0.Preload(slot0)
 				table.insert(slot3, slot13)
 			end
 
-			slot9 = _.detect(slot6.fleets, function (slot0)
+			slot13, slot13 = slot6:getFleetBattleBuffs(slot7)
+
+			slot0.addCommanderBuffRes(slot11)
+			slot0.addChapterBuffRes(slot10)
+
+			if _.detect(slot6.fleets, function (slot0)
 				return slot0:getFleetType() == FleetType.Submarine and slot0:isValid() and slot0:inHuntingRange(slot0.line.row, slot0.line.column)
-			end)
-			slot10, slot13 = slot6:getFleetBattleBuffs(slot7)
-
-			for slot15, slot16 in ipairs(slot11) do
-				for slot21, slot22 in ipairs(slot17) do
-					slot1:AddPreloadResource(slot22)
-				end
-			end
-
-			if slot9 then
+			end) then
 				for slot16, slot17 in ipairs(slot12) do
 					table.insert(slot3, slot17)
 				end
 
-				slot13, slot16 = slot6:getFleetBattleBuffs(slot9)
+				slot16, slot16 = slot6:getFleetBattleBuffs(slot9)
 
-				for slot18, slot19 in ipairs(slot14) do
-					for slot24, slot25 in ipairs(slot20) do
-						slot1:AddPreloadResource(slot25)
-					end
+				slot0.addCommanderBuffRes(slot14)
+				slot0.addChapterBuffRes(slot13)
+			end
+		elseif slot0.contextData.system == SYSTEM_HP_SHARE_ACT_BOSS then
+			slot7 = {}
+
+			if getProxy(FleetProxy).getActivityFleets(slot5)[slot0.contextData.actId][slot0.contextData.mainFleetId] then
+				for slot13, slot14 in ipairs(slot9) do
+					table.insert(slot3, slot2:getShipById(slot14))
 				end
+
+				slot0.addCommanderBuffRes(slot8:buildBattleBuffList())
+			end
+
+			if slot6[Fleet.SUBMARINE_FLEET_ID] then
+				for slot14, slot15 in ipairs(slot10) do
+					table.insert(slot3, slot2:getShipById(slot15))
+				end
+
+				slot0.addCommanderBuffRes(slot9:buildBattleBuffList())
 			end
 		elseif slot0.contextData.system == SYSTEM_SHAM then
 			for slot12, slot13 in ipairs(slot8) do
@@ -251,6 +262,26 @@ function slot0.Preload(slot0)
 	slot8 = 0
 	slot8 = slot1:StartPreload(slot7, slot9)
 	slot0._tipsText.text = pg.server_language[math.random(#pg.server_language)].content
+end
+
+function slot0.addCommanderBuffRes(slot0)
+	slot1 = ys.Battle.BattleResourceManager:GetInstance()
+
+	for slot5, slot6 in ipairs(slot0) do
+		for slot11, slot12 in ipairs(slot7) do
+			slot1:AddPreloadResource(slot12)
+		end
+	end
+end
+
+function slot0.addChapterBuffRes(slot0)
+	slot1 = ys.Battle.BattleResourceManager:GetInstance()
+
+	for slot5, slot6 in ipairs(slot0) do
+		for slot11, slot12 in ipairs(slot7) do
+			slot1:AddPreloadResource(slot12)
+		end
+	end
 end
 
 function slot0.StartLoad(slot0, slot1, slot2, slot3)

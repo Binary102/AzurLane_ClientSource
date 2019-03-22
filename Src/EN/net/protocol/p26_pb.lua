@@ -77,6 +77,13 @@ slot52 = slot0.FieldDescriptor()
 slot53 = slot0.FieldDescriptor()
 slot54 = slot0.FieldDescriptor()
 slot55 = slot0.FieldDescriptor()
+CS_26031 = slot0.Descriptor()
+slot56 = slot0.FieldDescriptor()
+SC_26032 = slot0.Descriptor()
+slot57 = slot0.FieldDescriptor()
+slot58 = slot0.FieldDescriptor()
+slot59 = slot0.FieldDescriptor()
+slot60 = slot0.FieldDescriptor()
 slot2.name = "id"
 slot2.full_name = ".p26.sc_26001.id"
 slot2.number = 1
@@ -787,6 +794,72 @@ SC_26022.fields = {
 }
 SC_26022.is_extendable = false
 SC_26022.extensions = {}
+slot56.name = "act_id"
+slot56.full_name = ".p26.cs_26031.act_id"
+slot56.number = 1
+slot56.index = 0
+slot56.label = 2
+slot56.has_default_value = false
+slot56.default_value = 0
+slot56.type = 13
+slot56.cpp_type = 3
+CS_26031.name = "cs_26031"
+CS_26031.full_name = ".p26.cs_26031"
+CS_26031.nested_types = {}
+CS_26031.enum_types = {}
+CS_26031.fields = {
+	slot56
+}
+CS_26031.is_extendable = false
+CS_26031.extensions = {}
+slot57.name = "result"
+slot57.full_name = ".p26.sc_26032.result"
+slot57.number = 1
+slot57.index = 0
+slot57.label = 2
+slot57.has_default_value = false
+slot57.default_value = 0
+slot57.type = 13
+slot57.cpp_type = 3
+slot58.name = "boss_hp"
+slot58.full_name = ".p26.sc_26032.boss_hp"
+slot58.number = 2
+slot58.index = 1
+slot58.label = 2
+slot58.has_default_value = false
+slot58.default_value = 0
+slot58.type = 13
+slot58.cpp_type = 3
+slot59.name = "milestones"
+slot59.full_name = ".p26.sc_26032.milestones"
+slot59.number = 3
+slot59.index = 2
+slot59.label = 3
+slot59.has_default_value = false
+slot59.default_value = {}
+slot59.type = 13
+slot59.cpp_type = 3
+slot60.name = "death"
+slot60.full_name = ".p26.sc_26032.death"
+slot60.number = 4
+slot60.index = 3
+slot60.label = 2
+slot60.has_default_value = false
+slot60.default_value = 0
+slot60.type = 13
+slot60.cpp_type = 3
+SC_26032.name = "sc_26032"
+SC_26032.full_name = ".p26.sc_26032"
+SC_26032.nested_types = {}
+SC_26032.enum_types = {}
+SC_26032.fields = {
+	slot57,
+	slot58,
+	slot59,
+	slot60
+}
+SC_26032.is_extendable = false
+SC_26032.extensions = {}
 answerinfo = slot0.Message(ANSWERINFO)
 awardinfo = slot0.Message(AWARDINFO)
 cellsinfo = slot0.Message(CELLSINFO)
@@ -798,6 +871,7 @@ cs_26008 = slot0.Message(CS_26008)
 cs_26012 = slot0.Message(CS_26012)
 cs_26014 = slot0.Message(CS_26014)
 cs_26021 = slot0.Message(CS_26021)
+cs_26031 = slot0.Message(CS_26031)
 sc_26001 = slot0.Message(SC_26001)
 sc_26003 = slot0.Message(SC_26003)
 sc_26005 = slot0.Message(SC_26005)
@@ -806,6 +880,7 @@ sc_26011 = slot0.Message(SC_26011)
 sc_26013 = slot0.Message(SC_26013)
 sc_26015 = slot0.Message(SC_26015)
 sc_26022 = slot0.Message(SC_26022)
+sc_26032 = slot0.Message(SC_26032)
 subjectinfo = slot0.Message(SUBJECTINFO)
 
 return

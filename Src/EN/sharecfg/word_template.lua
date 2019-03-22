@@ -46,6 +46,26 @@ pg.word_template = {
 			}
 		}
 	},
+	D = {
+		i = {
+			i = {
+				c = {
+					k = {
+						this = true,
+						h = {
+							e = {
+								a = {
+									d = {
+										this = true
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	},
 	E = {
 		w = {
 			e = {

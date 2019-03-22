@@ -12,7 +12,7 @@ return {
 			actorName = "{namecode:96}",
 			side = 2,
 			nameColor = "#a9f548",
-			say = "Cheating death during the battle of AF, what kind of tricks are you up to?!",
+			say = "I thought you already sank in Midway... Just what are you people?!",
 			shake = {
 				speed = 1,
 				number = 3
@@ -28,7 +28,7 @@ return {
 		},
 		{
 			side = 1,
-			say = "As you can see, this \"Sanctuary\" is made by the \"Creator\", in here, our powers are limitless.",
+			say = "We are what you see. In this Sanctuary bestowed upon us by the Creator, we wield unlimited power.",
 			actorName = "{namecode:91}",
 			dir = -1,
 			actor = 307011,
@@ -56,7 +56,7 @@ return {
 			dir = -1,
 			actor = 307011,
 			nameColor = "#ff0000",
-			say = "As long as we continue to offer more high quality souls, we’ll...",
+			say = "That is, as long as we continue sacrificing exquisite souls... *Giggle*...",
 			shake = {
 				speed = 1,
 				number = 3
@@ -75,7 +75,7 @@ return {
 			actorName = "{namecode:96}",
 			side = 0,
 			nameColor = "#a9f548",
-			say = "You will never defeat the Grey Ghost with this twisted power that you’ve gained from betraying your own people, never!",
+			say = "You'll never defeat the Grey Ghost with this twisted power that you've gained from betraying your own people! Never!",
 			shake = {
 				speed = 1,
 				number = 3
@@ -95,7 +95,7 @@ return {
 			dir = -1,
 			actor = 307011,
 			nameColor = "#ff0000",
-			say = "Shush you!!! How dare you mention that piece of... in front of me!!!",
+			say = "Silence! Don't you dare utter that name in my presence!",
 			shake = {
 				speed = 1,
 				number = 3
@@ -134,7 +134,7 @@ return {
 			dir = -1,
 			actor = 307011,
 			nameColor = "#ff0000",
-			say = "Enough! Grey Ghost! Grey Ghost!! Grey Ghost!!! She is nothing compared to me... ahhhhhh!",
+			say = "Enough! It drives me crazy to hear that despicable name repeated! Over and over! I will destroy her... I WILL DESTROY HER MYSELF! AAAGGHHH!",
 			shake = {
 				speed = 1,
 				number = 3
@@ -153,7 +153,7 @@ return {
 			actorName = "{namecode:92}",
 			side = 1,
 			nameColor = "#ff0000",
-			say = "Words alone are not enough!!! See for yourself if you are a worthy opponent for the Grey Ghost!",
+			say = "Akagi! ... Words will not save you, Zuikaku! Fight, and prove whether you are weak or strong!",
 			shake = {
 				speed = 1,
 				number = 3

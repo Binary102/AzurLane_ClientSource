@@ -13,7 +13,7 @@ return {
 			blackBg = true,
 			actor = 900028,
 			nameColor = "#a9f548",
-			say = "All carriers focus fire, target, Lexington!",
+			say = "All planes, take off! Target the enemy carrier: Lexington!",
 			shake = {
 				speed = 1,
 				number = 3
@@ -33,7 +33,7 @@ return {
 			blackBg = true,
 			actor = 900027,
 			nameColor = "#a9f548",
-			say = "Pay attention to the formation, don’t get careless!",
+			say = "You should leave some planes behind! Don't underestimate the enemy!",
 			shake = {
 				speed = 1,
 				number = 3
@@ -53,7 +53,7 @@ return {
 			blackBg = true,
 			actor = 900028,
 			nameColor = "#a9f548",
-			say = "Those novices from the Eagle Union, they stand no chance against my Phantoms. Let's get this over with~",
+			say = "Those Eagle Union newbies don't stand a chance against my Rei planes! This'll be a quick and easy victory!",
 			shake = {
 				speed = 1,
 				number = 3
@@ -73,7 +73,7 @@ return {
 			blackBg = true,
 			actor = 900027,
 			nameColor = "#a9f548",
-			say = "More than 80 enemy aircraft carriers spotted at high altitude. Phantoms intercept them, now!",
+			say = "... Enemy spotted! Recon planes, scramble! Don't let them get close!",
 			shake = {
 				speed = 1,
 				number = 3
@@ -93,7 +93,7 @@ return {
 			blackBg = true,
 			actor = 900028,
 			nameColor = "#a9f548",
-			say = "H-How can this be?",
+			say = "H-how can that be?!",
 			shake = {
 				speed = 1,
 				number = 3
@@ -113,7 +113,7 @@ return {
 			blackBg = true,
 			actor = 900027,
 			nameColor = "#a9f548",
-			say = "Let me handle enemy planes! Go, find cover under that rain cloud! ",
+			say = "Go take cover in the storm! I'll draw the enemy's attention!",
 			shake = {
 				speed = 1,
 				number = 3
@@ -133,7 +133,7 @@ return {
 			blackBg = true,
 			actor = 900028,
 			nameColor = "#a9f548",
-			say = "But, you...",
+			say = "But sis...!",
 			shake = {
 				speed = 1,
 				number = 3
@@ -153,7 +153,7 @@ return {
 			blackBg = true,
 			actor = 900027,
 			nameColor = "#a9f548",
-			say = "There’s no time. {namecode:87} is suffering, we cannot afford to lose any more sisters!",
+			say = "There's no time! We've already lost Shouhou, we can't afford to lose more people!",
 			shake = {
 				speed = 1,
 				number = 3
@@ -173,7 +173,7 @@ return {
 			blackBg = true,
 			actor = 900027,
 			nameColor = "#a9f548",
-			say = "Remember, I’ll protect you. Next time, don’t be so rash...",
+			say = "I will always protect you. But next time, don't underestimate the enemy...",
 			shake = {
 				speed = 1,
 				number = 3
@@ -194,7 +194,7 @@ return {
 			soundeffect = "event:/battle/boom2",
 			actor = 307061,
 			actorName = "{namecode:96}",
-			say = "{namecode:95}... I won’t let this happen again...",
+			say = "Shoukaku...! I'll never, ever let that happen to you again...!",
 			flashout = {
 				dur = 1,
 				alpha = {

@@ -2,6 +2,7 @@ slot0 = class("BillboardMediator", import("..base.ContextMediator"))
 slot0.REFRESH_BILLBOARD = "BillboardMediator:REFRESH_BILLBOARD"
 slot0.OPEN_RIVAL_INFO = "BillboardMediator:OPEN_RIVAL_INFO"
 slot0.GET_POWERRANK = "BillboardMediator:GET_POWERRANK"
+slot0.INIT_RANK = "BillboardMediator:INIT_RANK"
 
 function slot0.register(slot0)
 	slot0:bind(slot0.REFRESH_BILLBOARD, function (slot0)
@@ -16,6 +17,10 @@ function slot0.register(slot0)
 			page = slot2 or 1,
 			act_id = slot3
 		})
+	end)
+	slot0:bind(slot0.INIT_RANK, function (slot0, slot1)
+		slot0:sendNotification(GAME.GET_POWERRANK, slot1)
+		slot0:sendNotification(GAME.GET_PLAYERPOWERRANK, slot1)
 	end)
 	slot0.viewComponent:setPlayer(slot2)
 
@@ -43,26 +48,7 @@ function slot0.register(slot0)
 		slot6()
 	end
 
-	slot0.viewComponent:setSeasonInfo(slot8)
-
-	slot12, slot10 = slot0:getRankMsg()
-
-	for slot14, slot15 in ipairs(slot9) do
-		slot0:sendNotification(GAME.GET_POWERRANK, slot10[slot15])
-		slot0:sendNotification(GAME.GET_PLAYERPOWERRANK, slot10[slot15])
-	end
-end
-
-function slot0.getRankMsg(slot0)
-	slot2 = getProxy(MilitaryExerciseProxy).rankMsgInfo
-
-	if not slot0.refresh or not slot2 then
-		slot1:buildRankMsg()
-
-		slot0.refresh = true
-	end
-
-	return slot1.rankMsgList, slot1.rankMsgInfo
+	slot0.viewComponent:setSeasonInfo(slot7:getSeasonInfo())
 end
 
 function slot0.listNotificationInterests(slot0)

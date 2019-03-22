@@ -13,7 +13,7 @@ return {
 			blackBg = true,
 			actor = 900028,
 			nameColor = "#a9f548",
-			say = "Sister {namecode:95}, look what we found! This is the key to the \"Sanctuary\"!",
+			say = "Sis, check it out! This is the key to the Sanctuary!",
 			shake = {
 				speed = 1,
 				number = 3
@@ -33,7 +33,7 @@ return {
 			blackBg = true,
 			actor = 900027,
 			nameColor = "#a9f548",
-			say = "This...where did you find it?",
+			say = "The key... But how did you find it?",
 			shake = {
 				speed = 1,
 				number = 3
@@ -53,7 +53,7 @@ return {
 			blackBg = true,
 			actor = 900028,
 			nameColor = "#a9f548",
-			say = "Hehe, if you’re talking about the intel, then of course the credit goes to {namecode:11}! You won’t refuse me this time~ will you?",
+			say = "Heheh, that would be thanks to Akatsuki's intel! Surely you believe me this time, right?",
 			shake = {
 				speed = 1,
 				number = 3
@@ -73,7 +73,7 @@ return {
 			blackBg = true,
 			actor = 900027,
 			nameColor = "#a9f548",
-			say = "If the intel is true, then we have to act now! Have everyone mobilized immediately.",
+			say = "If it really is the key, then we have to act now... Have everyone mobilize immediately!",
 			shake = {
 				speed = 1,
 				number = 3
@@ -93,7 +93,7 @@ return {
 			blackBg = true,
 			actor = 900028,
 			nameColor = "#a9f548",
-			say = "This time, we will expose their plans!",
+			say = "This time we'll expose their plan for what it really is!",
 			shake = {
 				speed = 1,
 				number = 3
@@ -112,7 +112,7 @@ return {
 			side = 2,
 			actor = 307061,
 			actorName = "{namecode:96}",
-			say = "Come to think of it, perhaps this trap was part of their plan all along…",
+			say = "Now that I think about it, maybe this trap was also part of their plan...",
 			flashout = {
 				black = true,
 				dur = 1.5,
@@ -144,7 +144,7 @@ return {
 			actorName = "{namecode:96}",
 			side = 2,
 			nameColor = "#a9f548",
-			say = "Damn, will we ever escape from their scheme?",
+			say = "Damn...! They tricked us, again!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

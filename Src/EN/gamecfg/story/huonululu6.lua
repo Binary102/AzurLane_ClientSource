@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"有关火奴鲁鲁的二三事\n\n<size=30>六　火奴鲁鲁的约会·上</size>",
+					"An Easily Flustered Girl's Story\n\n<size=30>Chapter 6 - A Date With Honolulu (Part 1)</size>",
 					1
 				}
 			}
@@ -24,7 +24,7 @@ return {
 			bgm = "story-1",
 			actor = 102121,
 			nameColor = "#a9f548",
-			say = "指挥官，你好慢。",
+			say = "You're late, Commander.",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -57,7 +57,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我看起来心情不错？说什么蠢话。",
+			say = "I \"seem to be in a good mood\"? W-why does that matter...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			withoutActorName = true,
 			actor = 102121,
 			nameColor = "#a9f548",
-			say = "…………",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那边的衣服，之前和路易斯在杂志上看到过。",
+			say = "I recognize those clothes... Lou showed me a picture of them in a magazine once.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			dir = 1,
 			actor = 102121,
 			nameColor = "#a9f548",
-			say = "真漂亮啊…咳、咳咳，没什么，我就是看看，走吧。",
+			say = "They do look pretty nice, after all... *A-ahem*! Okay, that's enough window shopping! ... Come on, let's head to the next store.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			withoutActorName = true,
 			actor = 102121,
 			nameColor = "#a9f548",
-			say = "…………总觉得火奴鲁鲁有些浮躁。",
+			say = "... Honolulu seemed like she couldn't let up and relax.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哇…玩具熊…",
+			say = "Hey, that's a pretty cute teddy bear...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			dir = 1,
 			actor = 102121,
 			nameColor = "#a9f548",
-			say = "我、我只是在想海伦娜会不会喜欢。走、走吧，去别的地方看看。",
+			say = "L-look, I didn't mean it like that ... I was just wondering if Helena might like it! C-c'mon, let's get a move on...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			withoutActorName = true,
 			actor = 102121,
 			nameColor = "#a9f548",
-			say = "…………果然对话有点进行不下去。",
+			say = "... I won't be able to have a conversation with her like this.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "甜点？…算、算了，还是吃点清淡的食物吧。",
+			say = "Sweets? ... I'm not in the mood... Let's just get something small to eat.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			dir = 1,
 			actor = 102121,
 			nameColor = "#a9f548",
-			say = "……你那是什么眼神，女孩子在意卡路里不是理所当然的事吗！",
+			say = "... What's the problem with that? Girls have to be mindful of their calorie intake!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,7 +251,7 @@ return {
 			withoutActorName = true,
 			actor = 102121,
 			nameColor = "#a9f548",
-			say = "…………",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,7 +265,7 @@ return {
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "最后，陪着火奴鲁鲁逛了许久，终于找到了给海伦娜的礼物。",
+			say = "We went around and checked every store in the district, and the present we ended up with was...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +275,7 @@ return {
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "是一个雷达型的抱枕。",
+			say = "A cushion made to look like an SG radar.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "……海伦娜真的会喜欢吗？",
+			say = "I'm not sure if Helena will actually like it or not.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,7 +297,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是你懂海伦娜还是我懂海伦娜？",
+			say = "Excuse me, I'm pretty sure I know what Helena would like.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -314,7 +314,7 @@ return {
 			withoutActorName = true,
 			actor = 102121,
 			nameColor = "#a9f548",
-			say = "……被瞪了。",
+			say = "Honolulu glared at me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -330,7 +330,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这样的话，下次送给海伦娜她一定会开心吧。",
+			say = "Okay... I'll give this to her next time we meet. It should make her happy... probably...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -344,7 +344,7 @@ return {
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "有种只要她觉得好那样也不坏的感觉。",
+			say = "I thought to myself that if Honolulu is convinced it'll work, then it was good enough.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -354,7 +354,7 @@ return {
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "而且或许火奴鲁鲁自己没有察觉，她现在的表情，和她所憧憬的，普通女孩子该有的表情，别无二致。",
+			say = "Though she might not have realized it herself, right then the expression on her face wasn't one of displeasure, but of sincere kindness.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -366,7 +366,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯…？挥官你也给谁买了礼物吗？包装得这么好。",
+			say = "Wait, you bought something, too...? Judging by the wrapping, it must be expensive...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -383,7 +383,7 @@ return {
 			blackBg = true,
 			actor = 102121,
 			nameColor = "#a9f548",
-			say = "是……给谁的？",
+			say = "Mind if I ask... who it's for?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

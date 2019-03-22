@@ -10,7 +10,7 @@ return {
 			actorName = "{namecode:96}",
 			side = 2,
 			nameColor = "#a9f548",
-			say = "Annoying pests, exactly how many of you are there? Come at me, let's finish this already!",
+			say = "These damn mass-produced piles of junk just keep coming... Bring it on! I'll take you all down if I have to!",
 			shake = {
 				speed = 1,
 				number = 3
@@ -48,7 +48,7 @@ return {
 			actorName = "{namecode:96}",
 			side = 0,
 			nameColor = "#a9f548",
-			say = "Isn’t that {namecode:11}?! Great timing, I was worried about you ever since we’ve separated in the storm. It’s great that you’re all safe and sound.",
+			say = "Is that you, Akatsuki?! Good timing! I was worried about you ever since we got separated in the storm, but I'm glad to see you're okay!",
 			shake = {
 				speed = 1,
 				number = 3
@@ -67,7 +67,7 @@ return {
 			actorName = "{namecode:96}",
 			side = 0,
 			nameColor = "#a9f548",
-			say = "Quickly, help me get rid of these annoying pests!",
+			say = "Help me finish off these mindless drones so we can talk!",
 			shake = {
 				speed = 1,
 				number = 3
@@ -87,7 +87,7 @@ return {
 			mode = 2,
 			nameColor = "#ff0000",
 			side = 1,
-			say = "...mission...destroy...",
+			say = "MISSION... DESTROY...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			soundeffect = "event:/battle/boom2",
 			actor = 307061,
 			nameColor = "#a9f548",
-			say = "What are you doing!!! That almost hit me, be careful...",
+			say = "What the hell?! Watch where you're shooting! Hey, friendly fire! I'm not an enemy!",
 			shake = {
 				speed = 1,
 				number = 3
@@ -122,7 +122,7 @@ return {
 			actorName = "{namecode:96}",
 			side = 0,
 			nameColor = "#a9f548",
-			say = "Not again... {namecode:11}, you are...",
+			say = "... Don't tell me you're...",
 			shake = {
 				speed = 1,
 				number = 3
@@ -142,7 +142,7 @@ return {
 			mode = 2,
 			nameColor = "#ff0000",
 			side = 1,
-			say = "...mission...annihilate…",
+			say = "EXTERMINATE... EXTERMINATE...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			actorName = "{namecode:96}",
 			side = 0,
 			nameColor = "#a9f548",
-			say = "It seems... I was too late. Let me lift you from this curse then.",
+			say = "It seems I was too late... Don't worry! I'll free you from this curse!",
 			shake = {
 				speed = 1,
 				number = 3
@@ -176,7 +176,7 @@ return {
 			actorName = "{namecode:96}",
 			side = 0,
 			nameColor = "#a9f548",
-			say = "All Phantoms, take off!",
+			say = "Rei planes, take off!",
 			shake = {
 				speed = 1,
 				number = 3

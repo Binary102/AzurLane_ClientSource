@@ -12,7 +12,7 @@ return {
 			actorName = "{namecode:91}",
 			side = 0,
 			nameColor = "#ff0000",
-			say = "All logs have already been submitted to the \"Creator\". Now, let's wait for her arrival.",
+			say = "All logs have been submitted to the Creator. Now we wait for the arrival of our superiors.",
 			shake = {
 				speed = 1,
 				number = 3
@@ -31,7 +31,7 @@ return {
 			actorName = "{namecode:92}",
 			side = 1,
 			nameColor = "#ff0000",
-			say = "However, it seems that annoying pest is chasing after us again.",
+			say = "... It seems that imbecile is chasing after us. What should we do about her?",
 			shake = {
 				speed = 1,
 				number = 3
@@ -50,7 +50,7 @@ return {
 			actorName = "{namecode:91}",
 			side = 0,
 			nameColor = "#ff0000",
-			say = "In anycase, we’ve already completed the tasks given by the \"Creator\", so we might as well toy with her now~",
+			say = "We were given orders, and we successfully carried them out. It won't hurt to play a little with our pursuer.",
 			shake = {
 				speed = 1,
 				number = 3
@@ -69,7 +69,7 @@ return {
 			actorName = "{namecode:92}",
 			side = 1,
 			nameColor = "#ff0000",
-			say = "You really haven’t changed at all, have you...",
+			say = "I should've expected you to say that...",
 			shake = {
 				speed = 1,
 				number = 3

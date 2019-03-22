@@ -1371,6 +1371,15 @@ function slot1(slot0)
 	slot5 = true
 
 	function slot6(slot0)
+		slot1 = IsNil
+		slot2 = slot0
+		slot2 = slot2._tf
+		slot1 = slot1(slot2)
+
+		if slot1 then
+			return
+		end
+
 		slot2 = slot0
 		slot1 = slot0.SetActive
 		slot3 = true
@@ -4325,17 +4334,21 @@ slot0.tweenNumText = slot1
 function slot1(slot0)
 	slot1 = slot0.name
 
-	if slot1 == "" then
-		slot1 = Fleet
-		slot1 = slot1.DEFAULT_NAME
-		slot2 = slot0.id
-		slot1 = slot1[slot2]
-
-		return slot1
-	else
+	if slot1 ~= "" then
 		slot1 = slot0.name
 
-		return slot1
+		if slot1 == nil then
+			slot1 = Fleet
+			slot1 = slot1.DEFAULT_NAME
+			slot2 = slot0.id
+			slot1 = slot1[slot2]
+
+			return slot1
+		else
+			slot1 = slot0.name
+
+			return slot1
+		end
 	end
 end
 

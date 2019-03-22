@@ -36,6 +36,7 @@ class("TaskGoCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 		inPvp = true,
 		inFleet = true,
 		inClass = true,
+		inActivity = true,
 		inTactics = true,
 		inBackyard = true,
 		inSham = true,

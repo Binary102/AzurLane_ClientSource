@@ -263,6 +263,10 @@ function slot0.setShip(slot0, slot1)
 
 	if not slot0.rarityEffect[slot6] then
 		PoolMgr.GetInstance():GetUI("getrole_" .. slot6, true, function (slot0)
+			if IsNil(slot0._tf) then
+				return
+			end
+
 			slot0.rarityEffect[] = slot0
 
 			slot0.transform:SetParent(slot0._tf, false)

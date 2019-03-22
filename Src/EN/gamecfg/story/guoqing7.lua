@@ -12,7 +12,7 @@ return {
 			actorName = "{namecode:96}",
 			side = 0,
 			nameColor = "#a9f548",
-			say = "The signal actually came from… {namecode:76}-senpai and {namecode:77}-senpai... are they also...",
+			say = "Ise... Hyuuga... So you two were the source of the signal, huh... Don't tell me you've...",
 			shake = {
 				speed = 1,
 				number = 3
@@ -69,7 +69,7 @@ return {
 			actorName = "{namecode:96}",
 			side = 0,
 			nameColor = "#a9f548",
-			say = "I see...all hands, battlestations!",
+			say = "I figured as much... If it's a battle you want, then a battle you'll get!",
 			shake = {
 				speed = 1,
 				number = 3

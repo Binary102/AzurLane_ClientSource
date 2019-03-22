@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"妹妹的变化\n\n<size=30>七 妹妹的笑容</size>",
+					"My Sister's Growth Spurt?!\n\n<size=30>Chapter 7: My Sister's Smile</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "在几位姐姐的教授之下，文森斯初步掌握了身为秘书舰该做的事。",
+			say = "With the combined advice from her sisters, Vincennes had a better understanding of her secretary duties.",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -51,7 +51,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，这些文件你看是这样吗？",
+			say = "Commander, can you check if I sorted these documents correctly?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "还有这是今天的日程……啊，这里写错了……",
+			say = "And here is today's agenda... Ah, I wrote the wrong thing here...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "虽然比较笨拙，但是确实在慢慢地帮上忙。",
+			say = "Although she was still a bit clumsy, her progress was undeniable.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "文森斯的成长着实让人感到高兴",
+			say = "I couldn't help but to feel a little proud of how much she had grown in such a short time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "对了，指挥官，给你这个……",
+			say = "Oh right, Commander, these are for you...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -128,7 +128,7 @@ return {
 			withoutActorName = true,
 			actor = 103101,
 			nameColor = "#a9f548",
-			say = "文森斯递过来……一包包装精美的饼干？",
+			say = "Vincennes handed over a small pouch of elegantly-wrapped cookies.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			withoutActorName = true,
 			actor = 103101,
 			nameColor = "#a9f548",
-			say = "饼干的形状做成了自己的样子，虽然有些粗糙，但是能够感觉到烘烤的人的心意。",
+			say = "They were clearly handmade. Their shapes were a bit rough, but one could immediately see the sincere feelings of the person who made them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这是，之前阿斯托里亚姐姐教我做指挥官喜欢的点心时一起做的。",
+			say = "Um... Astoria said you liked cookies, so we made these together...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "想要感谢指挥官一直以来对我的照顾",
+			say = "Commander, I wanted to thank you for always looking after me...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "同时也做了姐姐们的份，不过交给她们的时候，不知道为什么，昆西姐姐当场就哭出来了…",
+			say = "I also made some for my sisters... I'm not sure why, but Quincy started to cry on the spot...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,23 +207,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "总觉得似乎能够想象那个场景。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 103101,
-			side = 2,
-			bgName = "bg_story_task",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "虽然被照顾很幸福，能想睡就睡也很幸福…",
+			say = "Ah... I definitely could see that happening...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +223,23 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过，和姐姐们还有指挥官一起努力好像更让人高兴…",
+			say = "Even though it's nice to be pampered, and to be able to go to sleep whenever I want...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 103101,
+			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "It's even nicer to be able to work hard alongside you and my sisters.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			dir = 1,
 			actor = 103101,
 			nameColor = "#a9f548",
-			say = "以后文森斯也会慢慢加油的。",
+			say = "So, from now on, I'll do my best!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,7 +266,7 @@ return {
 			},
 			options = {
 				{
-					content = "表示“一起加油”",
+					content = "\"Let's work hard together!\"",
 					flag = 1
 				}
 			}
@@ -278,7 +278,7 @@ return {
 			blackBg = true,
 			actor = 103101,
 			nameColor = "#a9f548",
-			say = "嗯…！不过，指挥官…以后还会陪我一起午睡的，对吧？",
+			say = "Okay! Oh, but um... Commander, you'll still take naps with me, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

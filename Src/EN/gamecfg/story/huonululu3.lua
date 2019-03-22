@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"有关火奴鲁鲁的二三事\n\n<size=30>三　火奴鲁鲁不好相处？</size>",
+					"An Easily Flustered Girl's Story\n\n<size=30>Chapter 3 - You've Got a Friend in Me!</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "和火奴鲁鲁、利安得来到了附近的小店。",
+			say = "Honolulu, Leander, and I went to a café that I frequent.",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -51,7 +51,7 @@ return {
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "谢谢你招待我来喝茶，利安得。",
+			say = "Thanks for inviting me, Leander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			}
 		},
 		{
-			say = "哪里哪里，你能来才是我的荣幸呢。",
+			say = "Not at all, it's my pleasure.",
 			side = 1,
 			bgName = "star_level_bg_104",
 			dir = 1,
@@ -87,7 +87,7 @@ return {
 			dir = 1,
 			actor = 102121,
 			nameColor = "#a9f548",
-			say = "……但是指挥官你为什么又在这里？",
+			say = "... But why are YOU here, Commander?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,7 +98,7 @@ return {
 			},
 			options = {
 				{
-					content = "热情地打招呼",
+					content = "Say hello, this time with more energy",
 					flag = 1
 				}
 			}
@@ -109,7 +109,7 @@ return {
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "算了……你高兴就好。",
+			say = "*Sigh*... Whatever, I can't muster the energy to care anymore...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,23 +125,7 @@ return {
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵，邀请指挥官的时候，指挥官说想要一起邀请你。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 202011,
-			side = 1,
-			bgName = "star_level_bg_104",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "我也一直想要和火奴鲁鲁聊聊天，正好借这个机会和你亲近一下呢~",
+			say = "Well, I first asked the Commander about us going here together, then the Commander told me \"I really want to sit next to Honolulu,\" and since I too wish to get to know you better, I decided to invite you both.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +141,7 @@ return {
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……瞎操心。",
+			say = "... (Whispering) Yeah, there is...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +155,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_104",
 			dir = 1,
-			say = "火奴鲁鲁把头别到一边去，不过看起来并没有真的生气。",
+			say = "Honolulu averted her gaze from me. She seemed displeased.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +167,7 @@ return {
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵…我刚才点了这里的饼干，两位还请不要客气~",
+			say = "Um... I ordered a slice of cake for each of us. I hope you'll find it delectable.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +181,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_104",
 			dir = 1,
-			say = "于是开始了愉快的下午茶时间",
+			say = "The 3 of us sat down and enjoyed some good cake and afternoon tea.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +193,7 @@ return {
 			dir = 1,
 			actor = 202011,
 			nameColor = "#a9f548",
-			say = "不过，感觉火奴鲁鲁你平时不大与人来往呢？",
+			say = "... Ah, that reminds me: it seems you don't socialize much with other girls, Honolulu. Is there a reason for that?",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -242,7 +226,7 @@ return {
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……嗯，毕竟我的性格，也不太招人喜欢。",
+			say = "... Yeah. It's because that's just the way I am.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,7 +238,7 @@ return {
 		},
 		{
 			bgName = "star_level_bg_104",
-			say = "火奴鲁鲁显得有些低落。",
+			say = "Leander's question seemed to make Honolulu a little unhappy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,7 +250,7 @@ return {
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那真是遗憾呢，明明火奴鲁鲁你这么漂亮，再有自信一点也没关系哦。",
+			say = "That's rather unfortunate... You're such a beautiful and wonderful person. You shouldn't be ashamed of who you are.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,7 +261,7 @@ return {
 			}
 		},
 		{
-			say = "漂、漂亮，我吗？",
+			say = "B-beautiful...? Me...?",
 			side = 0,
 			bgName = "star_level_bg_104",
 			dir = 1,
@@ -312,7 +296,7 @@ return {
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是啊，刚才也说了，因为过去的缘分，我一直想要和火奴鲁鲁你友好相处。",
+			say = "Yes! Even your service record is something to admire. I've always wanted to get to know you better.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -328,7 +312,7 @@ return {
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "像现在这样坐下聊天后，就能感觉到，火奴鲁鲁你果然是个好漂亮的女孩子呢。",
+			say = "I'm certain that other people too would come to understand your splendor if you'd sit down and have a chat with them like this.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -344,7 +328,7 @@ return {
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "连同为女性的我都忍不住有些羡慕了。",
+			say = "You are so splendid, in fact, that I would honestly say it makes me a little jealous.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -360,7 +344,7 @@ return {
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…………谢、谢谢。",
+			say = "...... T-thank you...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -374,7 +358,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_104",
 			dir = 1,
-			say = "被这么直接地赞美，一直都是逆来顺受的火奴鲁鲁反而有些窘迫了起来。",
+			say = "Hearing that, Honolulu's expression turned bright red and she began acting fidgety. Maybe nobody has ever praised her so much before.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -384,7 +368,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_104",
 			dir = 1,
-			say = "果然，让火奴鲁鲁和利安得交朋友是对的。",
+			say = "I knew it was a good idea to invite Honolulu.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -396,7 +380,7 @@ return {
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……指挥官，你干什么用那种欣慰的眼光看着我。",
+			say = "... W-why are you looking at me like you just made some kind of breakthrough...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -412,7 +396,7 @@ return {
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼，笨蛋。",
+			say = "Stupid jerk...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -427,7 +411,7 @@ return {
 			bgName = "star_level_bg_104",
 			dir = 1,
 			blackBg = true,
-			say = "火奴鲁鲁又把头别到一边去，不过这次看起来只是想掩饰羞涩而已。",
+			say = "Honolulu averted her gaze from me again. This time she seemed embarrassed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

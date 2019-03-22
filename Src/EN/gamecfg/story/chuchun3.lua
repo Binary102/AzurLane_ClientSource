@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"{namecode:30}的烦恼\n\n<size=30>三 {namecode:30}，勇敢一点！</size>",
+					"The Timid Black Cat\n\n<size=30>You Can Do It, Hatsuharu!</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "不久之后，重樱宿舍",
+			say = "A while later, in the Sakura Empire Dormitory",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -51,7 +51,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呼～{namecode:85}那家伙真是的，净灌输些奇怪的东西…{namecode:30}姐差点就变成怪人了",
+			say = "Who does Hiyou think she is, trying to involve you in some weird scheme... If we hadn't shown up, I bet she would've turned you into a pirate or something.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			}
 		},
 		{
-			say = "呜…我只是想变得更自信一点，能派上更多用场而已…一定是哪里弄错了…",
+			say = "*Whimper*... I-I just wanted to be more confident so I could help people more... I'm sure she just misunderstood what I wanted...",
 			side = 0,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -87,7 +87,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "与其说自信…不如说，{namecode:30}姐你除了特别的几个人之外，连正常对话都蛮辛苦的吧？",
+			say = "You wanna be confident, huh... You can hardly hold a conversation with anyone but us, isn't that right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			dir = 1,
 			actor = 301211,
 			nameColor = "#a9f548",
-			say = "啊呜…",
+			say = "*Sob*...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没问题的，我相信姐姐！无论是对人恐惧也好，不自信也好，只要努力都能克服的！",
+			say = "It's okay, Hatsuharu! Social anxiety and self-esteem issues can be overcome, you just have to keep at it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呀啊！{namecode:141}…什么时候出现的",
+			say = "W-Wakaba?! W-when did you get here...?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "诶嘿嘿，刚好回来听到你们在聊天嘛",
+			say = "Just now! I only overheard a portion of what you guys were talking about.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯…谢谢你的鼓励…我感觉似乎可以努力一下了",
+			say = "Well, th... thank you... I'll keep trying...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			dir = 1,
 			actor = 301231,
 			nameColor = "#a9f548",
-			say = "啊，好漂亮的蝴蝶！",
+			say = "Oh, look at that pretty butterfly! I'm gonna go catch it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			dir = 1,
 			actor = 301211,
 			nameColor = "#a9f548",
-			say = "等等，那样跑的话很危险的！",
+			say = "Don't run or else you'll trip, Wakaba!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -244,7 +244,7 @@ return {
 			dir = 1,
 			actor = 301231,
 			nameColor = "#a9f548",
-			say = "抓到…了！哎呀——",
+			say = "I caught it! I caught... Whoaaahh?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,7 +269,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:141}！没，没事吧？！",
+			say = "Wakaba! A-are you okay?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "诶嘿嘿，不小心摔了一跤~没事没事～哎呀，不过说起来…",
+			say = "*Giggle*~ I'm okay! I might have tripped, but I tripped with style! Oh yeah, anyway...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,7 +301,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:30}姐姐和我们说话的时候就好像很轻松平常呢",
+			say = "How come you can talk to us just fine, but you struggle so much when talking to other people?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -317,7 +317,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "因为平时经常在一起，习惯了所以感觉不到紧张吧",
+			say = "Isn't it because she knows us, so she doesn't feel anxious around us?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -333,7 +333,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯…被你们这么一说…好像确实是这样…",
+			say = "A-actually, yeah... that sounds about right...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -349,7 +349,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这样一想的话，只要习惯了和别人交流，也就可以做到像和我们这样子的正常的对话了吧",
+			say = "If that's all, shouldn't you try just talking a lot to other people until you feel as comfortable around them as you do with us?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -365,7 +365,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "习惯和别人交流吗…但是，好像也没什么机会…",
+			say = "T-that's true, it's all about feeling comfortable... But... I don't get many opportunities to talk to the Commander...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -381,7 +381,7 @@ return {
 			dir = 1,
 			actor = 301241,
 			nameColor = "#a9f548",
-			say = "对了，秘书舰呀！最近正好秘书舰的安排有空缺呢！{namecode:30}姐，这或许是个机会哦。",
+			say = "Request to become the Commander's secretary. If you become the secretary, you'll get to talk to each other every day, even if you hate it. The position is open, so go for it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -407,7 +407,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "秘书舰？！我，我肯定不行——",
+			say = "B-become the Commander's secretary?! That's impossible, I can't...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -423,7 +423,7 @@ return {
 			blackBg = true,
 			actor = 306011,
 			nameColor = "#a9f548",
-			say = "在这里犹豫，停滞不前的话是没法变得自信的！",
+			say = "Don't say that. If you give up now, you'll never get over your social anxiety.",
 			effects = {
 				{
 					active = true,
@@ -445,7 +445,7 @@ return {
 			dir = 1,
 			actor = 301211,
 			nameColor = "#a9f548",
-			say = "…我，我想试试！",
+			say = "... N-no, I have to try!",
 			effects = {
 				{
 					active = false,
@@ -480,7 +480,7 @@ return {
 			blackBg = true,
 			hideOther = true,
 			actorName = "{namecode:141}&{namecode:129}",
-			say = "哦哦哦…姐姐加油！",
+			say = "You can do it, Hatsuharu!",
 			subActors = {
 				{
 					actor = 301241,

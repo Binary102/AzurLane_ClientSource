@@ -11,13 +11,13 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"叫我{namecode:22}大人！\n\n<size=30>六　{namecode:22}和游乐园·下</size>",
+					"\"Call me Yukikaze the Great!\"\n\n<size=30>Chapter 6: Yukikaze and the Amusement Park (Pt 2)</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "游乐园・摩天轮",
+			say = "Amusement Park - Ferris Wheel",
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -34,7 +34,7 @@ return {
 			dir = 1,
 			actor = 301164,
 			actorName = "{namecode:22}",
-			say = "指挥官……谢谢……",
+			say = "Commander... thanks...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +48,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "一开始还逞强的{namecode:22}在去了鬼屋之后一下变得软弱起来……",
+			say = "Yukikaze, that haunted house really took a lot out of you... Maybe I shouldn't have....",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			dir = 1,
 			actor = 301164,
 			actorName = "{namecode:22}",
-			say = "指、指挥官没什么好道歉的！",
+			say = "C-Commander, it's not your fault!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			dir = 1,
 			actor = 301164,
 			actorName = "{namecode:22}",
-			say = "其、其实在进鬼屋之前也很害怕…但是指挥官想说去的话怎么好拒绝啊……",
+			say = "Truthfully, I was never good with the scary stuff... But since you wanted to go, I couldn't just say no...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,7 +114,7 @@ return {
 			dir = 1,
 			actor = 301164,
 			actorName = "{namecode:22}",
-			say = "才、才没有逞强！才没有呢……",
+			say = "I wasn't trying to act tough... much...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,21 +132,17 @@ return {
 					x = 0,
 					number = 1
 				}
-			},
+			}
+		},
+		{
+			side = 2,
+			bgName = "bg_story_outdoor",
+			dir = 1,
 			options = {
 				{
-					content = "说起来，{namecode:22}平时也都不拒绝别人的拜托呢"
+					content = "Come to think of it, Yukikaze doesn't normally seem to turn down other peoples' requests either."
 				}
-			}
-		},
-		{
-			nameColor = "#a9f548",
-			side = 2,
-			bgName = "bg_story_outdoor",
-			dir = 1,
-			actor = 301164,
-			actorName = "{namecode:22}",
-			say = "平时也有在逞强？",
+			},
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +159,7 @@ return {
 			dir = 1,
 			actor = 301164,
 			actorName = "{namecode:22}",
-			say = "才不是呢！那是………………",
+			say = "Are you saying that I'm acting tough all the time?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +176,7 @@ return {
 			dir = 1,
 			actor = 301164,
 			actorName = "{namecode:22}",
-			say = "是大家都来拜托{namecode:22}，所以{namecode:22}才给大家帮忙的！",
+			say = "That's not it! It's just that...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +193,24 @@ return {
 			dir = 1,
 			actor = 301164,
 			actorName = "{namecode:22}",
-			say = "才、才不是为了和大家搞好关系才……",
+			say = "Everyone is placing their faith in me, so that's why Yukikaze the Great has to help them!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			nameColor = "#a9f548",
+			side = 2,
+			bgName = "bg_story_outdoor",
+			dir = 1,
+			actor = 301164,
+			actorName = "{namecode:22}",
+			say = "It's not like... I want to be better friends with them or anything...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,11 +221,11 @@ return {
 			},
 			options = {
 				{
-					content = "拍拍头",
+					content = "Pat her head",
 					flag = 1
 				},
 				{
-					content = "摸摸头",
+					content = "Ruffle her hair",
 					flag = 2
 				}
 			}
@@ -224,7 +237,7 @@ return {
 			dir = 1,
 			actor = 301164,
 			actorName = "{namecode:22}",
-			say = "诶嘿嘿……嘿嘿……",
+			say = "Ehehe... murr...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,7 +264,7 @@ return {
 			dir = 1,
 			actor = 301164,
 			actorName = "{namecode:22}",
-			say = "嗯……下次不逞强了，听指挥官的……",
+			say = "Hmm... I suppose I can try to be more honest like you said, Commander...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,7 +291,7 @@ return {
 			dir = 1,
 			actor = 301164,
 			actorName = "{namecode:22}",
-			say = "……哈！{namecode:22}大人刚才说了什么……",
+			say = "Ack...! What did you make Yukikaze the Great say just now...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -305,7 +318,7 @@ return {
 			blackBg = true,
 			actor = 301164,
 			actorName = "{namecode:22}",
-			say = "忘、忘掉刚才说的话！…我才没说那种话！没有说啊啊啊啊！",
+			say = "F-forget you ever heard anything! ... I definitely didn't say anything just now! Nothing at all!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

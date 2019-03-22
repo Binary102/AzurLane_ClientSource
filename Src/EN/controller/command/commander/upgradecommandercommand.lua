@@ -84,6 +84,7 @@ function slot0.execute(slot0, slot1)
 			for slot5, slot6 in ipairs(slot9) do
 				slot7:removeCommanderById(slot6)
 				slot7:clearHardChapterCommanders(slot6)
+				slot7:clearActivityCommanders(slot6)
 			end
 		else
 			pg.TipsMgr:GetInstance():ShowTips(i18n("commander_play_erro", slot0.result))
@@ -102,6 +103,10 @@ function slot0.clearHardChapterCommanders(slot0, slot1)
 			end
 		end
 	end
+end
+
+function slot0.clearActivityCommanders(slot0, slot1)
+	getProxy(FleetProxy):removeActivityFleetCommander(slot1)
 end
 
 return slot0

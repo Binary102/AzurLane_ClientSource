@@ -4702,8 +4702,8 @@ pg.skill_data_template = {
 	},
 	[4121] = {
 		desc_get = "",
-		name = "防护装甲",
-		desc = "受到来自驱逐、轻巡的炮击伤害降低$1",
+		name = "Protective Armor ",
+		desc = "Reduces cannon DMG taken from enemy DDs and Cls by $1.",
 		type = 2,
 		max_level = 10,
 		id = 4121,
@@ -6640,6 +6640,7 @@ pg.skill_data_template = {
 			nil,
 			10131,
 			nil,
+			10131,
 			10131
 		},
 		desc_get_add = {
@@ -7653,6 +7654,7 @@ pg.skill_data_template = {
 			nil,
 			10291,
 			nil,
+			10291,
 			10291
 		},
 		desc_get_add = {
@@ -12724,6 +12726,7 @@ pg.skill_data_template = {
 			nil,
 			11001,
 			nil,
+			11001,
 			11001
 		},
 		desc_get_add = {},
@@ -13748,7 +13751,7 @@ pg.skill_data_template = {
 	[11140] = {
 		desc_get = "",
 		name = "Shiny Sheff",
-		desc = "If own HP is lower than fleet flagship's, $1 chance to reduce DMG taken by $2 when being attacked. Does not trigger when taking DMG from status effects.",
+		desc = "Friendly ships with less HP than Sheffield at the start of a battle have $1 (30.0%) chance to take $2 (50.0%) reduced DMG when being attacked in that battle. (HP change during a battle cannot trigger the skill)",
 		type = 2,
 		max_level = 10,
 		id = 11140,
@@ -14803,7 +14806,7 @@ pg.skill_data_template = {
 	[11270] = {
 		desc_get = "",
 		name = "Blaze of Glory",
-		desc = "Increase DMG to Battleships by $1. When firing Main Gun, $2 chance to launch a barrage of 3rd Year Type ammo. Power and ammo based on skill level.",
+		desc = "Increase DMG to Battleships by $1. When firing Main Gun, $2 chance to launch a barrage of Type 3 Shell ammo. Power and ammo based on skill level.",
 		type = 1,
 		max_level = 10,
 		id = 11270,
@@ -14815,6 +14818,7 @@ pg.skill_data_template = {
 			nil,
 			11271,
 			nil,
+			11271,
 			11271
 		},
 		desc_get_add = {
@@ -15285,8 +15289,8 @@ pg.skill_data_template = {
 	},
 	[11330] = {
 		desc_get = "",
-		name = "栄光轟く一番艦",
-		desc = "自身が戦闘不能にならない限り、同艦隊の金剛型の火力、命中が$1アップ、回避が$2アップ",
+		name = "荣光的一番舰",
+		desc = "在队伍中(存活)时，队伍中{namecode:70}级的角色炮击、命中属性提高$1，机动属性提高$2",
 		type = 3,
 		max_level = 10,
 		id = 11330,
@@ -15388,8 +15392,8 @@ pg.skill_data_template = {
 	},
 	[11340] = {
 		desc_get = "",
-		name = "暁光煌く武勲艦 ",
-		desc = "主砲攻撃を行う度、自身の火力、対空が$1アップ。（最大4回まで加算可能） ",
+		name = "烈光的武勋舰",
+		desc = "主炮开火时，提高自身炮击、防空属性$1，可叠加4次",
 		type = 1,
 		max_level = 10,
 		id = 11340,
@@ -16421,7 +16425,7 @@ pg.skill_data_template = {
 	[11470] = {
 		desc_get = "",
 		name = "Nasty Asty",
-		desc = "与任意新奥尔良级的角色同时出击时，队伍中新奥尔良级的角色炮击属性提高$1，防空、命中属性提高$2",
+		desc = "When sortied in the same fleet as other New Orleans-class ships, all New Orleans-class ships gain $1 Firepower, $2 Anti-Air, and $2 Accuracy. ",
 		type = 3,
 		max_level = 10,
 		id = 11470,
@@ -19066,6 +19070,7 @@ pg.skill_data_template = {
 			nil,
 			11811,
 			nil,
+			11811,
 			11811
 		},
 		desc_get_add = {
@@ -19702,6 +19707,7 @@ pg.skill_data_template = {
 			nil,
 			19031,
 			nil,
+			19031,
 			19031
 		},
 		desc_get_add = {
@@ -21883,7 +21889,7 @@ pg.skill_data_template = {
 	},
 	[23311] = {
 		desc_get = "",
-		name = "All Out Assault Ⅰ",
+		name = "全弹发射I",
 		desc = "进入战斗时，触发全弹发射-Type VIIC型I",
 		type = 1,
 		max_level = 1,
@@ -21894,7 +21900,7 @@ pg.skill_data_template = {
 	},
 	[23312] = {
 		desc_get = "",
-		name = "All Out Assault Ⅱ",
+		name = "全弹发射II",
 		desc = "进入战斗时，触发全弹发射-Type VIIC型II",
 		type = 1,
 		max_level = 1,
@@ -21971,7 +21977,7 @@ pg.skill_data_template = {
 	},
 	[28011] = {
 		desc_get = "",
-		name = "All Out Assault Ⅰ",
+		name = "全弹发射I",
 		desc = "主炮每进行15次攻击，触发全弹发射-机敏级I",
 		type = 1,
 		max_level = 1,
@@ -21982,7 +21988,7 @@ pg.skill_data_template = {
 	},
 	[28012] = {
 		desc_get = "",
-		name = "All Out Assault Ⅱ",
+		name = "全弹发射II",
 		desc = "主炮每进行10次攻击，触发全弹发射-机敏级II",
 		type = 1,
 		max_level = 1,
@@ -21993,7 +21999,7 @@ pg.skill_data_template = {
 	},
 	[28021] = {
 		desc_get = "",
-		name = "All Out Assault Ⅰ",
+		name = "全弹发射I",
 		desc = "主炮每进行15次攻击，触发全弹发射-大胆级I",
 		type = 1,
 		max_level = 1,
@@ -22004,7 +22010,7 @@ pg.skill_data_template = {
 	},
 	[28022] = {
 		desc_get = "",
-		name = "All Out Assault Ⅱ",
+		name = "全弹发射II",
 		desc = "主炮每进行10次攻击，触发全弹发射-大胆级II",
 		type = 1,
 		max_level = 1,
@@ -22015,7 +22021,7 @@ pg.skill_data_template = {
 	},
 	[28111] = {
 		desc_get = "",
-		name = "All Out Assault Ⅰ",
+		name = "全弹发射I",
 		desc = "主炮每进行12次攻击，触发全弹发射-埃米尔·贝尔汀I",
 		type = 1,
 		max_level = 1,
@@ -22026,7 +22032,7 @@ pg.skill_data_template = {
 	},
 	[28112] = {
 		desc_get = "",
-		name = "All Out Assault Ⅱ",
+		name = "全弹发射II",
 		desc = "主炮每进行8次攻击，触发全弹发射-埃米尔·贝尔汀II",
 		type = 1,
 		max_level = 1,

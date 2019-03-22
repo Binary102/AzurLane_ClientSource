@@ -4,28 +4,10 @@ return {
 	once = true,
 	scripts = {
 		{
-			mode = 1,
-			stopbgm = true,
-			sequence = {
-				{
-					"",
-					0.2
-				}
-			},
-			signDate = {
-				"8月9日 凌晨",
-				0.2,
-				{
-					1200,
-					-685
-				}
-			}
-		},
-		{
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "虽然敌方兵力并不雄厚，然而芝加哥和中途汇合的巴格莱毕竟是单枪匹马，当她们最终遭遇敌方的主力舰队时，身上已经带了不少伤……",
+			say = "Though the enemies were not numerous, Chicago and Bagley found themselves outnumbered as they pressed forward. By the time they reached the enemy's main force, they had already sustained many injuries.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -35,7 +17,7 @@ return {
 			actor = 103041,
 			side = 2,
 			nameColor = "#a9f548",
-			say = "凭这点兵力就敢进攻，重樱的胆子姐姐我今天算是见识到了。",
+			say = "You sure have some guts to attack with a force this small. I suppose this is what they mean when they talk about the Sakura Empire's fearsome valor.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -50,7 +32,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			actorName = "{namecode:54}",
-			say = "正是因为兵力有差距才要用奇袭来弥补，这不是理所当然的事情吗？倒不如说，你们的守备这么薄弱才叫我们吃了一惊呢，我们可是做好了今晚无人生还的心理准备才来的哦？",
+			say = "A small fighting force is just what we need to carry out a surprise attack, is that not obvious? Or rather, should I say that your defenses were astoundingly weak? We had steeled ourselves for the worst, but...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,7 +46,7 @@ return {
 			actor = 103041,
 			side = 2,
 			nameColor = "#a9f548",
-			say = "虽然不甘心，不过你说的没错呢……",
+			say = "I hate to admit it, but you're right...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +59,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "连日的空袭警戒和高温下接近36小时没有间断的搬运工作都是足够使人疲惫的理由，不过在失败的事实面前，这些也不过是借口，深知这一点的芝加哥只是微微舔了舔嘴唇。",
+			say = "After enduring countless air raids for several days in the harsh heat, their defenses had in fact been worn thin. But in the face of failure, these were meaningless excuses. Knowing this, Chicago simply bit her lip.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +69,7 @@ return {
 			actor = 103041,
 			side = 2,
 			nameColor = "#a9f548",
-			say = "多说无益，就让我会会你们吧！",
+			say = "But there's no point babbling on. Prepare yourself!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +84,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			actorName = "{namecode:54}",
-			say = "重樱第六战队，{namecode:54}，{namecode:56}，就由我们两个来做你的对手！",
+			say = "You will face Kako and Kinugasa of the Sakura Empire's 6th Fleet!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

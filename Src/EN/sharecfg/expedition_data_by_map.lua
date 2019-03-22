@@ -334,7 +334,7 @@ pg.expedition_data_by_map = {
 		bg = "map_7",
 		destory_icon_suffix = "blue",
 		animtor = 0,
-		bind_map = 0,
+		bind_map = 207,
 		clouds_pos = {
 			{
 				76,
@@ -654,6 +654,47 @@ pg.expedition_data_by_map = {
 			}
 		}
 	},
+	{
+		map = 11,
+		name = "Empress Augusta Bay ",
+		bgm = "level",
+		type = 1,
+		on_activity = 0,
+		title = "11",
+		enter_story = "",
+		level_limit = 70,
+		uifx = "",
+		guide_id = "",
+		ani_name = "",
+		cloud_suffix = "white",
+		bg = "map_11",
+		destory_icon_suffix = "blue",
+		animtor = 0,
+		bind_map = 0,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		drop_by_map_display = {}
+	},
 	[201] = {
 		map = 201,
 		name = "Tora! Tora! Tora!",
@@ -881,6 +922,51 @@ pg.expedition_data_by_map = {
 		destory_icon_suffix = "blue",
 		animtor = 0,
 		bind_map = 6,
+		clouds_pos = {
+			{
+				76,
+				263
+			},
+			{
+				881,
+				44
+			},
+			{
+				23,
+				-143
+			},
+			{
+				473,
+				163
+			},
+			{
+				514,
+				-245
+			},
+			{
+				830,
+				-109
+			}
+		}
+	},
+	[207] = {
+		map = 207,
+		name = "Night of Chaos",
+		bgm = "level",
+		type = 2,
+		on_activity = 0,
+		title = "7",
+		drop_by_map_display = "",
+		enter_story = "",
+		level_limit = 30,
+		uifx = "UIhuohua2",
+		guide_id = "",
+		ani_name = "",
+		cloud_suffix = "purple",
+		bg = "Map_207",
+		destory_icon_suffix = "blue",
+		animtor = 0,
+		bind_map = 7,
 		clouds_pos = {
 			{
 				76,
@@ -1236,6 +1322,211 @@ pg.expedition_data_by_map = {
 			}
 		}
 	},
+	[1100000] = {
+		map = 1100000,
+		name = "Visitors Dyed in Red: Prequel || || S.P. || E.X.",
+		bgm = "level02",
+		type = 4,
+		on_activity = 30096,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "GUOQING1",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "fengshan_1",
+		cloud_suffix = "white",
+		bg = "Map_1040000",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1100010,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1100001] = {
+		map = 1100001,
+		name = "Visitors Dyed in Red: Sequel || || S.P. || E.X.",
+		bgm = "level02",
+		type = 4,
+		on_activity = 30096,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "GUOQING11",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "fengshan",
+		cloud_suffix = "white",
+		bg = "Map_1040001",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1100011,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1100010] = {
+		map = 1100010,
+		name = "Visitors Dyed in Red: Prequel || || S.P. || E.X.",
+		bgm = "level02",
+		type = 5,
+		on_activity = 30096,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "GUOQING1",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "fengshan_1",
+		cloud_suffix = "white",
+		bg = "Map_1040000",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1100000,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1100011] = {
+		map = 1100011,
+		name = "Visitors Dyed in Red: Sequel || || S.P. || E.X.",
+		bgm = "level02",
+		type = 5,
+		on_activity = 30096,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "GUOQING11",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "fengshan",
+		cloud_suffix = "white",
+		bg = "Map_1040001",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1100001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1100013] = {
+		map = 1100013,
+		name = "Visitors Dyed in Red EX || || S.P. || E.X.",
+		bgm = "level02",
+		type = 8,
+		on_activity = 30096,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "fengshan_1",
+		cloud_suffix = "white",
+		bg = "Map_1040001",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1100011,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
 	[1120001] = {
 		map = 1120001,
 		name = "Operation Divergent Chessboard Prequel|| S.P. || E.X.",
@@ -1377,6 +1668,47 @@ pg.expedition_data_by_map = {
 		animtor = 1,
 		bind_map = 1120012,
 		clouds_pos = {}
+	},
+	[1130000] = {
+		map = 1130000,
+		name = "Moonlit Overture|| ||CHAPTER SP||S.P. ",
+		bgm = "level02",
+		type = 3,
+		on_activity = 30090,
+		title = "SP",
+		drop_by_map_display = "",
+		enter_story = "",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "",
+		cloud_suffix = "white",
+		bg = "Map_1130000",
+		destory_icon_suffix = "blue",
+		animtor = 0,
+		bind_map = 1130000,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
 	},
 	[1150001] = {
 		map = 1150001,
@@ -2024,12 +2356,14 @@ pg.expedition_data_by_map = {
 		8,
 		9,
 		10,
+		11,
 		201,
 		202,
 		203,
 		204,
 		205,
 		206,
+		207,
 		10000,
 		1040000,
 		1040001,
@@ -2038,11 +2372,17 @@ pg.expedition_data_by_map = {
 		1070200,
 		1080000,
 		1080010,
+		1100000,
+		1100001,
+		1100010,
+		1100011,
+		1100013,
 		1120001,
 		1120002,
 		1120011,
 		1120012,
 		1120021,
+		1130000,
 		1150001,
 		1150002,
 		1150011,

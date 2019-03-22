@@ -12,7 +12,7 @@ return {
 			actorName = "{namecode:132}",
 			side = 2,
 			nameColor = "#ff0000",
-			say = "Dear {namecode:96}, from here on out, you shall advance no further, nya~",
+			say = "I can't let you go any further, Zuikaku!",
 			shake = {
 				speed = 1,
 				number = 3
@@ -28,7 +28,7 @@ return {
 		},
 		{
 			side = 0,
-			say = "{namecode:79}, are you also one of those emotionless clones?",
+			say = "Yamashiro?! Surely they didn't get to you, too...",
 			actorName = "{namecode:96}",
 			actor = 307061,
 			nameColor = "#a9f548",
@@ -54,7 +54,7 @@ return {
 			actorName = "{namecode:132}",
 			side = 1,
 			nameColor = "#ff0000",
-			say = "Of course not, {namecode:79}-jan is still the high spirited {namecode:79}-jan!",
+			say = "Of course not! I am who I've always been! I'm Yamashiro!",
 			shake = {
 				speed = 1,
 				number = 3
@@ -73,7 +73,7 @@ return {
 			actorName = "{namecode:132}",
 			side = 1,
 			nameColor = "#ff0000",
-			say = "Just that, I was given strict orders to stop you from causing more mischief in the \"Sanctuary\".",
+			say = "I'm here because I was ordered to prevent you from causing any ruckus in the Sanctuary...",
 			shake = {
 				speed = 1,
 				number = 3
@@ -92,7 +92,7 @@ return {
 			actorName = "{namecode:132}",
 			side = 1,
 			nameColor = "#ff0000",
-			say = "So~ disarm yourself and stop struggling, please.",
+			say = "So... could you please lay down your arms and surrender? Pretty please!",
 			shake = {
 				speed = 1,
 				number = 3
@@ -111,7 +111,7 @@ return {
 			actorName = "{namecode:96}",
 			side = 0,
 			nameColor = "#a9f548",
-			say = "Since you are still yourself, then tell me where is my sister {namecode:95}?",
+			say = "If you really are who you claim to be, then tell me: where is Shoukaku?",
 			shake = {
 				speed = 1,
 				number = 3
@@ -130,7 +130,7 @@ return {
 			actorName = "{namecode:132}",
 			side = 1,
 			nameColor = "#ff0000",
-			say = "I’ll tell you only if you can best me!~",
+			say = "You'll have to defeat me if you want to know!",
 			shake = {
 				speed = 1,
 				number = 3
@@ -149,7 +149,7 @@ return {
 			actorName = "{namecode:96}",
 			side = 0,
 			nameColor = "#a9f548",
-			say = "Are all the Senpais so troublesome...",
+			say = "... This is ridiculous! Why do all my superiors have to be such a pain to deal with?!",
 			shake = {
 				speed = 1,
 				number = 3
@@ -168,7 +168,7 @@ return {
 			actorName = "{namecode:96}",
 			side = 0,
 			nameColor = "#a9f548",
-			say = "Fine, let’s have a battle!",
+			say = "Fine, have it your way! If a battle is what it takes to get an answer, then a battle it is!",
 			shake = {
 				speed = 1,
 				number = 3
@@ -187,7 +187,7 @@ return {
 			actorName = "{namecode:132}",
 			side = 1,
 			nameColor = "#ff0000",
-			say = "A friendly tip from {namecode:79}: They’ve retrofitted {namecode:79} with strange equipments~ Far more advanced than you can imagine.",
+			say = "I have to warn you: when I was being retrofitted, they installed some weird equipment on me... Apparently, I'm now an aviation battleship!",
 			shake = {
 				speed = 1,
 				number = 3
@@ -206,7 +206,7 @@ return {
 			actorName = "{namecode:132}",
 			side = 1,
 			nameColor = "#ff0000",
-			say = "Surprise~ the new {namecode:79}-jan is very powerful, I can even carry fighter planes... wha, you started without letting me finish!!!",
+			say = "They worked hard on it, and I'm really, really strong now! I can even launch aircr- Ow, that hurt! Please let me finish before you start attacking!",
 			shake = {
 				speed = 1,
 				number = 3

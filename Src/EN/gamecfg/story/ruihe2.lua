@@ -11,13 +11,13 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"幸运之鹤\n\n<size=30>二  {namecode:96}与小伙伴们</size>",
+					"The Lucky Crane\n\n<size=30>Chapter 2 - Zuikaku & Her Friends</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "听完匆忙洗漱完毕后就位的{namecode:96}的晨间报告，和她一起开始了早晨的巡逻",
+			say = "After Zuikaku hurriedly gave me her morning report, we went out together for a walk around the base.",
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -34,7 +34,7 @@ return {
 			dir = 1,
 			actor = 307064,
 			actorName = "{namecode:96}",
-			say = "指挥官对不起…昨晚看攻击教科书看太晚了……",
+			say = "Sorry, Commander... I was up all night cramming Offense Skillbooks...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,7 +51,7 @@ return {
 			dir = 1,
 			actor = 307064,
 			actorName = "{namecode:96}",
-			say = "是…我以后会注意的…",
+			say = "... I know, I'll be more careful next time...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			dir = 1,
 			actor = 307064,
 			actorName = "{namecode:96}",
-			say = "啊，大家聚在那里做什么呢？",
+			say = "Hey, what's this? Why's everyone gathering at the pier?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			}
 		},
 		{
-			say = "喔？{namecode:96}和指挥官在巡逻吗？",
+			say = "Why, if it ain't Zuikaku! You out for a walk with the Commander?",
 			side = 1,
 			bgName = "bg_story_outdoor",
 			actorName = "{namecode:76}",
@@ -106,7 +106,7 @@ return {
 			dir = 1,
 			actor = 307064,
 			actorName = "{namecode:96}",
-			say = "是的！话说大家在这里做什么呢？",
+			say = "Yup! So, why are you all gathered here?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			dir = 1,
 			actor = 305044,
 			actorName = "{namecode:77}",
-			say = "在讨论和白鹰进行联合演习的事。在想怎么跟那边提出来比较合适",
+			say = "We wanted to talk to some Eagle Union peeps about a joint exercise, and we're discussing how to bring it up with them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			dir = 1,
 			actor = 307064,
 			actorName = "{namecode:96}",
-			say = "怎么提…正常地说不就好了吗？",
+			say = "Uh, can't you just, like, bring it up with them? Like normal people do?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			dir = 1,
 			actor = 302094,
 			actorName = "{namecode:47}",
-			say = "如果只有{namecode:76}{namecode:77}还好说，这里没什么人说得出“重樱希望和白鹰进行联合演习”的话呢……",
+			say = "Ise and Hyuuga could maybe do it, but most of us aren't the types who can just ask someone about a joint exercise...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			dir = -1,
 			actor = 303024,
 			actorName = "{namecode:54}",
-			say = "是啊。我或{namecode:66}讲话太生硬，只怕会造成奇怪的误解……",
+			say = "She's right. If someone like Takao or I were to ask them, we'd come off as too formal, and they might speculate that we're up to something...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			dir = 1,
 			actor = 307064,
 			actorName = "{namecode:96}",
-			say = "那我去说吧？反正一会也会经过那里",
+			say = "Then why don't I do it? I was just about to head their way anyhow.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			dir = 1,
 			actor = 305034,
 			actorName = "{namecode:76}",
-			say = "真的吗！帮大忙了",
+			say = "Really? 'Cause that'd be a huge help.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			dir = 1,
 			actor = 302094,
 			actorName = "{namecode:47}",
-			say = "{namecode:96}去说的话，一定没问题的",
+			say = "If Zuikaku will ask on our behalf, then I'm sure it'll go well.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			dir = -1,
 			actor = 303024,
 			actorName = "{namecode:54}",
-			say = "嗯。抱歉，临时拜托你",
+			say = "Yeah. Sorry for making you go out of your way like this, Zuikaku.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			dir = 1,
 			actor = 307064,
 			actorName = "{namecode:96}",
-			say = "没关系！就交给我吧！",
+			say = "No need to be sorry! I can handle it, no problem!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,7 +273,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "向白鹰阵营提出了联合演习的提议，取得了大多数人的同意",
+			say = "Zuikaku went to the Eagle Union dormitory and proposed the joint exercise. Almost everybody she told about it agreed to participate.",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -303,7 +303,7 @@ return {
 			dir = 1,
 			actor = 307064,
 			actorName = "{namecode:96}",
-			say = "呼…差不多就这样吧？",
+			say = "*Phew*... That about makes it one lap around the base, huh?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -321,7 +321,7 @@ return {
 			blackBg = true,
 			actor = 307064,
 			nameColor = "#a9f548",
-			say = "经常这样呢，不知不觉就收到了这样那样的拜托…",
+			say = "This happens surprisingly often~ Like, I'm just out and about, then suddenly somebody asks me for a favor.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

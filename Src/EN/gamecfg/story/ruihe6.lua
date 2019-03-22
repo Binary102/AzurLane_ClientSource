@@ -11,13 +11,13 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"幸运之鹤\n\n<size=30>六  深夜的插曲</size>",
+					"The Lucky Crane\n\n<size=30>Chapter 6 - Someone Like Me...</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "指挥室·深夜",
+			say = "Office - Past midnight",
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
@@ -34,7 +34,7 @@ return {
 			dir = 1,
 			actor = 307064,
 			actorName = "{namecode:96}",
-			say = "哈啊……今天事情真多啊……平常这个点指挥官都该睡觉了……",
+			say = "Geesh... There's an unusual amount of paperwork today... Usually, by now you'd have already been gone to sleep...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +48,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			say = "久违地工作到了深夜",
+			say = "It's been a long time since I've had to work this late into the night.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			dir = 1,
 			actor = 307064,
 			actorName = "{namecode:96}",
-			say = "嗯…已经这么晚了，指挥官要不要吃点东西？",
+			say = "Um, since it's so late, maybe I should make you something light to eat?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			}
 		},
 		{
-			say = "哎呀，这种事要在说之前先做比较好吧？",
+			say = "Don't you know, Zuikaku? You should have something prepared before you even ask that.",
 			side = 1,
 			bgName = "bg_night",
 			actorName = "{namecode:95}",
@@ -99,7 +99,7 @@ return {
 			dir = 1,
 			actor = 307064,
 			actorName = "{namecode:96}",
-			say = "{namecode:95}姐？！",
+			say = "You're here, sis?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			dir = 1,
 			actor = 307054,
 			actorName = "{namecode:95}",
-			say = "想说怎么这么晚了还没回宿舍，原来还在工作啊……",
+			say = "I noticed that you hadn't come back to the dorm yet, so I reasoned that you must still be hard at work...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			dir = 1,
 			actor = 307054,
 			actorName = "{namecode:95}",
-			say = "工作过度对身体可不好哦？“先手必胜～”♡",
+			say = "It's not good for your health to overwork yourself. Now, watch and learn the importance of being prepared...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			say = "{namecode:95}带着艳丽的笑容，抢在{namecode:96}之前拿出了小面包和瓶子放到了桌上",
+			say = "With an alluring smile, Shoukaku reached into her pockets and took out a handful of snacks and a small can, which she placed on my desk.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			dir = 1,
 			actor = 307064,
 			actorName = "{namecode:96}",
-			say = "我、我正要准备的说……话说这是、酒？",
+			say = "B-but I was just about to prepare something... Wait a minute, is that... beer?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			}
 		},
 		{
-			say = "没错～♪辛苦工作了一天，就用酒来放松放松也好呢～另外，也算是上次指挥官你灌我酒的时候的“回礼”呦～",
+			say = "It is~ The Commander has been working all day, so I thought a drink might help relieve some of the stress... In a way, I'm also taking a little revenge for that thing a few days ago~",
 			side = 1,
 			bgName = "bg_night",
 			actorName = "{namecode:95}",
@@ -198,7 +198,7 @@ return {
 			dir = 1,
 			actor = 307054,
 			actorName = "{namecode:95}",
-			say = "上次我喝醉的时候……哎呀，这事还没跟{namecode:96}说过吧……？",
+			say = "By which I mean that time when I'd had a lot to drink, and... Oh, you haven't told her yet, have you, Commander...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,7 +212,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			say = "一点印象也没有……",
+			say = "I don't remember anything like that...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,24 +225,7 @@ return {
 			dir = 1,
 			actor = 307064,
 			actorName = "{namecode:96}",
-			say = "（果然在我不知道的地方{namecode:95}和指挥官有各种各样的……）",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			nameColor = "#a9f548",
-			side = 2,
-			bgName = "bg_night",
-			dir = 1,
-			actor = 307064,
-			actorName = "{namecode:96}",
-			say = "（也是…{namecode:95}姐那么漂亮…又沉稳…就算战斗力差不多，作为秘书舰又比我做的好…呜呜果然我还是……）",
+			say = "(I knew it: sis has been doing all sorts of stuff with the Commander when I'm not around...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +242,24 @@ return {
 			dir = 1,
 			actor = 307064,
 			actorName = "{namecode:96}",
-			say = "…那…我这些就放回冷藏库了……",
+			say = "(I get it now... She's prettier than me, she's more composed than me, and though we're equals in combat, she's a way better secretary than me... Someone like me can't even hold a candle to her...)",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			nameColor = "#a9f548",
+			side = 2,
+			bgName = "bg_night",
+			dir = 1,
+			actor = 307064,
+			actorName = "{namecode:96}",
+			say = "... Alright, then... I'll just go and leave my snacks in the fridge...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,7 +277,7 @@ return {
 			actorName = "{namecode:95}",
 			actor = 307054,
 			nameColor = "#a9f548",
-			say = "…是不是玩笑有点开过头了呢？",
+			say = "... Maybe I took my teasing a little too far?",
 			flashout = {
 				dur = 0.5,
 				black = true,

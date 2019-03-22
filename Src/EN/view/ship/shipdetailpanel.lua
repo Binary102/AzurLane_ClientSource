@@ -159,14 +159,14 @@ function slot0.updateLevelInfo(slot0)
 
 	if slot1.level ~= slot1:getMaxLevel() then
 		setSlider(slot0.levelSlider, 0, slot4.exp_interval, slot1.exp)
-		setText(slot0.expInfo, slot1.exp .. "/" .. slot4.exp_interval)
+		setText(slot0.expInfo, slot1:getExp() .. "/" .. slot4.exp_interval)
 
 		if slot0.maxlevel_tip then
 			setActive(slot0.maxlevel_tip, false)
 		end
 	else
 		setSlider(slot0.levelSlider, 0, 1, 1)
-		setText(slot0.expInfo, slot1.exp .. "/Max")
+		setText(slot0.expInfo, slot1:getExp() .. "/Max")
 
 		if slot3 ~= nil and slot0.maxlevel_tip then
 			setActive(slot0.maxlevel_tip, true)

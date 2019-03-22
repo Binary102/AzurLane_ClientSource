@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"有关火奴鲁鲁的二三事\n\n<size=30>一　爱生气的火奴鲁鲁？</size>",
+					"An Easily Flustered Girl's Story\n\n<size=30>Chapter 1 - An Easily Flustered Girl's Day</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "港区·指挥室",
+			say = "Port - Office",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -52,7 +52,7 @@ return {
 			withoutActorName = true,
 			actor = 102121,
 			nameColor = "#a9f548",
-			say = "火奴鲁鲁正站在文件架前整理资料",
+			say = "My secretary, Honolulu, was standing in front of a bookcase and sorting documents.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			withoutActorName = true,
 			actor = 102121,
 			nameColor = "#a9f548",
-			say = "…………",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我说…能不能不要这样盯着我看，影响到我的工作了。",
+			say = "Hey, uh... Could you not stare at me so much? I can't work properly when you do that...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			withoutActorName = true,
 			actor = 102121,
 			nameColor = "#a9f548",
-			say = "…………（沉默着别开视线）",
+			say = "...... (The Commander silently stopped observing Honolulu.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这部分的文件这样就可以了吧？",
+			say = "*Sigh*... So, will these documents be all you need?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			withoutActorName = true,
 			actor = 102121,
 			nameColor = "#a9f548",
-			say = "…………（沉默着点头）",
+			say = "...... (The Commander silently nodded in agreement.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "整备？不做奇怪的事的话倒是无所谓。",
+			say = "Are you gonna inspect my gear? Fine, as long as you don't do anything weird...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			withoutActorName = true,
 			actor = 102121,
 			nameColor = "#a9f548",
-			say = "…………（沉默着离开位置）",
+			say = "...... (The Commander silently got ready to inspect Honolulu's equipment.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "还愣着干什么…？委托已经完成了。",
+			say = "Hey, are you even paying attention? ... A commission's been completed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			withoutActorName = true,
 			actor = 102121,
 			nameColor = "#a9f548",
-			say = "…………（沉默着前去确认）",
+			say = "...... (The Commander silently confirmed the results of the commission.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,7 +215,7 @@ return {
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
-			say = "由火奴鲁鲁担任秘书舰也有一段时间了，彼此也稍微熟悉了些。",
+			say = "It's been some time since Honolulu started working as my secretary, and to a point, we've begun to understand each other's ways of doing things. However...",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -242,14 +242,14 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "虽然工作都能好好完成，但总有种她在生气的感觉。",
+			say = "While she does her work just as you'd expect, for some reason, she always seems to be in a bad mood. I feel like she's hard to initiate a conversation with.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "稍微问一下吧",
+					content = "Ask her how she feels",
 					flag = 1
 				}
 			}
@@ -260,7 +260,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "别一脸理所当然地碰别人……有什么事吗？",
+			say = "D-don't touch me from behind without asking! You need to learn how to be more delicate... So, what do you want?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -276,7 +276,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……我没有生气，也没有什么烦心事。",
+			say = "... No, I'm not angry, but maybe there's something that's bothering me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,7 +292,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "也不是讨厌你…只是性格就是这样。",
+			say = "... I'm not trying to say that I hate you... I've just always had a temper like this.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +308,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "要是让你不高兴了，不如让其他更可爱的孩子来做秘书怎么样？",
+			say = "If you don't like it then maybe you should get someone else to do the job...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,7 +324,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "<size=22>……（小声）还是说，你就这么喜欢胸部么。</size>",
+			say = "<size=22>(Whispering) ... I bet you just chose me because of my bust...</size>",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -334,7 +334,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "虽然有点话中带刺，倒也确实没有在生气的样子。",
+			say = "I can only conclude that Honolulu isn't upset at me in particular.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -344,7 +344,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "硬要说的话，更像是单纯的不擅长交流？",
+			say = "If I had to guess, she's just not very good at communicating her feelings...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -355,7 +355,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "……稍微对她产生了一点好奇。",
+			say = "... That actually made me a little curious about her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

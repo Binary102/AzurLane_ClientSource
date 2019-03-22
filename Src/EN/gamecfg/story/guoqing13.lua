@@ -12,7 +12,7 @@ return {
 			actorName = "{namecode:24}",
 			side = 2,
 			nameColor = "#ff0000",
-			say = "Sigh... lucky ship... what a nonsense.",
+			say = "Ouch... I'm not such a lucky ship... after all...",
 			shake = {
 				speed = 1,
 				number = 3
@@ -28,7 +28,7 @@ return {
 		},
 		{
 			side = 0,
-			say = "Hmm, perhaps your opponent is simply luckier than you~",
+			say = "You are lucky. You just picked a bad opponent.",
 			actorName = "{namecode:96}",
 			actor = 307061,
 			nameColor = "#a9f548",
@@ -54,7 +54,7 @@ return {
 			actorName = "{namecode:96}",
 			side = 0,
 			nameColor = "#a9f548",
-			say = "Ok, now tell me every detail of your scheme.",
+			say = "... Now tell me everything you know.",
 			shake = {
 				speed = 1,
 				number = 3
@@ -73,7 +73,7 @@ return {
 			actorName = "{namecode:24}",
 			side = 1,
 			nameColor = "#ff0000",
-			say = "Whining... I came to the Sactuary in a daze, and… then I met them.",
+			say = "Well, I got lost and wandered into this place... then I met some strange people.",
 			shake = {
 				speed = 1,
 				number = 3
@@ -92,7 +92,7 @@ return {
 			actorName = "{namecode:24}",
 			side = 1,
 			nameColor = "#ff0000",
-			say = "They have been here constantly trying to figure out the \"Creator's\" technology, in hopes of turning the tide of the war...",
+			say = "They've been researching the technology their \"Creator\" gave them in hopes of turning the tide of war around...",
 			shake = {
 				speed = 1,
 				number = 3
@@ -111,7 +111,7 @@ return {
 			actorName = "{namecode:96}",
 			side = 0,
 			nameColor = "#a9f548",
-			say = "Just as the intel said, it looks like you aren't lying after all.",
+			say = "That's just as the intel said. Looks like they weren't lying after all.",
 			shake = {
 				speed = 1,
 				number = 3
@@ -130,7 +130,7 @@ return {
 			actorName = "{namecode:96}",
 			side = 0,
 			nameColor = "#a9f548",
-			say = "Come with me to help {namecode:95}. The more there are of us, the stronger we become.",
+			say = "Come with me, Nowaki. I need to save Shoukaku, and the more support I have, the better.",
 			shake = {
 				speed = 1,
 				number = 3
@@ -149,7 +149,7 @@ return {
 			actorName = "{namecode:24}",
 			side = 1,
 			nameColor = "#ff0000",
-			say = "I can’t violate their will...",
+			say = "But I can't go against their will...",
 			shake = {
 				speed = 1,
 				number = 3
@@ -168,7 +168,7 @@ return {
 			actorName = "{namecode:96}",
 			side = 0,
 			nameColor = "#a9f548",
-			say = "Even if their deity possess false beliefs?",
+			say = "Even if this \"Creator\" of theirs is nothing but a lie?",
 			shake = {
 				speed = 1,
 				number = 3
@@ -187,7 +187,7 @@ return {
 			actorName = "{namecode:24}",
 			side = 1,
 			nameColor = "#ff0000",
-			say = "“They are the ones who give us hope, even if the path is misguided, I...",
+			say = "They gave us hope... Even if I'm going down the wrong path, I can't...",
 			shake = {
 				speed = 1,
 				number = 3
@@ -206,7 +206,7 @@ return {
 			actorName = "{namecode:96}",
 			side = 0,
 			nameColor = "#a9f548",
-			say = "I understand, good luck~",
+			say = "I see... Good luck, then.",
 			shake = {
 				speed = 1,
 				number = 3

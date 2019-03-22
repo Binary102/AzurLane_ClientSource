@@ -11,13 +11,13 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"幸运之鹤\n\n<size=30>五  今天料理我负责！</size>",
+					"The Lucky Crane\n\n<size=30>Chapter 5 - Today, I'm Your Chef!</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "指挥室·夜",
+			say = "Office - Nighttime",
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
@@ -34,7 +34,7 @@ return {
 			dir = 1,
 			actor = 307064,
 			actorName = "{namecode:96}",
-			say = "指挥官辛苦了！差不多该吃晚饭了吧？",
+			say = "Welcome back, Commander! Want me to bring you your food soon?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,7 +51,7 @@ return {
 			dir = 1,
 			actor = 307064,
 			actorName = "{namecode:96}",
-			say = "？前面说过今天不是{namecode:95}姐而是我做饭吧？也不能老是麻烦{namecode:95}姐，我也要努力尝试一下！",
+			say = "... Huh? Didn't I tell you that I'd be making your food today, not Shoukaku? I can't keep asking her to make food for you forever, so I tried my own hand at it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			dir = 1,
 			actor = 307064,
 			actorName = "{namecode:96}",
-			say = "所以稍微等我一会～",
+			say = "Just sit tight, I'll be back in a moment.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,7 +82,7 @@ return {
 			bgName = "bg_night",
 			side = 2,
 			dir = 1,
-			say = "过了一会，{namecode:96}把晚饭端了上来",
+			say = "A short while later, Zuikaku returned with a tray of food.",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -112,7 +112,24 @@ return {
 			dir = 1,
 			actor = 307064,
 			actorName = "{namecode:96}",
-			say = "炸鸡块加香葱蘸料，三分大麦的米饭和加鸡蛋的味增汤，南国定番的椰子果汁，还有专供军官的高级皇家香蕉！",
+			say = "Dinner's served! Chicken nuggets with onions, rice cooked in barley and miso soup with an egg, and lastly for dessert: coconut juice and a Royal Rations Banana!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			nameColor = "#a9f548",
+			side = 2,
+			bgName = "bg_night",
+			dir = 1,
+			actor = 307064,
+			actorName = "{namecode:96}",
+			say = "All in all, it's like a road trip through Flavortown! Bon appetit!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +143,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			say = "料理看起来很好吃，但摆盘和盛菜又微妙地有些随便，很有{namecode:96}的风格",
+			say = "The food itself certainly looked appetizing, but it was arranged rather casually on the tray. One could really tell Zuikaku prepared this meal.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +153,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			say = "鸡块旁边偷偷放着的天妇罗莫非是隐藏的小菜？",
+			say = "It also looks like she hid some tempura next to the chicken nuggets. Maybe they were meant to be a surprise?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +166,7 @@ return {
 			dir = 1,
 			actor = 307064,
 			actorName = "{namecode:96}",
-			say = "怎么样？",
+			say = "So, what do you think?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,14 +183,14 @@ return {
 			dir = 1,
 			actor = 0,
 			nameColor = "#a9f548",
-			say = "……",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "很好吃",
+					content = "It's delicious, like always",
 					flag = 1
 				}
 			}
@@ -185,7 +202,7 @@ return {
 			dir = 1,
 			actor = 307064,
 			actorName = "{namecode:96}",
-			say = "……好吃吗？太好了！哼哼，就算没有{namecode:95}姐帮忙，这点程度的我还是可以的嘛！",
+			say = "... Delicious, like always? Sweet! I mean, even without my sister's help, I can at least make some delicious food!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,7 +219,7 @@ return {
 			dir = 1,
 			actor = 307064,
 			actorName = "{namecode:96}",
-			say = "比灰色幽灵做的还好吃？谢谢指挥官！",
+			say = "So it's even better than the Grey Ghost's cooking? Thanks, Commander!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +236,7 @@ return {
 			dir = 1,
 			actor = 307064,
 			actorName = "{namecode:96}",
-			say = "虽然那边有女灶神的指导，但也不是我的对手呢！",
+			say = "I've heard Vestal is teaching her how to cook so that basically means she's no match for me!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +254,7 @@ return {
 			blackBg = true,
 			actor = 307064,
 			nameColor = "#a9f548",
-			say = "哼哼♪今天赢了灰色幽灵♪",
+			say = "*Giggle*♪ I beat the Grey Ghost today♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

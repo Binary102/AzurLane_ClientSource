@@ -6,7 +6,7 @@ function slot0.getUIName(slot0)
 end
 
 function slot0.getBGM(slot0)
-	return "login"
+	return slot0:getSpecialDate(4) or "login"
 end
 
 function slot0.preload(slot0, slot1)
@@ -89,9 +89,12 @@ function slot0.init(slot0)
 
 	setActive(slot0.userAgreenTF, false)
 	slot0:switchToServer()
+
+	slot1 = slot0:getSpecialDate(3)
+
 	slot0:setBg()
 
-	if CRI_BG_FLAG then
+	if CRI_BG_FLAG or slot1 then
 		slot0:setCriBg()
 	end
 end
@@ -141,21 +144,36 @@ function slot0.showUserAgreement(slot0, slot1)
 	end)
 end
 
-function slot0.setBg(slot0)
-	slot1 = "login"
+function slot0.getSpecialDate(slot0, slot1)
 	slot2 = pg.TimeMgr.GetInstance():ServerTimeDesc("%Y%m%d")
 
 	for slot6, slot7 in ipairs(SPECIAL_DATE) do
 		if slot7[1] == slot2 then
-			slot1 = slot7[2]
+			return slot7[slot1 or 2]
 		end
+	end
+
+	return nil
+end
+
+function slot0.setBg(slot0)
+	slot1 = "login"
+
+	if slot0:getSpecialDate() then
+		slot1 = slot2
 	end
 
 	setImageSprite(slot0._bg, LoadSprite("loadingbg/" .. slot1), false)
 end
 
 function slot0.setCriBg(slot0)
-	PoolMgr.GetInstance():GetPrefab("effect/loginbg", "loginbg", true, function (slot0)
+	slot1 = "loginbg"
+
+	if slot0:getSpecialDate(3) then
+		slot1 = slot2
+	end
+
+	PoolMgr.GetInstance():GetPrefab("effect/" .. slot1, slot1, true, function (slot0)
 		if slot0 and not slot0.exited then
 			slot0._paintingFX = {
 				name = paintingFX,

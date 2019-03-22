@@ -52,4 +52,54 @@ function slot0.GetTriggers(slot0)
 	end
 end
 
+function slot0.triggerSkill(slot0, slot1)
+	return _.reduce(slot2, nil, function (slot0, slot1)
+		slot3 = slot1:GetArgs()
+
+		if slot1:GetType() == FleetSkill.TypeBattleBuff then
+			table.insert(slot0 or {}, slot3[1])
+
+			return slot0 or 
+		end
+	end), _.filter(slot0:findSkills(slot1), function (slot0)
+		return _.any(slot1, function (slot0)
+			return slot0[1] == FleetSkill.TriggerInSubTeam and slot0[2] == 1
+		end) == slot0:getFleetType() == FleetType.Submarine and _.all(slot0:GetTriggers(), function (slot0)
+			return slot0.NoneChapterFleetCheck(slot0.NoneChapterFleetCheck, , slot0)
+		end)
+	end)
+end
+
+function slot0.NoneChapterFleetCheck(slot0, slot1, slot2)
+	slot4 = getProxy(BayProxy)
+
+	if slot2[1] == FleetSkill.TriggerDDCount then
+		slot5 = slot4:getShipByTeam(slot0, TeamType.Vanguard)
+
+		return slot2[2] <= #_.filter(fleetShips, function (slot0)
+			return slot0:getShipType() == ShipType.QuZhu
+		end) and slot6 <= slot2[3]
+	elseif slot3 == FleetSkill.TriggerDDHead then
+		return #slot4:getShipByTeam(slot0, TeamType.Vanguard) > 0 and slot5[1]:getShipType() == ShipType.QuZhu
+	elseif slot3 == FleetSkill.TriggerVanCount then
+		return slot2[2] <= #slot4:getShipByTeam(slot0, TeamType.Vanguard) and #slot5 <= slot2[3]
+	elseif slot3 == FleetSkill.TriggerShipCount then
+		return slot2[3] <= #_.filter(slot4:getShipsByFleet(slot0), function (slot0)
+			return table.contains(slot0[2], slot0:getShipType())
+		end) and #slot5 <= slot2[4]
+	elseif slot3 == FleetSkill.TriggerNekoPos then
+		slot5 = slot0:findCommanderBySkillId(slot1.id)
+
+		for slot9, slot10 in pairs(slot0:getCommanders()) do
+			if slot5.id == slot10.id and slot9 == slot2[2] then
+				return true
+			end
+		end
+	elseif slot3 == FleetSkill.TriggerInSubTeam then
+		return true
+	else
+		return false
+	end
+end
+
 return slot0

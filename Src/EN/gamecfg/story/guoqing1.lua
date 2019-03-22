@@ -13,11 +13,11 @@ return {
 					2
 				},
 				{
-					"Where the probable and improbable collide.",
+					"Where the probable and improbable collide,",
 					3
 				},
 				{
-					"All ephemerals are swept up in flames.",
+					"all ephemerals are swept up in flames...",
 					6
 				},
 				{
@@ -25,11 +25,11 @@ return {
 					7
 				},
 				{
-					"If it wasn’t for that lone encounter.",
+					"If it wasn't for that lone encounter,",
 					8
 				},
 				{
-					"Might there be an alternate ending.",
+					"might there be an alternate ending.",
 					10
 				},
 				{
@@ -37,7 +37,7 @@ return {
 					12
 				},
 				{
-					"Is that you, “O Creator”?",
+					"Is that you, my Creator?",
 					13
 				}
 			}
@@ -45,7 +45,7 @@ return {
 		{
 			sequence = {
 				{
-					"——Visitors Dyed in Red.",
+					"——Visitors Dyed in Red",
 					2
 				}
 			}
@@ -58,7 +58,7 @@ return {
 			blackBg = true,
 			actor = 900011,
 			nameColor = "#a9f548",
-			say = "This storm is too strong, if we keep going then we might get caught in it!",
+			say = "The storm is too strong! We'll be annihilated if we try to ride it out!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			blackBg = true,
 			actor = 900012,
 			nameColor = "#a9f548",
-			say = "We’ve already made such a big commitment here, can’t just give up now. Trust me, we will break through this storm soon enough!",
+			say = "We're committed now, we can't just give up! Trust me, we will break through this storm soon enough!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			blackBg = true,
 			actor = 900011,
 			nameColor = "#a9f548",
-			say = "A large unknown vessel detected ahead, bearing 150, immediate evasive maneuvers...",
+			say = "Unknown enemy detected, bearing 150 degrees! Initiate evasive maneuvers...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,43 +112,7 @@ return {
 			blackBg = true,
 			actor = 900012,
 			nameColor = "#a9f548",
-			say = "Unknown vessel? In a storm like this? Quick, reveal to me your location!",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			withoutPainting = true,
-			side = 0,
-			actorName = "？？？",
-			mode = 2,
-			blackBg = true,
-			actor = 900011,
-			nameColor = "#a9f548",
-			say = "…………",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			withoutPainting = true,
-			side = 1,
-			actorName = "？？？",
-			mode = 2,
-			blackBg = true,
-			actor = 900012,
-			nameColor = "#a9f548",
-			say = "Answer me, {namecode:95}... what's your coordinates.",
+			say = "An unknown enemy, in a storm like this? Tell me its coordinates!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,6 +131,24 @@ return {
 			actor = 900011,
 			nameColor = "#a9f548",
 			say = "…………",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			withoutPainting = true,
+			side = 1,
+			actorName = "？？？",
+			mode = 2,
+			blackBg = true,
+			actor = 900012,
+			nameColor = "#a9f548",
+			say = "Answer me, Shoukaku! What are its coordinates?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,7 +184,25 @@ return {
 			blackBg = true,
 			actor = 900011,
 			nameColor = "#a9f548",
-			say = "Get away… quickly…",
+			say = "…………",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			withoutPainting = true,
+			side = 0,
+			actorName = "？？？",
+			mode = 2,
+			blackBg = true,
+			actor = 900011,
+			nameColor = "#a9f548",
+			say = "... Get... out of… here…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -220,7 +220,7 @@ return {
 			blackBg = true,
 			actor = 900012,
 			nameColor = "#a9f548",
-			say = "...Lost in a radio silence zone... we are really doomed this time...",
+			say = "Crap, we're losing radio contact... This isn't looking good...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,7 +238,7 @@ return {
 			blackBg = true,
 			actor = 900012,
 			nameColor = "#a9f548",
-			say = "Damn... I haven’t bested the Grey Ghost yet...",
+			say = "Damn it... I still haven't had the chance to fight the Grey Ghost...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +256,7 @@ return {
 			blackBg = true,
 			actor = 900012,
 			nameColor = "#a9f548",
-			say = "Hold, there’s light emanating ahead?...",
+			say = "... Wait, what's...? What's that light...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			blackBg = true,
 			actor = 900012,
 			nameColor = "#a9f548",
-			say = "！！！",
+			say = "Oh god!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -323,7 +323,7 @@ return {
 			blackBg = true,
 			actor = 307061,
 			nameColor = "#a9f548",
-			say = "Is this...?",
+			say = "... Where... am I?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -340,7 +340,7 @@ return {
 			blackBg = true,
 			actor = 307061,
 			nameColor = "#a9f548",
-			say = "Huh?? I’m still alive!!!",
+			say = "Hey... I'm still in one piece! I made it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -357,7 +357,7 @@ return {
 			blackBg = true,
 			actor = 307061,
 			nameColor = "#a9f548",
-			say = "That was... my head hurts, what happened just now? I can’t seem to remember...",
+			say = "Ow! My head hurts, though... And I don't remember what happened...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -374,7 +374,7 @@ return {
 			blackBg = true,
 			actor = 307061,
 			nameColor = "#a9f548",
-			say = "Damn, I've lost contact with {namecode:95}, the situation is getting worse...",
+			say = "Damn... I can't radio Shoukaku... Now things really aren't looking good...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -408,7 +408,7 @@ return {
 			blackBg = true,
 			actor = 307061,
 			nameColor = "#a9f548",
-			say = "Belay my last… at the very least, I found you at last...",
+			say = "No, get it together! I finally made it, after all...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -425,7 +425,7 @@ return {
 			blackBg = true,
 			actor = 307061,
 			nameColor = "#a9f548",
-			say = "Here it is, the \"Sanctuary\" foretold in legends.",
+			say = "I made it here! To the Sanctuary!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

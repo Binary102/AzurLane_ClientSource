@@ -11,13 +11,13 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"幸运之鹤\n\n<size=30>七 不屈之鹤</size>",
+					"The Lucky Crane\n\n<size=30>Chapter 7 - The Indomitable Crane</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "指挥室·深夜",
+			say = "Office - Past midnight",
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
@@ -34,7 +34,7 @@ return {
 			dir = 1,
 			actor = 307064,
 			actorName = "{namecode:96}",
-			say = "指挥官果然…还是选了{namecode:95}姐准备的……",
+			say = "I'm sure... you'd prefer Shoukaku's snacks over mine anyway...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,14 +51,14 @@ return {
 			dir = 1,
 			actor = 0,
 			nameColor = "#a9f548",
-			say = "……",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "叫住{namecode:96}",
+					content = "Tell Zuikaku not to leave",
 					flag = 1
 				}
 			}
@@ -70,7 +70,7 @@ return {
 			dir = 1,
 			actor = 307064,
 			actorName = "{namecode:96}",
-			say = "两边都要？",
+			say = "You mean you want mine too...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			}
 		},
 		{
-			say = "哈哈，看来指挥官肚子已经饿扁了呢♪",
+			say = "*Giggle*~ The Commander must be quite famished♪",
 			side = 1,
 			bgName = "bg_night",
 			actorName = "{namecode:95}",
@@ -108,7 +108,7 @@ return {
 			dir = 1,
 			actor = 307064,
 			actorName = "{namecode:96}",
-			say = "不用勉强自己哦…？难得{namecode:95}姐准备了，我的就下次再说吧？",
+			say = "You don't have to force yourself to eat it... Sis has already gotten you some snacks, so I'll save mine for next time, okay...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			dir = 1,
 			actor = 307064,
 			actorName = "{namecode:96}",
-			say = "……“{namecode:96}和{namecode:95}都是我的翅膀，不可能只选择一边”……？",
+			say = "... \"Only when together can sis and I form your wings, so it's absurd to choose only one of us\"...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			dir = 1,
 			actor = 307064,
 			actorName = "{namecode:96}",
-			say = "……啊、啊呜……（///）",
+			say = "... J-jeez...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			say = "{namecode:96}一下子脸红了",
+			say = "For a moment, Zuikaku's expression turned bright red.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			dir = 1,
 			actor = 307054,
 			actorName = "{namecode:95}",
-			say = "虽然知道指挥官是想解围……但这台词实在有点……",
+			say = "That is a charming, albeit very cheesy way of expressing your feelings...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			actorName = "{namecode:96}",
 			actor = 307064,
 			nameColor = "#a9f548",
-			say = "指挥官，刚才谢谢你了",
+			say = "Commander, thank you.",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -228,7 +228,7 @@ return {
 			dir = 1,
 			actor = 307064,
 			actorName = "{namecode:96}",
-			say = "明知道指挥官对{namecode:95}姐和我都一样重视…我还像那样乱了阵脚……",
+			say = "I know that you care about us both. I've known it for a long time, and yet I got so upset over nothing...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +245,7 @@ return {
 			dir = 1,
 			actor = 307064,
 			actorName = "{namecode:96}",
-			say = "如果我又失去自信，像这样陷入消沉的话……",
+			say = "If I ever lose faith in myself again and start acting mopey...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +262,7 @@ return {
 			dir = 1,
 			actor = 307064,
 			actorName = "{namecode:96}",
-			say = "不对，不会再这样了！我可是不屈的{namecode:96}！",
+			say = "Actually, no! I'll never let that happen again! I'm the indomitable crane; I'm above mopiness!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -287,7 +287,7 @@ return {
 			dir = 1,
 			actor = 307064,
 			actorName = "{namecode:96}",
-			say = "不过…要是听到“我更重视{namecode:96}哦”这类的话……",
+			say = "But... if you'd every now and then tell me that you like me more...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -304,7 +304,7 @@ return {
 			dir = 1,
 			actor = 307064,
 			actorName = "{namecode:96}",
-			say = "我大概会更高兴……吧？",
+			say = "Then I might... be a little happier...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -322,7 +322,7 @@ return {
 			blackBg = true,
 			actor = 307064,
 			nameColor = "#a9f548",
-			say = "呐…指挥官…？",
+			say = "... Please? Commander...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

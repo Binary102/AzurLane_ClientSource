@@ -16490,7 +16490,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Cleveland-Class"
+		}
 	},
 	[102092] = {
 		oxy_max = 0,
@@ -16612,7 +16614,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Cleveland-Class"
+		}
 	},
 	[102093] = {
 		oxy_max = 0,
@@ -16734,7 +16738,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Cleveland-Class"
+		}
 	},
 	[102094] = {
 		oxy_max = 0,
@@ -16856,7 +16862,505 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Cleveland-Class"
+		}
+	},
+	[102101] = {
+		oxy_max = 0,
+		type = 2,
+		personality = 2,
+		backyard_speed = "0.45",
+		name = "Columbia",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 2,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 102101,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Columbia",
+		skin_id = 102100,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 1,
+		armor_type = 1,
+		attrs = {
+			751,
+			31,
+			0,
+			61,
+			0,
+			69,
+			0,
+			56,
+			30,
+			32.5,
+			70,
+			24
+		},
+		attrs_growth = {
+			18305,
+			306,
+			0,
+			1196,
+			0,
+			342,
+			0,
+			822,
+			438,
+			0,
+			0,
+			238
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"B",
+			"E",
+			"E",
+			"B",
+			"B",
+			"B"
+		},
+		lock = {
+			"torpedo",
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			101,
+			100,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1,
+			0.7,
+			1.2
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Cleveland-Class"
+		}
+	},
+	[102102] = {
+		oxy_max = 0,
+		type = 2,
+		personality = 2,
+		backyard_speed = "0.45",
+		name = "Columbia",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 102102,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Columbia",
+		skin_id = 102100,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 1,
+		armor_type = 1,
+		attrs = {
+			934,
+			39,
+			0,
+			76,
+			0,
+			69,
+			0,
+			56,
+			30,
+			32.5,
+			70,
+			30
+		},
+		attrs_growth = {
+			18305,
+			306,
+			0,
+			1196,
+			0,
+			342,
+			0,
+			822,
+			438,
+			0,
+			0,
+			238
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"B",
+			"E",
+			"E",
+			"B",
+			"B",
+			"B"
+		},
+		lock = {
+			"torpedo",
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			101,
+			100,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.05,
+			0.7,
+			1.2
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Cleveland-Class"
+		}
+	},
+	[102103] = {
+		oxy_max = 0,
+		type = 2,
+		personality = 2,
+		backyard_speed = "0.45",
+		name = "Columbia",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 102103,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Columbia",
+		skin_id = 102100,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 1,
+		armor_type = 1,
+		attrs = {
+			1300,
+			54,
+			0,
+			106,
+			0,
+			69,
+			0,
+			56,
+			30,
+			32.5,
+			70,
+			42
+		},
+		attrs_growth = {
+			18305,
+			306,
+			0,
+			1196,
+			0,
+			342,
+			0,
+			822,
+			438,
+			0,
+			0,
+			238
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"B",
+			"E",
+			"E",
+			"B",
+			"B",
+			"B"
+		},
+		lock = {
+			"torpedo",
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			101,
+			100,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			0.7,
+			1.2
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Cleveland-Class"
+		}
+	},
+	[102104] = {
+		oxy_max = 0,
+		type = 2,
+		personality = 2,
+		backyard_speed = "0.45",
+		name = "Columbia",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 102104,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Columbia",
+		skin_id = 102100,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 1,
+		armor_type = 1,
+		attrs = {
+			1849,
+			77,
+			0,
+			151,
+			0,
+			69,
+			0,
+			56,
+			30,
+			32.5,
+			70,
+			60
+		},
+		attrs_growth = {
+			18305,
+			306,
+			0,
+			1196,
+			0,
+			342,
+			0,
+			822,
+			438,
+			0,
+			0,
+			238
+		},
+		attrs_growth_extra = {
+			1831,
+			729,
+			0,
+			589,
+			0,
+			806,
+			0,
+			0,
+			277,
+			0,
+			0,
+			339
+		},
+		grades = {
+			"B",
+			"E",
+			"E",
+			"B",
+			"B",
+			"B"
+		},
+		lock = {
+			"torpedo",
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			101,
+			100,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.3,
+			0.7,
+			1.2
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Cleveland-Class"
+		}
 	},
 	[102111] = {
 		oxy_max = 0,
@@ -18450,7 +18954,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Cleveland-Class"
+		}
 	},
 	[102142] = {
 		oxy_max = 0,
@@ -18572,7 +19078,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Cleveland-Class"
+		}
 	},
 	[102143] = {
 		oxy_max = 0,
@@ -18694,7 +19202,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Cleveland-Class"
+		}
 	},
 	[102144] = {
 		oxy_max = 0,
@@ -18816,7 +19326,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Cleveland-Class"
+		}
 	},
 	[102181] = {
 		oxy_max = 0,
@@ -22701,6 +23213,1482 @@ pg.ship_data_statistics = {
 			{}
 		},
 		tag_list = {}
+	},
+	[103081] = {
+		oxy_max = 0,
+		type = 3,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "Astoria",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 2,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 103081,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Astoria",
+		skin_id = 103080,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 1,
+		armor_type = 2,
+		attrs = {
+			670,
+			40,
+			0,
+			42,
+			0,
+			59,
+			0,
+			40,
+			9,
+			26.16,
+			15,
+			0
+		},
+		attrs_growth = {
+			16350,
+			398,
+			0,
+			824,
+			0,
+			294,
+			0,
+			594,
+			138,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"B",
+			"E",
+			"E",
+			"C",
+			"C",
+			"B"
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			102,
+			100,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.05,
+			0.5,
+			1.2
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Astoria-Class"
+		}
+	},
+	[103082] = {
+		oxy_max = 0,
+		type = 3,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "Astoria",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 103082,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Astoria",
+		skin_id = 103080,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 1,
+		armor_type = 2,
+		attrs = {
+			834,
+			50,
+			0,
+			52,
+			0,
+			59,
+			0,
+			40,
+			9,
+			26.16,
+			15,
+			0
+		},
+		attrs_growth = {
+			16350,
+			398,
+			0,
+			824,
+			0,
+			294,
+			0,
+			594,
+			138,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"B",
+			"E",
+			"E",
+			"C",
+			"C",
+			"B"
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			102,
+			100,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.07,
+			0.52,
+			1.22
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Astoria-Class"
+		}
+	},
+	[103083] = {
+		oxy_max = 0,
+		type = 3,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "Astoria",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 103083,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Astoria",
+		skin_id = 103080,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 1,
+		armor_type = 2,
+		attrs = {
+			1161,
+			70,
+			0,
+			73,
+			0,
+			59,
+			0,
+			40,
+			9,
+			26.16,
+			15,
+			0
+		},
+		attrs_growth = {
+			16350,
+			398,
+			0,
+			824,
+			0,
+			294,
+			0,
+			594,
+			138,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"B",
+			"E",
+			"E",
+			"C",
+			"C",
+			"B"
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			102,
+			100,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			0.55,
+			1.25
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Astoria-Class"
+		}
+	},
+	[103084] = {
+		oxy_max = 0,
+		type = 3,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "Astoria",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 103084,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Astoria",
+		skin_id = 103080,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 1,
+		armor_type = 2,
+		attrs = {
+			1651,
+			100,
+			0,
+			104,
+			0,
+			59,
+			0,
+			40,
+			9,
+			26.16,
+			15,
+			0
+		},
+		attrs_growth = {
+			16350,
+			398,
+			0,
+			824,
+			0,
+			294,
+			0,
+			594,
+			138,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			3268,
+			945,
+			0,
+			564,
+			0,
+			696,
+			0,
+			246,
+			1422,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"B",
+			"E",
+			"E",
+			"C",
+			"C",
+			"B"
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			102,
+			100,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			0.6,
+			1.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Astoria-Class"
+		}
+	},
+	[103091] = {
+		oxy_max = 0,
+		type = 3,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "Quincy",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 2,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 103091,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Quincy",
+		skin_id = 103090,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 1,
+		armor_type = 2,
+		attrs = {
+			693,
+			40,
+			0,
+			43,
+			0,
+			59,
+			0,
+			41,
+			9,
+			26.16,
+			9,
+			0
+		},
+		attrs_growth = {
+			16910,
+			398,
+			0,
+			840,
+			0,
+			296,
+			0,
+			612,
+			138,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"B",
+			"E",
+			"E",
+			"C",
+			"C",
+			"B"
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			102,
+			100,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.05,
+			0.55,
+			1.2
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Astoria-Class"
+		}
+	},
+	[103092] = {
+		oxy_max = 0,
+		type = 3,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "Quincy",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 103092,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Quincy",
+		skin_id = 103090,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 1,
+		armor_type = 2,
+		attrs = {
+			862,
+			50,
+			0,
+			54,
+			0,
+			59,
+			0,
+			41,
+			9,
+			26.16,
+			9,
+			0
+		},
+		attrs_growth = {
+			16910,
+			398,
+			0,
+			840,
+			0,
+			296,
+			0,
+			612,
+			138,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"B",
+			"E",
+			"E",
+			"C",
+			"C",
+			"B"
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			102,
+			100,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.07,
+			0.57,
+			1.22
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Astoria-Class"
+		}
+	},
+	[103093] = {
+		oxy_max = 0,
+		type = 3,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "Quincy",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 103093,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Quincy",
+		skin_id = 103090,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 1,
+		armor_type = 2,
+		attrs = {
+			1200,
+			70,
+			0,
+			75,
+			0,
+			59,
+			0,
+			41,
+			9,
+			26.16,
+			9,
+			0
+		},
+		attrs_growth = {
+			16910,
+			398,
+			0,
+			840,
+			0,
+			296,
+			0,
+			612,
+			138,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"B",
+			"E",
+			"E",
+			"C",
+			"C",
+			"B"
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			102,
+			100,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			0.6,
+			1.25
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Astoria-Class"
+		}
+	},
+	[103094] = {
+		oxy_max = 0,
+		type = 3,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "Quincy",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 103094,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Quincy",
+		skin_id = 103090,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 1,
+		armor_type = 2,
+		attrs = {
+			1708,
+			100,
+			0,
+			106,
+			0,
+			59,
+			0,
+			41,
+			9,
+			26.16,
+			9,
+			0
+		},
+		attrs_growth = {
+			16910,
+			398,
+			0,
+			840,
+			0,
+			296,
+			0,
+			612,
+			138,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			3382,
+			945,
+			0,
+			578,
+			0,
+			694,
+			0,
+			243,
+			1422,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"B",
+			"E",
+			"E",
+			"C",
+			"C",
+			"B"
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			102,
+			100,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			0.65,
+			1.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Astoria-Class"
+		}
+	},
+	[103101] = {
+		oxy_max = 0,
+		type = 3,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "Vincennes",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 2,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 103101,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Vincennes",
+		skin_id = 103100,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 1,
+		armor_type = 2,
+		attrs = {
+			693,
+			40,
+			0,
+			43,
+			0,
+			59,
+			0,
+			40,
+			9,
+			26.16,
+			12,
+			0
+		},
+		attrs_growth = {
+			16910,
+			398,
+			0,
+			840,
+			0,
+			296,
+			0,
+			594,
+			138,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"B",
+			"E",
+			"E",
+			"C",
+			"C",
+			"B"
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			102,
+			100,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.05,
+			0.55,
+			1.2
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Astoria-Class"
+		}
+	},
+	[103102] = {
+		oxy_max = 0,
+		type = 3,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "Vincennes",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 103102,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Vincennes",
+		skin_id = 103100,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 1,
+		armor_type = 2,
+		attrs = {
+			862,
+			50,
+			0,
+			54,
+			0,
+			59,
+			0,
+			40,
+			9,
+			26.16,
+			12,
+			0
+		},
+		attrs_growth = {
+			16910,
+			398,
+			0,
+			840,
+			0,
+			296,
+			0,
+			594,
+			138,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"B",
+			"E",
+			"E",
+			"C",
+			"C",
+			"B"
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			102,
+			100,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.07,
+			0.57,
+			1.22
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Astoria-Class"
+		}
+	},
+	[103103] = {
+		oxy_max = 0,
+		type = 3,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "Vincennes",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 103103,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Vincennes",
+		skin_id = 103100,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 1,
+		armor_type = 2,
+		attrs = {
+			1200,
+			70,
+			0,
+			75,
+			0,
+			59,
+			0,
+			40,
+			9,
+			26.16,
+			12,
+			0
+		},
+		attrs_growth = {
+			16910,
+			398,
+			0,
+			840,
+			0,
+			296,
+			0,
+			594,
+			138,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"B",
+			"E",
+			"E",
+			"C",
+			"C",
+			"B"
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			102,
+			100,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			0.6,
+			1.25
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Astoria-Class"
+		}
+	},
+	[103104] = {
+		oxy_max = 0,
+		type = 3,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "Vincennes",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 103104,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Vincennes",
+		skin_id = 103100,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 1,
+		armor_type = 2,
+		attrs = {
+			1708,
+			100,
+			0,
+			106,
+			0,
+			59,
+			0,
+			40,
+			9,
+			26.16,
+			12,
+			0
+		},
+		attrs_growth = {
+			16910,
+			398,
+			0,
+			840,
+			0,
+			296,
+			0,
+			594,
+			138,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			3382,
+			945,
+			0,
+			578,
+			0,
+			694,
+			0,
+			246,
+			1422,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"B",
+			"E",
+			"E",
+			"C",
+			"C",
+			"B"
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			102,
+			100,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			0.65,
+			1.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Astoria-Class"
+		}
 	},
 	[103111] = {
 		oxy_max = 0,
@@ -67567,6 +69555,490 @@ pg.ship_data_statistics = {
 		},
 		tag_list = {}
 	},
+	[301161] = {
+		oxy_max = 0,
+		type = 1,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "Yukikaze",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		rarity = 5,
+		ammo = 0,
+		id = 301161,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Yukikaze",
+		skin_id = 301160,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 3,
+		armor_type = 1,
+		attrs = {
+			359,
+			13,
+			101,
+			30,
+			0,
+			82,
+			0,
+			71,
+			71,
+			42.6,
+			93,
+			52
+		},
+		attrs_growth = {
+			8750,
+			124,
+			1004,
+			588,
+			0,
+			408,
+			0,
+			1056,
+			1056,
+			0,
+			0,
+			510
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"D",
+			"A",
+			"E",
+			"A",
+			"D",
+			"C"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			0.7,
+			1.3,
+			0.7
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[301162] = {
+		oxy_max = 0,
+		type = 1,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "Yukikaze",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		rarity = 5,
+		ammo = 0,
+		id = 301162,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Yukikaze",
+		skin_id = 301160,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 3,
+		armor_type = 1,
+		attrs = {
+			447,
+			16,
+			126,
+			37,
+			0,
+			82,
+			0,
+			71,
+			71,
+			42.6,
+			93,
+			65
+		},
+		attrs_growth = {
+			8750,
+			124,
+			1004,
+			588,
+			0,
+			408,
+			0,
+			1056,
+			1056,
+			0,
+			0,
+			510
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"D",
+			"A",
+			"E",
+			"A",
+			"D",
+			"C"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			0.7,
+			1.35,
+			0.7
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[301163] = {
+		oxy_max = 0,
+		type = 1,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "Yukikaze",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		rarity = 5,
+		ammo = 0,
+		id = 301163,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Yukikaze",
+		skin_id = 301160,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 3,
+		armor_type = 1,
+		attrs = {
+			622,
+			22,
+			176,
+			52,
+			0,
+			82,
+			0,
+			71,
+			71,
+			42.6,
+			93,
+			90
+		},
+		attrs_growth = {
+			8750,
+			124,
+			1004,
+			588,
+			0,
+			408,
+			0,
+			1056,
+			1056,
+			0,
+			0,
+			510
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"D",
+			"A",
+			"E",
+			"A",
+			"D",
+			"C"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			0.7,
+			1.45,
+			0.7
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[301164] = {
+		oxy_max = 0,
+		type = 1,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "Yukikaze",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 6,
+		oxy_recovery = 0,
+		rarity = 5,
+		ammo = 0,
+		id = 301164,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Yukikaze",
+		skin_id = 301160,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 3,
+		armor_type = 1,
+		attrs = {
+			884,
+			32,
+			252,
+			74,
+			0,
+			82,
+			0,
+			71,
+			71,
+			42.6,
+			93,
+			129
+		},
+		attrs_growth = {
+			8750,
+			124,
+			1004,
+			588,
+			0,
+			408,
+			0,
+			1056,
+			1056,
+			0,
+			0,
+			510
+		},
+		attrs_growth_extra = {
+			8750,
+			296,
+			1251,
+			402,
+			0,
+			965,
+			0,
+			-619,
+			-769,
+			0,
+			0,
+			448
+		},
+		grades = {
+			"D",
+			"A",
+			"E",
+			"A",
+			"D",
+			"C"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			0.75,
+			1.5,
+			0.75
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
 	[301171] = {
 		oxy_max = 0,
 		type = 1,
@@ -79715,6 +82187,1494 @@ pg.ship_data_statistics = {
 		},
 		tag_list = {}
 	},
+	[302101] = {
+		oxy_max = 0,
+		type = 2,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "Mogami",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 2,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 302101,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Mogami",
+		skin_id = 302100,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 3,
+		armor_type = 2,
+		attrs = {
+			686,
+			37,
+			34,
+			35,
+			0,
+			69,
+			0,
+			51,
+			14,
+			29.6,
+			14,
+			11
+		},
+		attrs_growth = {
+			16735,
+			368,
+			340,
+			680,
+			0,
+			344,
+			0,
+			756,
+			204,
+			0,
+			0,
+			108
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"B",
+			"C",
+			"E",
+			"D",
+			"C",
+			"A"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			321
+		},
+		default_equip_list = {
+			101,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1,
+			1.4,
+			1,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[302102] = {
+		oxy_max = 0,
+		type = 2,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "Mogami",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 302102,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Mogami",
+		skin_id = 302100,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 3,
+		armor_type = 2,
+		attrs = {
+			853,
+			46,
+			43,
+			44,
+			0,
+			69,
+			0,
+			51,
+			14,
+			29.6,
+			14,
+			14
+		},
+		attrs_growth = {
+			16735,
+			368,
+			340,
+			680,
+			0,
+			344,
+			0,
+			756,
+			204,
+			0,
+			0,
+			108
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"B",
+			"C",
+			"E",
+			"D",
+			"C",
+			"A"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			322
+		},
+		default_equip_list = {
+			101,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1,
+			1.45,
+			1,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[302103] = {
+		oxy_max = 0,
+		type = 2,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "Mogami",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 302103,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Mogami",
+		skin_id = 302100,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 3,
+		armor_type = 2,
+		attrs = {
+			1188,
+			65,
+			60,
+			61,
+			0,
+			69,
+			0,
+			51,
+			14,
+			29.6,
+			14,
+			19
+		},
+		attrs_growth = {
+			16735,
+			368,
+			340,
+			680,
+			0,
+			344,
+			0,
+			756,
+			204,
+			0,
+			0,
+			108
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"B",
+			"C",
+			"E",
+			"D",
+			"C",
+			"A"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			323
+		},
+		default_equip_list = {
+			101,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			1.45,
+			1,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[302104] = {
+		oxy_max = 0,
+		type = 2,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "Mogami",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 302104,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Mogami",
+		skin_id = 302100,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 3,
+		armor_type = 2,
+		attrs = {
+			1690,
+			92,
+			85,
+			86,
+			0,
+			69,
+			0,
+			51,
+			14,
+			29.6,
+			14,
+			27
+		},
+		attrs_growth = {
+			16735,
+			368,
+			340,
+			680,
+			0,
+			344,
+			0,
+			756,
+			204,
+			0,
+			0,
+			108
+		},
+		attrs_growth_extra = {
+			5352,
+			870,
+			800,
+			468,
+			0,
+			819,
+			0,
+			0,
+			1966,
+			0,
+			0,
+			170
+		},
+		grades = {
+			"B",
+			"C",
+			"E",
+			"D",
+			"C",
+			"A"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			324
+		},
+		default_equip_list = {
+			101,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			1.6,
+			1,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[302111] = {
+		oxy_max = 0,
+		type = 2,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "Mikuma",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 2,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 302111,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Mikuma",
+		skin_id = 302110,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 3,
+		armor_type = 2,
+		attrs = {
+			686,
+			37,
+			35,
+			35,
+			0,
+			69,
+			0,
+			51,
+			14,
+			29.6,
+			13,
+			11
+		},
+		attrs_growth = {
+			16735,
+			368,
+			342,
+			680,
+			0,
+			344,
+			0,
+			756,
+			204,
+			0,
+			0,
+			108
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"B",
+			"C",
+			"E",
+			"D",
+			"C",
+			"A"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			321
+		},
+		default_equip_list = {
+			101,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1,
+			1.4,
+			1,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[302112] = {
+		oxy_max = 0,
+		type = 2,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "Mikuma",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 302112,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Mikuma",
+		skin_id = 302110,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 3,
+		armor_type = 2,
+		attrs = {
+			853,
+			46,
+			44,
+			44,
+			0,
+			69,
+			0,
+			51,
+			14,
+			29.6,
+			13,
+			14
+		},
+		attrs_growth = {
+			16735,
+			368,
+			342,
+			680,
+			0,
+			344,
+			0,
+			756,
+			204,
+			0,
+			0,
+			108
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"B",
+			"C",
+			"E",
+			"D",
+			"C",
+			"A"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			322
+		},
+		default_equip_list = {
+			101,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1,
+			1.45,
+			1,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[302113] = {
+		oxy_max = 0,
+		type = 2,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "Mikuma",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 302113,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Mikuma",
+		skin_id = 302110,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 3,
+		armor_type = 2,
+		attrs = {
+			1188,
+			65,
+			61,
+			61,
+			0,
+			69,
+			0,
+			51,
+			14,
+			29.6,
+			13,
+			19
+		},
+		attrs_growth = {
+			16735,
+			368,
+			342,
+			680,
+			0,
+			344,
+			0,
+			756,
+			204,
+			0,
+			0,
+			108
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"B",
+			"C",
+			"E",
+			"D",
+			"C",
+			"A"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			323
+		},
+		default_equip_list = {
+			101,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			1.45,
+			1,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[302114] = {
+		oxy_max = 0,
+		type = 2,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "Mikuma",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 302114,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Mikuma",
+		skin_id = 302110,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 3,
+		armor_type = 2,
+		attrs = {
+			1690,
+			92,
+			86,
+			86,
+			0,
+			69,
+			0,
+			51,
+			14,
+			29.6,
+			13,
+			27
+		},
+		attrs_growth = {
+			16735,
+			368,
+			342,
+			680,
+			0,
+			344,
+			0,
+			756,
+			204,
+			0,
+			0,
+			108
+		},
+		attrs_growth_extra = {
+			5352,
+			870,
+			806,
+			468,
+			0,
+			819,
+			0,
+			0,
+			1966,
+			0,
+			0,
+			170
+		},
+		grades = {
+			"B",
+			"C",
+			"E",
+			"D",
+			"C",
+			"A"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			324
+		},
+		default_equip_list = {
+			101,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			1.6,
+			1,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[302121] = {
+		oxy_max = 0,
+		type = 2,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "Sendai",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 2,
+		oxy_recovery = 0,
+		rarity = 3,
+		ammo = 0,
+		id = 302121,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Sendai",
+		skin_id = 302120,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 3,
+		armor_type = 1,
+		attrs = {
+			434,
+			28,
+			63,
+			52,
+			0,
+			68,
+			0,
+			52,
+			29,
+			35.3,
+			42,
+			26
+		},
+		attrs_growth = {
+			10585,
+			274,
+			626,
+			1012,
+			0,
+			340,
+			0,
+			768,
+			426,
+			0,
+			0,
+			256
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"C",
+			"B",
+			"E",
+			"B",
+			"B",
+			"C"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			321
+		},
+		default_equip_list = {
+			101,
+			105,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			1.4,
+			1.15,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[302122] = {
+		oxy_max = 0,
+		type = 2,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "Sendai",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		rarity = 3,
+		ammo = 0,
+		id = 302122,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Sendai",
+		skin_id = 302120,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 3,
+		armor_type = 1,
+		attrs = {
+			540,
+			35,
+			79,
+			65,
+			0,
+			68,
+			0,
+			52,
+			29,
+			35.3,
+			42,
+			32
+		},
+		attrs_growth = {
+			10585,
+			274,
+			626,
+			1012,
+			0,
+			340,
+			0,
+			768,
+			426,
+			0,
+			0,
+			256
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"C",
+			"B",
+			"E",
+			"B",
+			"B",
+			"C"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			322
+		},
+		default_equip_list = {
+			101,
+			105,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.4,
+			1.15,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[302123] = {
+		oxy_max = 0,
+		type = 2,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "Sendai",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		rarity = 3,
+		ammo = 0,
+		id = 302123,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Sendai",
+		skin_id = 302120,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 3,
+		armor_type = 1,
+		attrs = {
+			752,
+			49,
+			110,
+			90,
+			0,
+			68,
+			0,
+			52,
+			29,
+			35.3,
+			42,
+			45
+		},
+		attrs_growth = {
+			10585,
+			274,
+			626,
+			1012,
+			0,
+			340,
+			0,
+			768,
+			426,
+			0,
+			0,
+			256
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"C",
+			"B",
+			"E",
+			"B",
+			"B",
+			"C"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			323
+		},
+		default_equip_list = {
+			101,
+			105,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.5,
+			1.15,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[302124] = {
+		oxy_max = 0,
+		type = 2,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "Sendai",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		rarity = 3,
+		ammo = 0,
+		id = 302124,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Sendai",
+		skin_id = 302120,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 3,
+		armor_type = 1,
+		attrs = {
+			1069,
+			69,
+			157,
+			128,
+			0,
+			68,
+			0,
+			52,
+			29,
+			35.3,
+			42,
+			64
+		},
+		attrs_growth = {
+			10585,
+			274,
+			626,
+			1012,
+			0,
+			340,
+			0,
+			768,
+			426,
+			0,
+			0,
+			256
+		},
+		attrs_growth_extra = {
+			3384,
+			649,
+			697,
+			618,
+			0,
+			800,
+			0,
+			0,
+			1129,
+			0,
+			0,
+			354
+		},
+		grades = {
+			"C",
+			"B",
+			"E",
+			"B",
+			"B",
+			"C"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			324
+		},
+		default_equip_list = {
+			101,
+			105,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.65,
+			1.15,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
 	[302131] = {
 		oxy_max = 0,
 		type = 2,
@@ -80698,6 +84658,502 @@ pg.ship_data_statistics = {
 			1.2,
 			1.65,
 			1.15,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[302201] = {
+		oxy_max = 0,
+		type = 2,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "Agano",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 2,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 302201,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Agano",
+		skin_id = 302200,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 3,
+		armor_type = 1,
+		attrs = {
+			540,
+			27,
+			66,
+			61,
+			0,
+			62,
+			0,
+			51,
+			29,
+			35.6,
+			21,
+			19
+		},
+		attrs_growth = {
+			13165,
+			270,
+			658,
+			1196,
+			0,
+			308,
+			0,
+			750,
+			432,
+			0,
+			0,
+			186
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"C",
+			"B",
+			"E",
+			"B",
+			"B",
+			"C"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			321
+		},
+		default_equip_list = {
+			101,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			0.95,
+			1.45,
+			1,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[302202] = {
+		oxy_max = 0,
+		type = 2,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "Agano",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 302202,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Agano",
+		skin_id = 302200,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 3,
+		armor_type = 1,
+		attrs = {
+			672,
+			34,
+			82,
+			76,
+			0,
+			62,
+			0,
+			51,
+			29,
+			35.6,
+			21,
+			24
+		},
+		attrs_growth = {
+			13165,
+			270,
+			658,
+			1196,
+			0,
+			308,
+			0,
+			750,
+			432,
+			0,
+			0,
+			186
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"C",
+			"B",
+			"E",
+			"B",
+			"B",
+			"C"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			322
+		},
+		default_equip_list = {
+			101,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1,
+			1.45,
+			1,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[302203] = {
+		oxy_max = 0,
+		type = 2,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "Agano",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 302203,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Agano",
+		skin_id = 302200,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 3,
+		armor_type = 1,
+		attrs = {
+			935,
+			47,
+			115,
+			106,
+			0,
+			62,
+			0,
+			51,
+			29,
+			35.6,
+			21,
+			33
+		},
+		attrs_growth = {
+			13165,
+			270,
+			658,
+			1196,
+			0,
+			308,
+			0,
+			750,
+			432,
+			0,
+			0,
+			186
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"C",
+			"B",
+			"E",
+			"B",
+			"B",
+			"C"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			323
+		},
+		default_equip_list = {
+			101,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1,
+			1.55,
+			1,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[302204] = {
+		oxy_max = 0,
+		type = 2,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "Agano",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 302204,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Agano",
+		skin_id = 302200,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 3,
+		armor_type = 1,
+		attrs = {
+			1330,
+			68,
+			165,
+			151,
+			0,
+			62,
+			0,
+			51,
+			29,
+			35.6,
+			21,
+			47
+		},
+		attrs_growth = {
+			13165,
+			270,
+			658,
+			1196,
+			0,
+			308,
+			0,
+			750,
+			432,
+			0,
+			0,
+			186
+		},
+		attrs_growth_extra = {
+			4213,
+			638,
+			1207,
+			589,
+			0,
+			727,
+			0,
+			0,
+			923,
+			0,
+			0,
+			285
+		},
+		grades = {
+			"C",
+			"B",
+			"E",
+			"B",
+			"B",
+			"C"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			324
+		},
+		default_equip_list = {
+			101,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1,
+			1.7,
+			1,
 			0.3
 		},
 		strategy_list = {},
@@ -85618,6 +90074,621 @@ pg.ship_data_statistics = {
 			1.25,
 			1.7,
 			1.2,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[303141] = {
+		oxy_max = 0,
+		type = 3,
+		personality = 2,
+		backyard_speed = "0.2",
+		name = "Choukai",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		rarity = 5,
+		ammo = 0,
+		id = 303141,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Chōkai",
+		skin_id = 303140,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 3,
+		armor_type = 2,
+		attrs = {
+			738,
+			48,
+			41,
+			33,
+			0,
+			64,
+			0,
+			46,
+			13,
+			31.95,
+			50,
+			0
+		},
+		attrs_growth = {
+			18010,
+			478,
+			404,
+			652,
+			0,
+			320,
+			0,
+			678,
+			192,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"B",
+			"C",
+			"E",
+			"C",
+			"C",
+			"A"
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			321
+		},
+		default_equip_list = {
+			102,
+			105,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			1.25,
+			0.95,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[303142] = {
+		oxy_max = 0,
+		type = 3,
+		personality = 2,
+		backyard_speed = "0.2",
+		name = "Choukai",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		rarity = 5,
+		ammo = 0,
+		id = 303142,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Chōkai",
+		skin_id = 303140,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 3,
+		armor_type = 2,
+		attrs = {
+			918,
+			60,
+			51,
+			41,
+			0,
+			64,
+			0,
+			46,
+			13,
+			31.95,
+			50,
+			0
+		},
+		attrs_growth = {
+			18010,
+			478,
+			404,
+			652,
+			0,
+			320,
+			0,
+			678,
+			192,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"B",
+			"C",
+			"E",
+			"C",
+			"C",
+			"A"
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			322
+		},
+		default_equip_list = {
+			102,
+			105,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.25,
+			0.95,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[303143] = {
+		oxy_max = 0,
+		type = 3,
+		personality = 2,
+		backyard_speed = "0.2",
+		name = "Choukai",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		rarity = 5,
+		ammo = 0,
+		id = 303143,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Chōkai",
+		skin_id = 303140,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 3,
+		armor_type = 2,
+		attrs = {
+			1278,
+			84,
+			71,
+			57,
+			0,
+			64,
+			0,
+			46,
+			13,
+			31.95,
+			50,
+			0
+		},
+		attrs_growth = {
+			18010,
+			478,
+			404,
+			652,
+			0,
+			320,
+			0,
+			678,
+			192,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"B",
+			"C",
+			"E",
+			"C",
+			"C",
+			"A"
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			323
+		},
+		default_equip_list = {
+			102,
+			105,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.25,
+			1.05,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[303144] = {
+		oxy_max = 0,
+		type = 3,
+		personality = 2,
+		backyard_speed = "0.2",
+		name = "Choukai",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 6,
+		oxy_recovery = 0,
+		rarity = 5,
+		ammo = 0,
+		id = 303144,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Chōkai",
+		skin_id = 303140,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 3,
+		armor_type = 2,
+		attrs = {
+			1819,
+			120,
+			102,
+			82,
+			0,
+			64,
+			0,
+			46,
+			13,
+			31.95,
+			50,
+			0
+		},
+		attrs_growth = {
+			18010,
+			478,
+			404,
+			652,
+			0,
+			320,
+			0,
+			678,
+			192,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			4500,
+			1094,
+			954,
+			443,
+			0,
+			753,
+			0,
+			0,
+			1968,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"B",
+			"C",
+			"E",
+			"C",
+			"C",
+			"A"
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			324
+		},
+		default_equip_list = {
+			102,
+			105,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.25,
+			1.3,
+			1.1,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[303154] = {
+		oxy_max = 0,
+		type = 3,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "Mogami Variant",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 303154,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Mogami",
+		skin_id = 302100,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 3,
+		armor_type = 2,
+		attrs = {
+			1840,
+			105,
+			89,
+			89,
+			0,
+			66,
+			0,
+			44,
+			13,
+			28.4,
+			14,
+			0
+		},
+		attrs_growth = {
+			18210,
+			418,
+			352,
+			704,
+			0,
+			330,
+			0,
+			654,
+			198,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			4553,
+			992,
+			833,
+			481,
+			0,
+			780,
+			0,
+			0,
+			1962,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"A",
+			"C",
+			"E",
+			"C",
+			"C",
+			"A"
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			324
+		},
+		default_equip_list = {
+			102,
+			106,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			1.6,
+			1,
 			0.3
 		},
 		strategy_list = {},
@@ -90943,6 +96014,486 @@ pg.ship_data_statistics = {
 		},
 		tag_list = {}
 	},
+	[306011] = {
+		oxy_max = 0,
+		type = 6,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "Hiyou",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 2,
+		oxy_recovery = 0,
+		rarity = 3,
+		ammo = 0,
+		id = 306011,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Hiyō",
+		skin_id = 306010,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 3,
+		armor_type = 2,
+		attrs = {
+			860,
+			0,
+			0,
+			46,
+			52,
+			58,
+			0,
+			25,
+			19,
+			25.5,
+			43,
+			19
+		},
+		attrs_growth = {
+			20985,
+			0,
+			0,
+			900,
+			512,
+			288,
+			0,
+			372,
+			276,
+			0,
+			0,
+			190
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"E",
+			"E",
+			"B",
+			"D",
+			"B",
+			"B"
+		},
+		lock = {
+			"cannon",
+			"torpedo"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			117,
+			119,
+			118
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			0.85,
+			1.05,
+			0.95
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[306012] = {
+		oxy_max = 0,
+		type = 6,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "Hiyou",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		rarity = 3,
+		ammo = 0,
+		id = 306012,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Hiyō",
+		skin_id = 306010,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 3,
+		armor_type = 2,
+		attrs = {
+			1070,
+			0,
+			0,
+			57,
+			65,
+			58,
+			0,
+			25,
+			19,
+			25.5,
+			43,
+			24
+		},
+		attrs_growth = {
+			20985,
+			0,
+			0,
+			900,
+			512,
+			288,
+			0,
+			372,
+			276,
+			0,
+			0,
+			190
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"E",
+			"E",
+			"B",
+			"D",
+			"B",
+			"B"
+		},
+		lock = {
+			"cannon",
+			"torpedo"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			117,
+			119,
+			118
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			2
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			0.88,
+			1.08,
+			0.98
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[306013] = {
+		oxy_max = 0,
+		type = 6,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "Hiyou",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		rarity = 3,
+		ammo = 0,
+		id = 306013,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Hiyō",
+		skin_id = 306010,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 3,
+		armor_type = 2,
+		attrs = {
+			1490,
+			0,
+			0,
+			80,
+			90,
+			58,
+			0,
+			25,
+			19,
+			25.5,
+			43,
+			33
+		},
+		attrs_growth = {
+			20985,
+			0,
+			0,
+			900,
+			512,
+			288,
+			0,
+			372,
+			276,
+			0,
+			0,
+			190
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"E",
+			"E",
+			"B",
+			"D",
+			"B",
+			"B"
+		},
+		lock = {
+			"cannon",
+			"torpedo"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			117,
+			119,
+			118
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			1,
+			2
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			0.93,
+			1.13,
+			1.03
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[306014] = {
+		oxy_max = 0,
+		type = 6,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "Hiyou",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		rarity = 3,
+		ammo = 0,
+		id = 306014,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Hiyō",
+		skin_id = 306010,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 3,
+		armor_type = 2,
+		attrs = {
+			2119,
+			0,
+			0,
+			114,
+			129,
+			58,
+			0,
+			25,
+			19,
+			25.5,
+			43,
+			48
+		},
+		attrs_growth = {
+			20985,
+			0,
+			0,
+			900,
+			512,
+			288,
+			0,
+			372,
+			276,
+			0,
+			0,
+			190
+		},
+		attrs_growth_extra = {
+			14683,
+			0,
+			0,
+			615,
+			1127,
+			680,
+			0,
+			233,
+			654,
+			0,
+			0,
+			287
+		},
+		grades = {
+			"E",
+			"E",
+			"B",
+			"D",
+			"B",
+			"B"
+		},
+		lock = {
+			"cannon",
+			"torpedo"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			117,
+			119,
+			118
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			3,
+			2
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1,
+			1.2,
+			1.1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
 	[306021] = {
 		oxy_max = 0,
 		type = 6,
@@ -95892,7 +101443,7 @@ pg.ship_data_statistics = {
 		type = 10,
 		personality = 2,
 		backyard_speed = "0.3",
-		name = "Yamashiro Variant",
+		name = "Yamashiro Retrofit",
 		oxy_cost = 0,
 		huntingrange_level = 0,
 		star = 5,
@@ -131526,6 +137077,10 @@ pg.ship_data_statistics = {
 		102092,
 		102093,
 		102094,
+		102101,
+		102102,
+		102103,
+		102104,
 		102111,
 		102112,
 		102113,
@@ -131574,6 +137129,18 @@ pg.ship_data_statistics = {
 		103072,
 		103073,
 		103074,
+		103081,
+		103082,
+		103083,
+		103084,
+		103091,
+		103092,
+		103093,
+		103094,
+		103101,
+		103102,
+		103103,
+		103104,
 		103111,
 		103112,
 		103113,
@@ -131938,6 +137505,10 @@ pg.ship_data_statistics = {
 		301152,
 		301153,
 		301154,
+		301161,
+		301162,
+		301163,
+		301164,
 		301171,
 		301172,
 		301173,
@@ -132038,6 +137609,18 @@ pg.ship_data_statistics = {
 		302092,
 		302093,
 		302094,
+		302101,
+		302102,
+		302103,
+		302104,
+		302111,
+		302112,
+		302113,
+		302114,
+		302121,
+		302122,
+		302123,
+		302124,
 		302131,
 		302132,
 		302133,
@@ -132046,6 +137629,10 @@ pg.ship_data_statistics = {
 		302142,
 		302143,
 		302144,
+		302201,
+		302202,
+		302203,
+		302204,
 		303011,
 		303012,
 		303013,
@@ -132086,6 +137673,11 @@ pg.ship_data_statistics = {
 		303132,
 		303133,
 		303134,
+		303141,
+		303142,
+		303143,
+		303144,
+		303154,
 		304021,
 		304022,
 		304023,
@@ -132130,6 +137722,10 @@ pg.ship_data_statistics = {
 		305112,
 		305113,
 		305114,
+		306011,
+		306012,
+		306013,
+		306014,
 		306021,
 		306022,
 		306023,

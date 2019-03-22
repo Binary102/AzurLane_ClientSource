@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"有关火奴鲁鲁的二三事\n\n<size=30>七　火奴鲁鲁的约会·下</size>",
+					"An Easily Flustered Girl's Story\n\n<size=30>Chapter 7 - A Date With Honolulu (Part 2)</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "火奴鲁鲁一脸狐疑地看着包装好的礼物盒。",
+			say = "Honolulu was curiously ogling the present I had bought.",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -46,7 +46,7 @@ return {
 			},
 			options = {
 				{
-					content = "送给火奴鲁鲁",
+					content = "Give Honolulu the present",
 					flag = 1
 				}
 			}
@@ -57,7 +57,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……欸？给我的？",
+			say = "... Huh? It's for... me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不、不会是整人箱之类的吧…",
+			say = "I hope for your sake this isn't a jack-in-the-box or something...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "火奴鲁鲁将雷达抱枕放到一边，接过礼物盒，有些难以置信地拆开——",
+			say = "Honolulu left the bag containing the SG radar cushion on the floor and opened the large present I'd given her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			dir = 1,
 			actor = 102121,
 			nameColor = "#a9f548",
-			say = "！这是…刚才的玩具熊布偶？！",
+			say = "Wait... Isn't this... that teddy bear I saw earlier...?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，你走的时候特意折回去就是去买这个了吗？",
+			say = "You went back and bought this just for me...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +141,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……谢谢。",
+			say = "... T-thank you...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,7 +159,7 @@ return {
 			bgm = "story-2",
 			actor = 102121,
 			nameColor = "#a9f548",
-			say = "火奴鲁鲁将玩具熊抱在怀里。",
+			say = "Honolulu seemed to relax as she hugged the large teddy bear I'd given her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			withoutActorName = true,
 			actor = 102121,
 			nameColor = "#a9f548",
-			say = "然后，像是下定了什么决心一样，她深呼吸了一口气。",
+			say = "She then took a deep breath, and it seemed like she was determined to say something...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，之前谈心的时候没有告诉你……",
+			say = "I didn't tell you this during our chat the other day, but...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "一开始你总是出现在我面前时，我会想，对我这个除了胸部之外毫无特色的家伙这么好，你就这么喜欢胸部吗？",
+			say = "To tell you the truth, I thought you were just nice to me because you liked my big melons since I don't have any other attractive features or character traits...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,40 +224,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "后来，就逐渐变成了……不管你是不是只喜欢我的胸部，我都……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_story_school",
-			withoutActorName = true,
-			actor = 102121,
-			nameColor = "#a9f548",
-			say = "说话间，火奴鲁鲁的脸红的就像她那头鲜艳的头发一样。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 102121,
-			side = 2,
-			bgName = "bg_story_school",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "……都、都已经喜欢上你了。",
+			say = "But, as you began helping me solve my problems... I started thinking that, e-even if that is all you care about...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +241,40 @@ return {
 			withoutActorName = true,
 			actor = 102121,
 			nameColor = "#a9f548",
-			say = "说完这句话，似乎耗尽了所有的勇气，她把脸藏到了布偶后面，不敢再看过来。",
+			say = "Honolulu was blushing. Her expression turned as deep red as her hair.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 102121,
+			side = 2,
+			bgName = "bg_story_school",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "... That I might actually... like you...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "bg_story_school",
+			withoutActorName = true,
+			actor = 102121,
+			nameColor = "#a9f548",
+			say = "Honolulu hid her face behind her teddy bear. Maybe she'd mustered every last bit of her courage to say of all that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 			},
 			options = {
 				{
-					content = "抱住火奴鲁鲁",
+					content = "Hug Honolulu tightly",
 					flag = 1
 				}
 			}
@@ -296,7 +296,7 @@ return {
 			dir = 1,
 			actor = 102121,
 			nameColor = "#a9f548",
-			say = "……！……笨蛋。",
+			say = "... W-wha...?! Geesh... N-next time, tell me before you do that...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -331,7 +331,7 @@ return {
 			blackBg = true,
 			actor = 102121,
 			nameColor = "#a9f548",
-			say = "……谢谢。",
+			say = "... Thank you, Commander...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

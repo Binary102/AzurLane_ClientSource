@@ -411,6 +411,23 @@ pg.memory_group = {
 			10035
 		}
 	},
+	[132] = {
+		title = "Moonlit Overture ",
+		type = 2,
+		id = 132,
+		icon = "title_event",
+		memories = {
+			10072,
+			10073,
+			10074,
+			10075,
+			10076,
+			10077,
+			10078,
+			10079,
+			10080
+		}
+	},
 	[141] = {
 		title = "Trick or Treat Halloween Night! ",
 		type = 2,
@@ -548,6 +565,36 @@ pg.memory_group = {
 			10017
 		}
 	},
+	[503] = {
+		title = "The Lucky Crane ",
+		type = 3,
+		id = 503,
+		icon = "title_chara_ruihe",
+		memories = {
+			246,
+			247,
+			248,
+			249,
+			250,
+			251,
+			252
+		}
+	},
+	[504] = {
+		title = "Call Me Yukikaze the Great! ",
+		type = 3,
+		id = 504,
+		icon = "title_chara_xuefeng",
+		memories = {
+			260,
+			261,
+			262,
+			263,
+			264,
+			265,
+			266
+		}
+	},
 	[513] = {
 		title = "Pure-White Poem ",
 		type = 3,
@@ -561,6 +608,21 @@ pg.memory_group = {
 			340,
 			341,
 			342
+		}
+	},
+	[527] = {
+		title = "An Easily Flustered Girl's Story ",
+		type = 3,
+		id = 527,
+		icon = "title_chara_huonululu",
+		memories = {
+			485,
+			486,
+			487,
+			488,
+			489,
+			490,
+			491
 		}
 	},
 	[528] = {
@@ -638,8 +700,38 @@ pg.memory_group = {
 			605
 		}
 	},
+	[535] = {
+		title = "The Timid Black Cat ",
+		type = 3,
+		id = 535,
+		icon = "title_chara_chuchun",
+		memories = {
+			642,
+			643,
+			644,
+			645,
+			646,
+			647,
+			648
+		}
+	},
+	[536] = {
+		title = "My Sister's Growth Spurt?! ",
+		type = 3,
+		id = 536,
+		icon = "title_chara_wensensi",
+		memories = {
+			649,
+			650,
+			651,
+			652,
+			653,
+			654,
+			655
+		}
+	},
 	[537] = {
-		title = "Loaded with Lead and Love ",
+		title = "An Easily Flustered Girl's Story ",
 		type = 3,
 		id = 537,
 		icon = "title_chara_xiefeierde",
@@ -694,6 +786,7 @@ pg.memory_group = {
 		124,
 		125,
 		128,
+		132,
 		141,
 		145,
 		147,
@@ -701,12 +794,17 @@ pg.memory_group = {
 		149,
 		501,
 		502,
+		503,
+		504,
 		513,
+		527,
 		528,
 		529,
 		530,
 		531,
 		533,
+		535,
+		536,
 		537,
 		538
 	}

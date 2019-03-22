@@ -2056,7 +2056,7 @@ pg.gametip = {
 		key = "main_navalAcademyScene_upgrade_complete"
 	},
 	main_navalAcademyScene_class_upgrade_complete = {
-		tip = "$1増築完了",
+		tip = "$1 upgrade successful",
 		key = "main_navalAcademyScene_class_upgrade_complete"
 	},
 	main_navalAcademyScene_work_done = {
@@ -4533,11 +4533,13 @@ Urgent Ops times: Wednesday, Saturday, Sunday]]
 
 							<size=23>【Building Event】</size>
 
-							<color=#fff157>   Victorious</color>：2.25%<color=#A9F548>(up!)</color>
-							<color=#fff157>   Sirius</color>：2%<color=#A9F548>(up!)</color>
-							<color=#966af6>   Sheffield</color>：2.5%<color=#A9F548>(up!)</color>
-							<color=#966af6>   Grenville</color>：2.5%<color=#A9F548>(up!)</color>
-							<color=#60a9ff>   Jamaica</color>：5%<color=#A9F548>(up!)</color>
+							<color=#fff157>   Shoukaku</color>：2.0%<color=#A9F548>(up!)</color>
+							<color=#fff157>   Zuikaku</color>：0.7%<color=#A9F548>(up!)</color>
+							<color=#fff157>   Yukikaze</color>：2.0%<color=#A9F548>(up!)</color>
+							<color=#966af6>   Nowaki</color>：4.0%<color=#A9F548>(up!)</color>
+							<color=#966af6>   Mogami</color>：2.5%<color=#A9F548>(up!)</color>
+							<color=#60a9ff>   Ise</color>：6.75%<color=#A9F548>(up!)</color>
+							<color=#60a9ff>   Hyuuga</color>：6.75%<color=#A9F548>(up!)</color>
 ]],
 		key = "help_build_4"
 	},
@@ -5658,7 +5660,11 @@ Upon the retrofit <color=#A9F548>$1</color>the hull type of this unit will be c
 		key = "ship_remould_warning_310024"
 	},
 	ship_remould_warning_303154 = {
-		tip = "<size=26>改造で<color=#A9F548>$1</color>の艦種が変更されます。\n主砲枠は<color=#A9F548>主砲（軽巡用）</color>→<color=#A9F548>主砲（重巡用）</color>に変更されるため、現在装備中の主砲枠の兵装は外されます。\n改造を続けますか？<color=#A9F548><material=underline c=#A9F548 event=clickDetail>詳細確認</material></color></size>",
+		tip = [[
+When retrofitted, <color=#A9F548>$1</color>'s hull type will change.
+The weapon type that can be equipped in the Main Gun slot will change from <color=#A9F548>CL Main Guns</color> to <color=#A9F548>CA Main Guns</color>. The current Main Gun will also be automatically unequipped.
+Would you like to proceed with the retrofit?
+<color=#A9F548><material=underline c=#A9F548 event=clickDetail>View more info here.</material></color>]],
 		key = "ship_remould_warning_303154"
 	},
 	word_soundfiles_download_title = {
@@ -6836,6 +6842,18 @@ double the amount of Proficiency from sorties.]]
 		tip = "You cannot acquire any more Memory Cards today. Would you still like to play the game?",
 		key = "card_pairs_tips"
 	},
+	upgrade_to_next_maxlevel_failed = {
+		tip = "This ship is at the Max Level.\nFor now, you cannot Cognitively Awaken it any further.",
+		key = "upgrade_to_next_maxlevel_failed"
+	},
+	upgrade_to_next_maxlevel_tip = {
+		tip = "The resources below will be used to induce a Cognitive Awakening and increase this ship's Level Cap.\nLevel Cap increase after Cognitive Awakening:",
+		key = "upgrade_to_next_maxlevel_tip"
+	},
+	upgrade_to_next_maxlevel_succeed = {
+		tip = "Cognitive Awakening Complete\nThis ship's Level Cap has increased to Level <color=#92fc63FF>$1</color>",
+		key = "upgrade_to_next_maxlevel_succeed"
+	},
 	extra_chapter_socre_tip = {
 		tip = [[
 Current Record: <color=#A9F548>$1</color>
@@ -7035,6 +7053,50 @@ $3]],
 		tip = "Record Complete \n Do you want to save it?",
 		key = "word_save_video"
 	},
+	reflux_help_tip = {
+		key = "reflux_help_tip",
+		tip = {
+			{
+				info = "How To Get Akashi Points:"
+			},
+			{
+				info = "1. Complete 1 Daily Challenge: 20 Pts\n(Daily Pt Cap <color=#92fc63>[task=13852]</color>/120 Pts)"
+			},
+			{
+				info = "2. Conduct 1 Exercise: 5 Pts\n(Daily Pt Cap <color=#92fc63>[task=13853]</color>/50 Pts)"
+			},
+			{
+				info = "3. Clear 1 non-event Hard Mode stage: 20 Pts\n(Daily Pt Cap <color=#92fc63>[task=13854]</color>/60 Pts)"
+			},
+			{
+				info = "4. Defeat 1 Boss fleet: 10 Pts\n(Daily Pt Cap <color=#92fc63>[task=13855]</color>/500 Pts)"
+			},
+			{
+				info = "5. Enhance 1 ship: 5 Pts\n(Daily Pt Cap <color=#92fc63>[task=13856]</color>/50 Pts)"
+			},
+			{
+				info = "6. Retire 1 ship: 5 Pts\n(Daily Pt Cap <color=#92fc63>[task=13857]</color>/50 Pts)"
+			},
+			{
+				info = "7. Complete 1 commission: 10 Pts\n(Daily Pt Cap <color=#92fc63>[task=13858]</color>/100 Pts)"
+			},
+			{
+				info = "8. Build 1 ship: 15 Pts\n(Daily Pt Cap <color=#92fc63>[task=13859]</color>/750 Pts)"
+			}
+		}
+	},
+	reflux_pt_not_enough = {
+		tip = "You do not have enough Akashi Points.",
+		key = "reflux_pt_not_enough"
+	},
+	reflux_word_1 = {
+		tip = "Time Left:",
+		key = "reflux_word_1"
+	},
+	reflux_word_2 = {
+		tip = "Unlocked",
+		key = "reflux_word_2"
+	},
 	ship_hunting_level_tips = {
 		tip = "*当前狩猎范围等级仅包括突破和装备增加的狩猎范围等级",
 		key = "ship_hunting_level_tips"
@@ -7052,15 +7114,15 @@ $3]],
 		key = "levelScene_chapter_is_activation"
 	},
 	resource_verify_warn = {
-		tip = "是否开始资源修复？修复会花费一定的时间，且修复过程中不会响应操作，手机可能会出现卡顿现象，请耐心等待",
+		tip = "Do you wish to initiate data repair? The process will take some time. This will not affect your gameplay but may hinder the optimal performance of your phone. ",
 		key = "resource_verify_warn"
 	},
 	resource_verify_fail = {
-		tip = "资源修复已完成，请重新打开游戏并进行更新，点击确认关闭游戏[$1]",
+		tip = "Data files have been repaired. Please restart the game to initiate the update. Confirm to exit the game[$1]",
 		key = "resource_verify_fail"
 	},
 	resource_verify_success = {
-		tip = "资源修复已完成",
+		tip = "Data files have been repaired",
 		key = "resource_verify_success"
 	},
 	word_take_video_tip = {
@@ -7525,6 +7587,10 @@ $3]],
 				}
 			}
 		}
+	},
+	backyard_is_loading = {
+		tip = "Loading furniture... ",
+		key = "backyard_is_loading"
 	}
 }
 

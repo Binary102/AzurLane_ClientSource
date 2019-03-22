@@ -1290,7 +1290,7 @@ pg.ship_level = {
 	{
 		arena_durability_ratio = 2.1,
 		fight_oil_ratio = 9950,
-		exp = 0,
+		exp = 70000,
 		energy_recover_time_ratio = 45,
 		level_limit = 1,
 		arena_durability_add = 0,
@@ -1341,6 +1341,224 @@ pg.ship_level = {
 				2,
 				15008,
 				200
+			}
+		}
+	},
+	{
+		arena_durability_ratio = 2.112,
+		fight_oil_ratio = 9950,
+		exp = 72000,
+		energy_recover_time_ratio = 45,
+		level_limit = 0,
+		arena_durability_add = 0,
+		level = 101,
+		need_item_rarity2 = {},
+		need_item_rarity3 = {},
+		need_item_rarity4 = {},
+		need_item_rarity5 = {}
+	},
+	{
+		arena_durability_ratio = 2.124,
+		fight_oil_ratio = 9950,
+		exp = 74000,
+		energy_recover_time_ratio = 45,
+		level_limit = 0,
+		arena_durability_add = 0,
+		level = 102,
+		need_item_rarity2 = {},
+		need_item_rarity3 = {},
+		need_item_rarity4 = {},
+		need_item_rarity5 = {}
+	},
+	{
+		arena_durability_ratio = 2.136,
+		fight_oil_ratio = 9950,
+		exp = 76000,
+		energy_recover_time_ratio = 45,
+		level_limit = 0,
+		arena_durability_add = 0,
+		level = 103,
+		need_item_rarity2 = {},
+		need_item_rarity3 = {},
+		need_item_rarity4 = {},
+		need_item_rarity5 = {}
+	},
+	{
+		arena_durability_ratio = 2.148,
+		fight_oil_ratio = 9950,
+		exp = 78000,
+		energy_recover_time_ratio = 45,
+		level_limit = 0,
+		arena_durability_add = 0,
+		level = 104,
+		need_item_rarity2 = {},
+		need_item_rarity3 = {},
+		need_item_rarity4 = {},
+		need_item_rarity5 = {}
+	},
+	{
+		arena_durability_ratio = 2.16,
+		fight_oil_ratio = 9950,
+		exp = 85000,
+		energy_recover_time_ratio = 45,
+		level_limit = 1,
+		arena_durability_add = 0,
+		level = 105,
+		need_item_rarity2 = {
+			{
+				1,
+				1,
+				1200
+			},
+			{
+				2,
+				15008,
+				120
+			}
+		},
+		need_item_rarity3 = {
+			{
+				1,
+				1,
+				1600
+			},
+			{
+				2,
+				15008,
+				160
+			}
+		},
+		need_item_rarity4 = {
+			{
+				1,
+				1,
+				2400
+			},
+			{
+				2,
+				15008,
+				240
+			}
+		},
+		need_item_rarity5 = {
+			{
+				1,
+				1,
+				4000
+			},
+			{
+				2,
+				15008,
+				400
+			}
+		}
+	},
+	{
+		arena_durability_ratio = 2.172,
+		fight_oil_ratio = 9950,
+		exp = 97000,
+		energy_recover_time_ratio = 45,
+		level_limit = 0,
+		arena_durability_add = 0,
+		level = 106,
+		need_item_rarity2 = {},
+		need_item_rarity3 = {},
+		need_item_rarity4 = {},
+		need_item_rarity5 = {}
+	},
+	{
+		arena_durability_ratio = 2.184,
+		fight_oil_ratio = 9950,
+		exp = 109000,
+		energy_recover_time_ratio = 45,
+		level_limit = 0,
+		arena_durability_add = 0,
+		level = 107,
+		need_item_rarity2 = {},
+		need_item_rarity3 = {},
+		need_item_rarity4 = {},
+		need_item_rarity5 = {}
+	},
+	{
+		arena_durability_ratio = 2.196,
+		fight_oil_ratio = 9950,
+		exp = 121000,
+		energy_recover_time_ratio = 45,
+		level_limit = 0,
+		arena_durability_add = 0,
+		level = 108,
+		need_item_rarity2 = {},
+		need_item_rarity3 = {},
+		need_item_rarity4 = {},
+		need_item_rarity5 = {}
+	},
+	{
+		arena_durability_ratio = 2.208,
+		fight_oil_ratio = 9950,
+		exp = 133000,
+		energy_recover_time_ratio = 45,
+		level_limit = 0,
+		arena_durability_add = 0,
+		level = 109,
+		need_item_rarity2 = {},
+		need_item_rarity3 = {},
+		need_item_rarity4 = {},
+		need_item_rarity5 = {}
+	},
+	{
+		arena_durability_ratio = 2.22,
+		fight_oil_ratio = 9950,
+		exp = 145000,
+		energy_recover_time_ratio = 45,
+		level_limit = 1,
+		arena_durability_add = 0,
+		level = 110,
+		need_item_rarity2 = {
+			{
+				1,
+				1,
+				1800
+			},
+			{
+				2,
+				15008,
+				180
+			}
+		},
+		need_item_rarity3 = {
+			{
+				1,
+				1,
+				2400
+			},
+			{
+				2,
+				15008,
+				240
+			}
+		},
+		need_item_rarity4 = {
+			{
+				1,
+				1,
+				3600
+			},
+			{
+				2,
+				15008,
+				360
+			}
+		},
+		need_item_rarity5 = {
+			{
+				1,
+				1,
+				6000
+			},
+			{
+				2,
+				15008,
+				600
 			}
 		}
 	},
@@ -1444,7 +1662,17 @@ pg.ship_level = {
 		97,
 		98,
 		99,
-		100
+		100,
+		101,
+		102,
+		103,
+		104,
+		105,
+		106,
+		107,
+		108,
+		109,
+		110
 	}
 }
 

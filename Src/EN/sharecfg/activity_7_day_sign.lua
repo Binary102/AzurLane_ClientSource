@@ -40,6 +40,26 @@ pg.activity_7_day_sign = {
 			}
 		}
 	},
+	[3] = {
+		id = 3,
+		front_drops = {
+			{
+				1,
+				2,
+				500
+			},
+			{
+				1,
+				1,
+				1000
+			},
+			{
+				4,
+				103091,
+				1
+			}
+		}
+	},
 	[6] = {
 		id = 6,
 		front_drops = {
@@ -82,6 +102,7 @@ pg.activity_7_day_sign = {
 	},
 	all = {
 		1,
+		3,
 		6
 	}
 }

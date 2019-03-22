@@ -3262,6 +3262,173 @@ pg.aircraft_template = {
 			51046
 		}
 	},
+	[18060] = {
+		name = "TBD蹂躏者(VT-8中队)",
+		max_hp = 38,
+		accuracy = 23,
+		model_ID = "tbdvt-8",
+		ACC_growth = 0,
+		crash_DMG = 300,
+		attack_power = 2,
+		type = 2,
+		AP_growth = 2000,
+		icon = "tbdvt-8",
+		funnel_behavior = "",
+		nationality = 1,
+		hp_growth = 1456,
+		speed = 48,
+		id = 18060,
+		weapon_ID = {
+			59560,
+			59580
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.68,
+					-0.667,
+					0
+				},
+				{
+					0.97,
+					0.584,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.31,
+				0,
+				0
+			}
+		}
+	},
+	[18061] = {
+		id = 18061,
+		base = 18060,
+		max_hp = 44,
+		hp_growth = 1674,
+		weapon_ID = {
+			59561,
+			59581
+		}
+	},
+	[18062] = {
+		id = 18062,
+		base = 18060,
+		max_hp = 49,
+		hp_growth = 1892,
+		weapon_ID = {
+			59562,
+			59582
+		}
+	},
+	[18063] = {
+		id = 18063,
+		base = 18060,
+		max_hp = 55,
+		hp_growth = 2111,
+		weapon_ID = {
+			59563,
+			59583
+		}
+	},
+	[18064] = {
+		id = 18064,
+		base = 18060,
+		max_hp = 61,
+		hp_growth = 2329,
+		weapon_ID = {
+			59564,
+			59584
+		}
+	},
+	[18065] = {
+		id = 18065,
+		base = 18060,
+		max_hp = 66,
+		hp_growth = 2547,
+		weapon_ID = {
+			59565,
+			59585
+		}
+	},
+	[18066] = {
+		id = 18066,
+		base = 18060,
+		max_hp = 72,
+		hp_growth = 2766,
+		weapon_ID = {
+			59566,
+			59586
+		}
+	},
+	[18067] = {
+		id = 18067,
+		base = 18060,
+		max_hp = 78,
+		hp_growth = 2984,
+		weapon_ID = {
+			59567,
+			59587
+		}
+	},
+	[18068] = {
+		id = 18068,
+		base = 18060,
+		max_hp = 83,
+		hp_growth = 3202,
+		weapon_ID = {
+			59568,
+			59588
+		}
+	},
+	[18069] = {
+		id = 18069,
+		base = 18060,
+		max_hp = 89,
+		hp_growth = 3421,
+		weapon_ID = {
+			59569,
+			59589
+		}
+	},
+	[18070] = {
+		id = 18070,
+		base = 18060,
+		max_hp = 95,
+		hp_growth = 3639,
+		weapon_ID = {
+			59570,
+			59590
+		}
+	},
 	[18100] = {
 		name = "TBF复仇者",
 		max_hp = 30,
@@ -3651,6 +3818,173 @@ pg.aircraft_template = {
 		weapon_ID = {
 			50050,
 			51150
+		}
+	},
+	[18160] = {
+		name = "TBF复仇者(VT-8中队)",
+		max_hp = 38,
+		accuracy = 23,
+		model_ID = "tbf",
+		ACC_growth = 0,
+		crash_DMG = 300,
+		attack_power = 2,
+		type = 2,
+		AP_growth = 2000,
+		icon = "tbf",
+		funnel_behavior = "",
+		nationality = 1,
+		hp_growth = 1456,
+		speed = 48,
+		id = 18160,
+		weapon_ID = {
+			50040,
+			59600
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.68,
+					-0.667,
+					0
+				},
+				{
+					0.97,
+					0.584,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.15,
+				-0.08,
+				0
+			}
+		}
+	},
+	[18161] = {
+		id = 18161,
+		base = 18160,
+		max_hp = 44,
+		hp_growth = 1674,
+		weapon_ID = {
+			50041,
+			59601
+		}
+	},
+	[18162] = {
+		id = 18162,
+		base = 18160,
+		max_hp = 49,
+		hp_growth = 1892,
+		weapon_ID = {
+			50042,
+			59602
+		}
+	},
+	[18163] = {
+		id = 18163,
+		base = 18160,
+		max_hp = 55,
+		hp_growth = 2111,
+		weapon_ID = {
+			50043,
+			59603
+		}
+	},
+	[18164] = {
+		id = 18164,
+		base = 18160,
+		max_hp = 61,
+		hp_growth = 2329,
+		weapon_ID = {
+			50044,
+			59604
+		}
+	},
+	[18165] = {
+		id = 18165,
+		base = 18160,
+		max_hp = 66,
+		hp_growth = 2547,
+		weapon_ID = {
+			50045,
+			59605
+		}
+	},
+	[18166] = {
+		id = 18166,
+		base = 18160,
+		max_hp = 72,
+		hp_growth = 2766,
+		weapon_ID = {
+			50046,
+			59606
+		}
+	},
+	[18167] = {
+		id = 18167,
+		base = 18160,
+		max_hp = 78,
+		hp_growth = 2984,
+		weapon_ID = {
+			50047,
+			59607
+		}
+	},
+	[18168] = {
+		id = 18168,
+		base = 18160,
+		max_hp = 83,
+		hp_growth = 3202,
+		weapon_ID = {
+			50048,
+			59608
+		}
+	},
+	[18169] = {
+		id = 18169,
+		base = 18160,
+		max_hp = 89,
+		hp_growth = 3421,
+		weapon_ID = {
+			50049,
+			59609
+		}
+	},
+	[18170] = {
+		id = 18170,
+		base = 18160,
+		max_hp = 95,
+		hp_growth = 3639,
+		weapon_ID = {
+			50050,
+			59610
 		}
 	},
 	[19000] = {
@@ -14074,6 +14408,70 @@ pg.aircraft_template = {
 			}
 		}
 	},
+	[61022] = {
+		name = "香格里拉技能飞机",
+		max_hp = 69,
+		accuracy = 23,
+		model_ID = "F6F",
+		ACC_growth = 0,
+		crash_DMG = 406,
+		attack_power = 2,
+		type = 3,
+		AP_growth = 2000,
+		icon = "F6F",
+		funnel_behavior = "",
+		nationality = 1,
+		hp_growth = 2282,
+		speed = 40,
+		id = 61022,
+		weapon_ID = {},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.68,
+					-0.667,
+					0
+				},
+				{
+					0.97,
+					0.584,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.52,
+				0,
+				0
+			}
+		}
+	},
 	[66240] = {
 		name = "山城改技能Lv0",
 		max_hp = 27,
@@ -17239,6 +17637,455 @@ pg.aircraft_template = {
 		weapon_ID = {
 			67910,
 			67920
+		}
+	},
+	[67921] = {
+		name = "独立技能鱼雷机Lv1",
+		max_hp = 42,
+		accuracy = 23,
+		model_ID = "tbf",
+		ACC_growth = 0,
+		crash_DMG = 406,
+		attack_power = 2,
+		type = 2,
+		AP_growth = 2000,
+		icon = "tbf",
+		funnel_behavior = "",
+		nationality = 1,
+		hp_growth = 1615,
+		speed = 48,
+		id = 67921,
+		weapon_ID = {
+			67941
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.68,
+					-0.667,
+					0
+				},
+				{
+					0.97,
+					0.584,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.52,
+				0,
+				0
+			}
+		}
+	},
+	[67922] = {
+		id = 67922,
+		name = "独立技能鱼雷机Lv2",
+		base = 67921,
+		max_hp = 47,
+		hp_growth = 1826,
+		weapon_ID = {
+			67942
+		}
+	},
+	[67923] = {
+		id = 67923,
+		name = "独立技能鱼雷机Lv3",
+		base = 67921,
+		max_hp = 53,
+		hp_growth = 2036,
+		weapon_ID = {
+			67943
+		}
+	},
+	[67924] = {
+		id = 67924,
+		name = "独立技能鱼雷机Lv4",
+		base = 67921,
+		max_hp = 58,
+		hp_growth = 2247,
+		weapon_ID = {
+			67944
+		}
+	},
+	[67925] = {
+		id = 67925,
+		name = "独立技能鱼雷机Lv5",
+		base = 67921,
+		max_hp = 64,
+		hp_growth = 2458,
+		weapon_ID = {
+			67945
+		}
+	},
+	[67926] = {
+		id = 67926,
+		name = "独立技能鱼雷机Lv6",
+		base = 67921,
+		max_hp = 69,
+		hp_growth = 2669,
+		weapon_ID = {
+			67946
+		}
+	},
+	[67927] = {
+		id = 67927,
+		name = "独立技能鱼雷机Lv7",
+		base = 67921,
+		max_hp = 75,
+		hp_growth = 2879,
+		weapon_ID = {
+			67947
+		}
+	},
+	[67928] = {
+		id = 67928,
+		name = "独立技能鱼雷机Lv8",
+		base = 67921,
+		max_hp = 80,
+		hp_growth = 3090,
+		weapon_ID = {
+			67948
+		}
+	},
+	[67929] = {
+		id = 67929,
+		name = "独立技能鱼雷机Lv9",
+		base = 67921,
+		max_hp = 86,
+		hp_growth = 3301,
+		weapon_ID = {
+			67949
+		}
+	},
+	[67930] = {
+		id = 67930,
+		name = "独立技能鱼雷机Lv10",
+		base = 67921,
+		max_hp = 91,
+		hp_growth = 3511,
+		weapon_ID = {
+			67950
+		}
+	},
+	[67931] = {
+		name = "独立技能鱼雷机Lv1",
+		max_hp = 42,
+		accuracy = 23,
+		model_ID = "tbf",
+		ACC_growth = 0,
+		crash_DMG = 406,
+		attack_power = 2,
+		type = 2,
+		AP_growth = 2000,
+		icon = "tbf",
+		funnel_behavior = "",
+		nationality = 1,
+		hp_growth = 1615,
+		speed = 48,
+		id = 67931,
+		weapon_ID = {
+			67951
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.68,
+					-0.667,
+					0
+				},
+				{
+					0.97,
+					0.584,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.52,
+				0,
+				0
+			}
+		}
+	},
+	[67932] = {
+		id = 67932,
+		name = "独立技能鱼雷机Lv2",
+		base = 67931,
+		max_hp = 47,
+		hp_growth = 1826,
+		weapon_ID = {
+			67952
+		}
+	},
+	[67933] = {
+		id = 67933,
+		name = "独立技能鱼雷机Lv3",
+		base = 67931,
+		max_hp = 53,
+		hp_growth = 2036,
+		weapon_ID = {
+			67953
+		}
+	},
+	[67934] = {
+		id = 67934,
+		name = "独立技能鱼雷机Lv4",
+		base = 67931,
+		max_hp = 58,
+		hp_growth = 2247,
+		weapon_ID = {
+			67954
+		}
+	},
+	[67935] = {
+		id = 67935,
+		name = "独立技能鱼雷机Lv5",
+		base = 67931,
+		max_hp = 64,
+		hp_growth = 2458,
+		weapon_ID = {
+			67955
+		}
+	},
+	[67936] = {
+		id = 67936,
+		name = "独立技能鱼雷机Lv6",
+		base = 67931,
+		max_hp = 69,
+		hp_growth = 2669,
+		weapon_ID = {
+			67956
+		}
+	},
+	[67937] = {
+		id = 67937,
+		name = "独立技能鱼雷机Lv7",
+		base = 67931,
+		max_hp = 75,
+		hp_growth = 2879,
+		weapon_ID = {
+			67957
+		}
+	},
+	[67938] = {
+		id = 67938,
+		name = "独立技能鱼雷机Lv8",
+		base = 67931,
+		max_hp = 80,
+		hp_growth = 3090,
+		weapon_ID = {
+			67958
+		}
+	},
+	[67939] = {
+		id = 67939,
+		name = "独立技能鱼雷机Lv9",
+		base = 67931,
+		max_hp = 86,
+		hp_growth = 3301,
+		weapon_ID = {
+			67959
+		}
+	},
+	[67940] = {
+		id = 67940,
+		name = "独立技能鱼雷机Lv10",
+		base = 67931,
+		max_hp = 91,
+		hp_growth = 3511,
+		weapon_ID = {
+			67960
+		}
+	},
+	[67981] = {
+		name = "香格里拉技能飞机-PVE",
+		max_hp = 69,
+		accuracy = 23,
+		model_ID = "F6F",
+		ACC_growth = 0,
+		crash_DMG = 406,
+		attack_power = 2,
+		type = 1,
+		AP_growth = 2000,
+		icon = "F6F",
+		nationality = 1,
+		hp_growth = 2282,
+		speed = 48,
+		id = 67981,
+		funnel_behavior = {
+			offsetX = 22,
+			hover_range = 18,
+			offsetZ = -26
+		},
+		weapon_ID = {},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.68,
+					-0.667,
+					0
+				},
+				{
+					0.97,
+					0.584,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.52,
+				0,
+				0
+			}
+		}
+	},
+	[67982] = {
+		name = "香格里拉技能飞机-PVP",
+		attack_power = 2,
+		accuracy = 23,
+		model_ID = "F6F",
+		ACC_growth = 0,
+		crash_DMG = 406,
+		max_hp = 69,
+		type = 1,
+		nationality = 1,
+		AP_growth = 2000,
+		icon = "F6F",
+		base = 67981,
+		hp_growth = 2282,
+		speed = 48,
+		id = 67982,
+		funnel_behavior = {
+			offsetX = 4,
+			hover_range = 18,
+			offsetZ = -14
+		},
+		weapon_ID = {},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.68,
+					-0.667,
+					0
+				},
+				{
+					0.97,
+					0.584,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.52,
+				0,
+				0
+			}
 		}
 	},
 	[81000] = {
@@ -69592,6 +70439,1001 @@ pg.aircraft_template = {
 			}
 		}
 	},
+	[607007] = {
+		name = "世界boss专用战斗机T1",
+		max_hp = 39,
+		accuracy = 23,
+		model_ID = "F4F",
+		ACC_growth = 0,
+		crash_DMG = 39,
+		attack_power = 2,
+		type = 1,
+		AP_growth = 2000,
+		icon = "F4F",
+		funnel_behavior = "",
+		nationality = 1,
+		hp_growth = 2686,
+		speed = 33,
+		id = 607007,
+		weapon_ID = {
+			607010,
+			607011
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.68,
+					-0.667,
+					0
+				},
+				{
+					0.97,
+					0.584,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.32,
+				0,
+				0
+			}
+		}
+	},
+	[607008] = {
+		name = "世界boss专用鱼雷机T1",
+		max_hp = 42,
+		accuracy = 23,
+		model_ID = "F6F",
+		ACC_growth = 0,
+		crash_DMG = 57,
+		attack_power = 2,
+		type = 2,
+		AP_growth = 2000,
+		icon = "F6F",
+		funnel_behavior = "",
+		nationality = 1,
+		hp_growth = 3136,
+		speed = 30,
+		id = 607008,
+		weapon_ID = {
+			607012
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					1.24,
+					-1.34,
+					0
+				},
+				{
+					1.43,
+					1.6,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[607009] = {
+		name = "世界boss专用轰炸机T1",
+		max_hp = 50,
+		accuracy = 23,
+		model_ID = "tbd",
+		ACC_growth = 0,
+		crash_DMG = 78,
+		attack_power = 2,
+		type = 3,
+		AP_growth = 2000,
+		icon = "tbd",
+		funnel_behavior = "",
+		nationality = 1,
+		hp_growth = 3632,
+		speed = 30,
+		id = 607009,
+		weapon_ID = {
+			607013
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					-1.28,
+					1.62,
+					0
+				},
+				{
+					-1.12,
+					-1,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.72,
+				-0.15,
+				0
+			}
+		}
+	},
+	[607027] = {
+		name = "世界boss专用战斗机T1",
+		max_hp = 39,
+		accuracy = 23,
+		model_ID = "F4F",
+		ACC_growth = 0,
+		crash_DMG = 39,
+		attack_power = 2,
+		type = 1,
+		AP_growth = 2000,
+		icon = "F4F",
+		funnel_behavior = "",
+		nationality = 1,
+		hp_growth = 2686,
+		speed = 33,
+		id = 607027,
+		weapon_ID = {
+			607030,
+			607031
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.68,
+					-0.667,
+					0
+				},
+				{
+					0.97,
+					0.584,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.32,
+				0,
+				0
+			}
+		}
+	},
+	[607028] = {
+		name = "世界boss专用鱼雷机T1",
+		max_hp = 42,
+		accuracy = 23,
+		model_ID = "F6F",
+		ACC_growth = 0,
+		crash_DMG = 57,
+		attack_power = 2,
+		type = 2,
+		AP_growth = 2000,
+		icon = "F6F",
+		funnel_behavior = "",
+		nationality = 1,
+		hp_growth = 3136,
+		speed = 30,
+		id = 607028,
+		weapon_ID = {
+			607032
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					1.24,
+					-1.34,
+					0
+				},
+				{
+					1.43,
+					1.6,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[607029] = {
+		name = "世界boss专用轰炸机T1",
+		max_hp = 50,
+		accuracy = 23,
+		model_ID = "tbd",
+		ACC_growth = 0,
+		crash_DMG = 78,
+		attack_power = 2,
+		type = 3,
+		AP_growth = 2000,
+		icon = "tbd",
+		funnel_behavior = "",
+		nationality = 1,
+		hp_growth = 3632,
+		speed = 30,
+		id = 607029,
+		weapon_ID = {
+			607033
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					-1.28,
+					1.62,
+					0
+				},
+				{
+					-1.12,
+					-1,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.72,
+				-0.15,
+				0
+			}
+		}
+	},
+	[607047] = {
+		name = "世界boss专用战斗机T1",
+		max_hp = 39,
+		accuracy = 23,
+		model_ID = "F4F",
+		ACC_growth = 0,
+		crash_DMG = 39,
+		attack_power = 2,
+		type = 1,
+		AP_growth = 2000,
+		icon = "F4F",
+		funnel_behavior = "",
+		nationality = 1,
+		hp_growth = 2686,
+		speed = 33,
+		id = 607047,
+		weapon_ID = {
+			607050,
+			607051
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.68,
+					-0.667,
+					0
+				},
+				{
+					0.97,
+					0.584,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.32,
+				0,
+				0
+			}
+		}
+	},
+	[607048] = {
+		name = "世界boss专用鱼雷机T1",
+		max_hp = 42,
+		accuracy = 23,
+		model_ID = "F6F",
+		ACC_growth = 0,
+		crash_DMG = 57,
+		attack_power = 2,
+		type = 2,
+		AP_growth = 2000,
+		icon = "F6F",
+		funnel_behavior = "",
+		nationality = 1,
+		hp_growth = 3136,
+		speed = 30,
+		id = 607048,
+		weapon_ID = {
+			607052
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					1.24,
+					-1.34,
+					0
+				},
+				{
+					1.43,
+					1.6,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[607049] = {
+		name = "世界boss专用轰炸机T1",
+		max_hp = 50,
+		accuracy = 23,
+		model_ID = "tbd",
+		ACC_growth = 0,
+		crash_DMG = 78,
+		attack_power = 2,
+		type = 3,
+		AP_growth = 2000,
+		icon = "tbd",
+		funnel_behavior = "",
+		nationality = 1,
+		hp_growth = 3632,
+		speed = 30,
+		id = 607049,
+		weapon_ID = {
+			607053
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					-1.28,
+					1.62,
+					0
+				},
+				{
+					-1.12,
+					-1,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.72,
+				-0.15,
+				0
+			}
+		}
+	},
+	[607067] = {
+		name = "世界boss专用战斗机T1",
+		max_hp = 39,
+		accuracy = 23,
+		model_ID = "F4F",
+		ACC_growth = 0,
+		crash_DMG = 39,
+		attack_power = 2,
+		type = 1,
+		AP_growth = 2000,
+		icon = "F4F",
+		funnel_behavior = "",
+		nationality = 1,
+		hp_growth = 2686,
+		speed = 33,
+		id = 607067,
+		weapon_ID = {
+			607070,
+			607071
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.68,
+					-0.667,
+					0
+				},
+				{
+					0.97,
+					0.584,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.32,
+				0,
+				0
+			}
+		}
+	},
+	[607068] = {
+		name = "世界boss专用鱼雷机T1",
+		max_hp = 42,
+		accuracy = 23,
+		model_ID = "F6F",
+		ACC_growth = 0,
+		crash_DMG = 57,
+		attack_power = 2,
+		type = 2,
+		AP_growth = 2000,
+		icon = "F6F",
+		funnel_behavior = "",
+		nationality = 1,
+		hp_growth = 3136,
+		speed = 30,
+		id = 607068,
+		weapon_ID = {
+			607072
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					1.24,
+					-1.34,
+					0
+				},
+				{
+					1.43,
+					1.6,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[607069] = {
+		name = "世界boss专用轰炸机T1",
+		max_hp = 50,
+		accuracy = 23,
+		model_ID = "tbd",
+		ACC_growth = 0,
+		crash_DMG = 78,
+		attack_power = 2,
+		type = 3,
+		AP_growth = 2000,
+		icon = "tbd",
+		funnel_behavior = "",
+		nationality = 1,
+		hp_growth = 3632,
+		speed = 30,
+		id = 607069,
+		weapon_ID = {
+			607073
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					-1.28,
+					1.62,
+					0
+				},
+				{
+					-1.12,
+					-1,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.72,
+				-0.15,
+				0
+			}
+		}
+	},
+	[607087] = {
+		name = "世界boss专用战斗机T1",
+		max_hp = 39,
+		accuracy = 23,
+		model_ID = "F4F",
+		ACC_growth = 0,
+		crash_DMG = 39,
+		attack_power = 2,
+		type = 1,
+		AP_growth = 2000,
+		icon = "F4F",
+		funnel_behavior = "",
+		nationality = 1,
+		hp_growth = 2686,
+		speed = 33,
+		id = 607087,
+		weapon_ID = {
+			607090,
+			607091
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.68,
+					-0.667,
+					0
+				},
+				{
+					0.97,
+					0.584,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.32,
+				0,
+				0
+			}
+		}
+	},
+	[607088] = {
+		name = "世界boss专用鱼雷机T1",
+		max_hp = 42,
+		accuracy = 23,
+		model_ID = "F6F",
+		ACC_growth = 0,
+		crash_DMG = 57,
+		attack_power = 2,
+		type = 2,
+		AP_growth = 2000,
+		icon = "F6F",
+		funnel_behavior = "",
+		nationality = 1,
+		hp_growth = 3136,
+		speed = 30,
+		id = 607088,
+		weapon_ID = {
+			607092
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					1.24,
+					-1.34,
+					0
+				},
+				{
+					1.43,
+					1.6,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[607089] = {
+		name = "世界boss专用轰炸机T1",
+		max_hp = 50,
+		accuracy = 23,
+		model_ID = "tbd",
+		ACC_growth = 0,
+		crash_DMG = 78,
+		attack_power = 2,
+		type = 3,
+		AP_growth = 2000,
+		icon = "tbd",
+		funnel_behavior = "",
+		nationality = 1,
+		hp_growth = 3632,
+		speed = 30,
+		id = 607089,
+		weapon_ID = {
+			607093
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					-1.28,
+					1.62,
+					0
+				},
+				{
+					-1.12,
+					-1,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.72,
+				-0.15,
+				0
+			}
+		}
+	},
 	[700034] = {
 		name = "苍龙轰炸机",
 		max_hp = 316,
@@ -82491,6 +84333,17 @@ pg.aircraft_template = {
 		18044,
 		18045,
 		18046,
+		18060,
+		18061,
+		18062,
+		18063,
+		18064,
+		18065,
+		18066,
+		18067,
+		18068,
+		18069,
+		18070,
 		18100,
 		18101,
 		18102,
@@ -82513,6 +84366,17 @@ pg.aircraft_template = {
 		18148,
 		18149,
 		18150,
+		18160,
+		18161,
+		18162,
+		18163,
+		18164,
+		18165,
+		18166,
+		18167,
+		18168,
+		18169,
+		18170,
 		19000,
 		19001,
 		19002,
@@ -83091,6 +84955,7 @@ pg.aircraft_template = {
 		61017,
 		61019,
 		61020,
+		61022,
 		66240,
 		66241,
 		66242,
@@ -83296,6 +85161,28 @@ pg.aircraft_template = {
 		67898,
 		67899,
 		67900,
+		67921,
+		67922,
+		67923,
+		67924,
+		67925,
+		67926,
+		67927,
+		67928,
+		67929,
+		67930,
+		67931,
+		67932,
+		67933,
+		67934,
+		67935,
+		67936,
+		67937,
+		67938,
+		67939,
+		67940,
+		67981,
+		67982,
 		81000,
 		81001,
 		81002,
@@ -84325,6 +86212,21 @@ pg.aircraft_template = {
 		606100,
 		606101,
 		606102,
+		607007,
+		607008,
+		607009,
+		607027,
+		607028,
+		607029,
+		607047,
+		607048,
+		607049,
+		607067,
+		607068,
+		607069,
+		607087,
+		607088,
+		607089,
 		700034,
 		700035,
 		700036,

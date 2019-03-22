@@ -930,7 +930,7 @@ pg.activity_random_award_template = {
 			},
 			{
 				46,
-				5
+				10
 			},
 			{
 				49,
@@ -946,10 +946,6 @@ pg.activity_random_award_template = {
 			},
 			{
 				42,
-				5
-			},
-			{
-				46,
 				5
 			},
 			{
@@ -1316,7 +1312,7 @@ pg.activity_random_award_template = {
 			},
 			{
 				46,
-				25
+				50
 			},
 			{
 				49,
@@ -1332,10 +1328,6 @@ pg.activity_random_award_template = {
 			},
 			{
 				42,
-				25
-			},
-			{
-				46,
 				25
 			},
 			{

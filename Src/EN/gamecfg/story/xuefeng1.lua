@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"叫我{namecode:22}大人！\n\n<size=30>一　{namecode:22}大人登场</size>",
+					"\"Call me Yukikaze the Great!\"\n\n<size=30>Chapter 1: The Lucky Star of Sasebo Arrives!</size>",
 					1
 				}
 			}
@@ -24,7 +24,7 @@ return {
 			bgm = "story-1",
 			actor = 301164,
 			actorName = "？？？",
-			say = "啊～哈哈哈！",
+			say = "Wa~hahaha!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			dir = 1,
 			actor = 301164,
 			actorName = "？？？",
-			say = "听好了，我乃高贵的，幸运的，无敌的，{namecode:22}·Eight·{namecode:19}The.Geni……",
+			say = "Listen up! I'm the noble, lucky, invincible, magni... magnici...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			dir = 1,
 			actor = 301164,
 			actorName = "？？？",
-			say = "Ge、Geni、Geni什么来着……总、总之是{namecode:22}大人啦！",
+			say = "...mag... magni-what the heck... A-anyway! Call me Yukikaze the Great!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,11 +84,11 @@ return {
 			},
 			options = {
 				{
-					content = "跪拜{namecode:22}大人",
+					content = "All hail Yukikaze the Great!",
 					flag = 1
 				},
 				{
-					content = "居然能做这种自我介绍…果然是天才吗…",
+					content = "That was truly a magnificent self-introduction...",
 					flag = 2
 				}
 			}
@@ -100,7 +100,7 @@ return {
 			dir = 1,
 			actor = 301164,
 			actorName = "{namecode:22}",
-			say = "总之{namecode:22}大人驾临到你的舰队了！努力发挥{namecode:22}大人的实力吧",
+			say = "Hmph! In any case, I am a part of this fleet from now on. Do your best to use Yukikaze the Great to her fullest potential!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "(闪闪！)",
+			say = "*sparkle!*",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			dir = 1,
 			actor = 301164,
 			actorName = "{namecode:22}",
-			say = "哼，给{namecode:22}大人跪好了吗？接下来就把{namecode:22}大人作为你舰队主力中的主力吧！",
+			say = "Now! Bow down before me and place me in the main fleet!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "(啪啪！)",
+			say = "*poses!*",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			bgName = "bg_story_school",
 			actor = 301164,
 			nameColor = "#a9f548",
-			say = "被{namecode:22}大人的威严吓得连话都说不出来了吗？果然还是贫弱的人类嘛！",
+			say = "Were you so starstruck by Yukikaze the Great's majesty that you are unable to speak? You are merely a lowly human after all!",
 			effects = {
 				{
 					active = false,
@@ -197,7 +197,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "……",
+			say = "...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "…………",
+			say = "... ...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "一阵风吹过。",
+			say = "Only the sound of the wind could be heard...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			dir = 1,
 			actor = 301164,
 			actorName = "{namecode:22}",
-			say = "啊、啊咧？",
+			say = "H-huh...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			dir = 1,
 			actor = 301614,
 			actorName = "{namecode:128}",
-			say = "那个……指挥官石化了……",
+			say = "Um... Commander... turned into a rock...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +258,7 @@ return {
 			}
 		},
 		{
-			say = "那、那个，{namecode:22}酱就是这样的…不要太惊讶……吧？",
+			say = "Uhh... Y-Yukikaze is always like this... so don't let it bother you too much... okay?",
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -285,7 +285,7 @@ return {
 			dir = -1,
 			actor = 301604,
 			actorName = "{namecode:143}",
-			say = "好、好帅……{namecode:142}，也给{namecode:143}做一个这样的“南蛮风自我介绍”吧！",
+			say = "S-so cool... Hey Urakaze, help me think up a wild self-introduction like that too!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,7 +302,7 @@ return {
 			dir = -1,
 			actor = 301594,
 			actorName = "{namecode:142}",
-			say = "诶！？我、我怎么会做这个啊！？指挥官，不理{namecode:22}真的没问题吗？",
+			say = "Huh? How would I know how to do something like that? More importantly, Commander, is it fine to leave Yukikaze alone over there?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,7 +313,7 @@ return {
 			},
 			options = {
 				{
-					content = "忘了该说什么了……",
+					content = "I forgot what we were talking about...",
 					flag = 1
 				}
 			}
@@ -326,7 +326,7 @@ return {
 			blackBg = true,
 			actor = 301164,
 			actorName = "{namecode:22}",
-			say = "呃呃呃…！居然敢无视{namecode:22}大人……你这是万死之罪口牙！",
+			say = "Grrr...!! For ignoring Yukikaze the Great, even ten thousand deaths are not enough for the likes of you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

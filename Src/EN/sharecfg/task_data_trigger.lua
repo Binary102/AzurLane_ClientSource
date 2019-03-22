@@ -25,7 +25,7 @@ pg.task_data_trigger = {
 	{
 		group_id = 30706,
 		id = 3,
-		activity_id = 2001,
+		activity_id = 30509,
 		args = {
 			{
 				1,
@@ -36,7 +36,7 @@ pg.task_data_trigger = {
 	{
 		group_id = 30116,
 		id = 4,
-		activity_id = 2002,
+		activity_id = 30510,
 		args = {
 			{
 				1,
@@ -96,6 +96,17 @@ pg.task_data_trigger = {
 			{
 				1,
 				5151
+			}
+		}
+	},
+	[28] = {
+		group_id = 10212,
+		id = 28,
+		activity_id = 30513,
+		args = {
+			{
+				1,
+				5291
 			}
 		}
 	},
@@ -165,6 +176,28 @@ pg.task_data_trigger = {
 			}
 		}
 	},
+	[36] = {
+		group_id = 30121,
+		id = 36,
+		activity_id = 30511,
+		args = {
+			{
+				1,
+				5371
+			}
+		}
+	},
+	[37] = {
+		group_id = 10310,
+		id = 37,
+		activity_id = 30512,
+		args = {
+			{
+				1,
+				5381
+			}
+		}
+	},
 	[38] = {
 		group_id = 20208,
 		id = 38,
@@ -197,12 +230,15 @@ pg.task_data_trigger = {
 		8,
 		9,
 		14,
+		28,
 		29,
 		30,
 		31,
 		32,
 		33,
 		34,
+		36,
+		37,
 		38,
 		39
 	}

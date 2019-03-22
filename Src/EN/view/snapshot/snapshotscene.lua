@@ -514,13 +514,7 @@ function slot0.updateSkin(slot0)
 	elseif slot0.showType == slot0.SHOW_PAINT then
 		SetActive(slot0.live2d, false)
 		SetActive(slot0.spine, false)
-		setPaintingPrefabAsync(slot0.paint, slot0.paintSkin, "mainNormal", function ()
-			if slot0.exited then
-				return
-			end
-
-			Ship.SetExpression(findTF(slot0.paint, "fitter"):GetChild(0), slot0.paintSkin, "default")
-		end)
+		setPaintingPrefabAsync(slot0.paint, slot0.paintSkin, "mainNormal")
 	elseif slot0.showType == slot0.SHOW_SPINE then
 		SetActive(slot0.live2d, false)
 		SetActive(slot0.spine, true)

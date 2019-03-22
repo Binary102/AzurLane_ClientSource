@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"妹妹的变化\n\n<size=30>六 妹妹的努力</size>",
+					"My Sister's Growth Spurt?!\n\n<size=30>Chapter 6: My Sister's Hard Work</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "于是，文森斯的秘书舰课程开始了。",
+			say = "With that discussion, Vincennes started her special secretary ship lessons.",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -49,7 +49,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "……不过，原本是一对一的单独教学，最后因为被姐姐们知道了，于是变成了轮流授课。",
+			say = "Originally, it was just a one-on-one tutoring session... But her sisters soon found out, and it quickly turned into group tutoring.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,7 @@ return {
 			dir = 1,
 			actor = 103091,
 			nameColor = "#a9f548",
-			say = "那么，首先是公文，为了能够有效地辅助指挥官，首先我们要了解他们都代表什么……",
+			say = "First, let's talk about organizing the documents. In order to be of assistance to the commander, you'll first have to quickly understand what kind of document you're working with...",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -98,7 +98,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔，种类好多……",
+			say = "Urgh... there's so many different types...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,7 +114,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "作为秘书舰，不清楚指挥官的日程安排可不行的。",
+			say = "Of course. Also, as the secretary, you must know the commander's schedule like the back of your hand.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "而且，不仅要牢记，还要根据实际情况来调整……",
+			say = "It's not enough to just memorize it though! You must be able to rearrange and adapt as the situation demands!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +146,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "所以呢，文森斯现在明白我们应该怎么做了吗？",
+			say = "So, Vincennes, are you clear about what a secretary's responsibilities are now?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,7 +162,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "要明白指挥官平时要做些什么吗？",
+			say = "Being in sync with what Commander is trying to do?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,7 +178,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没错~",
+			say = "Mmhm. That's right.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			dir = 1,
 			actor = 103081,
 			nameColor = "#a9f548",
-			say = "唔唔唔，我该教些什么呢……啊，对了，我来教你指挥官喜欢吃什么吧！",
+			say = "Nnnnngh... What should I teach...? Ah, I'll tell you all about what Commander likes to eat!",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -227,7 +227,7 @@ return {
 			dir = 1,
 			actor = 103081,
 			nameColor = "#a9f548",
-			say = "让指挥官能够保持良好的工作状态也是很重要的！",
+			say = "You also have to make sure Commander is in top condition at all times!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +253,7 @@ return {
 			dir = 1,
 			actor = 103101,
 			nameColor = "#a9f548",
-			say = "喔！",
+			say = "Got it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -279,7 +279,7 @@ return {
 			dir = 1,
 			actor = 103131,
 			nameColor = "#a9f548",
-			say = "文森斯，我来教你打猎！…话说为什么我也加入了教授的行列…",
+			say = "I'll teach you how to hunt! Wait... how did I get dragged into this?",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -307,7 +307,7 @@ return {
 			}
 		},
 		{
-			say = "姑且把新奥尔良级的大家都叫上了…不过打猎这个……",
+			say = "I suppose I did ask everyone in the New Orleans-class to help... But, hunting is maybe a bit excessive...",
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -332,7 +332,7 @@ return {
 			dir = 1,
 			actor = 103131,
 			nameColor = "#a9f548",
-			say = "新奥尔良自己不是也没来嘛…要是不用我教打猎的话我就先走咯",
+			say = "But New Orleans herself didn't bother to show up... Oh well, if I'm not needed here, s'pose I'll head back!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -356,7 +356,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "…如此这般，让人不禁扬起嘴角的温馨场景持续了好一段时间",
+			say = "I couldn't help but to smile fondly as the enjoyable group tutoring continued for a while.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

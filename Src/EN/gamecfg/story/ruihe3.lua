@@ -10,13 +10,13 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"幸运之鹤\n\n<size=30>三  {namecode:96}与前辈们</size>",
+					"The Lucky Crane\n\n<size=30>Chapter 3 - Zuikaku & The Foxes</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "返回指挥室的途中……",
+			say = "As I was making my way back to the office...",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -33,7 +33,7 @@ return {
 			dir = 1,
 			actor = 307014,
 			actorName = "{namecode:91}",
-			say = "指挥官大人～",
+			say = "Oh, Commander~!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -47,7 +47,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "在路上偶遇了刚结束演习的{namecode:91}与{namecode:92}",
+			say = "By pure coincidence, I bumped into Akagi and Kaga who had just finished their exercises.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +60,7 @@ return {
 			dir = 1,
 			actor = 307064,
 			actorName = "{namecode:96}",
-			say = "前辈们辛苦了！",
+			say = "Hello, you two! I heard you did a great job during your exercises.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			}
 		},
 		{
-			say = "你也辛苦了。和指挥官在巡逻中吗？",
+			say = "And I heard you did a... job... walking around the base with the Commander.",
 			side = 1,
 			bgName = "bg_story_task",
 			actorName = "{namecode:92}",
@@ -98,7 +98,7 @@ return {
 			dir = 1,
 			actor = 307064,
 			actorName = "{namecode:96}",
-			say = "是的！诶？指挥官躲在我身后干嘛？",
+			say = "You heard right! ... Hey, what're you doing, Commander? What are you hiding from?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			dir = -1,
 			actor = 307014,
 			actorName = "{namecode:91}",
-			say = "{namecode:96}，指挥官大人是看到{namecode:91}觉得害羞了呀。呵呵呵，报告书，我放在“老地方”了哟",
+			say = "Ah, you see, the Commander gets very shy when Akagi is around. *Giggle*... I shall leave my report in the usual place. You know where, Commander~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,7 +132,7 @@ return {
 			dir = 1,
 			actor = 307024,
 			actorName = "{namecode:92}",
-			say = "姐…咳咳、{namecode:91}，别给指挥官添太多麻烦",
+			say = "Bootl... *Ahem*, Akagi, please try not to inconvenience the Commander too much.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			dir = 1,
 			actor = 307024,
 			actorName = "{namecode:92}",
-			say = "{namecode:96}你也是，要好好尽到秘书舰的职责…好了，{namecode:91}，你先走吧",
+			say = "That goes for you too, Zuikaku. You're the secretary, so do your job right... Now, Akagi, after you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			withoutPainting = true,
 			dir = 1,
 			side = 2,
-			say = "……",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,7 +179,7 @@ return {
 			dir = 1,
 			actor = 307064,
 			actorName = "{namecode:96}",
-			say = "指挥官，{namecode:91}前辈已经走了哦",
+			say = "Hey, Commander, Akagi's left now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +196,7 @@ return {
 			dir = 1,
 			actor = 307064,
 			actorName = "{namecode:96}",
-			say = "话说，虽然{namecode:91}前辈是有点强硬，但刚才的指挥官是不是有点反应过度了？",
+			say = "Like, I know she can be overbearing sometimes, but don't you think you were overreacting to her just a little much?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			}
 		},
 		{
-			say = "{namecode:96}，你还是没懂啊",
+			say = "You don't understand, do you, Zuikaku?",
 			side = 1,
 			bgName = "bg_story_task",
 			actorName = "{namecode:92}",
@@ -234,7 +234,7 @@ return {
 			dir = 1,
 			actor = 307064,
 			actorName = "{namecode:96}",
-			say = "诶？什么？",
+			say = "Huh? Don't understand what, exactly?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,7 +251,7 @@ return {
 			dir = 1,
 			actor = 307024,
 			actorName = "{namecode:92}",
-			say = "如果被看到和其他女孩子在一起，{namecode:91}就不会找指挥官，而是会念着“害虫”之类的词去找一起的女孩子算账了。就算像那样躲起来也没用的",
+			say = "If Akagi had seen the Commander together with any other girl, she wouldn't have been smiling like that, she would've been talking about how she's going to \"eliminate all filthy pests\" that get in her way. And hiding won't save you from her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,7 +268,7 @@ return {
 			dir = 1,
 			actor = 307024,
 			actorName = "{namecode:92}",
-			say = "也就是说，{namecode:91}判断你和指挥官在一起是“无害”的，才没有发生什么事",
+			say = "That is to say, Akagi has assessed that, even though you're together with the Commander, you are harmless to her plans. That's why you've even made it this far.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			blackBg = true,
 			actor = 307064,
 			nameColor = "#a9f548",
-			say = "该高兴还是该难过呢……心情真微妙……",
+			say = "I don't know whether to be happy or sad about that... It's a weird feeling...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

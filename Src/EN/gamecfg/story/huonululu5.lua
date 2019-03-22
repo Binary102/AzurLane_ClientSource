@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"有关火奴鲁鲁的二三事\n\n<size=30>五　火奴鲁鲁的烦恼</size>",
+					"An Easily Flustered Girl's Story\n\n<size=30>Chapter 5 - Honolulu's Bothered</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "港区·指挥室",
+			say = "Port - Office",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -49,7 +49,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "回到指挥室坐下后，火奴鲁鲁酝酿了好久，才终于开口。",
+			say = "Honolulu took a seat in the office sofa and, after a few minutes, finally began talking.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我…反正就是别扭，明明没有生气，但很多时候就是不知道怎么好好说出心里话。",
+			say = "... I'm easily flustered, and I'm not honest with people. I don't really get mad at people, but I can't speak my mind to them either...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "也真亏你能一直忍到今天，还……",
+			say = "That's me, in a nutshell. And you've put up with me the whole time...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			withoutActorName = true,
 			actor = 102121,
 			nameColor = "#a9f548",
-			say = "火奴鲁鲁顿了一下，似乎是羞于开口。",
+			say = "Honolulu suddenly went silent. A short while later, she started talking again, with a hint of hesitation in her voice.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……总、总之，我不像路易斯那么自信，也不像利安得那么娴静。",
+			say = "... A-as I was saying... I'm not bold like Louis, and I'm not elegant like Leander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			dir = 1,
 			actor = 102121,
 			nameColor = "#a9f548",
-			say = "完全无法想象自己像其他姐妹舰们那样率直地露出笑容的样子…",
+			say = "I can't imagine myself ever cheerfully smiling like some other girls do, either...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,11 +137,11 @@ return {
 			},
 			options = {
 				{
-					content = "这样也没什么关系",
+					content = "Assure her that it's all okay",
 					flag = 1
 				},
 				{
-					content = "这样才好",
+					content = "Say you like her just the way she is",
 					flag = 2
 				}
 			}
@@ -153,7 +153,7 @@ return {
 			actor = 102121,
 			nameColor = "#a9f548",
 			flag = 2,
-			say = "你的兴趣还真是够奇怪的……",
+			say = "You're a strange one, you know that? ... *H-hmph*... *Ugh*...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "肩膀被火奴鲁鲁轻轻锤了一下，然后她叹了口气。",
+			say = "Honolulu sighed, got off of the sofa, then walked behind me and started gently massaging my shoulders.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,23 +179,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过，我也不是喜欢才这样的。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 102121,
-			side = 2,
-			bgName = "bg_story_task",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "我也想要和路易斯愉快地聊闺蜜会聊的东西，我也想像利安得那样优雅地晒着太阳喝下午茶……",
+			say = "Listen, I don't act grumpy like this because I want to...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +195,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我也想露出笑容和大家打成一片，我也想在海伦娜不高兴的时候能够率直地安慰她。",
+			say = "I wish I could hold a friendly conversation like Louis, or sit down and enjoy a refined cup of afternoon tea like Leander...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +211,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "但这些对其他人来说理所当然的事，对我来说就像是登天一样难。",
+			say = "I want to smile and make friends, I want to express my concern and offer my comfort to Helena when she seems down...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,12 +222,12 @@ return {
 			}
 		},
 		{
+			actor = 102121,
 			side = 2,
 			bgName = "bg_story_task",
-			dir = 1,
-			actor = 102121,
 			nameColor = "#a9f548",
-			say = "指挥官，你说我该怎么办才好呢……",
+			dir = 1,
+			say = "Everyone else can do it with no effort, but I just can't manage.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,21 +235,32 @@ return {
 			painting = {
 				alpha = 0.3,
 				time = 1
-			},
-			options = {
-				{
-					content = "邀请约会",
-					flag = 1
-				}
 			}
 		},
 		{
+			actor = 102121,
 			side = 2,
 			bgName = "bg_story_task",
+			nameColor = "#a9f548",
 			dir = 1,
+			say = "Commander, you have to tell me what I should do...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "bg_story_task",
+			withoutActorName = true,
 			actor = 102121,
 			nameColor = "#a9f548",
-			say = "……哈？",
+			say = "Honolulu exposed her weak side to me, something she's never done before.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -276,7 +271,29 @@ return {
 			},
 			options = {
 				{
-					content = "表示一起去给海伦娜买礼物",
+					content = "Propose going on a date together",
+					flag = 1
+				}
+			}
+		},
+		{
+			side = 2,
+			bgName = "bg_story_task",
+			dir = 1,
+			actor = 102121,
+			nameColor = "#a9f548",
+			say = "...... What?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			options = {
+				{
+					content = "Clarify that it's to buy a present for Helena",
 					flag = 1
 				}
 			}
@@ -287,7 +304,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是、是哦…随、随你的便吧。",
+			say = "S-sure... I-I guess we can do that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,7 +319,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "就这样，定下了约会（？）的约定。",
+			say = "And so, I got Honolulu to agree to a \"date\" with me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

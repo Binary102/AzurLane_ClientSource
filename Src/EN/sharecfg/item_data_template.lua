@@ -2505,6 +2505,21 @@ pg.item_data_template = {
 			0
 		}
 	},
+	[15008] = {
+		limit = "[]",
+		display_effect = "",
+		other_resource_cost = "[]",
+		usage = "usage_undefined",
+		other_item_cost = "[]",
+		usage_arg = "[]",
+		id = 15008,
+		compose_number = 0,
+		target_id = 0,
+		open_ui = {
+			0,
+			0
+		}
+	},
 	[15009] = {
 		limit = "[]",
 		display_effect = "",
@@ -8806,6 +8821,7 @@ pg.item_data_template = {
 		15004,
 		15005,
 		15006,
+		15008,
 		15009,
 		16001,
 		16002,

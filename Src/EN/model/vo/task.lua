@@ -46,11 +46,7 @@ function slot0.getProgress(slot0)
 	elseif slot0:getConfig("sub_type") == TASK_SUB_TYPE_PLAYER_RES then
 		slot1 = getProxy(PlayerProxy):getData():getResById(slot0:getConfig("target_id_for_client"))
 	elseif slot0:getConfig("sub_type") == TASK_SUB_TYPE_BOSS_PT then
-		if getProxy(ActivityProxy):getActivityById(ActivityConst.BOSS_BATTLE_PT) and not slot2:isEnd() then
-			slot1 = getProxy(PlayerProxy):getData():getResById(tonumber(slot0:getConfig("target_id")))
-		else
-			slot1 = 0
-		end
+		slot1 = getProxy(PlayerProxy):getData():getResById(tonumber(slot0:getConfig("target_id")))
 	elseif slot0:getConfig("sub_type") == TASK_SUB_TYPE_FROM_TASKS then
 		slot3 = getProxy(TaskProxy)
 		slot4 = nil
@@ -73,7 +69,7 @@ function slot0.getProgress(slot0)
 		slot1 = 0
 	end
 
-	return slot1
+	return slot1 or 0
 end
 
 function slot0.isReceive(slot0)

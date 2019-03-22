@@ -293,6 +293,7 @@ function slot0.register(slot0)
 
 		slot0:sendNotification(GAME.GO_SCENE, SCENE.DOCKYARD, {
 			selectedMin = 0,
+			skipSelect = true,
 			selectedMax = 1,
 			ignoredIds = slot10,
 			activeShipId = slot12,
@@ -381,13 +382,9 @@ function slot0.register(slot0)
 		end)
 	end)
 	slot0:bind(slot0.ON_FLEET_SHIPINFO, function (slot0, slot1)
-		if not slot1.shipInfoList or table.getCount(slot2) == 0 then
-			return
-		end
-
 		slot0:sendNotification(GAME.GO_SCENE, SCENE.SHIPINFO, {
-			shipId = slot1.shipVO.id,
-			shipVOs = slot2
+			shipId = slot1.shipId,
+			shipVOs = slot1.shipVOs
 		})
 
 		slot0.contextData.editEliteChapter = slot1.chapter
@@ -558,7 +555,6 @@ function slot0.listNotificationInterests(slot0)
 		GAME.BEGIN_STAGE_DONE,
 		ActivityProxy.ACTIVITY_OPERATION_DONE,
 		ActivityProxy.ACTIVITY_UPDATED,
-		GAME.ACTIVITY_BOSS_MSG_ADDED,
 		GAME.ESCORT_FETCH_DONE,
 		GAME.SUB_CHAPTER_REFRESH_DONE,
 		GAME.SUB_CHAPTER_FETCH_DONE
@@ -789,8 +785,6 @@ function slot0.handleNotification(slot0, slot1)
 			if slot3 and slot3:getConfig("type") == ActivityConst.ACTIVITY_TYPE_PT_RANK then
 				slot0.viewComponent:updatePtActivity(slot3)
 			end
-		elseif slot2 == GAME.ACTIVITY_BOSS_MSG_ADDED then
-			slot4 = getProxy(ActivityProxy)
 		elseif slot2 == GAME.ESCORT_FETCH_DONE then
 			if slot0.contextData.chapterVO then
 				slot0.viewComponent:switchToMap()

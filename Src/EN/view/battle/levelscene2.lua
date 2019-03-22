@@ -13,6 +13,12 @@ if Application.isEditor then
 	end
 end
 
+slot2 = {
+	vanguard = 1,
+	submarine = 3,
+	main = 2
+}
+
 function slot0.getUIName(slot0)
 	return "LevelUI2"
 end
@@ -1827,6 +1833,10 @@ function slot0.tryPlayMapStory(slot0)
 						viewComponent = slot0.__cname,
 						event = slot0.__cname
 					})
+
+					if isAiriJP() and slot1 == "900" then
+						SendAiriJPTracking(AIRIJP_TRACKING_TUTORIAL_COMPLETE_4, slot0.player.id)
+					end
 				else
 					pg.SystemOpenMgr:GetInstance():notification(slot0.player.level)
 				end
@@ -2157,15 +2167,17 @@ function slot0.flushFleetEditButton(slot0, slot1)
 	end
 
 	slot10 = slot1:getEliteFleetList()
-	slot11 = {}
 
-	function slot12(slot0, slot1, slot2, slot3)
+	function slot11(slot0, slot1, slot2, slot3)
 		slot5 = {}
 		slot6 = {}
 
 		for slot10, slot11 in ipairs(slot4) do
 			slot5[slot1.shipVOs[slot11]] = true
-			slot6[#slot6 + 1] = slot1.shipVOs[slot11]:getShipType()
+
+			if slot1 == slot1.shipVOs[slot11]:getTeamType() then
+				table.insert(slot6, slot11)
+			end
 		end
 
 		removeAllChildren(slot7)
@@ -2188,25 +2200,35 @@ function slot0.flushFleetEditButton(slot0, slot1)
 			return
 		end)
 
-		for slot14, slot15 in ipairs(slot2) do
-			slot16, slot17 = nil
-			slot18 = true
+		slot11 = {}
+		slot12 = {}
 
-			if type(slot15) == "number" then
-				if slot15 == 0 then
-					slot10 = slot10 + 1
+		for slot16 = 1, 3, 1 do
+			slot17, slot18, slot19 = nil
+			slot20 = (slot6[slot16] and slot1.shipVOs[slot6[slot16]]) or nil
 
-					for slot22, slot23 in pairs(slot5) do
-						if slot23 and slot1 == slot22:getTeamType() then
-							slot17 = slot22
+			if slot20 then
+				for slot24, slot25 in ipairs(slot2) do
+					if type(slot25) == "number" then
+						if slot25 == 0 or slot20:getShipType() == slot25 then
+							slot18 = slot20
+							slot19 = slot25
+
+							table.remove(slot2, slot24)
+							table.insert(slot11, slot24)
+
+							slot9 = slot9 or slot20:getShipType() == slot25
 
 							break
 						end
-					end
-				else
-					for slot22, slot23 in pairs(slot5) do
-						if slot22:getShipType() == slot15 and slot23 then
-							slot17 = slot22
+					else
+						if type(slot25) == "string" and table.contains(Clone(ShipType.BundleList[slot25]), slot20:getShipType()) then
+							slot18 = slot20
+							slot19 = slot25
+
+							table.remove(slot2, slot24)
+							table.insert(slot11, slot24)
+
 							slot9 = true
 
 							break
@@ -2214,63 +2236,52 @@ function slot0.flushFleetEditButton(slot0, slot1)
 					end
 				end
 			else
-				if type(slot15) == "string" then
-					slot19 = Clone(ShipType.BundleList[slot15])
+				slot19 = slot2[1]
 
-					for slot23, slot24 in pairs(slot5) do
-						if table.contains(slot19, slot23:getShipType()) and slot24 then
-							slot17 = slot23
-							slot9 = true
-
-							break
-						end
-					end
-				end
+				table.remove(slot2, 1)
+				table.insert(slot11, 1)
 			end
 
-			if slot17 then
-				slot19 = cloneTplTo(slot2, slot7)
-
-				setActive(slot19, true)
-				updateShip(slot19, slot17)
-
-				slot16 = findTF(slot19, "icon_bg")
-				slot5[slot17] = false
-				slot18 = false
-
-				if slot17.inEvent then
-					setActive(slot1:findTF("event_block", slot19), true)
-				end
-
-				table.insert(slot3[slot3], slot17)
+			if slot19 == 0 then
+				slot10 = slot10 + 1
 			end
+
+			table.insert(slot12, (slot18 and cloneTplTo(slot2, slot7)) or cloneTplTo(slot3, slot7))
+			setActive((slot18 and cloneTplTo(slot2, slot7)) or cloneTplTo(slot3, slot7), true)
 
 			if slot18 then
+				updateShip(slot21, slot18)
+				setActive(slot1:findTF("event_block", slot21), slot18.inEvent)
+
+				slot5[slot18] = true
+			else
 				slot8 = slot8 + 1
-				slot19 = cloneTplTo(slot4, slot7)
+			end
 
-				setActive(slot19, true)
+			slot17 = findTF(slot21, "icon_bg")
 
-				slot16 = findTF(slot19, "icon_bg")
+			setActive(slot1:findTF("ship_type", slot21), true)
 
-				setActive(slot1:findTF("ship_type", slot19), true)
-
-				if type(slot15) == "number" then
-					if slot15 ~= 0 then
-						setImageSprite(slot1:findTF("ship_type", slot19), GetSpriteFromAtlas("shiptype", ShipType.Type2CNLabel(slot15)), true)
-					else
-						setActive(slot1:findTF("ship_type", slot19), false)
-					end
+			if type(slot19) == "number" then
+				if slot19 ~= 0 then
+					setImageSprite(slot1:findTF("ship_type", slot21), GetSpriteFromAtlas("shiptype", ShipType.Type2CNLabel(slot19)), true)
 				else
-					if type(slot15) == "string" then
-						setImageSprite(slot1:findTF("ship_type", slot19), GetSpriteFromAtlas("shiptype", ShipType.BundleType2CNLabel(slot15)), true)
-					end
+					setActive(slot1:findTF("ship_type", slot21), false)
+				end
+			else
+				if type(slot19) == "string" then
+					setImageSprite(slot1:findTF("ship_type", slot21), GetSpriteFromAtlas("shiptype", ShipType.BundleType2CNLabel(slot19)), true)
 				end
 			end
 
-			slot19 = GetOrAddComponent(slot16, typeof(UILongPressTrigger))
+			setActive(slot1:findTF("ship_type", slot21), not slot18 and slot19 ~= 0)
+			table.sort(setActive, function (slot0, slot1)
+				return slot0[slot0:getTeamType()] < slot0[slot1:getTeamType()] or (slot0[slot0:getTeamType()] == slot0[slot1:getTeamType()] and table.indexof(slot1, slot0.id) < table.indexof(slot1, slot1.id))
+			end)
 
-			function slot20()
+			slot23 = GetOrAddComponent(slot17, typeof(UILongPressTrigger))
+
+			function slot24()
 				slot0:hideFleetEdit()
 				slot0.hideFleetEdit:emit(LevelMediator2.ON_ELITE_OEPN_DECK, {
 					shipType = slot1,
@@ -2284,27 +2295,31 @@ function slot0.flushFleetEditButton(slot0, slot1)
 				return
 			end
 
-			slot19.onReleased:RemoveAllListeners()
-			slot19.onLongPressed:RemoveAllListeners()
-			slot19.onReleased:AddListener(function ()
+			slot23.onReleased:RemoveAllListeners()
+			slot23.onLongPressed:RemoveAllListeners()
+			slot23.onReleased:AddListener(function ()
 				slot0()
 
 				return
 			end)
-			slot19.onLongPressed:AddListener(function ()
-				if slot0 then
+			slot23.onLongPressed:AddListener(function ()
+				if not slot0 then
 					slot1()
 				else
 					slot2:hideFleetEdit()
 					slot2:emit(LevelMediator2.ON_FLEET_SHIPINFO, {
-						shipInfoList = slot3[],
-						shipVO = slot5,
-						chapter = slot6
+						shipId = slot0.id,
+						shipVOs = slot3,
+						chapter = slot3
 					})
 				end
 
 				return
 			end)
+		end
+
+		for slot16 = 3, 1, -1 do
+			slot12[slot16]:SetSiblingIndex(slot11[slot16] - 1)
 		end
 
 		if (slot9 == true or slot10 == 3) and slot8 ~= 3 then
@@ -2316,7 +2331,7 @@ function slot0.flushFleetEditButton(slot0, slot1)
 		return
 	end
 
-	function slot13(slot0, slot1, slot2)
+	function slot12(slot0, slot1, slot2)
 		slot4 = slot2:getEliteFleetCommanders()[slot0]
 
 		for slot8 = 1, 2, 1 do
@@ -2353,32 +2368,31 @@ function slot0.flushFleetEditButton(slot0, slot1)
 		return
 	end
 
-	slot14 = slot1:getConfig("limitation")
+	slot13 = slot1:getConfig("limitation")
 
-	for slot18 = 1, 2, 1 do
-		slot11[slot18] = {}
-		slot19 = slot2:GetChild(slot18 - 1)
+	for slot17 = 1, 2, 1 do
+		slot18 = slot2:GetChild(slot17 - 1)
 
-		setActive(slot22, false)
-		setActive(findTF(slot19, "selected"), false)
-		setActive(findTF(slot19, TeamType.Main), slot18 <= slot1:getConfig("group_num"))
-		setActive(findTF(slot19, TeamType.Vanguard), slot18 <= slot1:getConfig("group_num"))
-		setActive(slot0:findTF("btn_clear", slot19), slot18 <= slot1:getConfig("group_num") and not slot0.contextData.EditingCommander)
-		setActive(slot0:findTF("btn_recom", slot19), slot18 <= slot1:getConfig("group_num") and not slot0.contextData.EditingCommander)
-		setActive(slot0:findTF("blank", slot19), slot1:getConfig("group_num") < slot18)
-		setActive(slot0:findTF("commander", slot19), slot0.contextData.EditingCommander and slot18 <= slot1:getConfig("group_num"))
-		setText(slot0:findTF("bg/name", slot19), (slot18 <= slot1:getConfig("group_num") and Fleet.DEFAULT_NAME[slot18]) or "")
+		setActive(slot21, false)
+		setActive(findTF(slot18, "selected"), false)
+		setActive(findTF(slot18, TeamType.Main), slot17 <= slot1:getConfig("group_num"))
+		setActive(findTF(slot18, TeamType.Vanguard), slot17 <= slot1.getConfig("group_num"))
+		setActive(slot0:findTF("btn_clear", slot18), slot17 <= slot1.getConfig("group_num") and not slot0.contextData.EditingCommander)
+		setActive(slot0:findTF("btn_recom", slot18), slot17 <= slot1.getConfig("group_num") and not slot0.contextData.EditingCommander)
+		setActive(slot0:findTF("blank", slot18), not (slot17 <= slot1.getConfig("group_num")))
+		setActive(slot0:findTF("commander", slot18), slot0.contextData.EditingCommander and slot17 <= slot1.getConfig("group_num"))
+		setText(slot0:findTF("bg/name", slot18), (slot17 <= slot1.getConfig("group_num") and Fleet.DEFAULT_NAME[slot17]) or "")
 
-		if slot18 <= slot1:getConfig("group_num") then
-			slot29 = slot12(slot19, TeamType.Vanguard, slot27, slot18)
+		if slot24 then
+			slot29 = slot11(slot18, TeamType.Vanguard, slot27, slot17)
 
-			slot13(slot18, slot24, slot1)
+			slot12(slot17, slot23, slot1)
 
-			if slot12(slot19, TeamType.Main, slot26, slot18) and slot29 then
-				setActive(slot0:findTF("selected", slot19), true)
+			if slot11(slot18, TeamType.Main, slot26, slot17) and slot29 then
+				setActive(slot0:findTF("selected", slot18), true)
 			end
 
-			onButton(slot0, slot20, function ()
+			onButton(slot0, slot19, function ()
 				if #slot0[slot1] ~= 0 then
 					pg.MsgboxMgr.GetInstance():ShowMsgBox({
 						content = i18n("battle_preCombatLayer_clear_confirm"),
@@ -2395,7 +2409,7 @@ function slot0.flushFleetEditButton(slot0, slot1)
 
 				return
 			end)
-			onButton(slot0, slot21, function ()
+			onButton(slot0, slot20, function ()
 				if #slot0[slot1] ~= 6 then
 					if slot0 ~= 0 then
 						pg.MsgboxMgr.GetInstance():ShowMsgBox({
@@ -2422,30 +2436,29 @@ function slot0.flushFleetEditButton(slot0, slot1)
 		end
 	end
 
-	for slot18 = 1, 1, 1 do
-		slot11[slot18 + 2] = {}
-		slot20 = slot3:GetChild(slot18 - 1)
+	for slot17 = 1, 1, 1 do
+		slot19 = slot3:GetChild(slot17 - 1)
 
-		setActive(slot23, false)
-		setActive(findTF(slot20, "selected"), false)
-		setActive(findTF(slot20, TeamType.Submarine), slot18 <= slot1:getConfig("submarine_num"))
-		setActive(slot0:findTF("btn_clear", slot20), slot18 <= slot1:getConfig("submarine_num") and not slot0.contextData.EditingCommander)
-		setActive(slot0:findTF("btn_recom", slot20), slot18 <= slot1:getConfig("submarine_num") and not slot0.contextData.EditingCommander)
-		setActive(slot0:findTF("blank", slot20), slot1:getConfig("submarine_num") < slot18)
-		setActive(slot0:findTF("commander", slot20), slot18 <= slot1:getConfig("submarine_num") and slot0.contextData.EditingCommander)
-		setText(slot0:findTF("bg/name", slot20), (slot18 <= slot1:getConfig("submarine_num") and Fleet.DEFAULT_NAME[(Fleet.SUBMARINE_FLEET_ID + slot18) - 1]) or "")
-		slot13(slot19, slot0.findTF("commander", slot20), slot1)
+		setActive(slot22, false)
+		setActive(findTF(slot19, "selected"), false)
+		setActive(findTF(slot19, TeamType.Submarine), slot17 <= slot1:getConfig("submarine_num"))
+		setActive(slot0:findTF("btn_clear", slot19), slot17 <= slot1:getConfig("submarine_num") and not slot0.contextData.EditingCommander)
+		setActive(slot0:findTF("btn_recom", slot19), slot17 <= slot1:getConfig("submarine_num") and not slot0.contextData.EditingCommander)
+		setActive(slot0:findTF("blank", slot19), slot1:getConfig("submarine_num") < slot17)
+		setActive(slot0:findTF("commander", slot19), slot17 <= slot1:getConfig("submarine_num") and slot0.contextData.EditingCommander)
+		setText(slot0:findTF("bg/name", slot19), (slot17 <= slot1:getConfig("submarine_num") and Fleet.DEFAULT_NAME[(Fleet.SUBMARINE_FLEET_ID + slot17) - 1]) or "")
+		slot12(slot17 + 2, slot0.findTF("commander", slot19), slot1)
 
-		if slot18 <= slot1:getConfig("submarine_num") then
-			if slot12(slot20, TeamType.Submarine, {
+		if slot17 <= slot1:getConfig("submarine_num") then
+			if slot11(slot19, TeamType.Submarine, {
 				0,
 				0,
 				0
-			}, slot19) then
-				setActive(slot0:findTF("selected", slot20), true)
+			}, slot18) then
+				setActive(slot0:findTF("selected", slot19), true)
 			end
 
-			onButton(slot0, slot21, function ()
+			onButton(slot0, slot20, function ()
 				if #slot0[slot1] ~= 0 then
 					pg.MsgboxMgr.GetInstance():ShowMsgBox({
 						content = i18n("battle_preCombatLayer_clear_confirm"),
@@ -2462,7 +2475,7 @@ function slot0.flushFleetEditButton(slot0, slot1)
 
 				return
 			end)
-			onButton(slot0, slot22, function ()
+			onButton(slot0, slot21, function ()
 				if #slot0[slot1] ~= 3 then
 					if slot0 ~= 0 then
 						pg.MsgboxMgr.GetInstance():ShowMsgBox({

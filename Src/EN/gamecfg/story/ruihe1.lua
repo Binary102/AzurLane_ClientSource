@@ -11,17 +11,27 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"幸运之鹤\n\n<size=30>一  {namecode:96}的早晨</size>",
+					"The Lucky Crane\n\n<size=30>Chapter 1 - Zuikaku In The Morning</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "往常的这个时间，作为秘书舰的{namecode:96}应该已经前来进行早晨的报告了。不过今天…似乎还没来的样子",
+			say = "Port - Early morning",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgm = "story-1",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			bgName = "bg_story_task",
+			dir = 1,
+			say = "My secretary, Zuikaku, would usually come to my office and give me a report at this time of day, but it seems she's not here yet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -34,14 +44,14 @@ return {
 			dir = 1,
 			actor = 0,
 			nameColor = "#a9f548",
-			say = "……",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "去重樱空母宿舍看看",
+					content = "Head to the dorm to check on Zuikaku",
 					flag = 1
 				}
 			}
@@ -54,7 +64,7 @@ return {
 			actorName = "{namecode:96}",
 			actor = 307064,
 			nameColor = "#a9f548",
-			say = "呼…哈啊…咕…Zzzzzzz",
+			say = "*Snore*... Mmhh... *Snore*... Zzzzzzz...",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -88,7 +98,7 @@ return {
 			dir = 1,
 			actor = 307054,
 			actorName = "{namecode:95}",
-			say = "如您所见…指挥官，非常抱歉……",
+			say = "As you can see, she's fast asleep... Please, forgive her, Commander...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +112,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "{namecode:96}在床上躺成大字，发出豪爽的酣睡声",
+			say = "Zuikaku was lying in her bed, limbs stretched out in all directions, snoring loudly.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +125,25 @@ return {
 			dir = 1,
 			actor = 307054,
 			actorName = "{namecode:95}",
-			say = "不知道是不是昨晚特训太拼命了…明明平常都比我早起得多",
+			say = "Perhaps she overworked herself during last night's training... Usually, she'd even wake up before me...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			say = "... Sis... *Snore*... Some people dream of success... but I'm gonna work hard at it... Zzzz...",
+			side = 2,
+			bgName = "bg_story_room",
+			actorName = "{namecode:96}",
+			dir = 1,
+			actor = 307064,
+			nameColor = "#a9f548",
+			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,7 +160,7 @@ return {
 			dir = 1,
 			actor = 307054,
 			actorName = "{namecode:95}",
-			say = "好啦{namecode:96}，快起床，指挥官来了哦？",
+			say = "I just cleaned the room yesterday, and now she's made a mess of it...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +171,24 @@ return {
 			}
 		},
 		{
-			say = "指……啊呜！？对对对不起我睡过头…哇啊啊啊！？",
+			nameColor = "#a9f548",
+			side = 2,
+			bgName = "bg_story_room",
+			dir = 1,
+			actor = 307054,
+			actorName = "{namecode:95}",
+			say = "C'mon, Zuikaku, wake up! The Commander's here!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			say = "Com... mander?! Oh shoot, I-I'm sorry! I overslept when I- Waahh?!",
 			side = 0,
 			bgName = "bg_story_room",
 			actorName = "{namecode:96}",
@@ -183,7 +228,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "慌忙起身的{namecode:96}踩到了掉在地上的被子摔倒了",
+			say = "Startled, but awake, Zuikaku got out of bed. She tripped over a pillow which must've fallen off the side of her bed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +241,7 @@ return {
 			dir = 1,
 			actor = 307054,
 			actorName = "{namecode:95}",
-			say = "哎呀呀……姐姐帮你整理，快去洗漱一下吧",
+			say = "Goodness gracious... Go and get yourself in order, I'll clean up the room.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +258,7 @@ return {
 			dir = 1,
 			actor = 307054,
 			actorName = "{namecode:95}",
-			say = "…指挥官在等着你哦？呵呵",
+			say = "... The Commander's waiting for you, so don't dawdle. *Giggle*",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +269,7 @@ return {
 			}
 		},
 		{
-			say = "好、好的！",
+			say = "G-got it!",
 			side = 0,
 			bgName = "bg_story_room",
 			actorName = "{namecode:96}",

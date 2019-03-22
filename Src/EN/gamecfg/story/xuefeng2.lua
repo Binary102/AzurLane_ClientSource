@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"叫我{namecode:22}大人！\n\n<size=30>二　天才{namecode:22}大人</size>",
+					"\"Call me Yukikaze the Great!\"\n\n<size=30>Chapter 2: Yukikaze, the Genius</size>",
 					1
 				}
 			}
@@ -24,7 +24,7 @@ return {
 			bgm = "story-1",
 			actor = 301164,
 			actorName = "{namecode:22}",
-			say = "啊～哈哈哈！任用本大人做秘书舰，眼光不错嘛♪",
+			say = "Wa ha ha ha! So you want Yukikaze the Great to be your secretary. You've chosen well!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			dir = 1,
 			actor = 301164,
 			actorName = "{namecode:22}",
-			say = "哼，想必你也听说过{namecode:22}大人在的活跃事迹了吧！",
+			say = "Heh. Surely this is because you've heard of my many feats!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			},
 			options = {
 				{
-					content = "回想{namecode:22}来港区这些天",
+					content = "Try reflecting upon Yukikaze's feats...",
 					flag = 1
 				}
 			}
@@ -78,7 +78,7 @@ return {
 			dir = 1,
 			actor = 201214,
 			nameColor = "#a9f548",
-			say = "Z23酱～这个问题怎么回答啊……",
+			say = "Zed, I don't quite get this question~",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -116,7 +116,7 @@ return {
 			}
 		},
 		{
-			say = "所以说上课要认真听讲啊……我看看……呃，这……",
+			say = "That's why I said you've got to pay attention in class... Let me see... it goes like this...",
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -142,7 +142,7 @@ return {
 			dir = 1,
 			actor = 301164,
 			actorName = "{namecode:22}",
-			say = "哼！这么简单的问题都回答不出来吗？看本大人一下子就给你解决掉！",
+			say = "Hmph! You two seriously can't solve an easy question like this? I can figure out the answer just by glancing at it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			actorName = "{namecode:67}",
 			actor = 303124,
 			nameColor = "#a9f548",
-			say = "这个舰装放在膝盖上很容易看不见整备的地方呢……小{namecode:22}，能帮帮忙吗？",
+			say = "I've been having trouble trying to do maintenance on my equipment, since I can't really see from this angle... Yuki~ could you lend me a hand?",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -201,7 +201,7 @@ return {
 			dir = 1,
 			actor = 301164,
 			actorName = "{namecode:22}",
-			say = "嗯？嗯嗯？？（砸）",
+			say = "Uhh.... Huh?? *bonk!*",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +226,7 @@ return {
 			dir = -1,
 			actor = 303114,
 			actorName = "{namecode:66}",
-			say = "什么！？居然这么简单就修好了！？……在下的面子要往哪放……",
+			say = "W-what?! She managed to fix it so easily! I am truly humbled by her ability to use her head...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +246,7 @@ return {
 			}
 		},
 		{
-			say = "哼！小事一桩！还有，不是小{namecode:22}，是{namecode:22}大人啦！！",
+			say = "Hmph! This was a piece of cake! Also, it's not \"Yuki!\" It's Yukikaze the Great!",
 			side = 0,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -273,7 +273,7 @@ return {
 			actorName = "{namecode:98}",
 			actor = 312014,
 			nameColor = "#a9f548",
-			say = "{namecode:22}来了真是帮大忙了～之前丢的素材都找到了喵～",
+			say = "I'm so glad you came, Yukikaze! You've managed to find all the supplies that I lost, nya!",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -301,7 +301,7 @@ return {
 			}
 		},
 		{
-			say = "哼、哼！没有什么问题可以难倒我{namecode:22}大人啦！（素材就是在这边散步的时候随随便便捡到的……）",
+			say = "H-hmph! There's no problem that Yukikaze the Great cannot solve, after all! (She randomly bumped into the supplies when she tripped and rolled into the bushes...)",
 			side = 0,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -336,7 +336,7 @@ return {
 			actorName = "{namecode:22}",
 			actor = 301164,
 			nameColor = "#a9f548",
-			say = "哼哼，了解到{namecode:22}大人的厉害了吗！今后尽管依赖本大人啦！",
+			say = "Hmph! Now, you understand the true power of Yukikaze the Great! Please continue count on me in the future!",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -387,7 +387,7 @@ return {
 			blackBg = true,
 			actor = 301164,
 			actorName = "{namecode:22}",
-			say = "“先去给我倒杯茶”……！？什么啊！你居然要{namecode:22}大人干这种跑腿的事吗――！",
+			say = "What?! Make a cup of tea for you...?! Do you think Yukikaze the Great is some kind of errand girl...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

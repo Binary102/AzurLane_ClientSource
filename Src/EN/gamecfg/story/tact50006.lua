@@ -4,27 +4,10 @@ return {
 	once = true,
 	scripts = {
 		{
-			mode = 1,
-			sequence = {
-				{
-					"",
-					0.2
-				}
-			},
-			signDate = {
-				"8月9日 凌晨 图拉吉岛南方海域",
-				0.2,
-				{
-					1050,
-					-685
-				}
-			}
-		},
-		{
 			actor = 103081,
 			side = 2,
 			nameColor = "#a9f548",
-			say = "为什么我们的援军没有来，敌人却有援军啊！这里真的是我们占领的海域吗？！",
+			say = "How come the enemy can get reinforcements before us? I thought we were supposed to be in control of these waters?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -37,7 +20,7 @@ return {
 		{
 			actor = 103091,
 			side = 0,
-			say = "……从方向来看，她们两个也是从南边赶过来的，恐怕这五个人才是今晚入侵的主力，只是其中两个分开去对付芝加哥那边了。",
+			say = "Those two came from the south, so that must mean...",
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -56,7 +39,7 @@ return {
 			actor = 103081,
 			side = 1,
 			nameColor = "#a9f548",
-			say = "也就是说和你猜的一样，芝加哥那边已经被解决了吗……",
+			say = "As you predicted, Quincy... Chicago must have already been taken out...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +53,7 @@ return {
 			actor = 103101,
 			side = 1,
 			nameColor = "#a9f548",
-			say = "芝加哥姐姐，有点没用……",
+			say = "Chicago... is kinda useless...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +67,7 @@ return {
 			actor = 103091,
 			side = 0,
 			nameColor = "#a9f548",
-			say = "这个是不好的话，不可以这样子讲哦，文森斯。",
+			say = "Don't say that! Chicago surely did her best. Got it, Vincennes?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,7 +81,7 @@ return {
 			actor = 103101,
 			side = 1,
 			nameColor = "#a9f548",
-			say = "喔……",
+			say = "Sure...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,7 +95,7 @@ return {
 			actor = 103081,
 			side = 1,
 			nameColor = "#a9f548",
-			say = "呼，总而言之，圣胡安那边这点时间肯定也赶不过来了吧，昆西？",
+			say = "So, I suppose San Juan and the others won't be able to make it from the east either...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +109,7 @@ return {
 			actor = 103091,
 			side = 0,
 			nameColor = "#a9f548",
-			say = "是呢，阿斯托利亚姐姐。",
+			say = "Seems to be the case...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +123,7 @@ return {
 			actor = 103091,
 			side = 0,
 			nameColor = "#a9f548",
-			say = "不过对面要完成包抄也还需要一点时间，我们至少还可以在这点时间里再进行一些反击。",
+			say = "The enemy won't be able to surround us just yet. We should make use of the time we have to counterattack...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +137,7 @@ return {
 			actor = 103081,
 			side = 1,
 			nameColor = "#a9f548",
-			say = "好，那就这么办吧！",
+			say = "All right, let's do that then.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +151,7 @@ return {
 			actor = 103101,
 			side = 2,
 			nameColor = "#a9f548",
-			say = "噢！",
+			say = "Let's go!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

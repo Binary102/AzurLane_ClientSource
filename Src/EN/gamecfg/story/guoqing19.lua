@@ -13,7 +13,7 @@ return {
 			side = 2,
 			dir = -1,
 			nameColor = "#ff0000",
-			say = "Hummm, \"Creator\", did you see it... the glorious light emanating from that soul... is this the so-called awakening”?",
+			say = "Ahh... The glorious light born from clashing souls... O, Creator, please grace us with your attention... for this is the light of the Awakening you desire...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -29,7 +29,7 @@ return {
 			side = 2,
 			dir = -1,
 			nameColor = "#ff0000",
-			say = "So beautiful yet so fragile... I can’t help but want to crush it in my grasp... ha ha ha ha….",
+			say = "So beautiful, yet so frail... I can't help but want to crush it in my grasp... Ahahaha, ahahaha...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -40,7 +40,7 @@ return {
 			}
 		},
 		{
-			say = "Oh... you truly are so full of yourself... no matter, it’ll be over for you soon.",
+			say = "I thought this would happen... Very well. It seems this is where our plans come to an end.",
 			side = 0,
 			actorName = "{namecode:92}",
 			dir = -1,
@@ -65,7 +65,7 @@ return {
 			side = 1,
 			dir = -1,
 			nameColor = "#ff0000",
-			say = "Truly... this is quite regrettable~ We'll leave you here... it's about time to set sail... to the new \"Sanctuary\"...",
+			say = "Is that so...? How regrettable~ Then let us depart... *Giggle*... We shall find ourselves a new Sanctuary...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			side = 2,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "Oh... no, don’t you dare think about leaving, I still have words to say...",
+			say = "Hey... W-wait! I'm not finished with you...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			soundeffect = "event:/ui/alarm",
 			actor = 900011,
 			nameColor = "#ff0000",
-			say = "Warning --- the retrieval process has started, the text field is about to be dismantled ---",
+			say = "ERADICATION SEQUENCE INITIATED. PLEASE EVACUATE THE AREA IMMEDIATELY.",
 			typewriter = {
 				speed = 0.02,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			}
 		},
 		{
-			say = "Warning --- the retrieval process has started, the text field is about to be dismantled ---",
+			say = "ERADICATION SEQUENCE INITIATED. PLEASE EVACUATE THE AREA IMMEDIATELY.",
 			side = 0,
 			nameColor = "#ff0000",
 			dir = 0,
@@ -127,7 +127,7 @@ return {
 			}
 		},
 		{
-			say = "Warning --- the retrieval process has started, the text field is about to be dismantled ---",
+			say = "ERADICATION SEQUENCE INITIATED. PLEASE EVACUATE THE AREA IMMEDIATELY.",
 			side = 0,
 			nameColor = "#ff0000",
 			dir = 0,
@@ -149,7 +149,7 @@ return {
 			side = 2,
 			dir = 1,
 			nameColor = "#ff0000",
-			say = "Fellow sisters, everything in this world has its own cause and effect. Through this infinite cycle of rebirth, we are always looking for another possibility.",
+			say = "My sister, everything in this world has its cause and effect. We must always look for another possibility through this infinite cycle of death and rebirth...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			side = 2,
 			dir = 1,
 			nameColor = "#ff0000",
-			say = "One day, you will understand the things we are doing and the way we are doing it...",
+			say = "One day you will understand the reason why we do what we do...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,7 +181,7 @@ return {
 			side = 2,
 			dir = 1,
 			nameColor = "#ff0000",
-			say = "May all the guardians watch over you.",
+			say = "May all the gods watch over you...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			blackBg = true,
 			actor = 900011,
 			nameColor = "#ff0000",
-			say = "The Y test field... has completed another round of simulation.",
+			say = "The simulation at Test Site Gamma has concluded.",
 			flashout = {
 				dur = 1.5,
 				alpha = {
@@ -228,7 +228,7 @@ return {
 			side = 2,
 			actorName = "Observer (???)",
 			blackBg = true,
-			say = "Oh? Let me see... so it was those ephemerals, this is...",
+			say = "Hm? Let me see... Test Site Gamma...? Oh, that insignificant zoo of a test site...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -244,7 +244,7 @@ return {
 			side = 2,
 			actorName = "Tester (???)",
 			blackBg = true,
-			say = "Hmm, the power of protecting and saving her own people? This is beyond our expectations, perhaps...",
+			say = "Yes, that one. Hmm, \"resists attempts at control and unleashes latent power to save her friends\"... This is beyond our expectations.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,7 +260,7 @@ return {
 			side = 2,
 			actorName = "Observer (???)",
 			blackBg = true,
-			say = "Interesting, what a group of girls who seek to break free the shackles of fate. I thought I was in control of everything, but everything from the start was merely just a hypothesis...",
+			say = "Interesting... By deviating from their predetermined destiny, they've managed to break free from the shackles of fate... I thought we were in control of everything, but perhaps that was all a lie...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -276,7 +276,7 @@ return {
 			side = 2,
 			actorName = "Tester (???)",
 			blackBg = true,
-			say = "However, according to the test data, they were unexpectedly favored by the \"Creator\", hehehe.",
+			say = "Nevertheless, this is superb data. It seems the Creator has taken a liking to these girls.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,7 +292,7 @@ return {
 			side = 2,
 			actorName = "Observer (???)",
 			blackBg = true,
-			say = "Hmph, isn’t this just a sick sense of humor by the \"Creator\"...",
+			say = "Hmph! It's no more than the Creator's way of playing a joke on us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +308,7 @@ return {
 			side = 2,
 			actorName = "Tester (???)",
 			blackBg = true,
-			say = "So far... they need more experience. At the very least... I can’t let them face each other now...",
+			say = "The data shows... they need more experience. At the very least... we can't let them face each other yet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,7 +324,7 @@ return {
 			side = 2,
 			actorName = "Observer (???)",
 			blackBg = true,
-			say = "Resetting all Pawns. Clearing all data. Increase the index by 5%... release the \"Key\"... start the next round of testing...",
+			say = "Resetting all Pawns. Clearing all data. Increasing all parameters by 5%... Releasing the key... And so, the next round of testing begins...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

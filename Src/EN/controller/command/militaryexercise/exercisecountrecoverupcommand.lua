@@ -3,7 +3,7 @@ class("ExerciseCountRecoverUpCommand", pm.SimpleCommand).execute = function (slo
 	slot4 = slot3:getSeasonInfo()
 
 	slot4:updateResetTime(slot2() + pg.TimeMgr.GetInstance():GetServerTime())
-	slot4:resetExerciseCount(SeasonInfo.RECOVER_UP_COUNT)
+	slot4:updateExerciseCount(SeasonInfo.RECOVER_UP_COUNT)
 	slot3:updateSeasonInfo(slot4)
 	slot3:addRefreshCountTimer()
 end

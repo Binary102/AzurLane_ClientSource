@@ -10,12 +10,12 @@ function slot3.Ctor(slot0)
 end
 
 function slot3.Initialize(slot0)
-	slot0:Init()
 	slot0.super.Initialize(slot0)
 
 	slot0._dataProxy = slot0._state:GetProxyByName(slot1.Battle.BattleDataProxy.__name)
 	slot0._uiMediator = slot0._state:GetUIMediator()
 
+	slot0:Init()
 	slot0:InitProtocol()
 	slot0:AddEvent()
 

@@ -120,6 +120,10 @@ function slot0.displayFood(slot0, slot1)
 	slot4 = 0
 	slot5 = pg.dorm_data_template[slot0.dormVO.id]
 	slot0.eventTriggers[pressPersistTrigger(slot3, 0.5, function (slot0)
+		if not slot0.foodVOs then
+			return
+		end
+
 		if slot0.dormVO.food ~= slot2.capacity + slot0.dormVO.dorm_food_max and slot3 < slot0.dormVO.food + slot2 and slot0.remindEndTime < pg.TimeMgr.GetInstance():GetServerTime() then
 			pg.MsgboxMgr:GetInstance():showSingleItemBox({
 				showStopRamind = true,

@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"{namecode:30}的烦恼\n\n<size=30>四 秘书舰{namecode:30}，着任！</size>",
+					"The Timid Black Cat\n\n<size=30>Hatsuharu, The Secretary!</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "港区·指挥室",
+			say = "Port - Office",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -51,7 +51,7 @@ return {
 			dir = 1,
 			actor = 301211,
 			nameColor = "#a9f548",
-			say = "请，请让我担任秘书舰吧！！",
+			say = "P-p-please, let me be your secretary!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "！？这，这是发生什么了…",
+			say = "... I didn't expect to see this today.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我，我知道我，那个，比较胆小……但，但是，秘书舰的工作，我，我一定会努力去做的！",
+			say = "I-I'm, umm, socially anxious, but... I-I'll try my best to be a g-good secretary!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			dir = 1,
 			actor = 301211,
 			nameColor = "#a9f548",
-			say = "我也想为港区的大，大家，出一份力！",
+			say = "I-I want to be someone that people can rely on!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊哈哈…指挥官一脸疑惑呢，还好我跟着来了～其实事情是这样的…",
+			say = "Don't be so surprised, Commander~ *Phew*, it's a good thing I came along... You see, Commander...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
-			say = "从{namecode:141}那里听说了之前发生的种种——",
+			say = "Wakaba explained the situation.",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -178,7 +178,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "原、原来如此……",
+			say = "Now I understand. Hatsuharu wants to cure her social anxiety.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			},
 			options = {
 				{
-					content = "答应{namecode:30}的请求",
+					content = "Respond to Hatsuharu's request",
 					flag = 1
 				}
 			}
@@ -200,7 +200,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "欸，这，这是同意了吗？",
+			say = "Is... i-is that... g-good?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			dir = 1,
 			actor = 301231,
 			nameColor = "#a9f548",
-			say = "太好了～姐姐加油哦～我就不打扰你们的工作啦～拜拜～",
+			say = "You did it! Now just give it all you've got, Hatsuharu! I'll leave now so I won't get in your way! See ya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			dir = 1,
 			actor = 301211,
 			nameColor = "#a9f548",
-			say = "诶？啊，好、好的！我会加油的！",
+			say = "Uh, um, okay! I-I promise to give it my all!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,7 +265,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "虽说有这份热情是挺好的，不过——",
+			say = "It's good to see that she's enthusiastic, but it remains to be seen how far that will get her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,7 +281,7 @@ return {
 			dir = 1,
 			actor = 103111,
 			nameColor = "#a9f548",
-			say = "喂，重樱的小姑娘，能给我看一下明天演习海域的安排情况吗？",
+			say = "You there, Sakura Empire girl, could you tell me what the schedule is for tomorrow's exercises?",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -314,7 +314,7 @@ return {
 			dir = 1,
 			actor = 301211,
 			nameColor = "#a9f548",
-			say = "咿！！对，对不起！我，我……",
+			say = "*Eek*?! W-what did you ask?! I-I'm not...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -340,7 +340,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "等等，为什么突然要道歉啊？这不就像是我在欺负人一样…",
+			say = "Whoa there, what's with the apology? I'm not trying to steal your lunch money, little girl.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -356,7 +356,7 @@ return {
 			dir = 1,
 			actor = 203071,
 			nameColor = "#a9f548",
-			say = "关于明天下午的试炼<Tribulation>，结界<Zone>已经准备好了吗？",
+			say = "Has the †Area† for the †Exercises† of the morrow been prepared yet?",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -389,7 +389,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "欸…欸？",
+			say = "P... pardon me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -405,7 +405,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔，没能明白我的用意，你并不是力量<Force>的持有者吗……",
+			say = "So you do not comprehend me... Clear as day it is to me: you are no wielder of the †Force†...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -421,7 +421,7 @@ return {
 			dir = 1,
 			actor = 301211,
 			nameColor = "#a9f548",
-			say = "呜、呜呜…对、对不起…",
+			say = "*Whimper*... I'm sorry that I can't help!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -445,7 +445,7 @@ return {
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
-			say = "看来果然没有那么顺利呢",
+			say = "This doesn't appear to be going very well...",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -478,7 +478,7 @@ return {
 			dir = 1,
 			actor = 301211,
 			nameColor = "#a9f548",
-			say = "对不起，给指挥官添了很多麻烦…我，我果然还是不太擅长和别人交流……",
+			say = "I-I'm sorry! I-I'm just... no good at t-talking to people...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -489,7 +489,7 @@ return {
 			},
 			options = {
 				{
-					content = "安慰{namecode:30}",
+					content = "Comfort Hatsuharu",
 					flag = 1
 				}
 			}
@@ -500,7 +500,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呜…指挥官…谢谢你",
+			say = "*Sob*... T-thank you...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -516,7 +516,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊？对话的练习？指挥官和我吗？",
+			say = "... You'll be my conversation partner?! You'll help me practice so I can get better at it?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -532,7 +532,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "真的可以吗？那，那就麻烦指挥官了！",
+			say = "... A-are you sure you don't mind?! Thank you so much!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -546,7 +546,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "虽然{namecode:30}自己似乎没意识到，不过…她似乎已经能正常地和这边对话了",
+			say = "I doubt Hatsuharu realizes she just managed to converse really well.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -561,7 +561,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "先从哪个话题开始练习呢——",
+			say = "Now the question is: where do we start...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

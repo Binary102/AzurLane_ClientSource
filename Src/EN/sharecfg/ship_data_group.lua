@@ -1214,6 +1214,31 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[38] = {
+		nationality = 1,
+		hide = 0,
+		trans_skin = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		code = 38,
+		type = 2,
+		group_type = 10210,
+		trans_type = 0,
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"Exploring Stage 11-4",
+				{
+					"LEVEL",
+					{
+						chapterid = 1104
+					}
+				},
+				0
+			}
+		}
+	},
 	[39] = {
 		nationality = 1,
 		hide = 0,
@@ -1517,6 +1542,72 @@ pg.ship_data_group = {
 						projectName = "heavy",
 						page = 1
 					}
+				},
+				0
+			}
+		}
+	},
+	[46] = {
+		nationality = 1,
+		hide = 0,
+		trans_skin = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		code = 46,
+		type = 3,
+		group_type = 10308,
+		trans_type = 0,
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"Event: Moonlit Overture",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[47] = {
+		nationality = 1,
+		hide = 0,
+		trans_skin = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		code = 47,
+		type = 3,
+		group_type = 10309,
+		trans_type = 0,
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"Event: Moonlit Overture",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[48] = {
+		nationality = 1,
+		hide = 0,
+		trans_skin = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		code = 48,
+		type = 3,
+		group_type = 10310,
+		trans_type = 0,
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"Event: Moonlit Overture",
+				{
+					""
 				},
 				0
 			}
@@ -2790,15 +2881,24 @@ pg.ship_data_group = {
 	[91] = {
 		nationality = 2,
 		hide = 0,
-		trans_skin = 0,
+		trans_skin = 201119,
 		handbook_type = 0,
 		redirect_id = 101,
 		code = 91,
 		type = 1,
 		group_type = 20111,
 		trans_type = 1,
-		trans_radar_chart = {},
-		trans_skill = {},
+		trans_radar_chart = {
+			"C",
+			"B",
+			"E",
+			"A",
+			"C",
+			"D"
+		},
+		trans_skill = {
+			1061
+		},
 		description = {
 			{
 				"Honor medal exchange",
@@ -4503,7 +4603,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"Visitors Dyed in Red",
+				"Event: Visitors Dyed in Red",
 				{
 					""
 				},
@@ -4636,6 +4736,28 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[166] = {
+		nationality = 3,
+		hide = 0,
+		trans_skin = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		code = 166,
+		type = 1,
+		group_type = 30116,
+		trans_type = 0,
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"Event: Visitors Dyed in Red",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[167] = {
 		nationality = 3,
 		hide = 0,
@@ -4700,7 +4822,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"Visitors Dyed in Red",
+				"Event: Visitors Dyed in Red",
 				{
 					""
 				},
@@ -4852,6 +4974,59 @@ pg.ship_data_group = {
 					{
 						chapterid = 801
 					}
+				},
+				0
+			}
+		}
+	},
+	[188] = {
+		nationality = 3,
+		hide = 0,
+		trans_skin = 302109,
+		handbook_type = 0,
+		redirect_id = 101,
+		code = 188,
+		type = 2,
+		group_type = 30210,
+		trans_type = 3,
+		trans_radar_chart = {
+			"A",
+			"C",
+			"E",
+			"D",
+			"C",
+			"A"
+		},
+		trans_skill = {
+			11220
+		},
+		description = {
+			{
+				"Event: Visitors Dyed in Red",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[189] = {
+		nationality = 3,
+		hide = 0,
+		trans_skin = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		code = 189,
+		type = 2,
+		group_type = 30211,
+		trans_type = 0,
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"Event: Visitors Dyed in Red",
+				{
+					""
 				},
 				0
 			}
@@ -5143,6 +5318,28 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[207] = {
+		nationality = 3,
+		hide = 0,
+		trans_skin = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		code = 207,
+		type = 4,
+		group_type = 30404,
+		trans_type = 0,
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"Event: Kirishima's Ninjutsu Class",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[367] = {
 		nationality = 3,
 		hide = 0,
@@ -5247,7 +5444,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"Visitors Dyed in Red",
+				"Event: Visitors Dyed in Red",
 				{
 					""
 				},
@@ -5269,7 +5466,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"Visitors Dyed in Red",
+				"Event: Visitors Dyed in Red",
 				{
 					""
 				},
@@ -5494,7 +5691,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"Visitors Dyed in Red",
+				"Event: Visitors Dyed in Red",
 				{
 					""
 				},
@@ -5516,7 +5713,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"Visitors Dyed in Red",
+				"Event: Visitors Dyed in Red",
 				{
 					""
 				},
@@ -6375,15 +6572,24 @@ pg.ship_data_group = {
 	[270] = {
 		nationality = 3,
 		hide = 0,
-		trans_skin = 0,
+		trans_skin = 301319,
 		handbook_type = 0,
 		redirect_id = 101,
 		code = 270,
 		type = 1,
 		group_type = 30131,
 		trans_type = 1,
-		trans_radar_chart = {},
-		trans_skill = {},
+		trans_radar_chart = {
+			"D",
+			"B",
+			"E",
+			"A",
+			"C",
+			"D"
+		},
+		trans_skill = {
+			4071
+		},
 		description = {
 			{
 				"Monthly Sign-in",
@@ -6397,15 +6603,24 @@ pg.ship_data_group = {
 	[271] = {
 		nationality = 3,
 		hide = 0,
-		trans_skin = 0,
+		trans_skin = 301329,
 		handbook_type = 0,
 		redirect_id = 101,
 		code = 271,
 		type = 1,
 		group_type = 30132,
 		trans_type = 1,
-		trans_radar_chart = {},
-		trans_skill = {},
+		trans_radar_chart = {
+			"D",
+			"A",
+			"E",
+			"A",
+			"C",
+			"D"
+		},
+		trans_skill = {
+			1011
+		},
 		description = {
 			{
 				"Light ship Construction",
@@ -6708,6 +6923,40 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[308] = {
+		nationality = 3,
+		hide = 0,
+		trans_skin = 302129,
+		handbook_type = 0,
+		redirect_id = 101,
+		code = 308,
+		type = 2,
+		group_type = 30212,
+		trans_type = 2,
+		trans_radar_chart = {
+			"C",
+			"A",
+			"E",
+			"B",
+			"B",
+			"B"
+		},
+		trans_skill = {
+			5041
+		},
+		description = {
+			{
+				"Exploring Stage 11-3",
+				{
+					"LEVEL",
+					{
+						chapterid = 1103
+					}
+				},
+				0
+			}
+		}
+	},
 	[309] = {
 		nationality = 3,
 		hide = 0,
@@ -6837,6 +7086,31 @@ pg.ship_data_group = {
 					{
 						projectName = "light",
 						page = 1
+					}
+				},
+				0
+			}
+		}
+	},
+	[321] = {
+		nationality = 3,
+		hide = 0,
+		trans_skin = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		code = 321,
+		type = 2,
+		group_type = 30220,
+		trans_type = 0,
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"Exploring Stage 11-2",
+				{
+					"LEVEL",
+					{
+						chapterid = 1102
 					}
 				},
 				0
@@ -7426,6 +7700,7 @@ pg.ship_data_group = {
 		35,
 		36,
 		37,
+		38,
 		39,
 		40,
 		41,
@@ -7433,6 +7708,9 @@ pg.ship_data_group = {
 		43,
 		44,
 		45,
+		46,
+		47,
+		48,
 		49,
 		52,
 		53,
@@ -7511,6 +7789,7 @@ pg.ship_data_group = {
 		163,
 		164,
 		165,
+		166,
 		167,
 		168,
 		170,
@@ -7520,6 +7799,8 @@ pg.ship_data_group = {
 		182,
 		183,
 		187,
+		188,
+		189,
 		190,
 		191,
 		192,
@@ -7530,6 +7811,7 @@ pg.ship_data_group = {
 		200,
 		201,
 		202,
+		207,
 		367,
 		208,
 		209,
@@ -7588,11 +7870,13 @@ pg.ship_data_group = {
 		303,
 		304,
 		305,
+		308,
 		309,
 		310,
 		316,
 		317,
 		319,
+		321,
 		325,
 		326,
 		327,

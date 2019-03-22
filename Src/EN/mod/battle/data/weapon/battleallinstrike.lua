@@ -69,9 +69,12 @@ function ys.Battle.BattleAllInStrike.SetHost(slot0, slot1)
 		end
 	end
 
-	slot0._totalReload = slot2.CaclulateAirAssistReloadMax(slot0._hiveList)
-
+	slot0:FlushTotalReload()
 	slot0:FlushReloadMax(1)
+end
+
+function ys.Battle.BattleAllInStrike.FlushTotalReload(slot0)
+	slot0._totalReload = slot0.CaclulateAirAssistReloadMax(slot0._hiveList)
 end
 
 function ys.Battle.BattleAllInStrike.FlushReloadMax(slot0, slot1)

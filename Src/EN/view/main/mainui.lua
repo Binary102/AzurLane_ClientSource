@@ -971,7 +971,6 @@ function slot0.ShowAssistInfo(slot0, slot1, slot2)
 
 				return
 			end)
-			Ship.SetExpression(findTF(slot0._paintingTF, "fitter"):GetChild(0), findTF(slot0._paintingTF, "fitter"))
 			slot0:initShipChat()
 
 			return
@@ -1282,15 +1281,17 @@ function slot0.setFlagShip(slot0, slot1)
 
 	if slot3 then
 		PoolMgr.GetInstance():GetPrefab("Effect/" .. slot3, slot3, true, function (slot0)
-			slot0._paintingFX = {
-				name = slot0,
-				obj = slot0
-			}
+			if not slot0.exited then
+				slot0._paintingFX = {
+					name = slot0,
+					obj = slot0
+				}
 
-			slot0.transform:SetParent(slot0.effectTF, true)
+				slot0.transform:SetParent(slot0.effectTF, true)
 
-			slot0.transform.localPosition = Vector3.zero
-			slot0.transform.localScale = Vector3.one
+				slot0.transform.localPosition = Vector3.zero
+				slot0.transform.localScale = Vector3.one
+			end
 
 			return
 		end)

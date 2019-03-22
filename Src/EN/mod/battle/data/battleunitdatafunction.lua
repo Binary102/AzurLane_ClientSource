@@ -22,7 +22,9 @@ slot19 = pg.skill_data_template
 slot20 = pg.ship_data_trans
 slot21 = pg.challenge_rate_template
 slot22 = pg.equip_skin_template
-slot23 = pg.map_data
+slot23 = pg.activity_template
+slot24 = pg.activity_event_worldboss
+slot25 = pg.map_data
 ys.Battle.BattleDataFunction = ys.Battle.BattleDataFunction or {}
 
 ys or .Battle.BattleDataFunction.CreateBattleUnitData = function (slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7, slot8, slot9, slot10, slot11, slot12)
@@ -414,6 +416,20 @@ ys or .Battle.BattleDataFunction.GetEquipSkin = function (slot0)
 	return slot0[slot0].bullet_name, slot0[slot0].derivate_bullet, slot0[slot0].derivate_torpedo, slot0[slot0].derivate_boom
 end
 
+ys or .Battle.BattleDataFunction.GetSpecificEnemyList = function (slot0, slot1)
+	slot5 = nil
+
+	for slot9, slot10 in ipairs(slot4) do
+		if slot10[1] == slot1 then
+			slot5 = slot10[2]
+
+			break
+		end
+	end
+
+	return slot5
+end
+
 ys or .Battle.BattleDataFunction.IncreaseAttributes = function (slot0, slot1, slot2)
 	for slot6, slot7 in ipairs(slot2) do
 		if slot7[slot1] ~= nil and type(slot7[slot1]) == "number" then
@@ -545,4 +561,4 @@ end
 return
 
 slot0 = 
-slot25 = 
+slot27 = 

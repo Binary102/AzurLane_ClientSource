@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"妹妹的变化\n\n<size=30>五 妹妹的决心</size>",
+					"My Sister's Growth Spurt?!\n\n<size=30>Chapter 5: My Sister's Determination</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "港区·指挥室",
+			say = "Port - Office",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -49,7 +49,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "舰队事务暂时告一段落，大家也终于能够松口气了",
+			say = "Things finally settled down around the port as the situation began to diffuse. Laughter began to return as everyone's nerves began to relax.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "前一段时间有些冷落了文森斯，从现在开始弥补回来吧",
+			say = "Though I, unfortunately, had to leave Vincennes alone for a while, I hoped to make up the lost time with her...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，我有话想和你说",
+			say = "Commander, can we talk?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "嗯？今天的文森斯似乎有点不一样，听听她想说什么吧——",
+			say = "Huh? Vincennes seems awfully direct today. I should hear her out...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			dir = 1,
 			actor = 103101,
 			nameColor = "#a9f548",
-			say = "指挥官…能告诉我怎么样才能做好秘书舰吗？",
+			say = "Commander... how do I become a better secretary?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			},
 			options = {
 				{
-					content = "询问理由",
+					content = "\"What do you mean?\"",
 					flag = 1
 				}
 			}
@@ -131,7 +131,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官就像姐姐们一样，总是让我想做什么就做什么，还会陪着我……",
+			say = "Commander... treats me the same way my sisters do... always letting me do whatever I want, and going along with me...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我喜欢这样的姐姐们，也喜欢这样的指挥官。",
+			say = "Um, I do like being taken care of by all of you...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,56 +163,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "但是，只是这样是不行的。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_story_task",
-			withoutActorName = true,
-			actor = 103101,
-			nameColor = "#a9f548",
-			say = "文森斯的脸上露出了前所未有的认真表情。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 103101,
-			side = 2,
-			bgName = "bg_story_task",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "我不想永远只是被照顾的那一方。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 103101,
-			side = 2,
-			bgName = "bg_story_task",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "我也想回报这样的姐姐们和这样的指挥官。",
+			say = "But, I don't think this should go on forever...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,7 +180,7 @@ return {
 			withoutActorName = true,
 			actor = 103101,
 			nameColor = "#a9f548",
-			say = "脑海里浮现出文森斯被姐姐们宠溺的模样",
+			say = "Vincennes glowed with a determination I had never seen in her before.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +196,23 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官既然选我当秘书舰，肯定也不是光想让我在这里玩的吧…？",
+			say = "I don't want to be protected and coddled my whole life...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 103101,
+			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "I also want to be of help to my sisters, and to you, Commander!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +229,23 @@ return {
 			withoutActorName = true,
 			actor = 103101,
 			nameColor = "#a9f548",
-			say = "仔细想想，不管是文森斯还是印第安纳波利斯，从一开始就是港区重要的战力，本来就有能够做出相应贡献的位置",
+			say = "Recollections of Quincy and Astoria fawning over their sister immediately popped up inside my head.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 103101,
+			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "Commander, you didn't appoint me to be secretary because you wanted to play with me, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -279,7 +262,24 @@ return {
 			withoutActorName = true,
 			actor = 103101,
 			nameColor = "#a9f548",
-			say = "即使文森斯变得比之前更能干了，和姐姐们想要照顾这件事本身也不矛盾吧",
+			say = "From the beginning, those like Vincennes and Indianapolis have always been able to find an important role on the front lines, no matter how they were treated back home.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "bg_story_task",
+			withoutActorName = true,
+			actor = 103101,
+			nameColor = "#a9f548",
+			say = "Well, Vincennes, if you become more capable, then perhaps your sisters will change the way they see you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,7 +290,7 @@ return {
 			},
 			options = {
 				{
-					content = "那就来学习吧！",
+					content = "\"I'll teach you what being a secretary is all about!\"",
 					flag = 1
 				}
 			}
@@ -302,7 +302,7 @@ return {
 			blackBg = true,
 			actor = 103101,
 			nameColor = "#a9f548",
-			say = "学习…是吗？我明白了！",
+			say = "You'll teach me? Hooray!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -11,13 +11,13 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"叫我{namecode:22}大人！\n\n<size=30>七　一如既往？的{namecode:22}大人</size>",
+					"\"Call me Yukikaze the Great!\"\n\n<size=30>Chapter 7: Yukikaze, Great as Always?</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "在那之后，某一天的港区——",
+			say = "A few days later, at the port...",
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -34,7 +34,7 @@ return {
 			dir = 1,
 			actor = 301164,
 			actorName = "{namecode:22}",
-			say = "啊～哈哈哈！秘书舰{namecode:22}大人今天也来报告啦！",
+			say = "Wa ha ha! Yukikaze the Great Secretary is reporting inm!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,7 +66,7 @@ return {
 			dir = 1,
 			actor = 301164,
 			actorName = "{namecode:22}",
-			say = "哼！没有{namecode:22}大人工作也没法做了吧！",
+			say = "Hmph! Without me, you'd be totally lost and helpless!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,21 +74,17 @@ return {
 			painting = {
 				alpha = 0.3,
 				time = 1
-			},
+			}
+		},
+		{
+			side = 2,
+			bgName = "bg_story_outdoor",
+			dir = 1,
 			options = {
 				{
-					content = "说起来{namecode:22}昨天晚上也工作到很晚呢…"
+					content = "That reminds me, Yukikaze, didn't you stay up late again working...?"
 				}
-			}
-		},
-		{
-			nameColor = "#a9f548",
-			side = 2,
-			bgName = "bg_story_outdoor",
-			dir = 1,
-			actor = 301164,
-			actorName = "{namecode:22}",
-			say = "哼！看来指挥官终于也了解到有{namecode:22}大人在身边有多好了吧！",
+			},
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +101,7 @@ return {
 			dir = 1,
 			actor = 301164,
 			actorName = "{namecode:22}",
-			say = "看指挥官你这么识时务，{namecode:22}大人就再稍稍微努力一点好了！",
+			say = "Hmph! Commander, have you finally realized how blessed you are to have Yukikaze the Great working with you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,7 +118,24 @@ return {
 			dir = 1,
 			actor = 301164,
 			actorName = "{namecode:22}",
-			say = "好啦，再来多夸一下{namecode:22}大人吧！",
+			say = "Since you're so attentive towards me, perhaps I have to work even harder!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			nameColor = "#a9f548",
+			side = 2,
+			bgName = "bg_story_outdoor",
+			dir = 1,
+			actor = 301164,
+			actorName = "{namecode:22}",
+			say = "Here, praise me more! Yes, praise Yukikaze the Great!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,11 +146,11 @@ return {
 			},
 			options = {
 				{
-					content = "拍拍头",
+					content = "Pat her head",
 					flag = 1
 				},
 				{
-					content = "摸摸头",
+					content = "Ruffle her hair",
 					flag = 2
 				}
 			}
@@ -149,7 +162,7 @@ return {
 			dir = 1,
 			actor = 301164,
 			actorName = "{namecode:22}",
-			say = "诶嘿嘿……蹭蹭……",
+			say = "Ehehe... murrr...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,7 +199,7 @@ return {
 			actorName = "{namecode:143}",
 			actor = 301604,
 			nameColor = "#a9f548",
-			say = "{namecode:142}！{namecode:143}也想让指挥官摸摸头！",
+			say = "Urakaze! Isokaze also wishes to receive a commanderly headpatting!",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -214,7 +227,7 @@ return {
 			}
 		},
 		{
-			say = "我也…啊！给我看看气氛啦！现在{namecode:22}是秘书舰啊！",
+			say = "Me too... Gah! Read the mood! It's Yukikaze's turn to be secretary!",
 			side = 1,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -241,7 +254,7 @@ return {
 			dir = 1,
 			actor = 301614,
 			actorName = "{namecode:128}",
-			say = "完、完全沦陷了呢…",
+			say = "She's... t-totally been tamed...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +271,7 @@ return {
 			dir = 1,
 			actor = 301624,
 			actorName = "{namecode:127}",
-			say = "{namecode:22}酱……太好了……",
+			say = "Yuki... congratulations...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +299,7 @@ return {
 			actorName = "{namecode:22}",
 			actor = 301164,
 			nameColor = "#a9f548",
-			say = "指挥官～再蹭蹭尾巴也是可以的哦♪",
+			say = "Yesh, Commander~ pat me some more~♪",
 			flashout = {
 				dur = 1,
 				black = true,

@@ -185,9 +185,11 @@ function SDKLogin(slot0, slot1, slot2)
 end
 
 function SDKLogout(slot0)
-	pg.m02:sendNotification(GAME.LOGOUT, {
-		code = slot0
-	})
+	if pg.m02 then
+		pg.m02:sendNotification(GAME.LOGOUT, {
+			code = slot0
+		})
+	end
 end
 
 function PaySuccess(slot0, slot1)
@@ -195,10 +197,12 @@ function PaySuccess(slot0, slot1)
 end
 
 function ShowMsgBox(slot0)
-	pg.MsgboxMgr.GetInstance():ShowMsgBox({
-		hideNo = true,
-		content = slot0
-	})
+	if pg.m02 then
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
+			hideNo = true,
+			content = slot0
+		})
+	end
 end
 
 function PayFailed(slot0, slot1)

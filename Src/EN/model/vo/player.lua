@@ -15,6 +15,7 @@ slot1 = {
 	nil,
 	"freeGem",
 	[113.0] = "nvpu_pt",
+	[2001.0] = "contribution_worldboss",
 	[104.0] = "star",
 	[112.0] = "jiujiu",
 	[111.0] = "faxipt",
@@ -30,7 +31,7 @@ slot1 = {
 	[101.0] = "battery",
 	[107.0] = "mengjiu",
 	[115.0] = "chuansonghaogan",
-	[106.0] = "ema",
+	[106.0] = "ema1",
 	[114.0] = "zhandouzhixing",
 	[105.0] = "grace"
 }
@@ -50,6 +51,7 @@ slot2 = {
 	nil,
 	59005,
 	[113.0] = 59115,
+	[2001.0] = 59122,
 	[104.0] = 59105,
 	[112.0] = 59113,
 	[111.0] = 59112,

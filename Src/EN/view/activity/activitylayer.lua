@@ -237,6 +237,14 @@ slot3 = ActivityConst
 slot3 = slot3.NEW_YEAR_OVERVIEW
 slot4 = "new_year_overview"
 slot2[slot3] = slot4
+slot3 = ActivityConst
+slot3 = slot3.HONGRAN_RE_PREVIEW_ID
+slot4 = "preview_hongran_re"
+slot2[slot3] = slot4
+slot3 = ActivityConst
+slot3 = slot3.HONGRAN_RE_PT_ID
+slot4 = "pt_page_hongran_re"
+slot2[slot3] = slot4
 slot3 = {}
 slot4 = ActivityConst
 slot4 = slot4.AOERLIANG_RE_TASK_ID
@@ -306,11 +314,11 @@ slot6 = "clutter/activity_bg_link_sign_re"
 slot4[slot5] = slot6
 slot5 = ActivityConst
 slot5 = slot5.AOERLIANG_RE_PREVIEW_ID
-slot6 = "clutter/activity_bg_preview_aoerliang_re"
+slot6 = "clutter/aoerliang_main"
 slot4[slot5] = slot6
 slot5 = ActivityConst
 slot5 = slot5.AOERLIANG_RE_SIGN_ID
-slot6 = "clutter/activity_bg_sign_aoerliang_re"
+slot6 = "clutter/aoerliang_task"
 slot4[slot5] = slot6
 slot5 = ActivityConst
 slot5 = slot5.WINTER_RE_PREVIEW_ID
@@ -319,6 +327,14 @@ slot4[slot5] = slot6
 slot5 = ActivityConst
 slot5 = slot5.NEW_YEAR_OVERVIEW
 slot6 = "clutter/newyear_bg"
+slot4[slot5] = slot6
+slot5 = ActivityConst
+slot5 = slot5.HONGRAN_RE_PREVIEW_ID
+slot6 = "clutter/activity_bg_preview_hongran_re"
+slot4[slot5] = slot6
+slot5 = ActivityConst
+slot5 = slot5.HONGRAN_RE_PT_ID
+slot6 = "clutter/activity_bg_pt_page_hongran_re"
 slot4[slot5] = slot6
 slot5 = {
 	"changmen",
@@ -3212,10 +3228,9 @@ function slot5(slot0, slot1, slot2, slot3, slot4)
 	slot6 = slot0.pagesInit
 	slot7 = slot5.name
 	slot6 = slot6[slot7]
-	slot8 = slot0
-	slot7 = slot0.GetDoingTask
-	slot9 = slot1
-	slot7, slot8, slot9 = slot7(slot8, slot9)
+	slot7 = GetDoingTask
+	slot8 = slot1
+	slot7, slot8, slot9 = slot7(slot8)
 	slot11 = slot9
 	slot10 = slot9.isReceive
 	slot10 = slot10(slot11)
@@ -3580,10 +3595,24 @@ function slot5(slot0, slot1)
 		end
 	end
 
-	slot8 = slot0
-	slot7 = slot0.GetDoingTask
-	slot9 = slot2
-	slot7, slot8, slot9 = slot7(slot8, slot9)
+	slot7 = GetDoingTask
+	slot8 = slot2
+	slot7, slot8, slot9 = slot7(slot8)
+	slot10 = print
+	slot11 = slot7
+
+	slot10(slot11)
+
+	slot10 = print
+	slot11 = slot8
+
+	slot10(slot11)
+
+	slot10 = print
+	slot11 = slot9
+
+	slot10(slot11)
+
 	slot10 = getProxy
 	slot11 = ActivityProxy
 	slot10 = slot10(slot11)
@@ -4576,6 +4605,31 @@ end
 slot0.clear_task_list_auto_xiaotiane = slot5
 
 function slot5(slot0)
+	slot2 = slot0
+	slot1 = slot0.flush_task_list_auto
+
+	slot1(slot2)
+end
+
+slot0.flush_task_list_auto_keleiwen = slot5
+
+function slot5(slot0)
+	slot1 = slot0.pages
+	slot2 = slot0
+	slot3 = ActivityConst
+	slot3 = slot3.KELEIWEN_ACTIVITY_ID
+	slot2 = slot2[slot3]
+	slot1 = slot1[slot2]
+	slot3 = slot0
+	slot2 = slot0.clear_task_list_auto
+	slot4 = slot1
+
+	slot2(slot3, slot4)
+end
+
+slot0.clear_task_list_auto_keleiwen = slot5
+
+function slot5(slot0)
 	slot1 = slot0.activity
 	slot2 = slot0.pages
 	slot3 = slot0
@@ -4690,7 +4744,7 @@ function slot5(slot0)
 	else
 		slot6 = slot0
 		slot5 = slot0.tween_task_list_auto_layer
-		slot7 = 1
+		slot7 = slot4
 
 		slot5(slot6, slot7)
 	end
@@ -5371,11 +5425,137 @@ function slot5(slot0)
 	slot4 = slot0
 
 	slot3(slot4)
+
+	slot4 = slot1
+	slot3 = slot1.getConfig
+	slot5 = "type"
+	slot3 = slot3(slot4, slot5)
+	slot4 = ActivityConst
+	slot4 = slot4.ACTIVITY_TYPE_TASKS
+
+	if slot3 == slot4 then
+		slot3 = slot0
+		slot4 = slot1.id
+		slot3 = slot3[slot4]
+
+		if slot3 then
+			slot3 = "flush_"
+			slot4 = slot0
+			slot5 = slot1.id
+			slot4 = slot4[slot5]
+			slot3 = slot3 .. slot4
+			slot3 = slot0[slot3]
+			slot4 = slot0
+
+			slot3(slot4)
+		else
+			slot4 = slot0
+			slot3 = slot0.flush_task_list_pt
+
+			slot3(slot4)
+		end
+	else
+		slot4 = slot1
+		slot3 = slot1.getConfig
+		slot5 = "type"
+		slot3 = slot3(slot4, slot5)
+		slot4 = ActivityConst
+		slot4 = slot4.ACTIVITY_TYPE_ZPROJECT
+
+		if slot3 == slot4 then
+			slot4 = slot0
+			slot3 = slot0.flush_z_project
+
+			slot3(slot4)
+		else
+			slot4 = slot1
+			slot3 = slot1.getConfig
+			slot5 = "type"
+			slot3 = slot3(slot4, slot5)
+			slot4 = ActivityConst
+			slot4 = slot4.ACTIVITY_TYPE_TASK_RES
+
+			if slot3 == slot4 then
+				slot4 = slot0
+				slot3 = slot0.update_task_list_res_auto
+
+				slot3(slot4)
+			else
+				slot3 = slot1.id
+				slot4 = ActivityConst
+				slot4 = slot4.AOERLIANG_SIGN_ID
+
+				if slot3 ~= slot4 then
+					slot3 = slot1.id
+					slot4 = ActivityConst
+					slot4 = slot4.AOERLIANG_TASK_ID
+
+					if slot3 == slot4 then
+						slot4 = slot0
+						slot3 = slot0.flush_task_list_auto_aoerliang
+
+						slot3(slot4)
+					else
+						slot3 = slot1.id
+						slot4 = ActivityConst
+						slot4 = slot4.MIKASA_MUSEUM_ACTIVITY_ID
+
+						if slot3 == slot4 then
+							slot4 = slot0
+							slot3 = slot0.flush_task_list_mikasa_museum
+
+							slot3(slot4)
+						else
+							slot3 = slot1.id
+							slot4 = ActivityConst
+							slot4 = slot4.SKIN_YAMASHIRO
+
+							if slot3 ~= slot4 then
+								slot3 = slot1.id
+								slot4 = ActivityConst
+								slot4 = slot4.SKIN_BEILI
+
+								if slot3 == slot4 then
+									slot4 = slot0
+									slot3 = slot0.activity2Page
+									slot5 = slot1
+									slot3 = slot3(slot4, slot5)
+									slot4 = "flush_"
+									slot5 = slot3
+									slot4 = slot4 .. slot5
+									slot4 = slot0[slot4]
+									slot5 = slot0
+
+									slot4(slot5)
+								else
+									slot4 = slot1
+									slot3 = slot1.getConfig
+									slot5 = "type"
+									slot3 = slot3(slot4, slot5)
+									slot4 = ActivityConst
+									slot4 = slot4.ACTIVITY_TYPE_TASK_LIST
+
+									if slot3 == slot4 then
+									else
+										slot4 = slot0
+										slot3 = slot0.tween_task_list_auto_layer
+
+										slot3(slot4)
+									end
+								end
+							end
+						end
+					end
+				end
+			end
+		end
+	end
 end
 
 slot0.updateTaskLayers = slot5
+slot5 = "tween_task_list_auto_layer"
 
-function slot5(slot0, slot1)
+function slot6(slot0, slot1)
 	slot2 = slot0.activity
 	slot3 = slot0.pages
 	slot4 = slot0
@@ -5508,9 +5688,10 @@ function slot5(slot0, slot1)
 	end
 end
 
-slot0.tween_task_list_auto_layer = slot5
+slot0[slot5] = slot6
+slot5 = "clear_task_list_auto"
 
-function slot5(slot0, slot1)
+function slot6(slot0, slot1)
 	slot2 = slot0.pagesInit
 	slot3 = slot1.name
 	slot2 = slot2[slot3]
@@ -5547,9 +5728,10 @@ function slot5(slot0, slot1)
 	end
 end
 
-slot0.clear_task_list_auto = slot5
+slot0[slot5] = slot6
+slot5 = "flush_bb"
 
-function slot5(slot0)
+function slot6(slot0)
 	slot1 = slot0.activity
 	slot2 = slot0.pages
 	slot3 = slot0
@@ -5958,9 +6140,10 @@ function slot5(slot0)
 	setText(slot3.nums, string.format("<color=#%s>%s</color> / %s", (slot1.data2 == 0 and "A9F548") or "FFFFFF", 1 - slot1.data2, 1))
 end
 
-slot0.flush_bb = slot5
+slot0[slot5] = slot6
+slot5 = "clear_bb"
 
-function slot5(slot0)
+function slot6(slot0)
 	slot1 = slot0.pages
 	slot2 = slot0
 	slot3 = ActivityConst
@@ -5986,9 +6169,10 @@ function slot5(slot0)
 	end
 end
 
-slot0.clear_bb = slot5
+slot0[slot5] = slot6
+slot5 = "flush_hit_monster_nian"
 
-function slot5(slot0)
+function slot6(slot0)
 	slot2 = slot0
 	slot1 = slot0.emit
 	slot3 = ActivityMediator
@@ -5997,7 +6181,7 @@ function slot5(slot0)
 	slot1(slot2, slot3)
 end
 
-slot0.flush_hit_monster_nian = slot5
+slot0[slot5] = slot6
 slot5 = "close_hit_monster_nian"
 
 function slot6(slot0)
@@ -7301,6 +7485,180 @@ function slot6(slot0)
 end
 
 slot0[slot5] = slot6
+slot5 = "flush_task_list_auto_aoerliang"
+
+function slot6(slot0)
+	slot1 = slot0.activity
+	slot2 = slot0.allActivity
+	slot3 = ActivityConst
+	slot3 = slot3.AOERLIANG_TASK_ID
+	slot2 = slot2[slot3]
+	slot4 = slot0
+	slot3 = slot0.update_task_list_auto_aoerliang
+	slot5 = slot2
+
+	slot3(slot4, slot5)
+
+	slot0.activity = slot1
+	slot3 = slot0.pages
+	slot4 = slot0
+	slot5 = slot1.id
+	slot4 = slot4[slot5]
+	slot3 = slot3[slot4]
+	slot5 = slot0
+	slot4 = slot0.flush_sign_aoerliang
+	slot6 = slot1
+	slot7 = slot3
+
+	slot4(slot5, slot6, slot7)
+end
+
+slot0[slot5] = slot6
+slot5 = "flush_sign_aoerliang"
+
+function slot6(slot0, slot1, slot2)
+	if slot2 then
+		slot4 = slot1
+		slot3 = slot1.getConfig
+		slot5 = "config_id"
+		slot3 = slot3(slot4, slot5)
+		slot4 = pg
+		slot4 = slot4.activity_7_day_sign
+		slot4 = slot4[slot3]
+		slot5 = slot2.transform
+		slot6 = slot5
+		slot5 = slot5.Find
+		slot7 = "layer/sign"
+		slot5 = slot5(slot6, slot7)
+		slot7 = slot5
+		slot6 = slot5.GetChild
+		slot8 = 0
+		slot6 = slot6(slot7, slot8)
+		slot7 = UIItemList
+		slot7 = slot7.New
+		slot8 = slot5
+		slot9 = slot6
+		slot7 = slot7(slot8, slot9)
+		slot9 = slot7
+		slot8 = slot7.make
+
+		function slot10(slot0, slot1, slot2)
+			updateDrop(slot2, slot4)
+			onButton(slot1, slot2, function ()
+				slot0:emit(slot1.ON_DROP, )
+			end, SFX_PANEL)
+			setActive(slot2:Find("mask"), slot1 + 1 <= slot3.data1)
+		end
+
+		slot8(slot9, slot10)
+
+		slot9 = slot7
+		slot8 = slot7.align
+		slot10 = slot4.front_drops
+		slot10 = #slot10
+
+		slot8(slot9, slot10)
+	end
+end
+
+slot0[slot5] = slot6
+slot5 = "update_task_list_auto_aoerliang"
+
+function slot6(slot0, slot1)
+	slot2 = slot0.pages
+	slot3 = slot0
+	slot4 = slot1.id
+	slot3 = slot3[slot4]
+	slot2 = slot2[slot3]
+	slot3 = slot0.pagesInit
+	slot4 = slot2.name
+	slot3 = slot3[slot4]
+
+	if not slot3 then
+		slot3 = {}
+		slot5 = slot0
+		slot4 = slot0.findTF
+		slot6 = "layer"
+		slot7 = slot2
+		slot4 = slot4(slot5, slot6, slot7)
+		slot3.layer = slot4
+		slot4 = slot0.pagesInit
+		slot5 = slot2.name
+		slot4[slot5] = slot3
+		slot4 = slot0.pageId
+		slot5 = slot2.name
+		slot6 = slot1.id
+		slot4[slot5] = slot6
+	end
+
+	slot4 = getProxy
+	slot5 = TaskProxy
+	slot4 = slot4(slot5)
+	slot6 = slot1
+	slot5 = slot1.getConfig
+	slot7 = "config_data"
+	slot5 = slot5(slot6, slot7)
+	slot6 = pg
+	slot6 = slot6.TimeMgr
+	slot6 = slot6.GetInstance
+	slot6 = slot6()
+	slot8 = slot6
+	slot7 = slot6.DiffDay
+	slot9 = slot1.data1
+	slot11 = slot6
+	slot10 = slot6.GetServerTime
+	slot7 = slot7(slot8, slot9, slot10(slot11))
+	slot7 = slot7 + 1
+	slot8 = math
+	slot8 = slot8.clamp
+	slot9 = slot7
+	slot10 = 1
+	slot11 = #slot5
+	slot8 = slot8(slot9, slot10, slot11)
+	slot7 = slot8
+	slot8 = slot1.data3
+
+	if slot8 ~= 0 and slot8 < slot7 then
+		slot9 = _
+		slot9 = slot9.all
+		slot10 = _
+		slot10 = slot10.flatten
+		slot11 = {}
+		slot12 = slot5[slot8]
+		slot11[1] = slot12
+		slot10 = slot10(slot11)
+
+		function slot11(slot0)
+			return slot0:getFinishTaskById(slot0) ~= nil
+		end
+
+		slot9 = slot9(slot10, slot11)
+
+		if slot9 then
+			slot10 = slot0
+			slot9 = slot0.emit
+			slot11 = ActivityMediator
+			slot11 = slot11.EVENT_OPERATION
+			slot12 = {
+				cmd = 1
+			}
+			slot13 = slot1.id
+			slot12.activity_id = slot13
+
+			slot9(slot10, slot11, slot12)
+		end
+	else
+		slot10 = slot0
+		slot9 = slot0.update_task_list_auto_layer
+		slot11 = slot1
+		slot12 = slot3.layer
+		slot13 = slot8
+
+		slot9(slot10, slot11, slot12, slot13)
+	end
+end
+
+slot0[slot5] = slot6
 slot5 = "flush_anniversary"
 
 function slot6(slot0)
@@ -7565,10 +7923,9 @@ function slot6(slot0, slot1, slot2, slot3)
 		slot9[slot10] = slot11
 	end
 
-	slot9 = slot0
-	slot8 = slot0.GetDoingTask
-	slot10 = slot4
-	slot8, slot9, slot10 = slot8(slot9, slot10)
+	slot8 = GetDoingTask
+	slot9 = slot4
+	slot8, slot9, slot10 = slot8(slot9)
 
 	if slot10 then
 		slot11 = setActive
@@ -10553,31 +10910,9 @@ function slot6(slot0)
 	slot6 = slot1.getConfig
 	slot8 = "config_data"
 	slot5 = slot5(slot6(slot7, slot8))
-	slot6, slot7, slot8 = nil
-	slot9 = ipairs
-	slot10 = slot5
-	slot9, slot10, slot11 = slot9(slot10)
-
-	for slot12, slot13 in slot9, slot10, slot11 do
-		slot6 = slot12
-		slot7 = slot13
-		slot15 = slot4
-		slot14 = slot4.getTaskById
-		slot16 = slot7
-		slot14 = slot14(slot15, slot16)
-		slot8 = slot14
-
-		if slot8 then
-			break
-		end
-
-		slot15 = slot4
-		slot14 = slot4.getFinishTaskById
-		slot16 = slot7
-		slot14 = slot14(slot15, slot16)
-		slot8 = slot14
-	end
-
+	slot6 = GetDoingTask
+	slot7 = slot1
+	slot6, slot7, slot8 = slot6(slot7)
 	slot10 = slot8
 	slot9 = slot8.getConfig
 	slot11 = "award_display"
@@ -12175,10 +12510,9 @@ function slot6(slot0)
 		return
 	end
 
-	slot9 = slot0
-	slot8 = slot0.GetDoingTask
-	slot10 = slot5
-	slot8, slot9, slot10 = slot8(slot9, slot10)
+	slot8 = GetDoingTask
+	slot9 = slot5
+	slot8, slot9, slot10 = slot8(slot9)
 	slot12 = slot10
 	slot11 = slot10.getConfig
 	slot13 = "award_display"
@@ -12888,6 +13222,78 @@ function slot6(slot0)
 end
 
 slot0[slot5] = slot6
+slot5 = "flush_preview_hongran_re"
+
+function slot6(slot0)
+	slot2 = slot0
+	slot1 = slot0.flush_preview_page
+
+	slot1(slot2)
+
+	return
+end
+
+slot0[slot5] = slot6
+slot5 = "clear_preview_hongran_re"
+
+function slot6(slot0)
+	slot1 = slot0.pages
+	slot2 = slot0
+	slot3 = ActivityConst
+	slot3 = slot3.HONGRAN_RE_PREVIEW_ID
+	slot2 = slot2[slot3]
+	slot1 = slot1[slot2]
+	slot2 = slot0.pagesInit
+	slot3 = slot1.name
+	slot2 = slot2[slot3]
+
+	if slot2 then
+		slot3 = clearImageSprite
+		slot4 = slot2.bg
+
+		slot3(slot4)
+	end
+
+	return
+end
+
+slot0[slot5] = slot6
+slot5 = "flush_pt_page_hongran_re"
+
+function slot6(slot0)
+	slot2 = slot0
+	slot1 = slot0.flush_task_list_pt
+
+	slot1(slot2)
+
+	return
+end
+
+slot0[slot5] = slot6
+slot5 = "clear_pt_page_hongran_re"
+
+function slot6(slot0)
+	slot1 = slot0.pages
+	slot2 = slot0
+	slot3 = ActivityConst
+	slot3 = slot3.HONGRAN_RE_PREVIEW_ID
+	slot2 = slot2[slot3]
+	slot1 = slot1[slot2]
+	slot2 = slot0.pagesInit
+	slot3 = slot1.name
+	slot2 = slot2[slot3]
+
+	if slot2 then
+		slot3 = clearImageSprite
+		slot4 = slot2.bg
+
+		slot3(slot4)
+	end
+
+	return
+end
+
+slot0[slot5] = slot6
 slot5 = "TaskSubmitCheck"
 
 function slot6(slot0, slot1)
@@ -12942,85 +13348,6 @@ function slot6(slot0, slot1)
 	slot2 = true
 
 	return slot2
-end
-
-slot0[slot5] = slot6
-slot5 = "GetDoingTask"
-
-function slot6(slot0, slot1)
-	slot2 = getProxy
-	slot3 = TaskProxy
-	slot2 = slot2(slot3)
-	slot3 = _
-	slot3 = slot3.flatten
-	slot5 = slot1
-	slot4 = slot1.getConfig
-	slot6 = "config_data"
-	slot3 = slot3(slot4(slot5, slot6))
-	slot4, slot5, slot6 = nil
-	slot8 = slot1
-	slot7 = slot1.getConfig
-	slot9 = "type"
-	slot7 = slot7(slot8, slot9)
-	slot8 = ActivityConst
-	slot8 = slot8.ACTIVITY_TYPE_TASKS
-
-	if slot7 == slot8 then
-		slot7 = #slot3
-		slot8 = 1
-		slot9 = -1
-
-		for slot10 = slot7, slot8, slot9 do
-			slot5 = slot3[slot10]
-			slot12 = slot2
-			slot11 = slot2.getTaskById
-			slot13 = slot5
-			slot11 = slot11(slot12, slot13)
-
-			if not slot11 then
-				slot12 = slot2
-				slot11 = slot2.getFinishTaskById
-				slot13 = slot5
-				slot11 = slot11(slot12, slot13)
-				slot6 = slot11
-			end
-
-			if slot6 then
-				slot4 = slot10
-
-				break
-			end
-		end
-	else
-		slot8 = slot2
-		slot7 = slot2.getActivityTask
-		slot9 = slot1
-		slot7, slot8 = slot7(slot8, slot9)
-		slot6 = slot8
-		slot5 = slot7
-		slot7 = table
-		slot7 = slot7.indexof
-		slot8 = slot3
-		slot9 = slot5
-		slot7 = slot7(slot8, slot9)
-		slot4 = slot7
-
-		if not slot6 then
-			slot4 = slot4 - 1
-			slot5 = slot3[slot4]
-			slot8 = slot2
-			slot7 = slot2.getFinishTaskById
-			slot9 = slot5
-			slot7 = slot7(slot8, slot9)
-			slot6 = slot7
-		end
-	end
-
-	slot7 = slot4
-	slot8 = slot5
-	slot9 = slot6
-
-	return slot7, slot8, slot9
 end
 
 slot0[slot5] = slot6

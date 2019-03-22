@@ -102,7 +102,9 @@ function slot0.register(slot0)
 		slot0:sendNotification(GAME.GO_SCENE, SCENE.TRAININGCAMP)
 	end)
 	slot0:bind(slot0.ON_BOSS_BATTLE, function ()
-		slot0:sendNotification(GAME.GO_SCENE, SCENE.ACT_BOSS_BATTLE)
+		slot0:sendNotification(GAME.GO_SCENE, SCENE.ACT_BOSS_BATTLE, {
+			showAni = true
+		})
 	end)
 	slot0:bind(slot0.ON_TASK_OPEN, function (slot0, slot1)
 		if not getProxy(TaskProxy):isFinishPrevTasks(slot1) then
@@ -122,10 +124,11 @@ function slot0.register(slot0)
 				showTagNoBlock = true,
 				mode = slot1,
 				flags = {
-					inClass = true,
 					inEvent = true,
-					inBackyard = true,
-					inFleet = true
+					inFleet = true,
+					inClass = true,
+					inActivity = true,
+					inBackyard = true
 				}
 			})
 		elseif slot1 == DockyardScene.MODE_DESTROY then
@@ -309,7 +312,7 @@ function slot0.register(slot0)
 	slot0.viewComponent:updateColoringBtn(slot7:getActivityByType(ActivityConst.ACTIVITY_TYPE_COLORING_ALPHA))
 	slot0.viewComponent:updateAnniversaryBtn(slot7:getActivityById(ActivityConst.ANNIVERSARY_TASK_LIST_ID))
 	slot0.viewComponent:updateSummaryBtn(slot7:getActivityByType(ActivityConst.ACTIVITY_TYPE_SUMMARY))
-	slot0.viewComponent:updateBossBattleBtn(slot7:getActivityById(ActivityConst.BOSS_BATTLE_PT))
+	slot0.viewComponent:updateBossBattleBtn(slot7:getActivityById(ActivityConst.BOSS_BATTLE_AISAIKESI))
 	slot0:bind(slot0.ON_ACTIVITY, function (slot0, slot1)
 		slot0:sendNotification(GAME.GO_SCENE, SCENE.ACTIVITY, {
 			id = slot1
@@ -431,10 +434,6 @@ function slot0.onBluePrintNotify(slot0)
 
 	slot0.viewComponent:notifyTechnology((SelectTechnologyMediator.onBlueprintNotify() or SelectTechnologyMediator.onTechnologyNotify()) and slot3)
 
-	if slot0.DontNotifyBluePrintTaskAgain then
-		return
-	end
-
 	if getProxy(TechnologyProxy):getBuildingBluePrint() then
 		slot8 = false
 
@@ -450,7 +449,7 @@ function slot0.onBluePrintNotify(slot0)
 			end
 		end
 
-		if slot8 then
+		if slot8 and not slot0.DontNotifyBluePrintTaskAgain then
 			pg.MsgboxMgr:GetInstance():ShowMsgBox({
 				content = i18n("blueprint_task_update_tip", slot6:getShipVO():getConfig("name")),
 				onYes = function ()
@@ -790,8 +789,9 @@ function slot0.handleEnterMainUI(slot0)
 				onNextTick(onNextTick)
 			end)
 			coroutine.yield()
-			coroutine.yield:accepetActivityTask()
-			coroutine.yield.accepetActivityTask:tryRequestColoring()
+			coroutine.yield:checkBillboardList()
+			coroutine.yield.checkBillboardList:accepetActivityTask()
+			coroutine.yield.checkBillboardList.accepetActivityTask:tryRequestColoring()
 
 			if getProxy(ActivityProxy):findNextAutoActivity() then
 				slot0:sendNotification(GAME.GO_SCENE, SCENE.ACTIVITY)
@@ -944,7 +944,7 @@ function slot0.tryRequestMainSub(slot0)
 end
 
 function slot0.tryRequestVersion(slot0)
-	if VersionMgr.Inst:OnProxyUsing() then
+	if PLATFORM_CODE == PLATFORM_US and VersionMgr.Inst:OnProxyUsing() then
 		return
 	end
 
@@ -1093,6 +1093,12 @@ function slot0.getFixStoryList(slot0, slot1, slot2, slot3)
 	end
 
 	return slot3
+end
+
+function slot0.checkBillboardList(slot0)
+	getProxy(MilitaryExerciseProxy):checkAndBuildRankMsg()
+
+	return
 end
 
 function slot0.accepetActivityTask(slot0)

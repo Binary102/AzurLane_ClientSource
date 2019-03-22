@@ -12,7 +12,7 @@ return {
 			actorName = "{namecode:96}",
 			side = 2,
 			nameColor = "#a9f548",
-			say = "Damn, these pests are stalling me. Had I not lost so many carriers during that storm...",
+			say = "Dammit, one imposter after the next... If only I hadn't lost so many planes to that storm...",
 			shake = {
 				speed = 1,
 				number = 3
@@ -31,7 +31,7 @@ return {
 			actorName = "{namecode:96}",
 			side = 2,
 			nameColor = "#a9f548",
-			say = "Hmm? A distress signal. Could it be {namecode:95}?",
+			say = "Huh? Is that a distress signal...? It could be Shoukaku!",
 			shake = {
 				speed = 1,
 				number = 3
@@ -50,7 +50,7 @@ return {
 			actorName = "{namecode:96}",
 			side = 2,
 			nameColor = "#a9f548",
-			say = "Wait for me, I won't lose you this time!",
+			say = "Wait for me, sis! I won't lose you again...!",
 			shake = {
 				speed = 1,
 				number = 3

@@ -382,9 +382,9 @@ pg.gameset = {
 		key_value = 3000000
 	},
 	activity_res_id = {
-		description = "Queen's Medal ",
+		description = "Ema",
 		key = "activity_res_id",
-		key_value = 119
+		key_value = 103
 	},
 	chapter_move_speed_1 = {
 		description = "",

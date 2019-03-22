@@ -7375,7 +7375,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 1,
-		order = 9988,
+		order = 9905,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -7386,9 +7386,9 @@ pg.shop_template = {
 		discount_time = {
 			{
 				{
-					2018,
-					11,
-					23
+					2019,
+					3,
+					21
 				},
 				{
 					0,
@@ -7398,9 +7398,9 @@ pg.shop_template = {
 			},
 			{
 				{
-					2018,
-					11,
-					26
+					2019,
+					3,
+					27
 				},
 				{
 					23,
@@ -7423,7 +7423,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 1,
-		order = 9987,
+		order = 9904,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -7434,9 +7434,9 @@ pg.shop_template = {
 		discount_time = {
 			{
 				{
-					2018,
-					11,
-					23
+					2019,
+					3,
+					21
 				},
 				{
 					0,
@@ -7446,9 +7446,9 @@ pg.shop_template = {
 			},
 			{
 				{
-					2018,
-					11,
-					26
+					2019,
+					3,
+					27
 				},
 				{
 					23,
@@ -7471,7 +7471,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 1,
-		order = 9986,
+		order = 9903,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -7482,9 +7482,9 @@ pg.shop_template = {
 		discount_time = {
 			{
 				{
-					2018,
-					11,
-					23
+					2019,
+					3,
+					21
 				},
 				{
 					0,
@@ -7494,9 +7494,9 @@ pg.shop_template = {
 			},
 			{
 				{
-					2018,
-					11,
-					26
+					2019,
+					3,
+					27
 				},
 				{
 					23,
@@ -7519,7 +7519,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 1,
-		order = 9985,
+		order = 9902,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -7530,9 +7530,9 @@ pg.shop_template = {
 		discount_time = {
 			{
 				{
-					2018,
-					11,
-					23
+					2019,
+					3,
+					21
 				},
 				{
 					0,
@@ -7542,9 +7542,9 @@ pg.shop_template = {
 			},
 			{
 				{
-					2018,
-					11,
-					26
+					2019,
+					3,
+					27
 				},
 				{
 					23,
@@ -7558,6 +7558,52 @@ pg.shop_template = {
 			307041
 		}
 	},
+	[70054] = {
+		group_type = 0,
+		resource_num = 880,
+		desc = "Buy skin - Honolulu: Parasol Girl",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 1,
+		order = 9900,
+		time = "always",
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 70054,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			102121
+		}
+	},
+	[70055] = {
+		group_type = 0,
+		resource_num = 780,
+		desc = "Buy skin - Fubuki: Nearly Late for School",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 1,
+		order = 9899,
+		time = "always",
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 70055,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			301011
+		}
+	},
 	[70056] = {
 		group_type = 0,
 		resource_num = 780,
@@ -7567,7 +7613,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 1,
-		order = 9990,
+		order = 9901,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -7578,9 +7624,9 @@ pg.shop_template = {
 		discount_time = {
 			{
 				{
-					2018,
-					11,
-					23
+					2019,
+					3,
+					21
 				},
 				{
 					0,
@@ -7590,9 +7636,9 @@ pg.shop_template = {
 			},
 			{
 				{
-					2018,
-					11,
-					26
+					2019,
+					3,
+					27
 				},
 				{
 					23,
@@ -7604,6 +7650,54 @@ pg.shop_template = {
 		limit_args = {},
 		effect_args = {
 			401011
+		}
+	},
+	[70057] = {
+		group_type = 0,
+		resource_num = 700,
+		desc = "Buy skin - Yukikaze: Swings-Sama",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 6,
+		order = 9898,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 70057,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			301161
+		},
+		time = {
+			{
+				{
+					2019,
+					3,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					3
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
 		}
 	},
 	[70059] = {
@@ -7627,6 +7721,54 @@ pg.shop_template = {
 		limit_args = {},
 		effect_args = {
 			403051
+		}
+	},
+	[70060] = {
+		group_type = 0,
+		resource_num = 880,
+		desc = "Buy skin - Kirishima: After School Artillery Time",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 6,
+		order = 9906,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 70060,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			304041
+		},
+		time = {
+			{
+				{
+					2019,
+					3,
+					14
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					3
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
 		}
 	},
 	[70076] = {
@@ -7860,6 +8002,150 @@ pg.shop_template = {
 					2019,
 					1,
 					21
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[70082] = {
+		group_type = 0,
+		resource_num = 780,
+		desc = "购买皮肤:阿斯托利亚校服",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 6,
+		order = 9903,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 70082,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			103081
+		},
+		time = {
+			{
+				{
+					2019,
+					3,
+					14
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					3,
+					20
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[70083] = {
+		group_type = 0,
+		resource_num = 780,
+		desc = "购买皮肤:昆西泳装",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 6,
+		order = 9904,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 70083,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			103091
+		},
+		time = {
+			{
+				{
+					2019,
+					3,
+					14
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					3,
+					20
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[70084] = {
+		group_type = 0,
+		resource_num = 700,
+		desc = "购买皮肤:文森斯睡衣",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 6,
+		order = 9905,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 70084,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			103101
+		},
+		time = {
+			{
+				{
+					2019,
+					3,
+					14
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					3,
+					20
 				},
 				{
 					23,
@@ -9645,6 +9931,52 @@ pg.shop_template = {
 			}
 		}
 	},
+	[70164] = {
+		group_type = 0,
+		resource_num = 780,
+		desc = "购买皮肤：波特兰JK",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		order = 9897,
+		time = "always",
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 70164,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			103061
+		}
+	},
+	[70165] = {
+		group_type = 0,
+		resource_num = 780,
+		desc = "购买皮肤：印第安纳波利斯JK",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		order = 9896,
+		time = "always",
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 70165,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			103071
+		}
+	},
 	[90000] = {
 		group_type = 0,
 		resource_num = 980,
@@ -9963,6 +10295,112 @@ pg.shop_template = {
 			}
 		}
 	},
+	[90006] = {
+		group_type = 0,
+		resource_num = 120,
+		desc = "120钻石购买红染攻略补给",
+		type = 2,
+		is_auto_use = 1,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 1,
+		order = 0,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 90006,
+		genre = "gift_package",
+		discount_time = {},
+		limit_args = {
+			{
+				"time",
+				5
+			}
+		},
+		effect_args = {
+			40102
+		},
+		time = {
+			{
+				{
+					2019,
+					3,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					3
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[90007] = {
+		group_type = 0,
+		resource_num = 980,
+		desc = "980钻石购买红染建造补给",
+		type = 2,
+		is_auto_use = 1,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 1,
+		order = 0,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 90007,
+		genre = "gift_package",
+		discount_time = {},
+		limit_args = {
+			{
+				"time",
+				1
+			}
+		},
+		effect_args = {
+			40004
+		},
+		time = {
+			{
+				{
+					2019,
+					3,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					3
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -10189,13 +10627,20 @@ pg.shop_template = {
 		70051,
 		70052,
 		70053,
+		70054,
+		70055,
 		70056,
+		70057,
 		70059,
+		70060,
 		70076,
 		70077,
 		70078,
 		70080,
 		70081,
+		70082,
+		70083,
+		70084,
 		70110,
 		70111,
 		70112,
@@ -10233,12 +10678,16 @@ pg.shop_template = {
 		70159,
 		70160,
 		70161,
+		70164,
+		70165,
 		90000,
 		90001,
 		90002,
 		90003,
 		90004,
-		90005
+		90005,
+		90006,
+		90007
 	}
 }
 

@@ -467,7 +467,7 @@ function slot0.initPauseWindow(slot0)
 			setText(slot3, "SP")
 			setText(slot4, slot0._chapter:getConfig("name"))
 		else
-			if slot5 == SYSTEM_ROUTINE or slot5 == SYSTEM_DUEL or slot5 == SYSTEM_ACT_BOSS then
+			if slot5 == SYSTEM_ROUTINE or slot5 == SYSTEM_DUEL or slot5 == SYSTEM_HP_SHARE_ACT_BOSS or slot5 == SYSTEM_ACT_BOSS then
 				setText(slot3, "SP")
 				setText(slot4, pg.expedition_data_template[slot2:GetProxyByName(ys.Battle.BattleDataProxy.__name):GetInitData().StageTmpId].name)
 			else

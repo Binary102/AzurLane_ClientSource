@@ -1,6 +1,7 @@
 slot0 = class("SnapshotSceneMediator", import("..base.ContextMediator"))
 
 function slot0.register(slot0)
+	getProxy(SettingsProxy):initEveryPlay()
 	slot0:bind(SnapshotScene.SELECT_CHAR_PANEL, function (slot0)
 		slot0:addSubLayers(Context.New({
 			mediator = SnapshotSelectCharMediator,

@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"有关火奴鲁鲁的二三事\n\n<size=30>四　关心人的火奴鲁鲁</size>",
+					"An Easily Flustered Girl's Story\n\n<size=30>Chapter 4 - Honolulu's Concerned?</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "港区·广场",
+			say = "Port - Courtyard",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -49,7 +49,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "远远地看到了海伦娜和火奴鲁鲁在一起散步。",
+			say = "I came across Honolulu and Helena as they were hanging out.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呼……",
+			say = "*Sigh*...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			}
 		},
 		{
-			say = "海伦娜，怎么了？",
+			say = "What's the matter, Helena?",
 			side = 0,
 			bgName = "star_level_bg_103",
 			dir = 1,
@@ -97,7 +97,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯？啊，没什么啦。",
+			say = "Hm...? Oh, nothing, really.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是、是吗，那，你最近有……",
+			say = "Nothing, huh... Good...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔……",
+			say = "Hey, uh...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯？",
+			say = "Yeah? What is it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……没什么，今天吃的还好吗？",
+			say = "... No, never mind. What did you have for lunch today?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "挺好呀，火奴鲁鲁你呢？",
+			say = "Huh? Just the usual... And you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯……我也吃的挺饱的。",
+			say = "R-right... Me, well... I guess the usual, too?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +209,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那就好~",
+			say = "Sounds nice...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，克利夫兰在那边等我，我先过去了。",
+			say = "Hey, sorry, Cleveland's waiting for me, so I've gotta go.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯。",
+			say = "Oh, okay. See you later.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +257,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "又没有把话说出来，唉……",
+			say = "I failed to start a conversation, again... *Sigh*...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,7 +273,7 @@ return {
 			dir = 1,
 			actor = 102121,
 			nameColor = "#a9f548",
-			say = "我真是个笨蛋……",
+			say = "I'm such a big and total moron...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,7 +284,7 @@ return {
 			},
 			options = {
 				{
-					content = "表示否定",
+					content = "Tell her that's not true",
 					flag = 1
 				}
 			}
@@ -295,7 +295,7 @@ return {
 			dir = 1,
 			actor = 102121,
 			nameColor = "#a9f548",
-			say = "……？！",
+			say = "... Huh?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -321,7 +321,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官你从哪……算了，总觉得你什么时候出现在我身边我都不奇怪了。",
+			say = "How long have you been spying on us... *Sigh*... Whatever. It's hardly surprising to see you show up out of nowhere...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -338,7 +338,7 @@ return {
 			withoutActorName = true,
 			actor = 102121,
 			nameColor = "#a9f548",
-			say = "火奴鲁鲁长长地叹了一口气。",
+			say = "Honolulu drew a heavy sigh.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -354,7 +354,7 @@ return {
 			dir = 1,
 			actor = 102121,
 			nameColor = "#a9f548",
-			say = "就算你说这不怪我，但我连关心海伦娜都做不到，我不是个笨蛋还能是什么呢……",
+			say = "... I'm worried about Helena. And yet... I can't even properly ask her if she's okay. I'm such a helpless, stupid idiot...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -365,7 +365,7 @@ return {
 			},
 			options = {
 				{
-					content = "表示或许可以帮她",
+					content = "Offer to give her advice",
 					flag = 1
 				}
 			}
@@ -376,7 +376,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "为什么我非要依靠你不可啊…",
+			say = "Why should I have to take advice from you of all people...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -393,7 +393,7 @@ return {
 			withoutActorName = true,
 			actor = 102121,
 			nameColor = "#a9f548",
-			say = "火奴鲁鲁下意识地把头偏到一边去，不过看起来并没有在生气。",
+			say = "Honolulu averted her gaze from me yet again. This time, however, while she seemed embarrassed, she didn't seem displeased.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -409,7 +409,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……不过，真不可思议……感觉如果是你的话，或许确实能说这些也说不定。",
+			say = "But... as strange as it is... you might be able to understand my situation...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -426,7 +426,7 @@ return {
 			blackBg = true,
 			actor = 102121,
 			nameColor = "#a9f548",
-			say = "指挥官，能听我说两句吗？",
+			say = "So... could you share some of your advice... with me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

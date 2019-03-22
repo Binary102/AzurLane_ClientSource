@@ -11,13 +11,13 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"叫我{namecode:22}大人！\n\n<size=30>四　{namecode:22}粉丝团？</size>",
+					"\"Call me Yukikaze the Great!\"\n\n<size=30>Chapter 4: Yukikaze's Fan Club?</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "你知道吗？蹭蹭{namecode:22}的尾巴据说就能提升运气呢！",
+			say = "Did you know? Rubbing Yukikaze's tail will grant you good luck!",
 			side = 0,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -43,7 +43,7 @@ return {
 			dir = 1,
 			actor = 0,
 			actorName = "？？？",
-			say = "好棒！不愧是幸运舰！我下次也去拜托{namecode:22}试试…",
+			say = "Seriously? I'm so glad we have a lucky ship~! Maybe I should give it a try next time...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "……",
+			say = "... ...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			actorName = "{namecode:22}",
 			actor = 301164,
 			nameColor = "#a9f548",
-			say = "哼，本大人在港区可是超人气的！",
+			say = "Hmph! I have already won the adoration of everyone here!",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -104,7 +104,7 @@ return {
 			dir = 1,
 			actor = 301164,
 			actorName = "{namecode:22}",
-			say = "指挥官只要你对{namecode:22}摇摇尾巴，{namecode:22}的尾巴也会给你摸两下的哟――嗯！？",
+			say = "Come! Commander, rub the tail of Yukikaze the Great and receive her blessings--- woaaaahhh!?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			side = 0,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "哒哒哒（脚步声）――",
+			say = "Loud footsteps could be heard echoing from the hallway...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			bgName = "bg_story_school",
 			side = 2,
 			dir = 1,
-			say = "有了有了！{namecode:22}酱在这里！",
+			say = "She's here! She's here! Yukikaze's over here!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +141,7 @@ return {
 			}
 		},
 		{
-			say = "谢谢反击！有了{namecode:22}酱，这回一定要让姐姐力更强大——",
+			say = "Thanks, Repulse! All righty, with Yukikaze's help, this time I'm gonna increase my standings as a big sister for sure...!",
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -166,7 +166,7 @@ return {
 			bgName = "bg_story_school",
 			side = 0,
 			dir = -1,
-			say = "姐姐她听说圣地亚哥的运气很好所以……{namecode:22}酱，对不起……！",
+			say = "San Diego kept telling my sister about how lucky you were, so... Sorry, Yukikaze...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			dir = 1,
 			actor = 301334,
 			actorName = "{namecode:34}",
-			say = "{namecode:34}…也想要运气……",
+			say = "I also... want some good luck...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			bgName = "bg_story_school",
 			side = 0,
 			dir = 1,
-			say = "哼哼哼，东方之国的冰风暴<SnowFrost>呦！把你的好运<RealLuck>贡献给我吧！",
+			say = "Hehe, frigid wind from the Eastern Empire, †Snowfrost†! Bestow upon me your †Real Luck†!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,7 +215,7 @@ return {
 			bgName = "bg_story_school",
 			side = 1,
 			dir = -1,
-			say = "啊哈哈哈！也算我一个！",
+			say = "Ahahaha! Count me in too!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			dir = 1,
 			actor = 205064,
 			nameColor = "#a9f548",
-			say = "好啦好啦，大家排队",
+			say = "All right everyone, queue up orderly.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			},
 			options = {
 				{
-					content = "这是…什么情况…",
+					content = "What in the world is going on here...?",
 					flag = 1
 				}
 			}
@@ -254,7 +254,7 @@ return {
 			dir = 1,
 			actor = 301164,
 			actorName = "{namecode:22}",
-			say = "哼！不、不过是蹭蹭尾巴毛罢了，本大人就满足你们——！",
+			say = "H-heh! Give my tail a rub! Yukikaze the Great shall make your dreams come true!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,7 +268,7 @@ return {
 			side = 0,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "……",
+			say = "...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,7 +281,7 @@ return {
 			actorName = "{namecode:78}",
 			actor = 305014,
 			nameColor = "#a9f548",
-			say = "{namecode:22}酱果然是超人气呢……不过那样也很辛苦吧……",
+			say = "Yukikaze is quite personable after all... but I hope she's not biting off more than she can chew...",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -309,7 +309,7 @@ return {
 			}
 		},
 		{
-			say = "殿下知道吗？{namecode:22}酱她只要拜托一下什么都会做哦？",
+			say = "Milord, what do you think? Can Yukikaze really fulfill anyone's wishes?",
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -330,7 +330,7 @@ return {
 			},
 			options = {
 				{
-					content = "这不就是老好人吗……",
+					content = "Doesn't it seem like she is just saying what others want to hear...?",
 					flag = 1
 				}
 			}
@@ -343,7 +343,7 @@ return {
 			blackBg = true,
 			actor = 305024,
 			actorName = "{namecode:79}",
-			say = "好、好像是呢……啊哈哈哈……",
+			say = "I suppose so... aha... ha...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

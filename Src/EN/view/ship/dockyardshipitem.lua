@@ -174,7 +174,7 @@ function slot0.flush(slot0)
 
 			slot0.iconStatus.gameObject:SetActive(true)
 
-			if slot1.inFleet and not slot12 and not slot1.inChapter and not slot1.inElite and not slot1.shamInFleet and not slot1.inSham and not slot1.inChallenge then
+			if slot1.inFleet and not slot12 and not slot1.inChapter and not slot1.inElite and not slot1.inActivity and not slot1.shamInFleet and not slot1.inSham and not slot1.inChallenge then
 				tf(slot0.iconStatus).sizeDelta = Vector2(105, 36)
 				slot0.iconStatusTxt.text = Fleet.DEFAULT_NAME_FOR_DOCKYARD[slot1:getFleetId()]
 				slot0.iconStatusTxt.fontSize = 22

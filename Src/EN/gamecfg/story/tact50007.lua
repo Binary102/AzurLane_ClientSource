@@ -6,7 +6,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "적에게 포위당한 상태에서 화력 차이까지 나는 절대적으로 불리한 상황 속에, 아스토리아 일행은 패색이 짙어져갔다……",
+			say = "Under the withering fire of the enemies, Astoria and her sisters were quickly becoming overwhelmed by their enemies' superior numbers...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -15,7 +15,7 @@ return {
 		{
 			actor = 103091,
 			nameColor = "#a9f548",
-			say = "아스토리아 언니!",
+			say = "Astoria!",
 			side = 2,
 			soundeffect = "event:/battle/boom2",
 			flash = {
@@ -40,7 +40,7 @@ return {
 		{
 			actor = 103081,
 			side = 1,
-			say = "괜찮아, 아직 버틸 수 있어!",
+			say = "I'm all right... I can still keep fighting!",
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -59,7 +59,7 @@ return {
 			actor = 103101,
 			side = 1,
 			nameColor = "#a9f548",
-			say = "언니……흐에엥……",
+			say = "Sis... Ugh...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			actor = 103081,
 			side = 1,
 			nameColor = "#a9f548",
-			say = "괜찮아, 빈센스.",
+			say = "It'll be okay, Vincennes!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			actor = 103081,
 			side = 1,
 			nameColor = "#a9f548",
-			say = "후우…이렇게 험난한 전투에 두 동생이 옆에 있어 정말 다행이야. 너희가 없었으면 언니는 벌써 눈물 콧물 질질 짰을걸?",
+			say = "Heh. I'm lucky to have sisters like you two in such a tough fight. Otherwise I wouldn't be able to keep myself from crying.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			actor = 103091,
 			side = 0,
 			nameColor = "#a9f548",
-			say = "아스토리아 언니……그렇네요.",
+			say = "Astoria... Big sister, that's right...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			actor = 103101,
 			side = 1,
 			nameColor = "#a9f548",
-			say = "웅……언니들이 없었으면, 나도 벌써 울었을 거야!",
+			say = "Mm... as long as we're all together, Vincennes will also...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			actor = 103081,
 			side = 2,
 			nameColor = "#a9f548",
-			say = "아하하하, 그럼…가볼까, 최후의 반격이다!",
+			say = "All right, let's make our final counterattack!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

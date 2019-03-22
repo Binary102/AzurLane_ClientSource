@@ -10939,6 +10939,262 @@ pg.furniture_data_template = {
 		canputonGrid = {},
 		interAction_group = {}
 	},
+	[10101] = {
+		can_rotate = 0,
+		name = "Fountain Bath",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 150,
+		not_for_sale = 1,
+		icon = "yuchicnicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 4,
+		picture = "cn/yuchicn",
+		canputon = 0,
+		discount = 0,
+		id = 10101,
+		comfortable = 4,
+		describe = "A big fountain bath complete with a dragon waterfall!",
+		dorm_id = 0,
+		gem_price = 0,
+		can_trigger = 0,
+		themeId = 10,
+		spine_extra = "",
+		time = "always",
+		new = 0,
+		discount_time = "",
+		size = {
+			7,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"wash",
+				{
+					-79,
+					-78
+				},
+				{
+					1,
+					1
+				},
+				"cn/yuchicn_using"
+			},
+			{
+				"wash",
+				{
+					49,
+					-103
+				},
+				{
+					-1,
+					1
+				},
+				"cn/yuchicn_using"
+			}
+		},
+		interAction_group = {}
+	},
+	[10102] = {
+		can_rotate = 0,
+		name = "Display Table",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		icon = "chajicnicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 80,
+		not_for_sale = 1,
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		picture = "cn/chajicn",
+		canputon = 1,
+		discount = 0,
+		id = 10102,
+		comfortable = 3,
+		describe = "An elegant table used to display valuable objects.",
+		dorm_id = 0,
+		gem_price = 0,
+		can_trigger = 0,
+		themeId = 10,
+		spine_extra = "",
+		time = "always",
+		new = 0,
+		discount_time = "",
+		size = {
+			2,
+			7
+		},
+		offset = {
+			0,
+			0
+		},
+		canputonGrid = {
+			{
+				1,
+				1
+			},
+			{
+				1,
+				2
+			},
+			{
+				1,
+				3
+			},
+			{
+				1,
+				4
+			},
+			{
+				1,
+				5
+			},
+			{
+				1,
+				6
+			},
+			{
+				1,
+				7
+			},
+			{
+				2,
+				1
+			},
+			{
+				2,
+				2
+			},
+			{
+				2,
+				3
+			},
+			{
+				2,
+				4
+			},
+			{
+				2,
+				5
+			},
+			{
+				2,
+				6
+			},
+			{
+				2,
+				7
+			}
+		},
+		interAction_group = {}
+	},
+	[10105] = {
+		can_rotate = 0,
+		name = "Large Maple Bed",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 2,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 150,
+		not_for_sale = 2,
+		icon = "chuangcnicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 4,
+		picture = "cn/chuangcn",
+		canputon = 0,
+		discount = 0,
+		id = 10105,
+		comfortable = 4,
+		describe = "A large maple bed crafted in an Eastern style.",
+		dorm_id = 0,
+		gem_price = 0,
+		can_trigger = 0,
+		themeId = 10,
+		spine_extra = "",
+		time = "always",
+		new = 0,
+		discount_time = "",
+		size = {
+			7,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					107,
+					-15
+				},
+				{
+					1,
+					1
+				},
+				"cn/chuangcn_using"
+			}
+		},
+		interAction_group = {}
+	},
+	[10301] = {
+		can_rotate = 0,
+		name = "Courtyard Window",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		effect = "",
+		icon = "chuanghucnicon",
+		is_get_time_note = 0,
+		belong = 2,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 150,
+		not_for_sale = 1,
+		deblocking = 1,
+		level = 5,
+		rarity = 4,
+		picture = "cn/chuanghucn",
+		canputon = 0,
+		discount = 0,
+		id = 10301,
+		comfortable = 4,
+		describe = "Includes a nice view of the courtyard.",
+		dorm_id = 0,
+		gem_price = 0,
+		can_trigger = 0,
+		themeId = 10,
+		spine_extra = "",
+		time = "always",
+		new = 0,
+		discount_time = "",
+		size = {
+			10,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction_group = {}
+	},
 	[11001] = {
 		can_rotate = 0,
 		name = "Tea Time Floor",
@@ -29025,6 +29281,2612 @@ pg.furniture_data_template = {
 		canputonGrid = {},
 		interAction_group = {}
 	},
+	[24001] = {
+		can_rotate = 0,
+		name = "Cat Café Flooring",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		effect = "",
+		icon = "dibancficon",
+		is_get_time_note = 0,
+		belong = 0,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 150,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 4,
+		picture = "cafe/dibancf",
+		canputon = 0,
+		discount = 0,
+		id = 24001,
+		comfortable = 4,
+		describe = "Intri-cat-ely designed flooring with a pawprint motif.",
+		dorm_id = 0,
+		gem_price = 450,
+		can_trigger = 0,
+		themeId = 24,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					3,
+					14
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					24
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[24002] = {
+		can_rotate = 0,
+		name = "Cat Café Wallpaper",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		effect = "",
+		icon = "qiangbicficon",
+		is_get_time_note = 0,
+		belong = 0,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 150,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 5,
+		rarity = 4,
+		picture = "cafe/qiangbicf",
+		canputon = 0,
+		discount = 0,
+		id = 24002,
+		comfortable = 4,
+		describe = "Wallpa-purr with a fang-tastatic color palette.",
+		dorm_id = 0,
+		gem_price = 450,
+		can_trigger = 0,
+		themeId = 24,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					3,
+					14
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					24
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[24101] = {
+		can_rotate = 0,
+		name = "Cat Café Bar",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		icon = "bataicficon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 2,
+		advice = 0,
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		picture = "cafe/bataicf",
+		canputon = 0,
+		discount = 0,
+		id = 24101,
+		comfortable = 3,
+		describe = "\"Care to try a meow-tini or a catània, nya?\"",
+		dorm_id = 0,
+		gem_price = 240,
+		can_trigger = 0,
+		themeId = 24,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					3,
+					14
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					24
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[24102] = {
+		can_rotate = 0,
+		name = "Cat Bunk Bed",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 150,
+		not_for_sale = 0,
+		icon = "chuang2cficon",
+		deblocking = 1,
+		level = 1,
+		rarity = 4,
+		picture = "cafe/chuang2cf",
+		canputon = 0,
+		discount = 0,
+		id = 24102,
+		comfortable = 4,
+		describe = "\"Time for a catnap, nya...\"",
+		dorm_id = 0,
+		gem_price = 450,
+		can_trigger = 0,
+		themeId = 24,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			4,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					19,
+					-98
+				},
+				{
+					-1,
+					1
+				},
+				"cafe/chuang2cf_using"
+			},
+			{
+				"sleep",
+				{
+					-10,
+					38
+				},
+				{
+					-1,
+					1
+				},
+				"cafe/chuang2cf_using2"
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					3,
+					14
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					24
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[24103] = {
+		can_rotate = 0,
+		name = "Bar Stool",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 4,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "dengzi2cficon",
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "cafe/dengzi2cf",
+		canputon = 0,
+		discount = 0,
+		id = 24103,
+		comfortable = 2,
+		describe = "All fur-niture can be improved with the addition of a tail!",
+		dorm_id = 0,
+		gem_price = 120,
+		can_trigger = 0,
+		themeId = 24,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					6,
+					63
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					3,
+					14
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					24
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[24104] = {
+		can_rotate = 0,
+		name = "Pawprint Sofa",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 4,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "dengzicficon",
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "cafe/dengzicf",
+		canputon = 0,
+		discount = 0,
+		id = 24104,
+		comfortable = 2,
+		describe = "Paw-ssibly the meow-st com-fur-table sofa you'll ever sit on.",
+		dorm_id = 0,
+		gem_price = 120,
+		can_trigger = 0,
+		themeId = 24,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-7,
+					25
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					3,
+					14
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					24
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[24105] = {
+		can_rotate = 0,
+		name = "Cat Carpet",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		effect = "",
+		icon = "ditan1cficon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		picture = "cafe/ditan1cf",
+		canputon = 0,
+		discount = 0,
+		id = 24105,
+		comfortable = 3,
+		describe = "Cat-egorically speaking, it has more in common with a mat.",
+		dorm_id = 0,
+		gem_price = 240,
+		can_trigger = 0,
+		themeId = 24,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			3,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					3,
+					14
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					24
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[24106] = {
+		can_rotate = 0,
+		name = "Pawprint Carpet",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		effect = "",
+		icon = "ditan2cficon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		picture = "cafe/ditan2cf",
+		canputon = 0,
+		discount = 0,
+		id = 24106,
+		comfortable = 3,
+		describe = "These decorative pawprints give some purr-sonality to an otherwise bland carpet.",
+		dorm_id = 0,
+		gem_price = 240,
+		can_trigger = 0,
+		themeId = 24,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			7,
+			9
+		},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					3,
+					14
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					24
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[24107] = {
+		can_rotate = 0,
+		name = "Colossal Cuppa Coffee",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "kafeibeicficon",
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		picture = "cafe/kafeibeicf",
+		canputon = 0,
+		discount = 0,
+		id = 24107,
+		comfortable = 3,
+		describe = "One giant cup of blue meow-ntain, brewed to purr-fection!",
+		dorm_id = 0,
+		gem_price = 240,
+		can_trigger = 0,
+		themeId = 24,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"wash",
+				{
+					-34,
+					-9
+				},
+				{
+					1,
+					1
+				},
+				"cafe/kafeibeicf_using"
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					3,
+					14
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					24
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[24108] = {
+		can_rotate = 0,
+		name = "Kitty Castle",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "maojiacficon",
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		picture = "cafe/maojiacf",
+		canputon = 0,
+		discount = 0,
+		id = 24108,
+		comfortable = 3,
+		describe = "A playground for cats. Also known as the Fur Fortress, Cat Cave, and Meow Mansion.",
+		dorm_id = 0,
+		gem_price = 240,
+		can_trigger = 0,
+		themeId = 24,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			3,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					55,
+					73
+				},
+				{
+					1,
+					1
+				}
+			},
+			{
+				"stand2",
+				{
+					114,
+					-131
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					3,
+					14
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					24
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[24109] = {
+		can_rotate = 0,
+		name = "Cat Food",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		icon = "maoliangcficon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 20,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 1,
+		picture = "cafe/maoliangcf",
+		canputon = 0,
+		discount = 0,
+		id = 24109,
+		comfortable = 1,
+		describe = "\"No, Akashi! This is for the cats, not for you!\"",
+		dorm_id = 0,
+		gem_price = 60,
+		can_trigger = 0,
+		themeId = 24,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					3,
+					14
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					24
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[24110] = {
+		can_rotate = 0,
+		name = "Scratching Post",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		icon = "pajiacficon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 20,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 1,
+		picture = "cafe/pajiacf",
+		canputon = 0,
+		discount = 0,
+		id = 24110,
+		comfortable = 1,
+		describe = "Pent-up e-meow-tions? Need some cat-harsis? Then scratch away and purr-ge yourself of those feral feline feelings!",
+		dorm_id = 0,
+		gem_price = 60,
+		can_trigger = 0,
+		themeId = 24,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					3,
+					14
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					24
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[24111] = {
+		can_rotate = 0,
+		name = "Beanbag (Red)",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "shafa1cficon",
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		picture = "cafe/shafa1cf",
+		canputon = 0,
+		discount = 0,
+		id = 24111,
+		comfortable = 3,
+		describe = "Don't worry about leakage, it's scratch-proof.",
+		dorm_id = 0,
+		gem_price = 240,
+		can_trigger = 0,
+		themeId = 24,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-15,
+					19
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					3,
+					14
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					24
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[24112] = {
+		can_rotate = 0,
+		name = "Beanbag (Blue)",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "shafa2cficon",
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		picture = "cafe/shafa2cf",
+		canputon = 0,
+		discount = 0,
+		id = 24112,
+		comfortable = 3,
+		describe = "Don't worry about leakage, it's scratch-proof.",
+		dorm_id = 0,
+		gem_price = 240,
+		can_trigger = 0,
+		themeId = 24,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-15,
+					19
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					3,
+					14
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					24
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[24113] = {
+		can_rotate = 0,
+		name = "Beanbag (Yellow)",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "shafa3cficon",
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		picture = "cafe/shafa3cf",
+		canputon = 0,
+		discount = 0,
+		id = 24113,
+		comfortable = 3,
+		describe = "Don't worry about leakage, it's scratch-proof.",
+		dorm_id = 0,
+		gem_price = 240,
+		can_trigger = 0,
+		themeId = 24,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					7.8,
+					26
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					3,
+					14
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					24
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[24114] = {
+		can_rotate = 0,
+		name = "Big Cat House",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 150,
+		not_for_sale = 0,
+		icon = "wocficon",
+		deblocking = 1,
+		level = 1,
+		rarity = 4,
+		picture = "cafe/wocf",
+		canputon = 0,
+		discount = 0,
+		id = 24114,
+		comfortable = 4,
+		describe = "A paw-sitively massive kitty hideout, big enough to house a purr-son.",
+		dorm_id = 0,
+		gem_price = 450,
+		can_trigger = 0,
+		themeId = 24,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					-20,
+					-11
+				},
+				{
+					1,
+					1
+				},
+				"cafe/wocf_using",
+				0,
+				{
+					{
+						38,
+						38
+					},
+					{
+						276,
+						251
+					}
+				}
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					3,
+					14
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					24
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[24115] = {
+		can_rotate = 0,
+		name = "Drinking Fountain",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		icon = "yinshuiqicficon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "cafe/yinshuiqicf",
+		canputon = 0,
+		discount = 0,
+		id = 24115,
+		comfortable = 2,
+		describe = "A hydrated cat is a cool cat!",
+		dorm_id = 0,
+		gem_price = 120,
+		can_trigger = 0,
+		themeId = 24,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					3,
+					14
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					24
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[24116] = {
+		can_rotate = 1,
+		name = "Pickled Herring",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		picture = "",
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 0,
+		not_for_sale = 0,
+		icon = "feiyuguantouicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 4,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 24116,
+		comfortable = 4,
+		describe = "\"U-umm... I think I'll have some lasagna instead, nya...\"",
+		dorm_id = 0,
+		gem_price = 120,
+		can_trigger = 0,
+		themeId = 24,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		spine = {
+			{
+				"feiyuguantouB",
+				"normal"
+			},
+			{
+				"feiyuguantouT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"wash"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					1
+				}
+			},
+			{},
+			{
+				25,
+				-75
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					3,
+					14
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					24
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[24117] = {
+		can_rotate = 0,
+		name = "Yarn Ball Post",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		picture = "",
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 0,
+		not_for_sale = 0,
+		icon = "amazingbox_icon",
+		deblocking = 1,
+		level = 1,
+		rarity = 4,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 24117,
+		comfortable = 4,
+		describe = "These little balls of yarn provide a cat with fun for 9 whole lifetimes.",
+		dorm_id = 0,
+		gem_price = 100,
+		can_trigger = 0,
+		themeId = 24,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		spine = {
+			{
+				"maoxianghexin",
+				"normal"
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					3,
+					14
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					24
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[24118] = {
+		can_rotate = 0,
+		name = "Cat Bag",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "zhidaicficon",
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		picture = "cafe/zhidaicf",
+		canputon = 0,
+		discount = 0,
+		id = 24118,
+		comfortable = 3,
+		describe = "\"Makes me want to curl up inside, nya...\"",
+		dorm_id = 0,
+		gem_price = 240,
+		can_trigger = 0,
+		themeId = 24,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-13,
+					31
+				},
+				{
+					1,
+					1
+				},
+				"cafe/zhidaicf_using"
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					3,
+					14
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					24
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[24119] = {
+		can_rotate = 0,
+		name = "Cardboard Box",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "zhixiangcficon",
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		picture = "cafe/zhixiangcf",
+		canputon = 0,
+		discount = 0,
+		id = 24119,
+		comfortable = 3,
+		describe = "\"I wanna curl up! Inside! Right now! Nya!\"",
+		dorm_id = 0,
+		gem_price = 240,
+		can_trigger = 0,
+		themeId = 24,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-15,
+					27
+				},
+				{
+					1,
+					1
+				},
+				"cafe/zhixiangcf_using"
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					3,
+					14
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					24
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[24120] = {
+		can_rotate = 0,
+		name = "Dinner Catable",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		icon = "zhuozi2cficon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		picture = "cafe/zhuozi2cf",
+		canputon = 0,
+		discount = 0,
+		id = 24120,
+		comfortable = 3,
+		describe = "Don't try to argue that it should be called a sup-purr table or you'll get thrown out.",
+		dorm_id = 0,
+		gem_price = 240,
+		can_trigger = 0,
+		themeId = 24,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			3,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					3,
+					14
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					24
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[24121] = {
+		can_rotate = 0,
+		name = "Lunch Catable",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		icon = "shipencficon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "cafe/shipencf",
+		canputon = 0,
+		discount = 0,
+		id = 24121,
+		comfortable = 2,
+		describe = "They say that cats always land on their feet... Do cat tables always land upright?",
+		dorm_id = 0,
+		gem_price = 120,
+		can_trigger = 0,
+		themeId = 24,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					3,
+					14
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					24
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[24122] = {
+		can_rotate = 0,
+		name = "Kitty Catable",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		icon = "zhuozicficon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "cafe/zhuozicf",
+		canputon = 1,
+		discount = 0,
+		id = 24122,
+		comfortable = 2,
+		describe = "This piece of fur-niture has a rather sublime and sop-hiss-ticated design.",
+		dorm_id = 0,
+		gem_price = 120,
+		can_trigger = 0,
+		themeId = 24,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			3,
+			3
+		},
+		offset = {
+			0,
+			-6.34
+		},
+		canputonGrid = {
+			{
+				2,
+				2
+			},
+			{
+				2,
+				3
+			},
+			{
+				3,
+				2
+			},
+			{
+				3,
+				3
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					3,
+					14
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					24
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[24123] = {
+		can_rotate = 1,
+		name = "Cat-In-The-Box - Grumpy",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		picture = "",
+		is_get_time_note = 0,
+		count = 3,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 0,
+		not_for_sale = 0,
+		icon = "amazingbox_brwon_icon",
+		deblocking = 1,
+		level = 1,
+		rarity = 4,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 24123,
+		comfortable = 4,
+		describe = "He hates Mondays, among other things.",
+		dorm_id = 0,
+		gem_price = 150,
+		can_trigger = 0,
+		themeId = 24,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		spine = {
+			{
+				"amazingboxbrownB",
+				"normal"
+			},
+			{
+				"amazingboxbrownT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"yun"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{
+				{
+					0,
+					170
+				},
+				{
+					504,
+					504
+				},
+				"cafe/maoxiang_mask"
+			},
+			{
+				0,
+				-55
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					3,
+					14
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					24
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		animator = {
+			{
+				"amazingboxcolorControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[24124] = {
+		can_rotate = 1,
+		name = "Cat-In-The-Box - Lucky",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		picture = "",
+		is_get_time_note = 0,
+		count = 3,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 0,
+		not_for_sale = 0,
+		icon = "amazingbox_gray_icon",
+		deblocking = 1,
+		level = 1,
+		rarity = 4,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 24124,
+		comfortable = 4,
+		describe = "♪ And all the cats say I'm pretty fine for a feline ♪",
+		dorm_id = 0,
+		gem_price = 150,
+		can_trigger = 0,
+		themeId = 24,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		spine = {
+			{
+				"amazingboxgrayB",
+				"normal"
+			},
+			{
+				"amazingboxgrayT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"yun"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{
+				{
+					0,
+					170
+				},
+				{
+					504,
+					504
+				},
+				"cafe/maoxiang_mask"
+			},
+			{
+				0,
+				-55
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					3,
+					14
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					24
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		animator = {
+			{
+				"amazingboxcolorControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[24125] = {
+		can_rotate = 1,
+		name = "Cat-In-The-Box - Mutsky",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		picture = "",
+		is_get_time_note = 0,
+		count = 3,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 0,
+		not_for_sale = 0,
+		icon = "amazingbox_color_icon",
+		deblocking = 1,
+		level = 1,
+		rarity = 4,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 24125,
+		comfortable = 4,
+		describe = "\"I think I know who taught her that expression...\"",
+		dorm_id = 0,
+		gem_price = 150,
+		can_trigger = 0,
+		themeId = 24,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		spine = {
+			{
+				"amazingboxcolorB",
+				"normal"
+			},
+			{
+				"amazingboxcolorT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"yun"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{
+				{
+					0,
+					170
+				},
+				{
+					504,
+					504
+				},
+				"cafe/maoxiang_mask"
+			},
+			{
+				0,
+				-55
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					3,
+					14
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					24
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		animator = {
+			{
+				"amazingboxcolorControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[24201] = {
+		can_rotate = 0,
+		name = "Cat Cookies",
+		gain_by = "",
+		type = 3,
+		dir = 0,
+		effect = "",
+		icon = "binggancficon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 2,
+		rarity = 2,
+		picture = "cafe/binggancf",
+		canputon = 0,
+		discount = 0,
+		id = 24201,
+		comfortable = 2,
+		describe = "\"Cat cookies? Sounds fishy... I think I'll pass.\"",
+		dorm_id = 0,
+		gem_price = 120,
+		can_trigger = 0,
+		themeId = 24,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					3,
+					14
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					24
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[24202] = {
+		can_rotate = 0,
+		name = "Cat Cake",
+		gain_by = "",
+		type = 3,
+		dir = 0,
+		effect = "",
+		icon = "dangaocficon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 2,
+		rarity = 2,
+		picture = "cafe/dangaocf",
+		canputon = 0,
+		discount = 0,
+		id = 24202,
+		comfortable = 2,
+		describe = "Yummy cake, straight from the kit-chen!",
+		dorm_id = 0,
+		gem_price = 120,
+		can_trigger = 0,
+		themeId = 24,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					3,
+					14
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					24
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[24301] = {
+		can_rotate = 1,
+		name = "Menu Board",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		effect = "",
+		icon = "canpaicficon",
+		is_get_time_note = 0,
+		belong = 4,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 5,
+		rarity = 2,
+		picture = "cafe/canpaicf",
+		canputon = 0,
+		discount = 0,
+		id = 24301,
+		comfortable = 2,
+		describe = "\"Is the order a cat, nya?\"",
+		dorm_id = 0,
+		gem_price = 120,
+		can_trigger = 0,
+		themeId = 24,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			6,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					3,
+					14
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					24
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[24302] = {
+		can_rotate = 0,
+		name = "Cat Window",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		effect = "",
+		icon = "chuanghucficon",
+		is_get_time_note = 0,
+		belong = 2,
+		count = 2,
+		advice = 0,
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 5,
+		rarity = 3,
+		picture = "cafe/chuanghucf",
+		canputon = 0,
+		discount = 0,
+		id = 24302,
+		comfortable = 3,
+		describe = "Usually, customers can sit here, but it's currently occupied by cats...",
+		dorm_id = 0,
+		gem_price = 240,
+		can_trigger = 0,
+		themeId = 24,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			6,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					3,
+					14
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					24
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[24303] = {
+		can_rotate = 0,
+		name = "Yarn Ball Painting",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		effect = "",
+		icon = "guahuacficon",
+		is_get_time_note = 0,
+		belong = 2,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 5,
+		rarity = 3,
+		picture = "cafe/guahuacf",
+		canputon = 0,
+		discount = 0,
+		id = 24303,
+		comfortable = 3,
+		describe = "Before the invention of the internet, people had to paint their own cat pictures to share them with others.",
+		dorm_id = 0,
+		gem_price = 240,
+		can_trigger = 0,
+		themeId = 24,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					3,
+					14
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					24
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[24304] = {
+		can_rotate = 0,
+		name = "Wall-Mounted Cat House",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		effect = "",
+		icon = "maoguacficon",
+		is_get_time_note = 0,
+		belong = 2,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 5,
+		rarity = 3,
+		picture = "cafe/maoguacf",
+		canputon = 0,
+		discount = 0,
+		id = 24304,
+		comfortable = 3,
+		describe = "Household cats can easily jump high enough to reach it. Akashi has never quite managed, though.",
+		dorm_id = 0,
+		gem_price = 240,
+		can_trigger = 0,
+		themeId = 24,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			4,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					3,
+					14
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					24
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[24305] = {
+		can_rotate = 0,
+		name = "Cat Café Entrance",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		effect = "",
+		icon = "mencficon",
+		is_get_time_note = 0,
+		belong = 2,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 150,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 5,
+		rarity = 4,
+		picture = "cafe/mencf",
+		canputon = 0,
+		discount = 0,
+		id = 24305,
+		comfortable = 4,
+		describe = "\"Welcome to the Cat Café! In retrospect, maybe we should have called it the Cat-fé...\"",
+		dorm_id = 0,
+		gem_price = 450,
+		can_trigger = 0,
+		themeId = 24,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			6,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					3,
+					14
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					24
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[24306] = {
+		can_rotate = 0,
+		name = "Cat Yard",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		effect = "",
+		icon = "yangtaicficon",
+		is_get_time_note = 0,
+		belong = 2,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 150,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 5,
+		rarity = 4,
+		picture = "cafe/yangtaicf",
+		canputon = 0,
+		discount = 0,
+		id = 24306,
+		comfortable = 4,
+		describe = "\"My instincts are telling me to take a nap on the porch, nya...\"",
+		dorm_id = 0,
+		gem_price = 450,
+		can_trigger = 0,
+		themeId = 24,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			8,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					3,
+					14
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					24
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
 	[35001] = {
 		can_rotate = 0,
 		name = "Ghostly Wilderness",
@@ -40604,6 +43466,10 @@ pg.furniture_data_template = {
 		8305,
 		8306,
 		8307,
+		10101,
+		10102,
+		10105,
+		10301,
 		11001,
 		11002,
 		11101,
@@ -40875,6 +43741,41 @@ pg.furniture_data_template = {
 		22304,
 		22305,
 		22306,
+		24001,
+		24002,
+		24101,
+		24102,
+		24103,
+		24104,
+		24105,
+		24106,
+		24107,
+		24108,
+		24109,
+		24110,
+		24111,
+		24112,
+		24113,
+		24114,
+		24115,
+		24116,
+		24117,
+		24118,
+		24119,
+		24120,
+		24121,
+		24122,
+		24123,
+		24124,
+		24125,
+		24201,
+		24202,
+		24301,
+		24302,
+		24303,
+		24304,
+		24305,
+		24306,
 		35001,
 		35002,
 		35101,

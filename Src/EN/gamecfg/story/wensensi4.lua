@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"妹妹的变化\n\n<size=30>四 妹妹的失落</size>",
+					"My Sister's Growth Spurt?!\n\n<size=30>Chapter 4: My Sister's Sadness</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "最近的舰队事务稍微变得有些繁重，港区的成员都忙碌了起来——",
+			say = "Recently, the situation around the port began to become more demanding, and everyone was getting busier and busier as a result.",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -51,7 +51,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，有关下一片海域的侦查人员配置…",
+			say = "Commander, I'd like to discuss how we should reconnoiter the next sea area...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "昆西姐姐……",
+			say = "Um, Quincy...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，文森斯，抱歉，姐姐现在和指挥官有些军务要商量，等结束了再陪你。",
+			say = "Ah, Vincennes, sorry. Your sister is discussing some work-related stuff with Commander. I'll be with you as soon as I'm done.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯……",
+			say = "Okay...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,23 +113,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "前些天参与了周边海域清扫战场的阿斯托利亚比较合适吧",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 103081,
-			side = 2,
-			bgName = "bg_story_task",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "指挥官，要把这一片海域分派给我吗。",
+			say = "It'd probably be best to send Astoria there, since she was involved in clearing out the route there a few days ago.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +129,23 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……嗯，我知道了，我会努力的！",
+			say = "Commander, are you assigning this to me?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 103081,
+			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "... All righty, got it! Just leave it to me!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			dir = 1,
 			actor = 103101,
 			nameColor = "#a9f548",
-			say = "指挥官，有什么我能帮忙的吗？",
+			say = "Um, Commander... can I help?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			},
 			options = {
 				{
-					content = "思考",
+					content = "\"Let me think about it.\"",
 					flag = 1
 				}
 			}
@@ -183,7 +183,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，文森斯能交给我吗，我一定会安排好的！",
+			say = "Commander, why don't you assign her with me? I'll make sure to take good care of her!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "确实，文森斯的战斗能力是值得信赖的，既然阿斯托里亚这么说，那就交给她吧。",
+			say = "Indeed, I know Vincennes is quite reliable in combat. Astoria, since you volunteered, I'll let you handle it then.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "文森斯，你不用想复杂的事，一切都交给姐姐来安排就好了。",
+			say = "Vincennes, don't sweat the details, okay? Just let your big sister plan things out for you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,7 +229,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哦……",
+			say = "Mm...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,7 +243,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "…………",
+			say = "... ...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			dir = 1,
 			actor = 103101,
 			nameColor = "#a9f548",
-			say = "指挥官，来一起睡一会儿吗，已经工作很久了呢。",
+			say = "Commander, want to take a nap together? I've been working really hard...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			},
 			options = {
 				{
-					content = "摸文森斯的头，让她先去",
+					content = "Pat Vincennes on the head, and tell her that you'll join later",
 					flag = 1
 				}
 			}
@@ -281,7 +281,7 @@ return {
 			dir = 1,
 			actor = 103101,
 			nameColor = "#a9f548",
-			say = "唔……那好吧……",
+			say = "All right... see you in a bit...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -305,7 +305,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "文森斯看起来有些失落地坐回到了沙发上，应该是觉得没人陪她比较寂寞吧。",
+			say = "Vincennes looked a bit deflated as she shuffled back over to the secretary's seat.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,7 +320,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "但是现在还是以舰队事务为优先吧。",
+			say = "But there's no helping it... work isn't going to do itself.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

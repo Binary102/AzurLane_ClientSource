@@ -329,6 +329,13 @@ pg.drop_data_restore = {
 		resource_num = 880,
 		target_id = 202201
 	},
+	[1020] = {
+		target_type = 7,
+		resource_type = 1,
+		id = 1020,
+		resource_num = 2000,
+		target_id = 101061
+	},
 	all = {
 		1,
 		2,
@@ -376,7 +383,8 @@ pg.drop_data_restore = {
 		1016,
 		1017,
 		1018,
-		1019
+		1019,
+		1020
 	}
 }
 

@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"有关火奴鲁鲁的二三事\n\n<size=30>二　火奴鲁鲁朋友很少？</size>",
+					"An Easily Flustered Girl's Story\n\n<size=30>Chapter 2 - She Doesn't Have Many Friends?</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "港区·学院广场",
+			say = "Port - Academy Courtyard",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -51,7 +51,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "路易斯，有什么事吗？",
+			say = "What did you want, Louis?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			}
 		},
 		{
-			say = "嘻嘻~没事就不能找你了吗？",
+			say = "*Giggle*~ What? You mean we can't chat if I don't need something from you?",
 			side = 1,
 			bgName = "bg_story_school",
 			dir = -1,
@@ -87,7 +87,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "倒是无所谓，反正我也没什么事……",
+			say = "Well, I guess we could chat... Not like I have anything better to do.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			dir = 1,
 			actor = 102121,
 			nameColor = "#a9f548",
-			say = "……但是为什么指挥官也在这里啊？",
+			say = "... But why is the Commander here, too?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,7 +114,7 @@ return {
 			},
 			options = {
 				{
-					content = "打招呼",
+					content = "Say hello to them",
 					flag = 1
 				}
 			}
@@ -125,7 +125,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "呼呼，你就当作是幸运的偶遇吧~",
+			say = "Ah, is this what you might call a lucky coincidence?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +141,7 @@ return {
 			dir = 1,
 			actor = 102121,
 			nameColor = "#a9f548",
-			say = "幸、幸运…？",
+			say = "W-what's so lucky about this...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "你呀，平时除了我和海伦娜，就没什么能说话的人了吧。",
+			say = "Well, you hardly talk to anyone but Helena and me, no?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			dir = -1,
 			actor = 102131,
 			nameColor = "#a9f548",
-			say = "既然担任了秘书舰，应该多和指挥官亲近一下呀。",
+			say = "So why don't you try getting to know the Commander? You have the chance now that you're the secretary.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			},
 			options = {
 				{
-					content = "就是就是！",
+					content = "Nod in agreement",
 					flag = 1
 				}
 			}
@@ -205,7 +205,7 @@ return {
 			dir = 1,
 			actor = 102121,
 			nameColor = "#a9f548",
-			say = "哼…不关你的事吧。指挥官你也不要得寸进尺！",
+			say = "*Ugh*... That's none of your business, is it? And you, Commander, stay out of this!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "哎呀呀，怎么能不关我的事呢，我们不是好朋友嘛。",
+			say = "It IS my business. We're friends, aren't we?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……我觉得只是你想捉弄我吧。",
+			say = "*Sigh*... You just want me to make a fool of myself again, don't you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +263,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "是是是，我只是想捉弄你。",
+			say = "Sure, if that's what you want to call it then let's go with that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,7 +277,7 @@ return {
 			side = 1,
 			bgName = "bg_story_school",
 			dir = -1,
-			say = "看起来火奴鲁鲁完全被圣路易斯摸透了性格。",
+			say = "I have a hunch that St. Louis can see straight through Honolulu's charade.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -289,7 +289,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "先不说那个，你看看这件新款的衣服怎么样？",
+			say = "Putting that aside... What are your thoughts on these clothes?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -305,7 +305,7 @@ return {
 			dir = 1,
 			actor = 102121,
 			nameColor = "#a9f548",
-			say = "……这这这什么暴露的衣服？！只有你会喜欢吧！(///",
+			say = "What clo...?! W-w-what's your problem, displaying embarrassing stuff like this in public?! You're the only person on the planet who likes this stuff!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -331,7 +331,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "欸，我觉得火奴鲁鲁你穿着挺合身的哦，不如试一试怎么样？",
+			say = "Well, I think they'd look great on you... Why not try them on just once?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -347,7 +347,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "指挥官也想看吧？",
+			say = "I bet the Commander is curious as to how you'd look, too.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -363,7 +363,7 @@ return {
 			dir = 1,
 			actor = 102121,
 			nameColor = "#a9f548",
-			say = "……随、随你们的便吧，反正到时候穿上要是不好看也不关我事。",
+			say = "Whatever, do as you like... Don't be upset if it looks awful on me, cause I don't give a hoot...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -389,7 +389,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "那就当你同意咯？然后你再看看这件——",
+			say = "I'll take that as an \"OK\"~ Then what about these...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -405,7 +405,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "喂……",
+			say = "*Sigh*...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -419,7 +419,7 @@ return {
 			side = 1,
 			bgName = "bg_story_school",
 			dir = -1,
-			say = "就在这样的氛围中，聊天意外火热地继续了下去。",
+			say = "Their conversation, if one could call it that, went on for surprisingly long.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -430,7 +430,7 @@ return {
 			bgName = "bg_story_school",
 			dir = -1,
 			blackBg = true,
-			say = "果然拜托圣路易斯是有意义的，感觉稍微有些了解火奴鲁鲁了。",
+			say = "I feel like I've come to understand Honolulu's character now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

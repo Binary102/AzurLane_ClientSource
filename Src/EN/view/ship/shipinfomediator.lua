@@ -27,13 +27,9 @@ slot0.ON_TECHNOLOGY = "ShipInfoMediator:ON_TECHNOLOGY"
 slot0.ON_SEL_COMMANDER = "ShipInfoMediator:ON_SEL_COMMANDER"
 
 function slot0.register(slot0)
-	slot0.viewComponent:setEquipments(getProxy(EquipmentProxy))
+	slot0.viewComponent:setEquipments(slot1)
 
 	slot0.bayProxy = getProxy(BayProxy)
-
-	if not slot0.contextData.shipVOs then
-		slot0.contextData.shipVOs = {}
-	end
 
 	slot0.viewComponent:setShipList(slot0.contextData.shipVOs)
 	slot0.viewComponent:setSkinList(slot0.bayProxy:getSkinList())
@@ -46,7 +42,11 @@ function slot0.register(slot0)
 
 	slot0.bayProxy:setSelectShipId(slot0.contextData.shipId)
 
-	slot0.contextData.index = 1
+	if not slot0.contextData.shipVOs then
+		slot0.contextData.shipVOs = {
+			slot0.bayProxy:getShipById(slot0.contextData.shipId)
+		}
+	end
 
 	for slot6 = 1, #slot0.contextData.shipVOs, 1 do
 		if slot0.contextData.shipId == slot0.contextData.shipVOs[slot6].id then

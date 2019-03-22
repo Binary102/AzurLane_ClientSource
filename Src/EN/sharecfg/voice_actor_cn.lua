@@ -297,7 +297,7 @@ pg.voice_actor_CN = {
 		code = 74
 	},
 	{
-		actor_name = "Yuko Goto",
+		actor_name = "Yuuko Gotou",
 		code = 75
 	},
 	{
@@ -667,6 +667,10 @@ pg.voice_actor_CN = {
 	{
 		actor_name = "Konomi Fujimura",
 		code = 167
+	},
+	{
+		actor_name = "Sumire Morohoshi",
+		code = 168
 	}
 }
 

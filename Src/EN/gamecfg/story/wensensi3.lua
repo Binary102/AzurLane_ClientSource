@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"妹妹的变化\n\n<size=30>三 妹妹的想法</size>",
+					"My Sister's Growth Spurt?!\n\n<size=30>Chapter 3: My Sister's Thoughts</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "港区·白鹰宿舍",
+			say = "Port - Eagle Union Dorms",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -49,7 +49,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "从第一次受到邀请到现在，与文森斯相处已经过了一段时间，和她的关系也亲密了起来。",
+			say = "Since the time she first invited me, Vincennes and I had some time to get to know each other better, and we started to grow closer.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，今天也来一起发呆吗？",
+			say = "Commander, wanna come space out together today?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "虽然对文森斯来说，一起玩似乎只有睡觉和发呆两个选项就是了。",
+			say = "However, Vincennes only seemed to have two settings - napping, and spacing out.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "（敲门声）",
+			say = "*knock* *knock*",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，来了——咦，印第酱？哦…又是躲你家姐姐吗？",
+			say = "Ah, coming! Huh... Indy? Oh... are you hiding from your sister again?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			}
 		},
 		{
-			say = "…………嗯",
+			say = "... ... ... Mhm...",
 			side = 0,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -140,7 +140,7 @@ return {
 			},
 			options = {
 				{
-					content = "询问文森斯和印第的关系",
+					content = "\"How do you two know each other?\"",
 					flag = 1
 				}
 			}
@@ -151,7 +151,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "新奥尔良级和波特兰级关系很近哦？而且我和印第很合得来。",
+			say = "The New Orleans-class and Portland-class often work together... Indy and I are good friends...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "………………嗯。",
+			say = "... ... ... Mhm...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "都喜欢不说话，也都有…稍微有些麻烦的姐姐。",
+			say = "Also... we both don't talk much... and our sisters are a bit... overwhelming...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			dir = 1,
 			actor = 103101,
 			nameColor = "#a9f548",
-			say = "虽然和印第比起来，我家的姐姐们要普通一些就是了",
+			say = "Although Indy has it much worse than me...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,7 +210,7 @@ return {
 			},
 			options = {
 				{
-					content = "询问对姐姐们的想法",
+					content = "\"What do you think about your sisters?\"",
 					flag = 1
 				}
 			}
@@ -221,7 +221,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "从以前开始，姐姐们就什么都抢着帮我做，到最后…好像我什么都不做也没什么关系了……",
+			say = "Um, since the very beginning, my sisters always fought to do stuff for me, so I ended up not needing to do anything on my own...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +237,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……做姐姐的都有点太爱操心了",
+			say = "These big-sister types all worry too much...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +253,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，不过，这大概就是作为姐姐的关爱…吧…印第也是不讨厌波特兰姐姐的吧？",
+			say = "Mmhm... But, I suppose that's part of being a big sister... Indy, you don't hate Portland, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,7 +269,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……嗯。",
+			say = "Of course not...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,7 +284,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			blackBg = true,
-			say = "看起来，身为妹妹，虽然对姐姐的做法有些微词，结果还是喜欢姐姐的。",
+			say = "It seems that for these two, they still care about their sisters, even if they sometimes disagree with their methods.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

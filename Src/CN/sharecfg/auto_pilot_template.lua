@@ -5735,6 +5735,47 @@ pg.auto_pilot_template = {
 				}
 			}
 		}
+	},
+	[99990] = {
+		id = 99990,
+		name = "13章后撤释放地毯空袭",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 1,
+				type = 1,
+				param = {
+					z = 55,
+					x = 8,
+					y = 0
+				}
+			}
+		}
+	},
+	[99991] = {
+		id = 99991,
+		name = "13章防空船往左移动30",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 2,
+				param = {
+					x = -30,
+					z = 0
+				}
+			},
+			{
+				index = 2,
+				to = 1,
+				type = 0,
+				param = {
+					duration = -1
+				}
+			}
+		}
 	}
 }
 

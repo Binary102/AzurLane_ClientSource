@@ -1,10 +1,10 @@
 return {
 	uiEffect = "",
-	name = "复纵阵前进",
+	name = "弹药匮乏",
 	cd = 0,
 	picture = "0",
 	aniEffect = "",
-	desc = "复纵阵前进",
+	desc = "弹药匮乏",
 	painting = 0,
 	id = 210,
 	effect_list = {

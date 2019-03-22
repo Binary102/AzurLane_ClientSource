@@ -243,6 +243,10 @@ ys or .Battle.BattleDataFunction.CreateWeaponUnit = function (slot0, slot1, slot
 													else
 														if slot6.type == slot1.EquipmentType.DEPTH_CHARGE then
 															slot5 = slot2.Battle.BattleDepthChargeUnit.New()
+														else
+															if slot6.type == slot1.EquipmentType.REPEATER_ANTI_AIR then
+																slot5 = slot2.Battle.BattleRepeaterAntiAirUnit.New()
+															end
 														end
 													end
 												end

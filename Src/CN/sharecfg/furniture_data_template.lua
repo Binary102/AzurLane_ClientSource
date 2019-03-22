@@ -2779,18 +2779,18 @@ pg.furniture_data_template = {
 		gain_by = "",
 		type = 7,
 		dir = 0,
-		effect = "",
-		icon = "19.03.15icon",
+		picture = "",
 		is_get_time_note = 0,
-		belong = 1,
 		count = 1,
 		advice = 0,
+		effect = "",
 		dorm_icon_price = 40,
 		not_for_sale = 1,
+		icon = "19.03.15icon",
 		deblocking = 1,
 		level = 1,
 		rarity = 4,
-		picture = "",
+		belong = 1,
 		canputon = 0,
 		discount = 0,
 		id = 100004,
@@ -2810,6 +2810,57 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		spine = {
+			{
+				"moshumaoB",
+				"normal"
+			},
+			{
+				"moshumaoT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"walk"
+					},
+					{
+						{
+							"stand21",
+							"stand22",
+							"stand23"
+						}
+					},
+					{
+						"dance"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					0
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		animator = {
+			{
+				"moshumaoCharControl"
+			}
+		},
 		interAction_group = {}
 	},
 	[1001] = {

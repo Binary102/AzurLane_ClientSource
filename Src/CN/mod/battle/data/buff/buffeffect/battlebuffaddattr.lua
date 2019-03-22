@@ -51,7 +51,7 @@ function slot1.IsSameAttr(slot0, slot1)
 end
 
 function slot1.UpdateAttr(slot0, slot1)
-	if slot0._attr == "damageGetRatio" or slot0._attr == "velocity" then
+	if slot0._attr == "injureRatio" or slot0._attr == "velocity" then
 		slot0:UpdateAttrMul(slot1)
 	else
 		slot0:UpdateAttrAdd(slot1)

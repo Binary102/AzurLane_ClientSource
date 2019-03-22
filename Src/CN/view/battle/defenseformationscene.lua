@@ -42,11 +42,20 @@ function slot0.init(slot0)
 	slot0._buffPanel = slot0:findTF("buff_list")
 	slot0._buffGroup = slot0:findTF("buff_group", slot0._buffPanel)
 	slot0._buffModel = slot0:getTpl("buff_model", slot0._buffPanel)
-	slot0._cannonPower = slot0:findTF("blur_container/property_frame/cannon")
-	slot0._torpedoPower = slot0:findTF("blur_container/property_frame/torpedo")
-	slot0._AAPower = slot0:findTF("blur_container/property_frame/anti_air")
-	slot0._airPower = slot0:findTF("blur_container/property_frame/air")
-	slot0._cost = slot0:findTF("blur_container/property_frame/cost")
+	slot0._cannonPower = slot0:findTF("blur_container/property_frame/titles/cannon/value")
+	slot0._torpedoPower = slot0:findTF("blur_container/property_frame/titles/torpedo/value")
+	slot0._AAPower = slot0:findTF("blur_container/property_frame/titles/anti_air/value")
+	slot0._airPower = slot0:findTF("blur_container/property_frame/titles/air/value")
+	slot0._cost = slot0:findTF("blur_container/property_frame/titles/cost/value")
+	slot0._airDominance = slot0:findTF("blur_container/property_frame/titles/ac/value")
+
+	setText(slot0:findTF("blur_container/property_frame/titles/cannon/Text"), i18n("word_attr_cannon"))
+	setText(slot0:findTF("blur_container/property_frame/titles/torpedo/Text"), i18n("word_attr_torpedo"))
+	setText(slot0:findTF("blur_container/property_frame/titles/anti_air/Text"), i18n("word_attr_antiaircraft"))
+	setText(slot0:findTF("blur_container/property_frame/titles/air/Text"), i18n("word_attr_air"))
+	setText(slot0:findTF("blur_container/property_frame/titles/cost/Text"), i18n("word_attr_luck"))
+	setText(slot0:findTF("blur_container/property_frame/titles/ac/Text"), i18n("word_attr_ac"))
+
 	slot0._mainGS = slot0:findTF("gear_score/main/Text")
 	slot0._vanguardGS = slot0:findTF("gear_score/vanguard/Text")
 	slot0._attrFrame = slot0:findTF("blur_container/attr_frame")
@@ -486,12 +495,22 @@ end
 
 function slot0.displayFleetInfo(slot0)
 	slot1 = slot0._currentFleetVO:GetPropertiesSum()
+	slot2 = slot0._currentFleetVO:GetGearScoreSum(Fleet.VANGUARD)
+	slot3 = slot0._currentFleetVO:GetGearScoreSum(Fleet.MAIN)
 
 	slot0.tweenNumText(slot0._cannonPower, slot1.cannon)
 	slot0.tweenNumText(slot0._torpedoPower, slot1.torpedo)
 	slot0.tweenNumText(slot0._AAPower, slot1.antiAir)
 	slot0.tweenNumText(slot0._airPower, slot1.air)
 	slot0.tweenNumText(slot0._cost, slot0._currentFleetVO:GetCostSum().oil)
+
+	if OPEN_AIR_DOMINANCE then
+		setActive(slot0._airDominance.parent, true)
+		slot0.tweenNumText(slot0._airDominance, slot0._currentFleetVO:getFleetAirDominanceValue())
+	else
+		setActive(slot0._airDominance.parent, false)
+	end
+
 	slot0.tweenNumText(slot0._vanguardGS, slot2)
 	slot0.tweenNumText(slot0._mainGS, slot3)
 	setActive(slot0:findTF("gear_score"), true)

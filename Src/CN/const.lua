@@ -218,5 +218,6 @@ CRI_BG_FLAG = false
 OPEN_ESCORT = false
 OPEN_REMASTER = true
 AUTO_LINKLINK = false
+OPEN_AIR_DOMINANCE = true
 
 return

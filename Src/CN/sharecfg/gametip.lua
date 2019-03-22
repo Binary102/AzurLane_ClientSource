@@ -3667,6 +3667,10 @@ pg.gametip = {
 		tip = "氧气",
 		key = "attribute_oxy_max"
 	},
+	attribute_dodge_limit = {
+		tip = "回避上限",
+		key = "attribute_dodge_limit"
+	},
 	skill = {
 		tip = "技能",
 		key = "skill"
@@ -4473,9 +4477,6 @@ pg.gametip = {
 				info = [[
 NPC角色说明：<color=#A9F548>(NPC角色不可参与部分港区功能,详见下方说明)</color>
 
-▪ <color=#A9F548>传颂之物联动NPC-芙米露露</color> 正式获得活动持续时间：
-2018年11月22日 至 2018年12月13日
-
 ▪ NPC角色：
 活动期间临时加入港区的NPC角色，活动结束时若未正式加入，
 则将离开港区。离开港区时，装备将自动卸下放置于仓库中
@@ -4813,11 +4814,7 @@ NPC角色正式加入时，保留强化、突破状态及技能等级；
 							<color=#fff157>超稀有舰船</color>：$2%
 							 <color=#966af6>精锐舰船</color>：$3%
 							 <color=#60a9ff>稀有舰船</color>：$4%
-							 普通舰船：$5%
-
-							  【限时建造】
-							<color=#fff157>  香格里拉</color>：2%<color=#A9F548>(up!)</color>
-							<color=#fff157>  埃塞克斯</color>：1.8%<color=#A9F548>(up!)</color>]],
+							 普通舰船：$5%]],
 		key = "help_build_1"
 	},
 	help_build_2 = {
@@ -4827,11 +4824,7 @@ NPC角色正式加入时，保留强化、突破状态及技能等级；
 							<color=#fff157>超稀有舰船</color>：$2%
 							 <color=#966af6>精锐舰船</color>：$3%
 							 <color=#60a9ff>稀有舰船</color>：$4%
-							 普通舰船：$5%
-
-							  【限时建造】
-							<color=#966af6>  勇敢</color>：1.4%<color=#A9F548>(up!)</color>
-							<color=#966af6>  Z2</color>：1.4%<color=#A9F548>(up!)</color>]],
+							 普通舰船：$5%]],
 		key = "help_build_2"
 	},
 	help_build_4 = {
@@ -7925,9 +7918,21 @@ $3]],
 					atlas = "helpbg/level_ui_help"
 				}
 			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/battle_ac_2"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/battle_ac_1"
+				}
+			},
 			disableScroll = true,
 			pageMode = true,
-			defaultpage = 1,
+			defaultpage = 10,
 			ImageMode = true,
 			windowSize = {
 				x = 836,
@@ -9167,8 +9172,122 @@ $3]],
 
 1 通常海域困难模式中<color=#A9F548>不会出现</color>敌人护卫舰队
 2 活动关卡的敌人设置将会出现一部分变化
-3 活动关卡中我方的移动格数<color=#A9F548>不会受到移动力限制</color>，可自由移动
-4 活动“峡湾间的星辰”将<color=#A9F548>不会出现岸防炮</color>]]
+3 活动关卡中我方的移动格数<color=#A9F548>不会受到移动力限制</color>，可自由移动]]
+			}
+		}
+	},
+	no_airspace_competition = {
+		tip = "无空域争夺",
+		key = "no_airspace_competition"
+	},
+	level_scene_title_word_1 = {
+		tip = "侦查值：",
+		key = "level_scene_title_word_1"
+	},
+	level_scene_title_word_2 = {
+		tip = "受到伏击概率：",
+		key = "level_scene_title_word_2"
+	},
+	level_scene_title_word_3 = {
+		tip = "制空值：",
+		key = "level_scene_title_word_3"
+	},
+	level_scene_title_word_4 = {
+		tip = "空域：",
+		key = "level_scene_title_word_4"
+	},
+	level_scene_title_word_5 = {
+		tip = "制空值：         <color=#18ff23>推荐：       </color>",
+		key = "level_scene_title_word_5"
+	},
+	ambush_display_0 = {
+		tip = "遇敌",
+		key = "ambush_display_0"
+	},
+	ambush_display_1 = {
+		tip = "安全",
+		key = "ambush_display_1"
+	},
+	ambush_display_2 = {
+		tip = "较低",
+		key = "ambush_display_2"
+	},
+	ambush_display_3 = {
+		tip = "低",
+		key = "ambush_display_3"
+	},
+	ambush_display_4 = {
+		tip = "中",
+		key = "ambush_display_4"
+	},
+	ambush_display_5 = {
+		tip = "较高",
+		key = "ambush_display_5"
+	},
+	ambush_display_6 = {
+		tip = "危险",
+		key = "ambush_display_6"
+	},
+	no_way_to_escape = {
+		tip = "无路可逃",
+		key = "no_way_to_escape"
+	},
+	word_attr_ac = {
+		tip = "制空",
+		key = "word_attr_ac"
+	},
+	help_battle_ac = {
+		key = "help_battle_ac",
+		tip = {
+			{
+				info = [[
+制空值说明
+
+制空值
+・制空值是衡量舰队制空能力的数值。
+・制空值由指挥官出击舰队的航空值飞机数量等决定的。反潜
+机不计入制空值。
+P.S. 我方防空力量可以有效的降低敌方制空值哦！
+・制空值会影响当前关卡的空域状态。
+
+空域状态
+・舰队对当前关卡空域的控制状态被称为空域状态。
+・敌我双方制空值决定当前关卡空域状态，空域状态会影响舰
+队的部分属性。
+
+空域状态分为以下六种：
+制空权确保：舰队全体航空伤害提高20%，受到航空伤害降低
+10%，命中提高10%，受到伏击概率降低8%。（点燃和进水伤
+害不受影响。）
+
+制空权优势：舰队全体航空伤害提高12%，受到航空伤害降低
+6%，命中提高5%，受到伏击概率降低5%。（点燃和进水伤害
+不受影响。）
+
+势均力敌：舰队全体航空伤害降低6%，受到航空伤害降低3%。
+（点燃和进水伤害不受影响。）
+
+制空权劣势：舰队全体航空伤害降低12%，受到航空伤害提高
+6%，命中、机动降低3%。（点燃和进水伤害不受影响。）
+
+制空权丧失：舰队全体航空伤害降低20%，受到航空伤害提高
+10%，命中、机动降低8%。（点燃和进水伤害不受影响。）
+
+无空域争夺：无特殊效果。]]
+			}
+		}
+	},
+	help_attribute_dodge_limit = {
+		key = "help_attribute_dodge_limit",
+		tip = {
+			{
+				info = [[
+属性说明
+
+回避上限：舰载机被敌方防空舰攻击时回避其攻击的几率上限
+
+舰载机回避率由舰载机、装备舰载机的航母航空值和敌方防空舰
+防空值决定]]
 			}
 		}
 	}

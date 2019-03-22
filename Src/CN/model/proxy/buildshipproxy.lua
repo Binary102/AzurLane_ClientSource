@@ -147,9 +147,9 @@ end
 function slot0.getNextBuildShip(slot0)
 	slot1 = nil
 
-	if slot0.data[slot0.buildIndex + 1] then
+	if slot0.data[slot0.buildIndex + 1] and slot2.state == BuildShip.INACTIVE then
 		slot0.buildIndex = slot0.buildIndex + 1
-		slot1 = slot0.data[slot0.buildIndex]
+		slot1 = slot2
 	end
 
 	return slot1

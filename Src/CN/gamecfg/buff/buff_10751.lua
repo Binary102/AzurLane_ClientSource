@@ -20,7 +20,7 @@ return {
 				},
 				arg_list = {
 					number = -0.16,
-					attr = "damageGetRatioByAir"
+					attr = "injureRatioByAir"
 				}
 			}
 		}
@@ -46,7 +46,7 @@ return {
 				},
 				arg_list = {
 					number = -0.184,
-					attr = "damageGetRatioByAir"
+					attr = "injureRatioByAir"
 				}
 			}
 		}
@@ -72,7 +72,7 @@ return {
 				},
 				arg_list = {
 					number = -0.208,
-					attr = "damageGetRatioByAir"
+					attr = "injureRatioByAir"
 				}
 			}
 		}
@@ -98,7 +98,7 @@ return {
 				},
 				arg_list = {
 					number = -0.24,
-					attr = "damageGetRatioByAir"
+					attr = "injureRatioByAir"
 				}
 			}
 		}
@@ -124,7 +124,7 @@ return {
 				},
 				arg_list = {
 					number = -0.264,
-					attr = "damageGetRatioByAir"
+					attr = "injureRatioByAir"
 				}
 			}
 		}
@@ -150,7 +150,7 @@ return {
 				},
 				arg_list = {
 					number = -0.288,
-					attr = "damageGetRatioByAir"
+					attr = "injureRatioByAir"
 				}
 			}
 		}
@@ -176,7 +176,7 @@ return {
 				},
 				arg_list = {
 					number = -0.32,
-					attr = "damageGetRatioByAir"
+					attr = "injureRatioByAir"
 				}
 			}
 		}
@@ -202,7 +202,7 @@ return {
 				},
 				arg_list = {
 					number = -0.344,
-					attr = "damageGetRatioByAir"
+					attr = "injureRatioByAir"
 				}
 			}
 		}
@@ -228,7 +228,7 @@ return {
 				},
 				arg_list = {
 					number = -0.368,
-					attr = "damageGetRatioByAir"
+					attr = "injureRatioByAir"
 				}
 			}
 		}
@@ -254,7 +254,7 @@ return {
 				},
 				arg_list = {
 					number = -0.4,
-					attr = "damageGetRatioByAir"
+					attr = "injureRatioByAir"
 				}
 			}
 		}
@@ -296,7 +296,7 @@ return {
 			},
 			arg_list = {
 				number = -0.16,
-				attr = "damageGetRatioByAir"
+				attr = "injureRatioByAir"
 			}
 		}
 	}

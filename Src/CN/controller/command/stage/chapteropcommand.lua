@@ -102,7 +102,8 @@ class("ChapterOpCommand", import(".ChapterOpRoutine")).execute = function (slot0
 					fullpath = slot0.fullpath,
 					items = slot0.items,
 					exittype = slot1.exittype or 0,
-					aiActs = slot0.aiActs
+					aiActs = slot0.aiActs,
+					oldLine = slot1.ordLine
 				})
 			end
 		else

@@ -643,4 +643,18 @@ function slot0.EnergyCheck(slot0, slot1, slot2, slot3)
 	end
 end
 
+function slot0.getFleetAirDominanceValue(slot0)
+	slot1 = getProxy(BayProxy)
+	slot2 = slot0:getCommanders()
+	slot3 = 0
+
+	for slot7, slot8 in ipairs(slot0.ships) do
+		slot3 = function (slot0, slot1)
+			return slot0 + calcAirDominanceValue(slot0:getShipById(slot1), slot1)
+		end(slot3, slot8)
+	end
+
+	return slot3
+end
+
 return slot0

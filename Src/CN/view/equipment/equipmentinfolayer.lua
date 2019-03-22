@@ -55,6 +55,7 @@ function slot0.init(slot0)
 
 	setActive(slot0.oldShipHead, false)
 
+	slot0.attrHelpTpl = slot0:findTF("attr_help_tpl")
 	slot0.scrollTxts = {}
 	slot0.destroyScrollTxts = {}
 end
@@ -711,7 +712,23 @@ function slot0.updateEquipmentPanel(slot0, slot1, slot2, slot3, slot4)
 				setActive(slot29, slot27)
 				setActive(slot30, slot27)
 
-				if slot26 > 4 and slot20 then
+				if slot26 == 3 and slot20 then
+					slot5[slot26] = pg.aircraft_template[slot2.configId].dodge_limit
+
+					setText(slot29, i18n("attribute_dodge_limit"))
+					setText(slot30, slot33 .. "%")
+
+					if not slot0:findTF("attr_help", slot28) then
+						cloneTplTo(slot0.attrHelpTpl, slot28).name = "attr_help"
+						cloneTplTo(slot0.attrHelpTpl, slot28).localPosition = Vector3.zero
+					end
+
+					onButton(slot0, slot34, function ()
+						pg.MsgboxMgr.GetInstance():ShowHelpWindow({
+							helps = i18n("help_attribute_dodge_limit")
+						})
+					end, SFX_PANEL)
+				elseif slot26 > 4 and slot20 then
 					setText(slot29, "")
 					setText(slot30, "")
 					setTextFont(slot30, pg.FontMgr.GetInstance().fonts.heiti)

@@ -2,6 +2,16 @@ slot0 = class("PreCombatLayer", import("..base.BaseUI"))
 slot1 = import("..ship.FormationUI")
 slot0.FORM_EDIT = "EDIT"
 slot0.FORM_PREVIEW = "PREVIEW"
+slot0.ObjectiveList = {
+	"battle_preCombatLayer_victory",
+	"battle_preCombatLayer_undefeated",
+	"battle_preCombatLayer_sink_limit",
+	"battle_preCombatLayer_time_hold",
+	"battle_preCombatLayer_time_limit",
+	"battle_preCombatLayer_boss_destruct",
+	"battle_preCombatLayer_damage_before_end",
+	"battle_result_defeat_all_enemys"
+}
 
 function slot0.getUIName(slot0)
 	return "PreCombatUI"
@@ -95,26 +105,9 @@ function slot0.SetStageID(slot0, slot1)
 		})
 	end
 
-	slot4 = findTF(slot0._goals, "goal_tpl")
-	slot5 = findTF(slot0._goals, "goal_sink")
-	slot6 = findTF(slot0._goals, "goal_time")
-
-	if limitType == 1 then
-		slot7 = nil
-
-		setWidgetText(slot4, i18n("battle_preCombatLayer_victory"))
-		setWidgetText(slot5, (sinkLimit >= 2 or i18n("battle_preCombatLayer_undefeated")) and i18n("battle_preCombatLayer_sink_limit", sinkLimit))
-		setWidgetText(slot6, i18n("battle_preCombatLayer_time_limit", timeLimit))
-	elseif limitType == 2 then
-		setActive(slot5, false)
-		setActive(slot6, false)
-		setWidgetText(slot4, i18n("battle_preCombatLayer_time_hold", timeLimit))
-	elseif limitType == 3 then
-		setActive(slot5, false)
-		setActive(slot6, false)
-		setWidgetText(slot4, i18n("battle_result_defeat_all_enemys", timeLimit))
-	end
-
+	slot4(slot2.objective_1, findTF(slot0._goals, "goal_tpl"))
+	slot4(slot2.objective_2, findTF(slot0._goals, "goal_sink"))
+	slot4(slot2.objective_3, findTF(slot0._goals, "goal_time"))
 	setActive(slot0.guideDesc, slot2.guide_desc and #slot2.guide_desc > 0)
 
 	if slot2.guide_desc and #slot2.guide_desc > 0 then
@@ -356,8 +349,12 @@ function slot0.switchToEditMode(slot0)
 			slot0:swtichToPreviewMode()
 		end)
 	end, SFX_CONFIRM)
-	slot0:EnableAddGrid(Fleet.MAIN)
-	slot0:EnableAddGrid(Fleet.VANGUARD)
+
+	if slot0.contextData.system ~= SYSTEM_HP_SHARE_ACT_BOSS then
+		slot0:EnableAddGrid(Fleet.MAIN)
+		slot0:EnableAddGrid(Fleet.VANGUARD)
+	end
+
 	slot1(slot0._characterList.vanguard)
 	slot1(slot0._characterList.main)
 
@@ -654,14 +651,18 @@ function slot0.enabledCharacter(slot0, slot1, slot2, slot3, slot4)
 
 			pg.DelegateInfo.Add(slot0, GetOrAddComponent(slot5, "UILongPressTrigger").onLongPressed)
 			GetOrAddComponent(slot5, "UILongPressTrigger").onLongPressed:AddListener(function ()
-				slot0:emit(PreCombatMediator.OPEN_SHIP_INFO, slot1.id, slot0._currentFleetVO)
+				if slot0.contextData.system ~= SYSTEM_HP_SHARE_ACT_BOSS then
+					slot0:emit(PreCombatMediator.OPEN_SHIP_INFO, slot1.id, slot0._currentFleetVO)
+				end
 
 				return
 			end)
 			pg.DelegateInfo.Add(slot0, GetOrAddComponent(slot5, "ModelDrag").onModelClick)
 			GetOrAddComponent(slot5, "ModelDrag").onModelClick:AddListener(function ()
-				playSoundEffect(SFX_UI_CLICK)
-				playSoundEffect:emit(PreCombatMediator.CHANGE_FLEET_SHIP, playSoundEffect, slot0._currentFleetVO, )
+				if slot0.contextData.system ~= SYSTEM_HP_SHARE_ACT_BOSS then
+					playSoundEffect(SFX_UI_CLICK)
+					playSoundEffect:emit(PreCombatMediator.CHANGE_FLEET_SHIP, playSoundEffect, slot0._currentFleetVO, )
+				end
 
 				return
 			end)
@@ -696,7 +697,7 @@ function slot0.enabledCharacter(slot0, slot1, slot2, slot3, slot4)
 					return
 				end
 
-				if slot1.position.x > UnityEngine.Screen.width * 0.65 or slot1.position.y < UnityEngine.Screen.height * 0.25 then
+				if slot1.contextData.system ~= SYSTEM_HP_SHARE_ACT_BOSS and (slot1.position.x > UnityEngine.Screen.width * 0.65 or slot1.position.y < UnityEngine.Screen.height * 0.25) then
 					if not slot1._currentFleetVO:canRemove(slot2) then
 						slot3, slot4 = slot1._currentFleetVO:getShipPos(slot2)
 
@@ -769,7 +770,7 @@ function slot0.displayFleetInfo(slot0)
 end
 
 function slot0.SetFleetStepper(slot0)
-	if slot0.contextData.system ~= SYSTEM_DUEL then
+	if slot0.contextData.system ~= SYSTEM_DUEL and slot0.contextData.system ~= SYSTEM_HP_SHARE_ACT_BOSS then
 		SetActive(slot0._nextPage, slot0._curFleetIndex < #slot0._legalFleetIdList)
 		SetActive(slot0._prevPage, slot0._curFleetIndex > 1)
 	else

@@ -11,7 +11,7 @@ return {
 			nameColor = "#ff5c5c",
 			side = 1,
 			dir = 1,
-			say = "为了保护补给船，不能随便走掉，Z2她们出去巡逻又不知道什么时候回来……",
+			say = "유조선 호위는, 틸레들이 어디 있는지 모르겠고……",
 			bgm = "battle-boss-1",
 			typewriter = {
 				speed = 0.05,
@@ -27,7 +27,7 @@ return {
 			side = 1,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "Z18和Z19还没回来吗……好想她们啊……",
+			say = "한스랑 퀸네는 아직인가…… 빨리 보고 싶다……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			side = 1,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "……咦，正说到她们，就收到了Z18的电报……哼哼，肯定也和我一样想找我过去玩吧！让我看看……",
+			say = "라고 생각하고 있으니까 한스에게 연락이 왔네! 나처럼 시간이 남아도는 모양이야! 어디 보자……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			side = 1,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "皇家舰队入侵了峡湾，正在朝纳尔维克航行中……这……",
+			say = "로열 네이비가 협만에 침입하여, 나르비크 항을 향해 항해 중…… 이건……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			side = 1,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "……怎么办怎么办怎么办，Z2就算收到了情报赶回来也需要时间……看来只有我能上了！",
+			say = "……어, 어쩌지… 틸레들한테 연락해도, 돌아오는 데 시간이 걸릴텐데…… 아니, 여긴 내가 해치워주겠어!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,7 +98,7 @@ return {
 			dir = 1,
 			hideOther = true,
 			nameColor = "#ff5c5c",
-			say = "……倒不如说，不知什么时候已经突破到我眼前了！",
+			say = "……아니, 벌써 눈앞까지 와 있잖아!!",
 			subActors = {
 				{
 					expression = 2,

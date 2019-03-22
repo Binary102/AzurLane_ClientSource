@@ -9,60 +9,62 @@ class("BeginStageCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 
 	ys.Battle.BattleState.GenerateVertifyData()
 
+	slot10 = pg.battle_cost_template[slot2.system]
+
 	if slot2.system == SYSTEM_PROLOGUE then
 		slot0:sendNotification(GAME.BEGIN_STAGE_DONE, {
-			prefabFleet = ys.Battle.BattleDataFunction.GetDungeonTmpDataByID(slot11).fleet_prefab,
+			prefabFleet = ys.Battle.BattleDataFunction.GetDungeonTmpDataByID(slot12).fleet_prefab,
 			stageId = PROLOGUE_DUNGEON,
 			system = slot3,
 			drops = {}
 		})
 	else
 		if slot3 == SYSTEM_SCENARIO or slot3 == SYSTEM_ROUTINE or slot3 == SYSTEM_DUEL or slot3 == SYSTEM_SHAM or slot3 == SYSTEM_GUILD or slot3 == SYSTEM_CHALLENGE or slot3 == SYSTEM_ACT_BOSS or slot3 == SYSTEM_HP_SHARE_ACT_BOSS then
-			if slot3 ~= SYSTEM_DUEL and slot3 ~= SYSTEM_SHAM and slot3 ~= SYSTEM_CHALLENGE and getProxy(PlayerProxy).getData(slot10).ship_bag_max <= getProxy(BayProxy).getShipCount(slot12) then
+			if slot3 ~= SYSTEM_DUEL and slot3 ~= SYSTEM_SHAM and slot3 ~= SYSTEM_CHALLENGE and getProxy(PlayerProxy).getData(slot11).ship_bag_max <= getProxy(BayProxy).getShipCount(slot13) then
 				NoPosMsgBox(i18n("switch_to_shop_tip_noDockyard"), openDockyardClear, gotoChargeScene)
 
 				return
 			end
 
-			slot10 = {}
-			slot11 = 0
+			slot11 = {}
 			slot12 = 0
 			slot13 = 0
 			slot14 = 0
-			slot15 = nil
+			slot15 = 0
+			slot16 = nil
 
 			if slot3 == SYSTEM_SCENARIO then
-				for slot22, slot23 in ipairs(slot15) do
-					slot10[#slot10 + 1] = slot23.id
+				for slot23, slot24 in ipairs(slot16) do
+					slot11[#slot11 + 1] = slot24.id
 				end
 
-				slot19, slot20 = slot17:getFleetCost(slot18)
-				slot11 = slot19.gold
-				slot12 = slot19.oil
-				slot13 = slot19.gold + slot20.gold
-				slot14 = slot19.oil + slot20.oil
+				slot20, slot21 = slot18:getFleetCost(slot19)
+				slot12 = slot20.gold
+				slot13 = slot20.oil
+				slot14 = slot20.gold + slot21.gold
+				slot15 = slot20.oil + slot21.oil
 			elseif slot3 == SYSTEM_SHAM then
-				for slot22, slot23 in ipairs(slot15) do
-					slot10[#slot10 + 1] = slot23.id
+				for slot23, slot24 in ipairs(slot16) do
+					slot11[#slot11 + 1] = slot24.id
 				end
 			elseif slot3 == SYSTEM_GUILD then
-				for slot22, slot23 in ipairs(slot15) do
-					slot10[#slot10 + 1] = slot23.id
+				for slot23, slot24 in ipairs(slot16) do
+					slot11[#slot11 + 1] = slot24.id
 				end
 			elseif slot3 == SYSTEM_CHALLENGE then
-				for slot22, slot23 in ipairs(slot15) do
-					slot10[#slot10 + 1] = slot23.id
+				for slot23, slot24 in ipairs(slot16) do
+					slot11[#slot11 + 1] = slot24.id
 				end
 			elseif slot3 == SYSTEM_HP_SHARE_ACT_BOSS then
 				shipIDs = slot6:getActivityFleets()[slot4][Fleet.REGULAR_FLEET_ID].ships
 
-				for slot20, slot21 in ipairs(shipIDs) do
-					slot10[#slot10 + 1] = slot21
+				for slot21, slot22 in ipairs(shipIDs) do
+					slot11[#slot11 + 1] = slot22
 				end
 
-				slot12 = slot16:getStartCost().oil
-				slot14 = slot16:GetCostSum().oil
-				slot15 = slot9:getSortShipsByFleet(slot16)
+				slot13 = slot17:getStartCost().oil
+				slot15 = slot17:GetCostSum().oil
+				slot16 = slot9:getSortShipsByFleet(slot17)
 			else
 				if slot6:getFleetById(slot2.mainFleetId) == nil or slot8:isEmpty() then
 					pg.TipsMgr:GetInstance():ShowTips(i18n("stage_beginStage_error_fleetEmpty"))
@@ -70,43 +72,49 @@ class("BeginStageCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 					return
 				end
 
-				slot16, slot17 = slot8:isLegalToFight()
+				slot17, slot18 = slot8:isLegalToFight()
 
-				if slot16 ~= true then
-					pg.TipsMgr:GetInstance():ShowTips(i18n("stage_beginStage_error_teamEmpty", Fleet.C_TEAM_NAME[slot16], slot17))
+				if slot17 ~= true then
+					pg.TipsMgr:GetInstance():ShowTips(i18n("stage_beginStage_error_teamEmpty", Fleet.C_TEAM_NAME[slot17], slot18))
 
 					return
 				end
 
-				slot18 = pg.ship_data_template
+				slot19 = pg.ship_data_template
 
-				for slot22, slot23 in ipairs(slot15) do
-					slot10[#slot10 + 1] = slot23.id
+				for slot23, slot24 in ipairs(slot16) do
+					slot11[#slot11 + 1] = slot24.id
 				end
 
 				if slot3 ~= SYSTEM_DUEL then
-					slot12 = slot8:getStartCost().oil
-					slot14 = slot8:GetCostSum().oil
+					slot13 = slot8:getStartCost().oil
+					slot15 = slot8:GetCostSum().oil
 				end
 			end
 
-			slot16 = slot7:getData()
+			slot17 = slot7:getData()
 
-			if slot3 ~= SYSTEM_DUEL and slot3 ~= SYSTEM_SHAM and slot3 ~= SYSTEM_GUILD and slot3 ~= SYSTEM_CHALLENGE and slot16.oil < slot14 then
+			if slot10.oil_cost > 0 and slot17.oil < slot15 then
 				pg.TipsMgr:GetInstance():ShowTips(i18n("stage_beginStage_error_noResource"))
 
 				return
 			end
 
-			slot17 = slot6:getFleetById(slot2.supportFleetId)
-			slot18 = slot2.stageId
-			slot19 = {}
-			slot20, slot21 = nil
-			slot22 = getProxy(MilitaryExerciseProxy)
-			slot23 = slot7:getData()
+			if slot3 ~= SYSTEM_DUEL and slot3 ~= SYSTEM_SHAM and slot3 ~= SYSTEM_GUILD and slot3 ~= SYSTEM_CHALLENGE and slot17.oil < slot15 then
+				pg.TipsMgr:GetInstance():ShowTips(i18n("stage_beginStage_error_noResource"))
+
+				return
+			end
+
+			slot18 = slot6:getFleetById(slot2.supportFleetId)
+			slot19 = slot2.stageId
+			slot20 = {}
+			slot21, slot22 = nil
+			slot23 = getProxy(MilitaryExerciseProxy)
+			slot24 = slot7:getData()
 
 			if slot3 == SYSTEM_DUEL then
-				if not slot22:getSeasonInfo():canExercise() then
+				if not slot23:getSeasonInfo():canExercise() then
 					pg.TipsMgr:GetInstance():ShowTips(i18n("exercise_count_insufficient"))
 
 					return
@@ -114,31 +122,31 @@ class("BeginStageCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 
 				rivalVO = getProxy(MilitaryExerciseProxy):getRivalById(slot2.rivalId)
 			elseif slot3 == SYSTEM_SHAM then
-				slot25 = getProxy(ChapterProxy).getShamChapter(slot24)
-				rivalVO = slot25:getChapterCell(slot25.fleet.line.row, slot25.fleet.line.column).rival
-				slot18 = rivalVO.id
+				slot26 = getProxy(ChapterProxy).getShamChapter(slot25)
+				rivalVO = slot26:getChapterCell(slot26.fleet.line.row, slot26.fleet.line.column).rival
+				slot19 = rivalVO.id
 			elseif slot3 == SYSTEM_GUILD then
 			elseif slot3 == SYSTEM_CHALLENGE then
 			else
-				slot19 = ys.Battle.BattleDataFunction.GetDungeonTmpDataByID(pg.expedition_data_template[slot18].dungeon_id).fleet_prefab
+				slot20 = ys.Battle.BattleDataFunction.GetDungeonTmpDataByID(pg.expedition_data_template[slot19].dungeon_id).fleet_prefab
 			end
 
 			if rivalVO then
-				slot24 = 0
+				slot25 = 0
 
-				for slot28, slot29 in ipairs(rivalVO.mainShips) do
-					slot24 = slot24 + slot29.level
+				for slot29, slot30 in ipairs(rivalVO.mainShips) do
+					slot25 = slot25 + slot30.level
 				end
 
-				for slot28, slot29 in ipairs(rivalVO.vanguardShips) do
-					slot24 = slot24 + slot29.level
+				for slot29, slot30 in ipairs(rivalVO.vanguardShips) do
+					slot25 = slot25 + slot30.level
 				end
 
-				RivalLevelVertiry = slot24
+				RivalLevelVertiry = slot25
 			end
 
-			for slot28, slot29 in pairs(slot24) do
-				if not slot29:attrVertify() then
+			for slot29, slot30 in pairs(slot25) do
+				if not slot30:attrVertify() then
 					BattleVertify.playerShipVertifyFail = true
 
 					break
@@ -146,9 +154,9 @@ class("BeginStageCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 			end
 
 			pg.ConnectionMgr.GetInstance():Send(40001, {
-				data = slot18,
+				data = slot19,
 				system = slot3,
-				ship_id_list = slot10
+				ship_id_list = slot11
 			}, 40002, function (slot0)
 				if slot0.result == 0 then
 					slot1 = {}
@@ -164,42 +172,44 @@ class("BeginStageCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 						})
 					end
 
-					if slot0 == SYSTEM_DUEL then
-						slot1 = ys.Battle.BattleConfig.ARENA_LIST[math.random(#ys.Battle.BattleConfig.ARENA_LIST)]
-					elseif slot0 == SYSTEM_SHAM then
-						slot3 = getProxy(ChapterProxy).getShamChapter(slot2)
-						slot1 = (slot3:getConfig("rival_index")[slot3.progress + 1] and slot4[3]) or 90001
-					elseif slot0 == SYSTEM_GUILD then
-						slot1 = pg.guild_boss_template[slot1].dungeon_id
-					elseif slot0 == SYSTEM_CHALLENGE then
-					else
-						slot2:consume({
-							gold = slot3,
-							oil = 
+					if slot0.oil_cost > 0 then
+						slot1:consume({
+							gold = 0,
+							oil = slot1.consume
 						})
-
-						slot2 = pg.gameset.battle_consume_energy.key_value
-
-						if slot0 == SYSTEM_SCENARIO and getProxy(ChapterProxy).getActiveChapter(slot3).getPlayType(slot4) == ChapterConst.TypeExtra then
-							slot2 = 0
-						end
-
-						for slot6, slot7 in ipairs(slot5) do
-							slot7:cosumeEnergy(slot2)
-							slot6:updateShip(slot7)
-						end
 					end
-
-					slot7:updatePlayer(slot7.updatePlayer)
 
 					slot2 = nil
 
+					if slot3 == SYSTEM_SCENARIO and getProxy(ChapterProxy):getActiveChapter().getPlayType(slot3) == ChapterConst.TypeExtra then
+						slot2 = true
+					end
+
+					if slot0.enter_energy_cost > 0 and not slot2 then
+						slot3 = pg.gameset.battle_consume_energy.key_value
+
+						for slot7, slot8 in ipairs(ipairs) do
+							slot8:cosumeEnergy(slot3)
+							slot5:updateShip(slot8)
+						end
+					end
+
+					if slot3 == SYSTEM_DUEL then
+						slot6 = ys.Battle.BattleConfig.ARENA_LIST[math.random(#ys.Battle.BattleConfig.ARENA_LIST)]
+					elseif slot3 == SYSTEM_SHAM then
+						slot4 = getProxy(ChapterProxy).getShamChapter(slot3)
+						slot6 = (slot4:getConfig("rival_index")[slot4.progress + 1] and slot5[3]) or 90001
+					elseif slot3 == SYSTEM_GUILD then
+						slot6 = pg.guild_boss_template[slot6].dungeon_id
+					end
+
+					slot7:updatePlayer(slot1)
 					slot9:sendNotification(GAME.BEGIN_STAGE_DONE, {
-						mainFleetId = ((slot0 ~= SYSTEM_SCENARIO and slot0 ~= SYSTEM_SHAM and slot0 ~= SYSTEM_GUILD and slot0 ~= SYSTEM_CHALLENGE) or nil) and (slot0 ~= SYSTEM_HP_SHARE_ACT_BOSS or Fleet.REGULAR_FLEET_ID) and slot8.id,
+						mainFleetId = ((nil ~= SYSTEM_SCENARIO and slot3 ~= SYSTEM_SHAM and slot3 ~= SYSTEM_GUILD and slot3 ~= SYSTEM_CHALLENGE) or nil) and (slot3 ~= SYSTEM_HP_SHARE_ACT_BOSS or Fleet.REGULAR_FLEET_ID) and slot8.id,
 						prefabFleet = slot10,
 						rivalId = slot11,
-						stageId = slot1,
-						system = slot0,
+						stageId = slot6,
+						system = ((nil ~= SYSTEM_SCENARIO and slot3 ~= SYSTEM_SHAM and slot3 ~= SYSTEM_GUILD and slot3 ~= SYSTEM_CHALLENGE) or nil) and (slot3 ~= SYSTEM_HP_SHARE_ACT_BOSS or Fleet.REGULAR_FLEET_ID) and slot8.id,
 						actId = slot12,
 						token = slot0.key,
 						specificBossHPRate = slot13,
@@ -217,9 +227,9 @@ class("BeginStageCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 		end
 
 		if slot3 == SYSTEM_DEBUG then
-			slot10 = PROLOGUE_DUNGEON
+			slot11 = PROLOGUE_DUNGEON
 
-			if slot6:getFleetById(1) == nil or slot11:isEmpty() then
+			if slot6:getFleetById(1) == nil or slot12:isEmpty() then
 				pg.TipsMgr:GetInstance():ShowTips(i18n("stage_beginStage_error_fleetEmpty"))
 
 				return
@@ -228,14 +238,14 @@ class("BeginStageCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 			slot0:sendNotification(GAME.BEGIN_STAGE_DONE, {
 				mainFleetId = 1,
 				prefabFleet = {},
-				stageId = slot10,
+				stageId = slot11,
 				system = slot3,
 				drops = {}
 			})
 		elseif slot3 == SYSTEM_PERFORM then
-			slot10 = slot2.stageId
+			slot11 = slot2.stageId
 
-			function slot11(slot0)
+			function slot12(slot0)
 				slot1:sendNotification(GAME.BEGIN_STAGE_DONE, {
 					prefabFleet = ys.Battle.BattleDataFunction.GetDungeonTmpDataByID(slot1).fleet_prefab,
 					stageId = slot0,
@@ -248,10 +258,10 @@ class("BeginStageCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 			end
 
 			if slot2.memory then
-				slot11()
+				slot12()
 			else
 				pg.ConnectionMgr.GetInstance():Send(40001, {
-					data = slot10,
+					data = slot11,
 					system = slot3,
 					ship_id_list = {}
 				}, 40002, function (slot0)
@@ -270,7 +280,7 @@ class("BeginStageCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 			end
 		elseif slot3 == SYSTEM_DODGEM then
 			slot0:sendNotification(GAME.BEGIN_STAGE_DONE, {
-				prefabFleet = ys.Battle.BattleDataFunction.GetDungeonTmpDataByID(slot11).fleet_prefab,
+				prefabFleet = ys.Battle.BattleDataFunction.GetDungeonTmpDataByID(slot12).fleet_prefab,
 				stageId = slot2.stageId,
 				system = slot3,
 				drops = {}

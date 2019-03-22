@@ -11,7 +11,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			say = "风雪真大，只能隐约看到海岸那边有一些火光……",
+			say = "폭설이네. 항구 불빛도 희미하게 보여……",
 			bgm = "level02",
 			typewriter = {
 				speed = 0.05,
@@ -27,7 +27,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "嗯，我们已经突破第一道防线了，纳尔维克港就在前面",
+			say = "겨우 도착했네요… 나르비크 항…!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,7 +43,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 201201,
-			say = "对了，勇敢，你知道吗？",
+			say = "저기, 하디, 그거 알아?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			side = 1,
 			dir = -1,
 			actor = 201161,
-			say = "知道什么？",
+			say = "??",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 201201,
-			say = "纳尔维克……",
+			say = "나르비크에선……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			dir = -1,
 			actor = 201161,
 			nameColor = "#a9f548",
-			say = "？！难道有什么重要的情报吗！",
+			say = "!? 중요한 정보인가요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 201201,
-			say = "据说在1月到3月的时候，可以看到极光。",
+			say = "매년 1월부터 3월까지, 오로라를 볼 수 있대.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,7 +132,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "哈？",
+			say = "네?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,7 +148,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 201201,
-			say = "但是现在已经是4月了，所以已经看不到了，遗憾……",
+			say = "하지만 지금은 4월, 아마 이젠 무리일 거야. 아쉽네.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			side = 1,
 			dir = -1,
 			actor = 201161,
-			say = "猎人……我们的前方可是敌人。",
+			say = "헌터…… 지금은 작전 중이라구요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +180,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 201201,
-			say = "只是正好想到……勇敢对极光没有兴趣吗？",
+			say = "갑자기 생각나서…… 하디는 오로라에 별로 관심 없어?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "我……不知道，我没看过，你看过吗？",
+			say = "……잘 모르겠네요. 본 적도 없고. 헌터는요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 201201,
-			say = "我也没有。但是我听说极光很美，很梦幻，所以听说要来北极执行任务，我其实还是有些期待的。",
+			say = "나도 본 적 없어. 하지만 아름답고, 꿈결 같다고 다들 그러더라. 그래서 이번 임무는 조금 기대돼.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 201201,
-			say = "不过，能看到这么大的雪，也挺好的……在我们的故乡，可看不到这么大的雪。",
+			say = "그리고 이 정도로 눈이 쏟아지는 것도 신기하고.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,7 +243,7 @@ return {
 			side = 1,
 			dir = -1,
 			actor = 201161,
-			say = "是吗？我只觉得这大雪很碍事。",
+			say = "그런가요? 좀 방해된다는 생각밖에 안 드는걸요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +258,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "对于战斗……确实很碍事，但是如果在战斗之外，会很好看。",
+			say = "전투에는 그렇지. ……확실히 좀 방해되긴 하지만. 아름답다고 생각해.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,7 +273,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "……搞不懂，你的想法还真奇怪。",
+			say = "……잘 모르겠네요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -288,7 +288,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我是“猎人”，所以平时会比较在意自然环境……",
+			say = "나, '헌터'니까, 이런 거엔 좀… 알지?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -304,7 +304,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 201201,
-			say = "对了，勇敢，这次任务结束后，一起来看雪吗？",
+			say = "하디, 임무 끝나면… 같이 눈 보러 안 갈래?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,7 +320,7 @@ return {
 			side = 1,
 			dir = -1,
 			actor = 201161,
-			say = "这可不是现在应有的想法，我们要进攻纳尔维克，然后……",
+			say = "지금 생각할 일은 아니네요. 지금은 나르비크에 위력 정찰을 실시해야하고, 그 다음엔……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -335,7 +335,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "然后我们也应该没有时间逗留，马上会有下个任务在等着我们。",
+			say = "다음 임무도 있고, 여기 머무를 여유는 없을 테니까요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,7 +351,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 201201,
-			say = "就一会儿，不行吗？",
+			say = "잠깐만이라도… 무리일려나?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -366,7 +366,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "………………先完成我们的任务再说吧。",
+			say = "……우선은 눈앞의 임무에 집중하자구요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -13,7 +13,7 @@ return {
 			bgm = "battle-boss-1",
 			actor = 201201,
 			nameColor = "#a9f548",
-			say = "果然还是被追上了……",
+			say = "따라잡혔네……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -28,7 +28,7 @@ return {
 			side = 1,
 			nameColor = "#ff5c5c",
 			dir = -1,
-			say = "果然……吗，你们的胆子还真是大。",
+			say = "역시나, 라고 해야 할까. 그래, 글로우웜도 그렇고, 당신들은 정말로 용감하네.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,7 +44,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 201201,
-			say = "胆子不大，抓不到大猎物。",
+			say = "그렇지 않으면 사냥을 할 수 없는걸.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +60,7 @@ return {
 			side = 1,
 			dir = -1,
 			actor = 401021,
-			say = "但是胆子太大的话，可要小心反被猎物吃掉。",
+			say = "뛰어난 사냥꾼도 자신의 오만함으로 죽는다구.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 201201,
-			say = "不试试，谁知道呢……",
+			say = "그래도 해보지 않으면, 모른다구…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 201161,
-			say = "没错，光凭你们，能不能胜过我们，还不知道呢！",
+			say = "그래요! 당신들이 우릴 이길 수 있을 지 없을 지!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			side = 1,
 			nameColor = "#ff5c5c",
 			dir = -1,
-			say = "那么，马上就知道了。",
+			say = "금방 알게 될 거야. 그래.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

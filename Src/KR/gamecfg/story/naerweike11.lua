@@ -8,9 +8,9 @@ return {
 	scripts = {
 		{
 			nameColor = "#a9f548",
-			actorName = "勇敢",
+			actorName = "하디",
 			bgName = "bg_story_naerweike",
-			say = "结束了！",
+			say = "끝입니다!",
 			dir = 1,
 			side = 0,
 			bgm = "battle-boss-1",
@@ -24,7 +24,7 @@ return {
 			side = 1,
 			nameColor = "#ff5c5c",
 			dir = -1,
-			say = "……可惜。",
+			say = "그래, 아쉽지만.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -37,7 +37,7 @@ return {
 		{
 			expression = 2,
 			side = 0,
-			say = "勇敢！",
+			say = "…!! 하디!",
 			dir = 1,
 			actor = 201201,
 			nameColor = "#a9f548",
@@ -69,7 +69,7 @@ return {
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
 			actor = 201201,
-			say = "呀啊啊！",
+			say = "우윽!?",
 			flashN = {
 				color = {
 					1,
@@ -117,7 +117,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 201161,
-			say = "猎人！！",
+			say = "헌터!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			dir = 1,
 			actor = 201161,
 			nameColor = "#a9f548",
-			say = "可恶…是增援吗！？先、先撤——",
+			say = "큭, 지원군!? 빨리 퇴각을…!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,7 +159,7 @@ return {
 			dir = -1,
 			actor = 401021,
 			nameColor = "#ff5c5c",
-			say = "呼，真是难缠的对手……要是没有增援的话，这次可要一败涂地了呢……",
+			say = "만만찮은 상대네…… 그래, 아군이 안 왔으면 당할 뻔했어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			side = 0,
 			nameColor = "#ff5c5c",
 			dir = -1,
-			say = "Z2，不追了吗？",
+			say = "틸레, 안 쫓아가?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			side = 1,
 			nameColor = "#ff5c5c",
 			dir = -1,
-			say = "…从峡湾外带着其他人赶回来，又进行了这样一场激烈的战斗，我们也需要进行补给了。",
+			say = "초계 중에 달려와서, 거기에 전투까지 치렀으니까, 추격하려면 보급이 필요해.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			side = 0,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "抱歉，都是因为我……",
+			say = "미안해. 나 때문에……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -220,7 +220,7 @@ return {
 			side = 1,
 			dir = -1,
 			actor = 401021,
-			say = "不怪你，Z18你的选择是对的……保存实力比无谓的勇敢要更重要。",
+			say = "아니, 한스의 판단은 정확했어. 무모하게 쫓는 것보다 아군과 합류하는 편이 나아.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			side = 1,
 			nameColor = "#ff5c5c",
 			dir = -1,
-			say = "对方逃了三个回去，我们的规模已经被对方了解了……",
+			say = "…남아있던 적은 도망쳤나. 이쪽 규모가 노출되겠네.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,7 +251,7 @@ return {
 			side = 1,
 			dir = -1,
 			actor = 401021,
-			say = "不出意外的话，对方的下一波攻势马上就会到来的，我们要快点回去做好准备才行。",
+			say = "그리 머지않아 제2파가 올 거야. 확실하게 대비해야 해.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,7 +266,7 @@ return {
 			side = 0,
 			nameColor = "#ff5c5c",
 			dir = -1,
-			say = "可是……",
+			say = "하지만……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,7 +281,7 @@ return {
 			side = 0,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "Z19，听Z2的话，我们先去照顾Z21。",
+			say = "퀸네, 여기는 틸레 말대로 돌아가자. 윌의 상태도 걱정이고.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -296,7 +296,7 @@ return {
 			side = 0,
 			nameColor = "#ff5c5c",
 			dir = -1,
-			say = "好吧……哼，等她们的下一波攻势我再让她们好看！",
+			say = "응…… 다음에는 절대로 놓치지 않을 거야!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

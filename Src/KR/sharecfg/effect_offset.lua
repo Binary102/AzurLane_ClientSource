@@ -529,6 +529,46 @@ pg.effect_offset = {
 			2,
 			0
 		}
+	},
+	Pojia01 = {
+		id = "Pojia01",
+		container_index = -1,
+		mirror = false,
+		offset = {
+			0,
+			1,
+			0
+		}
+	},
+	zhihuiRing02 = {
+		id = "zhihuiRing02",
+		container_index = 4,
+		mirror = false,
+		offset = {
+			0,
+			-0.5,
+			0
+		}
+	},
+	zhihuiRing02_buff = {
+		id = "zhihuiRing02_buff",
+		container_index = 4,
+		mirror = false,
+		offset = {
+			0,
+			0,
+			0
+		}
+	},
+	fangkongRing02 = {
+		id = "fangkongRing02",
+		container_index = 4,
+		mirror = false,
+		offset = {
+			0,
+			-0.5,
+			0
+		}
 	}
 }
 

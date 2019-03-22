@@ -12,7 +12,7 @@ return {
 			bgm = "battle-boss-1",
 			actor = 401211,
 			nameColor = "#ff5c5c",
-			say = "可恶，你们等着，Z2她们会帮我报仇的！",
+			say = "……더, 더이상은 무리야……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -37,7 +37,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 201201,
-			say = "昏过去了……",
+			say = "기절했어……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,7 +53,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 201201,
-			say = "……比之前的那两位要棘手一点。",
+			say = "요전의 두 명보다는 만만치 않았지만…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,7 +66,7 @@ return {
 		{
 			expression = 1,
 			side = 1,
-			say = "不过，在同心协力H级的之前，还是差远了呢",
+			say = "로열 네이비 H급의 적수는 아니에요!",
 			dir = -1,
 			actor = 201161,
 			nameColor = "#a9f548",
@@ -88,7 +88,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……然后，怎么办？",
+			say = "하디, 이제 어쩔 거야?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "……海岸的情况如何？",
+			say = "항구의 상태는?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "岸防已经配置好了，单凭我们的火力，解决起来需要花很多时间……",
+			say = "완전히 점령당했네. 우리들 화력으론 방어 시설 파괴에도 시간이 걸리니까.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 201201,
-			say = "而且，我们已经惊动了对方，增援应该也在赶来了。",
+			say = "게다가, 지금 걸로 적도 이쪽 전력을 파악했을테고, 곧 지원군이 오겠지.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "要撤退吗？这个天气，我们的消耗也比平常要大。",
+			say = "……퇴각할래? 이런 악천후이기도 하고, 우리 전력도 꽤 소모됐고.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "……不，既然我们无法马上占领纳尔维克，那么至少，我们要搞清楚对方驻守部队的规模。",
+			say = "……안 돼요. 당신이 말한 대로 당장 탈환은 못해도, 여기선 끈질기게 버텨서 최대한의 전과를 노려야 해요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +180,7 @@ return {
 			side = 1,
 			dir = -1,
 			actor = 201161,
-			say = "而且，我们至少也要给铁血造成一点损失，那边的那些商船和货船可不能放过。",
+			say = "적어도, 저기 있는 화물선 정도는 가라앉혀야죠.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +196,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 201201,
-			say = "但这样……很危险。",
+			say = "하지만…… 위험하다구?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,7 +212,7 @@ return {
 			side = 1,
 			dir = -1,
 			actor = 201161,
-			say = "我知道，所以你们可以先回去，留我一个人就好。",
+			say = "나 혼자라도 할 작정이에요. 이 기회는 절대로 놓치지 않겠어요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,7 +228,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 201201,
-			say = "……笨蛋。",
+			say = "바보.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -244,7 +244,7 @@ return {
 			dir = -1,
 			actor = 201161,
 			nameColor = "#a9f548",
-			say = "好痛，干嘛忽然用鱼雷管敲我。",
+			say = "아야! 갑자기 왜 때려요!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 201201,
-			say = "我们是团队……而且，一个人的火力，比不过五个人。",
+			say = "우리는 한 팀. 하디는 기함. 모두 함께 하는 쪽이, 화력이 강해.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			side = 1,
 			dir = -1,
 			actor = 201161,
-			say = "……好吧，谢谢。",
+			say = "……고마워요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,7 +302,7 @@ return {
 			side = 1,
 			dir = -1,
 			actor = 201161,
-			say = "咳咳，那么就开始尽可能地破坏吧！",
+			say = "자, 철저하게 공격해주자구요!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

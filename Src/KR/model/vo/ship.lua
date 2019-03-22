@@ -290,6 +290,25 @@ function slot0.getTransformShipId(slot0)
 	end
 end
 
+function slot0.getAircraftCount(slot0)
+	slot1 = slot0:getConfigTable().base_list
+	slot2 = slot0:getConfigTable().default_equip_list
+	slot3 = {
+		[EquipType.FighterAircraft] = 0,
+		[EquipType.TorpedoAircraft] = 0,
+		[EquipType.BomberAircraft] = 0,
+		[EquipType.SeaPlane] = 0
+	}
+
+	for slot7 = 1, 3, 1 do
+		if table.contains(EquipType.AirDomainEquip, pg.equip_data_statistics[(slot0:getEquip(slot7) and slot0:getEquip(slot7).configId) or slot2[slot7]].type) then
+			slot3[slot9] = slot3[slot9] + slot1[slot7]
+		end
+	end
+
+	return slot3
+end
+
 function slot0.getShipType(slot0)
 	return slot0:getConfig("type")
 end
@@ -945,6 +964,8 @@ function slot0.getEquipmentProperties(slot0)
 		slot2[slot7] = 0
 	end
 
+	slot1[AttributeType.AirDominate] = 0
+
 	for slot7, slot8 in ipairs(slot3) do
 		if slot8 then
 			for slot13, slot14 in ipairs(slot9) do
@@ -1103,7 +1124,7 @@ function slot0.getProperties(slot0, slot1)
 		if slot12 == AttributeType.Speed then
 			slot5[slot12] = slot5[slot12] * slot15 + slot14 + slot6[slot12]
 		else
-			slot5[slot12] = math.floor(math.floor(slot5[slot12] * slot15) + slot14 + slot6[slot12])
+			slot5[slot12] = math.floor(math.floor(slot5[slot12]) * slot15) + slot14 + slot6[slot12]
 		end
 	end
 

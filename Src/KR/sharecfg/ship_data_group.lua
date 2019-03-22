@@ -64,6 +64,31 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[4] = {
+		nationality = 1,
+		hide = 0,
+		trans_skin = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		code = 4,
+		type = 1,
+		group_type = 10102,
+		trans_type = 0,
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"메인 스테이지 해역13-3",
+				{
+					"LEVEL",
+					{
+						chapterid = 1303
+					}
+				},
+				0
+			}
+		}
+	},
 	[5] = {
 		nationality = 1,
 		hide = 0,
@@ -8634,6 +8659,31 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[380] = {
+		nationality = 1,
+		hide = 0,
+		trans_skin = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		code = 380,
+		type = 7,
+		group_type = 10717,
+		trans_type = 0,
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"메인 스테이지 해역13-4",
+				{
+					"LEVEL",
+					{
+						chapterid = 1304
+					}
+				},
+				0
+			}
+		}
+	},
 	[10001] = {
 		nationality = 101,
 		hide = 0,
@@ -9095,6 +9145,7 @@ pg.ship_data_group = {
 	all = {
 		1,
 		2,
+		4,
 		5,
 		6,
 		7,
@@ -9357,6 +9408,7 @@ pg.ship_data_group = {
 		377,
 		378,
 		379,
+		380,
 		10001,
 		10002,
 		10003,

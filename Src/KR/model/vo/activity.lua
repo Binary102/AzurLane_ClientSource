@@ -116,30 +116,22 @@ function slot0.readyToAchieve(slot0)
 				break
 			end
 		end
+	elseif slot2 == ActivityConst.ACTIVITY_TYPE_TASKS then
+		slot3, slot4, slot5 = getDoingTask(slot0, true)
+		slot1 = slot5 and slot5:isFinish() and not slot5:isReceive()
 	elseif slot2 == ActivityConst.ACTIVITY_TYPE_TASK_LIST then
 		if slot0:getConfig("config_id") == 2 or slot0:getConfig("config_id") == 3 then
-			slot3 = getProxy(TaskProxy)
-			slot1 = slot0.data3 > 0 and _.any(_.flatten({
-				slot0:getConfig("config_data")[slot5]
-			}), function (slot0)
-				return slot0:getTaskById(slot0) and slot1:isFinish()
-			end)
+			slot3, slot4, slot5 = getDoingTask(slot0, true)
+			slot1 = slot5 and slot5:isFinish() and not slot5:isReceive()
 		end
 	elseif slot2 == ActivityConst.ACTIVITY_TYPE_HITMONSTERNIAN then
 		return not (slot0:getDataConfig("hp") <= slot0.data3) and slot0:getCountForHitMonster() > 0
-	elseif slot2 == ActivityConst.ACTIVITY_TYPE_MONOPOLY then
-		return (math.ceil((pg.TimeMgr.GetInstance():GetServerTime() - slot0.data1) / 86400) * slot0:getDataConfig("daily_time") + slot0.data1_list[1]) - slot0.data1_list[2] > 0 or slot0.data2_list[1] - slot0.data2_list[2] > 0
 	elseif slot2 == ActivityConst.ACTIVITY_TYPE_DODGEM then
 		slot3 = pg.TimeMgr.GetInstance()
 
 		return (slot0.data4 == 0 and slot0.data2 >= 7) or defaultValue(slot0.data2_list[1], 0) > 0 or defaultValue(slot0.data2_list[2], 0) > 0 or slot0.data2 < math.min(slot3:DiffDay(slot0.data1, slot3:GetServerTime()) + 1, 7) or slot0.data3 < slot3.DiffDay(slot0.data1, slot3.GetServerTime()) + 1
-	elseif slot2 == ActivityConst.ACTIVITY_TYPE_TASKS then
-		slot3 = getProxy(TaskProxy)
-		slot1 = _.any(_.flatten({
-			slot0:getConfig("config_data")[slot0.data3]
-		}), function (slot0)
-			return slot0:getTaskById(slot0) and slot1:isFinish()
-		end)
+	elseif slot2 == ActivityConst.ACTIVITY_TYPE_MONOPOLY then
+		return (math.ceil((pg.TimeMgr.GetInstance():GetServerTime() - slot0.data1) / 86400) * slot0:getDataConfig("daily_time") + slot0.data1_list[1]) - slot0.data1_list[2] > 0 or slot0.data2_list[1] - slot0.data2_list[2] > 0
 	end
 
 	return slot1

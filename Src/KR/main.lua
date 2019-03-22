@@ -186,12 +186,14 @@ function SDKLogin(slot0, slot1, slot2)
 end
 
 function SDKLogout(slot0, slot1, slot2)
-	pg.m02:sendNotification(GAME.LOGOUT, {
-		code = 0,
-		uid = slot0,
-		token = slot1,
-		sessionId = slot2
-	})
+	if pg.m02 then
+		pg.m02:sendNotification(GAME.LOGOUT, {
+			code = 0,
+			uid = slot0,
+			token = slot1,
+			sessionId = slot2
+		})
+	end
 end
 
 function PaySuccess(slot0, slot1)

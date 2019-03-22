@@ -11,7 +11,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = -1,
-			say = "我回来了！",
+			say = "한스, 지금 막 도착했습니다☆",
 			bgm = "level02",
 			typewriter = {
 				speed = 0.05,
@@ -27,7 +27,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "呼，真是累死我啦。峡湾的那一边什么都没有哦……",
+			say = "하아… 지쳐버렸어… 협만 너머에 요새는 없던데.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,7 +43,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 401021,
-			say = "情报有误吗……总之，辛苦了。",
+			say = "정보가 틀렸었나…… 고생했어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Z2，已经顺利完成占领了。",
+			say = "틸레, 점령 쪽도 잘 마무리 됐어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，辛苦了。",
+			say = "퀸네도 수고했어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "Z2还是老样子冷淡欸，完成了任务应该开心点嘛。",
+			say = "정말, 틸레도 참 매정하네… 임무도 무사히 완료했으니까, 이럴 땐 웃으면서 승리를 축하해야지!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我又不是Z1。而且，现在还不到放松的时候。",
+			say = "내가 레베도 아니고. 그리고, 아직 긴장을 풀어선 안돼.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "咦，我们不是已经占领了纳尔维克吗？",
+			say = "하지만, 이미 점령 자체가 성공한 거 아냐?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 401021,
-			say = "我刚才说了，问题在于之后……预定到达的两艘补给舰只到达了一艘，我们现在缺乏足够的补给返航，而且……",
+			say = "문제는 이 다음이야. 우린 회항할 연료 보급도 여의치 않은 상황이라고. 게다가…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,7 +159,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "皇家也不会放任我们占领纳尔维克的。",
+			say = "로열 네이비는 우릴 이대로 내버려 두지 않을 거란 말이네.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "对，皇家和我们一样，都需要包括纳尔维克在内的一系列港口……昨天，沙恩姐妹已经和对方的声望交过手了，前天，希佩尔也被一艘皇家驱逐逼退……",
+			say = "그래. 로열 네이비도 이 항구를 탐내고 있어. ……어제는 샤른호르스트 씨들이 그쪽 리나운과 교전했었고, 이틀 전에는 히퍼 씨도 적 구축함에 큰 피해를 입었어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 401021,
-			say = "她们……马上就会来的。",
+			say = "아마도…… 로열 네이비는 당장이라도 달려오려고 하겠지.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +205,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼，谁怕谁，等她们来了，就让她们知道我们铁血驱逐的厉害！",
+			say = "흥! 올 테면 오라지! 메탈 블러드 구축함의 힘을 보여주겠어!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 401021,
-			say = "有力气说大话的话，还是先养精蓄锐吧。",
+			say = "그래, 지금은 적에 대비해서 쉬는 편이 좋겠어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +246,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "毕竟补给舰一次只能给两艘船进行补给呢。好了，大家轮流进行补给吧！",
+			say = "유조선은 한 번에 두 척만 동시 보급 가능하니까. 자, 다들, 순번을 정해서 움직이도록 해.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,8 +262,8 @@ return {
 			actor = 401181,
 			dir = -1,
 			hideOther = true,
-			actorName = "Z驱们",
-			say = "是！",
+			actorName = "모두",
+			say = "네!",
 			subActors = {
 				{
 					actor = 401191,

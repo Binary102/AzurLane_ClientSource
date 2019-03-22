@@ -244,29 +244,94 @@ function slot1(slot0)
 	slot0._buffModel = slot1
 	slot2 = slot0
 	slot1 = slot0.findTF
-	slot3 = "blur_container/property_frame/cannon"
+	slot3 = "blur_container/property_frame/titles/cannon/value"
 	slot1 = slot1(slot2, slot3)
 	slot0._cannonPower = slot1
 	slot2 = slot0
 	slot1 = slot0.findTF
-	slot3 = "blur_container/property_frame/torpedo"
+	slot3 = "blur_container/property_frame/titles/torpedo/value"
 	slot1 = slot1(slot2, slot3)
 	slot0._torpedoPower = slot1
 	slot2 = slot0
 	slot1 = slot0.findTF
-	slot3 = "blur_container/property_frame/anti_air"
+	slot3 = "blur_container/property_frame/titles/anti_air/value"
 	slot1 = slot1(slot2, slot3)
 	slot0._AAPower = slot1
 	slot2 = slot0
 	slot1 = slot0.findTF
-	slot3 = "blur_container/property_frame/air"
+	slot3 = "blur_container/property_frame/titles/air/value"
 	slot1 = slot1(slot2, slot3)
 	slot0._airPower = slot1
 	slot2 = slot0
 	slot1 = slot0.findTF
-	slot3 = "blur_container/property_frame/cost"
+	slot3 = "blur_container/property_frame/titles/cost/value"
 	slot1 = slot1(slot2, slot3)
 	slot0._cost = slot1
+	slot2 = slot0
+	slot1 = slot0.findTF
+	slot3 = "blur_container/property_frame/titles/ac/value"
+	slot1 = slot1(slot2, slot3)
+	slot0._airDominance = slot1
+	slot1 = setText
+	slot3 = slot0
+	slot2 = slot0.findTF
+	slot4 = "blur_container/property_frame/titles/cannon/Text"
+	slot2 = slot2(slot3, slot4)
+	slot3 = i18n
+	slot4 = "word_attr_cannon"
+
+	slot1(slot2, slot3(slot4))
+
+	slot1 = setText
+	slot3 = slot0
+	slot2 = slot0.findTF
+	slot4 = "blur_container/property_frame/titles/torpedo/Text"
+	slot2 = slot2(slot3, slot4)
+	slot3 = i18n
+	slot4 = "word_attr_torpedo"
+
+	slot1(slot2, slot3(slot4))
+
+	slot1 = setText
+	slot3 = slot0
+	slot2 = slot0.findTF
+	slot4 = "blur_container/property_frame/titles/anti_air/Text"
+	slot2 = slot2(slot3, slot4)
+	slot3 = i18n
+	slot4 = "word_attr_antiaircraft"
+
+	slot1(slot2, slot3(slot4))
+
+	slot1 = setText
+	slot3 = slot0
+	slot2 = slot0.findTF
+	slot4 = "blur_container/property_frame/titles/air/Text"
+	slot2 = slot2(slot3, slot4)
+	slot3 = i18n
+	slot4 = "word_attr_air"
+
+	slot1(slot2, slot3(slot4))
+
+	slot1 = setText
+	slot3 = slot0
+	slot2 = slot0.findTF
+	slot4 = "blur_container/property_frame/titles/cost/Text"
+	slot2 = slot2(slot3, slot4)
+	slot3 = i18n
+	slot4 = "word_attr_luck"
+
+	slot1(slot2, slot3(slot4))
+
+	slot1 = setText
+	slot3 = slot0
+	slot2 = slot0.findTF
+	slot4 = "blur_container/property_frame/titles/ac/Text"
+	slot2 = slot2(slot3, slot4)
+	slot3 = i18n
+	slot4 = "word_attr_ac"
+
+	slot1(slot2, slot3(slot4))
+
 	slot2 = slot0
 	slot1 = slot0.findTF
 	slot3 = "gear_score/main"
@@ -3312,6 +3377,32 @@ function slot1(slot0)
 	slot8 = slot5.oil
 
 	slot6(slot7, slot8)
+
+	slot6 = OPEN_AIR_DOMINANCE
+
+	if slot6 then
+		slot6 = setActive
+		slot7 = slot0._airDominance
+		slot7 = slot7.parent
+		slot8 = true
+
+		slot6(slot7, slot8)
+
+		slot6 = slot0.tweenNumText
+		slot7 = slot0._airDominance
+		slot8 = slot0._currentFleetVO
+		slot9 = slot8
+		slot8 = slot8.getFleetAirDominanceValue
+
+		slot6(slot7, slot8(slot9))
+	else
+		slot6 = setActive
+		slot7 = slot0._airDominance
+		slot7 = slot7.parent
+		slot8 = false
+
+		slot6(slot7, slot8)
+	end
 
 	slot6 = slot0._currentFleetVO
 	slot7 = slot6

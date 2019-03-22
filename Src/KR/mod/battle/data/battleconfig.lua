@@ -32,6 +32,13 @@ ys.Battle.BattleConfig.AntiAirConfig = {
 	Restore_Interval = 1,
 	Precast_duration = 0.25
 }
+ys.Battle.BattleConfig.AnitAirRepeaterConfig = {
+	const_A = 32,
+	const_B = 12,
+	const_C = 220,
+	upper_range = 35,
+	lower_range = 15
+}
 ys.Battle.BattleConfig.ChargeWeaponConfig = {
 	a1 = 0,
 	K1 = 0,

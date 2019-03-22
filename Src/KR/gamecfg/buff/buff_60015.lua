@@ -18,7 +18,7 @@ return {
 			arg_list = {
 				group = 60015,
 				number = 0.5,
-				attr = "damageGetRatio"
+				attr = "injureRatio"
 			}
 		},
 		{
@@ -30,7 +30,7 @@ return {
 			arg_list = {
 				group = 60015,
 				number = 0.333,
-				attr = "damageGetRatioByShipID_109"
+				attr = "injureRatioByShipID_109"
 			}
 		},
 		{

@@ -19,7 +19,7 @@ return {
 			arg_list = {
 				number = -0.5,
 				target = "TargetSelf",
-				attr = "damageGetRatio"
+				attr = "injureRatio"
 			}
 		}
 	}

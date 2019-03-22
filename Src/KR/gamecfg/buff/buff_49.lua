@@ -22,7 +22,7 @@ return {
 			arg_list = {
 				number = -0.2,
 				target = "TargetSelf",
-				attr = "damageGetRatio"
+				attr = "injureRatio"
 			}
 		},
 		{
@@ -33,7 +33,7 @@ return {
 			arg_list = {
 				number = -0.1,
 				target = "TargetSelf",
-				attr = "damageGetRatioByAir"
+				attr = "injureRatioByAir"
 			}
 		}
 	}

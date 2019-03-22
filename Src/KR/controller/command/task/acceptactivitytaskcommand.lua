@@ -10,7 +10,7 @@ class("AcceptActivityTaskCommand", pm.SimpleCommand).execute = function (slot0, 
 		slot1 = slot0:getConfig("config_id")
 
 		if not slot0:isEnd() and (slot1 == 1 or slot1 == 3) then
-			updateActivityTaskStatue(slot0)
+			updateActivityTaskStatus(slot0)
 		end
 	end)
 end

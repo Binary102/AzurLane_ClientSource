@@ -24999,7 +24999,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[26620] = {
-		name = "40mm 연장 보포스 해즐미어 ",
+		name = "40mm 연장 보포스 해즐미어",
 		speciality = "대공",
 		tech = 0,
 		type = 6,

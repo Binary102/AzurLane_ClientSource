@@ -1,6 +1,6 @@
 return {
 	time = 0,
-	name = "复纵阵回避",
+	name = "弹药匮乏",
 	init_effect = "",
 	id = 211,
 	picture = "",

@@ -318,6 +318,8 @@ function slot0.update(slot0, slot1)
 	for slot11, slot12 in ipairs(slot1.operation_buff) do
 		slot0.operationBuffList[#slot0.operationBuffList + 1] = slot12
 	end
+
+	slot0.airDominanceStatus = nil
 end
 
 function slot0.retreat(slot0)
@@ -333,6 +335,7 @@ function slot0.retreat(slot0)
 	slot0.champions = {}
 	slot0.cellAttachments = {}
 	slot0.round = 0
+	slot0.airDominanceStatus = nil
 end
 
 function slot0.clearSubChapter(slot0)
@@ -683,7 +686,35 @@ function slot0.getFleetStgIds(slot0, slot1)
 		end)
 	end
 
+	if OPEN_AIR_DOMINANCE and slot0:getConfig("air_dominance") > 0 then
+		table.insert(slot2, slot0:getAirDominanceStg())
+	end
+
 	return slot2
+end
+
+function slot0.getAirDominanceStg(slot0)
+	slot1, slot2 = slot0:getAirDominanceValue()
+
+	return ChapterConst.AirDominance[slot2].StgId
+end
+
+function slot0.getAirDominanceValue(slot0)
+	slot1 = 0
+	slot2 = 0
+
+	for slot6, slot7 in ipairs(slot0.fleets) do
+		if slot7:isValid() then
+			slot1 = slot1 + slot7:getFleetAirDominanceValue()
+			slot2 = slot2 + slot7:getAntiAircraftSums()
+		end
+	end
+
+	return slot1, calcAirDominanceStatus(slot1, slot0:getConfig("air_dominance"), slot2), slot0.airDominanceStatus
+end
+
+function slot0.setAirDominanceStatus(slot0, slot1)
+	slot0.airDominanceStatus = slot1
 end
 
 function slot0.updateShipStg(slot0, slot1, slot2, slot3)
@@ -985,7 +1016,7 @@ function slot0.singleEliteFleetVertify(slot0, slot1)
 	slot2 = getProxy(BayProxy):getRawData()
 	slot4 = slot0:getConfig("limitation")
 
-	if #slot0.eliteFleetList[slot1] == 0 then
+	if #slot0.eliteFleetList[slot1] == 0 or not slot4[slot1] then
 		return false
 	else
 		slot5 = 0
@@ -1379,11 +1410,11 @@ end
 function slot0.existEnemy(slot0, slot1, slot2, slot3)
 	if slot1 == ChapterConst.SubjectPlayer then
 		if slot0:getChapterCell(slot2, slot3) and slot4.flag == 0 and (slot4.attachment == ChapterConst.AttachAmbush or slot4.attachment == ChapterConst.AttachEnemy or slot4.attachment == ChapterConst.AttachElite or slot4.attachment == ChapterConst.AttachBoss or slot4.attachment == ChapterConst.AttachRival or slot4.attachment == ChapterConst.AttachAreaBoss or slot4.attachment == ChapterConst.AttachBomb_Enemy) then
-			return true
+			return true, slot4.attachment
 		end
 
 		if slot0:existChampion(slot2, slot3) then
-			return true
+			return true, ChapterConst.AttachChampion
 		end
 	elseif slot1 == ChapterConst.SubjectChampion and (slot0:existFleet(FleetType.Normal, slot2, slot3) or slot0:existFleet(FleetType.Transport, slot2, slot3)) then
 		return true

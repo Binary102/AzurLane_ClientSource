@@ -3172,7 +3172,7 @@ pg.gametip = {
 				info = " \n 1.<color=#A9F548>데이터 키</color>는 현재 상황에서는 매일 데일리 임무를 통해 2개를\n입수할 수 있습니다."
 			},
 			{
-				info = " 2.<color=#A9F548>데이터 키</color>는 최대 30개까지 소지 가능합니다. 30개를 소지하고 있는\n상태에서 새로 입수한<color=#A9F548>데이터 키</color>는 자동으로 제거됩니다."
+				info = " 2.<color=#A9F548>데이터 키</color>는 최대 30개까지 소지 가능합니다. 30개를 소지하고\n있는상태에서 새로 입수한<color=#A9F548>데이터 키</color>는 자동으로 제거됩니다."
 			},
 			{
 				info = " 3.<color=#A9F548>데이터 키</color> 1개당, <color=#A9F548>작전 내역</color>의 상설 이벤트 하나를,\n15분간 개방할 수 있습니다."
@@ -3682,8 +3682,12 @@ pg.gametip = {
 		key = "attribute_sonarInterval"
 	},
 	attribute_oxy_max = {
-		tip = "氧气",
+		tip = "잠항력 ",
 		key = "attribute_oxy_max"
+	},
+	attribute_dodge_limit = {
+		tip = "회피상한 ",
+		key = "attribute_dodge_limit"
 	},
 	skill = {
 		tip = "스킬",
@@ -4485,16 +4489,16 @@ pg.gametip = {
 「임시 획득」캐릭터 관련 설명
 
 ・「임시 획득」이란：
-콜라보레이션 캐릭터는 '이벤트 기간' 에만 함대에 합류하게 됩니다.
-이벤트 종료 시 「정식 획득」을 달성하지 못한 경우, 함대에서 사라지게
-됩니다. (강화나 한계돌파에 소비된 아이템은 반환되지 않습니다)
+해당 캐릭터는 '이벤트 기간' 에만 함대에 합류하게 됩니다.
+이벤트 종료 시 「정식 획득」을 달성하지 못한 경우, 함대에서 사라
+지게 됩니다. (강화나 한계 돌파에 소비된 아이템은 반환되지 않습니다)
 ・「정식 획득」이란：
-콜라보레이션 캐릭터을 「정식 획득」하려면, 호감도를 상승시키고,
-콜라보레이션 이벤트에서 각 단계 별 '호감도 보상' 을
+해당 캐릭터을 「정식 획득」하려면, 호감도를 상승시키고,
+이벤트에서 각 단계 별 '호감도 보상' 을
 전부 획득하여야 합니다.
 ・「정식 획득」 가능 기간：
-《칭송받는 자》 콜라보레이션 캐릭터 [후미뤼르]
-2018년 11월 22일 업데이트 후 ~ 2018년 12월 13일 업데이트 전
+《피오르드의 별》이벤트 캐릭터 [헌터]
+2019년 3월 7일 업데이트 후 ~ 2019년 3월 20일 업데이트 전
 
 ※「임시 획득」캐릭터의 기능 제한：
 「임시 획득」상태의 캐릭터는 '정식 획득' 상태가 아닌 경우
@@ -4502,8 +4506,8 @@ pg.gametip = {
 이용 가능 기능：
 함대 편성, 전투 참가, 강화, 스킬 강화, 한계돌파, 
 이용 불가 기능：
-퇴역, 강화 소재로써의 소비, 한계돌파 소재로써의 소비, 군사의뢰,
-서약, 인식 각성, 비서함 설정, 대강당]]
+퇴역, 강화 소재로써의 소비, 한계 돌파 소재로써의 소비, 군사의뢰,
+서약, 인식 각성, 비서함 설정, 숙소, 대강당]]
 			}
 		}
 	},
@@ -4831,11 +4835,7 @@ pg.gametip = {
 						<color=#fff157>          SS Rare</color>：$2%
 						<color=#966af6>          S Rare</color>：$3%
 						<color=#60a9ff>          Rare</color>：$4%
-						          Normal：$5% 
-
-									【한정건조】
-								<color=#966af6>하디</color>：1.4%<color=#A9F548>(up!)</color>
-								<color=#966af6>Z2</color>：1.4%<color=#A9F548>(up!)</color>]],
+						          Normal：$5%]],
 		key = "help_build_2"
 	},
 	help_build_4 = {
@@ -6485,7 +6485,7 @@ pg.gametip = {
 	vote_primary_rule = {
 		tip = [[
 <size=20>예선</size>
-<size=19> 참가 함선은 4 그룹으로 나뉘며, 한 그룹에 5일간 투표 기간이 개설되어, 그룹 내 상위 3함선(총 12함선)이 본선에 참가할 수 있습니다.</size>
+<size=19> 참가 함선은 4 그룹으로 나뉘며, 한 그룹에 6일간 투표 기간이 개설되어, 그룹 내 상위 3함선(총 12함선)이 본선에 참가할 수 있습니다.</size>
 
 <size=20>본선</size>
 <size=19>본선에 참가하는 12함선으로 10일간 투표를 거쳐 최종 순위를 결정합니다. 예선의 투표 수는 반영되지 않습니다.</size>
@@ -7685,9 +7685,21 @@ pg.gametip = {
 					atlas = "helpbg/level_ui_help"
 				}
 			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/battle_ac_2"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/battle_ac_1"
+				}
+			},
 			disableScroll = true,
 			pageMode = true,
-			defaultpage = 1,
+			defaultpage = 10,
 			ImageMode = true,
 			windowSize = {
 				x = 836,
@@ -9031,18 +9043,136 @@ pg.gametip = {
 		tip = {
 			{
 				info = [[
-해역 위협도가<color=#A9F548>"안전해역"</color>이며, 또한 해역<color=#A9F548>☆3 클리어</color>를 달성하면, 
-해역 선택 화면에서 같은 스테이지를<color=#A9F548>"주회 모드"</color>로 설정할 수
+해역 위협도가<color=#A9F548>"안전해역"</color>인 해역에서, 해역<color=#A9F548>☆3 클리어</color>를 달성하면, 
+해역 선택 화면에서 해당 스테이지를<color=#A9F548>"주회 모드"</color>로 설정할 수
 있게 됩니다.
 
 "주회 모드"의 특징은 아래와 같습니다：
-1. 메인 스테이지의 하드 모드 스테이지에서, 적 호위함대가
+1. 메인 스테이지의 어려움 모드 스테이지에서, 적 호위함대가
 <color=#A9F548>출현하지 않게 됩니다</color>.
 2. 이벤트 스테이지의 적 배치 및 행동 로직이 변화합니다.
-3. 이벤트 스테이지에서 아군의<color=#A9F548> 이동 제한이 해제되며</color>, 해역 지도에서 자
-유롭게 이동할 수 있습니다.
-4. 이벤트 "피오르드의 별"에서는 적의 해안방어포가 <color=#A9F548>출현하지 않게
-됩니다</color>.]]
+3. 이벤트 스테이지에서 아군의<color=#A9F548> 이동 제한이 해제되며</color>, 해역 지도에서
+자유롭게 이동할 수 있습니다.]]
+			}
+		}
+	},
+	no_airspace_competition = {
+		tip = "제공전 없음 ",
+		key = "no_airspace_competition"
+	},
+	level_scene_title_word_1 = {
+		tip = "색적치:",
+		key = "level_scene_title_word_1"
+	},
+	level_scene_title_word_2 = {
+		tip = "해역 위협도:",
+		key = "level_scene_title_word_2"
+	},
+	level_scene_title_word_3 = {
+		tip = "제공수치:",
+		key = "level_scene_title_word_3"
+	},
+	level_scene_title_word_4 = {
+		tip = "공역:",
+		key = "level_scene_title_word_4"
+	},
+	level_scene_title_word_5 = {
+		tip = "제공치： <color=#18ff23>        추천： </color>",
+		key = "level_scene_title_word_5"
+	},
+	ambush_display_0 = {
+		tip = "접적 ",
+		key = "ambush_display_0"
+	},
+	ambush_display_1 = {
+		tip = "안전",
+		key = "ambush_display_1"
+	},
+	ambush_display_2 = {
+		tip = "낮음",
+		key = "ambush_display_2"
+	},
+	ambush_display_3 = {
+		tip = "보통",
+		key = "ambush_display_3"
+	},
+	ambush_display_4 = {
+		tip = "중간",
+		key = "ambush_display_4"
+	},
+	ambush_display_5 = {
+		tip = "높음",
+		key = "ambush_display_5"
+	},
+	ambush_display_6 = {
+		tip = "위험",
+		key = "ambush_display_6"
+	},
+	no_way_to_escape = {
+		tip = "탈출할 수 있는 경로가 없습니다. ",
+		key = "no_way_to_escape"
+	},
+	word_attr_ac = {
+		tip = "제공 ",
+		key = "word_attr_ac"
+	},
+	help_battle_ac = {
+		key = "help_battle_ac",
+		tip = {
+			{
+				info = [[
+제공권 설명
+
+제공수치
+・제공수치는 함대 제공 능력 수치를 평가한다.
+・제공수치는 지휘관이 출격하는 함대의 항공수치와 함재기 갯수에
+의해 결정된다. 대잠은
+항공기의 제공수치에 포함되지 않는다.
+P.S. 아군의 대공은 효율적으로 적의 제공수치를 낮춘다!
+・제공수치는 현재 스테이지의 공역 상태에 영향을 준다.
+
+공역 상태
+・함대의 현재 스테이지 공중 구역의 제어상태를 공역상태라고 한다. 
+・적과 아군의 제공수치는 현재 스테이지의 공역상태를 결정,
+공역상태
+는 일부 속성에 영향을 준다.
+
+공역상태는 6가지로 구분된다: 
+제공권 확보: 함대 전체 항공 대미지가 20% 상승, 항공에 받는 
+대미지가 10% 감소, 명중이 10% 상승, 매복 공격을 받을 확률이 
+8% 감소한다.(연소 대미지와 침수에 영향 받지 않는다.)
+
+제공권 우세: 함대 전체의 항공 대미지가 12% 상승, 항공에 받는 
+대미지가 6% 감소, 명중이 5% 상승, 매복 공격을 받을 확률이 
+5% 감소한다.(연소 대미지와 침수에 영향 받지 않는다.)
+
+백중지간：함대 전체 항공 대미지가 6% 감소, 항공에 받는 
+대미지가 3% 감소한다.
+(연소 대미지와 침수에 영향 받지 않는다.)
+
+제공권 열세: 함대 전체의 항공 대미지가 12% 감소, 항공에 받는 
+대미지가 6% 감소, 명중, 기동이 3% 감소한다.
+(연소 대미지와 침수에 영향 받지 않는다.)
+
+제공권 상실: 함대 전체 항공 대미지가 20% 감소, 항공에 받는 
+대미지가 10% 감소, 명중, 기동이 8% 감소한다.
+(연소 대미지와 침수에 영향 받지 않는다.)
+
+공역쟁탈 없음: 특수효과 없음.]]
+			}
+		}
+	},
+	help_attribute_dodge_limit = {
+		key = "help_attribute_dodge_limit",
+		tip = {
+			{
+				info = [[
+속성 설명
+
+회피상한 : 함재기가 적의 대공함에게 공격당했을 시 회피할 수 있는 상한
+
+함재기 회피율은 함재기, 함재기 장비의 항모 항공수치와 적 대공함의
+대공수치에 의해 결정된다]]
 			}
 		}
 	}

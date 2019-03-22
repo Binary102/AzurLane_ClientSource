@@ -238,7 +238,7 @@ function slot0.register(slot0)
 		slot4:updateChapter(slot3)
 		slot4:duplicateEliteFleet(slot3, true)
 		slot0:duplicateEliteFleet(slot3)
-		slot0.viewComponent:flushFleetEditButton(slot1.chapterVO)
+		slot0.viewComponent.levelEliteFleetPanel:set(slot1.chapterVO)
 	end)
 	slot0:bind(slot0.NOTICE_AUTOBOT_ENABLED, function (slot0, slot1)
 		slot0:sendNotification(GAME.COMMON_FLAG, {
@@ -252,7 +252,7 @@ function slot0.register(slot0)
 		slot4:updateChapter(slot3)
 		slot4:duplicateEliteFleet(slot3, true)
 		slot0:duplicateEliteFleet(slot3)
-		slot0.viewComponent:flushFleetEditButton(slot1.chapterVO)
+		slot0.viewComponent.levelEliteFleetPanel:set(slot1.chapterVO)
 	end)
 	slot0:bind(slot0.ON_ELITE_OEPN_DECK, function (slot0, slot1)
 		slot2 = slot1.shipType
@@ -693,7 +693,7 @@ function slot0.handleNotification(slot0, slot1)
 				elseif slot0 == ChapterConst.OpMove then
 					seriesAsync({
 						function (slot0)
-							slot0.viewComponent.grid:moveFleet(slot1.path, slot1.fullpath, slot0)
+							slot0.viewComponent.grid:moveFleet(slot1.path, slot1.fullpath, slot1.oldLine, slot0)
 						end,
 						function (slot0)
 							if slot0.aiActs then

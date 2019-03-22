@@ -13,7 +13,7 @@ return {
 			dir = 1,
 			actor = 201201,
 			stopbgm = true,
-			say = "…这里是？",
+			say = "…여기는…?",
 			flashin = {
 				delay = 1.5,
 				dur = 0.5,
@@ -35,7 +35,7 @@ return {
 		{
 			expression = 2,
 			side = 1,
-			say = "太好了，猎人，你终于醒了！",
+			say = "다행이다! 눈을 떴군요!",
 			dir = -1,
 			actor = 201161,
 			nameColor = "#a9f548",
@@ -67,7 +67,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "这里是奥福克峡湾外的海滩……我的燃料也耗尽了，只能把你拖到这里……",
+			say = "여긴 오포트피오르 밖이에요…… 내 연료도 떨어져서, 여기까지밖에 끌고 오지 못했어요……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 201201,
-			say = "这样啊。",
+			say = "그렇구나.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,7 +98,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "抱歉，猎人，都是我不够谨慎，才害你为了保护我受了这么重的伤……",
+			say = "미안해요, 헌터. 내가 공격에 집착한 탓에 크게 다쳐버려서……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,7 +114,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 201201,
-			say = "没事的……",
+			say = "괜찮아.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "我已经向后方发送了求救信号，她们马上就会来救我们了，所以……",
+			say = "구조 신호를 발신했으니까, 곧 아군이 구출하러 올 거에요! 그러니까……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 201201,
-			say = "勇敢……",
+			say = "하디.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			dir = -1,
 			actor = 201161,
 			nameColor = "#a9f548",
-			say = "怎、怎么了？",
+			say = "왜 그러세요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 201201,
-			say = "看，雪……",
+			say = "눈이야.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,7 +202,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "雪……",
+			say = "눈……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 201201,
-			say = "你觉得，漂亮吗？",
+			say = "아름다운 것, 같아?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,7 +233,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "……我，不知道，但是……一片白茫茫的，什么都没有，总觉得，好像……平静了下来。",
+			say = "모르겠어요…… 모르겠지만, 뭔가 하얗고, 차분한 느낌…… 이것이 '눈'……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -249,7 +249,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 201201,
-			say = "对吧？以后，有机会的话，和大家一起来看极光吧？",
+			say = "맞아. 다음엔…… 오로라라도 같이 볼래?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,7 +265,7 @@ return {
 			side = 1,
 			dir = -1,
 			actor = 201161,
-			say = "……嗯，就这么约好了。",
+			say = "………응. 약속할게요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -276,12 +276,12 @@ return {
 			}
 		},
 		{
-			actorName = "猎人",
+			actorName = "헌터",
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
 			blackBg = true,
-			say = "那……我先睡一会儿哦？",
+			say = "하디, 나, 조금 자도 돼?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,12 +292,12 @@ return {
 			}
 		},
 		{
-			actorName = "勇敢",
+			actorName = "하디",
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
 			blackBg = true,
-			say = "嗯，我会在你身边的，安心睡吧。",
+			say = "괜찮아요. 나도… 함께 있으니까.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -747,80 +747,83 @@ function slot0.displayShipWord(slot0, slot1)
 
 	slot11 = pg.StoryMgr:GetInstance():isActive()
 
-	if slot4 and not slot11 then
-		function slot12()
-			if slot0._currentVoice then
-				slot0._currentVoice:Stop(true)
-			end
-
-			function slot1()
-				slot1, slot1 = playSoundEffect(slot2)
-				slot0._currentVoice = slot2
-
-				if slot2 then
-					slot3 = long2int(slot1.length) * 0.001
-				end
-
-				slot4()
-
-				return
-			end
-
-			if slot0._delayVoiceTweenID then
-				LeanTween.cancel(slot0._delayVoiceTweenID)
-
-				slot0._delayVoiceTweenID = nil
-			end
-
-			if slot0.live2dCom and slot4 and slot4 ~= 0 then
-				slot0._delayVoiceTweenID = LeanTween.delayedCall(slot4, System.Action(function ()
-					slot0()
-
-					slot1._delayVoiceTweenID = nil
-
-					return
-				end)).id
-			else
-				slot1()
-			end
-
-			return
-		end
-
-		if slot0.loadedCVBankName then
-			slot12()
-		else
-			pg.CriMgr:LoadCV(Ship.getCVKeyID(slot0.flagShip.skinId), function ()
-				if pg.CriMgr.GetInstance().onStopCV then
-					print("CV track --> onStopCV true")
-
-					return
-				else
-					print("CV track --> onStopCV false")
-				end
-
-				slot0.loadingKey = nil
-
-				if slot0.exited then
-					pg.CriMgr.UnloadCVBank(slot0)
-				else
-					slot2()
-
-					if slot0._currentVoice then
-						slot0.loadedCVBankName = slot0
-					end
-				end
-
-				return
-			end)
-
-			slot0.loadingKey = Ship.getCVKeyID(slot0.flagShip.skinId)
-		end
+	if getProxy(ContextProxy):getContextByMediator(NewShipMediator) then
 	else
-		if slot3 then
-			slot10()
+		if slot4 and not slot11 then
+			function slot12()
+				if slot0._currentVoice then
+					slot0._currentVoice:Stop(true)
+				end
+
+				function slot1()
+					slot1, slot1 = playSoundEffect(slot2)
+					slot0._currentVoice = slot2
+
+					if slot2 then
+						slot3 = long2int(slot1.length) * 0.001
+					end
+
+					slot4()
+
+					return
+				end
+
+				if slot0._delayVoiceTweenID then
+					LeanTween.cancel(slot0._delayVoiceTweenID)
+
+					slot0._delayVoiceTweenID = nil
+				end
+
+				if slot0.live2dCom and slot4 and slot4 ~= 0 then
+					slot0._delayVoiceTweenID = LeanTween.delayedCall(slot4, System.Action(function ()
+						slot0()
+
+						slot1._delayVoiceTweenID = nil
+
+						return
+					end)).id
+				else
+					slot1()
+				end
+
+				return
+			end
+
+			if slot0.loadedCVBankName then
+				slot12()
+			else
+				pg.CriMgr:LoadCV(Ship.getCVKeyID(slot0.flagShip.skinId), function ()
+					if pg.CriMgr.GetInstance().onStopCV then
+						print("CV track --> onStopCV true")
+
+						return
+					else
+						print("CV track --> onStopCV false")
+					end
+
+					slot0.loadingKey = nil
+
+					if slot0.exited then
+						pg.CriMgr.UnloadCVBank(slot0)
+					else
+						slot2()
+
+						if slot0._currentVoice then
+							slot0.loadedCVBankName = slot0
+						end
+					end
+
+					return
+				end)
+
+				slot0.loadingKey = Ship.getCVKeyID(slot0.flagShip.skinId)
+			end
 		else
-			slot0.chatFlag = false
+			if slot3 then
+				slot10()
+			else
+				slot0.chatFlag = false
+			end
 		end
 	end
 

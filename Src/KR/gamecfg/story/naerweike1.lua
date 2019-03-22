@@ -12,7 +12,7 @@ return {
 			bgm = "level02",
 			actor = 401211,
 			nameColor = "#a9f548",
-			say = "为什么我们非要来这种地方执行任务啊！",
+			say = "왜 하필 이런 데로 임무가 나온 거야!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -37,7 +37,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			say = "好啦，Z21，来，笑一笑~",
+			say = "자자, 윌. 진정하구~ 나랑 같이… 스마일☆",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -56,7 +56,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……风雪真大。",
+			say = "……폭설이네요…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Z21，不要抱怨了，已经到了目标海域，你是队长，按照规定，复述一遍任务。",
+			say = "윌, 좀 투덜대지 마. 목표 해역에 도착했어. 즉, 이제부터는 네가 기함이라는 말이야. 자, 임무 복창 및 지시를.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "可是我好冷……Z2帮我做……？",
+			say = "그럼……틸레, 부탁해도 될까……?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……唉，本次作战，作为威悉演习行动的一环，目的是占领纳尔维克。",
+			say = "……본 작전은 '베저위붕 작전'의 일환으로, '나르비크 항'의 점령을 목적으로 한다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 401021,
-			say = "这项任务，将由Z21作为旗舰，带领Z2，Z9，Z11，Z12，Z13，Z18，Z19，Z21，Z22，共10艘驱逐级共同完成。",
+			say = "기함은 Z21, 휘하로 Z2, Z9, Z11, Z12, Z13, Z18, Z19, Z21, Z22, 합계 10척을 전력으로 한다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "有什么问题吗？",
+			say = "여기까지, 질문은?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我！Z2，敌方的兵力如何？",
+			say = "저요! 적 병력의 정보를 알려주세요!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 401021,
-			say = "纳尔维克目前为止一直保持着中立，港内布置的防卫力量并不充裕，凭我们的力量可以轻松解决。",
+			say = "중립이었던 나르비크의 방위 전력은 대단치 않아. 충분히 대응 가능할 것으로 보여.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,7 +198,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那不是超轻松的任务吗？",
+			say = "역시 식은 죽 먹기잖아.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,7 +214,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 401021,
-			say = "问题不在占领，而在之后……呼，总之，先完成占领再说吧。",
+			say = "점령 자체는 쉽겠지만, 문제는 그 다음이야. 그래, 우선은 지금 작전목표에 집중하자.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,7 +229,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "另外，Z18，有情报显示，在峡湾的另一边有一座要塞，以防万一，你和Z22去探查一下。",
+			say = "그리고 한스, 협만 너머로 요새가 있다는 정보가 들어왔어. 안톤이랑 함께 정찰 좀 부탁해.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -244,7 +244,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "好~",
+			say = "라져~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "其他人，跟随Z21出击。",
+			say = "다른 사람들은 계속해서 윌과 함께 작전 목표 해역까지 이동할 것, 이상이야.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "诶，结果还是我吗，Z2当队长不就好了……",
+			say = "……뭔가 전부 다 말해줘 버렸네. 그냥 틸레가 기함 하는 게 낫지 않아?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,7 +290,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 401021,
-			say = "别说傻话。",
+			say = "……바보 같은 소리 마.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

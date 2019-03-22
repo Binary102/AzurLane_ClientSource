@@ -18,7 +18,7 @@ return {
 			},
 			arg_list = {
 				number = 11,
-				attr = "damageGetRatioByBulletTorpedo"
+				attr = "injureRatioByBulletTorpedo"
 			}
 		},
 		{
@@ -29,7 +29,7 @@ return {
 			},
 			arg_list = {
 				number = -0.5,
-				attr = "damageGetRatioByCannon"
+				attr = "injureRatioByCannon"
 			}
 		},
 		{
@@ -40,7 +40,7 @@ return {
 			},
 			arg_list = {
 				number = -0.5,
-				attr = "damageGetRatioByAir"
+				attr = "injureRatioByAir"
 			}
 		}
 	}

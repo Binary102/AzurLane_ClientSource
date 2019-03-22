@@ -501,6 +501,10 @@ function slot0.GetGO(slot0)
 	return slot0.seaCharacter
 end
 
+function slot0.GetSpecificFXScale(slot0)
+	return {}
+end
+
 function slot0.clear(slot0)
 	pg.TimeMgr.GetInstance():RemoveAllBattleTimer()
 

@@ -11,7 +11,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			say = "幸好风雪够大，顺利躲过了对方那艘巡逻的驱逐级。",
+			say = "경계 중이던 구축함과 잠수함은 폭설 덕분에 무사히 피한 것 같네요.",
 			bgm = "battle-boss-1",
 			typewriter = {
 				speed = 0.05,
@@ -27,7 +27,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "有心算无心，也很正常。",
+			say = "응, 운이 좋았어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,7 +43,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 201161,
-			say = "嗯……不过，这么近的距离都有警戒，看来铁血确实已经拿下纳尔维克了……可恶。",
+			say = "하지만 이렇게 멀리까지 초계 전력을 돌릴 수 있다는 건, 역시 나르비크는 이미 점령당한 것 같네요……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 201201,
-			say = "没关系，近岸炮击之后再找机会抢过来就好了。",
+			say = "괜찮아. 해안 포격으로 탈환하면 돼.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 201161,
-			say = "……话说，猎人，虽然你总说我容易激动，不过我觉得…你也偶尔会很自然地说些突兀的话呢…",
+			say = "……항상 '하디는 너무 힘이 들어가 있어'라고 하면서, 헌터야말로 갑자기 얼토당토않은 말을 하네요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "毅力和耐心，对狩猎来说是很重要的…",
+			say = "사냥은 끈기가 중요한 거야…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是、是吗……",
+			say = "무슨 말이에요……?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 201161,
-			say = "唔，总之，我们已经绕过警戒进入了峡湾，等于掌握了主动权，接下来，就开始侦查敌情吧。",
+			say = "아, 아무튼! 협만 잠입에 성공한 이상, 주도권은 저희한테 있습니다! 서둘러 적의 정보를 수집하죠!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "？？？",
-			say = "咦，Z2，是你们吗？下一轮的补给不是我和Z18吗？",
+			say = "디터? 아직 초계 시간 아니었어? 연료가 떨어진 거야?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 201201,
-			say = "？！",
+			say = "!?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……没办法，先下手为强！",
+			say = "…우리가 먼저 공격해요!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

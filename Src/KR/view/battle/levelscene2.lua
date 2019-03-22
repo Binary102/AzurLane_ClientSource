@@ -13,12 +13,6 @@ if Application.isEditor then
 	end
 end
 
-slot2 = {
-	vanguard = 1,
-	submarine = 3,
-	main = 2
-}
-
 function slot0.getUIName(slot0)
 	return "LevelUI2"
 end
@@ -73,6 +67,7 @@ function slot0.init(slot0)
 	slot0.remasterWindow = slot0:findTF("remaster_window", slot0.topPanel)
 	slot0.panelBarrier = slot0:findTF("panel_barrier", slot0.rightStage)
 	slot0.spResult = slot0:findTF("sp_result", slot0.topPanel)
+	slot0.btnAdHelp = slot0:findTF("msg_panel/air_supremacy/helpbtn", slot0.topStage)
 
 	setActive(slot0.topChapter, true)
 	setActive(slot0.leftChapter, true)
@@ -381,6 +376,11 @@ function slot0.didEnter(slot0)
 			end
 		end
 	end, SFX_PANEL)
+	onButton(slot0, slot0.btnAdHelp, function ()
+		pg.MsgboxMgr.GetInstance():ShowHelpWindow({
+			helps = i18n("help_battle_ac")
+		})
+	end, SFX_UI_CLICK)
 	onButton(slot0, slot0.scenario, function ()
 		for slot4, slot5 in pairs(slot0.maps) do
 			if slot5:isUnlock() and slot5:getMapType() == Map.SCENARIO then
@@ -823,12 +823,6 @@ function slot0.onBackPressed(slot0)
 		end
 	end
 
-	if isActive(slot0.fleetEdit) then
-		slot0:hideFleetEdit()
-
-		return
-	end
-
 	if isActive(slot0.helpPage) then
 		setActive(slot0.helpPage, false)
 
@@ -940,11 +934,13 @@ function slot0.updateChapterVO(slot0, slot1, slot2)
 		slot0:setChapter(slot1)
 
 		slot4 = false
+		slot5 = false
 
 		if slot2 < 0 or bit.band(slot2, ChapterConst.DirtyFleet) > 0 then
 			slot0:updateStageFleet()
 			slot0:updateAmbushRate(slot1.fleet.line, true)
-			slot0:updateFleetBuff()
+
+			slot5 = slot5 or true
 
 			if slot0.grid then
 				slot0.grid:clearFleets()
@@ -990,7 +986,9 @@ function slot0.updateChapterVO(slot0, slot1, slot2)
 
 		if slot2 < 0 or bit.band(slot2, ChapterConst.DirtyStrategy) > 0 then
 			slot0:updateStageStrategy()
-			slot0:updateFleetBuff()
+
+			slot5 = slot5 or true
+
 			slot0:updateStageBarrier()
 		end
 
@@ -998,6 +996,10 @@ function slot0.updateChapterVO(slot0, slot1, slot2)
 			slot0:tryAutoAction()
 		elseif slot4 then
 			slot0.grid:updateQuadCells(ChapterConst.QuadStateNormal)
+		end
+
+		if slot5 then
+			slot0:updateFleetBuff()
 		end
 	end
 end
@@ -2103,6 +2105,95 @@ function slot0.hideFleetSelect(slot0)
 	return
 end
 
+function slot0.displayFleetEdit(slot0, slot1)
+	slot0.levelEliteFleetPanel = slot0.levelEliteFleetPanel or LevelEliteFleetPanel.New(slot0.fleetEdit.gameObject)
+
+	slot0.levelEliteFleetPanel:attach(slot0)
+	slot0.levelEliteFleetPanel:set(slot1)
+
+	function slot0.levelEliteFleetPanel.onConfirm()
+		slot0, slot1 = slot0:IsEliteFleetLegal()
+
+		if slot0 then
+			function slot2()
+				slot0:hideFleetEdit(true)
+				slot0.hideFleetEdit:trackChapter(slot0.hideFleetEdit, function ()
+					slot0:emit(LevelMediator2.ON_ELITE_TRACKING, slot1.id, slot1.loopFlag)
+
+					return
+				end)
+				playSoundEffect(SFX_UI_WEIGHANCHOR_BATTLE)
+
+				return
+			end
+
+			if slot1 then
+				pg.MsgboxMgr.GetInstance():ShowMsgBox({
+					modal = true,
+					content = i18n("elite_fleet_confirm", Fleet.DEFAULT_NAME[slot1]),
+					onYes = slot2
+				})
+			else
+				slot2()
+			end
+		else
+			pg.TipsMgr:GetInstance():ShowTips(slot1)
+		end
+
+		return
+	end
+
+	function slot0.levelEliteFleetPanel.onCancel()
+		slot0:hideFleetEdit()
+
+		return
+	end
+
+	function slot0.levelEliteFleetPanel.onClick(slot0)
+		slot0:hideFleetEdit(true)
+		slot0:emit(LevelMediator2.ON_ELITE_OEPN_DECK, slot0)
+
+		return
+	end
+
+	function slot0.levelEliteFleetPanel.onLongPressed(slot0)
+		slot0:hideFleetEdit(true)
+		slot0:emit(LevelMediator2.ON_FLEET_SHIPINFO, slot0)
+
+		return
+	end
+
+	function slot0.levelEliteFleetPanel.onEliteClear(slot0)
+		slot0:emit(LevelMediator2.ON_ELITE_CLEAR, slot0)
+
+		return
+	end
+
+	function slot0.levelEliteFleetPanel.onEliteRecommend(slot0)
+		slot0:emit(LevelMediator2.ON_ELITE_RECOMMEND, slot0)
+
+		return
+	end
+
+	pg.UIMgr.GetInstance():BlurPanel(slot0.levelEliteFleetPanel._tf)
+
+	return
+end
+
+function slot0.hideFleetEdit(slot0, slot1)
+	if slot0.levelEliteFleetPanel then
+		if not slot1 then
+			slot0:emit(LevelMediator2.ON_UPDATE_CUSTOM_FLEET, slot0.levelEliteFleetPanel.chapter.id)
+		end
+
+		slot0.levelEliteFleetPanel:detach()
+		pg.UIMgr.GetInstance():UnblurPanel(slot0.levelEliteFleetPanel._tf, slot0._tf)
+		setParent(slot0.levelEliteFleetPanel._tf, slot0.topPanel, false)
+	end
+
+	return
+end
+
 function slot0.isCrossStoryLimit(slot0, slot1)
 	slot2 = true
 
@@ -2148,454 +2239,6 @@ function slot0.switchDifficulty(slot0)
 			setActive(slot8, false)
 		end
 	end
-
-	return
-end
-
-function slot0.flushFleetEditButton(slot0, slot1)
-	slot2 = findTF(slot0.fleetEdit, "panel/fleet")
-	slot3 = findTF(slot0.fleetEdit, "panel/sub")
-	slot4 = findTF(slot0.fleetEdit, "panel/shiptpl")
-	slot5 = findTF(slot0.fleetEdit, "panel/emptytpl")
-
-	setActive(findTF(slot0.fleetEdit, "mask"), false)
-	setActive(findTF(slot0.fleetEdit, "panel/limit"), false)
-	setActive(findTF(slot0.fleetEdit, "panel/limit_tip"), #slot1:getConfig("property_limitation") == 0)
-	setActive(findTF(slot0.fleetEdit, "panel/limit_elite"), #slot8 ~= 0)
-	removeAllChildren(findTF(slot0.fleetEdit, "panel/limit_elite/limit_list"))
-
-	if slot8 ~= 0 then
-		slot10, slot11 = slot1:IsPropertyLimitationSatisfy()
-
-		setActive(slot12, false)
-
-		for slot16, slot17 in ipairs(slot8) do
-			slot18 = slot17[1]
-			slot19 = slot17[2]
-			slot20 = slot17[3]
-			slot21 = cloneTplTo(slot12, slot9)
-
-			if slot10[slot16] == 1 then
-				slot0:findTF("Text", slot21):GetComponent(typeof(Text)).color = Color.New(1, 0.9607843137254902, 0.5019607843137255)
-			else
-				slot0:findTF("Text", slot21):GetComponent(typeof(Text)).color = Color.New(0.9568627450980393, 0.30196078431372547, 0.30196078431372547)
-			end
-
-			setActive(slot21, true)
-			setText(slot0:findTF("Text", slot21), AttributeType.EliteCondition2Name(slot18) .. AttributeType.eliteConditionCompare[slot19] .. slot20 .. "（" .. slot11[slot18] .. "）")
-		end
-
-		setActive(slot7:Find("sub"), slot1:getConfig("submarine_num") > 0)
-	end
-
-	slot10 = slot1:getEliteFleetList()
-
-	function slot11(slot0, slot1, slot2, slot3)
-		slot5 = {}
-		slot6 = {}
-
-		for slot10, slot11 in ipairs(slot4) do
-			slot5[slot1.shipVOs[slot11]] = true
-
-			if slot1 == slot1.shipVOs[slot11]:getTeamType() then
-				table.insert(slot6, slot11)
-			end
-		end
-
-		removeAllChildren(slot7)
-
-		slot8 = 0
-		slot9 = false
-		slot10 = 0
-
-		table.sort(slot2, function (slot0, slot1)
-			if type(slot0) == type(slot1) then
-				return slot3 < slot2
-			else
-				if slot1 == 0 or (slot3 == "string" and slot0 ~= 0) then
-					return true
-				else
-					return false
-				end
-			end
-
-			return
-		end)
-
-		slot11 = {}
-		slot12 = {}
-
-		for slot16 = 1, 3, 1 do
-			slot17, slot18, slot19 = nil
-			slot20 = (slot6[slot16] and slot1.shipVOs[slot6[slot16]]) or nil
-
-			if slot20 then
-				for slot24, slot25 in ipairs(slot2) do
-					if type(slot25) == "number" then
-						if slot25 == 0 or slot20:getShipType() == slot25 then
-							slot18 = slot20
-							slot19 = slot25
-
-							table.remove(slot2, slot24)
-							table.insert(slot11, slot24)
-
-							slot9 = slot9 or slot20:getShipType() == slot25
-
-							break
-						end
-					else
-						if type(slot25) == "string" and table.contains(Clone(ShipType.BundleList[slot25]), slot20:getShipType()) then
-							slot18 = slot20
-							slot19 = slot25
-
-							table.remove(slot2, slot24)
-							table.insert(slot11, slot24)
-
-							slot9 = true
-
-							break
-						end
-					end
-				end
-			else
-				slot19 = slot2[1]
-
-				table.remove(slot2, 1)
-				table.insert(slot11, 1)
-			end
-
-			if slot19 == 0 then
-				slot10 = slot10 + 1
-			end
-
-			table.insert(slot12, (slot18 and cloneTplTo(slot2, slot7)) or cloneTplTo(slot3, slot7))
-			setActive((slot18 and cloneTplTo(slot2, slot7)) or cloneTplTo(slot3, slot7), true)
-
-			if slot18 then
-				updateShip(slot21, slot18)
-				setActive(slot1:findTF("event_block", slot21), slot18.inEvent)
-
-				slot5[slot18] = true
-			else
-				slot8 = slot8 + 1
-			end
-
-			slot17 = findTF(slot21, "icon_bg")
-
-			setActive(slot1:findTF("ship_type", slot21), true)
-
-			if type(slot19) == "number" then
-				if slot19 ~= 0 then
-					setImageSprite(slot1:findTF("ship_type", slot21), GetSpriteFromAtlas("shiptype", ShipType.Type2CNLabel(slot19)), true)
-				else
-					setActive(slot1:findTF("ship_type", slot21), false)
-				end
-			else
-				if type(slot19) == "string" then
-					setImageSprite(slot1:findTF("ship_type", slot21), GetSpriteFromAtlas("shiptype", ShipType.BundleType2CNLabel(slot19)), true)
-				end
-			end
-
-			setActive(slot1:findTF("ship_type", slot21), not slot18 and slot19 ~= 0)
-			table.sort(setActive, function (slot0, slot1)
-				return slot0[slot0:getTeamType()] < slot0[slot1:getTeamType()] or (slot0[slot0:getTeamType()] == slot0[slot1:getTeamType()] and table.indexof(slot1, slot0.id) < table.indexof(slot1, slot1.id))
-			end)
-
-			slot23 = GetOrAddComponent(slot17, typeof(UILongPressTrigger))
-
-			function slot24()
-				slot0:hideFleetEdit()
-				slot0.hideFleetEdit:emit(LevelMediator2.ON_ELITE_OEPN_DECK, {
-					shipType = slot1,
-					fleet = slot2,
-					chapter = slot3,
-					shipVO = slot3,
-					fleetIndex = slot5,
-					teamType = slot6
-				})
-
-				return
-			end
-
-			slot23.onReleased:RemoveAllListeners()
-			slot23.onLongPressed:RemoveAllListeners()
-			slot23.onReleased:AddListener(function ()
-				slot0()
-
-				return
-			end)
-			slot23.onLongPressed:AddListener(function ()
-				if not slot0 then
-					slot1()
-				else
-					slot2:hideFleetEdit()
-					slot2:emit(LevelMediator2.ON_FLEET_SHIPINFO, {
-						shipId = slot0.id,
-						shipVOs = slot3,
-						chapter = slot3
-					})
-				end
-
-				return
-			end)
-		end
-
-		for slot16 = 3, 1, -1 do
-			slot12[slot16]:SetSiblingIndex(slot11[slot16] - 1)
-		end
-
-		if (slot9 == true or slot10 == 3) and slot8 ~= 3 then
-			return true
-		else
-			return false
-		end
-
-		return
-	end
-
-	function slot12(slot0, slot1, slot2)
-		slot4 = slot2:getEliteFleetCommanders()[slot0]
-
-		for slot8 = 1, 2, 1 do
-			slot10 = nil
-
-			if slot4[slot8] then
-				slot10 = getProxy(CommanderProxy):getCommanderById(slot9)
-			end
-
-			slot11 = slot1:Find("pos" .. slot8)
-
-			setActive(slot12, not slot10)
-			setActive(slot11:Find("info"), slot10)
-
-			if slot10 then
-				setImageSprite(slot13:Find("frame"), GetSpriteFromAtlas("weaponframes", "commander_" .. slot14))
-				GetImageSpriteFromAtlasAsync("CommanderHrz/" .. slot10:getPainting(), "", slot13:Find("mask/icon"))
-			end
-
-			slot14 = slot2:wrapEliteFleet(slot0)
-
-			onButton(slot0, slot12, function ()
-				slot0:openCommanderPanel(slot0, slot2.id, )
-
-				return
-			end, SFX_PANEL)
-			onButton(slot0, slot13, function ()
-				slot0:openCommanderPanel(slot0, slot2.id, )
-
-				return
-			end, SFX_PANEL)
-		end
-
-		return
-	end
-
-	slot13 = slot1:getConfig("limitation")
-
-	for slot17 = 1, 2, 1 do
-		slot18 = slot2:GetChild(slot17 - 1)
-
-		setActive(slot21, false)
-		setActive(findTF(slot18, "selected"), false)
-		setActive(findTF(slot18, TeamType.Main), slot17 <= slot1:getConfig("group_num"))
-		setActive(findTF(slot18, TeamType.Vanguard), slot17 <= slot1.getConfig("group_num"))
-		setActive(slot0:findTF("btn_clear", slot18), slot17 <= slot1.getConfig("group_num") and not slot0.contextData.EditingCommander)
-		setActive(slot0:findTF("btn_recom", slot18), slot17 <= slot1.getConfig("group_num") and not slot0.contextData.EditingCommander)
-		setActive(slot0:findTF("blank", slot18), not (slot17 <= slot1.getConfig("group_num")))
-		setActive(slot0:findTF("commander", slot18), slot0.contextData.EditingCommander and slot17 <= slot1.getConfig("group_num"))
-		setText(slot0:findTF("bg/name", slot18), (slot17 <= slot1.getConfig("group_num") and Fleet.DEFAULT_NAME[slot17]) or "")
-
-		if slot24 then
-			slot29 = slot11(slot18, TeamType.Vanguard, slot27, slot17)
-
-			slot12(slot17, slot23, slot1)
-
-			if slot11(slot18, TeamType.Main, slot26, slot17) and slot29 then
-				setActive(slot0:findTF("selected", slot18), true)
-			end
-
-			onButton(slot0, slot19, function ()
-				if #slot0[slot1] ~= 0 then
-					pg.MsgboxMgr.GetInstance():ShowMsgBox({
-						content = i18n("battle_preCombatLayer_clear_confirm"),
-						onYes = function ()
-							slot0:emit(LevelMediator2.ON_ELITE_CLEAR, {
-								index = slot1,
-								chapterVO = LevelMediator2.ON_ELITE_CLEAR
-							})
-
-							return
-						end
-					})
-				end
-
-				return
-			end)
-			onButton(slot0, slot20, function ()
-				if #slot0[slot1] ~= 6 then
-					if slot0 ~= 0 then
-						pg.MsgboxMgr.GetInstance():ShowMsgBox({
-							content = i18n("battle_preCombatLayer_auto_confirm"),
-							onYes = function ()
-								slot0:emit(LevelMediator2.ON_ELITE_RECOMMEND, {
-									index = slot1,
-									chapterVO = LevelMediator2.ON_ELITE_RECOMMEND
-								})
-
-								return
-							end
-						})
-					else
-						slot2:emit(LevelMediator2.ON_ELITE_RECOMMEND, {
-							index = slot1,
-							chapterVO = LevelMediator2.ON_ELITE_RECOMMEND
-						})
-					end
-				end
-
-				return
-			end)
-		end
-	end
-
-	for slot17 = 1, 1, 1 do
-		slot19 = slot3:GetChild(slot17 - 1)
-
-		setActive(slot22, false)
-		setActive(findTF(slot19, "selected"), false)
-		setActive(findTF(slot19, TeamType.Submarine), slot17 <= slot1:getConfig("submarine_num"))
-		setActive(slot0:findTF("btn_clear", slot19), slot17 <= slot1:getConfig("submarine_num") and not slot0.contextData.EditingCommander)
-		setActive(slot0:findTF("btn_recom", slot19), slot17 <= slot1:getConfig("submarine_num") and not slot0.contextData.EditingCommander)
-		setActive(slot0:findTF("blank", slot19), slot1:getConfig("submarine_num") < slot17)
-		setActive(slot0:findTF("commander", slot19), slot17 <= slot1:getConfig("submarine_num") and slot0.contextData.EditingCommander)
-		setText(slot0:findTF("bg/name", slot19), (slot17 <= slot1:getConfig("submarine_num") and Fleet.DEFAULT_NAME[(Fleet.SUBMARINE_FLEET_ID + slot17) - 1]) or "")
-		slot12(slot17 + 2, slot0.findTF("commander", slot19), slot1)
-
-		if slot17 <= slot1:getConfig("submarine_num") then
-			if slot11(slot19, TeamType.Submarine, {
-				0,
-				0,
-				0
-			}, slot18) then
-				setActive(slot0:findTF("selected", slot19), true)
-			end
-
-			onButton(slot0, slot20, function ()
-				if #slot0[slot1] ~= 0 then
-					pg.MsgboxMgr.GetInstance():ShowMsgBox({
-						content = i18n("battle_preCombatLayer_clear_confirm"),
-						onYes = function ()
-							slot0:emit(LevelMediator2.ON_ELITE_CLEAR, {
-								index = slot1,
-								chapterVO = LevelMediator2.ON_ELITE_CLEAR
-							})
-
-							return
-						end
-					})
-				end
-
-				return
-			end)
-			onButton(slot0, slot21, function ()
-				if #slot0[slot1] ~= 3 then
-					if slot0 ~= 0 then
-						pg.MsgboxMgr.GetInstance():ShowMsgBox({
-							content = i18n("battle_preCombatLayer_auto_confirm"),
-							onYes = function ()
-								slot0:emit(LevelMediator2.ON_ELITE_RECOMMEND, {
-									index = slot1,
-									chapterVO = LevelMediator2.ON_ELITE_RECOMMEND
-								})
-
-								return
-							end
-						})
-					else
-						slot2:emit(LevelMediator2.ON_ELITE_RECOMMEND, {
-							index = slot1,
-							chapterVO = LevelMediator2.ON_ELITE_RECOMMEND
-						})
-					end
-				end
-
-				return
-			end)
-		end
-	end
-
-	return
-end
-
-function slot0.displayFleetEdit(slot0, slot1)
-	setActive(slot0.fleetEdit, true)
-	pg.UIMgr.GetInstance():BlurPanel(slot0.fleetEdit)
-
-	slot4 = findTF(slot0.fleetEdit, "panel/commander_btn")
-
-	slot0:flushFleetEditButton(slot1)
-	onButton(slot0, slot2, function ()
-		slot0:hideFleetEdit(slot0)
-
-		return
-	end, SFX_CANCEL)
-	onButton(slot0, slot0.fleetEdit, function ()
-		slot0:hideFleetEdit(slot0)
-
-		return
-	end, SFX_CANCEL)
-	onToggle(slot0, slot4, function (slot0)
-		slot0.contextData.EditingCommander = slot0
-
-		slot0:flushFleetEditButton(slot0.flushFleetEditButton)
-
-		return
-	end, SFX_PANEL)
-	triggerToggle(slot4, slot0.contextData.EditingCommander)
-	setActive(slot4, slot0.openedCommanerSystem)
-	onButton(slot0, findTF(slot0.fleetEdit, "panel/start_button"), function ()
-		slot0, slot1 = slot0:IsEliteFleetLegal()
-
-		if slot0 then
-			function slot2()
-				slot0:hideFleetEdit()
-				slot0.hideFleetEdit:trackChapter(slot0.hideFleetEdit, function ()
-					slot0:emit(LevelMediator2.ON_ELITE_TRACKING, slot1.id, slot1.loopFlag)
-
-					return
-				end)
-				playSoundEffect(SFX_UI_WEIGHANCHOR_BATTLE)
-
-				return
-			end
-
-			if slot1 then
-				pg.MsgboxMgr.GetInstance():ShowMsgBox({
-					modal = true,
-					content = i18n("elite_fleet_confirm", Fleet.DEFAULT_NAME[slot1]),
-					onYes = slot2
-				})
-			else
-				slot2()
-			end
-		else
-			pg.TipsMgr:GetInstance():ShowTips(slot1)
-		end
-
-		return
-	end, SFX_UI_WEIGHANCHOR_GO)
-
-	return
-end
-
-function slot0.hideFleetEdit(slot0, slot1, slot2)
-	if slot1 then
-		slot0:emit(LevelMediator2.ON_UPDATE_CUSTOM_FLEET, slot1.id, slot2)
-	end
-
-	setActive(slot0.fleetEdit, false)
-	pg.UIMgr.GetInstance():UnblurPanel(slot0.fleetEdit, slot0._tf)
-	setParent(slot0.fleetEdit, slot0.topPanel, false)
 
 	return
 end
@@ -2744,7 +2387,7 @@ function slot0.switchToChapter(slot0, slot1, slot2)
 	slot8 = findTF(slot0.rightStage, "skip_events")
 
 	setActive(slot5, slot1:existAmbush())
-	setActive(findTF(slot0.topStage, "sham_progress"), slot3 == ChapterConst.TypeSham)
+	setActive(findTF(slot0.topStage, "msg_panel/sham_progress"), slot3 == ChapterConst.TypeSham)
 	setActive(findTF(slot0.rightStage, "btn_sham_shop"), slot3 == ChapterConst.TypeSham)
 
 	if slot3 == ChapterConst.TypeSham then
@@ -3052,6 +2695,14 @@ function slot0.updateFleetBuff(slot0)
 	slot7:align(#slot0.contextData.chapterVO.getFleetStgIds(slot1, slot2) + #_.map(_.values(slot0.contextData.chapterVO.fleet.getCommanders(slot2)), function (slot0)
 		return slot0:getSkills()[1]
 	end))
+
+	if OPEN_AIR_DOMINANCE and slot0.contextData.chapterVO:getConfig("air_dominance") > 0 then
+		setActive(findTF(slot0.topStage, "msg_panel/air_supremacy"), true)
+		slot0:updateAirDominance()
+	else
+		setActive(findTF(slot0.topStage, "msg_panel/air_supremacy"), false)
+	end
+
 	slot0:updateChapterBuff()
 
 	return
@@ -3082,7 +2733,7 @@ function slot0.updateChapterBuff(slot0)
 end
 
 function slot0.updateShamProgress(slot0)
-	setText(findTF(slot0.topStage, "sham_progress/value"), slot0.contextData.chapterVO.progress .. " / " .. ChapterConst.ShamEnemyLimit)
+	setText(findTF(slot0.topStage, "msg_panel/sham_progress/value"), slot0.contextData.chapterVO.progress .. " / " .. ChapterConst.ShamEnemyLimit)
 
 	return
 end
@@ -3092,20 +2743,29 @@ function slot0.updateAmbushRate(slot0, slot1, slot2)
 		return
 	end
 
-	slot7, slot8 = ChapterConst.GetAmbushDisplay(slot6)
-	slot10 = findTF(slot0.topStage, "ambush/value2")
+	slot5 = slot3.fleet.getInvestSums(slot4)
+	slot6 = slot3:getAmbushRate(slot3.fleet, slot1)
+	slot7 = ChapterConst.GetAmbushDisplay
+	slot8 = (not slot2 or not slot3:existEnemy(ChapterConst.SubjectPlayer, slot1.row, slot1.column)) and slot6
+	slot15, slot15 = slot7(slot8)
 
-	setText(findTF(slot0.topStage, "ambush/value1"), math.floor(slot3.fleet.getInvestSums(slot4)))
-
-	if slot2 and slot3:existEnemy(ChapterConst.SubjectPlayer, slot1.row, slot1.column) then
-		setText(slot10, ChapterConst.EnemyAttackDisplay)
-		setTextColor(slot10, Color.New(0.9607843137254902, 0.3764705882352941, 0.2823529411764706))
-	else
-		setText(slot10, slot7)
-		setTextColor(slot10, slot8)
-	end
+	setText(slot9, i18n("level_scene_title_word_1"))
+	setText(slot10, i18n("level_scene_title_word_2"))
+	setText(slot11, math.floor(slot5))
+	setText(slot12, slot7)
+	setTextColor(findTF(slot0.topStage, "msg_panel/ambush/value2"), slot8)
 
 	return
+
+	if not slot3.existEnemy(ChapterConst.SubjectPlayer, slot1.row, slot1.column) then
+		slot8 = slot6
+	else
+		slot8 = false
+
+		if false then
+			slot8 = true
+		end
+	end
 end
 
 function slot0.displayAmbushInfo(slot0, slot1)
@@ -3162,7 +2822,15 @@ function slot0.updateStageAchieve(slot0)
 		setActive(findTF(slot14, "star"), slot15)
 		setActive(findTF(slot14, "star_empty"), not slot15)
 		setText(slot16, ChapterConst.GetAchieveDesc(slot13.type, slot1))
-		setTextColor(findTF(slot14, "desc"), (slot15 and Color.yellow) or Color.white)
+
+		slot17 = setTextColor
+		slot18 = findTF(slot14, "desc")
+
+		if not slot15 or not Color.yellow then
+			slot19 = Color.white
+		end
+
+		slot17(slot18, slot19)
 
 		slot17 = cloneTplTo(slot7, slot8)
 		slot17.localScale = Vector3(1, 1, 1)
@@ -3171,15 +2839,61 @@ function slot0.updateStageAchieve(slot0)
 		setActive(findTF(slot17, "star_empty"), not slot15)
 	end
 
-	setActive(findTF(slot6, "arr"), slot6.localScale.x == -1)
-	setActive(slot8, slot6.localScale.x ~= -1)
+	slot9 = setActive
+	slot10 = findTF(slot6, "arr")
+
+	if slot6.localScale.x ~= -1 then
+		slot11 = false
+	else
+		slot11 = true
+	end
+
+	slot9(slot10, slot11)
+
+	slot9 = setActive
+	slot10 = slot8
+
+	if slot6.localScale.x == -1 then
+		slot11 = false
+	else
+		slot11 = true
+	end
+
+	slot9(slot10, slot11)
 	onButton(slot0, slot6, function ()
 		slot0.localScale.x = slot0.localScale.x * -1
 		slot0.localScale = slot0.localScale
+		slot2 = shiftPanel
 
-		slot1(shiftPanel, ((slot0.localScale.x == -1 and 0) or slot1.sizeDelta.x) + 2, nil, 0.3, 0, true, nil, LeanTweenType.easeOutSine)
-		setActive(findTF(slot0, "arr"), slot0.x == -1)
-		setActive(findTF(slot0, "arr"), slot0.x ~= -1)
+		if slot0.localScale.x == -1 then
+			slot3 = 0
+		else
+			slot3 = slot1.sizeDelta.x
+		end
+
+		slot1(slot2, slot3 + 2, nil, 0.3, 0, true, nil, LeanTweenType.easeOutSine)
+
+		slot1 = setActive
+		slot2 = findTF(slot0, "arr")
+
+		if slot0.x ~= -1 then
+			slot3 = false
+		else
+			slot3 = true
+		end
+
+		slot1(slot2, slot3)
+
+		slot1 = setActive
+		slot2 = slot2
+
+		if slot0.x == -1 then
+			slot3 = false
+		else
+			slot3 = true
+		end
+
+		slot1(slot2, slot3)
 
 		return
 	end, SFX_PANEL)
@@ -3189,9 +2903,27 @@ function slot0.updateStageAchieve(slot0)
 		slot6.localScale.x = 1
 		slot6.localScale = slot6.localScale
 		slot3.anchoredPosition = Vector2(slot3.sizeDelta.x + 2, slot3.anchoredPosition.y)
+		slot10 = setActive
+		slot11 = findTF(slot6, "arr")
 
-		setActive(findTF(slot6, "arr"), slot6.localScale.x == -1)
-		setActive(slot8, slot9.x ~= -1)
+		if slot6.localScale.x ~= -1 then
+			slot12 = false
+		else
+			slot12 = true
+		end
+
+		slot10(slot11, slot12)
+
+		slot10 = setActive
+		slot11 = slot8
+
+		if slot9.x == -1 then
+			slot12 = false
+		else
+			slot12 = true
+		end
+
+		slot10(slot11, slot12)
 	end
 
 	return
@@ -3216,7 +2948,13 @@ function slot0.updateStageStrategy(slot0)
 	end)
 
 	if _.any(slot0.contextData.chapterVO.fleets, function (slot0)
-		return slot0:getFleetType() == FleetType.Submarine
+		if slot0:getFleetType() ~= FleetType.Submarine then
+			slot1 = false
+		else
+			slot1 = true
+		end
+
+		return slot1
 	end) then
 		table.insert(slot10, 2, {
 			id = ChapterConst.StrategySubAutoAttack
@@ -3238,11 +2976,21 @@ function slot0.updateStageStrategy(slot0)
 
 			if slot0[slot1 + 1].id == ChapterConst.StrategyHuntingRange then
 				slot4 = 1
-				slot5 = (slot1.contextData.huntingRangeVisibility % 2 == 1 and "range_invisible") or "range_visible"
+
+				if slot1.contextData.huntingRangeVisibility % 2 == 1 then
+					slot5 = "range_invisible"
+				else
+					slot5 = "range_visible"
+				end
 			else
 				if slot3.id == ChapterConst.StrategySubAutoAttack then
 					slot4 = 1
-					slot5 = (slot2.subAutoAttack == 0 and "sub_dont_auto_attack") or "sub_auto_attack"
+
+					if slot2.subAutoAttack == 0 then
+						slot5 = "sub_dont_auto_attack"
+					else
+						slot5 = "sub_auto_attack"
+					end
 				else
 					slot4 = pg.strategy_data_template[slot3.id].type
 					slot5 = pg.strategy_data_template[slot3.id].icon
@@ -3304,10 +3052,29 @@ function slot0.updateStageStrategy(slot0)
 			if slot4 == 1 then
 				setText(slot2:Find("nums"), "")
 				setActive(slot2:Find("mask"), false)
-				slot6(slot2:Find("selected"), setActive == slot3.id)
+
+				slot7 = slot2:Find("selected")
+
+				if setActive ~= slot3.id then
+					slot8 = false
+				else
+					slot8 = true
+				end
+
+				slot6(slot7, slot8)
 			else
 				setText(slot2:Find("nums"), slot3.count)
-				setActive(slot2:Find("mask"), slot3.count == 0)
+
+				slot6 = setActive
+				slot7 = slot2:Find("mask")
+
+				if slot3.count ~= 0 then
+					slot8 = false
+				else
+					slot8 = true
+				end
+
+				slot6(slot7, slot8)
 				setActive(slot2:Find("selected"), false)
 			end
 		end
@@ -3331,7 +3098,11 @@ function slot0.updateStageStrategy(slot0)
 end
 
 function slot0.displayStrategyInfo(slot0, slot1)
-	slot0.strategyPanel = slot0.strategyPanel or StrategyPanel.New(slot0.strategyInfo)
+	if not slot0.strategyPanel then
+		slot2 = StrategyPanel.New(slot0.strategyInfo)
+	end
+
+	slot0.strategyPanel = slot2
 
 	slot0.strategyPanel:attach(slot0)
 	slot0.strategyPanel:set(slot1)
@@ -3402,7 +3173,13 @@ function slot0.selectStrategyTarget(slot0, slot1, slot2)
 		end)
 
 		if slot0 and _.any(slot0, function (slot0)
-			return slot0.row == slot0.row and slot0.column == slot0.column
+			if slot0.row ~= slot0.row or slot0.column ~= slot0.column then
+				slot1 = false
+			else
+				slot1 = true
+			end
+
+			return slot1
 		end) and slot2:existEnemy(ChapterConst.SubjectPlayer, slot0.row, slot0.column) then
 			slot3(slot0.row, slot0.column)
 		else
@@ -3418,7 +3195,13 @@ end
 function slot0.selectSquareBarrieredCell(slot0, slot1, slot2)
 	slot0.grid:updateQuadCells(ChapterConst.QuadStateStrategy, slot0.contextData.chapterVO.calcSquareBarrierCells(slot3, slot0.contextData.chapterVO.fleet.line.row, slot0.contextData.chapterVO.fleet.line.column, slot1), function (slot0)
 		if slot0 and _.any(slot0, function (slot0)
-			return slot0.row == slot0.row and slot0.column == slot0.column
+			if slot0.row ~= slot0.row or slot0.column ~= slot0.column then
+				slot1 = false
+			else
+				slot1 = true
+			end
+
+			return slot1
 		end) then
 			slot1(slot0.row, slot0.column)
 		else
@@ -3441,7 +3224,7 @@ end
 
 function slot0.updateStageFleet(slot0)
 	slot2 = findTF(slot0.leftStage, "fleet")
-	slot5 = slot0:findTF("fleet_info/number_list", slot0.topStage)
+	slot5 = slot0:findTF("msg_panel/fleet_info/number_list", slot0.topStage)
 
 	setActive(slot3, false)
 	setActive(slot4, false)
@@ -3453,7 +3236,15 @@ function slot0.updateStageFleet(slot0)
 		5,
 		6
 	}, function (slot0)
-		slot1(slot0:Find(slot0), slot0 == slot1.fleet.id)
+		slot2 = slot0:Find(slot0)
+
+		if slot0 ~= slot1.fleet.id then
+			slot3 = false
+		else
+			slot3 = true
+		end
+
+		slot1(slot2, slot3)
 
 		return
 	end)
@@ -3478,7 +3269,11 @@ function slot0.displayRepairWindow(slot0, slot1)
 		end
 	end
 
-	slot0.repairPanel = slot0.repairPanel or RepairPanel.New(slot0.repairWindow)
+	if not slot0.repairPanel then
+		slot9 = RepairPanel.New(slot0.repairWindow)
+	end
+
+	slot0.repairPanel = slot9
 
 	slot0.repairPanel:attach(slot0)
 	slot0.repairPanel:set(slot5, slot6, slot7, slot8)
@@ -3519,7 +3314,12 @@ end
 
 function slot0.displayRemasterPanel(slot0)
 	slot1 = getProxy(ChapterProxy)
-	slot0.remasterPanel = slot0.remasterPanel or RemasterPanel.New(slot0.remasterWindow)
+
+	if not slot0.remasterPanel then
+		slot2 = RemasterPanel.New(slot0.remasterWindow)
+	end
+
+	slot0.remasterPanel = slot2
 
 	slot0.remasterPanel:attach(slot0)
 
@@ -3612,7 +3412,13 @@ function slot0.clickGridCell(slot0, slot1)
 		slot5 = slot0.contextData.chapterVO.getChapterCell(slot2, slot0.contextData.chapterVO.fleet.line.row, slot0.contextData.chapterVO.fleet.line.column)
 
 		if _.detect(slot0.contextData.chapterVO.fleets, function (slot0)
-			return slot0:getFleetType() == FleetType.Normal and slot0.line.row == slot0.row and slot0.line.column == slot0.column
+			if slot0:getFleetType() ~= FleetType.Normal or slot0.line.row ~= slot0.row or slot0.line.column ~= slot0.column then
+				slot1 = false
+			else
+				slot1 = true
+			end
+
+			return slot1
 		end) and slot3 == ChapterConst.TypeNone and slot6:isValid() and slot6.id ~= slot4.id then
 			slot0:emit(LevelMediator2.ON_OP, {
 				type = ChapterConst.OpSwitch,
@@ -3643,7 +3449,13 @@ function slot0.clickGridCell(slot0, slot1)
 								return
 							else
 								if slot2:existMoveLimit() and not _.any(slot2:calcWalkableCells(ChapterConst.SubjectPlayer, slot4.line.row, slot4.line.column, slot4:getSpeed()), function (slot0)
-									return slot0.row == slot0.row and slot0.column == slot0.column
+									if slot0.row ~= slot0.row or slot0.column ~= slot0.column then
+										slot1 = false
+									else
+										slot1 = true
+									end
+
+									return slot1
 								end) then
 									pg.TipsMgr.GetInstance():ShowTips(i18n("destination_not_in_range"))
 
@@ -3836,7 +3648,13 @@ function slot0.doSafeCheck(slot0)
 		slot6 = slot1:findChapterCell(ChapterConst.AttachTransport_Target)
 
 		if not _.detect(slot1.fleets, function (slot0)
-			return slot0:getFleetType() == FleetType.Transport
+			if slot0:getFleetType() ~= FleetType.Transport then
+				slot1 = false
+			else
+				slot1 = true
+			end
+
+			return slot1
 		end):isValid() then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("levelScene_escort_lose"))
 			slot0:emit(LevelMediator2.ON_OP, {
@@ -3961,7 +3779,11 @@ function slot0.doSafeCheck(slot0)
 
 	if not slot3:isValid() then
 		if slot2 == ChapterConst.TypeSham then
-			if not (getProxy(ContextProxy):getContextByMediator(LevelMediator2) and slot6:getContextByMediator(ShamPreCombatMediator)) then
+			if getProxy(ContextProxy):getContextByMediator(LevelMediator2) then
+				slot7 = slot6:getContextByMediator(ShamPreCombatMediator)
+			end
+
+			if not slot7 then
 				pg.MsgboxMgr.GetInstance():ShowMsgBox({
 					modal = true,
 					content = i18n("formation_reform_tip"),
@@ -4204,8 +4026,26 @@ function slot0.doPlayAirStrike(slot0, slot1, slot2, slot3)
 
 		slot0:SetParent(pg.UIMgr:GetInstance().OverlayMain.transform, false)
 		slot0:SetAsLastSibling()
-		slot1(slot0:Find("words/be_striked"), setActive == ChapterConst.SubjectChampion)
-		slot1(slot0:Find("words/strike_enemy"), setActive == ChapterConst.SubjectPlayer)
+
+		slot2 = slot0:Find("words/be_striked")
+
+		if setActive ~= ChapterConst.SubjectChampion then
+			slot3 = false
+		else
+			slot3 = true
+		end
+
+		slot1(slot2, slot3)
+
+		slot2 = slot0:Find("words/strike_enemy")
+
+		if setActive ~= ChapterConst.SubjectPlayer then
+			slot3 = false
+		else
+			slot3 = true
+		end
+
+		slot1(slot2, slot3)
 		slot0:GetComponent("DftAniEvent"):SetEndEvent(function ()
 			slot0.playing = false
 
@@ -4262,7 +4102,11 @@ end
 function slot0.doPlayAnim(slot0, slot1, slot2, slot3)
 	slot0:frozen()
 
-	slot0.uiAnims = slot0.uiAnims or {}
+	if not slot0.uiAnims then
+		slot4 = {}
+	end
+
+	slot0.uiAnims = slot4
 
 	function slot5()
 		slot0.playing = true
@@ -4379,7 +4223,11 @@ function slot0.destroyTorpedo(slot0)
 end
 
 function slot0.doPlayStrikeAnim(slot0, slot1, slot2, slot3)
-	slot0.strikeAnims = slot0.strikeAnims or {}
+	if not slot0.strikeAnims then
+		slot4 = {}
+	end
+
+	slot0.strikeAnims = slot4
 	slot4, slot5, slot6 = nil
 
 	function slot7()
@@ -4570,7 +4418,15 @@ end
 function slot0.doPlayCommander(slot0, slot1, slot2)
 	slot0:frozen()
 	setActive(slot0.commanderTinkle, true)
-	setText(slot0.commanderTinkle:Find("name"), (#slot1:getSkills() > 0 and slot3[1]:getConfig("name")) or "")
+
+	slot4 = setText
+	slot5 = slot0.commanderTinkle:Find("name")
+
+	if #slot1:getSkills() <= 0 or not slot3[1]:getConfig("name") then
+		slot6 = ""
+	end
+
+	slot4(slot5, slot6)
 	setImageSprite(slot0.commanderTinkle:Find("icon"), GetSpriteFromAtlas("commanderhrz/" .. slot1:getConfig("painting"), ""))
 
 	slot0.commanderTinkle:GetComponent(typeof(CanvasGroup)).alpha = 0
@@ -4810,7 +4666,15 @@ function slot0.frozen(slot0, slot1)
 	end
 
 	slot0.frozenCount = slot0.frozenCount + 1
-	slot0.canvasGroup.blocksRaycasts = slot0.frozenCount == 0
+	slot2 = slot0.canvasGroup
+
+	if slot0.frozenCount ~= 0 then
+		slot3 = false
+	else
+		slot3 = true
+	end
+
+	slot2.blocksRaycasts = slot3
 
 	return
 end
@@ -4821,7 +4685,15 @@ function slot0.unfrozen(slot0)
 	end
 
 	slot0.frozenCount = slot0.frozenCount - 1
-	slot0.canvasGroup.blocksRaycasts = slot0.frozenCount == 0
+	slot1 = slot0.canvasGroup
+
+	if slot0.frozenCount ~= 0 then
+		slot2 = false
+	else
+		slot2 = true
+	end
+
+	slot1.blocksRaycasts = slot2
 
 	if slot0.frozenCount == 0 and slot0.fcall then
 		slot0.fcall = nil
@@ -4833,7 +4705,13 @@ function slot0.unfrozen(slot0)
 end
 
 function slot0.isfrozen(slot0)
-	return slot0.frozenCount > 0
+	if slot0.frozenCount <= 0 then
+		slot1 = false
+	else
+		slot1 = true
+	end
+
+	return slot1
 end
 
 function slot0.enableLevelCamera(slot0)
@@ -4892,26 +4770,32 @@ end
 function slot0.openCommanderPanel(slot0, slot1, slot2, slot3)
 	slot4 = nil
 
-	slot0.commanderFormationPanel:update(slot1, (slot3 or function (slot0)
-		slot0.contextData.commanderSelected = {
-			chapterId = slot1,
-			fleetId = slot2.id
-		}
+	if not slot3 then
+		function slot4(slot0)
+			slot0.contextData.commanderSelected = {
+				chapterId = slot1,
+				fleetId = slot2.id
+			}
 
-		slot0:emit(LevelMediator2.ON_SELECT_COMMANDER, slot0, slot2.id)
+			slot0:emit(LevelMediator2.ON_SELECT_COMMANDER, slot0, slot2.id)
 
-		return
-	end) and function (slot0)
-		slot0.contextData.eliteCommanderSelected = {
-			index = slot1,
-			pos = slot0,
-			chapterId = 
-		}
+			return
+		end
+	else
+		function slot4(slot0)
+			slot0.contextData.eliteCommanderSelected = {
+				index = slot1,
+				pos = slot0,
+				chapterId = 
+			}
 
-		slot0:emit(LevelMediator2.ON_SELECT_ELITE_COMMANDER, slot0.emit, slot0, slot0)
+			slot0:emit(LevelMediator2.ON_SELECT_ELITE_COMMANDER, slot0.emit, slot0, slot0)
 
-		return
-	end)
+			return
+		end
+	end
+
+	slot0.commanderFormationPanel:update(slot1, slot4)
 	slot0.commanderFormationPanel:open()
 
 	return
@@ -4956,6 +4840,106 @@ function slot0.updateBombPanel(slot0, slot1)
 	return
 end
 
+function slot0.updateAirDominance(slot0)
+	slot1, slot2, slot3 = slot0.contextData.chapterVO:getAirDominanceValue()
+
+	if not slot3 or slot3 ~= slot2 then
+		slot0.contextData.chapterVO:setAirDominanceStatus(slot2)
+		getProxy(ChapterProxy):updateChapter(slot0.contextData.chapterVO)
+	end
+
+	if slot3 then
+		if slot2 == 0 then
+			slot4 = 3
+		else
+			slot4 = slot2
+		end
+
+		if slot3 == 0 then
+			slot5 = 3
+		else
+			slot5 = slot3
+		end
+
+		slot4 = slot4 - slot5
+	end
+
+	slot0.isChange = slot4
+	slot5 = slot0
+	slot4 = slot0.updateAirDominanceTitle
+	slot6 = slot1
+	slot7 = slot2
+
+	if not slot0.isChange then
+		slot8 = 0
+	end
+
+	slot4(slot5, slot6, slot7, slot8)
+
+	return
+end
+
+function slot0.updateAirDominanceTitle(slot0, slot1, slot2, slot3)
+	slot7 = findTF(slot0.topStage, "msg_panel/air_supremacy/value2")
+
+	setText(slot4, i18n("level_scene_title_word_3"))
+	setText(slot5, i18n("level_scene_title_word_4"))
+	setText(slot6, math.floor(slot1))
+	setActive(slot8, false)
+	setActive(findTF(slot0.topStage, "msg_panel/air_supremacy/down"), false)
+
+	if slot3 ~= 0 then
+		if LeanTween.isTweening(go(slot7)) then
+			LeanTween.cancel(go(slot7))
+		end
+
+		LeanTween.value(go(slot7), 1, 0, 0.5):setOnUpdate(System.Action_float(function (slot0)
+			setTextAlpha(slot0, slot0)
+
+			return
+		end)):setOnComplete(System.Action(function ()
+			setText(setText, ChapterConst.AirDominance[setText].name)
+			setTextColor(setTextColor, ChapterConst.AirDominance[setTextColor].color)
+			LeanTween.value(go(slot0), 0, 1, 0.5):setOnUpdate(System.Action_float(function (slot0)
+				setTextAlpha(slot0, slot0)
+
+				return
+			end))
+
+			return
+		end))
+		slot8:GetComponent(typeof(DftAniEvent)):SetEndEvent(slot10)
+		slot9:GetComponent(typeof(DftAniEvent)):SetEndEvent(slot10)
+
+		slot11 = setActive
+		slot12 = slot8
+
+		if slot3 <= 0 then
+			slot13 = false
+		else
+			slot13 = true
+		end
+
+		slot11(slot12, slot13)
+
+		slot11 = setActive
+		slot12 = slot9
+
+		if slot3 >= 0 then
+			slot13 = false
+		else
+			slot13 = true
+		end
+
+		slot11(slot12, slot13)
+	else
+		setText(slot7, ChapterConst.AirDominance[slot2].name)
+		setTextColor(slot7, ChapterConst.AirDominance[slot2].color)
+	end
+
+	return
+end
+
 function slot0.willExit(slot0)
 	if slot0.contextData.chapterVO then
 		pg.UIMgr.GetInstance():UnblurPanel(slot0.topPanel, slot0._tf)
@@ -4967,7 +4951,7 @@ function slot0.willExit(slot0)
 
 	slot0:hideChapterPanel()
 	slot0:hideFleetSelect()
-	slot0:hideFleetEdit()
+	slot0:hideFleetEdit(true)
 	slot0:hideRepairWindow()
 	slot0:hideStrategyInfo()
 	slot0:hideSignalPanel()

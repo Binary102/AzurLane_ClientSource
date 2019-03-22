@@ -9,7 +9,7 @@ return {
 				},
 				arg_list = {
 					number = -0.1,
-					attr = "damageGetRatioByCannon"
+					attr = "injureRatioByCannon"
 				}
 			}
 		}
@@ -24,7 +24,7 @@ return {
 				},
 				arg_list = {
 					number = -0.111,
-					attr = "damageGetRatioByCannon"
+					attr = "injureRatioByCannon"
 				}
 			}
 		}
@@ -39,7 +39,7 @@ return {
 				},
 				arg_list = {
 					number = -0.122,
-					attr = "damageGetRatioByCannon"
+					attr = "injureRatioByCannon"
 				}
 			}
 		}
@@ -54,7 +54,7 @@ return {
 				},
 				arg_list = {
 					number = -0.133,
-					attr = "damageGetRatioByCannon"
+					attr = "injureRatioByCannon"
 				}
 			}
 		}
@@ -69,7 +69,7 @@ return {
 				},
 				arg_list = {
 					number = -0.144,
-					attr = "damageGetRatioByCannon"
+					attr = "injureRatioByCannon"
 				}
 			}
 		}
@@ -84,7 +84,7 @@ return {
 				},
 				arg_list = {
 					number = -0.155,
-					attr = "damageGetRatioByCannon"
+					attr = "injureRatioByCannon"
 				}
 			}
 		}
@@ -99,7 +99,7 @@ return {
 				},
 				arg_list = {
 					number = -0.166,
-					attr = "damageGetRatioByCannon"
+					attr = "injureRatioByCannon"
 				}
 			}
 		}
@@ -114,7 +114,7 @@ return {
 				},
 				arg_list = {
 					number = -0.177,
-					attr = "damageGetRatioByCannon"
+					attr = "injureRatioByCannon"
 				}
 			}
 		}
@@ -129,7 +129,7 @@ return {
 				},
 				arg_list = {
 					number = -0.188,
-					attr = "damageGetRatioByCannon"
+					attr = "injureRatioByCannon"
 				}
 			}
 		}
@@ -144,7 +144,7 @@ return {
 				},
 				arg_list = {
 					number = -0.2,
-					attr = "damageGetRatioByCannon"
+					attr = "injureRatioByCannon"
 				}
 			}
 		}
@@ -167,7 +167,7 @@ return {
 			},
 			arg_list = {
 				number = -0.1,
-				attr = "damageGetRatioByCannon"
+				attr = "injureRatioByCannon"
 			}
 		}
 	}

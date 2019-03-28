@@ -259,11 +259,11 @@ return {
 			}
 		}
 	},
-	name = "killer",
+	name = "航空阵列",
 	init_effect = "jinengchufared",
 	time = 0,
 	picture = "",
-	desc = "killer_Airpower",
+	desc = "航空阵列——额外航空值",
 	stack = 3,
 	id = 11651,
 	icon = 11650,

@@ -10,7 +10,7 @@ return {
 	{},
 	{},
 	desc_get = "",
-	name = "神射手改",
+	name = "神射手·改",
 	init_effect = "",
 	id = 11870,
 	time = 15,

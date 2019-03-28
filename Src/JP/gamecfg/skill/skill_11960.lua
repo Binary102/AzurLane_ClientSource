@@ -260,7 +260,7 @@ return {
 		}
 	},
 	uiEffect = "",
-	name = "鱼雷发射额外弹幕",
+	name = "峡湾之星",
 	cd = 0,
 	picture = "0",
 	desc = "鱼雷发射额外弹幕",

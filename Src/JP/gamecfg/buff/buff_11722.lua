@@ -149,7 +149,7 @@ return {
 			}
 		}
 	},
-	name = "永远NO.1！",
+	name = "星之歌",
 	init_effect = "jinengchufablue",
 	time = 0,
 	picture = "",

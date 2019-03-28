@@ -10,7 +10,7 @@ return {
 	{},
 	{},
 	time = 8,
-	name = "直接触发三个buff",
+	name = "蛮啾,猫猫,小枭!触发技能效果",
 	init_effect = "",
 	picture = "",
 	desc = "",

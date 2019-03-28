@@ -39,11 +39,11 @@ function slot0.register(slot0)
 	slot0:bind(slot0.EVENT_GO_SCENE, function (slot0, slot1, slot2)
 		slot0:sendNotification(GAME.GO_SCENE, slot1, slot2)
 	end)
-	slot0:bind(slot0.GO_SHOPS_LAYER, function ()
+	slot0:bind(slot0.GO_SHOPS_LAYER, function (slot0, slot1)
 		slot0:addSubLayers(Context.New({
 			mediator = ShopsMediator,
 			viewComponent = ShopsLayer,
-			data = {
+			data = slot1 or {
 				warp = ShopsLayer.TYPE_ACTIVITY
 			}
 		}))

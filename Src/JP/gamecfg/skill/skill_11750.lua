@@ -1,6 +1,6 @@
 return {
 	uiEffect = "",
-	name = "BUFF触发器",
+	name = "蛮啾,猫猫,小枭!",
 	cd = 0,
 	picture = "0",
 	desc = "",

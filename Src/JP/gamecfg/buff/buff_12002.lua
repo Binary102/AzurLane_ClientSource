@@ -139,11 +139,11 @@ return {
 			}
 		}
 	},
-	name = "杜威自体属性表更",
+	name = "远东的羁绊",
 	init_effect = "jinengchufared",
 	time = 0,
 	picture = "",
-	desc = "属性提升",
+	desc = "自身属性提升",
 	stack = 1,
 	id = 12002,
 	icon = 12000,

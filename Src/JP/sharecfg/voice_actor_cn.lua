@@ -77,7 +77,7 @@ pg.voice_actor_CN = {
 		code = 19
 	},
 	{
-		actor_name = "佐久間ひろみ",
+		actor_name = "佐久間比呂美",
 		code = 20
 	},
 	{
@@ -671,6 +671,18 @@ pg.voice_actor_CN = {
 	{
 		actor_name = "諸星すみれ",
 		code = 168
+	},
+	{
+		actor_name = "青木瑠璃子",
+		code = 169
+	},
+	{
+		actor_name = "七瀬彩夏",
+		code = 170
+	},
+	{
+		actor_name = "藤沢れい香",
+		code = 171
 	}
 }
 

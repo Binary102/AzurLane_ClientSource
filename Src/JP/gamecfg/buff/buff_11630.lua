@@ -10,7 +10,7 @@ return {
 	{},
 	{},
 	desc_get = "自身受到高爆伤害、航空伤害降低",
-	name = "爆击防护装甲",
+	name = "重樱装母",
 	init_effect = "",
 	id = 11630,
 	time = 0,

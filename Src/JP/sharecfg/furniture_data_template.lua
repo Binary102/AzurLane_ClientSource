@@ -2492,6 +2492,96 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[100004] = {
+		can_rotate = 0,
+		name = "マジック絹ハット ",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		picture = "",
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 1,
+		icon = "19.03.15icon",
+		deblocking = 1,
+		level = 1,
+		rarity = 4,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 100004,
+		comfortable = 0,
+		describe = "無関係の饅頭を2体待ち伏せさせる危険の罠 ",
+		dorm_id = 0,
+		gem_price = 120,
+		can_trigger = 0,
+		themeId = 0,
+		spine_extra = "",
+		time = "always",
+		new = 1,
+		discount_time = "",
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		spine = {
+			{
+				"moshumaoB",
+				"normal"
+			},
+			{
+				"moshumaoT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"walk"
+					},
+					{
+						{
+							"stand21",
+							"stand22",
+							"stand23"
+						}
+					},
+					{
+						"dance"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					0
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		animator = {
+			{
+				"moshumaoCharControl"
+			}
+		},
+		interAction_group = {}
+	},
 	[1001] = {
 		can_rotate = 0,
 		name = "ボロ床",
@@ -63699,6 +63789,7 @@ pg.furniture_data_template = {
 		140,
 		100002,
 		100003,
+		100004,
 		1001,
 		1002,
 		1101,

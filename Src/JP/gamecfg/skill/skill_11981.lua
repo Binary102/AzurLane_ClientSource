@@ -1,6 +1,6 @@
 return {
 	uiEffect = "",
-	name = "邦克山",
+	name = "特混分队旗舰",
 	cd = 0,
 	picture = "0",
 	desc = "",

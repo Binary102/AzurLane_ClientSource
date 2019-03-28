@@ -259,7 +259,7 @@ return {
 			}
 		}
 	},
-	name = "邦克山·自身支援",
+	name = "特混分队旗舰·自身增益",
 	init_effect = "jinengchufared",
 	id = 11982,
 	time = 0,

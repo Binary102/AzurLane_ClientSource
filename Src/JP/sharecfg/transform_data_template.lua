@@ -15065,8 +15065,8 @@ pg.transform_data_template = {
 
 改造後<color=#A9F548>【主砲砲座-1】</color>
 改造後<color=#A9F548>主砲補正</color>+20%
-改造後<color=#A9F548>【副兵装】</color>装備可能装備変更：<color=#A9F548>【水偵】</color>
-<color=#A9F548>【水偵】</color>装備中<color=#A9F548>【扶桑改】</color>は<color=#A9F548>航空攻撃</color>を発動可能]],
+改造後<color=#A9F548>【副兵装】</color>装備可能装備変更：<color=#A9F548>【水上機】</color>
+<color=#A9F548>【水上機】</color>装備中<color=#A9F548>【扶桑改】</color>は<color=#A9F548>航空攻撃</color>を発動可能]],
 		condition_id = {
 			20808
 		},
@@ -15478,8 +15478,8 @@ pg.transform_data_template = {
 
 改造後<color=#A9F548>【主砲砲座-1】</color>
 改造後<color=#A9F548>主砲補正</color>+20%
-改造後<color=#A9F548>【副兵装】</color>装備可能装備変更：<color=#A9F548>【水偵】</color>
-<color=#A9F548>【水偵】</color>装備中<color=#A9F548>【山城改】</color>は<color=#A9F548>航空攻撃</color>を発動可能]],
+改造後<color=#A9F548>【副兵装】</color>装備可能装備変更：<color=#A9F548>【水上機】</color>
+<color=#A9F548>【水上機】</color>装備中<color=#A9F548>【山城改】</color>は<color=#A9F548>航空攻撃</color>を発動可能]],
 		condition_id = {
 			20908
 		},
@@ -15701,8 +15701,8 @@ pg.transform_data_template = {
 
 改造後<color=#A9F548>【主砲砲座-1】</color>
 改造後<color=#A9F548>主砲補正</color>+25%
-改造後<color=#A9F548>【副兵装】</color>装備可能装備変更：<color=#A9F548>【水偵】</color>
-<color=#A9F548>【水偵】</color>装備中<color=#A9F548>【伊勢改】</color>は<color=#A9F548>航空攻撃</color>を発動可能]],
+改造後<color=#A9F548>【副兵装】</color>装備可能装備変更：<color=#A9F548>【水上機】</color>
+<color=#A9F548>【水上機】</color>装備中<color=#A9F548>【伊勢改】</color>は<color=#A9F548>航空攻撃</color>を発動可能]],
 		condition_id = {
 			21002,
 			21003
@@ -16121,8 +16121,8 @@ pg.transform_data_template = {
 
 改造後<color=#A9F548>【主砲砲座-1】</color>
 改造後<color=#A9F548>主砲補正</color>+25%
-改造後<color=#A9F548>【副兵装】</color>装備可能装備変更：<color=#A9F548>【水偵】</color>
-<color=#A9F548>【水偵】</color>装備中<color=#A9F548>【日向改】</color>は<color=#A9F548>航空攻撃</color>を発動可能]],
+改造後<color=#A9F548>【副兵装】</color>装備可能装備変更：<color=#A9F548>【水上機】</color>
+<color=#A9F548>【水上機】</color>装備中<color=#A9F548>【日向改】</color>は<color=#A9F548>航空攻撃</color>を発動可能]],
 		condition_id = {
 			21102,
 			21103

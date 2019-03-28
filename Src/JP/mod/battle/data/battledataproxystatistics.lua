@@ -115,7 +115,7 @@ end
 
 function ys.Battle.BattleDataProxy.CalcBattleScoreWhenDead(slot0, slot1)
 	if slot1:GetIFF() == slot0.FRIENDLY_CODE then
-		if slot1:GetTemplate().type ~= ShipType.Qianting then
+		if not table.contains(TeamType.SubShipType, slot1:GetTemplate().type) then
 			slot0:DelScoreWhenPlayerDead(slot1)
 		end
 	elseif slot2 == slot0.FOE_CODE then

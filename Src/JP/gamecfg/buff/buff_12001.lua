@@ -149,11 +149,11 @@ return {
 			}
 		}
 	},
-	name = "空母减伤",
+	name = "远东的羁绊",
 	init_effect = "jinengchufablue",
 	time = 0,
 	picture = "",
-	desc = "减伤",
+	desc = "远东的羁绊空母减伤",
 	stack = 1,
 	id = 12001,
 	icon = 12001,

@@ -10,7 +10,7 @@ return {
 	{},
 	{},
 	desc_get = "",
-	name = "龙骧SignalAxe",
+	name = "空袭信号",
 	init_effect = "",
 	id = 11760,
 	time = 0,

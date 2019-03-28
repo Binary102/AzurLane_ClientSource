@@ -383,9 +383,9 @@ pg.gameset = {
 		key_value = 3000000
 	},
 	activity_res_id = {
-		description = "Pt女王の褒章 ",
+		description = "桜の御守り",
 		key = "activity_res_id",
-		key_value = 119
+		key_value = 121
 	},
 	chapter_move_speed_1 = {
 		description = "",

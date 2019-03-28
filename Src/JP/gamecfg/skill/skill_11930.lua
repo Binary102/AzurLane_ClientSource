@@ -300,7 +300,7 @@ return {
 		}
 	},
 	uiEffect = "",
-	name = "香格里拉-轰炸",
+	name = "杜立特空袭.改-轰炸",
 	cd = 0,
 	picture = "0",
 	desc = "轰炸",

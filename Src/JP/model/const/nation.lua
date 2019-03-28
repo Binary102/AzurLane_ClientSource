@@ -58,6 +58,28 @@ function slot0.Nation2Side(slot0)
 	return slot0.side[slot0]
 end
 
+function slot0.Nation2BG(slot0)
+	if not slot0.bg then
+		slot0.bg = {
+			[0] = "bg/bg_church",
+			"bg/bg_church",
+			"bg/bg_church",
+			"bg/bg_church",
+			"bg/bg_church",
+			"bg/bg_church",
+			nil,
+			"bg/bg_church",
+			"bg/bg_church",
+			"bg/bg_church",
+			[102.0] = "bg/bg_church",
+			[101.0] = "bg/bg_church",
+			[103.0] = "bg/bg_church"
+		}
+	end
+
+	return slot0.bg[slot0]
+end
+
 function slot0.Nation2Name(slot0)
 	if not slot0.nationName then
 		slot0.nationName = {

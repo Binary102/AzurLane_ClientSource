@@ -259,7 +259,7 @@ return {
 			}
 		}
 	},
-	name = "制空领域",
+	name = "空域控制",
 	init_effect = "jinengchufared",
 	id = 11591,
 	time = 8,

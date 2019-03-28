@@ -152,7 +152,11 @@ function slot0.didEnter(slot0)
 	end)
 	onButton(slot0, slot0.backBtn, function ()
 		slot0:uiExitAnimating()
-		slot0.uiExitAnimating:emit(slot1.ON_BACK, nil, 0.3)
+
+		BuildShipScene.Page = nil
+		BuildShipScene.projectName = nil
+
+		BuildShipScene:emit(slot1.ON_BACK, nil, 0.3)
 	end, SFX_CANCEL)
 	setActive(slot0:findTF("stamp"), getProxy(TaskProxy):mingshiTouchFlagEnabled())
 	onButton(slot0, slot0:findTF("stamp"), function ()
@@ -196,7 +200,7 @@ function slot0.didEnter(slot0)
 
 	slot0:initToggles()
 
-	slot0.page = slot0.contextData.page or BuildShipScene.Page or slot0.PAGE_BUILD
+	slot0.page = BuildShipScene.Page or slot0.contextData.page or slot0.PAGE_BUILD
 
 	triggerToggle(slot0.toggles[slot0.page], true)
 	slot0:uiStartAnimating()
@@ -250,7 +254,7 @@ function slot0.switchPage(slot0, slot1, slot2)
 		slot0:initBuildPanel()
 	end
 
-	BuildShipScene.Page = (slot1 == slot0.PAGE_UNSEAM and slot0.PAGE_BUILD) or slot1
+	BuildShipScene.Page = (slot1 == slot0.PAGE_UNSEAM and BuildShipScene.Page) or slot1
 end
 
 function slot0.initBuildPanel(slot0)
@@ -294,12 +298,8 @@ function slot0.initProjectToggles(slot0)
 
 	if pg.GuideMgr2:GetInstance().ENABLE_GUIDE then
 		slot0.projectName = slot0.contextData.projectName or slot0.PROJECTS.LIGHT
-	elseif slot0.activity then
-		slot0.projectName = slot0.PROJECTS.ACTIVITY
-	elseif BuildShipScene.projectName == slot0.PROJECTS.ACTIVITY then
-		slot0.projectName = slot0.PROJECTS.HEAVY
 	else
-		slot0.projectName = slot0.contextData.projectName or BuildShipScene.projectName or slot0.PROJECTS.HEAVY
+		slot0.projectName = BuildShipScene.projectName or slot0.contextData.projectName or (slot0.activity and slot0.PROJECTS.ACTIVITY) or slot0.PROJECTS.HEAVY
 	end
 
 	triggerToggle(slot0.projectToggles[slot0.projectName], true)

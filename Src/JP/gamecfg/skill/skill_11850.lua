@@ -260,10 +260,10 @@ return {
 		}
 	},
 	uiEffect = "",
-	name = "饿狼",
+	name = "苏腊巴亚的刃光",
 	cd = 0,
 	picture = "0",
-	desc = "饿狼",
+	desc = "苏腊巴亚的刃光",
 	painting = 1,
 	id = 11850,
 	castCV = "skill",

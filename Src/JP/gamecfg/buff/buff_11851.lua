@@ -150,7 +150,7 @@ return {
 		}
 	},
 	time = 3,
-	name = "饿狼",
+	name = "苏腊巴亚的刃光",
 	init_effect = "",
 	picture = "",
 	desc = "概率触发器",

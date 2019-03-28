@@ -149,7 +149,7 @@ return {
 			}
 		}
 	},
-	name = "炮术指挥·美国战列",
+	name = "特混分队旗舰·炮术指挥·美国战列",
 	init_effect = "jinengchufared",
 	id = 11981,
 	time = 0,

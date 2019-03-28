@@ -1791,7 +1791,7 @@ pg.gametip = {
 		key = "tactics_end_to_learn"
 	},
 	tactics_continue_to_learn = {
-		tip = "、引き続き同じスキルを強化しますか？",
+		tip = "引き続き同じスキルを強化しますか？",
 		key = "tactics_continue_to_learn"
 	},
 	tactics_should_exist_skill = {
@@ -4863,8 +4863,14 @@ pg.gametip = {
 						ノーマル：$5%
 
 						【期間限定】
-					<color=#fff157>シャングリラ</color>：2%<color=#A9F548>(up!)</color>
-					<color=#fff157>エセックス</color>：1.8%<color=#A9F548>(up!)</color></size>]],
+					<color=#fff157>長門</color>：2%<color=#A9F548>(up!)</color>
+					<color=#fff157>江風</color>：1.8%<color=#A9F548>(up!)</color>
+					<color=#fff157>伊13</color>：2%<color=#A9F548>(up!)</color>
+					<color=#966af6>鈴谷</color>：2.5%<color=#A9F548>(up!)</color>
+					<color=#966af6>宵月</color>：2.5%<color=#A9F548>(up!)</color>
+					<color=#966af6>春月</color>：2.5%<color=#A9F548>(up!)</color>
+					<color=#60a9ff>文月</color>：5%<color=#A9F548>(up!)</color>
+					<color=#60a9ff>朝潮</color>：5%<color=#A9F548>(up!)</color></size>]],
 		key = "help_build_4"
 	},
 	help_build_5 = {
@@ -9163,7 +9169,7 @@ pg.gametip = {
 
 ■制空値の決め方
 味方艦隊の制空値は下記の項目を参照します。
-・味方艦隊の制空艦（正規空母、軽空母、航空戦艦）数
+・味方艦隊の制空艦（正規空母、軽空母、航空戦艦、潜水空母）数
 ・味方艦隊の「航空」ステータス
 ・味方艦隊の搭載中の艦載機（戦闘機・爆撃機・攻撃機・水上機）
 味方艦隊の初期制空値は海域マップ選択画面の出撃準備画面で
@@ -9197,6 +9203,14 @@ pg.gametip = {
 対空ステータスと艦載機によって決められる。]]
 			}
 		}
+	},
+	refuse_friend = {
+		tip = "友達申請を断りますか？ ",
+		key = "refuse_friend"
+	},
+	refuse_and_add_into_bl = {
+		tip = "友達申請を断り、ブラックリストに追加します ",
+		key = "refuse_and_add_into_bl"
 	}
 }
 

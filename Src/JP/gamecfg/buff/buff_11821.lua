@@ -150,7 +150,7 @@ return {
 		}
 	},
 	desc_get = "",
-	name = "攻无不克",
+	name = "攻无不取",
 	init_effect = "",
 	id = 11821,
 	time = 0,

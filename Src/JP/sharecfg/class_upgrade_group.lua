@@ -9,7 +9,8 @@ pg.class_upgrade_group = {
 		type = {
 			1,
 			12,
-			8
+			8,
+			17
 		}
 	},
 	{
@@ -60,7 +61,8 @@ pg.class_upgrade_group = {
 		type = {
 			1,
 			12,
-			8
+			8,
+			17
 		}
 	},
 	{

@@ -5743,6 +5743,112 @@ pg.shop_template = {
 			}
 		}
 	},
+	[60156] = {
+		group_type = 0,
+		resource_num = 980,
+		desc = "980钻石购买限时建造补给",
+		type = 2,
+		is_auto_use = 1,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 1,
+		order = 0,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 60156,
+		genre = "gift_package",
+		discount_time = {},
+		limit_args = {
+			{
+				"time",
+				1
+			}
+		},
+		effect_args = {
+			40118
+		},
+		time = {
+			{
+				{
+					2019,
+					3,
+					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[60157] = {
+		group_type = 0,
+		resource_num = 120,
+		desc = "120钻石购买限时攻略补给",
+		type = 2,
+		is_auto_use = 1,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 1,
+		order = 0,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 60157,
+		genre = "gift_package",
+		discount_time = {},
+		limit_args = {
+			{
+				"time",
+				5
+			}
+		},
+		effect_args = {
+			40117
+		},
+		time = {
+			{
+				{
+					2019,
+					3,
+					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	[61001] = {
 		group_type = 0,
 		resource_num = 200,
@@ -6057,7 +6163,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		group = 0,
 		num = 1,
 		discount = 20,
@@ -6130,7 +6236,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -6178,7 +6284,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -6226,7 +6332,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -6274,7 +6380,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -6322,7 +6428,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -6370,7 +6476,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -6418,7 +6524,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -6466,7 +6572,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 1,
-		order = 3,
+		order = 4,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -6514,7 +6620,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -6562,7 +6668,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -6610,7 +6716,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -6658,7 +6764,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -6706,7 +6812,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -6754,7 +6860,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -6802,7 +6908,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		group = 0,
 		num = 1,
 		discount = 20,
@@ -6875,7 +6981,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		group = 0,
 		num = 1,
 		discount = 20,
@@ -6948,7 +7054,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		group = 0,
 		num = 1,
 		discount = 20,
@@ -7021,7 +7127,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		group = 0,
 		num = 1,
 		discount = 20,
@@ -7094,7 +7200,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -7117,7 +7223,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -7140,7 +7246,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -7163,7 +7269,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		group = 0,
 		num = 1,
 		discount = 20,
@@ -7236,7 +7342,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		group = 0,
 		num = 1,
 		discount = 20,
@@ -7309,7 +7415,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		group = 0,
 		num = 1,
 		discount = 20,
@@ -7382,7 +7488,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		group = 0,
 		num = 1,
 		discount = 20,
@@ -7455,7 +7561,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		group = 0,
 		num = 1,
 		discount = 20,
@@ -7528,7 +7634,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		group = 0,
 		num = 1,
 		discount = 20,
@@ -7601,7 +7707,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		group = 0,
 		num = 1,
 		discount = 20,
@@ -7674,7 +7780,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		group = 0,
 		num = 1,
 		discount = 20,
@@ -7747,7 +7853,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		group = 0,
 		num = 1,
 		discount = 20,
@@ -7820,7 +7926,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		group = 0,
 		num = 1,
 		discount = 20,
@@ -7893,7 +7999,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		group = 0,
 		num = 1,
 		discount = 20,
@@ -7966,7 +8072,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		group = 0,
 		num = 1,
 		discount = 20,
@@ -8039,7 +8145,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		group = 0,
 		num = 1,
 		discount = 20,
@@ -8112,7 +8218,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		group = 0,
 		num = 1,
 		discount = 20,
@@ -8185,7 +8291,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		group = 0,
 		num = 1,
 		discount = 20,
@@ -8233,7 +8339,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		group = 0,
 		num = 1,
 		discount = 20,
@@ -8281,7 +8387,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		group = 0,
 		num = 1,
 		discount = 20,
@@ -8329,7 +8435,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		group = 0,
 		num = 1,
 		discount = 20,
@@ -8377,7 +8483,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -8425,7 +8531,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -8473,7 +8579,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -8521,7 +8627,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -8569,7 +8675,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -8617,7 +8723,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -8665,7 +8771,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -8713,7 +8819,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -8736,7 +8842,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -8784,7 +8890,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -8832,7 +8938,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -8880,7 +8986,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -8928,7 +9034,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -8976,7 +9082,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -9024,7 +9130,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -9072,7 +9178,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		group = 0,
 		num = 1,
 		discount = 20,
@@ -9120,7 +9226,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -9143,7 +9249,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		group = 0,
 		num = 1,
 		discount = 20,
@@ -9216,7 +9322,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 6,
-		order = 3,
+		order = 4,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -9264,7 +9370,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -9286,8 +9392,8 @@ pg.shop_template = {
 		is_auto_use = 0,
 		group_limit = 0,
 		group_buy_count = 0,
-		tag = 1,
-		order = 2,
+		tag = 0,
+		order = 4,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -9334,8 +9440,8 @@ pg.shop_template = {
 		is_auto_use = 0,
 		group_limit = 0,
 		group_buy_count = 0,
-		tag = 1,
-		order = 2,
+		tag = 0,
+		order = 4,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -9383,7 +9489,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -9406,7 +9512,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -9454,7 +9560,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -9501,25 +9607,20 @@ pg.shop_template = {
 		is_auto_use = 0,
 		group_limit = 0,
 		group_buy_count = 0,
-		tag = 0,
+		tag = 1,
 		order = 3,
 		group = 0,
 		num = 1,
-		discount = 0,
+		discount = 20,
 		resource_type = 14,
 		id = 70067,
 		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			301631
-		},
-		time = {
+		discount_time = {
 			{
 				{
-					2018,
-					5,
-					31
+					2019,
+					3,
+					28
 				},
 				{
 					0,
@@ -9529,9 +9630,39 @@ pg.shop_template = {
 			},
 			{
 				{
-					2018,
-					6,
-					13
+					2019,
+					4,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		limit_args = {},
+		effect_args = {
+			301631
+		},
+		time = {
+			{
+				{
+					2019,
+					3,
+					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					17
 				},
 				{
 					23,
@@ -9549,25 +9680,20 @@ pg.shop_template = {
 		is_auto_use = 0,
 		group_limit = 0,
 		group_buy_count = 0,
-		tag = 0,
+		tag = 1,
 		order = 3,
 		group = 0,
 		num = 1,
-		discount = 0,
+		discount = 20,
 		resource_type = 14,
 		id = 70068,
 		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			304031
-		},
-		time = {
+		discount_time = {
 			{
 				{
-					2018,
-					5,
-					31
+					2019,
+					3,
+					28
 				},
 				{
 					0,
@@ -9577,9 +9703,39 @@ pg.shop_template = {
 			},
 			{
 				{
-					2018,
-					6,
-					13
+					2019,
+					4,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		limit_args = {},
+		effect_args = {
+			304031
+		},
+		time = {
+			{
+				{
+					2019,
+					3,
+					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					17
 				},
 				{
 					23,
@@ -9597,25 +9753,20 @@ pg.shop_template = {
 		is_auto_use = 0,
 		group_limit = 0,
 		group_buy_count = 0,
-		tag = 0,
+		tag = 1,
 		order = 3,
 		group = 0,
 		num = 1,
-		discount = 0,
+		discount = 20,
 		resource_type = 14,
 		id = 70069,
 		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			301491
-		},
-		time = {
+		discount_time = {
 			{
 				{
-					2018,
-					5,
-					31
+					2019,
+					3,
+					28
 				},
 				{
 					0,
@@ -9625,9 +9776,39 @@ pg.shop_template = {
 			},
 			{
 				{
-					2018,
-					6,
-					13
+					2019,
+					4,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		limit_args = {},
+		effect_args = {
+			301491
+		},
+		time = {
+			{
+				{
+					2019,
+					3,
+					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					17
 				},
 				{
 					23,
@@ -9645,25 +9826,20 @@ pg.shop_template = {
 		is_auto_use = 0,
 		group_limit = 0,
 		group_buy_count = 0,
-		tag = 0,
+		tag = 1,
 		order = 3,
 		group = 0,
 		num = 1,
-		discount = 0,
+		discount = 20,
 		resource_type = 14,
 		id = 70070,
 		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			301381
-		},
-		time = {
+		discount_time = {
 			{
 				{
-					2018,
-					5,
-					31
+					2019,
+					3,
+					28
 				},
 				{
 					0,
@@ -9673,9 +9849,39 @@ pg.shop_template = {
 			},
 			{
 				{
-					2018,
-					6,
-					13
+					2019,
+					4,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		limit_args = {},
+		effect_args = {
+			301381
+		},
+		time = {
+			{
+				{
+					2019,
+					3,
+					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					17
 				},
 				{
 					23,
@@ -9694,7 +9900,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -9717,7 +9923,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -9740,7 +9946,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -9763,7 +9969,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -9786,7 +9992,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -9809,7 +10015,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -9857,7 +10063,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -9905,7 +10111,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -9953,7 +10159,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -10001,7 +10207,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -10049,7 +10255,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -10097,7 +10303,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 6,
-		order = 3,
+		order = 4,
 		group = 0,
 		num = 1,
 		discount = 20,
@@ -10170,7 +10376,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 6,
-		order = 3,
+		order = 4,
 		group = 0,
 		num = 1,
 		discount = 20,
@@ -10243,7 +10449,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 6,
-		order = 3,
+		order = 4,
 		group = 0,
 		num = 1,
 		discount = 20,
@@ -10316,7 +10522,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -10364,7 +10570,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -10412,7 +10618,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -10460,7 +10666,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -10508,7 +10714,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -10556,7 +10762,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		group = 0,
 		num = 1,
 		discount = 10,
@@ -10629,7 +10835,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		group = 0,
 		num = 1,
 		discount = 10,
@@ -10702,7 +10908,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		group = 0,
 		num = 1,
 		discount = 10,
@@ -10775,7 +10981,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -10823,7 +11029,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -10871,7 +11077,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -10919,7 +11125,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -10967,7 +11173,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -11015,7 +11221,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -11063,7 +11269,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -11111,7 +11317,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -11159,7 +11365,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -11207,7 +11413,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -11255,7 +11461,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -11303,7 +11509,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -11351,7 +11557,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -11399,7 +11605,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -11422,7 +11628,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -11470,7 +11676,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -11518,7 +11724,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -11566,7 +11772,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -11614,7 +11820,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -11662,7 +11868,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -11710,7 +11916,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -11758,7 +11964,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -11806,7 +12012,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -11854,7 +12060,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -11902,7 +12108,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -11950,7 +12156,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -11998,7 +12204,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -12046,7 +12252,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -12094,7 +12300,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -12142,7 +12348,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -12190,7 +12396,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -12238,7 +12444,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -12286,7 +12492,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -12334,7 +12540,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -12382,7 +12588,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -12430,7 +12636,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -12478,7 +12684,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -12526,7 +12732,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -12574,7 +12780,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -12622,7 +12828,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -12670,7 +12876,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -12718,7 +12924,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -12766,7 +12972,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -12814,7 +13020,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -12862,7 +13068,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -12910,7 +13116,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -12958,7 +13164,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -13006,7 +13212,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -13054,7 +13260,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -13102,7 +13308,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -13150,7 +13356,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -13198,7 +13404,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -13246,7 +13452,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -13294,7 +13500,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -13342,7 +13548,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -13390,7 +13596,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -13438,7 +13644,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -13486,7 +13692,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -13534,7 +13740,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -13582,7 +13788,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -13630,7 +13836,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -13678,7 +13884,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -13726,7 +13932,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -13774,7 +13980,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -13822,7 +14028,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -13870,7 +14076,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -13917,8 +14123,8 @@ pg.shop_template = {
 		is_auto_use = 0,
 		group_limit = 0,
 		group_buy_count = 0,
-		tag = 2,
-		order = 3,
+		tag = 0,
+		order = 4,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -13965,8 +14171,8 @@ pg.shop_template = {
 		is_auto_use = 0,
 		group_limit = 0,
 		group_buy_count = 0,
-		tag = 2,
-		order = 3,
+		tag = 0,
+		order = 4,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -14014,7 +14220,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -14037,7 +14243,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 0,
-		order = 3,
+		order = 4,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -14090,6 +14296,198 @@ pg.shop_template = {
 					2019,
 					3,
 					27
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[70166] = {
+		group_type = 0,
+		resource_num = 880,
+		desc = "购买皮肤：长门",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		order = 1,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 70166,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			305051
+		},
+		time = {
+			{
+				{
+					2019,
+					3,
+					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[70167] = {
+		group_type = 0,
+		resource_num = 780,
+		desc = "购买皮肤：金刚",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		order = 2,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 70167,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			304011
+		},
+		time = {
+			{
+				{
+					2019,
+					3,
+					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[70168] = {
+		group_type = 0,
+		resource_num = 780,
+		desc = "购买皮肤：宵月",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		order = 2,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 70168,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			301581
+		},
+		time = {
+			{
+				{
+					2019,
+					3,
+					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[70173] = {
+		group_type = 0,
+		resource_num = 780,
+		desc = "购买皮肤：陆奥",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		order = 2,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 70173,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			305061
+		},
+		time = {
+			{
+				{
+					2019,
+					3,
+					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					17
 				},
 				{
 					23,
@@ -14296,6 +14694,8 @@ pg.shop_template = {
 		60153,
 		60154,
 		60155,
+		60156,
+		60157,
 		61001,
 		61002,
 		61003,
@@ -14469,7 +14869,11 @@ pg.shop_template = {
 		70163,
 		70164,
 		70165,
-		70172
+		70172,
+		70166,
+		70167,
+		70168,
+		70173
 	}
 }
 

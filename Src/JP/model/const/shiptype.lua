@@ -6,12 +6,13 @@ slot0.ZhanXun = 4
 slot0.ZhanLie = 5
 slot0.QingHang = 6
 slot0.ZhengHang = 7
-slot0.Qianting = 8
+slot0.QianTing = 8
 slot0.HangXun = 9
 slot0.HangZhan = 10
 slot0.LeiXun = 11
 slot0.WeiXiu = 12
 slot0.ZhongPao = 13
+slot0.QianMu = 17
 slot0.YuLeiTing = 14
 slot0.JinBi = 15
 slot0.ZiBao = 16
@@ -38,7 +39,8 @@ function slot0.Type2Print(slot0)
 			"zhanlie",
 			"quzhu",
 			"battle_jinbi",
-			"battle_zibao"
+			"battle_zibao",
+			"qianting"
 		}
 	end
 
@@ -65,7 +67,8 @@ function slot0.Type2BattlePrint(slot0)
 			"battle_zhanlie",
 			"battle_quzhu",
 			"battle_jinbi",
-			"battle_zibao"
+			"battle_zibao",
+			"battle_hangmu"
 		}
 	end
 
@@ -90,13 +93,17 @@ function slot0.Type2CNLabel(slot0)
 			"label_3",
 			"label_1",
 			"label_1",
-			"label_1"
+			"label_1",
+			"label_17"
 		}
 	end
 
 	return slot0.cnLabel[slot0]
 end
 
+slot0.BundleBattleShip = "zhan"
+slot0.BundleAircraftCarrier = "hang"
+slot0.BundleSubmarine = "qian"
 slot0.BundleList = {
 	zhan = {
 		slot0.ZhanXun,
@@ -105,14 +112,19 @@ slot0.BundleList = {
 	hang = {
 		slot0.QingHang,
 		slot0.ZhengHang
+	},
+	qian = {
+		slot0.QianTing,
+		slot0.QianMu
 	}
 }
 
 function slot0.BundleType2CNLabel(slot0)
 	if not slot0.bundleLabel then
 		slot0.bundleLabel = {
-			zhan = "label_11",
-			hang = "label_12"
+			qian = "label_8",
+			hang = "label_12",
+			zhan = "label_11"
 		}
 	end
 

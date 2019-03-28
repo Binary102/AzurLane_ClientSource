@@ -256,7 +256,11 @@ function slot0.didEnter(slot0)
 	end
 
 	if (not slot0.warp or slot0.warp == slot0.TYPE_ACTIVITY) and #slot3 > 0 then
-		triggerToggle(slot0.toggles[tostring(slot3[#slot3].activityId)], true)
+		if slot0.contextData.actId and slot0.toggles[tostring(slot0.contextData.actId)] then
+			triggerToggle(slot0.toggles[tostring(slot0.contextData.actId)], true)
+		else
+			triggerToggle(slot0.toggles[tostring(slot3[#slot3].activityId)], true)
+		end
 	else
 		slot0.warp = slot0.warp or slot0.TYPE_SHOP_STREET
 

@@ -925,6 +925,37 @@ pg.equip_data_statistics = {
 		part_sub = {},
 		equip_parameters = {}
 	},
+	[144] = {
+		name = "默认潜母水侦",
+		type = 12,
+		id = 144,
+		tech = 1,
+		speciality = "轰炸",
+		range = 90,
+		attribute_3 = "air",
+		scatter = "8",
+		ambush_extra = 0,
+		value_2 = 5,
+		icon = "39200",
+		angle = 90,
+		value_1 = "80 x 1",
+		avoid_extra = 0,
+		rarity = 1,
+		nationality = 3,
+		ammo = "通常",
+		descrip = "默认装备",
+		value_3 = 0,
+		attribute_1 = "damage",
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {
+			144
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {}
+	},
 	[201] = {
 		name = "0",
 		type = 1,
@@ -2494,6 +2525,96 @@ pg.equip_data_statistics = {
 		id = 690,
 		value_1 = "60",
 		base = 680,
+		property_rate = {}
+	},
+	[700] = {
+		name = "九八式発砲遅延装置",
+		type = 10,
+		id = 700,
+		tech = 0,
+		nationality = 3,
+		speciality = "なし",
+		range = 0,
+		ambush_extra = 0,
+		value_2 = 0,
+		icon = "700",
+		value_1 = "12",
+		angle = 0,
+		avoid_extra = 0,
+		rarity = 4,
+		scatter = "0",
+		descrip = "各砲身の発砲タイミングを極めて短くずらし、発射時と飛行中の砲弾による爆風の影響を減少させ、散布界を狭める役割を果たす",
+		ammo = "なし",
+		value_3 = 0,
+		attribute_1 = "cannon",
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {},
+		skill_id = {
+			6360
+		},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {}
+	},
+	[701] = {
+		id = 701,
+		value_1 = "14",
+		base = 700,
+		property_rate = {}
+	},
+	[702] = {
+		id = 702,
+		value_1 = "16",
+		base = 700,
+		property_rate = {}
+	},
+	[703] = {
+		id = 703,
+		value_1 = "18",
+		base = 700,
+		property_rate = {}
+	},
+	[704] = {
+		id = 704,
+		value_1 = "20",
+		base = 700,
+		property_rate = {}
+	},
+	[705] = {
+		id = 705,
+		value_1 = "22",
+		base = 700,
+		property_rate = {}
+	},
+	[706] = {
+		id = 706,
+		value_1 = "24",
+		base = 700,
+		property_rate = {}
+	},
+	[707] = {
+		id = 707,
+		value_1 = "26",
+		base = 700,
+		property_rate = {}
+	},
+	[708] = {
+		id = 708,
+		value_1 = "30",
+		base = 700,
+		property_rate = {}
+	},
+	[709] = {
+		id = 709,
+		value_1 = "30",
+		base = 700,
+		property_rate = {}
+	},
+	[710] = {
+		id = 710,
+		value_1 = "32",
+		base = 700,
 		property_rate = {}
 	},
 	[1000] = {
@@ -35895,6 +36016,129 @@ pg.equip_data_statistics = {
 		},
 		property_rate = {}
 	},
+	[39300] = {
+		name = "晴嵐",
+		type = 12,
+		id = 39300,
+		tech = 0,
+		speciality = "爆撃",
+		range = 90,
+		scatter = "8",
+		ambush_extra = 0,
+		value_2 = 25,
+		icon = "39300",
+		value_1 = "171 x 1",
+		attribute_2 = "air",
+		avoid_extra = 0,
+		rarity = 4,
+		angle = 90,
+		nationality = 3,
+		ammo = "通常弾",
+		descrip = "水上特殊攻撃機晴嵐（M6A1）。13mm機銃と800kg爆弾を搭載可能",
+		value_3 = 0,
+		attribute_1 = "damage",
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {
+			39300
+		},
+		skill_id = {
+			6370
+		},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {}
+	},
+	[39301] = {
+		base = 39300,
+		id = 39301,
+		value_1 = "196 x 1",
+		weapon_id = {
+			39301
+		},
+		property_rate = {}
+	},
+	[39302] = {
+		base = 39300,
+		id = 39302,
+		value_1 = "221 x 1",
+		weapon_id = {
+			39302
+		},
+		property_rate = {}
+	},
+	[39303] = {
+		base = 39300,
+		id = 39303,
+		value_1 = "247 x 1",
+		weapon_id = {
+			39303
+		},
+		property_rate = {}
+	},
+	[39304] = {
+		base = 39300,
+		id = 39304,
+		value_1 = "273 x 1",
+		weapon_id = {
+			39304
+		},
+		property_rate = {}
+	},
+	[39305] = {
+		base = 39300,
+		id = 39305,
+		value_1 = "299 x 1",
+		weapon_id = {
+			39305
+		},
+		property_rate = {}
+	},
+	[39306] = {
+		base = 39300,
+		id = 39306,
+		value_1 = "325 x 1",
+		weapon_id = {
+			39306
+		},
+		property_rate = {}
+	},
+	[39307] = {
+		base = 39300,
+		id = 39307,
+		value_1 = "351 x 1",
+		weapon_id = {
+			39307
+		},
+		property_rate = {}
+	},
+	[39308] = {
+		base = 39300,
+		id = 39308,
+		value_1 = "377 x 1",
+		weapon_id = {
+			39308
+		},
+		property_rate = {}
+	},
+	[39309] = {
+		base = 39300,
+		id = 39309,
+		value_1 = "403 x 1",
+		weapon_id = {
+			39309
+		},
+		property_rate = {}
+	},
+	[39310] = {
+		base = 39300,
+		id = 39310,
+		value_1 = "429 x 1",
+		weapon_id = {
+			39310
+		},
+		property_rate = {}
+	},
 	[41000] = {
 		name = "127mm単装砲",
 		type = 1,
@@ -46689,6 +46933,82 @@ pg.equip_data_statistics = {
 		},
 		property_rate = {}
 	},
+	[72254] = {
+		name = "0",
+		type = 1,
+		nationality = 0,
+		rarity = 1,
+		tech = 1,
+		speciality = "なし",
+		base = 72251,
+		ambush_extra = 0,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "",
+		angle = 0,
+		avoid_extra = 0,
+		range = 0,
+		scatter = "0",
+		descrip = "スキル弾幕",
+		ammo = "なし",
+		value_3 = 0,
+		id = 72254,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {
+			72254
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {}
+	},
+	[72255] = {
+		id = 72255,
+		base = 72251,
+		weapon_id = {
+			72255
+		},
+		property_rate = {}
+	},
+	[72256] = {
+		name = "0",
+		type = 1,
+		nationality = 0,
+		rarity = 1,
+		tech = 1,
+		speciality = "なし",
+		base = 72251,
+		ambush_extra = 0,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "",
+		angle = 0,
+		avoid_extra = 0,
+		range = 0,
+		scatter = "0",
+		descrip = "スキル弾幕",
+		ammo = "なし",
+		value_3 = 0,
+		id = 72256,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {
+			72256
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {}
+	},
+	[72257] = {
+		id = 72257,
+		base = 72251,
+		weapon_id = {
+			72257
+		},
+		property_rate = {}
+	},
 	[72261] = {
 		name = "0",
 		type = 1,
@@ -48502,6 +48822,43 @@ pg.equip_data_statistics = {
 		},
 		property_rate = {}
 	},
+	[79371] = {
+		name = "0",
+		type = 1,
+		nationality = 0,
+		speciality = "なし",
+		range = 0,
+		angle = 0,
+		tech = 1,
+		ambush_extra = 0,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "",
+		avoid_extra = 0,
+		rarity = 1,
+		descrip = "スキル弾幕",
+		scatter = "0",
+		ammo = "なし",
+		value_3 = 0,
+		id = 79371,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {
+			79371
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {}
+	},
+	[79372] = {
+		id = 79372,
+		base = 79371,
+		weapon_id = {
+			79372
+		},
+		property_rate = {}
+	},
 	[90000] = {
 		name = "130mm単装砲Mle1924",
 		type = 1,
@@ -50234,6 +50591,7 @@ pg.equip_data_statistics = {
 		123,
 		140,
 		141,
+		144,
 		201,
 		202,
 		203,
@@ -50377,6 +50735,17 @@ pg.equip_data_statistics = {
 		688,
 		689,
 		690,
+		700,
+		701,
+		702,
+		703,
+		704,
+		705,
+		706,
+		707,
+		708,
+		709,
+		710,
 		1000,
 		1001,
 		1002,
@@ -53173,6 +53542,17 @@ pg.equip_data_statistics = {
 		39248,
 		39249,
 		39250,
+		39300,
+		39301,
+		39302,
+		39303,
+		39304,
+		39305,
+		39306,
+		39307,
+		39308,
+		39309,
+		39310,
 		41000,
 		41001,
 		41002,
@@ -53944,6 +54324,10 @@ pg.equip_data_statistics = {
 		72242,
 		72251,
 		72252,
+		72254,
+		72255,
+		72256,
+		72257,
 		72261,
 		72262,
 		72311,
@@ -54042,6 +54426,8 @@ pg.equip_data_statistics = {
 		79342,
 		79361,
 		79362,
+		79371,
+		79372,
 		90000,
 		90001,
 		90002,

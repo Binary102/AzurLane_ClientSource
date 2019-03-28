@@ -160,7 +160,7 @@ return {
 		}
 	},
 	time = 1,
-	name = "发射鱼雷完全回避",
+	name = "风之加护",
 	init_effect = "",
 	picture = "",
 	desc = "概率触发器",

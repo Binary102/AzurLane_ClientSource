@@ -74,6 +74,19 @@ ys.Battle.BattleTargetChoise = {
 
 		return slot4
 	end,
+	TargetShipArmor = function (slot0, slot1, slot2)
+		slot3 = slot2 or ys.Battle.BattleDataProxy:GetInstance():GetUnitList()
+		slot4 = {}
+		slot5 = slot1.armor_type
+
+		for slot9, slot10 in ipairs(slot3) do
+			if slot10:GetAttrByName("armorType") == slot5 then
+				slot4[#slot4 + 1] = slot10
+			end
+		end
+
+		return slot4
+	end,
 	getShipListByIFF = function (slot0)
 		slot1 = ys.Battle.BattleDataProxy:GetInstance()
 		slot2 = nil
@@ -195,6 +208,19 @@ ys.Battle.BattleTargetChoise = {
 				if slot10:GetHP() < slot5 then
 					slot3[#slot3 + 1] = slot10
 				end
+			end
+		end
+
+		return slot3
+	end,
+	TargetHPRatioLowerThan = function (slot0, slot1, slot2)
+		slot3 = {}
+		slot4 = slot1.hpRatioList[1]
+		slot5 = slot2 or ys.Battle.BattleDataProxy:GetInstance():GetUnitList()
+
+		for slot9, slot10 in ipairs(slot5) do
+			if slot10:GetHP() < slot4 then
+				slot3[#slot3 + 1] = slot10
 			end
 		end
 

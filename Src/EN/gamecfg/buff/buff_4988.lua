@@ -36,7 +36,7 @@ return {
 			},
 			arg_list = {
 				number = -0.304,
-				attr = "damageGetRatioByAir"
+				attr = "injureRatioByAir"
 			}
 		}
 	}

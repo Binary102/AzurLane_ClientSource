@@ -30,7 +30,8 @@ ys.Battle.BattleConst.UnitType = {
 	AIRFIGHTER_UNIT = 5,
 	NPC_UNIT = 6,
 	MAIN_UNIT = 7,
-	FUNNEL_UNIT = 8
+	FUNNEL_UNIT = 8,
+	UAV_UNIT = 9
 }
 ys.Battle.BattleConst.EquipmentType = {
 	MAIN_CANNON = 1,
@@ -56,6 +57,7 @@ ys.Battle.BattleConst.EquipmentType = {
 	POINT_HIT_AND_LOCK = 23,
 	BEAM = 24,
 	DEPTH_CHARGE = 25,
+	REPEATER_ANTI_AIR = 26,
 	PREVIEW_ARICRAFT = 99,
 	AIR_ASSIST = "airAssist"
 }
@@ -236,7 +238,8 @@ ys.Battle.BattleConst.BuffEffectType = {
 ys.Battle.BattleConst.FXContainerIndex = {
 	"center",
 	"top",
-	"bottom"
+	"bottom",
+	"auradown"
 }
 ys.Battle.BattleConst.UnitDeathReason = {
 	KILLED = 1,

@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"Best Pictures!\n\n<size=30>四 小加加和姐姐</size>",
+					"Best Pictures!\n\n<size=30>Chapter 4: Sister Sara and Lady Lex!</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "第十二张照片，是萨拉托加从身后抱住姐姐列克星敦的一幕——",
+			say = "The twelfth photo featured Saratoga hugging her sister, Lexington, from behind...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -34,7 +34,7 @@ return {
 			bgm = "story-1",
 			actor = 107031,
 			nameColor = "#a9f548",
-			say = "今天萨拉妹妹的恶作剧也是大成功~诶嘿♪",
+			say = "Sara's pranks were a huge hit today! Heehee~♪",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -76,7 +76,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯……下一个轮到谁了呢？小千岁生气了有点可怕，还是指挥官——",
+			say = "Hmm... whose turn is it next~? Chitose is really scary when she's mad, so maybe Commander will do~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			}
 		},
 		{
-			say = "萨拉？",
+			say = "USS Saratoga, CV-3?",
 			side = 0,
 			bgName = "star_level_bg_103",
 			dir = 1,
@@ -112,7 +112,7 @@ return {
 			dir = 1,
 			actor = 107031,
 			nameColor = "#a9f548",
-			say = "哇！姐，姐姐！？",
+			say = "Woooah! B-big sis!?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "萨拉，姐姐听说了哦？你又对别的孩子恶作剧了吧……",
+			say = "Saratoga, I heard all about it, you know? You were out playing pranks on others again...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			dir = 1,
 			actor = 107031,
 			nameColor = "#a9f548",
-			say = "对，对不起……",
+			say = "I-I'm sorry...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,7 +178,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "萨拉老是这样，不光是别的孩子，指挥官也会困扰啊？指挥官要去安抚别的孩子，",
+			say = "Don't you think you should stop causing trouble to your friends, as well as to Commander? Someone has to take care of the girls who you prank.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "就会影响到日常业务，不光是被你恶作剧的孩子，大家都会难过的。而且下次出击的时候如果受了影响，别的孩子和指挥官都会有危险，",
+			say = "And it's not just those who you play pranks on, either. It will affect everyone's morale, and that could prove fatal on the battlefield.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,7 +210,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "萨拉你和他们一起出击的话也很危险啊。姐姐是不想看到萨拉受伤，这么说你是为了让你明白恶作剧以后不好好道歉会有什么后果。",
+			say = "Above all else, I don't want to see you get injured in action because people no longer want to work with you. That's why you need to make sure to properly apologize.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +226,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "萨拉也不是小孩子了，让你别再恶作剧你不听，那至少做到能马上对人家道歉好不好？",
+			say = "Sara, you're not a child anymore. If you won't stop pulling pranks on people, then can you at least make sure that you apologize right away?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "姐姐一听说萨拉又对别的孩子恶作剧了就特别特别伤心啊……",
+			say = "I feel bad for the girls you pranked too. It makes me very, very sad to see you do things like that to others...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +258,7 @@ return {
 			dir = 1,
 			actor = 107031,
 			nameColor = "#a9f548",
-			say = "姐姐……对不起……",
+			say = "Lexington... I'm really sorry...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +283,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "萨拉啊……等下要好好给人家道歉哦……",
+			say = "It's fine... but make sure to take what I said to heart and make up with your friends...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,7 +297,7 @@ return {
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
-			say = "到了第二天，她依然是那个爱恶作剧的萨拉托加。",
+			say = "And with that, the pranks resumed the next day.",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -324,7 +324,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "……但事后她会好好道歉，也没造成什么实际损害，让人反而会觉得是不是列克星敦太多虑了呢。",
+			say = "Sometimes, she in fact did apologize, and nobody ever got hurt. In fact, some even started to say that... Lexington was a bit too uptight.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

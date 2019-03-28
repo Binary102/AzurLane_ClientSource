@@ -2,6 +2,16 @@ slot0 = class("PreCombatLayer", import("..base.BaseUI"))
 slot1 = import("..ship.FormationUI")
 slot0.FORM_EDIT = "EDIT"
 slot0.FORM_PREVIEW = "PREVIEW"
+slot0.ObjectiveList = {
+	"battle_preCombatLayer_victory",
+	"battle_preCombatLayer_undefeated",
+	"battle_preCombatLayer_sink_limit",
+	"battle_preCombatLayer_time_hold",
+	"battle_preCombatLayer_time_limit",
+	"battle_preCombatLayer_boss_destruct",
+	"battle_preCombatLayer_damage_before_end",
+	"battle_result_defeat_all_enemys"
+}
 
 function slot0.getUIName(slot0)
 	return "PreCombatUI"
@@ -87,41 +97,17 @@ function slot0.SetStageID(slot0, slot1)
 	removeAllChildren(slot0._spoilsContainer)
 
 	slot0._stageID = slot1
-	slot3 = pg.expedition_data_template[slot1].limit_type
-	slot4 = pg.expedition_data_template[slot1].time_limit
-	slot5 = pg.expedition_data_template[slot1].sink_limit
 
-	for slot10, slot11 in ipairs(slot6) do
+	for slot7, slot8 in ipairs(slot3) do
 		updateDrop(cloneTplTo(slot0._item, slot0._spoilsContainer), {
-			id = slot11[2],
-			type = slot11[1]
+			id = slot8[2],
+			type = slot8[1]
 		})
 	end
 
-	slot7 = findTF(slot0._goals, "goal_tpl")
-	slot8 = findTF(slot0._goals, "goal_sink")
-	slot9 = findTF(slot0._goals, "goal_time")
-
-	if slot3 == 1 then
-		slot10 = nil
-
-		setWidgetText(slot7, i18n("battle_preCombatLayer_victory"))
-		setWidgetText(slot8, (slot5 >= 2 or i18n("battle_preCombatLayer_undefeated")) and i18n("battle_preCombatLayer_sink_limit", slot5))
-		setWidgetText(slot9, i18n("battle_preCombatLayer_time_limit", slot4))
-	elseif slot3 == 2 then
-		setActive(slot8, false)
-		setActive(slot9, false)
-		setWidgetText(slot7, i18n("battle_preCombatLayer_time_hold", slot4))
-	elseif slot3 == 3 then
-		setActive(slot8, false)
-		setActive(slot9, false)
-		setWidgetText(slot7, i18n("battle_result_defeat_all_enemys", slot4))
-	elseif slot3 == 5 then
-		setActive(slot8, false)
-		setActive(slot9, false)
-		setWidgetText(slot7, i18n("battle_preCombatLayer_damage_before_end"))
-	end
-
+	slot4(slot2.objective_1, findTF(slot0._goals, "goal_tpl"))
+	slot4(slot2.objective_2, findTF(slot0._goals, "goal_sink"))
+	slot4(slot2.objective_3, findTF(slot0._goals, "goal_time"))
 	setActive(slot0.guideDesc, slot2.guide_desc and #slot2.guide_desc > 0)
 
 	if slot2.guide_desc and #slot2.guide_desc > 0 then

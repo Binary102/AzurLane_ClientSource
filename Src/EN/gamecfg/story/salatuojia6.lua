@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"Best Pictures!\n\n<size=30>六 取材秘辛系列・下</size>",
+					"Best Pictures!\n\n<size=30>Chapter 6: Paparazzi Problems! (Part 2)</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "第三十六张照片上是——晚上在厨房做着什么的萨拉托加。",
+			say = "The thirty-sixth photo was of Saratoga.... preparing something in the kitchen at night.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -34,7 +34,7 @@ return {
 			bgm = "story-1",
 			actor = 107031,
 			nameColor = "#a9f548",
-			say = "格里德利，帮我拿一下那个——",
+			say = "Hey Gridley, could you help get something for me?",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -62,7 +62,7 @@ return {
 			}
 		},
 		{
-			say = "抱歉小加加，那个我也够不着……麻烦你用舰载机了！",
+			say = "Sorry, Sara, I can't reach that either... Why don't you try using your planes?",
 			side = 0,
 			bgName = "bg_night",
 			dir = 1,
@@ -87,7 +87,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔……好吧，舰载机，呃，帮我拿一下，荷兰芹，胡椒还有香草的瓶子！格里德利把这根萝卜磨一下！",
+			say = "Ehh... I guess it's worth a shot. All right, everyone. Umm, let's get the parsley, pepper, and herb shakers! Gridley, can you help grate the radishes?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好的！这点小事当做照片钱太划算了！……不过这是怎么了，突然说什么“我也要做便当”？",
+			say = "All righty! A little bit of work for a prime photo op? That's way too good of a deal! But, why do you suddenly want to make bento box meal?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，是指挥官明天要去学园视察，我跟重樱的孩子打听了一下，说在学园是要吃便当的，所以就——",
+			say = "Well, I heard that Commander would be coming by to inspect the academy tomorrow. I heard from the Sakura kids that for situations like this, you have to prepare a bento, so...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "停——！别说了！",
+			say = "Hoooold your horses! Don't say any more!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			dir = 1,
 			actor = 107031,
 			nameColor = "#a9f548",
-			say = "哇！怎么啦？",
+			say = "Huh? What's the matter?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这些话别对我说，留着说给指挥官吧。",
+			say = "These words aren't meant for me! You should say them to Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "格里德利……",
+			say = "Gridley...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我会支持你的！……对了，佐料放什么？……等等，那瓶是！？",
+			say = "I've got your back, all the way! Oh, by the way, what are you using for the sauce? Wait... what's that bottle over there?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘿嘿，重樱的孩子们说，便当是要符合每个人个性的！",
+			say = "Heheh~ the Sakura kids told me that bentos must be made in a way that reflects one's personality!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这是萨拉妹妹亲手做的特制便当，佐料当然也只能用这个啦~",
+			say = "And there's nothing that would reflect Sister Sara's personality better than this~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +256,7 @@ return {
 			dir = 1,
 			actor = 101051,
 			nameColor = "#a9f548",
-			say = "指挥官快跑——！",
+			say = "Run for your life, Commander!!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -279,7 +279,7 @@ return {
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
-			say = "剩下的，就是最后一张了……",
+			say = "And the last photo in the album is...",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -308,7 +308,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，你在看什么呢？",
+			say = "Commander, what are you looking at?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -322,7 +322,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "抬起头就看到，萨拉托加凑过来的脸，很近。",
+			say = "I raised my head to find Sara staring right at me, her face extremely close.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

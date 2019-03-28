@@ -108,7 +108,7 @@ function slot0.setShip(slot0, slot1)
 		end
 	end
 
-	setActive(slot0.npcFlagTF, slot1:isActivityNpc())
+	setActive(slot0.npcFlagTF, slot1:isActivityNpc() and slot0.page ~= slot0.PAGE.UPGRADE)
 	slot0:setToggleEnable()
 end
 

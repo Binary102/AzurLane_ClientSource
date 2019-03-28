@@ -400,9 +400,7 @@ function slot9.ContainsLabelTag(slot0, slot1)
 end
 
 function slot9.AddLabelTag(slot0, slot1)
-	if not table.contains(slot0._labelTagList, slot1) then
-		table.insert(slot0._labelTagList, slot1)
-	end
+	table.insert(slot0._labelTagList, slot1)
 end
 
 function slot9.RemoveLabelTag(slot0, slot1)

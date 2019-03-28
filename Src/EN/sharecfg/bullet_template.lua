@@ -5425,7 +5425,7 @@ pg.bullet_template = {
 		id = 1501,
 		velocity = 12,
 		damage_type = {
-			0.3,
+			0.45,
 			1.3,
 			1.1
 		},
@@ -5458,7 +5458,13 @@ pg.bullet_template = {
 			time = -1,
 			range = 15
 		},
-		attach_buff = {},
+		attach_buff = {
+			{
+				rant = 2000,
+				buff_id = 400,
+				level = 1
+			}
+		},
 		extra_param = {
 			gravity = -0.05,
 			accuracy = "chargeBulletAccuracy",
@@ -5629,7 +5635,7 @@ pg.bullet_template = {
 		id = 1511,
 		velocity = 12,
 		damage_type = {
-			0.3,
+			0.45,
 			1.3,
 			1.1
 		},
@@ -5662,7 +5668,13 @@ pg.bullet_template = {
 			time = -1,
 			range = 15
 		},
-		attach_buff = {},
+		attach_buff = {
+			{
+				rant = 2000,
+				buff_id = 400,
+				level = 1
+			}
+		},
 		extra_param = {
 			gravity = -0.05,
 			accuracy = "chargeBulletAccuracy",
@@ -5833,7 +5845,7 @@ pg.bullet_template = {
 		id = 1521,
 		velocity = 12,
 		damage_type = {
-			0.3,
+			0.45,
 			1.3,
 			1.1
 		},
@@ -5866,7 +5878,13 @@ pg.bullet_template = {
 			time = -1,
 			range = 15
 		},
-		attach_buff = {},
+		attach_buff = {
+			{
+				rant = 2000,
+				buff_id = 400,
+				level = 1
+			}
+		},
 		extra_param = {
 			gravity = -0.05,
 			accuracy = "chargeBulletAccuracy",
@@ -6078,6 +6096,72 @@ pg.bullet_template = {
 		attach_buff = {},
 		extra_param = {
 			gravity = -0.05,
+			randomOffsetX = 16,
+			randomOffsetZ = 16,
+			diveFilter = {
+				2
+			}
+		},
+		push_power = {}
+	},
+	[1531] = {
+		range_offset = 20,
+		modle_ID = "kuasheAP",
+		type = 2,
+		antisub_enhancement = 0,
+		nobreakdown_sfx = "",
+		alert_fx = "AlertArea",
+		nobreakdown_fx = "huohua",
+		out_bound = 0,
+		miss_fx = "ShellMissBig",
+		miss_sfx = "battle/sink",
+		hit_fx = "ShellHit",
+		range = 80,
+		effect_type = 1,
+		hit_sfx = "battle/torpedo-hit",
+		track_fx = "",
+		pierce_count = 0,
+		ammo_type = 2,
+		id = 1531,
+		velocity = 12,
+		damage_type = {
+			0.3,
+			1.3,
+			1.1
+		},
+		DMG_font = {
+			{
+				4,
+				0.7
+			},
+			{
+				2,
+				1.3
+			},
+			{
+				2,
+				1.1
+			}
+		},
+		acceleration = {},
+		cld_box = {
+			5,
+			2,
+			2
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		hit_type = {
+			time = -1,
+			range = 15
+		},
+		attach_buff = {},
+		extra_param = {
+			gravity = -0.05,
+			accuracy = "chargeBulletAccuracy",
 			randomOffsetX = 16,
 			randomOffsetZ = 16,
 			diveFilter = {
@@ -6308,7 +6392,7 @@ pg.bullet_template = {
 		id = 1551,
 		velocity = 12,
 		damage_type = {
-			0.3,
+			0.45,
 			1.3,
 			1.1
 		},
@@ -6341,7 +6425,13 @@ pg.bullet_template = {
 			time = -1,
 			range = 15
 		},
-		attach_buff = {},
+		attach_buff = {
+			{
+				rant = 2000,
+				buff_id = 400,
+				level = 1
+			}
+		},
 		extra_param = {
 			gravity = -0.05,
 			accuracy = "chargeBulletAccuracy",
@@ -9243,7 +9333,7 @@ pg.bullet_template = {
 	},
 	[2121] = {
 		range_offset = 20,
-		modle_ID = "Bomberbomb1",
+		modle_ID = "Bomberbomb100",
 		type = 2,
 		antisub_enhancement = 0,
 		nobreakdown_sfx = "",
@@ -9312,7 +9402,7 @@ pg.bullet_template = {
 	},
 	[2122] = {
 		range_offset = 20,
-		modle_ID = "Bomberbomb1",
+		modle_ID = "Bomberbomb500",
 		type = 2,
 		antisub_enhancement = 0,
 		nobreakdown_sfx = "",
@@ -9381,7 +9471,7 @@ pg.bullet_template = {
 	},
 	[2123] = {
 		range_offset = 20,
-		modle_ID = "Bomberbomb1",
+		modle_ID = "Bomberbomb1000",
 		type = 2,
 		antisub_enhancement = 0,
 		nobreakdown_sfx = "",
@@ -9450,7 +9540,7 @@ pg.bullet_template = {
 	},
 	[2124] = {
 		range_offset = 20,
-		modle_ID = "Bomberbomb1",
+		modle_ID = "Bomberbomb1600",
 		type = 2,
 		antisub_enhancement = 0,
 		nobreakdown_sfx = "",
@@ -9519,7 +9609,7 @@ pg.bullet_template = {
 	},
 	[2125] = {
 		range_offset = 20,
-		modle_ID = "Bomberbomb1",
+		modle_ID = "Bomberbomb2000",
 		type = 2,
 		antisub_enhancement = 0,
 		nobreakdown_sfx = "",
@@ -9588,7 +9678,7 @@ pg.bullet_template = {
 	},
 	[2126] = {
 		range_offset = 20,
-		modle_ID = "Bomberbomb1",
+		modle_ID = "Bomberbomb100",
 		type = 2,
 		antisub_enhancement = 0,
 		nobreakdown_sfx = "",
@@ -9657,7 +9747,7 @@ pg.bullet_template = {
 	},
 	[2127] = {
 		range_offset = 20,
-		modle_ID = "Bomberbomb1",
+		modle_ID = "Bomberbomb100",
 		type = 2,
 		antisub_enhancement = 0,
 		nobreakdown_sfx = "",
@@ -10364,7 +10454,7 @@ pg.bullet_template = {
 	},
 	[9000] = {
 		range_offset = 20,
-		modle_ID = "Bomberbomb1",
+		modle_ID = "Bomberbomb2000",
 		type = 2,
 		antisub_enhancement = 0.6,
 		nobreakdown_sfx = "",
@@ -10432,7 +10522,7 @@ pg.bullet_template = {
 	},
 	[9001] = {
 		range_offset = 20,
-		modle_ID = "Bomberbomb1",
+		modle_ID = "Bomberbomb2000",
 		type = 2,
 		antisub_enhancement = 0.6,
 		nobreakdown_sfx = "",
@@ -10500,7 +10590,7 @@ pg.bullet_template = {
 	},
 	[9002] = {
 		range_offset = 20,
-		modle_ID = "Bomberbomb1",
+		modle_ID = "Bomberbomb2000",
 		type = 2,
 		antisub_enhancement = 0.6,
 		nobreakdown_sfx = "",
@@ -10568,7 +10658,7 @@ pg.bullet_template = {
 	},
 	[9003] = {
 		range_offset = 20,
-		modle_ID = "Bomberbomb1",
+		modle_ID = "Bomberbomb2000",
 		type = 2,
 		antisub_enhancement = 0.6,
 		nobreakdown_sfx = "",
@@ -10636,7 +10726,7 @@ pg.bullet_template = {
 	},
 	[9004] = {
 		range_offset = 20,
-		modle_ID = "Bomberbomb1",
+		modle_ID = "Bomberbomb2000",
 		type = 2,
 		antisub_enhancement = 0.6,
 		nobreakdown_sfx = "",
@@ -10704,7 +10794,7 @@ pg.bullet_template = {
 	},
 	[9005] = {
 		range_offset = 20,
-		modle_ID = "Bomberbomb1",
+		modle_ID = "Bomberbomb2000",
 		type = 2,
 		antisub_enhancement = 0.6,
 		nobreakdown_sfx = "",
@@ -17413,7 +17503,7 @@ pg.bullet_template = {
 		id = 19922,
 		velocity = 5.5,
 		damage_type = {
-			0.25,
+			0.5,
 			1.35,
 			1.2
 		},
@@ -18274,7 +18364,7 @@ pg.bullet_template = {
 	},
 	[19935] = {
 		range_offset = 20,
-		modle_ID = "Bomberbomb1",
+		modle_ID = "Bomberbomb2000",
 		type = 2,
 		antisub_enhancement = 0,
 		nobreakdown_sfx = "",
@@ -18349,7 +18439,7 @@ pg.bullet_template = {
 	},
 	[19936] = {
 		range_offset = 20,
-		modle_ID = "Bomberbomb1",
+		modle_ID = "Bomberbomb100",
 		type = 2,
 		antisub_enhancement = 0,
 		nobreakdown_sfx = "",
@@ -18839,7 +18929,7 @@ pg.bullet_template = {
 		id = 19943,
 		velocity = 11,
 		damage_type = {
-			0.6,
+			0.65,
 			1.35,
 			1.15
 		},
@@ -18872,7 +18962,13 @@ pg.bullet_template = {
 			time = -1,
 			range = 8
 		},
-		attach_buff = {},
+		attach_buff = {
+			{
+				rant = 2000,
+				buff_id = 400,
+				level = 1
+			}
+		},
 		extra_param = {
 			gravity = -0.3,
 			randomOffsetX = 9,
@@ -18946,7 +19042,7 @@ pg.bullet_template = {
 	},
 	[19945] = {
 		range_offset = 20,
-		modle_ID = "Bomberbomb1",
+		modle_ID = "Bomberbomb1000",
 		type = 2,
 		antisub_enhancement = 0,
 		nobreakdown_sfx = "",
@@ -19015,7 +19111,7 @@ pg.bullet_template = {
 	},
 	[19946] = {
 		range_offset = 20,
-		modle_ID = "Bomberbomb1",
+		modle_ID = "Bomberbomb100",
 		type = 2,
 		antisub_enhancement = 0,
 		nobreakdown_sfx = "",
@@ -19084,7 +19180,7 @@ pg.bullet_template = {
 	},
 	[19947] = {
 		range_offset = 20,
-		modle_ID = "Bomberbomb1",
+		modle_ID = "Bomberbomb500",
 		type = 2,
 		antisub_enhancement = 0.6,
 		nobreakdown_sfx = "",
@@ -19152,7 +19248,7 @@ pg.bullet_template = {
 	},
 	[19948] = {
 		range_offset = 20,
-		modle_ID = "Bomberbomb1",
+		modle_ID = "Bomberbomb500",
 		type = 2,
 		antisub_enhancement = 0.6,
 		nobreakdown_sfx = "",
@@ -19220,7 +19316,7 @@ pg.bullet_template = {
 	},
 	[19949] = {
 		range_offset = 20,
-		modle_ID = "Bomberbomb1",
+		modle_ID = "Bomberbomb500",
 		type = 2,
 		antisub_enhancement = 0.6,
 		nobreakdown_sfx = "",
@@ -19288,7 +19384,7 @@ pg.bullet_template = {
 	},
 	[19950] = {
 		range_offset = 20,
-		modle_ID = "Bomberbomb1",
+		modle_ID = "Bomberbomb500",
 		type = 2,
 		antisub_enhancement = 0.6,
 		nobreakdown_sfx = "",
@@ -19492,7 +19588,7 @@ pg.bullet_template = {
 	},
 	[19953] = {
 		range_offset = 20,
-		modle_ID = "Bomberbomb1",
+		modle_ID = "Bomberbomb500",
 		type = 2,
 		antisub_enhancement = 0,
 		nobreakdown_sfx = "",
@@ -19561,7 +19657,7 @@ pg.bullet_template = {
 	},
 	[19954] = {
 		range_offset = 20,
-		modle_ID = "Bomberbomb1",
+		modle_ID = "Bomberbomb500",
 		type = 2,
 		antisub_enhancement = 0,
 		nobreakdown_sfx = "",
@@ -20433,7 +20529,7 @@ pg.bullet_template = {
 	},
 	[19967] = {
 		range_offset = 20,
-		modle_ID = "Bomberbomb1",
+		modle_ID = "Bomberbomb1000",
 		type = 2,
 		antisub_enhancement = 0,
 		nobreakdown_sfx = "",
@@ -20502,7 +20598,7 @@ pg.bullet_template = {
 	},
 	[19968] = {
 		range_offset = 20,
-		modle_ID = "Bomberbomb1",
+		modle_ID = "Bomberbomb100",
 		type = 2,
 		antisub_enhancement = 0,
 		nobreakdown_sfx = "",
@@ -20700,7 +20796,7 @@ pg.bullet_template = {
 	},
 	[19972] = {
 		range_offset = 20,
-		modle_ID = "Bomberbomb1",
+		modle_ID = "Bomberbomb100",
 		type = 2,
 		antisub_enhancement = 0,
 		nobreakdown_sfx = "",
@@ -20769,7 +20865,7 @@ pg.bullet_template = {
 	},
 	[19973] = {
 		range_offset = 20,
-		modle_ID = "Bomberbomb1",
+		modle_ID = "Bomberbomb500",
 		type = 2,
 		antisub_enhancement = 0,
 		nobreakdown_sfx = "",
@@ -21366,7 +21462,7 @@ pg.bullet_template = {
 		id = 19984,
 		velocity = 12,
 		damage_type = {
-			0.3,
+			0.45,
 			1.3,
 			1.1
 		},
@@ -21614,7 +21710,7 @@ pg.bullet_template = {
 	},
 	[19988] = {
 		range_offset = 20,
-		modle_ID = "Bomberbomb1",
+		modle_ID = "Bomberbomb500",
 		type = 2,
 		antisub_enhancement = 0,
 		nobreakdown_sfx = "",
@@ -21683,7 +21779,7 @@ pg.bullet_template = {
 	},
 	[19989] = {
 		range_offset = 20,
-		modle_ID = "Bomberbomb1",
+		modle_ID = "Bomberbomb500",
 		type = 2,
 		antisub_enhancement = 0,
 		nobreakdown_sfx = "",
@@ -21741,6 +21837,268 @@ pg.bullet_template = {
 			launchVrtSpeed = -3,
 			offsetY = 60,
 			airdrop = true,
+			diveFilter = {
+				2
+			}
+		},
+		push_power = {}
+	},
+	[19990] = {
+		range_offset = 20,
+		modle_ID = "Torpedo01",
+		type = 3,
+		antisub_enhancement = 0,
+		nobreakdown_sfx = "",
+		alert_fx = "TorAlert",
+		nobreakdown_fx = "huohua",
+		out_bound = 0,
+		miss_fx = "",
+		miss_sfx = "",
+		hit_fx = "TorpedoHit3",
+		range = 100,
+		effect_type = 1,
+		hit_sfx = "battle/torpedo-hit",
+		track_fx = "",
+		pierce_count = 0,
+		ammo_type = 4,
+		id = 19990,
+		velocity = 3,
+		damage_type = {
+			0.8,
+			1,
+			1.3
+		},
+		DMG_font = {
+			{
+				3,
+				0.8
+			},
+			{
+				3,
+				1
+			},
+			{
+				3,
+				1.3
+			}
+		},
+		acceleration = {},
+		cld_box = {
+			1.8,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		hit_type = {
+			time = -1,
+			range = 3
+		},
+		attach_buff = {},
+		extra_param = {
+			diveFilter = {
+				2
+			}
+		},
+		push_power = {}
+	},
+	[19991] = {
+		range_offset = 20,
+		modle_ID = "Torpedoairus",
+		type = 3,
+		antisub_enhancement = 0,
+		nobreakdown_sfx = "",
+		alert_fx = "TorAlert",
+		nobreakdown_fx = "huohua",
+		out_bound = 0,
+		miss_fx = "",
+		miss_sfx = "",
+		hit_fx = "TorpedoHit3",
+		range = 100,
+		effect_type = 1,
+		hit_sfx = "battle/torpedo-hit",
+		track_fx = "",
+		pierce_count = 0,
+		ammo_type = 4,
+		id = 19991,
+		velocity = 3,
+		damage_type = {
+			0.8,
+			1.1,
+			1.3
+		},
+		DMG_font = {
+			{
+				3,
+				1
+			},
+			{
+				3,
+				1
+			},
+			{
+				3,
+				1.4
+			}
+		},
+		acceleration = {},
+		cld_box = {
+			1.8,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		hit_type = {
+			time = -1,
+			range = 3
+		},
+		attach_buff = {},
+		extra_param = {
+			diveFilter = {
+				2
+			}
+		},
+		push_power = {}
+	},
+	[19992] = {
+		range_offset = 20,
+		modle_ID = "Bomberbomb2000",
+		type = 2,
+		antisub_enhancement = 0,
+		nobreakdown_sfx = "",
+		alert_fx = "AlertArea",
+		nobreakdown_fx = "huohua",
+		out_bound = 0,
+		miss_fx = "ShellMissBig",
+		miss_sfx = "",
+		hit_fx = "ShellHit",
+		range = 200,
+		effect_type = 1,
+		hit_sfx = "battle/hit",
+		track_fx = "",
+		pierce_count = 0,
+		ammo_type = 6,
+		id = 19992,
+		velocity = 1.5,
+		damage_type = {
+			0.7,
+			1.05,
+			1.25
+		},
+		DMG_font = {
+			{
+				3,
+				0.7
+			},
+			{
+				3,
+				1
+			},
+			{
+				3,
+				1.4
+			}
+		},
+		acceleration = {},
+		cld_box = {
+			1.8,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		hit_type = {
+			time = -1,
+			range = 28
+		},
+		attach_buff = {},
+		extra_param = {
+			gravity = -0.05,
+			randomOffsetX = 42,
+			launchVrtSpeed = -3,
+			offsetY = 60,
+			airdrop = true,
+			offsetX = -5,
+			randomOffsetZ = 42,
+			diveFilter = {
+				2
+			}
+		},
+		push_power = {}
+	},
+	[19993] = {
+		range_offset = 20,
+		modle_ID = "Bomberbomb100",
+		type = 2,
+		antisub_enhancement = 0,
+		nobreakdown_sfx = "",
+		alert_fx = "AlertArea",
+		nobreakdown_fx = "huohua",
+		out_bound = 0,
+		miss_fx = "ShellMissBig",
+		miss_sfx = "",
+		hit_fx = "CAHit",
+		range = 200,
+		effect_type = 1,
+		hit_sfx = "battle/hit",
+		track_fx = "",
+		pierce_count = 0,
+		ammo_type = 6,
+		id = 19993,
+		velocity = 1.5,
+		damage_type = {
+			0.8,
+			0.85,
+			1
+		},
+		DMG_font = {
+			{
+				3,
+				1
+			},
+			{
+				3,
+				1
+			},
+			{
+				3,
+				1.1
+			}
+		},
+		acceleration = {},
+		cld_box = {
+			1.8,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		hit_type = {
+			time = -1,
+			range = 16
+		},
+		attach_buff = {},
+		extra_param = {
+			gravity = -0.05,
+			randomOffsetX = 33,
+			launchVrtSpeed = -3,
+			offsetY = 60,
+			airdrop = true,
+			offsetX = -5,
+			randomOffsetZ = 33,
 			diveFilter = {
 				2
 			}
@@ -31103,7 +31461,7 @@ pg.bullet_template = {
 	},
 	[60002] = {
 		range_offset = 20,
-		modle_ID = "Bomberbomb1",
+		modle_ID = "Bomberbomb500",
 		type = 2,
 		antisub_enhancement = 0,
 		nobreakdown_sfx = "",
@@ -31172,7 +31530,7 @@ pg.bullet_template = {
 	},
 	[60003] = {
 		range_offset = 20,
-		modle_ID = "Bomberbomb1",
+		modle_ID = "Bomberbomb500",
 		type = 2,
 		antisub_enhancement = 0,
 		nobreakdown_sfx = "",
@@ -34766,6 +35124,183 @@ pg.bullet_template = {
 		extra_param = {},
 		push_power = {}
 	},
+	[72255] = {
+		range_offset = 10,
+		modle_ID = "kuasheHE",
+		type = 1,
+		antisub_enhancement = 0,
+		nobreakdown_sfx = "",
+		alert_fx = "",
+		nobreakdown_fx = "huohua",
+		out_bound = 0,
+		miss_fx = "ShellMissBig",
+		miss_sfx = "battle/sink",
+		hit_fx = "CAHit",
+		range = 80,
+		effect_type = 1,
+		hit_sfx = "battle/hit",
+		track_fx = "",
+		pierce_count = 0,
+		ammo_type = 3,
+		id = 72255,
+		velocity = 16,
+		damage_type = {
+			1.25,
+			0.85,
+			0.65
+		},
+		DMG_font = {
+			{
+				3,
+				1.2
+			},
+			{
+				3,
+				0.8
+			},
+			{
+				3,
+				0.7
+			}
+		},
+		acceleration = {},
+		cld_box = {
+			5,
+			2,
+			2
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		hit_type = {},
+		attach_buff = {
+			{
+				rant = 800,
+				buff_id = 311,
+				level = 3
+			}
+		},
+		extra_param = {},
+		push_power = {}
+	},
+	[72256] = {
+		range_offset = 10,
+		modle_ID = "kuasheHE",
+		type = 1,
+		antisub_enhancement = 0,
+		nobreakdown_sfx = "",
+		alert_fx = "",
+		nobreakdown_fx = "huohua",
+		out_bound = 0,
+		miss_fx = "ShellMissBig",
+		miss_sfx = "battle/sink",
+		hit_fx = "CAHit",
+		range = 80,
+		effect_type = 1,
+		hit_sfx = "battle/hit",
+		track_fx = "",
+		pierce_count = 0,
+		ammo_type = 3,
+		id = 72256,
+		velocity = 16,
+		damage_type = {
+			1.25,
+			1,
+			0.8
+		},
+		DMG_font = {
+			{
+				3,
+				1.2
+			},
+			{
+				3,
+				1
+			},
+			{
+				3,
+				0.8
+			}
+		},
+		acceleration = {},
+		cld_box = {
+			5,
+			2,
+			2
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		hit_type = {},
+		attach_buff = {
+			{
+				rant = 800,
+				buff_id = 311,
+				level = 3
+			}
+		},
+		extra_param = {},
+		push_power = {}
+	},
+	[72257] = {
+		range_offset = 10,
+		modle_ID = "Bullet1",
+		type = 1,
+		antisub_enhancement = 0,
+		nobreakdown_sfx = "",
+		alert_fx = "",
+		nobreakdown_fx = "huohua",
+		out_bound = 0,
+		miss_fx = "ShellMissBig",
+		miss_sfx = "battle/sink",
+		hit_fx = "CAHit",
+		range = 50,
+		effect_type = 1,
+		hit_sfx = "battle/hit",
+		track_fx = "",
+		pierce_count = 1,
+		ammo_type = 2,
+		id = 72257,
+		velocity = 22,
+		damage_type = {
+			0.75,
+			1.1,
+			0.75
+		},
+		DMG_font = {
+			{
+				2,
+				0.8
+			},
+			{
+				2,
+				1.2
+			},
+			{
+				2,
+				1
+			}
+		},
+		acceleration = {},
+		cld_box = {
+			5,
+			2,
+			2
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		hit_type = {},
+		attach_buff = {},
+		extra_param = {},
+		push_power = {}
+	},
 	[72311] = {
 		range_offset = 20,
 		modle_ID = "Torpedo01",
@@ -34940,7 +35475,7 @@ pg.bullet_template = {
 	},
 	[73011] = {
 		range_offset = 10,
-		modle_ID = "BulletUK",
+		modle_ID = "Bullet1",
 		type = 1,
 		antisub_enhancement = 0,
 		nobreakdown_sfx = "",
@@ -34950,36 +35485,36 @@ pg.bullet_template = {
 		miss_fx = "ShellMiss",
 		miss_sfx = "battle/sink",
 		hit_fx = "pofang",
-		range = 80,
+		range = 100,
 		effect_type = 1,
 		hit_sfx = "battle/hit",
 		track_fx = "",
 		pierce_count = 0,
-		ammo_type = 1,
+		ammo_type = 2,
 		id = 73011,
-		velocity = 3,
+		velocity = 18,
 		damage_type = {
-			1,
-			0.8,
-			0.6
+			0.9,
+			0.7,
+			0.4
 		},
 		DMG_font = {
 			{
-				1,
+				2,
 				1
 			},
 			{
-				1,
-				1
+				2,
+				0.9
 			},
 			{
-				1,
-				1
+				4,
+				0.8
 			}
 		},
 		acceleration = {
 			{
-				u = 0.1,
+				u = 0.035,
 				flip = false,
 				v = 0,
 				t = 0
@@ -38811,6 +39346,68 @@ pg.bullet_template = {
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {},
+		push_power = {}
+	},
+	[79371] = {
+		range_offset = 20,
+		modle_ID = "Torpedo01",
+		type = 3,
+		antisub_enhancement = 0,
+		nobreakdown_sfx = "",
+		alert_fx = "TorAlert",
+		nobreakdown_fx = "huohua",
+		out_bound = 0,
+		miss_fx = "",
+		miss_sfx = "",
+		hit_fx = "TorpedoHit3",
+		range = 100,
+		effect_type = 1,
+		hit_sfx = "battle/torpedo-hit",
+		track_fx = "",
+		pierce_count = 0,
+		ammo_type = 4,
+		id = 79371,
+		velocity = 4,
+		damage_type = {
+			0.8,
+			1,
+			1.3
+		},
+		DMG_font = {
+			{
+				3,
+				0.8
+			},
+			{
+				3,
+				1
+			},
+			{
+				3,
+				1.3
+			}
+		},
+		acceleration = {},
+		cld_box = {
+			1.8,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		hit_type = {
+			time = -1,
+			range = 3
+		},
+		attach_buff = {},
+		extra_param = {
+			diveFilter = {
+				2
+			}
+		},
 		push_power = {}
 	},
 	[80001] = {
@@ -65679,6 +66276,2183 @@ pg.bullet_template = {
 		extra_param = {},
 		push_power = {}
 	},
+	[130001] = {
+		range_offset = 20,
+		modle_ID = "zimudan",
+		type = 5,
+		antisub_enhancement = 0,
+		nobreakdown_sfx = "",
+		alert_fx = "",
+		nobreakdown_fx = "huohua",
+		out_bound = 0,
+		miss_fx = "ShellMiss",
+		miss_sfx = "",
+		hit_fx = "pofang",
+		range = 30,
+		effect_type = 1,
+		hit_sfx = "battle/hit",
+		track_fx = "",
+		pierce_count = 0,
+		ammo_type = 1,
+		id = 130001,
+		velocity = 3,
+		damage_type = {
+			1,
+			0.8,
+			0.6
+		},
+		DMG_font = {
+			{
+				1,
+				1
+			},
+			{
+				1,
+				1
+			},
+			{
+				1,
+				1
+			}
+		},
+		acceleration = {},
+		cld_box = {
+			1.6,
+			1.6,
+			1.6
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		hit_type = {},
+		attach_buff = {},
+		extra_param = {
+			lastTime = 2,
+			shrapnel = {
+				{
+					emitterType = "BattleBulletEmitter",
+					bullet_ID = 130002,
+					barrage_ID = 130102
+				},
+				FXID = "huoqiubaozha2"
+			}
+		},
+		push_power = {}
+	},
+	[130002] = {
+		range_offset = 0,
+		modle_ID = "hwxgz_1",
+		type = 1,
+		antisub_enhancement = 0,
+		nobreakdown_sfx = "",
+		alert_fx = "",
+		nobreakdown_fx = "huohua",
+		out_bound = 1,
+		miss_fx = "ShellMiss",
+		miss_sfx = "battle/sink",
+		hit_fx = "BlueHit",
+		range = 90,
+		effect_type = 1,
+		hit_sfx = "battle/hit",
+		track_fx = "",
+		pierce_count = 0,
+		ammo_type = 1,
+		id = 130002,
+		velocity = 10,
+		damage_type = {
+			1,
+			0.8,
+			0.6
+		},
+		DMG_font = {
+			{
+				1,
+				1
+			},
+			{
+				1,
+				1
+			},
+			{
+				1,
+				1
+			}
+		},
+		acceleration = {
+			{
+				u = -0.06,
+				flip = false,
+				v = 0,
+				t = 0
+			},
+			{
+				u = 0,
+				flip = false,
+				v = 0,
+				t = 1
+			},
+			{
+				u = 0.5,
+				flip = false,
+				v = 0,
+				t = 1.5
+			}
+		},
+		cld_box = {
+			2,
+			2,
+			2
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		hit_type = {},
+		attach_buff = {},
+		extra_param = {},
+		push_power = {}
+	},
+	[130105] = {
+		range_offset = 0,
+		modle_ID = "kuasheAP",
+		type = 1,
+		antisub_enhancement = 0,
+		nobreakdown_sfx = "",
+		alert_fx = "",
+		nobreakdown_fx = "huohua",
+		out_bound = 1,
+		miss_fx = "ShellMissBig",
+		miss_sfx = "battle/sink",
+		hit_fx = "CAHit",
+		range = 100,
+		effect_type = 1,
+		hit_sfx = "battle/hit",
+		track_fx = "",
+		pierce_count = 0,
+		ammo_type = 3,
+		id = 130105,
+		velocity = 10,
+		damage_type = {
+			1.35,
+			0.95,
+			0.7
+		},
+		DMG_font = {
+			{
+				3,
+				1.2
+			},
+			{
+				3,
+				0.9
+			},
+			{
+				3,
+				0.7
+			}
+		},
+		acceleration = {
+			{
+				u = 0,
+				flip = false,
+				v = 0.5,
+				t = 0.2
+			},
+			{
+				u = 0,
+				flip = false,
+				v = 0,
+				t = 0.4
+			},
+			{
+				u = 0.1,
+				flip = false,
+				v = 0.15,
+				t = 0.5
+			}
+		},
+		cld_box = {
+			5,
+			2,
+			2
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		hit_type = {},
+		attach_buff = {},
+		extra_param = {},
+		push_power = {}
+	},
+	[130106] = {
+		range_offset = 0,
+		modle_ID = "kuashe",
+		type = 1,
+		antisub_enhancement = 0,
+		nobreakdown_sfx = "",
+		alert_fx = "",
+		nobreakdown_fx = "huohua",
+		out_bound = 1,
+		miss_fx = "ShellMissBig",
+		miss_sfx = "battle/sink",
+		hit_fx = "CAHit",
+		range = 100,
+		effect_type = 1,
+		hit_sfx = "battle/hit",
+		track_fx = "",
+		pierce_count = 0,
+		ammo_type = 3,
+		id = 130106,
+		velocity = 10,
+		damage_type = {
+			1.35,
+			0.95,
+			0.7
+		},
+		DMG_font = {
+			{
+				3,
+				1.2
+			},
+			{
+				3,
+				0.9
+			},
+			{
+				3,
+				0.7
+			}
+		},
+		acceleration = {
+			{
+				u = 0.1,
+				flip = false,
+				v = -0.2,
+				t = 0
+			},
+			{
+				u = 0.1,
+				flip = false,
+				v = 0.27,
+				t = 0.25
+			}
+		},
+		cld_box = {
+			5,
+			2,
+			2
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		hit_type = {},
+		attach_buff = {},
+		extra_param = {},
+		push_power = {}
+	},
+	[130107] = {
+		range_offset = 0,
+		modle_ID = "kuasheAP",
+		type = 1,
+		antisub_enhancement = 0,
+		nobreakdown_sfx = "",
+		alert_fx = "",
+		nobreakdown_fx = "huohua",
+		out_bound = 1,
+		miss_fx = "ShellMissBig",
+		miss_sfx = "battle/sink",
+		hit_fx = "CAHit",
+		range = 100,
+		effect_type = 1,
+		hit_sfx = "battle/hit",
+		track_fx = "",
+		pierce_count = 0,
+		ammo_type = 3,
+		id = 130107,
+		velocity = 10,
+		damage_type = {
+			1.35,
+			0.95,
+			0.7
+		},
+		DMG_font = {
+			{
+				3,
+				1.2
+			},
+			{
+				3,
+				0.9
+			},
+			{
+				3,
+				0.7
+			}
+		},
+		acceleration = {
+			{
+				u = 0,
+				flip = false,
+				v = -0.5,
+				t = 0.2
+			},
+			{
+				u = 0,
+				flip = false,
+				v = 0,
+				t = 0.4
+			},
+			{
+				u = 0.1,
+				flip = false,
+				v = -0.2,
+				t = 0.5
+			}
+		},
+		cld_box = {
+			5,
+			2,
+			2
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		hit_type = {},
+		attach_buff = {},
+		extra_param = {},
+		push_power = {}
+	},
+	[130108] = {
+		range_offset = 0,
+		modle_ID = "kuashe",
+		type = 1,
+		antisub_enhancement = 0,
+		nobreakdown_sfx = "",
+		alert_fx = "",
+		nobreakdown_fx = "huohua",
+		out_bound = 1,
+		miss_fx = "ShellMissBig",
+		miss_sfx = "battle/sink",
+		hit_fx = "CAHit",
+		range = 100,
+		effect_type = 1,
+		hit_sfx = "battle/hit",
+		track_fx = "",
+		pierce_count = 0,
+		ammo_type = 3,
+		id = 130108,
+		velocity = 10,
+		damage_type = {
+			1.35,
+			0.95,
+			0.7
+		},
+		DMG_font = {
+			{
+				3,
+				1.2
+			},
+			{
+				3,
+				0.9
+			},
+			{
+				3,
+				0.7
+			}
+		},
+		acceleration = {
+			{
+				u = 0.1,
+				flip = false,
+				v = 0.2,
+				t = 0
+			},
+			{
+				u = 0.1,
+				flip = false,
+				v = -0.27,
+				t = 0.25
+			}
+		},
+		cld_box = {
+			5,
+			2,
+			2
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		hit_type = {},
+		attach_buff = {},
+		extra_param = {},
+		push_power = {}
+	},
+	[130109] = {
+		range_offset = 0,
+		modle_ID = "kuasheAP",
+		type = 1,
+		antisub_enhancement = 0,
+		nobreakdown_sfx = "",
+		alert_fx = "",
+		nobreakdown_fx = "huohua",
+		out_bound = 1,
+		miss_fx = "ShellMissBig",
+		miss_sfx = "battle/sink",
+		hit_fx = "CAHit",
+		range = 100,
+		effect_type = 1,
+		hit_sfx = "battle/hit",
+		track_fx = "",
+		pierce_count = 0,
+		ammo_type = 3,
+		id = 130109,
+		velocity = 3.9,
+		damage_type = {
+			1.35,
+			0.95,
+			0.7
+		},
+		DMG_font = {
+			{
+				3,
+				1.2
+			},
+			{
+				3,
+				0.9
+			},
+			{
+				3,
+				0.7
+			}
+		},
+		acceleration = {
+			{
+				u = 0.2,
+				flip = false,
+				v = 0.4,
+				t = 0.8
+			}
+		},
+		cld_box = {
+			5,
+			2,
+			2
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		hit_type = {},
+		attach_buff = {},
+		extra_param = {},
+		push_power = {}
+	},
+	[130110] = {
+		range_offset = 0,
+		modle_ID = "kuasheAP",
+		type = 1,
+		antisub_enhancement = 0,
+		nobreakdown_sfx = "",
+		alert_fx = "",
+		nobreakdown_fx = "huohua",
+		out_bound = 1,
+		miss_fx = "ShellMissBig",
+		miss_sfx = "battle/sink",
+		hit_fx = "CAHit",
+		range = 100,
+		effect_type = 1,
+		hit_sfx = "battle/hit",
+		track_fx = "",
+		pierce_count = 0,
+		ammo_type = 3,
+		id = 130110,
+		velocity = 3.9,
+		damage_type = {
+			1.35,
+			0.95,
+			0.7
+		},
+		DMG_font = {
+			{
+				3,
+				1.2
+			},
+			{
+				3,
+				0.9
+			},
+			{
+				3,
+				0.7
+			}
+		},
+		acceleration = {
+			{
+				u = 0.2,
+				flip = false,
+				v = -0.4,
+				t = 0.8
+			}
+		},
+		cld_box = {
+			5,
+			2,
+			2
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		hit_type = {},
+		attach_buff = {},
+		extra_param = {},
+		push_power = {}
+	},
+	[130111] = {
+		range_offset = 0,
+		modle_ID = "kuasheHE",
+		type = 1,
+		antisub_enhancement = 0,
+		nobreakdown_sfx = "",
+		alert_fx = "",
+		nobreakdown_fx = "huohua",
+		out_bound = 1,
+		miss_fx = "ShellMissBig",
+		miss_sfx = "battle/sink",
+		hit_fx = "CAHit",
+		range = 100,
+		effect_type = 1,
+		hit_sfx = "battle/hit",
+		track_fx = "",
+		pierce_count = 0,
+		ammo_type = 3,
+		id = 130111,
+		velocity = 4,
+		damage_type = {
+			1.35,
+			0.95,
+			0.7
+		},
+		DMG_font = {
+			{
+				3,
+				1.2
+			},
+			{
+				3,
+				0.9
+			},
+			{
+				3,
+				0.7
+			}
+		},
+		acceleration = {
+			{
+				u = 0.2,
+				flip = false,
+				v = 0.35,
+				t = 1
+			}
+		},
+		cld_box = {
+			5,
+			2,
+			2
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		hit_type = {},
+		attach_buff = {},
+		extra_param = {},
+		push_power = {}
+	},
+	[130112] = {
+		range_offset = 0,
+		modle_ID = "kuasheHE",
+		type = 1,
+		antisub_enhancement = 0,
+		nobreakdown_sfx = "",
+		alert_fx = "",
+		nobreakdown_fx = "huohua",
+		out_bound = 1,
+		miss_fx = "ShellMissBig",
+		miss_sfx = "battle/sink",
+		hit_fx = "CAHit",
+		range = 100,
+		effect_type = 1,
+		hit_sfx = "battle/hit",
+		track_fx = "",
+		pierce_count = 0,
+		ammo_type = 3,
+		id = 130112,
+		velocity = 4,
+		damage_type = {
+			1.35,
+			0.95,
+			0.7
+		},
+		DMG_font = {
+			{
+				3,
+				1.2
+			},
+			{
+				3,
+				0.9
+			},
+			{
+				3,
+				0.7
+			}
+		},
+		acceleration = {
+			{
+				u = 0.2,
+				flip = false,
+				v = -0.35,
+				t = 1
+			}
+		},
+		cld_box = {
+			5,
+			2,
+			2
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		hit_type = {},
+		attach_buff = {},
+		extra_param = {},
+		push_power = {}
+	},
+	[130113] = {
+		range_offset = 10,
+		modle_ID = "kuashe",
+		type = 5,
+		antisub_enhancement = 0,
+		nobreakdown_sfx = "",
+		alert_fx = "",
+		nobreakdown_fx = "huohua",
+		out_bound = 0,
+		miss_fx = "ShellMissBig",
+		miss_sfx = "",
+		hit_fx = "TorpedoHit3",
+		range = 65,
+		effect_type = 1,
+		hit_sfx = "battle/torpedo-hit",
+		track_fx = "",
+		pierce_count = 0,
+		ammo_type = 3,
+		id = 130113,
+		velocity = 10,
+		damage_type = {
+			1.1,
+			1,
+			0.8
+		},
+		DMG_font = {
+			{
+				1,
+				1.1
+			},
+			{
+				1,
+				1
+			},
+			{
+				4,
+				1
+			}
+		},
+		acceleration = {},
+		cld_box = {
+			1.5,
+			1,
+			1.3
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		hit_type = {
+			time = -1,
+			range = 4
+		},
+		attach_buff = {},
+		extra_param = {
+			lastTime = 2,
+			shrapnel = {
+				{
+					emitterType = "BattleBulletEmitter",
+					bullet_ID = 40008,
+					barrage_ID = 21000
+				},
+				FXID = "huoqiubaozha2"
+			}
+		},
+		push_power = {}
+	},
+	[130114] = {
+		range_offset = 20,
+		modle_ID = "zimudan",
+		type = 5,
+		antisub_enhancement = 0,
+		nobreakdown_sfx = "",
+		alert_fx = "",
+		nobreakdown_fx = "huohua",
+		out_bound = 0,
+		miss_fx = "ShellMiss",
+		miss_sfx = "",
+		hit_fx = "pofang",
+		range = 30,
+		effect_type = 1,
+		hit_sfx = "battle/hit",
+		track_fx = "",
+		pierce_count = 0,
+		ammo_type = 1,
+		id = 130114,
+		velocity = 3,
+		damage_type = {
+			1,
+			0.8,
+			0.6
+		},
+		DMG_font = {
+			{
+				1,
+				1
+			},
+			{
+				1,
+				1
+			},
+			{
+				1,
+				1
+			}
+		},
+		acceleration = {},
+		cld_box = {
+			1.6,
+			1.6,
+			1.6
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		hit_type = {},
+		attach_buff = {},
+		extra_param = {
+			lastTime = 2,
+			shrapnel = {
+				{
+					emitterType = "BattleBulletEmitter",
+					bullet_ID = 130115,
+					barrage_ID = 130410
+				},
+				FXID = "huoqiubaozha2"
+			}
+		},
+		push_power = {}
+	},
+	[130115] = {
+		range_offset = 0,
+		modle_ID = "Hwxgz_1",
+		type = 1,
+		antisub_enhancement = 0,
+		nobreakdown_sfx = "",
+		alert_fx = "",
+		nobreakdown_fx = "huohua",
+		out_bound = 1,
+		miss_fx = "ShellMiss",
+		miss_sfx = "battle/sink",
+		hit_fx = "BlueHit",
+		range = 90,
+		effect_type = 1,
+		hit_sfx = "battle/hit",
+		track_fx = "",
+		pierce_count = 0,
+		ammo_type = 1,
+		id = 130115,
+		velocity = 10,
+		damage_type = {
+			1,
+			0.8,
+			0.6
+		},
+		DMG_font = {
+			{
+				1,
+				1
+			},
+			{
+				1,
+				1
+			},
+			{
+				1,
+				1
+			}
+		},
+		acceleration = {
+			{
+				u = -0.071,
+				flip = false,
+				v = 0,
+				t = 0
+			},
+			{
+				u = 0,
+				flip = true,
+				v = 0.3,
+				t = 1
+			},
+			{
+				u = 0.1,
+				flip = false,
+				v = 0,
+				t = 1.8
+			}
+		},
+		cld_box = {
+			2,
+			2,
+			2
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		hit_type = {},
+		attach_buff = {},
+		extra_param = {},
+		push_power = {}
+	},
+	[130301] = {
+		range_offset = 20,
+		modle_ID = "Bomberbomb1",
+		type = 2,
+		antisub_enhancement = 0,
+		nobreakdown_sfx = "",
+		alert_fx = "AlertArea",
+		nobreakdown_fx = "huohua",
+		out_bound = 0,
+		miss_fx = "ShellMissBig",
+		miss_sfx = "",
+		hit_fx = "ShellHit",
+		range = 200,
+		effect_type = 1,
+		hit_sfx = "battle/hit",
+		track_fx = "",
+		pierce_count = 0,
+		ammo_type = 6,
+		id = 130301,
+		velocity = 0,
+		damage_type = {
+			0.8,
+			0.9,
+			1.1
+		},
+		DMG_font = {
+			{
+				3,
+				0.9
+			},
+			{
+				3,
+				1
+			},
+			{
+				3,
+				1.1
+			}
+		},
+		acceleration = {},
+		cld_box = {
+			1.8,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		hit_type = {
+			time = -1,
+			range = 6
+		},
+		attach_buff = {},
+		extra_param = {
+			gravity = -0.05,
+			targetOffsetX = -1,
+			airdrop = true,
+			offsetY = 70,
+			launchVrtSpeed = -4,
+			diveFilter = {}
+		},
+		push_power = {}
+	},
+	[130302] = {
+		range_offset = 20,
+		modle_ID = "Bomberbomb1",
+		type = 2,
+		antisub_enhancement = 0,
+		nobreakdown_sfx = "",
+		alert_fx = "AlertArea",
+		nobreakdown_fx = "huohua",
+		out_bound = 0,
+		miss_fx = "ShellMissBig",
+		miss_sfx = "",
+		hit_fx = "ShellHit",
+		range = 200,
+		effect_type = 1,
+		hit_sfx = "battle/hit",
+		track_fx = "",
+		pierce_count = 0,
+		ammo_type = 6,
+		id = 130302,
+		velocity = 0,
+		damage_type = {
+			0.8,
+			0.9,
+			1.1
+		},
+		DMG_font = {
+			{
+				3,
+				0.9
+			},
+			{
+				3,
+				1
+			},
+			{
+				3,
+				1.1
+			}
+		},
+		acceleration = {},
+		cld_box = {
+			1.8,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		hit_type = {
+			time = -1,
+			range = 7
+		},
+		attach_buff = {},
+		extra_param = {
+			gravity = -0.05,
+			targetOffsetZ = 25,
+			targetOffsetX = -1,
+			offsetY = 80,
+			airdrop = true,
+			launchVrtSpeed = -3,
+			diveFilter = {}
+		},
+		push_power = {}
+	},
+	[130303] = {
+		range_offset = 20,
+		modle_ID = "Bomberbomb1",
+		type = 2,
+		antisub_enhancement = 0,
+		nobreakdown_sfx = "",
+		alert_fx = "AlertArea",
+		nobreakdown_fx = "huohua",
+		out_bound = 0,
+		miss_fx = "ShellMissBig",
+		miss_sfx = "",
+		hit_fx = "ShellHit",
+		range = 200,
+		effect_type = 1,
+		hit_sfx = "battle/hit",
+		track_fx = "",
+		pierce_count = 0,
+		ammo_type = 6,
+		id = 130303,
+		velocity = 0,
+		damage_type = {
+			0.8,
+			0.9,
+			1.1
+		},
+		DMG_font = {
+			{
+				3,
+				0.9
+			},
+			{
+				3,
+				1
+			},
+			{
+				3,
+				1.1
+			}
+		},
+		acceleration = {},
+		cld_box = {
+			1.8,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		hit_type = {
+			time = -1,
+			range = 7
+		},
+		attach_buff = {},
+		extra_param = {
+			gravity = -0.05,
+			targetOffsetZ = 3,
+			targetOffsetX = -1,
+			offsetY = 80,
+			airdrop = true,
+			launchVrtSpeed = -3,
+			diveFilter = {}
+		},
+		push_power = {}
+	},
+	[130304] = {
+		range_offset = 20,
+		modle_ID = "Bomberbomb1",
+		type = 2,
+		antisub_enhancement = 0,
+		nobreakdown_sfx = "",
+		alert_fx = "AlertArea",
+		nobreakdown_fx = "huohua",
+		out_bound = 0,
+		miss_fx = "ShellMissBig",
+		miss_sfx = "",
+		hit_fx = "ShellHit",
+		range = 200,
+		effect_type = 1,
+		hit_sfx = "battle/hit",
+		track_fx = "",
+		pierce_count = 0,
+		ammo_type = 6,
+		id = 130304,
+		velocity = 0,
+		damage_type = {
+			0.8,
+			0.9,
+			1.1
+		},
+		DMG_font = {
+			{
+				3,
+				0.9
+			},
+			{
+				3,
+				1
+			},
+			{
+				3,
+				1.1
+			}
+		},
+		acceleration = {},
+		cld_box = {
+			1.8,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		hit_type = {
+			time = -1,
+			range = 7
+		},
+		attach_buff = {},
+		extra_param = {
+			gravity = -0.05,
+			targetOffsetZ = -3,
+			targetOffsetX = -1,
+			offsetY = 80,
+			airdrop = true,
+			launchVrtSpeed = -3,
+			diveFilter = {}
+		},
+		push_power = {}
+	},
+	[130305] = {
+		range_offset = 20,
+		modle_ID = "Bomberbomb1",
+		type = 2,
+		antisub_enhancement = 0,
+		nobreakdown_sfx = "",
+		alert_fx = "AlertArea",
+		nobreakdown_fx = "huohua",
+		out_bound = 0,
+		miss_fx = "ShellMissBig",
+		miss_sfx = "",
+		hit_fx = "ShellHit",
+		range = 200,
+		effect_type = 1,
+		hit_sfx = "battle/hit",
+		track_fx = "",
+		pierce_count = 0,
+		ammo_type = 6,
+		id = 130305,
+		velocity = 0,
+		damage_type = {
+			0.8,
+			0.9,
+			1.1
+		},
+		DMG_font = {
+			{
+				3,
+				0.9
+			},
+			{
+				3,
+				1
+			},
+			{
+				3,
+				1.1
+			}
+		},
+		acceleration = {},
+		cld_box = {
+			1.8,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		hit_type = {
+			time = -1,
+			range = 7
+		},
+		attach_buff = {},
+		extra_param = {
+			gravity = -0.05,
+			targetOffsetZ = -25,
+			targetOffsetX = -1,
+			offsetY = 80,
+			airdrop = true,
+			launchVrtSpeed = -3,
+			diveFilter = {}
+		},
+		push_power = {}
+	},
+	[130306] = {
+		range_offset = 20,
+		modle_ID = "Bomberbomb1",
+		type = 2,
+		antisub_enhancement = 0,
+		nobreakdown_sfx = "",
+		alert_fx = "AlertArea",
+		nobreakdown_fx = "huohua",
+		out_bound = 0,
+		miss_fx = "ShellMissBig",
+		miss_sfx = "",
+		hit_fx = "ShellHit",
+		range = 200,
+		effect_type = 1,
+		hit_sfx = "battle/hit",
+		track_fx = "",
+		pierce_count = 0,
+		ammo_type = 6,
+		id = 130306,
+		velocity = 0,
+		damage_type = {
+			0.8,
+			0.9,
+			1.1
+		},
+		DMG_font = {
+			{
+				3,
+				0.9
+			},
+			{
+				3,
+				1
+			},
+			{
+				3,
+				1.1
+			}
+		},
+		acceleration = {},
+		cld_box = {
+			1.8,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		hit_type = {
+			time = -1,
+			range = 7
+		},
+		attach_buff = {},
+		extra_param = {
+			gravity = -0.05,
+			targetOffsetZ = -31,
+			targetOffsetX = -1,
+			offsetY = 80,
+			airdrop = true,
+			launchVrtSpeed = -3,
+			diveFilter = {}
+		},
+		push_power = {}
+	},
+	[130307] = {
+		range_offset = 20,
+		modle_ID = "Bomberbomb1",
+		type = 2,
+		antisub_enhancement = 0,
+		nobreakdown_sfx = "",
+		alert_fx = "AlertArea",
+		nobreakdown_fx = "huohua",
+		out_bound = 0,
+		miss_fx = "ShellMissBig",
+		miss_sfx = "",
+		hit_fx = "ShellHit",
+		range = 200,
+		effect_type = 1,
+		hit_sfx = "battle/hit",
+		track_fx = "",
+		pierce_count = 0,
+		ammo_type = 6,
+		id = 130307,
+		velocity = 0,
+		damage_type = {
+			0.8,
+			0.9,
+			1.1
+		},
+		DMG_font = {
+			{
+				3,
+				0.9
+			},
+			{
+				3,
+				1
+			},
+			{
+				3,
+				1.1
+			}
+		},
+		acceleration = {},
+		cld_box = {
+			1.8,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		hit_type = {
+			time = -1,
+			range = 7
+		},
+		attach_buff = {},
+		extra_param = {
+			gravity = -0.05,
+			targetOffsetZ = 31,
+			targetOffsetX = -1,
+			offsetY = 80,
+			airdrop = true,
+			launchVrtSpeed = -3,
+			diveFilter = {}
+		},
+		push_power = {}
+	},
+	[130308] = {
+		range_offset = 20,
+		modle_ID = "Bomberbomb1",
+		type = 2,
+		antisub_enhancement = 0,
+		nobreakdown_sfx = "",
+		alert_fx = "AlertArea",
+		nobreakdown_fx = "huohua",
+		out_bound = 0,
+		miss_fx = "ShellMissBig",
+		miss_sfx = "",
+		hit_fx = "ShellHit",
+		range = 200,
+		effect_type = 1,
+		hit_sfx = "battle/hit",
+		track_fx = "",
+		pierce_count = 0,
+		ammo_type = 6,
+		id = 130308,
+		velocity = 0,
+		damage_type = {
+			0.8,
+			0.9,
+			1.1
+		},
+		DMG_font = {
+			{
+				3,
+				0.9
+			},
+			{
+				3,
+				1
+			},
+			{
+				3,
+				1.1
+			}
+		},
+		acceleration = {},
+		cld_box = {
+			1.8,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		hit_type = {
+			time = -1,
+			range = 6
+		},
+		attach_buff = {},
+		extra_param = {
+			gravity = -0.05,
+			targetOffsetZ = 24,
+			targetOffsetX = -1,
+			offsetY = 80,
+			airdrop = true,
+			launchVrtSpeed = -3,
+			diveFilter = {}
+		},
+		push_power = {}
+	},
+	[130309] = {
+		range_offset = 20,
+		modle_ID = "Bomberbomb1",
+		type = 2,
+		antisub_enhancement = 0,
+		nobreakdown_sfx = "",
+		alert_fx = "AlertArea",
+		nobreakdown_fx = "huohua",
+		out_bound = 0,
+		miss_fx = "ShellMissBig",
+		miss_sfx = "",
+		hit_fx = "ShellHit",
+		range = 200,
+		effect_type = 1,
+		hit_sfx = "battle/hit",
+		track_fx = "",
+		pierce_count = 0,
+		ammo_type = 6,
+		id = 130309,
+		velocity = 0,
+		damage_type = {
+			0.8,
+			0.9,
+			1.1
+		},
+		DMG_font = {
+			{
+				3,
+				0.9
+			},
+			{
+				3,
+				1
+			},
+			{
+				3,
+				1.1
+			}
+		},
+		acceleration = {},
+		cld_box = {
+			1.8,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		hit_type = {
+			time = -1,
+			range = 6
+		},
+		attach_buff = {},
+		extra_param = {
+			gravity = -0.05,
+			targetOffsetZ = 15,
+			targetOffsetX = -1,
+			offsetY = 80,
+			airdrop = true,
+			launchVrtSpeed = -3,
+			diveFilter = {}
+		},
+		push_power = {}
+	},
+	[130310] = {
+		range_offset = 20,
+		modle_ID = "Bomberbomb1",
+		type = 2,
+		antisub_enhancement = 0,
+		nobreakdown_sfx = "",
+		alert_fx = "AlertArea",
+		nobreakdown_fx = "huohua",
+		out_bound = 0,
+		miss_fx = "ShellMissBig",
+		miss_sfx = "",
+		hit_fx = "ShellHit",
+		range = 200,
+		effect_type = 1,
+		hit_sfx = "battle/hit",
+		track_fx = "",
+		pierce_count = 0,
+		ammo_type = 6,
+		id = 130310,
+		velocity = 0,
+		damage_type = {
+			0.8,
+			0.9,
+			1.1
+		},
+		DMG_font = {
+			{
+				3,
+				0.9
+			},
+			{
+				3,
+				1
+			},
+			{
+				3,
+				1.1
+			}
+		},
+		acceleration = {},
+		cld_box = {
+			1.8,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		hit_type = {
+			time = -1,
+			range = 6
+		},
+		attach_buff = {},
+		extra_param = {
+			gravity = -0.05,
+			targetOffsetZ = -15,
+			targetOffsetX = -1,
+			offsetY = 80,
+			airdrop = true,
+			launchVrtSpeed = -3,
+			diveFilter = {}
+		},
+		push_power = {}
+	},
+	[130311] = {
+		range_offset = 20,
+		modle_ID = "Bomberbomb1",
+		type = 2,
+		antisub_enhancement = 0,
+		nobreakdown_sfx = "",
+		alert_fx = "AlertArea",
+		nobreakdown_fx = "huohua",
+		out_bound = 0,
+		miss_fx = "ShellMissBig",
+		miss_sfx = "",
+		hit_fx = "ShellHit",
+		range = 200,
+		effect_type = 1,
+		hit_sfx = "battle/hit",
+		track_fx = "",
+		pierce_count = 0,
+		ammo_type = 6,
+		id = 130311,
+		velocity = 0,
+		damage_type = {
+			0.8,
+			0.9,
+			1.1
+		},
+		DMG_font = {
+			{
+				3,
+				0.9
+			},
+			{
+				3,
+				1
+			},
+			{
+				3,
+				1.1
+			}
+		},
+		acceleration = {},
+		cld_box = {
+			1.8,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		hit_type = {
+			time = -1,
+			range = 6
+		},
+		attach_buff = {},
+		extra_param = {
+			gravity = -0.05,
+			targetOffsetZ = -24,
+			targetOffsetX = -1,
+			offsetY = 80,
+			airdrop = true,
+			launchVrtSpeed = -3,
+			diveFilter = {}
+		},
+		push_power = {}
+	},
+	[130312] = {
+		range_offset = 20,
+		modle_ID = "Bomberbomb1",
+		type = 2,
+		antisub_enhancement = 0,
+		nobreakdown_sfx = "",
+		alert_fx = "AlertArea",
+		nobreakdown_fx = "huohua",
+		out_bound = 0,
+		miss_fx = "ShellMissBig",
+		miss_sfx = "",
+		hit_fx = "ShellHit",
+		range = 200,
+		effect_type = 1,
+		hit_sfx = "battle/hit",
+		track_fx = "",
+		pierce_count = 0,
+		ammo_type = 6,
+		id = 130312,
+		velocity = 0,
+		damage_type = {
+			0.8,
+			0.9,
+			1.1
+		},
+		DMG_font = {
+			{
+				3,
+				0.9
+			},
+			{
+				3,
+				1
+			},
+			{
+				3,
+				1.1
+			}
+		},
+		acceleration = {},
+		cld_box = {
+			1.8,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		hit_type = {
+			time = -1,
+			range = 6
+		},
+		attach_buff = {},
+		extra_param = {
+			gravity = -0.05,
+			targetOffsetZ = -33,
+			targetOffsetX = -1,
+			offsetY = 80,
+			airdrop = true,
+			launchVrtSpeed = -3,
+			diveFilter = {}
+		},
+		push_power = {}
+	},
+	[130313] = {
+		range_offset = 20,
+		modle_ID = "Bomberbomb1",
+		type = 2,
+		antisub_enhancement = 0,
+		nobreakdown_sfx = "",
+		alert_fx = "AlertArea",
+		nobreakdown_fx = "huohua",
+		out_bound = 0,
+		miss_fx = "ShellMissBig",
+		miss_sfx = "",
+		hit_fx = "ShellHit",
+		range = 200,
+		effect_type = 1,
+		hit_sfx = "battle/hit",
+		track_fx = "",
+		pierce_count = 0,
+		ammo_type = 6,
+		id = 130313,
+		velocity = 0,
+		damage_type = {
+			0.8,
+			0.9,
+			1.1
+		},
+		DMG_font = {
+			{
+				3,
+				0.9
+			},
+			{
+				3,
+				1
+			},
+			{
+				3,
+				1.1
+			}
+		},
+		acceleration = {},
+		cld_box = {
+			1.8,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		hit_type = {
+			time = -1,
+			range = 6
+		},
+		attach_buff = {},
+		extra_param = {
+			gravity = -0.05,
+			targetOffsetZ = 33,
+			targetOffsetX = -1,
+			offsetY = 80,
+			airdrop = true,
+			launchVrtSpeed = -3,
+			diveFilter = {}
+		},
+		push_power = {}
+	},
+	[130314] = {
+		range_offset = 20,
+		modle_ID = "bulletGER",
+		type = 1,
+		antisub_enhancement = 0,
+		nobreakdown_sfx = "",
+		alert_fx = "",
+		nobreakdown_fx = "huohua",
+		out_bound = 0,
+		miss_fx = "ShellMiss",
+		miss_sfx = "",
+		hit_fx = "pofang",
+		range = 60,
+		effect_type = 1,
+		hit_sfx = "battle/hit",
+		track_fx = "",
+		pierce_count = 0,
+		ammo_type = 1,
+		id = 130314,
+		velocity = 15,
+		damage_type = {
+			1,
+			0.8,
+			0.6
+		},
+		DMG_font = {
+			{
+				1,
+				1
+			},
+			{
+				1,
+				1
+			},
+			{
+				1,
+				1
+			}
+		},
+		acceleration = {},
+		cld_box = {
+			1.5,
+			1.5,
+			1.5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		hit_type = {},
+		attach_buff = {},
+		extra_param = {},
+		push_power = {}
+	},
+	[130315] = {
+		range_offset = 20,
+		modle_ID = "FireBall",
+		type = 2,
+		antisub_enhancement = 0,
+		nobreakdown_sfx = "",
+		alert_fx = "AlertArea",
+		nobreakdown_fx = "huohua",
+		out_bound = 0,
+		miss_fx = "ShellMissBig",
+		miss_sfx = "",
+		hit_fx = "ShellHit",
+		range = 20,
+		effect_type = 1,
+		hit_sfx = "battle/hit",
+		track_fx = "",
+		pierce_count = 0,
+		ammo_type = 1,
+		id = 130315,
+		velocity = 1.08,
+		damage_type = {
+			1,
+			0.8,
+			0.6
+		},
+		DMG_font = {
+			{
+				1,
+				1
+			},
+			{
+				1,
+				1
+			},
+			{
+				1,
+				1
+			}
+		},
+		acceleration = {},
+		cld_box = {
+			2,
+			2,
+			2
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		hit_type = {
+			time = -1,
+			range = 6
+		},
+		attach_buff = {},
+		extra_param = {
+			gravity = -0.009,
+			launchVrtSpeed = 0,
+			diveFilter = {
+				2
+			}
+		},
+		push_power = {}
+	},
+	[130316] = {
+		range_offset = 20,
+		modle_ID = "Bomberbomb1",
+		type = 2,
+		antisub_enhancement = 0,
+		nobreakdown_sfx = "",
+		alert_fx = "AlertArea",
+		nobreakdown_fx = "huohua",
+		out_bound = 0,
+		miss_fx = "ShellMissBig",
+		miss_sfx = "",
+		hit_fx = "ShellHit",
+		range = 200,
+		effect_type = 1,
+		hit_sfx = "battle/hit",
+		track_fx = "",
+		pierce_count = 0,
+		ammo_type = 6,
+		id = 130316,
+		velocity = 0,
+		damage_type = {
+			0.8,
+			0.9,
+			1.1
+		},
+		DMG_font = {
+			{
+				3,
+				0.9
+			},
+			{
+				3,
+				1
+			},
+			{
+				3,
+				1.1
+			}
+		},
+		acceleration = {},
+		cld_box = {
+			1.8,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		hit_type = {
+			time = -1,
+			range = 6
+		},
+		attach_buff = {},
+		extra_param = {
+			gravity = -0.05,
+			targetOffsetZ = 11,
+			targetOffsetX = -1,
+			offsetY = 80,
+			airdrop = true,
+			launchVrtSpeed = -3,
+			diveFilter = {}
+		},
+		push_power = {}
+	},
+	[130317] = {
+		range_offset = 20,
+		modle_ID = "Bomberbomb1",
+		type = 2,
+		antisub_enhancement = 0,
+		nobreakdown_sfx = "",
+		alert_fx = "AlertArea",
+		nobreakdown_fx = "huohua",
+		out_bound = 0,
+		miss_fx = "ShellMissBig",
+		miss_sfx = "",
+		hit_fx = "ShellHit",
+		range = 200,
+		effect_type = 1,
+		hit_sfx = "battle/hit",
+		track_fx = "",
+		pierce_count = 0,
+		ammo_type = 6,
+		id = 130317,
+		velocity = 0,
+		damage_type = {
+			0.8,
+			0.9,
+			1.1
+		},
+		DMG_font = {
+			{
+				3,
+				0.9
+			},
+			{
+				3,
+				1
+			},
+			{
+				3,
+				1.1
+			}
+		},
+		acceleration = {},
+		cld_box = {
+			1.8,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		hit_type = {
+			time = -1,
+			range = 6
+		},
+		attach_buff = {},
+		extra_param = {
+			gravity = -0.05,
+			targetOffsetZ = 0,
+			targetOffsetX = -1,
+			offsetY = 80,
+			airdrop = true,
+			launchVrtSpeed = -3,
+			diveFilter = {}
+		},
+		push_power = {}
+	},
+	[130318] = {
+		range_offset = 20,
+		modle_ID = "Bomberbomb1",
+		type = 2,
+		antisub_enhancement = 0,
+		nobreakdown_sfx = "",
+		alert_fx = "AlertArea",
+		nobreakdown_fx = "huohua",
+		out_bound = 0,
+		miss_fx = "ShellMissBig",
+		miss_sfx = "",
+		hit_fx = "ShellHit",
+		range = 200,
+		effect_type = 1,
+		hit_sfx = "battle/hit",
+		track_fx = "",
+		pierce_count = 0,
+		ammo_type = 6,
+		id = 130318,
+		velocity = 0,
+		damage_type = {
+			0.8,
+			0.9,
+			1.1
+		},
+		DMG_font = {
+			{
+				3,
+				0.9
+			},
+			{
+				3,
+				1
+			},
+			{
+				3,
+				1.1
+			}
+		},
+		acceleration = {},
+		cld_box = {
+			1.8,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		hit_type = {
+			time = -1,
+			range = 6
+		},
+		attach_buff = {},
+		extra_param = {
+			gravity = -0.05,
+			targetOffsetZ = -11,
+			targetOffsetX = -1,
+			offsetY = 80,
+			airdrop = true,
+			launchVrtSpeed = -3,
+			diveFilter = {}
+		},
+		push_power = {}
+	},
+	[130319] = {
+		range_offset = 20,
+		modle_ID = "kuasheHE",
+		type = 2,
+		antisub_enhancement = 0,
+		nobreakdown_sfx = "",
+		alert_fx = "AlertArea",
+		nobreakdown_fx = "huohua",
+		out_bound = 0,
+		miss_fx = "ShellMissBig",
+		miss_sfx = "battle/sink",
+		hit_fx = "ShellHit",
+		range = 80,
+		effect_type = 1,
+		hit_sfx = "battle/hit",
+		track_fx = "",
+		pierce_count = 0,
+		ammo_type = 3,
+		id = 130319,
+		velocity = 10,
+		damage_type = {
+			1.4,
+			1.1,
+			0.9
+		},
+		DMG_font = {
+			{
+				3,
+				1.4
+			},
+			{
+				3,
+				1
+			},
+			{
+				3,
+				0.9
+			}
+		},
+		acceleration = {},
+		cld_box = {
+			5,
+			2,
+			2
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		hit_type = {
+			time = -1,
+			range = 8
+		},
+		attach_buff = {
+			{
+				rant = 800,
+				buff_id = 311,
+				level = 3
+			}
+		},
+		extra_param = {
+			gravity = -0.05,
+			accuracy = "chargeBulletAccuracy",
+			diveFilter = {
+				2
+			}
+		},
+		push_power = {}
+	},
+	[130320] = {
+		range_offset = 20,
+		modle_ID = "bulletGER",
+		type = 1,
+		antisub_enhancement = 0,
+		nobreakdown_sfx = "",
+		alert_fx = "",
+		nobreakdown_fx = "huohua",
+		out_bound = 0,
+		miss_fx = "ShellMiss",
+		miss_sfx = "",
+		hit_fx = "pofang",
+		range = 60,
+		effect_type = 1,
+		hit_sfx = "battle/hit",
+		track_fx = "",
+		pierce_count = 0,
+		ammo_type = 1,
+		id = 130320,
+		velocity = 15,
+		damage_type = {
+			1,
+			0.8,
+			0.6
+		},
+		DMG_font = {
+			{
+				1,
+				1
+			},
+			{
+				1,
+				1
+			},
+			{
+				1,
+				1
+			}
+		},
+		acceleration = {},
+		cld_box = {
+			1.5,
+			1.5,
+			1.5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		hit_type = {},
+		attach_buff = {},
+		extra_param = {},
+		push_power = {}
+	},
 	[567201] = {
 		range_offset = 5,
 		modle_ID = "Bulletenemys",
@@ -85409,6 +88183,7 @@ pg.bullet_template = {
 		1522,
 		1523,
 		1530,
+		1531,
 		1540,
 		1541,
 		1550,
@@ -85660,6 +88435,10 @@ pg.bullet_template = {
 		19987,
 		19988,
 		19989,
+		19990,
+		19991,
+		19992,
+		19993,
 		20001,
 		20002,
 		20003,
@@ -85883,6 +88662,9 @@ pg.bullet_template = {
 		72231,
 		72251,
 		72252,
+		72255,
+		72256,
+		72257,
 		72311,
 		72261,
 		72262,
@@ -85949,6 +88731,7 @@ pg.bullet_template = {
 		79341,
 		79351,
 		79361,
+		79371,
 		80001,
 		80002,
 		80003,
@@ -86388,6 +89171,39 @@ pg.bullet_template = {
 		120435,
 		120436,
 		120437,
+		130001,
+		130002,
+		130105,
+		130106,
+		130107,
+		130108,
+		130109,
+		130110,
+		130111,
+		130112,
+		130113,
+		130114,
+		130115,
+		130301,
+		130302,
+		130303,
+		130304,
+		130305,
+		130306,
+		130307,
+		130308,
+		130309,
+		130310,
+		130311,
+		130312,
+		130313,
+		130314,
+		130315,
+		130316,
+		130317,
+		130318,
+		130319,
+		130320,
 		567201,
 		567211,
 		567212,

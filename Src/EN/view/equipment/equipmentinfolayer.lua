@@ -55,6 +55,7 @@ function slot0.init(slot0)
 
 	setActive(slot0.oldShipHead, false)
 
+	slot0.attrHelpTpl = slot0:findTF("attr_help_tpl")
 	slot0.scrollTxts = {}
 	slot0.destroyScrollTxts = {}
 end
@@ -711,7 +712,8 @@ function slot0.updateEquipmentPanel(slot0, slot1, slot2, slot3, slot4)
 				setActive(slot29, slot27)
 				setActive(slot30, slot27)
 
-				if slot26 > 4 and slot20 then
+				if slot26 == 3 and slot20 then
+				elseif slot26 > 4 and slot20 then
 					setText(slot29, "")
 					setText(slot30, "")
 					setTextFont(slot30, pg.FontMgr.GetInstance().fonts.heiti)
@@ -745,7 +747,7 @@ function slot0.updateEquipmentPanel(slot0, slot1, slot2, slot3, slot4)
 					slot5[slot26] = slot27
 
 					if slot27 then
-						setTextFont(slot30, pg.FontMgr.GetInstance().fonts.heiti)
+						setTextFont(slot30, pg.FontMgr.GetInstance().fonts.impact)
 
 						if slot27.type == AttributeType.Reload and slot26 == 4 then
 							slot33 = 0
@@ -760,7 +762,7 @@ function slot0.updateEquipmentPanel(slot0, slot1, slot2, slot3, slot4)
 								slot33 = slot2:getWeaponCD()
 							end
 
-							setText(slot30, setColorStr(slot33 .. "s" .. i18n("word_secondseach"), COLOR_YELLOW))
+							setText(slot30, setColorStr(slot33 .. "s", COLOR_YELLOW) .. i18n("word_secondseach"))
 
 							if slot6 and slot26 < #slot6 and slot6[slot26] then
 								slot35 = setActive

@@ -98,7 +98,7 @@ function ys.Battle.BattleDataProxy.HandleDamage(slot0, slot1, slot2, slot3)
 
 	slot19 = true
 
-	if slot2:GetUnitType() ~= slot2.UnitType.AIRCRAFT_UNIT and slot18 ~= slot2.UnitType.AIRFIGHTER_UNIT and slot18 ~= slot2.UnitType.FUNNEL_UNIT then
+	if slot2:GetUnitType() ~= slot2.UnitType.AIRCRAFT_UNIT and slot18 ~= slot2.UnitType.AIRFIGHTER_UNIT and slot18 ~= slot2.UnitType.FUNNEL_UNIT and slot18 ~= slot2.UnitType.UAV_UNIT then
 		slot19 = false
 	end
 
@@ -152,7 +152,7 @@ function ys.Battle.BattleDataProxy.HandleDirectDamage(slot0, slot1, slot2, slot3
 	if not slot7 then
 		slot9 = true
 
-		if slot1:GetUnitType() ~= slot0.UnitType.AIRCRAFT_UNIT and slot8 ~= slot0.UnitType.AIRFIGHTER_UNIT and slot8 ~= slot0.UnitType.FUNNEL_UNIT then
+		if slot1:GetUnitType() ~= slot0.UnitType.AIRCRAFT_UNIT and slot8 ~= slot0.UnitType.AIRFIGHTER_UNIT and slot8 ~= slot0.UnitType.FUNNEL_UNIT and slot8 ~= slot0.UnitType.UAV_UNIT then
 			slot9 = false
 		end
 
@@ -227,7 +227,7 @@ function ys.Battle.BattleDataProxy.HandleShipMissDamage(slot0, slot1, slot2)
 	if #slot4 > 0 then
 		slot6 = slot4[math.random(#slot4)]
 
-		if slot1:GetTemplate().type == ShipType.Qianting then
+		if table.contains(TeamType.SubShipType, slot1:GetTemplate().type) then
 			slot6:TriggerBuff(slot2.BuffEffectType.ON_BE_HIT, {})
 			slot0:HandleDirectDamage(slot6, slot1:CalculateDamageFromSubmarinToMainShip(slot6), slot1)
 

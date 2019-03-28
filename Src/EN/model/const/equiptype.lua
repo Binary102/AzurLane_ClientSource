@@ -14,6 +14,12 @@ slot0.SeaPlane = 12
 slot0.SubmarineTorpedo = 13
 slot0.Sonar = 14
 slot0.AntiSubAircraft = 15
+slot0.AirDomainEquip = {
+	slot0.FighterAircraft,
+	slot0.TorpedoAircraft,
+	slot0.BomberAircraft,
+	slot0.SeaPlane
+}
 slot1 = {
 	i18n("word_primary_weapons"),
 	i18n("word_sub_cannons"),

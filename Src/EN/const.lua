@@ -6,25 +6,43 @@ BILI_SERVER_ID = "388"
 SHAREJOY_SERVER_ID = "475"
 UNION_SERVER_ID = "439"
 SERVER_TIME_ZONE = -25200
-SERVER_TIME_ZONE_PDT = -28800
-SERVER_TIME_ZONE_DST = -25200
-SERVER_TIME_ZONE_SWITCH_TIME = 1552212000
+TIME_ZONE_DATA = {
+	SERVER_TIME_ZONE_SWITCH_TIME = 1552212000,
+	SERVER_TIME_ZONE_JP = 32400,
+	SERVER_TIME_ZONE_KR = 32400,
+	SERVER_TIME_ZONE_CH = 28800,
+	SERVER_TIME_ZONE_PDT = -28800,
+	SERVER_TIME_ZONE_DST = -25200
+}
 
 function SwitchTimeZone(slot0)
-	if SERVER_TIME_ZONE_SWITCH_TIME <= slot0 then
-		SERVER_TIME_ZONE = SERVER_TIME_ZONE_DST
-	else
-		SERVER_TIME_ZONE = SERVER_TIME_ZONE_PDT
+	if PLATFORM_CODE == PLATFORM_CH then
+		SERVER_TIME_ZONE = TIME_ZONE_DATA.SERVER_TIME_ZONE_CH
+	elseif PLATFORM_CODE == PLATFORM_JP then
+		SERVER_TIME_ZONE = TIME_ZONE_DATA.SERVER_TIME_ZONE_JP
+	elseif PLATFORM_CODE == PLATFORM_KR then
+		SERVER_TIME_ZONE = TIME_ZONE_DATA.SERVER_TIME_ZONE_KR
+	elseif PLATFORM_CODE == PLATFORM_US then
+		if TIME_ZONE_DATA.SERVER_TIME_ZONE_SWITCH_TIME <= slot0 then
+			SERVER_TIME_ZONE = TIME_ZONE_DATA.SERVER_TIME_ZONE_DST
+		else
+			SERVER_TIME_ZONE = TIME_ZONE_DATA.SERVER_TIME_ZONE_PDT
+		end
 	end
 end
 
 function GetLocalTimeZone()
-	slot1 = os.difftime(slot0, os.time(os.date("!*t", os.time())))
+	if PLATFORM_CODE == PLATFORM_US then
+		slot0 = os.time()
+		slot2 = os.difftime(slot0, os.time(os.date("!*t", slot0)))
 
-	if SERVER_TIME_ZONE == SERVER_TIME_ZONE_PDT then
-		return slot1
+		if os.date("*t", slot0).isdst then
+			return slot2 + 3600
+		else
+			return slot2
+		end
 	else
-		return slot1 + 3600
+		return os.difftime(os.time(), os.time(os.date("!*t", os.time())))
 	end
 end
 
@@ -261,9 +279,68 @@ ERROR_MESSAGE = {
 	[1020.0] = "Incorrect Password",
 	[1012.0] = "Pure Digital Account"
 }
-SPECIAL_DATE = {}
-CRI_BG_FLAG = false
+SPECIAL_DATE = {
+	{
+		"20190331",
+		"login_0315",
+		"loginbg_0401",
+		"login_0401"
+	},
+	{
+		"20190401",
+		"login_0315",
+		"loginbg_0401",
+		"login_0401"
+	}
+}
+SPECIAL_PROPOSE = {
+	"20190401",
+	{
+		{
+			202030,
+			"91"
+		},
+		{
+			202031,
+			"91"
+		},
+		{
+			202039,
+			"91"
+		},
+		{
+			102130,
+			"92"
+		},
+		{
+			102131,
+			"92"
+		},
+		{
+			102132,
+			"92"
+		},
+		{
+			206030,
+			"93"
+		},
+		{
+			206031,
+			"93"
+		},
+		{
+			206032,
+			"93"
+		},
+		{
+			206033,
+			"93"
+		}
+	}
+}
+CRI_BG_FLAG = true
 OPEN_ESCORT = false
-OPEN_REMASTER = false
+AUTO_LINKLINK = false
+OPEN_AIR_DOMINANCE = false
 
 return

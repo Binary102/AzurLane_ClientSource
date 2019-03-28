@@ -197,7 +197,7 @@ end
 function slot0.getShipsByFleet(slot0, slot1)
 	slot2 = {}
 
-	for slot6, slot7 in ipairs(slot1.ships) do
+	for slot6, slot7 in ipairs(slot1:getShipIds()) do
 		table.insert(slot2, slot0.data[slot7])
 	end
 

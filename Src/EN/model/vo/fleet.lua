@@ -297,14 +297,6 @@ function slot0.insertShip(slot0, slot1, slot2, slot3)
 	end
 
 	table.insert(slot0.ships, slot1.id)
-
-	function slot4(slot0)
-		return 10 + (table.indexof(slot0.vanguardShips, slot0) or -10) + 20 + (table.indexof(slot0.mainShips, slot0) or -20) + 30 + (table.indexof(slot0.subShips, slot0) or -30)
-	end
-
-	table.sort(slot0.ships, function (slot0, slot1)
-		return slot0(slot0) < slot0(slot1)
-	end)
 end
 
 function slot0.canRemove(slot0, slot1)
@@ -649,6 +641,20 @@ function slot0.EnergyCheck(slot0, slot1, slot2, slot3)
 	else
 		return true
 	end
+end
+
+function slot0.getFleetAirDominanceValue(slot0)
+	slot1 = getProxy(BayProxy)
+	slot2 = slot0:getCommanders()
+	slot3 = 0
+
+	for slot7, slot8 in ipairs(slot0.ships) do
+		slot3 = function (slot0, slot1)
+			return slot0 + calcAirDominanceValue(slot0:getShipById(slot1), slot1)
+		end(slot3, slot8)
+	end
+
+	return slot3
 end
 
 return slot0

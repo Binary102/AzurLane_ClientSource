@@ -43236,6 +43236,2037 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[42001] = {
+		can_rotate = 0,
+		name = "Traditional Wallpaper",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		effect = "",
+		icon = "qiangbikoicon",
+		is_get_time_note = 0,
+		belong = 0,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 150,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 4,
+		picture = "korea/qiangbiko",
+		canputon = 0,
+		discount = 0,
+		id = 42001,
+		comfortable = 4,
+		describe = "The patterns and colors of this wallpaper evoke tranquil memories of time spent with family.",
+		dorm_id = 0,
+		gem_price = 450,
+		can_trigger = 0,
+		themeId = 42,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					3,
+					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[42002] = {
+		can_rotate = 0,
+		name = "Authentic Floorboards",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		effect = "",
+		icon = "dibankoicon",
+		is_get_time_note = 0,
+		belong = 0,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 150,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 5,
+		rarity = 4,
+		picture = "korea/dibanko",
+		canputon = 0,
+		discount = 0,
+		id = 42002,
+		comfortable = 4,
+		describe = "Traditional floorboards carefully crafted from real wood. Feels nice and cozy underneath your feet~",
+		dorm_id = 0,
+		gem_price = 450,
+		can_trigger = 0,
+		themeId = 42,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					3,
+					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[42101] = {
+		can_rotate = 0,
+		name = "Kimchi Bed",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 80,
+		not_for_sale = 1,
+		icon = "caikoicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		picture = "korea/caiko",
+		canputon = 0,
+		discount = 0,
+		id = 42101,
+		comfortable = 3,
+		describe = "A bed inspired by everyone's favorite fermented dish. Don't eat the props though!",
+		dorm_id = 0,
+		gem_price = 240,
+		can_trigger = 0,
+		themeId = 42,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					0,
+					56
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					3,
+					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[42102] = {
+		can_rotate = 0,
+		name = "Model Battleship",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "chuankoicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		picture = "korea/chuanko",
+		canputon = 0,
+		discount = 0,
+		id = 42102,
+		comfortable = 3,
+		describe = "You don't need heavy plating to sally forth and overcome any hardship!",
+		dorm_id = 0,
+		gem_price = 240,
+		can_trigger = 0,
+		themeId = 42,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			7,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"stand2",
+				{
+					5,
+					3
+				},
+				{
+					-1,
+					1
+				},
+				"korea/chuanko_using"
+			},
+			{
+				"stand2",
+				{
+					-119,
+					-130
+				},
+				{
+					-1,
+					1
+				},
+				"korea/chuanko_using2"
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					3,
+					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[42103] = {
+		can_rotate = 0,
+		name = "Small Bench",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 2,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 20,
+		not_for_sale = 0,
+		icon = "dengkoicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 1,
+		picture = "korea/dengko",
+		canputon = 0,
+		discount = 0,
+		id = 42103,
+		comfortable = 1,
+		describe = "A traditional-styled wooden bench. Sitting on it seems to transport you to the past.",
+		dorm_id = 0,
+		gem_price = 60,
+		can_trigger = 0,
+		themeId = 42,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-6,
+					64
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					3,
+					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[42104] = {
+		can_rotate = 0,
+		name = "Delicious Bibimbap",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "fankoicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		picture = "korea/fanko",
+		canputon = 0,
+		discount = 0,
+		id = 42104,
+		comfortable = 3,
+		describe = "Freshly-prepared bibimbap. The delicious aroma of rice and vegetables wafts into your nostrils.",
+		dorm_id = 0,
+		gem_price = 240,
+		can_trigger = 0,
+		themeId = 42,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					13,
+					66
+				},
+				{
+					1,
+					1
+				},
+				"korea/fanko_using"
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					3,
+					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[42105] = {
+		can_rotate = 0,
+		name = "Small Dining Table",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		icon = "fanzhuokoicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		picture = "korea/fanzhuoko",
+		canputon = 0,
+		discount = 0,
+		id = 42105,
+		comfortable = 3,
+		describe = "Come forth and partake of the deliciousness!",
+		dorm_id = 0,
+		gem_price = 240,
+		can_trigger = 0,
+		themeId = 42,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					3,
+					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[42106] = {
+		can_rotate = 0,
+		name = "Pickling Jar",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		icon = "gangkoicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "korea/gangko",
+		canputon = 0,
+		discount = 0,
+		id = 42106,
+		comfortable = 2,
+		describe = "Be patient! Its contents are better with age!",
+		dorm_id = 0,
+		gem_price = 120,
+		can_trigger = 0,
+		themeId = 42,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					3,
+					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[42107] = {
+		can_rotate = 0,
+		name = "Wooden Windscreen",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		icon = "geduankoicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 2,
+		advice = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "korea/geduanko",
+		canputon = 0,
+		discount = 0,
+		id = 42107,
+		comfortable = 2,
+		describe = "How can something be so simple but elegant? So practical yet so artistic?",
+		dorm_id = 0,
+		gem_price = 120,
+		can_trigger = 0,
+		themeId = 42,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					3,
+					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[42108] = {
+		can_rotate = 0,
+		name = "Traditional Drum",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		icon = "gukoicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 1,
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "korea/guko",
+		canputon = 0,
+		discount = 0,
+		id = 42108,
+		comfortable = 2,
+		describe = "A drum used in many celebrations. The urge to pound out some beats is unbearable.",
+		dorm_id = 0,
+		gem_price = 120,
+		can_trigger = 0,
+		themeId = 42,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					3,
+					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[42109] = {
+		can_rotate = 0,
+		name = "Mug of Beer",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "jiukoicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		picture = "korea/jiuko",
+		canputon = 0,
+		discount = 0,
+		id = 42109,
+		comfortable = 3,
+		describe = "Glug... glug... glug... phew~! Ahh, beverages are best enjoyed like this.",
+		dorm_id = 0,
+		gem_price = 240,
+		can_trigger = 0,
+		themeId = 42,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"wash",
+				{
+					13,
+					15
+				},
+				{
+					-1,
+					1
+				},
+				"korea/jiuko_using"
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					3,
+					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[42110] = {
+		can_rotate = 0,
+		name = "Barbecue Table",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		icon = "kaoroukoicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "korea/kaorouko",
+		canputon = 0,
+		discount = 0,
+		id = 42110,
+		comfortable = 2,
+		describe = "Don't let its appearances fool you. This is yet another battleground. First come first served!",
+		dorm_id = 0,
+		gem_price = 120,
+		can_trigger = 0,
+		themeId = 42,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					3,
+					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[42111] = {
+		can_rotate = 0,
+		name = "Precious Herbs",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		icon = "shenkoicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 20,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 1,
+		picture = "korea/shenko",
+		canputon = 0,
+		discount = 0,
+		id = 42111,
+		comfortable = 1,
+		describe = "The East is famous for its miraculous herbalism. Wonder if there's anything that will make me cuter...",
+		dorm_id = 0,
+		gem_price = 60,
+		can_trigger = 0,
+		themeId = 42,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			3,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					3,
+					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[42112] = {
+		can_rotate = 0,
+		name = "Tteokbokki",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		icon = "shiwukoicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 1,
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "korea/shiwuko",
+		canputon = 0,
+		discount = 0,
+		id = 42112,
+		comfortable = 2,
+		describe = "A piping-hot plate of fried spicy rice cakes, one of the world's most beloved street foods.",
+		dorm_id = 0,
+		gem_price = 120,
+		can_trigger = 0,
+		themeId = 42,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					3,
+					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[42113] = {
+		can_rotate = 0,
+		name = "Replica Tower",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		icon = "takoicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		picture = "korea/tako",
+		canputon = 0,
+		discount = 0,
+		id = 42113,
+		comfortable = 3,
+		describe = "If only it came with the ability to light up as well...",
+		dorm_id = 0,
+		gem_price = 240,
+		can_trigger = 0,
+		themeId = 42,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					3,
+					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[42114] = {
+		can_rotate = 0,
+		name = "Doenjang Guk",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "tangkoicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "korea/tangko",
+		canputon = 0,
+		discount = 0,
+		id = 42114,
+		comfortable = 2,
+		describe = "Silky and refreshing, this warm and comforting soy drink is the real liquid happiness.",
+		dorm_id = 0,
+		gem_price = 120,
+		can_trigger = 0,
+		themeId = 42,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"wash",
+				{
+					5,
+					-67
+				},
+				{
+					-1,
+					1
+				},
+				"korea/tangko_using"
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					3,
+					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[42115] = {
+		can_rotate = 0,
+		name = "Grape Juice",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		icon = "yinliao1koicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 1,
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "korea/yinliao1ko",
+		canputon = 0,
+		discount = 0,
+		id = 42115,
+		comfortable = 2,
+		describe = "A can of grape juice, straight out of the fridge. There are little jelly pieces at the bottom.",
+		dorm_id = 0,
+		gem_price = 120,
+		can_trigger = 0,
+		themeId = 42,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					3,
+					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[42116] = {
+		can_rotate = 0,
+		name = "Orange Juice",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		icon = "yinliao2koicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "korea/yinliao2ko",
+		canputon = 0,
+		discount = 0,
+		id = 42116,
+		comfortable = 2,
+		describe = "Orange juice is a universally beloved drink. Of course there's pulp.",
+		dorm_id = 0,
+		gem_price = 120,
+		can_trigger = 0,
+		themeId = 42,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					3,
+					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[42117] = {
+		can_rotate = 0,
+		name = "Fried Chicken",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		icon = "zhajikoicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		picture = "korea/zhajiko",
+		canputon = 0,
+		discount = 0,
+		id = 42117,
+		comfortable = 3,
+		describe = "Grab-and-go deliciousness for your busy schedule!",
+		dorm_id = 0,
+		gem_price = 240,
+		can_trigger = 0,
+		themeId = 42,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			3,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					3,
+					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[42118] = {
+		can_rotate = 0,
+		name = "Tea Table",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		icon = "zhuozi2koicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "korea/zhuozi2ko",
+		canputon = 0,
+		discount = 0,
+		id = 42118,
+		comfortable = 2,
+		describe = "Equally suited for enjoying tea and gossipping about the shipgirls next door.",
+		dorm_id = 0,
+		gem_price = 120,
+		can_trigger = 0,
+		themeId = 42,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					3,
+					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[42119] = {
+		can_rotate = 0,
+		name = "Yut Nori Game Table",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		icon = "zhuozi3koicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "korea/zhuozi3ko",
+		canputon = 1,
+		discount = 0,
+		id = 42119,
+		comfortable = 2,
+		describe = "A traditional board game. Let's teach everyone how to play!",
+		dorm_id = 0,
+		gem_price = 120,
+		can_trigger = 0,
+		themeId = 42,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			3
+		},
+		offset = {
+			0,
+			0
+		},
+		canputonGrid = {
+			{
+				1,
+				1
+			},
+			{
+				1,
+				2
+			},
+			{
+				1,
+				3
+			},
+			{
+				2,
+				1
+			},
+			{
+				2,
+				2
+			},
+			{
+				2,
+				3
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					3,
+					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[42120] = {
+		can_rotate = 0,
+		name = "Buk Table",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		icon = "zhuozi4koicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		picture = "korea/zhuozi4ko",
+		canputon = 1,
+		discount = 0,
+		id = 42120,
+		comfortable = 3,
+		describe = "Is it a table, or is it a drum?",
+		dorm_id = 0,
+		gem_price = 240,
+		can_trigger = 0,
+		themeId = 42,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			3,
+			3
+		},
+		offset = {
+			0,
+			9.03
+		},
+		canputonGrid = {
+			{
+				2,
+				2
+			},
+			{
+				2,
+				3
+			},
+			{
+				3,
+				2
+			},
+			{
+				3,
+				3
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					3,
+					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[42121] = {
+		can_rotate = 0,
+		name = "Janggo Table",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 2,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "zuoyi2koicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "korea/zuoyi2ko",
+		canputon = 0,
+		discount = 0,
+		id = 42121,
+		comfortable = 2,
+		describe = "Is it a table, or is it a long drum?",
+		dorm_id = 0,
+		gem_price = 120,
+		can_trigger = 0,
+		themeId = 42,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-9,
+					68
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					3,
+					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[42122] = {
+		can_rotate = 0,
+		name = "Traditional Cushion",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 2,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 20,
+		not_for_sale = 0,
+		icon = "zuodiankoicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 1,
+		picture = "korea/zuodianko",
+		canputon = 0,
+		discount = 0,
+		id = 42122,
+		comfortable = 1,
+		describe = "Craftsmanship was certainly better back then... No matter how much you squeeze this cushion, it won't lose its shape.",
+		dorm_id = 0,
+		gem_price = 60,
+		can_trigger = 0,
+		themeId = 42,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-13,
+					38
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					3,
+					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[42123] = {
+		can_rotate = 0,
+		name = "Yuts",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 2,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "zuoyikoicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "korea/zuoyiko",
+		canputon = 0,
+		discount = 0,
+		id = 42123,
+		comfortable = 2,
+		describe = "Game pieces for the yuts table. Tossing these takes some finesse. Hiyah~!",
+		dorm_id = 0,
+		gem_price = 120,
+		can_trigger = 0,
+		themeId = 42,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					2,
+					49
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					3,
+					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[42301] = {
+		can_rotate = 0,
+		name = "Traditional Wooden Window",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		effect = "",
+		icon = "chuanghukoicon",
+		is_get_time_note = 0,
+		belong = 2,
+		count = 3,
+		advice = 0,
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 5,
+		rarity = 3,
+		picture = "korea/chuanghuko",
+		canputon = 0,
+		discount = 0,
+		id = 42301,
+		comfortable = 3,
+		describe = "Though it's made of wood, it looks undeniably sturdy and beautiful.",
+		dorm_id = 0,
+		gem_price = 240,
+		can_trigger = 0,
+		themeId = 42,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					3,
+					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[42302] = {
+		can_rotate = 0,
+		name = "Floral Window Decor",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		effect = "",
+		icon = "guahuakoicon",
+		is_get_time_note = 0,
+		belong = 2,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 5,
+		rarity = 2,
+		picture = "korea/guahuako",
+		canputon = 0,
+		discount = 0,
+		id = 42302,
+		comfortable = 2,
+		describe = "A necessary component in the room. It is said that this flower symbolizes a promise for the future.",
+		dorm_id = 0,
+		gem_price = 120,
+		can_trigger = 0,
+		themeId = 42,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					3,
+					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[42303] = {
+		can_rotate = 0,
+		name = "Hibiscus Wall Decor",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		effect = "",
+		icon = "huakoicon",
+		is_get_time_note = 0,
+		belong = 2,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 5,
+		rarity = 2,
+		picture = "korea/huako",
+		canputon = 0,
+		discount = 0,
+		id = 42303,
+		comfortable = 2,
+		describe = "A beautiful ornament of an iconic flower. It even gives off a faint, sweet scent.",
+		dorm_id = 0,
+		gem_price = 120,
+		can_trigger = 0,
+		themeId = 42,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					3,
+					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[42304] = {
+		can_rotate = 0,
+		name = "Traditional Sliding Door",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		effect = "",
+		icon = "menkoicon",
+		is_get_time_note = 0,
+		belong = 2,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 5,
+		rarity = 3,
+		picture = "korea/menko",
+		canputon = 0,
+		discount = 0,
+		id = 42304,
+		comfortable = 3,
+		describe = "A simple but effective sliding door. It gives off an earthy smell when it slides across the ground.",
+		dorm_id = 0,
+		gem_price = 240,
+		can_trigger = 0,
+		themeId = 42,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			6,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					3,
+					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
 	all = {
 		1,
 		2,
@@ -43936,7 +45967,36 @@ pg.furniture_data_template = {
 		41114,
 		41115,
 		41116,
-		41117
+		41117,
+		42001,
+		42002,
+		42101,
+		42102,
+		42103,
+		42104,
+		42105,
+		42106,
+		42107,
+		42108,
+		42109,
+		42110,
+		42111,
+		42112,
+		42113,
+		42114,
+		42115,
+		42116,
+		42117,
+		42118,
+		42119,
+		42120,
+		42121,
+		42122,
+		42123,
+		42301,
+		42302,
+		42303,
+		42304
 	}
 }
 

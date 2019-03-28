@@ -40,8 +40,8 @@ function slot0.Line2QuadName(slot0, slot1)
 	return "chapter_cell_quad_" .. slot0 .. "_" .. slot1
 end
 
-function slot0.Line2MarkName(slot0, slot1)
-	return "chapter_cell_mark_" .. slot0 .. "_" .. slot1
+function slot0.Line2MarkName(slot0, slot1, slot2)
+	return "chapter_cell_mark_" .. slot0 .. "_" .. slot1 .. "#" .. slot2
 end
 
 function slot0.MinMaxLine2QuadName(slot0, slot1, slot2, slot3)

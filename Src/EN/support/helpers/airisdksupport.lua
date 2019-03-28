@@ -13,11 +13,14 @@ function AiriLogin()
 	AiriSdkMgr.inst:Login()
 end
 
-function LoginWithSocial(slot0)
+function LoginWithSocial(slot0, slot1, slot2)
 	if slot0 == AIRI_PLATFORM_FACEBOOK then
 		AiriSdkMgr.inst:LoginWithFB()
 	elseif slot0 == AIRI_PLATFORM_TWITTER then
 		AiriSdkMgr.inst:LoginWithTW()
+	elseif slot0 == AIRI_PLATFORM_YOSTAR then
+		pg.UIMgr.GetInstance():LoadingOn()
+		AiriSdkMgr.inst:LoginWithSDKAccount(slot1, slot2)
 	end
 end
 
@@ -39,11 +42,13 @@ function AiriBuy(slot0, slot1, slot2)
 	end
 end
 
-function LinkSocial(slot0)
+function LinkSocial(slot0, slot1, slot2)
 	if slot0 == AIRI_PLATFORM_FACEBOOK then
 		AiriSdkMgr.inst:LinkSocial(Airisdk.LoginPlatform.FACEBOOK)
 	elseif slot0 == AIRI_PLATFORM_TWITTER then
 		AiriSdkMgr.inst:LinkSocial(Airisdk.LoginPlatform.TWITTER)
+	elseif slot0 == AIRI_PLATFORM_YOSTAR then
+		AiriSdkMgr.inst:LinkSocial(Airisdk.LoginPlatform.YOSTAR, slot1, slot2)
 	end
 end
 
@@ -87,8 +92,16 @@ function GameShare(slot0, slot1)
 	AiriSdkMgr.inst:SystemShare(slot0, slot1)
 end
 
+function VerificationCodeReq(slot0)
+	AiriSdkMgr.inst:VerificationCodeReq(slot0)
+end
+
+function OpenYostarHelp()
+	AiriSdkMgr.AiriSDKInst:OpenHelpShift()
+end
+
 function AiriInitResult(slot0)
-	if AiriJPResultCodeHandler(slot0.R_CODE) then
+	if AiriResultCodeHandler(slot0.R_CODE) then
 		pg.UIMgr:GetInstance():LoadingOff()
 		AiriGoLogin()
 	end
@@ -104,7 +117,7 @@ end
 function AiriJPLogin(slot0)
 	pg.UIMgr.GetInstance():LoadingOff()
 
-	if AiriJPResultCodeHandler(slot0.R_CODE) then
+	if AiriResultCodeHandler(slot0.R_CODE) then
 		function ()
 			pg.m02:sendNotification(GAME.PLATFORM_LOGIN_DONE, {
 				user = User.New({
@@ -121,7 +134,7 @@ function AiriJPLogin(slot0)
 end
 
 function AiriTranscodeResult(slot0)
-	if AiriJPResultCodeHandler(slot0.R_CODE) then
+	if AiriResultCodeHandler(slot0.R_CODE) then
 		pg.m02:sendNotification(GAME.ON_GET_TRANSCODE, {
 			transcode = slot0.TRANSCODE
 		})
@@ -129,7 +142,7 @@ function AiriTranscodeResult(slot0)
 end
 
 function AiriBuyResult(slot0)
-	if AiriJPResultCodeHandler(slot0.R_CODE) then
+	if AiriResultCodeHandler(slot0.R_CODE) then
 		getProxy(ShopsProxy):removeWaitTimer()
 		pg.m02:sendNotification(GAME.CHARGE_CONFIRM, {
 			payId = slot0.EXTRADATA,
@@ -146,7 +159,7 @@ end
 function SetBirthResult(slot0)
 	pg.UIMgr.GetInstance():LoadingOff()
 
-	if AiriJPResultCodeHandler(slot0.R_CODE) then
+	if AiriResultCodeHandler(slot0.R_CODE) then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("set_birth_success"))
 	end
 end
@@ -154,7 +167,7 @@ end
 function LinkSocialResult(slot0)
 	pg.UIMgr.GetInstance():LoadingOff()
 
-	if AiriJPResultCodeHandler(slot0.R_CODE) then
+	if AiriResultCodeHandler(slot0.R_CODE) then
 		pg.m02:sendNotification(GAME.ON_SOCIAL_LINKED)
 	end
 end
@@ -162,12 +175,23 @@ end
 function UnlinkSocialResult(slot0)
 	pg.UIMgr.GetInstance():LoadingOff()
 
-	if AiriJPResultCodeHandler(slot0.R_CODE) then
+	if AiriResultCodeHandler(slot0.R_CODE) then
 		pg.m02:sendNotification(GAME.ON_SOCIAL_UNLINKED)
 	end
 end
 
-function AiriJPResultCodeHandler(slot0)
+function VerificationCodeResult(slot0)
+	pg.UIMgr.GetInstance():LoadingOff()
+
+	if AiriResultCodeHandler(slot0.R_CODE) then
+		pg.MsgboxMgr:GetInstance():ShowMsgBox({
+			hideNo = true,
+			content = i18n("verification_code_req_tip2")
+		})
+	end
+end
+
+function AiriResultCodeHandler(slot0)
 	slot2 = ":" .. slot0:ToInt()
 
 	if slot0.ToInt() == 0 then

@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"Best Pictures!\n\n<size=30>七 最重要的宝物</size>",
+					"Best Pictures!\n\n<size=30>Chapter 7: What I Treasure Most</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			bgm = "story-1",
 			actor = 107031,
 			nameColor = "#a9f548",
-			say = "哇，这是我的照片！？指挥官莫非你——",
+			say = "Yikes, these are photos of me! Commander, are you perhaps...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -34,11 +34,11 @@ return {
 			},
 			options = {
 				{
-					content = "推脱说这不是自己的",
+					content = "I swear, they're not mine!",
 					flag = 1
 				},
 				{
-					content = "撒谎说是自己拍的",
+					content = "That's right, this is mine!",
 					flag = 2
 				}
 			}
@@ -50,7 +50,7 @@ return {
 			optionFlag = 1,
 			actor = 107031,
 			nameColor = "#a9f548",
-			say = "太可疑了~那你是找谁拿来的~？",
+			say = "Hmm... I'm not sure I believe you... Who did you get these from anyway~?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			optionFlag = 1,
 			actor = 107031,
 			nameColor = "#a9f548",
-			say = "……不用问也知道吧。我们港区能拍到这些的除了她没有别人了。",
+			say = "Isn't it obvious? There's only one person here who would be able to take all these photos.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			optionFlag = 2,
 			actor = 107031,
 			nameColor = "#a9f548",
-			say = "诶！不会吧——！是指挥官拍的吗——！",
+			say = "Ehhhh? No way...! Commander, you took these?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			optionFlag = 2,
 			actor = 107031,
 			nameColor = "#a9f548",
-			say = "……不可能啦。指挥官才拍不了这样的照片呢。",
+			say = "... That's absurd! There's no way Commander could take photos of this quality.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是谁的都好，只剩最后一张了吧？是什么样子？让萨拉妹妹看看！",
+			say = "Well, who took these doesn't matter. We're almost on the last page! Let me take a look!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "萨拉托加一边说着，一边伸手夺过了那最后一张照片。",
+			say = "As she spoke, Saratoga reached out to flip the page.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哇！？",
+			say = "H-huh!?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "照片上是开心地一起走着的萨拉托加和指挥官。",
+			say = "Upon the photo was Saratoga walking hand-in-hand with Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "……这么说来，之前那些好像都是萨拉托加和别人的照片。",
+			say = "Now that I think about it, all the other photos in this album were with other people.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,23 +179,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呃！指挥官！这张不许！不许看！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 107031,
-			side = 2,
-			bgName = "bg_story_task",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "……因为……萨拉妹妹这种事真的很难为情嘛……",
+			say = "Umm! Commander! This one's off limits! Nothing to see here!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,33 +195,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "连喜欢都说不出口的……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			bgName = "bg_story_task",
-			dir = 1,
-			say = "萨拉托拉的声音越来越小。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 107031,
-			side = 2,
-			bgName = "bg_story_task",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "……回头要还给格里德利的……？那……",
+			say = "...because... Sister Sara isn't good at dealing with these kinds of things...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +211,33 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "别的可以还给她……就这张，不还啦♪",
+			say = "Ahhh... ya blew it, kid...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			bgName = "bg_story_task",
+			dir = 1,
+			say = "Saratoga's voice became softer and softer.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 107031,
+			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "Um... make sure to give it back to Gridley, okay...? But...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,7 +253,23 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "因为这张我要——当做宝贝珍藏的！",
+			say = "Not this one! I'm not going to give this one back~♪",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 107031,
+			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "After all, this photo... is what I treasure most!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +283,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "萨拉托加的脸上挂着和照片上同样的，带着一点淘气，又十分开心的微笑。",
+			say = "Saratoga's smiling face was the same as in the photo - half joyous, half mischievous.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

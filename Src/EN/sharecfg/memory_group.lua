@@ -595,6 +595,21 @@ pg.memory_group = {
 			266
 		}
 	},
+	[511] = {
+		title = "Best Pictures! ",
+		type = 3,
+		id = 511,
+		icon = "title_chara_salatuojia",
+		memories = {
+			322,
+			323,
+			324,
+			325,
+			326,
+			327,
+			328
+		}
+	},
 	[513] = {
 		title = "Pure-White Poem ",
 		type = 3,
@@ -608,6 +623,21 @@ pg.memory_group = {
 			340,
 			341,
 			342
+		}
+	},
+	[525] = {
+		title = "Enter: Akatsuki, The Ninja! ",
+		type = 3,
+		id = 525,
+		icon = "title_chara_xiao",
+		memories = {
+			471,
+			472,
+			473,
+			474,
+			475,
+			476,
+			477
 		}
 	},
 	[527] = {
@@ -731,7 +761,7 @@ pg.memory_group = {
 		}
 	},
 	[537] = {
-		title = "An Easily Flustered Girl's Story ",
+		title = "Loaded with Lead and Love ",
 		type = 3,
 		id = 537,
 		icon = "title_chara_xiefeierde",
@@ -796,7 +826,9 @@ pg.memory_group = {
 		502,
 		503,
 		504,
+		511,
 		513,
+		525,
 		527,
 		528,
 		529,

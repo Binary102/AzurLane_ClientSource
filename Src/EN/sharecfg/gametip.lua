@@ -1070,6 +1070,10 @@ pg.gametip = {
 		tip = "Do battle for $1 seconds",
 		key = "battle_preCombatLayer_time_hold"
 	},
+	battle_preCombatLayer_damage_before_end = {
+		tip = "战斗结束前尽可能取得更高伤害",
+		key = "battle_preCombatLayer_damage_before_end"
+	},
 	battle_preCombatMediator_leastLimit = {
 		tip = "Fleet 1 may not be empty!",
 		key = "battle_preCombatMediator_leastLimit"
@@ -7591,6 +7595,70 @@ $3]],
 	backyard_is_loading = {
 		tip = "Loading furniture... ",
 		key = "backyard_is_loading"
+	},
+	no_airspace_competition = {
+		tip = "无空域争夺",
+		key = "no_airspace_competition"
+	},
+	level_scene_title_word_1 = {
+		tip = "Recon value:",
+		key = "level_scene_title_word_1"
+	},
+	level_scene_title_word_2 = {
+		tip = "Chance of encounter:",
+		key = "level_scene_title_word_2"
+	},
+	ambush_display_0 = {
+		tip = "In action",
+		key = "ambush_display_0"
+	},
+	ambush_display_1 = {
+		tip = "Safe",
+		key = "ambush_display_1"
+	},
+	ambush_display_2 = {
+		tip = "V.Low",
+		key = "ambush_display_2"
+	},
+	ambush_display_3 = {
+		tip = "Low",
+		key = "ambush_display_3"
+	},
+	ambush_display_4 = {
+		tip = "Medium",
+		key = "ambush_display_4"
+	},
+	ambush_display_5 = {
+		tip = "High",
+		key = "ambush_display_5"
+	},
+	ambush_display_6 = {
+		tip = "Danger",
+		key = "ambush_display_6"
+	},
+	no_way_to_escape = {
+		tip = "Can't escape!",
+		key = "no_way_to_escape"
+	},
+	refuse_friend = {
+		tip = "Really decline this request?",
+		key = "refuse_friend"
+	},
+	refuse_and_add_into_bl = {
+		tip = "Decline and add to blacklist?",
+		key = "refuse_and_add_into_bl"
+	},
+	verification_code_req_tip1 = {
+		tip = "The e-mail box cannot be left blank.",
+		key = "verification_code_req_tip1"
+	},
+	verification_code_req_tip2 = {
+		tip = "Verification request uccessful! Please check your e-mail for the verification code.",
+		key = "verification_code_req_tip2"
+	},
+	yostar_link_title = {
+		tip = "Yostar Account:$1",
+		key = "yostar_link_title"
 	}
 }
 

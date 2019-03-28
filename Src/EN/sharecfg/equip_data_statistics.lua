@@ -954,6 +954,37 @@ pg.equip_data_statistics = {
 		part_sub = {},
 		equip_parameters = {}
 	},
+	[144] = {
+		name = "默认潜母水侦",
+		type = 12,
+		id = 144,
+		tech = 1,
+		speciality = "轰炸",
+		range = 90,
+		attribute_3 = "air",
+		scatter = "8",
+		ambush_extra = 0,
+		value_2 = 5,
+		icon = "39200",
+		angle = 90,
+		value_1 = "80 x 1",
+		avoid_extra = 0,
+		rarity = 1,
+		nationality = 3,
+		ammo = "通常",
+		descrip = "默认装备",
+		value_3 = 0,
+		attribute_1 = "damage",
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {
+			144
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {}
+	},
 	[201] = {
 		name = "T1 Eagles Light Cruiser Torpedo Auxiliary Gun",
 		type = 1,
@@ -18255,7 +18286,9 @@ pg.equip_data_statistics = {
 		weapon_id = {
 			18060
 		},
-		skill_id = {},
+		skill_id = {
+			6320
+		},
 		part_main = {},
 		part_sub = {},
 		equip_parameters = {}
@@ -18264,6 +18297,9 @@ pg.equip_data_statistics = {
 		base = 18060,
 		id = 18061,
 		value_1 = "129 x 2",
+		skill_id = {
+			6321
+		},
 		weapon_id = {
 			18061
 		},
@@ -18273,6 +18309,9 @@ pg.equip_data_statistics = {
 		base = 18060,
 		id = 18062,
 		value_1 = "146 x 2",
+		skill_id = {
+			6322
+		},
 		weapon_id = {
 			18062
 		},
@@ -18282,6 +18321,9 @@ pg.equip_data_statistics = {
 		base = 18060,
 		id = 18063,
 		value_1 = "163 x 2",
+		skill_id = {
+			6323
+		},
 		weapon_id = {
 			18063
 		},
@@ -18291,6 +18333,9 @@ pg.equip_data_statistics = {
 		base = 18060,
 		id = 18064,
 		value_1 = "180 x 2",
+		skill_id = {
+			6324
+		},
 		weapon_id = {
 			18064
 		},
@@ -18300,6 +18345,9 @@ pg.equip_data_statistics = {
 		base = 18060,
 		id = 18065,
 		value_1 = "197 x 2",
+		skill_id = {
+			6325
+		},
 		weapon_id = {
 			18065
 		},
@@ -18309,6 +18357,9 @@ pg.equip_data_statistics = {
 		base = 18060,
 		id = 18066,
 		value_1 = "214 x 2",
+		skill_id = {
+			6326
+		},
 		weapon_id = {
 			18066
 		},
@@ -18318,6 +18369,9 @@ pg.equip_data_statistics = {
 		base = 18060,
 		id = 18067,
 		value_1 = "231 x 2",
+		skill_id = {
+			6327
+		},
 		weapon_id = {
 			18067
 		},
@@ -18327,6 +18381,9 @@ pg.equip_data_statistics = {
 		base = 18060,
 		id = 18068,
 		value_1 = "247 x 2",
+		skill_id = {
+			6328
+		},
 		weapon_id = {
 			18068
 		},
@@ -18336,6 +18393,9 @@ pg.equip_data_statistics = {
 		base = 18060,
 		id = 18069,
 		value_1 = "264 x 2",
+		skill_id = {
+			6329
+		},
 		weapon_id = {
 			18069
 		},
@@ -18345,6 +18405,9 @@ pg.equip_data_statistics = {
 		base = 18060,
 		id = 18070,
 		value_1 = "281 x 2",
+		skill_id = {
+			6330
+		},
 		weapon_id = {
 			18070
 		},
@@ -48711,6 +48774,84 @@ pg.equip_data_statistics = {
 		},
 		property_rate = {}
 	},
+	[72254] = {
+		name = "全弹发射-最上级铃谷型I",
+		type = 1,
+		nationality = 0,
+		rarity = 1,
+		tech = 1,
+		speciality = "无",
+		base = 72251,
+		ambush_extra = 0,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "",
+		angle = 0,
+		avoid_extra = 0,
+		range = 0,
+		scatter = "0",
+		descrip = "技能弹幕",
+		ammo = "无",
+		value_3 = 0,
+		id = 72254,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {
+			72254
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {}
+	},
+	[72255] = {
+		name = "全弹发射-最上级铃谷型II",
+		base = 72251,
+		id = 72255,
+		weapon_id = {
+			72255
+		},
+		property_rate = {}
+	},
+	[72256] = {
+		name = "全弹发射-最上级铃谷型I增强",
+		type = 1,
+		nationality = 0,
+		rarity = 1,
+		tech = 1,
+		speciality = "无",
+		base = 72251,
+		ambush_extra = 0,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "",
+		angle = 0,
+		avoid_extra = 0,
+		range = 0,
+		scatter = "0",
+		descrip = "技能弹幕",
+		ammo = "无",
+		value_3 = 0,
+		id = 72256,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {
+			72256
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {}
+	},
+	[72257] = {
+		name = "全弹发射-最上级铃谷型II增强",
+		base = 72251,
+		id = 72257,
+		weapon_id = {
+			72257
+		},
+		property_rate = {}
+	},
 	[72261] = {
 		name = "0",
 		type = 1,
@@ -50646,6 +50787,44 @@ pg.equip_data_statistics = {
 		id = 79362,
 		weapon_id = {
 			79362
+		},
+		property_rate = {}
+	},
+	[79371] = {
+		name = "专属弹幕-I13I",
+		type = 1,
+		nationality = 0,
+		speciality = "无",
+		range = 0,
+		angle = 0,
+		tech = 1,
+		ambush_extra = 0,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "",
+		avoid_extra = 0,
+		rarity = 1,
+		descrip = "技能弹幕",
+		scatter = "0",
+		ammo = "无",
+		value_3 = 0,
+		id = 79371,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {
+			79371
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {}
+	},
+	[79372] = {
+		name = "专属弹幕-I13II",
+		base = 79371,
+		id = 79372,
+		weapon_id = {
+			79372
 		},
 		property_rate = {}
 	},
@@ -52617,6 +52796,7 @@ pg.equip_data_statistics = {
 		123,
 		140,
 		141,
+		144,
 		201,
 		202,
 		203,
@@ -56509,6 +56689,10 @@ pg.equip_data_statistics = {
 		72242,
 		72251,
 		72252,
+		72254,
+		72255,
+		72256,
+		72257,
 		72261,
 		72262,
 		72311,
@@ -56611,6 +56795,8 @@ pg.equip_data_statistics = {
 		79342,
 		79361,
 		79362,
+		79371,
+		79372,
 		90000,
 		90001,
 		90002,

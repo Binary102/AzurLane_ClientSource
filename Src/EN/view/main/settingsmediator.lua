@@ -30,6 +30,7 @@ function slot0.handleNotification(slot0, slot1)
 	elseif slot2 == GAME.ON_SOCIAL_LINKED then
 		slot0.viewComponent:checkAccountTwitterView()
 		slot0.viewComponent:checkAccountFacebookView()
+		slot0.viewComponent:checkAccountYostarView()
 	elseif slot2 == GAME.ON_SOCIAL_UNLINKED then
 		slot0.viewComponent:checkAccountTwitterView()
 		slot0.viewComponent:checkAccountFacebookView()

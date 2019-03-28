@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"忍者修行之路？\n\n<size=30>四　第六驱逐队的日常·下</size>",
+					"Enter: Akatsuki, The Ninja!\n\n<size=30>Chapter 4 - A Friendly Gathering (Part 2)</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "在{namecode:13}的邀请下，和{namecode:14}，{namecode:11}一起玩起了据说是长岛最新收藏的格斗游戏。",
+			say = "Ikazuchi and Inazuma invited Akatsuki and me to come and play a game, Fleet Fighter V, that they had borrowed from Long Island.",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -51,7 +51,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘿！",
+			say = "Take that!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			dir = 1,
 			actor = 301091,
 			nameColor = "#a9f548",
-			say = "唔！糟了！",
+			say = "W-what in the?! Oh no!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
 			actor = 301111,
-			say = "啊，破防了！",
+			say = "Alright, let's wreck some face!",
 			flashN = {
 				color = {
 					1,
@@ -143,7 +143,7 @@ return {
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
 			actor = 301111,
-			say = "→↘↓↙←→+BD・↓+C・C・↓↙←→+CD、↘←↙↓↘→←↓↙+BC、→↓←＋P＋G→←＋P＋G→←＋P＋G←↓→↑←＋P＋G↓→←＋P！",
+			say = "→↘↓↙←→+BD↓+CC↓↙←→+CD, ↘←↙↓↘→←↓↙+BC, →↓←＋P＋G→←＋P＋G→←＋P＋G←↓→↑←＋P＋G↓→←＋P!",
 			flashN = {
 				color = {
 					1,
@@ -191,7 +191,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……额？",
+			say = "... What just happened?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +205,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "屏幕上的“KO”，宣布着{namecode:13}和{namecode:14}的胜利。",
+			say = "K.O., flawless victory. Inazuma and Ikazuchi defeated us again.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没想到和指挥官联手还是输给了{namecode:13}一个人……只，只是因为在下不熟悉这个游戏而已啦！",
+			say = "Even in a 2v1, we can't beat Ikazuchi... I-I mean, I'm just not familiar with the controls, that's all!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,7 +233,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼哼，知道{namecode:13}大人的厉害了吧！",
+			say = "Heheheh! You'd need TAS-like reaction speeds to beat me!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "顺便一提，今天和{namecode:11}对{namecode:13}的战绩是0:10。",
+			say = "The final score was 10-0 for Ikazuchi.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			dir = 1,
 			actor = 301111,
 			nameColor = "#a9f548",
-			say = "哈啊……好过瘾。{namecode:13}非常开心呢！",
+			say = "Phew... I see! Games can be really fun!",
 			flashout = {
 				dur = 0.4,
 				black = true,
@@ -287,7 +287,7 @@ return {
 			}
 		},
 		{
-			say = "玩电子游戏上瘾什么的不太好呢……{namecode:11}姐姐也说一下{namecode:13}吧。",
+			say = "However, it's not good to get addicted to them. Please tell her about the dangers of getting hooked on gaming, Akatsuki.",
 			side = 0,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -312,7 +312,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -328,7 +328,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "要是{namecode:12}也在就好了呢……（小声）",
+			say = "(Whispering) If only Hibiki were here...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -344,7 +344,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:11}姐姐？",
+			say = "Akatsuki? Is something the matter?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -360,7 +360,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，没什么！稍微有点走神了呢……",
+			say = "N-nothing at all! I was just thinking out loud...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -376,7 +376,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:11}姐姐是又想起{namecode:12}姐姐了吧。",
+			say = "About Hibiki?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -392,7 +392,7 @@ return {
 			dir = 1,
 			actor = 301121,
 			nameColor = "#a9f548",
-			say = "不过有的时候，没有消息就是最好的消息。{namecode:14}是这么想的呢，指挥官先生呢？",
+			say = "I'm certain she's all right. Sometimes it's best not to worry about things like this. I'm sure the Commander agrees.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -403,7 +403,7 @@ return {
 			},
 			options = {
 				{
-					content = "……",
+					content = "......",
 					flag = 1
 				}
 			}
@@ -414,7 +414,7 @@ return {
 			dir = 1,
 			actor = 301091,
 			nameColor = "#a9f548",
-			say = "对不起，我先回去休息了……",
+			say = "Is it...? ... I'm feeling somewhat tired, so I think I'll go home now...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -438,7 +438,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:11}怎么了？",
+			say = "What's wrong, Akatsuki?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -452,7 +452,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "看起来{namecode:14}的话起了反效果……",
+			say = "It seems like Inazuma's attempt to reassure Akatsuki didn't have any effect.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -463,7 +463,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			blackBg = true,
-			say = "说起来，每天的巡逻报告{namecode:11}都要看很久，果然是在关注有没有关于{namecode:12}的消息吧。",
+			say = "That got me thinking... Maybe Hibiki is the reason why Akatsuki's been reading the patrol reports so thoroughly every day...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

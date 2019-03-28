@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"忍者修行之路？\n\n<size=30>六　黑暗之中</size>",
+					"Enter: Akatsuki, The Ninja!\n\n<size=30>Chapter 6 - In The Dark</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			stopbgm = true,
 			dir = 1,
 			blackBg = true,
-			say = "在这黑暗中，不知道过去了多久。时间仿佛也慢了下来。",
+			say = "The lights in the office had gone out, rendering it pitch black. I wasn't sure how much time had passed...",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -45,7 +45,7 @@ return {
 			}
 		},
 		{
-			say = "……",
+			say = "......",
 			actorName = "{namecode:11}",
 			nameColor = "#a9f548",
 			side = 2,
@@ -63,7 +63,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "在下真不争气呢……",
+			say = "I'm such a hopeless case...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "明明身为年长者，却只是个怕黑的胆小鬼……",
+			say = "I'm supposed to a brave nameship, yet without my rigging, I dare not tread in dark places...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "不行，身为忍者，摸黑什么在下才不怕！",
+			say = "But... I MUST be brave! Dark places, more than anywhere else, are where ninjas should excel...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "呜呜，身体还是不听使唤吗……",
+			say = "Guh... And yet, my legs refuse to move...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,14 +109,60 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "感觉{namecode:11}抱得更紧了。",
+			say = "It felt like Akatsuki was tightening her embrace of me.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actorName = "{namecode:11}",
+			side = 2,
+			nameColor = "#a9f548",
+			dir = 1,
+			blackBg = true,
+			say = "I'm glad to have someone as kind, dependable, and mature as you, Commander.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actorName = "{namecode:11}",
+			side = 2,
+			nameColor = "#a9f548",
+			dir = 1,
+			blackBg = true,
+			say = "When I'm with you, I feel the courage within me start to well up.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actorName = "{namecode:11}",
+			side = 2,
+			nameColor = "#a9f548",
+			dir = 1,
+			blackBg = true,
+			say = "J-just let it well a little more, then I will clear the darkness enveloping us!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			dir = 1,
+			blackBg = true,
+			say = "... Wait a moment, if I recall correctly, there was a flashlight lying somewhere on the desk...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "安慰{namecode:11}",
+					content = "Tell Akatsuki where it is",
 					flag = 1
 				}
 			}
@@ -127,7 +173,17 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "指挥官，果然是个可靠又温柔的人呢。",
+			say = "S-so I was right!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			dir = 1,
+			blackBg = true,
+			say = "Akatsuki let go of me then went to the desk and felt around to find the flashlight.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,19 +195,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "总觉得，在指挥官身边的话，在下就能变得勇敢了呢。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actorName = "{namecode:11}",
-			side = 2,
-			nameColor = "#a9f548",
-			dir = 1,
-			blackBg = true,
-			say = "再，再等一下，在下就一定能克服着黑暗的！",
+			say = "Ah! I've found it! Thank goodness!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,57 +205,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "对了，光顾着注意{namecode:11}的状态，忘记了一件重要的事情。面前的桌面上，没记错的话应该放了一个手电筒。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			options = {
-				{
-					content = "告诉{namecode:11}",
-					flag = 1
-				}
-			}
-		},
-		{
-			actorName = "{namecode:11}",
-			side = 2,
-			nameColor = "#a9f548",
-			dir = 1,
-			blackBg = true,
-			say = "真，真的吗！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			dir = 1,
-			blackBg = true,
-			say = "原本被紧紧抱住的触感消失了。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actorName = "{namecode:11}",
-			side = 2,
-			nameColor = "#a9f548",
-			dir = 1,
-			blackBg = true,
-			say = "哦哦！我找到了！这下得救了！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			dir = 1,
-			blackBg = true,
-			say = "{namecode:11}迫不及待地打开了手电筒。",
+			say = "Akatsuki turned it on without any further delay.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +218,7 @@ return {
 			dir = 1,
 			actor = 102061,
 			stopbgm = true,
-			say = "欸？",
+			say = "... Huh?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,7 +232,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "面前猝不及防地出现了一个人。",
+			say = "The flashlight illuminated the face of a certain person who must've come in after the lights went out.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,7 +244,7 @@ return {
 			dir = 1,
 			actor = 301091,
 			nameColor = "#a9f548",
-			say = "呀啊！！！！",
+			say = "Eek?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +268,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "{namecode:11}吓得晕了过去。",
+			say = "Frightened by the sudden appearance of someone she wasn't expecting, Akatsuki fainted.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -287,7 +281,7 @@ return {
 			bgm = "story-1",
 			actor = 102061,
 			nameColor = "#a9f548",
-			say = "我，我只是刚好路过指挥室，担心这里的情况所以进来看看……没，没事吧！",
+			say = "I just wanted to check how you were doing since I was in the area... Hey, a-are you okay?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,7 +295,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "结果为了照顾到{namecode:11}醒来，在来电之后还折腾了一小会。",
+			say = "In the end, it took a while for the lights (and Akatsuki) to return to normal.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -312,7 +306,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "停电是由于科研部门的特别实验导致的……不过这是后来才知道的了。",
+			say = "Apparently, the outage was caused by an experiment the research department was conducting... But that's a story for another time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -224,4 +224,4 @@ function slot0.clear(slot0)
 	return
 end
 
-return slot0
+return

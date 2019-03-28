@@ -306,7 +306,7 @@ function slot0.register(slot0)
 	end)
 	slot0.viewComponent:updateActivityBtn(slot7:getActivityById(ActivityConst.WITHOUT_ACTIVITY))
 	slot0.viewComponent:updateActivityMapBtn(slot7:getActivityByType(ActivityConst.ACTIVITY_TYPE_ZPROJECT))
-	slot0.viewComponent:updateActivityPtBtn(slot7:getActivityById(ActivityConst.UTAWARERU_PREVIEW_ID))
+	slot0.viewComponent:updateActivityPtBtn(slot7:getActivityById(ActivityConst.MORAN_RE_PT_ID))
 	slot0.viewComponent:updateVoteBtn(slot7:getActivityByType(ActivityConst.ACTIVITY_TYPE_VOTE))
 	slot0.viewComponent:updateLotteryBtn(slot7:getActivityByType(ActivityConst.ACTIVITY_TYPE_LOTTERY))
 	slot0.viewComponent:updateColoringBtn(slot7:getActivityByType(ActivityConst.ACTIVITY_TYPE_COLORING_ALPHA))
@@ -651,6 +651,7 @@ function slot0.listNotificationInterests(slot0)
 		CommanderProxy.COMMANDER_BOX_FINISHED,
 		GAME.FETCH_NPC_SHIP_DONE,
 		GAME.MAINUI_ACT_BTN_DONE,
+		NewShipMediator.OPEN,
 		PERMISSION_GRANTED,
 		PERMISSION_REJECT,
 		PERMISSION_NEVER_REMIND
@@ -736,6 +737,8 @@ function slot0.handleNotification(slot0, slot1)
 		slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3.items, slot3.callback)
 	elseif slot2 == GAME.MAINUI_ACT_BTN_DONE then
 		slot0.viewComponent:notifyActivitySummary(slot3.cnt, slot3.priority)
+	elseif slot2 == NewShipMediator.OPEN then
+		slot0.viewComponent:stopCurVoice()
 	elseif PERMISSION_GRANTED == slot2 then
 		if slot3 == ANDROID_CAMERA_PERMISSION then
 			slot0.viewComponent:openSnapShot()
@@ -883,7 +886,7 @@ function slot0.playStroys(slot0, slot1)
 		slot9 = slot6.getConfig("config_client").npc[2]
 		slot10 = {
 			function (slot0)
-				if pg.StoryMgr:GetInstance():IsPlayed(slot0) then
+				if slot0 == "" or pg.StoryMgr:GetInstance():IsPlayed(slot0) then
 					slot0()
 				else
 					pg.StoryMgr:GetInstance():Play(slot0, slot0, true, true)
@@ -952,10 +955,13 @@ function slot0.tryRequestVersion(slot0)
 		slot0.lastRequestVersionTime = Time.realtimeSinceStartup
 
 		pg.UIMgr.GetInstance():LoadingOn()
+
+		slot1 = true
+
 		VersionMgr.Inst:FetchVersion(function (slot0)
 			pg.UIMgr.GetInstance():LoadingOff()
 
-			if UpdateMgr.Inst.currentVersion.Build < slot0.Build then
+			if UpdateMgr.Inst.currentVersion.Build < false.Build then
 				pg.MsgboxMgr.GetInstance():ShowMsgBox({
 					modal = true,
 					hideNo = true,
@@ -969,6 +975,11 @@ function slot0.tryRequestVersion(slot0)
 				})
 			end
 		end)
+		LeanTween.delayedCall(3, System.Action(function ()
+			if slot0 then
+				pg.UIMgr.GetInstance():LoadingOff()
+			end
+		end))
 	end
 end
 

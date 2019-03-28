@@ -4,6 +4,16 @@ slot0.DURATION_LOSE_FADE_IN = 1.5
 slot0.DURATION_GRADE_LAST = 1.5
 slot0.DURATION_MOVE = 0.7
 slot0.DURATION_WIN_SCALE = 0.7
+slot0.ObjectiveList = {
+	"battle_result_victory",
+	"battle_result_undefeated",
+	"battle_result_sink_limit",
+	"battle_preCombatLayer_time_hold",
+	"battle_result_time_limit",
+	"battle_result_boss_destruct",
+	"battle_preCombatLayer_damage_before_end",
+	"battle_result_defeat_all_enemys"
+}
 
 function slot0.getUIName(slot0)
 	return "BattleResultUI"
@@ -242,33 +252,25 @@ function slot0.rankAnimaFinish(slot0)
 	slot1 = slot0:findTF("main/condition")
 
 	SetActive(slot1, true)
-
-	slot4 = slot1:Find("condition_1")
-	slot5 = slot1:Find("condition_2")
-	slot6 = slot1:Find("condition_3")
-
-	if pg.expedition_data_template[slot0.contextData.stageId].limit_type == 1 or slot3.limit_type == 4 then
-		slot7 = nil
-
-		slot0:setCondition(slot4, i18n("battle_result_victory"), slot0.contextData.score > 1)
-		slot0:setCondition(slot5, (slot3.sink_limit >= 2 or i18n("battle_result_undefeated")) and i18n("battle_result_sink_limit", slot3.sink_limit), not slot0.contextData.statistics._deadUnit)
-
-		if slot3.limit_type == 1 then
-			slot0:setCondition(slot6, i18n("battle_result_time_limit", slot3.time_limit), not slot0.contextData.statistics._badTime)
-		elseif slot3.limit_type == 4 then
-			slot0:setCondition(slot6, i18n("battle_result_boss_destruct"), slot0.contextData.statistics._boss_destruct < 1)
-		end
-	elseif slot3.limit_type == 2 then
-		setActive(slot4, false)
-		setActive(slot5, false)
-		slot0:setCondition(slot6, i18n("battle_preCombatLayer_time_hold", slot3.time_limit), slot0.contextData.score > 1)
-	elseif slot3.limit_type == 3 then
-		slot0:setCondition(slot6, i18n("battle_result_defeat_all_enemys"), slot0.contextData.score > 1)
-		setActive(slot4, false)
-		setActive(slot5, false)
-	end
+	slot4(pg.expedition_data_template[slot0.contextData.stageId].objective_1, slot1:Find("condition_1"))
+	slot4(pg.expedition_data_template[slot0.contextData.stageId].objective_2, slot1:Find("condition_2"))
+	slot4(pg.expedition_data_template[slot0.contextData.stageId].objective_3, slot1:Find("condition_3"))
 
 	slot0._stateFlag = "report"
+end
+
+function slot0.objectiveCheck(slot0, slot1)
+	if slot0 == 1 or slot0 == 4 or slot0 == 8 then
+		return slot1.score > 1
+	elseif slot0 == 2 or slot0 == 3 then
+		return not slot1.statistics._deadUnit
+	elseif slot0 == 6 then
+		return slot1.statistics._boss_destruct < 1
+	elseif slot0 == 5 then
+		return not slot1.statistics._badTime
+	elseif slot0 == 7 then
+		return true
+	end
 end
 
 function slot0.setCondition(slot0, slot1, slot2, slot3)
@@ -437,24 +439,24 @@ function slot0.displayShips(slot0)
 		slot15 = slot1[slot14.id]
 
 		if slot3[slot14.id] then
-			if not (ys.Battle.BattleDataFunction.GetPlayerShipTmpDataFromID(slot14.configId).type == ShipType.Qianting) then
+			if not table.contains(TeamType.SubShipType, ys.Battle.BattleDataFunction.GetPlayerShipTmpDataFromID(slot14.configId).type) then
 				i = slot8 + 1
 			else
 				i = slot9 + 1
 			end
 
-			slot17 = cloneTplTo(slot0._atkTpl, slot0._atkContainer)
-			slot18 = slot0:findTF("result", slot17)
-			slot20 = slot0:findTF("result/atk", slot17)
-			slot22 = slot0:findTF("result/mvp", slot17)
+			slot18 = cloneTplTo(slot0._atkTpl, slot0._atkContainer)
+			slot19 = slot0:findTF("result", slot18)
+			slot21 = slot0:findTF("result/atk", slot18)
+			slot23 = slot0:findTF("result/mvp", slot18)
 
-			setText(slot21, slot3[slot14.id].kill_count)
+			setText(slot22, slot3[slot14.id].kill_count)
 
-			slot0:findTF("result/icon", slot17).GetComponent(slot19, typeof(Image)).sprite = LoadSprite("herohrzicon/" .. slot14:getPainting())
-			slot0:findTF("result/dmg_progress/progress_bar", slot17).GetComponent(slot23, typeof(Image)).fillAmount = 0
-			slot26 = slot3[slot14.id].output / slot5 * 1
+			slot0:findTF("result/icon", slot18).GetComponent(slot20, typeof(Image)).sprite = LoadSprite("herohrzicon/" .. slot14:getPainting())
+			slot0:findTF("result/dmg_progress/progress_bar", slot18).GetComponent(slot24, typeof(Image)).fillAmount = 0
+			slot27 = slot3[slot14.id].output / slot5 * 1
 
-			setImageSprite(slot24, slot27, true)
+			setImageSprite(slot25, slot28, true)
 			table.insert(slot0._atkFuncs, function ()
 				LeanTween.value(go(slot0._tf), 0, , ):setOnUpdate(System.Action_float(function (slot0)
 					slot0:GetComponent(typeof(Image)).fillAmount = slot0
@@ -481,39 +483,39 @@ function slot0.displayShips(slot0)
 				end
 			end)
 
-			slot29, slot30 = nil
+			slot30, slot31 = nil
 
-			if slot16 then
-				slot29 = cloneTplTo(slot0._extpl, slot0._subExpContainer)
-				slot30 = slot0._maxSubRightDelay
+			if slot17 then
+				slot30 = cloneTplTo(slot0._extpl, slot0._subExpContainer)
+				slot31 = slot0._maxSubRightDelay
 			else
-				slot29 = cloneTplTo(slot0._extpl, slot0._expContainer)
-				slot30 = slot0._maxRightDelay
+				slot30 = cloneTplTo(slot0._extpl, slot0._expContainer)
+				slot31 = slot0._maxRightDelay
 			end
 
-			slot29.transform.anchoredPosition = Vector3(slot29.transform.anchoredPosition.x + (16.2 + rtf(slot29).rect.width) * (i - 1), slot29.transform.anchoredPosition.y, slot29.transform.anchoredPosition.z)
-			slot0._expTFs[#slot0._expTFs + 1] = slot29
-			slot0._nameTxts[#slot0._nameTxts + 1] = ScrollTxt.New(findTF(slot29, "ship_icon/frame/info/name_mask"), findTF(slot29, "ship_icon/frame/info/name_mask/name"))
-			slot34 = findTF(slot29, "ship_icon/frame/info/stars")
-			slot35 = findTF(slot29, "ship_icon/frame/info/stars/star_tpl")
-			slot36 = findTF(slot17, "result/stars")
-			slot37 = findTF(slot17, "result/stars/star_tpl")
-			slot40 = slot14:getMaxStar() - slot14:getStar()
-			slot41 = findTF(slot29, "heartsfly")
-			slot42 = findTF(slot29, "heartsbroken")
+			slot30.transform.anchoredPosition = Vector3(slot30.transform.anchoredPosition.x + (16.2 + rtf(slot30).rect.width) * (i - 1), slot30.transform.anchoredPosition.y, slot30.transform.anchoredPosition.z)
+			slot0._expTFs[#slot0._expTFs + 1] = slot30
+			slot0._nameTxts[#slot0._nameTxts + 1] = ScrollTxt.New(findTF(slot30, "ship_icon/frame/info/name_mask"), findTF(slot30, "ship_icon/frame/info/name_mask/name"))
+			slot35 = findTF(slot30, "ship_icon/frame/info/stars")
+			slot36 = findTF(slot30, "ship_icon/frame/info/stars/star_tpl")
+			slot37 = findTF(slot18, "result/stars")
+			slot38 = findTF(slot18, "result/stars/star_tpl")
+			slot41 = slot14:getMaxStar() - slot14:getStar()
+			slot42 = findTF(slot30, "heartsfly")
+			slot43 = findTF(slot30, "heartsbroken")
 
-			for slot46 = 1, slot14.getMaxStar(), 1 do
-				slot48 = cloneTplTo(slot35, slot34)
+			for slot47 = 1, slot14.getMaxStar(), 1 do
+				slot49 = cloneTplTo(slot36, slot35)
 
-				SetActive(cloneTplTo(slot37, slot36):Find("empty"), slot46 <= slot40)
-				SetActive(slot47:Find("star"), slot40 < slot46)
-				SetActive(slot48:Find("empty"), slot46 <= slot40)
-				SetActive(slot48:Find("star"), slot40 < slot46)
+				SetActive(cloneTplTo(slot38, slot37):Find("empty"), slot47 <= slot41)
+				SetActive(slot48:Find("star"), slot41 < slot47)
+				SetActive(slot49:Find("empty"), slot47 <= slot41)
+				SetActive(slot49:Find("star"), slot41 < slot47)
 			end
 
-			setImageSprite(findTF(slot29, "ship_icon"), slot43, true)
+			setImageSprite(findTF(slot30, "ship_icon"), slot44, true)
 
-			slot44 = findTF(slot29, "bg"):GetComponent(typeof(Image))
+			slot45 = findTF(slot30, "bg"):GetComponent(typeof(Image))
 
 			LoadSpriteAsync("bg/star_level_card_" .. slot14:rarity2bgPrint(), function (slot0)
 				if not slot0.exited then
@@ -522,60 +524,60 @@ function slot0.displayShips(slot0)
 
 				return
 			end)
-			setImageSprite(findTF(slot29, "ship_icon/frame/info/type"), slot45, true)
-			setActive(findTF(slot29, "ship_icon/frame/info/npc"), slot14:isActivityNpc())
-			slot33:setText(slot14:getName())
+			setImageSprite(findTF(slot30, "ship_icon/frame/info/type"), slot46, true)
+			setActive(findTF(slot30, "ship_icon/frame/info/npc"), slot14:isActivityNpc())
+			slot34:setText(slot14:getName())
 
-			slot47 = "shipframe"
-			slot48 = (slot14.propose and "prop") or slot14:rarity2bgPrint()
+			slot48 = "shipframe"
+			slot49 = (slot14.propose and "prop") or slot14:rarity2bgPrint()
 
-			setImageSprite(findTF(slot29, "ship_icon/frame/bg"), GetSpriteFromAtlas, true)
-			setActive(findTF(slot29, "ship_icon/duang"), slot14.propose)
+			setImageSprite(findTF(slot30, "ship_icon/frame/bg"), GetSpriteFromAtlas, true)
+			setActive(findTF(slot30, "ship_icon/duang"), slot14.propose)
 
-			slot47 = findTF(slot29, "ship_icon/frame/mvpLabel")
+			slot48 = findTF(slot30, "ship_icon/frame/mvpLabel")
 
 			if slot4 and slot14.id == slot4.id then
 				slot0.mvpShipVO = slot14
-				slot48, slot49 = nil
+				slot49, slot50 = nil
 
 				if slot0.contextData.score > 1 then
-					slot48, slot49 = Ship.getWords(slot0.mvpShipVO.skinId, "win_mvp", nil, false)
+					slot49, slot50 = Ship.getWords(slot0.mvpShipVO.skinId, "win_mvp", nil, false)
 				else
-					slot48, slot49 = Ship.getWords(slot0.mvpShipVO.skinId, "lose", nil, false)
+					slot49, slot50 = Ship.getWords(slot0.mvpShipVO.skinId, "lose", nil, false)
 				end
 
-				if slot49 then
+				if slot50 then
 					if slot0._currentVoice then
 						slot0._currentVoice:Stop(true)
 					end
 
-					slot0._currentVoice = playSoundEffect(slot49)
+					slot0._currentVoice = playSoundEffect(slot50)
 				end
 
-				SetActive(slot47, true)
+				SetActive(slot48, true)
 			end
 
 			if slot14.id == slot3._flagShipID then
 				slot0.flagShipVO = slot14
 			end
 
-			slot49 = findTF(slot29, "ship_icon/frame/info/lv_bg/levelUpLabel")
-			slot50 = findTF(slot29, "ship_icon/frame/info/lv_bg/levelup")
+			slot50 = findTF(slot30, "ship_icon/frame/info/lv_bg/levelUpLabel")
+			slot51 = findTF(slot30, "ship_icon/frame/info/lv_bg/levelup")
 
-			setText(slot48, slot14.level)
+			setText(slot49, slot14.level)
 
-			slot51 = findTF(slot29, "exp/exp_text")
-			slot53 = findTF(slot29, "exp/exp_progress").GetComponent(slot52, typeof(Image))
+			slot52 = findTF(slot30, "exp/exp_text")
+			slot54 = findTF(slot30, "exp/exp_progress").GetComponent(slot53, typeof(Image))
 
-			setActive(findTF(slot29, "exp/exp_buff"), slot0.expBuff)
+			setActive(findTF(slot30, "exp/exp_buff"), slot0.expBuff)
 
 			if slot0.expBuff then
-				setText(slot54, slot0.expBuff:getConfig("name"))
+				setText(slot55, slot0.expBuff:getConfig("name"))
 			end
 
-			slot30 = math.max(slot30, slot15.level - slot14.level + i * 0.5)
+			slot31 = math.max(slot31, slot15.level - slot14.level + i * 0.5)
 
-			function slot55()
+			function slot56()
 				SetActive(findTF(SetActive, "exp"), true)
 
 				slot0 = SetActive
@@ -682,17 +684,17 @@ function slot0.displayShips(slot0)
 				end)
 			end
 
-			slot56 = nil
+			slot57 = nil
 
-			if slot16 then
-				slot56 = slot0._subSkipExp
-				slot0._maxSubRightDelay = slot30
+			if slot17 then
+				slot57 = slot0._subSkipExp
+				slot0._maxSubRightDelay = slot31
 			else
-				slot56 = slot0._skipExp
-				slot0._maxRightDelay = slot30
+				slot57 = slot0._skipExp
+				slot0._maxRightDelay = slot31
 			end
 
-			slot56[#slot56 + 1] = function ()
+			slot57[#slot57 + 1] = function ()
 				LeanTween.cancel(go(LeanTween.cancel))
 				LeanTween.cancel(go(go))
 
@@ -748,10 +750,10 @@ function slot0.displayShips(slot0)
 				return
 			end
 
-			slot57 = slot29:GetComponent("CanvasGroup")
-			slot58 = i * 0.1
+			slot58 = slot30:GetComponent("CanvasGroup")
+			slot59 = i * 0.1
 
-			function slot59()
+			function slot60()
 				LeanTween.moveY(rtf(slot0), 0, 0.2):setOnComplete(System.Action(function ()
 					slot0()
 
@@ -766,10 +768,10 @@ function slot0.displayShips(slot0)
 				return
 			end
 
-			if slot16 then
-				slot0._subCardAnimaFuncList[#slot0._subCardAnimaFuncList + 1] = slot59
+			if slot17 then
+				slot0._subCardAnimaFuncList[#slot0._subCardAnimaFuncList + 1] = slot60
 			else
-				slot59()
+				slot60()
 			end
 		end
 	end

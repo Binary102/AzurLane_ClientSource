@@ -148,51 +148,56 @@ function slot0.appendSkill(slot0, slot1, slot2, slot3)
 
 	if slot3 then
 		slot0:commanderSkillFloat(slot3, slot1, slot7)
-	elseif ys.Battle.BattleCameraUtil:GetInstance():GetCharacterArrowBarPosition(ys.Battle.BattleVariable.CameraPosToUICamera(slot2:GetPosition())) == nil or (not slot2:IsMainFleetUnit() and slot2:GetTemplate().type ~= ShipType.Qianting) then
-		slot8.position = Vector3((slot11 ~= ys.Battle.BattleConfig.FRIENDLY_CODE or ys.Battle.BattleVariable.CameraPosToUICamera(slot2:GetPosition() + slot0.IN_VIEW_FRIEND_SKILL_OFFSET)) and ys.Battle.BattleVariable.CameraPosToUICamera(slot2:GetPosition() + slot0.IN_VIEW_FOE_SKILL_OFFSET).x, (slot11 ~= ys.Battle.BattleConfig.FRIENDLY_CODE or ys.Battle.BattleVariable.CameraPosToUICamera(slot2.GetPosition() + slot0.IN_VIEW_FRIEND_SKILL_OFFSET)) and ys.Battle.BattleVariable.CameraPosToUICamera(slot2.GetPosition() + slot0.IN_VIEW_FOE_SKILL_OFFSET).y, -2)
-
-		if slot0._preSkillTF then
-			slot0.handleSkillFloatCld(slot0._preSkillTF, slot8)
-		end
-
-		slot0._preSkillTF = slot8
-
-		slot8:GetComponent(typeof(DftAniEvent)):SetEndEvent(function (slot0)
-			slot0._preSkillTF = nil
-
-			slot0:Recycle(slot0)
-		end)
 	else
-		slot15, slot16 = slot2:GetMainUnitIndex()
-		slot17 = slot0.SIDE_ALIGNMENT[slot15]
+		slot15 = table.contains(TeamType.SubShipType, slot2:GetTemplate().type)
+		slot16 = slot2:GetMainUnitIndex()
 
-		for slot22 = 1, #slot0._sideSkillFloatStateList[slot11][slot15], 1 do
-			if slot18[slot22] then
-				slot16 = slot22
+		if ys.Battle.BattleCameraUtil:GetInstance():GetCharacterArrowBarPosition(slot13) == nil or (slot14 == nil and slot15 and not slot2:IsMainFleetUnit()) then
+			slot8.position = Vector3((slot11 ~= ys.Battle.BattleConfig.FRIENDLY_CODE or ys.Battle.BattleVariable.CameraPosToUICamera(slot2:GetPosition() + slot0.IN_VIEW_FRIEND_SKILL_OFFSET)) and ys.Battle.BattleVariable.CameraPosToUICamera(slot2:GetPosition() + slot0.IN_VIEW_FOE_SKILL_OFFSET).x, (slot11 ~= ys.Battle.BattleConfig.FRIENDLY_CODE or ys.Battle.BattleVariable.CameraPosToUICamera(slot2.GetPosition() + slot0.IN_VIEW_FRIEND_SKILL_OFFSET)) and ys.Battle.BattleVariable.CameraPosToUICamera(slot2.GetPosition() + slot0.IN_VIEW_FOE_SKILL_OFFSET).y, -2)
 
-				break
+			if slot0._preSkillTF then
+				slot0.handleSkillFloatCld(slot0._preSkillTF, slot8)
 			end
+
+			slot0._preSkillTF = slot8
+
+			slot8:GetComponent(typeof(DftAniEvent)):SetEndEvent(function (slot0)
+				slot0._preSkillTF = nil
+
+				slot0:Recycle(slot0)
+			end)
+		else
+			slot17 = nil
+			slot18 = slot0.SIDE_ALIGNMENT[slot16]
+
+			for slot23 = 1, #slot0._sideSkillFloatStateList[slot11][slot16], 1 do
+				if slot19[slot23] then
+					slot17 = slot23
+
+					break
+				end
+			end
+
+			if slot17 == nil then
+				slot17 = #slot19 + 1
+			end
+
+			slot19[slot17] = false
+			slot8.position = slot14
+			slot8.anchoredPosition.y = slot18[slot17]
+
+			if slot11 == ys.Battle.BattleConfig.FOE_CODE then
+				slot20.x = slot0.FOE_SIDE_X_OFFSET
+			end
+
+			slot8.anchoredPosition = slot20
+
+			slot8:GetComponent(typeof(DftAniEvent)):SetEndEvent(function (slot0)
+				slot0[] = true
+
+				slot0:Recycle(true)
+			end)
 		end
-
-		if slot16 == nil then
-			slot16 = #slot18 + 1
-		end
-
-		slot18[slot16] = false
-		slot8.position = slot14
-		slot8.anchoredPosition.y = slot17[slot16]
-
-		if slot11 == ys.Battle.BattleConfig.FOE_CODE then
-			slot19.x = slot0.FOE_SIDE_X_OFFSET
-		end
-
-		slot8.anchoredPosition = slot19
-
-		slot8:GetComponent(typeof(DftAniEvent)):SetEndEvent(function (slot0)
-			slot0[] = true
-
-			slot0:Recycle(true)
-		end)
 	end
 end
 

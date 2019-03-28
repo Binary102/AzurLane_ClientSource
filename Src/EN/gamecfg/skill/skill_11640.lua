@@ -130,10 +130,10 @@ return {
 		}
 	},
 	uiEffect = "",
-	name = "",
+	name = "善战之舰",
 	cd = 0,
 	picture = "1",
-	desc = "投雷",
+	desc = "鱼雷",
 	painting = 1,
 	id = 11640,
 	castCV = "skill",

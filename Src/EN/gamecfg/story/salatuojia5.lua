@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"Best Pictures!\n\n<size=30>五 取材秘辛系列・上</size>",
+					"Best Pictures!\n\n<size=30>Chapter 5: Paparazzi Problems! (Part 1)</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "第三十五张照片上是夜晚的沙滩。……站在那里的是笑容十分灿烂的萨拉托加和——",
+			say = "The thirty-fifth photo was of a serene beach at night... And standing there was Saratoga, flashing a brilliant smile.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呼……今天差不多就这样吧，回去晚了姐姐又要担心了……",
+			say = "Phew, that about wraps things up for today! Sis is gonna get worried if I get back late...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，还是再练一下吧，姐姐和小彗星她们还好，千万不能输给重樱的孩子们！",
+			say = "Hmm, actually let's practice a bit more. I don't mind if it's Lex or Comet's group, but I definitely don't want to lose to those upstart Sakura idols!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			}
 		},
 		{
-			say = "小加加……又在加练了……做偶像真的很不容易呢……",
+			say = "Sara's practicing by herself again... this idol business sure is really hard work...",
 			side = 0,
 			bgName = "bg_night",
 			dir = 1,
@@ -135,7 +135,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过感觉很奇怪呢~偶像文化明明是从重樱推广到全世界的，我们舰队里的重樱偶像却很少啊……",
+			say = "But it's strange, isn't it? The Sakura Empire is world famous for producing many idols, but almost none of them ended up in this fleet...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不管了，先拍照拍照……",
+			say = "Whatever, the important thing is getting this shot...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			say = "（咔嚓！）",
+			say = "(Snap!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，忘记关掉快门声音了！",
+			say = "Crap... forgot to silence the shutters!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,7 +188,7 @@ return {
 			}
 		},
 		{
-			say = "是格里德利吗？",
+			say = "Is that you, Gridley?",
 			side = 1,
 			bgName = "bg_night",
 			dir = 1,
@@ -213,7 +213,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "为什么会知道是我！？",
+			say = "How'd you know?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,7 +229,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "因为像这样拍照的人只有格里德利啊……{namecode:55}她们会事先问我的。",
+			say = "Because you're the only one who snoops around like this, Gridley... Aoba and the others at least ask beforehand.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +245,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "抱歉……我马上就删！",
+			say = "Sorry! I'll scram right now!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,7 +261,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没事没事！反正我们港区也没有外人。实话说是有一点困扰，不过格里德利也不会拿去做坏事对吧？",
+			say = "It's fine, it's fine! We all know each other here anyways. While this kind of stuff normally would be a bit problematic, it's not like Gridley plans to do anything bad, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,7 +277,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……",
+			say = "... ...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -293,7 +293,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "所以呢！准了！个人收集的话OK，不许拿去商用哦~",
+			say = "So, it's not a problem! Collecting photos is A-O-K, but selling them is a no-go!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -309,7 +309,7 @@ return {
 			dir = 1,
 			actor = 107031,
 			nameColor = "#a9f548",
-			say = "好了，来！笑一个~",
+			say = "All righty, here! Say cheese~!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -334,7 +334,7 @@ return {
 			dir = 1,
 			actor = 101051,
 			nameColor = "#a9f548",
-			say = "哇哇！",
+			say = "Ch-cheese!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -357,7 +357,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			say = "（咔嚓！）",
+			say = "(Snap!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -367,7 +367,7 @@ return {
 			bgName = "bg_night",
 			side = 2,
 			dir = 1,
-			say = "拍下了笑容十分僵硬的格里德利",
+			say = "Gridley's smile was stiffer than a yearbook photo in this one.",
 			flashout = {
 				dur = 1,
 				black = true,

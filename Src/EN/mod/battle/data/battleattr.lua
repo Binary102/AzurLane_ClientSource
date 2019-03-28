@@ -14,15 +14,19 @@ ys.Battle.BattleAttr = {
 		"luck",
 		"cri",
 		"criDamage",
+		"criDamageResist",
 		"hiveExtraHP",
 		"bulletSpeedRatio",
 		"torpedoSpeedExtra",
 		"damageRatioBullet",
 		"healingEnhancement",
-		"damageGetRatio",
-		"damageGetRatioByCannon",
-		"damageGetRatioByBulletTorpedo",
-		"damageGetRatioByAir",
+		"injureRatio",
+		"injureRatioByCannon",
+		"injureRatioByBulletTorpedo",
+		"injureRatioByAir",
+		"damageRatioByCannon",
+		"damageRatioByBulletTorpedo",
+		"damageRatioByAir",
 		"damagePreventRantTorpedo",
 		"dodgeRateExtra",
 		"perfectDodge",
@@ -185,7 +189,10 @@ ys.Battle.BattleAttr = {
 		slot0._attr = slot2
 		slot2.battleUID = slot0:GetUniqueID()
 		slot2.hostUID = slot1:GetUniqueID()
-		slot2.id = slot1._attr.id
+
+		if type(slot1._attr.id) == "number" then
+			slot2.id = slot1._attr.id
+		end
 
 		for slot6, slot7 in ipairs(slot0.AttrListInheritance) do
 			slot2[slot7] = slot1._attr[slot7]
@@ -226,6 +233,8 @@ ys.Battle.BattleAttr = {
 
 		slot3.maxHP = slot4
 		slot0._attr.crashDMG = slot0._tmpData.crash_DMG
+		slot0._attr.dodge = slot0._tmpData.dodge
+		slot0._attr.dodgeLimit = slot0._tmpData.dodge_limit
 
 		return
 	end,
@@ -322,6 +331,8 @@ function ys.Battle.BattleAttr.SetAirFighterAttr(slot0, slot1)
 
 	slot2.maxHP = math.floor(slot1.max_hp + slot1.hp_growth * (slot4 - 1) / 1000)
 	slot2.attackRating = slot1.accuracy + slot1.ACC_growth * (slot4 - 1) / 1000
+	slot2.dodge = slot1.dodge
+	slot2.dodgeLimit = slot1.dodge_limit
 	slot2.cannonPower = slot1.attack_power + slot1.AP_growth * (slot4 - 1) / 1000
 	slot2.torpedoPower = slot1.attack_power + slot1.AP_growth * (slot4 - 1) / 1000
 	slot2.antiAirPower = slot1.attack_power + slot1.AP_growth * (slot4 - 1) / 1000

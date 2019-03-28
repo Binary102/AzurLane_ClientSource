@@ -149,7 +149,7 @@ return {
 			}
 		}
 	},
-	name = "killer_Airplane",
+	name = "航空阵列——击杀敌方飞机",
 	init_effect = "jinengchufared",
 	id = 11652,
 	time = 0,

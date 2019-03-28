@@ -1029,6 +1029,48 @@ pg.backyard_theme_template = {
 			41116
 		}
 	},
+	[42] = {
+		Cfg_1 = 5,
+		name = "Traditional Style",
+		desc = "Take a journey to a distant land steeped in a wondrous and rich history.",
+		deblocking = 1,
+		new = 1,
+		hot = 1,
+		Cfg_2 = 8,
+		is_view = 1,
+		discount = 0,
+		id = 42,
+		icon = "kothemeicon",
+		comfortable = 0,
+		discount_time = "",
+		ids = {
+			42001,
+			42002,
+			42102,
+			42103,
+			42104,
+			42105,
+			42106,
+			42107,
+			42109,
+			42110,
+			42111,
+			42113,
+			42114,
+			42116,
+			42117,
+			42118,
+			42119,
+			42120,
+			42121,
+			42122,
+			42123,
+			42301,
+			42302,
+			42303,
+			42304
+		}
+	},
 	all = {
 		1,
 		2,
@@ -1050,7 +1092,8 @@ pg.backyard_theme_template = {
 		37,
 		38,
 		39,
-		41
+		41,
+		42
 	}
 }
 

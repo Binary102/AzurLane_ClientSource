@@ -10,7 +10,7 @@ return {
 	{},
 	{},
 	desc_get = "",
-	name = "大凤技能",
+	name = "命运之骰",
 	init_effect = "",
 	id = 11620,
 	time = 0,

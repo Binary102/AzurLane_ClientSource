@@ -11,14 +11,14 @@ return {
 	last_effect = "",
 	effect_list = {
 		{
-			type = "BattleBuffAddAttrRatioCommander",
+			type = "BattleBuffAddAttrCommander",
 			trigger = {
 				"onAttach"
 			},
 			arg_list = {
-				ability = "command",
-				convertRate = -1.2,
-				convertAttr = "damageGetRatio"
+				ability = "tactic",
+				convertRate = -0.0002,
+				convertAttr = "injureRatio"
 			}
 		}
 	}

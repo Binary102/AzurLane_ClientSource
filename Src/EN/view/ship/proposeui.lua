@@ -57,11 +57,18 @@ function slot0.init(slot0)
 end
 
 function slot0.didEnter(slot0)
+	if slot0.contextData.review then
+	end
+
 	if slot0.commonTF then
 		setActive(slot0.commonTF, false)
 	end
 
+	slot0.weddingReview = slot0.contextData.review
+
 	if slot0.weddingReview then
+		slot0.bgName = Nation.Nation2BG(slot1)
+
 		setActive(slot0.skipBtn, true)
 		onButton(slot0, slot0.skipBtn, function ()
 			LeanTween.cancelAll(false)
@@ -85,6 +92,9 @@ function slot0.didEnter(slot0)
 				slot0:emit(slot1.ON_CLOSE)
 			end
 		end, SFX_CANCEL)
+
+		slot0.bgName = Nation.Nation2BG(slot1)
+
 		PoolMgr.GetInstance():GetUI("Propose" .. Nation.Nation2Side(slot1) .. "UI", true, function (slot0)
 			pg.UIMgr:GetInstance():LoadingOff()
 
@@ -102,56 +112,79 @@ function slot0.didEnter(slot0)
 			slot0.intimacyValueTF = slot0:findTF("intimacy/value", slot0.window)
 			slot0.button = slot0:findTF("button", slot0.window)
 			slot0.intimacyDesc = slot0:findTF("desc", slot0.window)
+			slot0.intimacydescTime = slot0:findTF("descPic/desc_time", slot0.window)
+			slot0.intimacyDescPic = slot0:findTF("descPic", slot0.window)
 			slot0.intimacyBuffDesc = slot0:findTF("desc_buff", slot0.window)
 			slot0._paintingTF = slot0:findTF("paint", slot0.window)
 			slot0.intimacyAchieved = slot0:findTF("intimacy/achieved", slot0.window)
 			slot0.intimacyNoAchieved = slot0:findTF("intimacy/no_achieved", slot0.window)
 			slot0.ringAchieved = slot0:findTF("ringCount/achieved", slot0.window)
 			slot0.ringNoAchieved = slot0:findTF("ringCount/no_achieved", slot0.window)
+			slot0.ringValue = slot0:findTF("ringCount/desc", slot0.window)
 			slot0.nameTF = slot0:findTF("title1/Text", slot0.window)
 			slot0.shipNameTF = slot0:findTF("title2/Text", slot0.window)
-			slot0.nationTF = slot0:findTF("nation", slot0.window)
+			slot0.campTF = slot0:findTF("Camp", slot0.window)
 			slot0.doneTF = slot0:findTF("done", slot0.window)
+			slot0.CampSprite = slot0:findTF("CampSprite", slot0.window)
 
 			setActive(slot0.window, true)
 			setText(slot0.nameTF, slot0.player.name)
 			setText(slot0.shipNameTF, slot0.shipVO:getName())
 
-			if not LoadSprite("prints/" .. nation2print(slot2) .. "_1") then
-				warning("找不到印花, shipConfigId: " .. slot0.shipVO.configId)
-				setActive(slot0.nationTF, false)
-			else
-				rtf(slot0.nationTF).pivot = getSpritePivot(slot1)
-
-				setImageSprite(slot0.nationTF, slot1, true)
-				setActive(slot0.nationTF, true)
+			if slot0.CampSprite then
+				if not getImageSprite(slot0:findTF(Nation.Nation2Print(slot2), slot0.CampSprite)) then
+					warning("找不到印花, shipConfigId: " .. slot0.shipVO.configId)
+					setActive(slot0.campTF, false)
+				else
+					setImageSprite(slot0.campTF, slot1, false)
+					setActive(slot0.campTF, true)
+				end
 			end
 
-			slot7, slot3, slot10 = slot0.shipVO:getIntimacyDetail()
+			slot6, slot2, slot9 = slot0.shipVO:getIntimacyDetail()
 
-			setImageSprite(slot0.intimacyTF, slot5, true)
+			setImageSprite(slot0.intimacyTF, slot4, true)
 			setActive(slot0.intimacyTF, true)
-			setText(slot0.intimacyValueTF, i18n("propose_intimacy_tip", slot4))
+			setText(slot0.intimacyValueTF, i18n("propose_intimacy_tip", slot3))
 			setActive(slot0.button, not slot0.shipVO.propose)
-			setActive(slot0.intimacyAchieved, slot0.shipVO.propose or slot4 >= 100)
-			setActive(slot0.intimacyNoAchieved, slot4 < 100 and not slot0.shipVO.propose)
+			setActive(slot0.intimacyAchieved, slot0.shipVO.propose or slot3 >= 100)
+			setActive(slot0.intimacyNoAchieved, slot3 < 100 and not slot0.shipVO.propose)
 
-			slot7 = slot0.bagProxy:getItemCountById(ITEM_ID_FOR_PROPOSE)
+			slot6 = slot0.bagProxy:getItemCountById(ITEM_ID_FOR_PROPOSE)
 
-			setActive(slot0.ringAchieved, slot0.shipVO.propose or slot7 > 0)
-			setActive(slot0.ringNoAchieved, slot7 <= 0 and not slot0.shipVO.propose)
+			setActive(slot0.ringAchieved, slot0.shipVO.propose or slot6 > 0)
+			setActive(slot0.ringNoAchieved, slot6 <= 0 and not slot0.shipVO.propose)
 			setActive(slot0.doneTF, slot0.shipVO.propose)
 
-			slot0.button:GetComponent(typeof(Button)).interactable = slot7 > 0 and not slot0.shipVO.propose and slot3 <= slot4
-			slot8, slot9 = slot0.shipVO:getInitmacyInfo()
+			slot0.button:GetComponent(typeof(Button)).interactable = slot6 > 0 and not slot0.shipVO.propose and slot2 <= slot3
+			slot7, slot8 = slot0.shipVO:getInitmacyInfo()
 
 			if slot0.shipVO.propose then
-				setText(slot0.intimacyDesc, i18n("intimacy_desc_propose", pg.TimeMgr.GetInstance():DescTime(slot0.shipVO.proposeTime, "%d-%m-%Y", true)))
+				if slot0.intimacyDescPic then
+					setActive(slot0.intimacyDescPic, true)
+					setActive(slot0.intimacyDesc, false)
+					setText(slot0.intimacydescTime, pg.TimeMgr.GetInstance():DescTime(slot0.shipVO.proposeTime, "%B.%d,    %y", true))
+				elseif slot0.intimacyDesc then
+					setActive(slot0.intimacyDesc, true)
+
+					if GetComponent(slot0.intimacyDesc, "VerticalText") then
+						setText(slot0.intimacyDesc, i18n("intimacy_desc_propose_vertical", pg.TimeMgr.GetInstance():ChieseDescTime(slot0.shipVO.proposeTime, true)))
+					else
+						setText(slot0.intimacyDesc, i18n("intimacy_desc_propose", pg.TimeMgr.GetInstance():DescTime(slot0.shipVO.proposeTime, "%m/%d/%Y", true)))
+					end
+				end
 			else
-				setText(slot0.intimacyDesc, i18n(slot9, slot0.shipVO.name))
+				if slot0.intimacyDescPic then
+					setActive(slot0.intimacyDescPic, false)
+				end
+
+				if slot0.intimacyDesc then
+					setActive(slot0.intimacyDesc, true)
+					setText(slot0.intimacyDesc, i18n(slot8, slot0.shipVO.name))
+				end
 			end
 
-			setText(slot0.intimacyBuffDesc, "*" .. i18n(slot9 .. "_buff"))
+			setText(slot0.intimacyBuffDesc, "*" .. i18n(slot8 .. "_buff"))
 			slot0:loadChar()
 			pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 			onButton(slot0, slot0.button, function ()
@@ -190,7 +223,7 @@ end
 function slot0.onBackPressed(slot0)
 	if isActive(slot0.window) then
 		playSoundEffect(SFX_CANCEL)
-		triggerButton(slot0:findTF("close"))
+		triggerButton(slot0:findTF("close_end"))
 	end
 end
 
@@ -377,11 +410,30 @@ function slot0.stampWindow(slot0)
 	slot0:loadChar()
 	setActive(slot0.window, true)
 	setActive(slot0.button, false)
-	setText(slot0.intimacyDesc, i18n("intimacy_desc_propose", pg.TimeMgr.GetInstance():DescTime(slot0.shipVO.proposeTime, "%d-%m-%Y", true)))
+
+	slot1 = nil
+
+	if slot0.intimacyDescPic then
+		setActive(slot0.intimacyDesc, false)
+		setActive(slot0.intimacyDescPic, true)
+
+		slot1 = GetOrAddComponent(slot0.intimacyDescPic, typeof(CanvasGroup))
+	else
+		if slot0.intimacyDesc and GetComponent(slot0.intimacyDesc, typeof(Text)) then
+			if GetComponent(slot0.intimacyDesc, "VerticalText") then
+				setText(slot0.intimacyDesc, i18n("intimacy_desc_propose_vertical", pg.TimeMgr.GetInstance():ChieseDescTime(slot0.shipVO.proposeTime, true)))
+			else
+				setText(slot0.intimacyDesc, i18n("intimacy_desc_propose", pg.TimeMgr.GetInstance():DescTime(slot0.shipVO.proposeTime, "%m/%d/%Y", true)))
+			end
+
+			slot1 = GetOrAddComponent(slot0.intimacyDesc, typeof(CanvasGroup))
+		end
+	end
+
 	setText(slot0.intimacyBuffDesc, "")
 	setActive(slot0.doneTF, false)
 
-	GetOrAddComponent(slot0.intimacyDesc, typeof(CanvasGroup)).alpha = 0
+	slot1.alpha = 0
 	GetOrAddComponent(slot0.window, typeof(CanvasGroup)).interactable = false
 
 	LeanTween.value(go(slot0.window), 0, 1, 0.8):setOnUpdate(System.Action_float(function (slot0)
@@ -469,16 +521,43 @@ function slot0.showProposePanel(slot0)
 
 			slot0.proposePanel = tf(slot0)
 
+			if not slot0.weddingReview or not slot0.reviewSkinID then
+				slot1 = slot0.shipVO.skinId
+			end
+
+			slot0.handId = pg.ship_skin_template[slot1].hand_id
+			slot2 = pg.TimeMgr.GetInstance():ServerTimeDesc("%Y%m%d")
+
+			if SPECIAL_PROPOSE and SPECIAL_PROPOSE[1] == slot2 then
+				for slot6, slot7 in ipairs(SPECIAL_PROPOSE[2]) do
+					if slot7[1] == slot1 then
+						slot0.handId = slot7[2]
+					end
+				end
+			end
+
+			slot0.handName = "ProposeHand_" .. slot0.handId
+
+			PoolMgr.GetInstance():GetUI(slot0.handName, true, function (slot0)
+				slot0.transHand = tf(slot0)
+
+				setParent(slot0.transHand, slot0.proposePanel)
+
+				slot0.handTF = slot0:findTF("hand", slot0.transHand)
+				slot0.ringTF = slot0:findTF("ring", slot0.transHand)
+				slot0.ringAnim = slot0.ringTF:GetComponent(typeof(Animator))
+				slot0.ringAnim.enabled = false
+				slot0.ringLight = slot0:findTF("ring_light", slot0.ringTF)
+				slot0.ringLightCG = GetOrAddComponent(slot0.ringLight, typeof(CanvasGroup))
+				slot0.ringCG = GetOrAddComponent(slot0.ringTF, typeof(CanvasGroup))
+
+				return
+			end)
 			setParent(tf(slot0), slot0:findTF("contain"))
 
-			slot0.handTF = slot0:findTF("hand", slot0.proposePanel)
-			slot0.ringTF = slot0:findTF("ring", slot0.proposePanel)
-			slot0.ringCG = GetOrAddComponent(slot0.ringTF, typeof(CanvasGroup))
 			slot0.ringBoxTF = slot0:findTF("ringBox", slot0.proposePanel)
 			slot0.ringBoxFull = slot0:findTF("full", slot0.ringBoxTF)
 			slot0.ringBoxCG = GetOrAddComponent(slot0.ringBoxTF, typeof(CanvasGroup))
-			slot0.ringLight = slot0:findTF("ring_light", slot0.ringTF)
-			slot0.ringLightCG = GetOrAddComponent(slot0.ringLight, typeof(CanvasGroup))
 			slot0.churchBefore = slot0:findTF("before", slot0.proposePanel)
 			slot0.churchLight = slot0:findTF("light", slot0.churchBefore)
 
@@ -505,16 +584,23 @@ function slot0.showProposePanel(slot0)
 
 				slot0.ringBoxClicked = true
 
-				LeanTween.alpha(slot0.ringBoxFull, 0, 0.6):setOnComplete(System.Action(function ()
-					LeanTween.moveY(rtf(slot0.ringTF), 60, 0.5):setDelay(0.1):setOnComplete(System.Action(function ()
-						slot0:ringBlink(true)
-						LeanTween.value(slot0.ringTipTF.gameObject, 0, 1, 1.5):setOnUpdate(System.Action_float(function (slot0)
-							slot0.ringTipCG.alpha = slot0
+				LeanTween.alpha(rtf(slot0.ringBoxFull), 0, 0.6):setOnComplete(System.Action(function ()
+					LeanTween.delayedCall(0.1, System.Action(function ()
+						slot0.ringAnim.enabled = true
 
-							return
-						end)):setOnComplete(System.Action(function ()
-							setActive(slot0:findTF("finger", slot0.ringTipTF), true)
-							setActive:enableRingDrag(true)
+						slot0.ringAnim.ringAnim:Play("movein")
+						LeanTween.delayedCall(0.5, System.Action(function ()
+							slot0.ringAnim:Play("blink")
+							LeanTween.value(slot0.ringTipTF.gameObject, 0, 1, 1.5):setOnUpdate(System.Action_float(function (slot0)
+								slot0.ringTipCG.alpha = slot0
+
+								return
+							end)):setOnComplete(System.Action(function ()
+								setActive(slot0:findTF("finger", slot0.ringTipTF), true)
+								setActive:enableRingDrag(true)
+
+								return
+							end))
 
 							return
 						end))
@@ -527,7 +613,7 @@ function slot0.showProposePanel(slot0)
 
 				return
 			end)
-			LoadImageSpriteAsync("bg/bg_church", slot0.storybg)
+			LoadImageSpriteAsync(slot0.bgName, slot0.storybg)
 
 			slot0.storybg.localScale = Vector3(1.2, 1.2, 1.2)
 
@@ -550,22 +636,6 @@ function slot0.showProposePanel(slot0)
 	slot1()
 end
 
-function slot0.ringBlink(slot0, slot1)
-	LeanTween.cancel(go(slot0.ringTF))
-
-	if slot1 then
-		LeanTween.value(go(slot0.ringTF), 1, 0.2, 0.8):setOnUpdate(System.Action_float(function (slot0)
-			slot0.ringCG.alpha = slot0
-
-			return
-		end)):setLoopPingPong():setEase(LeanTweenType.easeInOutSine)
-	else
-		slot0.ringCG.alpha = 1
-	end
-
-	return
-end
-
 function slot0.ringOn(slot0)
 	if slot0.isRingOn then
 		return
@@ -575,14 +645,14 @@ function slot0.ringOn(slot0)
 
 	slot0.isRingOn = true
 
-	slot0.ringTF:GetComponent("DftAniEvent"):SetEndEvent(function (slot0)
-		slot0.enabled = false
+	slot0.ringTF:GetComponent("DftAniEvent").SetEndEvent(slot1, function (slot0)
+		slot0.ringAnim.enabled = false
 		slot0.isRingOn = false
 
 		if not slot0.weddingReview then
-			slot1:emit(ProposeMediator.ON_PROPOSE, slot1.shipVO.id)
+			slot0:emit(ProposeMediator.ON_PROPOSE, slot0.shipVO.id)
 		else
-			slot1:RingFadeout(function ()
+			slot0:RingFadeout(function ()
 				slot0:displayShipWord("propose")
 
 				return
@@ -592,7 +662,9 @@ function slot0.ringOn(slot0)
 		return
 	end)
 
-	slot0.ringTF:GetComponent("Animator").enabled = true
+	slot0.ringAnim.enabled = true
+
+	slot0.ringAnim:Play("wear")
 
 	return
 end
@@ -612,8 +684,6 @@ function slot0.addRingDragListenter(slot0)
 	slot1 = nil
 
 	slot0.press:AddBeginDragFunc(function ()
-		slot0:ringBlink(false)
-
 		return
 	end)
 	slot0.press:AddDragFunc(function (slot0, slot1)

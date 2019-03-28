@@ -32,7 +32,9 @@ end
 
 function slot0.initToggles(slot0)
 	slot0.toggles = {
-		slot0:findTF("phase1", slot0.togglesTF)
+		slot0:findTF("phase1", slot0.togglesTF),
+		slot0:findTF("phase2", slot0.togglesTF),
+		slot0:findTF("phase3", slot0.togglesTF)
 	}
 
 	slot0:updatePhase()

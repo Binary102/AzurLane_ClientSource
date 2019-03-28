@@ -11,13 +11,13 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"Best Pictures!\n\n<size=30>一 精彩瞬间！隔壁的小加加</size>",
+					"Best Pictures!\n\n<size=30>Chapter 1: Lights, Camera, Sara!</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "港区·指挥室",
+			say = "Port - Command Room",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -47,7 +47,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "秘书舰萨拉托加一边哼着歌，一边干着活儿。",
+			say = "Saratoga was happily humming while carrying out her work as the secretary.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,14 +57,14 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "……看来她太专注于工作，并没有注意到这边。",
+			say = "... but she seemed to be so absorbed in her work that she wasn't aware of it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "看看上次“那件东西”",
+					content = "Take a look at the \"goods\" from before.",
 					flag = 1
 				}
 			}
@@ -76,7 +76,7 @@ return {
 			bgName = "bg_story_school",
 			actor = 312011,
 			nameColor = "#a9f548",
-			say = "当场逮捕喵！偷拍也就算了，还盗用{namecode:98}的复印机，这是大罪喵！",
+			say = "Stop right there! Sneaky photo ops are already pushing it, but secretly using Akashi's copy machine as well... is a sin, nya!",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -112,7 +112,7 @@ return {
 			}
 		},
 		{
-			say = "指挥官救我——！我只是想给大家宣传魅力无限的小加加嘛！……话说那台复印机原来是{namecode:98}的吗！？",
+			say = "Commander, help meee~! I simply wanted to spread the gospel of Sister Sara's charm to the whole world! ...Wait, that copy machine is yours, Akashi?",
 			side = 0,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -146,7 +146,7 @@ return {
 			dir = 1,
 			actor = 312011,
 			actorName = "{namecode:98}",
-			say = "没错喵！所以复印件就由我{namecode:98}全部没收了喵！原件交给指挥官处理喵！",
+			say = "Damn right, nya! As a result, I'm going to have to confiscate all of that! Hand over the originals, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,7 +162,7 @@ return {
 			dir = 1,
 			actor = 101051,
 			nameColor = "#a9f548",
-			say = "诶诶……（倒地）",
+			say = "Noooooooo... *collapses*",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
-			say = "如此这般，得到了格里德利打算用来宣传的《小加加Best Pictures vol.1 试读版》。",
+			say = "And that was how \"Sister Sara's Best Pictures vol. 1 <sample version>\" came into my possession.",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -211,7 +211,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "按照格里德利的说法，里面的内容是萨拉托加的日常精彩瞬间（偷拍）的照片。",
+			say = "If Gridley's testimony was to be believed, within this tome was pictures of every angle of Saratoga's daily life... perhaps quite literally.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +239,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官~我马上就弄完啦~然后我们再去找列克星敦姐姐上课吧！",
+			say = "Commander~ I'm about done~! After we're finished with work, let's go get some more lessons from Lexington!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +253,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "……趁萨拉托加还没注意到，先翻来看看吧。",
+			say = "...Well, since she hasn't noticed yet, perhaps it wouldn't hurt to take a peek at this album first...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

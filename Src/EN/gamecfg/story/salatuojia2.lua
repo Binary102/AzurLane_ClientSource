@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"Best Pictures!\n\n<size=30>二 小加加的工作</size>",
+					"Best Pictures!\n\n<size=30>Chapter 2: Sara's Work Never Ends!</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "第一张照片上是穿上了舰装的萨拉托加在认真航行的样子——",
+			say = "The first photo was of Saratoga in her full rigging, cruising with a serious look on her face.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -34,7 +34,7 @@ return {
 			bgm = "level",
 			actor = 107031,
 			nameColor = "#a9f548",
-			say = "好了！萨拉妹妹的机动舰队作战讲座，要开始咯——",
+			say = "All righty! Sara's carrier task force lecture is about to begin~!",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -76,7 +76,7 @@ return {
 			dir = 1,
 			actor = 204011,
 			nameColor = "#a9f548",
-			say = "请您多多指导！",
+			say = "It is an honour to receive your instruction!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "萨拉老师，有劳你了。",
+			say = "Miss Sara, thank you for coming~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			dir = 1,
 			actor = 205011,
 			nameColor = "#a9f548",
-			say = "要好好训练哦！……怎么连我也要参加！？",
+			say = "Spare no expense in your training! ... Wait, why am I here too?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			dir = 1,
 			actor = 107031,
 			nameColor = "#a9f548",
-			say = "那我开始讲课咯！航母的攻击距离比战舰要长很多！所以最基本的作战方法就是灵活运用这个射程！",
+			say = "I'm going to start the lecture! Carriers have a much longer attack range than battleships! The most crucial thing is how you utilize this advantage!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "也就是说呢，和恶作剧是一样的！在对方看不到的地方进行攻击是最有效的！",
+			say = "In other words, think of it like a prank! It's most effective to attack your opponents where and when they least expect it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我们白鹰使用空母的经历最长，大家要好好学习哦！",
+			say = "Since we here at the Eagle Union have the longest experience operating carriers, make sure to study hard!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			say = "……",
+			say = "... ...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +209,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "原来如此！确实学到了不少！",
+			say = "I see the light! Indeed, that was very informative!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呜……怎么觉得比我架子还大呢……",
+			say = "Hmm... does she not sound like she's talking down to me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "陛下，不能闹别扭哦？",
+			say = "Your Majesty, now's not the time to be contrary~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +257,7 @@ return {
 			dir = 1,
 			actor = 107031,
 			nameColor = "#a9f548",
-			say = "那边的！现在是无线通信管制期间，不许说悄悄话！",
+			say = "Hey, you two right there! No chattering during the lecture!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,7 +282,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是——",
+			say = "Yes ma'am~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,7 +298,7 @@ return {
 			dir = 1,
 			actor = 205011,
 			nameColor = "#a9f548",
-			say = "可恶……",
+			say = "Arghh....!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -322,7 +322,7 @@ return {
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
-			say = "虽然看起来不像，还是想起了萨拉托加身为大家的前辈这一事实。",
+			say = "Despite her appearances, Sara sometimes would end up reminding us of her seniority among carriers.",
 			flashout = {
 				dur = 1,
 				black = true,

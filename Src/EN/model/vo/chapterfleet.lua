@@ -64,6 +64,7 @@ function slot0.update(slot0, slot1)
 
 	slot0.baseSpeed = slot0:calcBaseSpeed()
 	slot0.rotation = Quaternion.identity
+	slot0.slowSpeedFactor = slot1.move_step_down
 
 	slot0:updateCommanders(slot1.commander_list)
 
@@ -343,6 +344,12 @@ function slot0.getDodgeSums(slot0)
 	return math.pow(_.reduce(slot0:getShips(false), 0, slot1), 0.6666666666666666)
 end
 
+function slot0.getAntiAircraftSums(slot0)
+	return _.reduce(slot0:getShips(false), 0, function (slot0, slot1)
+		return slot0 + slot1:getProperties(slot0:getCommanders())[AttributeType.AntiAircraft]
+	end)
+end
+
 function slot0.getShipAmmo(slot0)
 	slot1 = 0
 
@@ -430,8 +437,12 @@ function slot0.containsSameKind(slot0, slot1)
 	end)
 end
 
+function slot0.increaseSlowSpeedFactor(slot0)
+	slot0.slowSpeedFactor = slot0.slowSpeedFactor + 1
+end
+
 function slot0.getSpeed(slot0)
-	return slot0.baseSpeed + (slot0:triggerSkill(FleetSkill.TypeMoveSpeed) or 0)
+	return math.max((slot0.baseSpeed + (slot0:triggerSkill(FleetSkill.TypeMoveSpeed) or 0)) - slot0.slowSpeedFactor, 1)
 end
 
 function slot0.calcBaseSpeed(slot0)
@@ -640,6 +651,16 @@ function slot0.findCommanderBySkillId(slot0, slot1)
 			return slot7
 		end
 	end
+end
+
+function slot0.getFleetAirDominanceValue(slot0)
+	slot1 = 0
+
+	for slot5, slot6 in ipairs(slot0:getShips(false)) do
+		slot1 = slot1 + calcAirDominanceValue(slot6, slot0:getCommanders())
+	end
+
+	return slot1
 end
 
 return slot0

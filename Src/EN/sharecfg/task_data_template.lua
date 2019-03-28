@@ -7352,6 +7352,262 @@ pg.task_data_template = {
 			}
 		}
 	},
+	[5131] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5107,
+		type = 5,
+		name = "Lights, Camera, Sara!",
+		count_inherit = 0,
+		desc = "Acquire 3 \"Torpedo Tempura\" \n(will be automatically consumed.)",
+		target_id_2 = "",
+		sub_type = 1000,
+		added_tip = 1,
+		story_icon = "salatuojia",
+		award_choice = "",
+		level = 1,
+		next_task = "5132",
+		visibility = 1,
+		story_id = "SALATUOJIA1",
+		target_id_for_client = 50003,
+		id = 5131,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "50003",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		},
+		scene = {
+			"BACKYARD"
+		}
+	},
+	[5132] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5108,
+		type = 5,
+		name = "Sara's Work Never Ends!",
+		count_inherit = 0,
+		desc = "Enhance any character 10 times.",
+		target_id_2 = "",
+		sub_type = 34,
+		added_tip = 1,
+		story_icon = "salatuojia",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5133",
+		visibility = 1,
+		story_id = "SALATUOJIA2",
+		target_id_for_client = 0,
+		id = 5132,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5133] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5109,
+		type = 5,
+		name = "Sara's Day Off!",
+		count_inherit = 0,
+		desc = "Sortie and obtain 20 victories with \nSaratoga in the fleet.",
+		target_id_2 = "",
+		sub_type = 18,
+		added_tip = 1,
+		story_icon = "salatuojia",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5134",
+		visibility = 1,
+		story_id = "SALATUOJIA3",
+		target_id_for_client = 10703,
+		id = 5133,
+		target_num = 20,
+		fix_task = 0,
+		target_id = "10703",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5134] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5110,
+		type = 5,
+		name = "Sister Sara and Lady Lex!",
+		count_inherit = 0,
+		desc = "Complete 3 Daily Challenges with \nSaratoga in the fleet.",
+		target_id_2 = "",
+		sub_type = 19,
+		added_tip = 1,
+		story_icon = "salatuojia",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5135",
+		visibility = 1,
+		story_id = "SALATUOJIA4",
+		target_id_for_client = 10703,
+		id = 5134,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "10703",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5135] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5111,
+		type = 5,
+		name = "Paparazzi Problems! (Part 1)",
+		count_inherit = 0,
+		desc = "Reach 100 Affinity with Saratoga.",
+		target_id_2 = "",
+		sub_type = 1012,
+		added_tip = 1,
+		story_icon = "salatuojia",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5136",
+		visibility = 1,
+		story_id = "SALATUOJIA5",
+		target_id_for_client = 10703,
+		id = 5135,
+		target_num = 10000,
+		fix_task = 0,
+		target_id = "10703",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				5
+			},
+			{
+				2,
+				16002,
+				1
+			}
+		}
+	},
+	[5136] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5112,
+		type = 5,
+		name = "Paparazzi Problems! (Part 2)",
+		count_inherit = 0,
+		desc = "Fully Limit Break Saratoga.",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 1,
+		story_icon = "salatuojia",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5137",
+		visibility = 1,
+		story_id = "SALATUOJIA6",
+		target_id_for_client = 107034,
+		id = 5136,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "107034",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18032,
+				1
+			}
+		}
+	},
+	[5137] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5113,
+		type = 5,
+		name = "What I Treasure Most",
+		count_inherit = 0,
+		desc = "Get Saratoga to Level 100.",
+		target_id_2 = "",
+		sub_type = 1013,
+		added_tip = 1,
+		story_icon = "salatuojia",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "SALATUOJIA7",
+		target_id_for_client = 10703,
+		id = 5137,
+		target_num = 100,
+		fix_task = 0,
+		target_id = "10703",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18032,
+				2
+			}
+		}
+	},
 	[5151] = {
 		is_head = 0,
 		guild_coin_award = 0,
@@ -7605,6 +7861,262 @@ pg.task_data_template = {
 				2,
 				18003,
 				1
+			}
+		}
+	},
+	[5271] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5205,
+		type = 5,
+		name = "Bad Sense of Direction",
+		count_inherit = 0,
+		desc = "Acquire 3 \"Torpedo Tempura\" \n(will be automatically consumed.)",
+		target_id_2 = "",
+		sub_type = 1000,
+		added_tip = 1,
+		story_icon = "xiao",
+		award_choice = "",
+		level = 1,
+		next_task = "5272",
+		visibility = 1,
+		story_id = "XIAO1",
+		target_id_for_client = 50003,
+		id = 5271,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "50003",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		},
+		scene = {
+			"BACKYARD"
+		}
+	},
+	[5272] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5206,
+		type = 5,
+		name = "Ninja Training",
+		count_inherit = 0,
+		desc = "Enhance any character 10 times.",
+		target_id_2 = "",
+		sub_type = 34,
+		added_tip = 1,
+		story_icon = "xiao",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5273",
+		visibility = 1,
+		story_id = "XIAO2",
+		target_id_for_client = 0,
+		id = 5272,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5273] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5207,
+		type = 5,
+		name = "A Friendly Gathering (Part 1)",
+		count_inherit = 0,
+		desc = "Sortie and obtain 20 victories with \nAkatsuki in the fleet.",
+		target_id_2 = "",
+		sub_type = 18,
+		added_tip = 1,
+		story_icon = "xiao",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5274",
+		visibility = 1,
+		story_id = "XIAO3",
+		target_id_for_client = 30109,
+		id = 5273,
+		target_num = 20,
+		fix_task = 0,
+		target_id = "30109",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5274] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5208,
+		type = 5,
+		name = "A Friendly Gathering (Part 2)",
+		count_inherit = 0,
+		desc = "Complete 3 Daily Challenges with \nAkatsuki in the fleet.",
+		target_id_2 = "",
+		sub_type = 19,
+		added_tip = 1,
+		story_icon = "xiao",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5275",
+		visibility = 1,
+		story_id = "XIAO4",
+		target_id_for_client = 30109,
+		id = 5274,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "30109",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5275] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5209,
+		type = 5,
+		name = "The Sudden Darkness",
+		count_inherit = 0,
+		desc = "Reach 100 Affinity with Akatsuki.",
+		target_id_2 = "",
+		sub_type = 1012,
+		added_tip = 1,
+		story_icon = "xiao",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5276",
+		visibility = 1,
+		story_id = "XIAO5",
+		target_id_for_client = 30109,
+		id = 5275,
+		target_num = 10000,
+		fix_task = 0,
+		target_id = "30109",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				5
+			},
+			{
+				2,
+				16002,
+				1
+			}
+		}
+	},
+	[5276] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5210,
+		type = 5,
+		name = "In The Dark",
+		count_inherit = 0,
+		desc = "Fully Limit Break Akatsuki.",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 1,
+		story_icon = "xiao",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5277",
+		visibility = 1,
+		story_id = "XIAO6",
+		target_id_for_client = 301094,
+		id = 5276,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "301094",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18002,
+				1
+			}
+		}
+	},
+	[5277] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5211,
+		type = 5,
+		name = "Promise and Hope",
+		count_inherit = 0,
+		desc = "Get Akatsuki to Level 100.",
+		target_id_2 = "",
+		sub_type = 1013,
+		added_tip = 1,
+		story_icon = "xiao",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "XIAO7",
+		target_id_for_client = 30109,
+		id = 5277,
+		target_num = 100,
+		fix_task = 0,
+		target_id = "30109",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18002,
+				2
 			}
 		}
 	},
@@ -20419,7 +20931,7 @@ pg.task_data_template = {
 		type = 26,
 		name = "Road to Commander Stage 9",
 		count_inherit = 0,
-		desc = "Equip the Twin 127mm MK12 Dual Gun.",
+		desc = "Equip a T2 Twin 127mm Mk12 Dual Gun.",
 		target_id_2 = "",
 		sub_type = 43,
 		added_tip = 0,
@@ -20581,6 +21093,2174 @@ pg.task_data_template = {
 				4,
 				103061,
 				1
+			}
+		}
+	},
+	[13874] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90237,
+		type = 26,
+		name = "拉新2阶段1",
+		count_inherit = 0,
+		desc = "Get Laffey, Javelin, or Z23 to Level 30.",
+		target_id_2 = "",
+		sub_type = 1013,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 13874,
+		target_num = 30,
+		fix_task = 0,
+		target_id = {
+			10117,
+			40123,
+			20121
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				200
+			}
+		}
+	},
+	[13875] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90238,
+		type = 26,
+		name = "拉新2阶段2",
+		count_inherit = 0,
+		desc = "Get Laffey, Javelin, or Z23 to 4 Stars via Limit Breaks.",
+		target_id_2 = "",
+		sub_type = 33,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 13875,
+		target_num = 4,
+		fix_task = 0,
+		target_id = {
+			10117,
+			40123,
+			20121
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				1000
+			}
+		}
+	},
+	[13876] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90239,
+		type = 26,
+		name = "拉新2阶段3",
+		count_inherit = 0,
+		desc = "Get Laffey, Javelin, or Z23 to Level 50.",
+		target_id_2 = "",
+		sub_type = 1013,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 13876,
+		target_num = 50,
+		fix_task = 0,
+		target_id = {
+			10117,
+			40123,
+			20121
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				300
+			}
+		}
+	},
+	[13877] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90240,
+		type = 26,
+		name = "拉新2阶段4",
+		count_inherit = 0,
+		desc = "Get Laffey, Javelin, or Z23 to Level 70.",
+		target_id_2 = "",
+		sub_type = 1013,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 13877,
+		target_num = 70,
+		fix_task = 0,
+		target_id = {
+			10117,
+			40123,
+			20121
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				500
+			}
+		}
+	},
+	[13878] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90241,
+		type = 26,
+		name = "拉新2阶段5",
+		count_inherit = 0,
+		desc = "Get Portland to Level 30.",
+		target_id_2 = "",
+		sub_type = 1013,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 13878,
+		target_num = 30,
+		fix_task = 0,
+		target_id = {
+			10306
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				200
+			}
+		}
+	},
+	[13879] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90242,
+		type = 26,
+		name = "拉新2阶段6",
+		count_inherit = 0,
+		desc = "Get Portland to 4 Stars via Limit Breaks.",
+		target_id_2 = "",
+		sub_type = 33,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 13879,
+		target_num = 4,
+		fix_task = 0,
+		target_id = {
+			10306
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				1000
+			}
+		}
+	},
+	[13880] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90243,
+		type = 26,
+		name = "拉新2阶段7",
+		count_inherit = 0,
+		desc = "Get Portland to Level 50.",
+		target_id_2 = "",
+		sub_type = 1013,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 13880,
+		target_num = 50,
+		fix_task = 0,
+		target_id = {
+			10306
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				300
+			}
+		}
+	},
+	[13881] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90244,
+		type = 26,
+		name = "拉新2阶段8",
+		count_inherit = 0,
+		desc = "Get Portland to Level 70.",
+		target_id_2 = "",
+		sub_type = 1013,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 13881,
+		target_num = 70,
+		fix_task = 0,
+		target_id = {
+			10306
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				500
+			}
+		}
+	},
+	[13882] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90245,
+		type = 26,
+		name = "拉新2阶段9",
+		count_inherit = 0,
+		desc = "Get 1 of Laffey's, Javelin's, or Z23's skills to Level 7.",
+		target_id_2 = "",
+		sub_type = 37,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 13882,
+		target_num = 7,
+		fix_task = 0,
+		target_id = {
+			10117,
+			40123,
+			20121
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54005,
+				8
+			}
+		}
+	},
+	[13883] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90246,
+		type = 26,
+		name = "拉新2阶段10",
+		count_inherit = 0,
+		desc = "Buy any 5 Tech Boxes from the Supply Shop.",
+		target_id_2 = "",
+		sub_type = 150,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 13883,
+		target_num = 5,
+		fix_task = 0,
+		target_id = {
+			30011,
+			30012,
+			30013,
+			30014,
+			30015,
+			30021,
+			30022,
+			30023,
+			30024,
+			30025,
+			30031,
+			30032,
+			30033,
+			30034,
+			30035,
+			30041,
+			30042,
+			30043,
+			30044,
+			30045
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54034,
+				1
+			}
+		}
+	},
+	[13884] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90247,
+		type = 26,
+		name = "拉新2阶段11",
+		count_inherit = 0,
+		desc = "Combine 5 Tech Boxes into 1.",
+		target_id_2 = "",
+		sub_type = 51,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 13884,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			30011,
+			30012,
+			30013,
+			30014,
+			30015,
+			30021,
+			30022,
+			30023,
+			30024,
+			30025,
+			30031,
+			30032,
+			30033,
+			30034,
+			30035,
+			30041,
+			30042,
+			30043,
+			30044,
+			30045
+		},
+		open_need = {},
+		award_display = {
+			{
+				4,
+				100001,
+				1
+			}
+		}
+	},
+	[13885] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90248,
+		type = 26,
+		name = "拉新2阶段12",
+		count_inherit = 0,
+		desc = "Enhance Gear 20 times.",
+		target_id_2 = "",
+		sub_type = 40,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 13885,
+		target_num = 20,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54015,
+				20
+			}
+		}
+	},
+	[13886] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90249,
+		type = 26,
+		name = "拉新2阶段13",
+		count_inherit = 0,
+		desc = "Own 6 pieces of purple (or higher) Gear and Enhance them to +6.",
+		target_id_2 = "6",
+		sub_type = 44,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 13886,
+		target_num = 6,
+		fix_task = 0,
+		target_id = "3",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				15001,
+				30
+			}
+		}
+	},
+	[13887] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90250,
+		type = 26,
+		name = "拉新2阶段14",
+		count_inherit = 0,
+		desc = "Acquire Shouhou.",
+		target_id_2 = "",
+		sub_type = 1014,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 13887,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			30605
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54005,
+				5
+			}
+		}
+	},
+	[13888] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90251,
+		type = 26,
+		name = "拉新2阶段15",
+		count_inherit = 0,
+		desc = "Get any CV or CVL to Level 60.",
+		target_id_2 = "60",
+		sub_type = 1017,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 13888,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			6,
+			7
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54015,
+				15
+			}
+		}
+	},
+	[13889] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90252,
+		type = 26,
+		name = "拉新2阶段16",
+		count_inherit = 0,
+		desc = "Acquire 20 Tech Boxes through Daily Challenges.",
+		sub_type = 140,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 13889,
+		target_num = 20,
+		fix_task = 0,
+		target_id = {
+			2000,
+			2001,
+			2002,
+			2003,
+			2004,
+			2005,
+			2006,
+			2007,
+			2008,
+			2009,
+			3000,
+			3001,
+			3002,
+			3003,
+			3004,
+			4000,
+			4001,
+			4002,
+			4003,
+			4004,
+			6000,
+			6001,
+			6002
+		},
+		target_id_2 = {
+			30011,
+			30021,
+			30031,
+			30041,
+			30012,
+			30022,
+			30032,
+			30042,
+			30013,
+			30023,
+			30033,
+			30043,
+			30014,
+			30024,
+			30034,
+			30044,
+			30015,
+			30025,
+			30035,
+			30045
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54033,
+				8
+			}
+		}
+	},
+	[13890] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90253,
+		type = 26,
+		name = "拉新2阶段17",
+		count_inherit = 0,
+		desc = "Acquire 30 Parts through Daily Challenges.",
+		sub_type = 140,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 13890,
+		target_num = 30,
+		fix_task = 0,
+		target_id = {
+			2000,
+			2001,
+			2002,
+			2003,
+			2004,
+			2005,
+			2006,
+			2007,
+			2008,
+			2009,
+			3000,
+			3001,
+			3002,
+			3003,
+			3004,
+			4000,
+			4001,
+			4002,
+			4003,
+			4004,
+			6000,
+			6001,
+			6002
+		},
+		target_id_2 = {
+			17001,
+			17011,
+			17021,
+			17031,
+			17041,
+			17002,
+			17012,
+			17022,
+			17032,
+			17042,
+			17003,
+			17013,
+			17023,
+			17033,
+			17043
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54016,
+				10
+			}
+		}
+	},
+	[13891] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90254,
+		type = 26,
+		name = "拉新2阶段18",
+		count_inherit = 0,
+		desc = "Acquire 20 Skill Books through Daily Challenges.",
+		sub_type = 140,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 13891,
+		target_num = 20,
+		fix_task = 0,
+		target_id = {
+			2000,
+			2001,
+			2002,
+			2003,
+			2004,
+			2005,
+			2006,
+			2007,
+			2008,
+			2009,
+			3000,
+			3001,
+			3002,
+			3003,
+			3004,
+			4000,
+			4001,
+			4002,
+			4003,
+			4004,
+			6000,
+			6001,
+			6002
+		},
+		target_id_2 = {
+			16001,
+			16011,
+			16021,
+			16002,
+			16012,
+			16022,
+			16003,
+			16013,
+			16023
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54005,
+				10
+			}
+		}
+	},
+	[13892] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90255,
+		type = 26,
+		name = "拉新2阶段19",
+		count_inherit = 0,
+		desc = "Resupply the Dorm with a total of 100,000 Food.",
+		target_id_2 = "",
+		sub_type = 60,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 13892,
+		target_num = 100000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				50003,
+				20
+			}
+		}
+	},
+	[13893] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90256,
+		type = 26,
+		name = "拉新2阶段20",
+		count_inherit = 0,
+		desc = "Acquire 100 Core Data.",
+		target_id_2 = "",
+		sub_type = 130,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 59900,
+		id = 13893,
+		target_num = 100,
+		fix_task = 0,
+		target_id = "59900",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				2000
+			}
+		}
+	},
+	[13894] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90257,
+		type = 26,
+		name = "拉新2阶段21",
+		count_inherit = 0,
+		desc = "Complete 15 Commissions.",
+		target_id_2 = "",
+		sub_type = 80,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 13894,
+		target_num = 15,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				800
+			}
+		}
+	},
+	[13895] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90258,
+		type = 26,
+		name = "拉新2阶段22",
+		count_inherit = 0,
+		desc = "Clear 4-1 on Normal Mode.",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 401,
+		id = 13895,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "401",
+		open_need = {},
+		award_display = {
+			{
+				4,
+				205031,
+				1
+			}
+		}
+	},
+	[13896] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90259,
+		type = 26,
+		name = "拉新3阶段1",
+		count_inherit = 0,
+		desc = "Get Laffey, Javelin, or Z23 to 5 Stars via Limit Breaks.",
+		target_id_2 = "",
+		sub_type = 33,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 13896,
+		target_num = 5,
+		fix_task = 0,
+		target_id = {
+			10117,
+			40123,
+			20121
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				3000
+			}
+		}
+	},
+	[13897] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90260,
+		type = 26,
+		name = "拉新3阶段2",
+		count_inherit = 0,
+		desc = "Get Laffey, Javelin, or Z23 to Level 80.",
+		target_id_2 = "",
+		sub_type = 1013,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 13897,
+		target_num = 80,
+		fix_task = 0,
+		target_id = {
+			10117,
+			40123,
+			20121
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				800
+			}
+		}
+	},
+	[13898] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90261,
+		type = 26,
+		name = "拉新3阶段3",
+		count_inherit = 0,
+		desc = "Get Laffey, Javelin, or Z23 to Level 90.",
+		target_id_2 = "",
+		sub_type = 1013,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 13898,
+		target_num = 90,
+		fix_task = 0,
+		target_id = {
+			10117,
+			40123,
+			20121
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				1000
+			}
+		}
+	},
+	[13899] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90262,
+		type = 26,
+		name = "拉新3阶段4",
+		count_inherit = 0,
+		desc = "Get Laffey, Javelin, or Z23 to Level 100.",
+		target_id_2 = "",
+		sub_type = 1013,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 13899,
+		target_num = 100,
+		fix_task = 0,
+		target_id = {
+			10117,
+			40123,
+			20121
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				1200
+			}
+		}
+	},
+	[13900] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90263,
+		type = 26,
+		name = "拉新3阶段5",
+		count_inherit = 0,
+		desc = "Complete 1 node on Laffey's, Javelin's, or Z23's Retrofit Tree.",
+		target_id_2 = "",
+		sub_type = 1018,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 13900,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			10117,
+			40123,
+			20121
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54049,
+				1
+			}
+		}
+	},
+	[13901] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90264,
+		type = 26,
+		name = "拉新3阶段6",
+		count_inherit = 0,
+		desc = "Complete 2 nodes on Laffey's, Javelin's, or Z23's Retrofit Tree.",
+		target_id_2 = "",
+		sub_type = 1018,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 13901,
+		target_num = 2,
+		fix_task = 0,
+		target_id = {
+			10117,
+			40123,
+			20121
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54049,
+				1
+			}
+		}
+	},
+	[13902] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90265,
+		type = 26,
+		name = "拉新3阶段7",
+		count_inherit = 0,
+		desc = "Complete 3 nodes on Laffey's, Javelin's, or Z23's Retrofit Tree.",
+		target_id_2 = "",
+		sub_type = 1018,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 13902,
+		target_num = 3,
+		fix_task = 0,
+		target_id = {
+			10117,
+			40123,
+			20121
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54049,
+				1
+			}
+		}
+	},
+	[13903] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90266,
+		type = 26,
+		name = "拉新3阶段8",
+		count_inherit = 0,
+		desc = "Complete 4 nodes on Laffey's, Javelin's, or Z23's Retrofit Tree.",
+		target_id_2 = "",
+		sub_type = 1018,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 13903,
+		target_num = 4,
+		fix_task = 0,
+		target_id = {
+			10117,
+			40123,
+			20121
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54049,
+				1
+			}
+		}
+	},
+	[13904] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90267,
+		type = 26,
+		name = "拉新3阶段9",
+		count_inherit = 0,
+		desc = "Complete 5 nodes on Laffey's, Javelin's, or Z23's Retrofit Tree.",
+		target_id_2 = "",
+		sub_type = 1018,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 13904,
+		target_num = 5,
+		fix_task = 0,
+		target_id = {
+			10117,
+			40123,
+			20121
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54050,
+				1
+			}
+		}
+	},
+	[13905] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90268,
+		type = 26,
+		name = "拉新3阶段10",
+		count_inherit = 0,
+		desc = "Complete 7 nodes on Laffey's, Javelin's, or Z23's Retrofit Tree.",
+		target_id_2 = "",
+		sub_type = 1018,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 13905,
+		target_num = 7,
+		fix_task = 0,
+		target_id = {
+			10117,
+			40123,
+			20121
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54050,
+				2
+			}
+		}
+	},
+	[13906] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90269,
+		type = 26,
+		name = "拉新3阶段11",
+		count_inherit = 0,
+		desc = "Get 1 of Laffey's, Javelin's, or Z23's skills to Level 9.",
+		target_id_2 = "",
+		sub_type = 37,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 13906,
+		target_num = 9,
+		fix_task = 0,
+		target_id = {
+			10117,
+			40123,
+			20121
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54006,
+				5
+			}
+		}
+	},
+	[13907] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90270,
+		type = 26,
+		name = "拉新3阶段12",
+		count_inherit = 0,
+		desc = "Get Portland to 5 Stars via Limit Breaks.",
+		target_id_2 = "",
+		sub_type = 33,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 13907,
+		target_num = 5,
+		fix_task = 0,
+		target_id = {
+			10306
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				3000
+			}
+		}
+	},
+	[13908] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90271,
+		type = 26,
+		name = "拉新3阶段13",
+		count_inherit = 0,
+		desc = "Get Portland to Level 80.",
+		target_id_2 = "",
+		sub_type = 1013,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 13908,
+		target_num = 80,
+		fix_task = 0,
+		target_id = {
+			10306
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				800
+			}
+		}
+	},
+	[13909] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90272,
+		type = 26,
+		name = "拉新3阶段14",
+		count_inherit = 0,
+		desc = "Get Portland to Level 90.",
+		target_id_2 = "",
+		sub_type = 1013,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 13909,
+		target_num = 90,
+		fix_task = 0,
+		target_id = {
+			10306
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				1000
+			}
+		}
+	},
+	[13910] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90273,
+		type = 26,
+		name = "拉新3阶段15",
+		count_inherit = 0,
+		desc = "Get Portland to Level 100.",
+		target_id_2 = "",
+		sub_type = 1013,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 13910,
+		target_num = 100,
+		fix_task = 0,
+		target_id = {
+			10306
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				1200
+			}
+		}
+	},
+	[13911] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90274,
+		type = 26,
+		name = "拉新3阶段16",
+		count_inherit = 0,
+		desc = "Complete 1 node on Portland's Retrofit Tree.",
+		target_id_2 = "",
+		sub_type = 1018,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 13911,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			10306
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54049,
+				1
+			}
+		}
+	},
+	[13912] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90275,
+		type = 26,
+		name = "拉新3阶段17",
+		count_inherit = 0,
+		desc = "Complete 2 nodes on Portland's Retrofit Tree.",
+		target_id_2 = "",
+		sub_type = 1018,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 13912,
+		target_num = 2,
+		fix_task = 0,
+		target_id = {
+			10306
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54049,
+				1
+			}
+		}
+	},
+	[13913] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90276,
+		type = 26,
+		name = "拉新3阶段18",
+		count_inherit = 0,
+		desc = "Complete 3 nodes on Portland's Retrofit Tree.",
+		target_id_2 = "",
+		sub_type = 1018,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 13913,
+		target_num = 3,
+		fix_task = 0,
+		target_id = {
+			10306
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54049,
+				1
+			}
+		}
+	},
+	[13914] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90277,
+		type = 26,
+		name = "拉新3阶段19",
+		count_inherit = 0,
+		desc = "Complete 4 nodes on Portland's Retrofit Tree.",
+		target_id_2 = "",
+		sub_type = 1018,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 13914,
+		target_num = 4,
+		fix_task = 0,
+		target_id = {
+			10306
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54049,
+				1
+			}
+		}
+	},
+	[13915] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90278,
+		type = 26,
+		name = "拉新3阶段20",
+		count_inherit = 0,
+		desc = "Complete 5 nodes on Portland's Retrofit Tree.",
+		target_id_2 = "",
+		sub_type = 1018,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 13915,
+		target_num = 5,
+		fix_task = 0,
+		target_id = {
+			10306
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54049,
+				1
+			}
+		}
+	},
+	[13916] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90279,
+		type = 26,
+		name = "拉新3阶段21",
+		count_inherit = 0,
+		desc = "Complete 6 nodes on Portland's Retrofit Tree.",
+		target_id_2 = "",
+		sub_type = 1018,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 13916,
+		target_num = 6,
+		fix_task = 0,
+		target_id = {
+			10306
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54049,
+				1
+			}
+		}
+	},
+	[13917] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90280,
+		type = 26,
+		name = "拉新3阶段22",
+		count_inherit = 0,
+		desc = "Complete 7 nodes on Portland's Retrofit Tree.",
+		target_id_2 = "",
+		sub_type = 1018,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 13917,
+		target_num = 7,
+		fix_task = 0,
+		target_id = {
+			10306
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54050,
+				1
+			}
+		}
+	},
+	[13918] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90281,
+		type = 26,
+		name = "拉新3阶段23",
+		count_inherit = 0,
+		desc = "Complete 8 nodes on Portland's Retrofit Tree.",
+		target_id_2 = "",
+		sub_type = 1018,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 13918,
+		target_num = 8,
+		fix_task = 0,
+		target_id = {
+			10306
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54050,
+				2
+			}
+		}
+	},
+	[13919] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90282,
+		type = 26,
+		name = "拉新3阶段24",
+		count_inherit = 0,
+		desc = "Buy an item from the Core Exchange.",
+		target_id_2 = "",
+		sub_type = 120,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 13919,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "59900",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54016,
+				10
+			}
+		}
+	},
+	[13920] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90283,
+		type = 26,
+		name = "拉新3阶段25",
+		count_inherit = 0,
+		desc = "Own 12 pieces of purple (or higher) Gear and Enhance them to +6.",
+		target_id_2 = "6",
+		sub_type = 44,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 13920,
+		target_num = 12,
+		fix_task = 0,
+		target_id = "3",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54015,
+				20
+			}
+		}
+	},
+	[13921] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90284,
+		type = 26,
+		name = "拉新3阶段26",
+		count_inherit = 0,
+		desc = "Own 24 pieces of purple (or higher) Gear and Enhance them to +6.",
+		target_id_2 = "6",
+		sub_type = 44,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 13921,
+		target_num = 24,
+		fix_task = 0,
+		target_id = "3",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54016,
+				10
+			}
+		}
+	},
+	[13922] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90285,
+		type = 26,
+		name = "拉新3阶段27",
+		count_inherit = 0,
+		desc = "Own 24 pieces of purple (or higher) Gear and Enhance them to +8.",
+		target_id_2 = "8",
+		sub_type = 44,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 13922,
+		target_num = 24,
+		fix_task = 0,
+		target_id = "3",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54034,
+				5
+			}
+		}
+	},
+	[13923] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90286,
+		type = 26,
+		name = "拉新3阶段28",
+		count_inherit = 0,
+		desc = "Have 2 fleets (12 ships total) with an average Level of 90 or higher.",
+		target_id_2 = "",
+		sub_type = 2002,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 1,
+		id = 13923,
+		target_num = 2,
+		fix_task = 0,
+		target_id = {
+			90,
+			6
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54016,
+				20
+			}
+		}
+	},
+	[13924] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90287,
+		type = 26,
+		name = "拉新3阶段29",
+		count_inherit = 0,
+		desc = "Get any CL or CA to Level 90.",
+		target_id_2 = "90",
+		sub_type = 1017,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 13924,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			2,
+			3
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54015,
+				20
+			}
+		}
+	},
+	[13925] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90288,
+		type = 26,
+		name = "拉新3阶段30",
+		count_inherit = 0,
+		desc = "Get any CV or CVL to Level 90.",
+		target_id_2 = "90",
+		sub_type = 1017,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 13925,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			6,
+			7
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54015,
+				20
+			}
+		}
+	},
+	[13926] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90289,
+		type = 26,
+		name = "拉新3阶段31",
+		count_inherit = 0,
+		desc = "Get any BB or BC to Level 90.",
+		target_id_2 = "90",
+		sub_type = 1017,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 13926,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			4,
+			5
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54015,
+				20
+			}
+		}
+	},
+	[13927] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90290,
+		type = 26,
+		name = "拉新3阶段32",
+		count_inherit = 0,
+		desc = "Acquire 800 Cognitive Chips through Daily Challenges.",
+		sub_type = 140,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 13927,
+		target_num = 800,
+		fix_task = 0,
+		target_id = {
+			2000,
+			2001,
+			2002,
+			2003,
+			2004,
+			2005,
+			2006,
+			2007,
+			2008,
+			2009,
+			3000,
+			3001,
+			3002,
+			3003,
+			3004,
+			4000,
+			4001,
+			4002,
+			4003,
+			4004,
+			6000,
+			6001,
+			6002
+		},
+		target_id_2 = {
+			15008
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54051,
+				1
+			}
+		}
+	},
+	[13928] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90291,
+		type = 26,
+		name = "拉新3阶段33",
+		count_inherit = 0,
+		desc = "Raise a ship to Lv.110.",
+		target_id_2 = "110",
+		sub_type = 1017,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 13928,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7,
+			8,
+			9,
+			10,
+			11,
+			12,
+			13,
+			17
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				5000
+			}
+		}
+	},
+	[13929] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90292,
+		type = 26,
+		name = "拉新3阶段34",
+		count_inherit = 0,
+		desc = "Make a Promise to any ship.",
+		target_id_2 = "",
+		sub_type = 1015,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 13929,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				4,
+				100011,
+				1
+			}
+		}
+	},
+	[13930] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90293,
+		type = 26,
+		name = "拉新3阶段35",
+		count_inherit = 0,
+		desc = "Clear 7-1 on Normal Mode.",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 701,
+		id = 13930,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "701",
+		open_need = {},
+		award_display = {
+			{
+				4,
+				205031,
+				1
+			}
+		},
+		award_choice = {
+			{
+				{
+					4,
+					207031,
+					1
+				}
+			},
+			{
+				{
+					4,
+					102081,
+					1
+				}
+			},
+			{
+				{
+					4,
+					107061,
+					1
+				}
+			},
+			{
+				{
+					4,
+					204031,
+					1
+				}
 			}
 		}
 	},
@@ -25517,6 +28197,902 @@ pg.task_data_template = {
 			"LEVEL"
 		}
 	},
+	[14290] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 90740,
+		type = 6,
+		name = "战斗胜利I",
+		count_inherit = 0,
+		desc = "Sortie and obtain 50 victories.",
+		target_id_2 = "",
+		sub_type = 20,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14290,
+		target_num = 50,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59125,
+				100
+			}
+		}
+	},
+	[14291] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 90741,
+		type = 6,
+		name = "战斗胜利II",
+		count_inherit = 0,
+		desc = "Sortie and obtain 80 victories.",
+		target_id_2 = "",
+		sub_type = 20,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14291,
+		target_num = 80,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59125,
+				150
+			}
+		}
+	},
+	[14292] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 90742,
+		type = 6,
+		name = "战斗胜利III",
+		count_inherit = 0,
+		desc = "Sortie and obtain 120 victories.",
+		target_id_2 = "",
+		sub_type = 20,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14292,
+		target_num = 120,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59125,
+				200
+			}
+		}
+	},
+	[14293] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 90743,
+		type = 6,
+		name = "战斗胜利IV",
+		count_inherit = 0,
+		desc = "Sortie and obtain 200 victories.",
+		target_id_2 = "",
+		sub_type = 20,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14293,
+		target_num = 200,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59125,
+				300
+			}
+		}
+	},
+	[14294] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 90744,
+		type = 6,
+		name = "消灭旗舰I",
+		count_inherit = 0,
+		desc = "Sortie and defeat 10 enemy flagships.",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14294,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59125,
+				100
+			}
+		}
+	},
+	[14295] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 90745,
+		type = 6,
+		name = "消灭旗舰II",
+		count_inherit = 0,
+		desc = "Sortie and defeat 20 enemy flagships.",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14295,
+		target_num = 20,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59125,
+				150
+			}
+		}
+	},
+	[14296] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 90746,
+		type = 6,
+		name = "消灭旗舰III",
+		count_inherit = 0,
+		desc = "Sortie and defeat 30 enemy flagships.",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14296,
+		target_num = 30,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59125,
+				200
+			}
+		}
+	},
+	[14297] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 90747,
+		type = 6,
+		name = "消灭旗舰IV",
+		count_inherit = 0,
+		desc = "Sortie and defeat 50 enemy flagships.",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14297,
+		target_num = 50,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59125,
+				300
+			}
+		}
+	},
+	[14298] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 90748,
+		type = 6,
+		name = "建造I",
+		count_inherit = 0,
+		desc = "Build 5 ships.",
+		target_id_2 = "",
+		sub_type = 30,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14298,
+		target_num = 5,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59125,
+				100
+			}
+		}
+	},
+	[14299] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 90749,
+		type = 6,
+		name = "建造II",
+		count_inherit = 0,
+		desc = "Build 20 ships.",
+		target_id_2 = "",
+		sub_type = 30,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14299,
+		target_num = 20,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59125,
+				300
+			}
+		}
+	},
+	[14300] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 90750,
+		type = 6,
+		name = "强化I",
+		count_inherit = 0,
+		desc = "Enhance any character 15 times.",
+		target_id_2 = "",
+		sub_type = 34,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14300,
+		target_num = 15,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59125,
+				100
+			}
+		}
+	},
+	[14301] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 90751,
+		type = 6,
+		name = "强化II",
+		count_inherit = 0,
+		desc = "Enhance any character 30 times.",
+		target_id_2 = "",
+		sub_type = 34,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14301,
+		target_num = 30,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59125,
+				150
+			}
+		}
+	},
+	[14302] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 90752,
+		type = 6,
+		name = "强化III",
+		count_inherit = 0,
+		desc = "Enhance any character 50 times.",
+		target_id_2 = "",
+		sub_type = 34,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14302,
+		target_num = 50,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59125,
+				200
+			}
+		}
+	},
+	[14303] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 90753,
+		type = 6,
+		name = "强化IV",
+		count_inherit = 0,
+		desc = "Enhance any character 80 times.",
+		target_id_2 = "",
+		sub_type = 34,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14303,
+		target_num = 80,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59125,
+				300
+			}
+		}
+	},
+	[14304] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 90754,
+		type = 6,
+		name = "退役I",
+		count_inherit = 0,
+		desc = "Retire 5 ships.",
+		target_id_2 = "",
+		sub_type = 31,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14304,
+		target_num = 5,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59125,
+				100
+			}
+		}
+	},
+	[14305] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 90755,
+		type = 6,
+		name = "退役II",
+		count_inherit = 0,
+		desc = "Retire 10 ships.",
+		target_id_2 = "",
+		sub_type = 31,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14305,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59125,
+				150
+			}
+		}
+	},
+	[14306] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 90756,
+		type = 6,
+		name = "退役III",
+		count_inherit = 0,
+		desc = "Retire 15 ships.",
+		target_id_2 = "",
+		sub_type = 31,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14306,
+		target_num = 15,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59125,
+				200
+			}
+		}
+	},
+	[14307] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 90757,
+		type = 6,
+		name = "退役IV",
+		count_inherit = 0,
+		desc = "Retire 20 ships.",
+		target_id_2 = "",
+		sub_type = 31,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14307,
+		target_num = 20,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59125,
+				300
+			}
+		}
+	},
+	[14308] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 90758,
+		type = 6,
+		name = "委托I",
+		count_inherit = 0,
+		desc = "Complete 10 commissions.",
+		target_id_2 = "",
+		sub_type = 80,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14308,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59125,
+				100
+			}
+		}
+	},
+	[14309] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 90759,
+		type = 6,
+		name = "委托II",
+		count_inherit = 0,
+		desc = "Complete 20 commissions.",
+		target_id_2 = "",
+		sub_type = 80,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14309,
+		target_num = 20,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59125,
+				150
+			}
+		}
+	},
+	[14310] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 90760,
+		type = 6,
+		name = "委托III",
+		count_inherit = 0,
+		desc = "Complete 30 commissions.",
+		target_id_2 = "",
+		sub_type = 80,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14310,
+		target_num = 30,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59125,
+				200
+			}
+		}
+	},
+	[14311] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 90761,
+		type = 6,
+		name = "委托IV",
+		count_inherit = 0,
+		desc = "Complete 50 commissions.",
+		target_id_2 = "",
+		sub_type = 80,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14311,
+		target_num = 50,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59125,
+				300
+			}
+		}
+	},
+	[14312] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 90762,
+		type = 36,
+		name = "战斗胜利-日常",
+		count_inherit = 0,
+		desc = "Sortie and obtain 25 victories.",
+		target_id_2 = "",
+		sub_type = 20,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14312,
+		target_num = 25,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59125,
+				60
+			}
+		}
+	},
+	[14313] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 90763,
+		type = 36,
+		name = "消灭旗舰-日常",
+		count_inherit = 0,
+		desc = "Sortie and defeat 5 enemy flagships.",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14313,
+		target_num = 5,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59125,
+				60
+			}
+		}
+	},
+	[14314] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 90764,
+		type = 36,
+		name = "建造-日常",
+		count_inherit = 0,
+		desc = "Build 3 ships.",
+		target_id_2 = "",
+		sub_type = 30,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14314,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59125,
+				60
+			}
+		}
+	},
+	[14315] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 90765,
+		type = 36,
+		name = "强化-日常",
+		count_inherit = 0,
+		desc = "Enhance any character 8 times.",
+		target_id_2 = "",
+		sub_type = 34,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14315,
+		target_num = 8,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59125,
+				60
+			}
+		}
+	},
+	[14316] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 90766,
+		type = 36,
+		name = "退役-日常",
+		count_inherit = 0,
+		desc = "Retire 3 ships.",
+		target_id_2 = "",
+		sub_type = 31,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14316,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59125,
+				60
+			}
+		}
+	},
+	[14317] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 90767,
+		type = 36,
+		name = "委托-日常",
+		count_inherit = 0,
+		desc = "Complete 5 commissions.",
+		target_id_2 = "",
+		sub_type = 80,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14317,
+		target_num = 5,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59125,
+				60
+			}
+		}
+	},
 	[40001] = {
 		is_head = 1,
 		guild_coin_award = 0,
@@ -27139,6 +30715,13 @@ pg.task_data_template = {
 		5065,
 		5066,
 		5067,
+		5131,
+		5132,
+		5133,
+		5134,
+		5135,
+		5136,
+		5137,
 		5151,
 		5152,
 		5153,
@@ -27146,6 +30729,13 @@ pg.task_data_template = {
 		5155,
 		5156,
 		5157,
+		5271,
+		5272,
+		5273,
+		5274,
+		5275,
+		5276,
+		5277,
 		5291,
 		5292,
 		5293,
@@ -27519,6 +31109,63 @@ pg.task_data_template = {
 		13871,
 		13872,
 		13873,
+		13874,
+		13875,
+		13876,
+		13877,
+		13878,
+		13879,
+		13880,
+		13881,
+		13882,
+		13883,
+		13884,
+		13885,
+		13886,
+		13887,
+		13888,
+		13889,
+		13890,
+		13891,
+		13892,
+		13893,
+		13894,
+		13895,
+		13896,
+		13897,
+		13898,
+		13899,
+		13900,
+		13901,
+		13902,
+		13903,
+		13904,
+		13905,
+		13906,
+		13907,
+		13908,
+		13909,
+		13910,
+		13911,
+		13912,
+		13913,
+		13914,
+		13915,
+		13916,
+		13917,
+		13918,
+		13919,
+		13920,
+		13921,
+		13922,
+		13923,
+		13924,
+		13925,
+		13926,
+		13927,
+		13928,
+		13929,
+		13930,
 		13963,
 		13964,
 		13965,
@@ -27652,6 +31299,34 @@ pg.task_data_template = {
 		14183,
 		14184,
 		14185,
+		14290,
+		14291,
+		14292,
+		14293,
+		14294,
+		14295,
+		14296,
+		14297,
+		14298,
+		14299,
+		14300,
+		14301,
+		14302,
+		14303,
+		14304,
+		14305,
+		14306,
+		14307,
+		14308,
+		14309,
+		14310,
+		14311,
+		14312,
+		14313,
+		14314,
+		14315,
+		14316,
+		14317,
 		40001,
 		40002,
 		50021,

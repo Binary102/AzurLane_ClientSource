@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"忍者修行之路？\n\n<size=30>七　约定与等待</size>",
+					"Enter: Akatsuki, The Ninja!\n\n<size=30>Chapter 7 - Promise and Hope</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "港区·海边",
+			say = "Port - Seaside",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -51,7 +51,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "今天也没有{namecode:12}的消息呢。",
+			say = "There are still no signs of Hibiki...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			say = "今天是休息日，和{namecode:11}一起来到了海边",
+			say = "I decided to spend my day off with Akatsuki at the seaside.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,23 +93,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "在下好像也习惯了这样等待的日子了呢。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 301091,
-			side = 2,
-			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "不过，在下觉得这种寂寞感已经没有一开始那么强烈了。",
+			say = "I've started getting somewhat used to waiting on Hibiki and you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,12 +104,28 @@ return {
 			}
 		},
 		{
+			actor = 301091,
+			side = 2,
+			bgName = "star_level_bg_106",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "I don't feel as lonely as I once used to...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
 			side = 2,
 			bgName = "star_level_bg_106",
 			dir = 1,
 			actor = 301091,
 			nameColor = "#a9f548",
-			say = "这，这绝对不是在下不关心{namecode:12}什么的！",
+			say = "... T-that doesn't mean I've given up on Hibiki! By no means!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过在下觉得，会有这种变化，一定是因为指挥官吧。",
+			say = "However, I have you to thank for helping me get to this point, Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官的陪伴，让在下感觉非常温暖觉，而且十分开心……",
+			say = "When you're by my side, I feel happy and at ease...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			dir = 1,
 			actor = 301091,
 			nameColor = "#a9f548",
-			say = "有指挥官在身边，在下感觉变得勇敢了很多！",
+			say = "And most important, I feel courageous!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			},
 			options = {
 				{
-					content = "摸摸{namecode:11}的头",
+					content = "Pat Akatsuki on the head",
 					flag = 1
 				}
 			}
@@ -205,7 +205,7 @@ return {
 			dir = 1,
 			actor = 301091,
 			nameColor = "#a9f548",
-			say = "哇！",
+			say = "Whawha?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			dir = 1,
 			actor = 301091,
 			nameColor = "#a9f548",
-			say = "请，请不要趁机欺负在下！",
+			say = "P-please, do not tease me like that!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			},
 			options = {
 				{
-					content = "{namecode:11}真的很喜欢第六驱逐队呢。",
+					content = "Talk about her DD6 friends",
 					flag = 1
 				}
 			}
@@ -253,7 +253,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那是当然！在下一直，一直希望曾经的第六驱逐队能在港口再次团聚！{namecode:12}，{namecode:13}，{namecode:14}，每一个对在下来说，都是最重要的妹妹！",
+			say = "I've always, always wished that all of DD6 could reunite at this port! Hibiki, Ikazuchi, Inazuma, all of my little sisters are very dear to me!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,7 +269,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我们第六驱逐队，一定会团聚，然后永远不分开的！当然，指挥官要在一起！",
+			say = "No matter what would happen, we would always be together! We'd have you too, Commander!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,7 +301,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那，那个，指挥官阁下！！在，在下，其实对指挥官——",
+			say = "Um, I want to tell you something! I-I think I'm in love with-",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -317,7 +317,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官！！{namecode:11}！！",
+			say = "Hey, guys! What's up?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -333,7 +333,7 @@ return {
 			dir = 1,
 			actor = 301091,
 			nameColor = "#a9f548",
-			say = "哇啊啊啊啊？",
+			say = "Whawha?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -359,7 +359,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:13}…看来不知道什么叫读空气呢……（小声）",
+			say = "(Whispering) If only you could read the mood, Ikazuchi...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -373,7 +373,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			say = "{namecode:13}迎面跑了过来，{namecode:14}在后面跟着",
+			say = "Suddenly, Ikazuchi and Inazuma showed up.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -385,7 +385,7 @@ return {
 			dir = 1,
 			actor = 301111,
 			nameColor = "#a9f548",
-			say = "指挥官，{namecode:11}，一起去吃午饭吧！",
+			say = "I was just wondering: wanna tag along for lunch?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -411,7 +411,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…嗯嗯，大家一起！",
+			say = "Sure! Let's go, together!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -425,7 +425,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			say = "第六驱逐队，一定会团聚的吧。那个时候的{namecode:11}，会是怎样的表情呢？",
+			say = "I wonder what expression Akatsuki would make if one day all of DD6 were to reunite here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -436,7 +436,7 @@ return {
 			bgName = "star_level_bg_106",
 			dir = 1,
 			blackBg = true,
-			say = "一定，会是最幸福的笑容吧——",
+			say = "I'm sure she would smile with joy as deep as one can imagine.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

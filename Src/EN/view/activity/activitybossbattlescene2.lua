@@ -1381,7 +1381,7 @@ slot0.closeAwards = slot2
 
 function slot2(slot0)
 	slot2 = slot0
-	slot1 = slot0.GetDoingTask
+	slot1 = slot0.getDoingTask
 	slot1, slot2, slot3 = slot1(slot2)
 	slot4 = setActive
 	slot6 = slot0
@@ -1470,7 +1470,7 @@ function slot2(slot0)
 	return slot4, slot5, slot6
 end
 
-slot0.GetDoingTask = slot2
+slot0.getDoingTask = slot2
 
 function slot2(slot0, slot1, slot2, slot3)
 	slot4 = scrollTo

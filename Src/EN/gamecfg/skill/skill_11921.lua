@@ -130,10 +130,10 @@ return {
 		}
 	},
 	uiEffect = "",
-	name = "withoutClev",
+	name = "天之骑士",
 	cd = 0,
 	picture = "0",
-	desc = "独立技能2",
+	desc = "天之骑士-普通投弹",
 	painting = 1,
 	id = 11921,
 	castCV = "skill",

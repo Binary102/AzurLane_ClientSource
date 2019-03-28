@@ -170,6 +170,7 @@ function slot0.startUpBackyard(slot0, slot1)
 			slot0.viewComponent.isLoadedMainUI = true
 			slot0.name = BackYardConst.MAIN_UI_NAME
 
+			slot0.viewComponent:setBlackyardView(slot1)
 			setActive(slot0, true)
 			setParent(slot0, slot0.viewComponent._tf)
 			tf(slot0):SetSiblingIndex(1)

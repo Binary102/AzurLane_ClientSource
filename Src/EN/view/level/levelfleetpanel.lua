@@ -72,6 +72,11 @@ function slot1(slot0)
 	slot0.btnGo = slot1
 	slot2 = slot0
 	slot1 = slot0.findTF
+	slot3 = "panel/title/ADvalue/helpbtn"
+	slot1 = slot1(slot2, slot3)
+	slot0.btnAdHelp = slot1
+	slot2 = slot0
+	slot1 = slot0.findTF
 	slot3 = "panel/commander_btn"
 	slot1 = slot1(slot2, slot3)
 	slot0.commanderBtn = slot1
@@ -135,6 +140,8 @@ slot0.init = slot1
 
 function slot1(slot0, slot1, slot2, slot3)
 	slot0.chapter = slot1
+	slot0.chapterADValue = slot0.chapter:getConfig("air_dominance")
+	slot0.suggestionValue = slot0.chapter:getConfig("best_air_dominance")
 	slot0.fleets = _(_.values(slot2)):chain():filter(function (slot0)
 		return slot0:isRegularFleet()
 	end):sort(function (slot0, slot1)
@@ -215,6 +222,30 @@ function slot1(slot0, slot1, slot2, slot3)
 	end
 
 	slot8 = SFX_UI_WEIGHANCHOR_GO
+
+	slot4(slot5, slot6, slot7, slot8)
+
+	slot4 = onButton
+	slot5 = slot0
+	slot6 = slot0.btnAdHelp
+
+	function slot7()
+		slot0 = pg
+		slot0 = slot0.MsgboxMgr
+		slot0 = slot0.GetInstance
+		slot0 = slot0()
+		slot1 = slot0
+		slot0 = slot0.ShowHelpWindow
+		slot2 = {}
+		slot3 = i18n
+		slot4 = "help_battle_ac"
+		slot3 = slot3(slot4)
+		slot2.helps = slot3
+
+		slot0(slot1, slot2)
+	end
+
+	slot8 = SFX_UI_CLICK
 
 	slot4(slot5, slot6, slot7, slot8)
 
@@ -338,6 +369,38 @@ function slot1(slot0, slot1, slot2, slot3)
 	slot4 = slot0.updateLimit
 
 	slot4(slot5)
+
+	slot4 = OPEN_AIR_DOMINANCE
+
+	if slot4 then
+		slot4 = slot0.chapterADValue
+		slot5 = 0
+
+		if slot4 > slot5 then
+			slot4 = setActive
+			slot6 = slot0
+			slot5 = slot0.findTF
+			slot7 = "panel/title/ADvalue"
+			slot5 = slot5(slot6, slot7)
+			slot6 = true
+
+			slot4(slot5, slot6)
+
+			slot5 = slot0
+			slot4 = slot0.updateFleetPanelADValue
+
+			slot4(slot5)
+		end
+	else
+		slot4 = setActive
+		slot6 = slot0
+		slot5 = slot0.findTF
+		slot7 = "panel/title/ADvalue"
+		slot5 = slot5(slot6, slot7)
+		slot6 = false
+
+		slot4(slot5, slot6)
+	end
 end
 
 slot0.set = slot1
@@ -519,7 +582,9 @@ end
 slot0.updateLimit = slot1
 
 function slot1(slot0, slot1, slot2, slot3)
-	slot4 = fleetId
+	slot4 = slot0.selectIds
+	slot4 = slot4[slot1]
+	slot4 = slot4[slot2]
 
 	if slot4 ~= slot3 then
 		slot4 = slot0.selectIds
@@ -623,6 +688,11 @@ function slot1(slot0, slot1, slot2, slot3)
 
 		slot7 = slot0
 		slot6 = slot0.updateLimit
+
+		slot6(slot7)
+
+		slot7 = slot0
+		slot6 = slot0.updateFleetPanelADValue
 
 		slot6(slot7)
 	end
@@ -1250,6 +1320,48 @@ function slot1(slot0, slot1)
 end
 
 slot0.clearFleet = slot1
+
+function slot1(slot0)
+	slot1 = slot0.chapter
+	slot2 = slot1
+	slot1 = slot1.getConfig
+	slot3 = "best_air_dominance"
+	slot1 = slot1(slot2, slot3)
+	slot2 = getProxy
+	slot3 = BayProxy
+	slot2 = slot2(slot3)
+	slot3 = 0
+	slot4 = pairs
+	slot5 = slot0.selectIds
+	slot4, slot5, slot6 = slot4(slot5)
+
+	for slot7, slot8 in slot4, slot5, slot6 do
+		slot9 = ipairs
+		slot10 = slot8
+		slot9, slot10, slot11 = slot9(slot10)
+
+		for slot12, slot13 in slot9, slot10, slot11 do
+			if slot13 ~= 0 or not slot3 then
+				slot15 = slot0
+				slot14 = slot0.getFleetById
+				slot16 = slot13
+				slot14 = slot14(slot15, slot16)
+				slot15 = slot14
+				slot14 = slot14.getFleetAirDominanceValue
+				slot14 = slot14(slot15)
+				slot3 = slot3 + slot14
+			end
+		end
+	end
+
+	slot4 = slot0:findTF("panel/title/ADvalue/Text")
+
+	setText(slot4, i18n("level_scene_title_word_5"))
+	setText(slot0:findTF("Num1", slot4), setColorStr(slot3, (math.floor(slot3) < slot0.suggestionValue and "#f1dc36") or COLOR_WHITE))
+	setText(slot0:findTF("Num2", slot4), slot0.suggestionValue)
+end
+
+slot0.updateFleetPanelADValue = slot1
 
 function slot1(slot0)
 	slot1 = triggerToggle

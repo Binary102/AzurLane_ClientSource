@@ -1,9 +1,9 @@
 return {
 	uiEffect = "",
-	name = "killer_Airplane",
+	name = "航空阵列——击杀敌方飞机",
 	cd = 0,
 	picture = "0",
-	desc = "killer_Airplanes",
+	desc = "航空阵列——击杀敌方飞机",
 	painting = 1,
 	id = 11651,
 	castCV = "skill",

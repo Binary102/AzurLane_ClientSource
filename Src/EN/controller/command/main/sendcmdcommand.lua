@@ -10,6 +10,9 @@ class("SendCmdCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 			for slot7, slot8 in pairs(slot3) do
 				print(slot8.id)
 			end
+		elseif slot2.arg1 == "clear" and slot2.arg2 == "buffer" then
+			PlayerPrefs.DeleteAll()
+			PlayerPrefs.Save()
 		end
 
 		return

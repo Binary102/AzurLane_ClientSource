@@ -7,8 +7,10 @@ pg.aircraft_template = {
 		model_ID = "F2A",
 		ACC_growth = 0,
 		crash_DMG = 9,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "F2A",
 		funnel_behavior = "",
@@ -63,6 +65,11 @@ pg.aircraft_template = {
 				0.24,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -73,8 +80,10 @@ pg.aircraft_template = {
 		model_ID = "tbd",
 		ACC_growth = 0,
 		crash_DMG = 9,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "tbd",
 		funnel_behavior = "",
@@ -129,6 +138,11 @@ pg.aircraft_template = {
 				0.31,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -139,8 +153,10 @@ pg.aircraft_template = {
 		model_ID = "sbdwuwei",
 		ACC_growth = 0,
 		crash_DMG = 9,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "sbdwuwei",
 		funnel_behavior = "",
@@ -195,6 +211,11 @@ pg.aircraft_template = {
 				0.72,
 				-0.15,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -205,8 +226,10 @@ pg.aircraft_template = {
 		model_ID = "F2A",
 		ACC_growth = 0,
 		crash_DMG = 9,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "F2A",
 		funnel_behavior = "",
@@ -261,6 +284,11 @@ pg.aircraft_template = {
 				0.24,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -271,8 +299,10 @@ pg.aircraft_template = {
 		model_ID = "haipenhuo",
 		ACC_growth = 0,
 		crash_DMG = 9,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "haipenhuo",
 		funnel_behavior = "",
@@ -327,6 +357,11 @@ pg.aircraft_template = {
 				0.62,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -337,8 +372,10 @@ pg.aircraft_template = {
 		model_ID = "jianyu",
 		ACC_growth = 0,
 		crash_DMG = 9,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "jianyu",
 		funnel_behavior = "",
@@ -393,6 +430,11 @@ pg.aircraft_template = {
 				0.52,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -403,8 +445,10 @@ pg.aircraft_template = {
 		model_ID = "zeiou",
 		ACC_growth = 0,
 		crash_DMG = 9,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "zeiou",
 		funnel_behavior = "",
@@ -459,6 +503,11 @@ pg.aircraft_template = {
 				0.37,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -469,8 +518,10 @@ pg.aircraft_template = {
 		model_ID = "haipenhuo",
 		ACC_growth = 0,
 		crash_DMG = 9,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "haipenhuo",
 		funnel_behavior = "",
@@ -525,6 +576,11 @@ pg.aircraft_template = {
 				0.62,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -535,8 +591,10 @@ pg.aircraft_template = {
 		model_ID = "96jiangong",
 		ACC_growth = 0,
 		crash_DMG = 9,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "96jiangong",
 		funnel_behavior = "",
@@ -591,6 +649,11 @@ pg.aircraft_template = {
 				0.72,
 				-0.15,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -601,8 +664,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 9,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -657,6 +722,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -667,8 +737,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
 		crash_DMG = 9,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -723,6 +795,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -733,8 +810,10 @@ pg.aircraft_template = {
 		model_ID = "96jiangong",
 		ACC_growth = 0,
 		crash_DMG = 9,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "96jiangong",
 		funnel_behavior = "",
@@ -789,6 +868,11 @@ pg.aircraft_template = {
 				0.72,
 				-0.15,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -799,8 +883,10 @@ pg.aircraft_template = {
 		model_ID = "96jiangong",
 		ACC_growth = 0,
 		crash_DMG = 9,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "96jiangong",
 		funnel_behavior = "",
@@ -855,6 +941,11 @@ pg.aircraft_template = {
 				0.72,
 				-0.15,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -865,8 +956,10 @@ pg.aircraft_template = {
 		model_ID = "96jiangong",
 		ACC_growth = 0,
 		crash_DMG = 9,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "96jiangong",
 		funnel_behavior = "",
@@ -921,6 +1014,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -931,8 +1029,10 @@ pg.aircraft_template = {
 		model_ID = "96jiangong",
 		ACC_growth = 0,
 		crash_DMG = 9,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "96jiangong",
 		funnel_behavior = "",
@@ -987,6 +1087,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -997,8 +1102,10 @@ pg.aircraft_template = {
 		model_ID = "96jiangong",
 		ACC_growth = 0,
 		crash_DMG = 9,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "96jiangong",
 		funnel_behavior = "",
@@ -1053,6 +1160,84 @@ pg.aircraft_template = {
 				0.72,
 				-0.15,
 				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[144] = {
+		name = "默认潜母水侦",
+		max_hp = 27,
+		accuracy = 23,
+		model_ID = "ruiyun",
+		ACC_growth = 0,
+		crash_DMG = 9,
+		dodge = 1,
+		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
+		AP_growth = 2000,
+		icon = "ruiyun",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 1023,
+		speed = 46,
+		id = 144,
+		weapon_ID = {
+			145
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.71,
+					-1.73,
+					0
+				},
+				{
+					0.82,
+					2.04,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -1063,8 +1248,10 @@ pg.aircraft_template = {
 		model_ID = "F2A",
 		ACC_growth = 0,
 		crash_DMG = 88,
-		attack_power = 2,
+		dodge = 0.375,
 		type = 1,
+		dodge_limit = 8,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "F2A",
 		funnel_behavior = "",
@@ -1119,6 +1306,11 @@ pg.aircraft_template = {
 				0.24,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -1156,8 +1348,10 @@ pg.aircraft_template = {
 		model_ID = "F2A",
 		ACC_growth = 0,
 		crash_DMG = 88,
-		attack_power = 2,
+		dodge = 0.363,
 		type = 1,
+		dodge_limit = 8.5,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "F2A",
 		funnel_behavior = "",
@@ -1212,6 +1406,11 @@ pg.aircraft_template = {
 				0.24,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -1249,8 +1448,10 @@ pg.aircraft_template = {
 		model_ID = "F2A",
 		ACC_growth = 0,
 		crash_DMG = 88,
-		attack_power = 2,
+		dodge = 0.351,
 		type = 1,
+		dodge_limit = 9,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "F2A",
 		funnel_behavior = "",
@@ -1303,6 +1504,11 @@ pg.aircraft_template = {
 			},
 			{
 				0.24,
+				0,
+				0
+			},
+			{
+				0,
 				0,
 				0
 			}
@@ -1369,8 +1575,10 @@ pg.aircraft_template = {
 		model_ID = "f4f",
 		ACC_growth = 0,
 		crash_DMG = 116,
-		attack_power = 2,
+		dodge = 0.357,
 		type = 1,
+		dodge_limit = 9,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "f4f",
 		funnel_behavior = "",
@@ -1425,6 +1633,11 @@ pg.aircraft_template = {
 				0.32,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -1462,8 +1675,10 @@ pg.aircraft_template = {
 		model_ID = "f4f",
 		ACC_growth = 0,
 		crash_DMG = 116,
-		attack_power = 2,
+		dodge = 0.345,
 		type = 1,
+		dodge_limit = 9.5,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "f4f",
 		funnel_behavior = "",
@@ -1516,6 +1731,11 @@ pg.aircraft_template = {
 			},
 			{
 				0.32,
+				0,
+				0
+			},
+			{
+				0,
 				0,
 				0
 			}
@@ -1582,8 +1802,10 @@ pg.aircraft_template = {
 		model_ID = "f4f",
 		ACC_growth = 0,
 		crash_DMG = 116,
-		attack_power = 2,
+		dodge = 0.333,
 		type = 1,
+		dodge_limit = 10,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "f4f",
 		funnel_behavior = "",
@@ -1636,6 +1858,11 @@ pg.aircraft_template = {
 			},
 			{
 				0.32,
+				0,
+				0
+			},
+			{
+				0,
 				0,
 				0
 			}
@@ -1738,8 +1965,10 @@ pg.aircraft_template = {
 		model_ID = "F4U",
 		ACC_growth = 0,
 		crash_DMG = 132,
-		attack_power = 2,
+		dodge = 0.357,
 		type = 1,
+		dodge_limit = 9,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "F4U",
 		funnel_behavior = "",
@@ -1795,6 +2024,11 @@ pg.aircraft_template = {
 				0.41,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -1835,8 +2069,10 @@ pg.aircraft_template = {
 		model_ID = "F4U",
 		ACC_growth = 0,
 		crash_DMG = 132,
-		attack_power = 2,
+		dodge = 0.345,
 		type = 1,
+		dodge_limit = 9.5,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "F4U",
 		funnel_behavior = "",
@@ -1890,6 +2126,11 @@ pg.aircraft_template = {
 			},
 			{
 				0.41,
+				0,
+				0
+			},
+			{
+				0,
 				0,
 				0
 			}
@@ -1962,8 +2203,10 @@ pg.aircraft_template = {
 		model_ID = "F4U",
 		ACC_growth = 0,
 		crash_DMG = 132,
-		attack_power = 2,
+		dodge = 0.333,
 		type = 1,
+		dodge_limit = 10,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "F4U",
 		funnel_behavior = "",
@@ -2017,6 +2260,11 @@ pg.aircraft_template = {
 			},
 			{
 				0.41,
+				0,
+				0
+			},
+			{
+				0,
 				0,
 				0
 			}
@@ -2129,8 +2377,10 @@ pg.aircraft_template = {
 		model_ID = "F4U-1D",
 		ACC_growth = 0,
 		crash_DMG = 148,
-		attack_power = 2,
+		dodge = 0.309,
 		type = 1,
+		dodge_limit = 12,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "F4U-1D",
 		funnel_behavior = "",
@@ -2184,6 +2434,11 @@ pg.aircraft_template = {
 			},
 			{
 				0.41,
+				0,
+				0
+			},
+			{
+				0,
 				0,
 				0
 			}
@@ -2296,8 +2551,10 @@ pg.aircraft_template = {
 		model_ID = "f6f",
 		ACC_growth = 0,
 		crash_DMG = 156,
-		attack_power = 2,
+		dodge = 0.339,
 		type = 1,
+		dodge_limit = 10,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "f6f",
 		funnel_behavior = "",
@@ -2340,6 +2597,11 @@ pg.aircraft_template = {
 			}
 		},
 		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
 			{
 				0,
 				0,
@@ -2430,8 +2692,10 @@ pg.aircraft_template = {
 		model_ID = "f6f",
 		ACC_growth = 0,
 		crash_DMG = 156,
-		attack_power = 2,
+		dodge = 0.327,
 		type = 1,
+		dodge_limit = 10.5,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "f6f",
 		funnel_behavior = "",
@@ -2474,6 +2738,11 @@ pg.aircraft_template = {
 			}
 		},
 		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
 			{
 				0,
 				0,
@@ -2608,8 +2877,10 @@ pg.aircraft_template = {
 		model_ID = "f6f",
 		ACC_growth = 0,
 		crash_DMG = 156,
-		attack_power = 2,
+		dodge = 0.315,
 		type = 1,
+		dodge_limit = 11,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "f6f",
 		funnel_behavior = "",
@@ -2652,6 +2923,11 @@ pg.aircraft_template = {
 			}
 		},
 		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
 			{
 				0,
 				0,
@@ -2786,8 +3062,10 @@ pg.aircraft_template = {
 		model_ID = "XF5F",
 		ACC_growth = 0,
 		crash_DMG = 136,
-		attack_power = 2,
+		dodge = 0.333,
 		type = 1,
+		dodge_limit = 9,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "XF5F",
 		funnel_behavior = "",
@@ -2836,6 +3114,11 @@ pg.aircraft_template = {
 			},
 			{
 				0.24,
+				0,
+				0
+			},
+			{
+				0,
 				0,
 				0
 			}
@@ -2948,8 +3231,10 @@ pg.aircraft_template = {
 		model_ID = "tbd",
 		ACC_growth = 0,
 		crash_DMG = 300,
-		attack_power = 2,
+		dodge = 1.25,
 		type = 2,
+		dodge_limit = 3,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "tbd",
 		funnel_behavior = "",
@@ -3005,6 +3290,11 @@ pg.aircraft_template = {
 				0.31,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -3045,8 +3335,10 @@ pg.aircraft_template = {
 		model_ID = "tbd",
 		ACC_growth = 0,
 		crash_DMG = 300,
-		attack_power = 2,
+		dodge = 1.21,
 		type = 2,
+		dodge_limit = 3.5,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "tbd",
 		funnel_behavior = "",
@@ -3102,6 +3394,11 @@ pg.aircraft_template = {
 				0.31,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -3142,8 +3439,10 @@ pg.aircraft_template = {
 		model_ID = "tbd",
 		ACC_growth = 0,
 		crash_DMG = 300,
-		attack_power = 2,
+		dodge = 1.17,
 		type = 2,
+		dodge_limit = 4,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "tbd",
 		funnel_behavior = "",
@@ -3197,6 +3496,11 @@ pg.aircraft_template = {
 			},
 			{
 				0.31,
+				0,
+				0
+			},
+			{
+				0,
 				0,
 				0
 			}
@@ -3269,8 +3573,10 @@ pg.aircraft_template = {
 		model_ID = "tbdvt-8",
 		ACC_growth = 0,
 		crash_DMG = 300,
-		attack_power = 2,
+		dodge = 1.17,
 		type = 2,
+		dodge_limit = 5,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "tbdvt-8",
 		funnel_behavior = "",
@@ -3324,6 +3630,11 @@ pg.aircraft_template = {
 			},
 			{
 				0.31,
+				0,
+				0
+			},
+			{
+				0,
 				0,
 				0
 			}
@@ -3436,8 +3747,10 @@ pg.aircraft_template = {
 		model_ID = "tbf",
 		ACC_growth = 0,
 		crash_DMG = 406,
-		attack_power = 2,
+		dodge = 1.19,
 		type = 2,
+		dodge_limit = 4,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "tbf",
 		funnel_behavior = "",
@@ -3493,6 +3806,11 @@ pg.aircraft_template = {
 				0.15,
 				-0.08,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -3533,8 +3851,10 @@ pg.aircraft_template = {
 		model_ID = "tbf",
 		ACC_growth = 0,
 		crash_DMG = 406,
-		attack_power = 2,
+		dodge = 1.15,
 		type = 2,
+		dodge_limit = 4.5,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "tbf",
 		funnel_behavior = "",
@@ -3589,6 +3909,11 @@ pg.aircraft_template = {
 			{
 				0.15,
 				-0.08,
+				0
+			},
+			{
+				0,
+				0,
 				0
 			}
 		}
@@ -3660,8 +3985,10 @@ pg.aircraft_template = {
 		model_ID = "tbf",
 		ACC_growth = 0,
 		crash_DMG = 406,
-		attack_power = 2,
+		dodge = 1.11,
 		type = 2,
+		dodge_limit = 5,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "tbf",
 		funnel_behavior = "",
@@ -3716,6 +4043,11 @@ pg.aircraft_template = {
 			{
 				0.15,
 				-0.08,
+				0
+			},
+			{
+				0,
+				0,
 				0
 			}
 		}
@@ -3827,8 +4159,10 @@ pg.aircraft_template = {
 		model_ID = "tbf",
 		ACC_growth = 0,
 		crash_DMG = 300,
-		attack_power = 2,
+		dodge = 1.05,
 		type = 2,
+		dodge_limit = 6,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "tbf",
 		funnel_behavior = "",
@@ -3883,6 +4217,11 @@ pg.aircraft_template = {
 			{
 				0.15,
 				-0.08,
+				0
+			},
+			{
+				0,
+				0,
 				0
 			}
 		}
@@ -3994,8 +4333,10 @@ pg.aircraft_template = {
 		model_ID = "sbdwuwei",
 		ACC_growth = 0,
 		crash_DMG = 156,
-		attack_power = 2,
+		dodge = 3.75,
 		type = 3,
+		dodge_limit = 0.8,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "sbdwuwei",
 		funnel_behavior = "",
@@ -4052,6 +4393,11 @@ pg.aircraft_template = {
 				0.72,
 				-0.15,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -4095,8 +4441,10 @@ pg.aircraft_template = {
 		model_ID = "sbdwuwei",
 		ACC_growth = 0,
 		crash_DMG = 156,
-		attack_power = 2,
+		dodge = 3.63,
 		type = 3,
+		dodge_limit = 0.9,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "sbdwuwei",
 		funnel_behavior = "",
@@ -4153,6 +4501,11 @@ pg.aircraft_template = {
 				0.72,
 				-0.15,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -4196,8 +4549,10 @@ pg.aircraft_template = {
 		model_ID = "sbdwuwei",
 		ACC_growth = 0,
 		crash_DMG = 156,
-		attack_power = 2,
+		dodge = 3.51,
 		type = 3,
+		dodge_limit = 1,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "sbdwuwei",
 		funnel_behavior = "",
@@ -4253,6 +4608,11 @@ pg.aircraft_template = {
 			{
 				0.72,
 				-0.15,
+				0
+			},
+			{
+				0,
+				0,
 				0
 			}
 		}
@@ -4330,8 +4690,10 @@ pg.aircraft_template = {
 		model_ID = "sbdwuwei_2",
 		ACC_growth = 0,
 		crash_DMG = 193,
-		attack_power = 2,
+		dodge = 2.97,
 		type = 3,
+		dodge_limit = 2,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "sbdwuwei_2",
 		funnel_behavior = "",
@@ -4385,6 +4747,11 @@ pg.aircraft_template = {
 			},
 			{
 				0.24,
+				0,
+				0
+			},
+			{
+				0,
 				0,
 				0
 			}
@@ -4497,8 +4864,10 @@ pg.aircraft_template = {
 		model_ID = "sb2c",
 		ACC_growth = 0,
 		crash_DMG = 180,
-		attack_power = 2,
+		dodge = 3.57,
 		type = 3,
+		dodge_limit = 0.8,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "sb2c",
 		funnel_behavior = "",
@@ -4555,6 +4924,11 @@ pg.aircraft_template = {
 				0.44,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -4598,8 +4972,10 @@ pg.aircraft_template = {
 		model_ID = "sb2c",
 		ACC_growth = 0,
 		crash_DMG = 180,
-		attack_power = 2,
+		dodge = 3.45,
 		type = 3,
+		dodge_limit = 0.9,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "sb2c",
 		funnel_behavior = "",
@@ -4654,6 +5030,11 @@ pg.aircraft_template = {
 			},
 			{
 				0.44,
+				0,
+				0
+			},
+			{
+				0,
 				0,
 				0
 			}
@@ -4732,8 +5113,10 @@ pg.aircraft_template = {
 		model_ID = "sb2c",
 		ACC_growth = 0,
 		crash_DMG = 180,
-		attack_power = 2,
+		dodge = 3.33,
 		type = 3,
+		dodge_limit = 1,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "sb2c",
 		funnel_behavior = "",
@@ -4788,6 +5171,11 @@ pg.aircraft_template = {
 			},
 			{
 				0.44,
+				0,
+				0
+			},
+			{
+				0,
 				0,
 				0
 			}
@@ -4910,8 +5298,10 @@ pg.aircraft_template = {
 		model_ID = "BTD",
 		ACC_growth = 0,
 		crash_DMG = 206,
-		attack_power = 2,
+		dodge = 3.39,
 		type = 3,
+		dodge_limit = 1.6,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "BTD",
 		funnel_behavior = "",
@@ -4965,6 +5355,11 @@ pg.aircraft_template = {
 			},
 			{
 				0.46,
+				0,
+				0
+			},
+			{
+				0,
 				0,
 				0
 			}
@@ -5037,8 +5432,10 @@ pg.aircraft_template = {
 		model_ID = "BTD",
 		ACC_growth = 0,
 		crash_DMG = 206,
-		attack_power = 2,
+		dodge = 3.27,
 		type = 3,
+		dodge_limit = 1.8,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "BTD",
 		funnel_behavior = "",
@@ -5092,6 +5489,11 @@ pg.aircraft_template = {
 			},
 			{
 				0.46,
+				0,
+				0
+			},
+			{
+				0,
 				0,
 				0
 			}
@@ -5204,8 +5606,10 @@ pg.aircraft_template = {
 		model_ID = "BTD",
 		ACC_growth = 0,
 		crash_DMG = 206,
-		attack_power = 2,
+		dodge = 3.15,
 		type = 3,
+		dodge_limit = 2,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "BTD",
 		funnel_behavior = "",
@@ -5259,6 +5663,11 @@ pg.aircraft_template = {
 			},
 			{
 				0.46,
+				0,
+				0
+			},
+			{
+				0,
 				0,
 				0
 			}
@@ -5371,8 +5780,10 @@ pg.aircraft_template = {
 		model_ID = "haipenhuo",
 		ACC_growth = 0,
 		crash_DMG = 100,
-		attack_power = 2,
+		dodge = 0.357,
 		type = 1,
+		dodge_limit = 9,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "haipenhuo",
 		funnel_behavior = "",
@@ -5429,6 +5840,11 @@ pg.aircraft_template = {
 				0.62,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -5472,8 +5888,10 @@ pg.aircraft_template = {
 		model_ID = "haipenhuo",
 		ACC_growth = 0,
 		crash_DMG = 100,
-		attack_power = 2,
+		dodge = 0.345,
 		type = 1,
+		dodge_limit = 9.5,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "haipenhuo",
 		funnel_behavior = "",
@@ -5528,6 +5946,11 @@ pg.aircraft_template = {
 			},
 			{
 				0.62,
+				0,
+				0
+			},
+			{
+				0,
 				0,
 				0
 			}
@@ -5606,8 +6029,10 @@ pg.aircraft_template = {
 		model_ID = "haipenhuo",
 		ACC_growth = 0,
 		crash_DMG = 100,
-		attack_power = 2,
+		dodge = 0.333,
 		type = 1,
+		dodge_limit = 10,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "haipenhuo",
 		funnel_behavior = "",
@@ -5662,6 +6087,11 @@ pg.aircraft_template = {
 			},
 			{
 				0.62,
+				0,
+				0
+			},
+			{
+				0,
 				0,
 				0
 			}
@@ -5784,8 +6214,10 @@ pg.aircraft_template = {
 		model_ID = "haiduya",
 		ACC_growth = 0,
 		crash_DMG = 156,
-		attack_power = 2,
+		dodge = 0.357,
 		type = 1,
+		dodge_limit = 9,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "haiduya",
 		funnel_behavior = "",
@@ -5840,6 +6272,11 @@ pg.aircraft_template = {
 			{
 				0.86,
 				-0.12,
+				0
+			},
+			{
+				0,
+				0,
 				0
 			}
 		}
@@ -5911,8 +6348,10 @@ pg.aircraft_template = {
 		model_ID = "haiduya",
 		ACC_growth = 0,
 		crash_DMG = 156,
-		attack_power = 2,
+		dodge = 0.345,
 		type = 1,
+		dodge_limit = 9.5,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "haiduya",
 		funnel_behavior = "",
@@ -5967,6 +6406,11 @@ pg.aircraft_template = {
 			{
 				0.86,
 				-0.12,
+				0
+			},
+			{
+				0,
+				0,
 				0
 			}
 		}
@@ -6078,8 +6522,10 @@ pg.aircraft_template = {
 		model_ID = "haiduya",
 		ACC_growth = 0,
 		crash_DMG = 156,
-		attack_power = 2,
+		dodge = 0.333,
 		type = 1,
+		dodge_limit = 10,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "haiduya",
 		funnel_behavior = "",
@@ -6134,6 +6580,11 @@ pg.aircraft_template = {
 			{
 				0.86,
 				-0.12,
+				0
+			},
+			{
+				0,
+				0,
 				0
 			}
 		}
@@ -6245,8 +6696,10 @@ pg.aircraft_template = {
 		model_ID = "haidoushi",
 		ACC_growth = 0,
 		crash_DMG = 76,
-		attack_power = 2,
+		dodge = 0.375,
 		type = 1,
+		dodge_limit = 8,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "haidoushi",
 		funnel_behavior = "",
@@ -6301,6 +6754,11 @@ pg.aircraft_template = {
 				0.62,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -6338,8 +6796,10 @@ pg.aircraft_template = {
 		model_ID = "haidoushi",
 		ACC_growth = 0,
 		crash_DMG = 76,
-		attack_power = 2,
+		dodge = 0.363,
 		type = 1,
+		dodge_limit = 8.5,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "haidoushi",
 		funnel_behavior = "",
@@ -6394,6 +6854,11 @@ pg.aircraft_template = {
 				0.62,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -6431,8 +6896,10 @@ pg.aircraft_template = {
 		model_ID = "haidoushi",
 		ACC_growth = 0,
 		crash_DMG = 76,
-		attack_power = 2,
+		dodge = 0.351,
 		type = 1,
+		dodge_limit = 9,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "haidoushi",
 		funnel_behavior = "",
@@ -6485,6 +6952,11 @@ pg.aircraft_template = {
 			},
 			{
 				0.62,
+				0,
+				0
+			},
+			{
+				0,
 				0,
 				0
 			}
@@ -6551,8 +7023,10 @@ pg.aircraft_template = {
 		model_ID = "jianyu",
 		ACC_growth = 0,
 		crash_DMG = 306,
-		attack_power = 2,
+		dodge = 1.19,
 		type = 2,
+		dodge_limit = 3,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "jianyu",
 		funnel_behavior = "",
@@ -6608,6 +7082,11 @@ pg.aircraft_template = {
 				0.52,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -6648,8 +7127,10 @@ pg.aircraft_template = {
 		model_ID = "jianyu",
 		ACC_growth = 0,
 		crash_DMG = 306,
-		attack_power = 2,
+		dodge = 1.15,
 		type = 2,
+		dodge_limit = 3.5,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "jianyu",
 		funnel_behavior = "",
@@ -6703,6 +7184,11 @@ pg.aircraft_template = {
 			},
 			{
 				0.52,
+				0,
+				0
+			},
+			{
+				0,
 				0,
 				0
 			}
@@ -6775,8 +7261,10 @@ pg.aircraft_template = {
 		model_ID = "jianyu",
 		ACC_growth = 0,
 		crash_DMG = 306,
-		attack_power = 2,
+		dodge = 1.11,
 		type = 2,
+		dodge_limit = 4,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "jianyu",
 		funnel_behavior = "",
@@ -6830,6 +7318,11 @@ pg.aircraft_template = {
 			},
 			{
 				0.52,
+				0,
+				0
+			},
+			{
+				0,
 				0,
 				0
 			}
@@ -6942,8 +7435,10 @@ pg.aircraft_template = {
 		model_ID = "jianyu810",
 		ACC_growth = 0,
 		crash_DMG = 420,
-		attack_power = 2,
+		dodge = 1.03,
 		type = 2,
+		dodge_limit = 7,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "jianyu810",
 		funnel_behavior = "",
@@ -6997,6 +7492,11 @@ pg.aircraft_template = {
 			},
 			{
 				0.52,
+				0,
+				0
+			},
+			{
+				0,
 				0,
 				0
 			}
@@ -7109,8 +7609,10 @@ pg.aircraft_template = {
 		model_ID = "suoyu",
 		ACC_growth = 0,
 		crash_DMG = 480,
-		attack_power = 2,
+		dodge = 1.13,
 		type = 2,
+		dodge_limit = 5,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "suoyu",
 		funnel_behavior = "",
@@ -7164,6 +7666,11 @@ pg.aircraft_template = {
 			},
 			{
 				0.26,
+				0,
+				0
+			},
+			{
+				0,
 				0,
 				0
 			}
@@ -7236,8 +7743,10 @@ pg.aircraft_template = {
 		model_ID = "suoyu",
 		ACC_growth = 0,
 		crash_DMG = 480,
-		attack_power = 2,
+		dodge = 1.09,
 		type = 2,
+		dodge_limit = 5.5,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "suoyu",
 		funnel_behavior = "",
@@ -7291,6 +7800,11 @@ pg.aircraft_template = {
 			},
 			{
 				0.26,
+				0,
+				0
+			},
+			{
+				0,
 				0,
 				0
 			}
@@ -7403,8 +7917,10 @@ pg.aircraft_template = {
 		model_ID = "suoyu",
 		ACC_growth = 0,
 		crash_DMG = 480,
-		attack_power = 2,
+		dodge = 1.05,
 		type = 2,
+		dodge_limit = 6,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "suoyu",
 		funnel_behavior = "",
@@ -7458,6 +7974,11 @@ pg.aircraft_template = {
 			},
 			{
 				0.26,
+				0,
+				0
+			},
+			{
+				0,
 				0,
 				0
 			}
@@ -7570,8 +8091,10 @@ pg.aircraft_template = {
 		model_ID = "huoba",
 		ACC_growth = 0,
 		crash_DMG = 420,
-		attack_power = 2,
+		dodge = 1.04,
 		type = 2,
+		dodge_limit = 6,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "huoba",
 		funnel_behavior = "",
@@ -7625,6 +8148,11 @@ pg.aircraft_template = {
 			},
 			{
 				0.26,
+				0,
+				0
+			},
+			{
+				0,
 				0,
 				0
 			}
@@ -7737,8 +8265,10 @@ pg.aircraft_template = {
 		model_ID = "zeiou",
 		ACC_growth = 0,
 		crash_DMG = 156,
-		attack_power = 2,
+		dodge = 3.75,
 		type = 3,
+		dodge_limit = 0.8,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "zeiou",
 		funnel_behavior = "",
@@ -7794,6 +8324,11 @@ pg.aircraft_template = {
 				0.37,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -7834,8 +8369,10 @@ pg.aircraft_template = {
 		model_ID = "zeiou",
 		ACC_growth = 0,
 		crash_DMG = 156,
-		attack_power = 2,
+		dodge = 3.63,
 		type = 3,
+		dodge_limit = 0.9,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "zeiou",
 		funnel_behavior = "",
@@ -7891,6 +8428,11 @@ pg.aircraft_template = {
 				0.37,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -7931,8 +8473,10 @@ pg.aircraft_template = {
 		model_ID = "zeiou",
 		ACC_growth = 0,
 		crash_DMG = 156,
-		attack_power = 2,
+		dodge = 3.51,
 		type = 3,
+		dodge_limit = 1,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "zeiou",
 		funnel_behavior = "",
@@ -7986,6 +8530,11 @@ pg.aircraft_template = {
 			},
 			{
 				0.37,
+				0,
+				0
+			},
+			{
+				0,
 				0,
 				0
 			}
@@ -8058,8 +8607,10 @@ pg.aircraft_template = {
 		model_ID = "haiyan",
 		ACC_growth = 0,
 		crash_DMG = 200,
-		attack_power = 2,
+		dodge = 3.57,
 		type = 3,
+		dodge_limit = 0.8,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "haiyan",
 		funnel_behavior = "",
@@ -8115,6 +8666,11 @@ pg.aircraft_template = {
 				0.44,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -8155,8 +8711,10 @@ pg.aircraft_template = {
 		model_ID = "haiyan",
 		ACC_growth = 0,
 		crash_DMG = 200,
-		attack_power = 2,
+		dodge = 3.45,
 		type = 3,
+		dodge_limit = 0.9,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "haiyan",
 		funnel_behavior = "",
@@ -8210,6 +8768,11 @@ pg.aircraft_template = {
 			},
 			{
 				0.44,
+				0,
+				0
+			},
+			{
+				0,
 				0,
 				0
 			}
@@ -8282,8 +8845,10 @@ pg.aircraft_template = {
 		model_ID = "haiyan",
 		ACC_growth = 0,
 		crash_DMG = 200,
-		attack_power = 2,
+		dodge = 3.33,
 		type = 3,
+		dodge_limit = 1,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "haiyan",
 		funnel_behavior = "",
@@ -8337,6 +8902,11 @@ pg.aircraft_template = {
 			},
 			{
 				0.44,
+				0,
+				0
+			},
+			{
+				0,
 				0,
 				0
 			}
@@ -8449,8 +9019,10 @@ pg.aircraft_template = {
 		model_ID = "yinghuochong",
 		ACC_growth = 0,
 		crash_DMG = 210,
-		attack_power = 2,
+		dodge = 0.75,
 		type = 3,
+		dodge_limit = 7,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "yinghuochong",
 		funnel_behavior = "",
@@ -8504,6 +9076,11 @@ pg.aircraft_template = {
 			},
 			{
 				0.44,
+				0,
+				0
+			},
+			{
+				0,
 				0,
 				0
 			}
@@ -8616,8 +9193,10 @@ pg.aircraft_template = {
 		model_ID = "96jiangong",
 		ACC_growth = 0,
 		crash_DMG = 86,
-		attack_power = 2,
+		dodge = 0.357,
 		type = 1,
+		dodge_limit = 7,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "96jiangong",
 		funnel_behavior = "",
@@ -8672,6 +9251,11 @@ pg.aircraft_template = {
 				0.72,
 				-0.15,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -8709,8 +9293,10 @@ pg.aircraft_template = {
 		model_ID = "96jiangong",
 		ACC_growth = 0,
 		crash_DMG = 86,
-		attack_power = 2,
+		dodge = 0.345,
 		type = 1,
+		dodge_limit = 7.5,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "96jiangong",
 		funnel_behavior = "",
@@ -8765,6 +9351,11 @@ pg.aircraft_template = {
 				0.72,
 				-0.15,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -8802,8 +9393,10 @@ pg.aircraft_template = {
 		model_ID = "96jiangong",
 		ACC_growth = 0,
 		crash_DMG = 86,
-		attack_power = 2,
+		dodge = 0.333,
 		type = 1,
+		dodge_limit = 8,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "96jiangong",
 		funnel_behavior = "",
@@ -8857,6 +9450,11 @@ pg.aircraft_template = {
 			{
 				0.72,
 				-0.15,
+				0
+			},
+			{
+				0,
+				0,
 				0
 			}
 		}
@@ -8922,8 +9520,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan21",
 		ACC_growth = 0,
 		crash_DMG = 106,
-		attack_power = 2,
+		dodge = 0.339,
 		type = 1,
+		dodge_limit = 8,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "lingzhan21",
 		funnel_behavior = "",
@@ -8980,6 +9580,11 @@ pg.aircraft_template = {
 				0.27,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -9023,8 +9628,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan21",
 		ACC_growth = 0,
 		crash_DMG = 106,
-		attack_power = 2,
+		dodge = 0.327,
 		type = 1,
+		dodge_limit = 8.5,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "lingzhan21",
 		funnel_behavior = "",
@@ -9079,6 +9686,11 @@ pg.aircraft_template = {
 			},
 			{
 				0.27,
+				0,
+				0
+			},
+			{
+				0,
 				0,
 				0
 			}
@@ -9157,8 +9769,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan21",
 		ACC_growth = 0,
 		crash_DMG = 106,
-		attack_power = 2,
+		dodge = 0.315,
 		type = 1,
+		dodge_limit = 9,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "lingzhan21",
 		funnel_behavior = "",
@@ -9213,6 +9827,11 @@ pg.aircraft_template = {
 			},
 			{
 				0.27,
+				0,
+				0
+			},
+			{
+				0,
 				0,
 				0
 			}
@@ -9335,8 +9954,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan52",
 		ACC_growth = 0,
 		crash_DMG = 140,
-		attack_power = 2,
+		dodge = 0.339,
 		type = 1,
+		dodge_limit = 8,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "lingzhan52",
 		funnel_behavior = "",
@@ -9391,6 +10012,11 @@ pg.aircraft_template = {
 			},
 			{
 				0.51,
+				0,
+				0
+			},
+			{
+				0,
 				0,
 				0
 			}
@@ -9469,8 +10095,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan52",
 		ACC_growth = 0,
 		crash_DMG = 140,
-		attack_power = 2,
+		dodge = 0.327,
 		type = 1,
+		dodge_limit = 8.5,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "lingzhan52",
 		funnel_behavior = "",
@@ -9525,6 +10153,11 @@ pg.aircraft_template = {
 			},
 			{
 				0.51,
+				0,
+				0
+			},
+			{
+				0,
 				0,
 				0
 			}
@@ -9647,8 +10280,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan52",
 		ACC_growth = 0,
 		crash_DMG = 140,
-		attack_power = 2,
+		dodge = 0.315,
 		type = 1,
+		dodge_limit = 9,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "lingzhan52",
 		funnel_behavior = "",
@@ -9703,6 +10338,11 @@ pg.aircraft_template = {
 			},
 			{
 				0.51,
+				0,
+				0
+			},
+			{
+				0,
 				0,
 				0
 			}
@@ -9825,8 +10465,10 @@ pg.aircraft_template = {
 		model_ID = "liefeng",
 		ACC_growth = 0,
 		crash_DMG = 162,
-		attack_power = 2,
+		dodge = 0.321,
 		type = 1,
+		dodge_limit = 9,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "liefeng",
 		funnel_behavior = "",
@@ -9880,6 +10522,11 @@ pg.aircraft_template = {
 			},
 			{
 				0.51,
+				0,
+				0
+			},
+			{
+				0,
 				0,
 				0
 			}
@@ -9952,8 +10599,10 @@ pg.aircraft_template = {
 		model_ID = "liefeng",
 		ACC_growth = 0,
 		crash_DMG = 162,
-		attack_power = 2,
+		dodge = 0.309,
 		type = 1,
+		dodge_limit = 9.5,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "liefeng",
 		funnel_behavior = "",
@@ -10007,6 +10656,11 @@ pg.aircraft_template = {
 			},
 			{
 				0.51,
+				0,
+				0
+			},
+			{
+				0,
 				0,
 				0
 			}
@@ -10119,8 +10773,10 @@ pg.aircraft_template = {
 		model_ID = "liefeng",
 		ACC_growth = 0,
 		crash_DMG = 162,
-		attack_power = 2,
+		dodge = 0.297,
 		type = 1,
+		dodge_limit = 10,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "liefeng",
 		funnel_behavior = "",
@@ -10174,6 +10830,11 @@ pg.aircraft_template = {
 			},
 			{
 				0.51,
+				0,
+				0
+			},
+			{
+				0,
 				0,
 				0
 			}
@@ -10286,8 +10947,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 148,
-		attack_power = 2,
+		dodge = 1.25,
 		type = 2,
+		dodge_limit = 3,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -10343,6 +11006,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -10383,8 +11051,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 148,
-		attack_power = 2,
+		dodge = 1.21,
 		type = 2,
+		dodge_limit = 3.5,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -10440,6 +11110,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -10480,8 +11155,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 148,
-		attack_power = 2,
+		dodge = 1.17,
 		type = 2,
+		dodge_limit = 4,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -10535,6 +11212,11 @@ pg.aircraft_template = {
 			},
 			{
 				0.54,
+				0,
+				0
+			},
+			{
+				0,
 				0,
 				0
 			}
@@ -10607,8 +11289,10 @@ pg.aircraft_template = {
 		model_ID = "tianshan",
 		ACC_growth = 0,
 		crash_DMG = 168,
-		attack_power = 2,
+		dodge = 1.19,
 		type = 2,
+		dodge_limit = 4,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "tianshan",
 		funnel_behavior = "",
@@ -10664,6 +11348,11 @@ pg.aircraft_template = {
 				0.58,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -10704,8 +11393,10 @@ pg.aircraft_template = {
 		model_ID = "tianshan",
 		ACC_growth = 0,
 		crash_DMG = 168,
-		attack_power = 2,
+		dodge = 1.15,
 		type = 2,
+		dodge_limit = 4.5,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "tianshan",
 		funnel_behavior = "",
@@ -10759,6 +11450,11 @@ pg.aircraft_template = {
 			},
 			{
 				0.58,
+				0,
+				0
+			},
+			{
+				0,
 				0,
 				0
 			}
@@ -10831,8 +11527,10 @@ pg.aircraft_template = {
 		model_ID = "tianshan",
 		ACC_growth = 0,
 		crash_DMG = 168,
-		attack_power = 2,
+		dodge = 1.11,
 		type = 2,
+		dodge_limit = 5,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "tianshan",
 		funnel_behavior = "",
@@ -10886,6 +11584,11 @@ pg.aircraft_template = {
 			},
 			{
 				0.58,
+				0,
+				0
+			},
+			{
+				0,
 				0,
 				0
 			}
@@ -10998,8 +11701,10 @@ pg.aircraft_template = {
 		model_ID = "liuxing",
 		ACC_growth = 0,
 		crash_DMG = 188,
-		attack_power = 2,
+		dodge = 1.13,
 		type = 2,
+		dodge_limit = 4,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "liuxing",
 		funnel_behavior = "",
@@ -11054,6 +11759,11 @@ pg.aircraft_template = {
 			},
 			{
 				0.26,
+				0,
+				0
+			},
+			{
+				0,
 				0,
 				0
 			}
@@ -11132,8 +11842,10 @@ pg.aircraft_template = {
 		model_ID = "liuxing",
 		ACC_growth = 0,
 		crash_DMG = 188,
-		attack_power = 2,
+		dodge = 1.09,
 		type = 2,
+		dodge_limit = 4.5,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "liuxing",
 		funnel_behavior = "",
@@ -11188,6 +11900,11 @@ pg.aircraft_template = {
 			},
 			{
 				0.26,
+				0,
+				0
+			},
+			{
+				0,
 				0,
 				0
 			}
@@ -11310,8 +12027,10 @@ pg.aircraft_template = {
 		model_ID = "liuxing",
 		ACC_growth = 0,
 		crash_DMG = 188,
-		attack_power = 2,
+		dodge = 1.05,
 		type = 2,
+		dodge_limit = 5,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "liuxing",
 		funnel_behavior = "",
@@ -11366,6 +12085,11 @@ pg.aircraft_template = {
 			},
 			{
 				0.26,
+				0,
+				0
+			},
+			{
+				0,
 				0,
 				0
 			}
@@ -11488,8 +12212,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
 		crash_DMG = 180,
-		attack_power = 2,
+		dodge = 3.57,
 		type = 3,
+		dodge_limit = 0.8,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -11532,6 +12258,11 @@ pg.aircraft_template = {
 			}
 		},
 		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
 			{
 				0,
 				0,
@@ -11589,8 +12320,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
 		crash_DMG = 180,
-		attack_power = 2,
+		dodge = 3.45,
 		type = 3,
+		dodge_limit = 0.9,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -11633,6 +12366,11 @@ pg.aircraft_template = {
 			}
 		},
 		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
 			{
 				0,
 				0,
@@ -11723,8 +12461,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
 		crash_DMG = 180,
-		attack_power = 2,
+		dodge = 3.33,
 		type = 3,
+		dodge_limit = 1,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -11767,6 +12507,11 @@ pg.aircraft_template = {
 			}
 		},
 		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
 			{
 				0,
 				0,
@@ -11901,8 +12646,10 @@ pg.aircraft_template = {
 		model_ID = "huixing",
 		ACC_growth = 0,
 		crash_DMG = 208,
-		attack_power = 2,
+		dodge = 3.57,
 		type = 3,
+		dodge_limit = 0.8,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "huixing",
 		funnel_behavior = "",
@@ -11957,6 +12704,11 @@ pg.aircraft_template = {
 			},
 			{
 				0.64,
+				0,
+				0
+			},
+			{
+				0,
 				0,
 				0
 			}
@@ -12035,8 +12787,10 @@ pg.aircraft_template = {
 		model_ID = "huixing",
 		ACC_growth = 0,
 		crash_DMG = 208,
-		attack_power = 2,
+		dodge = 3.45,
 		type = 3,
+		dodge_limit = 0.9,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "huixing",
 		funnel_behavior = "",
@@ -12091,6 +12845,11 @@ pg.aircraft_template = {
 			},
 			{
 				0.64,
+				0,
+				0
+			},
+			{
+				0,
 				0,
 				0
 			}
@@ -12213,8 +12972,10 @@ pg.aircraft_template = {
 		model_ID = "huixing",
 		ACC_growth = 0,
 		crash_DMG = 208,
-		attack_power = 2,
+		dodge = 3.33,
 		type = 3,
+		dodge_limit = 1,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "huixing",
 		funnel_behavior = "",
@@ -12269,6 +13030,11 @@ pg.aircraft_template = {
 			},
 			{
 				0.64,
+				0,
+				0
+			},
+			{
+				0,
 				0,
 				0
 			}
@@ -12391,8 +13157,10 @@ pg.aircraft_template = {
 		model_ID = "ruiyun",
 		ACC_growth = 0,
 		crash_DMG = 120,
-		attack_power = 2,
+		dodge = 3.75,
 		type = 3,
+		dodge_limit = 0.8,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "ruiyun",
 		funnel_behavior = "",
@@ -12435,6 +13203,11 @@ pg.aircraft_template = {
 			}
 		},
 		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
 			{
 				0,
 				0,
@@ -12492,8 +13265,10 @@ pg.aircraft_template = {
 		model_ID = "ruiyun",
 		ACC_growth = 0,
 		crash_DMG = 120,
-		attack_power = 2,
+		dodge = 3.63,
 		type = 3,
+		dodge_limit = 0.9,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "ruiyun",
 		funnel_behavior = "",
@@ -12536,6 +13311,11 @@ pg.aircraft_template = {
 			}
 		},
 		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
 			{
 				0,
 				0,
@@ -12626,8 +13406,10 @@ pg.aircraft_template = {
 		model_ID = "ruiyun",
 		ACC_growth = 0,
 		crash_DMG = 120,
-		attack_power = 2,
+		dodge = 3.51,
 		type = 3,
+		dodge_limit = 1,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "ruiyun",
 		funnel_behavior = "",
@@ -12670,6 +13452,11 @@ pg.aircraft_template = {
 			}
 		},
 		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
 			{
 				0,
 				0,
@@ -12797,6 +13584,180 @@ pg.aircraft_template = {
 			52250
 		}
 	},
+	[39300] = {
+		name = "晴岚",
+		max_hp = 38,
+		accuracy = 23,
+		model_ID = "qinglan",
+		ACC_growth = 0,
+		crash_DMG = 120,
+		dodge = 3.39,
+		type = 3,
+		dodge_limit = 1.1,
+		attack_power = 2,
+		AP_growth = 2000,
+		icon = "qinglan",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 1251,
+		speed = 46,
+		id = 39300,
+		weapon_ID = {
+			50840,
+			53260
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.71,
+					-1.73,
+					0
+				},
+				{
+					0.82,
+					2.04,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[39301] = {
+		id = 39301,
+		base = 39300,
+		max_hp = 42,
+		hp_growth = 1438,
+		weapon_ID = {
+			50841,
+			53261
+		}
+	},
+	[39302] = {
+		id = 39302,
+		base = 39300,
+		max_hp = 47,
+		hp_growth = 1626,
+		weapon_ID = {
+			50842,
+			53262
+		}
+	},
+	[39303] = {
+		id = 39303,
+		base = 39300,
+		max_hp = 52,
+		hp_growth = 1813,
+		weapon_ID = {
+			50843,
+			53263
+		}
+	},
+	[39304] = {
+		id = 39304,
+		base = 39300,
+		max_hp = 57,
+		hp_growth = 2001,
+		weapon_ID = {
+			50844,
+			53264
+		}
+	},
+	[39305] = {
+		id = 39305,
+		base = 39300,
+		max_hp = 62,
+		hp_growth = 2189,
+		weapon_ID = {
+			50845,
+			53265
+		}
+	},
+	[39306] = {
+		id = 39306,
+		base = 39300,
+		max_hp = 67,
+		hp_growth = 2376,
+		weapon_ID = {
+			50846,
+			53266
+		}
+	},
+	[39307] = {
+		id = 39307,
+		base = 39300,
+		max_hp = 72,
+		hp_growth = 2564,
+		weapon_ID = {
+			50847,
+			53267
+		}
+	},
+	[39308] = {
+		id = 39308,
+		base = 39300,
+		max_hp = 77,
+		hp_growth = 2751,
+		weapon_ID = {
+			50848,
+			53268
+		}
+	},
+	[39309] = {
+		id = 39309,
+		base = 39300,
+		max_hp = 81,
+		hp_growth = 2939,
+		weapon_ID = {
+			50849,
+			53269
+		}
+	},
+	[39310] = {
+		id = 39310,
+		base = 39300,
+		max_hp = 86,
+		hp_growth = 3127,
+		weapon_ID = {
+			50850,
+			53270
+		}
+	},
 	[47000] = {
 		name = "BF-109T舰载战斗机T1",
 		max_hp = 31,
@@ -12804,8 +13765,10 @@ pg.aircraft_template = {
 		model_ID = "BF109T",
 		ACC_growth = 0,
 		crash_DMG = 42,
-		attack_power = 2,
+		dodge = 0.357,
 		type = 1,
+		dodge_limit = 8,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "BF109T",
 		funnel_behavior = "",
@@ -12861,6 +13824,11 @@ pg.aircraft_template = {
 				0.27,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -12901,8 +13869,10 @@ pg.aircraft_template = {
 		model_ID = "BF109T",
 		ACC_growth = 0,
 		crash_DMG = 42,
-		attack_power = 2,
+		dodge = 0.345,
 		type = 1,
+		dodge_limit = 8.5,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "BF109T",
 		funnel_behavior = "",
@@ -12956,6 +13926,11 @@ pg.aircraft_template = {
 			},
 			{
 				0.27,
+				0,
+				0
+			},
+			{
+				0,
 				0,
 				0
 			}
@@ -13028,8 +14003,10 @@ pg.aircraft_template = {
 		model_ID = "BF109T",
 		ACC_growth = 0,
 		crash_DMG = 42,
-		attack_power = 2,
+		dodge = 0.333,
 		type = 1,
+		dodge_limit = 9,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "BF109T",
 		funnel_behavior = "",
@@ -13083,6 +14060,11 @@ pg.aircraft_template = {
 			},
 			{
 				0.27,
+				0,
+				0
+			},
+			{
+				0,
 				0,
 				0
 			}
@@ -13195,8 +14177,10 @@ pg.aircraft_template = {
 		model_ID = "Me155A",
 		ACC_growth = 0,
 		crash_DMG = 65,
-		attack_power = 2,
+		dodge = 0.339,
 		type = 1,
+		dodge_limit = 9,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "Me155A",
 		funnel_behavior = "",
@@ -13250,6 +14234,11 @@ pg.aircraft_template = {
 			},
 			{
 				0.51,
+				0,
+				0
+			},
+			{
+				0,
 				0,
 				0
 			}
@@ -13322,8 +14311,10 @@ pg.aircraft_template = {
 		model_ID = "Me155A",
 		ACC_growth = 0,
 		crash_DMG = 65,
-		attack_power = 2,
+		dodge = 0.327,
 		type = 1,
+		dodge_limit = 9.5,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "Me155A",
 		funnel_behavior = "",
@@ -13377,6 +14368,11 @@ pg.aircraft_template = {
 			},
 			{
 				0.51,
+				0,
+				0
+			},
+			{
+				0,
 				0,
 				0
 			}
@@ -13489,8 +14485,10 @@ pg.aircraft_template = {
 		model_ID = "Me155A",
 		ACC_growth = 0,
 		crash_DMG = 65,
-		attack_power = 2,
+		dodge = 0.315,
 		type = 1,
+		dodge_limit = 10,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "Me155A",
 		funnel_behavior = "",
@@ -13544,6 +14542,11 @@ pg.aircraft_template = {
 			},
 			{
 				0.51,
+				0,
+				0
+			},
+			{
+				0,
 				0,
 				0
 			}
@@ -13656,8 +14659,10 @@ pg.aircraft_template = {
 		model_ID = "JU87C",
 		ACC_growth = 0,
 		crash_DMG = 112,
-		attack_power = 2,
+		dodge = 3.57,
 		type = 3,
+		dodge_limit = 0.8,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "JU87C",
 		funnel_behavior = "",
@@ -13700,6 +14705,11 @@ pg.aircraft_template = {
 			}
 		},
 		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
 			{
 				0,
 				0,
@@ -13757,8 +14767,10 @@ pg.aircraft_template = {
 		model_ID = "JU87C",
 		ACC_growth = 0,
 		crash_DMG = 112,
-		attack_power = 2,
+		dodge = 3.45,
 		type = 3,
+		dodge_limit = 0.9,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "JU87C",
 		funnel_behavior = "",
@@ -13801,6 +14813,11 @@ pg.aircraft_template = {
 			}
 		},
 		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
 			{
 				0,
 				0,
@@ -13891,8 +14908,10 @@ pg.aircraft_template = {
 		model_ID = "JU87C",
 		ACC_growth = 0,
 		crash_DMG = 112,
-		attack_power = 2,
+		dodge = 3.33,
 		type = 3,
+		dodge_limit = 1,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "JU87C",
 		funnel_behavior = "",
@@ -13935,6 +14954,11 @@ pg.aircraft_template = {
 			}
 		},
 		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
 			{
 				0,
 				0,
@@ -14069,8 +15093,10 @@ pg.aircraft_template = {
 		model_ID = "suoyu",
 		ACC_growth = 0,
 		crash_DMG = 90,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "suoyu",
 		funnel_behavior = "",
@@ -14125,25 +15151,34 @@ pg.aircraft_template = {
 				0.26,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
 	[61011] = {
-		id = 61011,
-		name = "皇家方舟技能LV2",
 		base = 61010,
+		name = "皇家方舟技能LV2",
+		id = 61011,
+		dodge_limit = 0,
 		max_hp = 64,
 		hp_growth = 2432,
+		dodge = 1,
 		weapon_ID = {
 			61014
 		}
 	},
 	[61012] = {
-		id = 61012,
-		name = "皇家方舟技能LV3",
 		base = 61010,
+		name = "皇家方舟技能LV3",
+		id = 61012,
+		dodge_limit = 0,
 		max_hp = 95,
 		hp_growth = 3648,
+		dodge = 1,
 		weapon_ID = {
 			61015
 		}
@@ -14155,8 +15190,10 @@ pg.aircraft_template = {
 		model_ID = "caiyun",
 		ACC_growth = 0,
 		crash_DMG = 208,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "caiyun",
 		funnel_behavior = "",
@@ -14209,6 +15246,11 @@ pg.aircraft_template = {
 				0.64,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -14219,8 +15261,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 180,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -14275,6 +15319,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -14285,8 +15334,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 208,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -14341,6 +15392,11 @@ pg.aircraft_template = {
 				0.64,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -14351,8 +15407,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 208,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -14405,6 +15463,11 @@ pg.aircraft_template = {
 				0.64,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -14415,8 +15478,10 @@ pg.aircraft_template = {
 		model_ID = "F6F",
 		ACC_growth = 0,
 		crash_DMG = 406,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "F6F",
 		funnel_behavior = "",
@@ -14469,6 +15534,82 @@ pg.aircraft_template = {
 				0.52,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[61023] = {
+		name = "伊13技能彩云",
+		max_hp = 42,
+		accuracy = 23,
+		model_ID = "caiyun",
+		ACC_growth = 0,
+		crash_DMG = 208,
+		dodge = 1,
+		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
+		AP_growth = 2000,
+		icon = "caiyun",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 1605,
+		speed = 66,
+		id = 61023,
+		weapon_ID = {},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.71,
+					-1.73,
+					0
+				},
+				{
+					0.82,
+					2.04,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.64,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -14479,8 +15620,10 @@ pg.aircraft_template = {
 		model_ID = "ruiyun",
 		ACC_growth = 0,
 		crash_DMG = 120,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "ruiyun",
 		funnel_behavior = "",
@@ -14535,105 +15678,130 @@ pg.aircraft_template = {
 				0.26,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
 	[66241] = {
-		id = 66241,
-		name = "山城改技能Lv1",
 		base = 66240,
+		name = "山城改技能Lv1",
+		id = 66241,
+		dodge_limit = 0,
 		max_hp = 32,
 		hp_growth = 1233,
+		dodge = 1,
 		weapon_ID = {
 			66261
 		}
 	},
 	[66242] = {
-		id = 66242,
-		name = "山城改技能Lv2",
 		base = 66240,
+		name = "山城改技能Lv2",
+		id = 66242,
+		dodge_limit = 0,
 		max_hp = 37,
 		hp_growth = 1443,
+		dodge = 1,
 		weapon_ID = {
 			66262
 		}
 	},
 	[66243] = {
-		id = 66243,
-		name = "山城改技能Lv3",
 		base = 66240,
+		name = "山城改技能Lv3",
+		id = 66243,
+		dodge_limit = 0,
 		max_hp = 42,
 		hp_growth = 1653,
+		dodge = 1,
 		weapon_ID = {
 			66263
 		}
 	},
 	[66244] = {
-		id = 66244,
-		name = "山城改技能Lv4",
 		base = 66240,
+		name = "山城改技能Lv4",
+		id = 66244,
+		dodge_limit = 0,
 		max_hp = 47,
 		hp_growth = 1863,
+		dodge = 1,
 		weapon_ID = {
 			66264
 		}
 	},
 	[66245] = {
-		id = 66245,
-		name = "山城改技能Lv5",
 		base = 66240,
+		name = "山城改技能Lv5",
+		id = 66245,
+		dodge_limit = 0,
 		max_hp = 52,
 		hp_growth = 2073,
+		dodge = 1,
 		weapon_ID = {
 			66265
 		}
 	},
 	[66246] = {
-		id = 66246,
-		name = "山城改技能Lv6",
 		base = 66240,
+		name = "山城改技能Lv6",
+		id = 66246,
+		dodge_limit = 0,
 		max_hp = 57,
 		hp_growth = 2283,
+		dodge = 1,
 		weapon_ID = {
 			66266
 		}
 	},
 	[66247] = {
-		id = 66247,
-		name = "山城改技能Lv7",
 		base = 66240,
+		name = "山城改技能Lv7",
+		id = 66247,
+		dodge_limit = 0,
 		max_hp = 63,
 		hp_growth = 2494,
+		dodge = 1,
 		weapon_ID = {
 			66267
 		}
 	},
 	[66248] = {
-		id = 66248,
-		name = "山城改技能Lv8",
 		base = 66240,
+		name = "山城改技能Lv8",
+		id = 66248,
+		dodge_limit = 0,
 		max_hp = 69,
 		hp_growth = 2705,
+		dodge = 1,
 		weapon_ID = {
 			66268
 		}
 	},
 	[66249] = {
-		id = 66249,
-		name = "山城改技能Lv9",
 		base = 66240,
+		name = "山城改技能Lv9",
+		id = 66249,
+		dodge_limit = 0,
 		max_hp = 75,
 		hp_growth = 2916,
+		dodge = 1,
 		weapon_ID = {
 			66269
 		}
 	},
 	[66250] = {
-		id = 66250,
-		name = "山城改技能Lv10",
 		base = 66240,
+		name = "山城改技能Lv10",
+		id = 66250,
+		dodge_limit = 0,
 		max_hp = 81,
 		hp_growth = 3127,
+		dodge = 1,
 		weapon_ID = {
 			66270
 		}
@@ -14645,8 +15813,10 @@ pg.aircraft_template = {
 		model_ID = "haipenhuo",
 		ACC_growth = 0,
 		crash_DMG = 100,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "haipenhuo",
 		funnel_behavior = "",
@@ -14703,15 +15873,22 @@ pg.aircraft_template = {
 				0.62,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
 	[66421] = {
-		id = 66421,
-		name = "胡蜂技能LV1",
 		base = 66420,
+		name = "胡蜂技能LV1",
+		id = 66421,
+		dodge_limit = 0,
 		max_hp = 37,
 		hp_growth = 1458,
+		dodge = 1,
 		weapon_ID = {
 			50141,
 			50541,
@@ -14719,11 +15896,13 @@ pg.aircraft_template = {
 		}
 	},
 	[66422] = {
-		id = 66422,
-		name = "胡蜂技能LV2",
 		base = 66420,
+		name = "胡蜂技能LV2",
+		id = 66422,
+		dodge_limit = 0,
 		max_hp = 43,
 		hp_growth = 1706,
+		dodge = 1,
 		weapon_ID = {
 			50142,
 			50542,
@@ -14731,11 +15910,13 @@ pg.aircraft_template = {
 		}
 	},
 	[66423] = {
-		id = 66423,
-		name = "胡蜂技能LV3",
 		base = 66420,
+		name = "胡蜂技能LV3",
+		id = 66423,
+		dodge_limit = 0,
 		max_hp = 49,
 		hp_growth = 1954,
+		dodge = 1,
 		weapon_ID = {
 			50143,
 			50543,
@@ -14743,11 +15924,13 @@ pg.aircraft_template = {
 		}
 	},
 	[66424] = {
-		id = 66424,
-		name = "胡蜂技能LV4",
 		base = 66420,
+		name = "胡蜂技能LV4",
+		id = 66424,
+		dodge_limit = 0,
 		max_hp = 55,
 		hp_growth = 2202,
+		dodge = 1,
 		weapon_ID = {
 			50144,
 			50544,
@@ -14755,11 +15938,13 @@ pg.aircraft_template = {
 		}
 	},
 	[66425] = {
-		id = 66425,
-		name = "胡蜂技能LV5",
 		base = 66420,
+		name = "胡蜂技能LV5",
+		id = 66425,
+		dodge_limit = 0,
 		max_hp = 61,
 		hp_growth = 2451,
+		dodge = 1,
 		weapon_ID = {
 			50145,
 			50545,
@@ -14767,11 +15952,13 @@ pg.aircraft_template = {
 		}
 	},
 	[66426] = {
-		id = 66426,
-		name = "胡蜂技能LV6",
 		base = 66420,
+		name = "胡蜂技能LV6",
+		id = 66426,
+		dodge_limit = 0,
 		max_hp = 68,
 		hp_growth = 2700,
+		dodge = 1,
 		weapon_ID = {
 			50146,
 			50546,
@@ -14779,11 +15966,13 @@ pg.aircraft_template = {
 		}
 	},
 	[66427] = {
-		id = 66427,
-		name = "胡蜂技能LV7",
 		base = 66420,
+		name = "胡蜂技能LV7",
+		id = 66427,
+		dodge_limit = 0,
 		max_hp = 75,
 		hp_growth = 2949,
+		dodge = 1,
 		weapon_ID = {
 			50147,
 			50547,
@@ -14791,11 +15980,13 @@ pg.aircraft_template = {
 		}
 	},
 	[66428] = {
-		id = 66428,
-		name = "胡蜂技能LV8",
 		base = 66420,
+		name = "胡蜂技能LV8",
+		id = 66428,
+		dodge_limit = 0,
 		max_hp = 82,
 		hp_growth = 3198,
+		dodge = 1,
 		weapon_ID = {
 			50148,
 			50548,
@@ -14803,11 +15994,13 @@ pg.aircraft_template = {
 		}
 	},
 	[66429] = {
-		id = 66429,
-		name = "胡蜂技能LV9",
 		base = 66420,
+		name = "胡蜂技能LV9",
+		id = 66429,
+		dodge_limit = 0,
 		max_hp = 89,
 		hp_growth = 3447,
+		dodge = 1,
 		weapon_ID = {
 			50149,
 			50549,
@@ -14815,11 +16008,13 @@ pg.aircraft_template = {
 		}
 	},
 	[66430] = {
-		id = 66430,
-		name = "胡蜂技能LV10",
 		base = 66420,
+		name = "胡蜂技能LV10",
+		id = 66430,
+		dodge_limit = 0,
 		max_hp = 96,
 		hp_growth = 3696,
+		dodge = 1,
 		weapon_ID = {
 			50150,
 			50550,
@@ -14833,8 +16028,10 @@ pg.aircraft_template = {
 		model_ID = "sb2c",
 		ACC_growth = 0,
 		crash_DMG = 100,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "sb2c",
 		funnel_behavior = "",
@@ -14889,105 +16086,130 @@ pg.aircraft_template = {
 				0.62,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
 	[66441] = {
-		id = 66441,
-		name = "联结·阿萨姆LV1",
 		base = 66440,
+		name = "联结·阿萨姆LV1",
+		id = 66441,
+		dodge_limit = 0,
 		max_hp = 42,
 		hp_growth = 1604,
+		dodge = 1,
 		weapon_ID = {
 			66601
 		}
 	},
 	[66442] = {
-		id = 66442,
-		name = "联结·阿萨姆LV2",
 		base = 66440,
+		name = "联结·阿萨姆LV2",
+		id = 66442,
+		dodge_limit = 0,
 		max_hp = 49,
 		hp_growth = 1877,
+		dodge = 1,
 		weapon_ID = {
 			66602
 		}
 	},
 	[66443] = {
-		id = 66443,
-		name = "联结·阿萨姆LV3",
 		base = 66440,
+		name = "联结·阿萨姆LV3",
+		id = 66443,
+		dodge_limit = 0,
 		max_hp = 56,
 		hp_growth = 2150,
+		dodge = 1,
 		weapon_ID = {
 			66603
 		}
 	},
 	[66444] = {
-		id = 66444,
-		name = "联结·阿萨姆LV4",
 		base = 66440,
+		name = "联结·阿萨姆LV4",
+		id = 66444,
+		dodge_limit = 0,
 		max_hp = 63,
 		hp_growth = 2423,
+		dodge = 1,
 		weapon_ID = {
 			66604
 		}
 	},
 	[66445] = {
-		id = 66445,
-		name = "联结·阿萨姆LV5",
 		base = 66440,
+		name = "联结·阿萨姆LV5",
+		id = 66445,
+		dodge_limit = 0,
 		max_hp = 70,
 		hp_growth = 2696,
+		dodge = 1,
 		weapon_ID = {
 			66605
 		}
 	},
 	[66446] = {
-		id = 66446,
-		name = "联结·阿萨姆LV6",
 		base = 66440,
+		name = "联结·阿萨姆LV6",
+		id = 66446,
+		dodge_limit = 0,
 		max_hp = 77,
 		hp_growth = 2970,
+		dodge = 1,
 		weapon_ID = {
 			66606
 		}
 	},
 	[66447] = {
-		id = 66447,
-		name = "联结·阿萨姆LV7",
 		base = 66440,
+		name = "联结·阿萨姆LV7",
+		id = 66447,
+		dodge_limit = 0,
 		max_hp = 84,
 		hp_growth = 3244,
+		dodge = 1,
 		weapon_ID = {
 			66607
 		}
 	},
 	[66448] = {
-		id = 66448,
-		name = "联结·阿萨姆LV8",
 		base = 66440,
+		name = "联结·阿萨姆LV8",
+		id = 66448,
+		dodge_limit = 0,
 		max_hp = 91,
 		hp_growth = 3518,
+		dodge = 1,
 		weapon_ID = {
 			66608
 		}
 	},
 	[66449] = {
-		id = 66449,
-		name = "联结·阿萨姆LV9",
 		base = 66440,
+		name = "联结·阿萨姆LV9",
+		id = 66449,
+		dodge_limit = 0,
 		max_hp = 98,
 		hp_growth = 3792,
+		dodge = 1,
 		weapon_ID = {
 			66609
 		}
 	},
 	[66450] = {
-		id = 66450,
-		name = "联结·阿萨姆LV10",
 		base = 66440,
+		name = "联结·阿萨姆LV10",
+		id = 66450,
+		dodge_limit = 0,
 		max_hp = 106,
 		hp_growth = 4066,
+		dodge = 1,
 		weapon_ID = {
 			66610
 		}
@@ -14999,8 +16221,10 @@ pg.aircraft_template = {
 		model_ID = "Nep_green",
 		ACC_growth = 0,
 		crash_DMG = 100,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "Nep_green",
 		funnel_behavior = "",
@@ -15055,105 +16279,130 @@ pg.aircraft_template = {
 				0.62,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
 	[66581] = {
-		id = 66581,
-		name = "宝石枪雨LV1",
 		base = 66580,
+		name = "宝石枪雨LV1",
+		id = 66581,
+		dodge_limit = 0,
 		max_hp = 45,
 		hp_growth = 1773,
+		dodge = 1,
 		weapon_ID = {
 			66621
 		}
 	},
 	[66582] = {
-		id = 66582,
-		name = "宝石枪雨LV2",
 		base = 66580,
+		name = "宝石枪雨LV2",
+		id = 66582,
+		dodge_limit = 0,
 		max_hp = 52,
 		hp_growth = 2068,
+		dodge = 1,
 		weapon_ID = {
 			66622
 		}
 	},
 	[66583] = {
-		id = 66583,
-		name = "宝石枪雨LV3",
 		base = 66580,
+		name = "宝石枪雨LV3",
+		id = 66583,
+		dodge_limit = 0,
 		max_hp = 59,
 		hp_growth = 2363,
+		dodge = 1,
 		weapon_ID = {
 			66623
 		}
 	},
 	[66584] = {
-		id = 66584,
-		name = "宝石枪雨LV4",
 		base = 66580,
+		name = "宝石枪雨LV4",
+		id = 66584,
+		dodge_limit = 0,
 		max_hp = 67,
 		hp_growth = 2659,
+		dodge = 1,
 		weapon_ID = {
 			66624
 		}
 	},
 	[66585] = {
-		id = 66585,
-		name = "宝石枪雨LV5",
 		base = 66580,
+		name = "宝石枪雨LV5",
+		id = 66585,
+		dodge_limit = 0,
 		max_hp = 75,
 		hp_growth = 2955,
+		dodge = 1,
 		weapon_ID = {
 			66625
 		}
 	},
 	[66586] = {
-		id = 66586,
-		name = "宝石枪雨LV6",
 		base = 66580,
+		name = "宝石枪雨LV6",
+		id = 66586,
+		dodge_limit = 0,
 		max_hp = 83,
 		hp_growth = 3251,
+		dodge = 1,
 		weapon_ID = {
 			66626
 		}
 	},
 	[66587] = {
-		id = 66587,
-		name = "宝石枪雨LV7",
 		base = 66580,
+		name = "宝石枪雨LV7",
+		id = 66587,
+		dodge_limit = 0,
 		max_hp = 91,
 		hp_growth = 3547,
+		dodge = 1,
 		weapon_ID = {
 			66627
 		}
 	},
 	[66588] = {
-		id = 66588,
-		name = "宝石枪雨LV8",
 		base = 66580,
+		name = "宝石枪雨LV8",
+		id = 66588,
+		dodge_limit = 0,
 		max_hp = 99,
 		hp_growth = 3843,
+		dodge = 1,
 		weapon_ID = {
 			66628
 		}
 	},
 	[66589] = {
-		id = 66589,
-		name = "宝石枪雨LV9",
 		base = 66580,
+		name = "宝石枪雨LV9",
+		id = 66589,
+		dodge_limit = 0,
 		max_hp = 107,
 		hp_growth = 4139,
+		dodge = 1,
 		weapon_ID = {
 			66629
 		}
 	},
 	[66590] = {
-		id = 66590,
-		name = "宝石枪雨LV10",
 		base = 66580,
+		name = "宝石枪雨LV10",
+		id = 66590,
+		dodge_limit = 0,
 		max_hp = 115,
 		hp_growth = 4435,
+		dodge = 1,
 		weapon_ID = {
 			66630
 		}
@@ -15165,8 +16414,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 148,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -15221,105 +16472,130 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
 	[66821] = {
-		id = 66821,
-		name = "飞鹰隼鹰技能Lv1",
 		base = 66820,
+		name = "飞鹰隼鹰技能Lv1",
+		id = 66821,
+		dodge_limit = 0,
 		max_hp = 27,
 		hp_growth = 1051,
+		dodge = 1,
 		weapon_ID = {
 			66841
 		}
 	},
 	[66822] = {
-		id = 66822,
-		name = "飞鹰隼鹰技能Lv2",
 		base = 66820,
+		name = "飞鹰隼鹰技能Lv2",
+		id = 66822,
+		dodge_limit = 0,
 		max_hp = 30,
 		hp_growth = 1178,
+		dodge = 1,
 		weapon_ID = {
 			66842
 		}
 	},
 	[66823] = {
-		id = 66823,
-		name = "飞鹰隼鹰技能Lv3",
 		base = 66820,
+		name = "飞鹰隼鹰技能Lv3",
+		id = 66823,
+		dodge_limit = 0,
 		max_hp = 33,
 		hp_growth = 1305,
+		dodge = 1,
 		weapon_ID = {
 			66843
 		}
 	},
 	[66824] = {
-		id = 66824,
-		name = "飞鹰隼鹰技能Lv4",
 		base = 66820,
+		name = "飞鹰隼鹰技能Lv4",
+		id = 66824,
+		dodge_limit = 0,
 		max_hp = 37,
 		hp_growth = 1432,
+		dodge = 1,
 		weapon_ID = {
 			66844
 		}
 	},
 	[66825] = {
-		id = 66825,
-		name = "飞鹰隼鹰技能Lv5",
 		base = 66820,
+		name = "飞鹰隼鹰技能Lv5",
+		id = 66825,
+		dodge_limit = 0,
 		max_hp = 40,
 		hp_growth = 1559,
+		dodge = 1,
 		weapon_ID = {
 			66845
 		}
 	},
 	[66826] = {
-		id = 66826,
-		name = "飞鹰隼鹰技能Lv6",
 		base = 66820,
+		name = "飞鹰隼鹰技能Lv6",
+		id = 66826,
+		dodge_limit = 0,
 		max_hp = 43,
 		hp_growth = 1686,
+		dodge = 1,
 		weapon_ID = {
 			66846
 		}
 	},
 	[66827] = {
-		id = 66827,
-		name = "飞鹰隼鹰技能Lv7",
 		base = 66820,
+		name = "飞鹰隼鹰技能Lv7",
+		id = 66827,
+		dodge_limit = 0,
 		max_hp = 47,
 		hp_growth = 1813,
+		dodge = 1,
 		weapon_ID = {
 			66847
 		}
 	},
 	[66828] = {
-		id = 66828,
-		name = "飞鹰隼鹰技能Lv8",
 		base = 66820,
+		name = "飞鹰隼鹰技能Lv8",
+		id = 66828,
+		dodge_limit = 0,
 		max_hp = 50,
 		hp_growth = 1940,
+		dodge = 1,
 		weapon_ID = {
 			66848
 		}
 	},
 	[66829] = {
-		id = 66829,
-		name = "飞鹰隼鹰技能Lv9",
 		base = 66820,
+		name = "飞鹰隼鹰技能Lv9",
+		id = 66829,
+		dodge_limit = 0,
 		max_hp = 53,
 		hp_growth = 2067,
+		dodge = 1,
 		weapon_ID = {
 			66849
 		}
 	},
 	[66830] = {
-		id = 66830,
-		name = "飞鹰隼鹰技能Lv10",
 		base = 66820,
+		name = "飞鹰隼鹰技能Lv10",
+		id = 66830,
+		dodge_limit = 0,
 		max_hp = 57,
 		hp_growth = 2195,
+		dodge = 1,
 		weapon_ID = {
 			66850
 		}
@@ -15331,8 +16607,10 @@ pg.aircraft_template = {
 		model_ID = "tbf",
 		ACC_growth = 0,
 		crash_DMG = 406,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "tbf",
 		funnel_behavior = "",
@@ -15387,105 +16665,130 @@ pg.aircraft_template = {
 				0.15,
 				-0.08,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
 	[66941] = {
-		id = 66941,
-		name = "萨拉托加技能鱼雷机Lv1",
 		base = 66940,
+		name = "萨拉托加技能鱼雷机Lv1",
+		id = 66941,
+		dodge_limit = 0,
 		max_hp = 36,
 		hp_growth = 1385,
+		dodge = 1,
 		weapon_ID = {
 			66981
 		}
 	},
 	[66942] = {
-		id = 66942,
-		name = "萨拉托加技能鱼雷机Lv2",
 		base = 66940,
+		name = "萨拉托加技能鱼雷机Lv2",
+		id = 66942,
+		dodge_limit = 0,
 		max_hp = 42,
 		hp_growth = 1621,
+		dodge = 1,
 		weapon_ID = {
 			66982
 		}
 	},
 	[66943] = {
-		id = 66943,
-		name = "萨拉托加技能鱼雷机Lv3",
 		base = 66940,
+		name = "萨拉托加技能鱼雷机Lv3",
+		id = 66943,
+		dodge_limit = 0,
 		max_hp = 48,
 		hp_growth = 1857,
+		dodge = 1,
 		weapon_ID = {
 			66983
 		}
 	},
 	[66944] = {
-		id = 66944,
-		name = "萨拉托加技能鱼雷机Lv4",
 		base = 66940,
+		name = "萨拉托加技能鱼雷机Lv4",
+		id = 66944,
+		dodge_limit = 0,
 		max_hp = 54,
 		hp_growth = 2093,
+		dodge = 1,
 		weapon_ID = {
 			66984
 		}
 	},
 	[66945] = {
-		id = 66945,
-		name = "萨拉托加技能鱼雷机Lv5",
 		base = 66940,
+		name = "萨拉托加技能鱼雷机Lv5",
+		id = 66945,
+		dodge_limit = 0,
 		max_hp = 60,
 		hp_growth = 2329,
+		dodge = 1,
 		weapon_ID = {
 			66985
 		}
 	},
 	[66946] = {
-		id = 66946,
-		name = "萨拉托加技能鱼雷机Lv6",
 		base = 66940,
+		name = "萨拉托加技能鱼雷机Lv6",
+		id = 66946,
+		dodge_limit = 0,
 		max_hp = 66,
 		hp_growth = 2565,
+		dodge = 1,
 		weapon_ID = {
 			66986
 		}
 	},
 	[66947] = {
-		id = 66947,
-		name = "萨拉托加技能鱼雷机Lv7",
 		base = 66940,
+		name = "萨拉托加技能鱼雷机Lv7",
+		id = 66947,
+		dodge_limit = 0,
 		max_hp = 72,
 		hp_growth = 2801,
+		dodge = 1,
 		weapon_ID = {
 			66987
 		}
 	},
 	[66948] = {
-		id = 66948,
-		name = "萨拉托加技能鱼雷机Lv8",
 		base = 66940,
+		name = "萨拉托加技能鱼雷机Lv8",
+		id = 66948,
+		dodge_limit = 0,
 		max_hp = 78,
 		hp_growth = 3037,
+		dodge = 1,
 		weapon_ID = {
 			66988
 		}
 	},
 	[66949] = {
-		id = 66949,
-		name = "萨拉托加技能鱼雷机Lv9",
 		base = 66940,
+		name = "萨拉托加技能鱼雷机Lv9",
+		id = 66949,
+		dodge_limit = 0,
 		max_hp = 84,
 		hp_growth = 3274,
+		dodge = 1,
 		weapon_ID = {
 			66989
 		}
 	},
 	[66950] = {
-		id = 66950,
-		name = "萨拉托加技能鱼雷机Lv10",
 		base = 66940,
+		name = "萨拉托加技能鱼雷机Lv10",
+		id = 66950,
+		dodge_limit = 0,
 		max_hp = 91,
 		hp_growth = 3511,
+		dodge = 1,
 		weapon_ID = {
 			66990
 		}
@@ -15497,8 +16800,10 @@ pg.aircraft_template = {
 		model_ID = "sbdwuwei",
 		ACC_growth = 0,
 		crash_DMG = 156,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "sbdwuwei",
 		funnel_behavior = "",
@@ -15554,114 +16859,139 @@ pg.aircraft_template = {
 				0.72,
 				-0.15,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
 	[66961] = {
-		id = 66961,
-		name = "萨拉托加技能轰炸机Lv1",
 		base = 66960,
+		name = "萨拉托加技能轰炸机Lv1",
+		id = 66961,
+		dodge_limit = 0,
 		max_hp = 35,
 		hp_growth = 1345,
+		dodge = 1,
 		weapon_ID = {
 			67001,
 			67021
 		}
 	},
 	[66962] = {
-		id = 66962,
-		name = "萨拉托加技能轰炸机Lv2",
 		base = 66960,
+		name = "萨拉托加技能轰炸机Lv2",
+		id = 66962,
+		dodge_limit = 0,
 		max_hp = 39,
 		hp_growth = 1507,
+		dodge = 1,
 		weapon_ID = {
 			67002,
 			67022
 		}
 	},
 	[66963] = {
-		id = 66963,
-		name = "萨拉托加技能轰炸机Lv3",
 		base = 66960,
+		name = "萨拉托加技能轰炸机Lv3",
+		id = 66963,
+		dodge_limit = 0,
 		max_hp = 43,
 		hp_growth = 1669,
+		dodge = 1,
 		weapon_ID = {
 			67003,
 			67023
 		}
 	},
 	[66964] = {
-		id = 66964,
-		name = "萨拉托加技能轰炸机Lv4",
 		base = 66960,
+		name = "萨拉托加技能轰炸机Lv4",
+		id = 66964,
+		dodge_limit = 0,
 		max_hp = 47,
 		hp_growth = 1831,
+		dodge = 1,
 		weapon_ID = {
 			67004,
 			67024
 		}
 	},
 	[66965] = {
-		id = 66965,
-		name = "萨拉托加技能轰炸机Lv5",
 		base = 66960,
+		name = "萨拉托加技能轰炸机Lv5",
+		id = 66965,
+		dodge_limit = 0,
 		max_hp = 51,
 		hp_growth = 1994,
+		dodge = 1,
 		weapon_ID = {
 			67005,
 			67025
 		}
 	},
 	[66966] = {
-		id = 66966,
-		name = "萨拉托加技能轰炸机Lv6",
 		base = 66960,
+		name = "萨拉托加技能轰炸机Lv6",
+		id = 66966,
+		dodge_limit = 0,
 		max_hp = 55,
 		hp_growth = 2157,
+		dodge = 1,
 		weapon_ID = {
 			67006,
 			67026
 		}
 	},
 	[66967] = {
-		id = 66967,
-		name = "萨拉托加技能轰炸机Lv7",
 		base = 66960,
+		name = "萨拉托加技能轰炸机Lv7",
+		id = 66967,
+		dodge_limit = 0,
 		max_hp = 59,
 		hp_growth = 2320,
+		dodge = 1,
 		weapon_ID = {
 			67007,
 			67027
 		}
 	},
 	[66968] = {
-		id = 66968,
-		name = "萨拉托加技能轰炸机Lv8",
 		base = 66960,
+		name = "萨拉托加技能轰炸机Lv8",
+		id = 66968,
+		dodge_limit = 0,
 		max_hp = 63,
 		hp_growth = 2483,
+		dodge = 1,
 		weapon_ID = {
 			67008,
 			67028
 		}
 	},
 	[66969] = {
-		id = 66969,
-		name = "萨拉托加技能轰炸机Lv9",
 		base = 66960,
+		name = "萨拉托加技能轰炸机Lv9",
+		id = 66969,
+		dodge_limit = 0,
 		max_hp = 68,
 		hp_growth = 2646,
+		dodge = 1,
 		weapon_ID = {
 			67009,
 			67029
 		}
 	},
 	[66970] = {
-		id = 66970,
-		name = "萨拉托加技能轰炸机Lv10",
 		base = 66960,
+		name = "萨拉托加技能轰炸机Lv10",
+		id = 66970,
+		dodge_limit = 0,
 		max_hp = 73,
 		hp_growth = 2809,
+		dodge = 1,
 		weapon_ID = {
 			67010,
 			67030
@@ -15674,8 +17004,10 @@ pg.aircraft_template = {
 		model_ID = "jianyu",
 		ACC_growth = 0,
 		crash_DMG = 306,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "jianyu",
 		funnel_behavior = "",
@@ -15730,105 +17062,130 @@ pg.aircraft_template = {
 				0.52,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
 	[67141] = {
-		id = 67141,
-		name = "半人马技能鱼雷机Lv1",
 		base = 67140,
+		name = "半人马技能鱼雷机Lv1",
+		id = 67141,
+		dodge_limit = 0,
 		max_hp = 40,
 		hp_growth = 1538,
+		dodge = 1,
 		weapon_ID = {
 			67181
 		}
 	},
 	[67142] = {
-		id = 67142,
-		name = "半人马技能鱼雷机Lv2",
 		base = 67140,
+		name = "半人马技能鱼雷机Lv2",
+		id = 67142,
+		dodge_limit = 0,
 		max_hp = 45,
 		hp_growth = 1739,
+		dodge = 1,
 		weapon_ID = {
 			67182
 		}
 	},
 	[67143] = {
-		id = 67143,
-		name = "半人马技能鱼雷机Lv3",
 		base = 67140,
+		name = "半人马技能鱼雷机Lv3",
+		id = 67143,
+		dodge_limit = 0,
 		max_hp = 50,
 		hp_growth = 1940,
+		dodge = 1,
 		weapon_ID = {
 			67183
 		}
 	},
 	[67144] = {
-		id = 67144,
-		name = "半人马技能鱼雷机Lv4",
 		base = 67140,
+		name = "半人马技能鱼雷机Lv4",
+		id = 67144,
+		dodge_limit = 0,
 		max_hp = 56,
 		hp_growth = 2140,
+		dodge = 1,
 		weapon_ID = {
 			67184
 		}
 	},
 	[67145] = {
-		id = 67145,
-		name = "半人马技能鱼雷机Lv5",
 		base = 67140,
+		name = "半人马技能鱼雷机Lv5",
+		id = 67145,
+		dodge_limit = 0,
 		max_hp = 61,
 		hp_growth = 2341,
+		dodge = 1,
 		weapon_ID = {
 			67185
 		}
 	},
 	[67146] = {
-		id = 67146,
-		name = "半人马技能鱼雷机Lv6",
 		base = 67140,
+		name = "半人马技能鱼雷机Lv6",
+		id = 67146,
+		dodge_limit = 0,
 		max_hp = 66,
 		hp_growth = 2541,
+		dodge = 1,
 		weapon_ID = {
 			67186
 		}
 	},
 	[67147] = {
-		id = 67147,
-		name = "半人马技能鱼雷机Lv7",
 		base = 67140,
+		name = "半人马技能鱼雷机Lv7",
+		id = 67147,
+		dodge_limit = 0,
 		max_hp = 71,
 		hp_growth = 2742,
+		dodge = 1,
 		weapon_ID = {
 			67187
 		}
 	},
 	[67148] = {
-		id = 67148,
-		name = "半人马技能鱼雷机Lv8",
 		base = 67140,
+		name = "半人马技能鱼雷机Lv8",
+		id = 67148,
+		dodge_limit = 0,
 		max_hp = 77,
 		hp_growth = 2943,
+		dodge = 1,
 		weapon_ID = {
 			67188
 		}
 	},
 	[67149] = {
-		id = 67149,
-		name = "半人马技能鱼雷机Lv9",
 		base = 67140,
+		name = "半人马技能鱼雷机Lv9",
+		id = 67149,
+		dodge_limit = 0,
 		max_hp = 82,
 		hp_growth = 3143,
+		dodge = 1,
 		weapon_ID = {
 			67189
 		}
 	},
 	[67150] = {
-		id = 67150,
-		name = "半人马技能鱼雷机Lv10",
 		base = 67140,
+		name = "半人马技能鱼雷机Lv10",
+		id = 67150,
+		dodge_limit = 0,
 		max_hp = 87,
 		hp_growth = 3344,
+		dodge = 1,
 		weapon_ID = {
 			67190
 		}
@@ -15840,8 +17197,10 @@ pg.aircraft_template = {
 		model_ID = "jianyu",
 		ACC_growth = 0,
 		crash_DMG = 306,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "jianyu",
 		funnel_behavior = "",
@@ -15896,105 +17255,130 @@ pg.aircraft_template = {
 				0.52,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
 	[67161] = {
-		id = 67161,
-		name = "半人马技能鱼雷机Lv1",
 		base = 67160,
+		name = "半人马技能鱼雷机Lv1",
+		id = 67161,
+		dodge_limit = 0,
 		max_hp = 40,
 		hp_growth = 1538,
+		dodge = 1,
 		weapon_ID = {
 			67201
 		}
 	},
 	[67162] = {
-		id = 67162,
-		name = "半人马技能鱼雷机Lv2",
 		base = 67160,
+		name = "半人马技能鱼雷机Lv2",
+		id = 67162,
+		dodge_limit = 0,
 		max_hp = 45,
 		hp_growth = 1739,
+		dodge = 1,
 		weapon_ID = {
 			67202
 		}
 	},
 	[67163] = {
-		id = 67163,
-		name = "半人马技能鱼雷机Lv3",
 		base = 67160,
+		name = "半人马技能鱼雷机Lv3",
+		id = 67163,
+		dodge_limit = 0,
 		max_hp = 50,
 		hp_growth = 1940,
+		dodge = 1,
 		weapon_ID = {
 			67203
 		}
 	},
 	[67164] = {
-		id = 67164,
-		name = "半人马技能鱼雷机Lv4",
 		base = 67160,
+		name = "半人马技能鱼雷机Lv4",
+		id = 67164,
+		dodge_limit = 0,
 		max_hp = 56,
 		hp_growth = 2140,
+		dodge = 1,
 		weapon_ID = {
 			67204
 		}
 	},
 	[67165] = {
-		id = 67165,
-		name = "半人马技能鱼雷机Lv5",
 		base = 67160,
+		name = "半人马技能鱼雷机Lv5",
+		id = 67165,
+		dodge_limit = 0,
 		max_hp = 61,
 		hp_growth = 2341,
+		dodge = 1,
 		weapon_ID = {
 			67205
 		}
 	},
 	[67166] = {
-		id = 67166,
-		name = "半人马技能鱼雷机Lv6",
 		base = 67160,
+		name = "半人马技能鱼雷机Lv6",
+		id = 67166,
+		dodge_limit = 0,
 		max_hp = 66,
 		hp_growth = 2541,
+		dodge = 1,
 		weapon_ID = {
 			67206
 		}
 	},
 	[67167] = {
-		id = 67167,
-		name = "半人马技能鱼雷机Lv7",
 		base = 67160,
+		name = "半人马技能鱼雷机Lv7",
+		id = 67167,
+		dodge_limit = 0,
 		max_hp = 71,
 		hp_growth = 2742,
+		dodge = 1,
 		weapon_ID = {
 			67207
 		}
 	},
 	[67168] = {
-		id = 67168,
-		name = "半人马技能鱼雷机Lv8",
 		base = 67160,
+		name = "半人马技能鱼雷机Lv8",
+		id = 67168,
+		dodge_limit = 0,
 		max_hp = 77,
 		hp_growth = 2943,
+		dodge = 1,
 		weapon_ID = {
 			67208
 		}
 	},
 	[67169] = {
-		id = 67169,
-		name = "半人马技能鱼雷机Lv9",
 		base = 67160,
+		name = "半人马技能鱼雷机Lv9",
+		id = 67169,
+		dodge_limit = 0,
 		max_hp = 82,
 		hp_growth = 3143,
+		dodge = 1,
 		weapon_ID = {
 			67209
 		}
 	},
 	[67170] = {
-		id = 67170,
-		name = "半人马技能鱼雷机Lv10",
 		base = 67160,
+		name = "半人马技能鱼雷机Lv10",
+		id = 67170,
+		dodge_limit = 0,
 		max_hp = 87,
 		hp_growth = 3344,
+		dodge = 1,
 		weapon_ID = {
 			67210
 		}
@@ -16006,8 +17390,10 @@ pg.aircraft_template = {
 		model_ID = "huixing",
 		ACC_growth = 0,
 		crash_DMG = 208,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "huixing",
 		funnel_behavior = "",
@@ -16063,114 +17449,139 @@ pg.aircraft_template = {
 				0.64,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
 	[67241] = {
-		id = 67241,
-		name = "伊势技能轰炸机Lv1",
 		base = 67240,
+		name = "伊势技能轰炸机Lv1",
+		id = 67241,
+		dodge_limit = 0,
 		max_hp = 48,
 		hp_growth = 1846,
+		dodge = 1,
 		weapon_ID = {
 			67261,
 			67281
 		}
 	},
 	[67242] = {
-		id = 67242,
-		name = "伊势技能轰炸机Lv2",
 		base = 67240,
+		name = "伊势技能轰炸机Lv2",
+		id = 67242,
+		dodge_limit = 0,
 		max_hp = 54,
 		hp_growth = 2087,
+		dodge = 1,
 		weapon_ID = {
 			67262,
 			67282
 		}
 	},
 	[67243] = {
-		id = 67243,
-		name = "伊势技能轰炸机Lv3",
 		base = 67240,
+		name = "伊势技能轰炸机Lv3",
+		id = 67243,
+		dodge_limit = 0,
 		max_hp = 61,
 		hp_growth = 2327,
+		dodge = 1,
 		weapon_ID = {
 			67263,
 			67283
 		}
 	},
 	[67244] = {
-		id = 67244,
-		name = "伊势技能轰炸机Lv4",
 		base = 67240,
+		name = "伊势技能轰炸机Lv4",
+		id = 67244,
+		dodge_limit = 0,
 		max_hp = 67,
 		hp_growth = 2568,
+		dodge = 1,
 		weapon_ID = {
 			67264,
 			67284
 		}
 	},
 	[67245] = {
-		id = 67245,
-		name = "伊势技能轰炸机Lv5",
 		base = 67240,
+		name = "伊势技能轰炸机Lv5",
+		id = 67245,
+		dodge_limit = 0,
 		max_hp = 73,
 		hp_growth = 2809,
+		dodge = 1,
 		weapon_ID = {
 			67265,
 			67285
 		}
 	},
 	[67246] = {
-		id = 67246,
-		name = "伊势技能轰炸机Lv6",
 		base = 67240,
+		name = "伊势技能轰炸机Lv6",
+		id = 67246,
+		dodge_limit = 0,
 		max_hp = 79,
 		hp_growth = 3050,
+		dodge = 1,
 		weapon_ID = {
 			67266,
 			67286
 		}
 	},
 	[67247] = {
-		id = 67247,
-		name = "伊势技能轰炸机Lv7",
 		base = 67240,
+		name = "伊势技能轰炸机Lv7",
+		id = 67247,
+		dodge_limit = 0,
 		max_hp = 86,
 		hp_growth = 3290,
+		dodge = 1,
 		weapon_ID = {
 			67267,
 			67287
 		}
 	},
 	[67248] = {
-		id = 67248,
-		name = "伊势技能轰炸机Lv8",
 		base = 67240,
+		name = "伊势技能轰炸机Lv8",
+		id = 67248,
+		dodge_limit = 0,
 		max_hp = 92,
 		hp_growth = 3531,
+		dodge = 1,
 		weapon_ID = {
 			67268,
 			67288
 		}
 	},
 	[67249] = {
-		id = 67249,
-		name = "伊势技能轰炸机Lv9",
 		base = 67240,
+		name = "伊势技能轰炸机Lv9",
+		id = 67249,
+		dodge_limit = 0,
 		max_hp = 98,
 		hp_growth = 3772,
+		dodge = 1,
 		weapon_ID = {
 			67269,
 			67289
 		}
 	},
 	[67250] = {
-		id = 67250,
-		name = "伊势技能轰炸机Lv10",
 		base = 67240,
+		name = "伊势技能轰炸机Lv10",
+		id = 67250,
+		dodge_limit = 0,
 		max_hp = 104,
 		hp_growth = 4013,
+		dodge = 1,
 		weapon_ID = {
 			67270,
 			67290
@@ -16183,8 +17594,10 @@ pg.aircraft_template = {
 		model_ID = "huixing",
 		ACC_growth = 0,
 		crash_DMG = 208,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "huixing",
 		funnel_behavior = "",
@@ -16239,105 +17652,130 @@ pg.aircraft_template = {
 				0.64,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
 	[67301] = {
-		id = 67301,
-		name = "大凤技能轰炸机Lv1",
 		base = 67300,
+		name = "大凤技能轰炸机Lv1",
+		id = 67301,
+		dodge_limit = 0,
 		max_hp = 48,
 		hp_growth = 1846,
+		dodge = 1,
 		weapon_ID = {
 			67381
 		}
 	},
 	[67302] = {
-		id = 67302,
-		name = "大凤技能轰炸机Lv2",
 		base = 67300,
+		name = "大凤技能轰炸机Lv2",
+		id = 67302,
+		dodge_limit = 0,
 		max_hp = 54,
 		hp_growth = 2087,
+		dodge = 1,
 		weapon_ID = {
 			67382
 		}
 	},
 	[67303] = {
-		id = 67303,
-		name = "大凤技能轰炸机Lv3",
 		base = 67300,
+		name = "大凤技能轰炸机Lv3",
+		id = 67303,
+		dodge_limit = 0,
 		max_hp = 61,
 		hp_growth = 2327,
+		dodge = 1,
 		weapon_ID = {
 			67383
 		}
 	},
 	[67304] = {
-		id = 67304,
-		name = "大凤技能轰炸机Lv4",
 		base = 67300,
+		name = "大凤技能轰炸机Lv4",
+		id = 67304,
+		dodge_limit = 0,
 		max_hp = 67,
 		hp_growth = 2568,
+		dodge = 1,
 		weapon_ID = {
 			67384
 		}
 	},
 	[67305] = {
-		id = 67305,
-		name = "大凤技能轰炸机Lv5",
 		base = 67300,
+		name = "大凤技能轰炸机Lv5",
+		id = 67305,
+		dodge_limit = 0,
 		max_hp = 73,
 		hp_growth = 2809,
+		dodge = 1,
 		weapon_ID = {
 			67385
 		}
 	},
 	[67306] = {
-		id = 67306,
-		name = "大凤技能轰炸机Lv6",
 		base = 67300,
+		name = "大凤技能轰炸机Lv6",
+		id = 67306,
+		dodge_limit = 0,
 		max_hp = 79,
 		hp_growth = 3050,
+		dodge = 1,
 		weapon_ID = {
 			67386
 		}
 	},
 	[67307] = {
-		id = 67307,
-		name = "大凤技能轰炸机Lv7",
 		base = 67300,
+		name = "大凤技能轰炸机Lv7",
+		id = 67307,
+		dodge_limit = 0,
 		max_hp = 86,
 		hp_growth = 3290,
+		dodge = 1,
 		weapon_ID = {
 			67387
 		}
 	},
 	[67308] = {
-		id = 67308,
-		name = "大凤技能轰炸机Lv8",
 		base = 67300,
+		name = "大凤技能轰炸机Lv8",
+		id = 67308,
+		dodge_limit = 0,
 		max_hp = 92,
 		hp_growth = 3531,
+		dodge = 1,
 		weapon_ID = {
 			67388
 		}
 	},
 	[67309] = {
-		id = 67309,
-		name = "大凤技能轰炸机Lv9",
 		base = 67300,
+		name = "大凤技能轰炸机Lv9",
+		id = 67309,
+		dodge_limit = 0,
 		max_hp = 98,
 		hp_growth = 3772,
+		dodge = 1,
 		weapon_ID = {
 			67389
 		}
 	},
 	[67310] = {
-		id = 67310,
-		name = "大凤技能轰炸机Lv10",
 		base = 67300,
+		name = "大凤技能轰炸机Lv10",
+		id = 67310,
+		dodge_limit = 0,
 		max_hp = 104,
 		hp_growth = 4013,
+		dodge = 1,
 		weapon_ID = {
 			67390
 		}
@@ -16349,8 +17787,10 @@ pg.aircraft_template = {
 		model_ID = "liuxing",
 		ACC_growth = 0,
 		crash_DMG = 188,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "liuxing",
 		funnel_behavior = "",
@@ -16405,105 +17845,130 @@ pg.aircraft_template = {
 				0.26,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
 	[67321] = {
-		id = 67321,
-		name = "大凤技能鱼雷机Lv1",
 		base = 67320,
+		name = "大凤技能鱼雷机Lv1",
+		id = 67321,
+		dodge_limit = 0,
 		max_hp = 48,
 		hp_growth = 1846,
+		dodge = 1,
 		weapon_ID = {
 			67401
 		}
 	},
 	[67322] = {
-		id = 67322,
-		name = "大凤技能鱼雷机Lv2",
 		base = 67320,
+		name = "大凤技能鱼雷机Lv2",
+		id = 67322,
+		dodge_limit = 0,
 		max_hp = 54,
 		hp_growth = 2087,
+		dodge = 1,
 		weapon_ID = {
 			67402
 		}
 	},
 	[67323] = {
-		id = 67323,
-		name = "大凤技能鱼雷机Lv3",
 		base = 67320,
+		name = "大凤技能鱼雷机Lv3",
+		id = 67323,
+		dodge_limit = 0,
 		max_hp = 61,
 		hp_growth = 2327,
+		dodge = 1,
 		weapon_ID = {
 			67403
 		}
 	},
 	[67324] = {
-		id = 67324,
-		name = "大凤技能鱼雷机Lv4",
 		base = 67320,
+		name = "大凤技能鱼雷机Lv4",
+		id = 67324,
+		dodge_limit = 0,
 		max_hp = 67,
 		hp_growth = 2568,
+		dodge = 1,
 		weapon_ID = {
 			67404
 		}
 	},
 	[67325] = {
-		id = 67325,
-		name = "大凤技能鱼雷机Lv5",
 		base = 67320,
+		name = "大凤技能鱼雷机Lv5",
+		id = 67325,
+		dodge_limit = 0,
 		max_hp = 73,
 		hp_growth = 2809,
+		dodge = 1,
 		weapon_ID = {
 			67405
 		}
 	},
 	[67326] = {
-		id = 67326,
-		name = "大凤技能鱼雷机Lv6",
 		base = 67320,
+		name = "大凤技能鱼雷机Lv6",
+		id = 67326,
+		dodge_limit = 0,
 		max_hp = 79,
 		hp_growth = 3050,
+		dodge = 1,
 		weapon_ID = {
 			67406
 		}
 	},
 	[67327] = {
-		id = 67327,
-		name = "大凤技能鱼雷机Lv7",
 		base = 67320,
+		name = "大凤技能鱼雷机Lv7",
+		id = 67327,
+		dodge_limit = 0,
 		max_hp = 86,
 		hp_growth = 3290,
+		dodge = 1,
 		weapon_ID = {
 			67407
 		}
 	},
 	[67328] = {
-		id = 67328,
-		name = "大凤技能鱼雷机Lv8",
 		base = 67320,
+		name = "大凤技能鱼雷机Lv8",
+		id = 67328,
+		dodge_limit = 0,
 		max_hp = 92,
 		hp_growth = 3531,
+		dodge = 1,
 		weapon_ID = {
 			67408
 		}
 	},
 	[67329] = {
-		id = 67329,
-		name = "大凤技能鱼雷机Lv9",
 		base = 67320,
+		name = "大凤技能鱼雷机Lv9",
+		id = 67329,
+		dodge_limit = 0,
 		max_hp = 98,
 		hp_growth = 3772,
+		dodge = 1,
 		weapon_ID = {
 			67409
 		}
 	},
 	[67330] = {
-		id = 67330,
-		name = "大凤技能鱼雷机Lv10",
 		base = 67320,
+		name = "大凤技能鱼雷机Lv10",
+		id = 67330,
+		dodge_limit = 0,
 		max_hp = 104,
 		hp_growth = 4013,
+		dodge = 1,
 		weapon_ID = {
 			67410
 		}
@@ -16515,8 +17980,10 @@ pg.aircraft_template = {
 		model_ID = "tbf",
 		ACC_growth = 0,
 		crash_DMG = 406,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "tbf",
 		funnel_behavior = "",
@@ -16571,105 +18038,130 @@ pg.aircraft_template = {
 				0.15,
 				-0.08,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
 	[67341] = {
-		id = 67341,
-		name = "埃塞克斯技能鱼雷机Lv1",
 		base = 67340,
+		name = "埃塞克斯技能鱼雷机Lv1",
+		id = 67341,
+		dodge_limit = 0,
 		max_hp = 42,
 		hp_growth = 1615,
+		dodge = 1,
 		weapon_ID = {
 			67441
 		}
 	},
 	[67342] = {
-		id = 67342,
-		name = "埃塞克斯技能鱼雷机Lv2",
 		base = 67340,
+		name = "埃塞克斯技能鱼雷机Lv2",
+		id = 67342,
+		dodge_limit = 0,
 		max_hp = 47,
 		hp_growth = 1826,
+		dodge = 1,
 		weapon_ID = {
 			67442
 		}
 	},
 	[67343] = {
-		id = 67343,
-		name = "埃塞克斯技能鱼雷机Lv3",
 		base = 67340,
+		name = "埃塞克斯技能鱼雷机Lv3",
+		id = 67343,
+		dodge_limit = 0,
 		max_hp = 53,
 		hp_growth = 2036,
+		dodge = 1,
 		weapon_ID = {
 			67443
 		}
 	},
 	[67344] = {
-		id = 67344,
-		name = "埃塞克斯技能鱼雷机Lv4",
 		base = 67340,
+		name = "埃塞克斯技能鱼雷机Lv4",
+		id = 67344,
+		dodge_limit = 0,
 		max_hp = 58,
 		hp_growth = 2247,
+		dodge = 1,
 		weapon_ID = {
 			67444
 		}
 	},
 	[67345] = {
-		id = 67345,
-		name = "埃塞克斯技能鱼雷机Lv5",
 		base = 67340,
+		name = "埃塞克斯技能鱼雷机Lv5",
+		id = 67345,
+		dodge_limit = 0,
 		max_hp = 64,
 		hp_growth = 2458,
+		dodge = 1,
 		weapon_ID = {
 			67445
 		}
 	},
 	[67346] = {
-		id = 67346,
-		name = "埃塞克斯技能鱼雷机Lv6",
 		base = 67340,
+		name = "埃塞克斯技能鱼雷机Lv6",
+		id = 67346,
+		dodge_limit = 0,
 		max_hp = 69,
 		hp_growth = 2669,
+		dodge = 1,
 		weapon_ID = {
 			67446
 		}
 	},
 	[67347] = {
-		id = 67347,
-		name = "埃塞克斯技能鱼雷机Lv7",
 		base = 67340,
+		name = "埃塞克斯技能鱼雷机Lv7",
+		id = 67347,
+		dodge_limit = 0,
 		max_hp = 75,
 		hp_growth = 2879,
+		dodge = 1,
 		weapon_ID = {
 			67447
 		}
 	},
 	[67348] = {
-		id = 67348,
-		name = "埃塞克斯技能鱼雷机Lv8",
 		base = 67340,
+		name = "埃塞克斯技能鱼雷机Lv8",
+		id = 67348,
+		dodge_limit = 0,
 		max_hp = 80,
 		hp_growth = 3090,
+		dodge = 1,
 		weapon_ID = {
 			67448
 		}
 	},
 	[67349] = {
-		id = 67349,
-		name = "埃塞克斯技能鱼雷机Lv9",
 		base = 67340,
+		name = "埃塞克斯技能鱼雷机Lv9",
+		id = 67349,
+		dodge_limit = 0,
 		max_hp = 86,
 		hp_growth = 3301,
+		dodge = 1,
 		weapon_ID = {
 			67449
 		}
 	},
 	[67350] = {
-		id = 67350,
-		name = "埃塞克斯技能鱼雷机Lv10",
 		base = 67340,
+		name = "埃塞克斯技能鱼雷机Lv10",
+		id = 67350,
+		dodge_limit = 0,
 		max_hp = 91,
 		hp_growth = 3511,
+		dodge = 1,
 		weapon_ID = {
 			67450
 		}
@@ -16681,8 +18173,10 @@ pg.aircraft_template = {
 		model_ID = "huixing",
 		ACC_growth = 0,
 		crash_DMG = 208,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "huixing",
 		funnel_behavior = "",
@@ -16735,87 +18229,112 @@ pg.aircraft_template = {
 				0.64,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
 	[67361] = {
-		id = 67361,
-		name = "大凤技能轰炸机Lv1",
 		base = 67360,
+		name = "大凤技能轰炸机Lv1",
+		id = 67361,
+		dodge_limit = 0,
 		max_hp = 48,
 		hp_growth = 1846,
+		dodge = 1,
 		weapon_ID = {}
 	},
 	[67362] = {
-		id = 67362,
-		name = "大凤技能轰炸机Lv2",
 		base = 67360,
+		name = "大凤技能轰炸机Lv2",
+		id = 67362,
+		dodge_limit = 0,
 		max_hp = 54,
 		hp_growth = 2087,
+		dodge = 1,
 		weapon_ID = {}
 	},
 	[67363] = {
-		id = 67363,
-		name = "大凤技能轰炸机Lv3",
 		base = 67360,
+		name = "大凤技能轰炸机Lv3",
+		id = 67363,
+		dodge_limit = 0,
 		max_hp = 61,
 		hp_growth = 2327,
+		dodge = 1,
 		weapon_ID = {}
 	},
 	[67364] = {
-		id = 67364,
-		name = "大凤技能轰炸机Lv4",
 		base = 67360,
+		name = "大凤技能轰炸机Lv4",
+		id = 67364,
+		dodge_limit = 0,
 		max_hp = 67,
 		hp_growth = 2568,
+		dodge = 1,
 		weapon_ID = {}
 	},
 	[67365] = {
-		id = 67365,
-		name = "大凤技能轰炸机Lv5",
 		base = 67360,
+		name = "大凤技能轰炸机Lv5",
+		id = 67365,
+		dodge_limit = 0,
 		max_hp = 73,
 		hp_growth = 2809,
+		dodge = 1,
 		weapon_ID = {}
 	},
 	[67366] = {
-		id = 67366,
-		name = "大凤技能轰炸机Lv6",
 		base = 67360,
+		name = "大凤技能轰炸机Lv6",
+		id = 67366,
+		dodge_limit = 0,
 		max_hp = 79,
 		hp_growth = 3050,
+		dodge = 1,
 		weapon_ID = {}
 	},
 	[67367] = {
-		id = 67367,
-		name = "大凤技能轰炸机Lv7",
 		base = 67360,
+		name = "大凤技能轰炸机Lv7",
+		id = 67367,
+		dodge_limit = 0,
 		max_hp = 86,
 		hp_growth = 3290,
+		dodge = 1,
 		weapon_ID = {}
 	},
 	[67368] = {
-		id = 67368,
-		name = "大凤技能轰炸机Lv8",
 		base = 67360,
+		name = "大凤技能轰炸机Lv8",
+		id = 67368,
+		dodge_limit = 0,
 		max_hp = 92,
 		hp_growth = 3531,
+		dodge = 1,
 		weapon_ID = {}
 	},
 	[67369] = {
-		id = 67369,
-		name = "大凤技能轰炸机Lv9",
 		base = 67360,
+		name = "大凤技能轰炸机Lv9",
+		id = 67369,
+		dodge_limit = 0,
 		max_hp = 98,
 		hp_growth = 3772,
+		dodge = 1,
 		weapon_ID = {}
 	},
 	[67370] = {
-		id = 67370,
-		name = "大凤技能轰炸机Lv10",
 		base = 67360,
+		name = "大凤技能轰炸机Lv10",
+		id = 67370,
+		dodge_limit = 0,
 		max_hp = 104,
 		hp_growth = 4013,
+		dodge = 1,
 		weapon_ID = {}
 	},
 	[67500] = {
@@ -16825,8 +18344,10 @@ pg.aircraft_template = {
 		model_ID = "sbdwuwei",
 		ACC_growth = 0,
 		crash_DMG = 156,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "sbdwuwei",
 		funnel_behavior = "",
@@ -16882,104 +18403,129 @@ pg.aircraft_template = {
 				0.72,
 				-0.15,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
 	[67501] = {
-		id = 67501,
 		base = 67500,
+		id = 67501,
+		dodge_limit = 0,
 		max_hp = 35,
 		hp_growth = 1345,
+		dodge = 1,
 		weapon_ID = {
 			67521,
 			67541
 		}
 	},
 	[67502] = {
-		id = 67502,
 		base = 67500,
+		id = 67502,
+		dodge_limit = 0,
 		max_hp = 39,
 		hp_growth = 1507,
+		dodge = 1,
 		weapon_ID = {
 			67522,
 			67542
 		}
 	},
 	[67503] = {
-		id = 67503,
 		base = 67500,
+		id = 67503,
+		dodge_limit = 0,
 		max_hp = 43,
 		hp_growth = 1669,
+		dodge = 1,
 		weapon_ID = {
 			67523,
 			67543
 		}
 	},
 	[67504] = {
-		id = 67504,
 		base = 67500,
+		id = 67504,
+		dodge_limit = 0,
 		max_hp = 47,
 		hp_growth = 1831,
+		dodge = 1,
 		weapon_ID = {
 			67524,
 			67544
 		}
 	},
 	[67505] = {
-		id = 67505,
 		base = 67500,
+		id = 67505,
+		dodge_limit = 0,
 		max_hp = 51,
 		hp_growth = 1994,
+		dodge = 1,
 		weapon_ID = {
 			67525,
 			67545
 		}
 	},
 	[67506] = {
-		id = 67506,
 		base = 67500,
+		id = 67506,
+		dodge_limit = 0,
 		max_hp = 55,
 		hp_growth = 2157,
+		dodge = 1,
 		weapon_ID = {
 			67526,
 			67546
 		}
 	},
 	[67507] = {
-		id = 67507,
 		base = 67500,
+		id = 67507,
+		dodge_limit = 0,
 		max_hp = 59,
 		hp_growth = 2320,
+		dodge = 1,
 		weapon_ID = {
 			67527,
 			67547
 		}
 	},
 	[67508] = {
-		id = 67508,
 		base = 67500,
+		id = 67508,
+		dodge_limit = 0,
 		max_hp = 63,
 		hp_growth = 2483,
+		dodge = 1,
 		weapon_ID = {
 			67528,
 			67548
 		}
 	},
 	[67509] = {
-		id = 67509,
 		base = 67500,
+		id = 67509,
+		dodge_limit = 0,
 		max_hp = 68,
 		hp_growth = 2646,
+		dodge = 1,
 		weapon_ID = {
 			67529,
 			67549
 		}
 	},
 	[67510] = {
-		id = 67510,
 		base = 67500,
+		id = 67510,
+		dodge_limit = 0,
 		max_hp = 73,
 		hp_growth = 2809,
+		dodge = 1,
 		weapon_ID = {
 			67530,
 			67550
@@ -16992,8 +18538,10 @@ pg.aircraft_template = {
 		model_ID = "huixing",
 		ACC_growth = 0,
 		crash_DMG = 208,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "huixing",
 		funnel_behavior = "",
@@ -17049,103 +18597,126 @@ pg.aircraft_template = {
 				0.64,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
 	[67682] = {
-		id = 67682,
-		name = "龙骧技能轰炸机Lv2",
 		base = 67681,
+		name = "龙骧技能轰炸机Lv2",
+		id = 67682,
+		dodge_limit = 0,
 		max_hp = 48,
 		hp_growth = 2087,
+		dodge = 1,
 		weapon_ID = {
 			67692,
 			67702
 		}
 	},
 	[67683] = {
-		id = 67683,
-		name = "龙骧技能轰炸机Lv3",
 		base = 67681,
+		name = "龙骧技能轰炸机Lv3",
+		id = 67683,
+		dodge_limit = 0,
 		max_hp = 54,
 		hp_growth = 2327,
+		dodge = 1,
 		weapon_ID = {
 			67693,
 			67703
 		}
 	},
 	[67684] = {
-		id = 67684,
-		name = "龙骧技能轰炸机Lv4",
 		base = 67681,
+		name = "龙骧技能轰炸机Lv4",
+		id = 67684,
+		dodge_limit = 0,
 		max_hp = 61,
 		hp_growth = 2568,
+		dodge = 1,
 		weapon_ID = {
 			67694,
 			67704
 		}
 	},
 	[67685] = {
-		id = 67685,
-		name = "龙骧技能轰炸机Lv5",
 		base = 67681,
+		name = "龙骧技能轰炸机Lv5",
+		id = 67685,
+		dodge_limit = 0,
 		max_hp = 67,
 		hp_growth = 2809,
+		dodge = 1,
 		weapon_ID = {
 			67695,
 			67705
 		}
 	},
 	[67686] = {
-		id = 67686,
-		name = "龙骧技能轰炸机Lv6",
 		base = 67681,
+		name = "龙骧技能轰炸机Lv6",
+		id = 67686,
+		dodge_limit = 0,
 		max_hp = 73,
 		hp_growth = 3050,
+		dodge = 1,
 		weapon_ID = {
 			67696,
 			67706
 		}
 	},
 	[67687] = {
-		id = 67687,
-		name = "龙骧技能轰炸机Lv7",
 		base = 67681,
+		name = "龙骧技能轰炸机Lv7",
+		id = 67687,
+		dodge_limit = 0,
 		max_hp = 79,
 		hp_growth = 3290,
+		dodge = 1,
 		weapon_ID = {
 			67697,
 			67707
 		}
 	},
 	[67688] = {
-		id = 67688,
-		name = "龙骧技能轰炸机Lv8",
 		base = 67681,
+		name = "龙骧技能轰炸机Lv8",
+		id = 67688,
+		dodge_limit = 0,
 		max_hp = 86,
 		hp_growth = 3531,
+		dodge = 1,
 		weapon_ID = {
 			67698,
 			67708
 		}
 	},
 	[67689] = {
-		id = 67689,
-		name = "龙骧技能轰炸机Lv9",
 		base = 67681,
+		name = "龙骧技能轰炸机Lv9",
+		id = 67689,
+		dodge_limit = 0,
 		max_hp = 92,
 		hp_growth = 3772,
+		dodge = 1,
 		weapon_ID = {
 			67699,
 			67709
 		}
 	},
 	[67690] = {
-		id = 67690,
-		name = "龙骧技能轰炸机Lv10",
 		base = 67681,
+		name = "龙骧技能轰炸机Lv10",
+		id = 67690,
+		dodge_limit = 0,
 		max_hp = 98,
 		hp_growth = 4013,
+		dodge = 1,
 		weapon_ID = {
 			67700,
 			67710
@@ -17158,8 +18729,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
 		crash_DMG = 180,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -17215,103 +18788,126 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
 	[67782] = {
-		id = 67782,
-		name = "双龙改轰炸5 Lv2",
 		base = 67781,
+		name = "双龙改轰炸5 Lv2",
+		id = 67782,
+		dodge_limit = 0,
 		max_hp = 48,
 		hp_growth = 1913,
+		dodge = 1,
 		weapon_ID = {
 			67802,
 			67812
 		}
 	},
 	[67783] = {
-		id = 67783,
-		name = "双龙改轰炸5 Lv3",
 		base = 67781,
+		name = "双龙改轰炸5 Lv3",
+		id = 67783,
+		dodge_limit = 0,
 		max_hp = 54,
 		hp_growth = 2133,
+		dodge = 1,
 		weapon_ID = {
 			67803,
 			67813
 		}
 	},
 	[67784] = {
-		id = 67784,
-		name = "双龙改轰炸5 Lv4",
 		base = 67781,
+		name = "双龙改轰炸5 Lv4",
+		id = 67784,
+		dodge_limit = 0,
 		max_hp = 61,
 		hp_growth = 2354,
+		dodge = 1,
 		weapon_ID = {
 			67804,
 			67814
 		}
 	},
 	[67785] = {
-		id = 67785,
-		name = "双龙改轰炸5 Lv5",
 		base = 67781,
+		name = "双龙改轰炸5 Lv5",
+		id = 67785,
+		dodge_limit = 0,
 		max_hp = 67,
 		hp_growth = 2575,
+		dodge = 1,
 		weapon_ID = {
 			67805,
 			67815
 		}
 	},
 	[67786] = {
-		id = 67786,
-		name = "双龙改轰炸5 Lv6",
 		base = 67781,
+		name = "双龙改轰炸5 Lv6",
+		id = 67786,
+		dodge_limit = 0,
 		max_hp = 73,
 		hp_growth = 2796,
+		dodge = 1,
 		weapon_ID = {
 			67806,
 			67816
 		}
 	},
 	[67787] = {
-		id = 67787,
-		name = "双龙改轰炸5 Lv7",
 		base = 67781,
+		name = "双龙改轰炸5 Lv7",
+		id = 67787,
+		dodge_limit = 0,
 		max_hp = 79,
 		hp_growth = 3016,
+		dodge = 1,
 		weapon_ID = {
 			67807,
 			67817
 		}
 	},
 	[67788] = {
-		id = 67788,
-		name = "双龙改轰炸5 Lv8",
 		base = 67781,
+		name = "双龙改轰炸5 Lv8",
+		id = 67788,
+		dodge_limit = 0,
 		max_hp = 86,
 		hp_growth = 3237,
+		dodge = 1,
 		weapon_ID = {
 			67808,
 			67818
 		}
 	},
 	[67789] = {
-		id = 67789,
-		name = "双龙改轰炸5 Lv9",
 		base = 67781,
+		name = "双龙改轰炸5 Lv9",
+		id = 67789,
+		dodge_limit = 0,
 		max_hp = 92,
 		hp_growth = 3458,
+		dodge = 1,
 		weapon_ID = {
 			67809,
 			67819
 		}
 	},
 	[67790] = {
-		id = 67790,
-		name = "双龙改轰炸5 Lv10",
 		base = 67781,
+		name = "双龙改轰炸5 Lv10",
+		id = 67790,
+		dodge_limit = 0,
 		max_hp = 98,
 		hp_growth = 3678,
+		dodge = 1,
 		weapon_ID = {
 			67810,
 			67820
@@ -17324,8 +18920,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 208,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -17380,95 +18978,118 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
 	[67792] = {
-		id = 67792,
-		name = "双龙改雷1 Lv2",
 		base = 67791,
+		name = "双龙改雷1 Lv2",
+		id = 67792,
+		dodge_limit = 0,
 		max_hp = 48,
 		hp_growth = 1913,
+		dodge = 1,
 		weapon_ID = {
 			67822
 		}
 	},
 	[67793] = {
-		id = 67793,
-		name = "双龙改雷1 Lv3",
 		base = 67791,
+		name = "双龙改雷1 Lv3",
+		id = 67793,
+		dodge_limit = 0,
 		max_hp = 54,
 		hp_growth = 2133,
+		dodge = 1,
 		weapon_ID = {
 			67823
 		}
 	},
 	[67794] = {
-		id = 67794,
-		name = "双龙改雷1 Lv4",
 		base = 67791,
+		name = "双龙改雷1 Lv4",
+		id = 67794,
+		dodge_limit = 0,
 		max_hp = 61,
 		hp_growth = 2354,
+		dodge = 1,
 		weapon_ID = {
 			67824
 		}
 	},
 	[67795] = {
-		id = 67795,
-		name = "双龙改雷1 Lv5",
 		base = 67791,
+		name = "双龙改雷1 Lv5",
+		id = 67795,
+		dodge_limit = 0,
 		max_hp = 67,
 		hp_growth = 2575,
+		dodge = 1,
 		weapon_ID = {
 			67825
 		}
 	},
 	[67796] = {
-		id = 67796,
-		name = "双龙改雷1 Lv6",
 		base = 67791,
+		name = "双龙改雷1 Lv6",
+		id = 67796,
+		dodge_limit = 0,
 		max_hp = 73,
 		hp_growth = 2796,
+		dodge = 1,
 		weapon_ID = {
 			67826
 		}
 	},
 	[67797] = {
-		id = 67797,
-		name = "双龙改雷1 Lv7",
 		base = 67791,
+		name = "双龙改雷1 Lv7",
+		id = 67797,
+		dodge_limit = 0,
 		max_hp = 79,
 		hp_growth = 3016,
+		dodge = 1,
 		weapon_ID = {
 			67827
 		}
 	},
 	[67798] = {
-		id = 67798,
-		name = "双龙改雷1 Lv8",
 		base = 67791,
+		name = "双龙改雷1 Lv8",
+		id = 67798,
+		dodge_limit = 0,
 		max_hp = 86,
 		hp_growth = 3237,
+		dodge = 1,
 		weapon_ID = {
 			67828
 		}
 	},
 	[67799] = {
-		id = 67799,
-		name = "双龙改雷1 Lv9",
 		base = 67791,
+		name = "双龙改雷1 Lv9",
+		id = 67799,
+		dodge_limit = 0,
 		max_hp = 92,
 		hp_growth = 3458,
+		dodge = 1,
 		weapon_ID = {
 			67829
 		}
 	},
 	[67800] = {
-		id = 67800,
-		name = "双龙改雷1 Lv10",
 		base = 67791,
+		name = "双龙改雷1 Lv10",
+		id = 67800,
+		dodge_limit = 0,
 		max_hp = 98,
 		hp_growth = 3678,
+		dodge = 1,
 		weapon_ID = {
 			67830
 		}
@@ -17480,8 +19101,10 @@ pg.aircraft_template = {
 		model_ID = "jianyu816",
 		ACC_growth = 0,
 		crash_DMG = 102,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "jianyu816",
 		funnel_behavior = "",
@@ -17537,103 +19160,126 @@ pg.aircraft_template = {
 				0.52,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
 	[67892] = {
-		id = 67892,
-		name = "追赶者剑鱼 Lv2",
 		base = 67891,
+		name = "追赶者剑鱼 Lv2",
+		id = 67892,
+		dodge_limit = 0,
 		max_hp = 45,
 		hp_growth = 1739,
+		dodge = 1,
 		weapon_ID = {
 			67902,
 			67912
 		}
 	},
 	[67893] = {
-		id = 67893,
-		name = "追赶者剑鱼 Lv3",
 		base = 67891,
+		name = "追赶者剑鱼 Lv3",
+		id = 67893,
+		dodge_limit = 0,
 		max_hp = 50,
 		hp_growth = 1940,
+		dodge = 1,
 		weapon_ID = {
 			67903,
 			67913
 		}
 	},
 	[67894] = {
-		id = 67894,
-		name = "追赶者剑鱼 Lv4",
 		base = 67891,
+		name = "追赶者剑鱼 Lv4",
+		id = 67894,
+		dodge_limit = 0,
 		max_hp = 56,
 		hp_growth = 2140,
+		dodge = 1,
 		weapon_ID = {
 			67904,
 			67914
 		}
 	},
 	[67895] = {
-		id = 67895,
-		name = "追赶者剑鱼 Lv5",
 		base = 67891,
+		name = "追赶者剑鱼 Lv5",
+		id = 67895,
+		dodge_limit = 0,
 		max_hp = 61,
 		hp_growth = 2341,
+		dodge = 1,
 		weapon_ID = {
 			67905,
 			67915
 		}
 	},
 	[67896] = {
-		id = 67896,
-		name = "追赶者剑鱼 Lv6",
 		base = 67891,
+		name = "追赶者剑鱼 Lv6",
+		id = 67896,
+		dodge_limit = 0,
 		max_hp = 66,
 		hp_growth = 2541,
+		dodge = 1,
 		weapon_ID = {
 			67906,
 			67916
 		}
 	},
 	[67897] = {
-		id = 67897,
-		name = "追赶者剑鱼 Lv7",
 		base = 67891,
+		name = "追赶者剑鱼 Lv7",
+		id = 67897,
+		dodge_limit = 0,
 		max_hp = 71,
 		hp_growth = 2742,
+		dodge = 1,
 		weapon_ID = {
 			67907,
 			67917
 		}
 	},
 	[67898] = {
-		id = 67898,
-		name = "追赶者剑鱼 Lv8",
 		base = 67891,
+		name = "追赶者剑鱼 Lv8",
+		id = 67898,
+		dodge_limit = 0,
 		max_hp = 77,
 		hp_growth = 2943,
+		dodge = 1,
 		weapon_ID = {
 			67908,
 			67918
 		}
 	},
 	[67899] = {
-		id = 67899,
-		name = "追赶者剑鱼 Lv9",
 		base = 67891,
+		name = "追赶者剑鱼 Lv9",
+		id = 67899,
+		dodge_limit = 0,
 		max_hp = 82,
 		hp_growth = 3143,
+		dodge = 1,
 		weapon_ID = {
 			67909,
 			67919
 		}
 	},
 	[67900] = {
-		id = 67900,
-		name = "追赶者剑鱼 Lv10",
 		base = 67891,
+		name = "追赶者剑鱼 Lv10",
+		id = 67900,
+		dodge_limit = 0,
 		max_hp = 87,
 		hp_growth = 3344,
+		dodge = 1,
 		weapon_ID = {
 			67910,
 			67920
@@ -17646,8 +19292,10 @@ pg.aircraft_template = {
 		model_ID = "tbf",
 		ACC_growth = 0,
 		crash_DMG = 406,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "tbf",
 		funnel_behavior = "",
@@ -17702,95 +19350,118 @@ pg.aircraft_template = {
 				0.52,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
 	[67922] = {
-		id = 67922,
-		name = "独立技能鱼雷机Lv2",
 		base = 67921,
+		name = "独立技能鱼雷机Lv2",
+		id = 67922,
+		dodge_limit = 0,
 		max_hp = 47,
 		hp_growth = 1826,
+		dodge = 1,
 		weapon_ID = {
 			67942
 		}
 	},
 	[67923] = {
-		id = 67923,
-		name = "独立技能鱼雷机Lv3",
 		base = 67921,
+		name = "独立技能鱼雷机Lv3",
+		id = 67923,
+		dodge_limit = 0,
 		max_hp = 53,
 		hp_growth = 2036,
+		dodge = 1,
 		weapon_ID = {
 			67943
 		}
 	},
 	[67924] = {
-		id = 67924,
-		name = "独立技能鱼雷机Lv4",
 		base = 67921,
+		name = "独立技能鱼雷机Lv4",
+		id = 67924,
+		dodge_limit = 0,
 		max_hp = 58,
 		hp_growth = 2247,
+		dodge = 1,
 		weapon_ID = {
 			67944
 		}
 	},
 	[67925] = {
-		id = 67925,
-		name = "独立技能鱼雷机Lv5",
 		base = 67921,
+		name = "独立技能鱼雷机Lv5",
+		id = 67925,
+		dodge_limit = 0,
 		max_hp = 64,
 		hp_growth = 2458,
+		dodge = 1,
 		weapon_ID = {
 			67945
 		}
 	},
 	[67926] = {
-		id = 67926,
-		name = "独立技能鱼雷机Lv6",
 		base = 67921,
+		name = "独立技能鱼雷机Lv6",
+		id = 67926,
+		dodge_limit = 0,
 		max_hp = 69,
 		hp_growth = 2669,
+		dodge = 1,
 		weapon_ID = {
 			67946
 		}
 	},
 	[67927] = {
-		id = 67927,
-		name = "独立技能鱼雷机Lv7",
 		base = 67921,
+		name = "独立技能鱼雷机Lv7",
+		id = 67927,
+		dodge_limit = 0,
 		max_hp = 75,
 		hp_growth = 2879,
+		dodge = 1,
 		weapon_ID = {
 			67947
 		}
 	},
 	[67928] = {
-		id = 67928,
-		name = "独立技能鱼雷机Lv8",
 		base = 67921,
+		name = "独立技能鱼雷机Lv8",
+		id = 67928,
+		dodge_limit = 0,
 		max_hp = 80,
 		hp_growth = 3090,
+		dodge = 1,
 		weapon_ID = {
 			67948
 		}
 	},
 	[67929] = {
-		id = 67929,
-		name = "独立技能鱼雷机Lv9",
 		base = 67921,
+		name = "独立技能鱼雷机Lv9",
+		id = 67929,
+		dodge_limit = 0,
 		max_hp = 86,
 		hp_growth = 3301,
+		dodge = 1,
 		weapon_ID = {
 			67949
 		}
 	},
 	[67930] = {
-		id = 67930,
-		name = "独立技能鱼雷机Lv10",
 		base = 67921,
+		name = "独立技能鱼雷机Lv10",
+		id = 67930,
+		dodge_limit = 0,
 		max_hp = 91,
 		hp_growth = 3511,
+		dodge = 1,
 		weapon_ID = {
 			67950
 		}
@@ -17802,8 +19473,10 @@ pg.aircraft_template = {
 		model_ID = "tbf",
 		ACC_growth = 0,
 		crash_DMG = 406,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "tbf",
 		funnel_behavior = "",
@@ -17858,95 +19531,118 @@ pg.aircraft_template = {
 				0.52,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
 	[67932] = {
-		id = 67932,
-		name = "独立技能鱼雷机Lv2",
 		base = 67931,
+		name = "独立技能鱼雷机Lv2",
+		id = 67932,
+		dodge_limit = 0,
 		max_hp = 47,
 		hp_growth = 1826,
+		dodge = 1,
 		weapon_ID = {
 			67952
 		}
 	},
 	[67933] = {
-		id = 67933,
-		name = "独立技能鱼雷机Lv3",
 		base = 67931,
+		name = "独立技能鱼雷机Lv3",
+		id = 67933,
+		dodge_limit = 0,
 		max_hp = 53,
 		hp_growth = 2036,
+		dodge = 1,
 		weapon_ID = {
 			67953
 		}
 	},
 	[67934] = {
-		id = 67934,
-		name = "独立技能鱼雷机Lv4",
 		base = 67931,
+		name = "独立技能鱼雷机Lv4",
+		id = 67934,
+		dodge_limit = 0,
 		max_hp = 58,
 		hp_growth = 2247,
+		dodge = 1,
 		weapon_ID = {
 			67954
 		}
 	},
 	[67935] = {
-		id = 67935,
-		name = "独立技能鱼雷机Lv5",
 		base = 67931,
+		name = "独立技能鱼雷机Lv5",
+		id = 67935,
+		dodge_limit = 0,
 		max_hp = 64,
 		hp_growth = 2458,
+		dodge = 1,
 		weapon_ID = {
 			67955
 		}
 	},
 	[67936] = {
-		id = 67936,
-		name = "独立技能鱼雷机Lv6",
 		base = 67931,
+		name = "独立技能鱼雷机Lv6",
+		id = 67936,
+		dodge_limit = 0,
 		max_hp = 69,
 		hp_growth = 2669,
+		dodge = 1,
 		weapon_ID = {
 			67956
 		}
 	},
 	[67937] = {
-		id = 67937,
-		name = "独立技能鱼雷机Lv7",
 		base = 67931,
+		name = "独立技能鱼雷机Lv7",
+		id = 67937,
+		dodge_limit = 0,
 		max_hp = 75,
 		hp_growth = 2879,
+		dodge = 1,
 		weapon_ID = {
 			67957
 		}
 	},
 	[67938] = {
-		id = 67938,
-		name = "独立技能鱼雷机Lv8",
 		base = 67931,
+		name = "独立技能鱼雷机Lv8",
+		id = 67938,
+		dodge_limit = 0,
 		max_hp = 80,
 		hp_growth = 3090,
+		dodge = 1,
 		weapon_ID = {
 			67958
 		}
 	},
 	[67939] = {
-		id = 67939,
-		name = "独立技能鱼雷机Lv9",
 		base = 67931,
+		name = "独立技能鱼雷机Lv9",
+		id = 67939,
+		dodge_limit = 0,
 		max_hp = 86,
 		hp_growth = 3301,
+		dodge = 1,
 		weapon_ID = {
 			67959
 		}
 	},
 	[67940] = {
-		id = 67940,
-		name = "独立技能鱼雷机Lv10",
 		base = 67931,
+		name = "独立技能鱼雷机Lv10",
+		id = 67940,
+		dodge_limit = 0,
 		max_hp = 91,
 		hp_growth = 3511,
+		dodge = 1,
 		weapon_ID = {
 			67960
 		}
@@ -17958,8 +19654,10 @@ pg.aircraft_template = {
 		model_ID = "F6F",
 		ACC_growth = 0,
 		crash_DMG = 406,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "F6F",
 		nationality = 1,
@@ -18016,6 +19714,11 @@ pg.aircraft_template = {
 				0.52,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -18026,11 +19729,13 @@ pg.aircraft_template = {
 		model_ID = "F6F",
 		ACC_growth = 0,
 		crash_DMG = 406,
-		max_hp = 69,
+		dodge = 1,
 		type = 1,
+		max_hp = 69,
+		dodge_limit = 0,
 		nationality = 1,
-		AP_growth = 2000,
 		icon = "F6F",
+		AP_growth = 2000,
 		base = 67981,
 		hp_growth = 2282,
 		speed = 48,
@@ -18085,7 +19790,575 @@ pg.aircraft_template = {
 				0.52,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
+		}
+	},
+	[68001] = {
+		name = "邦克山技能鱼雷机Lv1",
+		max_hp = 37,
+		accuracy = 23,
+		model_ID = "tbf",
+		ACC_growth = 0,
+		crash_DMG = 406,
+		dodge = 1,
+		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
+		AP_growth = 2000,
+		icon = "tbf",
+		funnel_behavior = "",
+		nationality = 1,
+		hp_growth = 1404,
+		speed = 48,
+		id = 68001,
+		weapon_ID = {
+			68011
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.68,
+					-0.667,
+					0
+				},
+				{
+					0.97,
+					0.584,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.15,
+				-0.08,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[68002] = {
+		base = 68001,
+		name = "邦克山技能鱼雷机Lv2",
+		id = 68002,
+		dodge_limit = 0,
+		max_hp = 42,
+		hp_growth = 1615,
+		dodge = 1,
+		weapon_ID = {
+			68012
+		}
+	},
+	[68003] = {
+		base = 68001,
+		name = "邦克山技能鱼雷机Lv3",
+		id = 68003,
+		dodge_limit = 0,
+		max_hp = 47,
+		hp_growth = 1826,
+		dodge = 1,
+		weapon_ID = {
+			68013
+		}
+	},
+	[68004] = {
+		base = 68001,
+		name = "邦克山技能鱼雷机Lv4",
+		id = 68004,
+		dodge_limit = 0,
+		max_hp = 53,
+		hp_growth = 2036,
+		dodge = 1,
+		weapon_ID = {
+			68014
+		}
+	},
+	[68005] = {
+		base = 68001,
+		name = "邦克山技能鱼雷机Lv5",
+		id = 68005,
+		dodge_limit = 0,
+		max_hp = 58,
+		hp_growth = 2247,
+		dodge = 1,
+		weapon_ID = {
+			68015
+		}
+	},
+	[68006] = {
+		base = 68001,
+		name = "邦克山技能鱼雷机Lv6",
+		id = 68006,
+		dodge_limit = 0,
+		max_hp = 64,
+		hp_growth = 2458,
+		dodge = 1,
+		weapon_ID = {
+			68016
+		}
+	},
+	[68007] = {
+		base = 68001,
+		name = "邦克山技能鱼雷机Lv7",
+		id = 68007,
+		dodge_limit = 0,
+		max_hp = 69,
+		hp_growth = 2669,
+		dodge = 1,
+		weapon_ID = {
+			68017
+		}
+	},
+	[68008] = {
+		base = 68001,
+		name = "邦克山技能鱼雷机Lv8",
+		id = 68008,
+		dodge_limit = 0,
+		max_hp = 75,
+		hp_growth = 2879,
+		dodge = 1,
+		weapon_ID = {
+			68018
+		}
+	},
+	[68009] = {
+		base = 68001,
+		name = "邦克山技能鱼雷机Lv9",
+		id = 68009,
+		dodge_limit = 0,
+		max_hp = 80,
+		hp_growth = 3090,
+		dodge = 1,
+		weapon_ID = {
+			68019
+		}
+	},
+	[68010] = {
+		base = 68001,
+		name = "邦克山技能鱼雷机Lv10",
+		id = 68010,
+		dodge_limit = 0,
+		max_hp = 86,
+		hp_growth = 3301,
+		dodge = 1,
+		weapon_ID = {
+			68020
+		}
+	},
+	[68021] = {
+		name = "邦克山技能战斗机Lv1",
+		max_hp = 51,
+		accuracy = 23,
+		model_ID = "f6f",
+		ACC_growth = 0,
+		crash_DMG = 156,
+		dodge = 1,
+		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
+		AP_growth = 2000,
+		icon = "F4U",
+		funnel_behavior = "",
+		nationality = 1,
+		hp_growth = 1947,
+		speed = 50,
+		id = 68021,
+		weapon_ID = {
+			50441,
+			68051
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					-1.28,
+					1.62,
+					0
+				},
+				{
+					-1.12,
+					-1,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[68022] = {
+		base = 68021,
+		name = "邦克山技能战斗机Lv2",
+		id = 68022,
+		dodge_limit = 0,
+		max_hp = 57,
+		hp_growth = 2201,
+		dodge = 1,
+		weapon_ID = {
+			50442,
+			68052
+		}
+	},
+	[68023] = {
+		base = 68021,
+		name = "邦克山技能战斗机Lv3",
+		id = 68023,
+		dodge_limit = 0,
+		max_hp = 64,
+		hp_growth = 2455,
+		dodge = 1,
+		weapon_ID = {
+			50443,
+			68053
+		}
+	},
+	[68024] = {
+		base = 68021,
+		name = "邦克山技能战斗机Lv4",
+		id = 68024,
+		dodge_limit = 0,
+		max_hp = 70,
+		hp_growth = 2710,
+		dodge = 1,
+		weapon_ID = {
+			50444,
+			68054
+		}
+	},
+	[68025] = {
+		base = 68021,
+		name = "邦克山技能战斗机Lv5",
+		id = 68025,
+		dodge_limit = 0,
+		max_hp = 77,
+		hp_growth = 2964,
+		dodge = 1,
+		weapon_ID = {
+			50445,
+			68055
+		}
+	},
+	[68026] = {
+		base = 68021,
+		name = "邦克山技能战斗机Lv6",
+		id = 68026,
+		dodge_limit = 0,
+		max_hp = 84,
+		hp_growth = 3218,
+		dodge = 1,
+		weapon_ID = {
+			50446,
+			68056
+		}
+	},
+	[68027] = {
+		base = 68021,
+		name = "邦克山技能战斗机Lv7",
+		id = 68027,
+		dodge_limit = 0,
+		max_hp = 90,
+		hp_growth = 3472,
+		dodge = 1,
+		weapon_ID = {
+			50447,
+			68057
+		}
+	},
+	[68028] = {
+		base = 68021,
+		name = "邦克山技能战斗机Lv8",
+		id = 68028,
+		dodge_limit = 0,
+		max_hp = 97,
+		hp_growth = 3726,
+		dodge = 1,
+		weapon_ID = {
+			50448,
+			68058
+		}
+	},
+	[68029] = {
+		base = 68021,
+		name = "邦克山技能战斗机Lv9",
+		id = 68029,
+		dodge_limit = 0,
+		max_hp = 103,
+		hp_growth = 3980,
+		dodge = 1,
+		weapon_ID = {
+			50449,
+			68059
+		}
+	},
+	[68030] = {
+		base = 68021,
+		name = "邦克山技能战斗机Lv10",
+		id = 68030,
+		dodge_limit = 0,
+		max_hp = 110,
+		hp_growth = 4234,
+		dodge = 1,
+		weapon_ID = {
+			50450,
+			68060
+		}
+	},
+	[68031] = {
+		name = "邦克山技能轰炸机Lv1",
+		max_hp = 35,
+		accuracy = 23,
+		model_ID = "sbdwuwei",
+		ACC_growth = 0,
+		crash_DMG = 156,
+		dodge = 1,
+		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
+		AP_growth = 2000,
+		icon = "sbdwuwei",
+		funnel_behavior = "",
+		nationality = 1,
+		hp_growth = 1183,
+		speed = 46,
+		id = 68031,
+		weapon_ID = {
+			68041,
+			68051
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.68,
+					-0.667,
+					0
+				},
+				{
+					0.97,
+					0.584,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.72,
+				-0.15,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[68032] = {
+		base = 68031,
+		name = "邦克山技能轰炸机Lv2",
+		id = 68032,
+		dodge_limit = 0,
+		max_hp = 39,
+		hp_growth = 1345,
+		dodge = 1,
+		weapon_ID = {
+			68042,
+			68052
+		}
+	},
+	[68033] = {
+		base = 68031,
+		name = "邦克山技能轰炸机Lv3",
+		id = 68033,
+		dodge_limit = 0,
+		max_hp = 43,
+		hp_growth = 1507,
+		dodge = 1,
+		weapon_ID = {
+			68043,
+			68053
+		}
+	},
+	[68034] = {
+		base = 68031,
+		name = "邦克山技能轰炸机Lv4",
+		id = 68034,
+		dodge_limit = 0,
+		max_hp = 47,
+		hp_growth = 1669,
+		dodge = 1,
+		weapon_ID = {
+			68044,
+			68054
+		}
+	},
+	[68035] = {
+		base = 68031,
+		name = "邦克山技能轰炸机Lv5",
+		id = 68035,
+		dodge_limit = 0,
+		max_hp = 51,
+		hp_growth = 1831,
+		dodge = 1,
+		weapon_ID = {
+			68045,
+			68055
+		}
+	},
+	[68036] = {
+		base = 68031,
+		name = "邦克山技能轰炸机Lv6",
+		id = 68036,
+		dodge_limit = 0,
+		max_hp = 55,
+		hp_growth = 1994,
+		dodge = 1,
+		weapon_ID = {
+			68046,
+			68056
+		}
+	},
+	[68037] = {
+		base = 68031,
+		name = "邦克山技能轰炸机Lv7",
+		id = 68037,
+		dodge_limit = 0,
+		max_hp = 59,
+		hp_growth = 2157,
+		dodge = 1,
+		weapon_ID = {
+			68047,
+			68057
+		}
+	},
+	[68038] = {
+		base = 68031,
+		name = "邦克山技能轰炸机Lv8",
+		id = 68038,
+		dodge_limit = 0,
+		max_hp = 63,
+		hp_growth = 2320,
+		dodge = 1,
+		weapon_ID = {
+			68048,
+			68058
+		}
+	},
+	[68039] = {
+		base = 68031,
+		name = "邦克山技能轰炸机Lv9",
+		id = 68039,
+		dodge_limit = 0,
+		max_hp = 68,
+		hp_growth = 2483,
+		dodge = 1,
+		weapon_ID = {
+			68049,
+			68059
+		}
+	},
+	[68040] = {
+		base = 68031,
+		name = "邦克山技能轰炸机Lv10",
+		id = 68040,
+		dodge_limit = 0,
+		max_hp = 73,
+		hp_growth = 2646,
+		dodge = 1,
+		weapon_ID = {
+			68050,
+			68060
 		}
 	},
 	[81000] = {
@@ -18095,8 +20368,10 @@ pg.aircraft_template = {
 		model_ID = "F2A",
 		ACC_growth = 0,
 		crash_DMG = 42,
-		attack_power = 2,
+		dodge = 0.375,
 		type = 1,
+		dodge_limit = 8,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "F2A",
 		funnel_behavior = "",
@@ -18151,6 +20426,11 @@ pg.aircraft_template = {
 				0.24,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -18188,8 +20468,10 @@ pg.aircraft_template = {
 		model_ID = "F2A",
 		ACC_growth = 0,
 		crash_DMG = 42,
-		attack_power = 2,
+		dodge = 0.363,
 		type = 1,
+		dodge_limit = 8.5,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "F2A",
 		funnel_behavior = "",
@@ -18244,6 +20526,11 @@ pg.aircraft_template = {
 				0.24,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -18281,8 +20568,10 @@ pg.aircraft_template = {
 		model_ID = "F2A",
 		ACC_growth = 0,
 		crash_DMG = 42,
-		attack_power = 2,
+		dodge = 0.351,
 		type = 1,
+		dodge_limit = 9,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "F2A",
 		funnel_behavior = "",
@@ -18335,6 +20624,11 @@ pg.aircraft_template = {
 			},
 			{
 				0.24,
+				0,
+				0
+			},
+			{
+				0,
 				0,
 				0
 			}
@@ -18401,8 +20695,10 @@ pg.aircraft_template = {
 		model_ID = "f4f",
 		ACC_growth = 0,
 		crash_DMG = 56,
-		attack_power = 2,
+		dodge = 0.357,
 		type = 1,
+		dodge_limit = 9,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "f4f",
 		funnel_behavior = "",
@@ -18457,6 +20753,11 @@ pg.aircraft_template = {
 				0.32,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -18494,8 +20795,10 @@ pg.aircraft_template = {
 		model_ID = "f4f",
 		ACC_growth = 0,
 		crash_DMG = 56,
-		attack_power = 2,
+		dodge = 0.345,
 		type = 1,
+		dodge_limit = 9.5,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "f4f",
 		funnel_behavior = "",
@@ -18548,6 +20851,11 @@ pg.aircraft_template = {
 			},
 			{
 				0.32,
+				0,
+				0
+			},
+			{
+				0,
 				0,
 				0
 			}
@@ -18614,8 +20922,10 @@ pg.aircraft_template = {
 		model_ID = "f4f",
 		ACC_growth = 0,
 		crash_DMG = 56,
-		attack_power = 2,
+		dodge = 0.333,
 		type = 1,
+		dodge_limit = 10,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "f4f",
 		funnel_behavior = "",
@@ -18668,6 +20978,11 @@ pg.aircraft_template = {
 			},
 			{
 				0.32,
+				0,
+				0
+			},
+			{
+				0,
 				0,
 				0
 			}
@@ -18770,8 +21085,10 @@ pg.aircraft_template = {
 		model_ID = "F4U",
 		ACC_growth = 0,
 		crash_DMG = 66,
-		attack_power = 2,
+		dodge = 0.357,
 		type = 1,
+		dodge_limit = 9,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "F4U",
 		funnel_behavior = "",
@@ -18826,6 +21143,11 @@ pg.aircraft_template = {
 				0.41,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -18863,8 +21185,10 @@ pg.aircraft_template = {
 		model_ID = "F4U",
 		ACC_growth = 0,
 		crash_DMG = 66,
-		attack_power = 2,
+		dodge = 0.345,
 		type = 1,
+		dodge_limit = 9.5,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "F4U",
 		funnel_behavior = "",
@@ -18917,6 +21241,11 @@ pg.aircraft_template = {
 			},
 			{
 				0.41,
+				0,
+				0
+			},
+			{
+				0,
 				0,
 				0
 			}
@@ -18983,8 +21312,10 @@ pg.aircraft_template = {
 		model_ID = "F4U",
 		ACC_growth = 0,
 		crash_DMG = 66,
-		attack_power = 2,
+		dodge = 0.333,
 		type = 1,
+		dodge_limit = 10,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "F4U",
 		funnel_behavior = "",
@@ -19037,6 +21368,11 @@ pg.aircraft_template = {
 			},
 			{
 				0.41,
+				0,
+				0
+			},
+			{
+				0,
 				0,
 				0
 			}
@@ -19139,8 +21475,10 @@ pg.aircraft_template = {
 		model_ID = "F4U",
 		ACC_growth = 0,
 		crash_DMG = 148,
-		attack_power = 2,
+		dodge = 0.309,
 		type = 1,
+		dodge_limit = 12,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "F4U",
 		funnel_behavior = "",
@@ -19193,6 +21531,11 @@ pg.aircraft_template = {
 			},
 			{
 				0.41,
+				0,
+				0
+			},
+			{
+				0,
 				0,
 				0
 			}
@@ -19295,8 +21638,10 @@ pg.aircraft_template = {
 		model_ID = "f6f",
 		ACC_growth = 0,
 		crash_DMG = 80,
-		attack_power = 2,
+		dodge = 0.339,
 		type = 1,
+		dodge_limit = 10,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "f6f",
 		funnel_behavior = "",
@@ -19338,6 +21683,11 @@ pg.aircraft_template = {
 			}
 		},
 		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
 			{
 				0,
 				0,
@@ -19422,8 +21772,10 @@ pg.aircraft_template = {
 		model_ID = "f6f",
 		ACC_growth = 0,
 		crash_DMG = 80,
-		attack_power = 2,
+		dodge = 0.327,
 		type = 1,
+		dodge_limit = 10.5,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "f6f",
 		funnel_behavior = "",
@@ -19465,6 +21817,11 @@ pg.aircraft_template = {
 			}
 		},
 		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
 			{
 				0,
 				0,
@@ -19589,8 +21946,10 @@ pg.aircraft_template = {
 		model_ID = "f6f",
 		ACC_growth = 0,
 		crash_DMG = 80,
-		attack_power = 2,
+		dodge = 0.315,
 		type = 1,
+		dodge_limit = 11,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "f6f",
 		funnel_behavior = "",
@@ -19632,6 +21991,11 @@ pg.aircraft_template = {
 			}
 		},
 		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
 			{
 				0,
 				0,
@@ -19756,8 +22120,10 @@ pg.aircraft_template = {
 		model_ID = "XF5F",
 		ACC_growth = 0,
 		crash_DMG = 136,
-		attack_power = 2,
+		dodge = 0.333,
 		type = 1,
+		dodge_limit = 9,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "XF5F",
 		funnel_behavior = "",
@@ -19806,6 +22172,11 @@ pg.aircraft_template = {
 			},
 			{
 				0.24,
+				0,
+				0
+			},
+			{
+				0,
 				0,
 				0
 			}
@@ -19918,8 +22289,10 @@ pg.aircraft_template = {
 		model_ID = "haipenhuo",
 		ACC_growth = 0,
 		crash_DMG = 52,
-		attack_power = 2,
+		dodge = 0.357,
 		type = 1,
+		dodge_limit = 9,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "haipenhuo",
 		funnel_behavior = "",
@@ -19975,6 +22348,11 @@ pg.aircraft_template = {
 				0.62,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -20015,8 +22393,10 @@ pg.aircraft_template = {
 		model_ID = "haipenhuo",
 		ACC_growth = 0,
 		crash_DMG = 52,
-		attack_power = 2,
+		dodge = 0.345,
 		type = 1,
+		dodge_limit = 9.5,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "haipenhuo",
 		funnel_behavior = "",
@@ -20070,6 +22450,11 @@ pg.aircraft_template = {
 			},
 			{
 				0.62,
+				0,
+				0
+			},
+			{
+				0,
 				0,
 				0
 			}
@@ -20142,8 +22527,10 @@ pg.aircraft_template = {
 		model_ID = "haipenhuo",
 		ACC_growth = 0,
 		crash_DMG = 52,
-		attack_power = 2,
+		dodge = 0.333,
 		type = 1,
+		dodge_limit = 10,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "haipenhuo",
 		funnel_behavior = "",
@@ -20197,6 +22584,11 @@ pg.aircraft_template = {
 			},
 			{
 				0.62,
+				0,
+				0
+			},
+			{
+				0,
 				0,
 				0
 			}
@@ -20309,8 +22701,10 @@ pg.aircraft_template = {
 		model_ID = "haiduya",
 		ACC_growth = 0,
 		crash_DMG = 63,
-		attack_power = 2,
+		dodge = 0.357,
 		type = 1,
+		dodge_limit = 9,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "haiduya",
 		funnel_behavior = "",
@@ -20364,6 +22758,11 @@ pg.aircraft_template = {
 			{
 				0.86,
 				-0.12,
+				0
+			},
+			{
+				0,
+				0,
 				0
 			}
 		}
@@ -20429,8 +22828,10 @@ pg.aircraft_template = {
 		model_ID = "haiduya",
 		ACC_growth = 0,
 		crash_DMG = 63,
-		attack_power = 2,
+		dodge = 0.345,
 		type = 1,
+		dodge_limit = 9.5,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "haiduya",
 		funnel_behavior = "",
@@ -20484,6 +22885,11 @@ pg.aircraft_template = {
 			{
 				0.86,
 				-0.12,
+				0
+			},
+			{
+				0,
+				0,
 				0
 			}
 		}
@@ -20585,8 +22991,10 @@ pg.aircraft_template = {
 		model_ID = "haiduya",
 		ACC_growth = 0,
 		crash_DMG = 63,
-		attack_power = 2,
+		dodge = 0.333,
 		type = 1,
+		dodge_limit = 10,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "haiduya",
 		funnel_behavior = "",
@@ -20640,6 +23048,11 @@ pg.aircraft_template = {
 			{
 				0.86,
 				-0.12,
+				0
+			},
+			{
+				0,
+				0,
 				0
 			}
 		}
@@ -20741,8 +23154,10 @@ pg.aircraft_template = {
 		model_ID = "haipenhuo",
 		ACC_growth = 0,
 		crash_DMG = 76,
-		attack_power = 2,
+		dodge = 0.375,
 		type = 1,
+		dodge_limit = 8,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "haipenhuo",
 		funnel_behavior = "",
@@ -20797,6 +23212,11 @@ pg.aircraft_template = {
 				0.62,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -20834,8 +23254,10 @@ pg.aircraft_template = {
 		model_ID = "haipenhuo",
 		ACC_growth = 0,
 		crash_DMG = 76,
-		attack_power = 2,
+		dodge = 0.363,
 		type = 1,
+		dodge_limit = 8.5,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "haipenhuo",
 		funnel_behavior = "",
@@ -20890,6 +23312,11 @@ pg.aircraft_template = {
 				0.62,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -20927,8 +23354,10 @@ pg.aircraft_template = {
 		model_ID = "haipenhuo",
 		ACC_growth = 0,
 		crash_DMG = 76,
-		attack_power = 2,
+		dodge = 0.351,
 		type = 1,
+		dodge_limit = 9,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "haipenhuo",
 		funnel_behavior = "",
@@ -20981,6 +23410,11 @@ pg.aircraft_template = {
 			},
 			{
 				0.62,
+				0,
+				0
+			},
+			{
+				0,
 				0,
 				0
 			}
@@ -21047,8 +23481,10 @@ pg.aircraft_template = {
 		model_ID = "96jiangong",
 		ACC_growth = 0,
 		crash_DMG = 40,
-		attack_power = 2,
+		dodge = 0.357,
 		type = 1,
+		dodge_limit = 7,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "96jiangong",
 		funnel_behavior = "",
@@ -21103,6 +23539,11 @@ pg.aircraft_template = {
 				0.72,
 				-0.15,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -21140,8 +23581,10 @@ pg.aircraft_template = {
 		model_ID = "96jiangong",
 		ACC_growth = 0,
 		crash_DMG = 40,
-		attack_power = 2,
+		dodge = 0.345,
 		type = 1,
+		dodge_limit = 7.5,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "96jiangong",
 		funnel_behavior = "",
@@ -21196,6 +23639,11 @@ pg.aircraft_template = {
 				0.72,
 				-0.15,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -21233,8 +23681,10 @@ pg.aircraft_template = {
 		model_ID = "96jiangong",
 		ACC_growth = 0,
 		crash_DMG = 40,
-		attack_power = 2,
+		dodge = 0.333,
 		type = 1,
+		dodge_limit = 8,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "96jiangong",
 		funnel_behavior = "",
@@ -21288,6 +23738,11 @@ pg.aircraft_template = {
 			{
 				0.72,
 				-0.15,
+				0
+			},
+			{
+				0,
+				0,
 				0
 			}
 		}
@@ -21353,8 +23808,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan21",
 		ACC_growth = 0,
 		crash_DMG = 52,
-		attack_power = 2,
+		dodge = 0.339,
 		type = 1,
+		dodge_limit = 8,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "lingzhan21",
 		funnel_behavior = "",
@@ -21410,6 +23867,11 @@ pg.aircraft_template = {
 				0.27,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -21450,8 +23912,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan21",
 		ACC_growth = 0,
 		crash_DMG = 52,
-		attack_power = 2,
+		dodge = 0.327,
 		type = 1,
+		dodge_limit = 8.5,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "lingzhan21",
 		funnel_behavior = "",
@@ -21505,6 +23969,11 @@ pg.aircraft_template = {
 			},
 			{
 				0.27,
+				0,
+				0
+			},
+			{
+				0,
 				0,
 				0
 			}
@@ -21577,8 +24046,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan21",
 		ACC_growth = 0,
 		crash_DMG = 52,
-		attack_power = 2,
+		dodge = 0.315,
 		type = 1,
+		dodge_limit = 9,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "lingzhan21",
 		funnel_behavior = "",
@@ -21632,6 +24103,11 @@ pg.aircraft_template = {
 			},
 			{
 				0.27,
+				0,
+				0
+			},
+			{
+				0,
 				0,
 				0
 			}
@@ -21744,8 +24220,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan52",
 		ACC_growth = 0,
 		crash_DMG = 70,
-		attack_power = 2,
+		dodge = 0.339,
 		type = 1,
+		dodge_limit = 8,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "lingzhan52",
 		funnel_behavior = "",
@@ -21799,6 +24277,11 @@ pg.aircraft_template = {
 			},
 			{
 				0.51,
+				0,
+				0
+			},
+			{
+				0,
 				0,
 				0
 			}
@@ -21871,8 +24354,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan52",
 		ACC_growth = 0,
 		crash_DMG = 70,
-		attack_power = 2,
+		dodge = 0.327,
 		type = 1,
+		dodge_limit = 8.5,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "lingzhan52",
 		funnel_behavior = "",
@@ -21926,6 +24411,11 @@ pg.aircraft_template = {
 			},
 			{
 				0.51,
+				0,
+				0
+			},
+			{
+				0,
 				0,
 				0
 			}
@@ -22038,8 +24528,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan52",
 		ACC_growth = 0,
 		crash_DMG = 70,
-		attack_power = 2,
+		dodge = 0.315,
 		type = 1,
+		dodge_limit = 9,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "lingzhan52",
 		funnel_behavior = "",
@@ -22093,6 +24585,11 @@ pg.aircraft_template = {
 			},
 			{
 				0.51,
+				0,
+				0
+			},
+			{
+				0,
 				0,
 				0
 			}
@@ -22205,8 +24702,10 @@ pg.aircraft_template = {
 		model_ID = "liefeng",
 		ACC_growth = 0,
 		crash_DMG = 162,
-		attack_power = 2,
+		dodge = 0.321,
 		type = 1,
+		dodge_limit = 9,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "liefeng",
 		funnel_behavior = "",
@@ -22259,6 +24758,11 @@ pg.aircraft_template = {
 			},
 			{
 				0.51,
+				0,
+				0
+			},
+			{
+				0,
 				0,
 				0
 			}
@@ -22325,8 +24829,10 @@ pg.aircraft_template = {
 		model_ID = "liefeng",
 		ACC_growth = 0,
 		crash_DMG = 162,
-		attack_power = 2,
+		dodge = 0.309,
 		type = 1,
+		dodge_limit = 9.5,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "liefeng",
 		funnel_behavior = "",
@@ -22379,6 +24885,11 @@ pg.aircraft_template = {
 			},
 			{
 				0.51,
+				0,
+				0
+			},
+			{
+				0,
 				0,
 				0
 			}
@@ -22481,8 +24992,10 @@ pg.aircraft_template = {
 		model_ID = "liefeng",
 		ACC_growth = 0,
 		crash_DMG = 162,
-		attack_power = 2,
+		dodge = 0.297,
 		type = 1,
+		dodge_limit = 10,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "liefeng",
 		funnel_behavior = "",
@@ -22535,6 +25048,11 @@ pg.aircraft_template = {
 			},
 			{
 				0.51,
+				0,
+				0
+			},
+			{
+				0,
 				0,
 				0
 			}
@@ -22637,8 +25155,10 @@ pg.aircraft_template = {
 		model_ID = "BF109T",
 		ACC_growth = 0,
 		crash_DMG = 42,
-		attack_power = 2,
+		dodge = 0.357,
 		type = 1,
+		dodge_limit = 8,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "BF109T",
 		funnel_behavior = "",
@@ -22694,6 +25214,11 @@ pg.aircraft_template = {
 				0.27,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -22734,8 +25259,10 @@ pg.aircraft_template = {
 		model_ID = "BF109T",
 		ACC_growth = 0,
 		crash_DMG = 42,
-		attack_power = 2,
+		dodge = 0.345,
 		type = 1,
+		dodge_limit = 8.5,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "BF109T",
 		funnel_behavior = "",
@@ -22789,6 +25316,11 @@ pg.aircraft_template = {
 			},
 			{
 				0.27,
+				0,
+				0
+			},
+			{
+				0,
 				0,
 				0
 			}
@@ -22861,8 +25393,10 @@ pg.aircraft_template = {
 		model_ID = "BF109T",
 		ACC_growth = 0,
 		crash_DMG = 42,
-		attack_power = 2,
+		dodge = 0.333,
 		type = 1,
+		dodge_limit = 9,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "BF109T",
 		funnel_behavior = "",
@@ -22916,6 +25450,11 @@ pg.aircraft_template = {
 			},
 			{
 				0.27,
+				0,
+				0
+			},
+			{
+				0,
 				0,
 				0
 			}
@@ -23028,8 +25567,10 @@ pg.aircraft_template = {
 		model_ID = "Me155A",
 		ACC_growth = 0,
 		crash_DMG = 65,
-		attack_power = 2,
+		dodge = 0.339,
 		type = 1,
+		dodge_limit = 9,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "Me155A",
 		funnel_behavior = "",
@@ -23083,6 +25624,11 @@ pg.aircraft_template = {
 			},
 			{
 				0.51,
+				0,
+				0
+			},
+			{
+				0,
 				0,
 				0
 			}
@@ -23155,8 +25701,10 @@ pg.aircraft_template = {
 		model_ID = "Me155A",
 		ACC_growth = 0,
 		crash_DMG = 65,
-		attack_power = 2,
+		dodge = 0.327,
 		type = 1,
+		dodge_limit = 9.5,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "Me155A",
 		funnel_behavior = "",
@@ -23210,6 +25758,11 @@ pg.aircraft_template = {
 			},
 			{
 				0.51,
+				0,
+				0
+			},
+			{
+				0,
 				0,
 				0
 			}
@@ -23322,8 +25875,10 @@ pg.aircraft_template = {
 		model_ID = "Me155A",
 		ACC_growth = 0,
 		crash_DMG = 65,
-		attack_power = 2,
+		dodge = 0.315,
 		type = 1,
+		dodge_limit = 10,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "Me155A",
 		funnel_behavior = "",
@@ -23377,6 +25932,11 @@ pg.aircraft_template = {
 			},
 			{
 				0.51,
+				0,
+				0
+			},
+			{
+				0,
 				0,
 				0
 			}
@@ -23489,8 +26049,10 @@ pg.aircraft_template = {
 		model_ID = "F4F",
 		ACC_growth = 0,
 		crash_DMG = 39,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "F4F",
 		funnel_behavior = "",
@@ -23546,6 +26108,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -23556,8 +26123,10 @@ pg.aircraft_template = {
 		model_ID = "F4F",
 		ACC_growth = 0,
 		crash_DMG = 39,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "F4F",
 		funnel_behavior = "",
@@ -23613,6 +26182,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -23623,8 +26197,10 @@ pg.aircraft_template = {
 		model_ID = "F4F",
 		ACC_growth = 0,
 		crash_DMG = 39,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "F4F",
 		funnel_behavior = "",
@@ -23680,6 +26256,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -23690,8 +26271,10 @@ pg.aircraft_template = {
 		model_ID = "F4F",
 		ACC_growth = 0,
 		crash_DMG = 39,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "F4F",
 		funnel_behavior = "",
@@ -23747,6 +26330,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -23757,8 +26345,10 @@ pg.aircraft_template = {
 		model_ID = "F4F",
 		ACC_growth = 0,
 		crash_DMG = 39,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "F4F",
 		funnel_behavior = "",
@@ -23814,6 +26404,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -23824,8 +26419,10 @@ pg.aircraft_template = {
 		model_ID = "tbd",
 		ACC_growth = 0,
 		crash_DMG = 57,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "tbd",
 		funnel_behavior = "",
@@ -23880,6 +26477,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -23890,8 +26492,10 @@ pg.aircraft_template = {
 		model_ID = "tbd",
 		ACC_growth = 0,
 		crash_DMG = 57,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "tbd",
 		funnel_behavior = "",
@@ -23946,6 +26550,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -23956,8 +26565,10 @@ pg.aircraft_template = {
 		model_ID = "tbd",
 		ACC_growth = 0,
 		crash_DMG = 57,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "tbd",
 		funnel_behavior = "",
@@ -24012,6 +26623,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -24022,8 +26638,10 @@ pg.aircraft_template = {
 		model_ID = "tbd",
 		ACC_growth = 0,
 		crash_DMG = 57,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "tbd",
 		funnel_behavior = "",
@@ -24078,6 +26696,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -24088,8 +26711,10 @@ pg.aircraft_template = {
 		model_ID = "tbd",
 		ACC_growth = 0,
 		crash_DMG = 57,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "tbd",
 		funnel_behavior = "",
@@ -24144,6 +26769,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -24154,8 +26784,10 @@ pg.aircraft_template = {
 		model_ID = "sbdwuwei",
 		ACC_growth = 0,
 		crash_DMG = 78,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "sbdwuwei",
 		funnel_behavior = "",
@@ -24210,6 +26842,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -24220,8 +26857,10 @@ pg.aircraft_template = {
 		model_ID = "sbdwuwei",
 		ACC_growth = 0,
 		crash_DMG = 78,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "sbdwuwei",
 		funnel_behavior = "",
@@ -24276,6 +26915,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -24286,8 +26930,10 @@ pg.aircraft_template = {
 		model_ID = "sbdwuwei",
 		ACC_growth = 0,
 		crash_DMG = 78,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "sbdwuwei",
 		funnel_behavior = "",
@@ -24342,6 +26988,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -24352,8 +27003,10 @@ pg.aircraft_template = {
 		model_ID = "sbdwuwei",
 		ACC_growth = 0,
 		crash_DMG = 78,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "sbdwuwei",
 		funnel_behavior = "",
@@ -24408,6 +27061,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -24418,8 +27076,10 @@ pg.aircraft_template = {
 		model_ID = "sbdwuwei",
 		ACC_growth = 0,
 		crash_DMG = 78,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "sbdwuwei",
 		funnel_behavior = "",
@@ -24474,6 +27134,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -24484,8 +27149,10 @@ pg.aircraft_template = {
 		model_ID = "haiduya",
 		ACC_growth = 0,
 		crash_DMG = 39,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "haiduya",
 		funnel_behavior = "",
@@ -24541,6 +27208,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -24551,8 +27223,10 @@ pg.aircraft_template = {
 		model_ID = "haiduya",
 		ACC_growth = 0,
 		crash_DMG = 39,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "haiduya",
 		funnel_behavior = "",
@@ -24608,6 +27282,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -24618,8 +27297,10 @@ pg.aircraft_template = {
 		model_ID = "haiduya",
 		ACC_growth = 0,
 		crash_DMG = 39,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "haiduya",
 		funnel_behavior = "",
@@ -24675,6 +27356,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -24685,8 +27371,10 @@ pg.aircraft_template = {
 		model_ID = "haiduya",
 		ACC_growth = 0,
 		crash_DMG = 39,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "haiduya",
 		funnel_behavior = "",
@@ -24742,6 +27430,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -24752,8 +27445,10 @@ pg.aircraft_template = {
 		model_ID = "haiduya",
 		ACC_growth = 0,
 		crash_DMG = 39,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "haiduya",
 		funnel_behavior = "",
@@ -24809,6 +27504,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -24819,8 +27519,10 @@ pg.aircraft_template = {
 		model_ID = "suoyu",
 		ACC_growth = 0,
 		crash_DMG = 57,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "suoyu",
 		funnel_behavior = "",
@@ -24875,6 +27577,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -24885,8 +27592,10 @@ pg.aircraft_template = {
 		model_ID = "suoyu",
 		ACC_growth = 0,
 		crash_DMG = 57,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "suoyu",
 		funnel_behavior = "",
@@ -24941,6 +27650,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -24951,8 +27665,10 @@ pg.aircraft_template = {
 		model_ID = "suoyu",
 		ACC_growth = 0,
 		crash_DMG = 57,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "suoyu",
 		funnel_behavior = "",
@@ -25007,6 +27723,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -25017,8 +27738,10 @@ pg.aircraft_template = {
 		model_ID = "suoyu",
 		ACC_growth = 0,
 		crash_DMG = 57,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "suoyu",
 		funnel_behavior = "",
@@ -25073,6 +27796,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -25083,8 +27811,10 @@ pg.aircraft_template = {
 		model_ID = "suoyu",
 		ACC_growth = 0,
 		crash_DMG = 57,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "suoyu",
 		funnel_behavior = "",
@@ -25139,6 +27869,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -25149,8 +27884,10 @@ pg.aircraft_template = {
 		model_ID = "haiyan",
 		ACC_growth = 0,
 		crash_DMG = 78,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "haiyan",
 		funnel_behavior = "",
@@ -25205,6 +27942,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -25215,8 +27957,10 @@ pg.aircraft_template = {
 		model_ID = "haiyan",
 		ACC_growth = 0,
 		crash_DMG = 78,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "haiyan",
 		funnel_behavior = "",
@@ -25271,6 +28015,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -25281,8 +28030,10 @@ pg.aircraft_template = {
 		model_ID = "haiyan",
 		ACC_growth = 0,
 		crash_DMG = 78,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "haiyan",
 		funnel_behavior = "",
@@ -25337,6 +28088,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -25347,8 +28103,10 @@ pg.aircraft_template = {
 		model_ID = "haiyan",
 		ACC_growth = 0,
 		crash_DMG = 78,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "haiyan",
 		funnel_behavior = "",
@@ -25403,6 +28161,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -25413,8 +28176,10 @@ pg.aircraft_template = {
 		model_ID = "haiyan",
 		ACC_growth = 0,
 		crash_DMG = 78,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "haiyan",
 		funnel_behavior = "",
@@ -25469,6 +28234,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -25479,8 +28249,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan21gai",
 		ACC_growth = 0,
 		crash_DMG = 39,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -25536,6 +28308,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -25546,8 +28323,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan21gai",
 		ACC_growth = 0,
 		crash_DMG = 39,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -25603,6 +28382,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -25613,8 +28397,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan21gai",
 		ACC_growth = 0,
 		crash_DMG = 39,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -25670,6 +28456,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -25680,8 +28471,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan21gai",
 		ACC_growth = 0,
 		crash_DMG = 39,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -25737,6 +28530,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -25747,8 +28545,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan21gai",
 		ACC_growth = 0,
 		crash_DMG = 39,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -25804,6 +28604,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -25814,8 +28619,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 57,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -25870,6 +28677,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -25880,8 +28692,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 57,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -25936,6 +28750,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -25946,8 +28765,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 57,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -26002,6 +28823,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -26012,8 +28838,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 57,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -26068,6 +28896,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -26078,8 +28911,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 57,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -26134,6 +28969,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -26144,8 +28984,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
 		crash_DMG = 78,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -26200,6 +29042,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -26210,8 +29057,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
 		crash_DMG = 78,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -26266,6 +29115,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -26276,8 +29130,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
 		crash_DMG = 78,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -26332,6 +29188,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -26342,8 +29203,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
 		crash_DMG = 78,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -26398,6 +29261,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -26408,8 +29276,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
 		crash_DMG = 78,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -26464,6 +29334,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -26474,8 +29349,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan21gai",
 		ACC_growth = 0,
 		crash_DMG = 39,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "Me155A",
 		funnel_behavior = "",
@@ -26531,6 +29408,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -26541,8 +29423,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan21gai",
 		ACC_growth = 0,
 		crash_DMG = 39,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "Me155A",
 		funnel_behavior = "",
@@ -26598,6 +29482,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -26608,8 +29497,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan21gai",
 		ACC_growth = 0,
 		crash_DMG = 39,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "Me155A",
 		funnel_behavior = "",
@@ -26665,6 +29556,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -26675,8 +29571,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan21gai",
 		ACC_growth = 0,
 		crash_DMG = 39,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "Me155A",
 		funnel_behavior = "",
@@ -26732,6 +29630,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -26742,8 +29645,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan21gai",
 		ACC_growth = 0,
 		crash_DMG = 39,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "Me155A",
 		funnel_behavior = "",
@@ -26799,6 +29704,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -26809,8 +29719,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 57,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "qibolin",
 		funnel_behavior = "",
@@ -26865,6 +29777,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -26875,8 +29792,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 57,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "qibolin",
 		funnel_behavior = "",
@@ -26931,6 +29850,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -26941,8 +29865,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 57,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "qibolin",
 		funnel_behavior = "",
@@ -26997,6 +29923,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -27007,8 +29938,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 57,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "qibolin",
 		funnel_behavior = "",
@@ -27063,6 +29996,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -27073,8 +30011,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 57,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "qibolin",
 		funnel_behavior = "",
@@ -27129,6 +30069,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -27139,8 +30084,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
 		crash_DMG = 78,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "JU87C",
 		funnel_behavior = "",
@@ -27195,6 +30142,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -27205,8 +30157,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
 		crash_DMG = 78,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "JU87C",
 		funnel_behavior = "",
@@ -27261,6 +30215,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -27271,8 +30230,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
 		crash_DMG = 78,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "JU87C",
 		funnel_behavior = "",
@@ -27327,6 +30288,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -27337,8 +30303,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
 		crash_DMG = 78,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "JU87C",
 		funnel_behavior = "",
@@ -27393,6 +30361,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -27403,8 +30376,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
 		crash_DMG = 78,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "JU87C",
 		funnel_behavior = "",
@@ -27459,6 +30434,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -27469,8 +30449,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
 		crash_DMG = 180,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -27525,6 +30507,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -27535,8 +30522,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
 		crash_DMG = 180,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -27591,6 +30580,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -27601,8 +30595,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
 		crash_DMG = 180,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -27657,6 +30653,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -27667,8 +30668,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
 		crash_DMG = 180,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -27723,6 +30726,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -27733,8 +30741,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
 		crash_DMG = 180,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -27789,6 +30799,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -27799,8 +30814,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 150,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -27855,6 +30872,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -27865,8 +30887,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 150,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -27921,6 +30945,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -27931,8 +30960,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 150,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -27987,6 +31018,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -27997,8 +31033,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 150,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -28053,6 +31091,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -28063,8 +31106,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 150,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -28119,6 +31164,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -28129,8 +31179,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan21gai",
 		ACC_growth = 0,
 		crash_DMG = 100,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -28186,6 +31238,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -28196,8 +31253,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan21gai",
 		ACC_growth = 0,
 		crash_DMG = 100,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -28253,6 +31312,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -28263,8 +31327,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan21gai",
 		ACC_growth = 0,
 		crash_DMG = 100,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -28320,6 +31386,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -28330,8 +31401,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan21gai",
 		ACC_growth = 0,
 		crash_DMG = 100,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -28387,6 +31460,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -28397,8 +31475,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan21gai",
 		ACC_growth = 0,
 		crash_DMG = 100,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -28454,6 +31534,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -28464,8 +31549,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 47,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -28520,6 +31607,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -28530,8 +31622,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
 		crash_DMG = 72,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -28586,6 +31680,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -28596,8 +31695,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao2",
 		ACC_growth = 0,
 		crash_DMG = 72,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao2",
 		funnel_behavior = "",
@@ -28652,6 +31753,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -28662,8 +31768,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 58,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -28718,6 +31826,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -28728,8 +31841,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 58,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -28784,6 +31899,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -28794,8 +31914,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
 		crash_DMG = 72,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -28850,6 +31972,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -28860,8 +31987,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan21gai",
 		ACC_growth = 0,
 		crash_DMG = 39,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -28917,6 +32046,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -28927,8 +32061,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 57,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -28983,6 +32119,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -28993,8 +32134,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
 		crash_DMG = 78,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -29049,6 +32192,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -29059,8 +32207,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
 		crash_DMG = 78,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -29115,6 +32265,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -29125,8 +32280,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 57,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -29181,6 +32338,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -29191,8 +32353,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan21gai",
 		ACC_growth = 0,
 		crash_DMG = 39,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -29248,6 +32412,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -29258,8 +32427,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
 		crash_DMG = 78,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -29314,6 +32485,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -29324,8 +32500,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 57,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -29380,6 +32558,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -29390,8 +32573,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan21gai",
 		ACC_growth = 0,
 		crash_DMG = 39,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -29447,6 +32632,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -29457,8 +32647,10 @@ pg.aircraft_template = {
 		model_ID = "F4F",
 		ACC_growth = 0,
 		crash_DMG = 39,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "F4F",
 		funnel_behavior = "",
@@ -29514,6 +32706,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -29524,8 +32721,10 @@ pg.aircraft_template = {
 		model_ID = "tbd",
 		ACC_growth = 0,
 		crash_DMG = 57,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "tbd",
 		funnel_behavior = "",
@@ -29580,6 +32779,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -29590,8 +32794,10 @@ pg.aircraft_template = {
 		model_ID = "sbdwuwei",
 		ACC_growth = 0,
 		crash_DMG = 78,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "sbdwuwei",
 		funnel_behavior = "",
@@ -29646,6 +32852,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -29656,8 +32867,10 @@ pg.aircraft_template = {
 		model_ID = "F4F",
 		ACC_growth = 0,
 		crash_DMG = 39,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "F4F",
 		funnel_behavior = "",
@@ -29713,6 +32926,11 @@ pg.aircraft_template = {
 				0.32,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -29723,8 +32941,10 @@ pg.aircraft_template = {
 		model_ID = "F6F",
 		ACC_growth = 0,
 		crash_DMG = 57,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "F6F",
 		funnel_behavior = "",
@@ -29779,6 +32999,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -29789,8 +33014,10 @@ pg.aircraft_template = {
 		model_ID = "tbd",
 		ACC_growth = 0,
 		crash_DMG = 78,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "tbd",
 		funnel_behavior = "",
@@ -29845,6 +33072,11 @@ pg.aircraft_template = {
 				0.72,
 				-0.15,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -29855,8 +33087,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 57,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -29911,6 +33145,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -29921,8 +33160,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
 		crash_DMG = 78,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -29977,6 +33218,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -29987,8 +33233,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan21gai",
 		ACC_growth = 0,
 		crash_DMG = 39,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -30044,6 +33292,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -30054,8 +33307,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
 		crash_DMG = 78,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -30110,6 +33365,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -30120,8 +33380,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 57,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -30176,6 +33438,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -30186,8 +33453,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan21gai",
 		ACC_growth = 0,
 		crash_DMG = 39,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -30243,6 +33512,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -30253,8 +33527,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 57,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -30309,6 +33585,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -30319,8 +33600,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan21gai",
 		ACC_growth = 0,
 		crash_DMG = 78,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -30375,6 +33658,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -30385,8 +33673,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao2",
 		ACC_growth = 0,
 		crash_DMG = 156,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao2",
 		funnel_behavior = "",
@@ -30441,6 +33731,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -30451,8 +33746,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan52",
 		ACC_growth = 0,
 		crash_DMG = 114,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "lingzhan52",
 		funnel_behavior = "",
@@ -30507,6 +33804,11 @@ pg.aircraft_template = {
 				0.51,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -30517,8 +33819,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan21gai",
 		ACC_growth = 0,
 		crash_DMG = 39,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -30574,6 +33878,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -30584,8 +33893,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 64,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -30640,6 +33951,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -30650,8 +33966,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
 		crash_DMG = 80,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -30706,6 +34024,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -30716,8 +34039,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
 		crash_DMG = 80,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -30772,6 +34097,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -30782,8 +34112,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 64,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -30838,6 +34170,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -30848,8 +34185,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan21gai",
 		ACC_growth = 0,
 		crash_DMG = 57,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -30905,6 +34244,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -30915,8 +34259,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
 		crash_DMG = 80,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -30971,6 +34317,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -30981,8 +34332,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 57,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -31037,6 +34390,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -31047,8 +34405,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan21gai",
 		ACC_growth = 0,
 		crash_DMG = 57,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -31104,6 +34464,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -31114,8 +34479,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 64,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -31170,6 +34537,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -31180,8 +34552,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
 		crash_DMG = 80,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -31236,6 +34610,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -31246,8 +34625,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
 		crash_DMG = 80,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -31302,6 +34683,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -31312,8 +34698,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 64,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -31368,6 +34756,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -31378,8 +34771,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
 		crash_DMG = 80,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -31434,6 +34829,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -31444,8 +34844,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 64,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -31500,6 +34902,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -31510,8 +34917,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan21gai",
 		ACC_growth = 0,
 		crash_DMG = 57,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -31567,6 +34976,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -31577,8 +34991,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan21gai",
 		ACC_growth = 0,
 		crash_DMG = 57,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -31633,6 +35049,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -31643,8 +35064,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 64,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -31699,6 +35122,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -31709,8 +35137,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
 		crash_DMG = 80,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -31765,6 +35195,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -31775,8 +35210,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
 		crash_DMG = 90,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -31831,6 +35268,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -31841,8 +35283,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 64,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -31897,6 +35341,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -31907,8 +35356,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan21gai",
 		ACC_growth = 0,
 		crash_DMG = 52,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -31964,6 +35415,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -31974,8 +35430,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 70,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -32030,6 +35488,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -32040,8 +35503,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan21gai",
 		ACC_growth = 0,
 		crash_DMG = 100,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -32096,6 +35561,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -32106,8 +35576,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao2",
 		ACC_growth = 0,
 		crash_DMG = 150,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao2",
 		funnel_behavior = "",
@@ -32162,6 +35634,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -32172,8 +35649,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan52",
 		ACC_growth = 0,
 		crash_DMG = 99,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "lingzhan52",
 		funnel_behavior = "",
@@ -32228,6 +35707,11 @@ pg.aircraft_template = {
 				0.51,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -32238,8 +35722,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan21gai",
 		ACC_growth = 0,
 		crash_DMG = 70,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -32295,6 +35781,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -32305,8 +35796,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 90,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -32361,6 +35854,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -32371,8 +35869,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
 		crash_DMG = 80,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -32427,6 +35927,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -32437,8 +35942,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
 		crash_DMG = 90,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -32493,6 +36000,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -32503,8 +36015,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 90,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -32559,6 +36073,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -32569,8 +36088,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan21gai",
 		ACC_growth = 0,
 		crash_DMG = 60,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -32626,6 +36147,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -32636,8 +36162,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
 		crash_DMG = 80,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -32692,6 +36220,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -32702,8 +36235,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 90,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -32758,6 +36293,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -32768,8 +36308,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan21gai",
 		ACC_growth = 0,
 		crash_DMG = 60,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -32825,6 +36367,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -32835,8 +36382,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 90,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -32891,6 +36440,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -32901,8 +36455,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
 		crash_DMG = 90,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -32957,6 +36513,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -32967,8 +36528,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 90,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -33023,6 +36586,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -33033,8 +36601,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
 		crash_DMG = 90,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -33089,6 +36659,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -33099,8 +36674,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
 		crash_DMG = 90,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -33155,6 +36732,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -33165,8 +36747,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 90,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -33221,6 +36805,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -33231,8 +36820,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 90,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -33287,6 +36878,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -33297,8 +36893,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
 		crash_DMG = 90,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -33353,6 +36951,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -33363,8 +36966,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 90,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -33419,6 +37024,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -33429,8 +37039,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
 		crash_DMG = 90,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -33485,6 +37097,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -33495,8 +37112,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan21gai",
 		ACC_growth = 0,
 		crash_DMG = 60,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -33552,6 +37171,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -33562,8 +37186,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 90,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -33618,6 +37244,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -33628,8 +37259,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
 		crash_DMG = 90,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -33684,6 +37317,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -33694,8 +37332,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 150,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -33750,6 +37390,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -33760,8 +37405,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan21gai",
 		ACC_growth = 0,
 		crash_DMG = 90,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -33816,6 +37463,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -33826,8 +37478,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao2",
 		ACC_growth = 0,
 		crash_DMG = 200,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao2",
 		funnel_behavior = "",
@@ -33882,6 +37536,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -33892,8 +37551,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan52",
 		ACC_growth = 0,
 		crash_DMG = 90,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "lingzhan52",
 		funnel_behavior = "",
@@ -33948,6 +37609,11 @@ pg.aircraft_template = {
 				0.51,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -33958,8 +37624,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
 		crash_DMG = 155,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -34014,6 +37682,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -34024,8 +37697,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 115,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -34080,6 +37755,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -34090,8 +37770,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan21gai",
 		ACC_growth = 0,
 		crash_DMG = 90,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -34147,6 +37829,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -34157,8 +37844,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
 		crash_DMG = 155,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -34213,6 +37902,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -34223,8 +37917,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 115,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -34279,6 +37975,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -34289,8 +37990,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan21gai",
 		ACC_growth = 0,
 		crash_DMG = 90,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -34346,6 +38049,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -34356,8 +38064,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
 		crash_DMG = 155,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -34412,6 +38122,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -34422,8 +38137,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 115,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -34478,6 +38195,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -34488,8 +38210,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan21gai",
 		ACC_growth = 0,
 		crash_DMG = 90,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -34545,6 +38269,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -34555,8 +38284,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
 		crash_DMG = 155,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -34611,6 +38342,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -34621,8 +38357,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 115,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -34677,6 +38415,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -34687,8 +38430,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan21gai",
 		ACC_growth = 0,
 		crash_DMG = 90,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -34744,6 +38489,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -34754,8 +38504,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
 		crash_DMG = 155,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -34810,6 +38562,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -34820,8 +38577,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 115,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -34876,6 +38635,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -34886,8 +38650,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan21gai",
 		ACC_growth = 0,
 		crash_DMG = 90,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -34943,6 +38709,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -34953,8 +38724,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 240,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -35009,6 +38782,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -35019,8 +38797,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan21gai",
 		ACC_growth = 0,
 		crash_DMG = 150,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -35075,6 +38855,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -35085,8 +38870,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao2",
 		ACC_growth = 0,
 		crash_DMG = 280,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao2",
 		funnel_behavior = "",
@@ -35141,6 +38928,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -35151,8 +38943,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan52",
 		ACC_growth = 0,
 		crash_DMG = 150,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "lingzhan52",
 		funnel_behavior = "",
@@ -35207,6 +39001,11 @@ pg.aircraft_template = {
 				0.51,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -35217,8 +39016,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
 		crash_DMG = 180,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -35273,6 +39074,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -35283,8 +39089,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 150,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -35339,6 +39147,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -35349,8 +39162,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan21gai",
 		ACC_growth = 0,
 		crash_DMG = 100,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -35406,6 +39221,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -35416,8 +39236,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
 		crash_DMG = 180,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -35472,6 +39294,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -35482,8 +39309,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 150,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -35538,6 +39367,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -35548,8 +39382,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan21gai",
 		ACC_growth = 0,
 		crash_DMG = 100,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -35605,6 +39441,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -35615,8 +39456,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
 		crash_DMG = 180,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -35671,6 +39514,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -35681,8 +39529,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 150,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -35737,6 +39587,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -35747,8 +39602,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan21gai",
 		ACC_growth = 0,
 		crash_DMG = 100,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -35804,6 +39661,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -35814,8 +39676,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
 		crash_DMG = 180,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -35870,6 +39734,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -35880,8 +39749,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 150,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -35936,6 +39807,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -35946,8 +39822,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan21gai",
 		ACC_growth = 0,
 		crash_DMG = 100,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -36003,6 +39881,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -36013,8 +39896,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 260,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -36069,6 +39954,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -36079,8 +39969,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan21gai",
 		ACC_growth = 0,
 		crash_DMG = 165,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -36135,6 +40027,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -36145,8 +40042,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao2",
 		ACC_growth = 0,
 		crash_DMG = 320,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao2",
 		funnel_behavior = "",
@@ -36201,6 +40100,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -36211,8 +40115,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan52",
 		ACC_growth = 0,
 		crash_DMG = 180,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "lingzhan52",
 		funnel_behavior = "",
@@ -36267,6 +40173,11 @@ pg.aircraft_template = {
 				0.51,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -36277,8 +40188,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 160,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -36333,6 +40246,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -36343,8 +40261,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
 		crash_DMG = 220,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -36399,6 +40319,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -36409,8 +40334,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 150,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -36465,6 +40392,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -36475,8 +40407,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
 		crash_DMG = 220,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -36531,6 +40465,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -36541,8 +40480,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 330,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -36597,6 +40538,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -36607,8 +40553,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan21gai",
 		ACC_growth = 0,
 		crash_DMG = 200,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -36663,6 +40611,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -36673,8 +40626,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao2",
 		ACC_growth = 0,
 		crash_DMG = 360,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao2",
 		funnel_behavior = "",
@@ -36729,6 +40684,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -36739,8 +40699,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan52",
 		ACC_growth = 0,
 		crash_DMG = 220,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "lingzhan52",
 		funnel_behavior = "",
@@ -36795,6 +40757,11 @@ pg.aircraft_template = {
 				0.51,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -36805,8 +40772,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
 		crash_DMG = 180,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -36861,6 +40830,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -36871,8 +40845,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 150,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -36927,6 +40903,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -36937,8 +40918,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan21gai",
 		ACC_growth = 0,
 		crash_DMG = 100,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -36994,6 +40977,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -37004,8 +40992,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
 		crash_DMG = 180,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -37060,6 +41050,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -37070,8 +41065,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 150,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -37126,6 +41123,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -37136,8 +41138,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan21gai",
 		ACC_growth = 0,
 		crash_DMG = 100,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -37193,6 +41197,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -37203,8 +41212,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
 		crash_DMG = 180,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -37259,6 +41270,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -37269,8 +41285,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 150,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -37325,6 +41343,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -37335,8 +41358,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan21gai",
 		ACC_growth = 0,
 		crash_DMG = 100,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -37392,6 +41417,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -37402,8 +41432,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
 		crash_DMG = 180,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -37458,6 +41490,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -37468,8 +41505,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 150,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -37524,6 +41563,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -37534,8 +41578,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan21gai",
 		ACC_growth = 0,
 		crash_DMG = 100,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -37591,6 +41637,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -37601,8 +41652,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
 		crash_DMG = 180,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -37657,6 +41710,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -37667,8 +41725,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 150,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -37723,6 +41783,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -37733,8 +41798,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan21gai",
 		ACC_growth = 0,
 		crash_DMG = 100,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -37790,6 +41857,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -37800,8 +41872,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
 		crash_DMG = 180,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -37856,6 +41930,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -37866,8 +41945,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 150,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -37922,6 +42003,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -37932,8 +42018,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan21gai",
 		ACC_growth = 0,
 		crash_DMG = 100,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -37989,6 +42077,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -37999,8 +42092,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
 		crash_DMG = 180,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -38055,6 +42150,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -38065,8 +42165,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 150,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -38121,6 +42223,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -38131,8 +42238,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan21gai",
 		ACC_growth = 0,
 		crash_DMG = 100,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -38188,18 +42297,25 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
 	[330010] = {
 		name = "第12章空袭 轰炸机",
-		max_hp = 1000,
+		max_hp = 800,
 		accuracy = 23,
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
 		crash_DMG = 300,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -38254,18 +42370,25 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
 	[330020] = {
 		name = "第12章空袭 鱼雷机",
-		max_hp = 1000,
+		max_hp = 800,
 		accuracy = 23,
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 300,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -38320,18 +42443,25 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
 	[330030] = {
 		name = "第12章空袭 战斗机",
-		max_hp = 1000,
+		max_hp = 800,
 		accuracy = 23,
 		model_ID = "lingzhan21gai",
 		ACC_growth = 0,
 		crash_DMG = 300,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -38387,18 +42517,25 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
 	[330403] = {
 		name = "第12章飞鹰战斗机",
-		max_hp = 1000,
+		max_hp = 800,
 		accuracy = 50,
 		model_ID = "lingzhan21",
 		ACC_growth = 0,
-		crash_DMG = 1000,
-		attack_power = 2,
+		crash_DMG = 400,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "lingzhan21",
 		funnel_behavior = "",
@@ -38454,23 +42591,30 @@ pg.aircraft_template = {
 				0.27,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
 	[330503] = {
 		name = "第12章隼鹰轰炸机",
-		max_hp = 1000,
+		max_hp = 800,
 		accuracy = 50,
 		model_ID = "97jiangong",
 		ACC_growth = 0,
-		crash_DMG = 1000,
-		attack_power = 2,
+		crash_DMG = 400,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
 		nationality = 3,
-		hp_growth = 2518,
+		hp_growth = 3377,
 		speed = 33,
 		id = 330503,
 		weapon_ID = {
@@ -38520,28 +42664,475 @@ pg.aircraft_template = {
 				0.51,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
-	[330603] = {
-		name = "第12章飞鹰战斗机-BOSS战用",
+	[340005] = {
+		name = "第13章通用轰炸机",
 		max_hp = 800,
-		accuracy = 50,
-		model_ID = "lingzhan21",
+		accuracy = 35,
+		model_ID = "99shijianbao1",
 		ACC_growth = 0,
-		crash_DMG = 150,
+		crash_DMG = 180,
+		dodge = 1,
+		type = 3,
+		dodge_limit = 0,
 		attack_power = 2,
-		type = 1,
 		AP_growth = 2000,
-		icon = "lingzhan21",
+		icon = "99shijianbao1",
 		funnel_behavior = "",
 		nationality = 3,
-		hp_growth = 2518,
-		speed = 33,
-		id = 330603,
+		hp_growth = 0,
+		speed = 30,
+		id = 340005,
 		weapon_ID = {
-			330505,
-			330507
+			340008
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.71,
+					-1.73,
+					0
+				},
+				{
+					0.82,
+					2.04,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[340006] = {
+		name = "第13章通用鱼雷机",
+		max_hp = 672,
+		accuracy = 35,
+		model_ID = "tianshan",
+		ACC_growth = 0,
+		crash_DMG = 150,
+		dodge = 1,
+		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
+		AP_growth = 2000,
+		icon = "tianshan",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 0,
+		speed = 30,
+		id = 340006,
+		weapon_ID = {
+			340009
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					-1.13,
+					-1.29,
+					0
+				},
+				{
+					-1.25,
+					1.47,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.54,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[340007] = {
+		name = "第13章通用战斗机",
+		max_hp = 512,
+		accuracy = 35,
+		model_ID = "lingzhan52",
+		ACC_growth = 0,
+		crash_DMG = 100,
+		dodge = 1,
+		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
+		AP_growth = 2000,
+		icon = "lingzhan52",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 0,
+		speed = 33,
+		id = 340007,
+		weapon_ID = {
+			340010,
+			340011
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.56,
+					-0.76,
+					0
+				},
+				{
+					0.48,
+					0.99,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[340010] = {
+		name = "第13章空袭 轰炸机",
+		max_hp = 1400,
+		accuracy = 35,
+		model_ID = "99shijianbao1",
+		ACC_growth = 0,
+		crash_DMG = 360,
+		dodge = 1,
+		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
+		AP_growth = 2000,
+		icon = "99shijianbao1",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 0,
+		speed = 30,
+		id = 340010,
+		weapon_ID = {
+			340008
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.71,
+					-1.73,
+					0
+				},
+				{
+					0.82,
+					2.04,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[340020] = {
+		name = "第13章空袭 鱼雷机",
+		max_hp = 1176,
+		accuracy = 35,
+		model_ID = "tianshan",
+		ACC_growth = 0,
+		crash_DMG = 280,
+		dodge = 1,
+		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
+		AP_growth = 2000,
+		icon = "tianshan",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 0,
+		speed = 30,
+		id = 340020,
+		weapon_ID = {
+			340009
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					-1.13,
+					-1.29,
+					0
+				},
+				{
+					-1.25,
+					1.47,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.54,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[340030] = {
+		name = "第13章空袭 战斗机",
+		max_hp = 896,
+		accuracy = 35,
+		model_ID = "lingzhan52",
+		ACC_growth = 0,
+		crash_DMG = 220,
+		dodge = 1,
+		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
+		AP_growth = 2000,
+		icon = "lingzhan52",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 0,
+		speed = 33,
+		id = 340030,
+		weapon_ID = {
+			340010,
+			340011
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.56,
+					-0.76,
+					0
+				},
+				{
+					0.48,
+					0.99,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[340113] = {
+		name = "第13章翔鹤战斗机",
+		max_hp = 960,
+		accuracy = 50,
+		model_ID = "lingzhan52",
+		ACC_growth = 0,
+		crash_DMG = 220,
+		dodge = 1,
+		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
+		AP_growth = 2000,
+		icon = "lingzhan52",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 0,
+		speed = 33,
+		id = 340113,
+		weapon_ID = {
+			340116,
+			340118
 		},
 		position_offset = {
 			0,
@@ -38587,27 +43178,34 @@ pg.aircraft_template = {
 				0.27,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
-	[330703] = {
-		name = "第12章隼鹰轰炸机-BOSS战用",
-		max_hp = 800,
+	[340114] = {
+		name = "第13章翔鹤轰炸机",
+		max_hp = 1500,
 		accuracy = 50,
-		model_ID = "97jiangong",
+		model_ID = "99shijianbao1",
 		ACC_growth = 0,
-		crash_DMG = 200,
-		attack_power = 2,
+		crash_DMG = 400,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
-		icon = "97jiangong",
+		icon = "99shijianbao1",
 		funnel_behavior = "",
 		nationality = 3,
-		hp_growth = 2518,
-		speed = 33,
-		id = 330703,
+		hp_growth = 0,
+		speed = 30,
+		id = 340114,
 		weapon_ID = {
-			330506
+			340117
 		},
 		position_offset = {
 			0,
@@ -38653,6 +43251,1037 @@ pg.aircraft_template = {
 				0.51,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[340123] = {
+		name = "第13章翔鹤战斗机",
+		max_hp = 992,
+		accuracy = 50,
+		model_ID = "lingzhan52",
+		ACC_growth = 0,
+		crash_DMG = 220,
+		dodge = 1,
+		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
+		AP_growth = 2000,
+		icon = "lingzhan52",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 0,
+		speed = 33,
+		id = 340123,
+		weapon_ID = {
+			340126,
+			340128
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.68,
+					-0.667,
+					0
+				},
+				{
+					0.97,
+					0.584,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.27,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[340124] = {
+		name = "第13章翔鹤轰炸机",
+		max_hp = 1550,
+		accuracy = 50,
+		model_ID = "huixing",
+		ACC_growth = 0,
+		crash_DMG = 400,
+		dodge = 1,
+		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
+		AP_growth = 2000,
+		icon = "huixing",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 0,
+		speed = 30,
+		id = 340124,
+		weapon_ID = {
+			340127
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.71,
+					-0.91,
+					0
+				},
+				{
+					0.77,
+					1,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.51,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[340133] = {
+		name = "第13章瑞鹤战斗机",
+		max_hp = 992,
+		accuracy = 50,
+		model_ID = "lingzhan52",
+		ACC_growth = 0,
+		crash_DMG = 220,
+		dodge = 1,
+		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
+		AP_growth = 2000,
+		icon = "lingzhan52",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 0,
+		speed = 33,
+		id = 340133,
+		weapon_ID = {
+			340136,
+			340138
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.68,
+					-0.667,
+					0
+				},
+				{
+					0.97,
+					0.584,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.27,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[340134] = {
+		name = "第13章瑞鹤轰炸机",
+		max_hp = 1550,
+		accuracy = 50,
+		model_ID = "99shijianbao1",
+		ACC_growth = 0,
+		crash_DMG = 400,
+		dodge = 1,
+		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
+		AP_growth = 2000,
+		icon = "99shijianbao1",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 0,
+		speed = 30,
+		id = 340134,
+		weapon_ID = {
+			340137
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.71,
+					-0.91,
+					0
+				},
+				{
+					0.77,
+					1,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.51,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[340141] = {
+		name = "第13章大凤地毯轰炸",
+		max_hp = 1800,
+		accuracy = 50,
+		model_ID = "huixing",
+		ACC_growth = 0,
+		crash_DMG = 540,
+		dodge = 1,
+		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
+		AP_growth = 2000,
+		icon = "huixing",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 0,
+		speed = 30,
+		id = 340141,
+		weapon_ID = {
+			340142
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.71,
+					-1.73,
+					0
+				},
+				{
+					0.82,
+					2.04,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.64,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[340148] = {
+		name = "第13章大凤战斗机",
+		max_hp = 1024,
+		accuracy = 50,
+		model_ID = "lingzhan21",
+		ACC_growth = 0,
+		crash_DMG = 220,
+		dodge = 1,
+		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
+		AP_growth = 2000,
+		icon = "lingzhan21",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 0,
+		speed = 33,
+		id = 340148,
+		weapon_ID = {
+			340150,
+			340152
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.68,
+					-0.667,
+					0
+				},
+				{
+					0.97,
+					0.584,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.27,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[340149] = {
+		name = "第13章大凤轰炸机",
+		max_hp = 1600,
+		accuracy = 50,
+		model_ID = "99shijianbao1",
+		ACC_growth = 0,
+		crash_DMG = 400,
+		dodge = 1,
+		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
+		AP_growth = 2000,
+		icon = "99shijianbao1",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 0,
+		speed = 30,
+		id = 340149,
+		weapon_ID = {
+			340151
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.71,
+					-0.91,
+					0
+				},
+				{
+					0.77,
+					1,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.51,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[340301] = {
+		name = "第13章道中地毯轰炸机",
+		max_hp = 1450,
+		accuracy = 35,
+		model_ID = "huixing",
+		ACC_growth = 0,
+		crash_DMG = 350,
+		dodge = 1,
+		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
+		AP_growth = 2000,
+		icon = "huixing",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 0,
+		speed = 30,
+		id = 340301,
+		weapon_ID = {
+			340301
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.71,
+					-1.73,
+					0
+				},
+				{
+					0.82,
+					2.04,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[340302] = {
+		name = "第13章BOSS轰炸-瑞鹤用飞机",
+		max_hp = 1650,
+		accuracy = 50,
+		model_ID = "huixing",
+		ACC_growth = 0,
+		crash_DMG = 450,
+		dodge = 1,
+		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
+		AP_growth = 2000,
+		icon = "huixing",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 0,
+		speed = 30,
+		id = 340302,
+		weapon_ID = {
+			340303
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.71,
+					-1.73,
+					0
+				},
+				{
+					0.82,
+					2.04,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[340304] = {
+		name = "第13章瑞鹤战斗机",
+		max_hp = 560,
+		accuracy = 50,
+		model_ID = "lingzhan52",
+		ACC_growth = 0,
+		crash_DMG = 100,
+		dodge = 1,
+		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
+		AP_growth = 2000,
+		icon = "lingzhan52",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 0,
+		speed = 33,
+		id = 340304,
+		weapon_ID = {
+			340138
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.68,
+					-0.667,
+					0
+				},
+				{
+					0.97,
+					0.584,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.27,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[340305] = {
+		name = "第13章大凤战斗机",
+		max_hp = 620,
+		accuracy = 50,
+		model_ID = "liefeng",
+		ACC_growth = 0,
+		crash_DMG = 100,
+		dodge = 1,
+		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
+		AP_growth = 2000,
+		icon = "liefeng",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 0,
+		speed = 33,
+		id = 340305,
+		weapon_ID = {
+			340152
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.68,
+					-0.667,
+					0
+				},
+				{
+					0.97,
+					0.584,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.27,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[340306] = {
+		name = "第13章指挥舰用飞机",
+		max_hp = 1650,
+		accuracy = 35,
+		model_ID = "huixing",
+		ACC_growth = 0,
+		crash_DMG = 450,
+		dodge = 1,
+		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
+		AP_growth = 2000,
+		icon = "huixing",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 0,
+		speed = 30,
+		id = 340306,
+		weapon_ID = {
+			340307
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.71,
+					-1.73,
+					0
+				},
+				{
+					0.82,
+					2.04,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[340308] = {
+		name = "第13章指挥舰战斗机",
+		max_hp = 560,
+		accuracy = 35,
+		model_ID = "lingzhan52",
+		ACC_growth = 0,
+		crash_DMG = 100,
+		dodge = 1,
+		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
+		AP_growth = 2000,
+		icon = "lingzhan52",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 0,
+		speed = 33,
+		id = 340308,
+		weapon_ID = {
+			340118
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.68,
+					-0.667,
+					0
+				},
+				{
+					0.97,
+					0.584,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.27,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[340310] = {
+		name = "第13章飞鹰&隼鹰战斗机",
+		max_hp = 928,
+		accuracy = 35,
+		model_ID = "lingzhan52",
+		ACC_growth = 0,
+		crash_DMG = 220,
+		dodge = 1,
+		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
+		AP_growth = 2000,
+		icon = "lingzhan52",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 0,
+		speed = 33,
+		id = 340310,
+		weapon_ID = {
+			340311,
+			340312
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.68,
+					-0.667,
+					0
+				},
+				{
+					0.97,
+					0.584,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.27,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -38663,8 +44292,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 65,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -38719,6 +44350,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -38729,8 +44365,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 36,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -38786,6 +44424,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -38796,8 +44439,10 @@ pg.aircraft_template = {
 		model_ID = "qibolin",
 		ACC_growth = 0,
 		crash_DMG = 52,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "qibolin",
 		funnel_behavior = "",
@@ -38852,6 +44497,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -38862,8 +44512,10 @@ pg.aircraft_template = {
 		model_ID = "BF109T",
 		ACC_growth = 0,
 		crash_DMG = 36,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "BF109T",
 		funnel_behavior = "",
@@ -38919,6 +44571,11 @@ pg.aircraft_template = {
 				0.27,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -38929,8 +44586,10 @@ pg.aircraft_template = {
 		model_ID = "JU87C",
 		ACC_growth = 0,
 		crash_DMG = 65,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "JU87C",
 		funnel_behavior = "",
@@ -38986,6 +44645,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -38996,8 +44660,10 @@ pg.aircraft_template = {
 		model_ID = "Me155A",
 		ACC_growth = 0,
 		crash_DMG = 42,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "Me155A",
 		funnel_behavior = "",
@@ -39053,6 +44719,11 @@ pg.aircraft_template = {
 				0.51,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -39063,8 +44734,10 @@ pg.aircraft_template = {
 		model_ID = "JU87C",
 		ACC_growth = 0,
 		crash_DMG = 65,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "JU87C",
 		funnel_behavior = "",
@@ -39119,6 +44792,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -39129,8 +44807,10 @@ pg.aircraft_template = {
 		model_ID = "qibolin",
 		ACC_growth = 0,
 		crash_DMG = 52,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "qibolin",
 		funnel_behavior = "",
@@ -39185,6 +44865,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -39195,8 +44880,10 @@ pg.aircraft_template = {
 		model_ID = "BF109T",
 		ACC_growth = 0,
 		crash_DMG = 36,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "BF109T",
 		funnel_behavior = "",
@@ -39252,6 +44939,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -39262,8 +44954,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 85,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -39318,6 +45012,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -39328,8 +45027,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 48,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -39385,6 +45086,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -39395,8 +45101,10 @@ pg.aircraft_template = {
 		model_ID = "qibolin",
 		ACC_growth = 0,
 		crash_DMG = 69,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "qibolin",
 		funnel_behavior = "",
@@ -39451,6 +45159,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -39461,8 +45174,10 @@ pg.aircraft_template = {
 		model_ID = "BF109T",
 		ACC_growth = 0,
 		crash_DMG = 48,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "BF109T",
 		funnel_behavior = "",
@@ -39518,6 +45233,11 @@ pg.aircraft_template = {
 				0.27,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -39528,8 +45248,10 @@ pg.aircraft_template = {
 		model_ID = "JU87C",
 		ACC_growth = 0,
 		crash_DMG = 85,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "JU87C",
 		funnel_behavior = "",
@@ -39585,6 +45307,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -39595,8 +45322,10 @@ pg.aircraft_template = {
 		model_ID = "Me155A",
 		ACC_growth = 0,
 		crash_DMG = 56,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "Me155A",
 		funnel_behavior = "",
@@ -39652,6 +45381,11 @@ pg.aircraft_template = {
 				0.51,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -39662,8 +45396,10 @@ pg.aircraft_template = {
 		model_ID = "BF109T",
 		ACC_growth = 0,
 		crash_DMG = 48,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "BF109T",
 		funnel_behavior = "",
@@ -39719,6 +45455,11 @@ pg.aircraft_template = {
 				0.27,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -39729,8 +45470,10 @@ pg.aircraft_template = {
 		model_ID = "JU87C",
 		ACC_growth = 0,
 		crash_DMG = 85,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "JU87C",
 		funnel_behavior = "",
@@ -39786,6 +45529,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -39796,8 +45544,10 @@ pg.aircraft_template = {
 		model_ID = "Me155A",
 		ACC_growth = 0,
 		crash_DMG = 56,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "Me155A",
 		funnel_behavior = "",
@@ -39853,6 +45603,11 @@ pg.aircraft_template = {
 				0.51,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -39863,8 +45618,10 @@ pg.aircraft_template = {
 		model_ID = "fuyoupao",
 		ACC_growth = 0,
 		crash_DMG = 170,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "fuyoupao",
 		nationality = 3,
@@ -39922,6 +45679,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -39932,8 +45694,10 @@ pg.aircraft_template = {
 		model_ID = "JU87C",
 		ACC_growth = 0,
 		crash_DMG = 85,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "JU87C",
 		funnel_behavior = "",
@@ -39988,6 +45752,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -39998,8 +45767,10 @@ pg.aircraft_template = {
 		model_ID = "qibolin",
 		ACC_growth = 0,
 		crash_DMG = 69,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "qibolin",
 		funnel_behavior = "",
@@ -40054,6 +45825,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -40064,8 +45840,10 @@ pg.aircraft_template = {
 		model_ID = "BF109T",
 		ACC_growth = 0,
 		crash_DMG = 48,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "BF109T",
 		funnel_behavior = "",
@@ -40121,6 +45899,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -40131,8 +45914,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 110,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -40187,6 +45972,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -40197,8 +45987,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 62,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -40254,6 +46046,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -40264,8 +46061,10 @@ pg.aircraft_template = {
 		model_ID = "qibolin",
 		ACC_growth = 0,
 		crash_DMG = 89,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "qibolin",
 		funnel_behavior = "",
@@ -40320,6 +46119,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -40330,8 +46134,10 @@ pg.aircraft_template = {
 		model_ID = "BF109T",
 		ACC_growth = 0,
 		crash_DMG = 62,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "BF109T",
 		funnel_behavior = "",
@@ -40387,6 +46193,11 @@ pg.aircraft_template = {
 				0.27,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -40397,8 +46208,10 @@ pg.aircraft_template = {
 		model_ID = "JU87C",
 		ACC_growth = 0,
 		crash_DMG = 110,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "JU87C",
 		funnel_behavior = "",
@@ -40454,6 +46267,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -40464,8 +46282,10 @@ pg.aircraft_template = {
 		model_ID = "Me155A",
 		ACC_growth = 0,
 		crash_DMG = 72,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "Me155A",
 		funnel_behavior = "",
@@ -40521,6 +46341,11 @@ pg.aircraft_template = {
 				0.51,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -40531,8 +46356,10 @@ pg.aircraft_template = {
 		model_ID = "JU87C",
 		ACC_growth = 0,
 		crash_DMG = 110,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "JU87C",
 		funnel_behavior = "",
@@ -40587,6 +46414,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -40597,8 +46429,10 @@ pg.aircraft_template = {
 		model_ID = "qibolin",
 		ACC_growth = 0,
 		crash_DMG = 89,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "qibolin",
 		funnel_behavior = "",
@@ -40653,6 +46487,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -40663,8 +46502,10 @@ pg.aircraft_template = {
 		model_ID = "BF109T",
 		ACC_growth = 0,
 		crash_DMG = 62,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "BF109T",
 		funnel_behavior = "",
@@ -40720,6 +46561,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -40730,8 +46576,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 140,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -40786,6 +46634,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -40796,8 +46649,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 79,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -40853,6 +46708,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -40863,8 +46723,10 @@ pg.aircraft_template = {
 		model_ID = "qibolin",
 		ACC_growth = 0,
 		crash_DMG = 114,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "qibolin",
 		funnel_behavior = "",
@@ -40919,6 +46781,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -40929,8 +46796,10 @@ pg.aircraft_template = {
 		model_ID = "BF109T",
 		ACC_growth = 0,
 		crash_DMG = 79,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "BF109T",
 		funnel_behavior = "",
@@ -40986,6 +46855,11 @@ pg.aircraft_template = {
 				0.27,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -40996,8 +46870,10 @@ pg.aircraft_template = {
 		model_ID = "JU87C",
 		ACC_growth = 0,
 		crash_DMG = 140,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "JU87C",
 		funnel_behavior = "",
@@ -41053,6 +46929,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -41063,8 +46944,10 @@ pg.aircraft_template = {
 		model_ID = "Me155A",
 		ACC_growth = 0,
 		crash_DMG = 92,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "Me155A",
 		funnel_behavior = "",
@@ -41120,6 +47003,11 @@ pg.aircraft_template = {
 				0.51,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -41130,8 +47018,10 @@ pg.aircraft_template = {
 		model_ID = "BF109T",
 		ACC_growth = 0,
 		crash_DMG = 79,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "BF109T",
 		funnel_behavior = "",
@@ -41187,6 +47077,11 @@ pg.aircraft_template = {
 				0.27,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -41197,8 +47092,10 @@ pg.aircraft_template = {
 		model_ID = "JU87C",
 		ACC_growth = 0,
 		crash_DMG = 140,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "JU87C",
 		funnel_behavior = "",
@@ -41254,6 +47151,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -41264,8 +47166,10 @@ pg.aircraft_template = {
 		model_ID = "Me155A",
 		ACC_growth = 0,
 		crash_DMG = 92,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "Me155A",
 		funnel_behavior = "",
@@ -41321,6 +47225,11 @@ pg.aircraft_template = {
 				0.51,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -41331,8 +47240,10 @@ pg.aircraft_template = {
 		model_ID = "fuyoupao",
 		ACC_growth = 0,
 		crash_DMG = 280,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "fuyoupao",
 		nationality = 3,
@@ -41391,6 +47302,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -41401,8 +47317,10 @@ pg.aircraft_template = {
 		model_ID = "JU87C",
 		ACC_growth = 0,
 		crash_DMG = 140,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "JU87C",
 		funnel_behavior = "",
@@ -41457,6 +47375,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -41467,8 +47390,10 @@ pg.aircraft_template = {
 		model_ID = "qibolin",
 		ACC_growth = 0,
 		crash_DMG = 114,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "qibolin",
 		funnel_behavior = "",
@@ -41523,6 +47448,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -41533,8 +47463,10 @@ pg.aircraft_template = {
 		model_ID = "BF109T",
 		ACC_growth = 0,
 		crash_DMG = 79,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "BF109T",
 		funnel_behavior = "",
@@ -41590,6 +47522,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -41600,8 +47537,10 @@ pg.aircraft_template = {
 		model_ID = "qibolin",
 		ACC_growth = 0,
 		crash_DMG = 150,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "qibolin",
 		funnel_behavior = "",
@@ -41656,6 +47595,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -41666,8 +47610,10 @@ pg.aircraft_template = {
 		model_ID = "BF109T",
 		ACC_growth = 0,
 		crash_DMG = 180,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "BF109T",
 		funnel_behavior = "",
@@ -41723,6 +47669,11 @@ pg.aircraft_template = {
 				0.27,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -41733,8 +47684,10 @@ pg.aircraft_template = {
 		model_ID = "JU87C",
 		ACC_growth = 0,
 		crash_DMG = 216,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "JU87C",
 		funnel_behavior = "",
@@ -41789,6 +47742,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -41799,8 +47757,10 @@ pg.aircraft_template = {
 		model_ID = "Me155A",
 		ACC_growth = 0,
 		crash_DMG = 220,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "Me155A",
 		funnel_behavior = "",
@@ -41856,6 +47816,11 @@ pg.aircraft_template = {
 				0.51,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -41866,8 +47831,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 57,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -41922,6 +47889,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -41932,8 +47904,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
 		crash_DMG = 78,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -41988,6 +47962,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -41998,8 +47977,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan21gai",
 		ACC_growth = 0,
 		crash_DMG = 39,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -42055,6 +48036,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -42065,8 +48051,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
 		crash_DMG = 78,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -42121,6 +48109,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -42131,8 +48124,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 57,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -42187,6 +48182,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -42197,8 +48197,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan21gai",
 		ACC_growth = 0,
 		crash_DMG = 39,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -42254,6 +48256,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -42264,8 +48271,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
 		crash_DMG = 155,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -42320,6 +48329,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -42330,8 +48344,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 115,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -42386,6 +48402,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -42396,8 +48417,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan21gai",
 		ACC_growth = 0,
 		crash_DMG = 90,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -42453,6 +48476,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -42463,8 +48491,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
 		crash_DMG = 155,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -42519,6 +48549,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -42529,8 +48564,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 115,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -42585,6 +48622,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -42595,8 +48637,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan21gai",
 		ACC_growth = 0,
 		crash_DMG = 90,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -42652,6 +48696,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -42662,8 +48711,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
 		crash_DMG = 78,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -42718,6 +48769,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -42728,8 +48784,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 57,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -42784,6 +48842,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -42794,8 +48857,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan21gai",
 		ACC_growth = 0,
 		crash_DMG = 39,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -42851,6 +48916,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -42861,8 +48931,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan52",
 		ACC_growth = 0,
 		crash_DMG = 180,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "lingzhan52",
 		funnel_behavior = "",
@@ -42917,6 +48989,11 @@ pg.aircraft_template = {
 				0.51,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -42927,8 +49004,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan21gai",
 		ACC_growth = 0,
 		crash_DMG = 165,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -42983,6 +49062,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -42993,8 +49077,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 260,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -43049,6 +49135,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -43059,8 +49150,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao2",
 		ACC_growth = 0,
 		crash_DMG = 320,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao2",
 		funnel_behavior = "",
@@ -43115,6 +49208,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -43125,8 +49223,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan52",
 		ACC_growth = 0,
 		crash_DMG = 90,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "lingzhan52",
 		funnel_behavior = "",
@@ -43181,6 +49281,11 @@ pg.aircraft_template = {
 				0.51,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -43191,8 +49296,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan21gai",
 		ACC_growth = 0,
 		crash_DMG = 85,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -43247,6 +49354,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -43257,8 +49369,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 130,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -43313,6 +49427,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -43323,8 +49442,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao2",
 		ACC_growth = 0,
 		crash_DMG = 160,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao2",
 		funnel_behavior = "",
@@ -43379,6 +49500,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -43389,8 +49515,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan52",
 		ACC_growth = 0,
 		crash_DMG = 108,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "lingzhan52",
 		funnel_behavior = "",
@@ -43445,6 +49573,11 @@ pg.aircraft_template = {
 				0.51,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -43455,8 +49588,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan21gai",
 		ACC_growth = 0,
 		crash_DMG = 99,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -43511,6 +49646,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -43521,8 +49661,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 156,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -43577,6 +49719,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -43587,8 +49734,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao2",
 		ACC_growth = 0,
 		crash_DMG = 192,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao2",
 		funnel_behavior = "",
@@ -43643,6 +49792,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -43653,8 +49807,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan52",
 		ACC_growth = 0,
 		crash_DMG = 184,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "lingzhan52",
 		funnel_behavior = "",
@@ -43709,6 +49865,11 @@ pg.aircraft_template = {
 				0.51,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -43719,8 +49880,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan21gai",
 		ACC_growth = 0,
 		crash_DMG = 172,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -43775,6 +49938,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -43785,8 +49953,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 248,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -43841,6 +50011,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -43851,8 +50026,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao2",
 		ACC_growth = 0,
 		crash_DMG = 296,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao2",
 		funnel_behavior = "",
@@ -43907,6 +50084,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -43917,8 +50099,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan52",
 		ACC_growth = 0,
 		crash_DMG = 220,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "lingzhan52",
 		funnel_behavior = "",
@@ -43973,6 +50157,11 @@ pg.aircraft_template = {
 				0.51,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -43983,8 +50172,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan21gai",
 		ACC_growth = 0,
 		crash_DMG = 205,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -44039,6 +50230,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -44049,8 +50245,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 300,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -44105,6 +50303,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -44115,8 +50318,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao2",
 		ACC_growth = 0,
 		crash_DMG = 360,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao2",
 		funnel_behavior = "",
@@ -44171,6 +50376,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -44181,8 +50391,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan52",
 		ACC_growth = 0,
 		crash_DMG = 90,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "lingzhan52",
 		funnel_behavior = "",
@@ -44237,6 +50449,11 @@ pg.aircraft_template = {
 				0.51,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -44247,8 +50464,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan21gai",
 		ACC_growth = 0,
 		crash_DMG = 85,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -44303,6 +50522,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -44313,8 +50537,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 130,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -44369,6 +50595,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -44379,8 +50610,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao2",
 		ACC_growth = 0,
 		crash_DMG = 160,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao2",
 		funnel_behavior = "",
@@ -44435,6 +50668,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -44445,8 +50683,10 @@ pg.aircraft_template = {
 		model_ID = "ruiyun",
 		ACC_growth = 0,
 		crash_DMG = 150,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "ruiyun",
 		funnel_behavior = "",
@@ -44501,6 +50741,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -44511,8 +50756,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
 		crash_DMG = 160,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -44567,6 +50814,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -44577,8 +50829,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 130,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -44633,6 +50887,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -44643,8 +50902,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan21gai",
 		ACC_growth = 0,
 		crash_DMG = 90,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -44700,6 +50961,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -44710,8 +50976,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
 		crash_DMG = 160,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -44766,6 +51034,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -44776,8 +51049,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 130,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -44832,6 +51107,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -44842,8 +51122,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan21gai",
 		ACC_growth = 0,
 		crash_DMG = 90,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -44899,6 +51181,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -44909,8 +51196,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
 		crash_DMG = 160,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -44965,6 +51254,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -44975,8 +51269,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 130,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -45031,6 +51327,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -45041,8 +51342,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan21gai",
 		ACC_growth = 0,
 		crash_DMG = 90,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -45098,6 +51401,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -45108,8 +51416,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
 		crash_DMG = 160,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -45164,6 +51474,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -45174,8 +51489,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 130,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -45230,6 +51547,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -45240,8 +51562,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan21gai",
 		ACC_growth = 0,
 		crash_DMG = 90,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -45297,6 +51621,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -45307,8 +51636,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
 		crash_DMG = 160,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -45363,6 +51694,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -45373,8 +51709,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 130,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -45429,6 +51767,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -45439,8 +51782,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan21gai",
 		ACC_growth = 0,
 		crash_DMG = 90,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -45496,6 +51841,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -45506,8 +51856,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
 		crash_DMG = 160,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -45562,6 +51914,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -45572,8 +51929,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 130,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -45628,6 +51987,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -45638,8 +52002,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan21gai",
 		ACC_growth = 0,
 		crash_DMG = 90,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -45695,6 +52061,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -45705,8 +52076,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
 		crash_DMG = 160,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -45761,6 +52134,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -45771,8 +52149,10 @@ pg.aircraft_template = {
 		model_ID = "liuxing",
 		ACC_growth = 0,
 		crash_DMG = 130,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "liuxing",
 		funnel_behavior = "",
@@ -45827,6 +52207,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -45837,8 +52222,10 @@ pg.aircraft_template = {
 		model_ID = "liefeng",
 		ACC_growth = 0,
 		crash_DMG = 90,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "liefeng",
 		funnel_behavior = "",
@@ -45894,6 +52281,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -45904,8 +52296,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
 		crash_DMG = 160,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -45960,6 +52354,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -45970,8 +52369,10 @@ pg.aircraft_template = {
 		model_ID = "liuxing",
 		ACC_growth = 0,
 		crash_DMG = 130,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "liuxing",
 		funnel_behavior = "",
@@ -46026,6 +52427,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -46036,8 +52442,10 @@ pg.aircraft_template = {
 		model_ID = "liefeng",
 		ACC_growth = 0,
 		crash_DMG = 90,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "liefeng",
 		funnel_behavior = "",
@@ -46093,6 +52501,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -46103,8 +52516,10 @@ pg.aircraft_template = {
 		model_ID = "liefeng",
 		ACC_growth = 0,
 		crash_DMG = 125,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "liefeng",
 		funnel_behavior = "",
@@ -46159,6 +52574,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -46169,8 +52589,10 @@ pg.aircraft_template = {
 		model_ID = "liefeng",
 		ACC_growth = 0,
 		crash_DMG = 500,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "liefeng",
 		nationality = 3,
@@ -46228,6 +52650,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -46238,8 +52665,10 @@ pg.aircraft_template = {
 		model_ID = "liefeng",
 		ACC_growth = 0,
 		crash_DMG = 125,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "liefeng",
 		funnel_behavior = "",
@@ -46294,6 +52723,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -46304,8 +52738,10 @@ pg.aircraft_template = {
 		model_ID = "liefeng",
 		ACC_growth = 0,
 		crash_DMG = 500,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "liefeng",
 		nationality = 3,
@@ -46363,6 +52799,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -46373,8 +52814,10 @@ pg.aircraft_template = {
 		model_ID = "liefeng",
 		ACC_growth = 0,
 		crash_DMG = 125,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "liefeng",
 		funnel_behavior = "",
@@ -46429,6 +52872,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -46439,8 +52887,10 @@ pg.aircraft_template = {
 		model_ID = "liefeng",
 		ACC_growth = 0,
 		crash_DMG = 500,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "liefeng",
 		nationality = 3,
@@ -46498,6 +52948,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -46508,8 +52963,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
 		crash_DMG = 180,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -46564,6 +53021,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -46574,8 +53036,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 150,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -46630,6 +53094,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -46640,8 +53109,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
 		crash_DMG = 180,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -46696,6 +53167,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -46706,8 +53182,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 150,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -46762,6 +53240,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -46772,8 +53255,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
 		crash_DMG = 180,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -46828,6 +53313,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -46838,8 +53328,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 150,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -46894,6 +53386,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -46904,8 +53401,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
 		crash_DMG = 180,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -46960,6 +53459,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -46970,8 +53474,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 150,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -47026,6 +53532,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -47036,8 +53547,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan21gai",
 		ACC_growth = 0,
 		crash_DMG = 100,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -47093,6 +53606,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -47103,8 +53621,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
 		crash_DMG = 180,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -47159,6 +53679,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -47169,8 +53694,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 150,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -47225,6 +53752,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -47235,8 +53767,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan21gai",
 		ACC_growth = 0,
 		crash_DMG = 100,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -47292,6 +53826,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -47302,8 +53841,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
 		crash_DMG = 180,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -47358,6 +53899,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -47368,8 +53914,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 150,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -47424,6 +53972,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -47434,8 +53987,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan21gai",
 		ACC_growth = 0,
 		crash_DMG = 100,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -47491,6 +54046,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -47501,8 +54061,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
 		crash_DMG = 180,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -47557,6 +54119,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -47567,8 +54134,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 150,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -47623,6 +54192,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -47633,8 +54207,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan21gai",
 		ACC_growth = 0,
 		crash_DMG = 100,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -47690,6 +54266,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -47700,8 +54281,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
 		crash_DMG = 180,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -47756,6 +54339,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -47766,8 +54354,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 150,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -47822,6 +54412,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -47832,8 +54427,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan21gai",
 		ACC_growth = 0,
 		crash_DMG = 100,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -47889,6 +54486,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -47899,8 +54501,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
 		crash_DMG = 180,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -47955,6 +54559,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -47965,8 +54574,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 150,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -48021,6 +54632,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -48031,8 +54647,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan21gai",
 		ACC_growth = 0,
 		crash_DMG = 100,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -48088,6 +54706,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -48098,8 +54721,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
 		crash_DMG = 180,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -48154,6 +54779,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -48164,8 +54794,10 @@ pg.aircraft_template = {
 		model_ID = "liuxing",
 		ACC_growth = 0,
 		crash_DMG = 150,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "liuxing",
 		funnel_behavior = "",
@@ -48220,6 +54852,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -48230,8 +54867,10 @@ pg.aircraft_template = {
 		model_ID = "liefeng",
 		ACC_growth = 0,
 		crash_DMG = 100,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "liefeng",
 		funnel_behavior = "",
@@ -48287,6 +54926,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -48297,8 +54941,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
 		crash_DMG = 180,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -48353,6 +54999,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -48363,8 +55014,10 @@ pg.aircraft_template = {
 		model_ID = "liuxing",
 		ACC_growth = 0,
 		crash_DMG = 150,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "liuxing",
 		funnel_behavior = "",
@@ -48419,6 +55072,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -48429,8 +55087,10 @@ pg.aircraft_template = {
 		model_ID = "liefeng",
 		ACC_growth = 0,
 		crash_DMG = 100,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "liefeng",
 		funnel_behavior = "",
@@ -48486,6 +55146,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -48496,8 +55161,10 @@ pg.aircraft_template = {
 		model_ID = "ruiyun",
 		ACC_growth = 0,
 		crash_DMG = 354,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "ruiyun",
 		funnel_behavior = "",
@@ -48552,6 +55219,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -48562,8 +55234,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
 		crash_DMG = 180,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -48618,6 +55292,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -48628,8 +55307,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 150,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -48684,6 +55365,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -48694,8 +55380,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan21gai",
 		ACC_growth = 0,
 		crash_DMG = 100,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -48751,6 +55439,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -48761,8 +55454,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
 		crash_DMG = 180,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -48817,6 +55512,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -48827,8 +55527,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 150,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -48883,6 +55585,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -48893,8 +55600,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan21gai",
 		ACC_growth = 0,
 		crash_DMG = 100,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -48950,6 +55659,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -48960,8 +55674,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
 		crash_DMG = 180,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -49016,6 +55732,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -49026,8 +55747,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 150,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -49082,6 +55805,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -49092,8 +55820,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan21gai",
 		ACC_growth = 0,
 		crash_DMG = 100,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -49149,6 +55879,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -49159,8 +55894,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
 		crash_DMG = 180,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -49215,6 +55952,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -49225,8 +55967,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 150,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -49281,6 +56025,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -49291,8 +56040,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan21gai",
 		ACC_growth = 0,
 		crash_DMG = 100,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -49348,6 +56099,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -49358,8 +56114,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
 		crash_DMG = 180,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -49414,6 +56172,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -49424,8 +56187,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 150,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -49480,6 +56245,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -49490,8 +56260,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan21gai",
 		ACC_growth = 0,
 		crash_DMG = 100,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -49547,6 +56319,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -49557,8 +56334,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
 		crash_DMG = 180,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -49613,6 +56392,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -49623,8 +56407,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 150,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -49679,6 +56465,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -49689,8 +56480,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan21gai",
 		ACC_growth = 0,
 		crash_DMG = 100,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -49746,6 +56539,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -49756,8 +56554,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
 		crash_DMG = 180,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -49812,6 +56612,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -49822,8 +56627,10 @@ pg.aircraft_template = {
 		model_ID = "liuxing",
 		ACC_growth = 0,
 		crash_DMG = 150,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "liuxing",
 		funnel_behavior = "",
@@ -49878,6 +56685,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -49888,8 +56700,10 @@ pg.aircraft_template = {
 		model_ID = "liefeng",
 		ACC_growth = 0,
 		crash_DMG = 100,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "liefeng",
 		funnel_behavior = "",
@@ -49945,6 +56759,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -49955,8 +56774,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
 		crash_DMG = 180,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -50011,6 +56832,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -50021,8 +56847,10 @@ pg.aircraft_template = {
 		model_ID = "liuxing",
 		ACC_growth = 0,
 		crash_DMG = 150,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "liuxing",
 		funnel_behavior = "",
@@ -50077,6 +56905,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -50087,8 +56920,10 @@ pg.aircraft_template = {
 		model_ID = "liefeng",
 		ACC_growth = 0,
 		crash_DMG = 100,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "liefeng",
 		funnel_behavior = "",
@@ -50144,6 +56979,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -50154,8 +56994,10 @@ pg.aircraft_template = {
 		model_ID = "liefeng",
 		ACC_growth = 0,
 		crash_DMG = 210,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "liefeng",
 		funnel_behavior = "",
@@ -50210,6 +57052,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -50220,8 +57067,10 @@ pg.aircraft_template = {
 		model_ID = "liefeng",
 		ACC_growth = 0,
 		crash_DMG = 500,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "liefeng",
 		nationality = 3,
@@ -50279,6 +57128,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -50289,8 +57143,10 @@ pg.aircraft_template = {
 		model_ID = "liefeng",
 		ACC_growth = 0,
 		crash_DMG = 165,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "liefeng",
 		funnel_behavior = "",
@@ -50345,6 +57201,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -50355,8 +57216,10 @@ pg.aircraft_template = {
 		model_ID = "liefeng",
 		ACC_growth = 0,
 		crash_DMG = 500,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "liefeng",
 		nationality = 3,
@@ -50414,6 +57277,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -50424,8 +57292,10 @@ pg.aircraft_template = {
 		model_ID = "liefeng",
 		ACC_growth = 0,
 		crash_DMG = 165,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "liefeng",
 		funnel_behavior = "",
@@ -50480,6 +57350,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -50490,8 +57365,10 @@ pg.aircraft_template = {
 		model_ID = "liefeng",
 		ACC_growth = 0,
 		crash_DMG = 500,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "liefeng",
 		nationality = 3,
@@ -50549,6 +57426,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -50559,8 +57441,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
 		crash_DMG = 360,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -50615,6 +57499,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -50625,8 +57514,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 300,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -50681,6 +57572,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -50691,8 +57587,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
 		crash_DMG = 280,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -50747,6 +57645,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -50757,8 +57660,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 240,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -50813,6 +57718,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -50823,8 +57733,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
 		crash_DMG = 280,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -50879,6 +57791,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -50889,8 +57806,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 240,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -50945,6 +57864,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -50955,8 +57879,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
 		crash_DMG = 300,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -51011,6 +57937,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -51021,8 +57952,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 240,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -51077,6 +58010,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -51087,8 +58025,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan21gai",
 		ACC_growth = 0,
 		crash_DMG = 125,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -51144,6 +58084,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -51154,8 +58099,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
 		crash_DMG = 260,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -51210,6 +58157,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -51220,8 +58172,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 200,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -51276,6 +58230,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -51286,8 +58245,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan21gai",
 		ACC_growth = 0,
 		crash_DMG = 125,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -51343,6 +58304,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -51353,8 +58319,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
 		crash_DMG = 260,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -51409,6 +58377,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -51419,8 +58392,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 200,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -51475,6 +58450,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -51485,8 +58465,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan21gai",
 		ACC_growth = 0,
 		crash_DMG = 125,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -51542,6 +58524,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -51552,8 +58539,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
 		crash_DMG = 260,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -51608,6 +58597,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -51618,8 +58612,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 200,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -51674,6 +58670,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -51684,8 +58685,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan21gai",
 		ACC_growth = 0,
 		crash_DMG = 125,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -51741,6 +58744,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -51751,8 +58759,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
 		crash_DMG = 260,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -51807,6 +58817,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -51817,8 +58832,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 200,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -51873,6 +58890,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -51883,8 +58905,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan21gai",
 		ACC_growth = 0,
 		crash_DMG = 125,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -51940,6 +58964,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -51950,8 +58979,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
 		crash_DMG = 260,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -52006,6 +59037,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -52016,8 +59052,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 200,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -52072,6 +59110,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -52082,8 +59125,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan21gai",
 		ACC_growth = 0,
 		crash_DMG = 125,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -52139,6 +59184,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -52149,8 +59199,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
 		crash_DMG = 260,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -52205,6 +59257,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -52215,8 +59272,10 @@ pg.aircraft_template = {
 		model_ID = "liuxing",
 		ACC_growth = 0,
 		crash_DMG = 200,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "liuxing",
 		funnel_behavior = "",
@@ -52271,6 +59330,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -52281,8 +59345,10 @@ pg.aircraft_template = {
 		model_ID = "liefeng",
 		ACC_growth = 0,
 		crash_DMG = 125,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "liefeng",
 		funnel_behavior = "",
@@ -52338,6 +59404,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -52348,8 +59419,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
 		crash_DMG = 260,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -52404,6 +59477,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -52414,8 +59492,10 @@ pg.aircraft_template = {
 		model_ID = "liuxing",
 		ACC_growth = 0,
 		crash_DMG = 200,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "liuxing",
 		funnel_behavior = "",
@@ -52470,6 +59550,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -52480,8 +59565,10 @@ pg.aircraft_template = {
 		model_ID = "liefeng",
 		ACC_growth = 0,
 		crash_DMG = 125,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "liefeng",
 		funnel_behavior = "",
@@ -52537,6 +59624,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -52547,8 +59639,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan21gai",
 		ACC_growth = 0,
 		crash_DMG = 125,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -52603,6 +59697,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -52613,8 +59712,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan21gai",
 		ACC_growth = 0,
 		crash_DMG = 125,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -52669,6 +59770,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -52679,8 +59785,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
 		crash_DMG = 260,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -52735,6 +59843,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -52745,8 +59858,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 200,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -52801,6 +59916,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -52811,8 +59931,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
 		crash_DMG = 260,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -52867,6 +59989,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -52877,8 +60004,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 200,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -52933,6 +60062,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -52943,8 +60077,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
 		crash_DMG = 300,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -52999,6 +60135,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -53009,8 +60150,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 240,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -53065,6 +60208,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -53075,8 +60223,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan21gai",
 		ACC_growth = 0,
 		crash_DMG = 125,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -53132,6 +60282,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -53142,8 +60297,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
 		crash_DMG = 260,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -53198,6 +60355,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -53208,8 +60370,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 200,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -53264,6 +60428,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -53274,8 +60443,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan21gai",
 		ACC_growth = 0,
 		crash_DMG = 125,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -53331,6 +60502,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -53341,8 +60517,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
 		crash_DMG = 260,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -53397,6 +60575,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -53407,8 +60590,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 200,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -53463,6 +60648,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -53473,8 +60663,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan21gai",
 		ACC_growth = 0,
 		crash_DMG = 125,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -53530,6 +60722,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -53540,8 +60737,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
 		crash_DMG = 260,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -53596,6 +60795,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -53606,8 +60810,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 200,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -53662,6 +60868,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -53672,8 +60883,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan21gai",
 		ACC_growth = 0,
 		crash_DMG = 125,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -53729,6 +60942,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -53739,8 +60957,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
 		crash_DMG = 260,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -53795,6 +61015,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -53805,8 +61030,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 200,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -53861,6 +61088,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -53871,8 +61103,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan21gai",
 		ACC_growth = 0,
 		crash_DMG = 125,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -53928,6 +61162,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -53938,8 +61177,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
 		crash_DMG = 260,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -53994,6 +61235,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -54004,8 +61250,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 200,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -54060,6 +61308,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -54070,8 +61323,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan21gai",
 		ACC_growth = 0,
 		crash_DMG = 125,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -54127,6 +61382,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -54137,8 +61397,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
 		crash_DMG = 260,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -54193,6 +61455,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -54203,8 +61470,10 @@ pg.aircraft_template = {
 		model_ID = "liuxing",
 		ACC_growth = 0,
 		crash_DMG = 200,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "liuxing",
 		funnel_behavior = "",
@@ -54259,6 +61528,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -54269,8 +61543,10 @@ pg.aircraft_template = {
 		model_ID = "liefeng",
 		ACC_growth = 0,
 		crash_DMG = 125,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "liefeng",
 		funnel_behavior = "",
@@ -54326,6 +61602,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -54336,8 +61617,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
 		crash_DMG = 260,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -54392,6 +61675,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -54402,8 +61690,10 @@ pg.aircraft_template = {
 		model_ID = "liuxing",
 		ACC_growth = 0,
 		crash_DMG = 200,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "liuxing",
 		funnel_behavior = "",
@@ -54458,6 +61748,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -54468,8 +61763,10 @@ pg.aircraft_template = {
 		model_ID = "liefeng",
 		ACC_growth = 0,
 		crash_DMG = 125,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "liefeng",
 		funnel_behavior = "",
@@ -54525,6 +61822,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -54535,8 +61837,10 @@ pg.aircraft_template = {
 		model_ID = "qibolin",
 		ACC_growth = 0,
 		crash_DMG = 125,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "qibolin",
 		funnel_behavior = "",
@@ -54591,6 +61895,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -54601,8 +61910,10 @@ pg.aircraft_template = {
 		model_ID = "BF109T",
 		ACC_growth = 0,
 		crash_DMG = 165,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "BF109T",
 		funnel_behavior = "",
@@ -54658,6 +61969,11 @@ pg.aircraft_template = {
 				0.27,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -54668,8 +61984,10 @@ pg.aircraft_template = {
 		model_ID = "JU87C",
 		ACC_growth = 0,
 		crash_DMG = 95,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "JU87C",
 		funnel_behavior = "",
@@ -54724,6 +62042,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -54734,8 +62057,10 @@ pg.aircraft_template = {
 		model_ID = "Me155A",
 		ACC_growth = 0,
 		crash_DMG = 105,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "Me155A",
 		funnel_behavior = "",
@@ -54791,6 +62116,11 @@ pg.aircraft_template = {
 				0.51,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -54801,8 +62131,10 @@ pg.aircraft_template = {
 		model_ID = "BF109T",
 		ACC_growth = 0,
 		crash_DMG = 125,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "BF109T",
 		funnel_behavior = "",
@@ -54858,6 +62190,11 @@ pg.aircraft_template = {
 				0.27,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -54868,8 +62205,10 @@ pg.aircraft_template = {
 		model_ID = "Me155A",
 		ACC_growth = 0,
 		crash_DMG = 165,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "Me155A",
 		funnel_behavior = "",
@@ -54925,6 +62264,11 @@ pg.aircraft_template = {
 				0.51,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -54935,8 +62279,10 @@ pg.aircraft_template = {
 		model_ID = "qibolin",
 		ACC_growth = 0,
 		crash_DMG = 95,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "qibolin",
 		funnel_behavior = "",
@@ -54991,6 +62337,11 @@ pg.aircraft_template = {
 				0.27,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -55001,8 +62352,10 @@ pg.aircraft_template = {
 		model_ID = "JU87C",
 		ACC_growth = 0,
 		crash_DMG = 105,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "JU87C",
 		funnel_behavior = "",
@@ -55057,6 +62410,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -55067,8 +62425,10 @@ pg.aircraft_template = {
 		model_ID = "fuyoupao2",
 		ACC_growth = 0,
 		crash_DMG = 220,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "fuyoupao2",
 		nationality = 3,
@@ -55127,6 +62487,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -55137,8 +62502,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 160,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -55193,6 +62560,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -55203,8 +62575,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 130,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -55259,6 +62633,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -55269,8 +62648,10 @@ pg.aircraft_template = {
 		model_ID = "fuyoupao",
 		ACC_growth = 0,
 		crash_DMG = 300,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "fuyoupao",
 		nationality = 3,
@@ -55329,6 +62710,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -55339,8 +62725,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 160,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -55395,6 +62783,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -55405,8 +62798,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 90,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -55462,6 +62857,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -55472,8 +62872,10 @@ pg.aircraft_template = {
 		model_ID = "fuyoupao2",
 		ACC_growth = 0,
 		crash_DMG = 250,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "fuyoupao2",
 		nationality = 3,
@@ -55532,6 +62934,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -55542,8 +62949,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 180,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -55598,6 +63007,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -55608,8 +63022,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 150,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -55664,6 +63080,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -55674,8 +63095,10 @@ pg.aircraft_template = {
 		model_ID = "fuyoupao",
 		ACC_growth = 0,
 		crash_DMG = 350,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "fuyoupao",
 		nationality = 3,
@@ -55734,6 +63157,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -55744,8 +63172,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 200,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -55800,6 +63230,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -55810,8 +63245,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 120,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -55867,6 +63304,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -55877,8 +63319,10 @@ pg.aircraft_template = {
 		model_ID = "fuyoupao2",
 		ACC_growth = 0,
 		crash_DMG = 300,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "fuyoupao2",
 		nationality = 3,
@@ -55936,6 +63380,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -55946,8 +63395,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 240,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -56002,6 +63453,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -56012,8 +63468,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 200,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -56068,6 +63526,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -56078,8 +63541,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 68,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -56132,6 +63597,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -56142,8 +63612,10 @@ pg.aircraft_template = {
 		model_ID = "fuyoupao2",
 		ACC_growth = 0,
 		crash_DMG = 300,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "fuyoupao2",
 		nationality = 3,
@@ -56201,6 +63673,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -56211,8 +63688,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 200,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -56267,6 +63746,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -56277,8 +63761,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 158,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -56333,6 +63819,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -56343,8 +63834,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 72,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -56397,6 +63890,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -56407,8 +63905,10 @@ pg.aircraft_template = {
 		model_ID = "fuyoupao2",
 		ACC_growth = 0,
 		crash_DMG = 280,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "fuyoupao2",
 		nationality = 3,
@@ -56467,6 +63967,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -56477,8 +63982,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 220,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -56533,6 +64040,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -56543,8 +64055,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 180,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -56599,6 +64113,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -56609,8 +64128,10 @@ pg.aircraft_template = {
 		model_ID = "fuyoupao",
 		ACC_growth = 0,
 		crash_DMG = 450,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "fuyoupao",
 		nationality = 3,
@@ -56669,6 +64190,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -56679,8 +64205,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 220,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -56735,6 +64263,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -56745,8 +64278,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 130,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -56802,6 +64337,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -56812,8 +64352,10 @@ pg.aircraft_template = {
 		model_ID = "fuyoupao2",
 		ACC_growth = 0,
 		crash_DMG = 320,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "fuyoupao2",
 		nationality = 3,
@@ -56872,6 +64414,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -56882,8 +64429,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 280,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -56938,6 +64487,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -56948,8 +64502,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 230,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -57004,6 +64560,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -57014,8 +64575,10 @@ pg.aircraft_template = {
 		model_ID = "fuyoupao",
 		ACC_growth = 0,
 		crash_DMG = 500,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "fuyoupao",
 		nationality = 3,
@@ -57074,6 +64637,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -57084,8 +64652,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 280,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -57140,6 +64710,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -57150,8 +64725,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 170,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -57207,6 +64784,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -57217,8 +64799,10 @@ pg.aircraft_template = {
 		model_ID = "fuyoupao2",
 		ACC_growth = 0,
 		crash_DMG = 350,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "fuyoupao2",
 		nationality = 3,
@@ -57276,6 +64860,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -57286,8 +64875,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 280,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -57342,6 +64933,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -57352,8 +64948,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 220,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -57408,6 +65006,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -57418,8 +65021,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 65,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -57472,6 +65077,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -57482,8 +65092,10 @@ pg.aircraft_template = {
 		model_ID = "fuyoupao2",
 		ACC_growth = 0,
 		crash_DMG = 350,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "fuyoupao2",
 		nationality = 3,
@@ -57541,6 +65153,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -57551,8 +65168,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 302,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -57607,6 +65226,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -57617,8 +65241,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 226,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -57673,6 +65299,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -57683,8 +65314,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 96,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -57737,6 +65370,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -57747,8 +65385,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 160,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -57803,6 +65443,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -57813,8 +65458,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 130,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -57869,6 +65516,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -57879,8 +65531,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 90,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -57936,6 +65590,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -57946,8 +65605,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 220,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -58002,6 +65663,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -58012,8 +65678,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 180,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -58068,6 +65736,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -58078,8 +65751,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 108,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -58135,6 +65810,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -58145,8 +65825,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 220,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -58201,6 +65883,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -58211,8 +65898,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 180,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -58267,6 +65956,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -58277,8 +65971,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 130,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -58334,6 +66030,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -58344,8 +66045,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 360,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -58400,6 +66103,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -58410,8 +66118,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 300,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -58466,6 +66176,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -58476,8 +66191,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 240,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -58533,6 +66250,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -58543,8 +66265,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 160,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -58599,6 +66323,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -58609,8 +66338,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 90,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -58666,6 +66397,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -58676,8 +66412,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 120,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -58732,6 +66470,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -58742,8 +66485,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 95,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -58798,6 +66543,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -58808,8 +66558,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 65,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -58865,6 +66617,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -58875,8 +66632,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 120,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -58931,6 +66690,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -58941,8 +66705,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 65,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -58998,6 +66764,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -59008,8 +66779,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 120,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -59064,6 +66837,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -59074,8 +66852,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 95,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -59130,6 +66910,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -59140,8 +66925,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 65,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -59197,6 +66984,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -59207,8 +66999,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 320,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -59263,6 +67057,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -59273,8 +67072,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 280,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -59329,6 +67130,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -59339,8 +67145,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 240,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -59396,6 +67204,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -59406,8 +67219,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 160,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -59462,6 +67277,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -59472,8 +67292,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 130,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -59528,6 +67350,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -59538,8 +67365,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 90,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -59595,6 +67424,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -59605,8 +67439,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 260,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -59661,6 +67497,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -59671,8 +67512,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 200,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -59727,6 +67570,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -59737,8 +67585,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 180,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -59794,6 +67644,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -59804,8 +67659,10 @@ pg.aircraft_template = {
 		model_ID = "Nep_green",
 		ACC_growth = 0,
 		crash_DMG = 420,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "Nep_green",
 		funnel_behavior = "",
@@ -59860,6 +67717,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -59870,8 +67732,10 @@ pg.aircraft_template = {
 		model_ID = "Nep_green",
 		ACC_growth = 0,
 		crash_DMG = 380,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "Nep_green",
 		funnel_behavior = "",
@@ -59926,6 +67790,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -59936,8 +67805,10 @@ pg.aircraft_template = {
 		model_ID = "Nep_green",
 		ACC_growth = 0,
 		crash_DMG = 350,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "Nep_green",
 		funnel_behavior = "",
@@ -59993,6 +67864,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -60003,8 +67879,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 160,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -60059,6 +67937,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -60069,8 +67952,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 90,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -60126,6 +68011,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -60136,8 +68026,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 160,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -60192,6 +68084,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -60202,8 +68099,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 130,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -60258,6 +68157,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -60268,8 +68172,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 90,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -60325,6 +68231,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -60335,8 +68246,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 180,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -60391,6 +68304,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -60401,8 +68319,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 108,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -60458,6 +68378,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -60468,8 +68393,10 @@ pg.aircraft_template = {
 		model_ID = "fuyoupao2",
 		ACC_growth = 0,
 		crash_DMG = 300,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "fuyoupao2",
 		nationality = 3,
@@ -60527,6 +68454,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -60537,8 +68469,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 180,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -60593,6 +68527,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -60603,8 +68542,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 156,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -60659,6 +68600,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -60669,8 +68615,10 @@ pg.aircraft_template = {
 		model_ID = "fuyoupao2",
 		ACC_growth = 0,
 		crash_DMG = 300,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "fuyoupao2",
 		nationality = 3,
@@ -60728,6 +68676,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -60738,8 +68691,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 180,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -60794,6 +68749,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -60804,8 +68764,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 156,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -60860,6 +68822,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -60870,8 +68837,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 180,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -60926,6 +68895,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -60936,8 +68910,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 156,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -60992,6 +68968,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -61002,8 +68983,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 108,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -61059,6 +69042,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -61069,8 +69057,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 220,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -61125,6 +69115,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -61135,8 +69130,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 130,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -61192,6 +69189,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -61202,8 +69204,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 220,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -61258,6 +69262,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -61268,8 +69277,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 180,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -61324,6 +69335,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -61334,8 +69350,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 130,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -61391,6 +69409,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -61401,8 +69424,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 280,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -61457,6 +69482,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -61467,8 +69497,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 192,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -61524,6 +69556,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -61534,8 +69571,10 @@ pg.aircraft_template = {
 		model_ID = "fuyoupao2",
 		ACC_growth = 0,
 		crash_DMG = 400,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "fuyoupao2",
 		nationality = 3,
@@ -61593,6 +69632,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -61603,8 +69647,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 280,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -61659,6 +69705,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -61669,8 +69720,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 240,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -61725,6 +69778,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -61735,8 +69793,10 @@ pg.aircraft_template = {
 		model_ID = "fuyoupao2",
 		ACC_growth = 0,
 		crash_DMG = 400,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "fuyoupao2",
 		nationality = 3,
@@ -61794,6 +69854,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -61804,8 +69869,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 280,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -61860,6 +69927,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -61870,8 +69942,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 240,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -61926,6 +70000,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -61936,8 +70015,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 280,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -61992,6 +70073,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -62002,8 +70088,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 240,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -62058,6 +70146,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -62068,8 +70161,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 192,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -62125,6 +70220,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -62135,8 +70235,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 360,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -62191,6 +70293,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -62201,8 +70308,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 240,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -62258,6 +70367,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -62268,8 +70382,10 @@ pg.aircraft_template = {
 		model_ID = "fuyoupao2",
 		ACC_growth = 0,
 		crash_DMG = 500,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "fuyoupao2",
 		nationality = 3,
@@ -62327,6 +70443,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -62337,8 +70458,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 360,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -62393,6 +70516,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -62403,8 +70531,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 300,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -62459,6 +70589,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -62469,8 +70604,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 360,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -62525,6 +70662,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -62535,8 +70677,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 300,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -62591,6 +70735,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -62601,8 +70750,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 240,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -62658,6 +70809,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -62668,8 +70824,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
 		crash_DMG = 300,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -62724,6 +70882,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -62734,8 +70897,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan21gai",
 		ACC_growth = 0,
 		crash_DMG = 150,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -62791,6 +70956,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -62801,8 +70971,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
 		crash_DMG = 800,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -62855,6 +71027,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -62865,8 +71042,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan21gai",
 		ACC_growth = 0,
 		crash_DMG = 800,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -62919,6 +71098,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -62929,8 +71113,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 65,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -62985,6 +71171,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -62995,8 +71186,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 52,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -63051,6 +71244,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -63061,8 +71259,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 36,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -63118,6 +71318,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -63128,8 +71333,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 65,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -63184,6 +71391,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -63194,8 +71406,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 36,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -63251,6 +71465,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -63261,8 +71480,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
 		crash_DMG = 65,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -63317,6 +71538,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -63327,8 +71553,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 52,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -63383,6 +71611,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -63393,8 +71626,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan21gai",
 		ACC_growth = 0,
 		crash_DMG = 36,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -63450,6 +71685,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -63460,8 +71700,10 @@ pg.aircraft_template = {
 		model_ID = "fuyoupao2",
 		ACC_growth = 0,
 		crash_DMG = 108,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "fuyoupao2",
 		nationality = 3,
@@ -63519,6 +71761,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -63529,8 +71776,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 65,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -63585,6 +71834,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -63595,8 +71849,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 52,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -63651,6 +71907,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -63661,8 +71922,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 85,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -63717,6 +71980,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -63727,8 +71995,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 69,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -63783,6 +72053,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -63793,8 +72068,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 48,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -63850,6 +72127,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -63860,8 +72142,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 85,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -63916,6 +72200,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -63926,8 +72215,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 48,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -63983,6 +72274,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -63993,8 +72289,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 69,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -64049,6 +72347,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -64059,8 +72362,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
 		crash_DMG = 85,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -64115,6 +72420,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -64125,8 +72435,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan21gai",
 		ACC_growth = 0,
 		crash_DMG = 48,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -64182,6 +72494,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -64192,8 +72509,10 @@ pg.aircraft_template = {
 		model_ID = "fuyoupao2",
 		ACC_growth = 0,
 		crash_DMG = 142,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "fuyoupao2",
 		nationality = 3,
@@ -64251,6 +72570,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -64261,8 +72585,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 85,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -64317,6 +72643,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -64327,8 +72658,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 69,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -64383,6 +72716,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -64393,8 +72731,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 110,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -64449,6 +72789,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -64459,8 +72804,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 89,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -64515,6 +72862,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -64525,8 +72877,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 62,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -64582,6 +72936,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -64592,8 +72951,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 110,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -64648,6 +73009,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -64658,8 +73024,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 62,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -64715,6 +73083,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -64725,8 +73098,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan21gai",
 		ACC_growth = 0,
 		crash_DMG = 62,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -64782,6 +73157,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -64792,8 +73172,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 89,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -64848,6 +73230,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -64858,8 +73245,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
 		crash_DMG = 110,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -64914,6 +73303,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -64924,8 +73318,10 @@ pg.aircraft_template = {
 		model_ID = "fuyoupao2",
 		ACC_growth = 0,
 		crash_DMG = 183,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "fuyoupao2",
 		nationality = 3,
@@ -64983,6 +73379,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -64993,8 +73394,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 110,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -65049,6 +73452,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -65059,8 +73467,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 89,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -65115,6 +73525,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -65125,8 +73540,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 140,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -65181,6 +73598,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -65191,8 +73613,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 114,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -65247,6 +73671,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -65257,8 +73686,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 79,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -65314,6 +73745,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -65324,8 +73760,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 140,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -65380,6 +73818,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -65390,8 +73833,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 79,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -65447,6 +73892,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -65457,8 +73907,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
 		crash_DMG = 140,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -65513,6 +73965,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -65523,8 +73980,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 114,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -65579,6 +74038,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -65589,8 +74053,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan21gai",
 		ACC_growth = 0,
 		crash_DMG = 79,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -65646,6 +74112,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -65656,8 +74127,10 @@ pg.aircraft_template = {
 		model_ID = "fuyoupao2",
 		ACC_growth = 0,
 		crash_DMG = 233,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "fuyoupao2",
 		nationality = 3,
@@ -65715,6 +74188,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -65725,8 +74203,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 140,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -65781,6 +74261,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -65791,8 +74276,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 114,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -65847,6 +74334,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -65857,8 +74349,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 65,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -65913,6 +74407,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -65923,8 +74422,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 36,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -65980,6 +74481,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -65990,8 +74496,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 65,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -66046,6 +74554,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -66056,8 +74569,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 52,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -66112,6 +74627,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -66122,8 +74642,10 @@ pg.aircraft_template = {
 		model_ID = "fuyoupao2",
 		ACC_growth = 0,
 		crash_DMG = 108,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "fuyoupao2",
 		nationality = 3,
@@ -66181,6 +74703,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -66191,8 +74718,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 65,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -66247,6 +74776,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -66257,8 +74791,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 52,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -66313,6 +74849,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -66323,8 +74864,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 65,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -66379,6 +74922,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -66389,8 +74937,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 52,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -66445,6 +74995,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -66455,8 +75010,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 36,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -66512,6 +75069,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -66522,8 +75084,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 85,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -66578,6 +75142,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -66588,8 +75157,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 48,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -66645,6 +75216,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -66655,8 +75231,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 85,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -66711,6 +75289,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -66721,8 +75304,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 69,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -66777,6 +75362,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -66787,8 +75377,10 @@ pg.aircraft_template = {
 		model_ID = "fuyoupao2",
 		ACC_growth = 0,
 		crash_DMG = 142,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "fuyoupao2",
 		nationality = 3,
@@ -66846,6 +75438,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -66856,8 +75453,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 85,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -66912,6 +75511,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -66922,8 +75526,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 69,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -66978,6 +75584,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -66988,8 +75599,10 @@ pg.aircraft_template = {
 		model_ID = "fuyoupao2",
 		ACC_growth = 0,
 		crash_DMG = 183,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "fuyoupao2",
 		nationality = 3,
@@ -67047,6 +75660,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -67057,8 +75675,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 110,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -67113,6 +75733,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -67123,8 +75748,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 89,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -67179,6 +75806,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -67189,8 +75821,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 85,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -67245,6 +75879,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -67255,8 +75894,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 69,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -67311,6 +75952,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -67321,8 +75967,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 48,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -67378,6 +76026,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -67388,8 +76041,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 110,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -67444,6 +76099,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -67454,8 +76114,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 62,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -67511,6 +76173,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -67521,8 +76188,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 110,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -67577,6 +76246,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -67587,8 +76261,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 89,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -67643,6 +76319,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -67653,8 +76334,10 @@ pg.aircraft_template = {
 		model_ID = "fuyoupao2",
 		ACC_growth = 0,
 		crash_DMG = 183,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "fuyoupao2",
 		nationality = 3,
@@ -67712,6 +76395,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -67722,8 +76410,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 110,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -67778,6 +76468,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -67788,8 +76483,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 89,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -67844,6 +76541,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -67854,8 +76556,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 110,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -67910,6 +76614,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -67920,8 +76629,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 89,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -67976,6 +76687,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -67986,8 +76702,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 62,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -68043,6 +76761,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -68053,8 +76776,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 140,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -68109,6 +76834,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -68119,8 +76849,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 79,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -68176,6 +76908,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -68186,8 +76923,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 140,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -68242,6 +76981,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -68252,8 +76996,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 114,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -68308,6 +77054,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -68318,8 +77069,10 @@ pg.aircraft_template = {
 		model_ID = "fuyoupao2",
 		ACC_growth = 0,
 		crash_DMG = 233,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "fuyoupao2",
 		nationality = 3,
@@ -68377,6 +77130,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -68387,8 +77145,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 140,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -68443,6 +77203,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -68453,8 +77218,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 114,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -68509,6 +77276,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -68519,8 +77291,10 @@ pg.aircraft_template = {
 		model_ID = "fuyoupao2",
 		ACC_growth = 0,
 		crash_DMG = 293,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "fuyoupao2",
 		nationality = 3,
@@ -68578,6 +77352,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -68588,8 +77367,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 175,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -68644,6 +77425,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -68654,8 +77440,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 144,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -68710,6 +77498,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -68720,8 +77513,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 140,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -68776,6 +77571,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -68786,8 +77586,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 114,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -68842,6 +77644,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -68852,8 +77659,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 79,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -68909,6 +77718,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -68919,8 +77733,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 175,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -68975,6 +77791,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -68985,8 +77806,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 144,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -69041,6 +77864,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -69051,8 +77879,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 175,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -69107,6 +77937,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -69117,8 +77952,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 144,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -69173,6 +78010,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -69183,8 +78025,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 175,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -69239,6 +78083,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -69249,8 +78098,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 144,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -69305,6 +78156,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -69315,8 +78171,10 @@ pg.aircraft_template = {
 		model_ID = "fuyoupao2",
 		ACC_growth = 0,
 		crash_DMG = 293,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "fuyoupao2",
 		nationality = 3,
@@ -69374,6 +78232,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -69384,8 +78247,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 175,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -69440,6 +78305,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -69450,8 +78320,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 144,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -69506,6 +78378,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -69516,8 +78393,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 175,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -69572,6 +78451,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -69582,8 +78466,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 144,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -69638,6 +78524,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -69648,8 +78539,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 175,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -69704,6 +78597,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -69714,8 +78612,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 144,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -69770,6 +78670,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -69780,8 +78685,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 1050,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -69836,6 +78743,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -69846,8 +78758,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 1050,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -69902,6 +78816,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -69912,8 +78831,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
 		crash_DMG = 78,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -69968,6 +78889,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -69978,8 +78904,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 57,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -70034,6 +78962,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -70044,8 +78977,10 @@ pg.aircraft_template = {
 		model_ID = "fuyoupao2",
 		ACC_growth = 0,
 		crash_DMG = 183,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "fuyoupao2",
 		nationality = 3,
@@ -70103,6 +79038,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -70113,8 +79053,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 110,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -70169,6 +79111,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -70179,8 +79126,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 89,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -70235,6 +79184,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -70245,8 +79199,10 @@ pg.aircraft_template = {
 		model_ID = "fuyoupao2",
 		ACC_growth = 0,
 		crash_DMG = 293,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "fuyoupao2",
 		nationality = 3,
@@ -70304,6 +79260,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -70314,8 +79275,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 175,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -70370,6 +79333,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -70380,8 +79348,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 144,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -70436,6 +79406,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -70446,8 +79421,10 @@ pg.aircraft_template = {
 		model_ID = "F4F",
 		ACC_growth = 0,
 		crash_DMG = 39,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "F4F",
 		funnel_behavior = "",
@@ -70503,6 +79480,11 @@ pg.aircraft_template = {
 				0.32,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -70513,8 +79495,10 @@ pg.aircraft_template = {
 		model_ID = "F6F",
 		ACC_growth = 0,
 		crash_DMG = 57,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "F6F",
 		funnel_behavior = "",
@@ -70569,6 +79553,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -70579,8 +79568,10 @@ pg.aircraft_template = {
 		model_ID = "tbd",
 		ACC_growth = 0,
 		crash_DMG = 78,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "tbd",
 		funnel_behavior = "",
@@ -70635,6 +79626,11 @@ pg.aircraft_template = {
 				0.72,
 				-0.15,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -70645,8 +79641,10 @@ pg.aircraft_template = {
 		model_ID = "F4F",
 		ACC_growth = 0,
 		crash_DMG = 39,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "F4F",
 		funnel_behavior = "",
@@ -70702,6 +79700,11 @@ pg.aircraft_template = {
 				0.32,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -70712,8 +79715,10 @@ pg.aircraft_template = {
 		model_ID = "F6F",
 		ACC_growth = 0,
 		crash_DMG = 57,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "F6F",
 		funnel_behavior = "",
@@ -70768,6 +79773,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -70778,8 +79788,10 @@ pg.aircraft_template = {
 		model_ID = "tbd",
 		ACC_growth = 0,
 		crash_DMG = 78,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "tbd",
 		funnel_behavior = "",
@@ -70834,6 +79846,11 @@ pg.aircraft_template = {
 				0.72,
 				-0.15,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -70844,8 +79861,10 @@ pg.aircraft_template = {
 		model_ID = "F4F",
 		ACC_growth = 0,
 		crash_DMG = 39,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "F4F",
 		funnel_behavior = "",
@@ -70901,6 +79920,11 @@ pg.aircraft_template = {
 				0.32,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -70911,8 +79935,10 @@ pg.aircraft_template = {
 		model_ID = "F6F",
 		ACC_growth = 0,
 		crash_DMG = 57,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "F6F",
 		funnel_behavior = "",
@@ -70967,6 +79993,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -70977,8 +80008,10 @@ pg.aircraft_template = {
 		model_ID = "tbd",
 		ACC_growth = 0,
 		crash_DMG = 78,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "tbd",
 		funnel_behavior = "",
@@ -71033,6 +80066,11 @@ pg.aircraft_template = {
 				0.72,
 				-0.15,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -71043,8 +80081,10 @@ pg.aircraft_template = {
 		model_ID = "F4F",
 		ACC_growth = 0,
 		crash_DMG = 39,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "F4F",
 		funnel_behavior = "",
@@ -71100,6 +80140,11 @@ pg.aircraft_template = {
 				0.32,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -71110,8 +80155,10 @@ pg.aircraft_template = {
 		model_ID = "F6F",
 		ACC_growth = 0,
 		crash_DMG = 57,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "F6F",
 		funnel_behavior = "",
@@ -71166,6 +80213,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -71176,8 +80228,10 @@ pg.aircraft_template = {
 		model_ID = "tbd",
 		ACC_growth = 0,
 		crash_DMG = 78,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "tbd",
 		funnel_behavior = "",
@@ -71232,6 +80286,11 @@ pg.aircraft_template = {
 				0.72,
 				-0.15,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -71242,8 +80301,10 @@ pg.aircraft_template = {
 		model_ID = "F4F",
 		ACC_growth = 0,
 		crash_DMG = 39,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "F4F",
 		funnel_behavior = "",
@@ -71299,6 +80360,11 @@ pg.aircraft_template = {
 				0.32,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -71309,8 +80375,10 @@ pg.aircraft_template = {
 		model_ID = "F6F",
 		ACC_growth = 0,
 		crash_DMG = 57,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "F6F",
 		funnel_behavior = "",
@@ -71365,6 +80433,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -71375,8 +80448,10 @@ pg.aircraft_template = {
 		model_ID = "tbd",
 		ACC_growth = 0,
 		crash_DMG = 78,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "tbd",
 		funnel_behavior = "",
@@ -71431,6 +80506,11 @@ pg.aircraft_template = {
 				0.72,
 				-0.15,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -71441,8 +80521,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
 		crash_DMG = 260,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -71497,6 +80579,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -71507,8 +80594,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 200,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -71563,6 +80652,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -71573,8 +80667,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan21gai",
 		ACC_growth = 0,
 		crash_DMG = 125,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -71630,6 +80726,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -71640,8 +80741,10 @@ pg.aircraft_template = {
 		model_ID = "fuyoupao",
 		ACC_growth = 0,
 		crash_DMG = 500,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "fuyoupao",
 		nationality = 3,
@@ -71699,6 +80802,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -71709,8 +80817,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
 		crash_DMG = 260,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -71765,6 +80875,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -71775,8 +80890,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 200,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -71831,6 +80948,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -71841,8 +80963,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan21gai",
 		ACC_growth = 0,
 		crash_DMG = 125,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -71898,6 +81022,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -71908,8 +81037,10 @@ pg.aircraft_template = {
 		model_ID = "fuyoupao",
 		ACC_growth = 0,
 		crash_DMG = 500,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "fuyoupao",
 		nationality = 3,
@@ -71967,6 +81098,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -71977,8 +81113,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 220,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -72033,6 +81171,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -72043,8 +81186,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 180,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -72099,6 +81244,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -72109,8 +81259,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 130,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -72166,6 +81318,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -72176,8 +81333,10 @@ pg.aircraft_template = {
 		model_ID = "BF109T",
 		ACC_growth = 0,
 		crash_DMG = 156,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "BF109T",
 		funnel_behavior = "",
@@ -72233,6 +81392,11 @@ pg.aircraft_template = {
 				0.27,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -72243,8 +81407,10 @@ pg.aircraft_template = {
 		model_ID = "JU87C",
 		ACC_growth = 0,
 		crash_DMG = 216,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "JU87C",
 		funnel_behavior = "",
@@ -72299,6 +81465,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -72309,8 +81480,10 @@ pg.aircraft_template = {
 		model_ID = "Me155A",
 		ACC_growth = 0,
 		crash_DMG = 168,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "Me155A",
 		funnel_behavior = "",
@@ -72366,6 +81539,11 @@ pg.aircraft_template = {
 				0.51,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -72376,8 +81554,10 @@ pg.aircraft_template = {
 		model_ID = "fuyoupao2",
 		ACC_growth = 0,
 		crash_DMG = 220,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "fuyoupao2",
 		nationality = 3,
@@ -72435,6 +81615,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -72445,8 +81630,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 160,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -72501,6 +81688,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -72511,8 +81703,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 130,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -72567,6 +81761,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -72577,8 +81776,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 220,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -72633,6 +81834,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -72643,8 +81849,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 180,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -72699,6 +81907,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -72709,8 +81922,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 130,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -72766,6 +81981,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -72776,8 +81996,10 @@ pg.aircraft_template = {
 		model_ID = "BF109T",
 		ACC_growth = 0,
 		crash_DMG = 156,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "BF109T",
 		funnel_behavior = "",
@@ -72833,6 +82055,11 @@ pg.aircraft_template = {
 				0.27,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -72843,8 +82070,10 @@ pg.aircraft_template = {
 		model_ID = "JU87C",
 		ACC_growth = 0,
 		crash_DMG = 216,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "JU87C",
 		funnel_behavior = "",
@@ -72899,6 +82128,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -72909,8 +82143,10 @@ pg.aircraft_template = {
 		model_ID = "Me155A",
 		ACC_growth = 0,
 		crash_DMG = 168,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "Me155A",
 		funnel_behavior = "",
@@ -72966,6 +82202,11 @@ pg.aircraft_template = {
 				0.51,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -72976,8 +82217,10 @@ pg.aircraft_template = {
 		model_ID = "fuyoupao2",
 		ACC_growth = 0,
 		crash_DMG = 220,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "fuyoupao2",
 		nationality = 3,
@@ -73035,6 +82278,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -73045,8 +82293,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 160,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -73101,6 +82351,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -73111,8 +82366,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 130,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -73167,6 +82424,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -73177,8 +82439,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 220,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -73233,6 +82497,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -73243,8 +82512,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 180,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -73299,6 +82570,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -73309,8 +82585,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 130,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -73366,6 +82644,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -73376,8 +82659,10 @@ pg.aircraft_template = {
 		model_ID = "BF109T",
 		ACC_growth = 0,
 		crash_DMG = 156,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "BF109T",
 		funnel_behavior = "",
@@ -73433,6 +82718,11 @@ pg.aircraft_template = {
 				0.27,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -73443,8 +82733,10 @@ pg.aircraft_template = {
 		model_ID = "JU87C",
 		ACC_growth = 0,
 		crash_DMG = 216,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "JU87C",
 		funnel_behavior = "",
@@ -73499,6 +82791,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -73509,8 +82806,10 @@ pg.aircraft_template = {
 		model_ID = "Me155A",
 		ACC_growth = 0,
 		crash_DMG = 168,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "Me155A",
 		funnel_behavior = "",
@@ -73566,6 +82865,11 @@ pg.aircraft_template = {
 				0.51,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -73576,8 +82880,10 @@ pg.aircraft_template = {
 		model_ID = "fuyoupao2",
 		ACC_growth = 0,
 		crash_DMG = 220,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "fuyoupao2",
 		nationality = 3,
@@ -73635,6 +82941,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -73645,8 +82956,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 160,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -73701,6 +83014,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -73711,8 +83029,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 130,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -73767,6 +83087,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -73777,8 +83102,10 @@ pg.aircraft_template = {
 		model_ID = "96jiangong",
 		ACC_growth = 0,
 		crash_DMG = 9,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "96jiangong",
 		funnel_behavior = "",
@@ -73833,6 +83160,11 @@ pg.aircraft_template = {
 				0.72,
 				-0.15,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -73843,8 +83175,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 9,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -73899,6 +83233,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -73909,8 +83248,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
 		crash_DMG = 9,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -73965,6 +83306,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -73975,8 +83321,10 @@ pg.aircraft_template = {
 		model_ID = "fuyoupao",
 		ACC_growth = 0,
 		crash_DMG = 100,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "fuyoupao",
 		nationality = 3,
@@ -74034,6 +83382,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -74044,8 +83397,10 @@ pg.aircraft_template = {
 		model_ID = "F4F",
 		ACC_growth = 0,
 		crash_DMG = 1,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "F4F",
 		funnel_behavior = "",
@@ -74100,6 +83455,11 @@ pg.aircraft_template = {
 				0.32,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -74110,8 +83470,10 @@ pg.aircraft_template = {
 		model_ID = "F6F",
 		ACC_growth = 0,
 		crash_DMG = 1,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "F6F",
 		funnel_behavior = "",
@@ -74166,6 +83528,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -74176,8 +83543,10 @@ pg.aircraft_template = {
 		model_ID = "sbdwuwei",
 		ACC_growth = 0,
 		crash_DMG = 1,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "sbdwuwei",
 		funnel_behavior = "",
@@ -74232,6 +83601,11 @@ pg.aircraft_template = {
 				0.72,
 				-0.15,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -74242,8 +83616,10 @@ pg.aircraft_template = {
 		model_ID = "haipenhuo",
 		ACC_growth = 0,
 		crash_DMG = 1,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "haipenhuo",
 		funnel_behavior = "",
@@ -74298,6 +83674,11 @@ pg.aircraft_template = {
 				0.62,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -74308,8 +83689,10 @@ pg.aircraft_template = {
 		model_ID = "sbdwuwei",
 		ACC_growth = 0,
 		crash_DMG = 1,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "sbdwuwei",
 		funnel_behavior = "",
@@ -74364,6 +83747,11 @@ pg.aircraft_template = {
 				0.72,
 				-0.15,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -74374,8 +83762,10 @@ pg.aircraft_template = {
 		model_ID = "sbdwuwei",
 		ACC_growth = 0,
 		crash_DMG = 1,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "sbdwuwei",
 		funnel_behavior = "",
@@ -74430,6 +83820,11 @@ pg.aircraft_template = {
 				0.72,
 				-0.15,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -74440,8 +83835,10 @@ pg.aircraft_template = {
 		model_ID = "sbdwuwei",
 		ACC_growth = 0,
 		crash_DMG = 1,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "sbdwuwei",
 		funnel_behavior = "",
@@ -74496,6 +83893,11 @@ pg.aircraft_template = {
 				0.72,
 				-0.15,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -74506,8 +83908,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan21",
 		ACC_growth = 0,
 		crash_DMG = 1,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "lingzhan21",
 		funnel_behavior = "",
@@ -74562,6 +83966,11 @@ pg.aircraft_template = {
 				0.27,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -74572,8 +83981,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan21gai",
 		ACC_growth = 0,
 		crash_DMG = 1,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -74628,6 +84039,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -74638,8 +84054,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan52",
 		ACC_growth = 0,
 		crash_DMG = 1,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "lingzhan52",
 		funnel_behavior = "",
@@ -74694,6 +84112,11 @@ pg.aircraft_template = {
 				0.51,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -74704,8 +84127,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 1,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -74760,6 +84185,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -74770,8 +84200,10 @@ pg.aircraft_template = {
 		model_ID = "1shilugong",
 		ACC_growth = 0,
 		crash_DMG = 60,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "1shilugong",
 		funnel_behavior = "",
@@ -74826,6 +84258,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -74836,8 +84273,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao2",
 		ACC_growth = 0,
 		crash_DMG = 1,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao2",
 		funnel_behavior = "",
@@ -74892,6 +84331,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -74902,8 +84346,10 @@ pg.aircraft_template = {
 		model_ID = "961shilugong",
 		ACC_growth = 0,
 		crash_DMG = 60,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "961shilugong",
 		funnel_behavior = "",
@@ -74958,6 +84404,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -74968,8 +84419,10 @@ pg.aircraft_template = {
 		model_ID = "BF109T",
 		ACC_growth = 0,
 		crash_DMG = 146,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "BF109T",
 		funnel_behavior = "",
@@ -75025,6 +84478,11 @@ pg.aircraft_template = {
 				0.27,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -75035,8 +84493,10 @@ pg.aircraft_template = {
 		model_ID = "Me155A",
 		ACC_growth = 0,
 		crash_DMG = 168,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "Me155A",
 		funnel_behavior = "",
@@ -75092,6 +84552,11 @@ pg.aircraft_template = {
 				0.51,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -75102,8 +84567,10 @@ pg.aircraft_template = {
 		model_ID = "qibolin",
 		ACC_growth = 0,
 		crash_DMG = 218,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "qibolin",
 		funnel_behavior = "",
@@ -75158,6 +84625,11 @@ pg.aircraft_template = {
 				0.27,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -75168,8 +84640,10 @@ pg.aircraft_template = {
 		model_ID = "JU87C",
 		ACC_growth = 0,
 		crash_DMG = 256,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "JU87C",
 		funnel_behavior = "",
@@ -75224,6 +84698,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -75234,8 +84713,10 @@ pg.aircraft_template = {
 		model_ID = "BF109T",
 		ACC_growth = 0,
 		crash_DMG = 268,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "BF109T",
 		funnel_behavior = "",
@@ -75291,6 +84772,11 @@ pg.aircraft_template = {
 				0.27,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -75301,8 +84787,10 @@ pg.aircraft_template = {
 		model_ID = "Me155A",
 		ACC_growth = 0,
 		crash_DMG = 312,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "Me155A",
 		funnel_behavior = "",
@@ -75358,6 +84846,11 @@ pg.aircraft_template = {
 				0.51,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -75368,8 +84861,10 @@ pg.aircraft_template = {
 		model_ID = "qibolin",
 		ACC_growth = 0,
 		crash_DMG = 338,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "qibolin",
 		funnel_behavior = "",
@@ -75424,6 +84919,11 @@ pg.aircraft_template = {
 				0.27,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -75434,8 +84934,10 @@ pg.aircraft_template = {
 		model_ID = "JU87C",
 		ACC_growth = 0,
 		crash_DMG = 416,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "JU87C",
 		funnel_behavior = "",
@@ -75490,6 +84992,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -75500,8 +85007,10 @@ pg.aircraft_template = {
 		model_ID = "F4F",
 		ACC_growth = 0,
 		crash_DMG = 1,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "F4F",
 		funnel_behavior = "",
@@ -75556,6 +85065,11 @@ pg.aircraft_template = {
 				0.32,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -75566,8 +85080,10 @@ pg.aircraft_template = {
 		model_ID = "F6F",
 		ACC_growth = 0,
 		crash_DMG = 1,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "F6F",
 		funnel_behavior = "",
@@ -75622,6 +85138,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -75632,8 +85153,10 @@ pg.aircraft_template = {
 		model_ID = "sbdwuwei",
 		ACC_growth = 0,
 		crash_DMG = 1,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "sbdwuwei",
 		funnel_behavior = "",
@@ -75688,6 +85211,11 @@ pg.aircraft_template = {
 				0.72,
 				-0.15,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -75698,8 +85226,10 @@ pg.aircraft_template = {
 		model_ID = "haipenhuo",
 		ACC_growth = 0,
 		crash_DMG = 1,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "haipenhuo",
 		funnel_behavior = "",
@@ -75754,6 +85284,11 @@ pg.aircraft_template = {
 				0.62,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -75764,8 +85299,10 @@ pg.aircraft_template = {
 		model_ID = "sbdwuwei",
 		ACC_growth = 0,
 		crash_DMG = 1,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "sbdwuwei",
 		funnel_behavior = "",
@@ -75820,6 +85357,11 @@ pg.aircraft_template = {
 				0.72,
 				-0.15,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -75830,8 +85372,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan21",
 		ACC_growth = 0,
 		crash_DMG = 1,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "lingzhan21",
 		funnel_behavior = "",
@@ -75886,6 +85430,11 @@ pg.aircraft_template = {
 				0.27,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -75896,8 +85445,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan21gai",
 		ACC_growth = 0,
 		crash_DMG = 1,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -75952,6 +85503,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -75962,8 +85518,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan52",
 		ACC_growth = 0,
 		crash_DMG = 1,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "lingzhan52",
 		funnel_behavior = "",
@@ -76018,6 +85576,11 @@ pg.aircraft_template = {
 				0.51,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -76028,8 +85591,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 1,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -76084,6 +85649,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -76094,8 +85664,10 @@ pg.aircraft_template = {
 		model_ID = "1shilugong",
 		ACC_growth = 0,
 		crash_DMG = 180,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "1shilugong",
 		funnel_behavior = "",
@@ -76150,6 +85722,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -76160,8 +85737,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao2",
 		ACC_growth = 0,
 		crash_DMG = 1,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao2",
 		funnel_behavior = "",
@@ -76216,6 +85795,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -76226,8 +85810,10 @@ pg.aircraft_template = {
 		model_ID = "961shilugong",
 		ACC_growth = 0,
 		crash_DMG = 180,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "961shilugong",
 		funnel_behavior = "",
@@ -76282,6 +85868,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -76292,8 +85883,10 @@ pg.aircraft_template = {
 		model_ID = "BF109T",
 		ACC_growth = 0,
 		crash_DMG = 146,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "BF109T",
 		funnel_behavior = "",
@@ -76349,6 +85942,11 @@ pg.aircraft_template = {
 				0.27,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -76359,8 +85957,10 @@ pg.aircraft_template = {
 		model_ID = "Me155A",
 		ACC_growth = 0,
 		crash_DMG = 168,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "Me155A",
 		funnel_behavior = "",
@@ -76416,6 +86016,11 @@ pg.aircraft_template = {
 				0.51,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -76426,8 +86031,10 @@ pg.aircraft_template = {
 		model_ID = "qibolin",
 		ACC_growth = 0,
 		crash_DMG = 218,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "qibolin",
 		funnel_behavior = "",
@@ -76482,6 +86089,11 @@ pg.aircraft_template = {
 				0.27,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -76492,8 +86104,10 @@ pg.aircraft_template = {
 		model_ID = "JU87C",
 		ACC_growth = 0,
 		crash_DMG = 256,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "JU87C",
 		funnel_behavior = "",
@@ -76548,6 +86162,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -76558,8 +86177,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 65,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -76614,6 +86235,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -76624,8 +86250,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 85,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -76680,6 +86308,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -76690,8 +86323,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 110,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -76746,6 +86381,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -76756,8 +86396,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 140,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -76812,6 +86454,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -76822,8 +86469,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 175,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -76878,6 +86527,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -76888,8 +86542,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 36,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -76945,6 +86601,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -76955,8 +86616,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 48,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -77012,6 +86675,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -77022,8 +86690,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 62,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -77079,6 +86749,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -77089,8 +86764,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 78,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -77146,6 +86823,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -77156,8 +86838,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 98,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -77213,6 +86897,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -77223,8 +86912,10 @@ pg.aircraft_template = {
 		model_ID = "fuyoupao2",
 		ACC_growth = 0,
 		crash_DMG = 108,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "fuyoupao2",
 		nationality = 3,
@@ -77282,6 +86973,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -77292,8 +86988,10 @@ pg.aircraft_template = {
 		model_ID = "fuyoupao2",
 		ACC_growth = 0,
 		crash_DMG = 142,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "fuyoupao2",
 		nationality = 3,
@@ -77351,6 +87049,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -77361,8 +87064,10 @@ pg.aircraft_template = {
 		model_ID = "fuyoupao2",
 		ACC_growth = 0,
 		crash_DMG = 182,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "fuyoupao2",
 		nationality = 3,
@@ -77420,6 +87125,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -77430,8 +87140,10 @@ pg.aircraft_template = {
 		model_ID = "fuyoupao2",
 		ACC_growth = 0,
 		crash_DMG = 232,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "fuyoupao2",
 		nationality = 3,
@@ -77489,6 +87201,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -77499,8 +87216,10 @@ pg.aircraft_template = {
 		model_ID = "fuyoupao2",
 		ACC_growth = 0,
 		crash_DMG = 294,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "fuyoupao2",
 		nationality = 3,
@@ -77558,6 +87277,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -77568,8 +87292,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 65,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -77624,6 +87350,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -77634,8 +87365,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 85,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -77690,6 +87423,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -77700,8 +87438,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 110,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -77756,6 +87496,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -77766,8 +87511,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 140,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -77822,6 +87569,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -77832,8 +87584,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 175,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -77888,6 +87642,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -77898,8 +87657,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 52,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -77954,6 +87715,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -77964,8 +87730,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 70,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -78020,6 +87788,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -78030,8 +87803,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 90,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -78086,6 +87861,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -78096,8 +87876,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 112,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -78152,6 +87934,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -78162,8 +87949,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 136,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -78218,6 +88007,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -78228,8 +88022,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 65,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -78284,6 +88080,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -78294,8 +88095,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 85,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -78350,6 +88153,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -78360,8 +88168,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 110,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -78416,6 +88226,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -78426,8 +88241,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 140,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -78482,6 +88299,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -78492,8 +88314,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 175,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -78548,6 +88372,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -78558,8 +88387,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 52,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -78614,6 +88445,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -78624,8 +88460,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 70,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -78680,6 +88518,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -78690,8 +88533,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 90,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -78746,6 +88591,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -78756,8 +88606,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 112,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -78812,6 +88664,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -78822,8 +88679,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 136,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -78878,6 +88737,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -78888,8 +88752,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 36,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -78945,6 +88811,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -78955,8 +88826,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 48,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -79012,6 +88885,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -79022,8 +88900,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 62,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -79079,6 +88959,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -79089,8 +88974,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 78,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -79146,6 +89033,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -79156,8 +89048,10 @@ pg.aircraft_template = {
 		model_ID = "shenhaifeiji",
 		ACC_growth = 0,
 		crash_DMG = 98,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -79213,6 +89107,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -79223,8 +89122,10 @@ pg.aircraft_template = {
 		model_ID = "F4F",
 		ACC_growth = 0,
 		crash_DMG = 36,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "F4F",
 		funnel_behavior = "",
@@ -79280,6 +89181,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -79290,8 +89196,10 @@ pg.aircraft_template = {
 		model_ID = "F4F",
 		ACC_growth = 0,
 		crash_DMG = 48,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "F4F",
 		funnel_behavior = "",
@@ -79347,6 +89255,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -79357,8 +89270,10 @@ pg.aircraft_template = {
 		model_ID = "F4F",
 		ACC_growth = 0,
 		crash_DMG = 62,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "F4F",
 		funnel_behavior = "",
@@ -79414,6 +89329,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -79424,8 +89344,10 @@ pg.aircraft_template = {
 		model_ID = "F4F",
 		ACC_growth = 0,
 		crash_DMG = 78,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "F4F",
 		funnel_behavior = "",
@@ -79481,6 +89403,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -79491,8 +89418,10 @@ pg.aircraft_template = {
 		model_ID = "F4F",
 		ACC_growth = 0,
 		crash_DMG = 98,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "F4F",
 		funnel_behavior = "",
@@ -79548,6 +89477,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -79558,8 +89492,10 @@ pg.aircraft_template = {
 		model_ID = "tbd",
 		ACC_growth = 0,
 		crash_DMG = 52,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "tbd",
 		funnel_behavior = "",
@@ -79614,6 +89550,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -79624,8 +89565,10 @@ pg.aircraft_template = {
 		model_ID = "tbd",
 		ACC_growth = 0,
 		crash_DMG = 70,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "tbd",
 		funnel_behavior = "",
@@ -79680,6 +89623,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -79690,8 +89638,10 @@ pg.aircraft_template = {
 		model_ID = "tbd",
 		ACC_growth = 0,
 		crash_DMG = 90,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "tbd",
 		funnel_behavior = "",
@@ -79746,6 +89696,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -79756,8 +89711,10 @@ pg.aircraft_template = {
 		model_ID = "tbd",
 		ACC_growth = 0,
 		crash_DMG = 112,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "tbd",
 		funnel_behavior = "",
@@ -79812,6 +89769,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -79822,8 +89784,10 @@ pg.aircraft_template = {
 		model_ID = "tbd",
 		ACC_growth = 0,
 		crash_DMG = 136,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "tbd",
 		funnel_behavior = "",
@@ -79878,6 +89842,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -79888,8 +89857,10 @@ pg.aircraft_template = {
 		model_ID = "sbdwuwei",
 		ACC_growth = 0,
 		crash_DMG = 65,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "sbdwuwei",
 		funnel_behavior = "",
@@ -79944,6 +89915,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -79954,8 +89930,10 @@ pg.aircraft_template = {
 		model_ID = "sbdwuwei",
 		ACC_growth = 0,
 		crash_DMG = 85,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "sbdwuwei",
 		funnel_behavior = "",
@@ -80010,6 +89988,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -80020,8 +90003,10 @@ pg.aircraft_template = {
 		model_ID = "sbdwuwei",
 		ACC_growth = 0,
 		crash_DMG = 110,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "sbdwuwei",
 		funnel_behavior = "",
@@ -80076,6 +90061,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -80086,8 +90076,10 @@ pg.aircraft_template = {
 		model_ID = "sbdwuwei",
 		ACC_growth = 0,
 		crash_DMG = 140,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "sbdwuwei",
 		funnel_behavior = "",
@@ -80142,6 +90134,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -80152,8 +90149,10 @@ pg.aircraft_template = {
 		model_ID = "sbdwuwei",
 		ACC_growth = 0,
 		crash_DMG = 175,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "sbdwuwei",
 		funnel_behavior = "",
@@ -80208,6 +90207,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -80218,8 +90222,10 @@ pg.aircraft_template = {
 		model_ID = "haiduya",
 		ACC_growth = 0,
 		crash_DMG = 36,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "haiduya",
 		funnel_behavior = "",
@@ -80275,6 +90281,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -80285,8 +90296,10 @@ pg.aircraft_template = {
 		model_ID = "haiduya",
 		ACC_growth = 0,
 		crash_DMG = 48,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "haiduya",
 		funnel_behavior = "",
@@ -80342,6 +90355,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -80352,8 +90370,10 @@ pg.aircraft_template = {
 		model_ID = "haiduya",
 		ACC_growth = 0,
 		crash_DMG = 62,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "haiduya",
 		funnel_behavior = "",
@@ -80409,6 +90429,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -80419,8 +90444,10 @@ pg.aircraft_template = {
 		model_ID = "haiduya",
 		ACC_growth = 0,
 		crash_DMG = 78,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "haiduya",
 		funnel_behavior = "",
@@ -80476,6 +90503,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -80486,8 +90518,10 @@ pg.aircraft_template = {
 		model_ID = "haiduya",
 		ACC_growth = 0,
 		crash_DMG = 98,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "haiduya",
 		funnel_behavior = "",
@@ -80543,6 +90577,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -80553,8 +90592,10 @@ pg.aircraft_template = {
 		model_ID = "suoyu",
 		ACC_growth = 0,
 		crash_DMG = 52,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "suoyu",
 		funnel_behavior = "",
@@ -80609,6 +90650,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -80619,8 +90665,10 @@ pg.aircraft_template = {
 		model_ID = "suoyu",
 		ACC_growth = 0,
 		crash_DMG = 70,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "suoyu",
 		funnel_behavior = "",
@@ -80675,6 +90723,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -80685,8 +90738,10 @@ pg.aircraft_template = {
 		model_ID = "suoyu",
 		ACC_growth = 0,
 		crash_DMG = 90,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "suoyu",
 		funnel_behavior = "",
@@ -80741,6 +90796,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -80751,8 +90811,10 @@ pg.aircraft_template = {
 		model_ID = "suoyu",
 		ACC_growth = 0,
 		crash_DMG = 112,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "suoyu",
 		funnel_behavior = "",
@@ -80807,6 +90869,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -80817,8 +90884,10 @@ pg.aircraft_template = {
 		model_ID = "suoyu",
 		ACC_growth = 0,
 		crash_DMG = 136,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "suoyu",
 		funnel_behavior = "",
@@ -80873,6 +90942,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -80883,8 +90957,10 @@ pg.aircraft_template = {
 		model_ID = "haiyan",
 		ACC_growth = 0,
 		crash_DMG = 65,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "haiyan",
 		funnel_behavior = "",
@@ -80939,6 +91015,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -80949,8 +91030,10 @@ pg.aircraft_template = {
 		model_ID = "haiyan",
 		ACC_growth = 0,
 		crash_DMG = 85,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "haiyan",
 		funnel_behavior = "",
@@ -81005,6 +91088,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -81015,8 +91103,10 @@ pg.aircraft_template = {
 		model_ID = "haiyan",
 		ACC_growth = 0,
 		crash_DMG = 110,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "haiyan",
 		funnel_behavior = "",
@@ -81071,6 +91161,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -81081,8 +91176,10 @@ pg.aircraft_template = {
 		model_ID = "haiyan",
 		ACC_growth = 0,
 		crash_DMG = 140,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "haiyan",
 		funnel_behavior = "",
@@ -81137,6 +91234,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -81147,8 +91249,10 @@ pg.aircraft_template = {
 		model_ID = "haiyan",
 		ACC_growth = 0,
 		crash_DMG = 175,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "haiyan",
 		funnel_behavior = "",
@@ -81203,6 +91307,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -81213,8 +91322,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan21gai",
 		ACC_growth = 0,
 		crash_DMG = 36,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -81270,6 +91381,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -81280,8 +91396,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan21gai",
 		ACC_growth = 0,
 		crash_DMG = 48,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -81337,6 +91455,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -81347,8 +91470,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan21gai",
 		ACC_growth = 0,
 		crash_DMG = 62,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -81404,6 +91529,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -81414,8 +91544,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan21gai",
 		ACC_growth = 0,
 		crash_DMG = 78,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -81471,6 +91603,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -81481,8 +91618,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan21gai",
 		ACC_growth = 0,
 		crash_DMG = 98,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -81538,6 +91677,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -81548,8 +91692,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 52,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -81604,6 +91750,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -81614,8 +91765,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 70,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -81670,6 +91823,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -81680,8 +91838,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 90,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -81736,6 +91896,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -81746,8 +91911,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 112,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -81802,6 +91969,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -81812,8 +91984,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 136,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -81868,6 +92042,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -81878,8 +92057,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
 		crash_DMG = 65,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -81934,6 +92115,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -81944,8 +92130,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
 		crash_DMG = 85,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -82000,6 +92188,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -82010,8 +92203,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
 		crash_DMG = 110,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -82066,6 +92261,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -82076,8 +92276,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
 		crash_DMG = 140,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -82132,6 +92334,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -82142,8 +92349,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
 		crash_DMG = 175,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -82198,6 +92407,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -82208,8 +92422,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan21gai",
 		ACC_growth = 0,
 		crash_DMG = 36,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "Me155A",
 		funnel_behavior = "",
@@ -82265,6 +92481,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -82275,8 +92496,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan21gai",
 		ACC_growth = 0,
 		crash_DMG = 48,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "Me155A",
 		funnel_behavior = "",
@@ -82332,6 +92555,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -82342,8 +92570,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan21gai",
 		ACC_growth = 0,
 		crash_DMG = 62,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "Me155A",
 		funnel_behavior = "",
@@ -82399,6 +92629,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -82409,8 +92644,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan21gai",
 		ACC_growth = 0,
 		crash_DMG = 78,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "Me155A",
 		funnel_behavior = "",
@@ -82466,6 +92703,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -82476,8 +92718,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan21gai",
 		ACC_growth = 0,
 		crash_DMG = 98,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "Me155A",
 		funnel_behavior = "",
@@ -82533,6 +92777,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -82543,8 +92792,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 52,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "qibolin",
 		funnel_behavior = "",
@@ -82599,6 +92850,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -82609,8 +92865,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 70,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "qibolin",
 		funnel_behavior = "",
@@ -82665,6 +92923,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -82675,8 +92938,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 90,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "qibolin",
 		funnel_behavior = "",
@@ -82731,6 +92996,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -82741,8 +93011,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 112,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "qibolin",
 		funnel_behavior = "",
@@ -82797,6 +93069,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -82807,8 +93084,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 136,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "qibolin",
 		funnel_behavior = "",
@@ -82863,6 +93142,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -82873,8 +93157,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
 		crash_DMG = 65,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "JU87C",
 		funnel_behavior = "",
@@ -82929,6 +93215,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -82939,8 +93230,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
 		crash_DMG = 85,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "JU87C",
 		funnel_behavior = "",
@@ -82995,6 +93288,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -83005,8 +93303,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
 		crash_DMG = 110,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "JU87C",
 		funnel_behavior = "",
@@ -83061,6 +93361,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -83071,8 +93376,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
 		crash_DMG = 140,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "JU87C",
 		funnel_behavior = "",
@@ -83127,6 +93434,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -83137,8 +93449,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
 		crash_DMG = 175,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "JU87C",
 		funnel_behavior = "",
@@ -83193,6 +93507,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -83203,8 +93522,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
 		crash_DMG = 65,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -83259,6 +93580,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -83269,8 +93595,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
 		crash_DMG = 85,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -83325,6 +93653,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -83335,8 +93668,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
 		crash_DMG = 110,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -83391,6 +93726,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -83401,8 +93741,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
 		crash_DMG = 140,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -83457,6 +93799,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -83467,8 +93814,10 @@ pg.aircraft_template = {
 		model_ID = "99shijianbao1",
 		ACC_growth = 0,
 		crash_DMG = 175,
-		attack_power = 2,
+		dodge = 1,
 		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -83523,6 +93872,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -83533,8 +93887,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 52,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -83589,6 +93945,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -83599,8 +93960,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 70,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -83655,6 +94018,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -83665,8 +94033,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 90,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -83721,6 +94091,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -83731,8 +94106,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 112,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -83787,6 +94164,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -83797,8 +94179,10 @@ pg.aircraft_template = {
 		model_ID = "97jiangong",
 		ACC_growth = 0,
 		crash_DMG = 136,
-		attack_power = 2,
+		dodge = 1,
 		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -83853,6 +94237,11 @@ pg.aircraft_template = {
 				0.54,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -83863,8 +94252,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan21gai",
 		ACC_growth = 0,
 		crash_DMG = 36,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -83920,6 +94311,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -83930,8 +94326,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan21gai",
 		ACC_growth = 0,
 		crash_DMG = 48,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -83987,6 +94385,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -83997,8 +94400,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan21gai",
 		ACC_growth = 0,
 		crash_DMG = 62,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -84054,6 +94459,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -84064,8 +94474,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan21gai",
 		ACC_growth = 0,
 		crash_DMG = 78,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -84121,6 +94533,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -84131,8 +94548,10 @@ pg.aircraft_template = {
 		model_ID = "lingzhan21gai",
 		ACC_growth = 0,
 		crash_DMG = 98,
-		attack_power = 2,
+		dodge = 1,
 		type = 1,
+		dodge_limit = 0,
+		attack_power = 2,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -84188,6 +94607,11 @@ pg.aircraft_template = {
 				0,
 				0,
 				0
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -84208,6 +94632,7 @@ pg.aircraft_template = {
 		122,
 		123,
 		124,
+		144,
 		17000,
 		17001,
 		17002,
@@ -84875,6 +95300,17 @@ pg.aircraft_template = {
 		39248,
 		39249,
 		39250,
+		39300,
+		39301,
+		39302,
+		39303,
+		39304,
+		39305,
+		39306,
+		39307,
+		39308,
+		39309,
+		39310,
 		47000,
 		47001,
 		47002,
@@ -84956,6 +95392,7 @@ pg.aircraft_template = {
 		61019,
 		61020,
 		61022,
+		61023,
 		66240,
 		66241,
 		66242,
@@ -85183,6 +95620,36 @@ pg.aircraft_template = {
 		67940,
 		67981,
 		67982,
+		68001,
+		68002,
+		68003,
+		68004,
+		68005,
+		68006,
+		68007,
+		68008,
+		68009,
+		68010,
+		68021,
+		68022,
+		68023,
+		68024,
+		68025,
+		68026,
+		68027,
+		68028,
+		68029,
+		68030,
+		68031,
+		68032,
+		68033,
+		68034,
+		68035,
+		68036,
+		68037,
+		68038,
+		68039,
+		68040,
 		81000,
 		81001,
 		81002,
@@ -85732,8 +96199,28 @@ pg.aircraft_template = {
 		330030,
 		330403,
 		330503,
-		330603,
-		330703,
+		340005,
+		340006,
+		340007,
+		340010,
+		340020,
+		340030,
+		340113,
+		340114,
+		340123,
+		340124,
+		340133,
+		340134,
+		340141,
+		340148,
+		340149,
+		340301,
+		340302,
+		340304,
+		340305,
+		340306,
+		340308,
+		340310,
 		470043,
 		470044,
 		470173,

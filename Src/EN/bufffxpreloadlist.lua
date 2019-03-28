@@ -11,5 +11,9 @@ return {
 	"Darkness",
 	"hongsebuff",
 	"ginbuli_skill",
-	"kinbuli_skill"
+	"kinbuli_skill",
+	"Pojia01",
+	"zhihuiRing02",
+	"fangkongRing02",
+	"zhihuiRing02_buff"
 }

@@ -102,11 +102,13 @@ function slot0.register(slot0)
 			end
 		})
 	end)
-	slot0:bind(slot0.ON_TRACKING, function (slot0, slot1, slot2)
+	slot0:bind(slot0.ON_TRACKING, function (slot0, slot1, slot2, slot3)
 		slot0:setFlag("lastFleetIndex", slot2)
 		slot1:sendNotification(GAME.TRACKING, {
 			chapterId = slot1,
-			fleetIds = slot2
+			fleetIds = slot2,
+			operationItem = itemID,
+			loopFlag = slot3
 		})
 		slot1.viewComponent:updateLastFleet(slot0:getFlag("lastFleetIndex"))
 	end)
@@ -116,9 +118,10 @@ function slot0.register(slot0)
 			callback = slot2
 		})
 	end)
-	slot0:bind(slot0.ON_ELITE_TRACKING, function (slot0, slot1)
+	slot0:bind(slot0.ON_ELITE_TRACKING, function (slot0, slot1, slot2)
 		slot0:sendNotification(GAME.TRACKING, {
-			chapterId = slot1
+			chapterId = slot1,
+			loopFlag = slot2
 		})
 	end)
 	slot0:bind(slot0.ON_OP, function (slot0, slot1)
@@ -235,7 +238,7 @@ function slot0.register(slot0)
 		slot4:updateChapter(slot3)
 		slot4:duplicateEliteFleet(slot3, true)
 		slot0:duplicateEliteFleet(slot3)
-		slot0.viewComponent:flushFleetEditButton(slot1.chapterVO)
+		slot0.viewComponent.levelEliteFleetPanel:set(slot1.chapterVO)
 	end)
 	slot0:bind(slot0.NOTICE_AUTOBOT_ENABLED, function (slot0, slot1)
 		slot0:sendNotification(GAME.COMMON_FLAG, {
@@ -249,15 +252,11 @@ function slot0.register(slot0)
 		slot4:updateChapter(slot3)
 		slot4:duplicateEliteFleet(slot3, true)
 		slot0:duplicateEliteFleet(slot3)
-		slot0.viewComponent:flushFleetEditButton(slot1.chapterVO)
+		slot0.viewComponent.levelEliteFleetPanel:set(slot1.chapterVO)
 	end)
 	slot0:bind(slot0.ON_ELITE_OEPN_DECK, function (slot0, slot1)
 		slot2 = slot1.shipType
-
-		if slot1.fleetIndex == 3 then
-			slot2 = ShipType.Qianting
-		end
-
+		slot3 = slot1.fleetIndex
 		slot4 = slot1.shipVO
 		slot5 = slot1.fleet
 		slot6 = slot1.chapter
@@ -366,7 +365,10 @@ function slot0.register(slot0)
 			slot0 = ShopsMediator
 			slot1 = ShopsLayer
 			slot2 = {
-				warp = ShopsLayer.TYPE_ACTIVITY
+				warp = ShopsLayer.TYPE_ACTIVITY,
+				actId = _.detect(getProxy(ActivityProxy):getActivitiesByType(ActivityConst.ACTIVITY_TYPE_SHOP), function (slot0)
+					return slot0:getConfig("config_client").pt_id == pg.gameset.activity_res_id.key_value
+				end).id
 			}
 		end
 
@@ -688,7 +690,7 @@ function slot0.handleNotification(slot0, slot1)
 				elseif slot0 == ChapterConst.OpMove then
 					seriesAsync({
 						function (slot0)
-							slot0.viewComponent.grid:moveFleet(slot1.path, slot1.fullpath, slot0)
+							slot0.viewComponent.grid:moveFleet(slot1.path, slot1.fullpath, slot1.oldLine, slot0)
 						end,
 						function (slot0)
 							if slot0.aiActs then
@@ -974,6 +976,15 @@ function slot0.playAIAction(slot0, slot1, slot2)
 			else
 				slot2()
 			end
+
+			return
+		end
+
+		if slot3:getChapterCell(slot1.line.row, slot1.line.column) and slot5.attachment == ChapterConst.AttachLandbase and pg.land_based_template[slot5.attachmentId].type == ChapterConst.LBCoastalGun then
+			slot0.viewComponent:doPlayAnim("coastalgun", function (slot0)
+				setActive(slot0, false)
+				slot0.viewComponent:easeMoveDown(slot2.viewComponent.grid.cellFleets[slot0:getFleetIndex(FleetType.Normal, slot1.stgTarget.row, slot1.stgTarget.column)].tf.position, slot0.viewComponent)
+			end)
 		end
 	elseif isa(slot1, SubAIAction) then
 		if slot3:getFleetIndex(FleetType.Submarine, slot1.line.row, slot1.line.column) then
@@ -1017,12 +1028,26 @@ function slot0.playAIAction(slot0, slot1, slot2)
 				slot0.viewComponent:doPlayStrikeAnim(slot6, "CannonUI", slot2)
 			end
 		elseif slot1.target then
-			slot7 = "-" .. _.detect(slot1.cellUpdates, function (slot0)
-				return slot0.row == slot0.target.row and slot0.column == slot0.target.column
-			end).data / 100 .. "%"
-			slot9 = slot3.fleets[slot4].getSkill(slot5, slot8)
+			slot5 = slot3.fleets[slot4]
 
-			slot0.viewComponent:doPlayCommander(slot3.fleets[slot4].findCommanderBySkillId(slot5, slot8), function ()
+			if _.detect(slot1.cellUpdates, function (slot0)
+				return slot0.row == slot0.target.row and slot0.column == slot0.target.column
+			end) and slot6.attachment == ChapterConst.AttachLandbase then
+				if pg.land_based_template[slot6.attachmentId].type == ChapterConst.LBCoastalGun then
+					if slot3:getMapShip(slot5).getShipType(slot8) == ShipType.QingHang or slot8:getShipType() == ShipType.ZhengHang then
+						slot0.viewComponent:doPlayStrikeAnim(slot8, "AirStrikeUI", slot2)
+					else
+						slot0.viewComponent:doPlayStrikeAnim(slot8, "CannonUI", slot2)
+					end
+				end
+
+				return
+			end
+
+			slot7 = "-" .. slot6.data / 100 .. "%"
+			slot9 = slot5:getSkill(slot8)
+
+			slot0.viewComponent:doPlayCommander(slot5:findCommanderBySkillId(slot8), function ()
 				if slot0:GetType() == FleetSkill.TypeAttack then
 					if slot0:GetArgs()[1] == "airfight" then
 						slot1.viewComponent:doPlayAirStrike(ChapterConst.SubjectPlayer, true, function ()

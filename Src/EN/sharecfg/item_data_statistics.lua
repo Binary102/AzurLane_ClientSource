@@ -42854,6 +42854,22 @@ May combine <color=#fad545>5</color> to craft <color=#fad545>1</color> <color=#9
 		price = {},
 		index = {}
 	},
+	[59125] = {
+		display = "Used to exchange for items in the \"Hibiscus-scented Idol?\" event, will disappear after the event ends. ",
+		rarity = 2,
+		type = 98,
+		name = "Janggu ",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 59125,
+		icon = "Props/drum",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[59615] = {
 		display = "用于『回流活动』累计点数获得奖励，活动结束后将会消失",
 		rarity = 2,
@@ -44696,6 +44712,7 @@ Skins and their drop rates:
 		59119,
 		59120,
 		59121,
+		59125,
 		59615,
 		59750,
 		59751,

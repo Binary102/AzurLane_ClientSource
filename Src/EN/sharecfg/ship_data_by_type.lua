@@ -208,6 +208,22 @@ pg.ship_data_by_type = {
 			"torpedo"
 		}
 	},
+	[17] = {
+		distory_resource_gold_ratio = 10,
+		team_type = "submarine",
+		type_name = "潜母",
+		energy_recover_food_ratio = 0.06,
+		distory_resource_oil_ratio = 1,
+		energy_recover_time_ratio = 0.5,
+		ship_type = 17,
+		team_limit = 3,
+		fix_resource_gold = 6,
+		property_filter = {
+			"durability",
+			"cannon",
+			"torpedo"
+		}
+	},
 	all = {
 		1,
 		2,
@@ -221,7 +237,8 @@ pg.ship_data_by_type = {
 		10,
 		11,
 		12,
-		13
+		13,
+		17
 	}
 }
 

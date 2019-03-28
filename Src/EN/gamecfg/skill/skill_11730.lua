@@ -1,6 +1,6 @@
 return {
 	uiEffect = "",
-	name = "LittleStarHobby",
+	name = "LittleStar",
 	cd = 0,
 	picture = "0",
 	desc = "战斗开始后15秒发动，提高全队$2炮击、装填、机动属性，持续20秒",

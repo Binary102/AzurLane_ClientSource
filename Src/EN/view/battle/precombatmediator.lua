@@ -65,7 +65,7 @@ function slot0.register(slot0)
 		slot0.contextData.form = PreCombatLayer.FORM_EDIT
 		slot3 = {}
 
-		for slot7, slot8 in ipairs(slot2.ships) do
+		for slot7, slot8 in ipairs(slot2:getShipIds()) do
 			table.insert(slot3, slot0.ships[slot8])
 		end
 

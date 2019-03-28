@@ -86,7 +86,7 @@ function slot0.update(slot0, slot1)
 
 	slot0.discountTextTF.text = slot4
 	slot0.countTF.text = math.ceil(slot5)
-	slot0.resIconTF.sprite = GetSpriteFromAtlas("props/" .. id2res(slot1:getConfig("resource_type")), "")
+	slot0.resIconTF.sprite = GetSpriteFromAtlas(pg.item_data_statistics[id2ItemId(slot1:getConfig("resource_type"))].icon, "")
 end
 
 function slot0.dispose(slot0)

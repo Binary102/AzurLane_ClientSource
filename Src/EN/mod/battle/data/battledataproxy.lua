@@ -276,6 +276,14 @@ function slot8.CelebrateVictory(slot0, slot1)
 	end
 end
 
+function slot8.GetVanguardBornCoordinate(slot0, slot1)
+	if slot1 == slot0.FRIENDLY_CODE then
+		return slot0._currentStageData.fleetCorrdinate
+	elseif slot1 == slot0.FOE_CODE then
+		return slot0._currentStageData.rivalCorrdinate
+	end
+end
+
 function slot8.GetTotalBounds(slot0)
 	return slot0._totalUpperBound, slot0._totalLowerBound, slot0._totalLeftBound, slot0._totalRightBound
 end
@@ -514,7 +522,7 @@ function slot8.SpawnMonster(slot0, slot1, slot2, slot3, slot4)
 	slot8:SetAI(slot1.pilotAITemplateID or slot6.pilot_ai_template_id)
 	slot0:setShipUnitBound(slot8)
 
-	if slot6.type == ShipType.Qianting then
+	if table.contains(TeamType.SubShipType, slot6.type) then
 		slot8:InitOxygen()
 		slot0:UpdateHostileSubmarine(true)
 	end
@@ -612,20 +620,12 @@ function slot8.KillNPCTeam(slot0, slot1)
 end
 
 function slot8.SpawnVanguard(slot0, slot1, slot2)
-	slot3 = nil
-
-	if slot2 == slot0.FRIENDLY_CODE then
-		slot3 = slot0._currentStageData.fleetCorrdinate
-	elseif slot2 == slot0.FOE_CODE then
-		slot3 = slot0._currentStageData.rivalCorrdinate
-	end
-
 	slot4 = slot0:generatePlayerUnit(slot1, slot2, BuildVector3(slot3), slot0._commanderBuff)
 
 	slot0:GetFleetByIFF(slot2).AppendPlayerUnit(slot5, slot4)
 	slot0._cldSystem:InitShipCld(slot4)
-	slot0:DispatchEvent(slot2.Event.New(slot3.ADD_UNIT, {
-		type = slot1.UnitType.PLAYER_UNIT,
+	slot0:DispatchEvent(slot1.Event.New(slot2.ADD_UNIT, {
+		type = slot0.UnitType.PLAYER_UNIT,
 		unit = slot4
 	}))
 
@@ -648,16 +648,27 @@ function slot8.SpawnMain(slot0, slot1, slot2)
 end
 
 function slot8.SpawnSub(slot0, slot1, slot2)
-	slot6 = slot0:generatePlayerUnit(slot1, slot2, nil, slot0._subCommanderBuff)
+	slot3 = nil
+	slot5 = #slot0:GetFleetByIFF(slot2).GetSubList(slot4) + 1
+	slot6 = slot0.SUB_UNIT_OFFSET_X
+	slot7 = slot1.GetPlayerShipTmpDataFromID(slot1.tmpID).summon_offset or 0
+	slot7 = slot0:generatePlayerUnit(slot1, slot2, (slot2 ~= slot0.FRIENDLY_CODE or Vector3(slot6 + (slot1.GetPlayerShipTmpDataFromID(slot1.tmpID).summon_offset or 0) + slot0._totalLeftBound, 0, slot0.SUB_UNIT_POS_Z[slot5])) and Vector3(slot0._totalRightBound - (slot6 + (slot1.GetPlayerShipTmpDataFromID(slot1.tmpID).summon_offset or 0)), 0, slot0.SUB_UNIT_POS_Z[slot5]), slot0._subCommanderBuff)
 
-	slot0:GetFleetByIFF(slot2):AddSubMarine(slot6)
-	slot0._cldSystem:InitShipCld(slot6)
-	slot0:DispatchEvent(slot2.Event.New(nil.ADD_UNIT, {
-		type = slot1.UnitType.PLAYER_UNIT,
-		unit = slot6
+	slot4:AddSubMarine(slot7)
+	slot0._cldSystem:InitShipCld(slot7)
+	slot0:DispatchEvent((slot2 ~= slot0.FRIENDLY_CODE or Vector3(slot6 + (slot1.GetPlayerShipTmpDataFromID(slot1.tmpID).summon_offset or 0) + slot0._totalLeftBound, 0, slot0.SUB_UNIT_POS_Z[slot5])) and Vector3(slot0._totalRightBound - (slot6 + (slot1.GetPlayerShipTmpDataFromID(slot1.tmpID).summon_offset or 0)), 0, slot0.SUB_UNIT_POS_Z[slot5]).Event.New(slot4.ADD_UNIT, {
+		type = slot2.UnitType.PLAYER_UNIT,
+		unit = slot7
 	}))
 
-	return slot6
+	return slot7
+
+	slot7 = 0
+	slot3 = Vector3(slot6 + (slot1.GetPlayerShipTmpDataFromID(slot1.tmpID).summon_offset or 0) + slot0._totalLeftBound, 0, slot0.SUB_UNIT_POS_Z[slot5])
+
+	if Vector3(slot6 + (slot1.GetPlayerShipTmpDataFromID(slot1.tmpID).summon_offset or 0) + slot0._totalLeftBound, 0, slot0.SUB_UNIT_POS_Z[slot5]) then
+		slot3 = Vector3(slot0._totalRightBound - (slot6 + (slot1.GetPlayerShipTmpDataFromID(slot1.tmpID).summon_offset or 0)), 0, slot0.SUB_UNIT_POS_Z[slot5])
+	end
 end
 
 function slot8.ShutdownPlayerUnit(slot0, slot1)
@@ -675,6 +686,8 @@ function slot8.ShutdownPlayerUnit(slot0, slot1)
 	slot0:DispatchEvent(slot0.Event.New(slot1.SHUT_DOWN_PLAYER, {
 		unit = slot2
 	}))
+
+	return
 end
 
 function slot8.KillUnit(slot0, slot1)
@@ -703,7 +716,7 @@ function slot8.KillUnit(slot0, slot1)
 				slot2:GetTeam():RemoveUnit(slot2)
 			end
 
-			if slot2:GetTemplate().type == ShipType.Qianting then
+			if table.contains(TeamType.SubShipType, slot2:GetTemplate().type) then
 				slot0:UpdateHostileSubmarine(false)
 			end
 		end
@@ -714,8 +727,10 @@ function slot8.KillUnit(slot0, slot1)
 				drops = slot7
 			}))
 		end
-	elseif slot4 == slot0.FRIENDLY_CODE then
-		slot0._friendlyShipList[slot1] = nil
+	else
+		if slot4 == slot0.FRIENDLY_CODE then
+			slot0._friendlyShipList[slot1] = nil
+		end
 	end
 
 	slot0:DispatchEvent(slot2.Event.New(slot3.REMOVE_UNIT, {
@@ -725,6 +740,8 @@ function slot8.KillUnit(slot0, slot1)
 		unit = slot2
 	}))
 	slot2:Dispose()
+
+	return
 end
 
 function slot8.KillAllEnemy(slot0)
@@ -733,14 +750,18 @@ function slot8.KillAllEnemy(slot0)
 			slot5:DeadAction()
 		end
 	end
+
+	return
 end
 
 function slot8.KillSubmarineByIFF(slot0, slot1)
 	for slot5, slot6 in pairs(slot0._unitList) do
-		if slot6:GetIFF() == slot1 and slot6:IsAlive() and slot6:GetTemplate().type == ShipType.Qianting and not slot6:IsBoss() then
+		if slot6:GetIFF() == slot1 and slot6:IsAlive() and not slot6:IsBoss() and table.contains(TeamType.SubShipType, slot6:GetTemplate().type) then
 			slot6:DeadAction()
 		end
 	end
+
+	return
 end
 
 function slot8.KillAllAircraft(slot0)
@@ -752,6 +773,8 @@ function slot8.KillAllAircraft(slot0)
 
 		slot0._aircraftList[slot4] = nil
 	end
+
+	return
 end
 
 function slot8.IsThereBoss(slot0)
@@ -766,6 +789,8 @@ end
 
 function slot8.setShipUnitBound(slot0, slot1)
 	slot1:SetBound(slot0:GetUnitBoundByIFF(slot1:GetIFF()))
+
+	return
 end
 
 function slot8.generatePlayerUnit(slot0, slot1, slot2, slot3, slot4)
@@ -776,22 +801,28 @@ function slot8.generatePlayerUnit(slot0, slot1, slot2, slot3, slot4)
 
 	slot1.AttrFixer(slot0._battleInitData.battleType, slot1.properties)
 
-	slot7 = slot1.proficiency or {
-		1,
-		1,
-		1
-	}
+	if not slot1.proficiency then
+		slot7 = {
+			1,
+			1,
+			1
+		}
+	end
 
-	slot2.CreateBattleUnitData(slot5, slot3.UnitType.PLAYER_UNIT, slot2, slot1.tmpID, slot1.skinId, slot1.equipment, slot6, slot1.proficiency or , slot0._completelyRepress, slot0._repressReduce, nil, slot1.baseList, slot1.preloasList):InitCurrentHP(slot1.initHPRate or 1)
+	slot10 = slot2.CreateBattleUnitData(slot5, slot3.UnitType.PLAYER_UNIT, slot2, slot1.tmpID, slot1.skinId, slot1.equipment, slot6, slot7, slot0._completelyRepress, slot0._repressReduce, nil, slot1.baseList, slot1.preloasList)
+	slot9 = slot2.CreateBattleUnitData(slot5, slot3.UnitType.PLAYER_UNIT, slot2, slot1.tmpID, slot1.skinId, slot1.equipment, slot6, slot7, slot0._completelyRepress, slot0._repressReduce, nil, slot1.baseList, slot1.preloasList).InitCurrentHP
+
+	if not slot1.initHPRate then
+		slot11 = 1
+	end
+
+	slot9(slot10, slot11)
 	slot8:SetRarity(slot1.rarity)
 	slot8:SetShipName(slot1.name)
 
 	slot0._unitList[slot5] = slot8
 
 	slot0:setShipUnitBound(slot8)
-
-	slot7 = 
-	slot11 = 1
 
 	if slot8:GetIFF() == slot0.FRIENDLY_CODE then
 		slot0._friendlyShipList[slot5] = slot8

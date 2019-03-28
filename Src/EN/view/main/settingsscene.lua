@@ -19,6 +19,10 @@ function slot0.init(slot0)
 	slot0.interfaceToggle = slot0:findTF("nav/nav/battle_preference")
 	slot0.resToggle = slot0:findTF("nav/nav/res")
 	slot0.accountToggle = slot0:findTF("nav/nav/account")
+	slot0.yostarHelpToggle = slot0:findTF("nav/nav/yostar_help")
+
+	setActive(slot0.yostarHelpToggle, CSharpVersion > 24)
+
 	slot0.repairMask = slot0:findTF("mask_repair")
 
 	slot0:initSoundPanel(slot0:findTF("main/sound"))
@@ -171,15 +175,24 @@ function slot0.initTransCodePanel(slot0, slot1)
 	slot0.facebookBtn = slot0:findTF("facebook_btn", slot0.accountTwitterUI)
 	slot0.facebookUnlinkBtn = slot0:findTF("facebook_unlink_btn", slot0.accountTwitterUI)
 	slot0.facebookLinkSign = slot0:findTF("facebook_title_desc", slot0.accountTwitterUI)
+	slot0.yostarBtn = slot0:findTF("yostar_btn", slot0.accountTwitterUI)
+	slot0.yostarUnlinkBtn = slot0:findTF("yostar_unlink_btn", slot0.accountTwitterUI)
+	slot0.yostarLinkSign = slot0:findTF("yostar_title_desc", slot0.accountTwitterUI)
 	slot0.transcodeUI = slot0:findTF("transcode_ui", slot1)
 	slot0.uidTxt = slot0:findTF("IDPanel/code/Text", slot0.transcodeUI)
 	slot0.transcodeTxt = slot0:findTF("PWPanel/code/Text", slot0.transcodeUI)
 	slot0.getCodeBtn = slot0:findTF("Button", slot0.transcodeUI)
 	slot0.codeDesc = slot0:findTF("title_desc", slot0.transcodeUI)
+	slot0.yostarAlert = slot0:findTF("yostar_alert", slot0._tf)
+	slot0.yostarEmailTxt = slot0:findTF("email_input_txt", slot0.yostarAlert)
+	slot0.yostarCodeTxt = slot0:findTF("code_input_txt", slot0.yostarAlert)
+	slot0.yostarGenCodeBtn = slot0:findTF("gen_code_btn", slot0.yostarAlert)
+	slot0.yostarSureBtn = slot0:findTF("login_btn", slot0.yostarAlert)
 
 	slot0:checkTranscodeView()
 	slot0:checkAccountTwitterView()
 	slot0:checkAccountFacebookView()
+	slot0:checkAccountYostarView()
 end
 
 function slot0.showTranscode(slot0, slot1)
@@ -221,6 +234,22 @@ function slot0.checkAccountFacebookView(slot0)
 
 	if slot1 then
 		setText(slot0.facebookLinkSign, i18n("facebook_link_title", GetSocialName(AIRI_PLATFORM_FACEBOOK)))
+	end
+end
+
+function slot0.checkAccountYostarView(slot0)
+	if CSharpVersion <= 24 then
+		return
+	end
+
+	slot1 = IsSocialLink(AIRI_PLATFORM_YOSTAR)
+
+	setActive(slot0.yostarUnlinkBtn, slot1)
+	setActive(slot0.yostarLinkSign, slot1)
+	setActive(slot0.yostarBtn, not slot1)
+
+	if slot1 then
+		setText(slot0.yostarLinkSign, i18n("yostar_link_title", GetSocialName(AIRI_PLATFORM_YOSTAR)))
 	end
 end
 
@@ -735,10 +764,21 @@ function slot0.didEnter(slot0)
 		slot0(slot0, 672, 352)
 	end, SFX_PANEL)
 	onToggle(slot0, slot0.accountToggle, function (slot0)
-		slot0(slot0, nil, 380)
-		setActive(slot1.accountTwitterUI, not LOCK_TWITTER_LOGIN)
-		setActive(slot1.transcodeUI, LOCK_TWITTER_LOGIN)
+		if CSharpVersion > 24 then
+			slot0(slot0, nil, 450)
+		else
+			slot0(slot0, nil, 380)
+			setActive(slot1.yostarBtn, false)
+			setActive(slot1.yostarUnlinkBtn, false)
+			setActive(slot1.yostarLinkSign, false)
+		end
+
+		setActive(slot1.accountTwitterUI, true)
+		setActive(slot1.transcodeUI, false)
 	end, SFX_PANEL)
+	onButton(slot0, slot0.yostarHelpToggle, function ()
+		OpenYostarHelp()
+	end)
 	triggerToggle(slot0.resToggle, true)
 
 	slot0._cvTest = slot0:findTF("cvTest")
@@ -769,6 +809,28 @@ function slot0.didEnter(slot0)
 	onButton(slot0, slot0.goTranscodeUIBtn, function ()
 		setActive(slot0.accountTwitterUI, false)
 		setActive(slot0.transcodeUI, true)
+	end)
+	onButton(slot0, slot0.yostarBtn, function ()
+		pg.UIMgr.GetInstance():BlurPanel(slot0.yostarAlert, false)
+		setActive(slot0.yostarAlert, true)
+	end)
+	onButton(slot0, slot0.yostarAlert, function ()
+		pg.UIMgr.GetInstance():UnblurPanel(slot0.yostarAlert, slot0._tf)
+		setActive(slot0.yostarAlert, false)
+	end)
+	onButton(slot0, slot0.yostarGenCodeBtn, function ()
+		if getInputText(slot0.yostarEmailTxt) ~= "" then
+			VerificationCodeReq(slot0)
+		else
+			pg.TipsMgr:GetInstance():ShowTips(i18n("verification_code_req_tip1"))
+		end
+	end)
+	onButton(slot0, slot0.yostarSureBtn, function ()
+		slot0 = getInputText(slot0.yostarEmailTxt)
+
+		pg.UIMgr.GetInstance():LoadingOn()
+		LinkSocial(AIRI_PLATFORM_YOSTAR, slot0, getInputText(slot0.yostarCodeTxt))
+		triggerButton(slot0.yostarAlert)
 	end)
 
 	if SFX_TEST then

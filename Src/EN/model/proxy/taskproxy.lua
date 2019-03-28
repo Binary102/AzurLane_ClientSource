@@ -279,52 +279,11 @@ function slot0.mingshiTouchFlagEnabled(slot0)
 	return true
 end
 
-function slot0.getActivityTask(slot0, slot1)
-	slot3 = pg.TimeMgr.GetInstance()
-	slot5 = math.max(slot1.data3, 1)
-	slot6 = 0
-	slot7, slot8 = nil
-
-	for slot12 = math.max(slot1.data3, 1), math.clamp(slot3:DiffDay(slot1.data1, slot3:GetServerTime()) + 1, 1, #slot1:getConfig("config_data")), 1 do
-		slot14, slot15 = nil
-
-		for slot19, slot20 in ipairs(slot13) do
-			slot22 = slot0:getFinishTaskById(slot20)
-
-			if slot0:getTaskById(slot20) then
-				if not slot14 or slot21:getTaskStatus() == 1 then
-					slot14 = slot20
-					slot15 = slot21
-				end
-			elseif slot22 then
-				slot5 = slot12
-				slot6 = slot19
-				slot7 = slot20
-				slot8 = slot22
-			end
-		end
-
-		if slot14 then
-			return slot14, slot15
-		end
-	end
-
-	for slot12 = slot5, slot4, 1 do
-		for slot17, slot18 in ipairs(slot13) do
-			if (slot5 < slot12 or slot6 < slot17) and not slot0:getFinishTaskById(slot18) then
-				return slot18
-			end
-		end
-	end
-
-	return slot7, slot8
-end
-
 function slot0.getAcademyTask(slot0, slot1)
 	if _.detect(getProxy(ActivityProxy).getActivitiesByType(slot2, ActivityConst.ACTIVITY_TYPE_TASK_LIST), function (slot0)
 		return slot0:getTaskShip() and slot1.groupId == slot0
 	end) and not slot4:isEnd() then
-		return slot0:getActivityTask(slot4)
+		return getActivityTask(slot4, true)
 	end
 end
 

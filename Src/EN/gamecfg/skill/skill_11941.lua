@@ -1,9 +1,9 @@
 return {
 	uiEffect = "",
-	name = "香格里拉2",
+	name = "天与海的观测者",
 	cd = 0,
 	picture = "0",
-	desc = "香格里拉2PVE",
+	desc = "天与海的观测者PVE",
 	painting = 1,
 	id = 11941,
 	castCV = "",

@@ -38,15 +38,15 @@ pg.skill_data_display = {
 	},
 	[1001] = {
 		id = 1001,
-		name = "Artillery Command: Destroyer"
+		name = "Artillery Command: Destroyers"
 	},
 	[1002] = {
 		id = 1002,
-		name = "Artillery Command: Cruiser"
+		name = "Artillery Command: Cruisers"
 	},
 	[1003] = {
 		id = 1003,
-		name = "Artillery Command: Battleship"
+		name = "Artillery Command: Battleships"
 	},
 	[1004] = {
 		id = 1004,
@@ -62,11 +62,11 @@ pg.skill_data_display = {
 	},
 	[1011] = {
 		id = 1011,
-		name = "Torpedo Command: Destroyer"
+		name = "Torpedo Command: Destroyers"
 	},
 	[1012] = {
 		id = 1012,
-		name = "Torpedo Command: Cruiser"
+		name = "Torpedo Command: Cruisers"
 	},
 	[1013] = {
 		id = 1013,
@@ -74,19 +74,19 @@ pg.skill_data_display = {
 	},
 	[1021] = {
 		id = 1021,
-		name = "Air Command: All"
+		name = "Aviation Command: All"
 	},
 	[1031] = {
 		id = 1031,
-		name = "Reload Command: Destroyer"
+		name = "Reload Command: Destroyers"
 	},
 	[1032] = {
 		id = 1032,
-		name = "Reload Command: Cruiser"
+		name = "Reload Command: Cruisers"
 	},
 	[1033] = {
 		id = 1033,
-		name = "Reload Command: Battleship"
+		name = "Reload Command: Battleships"
 	},
 	[1034] = {
 		id = 1034,
@@ -106,15 +106,15 @@ pg.skill_data_display = {
 	},
 	[1041] = {
 		id = 1041,
-		name = "Anti-Air Command: Destroyer"
+		name = "Anti-Air Command: Destroyers"
 	},
 	[1042] = {
 		id = 1042,
-		name = "Anti-Air Command: Cruiser"
+		name = "Anti-Air Command: Cruisers"
 	},
 	[1043] = {
 		id = 1043,
-		name = "Anti-Air Command: Battleship"
+		name = "Anti-Air Command: Battleships"
 	},
 	[1044] = {
 		id = 1044,
@@ -130,15 +130,15 @@ pg.skill_data_display = {
 	},
 	[1051] = {
 		id = 1051,
-		name = "Tactical Command: Destroyer"
+		name = "Tactical Command: Destroyers"
 	},
 	[1052] = {
 		id = 1052,
-		name = "Tactical Command: Cruiser"
+		name = "Tactical Command: Cruisers"
 	},
 	[1053] = {
 		id = 1053,
-		name = "Tactical Command: Battleship"
+		name = "Tactical Command: Battleships"
 	},
 	[1054] = {
 		id = 1054,
@@ -166,7 +166,7 @@ pg.skill_data_display = {
 	},
 	[1091] = {
 		id = 1091,
-		name = "Mining Fleet"
+		name = "Torpedo Squadron"
 	},
 	[2001] = {
 		id = 2001,
@@ -206,11 +206,11 @@ pg.skill_data_display = {
 	},
 	[2091] = {
 		id = 2091,
-		name = "Magnetic Torpedo"
+		name = "Magnetic Torpedoes"
 	},
 	[2101] = {
 		id = 2101,
-		name = "Torpedo Barrage"
+		name = "Torpedo Launch"
 	},
 	[2111] = {
 		id = 2111,
@@ -234,7 +234,7 @@ pg.skill_data_display = {
 	},
 	[2171] = {
 		id = 2171,
-		name = "Anti-air Vigilance "
+		name = "Anti-Air Vigilance"
 	},
 	[3001] = {
 		id = 3001,
@@ -262,27 +262,27 @@ pg.skill_data_display = {
 	},
 	[3511] = {
 		id = 3511,
-		name = "额外供氧"
+		name = "Extra Oxygen"
 	},
 	[3521] = {
 		id = 3521,
-		name = "水面作战"
+		name = "Surface Combat"
 	},
 	[3531] = {
 		id = 3531,
-		name = "缓速鱼雷"
+		name = "Slow Torpedoes"
 	},
 	[3571] = {
 		id = 3571,
-		name = "轻巡猎手"
+		name = "Light Cruiser Hunter"
 	},
 	[3581] = {
 		id = 3581,
-		name = "重巡猎手"
+		name = "Heavy Cruiser Hunter"
 	},
 	[3591] = {
 		id = 3591,
-		name = "航母猎手"
+		name = "Carrier Hunter"
 	},
 	[3611] = {
 		id = 3611,
@@ -294,7 +294,7 @@ pg.skill_data_display = {
 	},
 	[4011] = {
 		id = 4011,
-		name = "Defensive Order"
+		name = "Defense Order"
 	},
 	[4021] = {
 		id = 4021,
@@ -318,7 +318,7 @@ pg.skill_data_display = {
 	},
 	[4071] = {
 		id = 4071,
-		name = "Extreme Evasion"
+		name = "Emergency Maneuvers"
 	},
 	[4081] = {
 		id = 4081,
@@ -478,7 +478,7 @@ pg.skill_data_display = {
 	},
 	[6170] = {
 		id = 6170,
-		name = "Curing"
+		name = "Cat Potency"
 	},
 	[6180] = {
 		id = 6180,
@@ -550,11 +550,11 @@ pg.skill_data_display = {
 	},
 	[9030] = {
 		id = 9030,
-		name = "Engineer skill, buli!"
+		name = "BULIN used SKILL!"
 	},
 	[9031] = {
 		id = 9031,
-		name = "Nothing happens, buli..."
+		name = "But nothing happened!"
 	},
 	[10010] = {
 		id = 10010,
@@ -610,11 +610,11 @@ pg.skill_data_display = {
 	},
 	[10130] = {
 		id = 10130,
-		name = "Avalanche"
+		name = "Sister Penn"
 	},
 	[10131] = {
 		id = 10131,
-		name = "Avalanche"
+		name = "Sister Penn"
 	},
 	[10140] = {
 		id = 10140,
@@ -626,11 +626,11 @@ pg.skill_data_display = {
 	},
 	[10160] = {
 		id = 10160,
-		name = "Aegis"
+		name = "The Strongest Shield"
 	},
 	[10170] = {
 		id = 10170,
-		name = "Aviation Vanguard"
+		name = "First-Generation Carrier"
 	},
 	[10180] = {
 		id = 10180,
@@ -658,7 +658,7 @@ pg.skill_data_display = {
 	},
 	[10230] = {
 		id = 10230,
-		name = "Prototype Ship"
+		name = "Prototype Destroyer"
 	},
 	[10240] = {
 		id = 10240,
@@ -690,7 +690,7 @@ pg.skill_data_display = {
 	},
 	[10300] = {
 		id = 10300,
-		name = "Queen's Command"
+		name = "Queen's Orders"
 	},
 	[10310] = {
 		id = 10310,
@@ -702,7 +702,7 @@ pg.skill_data_display = {
 	},
 	[10330] = {
 		id = 10330,
-		name = "Sword Launch"
+		name = "Swordfishes, Strike!"
 	},
 	[10340] = {
 		id = 10340,
@@ -714,11 +714,11 @@ pg.skill_data_display = {
 	},
 	[10360] = {
 		id = 10360,
-		name = "Solomon's Nightmare"
+		name = "Nightmare of Solomon"
 	},
 	[10370] = {
 		id = 10370,
-		name = "Sasebo {namecode:17}"
+		name = "Shigure of Sasebo"
 	},
 	[10380] = {
 		id = 10380,
@@ -738,7 +738,7 @@ pg.skill_data_display = {
 	},
 	[10410] = {
 		id = 10410,
-		name = "Solomon's God"
+		name = "Wargod of Solomon"
 	},
 	[10420] = {
 		id = 10420,
@@ -766,35 +766,35 @@ pg.skill_data_display = {
 	},
 	[10480] = {
 		id = 10480,
-		name = "Sisterly Love"
+		name = "Sisterly Bond"
 	},
 	[10490] = {
 		id = 10490,
-		name = "Sisterly Love"
+		name = "Sisterly Bond"
 	},
 	[10500] = {
 		id = 10500,
-		name = "Sakura Resistance"
+		name = "For The Dragon Empery"
 	},
 	[10510] = {
 		id = 10510,
-		name = "Worldbuster Boom"
+		name = "Revolyutsiya"
 	},
 	[10520] = {
 		id = 10520,
-		name = "定期维护"
+		name = "Regular Maintenance"
 	},
 	[10521] = {
 		id = 10521,
-		name = "定期维护"
+		name = "Regular Maintenance"
 	},
 	[10522] = {
 		id = 10522,
-		name = "定期维护"
+		name = "Regular Maintenance"
 	},
 	[10530] = {
 		id = 10530,
-		name = "Ironblood Vanguard"
+		name = "Iron Blood Vanguard"
 	},
 	[10540] = {
 		id = 10540,
@@ -818,7 +818,7 @@ pg.skill_data_display = {
 	},
 	[10590] = {
 		id = 10590,
-		name = "Prototype Ship: Patrol"
+		name = "Prototype Cruiser"
 	},
 	[10600] = {
 		id = 10600,
@@ -854,11 +854,11 @@ pg.skill_data_display = {
 	},
 	[10670] = {
 		id = 10670,
-		name = "Lonely Queen of the North"
+		name = "Lone Queen of the North"
 	},
 	[10680] = {
 		id = 10680,
-		name = "Wing of Iron Blood"
+		name = "Iron Blood Wings"
 	},
 	[10690] = {
 		id = 10690,
@@ -878,7 +878,7 @@ pg.skill_data_display = {
 	},
 	[10730] = {
 		id = 10730,
-		name = "Supernatural"
+		name = "The Demon"
 	},
 	[10740] = {
 		id = 10740,
@@ -898,7 +898,7 @@ pg.skill_data_display = {
 	},
 	[10780] = {
 		id = 10780,
-		name = "Gambler's Ship"
+		name = "Lucky(?) Ship"
 	},
 	[10781] = {
 		id = 10781,
@@ -946,11 +946,11 @@ pg.skill_data_display = {
 	},
 	[10860] = {
 		id = 10860,
-		name = "Assault Mode EX"
+		name = "Assault Mode"
 	},
 	[10870] = {
 		id = 10870,
-		name = "Torpedo Command: Sea"
+		name = "2nd Torpedo Squadron"
 	},
 	[10880] = {
 		id = 10880,
@@ -958,7 +958,7 @@ pg.skill_data_display = {
 	},
 	[10890] = {
 		id = 10890,
-		name = "The Unyielding {namecode:39}"
+		name = "The Unyielding Jintsuu"
 	},
 	[10900] = {
 		id = 10900,
@@ -966,7 +966,7 @@ pg.skill_data_display = {
 	},
 	[10910] = {
 		id = 10910,
-		name = "Reborn Sakura Fleet"
+		name = "Reborn Combined Fleet Flagship"
 	},
 	[10920] = {
 		id = 10920,
@@ -1086,7 +1086,7 @@ pg.skill_data_display = {
 	},
 	[11170] = {
 		id = 11170,
-		name = "Friends of Justice"
+		name = "Allies of Justice"
 	},
 	[11180] = {
 		id = 11180,
@@ -1102,7 +1102,7 @@ pg.skill_data_display = {
 	},
 	[11210] = {
 		id = 11210,
-		name = "Vanquish Mode"
+		name = "Annihilation Mode"
 	},
 	[11220] = {
 		id = 11220,
@@ -1146,7 +1146,7 @@ pg.skill_data_display = {
 	},
 	[11280] = {
 		id = 11280,
-		name = "The Perfect Chibi Maid"
+		name = "The Perfect Mini-Maid"
 	},
 	[11290] = {
 		id = 11290,
@@ -1158,7 +1158,7 @@ pg.skill_data_display = {
 	},
 	[11310] = {
 		id = 11310,
-		name = "Sakura Fleet Flagship - {namecode:74}"
+		name = "4th Combined Fleet Flagship"
 	},
 	[11320] = {
 		id = 11320,
@@ -1182,7 +1182,7 @@ pg.skill_data_display = {
 	},
 	[11370] = {
 		id = 11370,
-		name = "Fatal Penetration"
+		name = "Fatal Perforation"
 	},
 	[11380] = {
 		id = 11380,
@@ -1218,7 +1218,7 @@ pg.skill_data_display = {
 	},
 	[11450] = {
 		id = 11450,
-		name = "Overload Firepower "
+		name = "Firepower Overload"
 	},
 	[11460] = {
 		id = 11460,
@@ -1302,7 +1302,7 @@ pg.skill_data_display = {
 	},
 	[11610] = {
 		id = 11610,
-		name = "Air Formation"
+		name = "Aviation Battleship Fleet"
 	},
 	[11611] = {
 		id = 11611,
@@ -1386,7 +1386,7 @@ pg.skill_data_display = {
 	},
 	[11730] = {
 		id = 11730,
-		name = "LittleStar"
+		name = "Little Star"
 	},
 	[11740] = {
 		id = 11740,
@@ -1394,11 +1394,11 @@ pg.skill_data_display = {
 	},
 	[11750] = {
 		id = 11750,
-		name = "Light Carrier Unit"
+		name = "Light Carrier Unit "
 	},
 	[11760] = {
 		id = 11760,
-		name = "Raid Signal"
+		name = "Raid Signal "
 	},
 	[11761] = {
 		id = 11761,
@@ -1442,15 +1442,15 @@ pg.skill_data_display = {
 	},
 	[11860] = {
 		id = 11860,
-		name = "苍狼之印"
+		name = "Mark of Sirius "
 	},
 	[11890] = {
 		id = 11890,
-		name = "Miracle Within The Flames "
+		name = "Miracle Within The Flames"
 	},
 	[11900] = {
 		id = 11900,
-		name = "Protector of The North Passage "
+		name = "Protector of The North Passage"
 	},
 	[19000] = {
 		id = 19000,
@@ -1506,19 +1506,19 @@ pg.skill_data_display = {
 	},
 	[19090] = {
 		id = 19090,
-		name = "Professional Reloader"
+		name = "Expert Loader"
 	},
 	[19091] = {
 		id = 19091,
-		name = "Professional Reloader"
+		name = "Expert Loader"
 	},
 	[19100] = {
 		id = 19100,
-		name = "Well-rounded Armor"
+		name = "Well-Rounded Armor"
 	},
 	[19110] = {
 		id = 19110,
-		name = "Enforced HE Ammo"
+		name = "Augmented HE Ammo"
 	},
 	[19120] = {
 		id = 19120,
@@ -1782,11 +1782,11 @@ pg.skill_data_display = {
 	},
 	[21171] = {
 		id = 21171,
-		name = "All Out Assault Ⅰ"
+		name = "All Out Assault: Ceres-Class I"
 	},
 	[21172] = {
 		id = 21172,
-		name = "All Out Assault Ⅱ"
+		name = "All Out Assault: Ceres-Class II"
 	},
 	[21211] = {
 		id = 21211,
@@ -2282,19 +2282,19 @@ pg.skill_data_display = {
 	},
 	[29221] = {
 		id = 29221,
-		name = "EX Barrage: Neptune Ⅰ"
+		name = "EX Barrage: {namecode:152} Ⅰ"
 	},
 	[29222] = {
 		id = 29222,
-		name = "EX Barrage: Neptune Ⅱ"
+		name = "EX Barrage: {namecode:152} Ⅱ"
 	},
 	[29231] = {
 		id = 29231,
-		name = "EX Barrage: Ibuki Ⅰ"
+		name = "EX Barrage: Neptune Ⅰ"
 	},
 	[29232] = {
 		id = 29232,
-		name = "EX Barrage: Ibuki Ⅱ"
+		name = "EX Barrage: Neptune Ⅱ"
 	},
 	[29241] = {
 		id = 29241,
@@ -2370,15 +2370,15 @@ pg.skill_data_display = {
 	},
 	[29351] = {
 		id = 29351,
-		name = "专属弹幕-圣地亚哥"
+		name = "专属弹幕-圣地亚哥I"
 	},
 	[29361] = {
 		id = 29361,
-		name = "专属弹幕-天狼星I"
+		name = "All Out Assault: Sirius I "
 	},
 	[29362] = {
 		id = 29362,
-		name = "专属弹幕-天狼星II"
+		name = "All Out Assault: Sirius II "
 	},
 	[101010] = {
 		id = 101010,

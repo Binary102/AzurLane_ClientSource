@@ -3,23 +3,24 @@ slot0.Vanguard = "vanguard"
 slot0.Main = "main"
 slot0.Submarine = "submarine"
 slot0.VanguardShipType = {
-	1,
-	2,
-	3,
-	9,
-	11
+	ShipType.QuZhu,
+	ShipType.QingXun,
+	ShipType.ZhongXun,
+	ShipType.HangXun,
+	ShipType.LeiXun
 }
 slot0.MainShipType = {
-	4,
-	5,
-	6,
-	7,
-	10,
-	12,
-	13
+	ShipType.ZhanXun,
+	ShipType.ZhanLie,
+	ShipType.QingHang,
+	ShipType.ZhengHang,
+	ShipType.HangZhan,
+	ShipType.WeiXiu,
+	ShipType.ZhongPao
 }
 slot0.SubShipType = {
-	8
+	ShipType.QianTing,
+	ShipType.QianMu
 }
 slot0.VanguardMax = 3
 slot0.MainMax = 3

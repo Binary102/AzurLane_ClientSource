@@ -340,7 +340,7 @@ return {
 		}
 	},
 	desc_get = "",
-	name = "占坑",
+	name = "千年之凤",
 	init_effect = "",
 	id = 11781,
 	time = 0,

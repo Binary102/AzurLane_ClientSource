@@ -300,7 +300,7 @@ return {
 		}
 	},
 	time = 1,
-	name = "神射手改",
+	name = "神射手·改",
 	init_effect = "",
 	picture = "",
 	desc = "使得非装备武器发射的子弹暴击率提高100%",

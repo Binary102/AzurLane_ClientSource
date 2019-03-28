@@ -112,6 +112,10 @@ function slot5.GetAttachPoint(slot0)
 	return slot0._FXAttachPoint
 end
 
+function slot5.GetSpecificFXScale(slot0)
+	return {}
+end
+
 function slot5.PlayFX(slot0, slot1)
 	pg.EffectMgr.GetInstance():PlayBattleEffect(slot0:GetFactory():GetFXPool():GetFX(slot1), slot0:GetPosition(), true)
 end

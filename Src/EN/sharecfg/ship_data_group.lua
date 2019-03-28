@@ -2281,15 +2281,24 @@ pg.ship_data_group = {
 	[74] = {
 		nationality = 1,
 		hide = 0,
-		trans_skin = 0,
+		trans_skin = 107039,
 		handbook_type = 0,
 		redirect_id = 101,
 		code = 74,
 		type = 7,
 		group_type = 10703,
 		trans_type = 7,
-		trans_radar_chart = {},
-		trans_skill = {},
+		trans_radar_chart = {
+			"C",
+			"E",
+			"S",
+			"C",
+			"A",
+			"A"
+		},
+		trans_skill = {
+			11400
+		},
 		description = {
 			{
 				"Honor medal exchange",
@@ -4786,15 +4795,24 @@ pg.ship_data_group = {
 	[168] = {
 		nationality = 3,
 		hide = 0,
-		trans_skin = 0,
+		trans_skin = 301189,
 		handbook_type = 0,
 		redirect_id = 101,
 		code = 168,
 		type = 1,
 		group_type = 30118,
 		trans_type = 1,
-		trans_radar_chart = {},
-		trans_skill = {},
+		trans_radar_chart = {
+			"C",
+			"A",
+			"E",
+			"A",
+			"D",
+			"C"
+		},
+		trans_skill = {
+			5021
+		},
 		description = {
 			{
 				"Explore Stage4-1",
@@ -4839,6 +4857,28 @@ pg.ship_data_group = {
 		code = 171,
 		type = 1,
 		group_type = 30121,
+		trans_type = 0,
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"Monthly Sign-in",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[173] = {
+		nationality = 3,
+		hide = 0,
+		trans_skin = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		code = 173,
+		type = 1,
+		group_type = 30123,
 		trans_type = 0,
 		trans_radar_chart = {},
 		trans_skill = {},
@@ -7205,6 +7245,58 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[329] = {
+		nationality = 1,
+		hide = 0,
+		trans_skin = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		code = 329,
+		type = 2,
+		group_type = 10214,
+		trans_type = 0,
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"Light ship Construction",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
+				0
+			}
+		}
+	},
+	[330] = {
+		nationality = 1,
+		hide = 0,
+		trans_skin = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		code = 330,
+		type = 2,
+		group_type = 10215,
+		trans_type = 0,
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"Light ship Construction",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
+				0
+			}
+		}
+	},
 	[345] = {
 		nationality = 4,
 		hide = 0,
@@ -7794,6 +7886,7 @@ pg.ship_data_group = {
 		168,
 		170,
 		171,
+		173,
 		174,
 		176,
 		182,
@@ -7881,6 +7974,8 @@ pg.ship_data_group = {
 		326,
 		327,
 		328,
+		329,
+		330,
 		345,
 		362,
 		363,

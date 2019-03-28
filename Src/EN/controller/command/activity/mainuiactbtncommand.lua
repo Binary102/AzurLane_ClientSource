@@ -37,6 +37,10 @@ function slot0.shouldNotify(slot0, slot1)
 		end
 	end
 
+	if slot1.id == ActivityConst.NARVIK_PREVIEW_ID or slot1.id == ActivityConst.HUNTER_PT_ID then
+		return slot1:readyToAchieve()
+	end
+
 	return slot3
 end
 

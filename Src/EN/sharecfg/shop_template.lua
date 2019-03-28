@@ -7771,6 +7771,125 @@ pg.shop_template = {
 			}
 		}
 	},
+	[70061] = {
+		group_type = 0,
+		resource_num = 800,
+		desc = "Buy skin - Ayanami Rock'n KIJIN",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 1,
+		order = 9895,
+		time = "always",
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 70061,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			301053
+		}
+	},
+	[70062] = {
+		group_type = 0,
+		resource_num = 780,
+		desc = "Buy skin - Shiratsuyu: Is the Order a Torpedo?",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 6,
+		order = 9894,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 70062,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			301131
+		},
+		time = {
+			{
+				{
+					2019,
+					3,
+					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					3
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[70063] = {
+		group_type = 0,
+		resource_num = 780,
+		desc = "Buy skin - Yuugure: Apprentice Maid",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 6,
+		order = 9893,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 70063,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			301261
+		},
+		time = {
+			{
+				{
+					2019,
+					3,
+					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					3
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	[70076] = {
 		group_type = 0,
 		resource_num = 1180,
@@ -9977,6 +10096,102 @@ pg.shop_template = {
 			103071
 		}
 	},
+	[70172] = {
+		group_type = 0,
+		resource_num = 780,
+		desc = "购买皮肤：小天鹅皮肤",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 6,
+		order = 9892,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 70172,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			201104
+		},
+		time = {
+			{
+				{
+					2019,
+					3,
+					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					3
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[70170] = {
+		group_type = 0,
+		resource_num = 800,
+		desc = "购买皮肤：光辉",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		order = 9891,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 70170,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			207033
+		},
+		time = {
+			{
+				{
+					2019,
+					3,
+					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	[90000] = {
 		group_type = 0,
 		resource_num = 980,
@@ -10633,6 +10848,9 @@ pg.shop_template = {
 		70057,
 		70059,
 		70060,
+		70061,
+		70062,
+		70063,
 		70076,
 		70077,
 		70078,
@@ -10680,6 +10898,8 @@ pg.shop_template = {
 		70161,
 		70164,
 		70165,
+		70172,
+		70170,
 		90000,
 		90001,
 		90002,

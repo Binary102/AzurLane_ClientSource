@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"Best Pictures!\n\n<size=30>三 小加加的休息日</size>",
+					"Best Pictures!\n\n<size=30>Chapter 3: Sara's Day Off!",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "第四张照片上是休息日里还在进行着偶像工作（？）的萨拉托加——",
+			say = "The fourth photo was of Saratoga, doing her work as an idol(?) even on her day off...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -34,7 +34,7 @@ return {
 			bgm = "story-1",
 			actor = 107031,
 			nameColor = "#a9f548",
-			say = "嗯嗯！今天的宣传照也拍得不错！",
+			say = "Mmhmm! Today's photoshop went pretty well!",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -67,7 +67,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "果然作战经验丰富的船就是容易被找上门作宣传啊~好，决定了！有机会演个电影吧！",
+			say = "Ahh, after you've been in the field for a while, everyone wants to work with you~ That settles it, I'm going to star in a movie!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			}
 		},
 		{
-			say = "萨拉托加，咱……咳，我们真的能演吗……",
+			say = "Miss Saratoga, do ya reckon... *cough!* I mean, do you think we'd be able to do something like that?",
 			side = 0,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -103,7 +103,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没事！小彗星你们还没适应，有什么情况我会支援你们的！",
+			say = "Don't you fret! Comet, you and the others just aren't used to it yet! No matter what happens, you'll all have my support!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "萨拉托加说得没错！小天鹅你也是，抬头挺胸！",
+			say = "Miss Saratoga is right! Have some more faith in yourself!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "嗯！咱也会加油的！……为庆功宴做准备！",
+			say = "Yeah! Let's do our darndest... to enjoy the party!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "喂——！这边准备好啦！",
+			say = "All right! Preparations are A-O-K!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			dir = 1,
 			actor = 107031,
 			nameColor = "#a9f548",
-			say = "干杯——！",
+			say = "Cheers!",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -204,7 +204,7 @@ return {
 			}
 		},
 		{
-			say = "干杯——！……咳咳！萨拉托加，莫非你……",
+			say = "Cheeeers! *cough* *hack*! Miss Saratoga, did you perhaps...",
 			side = 0,
 			bgName = "bg_story_room",
 			dir = -1,
@@ -245,7 +245,7 @@ return {
 			dir = 1,
 			actor = 107031,
 			nameColor = "#a9f548",
-			say = "嘿嘿嘿嘿，我往里放了点姜♪恶作剧得手",
+			say = "Heh heh heh! I might have slipped a bit of ginger in there~! Got you good!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "我这杯是放了黑醋吧……该不会这里每个人都被你动了手脚……",
+			say = "Um, I think there's some vinegar in mine... did you slip something into everyone's drink?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "抱歉抱歉！今天一整天都老老实实的，有点手痒……",
+			say = "My bad, my bad! I had to be on my best behavior all day, so I just couldn't help it...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,7 +302,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过我帮你们点了新的饮料，等我去拿来哦！",
+			say = "To make it up, let me get you a new round of drinks, hang on tight!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -318,7 +318,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，咱也去帮你！",
+			say = "Ah, umm, we'll come help ya out!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -334,7 +334,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "谢啦！啊，指挥官那杯放了汽……不对是墨鱼汁！等下记得要好好刷牙哦！",
+			say = "Appreciate it! Wait, Commander, that one's gaso- I mean, it's squid ink! Remember to brush your teeth afterwards!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -345,7 +345,7 @@ return {
 			}
 		},
 		{
-			say = "……诶。",
+			say = "... Right...",
 			side = 1,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -362,7 +362,7 @@ return {
 			}
 		},
 		{
-			say = "这么说来，隔天早上确实遇到麻烦了……",
+			say = "Now that I think about it, that explains the terrible, no-fun morning I had that other day...",
 			side = 2,
 			dir = 1,
 			bgName = "bg_story_room",

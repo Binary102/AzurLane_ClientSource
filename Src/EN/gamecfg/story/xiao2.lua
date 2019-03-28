@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"忍者修行之路？\n\n<size=30>二　忍者的“修炼”</size>",
+					"Enter: Akatsuki, The Ninja!\n\n<size=30>Chapter 2 - Ninja Training</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "在学院后面一块比较隐秘的空地上，看到了正在做着什么的{namecode:11}和{namecode:21}。",
+			say = "One day, I found Akatsuki and Kuroshio doing something in the area behind the academy.",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -51,7 +51,7 @@ return {
 			dir = 1,
 			actor = 301271,
 			nameColor = "#a9f548",
-			say = "喝！",
+			say = "Hi-yah!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "只见{namecode:21}向前一冲，然后以一个漂亮的后空翻回到了原地。",
+			say = "Kuroshio jumped high into the air, pulled off an impressive somersault, then gently landed on the ground.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			dir = 1,
 			actor = 301091,
 			nameColor = "#a9f548",
-			say = "好厉害！",
+			say = "I-impressive...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +108,7 @@ return {
 			}
 		},
 		{
-			say = "这不过是平时修炼的基本功而已。多练习的话，你也可以做到的。",
+			say = "This is basic training for a kunoichi. If you train enough, this would be an easy feat even for you.",
 			side = 0,
 			bgName = "star_level_bg_103",
 			dir = 1,
@@ -133,7 +133,7 @@ return {
 			dir = 1,
 			actor = 301091,
 			nameColor = "#a9f548",
-			say = "哦哦！我试试！嘿——哇！！",
+			say = "Really?! Then I shall give it a try... Haaaaahh! ... Waaahhh?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "{namecode:21}轻巧地接住了在空中失去平衡的{namecode:11}。",
+			say = "Akatsuki lost her balance in the air. Kuroshio jumped up and caught her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,23 +169,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "噢噢…抱歉…谢谢啦",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 301091,
-			side = 2,
-			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "我再试一次！",
+			say = "That was close... T-thank you...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,12 +180,28 @@ return {
 			}
 		},
 		{
+			actor = 301091,
+			side = 2,
+			bgName = "star_level_bg_103",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "Let us try again!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
 			actor = 301091,
 			nameColor = "#a9f548",
-			say = "喝！——欸？呀！",
+			say = "Haaaahh! ... Huh?... Waaahhhh?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "{namecode:21}再次接住了头朝下往下落的{namecode:11}。",
+			say = "Like a scene out of a cartoon, Akatsuki noticed how high up she was, then began falling to the ground. Kuroshio leaped into the air and caught her again.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +237,7 @@ return {
 			dir = 1,
 			actor = 301091,
 			nameColor = "#a9f548",
-			say = "呜呜……再，再来一次！",
+			say = "Grr... O-one more attempt!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +263,7 @@ return {
 			dir = 1,
 			actor = 301091,
 			nameColor = "#a9f548",
-			say = "这次一定能行！嘿！——哇哇！！",
+			say = "This time, I shall succeed! Hah! ... Waaahhh?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -287,7 +287,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "{namecode:21}用公主抱的方式接住了水平下落的{namecode:11}。",
+			say = "Akatsuki landed in Kuroshio's outstretched arms. She looked like a newlywed being carried from the altar by her groom.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +299,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "果然还是太难了吗？",
+			say = "Perhaps this is a bit too difficult for you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,7 +310,7 @@ return {
 			}
 		},
 		{
-			say = "抱歉……看来还是在下修炼不够……",
+			say = "Forgive me... I have not trained enough...",
 			side = 1,
 			bgName = "star_level_bg_103",
 			dir = 1,
@@ -335,7 +335,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没关系，一开始都是这样子的。",
+			say = "It's okay. Everyone's like this at the start of their training.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,7 +351,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过，{namecode:11}为什么要突然找我帮忙特训呢？",
+			say = "... Still, why did you request my special training in the first place?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -367,7 +367,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔……我一直觉得自己身为忍者，却在很多方面都没有忍者的样子……",
+			say = "Umm... Because I am a ninja, but in many ways, I don't feel like one...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -383,7 +383,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我想要变得更强！这样的话，{namecode:12}见到我的时候，一定会大吃一惊的吧！",
+			say = "So I want to become stronger! Then, when I meet Hibiki, I will surprise her with what I would be capable of!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -399,7 +399,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "忍术可不是什么拿来炫耀的东西。",
+			say = "The techniques of the shinobi are not something to be flaunted.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -415,7 +415,7 @@ return {
 			dir = 1,
 			actor = 301091,
 			nameColor = "#a9f548",
-			say = "抱，抱歉……",
+			say = "I understand... I'm sorry...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -441,7 +441,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "但是，想让他人看到自己的表现这点，我不讨厌呢。{namecode:135}也经常这个样子，拉着我给我讲故事……",
+			say = "But, I do not object to learning them as something nice to show to one's companions. Oyashio has always been doing that, in fact.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -457,7 +457,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "总之先继续吧。我会好好接住你的，放心吧",
+			say = "Let us resume your training. If you fall again, I will catch you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -473,7 +473,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "明白了！",
+			say = "O-of course! Let us continue!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -488,7 +488,7 @@ return {
 			bgName = "star_level_bg_103",
 			dir = 1,
 			blackBg = true,
-			say = "两名“忍者”之间的交流似乎还挺融洽的呢",
+			say = "It appears the ninja and kunoichi get along really well.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

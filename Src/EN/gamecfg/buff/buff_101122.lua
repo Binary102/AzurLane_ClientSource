@@ -9,7 +9,7 @@ return {
 				},
 				arg_list = {
 					number = -0.06,
-					attr = "damageGetRatio"
+					attr = "injureRatio"
 				}
 			},
 			{
@@ -34,7 +34,7 @@ return {
 				},
 				arg_list = {
 					number = -0.072,
-					attr = "damageGetRatio"
+					attr = "injureRatio"
 				}
 			},
 			{
@@ -59,7 +59,7 @@ return {
 				},
 				arg_list = {
 					number = -0.084,
-					attr = "damageGetRatio"
+					attr = "injureRatio"
 				}
 			},
 			{
@@ -84,7 +84,7 @@ return {
 				},
 				arg_list = {
 					number = -0.1,
-					attr = "damageGetRatio"
+					attr = "injureRatio"
 				}
 			},
 			{
@@ -109,7 +109,7 @@ return {
 				},
 				arg_list = {
 					number = -0.112,
-					attr = "damageGetRatio"
+					attr = "injureRatio"
 				}
 			},
 			{
@@ -134,7 +134,7 @@ return {
 				},
 				arg_list = {
 					number = -0.124,
-					attr = "damageGetRatio"
+					attr = "injureRatio"
 				}
 			},
 			{
@@ -159,7 +159,7 @@ return {
 				},
 				arg_list = {
 					number = -0.14,
-					attr = "damageGetRatio"
+					attr = "injureRatio"
 				}
 			},
 			{
@@ -184,7 +184,7 @@ return {
 				},
 				arg_list = {
 					number = -0.156,
-					attr = "damageGetRatio"
+					attr = "injureRatio"
 				}
 			},
 			{
@@ -209,7 +209,7 @@ return {
 				},
 				arg_list = {
 					number = -0.172,
-					attr = "damageGetRatio"
+					attr = "injureRatio"
 				}
 			},
 			{
@@ -234,7 +234,7 @@ return {
 				},
 				arg_list = {
 					number = -0.2,
-					attr = "damageGetRatio"
+					attr = "injureRatio"
 				}
 			},
 			{
@@ -274,7 +274,7 @@ return {
 			},
 			arg_list = {
 				number = -0.06,
-				attr = "damageGetRatio"
+				attr = "injureRatio"
 			}
 		},
 		{

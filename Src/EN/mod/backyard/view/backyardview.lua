@@ -413,68 +413,88 @@ function slot0.removeItem(slot0, slot1)
 end
 
 function slot0.initFurnitures(slot0)
-	slot1 = {}
-
-	for slot5, slot6 in pairs(slot0.furnitureVOs) do
-		table.insert(slot1, slot6)
-	end
-
-	table.sort(slot1, function (slot0, slot1)
-		if ((slot0:hasParent() and 1) or 0) == ((slot1:hasParent() and 1) or 0) then
-			if ((slot0:isStageFurniture() and 1) or 0) == ((slot1:isStageFurniture() and 1) or 0) then
-				return table.getCount(slot1.child or {}) < table.getCount(slot0.child or {})
-			else
-				return slot5 < slot4
-			end
-		else
-			return slot0.parent < slot1.parent
-		end
-	end)
-
-	slot2 = {}
-
-	for slot6, slot7 in ipairs(slot1) do
-		table.insert(slot2, function (slot0)
-			slot0.loadingCount = slot0.loadingCount + 1
-
-			slot0:loadFurnitureModel(slot0.loadFurnitureModel, function (slot0)
-				if not slot0 then
-					slot0()
-
-					return
-				end
-
-				LeanTween.scale(rtf(slot0), Vector3(slot0.localScale.x + 0.2, slot0.localScale.y + 0.2, 1), 0.2):setFrom(0):setOnComplete(System.Action(function ()
-					LeanTween.scale(rtf(slot0), Vector3(slot1, Vector3, 1), 0.1)
-				end))
+	function slot1(slot0, slot1)
+		slot0:loadFurnitureModel(slot0, function (slot0)
+			if not slot0 then
 				slot0()
-			end)
+
+				return
+			end
+
+			LeanTween.scale(rtf(slot0), Vector3(slot0.localScale.x + 0.2, slot0.localScale.y + 0.2, 1), 0.2):setFrom(0):setOnComplete(System.Action(function ()
+				LeanTween.scale(rtf(slot0), Vector3(slot1, Vector3, 1), 0.1):setOnComplete(System.Action(0.1))
+			end))
 		end)
 	end
 
+	slot2 = {}
 	slot3 = {}
+	slot4 = {}
 
-	for slot7, slot8 in pairs(slot0.boatVOs) do
-		table.insert(slot3, function (slot0)
+	for slot8, slot9 in pairs(slot0.furnitureVOs) do
+		if slot9:hasParent() then
+			table.insert(slot4, slot9)
+		elseif slot9:isStageFurniture() then
+			table.insert(slot2, slot9)
+		else
+			table.insert(slot3, slot9)
+		end
+	end
+
+	slot5 = {}
+
+	for slot9, slot10 in ipairs(slot2) do
+		table.insert(slot5, function (slot0)
+			slot0(slot0, slot0)
+		end)
+	end
+
+	slot6 = {}
+
+	for slot10, slot11 in ipairs(slot3) do
+		table.insert(slot6, function (slot0)
+			slot0(slot0, slot0)
+		end)
+	end
+
+	slot7 = {}
+
+	for slot11, slot12 in ipairs(slot4) do
+		table.insert(slot7, function (slot0)
+			slot0(slot0, slot0)
+		end)
+	end
+
+	slot8 = {}
+
+	for slot12, slot13 in pairs(slot0.boatVOs) do
+		table.insert(slot8, function (slot0)
 			onNextTick(function ()
-				slot0.loadingCount = slot0.loadingCount + 1
-
 				slot0:loadBoatModal(slot0, )
 			end)
 		end)
 	end
 
 	slot0.inInitFurnitrues = true
-	slot0.loadingTotal = #slot2 + #slot3
 
-	seriesAsync(slot2, function ()
-		seriesAsync(seriesAsync, function ()
-			slot0.loadingCount = slot0.loadingTotal
-		end)
-		seriesAsync:sortWallFurns()
-		seriesAsync:sortAllMat()
+	seriesAsync({
+		function (slot0)
+			parallelAsync(slot0, slot0)
+		end,
+		function (slot0)
+			parallelAsync(slot0, slot0)
+		end,
+		function (slot0)
+			parallelAsync(slot0, slot0)
+		end,
+		function (slot0)
+			seriesAsync(slot0, slot0)
+		end
+	}, function ()
+		slot0.inInitFurnitrues = nil
 
-		seriesAsync.inInitFurnitrues = nil
+		slot0:sortWallFurns()
+		slot0.sortWallFurns:sortAllMat()
 	end)
 end
 

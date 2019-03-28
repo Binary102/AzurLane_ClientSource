@@ -97,6 +97,7 @@ function slot0.Ctor(slot0, slot1, slot2)
 	slot0.roundIndex = 0
 	slot0.subAutoAttack = 0
 	slot0.barriers = 0
+	slot0.loopFlag = 0
 	slot0.cellAttachments = {}
 	slot0.buff_list = {}
 
@@ -201,9 +202,18 @@ function slot0.bindConfigTable(slot0)
 	return pg.chapter_template
 end
 
+function slot0.getConfig(slot0, slot1)
+	if slot0:isLoop() and pg.chapter_template_loop[slot0.id][slot1] ~= nil then
+		return slot2[slot1]
+	end
+
+	return slot0:getConfigTable()[slot1]
+end
+
 function slot0.update(slot0, slot1)
 	slot0.active = true
 	slot0.dueTime = slot1.time
+	slot0.loopFlag = slot1.loop_flag
 	slot3 = slot0:getConfig("float_items")
 	slot0.cells = {}
 
@@ -230,9 +240,14 @@ function slot0.update(slot0, slot1)
 		end
 	end
 
-	_.each(slot4, function (slot0)
-		if not slot0[3] then
-			slot0({
+	_.each(slot2, function (slot0)
+		slot0(slot0)
+	end)
+	_.each(slot0:getConfig("grids"), function (slot0)
+		if slot0.cells[ChapterCell.Line2Name(slot0[1], slot0[2])] then
+			slot2.walkable = slot0[3]
+		elseif not slot0[3] then
+			slot1({
 				pos = {
 					row = slot0[1],
 					column = slot0[2]
@@ -240,9 +255,6 @@ function slot0.update(slot0, slot1)
 				item_type = ChapterConst.AttachNone
 			}).walkable = false
 		end
-	end)
-	_.each(slot1.cell_list, function (slot0)
-		slot0(slot0)
 	end)
 
 	slot0.buff_list = {}
@@ -301,6 +313,13 @@ function slot0.update(slot0, slot1)
 	slot0.roundIndex = slot1.round
 	slot0.subAutoAttack = slot1.is_submarine_auto_attack
 	slot0.modelCount = slot1.model_act_count
+	slot0.operationBuffList = {}
+
+	for slot11, slot12 in ipairs(slot1.operation_buff) do
+		slot0.operationBuffList[#slot0.operationBuffList + 1] = slot12
+	end
+
+	slot0.airDominanceStatus = nil
 end
 
 function slot0.retreat(slot0)
@@ -316,6 +335,7 @@ function slot0.retreat(slot0)
 	slot0.champions = {}
 	slot0.cellAttachments = {}
 	slot0.round = 0
+	slot0.airDominanceStatus = nil
 end
 
 function slot0.clearSubChapter(slot0)
@@ -323,12 +343,24 @@ function slot0.clearSubChapter(slot0)
 	slot0.awardIndex = nil
 end
 
+function slot0.existLoop(slot0)
+	return pg.chapter_template_loop[slot0.id] ~= nil
+end
+
+function slot0.canActivateLoop(slot0)
+	return slot0:getRiskLevel() == 4 and slot0:isAllAchieve()
+end
+
+function slot0.isLoop(slot0)
+	return slot0.loopFlag == 1
+end
+
 function slot0.getRound(slot0)
 	return slot0.roundIndex % 2
 end
 
 function slot0.existMoveLimit(slot0)
-	return slot0:getPlayType() == ChapterConst.TypeRange or slot0:getPlayType() == ChapterConst.TypeTransport or slot0:getPlayType() == ChapterConst.TypeExtra or slot0:getPlayType() == ChapterConst.TypeSpHunt or slot0:getPlayType() == ChapterConst.TypeSpBomb
+	return slot0:getConfig("limit_move") == 1
 end
 
 function slot0.getChapterCell(slot0, slot1, slot2)
@@ -558,6 +590,14 @@ function slot0.findPath(slot0, slot1, slot2, slot3)
 		end
 	end
 
+	if slot1 == ChapterConst.SubjectPlayer then
+		for slot9, slot10 in ipairs(slot5) do
+			if slot10.row ~= slot3.row or slot10.column ~= slot3.column then
+				slot4[slot10.row][slot10.column] = math.max(slot4[slot10.row][slot10.column], PathFinding.PrioObstacle)
+			end
+		end
+	end
+
 	slot0.pathFinder.cells = slot4
 
 	return slot0.pathFinder:Find(slot2, slot3)
@@ -646,7 +686,35 @@ function slot0.getFleetStgIds(slot0, slot1)
 		end)
 	end
 
+	if OPEN_AIR_DOMINANCE and slot0:getConfig("air_dominance") > 0 then
+		table.insert(slot2, slot0:getAirDominanceStg())
+	end
+
 	return slot2
+end
+
+function slot0.getAirDominanceStg(slot0)
+	slot1, slot2 = slot0:getAirDominanceValue()
+
+	return ChapterConst.AirDominance[slot2].StgId
+end
+
+function slot0.getAirDominanceValue(slot0)
+	slot1 = 0
+	slot2 = 0
+
+	for slot6, slot7 in ipairs(slot0.fleets) do
+		if slot7:isValid() then
+			slot1 = slot1 + slot7:getFleetAirDominanceValue()
+			slot2 = slot2 + slot7:getAntiAircraftSums()
+		end
+	end
+
+	return slot1, calcAirDominanceStatus(slot1, slot0:getConfig("air_dominance"), slot2), slot0.airDominanceStatus
+end
+
+function slot0.setAirDominanceStatus(slot0, slot1)
+	slot0.airDominanceStatus = slot1
 end
 
 function slot0.updateShipStg(slot0, slot1, slot2, slot3)
@@ -1340,11 +1408,11 @@ end
 function slot0.existEnemy(slot0, slot1, slot2, slot3)
 	if slot1 == ChapterConst.SubjectPlayer then
 		if slot0:getChapterCell(slot2, slot3) and slot4.flag == 0 and (slot4.attachment == ChapterConst.AttachAmbush or slot4.attachment == ChapterConst.AttachEnemy or slot4.attachment == ChapterConst.AttachElite or slot4.attachment == ChapterConst.AttachBoss or slot4.attachment == ChapterConst.AttachRival or slot4.attachment == ChapterConst.AttachAreaBoss or slot4.attachment == ChapterConst.AttachBomb_Enemy) then
-			return true
+			return true, slot4.attachment
 		end
 
 		if slot0:existChampion(slot2, slot3) then
-			return true
+			return true, ChapterConst.AttachChampion
 		end
 	elseif slot1 == ChapterConst.SubjectChampion and (slot0:existFleet(FleetType.Normal, slot2, slot3) or slot0:existFleet(FleetType.Transport, slot2, slot3)) then
 		return true
@@ -1403,6 +1471,16 @@ function slot0.isPlayingWithBombEnemy(slot0)
 	return false
 end
 
+function slot0.existCoastalGunNoMatterLiveOrDead(slot0)
+	for slot4, slot5 in pairs(slot0.cells) do
+		if slot5.attachment == ChapterConst.AttachLandbase and pg.land_based_template[slot5.attachmentId].type == ChapterConst.LBCoastalGun then
+			return true
+		end
+	end
+
+	return false
+end
+
 function slot0.calcWalkableCells(slot0, slot1, slot2, slot3, slot4)
 	slot5 = {}
 
@@ -1417,17 +1495,25 @@ function slot0.calcWalkableCells(slot0, slot1, slot2, slot3, slot4)
 	end
 
 	slot6 = {}
-	slot7 = {
+
+	if slot1 == ChapterConst.SubjectPlayer then
+		for slot11, slot12 in ipairs(slot7) do
+			slot6[slot12.row .. "_" .. slot12.column] = true
+		end
+	end
+
+	slot7 = {}
+	slot8 = {
 		{
 			step = 0,
 			row = slot2,
 			column = slot3
 		}
 	}
-	slot8 = {}
+	slot9 = {}
 
-	while #slot7 > 0 do
-		table.insert(slot8, slot9)
+	while #slot8 > 0 do
+		table.insert(slot9, slot10)
 		_.each({
 			{
 				row = 1,
@@ -1457,14 +1543,14 @@ function slot0.calcWalkableCells(slot0, slot1, slot2, slot3, slot4)
 			end)) and slot4[slot0.row][slot0.column] then
 				table.insert(slot5, slot0)
 
-				if not slot6:existEnemy(slot7, slot0.row, slot0.column) and not slot6:existBarrier(slot0.row, slot0.column) then
+				if not slot6:existEnemy(slot7, slot0.row, slot0.column) and not slot6:existBarrier(slot0.row, slot0.column) and not slot8[slot0.row .. "_" .. slot0.column] then
 					table.insert(table.insert, slot0)
 				end
 			end
 		end)
 	end
 
-	return _.filter(slot6, function (slot0)
+	return _.filter(slot7, function (slot0)
 		return (slot0.row == slot0 and slot0.column == ) or slot2:considerAsStayPoint(slot3, slot0.row, slot0.column)
 	end)
 end
@@ -1985,7 +2071,7 @@ end
 
 function slot0.getSpAppearStory(slot0)
 	if slot0:existOni() then
-		for slot4, slot5 in ipairs(chapter.champions) do
+		for slot4, slot5 in ipairs(slot0.champions) do
 			if slot5.trait == ChapterConst.TraitLurk and slot5.attachment == ChapterConst.AttachOni and slot5:getConfig("appear_story") and #slot6 > 0 then
 				return slot6
 			end
@@ -2001,7 +2087,7 @@ end
 
 function slot0.getSpAppearGuide(slot0)
 	if slot0:existOni() then
-		for slot4, slot5 in ipairs(chapter.champions) do
+		for slot4, slot5 in ipairs(slot0.champions) do
 			if slot5.trait == ChapterConst.TraitLurk and slot5.attachment == ChapterConst.AttachOni and slot5:getConfig("appear_guide") and #slot6 > 0 then
 				return slot6
 			end
@@ -2013,6 +2099,31 @@ function slot0.getSpAppearGuide(slot0)
 			end
 		end
 	end
+end
+
+function slot0.getCoastalGunArea(slot0)
+	slot1 = {}
+
+	for slot5, slot6 in pairs(slot0.cells) do
+		if slot6.attachment == ChapterConst.AttachLandbase and slot6.flag ~= 1 and pg.land_based_template[slot6.attachmentId].type == ChapterConst.LBCoastalGun then
+			slot10 = {
+				Mathf.Sign(slot7.function_args[1]),
+				Mathf.Sign(slot7.function_args[2])
+			}
+
+			for slot15 = 1, math.max(({
+				math.abs(slot7.function_args[1]),
+				math.abs(slot7.function_args[2])
+			})[1], ()[2]), 1 do
+				table.insert(slot1, {
+					row = slot6.row + math.min(slot9[1], slot15) * slot10[1],
+					column = slot6.column + math.min(slot9[2], slot15) * slot10[2]
+				})
+			end
+		end
+	end
+
+	return slot1
 end
 
 return slot0

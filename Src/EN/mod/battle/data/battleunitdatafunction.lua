@@ -243,6 +243,10 @@ ys or .Battle.BattleDataFunction.CreateWeaponUnit = function (slot0, slot1, slot
 													else
 														if slot6.type == slot1.EquipmentType.DEPTH_CHARGE then
 															slot5 = slot2.Battle.BattleDepthChargeUnit.New()
+														else
+															if slot6.type == slot1.EquipmentType.REPEATER_ANTI_AIR then
+																slot5 = slot2.Battle.BattleRepeaterAntiAirUnit.New()
+															end
 														end
 													end
 												end
@@ -282,7 +286,11 @@ ys or .Battle.BattleDataFunction.CreateAircraftUnit = function (slot0, slot1, sl
 	slot4 = nil
 
 	if type(slot0.GetAircraftTmpDataFromID(slot1).funnel_behavior) == "table" then
-		slot4 = slot1.Battle.BattleFunnelUnit.New(slot0)
+		if slot5.funnel_behavior.hover_range then
+			slot4 = slot1.Battle.BattelUAVUnit.New(slot0)
+		else
+			slot4 = slot1.Battle.BattleFunnelUnit.New(slot0)
+		end
 	else
 		slot4 = slot1.Battle.BattleAircraftUnit.New(slot0)
 	end

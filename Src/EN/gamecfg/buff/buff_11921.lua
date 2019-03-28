@@ -139,7 +139,7 @@ return {
 			}
 		}
 	},
-	name = "indepen-cleve",
+	name = "天之骑士对克利夫兰增益",
 	init_effect = "jinengchufared",
 	time = 0,
 	picture = "",

@@ -1,9 +1,9 @@
 return {
 	uiEffect = "",
-	name = "发射鱼雷完全回避",
+	name = "风之加护",
 	cd = 0,
 	picture = "0",
-	desc = "发射鱼雷完全回避",
+	desc = "风之加护",
 	painting = 1,
 	id = 11740,
 	castCV = "skill",

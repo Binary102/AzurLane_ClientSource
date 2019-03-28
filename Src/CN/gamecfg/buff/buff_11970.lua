@@ -10,7 +10,7 @@ return {
 	{},
 	{},
 	time = 0,
-	name = "Z2BUFF",
+	name = "战意提升",
 	init_effect = "",
 	id = 11970,
 	picture = "",

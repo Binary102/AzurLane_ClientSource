@@ -8,7 +8,7 @@ function slot0.register(slot0)
 	if slot0.contextData.shipId then
 		slot0.viewComponent:setShip(slot1:getShipById(slot0.contextData.shipId))
 	elseif slot0.contextData.review then
-		slot0.viewComponent:setShipGroupID(slot0.contextData.groupID)
+		slot0.viewComponent:setShipGroupID(slot0.contextData.group.id)
 		slot0.viewComponent:setWeddingReviewSkinID(slot0.contextData.skinID)
 	end
 

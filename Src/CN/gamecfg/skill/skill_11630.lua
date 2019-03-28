@@ -1,6 +1,6 @@
 return {
 	uiEffect = "",
-	name = "爆击防护装甲",
+	name = "重樱装母",
 	cd = 0,
 	picture = "0",
 	desc = "自身受到高爆伤害、航空伤害降低",

@@ -79,10 +79,10 @@ pg.equip_data_by_type = {
 	},
 	{
 		distory_resource_gold_ratio = 1,
-		type_name = "水侦",
+		type_name = "水上机",
 		equip_skin = 1,
 		equip_type = 12,
-		type_name2 = "水侦"
+		type_name2 = "水上机"
 	},
 	{
 		distory_resource_gold_ratio = 2,

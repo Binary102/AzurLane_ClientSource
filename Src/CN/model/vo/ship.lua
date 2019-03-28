@@ -2012,6 +2012,14 @@ function slot0.SetExpression(slot0, slot1, slot2)
 	if findTF(slot0, "face") then
 		setActive(slot6, slot4 and slot4 ~= "")
 		setImageSprite(slot6, slot5)
+
+		if findTF(slot6, "face_sub") then
+			setActive(slot7, GetSpriteFromAtlas("paintingface/" .. slot1, slot4 .. "_sub"))
+
+			if GetSpriteFromAtlas("paintingface/" .. slot1, slot4 .. "_sub") then
+				setImageSprite(slot7, slot8)
+			end
+		end
 	end
 
 	return (slot3.default and true) or false

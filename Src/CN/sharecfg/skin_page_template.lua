@@ -7,7 +7,7 @@ pg.skin_page_template = {
 	},
 	{
 		id = 2,
-		name = "新年和服",
+		name = "和服",
 		res = "xinnian"
 	},
 	{

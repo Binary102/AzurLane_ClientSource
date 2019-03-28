@@ -3561,17 +3561,17 @@ function slot0.tryAutoAction(slot0)
 				end
 
 				if slot0:getSpAppearStory() and #slot5 > 0 then
-					pg.StoryMgr.GetInstance():Play(slot5, function ()
-						if slot0:getSpAppearGuide() and #slot0 > 0 then
-							pg.GuideMgr:GetInstance():play(slot0, nil, onNextTick(pg.GuideMgr.GetInstance().play))
-						else
-							onNextTick(onNextTick)
-						end
-
-						return
-					end)
+					pg.StoryMgr.GetInstance():Play(slot5, onNextTick(slot2))
 					coroutine.yield()
 				end
+
+				if slot0:getSpAppearGuide() and #slot6 > 0 then
+					pg.GuideMgr:GetInstance():play(slot6, nil, onNextTick(slot2))
+				else
+					onNextTick(slot2)
+				end
+
+				coroutine.yield()
 			else
 				slot1:doTracking(slot2)
 				coroutine.yield()

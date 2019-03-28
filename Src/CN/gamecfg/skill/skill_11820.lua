@@ -420,7 +420,7 @@ return {
 		}
 	},
 	uiEffect = "",
-	name = "攻无不克",
+	name = "攻无不取",
 	cd = 0,
 	picture = "1",
 	desc = "",

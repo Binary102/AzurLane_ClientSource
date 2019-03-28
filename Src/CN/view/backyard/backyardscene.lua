@@ -14,6 +14,10 @@ function slot0.getBGM(slot0)
 	return "backyard"
 end
 
+function slot0.setBlackyardView(slot0, slot1)
+	slot0.view = slot1
+end
+
 function slot0.setShipIds(slot0, slot1, slot2)
 	slot0.trainShipCount = table.getCount(slot1)
 	slot0.restShipCount = table.getCount(slot2)
@@ -101,6 +105,10 @@ end
 
 function slot0.didEnter(slot0)
 	onButton(slot0, slot0:findTF("return", slot0.topPanel), function ()
+		if slot0.view and slot0.view.inInitFurnitrues then
+			return
+		end
+
 		slot0:emit(slot1.ON_BACK)
 	end, SOUND_BACK)
 	onToggle(slot0, slot0.eyeBtn, function (slot0)
@@ -305,6 +313,10 @@ function slot0.showFloorSel(slot0)
 		setText(slot5:Find("name"), slot4 .. "F")
 		setActive(slot6, not slot0.dormVO:isUnlockFloor(slot4))
 		onButton(slot0, slot5, function ()
+			if slot0.view and slot0.view.inInitFurnitrues then
+				return
+			end
+
 			if slot0.contextData.floor ~= slot1 then
 				slot0:emit(BackYardMediator.ON_SWITCH_FLOOR, slot0)
 			end

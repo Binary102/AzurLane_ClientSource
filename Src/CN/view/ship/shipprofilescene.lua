@@ -542,7 +542,7 @@ function slot0.initProfile(slot0)
 		setActive(slot3, true)
 		onButton(slot0, slot3, function ()
 			slot0:emit(slot1.WEDDING_REVIEW, {
-				groupID = slot0.shipGroup.id,
+				group = slot0.shipGroup,
 				skinID = slot0.currentSkin.id
 			})
 		end)

@@ -259,7 +259,7 @@ return {
 			}
 		}
 	},
-	name = "侦查机",
+	name = "天与海的观测者",
 	init_effect = "jinengchufared",
 	time = 0,
 	picture = "",

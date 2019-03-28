@@ -239,7 +239,7 @@ return {
 			}
 		}
 	},
-	name = "勇敢自体BUFF",
+	name = "不冻港的协奏曲自体BUFF",
 	init_effect = "jinengchufablue",
 	id = 11951,
 	time = 0,

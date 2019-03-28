@@ -1,8 +1,40 @@
 pg = pg or {}
 pg.activity_banner = {
 	{
-		type = 2,
+		param = "263",
+		type = 3,
 		id = 1,
+		pic = "temp1",
+		time = {
+			{
+				{
+					2019,
+					3,
+					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					18
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		type = 2,
+		id = 2,
 		pic = "temp6",
 		param = {
 			"scene charge",
@@ -15,7 +47,7 @@ pg.activity_banner = {
 				{
 					2019,
 					3,
-					20
+					28
 				},
 				{
 					0,
@@ -26,8 +58,8 @@ pg.activity_banner = {
 			{
 				{
 					2019,
-					3,
-					27
+					4,
+					17
 				},
 				{
 					23,
@@ -38,13 +70,6 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "251",
-		time = "stop",
-		type = 3,
-		id = 2,
-		pic = "temp1"
-	},
-	{
 		param = "253",
 		time = "stop",
 		type = 3,
@@ -52,37 +77,12 @@ pg.activity_banner = {
 		pic = "temp2"
 	},
 	{
+		time = "stop",
 		type = 2,
 		id = 4,
 		pic = "temp3",
 		param = {
 			"scene level"
-		},
-		time = {
-			{
-				{
-					2019,
-					3,
-					20
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					3,
-					28
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	{
@@ -143,7 +143,7 @@ pg.activity_banner = {
 			{
 				{
 					2019,
-					2,
+					3,
 					28
 				},
 				{
@@ -155,8 +155,8 @@ pg.activity_banner = {
 			{
 				{
 					2019,
-					3,
-					7
+					4,
+					18
 				},
 				{
 					23,
@@ -204,21 +204,71 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "240",
-		time = "stop",
+		param = "267",
 		type = 3,
 		id = 9,
-		pic = "temp9"
+		pic = "temp9",
+		time = {
+			{
+				{
+					2019,
+					3,
+					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					24
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
 	},
 	{
-		time = "stop",
 		type = 2,
 		id = 10,
 		pic = "temp10",
 		param = {
-			"scene shop",
+			"scene charge",
 			{
-				warp = "shopstreet"
+				wrap = 3
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					3,
+					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
 			}
 		}
 	},

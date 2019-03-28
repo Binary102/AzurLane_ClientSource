@@ -473,7 +473,7 @@ end
 function slot6.registerUnitEvent(slot0, slot1)
 	slot1:RegisterEventListener(slot0, slot0.UPDATE_HP, slot0.onEnemyHpUpdate)
 
-	if slot1:GetTemplate().type == ShipType.Qianting then
+	if table.contains(TeamType.SubShipType, slot1:GetTemplate().type) then
 		slot1:RegisterEventListener(slot0, slot0.SUBMARINE_DETECTED, slot0.onSubmarineDetected)
 	end
 end
@@ -485,7 +485,7 @@ end
 function slot6.unregisterUnitEvent(slot0, slot1)
 	slot1:UnregisterEventListener(slot0, slot0.UPDATE_HP)
 
-	if slot1:GetTemplate().type == ShipType.Qianting then
+	if table.contains(TeamType.SubShipType, slot1:GetTemplate().type) then
 		slot1:UnregisterEventListener(slot0, slot0.SUBMARINE_DETECTED)
 	end
 end

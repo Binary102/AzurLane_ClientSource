@@ -240,7 +240,7 @@ return {
 		}
 	},
 	uiEffect = "",
-	name = "",
+	name = "恪尽职守",
 	cd = 0,
 	picture = "1",
 	desc = "战斗机+轰炸机",

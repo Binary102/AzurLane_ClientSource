@@ -10,7 +10,7 @@ return {
 	{},
 	{},
 	desc_get = "",
-	name = "邦克山",
+	name = "特混分队旗舰",
 	init_effect = "",
 	id = 11980,
 	time = 0,

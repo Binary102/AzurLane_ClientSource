@@ -239,7 +239,7 @@ return {
 			}
 		}
 	},
-	name = "inde-inde",
+	name = "天之骑士己身增益",
 	init_effect = "jinengchufared",
 	time = 0,
 	picture = "",

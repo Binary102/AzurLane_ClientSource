@@ -1168,6 +1168,79 @@ pg.aircraft_template = {
 			}
 		}
 	},
+	[144] = {
+		name = "默认潜母水侦",
+		max_hp = 27,
+		accuracy = 23,
+		model_ID = "ruiyun",
+		ACC_growth = 0,
+		crash_DMG = 9,
+		dodge = 1,
+		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
+		AP_growth = 2000,
+		icon = "ruiyun",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 1023,
+		speed = 46,
+		id = 144,
+		weapon_ID = {
+			145
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.71,
+					-1.73,
+					0
+				},
+				{
+					0.82,
+					2.04,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
 	[4200] = {
 		name = "剑鱼Mark.II-ASV",
 		max_hp = 28,
@@ -14465,6 +14538,180 @@ pg.aircraft_template = {
 			52250
 		}
 	},
+	[39300] = {
+		name = "晴岚",
+		max_hp = 38,
+		accuracy = 23,
+		model_ID = "qinglan",
+		ACC_growth = 0,
+		crash_DMG = 120,
+		dodge = 3.39,
+		type = 3,
+		dodge_limit = 1.1,
+		attack_power = 2,
+		AP_growth = 2000,
+		icon = "qinglan",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 1251,
+		speed = 46,
+		id = 39300,
+		weapon_ID = {
+			50840,
+			53260
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.71,
+					-1.73,
+					0
+				},
+				{
+					0.82,
+					2.04,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[39301] = {
+		id = 39301,
+		base = 39300,
+		max_hp = 42,
+		hp_growth = 1438,
+		weapon_ID = {
+			50841,
+			53261
+		}
+	},
+	[39302] = {
+		id = 39302,
+		base = 39300,
+		max_hp = 47,
+		hp_growth = 1626,
+		weapon_ID = {
+			50842,
+			53262
+		}
+	},
+	[39303] = {
+		id = 39303,
+		base = 39300,
+		max_hp = 52,
+		hp_growth = 1813,
+		weapon_ID = {
+			50843,
+			53263
+		}
+	},
+	[39304] = {
+		id = 39304,
+		base = 39300,
+		max_hp = 57,
+		hp_growth = 2001,
+		weapon_ID = {
+			50844,
+			53264
+		}
+	},
+	[39305] = {
+		id = 39305,
+		base = 39300,
+		max_hp = 62,
+		hp_growth = 2189,
+		weapon_ID = {
+			50845,
+			53265
+		}
+	},
+	[39306] = {
+		id = 39306,
+		base = 39300,
+		max_hp = 67,
+		hp_growth = 2376,
+		weapon_ID = {
+			50846,
+			53266
+		}
+	},
+	[39307] = {
+		id = 39307,
+		base = 39300,
+		max_hp = 72,
+		hp_growth = 2564,
+		weapon_ID = {
+			50847,
+			53267
+		}
+	},
+	[39308] = {
+		id = 39308,
+		base = 39300,
+		max_hp = 77,
+		hp_growth = 2751,
+		weapon_ID = {
+			50848,
+			53268
+		}
+	},
+	[39309] = {
+		id = 39309,
+		base = 39300,
+		max_hp = 81,
+		hp_growth = 2939,
+		weapon_ID = {
+			50849,
+			53269
+		}
+	},
+	[39310] = {
+		id = 39310,
+		base = 39300,
+		max_hp = 86,
+		hp_growth = 3127,
+		weapon_ID = {
+			50850,
+			53270
+		}
+	},
 	[47000] = {
 		name = "BF-109T舰载战斗机T1",
 		max_hp = 31,
@@ -16239,6 +16486,77 @@ pg.aircraft_template = {
 			},
 			{
 				0.52,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[61023] = {
+		name = "伊13技能彩云",
+		max_hp = 42,
+		accuracy = 23,
+		model_ID = "caiyun",
+		ACC_growth = 0,
+		crash_DMG = 208,
+		dodge = 1,
+		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
+		AP_growth = 2000,
+		icon = "caiyun",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 1605,
+		speed = 66,
+		id = 61023,
+		weapon_ID = {},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.71,
+					-1.73,
+					0
+				},
+				{
+					0.82,
+					2.04,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.64,
 				0,
 				0
 			},
@@ -95238,6 +95556,7 @@ pg.aircraft_template = {
 		122,
 		123,
 		124,
+		144,
 		4200,
 		4201,
 		4202,
@@ -95960,6 +96279,17 @@ pg.aircraft_template = {
 		39248,
 		39249,
 		39250,
+		39300,
+		39301,
+		39302,
+		39303,
+		39304,
+		39305,
+		39306,
+		39307,
+		39308,
+		39309,
+		39310,
 		47000,
 		47001,
 		47002,
@@ -96041,6 +96371,7 @@ pg.aircraft_template = {
 		61019,
 		61020,
 		61022,
+		61023,
 		66240,
 		66241,
 		66242,

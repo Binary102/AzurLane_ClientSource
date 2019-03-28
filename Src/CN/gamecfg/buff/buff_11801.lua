@@ -150,7 +150,7 @@ return {
 		}
 	},
 	desc_get = "",
-	name = "占坑",
+	name = "克敌机先",
 	init_effect = "",
 	id = 11800,
 	time = 0,

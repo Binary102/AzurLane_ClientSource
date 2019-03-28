@@ -1,9 +1,9 @@
 return {
 	uiEffect = "",
-	name = "killer_Airpower",
+	name = "航空阵列",
 	cd = 0,
 	picture = "0",
-	desc = "killer_Airpower",
+	desc = "航空阵列——技能弹窗",
 	painting = 1,
 	id = 11650,
 	castCV = "skill",

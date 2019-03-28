@@ -9339,6 +9339,50 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[381] = {
+		nationality = 3,
+		hide = 0,
+		trans_skin = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		code = 381,
+		type = 8,
+		group_type = 31701,
+		trans_type = 0,
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限时活动：墨染的钢铁之花",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[382] = {
+		nationality = 3,
+		hide = 0,
+		trans_skin = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		code = 382,
+		type = 3,
+		group_type = 30317,
+		trans_type = 0,
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限时活动：墨染的钢铁之花",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[10001] = {
 		nationality = 101,
 		hide = 0,
@@ -10130,6 +10174,8 @@ pg.ship_data_group = {
 		378,
 		379,
 		380,
+		381,
+		382,
 		10001,
 		10002,
 		10003,

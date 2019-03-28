@@ -239,7 +239,7 @@ return {
 			}
 		}
 	},
-	name = "马拉尼",
+	name = "光焰中的奇迹",
 	init_effect = "jinengchufablue",
 	id = 11891,
 	time = 0,

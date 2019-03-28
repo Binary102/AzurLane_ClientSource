@@ -6,9 +6,50 @@ BILI_SERVER_ID = "388"
 SHAREJOY_SERVER_ID = "475"
 UNION_SERVER_ID = "439"
 SERVER_TIME_ZONE = 28800
+TIME_ZONE_DATA = {
+	SERVER_TIME_ZONE_SWITCH_TIME = 1552212000,
+	SERVER_TIME_ZONE_JP = 32400,
+	SERVER_TIME_ZONE_KR = 32400,
+	SERVER_TIME_ZONE_CH = 28800,
+	SERVER_TIME_ZONE_PDT = -28800,
+	SERVER_TIME_ZONE_DST = -25200
+}
+
+function SwitchTimeZone(slot0)
+	if PLATFORM_CODE == PLATFORM_CH then
+		SERVER_TIME_ZONE = TIME_ZONE_DATA.SERVER_TIME_ZONE_CH
+	elseif PLATFORM_CODE == PLATFORM_JP then
+		SERVER_TIME_ZONE = TIME_ZONE_DATA.SERVER_TIME_ZONE_JP
+	elseif PLATFORM_CODE == PLATFORM_KR then
+		SERVER_TIME_ZONE = TIME_ZONE_DATA.SERVER_TIME_ZONE_KR
+	elseif PLATFORM_CODE == PLATFORM_US then
+		if TIME_ZONE_DATA.SERVER_TIME_ZONE_SWITCH_TIME <= slot0 then
+			SERVER_TIME_ZONE = TIME_ZONE_DATA.SERVER_TIME_ZONE_DST
+		else
+			SERVER_TIME_ZONE = TIME_ZONE_DATA.SERVER_TIME_ZONE_PDT
+		end
+	end
+end
+
+function GetLocalTimeZone()
+	if PLATFORM_CODE == PLATFORM_US then
+		slot0 = os.time()
+		slot2 = os.difftime(slot0, os.time(os.date("!*t", slot0)))
+
+		if os.date("*t", slot0).isdst then
+			return slot2 + 3600
+		else
+			return slot2
+		end
+	else
+		return os.difftime(os.time(), os.time(os.date("!*t", os.time())))
+	end
+end
+
 CONNECT_TIMEOUT = 20
 SEND_TIMEOUT = 6
 HEART_BEAT_TIMEOUT = 60
+AUDIT_SERVER_ID = "2001"
 LOGIN_BG_RES_ID = "login"
 HOME_PAGE = "http://weibo.com/azurlane"
 DOMAIN_LOGIN_1 = "line1.test.cp.login.blhx.biligame.net"
@@ -26,6 +67,7 @@ LOG_STORY = false
 LOG_GUIDE2 = false
 LOG_CONNECTION = false
 BATTLE_AUTO_ENABLED = 1000001
+GAME_RESTOREVIEW_ALREADY = 1000002
 PROLOGUE_DUNGEON = 100000
 EPILOGUE_STORY = "S008"
 CURTAIN_STORY = "S999"
@@ -133,6 +175,9 @@ SLIP_TYPE_HRZ = 1
 SLIP_TYPE_VERT = 2
 REFRESH_BILLBOARD_TIME = 0
 PLATFORM_BILIBILI = "bilibili"
+PLATFORM_TXWY = "txwykr"
+PLATFORM_AIRIJP = "yostarjp"
+PLATFORM_AIRIUS = "yostarus"
 MAX_FRIEND_COUNT = 50
 MAX_BLACKLIST_COUNT = 50
 MAX_BUILD_WORK_COUNT = 10
@@ -144,6 +189,25 @@ AUTO_BATTLE_LABEL = "autoBattle"
 RARE_SHIP_VIBRATE = "rare_ship_vibrate"
 DISPLAY_SHIP_GET_EFFECT = "display_ship_get_effect"
 DISCONNECT_TIME_OUT = "time_out"
+LOCK_PROPOSE = false
+LOCK_CLASSROOM = false
+LOCK_SHAM_CHAPTER = false
+LOCK_EQUIP_SKIN = false
+LOCK_MITIGATION = false
+LOCK_SEC_FLOOR = false
+LOCK_FULL_EXP = false
+LOCK_CLICK_MINGSHI = false
+LOCK_DOWNVOTE = true
+LOCK_TECHNOLOGY = true
+LOCK_SECONDARY = true
+LOCK_HIDE_CHAT = false
+LOCK_SUBMARINE = true
+LOCK_SOS = true
+LOCK_EQUIP_DEVELOPMENT = true
+LOCK_CLEAR_ACCOUNT = true
+LOCK_ILLUSTRATOR = true
+LOCK_SKIN_SORT = false
+LOCK_COMMANDER = true
 DEFAULT_CVVOLUME = 0.8
 DEFAULT_BGMVOLUME = 0.8
 DEFAULT_SEVOLUME = 0.8
@@ -213,8 +277,60 @@ ERROR_MESSAGE = {
 	[1020.0] = "密码错误",
 	[1012.0] = "纯数字账号"
 }
-SPECIAL_DATE = {}
-CRI_BG_FLAG = false
+SPECIAL_DATE = {
+	{
+		"20190401",
+		"login",
+		"loginbg_0401",
+		"login_0401"
+	}
+}
+SPECIAL_PROPOSE = {
+	"20190401",
+	{
+		{
+			202030,
+			"91"
+		},
+		{
+			202031,
+			"91"
+		},
+		{
+			202039,
+			"91"
+		},
+		{
+			102130,
+			"92"
+		},
+		{
+			102131,
+			"92"
+		},
+		{
+			102132,
+			"92"
+		},
+		{
+			206030,
+			"93"
+		},
+		{
+			206031,
+			"93"
+		},
+		{
+			206032,
+			"93"
+		},
+		{
+			206033,
+			"93"
+		}
+	}
+}
+CRI_BG_FLAG = true
 OPEN_ESCORT = false
 OPEN_REMASTER = true
 AUTO_LINKLINK = false

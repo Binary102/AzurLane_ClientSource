@@ -10,7 +10,7 @@ return {
 	{},
 	{},
 	desc_get = "",
-	name = "马拉尼",
+	name = "光焰中的奇迹",
 	init_effect = "",
 	id = 11890,
 	time = 0,

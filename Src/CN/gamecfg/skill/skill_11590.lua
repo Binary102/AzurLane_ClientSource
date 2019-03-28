@@ -1,6 +1,6 @@
 return {
 	uiEffect = "",
-	name = "制空",
+	name = "空域控制",
 	cd = 0,
 	picture = "0",
 	desc = "",

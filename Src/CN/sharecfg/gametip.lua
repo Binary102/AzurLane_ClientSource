@@ -4835,11 +4835,15 @@ NPC角色正式加入时，保留强化、突破状态及技能等级；
 							 普通舰船：$5%
 
 							  【限时建造】
-							<color=#fff157>    胜利</color>：2.25%<color=#A9F548>(up!)</color>
-						<color=#fff157>     天狼星</color>：2%<color=#A9F548>(up!)</color>
-					<color=#966af6>      谢菲尔德</color>：2.5%<color=#A9F548>(up!)</color>
-							<color=#966af6>    无敌</color>：2.5%<color=#A9F548>(up!)</color>
-						<color=#60a9ff>     牙买加</color>：5%<color=#A9F548>(up!)</color></size>]],
+
+							<color=#fff157>     鲨</color>：2%<color=#A9F548>(up!)</color>
+							<color=#fff157>     茳</color>：1.8%<color=#A9F548>(up!)</color>
+							<color=#fff157>     伊13</color>：2%<color=#A9F548>(up!)</color>
+							<color=#966af6>     狺</color>：2.5%<color=#A9F548>(up!)</color>
+							<color=#966af6>     楛</color>：2.5%<color=#A9F548>(up!)</color>
+							<color=#966af6>     桸</color>：2.5%<color=#A9F548>(up!)</color>
+							<color=#60a9ff>     橗</color>：5%<color=#A9F548>(up!)</color>
+							<color=#60a9ff>     棹</color>：5%<color=#A9F548>(up!)</color></size>]],
 		key = "help_build_4"
 	},
 	help_build_5 = {
@@ -6000,7 +6004,7 @@ NPC角色正式加入时，保留强化、突破状态及技能等级；
 	ship_remould_warning_310014 = {
 		tip = [[
 此次改造操作将导致<color=#A9F548>$1</color>舰艇类型变化
-<color=#A9F548>【副武器】</color>变更为<color=#A9F548>【水侦】</color>栏位<color=#A9F548><material=underline c=#A9F548 event=clickDetail>查看详情</material></color>
+<color=#A9F548>【副武器】</color>变更为<color=#A9F548>【水上机】</color>栏位<color=#A9F548><material=underline c=#A9F548 event=clickDetail>查看详情</material></color>
 <color=#A9F548>【副武器】</color>栏的装备将被卸下
 是否确认继续操作？]],
 		key = "ship_remould_warning_310014"
@@ -6008,7 +6012,7 @@ NPC角色正式加入时，保留强化、突破状态及技能等级；
 	ship_remould_warning_310024 = {
 		tip = [[
 此次改造操作将导致<color=#A9F548>$1</color>舰艇类型变化
-<color=#A9F548>【副武器】</color>变更为<color=#A9F548>【水侦】</color>栏位<color=#A9F548><material=underline c=#A9F548 event=clickDetail>查看详情</material></color>
+<color=#A9F548>【副武器】</color>变更为<color=#A9F548>【水上机】</color>栏位<color=#A9F548><material=underline c=#A9F548 event=clickDetail>查看详情</material></color>
 <color=#A9F548>【副武器】</color>栏的装备将被卸下
 是否确认继续操作？]],
 		key = "ship_remould_warning_310024"
@@ -6016,7 +6020,7 @@ NPC角色正式加入时，保留强化、突破状态及技能等级；
 	ship_remould_warning_310034 = {
 		tip = [[
 此次改造操作将导致<color=#A9F548>$1</color>舰艇类型变化
-<color=#A9F548>【副武器】</color>变更为<color=#A9F548>【水侦】</color>栏位<color=#A9F548><material=underline c=#A9F548 event=clickDetail>查看详情</material></color>
+<color=#A9F548>【副武器】</color>变更为<color=#A9F548>【水上机】</color>栏位<color=#A9F548><material=underline c=#A9F548 event=clickDetail>查看详情</material></color>
 <color=#A9F548>【副武器】</color>栏的装备将被卸下
 是否确认继续操作？]],
 		key = "ship_remould_warning_310034"
@@ -6024,7 +6028,7 @@ NPC角色正式加入时，保留强化、突破状态及技能等级；
 	ship_remould_warning_310044 = {
 		tip = [[
 此次改造操作将导致<color=#A9F548>$1</color>舰艇类型变化
-<color=#A9F548>【副武器】</color>变更为<color=#A9F548>【水侦】</color>栏位<color=#A9F548><material=underline c=#A9F548 event=clickDetail>查看详情</material></color>
+<color=#A9F548>【副武器】</color>变更为<color=#A9F548>【水上机】</color>栏位<color=#A9F548><material=underline c=#A9F548 event=clickDetail>查看详情</material></color>
 <color=#A9F548>【副武器】</color>栏的装备将被卸下
 是否确认继续操作？]],
 		key = "ship_remould_warning_310044"
@@ -9290,6 +9294,14 @@ P.S. 我方防空力量可以有效的降低敌方制空值哦！
 防空值决定]]
 			}
 		}
+	},
+	refuse_friend = {
+		tip = "是否确定拒绝?",
+		key = "refuse_friend"
+	},
+	refuse_and_add_into_bl = {
+		tip = "拒绝并加入黑名单",
+		key = "refuse_and_add_into_bl"
 	}
 }
 

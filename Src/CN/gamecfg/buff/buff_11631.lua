@@ -249,7 +249,7 @@ return {
 			}
 		}
 	},
-	name = "爆击防护装甲",
+	name = "重樱装母",
 	init_effect = "jinengchufablue",
 	id = 11631,
 	time = 0,

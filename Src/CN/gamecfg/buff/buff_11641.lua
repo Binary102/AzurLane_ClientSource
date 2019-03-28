@@ -139,15 +139,15 @@ return {
 			}
 		}
 	},
-	name = "剑鱼出击改",
+	name = "善战之舰",
 	init_effect = "jinengchufared",
-	id = 11582,
+	id = 11641,
 	time = 0,
 	picture = "",
 	desc = "对航母伤害提高",
 	stack = 1,
 	color = "red",
-	icon = 11580,
+	icon = 11640,
 	last_effect = "",
 	blink = {
 		1,

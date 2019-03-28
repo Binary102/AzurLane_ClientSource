@@ -310,10 +310,10 @@ return {
 		}
 	},
 	uiEffect = "",
-	name = "神射手",
+	name = "神射手·改",
 	cd = 0,
 	picture = "0",
-	desc = "神射手",
+	desc = "神射手·改",
 	painting = 1,
 	id = 11871,
 	castCV = "skill",

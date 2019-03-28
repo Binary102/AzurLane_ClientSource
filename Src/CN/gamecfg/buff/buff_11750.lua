@@ -10,7 +10,7 @@ return {
 	{},
 	{},
 	desc_get = "",
-	name = "龙骧TATOBA",
+	name = "蛮啾,猫猫,小枭!",
 	init_effect = "",
 	id = 11750,
 	time = 0,

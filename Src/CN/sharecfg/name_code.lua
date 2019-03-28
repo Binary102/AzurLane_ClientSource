@@ -809,6 +809,11 @@ pg.name_code = {
 		id = 162,
 		name = "卷波",
 		code = "棬"
+	},
+	{
+		id = 163,
+		name = "伊13",
+		code = "伊13"
 	}
 }
 

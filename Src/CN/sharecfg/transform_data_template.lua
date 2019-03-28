@@ -15066,8 +15066,8 @@ pg.transform_data_template = {
 
 改造后<color=#A9F548>【主炮底座-1】</color>
 改造后<color=#A9F548>主炮效率</color>提高20%
-改造后<color=#A9F548>【副武器】</color>装备栏位装备类型更改为<color=#A9F548>【水侦】</color>
-在装备<color=#A9F548>【水侦】</color>的情况下，<color=#A9F548>【魟改】</color>可以进行<color=#A9F548>空中支援</color>]],
+改造后<color=#A9F548>【副武器】</color>装备栏位装备类型更改为<color=#A9F548>【水上机】</color>
+在装备<color=#A9F548>【水上机】</color>的情况下，<color=#A9F548>【魟改】</color>可以进行<color=#A9F548>空中支援</color>]],
 		condition_id = {
 			20808
 		},
@@ -15479,8 +15479,8 @@ pg.transform_data_template = {
 
 改造后<color=#A9F548>【主炮底座-1】</color>
 改造后<color=#A9F548>主炮效率</color>提高20%
-改造后<color=#A9F548>【副武器】</color>装备栏位装备类型更改为<color=#A9F548>【水侦】</color>
-在装备<color=#A9F548>【水侦】</color>的情况下，<color=#A9F548>【鲼改】</color>可以进行<color=#A9F548>空中支援</color>]],
+改造后<color=#A9F548>【副武器】</color>装备栏位装备类型更改为<color=#A9F548>【水上机】</color>
+在装备<color=#A9F548>【水上机】</color>的情况下，<color=#A9F548>【鲼改】</color>可以进行<color=#A9F548>空中支援</color>]],
 		condition_id = {
 			20908
 		},
@@ -15702,8 +15702,8 @@ pg.transform_data_template = {
 
 改造后<color=#A9F548>【主炮底座-1】</color>
 改造后<color=#A9F548>主炮效率</color>提高25%
-改造后<color=#A9F548>【副武器】</color>装备栏位装备类型更改为<color=#A9F548>【水侦】</color>
-在装备<color=#A9F548>【水侦】</color>的情况下，<color=#A9F548>【鳌改】</color>可以进行<color=#A9F548>空中支援</color>]],
+改造后<color=#A9F548>【副武器】</color>装备栏位装备类型更改为<color=#A9F548>【水上机】</color>
+在装备<color=#A9F548>【水上机】</color>的情况下，<color=#A9F548>【鳌改】</color>可以进行<color=#A9F548>空中支援</color>]],
 		condition_id = {
 			21002,
 			21003
@@ -16122,8 +16122,8 @@ pg.transform_data_template = {
 
 改造后<color=#A9F548>【主炮底座-1】</color>
 改造后<color=#A9F548>主炮效率</color>提高25%
-改造后<color=#A9F548>【副武器】</color>装备栏位装备类型更改为<color=#A9F548>【水侦】</color>
-在装备<color=#A9F548>【水侦】</color>的情况下，<color=#A9F548>【螯改】</color>可以进行<color=#A9F548>空中支援</color>]],
+改造后<color=#A9F548>【副武器】</color>装备栏位装备类型更改为<color=#A9F548>【水上机】</color>
+在装备<color=#A9F548>【水上机】</color>的情况下，<color=#A9F548>【螯改】</color>可以进行<color=#A9F548>空中支援</color>]],
 		condition_id = {
 			21102,
 			21103

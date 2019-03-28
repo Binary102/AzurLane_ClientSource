@@ -259,7 +259,7 @@ return {
 			}
 		}
 	},
-	name = "美系·驱逐支援",
+	name = "特混分队旗舰·美系·驱逐支援",
 	init_effect = "jinengchufared",
 	id = 11983,
 	time = 0,

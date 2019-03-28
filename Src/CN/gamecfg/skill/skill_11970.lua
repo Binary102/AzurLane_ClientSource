@@ -1,9 +1,9 @@
 return {
 	uiEffect = "",
-	name = "Z2BUFF",
+	name = "战意提升",
 	cd = 0,
 	picture = "0",
-	desc = "Z2BUFF",
+	desc = "战意提升",
 	painting = 1,
 	id = 11970,
 	castCV = "skill",

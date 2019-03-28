@@ -203,7 +203,7 @@ function slot0.init(slot0)
 		end
 
 		if slot8.type == 3 then
-			setText(slot9:GetChild(3), pg.gameset.activity_res_id.description)
+			setText(slot9:GetChild(3), pg.item_data_statistics[id2ItemId(getProxy(ActivityProxy):getActivityById(slot8.act_id):getConfig("config_id"))].name)
 		end
 
 		slot0.scroll[slot7] = slot0:findTF("content/rank_list", slot0.rtPage[slot7]):GetComponent("LScrollRect")

@@ -671,6 +671,18 @@ pg.voice_actor_CN = {
 	{
 		actor_name = "诸星堇",
 		code = 168
+	},
+	{
+		actor_name = "青木瑠璃子",
+		code = 169
+	},
+	{
+		actor_name = "七瀬彩夏",
+		code = 170
+	},
+	{
+		actor_name = "藤沢玲香",
+		code = 171
 	}
 }
 

@@ -10,7 +10,7 @@ return {
 	{},
 	{},
 	time = 0,
-	name = "LittleStarHobby",
+	name = "LittleStar",
 	init_effect = "",
 	id = 11730,
 	picture = "",

@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"自由的天使\n\n<size=30>五 埃米尔的浪漫说·上</size>",
+					"무희 천사 에밀\n\n<size=30>에밀의 낭만 이론 - 상</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "港区·指挥室",
+			say = "모항 - 집무실",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -49,7 +49,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "和埃米尔闲聊了起来。",
+			say = "에밀과 잡담 중이다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			dir = 1,
 			actor = 802011,
 			nameColor = "#a9f548",
-			say = "只有细心留意，才能发掘生活中的美。而珍惜这些细小的美好，我觉得，就是浪漫的本质哦~",
+			say = "……세심한 곳까지 주의를 기울여야, 하루하루의 아름다움을 찾아낼 수 있어. 작은 아름다움이라도 소중히 여기는 사람이야 진정한 로맨티스트가 아닐까?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			},
 			options = {
 				{
-					content = "好奇",
+					content = "예를 들면…?",
 					flag = 1
 				}
 			}
@@ -83,7 +83,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "生活中的美好东西有许多呢，即使每天都是一样的环境，其中也会有细微的变化。",
+			say = "내게 있어, 작은 아름다움이란 '지금까지와 다른 것'이야. 그게 아무리 작다고 해도, 주의를 기울인다면 분명 잔뜩 찾아낼 수 있을 거야.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "今天的鸟儿叫声是不是和昨天不一样呢？这里有一朵没有见过的花呢~在不同的地方跳舞的感觉也完全不同……",
+			say = "창가에 앉은 새의 지저귐, 길가에 핀 작은 꽃, 차분한 마음으로 열심히 찾는다면, 세상은 아름다운 것으로 가득하다는 사실을 깨닫게 돼.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,23 +113,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "埃米尔闭上双眼，双手抱在胸前，像是在拥抱着什么美好的东西一样。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 802011,
-			side = 2,
-			bgName = "bg_story_task",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "和人交流也是一样的，世上不存在两个性格完全一样的人，即使看起来相似，也一定存在着某些差异。",
+			say = "에밀은 눈을 감고, 무언가를 가슴에 끌어안는 포즈를 취했다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +129,23 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "去发现每个人身上的不同，我觉得是十分重要的~",
+			say = "그건 사람도 마찬가지. 성격이 완전히 똑같은 사람은 이 세상에 없어. 아무리 닮았다 해도, 분명 서로 다른 부분이 있는 거야.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 802011,
+			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "사람을 대할 때에도, '그 사람이 가지고 있는, 다른 사람과는 다른 것'을 찾아내는 게 중요해.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			dir = 1,
 			actor = 802011,
 			nameColor = "#a9f548",
-			say = "而且指挥官你不觉得，如果发现一个人身上有非常美好的品质，会是一件十分开心的事吗？",
+			say = "지금까지 몰랐던, 그 사람만의 장점을 찾아내는 것…… 정말 로맨틱하다고 생각하지 않아?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			},
 			options = {
 				{
-					content = "点头",
+					content = "일리 있다",
 					flag = 1
 				}
 			}
@@ -183,7 +183,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "所以呢，虽然也会有难过和悲伤的时候，不过只要想到世界上还有那么多值得我去体验和发现的东西，就觉得一定要坚持下去。",
+			say = "아무리 슬프고 괴롭더라도, 이 앞길에는 아직도 아름다운 것이 잔뜩 기다리고 있다고 생각하면, 포기하지 않고 앞으로 나아갈 수 있어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "离别也好，战争也好，哪怕有多么痛苦，只要我的这份热情没有消退，我就永远不会屈服。",
+			say = "왜냐면 나, 아름다운 것을 더 보고 싶고, 알고 있고, 마음속 깊이 사랑하고 싶은걸.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "埃米尔回过神来，露出有点不好意思的表情",
+			say = "문득 에밀이 조금 멋쩍은 듯한 얼굴로 돌아봤다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,7 +243,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊哈哈，好像说了一些非常自大的话，有点不好意思呢…指挥官你听过就算了哦？",
+			say = "후후, 뭔가 잘난 척 떠들어서 조금 부끄럽네. …지금 말한 건 한 귀로 듣고 흘려도 돼.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,23 +257,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "不过她马上像是想到了什么一样凑了过来。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 802011,
-			side = 2,
-			bgName = "bg_story_task",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "对了，指挥官！我们来约会吧~",
+			say = "그리고……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -289,7 +273,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你看，既然聊到了浪漫，比起说些大道理，来实践不是更好的方法吗？",
+			say = "그래! 지휘관, 데이트하지 않을래?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -305,7 +289,23 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "还是说，指挥官不愿意和我约会呢？嘻嘻",
+			say = "모처럼 낭만에 대해 얘기했으니, 말만 늘어놓는 것보다 실천해보는 게 더 알기 쉽다고 생각하지 않아?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 802011,
+			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "아니면 지휘관은 나랑 데이트하기 싫은 걸까나? 후후후.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,7 +320,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "…定下了和埃米尔约会的行程",
+			say = "분위기에 휩쓸려 에밀과 데이트하게 되었다. …나쁘지 않을지도？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -14465,6 +14465,180 @@ pg.aircraft_template = {
 			52250
 		}
 	},
+	[39300] = {
+		name = "晴岚",
+		max_hp = 38,
+		accuracy = 23,
+		model_ID = "qinglan",
+		ACC_growth = 0,
+		crash_DMG = 120,
+		dodge = 3.39,
+		type = 3,
+		dodge_limit = 1.1,
+		attack_power = 2,
+		AP_growth = 2000,
+		icon = "qinglan",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 1251,
+		speed = 46,
+		id = 39300,
+		weapon_ID = {
+			50840,
+			53260
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.71,
+					-1.73,
+					0
+				},
+				{
+					0.82,
+					2.04,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[39301] = {
+		id = 39301,
+		base = 39300,
+		max_hp = 42,
+		hp_growth = 1438,
+		weapon_ID = {
+			50841,
+			53261
+		}
+	},
+	[39302] = {
+		id = 39302,
+		base = 39300,
+		max_hp = 47,
+		hp_growth = 1626,
+		weapon_ID = {
+			50842,
+			53262
+		}
+	},
+	[39303] = {
+		id = 39303,
+		base = 39300,
+		max_hp = 52,
+		hp_growth = 1813,
+		weapon_ID = {
+			50843,
+			53263
+		}
+	},
+	[39304] = {
+		id = 39304,
+		base = 39300,
+		max_hp = 57,
+		hp_growth = 2001,
+		weapon_ID = {
+			50844,
+			53264
+		}
+	},
+	[39305] = {
+		id = 39305,
+		base = 39300,
+		max_hp = 62,
+		hp_growth = 2189,
+		weapon_ID = {
+			50845,
+			53265
+		}
+	},
+	[39306] = {
+		id = 39306,
+		base = 39300,
+		max_hp = 67,
+		hp_growth = 2376,
+		weapon_ID = {
+			50846,
+			53266
+		}
+	},
+	[39307] = {
+		id = 39307,
+		base = 39300,
+		max_hp = 72,
+		hp_growth = 2564,
+		weapon_ID = {
+			50847,
+			53267
+		}
+	},
+	[39308] = {
+		id = 39308,
+		base = 39300,
+		max_hp = 77,
+		hp_growth = 2751,
+		weapon_ID = {
+			50848,
+			53268
+		}
+	},
+	[39309] = {
+		id = 39309,
+		base = 39300,
+		max_hp = 81,
+		hp_growth = 2939,
+		weapon_ID = {
+			50849,
+			53269
+		}
+	},
+	[39310] = {
+		id = 39310,
+		base = 39300,
+		max_hp = 86,
+		hp_growth = 3127,
+		weapon_ID = {
+			50850,
+			53270
+		}
+	},
 	[47000] = {
 		name = "BF-109T舰载战斗机T1",
 		max_hp = 31,
@@ -20434,6 +20608,187 @@ pg.aircraft_template = {
 			}
 		}
 	},
+	[68001] = {
+		name = "邦克山技能鱼雷机Lv1",
+		max_hp = 37,
+		accuracy = 23,
+		model_ID = "tbf",
+		ACC_growth = 0,
+		crash_DMG = 406,
+		dodge = 1,
+		type = 2,
+		dodge_limit = 0,
+		attack_power = 2,
+		AP_growth = 2000,
+		icon = "tbf",
+		funnel_behavior = "",
+		nationality = 1,
+		hp_growth = 1404,
+		speed = 48,
+		id = 68001,
+		weapon_ID = {
+			68011
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.68,
+					-0.667,
+					0
+				},
+				{
+					0.97,
+					0.584,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.15,
+				-0.08,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[68002] = {
+		base = 68001,
+		name = "邦克山技能鱼雷机Lv2",
+		id = 68002,
+		dodge_limit = 0,
+		max_hp = 42,
+		hp_growth = 1615,
+		dodge = 1,
+		weapon_ID = {
+			68012
+		}
+	},
+	[68003] = {
+		base = 68001,
+		name = "邦克山技能鱼雷机Lv3",
+		id = 68003,
+		dodge_limit = 0,
+		max_hp = 47,
+		hp_growth = 1826,
+		dodge = 1,
+		weapon_ID = {
+			68013
+		}
+	},
+	[68004] = {
+		base = 68001,
+		name = "邦克山技能鱼雷机Lv4",
+		id = 68004,
+		dodge_limit = 0,
+		max_hp = 53,
+		hp_growth = 2036,
+		dodge = 1,
+		weapon_ID = {
+			68014
+		}
+	},
+	[68005] = {
+		base = 68001,
+		name = "邦克山技能鱼雷机Lv5",
+		id = 68005,
+		dodge_limit = 0,
+		max_hp = 58,
+		hp_growth = 2247,
+		dodge = 1,
+		weapon_ID = {
+			68015
+		}
+	},
+	[68006] = {
+		base = 68001,
+		name = "邦克山技能鱼雷机Lv6",
+		id = 68006,
+		dodge_limit = 0,
+		max_hp = 64,
+		hp_growth = 2458,
+		dodge = 1,
+		weapon_ID = {
+			68016
+		}
+	},
+	[68007] = {
+		base = 68001,
+		name = "邦克山技能鱼雷机Lv7",
+		id = 68007,
+		dodge_limit = 0,
+		max_hp = 69,
+		hp_growth = 2669,
+		dodge = 1,
+		weapon_ID = {
+			68017
+		}
+	},
+	[68008] = {
+		base = 68001,
+		name = "邦克山技能鱼雷机Lv8",
+		id = 68008,
+		dodge_limit = 0,
+		max_hp = 75,
+		hp_growth = 2879,
+		dodge = 1,
+		weapon_ID = {
+			68018
+		}
+	},
+	[68009] = {
+		base = 68001,
+		name = "邦克山技能鱼雷机Lv9",
+		id = 68009,
+		dodge_limit = 0,
+		max_hp = 80,
+		hp_growth = 3090,
+		dodge = 1,
+		weapon_ID = {
+			68019
+		}
+	},
+	[68010] = {
+		base = 68001,
+		name = "邦克山技能鱼雷机Lv10",
+		id = 68010,
+		dodge_limit = 0,
+		max_hp = 86,
+		hp_growth = 3301,
+		dodge = 1,
+		weapon_ID = {
+			68020
+		}
+	},
 	[68021] = {
 		name = "邦克山技能战斗机Lv1",
 		max_hp = 51,
@@ -20622,6 +20977,197 @@ pg.aircraft_template = {
 		dodge = 1,
 		weapon_ID = {
 			50450,
+			68060
+		}
+	},
+	[68031] = {
+		name = "邦克山技能轰炸机Lv1",
+		max_hp = 35,
+		accuracy = 23,
+		model_ID = "sbdwuwei",
+		ACC_growth = 0,
+		crash_DMG = 156,
+		dodge = 1,
+		type = 3,
+		dodge_limit = 0,
+		attack_power = 2,
+		AP_growth = 2000,
+		icon = "sbdwuwei",
+		funnel_behavior = "",
+		nationality = 1,
+		hp_growth = 1183,
+		speed = 46,
+		id = 68031,
+		weapon_ID = {
+			68041,
+			68051
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.68,
+					-0.667,
+					0
+				},
+				{
+					0.97,
+					0.584,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.72,
+				-0.15,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[68032] = {
+		base = 68031,
+		name = "邦克山技能轰炸机Lv2",
+		id = 68032,
+		dodge_limit = 0,
+		max_hp = 39,
+		hp_growth = 1345,
+		dodge = 1,
+		weapon_ID = {
+			68042,
+			68052
+		}
+	},
+	[68033] = {
+		base = 68031,
+		name = "邦克山技能轰炸机Lv3",
+		id = 68033,
+		dodge_limit = 0,
+		max_hp = 43,
+		hp_growth = 1507,
+		dodge = 1,
+		weapon_ID = {
+			68043,
+			68053
+		}
+	},
+	[68034] = {
+		base = 68031,
+		name = "邦克山技能轰炸机Lv4",
+		id = 68034,
+		dodge_limit = 0,
+		max_hp = 47,
+		hp_growth = 1669,
+		dodge = 1,
+		weapon_ID = {
+			68044,
+			68054
+		}
+	},
+	[68035] = {
+		base = 68031,
+		name = "邦克山技能轰炸机Lv5",
+		id = 68035,
+		dodge_limit = 0,
+		max_hp = 51,
+		hp_growth = 1831,
+		dodge = 1,
+		weapon_ID = {
+			68045,
+			68055
+		}
+	},
+	[68036] = {
+		base = 68031,
+		name = "邦克山技能轰炸机Lv6",
+		id = 68036,
+		dodge_limit = 0,
+		max_hp = 55,
+		hp_growth = 1994,
+		dodge = 1,
+		weapon_ID = {
+			68046,
+			68056
+		}
+	},
+	[68037] = {
+		base = 68031,
+		name = "邦克山技能轰炸机Lv7",
+		id = 68037,
+		dodge_limit = 0,
+		max_hp = 59,
+		hp_growth = 2157,
+		dodge = 1,
+		weapon_ID = {
+			68047,
+			68057
+		}
+	},
+	[68038] = {
+		base = 68031,
+		name = "邦克山技能轰炸机Lv8",
+		id = 68038,
+		dodge_limit = 0,
+		max_hp = 63,
+		hp_growth = 2320,
+		dodge = 1,
+		weapon_ID = {
+			68048,
+			68058
+		}
+	},
+	[68039] = {
+		base = 68031,
+		name = "邦克山技能轰炸机Lv9",
+		id = 68039,
+		dodge_limit = 0,
+		max_hp = 68,
+		hp_growth = 2483,
+		dodge = 1,
+		weapon_ID = {
+			68049,
+			68059
+		}
+	},
+	[68040] = {
+		base = 68031,
+		name = "邦克山技能轰炸机Lv10",
+		id = 68040,
+		dodge_limit = 0,
+		max_hp = 73,
+		hp_growth = 2646,
+		dodge = 1,
+		weapon_ID = {
+			68050,
 			68060
 		}
 	},
@@ -95781,6 +96327,17 @@ pg.aircraft_template = {
 		39248,
 		39249,
 		39250,
+		39300,
+		39301,
+		39302,
+		39303,
+		39304,
+		39305,
+		39306,
+		39307,
+		39308,
+		39309,
+		39310,
 		47000,
 		47001,
 		47002,
@@ -96089,6 +96646,16 @@ pg.aircraft_template = {
 		67940,
 		67981,
 		67982,
+		68001,
+		68002,
+		68003,
+		68004,
+		68005,
+		68006,
+		68007,
+		68008,
+		68009,
+		68010,
 		68021,
 		68022,
 		68023,
@@ -96099,6 +96666,16 @@ pg.aircraft_template = {
 		68028,
 		68029,
 		68030,
+		68031,
+		68032,
+		68033,
+		68034,
+		68035,
+		68036,
+		68037,
+		68038,
+		68039,
+		68040,
 		81000,
 		81001,
 		81002,

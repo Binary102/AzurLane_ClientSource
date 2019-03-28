@@ -10,8 +10,8 @@ function slot1.Ctor(slot0, slot1)
 end
 
 function slot1.DoDataEffect(slot0, slot1, slot2)
-	if slot0:_GetWeapon(slot1) then
-		slot3:SingleFire(slot2)
+	for slot7, slot8 in ipairs(slot3) do
+		slot8:SingleFire(slot2)
 	end
 end
 
@@ -20,9 +20,23 @@ function slot1.DoDataEffectWithoutTarget(slot0, slot1)
 end
 
 function slot1._GetWeapon(slot0, slot1)
-	slot2 = nil
+	slot2 = {}
 
-	return (slot0._weaponType ~= "ChargeWeapon" or slot1:GetChargeList()[1]) and (slot0._weaponType ~= "TorpedoWeapon" or slot1:GetTorpedoList()[1]) and (slot0._weaponType ~= "AirAssist" or slot1:GetAirAssistList()[1]) and slot1:GetAutoWeapons()[1]
+	if slot0._weaponType == "ChargeWeapon" then
+		table.insert(slot2, slot1:GetChargeList()[1])
+	elseif slot0._weaponType == "TorpedoWeapon" then
+		table.insert(slot2, slot1:GetTorpedoList()[1])
+	elseif slot0._weaponType == "AirAssist" then
+		table.insert(slot2, slot1:GetAirAssistList()[1])
+	elseif slot0._weaponType == "Aircraft" then
+		for slot7, slot8 in ipairs(slot3) do
+			table.insert(slot2, slot8)
+		end
+	else
+		table.insert(slot2, slot1:GetAutoWeapons()[1])
+	end
+
+	return slot2
 end
 
 return

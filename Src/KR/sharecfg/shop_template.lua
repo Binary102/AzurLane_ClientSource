@@ -4567,6 +4567,116 @@ pg.shop_template = {
 			}
 		}
 	},
+	[60131] = {
+		group_type = 0,
+		resource_num = 120,
+		desc = "120钻石购买法系攻略补给",
+		type = 2,
+		is_auto_use = 1,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 6,
+		order = 0,
+		group = 0,
+		num = 1,
+		isHX = 0,
+		showInAudit = 0,
+		discount = 0,
+		resource_type = 14,
+		id = 60131,
+		genre = "gift_package",
+		discount_time = {},
+		limit_args = {
+			{
+				"time",
+				5
+			}
+		},
+		effect_args = {
+			40111
+		},
+		time = {
+			{
+				{
+					2019,
+					3,
+					27
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[60132] = {
+		group_type = 0,
+		resource_num = 980,
+		desc = "980钻石购买法系建造补给",
+		type = 2,
+		is_auto_use = 1,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 6,
+		order = 0,
+		group = 0,
+		num = 1,
+		isHX = 0,
+		showInAudit = 0,
+		discount = 0,
+		resource_type = 14,
+		id = 60132,
+		genre = "gift_package",
+		discount_time = {},
+		limit_args = {
+			{
+				"time",
+				1
+			}
+		},
+		effect_args = {
+			40112
+		},
+		time = {
+			{
+				{
+					2019,
+					3,
+					27
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	[60134] = {
 		group_type = 0,
 		resource_num = 120,
@@ -10146,6 +10256,156 @@ pg.shop_template = {
 			}
 		}
 	},
+	[70085] = {
+		group_type = 0,
+		resource_num = 1080,
+		desc = "购买皮肤:埃米尔·贝尔汀-泳装 ",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 6,
+		order = 886,
+		group = 0,
+		num = 1,
+		isHX = 1,
+		showInAudit = 0,
+		discount = 0,
+		resource_type = 14,
+		id = 70085,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			802011
+		},
+		time = {
+			{
+				{
+					2019,
+					3,
+					27
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[70086] = {
+		group_type = 0,
+		resource_num = 1080,
+		desc = "购买皮肤:敦刻尔克泳装",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 6,
+		order = 886,
+		group = 0,
+		num = 1,
+		isHX = 1,
+		showInAudit = 0,
+		discount = 0,
+		resource_type = 14,
+		id = 70086,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			904011
+		},
+		time = {
+			{
+				{
+					2019,
+					3,
+					27
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[70087] = {
+		group_type = 0,
+		resource_num = 700,
+		desc = "购买皮肤:福尔班常服 ",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 6,
+		order = 886,
+		group = 0,
+		num = 1,
+		isHX = 0,
+		showInAudit = 0,
+		discount = 0,
+		resource_type = 14,
+		id = 70087,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			801021
+		},
+		time = {
+			{
+				{
+					2019,
+					3,
+					27
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	[70088] = {
 		group_type = 0,
 		resource_num = 1080,
@@ -13596,6 +13856,56 @@ pg.shop_template = {
 			}
 		}
 	},
+	[70170] = {
+		group_type = 0,
+		resource_num = 800,
+		desc = "购买皮肤：光辉",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 6,
+		order = 885,
+		group = 0,
+		num = 1,
+		isHX = 0,
+		showInAudit = 0,
+		discount = 0,
+		resource_type = 14,
+		id = 70170,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			207033
+		},
+		time = {
+			{
+				{
+					2019,
+					3,
+					27
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -13757,6 +14067,8 @@ pg.shop_template = {
 		60128,
 		60129,
 		60130,
+		60131,
+		60132,
 		60134,
 		60135,
 		60136,
@@ -13870,6 +14182,9 @@ pg.shop_template = {
 		70082,
 		70083,
 		70084,
+		70085,
+		70086,
+		70087,
 		70088,
 		70089,
 		70090,
@@ -13938,7 +14253,8 @@ pg.shop_template = {
 		70163,
 		70164,
 		70165,
-		70172
+		70172,
+		70170
 	}
 }
 

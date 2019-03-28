@@ -1,6 +1,6 @@
 return {
 	uiEffect = "",
-	name = "Clev",
+	name = "天之骑士",
 	cd = 0,
 	picture = "0",
 	desc = "Clev",

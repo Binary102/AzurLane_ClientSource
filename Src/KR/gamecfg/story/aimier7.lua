@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"自由的天使\n\n<size=30>七 埃米尔的浪漫说·下</size>",
+					"무희 천사 에밀\n\n<size=30>에밀의 낭만 이론 - 하</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			bgmDelay = 2,
 			actor = 802011,
 			nameColor = "#a9f548",
-			say = "我觉得呢，浪漫并不在于说的话做的事在别人看来有多浪漫，而在于“为对方着想的心”呢～",
+			say = "낭만이란 건 보여주기 위한 게 아니라, 상대가 알 수 있도록 전하는 마음이라고 난 생각해.",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -56,7 +56,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官自己也许不觉得，不过……",
+			say = "지휘관은 눈치채지 못했을지 모르지만, 예를 들면……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "无论是安静地欣赏我跳舞，还是放任我做想做的事情，还有和我一起吃甜点——",
+			say = "에든버러와 여행 이야기에 어울려주거나, 아카시네 가게 도와줄 수 있도록 보내주거나, 내가 됭케르크의 과자에 유혹당하지 않도록 배려해주거나……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "埃米尔露出十分甜蜜的微笑",
+			say = "에밀은 미소지으며 내 손을 두 손으로 감싸 쥐었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,23 +98,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这些对我来说，都是最浪漫的事哟？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 802011,
-			side = 2,
-			bgName = "bg_story_school",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "甜言蜜语也好，惊喜也好，没有一颗真正为对方着想的心，就只是空洞的话语，和俗套的行为",
+			say = "그 모든 게, 나한테는 '로맨틱한 일'이야♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +114,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "而只有了解了一个人想要些什么，才能走进每个人的内心。",
+			say = "……상대를 위하는 마음이 없다면, 아무리 \"로맨틱\"이라는 수식어를 붙인다 해도 텅 빈 존재에 불과하지만……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +130,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我会喜欢指挥官，也是因为指挥官知道我想要什么，并把它给了我",
+			say = "상대를 위하는 마음이 있다면, 상대가 바라는 일을 해줄 때에 분명 그 마음이 전해질 거야.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,21 +146,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "能遇到指挥官实在是太好了呢~",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			bgName = "bg_story_school",
-			dir = 1,
-			say = "……总觉得被说了十分浪漫的话",
+			say = "이렇게 내가 바라는 일을 해주는 로맨틱한 사람……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +162,21 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "希望理解对方，让对方心动，想要对方能够了解自己心意的感情……",
+			say = "지휘관, 당신과 만나서 정말 다행이야.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			bgName = "bg_story_school",
+			dir = 1,
+			say = "에밀의 말에서 사랑과 낭만을 느꼈다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +192,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如果这都不能称为爱，那么还有什么东西配得上这个名号呢？",
+			say = "상대를 이해하고, 상대를 즐겁게 해주고 싶고, 전하고 싶은 마음을 상대가 알아차려 주길 바라는 이 기분……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +208,23 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……啊，忽然变得想要跳舞了呢~",
+			say = "이건 아마도, 아니, 분명 '사랑'이 틀림없어.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 802011,
+			side = 2,
+			bgName = "bg_story_school",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "……왠지 갑자기 춤추고 싶어졌어♪~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,7 +238,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "埃米尔忽然松开手臂，向前走了几步，转身伸出手。",
+			say = "쥐고 있던 한 손을 놓고, 다른 한 손으로 내 손을 끌어 한 발, 두 발, 가볍게 스텝을 밟으며……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,7 +250,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过，这次不是想一个人独舞，而是想和心爱的人一起跳",
+			say = "언제나 추던 '바리에이션'이 아니라, 사랑하는 사람과의 '파드되'……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,7 +267,7 @@ return {
 			blackBg = true,
 			actor = 802011,
 			nameColor = "#a9f548",
-			say = "指挥官，不知道你意下如何呢？嘻嘻～",
+			say = "지휘관은, 마지막까지 어울려주려나?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"骑士公主的忧郁\n\n<size=30>四 失落的凯旋小姐</size>",
+					"빛나는 아이리스\n\n<size=30>풀 죽은 트리옹팡</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "和凯旋一起在港区巡逻",
+			say = "트리옹팡과 함께 모항을 순찰 중이다.",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -54,7 +54,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "好！今天也要打起精神完成工作～",
+			say = "좋아! 오늘도 열심히 업무에 매진하겠어요!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "似乎干劲满满的样子",
+			say = "왠지 의욕이 넘치는 트리옹팡이었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "啊，是指挥官…来，恐怖，跟指挥官和凯旋小姐打个招呼",
+			say = "아, 지휘관… 테러, 여기야. 지휘관이랑 르 트리옹팡 씨에게 인사해야지.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,7 +98,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "凯旋小姐、指挥官，你们好…",
+			say = "트리옹팡 씨, 지휘관님, 안녕하세요…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,7 +112,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "偶然遇到了黑暗界和恐怖",
+			say = "에레버스랑 테러와 만났다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "贵安，黑暗界小姐、恐怖小姐",
+			say = "평안하신지요. 에레버스 씨, 테러 씨.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +141,7 @@ return {
 			actor = 213011,
 			side = 1,
 			bgName = "bg_story_outdoor",
-			say = "凯旋小姐，谢谢你…和你一起出击之后，恐怖变得比以前自信了不少…",
+			say = "트리옹팡 씨, 고마워. 트리옹팡 씨와 함께 출격하게 된 후로, 테러도 왠지 자신감이 붙은 거 같아…",
 			dir = -1,
 			paintingFadeOut = {
 				time = 0.5,
@@ -161,7 +161,7 @@ return {
 			side = 1,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "谢谢…",
+			say = "고맙습니다……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			side = 0,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "嘻嘻，恐怖本来就很厉害的，我只不过是给了她一点掩护和支援罢了～",
+			say = "아뇨, 테러 씨는 처음부터 우수했어요. 전 그저 엄호와 지원을 해준 것뿐이에요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			actor = 213011,
-			say = "那…我们就先走了。这么大的太阳对恐怖的身体不大好…恐怖，想吃点心吗…？",
+			say = "미안해. 햇볕이 너무 강하면 테러 몸에 안 좋으니까, 답례는 다음에 다시… 테러, 과자라도 먹으러 갈까?",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -223,7 +223,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "想…",
+			say = "응…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +237,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "黑暗界带着恐怖离开了",
+			say = "에레버스와 테러가 떠났다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,7 +252,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "自信啊……",
+			say = "자신감, 인가요……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,7 +267,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			actor = 107021,
-			say = "哎呀，是凯旋小姐啊，和指挥官在巡逻吗？",
+			say = "어머, 트리옹팡? 지휘관이랑 모항 순찰이야?",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -299,7 +299,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "贵安，列克星敦小姐、萨拉托加小姐",
+			say = "평안하신지요. 렉싱턴 씨, 새러토가 씨.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,7 +313,7 @@ return {
 			actor = 107031,
 			side = 1,
 			bgName = "bg_story_outdoor",
-			say = "哎？哎哎？怎么被发现了！？还想要偷偷出现吓指挥官一跳呢～",
+			say = "에? 에에엥! 어떻게 알았어!? 지휘관 깜짝 놀래켜주려 했는데~",
 			dir = 1,
 			paintingFadeOut = {
 				time = 0.5,
@@ -333,7 +333,7 @@ return {
 			side = 0,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "哎呀～那我还真是做了坏事了呢，对不起呀，萨拉托加小姐",
+			say = "혹시, 제가 쓸데없는 짓을…… 새러토가 씨, 죄송해요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -348,7 +348,7 @@ return {
 			side = 0,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "萨拉，怎么说你也是大家的前辈，要好好学习一下凯旋的稳重才对哦",
+			say = "정말, 새러토가. 함력상으론 네가 선배니까, 트리옹팡의 어른스러운 모습을 보고 좀 배워야지 않겠어?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -363,7 +363,7 @@ return {
 			side = 1,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "是～",
+			say = "네~에.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -378,7 +378,7 @@ return {
 			side = 0,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "指挥官、凯旋小姐。巡逻，要加油哦。我们就先告辞了",
+			say = "그럼 지휘관, 트리옹팡, 우린 이만. 순찰 힘내.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -393,7 +393,7 @@ return {
 			side = 1,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "拜拜～对了，姐姐，你听我说哦——",
+			say = "바이바~이! 그래서, 언니, 그러고 보니 요전에……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -408,7 +408,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			actor = 801011,
-			say = "稳重啊…",
+			say = "어른스러운, 모습이라…",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -453,7 +453,7 @@ return {
 			side = 0,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "凯旋似乎有点失落",
+			say = "르 트리옹팡은 조금 우울해졌다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -468,7 +468,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "呼…嗯？我的脸上有什么吗？",
+			say = "후우… 어라? 제 얼굴에 뭐라도…?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -479,7 +479,7 @@ return {
 			},
 			options = {
 				{
-					content = "轻轻摸她的头",
+					content = "살며시 머리를 쓰다듬는다",
 					flag = 1
 				}
 			}
@@ -489,7 +489,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "指、指挥官……",
+			say = "지, 지휘관님……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -505,7 +505,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			blackBg = true,
-			say = "凯旋的脸上，流露出了一丝寂寥的神情",
+			say = "우울해진 이유를 묻자, 르 트리옹팡은 쑥스러운 듯 발걸음을 옮기며 말을 꺼냈다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

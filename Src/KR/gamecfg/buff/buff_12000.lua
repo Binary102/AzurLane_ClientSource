@@ -10,7 +10,7 @@ return {
 	{},
 	{},
 	desc_get = "在队伍中(存活)时降低轻母、航母受到的伤害",
-	name = "杜威护航",
+	name = "远东的羁绊",
 	init_effect = "",
 	id = 12000,
 	time = 0,

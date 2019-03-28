@@ -9459,7 +9459,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[5400] = {
-		name = "550mm 3연장 어뢰 발사관",
+		name = "550mm 3연장 어뢰 발사관 ",
 		type = 5,
 		id = 5400,
 		tech = 1,
@@ -9517,7 +9517,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[5420] = {
-		name = "550mm 3연장 어뢰 발사관",
+		name = "550mm 3연장 어뢰 발사관 ",
 		type = 5,
 		id = 5420,
 		tech = 2,
@@ -9602,7 +9602,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[5440] = {
-		name = "550mm 3연장 어뢰 발사관",
+		name = "550mm 3연장 어뢰 발사관 ",
 		type = 5,
 		id = 5440,
 		tech = 3,
@@ -9719,6 +9719,270 @@ pg.equip_data_statistics = {
 		value_1 = "162 x 3",
 		weapon_id = {
 			5450
+		},
+		property_rate = {}
+	},
+	[5500] = {
+		name = "잠수함용 550mm 24V 어뢰 ",
+		type = 13,
+		id = 5500,
+		tech = 1,
+		speciality = "뇌격",
+		range = 50,
+		scatter = "없음",
+		ambush_extra = 0,
+		value_2 = 5,
+		icon = "5500",
+		value_1 = "44 x 2",
+		attribute_2 = "torpedo",
+		avoid_extra = 0,
+		rarity = 2,
+		angle = 80,
+		nationality = 8,
+		ammo = "통상탄",
+		descrip = "说明未填写",
+		value_3 = 0,
+		attribute_1 = "damage",
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {
+			5500
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {}
+	},
+	[5501] = {
+		base = 5500,
+		id = 5501,
+		value_1 = "50 x 2",
+		weapon_id = {
+			5501
+		},
+		property_rate = {}
+	},
+	[5502] = {
+		base = 5500,
+		id = 5502,
+		value_1 = "56 x 2",
+		weapon_id = {
+			5502
+		},
+		property_rate = {}
+	},
+	[5503] = {
+		base = 5500,
+		id = 5503,
+		value_1 = "62 x 2",
+		weapon_id = {
+			5503
+		},
+		property_rate = {}
+	},
+	[5520] = {
+		name = "잠수함용 550mm 24V 어뢰 ",
+		type = 13,
+		id = 5520,
+		tech = 2,
+		speciality = "뇌격",
+		range = 50,
+		scatter = "없음",
+		ambush_extra = 0,
+		value_2 = 12,
+		icon = "5500",
+		value_1 = "49 x 2",
+		attribute_2 = "torpedo",
+		avoid_extra = 0,
+		rarity = 3,
+		angle = 80,
+		nationality = 8,
+		ammo = "통상탄",
+		descrip = "说明未填写",
+		value_3 = 0,
+		attribute_1 = "damage",
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {
+			5520
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {}
+	},
+	[5521] = {
+		base = 5520,
+		id = 5521,
+		value_1 = "56 x 2",
+		weapon_id = {
+			5521
+		},
+		property_rate = {}
+	},
+	[5522] = {
+		base = 5520,
+		id = 5522,
+		value_1 = "63 x 2",
+		weapon_id = {
+			5522
+		},
+		property_rate = {}
+	},
+	[5523] = {
+		base = 5520,
+		id = 5523,
+		value_1 = "70 x 2",
+		weapon_id = {
+			5523
+		},
+		property_rate = {}
+	},
+	[5524] = {
+		base = 5520,
+		id = 5524,
+		value_1 = "77 x 2",
+		weapon_id = {
+			5524
+		},
+		property_rate = {}
+	},
+	[5525] = {
+		base = 5520,
+		id = 5525,
+		value_1 = "84 x 2",
+		weapon_id = {
+			5525
+		},
+		property_rate = {}
+	},
+	[5526] = {
+		base = 5520,
+		id = 5526,
+		value_1 = "91 x 2",
+		weapon_id = {
+			5526
+		},
+		property_rate = {}
+	},
+	[5540] = {
+		name = "잠수함용 550mm 24V 어뢰 ",
+		type = 13,
+		id = 5540,
+		tech = 3,
+		speciality = "뇌격",
+		range = 50,
+		scatter = "없음",
+		ambush_extra = 0,
+		value_2 = 25,
+		icon = "5500",
+		value_1 = "54 x 2",
+		attribute_2 = "torpedo",
+		avoid_extra = 0,
+		rarity = 4,
+		angle = 80,
+		nationality = 8,
+		ammo = "통상탄",
+		descrip = "说明未填写",
+		value_3 = 0,
+		attribute_1 = "damage",
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {
+			5540
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {}
+	},
+	[5541] = {
+		base = 5540,
+		id = 5541,
+		value_1 = "62 x 2",
+		weapon_id = {
+			5541
+		},
+		property_rate = {}
+	},
+	[5542] = {
+		base = 5540,
+		id = 5542,
+		value_1 = "70 x 2",
+		weapon_id = {
+			5542
+		},
+		property_rate = {}
+	},
+	[5543] = {
+		base = 5540,
+		id = 5543,
+		value_1 = "78 x 2",
+		weapon_id = {
+			5543
+		},
+		property_rate = {}
+	},
+	[5544] = {
+		base = 5540,
+		id = 5544,
+		value_1 = "86 x 2",
+		weapon_id = {
+			5544
+		},
+		property_rate = {}
+	},
+	[5545] = {
+		base = 5540,
+		id = 5545,
+		value_1 = "94 x 2",
+		weapon_id = {
+			5545
+		},
+		property_rate = {}
+	},
+	[5546] = {
+		base = 5540,
+		id = 5546,
+		value_1 = "102 x 2",
+		weapon_id = {
+			5546
+		},
+		property_rate = {}
+	},
+	[5547] = {
+		base = 5540,
+		id = 5547,
+		value_1 = "110 x 2",
+		weapon_id = {
+			5547
+		},
+		property_rate = {}
+	},
+	[5548] = {
+		base = 5540,
+		id = 5548,
+		value_1 = "118 x 2",
+		weapon_id = {
+			5548
+		},
+		property_rate = {}
+	},
+	[5549] = {
+		base = 5540,
+		id = 5549,
+		value_1 = "126 x 2",
+		weapon_id = {
+			5549
+		},
+		property_rate = {}
+	},
+	[5550] = {
+		base = 5540,
+		id = 5550,
+		value_1 = "135 x 2",
+		weapon_id = {
+			5550
 		},
 		property_rate = {}
 	},
@@ -9923,7 +10187,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[6100] = {
-		name = "100mm 연장 고사포",
+		name = "100mm 연장 고사포 ",
 		type = 6,
 		id = 6100,
 		tech = 1,
@@ -9980,7 +10244,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[6120] = {
-		name = "100mm 연장 고사포",
+		name = "100mm 연장 고사포 ",
 		type = 6,
 		id = 6120,
 		tech = 2,
@@ -10038,7 +10302,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[6140] = {
-		name = "100mm 연장 고사포",
+		name = "100mm 연장 고사포 ",
 		type = 6,
 		id = 6140,
 		tech = 3,
@@ -10965,6 +11229,187 @@ pg.equip_data_statistics = {
 		value_1 = "52 x 3",
 		weapon_id = {
 			7310
+		},
+		property_rate = {}
+	},
+	[7320] = {
+		name = "130mm 부포 Mle 1932 ",
+		type = 1,
+		id = 7320,
+		tech = 0,
+		speciality = "추적",
+		range = 60,
+		scatter = "15°",
+		ambush_extra = 0,
+		value_2 = 12,
+		icon = "7320",
+		value_1 = "4 x 4",
+		attribute_2 = "cannon",
+		avoid_extra = 0,
+		rarity = 3,
+		angle = 360,
+		nationality = 8,
+		ammo = "통상탄",
+		descrip = "说明未填写",
+		value_3 = 0,
+		attribute_1 = "damage",
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		weapon_id = {
+			7320
+		},
+		skill_id = {},
+		part_main = {
+			1
+		},
+		part_sub = {
+			4,
+			5
+		},
+		equip_parameters = {}
+	},
+	[7321] = {
+		base = 7320,
+		id = 7321,
+		value_1 = "5 x 4",
+		weapon_id = {
+			7321
+		},
+		property_rate = {}
+	},
+	[7322] = {
+		base = 7320,
+		id = 7322,
+		value_1 = "6 x 4",
+		weapon_id = {
+			7322
+		},
+		property_rate = {}
+	},
+	[7323] = {
+		base = 7320,
+		id = 7323,
+		value_1 = "7 x 4",
+		weapon_id = {
+			7323
+		},
+		property_rate = {}
+	},
+	[7324] = {
+		base = 7320,
+		id = 7324,
+		value_1 = "8 x 4",
+		weapon_id = {
+			7324
+		},
+		property_rate = {}
+	},
+	[7325] = {
+		base = 7320,
+		id = 7325,
+		value_1 = "9 x 4",
+		weapon_id = {
+			7325
+		},
+		property_rate = {}
+	},
+	[7326] = {
+		base = 7320,
+		id = 7326,
+		value_1 = "10 x 4",
+		weapon_id = {
+			7326
+		},
+		property_rate = {}
+	},
+	[7340] = {
+		name = "잠수함용 203mm 연장포 Mle 1924 ",
+		type = 3,
+		id = 7340,
+		tech = 0,
+		speciality = "추적",
+		range = 80,
+		scatter = "12°",
+		ambush_extra = 0,
+		value_2 = 12,
+		icon = "7340",
+		value_1 = "22 x 4",
+		attribute_2 = "cannon",
+		avoid_extra = 0,
+		rarity = 3,
+		angle = 40,
+		nationality = 8,
+		ammo = "통상탄",
+		descrip = "说明未填写",
+		value_3 = 0,
+		attribute_1 = "damage",
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		weapon_id = {
+			7340
+		},
+		skill_id = {},
+		part_main = {
+			8
+		},
+		part_sub = {},
+		equip_parameters = {}
+	},
+	[7341] = {
+		base = 7340,
+		id = 7341,
+		value_1 = "24 x 4",
+		weapon_id = {
+			7341
+		},
+		property_rate = {}
+	},
+	[7342] = {
+		base = 7340,
+		id = 7342,
+		value_1 = "26 x 4",
+		weapon_id = {
+			7342
+		},
+		property_rate = {}
+	},
+	[7343] = {
+		base = 7340,
+		id = 7343,
+		value_1 = "28 x 4",
+		weapon_id = {
+			7343
+		},
+		property_rate = {}
+	},
+	[7344] = {
+		base = 7340,
+		id = 7344,
+		value_1 = "30 x 4",
+		weapon_id = {
+			7344
+		},
+		property_rate = {}
+	},
+	[7345] = {
+		base = 7340,
+		id = 7345,
+		value_1 = "32 x 4",
+		weapon_id = {
+			7345
+		},
+		property_rate = {}
+	},
+	[7346] = {
+		base = 7340,
+		id = 7346,
+		value_1 = "34 x 4",
+		weapon_id = {
+			7346
 		},
 		property_rate = {}
 	},
@@ -45563,6 +46008,53 @@ pg.equip_data_statistics = {
 		},
 		property_rate = {}
 	},
+	[60391] = {
+		name = "航空攻击展示-独立I",
+		type = 99,
+		nationality = 0,
+		speciality = "无",
+		range = 0,
+		angle = 0,
+		tech = 1,
+		ambush_extra = 0,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "",
+		avoid_extra = 0,
+		rarity = 1,
+		descrip = "航母空袭展示用",
+		scatter = "0",
+		ammo = "无",
+		value_3 = 0,
+		id = 60391,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {
+			60391
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {}
+	},
+	[60392] = {
+		name = "航空攻击展示-独立II",
+		base = 60391,
+		id = 60392,
+		weapon_id = {
+			60392
+		},
+		property_rate = {}
+	},
+	[60393] = {
+		name = "航空攻击展示-独立III",
+		base = 60391,
+		id = 60393,
+		weapon_id = {
+			60393
+		},
+		property_rate = {}
+	},
 	[61007] = {
 		name = "0",
 		type = 1,
@@ -50033,6 +50525,82 @@ pg.equip_data_statistics = {
 		},
 		property_rate = {}
 	},
+	[79321] = {
+		name = "专属弹幕-絮库夫I",
+		type = 1,
+		nationality = 0,
+		speciality = "无",
+		range = 0,
+		angle = 0,
+		tech = 1,
+		ambush_extra = 0,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "",
+		avoid_extra = 0,
+		rarity = 1,
+		descrip = "技能弹幕",
+		scatter = "0",
+		ammo = "无",
+		value_3 = 0,
+		id = 79321,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {
+			79321
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {}
+	},
+	[79322] = {
+		name = "专属弹幕-絮库夫II",
+		base = 79321,
+		id = 79322,
+		weapon_id = {
+			79322
+		},
+		property_rate = {}
+	},
+	[79331] = {
+		name = "专属弹幕-凯旋I",
+		type = 1,
+		nationality = 0,
+		speciality = "无",
+		range = 0,
+		angle = 0,
+		tech = 1,
+		ambush_extra = 0,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "",
+		avoid_extra = 0,
+		rarity = 1,
+		descrip = "技能弹幕",
+		scatter = "0",
+		ammo = "无",
+		value_3 = 0,
+		id = 79331,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {
+			60303
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {}
+	},
+	[79332] = {
+		name = "专属弹幕-凯旋II",
+		base = 79321,
+		id = 79332,
+		weapon_id = {
+			60304
+		},
+		property_rate = {}
+	},
 	[79341] = {
 		name = "专属弹幕-大青花鱼I",
 		type = 1,
@@ -50072,7 +50640,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90000] = {
-		name = "130mm单装炮Mle1924",
+		name = "130mm 단장포 Mle 1924 ",
 		type = 1,
 		id = 90000,
 		tech = 1,
@@ -50136,7 +50704,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90020] = {
-		name = "130mm单装炮Mle1924",
+		name = "130mm 단장포 Mle 1924 ",
 		type = 1,
 		id = 90020,
 		tech = 2,
@@ -50201,7 +50769,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90040] = {
-		name = "130mm单装炮Mle1924",
+		name = "130mm 단장포 Mle 1924 ",
 		type = 1,
 		id = 90040,
 		tech = 3,
@@ -50293,7 +50861,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90100] = {
-		name = "138.6mm单装炮Mle1929",
+		name = "138.6mm 단장포 Mle 1929 ",
 		type = 1,
 		id = 90100,
 		tech = 1,
@@ -50385,7 +50953,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90120] = {
-		name = "138.6mm单装炮Mle1929",
+		name = "138.6mm 단장포 Mle 1929 ",
 		type = 1,
 		id = 90120,
 		tech = 2,
@@ -50513,7 +51081,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90140] = {
-		name = "138.6mm单装炮Mle1929",
+		name = "138.6mm 단장포 Mle 1929 ",
 		type = 1,
 		id = 90140,
 		tech = 3,
@@ -50641,12 +51209,12 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90200] = {
-		name = "三联装152mm主炮Mle1930",
+		name = "152mm 3연장포 Mle 1930 ",
 		type = 2,
 		id = 90200,
 		tech = 1,
 		nationality = 8,
-		speciality = "散射",
+		speciality = "확산",
 		range = 65,
 		ambush_extra = 0,
 		value_2 = 0,
@@ -50704,11 +51272,11 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90220] = {
-		name = "三联装152mm主炮Mle1930",
+		name = "152mm 3연장포 Mle 1930 ",
 		type = 2,
 		id = 90220,
 		tech = 2,
-		speciality = "散射",
+		speciality = "확산",
 		range = 65,
 		scatter = "42°",
 		ambush_extra = 0,
@@ -50768,11 +51336,11 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90240] = {
-		name = "三联装152mm主炮Mle1930",
+		name = "152mm 3연장포 Mle 1930 ",
 		type = 2,
 		id = 90240,
 		tech = 3,
-		speciality = "散射",
+		speciality = "확산",
 		range = 65,
 		scatter = "42°",
 		ambush_extra = 0,
@@ -50859,7 +51427,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90300] = {
-		name = "四联装330mm主炮Mle1931",
+		name = "330mm 4연장포 Mle 1931 ",
 		type = 4,
 		id = 90300,
 		tech = 1,
@@ -50922,7 +51490,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90320] = {
-		name = "四联装330mm主炮Mle1931",
+		name = "330mm 4연장포 Mle 1931 ",
 		type = 4,
 		id = 90320,
 		tech = 2,
@@ -51012,7 +51580,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90340] = {
-		name = "四联装330mm主炮Mle1931",
+		name = "330mm 4연장포 Mle 1931 ",
 		type = 4,
 		id = 90340,
 		tech = 3,
@@ -51138,7 +51706,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90400] = {
-		name = "四联装380mm主炮Mle1935",
+		name = "380mm 4연장포 Mle 1935 ",
 		type = 4,
 		id = 90400,
 		tech = 1,
@@ -51228,7 +51796,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90420] = {
-		name = "四联装380mm主炮Mle1935",
+		name = "380mm 4연장포 Mle 1935 ",
 		type = 4,
 		id = 90420,
 		tech = 2,
@@ -51354,7 +51922,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90440] = {
-		name = "四联装380mm主炮Mle1935",
+		name = "380mm 4연장포 Mle 1935 ",
 		type = 4,
 		id = 90440,
 		tech = 3,
@@ -51575,7 +52143,7 @@ pg.equip_data_statistics = {
 		type = 2,
 		id = 594017,
 		tech = 3,
-		speciality = "锁定",
+		speciality = "추적",
 		range = 60,
 		scatter = "42°",
 		ambush_extra = 0,
@@ -52661,6 +53229,28 @@ pg.equip_data_statistics = {
 		5448,
 		5449,
 		5450,
+		5500,
+		5501,
+		5502,
+		5503,
+		5520,
+		5521,
+		5522,
+		5523,
+		5524,
+		5525,
+		5526,
+		5540,
+		5541,
+		5542,
+		5543,
+		5544,
+		5545,
+		5546,
+		5547,
+		5548,
+		5549,
+		5550,
 		6000,
 		6001,
 		6002,
@@ -52754,6 +53344,20 @@ pg.equip_data_statistics = {
 		7308,
 		7309,
 		7310,
+		7320,
+		7321,
+		7322,
+		7323,
+		7324,
+		7325,
+		7326,
+		7340,
+		7341,
+		7342,
+		7343,
+		7344,
+		7345,
+		7346,
 		11000,
 		11001,
 		11002,
@@ -55527,6 +56131,9 @@ pg.equip_data_statistics = {
 		60381,
 		60382,
 		60383,
+		60391,
+		60392,
+		60393,
 		61007,
 		61008,
 		61009,
@@ -55757,6 +56364,10 @@ pg.equip_data_statistics = {
 		79302,
 		79311,
 		79312,
+		79321,
+		79322,
+		79331,
+		79332,
 		79341,
 		79342,
 		90000,

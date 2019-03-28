@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"絮库夫的一天\n\n<size=30>六 午后的絮库夫·下</size>",
+					"쥬르네 쉬르쿠프\n\n<size=30>쉬르쿠프의 오후 - 하</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "港区·指挥室",
+			say = "모항 - 집무실",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -51,7 +51,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "喂，醒一醒……啧，我让你醒一醒！",
+			say = "이봐, 일어나라! ……일어나라고!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "有什么东西打到了脸上，醒了过来。",
+			say = "얼굴에 뭔가 부딪혀서 잠이 깬다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "让巴尔？手里拿着的是…报告书？",
+			say = "장 바르? 손에 들고 있는 건…… 보고서 뭉치?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			dir = 1,
 			actor = 905011,
 			nameColor = "#a9f548",
-			say = "午休时间都结束半小时了，你这家伙还真是悠哉啊。",
+			say = "점심시간에서 30분이나 지났다. 꽤나 한가하구나, 네놈은.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,7 +98,7 @@ return {
 			},
 			options = {
 				{
-					content = "……絮库夫明明说会喊我起床的",
+					content = "……쉬르쿠프, 깨워주지 않았군",
 					flag = 1
 				}
 			}
@@ -109,7 +109,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "絮库夫？你是说趴在那儿睡觉的家伙？",
+			say = "쉬르쿠프? 거기서 자고 있는 녀석 말인가?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "顺着让·巴尔示意的方向看去，沙发上，絮库夫正香甜地睡着。",
+			say = "장 바르의 시선을 따라가 보니, 거기에는 소파에서 깊게 잠든 쉬르쿠프의 모습이 있었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "……不该相信她的话的。",
+			say = "……역시 믿으면 안되겠군.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			dir = 1,
 			actor = 905011,
 			nameColor = "#a9f548",
-			say = "哼，要我说就不该让这种懒散的家伙担任秘书舰",
+			say = "내가 한마디 하자면, 이 녀석을 비서함으로 두는 게 애초에 잘못이었단 거다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			},
 			options = {
 				{
-					content = "讨厌絮库夫吗？",
+					content = "쉬르쿠프가 싫어?",
 					flag = 1
 				}
 			}
@@ -167,7 +167,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "讨厌倒是不至于，毕竟现在也在同一支舰队。",
+			say = "싫지는 않다. 같은 비시아 소속의 동료다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "只是看不惯她的某些个性而已",
+			say = "간단히 말하면 나와 여러모로 정반대니까, 그런 점은 마음에 들지 않는다는 거다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "明明和我一样继承了海盗的名字，结果却是个和我完全相反的家伙…",
+			say = "이름 높은 해적에게 함명을 받았는데도 패기라곤 찾아볼 수 없다. 불성실한 것도 정도가 있지.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,7 +215,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼！",
+			say = "흥！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "而且，看她这样子，真的能帮上忙吗",
+			say = "게다가 말이다. 이 꼴로 정말 비서함을 맡을 수 있는 거냐.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +246,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "你这样和在指挥室养了一只巨大的猫咪有什么区别？",
+			say = "그렇군…… 비서함이라기보다는 집무실을 단골처럼 드나들 뿐인 애완동물이지 않은가, 이 녀석.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +257,7 @@ return {
 			},
 			options = {
 				{
-					content = "指一指旁边的公文山",
+					content = "책상에 산 처럼 쌓여있는 결재 완료 문서를 가리킨다",
 					flag = 1
 				}
 			}
@@ -267,7 +267,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "这些是…今天的工作成果吗？相当多啊…",
+			say = "이건…… 보는 것만으로도 정신이 아득해지는 것 같네……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,7 +282,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "什么？…你一个人做完的？",
+			say = "뭐? ……네놈 혼자서 한 건가?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,7 +297,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "哼，所以你是想说只需要这家伙在你身边，不需要她为你多做些什么吗？",
+			say = "요컨대, 이 녀석의 도움이 없어도 업무를 처리하는 건 문제 없다, 도움 따위는 기대하지 않는다, 그런 건가.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +308,7 @@ return {
 			},
 			options = {
 				{
-					content = "点头",
+					content = "끄덕인다",
 					flag = 1
 				}
 			}
@@ -318,7 +318,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "哼，随你喜欢吧",
+			say = "흥, 마음대로 해라.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -333,7 +333,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "嗯……指挥官……嘿嘿……",
+			say = "쿠울…… 지휘관…… 헤헤……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -348,7 +348,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "…看起来，你们还真是绝配。",
+			say = "…유유상종이군.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -363,7 +363,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "那就不打扰了，还有，姑且给你个建议…先去洗把脸吧。",
+			say = "마지막으로 한 가지 충고해 두지. ……외출하기 전에 얼굴을 씻는 게 좋을 거다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -377,7 +377,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "让·巴尔说完就离开了。",
+			say = "장 바르는 집무실에서 나갔다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -387,14 +387,14 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "不过脸上有什么吗？",
+			say = "……얼굴?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "掏出镜子",
+					content = "거울로 확인한다",
 					flag = 1
 				}
 			}
@@ -404,7 +404,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "……是吻痕。",
+			say = "……키스마크인가.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -10,7 +10,7 @@ return {
 		{
 			actor = 905011,
 			side = 1,
-			say = "终于来到这里了吗，侵略者们",
+			say = "잘도 여기까지 왔군! 침략자 놈들!",
 			dir = 1,
 			bgm = "story-french1",
 			typewriter = {
@@ -26,7 +26,7 @@ return {
 			actor = 102091,
 			side = 0,
 			dir = -1,
-			say = "我们只是为了夺回被赤色中轴所占领的陆间海而经过此地而已，根本没必要炮火相向啊！",
+			say = "레드 액시스에 빼앗긴 해역을 되찾으러 온 것 뿐이다! 우리가 싸울 필요는 없잖아!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -40,7 +40,7 @@ return {
 			actor = 905011,
 			side = 1,
 			dir = 1,
-			say = "我们不会再被你们虚伪的同盟欺骗了，祖国的领土，我们将会拼死守护",
+			say = "너희 동맹에겐 두 번 다시 속지 않는다! 조국은 우리가 지킨다!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,7 +54,7 @@ return {
 			actor = 102091,
 			side = 0,
 			dir = -1,
-			say = "所以说了，根本没有人想要抢占你们的领土呀！！",
+			say = "그~러~니~까~! 아무도 너네 영토를 점령한다는 말은 안 했잖아!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			actor = 105191,
 			side = 0,
 			dir = 1,
-			say = "省省吧，跟这群死板的圣骑士们说道理是说不通的",
+			say = "그만해. 말이 통하는 상대가 아냐. 얘네는.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,7 +82,7 @@ return {
 			actor = 905011,
 			side = 1,
 			dir = 1,
-			say = "哼，那边的战舰，是南达科他级吗，听说是大洋彼岸最强的战列舰？",
+			say = "너는… 사우스다코타급인가. 대양 너머의 최강전함이라고 들은 적이 있지.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +96,7 @@ return {
 			actor = 105191,
 			side = 0,
 			dir = 1,
-			say = "白鹰第34.1特混舰队旗舰，南达科他级三号舰——马萨诸塞",
+			say = "태스크포스 34, 사우스다코타급 3번함, 매사추세츠.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			actor = 105191,
 			side = 0,
 			dir = 1,
-			say = "能被对手认出算是军舰的荣幸，但是很可惜的我还是得将你击沉",
+			say = "이름이 알려진 건 군함으로서 기쁘지만, 뭐, 침몰시킬게.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			actor = 105191,
 			side = 0,
 			dir = 1,
-			say = "登陆部队的那些孩子…都是因为你…",
+			say = "할 일도 있고 하니. 상륙하는 애들 호위해야 돼.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			actor = 905011,
 			side = 1,
 			dir = 1,
-			say = "那些不过是一群没有信仰也贪图神恩的蝼蚁罢了",
+			say = "신앙도 신념도 없이 침략해오는 조무래기들이다. 혼쭐내주는 게 뭐가 나쁘단 거지?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			actor = 105191,
 			side = 0,
 			dir = 1,
-			say = "蝼蚁？信仰？（生气）绝对的火力和绝对的正义就是我的信仰，而我，会用我的信仰将你彻底击碎！",
+			say = "조무래기…? 조무래기라 미안하네, 엄청. 그럼 이 내가…… 널, 갈기갈기 찢어주겠어",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			actor = 905011,
 			side = 1,
 			dir = 1,
-			say = "真是神赐的良机，只要战胜了所谓的世界第一，我就可以追上…",
+			say = "흥, 좋은 기회다. 세계 최강이라 불리는 널 쓰러트리면, 난 리슐리외 언니를……!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +180,7 @@ return {
 			actor = 905011,
 			side = 1,
 			dir = 1,
-			say = "哼，维希教廷，黎塞留级战列舰二号舰——让·巴尔号，迎敌！",
+			say = "와라! 리슐리외급 전함 2번함 장 바르가 전력을 다해 상대해주마!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,8 +195,8 @@ return {
 			side = 0,
 			dir = 1,
 			bgm = "story-masazhusai",
-			actorName = "马萨诸塞&让巴尔",
-			say = "<size=44>放马过来吧，大洋彼岸“最强”的战列舰！！</size>",
+			actorName = "매사추세츠&장 바르",
+			say = "<size=40>대양 너머의 '최강전함'! 정정당당히 승부다!!</size>",
 			subActors = {
 				{
 					actor = 905011,

@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"骑士公主的忧郁\n\n<size=30>六 “对立”的姐妹</size>",
+					"빛나는 아이리스\n\n<size=30>'대립'의 자매</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "港区·指挥室",
+			say = "모항 - 집무실",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -54,7 +54,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = -1,
-			say = "指挥官，我来给你送之前说过的资料了",
+			say = "지휘관님, 요전의 자료를 전달 드리러 왔습니다!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = -1,
-			say = "嗯？是凯旋小姐啊，秘书舰的工作，辛苦啦",
+			say = "어머? 트리옹팡 씨? 비서함 업무 수고 많으십니다!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "嗯哼，没什么大不了的～",
+			say = "후후, 별거 아니에요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,7 +98,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "正好，问问福尔班和勒马尔的情况吧",
+			say = "마침 잘 됐다, 트리옹팡의 고민 해결을 위해, 포르뱅과 르 마르스의 관계에 대해 물어보자……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = -1,
-			say = "勒马尔…吗？",
+			say = "르 마르스와의 관계……?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			}
 		},
 		{
-			say = "诶，指、指挥官？",
+			say = "지, 지휘관님??",
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -139,7 +139,7 @@ return {
 			},
 			options = {
 				{
-					content = "说明情况",
+					content = "포르뱅에게 상황을 설명한다.",
 					flag = 1
 				}
 			}
@@ -149,7 +149,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = -1,
-			say = "…原来如此，没想到一直看起来充满自信的凯旋小姐还有这种烦恼呢",
+			say = "…그렇군요. 르 트리옹팡 씨가 그런 고민을 갖고 있었을 줄은……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = -1,
-			say = "要我说…凯旋小姐，你是不是想太多了？",
+			say = "뭐라 해야 할지… 트리옹팡 씨는 걱정이 조금 지나친 것 같네요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,7 +179,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "哎？",
+			say = "네…?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			bgName = "bg_story_task",
 			dir = -1,
 			actor = 901011,
-			say = "指挥官，福尔班说你找我们？哎？凯旋小姐也在呀，呀吼～",
+			say = "포르뱅이 불렀다기에 왔습니다! 응? 트리옹팡 씨도?",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -226,7 +226,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "贵、贵安，勒马尔",
+			say = "르 마르스 씨, 평안하신지요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "凯旋小姐正为了身处不同阵营的姐妹这件事而烦恼呢",
+			say = "그러니까, 자매함이 다른 진영에 소속되어 있어서 고민이다, 라고 지휘관님께서 상담해오셨어요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +256,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = -1,
-			say = "啊…原来如此。这种时候只要打一架就好啦～",
+			say = "그렇군요… 한바탕 싸움이라도 하고 나면 사이 좋아질 거에요!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,7 +271,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "哎？打、打一架?",
+			say = "싸, 싸움 말씀이세요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "对勒马尔这种笨蛋运动系，只能用这种方法啦",
+			say = "르 마르스 같은 근육뇌한테는 이런 방법밖에 없네요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,7 +301,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "实际上我们对打过好多次了呢，当然用的是练习用武器",
+			say = "실제로 몇 번 대련도 했다구요, 연습용 장비로.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -316,7 +316,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = -1,
-			say = "与其大家憋在心里闷得慌，不如敞开来把话说清楚，说不清楚的时候，就用身体来表达吧！",
+			say = "어쨌든, 상대에게 마음으로 직접 부딪치면 되는 거예요! 말로 전할 수 있는 건 말로! 말로 표현할 수 없는 건 주먹으로!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -331,7 +331,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "所以说笨蛋运动系…",
+			say = "하아… 이래서 근육뇌는……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -346,7 +346,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = -1,
-			say = "谁、谁是笨蛋了啦",
+			say = "정말, 누가 근육뇌에요!?",
 			action = {
 				{
 					y = 15,
@@ -369,7 +369,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "关、关系真好呀…我和姐姐大人们也能恢复到像这样的关系吗…",
+			say = "어, 어머나, 사이가 참 좋으시네요… 저도 언니들과 이렇게 지낼 수 있을까요…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -384,7 +384,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = -1,
-			say = "有话想说就要说出来，有气要宣泄就该释放出来",
+			say = "글쎄요. 보장은 할 수 없지만, 하고 싶은 말이 있으면 혼자 담아 두는 것보다 한 번 물어보는 게 좋을지도 모르겠네요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -399,7 +399,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = -1,
-			say = "毕竟是姐妹，哪有什么解决不了的隔阂，聪明如凯旋小姐怎么会想不通呢～？",
+			say = "자매함이니까, 말해보면 금방 통할 거에요. 트리옹팡 씨도 사실은 이미 알고 계신 거 아니신지?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -414,7 +414,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "毕竟是姐妹啊…",
+			say = "자매함……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -429,7 +429,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "福尔班、勒马尔，谢谢你们，我好像有些明白了",
+			say = "포르뱅 씨, 르 마르스 씨, 감사합니다. 저, 조금은 알 것 같아요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -444,7 +444,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "凯旋的心结似乎解开了一些",
+			say = "트리옹팡의 고민이 조금은 해결된 느낌이다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -290,10 +290,10 @@ return {
 		}
 	},
 	time = 0,
-	name = "弹幕子弹威力上升",
+	name = "战意提升",
 	init_effect = "",
 	picture = "",
-	desc = "使非装备武器发射的子弹威力上升",
+	desc = "使非装备武器发射的子弹（全弹发射）威力上升",
 	stack = 4,
 	id = 11971,
 	icon = 11970,

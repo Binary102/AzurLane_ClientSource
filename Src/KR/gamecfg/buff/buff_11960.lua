@@ -10,7 +10,7 @@ return {
 	{},
 	{},
 	time = 0,
-	name = "发射鱼雷触发额外弹幕",
+	name = "峡湾之星",
 	init_effect = "",
 	id = 11960,
 	picture = "",

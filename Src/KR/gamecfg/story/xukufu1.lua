@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"絮库夫的一天\n\n<size=30>一 清晨的絮库夫</size>",
+					"쥬르네 쉬르쿠프\n\n<size=30>쉬르쿠프의 아침</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			bgm = "story-1",
-			say = "港区·卧室",
+			say = "모항 - 개인실",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -49,7 +49,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "朦胧之中，感觉鼻子痒痒的…",
+			say = "왠지 코가 근질거리는 느낌이……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "嘿嘿…我挠我挠…这样总该醒了吧",
+			say = "헤헤헤… 간질간질간질간질… 이러면 일어날려나…?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "忍不住打了一个大喷嚏，顿时睡意全消…",
+			say = "……엣취! ……큰 재채기로 완전히 잠이 깨버렸다.",
 			flashN = {
 				color = {
 					1,
@@ -117,7 +117,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "眼前是拿着不知哪里找来的麦秆的絮库夫。",
+			say = "강아지풀을 한 손에 들고 있는 쉬르쿠프가 바싹 다가와 있다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,23 +129,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "早上好呀，指挥官，作为秘书舰，我来喊你起床上班啦~",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 808011,
-			side = 2,
-			bgName = "bg_story_room",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "对了，指挥官，我跟你说，我昨晚梦到你了哦。",
+			say = "Bonne journée! 좋은 아침, 지휘관! 비서함으로서 이 쉬르쿠프가 깨워주러 왔어!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +145,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "梦里我正在免费吃大餐，结果还没吃饱，指挥官你就来喊我去工作，然后我就醒了……",
+			say = "그러고 보니 지휘관, 실은 어제 꿈에 지휘관이 나왔어~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +161,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好可惜，我明明想吃龙虾的！",
+			say = "그게 말이지, 꿈속에서 슈퍼 사이즈 프렌치 디너를 먹었어! 게다가 무료! 근데 배부르게 먹지도 못했는데 '일해~!' 하면서 지휘관이 부르는 바람에 잠이 깼어……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +177,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官呢，有没有梦到我呀？",
+			say = "그 슈퍼 사이즈 새우, 먹고 싶었는데~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +193,23 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯你不用回答，我知道的，一定梦到了对吧~",
+			say = "그래서 지휘관은? 쉬르쿠프 꿈에서 봤어?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 808011,
+			side = 2,
+			bgName = "bg_story_room",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "응응, 대답하지 않아도 알아~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			dir = 1,
 			actor = 808011,
 			nameColor = "#a9f548",
-			say = "那指挥官梦到和我干什么了呀？",
+			say = "그래서, 꿈속에서 난 뭐 하고 있었어?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -236,7 +236,7 @@ return {
 			},
 			options = {
 				{
-					content = "去洗漱",
+					content = "아침 준비를 한다",
 					flag = 1
 				}
 			}
@@ -247,7 +247,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官你不要不理我嘛，真是的，梦到我又不是什么害羞的事~",
+			say = "정말~ 무시하지 말라고~ 딱히 꿈에서 나를 본 게 그렇게 부끄러운 것도 아닌데~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,7 +261,7 @@ return {
 			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
-			say = "几分钟后…",
+			say = "몇 분 후",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -289,7 +289,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "呼……",
+			say = "쿠울……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -304,7 +304,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "指挥官，不要脸……",
+			say = "지휘관, 변태애……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -319,7 +319,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			blackBg = true,
-			say = "在别人的床上迷糊地说着梦话的秘书舰…",
+			say = "남의 침대에서 뭘 잠꼬대까지 하면서 성대하게 자고 있냐, 이 녀석……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

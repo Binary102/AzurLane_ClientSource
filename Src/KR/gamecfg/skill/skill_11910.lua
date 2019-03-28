@@ -1,9 +1,9 @@
 return {
 	uiEffect = "",
-	name = "独立技能1",
+	name = "鹰击长空",
 	cd = 0,
 	picture = "0",
-	desc = "独立技能1",
+	desc = "鹰击长空",
 	painting = 1,
 	id = 11910,
 	castCV = "skill",

@@ -2329,6 +2329,148 @@ pg.expedition_data_by_map = {
 			}
 		}
 	},
+	[1140001] = {
+		map = 1140001,
+		name = "빛과 그림자의 아이리스-전편|| ||CHAPTER EX||E.X.",
+		bgm = "level03",
+		type = 4,
+		on_activity = 20152,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "FAXI01",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "map_1140001",
+		cloud_suffix = "",
+		bg = "Map_1140001",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1140011,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1140002] = {
+		map = 1140002,
+		name = "빛과 그림자의 아이리스-후편|| ||CHAPTER EX||E.X.",
+		bgm = "Level-french2",
+		type = 4,
+		on_activity = 20153,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "FAXI05",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "map_1140002",
+		cloud_suffix = "",
+		bg = "Map_1140002",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1140012,
+		clouds_pos = {}
+	},
+	[1140011] = {
+		map = 1140011,
+		name = "빛과 그림자의 아이리스-전편|| ||CHAPTER EX||E.X.",
+		bgm = "level03",
+		type = 5,
+		on_activity = 20152,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "FAXI01",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "map_1140002",
+		cloud_suffix = "",
+		bg = "Map_1140002",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1140001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1140012] = {
+		map = 1140012,
+		name = "빛과 그림자의 아이리스-후편|| ||CHAPTER EX||E.X.",
+		bgm = "Level-french2",
+		type = 5,
+		on_activity = 20153,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "FAXI05",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "map_1140003",
+		cloud_suffix = "",
+		bg = "Map_1140003",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1140002,
+		clouds_pos = {}
+	},
+	[1140021] = {
+		map = 1140021,
+		name = "빛과 그림자의 아이리스-EX|| ||CHAPTER EX||E.X. ",
+		bgm = "Level-french2",
+		type = 8,
+		on_activity = 20153,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "map_1140003",
+		cloud_suffix = "",
+		bg = "Map_1140003",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1140012,
+		clouds_pos = {}
+	},
 	[1150001] = {
 		map = 1150001,
 		name = "어둠에 떨어진 푸른 날개 - 전편|| ||EX CHAPTER||E.X.",
@@ -2955,6 +3097,11 @@ pg.expedition_data_by_map = {
 		1120012,
 		1120021,
 		1130000,
+		1140001,
+		1140002,
+		1140011,
+		1140012,
+		1140021,
 		1150001,
 		1150002,
 		1150011,

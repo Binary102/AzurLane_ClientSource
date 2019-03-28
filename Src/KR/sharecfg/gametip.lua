@@ -3913,6 +3913,10 @@ pg.gametip = {
 		tip = "FFNF",
 		key = "word_shipNation_ziyou"
 	},
+	word_shipNation_weixi = {
+		tip = "MNF",
+		key = "word_shipNation_weixi"
+	},
 	word_shipNation_um = {
 		tip = "칭송받는 자",
 		key = "word_shipNation_um"
@@ -4846,8 +4850,11 @@ pg.gametip = {
 									Normal：$5%
 
 									【한정건조】
-							<color=#fff157>샹그릴라</color>：2.0%<color=#A9F548>(up!)</color>
-							<color=#fff157>에식스</color>：1.8%<color=#A9F548>(up!)</color></size>]],
+							<color=#fff157>장 바르</color>：2.0%<color=#A9F548>(up!)</color>
+							<color=#fff157>매사추세츠</color>：2.0%<color=#A9F548>(up!)</color>
+							<color=#966af6>됭케르크</color>：2.5%<color=#A9F548>(up!)</color>
+							<color=#966af6>쉬르쿠프</color>：2.5%<color=#A9F548>(up!)</color>
+							<color=#60a9ff>포르뱅</color>：5.0%<color=#A9F548>(up!)</color></size>]],
 		key = "help_build_4"
 	},
 	help_build_5 = {
@@ -7578,6 +7585,62 @@ pg.gametip = {
 			}
 		}
 	},
+	anniversary_task_title_1 = {
+		tip = "그것은 이형의 외적을 베는 검, 인류 최후의 수호자.",
+		key = "anniversary_task_title_1"
+	},
+	anniversary_task_title_2 = {
+		tip = "함께 나아가는 것은 파도를 가르는 강철의 날개, 마음을 이어주는 역사의 매듭.",
+		key = "anniversary_task_title_2"
+	},
+	anniversary_task_title_3 = {
+		tip = "과학의 세기의 종언에 싹 튼 혁명의 종자는 반격의 깃발을 휘날리며,",
+		key = "anniversary_task_title_3"
+	},
+	anniversary_task_title_4 = {
+		tip = "흔들리지 않는 신념을 품은 무위는 수평선을 가로막는 시련을 극복한다.",
+		key = "anniversary_task_title_4"
+	},
+	anniversary_task_title_5 = {
+		tip = "이를테면 충의. 여왕 폐하를 섬기는 영광스러운 자는 자연의 은혜를 받는다.",
+		key = "anniversary_task_title_5"
+	},
+	anniversary_task_title_6 = {
+		tip = "이를테면 용기. 자유를 믿는 자는 기계장치의 신의 예관을 받을 운명.",
+		key = "anniversary_task_title_6"
+	},
+	anniversary_task_title_7 = {
+		tip = "이를테면 결속. 인연을 잇는 자는 자신의 심상을 형이상적으로 승화시킨다.",
+		key = "anniversary_task_title_7"
+	},
+	anniversary_task_title_8 = {
+		tip = "이를테면 변증. 거짓된 영겁을 그리워하는 자야말로 진정한 초인에 이를 것이다.",
+		key = "anniversary_task_title_8"
+	},
+	anniversary_task_title_9 = {
+		tip = "이를테면 정열. 꺾이지 않는 자가 정복하는 우리 길의 종착지에 승리의 경색을.",
+		key = "anniversary_task_title_9"
+	},
+	anniversary_task_title_10 = {
+		tip = "이를테면 경건. 빛나는 이야기의 결말을 꿈꾸는 자에게 작자의 가호 있으라.",
+		key = "anniversary_task_title_10"
+	},
+	anniversary_task_title_11 = {
+		tip = "강철의 기억을 용골로, 사람들의 소망으로 형태가 부여된 자,",
+		key = "anniversary_task_title_11"
+	},
+	anniversary_task_title_12 = {
+		tip = "다시 태어난 '함선'…… 우리들의 노랫소리로 그 존재의 닻을 내리자.",
+		key = "anniversary_task_title_12"
+	},
+	anniversary_task_title_13 = {
+		tip = "당신은, 인류의 문명을 지키기 위해 만들어진 불과 쇠의 방주.",
+		key = "anniversary_task_title_13"
+	},
+	anniversary_task_title_14 = {
+		tip = "당신은, 지배되지 않는 자아를 가진 '인간'이란 존재에 걸맞는 자……",
+		key = "anniversary_task_title_14"
+	},
 	help_sos = {
 		key = "help_sos",
 		tip = {
@@ -8130,7 +8193,7 @@ pg.gametip = {
 		key = "ship_equip_same_group_equipment"
 	},
 	summary_page_un_rearch = {
-		tip = "아직 입수하지 못했습니다",
+		tip = "미획득",
 		key = "summary_page_un_rearch"
 	},
 	commander_exp_overflow_tip = {
@@ -9175,6 +9238,14 @@ P.S. 아군의 대공은 효율적으로 적의 제공수치를 낮춘다!
 대공수치에 의해 결정된다]]
 			}
 		}
+	},
+	refuse_friend = {
+		tip = "거절하시겠습니까?",
+		key = "refuse_friend"
+	},
+	refuse_and_add_into_bl = {
+		tip = "거절 및 차단했습니다.",
+		key = "refuse_and_add_into_bl"
 	}
 }
 

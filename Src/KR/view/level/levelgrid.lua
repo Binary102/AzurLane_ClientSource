@@ -1995,7 +1995,7 @@ function slot2(slot0)
 		slot0.cellFleets = slot2
 	end
 
-	slot1 = ipairs
+	slot1 = pairs
 	slot2 = slot0.opBtns
 	slot1, slot2, slot3 = slot1(slot2)
 

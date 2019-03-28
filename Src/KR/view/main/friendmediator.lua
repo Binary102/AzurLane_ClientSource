@@ -50,8 +50,12 @@ function slot0.register(slot0)
 	slot0:bind(slot0.REFUSE_ALL_REQUEST, function (slot0)
 		slot0:sendNotification(GAME.FRIEND_REJECT_REQUEST, 0)
 	end)
-	slot0:bind(slot0.REFUSE_REQUEST, function (slot0, slot1)
-		slot0:sendNotification(GAME.FRIEND_REJECT_REQUEST, slot1)
+	slot0:bind(slot0.REFUSE_REQUEST, function (slot0, slot1, slot2)
+		slot0:sendNotification(GAME.FRIEND_REJECT_REQUEST, slot1.id)
+
+		if slot2 then
+			slot0:sendNotification(GAME.FRIEND_ADD_BLACKLIST, slot1)
+		end
 	end)
 	slot0:bind(slot0.DELETE_FRIEND, function (slot0, slot1)
 		slot0:sendNotification(GAME.FRIEND_DELETE, slot1)
@@ -100,7 +104,8 @@ function slot0.listNotificationInterests(slot0)
 		GAME.VISIT_BACKYARD_DONE,
 		GAME.FRIEND_RELIEVE_BLACKLIST_DONE,
 		FriendProxy.RELIEVE_BLACKLIST,
-		FriendProxy.BLACK_LIST_UPDATED
+		FriendProxy.BLACK_LIST_UPDATED,
+		FriendProxy.ADD_INTO_BLACKLIST
 	}
 end
 
@@ -150,6 +155,9 @@ function slot0.handleNotification(slot0, slot1)
 		slot0.viewComponent:deleteBlackVO(slot3)
 	elseif slot2 == FriendProxy.BLACK_LIST_UPDATED then
 		slot0.viewComponent:setBlackList(slot3)
+		slot0.viewComponent:sortBlackList()
+	elseif slot2 == FriendProxy.ADD_INTO_BLACKLIST then
+		slot0.viewComponent:setBlackList(getProxy(FriendProxy).getBlackList(slot4))
 		slot0.viewComponent:sortBlackList()
 	end
 end

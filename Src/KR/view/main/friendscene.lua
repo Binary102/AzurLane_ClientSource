@@ -1,15 +1,74 @@
 slot0 = class("FriendScene", import("..base.BaseUI"))
 
+function slot1(slot0)
+	function (slot0)
+		slot0.context = slot0._tf:Find("window/frame/Text"):GetComponent(typeof(Text))
+		slot0.remind = slot0._tf:Find("window/remind")
+		slot0.confirmBtn = slot0._tf:Find("window/confirm_btn")
+		slot0.cancelBtn = slot0._tf:Find("window/cancel_btn")
+		slot0.closeBtn = slot0._tf:Find("top/btnBack")
+		slot0.checkLabel = slot0.remind:Find("Label"):GetComponent(typeof(Text))
+
+		onButton(nil, slot0.cancelBtn, function ()
+			slot0:Hide()
+		end, SFX_PANEL)
+		onButton(nil, slot0._tf, function ()
+			slot0:Hide()
+		end, SFX_PANEL)
+		onButton(nil, slot0.closeBtn, function ()
+			slot0:Hide()
+		end, SFX_PANEL)
+
+		slot0.isOn = false
+
+		onToggle(nil, slot0.remind, function (slot0)
+			slot0.isOn = slot0
+		end, SFX_PANEL)
+		onButton(nil, slot0.confirmBtn, function ()
+			if slot0.func then
+				slot0.func(slot0.isOn)
+			end
+
+			slot0:Hide()
+		end, SFX_PANEL)
+	end({
+		_tf = slot0,
+		Show = function (slot0, slot1, slot2, slot3)
+			slot0.func = slot3
+			slot0.context.text = slot1
+
+			triggerToggle(slot0.remind, false)
+			setActive(slot0._tf, true)
+
+			slot0.checkLabel.text = slot2
+		end,
+		Hide = function (slot0)
+			setActive(slot0._tf, false)
+
+			slot0.func = nil
+			slot0.context.text = ""
+			slot0.checkLabel.text = ""
+		end,
+		Dispose = function (slot0)
+			slot0:Hide()
+			removeOnButton(slot0._tf)
+			removeOnButton(slot0.cancelBtn)
+		end
+	})
+
+	return 
+end
+
 function slot0.getUIName(slot0)
 	return "FriendUI"
 end
 
-slot1 = 1
-slot2 = 2
-slot3 = 3
-slot4 = 4
-slot5 = 10
-slot6 = {
+slot2 = 1
+slot3 = 2
+slot4 = 3
+slot5 = 4
+slot6 = 10
+slot7 = {
 	i18n("friend_info_page_tip"),
 	i18n("friend_search_page_tip", 30),
 	i18n("friend_request_page_tip", 30),
@@ -254,9 +313,9 @@ function slot0.updateFriendCount(slot0)
 	setText(slot0.friendCountTF, #slot0.friendVOs .. "/" .. MAX_FRIEND_COUNT)
 end
 
-slot7 = 1
-slot8 = 2
-slot9 = 3
+slot8 = 1
+slot9 = 2
+slot10 = 3
 
 function slot0.createFriendItem(slot0, slot1, slot2)
 	function slot4(slot0)
@@ -517,7 +576,13 @@ function slot0.onInitRequest(slot0, slot1)
 	end, SFX_PANEL)
 	onButton(slot0, slot2.refuseBtn, function ()
 		if slot0.friendVO then
-			slot1:emit(FriendMediator.REFUSE_REQUEST, slot0.friendVO.id)
+			if not slot1.refuseMsgBox then
+				slot1.refuseMsgBox = slot2(slot1:findTF("request_refuse_panel"))
+			end
+
+			slot1.refuseMsgBox:Show(i18n("refuse_friend"), i18n("refuse_and_add_into_bl"), function (slot0)
+				slot0:emit(FriendMediator.REFUSE_REQUEST, slot1.friendVO, slot0)
+			end)
 		end
 	end)
 
@@ -627,6 +692,20 @@ function slot0.deleteBlackVO(slot0, slot1)
 	slot0:sortBlackList()
 end
 
+function slot0.addIntoBlackList(slot0, slot1)
+	if not slot0.blackVOs then
+		slot0.blackVOs = {}
+	end
+
+	if _.any(slot0.blackVOs, function (slot0)
+		return slot0.id == slot0.id
+	end) then
+		return
+	end
+
+	table.insert(slot0.blackVOs, slot1)
+end
+
 function slot0.sortBlackList(slot0)
 	if not slot0.isInitBlackList then
 		return
@@ -655,6 +734,10 @@ function slot0.willExit(slot0)
 	setActive(slot0.addPanel, true)
 	setActive(slot0.requestPanel, true)
 	setActive(slot0.friendPanel, true)
+
+	if slot0.refuseMsgBox then
+		slot0.refuseMsgBox:Dispose()
+	end
 end
 
 return slot0

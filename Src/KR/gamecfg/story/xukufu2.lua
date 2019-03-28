@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"絮库夫的一天\n\n<size=30>二 上午的絮库夫</size>",
+					"쥬르네 쉬르쿠프\n\n<size=30>오전 중의 쉬르쿠프</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "港区·指挥室",
+			say = "모항 집무실",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -51,7 +51,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯……唔……这里是……哪里？",
+			say = "응…… 어라…… 여기…… 어디?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这里是……指挥室？",
+			say = "집무실……?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			dir = 1,
 			actor = 808011,
 			nameColor = "#a9f548",
-			say = "原来早上去叫指挥官起床是做梦吗，那我再睡会儿好了……",
+			say = "어라? 나 지휘관을 깨우러 갔을 텐데…… 역시 이건 꿈이구나~ ……좋아, 다시 자야지~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			},
 			options = {
 				{
-					content = "把她叫醒",
+					content = "쉬르쿠프를 일으킨다.",
 					flag = 1
 				}
 			}
@@ -103,7 +103,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "结果花了十分钟才让絮库夫彻底清醒过来。",
+			say = "온갖 방법을 동원해서, 간신히 쉬르쿠프를 깨우는 데 성공했다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "所以是指挥官把我从卧室抱过来的吗？",
+			say = "그러니까 지휘관은, 나를 집무실까지 안아서 옮겼다는 말이야?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "欸嘿嘿，那样的话，指挥官也不算吃亏吧~",
+			say = "에헤헤, 그러며언, 지휘관은 이것저것 이득이었겠네?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "感觉反而是我吃亏了呢，因为我完全不记得被指挥官抱着是什么样的感觉了。",
+			say = "오히려 난 손해잖아. 왜냐면 지휘관한테 안겨있을 때 어떤 느낌이었는지 기억이 안 나는걸.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，我要公主抱，现在，马上~",
+			say = "그러니까 지휘관, 공주님 안기! 원 모어 찬스!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,14 +177,14 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "絮库夫说完就高举双手一副等着人去抱她的样子。",
+			say = "쉬르쿠프가 안아달라고 어필했다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "敲她的头",
+					content = "일단 따끔하게 한 방",
 					flag = 1
 				}
 			}
@@ -195,7 +195,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好疼！指挥官你也不用真的敲嘛……",
+			say = "아얏! 설마 진짜로 때릴 줄은……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,7 +210,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "啊，不过，指挥官抱着我走过来，肯定被其他姐妹看到了吧，有没有被当作变态呀？",
+			say = "아! 그러고 보니 지휘관, 나 여기로 옮길 때에 다른 아이가 보거나 변태 취급하지는 않았어?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "抱着沉睡的秘书舰从卧室走出来的指挥官，啊，他究竟对柔弱的秘书舰做出了怎样不可告人的事……",
+			say = "잠든 비서함을 끌어안고 개인실에서 나오는 지휘관이 있다니… 아아~, 연약한 여자아이에게 어쩜 그렇게 심한 짓을……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "这背后有着怎样惊人的阴谋，可怜的絮库夫又将何去何从……",
+			say = "불쌍한 쉬르쿠프, 과연 시집을 갈 수 있을 것인가……!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,7 +251,7 @@ return {
 			},
 			options = {
 				{
-					content = "说出实情",
+					content = "사실은……",
 					flag = 1
 				}
 			}
@@ -261,7 +261,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "欸，同情和温暖的目光比较多？",
+			say = "어라? 따뜻한 동정의 눈길이 더 많았다고…?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -276,7 +276,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "唔，毕竟也不是第一次了呢，嗯……嗯？",
+			say = "윽, 분명 처음은 아닐지도…… 어, 어라?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,7 +291,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "我难道被大家当做麻烦的孩子了吗？！",
+			say = "나, 모두에게 귀찮은 애 취급받고 있는 거야~!?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -305,7 +305,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "絮库夫一脸发现了难以相信的事实的表情。",
+			say = "놀람을 감추지 못하는 쉬르쿠프였다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -325,7 +325,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "工作时间到了",
+			say = "다시 일할 시간이다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -337,7 +337,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "唔，不管了，总而言之，絮库夫现在精力充沛，开工！",
+			say = "으으…… 생각해봐도 어쩔 수 없어! 어쨌든 쉬르쿠프는 지금 완전히 업무 모드! 자, 일하자!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

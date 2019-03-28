@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"自由的天使\n\n<size=30>二 黄金的友谊？</size>",
+					"무희 천사 에밀\n\n<size=30>황금의 우정?</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "港区·指挥室",
+			say = "모항 - 집무실",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -49,7 +49,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "爱丁堡似乎找埃米尔有事的样子。",
+			say = "에든버러는 에밀에게 용건이 있는 모양이다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +60,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "嘻嘻，小埃米尔～我来找你玩啦～",
+			say = "에밀, 놀러 왔어~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "哎呀，是爱丁堡呀，欢迎～不过还是等我秘书舰的工作处理完…是吧，指挥官？",
+			say = "에든버러 왔구나! Bienvenue! 하지만 오늘은 비서함이니까, 노는 건 일을 마친 다음에… 그렇지? 지휘관?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			actor = 202111,
 			side = 0,
 			bgName = "bg_story_task",
-			say = "小埃米尔的话，三两下就能搞定啦～我的眼光是绝对不会出错的",
+			say = "에밀이라면 후다닥 해치워버릴 수 있다고~ 나, 이래 봬도 사람 보는 눈은 있으니까!",
 			dir = 1,
 			paintingFadeOut = {
 				time = 0.5,
@@ -108,7 +108,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "两人不知道什么时候关系变得非常好了",
+			say = "두 사람은 언제 이렇게나 친해진 걸까…？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "啊哈，指挥官，你知道吗，我和爱丁堡可是同样在大战中运输过黄金的同伴呢～",
+			say = "어머, 지휘관, 몰랐어? 에든버러는 나랑 같이 그 대전에서 황금을 수송했던 배라구!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "嗯哼！虽然运送的黄金量是我比较少，但要论话题性肯定是我比较高哦！",
+			say = "맞아맞아! 내가 옮겼던 황금 양은 적었지만, 더 유명한 건 내 쪽이라구!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "不服输这点也是爱丁堡可爱的地方呢～",
+			say = "지기 싫어하는 점도 귀엽네~ 에든버러는♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
-			say = "过了一段时间，秘书舰的工作差不多结束了",
+			say = "에든버러의 말대로, 에밀은 오늘치 비서함 업무를 척척 해치웠다.",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -191,7 +191,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "小埃米尔果然很能干呢…让我想起我家贝法了都",
+			say = "역시 에밀은 유능하네… '그 녀석'이 생각나는 걸……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "贝尔法斯特小姐吗，跟她比还是有所差距的呀～",
+			say = "벨파스트 씨? 아하하, 그 사람이랑 비교하면 난 상대도 안 되는 걸~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "不过，她真的不是爱丁堡的姐姐吗？",
+			say = "어머? 그러고 보니, 벨파스트 씨면 아마도 에든버러의 언니였던 것 같은…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -236,7 +236,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "啊！怎么连小埃米尔也这么说啦！",
+			say = "동생이거든! 정말, 에밀까지 그런 말을 하다니!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,7 +251,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "有个能干的妹妹是一件让人多心情复杂的事情，小埃米尔是不会懂的啦呜呜呜……",
+			say = "잘난 동생이 있는 게 얼마나 복잡한 기분인지, 에밀은 모를거야!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,7 +266,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "不哭不哭～像爱丁堡这样有个性的其实意外的更受欢迎呢",
+			say = "네네, 그래도 에든버러는 에든버러대로 좋은 성격이라고 생각해.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,7 +281,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "嗯…这究竟是在夸我还是损我呢…",
+			say = "칭찬인지 아닌지 미묘한 기분……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -296,7 +296,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "啊，说到黄金，爱丁堡知道“黄金之国”重樱吗？",
+			say = "아 그런데, 에든버러는 '황금의 나라' 이야기, 알고 있어?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -311,7 +311,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "我在某本游记里面看到了这样的说法，就觉得十分好奇呢",
+			say = "사실 어떤 여행기에, 사쿠라 엠파이어는 온 나라가 황금에 둘러싸여있다고 적혀있더라구! 어때? 직접 보러 가고 싶지 않아?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -326,7 +326,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "重樱的话…舰队里倒是有不少来自那里的小伙伴呢",
+			say = "사쿠라 엠파이어 소속 동료라면 함대에도 있는데……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -341,7 +341,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "不过重樱之国倒是一直都挺神秘的…有机会能去看看就好了呢…",
+			say = "그래도 사쿠라 엠파이어란 나라가 신비롭긴 하지… 언젠가 한 번 가보고 싶을 지도.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -356,7 +356,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "决定了！下次有机会的话，就一起去重樱看看吧！寻找传说中的黄金之国～什么的～似乎也挺有趣的～",
+			say = "그럼 다음에 사쿠라 엠파이어에 갈 임무가 생기면 지휘관에게 참가 신청해두자! 황금의 나라 사쿠라 엠파이어, 소문만 들었는데도 설레네!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -371,7 +371,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "噢噢噢！感觉兴致都上来了！",
+			say = "오오! 갑자기 막 신나는데!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -396,7 +396,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "因为黄金而诞生的奇妙友谊似乎还会继续下去",
+			say = "황금의 우정? 은 앞으로도 이어질 모양이다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

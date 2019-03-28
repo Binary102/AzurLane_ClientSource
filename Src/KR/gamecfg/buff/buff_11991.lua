@@ -139,7 +139,7 @@ return {
 			}
 		}
 	},
-	name = "邦克山·防空加强·主力舰队",
+	name = "恪尽职守·防空加强·主力舰队",
 	init_effect = "jinengchufablue",
 	id = 11991,
 	time = 0,

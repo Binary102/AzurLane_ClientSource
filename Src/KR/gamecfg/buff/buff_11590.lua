@@ -10,7 +10,7 @@ return {
 	{},
 	{},
 	desc_get = "",
-	name = "制空",
+	name = "空域控制",
 	init_effect = "",
 	id = 11590,
 	time = 0,

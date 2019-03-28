@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"絮库夫的一天\n\n<size=30>七 指挥官的絮库夫</size>",
+					"쥬르네 쉬르쿠프\n\n<size=30>지휘관의 쉬르쿠프</size>",
 					1
 				}
 			}
@@ -24,7 +24,7 @@ return {
 			bgm = "story-1",
 			actor = 808011,
 			nameColor = "#a9f548",
-			say = "唔……指挥官，早上好。",
+			say = "응…… 지휘관, 좋은 아침…",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -52,11 +52,11 @@ return {
 			},
 			options = {
 				{
-					content = "笑着看她",
+					content = "웃는 얼굴로 시간을 알려준다",
 					flag = 1
 				},
 				{
-					content = "假装生气",
+					content = "그냥 시간을 알려준다",
 					flag = 2
 				}
 			}
@@ -67,7 +67,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "？！居然已经是这个时间了！",
+			say = "?! 벌써 이런 시간!?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，对不起哦，我本来想等到午休结束喊你起来的，结果看你睡得那么香，我也就困了……",
+			say = "지휘관, 미안해! 저기, 점심시간이 끝날 때쯤 깨우려고 했는데 지휘관이 너무 행복하게 자고 있어서, 나도 무심코……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我真的不是故意睡过去的哦，你不要生气好不好？",
+			say = "일부러 안 깨운 게 아니야. 화, 화내지 마…… 응?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,14 +113,14 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "絮库夫罕见地焦急了起来。",
+			say = "쉬르쿠프는 드물게도 초조함을 보였다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "指了指办公桌",
+					content = "책상을 가리킨다",
 					flag = 1
 				}
 			}
@@ -131,7 +131,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这些我记得……是今天的工作？",
+			say = "그건…… 오늘 업무?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哇，全都完成了！指挥官果然好厉害！",
+			say = "전부 다 했잖아! 지휘관은 역시 대단해!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			dir = 1,
 			actor = 808011,
 			nameColor = "#a9f548",
-			say = "但是，指挥官没有我帮忙也这么能干，这样我不就没有做秘书舰的价值了吗……",
+			say = "근데 내가 안 도와줘도 이렇게까지 할 수 있으니까…… 나, 비서함 실격일지도……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			},
 			options = {
 				{
-					content = "多亏了有你在哦",
+					content = "쉬르쿠프 덕분이다",
 					flag = 1
 				}
 			}
@@ -185,7 +185,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "欸，真的吗？我明明睡过去了？",
+			say = "저, 정말…? 나, 자고 있던 것뿐인데…?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "就算是睡着了也帮到了指挥官吗？",
+			say = "혹시, 내가 자는 것만으로도 지휘관의 도움이 되는 거야…?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘿嘿，不管了，既然指挥官说是我的功劳，那就是我的功劳~",
+			say = "……뭐 상관없나♪ 지휘관이 내 덕분이라고 하면 내 덕분!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,7 +233,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "今天也好好地作为秘书舰帮上忙了！絮库夫，了不起！",
+			say = "오늘도 비서함으로서 열심히 했다! 쉬르쿠프, 장하다!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +248,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "明天也要作为秘书舰好好地辅佐指挥官~",
+			say = "내일도 나, 열심히 할게!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +262,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "刚才还急得要哭出来了的絮库夫，现在又露出了平常的笑容。",
+			say = "조금 전까지 시무룩해 있던 쉬르쿠프는 활짝 웃어 보였다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,22 +273,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "对了，指挥官，你没有忘记敦刻尔克叫我们去吃点心吧？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 808011,
-			side = 2,
-			bgName = "bg_story_task",
-			dir = 1,
-			say = "走吧走吧，先去吃晚饭，然后吃点心~",
+			say = "맞다! 지휘관, 일이 끝나면 됭케르크한테 가서 과자 먹기로 한 약속, 잊지 않았지?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +288,22 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "果然和指挥官在一起每天都很开心呢♪",
+			say = "자, 자, 일단은 저녁밥, 다음은 달콤한 과자다~",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 808011,
+			side = 2,
+			bgName = "bg_story_task",
+			dir = 1,
+			say = "역시 지휘관하고 같이 있으면 하루하루가 즐거워♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -318,7 +318,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "确实，是很开心的每一天。",
+			say = "옆에 있는 건 여느 때와 같은 쉬르쿠프였다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

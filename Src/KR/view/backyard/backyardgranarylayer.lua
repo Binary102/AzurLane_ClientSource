@@ -209,7 +209,7 @@ function slot0.openFoodShop(slot0, slot1)
 	setText(slot0.foodDesc, slot1:getConfig("display"))
 	setText(slot3, pg.shop_template[slot1:getConfig("shop_id")].resource_num * 1)
 
-	slot0:findTF("total/icon", slot0.calPanel).GetComponent(slot4, typeof(Image)).sprite = LoadSprite("props/" .. id2res(slot7))
+	slot0:findTF("total/icon", slot0.calPanel).GetComponent(slot4, typeof(Image)).sprite = LoadSprite(pg.item_data_statistics[id2ItemId(slot7)].icon)
 
 	setText(slot2, "1")
 	onButton(slot0, slot0:findTF("minus_btn", slot0.calPanel), function ()
@@ -330,7 +330,7 @@ function slot0.openExtendPanel(slot0)
 	setParent(slot0.extendPanel, slot0._overlayUIMain, false)
 	SetActive(slot0.extendPanel, true)
 
-	slot0:findTF("frame/tip/icon", slot0.extendPanel).GetComponent(slot2, typeof(Image)).sprite = LoadSprite("props/" .. id2res(slot4))
+	slot0:findTF("frame/tip/icon", slot0.extendPanel).GetComponent(slot2, typeof(Image)).sprite = LoadSprite(pg.item_data_statistics[id2ItemId(slot4)].icon)
 
 	setText(slot0:findTF("frame/tip/Text", slot0.extendPanel), slot5)
 	setText(slot0:findTF("frame/desc", slot0.extendPanel), i18n("backyard_backyardGranaryLayer_foodMaxIncreaseNotice", slot7, slot0.dormVO.dorm_food_max + pg.dorm_data_template[slot0.dormVO.id].capacity + pg.shop_template[slot1].num))

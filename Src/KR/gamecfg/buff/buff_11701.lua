@@ -544,7 +544,7 @@ return {
 	id = 11701,
 	time = 0,
 	picture = "",
-	desc = "航速机动炮击防空命中",
+	desc = "自身防空降低，命中降低，机动提高，炮击提升，航速提升",
 	stack = 1,
 	color = "yellow",
 	icon = 11700,

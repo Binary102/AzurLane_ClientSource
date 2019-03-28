@@ -6912,6 +6912,28 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[262] = {
+		nationality = 7,
+		hide = 0,
+		trans_skin = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		code = 262,
+		type = 2,
+		group_type = 70201,
+		trans_type = 0,
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"이벤트 : 다시 떠오르는 새벽 빛",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[263] = {
 		nationality = 1,
 		hide = 0,
@@ -8151,6 +8173,200 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[347] = {
+		nationality = 8,
+		hide = 0,
+		trans_skin = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		code = 347,
+		type = 1,
+		group_type = 80101,
+		trans_type = 0,
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"이벤트：빛과 그림자의 아이리스",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[348] = {
+		nationality = 8,
+		hide = 0,
+		trans_skin = 801029,
+		handbook_type = 0,
+		redirect_id = 101,
+		code = 348,
+		type = 1,
+		group_type = 80102,
+		trans_type = 1,
+		trans_radar_chart = {
+			"C",
+			"A",
+			"E",
+			"A",
+			"C",
+			"D"
+		},
+		trans_skill = {
+			4071
+		},
+		description = {
+			{
+				"이벤트：빛과 그림자의 아이리스",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[349] = {
+		nationality = 8,
+		hide = 0,
+		trans_skin = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		code = 349,
+		type = 2,
+		group_type = 80201,
+		trans_type = 0,
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"이벤트：빛과 그림자의 아이리스",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[350] = {
+		nationality = 8,
+		hide = 0,
+		trans_skin = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		code = 350,
+		type = 8,
+		group_type = 80801,
+		trans_type = 0,
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"이벤트：빛과 그림자의 아이리스",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[351] = {
+		nationality = 9,
+		hide = 0,
+		trans_skin = 901019,
+		handbook_type = 0,
+		redirect_id = 101,
+		code = 351,
+		type = 1,
+		group_type = 90101,
+		trans_type = 1,
+		trans_radar_chart = {
+			"C",
+			"A",
+			"E",
+			"A",
+			"C",
+			"D"
+		},
+		trans_skill = {
+			4071
+		},
+		description = {
+			{
+				"이벤트：빛과 그림자의 아이리스",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[352] = {
+		nationality = 9,
+		hide = 0,
+		trans_skin = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		code = 352,
+		type = 4,
+		group_type = 90401,
+		trans_type = 0,
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"이벤트：빛과 그림자의 아이리스",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[353] = {
+		nationality = 9,
+		hide = 0,
+		trans_skin = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		code = 353,
+		type = 5,
+		group_type = 90501,
+		trans_type = 0,
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"이벤트：빛과 그림자의 아이리스",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[354] = {
+		nationality = 1,
+		hide = 0,
+		trans_skin = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		code = 354,
+		type = 5,
+		group_type = 10519,
+		trans_type = 0,
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"이벤트：빛과 그림자의 아이리스",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[355] = {
 		nationality = 1,
 		hide = 0,
@@ -9337,6 +9553,7 @@ pg.ship_data_group = {
 		257,
 		258,
 		259,
+		262,
 		263,
 		264,
 		265,
@@ -9386,6 +9603,14 @@ pg.ship_data_group = {
 		342,
 		345,
 		346,
+		347,
+		348,
+		349,
+		350,
+		351,
+		352,
+		353,
+		354,
 		355,
 		356,
 		357,

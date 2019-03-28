@@ -378,6 +378,34 @@ pg.compose_data_template = {
 		id = 54,
 		material_num = 5
 	},
+	{
+		equip_id = 5520,
+		material_id = 55,
+		gold_num = 60,
+		id = 55,
+		material_num = 5
+	},
+	{
+		equip_id = 90040,
+		material_id = 56,
+		gold_num = 60,
+		id = 56,
+		material_num = 5
+	},
+	{
+		equip_id = 90240,
+		material_id = 57,
+		gold_num = 60,
+		id = 57,
+		material_num = 5
+	},
+	{
+		equip_id = 90320,
+		material_id = 58,
+		gold_num = 60,
+		id = 58,
+		material_num = 5
+	},
 	[10000] = {
 		equip_id = 1020,
 		material_id = 10000,
@@ -1078,6 +1106,34 @@ pg.compose_data_template = {
 		id = 10099,
 		material_num = 10
 	},
+	[10100] = {
+		equip_id = 5540,
+		material_id = 10100,
+		gold_num = 120,
+		id = 10100,
+		material_num = 10
+	},
+	[10101] = {
+		equip_id = 90120,
+		material_id = 10101,
+		gold_num = 120,
+		id = 10101,
+		material_num = 10
+	},
+	[10102] = {
+		equip_id = 90340,
+		material_id = 10102,
+		gold_num = 120,
+		id = 10102,
+		material_num = 10
+	},
+	[10103] = {
+		equip_id = 90420,
+		material_id = 10103,
+		gold_num = 120,
+		id = 10103,
+		material_num = 10
+	},
 	[11000] = {
 		equip_id = 1040,
 		material_id = 11000,
@@ -1344,6 +1400,20 @@ pg.compose_data_template = {
 		id = 11037,
 		material_num = 15
 	},
+	[11038] = {
+		equip_id = 90140,
+		material_id = 11038,
+		gold_num = 200,
+		id = 11038,
+		material_num = 15
+	},
+	[11039] = {
+		equip_id = 90440,
+		material_id = 11039,
+		gold_num = 200,
+		id = 11039,
+		material_num = 15
+	},
 	[12000] = {
 		equip_id = 2640,
 		material_id = 12000,
@@ -1490,6 +1560,10 @@ pg.compose_data_template = {
 		52,
 		53,
 		54,
+		55,
+		56,
+		57,
+		58,
 		10000,
 		10001,
 		10002,
@@ -1590,6 +1664,10 @@ pg.compose_data_template = {
 		10097,
 		10098,
 		10099,
+		10100,
+		10101,
+		10102,
+		10103,
 		11000,
 		11001,
 		11002,
@@ -1628,6 +1706,8 @@ pg.compose_data_template = {
 		11035,
 		11036,
 		11037,
+		11038,
+		11039,
 		12000,
 		13000,
 		13001,

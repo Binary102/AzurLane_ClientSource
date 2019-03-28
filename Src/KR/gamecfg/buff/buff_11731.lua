@@ -369,7 +369,7 @@ return {
 			}
 		}
 	},
-	name = "LittleStarHobby",
+	name = "LittleStar",
 	init_effect = "jinengchufared",
 	id = 11731,
 	time = 20,

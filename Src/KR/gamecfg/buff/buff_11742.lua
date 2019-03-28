@@ -29,7 +29,7 @@ return {
 	{
 		time = 5
 	},
-	name = "发射鱼雷完全回避",
+	name = "风之加护",
 	init_effect = "jinengchufablue",
 	time = 5,
 	picture = "",

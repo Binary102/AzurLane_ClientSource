@@ -330,7 +330,7 @@ return {
 		}
 	},
 	time = 50,
-	name = "天城1",
+	name = "克敌机先",
 	init_effect = "",
 	picture = "",
 	desc = "准备速度提高",

@@ -10,7 +10,7 @@ return {
 	{},
 	{},
 	desc_get = "",
-	name = "追赶者占坑",
+	name = "816中队",
 	init_effect = "",
 	id = 11900,
 	time = 0,

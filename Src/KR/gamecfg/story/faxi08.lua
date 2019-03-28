@@ -12,7 +12,7 @@ return {
 			side = 2,
 			stopbgm = true,
 			dir = 1,
-			say = "这群狂热的宗教分子，战斗方式都是这么极端的吗？",
+			say = "이… 그러니까, 신자님들? 저렇게까지 싸우는구나…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 			actor = 105191,
 			side = 2,
 			dir = 1,
-			say = "这个炮弹是…大口径的战列舰炮弹，是那个大家伙吗？",
+			say = "이 포탄은… 대구경포 건가. 그 아이인가?",
 			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
@@ -73,7 +73,7 @@ return {
 			actor = 105191,
 			side = 2,
 			dir = 1,
-			say = "叫什么来着…让…让·保尔？",
+			say = "이름이 뭐였지…… 장…… 장 포르?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 		{
 			actor = 107041,
 			side = 1,
-			say = "让·巴尔",
+			say = "장 바르에요.",
 			dir = 1,
 			paintingFadeOut = {
 				time = 0.5,
@@ -106,7 +106,7 @@ return {
 			side = 0,
 			actor = 105191,
 			dir = 1,
-			say = "有点意思，有她在的话似乎可以让战斗变得再激烈一点了~",
+			say = "재밌겠네. 그 아이라면 나도 좀 더 진지하게 싸울 수 있겠어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			actor = 107041,
 			side = 1,
 			dir = 1,
-			say = "…请不要忘记你身为特混舰队旗舰的职责",
+			say = "매사추세츠… 태스크 포스 주력함의 역할을 잊은 건 아니겠죠…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 		{
 			actor = 105191,
 			side = 0,
-			say = "我的职责就是尽可能的消除敌方带来的威胁，减少登陆部队的牺牲",
+			say = "적의 위협을 줄이고, 상륙 중인 아군의 피해를 막는다…… 그게 내 역할이지. 알고 있어.",
 			dir = 1,
 			bgm = "story-masazhusai",
 			typewriter = {
@@ -149,7 +149,7 @@ return {
 			actor = 105191,
 			side = 0,
 			dir = 1,
-			say = "那么，我出击了",
+			say = "다녀올게.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			actor = 103111,
 			side = 1,
 			dir = 1,
-			say = "我也出击了！",
+			say = "이쪽도 준비 OK야!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			actor = 102091,
 			side = 1,
 			dir = 1,
-			say = "等等我！！",
+			say = "아아아! 나도 갈래!",
 			action = {
 				{
 					y = 20,
@@ -201,7 +201,7 @@ return {
 			actor = 101301,
 			side = 0,
 			dir = 1,
-			say = "我..我来为你们护航！",
+			say = "호, 호위하겠습니다!",
 			action = {
 				{
 					y = 20,
@@ -225,7 +225,7 @@ return {
 			actor = 107041,
 			side = 2,
 			dir = 1,
-			say = "等…",
+			say = "잠깐 기달……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +239,21 @@ return {
 			actor = 107041,
 			side = 2,
 			dir = 1,
-			say = "哎，真是拦都拦不住…这群热血的笨蛋们——",
+			say = "정말, 왜 이리도 다들, 앞뒤 사정 고려 안 하는 거야~~!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 107041,
+			side = 2,
+			dir = 1,
+			say = "함재기들, 아군 엄호를 서두르세요!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

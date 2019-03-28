@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"自由的天使\n\n<size=30>四 “克制”的埃米尔</size>",
+					"무희 천사 에밀\n\n<size=30>참아야 하느니라!</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "港区·指挥室",
+			say = "모항 - 집무실",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -52,7 +52,7 @@ return {
 			dir = 1,
 			actor = 904011,
 			nameColor = "#a9f548",
-			say = "……以上就是本次任务的报告，指挥官，请过目。",
+			say = "……이번 임무 보고서 제출할게. 지휘관, 확인해줘.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,7 +66,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "敦刻尔克把报告和一个装着点心的小盒子一块递了过来。",
+			say = "보고서와 함께, 됭케르크가 과자가 든 작은 상자를 건넸다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			dir = 1,
 			actor = 904011,
 			nameColor = "#a9f548",
-			say = "还有，指挥官，我做了一些点心一起带了过来，要尝尝吗？",
+			say = "그리고… 과자를 좀 만들어봤는데, 지휘관, 먹을래?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			},
 			options = {
 				{
-					content = "答应",
+					content = "승낙한다",
 					flag = 1
 				}
 			}
@@ -99,7 +99,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "……敦刻尔克每天都在做这些看着特别好吃的点心啊……",
+			say = "……그나저나, 됭케르크는 매일 맛있어 보이는 과자를 만드는군……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,7 +112,7 @@ return {
 			dir = 1,
 			actor = 904011,
 			nameColor = "#a9f548",
-			say = "哎呀，埃米尔也在吗，你也过来一起吃吧？",
+			say = "어머, 에밀도 있었어? 이리 와서 다 같이 먹지 않을래?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -128,7 +128,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔…虽然很想吃…但是我拒绝！",
+			say = "그게… 먹고 싶지만… 아니, 오늘은 안돼!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			dir = 1,
 			actor = 904011,
 			nameColor = "#a9f548",
-			say = "嗯…？哎呀，差点忘了，又到了埃米尔不吃甜食的时候了吗，那就等你要吃的时候，再来找我吧",
+			say = "그래…? 아, 미안해, 오늘은 간식 금지일이었나. 그럼 다음에, 먹고 싶어지면 말해줘.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好~",
+			say = "고마워~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,7 +178,7 @@ return {
 			dir = 1,
 			actor = 904011,
 			nameColor = "#a9f548",
-			say = "那我就先回去忙了，指挥官，慢用。",
+			say = "그럼 여기 놔둘게. 지휘관, 맛있게 먹어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,18 +192,18 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "敦刻尔克说着离开了指挥室。",
+			say = "됭케르크가 집무실에서 나갔다. 그럼, 이 과자는 어쩔까…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "故意吃得津津有味",
+					content = "맛있다는 듯이 먹는다 (실제로 맛있다)",
 					flag = 1
 				},
 				{
-					content = "把点心收起来",
+					content = "먹지 않고 선반에 넣는다",
 					flag = 2
 				}
 			}
@@ -215,7 +215,7 @@ return {
 			optionFlag = 1,
 			actor = 802011,
 			nameColor = "#a9f548",
-			say = "指、指挥官，我是不会被你引诱的！",
+			say = "지휘관, 나…… 저, 절대 지지 않을 거야!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,7 +232,7 @@ return {
 			optionFlag = 2,
 			actor = 802011,
 			nameColor = "#a9f548",
-			say = "指挥官，你不用在意我的……",
+			say = "지휘관, 나 신경 쓰지 않아도 되는데……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +248,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "因、因为敦刻尔克做的点心实在太好吃了，一旦下手了就停不下来了嘛…",
+			say = "그, 그치만 됭케르크가 만든 과자는 너무 맛있어서, 하나라도 먹으면 손이 멈추지 않는 걸…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -264,7 +264,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "然后就是飙升的体重、越发笨拙的行动…再也不能愉快地跳舞了呢…",
+			say = "그리고 늘어가는 체중, 처지는 스텝… 두 번 다시 사람들 앞에서 춤출 수 없게 되는 슬픈 결말…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -280,7 +280,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "简直就是恶魔的诱惑！所以啦，我给自己规定，每周只能吃一次敦刻尔克的甜食！这周的份已经…啊啊…",
+			say = "그건 그야말로, 악마의 유혹이야! 그러니까 나, 됭케르크의 과자는 일주일에 한 번만 먹기로 했어! 이번 주는 이미…… 아아아…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -294,14 +294,14 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "埃米尔罕见地苦恼了起来。",
+			say = "에밀 답지 않게, 고뇌에 빠진 모습이다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "感到有些新奇",
+					content = "위로해본다",
 					flag = 1
 				}
 			}
@@ -312,7 +312,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我也是女孩子，当然会在意这个啦，指挥官你也注意一下比较好哦。",
+			say = "나도 나름 여자라서 신경 쓰인단 말야! 지휘관도, 그런 건 배려하는 게 좋다구?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -328,7 +328,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不注意保持体形的话，有一天一定会后悔的。",
+			say = "몸매에 신경 쓰지 않으면 나중에 후회할 거야!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -344,7 +344,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "身为指挥官呢——",
+			say = "애초에, 지휘관으로서……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -359,7 +359,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "……接下来被说教了将近30分钟。",
+			say = "……어째선지 에밀에게 30분 정도 잔소리를 들었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

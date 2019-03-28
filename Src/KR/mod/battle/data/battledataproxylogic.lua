@@ -227,7 +227,7 @@ function ys.Battle.BattleDataProxy.HandleShipMissDamage(slot0, slot1, slot2)
 	if #slot4 > 0 then
 		slot6 = slot4[math.random(#slot4)]
 
-		if slot1:GetTemplate().type == ShipType.Qianting then
+		if table.contains(TeamType.SubShipType, slot1:GetTemplate().type) then
 			slot6:TriggerBuff(slot2.BuffEffectType.ON_BE_HIT, {})
 			slot0:HandleDirectDamage(slot6, slot1:CalculateDamageFromSubmarinToMainShip(slot6), slot1)
 

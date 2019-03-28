@@ -10,7 +10,7 @@ return {
 	{},
 	{},
 	desc_get = "",
-	name = "苍龙改",
+	name = "花之牌",
 	init_effect = "",
 	id = 11830,
 	time = 20,

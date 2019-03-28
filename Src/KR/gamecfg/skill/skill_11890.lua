@@ -1,9 +1,9 @@
 return {
 	uiEffect = "",
-	name = "马拉尼",
+	name = "光焰中的奇迹",
 	cd = 0,
 	picture = "0",
-	desc = "马拉尼",
+	desc = "光焰中的奇迹",
 	painting = 1,
 	id = 11890,
 	castCV = "skill",

@@ -1,10 +1,10 @@
 return {
 	uiEffect = "",
-	name = "勇敢1-2",
+	name = "不冻港的协奏曲",
 	cd = 0,
 	id = 11951,
 	picture = "0",
-	desc = "队伍中英驱触发",
+	desc = "不冻港的协奏曲队伍中英驱触发",
 	aniEffect = {
 		effect = "jineng",
 		offset = {

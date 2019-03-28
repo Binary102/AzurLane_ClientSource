@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"自由的天使\n\n<size=30>一 人见人爱的埃米尔</size>",
+					"무희 천사 에밀\n\n<size=30>인기만점 무희</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "港区·港口",
+			say = "모항 - 부두",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -49,7 +49,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "和新担任秘书舰的埃米尔一起准备迎接委托组的归来…",
+			say = "비서함으로 새로 부임한 에밀 베르탱과 함께 의뢰팀의 귀환을 기다리고 있는 중이었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "万里无云，艳阳高照～今天也是个好天气呢～",
+			say = "구름 한 점 없이 파란 하늘, 따뜻하고도 눈 부신 태양……오늘도 날씨 좋네~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这么好的天气，不出来活动一下就可惜了~~",
+			say = "모처럼 화창한 날이니까, 몸도 좀 움직여야지~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "埃米尔说着跳上了一根系船柱，轻快地转了一个圈。",
+			say = "에밀은 계선주 위로 뛰어올라, 경쾌하게 한 바퀴를 돌았다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,23 +103,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，除了迎接委托组的伙伴以外，你也应该多出来走走呀",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 802011,
-			side = 2,
-			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "工作虽然重要，坐太久了对身体也不好。",
+			say = "지휘관, 의뢰나간 애들 마중 나갈 때 말고도, 좀 더 밖에 나가는 게 좋아.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +119,23 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过管理舰队也不是那么简单的事呢，我光是作为辅助的秘书舰都感觉有点忙不过来了",
+			say = "일도 중요하지만, 앉아있기만 하면 몸에 안 좋기도 하고 말야.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 802011,
+			side = 2,
+			bgName = "bg_story_outdoor",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "그래도 지휘관 업무 보는 거 참 힘들겠네~ 나, 비서함으로서 지휘관 일 따라가는 것만 해도 벅차다니깐……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			dir = 1,
 			actor = 802011,
 			nameColor = "#a9f548",
-			say = "能当上指挥官的果然都是厉害的人呢~",
+			say = "역시 지휘관이 된 사람이라 그런지 대단하구나~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,11 +162,11 @@ return {
 			},
 			options = {
 				{
-					content = "害羞",
+					content = "겸손하게 대답한다.",
 					flag = 1
 				},
 				{
-					content = "自满",
+					content = "자랑스럽게 대답한다.",
 					flag = 2
 				}
 			}
@@ -177,7 +177,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，她们回来了~",
+			say = "어머, 다들 돌아왔네.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "大家都去凑到埃米尔面前，愉快地聊着委托的趣闻和礼物等女孩子间的话题",
+			say = "의뢰에서 돌아온 아이들은 자연스레 에밀 주위로 모여, 의뢰에서 일어난 일이나 선물 이야기 등등, 여자들만의 수다로 꽃을 피웠다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,33 +213,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "欢迎回来~没有遇到什么危险吧？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			bgName = "bg_story_outdoor",
-			dir = 1,
-			say = "…………",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 802011,
-			side = 2,
-			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "大家都是重要的伙伴呀，肯定会担心你们的嘛",
+			say = "수고했어. 위험하진 않았어?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,7 +239,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "欸，这个是给我的吗？谢谢！",
+			say = "다들 소중한 동료잖니. 걱정하는 게 당연하잖아?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,7 +265,33 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯？指挥官，怎么啦？一副吃惊的样子。",
+			say = "어머, 이거 나 주는 거야? 고마워! Merci!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			bgName = "bg_story_outdoor",
+			dir = 1,
+			say = "…………",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 802011,
+			side = 2,
+			bgName = "bg_story_outdoor",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "지휘관, 무슨 일이야? 그렇게 놀란 표정으로.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -307,7 +307,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊哈哈，都是同一支舰队的伙伴，关系变好不是自然而然的事吗？",
+			say = "……어머머, 다들 같은 함대의 동료인걸. 친하게 지내는 건 당연하잖아?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -322,7 +322,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			blackBg = true,
-			say = "埃米尔似乎没有意识到自己受欢迎的事实。",
+			say = "에밀은 자신이 인기인이란 사실을 눈치채지 못하는 모양이다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

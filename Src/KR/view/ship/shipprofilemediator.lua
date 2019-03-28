@@ -26,7 +26,7 @@ function slot0.register(slot0)
 			viewComponent = ProposeUI,
 			data = {
 				review = true,
-				groupID = slot1.groupID,
+				group = slot1.group,
 				skinID = slot1.skinID
 			}
 		}))

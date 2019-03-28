@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"骑士公主的忧郁\n\n<size=30>五 心声</size>",
+					"빛나는 아이리스\n\n<size=30>속마음</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-2",
-			say = "一边走一边听凯旋说了起来",
+			say = "잡담할 겸 순찰을 계속했다.",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -54,7 +54,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "指挥官知道的吧，我是空想级最小的妹妹",
+			say = "지휘관님을 알고 계시겠죠. 제가 르 팡타스크급의 막내란 사실을…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "在我上面还有好几位姐姐大人",
+			say = "네. 알고 계신 대로, 제게는 언니들이 몇 명 있습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "过去我们的关系很好，而我也以为，我们可以一直那样下去",
+			say = "그 대전에선 다들 같은 진영에 소속되어 있었습니다. 그리고 그 당시의 저는, 모두 함께 같은 곳에서, 언제까지고 사이좋게 지낼 수 있을 거라 생각했습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "战争刚开始的时候，我还想着，只要和姐姐们在一起，就什么都不用怕",
+			say = "전쟁이 시작됐을 때, 언니들과 함께라면 아무것도 두렵지 않을 거라 생각했었지만……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,7 +114,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "但是现实却没有那么简单…",
+			say = "현실은 그리 녹록치 않았습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "因为各种各样的原因，我们走向了各自不同的道路",
+			say = "여러 가지 사정으로, 다들 각자 다른 길을 걷게 됐고……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "明明大家都是为了一样的目标，为什么会变成现在这样呢？",
+			say = "그리고 지금도, 같은 목표를 두고 있는데도 서로 싸우게 되거나, 자매인데도 뿔뿔이 흩어지거나……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			},
 			options = {
 				{
-					content = "总有一天会互相理解的",
+					content = "언젠간 분명 서로 이해할 수 있을 거야",
 					flag = 1
 				}
 			}
@@ -165,7 +165,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "谢谢…这支舰队多少让人看到了一丝希望，但是——",
+			say = "이 함대에 온 뒤로, 지휘관님 덕분에 조금은 희망을 가질 수 있었습니다만……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +180,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "在内心的某处，还是隐约有一种感觉……",
+			say = "아무래도 전, 마음 한구석에서 그런 게 계속 신경 쓰여서……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "即便大家重新站到一条战线，恐怕也没有那么容易回到以往吧…",
+			say = "모두 같은 함대에 모이더라도, 그 시절로 돌아가는 건, 그렇게 쉽지는 않겠죠.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,22 +209,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "凯旋脸上露出十分悲伤的表情",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 801011,
-			side = 2,
-			bgName = "bg_story_outdoor",
-			dir = 1,
-			say = "所以，刚才在看到黑暗界小姐和恐怖小姐，还有列克星敦小姐和萨拉托加小姐时，我的心里其实是有些羡慕的",
+			say = "트리옹팡은 슬픈 듯 고개를 숙였다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +224,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "和姐姐大人们，什么时候也能像那样，回到最初亲密无间的那个时候呢…",
+			say = "조금 전 에레버스 씨와 테러 씨, 그리고 렉싱턴 씨와 새러토가 씨를 봤을 때, 솔직히 조금 부러웠어요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,7 +239,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "即使现在能够和姐姐大人们重逢，我也不知道该用怎样的表情去面对她们",
+			say = "언젠가, 저 아이들처럼 언니들과 사이좋게 지내던 날로 돌아갈 수 있었으면 합니다만.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,7 +254,22 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "指挥官，你能告诉我我该怎么做吗？",
+			say = "지금 언니들과 만나도, 저, 어떤 얼굴을 해야 할지 몰라서……",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 801011,
+			side = 2,
+			bgName = "bg_story_outdoor",
+			dir = 1,
+			say = "지휘관님, 저는 대체 어찌해야……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,7 +284,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			blackBg = true,
-			say = "凯旋的悲伤中带上了一丝的无助…",
+			say = "트리옹팡의 목소리에서 슬픔과 무력함을 느꼈다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -671,6 +671,18 @@ pg.voice_actor_CN = {
 	{
 		actor_name = "Sumire Morohoshi",
 		code = 168
+	},
+	{
+		actor_name = "Ruriko Aoki",
+		code = 169
+	},
+	{
+		actor_name = "Ayaka Nanase",
+		code = 170
+	},
+	{
+		actor_name = "Reika Fujisawa",
+		code = 171
 	}
 }
 

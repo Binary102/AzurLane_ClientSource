@@ -256,11 +256,7 @@ function slot0.register(slot0)
 	end)
 	slot0:bind(slot0.ON_ELITE_OEPN_DECK, function (slot0, slot1)
 		slot2 = slot1.shipType
-
-		if slot1.fleetIndex == 3 then
-			slot2 = ShipType.Qianting
-		end
-
+		slot3 = slot1.fleetIndex
 		slot4 = slot1.shipVO
 		slot5 = slot1.fleet
 		slot6 = slot1.chapter
@@ -369,7 +365,10 @@ function slot0.register(slot0)
 			slot0 = ShopsMediator
 			slot1 = ShopsLayer
 			slot2 = {
-				warp = ShopsLayer.TYPE_ACTIVITY
+				warp = ShopsLayer.TYPE_ACTIVITY,
+				actId = _.detect(getProxy(ActivityProxy):getActivitiesByType(ActivityConst.ACTIVITY_TYPE_SHOP), function (slot0)
+					return slot0:getConfig("config_client").pt_id == pg.gameset.activity_res_id.key_value
+				end).id
 			}
 		end
 

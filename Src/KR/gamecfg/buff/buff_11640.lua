@@ -10,7 +10,7 @@ return {
 	{},
 	{},
 	desc_get = "",
-	name = "埃塞技能",
+	name = "善战之舰",
 	init_effect = "",
 	id = 11640,
 	time = 0,

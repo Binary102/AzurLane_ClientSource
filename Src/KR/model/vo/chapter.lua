@@ -1016,7 +1016,7 @@ function slot0.singleEliteFleetVertify(slot0, slot1)
 	slot2 = getProxy(BayProxy):getRawData()
 	slot4 = slot0:getConfig("limitation")
 
-	if #slot0.eliteFleetList[slot1] == 0 or not slot4[slot1] then
+	if #slot0.eliteFleetList[slot1] == 0 then
 		return false
 	else
 		slot5 = 0
@@ -2073,7 +2073,7 @@ end
 
 function slot0.getSpAppearStory(slot0)
 	if slot0:existOni() then
-		for slot4, slot5 in ipairs(chapter.champions) do
+		for slot4, slot5 in ipairs(slot0.champions) do
 			if slot5.trait == ChapterConst.TraitLurk and slot5.attachment == ChapterConst.AttachOni and slot5:getConfig("appear_story") and #slot6 > 0 then
 				return slot6
 			end
@@ -2089,7 +2089,7 @@ end
 
 function slot0.getSpAppearGuide(slot0)
 	if slot0:existOni() then
-		for slot4, slot5 in ipairs(chapter.champions) do
+		for slot4, slot5 in ipairs(slot0.champions) do
 			if slot5.trait == ChapterConst.TraitLurk and slot5.attachment == ChapterConst.AttachOni and slot5:getConfig("appear_guide") and #slot6 > 0 then
 				return slot6
 			end

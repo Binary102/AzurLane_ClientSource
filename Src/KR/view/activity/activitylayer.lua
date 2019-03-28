@@ -237,6 +237,30 @@ slot3 = ActivityConst
 slot3 = slot3.HONGRAN_RE_PT_ID
 slot4 = "pt_page_hongran_re"
 slot2[slot3] = slot4
+slot3 = ActivityConst
+slot3 = slot3.FAXI_PREVIEW_ID
+slot4 = "preview_faxi"
+slot2[slot3] = slot4
+slot3 = ActivityConst
+slot3 = slot3.FAXI_PT_ID
+slot4 = "pt_page_faxi"
+slot2[slot3] = slot4
+slot3 = ActivityConst
+slot3 = slot3.FAXI_RES_ID
+slot4 = "res_page_faxi"
+slot2[slot3] = slot4
+slot3 = ActivityConst
+slot3 = slot3.MORAN_RE_PREVIEW_ID
+slot4 = "preview_moran_re"
+slot2[slot3] = slot4
+slot3 = ActivityConst
+slot3 = slot3.MORAN_RE_PT_ID
+slot4 = "pt_page_moran_re"
+slot2[slot3] = slot4
+slot3 = ActivityConst
+slot3 = slot3.XIAOJIAJIA_PREVIEW_ID
+slot4 = "preview_xiaojiajia"
+slot2[slot3] = slot4
 slot3 = {}
 slot4 = ActivityConst
 slot4 = slot4.SKIN_YAMASHIRO
@@ -317,6 +341,30 @@ slot3[slot4] = slot5
 slot4 = ActivityConst
 slot4 = slot4.HONGRAN_RE_PT_ID
 slot5 = "clutter/activity_bg_pt_page_hongran_re"
+slot3[slot4] = slot5
+slot4 = ActivityConst
+slot4 = slot4.FAXI_PREVIEW_ID
+slot5 = "clutter/activity_bg_preview_faxi"
+slot3[slot4] = slot5
+slot4 = ActivityConst
+slot4 = slot4.FAXI_PT_ID
+slot5 = "clutter/activity_bg_pt_page_faxi"
+slot3[slot4] = slot5
+slot4 = ActivityConst
+slot4 = slot4.FAXI_RES_ID
+slot5 = "clutter/activity_bg_res_page_faxi"
+slot3[slot4] = slot5
+slot4 = ActivityConst
+slot4 = slot4.MORAN_RE_PREVIEW_ID
+slot5 = "clutter/activity_bg_preview_moran_re"
+slot3[slot4] = slot5
+slot4 = ActivityConst
+slot4 = slot4.MORAN_RE_PT_ID
+slot5 = "clutter/activity_bg_pt_page_moran_re"
+slot3[slot4] = slot5
+slot4 = ActivityConst
+slot4 = slot4.XIAOJIAJIA_PREVIEW_ID
+slot5 = "clutter/activity_bg_preview_xiaojiajia"
 slot3[slot4] = slot5
 slot4 = {
 	"changmen",
@@ -3214,7 +3262,7 @@ function slot4(slot0, slot1, slot2, slot3)
 	slot4 = slot4.SHOW_DRESS_PAINTING
 	slot4 = slot4[slot2]
 	slot5 = LoadImageSpriteAsync
-	slot6 = "activity_painting/"
+	slot6 = "activitypainting/"
 	slot7 = slot4
 	slot8 = "_0"
 	slot9 = slot3
@@ -4977,8 +5025,9 @@ function slot4(slot0)
 end
 
 slot0.flush_task_list = slot4
+slot4 = "clear_task_list"
 
-function slot4(slot0)
+function slot5(slot0)
 	slot1 = slot0.pages
 	slot2 = slot0
 	slot3 = ActivityConst
@@ -5010,9 +5059,10 @@ function slot4(slot0)
 	end
 end
 
-slot0.clear_task_list = slot4
+slot0[slot4] = slot5
+slot4 = "flush_task_list_glory"
 
-function slot4(slot0)
+function slot5(slot0)
 	slot1 = slot0.activity
 	slot2 = slot0.pages
 	slot3 = slot0
@@ -5340,9 +5390,10 @@ function slot4(slot0)
 	slot13(slot14, slot15, slot16)
 end
 
-slot0.flush_task_list_glory = slot4
+slot0[slot4] = slot5
+slot4 = "clear_task_list_glory"
 
-function slot4(slot0)
+function slot5(slot0)
 	slot1 = slot0.pages
 	slot2 = slot0
 	slot3 = ActivityConst
@@ -5361,9 +5412,10 @@ function slot4(slot0)
 	end
 end
 
-slot0.clear_task_list_glory = slot4
+slot0[slot4] = slot5
+slot4 = "updateTaskLayers"
 
-function slot4(slot0)
+function slot5(slot0)
 	slot1 = slot0.activity
 	slot3 = slot0
 	slot2 = slot0.activity2Page
@@ -5383,9 +5435,10 @@ function slot4(slot0)
 	slot3(slot4)
 end
 
-slot0.updateTaskLayers = slot4
+slot0[slot4] = slot5
+slot4 = "flush_bb"
 
-function slot4(slot0)
+function slot5(slot0)
 	slot1 = slot0.activity
 	slot2 = slot0.pages
 	slot3 = slot0
@@ -5794,9 +5847,10 @@ function slot4(slot0)
 	setText(slot3.nums, string.format("<color=#%s>%s</color> / %s", (slot1.data2 == 0 and "A9F548") or "FFFFFF", 1 - slot1.data2, 1))
 end
 
-slot0.flush_bb = slot4
+slot0[slot4] = slot5
+slot4 = "clear_bb"
 
-function slot4(slot0)
+function slot5(slot0)
 	slot1 = slot0.pages
 	slot2 = slot0
 	slot3 = ActivityConst
@@ -5822,9 +5876,10 @@ function slot4(slot0)
 	end
 end
 
-slot0.clear_bb = slot4
+slot0[slot4] = slot5
+slot4 = "flush_hit_monster_nian"
 
-function slot4(slot0)
+function slot5(slot0)
 	slot2 = slot0
 	slot1 = slot0.emit
 	slot3 = ActivityMediator
@@ -5833,9 +5888,10 @@ function slot4(slot0)
 	slot1(slot2, slot3)
 end
 
-slot0.flush_hit_monster_nian = slot4
+slot0[slot4] = slot5
+slot4 = "close_hit_monster_nian"
 
-function slot4(slot0)
+function slot5(slot0)
 	slot2 = slot0
 	slot1 = slot0.emit
 	slot3 = ActivityMediator
@@ -5844,13 +5900,14 @@ function slot4(slot0)
 	slot1(slot2, slot3)
 end
 
-slot0.close_hit_monster_nian = slot4
+slot0[slot4] = slot5
+slot4 = "clear_hit_monster_nian"
 
-function slot4(slot0)
+function slot5(slot0)
 	return
 end
 
-slot0.clear_hit_monster_nian = slot4
+slot0[slot4] = slot5
 slot4 = "flush_coloring"
 
 function slot5(slot0)
@@ -7299,9 +7356,11 @@ function slot5(slot0, slot1, slot2, slot3)
 		slot11 = slot5
 		slot8 = slot8(slot9, slot10, slot11)
 		slot6.bg = slot8
-		slot8 = tf
-		slot9 = slot5
-		slot8 = slot8(slot9)
+		slot9 = slot0
+		slot8 = slot0.findTF
+		slot10 = "layer"
+		slot11 = slot5
+		slot8 = slot8(slot9, slot10, slot11)
 		slot6.layer = slot8
 		slot9 = slot0
 		slot8 = slot0.findTF
@@ -7500,6 +7559,41 @@ function slot5(slot0, slot1, slot2, slot3)
 
 		slot13(slot14, slot15(slot16(slot17, slot18, slot19)))
 
+		slot13 = onButton
+		slot14 = slot0
+		slot15 = slot6.btn
+
+		function slot16()
+			slot0 = slot0
+			slot1 = slot0
+			slot0 = slot0.isFinish
+			slot0 = slot0(slot1)
+
+			if not slot0 then
+				slot0 = slot1
+				slot1 = slot0
+				slot0 = slot0.emit
+				slot2 = ActivityMediator
+				slot2 = slot2.ON_TASK_GO
+				slot3 = slot0
+
+				slot0(slot1, slot2, slot3)
+			else
+				slot0 = slot1
+				slot1 = slot0
+				slot0 = slot0.emit
+				slot2 = ActivityMediator
+				slot2 = slot2.ON_TASK_SUBMIT
+				slot3 = slot0
+
+				slot0(slot1, slot2, slot3)
+			end
+		end
+
+		slot17 = SFX_PANEL
+
+		slot13(slot14, slot15, slot16, slot17)
+
 		slot13 = slot6.btn
 		slot14 = slot13
 		slot13 = slot13.GetComponent
@@ -7556,41 +7650,6 @@ function slot5(slot0, slot1, slot2, slot3)
 		slot15 = slot10.isReceive
 
 		slot13(slot14, slot15(slot16))
-
-		slot13 = onButton
-		slot14 = slot0
-		slot15 = slot6.btn
-
-		function slot16()
-			slot0 = slot0
-			slot1 = slot0
-			slot0 = slot0.isFinish
-			slot0 = slot0(slot1)
-
-			if not slot0 then
-				slot0 = slot1
-				slot1 = slot0
-				slot0 = slot0.emit
-				slot2 = ActivityMediator
-				slot2 = slot2.ON_TASK_GO
-				slot3 = slot0
-
-				slot0(slot1, slot2, slot3)
-			else
-				slot0 = slot1
-				slot1 = slot0
-				slot0 = slot0.emit
-				slot2 = ActivityMediator
-				slot2 = slot2.ON_TASK_SUBMIT
-				slot3 = slot0
-
-				slot0(slot1, slot2, slot3)
-			end
-		end
-
-		slot17 = SFX_PANEL
-
-		slot13(slot14, slot15, slot16, slot17)
 	end
 end
 
@@ -9047,14 +9106,16 @@ function slot5(slot0)
 	slot2 = slot0.activity
 	slot1 = slot1(slot2)
 
-	if not slot1 then
-		slot3 = slot0
-		slot2 = slot0.update_task_list_skin
-		slot4 = slot0.activity
-		slot4 = slot4.data3
-
-		slot2(slot3, slot4)
+	if slot1 then
+		return
 	end
+
+	slot3 = slot0
+	slot2 = slot0.update_task_list_skin
+	slot4 = slot0.activity
+	slot4 = slot4.data3
+
+	slot2(slot3, slot4)
 end
 
 slot0[slot4] = slot5
@@ -9633,14 +9694,16 @@ function slot5(slot0)
 	slot2 = slot0.activity
 	slot1 = slot1(slot2)
 
-	if not slot1 then
-		slot3 = slot0
-		slot2 = slot0.update_task_list_skin
-		slot4 = slot0.activity
-		slot4 = slot4.data3
-
-		slot2(slot3, slot4)
+	if slot1 then
+		return
 	end
+
+	slot3 = slot0
+	slot2 = slot0.update_task_list_skin
+	slot4 = slot0.activity
+	slot4 = slot4.data3
+
+	slot2(slot3, slot4)
 end
 
 slot0[slot4] = slot5
@@ -9667,236 +9730,212 @@ function slot5(slot0)
 	slot2 = slot0.activity
 	slot1 = slot1(slot2)
 
-	if not slot1 then
-		slot2 = slot0.activity
-		slot2 = slot2.data3
-		slot3 = slot0.activity
-		slot4 = slot0.pages
-		slot6 = slot0
-		slot5 = slot0.activity2Page
-		slot7 = slot3
-		slot5 = slot5(slot6, slot7)
-		slot4 = slot4[slot5]
-		slot5 = slot0.pagesInit
-		slot6 = slot4.name
-		slot5 = slot5[slot6]
-		slot7 = slot3
-		slot6 = slot3.getConfig
-		slot8 = "config_client"
-		slot6 = slot6(slot7, slot8)
-		slot6 = slot6.story
+	if slot1 then
+		return
+	end
 
-		if slot2 and slot6 then
+	slot2 = slot0.activity
+	slot2 = slot2.data3
+	slot3 = slot0.activity
+	slot4 = slot0.pages
+	slot6 = slot0
+	slot5 = slot0.activity2Page
+	slot7 = slot3
+	slot5 = slot5(slot6, slot7)
+	slot4 = slot4[slot5]
+	slot5 = slot0.pagesInit
+	slot6 = slot4.name
+	slot5 = slot5[slot6]
+	slot7 = slot3
+	slot6 = slot3.getConfig
+	slot8 = "config_client"
+	slot6 = slot6(slot7, slot8)
+	slot6 = slot6.story
+
+	if slot2 and slot6 then
+		slot7 = slot6[slot2]
+
+		if slot7 then
 			slot7 = slot6[slot2]
+			slot7 = slot7[1]
 
 			if slot7 then
-				slot7 = slot6[slot2]
-				slot7 = slot7[1]
+				slot7 = pg
+				slot7 = slot7.StoryMgr
+				slot7 = slot7.GetInstance
+				slot7 = slot7()
+				slot9 = slot7
+				slot8 = slot7.IsPlayed
+				slot10 = slot6[slot2]
+				slot10 = slot10[1]
+				slot8 = slot8(slot9, slot10)
 
-				if slot7 then
-					slot7 = pg
-					slot7 = slot7.StoryMgr
-					slot7 = slot7.GetInstance
-					slot7 = slot7()
+				if not slot8 then
 					slot9 = slot7
-					slot8 = slot7.IsPlayed
+					slot8 = slot7.Play
 					slot10 = slot6[slot2]
 					slot10 = slot10[1]
-					slot8 = slot8(slot9, slot10)
 
-					if not slot8 then
-						slot9 = slot7
-						slot8 = slot7.Play
-						slot10 = slot6[slot2]
-						slot10 = slot10[1]
-
-						slot8(slot9, slot10)
-					end
+					slot8(slot9, slot10)
 				end
 			end
 		end
+	end
 
-		slot8 = slot0
-		slot7 = slot0.flush_task_list_pt
+	slot8 = slot0
+	slot7 = slot0.flush_task_list_pt
 
-		slot7(slot8)
+	slot7(slot8)
 
-		slot7 = getDoingTask
-		slot8 = slot2
-		slot7, slot8, slot9 = slot7(slot8)
-		slot10 = getProxy
-		slot11 = ActivityProxy
-		slot10 = slot10(slot11)
-		slot11 = slot10
-		slot10 = slot10.getActivityById
-		slot13 = slot3
-		slot12 = slot3.getConfig
-		slot14 = "config_client"
-		slot12 = slot12(slot13, slot14)
-		slot12 = slot12.rank_act_id
-		slot10 = slot10(slot11, slot12)
-		slot10 = slot10.data1
-		slot12 = slot9
-		slot11 = slot9.isReceive
-		slot11 = slot11(slot12)
-		slot7 = (slot11 and slot7) or slot7 - 1
-		slot12 = slot0
-		slot11 = slot0.findTF
-		slot13 = "phase/Panel"
-		slot14 = slot4
-		slot11 = slot11(slot12, slot13, slot14)
-		slot12 = 1
-		slot13 = slot11.childCount
-		slot14 = 1
+	slot7 = getDoingTask
+	slot8 = slot2
+	slot7, slot8, slot9 = slot7(slot8)
+	slot10 = getProxy
+	slot11 = ActivityProxy
+	slot10 = slot10(slot11)
+	slot11 = slot10
+	slot10 = slot10.getActivityById
+	slot13 = slot3
+	slot12 = slot3.getConfig
+	slot14 = "config_client"
+	slot12 = slot12(slot13, slot14)
+	slot12 = slot12.rank_act_id
+	slot10 = slot10(slot11, slot12)
+	slot10 = slot10.data1
+	slot12 = slot9
+	slot11 = slot9.isReceive
+	slot11 = slot11(slot12)
+	slot7 = (slot11 and slot7) or slot7 - 1
+	slot12 = slot0
+	slot11 = slot0.findTF
+	slot13 = "phase/Panel"
+	slot14 = slot4
+	slot11 = slot11(slot12, slot13, slot14)
+	slot12 = 1
+	slot13 = slot11.childCount
+	slot14 = 1
 
-		if not slot7 then
-			slot7 = slot7 - 1
+	if not slot7 then
+		slot7 = slot7 - 1
+	end
+
+	for slot15 = slot12, slot13, slot14 do
+		slot16 = setActive
+		slot18 = slot0
+		slot17 = slot0.findTF
+		slot19 = "real"
+		slot21 = slot11
+		slot20 = slot11.GetChild
+		slot22 = slot15 - 1
+		slot17 = slot17(slot18, slot19, slot20(slot21, slot22))
+
+		if slot15 > slot7 then
+			slot18 = false
+		else
+			slot18 = true
 		end
 
-		for slot15 = slot12, slot13, slot14 do
-			slot16 = setActive
-			slot18 = slot0
-			slot17 = slot0.findTF
-			slot19 = "real"
-			slot21 = slot11
-			slot20 = slot11.GetChild
-			slot22 = slot15 - 1
-			slot17 = slot17(slot18, slot19, slot20(slot21, slot22))
+		slot16(slot17, slot18)
+	end
 
-			if slot15 > slot7 then
-				slot18 = false
-			else
-				slot18 = true
-			end
+	slot12 = setActive
+	slot14 = slot0
+	slot13 = slot0.findTF
+	slot15 = "name"
+	slot16 = slot5.award
+	slot13 = slot13(slot14, slot15, slot16)
+	slot14 = false
 
-			slot16(slot17, slot18)
-		end
+	slot12(slot13, slot14)
 
-		slot7 = (slot9:isReceive() and slot7) or slot7 - 1
-		slot13 = 1
-		slot14 = slot0:findTF("phase/Panel", slot4).childCount
-		slot15 = 1
+	slot12 = setActive
+	slot14 = slot0
+	slot13 = slot0.findTF
+	slot15 = "name_mask"
+	slot16 = slot5.award
+	slot13 = slot13(slot14, slot15, slot16)
+	slot14 = false
 
-		if not slot7 then
-			slot7 = slot7 - 1
-		end
+	slot12(slot13, slot14)
 
-		for slot16 = slot13, slot14, slot15 do
-			slot17 = setActive
-			slot19 = slot0
-			slot18 = slot0.findTF
-			slot20 = "real"
-			slot22 = slot12
-			slot21 = slot12.GetChild
-			slot23 = slot16 - 1
-			slot18 = slot18(slot19, slot20, slot21(slot22, slot23))
+	slot12 = onButton
+	slot13 = slot0
+	slot15 = slot0
+	slot14 = slot0.findTF
+	slot16 = "tip"
+	slot17 = slot4
+	slot14 = slot14(slot15, slot16, slot17)
 
-			if slot16 > slot7 then
-				slot19 = false
-			else
-				slot19 = true
-			end
+	function slot15()
+		slot0 = pg
+		slot0 = slot0.MsgboxMgr
+		slot0 = slot0.GetInstance
+		slot0 = slot0()
+		slot1 = slot0
+		slot0 = slot0.ShowHelpWindow
+		slot2 = {}
+		slot3 = pg
+		slot3 = slot3.gametip
+		slot3 = slot3.utaware_warmup_notice
+		slot3 = slot3.tip
+		slot2.helps = slot3
 
-			slot17(slot18, slot19)
-		end
+		slot0(slot1, slot2)
 
-		slot13 = setActive
-		slot15 = slot0
-		slot14 = slot0.findTF
-		slot16 = "name"
-		slot17 = slot5.award
-		slot14 = slot14(slot15, slot16, slot17)
-		slot15 = false
+		return
+	end
 
-		slot13(slot14, slot15)
+	slot16 = SFX_PANEL
 
-		slot13 = setActive
-		slot15 = slot0
-		slot14 = slot0.findTF
-		slot16 = "name_mask"
-		slot17 = slot5.award
-		slot14 = slot14(slot15, slot16, slot17)
-		slot15 = false
+	slot12(slot13, slot14, slot15, slot16)
 
-		slot13(slot14, slot15)
+	slot12 = math
+	slot12 = slot12.min
+	slot13 = slot10
+	slot14 = 1500
+	slot12 = slot12(slot13, slot14)
+	slot10 = slot12
+	slot13 = slot9
+	slot12 = slot9.getConfig
+	slot14 = "target_num"
+	slot12 = slot12(slot13, slot14)
 
-		slot13 = onButton
-		slot14 = slot0
-		slot16 = slot0
-		slot15 = slot0.findTF
-		slot17 = "tip"
-		slot18 = slot4
-		slot15 = slot15(slot16, slot17, slot18)
-
-		function slot16()
-			slot0 = pg
-			slot0 = slot0.MsgboxMgr
-			slot0 = slot0.GetInstance
-			slot0 = slot0()
-			slot1 = slot0
-			slot0 = slot0.ShowHelpWindow
-			slot2 = {}
-			slot3 = pg
-			slot3 = slot3.gametip
-			slot3 = slot3.utaware_warmup_notice
-			slot3 = slot3.tip
-			slot2.helps = slot3
-
-			slot0(slot1, slot2)
-
-			return
-		end
-
-		slot17 = SFX_PANEL
-
-		slot13(slot14, slot15, slot16, slot17)
-
-		slot13 = math
-		slot13 = slot13.min
+	if slot10 < slot12 then
+		slot13 = setColorStr
 		slot14 = slot10
-		slot15 = 1500
-		slot13 = slot13(slot14, slot15)
-		slot10 = slot13
-		slot14 = slot9
-		slot13 = slot9.getConfig
-		slot15 = "target_num"
+		slot15 = COLOR_RED
 		slot13 = slot13(slot14, slot15)
 
-		if slot10 < slot13 then
-			slot14 = setColorStr
-			slot15 = slot10
-			slot16 = COLOR_RED
-			slot14 = slot14(slot15, slot16)
-
-			if not slot14 then
-				slot14 = setColorStr
-				slot15 = slot10
-				slot16 = COLOR_GREEN
-				slot14 = slot14(slot15, slot16)
-			end
-		end
-
-		slot15 = "/"
-		slot16 = slot13
-		slot14 = slot14 .. slot15 .. slot16
-		slot15 = setText
-		slot16 = slot5.progressTxt
-		slot17 = slot14
-
-		slot15(slot16, slot17)
-
-		if slot7 == 7 then
-			slot15 = GetImageSpriteFromAtlasAsync
-			slot16 = "ui/activityui_atlas"
-			slot17 = "btn_finish"
-			slot18 = slot5.btn
-			slot19 = slot18
-			slot18 = slot18.Find
-			slot20 = "achieved"
-
-			slot15(slot16, slot17, slot18(slot19, slot20))
+		if not slot13 then
+			slot13 = setColorStr
+			slot14 = slot10
+			slot15 = COLOR_GREEN
+			slot13 = slot13(slot14, slot15)
 		end
 	end
+
+	slot14 = "/"
+	slot15 = slot12
+	slot13 = slot13 .. slot14 .. slot15
+	slot14 = setText
+	slot15 = slot5.progressTxt
+	slot16 = slot13
+
+	slot14(slot15, slot16)
+
+	if slot7 == 7 then
+		slot14 = GetImageSpriteFromAtlasAsync
+		slot15 = "ui/activityui_atlas"
+		slot16 = "btn_finish"
+		slot17 = slot5.btn
+		slot18 = slot17
+		slot17 = slot17.Find
+		slot19 = "achieved"
+
+		slot14(slot15, slot16, slot17(slot18, slot19))
+	end
+
+	return
 end
 
 slot0[slot4] = slot5
@@ -9948,44 +9987,50 @@ function slot5(slot0)
 		slot3.bg = slot4
 		slot5 = slot0
 		slot4 = slot0.findTF
-		slot6 = "btn_list/task"
+		slot6 = "btn_list"
 		slot7 = slot2
+		slot4 = slot4(slot5, slot6, slot7)
+		slot3.btnList = slot4
+		slot5 = slot0
+		slot4 = slot0.findTF
+		slot6 = "task"
+		slot7 = slot3.btnList
 		slot4 = slot4(slot5, slot6, slot7)
 		slot3.task = slot4
 		slot5 = slot0
 		slot4 = slot0.findTF
-		slot6 = "btn_list/shop"
-		slot7 = slot2
+		slot6 = "shop"
+		slot7 = slot3.btnList
 		slot4 = slot4(slot5, slot6, slot7)
 		slot3.shop = slot4
 		slot5 = slot0
 		slot4 = slot0.findTF
-		slot6 = "btn_list/fight"
-		slot7 = slot2
+		slot6 = "fight"
+		slot7 = slot3.btnList
 		slot4 = slot4(slot5, slot6, slot7)
 		slot3.fight = slot4
 		slot5 = slot0
 		slot4 = slot0.findTF
-		slot6 = "btn_list/build"
-		slot7 = slot2
+		slot6 = "build"
+		slot7 = slot3.btnList
 		slot4 = slot4(slot5, slot6, slot7)
 		slot3.build = slot4
 		slot5 = slot0
 		slot4 = slot0.findTF
-		slot6 = "btn_list/lottery"
-		slot7 = slot2
+		slot6 = "lottery"
+		slot7 = slot3.btnList
 		slot4 = slot4(slot5, slot6, slot7)
 		slot3.lottery = slot4
 		slot5 = slot0
 		slot4 = slot0.findTF
-		slot6 = "btn_list/memory"
-		slot7 = slot2
+		slot6 = "memory"
+		slot7 = slot3.btnList
 		slot4 = slot4(slot5, slot6, slot7)
 		slot3.memory = slot4
 		slot5 = slot0
 		slot4 = slot0.findTF
-		slot6 = "btn_list/activity"
-		slot7 = slot2
+		slot6 = "activity"
+		slot7 = slot3.btnList
 		slot4 = slot4(slot5, slot6, slot7)
 		slot3.activity = slot4
 		slot4 = LoadImageSpriteAsync
@@ -10005,163 +10050,236 @@ function slot5(slot0)
 		slot4[slot5] = slot6
 	end
 
-	slot4 = onButton
-	slot5 = slot0
-	slot6 = slot3.task
+	slot4 = {}
 
-	function slot7()
-		slot0 = slot0
+	function slot5()
+		slot0 = onButton
 		slot1 = slot0
-		slot0 = slot0.emit
-		slot2 = ActivityMediator
-		slot2 = slot2.EVENT_GO_SCENE
-		slot3 = SCENE
-		slot3 = slot3.TASK
-		slot4 = {
-			page = "activity"
-		}
+		slot2 = slot1
+		slot2 = slot2.task
 
-		slot0(slot1, slot2, slot3, slot4)
+		function slot3()
+			slot0 = slot0
+			slot1 = slot0
+			slot0 = slot0.emit
+			slot2 = ActivityMediator
+			slot2 = slot2.EVENT_GO_SCENE
+			slot3 = SCENE
+			slot3 = slot3.TASK
+			slot4 = {
+				page = "activity"
+			}
+
+			slot0(slot1, slot2, slot3, slot4)
+
+			return
+		end
+
+		slot0(slot1, slot2, slot3)
 
 		return
 	end
 
-	slot4(slot5, slot6, slot7)
+	slot4.task = slot5
 
-	slot4 = onButton
-	slot5 = slot0
-	slot6 = slot3.shop
+	function slot5()
+		slot0 = _
+		slot0 = slot0.detect
+		slot1 = getProxy
+		slot2 = ActivityProxy
+		slot1 = slot1(slot2)
+		slot2 = slot1
+		slot1 = slot1.getActivitiesByType
+		slot3 = ActivityConst
+		slot3 = slot3.ACTIVITY_TYPE_SHOP
+		slot1 = slot1(slot2, slot3)
 
-	function slot7()
-		slot0 = slot0
-		slot1 = slot0
-		slot0 = slot0.isEnd
-		slot0 = slot0(slot1)
+		function slot2(slot0)
+			slot2 = slot0
+			slot1 = slot0.getConfig
+			slot3 = "config_client"
+			slot1 = slot1(slot2, slot3)
+			slot1 = slot1.pt_id
+			slot2 = pg
+			slot2 = slot2.gameset
+			slot2 = slot2.activity_res_id
+			slot2 = slot2.key_value
 
-		if not slot0 then
-			slot0 = slot1
+			if slot1 ~= slot2 then
+				slot1 = false
+			else
+				slot1 = true
+			end
+
+			return slot1
+		end
+
+		slot0 = slot0(slot1, slot2)
+		slot1 = onButton
+		slot2 = slot0
+		slot3 = slot1
+		slot3 = slot3.shop
+
+		function slot4()
+			slot0 = slot0
 			slot1 = slot0
 			slot0 = slot0.emit
 			slot2 = ActivityMediator
 			slot2 = slot2.GO_SHOPS_LAYER
+			slot3 = {}
+			slot4 = ShopsLayer
+			slot4 = slot4.TYPE_ACTIVITY
+			slot3.warp = slot4
+			slot4 = slot1
 
-			slot0(slot1, slot2)
-		else
-			slot0 = pg
-			slot0 = slot0.TipsMgr
-			slot1 = slot0
-			slot0 = slot0.GetInstance
-			slot0 = slot0(slot1)
-			slot1 = slot0
-			slot0 = slot0.ShowTips
-			slot2 = i18n
-			slot3 = "common_activity_not_start"
+			if slot4 then
+				slot4 = slot1
+				slot4 = slot4.id
+			end
 
-			slot0(slot1, slot2(slot3))
+			slot3.actId = slot4
+
+			slot0(slot1, slot2, slot3)
+
+			return
 		end
 
-		return
-	end
-
-	slot4(slot5, slot6, slot7)
-
-	slot4 = onButton
-	slot5 = slot0
-	slot6 = slot3.build
-
-	function slot7()
-		slot0 = slot0
-		slot1 = slot0
-		slot0 = slot0.emit
-		slot2 = ActivityMediator
-		slot2 = slot2.EVENT_GO_SCENE
-		slot3 = SCENE
-		slot3 = slot3.GETBOAT
-		slot4 = {
-			projectName = "light"
-		}
-
-		slot0(slot1, slot2, slot3, slot4)
+		slot1(slot2, slot3, slot4)
 
 		return
 	end
 
-	slot4(slot5, slot6, slot7)
+	slot4.shop = slot5
 
-	slot4 = onButton
-	slot5 = slot0
-	slot6 = slot3.fight
-
-	function slot7()
-		slot0 = slot0
+	function slot5()
+		slot0 = onButton
 		slot1 = slot0
-		slot0 = slot0.isEnd
-		slot0 = slot0(slot1)
+		slot2 = slot1
+		slot2 = slot2.build
 
-		if not slot0 then
-			slot0 = slot1
+		function slot3()
+			slot0 = slot0
+			slot1 = slot0
+			slot0 = slot0.emit
+			slot2 = ActivityMediator
+			slot2 = slot2.EVENT_GO_SCENE
+			slot3 = SCENE
+			slot3 = slot3.GETBOAT
+			slot4 = {}
+			slot5 = BuildShipScene
+			slot5 = slot5.PROJECTS
+			slot5 = slot5.ACTIVITY
+			slot4.projectName = slot5
+
+			slot0(slot1, slot2, slot3, slot4)
+
+			return
+		end
+
+		slot0(slot1, slot2, slot3)
+
+		return
+	end
+
+	slot4.build = slot5
+
+	function slot5()
+		slot0 = onButton
+		slot1 = slot0
+		slot2 = slot1
+		slot2 = slot2.fight
+
+		function slot3()
+			slot0 = slot0
 			slot1 = slot0
 			slot0 = slot0.emit
 			slot2 = ActivityMediator
 			slot2 = slot2.BATTLE_OPERA
 
 			slot0(slot1, slot2)
-		else
-			slot0 = pg
-			slot0 = slot0.TipsMgr
-			slot1 = slot0
-			slot0 = slot0.GetInstance
-			slot0 = slot0(slot1)
-			slot1 = slot0
-			slot0 = slot0.ShowTips
-			slot2 = i18n
-			slot3 = "common_activity_not_start"
 
-			slot0(slot1, slot2(slot3))
+			return
 		end
 
+		slot0(slot1, slot2, slot3)
+
 		return
 	end
 
-	slot4(slot5, slot6, slot7)
+	slot4.fight = slot5
 
-	slot4 = onButton
-	slot5 = slot0
-	slot6 = slot3.lottery
-
-	function slot7()
-		slot0 = slot0
+	function slot5()
+		slot0 = onButton
 		slot1 = slot0
-		slot0 = slot0.emit
-		slot2 = ActivityMediator
-		slot2 = slot2.GO_LOTTERY
+		slot2 = slot1
+		slot2 = slot2.lottery
 
-		slot0(slot1, slot2)
+		function slot3()
+			slot0 = slot0
+			slot1 = slot0
+			slot0 = slot0.emit
+			slot2 = ActivityMediator
+			slot2 = slot2.GO_LOTTERY
+
+			slot0(slot1, slot2)
+
+			return
+		end
+
+		slot0(slot1, slot2, slot3)
 
 		return
 	end
 
-	slot4(slot5, slot6, slot7)
+	slot4.lottery = slot5
 
-	slot4 = onButton
-	slot5 = slot0
-	slot6 = slot3.memory
+	function slot5()
+		slot0 = onButton
+		slot1 = slot0
+		slot2 = slot1
+		slot2 = slot2.memory
 
-	function slot7()
+		function slot3()
+			return
+		end
+
+		slot0(slot1, slot2, slot3)
+
 		return
 	end
 
-	slot4(slot5, slot6, slot7)
+	slot4.memory = slot5
 
-	slot4 = onButton
-	slot5 = slot0
-	slot6 = slot3.activity
+	function slot5()
+		slot0 = onButton
+		slot1 = slot0
+		slot2 = slot1
+		slot2 = slot2.activity
 
-	function slot7()
+		function slot3()
+			return
+		end
+
+		slot0(slot1, slot2, slot3)
+
 		return
 	end
 
-	slot4(slot5, slot6, slot7)
+	slot4.activity = slot5
+	slot5 = eachChild
+	slot6 = slot3.btnList
+
+	function slot7(slot0)
+		slot1 = slot0
+		slot2 = slot0.name
+		slot1 = slot1[slot2]
+
+		slot1()
+
+		return
+	end
+
+	slot5(slot6, slot7)
 
 	return
 end
@@ -10400,14 +10518,16 @@ function slot5(slot0)
 	slot2 = slot0.activity
 	slot1 = slot1(slot2)
 
-	if not slot1 then
-		slot3 = slot0
-		slot2 = slot0.update_task_list_skin
-		slot4 = slot0.activity
-		slot4 = slot4.data3
-
-		slot2(slot3, slot4)
+	if slot1 then
+		return
 	end
+
+	slot3 = slot0
+	slot2 = slot0.update_task_list_skin
+	slot4 = slot0.activity
+	slot4 = slot4.data3
+
+	slot2(slot3, slot4)
 
 	return
 end
@@ -10768,231 +10888,141 @@ function slot5(slot0)
 	slot2 = slot0.activity
 	slot1 = slot1(slot2)
 
-	if not slot1 then
-		slot3 = slot0
-		slot2 = slot0.update_task_list_skin
-		slot4 = nday
-
-		slot2(slot3, slot4)
-
-		slot2 = slot0.activity
-		slot3 = slot0.pages
-		slot5 = slot0
-		slot4 = slot0.activity2Page
-		slot6 = slot2
-		slot4 = slot4(slot5, slot6)
-		slot3 = slot3[slot4]
-		slot4 = slot0.pagesInit
-		slot5 = slot3.name
-		slot4 = slot4[slot5]
-		slot6 = slot0
-		slot5 = slot0.update_task_list_skin
-		slot7 = slot0.activity
-		slot7 = slot7.data3
-
-		slot5(slot6, slot7)
-
-		slot5 = slot0.activity
-		slot6 = slot0.pages
-		slot8 = slot0
-		slot7 = slot0.activity2Page
-		slot9 = slot5
-		slot7 = slot7(slot8, slot9)
-		slot6 = slot6[slot7]
-		slot7 = slot0.pagesInit
-		slot8 = slot6.name
-		slot7 = slot7[slot8]
-		slot8 = slot7.scrollTextList
-
-		if slot8 then
-			slot8 = ipairs
-			slot9 = slot7.scrollTextList
-			slot8, slot9, slot10 = slot8(slot9)
-
-			for slot11, slot12 in slot8, slot9, slot10 do
-				slot14 = slot12
-				slot13 = slot12.destroy
-
-				slot13(slot14)
-			end
-
-			slot8 = {}
-			slot7.scrollTextList = slot8
-			slot8 = 0
-			slot9 = eachChild
-			slot10 = slot7.layout
-
-			function slot11(slot0)
-				slot1 = slot0
-				slot1 = slot1 + 1
-				slot0 = slot1
-				slot1 = slot1
-				slot1 = slot1.scrollTextList
-				slot2 = slot0
-				slot3 = ScrollTxt
-				slot4 = slot3
-				slot3 = slot3.changeToScroll
-				slot5 = findTF
-				slot6 = slot0
-				slot7 = "description"
-				slot3 = slot3(slot4, slot5(slot6, slot7))
-				slot1[slot2] = slot3
-
-				return
-			end
-
-			slot9(slot10, slot11)
-		end
-
-		slot8 = {}
-		slot7.scrollTextList = slot8
-		slot8 = 0
-		slot9 = eachChild
-		slot10 = slot7.layout
-
-		function slot11(slot0)
-			slot1 = slot0
-			slot1 = slot1 + 1
-			slot0 = slot1
-			slot1 = slot1
-			slot1 = slot1.scrollTextList
-			slot2 = slot0
-			slot3 = ScrollTxt
-			slot4 = slot3
-			slot3 = slot3.changeToScroll
-			slot5 = findTF
-			slot6 = slot0
-			slot7 = "description"
-			slot3 = slot3(slot4, slot5(slot6, slot7))
-			slot1[slot2] = slot3
-
-			return
-		end
-
-		slot9(slot10, slot11)
+	if slot1 then
+		return
 	end
 
-	slot2 = slot0
+	slot3 = slot0
+	slot2 = slot0.update_task_list_skin
+	slot4 = slot0.activity
+	slot4 = slot4.data3
 
-	function slot3(slot0)
+	slot2(slot3, slot4)
+
+	slot2 = slot0.activity
+	slot3 = slot0.pages
+	slot5 = slot0
+	slot4 = slot0.activity2Page
+	slot6 = slot2
+	slot4 = slot4(slot5, slot6)
+	slot3 = slot3[slot4]
+	slot4 = slot0.pagesInit
+	slot5 = slot3.name
+	slot4 = slot4[slot5]
+	slot5 = slot4.scrollTextList
+
+	if slot5 then
+		slot5 = ipairs
+		slot6 = slot4.scrollTextList
+		slot5, slot6, slot7 = slot5(slot6)
+
+		for slot8, slot9 in slot5, slot6, slot7 do
+			slot11 = slot9
+			slot10 = slot9.destroy
+
+			slot10(slot11)
+		end
+	end
+
+	slot5 = {}
+	slot4.scrollTextList = slot5
+	slot5 = 0
+	slot6 = eachChild
+	slot7 = slot4.layout
+
+	function slot8(slot0)
+		slot1 = slot0
+		slot1 = slot1 + 1
+		slot0 = slot1
+		slot1 = slot1
+		slot1 = slot1.scrollTextList
 		slot2 = slot0
-		slot1 = slot0.clear_task_list_skin
-		slot3 = slot0.pages
-		slot4 = slot0
-		slot5 = ActivityConst
-		slot5 = slot5.SKIN_OSHIO
-		slot4 = slot4[slot5]
-		slot3 = slot3[slot4]
-
-		slot1(slot2, slot3)
+		slot3 = ScrollTxt
+		slot4 = slot3
+		slot3 = slot3.changeToScroll
+		slot5 = findTF
+		slot6 = slot0
+		slot7 = "description"
+		slot3 = slot3(slot4, slot5(slot6, slot7))
+		slot1[slot2] = slot3
 
 		return
 	end
 
-	slot2.clear_skin_oshio = slot3
+	slot6(slot7, slot8)
+
+	return
+end
+
+slot0[slot4] = slot5
+slot4 = "clear_skin_oshio"
+
+function slot5(slot0)
 	slot2 = slot0
+	slot1 = slot0.clear_task_list_skin
+	slot3 = slot0.pages
+	slot4 = slot0
+	slot5 = ActivityConst
+	slot5 = slot5.SKIN_OSHIO
+	slot4 = slot4[slot5]
+	slot3 = slot3[slot4]
 
-	function slot3(slot0)
-		slot1 = slot0.activity
-		slot2 = slot0.pages
-		slot4 = slot0
-		slot3 = slot0.activity2Page
-		slot5 = slot1
-		slot3 = slot3(slot4, slot5)
-		slot2 = slot2[slot3]
-		slot3 = slot0.pagesInit
-		slot4 = slot2.name
-		slot3 = slot3[slot4]
-		slot4 = pg
-		slot4 = slot4.activity_7_day_sign
-		slot6 = slot1
-		slot5 = slot1.getConfig
-		slot7 = "config_id"
-		slot5 = slot5(slot6, slot7)
-		slot4 = slot4[slot5]
+	slot1(slot2, slot3)
 
-		if not slot3 then
-			slot3 = {}
-			slot6 = slot0
-			slot5 = slot0.findTF
-			slot7 = "AD"
-			slot8 = slot2
-			slot5 = slot5(slot6, slot7, slot8)
-			slot3.bg = slot5
-			slot6 = slot0
-			slot5 = slot0.findTF
-			slot7 = "items"
-			slot8 = slot2
-			slot5 = slot5(slot6, slot7, slot8)
-			slot3.layer = slot5
-			slot5 = LoadImageSpriteAsync
-			slot6 = slot0
-			slot7 = slot1.id
-			slot6 = slot6[slot7]
-			slot7 = slot3.bg
+	return
+end
 
-			slot5(slot6, slot7)
+slot0[slot4] = slot5
+slot4 = "flush_login_santa"
 
-			slot5 = slot0.pagesInit
-			slot6 = slot2.name
-			slot5[slot6] = slot3
-			slot5 = slot0.pageId
-			slot6 = slot2.name
-			slot7 = slot1.id
-			slot5[slot6] = slot7
-			slot5 = 1
-			slot6 = 7
-			slot7 = 1
+function slot5(slot0)
+	slot1 = slot0.activity
+	slot2 = slot0.pages
+	slot4 = slot0
+	slot3 = slot0.activity2Page
+	slot5 = slot1
+	slot3 = slot3(slot4, slot5)
+	slot2 = slot2[slot3]
+	slot3 = slot0.pagesInit
+	slot4 = slot2.name
+	slot3 = slot3[slot4]
+	slot4 = pg
+	slot4 = slot4.activity_7_day_sign
+	slot6 = slot1
+	slot5 = slot1.getConfig
+	slot7 = "config_id"
+	slot5 = slot5(slot6, slot7)
+	slot4 = slot4[slot5]
 
-			for slot8 = slot5, slot6, slot7 do
-				slot9 = slot3.layer
-				slot10 = slot9
-				slot9 = slot9.GetChild
-				slot11 = slot8 - 1
-				slot9 = slot9(slot10, slot11)
-				slot11 = slot0
-				slot10 = slot0.findTF
-				slot12 = "item"
-				slot13 = slot9
-				slot10 = slot10(slot11, slot12, slot13)
-				slot11 = slot4.front_drops
-				slot11 = slot11[slot8]
-				slot12 = {}
-				slot13 = slot11[1]
-				slot12.type = slot13
-				slot13 = slot11[2]
-				slot12.id = slot13
-				slot13 = slot11[3]
-				slot12.count = slot13
-				slot13 = updateDrop
-				slot14 = slot10
-				slot15 = slot12
+	if not slot3 then
+		slot3 = {}
+		slot6 = slot0
+		slot5 = slot0.findTF
+		slot7 = "AD"
+		slot8 = slot2
+		slot5 = slot5(slot6, slot7, slot8)
+		slot3.bg = slot5
+		slot6 = slot0
+		slot5 = slot0.findTF
+		slot7 = "items"
+		slot8 = slot2
+		slot5 = slot5(slot6, slot7, slot8)
+		slot3.layer = slot5
+		slot5 = LoadImageSpriteAsync
+		slot6 = slot0
+		slot7 = slot1.id
+		slot6 = slot6[slot7]
+		slot7 = slot3.bg
 
-				slot13(slot14, slot15)
+		slot5(slot6, slot7)
 
-				slot13 = onButton
-				slot14 = slot0
-				slot15 = slot10
-
-				function slot16()
-					slot0 = slot0
-					slot1 = slot0
-					slot0 = slot0.emit
-					slot2 = slot1
-					slot2 = slot2.ON_DROP
-					slot3 = slot2
-
-					slot0(slot1, slot2, slot3)
-
-					return
-				end
-
-				slot17 = SFX_PANEL
-
-				slot13(slot14, slot15, slot16, slot17)
-			end
-		end
-
+		slot5 = slot0.pagesInit
+		slot6 = slot2.name
+		slot5[slot6] = slot3
+		slot5 = slot0.pageId
+		slot6 = slot2.name
+		slot7 = slot1.id
+		slot5[slot6] = slot7
 		slot5 = 1
 		slot6 = 7
 		slot7 = 1
@@ -11003,818 +11033,885 @@ function slot5(slot0)
 			slot9 = slot9.GetChild
 			slot11 = slot8 - 1
 			slot9 = slot9(slot10, slot11)
-			slot10 = slot1.data1
+			slot11 = slot0
+			slot10 = slot0.findTF
+			slot12 = "item"
+			slot13 = slot9
+			slot10 = slot10(slot11, slot12, slot13)
+			slot11 = slot4.front_drops
+			slot11 = slot11[slot8]
+			slot12 = {}
+			slot13 = slot11[1]
+			slot12.type = slot13
+			slot13 = slot11[2]
+			slot12.id = slot13
+			slot13 = slot11[3]
+			slot12.count = slot13
+			slot13 = updateDrop
+			slot14 = slot10
+			slot15 = slot12
 
-			if slot8 > slot10 then
-				slot10 = false
-			else
-				slot10 = true
-			end
+			slot13(slot14, slot15)
 
-			slot11 = setActive
-			slot13 = slot0
-			slot12 = slot0.findTF
-			slot14 = "got"
-			slot15 = slot9
-			slot12 = slot12(slot13, slot14, slot15)
-			slot13 = slot10
+			slot13 = onButton
+			slot14 = slot0
+			slot15 = slot10
 
-			slot11(slot12, slot13)
-		end
-
-		return
-	end
-
-	slot2.flush_login_santa = slot3
-	slot2 = slot0
-
-	function slot3(slot0)
-		slot1 = slot0.pages
-		slot2 = slot0
-		slot3 = ActivityConst
-		slot3 = slot3.LOGIN_SANTA
-		slot2 = slot2[slot3]
-		slot1 = slot1[slot2]
-		slot2 = slot0.pagesInit
-		slot3 = slot1.name
-		slot2 = slot2[slot3]
-
-		if slot2 then
-			slot3 = clearImageSprite
-			slot4 = slot2.bg
-
-			slot3(slot4)
-		end
-
-		return
-	end
-
-	slot2.clear_login_santa = slot3
-	slot2 = slot0
-
-	function slot3(slot0)
-		slot2 = slot0
-		slot1 = slot0.flush_task_list_pt
-
-		slot1(slot2)
-
-		slot1 = slot0.activity
-		slot2 = slot0.pages
-		slot4 = slot0
-		slot3 = slot0.activity2Page
-		slot5 = slot1
-		slot3 = slot3(slot4, slot5)
-		slot2 = slot2[slot3]
-		slot3 = slot0.pagesInit
-		slot4 = slot2.name
-		slot3 = slot3[slot4]
-		slot4 = getDoingTask
-		slot5 = slot1
-		slot4, slot5, slot6 = slot4(slot5)
-		slot7 = slot3.btn
-		slot8 = slot7
-		slot7 = slot7.GetComponent
-		slot9 = typeof
-		slot10 = Image
-		slot7 = slot7(slot8, slot9(slot10))
-		slot8 = false
-		slot7.enabled = slot8
-		slot7 = setActive
-		slot8 = slot3.btn
-		slot9 = slot8
-		slot8 = slot8.Find
-		slot10 = "get"
-		slot8 = slot8(slot9, slot10)
-		slot9 = true
-
-		slot7(slot8, slot9)
-
-		slot7 = setActive
-		slot8 = slot3.btn
-		slot9 = slot8
-		slot8 = slot8.Find
-		slot10 = "achieved"
-		slot8 = slot8(slot9, slot10)
-		slot9 = false
-
-		slot7(slot8, slot9)
-
-		slot7 = setActive
-		slot8 = slot3.btn
-		slot10 = slot6
-		slot9 = slot6.isFinish
-		slot9 = slot9(slot10)
-
-		if slot9 then
-			slot10 = slot6
-			slot9 = slot6.isReceive
-			slot9 = slot9(slot10)
-			slot9 = not slot9
-		end
-
-		slot7(slot8, slot9)
-
-		return
-	end
-
-	slot2.flush_pt_page_amagi = slot3
-	slot2 = slot0
-
-	function slot3(slot0)
-		slot1 = slot0.pages
-		slot2 = slot0
-		slot3 = ActivityConst
-		slot3 = slot3.AMAGI_ACTIVITY_PT_ID
-		slot2 = slot2[slot3]
-		slot1 = slot1[slot2]
-		slot2 = slot0.pagesInit
-		slot3 = slot1.name
-		slot2 = slot2[slot3]
-
-		if slot2 then
-			slot3 = clearImageSprite
-			slot4 = slot2.bg
-
-			slot3(slot4)
-		end
-
-		return
-	end
-
-	slot2.clear_pt_page_amagi = slot3
-	slot2 = slot0
-
-	function slot3(slot0)
-		slot1 = slot0.activity
-		slot2 = slot0.pages
-		slot4 = slot0
-		slot3 = slot0.activity2Page
-		slot5 = slot1
-		slot3 = slot3(slot4, slot5)
-		slot2 = slot2[slot3]
-		slot3 = slot0.pagesInit
-		slot4 = slot2.name
-		slot3 = slot3[slot4]
-
-		if not slot3 then
-			slot3 = {}
-			slot5 = slot0
-			slot4 = slot0.findTF
-			slot6 = "bg"
-			slot7 = slot2
-			slot4 = slot4(slot5, slot6, slot7)
-			slot3.bg = slot4
-			slot5 = slot0
-			slot4 = slot0.findTF
-			slot6 = "layer"
-			slot7 = slot2
-			slot4 = slot4(slot5, slot6, slot7)
-			slot3.layer = slot4
-			slot5 = slot0
-			slot4 = slot0.findTF
-			slot6 = "lottery_btn"
-			slot7 = slot3.layer
-			slot4 = slot4(slot5, slot6, slot7)
-			slot3.lotteryBtn = slot4
-			slot5 = slot0
-			slot4 = slot0.findTF
-			slot6 = "mask"
-			slot7 = slot3.lotteryBtn
-			slot4 = slot4(slot5, slot6, slot7)
-			slot3.mask = slot4
-			slot5 = slot0
-			slot4 = slot0.findTF
-			slot6 = "phase"
-			slot7 = slot3.layer
-			slot4 = slot4(slot5, slot6, slot7)
-			slot3.phase = slot4
-			slot4 = LoadImageSpriteAsync
-			slot5 = slot0
-			slot6 = slot1.id
-			slot5 = slot5[slot6]
-			slot6 = slot3.bg
-
-			slot4(slot5, slot6)
-
-			slot4 = onButton
-			slot5 = slot0
-			slot6 = slot3.lotteryBtn
-
-			function slot7()
+			function slot16()
 				slot0 = slot0
 				slot1 = slot0
 				slot0 = slot0.emit
-				slot2 = ActivityMediator
-				slot2 = slot2.EVENT_OPERATION
-				slot3 = {
-					cmd = 1
-				}
-				slot4 = slot1
-				slot4 = slot4.id
-				slot3.activity_id = slot4
+				slot2 = slot1
+				slot2 = slot2.ON_DROP
+				slot3 = slot2
 
 				slot0(slot1, slot2, slot3)
 
 				return
 			end
 
-			slot8 = SFX_PANEL
+			slot17 = SFX_PANEL
 
-			slot4(slot5, slot6, slot7, slot8)
+			slot13(slot14, slot15, slot16, slot17)
+		end
+	end
 
-			function slot4(slot0, slot1, slot2)
-				slot3 = slot0
+	slot5 = 1
+	slot6 = 7
+	slot7 = 1
+
+	for slot8 = slot5, slot6, slot7 do
+		slot9 = slot3.layer
+		slot10 = slot9
+		slot9 = slot9.GetChild
+		slot11 = slot8 - 1
+		slot9 = slot9(slot10, slot11)
+		slot10 = slot1.data1
+
+		if slot8 > slot10 then
+			slot10 = false
+		else
+			slot10 = true
+		end
+
+		slot11 = setActive
+		slot13 = slot0
+		slot12 = slot0.findTF
+		slot14 = "got"
+		slot15 = slot9
+		slot12 = slot12(slot13, slot14, slot15)
+		slot13 = slot10
+
+		slot11(slot12, slot13)
+	end
+
+	return
+end
+
+slot0[slot4] = slot5
+slot4 = "clear_login_santa"
+
+function slot5(slot0)
+	slot1 = slot0.pages
+	slot2 = slot0
+	slot3 = ActivityConst
+	slot3 = slot3.LOGIN_SANTA
+	slot2 = slot2[slot3]
+	slot1 = slot1[slot2]
+	slot2 = slot0.pagesInit
+	slot3 = slot1.name
+	slot2 = slot2[slot3]
+
+	if slot2 then
+		slot3 = clearImageSprite
+		slot4 = slot2.bg
+
+		slot3(slot4)
+	end
+
+	return
+end
+
+slot0[slot4] = slot5
+slot4 = "flush_pt_page_amagi"
+
+function slot5(slot0)
+	slot2 = slot0
+	slot1 = slot0.flush_task_list_pt
+
+	slot1(slot2)
+
+	slot1 = slot0.activity
+	slot2 = slot0.pages
+	slot4 = slot0
+	slot3 = slot0.activity2Page
+	slot5 = slot1
+	slot3 = slot3(slot4, slot5)
+	slot2 = slot2[slot3]
+	slot3 = slot0.pagesInit
+	slot4 = slot2.name
+	slot3 = slot3[slot4]
+	slot4 = getDoingTask
+	slot5 = slot1
+	slot4, slot5, slot6 = slot4(slot5)
+	slot7 = slot3.btn
+	slot8 = slot7
+	slot7 = slot7.GetComponent
+	slot9 = typeof
+	slot10 = Image
+	slot7 = slot7(slot8, slot9(slot10))
+	slot8 = false
+	slot7.enabled = slot8
+	slot7 = setActive
+	slot8 = slot3.btn
+	slot9 = slot8
+	slot8 = slot8.Find
+	slot10 = "get"
+	slot8 = slot8(slot9, slot10)
+	slot9 = true
+
+	slot7(slot8, slot9)
+
+	slot7 = setActive
+	slot8 = slot3.btn
+	slot9 = slot8
+	slot8 = slot8.Find
+	slot10 = "achieved"
+	slot8 = slot8(slot9, slot10)
+	slot9 = false
+
+	slot7(slot8, slot9)
+
+	slot7 = setActive
+	slot8 = slot3.btn
+	slot10 = slot6
+	slot9 = slot6.isFinish
+	slot9 = slot9(slot10)
+
+	if slot9 then
+		slot10 = slot6
+		slot9 = slot6.isReceive
+		slot9 = slot9(slot10)
+		slot9 = not slot9
+	end
+
+	slot7(slot8, slot9)
+
+	return
+end
+
+slot0[slot4] = slot5
+slot4 = "clear_pt_page_amagi"
+
+function slot5(slot0)
+	slot1 = slot0.pages
+	slot2 = slot0
+	slot3 = ActivityConst
+	slot3 = slot3.AMAGI_ACTIVITY_PT_ID
+	slot2 = slot2[slot3]
+	slot1 = slot1[slot2]
+	slot2 = slot0.pagesInit
+	slot3 = slot1.name
+	slot2 = slot2[slot3]
+
+	if slot2 then
+		slot3 = clearImageSprite
+		slot4 = slot2.bg
+
+		slot3(slot4)
+	end
+
+	return
+end
+
+slot0[slot4] = slot5
+slot4 = "flush_lottery_award_omikuji"
+
+function slot5(slot0)
+	slot1 = slot0.activity
+	slot2 = slot0.pages
+	slot4 = slot0
+	slot3 = slot0.activity2Page
+	slot5 = slot1
+	slot3 = slot3(slot4, slot5)
+	slot2 = slot2[slot3]
+	slot3 = slot0.pagesInit
+	slot4 = slot2.name
+	slot3 = slot3[slot4]
+
+	if not slot3 then
+		slot3 = {}
+		slot5 = slot0
+		slot4 = slot0.findTF
+		slot6 = "bg"
+		slot7 = slot2
+		slot4 = slot4(slot5, slot6, slot7)
+		slot3.bg = slot4
+		slot5 = slot0
+		slot4 = slot0.findTF
+		slot6 = "layer"
+		slot7 = slot2
+		slot4 = slot4(slot5, slot6, slot7)
+		slot3.layer = slot4
+		slot5 = slot0
+		slot4 = slot0.findTF
+		slot6 = "lottery_btn"
+		slot7 = slot3.layer
+		slot4 = slot4(slot5, slot6, slot7)
+		slot3.lotteryBtn = slot4
+		slot5 = slot0
+		slot4 = slot0.findTF
+		slot6 = "mask"
+		slot7 = slot3.lotteryBtn
+		slot4 = slot4(slot5, slot6, slot7)
+		slot3.mask = slot4
+		slot5 = slot0
+		slot4 = slot0.findTF
+		slot6 = "phase"
+		slot7 = slot3.layer
+		slot4 = slot4(slot5, slot6, slot7)
+		slot3.phase = slot4
+		slot4 = LoadImageSpriteAsync
+		slot5 = slot0
+		slot6 = slot1.id
+		slot5 = slot5[slot6]
+		slot6 = slot3.bg
+
+		slot4(slot5, slot6)
+
+		slot4 = onButton
+		slot5 = slot0
+		slot6 = slot3.lotteryBtn
+
+		function slot7()
+			slot0 = slot0
+			slot1 = slot0
+			slot0 = slot0.emit
+			slot2 = ActivityMediator
+			slot2 = slot2.EVENT_OPERATION
+			slot3 = {
+				cmd = 1
+			}
+			slot4 = slot1
+			slot4 = slot4.id
+			slot3.activity_id = slot4
+
+			slot0(slot1, slot2, slot3)
+
+			return
+		end
+
+		slot8 = SFX_PANEL
+
+		slot4(slot5, slot6, slot7, slot8)
+
+		function slot4(slot0, slot1, slot2)
+			slot3 = slot0
+			slot4 = slot3
+			slot3 = slot3.findTF
+			slot5 = "omikuji_anim"
+			slot6 = slot0
+			slot6 = slot6.animation
+			slot3 = slot3(slot4, slot5, slot6)
+			slot4 = slot3
+			slot3 = slot3.GetComponent
+			slot5 = typeof
+			slot6 = DftAniEvent
+			slot3 = slot3(slot4, slot5(slot6))
+			slot5 = slot3
+			slot4 = slot3.SetEndEvent
+
+			function slot6(slot0)
+				slot1 = setActive
+				slot2 = slot0
+				slot2 = slot2.gameObject
+				slot3 = false
+
+				slot1(slot2, slot3)
+
+				slot1 = slot1
+				slot2 = slot1
+				slot1 = slot1.findTF
+				slot3 = "omikuji_result"
+				slot4 = slot1
+				slot4 = slot4.animation
+				slot1 = slot1(slot2, slot3, slot4)
+				slot2 = setActive
+				slot3 = slot1
+				slot4 = true
+
+				slot2(slot3, slot4)
+
+				slot2 = slot1
+				slot3 = slot2
+				slot2 = slot2.findTF
+				slot4 = "title"
+				slot5 = slot1
+				slot2 = slot2(slot3, slot4, slot5)
+				slot3 = 1
+				slot4 = slot2.childCount
+				slot5 = 1
+
+				for slot6 = slot3, slot4, slot5 do
+					slot7 = setActive
+					slot9 = slot2
+					slot8 = slot2.GetChild
+					slot10 = slot6 - 1
+					slot8 = slot8(slot9, slot10)
+					slot9 = slot2
+
+					if slot6 ~= slot9 then
+						slot9 = false
+					else
+						slot9 = true
+					end
+
+					slot7(slot8, slot9)
+				end
+
+				slot3 = slot1
 				slot4 = slot3
 				slot3 = slot3.findTF
-				slot5 = "omikuji_anim"
-				slot6 = slot0
-				slot6 = slot6.animation
+				slot5 = "desc"
+				slot6 = slot1
 				slot3 = slot3(slot4, slot5, slot6)
-				slot4 = slot3
-				slot3 = slot3.GetComponent
-				slot5 = typeof
-				slot6 = DftAniEvent
-				slot3 = slot3(slot4, slot5(slot6))
-				slot5 = slot3
-				slot4 = slot3.SetEndEvent
+				slot4 = {
+					"big",
+					"medium",
+					"little"
+				}
+				slot5 = i18n
+				slot6 = "draw_"
+				slot7 = slot2
+				slot7 = slot4[slot7]
+				slot8 = "_luck_"
+				slot9 = math
+				slot9 = slot9.random
+				slot10 = 1
+				slot11 = 3
+				slot9 = slot9(slot10, slot11)
+				slot6 = slot6 .. slot7 .. slot8 .. slot9
+				slot5 = slot5(slot6)
+				slot6 = setText
+				slot7 = slot3
+				slot8 = slot5
 
-				function slot6(slot0)
-					slot1 = setActive
-					slot2 = slot0
-					slot2 = slot2.gameObject
-					slot3 = false
+				slot6(slot7, slot8)
 
-					slot1(slot2, slot3)
+				slot6 = slot1
+				slot7 = slot6
+				slot6 = slot6.findTF
+				slot8 = "award"
+				slot9 = slot1
+				slot6 = slot6(slot7, slot8, slot9)
+				slot7 = slot1
+				slot8 = slot7
+				slot7 = slot7.findTF
+				slot9 = "award_list"
+				slot10 = slot1
+				slot7 = slot7(slot8, slot9, slot10)
+				slot8 = setActive
+				slot9 = slot6
+				slot10 = false
 
-					slot1 = slot1
-					slot2 = slot1
-					slot1 = slot1.findTF
-					slot3 = "omikuji_result"
-					slot4 = slot1
-					slot4 = slot4.animation
-					slot1 = slot1(slot2, slot3, slot4)
-					slot2 = setActive
-					slot3 = slot1
-					slot4 = true
+				slot8(slot9, slot10)
 
-					slot2(slot3, slot4)
+				slot8 = removeAllChildren
+				slot9 = slot7
 
-					slot2 = slot1
-					slot3 = slot2
-					slot2 = slot2.findTF
-					slot4 = "title"
-					slot5 = slot1
-					slot2 = slot2(slot3, slot4, slot5)
-					slot3 = 1
-					slot4 = slot2.childCount
-					slot5 = 1
+				slot8(slot9)
 
-					for slot6 = slot3, slot4, slot5 do
-						slot7 = setActive
-						slot9 = slot2
-						slot8 = slot2.GetChild
-						slot10 = slot6 - 1
-						slot8 = slot8(slot9, slot10)
-						slot9 = slot2
+				slot8 = ipairs
+				slot9 = slot3
+				slot8, slot9, slot10 = slot8(slot9)
 
-						if slot6 ~= slot9 then
-							slot9 = false
-						else
-							slot9 = true
-						end
+				for slot11, slot12 in slot8, slot9, slot10 do
+					slot13 = cloneTplTo
+					slot14 = slot6
+					slot15 = slot7
+					slot13 = slot13(slot14, slot15)
+					slot14 = {}
+					slot15 = slot12.type
+					slot14.type = slot15
+					slot15 = slot12.id
+					slot14.id = slot15
+					slot15 = slot12.count
+					slot14.count = slot15
+					slot15 = updateDrop
+					slot16 = slot13
+					slot17 = slot14
 
-						slot7(slot8, slot9)
-					end
+					slot15(slot16, slot17)
 
-					slot3 = slot1
-					slot4 = slot3
-					slot3 = slot3.findTF
-					slot5 = "desc"
-					slot6 = slot1
-					slot3 = slot3(slot4, slot5, slot6)
-					slot4 = {
-						"big",
-						"medium",
-						"little"
-					}
-					slot5 = i18n
-					slot6 = "draw_"
-					slot7 = slot2
-					slot7 = slot4[slot7]
-					slot8 = "_luck_"
-					slot9 = math
-					slot9 = slot9.random
-					slot10 = 1
-					slot11 = 3
-					slot9 = slot9(slot10, slot11)
-					slot6 = slot6 .. slot7 .. slot8 .. slot9
-					slot5 = slot5(slot6)
-					slot6 = setText
-					slot7 = slot3
-					slot8 = slot5
+					slot15 = onButton
+					slot16 = slot1
+					slot17 = slot13
 
-					slot6(slot7, slot8)
-
-					slot6 = slot1
-					slot7 = slot6
-					slot6 = slot6.findTF
-					slot8 = "award"
-					slot9 = slot1
-					slot6 = slot6(slot7, slot8, slot9)
-					slot7 = slot1
-					slot8 = slot7
-					slot7 = slot7.findTF
-					slot9 = "award_list"
-					slot10 = slot1
-					slot7 = slot7(slot8, slot9, slot10)
-					slot8 = setActive
-					slot9 = slot6
-					slot10 = false
-
-					slot8(slot9, slot10)
-
-					slot8 = removeAllChildren
-					slot9 = slot7
-
-					slot8(slot9)
-
-					slot8 = ipairs
-					slot9 = slot3
-					slot8, slot9, slot10 = slot8(slot9)
-
-					for slot11, slot12 in slot8, slot9, slot10 do
-						slot13 = cloneTplTo
-						slot14 = slot6
-						slot15 = slot7
-						slot13 = slot13(slot14, slot15)
-						slot14 = {}
-						slot15 = slot12.type
-						slot14.type = slot15
-						slot15 = slot12.id
-						slot14.id = slot15
-						slot15 = slot12.count
-						slot14.count = slot15
-						slot15 = updateDrop
-						slot16 = slot13
-						slot17 = slot14
-
-						slot15(slot16, slot17)
-
-						slot15 = onButton
-						slot16 = slot1
-						slot17 = slot13
-
-						function slot18()
-							slot0 = slot0
-							slot1 = slot0
-							slot0 = slot0.emit
-							slot2 = slot1
-							slot2 = slot2.ON_DROP
-							slot3 = slot2
-
-							slot0(slot1, slot2, slot3)
-
-							return
-						end
-
-						slot19 = SFX_PANEL
-
-						slot15(slot16, slot17, slot18, slot19)
-					end
-
-					slot8 = onButton
-					slot9 = slot1
-					slot10 = slot1
-
-					function slot11()
-						slot0 = setActive
+					function slot18()
+						slot0 = slot0
 						slot1 = slot0
-						slot2 = false
+						slot0 = slot0.emit
+						slot2 = slot1
+						slot2 = slot2.ON_DROP
+						slot3 = slot2
 
-						slot0(slot1, slot2)
-
-						slot0 = slot1
-
-						slot0()
+						slot0(slot1, slot2, slot3)
 
 						return
 					end
 
-					slot8(slot9, slot10, slot11)
+					slot19 = SFX_PANEL
+
+					slot15(slot16, slot17, slot18, slot19)
+				end
+
+				slot8 = onButton
+				slot9 = slot1
+				slot10 = slot1
+
+				function slot11()
+					slot0 = setActive
+					slot1 = slot0
+					slot2 = false
+
+					slot0(slot1, slot2)
+
+					slot0 = slot1
+
+					slot0()
 
 					return
 				end
 
-				slot4(slot5, slot6)
-
-				slot4 = setActive
-				slot5 = slot3.gameObject
-				slot6 = true
-
-				slot4(slot5, slot6)
+				slot8(slot9, slot10, slot11)
 
 				return
 			end
 
-			slot0.showLotteryAwardResult = slot4
-			slot4 = slot0.pagesInit
-			slot5 = slot2.name
-			slot4[slot5] = slot3
-			slot4 = slot0.pageId
-			slot5 = slot2.name
-			slot6 = slot1.id
-			slot4[slot5] = slot6
+			slot4(slot5, slot6)
+
+			slot4 = setActive
+			slot5 = slot3.gameObject
+			slot6 = true
+
+			slot4(slot5, slot6)
+
+			return
 		end
 
-		slot4 = slot1.data1
-		slot5 = 7
+		slot0.showLotteryAwardResult = slot4
+		slot4 = slot0.pagesInit
+		slot5 = slot2.name
+		slot4[slot5] = slot3
+		slot4 = slot0.pageId
+		slot5 = slot2.name
+		slot6 = slot1.id
+		slot4[slot5] = slot6
+	end
 
-		if slot4 < slot5 then
-			slot4 = false
-		else
-			slot4 = true
-		end
+	slot4 = slot1.data1
+	slot5 = 7
 
-		slot5 = setActive
-		slot7 = slot0
-		slot6 = slot0.findTF
-		slot8 = "bg"
-		slot9 = slot3.phase
-		slot6 = slot6(slot7, slot8, slot9)
-		slot7 = not slot4
+	if slot4 < slot5 then
+		slot4 = false
+	else
+		slot4 = true
+	end
 
-		slot5(slot6, slot7)
+	slot5 = setActive
+	slot7 = slot0
+	slot6 = slot0.findTF
+	slot8 = "bg"
+	slot9 = slot3.phase
+	slot6 = slot6(slot7, slot8, slot9)
+	slot7 = not slot4
 
-		slot5 = setActive
+	slot5(slot6, slot7)
+
+	slot5 = setActive
+	slot7 = slot0
+	slot6 = slot0.findTF
+	slot8 = "Text"
+	slot9 = slot3.phase
+	slot6 = slot6(slot7, slot8, slot9)
+	slot7 = not slot4
+
+	slot5(slot6, slot7)
+
+	slot5 = setActive
+	slot7 = slot0
+	slot6 = slot0.findTF
+	slot8 = "finish"
+	slot9 = slot3.phase
+	slot6 = slot6(slot7, slot8, slot9)
+	slot7 = slot4
+
+	slot5(slot6, slot7)
+
+	if not slot4 then
+		slot5 = setText
 		slot7 = slot0
 		slot6 = slot0.findTF
 		slot8 = "Text"
 		slot9 = slot3.phase
 		slot6 = slot6(slot7, slot8, slot9)
-		slot7 = not slot4
+		slot7 = setColorStr
+		slot8 = slot1.data1
+		slot9 = COLOR_GREEN
+		slot7 = slot7(slot8, slot9)
+		slot8 = "/7"
+		slot7 = slot7 .. slot8
 
 		slot5(slot6, slot7)
+	end
 
-		slot5 = setActive
-		slot7 = slot0
-		slot6 = slot0.findTF
-		slot8 = "finish"
-		slot9 = slot3.phase
-		slot6 = slot6(slot7, slot8, slot9)
-		slot7 = slot4
+	slot5 = setButtonEnabled
+	slot6 = slot3.lotteryBtn
+	slot7 = slot1.data2
 
-		slot5(slot6, slot7)
+	if slot7 ~= 0 then
+		slot7 = false
+	else
+		slot7 = true
+	end
 
-		if not slot4 then
-			slot5 = setText
-			slot7 = slot0
-			slot6 = slot0.findTF
-			slot8 = "Text"
-			slot9 = slot3.phase
-			slot6 = slot6(slot7, slot8, slot9)
-			slot7 = setColorStr
-			slot8 = slot1.data1
-			slot9 = COLOR_GREEN
-			slot7 = slot7(slot8, slot9)
-			slot8 = "/7"
-			slot7 = slot7 .. slot8
+	slot5(slot6, slot7)
 
-			slot5(slot6, slot7)
-		end
+	slot5 = setActive
+	slot6 = slot3.mask
+	slot7 = slot1.data2
+	slot8 = 0
 
-		slot5 = setButtonEnabled
-		slot6 = slot3.lotteryBtn
-		slot7 = slot1.data2
+	if slot7 <= slot8 then
+		slot7 = false
+	else
+		slot7 = true
+	end
 
-		if slot7 ~= 0 then
-			slot7 = false
+	slot5(slot6, slot7)
+
+	slot5 = 1
+	slot6 = slot3.mask
+	slot6 = slot6.childCount
+	slot7 = 1
+
+	for slot8 = slot5, slot6, slot7 do
+		slot9 = setActive
+		slot10 = slot3.mask
+		slot11 = slot10
+		slot10 = slot10.GetChild
+		slot12 = slot8 - 1
+		slot10 = slot10(slot11, slot12)
+		slot11 = slot1.data2
+
+		if slot8 ~= slot11 then
+			slot11 = false
 		else
-			slot7 = true
+			slot11 = true
 		end
 
-		slot5(slot6, slot7)
+		slot9(slot10, slot11)
+	end
 
-		slot5 = setActive
-		slot6 = slot3.mask
-		slot7 = slot1.data2
-		slot8 = 0
+	slot6 = slot1
+	slot5 = slot1.getConfig
+	slot7 = "config_data"
+	slot5 = slot5(slot6, slot7)
+	slot5 = slot5[2]
 
-		if slot7 <= slot8 then
-			slot7 = false
-		else
-			slot7 = true
-		end
+	if slot5 then
+		slot6 = _
+		slot6 = slot6.filter
+		slot7 = slot5
 
-		slot5(slot6, slot7)
+		function slot8(slot0)
+			slot1 = ipairs
+			slot2 = slot0
+			slot2 = slot2.data1_list
+			slot1, slot2, slot3 = slot1(slot2)
 
-		slot5 = 1
-		slot6 = slot3.mask
-		slot6 = slot6.childCount
-		slot7 = 1
+			for slot4, slot5 in slot1, slot2, slot3 do
+				slot6 = slot0[1]
 
-		for slot8 = slot5, slot6, slot7 do
-			slot9 = setActive
-			slot10 = slot3.mask
-			slot11 = slot10
-			slot10 = slot10.GetChild
-			slot12 = slot8 - 1
-			slot10 = slot10(slot11, slot12)
-			slot11 = slot1.data2
+				if slot5 == slot6 then
+					slot6 = false
 
-			if slot8 ~= slot11 then
-				slot11 = false
-			else
-				slot11 = true
-			end
-
-			slot9(slot10, slot11)
-		end
-
-		slot6 = slot1
-		slot5 = slot1.getConfig
-		slot7 = "config_data"
-		slot5 = slot5(slot6, slot7)
-		slot5 = slot5[2]
-
-		if slot5 then
-			slot6 = _
-			slot6 = slot6.filter
-			slot7 = slot5
-
-			function slot8(slot0)
-				slot1 = ipairs
-				slot2 = slot0
-				slot2 = slot2.data1_list
-				slot1, slot2, slot3 = slot1(slot2)
-
-				for slot4, slot5 in slot1, slot2, slot3 do
-					slot6 = slot0[1]
-
-					if slot5 == slot6 then
-						slot6 = false
-
-						return slot6
-					end
-				end
-
-				slot1 = true
-
-				return slot1
-			end
-
-			slot6 = slot6(slot7, slot8)
-			slot5 = slot6
-			slot6 = ipairs
-			slot7 = slot5
-			slot6, slot7, slot8 = slot6(slot7)
-
-			for slot9, slot10 in slot6, slot7, slot8 do
-				slot11 = slot1.data1
-				slot12 = slot10[1]
-
-				if slot11 == slot12 then
-					slot12 = slot0
-					slot11 = slot0.emit
-					slot13 = ActivityMediator
-					slot13 = slot13.EVENT_OPERATION
-					slot14 = {
-						cmd = 2
-					}
-					slot15 = slot1.id
-					slot14.activity_id = slot15
-					slot15 = slot10[1]
-					slot14.arg1 = slot15
-
-					slot11(slot12, slot13, slot14)
-
-					return
+					return slot6
 				end
 			end
+
+			slot1 = true
+
+			return slot1
 		end
 
-		return
-	end
+		slot6 = slot6(slot7, slot8)
+		slot5 = slot6
+		slot6 = ipairs
+		slot7 = slot5
+		slot6, slot7, slot8 = slot6(slot7)
 
-	slot2.flush_lottery_award_omikuji = slot3
-	slot2 = slot0
+		for slot9, slot10 in slot6, slot7, slot8 do
+			slot11 = slot1.data1
+			slot12 = slot10[1]
 
-	function slot3(slot0)
-		slot1 = slot0.pages
-		slot2 = slot0
-		slot3 = ActivityConst
-		slot3 = slot3.OMIKUJI_LOTTERY_AWARD_ID
-		slot2 = slot2[slot3]
-		slot1 = slot1[slot2]
-		slot2 = slot0.pagesInit
-		slot3 = slot1.name
-		slot2 = slot2[slot3]
+			if slot11 == slot12 then
+				slot12 = slot0
+				slot11 = slot0.emit
+				slot13 = ActivityMediator
+				slot13 = slot13.EVENT_OPERATION
+				slot14 = {
+					cmd = 2
+				}
+				slot15 = slot1.id
+				slot14.activity_id = slot15
+				slot15 = slot10[1]
+				slot14.arg1 = slot15
 
-		if slot2 then
-			slot3 = clearImageSprite
-			slot4 = slot2.bg
-
-			slot3(slot4)
-		end
-
-		return
-	end
-
-	slot2.clear_lottery_award_omikuji = slot3
-	slot2 = slot0
-
-	function slot3(slot0)
-		slot2 = slot0
-		slot1 = slot0.flush_preview_page
-
-		slot1(slot2)
-
-		return
-	end
-
-	slot2.flush_preview_amagi = slot3
-	slot2 = slot0
-
-	function slot3(slot0)
-		slot1 = slot0.pages
-		slot2 = slot0
-		slot3 = ActivityConst
-		slot3 = slot3.AMAGI_PREVIEW_ID
-		slot2 = slot2[slot3]
-		slot1 = slot1[slot2]
-		slot2 = slot0.pagesInit
-		slot3 = slot1.name
-		slot2 = slot2[slot3]
-
-		if slot2 then
-			slot3 = clearImageSprite
-			slot4 = slot2.bg
-
-			slot3(slot4)
-		end
-
-		return
-	end
-
-	slot2.clear_preview_amagi = slot3
-	slot2 = slot0
-
-	function slot3(slot0)
-		slot2 = slot0
-		slot1 = slot0.flush_task_list_res
-
-		slot1(slot2)
-
-		return
-	end
-
-	slot2.flush_task_list_link_res_re = slot3
-	slot2 = slot0
-
-	function slot3(slot0)
-		slot1 = slot0.pages
-		slot2 = slot0
-		slot3 = ActivityConst
-		slot3 = slot3.LINK_RES_RE
-		slot2 = slot2[slot3]
-		slot1 = slot1[slot2]
-		slot2 = slot0.pagesInit
-		slot3 = slot1.name
-		slot2 = slot2[slot3]
-
-		if slot2 then
-			slot3 = clearImageSprite
-			slot4 = slot2.bg
-
-			slot3(slot4)
-		end
-
-		return
-	end
-
-	slot2.clear_task_list_link_res_re = slot3
-	slot2 = slot0
-
-	function slot3(slot0)
-		slot2 = slot0
-		slot1 = slot0.flush_task_list_res
-
-		slot1(slot2)
-
-		return
-	end
-
-	slot2.flush_task_list_link_res = slot3
-	slot2 = slot0
-
-	function slot3(slot0)
-		slot1 = slot0.pages
-		slot2 = slot0
-		slot3 = ActivityConst
-		slot3 = slot3.LINK_RES
-		slot2 = slot2[slot3]
-		slot1 = slot1[slot2]
-		slot2 = slot0.pagesInit
-		slot3 = slot1.name
-		slot2 = slot2[slot3]
-
-		if slot2 then
-			slot3 = clearImageSprite
-			slot4 = slot2.bg
-
-			slot3(slot4)
-		end
-
-		return
-	end
-
-	slot2.clear_task_list_link_res = slot3
-	slot2 = slot0
-
-	function slot3(slot0)
-		slot2 = slot0
-		slot1 = slot0.flush_7days_login
-
-		slot1(slot2)
-
-		return
-	end
-
-	slot2.flush_link_login_re = slot3
-	slot2 = slot0
-
-	function slot3(slot0)
-		slot1 = slot0.pages
-		slot2 = slot0
-		slot3 = ActivityConst
-		slot3 = slot3.LINE_SIGN_ID
-		slot2 = slot2[slot3]
-		slot1 = slot1[slot2]
-		slot2 = slot0.pagesInit
-		slot3 = slot1.name
-		slot2 = slot2[slot3]
-
-		if slot2 then
-			slot3 = clearImageSprite
-			slot4 = slot2.bg
-
-			slot3(slot4)
-
-			slot3 = eachChild
-			slot4 = slot2.items
-
-			function slot5(slot0)
-				slot1 = Destroy
-				slot2 = slot0
-
-				slot1(slot2)
+				slot11(slot12, slot13, slot14)
 
 				return
 			end
-
-			slot3(slot4, slot5)
 		end
-
-		return
 	end
 
-	slot2.clear_link_login_re = slot3
-	slot2 = getProxy
-	slot3 = TaskProxy
-	slot2 = slot2(slot3)
+	return
+end
+
+slot0[slot4] = slot5
+slot4 = "clear_lottery_award_omikuji"
+
+function slot5(slot0)
+	slot1 = slot0.pages
+	slot2 = slot0
+	slot3 = ActivityConst
+	slot3 = slot3.OMIKUJI_LOTTERY_AWARD_ID
+	slot2 = slot2[slot3]
+	slot1 = slot1[slot2]
+	slot2 = slot0.pagesInit
+	slot3 = slot1.name
+	slot2 = slot2[slot3]
+
+	if slot2 then
+		slot3 = clearImageSprite
+		slot4 = slot2.bg
+
+		slot3(slot4)
+	end
+
+	return
+end
+
+slot0[slot4] = slot5
+slot4 = "flush_preview_amagi"
+
+function slot5(slot0)
+	slot2 = slot0
+	slot1 = slot0.flush_preview_page
+
+	slot1(slot2)
+
+	return
+end
+
+slot0[slot4] = slot5
+slot4 = "clear_preview_amagi"
+
+function slot5(slot0)
+	slot1 = slot0.pages
+	slot2 = slot0
+	slot3 = ActivityConst
+	slot3 = slot3.AMAGI_PREVIEW_ID
+	slot2 = slot2[slot3]
+	slot1 = slot1[slot2]
+	slot2 = slot0.pagesInit
+	slot3 = slot1.name
+	slot2 = slot2[slot3]
+
+	if slot2 then
+		slot3 = clearImageSprite
+		slot4 = slot2.bg
+
+		slot3(slot4)
+	end
+
+	return
+end
+
+slot0[slot4] = slot5
+slot4 = "flush_task_list_link_res_re"
+
+function slot5(slot0)
+	slot2 = slot0
+	slot1 = slot0.flush_task_list_res
+
+	slot1(slot2)
+
+	return
+end
+
+slot0[slot4] = slot5
+slot4 = "clear_task_list_link_res_re"
+
+function slot5(slot0)
+	slot1 = slot0.pages
+	slot2 = slot0
+	slot3 = ActivityConst
+	slot3 = slot3.LINK_RES_RE
+	slot2 = slot2[slot3]
+	slot1 = slot1[slot2]
+	slot2 = slot0.pagesInit
+	slot3 = slot1.name
+	slot2 = slot2[slot3]
+
+	if slot2 then
+		slot3 = clearImageSprite
+		slot4 = slot2.bg
+
+		slot3(slot4)
+	end
+
+	return
+end
+
+slot0[slot4] = slot5
+slot4 = "flush_task_list_link_res"
+
+function slot5(slot0)
+	slot2 = slot0
+	slot1 = slot0.flush_task_list_res
+
+	slot1(slot2)
+
+	return
+end
+
+slot0[slot4] = slot5
+slot4 = "clear_task_list_link_res"
+
+function slot5(slot0)
+	slot1 = slot0.pages
+	slot2 = slot0
+	slot3 = ActivityConst
+	slot3 = slot3.LINK_RES
+	slot2 = slot2[slot3]
+	slot1 = slot1[slot2]
+	slot2 = slot0.pagesInit
+	slot3 = slot1.name
+	slot2 = slot2[slot3]
+
+	if slot2 then
+		slot3 = clearImageSprite
+		slot4 = slot2.bg
+
+		slot3(slot4)
+	end
+
+	return
+end
+
+slot0[slot4] = slot5
+slot4 = "flush_link_login_re"
+
+function slot5(slot0)
+	slot2 = slot0
+	slot1 = slot0.flush_7days_login
+
+	slot1(slot2)
+
+	return
+end
+
+slot0[slot4] = slot5
+slot4 = "clear_link_login_re"
+
+function slot5(slot0)
+	slot1 = slot0.pages
+	slot2 = slot0
+	slot3 = ActivityConst
+	slot3 = slot3.LINE_SIGN_ID
+	slot2 = slot2[slot3]
+	slot1 = slot1[slot2]
+	slot2 = slot0.pagesInit
+	slot3 = slot1.name
+	slot2 = slot2[slot3]
+
+	if slot2 then
+		slot3 = clearImageSprite
+		slot4 = slot2.bg
+
+		slot3(slot4)
+
+		slot3 = eachChild
+		slot4 = slot2.items
+
+		function slot5(slot0)
+			slot1 = Destroy
+			slot2 = slot0
+
+			slot1(slot2)
+
+			return
+		end
+
+		slot3(slot4, slot5)
+	end
+
+	return
+end
+
+slot0[slot4] = slot5
+slot4 = "flush_preview_aoerliang_re"
+
+function slot5(slot0)
+	slot2 = slot0
+	slot1 = slot0.flush_preview_page
+
+	slot1(slot2)
+
+	slot1 = slot0.activity
+	slot2 = slot0.pages
 	slot4 = slot0
-	slot3 = slot0.findTF
-	slot5 = "award"
-	slot6 = go
-	slot3 = slot3(slot4, slot5, slot6)
-	slot4 = activity
-	slot5 = slot4
-	slot4 = slot4.getConfig
-	slot6 = "config_client"
-	slot4 = slot4(slot5, slot6)
-	slot4 = slot4.taskId
-	slot5 = pg
-	slot5 = slot5.task_data_template
-	slot5 = slot5[slot4]
-	slot5 = slot5.award_display
-	slot5 = slot5[1]
-	slot6 = {}
-	slot7 = slot5[1]
-	slot6.type = slot7
-	slot7 = slot5[2]
-	slot6.id = slot7
-	slot7 = slot5[3]
-	slot6.count = slot7
-	slot7 = updateDrop
-	slot8 = slot3
-	slot9 = slot6
+	slot3 = slot0.activity2Page
+	slot5 = slot1
+	slot3 = slot3(slot4, slot5)
+	slot2 = slot2[slot3]
+	slot3 = getProxy
+	slot4 = TaskProxy
+	slot3 = slot3(slot4)
+	slot5 = slot0
+	slot4 = slot0.findTF
+	slot6 = "award"
+	slot7 = slot2
+	slot4 = slot4(slot5, slot6, slot7)
+	slot6 = slot1
+	slot5 = slot1.getConfig
+	slot7 = "config_client"
+	slot5 = slot5(slot6, slot7)
+	slot5 = slot5.taskId
+	slot6 = pg
+	slot6 = slot6.task_data_template
+	slot6 = slot6[slot5]
+	slot6 = slot6.award_display
+	slot6 = slot6[1]
+	slot7 = {}
+	slot8 = slot6[1]
+	slot7.type = slot8
+	slot8 = slot6[2]
+	slot7.id = slot8
+	slot8 = slot6[3]
+	slot7.count = slot8
+	slot8 = updateDrop
+	slot9 = slot4
+	slot10 = slot7
 
-	slot7(slot8, slot9)
+	slot8(slot9, slot10)
 
-	slot7 = onButton
-	slot8 = slot0
-	slot9 = slot3
+	slot8 = onButton
+	slot9 = slot0
+	slot10 = slot4
 
-	function slot10()
+	function slot11()
 		slot0 = slot0
 		slot1 = slot0
 		slot0 = slot0.emit
@@ -11827,21 +11924,21 @@ function slot5(slot0)
 		return
 	end
 
-	slot11 = SFX_PANEL
+	slot12 = SFX_PANEL
 
-	slot7(slot8, slot9, slot10, slot11)
+	slot8(slot9, slot10, slot11, slot12)
 
-	slot7 = setActive
-	slot9 = slot0
-	slot8 = slot0.findTF
-	slot10 = "mask"
+	slot8 = setActive
+	slot10 = slot0
+	slot9 = slot0.findTF
+	slot11 = "mask"
+	slot12 = slot4
+	slot9 = slot9(slot10, slot11, slot12)
 	slot11 = slot3
-	slot8 = slot8(slot9, slot10, slot11)
-	slot10 = slot2
-	slot9 = slot2.getFinishTaskById
-	slot11 = slot4
+	slot10 = slot3.getFinishTaskById
+	slot12 = slot5
 
-	slot7(slot8, slot9(slot10, slot11))
+	slot8(slot9, slot10(slot11, slot12))
 
 	return
 end
@@ -13320,6 +13417,439 @@ function slot5(slot0)
 	slot2 = slot0
 	slot3 = ActivityConst
 	slot3 = slot3.HONGRAN_RE_PREVIEW_ID
+	slot2 = slot2[slot3]
+	slot1 = slot1[slot2]
+	slot2 = slot0.pagesInit
+	slot3 = slot1.name
+	slot2 = slot2[slot3]
+
+	if slot2 then
+		slot3 = clearImageSprite
+		slot4 = slot2.bg
+
+		slot3(slot4)
+	end
+
+	return
+end
+
+slot0[slot4] = slot5
+slot4 = "flush_preview_faxi"
+
+function slot5(slot0)
+	slot2 = slot0
+	slot1 = slot0.flush_preview_page
+
+	slot1(slot2)
+
+	return
+end
+
+slot0[slot4] = slot5
+slot4 = "clear_preview_faxi"
+
+function slot5(slot0)
+	slot1 = slot0.pages
+	slot2 = slot0
+	slot3 = ActivityConst
+	slot3 = slot3.FAXI_PREVIEW_ID
+	slot2 = slot2[slot3]
+	slot1 = slot1[slot2]
+	slot2 = slot0.pagesInit
+	slot3 = slot1.name
+	slot2 = slot2[slot3]
+
+	if slot2 then
+		slot3 = clearImageSprite
+		slot4 = slot2.bg
+
+		slot3(slot4)
+	end
+
+	return
+end
+
+slot0[slot4] = slot5
+slot4 = "flush_pt_page_faxi"
+
+function slot5(slot0)
+	slot2 = slot0
+	slot1 = slot0.flush_task_list_pt
+
+	slot1(slot2)
+
+	slot1 = slot0.activity
+	slot2 = slot0.pages
+	slot4 = slot0
+	slot3 = slot0.activity2Page
+	slot5 = slot1
+	slot3 = slot3(slot4, slot5)
+	slot2 = slot2[slot3]
+	slot3 = slot0.pagesInit
+	slot4 = slot2.name
+	slot3 = slot3[slot4]
+	slot4 = getDoingTask
+	slot5 = slot1
+	slot4, slot5, slot6 = slot4(slot5)
+	slot7 = setActive
+	slot9 = slot0
+	slot8 = slot0.findTF
+	slot10 = "mask"
+	slot11 = slot3.award
+	slot8 = slot8(slot9, slot10, slot11)
+	slot10 = slot6
+	slot9 = slot6.isReceive
+
+	slot7(slot8, slot9(slot10))
+
+	return
+end
+
+slot0[slot4] = slot5
+slot4 = "clear_pt_page_faxi"
+
+function slot5(slot0)
+	slot1 = slot0.pages
+	slot2 = slot0
+	slot3 = ActivityConst
+	slot3 = slot3.FAXI_PT_ID
+	slot2 = slot2[slot3]
+	slot1 = slot1[slot2]
+	slot2 = slot0.pagesInit
+	slot3 = slot1.name
+	slot2 = slot2[slot3]
+
+	if slot2 then
+		slot3 = clearImageSprite
+		slot4 = slot2.bg
+
+		slot3(slot4)
+	end
+
+	return
+end
+
+slot0[slot4] = slot5
+slot4 = "flush_res_page_faxi"
+
+function slot5(slot0)
+	slot2 = slot0
+	slot1 = slot0.flush_task_list_res
+
+	slot1(slot2)
+
+	return
+end
+
+slot0[slot4] = slot5
+slot4 = "clear_res_page_faxi"
+
+function slot5(slot0)
+	slot1 = slot0.pages
+	slot2 = slot0
+	slot3 = ActivityConst
+	slot3 = slot3.FAXI_RES_ID
+	slot2 = slot2[slot3]
+	slot1 = slot1[slot2]
+	slot2 = slot0.pagesInit
+	slot3 = slot1.name
+	slot2 = slot2[slot3]
+
+	if slot2 then
+		slot3 = clearImageSprite
+		slot4 = slot2.bg
+
+		slot3(slot4)
+	end
+
+	return
+end
+
+slot0[slot4] = slot5
+slot4 = "flush_preview_moran_re"
+
+function slot5(slot0)
+	slot2 = slot0
+	slot1 = slot0.flush_preview_page
+
+	slot1(slot2)
+
+	slot1 = slot0.pages
+	slot3 = slot0
+	slot2 = slot0.activity2Page
+	slot4 = slot0.activity
+	slot2 = slot2(slot3, slot4)
+	slot1 = slot1[slot2]
+	slot2 = slot0.pagesInit
+	slot3 = slot1.name
+	slot2 = slot2[slot3]
+
+	if not slot2 then
+		return
+	end
+
+	slot3 = slot2.animUI
+
+	if not slot3 then
+		slot3 = PoolMgr
+		slot3 = slot3.GetInstance
+		slot3 = slot3()
+		slot4 = slot3
+		slot3 = slot3.GetUI
+		slot5 = "ActivityPreviewMoranAnimUI"
+		slot6 = true
+
+		function slot7(slot0)
+			slot1 = slot0
+			slot1.animUI = slot0
+			slot1 = slot0.transform
+			slot2 = slot1
+			slot1 = slot1.SetParent
+			slot3 = slot1
+			slot4 = slot3
+			slot3 = slot3.findTF
+			slot5 = "AD"
+			slot6 = slot2
+			slot3 = slot3(slot4, slot5, slot6)
+			slot4 = false
+
+			slot1(slot2, slot3, slot4)
+
+			slot1 = slot0.transform
+			slot2 = Vector3
+			slot3 = 1
+			slot4 = 1
+			slot5 = 1
+			slot2 = slot2(slot3, slot4, slot5)
+			slot1.localPosition = slot2
+			slot1 = slot0.transform
+			slot2 = Vector3
+			slot3 = 1
+			slot4 = 1
+			slot5 = 1
+			slot2 = slot2(slot3, slot4, slot5)
+			slot1.localScale = slot2
+			slot1 = slot0.transform
+			slot2 = slot1
+			slot1 = slot1.SetSiblingIndex
+			slot3 = 1
+
+			slot1(slot2, slot3)
+
+			slot1 = setActive
+			slot2 = slot0
+			slot3 = true
+
+			slot1(slot2, slot3)
+
+			return
+		end
+
+		slot3(slot4, slot5, slot6, slot7)
+	else
+		slot3 = setActive
+		slot4 = slot2.animUI
+		slot5 = true
+
+		slot3(slot4, slot5)
+	end
+
+	return
+end
+
+slot0[slot4] = slot5
+slot4 = "clear_preview_moran_re"
+
+function slot5(slot0)
+	slot1 = slot0.pages
+	slot2 = slot0
+	slot3 = ActivityConst
+	slot3 = slot3.MORAN_RE_PREVIEW_ID
+	slot2 = slot2[slot3]
+	slot1 = slot1[slot2]
+	slot2 = slot0.pagesInit
+	slot3 = slot1.name
+	slot2 = slot2[slot3]
+
+	if slot2 then
+		slot3 = clearImageSprite
+		slot4 = slot2.bg
+
+		slot3(slot4)
+	end
+
+	return
+end
+
+slot0[slot4] = slot5
+slot4 = "flush_pt_page_moran_re"
+
+function slot5(slot0)
+	slot2 = slot0
+	slot1 = slot0.flush_task_list_pt
+
+	slot1(slot2)
+
+	slot1 = slot0.activity
+	slot2 = slot0.pages
+	slot4 = slot0
+	slot3 = slot0.activity2Page
+	slot5 = slot1
+	slot3 = slot3(slot4, slot5)
+	slot2 = slot2[slot3]
+	slot3 = slot0.pagesInit
+	slot4 = slot2.name
+	slot3 = slot3[slot4]
+	slot4 = getDoingTask
+	slot5 = slot1
+	slot4, slot5, slot6 = slot4(slot5)
+	slot7 = setActive
+	slot9 = slot0
+	slot8 = slot0.findTF
+	slot10 = "mask"
+	slot11 = slot3.award
+	slot8 = slot8(slot9, slot10, slot11)
+	slot10 = slot6
+	slot9 = slot6.isReceive
+
+	slot7(slot8, slot9(slot10))
+
+	return
+end
+
+slot0[slot4] = slot5
+slot4 = "clear_pt_page_moran_re"
+
+function slot5(slot0)
+	slot1 = slot0.pages
+	slot2 = slot0
+	slot3 = ActivityConst
+	slot3 = slot3.MORAN_RE_PT_ID
+	slot2 = slot2[slot3]
+	slot1 = slot1[slot2]
+	slot2 = slot0.pagesInit
+	slot3 = slot1.name
+	slot2 = slot2[slot3]
+
+	if slot2 then
+		slot3 = clearImageSprite
+		slot4 = slot2.bg
+
+		slot3(slot4)
+	end
+
+	return
+end
+
+slot0[slot4] = slot5
+slot4 = "flush_preview_xiaojiajia"
+
+function slot5(slot0)
+	slot2 = slot0
+	slot1 = slot0.flush_preview_page
+
+	slot1(slot2)
+
+	slot1 = slot0.activity
+	slot2 = slot0.pages
+	slot4 = slot0
+	slot3 = slot0.activity2Page
+	slot5 = slot1
+	slot3 = slot3(slot4, slot5)
+	slot2 = slot2[slot3]
+	slot3 = slot0.pagesInit
+	slot4 = slot2.name
+	slot3 = slot3[slot4]
+	slot4 = _
+	slot4 = slot4.detect
+	slot5 = getProxy
+	slot6 = ActivityProxy
+	slot5 = slot5(slot6)
+	slot6 = slot5
+	slot5 = slot5.getActivitiesByType
+	slot7 = ActivityConst
+	slot7 = slot7.ACTIVITY_TYPE_SHOP
+	slot5 = slot5(slot6, slot7)
+
+	function slot6(slot0)
+		slot2 = slot0
+		slot1 = slot0.getConfig
+		slot3 = "config_client"
+		slot1 = slot1(slot2, slot3)
+		slot1 = slot1.pt_id
+		slot2 = slot0
+		slot3 = slot2
+		slot2 = slot2.getConfig
+		slot4 = "config_client"
+		slot2 = slot2(slot3, slot4)
+		slot2 = slot2.pt_id
+
+		if slot1 ~= slot2 then
+			slot1 = false
+		else
+			slot1 = true
+		end
+
+		return slot1
+	end
+
+	slot4 = slot4(slot5, slot6)
+	slot5 = onButton
+	slot6 = slot0
+	slot7 = slot3.shop
+
+	function slot8()
+		slot0 = slot0
+		slot1 = slot0
+		slot0 = slot0.emit
+		slot2 = ActivityMediator
+		slot2 = slot2.GO_SHOPS_LAYER
+		slot3 = {}
+		slot4 = ShopsLayer
+		slot4 = slot4.TYPE_ACTIVITY
+		slot3.warp = slot4
+		slot4 = slot1
+		slot4 = slot4.id
+		slot3.actId = slot4
+
+		slot0(slot1, slot2, slot3)
+
+		return
+	end
+
+	slot5(slot6, slot7, slot8)
+
+	slot5 = onButton
+	slot6 = slot0
+	slot7 = slot3.fight
+
+	function slot8()
+		slot0 = slot0
+		slot1 = slot0
+		slot0 = slot0.emit
+		slot2 = ActivityMediator
+		slot2 = slot2.EVENT_GO_SCENE
+		slot3 = SCENE
+		slot3 = slot3.LEVEL
+
+		slot0(slot1, slot2, slot3)
+
+		return
+	end
+
+	slot5(slot6, slot7, slot8)
+
+	return
+end
+
+slot0[slot4] = slot5
+slot4 = "clear_preview_xiaojiajia"
+
+function slot5(slot0)
+	slot1 = slot0.pages
+	slot2 = slot0
+	slot3 = ActivityConst
+	slot3 = slot3.XIAOJIAJIA_PREVIEW_ID
 	slot2 = slot2[slot3]
 	slot1 = slot1[slot2]
 	slot2 = slot0.pagesInit

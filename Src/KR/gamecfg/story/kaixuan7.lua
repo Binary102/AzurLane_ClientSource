@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"骑士公主的忧郁\n\n<size=30>七 自由鸢尾的凯旋</size>",
+					"빛나는 아이리스\n\n<size=30>아이리스의 개선</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-2",
-			say = "送走了福尔班和勒马尔以后…",
+			say = "포르뱅과 르 마르스가 집무실에서 떠난 후……",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -54,7 +54,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "我现在想明白了，指挥官",
+			say = "지휘관님, 저, 깨달았어요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "过去的我只是害怕，我害怕去揭开伤口，所以只是别开视线去看着前方",
+			say = "지금까지 저는 그저, 그때의 기억이 무서워서 계속 변명하고, 언니들을 마주 보지 않았었어요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "这样的我并不坚强，我只是在逃避而已。",
+			say = "요컨대, 도망치고 있었던 것 뿐이었어요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "但是这样是不行的。",
+			say = "하지만, 이대로는 안 돼요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,22 +113,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "凯旋握紧了拳头。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 801011,
-			side = 2,
-			bgName = "bg_story_task",
-			dir = 1,
-			say = "福尔班她们说得对，兀自烦恼是没有用的。",
+			say = "르 트리옹팡은 가볍게 주먹을 꾹 쥐고는……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +128,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "无论是什么样的方式，我应该让姐姐大人们知道我的想法。",
+			say = "포르뱅 씨들이 말한 대로, 혼자서 고민을 끌어안는 것보다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +143,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "即使这么做会痛苦，即使这样可能会让姐姐大人们生气，但是……",
+			say = "무슨 수를 써서라도, 언니들에게 제 마음을 다해 부딪쳐야 해요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,7 +158,22 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "我还是希望我们能够和好如初。",
+			say = "어쩌면, 언니들이 화낼지도 몰라요. 그렇더라도……",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 801011,
+			side = 2,
+			bgName = "bg_story_task",
+			dir = 1,
+			say = "저는, 언니들과 사이좋게 지내고 싶어요!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			},
 			options = {
 				{
-					content = "表示支持",
+					content = "트리옹팡을 응원한다",
 					flag = 1
 				}
 			}
@@ -194,7 +194,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "谢谢…因为指挥官的支援，我才能直面过去的伤痕",
+			say = "……감사합니다. 지휘관님 덕분이에요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +209,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "我不会再单纯羡慕其他姐妹之间关系融洽了，因为我和姐姐们的关系一点也不输给大家。",
+			say = "저, 더 이상 다른 아이들을 부러워하거나 하지 않겠어요. 분명 저도 그 이상으로 언니들과 사이좋게, 즐겁게 지낼 수 있으니까요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "从今往后，不会再有因为逃避而软弱的凯旋了，这支舰队里只会有恰如其名的“The triumphant one”！",
+			say = "지금부터는 도망치던 트리옹팡이 아니라, 제 이름에 걸맞게, 언니들과 사이좋게 개선해 보이겠어요!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			},
 			options = {
 				{
-					content = "偶尔软弱一下也很可爱",
+					content = "도망치던 때의 트리옹팡도 귀여웠는데…",
 					flag = 1
 				}
 			}
@@ -244,7 +244,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "凯旋的脸一下子红了",
+			say = "트리옹팡이 부끄러운 듯 얼굴을 붉혔다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "指挥官，你说什么呢，可爱什么的，我才不可爱……",
+			say = "무, 무슨 말씀을 하시는 거예요…? 귀엽다니, 전……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			},
 			options = {
 				{
-					content = "很可爱",
+					content = "귀여웠는데……",
 					flag = 1
 				}
 			}
@@ -280,7 +280,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "呜……我、我知道啦，再有难过的时候我会依赖指挥官的……",
+			say = "우으… 아, 알겠습니다…… 하지만 다음에 고민거리가 있을 때도 저, 지휘관님께 기대어 버릴 거라구요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -296,7 +296,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "毕竟指挥官是我最信赖的人，稍微依赖一下，也是会被原谅的吧…",
+			say = "지휘관님은 제가 가장 신뢰하는 분이니까, 조금은 기대어도 용서해주실……거죠?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

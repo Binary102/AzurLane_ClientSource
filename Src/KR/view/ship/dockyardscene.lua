@@ -35,6 +35,7 @@ slot5 = {
 	"index_shipNation_dongHuang",
 	"index_shipNation_beiLian",
 	"index_shipNation_ziyou",
+	"index_shipNation_weixi",
 	"index_other"
 }
 slot6 = {
@@ -82,7 +83,11 @@ slot9 = {
 	8,
 	8,
 	6,
-	8
+	8,
+	nil,
+	nil,
+	nil,
+	7
 }
 slot10 = {
 	1,

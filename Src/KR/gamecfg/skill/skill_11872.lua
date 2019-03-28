@@ -1,9 +1,9 @@
 return {
 	uiEffect = "",
-	name = "神射手改",
+	name = "神射手·改",
 	cd = 0,
 	picture = "0",
-	desc = "神射手改",
+	desc = "神射手·改",
 	painting = 0,
 	id = 11872,
 	aniEffect = {

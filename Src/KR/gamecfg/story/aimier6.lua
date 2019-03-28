@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"自由的天使\n\n<size=30>六 浪漫的约会？</size>",
+					"무희 천사 에밀\n\n<size=30>로맨틱 데이트?</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "港区·广场",
+			say = "모항 - 광장",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -61,7 +61,7 @@ return {
 			dir = 1,
 			actor = 802011,
 			nameColor = "#a9f548",
-			say = "不过，说是约会，但却完全没想好要去哪里玩呢…",
+			say = "데이트하자고 말 꺼낸 건 나이긴 한데… 지휘관, 어딜 가면 될까…?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			},
 			options = {
 				{
-					content = "散步吧",
+					content = "선택지",
 					flag = 1
 				}
 			}
@@ -83,7 +83,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯~那就稍微散散步好了，我们就往那边走吧~",
+			say = "嗯~그렇네, 그럼 잠깐 산책이라도 해볼까. 우선 저기부터~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,14 +97,14 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "被埃米尔十分自然地抱住了手臂，传来了十分柔软的触感。",
+			say = "에밀은 아무렇지도 않게 팔짱을 껴왔다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "？！",
+					content = "!?",
 					flag = 1
 				}
 			}
@@ -115,7 +115,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘻嘻，指挥官，这可是约会哦？得做一些有约会气氛的事呢。",
+			say = "지휘관, 이건 데이트잖아? 데이트다운 일도 해야지~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "散步的路上，和埃米尔闲聊了起来",
+			say = "산책을 하며 에밀이 좋아하는 춤에 대해 물어보았다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,23 +168,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯？指挥官想知道我为什么会喜欢上跳舞吗？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 802011,
-			side = 2,
-			bgName = "bg_story_school",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "我呢，曾经有一段十分不自由的时间…因为生活实在太过无趣，就随便选了一样东西学习",
+			say = "어머, 지휘관은 내가 왜 춤을 좋아하는 지 궁금하다구?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +184,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过在过程中，意外地学到了如何在不那么有趣的日常中寻找乐趣呢",
+			say = "나는 그 대전에서 한동안, 계속 어느 항구에 계류되어 있었어. 그때처럼 공백의 나날이 생기지 않도록, 뭐라도 하나 배워볼까 싶어서, 그러다 춤을 고른 거야.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +200,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "喜悦的时候、激动的时候，跳舞可以让大家也感受到我的快乐",
+			say = "뭐, 그래서 여러 가지로 공부가 됐어. 아무리 따분한 날이라도, 즐거움을 찾을 수 있다는 것……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,7 +216,23 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "悲伤的时候，痛苦的时候，只要动起身体，难过的情绪也会减少几分",
+			say = "즐거울 때, 기분 좋을 때, 춤으로 기쁜 감정을 모두에게 나눠주는 것……",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 802011,
+			side = 2,
+			bgName = "bg_story_school",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "슬플 때, 괴로울 때, 춤으로 고통스러운 감정을 조금이라도 더는 것……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +248,7 @@ return {
 			dir = 1,
 			actor = 802011,
 			nameColor = "#a9f548",
-			say = "虽然在大家看来可能会有些夸张吧，哈哈~",
+			say = "다른 사람 눈으로 보면, 이렇게 춤추는 난 좀 제멋대로인 것처럼 보일지도 모르지만. 후후.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			},
 			options = {
 				{
-					content = "埃米尔的舞很好看",
+					content = "그 춤도 로맨틱하다",
 					flag = 1
 				}
 			}
@@ -270,7 +270,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官也变得会说话了呢~",
+			say = "지휘관도 참, 빈말하기는♪~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这么说起来，加入舰队也过了相当长的时间呢，认识指挥官也…",
+			say = "그러고 보니 나, 이 함대에 들어와서 지휘관과 알고 지낸지 꽤 됐는데……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,7 +302,7 @@ return {
 			dir = 1,
 			actor = 802011,
 			nameColor = "#a9f548",
-			say = "嘻嘻，指挥官有没有想过用些甜言蜜语或是制造点“意外惊喜”来接近我呀？",
+			say = "후후, 지휘관은 뭔가 '로맨틱한 일'을 해서, 여자아이와 친해져야겠다고 생각해본 적은 없어?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,11 +313,11 @@ return {
 			},
 			options = {
 				{
-					content = "想过",
+					content = "있다",
 					flag = 1
 				},
 				{
-					content = "没有",
+					content = "없다",
 					flag = 2
 				}
 			}
@@ -329,7 +329,7 @@ return {
 			optionFlag = 1,
 			actor = 802011,
 			nameColor = "#a9f548",
-			say = "幸好没有实践呢，因为我对那种完全没兴趣的~",
+			say = "그렇다면 난 아닐……려나?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -346,7 +346,7 @@ return {
 			optionFlag = 2,
 			actor = 802011,
 			nameColor = "#a9f548",
-			say = "嘻嘻，果然指挥官是我看中的人呢",
+			say = "과연 내가 반한 지휘관답네!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -363,7 +363,7 @@ return {
 			blackBg = true,
 			actor = 802011,
 			nameColor = "#a9f548",
-			say = "这些在别人看来也许浪漫的东西，对我来说可是没有丝毫吸引力的哦～",
+			say = "우후후, 나, 그런 건 다른 아이들이랑은 조금 다르다구?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

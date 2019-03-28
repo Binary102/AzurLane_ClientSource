@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"骑士公主的忧郁\n\n<size=30>一 皇家茶会的客人</size>",
+					"빛나는 아이리스\n\n<size=30>다과회의 손님</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "某日港区的午后…",
+			say = "어느 날의 오후……",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -54,7 +54,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "欢迎，主人、凯旋小姐，请坐在这里",
+			say = "주인님, 트리옹팡님, 이쪽으로 오시기 바랍니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "和凯旋一起受邀参加了皇家不定时举办的茶会",
+			say = "르 트리옹팡과 함께 로열 네이비의 다과회에 얼굴을 비쳤다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "承蒙皇家诸位的邀请，非常荣幸能来参加下午茶会——",
+			say = "다과회에 초대해주셔서 실로 영광입니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,22 +97,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "凯旋边说边行了个礼",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 205011,
-			side = 2,
-			bgName = "bg_story_school",
-			dir = 1,
-			say = "哼～你就是新来的自由鸢尾的小女孩吗",
+			say = "인사를 하며, 르 트리옹팡은 귀엽게 고개를 숙였다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +112,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "不错！自由鸢尾也是有上得了台面的人物的嘛～",
+			say = "흐응, 아이리스에서 파견된 게 당신이야?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +127,22 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "另外那边的庶民！感到荣幸吧！你可是受邀参加了女王的茶会喔！",
+			say = "뭐, 좋아. 아이리스에도 꽤 우수한 애가 있나 보네.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 205011,
+			side = 2,
+			bgName = "bg_story_school",
+			dir = 1,
+			say = "환영할게.…그리고 거기 있는 서민! 감사하도록 해! 이 내가 특별히 당신을 다과회에 초대했으니까!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			},
 			options = {
 				{
-					content = "是！女王大人万岁！",
+					content = "성은이 망극하옵니다!",
 					flag = 1
 				}
 			}
@@ -162,7 +162,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "看来女王殿下对凯旋印象不错…",
+			say = "트리옹팡의 첫인상은 좋았던 모양이다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "毕竟从各种意义上来说，确实都算是同伴呢",
+			say = "역시, 여러 가지 의미로 죽이 맞을 듯하다……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "指挥官，莫非你刚才在想着什么无比失礼的事情？",
+			say = "아, 지휘관님, 혹시 지금 실례되는 생각을 하신 건 아니시죠?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +205,7 @@ return {
 			bgName = "bg_story_school",
 			side = 2,
 			dir = 1,
-			say = "贝尔法斯特为大家倒了茶",
+			say = "메이드장인 벨파스트는 모두 앞에 놓인 티컵에 홍차를 따랐다.",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -237,7 +237,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "这个口感是…大吉岭吗？",
+			say = "어머, 이건… 다즐링인가요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,7 +251,7 @@ return {
 			actor = 202121,
 			side = 0,
 			bgName = "bg_story_school",
-			say = "是的，而且是新运来的春茶，这是伊丽莎白殿下也相当喜欢的品种",
+			say = "네. 봄에 막 딴 잎으로 만든 햇차로, 폐하께서도 좋아하시는 특급품이옵니다.",
 			dir = 1,
 			paintingFadeOut = {
 				time = 0.5,
@@ -271,7 +271,7 @@ return {
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "难怪这么好喝～春茶据说是大吉岭中最珍贵，也是口感最好的呢",
+			say = "그렇군요. 퍼스트 플러시의 다즐링은 가장 엘레강트하다고 들었습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			side = 0,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "哼哼哼，没错，区区自由鸢尾看来也有识货的人在嘛！",
+			say = "후후후, 맞아. 아이리스에도 보는 눈이 있는 애가 있네♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -332,7 +332,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "茶会啊…让人不禁想起过去在自由鸢尾办过的茶会呢…",
+			say = "그러고 보니, 다과회라… 옛날, 아이리스에서도 이렇게 다과회를 열었던 적이 있었어요……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -346,7 +346,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "凯旋露出混杂着眷恋与寂寞的神情",
+			say = "불현듯, 트리옹팡은 희미하지만 슬픈 듯한 표정을 보였다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -361,7 +361,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			blackBg = true,
-			say = "下次…为她办一次自由鸢尾和维希教廷的茶会吧",
+			say = "다음엔… 아이리스랑 비시아쪽 애들 불러서 다과회라도 열까.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

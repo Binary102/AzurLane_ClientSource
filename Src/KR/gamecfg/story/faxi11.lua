@@ -9,7 +9,7 @@ return {
 	scripts = {
 		{
 			side = 2,
-			say = "卡萨布兰卡和土伦的悲剧已经过去了，一批伟大的圣教骑士们为了贯彻自己的信仰和誓言，选择了牺牲",
+			say = "카사블랑카, 툴롱… 비극은 지나갔습니다. 교국의 기사들은 신앙과 맹세를 지키기 위해 자기 희생을 택했습니다.",
 			dir = 1,
 			bgm = "level-french2",
 			effects = {
@@ -30,7 +30,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "她们是伟大的，她们是自由的",
+			say = "희생은 위대할지니, 자유는 위대할지니.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,7 +43,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "面对巨人的挑衅，大卫说：“你来攻击我，用的是刀枪和铜戟”",
+			say = "적이 사악한 거인 골리앗처럼, 검과 창의 폭력으로 엄습한다면,",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "“而我的攻击，靠着万军耶和华之名！”",
+			say = "성자 다윗처럼, 만군의 주, 위대하신 분의 이름을 받들어 대적할 뿐!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "在崭新的时代，自由的力量已经觉醒",
+			say = "자유의 힘이 깨어나, ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,7 +82,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "在崭新的时代，她们的名字令我们团结",
+			say = "성스러운 깃발 아래 정의가 모였으니,",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "在崭新的时代，我们必将夺回我们的家园！",
+			say = "이 새로운 시대에서, 우리는 반드시 영광을 되찾아 보입시다!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +108,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "我愿用我的红袍覆盖一切，愿天下向往自由之士共驻于洛林十字旗下",
+			say = "그 추기경으로부터 받은 이 '이름', 그리고 이 주홍빛 옷에 맹세코, 모든 국민에게 자유를!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "因父及子及圣神之名",
+			say = "'위대한 아버지와 성령의 가호가 있기를'",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "自由鸢尾第一旗舰——黎塞留",
+			say = "스스로 침몰했을 터인 비시아의 동포들까지 구한 지휘관에게 지고의 축복을 내립니다……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			actor = 801021,
 			side = 2,
 			dir = 1,
-			say = "前方发现正在逃跑的帝国小型舰队，请求旗舰指示",
+			say = "'제국'의 소형 함대를 발견했습니다! 기함에 지시를 바랍니다!",
 			effects = {
 				{
 					active = false,
@@ -185,7 +185,7 @@ return {
 		{
 			actor = 801011,
 			side = 0,
-			say = "拦截追击这种工作对我们姐妹来说最擅长的啦，快下指示吧！",
+			say = "추격전은 르 팡타스크급의 18번이죠. 빨리 지시를!",
 			dir = 1,
 			paintingFadeOut = {
 				time = 0.5,
@@ -204,7 +204,7 @@ return {
 			actor = 802011,
 			side = 1,
 			dir = 1,
-			say = "敌方已进入攻击范围，是时候给对方与制裁的铁锤啦！",
+			say = "색적 범위 내의 적을 추적했어! 공격 지시 부탁해~!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			actor = 900090,
 			side = 2,
 			dir = 1,
-			say = "哈…哈……非常抱歉，大家的速度都太快了…这才赶上来",
+			say = "하아… 하아… 죄송해요, 이제 겨우 따라잡았어요!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,7 +232,7 @@ return {
 			actor = 900090,
 			side = 2,
 			dir = 1,
-			say = "自由鸢尾第二游击舰队旗舰——圣女贞德号下令！",
+			say = "그럼, 자유 아이리스 교국 제2유격함대 기함, 잔 다르크가 지시를 내립니다!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +246,7 @@ return {
 			actor = 900090,
 			side = 2,
 			dir = 1,
-			say = "以自由之名，全舰开火！",
+			say = "자유의 이름 아래…… 전 함선, 공격 개시!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

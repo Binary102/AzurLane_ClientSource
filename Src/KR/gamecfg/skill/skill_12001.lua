@@ -1,6 +1,6 @@
 return {
 	uiEffect = "",
-	name = "杜威格里德利联动",
+	name = "远东的羁绊",
 	cd = 0,
 	picture = "0",
 	desc = "杜威格里德利联动",

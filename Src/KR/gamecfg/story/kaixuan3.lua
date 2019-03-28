@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"骑士公主的忧郁\n\n<size=30>三 出击的凯旋小姐</size>",
+					"빛나는 아이리스\n\n<size=30>트리옹팡 출격</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "battle-1",
-			say = "任务海域",
+			say = "작전 해역",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -54,7 +54,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			say = "注意左舷！鱼雷接近中！",
+			say = "어뢰가 접근 중이에요! 좌현에 주의!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			say = "炮击不要停下！",
+			say = "포격을 멈추지 마세요!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			say = "全体改为单纵阵，让我们一口气冲散敌人！",
+			say = "함대 단종진! 적의 진형을 무너뜨리는 거에요!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			actor = 801011,
-			say = "这里需要主力舰队的伙伴们配合了!",
+			say = "주력 함대의 동료에게 지원 요청을!",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -131,7 +131,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			say = "准备好了吗？!请求空袭支援!",
+			say = "준비됐나요? 공중 지원 부탁드려요!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +146,7 @@ return {
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			actor = 801011,
-			say = "哼哼～想要跟上空想级的速度，可没有那么容易哟～",
+			say = "르 팡타스크급의 속도는 그렇게 간단히 따라잡을 수 없어요!",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -178,7 +178,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			say = "指挥官，任务完成咯，可以凯旋而归了呢，呵呵～",
+			say = "지휘관님, 작전 완료했습니다! 모항까지 당당히 돌아갈 수 있겠네요! 후후♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			say = "在凯旋的活跃下，出击任务很顺利地完成了",
+			say = "르 트리옹팡의 활약으로 작전이 훌륭히 성공했다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "港区·港口",
+			say = "모항 - 부두",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -236,7 +236,7 @@ return {
 			},
 			options = {
 				{
-					content = "夸奖凯旋",
+					content = "르 트리옹팡을 칭찬한다",
 					flag = 1
 				}
 			}
@@ -246,7 +246,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "那还用说～我可是空想级的凯旋啊～",
+			say = "당연한 결과에요. 전 엘레강트한 르 팡타스크급인 걸요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,7 +261,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "不过任务能顺利完成，还是靠大家的齐心协力呢",
+			say = "하지만, 작전이 성공한 건 모두의 덕분이에요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -276,7 +276,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "无论是舰队的大家，还是指挥官，都非常棒",
+			say = "아뇨, 함대의 모두뿐만 아니라, 지휘관님도 훌륭히 지휘해주셨어요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,7 +291,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "能加入这样出色的舰队，我觉得非常开心哦",
+			say = "이런 엘레강트한 함대에 참가할 수 있어서, 저도 무척 기쁘답니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -306,7 +306,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "好啦，作战辛苦了，指挥官。喝杯红茶，再继续工作吧？",
+			say = "그럼 새삼스럽지만…… 작전 수고하셨습니다. 지휘관님. 홍차라도 드시고 업무를 이어나가시죠.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -321,7 +321,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			blackBg = true,
-			say = "果然是，无比优秀的秘书舰呢",
+			say = "정말이지 우수하다고 생각되는 트리옹팡이었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

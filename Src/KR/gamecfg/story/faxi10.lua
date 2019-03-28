@@ -13,7 +13,7 @@ return {
 			dir = 1,
 			bgm = "story-french2",
 			actor = 107041,
-			say = "无畏式，再次俯冲！",
+			say = "돈틀리스, 한 번 더 공격해!",
 			flashN = {
 				color = {
 					1,
@@ -58,7 +58,7 @@ return {
 		{
 			actor = 105191,
 			side = 0,
-			say = "算了，她已经..失去反抗的能力了",
+			say = "이제 됐어. 이 아이는 이제 움직이지 못해.",
 			dir = 1,
 			paintingFadeOut = {
 				time = 0.5,
@@ -77,7 +77,7 @@ return {
 			actor = 905011,
 			side = 1,
 			dir = 1,
-			say = "可恶…动起来啊！快动起来啊！！！",
+			say = "움직여! …움직여!! 움직이란 말야!!",
 			action = {
 				{
 					y = 0,
@@ -99,73 +99,73 @@ return {
 		{
 			actor = 105191,
 			side = 0,
+			dir = 1,
+			say = "…………",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 905011,
+			side = 1,
+			dir = 1,
+			say = "어째서냐! 어째서 날 완성하지 않은 거냐!!",
+			action = {
+				{
+					y = 0,
+					type = "shake",
+					dur = 0.3,
+					x = 15,
+					number = 2
+				}
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 905011,
+			side = 1,
+			dir = 1,
+			say = "어째서 리슐리외 언니만!!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 105191,
+			side = 0,
+			dir = 1,
+			say = "…2번 포탑, 안 쐈지? 나를 상대하면서 봐준 거야?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 905011,
+			side = 1,
 			dir = 1,
 			say = "……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 905011,
-			side = 1,
-			dir = 1,
-			say = "可恶，为什么，为什么就不能把我完整的造完！！",
-			action = {
-				{
-					y = 0,
-					type = "shake",
-					dur = 0.3,
-					x = 15,
-					number = 2
-				}
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 905011,
-			side = 1,
-			dir = 1,
-			say = "为什么，为什么姐姐就可以！！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 105191,
-			side = 0,
-			dir = 1,
-			say = "…你的二号炮台并没有开炮过，是在放水瞧不起我吗？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 905011,
-			side = 1,
-			dir = 1,
-			say = "…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,7 +181,7 @@ return {
 			blackBg = true,
 			actor = 900092,
 			stopbgm = true,
-			say = "姐，司令部突然下令要把我们从造船厂转移到遥远的港口，这是真的吗？！",
+			say = "리슐리외 언니, 우리 둘, 서로 다른 도크로 옮긴다고 그러는데, 그거 정말이야!?",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -213,7 +213,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "是的，似乎是…战局发生了不可预料的变化，为了安全起见…",
+			say = "맞아요. 그래요… 전황이 변했습니다. 안전을 위해…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,7 +228,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "这不就是要我们逃跑吗！？我们怎么可能接受这么懦弱的行动！",
+			say = "그러니까 도망친다는 소리야!? 난 절대 인정 못한다구!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,7 +243,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "也许司令部有更长远的想法吧，至少，现在还没有动力的你，必须找个更安全的地方隐蔽起来",
+			say = "상층부도 생각이 있는 거겠죠. 아직 의장이 완성되지 않은 당신은 안전한 장소에 숨어있어야…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +258,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "反击啊！就算现在的我只有一门主炮，加上大姐，我们也能让帝国的那群异教徒有来无回！",
+			say = "왜 못 싸우는 거야! 나한테도 주포 하나쯤은 있어! 그리고 리슐리외 언니도 있고! 녀석들을 쓰러트리기엔 충분하잖아!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -288,7 +288,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "难道…不是帝国的那群家伙？",
+			say = "설마…… 다른 세력이……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +303,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "情况可能比你想象的更复杂，接受命令吧，等你把动力和火力系统都完成了以后，来找我，我会在前面等着你的",
+			say = "상황이 생각보다 복잡해요…… 명령에 따라주세요. 당신의 장비가 완전해지면, 내가 있는 곳으로 오세요. 계속 기다릴 테니까요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -318,7 +318,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "......",
+			say = "……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -333,7 +333,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "好吧，迟早有一天，我会追上你的！一定要给我好好等着！",
+			say = "기다리라고. 뛰어넘어 주겠어. 언젠가…… 절대로.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -349,7 +349,7 @@ return {
 			bgmDelay = 2,
 			bgm = "story-french2",
 			actor = 905011,
-			say = "…也许从一开始，司令部就没打算把我完整的造出来…",
+			say = "……내 장비는 처음부터 완성되지 않았다.",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -380,7 +380,7 @@ return {
 			actor = 905011,
 			side = 2,
 			dir = 1,
-			say = "在铁血和帝国的包夹下，就算再多一艘大型军舰，也只不过会成为新的傀儡，他们从一开始就是这么想的",
+			say = "메탈 블러드와 그 세력에게 협공받는 상황이면, 대형함이 한 척 늘어봤자 적에게 이용당할 뿐. 처음부터 끝은 정해진 거였어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -394,7 +394,7 @@ return {
 			actor = 905011,
 			side = 2,
 			dir = 1,
-			say = "本还寄希望于塞壬赋予的能力让自己更接近一个完成体，可惜最后也是徒劳",
+			say = "메탈 블러드 녀석들처럼 세이렌의 힘을 빌리려 해도, 결국 그것도 이루지 못했어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -408,7 +408,7 @@ return {
 			actor = 905011,
 			side = 2,
 			dir = 1,
-			say = "呵呵，一心想守护自己的家园，一面却得看着国家分崩离析…",
+			say = "흥, 나라를 지키려 했는데, 나라가 쪼개졌을 뿐이었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -422,7 +422,7 @@ return {
 			actor = 905011,
 			side = 2,
 			dir = 1,
-			say = "一心想追上前面的人，一面却得面对对方的背叛…真是讽刺啊",
+			say = "줄곧 앞에 서있던 소중한 사람을 따라잡으려던 나머지, 그 사람에게도 배신당했다. …웃기지도 않는 농담같군, 정말이지.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -433,14 +433,14 @@ return {
 			}
 		},
 		{
-			say = "……",
+			say = "(지지직……)",
 			soundeffect = "event:/ui/noice"
 		},
 		{
 			actor = 107041,
 			side = 2,
 			dir = 1,
-			say = "收到了司令部紧急电报…",
+			say = "본부로부터 긴급 연락이……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -453,7 +453,7 @@ return {
 		{
 			actor = 105191,
 			side = 0,
-			say = "…铁血机动部队正在高速南下，登陆部队全员做好战斗准备…居然在这个时候？",
+			say = "…'메탈 블러드의 기동함대, 고속으로 남하 중. 전원 전투 준비' …지금?",
 			dir = 1,
 			paintingFadeOut = {
 				time = 0.5,
@@ -472,7 +472,7 @@ return {
 			actor = 905011,
 			side = 1,
 			dir = 1,
-			say = "呵呵呵，他们并不是冲着你们来的…",
+			say = "안심해라. 녀석들의 목표는 너희가 아냐.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -486,7 +486,7 @@ return {
 			actor = 905011,
 			side = 1,
 			dir = 1,
-			say = "我们的圣教骑士分布在陆间海的各个港口…怕不是…",
+			say = "오히려, 우리 동료들이 이 해역의 다른 항구에도 배치되어 있으니까… 어쩌면……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -497,11 +497,11 @@ return {
 			}
 		},
 		{
-			say = "……",
+			say = "(지지직……)",
 			soundeffect = "event:/ui/noice"
 		},
 		{
-			say = "原教廷所属全部军舰听令，司令部紧急电报：司令部已经沦陷，司令部已经沦陷",
+			say = "'비시아 성좌에 소속된 모든 함대에 전한다. 본부로부터 긴급 연락'",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -513,7 +513,7 @@ return {
 			}
 		},
 		{
-			say = "所有军舰立刻就近加入碧蓝航线同盟，维希教廷于今日起正式解散，立刻执行，不得有误",
+			say = "'비시아 성좌에 소속된 모든 군함은 벽람항로에 합류하라. 비시아 성좌, 세력 식별 해제, 재현 종료'",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -525,7 +525,7 @@ return {
 			}
 		},
 		{
-			say = "——愿天父的恩赐与你们同在，因父及子及圣神之名",
+			say = "'그대들에게 위대한 아버지와 성령의 가호가 있기를.'",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -540,7 +540,7 @@ return {
 			actor = 105191,
 			side = 0,
 			dir = 1,
-			say = "……",
+			say = "…………",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -554,7 +554,7 @@ return {
 			actor = 905011,
 			side = 1,
 			dir = 1,
-			say = "啊哈哈哈哈哈哈…",
+			say = "후, 후하하하하하!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -568,7 +568,7 @@ return {
 			actor = 204011,
 			side = 0,
 			dir = 1,
-			say = "……放下武装吧，和我们一起…",
+			say = "……무장을 해제하고, 저희에게……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -582,7 +582,7 @@ return {
 			actor = 905011,
 			side = 1,
 			dir = 1,
-			say = "闭嘴！你们这群无耻之徒，凯比尔港的事情我们不会再让他发生第二次",
+			say = "닥쳐라! 케비르 항… 됭케르크들이 겪은 일을 두 번씩이나 일어나게 만들 것 같나!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -595,7 +595,7 @@ return {
 		{
 			side = 1,
 			dir = 1,
-			say = "原维希教廷第一旗舰——让·巴尔号通告陆间海全军舰队",
+			say = "큭…! 비시아 성좌 기함 장 바르가 전 함선에 고한다!",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -632,7 +632,7 @@ return {
 		{
 			side = 1,
 			dir = 1,
-			say = "卡萨布兰卡已经失守，异教徒的獠牙已经伸向了祖国的内陆",
+			say = "이곳은 함락되었다! 이교도들이 조국으로 진출할 것이다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -645,7 +645,7 @@ return {
 		{
 			side = 1,
 			dir = 1,
-			say = "铁血想要侵占我们的躯体、帝国想要分食我们的血液",
+			say = "메탈 블러드나 제국 녀석들이 우리를 집어삼키려들 뿐만 아니라, ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -658,7 +658,7 @@ return {
 		{
 			side = 1,
 			dir = 1,
-			say = "甚至连司令部的叛徒也想要我们卖国求荣——",
+			say = "본부까지 우리 비시아 성좌를 부수려 하고 있다!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -671,7 +671,7 @@ return {
 		{
 			side = 1,
 			dir = 1,
-			say = "不！",
+			say = "나는 절대로, 용인할 수 없다!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -684,7 +684,7 @@ return {
 		{
 			side = 1,
 			dir = 1,
-			say = "凯比尔港的惨案已经给予了我们答案",
+			say = "케비르 항…… 됭케르크들이 적대하지 않았음에도 불구하고, 벽람항로한테 공격당한 시점에서, 이미 답은 나와 있었다!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -697,7 +697,7 @@ return {
 		{
 			side = 1,
 			dir = 1,
-			say = "骄傲的圣教骑士不会和他们同流合污，骄傲的天之子民绝不会向淫威屈服",
+			say = "그런 위선자들에게, 우리는 절대 복종하지 않는다!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -710,7 +710,7 @@ return {
 		{
 			side = 1,
 			dir = 1,
-			say = "前有狼，后有虎，现在是存亡的最后时刻",
+			say = "비시아 성좌는 지금 존망의 위기에 직면해 있다…… 우리 주변에는 적들뿐이다. 그게 어쨌단 거냐!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -723,7 +723,7 @@ return {
 		{
 			side = 1,
 			dir = 1,
-			say = "勇敢的圣教骑士绝不低头，绝不成为任何人的傀儡！",
+			say = "명령을 내린다! 전 함선, 즉시 스스로 침몰하라!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -736,7 +736,7 @@ return {
 		{
 			side = 1,
 			dir = 1,
-			say = "以自由之名，我命令，地间海全军舰队，就地自沉，就地自沉！",
+			say = "……필멸의 존재에게 죽음은 불가피한 것. 그대 슬퍼하지 마오. 이것이야말로 거짓 없는 윤회의 섭리.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -749,7 +749,7 @@ return {
 		{
 			side = 1,
 			dir = 1,
-			say = "生终将死，灵终将灭，然而，汝无需痛苦和哀伤，此为生命的循环，并无丝毫掩盖、虚伪和黑暗",
+			say = "언젠가, 또 다른 자신이 되어 눈뜨겠지.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -762,7 +762,7 @@ return {
 		{
 			side = 1,
 			dir = 1,
-			say = "在另一个黎明，我将醒来",
+			say = "그럼에도 신께는 감사드릴 따름이다. 멋진 나라를 주셔서 감사합니다…라고.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -775,7 +775,7 @@ return {
 		{
 			side = 1,
 			dir = 1,
-			say = "我将感谢主，感谢又把这么强大的国家赐予了我",
+			say = "이 목숨을 행복하게 해주셔서 감사합니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -788,7 +788,7 @@ return {
 		{
 			side = 1,
 			dir = 1,
-			say = "还使我能享受我们国家所有的一切祝福",
+			say = "그리고 천국의 바다로 이끌어주셔서 감사합니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -801,7 +801,7 @@ return {
 		{
 			side = 1,
 			dir = 1,
-			say = "使我也能享受天国里的一切丰盛",
+			say = "이 영광이 아이리스를 잇는 모든 자들에게 전해지길 바란다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -814,7 +814,7 @@ return {
 		{
 			side = 1,
 			dir = 1,
-			say = "这是我们最后的荣耀，让我们的名字成为后辈们的荣光",
+			say = "비시아 성좌. 아이리스란 나라의 정의, 격정, 애정을 나타내는 자들에게……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -827,7 +827,7 @@ return {
 		{
 			side = 1,
 			dir = 1,
-			say = "自由万岁",
+			say = "'위대한 아버지와 성령의 가호가 있기를'",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -840,20 +840,7 @@ return {
 		{
 			side = 1,
 			dir = 1,
-			say = "因父及子及圣神之名",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 1,
-			dir = 1,
-			say = "维…自由鸢尾第二旗舰——让·巴尔号",
+			say = "비시아…… 아니…… 아이리스 제2기함. 장 바르……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -866,7 +853,7 @@ return {
 		{
 			actor = 105191,
 			side = 2,
-			say = "…",
+			say = "대체 왜 그런 행동을.",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
 			effects = {
@@ -885,23 +872,9 @@ return {
 			}
 		},
 		{
-			actor = 105191,
-			side = 2,
-			dir = 1,
-			say = "这是何苦呢…",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
 			actor = 905011,
 			side = 1,
-			say = "这样也算…遵守了同盟时期许下的诺言吧…永世，不为铁血和帝国所用…不成为赤色中轴的獠牙",
+			say = "과거 아이리스와 로열 네이비가 맹약을 체결해서 말야. 아이리스는 결코 메탈 블러드나 제국에 항복하지 않는다…… 우리 비시아 성좌도 아이리스의 일부니까, 도리를 관철할 뿐이다.",
 			dir = 1,
 			paintingFadeOut = {
 				time = 0.5,
@@ -920,7 +893,7 @@ return {
 			actor = 204011,
 			side = 0,
 			dir = 1,
-			say = "…",
+			say = "장 바르……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -934,7 +907,7 @@ return {
 			actor = 905011,
 			side = 1,
 			dir = 1,
-			say = "呵呵，可恶啊，真是羡慕你们，拥有这么强大的国力…可以造出这么强而有力的船身和舰炮…",
+			say = "솔직히, 너희들이 부럽다. 그토록 강한 나라를 가져서, 이렇게나 강한 대포와 선체를 만들 수 있어서……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -948,7 +921,7 @@ return {
 			actor = 905011,
 			side = 1,
 			dir = 1,
-			say = "如果我也能…哪怕是再强大一点点，就能追上…",
+			say = "나도… 이 정도만 되었더라면…… 분명……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -962,7 +935,7 @@ return {
 			actor = 105191,
 			side = 0,
 			dir = 1,
-			say = "我很期待哦",
+			say = "기대하고 있을게.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -976,7 +949,7 @@ return {
 			actor = 105191,
 			side = 0,
 			dir = 1,
-			say = "等战争结束后，也许你就能有机会获得一个更完整的身躯了，我会期待着跟那样的你来一次堂堂正正的对决的",
+			say = "싸움이 끝나면 당신은 분명 완성될 거야. '그때 다시 정정당당하게 싸우자'고.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -990,7 +963,7 @@ return {
 			actor = 905011,
 			side = 1,
 			dir = 1,
-			say = "呵呵…你们这群白鹰的军舰哪懂得骑士精神..",
+			say = "흥, 너희 유니온이 어떻게 그런 잘나빠진 기사님이나 할 대사를 아는 거냐...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1005,7 +978,7 @@ return {
 			side = 0,
 			actor = 105191,
 			dir = 1,
-			say = "呵呵，至少向往自由的牛仔是不会轻易食言的",
+			say = "그래? 카우보이가 할 법한 말인데.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1019,7 +992,7 @@ return {
 			actor = 905011,
 			side = 1,
 			dir = 1,
-			say = "(哼，又是想让我追上的背影吗…你们这两个家伙，在这种地方倒是出乎意料的相似啊…）",
+			say = "(내가 넘어서고 싶은 녀석이 또 한 명…나타났나. 의외로… 닮았군…)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1033,7 +1006,7 @@ return {
 			actor = 905011,
 			side = 1,
 			dir = 1,
-			say = "那么…希望能有那么一天…在此之前，我可能得先沉睡上一会了…",
+			say = "좋아.… 그날을 기대하겠어……… 하지만 그 전에…… 잠깐, 쉬게 해 줘……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1047,7 +1020,7 @@ return {
 			actor = 105191,
 			side = 0,
 			dir = 1,
-			say = "嗯，好好休息吧，你们和铁血、帝国的恩怨",
+			say = "그래. 아이리스와 메탈 블러드, 그리고 '제국'……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1061,7 +1034,7 @@ return {
 			actor = 105191,
 			side = 0,
 			dir = 1,
-			say = "——就由我们来了结吧！",
+			say = "우리들이, 결판을 내주겠어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1077,7 +1050,7 @@ return {
 			blackBg = true,
 			actor = 900091,
 			stopbgm = true,
-			say = "那么，你知道“名字”的含义吗？",
+			say = "그나저나 우리 '이름'의 의미…… 알고 있나요?",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -1109,7 +1082,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "嗯？",
+			say = "이름?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1124,37 +1097,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "我们的名字都是来源于历史上有名的人物，这正说明他们对我们赋予了多大的期望",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 900091,
-			side = 2,
-			dir = 1,
-			blackBg = true,
-			say = "我们究竟是成为制造死亡的兵器，还是能够守护国土，成为他们所期待的“英雄”——",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 900091,
-			side = 2,
-			dir = 1,
-			blackBg = true,
-			say = "这一切都看你自己",
+			say = "'배'인 우리에게 '이름'은 인류의 위인으로부터 물려받은, 크나큰 기대가 담긴 것…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1169,7 +1112,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "......",
+			say = "…………",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1184,7 +1127,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "不要，做出对不起你“名字”的选择",
+			say = "부디 그 '이름'에 부끄럽지 않은 선택을 하길……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

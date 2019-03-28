@@ -10,7 +10,7 @@ return {
 		{
 			stopbgm = true,
 			side = 2,
-			say = "——警告：周边海域出现大量海空单位，全员作战戒备——",
+			say = "……경고：주변 해역에 적 항공 병력이 내습. 각 대원 신속히 전투태세에 이행할 것……",
 			dir = 1,
 			soundeffect = "event:/ui/alarm",
 			typewriter = {
@@ -21,14 +21,14 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "——警告：周边海域出现大量海空单位，全员作战戒备——",
+			say = "……경고：주변 해역에 적 항공 병력이 내습. 각 대원 신속히 전투태세에 이행할 것……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "大洋彼岸袭来风暴终于来临了吗，2年了，真是个漫长的等待啊",
+			say = "드디어 왔군! '대양 너머의 폭풍'인가 하는 녀석! 참 오래도 기다리게 하는군!",
 			side = 0,
 			bgName = "bg_story_faxi2",
 			dir = 1,
@@ -64,7 +64,7 @@ return {
 			actor = 905011,
 			side = 0,
 			bgName = "bg_story_faxi2",
-			say = "这就是你所期望的吗，我的姐姐？",
+			say = "……리슐리외 언니, 이게 당신이 원한 결과인가……?",
 			dir = 1,
 			withoutPainting = true,
 			typewriter = {
@@ -81,7 +81,7 @@ return {
 			bgmDelay = 3,
 			bgm = "story-french",
 			mode = 2,
-			say = "勇敢的圣教骑士们，神圣的时刻来临了！！！",
+			say = "비시아의 기사(카발리에)들이여! 성전의 때가 도래했다!",
 			flashout = {
 				dur = 1.5,
 				black = true,
@@ -118,7 +118,7 @@ return {
 		{
 			mode = 2,
 			side = 2,
-			say = "两年前，一群无耻的劫匪带着他们的野心闯进了我们的家园",
+			say = "부끄러운 줄도 모르는 외지인들이 우리 조국을 짓밟고,",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 		{
 			mode = 2,
 			side = 2,
-			say = "这群伪善的小人，为了吞并我们伟大的海上力量而不择手段",
+			say = "강대한 우리 해군을 손에 넣으려고 몇 번이나 검은 손길을 뻗었는가!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 		{
 			mode = 2,
 			side = 2,
-			say = "她们的世界里没有骑士精神，更没有任何的信仰",
+			say = "그 위선자들에겐 기사도도, 신앙도, 도리도, 정의도 없고,",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 		{
 			mode = 2,
 			side = 2,
-			say = "她们的世界里只有欺骗和背叛！",
+			say = "있는 것은 배신과 기만뿐이다!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,7 +170,7 @@ return {
 		{
 			mode = 2,
 			side = 2,
-			say = "敦刻尔克、普罗旺斯、布列塔尼，我们永远记得这些名字，永远记得那一天的耻辱",
+			say = "됭케르크, 프로방스, 브리타니아, 그날의 비열한 술수에 당한 우리 동포의 이름을, 우리는 한시도 잊은 적이 없다!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 		{
 			mode = 2,
 			side = 2,
-			say = "那一天，我们没有挺身而出",
+			say = "그날, 우리는 맞서지 않았다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +196,7 @@ return {
 		{
 			mode = 2,
 			side = 2,
-			say = "那一年，我们选择忍气吞声",
+			say = "그날, 우리는 저항을 선택하지 않았다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +209,7 @@ return {
 		{
 			mode = 2,
 			side = 2,
-			say = "害怕吗，后悔吗？",
+			say = "그것이 우리, 이 아이리스의 정통을 잇는 비시아 성좌가, 외적과 결탁한 자들을 두려워하고 있음을 뜻하는가!?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,7 +222,7 @@ return {
 		{
 			mode = 2,
 			side = 2,
-			say = "不！",
+			say = "아니다!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 		{
 			mode = 2,
 			side = 2,
-			say = "一次的失败并不可怕，他让我们看清了局势，看清了世界的野心",
+			say = "그날, 우리는 패배했다. 하지만 우리는 이 세계의 구조를 누구보다도, 아플 정도로 통감할 수 있었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +248,7 @@ return {
 		{
 			mode = 2,
 			side = 2,
-			say = "他让我们看清了差距，让我们变得比昨天更强！",
+			say = "적은 강했다. 하지만 비시아도 그날의 비시아가 아니다!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,7 +261,7 @@ return {
 		{
 			mode = 2,
 			side = 2,
-			say = "圣神有明，当时的劫匪们在此之后，遭到了她们应有的报应",
+			say = "악행으로 천벌이 내렸음에도 불구하고,",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 		{
 			mode = 2,
 			side = 2,
-			say = "而如今，她们背后的阴谋家却带着邪恶的阴谋再次归来",
+			say = "사악한 자들이 다시 한 번 우리의 조국을 침략하려 하고 있다!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -287,7 +287,7 @@ return {
 		{
 			mode = 2,
 			side = 2,
-			say = "他们说“我们是来给予你们自由的”",
+			say = "'자유를 주겠다'던가, '선택권을 주겠다'던가, 번지르르한 말을 늘어놓지만……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -300,7 +300,7 @@ return {
 		{
 			mode = 2,
 			side = 2,
-			say = "而主言“该撒的物当归给该撒，神的物当归给神” ",
+			say = "'카이사르의 것은 카이사르에게, 신의 것은 신에게'……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,7 +313,7 @@ return {
 		{
 			mode = 2,
 			side = 2,
-			say = "——自由从来不是靠别人施舍的！",
+			say = "우리의 자유는 신께서 내려주신 것! 결코 타인에게 받은 게 아니다!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -326,7 +326,7 @@ return {
 		{
 			mode = 2,
 			side = 2,
-			say = "如今的我们，在新的力量下，变得坚不可摧，变得无法阻挡",
+			say = "새로운 힘을 손에 넣은 우리는 어떤 상대라도 쳐부술 수 있다!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -339,7 +339,7 @@ return {
 		{
 			mode = 2,
 			side = 2,
-			say = "勇敢的圣教骑士们，神圣的时刻终于来临了！",
+			say = "자! 비시아의 기사들이여! 성전의 때가 드디어 도래했다!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -352,7 +352,7 @@ return {
 		{
 			mode = 2,
 			side = 2,
-			say = "我们才是世界承认的天之正统，荣耀必将归于我们！！",
+			say = "온 세계에 증명하라! 우리야말로 정통한 아이리스, 우리야말로 약속된 영광이라는 것을!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -365,7 +365,7 @@ return {
 		{
 			mode = 2,
 			side = 2,
-			say = "Que Dieu vous bénisse tous",
+			say = "Que Dieu vous bénisse(신의 가호가 있기를)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -378,7 +378,7 @@ return {
 		{
 			mode = 2,
 			side = 2,
-			say = "全舰队校准目标——开火！！！",
+			say = "전 함대, 목표에 조준…… 공격하라!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -393,7 +393,7 @@ return {
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
 			actor = 101301,
-			say = "开开开…维希教廷的舰队朝我们的登陆部队开火了！！",
+			say = "이, 이건…… 비시아 함대가 공격해왔습니다!",
 			effects = {
 				{
 					active = false,
@@ -443,7 +443,7 @@ return {
 		},
 		{
 			actor = 102031,
-			say = "登陆部队受到重创，立即请求支援！",
+			say = "막대한 손상 발생! 지원 바랍니다!",
 			dir = 1,
 			side = 1,
 			soundeffect = "event:/battle/boom2",
@@ -490,7 +490,7 @@ return {
 		},
 		{
 			actor = 102031,
-			say = "重复一遍，登陆部队受到重创，立即请求支援！！",
+			say = "반복합니다! 막대한 손상 발생! 지원 바랍니다!",
 			dir = 1,
 			side = 1,
 			soundeffect = "event:/battle/boom2",
@@ -537,7 +537,7 @@ return {
 		},
 		{
 			actor = 107041,
-			say = "任务果然不会那么简单呀…",
+			say = "평범한 방법으론 안 될 것 같네……",
 			dir = 1,
 			side = 1,
 			soundeffect = "event:/battle/boom2",
@@ -584,7 +584,7 @@ return {
 		},
 		{
 			actor = 107041,
-			say = "周边空域所有舰载机听令，任务变更，任务变更",
+			say = "주변 해역에서 전개 중인 함재기에게 알립니다. 지금부터 임무를 변경합니다.",
 			dir = 1,
 			side = 1,
 			soundeffect = "event:/battle/boom2",
@@ -631,7 +631,7 @@ return {
 		},
 		{
 			actor = 107041,
-			say = "优先压制卡萨布兰卡附近所有岸防炮，开始掩护登陆部队行动",
+			say = "연안포 제거를 우선하여, 상륙 엄호에 집중해주세요!",
 			dir = 1,
 			side = 1,
 			soundeffect = "event:/battle/boom2",
@@ -678,7 +678,7 @@ return {
 		},
 		{
 			actor = 102091,
-			say = "呀~果然还是打起来了呢，可惜对手里似乎没有飞机呀，都没有我大展身手的机…",
+			say = "역시 싸울 수 밖에 없나…… 적 항공기가 없으면 난 좀처럼 활약하기 힘들겠다만……",
 			dir = 1,
 			side = 1,
 			soundeffect = "event:/battle/boom2",
@@ -725,7 +725,7 @@ return {
 		},
 		{
 			actor = 102091,
-			say = "哇呀呀！是塞壬的舰载机攻击！！",
+			say = "으와와와! 세이렌의 함재기!?",
 			dir = 1,
 			side = 1,
 			soundeffect = "event:/battle/boom2",
@@ -772,7 +772,7 @@ return {
 		},
 		{
 			actor = 103111,
-			say = "不要大意，周边的护航和防空就交给你了，我倒是要去会会塞壬的新型空母！",
+			say = "방심하지마! 이 부근의 대공은 너에게 맡긴다! 우린 세이렌의 신형 항공모함을 치겠어!",
 			dir = 1,
 			side = 1,
 			soundeffect = "event:/battle/boom2",

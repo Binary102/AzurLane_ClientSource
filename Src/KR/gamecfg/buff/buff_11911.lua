@@ -200,11 +200,11 @@ return {
 		}
 	},
 	time = 0,
-	name = "独立技能1",
+	name = "鹰击长空",
 	init_effect = "",
 	id = 11911,
 	picture = "",
-	desc = "装备效率提高",
+	desc = "克洛希德装备效率提高",
 	stack = 1,
 	color = "red",
 	icon = 11910,

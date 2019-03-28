@@ -1378,6 +1378,45 @@ pg.furniture_data_template = {
 		canputonGrid = {},
 		interAction_group = {}
 	},
+	[129] = {
+		can_rotate = 0,
+		name = "아이리스 벨 ",
+		gain_by = "빛과 그림자의 아이리스 ",
+		type = 7,
+		dir = 0,
+		effect = "",
+		icon = "faxixunzhangicon",
+		is_get_time_note = 1,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 500,
+		not_for_sale = 1,
+		deblocking = 1,
+		level = 1,
+		rarity = 5,
+		picture = "chuanmo/faxixunzhang",
+		canputon = 0,
+		discount = 0,
+		id = 129,
+		comfortable = 0,
+		describe = "신성하고 장엄한 분위기가 느껴지는 자유 아이리스 교국의 성스러운 종. '빛과 그림자의 아이리스'에서 탁월한 전과를 올린 지휘관에게 수여된다. ",
+		dorm_id = 0,
+		gem_price = 0,
+		can_trigger = 1,
+		themeId = 0,
+		spine_extra = "",
+		time = "always",
+		new = 0,
+		discount_time = "",
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction_group = {}
+	},
 	[130] = {
 		can_rotate = 0,
 		name = "단상",
@@ -1913,6 +1952,135 @@ pg.furniture_data_template = {
 				"zhuqingtingCharControl"
 			}
 		},
+		interAction_group = {}
+	},
+	[100004] = {
+		can_rotate = 0,
+		name = "신기한 마법모자",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		picture = "",
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 1,
+		icon = "19.03.15icon",
+		deblocking = 1,
+		level = 1,
+		rarity = 4,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 100004,
+		comfortable = 0,
+		describe = "흥흥~ 알아맞혀 보세요, 이번엔 어떤게 나올까요~?",
+		dorm_id = 0,
+		gem_price = 120,
+		can_trigger = 0,
+		themeId = 0,
+		spine_extra = "",
+		time = "always",
+		new = 1,
+		discount_time = "",
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		spine = {
+			{
+				"moshumaoB",
+				"normal"
+			},
+			{
+				"moshumaoT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"walk"
+					},
+					{
+						{
+							"stand21",
+							"stand22",
+							"stand23"
+						}
+					},
+					{
+						"dance"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					0
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		animator = {
+			{
+				"moshumaoCharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[100005] = {
+		can_rotate = 0,
+		name = "秘密的魔术箱",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		effect = "",
+		icon = "moshuxiangicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 1,
+		deblocking = 1,
+		level = 1,
+		rarity = 4,
+		picture = "",
+		canputon = 0,
+		discount = 0,
+		id = 100005,
+		comfortable = 0,
+		describe = "将将～猜猜看，她在哪个箱子里？",
+		dorm_id = 0,
+		gem_price = 120,
+		can_trigger = 0,
+		themeId = 0,
+		spine_extra = "",
+		time = "always",
+		new = 1,
+		discount_time = "",
+		size = {
+			3,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
 		interAction_group = {}
 	},
 	[1001] = {
@@ -56835,6 +57003,2037 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[42001] = {
+		can_rotate = 0,
+		name = "나무색 벽지",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		effect = "",
+		icon = "qiangbikoicon",
+		is_get_time_note = 0,
+		belong = 0,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 150,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 4,
+		picture = "korea/qiangbiko",
+		canputon = 0,
+		discount = 0,
+		id = 42001,
+		comfortable = 4,
+		describe = "옛 풍모를 그대로 가지고 있는 벽지, 나무색을 가진 무늬. 편안함을 느끼게 해줍니다~",
+		dorm_id = 0,
+		gem_price = 450,
+		can_trigger = 0,
+		themeId = 42,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					3,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[42002] = {
+		can_rotate = 0,
+		name = "원목 바닥",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		effect = "",
+		icon = "dibankoicon",
+		is_get_time_note = 0,
+		belong = 0,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 150,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 5,
+		rarity = 4,
+		picture = "korea/dibanko",
+		canputon = 0,
+		discount = 0,
+		id = 42002,
+		comfortable = 4,
+		describe = "전통적인 나무재질의 바닥, 밟아보면 이렇게 편할 수가 ~",
+		dorm_id = 0,
+		gem_price = 450,
+		can_trigger = 0,
+		themeId = 42,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					3,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[42101] = {
+		can_rotate = 0,
+		name = "김치 침대",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 80,
+		not_for_sale = 1,
+		icon = "caikoicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		picture = "korea/caiko",
+		canputon = 0,
+		discount = 0,
+		id = 42101,
+		comfortable = 3,
+		describe = "김치모형의 침대, 먹는거 아니에요~",
+		dorm_id = 0,
+		gem_price = 240,
+		can_trigger = 0,
+		themeId = 42,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					0,
+					56
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					3,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[42102] = {
+		can_rotate = 0,
+		name = "군함 모형",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "chuankoicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		picture = "korea/chuanko",
+		canputon = 0,
+		discount = 0,
+		id = 42102,
+		comfortable = 3,
+		describe = "바람을 타고 파도를 헤쳐서, 용감하게 앞으로~",
+		dorm_id = 0,
+		gem_price = 240,
+		can_trigger = 0,
+		themeId = 42,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			7,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"stand2",
+				{
+					5,
+					3
+				},
+				{
+					-1,
+					1
+				},
+				"korea/chuanko_using"
+			},
+			{
+				"stand2",
+				{
+					-119,
+					-130
+				},
+				{
+					-1,
+					1
+				},
+				"korea/chuanko_using2"
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					3,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[42103] = {
+		can_rotate = 0,
+		name = "작은 걸상",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 2,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 20,
+		not_for_sale = 0,
+		icon = "dengkoicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 1,
+		picture = "korea/dengko",
+		canputon = 0,
+		discount = 0,
+		id = 42103,
+		comfortable = 1,
+		describe = "전통적인 나무재질의 걸상, 여기에 앉으면 마치 과거로 돌아간 느낌~",
+		dorm_id = 0,
+		gem_price = 60,
+		can_trigger = 0,
+		themeId = 42,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-6,
+					64
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					3,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[42104] = {
+		can_rotate = 0,
+		name = "맛있는 비빔밥",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "fankoicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		picture = "korea/fanko",
+		canputon = 0,
+		discount = 0,
+		id = 42104,
+		comfortable = 3,
+		describe = "방금 만든 비빔밥, 맛있는 야채와 밥 냄새가 나고, 밥 먹을 시간이다!",
+		dorm_id = 0,
+		gem_price = 240,
+		can_trigger = 0,
+		themeId = 42,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					13,
+					66
+				},
+				{
+					1,
+					1
+				},
+				"korea/fanko_using"
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					3,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[42105] = {
+		can_rotate = 0,
+		name = "반찬 책상",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		icon = "fanzhuokoicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		picture = "korea/fanzhuoko",
+		canputon = 0,
+		discount = 0,
+		id = 42105,
+		comfortable = 3,
+		describe = "최고급 맛을 즐기러 오세요~",
+		dorm_id = 0,
+		gem_price = 240,
+		can_trigger = 0,
+		themeId = 42,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					3,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[42106] = {
+		can_rotate = 0,
+		name = "김장독",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		icon = "gangkoicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "korea/gangko",
+		canputon = 0,
+		discount = 0,
+		id = 42106,
+		comfortable = 2,
+		describe = "좀 더 기다려주세요, 오래 담그면 더 맛있어져요~",
+		dorm_id = 0,
+		gem_price = 120,
+		can_trigger = 0,
+		themeId = 42,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					3,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[42107] = {
+		can_rotate = 0,
+		name = "원목 병풍",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		icon = "geduankoicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 2,
+		advice = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "korea/geduanko",
+		canputon = 0,
+		discount = 0,
+		id = 42107,
+		comfortable = 2,
+		describe = "나무 재질의 병풍, 장식품으로는 완벽한 실용성입니다~",
+		dorm_id = 0,
+		gem_price = 120,
+		can_trigger = 0,
+		themeId = 42,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					3,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[42108] = {
+		can_rotate = 0,
+		name = "전통 북",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		icon = "gukoicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 1,
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "korea/guko",
+		canputon = 0,
+		discount = 0,
+		id = 42108,
+		comfortable = 2,
+		describe = "의식 전용 큰북, 내가 쳐볼테니까 잘 봐,동~~",
+		dorm_id = 0,
+		gem_price = 120,
+		can_trigger = 0,
+		themeId = 42,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					3,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[42109] = {
+		can_rotate = 0,
+		name = "큰 맥주 잔",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "jiukoicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		picture = "korea/jiuko",
+		canputon = 0,
+		discount = 0,
+		id = 42109,
+		comfortable = 3,
+		describe = "벌컥벌컥벌컥---캬~ 역시 맥주는 큰 잔에 마셔야지~",
+		dorm_id = 0,
+		gem_price = 240,
+		can_trigger = 0,
+		themeId = 42,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"wash",
+				{
+					13,
+					15
+				},
+				{
+					-1,
+					1
+				},
+				"korea/jiuko_using"
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					3,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[42110] = {
+		can_rotate = 0,
+		name = "바베큐대",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		icon = "kaoroukoicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "korea/kaorouko",
+		canputon = 0,
+		discount = 0,
+		id = 42110,
+		comfortable = 2,
+		describe = "바베큐의 규칙은....먼저 온 사람이 임자!",
+		dorm_id = 0,
+		gem_price = 120,
+		can_trigger = 0,
+		themeId = 42,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					3,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[42111] = {
+		can_rotate = 0,
+		name = "귀한 약재",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		icon = "shenkoicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 20,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 1,
+		picture = "korea/shenko",
+		canputon = 0,
+		discount = 0,
+		id = 42111,
+		comfortable = 1,
+		describe = "동양의 신비로운 약재, 미용 효과가 있을지 모른다고?",
+		dorm_id = 0,
+		gem_price = 60,
+		can_trigger = 0,
+		themeId = 42,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			3,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					3,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[42112] = {
+		can_rotate = 0,
+		name = "떡볶이",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		icon = "shiwukoicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 1,
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "korea/shiwuko",
+		canputon = 0,
+		discount = 0,
+		id = 42112,
+		comfortable = 2,
+		describe = "맛있는 전통음식, 제일 맛있다구~",
+		dorm_id = 0,
+		gem_price = 120,
+		can_trigger = 0,
+		themeId = 42,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					3,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[42113] = {
+		can_rotate = 0,
+		name = "타워 모형",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		icon = "takoicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		picture = "korea/tako",
+		canputon = 0,
+		discount = 0,
+		id = 42113,
+		comfortable = 3,
+		describe = "빛이 난다면 더 좋을 텐데~",
+		dorm_id = 0,
+		gem_price = 240,
+		can_trigger = 0,
+		themeId = 42,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					3,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[42114] = {
+		can_rotate = 0,
+		name = "된장국",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "tangkoicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "korea/tangko",
+		canputon = 0,
+		discount = 0,
+		id = 42114,
+		comfortable = 2,
+		describe = "진한 맛이 나는 된장국을 한입 맛보면 따뜻한 행복한 느낌이~",
+		dorm_id = 0,
+		gem_price = 120,
+		can_trigger = 0,
+		themeId = 42,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"wash",
+				{
+					5,
+					-67
+				},
+				{
+					-1,
+					1
+				},
+				"korea/tangko_using"
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					3,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[42115] = {
+		can_rotate = 0,
+		name = "포도주스",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		icon = "yinliao1koicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 1,
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "korea/yinliao1ko",
+		canputon = 0,
+		discount = 0,
+		id = 42115,
+		comfortable = 2,
+		describe = "신선하고 상큼한 포도주스, 캔 바닥을 보니 포도알이 보이네~",
+		dorm_id = 0,
+		gem_price = 120,
+		can_trigger = 0,
+		themeId = 42,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					3,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[42116] = {
+		can_rotate = 0,
+		name = "오렌지주스",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		icon = "yinliao2koicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "korea/yinliao2ko",
+		canputon = 0,
+		discount = 0,
+		id = 42116,
+		comfortable = 2,
+		describe = "캔에든 오렌지주스, 모든 사람들이 좋아하고 당연히 오렌지가 듬쁙~",
+		dorm_id = 0,
+		gem_price = 120,
+		can_trigger = 0,
+		themeId = 42,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					3,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[42117] = {
+		can_rotate = 0,
+		name = "치킨",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		icon = "zhajikoicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		picture = "korea/zhajiko",
+		canputon = 0,
+		discount = 0,
+		id = 42117,
+		comfortable = 3,
+		describe = "언제든지 즉시 사용가능한 완벽한 치킨~",
+		dorm_id = 0,
+		gem_price = 240,
+		can_trigger = 0,
+		themeId = 42,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			3,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					3,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[42118] = {
+		can_rotate = 0,
+		name = "차 책상",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		icon = "zhuozi2koicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "korea/zhuozi2ko",
+		canputon = 0,
+		discount = 0,
+		id = 42118,
+		comfortable = 2,
+		describe = "차를 마시며, 오늘 뭐했는지 얘기해볼까~?",
+		dorm_id = 0,
+		gem_price = 120,
+		can_trigger = 0,
+		themeId = 42,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					3,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[42119] = {
+		can_rotate = 0,
+		name = "윷놀이 책상",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		icon = "zhuozi3koicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "korea/zhuozi3ko",
+		canputon = 1,
+		discount = 0,
+		id = 42119,
+		comfortable = 2,
+		describe = "전통 게임책상",
+		dorm_id = 0,
+		gem_price = 120,
+		can_trigger = 0,
+		themeId = 42,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			3
+		},
+		offset = {
+			0,
+			0
+		},
+		canputonGrid = {
+			{
+				1,
+				1
+			},
+			{
+				1,
+				2
+			},
+			{
+				1,
+				3
+			},
+			{
+				2,
+				1
+			},
+			{
+				2,
+				2
+			},
+			{
+				2,
+				3
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					3,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[42120] = {
+		can_rotate = 0,
+		name = "큰 북 책상",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		icon = "zhuozi4koicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		picture = "korea/zhuozi4ko",
+		canputon = 1,
+		discount = 0,
+		id = 42120,
+		comfortable = 3,
+		describe = "책상 모양의 북, 아니면 북 모양의 책상? ",
+		dorm_id = 0,
+		gem_price = 240,
+		can_trigger = 0,
+		themeId = 42,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			3,
+			3
+		},
+		offset = {
+			0,
+			9.03
+		},
+		canputonGrid = {
+			{
+				2,
+				2
+			},
+			{
+				2,
+				3
+			},
+			{
+				3,
+				2
+			},
+			{
+				3,
+				3
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					3,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[42121] = {
+		can_rotate = 0,
+		name = "장구 겉상",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 2,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "zuoyi2koicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "korea/zuoyi2ko",
+		canputon = 0,
+		discount = 0,
+		id = 42121,
+		comfortable = 2,
+		describe = "겉상 모양의 장구, 아니면 장구 모양의 겉상? ",
+		dorm_id = 0,
+		gem_price = 120,
+		can_trigger = 0,
+		themeId = 42,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-9,
+					68
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					3,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[42122] = {
+		can_rotate = 0,
+		name = "전통 방석",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 2,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 20,
+		not_for_sale = 0,
+		icon = "zuodiankoicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 1,
+		picture = "korea/zuodianko",
+		canputon = 0,
+		discount = 0,
+		id = 42122,
+		comfortable = 1,
+		describe = "목화를 채웠서, 아무리 눌러도 안 납작해지지. ",
+		dorm_id = 0,
+		gem_price = 60,
+		can_trigger = 0,
+		themeId = 42,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-13,
+					38
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					3,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[42123] = {
+		can_rotate = 0,
+		name = "윷가락",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 2,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "zuoyikoicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "korea/zuoyiko",
+		canputon = 0,
+		discount = 0,
+		id = 42123,
+		comfortable = 2,
+		describe = "윳놀이를 할 수 있는 도구, 기술을 사용해 잘 던져보라구~이얍!",
+		dorm_id = 0,
+		gem_price = 120,
+		can_trigger = 0,
+		themeId = 42,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					2,
+					49
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					3,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[42301] = {
+		can_rotate = 0,
+		name = "전통목재창문",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		effect = "",
+		icon = "chuanghukoicon",
+		is_get_time_note = 0,
+		belong = 2,
+		count = 3,
+		advice = 0,
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 5,
+		rarity = 3,
+		picture = "korea/chuanghuko",
+		canputon = 0,
+		discount = 0,
+		id = 42301,
+		comfortable = 3,
+		describe = "나무 재질이지만, 완벽한 견고함의 아름다움~",
+		dorm_id = 0,
+		gem_price = 240,
+		can_trigger = 0,
+		themeId = 42,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					3,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[42302] = {
+		can_rotate = 0,
+		name = "창문 꽃걸이",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		effect = "",
+		icon = "guahuakoicon",
+		is_get_time_note = 0,
+		belong = 2,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 5,
+		rarity = 2,
+		picture = "korea/guahuako",
+		canputon = 0,
+		discount = 0,
+		id = 42302,
+		comfortable = 2,
+		describe = "방안에 꼭 필요한 장식품, 꽃송이는 미래의 기원을 담고있어요~",
+		dorm_id = 0,
+		gem_price = 120,
+		can_trigger = 0,
+		themeId = 42,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					3,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[42303] = {
+		can_rotate = 0,
+		name = "무궁화 벽장식",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		effect = "",
+		icon = "huakoicon",
+		is_get_time_note = 0,
+		belong = 2,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 5,
+		rarity = 2,
+		picture = "korea/huako",
+		canputon = 0,
+		discount = 0,
+		id = 42303,
+		comfortable = 2,
+		describe = "꽃송이그림의 장식품, 위에는 꽃향기가 난다~",
+		dorm_id = 0,
+		gem_price = 120,
+		can_trigger = 0,
+		themeId = 42,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					3,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[42304] = {
+		can_rotate = 0,
+		name = "전통 미닫이",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		effect = "",
+		icon = "menkoicon",
+		is_get_time_note = 0,
+		belong = 2,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 5,
+		rarity = 3,
+		picture = "korea/menko",
+		canputon = 0,
+		discount = 0,
+		id = 42304,
+		comfortable = 3,
+		describe = "쉽고 간편한 미닫이문, 오래된 목재의 냄새가 난다",
+		dorm_id = 0,
+		gem_price = 240,
+		can_trigger = 0,
+		themeId = 42,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			6,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		time = {
+			{
+				{
+					2019,
+					3,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
 	all = {
 		1,
 		2,
@@ -56868,6 +59067,7 @@ pg.furniture_data_template = {
 		118,
 		119,
 		124,
+		129,
 		130,
 		131,
 		132,
@@ -56876,6 +59076,8 @@ pg.furniture_data_template = {
 		140,
 		100002,
 		100003,
+		100004,
+		100005,
 		1001,
 		1002,
 		1101,
@@ -57738,7 +59940,36 @@ pg.furniture_data_template = {
 		41114,
 		41115,
 		41116,
-		41117
+		41117,
+		42001,
+		42002,
+		42101,
+		42102,
+		42103,
+		42104,
+		42105,
+		42106,
+		42107,
+		42108,
+		42109,
+		42110,
+		42111,
+		42112,
+		42113,
+		42114,
+		42115,
+		42116,
+		42117,
+		42118,
+		42119,
+		42120,
+		42121,
+		42122,
+		42123,
+		42301,
+		42302,
+		42303,
+		42304
 	}
 }
 

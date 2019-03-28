@@ -110,10 +110,10 @@ return {
 		}
 	},
 	uiEffect = "",
-	name = "马拉尼回避up",
+	name = "光焰中的奇迹",
 	cd = 0,
 	picture = "0",
-	desc = "马拉尼回避up",
+	desc = "回避up",
 	painting = 0,
 	id = 11891,
 	aniEffect = {

@@ -135,7 +135,7 @@ function slot0.getMaxCount(slot0)
 end
 
 function slot0.hasMitigation(slot0)
-	if slot0:getDataType() == ChapterConst.TypeNone then
+	if not LOCK_MITIGATION and slot0:getDataType() == ChapterConst.TypeNone then
 		return slot0:getConfig("mitigation_level") > 0
 	else
 		return false
@@ -166,7 +166,7 @@ end
 
 function slot0.getMitigationRate(slot0)
 	if slot0:getDataType() == ChapterConst.TypeNone then
-		return math.min(slot0.passCount, slot0:getMaxCount()) * slot0:getConfig("mitigation_rate")
+		return math.min(slot0.passCount, slot0:getMaxCount()) * ((LOCK_MITIGATION and 0) or slot0:getConfig("mitigation_rate"))
 	else
 		return 0
 	end
@@ -177,7 +177,7 @@ function slot0.getRepressInfo(slot0)
 		repressMax = slot0:getMaxCount(),
 		repressCount = slot0.passCount,
 		repressReduce = slot0:getMitigationRate(),
-		repressLevel = (slot0:getRemainPassCount() > 0 and 0) or slot0:getConfig("mitigation_level") or 0,
+		repressLevel = (LOCK_MITIGATION and 0) or (slot0:getRemainPassCount() > 0 and 0) or slot0:getConfig("mitigation_level") or 0,
 		repressEnemyHpRant = 1 - slot0:getStageCell(slot0.fleet.line.row, slot0.fleet.line.column).data / 10000
 	}
 end

@@ -41,7 +41,7 @@ function slot0.register(slot0)
 			slot4[Student.New(slot9).id] = Student.New(slot9)
 		end
 
-		slot0.skillClassNum = slot0.skill_class_num or 2
+		slot0.skillClassNum = (LOCK_CLASSROOM and 2) or slot0.skill_class_num or 2
 
 		slot0:setStudents(slot4)
 

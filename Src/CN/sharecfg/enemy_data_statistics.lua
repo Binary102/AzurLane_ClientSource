@@ -33413,20 +33413,21 @@ pg.enemy_data_statistics = {
 	[409] = {
 		cannon = 6,
 		name = "重甲无限血测试敌人",
-		air_growth = 0,
+		battle_unit_type = 20,
 		speed_growth = 0,
 		air = 0,
-		battle_unit_type = 20,
 		armor = 0,
 		hit_growth = 0,
-		luck_growth = 0,
-		id = 409,
-		dodge_growth = 0,
-		bubble_fx = "",
-		star = 1,
-		bubble_initial = 0,
-		antisub_growth = 0,
 		rarity = 1,
+		type = 5,
+		luck_growth = 0,
+		dodge_growth = 0,
+		icon = "ekelahema",
+		star = 1,
+		id = 409,
+		antisub_growth = 0,
+		air_growth = 0,
+		bubble_fx = "",
 		base = 182,
 		durability = 99999999,
 		armor_growth = 0,
@@ -33434,8 +33435,11 @@ pg.enemy_data_statistics = {
 		bubble_interval = 0,
 		speed = 15,
 		luck = 0,
+		bubble_initial = 0,
 		antisub = 0,
+		prefab = "ekelahema",
 		cannon_growth = 0,
+		pilot_ai_template_id = 20006,
 		reload = 150,
 		dodge = 0,
 		reload_growth = 0,
@@ -33444,9 +33448,7 @@ pg.enemy_data_statistics = {
 		durability_growth = 0,
 		antiaircraft = 17,
 		antiaircraft_growth = 0,
-		equipment_list = {
-			310000
-		},
+		armor_type = 3,
 		specific_fx_scale = {},
 		smoke = {
 			{
@@ -33518,6 +33520,9 @@ pg.enemy_data_statistics = {
 			5.5,
 			7.5,
 			8
+		},
+		equipment_list = {
+			310000
 		}
 	},
 	[410] = {
@@ -33525,18 +33530,19 @@ pg.enemy_data_statistics = {
 		name = "中甲无限血测试敌人",
 		air_growth = 0,
 		speed_growth = 0,
-		air = 0,
-		battle_unit_type = 20,
 		armor = 0,
+		air = 0,
 		hit_growth = 0,
-		luck_growth = 0,
-		id = 410,
+		battle_unit_type = 20,
+		type = 2,
+		antiaircraft = 17,
 		dodge_growth = 0,
-		bubble_fx = "",
+		id = 410,
 		star = 1,
-		bubble_initial = 0,
+		bubble_fx = "",
 		antisub_growth = 0,
 		rarity = 1,
+		bubble_initial = 0,
 		base = 182,
 		durability = 99999999,
 		armor_growth = 0,
@@ -33546,17 +33552,16 @@ pg.enemy_data_statistics = {
 		luck = 0,
 		antisub = 0,
 		cannon_growth = 0,
+		pilot_ai_template_id = 20006,
 		reload = 150,
 		dodge = 0,
 		reload_growth = 0,
 		hit = 5,
 		torpedo = 28,
 		durability_growth = 0,
-		antiaircraft = 17,
+		luck_growth = 0,
 		antiaircraft_growth = 0,
-		equipment_list = {
-			310000
-		},
+		armor_type = 2,
 		specific_fx_scale = {},
 		smoke = {
 			{
@@ -33628,25 +33633,29 @@ pg.enemy_data_statistics = {
 			5.5,
 			7.5,
 			8
+		},
+		equipment_list = {
+			310000
 		}
 	},
 	[411] = {
 		cannon = 6,
 		name = "轻甲无限血测试敌人",
-		air_growth = 0,
+		battle_unit_type = 20,
 		speed_growth = 0,
 		air = 0,
-		battle_unit_type = 20,
 		armor = 0,
 		hit_growth = 0,
-		luck_growth = 0,
-		id = 411,
-		dodge_growth = 0,
-		bubble_fx = "",
-		star = 1,
-		bubble_initial = 0,
-		antisub_growth = 0,
 		rarity = 1,
+		type = 1,
+		luck_growth = 0,
+		dodge_growth = 0,
+		icon = "muyue",
+		star = 1,
+		id = 411,
+		antisub_growth = 0,
+		air_growth = 0,
+		bubble_fx = "",
 		base = 182,
 		durability = 99999999,
 		armor_growth = 0,
@@ -33654,8 +33663,11 @@ pg.enemy_data_statistics = {
 		bubble_interval = 0,
 		speed = 15,
 		luck = 0,
+		bubble_initial = 0,
 		antisub = 0,
+		prefab = "muyue",
 		cannon_growth = 0,
+		pilot_ai_template_id = 20006,
 		reload = 150,
 		dodge = 0,
 		reload_growth = 0,
@@ -33664,9 +33676,7 @@ pg.enemy_data_statistics = {
 		durability_growth = 0,
 		antiaircraft = 17,
 		antiaircraft_growth = 0,
-		equipment_list = {
-			310000
-		},
+		armor_type = 1,
 		specific_fx_scale = {},
 		smoke = {
 			{
@@ -33738,6 +33748,9 @@ pg.enemy_data_statistics = {
 			5.5,
 			7.5,
 			8
+		},
+		equipment_list = {
+			310000
 		}
 	},
 	[500] = {

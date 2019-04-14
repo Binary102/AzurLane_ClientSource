@@ -18,12 +18,18 @@ function slot0.getUIName(slot0)
 end
 
 function slot0.preload(slot0, slot1)
-	slot0.maps = getProxy(ChapterProxy):getMaps()
+	slot2 = getProxy(ChapterProxy)
 
-	if slot0.maps[slot0:selectMap(slot2)]:getConfig("bg") and #slot5 > 0 then
-		GetSpriteFromAtlasAsync("levelmap/" .. slot4:getConfig("bg"), "", slot1)
-	elseif slot4:getConfig("animtor") == 1 then
-		PoolMgr.GetInstance():GetUI(slot4:getConfig("ani_name"), true, function (slot0)
+	slot2:updateActiveChapterShips()
+	slot2:updateShamChapterShips()
+	slot2:updateGuildChapterShips()
+
+	slot0.maps = slot2:getMaps()
+
+	if slot0.maps[slot0:selectMap(slot3)]:getConfig("bg") and #slot6 > 0 then
+		GetSpriteFromAtlasAsync("levelmap/" .. slot5:getConfig("bg"), "", slot1)
+	elseif slot5:getConfig("animtor") == 1 then
+		PoolMgr.GetInstance():GetUI(slot5:getConfig("ani_name"), true, function (slot0)
 			slot0:SetActive(false)
 
 			slot0.tornadoTF = slot0
@@ -282,7 +288,7 @@ function slot0.updateBossBattleAct(slot0, slot1)
 end
 
 function slot0.didEnter(slot0)
-	slot0.openedCommanerSystem = pg.SystemOpenMgr:GetInstance():isOpenSystem(slot0.player.level, "CommandRoomMediator")
+	slot0.openedCommanerSystem = not LOCK_COMMANDER and pg.SystemOpenMgr:GetInstance():isOpenSystem(slot0.player.level, "CommandRoomMediator")
 
 	onButton(slot0, slot0:findTF("back_button", slot0.topStage), function ()
 		if slot0.contextData.chapterVO and slot0:getDataType() == ChapterConst.TypeGuild then
@@ -749,7 +755,7 @@ function slot0.didEnter(slot0)
 		slot0:onSubLayerClose()
 	end
 
-	if not slot0.contextData.isSwitchToChapter then
+	if not LOCK_SUBMARINE and not slot0.contextData.isSwitchToChapter then
 		slot0:tryPlaySubGuide()
 	end
 
@@ -1082,7 +1088,13 @@ function slot0.updateActivityBtns(slot0)
 		setActive(slot0.activityBtn, false)
 	end
 
-	setActive(slot0.signalBtn, getProxy(ChapterProxy).getChapterById(slot5, 304) and slot6:isClear() and (slot3 == Map.SCENARIO or slot3 == Map.ELITE))
+	slot6 = getProxy(ChapterProxy).getChapterById(slot5, 304)
+
+	if LOCK_SOS then
+		setActive(slot0.signalBtn, false)
+	else
+		setActive(slot0.signalBtn, slot6 and slot6:isClear() and (slot3 == Map.SCENARIO or slot3 == Map.ELITE))
+	end
 
 	slot7 = false
 	slot9 = nil
@@ -1116,6 +1128,8 @@ function slot0.updateActivityBtns(slot0)
 		slot0:updateActivityRes()
 	end
 
+	setActive(slot0.ptTotal, not LOCK_PT_VALUE and slot0.ptActivity and not slot0.ptActivity:isEnd() and isActivityMap)
+
 	slot15 = false
 
 	if slot0.bossBattleActivity and not slot0.bossBattleActivity:isEnd() and table.contains(slot0.bossBattleActivity:getConfig("config_data")[3], slot0.contextData.map.id) then
@@ -1140,6 +1154,10 @@ function slot0.updateActivityBtns(slot0)
 		setActive(slot0.actExchangeShopBtn, slot1 and not ActivityConst.HIDE_PT_PANELS and slot4)
 		setActive(slot0.mirrorBtn, false)
 		setActive(slot0.eventContainer, not slot1)
+	end
+
+	if LOCK_PT_VALUE then
+		setActive(slot0.ptTotal, false)
 	end
 
 	slot16 = (slot11 and slot14) or (not slot11 and slot13)
@@ -2506,18 +2524,20 @@ function slot0.switchToMap(slot0)
 
 	slot3 = getProxy(ChapterProxy)
 
-	if slot1:getMapType() == Map.ESCORT and (#slot3.escortMaps == 0 or _.any(slot4, function (slot0)
-		return slot0:shouldFetch()
-	end)) then
-		slot0:emit(LevelMediator2.ON_FETCH_ESCORT)
+	if not LOCK_SOS then
+		if slot1:getMapType() == Map.ESCORT and (#slot3.escortMaps == 0 or _.any(slot4, function (slot0)
+			return slot0:shouldFetch()
+		end)) then
+			slot0:emit(LevelMediator2.ON_FETCH_ESCORT)
 
-		return
-	end
+			return
+		end
 
-	if slot3.subNextReqTime < pg.TimeMgr.GetInstance():GetServerTime() then
-		slot0:emit(LevelMediator2.ON_FETCH_SUB_CHAPTER)
+		if slot3.subNextReqTime < pg.TimeMgr.GetInstance():GetServerTime() then
+			slot0:emit(LevelMediator2.ON_FETCH_SUB_CHAPTER)
 
-		return
+			return
+		end
 	end
 
 	slot0:frozen()

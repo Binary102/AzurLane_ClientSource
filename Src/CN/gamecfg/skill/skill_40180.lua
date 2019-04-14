@@ -19,7 +19,8 @@ return {
 			arg_list = {
 				buff_id = 40181,
 				ship_type_list = {
-					8
+					8,
+					17
 				}
 			}
 		}

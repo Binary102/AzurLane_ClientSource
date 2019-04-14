@@ -46,8 +46,8 @@ pg.activity_banner = {
 			{
 				{
 					2019,
-					3,
-					28
+					4,
+					4
 				},
 				{
 					0,
@@ -70,19 +70,42 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "253",
+		param = "274",
 		time = "stop",
 		type = 3,
 		id = 3,
 		pic = "temp2"
 	},
 	{
-		time = "stop",
-		type = 2,
+		param = "270",
+		type = 3,
 		id = 4,
 		pic = "temp3",
-		param = {
-			"scene level"
+		time = {
+			{
+				{
+					2019,
+					4,
+					4
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					18
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
 		}
 	},
 	{

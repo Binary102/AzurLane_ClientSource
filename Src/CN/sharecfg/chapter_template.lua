@@ -172950,7 +172950,7 @@ pg.chapter_template = {
 			0
 		},
 		icon = {
-			"sairenboss"
+			"unknown3"
 		},
 		awards = {
 			{
@@ -177035,7 +177035,7 @@ pg.chapter_template = {
 			0
 		},
 		icon = {
-			"sairenboss"
+			"unknown3"
 		},
 		awards = {
 			{

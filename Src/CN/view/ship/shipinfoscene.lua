@@ -604,7 +604,7 @@ function slot0.updatePreference(slot0, slot1)
 
 	slot9 = 1
 
-	if slot6 <= slot7 and not slot0.shipVO.propose then
+	if not LOCK_PROPOSE and slot6 <= slot7 and not slot0.shipVO.propose then
 		setActive(slot0.intimacyHeart, true)
 
 		slot9 = 0
@@ -1214,7 +1214,7 @@ function slot0.didEnter(slot0)
 
 	slot0.equipSkinBtn = slot0:findTF("main/equipment_r/equipment_skin_btn")
 
-	setActive(slot0.equipSkinBtn, true)
+	setActive(slot0.equipSkinBtn, not LOCK_EQUIP_SKIN)
 	onButton(slot0, slot0.equipSkinBtn, function ()
 		slot0, slot1 = Ship.canModifyShip(slot0.shipVO)
 
@@ -1339,47 +1339,50 @@ function slot0.didEnter(slot0)
 	onButton(slot0, slot0.energyTF, function ()
 		slot0:showEnergyDesc()
 	end)
-	onButton(slot0, slot0.intimacyTF, function ()
-		if slot0.shipVO:isActivityNpc() then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("npc_propse_tip"))
 
-			return
-		end
+	if not LOCK_PROPOSE then
+		onButton(slot0, slot0.intimacyTF, function ()
+			if slot0.shipVO:isActivityNpc() then
+				pg.TipsMgr:GetInstance():ShowTips(i18n("npc_propse_tip"))
 
-		if slot0.chatFlag then
-			if slot0.chatani1Id then
-				LeanTween.cancel(slot0.chatani1Id)
+				return
 			end
 
-			if slot0.chatani2Id then
-				LeanTween.cancel(slot0.chatani2Id)
+			if slot0.chatFlag then
+				if slot0.chatani1Id then
+					LeanTween.cancel(slot0.chatani1Id)
+				end
+
+				if slot0.chatani2Id then
+					LeanTween.cancel(slot0.chatani2Id)
+				end
+
+				LeanTween.scale(rtf(slot0.chat.gameObject), Vector3.New(0, 0, 1), ):setEase(LeanTweenType.easeInBack):setOnComplete(System.Action(function ()
+					slot0.chatFlag = nil
+				end))
 			end
 
-			LeanTween.scale(rtf(slot0.chat.gameObject), Vector3.New(0, 0, 1), ):setEase(LeanTweenType.easeInBack):setOnComplete(System.Action(function ()
-				slot0.chatFlag = nil
-			end))
-		end
-
-		if slot0._currentVoice then
-			slot0._currentVoice:Stop(true)
-		end
-
-		if slot0.chatFlag then
-			if slot0.chatani1Id then
-				LeanTween.cancel(slot0.chatani1Id)
+			if slot0._currentVoice then
+				slot0._currentVoice:Stop(true)
 			end
 
-			if slot0.chatani2Id then
-				LeanTween.cancel(slot0.chatani2Id)
+			if slot0.chatFlag then
+				if slot0.chatani1Id then
+					LeanTween.cancel(slot0.chatani1Id)
+				end
+
+				if slot0.chatani2Id then
+					LeanTween.cancel(slot0.chatani2Id)
+				end
+
+				LeanTween.scale(rtf(slot0.chat.gameObject), Vector3.New(0, 0, 1), ):setEase(LeanTweenType.easeInBack):setOnComplete(System.Action(function ()
+					slot0.chatFlag = nil
+				end))
 			end
 
-			LeanTween.scale(rtf(slot0.chat.gameObject), Vector3.New(0, 0, 1), ):setEase(LeanTweenType.easeInBack):setOnComplete(System.Action(function ()
-				slot0.chatFlag = nil
-			end))
-		end
-
-		slot0:emit(ShipInfoMediator.PROPOSE, slot0.shipVO.id)
-	end)
+			slot0:emit(ShipInfoMediator.PROPOSE, slot0.shipVO.id)
+		end)
+	end
 
 	slot3 = pg.UIMgr.GetInstance()
 

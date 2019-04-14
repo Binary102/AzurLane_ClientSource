@@ -2,7 +2,7 @@ class("ClickMingShiCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 	slot2 = slot1:getBody()
 	getProxy(PlayerProxy).getData(slot3).mingshiCount = getProxy(PlayerProxy).getData(slot3).mingshiCount + 1
 
-	if getProxy(ActivityProxy):getActivityById(mingshiActivityId) and not slot5:isEnd() and getProxy(TaskProxy):getmingshiTaskID(slot4.mingshiCount) > 0 then
+	if getProxy(ActivityProxy):getActivityById(mingshiActivityId) and not slot5:isEnd() and not LOCK_CLICK_MINGSHI and getProxy(TaskProxy):getmingshiTaskID(slot4.mingshiCount) > 0 then
 		slot0:sendNotification(GAME.ACTIVITY_OPERATION, {
 			cmd = 1,
 			activity_id = mingshiActivityId

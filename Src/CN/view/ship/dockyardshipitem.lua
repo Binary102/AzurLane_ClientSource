@@ -186,16 +186,19 @@ function slot0.flush(slot0)
 		end
 
 		slot0:updateBlackBlock()
+		setActive(slot0.proposeTF, false)
 
-		slot14, slot15, slot16 = slot0.shipVO:getIntimacyDetail()
+		if not LOCK_PROPOSE then
+			slot14, slot15, slot16 = slot0.shipVO:getIntimacyDetail()
 
-		if slot15 <= slot16 and not slot0.shipVO.propose then
-			setActive(slot0.proposeTF, true)
+			if slot15 <= slot16 and not slot0.shipVO.propose then
+				setActive(slot0.proposeTF, true)
+			end
+
+			setActive(slot0.duang, slot0.shipVO.propose)
 		else
 			setActive(slot0.proposeTF, false)
 		end
-
-		setActive(slot0.duang, slot0.shipVO.propose)
 
 		if slot0.duang6 then
 			setActive(slot0.duang6, slot0.shipVO:getRarity() == 6 and not slot0.shipVO.propose)

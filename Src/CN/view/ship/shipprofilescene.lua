@@ -506,7 +506,14 @@ function slot0.initProfile(slot0)
 		end
 	end
 
-	setText(slot0:findTF("bg/author_panel/illustrator/Text", slot0.profile), Nation.Nation2facionName(slot2) .. "-" .. Nation.Nation2Name(slot0.shipGroup.shipConfig.nationality))
+	slot2 = slot0.shipGroup.shipConfig.nationality
+
+	if LOCK_ILLUSTRATOR then
+		setText(slot0:findTF("bg/author_panel/illustrator/Text", slot0.profile), Nation.Nation2Name(slot2))
+	else
+		setText(slot0:findTF("bg/author_panel/illustrator/Text", slot0.profile), Nation.Nation2facionName(slot2) .. "-" .. Nation.Nation2Name(slot2))
+	end
+
 	slot0:shiftSkin(slot1)
 	slot0:setProfileInfo()
 

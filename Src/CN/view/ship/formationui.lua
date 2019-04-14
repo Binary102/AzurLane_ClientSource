@@ -866,8 +866,14 @@ function slot1(slot0)
 	slot5 = slot0.player
 	slot5 = slot5.level
 	slot6 = "CommandRoomMediator"
+	slot3 = slot3(slot4, slot5, slot6)
 
-	slot1(slot2, slot3(slot4, slot5, slot6))
+	if slot3 then
+		slot3 = LOCK_COMMANDER
+		slot3 = not slot3
+	end
+
+	slot1(slot2, slot3)
 
 	slot1 = onButton
 	slot2 = slot0
@@ -968,6 +974,19 @@ function slot1(slot0)
 	end
 
 	slot1(slot2, slot3)
+
+	slot1 = LOCK_CLICK_MINGSHI
+
+	if slot1 then
+		slot1 = setActive
+		slot3 = slot0
+		slot2 = slot0.findTF
+		slot4 = "stamp"
+		slot2 = slot2(slot3, slot4)
+		slot3 = false
+
+		slot1(slot2, slot3)
+	end
 
 	slot1 = onButton
 	slot2 = slot0

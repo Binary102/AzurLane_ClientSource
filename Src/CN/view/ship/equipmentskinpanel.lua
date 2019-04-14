@@ -13,6 +13,10 @@ function slot0.init(slot0)
 	slot0.equipmentL = slot0:findTF("equipment_l/equipment")
 	slot0.skinR = slot0:findTF("equipment_r/skin")
 	slot0.skinL = slot0:findTF("equipment_l/skin")
+
+	setActive(slot0.skinR, not LOCK_EQUIP_SKIN)
+	setActive(slot0.skinL, not LOCK_EQUIP_SKIN)
+
 	slot0.infoPanel = slot0:findTF("info", slot0.equipmentTFs[1])
 end
 

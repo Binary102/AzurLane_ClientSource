@@ -308,7 +308,7 @@ pg.commander_ability_template = {
 		name = "新人雷击士·潜艇",
 		group_id = 20,
 		worth = 1,
-		desc = "<color=#5caafc>潜艇</color>雷击提高10点",
+		desc = "<color=#5caafc>潜艇、潜母</color>雷击提高10点",
 		next = 202,
 		id = 201,
 		icon = "qianting_leiji_1",
@@ -317,7 +317,8 @@ pg.commander_ability_template = {
 				1,
 				{},
 				{
-					8
+					8,
+					17
 				},
 				3,
 				10
@@ -325,7 +326,7 @@ pg.commander_ability_template = {
 		},
 		add_desc = {
 			{
-				"<潜艇>雷击",
+				"<潜艇、潜母>雷击",
 				10
 			}
 		}
@@ -335,7 +336,7 @@ pg.commander_ability_template = {
 		name = "熟练雷击士·潜艇",
 		group_id = 20,
 		worth = 2,
-		desc = "<color=#5caafc>潜艇</color>雷击提高14点",
+		desc = "<color=#5caafc>潜艇、潜母</color>雷击提高14点",
 		next = 203,
 		id = 202,
 		icon = "qianting_leiji_2",
@@ -344,7 +345,8 @@ pg.commander_ability_template = {
 				1,
 				{},
 				{
-					8
+					8,
+					17
 				},
 				3,
 				14
@@ -352,7 +354,7 @@ pg.commander_ability_template = {
 		},
 		add_desc = {
 			{
-				"<潜艇>雷击",
+				"<潜艇、潜母>雷击",
 				14
 			}
 		}
@@ -362,7 +364,7 @@ pg.commander_ability_template = {
 		name = "雷击长·潜艇",
 		group_id = 20,
 		worth = 3,
-		desc = "<color=#5caafc>潜艇</color>雷击提高20点",
+		desc = "<color=#5caafc>潜艇、潜母</color>雷击提高20点",
 		next = 0,
 		id = 203,
 		icon = "qianting_leiji_3",
@@ -371,7 +373,8 @@ pg.commander_ability_template = {
 				1,
 				{},
 				{
-					8
+					8,
+					17
 				},
 				3,
 				20
@@ -379,7 +382,7 @@ pg.commander_ability_template = {
 		},
 		add_desc = {
 			{
-				"<潜艇>雷击",
+				"<潜艇、潜母>雷击",
 				20
 			}
 		}
@@ -1115,7 +1118,7 @@ pg.commander_ability_template = {
 		name = "装填新手·潜艇",
 		group_id = 60,
 		worth = 1,
-		desc = "<color=#5caafc>潜艇</color>装填提高3点",
+		desc = "<color=#5caafc>潜艇、潜母</color>装填提高3点",
 		next = 602,
 		id = 601,
 		icon = "qianting_one_1",
@@ -1124,7 +1127,8 @@ pg.commander_ability_template = {
 				1,
 				{},
 				{
-					8
+					8,
+					17
 				},
 				6,
 				3
@@ -1132,7 +1136,7 @@ pg.commander_ability_template = {
 		},
 		add_desc = {
 			{
-				"<潜艇>装填",
+				"<潜艇、潜母>装填",
 				3
 			}
 		}
@@ -1142,7 +1146,7 @@ pg.commander_ability_template = {
 		name = "熟练装填手·潜艇",
 		group_id = 60,
 		worth = 2,
-		desc = "<color=#5caafc>潜艇</color>装填提高4点",
+		desc = "<color=#5caafc>潜艇、潜母</color>装填提高4点",
 		next = 603,
 		id = 602,
 		icon = "qianting_one_2",
@@ -1151,7 +1155,8 @@ pg.commander_ability_template = {
 				1,
 				{},
 				{
-					8
+					8,
+					17
 				},
 				6,
 				4
@@ -1159,7 +1164,7 @@ pg.commander_ability_template = {
 		},
 		add_desc = {
 			{
-				"<潜艇>装填",
+				"<潜艇、潜母>装填",
 				4
 			}
 		}
@@ -1169,7 +1174,7 @@ pg.commander_ability_template = {
 		name = "无影手·潜艇",
 		group_id = 60,
 		worth = 3,
-		desc = "<color=#5caafc>潜艇</color>装填提高6点",
+		desc = "<color=#5caafc>潜艇、潜母</color>装填提高6点",
 		next = 0,
 		id = 603,
 		icon = "qianting_one_3",
@@ -1178,7 +1183,8 @@ pg.commander_ability_template = {
 				1,
 				{},
 				{
-					8
+					8,
+					17
 				},
 				6,
 				6
@@ -1186,7 +1192,7 @@ pg.commander_ability_template = {
 		},
 		add_desc = {
 			{
-				"<潜艇>装填",
+				"<潜艇、潜母>装填",
 				6
 			}
 		}
@@ -1676,7 +1682,7 @@ pg.commander_ability_template = {
 		name = "轮机手·潜艇",
 		group_id = 70,
 		worth = 1,
-		desc = "<color=#5caafc>潜艇</color>耐久提高25点",
+		desc = "<color=#5caafc>潜艇、潜母</color>耐久提高25点",
 		next = 702,
 		id = 701,
 		icon = "qianting_naijiu_1",
@@ -1685,7 +1691,8 @@ pg.commander_ability_template = {
 				1,
 				{},
 				{
-					8
+					8,
+					17
 				},
 				1,
 				20
@@ -1693,7 +1700,7 @@ pg.commander_ability_template = {
 		},
 		add_desc = {
 			{
-				"<潜艇>耐久",
+				"<潜艇、潜母>耐久",
 				25
 			}
 		}
@@ -1703,7 +1710,7 @@ pg.commander_ability_template = {
 		name = "熟练轮机手·潜艇",
 		group_id = 70,
 		worth = 2,
-		desc = "<color=#5caafc>潜艇</color>耐久提高35点",
+		desc = "<color=#5caafc>潜艇、潜母</color>耐久提高35点",
 		next = 703,
 		id = 702,
 		icon = "qianting_naijiu_2",
@@ -1712,7 +1719,8 @@ pg.commander_ability_template = {
 				1,
 				{},
 				{
-					8
+					8,
+					17
 				},
 				1,
 				35
@@ -1720,7 +1728,7 @@ pg.commander_ability_template = {
 		},
 		add_desc = {
 			{
-				"<潜艇>耐久",
+				"<潜艇、潜母>耐久",
 				35
 			}
 		}
@@ -1730,7 +1738,7 @@ pg.commander_ability_template = {
 		name = "轮机长·潜艇",
 		group_id = 70,
 		worth = 3,
-		desc = "<color=#5caafc>潜艇</color>耐久提高50点",
+		desc = "<color=#5caafc>潜艇、潜母</color>耐久提高50点",
 		next = 0,
 		id = 703,
 		icon = "qianting_naijiu_3",
@@ -1739,7 +1747,8 @@ pg.commander_ability_template = {
 				1,
 				{},
 				{
-					8
+					8,
+					17
 				},
 				1,
 				50
@@ -1747,7 +1756,7 @@ pg.commander_ability_template = {
 		},
 		add_desc = {
 			{
-				"<潜艇>耐久",
+				"<潜艇、潜母>耐久",
 				50
 			}
 		}
@@ -2237,7 +2246,7 @@ pg.commander_ability_template = {
 		name = "新手观测士·潜艇",
 		group_id = 80,
 		worth = 1,
-		desc = "<color=#5caafc>潜艇</color>命中提高2点",
+		desc = "<color=#5caafc>潜艇、潜母</color>命中提高2点",
 		next = 802,
 		id = 801,
 		icon = "qianting_one_1",
@@ -2246,7 +2255,8 @@ pg.commander_ability_template = {
 				1,
 				{},
 				{
-					8
+					8,
+					17
 				},
 				8,
 				2
@@ -2254,7 +2264,7 @@ pg.commander_ability_template = {
 		},
 		add_desc = {
 			{
-				"<潜艇>命中",
+				"<潜艇、潜母>命中",
 				2
 			}
 		}
@@ -2264,7 +2274,7 @@ pg.commander_ability_template = {
 		name = "熟练观测士·潜艇",
 		group_id = 80,
 		worth = 2,
-		desc = "<color=#5caafc>潜艇</color>命中提高3点",
+		desc = "<color=#5caafc>潜艇、潜母</color>命中提高3点",
 		next = 803,
 		id = 802,
 		icon = "qianting_one_2",
@@ -2273,7 +2283,8 @@ pg.commander_ability_template = {
 				1,
 				{},
 				{
-					8
+					8,
+					17
 				},
 				8,
 				3
@@ -2281,7 +2292,7 @@ pg.commander_ability_template = {
 		},
 		add_desc = {
 			{
-				"<潜艇>命中",
+				"<潜艇、潜母>命中",
 				3
 			}
 		}
@@ -2291,7 +2302,7 @@ pg.commander_ability_template = {
 		name = "鹰眼·潜艇",
 		group_id = 80,
 		worth = 3,
-		desc = "<color=#5caafc>潜艇</color>命中提高5点",
+		desc = "<color=#5caafc>潜艇、潜母</color>命中提高5点",
 		next = 0,
 		id = 803,
 		icon = "qianting_one_3",
@@ -2300,7 +2311,8 @@ pg.commander_ability_template = {
 				1,
 				{},
 				{
-					8
+					8,
+					17
 				},
 				8,
 				5
@@ -2308,7 +2320,7 @@ pg.commander_ability_template = {
 		},
 		add_desc = {
 			{
-				"<潜艇>命中",
+				"<潜艇、潜母>命中",
 				5
 			}
 		}
@@ -2504,7 +2516,7 @@ pg.commander_ability_template = {
 		name = "操舵手·小型舰",
 		group_id = 90,
 		worth = 1,
-		desc = "<color=#5caafc>潜艇、驱逐</color>机动提高5点",
+		desc = "<color=#5caafc>潜艇、潜母、驱逐</color>机动提高5点",
 		next = 902,
 		id = 901,
 		icon = "quzhu_one_1",
@@ -2514,7 +2526,8 @@ pg.commander_ability_template = {
 				{},
 				{
 					1,
-					8
+					8,
+					17
 				},
 				9,
 				5
@@ -2532,7 +2545,7 @@ pg.commander_ability_template = {
 		name = "熟练舵手·小型舰",
 		group_id = 90,
 		worth = 2,
-		desc = "<color=#5caafc>潜艇、驱逐</color>机动提高7点",
+		desc = "<color=#5caafc>潜艇、潜母、驱逐</color>机动提高7点",
 		next = 903,
 		id = 902,
 		icon = "quzhu_one_2",
@@ -2542,7 +2555,8 @@ pg.commander_ability_template = {
 				{},
 				{
 					1,
-					8
+					8,
+					17
 				},
 				9,
 				7
@@ -2560,7 +2574,7 @@ pg.commander_ability_template = {
 		name = "航海长·小型舰",
 		group_id = 90,
 		worth = 3,
-		desc = "<color=#5caafc>潜艇、驱逐</color>机动提高10点",
+		desc = "<color=#5caafc>潜艇、潜母、驱逐</color>机动提高10点",
 		next = 0,
 		id = 903,
 		icon = "quzhu_one_3",
@@ -2570,7 +2584,8 @@ pg.commander_ability_template = {
 				{},
 				{
 					1,
-					8
+					8,
+					17
 				},
 				9,
 				10
@@ -3311,7 +3326,7 @@ pg.commander_ability_template = {
 		name = "新晋指挥官·潜艇",
 		group_id = 204,
 		worth = 1,
-		desc = "<color=#5caafc>潜艇</color>雷击提高10点、装填提高3点",
+		desc = "<color=#5caafc>潜艇、潜母</color>雷击提高10点、装填提高3点",
 		next = 2042,
 		id = 2041,
 		icon = "qianting_one_1",
@@ -3320,7 +3335,8 @@ pg.commander_ability_template = {
 				1,
 				{},
 				{
-					8
+					8,
+					17
 				},
 				3,
 				10
@@ -3329,7 +3345,8 @@ pg.commander_ability_template = {
 				1,
 				{},
 				{
-					8
+					8,
+					17
 				},
 				6,
 				3
@@ -3337,11 +3354,11 @@ pg.commander_ability_template = {
 		},
 		add_desc = {
 			{
-				"<潜艇>雷击",
+				"<潜艇、潜母>雷击",
 				10
 			},
 			{
-				"<潜艇>装填",
+				"<潜艇、潜母>装填",
 				3
 			}
 		}
@@ -3351,7 +3368,7 @@ pg.commander_ability_template = {
 		name = "精锐指挥官·潜艇",
 		group_id = 204,
 		worth = 2,
-		desc = "<color=#5caafc>潜艇</color>雷击提高14点、装填提高4点",
+		desc = "<color=#5caafc>潜艇、潜母</color>雷击提高14点、装填提高4点",
 		next = 2043,
 		id = 2042,
 		icon = "qianting_one_2",
@@ -3360,7 +3377,8 @@ pg.commander_ability_template = {
 				1,
 				{},
 				{
-					8
+					8,
+					17
 				},
 				3,
 				14
@@ -3369,7 +3387,8 @@ pg.commander_ability_template = {
 				1,
 				{},
 				{
-					8
+					8,
+					17
 				},
 				6,
 				4
@@ -3377,11 +3396,11 @@ pg.commander_ability_template = {
 		},
 		add_desc = {
 			{
-				"<潜艇>雷击",
+				"<潜艇、潜母>雷击",
 				14
 			},
 			{
-				"<潜艇>装填",
+				"<潜艇、潜母>装填",
 				4
 			}
 		}
@@ -3391,7 +3410,7 @@ pg.commander_ability_template = {
 		name = "沉默杀手",
 		group_id = 204,
 		worth = 3,
-		desc = "<color=#5caafc>潜艇</color>雷击提高20点、装填提高6点",
+		desc = "<color=#5caafc>潜艇、潜母</color>雷击提高20点、装填提高6点",
 		next = 0,
 		id = 2043,
 		icon = "qianting_one_3",
@@ -3400,7 +3419,8 @@ pg.commander_ability_template = {
 				1,
 				{},
 				{
-					8
+					8,
+					17
 				},
 				3,
 				20
@@ -3409,7 +3429,8 @@ pg.commander_ability_template = {
 				1,
 				{},
 				{
-					8
+					8,
+					17
 				},
 				6,
 				6
@@ -3417,11 +3438,11 @@ pg.commander_ability_template = {
 		},
 		add_desc = {
 			{
-				"<潜艇>雷击",
+				"<潜艇、潜母>雷击",
 				20
 			},
 			{
-				"<潜艇>装填",
+				"<潜艇、潜母>装填",
 				6
 			}
 		}
@@ -4885,7 +4906,7 @@ pg.commander_ability_template = {
 		name = "狼群之首",
 		group_id = 505,
 		worth = 1,
-		desc = "<color=#5caafc>潜艇</color>雷击提高15点，装填提高8点",
+		desc = "<color=#5caafc>潜艇、潜母</color>雷击提高15点，装填提高8点",
 		next = 0,
 		id = 5051,
 		icon = "langqunzhishou",
@@ -4894,7 +4915,8 @@ pg.commander_ability_template = {
 				1,
 				{},
 				{
-					8
+					8,
+					17
 				},
 				3,
 				15
@@ -4903,7 +4925,8 @@ pg.commander_ability_template = {
 				1,
 				{},
 				{
-					8
+					8,
+					17
 				},
 				6,
 				8
@@ -4911,11 +4934,11 @@ pg.commander_ability_template = {
 		},
 		add_desc = {
 			{
-				"<潜艇>雷击",
+				"<潜艇、潜母>雷击",
 				15
 			},
 			{
-				"<潜艇>装填",
+				"<潜艇、潜母>装填",
 				8
 			}
 		}

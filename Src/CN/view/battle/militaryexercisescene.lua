@@ -448,6 +448,19 @@ function slot1(slot0)
 
 	slot1(slot2, slot3(slot4))
 
+	slot1 = LOCK_CLICK_MINGSHI
+
+	if slot1 then
+		slot1 = setActive
+		slot3 = slot0
+		slot2 = slot0.findTF
+		slot4 = "stamp"
+		slot2 = slot2(slot3, slot4)
+		slot3 = false
+
+		slot1(slot2, slot3)
+	end
+
 	slot1 = onButton
 	slot2 = slot0
 	slot4 = slot0

@@ -48,24 +48,29 @@ end
 
 function slot0.load(slot0)
 	slot1 = nil
-	slot2 = 0
-	slot3 = Time.realtimeSinceStartup
+	slot2 = Time.realtimeSinceStartup
 
-	PoolMgr.GetInstance():GetUI(slot0:getUIName(), true, function (slot0)
-		slot0 = slot0
+	seriesAsync({
+		function (slot0)
+			PoolMgr.GetInstance():GetUI(slot0:getUIName(), true, function (slot0)
+				slot0 = slot0
 
-		slot1()
-	end)
-	slot0:preload(function ()
-		if slot0 + 1 == 2 then
-			if slot1:getBGM() then
-				playBGM(slot0)
-			end
-
-			pg.UIMgr.transform:SetParent(pg.UIMgr:GetInstance().UIMain.transform, false)
-			pg.UIMgr.transform.SetParent:SetActive(true)
-			slot1:onUILoaded(slot1.onUILoaded)
+				slot1()
+			end)
+		end,
+		function (slot0)
+			slot0:preload(slot0)
 		end
+	}, function ()
+		print("load " .. slot0.name .. " time cost: " .. Time.realtimeSinceStartup - "load ")
+
+		if slot2:getBGM() then
+			playBGM(slot0)
+		end
+
+		slot0.transform:SetParent(pg.UIMgr:GetInstance().UIMain.transform, false)
+		slot0:SetActive(true)
+		slot0.SetActive:onUILoaded(slot0)
 	end)
 end
 

@@ -119,6 +119,15 @@ function slot0.init(slot0)
 	slot0._academyBtn = slot0:findTF("secondary_panel/frame/bg/school_btn")
 	slot0._haremBtn = slot0:findTF("secondary_panel/frame/bg/backyard_btn")
 	slot0._commanderBtn = slot0:findTF("secondary_panel/frame/bg/commander_btn")
+
+	if not LOCK_SECONDARY then
+		slot0._academyBtn = slot0:findTF("secondary_panel/frame/bg/school_btn")
+		slot0._haremBtn = slot0:findTF("secondary_panel/frame/bg/backyard_btn")
+	else
+		slot0._academyBtn = slot0:findTF("bottomPanel/buttons_container/academyButton")
+		slot0._haremBtn = slot0:findTF("bottomPanel/buttons_container/haremButton")
+	end
+
 	slot0._technologyBtn = slot0:findTF("bottomPanel/buttons_container/technologyButton")
 	slot0._playerResOb = slot0:findTF("playerRes")
 	slot0._resPanel = PlayerResource.New()
@@ -159,6 +168,11 @@ function slot0.init(slot0)
 
 	slot0._chatActBtn = slot0:findTF("ActivityBtn", slot0._chatBg)
 	slot0.hideChatFlag = PlayerPrefs.GetInt(HIDE_CHAT_FLAG)
+
+	if LOCK_HIDE_CHAT then
+		SetActive(slot0._chatActBtn, false)
+	end
+
 	slot0._bg = slot0:findTF("Sea")
 	slot0._chat.localScale = Vector3(0, 0)
 	slot0._paintingOffset = rtf(slot0._paintingTF.parent).rect.width / 2
@@ -277,8 +291,16 @@ function slot0.didEnter(slot0)
 	end, SFX_MAIN)
 
 	if not pg.SystemOpenMgr:GetInstance():isOpenSystem(slot0._player.level, "BackYardMediator") then
+		if LOCK_SECONDARY then
+			setActive(slot0:findTF("lock", slot0._haremBtn), true)
+		end
+
 		slot0._haremBtn:GetComponent(typeof(Image)).color = Color(0.3, 0.3, 0.3, 1)
 	else
+		if LOCK_SECONDARY then
+			setActive(slot0:findTF("lock", slot0._haremBtn), false)
+		end
+
 		slot0._haremBtn:GetComponent(typeof(Image)).color = Color(1, 1, 1, 1)
 	end
 

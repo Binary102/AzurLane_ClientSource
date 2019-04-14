@@ -5329,22 +5329,31 @@ pg.ship_data_group = {
 	[179] = {
 		nationality = 3,
 		hide = 0,
-		trans_skin = 0,
+		trans_skin = 302019,
 		handbook_type = 0,
 		redirect_id = 101,
 		code = 179,
 		type = 2,
 		group_type = 30201,
-		trans_type = 0,
-		trans_radar_chart = {},
-		trans_skill = {},
+		trans_type = 2,
+		trans_radar_chart = {
+			"C",
+			"B",
+			"E",
+			"B",
+			"B",
+			"C"
+		},
+		trans_skill = {
+			12040
+		},
 		description = {
 			{
-				"进行轻型、重型、特型舰建造",
+				"进行轻型舰建造",
 				{
 					"GETBOAT",
 					{
-						projectName = "heavy",
+						projectName = "light",
 						page = 1
 					}
 				},

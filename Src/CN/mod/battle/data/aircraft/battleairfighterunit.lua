@@ -163,6 +163,10 @@ function ys.Battle.BattleAirFighterUnit.GetStrikeState(slot0)
 	return slot0._strikeState
 end
 
+function ys.Battle.BattleAirFighterUnit.GetSize(slot0)
+	return slot0._scale
+end
+
 function ys.Battle.BattleAirFighterUnit.changeState(slot0, slot1)
 	if slot0._strikeState == slot1 then
 		return

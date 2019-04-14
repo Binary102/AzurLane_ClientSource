@@ -190,9 +190,9 @@ end
 
 function slot6.GetSize(slot0)
 	if slot0._currentState == slot0.STATE_CREATE then
-		return Mathf.Clamp(slot0:GetPosition().y / slot0.HEIGHT, 0.1, 1)
+		return Mathf.Clamp(slot0:GetPosition().y / slot0.HEIGHT, 0.1, slot0._scale)
 	else
-		return 1
+		return slot0._scale
 	end
 end
 
@@ -206,6 +206,7 @@ function slot6.SetTemplate(slot0, slot1)
 	slot0._weapon = slot0:CreateWeapon()
 	slot0._modelID = slot1.model_ID
 	slot0._velocity = slot0.Battle.BattleFormulas.ConvertAircraftSpeed(slot1.speed + slot0:GetAttrByName("aircraftBooster"))
+	slot0._scale = slot1.scale or 1
 end
 
 function slot6.SetWeanponPotential(slot0, slot1)

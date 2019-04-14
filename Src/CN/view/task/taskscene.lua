@@ -45,6 +45,11 @@ function slot0.didEnter(slot0)
 		slot0.uiExitAnimating:emit(slot1.ON_BACK, nil, 0.3)
 	end, SFX_CANCEL)
 	setActive(slot0:findTF("stamp"), getProxy(TaskProxy):mingshiTouchFlagEnabled())
+
+	if LOCK_CLICK_MINGSHI then
+		setActive(slot0:findTF("stamp"), false)
+	end
+
 	onButton(slot0, slot0:findTF("stamp"), function ()
 		getProxy(TaskProxy):dealMingshiTouchFlag(5)
 	end, SFX_CONFIRM)

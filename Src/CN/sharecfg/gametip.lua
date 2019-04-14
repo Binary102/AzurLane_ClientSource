@@ -4799,12 +4799,18 @@ NPC角色正式加入时，保留强化、突破状态及技能等级；
 	},
 	help_build = {
 		tip = [[
-					   <size=25>$1建造概率分布</size>
-
-							<color=#fff157>超稀有舰船</color>：$2%
+<size=19>							<color=#fff157>超稀有舰船</color>：$2%
 							 <color=#966af6>精锐舰船</color>：$3%
 							 <color=#60a9ff>稀有舰船</color>：$4%
-							 普通舰船：$5%]],
+							 普通舰船：$5%
+
+							  【限时建造】
+
+							<color=#fff157>     鲐</color>：2%<color=#A9F548>(up!)</color>
+							<color=#966af6>     鲟</color>：2.5%<color=#A9F548>(up!)</color>
+							<color=#60a9ff>     樇</color>：5%<color=#A9F548>(up!)</color>
+							<color=#60a9ff>     蓉</color>：5%<color=#A9F548>(up!)</color>
+							<color=#60a9ff>     藮</color>：5%<color=#A9F548>(up!)</color></size>]],
 		key = "help_build"
 	},
 	help_build_1 = {
@@ -6669,8 +6675,8 @@ NPC角色正式加入时，保留强化、突破状态及技能等级；
 周日：大讲堂休息，出击获取熟练度比例翻倍
 
 （浅水重炮舰参加战列舰的课程，维修舰可以参加驱逐与巡洋
-的课程，航战可以参加航母与战列舰的课程，潜艇参加驱逐的
-课程）
+的课程，航战可以参加航母与战列舰的课程，潜艇、潜母参加
+驱逐的课程）
 
 • 上课：
 大讲堂课程最大时长为12小时，下课时扣除消耗的熟练度，角

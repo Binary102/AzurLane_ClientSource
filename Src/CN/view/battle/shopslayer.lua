@@ -86,6 +86,11 @@ function slot0.didEnter(slot0)
 		end
 	end, SFX_CANCEL)
 	setActive(slot0:findTF("stamp"), getProxy(TaskProxy):mingshiTouchFlagEnabled())
+
+	if LOCK_CLICK_MINGSHI then
+		setActive(slot0:findTF("stamp"), false)
+	end
+
 	onButton(slot0, slot0:findTF("stamp"), function ()
 		getProxy(TaskProxy):dealMingshiTouchFlag(4)
 	end, SFX_CONFIRM)
@@ -207,7 +212,7 @@ function slot0.didEnter(slot0)
 			slot0.curPage = slot1.TYPE_SHOP_STREET
 		end
 	end, SFX_PANEL)
-	setActive(slot0.toggles[slot0.TYPE_SHAM_SHOP], slot4)
+	setActive(slot0.toggles[slot0.TYPE_SHAM_SHOP], not LOCK_SHAM_CHAPTER and slot0.shamShop:isOpen())
 	onToggle(slot0, slot0.toggles[slot0.TYPE_SHAM_SHOP], function (slot0)
 		if slot0 then
 			slot1, slot2 = pg.SystemOpenMgr:GetInstance():isOpenSystem(slot0.player.level, "ShamShop")

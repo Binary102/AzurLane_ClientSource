@@ -748,6 +748,11 @@ end
 
 function slot0.didEnter(slot0)
 	setActive(slot0:findTF("stamp", slot0.topPanel), getProxy(TaskProxy):mingshiTouchFlagEnabled())
+
+	if LOCK_CLICK_MINGSHI then
+		setActive(slot0:findTF("stamp", slot0.topPanel), false)
+	end
+
 	onButton(slot0, slot0:findTF("stamp", slot0.topPanel), function ()
 		getProxy(TaskProxy):dealMingshiTouchFlag(1)
 	end, SFX_CONFIRM)
@@ -1020,8 +1025,17 @@ function slot0.displayShip(slot0, slot1)
 
 	for slot16, slot17 in ipairs(slot12) do
 		setText(findTF(slot0.shipAttrs, slot17), slot18)
-		setText(findTF(slot0.shipAttrs, slot17 .. "_add"), "+" .. math.floor((slot10[slot17] + slot18) * (slot11[slot17] or 1)) - slot18)
-		setActive(findTF(slot0.shipAttrs, slot17 .. "_add"), math.floor((slot10[slot17] + slot18) * (slot11[slot17] or 1)) - slot18 ~= 0)
+
+		slot19 = findTF(slot0.shipAttrs, slot17 .. "_add")
+		slot21 = math.floor((slot10[slot17] + slot18) * (slot11[slot17] or 1)) - slot18
+
+		if LOCK_EQUIP_DEVELOPMENT then
+			setText(slot19, "+" .. slot10[slot17])
+			setActive(slot19, slot10[slot17] ~= 0)
+		else
+			setText(slot19, "+" .. slot21)
+			setActive(slot19, slot21 ~= 0)
+		end
 	end
 
 	if slot0.contextData.displayAttr then

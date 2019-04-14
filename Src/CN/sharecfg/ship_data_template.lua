@@ -35277,6 +35277,7 @@ pg.ship_data_template = {
 		buff_list_display = {
 			10590,
 			2011,
+			12040,
 			22161
 		},
 		hide_buff_list = {
@@ -35324,6 +35325,7 @@ pg.ship_data_template = {
 		buff_list_display = {
 			10590,
 			2011,
+			12040,
 			22161
 		},
 		hide_buff_list = {
@@ -35371,6 +35373,7 @@ pg.ship_data_template = {
 		buff_list_display = {
 			10590,
 			2011,
+			12040,
 			22161
 		},
 		hide_buff_list = {
@@ -35418,6 +35421,7 @@ pg.ship_data_template = {
 		buff_list_display = {
 			10590,
 			2011,
+			12040,
 			22162
 		},
 		hide_buff_list = {

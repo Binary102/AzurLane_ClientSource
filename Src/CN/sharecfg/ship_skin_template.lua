@@ -39363,6 +39363,111 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[302019] = {
+		name = "{namecode:37}.改",
+		bullet_skin_main = "",
+		ship_group = 30201,
+		illustrator2 = -1,
+		bullet_skin_secondary = "",
+		painting = "xizhang_g",
+		hand_id = 0,
+		air_bullet_skin = "",
+		shop_type_id = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		skin_type = 2,
+		id = 302019,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "xizhang_g",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		desc = "新的装备终于完成了！事不宜迟，马上来试试看实战效果如何吧，主人",
+		voice_actor = 83,
+		air_bomb_skin = "",
+		illustrator = 1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.27,
+					0.78,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.3,
+					0.79,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.04,
+					0.1,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.34,
+					0.75,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.47,
+							2.15,
+							-0.58
+						}
+					}
+				}
+			}
+		}
+	},
 	[302040] = {
 		name = "{namecode:46}",
 		bullet_skin_main = "",
@@ -46797,6 +46902,113 @@ pg.ship_skin_template = {
 						"smoke",
 						{
 							-0.38,
+							2.33,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[305112] = {
+		name = "赏樱日和 ",
+		bullet_skin_main = "",
+		ship_group = 30511,
+		illustrator2 = -1,
+		bullet_skin_secondary = "",
+		painting = "sanli_4",
+		hand_id = 0,
+		air_bullet_skin = "",
+		shop_type_id = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "113",
+		skin_type = 0,
+		id = 305112,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "sanli_4",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70171,
+		desc = "又到了樱花盛放的季节了啊，时间过得真快呢……咳咳，指挥官，一道去赏樱如何？",
+		voice_actor = 47,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand2",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.52,
+					1.16,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.48,
+					1.14,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.53,
+					1.18,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.51,
 							2.33,
 							0
 						}
@@ -67751,6 +67963,7 @@ pg.ship_skin_template = {
 		301790,
 		301800,
 		302010,
+		302019,
 		302040,
 		302050,
 		302051,
@@ -67820,6 +68033,7 @@ pg.ship_skin_template = {
 		305070,
 		305110,
 		305111,
+		305112,
 		306010,
 		306020,
 		306030,

@@ -9,7 +9,7 @@ return {
 		{
 			actor = 307061,
 			side = 2,
-			say = "说归说...但实际上要怎么唤醒{namecode:74}我们其实也一点头绪都没有呀...",
+			say = "... It's our duty and all, but finding a way to wake Nagato is easier said than done...",
 			dir = 1,
 			bgm = "nagato-map",
 			typewriter = {
@@ -25,7 +25,7 @@ return {
 			actor = 301051,
 			side = 2,
 			dir = 1,
-			say = "...发现塞壬舰队...正在从四周开始包围我们...预计12小时后接触",
+			say = "I've detected a Siren fleet. They're in the process of surrounding us... 12 minutes until contact.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -39,7 +39,7 @@ return {
 			actor = 307061,
 			side = 2,
 			dir = 1,
-			say = "啊...真是头疼哪...这样拖下去也不是办法，不然还是上去直接把她拍醒吧——",
+			say = "God dammit, not more of them... Even if they all stand still, we won't make any progress... I guess we could knock on the crystal to see if she'll wake up...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -50,7 +50,7 @@ return {
 			}
 		},
 		{
-			say = "轰——",
+			say = "KABOOOM!",
 			side = 2,
 			dir = 1,
 			soundeffect = "event:/battle/boom1",
@@ -77,7 +77,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "{namecode:75}正准备向前，一发炮弹又不偏不倚的落在了她的面前，炸出了高溅的水柱...",
+			say = "A shell splashed the water just in front of Zuikaku.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			actor = 301491,
 			side = 2,
 			dir = 1,
-			say = "别想动神子大人的一根手指",
+			say = "I won't let anyone lay a finger on her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			actor = 307061,
 			side = 2,
 			dir = 1,
-			say = "哇...人家只是开个玩笑而已啦，不要这么认真嘛...消消气消消气",
+			say = "Geez, I was just kidding... Don't get so worked up, I wasn't serious!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			withoutPainting = true,
 			dir = 1,
 			actorName = "？？？",
-			say = "哼，哪里来的一群笨蛋，居然会跟这个木头脑袋在那边浪费时间？",
+			say = "How stupid do you have to be, trying to persuade her?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +141,7 @@ return {
 			actor = 307061,
 			side = 2,
 			dir = 1,
-			say = "咦，这个声音是",
+			say = "That voice, could it be...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			actor = 305061,
 			side = 2,
 			dir = 1,
-			say = "居然想动姐姐大人的主意，真是一群不知好歹的家伙呢！",
+			say = "... Why would you be mean to my poor sister? You should know your place, idiots!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			actor = 307061,
 			side = 2,
 			dir = 1,
-			say = "这不是名震天下的BIG7，{namecode:75}大人吗！久仰久仰~",
+			say = "It's Mutsu, the Big Seven...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			actor = 305061,
 			side = 2,
 			dir = 1,
-			say = "诶？居...居然认识人家吗？.....哼哼...没想到你们还是挺识趣的嘛",
+			say = "Huh? You know about me? How?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			actor = 307061,
 			side = 2,
 			dir = 1,
-			say = "~~我们是来想办法唤醒{namecode:74}并且拯救御神木的~~所以...",
+			say = "Well, we're trying to wake up Nagato, and save the Sacred Sakura while we're at it, so we came here to...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			}
 		},
 		{
-			say = "轰——",
+			say = "BOOOM!",
 			side = 2,
 			dir = 1,
 			soundeffect = "event:/battle/boom1",
@@ -233,7 +233,7 @@ return {
 			}
 		},
 		{
-			say = "轰——",
+			say = "BAAANG!",
 			side = 2,
 			dir = 1,
 			soundeffect = "event:/battle/boom1",
@@ -260,7 +260,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "两发炮弹落在了周围，是来自塞壬的攻击——",
+			say = "The Sirens fired 2 shots at them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,7 +269,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "其中的一发炮弹打在了御神木上，巨大的冲击力折断了其中的一株粗大的树枝...",
+			say = "One of the shots hit the Sacred Sakura, causing one of its large branches to snap.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -279,7 +279,7 @@ return {
 			actor = 307051,
 			side = 2,
 			dir = 1,
-			say = "看来我们得先解决这些烦人的家伙们，再来继续话题了——",
+			say = "It's unlikely this conversation can continue until after we've dealt with the Sirens...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -293,7 +293,7 @@ return {
 			actor = 301491,
 			side = 2,
 			dir = 1,
-			say = "神子大人，这里就由我来...！",
+			say = "I will protect the shrine maiden at any cost!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -307,7 +307,7 @@ return {
 			actor = 307061,
 			side = 2,
 			dir = 1,
-			say = "哇...风头完全被这家伙给抢光了...",
+			say = "Wait, hold on! ... Dammit! She's totally stealing my spot in the limelight!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

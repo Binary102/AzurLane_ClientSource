@@ -10,7 +10,7 @@ return {
 			actor = 307061,
 			side = 2,
 			dir = 1,
-			say = "自从开战后，这片海域就再也不允许进入了，原来是被塞壬一直侵占着…这下就说得通了",
+			say = "No wonder nobody's come near this place for ages... It's because the Sirens invaded it...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -24,7 +24,7 @@ return {
 			actor = 307061,
 			side = 2,
 			dir = 1,
-			say = "不过…我们这次回来究竟是要寻找什么？",
+			say = "Shoukaku, I'm just wondering: why are we here, again?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -37,7 +37,7 @@ return {
 		{
 			actor = 307051,
 			side = 1,
-			say = "看到重樱的御神木了吗？这几年来，它正一直以飞快的速度枯萎，我们这次来，就是希望能够找到拯救它的方法",
+			say = "For the Sacred Sakura. Measurements taken since the war began show that it has started to wither. We're here to investigate why, and also we must...",
 			dir = 1,
 			paintingFadeOut = {
 				time = 0.5,
@@ -56,49 +56,7 @@ return {
 			actor = 305111,
 			side = 1,
 			dir = 1,
-			say = "新生重樱联合的组建虽然比我们想象中的来得顺利，但是…为了对抗那股强大的力量，我们还需要一个必不可少的存在..",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 307061,
-			side = 0,
-			dir = 1,
-			say = "你说的难道是…",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 305111,
-			side = 1,
-			dir = 1,
-			say = "没错，那孩子一直都在这里，在重樱的中心",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 305111,
-			side = 1,
-			dir = 1,
-			say = "——我能感觉得到她，她一直都在这里默默的接受着内心的谴责…我们..必须解救她",
+			say = "We must rescue someone important. The new Combined Fleet is shaping up better than I thought, but we still are in need of her strength.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,7 +70,49 @@ return {
 			actor = 307061,
 			side = 2,
 			dir = 1,
-			say = "那还等什么，赶紧的，让我们把这些碍事的家伙们全部干掉先！",
+			say = "By \"someone important,\" surely you don't mean...?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 305111,
+			side = 1,
+			dir = 1,
+			say = "I do. We must rescue Nagato, who has remained by the Sacred Sakura all this time.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 305111,
+			side = 1,
+			dir = 1,
+			say = "She wasn't able to prevent the war, and she has been blaming herself for it...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 307061,
+			side = 2,
+			dir = 1,
+			say = "We'd better hurry, then! But first, we'll have to take care of these guys!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -128,7 +128,7 @@ return {
 			blackBg = true,
 			actor = 307021,
 			stopbgm = true,
-			say = "新生重樱联合那班家伙们冲着御神木去了——这样下去，她们也许会相见的",
+			say = "They're making their way toward the Sacred Sakura. Shouldn't we stop them? Before long, they'll discover Nagato.",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -158,7 +158,7 @@ return {
 		{
 			actor = 307011,
 			side = 0,
-			say = "碍事的家伙总是清理不完，真是让人头疼…",
+			say = "Those vermin just won't die no matter how much pesticide you use on them... How utterly annoying.",
 			dir = 1,
 			blackBg = true,
 			paintingFadeOut = {
@@ -179,7 +179,7 @@ return {
 			side = 0,
 			dir = 1,
 			blackBg = true,
-			say = "不过，那孩子充其量就是一个不谙世事的傀儡罢了，就算她们现在找到了她也无济于事",
+			say = "That said... That girl is just one single battleship. Even if they discover her, she won't be of any use to them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			side = 0,
 			dir = 1,
 			blackBg = true,
-			say = "自从她走出了那步棋之后，就已经没有利用的价值了呵呵呵",
+			say = "Ever since she was unable to stop the war from breaking out, she's been... Well, you know.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +209,7 @@ return {
 			side = 1,
 			dir = 1,
 			blackBg = true,
-			say = "……",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			side = 0,
 			dir = 1,
 			blackBg = true,
-			say = "又有谁会想到，所谓的信仰、所谓的牺牲，都是为了真神降临所铺垫的序曲罢了",
+			say = "The people's faith and her sacrifice is all just a part of the plan.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +239,7 @@ return {
 			side = 0,
 			dir = 1,
 			blackBg = true,
-			say = "我们只需要耐心的等待…对~等待那位大人的降临，将这一切终结~呵呵呵呵…",
+			say = "All we can do now is wait... We must wait until the one who can oppose the Sirens and change fate itself has arrived...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

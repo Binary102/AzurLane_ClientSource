@@ -4,7 +4,7 @@ return {
 		{
 			action = {
 				say = {
-					text = "潜艇战斗相关的内容可以点击帮助按钮查看更详细的内容",
+					text = "You can tap the Help button for info on Anti-Sub combat!",
 					style = {
 						posY = -110,
 						mode = 1,

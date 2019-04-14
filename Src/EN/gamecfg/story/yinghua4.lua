@@ -16,10 +16,10 @@ return {
 				}
 			},
 			signDate = {
-				"——2年前，海域坐标：27.328699，-159.870474",
+				"The night of the war's outbreak - coordinates: 27.328699，-159.870474",
 				0.2,
 				{
-					960,
+					684,
 					-685
 				}
 			}
@@ -29,7 +29,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "真的…无可挽回了吗？",
+			say = "Are you saying that, no matter what, it's inevitable?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,7 +44,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "这一切，都是为了重樱的未来，现在，您只需要一声令下，剩下的就交给我们吧",
+			say = "It is all for the future of the Sakura Empire. All you need do is give us the order, and we shall do it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "可是..战争是会伴随着巨大的牺牲的…不论是他们，还是…",
+			say = "But... If a war breaks out, many will die... Both on their side, and ours...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "所谓的牺牲，不过是灵魂的循环，正是这无数的消逝与新生，推动着世界与历史的前进，相信您也明白这一点",
+			say = "The force known as change requires tribute in the form of souls. And it's thanks to change that the world can move forward. I'm sure you know this fact very well.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "放心吧，敌人不可能预想到我们有如此精锐的航空部队，胜利必将属于重樱",
+			say = "Please, do not worry. The enemy still has no idea that our troops are coming. I can guarantee the attack will be successful.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "……",
+			say = "I see...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "下命令吧，{namecode:74}大人，我等一航战，随时准备出击",
+			say = "Give us the order, Nagato. The elite of the 1st Carrier Division are always ready to sortie.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 		},
 		{
 			blackBg = true,
-			say = "少女在迄今为止的人生中，见过许多充满期待的眼神，或是希望从所谓神明的恩泽中获取些什么，或是对于未来生活的期待和向往",
+			say = "She has seen into the eyes of many. She has seen the anticipation in the eyes of faithful believers, and she has seen the gleam that signifies hope for the future.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 		},
 		{
 			blackBg = true,
-			say = "但是，这次她所面对的，是更加令人难以忽视的眼神——眼前这批平时她最信任的重樱的精锐空母们，正用炽热的眼神看着她，期待着她从嘴里说出的那几个字…",
+			say = "However, that is not what she's seeing in these people's eyes. Their eyes are filled not with hope, but the desire to receive her authorization to start a war.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 		},
 		{
 			blackBg = true,
-			say = "她犹豫，但是没有后退的余地，这一切，都是上层的大人物们早已安排好的剧本…",
+			say = "She may hesitate, but ultimately she has no choice. The people in charge have already decided what course the future will take.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 		},
 		{
 			blackBg = true,
-			say = "她握紧了自己的拳头，深吸一口气，以她最擅长的，充满威严感的语气说道",
+			say = "She knew that her objections would be futile. She clenched her fist, took a deep breath, and made a declaration in the dignified voice she had now grown accustomed to using.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,22 +166,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "吾乃{namecode:74}，重樱的守护者、联合舰队旗舰——{namecode:74}",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 305051,
-			side = 2,
-			dir = 1,
-			blackBg = true,
-			say = "在此，吾以联合舰队旗舰身份向全员下令",
+			say = "I am Nagato. Protector of the Sakura Empire and flagship of her Combined Fleet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +181,22 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "——“攀登新高峰1208”",
+			say = "I hereby issue the following order to all personnel of the Sakura Empire's Combined Fleet:",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 305051,
+			side = 2,
+			dir = 1,
+			blackBg = true,
+			say = "Commence the attack... on Azur Lane!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

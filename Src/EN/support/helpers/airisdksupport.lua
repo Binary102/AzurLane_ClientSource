@@ -94,6 +94,8 @@ end
 
 function VerificationCodeReq(slot0)
 	AiriSdkMgr.inst:VerificationCodeReq(slot0)
+
+	AIRI_LAST_GEN_TIME = Time.realtimeSinceStartup
 end
 
 function OpenYostarHelp()
@@ -196,13 +198,11 @@ function AiriResultCodeHandler(slot0)
 
 	if slot0.ToInt() == 0 then
 		return true
-	elseif slot1 == 100200 then
-		pg.m02:sendNotification(GAME.SERVER_USER_LOGIN_INVALIDCERT)
 	else
 		print("SDK Error Code:" .. slot1)
 
-		if string.find(i18n("airi_error_code_" .. slot1), "UndefinedLanguage") then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("airi_error_code_other") .. slot2)
+		if string.find(i18n("new_airi_error_code_" .. slot1), "UndefinedLanguage") then
+			pg.TipsMgr:GetInstance():ShowTips(i18n("new_airi_error_code_other") .. slot2)
 		else
 			pg.TipsMgr:GetInstance():ShowTips(slot3 .. slot2)
 		end
@@ -213,6 +213,17 @@ end
 
 function getDeviceId()
 	return AiriSdkMgr.AiriSDKInst:GetDeviceID()
+end
+
+AIRI_LAST_GEN_TIME = 0
+AIRI_GEN_LIMIT_TIME = 30
+
+function GetAiriGenCodeTimeRemain()
+	if AIRI_GEN_LIMIT_TIME < Time.realtimeSinceStartup - AIRI_LAST_GEN_TIME or AIRI_LAST_GEN_TIME == 0 then
+		return 0
+	else
+		return math.floor(AIRI_GEN_LIMIT_TIME - slot0)
+	end
 end
 
 return

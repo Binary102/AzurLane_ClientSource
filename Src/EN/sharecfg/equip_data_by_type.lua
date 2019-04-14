@@ -100,10 +100,10 @@ pg.equip_data_by_type = {
 	},
 	{
 		distory_resource_gold_ratio = 2,
-		type_name = "反潜机",
+		type_name = "Anti-submarine aircraft",
 		equip_skin = 1,
 		equip_type = 15,
-		type_name2 = "反潜机"
+		type_name2 = "Anti-submarine aircraft"
 	},
 	all = {
 		1,

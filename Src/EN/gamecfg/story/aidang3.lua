@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"和姐姐的一日约会\n\n<size=30>三 购物事件</size>",
+					"A Date With Atago\n\n<size=30>Chapter 3: The Shopping Situation</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "港区附近的街道",
+			say = "Outside of Port - Nearby Street",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -46,13 +46,12 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			actor = 303121,
 			side = 2,
 			bgName = "bg_story_school",
+			nameColor = "#a9f548",
 			dir = 1,
-			actor = 303121,
-			actorName = "{namecode:67}",
-			say = "感觉好久没来买东西了呢……指挥官你还好吧？还拿得动吗？",
+			say = "It seems like it's been forever since we've been able to shop like this. Commander, how are you doing back there? Can you carry any more?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,13 +62,12 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			actor = 303121,
 			side = 2,
 			bgName = "bg_story_school",
+			nameColor = "#a9f548",
 			dir = 1,
-			actor = 303121,
-			actorName = "{namecode:67}",
-			say = "呵呵，抱歉啊，这种时候要是我拿太多的话，会被人用奇怪的眼光盯着的~",
+			say = "*giggles* Sorry~ I don't mind carrying stuff, but you know, people will give us weird looks if I'm hauling all those bags around.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,13 +78,12 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			actor = 303121,
 			side = 2,
 			bgName = "bg_story_school",
+			nameColor = "#a9f548",
 			dir = 1,
-			actor = 303121,
-			actorName = "{namecode:67}",
-			say = "不过话说回来……",
+			say = "Having that said though...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,13 +94,12 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
-			side = 2,
-			bgName = "bg_story_school",
-			dir = 1,
 			actor = 900088,
-			actorName = "{namecode:69}",
-			say = "那是……{namecode:67}前辈？前辈——！",
+			side = 2,
+			bgName = "bg_story_school",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "Over there... is that Atago? Atagoooo!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,183 +110,172 @@ return {
 			}
 		},
 		{
+			actor = 303131,
+			side = 2,
+			bgName = "bg_story_school",
 			nameColor = "#a9f548",
+			dir = 1,
+			say = "Ugh...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 303121,
+			side = 2,
+			bgName = "bg_story_school",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "Oh my, if it isn't Choukai and Maya. Are you two out shopping as well?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 900088,
+			side = 2,
+			bgName = "bg_story_school",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "Yes, we are! We're here to pick out some clothes! Ah, Commander, you're working hard today as well!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 900088,
+			side = 2,
+			bgName = "bg_story_school",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "By the way, Atago, I heard that a new buffet opened around here not too long ago. After we're all done, we should go check it out together!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 900088,
+			side = 2,
+			bgName = "bg_story_school",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "In any case, we'll be headed this way... Jeez, Maya, don't just sit there, we've got to head to the next store!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 303131,
+			side = 2,
+			bgName = "bg_story_school",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "It's not like I even want to buy anything... OW! Don't pull on me! I'm coming, I'm coming... for god's sake...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 900088,
+			side = 2,
+			bgName = "bg_story_school",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "Sorry for making a scene in front of you~",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 303121,
+			side = 2,
+			bgName = "bg_story_school",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "It's rare to see Maya this grumpy. Is something the matter?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 900088,
+			side = 2,
+			bgName = "bg_story_school",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "Um, well, when we were at the lingerie shop, there was only one vacant changing room so we had to go in together... The rest is history, I suppose...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 303121,
+			side = 2,
+			bgName = "bg_story_school",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "Um... Maya? I know it might be hard for you right now, but your body can always change, you know?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
 			actor = 303131,
-			actorName = "{namecode:68}",
-			say = "哇……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
 			nameColor = "#a9f548",
-			side = 2,
-			bgName = "bg_story_school",
-			dir = 1,
-			actor = 303121,
-			actorName = "{namecode:67}",
-			say = "啊啦，这不是{namecode:69}和{namecode:68}嘛。你们也来买东西？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			nameColor = "#a9f548",
-			side = 2,
-			bgName = "bg_story_school",
-			dir = 1,
-			actor = 900088,
-			actorName = "{namecode:69}",
-			say = "是的！今天我们来买新衣服！啊，指挥官你也辛苦了！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			nameColor = "#a9f548",
-			side = 2,
-			bgName = "bg_story_school",
-			dir = 1,
-			actor = 900088,
-			actorName = "{namecode:69}",
-			say = "啊，{namecode:67}前辈！听说这附近新开了一家自助餐厅诶！要不等会儿你和指挥官一起去看看吧！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			nameColor = "#a9f548",
-			side = 2,
-			bgName = "bg_story_school",
-			dir = 1,
-			actor = 900088,
-			actorName = "{namecode:69}",
-			say = "那我们就先走了……{namecode:68}也别杵着了，快去看下一家！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			nameColor = "#a9f548",
-			side = 2,
-			bgName = "bg_story_school",
-			dir = 1,
-			actor = 303131,
-			actorName = "{namecode:68}",
-			say = "我又不是非要买东西……好了别拉拉扯扯了！我去总行了吧！去就去！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			nameColor = "#a9f548",
-			side = 2,
-			bgName = "bg_story_school",
-			dir = 1,
-			actor = 900088,
-			actorName = "{namecode:69}",
-			say = "真不好意思……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			nameColor = "#a9f548",
-			side = 2,
-			bgName = "bg_story_school",
-			dir = 1,
-			actor = 303121,
-			actorName = "{namecode:67}",
-			say = "{namecode:68}这么不高兴倒是挺少见的，怎么了吗？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			nameColor = "#a9f548",
-			side = 2,
-			bgName = "bg_story_school",
-			dir = 1,
-			actor = 900088,
-			actorName = "{namecode:69}",
-			say = "呃，就是刚才我们试内衣的时候，试衣间只剩一间空着了，就两个人一起进去了……结果出来以后就一直这样了……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			nameColor = "#a9f548",
-			side = 2,
-			bgName = "bg_story_school",
-			dir = 1,
-			actor = 303121,
-			actorName = "{namecode:67}",
-			say = "这样啊……{namecode:68}啊，像我们这样的，怎么说呢，虽然是不太发育……但体型还是有可能会变化的哦？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			nameColor = "#a9f548",
-			side = 2,
-			bgName = "bg_story_school",
-			dir = 1,
-			actor = 303131,
-			actorName = "{namecode:68}",
-			say = "话虽这么说……我也不知道为什么自己会是这样的……",
+			say = "That may be the case, but... I don't know why I'm like this either...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,19 +286,18 @@ return {
 			},
 			options = {
 				{
-					content = "给{namecode:68}圆场",
+					content = "Try to cheer Maya up",
 					flag = 1
 				}
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			actor = 303131,
 			side = 2,
 			bgName = "bg_story_school",
+			nameColor = "#a9f548",
 			dir = 1,
-			actor = 303131,
-			actorName = "{namecode:68}",
-			say = "就算你这么说……唉……{namecode:67}前辈一开始就很大所以完全不用操心啊……",
+			say = "Even if you say that... *sigh* Atago, you probably entered this world with huge ol' knockers on you so that's easy for you to say...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,30 +308,28 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
-			side = 2,
-			bgName = "bg_story_school",
-			dir = 1,
 			actor = 303121,
-			actorName = "{namecode:67}",
-			say = "（惊）你刚刚说什么？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
+			side = 2,
+			bgName = "bg_story_school",
 			nameColor = "#a9f548",
+			dir = 1,
+			say = "The hell did you just say...?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 303131,
 			side = 2,
 			bgName = "bg_story_school",
+			nameColor = "#a9f548",
 			dir = 1,
-			actor = 303131,
-			actorName = "{namecode:68}",
-			say = "什、什么也没说！{namecode:69}我们走！",
+			say = "Um, n-nothing at all! C'mon, Choukai, let's bounce!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -361,7 +343,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "两人迅速地离开了。",
+			say = "The two of them hastily beat their retreat.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

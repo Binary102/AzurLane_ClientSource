@@ -105,9 +105,34 @@ function slot0.SetStageID(slot0, slot1)
 		})
 	end
 
-	slot4(slot2.objective_1, findTF(slot0._goals, "goal_tpl"))
-	slot4(slot2.objective_2, findTF(slot0._goals, "goal_sink"))
-	slot4(slot2.objective_3, findTF(slot0._goals, "goal_time"))
+	function slot4(slot0, slot1)
+		if type(slot0) == "table" then
+			setActive(slot1, true)
+			setWidgetText(slot1, i18n(slot0.ObjectiveList[slot0[1]], slot0[2]))
+		else
+			setActive(slot1, false)
+		end
+	end
+
+	slot5 = {
+		findTF(slot0._goals, "goal_tpl"),
+		findTF(slot0._goals, "goal_sink"),
+		findTF(slot0._goals, "goal_time")
+	}
+	slot7 = 1
+
+	for slot11, slot12 in ipairs(slot6) do
+		if type(slot12) ~= "string" then
+			slot4(slot12, slot5[slot7])
+
+			slot7 = slot7 + 1
+		end
+	end
+
+	for slot11 = slot7, #slot5, 1 do
+		slot4("", slot5[slot11])
+	end
+
 	setActive(slot0.guideDesc, slot2.guide_desc and #slot2.guide_desc > 0)
 
 	if slot2.guide_desc and #slot2.guide_desc > 0 then

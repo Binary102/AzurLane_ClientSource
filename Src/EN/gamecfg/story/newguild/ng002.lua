@@ -12,7 +12,7 @@ return {
 		{
 			action = {
 				say = {
-					text = "指挥官，军部为港区派遣了能够在水下作战的舰娘协助我们，快去迎接一下新的伙伴吧",
+					text = "Looks like our port has Submarines too, now!",
 					style = {
 						posY = -110,
 						mode = 1,
@@ -81,7 +81,7 @@ return {
 		{
 			action = {
 				say = {
-					text = "欢迎港区的第一个潜艇！给我们的新伙伴编队吧，指挥官！",
+					text = "This is our first Submarine! Let's start assembling a Submarine Fleet right away!",
 					style = {
 						posY = -110,
 						mode = 1,
@@ -140,7 +140,7 @@ return {
 		{
 			action = {
 				say = {
-					text = "这样我们的第一支潜艇舰队就诞生了！",
+					text = "Now we've created our first Submarine Fleet!",
 					style = {
 						posY = -110,
 						mode = 1,
@@ -154,7 +154,7 @@ return {
 		{
 			action = {
 				say = {
-					text = "不过，为了应对敌方也有可能出现潜艇的情况，请指挥官为舰娘配备反潜设备",
+					text = "Be prepared to face enemy Submarines, and don't forget to equip Anti-Sub gear!",
 					style = {
 						posY = -110,
 						mode = 1,
@@ -193,7 +193,7 @@ return {
 		{
 			action = {
 				say = {
-					text = "反潜设备的相关内容可以点击帮助按钮查看详细内容哦",
+					text = "You can tap the Help button for more details on Anti-Sub gear!",
 					style = {
 						posY = -110,
 						mode = 1,

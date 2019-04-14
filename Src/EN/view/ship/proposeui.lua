@@ -125,39 +125,36 @@ function slot0.didEnter(slot0)
 			slot0.shipNameTF = slot0:findTF("title2/Text", slot0.window)
 			slot0.campTF = slot0:findTF("Camp", slot0.window)
 			slot0.doneTF = slot0:findTF("done", slot0.window)
-			slot0.CampSprite = slot0:findTF("CampSprite", slot0.window)
 
 			setActive(slot0.window, true)
 			setText(slot0.nameTF, slot0.player.name)
 			setText(slot0.shipNameTF, slot0.shipVO:getName())
 
-			if slot0.CampSprite then
-				if not getImageSprite(slot0:findTF(Nation.Nation2Print(slot2), slot0.CampSprite)) then
-					warning("找不到印花, shipConfigId: " .. slot0.shipVO.configId)
-					setActive(slot0.campTF, false)
-				else
-					setImageSprite(slot0.campTF, slot1, false)
-					setActive(slot0.campTF, true)
-				end
+			if not LoadSprite("prints/" .. nation2print(slot2) .. "_1") then
+				warning("找不到印花, shipConfigId: " .. slot0.shipVO.configId)
+				setActive(slot0.campTF, false)
+			else
+				setImageSprite(slot0.campTF, slot1, false)
+				setActive(slot0.campTF, true)
 			end
 
-			slot6, slot2, slot9 = slot0.shipVO:getIntimacyDetail()
+			slot7, slot3, slot10 = slot0.shipVO:getIntimacyDetail()
 
-			setImageSprite(slot0.intimacyTF, slot4, true)
+			setImageSprite(slot0.intimacyTF, slot5, true)
 			setActive(slot0.intimacyTF, true)
-			setText(slot0.intimacyValueTF, i18n("propose_intimacy_tip", slot3))
+			setText(slot0.intimacyValueTF, i18n("propose_intimacy_tip", slot4))
 			setActive(slot0.button, not slot0.shipVO.propose)
-			setActive(slot0.intimacyAchieved, slot0.shipVO.propose or slot3 >= 100)
-			setActive(slot0.intimacyNoAchieved, slot3 < 100 and not slot0.shipVO.propose)
+			setActive(slot0.intimacyAchieved, slot0.shipVO.propose or slot4 >= 100)
+			setActive(slot0.intimacyNoAchieved, slot4 < 100 and not slot0.shipVO.propose)
 
-			slot6 = slot0.bagProxy:getItemCountById(ITEM_ID_FOR_PROPOSE)
+			slot7 = slot0.bagProxy:getItemCountById(ITEM_ID_FOR_PROPOSE)
 
-			setActive(slot0.ringAchieved, slot0.shipVO.propose or slot6 > 0)
-			setActive(slot0.ringNoAchieved, slot6 <= 0 and not slot0.shipVO.propose)
+			setActive(slot0.ringAchieved, slot0.shipVO.propose or slot7 > 0)
+			setActive(slot0.ringNoAchieved, slot7 <= 0 and not slot0.shipVO.propose)
 			setActive(slot0.doneTF, slot0.shipVO.propose)
 
-			slot0.button:GetComponent(typeof(Button)).interactable = slot6 > 0 and not slot0.shipVO.propose and slot2 <= slot3
-			slot7, slot8 = slot0.shipVO:getInitmacyInfo()
+			slot0.button:GetComponent(typeof(Button)).interactable = slot7 > 0 and not slot0.shipVO.propose and slot3 <= slot4
+			slot8, slot9 = slot0.shipVO:getInitmacyInfo()
 
 			if slot0.shipVO.propose then
 				if slot0.intimacyDescPic then
@@ -180,11 +177,11 @@ function slot0.didEnter(slot0)
 
 				if slot0.intimacyDesc then
 					setActive(slot0.intimacyDesc, true)
-					setText(slot0.intimacyDesc, i18n(slot8, slot0.shipVO.name))
+					setText(slot0.intimacyDesc, i18n(slot9, slot0.shipVO.name))
 				end
 			end
 
-			setText(slot0.intimacyBuffDesc, "*" .. i18n(slot8 .. "_buff"))
+			setText(slot0.intimacyBuffDesc, "*" .. i18n(slot9 .. "_buff"))
 			slot0:loadChar()
 			pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 			onButton(slot0, slot0.button, function ()
@@ -526,12 +523,12 @@ function slot0.showProposePanel(slot0)
 			end
 
 			slot0.handId = pg.ship_skin_template[slot1].hand_id
-			slot2 = pg.TimeMgr.GetInstance():ServerTimeDesc("%Y%m%d")
+			slot2 = pg.TimeMgr.GetInstance():GetServerTime()
 
-			if SPECIAL_PROPOSE and SPECIAL_PROPOSE[1] == slot2 then
-				for slot6, slot7 in ipairs(SPECIAL_PROPOSE[2]) do
-					if slot7[1] == slot1 then
-						slot0.handId = slot7[2]
+			if SPECIAL_PROPOSE and pg.TimeMgr.GetInstance():ParseTime(SPECIAL_PROPOSE[1]) <= slot2 and slot2 < slot3 + 86400 then
+				for slot7, slot8 in ipairs(SPECIAL_PROPOSE[2]) do
+					if slot8[1] == slot1 then
+						slot0.handId = slot8[2]
 					end
 				end
 			end

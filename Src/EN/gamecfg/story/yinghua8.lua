@@ -10,7 +10,7 @@ return {
 			actor = 301491,
 			side = 2,
 			dir = 0,
-			say = "恩，不愧是传说中的三大武勋舰，实力果然不同凡响",
+			say = "You really are as strong as they say. I'm impressed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -24,7 +24,7 @@ return {
 			actor = 307061,
 			side = 2,
 			dir = 0,
-			say = "哈？原来你早就认识我们的嘛",
+			say = "Come on, we're allies! We didn't have to fight in the first place...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -38,7 +38,7 @@ return {
 			actor = 301491,
 			side = 2,
 			dir = 0,
-			say = "对的，只不过机会难得，想试试传说中的武勋舰的实力而已",
+			say = "Sorry, I was overcome by my soldierly instinct to fight a worthy opponent.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			actor = 307061,
 			side = 2,
 			dir = 0,
-			say = "那么，按照之前说好的…能带我们去见她了吗？",
+			say = "Yeah, sure... So will you lead us to her, as you promised?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,7 +66,7 @@ return {
 			actor = 301491,
 			side = 2,
 			dir = 0,
-			say = "如果是你们的话，或许…真的能拯救她吧……",
+			say = "I am true to my word. I know I can entrust Nagato to you people.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			}
 		},
 		{
-			say = "{namecode:158}让出了自己身后的航路，也正是通往御神木的根源处的结界——",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 		{
 			bgName = "bg_story_nagato3",
 			stopbgm = true,
-			say = "无数的神柱和绳结围绕在御神木巨大的根基周围，水面上层叠的符文结界散发着淡淡的微光",
+			say = "At the base of the Sacred Sakura, encircled by countless pillars and holy ropes to ward off evil spirits, sat a large, translucent crystal.",
 			flashout = {
 				dur = 1,
 				black = false,
@@ -111,7 +111,7 @@ return {
 		},
 		{
 			bgName = "bg_story_nagato3",
-			say = "在这之中的是，一个沉睡着的…娇小的躯体…",
+			say = "Sealed inside it was Nagato, shrine maiden of the Sakura Empire and flagship of its fleet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 		},
 		{
 			bgName = "bg_story_nagato3",
-			say = "虽然紧闭着双眼，但是从时而禁绷的表情和额头的汗水来看…她似乎正做着恐怖的噩梦",
+			say = "She wore a pained expression, as though she was having a nightmare.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nagato3",
 			dir = 0,
-			say = "两年了，她一直在梦里和消散的灵魂进行沟通…",
+			say = "For years, she's been watching over the Spirits, or what the Sirens called \"quantum data.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nagato3",
 			dir = 0,
-			say = "她本应如同初绽的樱花般纯洁无暇…但却被人间的美丑善恶所熏染",
+			say = "She seems to view it as some sort of atonement, but in reality, it's not. She was just deceived by a small group of people.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nagato3",
 			dir = 0,
-			say = "这本不应是她所该承受的痛苦，然而…我却只能在一旁旁默默的守护她不被塞壬骚扰，除此之外再无法做什么",
+			say = "And all I can do is watch over her and keep her safe from the Sirens.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,7 +175,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nagato3",
 			dir = 0,
-			say = "所以，希望你们的到来能够改变现状，能够拯救她的灵魂",
+			say = "You are the only ones who can save her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			bgName = "bg_story_nagato3",
 			dir = 0,
 			blackBg = true,
-			say = "这正是我们此行的目的，你做得已经很好了！剩下的——就交给我们吧！",
+			say = "That is our goal, too. Kawakaze, you have done well. We shall take care of the rest!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

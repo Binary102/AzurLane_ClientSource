@@ -23,6 +23,7 @@ slot4 = {
 	"index_shipType_zhanLie",
 	"index_shipType_hangMu",
 	"index_shipType_weiXiu",
+	"index_shipType_qianTing",
 	"index_other"
 }
 slot5 = {
@@ -51,7 +52,8 @@ slot7 = {
 	i18n("word_attr_cannon"),
 	i18n("word_attr_torpedo"),
 	i18n("word_attr_air"),
-	i18n("word_attr_antiaircraft")
+	i18n("word_attr_antiaircraft"),
+	i18n("word_attr_antisub")
 }
 slot8 = {
 	"sort_rarity",
@@ -62,7 +64,8 @@ slot8 = {
 	"sort_attr_cannon",
 	"sort_attr_torpedo",
 	"sort_attr_air",
-	"sort_attr_antiaircraft"
+	"sort_attr_antiaircraft",
+	"sort_attr_antisub"
 }
 slot9 = {
 	1,

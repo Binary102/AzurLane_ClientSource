@@ -808,7 +808,7 @@ function slot0.showPainting(slot0)
 		slot1, slot2 = Ship.getWords(slot0.contextData.oldMainShips[math.random(#slot0.contextData.oldMainShips)].skinId, "lose")
 	end
 
-	setText(slot0._chat:Find("Text"), slot1)
+	setTextEN(slot0._chat:Find("Text"), slot1)
 
 	if CHAT_POP_STR_LEN < #slot0._chat:Find("Text"):GetComponent(typeof(Text)).text then
 		slot3.alignment = TextAnchor.MiddleLeft

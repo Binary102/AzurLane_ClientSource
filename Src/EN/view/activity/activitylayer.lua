@@ -1313,12 +1313,6 @@ function slot5(slot0)
 	slot5 = slot1
 	slot3 = slot3(slot4, slot5)
 	slot2 = slot2[slot3]
-	slot3 = setActive
-	slot4 = slot2
-	slot5 = true
-
-	slot3(slot4, slot5)
-
 	slot3 = slot0.pagesInit
 	slot4 = slot2.name
 	slot3 = slot3[slot4]
@@ -1331,91 +1325,225 @@ function slot5(slot0)
 		slot7 = slot2
 		slot4 = slot4(slot5, slot6, slot7)
 		slot3.bg = slot4
+		slot4 = onButton
 		slot5 = slot0
-		slot4 = slot0.findTF
-		slot6 = "items"
-		slot7 = slot2
-		slot4 = slot4(slot5, slot6, slot7)
-		slot3.items = slot4
+		slot7 = slot0
+		slot6 = slot0.findTF
+		slot8 = "build"
+		slot9 = slot2
+		slot6 = slot6(slot7, slot8, slot9)
+
+		function slot7()
+			slot0 = slot0
+			slot1 = slot0
+			slot0 = slot0.emit
+			slot2 = ActivityMediator
+			slot2 = slot2.EVENT_GO_SCENE
+			slot3 = SCENE
+			slot3 = slot3.GETBOAT
+			slot4 = {
+				projectName = "heavy"
+			}
+
+			slot0(slot1, slot2, slot3, slot4)
+		end
+
+		slot8 = SFX_PANEL
+
+		slot4(slot5, slot6, slot7, slot8)
+
+		slot4 = onButton
 		slot5 = slot0
-		slot4 = slot0.findTF
-		slot6 = "days/labelSignedDay"
-		slot7 = slot2
-		slot4 = slot4(slot5, slot6, slot7)
-		slot3.labelDay = slot4
+		slot7 = slot0
+		slot6 = slot0.findTF
+		slot8 = "task"
+		slot9 = slot2
+		slot6 = slot6(slot7, slot8, slot9)
+
+		function slot7()
+			slot0 = slot0
+			slot1 = slot0
+			slot0 = slot0.emit
+			slot2 = ActivityMediator
+			slot2 = slot2.EVENT_GO_SCENE
+			slot3 = SCENE
+			slot3 = slot3.NAVALACADEMYSCENE
+
+			slot0(slot1, slot2, slot3)
+		end
+
+		slot8 = SFX_PANEL
+
+		slot4(slot5, slot6, slot7, slot8)
+
 		slot4 = LoadImageSpriteAsync
-		slot5 = "clutter/changmen_8days"
+		slot5 = "clutter/sanli_main_bg"
 		slot6 = slot3.bg
 
 		slot4(slot5, slot6)
 
-		slot4 = pg
-		slot4 = slot4.activity_7_day_sign
+		slot4 = slot0.pagesInit
+		slot5 = slot2.name
+		slot4[slot5] = slot3
+	end
+end
+
+slot0.flush_sanli_main = slot5
+
+function slot5(slot0)
+	slot1 = slot0.pages
+	slot2 = slot0
+	slot3 = ActivityConst
+	slot3 = slot3.ACTIVITY_TYPE_7DAYSLOGIN
+	slot2 = slot2[slot3]
+	slot1 = slot1[slot2]
+	slot2 = slot0.pagesInit
+	slot3 = slot1.name
+	slot2 = slot2[slot3]
+
+	if slot2 then
+		slot3 = clearImageSprite
+		slot4 = slot2.bg
+
+		slot3(slot4)
+	end
+end
+
+slot0.clear_sanli_main = slot5
+
+function slot5(slot0)
+	slot1 = slot0.activity
+	slot2 = slot0.pages
+	slot4 = slot0
+	slot3 = slot0.activity2Page
+	slot5 = slot1
+	slot3 = slot3(slot4, slot5)
+	slot2 = slot2[slot3]
+	slot3 = setActive
+	slot4 = slot2
+	slot5 = true
+
+	slot3(slot4, slot5)
+
+	slot3 = pg
+	slot3 = slot3.activity_7_day_sign
+	slot5 = slot1
+	slot4 = slot1.getConfig
+	slot6 = "config_id"
+	slot4 = slot4(slot5, slot6)
+	slot3 = slot3[slot4]
+	slot4 = slot0.pagesInit
+	slot5 = slot2.name
+	slot4 = slot4[slot5]
+
+	if not slot4 then
+		slot4 = {}
+		slot6 = slot0
+		slot5 = slot0.findTF
+		slot7 = "AD"
+		slot8 = slot2
+		slot5 = slot5(slot6, slot7, slot8)
+		slot4.bg = slot5
+		slot6 = slot0
+		slot5 = slot0.findTF
+		slot7 = "items"
+		slot8 = slot2
+		slot5 = slot5(slot6, slot7, slot8)
+		slot4.items = slot5
 		slot6 = slot1
 		slot5 = slot1.getConfig
-		slot7 = "config_id"
+		slot7 = "bg"
 		slot5 = slot5(slot6, slot7)
-		slot4 = slot4[slot5]
-		slot5 = 1
-		slot6 = slot3.items
-		slot6 = slot6.childCount
-		slot7 = 1
+		slot6 = LoadImageSpriteAsync
+		slot7 = slot5
+		slot8 = slot4.bg
 
-		for slot8 = slot5, slot6, slot7 do
-			slot9 = slot3.items
-			slot10 = slot9
-			slot9 = slot9.Find
-			slot11 = "item"
-			slot12 = slot8
-			slot11 = slot11 .. slot12
-			slot9 = slot9(slot10, slot11)
-			slot10 = slot4.front_drops
-			slot10 = slot10[slot8]
-			slot11 = {}
-			slot12 = slot10[1]
-			slot11.type = slot12
-			slot12 = slot10[2]
-			slot11.id = slot12
-			slot12 = slot10[3]
-			slot11.count = slot12
-			slot12 = onButton
-			slot13 = slot0
-			slot14 = slot9
+		slot6(slot7, slot8)
 
-			function slot15()
-				slot0 = slot0
-				slot1 = slot0
-				slot0 = slot0.emit
-				slot2 = slot1
-				slot2 = slot2.ON_DROP
-				slot3 = slot2
+		slot6 = UIItemList
+		slot6 = slot6.New
+		slot7 = slot4.items
+		slot8 = slot4.items
+		slot9 = slot8
+		slot8 = slot8.Find
+		slot10 = "item"
+		slot6 = slot6(slot7, slot8(slot9, slot10))
+		slot4.uilist = slot6
+		slot6 = slot4.uilist
+		slot7 = slot6
+		slot6 = slot6.make
 
-				slot0(slot1, slot2, slot3)
+		function slot8(slot0, slot1, slot2)
+			slot3 = UIItemList
+			slot3 = slot3.EventUpdate
+
+			if slot0 == slot3 then
+				slot3 = slot1 + 1
+				slot4 = slot0
+				slot4 = slot4.front_drops
+				slot4 = slot4[slot3]
+				slot5 = {}
+				slot6 = slot4[1]
+				slot5.type = slot6
+				slot6 = slot4[2]
+				slot5.id = slot6
+				slot6 = slot4[3]
+				slot5.count = slot6
+				slot6 = onButton
+				slot7 = slot1
+				slot8 = slot2
+
+				function slot9()
+					slot0 = slot0
+					slot1 = slot0
+					slot0 = slot0.emit
+					slot2 = slot1
+					slot2 = slot2.ON_DROP
+					slot3 = slot2
+
+					slot0(slot1, slot2, slot3)
+				end
+
+				slot10 = SFX_PANEL
+
+				slot6(slot7, slot8, slot9, slot10)
+
+				slot6 = updateDrop
+				slot7 = slot2
+				slot8 = slot5
+
+				slot6(slot7, slot8)
 			end
-
-			slot16 = SFX_PANEL
-
-			slot12(slot13, slot14, slot15, slot16)
 		end
 
-		slot5 = slot0.pagesInit
-		slot6 = slot2.name
-		slot5[slot6] = slot3
-		slot5 = slot0.pageId
-		slot6 = slot2.name
-		slot7 = slot1.id
-		slot5[slot6] = slot7
+		slot6(slot7, slot8)
+
+		slot6 = slot4.uilist
+		slot7 = slot6
+		slot6 = slot6.align
+		slot8 = slot3.front_drops
+		slot8 = #slot8
+
+		slot6(slot7, slot8)
+
+		slot6 = slot0.pagesInit
+		slot7 = slot2.name
+		slot6[slot7] = slot4
+		slot6 = slot0.pageId
+		slot7 = slot2.name
+		slot8 = slot1.id
+		slot6[slot7] = slot8
 	end
 
-	setText(slot3.labelDay, string.format("%d", slot1.data1 or 0))
+	slot5 = slot4.uilist
+	slot6 = slot5
+	slot5 = slot5.each
 
-	slot4 = 1
-	slot5 = 7
-	slot6 = 1
-
-	for slot7 = slot4, slot5, slot6 do
-		setActive(slot0:findTF("mask", slot3.items:GetChild(slot7 - 1)), slot7 <= slot1.data1)
+	function slot7(slot0, slot1)
+		setActive(slot1:findTF("mask", slot1), slot0 + 1 <= slot0.data1)
 	end
+
+	slot5(slot6, slot7)
 end
 
 slot0.flush_7days_login_changmen = slot5
@@ -4231,8 +4359,9 @@ function slot5(slot0)
 end
 
 slot0.clear_task_list = slot5
+slot5 = "flush_task_list_glory"
 
-function slot5(slot0)
+function slot6(slot0)
 	slot1 = slot0.activity
 	slot2 = slot0.pages
 	slot3 = slot0
@@ -4560,9 +4689,10 @@ function slot5(slot0)
 	slot13(slot14, slot15, slot16)
 end
 
-slot0.flush_task_list_glory = slot5
+slot0[slot5] = slot6
+slot5 = "clear_task_list_glory"
 
-function slot5(slot0)
+function slot6(slot0)
 	slot1 = slot0.pages
 	slot2 = slot0
 	slot3 = ActivityConst
@@ -4581,7 +4711,7 @@ function slot5(slot0)
 	end
 end
 
-slot0.clear_task_list_glory = slot5
+slot0[slot5] = slot6
 slot5 = "flush_task_list_auto_xiaotiane"
 
 function slot6(slot0)
@@ -8197,7 +8327,7 @@ function slot6(slot0)
 		slot3 = {}
 		slot5 = slot0
 		slot4 = slot0.findTF
-		slot6 = "BG"
+		slot6 = "layer/AD"
 		slot7 = slot2
 		slot4 = slot4(slot5, slot6, slot7)
 		slot3.bg = slot4
@@ -13944,6 +14074,62 @@ function slot6(slot0)
 	slot1 = slot0.flush_task_list_pt
 
 	slot1(slot2)
+
+	slot1 = slot0.activity
+	slot2 = slot0.pages
+	slot4 = slot0
+	slot3 = slot0.activity2Page
+	slot5 = slot1
+	slot3 = slot3(slot4, slot5)
+	slot2 = slot2[slot3]
+	slot3 = slot0.pagesInit
+	slot4 = slot2.name
+	slot3 = slot3[slot4]
+	slot4 = getDoingTask
+	slot5 = slot1
+	slot4, slot5, slot6 = slot4(slot5)
+	slot7 = slot3.btn
+	slot8 = slot7
+	slot7 = slot7.GetComponent
+	slot9 = typeof
+	slot10 = Image
+	slot7 = slot7(slot8, slot9(slot10))
+	slot8 = false
+	slot7.enabled = slot8
+	slot7 = setActive
+	slot8 = slot3.btn
+	slot9 = slot8
+	slot8 = slot8.Find
+	slot10 = "get"
+	slot8 = slot8(slot9, slot10)
+	slot9 = true
+
+	slot7(slot8, slot9)
+
+	slot7 = setActive
+	slot8 = slot3.btn
+	slot9 = slot8
+	slot8 = slot8.Find
+	slot10 = "achieved"
+	slot8 = slot8(slot9, slot10)
+	slot9 = false
+
+	slot7(slot8, slot9)
+
+	slot7 = setActive
+	slot8 = slot3.btn
+	slot10 = slot6
+	slot9 = slot6.isFinish
+	slot9 = slot9(slot10)
+
+	if slot9 then
+		slot10 = slot6
+		slot9 = slot6.isReceive
+		slot9 = slot9(slot10)
+		slot9 = not slot9
+	end
+
+	slot7(slot8, slot9)
 
 	return
 end

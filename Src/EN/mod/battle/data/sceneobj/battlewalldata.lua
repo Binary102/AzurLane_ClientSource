@@ -1,6 +1,6 @@
 ys = ys or {}
 slot1 = ys.Battle.BattleConst
-ys.Battle.BattleWallData = class("BattleWallData", ys.Battle.BattleSkillEffect)
+ys.Battle.BattleWallData = class("BattleWallData")
 ys.Battle.BattleWallData.__name = "BattleWallData"
 
 function ys.Battle.BattleWallData.Ctor(slot0, slot1, slot2, slot3, slot4, slot5)

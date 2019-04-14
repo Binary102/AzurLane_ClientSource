@@ -269,7 +269,7 @@ pg.gametip = {
 		key = "word_systemClose"
 	},
 	word_attr_antisub = {
-		tip = "Anti-submarine ",
+		tip = "Anti-sub ",
 		key = "word_attr_antisub"
 	},
 	word_attr_cannon = {
@@ -700,6 +700,10 @@ pg.gametip = {
 		tip = "Auxiliary",
 		key = "word_device"
 	},
+	word_submarine_torpedo = {
+		tip = "潜艇鱼雷",
+		key = "word_submarine_torpedo"
+	},
 	word_online = {
 		tip = "Online",
 		key = "word_online"
@@ -855,11 +859,11 @@ pg.gametip = {
 		key = "common_no_item_1"
 	},
 	common_use_item_sos_max = {
-		tip = "これ以上は受信できません",
+		tip = "You cannot receive any more Signals.",
 		key = "common_use_item_sos_max"
 	},
 	common_use_item_sos_used = {
-		tip = "救助信号受信数+$1",
+		tip = "Number of Distress Signals +$1",
 		key = "common_use_item_sos_used"
 	},
 	common_no_x = {
@@ -2624,11 +2628,11 @@ February 8th.]]
 		key = "ship_formationUI_fleetName6"
 	},
 	ship_formationUI_fleetName11 = {
-		tip = "Fleet 11",
+		tip = "Submarine 1",
 		key = "ship_formationUI_fleetName11"
 	},
 	ship_formationUI_fleetName12 = {
-		tip = "Fleet 12",
+		tip = "Submarine 2",
 		key = "ship_formationUI_fleetName12"
 	},
 	ship_formationUI_exercise_fleetName = {
@@ -3038,23 +3042,23 @@ February 8th.]]
 		key = "levelScene_tracking_error_retry"
 	},
 	levelScene_destroy_torpedo = {
-		tip = "成功拆除水雷",
+		tip = "Successfully defused naval mine. ",
 		key = "levelScene_destroy_torpedo"
 	},
 	levelScene_sub_refresh_count_not_enough = {
-		tip = "救助信号を受信していません",
+		tip = "You are not receiving any Distress Signals.",
 		key = "levelScene_sub_refresh_count_not_enough"
 	},
 	levelScene_jump_to_sub_confirm = {
-		tip = "発信源探知完了、「$1」($2章)海域に向かいますか？",
+		tip = "Signal source located. Would you like to head to \"$1\" in Chapter $2?",
 		key = "levelScene_jump_to_sub_confirm"
 	},
 	levelScene_signal_help_tip = {
-		tip = "救助信号について",
+		tip = "About Distress Signals",
 		key = "levelScene_signal_help_tip"
 	},
 	levelScene_search_area = {
-		tip = "【受信範囲：$1章海域】",
+		tip = "[Signal Range: up to Chapter $1]",
 		key = "levelScene_search_area"
 	},
 	levelScene_new_chapter_coming = {
@@ -3062,7 +3066,7 @@ February 8th.]]
 		key = "levelScene_new_chapter_coming"
 	},
 	error_refresh_sub_chapter = {
-		tip = "未搜索到新的求救信号",
+		tip = "You cannot initiate any more Rescue Missions. ",
 		key = "error_refresh_sub_chapter"
 	},
 	task_notfound_error = {
@@ -3502,19 +3506,19 @@ February 8th.]]
 		key = "attribute_ammo"
 	},
 	attribute_antisub = {
-		tip = "Anti-submarine ",
+		tip = "Anti-sub ",
 		key = "attribute_antisub"
 	},
 	attribute_sonarRange = {
-		tip = "探知範囲",
+		tip = "ASR ",
 		key = "attribute_sonarRange"
 	},
 	attribute_sonarInterval = {
-		tip = "発信頻度",
+		tip = "FREQ ",
 		key = "attribute_sonarInterval"
 	},
 	attribute_oxy_max = {
-		tip = "氧气",
+		tip = "OXY ",
 		key = "attribute_oxy_max"
 	},
 	skill = {
@@ -4045,9 +4049,21 @@ Promise date: $1]],
 					atlas = "helpbg/energy"
 				}
 			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/maxlevel"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/fanqian"
+				}
+			},
 			disableScroll = true,
 			pageMode = true,
-			defaultpage = 3,
+			defaultpage = 7,
 			ImageMode = true,
 			windowSize = {
 				x = 836,
@@ -4099,9 +4115,21 @@ Promise date: $1]],
 					atlas = "helpbg/energy"
 				}
 			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/maxlevel"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/fanqian"
+				}
+			},
 			disableScroll = true,
 			pageMode = true,
-			defaultpage = 5,
+			defaultpage = 7,
 			ImageMode = true,
 			windowSize = {
 				x = 836,
@@ -4153,9 +4181,21 @@ Promise date: $1]],
 					atlas = "helpbg/energy"
 				}
 			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/maxlevel"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/fanqian"
+				}
+			},
 			disableScroll = true,
 			pageMode = true,
-			defaultpage = 1,
+			defaultpage = 7,
 			ImageMode = true,
 			windowSize = {
 				x = 836,
@@ -4207,9 +4247,21 @@ Promise date: $1]],
 					atlas = "helpbg/energy"
 				}
 			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/maxlevel"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/fanqian"
+				}
+			},
 			disableScroll = true,
 			pageMode = true,
-			defaultpage = 2,
+			defaultpage = 7,
 			ImageMode = true,
 			windowSize = {
 				x = 836,
@@ -4261,9 +4313,21 @@ Promise date: $1]],
 					atlas = "helpbg/energy"
 				}
 			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/maxlevel"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/fanqian"
+				}
+			},
 			disableScroll = true,
 			pageMode = true,
-			defaultpage = 2,
+			defaultpage = 7,
 			ImageMode = true,
 			windowSize = {
 				x = 836,
@@ -4307,10 +4371,10 @@ May be improved up to 3 times]]
 		key = "help_shipinfo_attr",
 		tip = {
 			{
-				info = "1.Stats Details: "
+				info = "1.Stats Details:"
 			},
 			{
-				info = "       HP: Ship's hull strength",
+				info = "       HP: The ship's Health stat, defines how much damage \nit can take before sinking.",
 				icon = {
 					posX = 0,
 					atlas = "attricon",
@@ -4320,7 +4384,7 @@ May be improved up to 3 times]]
 				}
 			},
 			{
-				info = "       Power: defines the firepower of your guns",
+				info = "       FP: The ship's Firepower stat, defines the ship's damage \nwith Artillery.",
 				icon = {
 					posX = 0,
 					atlas = "attricon",
@@ -4330,7 +4394,7 @@ May be improved up to 3 times]]
 				}
 			},
 			{
-				info = "       AntiAir: defines the damage of your Anti-Air weapons",
+				info = "       AA: The ship's Anti-Air stat, defines the ship's damage \nwith Anti-Air Guns.",
 				icon = {
 					posX = 0,
 					atlas = "attricon",
@@ -4340,7 +4404,7 @@ May be improved up to 3 times]]
 				}
 			},
 			{
-				info = "       Armor Type: there are 3 Armor Types\n       each gives you different degree of protection\n      (Degree of protection: Heavy>Medium>Light)",
+				info = "       Armor Type: The ship's Armor thickness, defines the \nship's degree of protection. \n(Greatest to least: Heavy>Medium>Light.)",
 				icon = {
 					posX = 0,
 					atlas = "attricon",
@@ -4350,7 +4414,7 @@ May be improved up to 3 times]]
 				}
 			},
 			{
-				info = "       Torp: defines the damage of your Torpedoes",
+				info = "       TRP: The ship's Torpedo stat, defines the ship's damage \nwith Torpedoes.",
 				icon = {
 					posX = 0,
 					atlas = "attricon",
@@ -4360,7 +4424,7 @@ May be improved up to 3 times]]
 				}
 			},
 			{
-				info = "       Avia.: defines the damage of your fighters",
+				info = "       AVI: The ship's Aviation stat, defines the ship's damage \nwith Aircraft.",
 				icon = {
 					posX = 0,
 					atlas = "attricon",
@@ -4370,7 +4434,7 @@ May be improved up to 3 times]]
 				}
 			},
 			{
-				info = "       Reload: defines your firerate and reduces your skill CD",
+				info = "       RLD: The ship's Reload stat, defines the ship's rate of \nfire with all weaponry.",
 				icon = {
 					posX = 0,
 					atlas = "attricon",
@@ -4380,7 +4444,7 @@ May be improved up to 3 times]]
 				}
 			},
 			{
-				info = "       SPD: defines your evade chance",
+				info = "       EVA: The ship's Evasion stat, defines the ship's chance \nto evade enemy attacks.",
 				icon = {
 					posX = 0,
 					atlas = "attricon",
@@ -4390,7 +4454,7 @@ May be improved up to 3 times]]
 				}
 			},
 			{
-				info = "       Cost: your oil consumption per battle",
+				info = "       OIL: The ship's Oil Cost, defines how much Oil the ship \nconsumes per battle.",
 				icon = {
 					posX = 0,
 					atlas = "attricon",
@@ -4400,7 +4464,51 @@ May be improved up to 3 times]]
 				}
 			},
 			{
-				info = "2.Mood:\n      ships with good mood receive increased Exp\n      bad mood reduces ship's intemacy"
+				info = "       ASW: The ship's Anti-Submarine Warfare stat, defines \nhow much damage the ship's Anti-Sub weapons deal.",
+				icon = {
+					posX = 0,
+					atlas = "attricon",
+					posY = 0,
+					scale = 0.19,
+					path = "antisub"
+				}
+			},
+			{
+				info = "       OXY: The ship's Oxygen stat, defines how long it can \nstay underwater before it must resurface.",
+				icon = {
+					posX = 0,
+					atlas = "attricon",
+					posY = 0,
+					scale = 0.19,
+					path = "oxy_max"
+				}
+			},
+			{
+				info = [[
+       AMO: The ship's Ammunition stat, defines how many 
+times a Submarine Fleet can attack and/or provide support. 
+The total number of times is equal to the Submarine 
+Fleet's combined AMO stat.]],
+				icon = {
+					posX = 0,
+					atlas = "attricon",
+					posY = 0,
+					scale = 0.19,
+					path = "ammo"
+				}
+			},
+			{
+				info = "       ASR: The ship's Attack/Support Range, defines how far \nthe Flagship of the Submarine Fleet can move from its \nstarting location to attack or provide support.",
+				icon = {
+					posX = 0,
+					atlas = "attricon",
+					posY = 0,
+					scale = 0.19,
+					path = "hunt_range"
+				}
+			},
+			{
+				info = "2. Mood:\nShips with good moods receive increased EXP from battles.\nShips with bad moods lose affinity with further battles."
 			}
 		}
 	},
@@ -4537,13 +4645,12 @@ Urgent Ops times: Wednesday, Saturday, Sunday]]
 
 							<size=23>【Building Event】</size>
 
-							<color=#fff157>   Shoukaku</color>：2.0%<color=#A9F548>(up!)</color>
-							<color=#fff157>   Zuikaku</color>：0.7%<color=#A9F548>(up!)</color>
-							<color=#fff157>   Yukikaze</color>：2.0%<color=#A9F548>(up!)</color>
-							<color=#966af6>   Nowaki</color>：4.0%<color=#A9F548>(up!)</color>
-							<color=#966af6>   Mogami</color>：2.5%<color=#A9F548>(up!)</color>
-							<color=#60a9ff>   Ise</color>：6.75%<color=#A9F548>(up!)</color>
-							<color=#60a9ff>   Hyuuga</color>：6.75%<color=#A9F548>(up!)</color>
+							<color=#fff157>   Nagato</color>：2.0%<color=#A9F548>(up!)</color>
+							<color=#fff157>   Kawakaze</color>：2.0%<color=#A9F548>(up!)</color>
+							<color=#966af6>   Yoizuki</color>：2.5%<color=#A9F548>(up!)</color>
+							<color=#966af6>   Harutsuki</color>：2.5%<color=#A9F548>(up!)</color>
+							<color=#60a9ff>   Fumizuki</color>：5.0%<color=#A9F548>(up!)</color>
+							<color=#60a9ff>   Asashio</color>：5.0%<color=#A9F548>(up!)</color>
 ]],
 		key = "help_build_4"
 	},
@@ -4570,7 +4677,38 @@ Urgent Ops times: Wednesday, Saturday, Sunday]]
 		key = "help_shipinfo_hunting",
 		tip = {
 			{
-				info = "\n狩猎范围说明"
+				info = [[
+About Attack/Support Range:
+- The Flagship of the Submarine Fleet determines the 
+whole Submarine Fleet's Attack/Support Range (ASR.)
+
+- The Submarine Fleet can move on their own and attack 
+enemies within their range, lowering the enemy's 
+combat strength.
+
+- Tapping the "Submarine Support" button when in 
+combat with an enemy within the Submarine Fleet's range 
+will summon your Submarine Fleet to assist you in battle.
+
+- Submarines will only use Ammunition when attacking 
+enemies on their own. When summoned in a battle, they 
+will both use Ammunition and consume Oil.
+
+- The Submarine Fleet has 2 settings: Support Mode (the 
+fleet will be on standby) and Attack Mode 
+(the fleet will attack enemies automatically.)
+- This setting can be changed at any time from the 
+Formation menu on the right side of the screen when 
+sortieing.
+
+Attack/Support Range Level:
+- The higher the ASR level the Submarine Fleet's Flagship 
+is, the further from their starting location they can 
+attack or provide support.
+
+- You can increase the ASR level through Limit Breaking 
+your Submarines, leveling certain skills, and equipping 
+them with certain gear.]]
 			}
 		}
 	},
@@ -4807,6 +4945,24 @@ Urgent Ops times: Wednesday, Saturday, Sunday]]
 				icon = {
 					path = "",
 					atlas = "helpbg/battle_plane"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/battle_sub_3"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/battle_sub_4"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/battle_sub_5"
 				}
 			},
 			disableScroll = true,
@@ -5649,19 +5805,35 @@ Urgent Ops times: Wednesday, Saturday, Sunday]]
 	},
 	ship_remould_warning_310014 = {
 		tip = [[
-Upon the retrofit <color=#A9F548>$1</color>the hull type of this unit will be changed
-<color=#A9F548>Secondary Weapon </color>will become<color=#A9F548> Water Detection </color> slot <color=#A9F548><material=underline c=#A9F548 event=clickDetail> Infor </material></color>
+Upon the retrofit <color=#A9F548>$1</color> the hull type of this unit will be changed
+<color=#A9F548>Secondary Weapon </color>will become<color=#A9F548> Water Detection </color> slot <color=#A9F548><material=underline c=#A9F548 event=clickDetail> Info </material></color>
 <color=#A9F548>your current Secondary Weapon </color> will be unequipped
  Would you like to continue?]],
 		key = "ship_remould_warning_310014"
 	},
 	ship_remould_warning_310024 = {
 		tip = [[
-Upon the retrofit <color=#A9F548>$1</color>the hull type of this unit will be changed
-<color=#A9F548>Secondary Weapon </color>will become<color=#A9F548> Water Detection </color> slot <color=#A9F548><material=underline c=#A9F548 event=clickDetail> Infor </material></color>
+Upon the retrofit <color=#A9F548>$1</color> the hull type of this unit will be changed
+<color=#A9F548>Secondary Weapon </color>will become<color=#A9F548> Water Detection </color> slot <color=#A9F548><material=underline c=#A9F548 event=clickDetail> Info </material></color>
 <color=#A9F548>your current Secondary Weapon </color> will be unequipped
  Would you like to continue?]],
 		key = "ship_remould_warning_310024"
+	},
+	ship_remould_warning_310034 = {
+		tip = [[
+Upon the retrofit <color=#A9F548>$1</color> the hull type of this unit will be changed
+<color=#A9F548>Secondary Weapon </color>will become<color=#A9F548> Water Detection </color> slot <color=#A9F548><material=underline c=#A9F548 event=clickDetail> Info </material></color>
+<color=#A9F548>your current Secondary Weapon </color> will be unequipped
+ Would you like to continue?]],
+		key = "ship_remould_warning_310034"
+	},
+	ship_remould_warning_310044 = {
+		tip = [[
+Upon the retrofit <color=#A9F548>$1</color> the hull type of this unit will be changed
+<color=#A9F548>Secondary Weapon </color>will become<color=#A9F548> Water Detection </color> slot <color=#A9F548><material=underline c=#A9F548 event=clickDetail> Info </material></color>
+<color=#A9F548>your current Secondary Weapon </color> will be unequipped
+ Would you like to continue?]],
+		key = "ship_remould_warning_310044"
 	},
 	ship_remould_warning_303154 = {
 		tip = [[
@@ -6388,6 +6560,202 @@ She'll also receive a <color=#a0ff40>3%</color> stats bonus</size>.]],
 		tip = "Unknown error.",
 		key = "airi_error_code_other"
 	},
+	["new_airi_error_code_-1"] = {
+		tip = "Unknown Error",
+		key = "new_airi_error_code_-1"
+	},
+	new_airi_error_code_0 = {
+		tip = "Success",
+		key = "new_airi_error_code_0"
+	},
+	new_airi_error_code_100100 = {
+		tip = "This Device ID is banned",
+		key = "new_airi_error_code_100100"
+	},
+	new_airi_error_code_100110 = {
+		tip = "Verification failed, UID does not match with Token",
+		key = "new_airi_error_code_100110"
+	},
+	new_airi_error_code_100111 = {
+		tip = "Account creation failed",
+		key = "new_airi_error_code_100111"
+	},
+	new_airi_error_code_100112 = {
+		tip = "Account creation failed",
+		key = "new_airi_error_code_100112"
+	},
+	new_airi_error_code_100113 = {
+		tip = "Account binding success; Verification failed, this UID does not match with Token, failed to acquire Access Token",
+		key = "new_airi_error_code_100113"
+	},
+	new_airi_error_code_100114 = {
+		tip = "Account binding success; IP restricted, failed to acquire Access Token",
+		key = "new_airi_error_code_100114"
+	},
+	new_airi_error_code_100115 = {
+		tip = "Account binding success; Device ID is banned, failed to acquire Access Token",
+		key = "new_airi_error_code_100115"
+	},
+	new_airi_error_code_100116 = {
+		tip = "Account binding success; UID is banned, failed to acquire Access Token",
+		key = "new_airi_error_code_100116"
+	},
+	new_airi_error_code_100117 = {
+		tip = "Illegal parameters",
+		key = "new_airi_error_code_100117"
+	},
+	new_airi_error_code_100120 = {
+		tip = "IP restricted",
+		key = "new_airi_error_code_100120"
+	},
+	new_airi_error_code_100130 = {
+		tip = "This UID is banned",
+		key = "new_airi_error_code_100130"
+	},
+	new_airi_error_code_100140 = {
+		tip = "Access Token verification failed",
+		key = "new_airi_error_code_100140"
+	},
+	new_airi_error_code_100150 = {
+		tip = "This UID does not match with Transcode",
+		key = "new_airi_error_code_100150"
+	},
+	new_airi_error_code_100160 = {
+		tip = "User birthday has already been added",
+		key = "new_airi_error_code_100160"
+	},
+	new_airi_error_code_100170 = {
+		tip = "Invalid birthday format",
+		key = "new_airi_error_code_100170"
+	},
+	new_airi_error_code_100180 = {
+		tip = "This Twitter/Facebook account is not bound with the game account",
+		key = "new_airi_error_code_100180"
+	},
+	new_airi_error_code_100190 = {
+		tip = "Failed to verify the Token and Secret of this Twitter/Facebook account",
+		key = "new_airi_error_code_100190"
+	},
+	new_airi_error_code_100200 = {
+		tip = "This Twitter/Facebook account is already bound with another Airi UID",
+		key = "new_airi_error_code_100200"
+	},
+	new_airi_error_code_100210 = {
+		tip = "This UID does not match with the UID bound to the Twitter/Facebook account",
+		key = "new_airi_error_code_100210"
+	},
+	new_airi_error_code_100211 = {
+		tip = "Platform binding error",
+		key = "new_airi_error_code_100211"
+	},
+	new_airi_error_code_100212 = {
+		tip = "Platform unbinding error",
+		key = "new_airi_error_code_100212"
+	},
+	new_airi_error_code_100213 = {
+		tip = "Account binding with FB/TW failed",
+		key = "new_airi_error_code_100213"
+	},
+	new_airi_error_code_100220 = {
+		tip = "Facebook login cancelled",
+		key = "new_airi_error_code_100220"
+	},
+	new_airi_error_code_100230 = {
+		tip = "Initialization failed",
+		key = "new_airi_error_code_100230"
+	},
+	new_airi_error_code_100300 = {
+		tip = "Invalid email address format",
+		key = "new_airi_error_code_100300"
+	},
+	new_airi_error_code_100301 = {
+		tip = "Email addresses do not match",
+		key = "new_airi_error_code_100301"
+	},
+	new_airi_error_code_100302 = {
+		tip = "Verification code request is too frequent",
+		key = "new_airi_error_code_100302"
+	},
+	new_airi_error_code_100303 = {
+		tip = "Verification failed, this verification code does not match or has become expired(30 minutes)",
+		key = "new_airi_error_code_100303"
+	},
+	new_airi_error_code_100304 = {
+		tip = "Verification failed too many times, this verification code has become expired upon the 10th failed attempt, please acquire a new verification code",
+		key = "new_airi_error_code_100304"
+	},
+	new_airi_error_code_100305 = {
+		tip = "This account is banned",
+		key = "new_airi_error_code_100305"
+	},
+	new_airi_error_code_100306 = {
+		tip = "Verification code cannot be empty",
+		key = "new_airi_error_code_100306"
+	},
+	new_airi_error_code_100404 = {
+		tip = "Network error",
+		key = "new_airi_error_code_100404"
+	},
+	new_airi_error_code_200100 = {
+		tip = "Purchase order creation failed - User birthday is required",
+		key = "new_airi_error_code_200100"
+	},
+	new_airi_error_code_200110 = {
+		tip = "Purchase order creation failed - Monthly purchase limit exceeded",
+		key = "new_airi_error_code_200110"
+	},
+	new_airi_error_code_200120 = {
+		tip = "Purchase order creation failed - Invalid order information / Item does not exist",
+		key = "new_airi_error_code_200120"
+	},
+	new_airi_error_code_200130 = {
+		tip = "Purchase order creation failed - Invalid order information / Payment method does not exist",
+		key = "new_airi_error_code_200130"
+	},
+	new_airi_error_code_200140 = {
+		tip = "Purchase order creation failed - serverTag does not exist",
+		key = "new_airi_error_code_200140"
+	},
+	new_airi_error_code_200150 = {
+		tip = "Payment receipt verification failed",
+		key = "new_airi_error_code_200150"
+	},
+	new_airi_error_code_200160 = {
+		tip = "Invalid purchase request (invalid user Token, invalid order, or item does not exist)",
+		key = "new_airi_error_code_200160"
+	},
+	new_airi_error_code_200170 = {
+		tip = "Purchase request failed on game server (Determined as an invalid purchase by game logic server)",
+		key = "new_airi_error_code_200170"
+	},
+	new_airi_error_code_200180 = {
+		tip = "The request is proceeding for a long time, notify the client to start a polling",
+		key = "new_airi_error_code_200180"
+	},
+	new_airi_error_code_200190 = {
+		tip = "Order ID does not exist",
+		key = "new_airi_error_code_200190"
+	},
+	new_airi_error_code_200200 = {
+		tip = "Order status tracking timed out",
+		key = "new_airi_error_code_200200"
+	},
+	new_airi_error_code_200210 = {
+		tip = "productid does not exist on GooglePay / AppStorePay / Molpay",
+		key = "new_airi_error_code_200210"
+	},
+	new_airi_error_code_200220 = {
+		tip = "GooglePay / AppStorePay / Molpay failed",
+		key = "new_airi_error_code_200220"
+	},
+	new_airi_error_code_200230 = {
+		tip = "GooglePay / AppStorePay / Molpay cancelled",
+		key = "new_airi_error_code_200230"
+	},
+	new_airi_error_code_300100 = {
+		tip = "Sharing failed",
+		key = "new_airi_error_code_300100"
+	},
 	need_break_tip = {
 		tip = "Limit break required.",
 		key = "need_break_tip"
@@ -6923,6 +7291,56 @@ $3]],
 		tip = "Turning on chat to display messages.",
 		key = "show_chat_warning"
 	},
+	help_sos = {
+		key = "help_sos",
+		tip = {
+			{
+				info = [[
+About Distress Signals:
+- You can receive Distress Signals at random from any 
+Chapter on the world map.
+Even when you're logged out, you can still receive Distress 
+Signals.
+- You must first clear the final stage (X-4) of a Chapter 
+before you can receive Distress Signals from it.
+
+About The Find Source Button:
+- When you tap this button, you will locate which Chapter 
+the Distress Signal is coming from.
+- Once you've located the signal's source, you can initiate 
+a Rescue Mission.
+- You can only have 1 Rescue Mission active per Chapter. 
+You must complete the Rescue Mission or let its timer 
+run out before you can get another Rescue Mission for 
+the same Chapter.
+- A Rescue Mission will disappear once you've cleared it 
+or 12 hours have passed.
+
+Signal Sensitivity:
+- Your Signal Sensitivity dictates which Chapters you may 
+receive Distress Signals from.
+- At Sensitivity level 1, Rescue Missions will only appear in 
+Chapter 3.
+- As you increase your Signal Sensitivity level, you will gain 
+access to Rescue Missions in higher Chapters on the 
+world map.
+- You can increase your Signal Sensitivity by 1 level by 
+S-Ranking the Boss Node on your currently highest level 
+available Rescue Mission. Your Signal Sensitivity caps out 
+at level 8.
+- Additionally, the higher your Sensitivity level, the better 
+the rewards you may receive from clearing the Boss Node.
+
+Combat Details:
+- You will encounter enemy Submarines during Rescue 
+Missions. Before you attempt a Rescue Mission, it's 
+recommended that you first equip your DDs and CLs 
+with Anti-Sub gear.
+
+]]
+			}
+		}
+	},
 	sos_lock = {
 		tip = "救援海域は開放されていません ",
 		key = "sos_lock"
@@ -6938,6 +7356,54 @@ $3]],
 	help_level_ui = {
 		key = "help_level_ui",
 		tip = {
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/level_ui_help_1"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/level_ui_help_2"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/level_ui_help_3"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/level_ui_help_4"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/level_ui_help_5"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/level_ui_help_6"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/level_ui_help_7"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/level_ui_help_8"
+				}
+			},
 			{
 				icon = {
 					path = "",
@@ -6969,6 +7435,14 @@ $3]],
 		tip = "Are you sure you want to use<color=#A9F548><icon name=diamond w=0.7 h=0.7/>$1</color> to rename your guild?",
 		key = "guild_modify_info_tip"
 	},
+	ai_change_1 = {
+		tip = "The Submarine Fleet is now in Support Mode.",
+		key = "ai_change_1"
+	},
+	ai_change_2 = {
+		tip = "The Submarine Fleet is now in Attack Mode.",
+		key = "ai_change_2"
+	},
 	activity_shop_lable = {
 		tip = "*Available During: $1 ",
 		key = "activity_shop_lable"
@@ -6982,7 +7456,7 @@ $3]],
 		key = "levelScene_tracking_error_pre"
 	},
 	ship_limit_notice = {
-		tip = "不计算潜艇舰队的数据.",
+		tip = "The Submarine Fleet's stats do not count towards the Status Requirements. ",
 		key = "ship_limit_notice"
 	},
 	idle = {
@@ -7102,7 +7576,7 @@ $3]],
 		key = "reflux_word_2"
 	},
 	ship_hunting_level_tips = {
-		tip = "*当前狩猎范围等级仅包括突破和装备增加的狩猎范围等级",
+		tip = "*Total ASR is the sum of ASR from limit break and gear.",
 		key = "ship_hunting_level_tips"
 	},
 	acquisitionmode_is_not_open = {
@@ -7183,6 +7657,10 @@ $3]],
 	discount_time = {
 		tip = "<color=grey>Time left on discount</color> <color=#A9F548>$1</color> ",
 		key = "discount_time"
+	},
+	ship_equip_same_group_equipment = {
+		tip = "You can only equip 1 Unique gear piece. ",
+		key = "ship_equip_same_group_equipment"
 	},
 	pay_cancel = {
 		tip = "Cancel Payment",
@@ -7653,8 +8131,12 @@ $3]],
 		key = "verification_code_req_tip1"
 	},
 	verification_code_req_tip2 = {
-		tip = "Verification request uccessful! Please check your e-mail for the verification code.",
+		tip = "Verification request successful! Please check your e-mail for the verification code.",
 		key = "verification_code_req_tip2"
+	},
+	verification_code_req_tip3 = {
+		tip = "Email and Verification Code cannot be empty",
+		key = "verification_code_req_tip3"
 	},
 	yostar_link_title = {
 		tip = "Yostar Account:$1",

@@ -81,6 +81,7 @@ function slot0.init(slot0)
 	slot0.yostarEmailTxt = slot0:findTF("email_input_txt", slot0.yostarAlert)
 	slot0.yostarCodeTxt = slot0:findTF("code_input_txt", slot0.yostarAlert)
 	slot0.yostarGenCodeBtn = slot0:findTF("gen_code_btn", slot0.yostarAlert)
+	slot0.yostarGenTxt = slot0:findTF("Text", slot0.yostarGenCodeBtn)
 	slot0.yostarSureBtn = slot0:findTF("login_btn", slot0.yostarAlert)
 	slot0.channelBtn = slot0:findTF("bg_lay/buttons/channel_button")
 	slot0.serviceBtn = slot0:findTF("bg_lay/buttons/service_button")
@@ -460,15 +461,58 @@ function slot0.didEnter(slot0)
 	onButton(slot0, slot0.yostarGenCodeBtn, function ()
 		if getInputText(slot0.yostarEmailTxt) ~= "" then
 			VerificationCodeReq(slot0)
+			slot0:CheckAiriGenCodeCounter()
 		else
 			pg.TipsMgr:GetInstance():ShowTips(i18n("verification_code_req_tip1"))
 		end
 	end)
 	onButton(slot0, slot0.yostarSureBtn, function ()
-		LoginWithSocial(AIRI_PLATFORM_YOSTAR, getInputText(slot0.yostarEmailTxt), getInputText(slot0.yostarCodeTxt))
+		slot1 = getInputText(slot0.yostarCodeTxt)
+
+		if getInputText(slot0.yostarEmailTxt) ~= "" and slot1 ~= "" then
+			LoginWithSocial(AIRI_PLATFORM_YOSTAR, slot0, slot1)
+		else
+			pg.TipsMgr:GetInstance():ShowTips(i18n("verification_code_req_tip3"))
+		end
 	end)
+
+	if CSharpVersion > 24 then
+		slot0:CheckAiriGenCodeCounter()
+	end
+
 	slot0:playExtraVoice()
 	slot0:checkVersion()
+end
+
+function slot0.CheckAiriGenCodeCounter(slot0)
+	if GetAiriGenCodeTimeRemain() > 0 then
+		setButtonEnabled(slot0.yostarGenCodeBtn, false)
+
+		slot0.genCodeTimer = Timer.New(function ()
+			if GetAiriGenCodeTimeRemain() > 0 then
+				setText(slot0.yostarGenTxt, "(" .. slot0 .. ")")
+			else
+				setText(slot0.yostarGenTxt, "Generate")
+				slot0:ClearAiriGenCodeTimer()
+			end
+		end, 1, -1):Start()
+	end
+end
+
+function slot0.ClearAiriGenCodeTimer(slot0)
+	if CSharpVersion < 24 then
+		return
+	end
+
+	setButtonEnabled(slot0.yostarGenCodeBtn, true)
+
+	if slot0.genCodeTimer then
+		slot0.genCodeTimer:Stop()
+
+		slot0.genCodeTimer = nil
+	end
+
+	return
 end
 
 function slot0.checkVersion(slot0)
@@ -477,9 +521,13 @@ function slot0.checkVersion(slot0)
 			content = "当前游戏不是最新版本，请重启游戏进行更新",
 			onYes = function ()
 				Application.Quit()
+
+				return
 			end
 		})
 	end
+
+	return
 end
 
 function slot0.playExtraVoice(slot0)
@@ -494,8 +542,12 @@ function slot0.playExtraVoice(slot0)
 			slot0.loginCueSheet = slot2
 
 			slot2:PlayCV(slot2, "extra")
+
+			return
 		end)
 	end
+
+	return
 end
 
 function slot0.unloadExtraVoice(slot0)
@@ -504,6 +556,8 @@ function slot0.unloadExtraVoice(slot0)
 
 		slot0.loginCueSheet = nil
 	end
+
+	return
 end
 
 function slot0.autoLogin(slot0)
@@ -515,11 +569,15 @@ function slot0.autoLogin(slot0)
 		if slot0.lastLoginUser.type == 1 then
 			setInputText(slot0.loginUsername, slot0.lastLoginUser.arg2)
 			setInputText(slot0.loginPassword, slot0.lastLoginUser.arg3)
-		elseif slot0.lastLoginUser.type == 2 then
-			setInputText(slot0.loginUsername, slot0.lastLoginUser.arg1)
-			setInputText(slot0.loginPassword, slot0.lastLoginUser.arg2)
+		else
+			if slot0.lastLoginUser.type == 2 then
+				setInputText(slot0.loginUsername, slot0.lastLoginUser.arg1)
+				setInputText(slot0.loginPassword, slot0.lastLoginUser.arg2)
+			end
 		end
 	end
+
+	return
 end
 
 slot2 = {
@@ -550,7 +608,11 @@ function slot0.updateServerTF(slot0, slot1, slot2)
 
 		slot1:setLastLoginServer(slot1.setLastLoginServer)
 		setActive(slot1.serversPanel, false)
+
+		return
 	end, SFX_CONFIRM)
+
+	return
 end
 
 function slot0.updateAdviceServer(slot0)
@@ -569,6 +631,8 @@ function slot0.updateAdviceServer(slot0)
 	if getProxy(ServerProxy).firstServer then
 		slot0:updateServerTF(findTF(slot0.adviceTF, "server"), slot1)
 	end
+
+	return
 end
 
 function slot0.updateServerList(slot0, slot1)
@@ -579,14 +643,20 @@ function slot0.updateServerList(slot0, slot1)
 	for slot6, slot7 in pairs(slot2) do
 		slot0:updateServerTF(cloneTplTo(slot0.serverTpl, slot0.servers), slot7)
 	end
+
+	return
 end
 
 function slot0.openChannelPanel(slot0)
 	setActive(slot0.channelPanel, true)
+
+	return
 end
 
 function slot0.closeChannelPanel(slot0)
 	setActive(slot0.channelPanel, false)
+
+	return
 end
 
 function slot0.switchToTencentLogin(slot0)
@@ -599,6 +669,8 @@ function slot0.switchToTencentLogin(slot0)
 	setActive(slot0.serversPanel, false)
 	setActive(slot0.airijpPanel, false)
 	setActive(slot0.transcodeAlert, false)
+
+	return
 end
 
 function slot0.switchToAiriJPLogin(slot0)
@@ -613,6 +685,8 @@ function slot0.switchToAiriJPLogin(slot0)
 	setActive(slot0.registerPanel, false)
 	setActive(slot0.serversPanel, false)
 	setActive(slot0.transcodeAlert, false)
+
+	return
 end
 
 function slot0.switchToLogin(slot0)
@@ -627,6 +701,8 @@ function slot0.switchToLogin(slot0)
 	setActive(slot0.serversPanel, false)
 	setActive(slot0.airijpPanel, false)
 	setActive(slot0.transcodeAlert, false)
+
+	return
 end
 
 function slot0.switchToRegister(slot0)
@@ -641,6 +717,8 @@ function slot0.switchToRegister(slot0)
 	setActive(slot0.serversPanel, false)
 	setActive(slot0.airijpPanel, false)
 	setActive(slot0.transcodeAlert, false)
+
+	return
 end
 
 function slot0.switchToServer(slot0)
@@ -657,6 +735,8 @@ function slot0.switchToServer(slot0)
 	setActive(slot0.airijpPanel, false)
 	setActive(slot0.transcodeAlert, false)
 	setActive(slot0.yostarAlert, false)
+
+	return
 end
 
 function slot0.SwitchToWaitPanel(slot0, slot1)
@@ -679,19 +759,27 @@ function slot0.SwitchToWaitPanel(slot0, slot1)
 
 			"background".waitTimer = nil
 		end
+
+		return
 	end, 1, -1)
 
 	slot0.waitTimer:Start()
 	slot0.waitTimer.func()
 	setActive(slot0:findTF("Msgbox"), true)
+
+	return
 end
 
 function slot0.willExit(slot0)
+	slot0:ClearAiriGenCodeTimer()
+
 	if slot0.waitTimer then
 		slot0.waitTimer:Stop()
 
 		slot0.waitTimer = nil
 	end
+
+	return
 end
 
 return slot0

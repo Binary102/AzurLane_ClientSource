@@ -10,7 +10,7 @@ return {
 			actor = 301491,
 			side = 2,
 			dir = 0,
-			say = "停下，来者何人？！",
+			say = "Halt! Who are you?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -24,7 +24,7 @@ return {
 			actor = 307061,
 			side = 2,
 			dir = 0,
-			say = "我们是新生重樱联合，特来此地寻找能够拯救重樱御神木的方法",
+			say = "We're the Sakura Empire's new Combined Fleet, and we're here to have a look at the girl in the Sacred Sakura...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -38,7 +38,7 @@ return {
 			actor = 301491,
 			side = 2,
 			dir = 0,
-			say = "…请回吧，神子大人不希望任何人打扰到她的休息",
+			say = "... Leave this place. None shall disturb the shrine maiden's slumber.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			actor = 305111,
 			side = 2,
 			dir = 0,
-			say = "神子大人…难道是说{namecode:74}姐妹吗？我们此行的目的就是找她们",
+			say = "It is our goal to bring Nagato and her sister safely out of here!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,7 +66,7 @@ return {
 			actor = 301491,
 			side = 2,
 			dir = 0,
-			say = "神子大人已经承受了太多本不应属于她的负担了，所以，我答应过她，在她沉睡的期间，不会让任何人打扰的",
+			say = "I thank you for your noble consideration, but I made a promise with Nagato. I shall not let anyone wake her from her slumber!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			actor = 301491,
 			side = 2,
 			dir = 0,
-			say = "是的，就算是你们，也不行——",
+			say = "Nobody, not even you, even though we are allies.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			actor = 307061,
 			side = 2,
 			dir = 0,
-			say = "啊…真是死脑筋，我们可是为了拯救世界啊！！",
+			say = "*Sigh*... I really hate it when people are as stubborn as you... We're trying to save the world! Let us through!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +108,7 @@ return {
 			actor = 301491,
 			side = 2,
 			dir = 0,
-			say = "既然如此…那就向我来展示一下你们的决心吧",
+			say = "If you still wish to have it your way, then show me your resolve through a battle!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,7 +122,7 @@ return {
 			actor = 307061,
 			side = 2,
 			dir = 0,
-			say = "欸…欸？又是这种展开吗？",
+			say = "I knew it! I knew this would happen! It's so clichéd, yet it always does!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			actor = 301491,
 			side = 2,
 			dir = 0,
-			say = "放心吧，一瞬间就会了结的！",
+			say = "Relax. I will end this in an instant!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

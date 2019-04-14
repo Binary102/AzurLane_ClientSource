@@ -33936,21 +33936,21 @@ pg.enemy_data_statistics = {
 	[409] = {
 		cannon = 6,
 		name = "Heavy Infinite HP Test Enemy",
-		air_growth = 0,
+		battle_unit_type = 20,
 		speed_growth = 0,
 		air = 0,
-		battle_unit_type = 20,
 		armor = 0,
 		hit_growth = 0,
-		luck_growth = 0,
-		id = 409,
-		dodge_growth = 0,
-		bubble_fx = "",
-		star = 1,
-		bubble_initial = 0,
-		antisub_growth = 0,
 		rarity = 1,
-		remarks = "测试用怪物",
+		type = 5,
+		luck_growth = 0,
+		dodge_growth = 0,
+		icon = "ekelahema",
+		star = 1,
+		id = 409,
+		antisub_growth = 0,
+		air_growth = 0,
+		bubble_fx = "",
 		base = 182,
 		durability = 99999999,
 		armor_growth = 0,
@@ -33958,8 +33958,12 @@ pg.enemy_data_statistics = {
 		bubble_interval = 0,
 		speed = 15,
 		luck = 0,
+		bubble_initial = 0,
+		remarks = "测试用怪物",
 		antisub = 0,
+		prefab = "ekelahema",
 		cannon_growth = 0,
+		pilot_ai_template_id = 20006,
 		reload = 150,
 		dodge = 0,
 		reload_growth = 0,
@@ -33968,9 +33972,7 @@ pg.enemy_data_statistics = {
 		durability_growth = 0,
 		antiaircraft = 17,
 		antiaircraft_growth = 0,
-		equipment_list = {
-			310000
-		},
+		armor_type = 3,
 		specific_fx_scale = {},
 		smoke = {
 			{
@@ -34042,6 +34044,9 @@ pg.enemy_data_statistics = {
 			5.5,
 			7.5,
 			8
+		},
+		equipment_list = {
+			310000
 		}
 	},
 	[410] = {
@@ -34049,19 +34054,19 @@ pg.enemy_data_statistics = {
 		name = "Medium Infinite HP Test Enemy",
 		air_growth = 0,
 		speed_growth = 0,
-		air = 0,
-		battle_unit_type = 20,
 		armor = 0,
+		air = 0,
 		hit_growth = 0,
-		luck_growth = 0,
-		id = 410,
+		battle_unit_type = 20,
+		type = 2,
+		antiaircraft = 17,
 		dodge_growth = 0,
-		bubble_fx = "",
+		id = 410,
 		star = 1,
-		bubble_initial = 0,
+		bubble_fx = "",
 		antisub_growth = 0,
 		rarity = 1,
-		remarks = "测试用怪物",
+		bubble_initial = 0,
 		base = 182,
 		durability = 99999999,
 		armor_growth = 0,
@@ -34069,19 +34074,19 @@ pg.enemy_data_statistics = {
 		bubble_interval = 0,
 		speed = 15,
 		luck = 0,
+		remarks = "测试用怪物",
 		antisub = 0,
 		cannon_growth = 0,
+		pilot_ai_template_id = 20006,
 		reload = 150,
 		dodge = 0,
 		reload_growth = 0,
 		hit = 5,
 		torpedo = 28,
 		durability_growth = 0,
-		antiaircraft = 17,
+		luck_growth = 0,
 		antiaircraft_growth = 0,
-		equipment_list = {
-			310000
-		},
+		armor_type = 2,
 		specific_fx_scale = {},
 		smoke = {
 			{
@@ -34153,26 +34158,29 @@ pg.enemy_data_statistics = {
 			5.5,
 			7.5,
 			8
+		},
+		equipment_list = {
+			310000
 		}
 	},
 	[411] = {
 		cannon = 6,
 		name = "Light Infinite HP Test Enemy",
-		air_growth = 0,
+		battle_unit_type = 20,
 		speed_growth = 0,
 		air = 0,
-		battle_unit_type = 20,
 		armor = 0,
 		hit_growth = 0,
-		luck_growth = 0,
-		id = 411,
-		dodge_growth = 0,
-		bubble_fx = "",
-		star = 1,
-		bubble_initial = 0,
-		antisub_growth = 0,
 		rarity = 1,
-		remarks = "测试用怪物",
+		type = 1,
+		luck_growth = 0,
+		dodge_growth = 0,
+		icon = "muyue",
+		star = 1,
+		id = 411,
+		antisub_growth = 0,
+		air_growth = 0,
+		bubble_fx = "",
 		base = 182,
 		durability = 99999999,
 		armor_growth = 0,
@@ -34180,8 +34188,12 @@ pg.enemy_data_statistics = {
 		bubble_interval = 0,
 		speed = 15,
 		luck = 0,
+		bubble_initial = 0,
+		remarks = "测试用怪物",
 		antisub = 0,
+		prefab = "muyue",
 		cannon_growth = 0,
+		pilot_ai_template_id = 20006,
 		reload = 150,
 		dodge = 0,
 		reload_growth = 0,
@@ -34190,9 +34202,7 @@ pg.enemy_data_statistics = {
 		durability_growth = 0,
 		antiaircraft = 17,
 		antiaircraft_growth = 0,
-		equipment_list = {
-			310000
-		},
+		armor_type = 1,
 		specific_fx_scale = {},
 		smoke = {
 			{
@@ -34264,6 +34274,9 @@ pg.enemy_data_statistics = {
 			5.5,
 			7.5,
 			8
+		},
+		equipment_list = {
+			310000
 		}
 	},
 	[500] = {
@@ -43052,6 +43065,84 @@ pg.enemy_data_statistics = {
 		equipment_list = {
 			300013
 		}
+	},
+	[3037] = {
+		cannon = 2,
+		battle_unit_type = 65,
+		antiaircraft = 0,
+		speed_growth = 0,
+		air_growth = 0,
+		air = 0,
+		armor = 0,
+		hit_growth = 120,
+		antisub = 0,
+		remarks = "潜艇蛋船",
+		dodge_growth = 0,
+		star = 2,
+		antisub_growth = 0,
+		rarity = 1,
+		base = 129,
+		durability = 135,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		speed = 8,
+		luck = 0,
+		id = 3037,
+		cannon_growth = 0,
+		pilot_ai_template_id = 10002,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 8,
+		torpedo = 55,
+		durability_growth = 0,
+		luck_growth = 0,
+		antiaircraft_growth = 0,
+		equipment_list = {
+			100580,
+			100583
+		},
+		specific_fx_scale = {}
+	},
+	[3038] = {
+		cannon = 25,
+		antiaircraft = 0,
+		air_growth = 0,
+		speed_growth = 0,
+		armor = 0,
+		air = 0,
+		battle_unit_type = 95,
+		hit_growth = 210,
+		id = 3038,
+		remarks = "潜艇BOSS",
+		dodge_growth = 72,
+		star = 2,
+		antisub_growth = 0,
+		rarity = 1,
+		base = 266,
+		durability = 720,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		speed = 12,
+		luck = 0,
+		antisub = 0,
+		scale = 150,
+		cannon_growth = 0,
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		dodge = 5,
+		reload_growth = 0,
+		hit = 14,
+		torpedo = 75,
+		durability_growth = 0,
+		luck_growth = 0,
+		antiaircraft_growth = 0,
+		equipment_list = {
+			313093,
+			313094,
+			313095
+		},
+		specific_fx_scale = {}
 	},
 	[305100] = {
 		cannon = 50,
@@ -118941,9 +119032,9 @@ pg.enemy_data_statistics = {
 		luck_growth = 0,
 		antiaircraft_growth = 1200,
 		equipment_list = {
-			531033,
-			531034,
-			531035
+			470031,
+			470032,
+			470033
 		},
 		appear_fx = {
 			"appearQ"
@@ -119541,9 +119632,9 @@ pg.enemy_data_statistics = {
 		luck_growth = 0,
 		antiaircraft_growth = 1200,
 		equipment_list = {
-			531033,
-			531034,
-			531035
+			470031,
+			470032,
+			470033
 		},
 		appear_fx = {
 			"appearQ"
@@ -120141,9 +120232,9 @@ pg.enemy_data_statistics = {
 		luck_growth = 0,
 		antiaircraft_growth = 1200,
 		equipment_list = {
-			531033,
-			531034,
-			531035
+			471031,
+			471032,
+			471033
 		},
 		appear_fx = {
 			"appearQ"
@@ -120698,9 +120789,9 @@ pg.enemy_data_statistics = {
 		luck_growth = 0,
 		antiaircraft_growth = 1200,
 		equipment_list = {
-			531033,
-			531034,
-			531035
+			470031,
+			470032,
+			470033
 		},
 		appear_fx = {
 			"appearQ"
@@ -121546,9 +121637,9 @@ pg.enemy_data_statistics = {
 		luck_growth = 0,
 		antiaircraft_growth = 1200,
 		equipment_list = {
-			531033,
-			531034,
-			531035
+			470031,
+			470032,
+			470033
 		},
 		appear_fx = {
 			"appearQ"
@@ -122397,9 +122488,9 @@ pg.enemy_data_statistics = {
 		luck_growth = 0,
 		antiaircraft_growth = 1200,
 		equipment_list = {
-			531033,
-			531034,
-			531035
+			470031,
+			470032,
+			470033
 		},
 		appear_fx = {
 			"appearQ"
@@ -123245,9 +123336,9 @@ pg.enemy_data_statistics = {
 		luck_growth = 0,
 		antiaircraft_growth = 1200,
 		equipment_list = {
-			531033,
-			531034,
-			531035
+			470031,
+			470032,
+			470033
 		},
 		appear_fx = {
 			"appearQ"
@@ -124094,9 +124185,9 @@ pg.enemy_data_statistics = {
 		luck_growth = 0,
 		antiaircraft_growth = 1400,
 		equipment_list = {
-			531033,
-			531034,
-			531035
+			470031,
+			470032,
+			470033
 		},
 		appear_fx = {
 			"appearQ"
@@ -125230,9 +125321,9 @@ pg.enemy_data_statistics = {
 		antiaircraft_growth = 1200,
 		specific_fx_scale = {},
 		equipment_list = {
-			531033,
-			531034,
-			531035
+			470031,
+			470032,
+			470033
 		}
 	},
 	[10101005] = {
@@ -126146,9 +126237,9 @@ pg.enemy_data_statistics = {
 		antiaircraft_growth = 1200,
 		specific_fx_scale = {},
 		equipment_list = {
-			531033,
-			531034,
-			531035
+			471031,
+			471032,
+			471033
 		}
 	},
 	[10102005] = {
@@ -127174,9 +127265,9 @@ pg.enemy_data_statistics = {
 		antiaircraft_growth = 1400,
 		specific_fx_scale = {},
 		equipment_list = {
-			531033,
-			531034,
-			531035
+			472031,
+			472032,
+			472033
 		}
 	},
 	[10103005] = {
@@ -128090,9 +128181,9 @@ pg.enemy_data_statistics = {
 		antiaircraft_growth = 1400,
 		specific_fx_scale = {},
 		equipment_list = {
-			531033,
-			531034,
-			531035
+			473031,
+			473032,
+			473033
 		}
 	},
 	[10104005] = {
@@ -129118,9 +129209,9 @@ pg.enemy_data_statistics = {
 		antiaircraft_growth = 1400,
 		specific_fx_scale = {},
 		equipment_list = {
-			531033,
-			531034,
-			531035
+			473031,
+			473032,
+			473033
 		}
 	},
 	[10105005] = {
@@ -164749,6 +164840,8 @@ pg.enemy_data_statistics = {
 		3034,
 		3035,
 		3036,
+		3037,
+		3038,
 		305100,
 		305200,
 		305300,

@@ -187,6 +187,7 @@ function slot0.initTransCodePanel(slot0, slot1)
 	slot0.yostarEmailTxt = slot0:findTF("email_input_txt", slot0.yostarAlert)
 	slot0.yostarCodeTxt = slot0:findTF("code_input_txt", slot0.yostarAlert)
 	slot0.yostarGenCodeBtn = slot0:findTF("gen_code_btn", slot0.yostarAlert)
+	slot0.yostarGenTxt = slot0:findTF("Text", slot0.yostarGenCodeBtn)
 	slot0.yostarSureBtn = slot0:findTF("login_btn", slot0.yostarAlert)
 
 	slot0:checkTranscodeView()
@@ -821,17 +822,27 @@ function slot0.didEnter(slot0)
 	onButton(slot0, slot0.yostarGenCodeBtn, function ()
 		if getInputText(slot0.yostarEmailTxt) ~= "" then
 			VerificationCodeReq(slot0)
+			slot0:CheckAiriGenCodeCounter()
 		else
 			pg.TipsMgr:GetInstance():ShowTips(i18n("verification_code_req_tip1"))
 		end
 	end)
 	onButton(slot0, slot0.yostarSureBtn, function ()
-		slot0 = getInputText(slot0.yostarEmailTxt)
+		slot1 = getInputText(slot0.yostarCodeTxt)
 
-		pg.UIMgr.GetInstance():LoadingOn()
-		LinkSocial(AIRI_PLATFORM_YOSTAR, slot0, getInputText(slot0.yostarCodeTxt))
+		if getInputText(slot0.yostarEmailTxt) ~= "" and slot1 ~= "" then
+			pg.UIMgr.GetInstance():LoadingOn()
+			LinkSocial(AIRI_PLATFORM_YOSTAR, slot0, slot1)
+		else
+			pg.TipsMgr:GetInstance():ShowTips(i18n("verification_code_req_tip3"))
+		end
+
 		triggerButton(slot0.yostarAlert)
 	end)
+
+	if CSharpVersion > 24 then
+		slot0:CheckAiriGenCodeCounter()
+	end
 
 	if SFX_TEST then
 		setActive(slot0._cvTest, true)
@@ -1111,7 +1122,40 @@ function slot0.clearCV(slot0)
 	slot0._cvList = nil
 end
 
+function slot0.CheckAiriGenCodeCounter(slot0)
+	if GetAiriGenCodeTimeRemain() > 0 then
+		setButtonEnabled(slot0.yostarGenCodeBtn, false)
+
+		slot0.genCodeTimer = Timer.New(function ()
+			if GetAiriGenCodeTimeRemain() > 0 then
+				setText(slot0.yostarGenTxt, "(" .. slot0 .. ")")
+			else
+				setText(slot0.yostarGenTxt, "generate")
+				slot0:ClearAiriGenCodeTimer()
+			end
+		end, 1, -1):Start()
+	end
+end
+
+function slot0.ClearAiriGenCodeTimer(slot0)
+	if CSharpVersion < 24 then
+		return
+	end
+
+	setButtonEnabled(slot0.yostarGenCodeBtn, true)
+
+	if slot0.genCodeTimer then
+		slot0.genCodeTimer:Stop()
+
+		slot0.genCodeTimer = nil
+	end
+
+	return
+end
+
 function slot0.willExit(slot0)
+	slot0:ClearAiriGenCodeTimer()
+
 	if slot0.eventTriggers then
 		for slot4, slot5 in pairs(slot0.eventTriggers) do
 			ClearEventTrigger(slot4)
@@ -1129,6 +1173,8 @@ function slot0.willExit(slot0)
 
 	slot0.live2DDownloadTimer = nil
 	slot0.userProxy = nil
+
+	return
 end
 
 function slot0.resourceVerify(slot0)
@@ -1147,9 +1193,13 @@ function slot0.resourceVerify(slot0)
 				onYes = function ()
 					VersionMgr.Inst:DeleteCacheFiles()
 					Application.Quit()
+
+					return
 				end,
 				onNo = function ()
 					VersionMgr.Inst:DeleteCacheFiles()
+
+					return
 				end
 			})
 		else
@@ -1157,6 +1207,8 @@ function slot0.resourceVerify(slot0)
 				content = i18n("resource_verify_success")
 			})
 		end
+
+		return
 	end
 
 	slot6 = nil
@@ -1175,6 +1227,8 @@ function slot0.resourceVerify(slot0)
 		if PathMgr.FileExists(PathMgr.getAssetBundle(slot2)) and slot3 == HashUtil.CalcMD5(PathMgr.ReadAllBytes(PathMgr.getAssetBundle(slot2))) then
 			onNextTick(function ()
 				slot0(slot1 - 1)
+
+				return
 			end)
 
 			return
@@ -1183,7 +1237,11 @@ function slot0.resourceVerify(slot0)
 		slot5 = slot2
 
 		slot0()
+
+		return
 	end(PathMgr.ReadAllLines(slot0.repairHashPath).Length - 1)
+
+	return
 end
 
 return slot0

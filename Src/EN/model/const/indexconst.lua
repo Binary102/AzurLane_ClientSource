@@ -114,6 +114,7 @@ slot0.IndexTypes = {
 	slot0.IndexZhanLie,
 	slot0.IndexHangMu,
 	slot0.IndexWeiXiu,
+	slot0.IndexQianTing,
 	slot0.IndexOther
 }
 slot0.IndexSprites = {
@@ -126,6 +127,7 @@ slot0.IndexSprites = {
 	"index_shipType_zhanLie",
 	"index_shipType_hangMu",
 	"index_shipType_weiXiu",
+	"index_shipType_qianTing",
 	"index_other"
 }
 slot0.CampAll = 1

@@ -105,6 +105,8 @@ function slot8.InitData(slot0, slot1)
 	slot0._AOECount = 0
 	slot0._wallList = {}
 	slot0._wallIndex = 0
+	slot0._shelterList = {}
+	slot0._shelterIndex = 0
 	slot0._enemySubmarineCount = 0
 	slot0._airFighterList = {}
 	slot0._currentStageIndex = 1
@@ -447,6 +449,14 @@ function slot8.Update(slot0, slot1)
 	end
 
 	if slot0.checkCld then
+		for slot5, slot6 in pairs(slot0._shelterList) do
+			if not slot6:IsWallActive() then
+				slot0:RemoveShelter(slot6:GetUniqueID())
+			else
+				slot6:Update(slot1)
+			end
+		end
+
 		for slot5, slot6 in pairs(slot0._wallList) do
 			if slot6:IsActive() then
 				slot0._cldSystem:UpdateWallCld(slot6)
@@ -1306,8 +1316,6 @@ function slot8.SpawnWall(slot0, slot1, slot2, slot3, slot4)
 end
 
 function slot8.RemoveWall(slot0, slot1)
-	slot0._wallList[slot1].Dispose(slot2)
-
 	slot0._wallList[slot1] = nil
 
 	slot0._cldSystem:DeleteWallCld(slot0._wallList[slot1])
@@ -1319,10 +1327,33 @@ function slot8.GetWallList(slot0)
 	return slot0._wallList
 end
 
+function slot8.SpawnShelter(slot0, slot1, slot2)
+	slot0._shelterList[slot0:GernerateShelterID()] = slot0.Battle.BattleShelterData.New(slot3)
+
+	return slot0.Battle.BattleShelterData.New(slot3)
+end
+
+function slot8.RemoveShelter(slot0, slot1)
+	slot0:DispatchEvent(slot0.Event.New(slot1.REMOVE_SHELTER, {
+		uid = slot1
+	}))
+	slot0._shelterList[slot1].Deactive(slot2)
+
+	slot0._shelterList[slot1] = nil
+
+	return
+end
+
 function slot8.GenerateWallID(slot0)
 	slot0._wallIndex = slot0._wallIndex + 1
 
 	return slot0._wallIndex
+end
+
+function slot8.GernerateShelterID(slot0)
+	slot0._shelterIndex = slot0._shelterIndex + 1
+
+	return slot0._shelterIndex
 end
 
 function slot8.GetFriendlyCode(slot0)

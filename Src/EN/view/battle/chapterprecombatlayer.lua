@@ -212,16 +212,34 @@ function slot0.updateStageView(slot0, slot1)
 		end, SFX_PANEL)
 	end)
 	slot9:align(#slot6)
-	slot10(slot2.objective_1, findTF(slot0._goals, "goal_tpl"))
-	slot10(slot2.objective_2, findTF(slot0._goals, "goal_sink"))
-	function (slot0, slot1)
+
+	function slot10(slot0, slot1)
 		if type(slot0) == "table" then
 			setActive(slot1, true)
 			setWidgetText(slot1, i18n(PreCombatLayer.ObjectiveList[slot0[1]], slot0[2]))
 		else
 			setActive(slot1, false)
 		end
-	end(slot2.objective_3, findTF(slot0._goals, "goal_time"))
+	end
+
+	slot11 = {
+		findTF(slot0._goals, "goal_tpl"),
+		findTF(slot0._goals, "goal_sink"),
+		findTF(slot0._goals, "goal_time")
+	}
+	slot13 = 1
+
+	for slot17, slot18 in ipairs(slot12) do
+		if type(slot18) ~= "string" then
+			slot10(slot18, slot11[slot13])
+
+			slot13 = slot13 + 1
+		end
+	end
+
+	for slot17 = slot13, #slot11, 1 do
+		slot10("", slot11[slot17])
+	end
 end
 
 function slot0.updateBattleFleetView(slot0)

@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"来自{namecode:146}的温柔\n\n<size=30>一　秘书舰{namecode:146}</size>",
+					"Gentle and Sweet Ooshio!\n\n<size=30>Ooshio the Secretary</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			bgName = "star_level_bg_103",
 			side = 2,
 			dir = 1,
-			say = "微微的海风，初升的朝阳，清晨的港区一片寂静。",
+			say = "It was an ordinary morning. The cool sea breeze was blowing, the sun was gently rising, and the port was wrapped in silence.",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -47,7 +47,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "少女的身影行走在被露水浸湿的街道，向着指挥官指挥室的方向而去——",
+			say = "In the distance one could see the silhouette of a young girl walking with a cheerful gait, heading towards the Commander's office.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "港区·指挥室",
+			say = "Port - Office",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -86,7 +86,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "推开指挥室的门以后——",
+			say = "I opened the door to my office and—",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +96,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "？！",
+			say = "What the...?",
 			dialogShake = {
 				speed = 0.09,
 				x = 8.5,
@@ -111,7 +111,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "昨天晚上还有些杂乱的指挥室里，已经整洁如新，甚至比新的还新。",
+			say = "This place was a mess when I went home yesterday, but someone had thoroughly cleaned it up. It almost looked like a newly built apartment ready for an occupant.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "所有的物品整齐地摆放着，清洁的地面反着阳光，就连空气都似乎清新了许多。",
+			say = "Even the air smelled fresher than it usually did because all the furniture had been polished to a mirror sheen.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "而在办公桌的旁边，一位少女站在那里。",
+			say = "And in the center of the room was a young girl, silently standing around.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，早上好！我是今天到任的秘书舰{namecode:146}~",
+			say = "Mornin', Commander~ My name's Ooshio, I'm here to serve as yer secretary~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,7 +159,7 @@ return {
 			dir = 1,
 			actor = 301641,
 			nameColor = "#a9f548",
-			say = "{namecode:146}将拿在手上的扫帚放在了一旁的柜子里，向这边打着招呼。",
+			say = "As she greeted me, she left her broom on a shelf nearby.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,11 +170,11 @@ return {
 			},
 			options = {
 				{
-					content = "向{namecode:146}也道早安。",
+					content = "Greet her back",
 					flag = 1
 				},
 				{
-					content = "赞扬这完美的打扫工作。",
+					content = "Compliment her",
 					flag = 2
 				}
 			}
@@ -185,7 +185,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘿嘿，自作主张的做了下扫除，能给您带来好心情的话就好了。",
+			say = "*Giggle*, I know ya never asked me to clean the office, but I'm glad ya like its new look~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "来，指挥官请坐这边。",
+			say = "Now just sit down 'n relax, Commander~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,7 +215,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "坐在办公椅上，看着{namecode:146}跑到一旁，准备起了咖啡和小点心。",
+			say = "I sat down in my chair as Ooshio served me coffee and some biscuits.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不给指挥官的咖啡放太多糖了，健康是最重要的！",
+			say = "Ya oughta keep yer sugar intake low in order to stay healthy~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,7 +243,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "您的早餐要吃什么呢？是培根还是鸡蛋？干脆各来一点吧。",
+			say = "Whatcha want for breakfast? Bacon 'n eggs? Ya sure ya oughta have both?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +257,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "在如此细致入微的照顾之下，之后的工作也会变成享受吧。",
+			say = "It seemed like Ooshio was going to spoil me rotten before I could even start working.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			blackBg = true,
 			actor = 301641,
 			nameColor = "#a9f548",
-			say = "那么，从今天起，就要有好~多时间要在一起了哦！请多指教，指挥官~",
+			say = "I reckon we'll be spendin' a lotta time together from now on♪ Hope I can be of use to ya~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

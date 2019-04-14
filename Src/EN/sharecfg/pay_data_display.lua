@@ -960,6 +960,99 @@ pg.pay_data_display = {
 			}
 		}
 	},
+	[108] = {
+		limit_arg = 1,
+		descrip_extra = "*After your purchase, the Lucky Bag will be sent to your mailbox. \n*If you receive a ship skin that you already own, you will instead be given the corresponding skin's value in Gems.",
+		name = "Hanami Lucky Bag ",
+		descrip = "Contains 1 x random Ship skin (Hanami), 100 x Cognitive Chips, and other rewards",
+		subject = "Hanami Lucky Bag ",
+		extra_service = 3,
+		money = 2999,
+		tag = 1,
+		gem = 0,
+		limit_type = 2,
+		picture = "fudai54",
+		id_str = "com.yostaren.azurlane.diamond118",
+		first_pay_double = 0,
+		extra_gem = 0,
+		id = 108,
+		airijp_id = "com.yostaren.azurlane.diamond118",
+		extra_service_item = {
+			{
+				2,
+				59955,
+				1
+			},
+			{
+				1,
+				4,
+				2019
+			},
+			{
+				2,
+				15008,
+				100
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					11
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					25
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				59955,
+				1
+			},
+			{
+				1,
+				4,
+				2019
+			},
+			{
+				2,
+				15008,
+				100
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -976,7 +1069,8 @@ pg.pay_data_display = {
 		104,
 		105,
 		106,
-		107
+		107,
+		108
 	}
 }
 

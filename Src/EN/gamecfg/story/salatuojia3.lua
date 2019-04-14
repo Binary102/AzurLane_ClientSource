@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"Best Pictures!\n\n<size=30>Chapter 3: Sara's Day Off!",
+					"Best Pictures!\n\n<size=30>Chapter 3: Sara's Day Off!</size>",
 					1
 				}
 			}

@@ -11,21 +11,20 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"和姐姐的一日约会\n\n<size=30>四 休息时间，然后——</size>",
+					"A Date With Atago\n\n<size=30>Chapter 4: Rest Break, and then...</size>",
 					1
 				}
 			}
 		},
 		{
-			actorName = "{namecode:67}",
+			bgName = "bg_story_school",
 			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			bgName = "bg_story_school",
 			bgm = "story-1",
 			actor = 303121,
 			nameColor = "#a9f548",
-			say = "午饭也吃了，要买的东西也差不多了吧。还挺顺利的？",
+			say = "Everything on the shopping list is checked off, and we've even had lunch. Wouldn't you say our day has gone pretty smoothly?",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -53,13 +52,12 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
 			actor = 303121,
-			actorName = "{namecode:67}",
-			say = "呵呵，看看你，一脸“就这么回去好可惜”的表情，有没有什么想去的地方呢？",
+			nameColor = "#a9f548",
+			say = "*giggles* You look like you're not ready to head back just yet. It's written all over your face. Is there anywhere you'd still like to go?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,19 +68,18 @@ return {
 			},
 			options = {
 				{
-					content = "由{namecode:67}决定就好",
+					content = "Let Atago decide",
 					flag = 1
 				}
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			actor = 303121,
 			side = 2,
 			bgName = "bg_story_school",
+			nameColor = "#a9f548",
 			dir = 1,
-			actor = 303121,
-			actorName = "{namecode:67}",
-			say = "嗯……我不是说了今天交给你带路的吗？这样是要扣分的哦。",
+			say = "Didn't I say that you'd be escorting me today? That's going to cost you fifty points.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,13 +90,12 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			actor = 303121,
 			side = 2,
 			bgName = "bg_story_school",
+			nameColor = "#a9f548",
 			dir = 1,
-			actor = 303121,
-			actorName = "{namecode:67}",
-			say = "……说说而已，其实姐姐我倒是有点东西想看，你不妨……陪陪我吧？",
+			say = "But that's just talk... to be honest, there is somewhere I'd like to go. You wouldn't mind... following me for a little, would you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,13 +106,12 @@ return {
 			}
 		},
 		{
-			actorName = "{namecode:67}",
 			side = 2,
-			dir = 1,
 			bgName = "bg_story_school",
+			dir = 1,
 			actor = 303121,
 			nameColor = "#a9f548",
-			say = "门票，拿好。抱歉啊，让你陪着我到处跑。",
+			say = "Here, take this ticket. Sorry for making you run around so much today.",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -147,20 +142,19 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "莫名其妙地跟着到了电影院来陪她看电影……",
+			say = "After following her around for a while, we amazingly ended up in front of a movie theater...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			actor = 303121,
 			side = 2,
 			bgName = "bg_story_school",
+			nameColor = "#a9f548",
 			dir = 1,
-			actor = 303121,
-			actorName = "{namecode:67}",
-			say = "唉，好久没来看电影了呢。其实姐姐我挺喜欢这种爱情片的~",
+			say = "Ahh, this movie sure brings back memories~ Did you know that your big sister actually likes sappy romance flicks like this one~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,13 +165,12 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			actor = 303121,
 			side = 2,
 			bgName = "bg_story_school",
+			nameColor = "#a9f548",
 			dir = 1,
-			actor = 303121,
-			actorName = "{namecode:67}",
-			say = "……呃…………这…………该不会是我买错票了……？",
+			say = "Um... I didn't buy the wrong tickets... did I...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,20 +184,19 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "仔细一看，{namecode:67}买的票上写着“类型：恐怖”……",
+			say = "I examined the ticket closely. Printed ominously underneath the title were the words, \"GENRE: HORROR\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			actor = 303121,
 			side = 2,
 			bgName = "bg_story_school",
+			nameColor = "#a9f548",
 			dir = 1,
-			actor = 303121,
-			actorName = "{namecode:67}",
-			say = "嗯，嘛，这种偶尔也会看一看啦。好了指挥官，要开始了哦！",
+			say = "W-well... I suppose this makes for a nice change in pace. Commander, it's about to start~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,13 +207,12 @@ return {
 			}
 		},
 		{
-			actorName = "{namecode:67}",
 			side = 2,
 			dir = 1,
 			blackBg = true,
 			actor = 303121,
 			nameColor = "#a9f548",
-			say = "座位……嗯，就挨着坐好了，要是害怕的话可以扑到姐姐怀里来哦？",
+			say = "As for our seats... here, you can lean against me. If you get scared, you can always hug your big sister nice and tight~",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -249,13 +240,12 @@ return {
 			}
 		},
 		{
+			actor = 303121,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 303121,
-			actorName = "{namecode:67}",
-			say = "实在不行的话，中途退场也可以啊。本来就是我硬拉你来的……",
+			say = "If you absolutely can't handle it anymore, we can leave. After all, I was the one who dragged you here...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,13 +256,12 @@ return {
 			}
 		},
 		{
+			actor = 303121,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 303121,
-			actorName = "{namecode:67}",
-			say = "你可不要像{namecode:66}那样逞能哦。有什么事就和姐姐说知道吗？",
+			say = "You don't have to be stubborn like Takao. If you have something to say, just let your big sister know, okay?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +275,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "不知道是不是错觉，{namecode:67}的笑容看上去十分勉强。",
+			say = "It might have just been my imagination, but Atago's smile looked really, really forced.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

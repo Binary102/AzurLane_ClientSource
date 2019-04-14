@@ -9,7 +9,7 @@ return {
 			openUI = true,
 			action = {
 				say = {
-					text = "指挥官，我们收到了一条求救信号，一定是某个地方发生了不得了的事情",
+					text = "Commander, we've received a Distress Signal! Something terrible might've happened...",
 					style = {
 						posY = -110,
 						mode = 1,
@@ -29,7 +29,7 @@ return {
 			openUI = true,
 			action = {
 				say = {
-					text = "点击求救信号，就能查找到信号是从哪片海域发送出来的",
+					text = "Tap the Distress Signal button and search for the Signal's source!",
 					style = {
 						posY = -110,
 						mode = 1,
@@ -84,7 +84,7 @@ return {
 			openUI = true,
 			action = {
 				say = {
-					text = "我们找到了信号来源，快赶过去救助船队吧，如果一直没有救助，我们会失去这条信号",
+					text = "You found the source! Now, initiate a Rescue Mission immediately! If you dilly-dally, the Signal will disappear!",
 					style = {
 						posY = 0,
 						mode = 1,
@@ -148,7 +148,7 @@ return {
 			openUI = true,
 			action = {
 				say = {
-					text = "潜艇战斗相关的内容可以点击帮助按钮查看更详细的内容",
+					text = "You can tap the Help button for info on Anti-Sub combat!",
 					style = {
 						posY = -110,
 						mode = 1,

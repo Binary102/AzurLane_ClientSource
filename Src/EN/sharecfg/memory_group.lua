@@ -411,6 +411,28 @@ pg.memory_group = {
 			10035
 		}
 	},
+	[131] = {
+		title = "Ink-Stained Steel Sakura ",
+		type = 2,
+		id = 131,
+		icon = "title_event",
+		memories = {
+			10051,
+			10052,
+			10053,
+			10054,
+			10055,
+			10056,
+			10057,
+			10058,
+			10059,
+			10060,
+			10061,
+			10062,
+			10063,
+			10064
+		}
+	},
 	[132] = {
 		title = "Moonlit Overture ",
 		type = 2,
@@ -610,6 +632,21 @@ pg.memory_group = {
 			328
 		}
 	},
+	[512] = {
+		title = "A Date With Atago ",
+		type = 3,
+		id = 512,
+		icon = "title_chara_aidang",
+		memories = {
+			329,
+			330,
+			331,
+			332,
+			333,
+			334,
+			335
+		}
+	},
 	[513] = {
 		title = "Pure-White Poem ",
 		type = 3,
@@ -715,6 +752,21 @@ pg.memory_group = {
 			573
 		}
 	},
+	[532] = {
+		title = "Gentle and Sweet Ooshio!",
+		type = 3,
+		id = 532,
+		icon = "title_chara_dachao",
+		memories = {
+			585,
+			586,
+			587,
+			588,
+			589,
+			590,
+			591
+		}
+	},
 	[533] = {
 		title = "Ashigara, Advance! ",
 		type = 3,
@@ -816,6 +868,7 @@ pg.memory_group = {
 		124,
 		125,
 		128,
+		131,
 		132,
 		141,
 		145,
@@ -827,6 +880,7 @@ pg.memory_group = {
 		503,
 		504,
 		511,
+		512,
 		513,
 		525,
 		527,
@@ -834,6 +888,7 @@ pg.memory_group = {
 		529,
 		530,
 		531,
+		532,
 		533,
 		535,
 		536,

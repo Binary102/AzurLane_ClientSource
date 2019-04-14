@@ -216,6 +216,10 @@ function slot0.setMode(slot0)
 	setActive(slot0.eyeBtn, not slot0.isVisitMode)
 	setActive(slot0.clickTF, not slot0.isVisitMode)
 
+	if LOCK_SEC_FLOOR then
+		setActive(slot0.floorBtn, false)
+	end
+
 	if not slot0.isVisitMode then
 		onButton(slot0, slot0.helpBtn, function ()
 			pg.MsgboxMgr.GetInstance():ShowHelpWindow({

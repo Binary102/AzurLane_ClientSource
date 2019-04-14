@@ -13,7 +13,7 @@ return {
 			bgm = "nagato-map",
 			hideOther = true,
 			actorName = "{namecode:74}&{namecode:75}",
-			say = "呜...果然还是输了",
+			say = "Ugh, we lost... Even though we tried so hard...",
 			subActors = {
 				{
 					actor = 305051,
@@ -35,7 +35,7 @@ return {
 			actor = 305111,
 			side = 2,
 			dir = 1,
-			say = "虽然稍微上了点年纪，但是也还不至于输给你们这帮后辈们啊哈哈哈",
+			say = "I may be old, but I've still got it! Ahahahah!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -49,7 +49,7 @@ return {
 			actor = 305051,
 			side = 2,
 			dir = 1,
-			say = "{namecode:82}前辈",
+			say = "Mikasa...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			actor = 305111,
 			side = 2,
 			dir = 1,
-			say = "嗯？",
+			say = "So, did you enjoy yourself?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			actor = 305051,
 			side = 2,
 			dir = 1,
-			say = "谢谢您，这一战，让我成长了许多",
+			say = "I did. It was quite a learning experience as well.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			actor = 305051,
 			side = 2,
 			dir = 1,
-			say = "曾经的我...一直都像个人偶一般任人摆布...一直在担心自己表现得不够好会让别人失望",
+			say = "But... I still have much to learn. About combat, and about myself. I didn't want to be a disappointment to my people or my friends, so I worked strenuously...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			actor = 305051,
 			side = 2,
 			dir = 1,
-			say = "也因此失去了很多，甚至被人利用，引起了这场战争...这些都是我的错",
+			say = "I've lost so much, and I was manipulated into starting a war... Nobody can deny it's all my fault.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			actor = 305051,
 			side = 2,
 			dir = 1,
-			say = "如果现在有办法去弥补这个过错，希望你能告诉我...带领我们找到这个时代正确的分歧",
+			say = "However, the Spirits told me something important: that there is a divergence point in this timeline. And I want you to help me look for it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			actor = 305051,
 			side = 2,
 			dir = 1,
-			say = "我...不会再逃避了！",
+			say = "This time... I will not run away from myself!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,9 +146,9 @@ return {
 		{
 			actor = 900021,
 			side = 2,
-			actorName = "净化者",
+			actorName = "Purifier",
 			dir = 1,
-			say = "哎呀，说得真好~完全没有我可以插话的余地呢",
+			say = "Hey, look who figured it all out~ I didn't even need to butt in~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,10 +161,10 @@ return {
 		{
 			actor = 0,
 			side = 2,
-			actorName = "众人",
+			actorName = "Everyone",
 			withoutPainting = true,
 			dir = 1,
-			say = "！！什么时候？！",
+			say = "Where did you come from?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,9 +173,9 @@ return {
 		{
 			actor = 900021,
 			side = 2,
-			actorName = "净化者",
+			actorName = "Purifier",
 			dir = 1,
-			say = "情报果然说得没错呢...关键的孩子们都被逐渐聚集在了一起",
+			say = "The intel was right~ The \"divergence point,\" or whatever, in this timeline has brought you all in one place!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,7 +188,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "话音未落，{namecode:74}的一轮齐射炮弹就朝着净化者飞了过来，可是却被完美的闪开了",
+			say = "Nagato took aim at and fired the Siren, but she dodged it. Purifier didn't respond by preparing for combat, instead she turned to Nagato with a displeased look.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,32 +197,9 @@ return {
 		{
 			actor = 900021,
 			side = 2,
-			actorName = "净化者",
+			actorName = "Purifier",
 			dir = 1,
-			say = "小妹妹，刚睡醒就撒起床气可是不好的哦，我只是依据行动指令来这边给你们一点提示的",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			{
-				y = 10,
-				type = "shake",
-				delay = 0,
-				dur = 0.1,
-				x = 0,
-				number = 2
-			},
-			actor = 900021,
-			actorName = "净化者",
-			side = 2,
-			dir = 1,
-			say = "那个...璀璨的凛冬王冠加冕，墨染的钢铁之花绽放，众魂汇聚于无尽之海——将终末的序曲敲响",
+			say = "... Hey, could you not take out your anger on me just cause you woke up on the wrong side of the bed? I'm just here to give you a hint, buttercup!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,19 +210,26 @@ return {
 			}
 		},
 		{
-			{
-				y = 10,
-				type = "shake",
-				delay = 0,
-				dur = 0.1,
-				x = 0,
-				number = 2
-			},
 			actor = 900021,
-			actorName = "净化者",
 			side = 2,
+			actorName = "Purifier",
 			dir = 1,
-			say = "啊，这么中二的暗号到底是哪个子系统想出来的！说出来好丢人啊！",
+			say = "Let's see... \"When the Winter's Crown is donned, when the Steel Sakura blooms... the Souls' Transmigration will begin... and start the Final Prelude\"?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 900021,
+			side = 2,
+			actorName = "Purifier",
+			dir = 1,
+			say = "... Yikes, like straight out of a cringy fanfic. Who came up with this pretentious garbage? I'll need to go wash my eyes with bleach later!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +243,7 @@ return {
 			actor = 305051,
 			side = 2,
 			dir = 1,
-			say = "就是这些了吗？如果说完了的话......就请你安心的被我们击败吧！",
+			say = "Have you any more to say? If not... prepare to be engulfed by cannon fire!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

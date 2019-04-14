@@ -812,6 +812,13 @@ pg.item_medal_fetch = {
 		id = 158,
 		itemid = 18033
 	},
+	[171] = {
+		price = 20,
+		name = "深海潜航新手装备补给箱",
+		itemquantity = 2,
+		id = 171,
+		itemid = 30001
+	},
 	all = {
 		1,
 		2,
@@ -928,7 +935,8 @@ pg.item_medal_fetch = {
 		155,
 		156,
 		157,
-		158
+		158,
+		171
 	}
 }
 

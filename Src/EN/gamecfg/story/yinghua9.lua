@@ -11,22 +11,22 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"记住，不要轻易去接触那些凡人，这样会有失你的神格",
+					"Thou shalt not touch a human, for they would tarnish thy divinity.",
 					0
 				},
 				{
-					"    记住，不要轻易的露出笑容，要保持你在民众中的威严",
+					"Thou shalt not smile, for thou must maintain thy dignity.",
 					3
 				},
 				{
-					"        记住，这个世界上可以相信的，只有我们，你的创造者",
+					"Thou shalt not forget: the Creator is your only God.",
 					6
 				}
 			}
 		},
 		{
 			blackBg = true,
-			say = "……",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -36,7 +36,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "可是...吾也想和大家一样去战斗，只有吾们像这样待在后方，对大家来说不是太不公平了吗？...",
+			say = "\"... I want to help them! It isn't fair for our brethren fighting tooth and nail for our sake while we remain behind...!\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -46,7 +46,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "我...吾和{namecode:75}一直都是世界上最强大的战列舰不是吗？吾们...保证不会拖大家后腿的！",
+			say = "\"Mutsu and I are supposed to be the biggest, most powerful battleships! ... Please, you must let us go! I swear we shall not get in anyone's way!\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "不行！",
+			say = "\"Thou shalt stay!\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,7 +66,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "‘重樱的守护者’、‘世界第一的超级战舰’要是在前线出了三长两短，该怎么向民众解释！？",
+			say = "\"How wouldst thou explain thyself to thy people if thou, their Protector, the strongest battleship in the world, were ever injured in battle?!\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "可是......",
+			say = "\"But...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "过度的自我意识只会导致你的毁灭！",
+			say = "\"Excessive sympathy leadeth to one's own destruction.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +96,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "记住！你只要一切都服从我们的安排，这就是对重樱做出的最大贡献了！明白吗？",
+			say = "\"Thine duty to the Sakura Empire is to follow my orders. Is that clear?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "对，只需要和以往一样......",
+			say = "\"It is clear. Thus far, following your orders has been for the best.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			dir = 1,
 			bgm = "newyear",
 			actor = 305051,
-			say = "{namecode:75}",
+			say = "Mutsu...",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -150,7 +150,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "诶？",
+			say = "Yeah?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,7 +175,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "你说，桌上的这些人偶会不会也有自己的心智和灵魂呢？...",
+			say = "Do you see those dolls on the table? Do you think they, too, possess a heart and a soul?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "姐姐这是怎么啦~怎么会突然问出这么奇怪的问题",
+			say = "Who knows... What's the matter, Nagato?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +205,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "我一直在想...从我们被建造出来至今这二十年里，世界发生了翻天覆地的改变...",
+			say = "Since our creation, this world has changed completely.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -220,7 +220,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "你知道吗，在遥远的大洋彼岸，也有跟我们一样被冠与了BIG7头衔的5个孩子...",
+			say = "I'm sure you already know. Across the sea, there are ships just like us, the so-called \"Big Seven\"...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "啊——好想有机会能认识她们...如果能成为朋友就好了......",
+			say = "I pray that one day, we may meet and befriend them...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,7 +250,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "对了对了，说起来，最想做的事果然还是希望能跟她们较量一下呢...嘻嘻...",
+			say = "... But, more importantly, I pray that one day I may get to test their skill in combat. Ahah...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +275,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "哇，姐姐你笑了！",
+			say = "Hey! You smiled! I knew you could do it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,7 +290,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "啊，没有没有！我就是随便说说",
+			say = "W-what? I-I... I did not smile! I just had a s-slip of the tongue...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -315,7 +315,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "还记得我们上次一起出海做的亲善访问吗？未来一定会有机会的！",
+			say = "Still, remember that friendly visit we made a while ago? One day you'll surely have the chance to meet them!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -330,7 +330,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "嗯！未来我们也一直要在一起哦，我的妹妹~",
+			say = "Let us hope so... U-until then, Mutsu... you must promise to keep me company...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -346,7 +346,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			blackBg = true,
-			say = "嗯！",
+			say = "... Of course!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

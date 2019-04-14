@@ -5,17 +5,12 @@ pg.skin_page_template = {
 		name = "クリスマス",
 		res = "shengdan"
 	},
-	{
-		id = 2,
-		name = "お正月",
-		res = "xinnian"
-	},
-	{
+	[3] = {
 		id = 3,
 		name = "旧正月",
 		res = "qipao"
 	},
-	{
+	[4] = {
 		id = 4,
 		name = "学園",
 		res = "xiaoyuan"
@@ -37,7 +32,6 @@ pg.skin_page_template = {
 	},
 	all = {
 		1,
-		2,
 		3,
 		4,
 		6,

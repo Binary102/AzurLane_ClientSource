@@ -9,6 +9,7 @@ slot1 = {
 	reload = AttributeType.Reload,
 	luck = AttributeType.Expend,
 	motion = AttributeType.Dodge,
+	antisub = AttributeType.AntiSub,
 	oxy_max = AttributeType.OxyMax,
 	ammo = AttributeType.Ammo,
 	hunting_range = AttributeType.HuntingRange

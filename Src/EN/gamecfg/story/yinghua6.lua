@@ -16,7 +16,7 @@ return {
 				}
 			},
 			signDate = {
-				"——2年前，御神木海域",
+				"At the Sacred Sakura, after the war's outbreak",
 				0.2,
 				{
 					967,
@@ -25,8 +25,8 @@ return {
 			}
 		},
 		{
-			say = "御神木…开始枯萎了…民众的信仰…正在流失",
-			actorName = "{namecode:74}",
+			say = "The Sacred Sakura is withering... And the people are losing faith...",
+			actorName = "Nagato",
 			bgName = "bg_story_nagato2",
 			side = 0,
 			bgm = "story-2",
@@ -37,9 +37,9 @@ return {
 		},
 		{
 			side = 0,
-			actorName = "{namecode:75}",
+			actorName = "Mutsu",
 			bgName = "bg_story_nagato2",
-			say = "自从开战之后，这片海域就被塞壬包围了…说是要保护我们…",
+			say = "Nagato! Sirens have surrounded this place! I heard they're supposed to protect it, but then that means...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -47,9 +47,9 @@ return {
 		},
 		{
 			side = 0,
-			actorName = "{namecode:75}",
+			actorName = "Mutsu",
 			bgName = "bg_story_nagato2",
-			say = "啊啊，居然会跟塞壬联手！！真搞不懂那班家伙现在是怎么想的！",
+			say = "That we're cooperating with them! How did this happen?! What's everyone thinking?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,9 +57,9 @@ return {
 		},
 		{
 			side = 0,
-			actorName = "{namecode:74}",
+			actorName = "Nagato",
 			bgName = "bg_story_nagato2",
-			say = "……那个…",
+			say = "... Mutsu, I must tell you something...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,9 +67,9 @@ return {
 		},
 		{
 			side = 0,
-			actorName = "{namecode:74}",
+			actorName = "Nagato",
 			bgName = "bg_story_nagato2",
-			say = "就在前几天，我收到了撤下联合舰队旗舰职位的命令",
+			say = "A few days ago, I relinquished my position as the Combined Fleet's flagship.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,9 +77,9 @@ return {
 		},
 		{
 			side = 0,
-			actorName = "{namecode:75}",
+			actorName = "Mutsu",
 			bgName = "bg_story_nagato2",
-			say = "欸！——",
+			say = "You did WHAT?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,17 +87,7 @@ return {
 		},
 		{
 			bgName = "bg_story_nagato2",
-			say = "少女用惊讶的眼神盯着姐姐，然后很快的转为了愤怒的情绪",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 0,
-			actorName = "{namecode:74}",
-			bgName = "bg_story_nagato2",
-			say = "现在…已经是航空兵器决战的时代了，我们…果然不是被需要的…",
+			say = "A blend of shock and anger was welling up in the young girl's sister's eyes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,9 +95,9 @@ return {
 		},
 		{
 			side = 0,
-			actorName = "{namecode:75}",
+			actorName = "Nagato",
 			bgName = "bg_story_nagato2",
-			say = "那帮笨蛋！明明没有见识过我们真正的实力就擅自做出这种决定！",
+			say = "It is the age of aircraft carriers now. Soon there will likely be no need of us at all...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,17 +105,9 @@ return {
 		},
 		{
 			side = 0,
-			actorName = "{namecode:75}",
+			actorName = "Mutsu",
 			bgName = "bg_story_nagato2",
-			say = "我们好歹是名震世界的BIG7呀！我现在就去找他们要个说法去！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			bgName = "bg_story_nagato2",
-			say = "{namecode:74}挡在妹妹的面前，阻止了她",
+			say = "Those idiots! They don't even know what we're capable of, yet they go and do this!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,9 +115,17 @@ return {
 		},
 		{
 			side = 0,
-			actorName = "{namecode:74}",
+			actorName = "Mutsu",
 			bgName = "bg_story_nagato2",
-			say = "现在已经不是大舰巨炮的时代了…虽然很可惜，但是换个角度想，我终于可以卸下重担了…",
+			say = "We're part of the Big Seven! I have a thing or two to say to those idiots, right now!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			bgName = "bg_story_nagato2",
+			say = "The girl stretched both her arms out and stood in the way of her little sister.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,9 +133,9 @@ return {
 		},
 		{
 			side = 0,
-			actorName = "{namecode:74}",
+			actorName = "Nagato",
 			bgName = "bg_story_nagato2",
-			say = "自从开战后…每天…都能看到无数的灵魂消逝，重归轮回…我能感觉到，它们一直在试图向我述说什么…这一切…都是我的错——",
+			say = "Mutsu, it's over! Battleships have no place in this world anymore! ... It's unfortunate, but think of it this way: now that I'm no longer the flagship, I can focus my energy on trying to solve the problem we're facing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,9 +143,9 @@ return {
 		},
 		{
 			side = 0,
-			actorName = "{namecode:75}",
+			actorName = "Nagato",
 			bgName = "bg_story_nagato2",
-			say = "不，姐姐，这一开始就是他们的阴谋..无非是利用你的信仰力来实现了他们的目的罢了！",
+			say = "Every day since the war's outbreak, the Spirits... or, what the Sirens called \"quantum data,\" of our fallen people have been trying to tell me something... I know this is all my fault, but...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,9 +153,9 @@ return {
 		},
 		{
 			side = 0,
-			actorName = "{namecode:74}",
+			actorName = "Mutsu",
 			bgName = "bg_story_nagato2",
-			say = "谢谢你…不过…我现在只希望能好好的休息一下…希望你能明白",
+			say = "No, it's not your fault! Those people have been trying to use your powers for their own gain this whole time!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,9 +163,9 @@ return {
 		},
 		{
 			side = 0,
-			actorName = "{namecode:74}",
+			actorName = "Nagato",
 			bgName = "bg_story_nagato2",
-			say = "我会将自己封印在御神木下的结界里，在那里，我能看清灵魂的流动，也能明白它们究竟想告诉我什么…",
+			say = "I know they have! But it matters not... There is only one thing I can do to atone for my wrongdoings.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,9 +173,9 @@ return {
 		},
 		{
 			side = 0,
-			actorName = "{namecode:74}",
+			actorName = "Nagato",
 			bgName = "bg_story_nagato2",
-			say = "这也许是我最后能为它们所做的事了",
+			say = "Mutsu, I want you to seal me inside the Sacred Sakura. That way, I will be able to see the Spirits, and I may be able to learn something.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,9 +183,9 @@ return {
 		},
 		{
 			side = 0,
-			actorName = "{namecode:75}",
+			actorName = "Nagato",
 			bgName = "bg_story_nagato2",
-			say = "……",
+			say = "It is for the sake of the Sakura Empire.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,9 +193,9 @@ return {
 		},
 		{
 			side = 0,
-			actorName = "{namecode:74}",
+			actorName = "Mutsu",
 			bgName = "bg_story_nagato2",
-			say = "我已经拜托了一个可靠的伙伴来帮忙守护结界不被塞壬靠近了…所以，不需要为我担心",
+			say = "Nagato...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,9 +203,9 @@ return {
 		},
 		{
 			side = 0,
-			actorName = "{namecode:75}",
+			actorName = "Nagato",
 			bgName = "bg_story_nagato2",
-			say = "啊…难道是那个家伙吗？我可应付不来那个木头脑袋",
+			say = "I know what you're worried about, but it is fine. Someone I can trust will protect me. She won't let anyone near the Sacred Sakura.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,9 +213,9 @@ return {
 		},
 		{
 			side = 0,
-			actorName = "{namecode:74}",
+			actorName = "Mutsu",
 			bgName = "bg_story_nagato2",
-			say = "你们可要试着友好相处呀…对了…",
+			say = "You mean... that Shiratsuyu-class girl? She and I aren't exactly close friends...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,20 +223,30 @@ return {
 		},
 		{
 			side = 0,
-			actorName = "{namecode:75}",
+			actorName = "Nagato",
 			bgName = "bg_story_nagato2",
-			say = "嗯?",
+			say = "... You will make friends with her while I'm not here. And one last thing...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "{namecode:74}",
+			side = 0,
+			actorName = "Mutsu",
+			bgName = "bg_story_nagato2",
+			say = "What is it?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actorName = "Nagato",
 			side = 0,
 			bgName = "bg_story_nagato2",
 			blackBg = true,
-			say = "——谢谢你，我的妹妹",
+			say = "Thank you for everything you've done, Mutsu.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

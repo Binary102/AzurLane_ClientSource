@@ -4906,7 +4906,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"Time-Limited Construction",
+				"Light ship Construction",
 				{
 					""
 				},
@@ -5358,6 +5358,50 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[204] = {
+		nationality = 3,
+		hide = 0,
+		trans_skin = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		code = 204,
+		type = 4,
+		group_type = 30401,
+		trans_type = 0,
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"Event: Ink-Stained Steel Sakura",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[206] = {
+		nationality = 3,
+		hide = 0,
+		trans_skin = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		code = 206,
+		type = 4,
+		group_type = 30403,
+		trans_type = 0,
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"Event: Ink-Stained Steel Sakura",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[207] = {
 		nationality = 3,
 		hide = 0,
@@ -5473,15 +5517,24 @@ pg.ship_data_group = {
 	[210] = {
 		nationality = 3,
 		hide = 0,
-		trans_skin = 0,
+		trans_skin = 305039,
 		handbook_type = 0,
 		redirect_id = 101,
 		code = 210,
 		type = 5,
 		group_type = 30503,
 		trans_type = 10,
-		trans_radar_chart = {},
-		trans_skill = {},
+		trans_radar_chart = {
+			"B",
+			"E",
+			"C",
+			"D",
+			"A",
+			"B"
+		},
+		trans_skill = {
+			11610
+		},
 		description = {
 			{
 				"Event: Visitors Dyed in Red",
@@ -5495,18 +5548,71 @@ pg.ship_data_group = {
 	[211] = {
 		nationality = 3,
 		hide = 0,
-		trans_skin = 0,
+		trans_skin = 305049,
 		handbook_type = 0,
 		redirect_id = 101,
 		code = 211,
 		type = 5,
 		group_type = 30504,
 		trans_type = 10,
+		trans_radar_chart = {
+			"B",
+			"E",
+			"C",
+			"D",
+			"A",
+			"B"
+		},
+		trans_skill = {
+			11600
+		},
+		description = {
+			{
+				"Event: Visitors Dyed in Red",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[212] = {
+		nationality = 3,
+		hide = 0,
+		trans_skin = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		code = 212,
+		type = 5,
+		group_type = 30505,
+		trans_type = 0,
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
 			{
-				"Event: Visitors Dyed in Red",
+				"Event: Ink-Stained Steel Sakura",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[213] = {
+		nationality = 3,
+		hide = 0,
+		trans_skin = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		code = 213,
+		type = 5,
+		group_type = 30506,
+		trans_type = 0,
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"Event: Ink-Stained Steel Sakura",
 				{
 					""
 				},
@@ -5945,15 +6051,24 @@ pg.ship_data_group = {
 	[239] = {
 		nationality = 4,
 		hide = 0,
-		trans_skin = 0,
+		trans_skin = 402029,
 		handbook_type = 0,
 		redirect_id = 101,
 		code = 239,
 		type = 2,
 		group_type = 40202,
 		trans_type = 2,
-		trans_radar_chart = {},
-		trans_skill = {},
+		trans_radar_chart = {
+			"C",
+			"B",
+			"E",
+			"B",
+			"B",
+			"C"
+		},
+		trans_skill = {
+			2111
+		},
 		description = {
 			{
 				"Honor medal exchange",
@@ -6752,6 +6867,28 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[277] = {
+		nationality = 3,
+		hide = 0,
+		trans_skin = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		code = 277,
+		type = 1,
+		group_type = 30138,
+		trans_type = 0,
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"Event: Ink-Stained Steel Sakura",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[280] = {
 		nationality = 3,
 		hide = 0,
@@ -6777,6 +6914,28 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[288] = {
+		nationality = 3,
+		hide = 0,
+		trans_skin = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		code = 288,
+		type = 1,
+		group_type = 30149,
+		trans_type = 0,
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"Event: Ink-Stained Steel Sakura",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[295] = {
 		nationality = 3,
 		hide = 0,
@@ -6797,6 +6956,50 @@ pg.ship_data_group = {
 					{
 						chapterid = 904
 					}
+				},
+				0
+			}
+		}
+	},
+	[296] = {
+		nationality = 3,
+		hide = 0,
+		trans_skin = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		code = 296,
+		type = 1,
+		group_type = 30157,
+		trans_type = 0,
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"Event: Ink-Stained Steel Sakura",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[297] = {
+		nationality = 3,
+		hide = 0,
+		trans_skin = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		code = 297,
+		type = 1,
+		group_type = 30158,
+		trans_type = 0,
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"Event: Ink-Stained Steel Sakura",
+				{
+					""
 				},
 				0
 			}
@@ -7290,6 +7493,180 @@ pg.ship_data_group = {
 					"GETBOAT",
 					{
 						projectName = "light",
+						page = 1
+					}
+				},
+				0
+			}
+		}
+	},
+	[331] = {
+		nationality = 3,
+		hide = 0,
+		trans_skin = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		code = 331,
+		type = 1,
+		group_type = 30163,
+		trans_type = 0,
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"Event: Ink-Stained Steel Sakura",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[332] = {
+		nationality = 3,
+		hide = 0,
+		trans_skin = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		code = 332,
+		type = 1,
+		group_type = 30164,
+		trans_type = 0,
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"Event: Ink-Stained Steel Sakura",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[338] = {
+		nationality = 3,
+		hide = 0,
+		trans_skin = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		code = 338,
+		type = 8,
+		group_type = 30801,
+		trans_type = 0,
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"Special Construction",
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
+				},
+				0
+			}
+		}
+	},
+	[339] = {
+		nationality = 3,
+		hide = 0,
+		trans_skin = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		code = 339,
+		type = 8,
+		group_type = 30802,
+		trans_type = 0,
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"Special Construction",
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
+				},
+				0
+			}
+		}
+	},
+	[340] = {
+		nationality = 3,
+		hide = 0,
+		trans_skin = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		code = 340,
+		type = 8,
+		group_type = 30803,
+		trans_type = 0,
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"Special Construction",
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
+				},
+				0
+			}
+		}
+	},
+	[341] = {
+		nationality = 4,
+		hide = 0,
+		trans_skin = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		code = 341,
+		type = 8,
+		group_type = 40801,
+		trans_type = 0,
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"Special Construction",
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
+				},
+				0
+			}
+		}
+	},
+	[342] = {
+		nationality = 1,
+		hide = 0,
+		trans_skin = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		code = 342,
+		type = 8,
+		group_type = 10801,
+		trans_type = 0,
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"Special Construction",
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
 						page = 1
 					}
 				},
@@ -7904,12 +8281,16 @@ pg.ship_data_group = {
 		200,
 		201,
 		202,
+		204,
+		206,
 		207,
 		367,
 		208,
 		209,
 		210,
 		211,
+		212,
+		213,
 		368,
 		220,
 		222,
@@ -7955,8 +8336,12 @@ pg.ship_data_group = {
 		272,
 		274,
 		276,
+		277,
 		280,
+		288,
 		295,
+		296,
+		297,
 		299,
 		300,
 		301,
@@ -7976,6 +8361,13 @@ pg.ship_data_group = {
 		328,
 		329,
 		330,
+		331,
+		332,
+		338,
+		339,
+		340,
+		341,
+		342,
 		345,
 		362,
 		363,

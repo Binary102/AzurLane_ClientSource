@@ -11,7 +11,7 @@ return {
 			side = 2,
 			stopbgm = true,
 			dir = 1,
-			say = "原来当时真的只要上去说不定就能把她拍醒么，真是踏破铁鞋无觅处...",
+			say = "Okay, I'm really, really sorry for trying to rouse you from your slumber...!",
 			bgm = "nagato-boss",
 			typewriter = {
 				speed = 0.05,
@@ -25,7 +25,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "说完这句话，{namecode:96}感受到了两对充满杀气的视线...",
+			say = "Sensing a fiery fury within the eyes of the girl, Zuikaku panicked and began pleading for forgiveness.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -35,7 +35,7 @@ return {
 			actor = 305051,
 			side = 2,
 			dir = 1,
-			say = "五航战的双鹤姐妹啊，汝等此次前来是所为何事？",
+			say = "You must be Zuikaku of the 5th Carrier Division. What business have you with me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -49,7 +49,7 @@ return {
 			actor = 307061,
 			side = 2,
 			dir = 1,
-			say = "跟我们走吧！",
+			say = "... Head on the nail! You see, we need you on our side!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			actor = 305051,
 			side = 2,
 			dir = 1,
-			say = "我拒绝",
+			say = "I refuse!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			actor = 307061,
 			side = 2,
 			dir = 1,
-			say = "哇，这么干脆的吗？",
+			say = "Could you at least try it before you say no?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			actor = 305051,
 			side = 2,
 			dir = 1,
-			say = "那位大人吩咐过，余此生都将作为重樱的守护者，直到灵魂消亡...",
+			say = "I was tasked with ensuring the Sacred Sakura's safety. I shall remain here till my body turns to dust.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			actor = 305061,
 			side = 2,
 			dir = 1,
-			say = "姐姐...",
+			say = "Nagato, you...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			actor = 307061,
 			side = 2,
 			dir = 1,
-			say = "这是你自己的选择吗？",
+			say = "Did you make that decision of your own accord? Or was it forced on you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			actor = 305051,
 			side = 2,
 			dir = 1,
-			say = "我......余自己的选择...并不重要",
+			say = "I... It is for the sake of the Sakura Empire and her people, and to atone for my sins. My say is irrelevant.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			actor = 305111,
 			side = 2,
 			dir = 1,
-			say = "笨蛋！！",
+			say = "You fool!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			actor = 305051,
 			side = 2,
 			dir = 1,
-			say = "！！！",
+			say = "W-what?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			actor = 305111,
 			side = 2,
 			dir = 1,
-			say = "在这样风云变幻的时代，作为先进的战列舰，却只能在这里慢慢的等待消亡，简直是暴餮天物！",
+			say = "Do you not see how frivolous it is to sit here and rot away when a battleship of your caliber is more desirable than ever in these changing times?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			actor = 305051,
 			side = 2,
 			dir = 1,
-			say = "...您...您是...",
+			say = "I-is that...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			actor = 305051,
 			side = 2,
 			dir = 1,
-			say = "{namecode:82}...{namecode:82}前辈？！",
+			say = "Is that you, Mikasa?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			actor = 305111,
 			side = 2,
 			dir = 1,
-			say = "看看，这四座挺拔而又充满魄力的41CM双联装主炮，还有这高耸的舰桥和充满厚重感的装甲...哈啊...",
+			say = "Your 41 centimeter cannons make whole nations quiver, your bridge towers to the heavens, your armor deflects shells like they were stones...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,7 +260,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "{namecode:82}一边打量着{namecode:74}的舰装，一边以充满羡慕之情的口吻自言自语道",
+			say = "Trying to hide her envy, Mikasa whispered: \"... My envy of you cannot be adequately expressed! You are the finest example of a battleship!\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,7 +269,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "{namecode:74}原本勉强撑出的严肃表情瞬间被满脸红晕所填满，开始害羞的扭捏起来...",
+			say = "Nagato was trying to maintain her dignified appearance, but humbled by Mikasa's words, she loosened up.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -279,7 +279,7 @@ return {
 			actor = 305051,
 			side = 2,
 			dir = 1,
-			say = "{namecode:82}前辈...怎么会..出现在这里？",
+			say = "I-it's not as great as you think... But why are you here, Mikasa?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -293,7 +293,7 @@ return {
 			actor = 307061,
 			side = 2,
 			dir = 1,
-			say = "这个就说来话长了~哎呀，要不你还是跟我们走吧，我可以慢慢说给你听~",
+			say = "Uh, it's a long story, so why don't you come with us and we'll explain it on the way...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -306,7 +306,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "{namecode:74}无视了{namecode:96}，两眼依然死盯着{namecode:82}前辈",
+			say = "However, Nagato ignored what Zuikaku was saying.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -316,7 +316,7 @@ return {
 			actor = 305051,
 			side = 2,
 			dir = 1,
-			say = "{namecode:82}...{namecode:82}前辈，自从当年吾被选上联合舰队旗舰的职位后，就一直在钻研您的故事...",
+			say = "M-Mikasa, ever since I became the Combined Fleet's flagship, I've been trying to be like you...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -330,7 +330,7 @@ return {
 			actor = 305051,
 			side = 2,
 			dir = 1,
-			say = "吾曾经也一直希望能成为像你一样伟大的旗舰...但是...但是",
+			say = "I tried to be a magnificent flagship... And yet...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -344,7 +344,7 @@ return {
 			actor = 305111,
 			side = 2,
 			dir = 1,
-			say = "别说了，来打一场吧",
+			say = "Say no more. Have a battle with me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -358,7 +358,7 @@ return {
 			actor = 305051,
 			side = 2,
 			dir = 1,
-			say = "诶？...",
+			say = "Huh...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -382,7 +382,86 @@ return {
 			actor = 305111,
 			side = 2,
 			dir = 1,
-			say = "看到你的炮管时我就知道，这十几年里，你从来没有开过一次主炮",
+			say = "I needed only one look at your cannons to know it with certainty: you haven't fired them as much as once since your birth.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 305051,
+			side = 2,
+			dir = 1,
+			say = "Ah...!?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			say = "Mikasa's remark caused a single tear to form in the corner of one of Nagato's eyes.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 305111,
+			side = 2,
+			dir = 1,
+			say = "Battleships should know dearly the smell of the sea and gunpowder, not of trees and their own rusting hulls. I can't stand to see my successor stuck in a place like this.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 305111,
+			side = 2,
+			dir = 1,
+			say = "Sometimes, a battle can offer more insight into a person's character than a thousand of their words.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 305111,
+			side = 2,
+			dir = 1,
+			say = "You there, you must be her little sister. Why not join us for a bout?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 305061,
+			side = 2,
+			dir = 1,
+			say = "Sure! Hehehe~ I've been waiting so long for this day!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -407,98 +486,19 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
-			say = "仿佛说中了少女的心事一般，{namecode:74}的眼角泛起了淡淡的泪光",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 305111,
-			side = 2,
-			dir = 1,
-			say = "身为战舰，就应该享受驰骋大洋的荣耀感，我可不希望我的接班人以这么令人心疼的模样度过一生...",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 305111,
-			side = 2,
-			dir = 1,
-			say = "有的时候，来一场爽快的对决，比说什么都有用",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 305111,
-			side = 2,
-			dir = 1,
-			say = "怎么样，还有那边的孩子，一起来吧！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 305061,
-			side = 2,
-			dir = 1,
-			say = "哈哈～这一天我可是等了好久了！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 305051,
-			side = 2,
-			dir = 1,
-			say = "...",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
 			mode = 1,
 			stopbgm = true,
 			sequence = {
 				{
-					"记住，不要轻易去接触那些凡人，这样会有失你的神格",
+					"Thou shalt not touch a human, for they would tarnish thy divinity.",
 					0
 				},
 				{
-					"    记住，不要轻易的露出笑容，要保持你在民众中的威严",
+					"Thou shalt not smile, for thou must maintain thy dignity.",
 					3
 				},
 				{
-					"        记住，这个世界上可以相信的，只有我们，你的创造者",
+					"Thou shalt not forget: the Creator is your only God.",
 					6
 				}
 			}
@@ -508,7 +508,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "对不起，我从来就和那些所谓的凡人一样，也想有属于自己的朋友",
+			say = "Because I was made by humans, I desire bonds just like them.\t",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -523,7 +523,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "对不起，我曾经忘记了如何微笑，甚至忘记了身为一艘战列舰真正的威严",
+			say = "Dignity alone won't make my people admire me. At times, I must smile, too.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -538,7 +538,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "对不起，我的创造者们，这一次，你的孩子想要找到真正值得相信的东西",
+			say = "O, Creator, I beg of you: grant me new life as someone whom my people can believe in with all their heart.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -555,7 +555,7 @@ return {
 			bgName = "bg_story_nagato4",
 			bgm = "nagato-boss",
 			actor = 305051,
-			say = "来吧！就算没有实战经验，这一次我也会全力以赴！",
+			say = "Very well! Lacking in experience as I may be, I shall hold nothing back!",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -588,7 +588,7 @@ return {
 			bgName = "bg_story_nagato4",
 			withoutPainting = true,
 			dir = 1,
-			say = "来自东方的BIG7——{namecode:74}级战列舰，参上！",
+			say = "I am Nagato, Big Seven of the Sakura Empire! Prepare yourself!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

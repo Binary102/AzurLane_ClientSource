@@ -230,7 +230,7 @@ pg.skill_data_display = {
 	},
 	[2151] = {
 		id = 2151,
-		name = "均衡鱼雷"
+		name = "Impartial Destruction "
 	},
 	[2171] = {
 		id = 2171,
@@ -1166,11 +1166,11 @@ pg.skill_data_display = {
 	},
 	[11330] = {
 		id = 11330,
-		name = "荣光的一番舰"
+		name = "Roaring Glory"
 	},
 	[11340] = {
 		id = 11340,
-		name = "烈光的武勋舰"
+		name = "Dazzling Dawn"
 	},
 	[11350] = {
 		id = 11350,
@@ -1186,15 +1186,15 @@ pg.skill_data_display = {
 	},
 	[11380] = {
 		id = 11380,
-		name = "Curtain Call"
+		name = "Departing Strike"
 	},
 	[11381] = {
 		id = 11381,
-		name = "Curtain Call"
+		name = "Departing Strike"
 	},
 	[11390] = {
 		id = 11390,
-		name = "Silent Hunter"
+		name = "Silent Hunter "
 	},
 	[11400] = {
 		id = 11400,
@@ -1202,15 +1202,15 @@ pg.skill_data_display = {
 	},
 	[11410] = {
 		id = 11410,
-		name = "Wolf Pack Formation - U81"
+		name = "Wolf Pack Formation - U81 "
 	},
 	[11420] = {
 		id = 11420,
-		name = "BIG SEVEN-樱"
+		name = "Big Seven: Sakura"
 	},
 	[11430] = {
 		id = 11430,
-		name = "BIG SEVEN-樱"
+		name = "Big Seven: Sakura"
 	},
 	[11440] = {
 		id = 11440,
@@ -1306,11 +1306,11 @@ pg.skill_data_display = {
 	},
 	[11611] = {
 		id = 11611,
-		name = "航空战队"
+		name = "Aviation Battleship Fleet"
 	},
 	[11612] = {
 		id = 11612,
-		name = "航空战队"
+		name = "Aviation Battleship Fleet"
 	},
 	[11620] = {
 		id = 11620,
@@ -1668,6 +1668,14 @@ pg.skill_data_display = {
 		id = 20272,
 		name = "All Out Assault Ⅱ"
 	},
+	[20311] = {
+		id = 20311,
+		name = "All Out Assault Ⅰ"
+	},
+	[20312] = {
+		id = 20312,
+		name = "All Out Assault Ⅱ"
+	},
 	[21011] = {
 		id = 21011,
 		name = "All Out Assault Ⅰ"
@@ -1990,7 +1998,7 @@ pg.skill_data_display = {
 	},
 	[22253] = {
 		id = 22253,
-		name = "All Out Assault - Variant"
+		name = "All Out Assault - Retrofit"
 	},
 	[22261] = {
 		id = 22261,
@@ -1998,6 +2006,14 @@ pg.skill_data_display = {
 	},
 	[22262] = {
 		id = 22262,
+		name = "All Out Assault Ⅱ"
+	},
+	[22311] = {
+		id = 22311,
+		name = "All Out Assault Ⅰ"
+	},
+	[22312] = {
+		id = 22312,
 		name = "All Out Assault Ⅱ"
 	},
 	[23011] = {
@@ -2312,13 +2328,29 @@ pg.skill_data_display = {
 		id = 29252,
 		name = "EX Barrage: Saint Louis Ⅱ"
 	},
+	[29261] = {
+		id = 29261,
+		name = "All Out Assault Ⅰ"
+	},
+	[29262] = {
+		id = 29262,
+		name = "All Out Assault Ⅱ"
+	},
+	[29271] = {
+		id = 29271,
+		name = "All Out Assault Ⅰ"
+	},
+	[29272] = {
+		id = 29272,
+		name = "All Out Assault Ⅱ"
+	},
 	[29281] = {
 		id = 29281,
-		name = "专属弹幕-{namecode:158}I"
+		name = "All Out Assault Ⅰ"
 	},
 	[29282] = {
 		id = 29282,
-		name = "专属弹幕-{namecode:158}II"
+		name = "All Out Assault Ⅱ"
 	},
 	[29291] = {
 		id = 29291,
@@ -2874,6 +2906,8 @@ pg.skill_data_display = {
 		20262,
 		20271,
 		20272,
+		20311,
+		20312,
 		21011,
 		21012,
 		21021,
@@ -2957,6 +2991,8 @@ pg.skill_data_display = {
 		22253,
 		22261,
 		22262,
+		22311,
+		22312,
 		23011,
 		23012,
 		23031,
@@ -3035,6 +3071,10 @@ pg.skill_data_display = {
 		29242,
 		29251,
 		29252,
+		29261,
+		29262,
+		29271,
+		29272,
 		29281,
 		29282,
 		29291,

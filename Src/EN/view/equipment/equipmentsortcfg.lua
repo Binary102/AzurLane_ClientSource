@@ -31,7 +31,8 @@ return {
 				1
 			},
 			types = {
-				EquipType.Torpedo
+				EquipType.Torpedo,
+				EquipType.SubmarineTorpedo
 			}
 		},
 		{
@@ -66,7 +67,8 @@ return {
 			},
 			types = {
 				EquipType.Equipment,
-				EquipType.AntiSubAircraft
+				EquipType.AntiSubAircraft,
+				EquipType.Sonar
 			}
 		}
 	},

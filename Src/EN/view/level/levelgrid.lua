@@ -507,11 +507,6 @@ function slot2(slot0)
 		slot5(slot6, slot7)
 	end
 
-	slot6 = slot0
-	slot5 = slot0.frozen
-
-	slot5(slot6)
-
 	slot6 = slot3
 	slot5 = slot3.Find
 	slot7 = "display"
@@ -520,489 +515,476 @@ function slot2(slot0)
 	slot6 = slot5.Find
 	slot8 = "mask/sea"
 	slot6 = slot6(slot7, slot8)
-	slot7 = setImageAlpha
-	slot8 = slot6
-	slot9 = 0
-
-	slot7(slot8, slot9)
-
-	slot7 = GetSpriteFromAtlasAsync
+	slot7 = GetSpriteFromAtlas
 	slot8 = "chapter/pic/"
 	slot9 = slot2.assetSea
 	slot8 = slot8 .. slot9
 	slot9 = slot2.assetSea
+	slot7 = slot7(slot8, slot9)
 
-	function slot10(slot0)
-		slot1 = setImageSprite
-		slot2 = slot0
-		slot3 = slot0
-		slot4 = false
+	if slot7 then
+		slot8 = setImageSprite
+		slot9 = slot6
+		slot10 = slot7
+		slot11 = false
 
-		slot1(slot2, slot3, slot4)
+		slot8(slot9, slot10, slot11)
 
-		slot1 = setImageAlpha
-		slot2 = slot0
-		slot3 = 1
+		slot8 = setImageAlpha
+		slot9 = slot6
+		slot10 = 1
 
-		slot1(slot2, slot3)
-
-		slot1 = slot1
-		slot2 = slot1
-		slot1 = slot1.unfrozen
-
-		slot1(slot2)
+		slot8(slot9, slot10)
 	end
 
-	slot7(slot8, slot9, slot10)
-
-	slot7 = Vector2
-	slot8 = 10000
-	slot9 = 10000
-	slot7 = slot7(slot8, slot9)
 	slot8 = Vector2
-	slot8 = slot8.zero
+	slot9 = 10000
+	slot10 = 10000
+	slot8 = slot8(slot9, slot10)
 	slot9 = Vector2
-	slot10 = ChapterConst
-	slot10 = slot10.MaxColumn
-	slot11 = ChapterConst
-	slot11 = slot11.MaxRow
-	slot9 = slot9(slot10, slot11)
+	slot9 = slot9.zero
 	slot10 = Vector2
 	slot11 = ChapterConst
 	slot11 = slot11.MaxColumn
-	slot11 = -slot11
 	slot12 = ChapterConst
 	slot12 = slot12.MaxRow
-	slot12 = -slot12
 	slot10 = slot10(slot11, slot12)
-	slot11 = 0
+	slot11 = Vector2
 	slot12 = ChapterConst
-	slot12 = slot12.MaxRow
-	slot12 = slot12 - 1
-	slot13 = 1
+	slot12 = slot12.MaxColumn
+	slot12 = -slot12
+	slot13 = ChapterConst
+	slot13 = slot13.MaxRow
+	slot13 = -slot13
+	slot11 = slot11(slot12, slot13)
+	slot12 = 0
+	slot13 = ChapterConst
+	slot13 = slot13.MaxRow
+	slot13 = slot13 - 1
+	slot14 = 1
 
-	for slot14 = slot11, slot12, slot13 do
-		slot15 = 0
-		slot16 = ChapterConst
-		slot16 = slot16.MaxColumn
-		slot16 = slot16 - 1
-		slot17 = 1
+	for slot15 = slot12, slot13, slot14 do
+		slot16 = 0
+		slot17 = ChapterConst
+		slot17 = slot17.MaxColumn
+		slot17 = slot17 - 1
+		slot18 = 1
 
-		for slot18 = slot15, slot16, slot17 do
-			slot19 = ChapterCell
-			slot19 = slot19.Line2Name
-			slot20 = slot14
-			slot21 = slot18
-			slot19 = slot19(slot20, slot21)
-			slot21 = slot1
-			slot20 = slot1.getChapterCell
-			slot22 = slot14
-			slot23 = slot18
-			slot20 = slot20(slot21, slot22, slot23)
+		for slot19 = slot16, slot17, slot18 do
+			slot20 = ChapterCell
+			slot20 = slot20.Line2Name
+			slot21 = slot15
+			slot22 = slot19
+			slot20 = slot20(slot21, slot22)
+			slot22 = slot1
+			slot21 = slot1.getChapterCell
+			slot23 = slot15
+			slot24 = slot19
+			slot21 = slot21(slot22, slot23, slot24)
 
-			if slot20 then
-				slot21 = math
-				slot21 = slot21.min
-				slot22 = slot7.x
-				slot23 = slot18
-				slot21 = slot21(slot22, slot23)
-				slot7.x = slot21
-				slot21 = math
-				slot21 = slot21.min
-				slot22 = slot7.y
-				slot23 = ChapterConst
-				slot23 = slot23.MaxRow
-				slot23 = slot23 * 0.5
-				slot23 = slot23 - slot14
-				slot23 = slot23 - 1
-				slot21 = slot21(slot22, slot23)
-				slot7.y = slot21
-				slot21 = math
-				slot21 = slot21.min
-				slot22 = slot9.x
-				slot23 = slot18
-				slot21 = slot21(slot22, slot23)
-				slot9.x = slot21
-				slot21 = math
-				slot21 = slot21.min
-				slot22 = slot9.y
-				slot23 = slot14
-				slot21 = slot21(slot22, slot23)
-				slot9.y = slot21
-				slot21 = math
-				slot21 = slot21.max
-				slot22 = slot10.x
-				slot23 = slot18
-				slot21 = slot21(slot22, slot23)
-				slot10.x = slot21
-				slot21 = math
-				slot21 = slot21.max
-				slot22 = slot10.y
-				slot23 = slot14
-				slot21 = slot21(slot22, slot23)
-				slot10.y = slot21
+			if slot21 then
+				slot22 = math
+				slot22 = slot22.min
+				slot23 = slot8.x
+				slot24 = slot19
+				slot22 = slot22(slot23, slot24)
+				slot8.x = slot22
+				slot22 = math
+				slot22 = slot22.min
+				slot23 = slot8.y
+				slot24 = ChapterConst
+				slot24 = slot24.MaxRow
+				slot24 = slot24 * 0.5
+				slot24 = slot24 - slot15
+				slot24 = slot24 - 1
+				slot22 = slot22(slot23, slot24)
+				slot8.y = slot22
+				slot22 = math
+				slot22 = slot22.min
+				slot23 = slot10.x
+				slot24 = slot19
+				slot22 = slot22(slot23, slot24)
+				slot10.x = slot22
+				slot22 = math
+				slot22 = slot22.min
+				slot23 = slot10.y
+				slot24 = slot15
+				slot22 = slot22(slot23, slot24)
+				slot10.y = slot22
+				slot22 = math
+				slot22 = slot22.max
+				slot23 = slot11.x
+				slot24 = slot19
+				slot22 = slot22(slot23, slot24)
+				slot11.x = slot22
+				slot22 = math
+				slot22 = slot22.max
+				slot23 = slot11.y
+				slot24 = slot15
+				slot22 = slot22(slot23, slot24)
+				slot11.y = slot22
 			end
 		end
 	end
 
-	slot11 = slot2.cellSize
-	slot12 = slot2.cellSpace
-	slot11 = slot11 + slot12
-	slot12 = slot7.x
+	slot12 = slot2.cellSize
+	slot13 = slot2.cellSpace
+	slot12 = slot12 + slot13
+	slot13 = slot8.x
+	slot14 = slot12.x
+	slot13 = slot13 * slot14
+	slot8.x = slot13
+	slot13 = slot8.y
+	slot14 = slot12.y
+	slot13 = slot13 * slot14
+	slot8.y = slot13
 	slot13 = slot11.x
-	slot12 = slot12 * slot13
-	slot7.x = slot12
-	slot12 = slot7.y
+	slot14 = slot10.x
+	slot13 = slot13 - slot14
+	slot13 = slot13 + 1
+	slot14 = slot12.x
+	slot13 = slot13 * slot14
+	slot9.x = slot13
 	slot13 = slot11.y
-	slot12 = slot12 * slot13
-	slot7.y = slot12
-	slot12 = slot10.x
-	slot13 = slot9.x
-	slot12 = slot12 - slot13
-	slot12 = slot12 + 1
-	slot13 = slot11.x
-	slot12 = slot12 * slot13
-	slot8.x = slot12
-	slot12 = slot10.y
-	slot13 = slot9.y
-	slot12 = slot12 - slot13
-	slot12 = slot12 + 1
-	slot13 = slot11.y
-	slot12 = slot12 * slot13
-	slot8.y = slot12
-	slot12 = slot8 * 0.5
-	slot12 = slot7 + slot12
-	slot5.anchoredPosition = slot12
-	slot5.sizeDelta = slot8
-	slot12 = Vector2
-	slot13 = math
-	slot13 = slot13.floor
-	slot14 = slot5.sizeDelta
-	slot14 = slot14.x
-	slot15 = slot11.x
-	slot14 = slot14 / slot15
-	slot13 = slot13(slot14)
+	slot14 = slot10.y
+	slot13 = slot13 - slot14
+	slot13 = slot13 + 1
+	slot14 = slot12.y
+	slot13 = slot13 * slot14
+	slot9.y = slot13
+	slot13 = slot9 * 0.5
+	slot13 = slot8 + slot13
+	slot5.anchoredPosition = slot13
+	slot5.sizeDelta = slot9
+	slot13 = Vector2
 	slot14 = math
 	slot14 = slot14.floor
 	slot15 = slot5.sizeDelta
-	slot15 = slot15.y
-	slot16 = slot11.y
+	slot15 = slot15.x
+	slot16 = slot12.x
 	slot15 = slot15 / slot16
-	slot12 = slot12(slot13, slot14(slot15))
-	slot14 = slot5
-	slot13 = slot5.Find
-	slot15 = "ABC"
-	slot13 = slot13(slot14, slot15)
-	slot15 = slot13
-	slot14 = slot13.GetChild
-	slot16 = 0
+	slot14 = slot14(slot15)
+	slot15 = math
+	slot15 = slot15.floor
+	slot16 = slot5.sizeDelta
+	slot16 = slot16.y
+	slot17 = slot12.y
+	slot16 = slot16 / slot17
+	slot13 = slot13(slot14, slot15(slot16))
+	slot15 = slot5
+	slot14 = slot5.Find
+	slot16 = "ABC"
 	slot14 = slot14(slot15, slot16)
-	slot16 = slot13
-	slot15 = slot13.GetComponent
-	slot17 = typeof
-	slot18 = GridLayoutGroup
-	slot15 = slot15(slot16, slot17(slot18))
-	slot16 = Vector2
-	slot17 = slot2.cellSize
-	slot17 = slot17.x
+	slot16 = slot14
+	slot15 = slot14.GetChild
+	slot17 = 0
+	slot15 = slot15(slot16, slot17)
+	slot17 = slot14
+	slot16 = slot14.GetComponent
+	slot18 = typeof
+	slot19 = GridLayoutGroup
+	slot16 = slot16(slot17, slot18(slot19))
+	slot17 = Vector2
 	slot18 = slot2.cellSize
-	slot18 = slot18.y
-	slot16 = slot16(slot17, slot18)
-	slot15.cellSize = slot16
-	slot16 = Vector2
-	slot17 = slot2.cellSpace
-	slot17 = slot17.x
-	slot18 = slot2.cellSpace
-	slot18 = slot18.y
-	slot16 = slot16(slot17, slot18)
-	slot15.spacing = slot16
-	slot16 = slot15.padding
-	slot17 = slot2.cellSpace
-	slot17 = slot17.x
-	slot16.left = slot17
-	slot16 = slot13.childCount
-	slot16 = slot16 - 1
-	slot17 = slot12.x
-	slot18 = -1
-
-	for slot19 = slot16, slot17, slot18 do
-		slot20 = Destroy
-		slot22 = slot13
-		slot21 = slot13.GetChild
-		slot23 = slot19
-
-		slot20(slot21(slot22, slot23))
-	end
-
-	slot16 = slot13.childCount
-	slot17 = slot12.x
-	slot17 = slot17 - 1
-	slot18 = 1
-
-	for slot19 = slot16, slot17, slot18 do
-		slot20 = Instantiate
-		slot21 = slot14
-		slot20 = slot20(slot21)
-		slot20 = slot20.transform
-		slot21 = slot20
-		slot20 = slot20.SetParent
-		slot22 = slot13
-		slot23 = false
-
-		slot20(slot21, slot22, slot23)
-	end
-
-	slot16 = 0
-	slot17 = slot12.x
-	slot17 = slot17 - 1
-	slot18 = 1
-
-	for slot19 = slot16, slot17, slot18 do
-		slot20 = setText
-		slot22 = slot13
-		slot21 = slot13.GetChild
-		slot23 = slot19
-		slot21 = slot21(slot22, slot23)
-		slot22 = string
-		slot22 = slot22.char
-		slot23 = string
-		slot23 = slot23.byte
-		slot24 = "A"
-		slot23 = slot23(slot24)
-		slot23 = slot23 + slot19
-
-		slot20(slot21, slot22(slot23))
-	end
-
-	slot17 = slot5
-	slot16 = slot5.Find
-	slot18 = "123"
-	slot16 = slot16(slot17, slot18)
-	slot18 = slot16
-	slot17 = slot16.GetChild
-	slot19 = 0
+	slot18 = slot18.x
+	slot19 = slot2.cellSize
+	slot19 = slot19.y
 	slot17 = slot17(slot18, slot19)
-	slot19 = slot16
-	slot18 = slot16.GetComponent
-	slot20 = typeof
-	slot21 = GridLayoutGroup
-	slot18 = slot18(slot19, slot20(slot21))
-	slot19 = Vector2
-	slot20 = slot2.cellSize
-	slot20 = slot20.x
+	slot16.cellSize = slot17
+	slot17 = Vector2
+	slot18 = slot2.cellSpace
+	slot18 = slot18.x
+	slot19 = slot2.cellSpace
+	slot19 = slot19.y
+	slot17 = slot17(slot18, slot19)
+	slot16.spacing = slot17
+	slot17 = slot16.padding
+	slot18 = slot2.cellSpace
+	slot18 = slot18.x
+	slot17.left = slot18
+	slot17 = slot14.childCount
+	slot17 = slot17 - 1
+	slot18 = slot13.x
+	slot19 = -1
+
+	for slot20 = slot17, slot18, slot19 do
+		slot21 = Destroy
+		slot23 = slot14
+		slot22 = slot14.GetChild
+		slot24 = slot20
+
+		slot21(slot22(slot23, slot24))
+	end
+
+	slot17 = slot14.childCount
+	slot18 = slot13.x
+	slot18 = slot18 - 1
+	slot19 = 1
+
+	for slot20 = slot17, slot18, slot19 do
+		slot21 = Instantiate
+		slot22 = slot15
+		slot21 = slot21(slot22)
+		slot21 = slot21.transform
+		slot22 = slot21
+		slot21 = slot21.SetParent
+		slot23 = slot14
+		slot24 = false
+
+		slot21(slot22, slot23, slot24)
+	end
+
+	slot17 = 0
+	slot18 = slot13.x
+	slot18 = slot18 - 1
+	slot19 = 1
+
+	for slot20 = slot17, slot18, slot19 do
+		slot21 = setText
+		slot23 = slot14
+		slot22 = slot14.GetChild
+		slot24 = slot20
+		slot22 = slot22(slot23, slot24)
+		slot23 = string
+		slot23 = slot23.char
+		slot24 = string
+		slot24 = slot24.byte
+		slot25 = "A"
+		slot24 = slot24(slot25)
+		slot24 = slot24 + slot20
+
+		slot21(slot22, slot23(slot24))
+	end
+
+	slot18 = slot5
+	slot17 = slot5.Find
+	slot19 = "123"
+	slot17 = slot17(slot18, slot19)
+	slot19 = slot17
+	slot18 = slot17.GetChild
+	slot20 = 0
+	slot18 = slot18(slot19, slot20)
+	slot20 = slot17
+	slot19 = slot17.GetComponent
+	slot21 = typeof
+	slot22 = GridLayoutGroup
+	slot19 = slot19(slot20, slot21(slot22))
+	slot20 = Vector2
 	slot21 = slot2.cellSize
-	slot21 = slot21.y
-	slot19 = slot19(slot20, slot21)
-	slot18.cellSize = slot19
-	slot19 = Vector2
-	slot20 = slot2.cellSpace
-	slot20 = slot20.x
+	slot21 = slot21.x
+	slot22 = slot2.cellSize
+	slot22 = slot22.y
+	slot20 = slot20(slot21, slot22)
+	slot19.cellSize = slot20
+	slot20 = Vector2
+	slot21 = slot2.cellSpace
+	slot21 = slot21.x
+	slot22 = slot2.cellSpace
+	slot22 = slot22.y
+	slot20 = slot20(slot21, slot22)
+	slot19.spacing = slot20
+	slot20 = slot19.padding
 	slot21 = slot2.cellSpace
 	slot21 = slot21.y
-	slot19 = slot19(slot20, slot21)
-	slot18.spacing = slot19
-	slot19 = slot18.padding
-	slot20 = slot2.cellSpace
-	slot20 = slot20.y
-	slot19.top = slot20
-	slot19 = slot16.childCount
-	slot19 = slot19 - 1
-	slot20 = slot12.y
-	slot21 = -1
-
-	for slot22 = slot19, slot20, slot21 do
-		slot23 = Destroy
-		slot25 = slot16
-		slot24 = slot16.GetChild
-		slot26 = slot22
-
-		slot23(slot24(slot25, slot26))
-	end
-
-	slot19 = slot16.childCount
-	slot20 = slot12.y
+	slot20.top = slot21
+	slot20 = slot17.childCount
 	slot20 = slot20 - 1
-	slot21 = 1
+	slot21 = slot13.y
+	slot22 = -1
 
-	for slot22 = slot19, slot20, slot21 do
-		slot23 = Instantiate
-		slot24 = slot17
-		slot23 = slot23(slot24)
-		slot23 = slot23.transform
-		slot24 = slot23
-		slot23 = slot23.SetParent
-		slot25 = slot16
-		slot26 = false
+	for slot23 = slot20, slot21, slot22 do
+		slot24 = Destroy
+		slot26 = slot17
+		slot25 = slot17.GetChild
+		slot27 = slot23
 
-		slot23(slot24, slot25, slot26)
+		slot24(slot25(slot26, slot27))
 	end
 
-	slot19 = 0
-	slot20 = slot12.y
-	slot20 = slot20 - 1
-	slot21 = 1
+	slot20 = slot17.childCount
+	slot21 = slot13.y
+	slot21 = slot21 - 1
+	slot22 = 1
 
-	for slot22 = slot19, slot20, slot21 do
-		slot23 = setText
-		slot25 = slot16
-		slot24 = slot16.GetChild
-		slot26 = slot22
-		slot24 = slot24(slot25, slot26)
-		slot25 = 1 + slot22
+	for slot23 = slot20, slot21, slot22 do
+		slot24 = Instantiate
+		slot25 = slot18
+		slot24 = slot24(slot25)
+		slot24 = slot24.transform
+		slot25 = slot24
+		slot24 = slot24.SetParent
+		slot26 = slot17
+		slot27 = false
 
-		slot23(slot24, slot25)
+		slot24(slot25, slot26, slot27)
 	end
 
-	slot20 = slot5
-	slot19 = slot5.Find
-	slot21 = "linev"
-	slot19 = slot19(slot20, slot21)
-	slot21 = slot19
-	slot20 = slot19.GetChild
-	slot22 = 0
+	slot20 = 0
+	slot21 = slot13.y
+	slot21 = slot21 - 1
+	slot22 = 1
+
+	for slot23 = slot20, slot21, slot22 do
+		slot24 = setText
+		slot26 = slot17
+		slot25 = slot17.GetChild
+		slot27 = slot23
+		slot25 = slot25(slot26, slot27)
+		slot26 = 1 + slot23
+
+		slot24(slot25, slot26)
+	end
+
+	slot21 = slot5
+	slot20 = slot5.Find
+	slot22 = "linev"
 	slot20 = slot20(slot21, slot22)
-	slot22 = slot19
-	slot21 = slot19.GetComponent
-	slot23 = typeof
-	slot24 = GridLayoutGroup
-	slot21 = slot21(slot22, slot23(slot24))
-	slot22 = Vector2
-	slot23 = ChapterConst
-	slot23 = slot23.LineCross
-	slot24 = slot5.sizeDelta
-	slot24 = slot24.y
-	slot22 = slot22(slot23, slot24)
-	slot21.cellSize = slot22
-	slot22 = Vector2
-	slot23 = slot11.x
+	slot22 = slot20
+	slot21 = slot20.GetChild
+	slot23 = 0
+	slot21 = slot21(slot22, slot23)
+	slot23 = slot20
+	slot22 = slot20.GetComponent
+	slot24 = typeof
+	slot25 = GridLayoutGroup
+	slot22 = slot22(slot23, slot24(slot25))
+	slot23 = Vector2
 	slot24 = ChapterConst
 	slot24 = slot24.LineCross
-	slot23 = slot23 - slot24
-	slot24 = 0
-	slot22 = slot22(slot23, slot24)
-	slot21.spacing = slot22
-	slot22 = slot21.padding
-	slot23 = math
-	slot23 = slot23.floor
-	slot24 = slot21.spacing
-	slot24 = slot24.x
-	slot23 = slot23(slot24)
-	slot22.left = slot23
-	slot22 = slot19.childCount
-	slot22 = slot22 - 1
-	slot23 = math
-	slot23 = slot23.max
+	slot25 = slot5.sizeDelta
+	slot25 = slot25.y
+	slot23 = slot23(slot24, slot25)
+	slot22.cellSize = slot23
+	slot23 = Vector2
 	slot24 = slot12.x
-	slot24 = slot24 - 1
+	slot25 = ChapterConst
+	slot25 = slot25.LineCross
+	slot24 = slot24 - slot25
 	slot25 = 0
 	slot23 = slot23(slot24, slot25)
-	slot24 = -1
+	slot22.spacing = slot23
+	slot23 = slot22.padding
+	slot24 = math
+	slot24 = slot24.floor
+	slot25 = slot22.spacing
+	slot25 = slot25.x
+	slot24 = slot24(slot25)
+	slot23.left = slot24
+	slot23 = slot20.childCount
+	slot23 = slot23 - 1
+	slot24 = math
+	slot24 = slot24.max
+	slot25 = slot13.x
+	slot25 = slot25 - 1
+	slot26 = 0
+	slot24 = slot24(slot25, slot26)
+	slot25 = -1
 
-	for slot25 = slot22, slot23, slot24 do
-		slot26 = 0
+	for slot26 = slot23, slot24, slot25 do
+		slot27 = 0
 
-		if slot25 > slot26 then
-			slot26 = Destroy
-			slot28 = slot19
-			slot27 = slot19.GetChild
-			slot29 = slot25
+		if slot26 > slot27 then
+			slot27 = Destroy
+			slot29 = slot20
+			slot28 = slot20.GetChild
+			slot30 = slot26
 
-			slot26(slot27(slot28, slot29))
+			slot27(slot28(slot29, slot30))
 		end
 	end
 
-	slot22 = slot19.childCount
-	slot23 = slot12.x
-	slot23 = slot23 - 2
-	slot24 = 1
+	slot23 = slot20.childCount
+	slot24 = slot13.x
+	slot24 = slot24 - 2
+	slot25 = 1
 
-	for slot25 = slot22, slot23, slot24 do
-		slot26 = Instantiate
-		slot27 = slot20
-		slot26 = slot26(slot27)
-		slot26 = slot26.transform
-		slot27 = slot26
-		slot26 = slot26.SetParent
-		slot28 = slot19
-		slot29 = false
+	for slot26 = slot23, slot24, slot25 do
+		slot27 = Instantiate
+		slot28 = slot21
+		slot27 = slot27(slot28)
+		slot27 = slot27.transform
+		slot28 = slot27
+		slot27 = slot27.SetParent
+		slot29 = slot20
+		slot30 = false
 
-		slot26(slot27, slot28, slot29)
+		slot27(slot28, slot29, slot30)
 	end
 
-	slot23 = slot5
-	slot22 = slot5.Find
-	slot24 = "lineh"
-	slot22 = slot22(slot23, slot24)
-	slot24 = slot22
-	slot23 = slot22.GetChild
-	slot25 = 0
+	slot24 = slot5
+	slot23 = slot5.Find
+	slot25 = "lineh"
 	slot23 = slot23(slot24, slot25)
-	slot25 = slot22
-	slot24 = slot22.GetComponent
-	slot26 = typeof
-	slot27 = GridLayoutGroup
-	slot24 = slot24(slot25, slot26(slot27))
-	slot25 = Vector2
-	slot26 = slot5.sizeDelta
-	slot26 = slot26.x
-	slot27 = ChapterConst
-	slot27 = slot27.LineCross
-	slot25 = slot25(slot26, slot27)
-	slot24.cellSize = slot25
-	slot25 = Vector2
+	slot25 = slot23
+	slot24 = slot23.GetChild
 	slot26 = 0
-	slot27 = slot11.y
+	slot24 = slot24(slot25, slot26)
+	slot26 = slot23
+	slot25 = slot23.GetComponent
+	slot27 = typeof
+	slot28 = GridLayoutGroup
+	slot25 = slot25(slot26, slot27(slot28))
+	slot26 = Vector2
+	slot27 = slot5.sizeDelta
+	slot27 = slot27.x
 	slot28 = ChapterConst
 	slot28 = slot28.LineCross
-	slot27 = slot27 - slot28
-	slot25 = slot25(slot26, slot27)
-	slot24.spacing = slot25
-	slot25 = slot24.padding
-	slot26 = math
-	slot26 = slot26.floor
-	slot27 = slot24.spacing
-	slot27 = slot27.y
-	slot26 = slot26(slot27)
-	slot25.top = slot26
-	slot25 = slot22.childCount
-	slot25 = slot25 - 1
-	slot26 = math
-	slot26 = slot26.max
-	slot27 = slot12.y
-	slot27 = slot27 - 1
-	slot28 = 0
 	slot26 = slot26(slot27, slot28)
-	slot27 = -1
+	slot25.cellSize = slot26
+	slot26 = Vector2
+	slot27 = 0
+	slot28 = slot12.y
+	slot29 = ChapterConst
+	slot29 = slot29.LineCross
+	slot28 = slot28 - slot29
+	slot26 = slot26(slot27, slot28)
+	slot25.spacing = slot26
+	slot26 = slot25.padding
+	slot27 = math
+	slot27 = slot27.floor
+	slot28 = slot25.spacing
+	slot28 = slot28.y
+	slot27 = slot27(slot28)
+	slot26.top = slot27
+	slot26 = slot23.childCount
+	slot26 = slot26 - 1
+	slot27 = math
+	slot27 = slot27.max
+	slot28 = slot13.y
+	slot28 = slot28 - 1
+	slot29 = 0
+	slot27 = slot27(slot28, slot29)
+	slot28 = -1
 
-	for slot28 = slot25, slot26, slot27 do
-		slot29 = 0
+	for slot29 = slot26, slot27, slot28 do
+		slot30 = 0
 
-		if slot28 > slot29 then
-			slot29 = Destroy
-			slot31 = slot22
-			slot30 = slot22.GetChild
-			slot32 = slot28
+		if slot29 > slot30 then
+			slot30 = Destroy
+			slot32 = slot23
+			slot31 = slot23.GetChild
+			slot33 = slot29
 
-			slot29(slot30(slot31, slot32))
+			slot30(slot31(slot32, slot33))
 		end
 	end
 
-	slot25 = slot22.childCount
-	slot26 = slot12.y
-	slot26 = slot26 - 2
-	slot27 = 1
+	slot26 = slot23.childCount
+	slot27 = slot13.y
+	slot27 = slot27 - 2
+	slot28 = 1
 
-	for slot28 = slot25, slot26, slot27 do
-		slot29 = Instantiate
-		slot30 = slot23
-		slot29 = slot29(slot30)
-		slot29 = slot29.transform
-		slot30 = slot29
-		slot29 = slot29.SetParent
-		slot31 = slot22
-		slot32 = false
+	for slot29 = slot26, slot27, slot28 do
+		slot30 = Instantiate
+		slot31 = slot24
+		slot30 = slot30(slot31)
+		slot30 = slot30.transform
+		slot31 = slot30
+		slot30 = slot30.SetParent
+		slot32 = slot23
+		slot33 = false
 
-		slot29(slot30, slot31, slot32)
+		slot30(slot31, slot32, slot33)
 	end
 end
 

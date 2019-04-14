@@ -8,9 +8,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 9,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "F2A",
 		funnel_behavior = "",
@@ -18,6 +18,7 @@ pg.aircraft_template = {
 		hp_growth = 1129,
 		speed = 50,
 		id = 109,
+		scale = 1,
 		weapon_ID = {
 			131
 		},
@@ -81,9 +82,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 9,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "tbd",
 		funnel_behavior = "",
@@ -91,6 +92,7 @@ pg.aircraft_template = {
 		hp_growth = 1021,
 		speed = 48,
 		id = 110,
+		scale = 1,
 		weapon_ID = {
 			135
 		},
@@ -154,9 +156,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 9,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "sbdwuwei",
 		funnel_behavior = "",
@@ -164,6 +166,7 @@ pg.aircraft_template = {
 		hp_growth = 1183,
 		speed = 46,
 		id = 111,
+		scale = 1,
 		weapon_ID = {
 			139
 		},
@@ -227,9 +230,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 9,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "F2A",
 		funnel_behavior = "",
@@ -237,6 +240,7 @@ pg.aircraft_template = {
 		hp_growth = 1129,
 		speed = 50,
 		id = 112,
+		scale = 1,
 		weapon_ID = {
 			131
 		},
@@ -300,9 +304,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 9,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "haipenhuo",
 		funnel_behavior = "",
@@ -310,6 +314,7 @@ pg.aircraft_template = {
 		hp_growth = 1075,
 		speed = 50,
 		id = 113,
+		scale = 1,
 		weapon_ID = {
 			132
 		},
@@ -373,9 +378,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 9,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "jianyu",
 		funnel_behavior = "",
@@ -383,6 +388,7 @@ pg.aircraft_template = {
 		hp_growth = 973,
 		speed = 48,
 		id = 114,
+		scale = 1,
 		weapon_ID = {
 			135
 		},
@@ -446,9 +452,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 9,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "zeiou",
 		funnel_behavior = "",
@@ -456,6 +462,7 @@ pg.aircraft_template = {
 		hp_growth = 1126,
 		speed = 46,
 		id = 115,
+		scale = 1,
 		weapon_ID = {
 			139
 		},
@@ -519,9 +526,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 9,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "haipenhuo",
 		funnel_behavior = "",
@@ -529,6 +536,7 @@ pg.aircraft_template = {
 		hp_growth = 1075,
 		speed = 50,
 		id = 116,
+		scale = 1,
 		weapon_ID = {
 			132
 		},
@@ -592,9 +600,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 9,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "96jiangong",
 		funnel_behavior = "",
@@ -602,6 +610,7 @@ pg.aircraft_template = {
 		hp_growth = 1021,
 		speed = 50,
 		id = 117,
+		scale = 1,
 		weapon_ID = {
 			133
 		},
@@ -665,9 +674,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 9,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -675,6 +684,7 @@ pg.aircraft_template = {
 		hp_growth = 924,
 		speed = 48,
 		id = 118,
+		scale = 1,
 		weapon_ID = {
 			135
 		},
@@ -738,9 +748,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 9,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -748,6 +758,7 @@ pg.aircraft_template = {
 		hp_growth = 1070,
 		speed = 46,
 		id = 119,
+		scale = 1,
 		weapon_ID = {
 			139
 		},
@@ -811,9 +822,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 9,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "96jiangong",
 		funnel_behavior = "",
@@ -821,6 +832,7 @@ pg.aircraft_template = {
 		hp_growth = 1021,
 		speed = 50,
 		id = 120,
+		scale = 1,
 		weapon_ID = {
 			133
 		},
@@ -884,9 +896,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 9,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "96jiangong",
 		funnel_behavior = "",
@@ -894,6 +906,7 @@ pg.aircraft_template = {
 		hp_growth = 1075,
 		speed = 50,
 		id = 121,
+		scale = 1,
 		weapon_ID = {
 			134
 		},
@@ -957,9 +970,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 9,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "96jiangong",
 		funnel_behavior = "",
@@ -967,6 +980,7 @@ pg.aircraft_template = {
 		hp_growth = 973,
 		speed = 48,
 		id = 122,
+		scale = 1,
 		weapon_ID = {
 			135
 		},
@@ -1030,9 +1044,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 9,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "96jiangong",
 		funnel_behavior = "",
@@ -1040,6 +1054,7 @@ pg.aircraft_template = {
 		hp_growth = 1126,
 		speed = 46,
 		id = 123,
+		scale = 1,
 		weapon_ID = {
 			139
 		},
@@ -1103,9 +1118,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 9,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "96jiangong",
 		funnel_behavior = "",
@@ -1113,6 +1128,7 @@ pg.aircraft_template = {
 		hp_growth = 1075,
 		speed = 50,
 		id = 124,
+		scale = 1,
 		weapon_ID = {
 			134
 		},
@@ -1176,9 +1192,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 9,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "ruiyun",
 		funnel_behavior = "",
@@ -1186,6 +1202,7 @@ pg.aircraft_template = {
 		hp_growth = 1023,
 		speed = 46,
 		id = 144,
+		scale = 1,
 		weapon_ID = {
 			145
 		},
@@ -1241,6 +1258,830 @@ pg.aircraft_template = {
 			}
 		}
 	},
+	[4200] = {
+		name = "剑鱼Mark.II-ASV",
+		max_hp = 28,
+		accuracy = 23,
+		model_ID = "jianyuasv",
+		ACC_growth = 0,
+		crash_DMG = 102,
+		dodge = 1.19,
+		attack_power = 2,
+		dodge_limit = 3,
+		type = 3,
+		AP_growth = 2000,
+		icon = "jianyuasv",
+		funnel_behavior = "",
+		nationality = 0,
+		hp_growth = 1094,
+		speed = 45,
+		id = 4200,
+		scale = 1,
+		weapon_ID = {
+			53100
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					1.03,
+					-1.43,
+					0
+				},
+				{
+					1.01,
+					1.43,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.52,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[4201] = {
+		hp_growth = 1259,
+		id = 4201,
+		base = 4200,
+		max_hp = 33,
+		scale = 1,
+		weapon_ID = {
+			53101
+		}
+	},
+	[4202] = {
+		hp_growth = 1423,
+		id = 4202,
+		base = 4200,
+		max_hp = 37,
+		scale = 1,
+		weapon_ID = {
+			53102
+		}
+	},
+	[4203] = {
+		hp_growth = 1587,
+		id = 4203,
+		base = 4200,
+		max_hp = 41,
+		scale = 1,
+		weapon_ID = {
+			53103
+		}
+	},
+	[4220] = {
+		name = "剑鱼Mark.II-ASV",
+		max_hp = 32,
+		accuracy = 23,
+		model_ID = "jianyuasv",
+		ACC_growth = 0,
+		crash_DMG = 102,
+		dodge = 1.15,
+		attack_power = 2,
+		dodge_limit = 3.5,
+		type = 3,
+		AP_growth = 2000,
+		icon = "jianyuasv",
+		funnel_behavior = "",
+		nationality = 0,
+		hp_growth = 1216,
+		speed = 45,
+		id = 4220,
+		scale = 1,
+		weapon_ID = {
+			53120
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					1.03,
+					-1.43,
+					0
+				},
+				{
+					1.01,
+					1.43,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.52,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[4221] = {
+		hp_growth = 1398,
+		id = 4221,
+		base = 4220,
+		max_hp = 36,
+		scale = 1,
+		weapon_ID = {
+			53121
+		}
+	},
+	[4222] = {
+		hp_growth = 1581,
+		id = 4222,
+		base = 4220,
+		max_hp = 41,
+		scale = 1,
+		weapon_ID = {
+			53122
+		}
+	},
+	[4223] = {
+		hp_growth = 1763,
+		id = 4223,
+		base = 4220,
+		max_hp = 46,
+		scale = 1,
+		weapon_ID = {
+			53123
+		}
+	},
+	[4224] = {
+		hp_growth = 1946,
+		id = 4224,
+		base = 4220,
+		max_hp = 51,
+		scale = 1,
+		weapon_ID = {
+			53124
+		}
+	},
+	[4225] = {
+		hp_growth = 2128,
+		id = 4225,
+		base = 4220,
+		max_hp = 55,
+		scale = 1,
+		weapon_ID = {
+			53125
+		}
+	},
+	[4226] = {
+		hp_growth = 2310,
+		id = 4226,
+		base = 4220,
+		max_hp = 60,
+		scale = 1,
+		weapon_ID = {
+			53126
+		}
+	},
+	[4240] = {
+		name = "剑鱼Mark.II-ASV",
+		max_hp = 35,
+		accuracy = 23,
+		model_ID = "jianyuasv",
+		ACC_growth = 0,
+		crash_DMG = 102,
+		dodge = 1.11,
+		attack_power = 2,
+		dodge_limit = 4,
+		type = 3,
+		AP_growth = 2000,
+		icon = "jianyuasv",
+		funnel_behavior = "",
+		nationality = 0,
+		hp_growth = 1338,
+		speed = 45,
+		id = 4240,
+		scale = 1,
+		weapon_ID = {
+			53140
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					1.03,
+					-1.43,
+					0
+				},
+				{
+					1.01,
+					1.43,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.52,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[4241] = {
+		hp_growth = 1538,
+		id = 4241,
+		base = 4240,
+		max_hp = 40,
+		scale = 1,
+		weapon_ID = {
+			53141
+		}
+	},
+	[4242] = {
+		hp_growth = 1739,
+		id = 4242,
+		base = 4240,
+		max_hp = 45,
+		scale = 1,
+		weapon_ID = {
+			53142
+		}
+	},
+	[4243] = {
+		hp_growth = 1940,
+		id = 4243,
+		base = 4240,
+		max_hp = 50,
+		scale = 1,
+		weapon_ID = {
+			53143
+		}
+	},
+	[4244] = {
+		hp_growth = 2140,
+		id = 4244,
+		base = 4240,
+		max_hp = 56,
+		scale = 1,
+		weapon_ID = {
+			53144
+		}
+	},
+	[4245] = {
+		hp_growth = 2341,
+		id = 4245,
+		base = 4240,
+		max_hp = 61,
+		scale = 1,
+		weapon_ID = {
+			53145
+		}
+	},
+	[4246] = {
+		hp_growth = 2541,
+		id = 4246,
+		base = 4240,
+		max_hp = 66,
+		scale = 1,
+		weapon_ID = {
+			53146
+		}
+	},
+	[4247] = {
+		hp_growth = 2742,
+		id = 4247,
+		base = 4240,
+		max_hp = 71,
+		scale = 1,
+		weapon_ID = {
+			53147
+		}
+	},
+	[4248] = {
+		hp_growth = 2943,
+		id = 4248,
+		base = 4240,
+		max_hp = 77,
+		scale = 1,
+		weapon_ID = {
+			53148
+		}
+	},
+	[4249] = {
+		hp_growth = 3143,
+		id = 4249,
+		base = 4240,
+		max_hp = 82,
+		scale = 1,
+		weapon_ID = {
+			53149
+		}
+	},
+	[4250] = {
+		hp_growth = 3344,
+		id = 4250,
+		base = 4240,
+		max_hp = 87,
+		scale = 1,
+		weapon_ID = {
+			53150
+		}
+	},
+	[4300] = {
+		name = "TBM-3复仇者",
+		max_hp = 30,
+		accuracy = 23,
+		model_ID = "tbm-3",
+		ACC_growth = 0,
+		crash_DMG = 135,
+		dodge = 1.19,
+		attack_power = 2,
+		dodge_limit = 4,
+		type = 3,
+		AP_growth = 2000,
+		icon = "tbm-3",
+		funnel_behavior = "",
+		nationality = 0,
+		hp_growth = 1149,
+		speed = 48,
+		id = 4300,
+		scale = 1,
+		weapon_ID = {
+			53200
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.85,
+					-1.39,
+					0
+				},
+				{
+					1.08,
+					1.64,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.15,
+				-0.08,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[4301] = {
+		hp_growth = 1321,
+		id = 4301,
+		base = 4300,
+		max_hp = 34,
+		scale = 1,
+		weapon_ID = {
+			53201
+		}
+	},
+	[4302] = {
+		hp_growth = 1494,
+		id = 4302,
+		base = 4300,
+		max_hp = 39,
+		scale = 1,
+		weapon_ID = {
+			53202
+		}
+	},
+	[4303] = {
+		hp_growth = 1666,
+		id = 4303,
+		base = 4300,
+		max_hp = 43,
+		scale = 1,
+		weapon_ID = {
+			53203
+		}
+	},
+	[4320] = {
+		name = "TBM-3复仇者",
+		max_hp = 33,
+		accuracy = 23,
+		model_ID = "tbm-3",
+		ACC_growth = 0,
+		crash_DMG = 135,
+		dodge = 1.15,
+		attack_power = 2,
+		dodge_limit = 4.5,
+		type = 3,
+		AP_growth = 2000,
+		icon = "tbm-3",
+		funnel_behavior = "",
+		nationality = 0,
+		hp_growth = 1277,
+		speed = 48,
+		id = 4320,
+		scale = 1,
+		weapon_ID = {
+			53220
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.85,
+					-1.39,
+					0
+				},
+				{
+					1.08,
+					1.64,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.15,
+				-0.08,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[4321] = {
+		hp_growth = 1468,
+		id = 4321,
+		base = 4320,
+		max_hp = 38,
+		scale = 1,
+		weapon_ID = {
+			53221
+		}
+	},
+	[4322] = {
+		hp_growth = 1660,
+		id = 4322,
+		base = 4320,
+		max_hp = 43,
+		scale = 1,
+		weapon_ID = {
+			53222
+		}
+	},
+	[4323] = {
+		hp_growth = 1851,
+		id = 4323,
+		base = 4320,
+		max_hp = 48,
+		scale = 1,
+		weapon_ID = {
+			53223
+		}
+	},
+	[4324] = {
+		hp_growth = 2043,
+		id = 4324,
+		base = 4320,
+		max_hp = 53,
+		scale = 1,
+		weapon_ID = {
+			53224
+		}
+	},
+	[4325] = {
+		hp_growth = 2234,
+		id = 4325,
+		base = 4320,
+		max_hp = 58,
+		scale = 1,
+		weapon_ID = {
+			53225
+		}
+	},
+	[4326] = {
+		hp_growth = 2426,
+		id = 4326,
+		base = 4320,
+		max_hp = 63,
+		scale = 1,
+		weapon_ID = {
+			53226
+		}
+	},
+	[4340] = {
+		name = "TBM-3复仇者",
+		max_hp = 37,
+		accuracy = 23,
+		model_ID = "tbm-3",
+		ACC_growth = 0,
+		crash_DMG = 135,
+		dodge = 1.11,
+		attack_power = 2,
+		dodge_limit = 5,
+		type = 3,
+		AP_growth = 2000,
+		icon = "tbm-3",
+		funnel_behavior = "",
+		nationality = 0,
+		hp_growth = 1404,
+		speed = 48,
+		id = 4340,
+		scale = 1,
+		weapon_ID = {
+			53240
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.85,
+					-1.39,
+					0
+				},
+				{
+					1.08,
+					1.64,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.15,
+				-0.08,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[4341] = {
+		hp_growth = 1615,
+		id = 4341,
+		base = 4340,
+		max_hp = 42,
+		scale = 1,
+		weapon_ID = {
+			53241
+		}
+	},
+	[4342] = {
+		hp_growth = 1826,
+		id = 4342,
+		base = 4340,
+		max_hp = 47,
+		scale = 1,
+		weapon_ID = {
+			53242
+		}
+	},
+	[4343] = {
+		hp_growth = 2036,
+		id = 4343,
+		base = 4340,
+		max_hp = 53,
+		scale = 1,
+		weapon_ID = {
+			53243
+		}
+	},
+	[4344] = {
+		hp_growth = 2247,
+		id = 4344,
+		base = 4340,
+		max_hp = 58,
+		scale = 1,
+		weapon_ID = {
+			53244
+		}
+	},
+	[4345] = {
+		hp_growth = 2458,
+		id = 4345,
+		base = 4340,
+		max_hp = 64,
+		scale = 1,
+		weapon_ID = {
+			53245
+		}
+	},
+	[4346] = {
+		hp_growth = 2669,
+		id = 4346,
+		base = 4340,
+		max_hp = 69,
+		scale = 1,
+		weapon_ID = {
+			53246
+		}
+	},
+	[4347] = {
+		hp_growth = 2879,
+		id = 4347,
+		base = 4340,
+		max_hp = 75,
+		scale = 1,
+		weapon_ID = {
+			53247
+		}
+	},
+	[4348] = {
+		hp_growth = 3090,
+		id = 4348,
+		base = 4340,
+		max_hp = 80,
+		scale = 1,
+		weapon_ID = {
+			53248
+		}
+	},
+	[4349] = {
+		hp_growth = 3301,
+		id = 4349,
+		base = 4340,
+		max_hp = 86,
+		scale = 1,
+		weapon_ID = {
+			53249
+		}
+	},
+	[4350] = {
+		hp_growth = 3511,
+		id = 4350,
+		base = 4340,
+		max_hp = 91,
+		scale = 1,
+		weapon_ID = {
+			53250
+		}
+	},
 	[17000] = {
 		name = "F2A水牛",
 		max_hp = 29,
@@ -1249,9 +2090,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 88,
 		dodge = 0.375,
-		type = 1,
-		dodge_limit = 8,
 		attack_power = 2,
+		dodge_limit = 8,
+		type = 1,
 		AP_growth = 2000,
 		icon = "F2A",
 		funnel_behavior = "",
@@ -1259,6 +2100,7 @@ pg.aircraft_template = {
 		hp_growth = 1129,
 		speed = 45,
 		id = 17000,
+		scale = 1,
 		weapon_ID = {
 			50300
 		},
@@ -1315,28 +2157,31 @@ pg.aircraft_template = {
 		}
 	},
 	[17001] = {
+		hp_growth = 1298,
 		id = 17001,
 		base = 17000,
 		max_hp = 34,
-		hp_growth = 1298,
+		scale = 1,
 		weapon_ID = {
 			50301
 		}
 	},
 	[17002] = {
+		hp_growth = 1468,
 		id = 17002,
 		base = 17000,
 		max_hp = 38,
-		hp_growth = 1468,
+		scale = 1,
 		weapon_ID = {
 			50302
 		}
 	},
 	[17003] = {
+		hp_growth = 1637,
 		id = 17003,
 		base = 17000,
 		max_hp = 43,
-		hp_growth = 1637,
+		scale = 1,
 		weapon_ID = {
 			50303
 		}
@@ -1349,9 +2194,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 88,
 		dodge = 0.363,
-		type = 1,
-		dodge_limit = 8.5,
 		attack_power = 2,
+		dodge_limit = 8.5,
+		type = 1,
 		AP_growth = 2000,
 		icon = "F2A",
 		funnel_behavior = "",
@@ -1359,6 +2204,7 @@ pg.aircraft_template = {
 		hp_growth = 1270,
 		speed = 45,
 		id = 17020,
+		scale = 1,
 		weapon_ID = {
 			50320
 		},
@@ -1415,28 +2261,31 @@ pg.aircraft_template = {
 		}
 	},
 	[17021] = {
+		hp_growth = 1461,
 		id = 17021,
 		base = 17020,
 		max_hp = 38,
-		hp_growth = 1461,
+		scale = 1,
 		weapon_ID = {
 			50321
 		}
 	},
 	[17022] = {
+		hp_growth = 1651,
 		id = 17022,
 		base = 17020,
 		max_hp = 43,
-		hp_growth = 1651,
+		scale = 1,
 		weapon_ID = {
 			50322
 		}
 	},
 	[17023] = {
+		hp_growth = 1842,
 		id = 17023,
 		base = 17020,
 		max_hp = 48,
-		hp_growth = 1842,
+		scale = 1,
 		weapon_ID = {
 			50323
 		}
@@ -1449,9 +2298,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 88,
 		dodge = 0.351,
-		type = 1,
-		dodge_limit = 9,
 		attack_power = 2,
+		dodge_limit = 9,
+		type = 1,
 		AP_growth = 2000,
 		icon = "F2A",
 		funnel_behavior = "",
@@ -1459,6 +2308,7 @@ pg.aircraft_template = {
 		hp_growth = 1411,
 		speed = 45,
 		id = 17040,
+		scale = 1,
 		weapon_ID = {
 			50340
 		},
@@ -1515,55 +2365,61 @@ pg.aircraft_template = {
 		}
 	},
 	[17041] = {
+		hp_growth = 1623,
 		id = 17041,
 		base = 17040,
 		max_hp = 42,
-		hp_growth = 1623,
+		scale = 1,
 		weapon_ID = {
 			50341
 		}
 	},
 	[17042] = {
+		hp_growth = 1835,
 		id = 17042,
 		base = 17040,
 		max_hp = 48,
-		hp_growth = 1835,
+		scale = 1,
 		weapon_ID = {
 			50342
 		}
 	},
 	[17043] = {
+		hp_growth = 2046,
 		id = 17043,
 		base = 17040,
 		max_hp = 53,
-		hp_growth = 2046,
+		scale = 1,
 		weapon_ID = {
 			50343
 		}
 	},
 	[17044] = {
+		hp_growth = 2258,
 		id = 17044,
 		base = 17040,
 		max_hp = 59,
-		hp_growth = 2258,
+		scale = 1,
 		weapon_ID = {
 			50344
 		}
 	},
 	[17045] = {
+		hp_growth = 2470,
 		id = 17045,
 		base = 17040,
 		max_hp = 64,
-		hp_growth = 2470,
+		scale = 1,
 		weapon_ID = {
 			50345
 		}
 	},
 	[17046] = {
+		hp_growth = 2681,
 		id = 17046,
 		base = 17040,
 		max_hp = 70,
-		hp_growth = 2681,
+		scale = 1,
 		weapon_ID = {
 			50346
 		}
@@ -1576,9 +2432,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 116,
 		dodge = 0.357,
-		type = 1,
-		dodge_limit = 9,
 		attack_power = 2,
+		dodge_limit = 9,
+		type = 1,
 		AP_growth = 2000,
 		icon = "f4f",
 		funnel_behavior = "",
@@ -1586,6 +2442,7 @@ pg.aircraft_template = {
 		hp_growth = 1270,
 		speed = 48,
 		id = 17100,
+		scale = 1,
 		weapon_ID = {
 			50400
 		},
@@ -1642,28 +2499,31 @@ pg.aircraft_template = {
 		}
 	},
 	[17101] = {
+		hp_growth = 1461,
 		id = 17101,
 		base = 17100,
 		max_hp = 38,
-		hp_growth = 1461,
+		scale = 1,
 		weapon_ID = {
 			50401
 		}
 	},
 	[17102] = {
+		hp_growth = 1651,
 		id = 17102,
 		base = 17100,
 		max_hp = 43,
-		hp_growth = 1651,
+		scale = 1,
 		weapon_ID = {
 			50402
 		}
 	},
 	[17103] = {
+		hp_growth = 1842,
 		id = 17103,
 		base = 17100,
 		max_hp = 48,
-		hp_growth = 1842,
+		scale = 1,
 		weapon_ID = {
 			50403
 		}
@@ -1676,9 +2536,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 116,
 		dodge = 0.345,
-		type = 1,
-		dodge_limit = 9.5,
 		attack_power = 2,
+		dodge_limit = 9.5,
+		type = 1,
 		AP_growth = 2000,
 		icon = "f4f",
 		funnel_behavior = "",
@@ -1686,6 +2546,7 @@ pg.aircraft_template = {
 		hp_growth = 1411,
 		speed = 48,
 		id = 17120,
+		scale = 1,
 		weapon_ID = {
 			50420
 		},
@@ -1742,55 +2603,61 @@ pg.aircraft_template = {
 		}
 	},
 	[17121] = {
+		hp_growth = 1623,
 		id = 17121,
 		base = 17120,
 		max_hp = 42,
-		hp_growth = 1623,
+		scale = 1,
 		weapon_ID = {
 			50421
 		}
 	},
 	[17122] = {
+		hp_growth = 1835,
 		id = 17122,
 		base = 17120,
 		max_hp = 48,
-		hp_growth = 1835,
+		scale = 1,
 		weapon_ID = {
 			50422
 		}
 	},
 	[17123] = {
+		hp_growth = 2046,
 		id = 17123,
 		base = 17120,
 		max_hp = 53,
-		hp_growth = 2046,
+		scale = 1,
 		weapon_ID = {
 			50423
 		}
 	},
 	[17124] = {
+		hp_growth = 2258,
 		id = 17124,
 		base = 17120,
 		max_hp = 59,
-		hp_growth = 2258,
+		scale = 1,
 		weapon_ID = {
 			50424
 		}
 	},
 	[17125] = {
+		hp_growth = 2470,
 		id = 17125,
 		base = 17120,
 		max_hp = 64,
-		hp_growth = 2470,
+		scale = 1,
 		weapon_ID = {
 			50425
 		}
 	},
 	[17126] = {
+		hp_growth = 2681,
 		id = 17126,
 		base = 17120,
 		max_hp = 70,
-		hp_growth = 2681,
+		scale = 1,
 		weapon_ID = {
 			50426
 		}
@@ -1803,9 +2670,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 116,
 		dodge = 0.333,
-		type = 1,
-		dodge_limit = 10,
 		attack_power = 2,
+		dodge_limit = 10,
+		type = 1,
 		AP_growth = 2000,
 		icon = "f4f",
 		funnel_behavior = "",
@@ -1813,6 +2680,7 @@ pg.aircraft_template = {
 		hp_growth = 1552,
 		speed = 48,
 		id = 17140,
+		scale = 1,
 		weapon_ID = {
 			50440
 		},
@@ -1869,91 +2737,101 @@ pg.aircraft_template = {
 		}
 	},
 	[17141] = {
+		hp_growth = 1785,
 		id = 17141,
 		base = 17140,
 		max_hp = 46,
-		hp_growth = 1785,
+		scale = 1,
 		weapon_ID = {
 			50441
 		}
 	},
 	[17142] = {
+		hp_growth = 2018,
 		id = 17142,
 		base = 17140,
 		max_hp = 52,
-		hp_growth = 2018,
+		scale = 1,
 		weapon_ID = {
 			50442
 		}
 	},
 	[17143] = {
+		hp_growth = 2251,
 		id = 17143,
 		base = 17140,
 		max_hp = 59,
-		hp_growth = 2251,
+		scale = 1,
 		weapon_ID = {
 			50443
 		}
 	},
 	[17144] = {
+		hp_growth = 2484,
 		id = 17144,
 		base = 17140,
 		max_hp = 65,
-		hp_growth = 2484,
+		scale = 1,
 		weapon_ID = {
 			50444
 		}
 	},
 	[17145] = {
+		hp_growth = 2717,
 		id = 17145,
 		base = 17140,
 		max_hp = 71,
-		hp_growth = 2717,
+		scale = 1,
 		weapon_ID = {
 			50445
 		}
 	},
 	[17146] = {
+		hp_growth = 2949,
 		id = 17146,
 		base = 17140,
 		max_hp = 77,
-		hp_growth = 2949,
+		scale = 1,
 		weapon_ID = {
 			50446
 		}
 	},
 	[17147] = {
+		hp_growth = 3182,
 		id = 17147,
 		base = 17140,
 		max_hp = 83,
-		hp_growth = 3182,
+		scale = 1,
 		weapon_ID = {
 			50447
 		}
 	},
 	[17148] = {
+		hp_growth = 3415,
 		id = 17148,
 		base = 17140,
 		max_hp = 89,
-		hp_growth = 3415,
+		scale = 1,
 		weapon_ID = {
 			50448
 		}
 	},
 	[17149] = {
+		hp_growth = 3648,
 		id = 17149,
 		base = 17140,
 		max_hp = 95,
-		hp_growth = 3648,
+		scale = 1,
 		weapon_ID = {
 			50449
 		}
 	},
 	[17150] = {
+		hp_growth = 3881,
 		id = 17150,
 		base = 17140,
 		max_hp = 101,
-		hp_growth = 3881,
+		scale = 1,
 		weapon_ID = {
 			50450
 		}
@@ -1966,9 +2844,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 132,
 		dodge = 0.357,
-		type = 1,
-		dodge_limit = 9,
 		attack_power = 2,
+		dodge_limit = 9,
+		type = 1,
 		AP_growth = 2000,
 		icon = "F4U",
 		funnel_behavior = "",
@@ -1976,6 +2854,7 @@ pg.aircraft_template = {
 		hp_growth = 1270,
 		speed = 48,
 		id = 17200,
+		scale = 1,
 		weapon_ID = {
 			50400,
 			52300
@@ -2033,30 +2912,33 @@ pg.aircraft_template = {
 		}
 	},
 	[17201] = {
+		hp_growth = 1461,
 		id = 17201,
 		base = 17200,
 		max_hp = 38,
-		hp_growth = 1461,
+		scale = 1,
 		weapon_ID = {
 			50401,
 			52301
 		}
 	},
 	[17202] = {
+		hp_growth = 1651,
 		id = 17202,
 		base = 17200,
 		max_hp = 43,
-		hp_growth = 1651,
+		scale = 1,
 		weapon_ID = {
 			50402,
 			52302
 		}
 	},
 	[17203] = {
+		hp_growth = 1842,
 		id = 17203,
 		base = 17200,
 		max_hp = 48,
-		hp_growth = 1842,
+		scale = 1,
 		weapon_ID = {
 			50403,
 			52303
@@ -2070,9 +2952,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 132,
 		dodge = 0.345,
-		type = 1,
-		dodge_limit = 9.5,
 		attack_power = 2,
+		dodge_limit = 9.5,
+		type = 1,
 		AP_growth = 2000,
 		icon = "F4U",
 		funnel_behavior = "",
@@ -2080,6 +2962,7 @@ pg.aircraft_template = {
 		hp_growth = 1411,
 		speed = 48,
 		id = 17220,
+		scale = 1,
 		weapon_ID = {
 			50420,
 			52320
@@ -2137,60 +3020,66 @@ pg.aircraft_template = {
 		}
 	},
 	[17221] = {
+		hp_growth = 1623,
 		id = 17221,
 		base = 17220,
 		max_hp = 42,
-		hp_growth = 1623,
+		scale = 1,
 		weapon_ID = {
 			50421,
 			52321
 		}
 	},
 	[17222] = {
+		hp_growth = 1835,
 		id = 17222,
 		base = 17220,
 		max_hp = 48,
-		hp_growth = 1835,
+		scale = 1,
 		weapon_ID = {
 			50422,
 			52322
 		}
 	},
 	[17223] = {
+		hp_growth = 2046,
 		id = 17223,
 		base = 17220,
 		max_hp = 53,
-		hp_growth = 2046,
+		scale = 1,
 		weapon_ID = {
 			50423,
 			52323
 		}
 	},
 	[17224] = {
+		hp_growth = 2258,
 		id = 17224,
 		base = 17220,
 		max_hp = 59,
-		hp_growth = 2258,
+		scale = 1,
 		weapon_ID = {
 			50424,
 			52324
 		}
 	},
 	[17225] = {
+		hp_growth = 2470,
 		id = 17225,
 		base = 17220,
 		max_hp = 64,
-		hp_growth = 2470,
+		scale = 1,
 		weapon_ID = {
 			50425,
 			52325
 		}
 	},
 	[17226] = {
+		hp_growth = 2681,
 		id = 17226,
 		base = 17220,
 		max_hp = 70,
-		hp_growth = 2681,
+		scale = 1,
 		weapon_ID = {
 			50426,
 			52326
@@ -2204,9 +3093,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 132,
 		dodge = 0.333,
-		type = 1,
-		dodge_limit = 10,
 		attack_power = 2,
+		dodge_limit = 10,
+		type = 1,
 		AP_growth = 2000,
 		icon = "F4U",
 		funnel_behavior = "",
@@ -2214,6 +3103,7 @@ pg.aircraft_template = {
 		hp_growth = 1552,
 		speed = 48,
 		id = 17240,
+		scale = 1,
 		weapon_ID = {
 			50440,
 			52340
@@ -2271,100 +3161,110 @@ pg.aircraft_template = {
 		}
 	},
 	[17241] = {
+		hp_growth = 1785,
 		id = 17241,
 		base = 17240,
 		max_hp = 46,
-		hp_growth = 1785,
+		scale = 1,
 		weapon_ID = {
 			50441,
 			52341
 		}
 	},
 	[17242] = {
+		hp_growth = 2018,
 		id = 17242,
 		base = 17240,
 		max_hp = 52,
-		hp_growth = 2018,
+		scale = 1,
 		weapon_ID = {
 			50442,
 			52342
 		}
 	},
 	[17243] = {
+		hp_growth = 2251,
 		id = 17243,
 		base = 17240,
 		max_hp = 59,
-		hp_growth = 2251,
+		scale = 1,
 		weapon_ID = {
 			50443,
 			52343
 		}
 	},
 	[17244] = {
+		hp_growth = 2484,
 		id = 17244,
 		base = 17240,
 		max_hp = 65,
-		hp_growth = 2484,
+		scale = 1,
 		weapon_ID = {
 			50444,
 			52344
 		}
 	},
 	[17245] = {
+		hp_growth = 2717,
 		id = 17245,
 		base = 17240,
 		max_hp = 71,
-		hp_growth = 2717,
+		scale = 1,
 		weapon_ID = {
 			50445,
 			52345
 		}
 	},
 	[17246] = {
+		hp_growth = 2949,
 		id = 17246,
 		base = 17240,
 		max_hp = 77,
-		hp_growth = 2949,
+		scale = 1,
 		weapon_ID = {
 			50446,
 			52346
 		}
 	},
 	[17247] = {
+		hp_growth = 3182,
 		id = 17247,
 		base = 17240,
 		max_hp = 83,
-		hp_growth = 3182,
+		scale = 1,
 		weapon_ID = {
 			50447,
 			52347
 		}
 	},
 	[17248] = {
+		hp_growth = 3415,
 		id = 17248,
 		base = 17240,
 		max_hp = 89,
-		hp_growth = 3415,
+		scale = 1,
 		weapon_ID = {
 			50448,
 			52348
 		}
 	},
 	[17249] = {
+		hp_growth = 3648,
 		id = 17249,
 		base = 17240,
 		max_hp = 95,
-		hp_growth = 3648,
+		scale = 1,
 		weapon_ID = {
 			50449,
 			52349
 		}
 	},
 	[17250] = {
+		hp_growth = 3881,
 		id = 17250,
 		base = 17240,
 		max_hp = 101,
-		hp_growth = 3881,
+		scale = 1,
 		weapon_ID = {
 			50450,
 			52350
@@ -2378,9 +3278,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 148,
 		dodge = 0.309,
-		type = 1,
-		dodge_limit = 12,
 		attack_power = 2,
+		dodge_limit = 12,
+		type = 1,
 		AP_growth = 2000,
 		icon = "F4U-1D",
 		funnel_behavior = "",
@@ -2388,6 +3288,7 @@ pg.aircraft_template = {
 		hp_growth = 1693,
 		speed = 49,
 		id = 17260,
+		scale = 1,
 		weapon_ID = {
 			50460,
 			52360
@@ -2445,100 +3346,110 @@ pg.aircraft_template = {
 		}
 	},
 	[17261] = {
+		hp_growth = 1947,
 		id = 17261,
 		base = 17260,
 		max_hp = 51,
-		hp_growth = 1947,
+		scale = 1,
 		weapon_ID = {
 			50461,
 			52361
 		}
 	},
 	[17262] = {
+		hp_growth = 2201,
 		id = 17262,
 		base = 17260,
 		max_hp = 57,
-		hp_growth = 2201,
+		scale = 1,
 		weapon_ID = {
 			50462,
 			52362
 		}
 	},
 	[17263] = {
+		hp_growth = 2455,
 		id = 17263,
 		base = 17260,
 		max_hp = 64,
-		hp_growth = 2455,
+		scale = 1,
 		weapon_ID = {
 			50463,
 			52363
 		}
 	},
 	[17264] = {
+		hp_growth = 2710,
 		id = 17264,
 		base = 17260,
 		max_hp = 70,
-		hp_growth = 2710,
+		scale = 1,
 		weapon_ID = {
 			50464,
 			52364
 		}
 	},
 	[17265] = {
+		hp_growth = 2964,
 		id = 17265,
 		base = 17260,
 		max_hp = 77,
-		hp_growth = 2964,
+		scale = 1,
 		weapon_ID = {
 			50465,
 			52365
 		}
 	},
 	[17266] = {
+		hp_growth = 3218,
 		id = 17266,
 		base = 17260,
 		max_hp = 84,
-		hp_growth = 3218,
+		scale = 1,
 		weapon_ID = {
 			50466,
 			52366
 		}
 	},
 	[17267] = {
+		hp_growth = 3472,
 		id = 17267,
 		base = 17260,
 		max_hp = 90,
-		hp_growth = 3472,
+		scale = 1,
 		weapon_ID = {
 			50467,
 			52367
 		}
 	},
 	[17268] = {
+		hp_growth = 3726,
 		id = 17268,
 		base = 17260,
 		max_hp = 97,
-		hp_growth = 3726,
+		scale = 1,
 		weapon_ID = {
 			50468,
 			52368
 		}
 	},
 	[17269] = {
+		hp_growth = 3980,
 		id = 17269,
 		base = 17260,
 		max_hp = 103,
-		hp_growth = 3980,
+		scale = 1,
 		weapon_ID = {
 			50469,
 			52369
 		}
 	},
 	[17270] = {
+		hp_growth = 4234,
 		id = 17270,
 		base = 17260,
 		max_hp = 110,
-		hp_growth = 4234,
+		scale = 1,
 		weapon_ID = {
 			50470,
 			52370
@@ -2552,9 +3463,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 156,
 		dodge = 0.339,
-		type = 1,
-		dodge_limit = 10,
 		attack_power = 2,
+		dodge_limit = 10,
+		type = 1,
 		AP_growth = 2000,
 		icon = "f6f",
 		funnel_behavior = "",
@@ -2562,6 +3473,7 @@ pg.aircraft_template = {
 		hp_growth = 1411,
 		speed = 50,
 		id = 17300,
+		scale = 1,
 		weapon_ID = {
 			50300,
 			50500,
@@ -2620,10 +3532,11 @@ pg.aircraft_template = {
 		}
 	},
 	[17301] = {
+		hp_growth = 1623,
 		id = 17301,
 		base = 17300,
 		max_hp = 42,
-		hp_growth = 1623,
+		scale = 1,
 		weapon_ID = {
 			50301,
 			50501,
@@ -2631,10 +3544,11 @@ pg.aircraft_template = {
 		}
 	},
 	[17302] = {
+		hp_growth = 1835,
 		id = 17302,
 		base = 17300,
 		max_hp = 48,
-		hp_growth = 1835,
+		scale = 1,
 		weapon_ID = {
 			50302,
 			50502,
@@ -2642,10 +3556,11 @@ pg.aircraft_template = {
 		}
 	},
 	[17303] = {
+		hp_growth = 2046,
 		id = 17303,
 		base = 17300,
 		max_hp = 53,
-		hp_growth = 2046,
+		scale = 1,
 		weapon_ID = {
 			50303,
 			50503,
@@ -2653,10 +3568,11 @@ pg.aircraft_template = {
 		}
 	},
 	[17304] = {
+		hp_growth = 2258,
 		id = 17304,
 		base = 17300,
 		max_hp = 59,
-		hp_growth = 2258,
+		scale = 1,
 		weapon_ID = {
 			50304,
 			50504,
@@ -2664,10 +3580,11 @@ pg.aircraft_template = {
 		}
 	},
 	[17305] = {
+		hp_growth = 2470,
 		id = 17305,
 		base = 17300,
 		max_hp = 64,
-		hp_growth = 2470,
+		scale = 1,
 		weapon_ID = {
 			50305,
 			50505,
@@ -2675,10 +3592,11 @@ pg.aircraft_template = {
 		}
 	},
 	[17306] = {
+		hp_growth = 2681,
 		id = 17306,
 		base = 17300,
 		max_hp = 70,
-		hp_growth = 2681,
+		scale = 1,
 		weapon_ID = {
 			50306,
 			50506,
@@ -2693,9 +3611,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 156,
 		dodge = 0.327,
-		type = 1,
-		dodge_limit = 10.5,
 		attack_power = 2,
+		dodge_limit = 10.5,
+		type = 1,
 		AP_growth = 2000,
 		icon = "f6f",
 		funnel_behavior = "",
@@ -2703,6 +3621,7 @@ pg.aircraft_template = {
 		hp_growth = 1552,
 		speed = 50,
 		id = 17320,
+		scale = 1,
 		weapon_ID = {
 			50320,
 			50520,
@@ -2761,10 +3680,11 @@ pg.aircraft_template = {
 		}
 	},
 	[17321] = {
+		hp_growth = 1785,
 		id = 17321,
 		base = 17320,
 		max_hp = 46,
-		hp_growth = 1785,
+		scale = 1,
 		weapon_ID = {
 			50321,
 			50521,
@@ -2772,10 +3692,11 @@ pg.aircraft_template = {
 		}
 	},
 	[17322] = {
+		hp_growth = 2018,
 		id = 17322,
 		base = 17320,
 		max_hp = 52,
-		hp_growth = 2018,
+		scale = 1,
 		weapon_ID = {
 			50322,
 			50522,
@@ -2783,10 +3704,11 @@ pg.aircraft_template = {
 		}
 	},
 	[17323] = {
+		hp_growth = 2251,
 		id = 17323,
 		base = 17320,
 		max_hp = 59,
-		hp_growth = 2251,
+		scale = 1,
 		weapon_ID = {
 			50323,
 			50523,
@@ -2794,10 +3716,11 @@ pg.aircraft_template = {
 		}
 	},
 	[17324] = {
+		hp_growth = 2484,
 		id = 17324,
 		base = 17320,
 		max_hp = 65,
-		hp_growth = 2484,
+		scale = 1,
 		weapon_ID = {
 			50324,
 			50524,
@@ -2805,10 +3728,11 @@ pg.aircraft_template = {
 		}
 	},
 	[17325] = {
+		hp_growth = 2717,
 		id = 17325,
 		base = 17320,
 		max_hp = 71,
-		hp_growth = 2717,
+		scale = 1,
 		weapon_ID = {
 			50325,
 			50525,
@@ -2816,10 +3740,11 @@ pg.aircraft_template = {
 		}
 	},
 	[17326] = {
+		hp_growth = 2949,
 		id = 17326,
 		base = 17320,
 		max_hp = 77,
-		hp_growth = 2949,
+		scale = 1,
 		weapon_ID = {
 			50326,
 			50526,
@@ -2827,10 +3752,11 @@ pg.aircraft_template = {
 		}
 	},
 	[17327] = {
+		hp_growth = 3182,
 		id = 17327,
 		base = 17320,
 		max_hp = 83,
-		hp_growth = 3182,
+		scale = 1,
 		weapon_ID = {
 			50327,
 			50527,
@@ -2838,10 +3764,11 @@ pg.aircraft_template = {
 		}
 	},
 	[17328] = {
+		hp_growth = 3415,
 		id = 17328,
 		base = 17320,
 		max_hp = 89,
-		hp_growth = 3415,
+		scale = 1,
 		weapon_ID = {
 			50328,
 			50528,
@@ -2849,10 +3776,11 @@ pg.aircraft_template = {
 		}
 	},
 	[17329] = {
+		hp_growth = 3648,
 		id = 17329,
 		base = 17320,
 		max_hp = 95,
-		hp_growth = 3648,
+		scale = 1,
 		weapon_ID = {
 			50329,
 			50529,
@@ -2860,10 +3788,11 @@ pg.aircraft_template = {
 		}
 	},
 	[17330] = {
+		hp_growth = 3881,
 		id = 17330,
 		base = 17320,
 		max_hp = 101,
-		hp_growth = 3881,
+		scale = 1,
 		weapon_ID = {
 			50330,
 			50530,
@@ -2878,9 +3807,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 156,
 		dodge = 0.315,
-		type = 1,
-		dodge_limit = 11,
 		attack_power = 2,
+		dodge_limit = 11,
+		type = 1,
 		AP_growth = 2000,
 		icon = "f6f",
 		funnel_behavior = "",
@@ -2888,6 +3817,7 @@ pg.aircraft_template = {
 		hp_growth = 1693,
 		speed = 50,
 		id = 17340,
+		scale = 1,
 		weapon_ID = {
 			50340,
 			50540,
@@ -2946,10 +3876,11 @@ pg.aircraft_template = {
 		}
 	},
 	[17341] = {
+		hp_growth = 1947,
 		id = 17341,
 		base = 17340,
 		max_hp = 51,
-		hp_growth = 1947,
+		scale = 1,
 		weapon_ID = {
 			50341,
 			50541,
@@ -2957,10 +3888,11 @@ pg.aircraft_template = {
 		}
 	},
 	[17342] = {
+		hp_growth = 2201,
 		id = 17342,
 		base = 17340,
 		max_hp = 57,
-		hp_growth = 2201,
+		scale = 1,
 		weapon_ID = {
 			50342,
 			50542,
@@ -2968,10 +3900,11 @@ pg.aircraft_template = {
 		}
 	},
 	[17343] = {
+		hp_growth = 2455,
 		id = 17343,
 		base = 17340,
 		max_hp = 64,
-		hp_growth = 2455,
+		scale = 1,
 		weapon_ID = {
 			50343,
 			50543,
@@ -2979,10 +3912,11 @@ pg.aircraft_template = {
 		}
 	},
 	[17344] = {
+		hp_growth = 2710,
 		id = 17344,
 		base = 17340,
 		max_hp = 70,
-		hp_growth = 2710,
+		scale = 1,
 		weapon_ID = {
 			50344,
 			50544,
@@ -2990,10 +3924,11 @@ pg.aircraft_template = {
 		}
 	},
 	[17345] = {
+		hp_growth = 2964,
 		id = 17345,
 		base = 17340,
 		max_hp = 77,
-		hp_growth = 2964,
+		scale = 1,
 		weapon_ID = {
 			50345,
 			50545,
@@ -3001,10 +3936,11 @@ pg.aircraft_template = {
 		}
 	},
 	[17346] = {
+		hp_growth = 3218,
 		id = 17346,
 		base = 17340,
 		max_hp = 84,
-		hp_growth = 3218,
+		scale = 1,
 		weapon_ID = {
 			50346,
 			50546,
@@ -3012,10 +3948,11 @@ pg.aircraft_template = {
 		}
 	},
 	[17347] = {
+		hp_growth = 3472,
 		id = 17347,
 		base = 17340,
 		max_hp = 90,
-		hp_growth = 3472,
+		scale = 1,
 		weapon_ID = {
 			50347,
 			50547,
@@ -3023,10 +3960,11 @@ pg.aircraft_template = {
 		}
 	},
 	[17348] = {
+		hp_growth = 3726,
 		id = 17348,
 		base = 17340,
 		max_hp = 97,
-		hp_growth = 3726,
+		scale = 1,
 		weapon_ID = {
 			50348,
 			50548,
@@ -3034,10 +3972,11 @@ pg.aircraft_template = {
 		}
 	},
 	[17349] = {
+		hp_growth = 3980,
 		id = 17349,
 		base = 17340,
 		max_hp = 103,
-		hp_growth = 3980,
+		scale = 1,
 		weapon_ID = {
 			50349,
 			50549,
@@ -3045,10 +3984,11 @@ pg.aircraft_template = {
 		}
 	},
 	[17350] = {
+		hp_growth = 4234,
 		id = 17350,
 		base = 17340,
 		max_hp = 110,
-		hp_growth = 4234,
+		scale = 1,
 		weapon_ID = {
 			50350,
 			50550,
@@ -3063,9 +4003,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 136,
 		dodge = 0.333,
-		type = 1,
-		dodge_limit = 9,
 		attack_power = 2,
+		dodge_limit = 9,
+		type = 1,
 		AP_growth = 2000,
 		icon = "XF5F",
 		funnel_behavior = "",
@@ -3073,6 +4013,7 @@ pg.aircraft_template = {
 		hp_growth = 1552,
 		speed = 47,
 		id = 17400,
+		scale = 1,
 		weapon_ID = {
 			50540,
 			50740
@@ -3125,100 +4066,110 @@ pg.aircraft_template = {
 		}
 	},
 	[17401] = {
+		hp_growth = 1785,
 		id = 17401,
 		base = 17400,
 		max_hp = 46,
-		hp_growth = 1785,
+		scale = 1,
 		weapon_ID = {
 			50541,
 			50741
 		}
 	},
 	[17402] = {
+		hp_growth = 2018,
 		id = 17402,
 		base = 17400,
 		max_hp = 52,
-		hp_growth = 2018,
+		scale = 1,
 		weapon_ID = {
 			50542,
 			50742
 		}
 	},
 	[17403] = {
+		hp_growth = 2251,
 		id = 17403,
 		base = 17400,
 		max_hp = 59,
-		hp_growth = 2251,
+		scale = 1,
 		weapon_ID = {
 			50543,
 			50743
 		}
 	},
 	[17404] = {
+		hp_growth = 2484,
 		id = 17404,
 		base = 17400,
 		max_hp = 65,
-		hp_growth = 2484,
+		scale = 1,
 		weapon_ID = {
 			50544,
 			50744
 		}
 	},
 	[17405] = {
+		hp_growth = 2717,
 		id = 17405,
 		base = 17400,
 		max_hp = 71,
-		hp_growth = 2717,
+		scale = 1,
 		weapon_ID = {
 			50545,
 			50745
 		}
 	},
 	[17406] = {
+		hp_growth = 2949,
 		id = 17406,
 		base = 17400,
 		max_hp = 77,
-		hp_growth = 2949,
+		scale = 1,
 		weapon_ID = {
 			50546,
 			50746
 		}
 	},
 	[17407] = {
+		hp_growth = 3182,
 		id = 17407,
 		base = 17400,
 		max_hp = 83,
-		hp_growth = 3182,
+		scale = 1,
 		weapon_ID = {
 			50547,
 			50747
 		}
 	},
 	[17408] = {
+		hp_growth = 3415,
 		id = 17408,
 		base = 17400,
 		max_hp = 89,
-		hp_growth = 3415,
+		scale = 1,
 		weapon_ID = {
 			50548,
 			50748
 		}
 	},
 	[17409] = {
+		hp_growth = 3648,
 		id = 17409,
 		base = 17400,
 		max_hp = 95,
-		hp_growth = 3648,
+		scale = 1,
 		weapon_ID = {
 			50549,
 			50749
 		}
 	},
 	[17410] = {
+		hp_growth = 3881,
 		id = 17410,
 		base = 17400,
 		max_hp = 101,
-		hp_growth = 3881,
+		scale = 1,
 		weapon_ID = {
 			50550,
 			50750
@@ -3232,9 +4183,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 300,
 		dodge = 1.25,
-		type = 2,
-		dodge_limit = 3,
 		attack_power = 2,
+		dodge_limit = 3,
+		type = 2,
 		AP_growth = 2000,
 		icon = "tbd",
 		funnel_behavior = "",
@@ -3242,6 +4193,7 @@ pg.aircraft_template = {
 		hp_growth = 1021,
 		speed = 48,
 		id = 18000,
+		scale = 1,
 		weapon_ID = {
 			50000,
 			51000
@@ -3299,30 +4251,33 @@ pg.aircraft_template = {
 		}
 	},
 	[18001] = {
+		hp_growth = 1175,
 		id = 18001,
 		base = 18000,
 		max_hp = 31,
-		hp_growth = 1175,
+		scale = 1,
 		weapon_ID = {
 			50001,
 			51001
 		}
 	},
 	[18002] = {
+		hp_growth = 1328,
 		id = 18002,
 		base = 18000,
 		max_hp = 35,
-		hp_growth = 1328,
+		scale = 1,
 		weapon_ID = {
 			50002,
 			51002
 		}
 	},
 	[18003] = {
+		hp_growth = 1481,
 		id = 18003,
 		base = 18000,
 		max_hp = 39,
-		hp_growth = 1481,
+		scale = 1,
 		weapon_ID = {
 			50003,
 			51003
@@ -3336,9 +4291,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 300,
 		dodge = 1.21,
-		type = 2,
-		dodge_limit = 3.5,
 		attack_power = 2,
+		dodge_limit = 3.5,
+		type = 2,
 		AP_growth = 2000,
 		icon = "tbd",
 		funnel_behavior = "",
@@ -3346,6 +4301,7 @@ pg.aircraft_template = {
 		hp_growth = 1149,
 		speed = 48,
 		id = 18020,
+		scale = 1,
 		weapon_ID = {
 			50020,
 			51020
@@ -3403,30 +4359,33 @@ pg.aircraft_template = {
 		}
 	},
 	[18021] = {
+		hp_growth = 1321,
 		id = 18021,
 		base = 18020,
 		max_hp = 34,
-		hp_growth = 1321,
+		scale = 1,
 		weapon_ID = {
 			50021,
 			51021
 		}
 	},
 	[18022] = {
+		hp_growth = 1494,
 		id = 18022,
 		base = 18020,
 		max_hp = 39,
-		hp_growth = 1494,
+		scale = 1,
 		weapon_ID = {
 			50022,
 			51022
 		}
 	},
 	[18023] = {
+		hp_growth = 1666,
 		id = 18023,
 		base = 18020,
 		max_hp = 43,
-		hp_growth = 1666,
+		scale = 1,
 		weapon_ID = {
 			50023,
 			51023
@@ -3440,9 +4399,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 300,
 		dodge = 1.17,
-		type = 2,
-		dodge_limit = 4,
 		attack_power = 2,
+		dodge_limit = 4,
+		type = 2,
 		AP_growth = 2000,
 		icon = "tbd",
 		funnel_behavior = "",
@@ -3450,6 +4409,7 @@ pg.aircraft_template = {
 		hp_growth = 1277,
 		speed = 48,
 		id = 18040,
+		scale = 1,
 		weapon_ID = {
 			50040,
 			51040
@@ -3507,60 +4467,66 @@ pg.aircraft_template = {
 		}
 	},
 	[18041] = {
+		hp_growth = 1468,
 		id = 18041,
 		base = 18040,
 		max_hp = 38,
-		hp_growth = 1468,
+		scale = 1,
 		weapon_ID = {
 			50041,
 			51041
 		}
 	},
 	[18042] = {
+		hp_growth = 1660,
 		id = 18042,
 		base = 18040,
 		max_hp = 43,
-		hp_growth = 1660,
+		scale = 1,
 		weapon_ID = {
 			50042,
 			51042
 		}
 	},
 	[18043] = {
+		hp_growth = 1851,
 		id = 18043,
 		base = 18040,
 		max_hp = 48,
-		hp_growth = 1851,
+		scale = 1,
 		weapon_ID = {
 			50043,
 			51043
 		}
 	},
 	[18044] = {
+		hp_growth = 2043,
 		id = 18044,
 		base = 18040,
 		max_hp = 53,
-		hp_growth = 2043,
+		scale = 1,
 		weapon_ID = {
 			50044,
 			51044
 		}
 	},
 	[18045] = {
+		hp_growth = 2234,
 		id = 18045,
 		base = 18040,
 		max_hp = 58,
-		hp_growth = 2234,
+		scale = 1,
 		weapon_ID = {
 			50045,
 			51045
 		}
 	},
 	[18046] = {
+		hp_growth = 2426,
 		id = 18046,
 		base = 18040,
 		max_hp = 63,
-		hp_growth = 2426,
+		scale = 1,
 		weapon_ID = {
 			50046,
 			51046
@@ -3574,9 +4540,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 300,
 		dodge = 1.17,
-		type = 2,
-		dodge_limit = 5,
 		attack_power = 2,
+		dodge_limit = 5,
+		type = 2,
 		AP_growth = 2000,
 		icon = "tbdvt-8",
 		funnel_behavior = "",
@@ -3584,6 +4550,7 @@ pg.aircraft_template = {
 		hp_growth = 1456,
 		speed = 48,
 		id = 18060,
+		scale = 1,
 		weapon_ID = {
 			59560,
 			59580
@@ -3641,100 +4608,110 @@ pg.aircraft_template = {
 		}
 	},
 	[18061] = {
+		hp_growth = 1674,
 		id = 18061,
 		base = 18060,
 		max_hp = 44,
-		hp_growth = 1674,
+		scale = 1,
 		weapon_ID = {
 			59561,
 			59581
 		}
 	},
 	[18062] = {
+		hp_growth = 1892,
 		id = 18062,
 		base = 18060,
 		max_hp = 49,
-		hp_growth = 1892,
+		scale = 1,
 		weapon_ID = {
 			59562,
 			59582
 		}
 	},
 	[18063] = {
+		hp_growth = 2111,
 		id = 18063,
 		base = 18060,
 		max_hp = 55,
-		hp_growth = 2111,
+		scale = 1,
 		weapon_ID = {
 			59563,
 			59583
 		}
 	},
 	[18064] = {
+		hp_growth = 2329,
 		id = 18064,
 		base = 18060,
 		max_hp = 61,
-		hp_growth = 2329,
+		scale = 1,
 		weapon_ID = {
 			59564,
 			59584
 		}
 	},
 	[18065] = {
+		hp_growth = 2547,
 		id = 18065,
 		base = 18060,
 		max_hp = 66,
-		hp_growth = 2547,
+		scale = 1,
 		weapon_ID = {
 			59565,
 			59585
 		}
 	},
 	[18066] = {
+		hp_growth = 2766,
 		id = 18066,
 		base = 18060,
 		max_hp = 72,
-		hp_growth = 2766,
+		scale = 1,
 		weapon_ID = {
 			59566,
 			59586
 		}
 	},
 	[18067] = {
+		hp_growth = 2984,
 		id = 18067,
 		base = 18060,
 		max_hp = 78,
-		hp_growth = 2984,
+		scale = 1,
 		weapon_ID = {
 			59567,
 			59587
 		}
 	},
 	[18068] = {
+		hp_growth = 3202,
 		id = 18068,
 		base = 18060,
 		max_hp = 83,
-		hp_growth = 3202,
+		scale = 1,
 		weapon_ID = {
 			59568,
 			59588
 		}
 	},
 	[18069] = {
+		hp_growth = 3421,
 		id = 18069,
 		base = 18060,
 		max_hp = 89,
-		hp_growth = 3421,
+		scale = 1,
 		weapon_ID = {
 			59569,
 			59589
 		}
 	},
 	[18070] = {
+		hp_growth = 3639,
 		id = 18070,
 		base = 18060,
 		max_hp = 95,
-		hp_growth = 3639,
+		scale = 1,
 		weapon_ID = {
 			59570,
 			59590
@@ -3748,9 +4725,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 406,
 		dodge = 1.19,
-		type = 2,
-		dodge_limit = 4,
 		attack_power = 2,
+		dodge_limit = 4,
+		type = 2,
 		AP_growth = 2000,
 		icon = "tbf",
 		funnel_behavior = "",
@@ -3758,6 +4735,7 @@ pg.aircraft_template = {
 		hp_growth = 1149,
 		speed = 48,
 		id = 18100,
+		scale = 1,
 		weapon_ID = {
 			50000,
 			51100
@@ -3815,30 +4793,33 @@ pg.aircraft_template = {
 		}
 	},
 	[18101] = {
+		hp_growth = 1321,
 		id = 18101,
 		base = 18100,
 		max_hp = 34,
-		hp_growth = 1321,
+		scale = 1,
 		weapon_ID = {
 			50001,
 			51101
 		}
 	},
 	[18102] = {
+		hp_growth = 1494,
 		id = 18102,
 		base = 18100,
 		max_hp = 39,
-		hp_growth = 1494,
+		scale = 1,
 		weapon_ID = {
 			50002,
 			51102
 		}
 	},
 	[18103] = {
+		hp_growth = 1666,
 		id = 18103,
 		base = 18100,
 		max_hp = 43,
-		hp_growth = 1666,
+		scale = 1,
 		weapon_ID = {
 			50003,
 			51103
@@ -3852,9 +4833,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 406,
 		dodge = 1.15,
-		type = 2,
-		dodge_limit = 4.5,
 		attack_power = 2,
+		dodge_limit = 4.5,
+		type = 2,
 		AP_growth = 2000,
 		icon = "tbf",
 		funnel_behavior = "",
@@ -3862,6 +4843,7 @@ pg.aircraft_template = {
 		hp_growth = 1277,
 		speed = 48,
 		id = 18120,
+		scale = 1,
 		weapon_ID = {
 			50020,
 			51120
@@ -3919,60 +4901,66 @@ pg.aircraft_template = {
 		}
 	},
 	[18121] = {
+		hp_growth = 1468,
 		id = 18121,
 		base = 18120,
 		max_hp = 38,
-		hp_growth = 1468,
+		scale = 1,
 		weapon_ID = {
 			50021,
 			51121
 		}
 	},
 	[18122] = {
+		hp_growth = 1660,
 		id = 18122,
 		base = 18120,
 		max_hp = 43,
-		hp_growth = 1660,
+		scale = 1,
 		weapon_ID = {
 			50022,
 			51122
 		}
 	},
 	[18123] = {
+		hp_growth = 1851,
 		id = 18123,
 		base = 18120,
 		max_hp = 48,
-		hp_growth = 1851,
+		scale = 1,
 		weapon_ID = {
 			50023,
 			51123
 		}
 	},
 	[18124] = {
+		hp_growth = 2043,
 		id = 18124,
 		base = 18120,
 		max_hp = 53,
-		hp_growth = 2043,
+		scale = 1,
 		weapon_ID = {
 			50024,
 			51124
 		}
 	},
 	[18125] = {
+		hp_growth = 2234,
 		id = 18125,
 		base = 18120,
 		max_hp = 58,
-		hp_growth = 2234,
+		scale = 1,
 		weapon_ID = {
 			50025,
 			51125
 		}
 	},
 	[18126] = {
+		hp_growth = 2426,
 		id = 18126,
 		base = 18120,
 		max_hp = 63,
-		hp_growth = 2426,
+		scale = 1,
 		weapon_ID = {
 			50026,
 			51126
@@ -3986,9 +4974,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 406,
 		dodge = 1.11,
-		type = 2,
-		dodge_limit = 5,
 		attack_power = 2,
+		dodge_limit = 5,
+		type = 2,
 		AP_growth = 2000,
 		icon = "tbf",
 		funnel_behavior = "",
@@ -3996,6 +4984,7 @@ pg.aircraft_template = {
 		hp_growth = 1404,
 		speed = 48,
 		id = 18140,
+		scale = 1,
 		weapon_ID = {
 			50040,
 			51140
@@ -4053,100 +5042,110 @@ pg.aircraft_template = {
 		}
 	},
 	[18141] = {
+		hp_growth = 1615,
 		id = 18141,
 		base = 18140,
 		max_hp = 42,
-		hp_growth = 1615,
+		scale = 1,
 		weapon_ID = {
 			50041,
 			51141
 		}
 	},
 	[18142] = {
+		hp_growth = 1826,
 		id = 18142,
 		base = 18140,
 		max_hp = 47,
-		hp_growth = 1826,
+		scale = 1,
 		weapon_ID = {
 			50042,
 			51142
 		}
 	},
 	[18143] = {
+		hp_growth = 2036,
 		id = 18143,
 		base = 18140,
 		max_hp = 53,
-		hp_growth = 2036,
+		scale = 1,
 		weapon_ID = {
 			50043,
 			51143
 		}
 	},
 	[18144] = {
+		hp_growth = 2247,
 		id = 18144,
 		base = 18140,
 		max_hp = 58,
-		hp_growth = 2247,
+		scale = 1,
 		weapon_ID = {
 			50044,
 			51144
 		}
 	},
 	[18145] = {
+		hp_growth = 2458,
 		id = 18145,
 		base = 18140,
 		max_hp = 64,
-		hp_growth = 2458,
+		scale = 1,
 		weapon_ID = {
 			50045,
 			51145
 		}
 	},
 	[18146] = {
+		hp_growth = 2669,
 		id = 18146,
 		base = 18140,
 		max_hp = 69,
-		hp_growth = 2669,
+		scale = 1,
 		weapon_ID = {
 			50046,
 			51146
 		}
 	},
 	[18147] = {
+		hp_growth = 2879,
 		id = 18147,
 		base = 18140,
 		max_hp = 75,
-		hp_growth = 2879,
+		scale = 1,
 		weapon_ID = {
 			50047,
 			51147
 		}
 	},
 	[18148] = {
+		hp_growth = 3090,
 		id = 18148,
 		base = 18140,
 		max_hp = 80,
-		hp_growth = 3090,
+		scale = 1,
 		weapon_ID = {
 			50048,
 			51148
 		}
 	},
 	[18149] = {
+		hp_growth = 3301,
 		id = 18149,
 		base = 18140,
 		max_hp = 86,
-		hp_growth = 3301,
+		scale = 1,
 		weapon_ID = {
 			50049,
 			51149
 		}
 	},
 	[18150] = {
+		hp_growth = 3511,
 		id = 18150,
 		base = 18140,
 		max_hp = 91,
-		hp_growth = 3511,
+		scale = 1,
 		weapon_ID = {
 			50050,
 			51150
@@ -4160,9 +5159,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 300,
 		dodge = 1.05,
-		type = 2,
-		dodge_limit = 6,
 		attack_power = 2,
+		dodge_limit = 6,
+		type = 2,
 		AP_growth = 2000,
 		icon = "tbf",
 		funnel_behavior = "",
@@ -4170,6 +5169,7 @@ pg.aircraft_template = {
 		hp_growth = 1456,
 		speed = 48,
 		id = 18160,
+		scale = 1,
 		weapon_ID = {
 			50040,
 			59600
@@ -4227,100 +5227,110 @@ pg.aircraft_template = {
 		}
 	},
 	[18161] = {
+		hp_growth = 1674,
 		id = 18161,
 		base = 18160,
 		max_hp = 44,
-		hp_growth = 1674,
+		scale = 1,
 		weapon_ID = {
 			50041,
 			59601
 		}
 	},
 	[18162] = {
+		hp_growth = 1892,
 		id = 18162,
 		base = 18160,
 		max_hp = 49,
-		hp_growth = 1892,
+		scale = 1,
 		weapon_ID = {
 			50042,
 			59602
 		}
 	},
 	[18163] = {
+		hp_growth = 2111,
 		id = 18163,
 		base = 18160,
 		max_hp = 55,
-		hp_growth = 2111,
+		scale = 1,
 		weapon_ID = {
 			50043,
 			59603
 		}
 	},
 	[18164] = {
+		hp_growth = 2329,
 		id = 18164,
 		base = 18160,
 		max_hp = 61,
-		hp_growth = 2329,
+		scale = 1,
 		weapon_ID = {
 			50044,
 			59604
 		}
 	},
 	[18165] = {
+		hp_growth = 2547,
 		id = 18165,
 		base = 18160,
 		max_hp = 66,
-		hp_growth = 2547,
+		scale = 1,
 		weapon_ID = {
 			50045,
 			59605
 		}
 	},
 	[18166] = {
+		hp_growth = 2766,
 		id = 18166,
 		base = 18160,
 		max_hp = 72,
-		hp_growth = 2766,
+		scale = 1,
 		weapon_ID = {
 			50046,
 			59606
 		}
 	},
 	[18167] = {
+		hp_growth = 2984,
 		id = 18167,
 		base = 18160,
 		max_hp = 78,
-		hp_growth = 2984,
+		scale = 1,
 		weapon_ID = {
 			50047,
 			59607
 		}
 	},
 	[18168] = {
+		hp_growth = 3202,
 		id = 18168,
 		base = 18160,
 		max_hp = 83,
-		hp_growth = 3202,
+		scale = 1,
 		weapon_ID = {
 			50048,
 			59608
 		}
 	},
 	[18169] = {
+		hp_growth = 3421,
 		id = 18169,
 		base = 18160,
 		max_hp = 89,
-		hp_growth = 3421,
+		scale = 1,
 		weapon_ID = {
 			50049,
 			59609
 		}
 	},
 	[18170] = {
+		hp_growth = 3639,
 		id = 18170,
 		base = 18160,
 		max_hp = 95,
-		hp_growth = 3639,
+		scale = 1,
 		weapon_ID = {
 			50050,
 			59610
@@ -4334,9 +5344,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 156,
 		dodge = 3.75,
-		type = 3,
-		dodge_limit = 0.8,
 		attack_power = 2,
+		dodge_limit = 0.8,
+		type = 3,
 		AP_growth = 2000,
 		icon = "sbdwuwei",
 		funnel_behavior = "",
@@ -4344,6 +5354,7 @@ pg.aircraft_template = {
 		hp_growth = 1183,
 		speed = 45,
 		id = 19000,
+		scale = 1,
 		weapon_ID = {
 			50700,
 			52900,
@@ -4402,10 +5413,11 @@ pg.aircraft_template = {
 		}
 	},
 	[19001] = {
+		hp_growth = 1360,
 		id = 19001,
 		base = 19000,
 		max_hp = 35,
-		hp_growth = 1360,
+		scale = 1,
 		weapon_ID = {
 			50701,
 			52901,
@@ -4413,10 +5425,11 @@ pg.aircraft_template = {
 		}
 	},
 	[19002] = {
+		hp_growth = 1538,
 		id = 19002,
 		base = 19000,
 		max_hp = 40,
-		hp_growth = 1538,
+		scale = 1,
 		weapon_ID = {
 			50702,
 			52902,
@@ -4424,10 +5437,11 @@ pg.aircraft_template = {
 		}
 	},
 	[19003] = {
+		hp_growth = 1715,
 		id = 19003,
 		base = 19000,
 		max_hp = 45,
-		hp_growth = 1715,
+		scale = 1,
 		weapon_ID = {
 			50703,
 			52903,
@@ -4442,9 +5456,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 156,
 		dodge = 3.63,
-		type = 3,
-		dodge_limit = 0.9,
 		attack_power = 2,
+		dodge_limit = 0.9,
+		type = 3,
 		AP_growth = 2000,
 		icon = "sbdwuwei",
 		funnel_behavior = "",
@@ -4452,6 +5466,7 @@ pg.aircraft_template = {
 		hp_growth = 1331,
 		speed = 45,
 		id = 19020,
+		scale = 1,
 		weapon_ID = {
 			50720,
 			52920,
@@ -4510,10 +5525,11 @@ pg.aircraft_template = {
 		}
 	},
 	[19021] = {
+		hp_growth = 1530,
 		id = 19021,
 		base = 19020,
 		max_hp = 40,
-		hp_growth = 1530,
+		scale = 1,
 		weapon_ID = {
 			50721,
 			52921,
@@ -4521,10 +5537,11 @@ pg.aircraft_template = {
 		}
 	},
 	[19022] = {
+		hp_growth = 1730,
 		id = 19022,
 		base = 19020,
 		max_hp = 45,
-		hp_growth = 1730,
+		scale = 1,
 		weapon_ID = {
 			50722,
 			52922,
@@ -4532,10 +5549,11 @@ pg.aircraft_template = {
 		}
 	},
 	[19023] = {
+		hp_growth = 1929,
 		id = 19023,
 		base = 19020,
 		max_hp = 50,
-		hp_growth = 1929,
+		scale = 1,
 		weapon_ID = {
 			50723,
 			52923,
@@ -4550,9 +5568,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 156,
 		dodge = 3.51,
-		type = 3,
-		dodge_limit = 1,
 		attack_power = 2,
+		dodge_limit = 1,
+		type = 3,
 		AP_growth = 2000,
 		icon = "sbdwuwei",
 		funnel_behavior = "",
@@ -4560,6 +5578,7 @@ pg.aircraft_template = {
 		hp_growth = 1478,
 		speed = 45,
 		id = 19040,
+		scale = 1,
 		weapon_ID = {
 			50740,
 			52940,
@@ -4618,10 +5637,11 @@ pg.aircraft_template = {
 		}
 	},
 	[19041] = {
+		hp_growth = 1700,
 		id = 19041,
 		base = 19040,
 		max_hp = 44,
-		hp_growth = 1700,
+		scale = 1,
 		weapon_ID = {
 			50741,
 			52941,
@@ -4629,10 +5649,11 @@ pg.aircraft_template = {
 		}
 	},
 	[19042] = {
+		hp_growth = 1922,
 		id = 19042,
 		base = 19040,
 		max_hp = 50,
-		hp_growth = 1922,
+		scale = 1,
 		weapon_ID = {
 			50742,
 			52942,
@@ -4640,10 +5661,11 @@ pg.aircraft_template = {
 		}
 	},
 	[19043] = {
+		hp_growth = 2144,
 		id = 19043,
 		base = 19040,
 		max_hp = 56,
-		hp_growth = 2144,
+		scale = 1,
 		weapon_ID = {
 			50743,
 			52943,
@@ -4651,10 +5673,11 @@ pg.aircraft_template = {
 		}
 	},
 	[19044] = {
+		hp_growth = 2365,
 		id = 19044,
 		base = 19040,
 		max_hp = 62,
-		hp_growth = 2365,
+		scale = 1,
 		weapon_ID = {
 			50744,
 			52944,
@@ -4662,10 +5685,11 @@ pg.aircraft_template = {
 		}
 	},
 	[19045] = {
+		hp_growth = 2587,
 		id = 19045,
 		base = 19040,
 		max_hp = 67,
-		hp_growth = 2587,
+		scale = 1,
 		weapon_ID = {
 			50745,
 			52945,
@@ -4673,10 +5697,11 @@ pg.aircraft_template = {
 		}
 	},
 	[19046] = {
+		hp_growth = 2809,
 		id = 19046,
 		base = 19040,
 		max_hp = 73,
-		hp_growth = 2809,
+		scale = 1,
 		weapon_ID = {
 			50746,
 			52946,
@@ -4691,9 +5716,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 193,
 		dodge = 2.97,
-		type = 3,
-		dodge_limit = 2,
 		attack_power = 2,
+		dodge_limit = 2,
+		type = 3,
 		AP_growth = 2000,
 		icon = "sbdwuwei_2",
 		funnel_behavior = "",
@@ -4701,6 +5726,7 @@ pg.aircraft_template = {
 		hp_growth = 1774,
 		speed = 46,
 		id = 19060,
+		scale = 1,
 		weapon_ID = {
 			52960,
 			52160
@@ -4758,100 +5784,110 @@ pg.aircraft_template = {
 		}
 	},
 	[19061] = {
+		hp_growth = 2040,
 		id = 19061,
 		base = 19060,
 		max_hp = 53,
-		hp_growth = 2040,
+		scale = 1,
 		weapon_ID = {
 			52961,
 			52161
 		}
 	},
 	[19062] = {
+		hp_growth = 2306,
 		id = 19062,
 		base = 19060,
 		max_hp = 60,
-		hp_growth = 2306,
+		scale = 1,
 		weapon_ID = {
 			52962,
 			52162
 		}
 	},
 	[19063] = {
+		hp_growth = 2572,
 		id = 19063,
 		base = 19060,
 		max_hp = 67,
-		hp_growth = 2572,
+		scale = 1,
 		weapon_ID = {
 			52963,
 			52163
 		}
 	},
 	[19064] = {
+		hp_growth = 2839,
 		id = 19064,
 		base = 19060,
 		max_hp = 74,
-		hp_growth = 2839,
+		scale = 1,
 		weapon_ID = {
 			52964,
 			52164
 		}
 	},
 	[19065] = {
+		hp_growth = 3105,
 		id = 19065,
 		base = 19060,
 		max_hp = 81,
-		hp_growth = 3105,
+		scale = 1,
 		weapon_ID = {
 			52965,
 			52165
 		}
 	},
 	[19066] = {
+		hp_growth = 3371,
 		id = 19066,
 		base = 19060,
 		max_hp = 88,
-		hp_growth = 3371,
+		scale = 1,
 		weapon_ID = {
 			52966,
 			52166
 		}
 	},
 	[19067] = {
+		hp_growth = 3637,
 		id = 19067,
 		base = 19060,
 		max_hp = 95,
-		hp_growth = 3637,
+		scale = 1,
 		weapon_ID = {
 			52967,
 			52167
 		}
 	},
 	[19068] = {
+		hp_growth = 3903,
 		id = 19068,
 		base = 19060,
 		max_hp = 101,
-		hp_growth = 3903,
+		scale = 1,
 		weapon_ID = {
 			52968,
 			52168
 		}
 	},
 	[19069] = {
+		hp_growth = 4169,
 		id = 19069,
 		base = 19060,
 		max_hp = 108,
-		hp_growth = 4169,
+		scale = 1,
 		weapon_ID = {
 			52969,
 			52169
 		}
 	},
 	[19070] = {
+		hp_growth = 4435,
 		id = 19070,
 		base = 19060,
 		max_hp = 115,
-		hp_growth = 4435,
+		scale = 1,
 		weapon_ID = {
 			52970,
 			52170
@@ -4865,9 +5901,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 180,
 		dodge = 3.57,
-		type = 3,
-		dodge_limit = 0.8,
 		attack_power = 2,
+		dodge_limit = 0.8,
+		type = 3,
 		AP_growth = 2000,
 		icon = "sb2c",
 		funnel_behavior = "",
@@ -4875,6 +5911,7 @@ pg.aircraft_template = {
 		hp_growth = 1331,
 		speed = 45,
 		id = 19100,
+		scale = 1,
 		weapon_ID = {
 			50700,
 			52900,
@@ -4933,10 +5970,11 @@ pg.aircraft_template = {
 		}
 	},
 	[19101] = {
+		hp_growth = 1530,
 		id = 19101,
 		base = 19100,
 		max_hp = 40,
-		hp_growth = 1530,
+		scale = 1,
 		weapon_ID = {
 			50701,
 			52901,
@@ -4944,10 +5982,11 @@ pg.aircraft_template = {
 		}
 	},
 	[19102] = {
+		hp_growth = 1730,
 		id = 19102,
 		base = 19100,
 		max_hp = 45,
-		hp_growth = 1730,
+		scale = 1,
 		weapon_ID = {
 			50702,
 			52902,
@@ -4955,10 +5994,11 @@ pg.aircraft_template = {
 		}
 	},
 	[19103] = {
+		hp_growth = 1929,
 		id = 19103,
 		base = 19100,
 		max_hp = 50,
-		hp_growth = 1929,
+		scale = 1,
 		weapon_ID = {
 			50703,
 			52903,
@@ -4973,9 +6013,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 180,
 		dodge = 3.45,
-		type = 3,
-		dodge_limit = 0.9,
 		attack_power = 2,
+		dodge_limit = 0.9,
+		type = 3,
 		AP_growth = 2000,
 		icon = "sb2c",
 		funnel_behavior = "",
@@ -4983,6 +6023,7 @@ pg.aircraft_template = {
 		hp_growth = 1478,
 		speed = 45,
 		id = 19120,
+		scale = 1,
 		weapon_ID = {
 			50720,
 			52920,
@@ -5041,10 +6082,11 @@ pg.aircraft_template = {
 		}
 	},
 	[19121] = {
+		hp_growth = 1700,
 		id = 19121,
 		base = 19120,
 		max_hp = 44,
-		hp_growth = 1700,
+		scale = 1,
 		weapon_ID = {
 			50721,
 			52921,
@@ -5052,10 +6094,11 @@ pg.aircraft_template = {
 		}
 	},
 	[19122] = {
+		hp_growth = 1922,
 		id = 19122,
 		base = 19120,
 		max_hp = 50,
-		hp_growth = 1922,
+		scale = 1,
 		weapon_ID = {
 			50722,
 			52922,
@@ -5063,10 +6106,11 @@ pg.aircraft_template = {
 		}
 	},
 	[19123] = {
+		hp_growth = 2144,
 		id = 19123,
 		base = 19120,
 		max_hp = 56,
-		hp_growth = 2144,
+		scale = 1,
 		weapon_ID = {
 			50723,
 			52923,
@@ -5074,10 +6118,11 @@ pg.aircraft_template = {
 		}
 	},
 	[19124] = {
+		hp_growth = 2365,
 		id = 19124,
 		base = 19120,
 		max_hp = 62,
-		hp_growth = 2365,
+		scale = 1,
 		weapon_ID = {
 			50724,
 			52924,
@@ -5085,10 +6130,11 @@ pg.aircraft_template = {
 		}
 	},
 	[19125] = {
+		hp_growth = 2587,
 		id = 19125,
 		base = 19120,
 		max_hp = 67,
-		hp_growth = 2587,
+		scale = 1,
 		weapon_ID = {
 			50725,
 			52925,
@@ -5096,10 +6142,11 @@ pg.aircraft_template = {
 		}
 	},
 	[19126] = {
+		hp_growth = 2809,
 		id = 19126,
 		base = 19120,
 		max_hp = 73,
-		hp_growth = 2809,
+		scale = 1,
 		weapon_ID = {
 			50726,
 			52926,
@@ -5114,9 +6161,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 180,
 		dodge = 3.33,
-		type = 3,
-		dodge_limit = 1,
 		attack_power = 2,
+		dodge_limit = 1,
+		type = 3,
 		AP_growth = 2000,
 		icon = "sb2c",
 		funnel_behavior = "",
@@ -5124,6 +6171,7 @@ pg.aircraft_template = {
 		hp_growth = 1626,
 		speed = 45,
 		id = 19140,
+		scale = 1,
 		weapon_ID = {
 			50740,
 			52940,
@@ -5182,10 +6230,11 @@ pg.aircraft_template = {
 		}
 	},
 	[19141] = {
+		hp_growth = 1870,
 		id = 19141,
 		base = 19140,
 		max_hp = 49,
-		hp_growth = 1870,
+		scale = 1,
 		weapon_ID = {
 			50741,
 			52941,
@@ -5193,10 +6242,11 @@ pg.aircraft_template = {
 		}
 	},
 	[19142] = {
+		hp_growth = 2114,
 		id = 19142,
 		base = 19140,
 		max_hp = 55,
-		hp_growth = 2114,
+		scale = 1,
 		weapon_ID = {
 			50742,
 			52942,
@@ -5204,10 +6254,11 @@ pg.aircraft_template = {
 		}
 	},
 	[19143] = {
+		hp_growth = 2358,
 		id = 19143,
 		base = 19140,
 		max_hp = 61,
-		hp_growth = 2358,
+		scale = 1,
 		weapon_ID = {
 			50743,
 			52943,
@@ -5215,10 +6266,11 @@ pg.aircraft_template = {
 		}
 	},
 	[19144] = {
+		hp_growth = 2602,
 		id = 19144,
 		base = 19140,
 		max_hp = 68,
-		hp_growth = 2602,
+		scale = 1,
 		weapon_ID = {
 			50744,
 			52944,
@@ -5226,10 +6278,11 @@ pg.aircraft_template = {
 		}
 	},
 	[19145] = {
+		hp_growth = 2846,
 		id = 19145,
 		base = 19140,
 		max_hp = 74,
-		hp_growth = 2846,
+		scale = 1,
 		weapon_ID = {
 			50745,
 			52945,
@@ -5237,10 +6290,11 @@ pg.aircraft_template = {
 		}
 	},
 	[19146] = {
+		hp_growth = 3090,
 		id = 19146,
 		base = 19140,
 		max_hp = 80,
-		hp_growth = 3090,
+		scale = 1,
 		weapon_ID = {
 			50746,
 			52946,
@@ -5248,10 +6302,11 @@ pg.aircraft_template = {
 		}
 	},
 	[19147] = {
+		hp_growth = 3334,
 		id = 19147,
 		base = 19140,
 		max_hp = 87,
-		hp_growth = 3334,
+		scale = 1,
 		weapon_ID = {
 			50747,
 			52947,
@@ -5259,10 +6314,11 @@ pg.aircraft_template = {
 		}
 	},
 	[19148] = {
+		hp_growth = 3578,
 		id = 19148,
 		base = 19140,
 		max_hp = 93,
-		hp_growth = 3578,
+		scale = 1,
 		weapon_ID = {
 			50748,
 			52948,
@@ -5270,10 +6326,11 @@ pg.aircraft_template = {
 		}
 	},
 	[19149] = {
+		hp_growth = 3822,
 		id = 19149,
 		base = 19140,
 		max_hp = 99,
-		hp_growth = 3822,
+		scale = 1,
 		weapon_ID = {
 			50749,
 			52949,
@@ -5281,10 +6338,11 @@ pg.aircraft_template = {
 		}
 	},
 	[19150] = {
+		hp_growth = 4066,
 		id = 19150,
 		base = 19140,
 		max_hp = 106,
-		hp_growth = 4066,
+		scale = 1,
 		weapon_ID = {
 			50750,
 			52950,
@@ -5299,9 +6357,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 206,
 		dodge = 3.39,
-		type = 3,
-		dodge_limit = 1.6,
 		attack_power = 2,
+		dodge_limit = 1.6,
+		type = 3,
 		AP_growth = 2000,
 		icon = "BTD",
 		funnel_behavior = "",
@@ -5309,6 +6367,7 @@ pg.aircraft_template = {
 		hp_growth = 1478,
 		speed = 45,
 		id = 19200,
+		scale = 1,
 		weapon_ID = {
 			50500,
 			52800
@@ -5366,60 +6425,66 @@ pg.aircraft_template = {
 		}
 	},
 	[19201] = {
+		hp_growth = 1700,
 		id = 19201,
 		base = 19200,
 		max_hp = 44,
-		hp_growth = 1700,
+		scale = 1,
 		weapon_ID = {
 			50501,
 			52801
 		}
 	},
 	[19202] = {
+		hp_growth = 1922,
 		id = 19202,
 		base = 19200,
 		max_hp = 50,
-		hp_growth = 1922,
+		scale = 1,
 		weapon_ID = {
 			50502,
 			52802
 		}
 	},
 	[19203] = {
+		hp_growth = 2144,
 		id = 19203,
 		base = 19200,
 		max_hp = 56,
-		hp_growth = 2144,
+		scale = 1,
 		weapon_ID = {
 			50503,
 			52803
 		}
 	},
 	[19204] = {
+		hp_growth = 2365,
 		id = 19204,
 		base = 19200,
 		max_hp = 62,
-		hp_growth = 2365,
+		scale = 1,
 		weapon_ID = {
 			50504,
 			52804
 		}
 	},
 	[19205] = {
+		hp_growth = 2587,
 		id = 19205,
 		base = 19200,
 		max_hp = 67,
-		hp_growth = 2587,
+		scale = 1,
 		weapon_ID = {
 			50505,
 			52805
 		}
 	},
 	[19206] = {
+		hp_growth = 2809,
 		id = 19206,
 		base = 19200,
 		max_hp = 73,
-		hp_growth = 2809,
+		scale = 1,
 		weapon_ID = {
 			50506,
 			52806
@@ -5433,9 +6498,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 206,
 		dodge = 3.27,
-		type = 3,
-		dodge_limit = 1.8,
 		attack_power = 2,
+		dodge_limit = 1.8,
+		type = 3,
 		AP_growth = 2000,
 		icon = "BTD",
 		funnel_behavior = "",
@@ -5443,6 +6508,7 @@ pg.aircraft_template = {
 		hp_growth = 1626,
 		speed = 45,
 		id = 19220,
+		scale = 1,
 		weapon_ID = {
 			50520,
 			52820
@@ -5500,100 +6566,110 @@ pg.aircraft_template = {
 		}
 	},
 	[19221] = {
+		hp_growth = 1870,
 		id = 19221,
 		base = 19220,
 		max_hp = 49,
-		hp_growth = 1870,
+		scale = 1,
 		weapon_ID = {
 			50521,
 			52821
 		}
 	},
 	[19222] = {
+		hp_growth = 2114,
 		id = 19222,
 		base = 19220,
 		max_hp = 55,
-		hp_growth = 2114,
+		scale = 1,
 		weapon_ID = {
 			50522,
 			52822
 		}
 	},
 	[19223] = {
+		hp_growth = 2358,
 		id = 19223,
 		base = 19220,
 		max_hp = 61,
-		hp_growth = 2358,
+		scale = 1,
 		weapon_ID = {
 			50523,
 			52823
 		}
 	},
 	[19224] = {
+		hp_growth = 2602,
 		id = 19224,
 		base = 19220,
 		max_hp = 68,
-		hp_growth = 2602,
+		scale = 1,
 		weapon_ID = {
 			50524,
 			52824
 		}
 	},
 	[19225] = {
+		hp_growth = 2846,
 		id = 19225,
 		base = 19220,
 		max_hp = 74,
-		hp_growth = 2846,
+		scale = 1,
 		weapon_ID = {
 			50525,
 			52825
 		}
 	},
 	[19226] = {
+		hp_growth = 3090,
 		id = 19226,
 		base = 19220,
 		max_hp = 80,
-		hp_growth = 3090,
+		scale = 1,
 		weapon_ID = {
 			50526,
 			52826
 		}
 	},
 	[19227] = {
+		hp_growth = 3334,
 		id = 19227,
 		base = 19220,
 		max_hp = 87,
-		hp_growth = 3334,
+		scale = 1,
 		weapon_ID = {
 			50527,
 			52827
 		}
 	},
 	[19228] = {
+		hp_growth = 3578,
 		id = 19228,
 		base = 19220,
 		max_hp = 93,
-		hp_growth = 3578,
+		scale = 1,
 		weapon_ID = {
 			50528,
 			52828
 		}
 	},
 	[19229] = {
+		hp_growth = 3822,
 		id = 19229,
 		base = 19220,
 		max_hp = 99,
-		hp_growth = 3822,
+		scale = 1,
 		weapon_ID = {
 			50529,
 			52829
 		}
 	},
 	[19230] = {
+		hp_growth = 4066,
 		id = 19230,
 		base = 19220,
 		max_hp = 106,
-		hp_growth = 4066,
+		scale = 1,
 		weapon_ID = {
 			50530,
 			52830
@@ -5607,9 +6683,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 206,
 		dodge = 3.15,
-		type = 3,
-		dodge_limit = 2,
 		attack_power = 2,
+		dodge_limit = 2,
+		type = 3,
 		AP_growth = 2000,
 		icon = "BTD",
 		funnel_behavior = "",
@@ -5617,6 +6693,7 @@ pg.aircraft_template = {
 		hp_growth = 1774,
 		speed = 45,
 		id = 19240,
+		scale = 1,
 		weapon_ID = {
 			50540,
 			52840
@@ -5674,100 +6751,110 @@ pg.aircraft_template = {
 		}
 	},
 	[19241] = {
+		hp_growth = 2040,
 		id = 19241,
 		base = 19240,
 		max_hp = 53,
-		hp_growth = 2040,
+		scale = 1,
 		weapon_ID = {
 			50541,
 			52841
 		}
 	},
 	[19242] = {
+		hp_growth = 2306,
 		id = 19242,
 		base = 19240,
 		max_hp = 60,
-		hp_growth = 2306,
+		scale = 1,
 		weapon_ID = {
 			50542,
 			52842
 		}
 	},
 	[19243] = {
+		hp_growth = 2572,
 		id = 19243,
 		base = 19240,
 		max_hp = 67,
-		hp_growth = 2572,
+		scale = 1,
 		weapon_ID = {
 			50543,
 			52843
 		}
 	},
 	[19244] = {
+		hp_growth = 2839,
 		id = 19244,
 		base = 19240,
 		max_hp = 74,
-		hp_growth = 2839,
+		scale = 1,
 		weapon_ID = {
 			50544,
 			52844
 		}
 	},
 	[19245] = {
+		hp_growth = 3105,
 		id = 19245,
 		base = 19240,
 		max_hp = 81,
-		hp_growth = 3105,
+		scale = 1,
 		weapon_ID = {
 			50545,
 			52845
 		}
 	},
 	[19246] = {
+		hp_growth = 3371,
 		id = 19246,
 		base = 19240,
 		max_hp = 88,
-		hp_growth = 3371,
+		scale = 1,
 		weapon_ID = {
 			50546,
 			52846
 		}
 	},
 	[19247] = {
+		hp_growth = 3637,
 		id = 19247,
 		base = 19240,
 		max_hp = 95,
-		hp_growth = 3637,
+		scale = 1,
 		weapon_ID = {
 			50547,
 			52847
 		}
 	},
 	[19248] = {
+		hp_growth = 3903,
 		id = 19248,
 		base = 19240,
 		max_hp = 101,
-		hp_growth = 3903,
+		scale = 1,
 		weapon_ID = {
 			50548,
 			52848
 		}
 	},
 	[19249] = {
+		hp_growth = 4169,
 		id = 19249,
 		base = 19240,
 		max_hp = 108,
-		hp_growth = 4169,
+		scale = 1,
 		weapon_ID = {
 			50549,
 			52849
 		}
 	},
 	[19250] = {
+		hp_growth = 4435,
 		id = 19250,
 		base = 19240,
 		max_hp = 115,
-		hp_growth = 4435,
+		scale = 1,
 		weapon_ID = {
 			50550,
 			52850
@@ -5781,9 +6868,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 100,
 		dodge = 0.357,
-		type = 1,
-		dodge_limit = 9,
 		attack_power = 2,
+		dodge_limit = 9,
+		type = 1,
 		AP_growth = 2000,
 		icon = "haipenhuo",
 		funnel_behavior = "",
@@ -5791,6 +6878,7 @@ pg.aircraft_template = {
 		hp_growth = 1210,
 		speed = 50,
 		id = 27000,
+		scale = 1,
 		weapon_ID = {
 			50100,
 			50500,
@@ -5849,10 +6937,11 @@ pg.aircraft_template = {
 		}
 	},
 	[27001] = {
+		hp_growth = 1391,
 		id = 27001,
 		base = 27000,
 		max_hp = 36,
-		hp_growth = 1391,
+		scale = 1,
 		weapon_ID = {
 			50101,
 			50501,
@@ -5860,10 +6949,11 @@ pg.aircraft_template = {
 		}
 	},
 	[27002] = {
+		hp_growth = 1572,
 		id = 27002,
 		base = 27000,
 		max_hp = 41,
-		hp_growth = 1572,
+		scale = 1,
 		weapon_ID = {
 			50102,
 			50502,
@@ -5871,10 +6961,11 @@ pg.aircraft_template = {
 		}
 	},
 	[27003] = {
+		hp_growth = 1754,
 		id = 27003,
 		base = 27000,
 		max_hp = 46,
-		hp_growth = 1754,
+		scale = 1,
 		weapon_ID = {
 			50103,
 			50503,
@@ -5889,9 +6980,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 100,
 		dodge = 0.345,
-		type = 1,
-		dodge_limit = 9.5,
 		attack_power = 2,
+		dodge_limit = 9.5,
+		type = 1,
 		AP_growth = 2000,
 		icon = "haipenhuo",
 		funnel_behavior = "",
@@ -5899,6 +6990,7 @@ pg.aircraft_template = {
 		hp_growth = 1344,
 		speed = 50,
 		id = 27020,
+		scale = 1,
 		weapon_ID = {
 			50120,
 			50520,
@@ -5957,10 +7049,11 @@ pg.aircraft_template = {
 		}
 	},
 	[27021] = {
+		hp_growth = 1546,
 		id = 27021,
 		base = 27020,
 		max_hp = 40,
-		hp_growth = 1546,
+		scale = 1,
 		weapon_ID = {
 			50121,
 			50521,
@@ -5968,10 +7061,11 @@ pg.aircraft_template = {
 		}
 	},
 	[27022] = {
+		hp_growth = 1747,
 		id = 27022,
 		base = 27020,
 		max_hp = 45,
-		hp_growth = 1747,
+		scale = 1,
 		weapon_ID = {
 			50122,
 			50522,
@@ -5979,10 +7073,11 @@ pg.aircraft_template = {
 		}
 	},
 	[27023] = {
+		hp_growth = 1949,
 		id = 27023,
 		base = 27020,
 		max_hp = 51,
-		hp_growth = 1949,
+		scale = 1,
 		weapon_ID = {
 			50123,
 			50523,
@@ -5990,10 +7085,11 @@ pg.aircraft_template = {
 		}
 	},
 	[27024] = {
+		hp_growth = 2150,
 		id = 27024,
 		base = 27020,
 		max_hp = 56,
-		hp_growth = 2150,
+		scale = 1,
 		weapon_ID = {
 			50124,
 			50524,
@@ -6001,10 +7097,11 @@ pg.aircraft_template = {
 		}
 	},
 	[27025] = {
+		hp_growth = 2352,
 		id = 27025,
 		base = 27020,
 		max_hp = 61,
-		hp_growth = 2352,
+		scale = 1,
 		weapon_ID = {
 			50125,
 			50525,
@@ -6012,10 +7109,11 @@ pg.aircraft_template = {
 		}
 	},
 	[27026] = {
+		hp_growth = 2554,
 		id = 27026,
 		base = 27020,
 		max_hp = 66,
-		hp_growth = 2554,
+		scale = 1,
 		weapon_ID = {
 			50126,
 			50526,
@@ -6030,9 +7128,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 100,
 		dodge = 0.333,
-		type = 1,
-		dodge_limit = 10,
 		attack_power = 2,
+		dodge_limit = 10,
+		type = 1,
 		AP_growth = 2000,
 		icon = "haipenhuo",
 		funnel_behavior = "",
@@ -6040,6 +7138,7 @@ pg.aircraft_template = {
 		hp_growth = 1478,
 		speed = 50,
 		id = 27040,
+		scale = 1,
 		weapon_ID = {
 			50140,
 			50540,
@@ -6098,10 +7197,11 @@ pg.aircraft_template = {
 		}
 	},
 	[27041] = {
+		hp_growth = 1700,
 		id = 27041,
 		base = 27040,
 		max_hp = 44,
-		hp_growth = 1700,
+		scale = 1,
 		weapon_ID = {
 			50141,
 			50541,
@@ -6109,10 +7209,11 @@ pg.aircraft_template = {
 		}
 	},
 	[27042] = {
+		hp_growth = 1922,
 		id = 27042,
 		base = 27040,
 		max_hp = 50,
-		hp_growth = 1922,
+		scale = 1,
 		weapon_ID = {
 			50142,
 			50542,
@@ -6120,10 +7221,11 @@ pg.aircraft_template = {
 		}
 	},
 	[27043] = {
+		hp_growth = 2144,
 		id = 27043,
 		base = 27040,
 		max_hp = 56,
-		hp_growth = 2144,
+		scale = 1,
 		weapon_ID = {
 			50143,
 			50543,
@@ -6131,10 +7233,11 @@ pg.aircraft_template = {
 		}
 	},
 	[27044] = {
+		hp_growth = 2365,
 		id = 27044,
 		base = 27040,
 		max_hp = 62,
-		hp_growth = 2365,
+		scale = 1,
 		weapon_ID = {
 			50144,
 			50544,
@@ -6142,10 +7245,11 @@ pg.aircraft_template = {
 		}
 	},
 	[27045] = {
+		hp_growth = 2587,
 		id = 27045,
 		base = 27040,
 		max_hp = 67,
-		hp_growth = 2587,
+		scale = 1,
 		weapon_ID = {
 			50145,
 			50545,
@@ -6153,10 +7257,11 @@ pg.aircraft_template = {
 		}
 	},
 	[27046] = {
+		hp_growth = 2809,
 		id = 27046,
 		base = 27040,
 		max_hp = 73,
-		hp_growth = 2809,
+		scale = 1,
 		weapon_ID = {
 			50146,
 			50546,
@@ -6164,10 +7269,11 @@ pg.aircraft_template = {
 		}
 	},
 	[27047] = {
+		hp_growth = 3031,
 		id = 27047,
 		base = 27040,
 		max_hp = 79,
-		hp_growth = 3031,
+		scale = 1,
 		weapon_ID = {
 			50147,
 			50547,
@@ -6175,10 +7281,11 @@ pg.aircraft_template = {
 		}
 	},
 	[27048] = {
+		hp_growth = 3252,
 		id = 27048,
 		base = 27040,
 		max_hp = 85,
-		hp_growth = 3252,
+		scale = 1,
 		weapon_ID = {
 			50148,
 			50548,
@@ -6186,10 +7293,11 @@ pg.aircraft_template = {
 		}
 	},
 	[27049] = {
+		hp_growth = 3474,
 		id = 27049,
 		base = 27040,
 		max_hp = 90,
-		hp_growth = 3474,
+		scale = 1,
 		weapon_ID = {
 			50149,
 			50549,
@@ -6197,10 +7305,11 @@ pg.aircraft_template = {
 		}
 	},
 	[27050] = {
+		hp_growth = 3696,
 		id = 27050,
 		base = 27040,
 		max_hp = 96,
-		hp_growth = 3696,
+		scale = 1,
 		weapon_ID = {
 			50150,
 			50550,
@@ -6215,9 +7324,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 156,
 		dodge = 0.357,
-		type = 1,
-		dodge_limit = 9,
 		attack_power = 2,
+		dodge_limit = 9,
+		type = 1,
 		AP_growth = 2000,
 		icon = "haiduya",
 		funnel_behavior = "",
@@ -6225,6 +7334,7 @@ pg.aircraft_template = {
 		hp_growth = 1344,
 		speed = 53,
 		id = 27100,
+		scale = 1,
 		weapon_ID = {
 			50600,
 			52300
@@ -6282,60 +7392,66 @@ pg.aircraft_template = {
 		}
 	},
 	[27101] = {
+		hp_growth = 1546,
 		id = 27101,
 		base = 27100,
 		max_hp = 40,
-		hp_growth = 1546,
+		scale = 1,
 		weapon_ID = {
 			50601,
 			52301
 		}
 	},
 	[27102] = {
+		hp_growth = 1747,
 		id = 27102,
 		base = 27100,
 		max_hp = 45,
-		hp_growth = 1747,
+		scale = 1,
 		weapon_ID = {
 			50602,
 			52302
 		}
 	},
 	[27103] = {
+		hp_growth = 1949,
 		id = 27103,
 		base = 27100,
 		max_hp = 51,
-		hp_growth = 1949,
+		scale = 1,
 		weapon_ID = {
 			50603,
 			52303
 		}
 	},
 	[27104] = {
+		hp_growth = 2150,
 		id = 27104,
 		base = 27100,
 		max_hp = 56,
-		hp_growth = 2150,
+		scale = 1,
 		weapon_ID = {
 			50604,
 			52304
 		}
 	},
 	[27105] = {
+		hp_growth = 2352,
 		id = 27105,
 		base = 27100,
 		max_hp = 61,
-		hp_growth = 2352,
+		scale = 1,
 		weapon_ID = {
 			50605,
 			52305
 		}
 	},
 	[27106] = {
+		hp_growth = 2554,
 		id = 27106,
 		base = 27100,
 		max_hp = 66,
-		hp_growth = 2554,
+		scale = 1,
 		weapon_ID = {
 			50606,
 			52306
@@ -6349,9 +7465,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 156,
 		dodge = 0.345,
-		type = 1,
-		dodge_limit = 9.5,
 		attack_power = 2,
+		dodge_limit = 9.5,
+		type = 1,
 		AP_growth = 2000,
 		icon = "haiduya",
 		funnel_behavior = "",
@@ -6359,6 +7475,7 @@ pg.aircraft_template = {
 		hp_growth = 1478,
 		speed = 53,
 		id = 27120,
+		scale = 1,
 		weapon_ID = {
 			50620,
 			52320
@@ -6416,100 +7533,110 @@ pg.aircraft_template = {
 		}
 	},
 	[27121] = {
+		hp_growth = 1700,
 		id = 27121,
 		base = 27120,
 		max_hp = 44,
-		hp_growth = 1700,
+		scale = 1,
 		weapon_ID = {
 			50621,
 			52321
 		}
 	},
 	[27122] = {
+		hp_growth = 1922,
 		id = 27122,
 		base = 27120,
 		max_hp = 50,
-		hp_growth = 1922,
+		scale = 1,
 		weapon_ID = {
 			50622,
 			52322
 		}
 	},
 	[27123] = {
+		hp_growth = 2144,
 		id = 27123,
 		base = 27120,
 		max_hp = 56,
-		hp_growth = 2144,
+		scale = 1,
 		weapon_ID = {
 			50623,
 			52323
 		}
 	},
 	[27124] = {
+		hp_growth = 2365,
 		id = 27124,
 		base = 27120,
 		max_hp = 62,
-		hp_growth = 2365,
+		scale = 1,
 		weapon_ID = {
 			50624,
 			52324
 		}
 	},
 	[27125] = {
+		hp_growth = 2587,
 		id = 27125,
 		base = 27120,
 		max_hp = 67,
-		hp_growth = 2587,
+		scale = 1,
 		weapon_ID = {
 			50625,
 			52325
 		}
 	},
 	[27126] = {
+		hp_growth = 2809,
 		id = 27126,
 		base = 27120,
 		max_hp = 73,
-		hp_growth = 2809,
+		scale = 1,
 		weapon_ID = {
 			50626,
 			52326
 		}
 	},
 	[27127] = {
+		hp_growth = 3031,
 		id = 27127,
 		base = 27120,
 		max_hp = 79,
-		hp_growth = 3031,
+		scale = 1,
 		weapon_ID = {
 			50627,
 			52327
 		}
 	},
 	[27128] = {
+		hp_growth = 3252,
 		id = 27128,
 		base = 27120,
 		max_hp = 85,
-		hp_growth = 3252,
+		scale = 1,
 		weapon_ID = {
 			50628,
 			52328
 		}
 	},
 	[27129] = {
+		hp_growth = 3474,
 		id = 27129,
 		base = 27120,
 		max_hp = 90,
-		hp_growth = 3474,
+		scale = 1,
 		weapon_ID = {
 			50629,
 			52329
 		}
 	},
 	[27130] = {
+		hp_growth = 3696,
 		id = 27130,
 		base = 27120,
 		max_hp = 96,
-		hp_growth = 3696,
+		scale = 1,
 		weapon_ID = {
 			50630,
 			52330
@@ -6523,9 +7650,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 156,
 		dodge = 0.333,
-		type = 1,
-		dodge_limit = 10,
 		attack_power = 2,
+		dodge_limit = 10,
+		type = 1,
 		AP_growth = 2000,
 		icon = "haiduya",
 		funnel_behavior = "",
@@ -6533,6 +7660,7 @@ pg.aircraft_template = {
 		hp_growth = 1613,
 		speed = 53,
 		id = 27140,
+		scale = 1,
 		weapon_ID = {
 			50640,
 			52340
@@ -6590,100 +7718,110 @@ pg.aircraft_template = {
 		}
 	},
 	[27141] = {
+		hp_growth = 1855,
 		id = 27141,
 		base = 27140,
 		max_hp = 48,
-		hp_growth = 1855,
+		scale = 1,
 		weapon_ID = {
 			50641,
 			52341
 		}
 	},
 	[27142] = {
+		hp_growth = 2097,
 		id = 27142,
 		base = 27140,
 		max_hp = 55,
-		hp_growth = 2097,
+		scale = 1,
 		weapon_ID = {
 			50642,
 			52342
 		}
 	},
 	[27143] = {
+		hp_growth = 2339,
 		id = 27143,
 		base = 27140,
 		max_hp = 61,
-		hp_growth = 2339,
+		scale = 1,
 		weapon_ID = {
 			50643,
 			52343
 		}
 	},
 	[27144] = {
+		hp_growth = 2580,
 		id = 27144,
 		base = 27140,
 		max_hp = 67,
-		hp_growth = 2580,
+		scale = 1,
 		weapon_ID = {
 			50644,
 			52344
 		}
 	},
 	[27145] = {
+		hp_growth = 2822,
 		id = 27145,
 		base = 27140,
 		max_hp = 73,
-		hp_growth = 2822,
+		scale = 1,
 		weapon_ID = {
 			50645,
 			52345
 		}
 	},
 	[27146] = {
+		hp_growth = 3064,
 		id = 27146,
 		base = 27140,
 		max_hp = 80,
-		hp_growth = 3064,
+		scale = 1,
 		weapon_ID = {
 			50646,
 			52346
 		}
 	},
 	[27147] = {
+		hp_growth = 3306,
 		id = 27147,
 		base = 27140,
 		max_hp = 86,
-		hp_growth = 3306,
+		scale = 1,
 		weapon_ID = {
 			50647,
 			52347
 		}
 	},
 	[27148] = {
+		hp_growth = 3548,
 		id = 27148,
 		base = 27140,
 		max_hp = 92,
-		hp_growth = 3548,
+		scale = 1,
 		weapon_ID = {
 			50648,
 			52348
 		}
 	},
 	[27149] = {
+		hp_growth = 3790,
 		id = 27149,
 		base = 27140,
 		max_hp = 99,
-		hp_growth = 3790,
+		scale = 1,
 		weapon_ID = {
 			50649,
 			52349
 		}
 	},
 	[27150] = {
+		hp_growth = 4032,
 		id = 27150,
 		base = 27140,
 		max_hp = 105,
-		hp_growth = 4032,
+		scale = 1,
 		weapon_ID = {
 			50650,
 			52350
@@ -6697,9 +7835,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 76,
 		dodge = 0.375,
-		type = 1,
-		dodge_limit = 8,
 		attack_power = 2,
+		dodge_limit = 8,
+		type = 1,
 		AP_growth = 2000,
 		icon = "haidoushi",
 		funnel_behavior = "",
@@ -6707,6 +7845,7 @@ pg.aircraft_template = {
 		hp_growth = 1075,
 		speed = 47,
 		id = 27200,
+		scale = 1,
 		weapon_ID = {
 			50100
 		},
@@ -6763,28 +7902,31 @@ pg.aircraft_template = {
 		}
 	},
 	[27201] = {
+		hp_growth = 1236,
 		id = 27201,
 		base = 27200,
 		max_hp = 32,
-		hp_growth = 1236,
+		scale = 1,
 		weapon_ID = {
 			50101
 		}
 	},
 	[27202] = {
+		hp_growth = 1398,
 		id = 27202,
 		base = 27200,
 		max_hp = 36,
-		hp_growth = 1398,
+		scale = 1,
 		weapon_ID = {
 			50102
 		}
 	},
 	[27203] = {
+		hp_growth = 1559,
 		id = 27203,
 		base = 27200,
 		max_hp = 41,
-		hp_growth = 1559,
+		scale = 1,
 		weapon_ID = {
 			50103
 		}
@@ -6797,9 +7939,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 76,
 		dodge = 0.363,
-		type = 1,
-		dodge_limit = 8.5,
 		attack_power = 2,
+		dodge_limit = 8.5,
+		type = 1,
 		AP_growth = 2000,
 		icon = "haidoushi",
 		funnel_behavior = "",
@@ -6807,6 +7949,7 @@ pg.aircraft_template = {
 		hp_growth = 1210,
 		speed = 47,
 		id = 27220,
+		scale = 1,
 		weapon_ID = {
 			50120
 		},
@@ -6863,28 +8006,31 @@ pg.aircraft_template = {
 		}
 	},
 	[27221] = {
+		hp_growth = 1391,
 		id = 27221,
 		base = 27220,
 		max_hp = 36,
-		hp_growth = 1391,
+		scale = 1,
 		weapon_ID = {
 			50121
 		}
 	},
 	[27222] = {
+		hp_growth = 1572,
 		id = 27222,
 		base = 27220,
 		max_hp = 41,
-		hp_growth = 1572,
+		scale = 1,
 		weapon_ID = {
 			50122
 		}
 	},
 	[27223] = {
+		hp_growth = 1754,
 		id = 27223,
 		base = 27220,
 		max_hp = 46,
-		hp_growth = 1754,
+		scale = 1,
 		weapon_ID = {
 			50123
 		}
@@ -6897,9 +8043,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 76,
 		dodge = 0.351,
-		type = 1,
-		dodge_limit = 9,
 		attack_power = 2,
+		dodge_limit = 9,
+		type = 1,
 		AP_growth = 2000,
 		icon = "haidoushi",
 		funnel_behavior = "",
@@ -6907,6 +8053,7 @@ pg.aircraft_template = {
 		hp_growth = 1344,
 		speed = 47,
 		id = 27240,
+		scale = 1,
 		weapon_ID = {
 			50140
 		},
@@ -6963,57 +8110,248 @@ pg.aircraft_template = {
 		}
 	},
 	[27241] = {
+		hp_growth = 1546,
 		id = 27241,
 		base = 27240,
 		max_hp = 40,
-		hp_growth = 1546,
+		scale = 1,
 		weapon_ID = {
 			50141
 		}
 	},
 	[27242] = {
+		hp_growth = 1747,
 		id = 27242,
 		base = 27240,
 		max_hp = 45,
-		hp_growth = 1747,
+		scale = 1,
 		weapon_ID = {
 			50142
 		}
 	},
 	[27243] = {
+		hp_growth = 1949,
 		id = 27243,
 		base = 27240,
 		max_hp = 51,
-		hp_growth = 1949,
+		scale = 1,
 		weapon_ID = {
 			50143
 		}
 	},
 	[27244] = {
+		hp_growth = 2150,
 		id = 27244,
 		base = 27240,
 		max_hp = 56,
-		hp_growth = 2150,
+		scale = 1,
 		weapon_ID = {
 			50144
 		}
 	},
 	[27245] = {
+		hp_growth = 2352,
 		id = 27245,
 		base = 27240,
 		max_hp = 61,
-		hp_growth = 2352,
+		scale = 1,
 		weapon_ID = {
 			50145
 		}
 	},
 	[27246] = {
+		hp_growth = 2554,
 		id = 27246,
 		base = 27240,
 		max_hp = 66,
-		hp_growth = 2554,
+		scale = 1,
 		weapon_ID = {
 			50146
+		}
+	},
+	[27300] = {
+		name = "海怒",
+		max_hp = 43,
+		accuracy = 24,
+		model_ID = "hainu",
+		ACC_growth = 0,
+		crash_DMG = 160,
+		dodge = 0.315,
+		attack_power = 2,
+		dodge_limit = 10,
+		type = 1,
+		AP_growth = 2000,
+		icon = "hainu",
+		funnel_behavior = "",
+		nationality = 2,
+		hp_growth = 1645,
+		speed = 52,
+		id = 27300,
+		scale = 1,
+		weapon_ID = {
+			50660,
+			52340
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.69,
+					-2.62,
+					0
+				},
+				{
+					0.85,
+					0.17,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.86,
+				-0.12,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[27301] = {
+		hp_growth = 1892,
+		id = 27301,
+		base = 27300,
+		max_hp = 49,
+		scale = 1,
+		weapon_ID = {
+			50661,
+			52341
+		}
+	},
+	[27302] = {
+		hp_growth = 2139,
+		id = 27302,
+		base = 27300,
+		max_hp = 56,
+		scale = 1,
+		weapon_ID = {
+			50662,
+			52342
+		}
+	},
+	[27303] = {
+		hp_growth = 2385,
+		id = 27303,
+		base = 27300,
+		max_hp = 62,
+		scale = 1,
+		weapon_ID = {
+			50663,
+			52343
+		}
+	},
+	[27304] = {
+		hp_growth = 2632,
+		id = 27304,
+		base = 27300,
+		max_hp = 68,
+		scale = 1,
+		weapon_ID = {
+			50664,
+			52344
+		}
+	},
+	[27305] = {
+		hp_growth = 2879,
+		id = 27305,
+		base = 27300,
+		max_hp = 75,
+		scale = 1,
+		weapon_ID = {
+			50665,
+			52345
+		}
+	},
+	[27306] = {
+		hp_growth = 3126,
+		id = 27306,
+		base = 27300,
+		max_hp = 81,
+		scale = 1,
+		weapon_ID = {
+			50666,
+			52346
+		}
+	},
+	[27307] = {
+		hp_growth = 3372,
+		id = 27307,
+		base = 27300,
+		max_hp = 88,
+		scale = 1,
+		weapon_ID = {
+			50667,
+			52347
+		}
+	},
+	[27308] = {
+		hp_growth = 3619,
+		id = 27308,
+		base = 27300,
+		max_hp = 94,
+		scale = 1,
+		weapon_ID = {
+			50668,
+			52348
+		}
+	},
+	[27309] = {
+		hp_growth = 3866,
+		id = 27309,
+		base = 27300,
+		max_hp = 101,
+		scale = 1,
+		weapon_ID = {
+			50669,
+			52349
+		}
+	},
+	[27310] = {
+		hp_growth = 4113,
+		id = 27310,
+		base = 27300,
+		max_hp = 107,
+		scale = 1,
+		weapon_ID = {
+			50670,
+			52350
 		}
 	},
 	[28000] = {
@@ -7024,9 +8362,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 306,
 		dodge = 1.19,
-		type = 2,
-		dodge_limit = 3,
 		attack_power = 2,
+		dodge_limit = 3,
+		type = 2,
 		AP_growth = 2000,
 		icon = "jianyu",
 		funnel_behavior = "",
@@ -7034,6 +8372,7 @@ pg.aircraft_template = {
 		hp_growth = 1094,
 		speed = 45,
 		id = 28000,
+		scale = 1,
 		weapon_ID = {
 			50000,
 			51000
@@ -7091,30 +8430,33 @@ pg.aircraft_template = {
 		}
 	},
 	[28001] = {
+		hp_growth = 1259,
 		id = 28001,
 		base = 28000,
 		max_hp = 33,
-		hp_growth = 1259,
+		scale = 1,
 		weapon_ID = {
 			50001,
 			51001
 		}
 	},
 	[28002] = {
+		hp_growth = 1423,
 		id = 28002,
 		base = 28000,
 		max_hp = 37,
-		hp_growth = 1423,
+		scale = 1,
 		weapon_ID = {
 			50002,
 			51002
 		}
 	},
 	[28003] = {
+		hp_growth = 1587,
 		id = 28003,
 		base = 28000,
 		max_hp = 41,
-		hp_growth = 1587,
+		scale = 1,
 		weapon_ID = {
 			50003,
 			51003
@@ -7128,9 +8470,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 306,
 		dodge = 1.15,
-		type = 2,
-		dodge_limit = 3.5,
 		attack_power = 2,
+		dodge_limit = 3.5,
+		type = 2,
 		AP_growth = 2000,
 		icon = "jianyu",
 		funnel_behavior = "",
@@ -7138,6 +8480,7 @@ pg.aircraft_template = {
 		hp_growth = 1216,
 		speed = 45,
 		id = 28020,
+		scale = 1,
 		weapon_ID = {
 			50020,
 			51020
@@ -7195,60 +8538,66 @@ pg.aircraft_template = {
 		}
 	},
 	[28021] = {
+		hp_growth = 1398,
 		id = 28021,
 		base = 28020,
 		max_hp = 36,
-		hp_growth = 1398,
+		scale = 1,
 		weapon_ID = {
 			50021,
 			51021
 		}
 	},
 	[28022] = {
+		hp_growth = 1581,
 		id = 28022,
 		base = 28020,
 		max_hp = 41,
-		hp_growth = 1581,
+		scale = 1,
 		weapon_ID = {
 			50022,
 			51022
 		}
 	},
 	[28023] = {
+		hp_growth = 1763,
 		id = 28023,
 		base = 28020,
 		max_hp = 46,
-		hp_growth = 1763,
+		scale = 1,
 		weapon_ID = {
 			50023,
 			51023
 		}
 	},
 	[28024] = {
+		hp_growth = 1946,
 		id = 28024,
 		base = 28020,
 		max_hp = 51,
-		hp_growth = 1946,
+		scale = 1,
 		weapon_ID = {
 			50024,
 			51024
 		}
 	},
 	[28025] = {
+		hp_growth = 2128,
 		id = 28025,
 		base = 28020,
 		max_hp = 55,
-		hp_growth = 2128,
+		scale = 1,
 		weapon_ID = {
 			50025,
 			51025
 		}
 	},
 	[28026] = {
+		hp_growth = 2310,
 		id = 28026,
 		base = 28020,
 		max_hp = 60,
-		hp_growth = 2310,
+		scale = 1,
 		weapon_ID = {
 			50026,
 			51026
@@ -7262,9 +8611,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 306,
 		dodge = 1.11,
-		type = 2,
-		dodge_limit = 4,
 		attack_power = 2,
+		dodge_limit = 4,
+		type = 2,
 		AP_growth = 2000,
 		icon = "jianyu",
 		funnel_behavior = "",
@@ -7272,6 +8621,7 @@ pg.aircraft_template = {
 		hp_growth = 1338,
 		speed = 45,
 		id = 28040,
+		scale = 1,
 		weapon_ID = {
 			50040,
 			51040
@@ -7329,100 +8679,110 @@ pg.aircraft_template = {
 		}
 	},
 	[28041] = {
+		hp_growth = 1538,
 		id = 28041,
 		base = 28040,
 		max_hp = 40,
-		hp_growth = 1538,
+		scale = 1,
 		weapon_ID = {
 			50041,
 			51041
 		}
 	},
 	[28042] = {
+		hp_growth = 1739,
 		id = 28042,
 		base = 28040,
 		max_hp = 45,
-		hp_growth = 1739,
+		scale = 1,
 		weapon_ID = {
 			50042,
 			51042
 		}
 	},
 	[28043] = {
+		hp_growth = 1940,
 		id = 28043,
 		base = 28040,
 		max_hp = 50,
-		hp_growth = 1940,
+		scale = 1,
 		weapon_ID = {
 			50043,
 			51043
 		}
 	},
 	[28044] = {
+		hp_growth = 2140,
 		id = 28044,
 		base = 28040,
 		max_hp = 56,
-		hp_growth = 2140,
+		scale = 1,
 		weapon_ID = {
 			50044,
 			51044
 		}
 	},
 	[28045] = {
+		hp_growth = 2341,
 		id = 28045,
 		base = 28040,
 		max_hp = 61,
-		hp_growth = 2341,
+		scale = 1,
 		weapon_ID = {
 			50045,
 			51045
 		}
 	},
 	[28046] = {
+		hp_growth = 2541,
 		id = 28046,
 		base = 28040,
 		max_hp = 66,
-		hp_growth = 2541,
+		scale = 1,
 		weapon_ID = {
 			50046,
 			51046
 		}
 	},
 	[28047] = {
+		hp_growth = 2742,
 		id = 28047,
 		base = 28040,
 		max_hp = 71,
-		hp_growth = 2742,
+		scale = 1,
 		weapon_ID = {
 			50047,
 			51047
 		}
 	},
 	[28048] = {
+		hp_growth = 2943,
 		id = 28048,
 		base = 28040,
 		max_hp = 77,
-		hp_growth = 2943,
+		scale = 1,
 		weapon_ID = {
 			50048,
 			51048
 		}
 	},
 	[28049] = {
+		hp_growth = 3143,
 		id = 28049,
 		base = 28040,
 		max_hp = 82,
-		hp_growth = 3143,
+		scale = 1,
 		weapon_ID = {
 			50049,
 			51049
 		}
 	},
 	[28050] = {
+		hp_growth = 3344,
 		id = 28050,
 		base = 28040,
 		max_hp = 87,
-		hp_growth = 3344,
+		scale = 1,
 		weapon_ID = {
 			50050,
 			51050
@@ -7436,9 +8796,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 420,
 		dodge = 1.03,
-		type = 2,
-		dodge_limit = 7,
 		attack_power = 2,
+		dodge_limit = 7,
+		type = 2,
 		AP_growth = 2000,
 		icon = "jianyu810",
 		funnel_behavior = "",
@@ -7446,6 +8806,7 @@ pg.aircraft_template = {
 		hp_growth = 1459,
 		speed = 48,
 		id = 28060,
+		scale = 1,
 		weapon_ID = {
 			50040,
 			51060
@@ -7503,100 +8864,110 @@ pg.aircraft_template = {
 		}
 	},
 	[28061] = {
+		hp_growth = 1678,
 		id = 28061,
 		base = 28060,
 		max_hp = 44,
-		hp_growth = 1678,
+		scale = 1,
 		weapon_ID = {
 			50041,
 			51061
 		}
 	},
 	[28062] = {
+		hp_growth = 1897,
 		id = 28062,
 		base = 28060,
 		max_hp = 49,
-		hp_growth = 1897,
+		scale = 1,
 		weapon_ID = {
 			50042,
 			51062
 		}
 	},
 	[28063] = {
+		hp_growth = 2116,
 		id = 28063,
 		base = 28060,
 		max_hp = 55,
-		hp_growth = 2116,
+		scale = 1,
 		weapon_ID = {
 			50043,
 			51063
 		}
 	},
 	[28064] = {
+		hp_growth = 2335,
 		id = 28064,
 		base = 28060,
 		max_hp = 61,
-		hp_growth = 2335,
+		scale = 1,
 		weapon_ID = {
 			50044,
 			51064
 		}
 	},
 	[28065] = {
+		hp_growth = 2554,
 		id = 28065,
 		base = 28060,
 		max_hp = 66,
-		hp_growth = 2554,
+		scale = 1,
 		weapon_ID = {
 			50045,
 			51065
 		}
 	},
 	[28066] = {
+		hp_growth = 2772,
 		id = 28066,
 		base = 28060,
 		max_hp = 72,
-		hp_growth = 2772,
+		scale = 1,
 		weapon_ID = {
 			50046,
 			51066
 		}
 	},
 	[28067] = {
+		hp_growth = 2991,
 		id = 28067,
 		base = 28060,
 		max_hp = 78,
-		hp_growth = 2991,
+		scale = 1,
 		weapon_ID = {
 			50047,
 			51067
 		}
 	},
 	[28068] = {
+		hp_growth = 3210,
 		id = 28068,
 		base = 28060,
 		max_hp = 83,
-		hp_growth = 3210,
+		scale = 1,
 		weapon_ID = {
 			50048,
 			51068
 		}
 	},
 	[28069] = {
+		hp_growth = 3429,
 		id = 28069,
 		base = 28060,
 		max_hp = 89,
-		hp_growth = 3429,
+		scale = 1,
 		weapon_ID = {
 			50049,
 			51069
 		}
 	},
 	[28070] = {
+		hp_growth = 3648,
 		id = 28070,
 		base = 28060,
 		max_hp = 95,
-		hp_growth = 3648,
+		scale = 1,
 		weapon_ID = {
 			50050,
 			51070
@@ -7610,9 +8981,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 480,
 		dodge = 1.13,
-		type = 2,
-		dodge_limit = 5,
 		attack_power = 2,
+		dodge_limit = 5,
+		type = 2,
 		AP_growth = 2000,
 		icon = "suoyu",
 		funnel_behavior = "",
@@ -7620,6 +8991,7 @@ pg.aircraft_template = {
 		hp_growth = 1216,
 		speed = 52,
 		id = 28100,
+		scale = 1,
 		weapon_ID = {
 			50000,
 			51100
@@ -7677,60 +9049,66 @@ pg.aircraft_template = {
 		}
 	},
 	[28101] = {
+		hp_growth = 1398,
 		id = 28101,
 		base = 28100,
 		max_hp = 36,
-		hp_growth = 1398,
+		scale = 1,
 		weapon_ID = {
 			50001,
 			51101
 		}
 	},
 	[28102] = {
+		hp_growth = 1581,
 		id = 28102,
 		base = 28100,
 		max_hp = 41,
-		hp_growth = 1581,
+		scale = 1,
 		weapon_ID = {
 			50002,
 			51102
 		}
 	},
 	[28103] = {
+		hp_growth = 1763,
 		id = 28103,
 		base = 28100,
 		max_hp = 46,
-		hp_growth = 1763,
+		scale = 1,
 		weapon_ID = {
 			50003,
 			51103
 		}
 	},
 	[28104] = {
+		hp_growth = 1946,
 		id = 28104,
 		base = 28100,
 		max_hp = 51,
-		hp_growth = 1946,
+		scale = 1,
 		weapon_ID = {
 			50004,
 			51104
 		}
 	},
 	[28105] = {
+		hp_growth = 2128,
 		id = 28105,
 		base = 28100,
 		max_hp = 55,
-		hp_growth = 2128,
+		scale = 1,
 		weapon_ID = {
 			50005,
 			51105
 		}
 	},
 	[28106] = {
+		hp_growth = 2310,
 		id = 28106,
 		base = 28100,
 		max_hp = 60,
-		hp_growth = 2310,
+		scale = 1,
 		weapon_ID = {
 			50006,
 			51106
@@ -7744,9 +9122,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 480,
 		dodge = 1.09,
-		type = 2,
-		dodge_limit = 5.5,
 		attack_power = 2,
+		dodge_limit = 5.5,
+		type = 2,
 		AP_growth = 2000,
 		icon = "suoyu",
 		funnel_behavior = "",
@@ -7754,6 +9132,7 @@ pg.aircraft_template = {
 		hp_growth = 1338,
 		speed = 52,
 		id = 28120,
+		scale = 1,
 		weapon_ID = {
 			50020,
 			51120
@@ -7811,100 +9190,110 @@ pg.aircraft_template = {
 		}
 	},
 	[28121] = {
+		hp_growth = 1538,
 		id = 28121,
 		base = 28120,
 		max_hp = 40,
-		hp_growth = 1538,
+		scale = 1,
 		weapon_ID = {
 			50021,
 			51121
 		}
 	},
 	[28122] = {
+		hp_growth = 1739,
 		id = 28122,
 		base = 28120,
 		max_hp = 45,
-		hp_growth = 1739,
+		scale = 1,
 		weapon_ID = {
 			50022,
 			51122
 		}
 	},
 	[28123] = {
+		hp_growth = 1940,
 		id = 28123,
 		base = 28120,
 		max_hp = 50,
-		hp_growth = 1940,
+		scale = 1,
 		weapon_ID = {
 			50023,
 			51123
 		}
 	},
 	[28124] = {
+		hp_growth = 2140,
 		id = 28124,
 		base = 28120,
 		max_hp = 56,
-		hp_growth = 2140,
+		scale = 1,
 		weapon_ID = {
 			50024,
 			51124
 		}
 	},
 	[28125] = {
+		hp_growth = 2341,
 		id = 28125,
 		base = 28120,
 		max_hp = 61,
-		hp_growth = 2341,
+		scale = 1,
 		weapon_ID = {
 			50025,
 			51125
 		}
 	},
 	[28126] = {
+		hp_growth = 2541,
 		id = 28126,
 		base = 28120,
 		max_hp = 66,
-		hp_growth = 2541,
+		scale = 1,
 		weapon_ID = {
 			50026,
 			51126
 		}
 	},
 	[28127] = {
+		hp_growth = 2742,
 		id = 28127,
 		base = 28120,
 		max_hp = 71,
-		hp_growth = 2742,
+		scale = 1,
 		weapon_ID = {
 			50027,
 			51127
 		}
 	},
 	[28128] = {
+		hp_growth = 2943,
 		id = 28128,
 		base = 28120,
 		max_hp = 77,
-		hp_growth = 2943,
+		scale = 1,
 		weapon_ID = {
 			50028,
 			51128
 		}
 	},
 	[28129] = {
+		hp_growth = 3143,
 		id = 28129,
 		base = 28120,
 		max_hp = 82,
-		hp_growth = 3143,
+		scale = 1,
 		weapon_ID = {
 			50029,
 			51129
 		}
 	},
 	[28130] = {
+		hp_growth = 3344,
 		id = 28130,
 		base = 28120,
 		max_hp = 87,
-		hp_growth = 3344,
+		scale = 1,
 		weapon_ID = {
 			50030,
 			51130
@@ -7918,9 +9307,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 480,
 		dodge = 1.05,
-		type = 2,
-		dodge_limit = 6,
 		attack_power = 2,
+		dodge_limit = 6,
+		type = 2,
 		AP_growth = 2000,
 		icon = "suoyu",
 		funnel_behavior = "",
@@ -7928,6 +9317,7 @@ pg.aircraft_template = {
 		hp_growth = 1459,
 		speed = 52,
 		id = 28140,
+		scale = 1,
 		weapon_ID = {
 			50040,
 			51140
@@ -7985,100 +9375,110 @@ pg.aircraft_template = {
 		}
 	},
 	[28141] = {
+		hp_growth = 1678,
 		id = 28141,
 		base = 28140,
 		max_hp = 44,
-		hp_growth = 1678,
+		scale = 1,
 		weapon_ID = {
 			50041,
 			51141
 		}
 	},
 	[28142] = {
+		hp_growth = 1897,
 		id = 28142,
 		base = 28140,
 		max_hp = 49,
-		hp_growth = 1897,
+		scale = 1,
 		weapon_ID = {
 			50042,
 			51142
 		}
 	},
 	[28143] = {
+		hp_growth = 2116,
 		id = 28143,
 		base = 28140,
 		max_hp = 55,
-		hp_growth = 2116,
+		scale = 1,
 		weapon_ID = {
 			50043,
 			51143
 		}
 	},
 	[28144] = {
+		hp_growth = 2335,
 		id = 28144,
 		base = 28140,
 		max_hp = 61,
-		hp_growth = 2335,
+		scale = 1,
 		weapon_ID = {
 			50044,
 			51144
 		}
 	},
 	[28145] = {
+		hp_growth = 2554,
 		id = 28145,
 		base = 28140,
 		max_hp = 66,
-		hp_growth = 2554,
+		scale = 1,
 		weapon_ID = {
 			50045,
 			51145
 		}
 	},
 	[28146] = {
+		hp_growth = 2772,
 		id = 28146,
 		base = 28140,
 		max_hp = 72,
-		hp_growth = 2772,
+		scale = 1,
 		weapon_ID = {
 			50046,
 			51146
 		}
 	},
 	[28147] = {
+		hp_growth = 2991,
 		id = 28147,
 		base = 28140,
 		max_hp = 78,
-		hp_growth = 2991,
+		scale = 1,
 		weapon_ID = {
 			50047,
 			51147
 		}
 	},
 	[28148] = {
+		hp_growth = 3210,
 		id = 28148,
 		base = 28140,
 		max_hp = 83,
-		hp_growth = 3210,
+		scale = 1,
 		weapon_ID = {
 			50048,
 			51148
 		}
 	},
 	[28149] = {
+		hp_growth = 3429,
 		id = 28149,
 		base = 28140,
 		max_hp = 89,
-		hp_growth = 3429,
+		scale = 1,
 		weapon_ID = {
 			50049,
 			51149
 		}
 	},
 	[28150] = {
+		hp_growth = 3648,
 		id = 28150,
 		base = 28140,
 		max_hp = 95,
-		hp_growth = 3648,
+		scale = 1,
 		weapon_ID = {
 			50050,
 			51150
@@ -8092,9 +9492,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 420,
 		dodge = 1.04,
-		type = 2,
-		dodge_limit = 6,
 		attack_power = 2,
+		dodge_limit = 6,
+		type = 2,
 		AP_growth = 2000,
 		icon = "huoba",
 		funnel_behavior = "",
@@ -8102,6 +9502,7 @@ pg.aircraft_template = {
 		hp_growth = 1459,
 		speed = 50,
 		id = 28200,
+		scale = 1,
 		weapon_ID = {
 			50660,
 			51140
@@ -8159,100 +9560,110 @@ pg.aircraft_template = {
 		}
 	},
 	[28201] = {
+		hp_growth = 1678,
 		id = 28201,
 		base = 28200,
 		max_hp = 44,
-		hp_growth = 1678,
+		scale = 1,
 		weapon_ID = {
 			50661,
 			51141
 		}
 	},
 	[28202] = {
+		hp_growth = 1897,
 		id = 28202,
 		base = 28200,
 		max_hp = 49,
-		hp_growth = 1897,
+		scale = 1,
 		weapon_ID = {
 			50662,
 			51142
 		}
 	},
 	[28203] = {
+		hp_growth = 2116,
 		id = 28203,
 		base = 28200,
 		max_hp = 55,
-		hp_growth = 2116,
+		scale = 1,
 		weapon_ID = {
 			50663,
 			51143
 		}
 	},
 	[28204] = {
+		hp_growth = 2335,
 		id = 28204,
 		base = 28200,
 		max_hp = 61,
-		hp_growth = 2335,
+		scale = 1,
 		weapon_ID = {
 			50664,
 			51144
 		}
 	},
 	[28205] = {
+		hp_growth = 2554,
 		id = 28205,
 		base = 28200,
 		max_hp = 66,
-		hp_growth = 2554,
+		scale = 1,
 		weapon_ID = {
 			50665,
 			51145
 		}
 	},
 	[28206] = {
+		hp_growth = 2772,
 		id = 28206,
 		base = 28200,
 		max_hp = 72,
-		hp_growth = 2772,
+		scale = 1,
 		weapon_ID = {
 			50666,
 			51146
 		}
 	},
 	[28207] = {
+		hp_growth = 2991,
 		id = 28207,
 		base = 28200,
 		max_hp = 78,
-		hp_growth = 2991,
+		scale = 1,
 		weapon_ID = {
 			50667,
 			51147
 		}
 	},
 	[28208] = {
+		hp_growth = 3210,
 		id = 28208,
 		base = 28200,
 		max_hp = 83,
-		hp_growth = 3210,
+		scale = 1,
 		weapon_ID = {
 			50668,
 			51148
 		}
 	},
 	[28209] = {
+		hp_growth = 3429,
 		id = 28209,
 		base = 28200,
 		max_hp = 89,
-		hp_growth = 3429,
+		scale = 1,
 		weapon_ID = {
 			50669,
 			51149
 		}
 	},
 	[28210] = {
+		hp_growth = 3648,
 		id = 28210,
 		base = 28200,
 		max_hp = 95,
-		hp_growth = 3648,
+		scale = 1,
 		weapon_ID = {
 			50670,
 			51150
@@ -8266,9 +9677,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 156,
 		dodge = 3.75,
-		type = 3,
-		dodge_limit = 0.8,
 		attack_power = 2,
+		dodge_limit = 0.8,
+		type = 3,
 		AP_growth = 2000,
 		icon = "zeiou",
 		funnel_behavior = "",
@@ -8276,6 +9687,7 @@ pg.aircraft_template = {
 		hp_growth = 1126,
 		speed = 45,
 		id = 29000,
+		scale = 1,
 		weapon_ID = {
 			50100,
 			52200
@@ -8333,30 +9745,33 @@ pg.aircraft_template = {
 		}
 	},
 	[29001] = {
+		hp_growth = 1295,
 		id = 29001,
 		base = 29000,
 		max_hp = 34,
-		hp_growth = 1295,
+		scale = 1,
 		weapon_ID = {
 			50101,
 			52201
 		}
 	},
 	[29002] = {
+		hp_growth = 1464,
 		id = 29002,
 		base = 29000,
 		max_hp = 38,
-		hp_growth = 1464,
+		scale = 1,
 		weapon_ID = {
 			50102,
 			52202
 		}
 	},
 	[29003] = {
+		hp_growth = 1633,
 		id = 29003,
 		base = 29000,
 		max_hp = 42,
-		hp_growth = 1633,
+		scale = 1,
 		weapon_ID = {
 			50103,
 			52203
@@ -8370,9 +9785,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 156,
 		dodge = 3.63,
-		type = 3,
-		dodge_limit = 0.9,
 		attack_power = 2,
+		dodge_limit = 0.9,
+		type = 3,
 		AP_growth = 2000,
 		icon = "zeiou",
 		funnel_behavior = "",
@@ -8380,6 +9795,7 @@ pg.aircraft_template = {
 		hp_growth = 1267,
 		speed = 45,
 		id = 29020,
+		scale = 1,
 		weapon_ID = {
 			50120,
 			52220
@@ -8437,30 +9853,33 @@ pg.aircraft_template = {
 		}
 	},
 	[29021] = {
+		hp_growth = 1457,
 		id = 29021,
 		base = 29020,
 		max_hp = 38,
-		hp_growth = 1457,
+		scale = 1,
 		weapon_ID = {
 			50121,
 			52221
 		}
 	},
 	[29022] = {
+		hp_growth = 1647,
 		id = 29022,
 		base = 29020,
 		max_hp = 43,
-		hp_growth = 1647,
+		scale = 1,
 		weapon_ID = {
 			50122,
 			52222
 		}
 	},
 	[29023] = {
+		hp_growth = 1837,
 		id = 29023,
 		base = 29020,
 		max_hp = 48,
-		hp_growth = 1837,
+		scale = 1,
 		weapon_ID = {
 			50123,
 			52223
@@ -8474,9 +9893,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 156,
 		dodge = 3.51,
-		type = 3,
-		dodge_limit = 1,
 		attack_power = 2,
+		dodge_limit = 1,
+		type = 3,
 		AP_growth = 2000,
 		icon = "zeiou",
 		funnel_behavior = "",
@@ -8484,6 +9903,7 @@ pg.aircraft_template = {
 		hp_growth = 1408,
 		speed = 45,
 		id = 29040,
+		scale = 1,
 		weapon_ID = {
 			50140,
 			52240
@@ -8541,60 +9961,66 @@ pg.aircraft_template = {
 		}
 	},
 	[29041] = {
+		hp_growth = 1619,
 		id = 29041,
 		base = 29040,
 		max_hp = 42,
-		hp_growth = 1619,
+		scale = 1,
 		weapon_ID = {
 			50141,
 			52241
 		}
 	},
 	[29042] = {
+		hp_growth = 1830,
 		id = 29042,
 		base = 29040,
 		max_hp = 48,
-		hp_growth = 1830,
+		scale = 1,
 		weapon_ID = {
 			50142,
 			52242
 		}
 	},
 	[29043] = {
+		hp_growth = 2042,
 		id = 29043,
 		base = 29040,
 		max_hp = 53,
-		hp_growth = 2042,
+		scale = 1,
 		weapon_ID = {
 			50143,
 			52243
 		}
 	},
 	[29044] = {
+		hp_growth = 2253,
 		id = 29044,
 		base = 29040,
 		max_hp = 59,
-		hp_growth = 2253,
+		scale = 1,
 		weapon_ID = {
 			50144,
 			52244
 		}
 	},
 	[29045] = {
+		hp_growth = 2464,
 		id = 29045,
 		base = 29040,
 		max_hp = 64,
-		hp_growth = 2464,
+		scale = 1,
 		weapon_ID = {
 			50145,
 			52245
 		}
 	},
 	[29046] = {
+		hp_growth = 2675,
 		id = 29046,
 		base = 29040,
 		max_hp = 70,
-		hp_growth = 2675,
+		scale = 1,
 		weapon_ID = {
 			50146,
 			52246
@@ -8608,9 +10034,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 200,
 		dodge = 3.57,
-		type = 3,
-		dodge_limit = 0.8,
 		attack_power = 2,
+		dodge_limit = 0.8,
+		type = 3,
 		AP_growth = 2000,
 		icon = "haiyan",
 		funnel_behavior = "",
@@ -8618,6 +10044,7 @@ pg.aircraft_template = {
 		hp_growth = 1267,
 		speed = 48,
 		id = 29100,
+		scale = 1,
 		weapon_ID = {
 			50200,
 			52100
@@ -8675,30 +10102,33 @@ pg.aircraft_template = {
 		}
 	},
 	[29101] = {
+		hp_growth = 1457,
 		id = 29101,
 		base = 29100,
 		max_hp = 38,
-		hp_growth = 1457,
+		scale = 1,
 		weapon_ID = {
 			50201,
 			52101
 		}
 	},
 	[29102] = {
+		hp_growth = 1647,
 		id = 29102,
 		base = 29100,
 		max_hp = 43,
-		hp_growth = 1647,
+		scale = 1,
 		weapon_ID = {
 			50202,
 			52102
 		}
 	},
 	[29103] = {
+		hp_growth = 1837,
 		id = 29103,
 		base = 29100,
 		max_hp = 48,
-		hp_growth = 1837,
+		scale = 1,
 		weapon_ID = {
 			50203,
 			52103
@@ -8712,9 +10142,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 200,
 		dodge = 3.45,
-		type = 3,
-		dodge_limit = 0.9,
 		attack_power = 2,
+		dodge_limit = 0.9,
+		type = 3,
 		AP_growth = 2000,
 		icon = "haiyan",
 		funnel_behavior = "",
@@ -8722,6 +10152,7 @@ pg.aircraft_template = {
 		hp_growth = 1408,
 		speed = 48,
 		id = 29120,
+		scale = 1,
 		weapon_ID = {
 			50220,
 			52120
@@ -8779,60 +10210,66 @@ pg.aircraft_template = {
 		}
 	},
 	[29121] = {
+		hp_growth = 1619,
 		id = 29121,
 		base = 29120,
 		max_hp = 42,
-		hp_growth = 1619,
+		scale = 1,
 		weapon_ID = {
 			50221,
 			52121
 		}
 	},
 	[29122] = {
+		hp_growth = 1830,
 		id = 29122,
 		base = 29120,
 		max_hp = 48,
-		hp_growth = 1830,
+		scale = 1,
 		weapon_ID = {
 			50222,
 			52122
 		}
 	},
 	[29123] = {
+		hp_growth = 2042,
 		id = 29123,
 		base = 29120,
 		max_hp = 53,
-		hp_growth = 2042,
+		scale = 1,
 		weapon_ID = {
 			50223,
 			52123
 		}
 	},
 	[29124] = {
+		hp_growth = 2253,
 		id = 29124,
 		base = 29120,
 		max_hp = 59,
-		hp_growth = 2253,
+		scale = 1,
 		weapon_ID = {
 			50224,
 			52124
 		}
 	},
 	[29125] = {
+		hp_growth = 2464,
 		id = 29125,
 		base = 29120,
 		max_hp = 64,
-		hp_growth = 2464,
+		scale = 1,
 		weapon_ID = {
 			50225,
 			52125
 		}
 	},
 	[29126] = {
+		hp_growth = 2675,
 		id = 29126,
 		base = 29120,
 		max_hp = 70,
-		hp_growth = 2675,
+		scale = 1,
 		weapon_ID = {
 			50226,
 			52126
@@ -8846,9 +10283,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 200,
 		dodge = 3.33,
-		type = 3,
-		dodge_limit = 1,
 		attack_power = 2,
+		dodge_limit = 1,
+		type = 3,
 		AP_growth = 2000,
 		icon = "haiyan",
 		funnel_behavior = "",
@@ -8856,6 +10293,7 @@ pg.aircraft_template = {
 		hp_growth = 1549,
 		speed = 48,
 		id = 29140,
+		scale = 1,
 		weapon_ID = {
 			50240,
 			52140
@@ -8913,100 +10351,110 @@ pg.aircraft_template = {
 		}
 	},
 	[29141] = {
+		hp_growth = 1781,
 		id = 29141,
 		base = 29140,
 		max_hp = 46,
-		hp_growth = 1781,
+		scale = 1,
 		weapon_ID = {
 			50241,
 			52141
 		}
 	},
 	[29142] = {
+		hp_growth = 2013,
 		id = 29142,
 		base = 29140,
 		max_hp = 52,
-		hp_growth = 2013,
+		scale = 1,
 		weapon_ID = {
 			50242,
 			52142
 		}
 	},
 	[29143] = {
+		hp_growth = 2246,
 		id = 29143,
 		base = 29140,
 		max_hp = 58,
-		hp_growth = 2246,
+		scale = 1,
 		weapon_ID = {
 			50243,
 			52143
 		}
 	},
 	[29144] = {
+		hp_growth = 2478,
 		id = 29144,
 		base = 29140,
 		max_hp = 64,
-		hp_growth = 2478,
+		scale = 1,
 		weapon_ID = {
 			50244,
 			52144
 		}
 	},
 	[29145] = {
+		hp_growth = 2710,
 		id = 29145,
 		base = 29140,
 		max_hp = 70,
-		hp_growth = 2710,
+		scale = 1,
 		weapon_ID = {
 			50245,
 			52145
 		}
 	},
 	[29146] = {
+		hp_growth = 2943,
 		id = 29146,
 		base = 29140,
 		max_hp = 77,
-		hp_growth = 2943,
+		scale = 1,
 		weapon_ID = {
 			50246,
 			52146
 		}
 	},
 	[29147] = {
+		hp_growth = 3175,
 		id = 29147,
 		base = 29140,
 		max_hp = 83,
-		hp_growth = 3175,
+		scale = 1,
 		weapon_ID = {
 			50247,
 			52147
 		}
 	},
 	[29148] = {
+		hp_growth = 3407,
 		id = 29148,
 		base = 29140,
 		max_hp = 89,
-		hp_growth = 3407,
+		scale = 1,
 		weapon_ID = {
 			50248,
 			52148
 		}
 	},
 	[29149] = {
+		hp_growth = 3640,
 		id = 29149,
 		base = 29140,
 		max_hp = 95,
-		hp_growth = 3640,
+		scale = 1,
 		weapon_ID = {
 			50249,
 			52149
 		}
 	},
 	[29150] = {
+		hp_growth = 3872,
 		id = 29150,
 		base = 29140,
 		max_hp = 101,
-		hp_growth = 3872,
+		scale = 1,
 		weapon_ID = {
 			50250,
 			52150
@@ -9020,9 +10468,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 210,
 		dodge = 0.75,
-		type = 3,
-		dodge_limit = 7,
 		attack_power = 2,
+		dodge_limit = 7,
+		type = 3,
 		AP_growth = 2000,
 		icon = "yinghuochong",
 		funnel_behavior = "",
@@ -9030,6 +10478,7 @@ pg.aircraft_template = {
 		hp_growth = 1690,
 		speed = 47,
 		id = 29200,
+		scale = 1,
 		weapon_ID = {
 			50660,
 			52740
@@ -9087,100 +10536,110 @@ pg.aircraft_template = {
 		}
 	},
 	[29201] = {
+		hp_growth = 1943,
 		id = 29201,
 		base = 29200,
 		max_hp = 51,
-		hp_growth = 1943,
+		scale = 1,
 		weapon_ID = {
 			50661,
 			52741
 		}
 	},
 	[29202] = {
+		hp_growth = 2196,
 		id = 29202,
 		base = 29200,
 		max_hp = 57,
-		hp_growth = 2196,
+		scale = 1,
 		weapon_ID = {
 			50662,
 			52742
 		}
 	},
 	[29203] = {
+		hp_growth = 2450,
 		id = 29203,
 		base = 29200,
 		max_hp = 64,
-		hp_growth = 2450,
+		scale = 1,
 		weapon_ID = {
 			50663,
 			52743
 		}
 	},
 	[29204] = {
+		hp_growth = 2703,
 		id = 29204,
 		base = 29200,
 		max_hp = 70,
-		hp_growth = 2703,
+		scale = 1,
 		weapon_ID = {
 			50664,
 			52744
 		}
 	},
 	[29205] = {
+		hp_growth = 2957,
 		id = 29205,
 		base = 29200,
 		max_hp = 77,
-		hp_growth = 2957,
+		scale = 1,
 		weapon_ID = {
 			50665,
 			52745
 		}
 	},
 	[29206] = {
+		hp_growth = 3210,
 		id = 29206,
 		base = 29200,
 		max_hp = 83,
-		hp_growth = 3210,
+		scale = 1,
 		weapon_ID = {
 			50666,
 			52746
 		}
 	},
 	[29207] = {
+		hp_growth = 3464,
 		id = 29207,
 		base = 29200,
 		max_hp = 90,
-		hp_growth = 3464,
+		scale = 1,
 		weapon_ID = {
 			50667,
 			52747
 		}
 	},
 	[29208] = {
+		hp_growth = 3717,
 		id = 29208,
 		base = 29200,
 		max_hp = 97,
-		hp_growth = 3717,
+		scale = 1,
 		weapon_ID = {
 			50668,
 			52748
 		}
 	},
 	[29209] = {
+		hp_growth = 3971,
 		id = 29209,
 		base = 29200,
 		max_hp = 103,
-		hp_growth = 3971,
+		scale = 1,
 		weapon_ID = {
 			50669,
 			52749
 		}
 	},
 	[29210] = {
+		hp_growth = 4224,
 		id = 29210,
 		base = 29200,
 		max_hp = 110,
-		hp_growth = 4224,
+		scale = 1,
 		weapon_ID = {
 			50670,
 			52750
@@ -9194,9 +10653,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 86,
 		dodge = 0.357,
-		type = 1,
-		dodge_limit = 7,
 		attack_power = 2,
+		dodge_limit = 7,
+		type = 1,
 		AP_growth = 2000,
 		icon = "96jiangong",
 		funnel_behavior = "",
@@ -9204,6 +10663,7 @@ pg.aircraft_template = {
 		hp_growth = 1021,
 		speed = 48,
 		id = 37000,
+		scale = 1,
 		weapon_ID = {
 			50000
 		},
@@ -9260,28 +10720,31 @@ pg.aircraft_template = {
 		}
 	},
 	[37001] = {
+		hp_growth = 1175,
 		id = 37001,
 		base = 37000,
 		max_hp = 31,
-		hp_growth = 1175,
+		scale = 1,
 		weapon_ID = {
 			50001
 		}
 	},
 	[37002] = {
+		hp_growth = 1328,
 		id = 37002,
 		base = 37000,
 		max_hp = 35,
-		hp_growth = 1328,
+		scale = 1,
 		weapon_ID = {
 			50002
 		}
 	},
 	[37003] = {
+		hp_growth = 1481,
 		id = 37003,
 		base = 37000,
 		max_hp = 39,
-		hp_growth = 1481,
+		scale = 1,
 		weapon_ID = {
 			50003
 		}
@@ -9294,9 +10757,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 86,
 		dodge = 0.345,
-		type = 1,
-		dodge_limit = 7.5,
 		attack_power = 2,
+		dodge_limit = 7.5,
+		type = 1,
 		AP_growth = 2000,
 		icon = "96jiangong",
 		funnel_behavior = "",
@@ -9304,6 +10767,7 @@ pg.aircraft_template = {
 		hp_growth = 1149,
 		speed = 48,
 		id = 37020,
+		scale = 1,
 		weapon_ID = {
 			50020
 		},
@@ -9360,28 +10824,31 @@ pg.aircraft_template = {
 		}
 	},
 	[37021] = {
+		hp_growth = 1321,
 		id = 37021,
 		base = 37020,
 		max_hp = 34,
-		hp_growth = 1321,
+		scale = 1,
 		weapon_ID = {
 			50021
 		}
 	},
 	[37022] = {
+		hp_growth = 1494,
 		id = 37022,
 		base = 37020,
 		max_hp = 39,
-		hp_growth = 1494,
+		scale = 1,
 		weapon_ID = {
 			50022
 		}
 	},
 	[37023] = {
+		hp_growth = 1666,
 		id = 37023,
 		base = 37020,
 		max_hp = 43,
-		hp_growth = 1666,
+		scale = 1,
 		weapon_ID = {
 			50023
 		}
@@ -9394,9 +10861,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 86,
 		dodge = 0.333,
-		type = 1,
-		dodge_limit = 8,
 		attack_power = 2,
+		dodge_limit = 8,
+		type = 1,
 		AP_growth = 2000,
 		icon = "96jiangong",
 		funnel_behavior = "",
@@ -9404,6 +10871,7 @@ pg.aircraft_template = {
 		hp_growth = 1277,
 		speed = 48,
 		id = 37040,
+		scale = 1,
 		weapon_ID = {
 			50040
 		},
@@ -9460,55 +10928,61 @@ pg.aircraft_template = {
 		}
 	},
 	[37041] = {
+		hp_growth = 1468,
 		id = 37041,
 		base = 37040,
 		max_hp = 38,
-		hp_growth = 1468,
+		scale = 1,
 		weapon_ID = {
 			50041
 		}
 	},
 	[37042] = {
+		hp_growth = 1660,
 		id = 37042,
 		base = 37040,
 		max_hp = 43,
-		hp_growth = 1660,
+		scale = 1,
 		weapon_ID = {
 			50042
 		}
 	},
 	[37043] = {
+		hp_growth = 1851,
 		id = 37043,
 		base = 37040,
 		max_hp = 48,
-		hp_growth = 1851,
+		scale = 1,
 		weapon_ID = {
 			50043
 		}
 	},
 	[37044] = {
+		hp_growth = 2043,
 		id = 37044,
 		base = 37040,
 		max_hp = 53,
-		hp_growth = 2043,
+		scale = 1,
 		weapon_ID = {
 			50044
 		}
 	},
 	[37045] = {
+		hp_growth = 2234,
 		id = 37045,
 		base = 37040,
 		max_hp = 58,
-		hp_growth = 2234,
+		scale = 1,
 		weapon_ID = {
 			50045
 		}
 	},
 	[37046] = {
+		hp_growth = 2426,
 		id = 37046,
 		base = 37040,
 		max_hp = 63,
-		hp_growth = 2426,
+		scale = 1,
 		weapon_ID = {
 			50046
 		}
@@ -9521,9 +10995,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 106,
 		dodge = 0.339,
-		type = 1,
-		dodge_limit = 8,
 		attack_power = 2,
+		dodge_limit = 8,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan21",
 		funnel_behavior = "",
@@ -9531,6 +11005,7 @@ pg.aircraft_template = {
 		hp_growth = 1149,
 		speed = 52,
 		id = 37100,
+		scale = 1,
 		weapon_ID = {
 			50000,
 			50500,
@@ -9589,10 +11064,11 @@ pg.aircraft_template = {
 		}
 	},
 	[37101] = {
+		hp_growth = 1321,
 		id = 37101,
 		base = 37100,
 		max_hp = 34,
-		hp_growth = 1321,
+		scale = 1,
 		weapon_ID = {
 			50001,
 			50501,
@@ -9600,10 +11076,11 @@ pg.aircraft_template = {
 		}
 	},
 	[37102] = {
+		hp_growth = 1494,
 		id = 37102,
 		base = 37100,
 		max_hp = 39,
-		hp_growth = 1494,
+		scale = 1,
 		weapon_ID = {
 			50002,
 			50502,
@@ -9611,10 +11088,11 @@ pg.aircraft_template = {
 		}
 	},
 	[37103] = {
+		hp_growth = 1666,
 		id = 37103,
 		base = 37100,
 		max_hp = 43,
-		hp_growth = 1666,
+		scale = 1,
 		weapon_ID = {
 			50003,
 			50503,
@@ -9629,9 +11107,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 106,
 		dodge = 0.327,
-		type = 1,
-		dodge_limit = 8.5,
 		attack_power = 2,
+		dodge_limit = 8.5,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan21",
 		funnel_behavior = "",
@@ -9639,6 +11117,7 @@ pg.aircraft_template = {
 		hp_growth = 1277,
 		speed = 52,
 		id = 37120,
+		scale = 1,
 		weapon_ID = {
 			50020,
 			50520,
@@ -9697,10 +11176,11 @@ pg.aircraft_template = {
 		}
 	},
 	[37121] = {
+		hp_growth = 1468,
 		id = 37121,
 		base = 37120,
 		max_hp = 38,
-		hp_growth = 1468,
+		scale = 1,
 		weapon_ID = {
 			50021,
 			50521,
@@ -9708,10 +11188,11 @@ pg.aircraft_template = {
 		}
 	},
 	[37122] = {
+		hp_growth = 1660,
 		id = 37122,
 		base = 37120,
 		max_hp = 43,
-		hp_growth = 1660,
+		scale = 1,
 		weapon_ID = {
 			50022,
 			50522,
@@ -9719,10 +11200,11 @@ pg.aircraft_template = {
 		}
 	},
 	[37123] = {
+		hp_growth = 1851,
 		id = 37123,
 		base = 37120,
 		max_hp = 48,
-		hp_growth = 1851,
+		scale = 1,
 		weapon_ID = {
 			50023,
 			50523,
@@ -9730,10 +11212,11 @@ pg.aircraft_template = {
 		}
 	},
 	[37124] = {
+		hp_growth = 2043,
 		id = 37124,
 		base = 37120,
 		max_hp = 53,
-		hp_growth = 2043,
+		scale = 1,
 		weapon_ID = {
 			50024,
 			50524,
@@ -9741,10 +11224,11 @@ pg.aircraft_template = {
 		}
 	},
 	[37125] = {
+		hp_growth = 2234,
 		id = 37125,
 		base = 37120,
 		max_hp = 58,
-		hp_growth = 2234,
+		scale = 1,
 		weapon_ID = {
 			50025,
 			50525,
@@ -9752,10 +11236,11 @@ pg.aircraft_template = {
 		}
 	},
 	[37126] = {
+		hp_growth = 2426,
 		id = 37126,
 		base = 37120,
 		max_hp = 63,
-		hp_growth = 2426,
+		scale = 1,
 		weapon_ID = {
 			50026,
 			50526,
@@ -9770,9 +11255,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 106,
 		dodge = 0.315,
-		type = 1,
-		dodge_limit = 9,
 		attack_power = 2,
+		dodge_limit = 9,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan21",
 		funnel_behavior = "",
@@ -9780,6 +11265,7 @@ pg.aircraft_template = {
 		hp_growth = 1404,
 		speed = 52,
 		id = 37140,
+		scale = 1,
 		weapon_ID = {
 			50040,
 			50540,
@@ -9838,10 +11324,11 @@ pg.aircraft_template = {
 		}
 	},
 	[37141] = {
+		hp_growth = 1615,
 		id = 37141,
 		base = 37140,
 		max_hp = 42,
-		hp_growth = 1615,
+		scale = 1,
 		weapon_ID = {
 			50041,
 			50541,
@@ -9849,10 +11336,11 @@ pg.aircraft_template = {
 		}
 	},
 	[37142] = {
+		hp_growth = 1826,
 		id = 37142,
 		base = 37140,
 		max_hp = 47,
-		hp_growth = 1826,
+		scale = 1,
 		weapon_ID = {
 			50042,
 			50542,
@@ -9860,10 +11348,11 @@ pg.aircraft_template = {
 		}
 	},
 	[37143] = {
+		hp_growth = 2036,
 		id = 37143,
 		base = 37140,
 		max_hp = 53,
-		hp_growth = 2036,
+		scale = 1,
 		weapon_ID = {
 			50043,
 			50543,
@@ -9871,10 +11360,11 @@ pg.aircraft_template = {
 		}
 	},
 	[37144] = {
+		hp_growth = 2247,
 		id = 37144,
 		base = 37140,
 		max_hp = 58,
-		hp_growth = 2247,
+		scale = 1,
 		weapon_ID = {
 			50044,
 			50544,
@@ -9882,10 +11372,11 @@ pg.aircraft_template = {
 		}
 	},
 	[37145] = {
+		hp_growth = 2458,
 		id = 37145,
 		base = 37140,
 		max_hp = 64,
-		hp_growth = 2458,
+		scale = 1,
 		weapon_ID = {
 			50045,
 			50545,
@@ -9893,10 +11384,11 @@ pg.aircraft_template = {
 		}
 	},
 	[37146] = {
+		hp_growth = 2669,
 		id = 37146,
 		base = 37140,
 		max_hp = 69,
-		hp_growth = 2669,
+		scale = 1,
 		weapon_ID = {
 			50046,
 			50546,
@@ -9904,10 +11396,11 @@ pg.aircraft_template = {
 		}
 	},
 	[37147] = {
+		hp_growth = 2879,
 		id = 37147,
 		base = 37140,
 		max_hp = 75,
-		hp_growth = 2879,
+		scale = 1,
 		weapon_ID = {
 			50047,
 			50547,
@@ -9915,10 +11408,11 @@ pg.aircraft_template = {
 		}
 	},
 	[37148] = {
+		hp_growth = 3090,
 		id = 37148,
 		base = 37140,
 		max_hp = 80,
-		hp_growth = 3090,
+		scale = 1,
 		weapon_ID = {
 			50048,
 			50548,
@@ -9926,10 +11420,11 @@ pg.aircraft_template = {
 		}
 	},
 	[37149] = {
+		hp_growth = 3301,
 		id = 37149,
 		base = 37140,
 		max_hp = 86,
-		hp_growth = 3301,
+		scale = 1,
 		weapon_ID = {
 			50049,
 			50549,
@@ -9937,10 +11432,11 @@ pg.aircraft_template = {
 		}
 	},
 	[37150] = {
+		hp_growth = 3511,
 		id = 37150,
 		base = 37140,
 		max_hp = 91,
-		hp_growth = 3511,
+		scale = 1,
 		weapon_ID = {
 			50050,
 			50550,
@@ -9955,9 +11451,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 140,
 		dodge = 0.339,
-		type = 1,
-		dodge_limit = 8,
 		attack_power = 2,
+		dodge_limit = 8,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan52",
 		funnel_behavior = "",
@@ -9965,6 +11461,7 @@ pg.aircraft_template = {
 		hp_growth = 1277,
 		speed = 55,
 		id = 37200,
+		scale = 1,
 		weapon_ID = {
 			50000,
 			50500,
@@ -10023,10 +11520,11 @@ pg.aircraft_template = {
 		}
 	},
 	[37201] = {
+		hp_growth = 1468,
 		id = 37201,
 		base = 37200,
 		max_hp = 38,
-		hp_growth = 1468,
+		scale = 1,
 		weapon_ID = {
 			50001,
 			50501,
@@ -10034,10 +11532,11 @@ pg.aircraft_template = {
 		}
 	},
 	[37202] = {
+		hp_growth = 1660,
 		id = 37202,
 		base = 37200,
 		max_hp = 43,
-		hp_growth = 1660,
+		scale = 1,
 		weapon_ID = {
 			50002,
 			50502,
@@ -10045,10 +11544,11 @@ pg.aircraft_template = {
 		}
 	},
 	[37203] = {
+		hp_growth = 1851,
 		id = 37203,
 		base = 37200,
 		max_hp = 48,
-		hp_growth = 1851,
+		scale = 1,
 		weapon_ID = {
 			50003,
 			50503,
@@ -10056,10 +11556,11 @@ pg.aircraft_template = {
 		}
 	},
 	[37204] = {
+		hp_growth = 2043,
 		id = 37204,
 		base = 37200,
 		max_hp = 53,
-		hp_growth = 2043,
+		scale = 1,
 		weapon_ID = {
 			50004,
 			50504,
@@ -10067,10 +11568,11 @@ pg.aircraft_template = {
 		}
 	},
 	[37205] = {
+		hp_growth = 2234,
 		id = 37205,
 		base = 37200,
 		max_hp = 58,
-		hp_growth = 2234,
+		scale = 1,
 		weapon_ID = {
 			50005,
 			50505,
@@ -10078,10 +11580,11 @@ pg.aircraft_template = {
 		}
 	},
 	[37206] = {
+		hp_growth = 2426,
 		id = 37206,
 		base = 37200,
 		max_hp = 63,
-		hp_growth = 2426,
+		scale = 1,
 		weapon_ID = {
 			50006,
 			50506,
@@ -10096,9 +11599,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 140,
 		dodge = 0.327,
-		type = 1,
-		dodge_limit = 8.5,
 		attack_power = 2,
+		dodge_limit = 8.5,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan52",
 		funnel_behavior = "",
@@ -10106,6 +11609,7 @@ pg.aircraft_template = {
 		hp_growth = 1404,
 		speed = 55,
 		id = 37220,
+		scale = 1,
 		weapon_ID = {
 			50020,
 			50520,
@@ -10164,10 +11668,11 @@ pg.aircraft_template = {
 		}
 	},
 	[37221] = {
+		hp_growth = 1615,
 		id = 37221,
 		base = 37220,
 		max_hp = 42,
-		hp_growth = 1615,
+		scale = 1,
 		weapon_ID = {
 			50021,
 			50521,
@@ -10175,10 +11680,11 @@ pg.aircraft_template = {
 		}
 	},
 	[37222] = {
+		hp_growth = 1826,
 		id = 37222,
 		base = 37220,
 		max_hp = 47,
-		hp_growth = 1826,
+		scale = 1,
 		weapon_ID = {
 			50022,
 			50522,
@@ -10186,10 +11692,11 @@ pg.aircraft_template = {
 		}
 	},
 	[37223] = {
+		hp_growth = 2036,
 		id = 37223,
 		base = 37220,
 		max_hp = 53,
-		hp_growth = 2036,
+		scale = 1,
 		weapon_ID = {
 			50023,
 			50523,
@@ -10197,10 +11704,11 @@ pg.aircraft_template = {
 		}
 	},
 	[37224] = {
+		hp_growth = 2247,
 		id = 37224,
 		base = 37220,
 		max_hp = 58,
-		hp_growth = 2247,
+		scale = 1,
 		weapon_ID = {
 			50024,
 			50524,
@@ -10208,10 +11716,11 @@ pg.aircraft_template = {
 		}
 	},
 	[37225] = {
+		hp_growth = 2458,
 		id = 37225,
 		base = 37220,
 		max_hp = 64,
-		hp_growth = 2458,
+		scale = 1,
 		weapon_ID = {
 			50025,
 			50525,
@@ -10219,10 +11728,11 @@ pg.aircraft_template = {
 		}
 	},
 	[37226] = {
+		hp_growth = 2669,
 		id = 37226,
 		base = 37220,
 		max_hp = 69,
-		hp_growth = 2669,
+		scale = 1,
 		weapon_ID = {
 			50026,
 			50526,
@@ -10230,10 +11740,11 @@ pg.aircraft_template = {
 		}
 	},
 	[37227] = {
+		hp_growth = 2879,
 		id = 37227,
 		base = 37220,
 		max_hp = 75,
-		hp_growth = 2879,
+		scale = 1,
 		weapon_ID = {
 			50027,
 			50527,
@@ -10241,10 +11752,11 @@ pg.aircraft_template = {
 		}
 	},
 	[37228] = {
+		hp_growth = 3090,
 		id = 37228,
 		base = 37220,
 		max_hp = 80,
-		hp_growth = 3090,
+		scale = 1,
 		weapon_ID = {
 			50028,
 			50528,
@@ -10252,10 +11764,11 @@ pg.aircraft_template = {
 		}
 	},
 	[37229] = {
+		hp_growth = 3301,
 		id = 37229,
 		base = 37220,
 		max_hp = 86,
-		hp_growth = 3301,
+		scale = 1,
 		weapon_ID = {
 			50029,
 			50529,
@@ -10263,10 +11776,11 @@ pg.aircraft_template = {
 		}
 	},
 	[37230] = {
+		hp_growth = 3511,
 		id = 37230,
 		base = 37220,
 		max_hp = 91,
-		hp_growth = 3511,
+		scale = 1,
 		weapon_ID = {
 			50030,
 			50530,
@@ -10281,9 +11795,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 140,
 		dodge = 0.315,
-		type = 1,
-		dodge_limit = 9,
 		attack_power = 2,
+		dodge_limit = 9,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan52",
 		funnel_behavior = "",
@@ -10291,6 +11805,7 @@ pg.aircraft_template = {
 		hp_growth = 1532,
 		speed = 55,
 		id = 37240,
+		scale = 1,
 		weapon_ID = {
 			50040,
 			50540,
@@ -10349,10 +11864,11 @@ pg.aircraft_template = {
 		}
 	},
 	[37241] = {
+		hp_growth = 1762,
 		id = 37241,
 		base = 37240,
 		max_hp = 46,
-		hp_growth = 1762,
+		scale = 1,
 		weapon_ID = {
 			50041,
 			50541,
@@ -10360,10 +11876,11 @@ pg.aircraft_template = {
 		}
 	},
 	[37242] = {
+		hp_growth = 1992,
 		id = 37242,
 		base = 37240,
 		max_hp = 52,
-		hp_growth = 1992,
+		scale = 1,
 		weapon_ID = {
 			50042,
 			50542,
@@ -10371,10 +11888,11 @@ pg.aircraft_template = {
 		}
 	},
 	[37243] = {
+		hp_growth = 2222,
 		id = 37243,
 		base = 37240,
 		max_hp = 58,
-		hp_growth = 2222,
+		scale = 1,
 		weapon_ID = {
 			50043,
 			50543,
@@ -10382,10 +11900,11 @@ pg.aircraft_template = {
 		}
 	},
 	[37244] = {
+		hp_growth = 2451,
 		id = 37244,
 		base = 37240,
 		max_hp = 64,
-		hp_growth = 2451,
+		scale = 1,
 		weapon_ID = {
 			50044,
 			50544,
@@ -10393,10 +11912,11 @@ pg.aircraft_template = {
 		}
 	},
 	[37245] = {
+		hp_growth = 2681,
 		id = 37245,
 		base = 37240,
 		max_hp = 70,
-		hp_growth = 2681,
+		scale = 1,
 		weapon_ID = {
 			50045,
 			50545,
@@ -10404,10 +11924,11 @@ pg.aircraft_template = {
 		}
 	},
 	[37246] = {
+		hp_growth = 2911,
 		id = 37246,
 		base = 37240,
 		max_hp = 76,
-		hp_growth = 2911,
+		scale = 1,
 		weapon_ID = {
 			50046,
 			50546,
@@ -10415,10 +11936,11 @@ pg.aircraft_template = {
 		}
 	},
 	[37247] = {
+		hp_growth = 3141,
 		id = 37247,
 		base = 37240,
 		max_hp = 82,
-		hp_growth = 3141,
+		scale = 1,
 		weapon_ID = {
 			50047,
 			50547,
@@ -10426,10 +11948,11 @@ pg.aircraft_template = {
 		}
 	},
 	[37248] = {
+		hp_growth = 3371,
 		id = 37248,
 		base = 37240,
 		max_hp = 88,
-		hp_growth = 3371,
+		scale = 1,
 		weapon_ID = {
 			50048,
 			50548,
@@ -10437,10 +11960,11 @@ pg.aircraft_template = {
 		}
 	},
 	[37249] = {
+		hp_growth = 3601,
 		id = 37249,
 		base = 37240,
 		max_hp = 94,
-		hp_growth = 3601,
+		scale = 1,
 		weapon_ID = {
 			50049,
 			50549,
@@ -10448,10 +11972,11 @@ pg.aircraft_template = {
 		}
 	},
 	[37250] = {
+		hp_growth = 3830,
 		id = 37250,
 		base = 37240,
 		max_hp = 100,
-		hp_growth = 3830,
+		scale = 1,
 		weapon_ID = {
 			50050,
 			50550,
@@ -10466,9 +11991,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 162,
 		dodge = 0.321,
-		type = 1,
-		dodge_limit = 9,
 		attack_power = 2,
+		dodge_limit = 9,
+		type = 1,
 		AP_growth = 2000,
 		icon = "liefeng",
 		funnel_behavior = "",
@@ -10476,6 +12001,7 @@ pg.aircraft_template = {
 		hp_growth = 1277,
 		speed = 60,
 		id = 37300,
+		scale = 1,
 		weapon_ID = {
 			59500,
 			52300
@@ -10533,60 +12059,66 @@ pg.aircraft_template = {
 		}
 	},
 	[37301] = {
+		hp_growth = 1468,
 		id = 37301,
 		base = 37300,
 		max_hp = 38,
-		hp_growth = 1468,
+		scale = 1,
 		weapon_ID = {
 			59501,
 			52301
 		}
 	},
 	[37302] = {
+		hp_growth = 1660,
 		id = 37302,
 		base = 37300,
 		max_hp = 43,
-		hp_growth = 1660,
+		scale = 1,
 		weapon_ID = {
 			59502,
 			52302
 		}
 	},
 	[37303] = {
+		hp_growth = 1851,
 		id = 37303,
 		base = 37300,
 		max_hp = 48,
-		hp_growth = 1851,
+		scale = 1,
 		weapon_ID = {
 			59503,
 			52303
 		}
 	},
 	[37304] = {
+		hp_growth = 2043,
 		id = 37304,
 		base = 37300,
 		max_hp = 53,
-		hp_growth = 2043,
+		scale = 1,
 		weapon_ID = {
 			59504,
 			52304
 		}
 	},
 	[37305] = {
+		hp_growth = 2234,
 		id = 37305,
 		base = 37300,
 		max_hp = 58,
-		hp_growth = 2234,
+		scale = 1,
 		weapon_ID = {
 			59505,
 			52305
 		}
 	},
 	[37306] = {
+		hp_growth = 2426,
 		id = 37306,
 		base = 37300,
 		max_hp = 63,
-		hp_growth = 2426,
+		scale = 1,
 		weapon_ID = {
 			59506,
 			52306
@@ -10600,9 +12132,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 162,
 		dodge = 0.309,
-		type = 1,
-		dodge_limit = 9.5,
 		attack_power = 2,
+		dodge_limit = 9.5,
+		type = 1,
 		AP_growth = 2000,
 		icon = "liefeng",
 		funnel_behavior = "",
@@ -10610,6 +12142,7 @@ pg.aircraft_template = {
 		hp_growth = 1404,
 		speed = 60,
 		id = 37320,
+		scale = 1,
 		weapon_ID = {
 			59520,
 			52320
@@ -10667,100 +12200,110 @@ pg.aircraft_template = {
 		}
 	},
 	[37321] = {
+		hp_growth = 1615,
 		id = 37321,
 		base = 37320,
 		max_hp = 42,
-		hp_growth = 1615,
+		scale = 1,
 		weapon_ID = {
 			59521,
 			52321
 		}
 	},
 	[37322] = {
+		hp_growth = 1826,
 		id = 37322,
 		base = 37320,
 		max_hp = 47,
-		hp_growth = 1826,
+		scale = 1,
 		weapon_ID = {
 			59522,
 			52322
 		}
 	},
 	[37323] = {
+		hp_growth = 2036,
 		id = 37323,
 		base = 37320,
 		max_hp = 53,
-		hp_growth = 2036,
+		scale = 1,
 		weapon_ID = {
 			59523,
 			52323
 		}
 	},
 	[37324] = {
+		hp_growth = 2247,
 		id = 37324,
 		base = 37320,
 		max_hp = 58,
-		hp_growth = 2247,
+		scale = 1,
 		weapon_ID = {
 			59524,
 			52324
 		}
 	},
 	[37325] = {
+		hp_growth = 2458,
 		id = 37325,
 		base = 37320,
 		max_hp = 64,
-		hp_growth = 2458,
+		scale = 1,
 		weapon_ID = {
 			59525,
 			52325
 		}
 	},
 	[37326] = {
+		hp_growth = 2669,
 		id = 37326,
 		base = 37320,
 		max_hp = 69,
-		hp_growth = 2669,
+		scale = 1,
 		weapon_ID = {
 			59526,
 			52326
 		}
 	},
 	[37327] = {
+		hp_growth = 2879,
 		id = 37327,
 		base = 37320,
 		max_hp = 75,
-		hp_growth = 2879,
+		scale = 1,
 		weapon_ID = {
 			59527,
 			52327
 		}
 	},
 	[37328] = {
+		hp_growth = 3090,
 		id = 37328,
 		base = 37320,
 		max_hp = 80,
-		hp_growth = 3090,
+		scale = 1,
 		weapon_ID = {
 			59528,
 			52328
 		}
 	},
 	[37329] = {
+		hp_growth = 3301,
 		id = 37329,
 		base = 37320,
 		max_hp = 86,
-		hp_growth = 3301,
+		scale = 1,
 		weapon_ID = {
 			59529,
 			52329
 		}
 	},
 	[37330] = {
+		hp_growth = 3511,
 		id = 37330,
 		base = 37320,
 		max_hp = 91,
-		hp_growth = 3511,
+		scale = 1,
 		weapon_ID = {
 			59530,
 			52330
@@ -10774,9 +12317,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 162,
 		dodge = 0.297,
-		type = 1,
-		dodge_limit = 10,
 		attack_power = 2,
+		dodge_limit = 10,
+		type = 1,
 		AP_growth = 2000,
 		icon = "liefeng",
 		funnel_behavior = "",
@@ -10784,6 +12327,7 @@ pg.aircraft_template = {
 		hp_growth = 1532,
 		speed = 60,
 		id = 37340,
+		scale = 1,
 		weapon_ID = {
 			59540,
 			52340
@@ -10841,100 +12385,110 @@ pg.aircraft_template = {
 		}
 	},
 	[37341] = {
+		hp_growth = 1762,
 		id = 37341,
 		base = 37340,
 		max_hp = 46,
-		hp_growth = 1762,
+		scale = 1,
 		weapon_ID = {
 			59541,
 			52341
 		}
 	},
 	[37342] = {
+		hp_growth = 1992,
 		id = 37342,
 		base = 37340,
 		max_hp = 52,
-		hp_growth = 1992,
+		scale = 1,
 		weapon_ID = {
 			59542,
 			52342
 		}
 	},
 	[37343] = {
+		hp_growth = 2222,
 		id = 37343,
 		base = 37340,
 		max_hp = 58,
-		hp_growth = 2222,
+		scale = 1,
 		weapon_ID = {
 			59543,
 			52343
 		}
 	},
 	[37344] = {
+		hp_growth = 2451,
 		id = 37344,
 		base = 37340,
 		max_hp = 64,
-		hp_growth = 2451,
+		scale = 1,
 		weapon_ID = {
 			59544,
 			52344
 		}
 	},
 	[37345] = {
+		hp_growth = 2681,
 		id = 37345,
 		base = 37340,
 		max_hp = 70,
-		hp_growth = 2681,
+		scale = 1,
 		weapon_ID = {
 			59545,
 			52345
 		}
 	},
 	[37346] = {
+		hp_growth = 2911,
 		id = 37346,
 		base = 37340,
 		max_hp = 76,
-		hp_growth = 2911,
+		scale = 1,
 		weapon_ID = {
 			59546,
 			52346
 		}
 	},
 	[37347] = {
+		hp_growth = 3141,
 		id = 37347,
 		base = 37340,
 		max_hp = 82,
-		hp_growth = 3141,
+		scale = 1,
 		weapon_ID = {
 			59547,
 			52347
 		}
 	},
 	[37348] = {
+		hp_growth = 3371,
 		id = 37348,
 		base = 37340,
 		max_hp = 88,
-		hp_growth = 3371,
+		scale = 1,
 		weapon_ID = {
 			59548,
 			52348
 		}
 	},
 	[37349] = {
+		hp_growth = 3601,
 		id = 37349,
 		base = 37340,
 		max_hp = 94,
-		hp_growth = 3601,
+		scale = 1,
 		weapon_ID = {
 			59549,
 			52349
 		}
 	},
 	[37350] = {
+		hp_growth = 3830,
 		id = 37350,
 		base = 37340,
 		max_hp = 100,
-		hp_growth = 3830,
+		scale = 1,
 		weapon_ID = {
 			59550,
 			52350
@@ -10948,9 +12502,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 148,
 		dodge = 1.25,
-		type = 2,
-		dodge_limit = 3,
 		attack_power = 2,
+		dodge_limit = 3,
+		type = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -10958,6 +12512,7 @@ pg.aircraft_template = {
 		hp_growth = 924,
 		speed = 48,
 		id = 38000,
+		scale = 1,
 		weapon_ID = {
 			50000,
 			51300
@@ -11015,30 +12570,33 @@ pg.aircraft_template = {
 		}
 	},
 	[38001] = {
+		hp_growth = 1063,
 		id = 38001,
 		base = 38000,
 		max_hp = 28,
-		hp_growth = 1063,
+		scale = 1,
 		weapon_ID = {
 			50001,
 			51301
 		}
 	},
 	[38002] = {
+		hp_growth = 1201,
 		id = 38002,
 		base = 38000,
 		max_hp = 31,
-		hp_growth = 1201,
+		scale = 1,
 		weapon_ID = {
 			50002,
 			51302
 		}
 	},
 	[38003] = {
+		hp_growth = 1340,
 		id = 38003,
 		base = 38000,
 		max_hp = 35,
-		hp_growth = 1340,
+		scale = 1,
 		weapon_ID = {
 			50003,
 			51303
@@ -11052,9 +12610,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 148,
 		dodge = 1.21,
-		type = 2,
-		dodge_limit = 3.5,
 		attack_power = 2,
+		dodge_limit = 3.5,
+		type = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -11062,6 +12620,7 @@ pg.aircraft_template = {
 		hp_growth = 1040,
 		speed = 48,
 		id = 38020,
+		scale = 1,
 		weapon_ID = {
 			50020,
 			51320
@@ -11119,30 +12678,33 @@ pg.aircraft_template = {
 		}
 	},
 	[38021] = {
+		hp_growth = 1196,
 		id = 38021,
 		base = 38020,
 		max_hp = 31,
-		hp_growth = 1196,
+		scale = 1,
 		weapon_ID = {
 			50021,
 			51321
 		}
 	},
 	[38022] = {
+		hp_growth = 1352,
 		id = 38022,
 		base = 38020,
 		max_hp = 35,
-		hp_growth = 1352,
+		scale = 1,
 		weapon_ID = {
 			50022,
 			51322
 		}
 	},
 	[38023] = {
+		hp_growth = 1508,
 		id = 38023,
 		base = 38020,
 		max_hp = 39,
-		hp_growth = 1508,
+		scale = 1,
 		weapon_ID = {
 			50023,
 			51323
@@ -11156,9 +12718,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 148,
 		dodge = 1.17,
-		type = 2,
-		dodge_limit = 4,
 		attack_power = 2,
+		dodge_limit = 4,
+		type = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -11166,6 +12728,7 @@ pg.aircraft_template = {
 		hp_growth = 1155,
 		speed = 48,
 		id = 38040,
+		scale = 1,
 		weapon_ID = {
 			50040,
 			51340
@@ -11223,60 +12786,66 @@ pg.aircraft_template = {
 		}
 	},
 	[38041] = {
+		hp_growth = 1328,
 		id = 38041,
 		base = 38040,
 		max_hp = 35,
-		hp_growth = 1328,
+		scale = 1,
 		weapon_ID = {
 			50041,
 			51341
 		}
 	},
 	[38042] = {
+		hp_growth = 1502,
 		id = 38042,
 		base = 38040,
 		max_hp = 39,
-		hp_growth = 1502,
+		scale = 1,
 		weapon_ID = {
 			50042,
 			51342
 		}
 	},
 	[38043] = {
+		hp_growth = 1675,
 		id = 38043,
 		base = 38040,
 		max_hp = 44,
-		hp_growth = 1675,
+		scale = 1,
 		weapon_ID = {
 			50043,
 			51343
 		}
 	},
 	[38044] = {
+		hp_growth = 1848,
 		id = 38044,
 		base = 38040,
 		max_hp = 48,
-		hp_growth = 1848,
+		scale = 1,
 		weapon_ID = {
 			50044,
 			51344
 		}
 	},
 	[38045] = {
+		hp_growth = 2022,
 		id = 38045,
 		base = 38040,
 		max_hp = 53,
-		hp_growth = 2022,
+		scale = 1,
 		weapon_ID = {
 			50045,
 			51345
 		}
 	},
 	[38046] = {
+		hp_growth = 2195,
 		id = 38046,
 		base = 38040,
 		max_hp = 57,
-		hp_growth = 2195,
+		scale = 1,
 		weapon_ID = {
 			50046,
 			51346
@@ -11290,9 +12859,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 168,
 		dodge = 1.19,
-		type = 2,
-		dodge_limit = 4,
 		attack_power = 2,
+		dodge_limit = 4,
+		type = 2,
 		AP_growth = 2000,
 		icon = "tianshan",
 		funnel_behavior = "",
@@ -11300,6 +12869,7 @@ pg.aircraft_template = {
 		hp_growth = 1040,
 		speed = 48,
 		id = 38100,
+		scale = 1,
 		weapon_ID = {
 			50000,
 			51400
@@ -11357,30 +12927,33 @@ pg.aircraft_template = {
 		}
 	},
 	[38101] = {
+		hp_growth = 1196,
 		id = 38101,
 		base = 38100,
 		max_hp = 31,
-		hp_growth = 1196,
+		scale = 1,
 		weapon_ID = {
 			50001,
 			51401
 		}
 	},
 	[38102] = {
+		hp_growth = 1352,
 		id = 38102,
 		base = 38100,
 		max_hp = 35,
-		hp_growth = 1352,
+		scale = 1,
 		weapon_ID = {
 			50002,
 			51402
 		}
 	},
 	[38103] = {
+		hp_growth = 1508,
 		id = 38103,
 		base = 38100,
 		max_hp = 39,
-		hp_growth = 1508,
+		scale = 1,
 		weapon_ID = {
 			50003,
 			51403
@@ -11394,9 +12967,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 168,
 		dodge = 1.15,
-		type = 2,
-		dodge_limit = 4.5,
 		attack_power = 2,
+		dodge_limit = 4.5,
+		type = 2,
 		AP_growth = 2000,
 		icon = "tianshan",
 		funnel_behavior = "",
@@ -11404,6 +12977,7 @@ pg.aircraft_template = {
 		hp_growth = 1155,
 		speed = 48,
 		id = 38120,
+		scale = 1,
 		weapon_ID = {
 			50020,
 			51420
@@ -11461,60 +13035,66 @@ pg.aircraft_template = {
 		}
 	},
 	[38121] = {
+		hp_growth = 1328,
 		id = 38121,
 		base = 38120,
 		max_hp = 35,
-		hp_growth = 1328,
+		scale = 1,
 		weapon_ID = {
 			50021,
 			51421
 		}
 	},
 	[38122] = {
+		hp_growth = 1502,
 		id = 38122,
 		base = 38120,
 		max_hp = 39,
-		hp_growth = 1502,
+		scale = 1,
 		weapon_ID = {
 			50022,
 			51422
 		}
 	},
 	[38123] = {
+		hp_growth = 1675,
 		id = 38123,
 		base = 38120,
 		max_hp = 44,
-		hp_growth = 1675,
+		scale = 1,
 		weapon_ID = {
 			50023,
 			51423
 		}
 	},
 	[38124] = {
+		hp_growth = 1848,
 		id = 38124,
 		base = 38120,
 		max_hp = 48,
-		hp_growth = 1848,
+		scale = 1,
 		weapon_ID = {
 			50024,
 			51424
 		}
 	},
 	[38125] = {
+		hp_growth = 2022,
 		id = 38125,
 		base = 38120,
 		max_hp = 53,
-		hp_growth = 2022,
+		scale = 1,
 		weapon_ID = {
 			50025,
 			51425
 		}
 	},
 	[38126] = {
+		hp_growth = 2195,
 		id = 38126,
 		base = 38120,
 		max_hp = 57,
-		hp_growth = 2195,
+		scale = 1,
 		weapon_ID = {
 			50026,
 			51426
@@ -11528,9 +13108,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 168,
 		dodge = 1.11,
-		type = 2,
-		dodge_limit = 5,
 		attack_power = 2,
+		dodge_limit = 5,
+		type = 2,
 		AP_growth = 2000,
 		icon = "tianshan",
 		funnel_behavior = "",
@@ -11538,6 +13118,7 @@ pg.aircraft_template = {
 		hp_growth = 1271,
 		speed = 48,
 		id = 38140,
+		scale = 1,
 		weapon_ID = {
 			50040,
 			51440
@@ -11595,100 +13176,110 @@ pg.aircraft_template = {
 		}
 	},
 	[38141] = {
+		hp_growth = 1461,
 		id = 38141,
 		base = 38140,
 		max_hp = 38,
-		hp_growth = 1461,
+		scale = 1,
 		weapon_ID = {
 			50041,
 			51441
 		}
 	},
 	[38142] = {
+		hp_growth = 1652,
 		id = 38142,
 		base = 38140,
 		max_hp = 43,
-		hp_growth = 1652,
+		scale = 1,
 		weapon_ID = {
 			50042,
 			51442
 		}
 	},
 	[38143] = {
+		hp_growth = 1843,
 		id = 38143,
 		base = 38140,
 		max_hp = 48,
-		hp_growth = 1843,
+		scale = 1,
 		weapon_ID = {
 			50043,
 			51443
 		}
 	},
 	[38144] = {
+		hp_growth = 2033,
 		id = 38144,
 		base = 38140,
 		max_hp = 53,
-		hp_growth = 2033,
+		scale = 1,
 		weapon_ID = {
 			50044,
 			51444
 		}
 	},
 	[38145] = {
+		hp_growth = 2224,
 		id = 38145,
 		base = 38140,
 		max_hp = 58,
-		hp_growth = 2224,
+		scale = 1,
 		weapon_ID = {
 			50045,
 			51445
 		}
 	},
 	[38146] = {
+		hp_growth = 2414,
 		id = 38146,
 		base = 38140,
 		max_hp = 63,
-		hp_growth = 2414,
+		scale = 1,
 		weapon_ID = {
 			50046,
 			51446
 		}
 	},
 	[38147] = {
+		hp_growth = 2605,
 		id = 38147,
 		base = 38140,
 		max_hp = 68,
-		hp_growth = 2605,
+		scale = 1,
 		weapon_ID = {
 			50047,
 			51447
 		}
 	},
 	[38148] = {
+		hp_growth = 2796,
 		id = 38148,
 		base = 38140,
 		max_hp = 73,
-		hp_growth = 2796,
+		scale = 1,
 		weapon_ID = {
 			50048,
 			51448
 		}
 	},
 	[38149] = {
+		hp_growth = 2986,
 		id = 38149,
 		base = 38140,
 		max_hp = 78,
-		hp_growth = 2986,
+		scale = 1,
 		weapon_ID = {
 			50049,
 			51449
 		}
 	},
 	[38150] = {
+		hp_growth = 3177,
 		id = 38150,
 		base = 38140,
 		max_hp = 83,
-		hp_growth = 3177,
+		scale = 1,
 		weapon_ID = {
 			50050,
 			51450
@@ -11702,9 +13293,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 188,
 		dodge = 1.13,
-		type = 2,
-		dodge_limit = 4,
 		attack_power = 2,
+		dodge_limit = 4,
+		type = 2,
 		AP_growth = 2000,
 		icon = "liuxing",
 		funnel_behavior = "",
@@ -11712,6 +13303,7 @@ pg.aircraft_template = {
 		hp_growth = 1155,
 		speed = 52,
 		id = 38200,
+		scale = 1,
 		weapon_ID = {
 			50500,
 			50800,
@@ -11770,10 +13362,11 @@ pg.aircraft_template = {
 		}
 	},
 	[38201] = {
+		hp_growth = 1328,
 		id = 38201,
 		base = 38200,
 		max_hp = 35,
-		hp_growth = 1328,
+		scale = 1,
 		weapon_ID = {
 			50501,
 			50801,
@@ -11781,10 +13374,11 @@ pg.aircraft_template = {
 		}
 	},
 	[38202] = {
+		hp_growth = 1502,
 		id = 38202,
 		base = 38200,
 		max_hp = 39,
-		hp_growth = 1502,
+		scale = 1,
 		weapon_ID = {
 			50502,
 			50802,
@@ -11792,10 +13386,11 @@ pg.aircraft_template = {
 		}
 	},
 	[38203] = {
+		hp_growth = 1675,
 		id = 38203,
 		base = 38200,
 		max_hp = 44,
-		hp_growth = 1675,
+		scale = 1,
 		weapon_ID = {
 			50503,
 			50803,
@@ -11803,10 +13398,11 @@ pg.aircraft_template = {
 		}
 	},
 	[38204] = {
+		hp_growth = 1848,
 		id = 38204,
 		base = 38200,
 		max_hp = 48,
-		hp_growth = 1848,
+		scale = 1,
 		weapon_ID = {
 			50504,
 			50804,
@@ -11814,10 +13410,11 @@ pg.aircraft_template = {
 		}
 	},
 	[38205] = {
+		hp_growth = 2022,
 		id = 38205,
 		base = 38200,
 		max_hp = 53,
-		hp_growth = 2022,
+		scale = 1,
 		weapon_ID = {
 			50505,
 			50805,
@@ -11825,10 +13422,11 @@ pg.aircraft_template = {
 		}
 	},
 	[38206] = {
+		hp_growth = 2195,
 		id = 38206,
 		base = 38200,
 		max_hp = 57,
-		hp_growth = 2195,
+		scale = 1,
 		weapon_ID = {
 			50506,
 			50806,
@@ -11843,9 +13441,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 188,
 		dodge = 1.09,
-		type = 2,
-		dodge_limit = 4.5,
 		attack_power = 2,
+		dodge_limit = 4.5,
+		type = 2,
 		AP_growth = 2000,
 		icon = "liuxing",
 		funnel_behavior = "",
@@ -11853,6 +13451,7 @@ pg.aircraft_template = {
 		hp_growth = 1271,
 		speed = 52,
 		id = 38220,
+		scale = 1,
 		weapon_ID = {
 			50520,
 			50820,
@@ -11911,10 +13510,11 @@ pg.aircraft_template = {
 		}
 	},
 	[38221] = {
+		hp_growth = 1461,
 		id = 38221,
 		base = 38220,
 		max_hp = 38,
-		hp_growth = 1461,
+		scale = 1,
 		weapon_ID = {
 			50521,
 			50821,
@@ -11922,10 +13522,11 @@ pg.aircraft_template = {
 		}
 	},
 	[38222] = {
+		hp_growth = 1652,
 		id = 38222,
 		base = 38220,
 		max_hp = 43,
-		hp_growth = 1652,
+		scale = 1,
 		weapon_ID = {
 			50522,
 			50822,
@@ -11933,10 +13534,11 @@ pg.aircraft_template = {
 		}
 	},
 	[38223] = {
+		hp_growth = 1843,
 		id = 38223,
 		base = 38220,
 		max_hp = 48,
-		hp_growth = 1843,
+		scale = 1,
 		weapon_ID = {
 			50523,
 			50823,
@@ -11944,10 +13546,11 @@ pg.aircraft_template = {
 		}
 	},
 	[38224] = {
+		hp_growth = 2033,
 		id = 38224,
 		base = 38220,
 		max_hp = 53,
-		hp_growth = 2033,
+		scale = 1,
 		weapon_ID = {
 			50524,
 			50824,
@@ -11955,10 +13558,11 @@ pg.aircraft_template = {
 		}
 	},
 	[38225] = {
+		hp_growth = 2224,
 		id = 38225,
 		base = 38220,
 		max_hp = 58,
-		hp_growth = 2224,
+		scale = 1,
 		weapon_ID = {
 			50525,
 			50825,
@@ -11966,10 +13570,11 @@ pg.aircraft_template = {
 		}
 	},
 	[38226] = {
+		hp_growth = 2414,
 		id = 38226,
 		base = 38220,
 		max_hp = 63,
-		hp_growth = 2414,
+		scale = 1,
 		weapon_ID = {
 			50526,
 			50826,
@@ -11977,10 +13582,11 @@ pg.aircraft_template = {
 		}
 	},
 	[38227] = {
+		hp_growth = 2605,
 		id = 38227,
 		base = 38220,
 		max_hp = 68,
-		hp_growth = 2605,
+		scale = 1,
 		weapon_ID = {
 			50527,
 			50827,
@@ -11988,10 +13594,11 @@ pg.aircraft_template = {
 		}
 	},
 	[38228] = {
+		hp_growth = 2796,
 		id = 38228,
 		base = 38220,
 		max_hp = 73,
-		hp_growth = 2796,
+		scale = 1,
 		weapon_ID = {
 			50528,
 			50828,
@@ -11999,10 +13606,11 @@ pg.aircraft_template = {
 		}
 	},
 	[38229] = {
+		hp_growth = 2986,
 		id = 38229,
 		base = 38220,
 		max_hp = 78,
-		hp_growth = 2986,
+		scale = 1,
 		weapon_ID = {
 			50529,
 			50829,
@@ -12010,10 +13618,11 @@ pg.aircraft_template = {
 		}
 	},
 	[38230] = {
+		hp_growth = 3177,
 		id = 38230,
 		base = 38220,
 		max_hp = 83,
-		hp_growth = 3177,
+		scale = 1,
 		weapon_ID = {
 			50530,
 			50830,
@@ -12028,9 +13637,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 188,
 		dodge = 1.05,
-		type = 2,
-		dodge_limit = 5,
 		attack_power = 2,
+		dodge_limit = 5,
+		type = 2,
 		AP_growth = 2000,
 		icon = "liuxing",
 		funnel_behavior = "",
@@ -12038,6 +13647,7 @@ pg.aircraft_template = {
 		hp_growth = 1386,
 		speed = 52,
 		id = 38240,
+		scale = 1,
 		weapon_ID = {
 			50540,
 			50840,
@@ -12096,10 +13706,11 @@ pg.aircraft_template = {
 		}
 	},
 	[38241] = {
+		hp_growth = 1594,
 		id = 38241,
 		base = 38240,
 		max_hp = 41,
-		hp_growth = 1594,
+		scale = 1,
 		weapon_ID = {
 			50541,
 			50841,
@@ -12107,10 +13718,11 @@ pg.aircraft_template = {
 		}
 	},
 	[38242] = {
+		hp_growth = 1802,
 		id = 38242,
 		base = 38240,
 		max_hp = 47,
-		hp_growth = 1802,
+		scale = 1,
 		weapon_ID = {
 			50542,
 			50842,
@@ -12118,10 +13730,11 @@ pg.aircraft_template = {
 		}
 	},
 	[38243] = {
+		hp_growth = 2010,
 		id = 38243,
 		base = 38240,
 		max_hp = 52,
-		hp_growth = 2010,
+		scale = 1,
 		weapon_ID = {
 			50543,
 			50843,
@@ -12129,10 +13742,11 @@ pg.aircraft_template = {
 		}
 	},
 	[38244] = {
+		hp_growth = 2218,
 		id = 38244,
 		base = 38240,
 		max_hp = 58,
-		hp_growth = 2218,
+		scale = 1,
 		weapon_ID = {
 			50544,
 			50844,
@@ -12140,10 +13754,11 @@ pg.aircraft_template = {
 		}
 	},
 	[38245] = {
+		hp_growth = 2426,
 		id = 38245,
 		base = 38240,
 		max_hp = 63,
-		hp_growth = 2426,
+		scale = 1,
 		weapon_ID = {
 			50545,
 			50845,
@@ -12151,10 +13766,11 @@ pg.aircraft_template = {
 		}
 	},
 	[38246] = {
+		hp_growth = 2634,
 		id = 38246,
 		base = 38240,
 		max_hp = 68,
-		hp_growth = 2634,
+		scale = 1,
 		weapon_ID = {
 			50546,
 			50846,
@@ -12162,10 +13778,11 @@ pg.aircraft_template = {
 		}
 	},
 	[38247] = {
+		hp_growth = 2842,
 		id = 38247,
 		base = 38240,
 		max_hp = 74,
-		hp_growth = 2842,
+		scale = 1,
 		weapon_ID = {
 			50547,
 			50847,
@@ -12173,10 +13790,11 @@ pg.aircraft_template = {
 		}
 	},
 	[38248] = {
+		hp_growth = 3050,
 		id = 38248,
 		base = 38240,
 		max_hp = 79,
-		hp_growth = 3050,
+		scale = 1,
 		weapon_ID = {
 			50548,
 			50848,
@@ -12184,10 +13802,11 @@ pg.aircraft_template = {
 		}
 	},
 	[38249] = {
+		hp_growth = 3258,
 		id = 38249,
 		base = 38240,
 		max_hp = 85,
-		hp_growth = 3258,
+		scale = 1,
 		weapon_ID = {
 			50549,
 			50849,
@@ -12195,10 +13814,11 @@ pg.aircraft_template = {
 		}
 	},
 	[38250] = {
+		hp_growth = 3466,
 		id = 38250,
 		base = 38240,
 		max_hp = 90,
-		hp_growth = 3466,
+		scale = 1,
 		weapon_ID = {
 			50550,
 			50850,
@@ -12213,9 +13833,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 180,
 		dodge = 3.57,
-		type = 3,
-		dodge_limit = 0.8,
 		attack_power = 2,
+		dodge_limit = 0.8,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -12223,6 +13843,7 @@ pg.aircraft_template = {
 		hp_growth = 1204,
 		speed = 45,
 		id = 39000,
+		scale = 1,
 		weapon_ID = {
 			50000,
 			52200,
@@ -12281,10 +13902,11 @@ pg.aircraft_template = {
 		}
 	},
 	[39001] = {
+		hp_growth = 1384,
 		id = 39001,
 		base = 39000,
 		max_hp = 36,
-		hp_growth = 1384,
+		scale = 1,
 		weapon_ID = {
 			50001,
 			52201,
@@ -12292,10 +13914,11 @@ pg.aircraft_template = {
 		}
 	},
 	[39002] = {
+		hp_growth = 1565,
 		id = 39002,
 		base = 39000,
 		max_hp = 41,
-		hp_growth = 1565,
+		scale = 1,
 		weapon_ID = {
 			50002,
 			52202,
@@ -12303,10 +13926,11 @@ pg.aircraft_template = {
 		}
 	},
 	[39003] = {
+		hp_growth = 1746,
 		id = 39003,
 		base = 39000,
 		max_hp = 45,
-		hp_growth = 1746,
+		scale = 1,
 		weapon_ID = {
 			50003,
 			52203,
@@ -12321,9 +13945,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 180,
 		dodge = 3.45,
-		type = 3,
-		dodge_limit = 0.9,
 		attack_power = 2,
+		dodge_limit = 0.9,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -12331,6 +13955,7 @@ pg.aircraft_template = {
 		hp_growth = 1338,
 		speed = 45,
 		id = 39020,
+		scale = 1,
 		weapon_ID = {
 			50020,
 			52220,
@@ -12389,10 +14014,11 @@ pg.aircraft_template = {
 		}
 	},
 	[39021] = {
+		hp_growth = 1538,
 		id = 39021,
 		base = 39020,
 		max_hp = 40,
-		hp_growth = 1538,
+		scale = 1,
 		weapon_ID = {
 			50021,
 			52221,
@@ -12400,10 +14026,11 @@ pg.aircraft_template = {
 		}
 	},
 	[39022] = {
+		hp_growth = 1739,
 		id = 39022,
 		base = 39020,
 		max_hp = 45,
-		hp_growth = 1739,
+		scale = 1,
 		weapon_ID = {
 			50022,
 			52222,
@@ -12411,10 +14038,11 @@ pg.aircraft_template = {
 		}
 	},
 	[39023] = {
+		hp_growth = 1940,
 		id = 39023,
 		base = 39020,
 		max_hp = 50,
-		hp_growth = 1940,
+		scale = 1,
 		weapon_ID = {
 			50023,
 			52223,
@@ -12422,10 +14050,11 @@ pg.aircraft_template = {
 		}
 	},
 	[39024] = {
+		hp_growth = 2140,
 		id = 39024,
 		base = 39020,
 		max_hp = 56,
-		hp_growth = 2140,
+		scale = 1,
 		weapon_ID = {
 			50024,
 			52224,
@@ -12433,10 +14062,11 @@ pg.aircraft_template = {
 		}
 	},
 	[39025] = {
+		hp_growth = 2341,
 		id = 39025,
 		base = 39020,
 		max_hp = 61,
-		hp_growth = 2341,
+		scale = 1,
 		weapon_ID = {
 			50025,
 			52225,
@@ -12444,10 +14074,11 @@ pg.aircraft_template = {
 		}
 	},
 	[39026] = {
+		hp_growth = 2541,
 		id = 39026,
 		base = 39020,
 		max_hp = 66,
-		hp_growth = 2541,
+		scale = 1,
 		weapon_ID = {
 			50026,
 			52226,
@@ -12462,9 +14093,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 180,
 		dodge = 3.33,
-		type = 3,
-		dodge_limit = 1,
 		attack_power = 2,
+		dodge_limit = 1,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -12472,6 +14103,7 @@ pg.aircraft_template = {
 		hp_growth = 1471,
 		speed = 45,
 		id = 39040,
+		scale = 1,
 		weapon_ID = {
 			50040,
 			52240,
@@ -12530,10 +14162,11 @@ pg.aircraft_template = {
 		}
 	},
 	[39041] = {
+		hp_growth = 1692,
 		id = 39041,
 		base = 39040,
 		max_hp = 44,
-		hp_growth = 1692,
+		scale = 1,
 		weapon_ID = {
 			50041,
 			52241,
@@ -12541,10 +14174,11 @@ pg.aircraft_template = {
 		}
 	},
 	[39042] = {
+		hp_growth = 1913,
 		id = 39042,
 		base = 39040,
 		max_hp = 50,
-		hp_growth = 1913,
+		scale = 1,
 		weapon_ID = {
 			50042,
 			52242,
@@ -12552,10 +14186,11 @@ pg.aircraft_template = {
 		}
 	},
 	[39043] = {
+		hp_growth = 2133,
 		id = 39043,
 		base = 39040,
 		max_hp = 55,
-		hp_growth = 2133,
+		scale = 1,
 		weapon_ID = {
 			50043,
 			52243,
@@ -12563,10 +14198,11 @@ pg.aircraft_template = {
 		}
 	},
 	[39044] = {
+		hp_growth = 2354,
 		id = 39044,
 		base = 39040,
 		max_hp = 61,
-		hp_growth = 2354,
+		scale = 1,
 		weapon_ID = {
 			50044,
 			52244,
@@ -12574,10 +14210,11 @@ pg.aircraft_template = {
 		}
 	},
 	[39045] = {
+		hp_growth = 2575,
 		id = 39045,
 		base = 39040,
 		max_hp = 67,
-		hp_growth = 2575,
+		scale = 1,
 		weapon_ID = {
 			50045,
 			52245,
@@ -12585,10 +14222,11 @@ pg.aircraft_template = {
 		}
 	},
 	[39046] = {
+		hp_growth = 2796,
 		id = 39046,
 		base = 39040,
 		max_hp = 73,
-		hp_growth = 2796,
+		scale = 1,
 		weapon_ID = {
 			50046,
 			52246,
@@ -12596,10 +14234,11 @@ pg.aircraft_template = {
 		}
 	},
 	[39047] = {
+		hp_growth = 3016,
 		id = 39047,
 		base = 39040,
 		max_hp = 78,
-		hp_growth = 3016,
+		scale = 1,
 		weapon_ID = {
 			50047,
 			52247,
@@ -12607,10 +14246,11 @@ pg.aircraft_template = {
 		}
 	},
 	[39048] = {
+		hp_growth = 3237,
 		id = 39048,
 		base = 39040,
 		max_hp = 84,
-		hp_growth = 3237,
+		scale = 1,
 		weapon_ID = {
 			50048,
 			52248,
@@ -12618,10 +14258,11 @@ pg.aircraft_template = {
 		}
 	},
 	[39049] = {
+		hp_growth = 3458,
 		id = 39049,
 		base = 39040,
 		max_hp = 90,
-		hp_growth = 3458,
+		scale = 1,
 		weapon_ID = {
 			50049,
 			52249,
@@ -12629,10 +14270,11 @@ pg.aircraft_template = {
 		}
 	},
 	[39050] = {
+		hp_growth = 3678,
 		id = 39050,
 		base = 39040,
 		max_hp = 96,
-		hp_growth = 3678,
+		scale = 1,
 		weapon_ID = {
 			50050,
 			52250,
@@ -12647,9 +14289,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 208,
 		dodge = 3.57,
-		type = 3,
-		dodge_limit = 0.8,
 		attack_power = 2,
+		dodge_limit = 0.8,
+		type = 3,
 		AP_growth = 2000,
 		icon = "huixing",
 		funnel_behavior = "",
@@ -12657,6 +14299,7 @@ pg.aircraft_template = {
 		hp_growth = 1338,
 		speed = 48,
 		id = 39100,
+		scale = 1,
 		weapon_ID = {
 			50000,
 			52600,
@@ -12715,10 +14358,11 @@ pg.aircraft_template = {
 		}
 	},
 	[39101] = {
+		hp_growth = 1538,
 		id = 39101,
 		base = 39100,
 		max_hp = 40,
-		hp_growth = 1538,
+		scale = 1,
 		weapon_ID = {
 			50001,
 			52601,
@@ -12726,10 +14370,11 @@ pg.aircraft_template = {
 		}
 	},
 	[39102] = {
+		hp_growth = 1739,
 		id = 39102,
 		base = 39100,
 		max_hp = 45,
-		hp_growth = 1739,
+		scale = 1,
 		weapon_ID = {
 			50002,
 			52602,
@@ -12737,10 +14382,11 @@ pg.aircraft_template = {
 		}
 	},
 	[39103] = {
+		hp_growth = 1940,
 		id = 39103,
 		base = 39100,
 		max_hp = 50,
-		hp_growth = 1940,
+		scale = 1,
 		weapon_ID = {
 			50003,
 			52603,
@@ -12748,10 +14394,11 @@ pg.aircraft_template = {
 		}
 	},
 	[39104] = {
+		hp_growth = 2140,
 		id = 39104,
 		base = 39100,
 		max_hp = 56,
-		hp_growth = 2140,
+		scale = 1,
 		weapon_ID = {
 			50004,
 			52604,
@@ -12759,10 +14406,11 @@ pg.aircraft_template = {
 		}
 	},
 	[39105] = {
+		hp_growth = 2341,
 		id = 39105,
 		base = 39100,
 		max_hp = 61,
-		hp_growth = 2341,
+		scale = 1,
 		weapon_ID = {
 			50005,
 			52605,
@@ -12770,10 +14418,11 @@ pg.aircraft_template = {
 		}
 	},
 	[39106] = {
+		hp_growth = 2541,
 		id = 39106,
 		base = 39100,
 		max_hp = 66,
-		hp_growth = 2541,
+		scale = 1,
 		weapon_ID = {
 			50006,
 			52606,
@@ -12788,9 +14437,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 208,
 		dodge = 3.45,
-		type = 3,
-		dodge_limit = 0.9,
 		attack_power = 2,
+		dodge_limit = 0.9,
+		type = 3,
 		AP_growth = 2000,
 		icon = "huixing",
 		funnel_behavior = "",
@@ -12798,6 +14447,7 @@ pg.aircraft_template = {
 		hp_growth = 1471,
 		speed = 48,
 		id = 39120,
+		scale = 1,
 		weapon_ID = {
 			50020,
 			52620,
@@ -12856,10 +14506,11 @@ pg.aircraft_template = {
 		}
 	},
 	[39121] = {
+		hp_growth = 1692,
 		id = 39121,
 		base = 39120,
 		max_hp = 44,
-		hp_growth = 1692,
+		scale = 1,
 		weapon_ID = {
 			50021,
 			52621,
@@ -12867,10 +14518,11 @@ pg.aircraft_template = {
 		}
 	},
 	[39122] = {
+		hp_growth = 1913,
 		id = 39122,
 		base = 39120,
 		max_hp = 50,
-		hp_growth = 1913,
+		scale = 1,
 		weapon_ID = {
 			50022,
 			52622,
@@ -12878,10 +14530,11 @@ pg.aircraft_template = {
 		}
 	},
 	[39123] = {
+		hp_growth = 2133,
 		id = 39123,
 		base = 39120,
 		max_hp = 55,
-		hp_growth = 2133,
+		scale = 1,
 		weapon_ID = {
 			50023,
 			52623,
@@ -12889,10 +14542,11 @@ pg.aircraft_template = {
 		}
 	},
 	[39124] = {
+		hp_growth = 2354,
 		id = 39124,
 		base = 39120,
 		max_hp = 61,
-		hp_growth = 2354,
+		scale = 1,
 		weapon_ID = {
 			50024,
 			52624,
@@ -12900,10 +14554,11 @@ pg.aircraft_template = {
 		}
 	},
 	[39125] = {
+		hp_growth = 2575,
 		id = 39125,
 		base = 39120,
 		max_hp = 67,
-		hp_growth = 2575,
+		scale = 1,
 		weapon_ID = {
 			50025,
 			52625,
@@ -12911,10 +14566,11 @@ pg.aircraft_template = {
 		}
 	},
 	[39126] = {
+		hp_growth = 2796,
 		id = 39126,
 		base = 39120,
 		max_hp = 73,
-		hp_growth = 2796,
+		scale = 1,
 		weapon_ID = {
 			50026,
 			52626,
@@ -12922,10 +14578,11 @@ pg.aircraft_template = {
 		}
 	},
 	[39127] = {
+		hp_growth = 3016,
 		id = 39127,
 		base = 39120,
 		max_hp = 78,
-		hp_growth = 3016,
+		scale = 1,
 		weapon_ID = {
 			50027,
 			52627,
@@ -12933,10 +14590,11 @@ pg.aircraft_template = {
 		}
 	},
 	[39128] = {
+		hp_growth = 3237,
 		id = 39128,
 		base = 39120,
 		max_hp = 84,
-		hp_growth = 3237,
+		scale = 1,
 		weapon_ID = {
 			50028,
 			52628,
@@ -12944,10 +14602,11 @@ pg.aircraft_template = {
 		}
 	},
 	[39129] = {
+		hp_growth = 3458,
 		id = 39129,
 		base = 39120,
 		max_hp = 90,
-		hp_growth = 3458,
+		scale = 1,
 		weapon_ID = {
 			50029,
 			52629,
@@ -12955,10 +14614,11 @@ pg.aircraft_template = {
 		}
 	},
 	[39130] = {
+		hp_growth = 3678,
 		id = 39130,
 		base = 39120,
 		max_hp = 96,
-		hp_growth = 3678,
+		scale = 1,
 		weapon_ID = {
 			50030,
 			52630,
@@ -12973,9 +14633,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 208,
 		dodge = 3.33,
-		type = 3,
-		dodge_limit = 1,
 		attack_power = 2,
+		dodge_limit = 1,
+		type = 3,
 		AP_growth = 2000,
 		icon = "huixing",
 		funnel_behavior = "",
@@ -12983,6 +14643,7 @@ pg.aircraft_template = {
 		hp_growth = 1605,
 		speed = 48,
 		id = 39140,
+		scale = 1,
 		weapon_ID = {
 			50040,
 			52640,
@@ -13041,10 +14702,11 @@ pg.aircraft_template = {
 		}
 	},
 	[39141] = {
+		hp_growth = 1846,
 		id = 39141,
 		base = 39140,
 		max_hp = 48,
-		hp_growth = 1846,
+		scale = 1,
 		weapon_ID = {
 			50041,
 			52641,
@@ -13052,10 +14714,11 @@ pg.aircraft_template = {
 		}
 	},
 	[39142] = {
+		hp_growth = 2087,
 		id = 39142,
 		base = 39140,
 		max_hp = 54,
-		hp_growth = 2087,
+		scale = 1,
 		weapon_ID = {
 			50042,
 			52642,
@@ -13063,10 +14726,11 @@ pg.aircraft_template = {
 		}
 	},
 	[39143] = {
+		hp_growth = 2327,
 		id = 39143,
 		base = 39140,
 		max_hp = 61,
-		hp_growth = 2327,
+		scale = 1,
 		weapon_ID = {
 			50043,
 			52643,
@@ -13074,10 +14738,11 @@ pg.aircraft_template = {
 		}
 	},
 	[39144] = {
+		hp_growth = 2568,
 		id = 39144,
 		base = 39140,
 		max_hp = 67,
-		hp_growth = 2568,
+		scale = 1,
 		weapon_ID = {
 			50044,
 			52644,
@@ -13085,10 +14750,11 @@ pg.aircraft_template = {
 		}
 	},
 	[39145] = {
+		hp_growth = 2809,
 		id = 39145,
 		base = 39140,
 		max_hp = 73,
-		hp_growth = 2809,
+		scale = 1,
 		weapon_ID = {
 			50045,
 			52645,
@@ -13096,10 +14762,11 @@ pg.aircraft_template = {
 		}
 	},
 	[39146] = {
+		hp_growth = 3050,
 		id = 39146,
 		base = 39140,
 		max_hp = 79,
-		hp_growth = 3050,
+		scale = 1,
 		weapon_ID = {
 			50046,
 			52646,
@@ -13107,10 +14774,11 @@ pg.aircraft_template = {
 		}
 	},
 	[39147] = {
+		hp_growth = 3290,
 		id = 39147,
 		base = 39140,
 		max_hp = 86,
-		hp_growth = 3290,
+		scale = 1,
 		weapon_ID = {
 			50047,
 			52647,
@@ -13118,10 +14786,11 @@ pg.aircraft_template = {
 		}
 	},
 	[39148] = {
+		hp_growth = 3531,
 		id = 39148,
 		base = 39140,
 		max_hp = 92,
-		hp_growth = 3531,
+		scale = 1,
 		weapon_ID = {
 			50048,
 			52648,
@@ -13129,10 +14798,11 @@ pg.aircraft_template = {
 		}
 	},
 	[39149] = {
+		hp_growth = 3772,
 		id = 39149,
 		base = 39140,
 		max_hp = 98,
-		hp_growth = 3772,
+		scale = 1,
 		weapon_ID = {
 			50049,
 			52649,
@@ -13140,10 +14810,11 @@ pg.aircraft_template = {
 		}
 	},
 	[39150] = {
+		hp_growth = 4013,
 		id = 39150,
 		base = 39140,
 		max_hp = 104,
-		hp_growth = 4013,
+		scale = 1,
 		weapon_ID = {
 			50050,
 			52650,
@@ -13158,9 +14829,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 120,
 		dodge = 3.75,
-		type = 3,
-		dodge_limit = 0.8,
 		attack_power = 2,
+		dodge_limit = 0.8,
+		type = 3,
 		AP_growth = 2000,
 		icon = "ruiyun",
 		funnel_behavior = "",
@@ -13168,6 +14839,7 @@ pg.aircraft_template = {
 		hp_growth = 1023,
 		speed = 46,
 		id = 39200,
+		scale = 1,
 		weapon_ID = {
 			50500,
 			50800,
@@ -13226,10 +14898,11 @@ pg.aircraft_template = {
 		}
 	},
 	[39201] = {
+		hp_growth = 1177,
 		id = 39201,
 		base = 39200,
 		max_hp = 31,
-		hp_growth = 1177,
+		scale = 1,
 		weapon_ID = {
 			50501,
 			50801,
@@ -13237,10 +14910,11 @@ pg.aircraft_template = {
 		}
 	},
 	[39202] = {
+		hp_growth = 1330,
 		id = 39202,
 		base = 39200,
 		max_hp = 35,
-		hp_growth = 1330,
+		scale = 1,
 		weapon_ID = {
 			50502,
 			50802,
@@ -13248,10 +14922,11 @@ pg.aircraft_template = {
 		}
 	},
 	[39203] = {
+		hp_growth = 1484,
 		id = 39203,
 		base = 39200,
 		max_hp = 39,
-		hp_growth = 1484,
+		scale = 1,
 		weapon_ID = {
 			50503,
 			50803,
@@ -13266,9 +14941,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 120,
 		dodge = 3.63,
-		type = 3,
-		dodge_limit = 0.9,
 		attack_power = 2,
+		dodge_limit = 0.9,
+		type = 3,
 		AP_growth = 2000,
 		icon = "ruiyun",
 		funnel_behavior = "",
@@ -13276,6 +14951,7 @@ pg.aircraft_template = {
 		hp_growth = 1137,
 		speed = 46,
 		id = 39220,
+		scale = 1,
 		weapon_ID = {
 			50520,
 			50820,
@@ -13334,10 +15010,11 @@ pg.aircraft_template = {
 		}
 	},
 	[39221] = {
+		hp_growth = 1308,
 		id = 39221,
 		base = 39220,
 		max_hp = 34,
-		hp_growth = 1308,
+		scale = 1,
 		weapon_ID = {
 			50521,
 			50821,
@@ -13345,10 +15022,11 @@ pg.aircraft_template = {
 		}
 	},
 	[39222] = {
+		hp_growth = 1478,
 		id = 39222,
 		base = 39220,
 		max_hp = 38,
-		hp_growth = 1478,
+		scale = 1,
 		weapon_ID = {
 			50522,
 			50822,
@@ -13356,10 +15034,11 @@ pg.aircraft_template = {
 		}
 	},
 	[39223] = {
+		hp_growth = 1649,
 		id = 39223,
 		base = 39220,
 		max_hp = 43,
-		hp_growth = 1649,
+		scale = 1,
 		weapon_ID = {
 			50523,
 			50823,
@@ -13367,10 +15046,11 @@ pg.aircraft_template = {
 		}
 	},
 	[39224] = {
+		hp_growth = 1819,
 		id = 39224,
 		base = 39220,
 		max_hp = 47,
-		hp_growth = 1819,
+		scale = 1,
 		weapon_ID = {
 			50524,
 			50824,
@@ -13378,10 +15058,11 @@ pg.aircraft_template = {
 		}
 	},
 	[39225] = {
+		hp_growth = 1990,
 		id = 39225,
 		base = 39220,
 		max_hp = 52,
-		hp_growth = 1990,
+		scale = 1,
 		weapon_ID = {
 			50525,
 			50825,
@@ -13389,10 +15070,11 @@ pg.aircraft_template = {
 		}
 	},
 	[39226] = {
+		hp_growth = 2160,
 		id = 39226,
 		base = 39220,
 		max_hp = 56,
-		hp_growth = 2160,
+		scale = 1,
 		weapon_ID = {
 			50526,
 			50826,
@@ -13407,9 +15089,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 120,
 		dodge = 3.51,
-		type = 3,
-		dodge_limit = 1,
 		attack_power = 2,
+		dodge_limit = 1,
+		type = 3,
 		AP_growth = 2000,
 		icon = "ruiyun",
 		funnel_behavior = "",
@@ -13417,6 +15099,7 @@ pg.aircraft_template = {
 		hp_growth = 1251,
 		speed = 46,
 		id = 39240,
+		scale = 1,
 		weapon_ID = {
 			50540,
 			50840,
@@ -13475,10 +15158,11 @@ pg.aircraft_template = {
 		}
 	},
 	[39241] = {
+		hp_growth = 1438,
 		id = 39241,
 		base = 39240,
 		max_hp = 37,
-		hp_growth = 1438,
+		scale = 1,
 		weapon_ID = {
 			50541,
 			50841,
@@ -13486,10 +15170,11 @@ pg.aircraft_template = {
 		}
 	},
 	[39242] = {
+		hp_growth = 1626,
 		id = 39242,
 		base = 39240,
 		max_hp = 42,
-		hp_growth = 1626,
+		scale = 1,
 		weapon_ID = {
 			50542,
 			50842,
@@ -13497,10 +15182,11 @@ pg.aircraft_template = {
 		}
 	},
 	[39243] = {
+		hp_growth = 1813,
 		id = 39243,
 		base = 39240,
 		max_hp = 47,
-		hp_growth = 1813,
+		scale = 1,
 		weapon_ID = {
 			50543,
 			50843,
@@ -13508,10 +15194,11 @@ pg.aircraft_template = {
 		}
 	},
 	[39244] = {
+		hp_growth = 2001,
 		id = 39244,
 		base = 39240,
 		max_hp = 52,
-		hp_growth = 2001,
+		scale = 1,
 		weapon_ID = {
 			50544,
 			50844,
@@ -13519,10 +15206,11 @@ pg.aircraft_template = {
 		}
 	},
 	[39245] = {
+		hp_growth = 2189,
 		id = 39245,
 		base = 39240,
 		max_hp = 57,
-		hp_growth = 2189,
+		scale = 1,
 		weapon_ID = {
 			50545,
 			50845,
@@ -13530,10 +15218,11 @@ pg.aircraft_template = {
 		}
 	},
 	[39246] = {
+		hp_growth = 2376,
 		id = 39246,
 		base = 39240,
 		max_hp = 62,
-		hp_growth = 2376,
+		scale = 1,
 		weapon_ID = {
 			50546,
 			50846,
@@ -13541,10 +15230,11 @@ pg.aircraft_template = {
 		}
 	},
 	[39247] = {
+		hp_growth = 2564,
 		id = 39247,
 		base = 39240,
 		max_hp = 67,
-		hp_growth = 2564,
+		scale = 1,
 		weapon_ID = {
 			50547,
 			50847,
@@ -13552,10 +15242,11 @@ pg.aircraft_template = {
 		}
 	},
 	[39248] = {
+		hp_growth = 2751,
 		id = 39248,
 		base = 39240,
 		max_hp = 72,
-		hp_growth = 2751,
+		scale = 1,
 		weapon_ID = {
 			50548,
 			50848,
@@ -13563,10 +15254,11 @@ pg.aircraft_template = {
 		}
 	},
 	[39249] = {
+		hp_growth = 2939,
 		id = 39249,
 		base = 39240,
 		max_hp = 76,
-		hp_growth = 2939,
+		scale = 1,
 		weapon_ID = {
 			50549,
 			50849,
@@ -13574,10 +15266,11 @@ pg.aircraft_template = {
 		}
 	},
 	[39250] = {
+		hp_growth = 3127,
 		id = 39250,
 		base = 39240,
 		max_hp = 81,
-		hp_growth = 3127,
+		scale = 1,
 		weapon_ID = {
 			50550,
 			50850,
@@ -13592,9 +15285,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 120,
 		dodge = 3.39,
-		type = 3,
-		dodge_limit = 1.1,
 		attack_power = 2,
+		dodge_limit = 1.1,
+		type = 3,
 		AP_growth = 2000,
 		icon = "qinglan",
 		funnel_behavior = "",
@@ -13602,6 +15295,7 @@ pg.aircraft_template = {
 		hp_growth = 1251,
 		speed = 46,
 		id = 39300,
+		scale = 1,
 		weapon_ID = {
 			50840,
 			53260
@@ -13659,100 +15353,110 @@ pg.aircraft_template = {
 		}
 	},
 	[39301] = {
+		hp_growth = 1438,
 		id = 39301,
 		base = 39300,
 		max_hp = 42,
-		hp_growth = 1438,
+		scale = 1,
 		weapon_ID = {
 			50841,
 			53261
 		}
 	},
 	[39302] = {
+		hp_growth = 1626,
 		id = 39302,
 		base = 39300,
 		max_hp = 47,
-		hp_growth = 1626,
+		scale = 1,
 		weapon_ID = {
 			50842,
 			53262
 		}
 	},
 	[39303] = {
+		hp_growth = 1813,
 		id = 39303,
 		base = 39300,
 		max_hp = 52,
-		hp_growth = 1813,
+		scale = 1,
 		weapon_ID = {
 			50843,
 			53263
 		}
 	},
 	[39304] = {
+		hp_growth = 2001,
 		id = 39304,
 		base = 39300,
 		max_hp = 57,
-		hp_growth = 2001,
+		scale = 1,
 		weapon_ID = {
 			50844,
 			53264
 		}
 	},
 	[39305] = {
+		hp_growth = 2189,
 		id = 39305,
 		base = 39300,
 		max_hp = 62,
-		hp_growth = 2189,
+		scale = 1,
 		weapon_ID = {
 			50845,
 			53265
 		}
 	},
 	[39306] = {
+		hp_growth = 2376,
 		id = 39306,
 		base = 39300,
 		max_hp = 67,
-		hp_growth = 2376,
+		scale = 1,
 		weapon_ID = {
 			50846,
 			53266
 		}
 	},
 	[39307] = {
+		hp_growth = 2564,
 		id = 39307,
 		base = 39300,
 		max_hp = 72,
-		hp_growth = 2564,
+		scale = 1,
 		weapon_ID = {
 			50847,
 			53267
 		}
 	},
 	[39308] = {
+		hp_growth = 2751,
 		id = 39308,
 		base = 39300,
 		max_hp = 77,
-		hp_growth = 2751,
+		scale = 1,
 		weapon_ID = {
 			50848,
 			53268
 		}
 	},
 	[39309] = {
+		hp_growth = 2939,
 		id = 39309,
 		base = 39300,
 		max_hp = 81,
-		hp_growth = 2939,
+		scale = 1,
 		weapon_ID = {
 			50849,
 			53269
 		}
 	},
 	[39310] = {
+		hp_growth = 3127,
 		id = 39310,
 		base = 39300,
 		max_hp = 86,
-		hp_growth = 3127,
+		scale = 1,
 		weapon_ID = {
 			50850,
 			53270
@@ -13766,9 +15470,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 42,
 		dodge = 0.357,
-		type = 1,
-		dodge_limit = 8,
 		attack_power = 2,
+		dodge_limit = 8,
+		type = 1,
 		AP_growth = 2000,
 		icon = "BF109T",
 		funnel_behavior = "",
@@ -13776,6 +15480,7 @@ pg.aircraft_template = {
 		hp_growth = 1210,
 		speed = 50,
 		id = 47000,
+		scale = 1,
 		weapon_ID = {
 			59000,
 			59400
@@ -13833,30 +15538,33 @@ pg.aircraft_template = {
 		}
 	},
 	[47001] = {
+		hp_growth = 1391,
 		id = 47001,
 		base = 47000,
 		max_hp = 36,
-		hp_growth = 1391,
+		scale = 1,
 		weapon_ID = {
 			59001,
 			59401
 		}
 	},
 	[47002] = {
+		hp_growth = 1572,
 		id = 47002,
 		base = 47000,
 		max_hp = 41,
-		hp_growth = 1572,
+		scale = 1,
 		weapon_ID = {
 			59002,
 			59402
 		}
 	},
 	[47003] = {
+		hp_growth = 1754,
 		id = 47003,
 		base = 47000,
 		max_hp = 46,
-		hp_growth = 1754,
+		scale = 1,
 		weapon_ID = {
 			59003,
 			59403
@@ -13870,9 +15578,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 42,
 		dodge = 0.345,
-		type = 1,
-		dodge_limit = 8.5,
 		attack_power = 2,
+		dodge_limit = 8.5,
+		type = 1,
 		AP_growth = 2000,
 		icon = "BF109T",
 		funnel_behavior = "",
@@ -13880,6 +15588,7 @@ pg.aircraft_template = {
 		hp_growth = 1344,
 		speed = 50,
 		id = 47020,
+		scale = 1,
 		weapon_ID = {
 			59020,
 			59420
@@ -13937,60 +15646,66 @@ pg.aircraft_template = {
 		}
 	},
 	[47021] = {
+		hp_growth = 1546,
 		id = 47021,
 		base = 47020,
 		max_hp = 40,
-		hp_growth = 1546,
+		scale = 1,
 		weapon_ID = {
 			59021,
 			59421
 		}
 	},
 	[47022] = {
+		hp_growth = 1747,
 		id = 47022,
 		base = 47020,
 		max_hp = 45,
-		hp_growth = 1747,
+		scale = 1,
 		weapon_ID = {
 			59022,
 			59422
 		}
 	},
 	[47023] = {
+		hp_growth = 1949,
 		id = 47023,
 		base = 47020,
 		max_hp = 51,
-		hp_growth = 1949,
+		scale = 1,
 		weapon_ID = {
 			59023,
 			59423
 		}
 	},
 	[47024] = {
+		hp_growth = 2150,
 		id = 47024,
 		base = 47020,
 		max_hp = 56,
-		hp_growth = 2150,
+		scale = 1,
 		weapon_ID = {
 			59024,
 			59424
 		}
 	},
 	[47025] = {
+		hp_growth = 2352,
 		id = 47025,
 		base = 47020,
 		max_hp = 61,
-		hp_growth = 2352,
+		scale = 1,
 		weapon_ID = {
 			59025,
 			59425
 		}
 	},
 	[47026] = {
+		hp_growth = 2554,
 		id = 47026,
 		base = 47020,
 		max_hp = 66,
-		hp_growth = 2554,
+		scale = 1,
 		weapon_ID = {
 			59026,
 			59426
@@ -14004,9 +15719,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 42,
 		dodge = 0.333,
-		type = 1,
-		dodge_limit = 9,
 		attack_power = 2,
+		dodge_limit = 9,
+		type = 1,
 		AP_growth = 2000,
 		icon = "BF109T",
 		funnel_behavior = "",
@@ -14014,6 +15729,7 @@ pg.aircraft_template = {
 		hp_growth = 1478,
 		speed = 50,
 		id = 47040,
+		scale = 1,
 		weapon_ID = {
 			59040,
 			59440
@@ -14071,100 +15787,110 @@ pg.aircraft_template = {
 		}
 	},
 	[47041] = {
+		hp_growth = 1700,
 		id = 47041,
 		base = 47040,
 		max_hp = 44,
-		hp_growth = 1700,
+		scale = 1,
 		weapon_ID = {
 			59041,
 			59441
 		}
 	},
 	[47042] = {
+		hp_growth = 1922,
 		id = 47042,
 		base = 47040,
 		max_hp = 50,
-		hp_growth = 1922,
+		scale = 1,
 		weapon_ID = {
 			59042,
 			59442
 		}
 	},
 	[47043] = {
+		hp_growth = 2144,
 		id = 47043,
 		base = 47040,
 		max_hp = 56,
-		hp_growth = 2144,
+		scale = 1,
 		weapon_ID = {
 			59043,
 			59443
 		}
 	},
 	[47044] = {
+		hp_growth = 2365,
 		id = 47044,
 		base = 47040,
 		max_hp = 62,
-		hp_growth = 2365,
+		scale = 1,
 		weapon_ID = {
 			59044,
 			59444
 		}
 	},
 	[47045] = {
+		hp_growth = 2587,
 		id = 47045,
 		base = 47040,
 		max_hp = 67,
-		hp_growth = 2587,
+		scale = 1,
 		weapon_ID = {
 			59045,
 			59445
 		}
 	},
 	[47046] = {
+		hp_growth = 2809,
 		id = 47046,
 		base = 47040,
 		max_hp = 73,
-		hp_growth = 2809,
+		scale = 1,
 		weapon_ID = {
 			59046,
 			59446
 		}
 	},
 	[47047] = {
+		hp_growth = 3031,
 		id = 47047,
 		base = 47040,
 		max_hp = 79,
-		hp_growth = 3031,
+		scale = 1,
 		weapon_ID = {
 			59047,
 			59447
 		}
 	},
 	[47048] = {
+		hp_growth = 3252,
 		id = 47048,
 		base = 47040,
 		max_hp = 85,
-		hp_growth = 3252,
+		scale = 1,
 		weapon_ID = {
 			59048,
 			59448
 		}
 	},
 	[47049] = {
+		hp_growth = 3474,
 		id = 47049,
 		base = 47040,
 		max_hp = 90,
-		hp_growth = 3474,
+		scale = 1,
 		weapon_ID = {
 			59049,
 			59449
 		}
 	},
 	[47050] = {
+		hp_growth = 3696,
 		id = 47050,
 		base = 47040,
 		max_hp = 96,
-		hp_growth = 3696,
+		scale = 1,
 		weapon_ID = {
 			59050,
 			59450
@@ -14178,9 +15904,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 65,
 		dodge = 0.339,
-		type = 1,
-		dodge_limit = 9,
 		attack_power = 2,
+		dodge_limit = 9,
+		type = 1,
 		AP_growth = 2000,
 		icon = "Me155A",
 		funnel_behavior = "",
@@ -14188,6 +15914,7 @@ pg.aircraft_template = {
 		hp_growth = 1344,
 		speed = 50,
 		id = 47100,
+		scale = 1,
 		weapon_ID = {
 			59100,
 			59200
@@ -14245,60 +15972,66 @@ pg.aircraft_template = {
 		}
 	},
 	[47101] = {
+		hp_growth = 1546,
 		id = 47101,
 		base = 47100,
 		max_hp = 40,
-		hp_growth = 1546,
+		scale = 1,
 		weapon_ID = {
 			59101,
 			59201
 		}
 	},
 	[47102] = {
+		hp_growth = 1747,
 		id = 47102,
 		base = 47100,
 		max_hp = 45,
-		hp_growth = 1747,
+		scale = 1,
 		weapon_ID = {
 			59102,
 			59202
 		}
 	},
 	[47103] = {
+		hp_growth = 1949,
 		id = 47103,
 		base = 47100,
 		max_hp = 51,
-		hp_growth = 1949,
+		scale = 1,
 		weapon_ID = {
 			59103,
 			59203
 		}
 	},
 	[47104] = {
+		hp_growth = 2150,
 		id = 47104,
 		base = 47100,
 		max_hp = 56,
-		hp_growth = 2150,
+		scale = 1,
 		weapon_ID = {
 			59104,
 			59204
 		}
 	},
 	[47105] = {
+		hp_growth = 2352,
 		id = 47105,
 		base = 47100,
 		max_hp = 61,
-		hp_growth = 2352,
+		scale = 1,
 		weapon_ID = {
 			59105,
 			59205
 		}
 	},
 	[47106] = {
+		hp_growth = 2554,
 		id = 47106,
 		base = 47100,
 		max_hp = 66,
-		hp_growth = 2554,
+		scale = 1,
 		weapon_ID = {
 			59106,
 			59206
@@ -14312,9 +16045,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 65,
 		dodge = 0.327,
-		type = 1,
-		dodge_limit = 9.5,
 		attack_power = 2,
+		dodge_limit = 9.5,
+		type = 1,
 		AP_growth = 2000,
 		icon = "Me155A",
 		funnel_behavior = "",
@@ -14322,6 +16055,7 @@ pg.aircraft_template = {
 		hp_growth = 1478,
 		speed = 50,
 		id = 47120,
+		scale = 1,
 		weapon_ID = {
 			59120,
 			59220
@@ -14379,100 +16113,110 @@ pg.aircraft_template = {
 		}
 	},
 	[47121] = {
+		hp_growth = 1700,
 		id = 47121,
 		base = 47120,
 		max_hp = 44,
-		hp_growth = 1700,
+		scale = 1,
 		weapon_ID = {
 			59121,
 			59221
 		}
 	},
 	[47122] = {
+		hp_growth = 1922,
 		id = 47122,
 		base = 47120,
 		max_hp = 50,
-		hp_growth = 1922,
+		scale = 1,
 		weapon_ID = {
 			59122,
 			59222
 		}
 	},
 	[47123] = {
+		hp_growth = 2144,
 		id = 47123,
 		base = 47120,
 		max_hp = 56,
-		hp_growth = 2144,
+		scale = 1,
 		weapon_ID = {
 			59123,
 			59223
 		}
 	},
 	[47124] = {
+		hp_growth = 2365,
 		id = 47124,
 		base = 47120,
 		max_hp = 62,
-		hp_growth = 2365,
+		scale = 1,
 		weapon_ID = {
 			59124,
 			59224
 		}
 	},
 	[47125] = {
+		hp_growth = 2587,
 		id = 47125,
 		base = 47120,
 		max_hp = 67,
-		hp_growth = 2587,
+		scale = 1,
 		weapon_ID = {
 			59125,
 			59225
 		}
 	},
 	[47126] = {
+		hp_growth = 2809,
 		id = 47126,
 		base = 47120,
 		max_hp = 73,
-		hp_growth = 2809,
+		scale = 1,
 		weapon_ID = {
 			59126,
 			59226
 		}
 	},
 	[47127] = {
+		hp_growth = 3031,
 		id = 47127,
 		base = 47120,
 		max_hp = 79,
-		hp_growth = 3031,
+		scale = 1,
 		weapon_ID = {
 			59127,
 			59227
 		}
 	},
 	[47128] = {
+		hp_growth = 3252,
 		id = 47128,
 		base = 47120,
 		max_hp = 85,
-		hp_growth = 3252,
+		scale = 1,
 		weapon_ID = {
 			59128,
 			59228
 		}
 	},
 	[47129] = {
+		hp_growth = 3474,
 		id = 47129,
 		base = 47120,
 		max_hp = 90,
-		hp_growth = 3474,
+		scale = 1,
 		weapon_ID = {
 			59129,
 			59229
 		}
 	},
 	[47130] = {
+		hp_growth = 3696,
 		id = 47130,
 		base = 47120,
 		max_hp = 96,
-		hp_growth = 3696,
+		scale = 1,
 		weapon_ID = {
 			59130,
 			59230
@@ -14486,9 +16230,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 65,
 		dodge = 0.315,
-		type = 1,
-		dodge_limit = 10,
 		attack_power = 2,
+		dodge_limit = 10,
+		type = 1,
 		AP_growth = 2000,
 		icon = "Me155A",
 		funnel_behavior = "",
@@ -14496,6 +16240,7 @@ pg.aircraft_template = {
 		hp_growth = 1613,
 		speed = 50,
 		id = 47140,
+		scale = 1,
 		weapon_ID = {
 			59140,
 			59240
@@ -14553,100 +16298,110 @@ pg.aircraft_template = {
 		}
 	},
 	[47141] = {
+		hp_growth = 1855,
 		id = 47141,
 		base = 47140,
 		max_hp = 48,
-		hp_growth = 1855,
+		scale = 1,
 		weapon_ID = {
 			59141,
 			59241
 		}
 	},
 	[47142] = {
+		hp_growth = 2097,
 		id = 47142,
 		base = 47140,
 		max_hp = 55,
-		hp_growth = 2097,
+		scale = 1,
 		weapon_ID = {
 			59142,
 			59242
 		}
 	},
 	[47143] = {
+		hp_growth = 2339,
 		id = 47143,
 		base = 47140,
 		max_hp = 61,
-		hp_growth = 2339,
+		scale = 1,
 		weapon_ID = {
 			59143,
 			59243
 		}
 	},
 	[47144] = {
+		hp_growth = 2580,
 		id = 47144,
 		base = 47140,
 		max_hp = 67,
-		hp_growth = 2580,
+		scale = 1,
 		weapon_ID = {
 			59144,
 			59244
 		}
 	},
 	[47145] = {
+		hp_growth = 2822,
 		id = 47145,
 		base = 47140,
 		max_hp = 73,
-		hp_growth = 2822,
+		scale = 1,
 		weapon_ID = {
 			59145,
 			59245
 		}
 	},
 	[47146] = {
+		hp_growth = 3064,
 		id = 47146,
 		base = 47140,
 		max_hp = 80,
-		hp_growth = 3064,
+		scale = 1,
 		weapon_ID = {
 			59146,
 			59246
 		}
 	},
 	[47147] = {
+		hp_growth = 3306,
 		id = 47147,
 		base = 47140,
 		max_hp = 86,
-		hp_growth = 3306,
+		scale = 1,
 		weapon_ID = {
 			59147,
 			59247
 		}
 	},
 	[47148] = {
+		hp_growth = 3548,
 		id = 47148,
 		base = 47140,
 		max_hp = 92,
-		hp_growth = 3548,
+		scale = 1,
 		weapon_ID = {
 			59148,
 			59248
 		}
 	},
 	[47149] = {
+		hp_growth = 3790,
 		id = 47149,
 		base = 47140,
 		max_hp = 99,
-		hp_growth = 3790,
+		scale = 1,
 		weapon_ID = {
 			59149,
 			59249
 		}
 	},
 	[47150] = {
+		hp_growth = 4032,
 		id = 47150,
 		base = 47140,
 		max_hp = 105,
-		hp_growth = 4032,
+		scale = 1,
 		weapon_ID = {
 			59150,
 			59250
@@ -14660,9 +16415,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 112,
 		dodge = 3.57,
-		type = 3,
-		dodge_limit = 0.8,
 		attack_power = 2,
+		dodge_limit = 0.8,
+		type = 3,
 		AP_growth = 2000,
 		icon = "JU87C",
 		funnel_behavior = "",
@@ -14670,6 +16425,7 @@ pg.aircraft_template = {
 		hp_growth = 1267,
 		speed = 46,
 		id = 49000,
+		scale = 1,
 		weapon_ID = {
 			59300,
 			52600,
@@ -14728,10 +16484,11 @@ pg.aircraft_template = {
 		}
 	},
 	[49001] = {
+		hp_growth = 1457,
 		id = 49001,
 		base = 49000,
 		max_hp = 38,
-		hp_growth = 1457,
+		scale = 1,
 		weapon_ID = {
 			59301,
 			52601,
@@ -14739,10 +16496,11 @@ pg.aircraft_template = {
 		}
 	},
 	[49002] = {
+		hp_growth = 1647,
 		id = 49002,
 		base = 49000,
 		max_hp = 43,
-		hp_growth = 1647,
+		scale = 1,
 		weapon_ID = {
 			59302,
 			52602,
@@ -14750,10 +16508,11 @@ pg.aircraft_template = {
 		}
 	},
 	[49003] = {
+		hp_growth = 1837,
 		id = 49003,
 		base = 49000,
 		max_hp = 48,
-		hp_growth = 1837,
+		scale = 1,
 		weapon_ID = {
 			59303,
 			52603,
@@ -14768,9 +16527,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 112,
 		dodge = 3.45,
-		type = 3,
-		dodge_limit = 0.9,
 		attack_power = 2,
+		dodge_limit = 0.9,
+		type = 3,
 		AP_growth = 2000,
 		icon = "JU87C",
 		funnel_behavior = "",
@@ -14778,6 +16537,7 @@ pg.aircraft_template = {
 		hp_growth = 1408,
 		speed = 46,
 		id = 49020,
+		scale = 1,
 		weapon_ID = {
 			59320,
 			52620,
@@ -14836,10 +16596,11 @@ pg.aircraft_template = {
 		}
 	},
 	[49021] = {
+		hp_growth = 1619,
 		id = 49021,
 		base = 49020,
 		max_hp = 42,
-		hp_growth = 1619,
+		scale = 1,
 		weapon_ID = {
 			59321,
 			52621,
@@ -14847,10 +16608,11 @@ pg.aircraft_template = {
 		}
 	},
 	[49022] = {
+		hp_growth = 1830,
 		id = 49022,
 		base = 49020,
 		max_hp = 48,
-		hp_growth = 1830,
+		scale = 1,
 		weapon_ID = {
 			59322,
 			52622,
@@ -14858,10 +16620,11 @@ pg.aircraft_template = {
 		}
 	},
 	[49023] = {
+		hp_growth = 2042,
 		id = 49023,
 		base = 49020,
 		max_hp = 53,
-		hp_growth = 2042,
+		scale = 1,
 		weapon_ID = {
 			59323,
 			52623,
@@ -14869,10 +16632,11 @@ pg.aircraft_template = {
 		}
 	},
 	[49024] = {
+		hp_growth = 2253,
 		id = 49024,
 		base = 49020,
 		max_hp = 59,
-		hp_growth = 2253,
+		scale = 1,
 		weapon_ID = {
 			59324,
 			52624,
@@ -14880,10 +16644,11 @@ pg.aircraft_template = {
 		}
 	},
 	[49025] = {
+		hp_growth = 2464,
 		id = 49025,
 		base = 49020,
 		max_hp = 64,
-		hp_growth = 2464,
+		scale = 1,
 		weapon_ID = {
 			59325,
 			52625,
@@ -14891,10 +16656,11 @@ pg.aircraft_template = {
 		}
 	},
 	[49026] = {
+		hp_growth = 2675,
 		id = 49026,
 		base = 49020,
 		max_hp = 70,
-		hp_growth = 2675,
+		scale = 1,
 		weapon_ID = {
 			59326,
 			52626,
@@ -14909,9 +16675,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 112,
 		dodge = 3.33,
-		type = 3,
-		dodge_limit = 1,
 		attack_power = 2,
+		dodge_limit = 1,
+		type = 3,
 		AP_growth = 2000,
 		icon = "JU87C",
 		funnel_behavior = "",
@@ -14919,6 +16685,7 @@ pg.aircraft_template = {
 		hp_growth = 1549,
 		speed = 46,
 		id = 49040,
+		scale = 1,
 		weapon_ID = {
 			59340,
 			52640,
@@ -14977,10 +16744,11 @@ pg.aircraft_template = {
 		}
 	},
 	[49041] = {
+		hp_growth = 1781,
 		id = 49041,
 		base = 49040,
 		max_hp = 46,
-		hp_growth = 1781,
+		scale = 1,
 		weapon_ID = {
 			59341,
 			52641,
@@ -14988,10 +16756,11 @@ pg.aircraft_template = {
 		}
 	},
 	[49042] = {
+		hp_growth = 2013,
 		id = 49042,
 		base = 49040,
 		max_hp = 52,
-		hp_growth = 2013,
+		scale = 1,
 		weapon_ID = {
 			59342,
 			52642,
@@ -14999,10 +16768,11 @@ pg.aircraft_template = {
 		}
 	},
 	[49043] = {
+		hp_growth = 2246,
 		id = 49043,
 		base = 49040,
 		max_hp = 58,
-		hp_growth = 2246,
+		scale = 1,
 		weapon_ID = {
 			59343,
 			52643,
@@ -15010,10 +16780,11 @@ pg.aircraft_template = {
 		}
 	},
 	[49044] = {
+		hp_growth = 2478,
 		id = 49044,
 		base = 49040,
 		max_hp = 64,
-		hp_growth = 2478,
+		scale = 1,
 		weapon_ID = {
 			59344,
 			52644,
@@ -15021,10 +16792,11 @@ pg.aircraft_template = {
 		}
 	},
 	[49045] = {
+		hp_growth = 2710,
 		id = 49045,
 		base = 49040,
 		max_hp = 70,
-		hp_growth = 2710,
+		scale = 1,
 		weapon_ID = {
 			59345,
 			52645,
@@ -15032,10 +16804,11 @@ pg.aircraft_template = {
 		}
 	},
 	[49046] = {
+		hp_growth = 2943,
 		id = 49046,
 		base = 49040,
 		max_hp = 77,
-		hp_growth = 2943,
+		scale = 1,
 		weapon_ID = {
 			59346,
 			52646,
@@ -15043,10 +16816,11 @@ pg.aircraft_template = {
 		}
 	},
 	[49047] = {
+		hp_growth = 3175,
 		id = 49047,
 		base = 49040,
 		max_hp = 83,
-		hp_growth = 3175,
+		scale = 1,
 		weapon_ID = {
 			59347,
 			52647,
@@ -15054,10 +16828,11 @@ pg.aircraft_template = {
 		}
 	},
 	[49048] = {
+		hp_growth = 3407,
 		id = 49048,
 		base = 49040,
 		max_hp = 89,
-		hp_growth = 3407,
+		scale = 1,
 		weapon_ID = {
 			59348,
 			52648,
@@ -15065,10 +16840,11 @@ pg.aircraft_template = {
 		}
 	},
 	[49049] = {
+		hp_growth = 3640,
 		id = 49049,
 		base = 49040,
 		max_hp = 95,
-		hp_growth = 3640,
+		scale = 1,
 		weapon_ID = {
 			59349,
 			52649,
@@ -15076,10 +16852,11 @@ pg.aircraft_template = {
 		}
 	},
 	[49050] = {
+		hp_growth = 3872,
 		id = 49050,
 		base = 49040,
 		max_hp = 101,
-		hp_growth = 3872,
+		scale = 1,
 		weapon_ID = {
 			59350,
 			52650,
@@ -15094,9 +16871,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 90,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "suoyu",
 		funnel_behavior = "",
@@ -15104,6 +16881,7 @@ pg.aircraft_template = {
 		hp_growth = 1216,
 		speed = 40,
 		id = 61010,
+		scale = 1,
 		weapon_ID = {
 			61013
 		},
@@ -15164,9 +16942,10 @@ pg.aircraft_template = {
 		name = "皇家方舟技能LV2",
 		id = 61011,
 		dodge_limit = 0,
-		max_hp = 64,
 		hp_growth = 2432,
 		dodge = 1,
+		max_hp = 64,
+		scale = 1,
 		weapon_ID = {
 			61014
 		}
@@ -15176,9 +16955,10 @@ pg.aircraft_template = {
 		name = "皇家方舟技能LV3",
 		id = 61012,
 		dodge_limit = 0,
-		max_hp = 95,
 		hp_growth = 3648,
 		dodge = 1,
+		max_hp = 95,
+		scale = 1,
 		weapon_ID = {
 			61015
 		}
@@ -15191,9 +16971,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 208,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "caiyun",
 		funnel_behavior = "",
@@ -15201,6 +16981,7 @@ pg.aircraft_template = {
 		hp_growth = 1605,
 		speed = 66,
 		id = 61016,
+		scale = 1,
 		weapon_ID = {},
 		position_offset = {
 			0,
@@ -15262,9 +17043,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 180,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -15272,6 +17053,7 @@ pg.aircraft_template = {
 		hp_growth = 3678,
 		speed = 45,
 		id = 61017,
+		scale = 1,
 		weapon_ID = {
 			61018
 		},
@@ -15335,9 +17117,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 208,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -15345,6 +17127,7 @@ pg.aircraft_template = {
 		hp_growth = 5000,
 		speed = 66,
 		id = 61019,
+		scale = 1,
 		weapon_ID = {
 			61021
 		},
@@ -15408,9 +17191,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 208,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -15418,6 +17201,7 @@ pg.aircraft_template = {
 		hp_growth = 5000,
 		speed = 66,
 		id = 61020,
+		scale = 1,
 		weapon_ID = {},
 		position_offset = {
 			0,
@@ -15479,9 +17263,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 406,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "F6F",
 		funnel_behavior = "",
@@ -15489,6 +17273,7 @@ pg.aircraft_template = {
 		hp_growth = 2282,
 		speed = 40,
 		id = 61022,
+		scale = 1,
 		weapon_ID = {},
 		position_offset = {
 			0,
@@ -15550,9 +17335,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 208,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "caiyun",
 		funnel_behavior = "",
@@ -15560,6 +17345,7 @@ pg.aircraft_template = {
 		hp_growth = 1605,
 		speed = 66,
 		id = 61023,
+		scale = 1,
 		weapon_ID = {},
 		position_offset = {
 			0,
@@ -15621,9 +17407,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 120,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "ruiyun",
 		funnel_behavior = "",
@@ -15631,6 +17417,7 @@ pg.aircraft_template = {
 		hp_growth = 1023,
 		speed = 46,
 		id = 66240,
+		scale = 1,
 		weapon_ID = {
 			66260
 		},
@@ -15691,9 +17478,10 @@ pg.aircraft_template = {
 		name = "山城改技能Lv1",
 		id = 66241,
 		dodge_limit = 0,
-		max_hp = 32,
 		hp_growth = 1233,
 		dodge = 1,
+		max_hp = 32,
+		scale = 1,
 		weapon_ID = {
 			66261
 		}
@@ -15703,9 +17491,10 @@ pg.aircraft_template = {
 		name = "山城改技能Lv2",
 		id = 66242,
 		dodge_limit = 0,
-		max_hp = 37,
 		hp_growth = 1443,
 		dodge = 1,
+		max_hp = 37,
+		scale = 1,
 		weapon_ID = {
 			66262
 		}
@@ -15715,9 +17504,10 @@ pg.aircraft_template = {
 		name = "山城改技能Lv3",
 		id = 66243,
 		dodge_limit = 0,
-		max_hp = 42,
 		hp_growth = 1653,
 		dodge = 1,
+		max_hp = 42,
+		scale = 1,
 		weapon_ID = {
 			66263
 		}
@@ -15727,9 +17517,10 @@ pg.aircraft_template = {
 		name = "山城改技能Lv4",
 		id = 66244,
 		dodge_limit = 0,
-		max_hp = 47,
 		hp_growth = 1863,
 		dodge = 1,
+		max_hp = 47,
+		scale = 1,
 		weapon_ID = {
 			66264
 		}
@@ -15739,9 +17530,10 @@ pg.aircraft_template = {
 		name = "山城改技能Lv5",
 		id = 66245,
 		dodge_limit = 0,
-		max_hp = 52,
 		hp_growth = 2073,
 		dodge = 1,
+		max_hp = 52,
+		scale = 1,
 		weapon_ID = {
 			66265
 		}
@@ -15751,9 +17543,10 @@ pg.aircraft_template = {
 		name = "山城改技能Lv6",
 		id = 66246,
 		dodge_limit = 0,
-		max_hp = 57,
 		hp_growth = 2283,
 		dodge = 1,
+		max_hp = 57,
+		scale = 1,
 		weapon_ID = {
 			66266
 		}
@@ -15763,9 +17556,10 @@ pg.aircraft_template = {
 		name = "山城改技能Lv7",
 		id = 66247,
 		dodge_limit = 0,
-		max_hp = 63,
 		hp_growth = 2494,
 		dodge = 1,
+		max_hp = 63,
+		scale = 1,
 		weapon_ID = {
 			66267
 		}
@@ -15775,9 +17569,10 @@ pg.aircraft_template = {
 		name = "山城改技能Lv8",
 		id = 66248,
 		dodge_limit = 0,
-		max_hp = 69,
 		hp_growth = 2705,
 		dodge = 1,
+		max_hp = 69,
+		scale = 1,
 		weapon_ID = {
 			66268
 		}
@@ -15787,9 +17582,10 @@ pg.aircraft_template = {
 		name = "山城改技能Lv9",
 		id = 66249,
 		dodge_limit = 0,
-		max_hp = 75,
 		hp_growth = 2916,
 		dodge = 1,
+		max_hp = 75,
+		scale = 1,
 		weapon_ID = {
 			66269
 		}
@@ -15799,9 +17595,10 @@ pg.aircraft_template = {
 		name = "山城改技能Lv10",
 		id = 66250,
 		dodge_limit = 0,
-		max_hp = 81,
 		hp_growth = 3127,
 		dodge = 1,
+		max_hp = 81,
+		scale = 1,
 		weapon_ID = {
 			66270
 		}
@@ -15814,9 +17611,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 100,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "haipenhuo",
 		funnel_behavior = "",
@@ -15824,6 +17621,7 @@ pg.aircraft_template = {
 		hp_growth = 1210,
 		speed = 50,
 		id = 66420,
+		scale = 1,
 		weapon_ID = {
 			50140,
 			50540,
@@ -15886,9 +17684,10 @@ pg.aircraft_template = {
 		name = "胡蜂技能LV1",
 		id = 66421,
 		dodge_limit = 0,
-		max_hp = 37,
 		hp_growth = 1458,
 		dodge = 1,
+		max_hp = 37,
+		scale = 1,
 		weapon_ID = {
 			50141,
 			50541,
@@ -15900,9 +17699,10 @@ pg.aircraft_template = {
 		name = "胡蜂技能LV2",
 		id = 66422,
 		dodge_limit = 0,
-		max_hp = 43,
 		hp_growth = 1706,
 		dodge = 1,
+		max_hp = 43,
+		scale = 1,
 		weapon_ID = {
 			50142,
 			50542,
@@ -15914,9 +17714,10 @@ pg.aircraft_template = {
 		name = "胡蜂技能LV3",
 		id = 66423,
 		dodge_limit = 0,
-		max_hp = 49,
 		hp_growth = 1954,
 		dodge = 1,
+		max_hp = 49,
+		scale = 1,
 		weapon_ID = {
 			50143,
 			50543,
@@ -15928,9 +17729,10 @@ pg.aircraft_template = {
 		name = "胡蜂技能LV4",
 		id = 66424,
 		dodge_limit = 0,
-		max_hp = 55,
 		hp_growth = 2202,
 		dodge = 1,
+		max_hp = 55,
+		scale = 1,
 		weapon_ID = {
 			50144,
 			50544,
@@ -15942,9 +17744,10 @@ pg.aircraft_template = {
 		name = "胡蜂技能LV5",
 		id = 66425,
 		dodge_limit = 0,
-		max_hp = 61,
 		hp_growth = 2451,
 		dodge = 1,
+		max_hp = 61,
+		scale = 1,
 		weapon_ID = {
 			50145,
 			50545,
@@ -15956,9 +17759,10 @@ pg.aircraft_template = {
 		name = "胡蜂技能LV6",
 		id = 66426,
 		dodge_limit = 0,
-		max_hp = 68,
 		hp_growth = 2700,
 		dodge = 1,
+		max_hp = 68,
+		scale = 1,
 		weapon_ID = {
 			50146,
 			50546,
@@ -15970,9 +17774,10 @@ pg.aircraft_template = {
 		name = "胡蜂技能LV7",
 		id = 66427,
 		dodge_limit = 0,
-		max_hp = 75,
 		hp_growth = 2949,
 		dodge = 1,
+		max_hp = 75,
+		scale = 1,
 		weapon_ID = {
 			50147,
 			50547,
@@ -15984,9 +17789,10 @@ pg.aircraft_template = {
 		name = "胡蜂技能LV8",
 		id = 66428,
 		dodge_limit = 0,
-		max_hp = 82,
 		hp_growth = 3198,
 		dodge = 1,
+		max_hp = 82,
+		scale = 1,
 		weapon_ID = {
 			50148,
 			50548,
@@ -15998,9 +17804,10 @@ pg.aircraft_template = {
 		name = "胡蜂技能LV9",
 		id = 66429,
 		dodge_limit = 0,
-		max_hp = 89,
 		hp_growth = 3447,
 		dodge = 1,
+		max_hp = 89,
+		scale = 1,
 		weapon_ID = {
 			50149,
 			50549,
@@ -16012,206 +17819,14 @@ pg.aircraft_template = {
 		name = "胡蜂技能LV10",
 		id = 66430,
 		dodge_limit = 0,
-		max_hp = 96,
 		hp_growth = 3696,
 		dodge = 1,
+		max_hp = 96,
+		scale = 1,
 		weapon_ID = {
 			50150,
 			50550,
 			52250
-		}
-	},
-	[66440] = {
-		name = "联结·阿萨姆LV0",
-		max_hp = 35,
-		accuracy = 23,
-		model_ID = "sb2c",
-		ACC_growth = 0,
-		crash_DMG = 100,
-		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
-		attack_power = 2,
-		AP_growth = 2000,
-		icon = "sb2c",
-		funnel_behavior = "",
-		nationality = 1,
-		hp_growth = 1331,
-		speed = 50,
-		id = 66440,
-		weapon_ID = {
-			66600
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					0.69,
-					-2.62,
-					0
-				},
-				{
-					0.85,
-					0.17,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0.62,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
-	[66441] = {
-		base = 66440,
-		name = "联结·阿萨姆LV1",
-		id = 66441,
-		dodge_limit = 0,
-		max_hp = 42,
-		hp_growth = 1604,
-		dodge = 1,
-		weapon_ID = {
-			66601
-		}
-	},
-	[66442] = {
-		base = 66440,
-		name = "联结·阿萨姆LV2",
-		id = 66442,
-		dodge_limit = 0,
-		max_hp = 49,
-		hp_growth = 1877,
-		dodge = 1,
-		weapon_ID = {
-			66602
-		}
-	},
-	[66443] = {
-		base = 66440,
-		name = "联结·阿萨姆LV3",
-		id = 66443,
-		dodge_limit = 0,
-		max_hp = 56,
-		hp_growth = 2150,
-		dodge = 1,
-		weapon_ID = {
-			66603
-		}
-	},
-	[66444] = {
-		base = 66440,
-		name = "联结·阿萨姆LV4",
-		id = 66444,
-		dodge_limit = 0,
-		max_hp = 63,
-		hp_growth = 2423,
-		dodge = 1,
-		weapon_ID = {
-			66604
-		}
-	},
-	[66445] = {
-		base = 66440,
-		name = "联结·阿萨姆LV5",
-		id = 66445,
-		dodge_limit = 0,
-		max_hp = 70,
-		hp_growth = 2696,
-		dodge = 1,
-		weapon_ID = {
-			66605
-		}
-	},
-	[66446] = {
-		base = 66440,
-		name = "联结·阿萨姆LV6",
-		id = 66446,
-		dodge_limit = 0,
-		max_hp = 77,
-		hp_growth = 2970,
-		dodge = 1,
-		weapon_ID = {
-			66606
-		}
-	},
-	[66447] = {
-		base = 66440,
-		name = "联结·阿萨姆LV7",
-		id = 66447,
-		dodge_limit = 0,
-		max_hp = 84,
-		hp_growth = 3244,
-		dodge = 1,
-		weapon_ID = {
-			66607
-		}
-	},
-	[66448] = {
-		base = 66440,
-		name = "联结·阿萨姆LV8",
-		id = 66448,
-		dodge_limit = 0,
-		max_hp = 91,
-		hp_growth = 3518,
-		dodge = 1,
-		weapon_ID = {
-			66608
-		}
-	},
-	[66449] = {
-		base = 66440,
-		name = "联结·阿萨姆LV9",
-		id = 66449,
-		dodge_limit = 0,
-		max_hp = 98,
-		hp_growth = 3792,
-		dodge = 1,
-		weapon_ID = {
-			66609
-		}
-	},
-	[66450] = {
-		base = 66440,
-		name = "联结·阿萨姆LV10",
-		id = 66450,
-		dodge_limit = 0,
-		max_hp = 106,
-		hp_growth = 4066,
-		dodge = 1,
-		weapon_ID = {
-			66610
 		}
 	},
 	[66580] = {
@@ -16222,9 +17837,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 100,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "Nep_green",
 		funnel_behavior = "",
@@ -16232,6 +17847,7 @@ pg.aircraft_template = {
 		hp_growth = 1478,
 		speed = 50,
 		id = 66580,
+		scale = 1,
 		weapon_ID = {
 			66620
 		},
@@ -16292,9 +17908,10 @@ pg.aircraft_template = {
 		name = "宝石枪雨LV1",
 		id = 66581,
 		dodge_limit = 0,
-		max_hp = 45,
 		hp_growth = 1773,
 		dodge = 1,
+		max_hp = 45,
+		scale = 1,
 		weapon_ID = {
 			66621
 		}
@@ -16304,9 +17921,10 @@ pg.aircraft_template = {
 		name = "宝石枪雨LV2",
 		id = 66582,
 		dodge_limit = 0,
-		max_hp = 52,
 		hp_growth = 2068,
 		dodge = 1,
+		max_hp = 52,
+		scale = 1,
 		weapon_ID = {
 			66622
 		}
@@ -16316,9 +17934,10 @@ pg.aircraft_template = {
 		name = "宝石枪雨LV3",
 		id = 66583,
 		dodge_limit = 0,
-		max_hp = 59,
 		hp_growth = 2363,
 		dodge = 1,
+		max_hp = 59,
+		scale = 1,
 		weapon_ID = {
 			66623
 		}
@@ -16328,9 +17947,10 @@ pg.aircraft_template = {
 		name = "宝石枪雨LV4",
 		id = 66584,
 		dodge_limit = 0,
-		max_hp = 67,
 		hp_growth = 2659,
 		dodge = 1,
+		max_hp = 67,
+		scale = 1,
 		weapon_ID = {
 			66624
 		}
@@ -16340,9 +17960,10 @@ pg.aircraft_template = {
 		name = "宝石枪雨LV5",
 		id = 66585,
 		dodge_limit = 0,
-		max_hp = 75,
 		hp_growth = 2955,
 		dodge = 1,
+		max_hp = 75,
+		scale = 1,
 		weapon_ID = {
 			66625
 		}
@@ -16352,9 +17973,10 @@ pg.aircraft_template = {
 		name = "宝石枪雨LV6",
 		id = 66586,
 		dodge_limit = 0,
-		max_hp = 83,
 		hp_growth = 3251,
 		dodge = 1,
+		max_hp = 83,
+		scale = 1,
 		weapon_ID = {
 			66626
 		}
@@ -16364,9 +17986,10 @@ pg.aircraft_template = {
 		name = "宝石枪雨LV7",
 		id = 66587,
 		dodge_limit = 0,
-		max_hp = 91,
 		hp_growth = 3547,
 		dodge = 1,
+		max_hp = 91,
+		scale = 1,
 		weapon_ID = {
 			66627
 		}
@@ -16376,9 +17999,10 @@ pg.aircraft_template = {
 		name = "宝石枪雨LV8",
 		id = 66588,
 		dodge_limit = 0,
-		max_hp = 99,
 		hp_growth = 3843,
 		dodge = 1,
+		max_hp = 99,
+		scale = 1,
 		weapon_ID = {
 			66628
 		}
@@ -16388,9 +18012,10 @@ pg.aircraft_template = {
 		name = "宝石枪雨LV9",
 		id = 66589,
 		dodge_limit = 0,
-		max_hp = 107,
 		hp_growth = 4139,
 		dodge = 1,
+		max_hp = 107,
+		scale = 1,
 		weapon_ID = {
 			66629
 		}
@@ -16400,9 +18025,10 @@ pg.aircraft_template = {
 		name = "宝石枪雨LV10",
 		id = 66590,
 		dodge_limit = 0,
-		max_hp = 115,
 		hp_growth = 4435,
 		dodge = 1,
+		max_hp = 115,
+		scale = 1,
 		weapon_ID = {
 			66630
 		}
@@ -16415,9 +18041,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 148,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -16425,6 +18051,7 @@ pg.aircraft_template = {
 		hp_growth = 924,
 		speed = 48,
 		id = 66820,
+		scale = 1,
 		weapon_ID = {
 			66840
 		},
@@ -16485,9 +18112,10 @@ pg.aircraft_template = {
 		name = "飞鹰隼鹰技能Lv1",
 		id = 66821,
 		dodge_limit = 0,
-		max_hp = 27,
 		hp_growth = 1051,
 		dodge = 1,
+		max_hp = 27,
+		scale = 1,
 		weapon_ID = {
 			66841
 		}
@@ -16497,9 +18125,10 @@ pg.aircraft_template = {
 		name = "飞鹰隼鹰技能Lv2",
 		id = 66822,
 		dodge_limit = 0,
-		max_hp = 30,
 		hp_growth = 1178,
 		dodge = 1,
+		max_hp = 30,
+		scale = 1,
 		weapon_ID = {
 			66842
 		}
@@ -16509,9 +18138,10 @@ pg.aircraft_template = {
 		name = "飞鹰隼鹰技能Lv3",
 		id = 66823,
 		dodge_limit = 0,
-		max_hp = 33,
 		hp_growth = 1305,
 		dodge = 1,
+		max_hp = 33,
+		scale = 1,
 		weapon_ID = {
 			66843
 		}
@@ -16521,9 +18151,10 @@ pg.aircraft_template = {
 		name = "飞鹰隼鹰技能Lv4",
 		id = 66824,
 		dodge_limit = 0,
-		max_hp = 37,
 		hp_growth = 1432,
 		dodge = 1,
+		max_hp = 37,
+		scale = 1,
 		weapon_ID = {
 			66844
 		}
@@ -16533,9 +18164,10 @@ pg.aircraft_template = {
 		name = "飞鹰隼鹰技能Lv5",
 		id = 66825,
 		dodge_limit = 0,
-		max_hp = 40,
 		hp_growth = 1559,
 		dodge = 1,
+		max_hp = 40,
+		scale = 1,
 		weapon_ID = {
 			66845
 		}
@@ -16545,9 +18177,10 @@ pg.aircraft_template = {
 		name = "飞鹰隼鹰技能Lv6",
 		id = 66826,
 		dodge_limit = 0,
-		max_hp = 43,
 		hp_growth = 1686,
 		dodge = 1,
+		max_hp = 43,
+		scale = 1,
 		weapon_ID = {
 			66846
 		}
@@ -16557,9 +18190,10 @@ pg.aircraft_template = {
 		name = "飞鹰隼鹰技能Lv7",
 		id = 66827,
 		dodge_limit = 0,
-		max_hp = 47,
 		hp_growth = 1813,
 		dodge = 1,
+		max_hp = 47,
+		scale = 1,
 		weapon_ID = {
 			66847
 		}
@@ -16569,9 +18203,10 @@ pg.aircraft_template = {
 		name = "飞鹰隼鹰技能Lv8",
 		id = 66828,
 		dodge_limit = 0,
-		max_hp = 50,
 		hp_growth = 1940,
 		dodge = 1,
+		max_hp = 50,
+		scale = 1,
 		weapon_ID = {
 			66848
 		}
@@ -16581,9 +18216,10 @@ pg.aircraft_template = {
 		name = "飞鹰隼鹰技能Lv9",
 		id = 66829,
 		dodge_limit = 0,
-		max_hp = 53,
 		hp_growth = 2067,
 		dodge = 1,
+		max_hp = 53,
+		scale = 1,
 		weapon_ID = {
 			66849
 		}
@@ -16593,9 +18229,10 @@ pg.aircraft_template = {
 		name = "飞鹰隼鹰技能Lv10",
 		id = 66830,
 		dodge_limit = 0,
-		max_hp = 57,
 		hp_growth = 2195,
 		dodge = 1,
+		max_hp = 57,
+		scale = 1,
 		weapon_ID = {
 			66850
 		}
@@ -16608,9 +18245,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 406,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "tbf",
 		funnel_behavior = "",
@@ -16618,6 +18255,7 @@ pg.aircraft_template = {
 		hp_growth = 1149,
 		speed = 48,
 		id = 66940,
+		scale = 1,
 		weapon_ID = {
 			66980
 		},
@@ -16678,9 +18316,10 @@ pg.aircraft_template = {
 		name = "萨拉托加技能鱼雷机Lv1",
 		id = 66941,
 		dodge_limit = 0,
-		max_hp = 36,
 		hp_growth = 1385,
 		dodge = 1,
+		max_hp = 36,
+		scale = 1,
 		weapon_ID = {
 			66981
 		}
@@ -16690,9 +18329,10 @@ pg.aircraft_template = {
 		name = "萨拉托加技能鱼雷机Lv2",
 		id = 66942,
 		dodge_limit = 0,
-		max_hp = 42,
 		hp_growth = 1621,
 		dodge = 1,
+		max_hp = 42,
+		scale = 1,
 		weapon_ID = {
 			66982
 		}
@@ -16702,9 +18342,10 @@ pg.aircraft_template = {
 		name = "萨拉托加技能鱼雷机Lv3",
 		id = 66943,
 		dodge_limit = 0,
-		max_hp = 48,
 		hp_growth = 1857,
 		dodge = 1,
+		max_hp = 48,
+		scale = 1,
 		weapon_ID = {
 			66983
 		}
@@ -16714,9 +18355,10 @@ pg.aircraft_template = {
 		name = "萨拉托加技能鱼雷机Lv4",
 		id = 66944,
 		dodge_limit = 0,
-		max_hp = 54,
 		hp_growth = 2093,
 		dodge = 1,
+		max_hp = 54,
+		scale = 1,
 		weapon_ID = {
 			66984
 		}
@@ -16726,9 +18368,10 @@ pg.aircraft_template = {
 		name = "萨拉托加技能鱼雷机Lv5",
 		id = 66945,
 		dodge_limit = 0,
-		max_hp = 60,
 		hp_growth = 2329,
 		dodge = 1,
+		max_hp = 60,
+		scale = 1,
 		weapon_ID = {
 			66985
 		}
@@ -16738,9 +18381,10 @@ pg.aircraft_template = {
 		name = "萨拉托加技能鱼雷机Lv6",
 		id = 66946,
 		dodge_limit = 0,
-		max_hp = 66,
 		hp_growth = 2565,
 		dodge = 1,
+		max_hp = 66,
+		scale = 1,
 		weapon_ID = {
 			66986
 		}
@@ -16750,9 +18394,10 @@ pg.aircraft_template = {
 		name = "萨拉托加技能鱼雷机Lv7",
 		id = 66947,
 		dodge_limit = 0,
-		max_hp = 72,
 		hp_growth = 2801,
 		dodge = 1,
+		max_hp = 72,
+		scale = 1,
 		weapon_ID = {
 			66987
 		}
@@ -16762,9 +18407,10 @@ pg.aircraft_template = {
 		name = "萨拉托加技能鱼雷机Lv8",
 		id = 66948,
 		dodge_limit = 0,
-		max_hp = 78,
 		hp_growth = 3037,
 		dodge = 1,
+		max_hp = 78,
+		scale = 1,
 		weapon_ID = {
 			66988
 		}
@@ -16774,9 +18420,10 @@ pg.aircraft_template = {
 		name = "萨拉托加技能鱼雷机Lv9",
 		id = 66949,
 		dodge_limit = 0,
-		max_hp = 84,
 		hp_growth = 3274,
 		dodge = 1,
+		max_hp = 84,
+		scale = 1,
 		weapon_ID = {
 			66989
 		}
@@ -16786,9 +18433,10 @@ pg.aircraft_template = {
 		name = "萨拉托加技能鱼雷机Lv10",
 		id = 66950,
 		dodge_limit = 0,
-		max_hp = 91,
 		hp_growth = 3511,
 		dodge = 1,
+		max_hp = 91,
+		scale = 1,
 		weapon_ID = {
 			66990
 		}
@@ -16801,9 +18449,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 156,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "sbdwuwei",
 		funnel_behavior = "",
@@ -16811,6 +18459,7 @@ pg.aircraft_template = {
 		hp_growth = 1183,
 		speed = 46,
 		id = 66960,
+		scale = 1,
 		weapon_ID = {
 			67000,
 			67020
@@ -16872,9 +18521,10 @@ pg.aircraft_template = {
 		name = "萨拉托加技能轰炸机Lv1",
 		id = 66961,
 		dodge_limit = 0,
-		max_hp = 35,
 		hp_growth = 1345,
 		dodge = 1,
+		max_hp = 35,
+		scale = 1,
 		weapon_ID = {
 			67001,
 			67021
@@ -16885,9 +18535,10 @@ pg.aircraft_template = {
 		name = "萨拉托加技能轰炸机Lv2",
 		id = 66962,
 		dodge_limit = 0,
-		max_hp = 39,
 		hp_growth = 1507,
 		dodge = 1,
+		max_hp = 39,
+		scale = 1,
 		weapon_ID = {
 			67002,
 			67022
@@ -16898,9 +18549,10 @@ pg.aircraft_template = {
 		name = "萨拉托加技能轰炸机Lv3",
 		id = 66963,
 		dodge_limit = 0,
-		max_hp = 43,
 		hp_growth = 1669,
 		dodge = 1,
+		max_hp = 43,
+		scale = 1,
 		weapon_ID = {
 			67003,
 			67023
@@ -16911,9 +18563,10 @@ pg.aircraft_template = {
 		name = "萨拉托加技能轰炸机Lv4",
 		id = 66964,
 		dodge_limit = 0,
-		max_hp = 47,
 		hp_growth = 1831,
 		dodge = 1,
+		max_hp = 47,
+		scale = 1,
 		weapon_ID = {
 			67004,
 			67024
@@ -16924,9 +18577,10 @@ pg.aircraft_template = {
 		name = "萨拉托加技能轰炸机Lv5",
 		id = 66965,
 		dodge_limit = 0,
-		max_hp = 51,
 		hp_growth = 1994,
 		dodge = 1,
+		max_hp = 51,
+		scale = 1,
 		weapon_ID = {
 			67005,
 			67025
@@ -16937,9 +18591,10 @@ pg.aircraft_template = {
 		name = "萨拉托加技能轰炸机Lv6",
 		id = 66966,
 		dodge_limit = 0,
-		max_hp = 55,
 		hp_growth = 2157,
 		dodge = 1,
+		max_hp = 55,
+		scale = 1,
 		weapon_ID = {
 			67006,
 			67026
@@ -16950,9 +18605,10 @@ pg.aircraft_template = {
 		name = "萨拉托加技能轰炸机Lv7",
 		id = 66967,
 		dodge_limit = 0,
-		max_hp = 59,
 		hp_growth = 2320,
 		dodge = 1,
+		max_hp = 59,
+		scale = 1,
 		weapon_ID = {
 			67007,
 			67027
@@ -16963,9 +18619,10 @@ pg.aircraft_template = {
 		name = "萨拉托加技能轰炸机Lv8",
 		id = 66968,
 		dodge_limit = 0,
-		max_hp = 63,
 		hp_growth = 2483,
 		dodge = 1,
+		max_hp = 63,
+		scale = 1,
 		weapon_ID = {
 			67008,
 			67028
@@ -16976,9 +18633,10 @@ pg.aircraft_template = {
 		name = "萨拉托加技能轰炸机Lv9",
 		id = 66969,
 		dodge_limit = 0,
-		max_hp = 68,
 		hp_growth = 2646,
 		dodge = 1,
+		max_hp = 68,
+		scale = 1,
 		weapon_ID = {
 			67009,
 			67029
@@ -16989,9 +18647,10 @@ pg.aircraft_template = {
 		name = "萨拉托加技能轰炸机Lv10",
 		id = 66970,
 		dodge_limit = 0,
-		max_hp = 73,
 		hp_growth = 2809,
 		dodge = 1,
+		max_hp = 73,
+		scale = 1,
 		weapon_ID = {
 			67010,
 			67030
@@ -17005,9 +18664,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 306,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "jianyu",
 		funnel_behavior = "",
@@ -17015,6 +18674,7 @@ pg.aircraft_template = {
 		hp_growth = 1338,
 		speed = 45,
 		id = 67140,
+		scale = 1,
 		weapon_ID = {
 			67180
 		},
@@ -17075,9 +18735,10 @@ pg.aircraft_template = {
 		name = "半人马技能鱼雷机Lv1",
 		id = 67141,
 		dodge_limit = 0,
-		max_hp = 40,
 		hp_growth = 1538,
 		dodge = 1,
+		max_hp = 40,
+		scale = 1,
 		weapon_ID = {
 			67181
 		}
@@ -17087,9 +18748,10 @@ pg.aircraft_template = {
 		name = "半人马技能鱼雷机Lv2",
 		id = 67142,
 		dodge_limit = 0,
-		max_hp = 45,
 		hp_growth = 1739,
 		dodge = 1,
+		max_hp = 45,
+		scale = 1,
 		weapon_ID = {
 			67182
 		}
@@ -17099,9 +18761,10 @@ pg.aircraft_template = {
 		name = "半人马技能鱼雷机Lv3",
 		id = 67143,
 		dodge_limit = 0,
-		max_hp = 50,
 		hp_growth = 1940,
 		dodge = 1,
+		max_hp = 50,
+		scale = 1,
 		weapon_ID = {
 			67183
 		}
@@ -17111,9 +18774,10 @@ pg.aircraft_template = {
 		name = "半人马技能鱼雷机Lv4",
 		id = 67144,
 		dodge_limit = 0,
-		max_hp = 56,
 		hp_growth = 2140,
 		dodge = 1,
+		max_hp = 56,
+		scale = 1,
 		weapon_ID = {
 			67184
 		}
@@ -17123,9 +18787,10 @@ pg.aircraft_template = {
 		name = "半人马技能鱼雷机Lv5",
 		id = 67145,
 		dodge_limit = 0,
-		max_hp = 61,
 		hp_growth = 2341,
 		dodge = 1,
+		max_hp = 61,
+		scale = 1,
 		weapon_ID = {
 			67185
 		}
@@ -17135,9 +18800,10 @@ pg.aircraft_template = {
 		name = "半人马技能鱼雷机Lv6",
 		id = 67146,
 		dodge_limit = 0,
-		max_hp = 66,
 		hp_growth = 2541,
 		dodge = 1,
+		max_hp = 66,
+		scale = 1,
 		weapon_ID = {
 			67186
 		}
@@ -17147,9 +18813,10 @@ pg.aircraft_template = {
 		name = "半人马技能鱼雷机Lv7",
 		id = 67147,
 		dodge_limit = 0,
-		max_hp = 71,
 		hp_growth = 2742,
 		dodge = 1,
+		max_hp = 71,
+		scale = 1,
 		weapon_ID = {
 			67187
 		}
@@ -17159,9 +18826,10 @@ pg.aircraft_template = {
 		name = "半人马技能鱼雷机Lv8",
 		id = 67148,
 		dodge_limit = 0,
-		max_hp = 77,
 		hp_growth = 2943,
 		dodge = 1,
+		max_hp = 77,
+		scale = 1,
 		weapon_ID = {
 			67188
 		}
@@ -17171,9 +18839,10 @@ pg.aircraft_template = {
 		name = "半人马技能鱼雷机Lv9",
 		id = 67149,
 		dodge_limit = 0,
-		max_hp = 82,
 		hp_growth = 3143,
 		dodge = 1,
+		max_hp = 82,
+		scale = 1,
 		weapon_ID = {
 			67189
 		}
@@ -17183,9 +18852,10 @@ pg.aircraft_template = {
 		name = "半人马技能鱼雷机Lv10",
 		id = 67150,
 		dodge_limit = 0,
-		max_hp = 87,
 		hp_growth = 3344,
 		dodge = 1,
+		max_hp = 87,
+		scale = 1,
 		weapon_ID = {
 			67190
 		}
@@ -17198,9 +18868,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 306,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "jianyu",
 		funnel_behavior = "",
@@ -17208,6 +18878,7 @@ pg.aircraft_template = {
 		hp_growth = 1338,
 		speed = 45,
 		id = 67160,
+		scale = 1,
 		weapon_ID = {
 			67200
 		},
@@ -17268,9 +18939,10 @@ pg.aircraft_template = {
 		name = "半人马技能鱼雷机Lv1",
 		id = 67161,
 		dodge_limit = 0,
-		max_hp = 40,
 		hp_growth = 1538,
 		dodge = 1,
+		max_hp = 40,
+		scale = 1,
 		weapon_ID = {
 			67201
 		}
@@ -17280,9 +18952,10 @@ pg.aircraft_template = {
 		name = "半人马技能鱼雷机Lv2",
 		id = 67162,
 		dodge_limit = 0,
-		max_hp = 45,
 		hp_growth = 1739,
 		dodge = 1,
+		max_hp = 45,
+		scale = 1,
 		weapon_ID = {
 			67202
 		}
@@ -17292,9 +18965,10 @@ pg.aircraft_template = {
 		name = "半人马技能鱼雷机Lv3",
 		id = 67163,
 		dodge_limit = 0,
-		max_hp = 50,
 		hp_growth = 1940,
 		dodge = 1,
+		max_hp = 50,
+		scale = 1,
 		weapon_ID = {
 			67203
 		}
@@ -17304,9 +18978,10 @@ pg.aircraft_template = {
 		name = "半人马技能鱼雷机Lv4",
 		id = 67164,
 		dodge_limit = 0,
-		max_hp = 56,
 		hp_growth = 2140,
 		dodge = 1,
+		max_hp = 56,
+		scale = 1,
 		weapon_ID = {
 			67204
 		}
@@ -17316,9 +18991,10 @@ pg.aircraft_template = {
 		name = "半人马技能鱼雷机Lv5",
 		id = 67165,
 		dodge_limit = 0,
-		max_hp = 61,
 		hp_growth = 2341,
 		dodge = 1,
+		max_hp = 61,
+		scale = 1,
 		weapon_ID = {
 			67205
 		}
@@ -17328,9 +19004,10 @@ pg.aircraft_template = {
 		name = "半人马技能鱼雷机Lv6",
 		id = 67166,
 		dodge_limit = 0,
-		max_hp = 66,
 		hp_growth = 2541,
 		dodge = 1,
+		max_hp = 66,
+		scale = 1,
 		weapon_ID = {
 			67206
 		}
@@ -17340,9 +19017,10 @@ pg.aircraft_template = {
 		name = "半人马技能鱼雷机Lv7",
 		id = 67167,
 		dodge_limit = 0,
-		max_hp = 71,
 		hp_growth = 2742,
 		dodge = 1,
+		max_hp = 71,
+		scale = 1,
 		weapon_ID = {
 			67207
 		}
@@ -17352,9 +19030,10 @@ pg.aircraft_template = {
 		name = "半人马技能鱼雷机Lv8",
 		id = 67168,
 		dodge_limit = 0,
-		max_hp = 77,
 		hp_growth = 2943,
 		dodge = 1,
+		max_hp = 77,
+		scale = 1,
 		weapon_ID = {
 			67208
 		}
@@ -17364,9 +19043,10 @@ pg.aircraft_template = {
 		name = "半人马技能鱼雷机Lv9",
 		id = 67169,
 		dodge_limit = 0,
-		max_hp = 82,
 		hp_growth = 3143,
 		dodge = 1,
+		max_hp = 82,
+		scale = 1,
 		weapon_ID = {
 			67209
 		}
@@ -17376,9 +19056,10 @@ pg.aircraft_template = {
 		name = "半人马技能鱼雷机Lv10",
 		id = 67170,
 		dodge_limit = 0,
-		max_hp = 87,
 		hp_growth = 3344,
 		dodge = 1,
+		max_hp = 87,
+		scale = 1,
 		weapon_ID = {
 			67210
 		}
@@ -17391,9 +19072,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 208,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "huixing",
 		funnel_behavior = "",
@@ -17401,6 +19082,7 @@ pg.aircraft_template = {
 		hp_growth = 1605,
 		speed = 48,
 		id = 67240,
+		scale = 1,
 		weapon_ID = {
 			67260,
 			67280
@@ -17462,9 +19144,10 @@ pg.aircraft_template = {
 		name = "伊势技能轰炸机Lv1",
 		id = 67241,
 		dodge_limit = 0,
-		max_hp = 48,
 		hp_growth = 1846,
 		dodge = 1,
+		max_hp = 48,
+		scale = 1,
 		weapon_ID = {
 			67261,
 			67281
@@ -17475,9 +19158,10 @@ pg.aircraft_template = {
 		name = "伊势技能轰炸机Lv2",
 		id = 67242,
 		dodge_limit = 0,
-		max_hp = 54,
 		hp_growth = 2087,
 		dodge = 1,
+		max_hp = 54,
+		scale = 1,
 		weapon_ID = {
 			67262,
 			67282
@@ -17488,9 +19172,10 @@ pg.aircraft_template = {
 		name = "伊势技能轰炸机Lv3",
 		id = 67243,
 		dodge_limit = 0,
-		max_hp = 61,
 		hp_growth = 2327,
 		dodge = 1,
+		max_hp = 61,
+		scale = 1,
 		weapon_ID = {
 			67263,
 			67283
@@ -17501,9 +19186,10 @@ pg.aircraft_template = {
 		name = "伊势技能轰炸机Lv4",
 		id = 67244,
 		dodge_limit = 0,
-		max_hp = 67,
 		hp_growth = 2568,
 		dodge = 1,
+		max_hp = 67,
+		scale = 1,
 		weapon_ID = {
 			67264,
 			67284
@@ -17514,9 +19200,10 @@ pg.aircraft_template = {
 		name = "伊势技能轰炸机Lv5",
 		id = 67245,
 		dodge_limit = 0,
-		max_hp = 73,
 		hp_growth = 2809,
 		dodge = 1,
+		max_hp = 73,
+		scale = 1,
 		weapon_ID = {
 			67265,
 			67285
@@ -17527,9 +19214,10 @@ pg.aircraft_template = {
 		name = "伊势技能轰炸机Lv6",
 		id = 67246,
 		dodge_limit = 0,
-		max_hp = 79,
 		hp_growth = 3050,
 		dodge = 1,
+		max_hp = 79,
+		scale = 1,
 		weapon_ID = {
 			67266,
 			67286
@@ -17540,9 +19228,10 @@ pg.aircraft_template = {
 		name = "伊势技能轰炸机Lv7",
 		id = 67247,
 		dodge_limit = 0,
-		max_hp = 86,
 		hp_growth = 3290,
 		dodge = 1,
+		max_hp = 86,
+		scale = 1,
 		weapon_ID = {
 			67267,
 			67287
@@ -17553,9 +19242,10 @@ pg.aircraft_template = {
 		name = "伊势技能轰炸机Lv8",
 		id = 67248,
 		dodge_limit = 0,
-		max_hp = 92,
 		hp_growth = 3531,
 		dodge = 1,
+		max_hp = 92,
+		scale = 1,
 		weapon_ID = {
 			67268,
 			67288
@@ -17566,9 +19256,10 @@ pg.aircraft_template = {
 		name = "伊势技能轰炸机Lv9",
 		id = 67249,
 		dodge_limit = 0,
-		max_hp = 98,
 		hp_growth = 3772,
 		dodge = 1,
+		max_hp = 98,
+		scale = 1,
 		weapon_ID = {
 			67269,
 			67289
@@ -17579,9 +19270,10 @@ pg.aircraft_template = {
 		name = "伊势技能轰炸机Lv10",
 		id = 67250,
 		dodge_limit = 0,
-		max_hp = 104,
 		hp_growth = 4013,
 		dodge = 1,
+		max_hp = 104,
+		scale = 1,
 		weapon_ID = {
 			67270,
 			67290
@@ -17595,9 +19287,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 208,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "huixing",
 		funnel_behavior = "",
@@ -17605,6 +19297,7 @@ pg.aircraft_template = {
 		hp_growth = 1605,
 		speed = 60,
 		id = 67300,
+		scale = 1,
 		weapon_ID = {
 			67380
 		},
@@ -17665,9 +19358,10 @@ pg.aircraft_template = {
 		name = "大凤技能轰炸机Lv1",
 		id = 67301,
 		dodge_limit = 0,
-		max_hp = 48,
 		hp_growth = 1846,
 		dodge = 1,
+		max_hp = 48,
+		scale = 1,
 		weapon_ID = {
 			67381
 		}
@@ -17677,9 +19371,10 @@ pg.aircraft_template = {
 		name = "大凤技能轰炸机Lv2",
 		id = 67302,
 		dodge_limit = 0,
-		max_hp = 54,
 		hp_growth = 2087,
 		dodge = 1,
+		max_hp = 54,
+		scale = 1,
 		weapon_ID = {
 			67382
 		}
@@ -17689,9 +19384,10 @@ pg.aircraft_template = {
 		name = "大凤技能轰炸机Lv3",
 		id = 67303,
 		dodge_limit = 0,
-		max_hp = 61,
 		hp_growth = 2327,
 		dodge = 1,
+		max_hp = 61,
+		scale = 1,
 		weapon_ID = {
 			67383
 		}
@@ -17701,9 +19397,10 @@ pg.aircraft_template = {
 		name = "大凤技能轰炸机Lv4",
 		id = 67304,
 		dodge_limit = 0,
-		max_hp = 67,
 		hp_growth = 2568,
 		dodge = 1,
+		max_hp = 67,
+		scale = 1,
 		weapon_ID = {
 			67384
 		}
@@ -17713,9 +19410,10 @@ pg.aircraft_template = {
 		name = "大凤技能轰炸机Lv5",
 		id = 67305,
 		dodge_limit = 0,
-		max_hp = 73,
 		hp_growth = 2809,
 		dodge = 1,
+		max_hp = 73,
+		scale = 1,
 		weapon_ID = {
 			67385
 		}
@@ -17725,9 +19423,10 @@ pg.aircraft_template = {
 		name = "大凤技能轰炸机Lv6",
 		id = 67306,
 		dodge_limit = 0,
-		max_hp = 79,
 		hp_growth = 3050,
 		dodge = 1,
+		max_hp = 79,
+		scale = 1,
 		weapon_ID = {
 			67386
 		}
@@ -17737,9 +19436,10 @@ pg.aircraft_template = {
 		name = "大凤技能轰炸机Lv7",
 		id = 67307,
 		dodge_limit = 0,
-		max_hp = 86,
 		hp_growth = 3290,
 		dodge = 1,
+		max_hp = 86,
+		scale = 1,
 		weapon_ID = {
 			67387
 		}
@@ -17749,9 +19449,10 @@ pg.aircraft_template = {
 		name = "大凤技能轰炸机Lv8",
 		id = 67308,
 		dodge_limit = 0,
-		max_hp = 92,
 		hp_growth = 3531,
 		dodge = 1,
+		max_hp = 92,
+		scale = 1,
 		weapon_ID = {
 			67388
 		}
@@ -17761,9 +19462,10 @@ pg.aircraft_template = {
 		name = "大凤技能轰炸机Lv9",
 		id = 67309,
 		dodge_limit = 0,
-		max_hp = 98,
 		hp_growth = 3772,
 		dodge = 1,
+		max_hp = 98,
+		scale = 1,
 		weapon_ID = {
 			67389
 		}
@@ -17773,9 +19475,10 @@ pg.aircraft_template = {
 		name = "大凤技能轰炸机Lv10",
 		id = 67310,
 		dodge_limit = 0,
-		max_hp = 104,
 		hp_growth = 4013,
 		dodge = 1,
+		max_hp = 104,
+		scale = 1,
 		weapon_ID = {
 			67390
 		}
@@ -17788,9 +19491,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 188,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "liuxing",
 		funnel_behavior = "",
@@ -17798,6 +19501,7 @@ pg.aircraft_template = {
 		hp_growth = 1605,
 		speed = 52,
 		id = 67320,
+		scale = 1,
 		weapon_ID = {
 			67400
 		},
@@ -17858,9 +19562,10 @@ pg.aircraft_template = {
 		name = "大凤技能鱼雷机Lv1",
 		id = 67321,
 		dodge_limit = 0,
-		max_hp = 48,
 		hp_growth = 1846,
 		dodge = 1,
+		max_hp = 48,
+		scale = 1,
 		weapon_ID = {
 			67401
 		}
@@ -17870,9 +19575,10 @@ pg.aircraft_template = {
 		name = "大凤技能鱼雷机Lv2",
 		id = 67322,
 		dodge_limit = 0,
-		max_hp = 54,
 		hp_growth = 2087,
 		dodge = 1,
+		max_hp = 54,
+		scale = 1,
 		weapon_ID = {
 			67402
 		}
@@ -17882,9 +19588,10 @@ pg.aircraft_template = {
 		name = "大凤技能鱼雷机Lv3",
 		id = 67323,
 		dodge_limit = 0,
-		max_hp = 61,
 		hp_growth = 2327,
 		dodge = 1,
+		max_hp = 61,
+		scale = 1,
 		weapon_ID = {
 			67403
 		}
@@ -17894,9 +19601,10 @@ pg.aircraft_template = {
 		name = "大凤技能鱼雷机Lv4",
 		id = 67324,
 		dodge_limit = 0,
-		max_hp = 67,
 		hp_growth = 2568,
 		dodge = 1,
+		max_hp = 67,
+		scale = 1,
 		weapon_ID = {
 			67404
 		}
@@ -17906,9 +19614,10 @@ pg.aircraft_template = {
 		name = "大凤技能鱼雷机Lv5",
 		id = 67325,
 		dodge_limit = 0,
-		max_hp = 73,
 		hp_growth = 2809,
 		dodge = 1,
+		max_hp = 73,
+		scale = 1,
 		weapon_ID = {
 			67405
 		}
@@ -17918,9 +19627,10 @@ pg.aircraft_template = {
 		name = "大凤技能鱼雷机Lv6",
 		id = 67326,
 		dodge_limit = 0,
-		max_hp = 79,
 		hp_growth = 3050,
 		dodge = 1,
+		max_hp = 79,
+		scale = 1,
 		weapon_ID = {
 			67406
 		}
@@ -17930,9 +19640,10 @@ pg.aircraft_template = {
 		name = "大凤技能鱼雷机Lv7",
 		id = 67327,
 		dodge_limit = 0,
-		max_hp = 86,
 		hp_growth = 3290,
 		dodge = 1,
+		max_hp = 86,
+		scale = 1,
 		weapon_ID = {
 			67407
 		}
@@ -17942,9 +19653,10 @@ pg.aircraft_template = {
 		name = "大凤技能鱼雷机Lv8",
 		id = 67328,
 		dodge_limit = 0,
-		max_hp = 92,
 		hp_growth = 3531,
 		dodge = 1,
+		max_hp = 92,
+		scale = 1,
 		weapon_ID = {
 			67408
 		}
@@ -17954,9 +19666,10 @@ pg.aircraft_template = {
 		name = "大凤技能鱼雷机Lv9",
 		id = 67329,
 		dodge_limit = 0,
-		max_hp = 98,
 		hp_growth = 3772,
 		dodge = 1,
+		max_hp = 98,
+		scale = 1,
 		weapon_ID = {
 			67409
 		}
@@ -17966,9 +19679,10 @@ pg.aircraft_template = {
 		name = "大凤技能鱼雷机Lv10",
 		id = 67330,
 		dodge_limit = 0,
-		max_hp = 104,
 		hp_growth = 4013,
 		dodge = 1,
+		max_hp = 104,
+		scale = 1,
 		weapon_ID = {
 			67410
 		}
@@ -17981,9 +19695,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 406,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "tbf",
 		funnel_behavior = "",
@@ -17991,6 +19705,7 @@ pg.aircraft_template = {
 		hp_growth = 1404,
 		speed = 48,
 		id = 67340,
+		scale = 1,
 		weapon_ID = {
 			67440
 		},
@@ -18051,9 +19766,10 @@ pg.aircraft_template = {
 		name = "埃塞克斯技能鱼雷机Lv1",
 		id = 67341,
 		dodge_limit = 0,
-		max_hp = 42,
 		hp_growth = 1615,
 		dodge = 1,
+		max_hp = 42,
+		scale = 1,
 		weapon_ID = {
 			67441
 		}
@@ -18063,9 +19779,10 @@ pg.aircraft_template = {
 		name = "埃塞克斯技能鱼雷机Lv2",
 		id = 67342,
 		dodge_limit = 0,
-		max_hp = 47,
 		hp_growth = 1826,
 		dodge = 1,
+		max_hp = 47,
+		scale = 1,
 		weapon_ID = {
 			67442
 		}
@@ -18075,9 +19792,10 @@ pg.aircraft_template = {
 		name = "埃塞克斯技能鱼雷机Lv3",
 		id = 67343,
 		dodge_limit = 0,
-		max_hp = 53,
 		hp_growth = 2036,
 		dodge = 1,
+		max_hp = 53,
+		scale = 1,
 		weapon_ID = {
 			67443
 		}
@@ -18087,9 +19805,10 @@ pg.aircraft_template = {
 		name = "埃塞克斯技能鱼雷机Lv4",
 		id = 67344,
 		dodge_limit = 0,
-		max_hp = 58,
 		hp_growth = 2247,
 		dodge = 1,
+		max_hp = 58,
+		scale = 1,
 		weapon_ID = {
 			67444
 		}
@@ -18099,9 +19818,10 @@ pg.aircraft_template = {
 		name = "埃塞克斯技能鱼雷机Lv5",
 		id = 67345,
 		dodge_limit = 0,
-		max_hp = 64,
 		hp_growth = 2458,
 		dodge = 1,
+		max_hp = 64,
+		scale = 1,
 		weapon_ID = {
 			67445
 		}
@@ -18111,9 +19831,10 @@ pg.aircraft_template = {
 		name = "埃塞克斯技能鱼雷机Lv6",
 		id = 67346,
 		dodge_limit = 0,
-		max_hp = 69,
 		hp_growth = 2669,
 		dodge = 1,
+		max_hp = 69,
+		scale = 1,
 		weapon_ID = {
 			67446
 		}
@@ -18123,9 +19844,10 @@ pg.aircraft_template = {
 		name = "埃塞克斯技能鱼雷机Lv7",
 		id = 67347,
 		dodge_limit = 0,
-		max_hp = 75,
 		hp_growth = 2879,
 		dodge = 1,
+		max_hp = 75,
+		scale = 1,
 		weapon_ID = {
 			67447
 		}
@@ -18135,9 +19857,10 @@ pg.aircraft_template = {
 		name = "埃塞克斯技能鱼雷机Lv8",
 		id = 67348,
 		dodge_limit = 0,
-		max_hp = 80,
 		hp_growth = 3090,
 		dodge = 1,
+		max_hp = 80,
+		scale = 1,
 		weapon_ID = {
 			67448
 		}
@@ -18147,9 +19870,10 @@ pg.aircraft_template = {
 		name = "埃塞克斯技能鱼雷机Lv9",
 		id = 67349,
 		dodge_limit = 0,
-		max_hp = 86,
 		hp_growth = 3301,
 		dodge = 1,
+		max_hp = 86,
+		scale = 1,
 		weapon_ID = {
 			67449
 		}
@@ -18159,9 +19883,10 @@ pg.aircraft_template = {
 		name = "埃塞克斯技能鱼雷机Lv10",
 		id = 67350,
 		dodge_limit = 0,
-		max_hp = 91,
 		hp_growth = 3511,
 		dodge = 1,
+		max_hp = 91,
+		scale = 1,
 		weapon_ID = {
 			67450
 		}
@@ -18174,9 +19899,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 208,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "huixing",
 		funnel_behavior = "",
@@ -18184,6 +19909,7 @@ pg.aircraft_template = {
 		hp_growth = 1605,
 		speed = 60,
 		id = 67360,
+		scale = 1,
 		weapon_ID = {},
 		position_offset = {
 			0,
@@ -18242,9 +19968,10 @@ pg.aircraft_template = {
 		name = "大凤技能轰炸机Lv1",
 		id = 67361,
 		dodge_limit = 0,
-		max_hp = 48,
 		hp_growth = 1846,
 		dodge = 1,
+		max_hp = 48,
+		scale = 1,
 		weapon_ID = {}
 	},
 	[67362] = {
@@ -18252,9 +19979,10 @@ pg.aircraft_template = {
 		name = "大凤技能轰炸机Lv2",
 		id = 67362,
 		dodge_limit = 0,
-		max_hp = 54,
 		hp_growth = 2087,
 		dodge = 1,
+		max_hp = 54,
+		scale = 1,
 		weapon_ID = {}
 	},
 	[67363] = {
@@ -18262,9 +19990,10 @@ pg.aircraft_template = {
 		name = "大凤技能轰炸机Lv3",
 		id = 67363,
 		dodge_limit = 0,
-		max_hp = 61,
 		hp_growth = 2327,
 		dodge = 1,
+		max_hp = 61,
+		scale = 1,
 		weapon_ID = {}
 	},
 	[67364] = {
@@ -18272,9 +20001,10 @@ pg.aircraft_template = {
 		name = "大凤技能轰炸机Lv4",
 		id = 67364,
 		dodge_limit = 0,
-		max_hp = 67,
 		hp_growth = 2568,
 		dodge = 1,
+		max_hp = 67,
+		scale = 1,
 		weapon_ID = {}
 	},
 	[67365] = {
@@ -18282,9 +20012,10 @@ pg.aircraft_template = {
 		name = "大凤技能轰炸机Lv5",
 		id = 67365,
 		dodge_limit = 0,
-		max_hp = 73,
 		hp_growth = 2809,
 		dodge = 1,
+		max_hp = 73,
+		scale = 1,
 		weapon_ID = {}
 	},
 	[67366] = {
@@ -18292,9 +20023,10 @@ pg.aircraft_template = {
 		name = "大凤技能轰炸机Lv6",
 		id = 67366,
 		dodge_limit = 0,
-		max_hp = 79,
 		hp_growth = 3050,
 		dodge = 1,
+		max_hp = 79,
+		scale = 1,
 		weapon_ID = {}
 	},
 	[67367] = {
@@ -18302,9 +20034,10 @@ pg.aircraft_template = {
 		name = "大凤技能轰炸机Lv7",
 		id = 67367,
 		dodge_limit = 0,
-		max_hp = 86,
 		hp_growth = 3290,
 		dodge = 1,
+		max_hp = 86,
+		scale = 1,
 		weapon_ID = {}
 	},
 	[67368] = {
@@ -18312,9 +20045,10 @@ pg.aircraft_template = {
 		name = "大凤技能轰炸机Lv8",
 		id = 67368,
 		dodge_limit = 0,
-		max_hp = 92,
 		hp_growth = 3531,
 		dodge = 1,
+		max_hp = 92,
+		scale = 1,
 		weapon_ID = {}
 	},
 	[67369] = {
@@ -18322,9 +20056,10 @@ pg.aircraft_template = {
 		name = "大凤技能轰炸机Lv9",
 		id = 67369,
 		dodge_limit = 0,
-		max_hp = 98,
 		hp_growth = 3772,
 		dodge = 1,
+		max_hp = 98,
+		scale = 1,
 		weapon_ID = {}
 	},
 	[67370] = {
@@ -18332,9 +20067,10 @@ pg.aircraft_template = {
 		name = "大凤技能轰炸机Lv10",
 		id = 67370,
 		dodge_limit = 0,
-		max_hp = 104,
 		hp_growth = 4013,
 		dodge = 1,
+		max_hp = 104,
+		scale = 1,
 		weapon_ID = {}
 	},
 	[67500] = {
@@ -18345,9 +20081,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 156,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "sbdwuwei",
 		funnel_behavior = "",
@@ -18355,6 +20091,7 @@ pg.aircraft_template = {
 		hp_growth = 1183,
 		speed = 46,
 		id = 67500,
+		scale = 1,
 		weapon_ID = {
 			67520,
 			67540
@@ -18412,6 +20149,7 @@ pg.aircraft_template = {
 		}
 	},
 	[67501] = {
+		scale = 1,
 		base = 67500,
 		id = 67501,
 		dodge_limit = 0,
@@ -18424,6 +20162,7 @@ pg.aircraft_template = {
 		}
 	},
 	[67502] = {
+		scale = 1,
 		base = 67500,
 		id = 67502,
 		dodge_limit = 0,
@@ -18436,6 +20175,7 @@ pg.aircraft_template = {
 		}
 	},
 	[67503] = {
+		scale = 1,
 		base = 67500,
 		id = 67503,
 		dodge_limit = 0,
@@ -18448,6 +20188,7 @@ pg.aircraft_template = {
 		}
 	},
 	[67504] = {
+		scale = 1,
 		base = 67500,
 		id = 67504,
 		dodge_limit = 0,
@@ -18460,6 +20201,7 @@ pg.aircraft_template = {
 		}
 	},
 	[67505] = {
+		scale = 1,
 		base = 67500,
 		id = 67505,
 		dodge_limit = 0,
@@ -18472,6 +20214,7 @@ pg.aircraft_template = {
 		}
 	},
 	[67506] = {
+		scale = 1,
 		base = 67500,
 		id = 67506,
 		dodge_limit = 0,
@@ -18484,6 +20227,7 @@ pg.aircraft_template = {
 		}
 	},
 	[67507] = {
+		scale = 1,
 		base = 67500,
 		id = 67507,
 		dodge_limit = 0,
@@ -18496,6 +20240,7 @@ pg.aircraft_template = {
 		}
 	},
 	[67508] = {
+		scale = 1,
 		base = 67500,
 		id = 67508,
 		dodge_limit = 0,
@@ -18508,6 +20253,7 @@ pg.aircraft_template = {
 		}
 	},
 	[67509] = {
+		scale = 1,
 		base = 67500,
 		id = 67509,
 		dodge_limit = 0,
@@ -18520,6 +20266,7 @@ pg.aircraft_template = {
 		}
 	},
 	[67510] = {
+		scale = 1,
 		base = 67500,
 		id = 67510,
 		dodge_limit = 0,
@@ -18539,9 +20286,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 208,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "huixing",
 		funnel_behavior = "",
@@ -18549,6 +20296,7 @@ pg.aircraft_template = {
 		hp_growth = 1846,
 		speed = 48,
 		id = 67681,
+		scale = 1,
 		weapon_ID = {
 			67691,
 			67701
@@ -18610,9 +20358,10 @@ pg.aircraft_template = {
 		name = "龙骧技能轰炸机Lv2",
 		id = 67682,
 		dodge_limit = 0,
-		max_hp = 48,
 		hp_growth = 2087,
 		dodge = 1,
+		max_hp = 48,
+		scale = 1,
 		weapon_ID = {
 			67692,
 			67702
@@ -18623,9 +20372,10 @@ pg.aircraft_template = {
 		name = "龙骧技能轰炸机Lv3",
 		id = 67683,
 		dodge_limit = 0,
-		max_hp = 54,
 		hp_growth = 2327,
 		dodge = 1,
+		max_hp = 54,
+		scale = 1,
 		weapon_ID = {
 			67693,
 			67703
@@ -18636,9 +20386,10 @@ pg.aircraft_template = {
 		name = "龙骧技能轰炸机Lv4",
 		id = 67684,
 		dodge_limit = 0,
-		max_hp = 61,
 		hp_growth = 2568,
 		dodge = 1,
+		max_hp = 61,
+		scale = 1,
 		weapon_ID = {
 			67694,
 			67704
@@ -18649,9 +20400,10 @@ pg.aircraft_template = {
 		name = "龙骧技能轰炸机Lv5",
 		id = 67685,
 		dodge_limit = 0,
-		max_hp = 67,
 		hp_growth = 2809,
 		dodge = 1,
+		max_hp = 67,
+		scale = 1,
 		weapon_ID = {
 			67695,
 			67705
@@ -18662,9 +20414,10 @@ pg.aircraft_template = {
 		name = "龙骧技能轰炸机Lv6",
 		id = 67686,
 		dodge_limit = 0,
-		max_hp = 73,
 		hp_growth = 3050,
 		dodge = 1,
+		max_hp = 73,
+		scale = 1,
 		weapon_ID = {
 			67696,
 			67706
@@ -18675,9 +20428,10 @@ pg.aircraft_template = {
 		name = "龙骧技能轰炸机Lv7",
 		id = 67687,
 		dodge_limit = 0,
-		max_hp = 79,
 		hp_growth = 3290,
 		dodge = 1,
+		max_hp = 79,
+		scale = 1,
 		weapon_ID = {
 			67697,
 			67707
@@ -18688,9 +20442,10 @@ pg.aircraft_template = {
 		name = "龙骧技能轰炸机Lv8",
 		id = 67688,
 		dodge_limit = 0,
-		max_hp = 86,
 		hp_growth = 3531,
 		dodge = 1,
+		max_hp = 86,
+		scale = 1,
 		weapon_ID = {
 			67698,
 			67708
@@ -18701,9 +20456,10 @@ pg.aircraft_template = {
 		name = "龙骧技能轰炸机Lv9",
 		id = 67689,
 		dodge_limit = 0,
-		max_hp = 92,
 		hp_growth = 3772,
 		dodge = 1,
+		max_hp = 92,
+		scale = 1,
 		weapon_ID = {
 			67699,
 			67709
@@ -18714,9 +20470,10 @@ pg.aircraft_template = {
 		name = "龙骧技能轰炸机Lv10",
 		id = 67690,
 		dodge_limit = 0,
-		max_hp = 98,
 		hp_growth = 4013,
 		dodge = 1,
+		max_hp = 98,
+		scale = 1,
 		weapon_ID = {
 			67700,
 			67710
@@ -18730,9 +20487,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 180,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -18740,6 +20497,7 @@ pg.aircraft_template = {
 		hp_growth = 1692,
 		speed = 48,
 		id = 67781,
+		scale = 1,
 		weapon_ID = {
 			67801,
 			67811
@@ -18801,9 +20559,10 @@ pg.aircraft_template = {
 		name = "双龙改轰炸5 Lv2",
 		id = 67782,
 		dodge_limit = 0,
-		max_hp = 48,
 		hp_growth = 1913,
 		dodge = 1,
+		max_hp = 48,
+		scale = 1,
 		weapon_ID = {
 			67802,
 			67812
@@ -18814,9 +20573,10 @@ pg.aircraft_template = {
 		name = "双龙改轰炸5 Lv3",
 		id = 67783,
 		dodge_limit = 0,
-		max_hp = 54,
 		hp_growth = 2133,
 		dodge = 1,
+		max_hp = 54,
+		scale = 1,
 		weapon_ID = {
 			67803,
 			67813
@@ -18827,9 +20587,10 @@ pg.aircraft_template = {
 		name = "双龙改轰炸5 Lv4",
 		id = 67784,
 		dodge_limit = 0,
-		max_hp = 61,
 		hp_growth = 2354,
 		dodge = 1,
+		max_hp = 61,
+		scale = 1,
 		weapon_ID = {
 			67804,
 			67814
@@ -18840,9 +20601,10 @@ pg.aircraft_template = {
 		name = "双龙改轰炸5 Lv5",
 		id = 67785,
 		dodge_limit = 0,
-		max_hp = 67,
 		hp_growth = 2575,
 		dodge = 1,
+		max_hp = 67,
+		scale = 1,
 		weapon_ID = {
 			67805,
 			67815
@@ -18853,9 +20615,10 @@ pg.aircraft_template = {
 		name = "双龙改轰炸5 Lv6",
 		id = 67786,
 		dodge_limit = 0,
-		max_hp = 73,
 		hp_growth = 2796,
 		dodge = 1,
+		max_hp = 73,
+		scale = 1,
 		weapon_ID = {
 			67806,
 			67816
@@ -18866,9 +20629,10 @@ pg.aircraft_template = {
 		name = "双龙改轰炸5 Lv7",
 		id = 67787,
 		dodge_limit = 0,
-		max_hp = 79,
 		hp_growth = 3016,
 		dodge = 1,
+		max_hp = 79,
+		scale = 1,
 		weapon_ID = {
 			67807,
 			67817
@@ -18879,9 +20643,10 @@ pg.aircraft_template = {
 		name = "双龙改轰炸5 Lv8",
 		id = 67788,
 		dodge_limit = 0,
-		max_hp = 86,
 		hp_growth = 3237,
 		dodge = 1,
+		max_hp = 86,
+		scale = 1,
 		weapon_ID = {
 			67808,
 			67818
@@ -18892,9 +20657,10 @@ pg.aircraft_template = {
 		name = "双龙改轰炸5 Lv9",
 		id = 67789,
 		dodge_limit = 0,
-		max_hp = 92,
 		hp_growth = 3458,
 		dodge = 1,
+		max_hp = 92,
+		scale = 1,
 		weapon_ID = {
 			67809,
 			67819
@@ -18905,9 +20671,10 @@ pg.aircraft_template = {
 		name = "双龙改轰炸5 Lv10",
 		id = 67790,
 		dodge_limit = 0,
-		max_hp = 98,
 		hp_growth = 3678,
 		dodge = 1,
+		max_hp = 98,
+		scale = 1,
 		weapon_ID = {
 			67810,
 			67820
@@ -18921,9 +20688,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 208,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -18931,6 +20698,7 @@ pg.aircraft_template = {
 		hp_growth = 1692,
 		speed = 48,
 		id = 67791,
+		scale = 1,
 		weapon_ID = {
 			67821
 		},
@@ -18991,9 +20759,10 @@ pg.aircraft_template = {
 		name = "双龙改雷1 Lv2",
 		id = 67792,
 		dodge_limit = 0,
-		max_hp = 48,
 		hp_growth = 1913,
 		dodge = 1,
+		max_hp = 48,
+		scale = 1,
 		weapon_ID = {
 			67822
 		}
@@ -19003,9 +20772,10 @@ pg.aircraft_template = {
 		name = "双龙改雷1 Lv3",
 		id = 67793,
 		dodge_limit = 0,
-		max_hp = 54,
 		hp_growth = 2133,
 		dodge = 1,
+		max_hp = 54,
+		scale = 1,
 		weapon_ID = {
 			67823
 		}
@@ -19015,9 +20785,10 @@ pg.aircraft_template = {
 		name = "双龙改雷1 Lv4",
 		id = 67794,
 		dodge_limit = 0,
-		max_hp = 61,
 		hp_growth = 2354,
 		dodge = 1,
+		max_hp = 61,
+		scale = 1,
 		weapon_ID = {
 			67824
 		}
@@ -19027,9 +20798,10 @@ pg.aircraft_template = {
 		name = "双龙改雷1 Lv5",
 		id = 67795,
 		dodge_limit = 0,
-		max_hp = 67,
 		hp_growth = 2575,
 		dodge = 1,
+		max_hp = 67,
+		scale = 1,
 		weapon_ID = {
 			67825
 		}
@@ -19039,9 +20811,10 @@ pg.aircraft_template = {
 		name = "双龙改雷1 Lv6",
 		id = 67796,
 		dodge_limit = 0,
-		max_hp = 73,
 		hp_growth = 2796,
 		dodge = 1,
+		max_hp = 73,
+		scale = 1,
 		weapon_ID = {
 			67826
 		}
@@ -19051,9 +20824,10 @@ pg.aircraft_template = {
 		name = "双龙改雷1 Lv7",
 		id = 67797,
 		dodge_limit = 0,
-		max_hp = 79,
 		hp_growth = 3016,
 		dodge = 1,
+		max_hp = 79,
+		scale = 1,
 		weapon_ID = {
 			67827
 		}
@@ -19063,9 +20837,10 @@ pg.aircraft_template = {
 		name = "双龙改雷1 Lv8",
 		id = 67798,
 		dodge_limit = 0,
-		max_hp = 86,
 		hp_growth = 3237,
 		dodge = 1,
+		max_hp = 86,
+		scale = 1,
 		weapon_ID = {
 			67828
 		}
@@ -19075,9 +20850,10 @@ pg.aircraft_template = {
 		name = "双龙改雷1 Lv9",
 		id = 67799,
 		dodge_limit = 0,
-		max_hp = 92,
 		hp_growth = 3458,
 		dodge = 1,
+		max_hp = 92,
+		scale = 1,
 		weapon_ID = {
 			67829
 		}
@@ -19087,9 +20863,10 @@ pg.aircraft_template = {
 		name = "双龙改雷1 Lv10",
 		id = 67800,
 		dodge_limit = 0,
-		max_hp = 98,
 		hp_growth = 3678,
 		dodge = 1,
+		max_hp = 98,
+		scale = 1,
 		weapon_ID = {
 			67830
 		}
@@ -19102,9 +20879,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 102,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "jianyu816",
 		funnel_behavior = "",
@@ -19112,6 +20889,7 @@ pg.aircraft_template = {
 		hp_growth = 1538,
 		speed = 45,
 		id = 67891,
+		scale = 1,
 		weapon_ID = {
 			67901,
 			67911
@@ -19173,9 +20951,10 @@ pg.aircraft_template = {
 		name = "追赶者剑鱼 Lv2",
 		id = 67892,
 		dodge_limit = 0,
-		max_hp = 45,
 		hp_growth = 1739,
 		dodge = 1,
+		max_hp = 45,
+		scale = 1,
 		weapon_ID = {
 			67902,
 			67912
@@ -19186,9 +20965,10 @@ pg.aircraft_template = {
 		name = "追赶者剑鱼 Lv3",
 		id = 67893,
 		dodge_limit = 0,
-		max_hp = 50,
 		hp_growth = 1940,
 		dodge = 1,
+		max_hp = 50,
+		scale = 1,
 		weapon_ID = {
 			67903,
 			67913
@@ -19199,9 +20979,10 @@ pg.aircraft_template = {
 		name = "追赶者剑鱼 Lv4",
 		id = 67894,
 		dodge_limit = 0,
-		max_hp = 56,
 		hp_growth = 2140,
 		dodge = 1,
+		max_hp = 56,
+		scale = 1,
 		weapon_ID = {
 			67904,
 			67914
@@ -19212,9 +20993,10 @@ pg.aircraft_template = {
 		name = "追赶者剑鱼 Lv5",
 		id = 67895,
 		dodge_limit = 0,
-		max_hp = 61,
 		hp_growth = 2341,
 		dodge = 1,
+		max_hp = 61,
+		scale = 1,
 		weapon_ID = {
 			67905,
 			67915
@@ -19225,9 +21007,10 @@ pg.aircraft_template = {
 		name = "追赶者剑鱼 Lv6",
 		id = 67896,
 		dodge_limit = 0,
-		max_hp = 66,
 		hp_growth = 2541,
 		dodge = 1,
+		max_hp = 66,
+		scale = 1,
 		weapon_ID = {
 			67906,
 			67916
@@ -19238,9 +21021,10 @@ pg.aircraft_template = {
 		name = "追赶者剑鱼 Lv7",
 		id = 67897,
 		dodge_limit = 0,
-		max_hp = 71,
 		hp_growth = 2742,
 		dodge = 1,
+		max_hp = 71,
+		scale = 1,
 		weapon_ID = {
 			67907,
 			67917
@@ -19251,9 +21035,10 @@ pg.aircraft_template = {
 		name = "追赶者剑鱼 Lv8",
 		id = 67898,
 		dodge_limit = 0,
-		max_hp = 77,
 		hp_growth = 2943,
 		dodge = 1,
+		max_hp = 77,
+		scale = 1,
 		weapon_ID = {
 			67908,
 			67918
@@ -19264,9 +21049,10 @@ pg.aircraft_template = {
 		name = "追赶者剑鱼 Lv9",
 		id = 67899,
 		dodge_limit = 0,
-		max_hp = 82,
 		hp_growth = 3143,
 		dodge = 1,
+		max_hp = 82,
+		scale = 1,
 		weapon_ID = {
 			67909,
 			67919
@@ -19277,9 +21063,10 @@ pg.aircraft_template = {
 		name = "追赶者剑鱼 Lv10",
 		id = 67900,
 		dodge_limit = 0,
-		max_hp = 87,
 		hp_growth = 3344,
 		dodge = 1,
+		max_hp = 87,
+		scale = 1,
 		weapon_ID = {
 			67910,
 			67920
@@ -19293,9 +21080,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 406,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "tbf",
 		funnel_behavior = "",
@@ -19303,6 +21090,7 @@ pg.aircraft_template = {
 		hp_growth = 1615,
 		speed = 48,
 		id = 67921,
+		scale = 1,
 		weapon_ID = {
 			67941
 		},
@@ -19363,9 +21151,10 @@ pg.aircraft_template = {
 		name = "独立技能鱼雷机Lv2",
 		id = 67922,
 		dodge_limit = 0,
-		max_hp = 47,
 		hp_growth = 1826,
 		dodge = 1,
+		max_hp = 47,
+		scale = 1,
 		weapon_ID = {
 			67942
 		}
@@ -19375,9 +21164,10 @@ pg.aircraft_template = {
 		name = "独立技能鱼雷机Lv3",
 		id = 67923,
 		dodge_limit = 0,
-		max_hp = 53,
 		hp_growth = 2036,
 		dodge = 1,
+		max_hp = 53,
+		scale = 1,
 		weapon_ID = {
 			67943
 		}
@@ -19387,9 +21177,10 @@ pg.aircraft_template = {
 		name = "独立技能鱼雷机Lv4",
 		id = 67924,
 		dodge_limit = 0,
-		max_hp = 58,
 		hp_growth = 2247,
 		dodge = 1,
+		max_hp = 58,
+		scale = 1,
 		weapon_ID = {
 			67944
 		}
@@ -19399,9 +21190,10 @@ pg.aircraft_template = {
 		name = "独立技能鱼雷机Lv5",
 		id = 67925,
 		dodge_limit = 0,
-		max_hp = 64,
 		hp_growth = 2458,
 		dodge = 1,
+		max_hp = 64,
+		scale = 1,
 		weapon_ID = {
 			67945
 		}
@@ -19411,9 +21203,10 @@ pg.aircraft_template = {
 		name = "独立技能鱼雷机Lv6",
 		id = 67926,
 		dodge_limit = 0,
-		max_hp = 69,
 		hp_growth = 2669,
 		dodge = 1,
+		max_hp = 69,
+		scale = 1,
 		weapon_ID = {
 			67946
 		}
@@ -19423,9 +21216,10 @@ pg.aircraft_template = {
 		name = "独立技能鱼雷机Lv7",
 		id = 67927,
 		dodge_limit = 0,
-		max_hp = 75,
 		hp_growth = 2879,
 		dodge = 1,
+		max_hp = 75,
+		scale = 1,
 		weapon_ID = {
 			67947
 		}
@@ -19435,9 +21229,10 @@ pg.aircraft_template = {
 		name = "独立技能鱼雷机Lv8",
 		id = 67928,
 		dodge_limit = 0,
-		max_hp = 80,
 		hp_growth = 3090,
 		dodge = 1,
+		max_hp = 80,
+		scale = 1,
 		weapon_ID = {
 			67948
 		}
@@ -19447,9 +21242,10 @@ pg.aircraft_template = {
 		name = "独立技能鱼雷机Lv9",
 		id = 67929,
 		dodge_limit = 0,
-		max_hp = 86,
 		hp_growth = 3301,
 		dodge = 1,
+		max_hp = 86,
+		scale = 1,
 		weapon_ID = {
 			67949
 		}
@@ -19459,9 +21255,10 @@ pg.aircraft_template = {
 		name = "独立技能鱼雷机Lv10",
 		id = 67930,
 		dodge_limit = 0,
-		max_hp = 91,
 		hp_growth = 3511,
 		dodge = 1,
+		max_hp = 91,
+		scale = 1,
 		weapon_ID = {
 			67950
 		}
@@ -19474,9 +21271,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 406,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "tbf",
 		funnel_behavior = "",
@@ -19484,6 +21281,7 @@ pg.aircraft_template = {
 		hp_growth = 1615,
 		speed = 48,
 		id = 67931,
+		scale = 1,
 		weapon_ID = {
 			67951
 		},
@@ -19544,9 +21342,10 @@ pg.aircraft_template = {
 		name = "独立技能鱼雷机Lv2",
 		id = 67932,
 		dodge_limit = 0,
-		max_hp = 47,
 		hp_growth = 1826,
 		dodge = 1,
+		max_hp = 47,
+		scale = 1,
 		weapon_ID = {
 			67952
 		}
@@ -19556,9 +21355,10 @@ pg.aircraft_template = {
 		name = "独立技能鱼雷机Lv3",
 		id = 67933,
 		dodge_limit = 0,
-		max_hp = 53,
 		hp_growth = 2036,
 		dodge = 1,
+		max_hp = 53,
+		scale = 1,
 		weapon_ID = {
 			67953
 		}
@@ -19568,9 +21368,10 @@ pg.aircraft_template = {
 		name = "独立技能鱼雷机Lv4",
 		id = 67934,
 		dodge_limit = 0,
-		max_hp = 58,
 		hp_growth = 2247,
 		dodge = 1,
+		max_hp = 58,
+		scale = 1,
 		weapon_ID = {
 			67954
 		}
@@ -19580,9 +21381,10 @@ pg.aircraft_template = {
 		name = "独立技能鱼雷机Lv5",
 		id = 67935,
 		dodge_limit = 0,
-		max_hp = 64,
 		hp_growth = 2458,
 		dodge = 1,
+		max_hp = 64,
+		scale = 1,
 		weapon_ID = {
 			67955
 		}
@@ -19592,9 +21394,10 @@ pg.aircraft_template = {
 		name = "独立技能鱼雷机Lv6",
 		id = 67936,
 		dodge_limit = 0,
-		max_hp = 69,
 		hp_growth = 2669,
 		dodge = 1,
+		max_hp = 69,
+		scale = 1,
 		weapon_ID = {
 			67956
 		}
@@ -19604,9 +21407,10 @@ pg.aircraft_template = {
 		name = "独立技能鱼雷机Lv7",
 		id = 67937,
 		dodge_limit = 0,
-		max_hp = 75,
 		hp_growth = 2879,
 		dodge = 1,
+		max_hp = 75,
+		scale = 1,
 		weapon_ID = {
 			67957
 		}
@@ -19616,9 +21420,10 @@ pg.aircraft_template = {
 		name = "独立技能鱼雷机Lv8",
 		id = 67938,
 		dodge_limit = 0,
-		max_hp = 80,
 		hp_growth = 3090,
 		dodge = 1,
+		max_hp = 80,
+		scale = 1,
 		weapon_ID = {
 			67958
 		}
@@ -19628,9 +21433,10 @@ pg.aircraft_template = {
 		name = "独立技能鱼雷机Lv9",
 		id = 67939,
 		dodge_limit = 0,
-		max_hp = 86,
 		hp_growth = 3301,
 		dodge = 1,
+		max_hp = 86,
+		scale = 1,
 		weapon_ID = {
 			67959
 		}
@@ -19640,9 +21446,10 @@ pg.aircraft_template = {
 		name = "独立技能鱼雷机Lv10",
 		id = 67940,
 		dodge_limit = 0,
-		max_hp = 91,
 		hp_growth = 3511,
 		dodge = 1,
+		max_hp = 91,
+		scale = 1,
 		weapon_ID = {
 			67960
 		}
@@ -19655,15 +21462,16 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 406,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "F6F",
 		nationality = 1,
 		hp_growth = 2282,
 		speed = 48,
 		id = 67981,
+		scale = 1,
 		funnel_behavior = {
 			offsetX = 22,
 			hover_range = 18,
@@ -19730,16 +21538,17 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 406,
 		dodge = 1,
-		type = 1,
-		max_hp = 69,
-		dodge_limit = 0,
 		nationality = 1,
+		type = 1,
+		dodge_limit = 0,
+		max_hp = 69,
 		icon = "F6F",
 		AP_growth = 2000,
 		base = 67981,
 		hp_growth = 2282,
 		speed = 48,
 		id = 67982,
+		scale = 1,
 		funnel_behavior = {
 			offsetX = 4,
 			hover_range = 18,
@@ -19806,9 +21615,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 406,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "tbf",
 		funnel_behavior = "",
@@ -19816,6 +21625,7 @@ pg.aircraft_template = {
 		hp_growth = 1404,
 		speed = 48,
 		id = 68001,
+		scale = 1,
 		weapon_ID = {
 			68011
 		},
@@ -19876,9 +21686,10 @@ pg.aircraft_template = {
 		name = "邦克山技能鱼雷机Lv2",
 		id = 68002,
 		dodge_limit = 0,
-		max_hp = 42,
 		hp_growth = 1615,
 		dodge = 1,
+		max_hp = 42,
+		scale = 1,
 		weapon_ID = {
 			68012
 		}
@@ -19888,9 +21699,10 @@ pg.aircraft_template = {
 		name = "邦克山技能鱼雷机Lv3",
 		id = 68003,
 		dodge_limit = 0,
-		max_hp = 47,
 		hp_growth = 1826,
 		dodge = 1,
+		max_hp = 47,
+		scale = 1,
 		weapon_ID = {
 			68013
 		}
@@ -19900,9 +21712,10 @@ pg.aircraft_template = {
 		name = "邦克山技能鱼雷机Lv4",
 		id = 68004,
 		dodge_limit = 0,
-		max_hp = 53,
 		hp_growth = 2036,
 		dodge = 1,
+		max_hp = 53,
+		scale = 1,
 		weapon_ID = {
 			68014
 		}
@@ -19912,9 +21725,10 @@ pg.aircraft_template = {
 		name = "邦克山技能鱼雷机Lv5",
 		id = 68005,
 		dodge_limit = 0,
-		max_hp = 58,
 		hp_growth = 2247,
 		dodge = 1,
+		max_hp = 58,
+		scale = 1,
 		weapon_ID = {
 			68015
 		}
@@ -19924,9 +21738,10 @@ pg.aircraft_template = {
 		name = "邦克山技能鱼雷机Lv6",
 		id = 68006,
 		dodge_limit = 0,
-		max_hp = 64,
 		hp_growth = 2458,
 		dodge = 1,
+		max_hp = 64,
+		scale = 1,
 		weapon_ID = {
 			68016
 		}
@@ -19936,9 +21751,10 @@ pg.aircraft_template = {
 		name = "邦克山技能鱼雷机Lv7",
 		id = 68007,
 		dodge_limit = 0,
-		max_hp = 69,
 		hp_growth = 2669,
 		dodge = 1,
+		max_hp = 69,
+		scale = 1,
 		weapon_ID = {
 			68017
 		}
@@ -19948,9 +21764,10 @@ pg.aircraft_template = {
 		name = "邦克山技能鱼雷机Lv8",
 		id = 68008,
 		dodge_limit = 0,
-		max_hp = 75,
 		hp_growth = 2879,
 		dodge = 1,
+		max_hp = 75,
+		scale = 1,
 		weapon_ID = {
 			68018
 		}
@@ -19960,9 +21777,10 @@ pg.aircraft_template = {
 		name = "邦克山技能鱼雷机Lv9",
 		id = 68009,
 		dodge_limit = 0,
-		max_hp = 80,
 		hp_growth = 3090,
 		dodge = 1,
+		max_hp = 80,
+		scale = 1,
 		weapon_ID = {
 			68019
 		}
@@ -19972,9 +21790,10 @@ pg.aircraft_template = {
 		name = "邦克山技能鱼雷机Lv10",
 		id = 68010,
 		dodge_limit = 0,
-		max_hp = 86,
 		hp_growth = 3301,
 		dodge = 1,
+		max_hp = 86,
+		scale = 1,
 		weapon_ID = {
 			68020
 		}
@@ -19987,9 +21806,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 156,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "F4U",
 		funnel_behavior = "",
@@ -19997,6 +21816,7 @@ pg.aircraft_template = {
 		hp_growth = 1947,
 		speed = 50,
 		id = 68021,
+		scale = 1,
 		weapon_ID = {
 			50441,
 			68051
@@ -20058,9 +21878,10 @@ pg.aircraft_template = {
 		name = "邦克山技能战斗机Lv2",
 		id = 68022,
 		dodge_limit = 0,
-		max_hp = 57,
 		hp_growth = 2201,
 		dodge = 1,
+		max_hp = 57,
+		scale = 1,
 		weapon_ID = {
 			50442,
 			68052
@@ -20071,9 +21892,10 @@ pg.aircraft_template = {
 		name = "邦克山技能战斗机Lv3",
 		id = 68023,
 		dodge_limit = 0,
-		max_hp = 64,
 		hp_growth = 2455,
 		dodge = 1,
+		max_hp = 64,
+		scale = 1,
 		weapon_ID = {
 			50443,
 			68053
@@ -20084,9 +21906,10 @@ pg.aircraft_template = {
 		name = "邦克山技能战斗机Lv4",
 		id = 68024,
 		dodge_limit = 0,
-		max_hp = 70,
 		hp_growth = 2710,
 		dodge = 1,
+		max_hp = 70,
+		scale = 1,
 		weapon_ID = {
 			50444,
 			68054
@@ -20097,9 +21920,10 @@ pg.aircraft_template = {
 		name = "邦克山技能战斗机Lv5",
 		id = 68025,
 		dodge_limit = 0,
-		max_hp = 77,
 		hp_growth = 2964,
 		dodge = 1,
+		max_hp = 77,
+		scale = 1,
 		weapon_ID = {
 			50445,
 			68055
@@ -20110,9 +21934,10 @@ pg.aircraft_template = {
 		name = "邦克山技能战斗机Lv6",
 		id = 68026,
 		dodge_limit = 0,
-		max_hp = 84,
 		hp_growth = 3218,
 		dodge = 1,
+		max_hp = 84,
+		scale = 1,
 		weapon_ID = {
 			50446,
 			68056
@@ -20123,9 +21948,10 @@ pg.aircraft_template = {
 		name = "邦克山技能战斗机Lv7",
 		id = 68027,
 		dodge_limit = 0,
-		max_hp = 90,
 		hp_growth = 3472,
 		dodge = 1,
+		max_hp = 90,
+		scale = 1,
 		weapon_ID = {
 			50447,
 			68057
@@ -20136,9 +21962,10 @@ pg.aircraft_template = {
 		name = "邦克山技能战斗机Lv8",
 		id = 68028,
 		dodge_limit = 0,
-		max_hp = 97,
 		hp_growth = 3726,
 		dodge = 1,
+		max_hp = 97,
+		scale = 1,
 		weapon_ID = {
 			50448,
 			68058
@@ -20149,9 +21976,10 @@ pg.aircraft_template = {
 		name = "邦克山技能战斗机Lv9",
 		id = 68029,
 		dodge_limit = 0,
-		max_hp = 103,
 		hp_growth = 3980,
 		dodge = 1,
+		max_hp = 103,
+		scale = 1,
 		weapon_ID = {
 			50449,
 			68059
@@ -20162,9 +21990,10 @@ pg.aircraft_template = {
 		name = "邦克山技能战斗机Lv10",
 		id = 68030,
 		dodge_limit = 0,
-		max_hp = 110,
 		hp_growth = 4234,
 		dodge = 1,
+		max_hp = 110,
+		scale = 1,
 		weapon_ID = {
 			50450,
 			68060
@@ -20178,9 +22007,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 156,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "sbdwuwei",
 		funnel_behavior = "",
@@ -20188,6 +22017,7 @@ pg.aircraft_template = {
 		hp_growth = 1183,
 		speed = 46,
 		id = 68031,
+		scale = 1,
 		weapon_ID = {
 			68041,
 			68051
@@ -20249,9 +22079,10 @@ pg.aircraft_template = {
 		name = "邦克山技能轰炸机Lv2",
 		id = 68032,
 		dodge_limit = 0,
-		max_hp = 39,
 		hp_growth = 1345,
 		dodge = 1,
+		max_hp = 39,
+		scale = 1,
 		weapon_ID = {
 			68042,
 			68052
@@ -20262,9 +22093,10 @@ pg.aircraft_template = {
 		name = "邦克山技能轰炸机Lv3",
 		id = 68033,
 		dodge_limit = 0,
-		max_hp = 43,
 		hp_growth = 1507,
 		dodge = 1,
+		max_hp = 43,
+		scale = 1,
 		weapon_ID = {
 			68043,
 			68053
@@ -20275,9 +22107,10 @@ pg.aircraft_template = {
 		name = "邦克山技能轰炸机Lv4",
 		id = 68034,
 		dodge_limit = 0,
-		max_hp = 47,
 		hp_growth = 1669,
 		dodge = 1,
+		max_hp = 47,
+		scale = 1,
 		weapon_ID = {
 			68044,
 			68054
@@ -20288,9 +22121,10 @@ pg.aircraft_template = {
 		name = "邦克山技能轰炸机Lv5",
 		id = 68035,
 		dodge_limit = 0,
-		max_hp = 51,
 		hp_growth = 1831,
 		dodge = 1,
+		max_hp = 51,
+		scale = 1,
 		weapon_ID = {
 			68045,
 			68055
@@ -20301,9 +22135,10 @@ pg.aircraft_template = {
 		name = "邦克山技能轰炸机Lv6",
 		id = 68036,
 		dodge_limit = 0,
-		max_hp = 55,
 		hp_growth = 1994,
 		dodge = 1,
+		max_hp = 55,
+		scale = 1,
 		weapon_ID = {
 			68046,
 			68056
@@ -20314,9 +22149,10 @@ pg.aircraft_template = {
 		name = "邦克山技能轰炸机Lv7",
 		id = 68037,
 		dodge_limit = 0,
-		max_hp = 59,
 		hp_growth = 2157,
 		dodge = 1,
+		max_hp = 59,
+		scale = 1,
 		weapon_ID = {
 			68047,
 			68057
@@ -20327,9 +22163,10 @@ pg.aircraft_template = {
 		name = "邦克山技能轰炸机Lv8",
 		id = 68038,
 		dodge_limit = 0,
-		max_hp = 63,
 		hp_growth = 2320,
 		dodge = 1,
+		max_hp = 63,
+		scale = 1,
 		weapon_ID = {
 			68048,
 			68058
@@ -20340,9 +22177,10 @@ pg.aircraft_template = {
 		name = "邦克山技能轰炸机Lv9",
 		id = 68039,
 		dodge_limit = 0,
-		max_hp = 68,
 		hp_growth = 2483,
 		dodge = 1,
+		max_hp = 68,
+		scale = 1,
 		weapon_ID = {
 			68049,
 			68059
@@ -20353,9 +22191,10 @@ pg.aircraft_template = {
 		name = "邦克山技能轰炸机Lv10",
 		id = 68040,
 		dodge_limit = 0,
-		max_hp = 73,
 		hp_growth = 2646,
 		dodge = 1,
+		max_hp = 73,
+		scale = 1,
 		weapon_ID = {
 			68050,
 			68060
@@ -20369,9 +22208,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 42,
 		dodge = 0.375,
-		type = 1,
-		dodge_limit = 8,
 		attack_power = 2,
+		dodge_limit = 8,
+		type = 1,
 		AP_growth = 2000,
 		icon = "F2A",
 		funnel_behavior = "",
@@ -20379,6 +22218,7 @@ pg.aircraft_template = {
 		hp_growth = 1129,
 		speed = 45,
 		id = 81000,
+		scale = 1,
 		weapon_ID = {
 			50300
 		},
@@ -20435,28 +22275,31 @@ pg.aircraft_template = {
 		}
 	},
 	[81001] = {
+		hp_growth = 1298,
 		id = 81001,
 		base = 81000,
 		max_hp = 34,
-		hp_growth = 1298,
+		scale = 1,
 		weapon_ID = {
 			50301
 		}
 	},
 	[81002] = {
+		hp_growth = 1468,
 		id = 81002,
 		base = 81000,
 		max_hp = 38,
-		hp_growth = 1468,
+		scale = 1,
 		weapon_ID = {
 			50302
 		}
 	},
 	[81003] = {
+		hp_growth = 1637,
 		id = 81003,
 		base = 81000,
 		max_hp = 43,
-		hp_growth = 1637,
+		scale = 1,
 		weapon_ID = {
 			50303
 		}
@@ -20469,9 +22312,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 42,
 		dodge = 0.363,
-		type = 1,
-		dodge_limit = 8.5,
 		attack_power = 2,
+		dodge_limit = 8.5,
+		type = 1,
 		AP_growth = 2000,
 		icon = "F2A",
 		funnel_behavior = "",
@@ -20479,6 +22322,7 @@ pg.aircraft_template = {
 		hp_growth = 1270,
 		speed = 45,
 		id = 81020,
+		scale = 1,
 		weapon_ID = {
 			50320
 		},
@@ -20535,28 +22379,31 @@ pg.aircraft_template = {
 		}
 	},
 	[81021] = {
+		hp_growth = 1461,
 		id = 81021,
 		base = 81020,
 		max_hp = 38,
-		hp_growth = 1461,
+		scale = 1,
 		weapon_ID = {
 			50321
 		}
 	},
 	[81022] = {
+		hp_growth = 1651,
 		id = 81022,
 		base = 81020,
 		max_hp = 43,
-		hp_growth = 1651,
+		scale = 1,
 		weapon_ID = {
 			50322
 		}
 	},
 	[81023] = {
+		hp_growth = 1842,
 		id = 81023,
 		base = 81020,
 		max_hp = 48,
-		hp_growth = 1842,
+		scale = 1,
 		weapon_ID = {
 			50323
 		}
@@ -20569,9 +22416,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 42,
 		dodge = 0.351,
-		type = 1,
-		dodge_limit = 9,
 		attack_power = 2,
+		dodge_limit = 9,
+		type = 1,
 		AP_growth = 2000,
 		icon = "F2A",
 		funnel_behavior = "",
@@ -20579,6 +22426,7 @@ pg.aircraft_template = {
 		hp_growth = 1411,
 		speed = 45,
 		id = 81040,
+		scale = 1,
 		weapon_ID = {
 			50340
 		},
@@ -20635,55 +22483,61 @@ pg.aircraft_template = {
 		}
 	},
 	[81041] = {
+		hp_growth = 1623,
 		id = 81041,
 		base = 81040,
 		max_hp = 42,
-		hp_growth = 1623,
+		scale = 1,
 		weapon_ID = {
 			50341
 		}
 	},
 	[81042] = {
+		hp_growth = 1835,
 		id = 81042,
 		base = 81040,
 		max_hp = 48,
-		hp_growth = 1835,
+		scale = 1,
 		weapon_ID = {
 			50342
 		}
 	},
 	[81043] = {
+		hp_growth = 2046,
 		id = 81043,
 		base = 81040,
 		max_hp = 53,
-		hp_growth = 2046,
+		scale = 1,
 		weapon_ID = {
 			50343
 		}
 	},
 	[81044] = {
+		hp_growth = 2258,
 		id = 81044,
 		base = 81040,
 		max_hp = 59,
-		hp_growth = 2258,
+		scale = 1,
 		weapon_ID = {
 			50344
 		}
 	},
 	[81045] = {
+		hp_growth = 2470,
 		id = 81045,
 		base = 81040,
 		max_hp = 64,
-		hp_growth = 2470,
+		scale = 1,
 		weapon_ID = {
 			50345
 		}
 	},
 	[81046] = {
+		hp_growth = 2681,
 		id = 81046,
 		base = 81040,
 		max_hp = 70,
-		hp_growth = 2681,
+		scale = 1,
 		weapon_ID = {
 			50346
 		}
@@ -20696,9 +22550,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 56,
 		dodge = 0.357,
-		type = 1,
-		dodge_limit = 9,
 		attack_power = 2,
+		dodge_limit = 9,
+		type = 1,
 		AP_growth = 2000,
 		icon = "f4f",
 		funnel_behavior = "",
@@ -20706,6 +22560,7 @@ pg.aircraft_template = {
 		hp_growth = 1270,
 		speed = 48,
 		id = 81100,
+		scale = 1,
 		weapon_ID = {
 			50400
 		},
@@ -20762,28 +22617,31 @@ pg.aircraft_template = {
 		}
 	},
 	[81101] = {
+		hp_growth = 1461,
 		id = 81101,
 		base = 81100,
 		max_hp = 38,
-		hp_growth = 1461,
+		scale = 1,
 		weapon_ID = {
 			50401
 		}
 	},
 	[81102] = {
+		hp_growth = 1651,
 		id = 81102,
 		base = 81100,
 		max_hp = 43,
-		hp_growth = 1651,
+		scale = 1,
 		weapon_ID = {
 			50402
 		}
 	},
 	[81103] = {
+		hp_growth = 1842,
 		id = 81103,
 		base = 81100,
 		max_hp = 48,
-		hp_growth = 1842,
+		scale = 1,
 		weapon_ID = {
 			50403
 		}
@@ -20796,9 +22654,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 56,
 		dodge = 0.345,
-		type = 1,
-		dodge_limit = 9.5,
 		attack_power = 2,
+		dodge_limit = 9.5,
+		type = 1,
 		AP_growth = 2000,
 		icon = "f4f",
 		funnel_behavior = "",
@@ -20806,6 +22664,7 @@ pg.aircraft_template = {
 		hp_growth = 1411,
 		speed = 48,
 		id = 81120,
+		scale = 1,
 		weapon_ID = {
 			50420
 		},
@@ -20862,55 +22721,61 @@ pg.aircraft_template = {
 		}
 	},
 	[81121] = {
+		hp_growth = 1623,
 		id = 81121,
 		base = 81120,
 		max_hp = 42,
-		hp_growth = 1623,
+		scale = 1,
 		weapon_ID = {
 			50421
 		}
 	},
 	[81122] = {
+		hp_growth = 1835,
 		id = 81122,
 		base = 81120,
 		max_hp = 48,
-		hp_growth = 1835,
+		scale = 1,
 		weapon_ID = {
 			50422
 		}
 	},
 	[81123] = {
+		hp_growth = 2046,
 		id = 81123,
 		base = 81120,
 		max_hp = 53,
-		hp_growth = 2046,
+		scale = 1,
 		weapon_ID = {
 			50423
 		}
 	},
 	[81124] = {
+		hp_growth = 2258,
 		id = 81124,
 		base = 81120,
 		max_hp = 59,
-		hp_growth = 2258,
+		scale = 1,
 		weapon_ID = {
 			50424
 		}
 	},
 	[81125] = {
+		hp_growth = 2470,
 		id = 81125,
 		base = 81120,
 		max_hp = 64,
-		hp_growth = 2470,
+		scale = 1,
 		weapon_ID = {
 			50425
 		}
 	},
 	[81126] = {
+		hp_growth = 2681,
 		id = 81126,
 		base = 81120,
 		max_hp = 70,
-		hp_growth = 2681,
+		scale = 1,
 		weapon_ID = {
 			50426
 		}
@@ -20923,9 +22788,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 56,
 		dodge = 0.333,
-		type = 1,
-		dodge_limit = 10,
 		attack_power = 2,
+		dodge_limit = 10,
+		type = 1,
 		AP_growth = 2000,
 		icon = "f4f",
 		funnel_behavior = "",
@@ -20933,6 +22798,7 @@ pg.aircraft_template = {
 		hp_growth = 1552,
 		speed = 48,
 		id = 81140,
+		scale = 1,
 		weapon_ID = {
 			50440
 		},
@@ -20989,91 +22855,101 @@ pg.aircraft_template = {
 		}
 	},
 	[81141] = {
+		hp_growth = 1785,
 		id = 81141,
 		base = 81140,
 		max_hp = 46,
-		hp_growth = 1785,
+		scale = 1,
 		weapon_ID = {
 			50441
 		}
 	},
 	[81142] = {
+		hp_growth = 2018,
 		id = 81142,
 		base = 81140,
 		max_hp = 52,
-		hp_growth = 2018,
+		scale = 1,
 		weapon_ID = {
 			50442
 		}
 	},
 	[81143] = {
+		hp_growth = 2251,
 		id = 81143,
 		base = 81140,
 		max_hp = 59,
-		hp_growth = 2251,
+		scale = 1,
 		weapon_ID = {
 			50443
 		}
 	},
 	[81144] = {
+		hp_growth = 2484,
 		id = 81144,
 		base = 81140,
 		max_hp = 65,
-		hp_growth = 2484,
+		scale = 1,
 		weapon_ID = {
 			50444
 		}
 	},
 	[81145] = {
+		hp_growth = 2717,
 		id = 81145,
 		base = 81140,
 		max_hp = 71,
-		hp_growth = 2717,
+		scale = 1,
 		weapon_ID = {
 			50445
 		}
 	},
 	[81146] = {
+		hp_growth = 2949,
 		id = 81146,
 		base = 81140,
 		max_hp = 77,
-		hp_growth = 2949,
+		scale = 1,
 		weapon_ID = {
 			50446
 		}
 	},
 	[81147] = {
+		hp_growth = 3182,
 		id = 81147,
 		base = 81140,
 		max_hp = 83,
-		hp_growth = 3182,
+		scale = 1,
 		weapon_ID = {
 			50447
 		}
 	},
 	[81148] = {
+		hp_growth = 3415,
 		id = 81148,
 		base = 81140,
 		max_hp = 89,
-		hp_growth = 3415,
+		scale = 1,
 		weapon_ID = {
 			50448
 		}
 	},
 	[81149] = {
+		hp_growth = 3648,
 		id = 81149,
 		base = 81140,
 		max_hp = 95,
-		hp_growth = 3648,
+		scale = 1,
 		weapon_ID = {
 			50449
 		}
 	},
 	[81150] = {
+		hp_growth = 3881,
 		id = 81150,
 		base = 81140,
 		max_hp = 101,
-		hp_growth = 3881,
+		scale = 1,
 		weapon_ID = {
 			50450
 		}
@@ -21086,9 +22962,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 66,
 		dodge = 0.357,
-		type = 1,
-		dodge_limit = 9,
 		attack_power = 2,
+		dodge_limit = 9,
+		type = 1,
 		AP_growth = 2000,
 		icon = "F4U",
 		funnel_behavior = "",
@@ -21096,6 +22972,7 @@ pg.aircraft_template = {
 		hp_growth = 1270,
 		speed = 48,
 		id = 81200,
+		scale = 1,
 		weapon_ID = {
 			50400
 		},
@@ -21152,28 +23029,31 @@ pg.aircraft_template = {
 		}
 	},
 	[81201] = {
+		hp_growth = 1461,
 		id = 81201,
 		base = 81200,
 		max_hp = 38,
-		hp_growth = 1461,
+		scale = 1,
 		weapon_ID = {
 			50401
 		}
 	},
 	[81202] = {
+		hp_growth = 1651,
 		id = 81202,
 		base = 81200,
 		max_hp = 43,
-		hp_growth = 1651,
+		scale = 1,
 		weapon_ID = {
 			50402
 		}
 	},
 	[81203] = {
+		hp_growth = 1842,
 		id = 81203,
 		base = 81200,
 		max_hp = 48,
-		hp_growth = 1842,
+		scale = 1,
 		weapon_ID = {
 			50403
 		}
@@ -21186,9 +23066,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 66,
 		dodge = 0.345,
-		type = 1,
-		dodge_limit = 9.5,
 		attack_power = 2,
+		dodge_limit = 9.5,
+		type = 1,
 		AP_growth = 2000,
 		icon = "F4U",
 		funnel_behavior = "",
@@ -21196,6 +23076,7 @@ pg.aircraft_template = {
 		hp_growth = 1411,
 		speed = 48,
 		id = 81220,
+		scale = 1,
 		weapon_ID = {
 			50420
 		},
@@ -21252,55 +23133,61 @@ pg.aircraft_template = {
 		}
 	},
 	[81221] = {
+		hp_growth = 1623,
 		id = 81221,
 		base = 81220,
 		max_hp = 42,
-		hp_growth = 1623,
+		scale = 1,
 		weapon_ID = {
 			50421
 		}
 	},
 	[81222] = {
+		hp_growth = 1835,
 		id = 81222,
 		base = 81220,
 		max_hp = 48,
-		hp_growth = 1835,
+		scale = 1,
 		weapon_ID = {
 			50422
 		}
 	},
 	[81223] = {
+		hp_growth = 2046,
 		id = 81223,
 		base = 81220,
 		max_hp = 53,
-		hp_growth = 2046,
+		scale = 1,
 		weapon_ID = {
 			50423
 		}
 	},
 	[81224] = {
+		hp_growth = 2258,
 		id = 81224,
 		base = 81220,
 		max_hp = 59,
-		hp_growth = 2258,
+		scale = 1,
 		weapon_ID = {
 			50424
 		}
 	},
 	[81225] = {
+		hp_growth = 2470,
 		id = 81225,
 		base = 81220,
 		max_hp = 64,
-		hp_growth = 2470,
+		scale = 1,
 		weapon_ID = {
 			50425
 		}
 	},
 	[81226] = {
+		hp_growth = 2681,
 		id = 81226,
 		base = 81220,
 		max_hp = 70,
-		hp_growth = 2681,
+		scale = 1,
 		weapon_ID = {
 			50426
 		}
@@ -21313,9 +23200,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 66,
 		dodge = 0.333,
-		type = 1,
-		dodge_limit = 10,
 		attack_power = 2,
+		dodge_limit = 10,
+		type = 1,
 		AP_growth = 2000,
 		icon = "F4U",
 		funnel_behavior = "",
@@ -21323,6 +23210,7 @@ pg.aircraft_template = {
 		hp_growth = 1552,
 		speed = 48,
 		id = 81240,
+		scale = 1,
 		weapon_ID = {
 			50440
 		},
@@ -21379,91 +23267,101 @@ pg.aircraft_template = {
 		}
 	},
 	[81241] = {
+		hp_growth = 1785,
 		id = 81241,
 		base = 81240,
 		max_hp = 46,
-		hp_growth = 1785,
+		scale = 1,
 		weapon_ID = {
 			50441
 		}
 	},
 	[81242] = {
+		hp_growth = 2018,
 		id = 81242,
 		base = 81240,
 		max_hp = 52,
-		hp_growth = 2018,
+		scale = 1,
 		weapon_ID = {
 			50442
 		}
 	},
 	[81243] = {
+		hp_growth = 2251,
 		id = 81243,
 		base = 81240,
 		max_hp = 59,
-		hp_growth = 2251,
+		scale = 1,
 		weapon_ID = {
 			50443
 		}
 	},
 	[81244] = {
+		hp_growth = 2484,
 		id = 81244,
 		base = 81240,
 		max_hp = 65,
-		hp_growth = 2484,
+		scale = 1,
 		weapon_ID = {
 			50444
 		}
 	},
 	[81245] = {
+		hp_growth = 2717,
 		id = 81245,
 		base = 81240,
 		max_hp = 71,
-		hp_growth = 2717,
+		scale = 1,
 		weapon_ID = {
 			50445
 		}
 	},
 	[81246] = {
+		hp_growth = 2949,
 		id = 81246,
 		base = 81240,
 		max_hp = 77,
-		hp_growth = 2949,
+		scale = 1,
 		weapon_ID = {
 			50446
 		}
 	},
 	[81247] = {
+		hp_growth = 3182,
 		id = 81247,
 		base = 81240,
 		max_hp = 83,
-		hp_growth = 3182,
+		scale = 1,
 		weapon_ID = {
 			50447
 		}
 	},
 	[81248] = {
+		hp_growth = 3415,
 		id = 81248,
 		base = 81240,
 		max_hp = 89,
-		hp_growth = 3415,
+		scale = 1,
 		weapon_ID = {
 			50448
 		}
 	},
 	[81249] = {
+		hp_growth = 3648,
 		id = 81249,
 		base = 81240,
 		max_hp = 95,
-		hp_growth = 3648,
+		scale = 1,
 		weapon_ID = {
 			50449
 		}
 	},
 	[81250] = {
+		hp_growth = 3881,
 		id = 81250,
 		base = 81240,
 		max_hp = 101,
-		hp_growth = 3881,
+		scale = 1,
 		weapon_ID = {
 			50450
 		}
@@ -21476,9 +23374,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 148,
 		dodge = 0.309,
-		type = 1,
-		dodge_limit = 12,
 		attack_power = 2,
+		dodge_limit = 12,
+		type = 1,
 		AP_growth = 2000,
 		icon = "F4U",
 		funnel_behavior = "",
@@ -21486,6 +23384,7 @@ pg.aircraft_template = {
 		hp_growth = 1693,
 		speed = 49,
 		id = 81260,
+		scale = 1,
 		weapon_ID = {
 			50460
 		},
@@ -21542,91 +23441,101 @@ pg.aircraft_template = {
 		}
 	},
 	[81261] = {
+		hp_growth = 1947,
 		id = 81261,
 		base = 81260,
 		max_hp = 51,
-		hp_growth = 1947,
+		scale = 1,
 		weapon_ID = {
 			50461
 		}
 	},
 	[81262] = {
+		hp_growth = 2201,
 		id = 81262,
 		base = 81260,
 		max_hp = 57,
-		hp_growth = 2201,
+		scale = 1,
 		weapon_ID = {
 			50462
 		}
 	},
 	[81263] = {
+		hp_growth = 2455,
 		id = 81263,
 		base = 81260,
 		max_hp = 64,
-		hp_growth = 2455,
+		scale = 1,
 		weapon_ID = {
 			50463
 		}
 	},
 	[81264] = {
+		hp_growth = 2710,
 		id = 81264,
 		base = 81260,
 		max_hp = 70,
-		hp_growth = 2710,
+		scale = 1,
 		weapon_ID = {
 			50464
 		}
 	},
 	[81265] = {
+		hp_growth = 2964,
 		id = 81265,
 		base = 81260,
 		max_hp = 77,
-		hp_growth = 2964,
+		scale = 1,
 		weapon_ID = {
 			50465
 		}
 	},
 	[81266] = {
+		hp_growth = 3218,
 		id = 81266,
 		base = 81260,
 		max_hp = 84,
-		hp_growth = 3218,
+		scale = 1,
 		weapon_ID = {
 			50466
 		}
 	},
 	[81267] = {
+		hp_growth = 3472,
 		id = 81267,
 		base = 81260,
 		max_hp = 90,
-		hp_growth = 3472,
+		scale = 1,
 		weapon_ID = {
 			50467
 		}
 	},
 	[81268] = {
+		hp_growth = 3726,
 		id = 81268,
 		base = 81260,
 		max_hp = 97,
-		hp_growth = 3726,
+		scale = 1,
 		weapon_ID = {
 			50468
 		}
 	},
 	[81269] = {
+		hp_growth = 3980,
 		id = 81269,
 		base = 81260,
 		max_hp = 103,
-		hp_growth = 3980,
+		scale = 1,
 		weapon_ID = {
 			50469
 		}
 	},
 	[81270] = {
+		hp_growth = 4234,
 		id = 81270,
 		base = 81260,
 		max_hp = 110,
-		hp_growth = 4234,
+		scale = 1,
 		weapon_ID = {
 			50470
 		}
@@ -21639,9 +23548,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 80,
 		dodge = 0.339,
-		type = 1,
-		dodge_limit = 10,
 		attack_power = 2,
+		dodge_limit = 10,
+		type = 1,
 		AP_growth = 2000,
 		icon = "f6f",
 		funnel_behavior = "",
@@ -21649,6 +23558,7 @@ pg.aircraft_template = {
 		hp_growth = 1411,
 		speed = 50,
 		id = 81300,
+		scale = 1,
 		weapon_ID = {
 			50300,
 			50500
@@ -21706,60 +23616,66 @@ pg.aircraft_template = {
 		}
 	},
 	[81301] = {
+		hp_growth = 1623,
 		id = 81301,
 		base = 81300,
 		max_hp = 42,
-		hp_growth = 1623,
+		scale = 1,
 		weapon_ID = {
 			50301,
 			50501
 		}
 	},
 	[81302] = {
+		hp_growth = 1835,
 		id = 81302,
 		base = 81300,
 		max_hp = 48,
-		hp_growth = 1835,
+		scale = 1,
 		weapon_ID = {
 			50302,
 			50502
 		}
 	},
 	[81303] = {
+		hp_growth = 2046,
 		id = 81303,
 		base = 81300,
 		max_hp = 53,
-		hp_growth = 2046,
+		scale = 1,
 		weapon_ID = {
 			50303,
 			50503
 		}
 	},
 	[81304] = {
+		hp_growth = 2258,
 		id = 81304,
 		base = 81300,
 		max_hp = 59,
-		hp_growth = 2258,
+		scale = 1,
 		weapon_ID = {
 			50304,
 			50504
 		}
 	},
 	[81305] = {
+		hp_growth = 2470,
 		id = 81305,
 		base = 81300,
 		max_hp = 64,
-		hp_growth = 2470,
+		scale = 1,
 		weapon_ID = {
 			50305,
 			50505
 		}
 	},
 	[81306] = {
+		hp_growth = 2681,
 		id = 81306,
 		base = 81300,
 		max_hp = 70,
-		hp_growth = 2681,
+		scale = 1,
 		weapon_ID = {
 			50306,
 			50506
@@ -21773,9 +23689,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 80,
 		dodge = 0.327,
-		type = 1,
-		dodge_limit = 10.5,
 		attack_power = 2,
+		dodge_limit = 10.5,
+		type = 1,
 		AP_growth = 2000,
 		icon = "f6f",
 		funnel_behavior = "",
@@ -21783,6 +23699,7 @@ pg.aircraft_template = {
 		hp_growth = 1552,
 		speed = 50,
 		id = 81320,
+		scale = 1,
 		weapon_ID = {
 			50320,
 			50520
@@ -21840,100 +23757,110 @@ pg.aircraft_template = {
 		}
 	},
 	[81321] = {
+		hp_growth = 1785,
 		id = 81321,
 		base = 81320,
 		max_hp = 46,
-		hp_growth = 1785,
+		scale = 1,
 		weapon_ID = {
 			50321,
 			50521
 		}
 	},
 	[81322] = {
+		hp_growth = 2018,
 		id = 81322,
 		base = 81320,
 		max_hp = 52,
-		hp_growth = 2018,
+		scale = 1,
 		weapon_ID = {
 			50322,
 			50522
 		}
 	},
 	[81323] = {
+		hp_growth = 2251,
 		id = 81323,
 		base = 81320,
 		max_hp = 59,
-		hp_growth = 2251,
+		scale = 1,
 		weapon_ID = {
 			50323,
 			50523
 		}
 	},
 	[81324] = {
+		hp_growth = 2484,
 		id = 81324,
 		base = 81320,
 		max_hp = 65,
-		hp_growth = 2484,
+		scale = 1,
 		weapon_ID = {
 			50324,
 			50524
 		}
 	},
 	[81325] = {
+		hp_growth = 2717,
 		id = 81325,
 		base = 81320,
 		max_hp = 71,
-		hp_growth = 2717,
+		scale = 1,
 		weapon_ID = {
 			50325,
 			50525
 		}
 	},
 	[81326] = {
+		hp_growth = 2949,
 		id = 81326,
 		base = 81320,
 		max_hp = 77,
-		hp_growth = 2949,
+		scale = 1,
 		weapon_ID = {
 			50326,
 			50526
 		}
 	},
 	[81327] = {
+		hp_growth = 3182,
 		id = 81327,
 		base = 81320,
 		max_hp = 83,
-		hp_growth = 3182,
+		scale = 1,
 		weapon_ID = {
 			50327,
 			50527
 		}
 	},
 	[81328] = {
+		hp_growth = 3415,
 		id = 81328,
 		base = 81320,
 		max_hp = 89,
-		hp_growth = 3415,
+		scale = 1,
 		weapon_ID = {
 			50328,
 			50528
 		}
 	},
 	[81329] = {
+		hp_growth = 3648,
 		id = 81329,
 		base = 81320,
 		max_hp = 95,
-		hp_growth = 3648,
+		scale = 1,
 		weapon_ID = {
 			50329,
 			50529
 		}
 	},
 	[81330] = {
+		hp_growth = 3881,
 		id = 81330,
 		base = 81320,
 		max_hp = 101,
-		hp_growth = 3881,
+		scale = 1,
 		weapon_ID = {
 			50330,
 			50530
@@ -21947,9 +23874,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 80,
 		dodge = 0.315,
-		type = 1,
-		dodge_limit = 11,
 		attack_power = 2,
+		dodge_limit = 11,
+		type = 1,
 		AP_growth = 2000,
 		icon = "f6f",
 		funnel_behavior = "",
@@ -21957,6 +23884,7 @@ pg.aircraft_template = {
 		hp_growth = 1693,
 		speed = 50,
 		id = 81340,
+		scale = 1,
 		weapon_ID = {
 			50340,
 			50540
@@ -22014,100 +23942,110 @@ pg.aircraft_template = {
 		}
 	},
 	[81341] = {
+		hp_growth = 1947,
 		id = 81341,
 		base = 81340,
 		max_hp = 51,
-		hp_growth = 1947,
+		scale = 1,
 		weapon_ID = {
 			50341,
 			50541
 		}
 	},
 	[81342] = {
+		hp_growth = 2201,
 		id = 81342,
 		base = 81340,
 		max_hp = 57,
-		hp_growth = 2201,
+		scale = 1,
 		weapon_ID = {
 			50342,
 			50542
 		}
 	},
 	[81343] = {
+		hp_growth = 2455,
 		id = 81343,
 		base = 81340,
 		max_hp = 64,
-		hp_growth = 2455,
+		scale = 1,
 		weapon_ID = {
 			50343,
 			50543
 		}
 	},
 	[81344] = {
+		hp_growth = 2710,
 		id = 81344,
 		base = 81340,
 		max_hp = 70,
-		hp_growth = 2710,
+		scale = 1,
 		weapon_ID = {
 			50344,
 			50544
 		}
 	},
 	[81345] = {
+		hp_growth = 2964,
 		id = 81345,
 		base = 81340,
 		max_hp = 77,
-		hp_growth = 2964,
+		scale = 1,
 		weapon_ID = {
 			50345,
 			50545
 		}
 	},
 	[81346] = {
+		hp_growth = 3218,
 		id = 81346,
 		base = 81340,
 		max_hp = 84,
-		hp_growth = 3218,
+		scale = 1,
 		weapon_ID = {
 			50346,
 			50546
 		}
 	},
 	[81347] = {
+		hp_growth = 3472,
 		id = 81347,
 		base = 81340,
 		max_hp = 90,
-		hp_growth = 3472,
+		scale = 1,
 		weapon_ID = {
 			50347,
 			50547
 		}
 	},
 	[81348] = {
+		hp_growth = 3726,
 		id = 81348,
 		base = 81340,
 		max_hp = 97,
-		hp_growth = 3726,
+		scale = 1,
 		weapon_ID = {
 			50348,
 			50548
 		}
 	},
 	[81349] = {
+		hp_growth = 3980,
 		id = 81349,
 		base = 81340,
 		max_hp = 103,
-		hp_growth = 3980,
+		scale = 1,
 		weapon_ID = {
 			50349,
 			50549
 		}
 	},
 	[81350] = {
+		hp_growth = 4234,
 		id = 81350,
 		base = 81340,
 		max_hp = 110,
-		hp_growth = 4234,
+		scale = 1,
 		weapon_ID = {
 			50350,
 			50550
@@ -22121,9 +24059,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 136,
 		dodge = 0.333,
-		type = 1,
-		dodge_limit = 9,
 		attack_power = 2,
+		dodge_limit = 9,
+		type = 1,
 		AP_growth = 2000,
 		icon = "XF5F",
 		funnel_behavior = "",
@@ -22131,6 +24069,7 @@ pg.aircraft_template = {
 		hp_growth = 1552,
 		speed = 47,
 		id = 81400,
+		scale = 1,
 		weapon_ID = {
 			50540,
 			50740
@@ -22183,100 +24122,110 @@ pg.aircraft_template = {
 		}
 	},
 	[81401] = {
+		hp_growth = 1785,
 		id = 81401,
 		base = 81400,
 		max_hp = 46,
-		hp_growth = 1785,
+		scale = 1,
 		weapon_ID = {
 			50541,
 			50741
 		}
 	},
 	[81402] = {
+		hp_growth = 2018,
 		id = 81402,
 		base = 81400,
 		max_hp = 52,
-		hp_growth = 2018,
+		scale = 1,
 		weapon_ID = {
 			50542,
 			50742
 		}
 	},
 	[81403] = {
+		hp_growth = 2251,
 		id = 81403,
 		base = 81400,
 		max_hp = 59,
-		hp_growth = 2251,
+		scale = 1,
 		weapon_ID = {
 			50543,
 			50743
 		}
 	},
 	[81404] = {
+		hp_growth = 2484,
 		id = 81404,
 		base = 81400,
 		max_hp = 65,
-		hp_growth = 2484,
+		scale = 1,
 		weapon_ID = {
 			50544,
 			50744
 		}
 	},
 	[81405] = {
+		hp_growth = 2717,
 		id = 81405,
 		base = 81400,
 		max_hp = 71,
-		hp_growth = 2717,
+		scale = 1,
 		weapon_ID = {
 			50545,
 			50745
 		}
 	},
 	[81406] = {
+		hp_growth = 2949,
 		id = 81406,
 		base = 81400,
 		max_hp = 77,
-		hp_growth = 2949,
+		scale = 1,
 		weapon_ID = {
 			50546,
 			50746
 		}
 	},
 	[81407] = {
+		hp_growth = 3182,
 		id = 81407,
 		base = 81400,
 		max_hp = 83,
-		hp_growth = 3182,
+		scale = 1,
 		weapon_ID = {
 			50547,
 			50747
 		}
 	},
 	[81408] = {
+		hp_growth = 3415,
 		id = 81408,
 		base = 81400,
 		max_hp = 89,
-		hp_growth = 3415,
+		scale = 1,
 		weapon_ID = {
 			50548,
 			50748
 		}
 	},
 	[81409] = {
+		hp_growth = 3648,
 		id = 81409,
 		base = 81400,
 		max_hp = 95,
-		hp_growth = 3648,
+		scale = 1,
 		weapon_ID = {
 			50549,
 			50749
 		}
 	},
 	[81410] = {
+		hp_growth = 3881,
 		id = 81410,
 		base = 81400,
 		max_hp = 101,
-		hp_growth = 3881,
+		scale = 1,
 		weapon_ID = {
 			50550,
 			50750
@@ -22290,9 +24239,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 52,
 		dodge = 0.357,
-		type = 1,
-		dodge_limit = 9,
 		attack_power = 2,
+		dodge_limit = 9,
+		type = 1,
 		AP_growth = 2000,
 		icon = "haipenhuo",
 		funnel_behavior = "",
@@ -22300,6 +24249,7 @@ pg.aircraft_template = {
 		hp_growth = 1210,
 		speed = 50,
 		id = 82000,
+		scale = 1,
 		weapon_ID = {
 			50100,
 			50500
@@ -22357,30 +24307,33 @@ pg.aircraft_template = {
 		}
 	},
 	[82001] = {
+		hp_growth = 1391,
 		id = 82001,
 		base = 82000,
 		max_hp = 36,
-		hp_growth = 1391,
+		scale = 1,
 		weapon_ID = {
 			50101,
 			50501
 		}
 	},
 	[82002] = {
+		hp_growth = 1572,
 		id = 82002,
 		base = 82000,
 		max_hp = 41,
-		hp_growth = 1572,
+		scale = 1,
 		weapon_ID = {
 			50102,
 			50502
 		}
 	},
 	[82003] = {
+		hp_growth = 1754,
 		id = 82003,
 		base = 82000,
 		max_hp = 46,
-		hp_growth = 1754,
+		scale = 1,
 		weapon_ID = {
 			50103,
 			50503
@@ -22394,9 +24347,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 52,
 		dodge = 0.345,
-		type = 1,
-		dodge_limit = 9.5,
 		attack_power = 2,
+		dodge_limit = 9.5,
+		type = 1,
 		AP_growth = 2000,
 		icon = "haipenhuo",
 		funnel_behavior = "",
@@ -22404,6 +24357,7 @@ pg.aircraft_template = {
 		hp_growth = 1344,
 		speed = 50,
 		id = 82020,
+		scale = 1,
 		weapon_ID = {
 			50120,
 			50520
@@ -22461,60 +24415,66 @@ pg.aircraft_template = {
 		}
 	},
 	[82021] = {
+		hp_growth = 1546,
 		id = 82021,
 		base = 82020,
 		max_hp = 40,
-		hp_growth = 1546,
+		scale = 1,
 		weapon_ID = {
 			50121,
 			50521
 		}
 	},
 	[82022] = {
+		hp_growth = 1747,
 		id = 82022,
 		base = 82020,
 		max_hp = 45,
-		hp_growth = 1747,
+		scale = 1,
 		weapon_ID = {
 			50122,
 			50522
 		}
 	},
 	[82023] = {
+		hp_growth = 1949,
 		id = 82023,
 		base = 82020,
 		max_hp = 51,
-		hp_growth = 1949,
+		scale = 1,
 		weapon_ID = {
 			50123,
 			50523
 		}
 	},
 	[82024] = {
+		hp_growth = 2150,
 		id = 82024,
 		base = 82020,
 		max_hp = 56,
-		hp_growth = 2150,
+		scale = 1,
 		weapon_ID = {
 			50124,
 			50524
 		}
 	},
 	[82025] = {
+		hp_growth = 2352,
 		id = 82025,
 		base = 82020,
 		max_hp = 61,
-		hp_growth = 2352,
+		scale = 1,
 		weapon_ID = {
 			50125,
 			50525
 		}
 	},
 	[82026] = {
+		hp_growth = 2554,
 		id = 82026,
 		base = 82020,
 		max_hp = 66,
-		hp_growth = 2554,
+		scale = 1,
 		weapon_ID = {
 			50126,
 			50526
@@ -22528,9 +24488,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 52,
 		dodge = 0.333,
-		type = 1,
-		dodge_limit = 10,
 		attack_power = 2,
+		dodge_limit = 10,
+		type = 1,
 		AP_growth = 2000,
 		icon = "haipenhuo",
 		funnel_behavior = "",
@@ -22538,6 +24498,7 @@ pg.aircraft_template = {
 		hp_growth = 1478,
 		speed = 50,
 		id = 82040,
+		scale = 1,
 		weapon_ID = {
 			50140,
 			50540
@@ -22595,100 +24556,110 @@ pg.aircraft_template = {
 		}
 	},
 	[82041] = {
+		hp_growth = 1700,
 		id = 82041,
 		base = 82040,
 		max_hp = 44,
-		hp_growth = 1700,
+		scale = 1,
 		weapon_ID = {
 			50141,
 			50541
 		}
 	},
 	[82042] = {
+		hp_growth = 1922,
 		id = 82042,
 		base = 82040,
 		max_hp = 50,
-		hp_growth = 1922,
+		scale = 1,
 		weapon_ID = {
 			50142,
 			50542
 		}
 	},
 	[82043] = {
+		hp_growth = 2144,
 		id = 82043,
 		base = 82040,
 		max_hp = 56,
-		hp_growth = 2144,
+		scale = 1,
 		weapon_ID = {
 			50143,
 			50543
 		}
 	},
 	[82044] = {
+		hp_growth = 2365,
 		id = 82044,
 		base = 82040,
 		max_hp = 62,
-		hp_growth = 2365,
+		scale = 1,
 		weapon_ID = {
 			50144,
 			50544
 		}
 	},
 	[82045] = {
+		hp_growth = 2587,
 		id = 82045,
 		base = 82040,
 		max_hp = 67,
-		hp_growth = 2587,
+		scale = 1,
 		weapon_ID = {
 			50145,
 			50545
 		}
 	},
 	[82046] = {
+		hp_growth = 2809,
 		id = 82046,
 		base = 82040,
 		max_hp = 73,
-		hp_growth = 2809,
+		scale = 1,
 		weapon_ID = {
 			50146,
 			50546
 		}
 	},
 	[82047] = {
+		hp_growth = 3031,
 		id = 82047,
 		base = 82040,
 		max_hp = 79,
-		hp_growth = 3031,
+		scale = 1,
 		weapon_ID = {
 			50147,
 			50547
 		}
 	},
 	[82048] = {
+		hp_growth = 3252,
 		id = 82048,
 		base = 82040,
 		max_hp = 85,
-		hp_growth = 3252,
+		scale = 1,
 		weapon_ID = {
 			50148,
 			50548
 		}
 	},
 	[82049] = {
+		hp_growth = 3474,
 		id = 82049,
 		base = 82040,
 		max_hp = 90,
-		hp_growth = 3474,
+		scale = 1,
 		weapon_ID = {
 			50149,
 			50549
 		}
 	},
 	[82050] = {
+		hp_growth = 3696,
 		id = 82050,
 		base = 82040,
 		max_hp = 96,
-		hp_growth = 3696,
+		scale = 1,
 		weapon_ID = {
 			50150,
 			50550
@@ -22702,9 +24673,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 63,
 		dodge = 0.357,
-		type = 1,
-		dodge_limit = 9,
 		attack_power = 2,
+		dodge_limit = 9,
+		type = 1,
 		AP_growth = 2000,
 		icon = "haiduya",
 		funnel_behavior = "",
@@ -22712,6 +24683,7 @@ pg.aircraft_template = {
 		hp_growth = 1344,
 		speed = 53,
 		id = 82100,
+		scale = 1,
 		weapon_ID = {
 			50600
 		},
@@ -22768,55 +24740,61 @@ pg.aircraft_template = {
 		}
 	},
 	[82101] = {
+		hp_growth = 1546,
 		id = 82101,
 		base = 82100,
 		max_hp = 40,
-		hp_growth = 1546,
+		scale = 1,
 		weapon_ID = {
 			50601
 		}
 	},
 	[82102] = {
+		hp_growth = 1747,
 		id = 82102,
 		base = 82100,
 		max_hp = 45,
-		hp_growth = 1747,
+		scale = 1,
 		weapon_ID = {
 			50602
 		}
 	},
 	[82103] = {
+		hp_growth = 1949,
 		id = 82103,
 		base = 82100,
 		max_hp = 51,
-		hp_growth = 1949,
+		scale = 1,
 		weapon_ID = {
 			50603
 		}
 	},
 	[82104] = {
+		hp_growth = 2150,
 		id = 82104,
 		base = 82100,
 		max_hp = 56,
-		hp_growth = 2150,
+		scale = 1,
 		weapon_ID = {
 			50604
 		}
 	},
 	[82105] = {
+		hp_growth = 2352,
 		id = 82105,
 		base = 82100,
 		max_hp = 61,
-		hp_growth = 2352,
+		scale = 1,
 		weapon_ID = {
 			50605
 		}
 	},
 	[82106] = {
+		hp_growth = 2554,
 		id = 82106,
 		base = 82100,
 		max_hp = 66,
-		hp_growth = 2554,
+		scale = 1,
 		weapon_ID = {
 			50606
 		}
@@ -22829,9 +24807,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 63,
 		dodge = 0.345,
-		type = 1,
-		dodge_limit = 9.5,
 		attack_power = 2,
+		dodge_limit = 9.5,
+		type = 1,
 		AP_growth = 2000,
 		icon = "haiduya",
 		funnel_behavior = "",
@@ -22839,6 +24817,7 @@ pg.aircraft_template = {
 		hp_growth = 1478,
 		speed = 53,
 		id = 82120,
+		scale = 1,
 		weapon_ID = {
 			50620
 		},
@@ -22895,91 +24874,101 @@ pg.aircraft_template = {
 		}
 	},
 	[82121] = {
+		hp_growth = 1700,
 		id = 82121,
 		base = 82120,
 		max_hp = 44,
-		hp_growth = 1700,
+		scale = 1,
 		weapon_ID = {
 			50621
 		}
 	},
 	[82122] = {
+		hp_growth = 1922,
 		id = 82122,
 		base = 82120,
 		max_hp = 50,
-		hp_growth = 1922,
+		scale = 1,
 		weapon_ID = {
 			50622
 		}
 	},
 	[82123] = {
+		hp_growth = 2144,
 		id = 82123,
 		base = 82120,
 		max_hp = 56,
-		hp_growth = 2144,
+		scale = 1,
 		weapon_ID = {
 			50623
 		}
 	},
 	[82124] = {
+		hp_growth = 2365,
 		id = 82124,
 		base = 82120,
 		max_hp = 62,
-		hp_growth = 2365,
+		scale = 1,
 		weapon_ID = {
 			50624
 		}
 	},
 	[82125] = {
+		hp_growth = 2587,
 		id = 82125,
 		base = 82120,
 		max_hp = 67,
-		hp_growth = 2587,
+		scale = 1,
 		weapon_ID = {
 			50625
 		}
 	},
 	[82126] = {
+		hp_growth = 2809,
 		id = 82126,
 		base = 82120,
 		max_hp = 73,
-		hp_growth = 2809,
+		scale = 1,
 		weapon_ID = {
 			50626
 		}
 	},
 	[82127] = {
+		hp_growth = 3031,
 		id = 82127,
 		base = 82120,
 		max_hp = 79,
-		hp_growth = 3031,
+		scale = 1,
 		weapon_ID = {
 			50627
 		}
 	},
 	[82128] = {
+		hp_growth = 3252,
 		id = 82128,
 		base = 82120,
 		max_hp = 85,
-		hp_growth = 3252,
+		scale = 1,
 		weapon_ID = {
 			50628
 		}
 	},
 	[82129] = {
+		hp_growth = 3474,
 		id = 82129,
 		base = 82120,
 		max_hp = 90,
-		hp_growth = 3474,
+		scale = 1,
 		weapon_ID = {
 			50629
 		}
 	},
 	[82130] = {
+		hp_growth = 3696,
 		id = 82130,
 		base = 82120,
 		max_hp = 96,
-		hp_growth = 3696,
+		scale = 1,
 		weapon_ID = {
 			50630
 		}
@@ -22992,9 +24981,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 63,
 		dodge = 0.333,
-		type = 1,
-		dodge_limit = 10,
 		attack_power = 2,
+		dodge_limit = 10,
+		type = 1,
 		AP_growth = 2000,
 		icon = "haiduya",
 		funnel_behavior = "",
@@ -23002,6 +24991,7 @@ pg.aircraft_template = {
 		hp_growth = 1613,
 		speed = 53,
 		id = 82140,
+		scale = 1,
 		weapon_ID = {
 			50640
 		},
@@ -23058,91 +25048,101 @@ pg.aircraft_template = {
 		}
 	},
 	[82141] = {
+		hp_growth = 1855,
 		id = 82141,
 		base = 82140,
 		max_hp = 48,
-		hp_growth = 1855,
+		scale = 1,
 		weapon_ID = {
 			50641
 		}
 	},
 	[82142] = {
+		hp_growth = 2097,
 		id = 82142,
 		base = 82140,
 		max_hp = 55,
-		hp_growth = 2097,
+		scale = 1,
 		weapon_ID = {
 			50642
 		}
 	},
 	[82143] = {
+		hp_growth = 2339,
 		id = 82143,
 		base = 82140,
 		max_hp = 61,
-		hp_growth = 2339,
+		scale = 1,
 		weapon_ID = {
 			50643
 		}
 	},
 	[82144] = {
+		hp_growth = 2580,
 		id = 82144,
 		base = 82140,
 		max_hp = 67,
-		hp_growth = 2580,
+		scale = 1,
 		weapon_ID = {
 			50644
 		}
 	},
 	[82145] = {
+		hp_growth = 2822,
 		id = 82145,
 		base = 82140,
 		max_hp = 73,
-		hp_growth = 2822,
+		scale = 1,
 		weapon_ID = {
 			50645
 		}
 	},
 	[82146] = {
+		hp_growth = 3064,
 		id = 82146,
 		base = 82140,
 		max_hp = 80,
-		hp_growth = 3064,
+		scale = 1,
 		weapon_ID = {
 			50646
 		}
 	},
 	[82147] = {
+		hp_growth = 3306,
 		id = 82147,
 		base = 82140,
 		max_hp = 86,
-		hp_growth = 3306,
+		scale = 1,
 		weapon_ID = {
 			50647
 		}
 	},
 	[82148] = {
+		hp_growth = 3548,
 		id = 82148,
 		base = 82140,
 		max_hp = 92,
-		hp_growth = 3548,
+		scale = 1,
 		weapon_ID = {
 			50648
 		}
 	},
 	[82149] = {
+		hp_growth = 3790,
 		id = 82149,
 		base = 82140,
 		max_hp = 99,
-		hp_growth = 3790,
+		scale = 1,
 		weapon_ID = {
 			50649
 		}
 	},
 	[82150] = {
+		hp_growth = 4032,
 		id = 82150,
 		base = 82140,
 		max_hp = 105,
-		hp_growth = 4032,
+		scale = 1,
 		weapon_ID = {
 			50650
 		}
@@ -23155,9 +25155,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 76,
 		dodge = 0.375,
-		type = 1,
-		dodge_limit = 8,
 		attack_power = 2,
+		dodge_limit = 8,
+		type = 1,
 		AP_growth = 2000,
 		icon = "haipenhuo",
 		funnel_behavior = "",
@@ -23165,6 +25165,7 @@ pg.aircraft_template = {
 		hp_growth = 1075,
 		speed = 47,
 		id = 82200,
+		scale = 1,
 		weapon_ID = {
 			50100
 		},
@@ -23221,28 +25222,31 @@ pg.aircraft_template = {
 		}
 	},
 	[82201] = {
+		hp_growth = 1236,
 		id = 82201,
 		base = 82200,
 		max_hp = 32,
-		hp_growth = 1236,
+		scale = 1,
 		weapon_ID = {
 			50101
 		}
 	},
 	[82202] = {
+		hp_growth = 1398,
 		id = 82202,
 		base = 82200,
 		max_hp = 36,
-		hp_growth = 1398,
+		scale = 1,
 		weapon_ID = {
 			50102
 		}
 	},
 	[82203] = {
+		hp_growth = 1559,
 		id = 82203,
 		base = 82200,
 		max_hp = 41,
-		hp_growth = 1559,
+		scale = 1,
 		weapon_ID = {
 			50103
 		}
@@ -23255,9 +25259,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 76,
 		dodge = 0.363,
-		type = 1,
-		dodge_limit = 8.5,
 		attack_power = 2,
+		dodge_limit = 8.5,
+		type = 1,
 		AP_growth = 2000,
 		icon = "haipenhuo",
 		funnel_behavior = "",
@@ -23265,6 +25269,7 @@ pg.aircraft_template = {
 		hp_growth = 1210,
 		speed = 47,
 		id = 82220,
+		scale = 1,
 		weapon_ID = {
 			50120
 		},
@@ -23321,28 +25326,31 @@ pg.aircraft_template = {
 		}
 	},
 	[82221] = {
+		hp_growth = 1391,
 		id = 82221,
 		base = 82220,
 		max_hp = 36,
-		hp_growth = 1391,
+		scale = 1,
 		weapon_ID = {
 			50121
 		}
 	},
 	[82222] = {
+		hp_growth = 1572,
 		id = 82222,
 		base = 82220,
 		max_hp = 41,
-		hp_growth = 1572,
+		scale = 1,
 		weapon_ID = {
 			50122
 		}
 	},
 	[82223] = {
+		hp_growth = 1754,
 		id = 82223,
 		base = 82220,
 		max_hp = 46,
-		hp_growth = 1754,
+		scale = 1,
 		weapon_ID = {
 			50123
 		}
@@ -23355,9 +25363,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 76,
 		dodge = 0.351,
-		type = 1,
-		dodge_limit = 9,
 		attack_power = 2,
+		dodge_limit = 9,
+		type = 1,
 		AP_growth = 2000,
 		icon = "haipenhuo",
 		funnel_behavior = "",
@@ -23365,6 +25373,7 @@ pg.aircraft_template = {
 		hp_growth = 1344,
 		speed = 47,
 		id = 82240,
+		scale = 1,
 		weapon_ID = {
 			50140
 		},
@@ -23421,55 +25430,61 @@ pg.aircraft_template = {
 		}
 	},
 	[82241] = {
+		hp_growth = 1546,
 		id = 82241,
 		base = 82240,
 		max_hp = 40,
-		hp_growth = 1546,
+		scale = 1,
 		weapon_ID = {
 			50141
 		}
 	},
 	[82242] = {
+		hp_growth = 1747,
 		id = 82242,
 		base = 82240,
 		max_hp = 45,
-		hp_growth = 1747,
+		scale = 1,
 		weapon_ID = {
 			50142
 		}
 	},
 	[82243] = {
+		hp_growth = 1949,
 		id = 82243,
 		base = 82240,
 		max_hp = 51,
-		hp_growth = 1949,
+		scale = 1,
 		weapon_ID = {
 			50143
 		}
 	},
 	[82244] = {
+		hp_growth = 2150,
 		id = 82244,
 		base = 82240,
 		max_hp = 56,
-		hp_growth = 2150,
+		scale = 1,
 		weapon_ID = {
 			50144
 		}
 	},
 	[82245] = {
+		hp_growth = 2352,
 		id = 82245,
 		base = 82240,
 		max_hp = 61,
-		hp_growth = 2352,
+		scale = 1,
 		weapon_ID = {
 			50145
 		}
 	},
 	[82246] = {
+		hp_growth = 2554,
 		id = 82246,
 		base = 82240,
 		max_hp = 66,
-		hp_growth = 2554,
+		scale = 1,
 		weapon_ID = {
 			50146
 		}
@@ -23482,9 +25497,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 40,
 		dodge = 0.357,
-		type = 1,
-		dodge_limit = 7,
 		attack_power = 2,
+		dodge_limit = 7,
+		type = 1,
 		AP_growth = 2000,
 		icon = "96jiangong",
 		funnel_behavior = "",
@@ -23492,6 +25507,7 @@ pg.aircraft_template = {
 		hp_growth = 1021,
 		speed = 48,
 		id = 83000,
+		scale = 1,
 		weapon_ID = {
 			50000
 		},
@@ -23548,28 +25564,31 @@ pg.aircraft_template = {
 		}
 	},
 	[83001] = {
+		hp_growth = 1175,
 		id = 83001,
 		base = 83000,
 		max_hp = 31,
-		hp_growth = 1175,
+		scale = 1,
 		weapon_ID = {
 			50001
 		}
 	},
 	[83002] = {
+		hp_growth = 1328,
 		id = 83002,
 		base = 83000,
 		max_hp = 35,
-		hp_growth = 1328,
+		scale = 1,
 		weapon_ID = {
 			50002
 		}
 	},
 	[83003] = {
+		hp_growth = 1481,
 		id = 83003,
 		base = 83000,
 		max_hp = 39,
-		hp_growth = 1481,
+		scale = 1,
 		weapon_ID = {
 			50003
 		}
@@ -23582,9 +25601,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 40,
 		dodge = 0.345,
-		type = 1,
-		dodge_limit = 7.5,
 		attack_power = 2,
+		dodge_limit = 7.5,
+		type = 1,
 		AP_growth = 2000,
 		icon = "96jiangong",
 		funnel_behavior = "",
@@ -23592,6 +25611,7 @@ pg.aircraft_template = {
 		hp_growth = 1149,
 		speed = 48,
 		id = 83020,
+		scale = 1,
 		weapon_ID = {
 			50020
 		},
@@ -23648,28 +25668,31 @@ pg.aircraft_template = {
 		}
 	},
 	[83021] = {
+		hp_growth = 1321,
 		id = 83021,
 		base = 83020,
 		max_hp = 34,
-		hp_growth = 1321,
+		scale = 1,
 		weapon_ID = {
 			50021
 		}
 	},
 	[83022] = {
+		hp_growth = 1494,
 		id = 83022,
 		base = 83020,
 		max_hp = 39,
-		hp_growth = 1494,
+		scale = 1,
 		weapon_ID = {
 			50022
 		}
 	},
 	[83023] = {
+		hp_growth = 1666,
 		id = 83023,
 		base = 83020,
 		max_hp = 43,
-		hp_growth = 1666,
+		scale = 1,
 		weapon_ID = {
 			50023
 		}
@@ -23682,9 +25705,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 40,
 		dodge = 0.333,
-		type = 1,
-		dodge_limit = 8,
 		attack_power = 2,
+		dodge_limit = 8,
+		type = 1,
 		AP_growth = 2000,
 		icon = "96jiangong",
 		funnel_behavior = "",
@@ -23692,6 +25715,7 @@ pg.aircraft_template = {
 		hp_growth = 1277,
 		speed = 48,
 		id = 83040,
+		scale = 1,
 		weapon_ID = {
 			50040
 		},
@@ -23748,55 +25772,61 @@ pg.aircraft_template = {
 		}
 	},
 	[83041] = {
+		hp_growth = 1468,
 		id = 83041,
 		base = 83040,
 		max_hp = 38,
-		hp_growth = 1468,
+		scale = 1,
 		weapon_ID = {
 			50041
 		}
 	},
 	[83042] = {
+		hp_growth = 1660,
 		id = 83042,
 		base = 83040,
 		max_hp = 43,
-		hp_growth = 1660,
+		scale = 1,
 		weapon_ID = {
 			50042
 		}
 	},
 	[83043] = {
+		hp_growth = 1851,
 		id = 83043,
 		base = 83040,
 		max_hp = 48,
-		hp_growth = 1851,
+		scale = 1,
 		weapon_ID = {
 			50043
 		}
 	},
 	[83044] = {
+		hp_growth = 2043,
 		id = 83044,
 		base = 83040,
 		max_hp = 53,
-		hp_growth = 2043,
+		scale = 1,
 		weapon_ID = {
 			50044
 		}
 	},
 	[83045] = {
+		hp_growth = 2234,
 		id = 83045,
 		base = 83040,
 		max_hp = 58,
-		hp_growth = 2234,
+		scale = 1,
 		weapon_ID = {
 			50045
 		}
 	},
 	[83046] = {
+		hp_growth = 2426,
 		id = 83046,
 		base = 83040,
 		max_hp = 63,
-		hp_growth = 2426,
+		scale = 1,
 		weapon_ID = {
 			50046
 		}
@@ -23809,9 +25839,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 52,
 		dodge = 0.339,
-		type = 1,
-		dodge_limit = 8,
 		attack_power = 2,
+		dodge_limit = 8,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan21",
 		funnel_behavior = "",
@@ -23819,6 +25849,7 @@ pg.aircraft_template = {
 		hp_growth = 1149,
 		speed = 52,
 		id = 83100,
+		scale = 1,
 		weapon_ID = {
 			50000,
 			50500
@@ -23876,30 +25907,33 @@ pg.aircraft_template = {
 		}
 	},
 	[83101] = {
+		hp_growth = 1321,
 		id = 83101,
 		base = 83100,
 		max_hp = 34,
-		hp_growth = 1321,
+		scale = 1,
 		weapon_ID = {
 			50001,
 			50501
 		}
 	},
 	[83102] = {
+		hp_growth = 1494,
 		id = 83102,
 		base = 83100,
 		max_hp = 39,
-		hp_growth = 1494,
+		scale = 1,
 		weapon_ID = {
 			50002,
 			50502
 		}
 	},
 	[83103] = {
+		hp_growth = 1666,
 		id = 83103,
 		base = 83100,
 		max_hp = 43,
-		hp_growth = 1666,
+		scale = 1,
 		weapon_ID = {
 			50003,
 			50503
@@ -23913,9 +25947,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 52,
 		dodge = 0.327,
-		type = 1,
-		dodge_limit = 8.5,
 		attack_power = 2,
+		dodge_limit = 8.5,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan21",
 		funnel_behavior = "",
@@ -23923,6 +25957,7 @@ pg.aircraft_template = {
 		hp_growth = 1277,
 		speed = 52,
 		id = 83120,
+		scale = 1,
 		weapon_ID = {
 			50020,
 			50520
@@ -23980,60 +26015,66 @@ pg.aircraft_template = {
 		}
 	},
 	[83121] = {
+		hp_growth = 1468,
 		id = 83121,
 		base = 83120,
 		max_hp = 38,
-		hp_growth = 1468,
+		scale = 1,
 		weapon_ID = {
 			50021,
 			50521
 		}
 	},
 	[83122] = {
+		hp_growth = 1660,
 		id = 83122,
 		base = 83120,
 		max_hp = 43,
-		hp_growth = 1660,
+		scale = 1,
 		weapon_ID = {
 			50022,
 			50522
 		}
 	},
 	[83123] = {
+		hp_growth = 1851,
 		id = 83123,
 		base = 83120,
 		max_hp = 48,
-		hp_growth = 1851,
+		scale = 1,
 		weapon_ID = {
 			50023,
 			50523
 		}
 	},
 	[83124] = {
+		hp_growth = 2043,
 		id = 83124,
 		base = 83120,
 		max_hp = 53,
-		hp_growth = 2043,
+		scale = 1,
 		weapon_ID = {
 			50024,
 			50524
 		}
 	},
 	[83125] = {
+		hp_growth = 2234,
 		id = 83125,
 		base = 83120,
 		max_hp = 58,
-		hp_growth = 2234,
+		scale = 1,
 		weapon_ID = {
 			50025,
 			50525
 		}
 	},
 	[83126] = {
+		hp_growth = 2426,
 		id = 83126,
 		base = 83120,
 		max_hp = 63,
-		hp_growth = 2426,
+		scale = 1,
 		weapon_ID = {
 			50026,
 			50526
@@ -24047,9 +26088,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 52,
 		dodge = 0.315,
-		type = 1,
-		dodge_limit = 9,
 		attack_power = 2,
+		dodge_limit = 9,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan21",
 		funnel_behavior = "",
@@ -24057,6 +26098,7 @@ pg.aircraft_template = {
 		hp_growth = 1404,
 		speed = 52,
 		id = 83140,
+		scale = 1,
 		weapon_ID = {
 			50040,
 			50540
@@ -24114,100 +26156,110 @@ pg.aircraft_template = {
 		}
 	},
 	[83141] = {
+		hp_growth = 1615,
 		id = 83141,
 		base = 83140,
 		max_hp = 42,
-		hp_growth = 1615,
+		scale = 1,
 		weapon_ID = {
 			50041,
 			50541
 		}
 	},
 	[83142] = {
+		hp_growth = 1826,
 		id = 83142,
 		base = 83140,
 		max_hp = 47,
-		hp_growth = 1826,
+		scale = 1,
 		weapon_ID = {
 			50042,
 			50542
 		}
 	},
 	[83143] = {
+		hp_growth = 2036,
 		id = 83143,
 		base = 83140,
 		max_hp = 53,
-		hp_growth = 2036,
+		scale = 1,
 		weapon_ID = {
 			50043,
 			50543
 		}
 	},
 	[83144] = {
+		hp_growth = 2247,
 		id = 83144,
 		base = 83140,
 		max_hp = 58,
-		hp_growth = 2247,
+		scale = 1,
 		weapon_ID = {
 			50044,
 			50544
 		}
 	},
 	[83145] = {
+		hp_growth = 2458,
 		id = 83145,
 		base = 83140,
 		max_hp = 64,
-		hp_growth = 2458,
+		scale = 1,
 		weapon_ID = {
 			50045,
 			50545
 		}
 	},
 	[83146] = {
+		hp_growth = 2669,
 		id = 83146,
 		base = 83140,
 		max_hp = 69,
-		hp_growth = 2669,
+		scale = 1,
 		weapon_ID = {
 			50046,
 			50546
 		}
 	},
 	[83147] = {
+		hp_growth = 2879,
 		id = 83147,
 		base = 83140,
 		max_hp = 75,
-		hp_growth = 2879,
+		scale = 1,
 		weapon_ID = {
 			50047,
 			50547
 		}
 	},
 	[83148] = {
+		hp_growth = 3090,
 		id = 83148,
 		base = 83140,
 		max_hp = 80,
-		hp_growth = 3090,
+		scale = 1,
 		weapon_ID = {
 			50048,
 			50548
 		}
 	},
 	[83149] = {
+		hp_growth = 3301,
 		id = 83149,
 		base = 83140,
 		max_hp = 86,
-		hp_growth = 3301,
+		scale = 1,
 		weapon_ID = {
 			50049,
 			50549
 		}
 	},
 	[83150] = {
+		hp_growth = 3511,
 		id = 83150,
 		base = 83140,
 		max_hp = 91,
-		hp_growth = 3511,
+		scale = 1,
 		weapon_ID = {
 			50050,
 			50550
@@ -24221,9 +26273,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 70,
 		dodge = 0.339,
-		type = 1,
-		dodge_limit = 8,
 		attack_power = 2,
+		dodge_limit = 8,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan52",
 		funnel_behavior = "",
@@ -24231,6 +26283,7 @@ pg.aircraft_template = {
 		hp_growth = 1277,
 		speed = 55,
 		id = 83200,
+		scale = 1,
 		weapon_ID = {
 			50000,
 			50500
@@ -24288,60 +26341,66 @@ pg.aircraft_template = {
 		}
 	},
 	[83201] = {
+		hp_growth = 1468,
 		id = 83201,
 		base = 83200,
 		max_hp = 38,
-		hp_growth = 1468,
+		scale = 1,
 		weapon_ID = {
 			50001,
 			50501
 		}
 	},
 	[83202] = {
+		hp_growth = 1660,
 		id = 83202,
 		base = 83200,
 		max_hp = 43,
-		hp_growth = 1660,
+		scale = 1,
 		weapon_ID = {
 			50002,
 			50502
 		}
 	},
 	[83203] = {
+		hp_growth = 1851,
 		id = 83203,
 		base = 83200,
 		max_hp = 48,
-		hp_growth = 1851,
+		scale = 1,
 		weapon_ID = {
 			50003,
 			50503
 		}
 	},
 	[83204] = {
+		hp_growth = 2043,
 		id = 83204,
 		base = 83200,
 		max_hp = 53,
-		hp_growth = 2043,
+		scale = 1,
 		weapon_ID = {
 			50004,
 			50504
 		}
 	},
 	[83205] = {
+		hp_growth = 2234,
 		id = 83205,
 		base = 83200,
 		max_hp = 58,
-		hp_growth = 2234,
+		scale = 1,
 		weapon_ID = {
 			50005,
 			50505
 		}
 	},
 	[83206] = {
+		hp_growth = 2426,
 		id = 83206,
 		base = 83200,
 		max_hp = 63,
-		hp_growth = 2426,
+		scale = 1,
 		weapon_ID = {
 			50006,
 			50506
@@ -24355,9 +26414,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 70,
 		dodge = 0.327,
-		type = 1,
-		dodge_limit = 8.5,
 		attack_power = 2,
+		dodge_limit = 8.5,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan52",
 		funnel_behavior = "",
@@ -24365,6 +26424,7 @@ pg.aircraft_template = {
 		hp_growth = 1404,
 		speed = 55,
 		id = 83220,
+		scale = 1,
 		weapon_ID = {
 			50020,
 			50520
@@ -24422,100 +26482,110 @@ pg.aircraft_template = {
 		}
 	},
 	[83221] = {
+		hp_growth = 1615,
 		id = 83221,
 		base = 83220,
 		max_hp = 42,
-		hp_growth = 1615,
+		scale = 1,
 		weapon_ID = {
 			50021,
 			50521
 		}
 	},
 	[83222] = {
+		hp_growth = 1826,
 		id = 83222,
 		base = 83220,
 		max_hp = 47,
-		hp_growth = 1826,
+		scale = 1,
 		weapon_ID = {
 			50022,
 			50522
 		}
 	},
 	[83223] = {
+		hp_growth = 2036,
 		id = 83223,
 		base = 83220,
 		max_hp = 53,
-		hp_growth = 2036,
+		scale = 1,
 		weapon_ID = {
 			50023,
 			50523
 		}
 	},
 	[83224] = {
+		hp_growth = 2247,
 		id = 83224,
 		base = 83220,
 		max_hp = 58,
-		hp_growth = 2247,
+		scale = 1,
 		weapon_ID = {
 			50024,
 			50524
 		}
 	},
 	[83225] = {
+		hp_growth = 2458,
 		id = 83225,
 		base = 83220,
 		max_hp = 64,
-		hp_growth = 2458,
+		scale = 1,
 		weapon_ID = {
 			50025,
 			50525
 		}
 	},
 	[83226] = {
+		hp_growth = 2669,
 		id = 83226,
 		base = 83220,
 		max_hp = 69,
-		hp_growth = 2669,
+		scale = 1,
 		weapon_ID = {
 			50026,
 			50526
 		}
 	},
 	[83227] = {
+		hp_growth = 2879,
 		id = 83227,
 		base = 83220,
 		max_hp = 75,
-		hp_growth = 2879,
+		scale = 1,
 		weapon_ID = {
 			50027,
 			50527
 		}
 	},
 	[83228] = {
+		hp_growth = 3090,
 		id = 83228,
 		base = 83220,
 		max_hp = 80,
-		hp_growth = 3090,
+		scale = 1,
 		weapon_ID = {
 			50028,
 			50528
 		}
 	},
 	[83229] = {
+		hp_growth = 3301,
 		id = 83229,
 		base = 83220,
 		max_hp = 86,
-		hp_growth = 3301,
+		scale = 1,
 		weapon_ID = {
 			50029,
 			50529
 		}
 	},
 	[83230] = {
+		hp_growth = 3511,
 		id = 83230,
 		base = 83220,
 		max_hp = 91,
-		hp_growth = 3511,
+		scale = 1,
 		weapon_ID = {
 			50030,
 			50530
@@ -24529,9 +26599,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 70,
 		dodge = 0.315,
-		type = 1,
-		dodge_limit = 9,
 		attack_power = 2,
+		dodge_limit = 9,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan52",
 		funnel_behavior = "",
@@ -24539,6 +26609,7 @@ pg.aircraft_template = {
 		hp_growth = 1532,
 		speed = 55,
 		id = 83240,
+		scale = 1,
 		weapon_ID = {
 			50040,
 			50540
@@ -24596,100 +26667,110 @@ pg.aircraft_template = {
 		}
 	},
 	[83241] = {
+		hp_growth = 1762,
 		id = 83241,
 		base = 83240,
 		max_hp = 46,
-		hp_growth = 1762,
+		scale = 1,
 		weapon_ID = {
 			50041,
 			50541
 		}
 	},
 	[83242] = {
+		hp_growth = 1992,
 		id = 83242,
 		base = 83240,
 		max_hp = 52,
-		hp_growth = 1992,
+		scale = 1,
 		weapon_ID = {
 			50042,
 			50542
 		}
 	},
 	[83243] = {
+		hp_growth = 2222,
 		id = 83243,
 		base = 83240,
 		max_hp = 58,
-		hp_growth = 2222,
+		scale = 1,
 		weapon_ID = {
 			50043,
 			50543
 		}
 	},
 	[83244] = {
+		hp_growth = 2451,
 		id = 83244,
 		base = 83240,
 		max_hp = 64,
-		hp_growth = 2451,
+		scale = 1,
 		weapon_ID = {
 			50044,
 			50544
 		}
 	},
 	[83245] = {
+		hp_growth = 2681,
 		id = 83245,
 		base = 83240,
 		max_hp = 70,
-		hp_growth = 2681,
+		scale = 1,
 		weapon_ID = {
 			50045,
 			50545
 		}
 	},
 	[83246] = {
+		hp_growth = 2911,
 		id = 83246,
 		base = 83240,
 		max_hp = 76,
-		hp_growth = 2911,
+		scale = 1,
 		weapon_ID = {
 			50046,
 			50546
 		}
 	},
 	[83247] = {
+		hp_growth = 3141,
 		id = 83247,
 		base = 83240,
 		max_hp = 82,
-		hp_growth = 3141,
+		scale = 1,
 		weapon_ID = {
 			50047,
 			50547
 		}
 	},
 	[83248] = {
+		hp_growth = 3371,
 		id = 83248,
 		base = 83240,
 		max_hp = 88,
-		hp_growth = 3371,
+		scale = 1,
 		weapon_ID = {
 			50048,
 			50548
 		}
 	},
 	[83249] = {
+		hp_growth = 3601,
 		id = 83249,
 		base = 83240,
 		max_hp = 94,
-		hp_growth = 3601,
+		scale = 1,
 		weapon_ID = {
 			50049,
 			50549
 		}
 	},
 	[83250] = {
+		hp_growth = 3830,
 		id = 83250,
 		base = 83240,
 		max_hp = 100,
-		hp_growth = 3830,
+		scale = 1,
 		weapon_ID = {
 			50050,
 			50550
@@ -24703,9 +26784,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 162,
 		dodge = 0.321,
-		type = 1,
-		dodge_limit = 9,
 		attack_power = 2,
+		dodge_limit = 9,
+		type = 1,
 		AP_growth = 2000,
 		icon = "liefeng",
 		funnel_behavior = "",
@@ -24713,6 +26794,7 @@ pg.aircraft_template = {
 		hp_growth = 1277,
 		speed = 60,
 		id = 83300,
+		scale = 1,
 		weapon_ID = {
 			59500
 		},
@@ -24769,55 +26851,61 @@ pg.aircraft_template = {
 		}
 	},
 	[83301] = {
+		hp_growth = 1468,
 		id = 83301,
 		base = 83300,
 		max_hp = 38,
-		hp_growth = 1468,
+		scale = 1,
 		weapon_ID = {
 			59501
 		}
 	},
 	[83302] = {
+		hp_growth = 1660,
 		id = 83302,
 		base = 83300,
 		max_hp = 43,
-		hp_growth = 1660,
+		scale = 1,
 		weapon_ID = {
 			59502
 		}
 	},
 	[83303] = {
+		hp_growth = 1851,
 		id = 83303,
 		base = 83300,
 		max_hp = 48,
-		hp_growth = 1851,
+		scale = 1,
 		weapon_ID = {
 			59503
 		}
 	},
 	[83304] = {
+		hp_growth = 2043,
 		id = 83304,
 		base = 83300,
 		max_hp = 53,
-		hp_growth = 2043,
+		scale = 1,
 		weapon_ID = {
 			59504
 		}
 	},
 	[83305] = {
+		hp_growth = 2234,
 		id = 83305,
 		base = 83300,
 		max_hp = 58,
-		hp_growth = 2234,
+		scale = 1,
 		weapon_ID = {
 			59505
 		}
 	},
 	[83306] = {
+		hp_growth = 2426,
 		id = 83306,
 		base = 83300,
 		max_hp = 63,
-		hp_growth = 2426,
+		scale = 1,
 		weapon_ID = {
 			59506
 		}
@@ -24830,9 +26918,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 162,
 		dodge = 0.309,
-		type = 1,
-		dodge_limit = 9.5,
 		attack_power = 2,
+		dodge_limit = 9.5,
+		type = 1,
 		AP_growth = 2000,
 		icon = "liefeng",
 		funnel_behavior = "",
@@ -24840,6 +26928,7 @@ pg.aircraft_template = {
 		hp_growth = 1404,
 		speed = 60,
 		id = 83320,
+		scale = 1,
 		weapon_ID = {
 			59520
 		},
@@ -24896,91 +26985,101 @@ pg.aircraft_template = {
 		}
 	},
 	[83321] = {
+		hp_growth = 1615,
 		id = 83321,
 		base = 83320,
 		max_hp = 42,
-		hp_growth = 1615,
+		scale = 1,
 		weapon_ID = {
 			59521
 		}
 	},
 	[83322] = {
+		hp_growth = 1826,
 		id = 83322,
 		base = 83320,
 		max_hp = 47,
-		hp_growth = 1826,
+		scale = 1,
 		weapon_ID = {
 			59522
 		}
 	},
 	[83323] = {
+		hp_growth = 2036,
 		id = 83323,
 		base = 83320,
 		max_hp = 53,
-		hp_growth = 2036,
+		scale = 1,
 		weapon_ID = {
 			59523
 		}
 	},
 	[83324] = {
+		hp_growth = 2247,
 		id = 83324,
 		base = 83320,
 		max_hp = 58,
-		hp_growth = 2247,
+		scale = 1,
 		weapon_ID = {
 			59524
 		}
 	},
 	[83325] = {
+		hp_growth = 2458,
 		id = 83325,
 		base = 83320,
 		max_hp = 64,
-		hp_growth = 2458,
+		scale = 1,
 		weapon_ID = {
 			59525
 		}
 	},
 	[83326] = {
+		hp_growth = 2669,
 		id = 83326,
 		base = 83320,
 		max_hp = 69,
-		hp_growth = 2669,
+		scale = 1,
 		weapon_ID = {
 			59526
 		}
 	},
 	[83327] = {
+		hp_growth = 2879,
 		id = 83327,
 		base = 83320,
 		max_hp = 75,
-		hp_growth = 2879,
+		scale = 1,
 		weapon_ID = {
 			59527
 		}
 	},
 	[83328] = {
+		hp_growth = 3090,
 		id = 83328,
 		base = 83320,
 		max_hp = 80,
-		hp_growth = 3090,
+		scale = 1,
 		weapon_ID = {
 			59528
 		}
 	},
 	[83329] = {
+		hp_growth = 3301,
 		id = 83329,
 		base = 83320,
 		max_hp = 86,
-		hp_growth = 3301,
+		scale = 1,
 		weapon_ID = {
 			59529
 		}
 	},
 	[83330] = {
+		hp_growth = 3511,
 		id = 83330,
 		base = 83320,
 		max_hp = 91,
-		hp_growth = 3511,
+		scale = 1,
 		weapon_ID = {
 			59530
 		}
@@ -24993,9 +27092,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 162,
 		dodge = 0.297,
-		type = 1,
-		dodge_limit = 10,
 		attack_power = 2,
+		dodge_limit = 10,
+		type = 1,
 		AP_growth = 2000,
 		icon = "liefeng",
 		funnel_behavior = "",
@@ -25003,6 +27102,7 @@ pg.aircraft_template = {
 		hp_growth = 1532,
 		speed = 60,
 		id = 83340,
+		scale = 1,
 		weapon_ID = {
 			59540
 		},
@@ -25059,91 +27159,101 @@ pg.aircraft_template = {
 		}
 	},
 	[83341] = {
+		hp_growth = 1762,
 		id = 83341,
 		base = 83340,
 		max_hp = 46,
-		hp_growth = 1762,
+		scale = 1,
 		weapon_ID = {
 			59541
 		}
 	},
 	[83342] = {
+		hp_growth = 1992,
 		id = 83342,
 		base = 83340,
 		max_hp = 52,
-		hp_growth = 1992,
+		scale = 1,
 		weapon_ID = {
 			59542
 		}
 	},
 	[83343] = {
+		hp_growth = 2222,
 		id = 83343,
 		base = 83340,
 		max_hp = 58,
-		hp_growth = 2222,
+		scale = 1,
 		weapon_ID = {
 			59543
 		}
 	},
 	[83344] = {
+		hp_growth = 2451,
 		id = 83344,
 		base = 83340,
 		max_hp = 64,
-		hp_growth = 2451,
+		scale = 1,
 		weapon_ID = {
 			59544
 		}
 	},
 	[83345] = {
+		hp_growth = 2681,
 		id = 83345,
 		base = 83340,
 		max_hp = 70,
-		hp_growth = 2681,
+		scale = 1,
 		weapon_ID = {
 			59545
 		}
 	},
 	[83346] = {
+		hp_growth = 2911,
 		id = 83346,
 		base = 83340,
 		max_hp = 76,
-		hp_growth = 2911,
+		scale = 1,
 		weapon_ID = {
 			59546
 		}
 	},
 	[83347] = {
+		hp_growth = 3141,
 		id = 83347,
 		base = 83340,
 		max_hp = 82,
-		hp_growth = 3141,
+		scale = 1,
 		weapon_ID = {
 			59547
 		}
 	},
 	[83348] = {
+		hp_growth = 3371,
 		id = 83348,
 		base = 83340,
 		max_hp = 88,
-		hp_growth = 3371,
+		scale = 1,
 		weapon_ID = {
 			59548
 		}
 	},
 	[83349] = {
+		hp_growth = 3601,
 		id = 83349,
 		base = 83340,
 		max_hp = 94,
-		hp_growth = 3601,
+		scale = 1,
 		weapon_ID = {
 			59549
 		}
 	},
 	[83350] = {
+		hp_growth = 3830,
 		id = 83350,
 		base = 83340,
 		max_hp = 100,
-		hp_growth = 3830,
+		scale = 1,
 		weapon_ID = {
 			59550
 		}
@@ -25156,9 +27266,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 42,
 		dodge = 0.357,
-		type = 1,
-		dodge_limit = 8,
 		attack_power = 2,
+		dodge_limit = 8,
+		type = 1,
 		AP_growth = 2000,
 		icon = "BF109T",
 		funnel_behavior = "",
@@ -25166,6 +27276,7 @@ pg.aircraft_template = {
 		hp_growth = 1210,
 		speed = 50,
 		id = 84000,
+		scale = 1,
 		weapon_ID = {
 			59000,
 			59400
@@ -25223,30 +27334,33 @@ pg.aircraft_template = {
 		}
 	},
 	[84001] = {
+		hp_growth = 1391,
 		id = 84001,
 		base = 84000,
 		max_hp = 36,
-		hp_growth = 1391,
+		scale = 1,
 		weapon_ID = {
 			59001,
 			59401
 		}
 	},
 	[84002] = {
+		hp_growth = 1572,
 		id = 84002,
 		base = 84000,
 		max_hp = 41,
-		hp_growth = 1572,
+		scale = 1,
 		weapon_ID = {
 			59002,
 			59402
 		}
 	},
 	[84003] = {
+		hp_growth = 1754,
 		id = 84003,
 		base = 84000,
 		max_hp = 46,
-		hp_growth = 1754,
+		scale = 1,
 		weapon_ID = {
 			59003,
 			59403
@@ -25260,9 +27374,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 42,
 		dodge = 0.345,
-		type = 1,
-		dodge_limit = 8.5,
 		attack_power = 2,
+		dodge_limit = 8.5,
+		type = 1,
 		AP_growth = 2000,
 		icon = "BF109T",
 		funnel_behavior = "",
@@ -25270,6 +27384,7 @@ pg.aircraft_template = {
 		hp_growth = 1344,
 		speed = 50,
 		id = 84020,
+		scale = 1,
 		weapon_ID = {
 			59020,
 			59420
@@ -25327,60 +27442,66 @@ pg.aircraft_template = {
 		}
 	},
 	[84021] = {
+		hp_growth = 1546,
 		id = 84021,
 		base = 84020,
 		max_hp = 40,
-		hp_growth = 1546,
+		scale = 1,
 		weapon_ID = {
 			59021,
 			59421
 		}
 	},
 	[84022] = {
+		hp_growth = 1747,
 		id = 84022,
 		base = 84020,
 		max_hp = 45,
-		hp_growth = 1747,
+		scale = 1,
 		weapon_ID = {
 			59022,
 			59422
 		}
 	},
 	[84023] = {
+		hp_growth = 1949,
 		id = 84023,
 		base = 84020,
 		max_hp = 51,
-		hp_growth = 1949,
+		scale = 1,
 		weapon_ID = {
 			59023,
 			59423
 		}
 	},
 	[84024] = {
+		hp_growth = 2150,
 		id = 84024,
 		base = 84020,
 		max_hp = 56,
-		hp_growth = 2150,
+		scale = 1,
 		weapon_ID = {
 			59024,
 			59424
 		}
 	},
 	[84025] = {
+		hp_growth = 2352,
 		id = 84025,
 		base = 84020,
 		max_hp = 61,
-		hp_growth = 2352,
+		scale = 1,
 		weapon_ID = {
 			59025,
 			59425
 		}
 	},
 	[84026] = {
+		hp_growth = 2554,
 		id = 84026,
 		base = 84020,
 		max_hp = 66,
-		hp_growth = 2554,
+		scale = 1,
 		weapon_ID = {
 			59026,
 			59426
@@ -25394,9 +27515,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 42,
 		dodge = 0.333,
-		type = 1,
-		dodge_limit = 9,
 		attack_power = 2,
+		dodge_limit = 9,
+		type = 1,
 		AP_growth = 2000,
 		icon = "BF109T",
 		funnel_behavior = "",
@@ -25404,6 +27525,7 @@ pg.aircraft_template = {
 		hp_growth = 1478,
 		speed = 50,
 		id = 84040,
+		scale = 1,
 		weapon_ID = {
 			59040,
 			59440
@@ -25461,100 +27583,110 @@ pg.aircraft_template = {
 		}
 	},
 	[84041] = {
+		hp_growth = 1700,
 		id = 84041,
 		base = 84040,
 		max_hp = 44,
-		hp_growth = 1700,
+		scale = 1,
 		weapon_ID = {
 			59041,
 			59441
 		}
 	},
 	[84042] = {
+		hp_growth = 1922,
 		id = 84042,
 		base = 84040,
 		max_hp = 50,
-		hp_growth = 1922,
+		scale = 1,
 		weapon_ID = {
 			59042,
 			59442
 		}
 	},
 	[84043] = {
+		hp_growth = 2144,
 		id = 84043,
 		base = 84040,
 		max_hp = 56,
-		hp_growth = 2144,
+		scale = 1,
 		weapon_ID = {
 			59043,
 			59443
 		}
 	},
 	[84044] = {
+		hp_growth = 2365,
 		id = 84044,
 		base = 84040,
 		max_hp = 62,
-		hp_growth = 2365,
+		scale = 1,
 		weapon_ID = {
 			59044,
 			59444
 		}
 	},
 	[84045] = {
+		hp_growth = 2587,
 		id = 84045,
 		base = 84040,
 		max_hp = 67,
-		hp_growth = 2587,
+		scale = 1,
 		weapon_ID = {
 			59045,
 			59445
 		}
 	},
 	[84046] = {
+		hp_growth = 2809,
 		id = 84046,
 		base = 84040,
 		max_hp = 73,
-		hp_growth = 2809,
+		scale = 1,
 		weapon_ID = {
 			59046,
 			59446
 		}
 	},
 	[84047] = {
+		hp_growth = 3031,
 		id = 84047,
 		base = 84040,
 		max_hp = 79,
-		hp_growth = 3031,
+		scale = 1,
 		weapon_ID = {
 			59047,
 			59447
 		}
 	},
 	[84048] = {
+		hp_growth = 3252,
 		id = 84048,
 		base = 84040,
 		max_hp = 85,
-		hp_growth = 3252,
+		scale = 1,
 		weapon_ID = {
 			59048,
 			59448
 		}
 	},
 	[84049] = {
+		hp_growth = 3474,
 		id = 84049,
 		base = 84040,
 		max_hp = 90,
-		hp_growth = 3474,
+		scale = 1,
 		weapon_ID = {
 			59049,
 			59449
 		}
 	},
 	[84050] = {
+		hp_growth = 3696,
 		id = 84050,
 		base = 84040,
 		max_hp = 96,
-		hp_growth = 3696,
+		scale = 1,
 		weapon_ID = {
 			59050,
 			59450
@@ -25568,9 +27700,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 65,
 		dodge = 0.339,
-		type = 1,
-		dodge_limit = 9,
 		attack_power = 2,
+		dodge_limit = 9,
+		type = 1,
 		AP_growth = 2000,
 		icon = "Me155A",
 		funnel_behavior = "",
@@ -25578,6 +27710,7 @@ pg.aircraft_template = {
 		hp_growth = 1344,
 		speed = 50,
 		id = 84100,
+		scale = 1,
 		weapon_ID = {
 			59100,
 			59200
@@ -25635,60 +27768,66 @@ pg.aircraft_template = {
 		}
 	},
 	[84101] = {
+		hp_growth = 1546,
 		id = 84101,
 		base = 84100,
 		max_hp = 40,
-		hp_growth = 1546,
+		scale = 1,
 		weapon_ID = {
 			59101,
 			59201
 		}
 	},
 	[84102] = {
+		hp_growth = 1747,
 		id = 84102,
 		base = 84100,
 		max_hp = 45,
-		hp_growth = 1747,
+		scale = 1,
 		weapon_ID = {
 			59102,
 			59202
 		}
 	},
 	[84103] = {
+		hp_growth = 1949,
 		id = 84103,
 		base = 84100,
 		max_hp = 51,
-		hp_growth = 1949,
+		scale = 1,
 		weapon_ID = {
 			59103,
 			59203
 		}
 	},
 	[84104] = {
+		hp_growth = 2150,
 		id = 84104,
 		base = 84100,
 		max_hp = 56,
-		hp_growth = 2150,
+		scale = 1,
 		weapon_ID = {
 			59104,
 			59204
 		}
 	},
 	[84105] = {
+		hp_growth = 2352,
 		id = 84105,
 		base = 84100,
 		max_hp = 61,
-		hp_growth = 2352,
+		scale = 1,
 		weapon_ID = {
 			59105,
 			59205
 		}
 	},
 	[84106] = {
+		hp_growth = 2554,
 		id = 84106,
 		base = 84100,
 		max_hp = 66,
-		hp_growth = 2554,
+		scale = 1,
 		weapon_ID = {
 			59106,
 			59206
@@ -25702,9 +27841,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 65,
 		dodge = 0.327,
-		type = 1,
-		dodge_limit = 9.5,
 		attack_power = 2,
+		dodge_limit = 9.5,
+		type = 1,
 		AP_growth = 2000,
 		icon = "Me155A",
 		funnel_behavior = "",
@@ -25712,6 +27851,7 @@ pg.aircraft_template = {
 		hp_growth = 1478,
 		speed = 50,
 		id = 84120,
+		scale = 1,
 		weapon_ID = {
 			59120,
 			59220
@@ -25769,100 +27909,110 @@ pg.aircraft_template = {
 		}
 	},
 	[84121] = {
+		hp_growth = 1700,
 		id = 84121,
 		base = 84120,
 		max_hp = 44,
-		hp_growth = 1700,
+		scale = 1,
 		weapon_ID = {
 			59121,
 			59221
 		}
 	},
 	[84122] = {
+		hp_growth = 1922,
 		id = 84122,
 		base = 84120,
 		max_hp = 50,
-		hp_growth = 1922,
+		scale = 1,
 		weapon_ID = {
 			59122,
 			59222
 		}
 	},
 	[84123] = {
+		hp_growth = 2144,
 		id = 84123,
 		base = 84120,
 		max_hp = 56,
-		hp_growth = 2144,
+		scale = 1,
 		weapon_ID = {
 			59123,
 			59223
 		}
 	},
 	[84124] = {
+		hp_growth = 2365,
 		id = 84124,
 		base = 84120,
 		max_hp = 62,
-		hp_growth = 2365,
+		scale = 1,
 		weapon_ID = {
 			59124,
 			59224
 		}
 	},
 	[84125] = {
+		hp_growth = 2587,
 		id = 84125,
 		base = 84120,
 		max_hp = 67,
-		hp_growth = 2587,
+		scale = 1,
 		weapon_ID = {
 			59125,
 			59225
 		}
 	},
 	[84126] = {
+		hp_growth = 2809,
 		id = 84126,
 		base = 84120,
 		max_hp = 73,
-		hp_growth = 2809,
+		scale = 1,
 		weapon_ID = {
 			59126,
 			59226
 		}
 	},
 	[84127] = {
+		hp_growth = 3031,
 		id = 84127,
 		base = 84120,
 		max_hp = 79,
-		hp_growth = 3031,
+		scale = 1,
 		weapon_ID = {
 			59127,
 			59227
 		}
 	},
 	[84128] = {
+		hp_growth = 3252,
 		id = 84128,
 		base = 84120,
 		max_hp = 85,
-		hp_growth = 3252,
+		scale = 1,
 		weapon_ID = {
 			59128,
 			59228
 		}
 	},
 	[84129] = {
+		hp_growth = 3474,
 		id = 84129,
 		base = 84120,
 		max_hp = 90,
-		hp_growth = 3474,
+		scale = 1,
 		weapon_ID = {
 			59129,
 			59229
 		}
 	},
 	[84130] = {
+		hp_growth = 3696,
 		id = 84130,
 		base = 84120,
 		max_hp = 96,
-		hp_growth = 3696,
+		scale = 1,
 		weapon_ID = {
 			59130,
 			59230
@@ -25876,9 +28026,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 65,
 		dodge = 0.315,
-		type = 1,
-		dodge_limit = 10,
 		attack_power = 2,
+		dodge_limit = 10,
+		type = 1,
 		AP_growth = 2000,
 		icon = "Me155A",
 		funnel_behavior = "",
@@ -25886,6 +28036,7 @@ pg.aircraft_template = {
 		hp_growth = 1613,
 		speed = 50,
 		id = 84140,
+		scale = 1,
 		weapon_ID = {
 			59140,
 			59240
@@ -25943,100 +28094,110 @@ pg.aircraft_template = {
 		}
 	},
 	[84141] = {
+		hp_growth = 1855,
 		id = 84141,
 		base = 84140,
 		max_hp = 48,
-		hp_growth = 1855,
+		scale = 1,
 		weapon_ID = {
 			59141,
 			59241
 		}
 	},
 	[84142] = {
+		hp_growth = 2097,
 		id = 84142,
 		base = 84140,
 		max_hp = 55,
-		hp_growth = 2097,
+		scale = 1,
 		weapon_ID = {
 			59142,
 			59242
 		}
 	},
 	[84143] = {
+		hp_growth = 2339,
 		id = 84143,
 		base = 84140,
 		max_hp = 61,
-		hp_growth = 2339,
+		scale = 1,
 		weapon_ID = {
 			59143,
 			59243
 		}
 	},
 	[84144] = {
+		hp_growth = 2580,
 		id = 84144,
 		base = 84140,
 		max_hp = 67,
-		hp_growth = 2580,
+		scale = 1,
 		weapon_ID = {
 			59144,
 			59244
 		}
 	},
 	[84145] = {
+		hp_growth = 2822,
 		id = 84145,
 		base = 84140,
 		max_hp = 73,
-		hp_growth = 2822,
+		scale = 1,
 		weapon_ID = {
 			59145,
 			59245
 		}
 	},
 	[84146] = {
+		hp_growth = 3064,
 		id = 84146,
 		base = 84140,
 		max_hp = 80,
-		hp_growth = 3064,
+		scale = 1,
 		weapon_ID = {
 			59146,
 			59246
 		}
 	},
 	[84147] = {
+		hp_growth = 3306,
 		id = 84147,
 		base = 84140,
 		max_hp = 86,
-		hp_growth = 3306,
+		scale = 1,
 		weapon_ID = {
 			59147,
 			59247
 		}
 	},
 	[84148] = {
+		hp_growth = 3548,
 		id = 84148,
 		base = 84140,
 		max_hp = 92,
-		hp_growth = 3548,
+		scale = 1,
 		weapon_ID = {
 			59148,
 			59248
 		}
 	},
 	[84149] = {
+		hp_growth = 3790,
 		id = 84149,
 		base = 84140,
 		max_hp = 99,
-		hp_growth = 3790,
+		scale = 1,
 		weapon_ID = {
 			59149,
 			59249
 		}
 	},
 	[84150] = {
+		hp_growth = 4032,
 		id = 84150,
 		base = 84140,
 		max_hp = 105,
-		hp_growth = 4032,
+		scale = 1,
 		weapon_ID = {
 			59150,
 			59250
@@ -26050,9 +28211,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 39,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "F4F",
 		funnel_behavior = "",
@@ -26060,6 +28221,7 @@ pg.aircraft_template = {
 		hp_growth = 2518,
 		speed = 33,
 		id = 100720,
+		scale = 0.75,
 		weapon_ID = {
 			100700,
 			100705
@@ -26124,9 +28286,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 39,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "F4F",
 		funnel_behavior = "",
@@ -26134,6 +28296,7 @@ pg.aircraft_template = {
 		hp_growth = 2518,
 		speed = 33,
 		id = 100721,
+		scale = 0.75,
 		weapon_ID = {
 			100701,
 			100706
@@ -26198,9 +28361,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 39,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "F4F",
 		funnel_behavior = "",
@@ -26208,6 +28371,7 @@ pg.aircraft_template = {
 		hp_growth = 2518,
 		speed = 33,
 		id = 100722,
+		scale = 0.75,
 		weapon_ID = {
 			100702,
 			100707
@@ -26272,9 +28436,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 39,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "F4F",
 		funnel_behavior = "",
@@ -26282,6 +28446,7 @@ pg.aircraft_template = {
 		hp_growth = 2518,
 		speed = 33,
 		id = 100723,
+		scale = 0.75,
 		weapon_ID = {
 			100703,
 			100708
@@ -26346,9 +28511,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 39,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "F4F",
 		funnel_behavior = "",
@@ -26356,6 +28521,7 @@ pg.aircraft_template = {
 		hp_growth = 2518,
 		speed = 33,
 		id = 100724,
+		scale = 0.75,
 		weapon_ID = {
 			100704,
 			100709
@@ -26420,9 +28586,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 57,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "tbd",
 		funnel_behavior = "",
@@ -26430,6 +28596,7 @@ pg.aircraft_template = {
 		hp_growth = 3013,
 		speed = 30,
 		id = 100725,
+		scale = 0.75,
 		weapon_ID = {
 			100710
 		},
@@ -26493,9 +28660,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 57,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "tbd",
 		funnel_behavior = "",
@@ -26503,6 +28670,7 @@ pg.aircraft_template = {
 		hp_growth = 3013,
 		speed = 30,
 		id = 100726,
+		scale = 0.75,
 		weapon_ID = {
 			100711
 		},
@@ -26566,9 +28734,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 57,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "tbd",
 		funnel_behavior = "",
@@ -26576,6 +28744,7 @@ pg.aircraft_template = {
 		hp_growth = 3013,
 		speed = 30,
 		id = 100727,
+		scale = 0.75,
 		weapon_ID = {
 			100712
 		},
@@ -26639,9 +28808,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 57,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "tbd",
 		funnel_behavior = "",
@@ -26649,6 +28818,7 @@ pg.aircraft_template = {
 		hp_growth = 3013,
 		speed = 30,
 		id = 100728,
+		scale = 0.75,
 		weapon_ID = {
 			100713
 		},
@@ -26712,9 +28882,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 57,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "tbd",
 		funnel_behavior = "",
@@ -26722,6 +28892,7 @@ pg.aircraft_template = {
 		hp_growth = 3013,
 		speed = 30,
 		id = 100729,
+		scale = 0.75,
 		weapon_ID = {
 			100714
 		},
@@ -26785,9 +28956,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 78,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "sbdwuwei",
 		funnel_behavior = "",
@@ -26795,6 +28966,7 @@ pg.aircraft_template = {
 		hp_growth = 3377,
 		speed = 30,
 		id = 100730,
+		scale = 0.75,
 		weapon_ID = {
 			100715
 		},
@@ -26858,9 +29030,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 78,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "sbdwuwei",
 		funnel_behavior = "",
@@ -26868,6 +29040,7 @@ pg.aircraft_template = {
 		hp_growth = 3377,
 		speed = 30,
 		id = 100731,
+		scale = 0.75,
 		weapon_ID = {
 			100716
 		},
@@ -26931,9 +29104,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 78,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "sbdwuwei",
 		funnel_behavior = "",
@@ -26941,6 +29114,7 @@ pg.aircraft_template = {
 		hp_growth = 3377,
 		speed = 30,
 		id = 100732,
+		scale = 0.75,
 		weapon_ID = {
 			100717
 		},
@@ -27004,9 +29178,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 78,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "sbdwuwei",
 		funnel_behavior = "",
@@ -27014,6 +29188,7 @@ pg.aircraft_template = {
 		hp_growth = 3377,
 		speed = 30,
 		id = 100733,
+		scale = 0.75,
 		weapon_ID = {
 			100718
 		},
@@ -27077,9 +29252,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 78,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "sbdwuwei",
 		funnel_behavior = "",
@@ -27087,6 +29262,7 @@ pg.aircraft_template = {
 		hp_growth = 3377,
 		speed = 30,
 		id = 100734,
+		scale = 0.75,
 		weapon_ID = {
 			100719
 		},
@@ -27150,9 +29326,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 39,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "haiduya",
 		funnel_behavior = "",
@@ -27160,6 +29336,7 @@ pg.aircraft_template = {
 		hp_growth = 2518,
 		speed = 33,
 		id = 100735,
+		scale = 0.75,
 		weapon_ID = {
 			100700,
 			100705
@@ -27224,9 +29401,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 39,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "haiduya",
 		funnel_behavior = "",
@@ -27234,6 +29411,7 @@ pg.aircraft_template = {
 		hp_growth = 2518,
 		speed = 33,
 		id = 100736,
+		scale = 0.75,
 		weapon_ID = {
 			100701,
 			100706
@@ -27298,9 +29476,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 39,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "haiduya",
 		funnel_behavior = "",
@@ -27308,6 +29486,7 @@ pg.aircraft_template = {
 		hp_growth = 2518,
 		speed = 33,
 		id = 100737,
+		scale = 0.75,
 		weapon_ID = {
 			100702,
 			100707
@@ -27372,9 +29551,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 39,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "haiduya",
 		funnel_behavior = "",
@@ -27382,6 +29561,7 @@ pg.aircraft_template = {
 		hp_growth = 2518,
 		speed = 33,
 		id = 100738,
+		scale = 0.75,
 		weapon_ID = {
 			100703,
 			100708
@@ -27446,9 +29626,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 39,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "haiduya",
 		funnel_behavior = "",
@@ -27456,6 +29636,7 @@ pg.aircraft_template = {
 		hp_growth = 2518,
 		speed = 33,
 		id = 100739,
+		scale = 0.75,
 		weapon_ID = {
 			100704,
 			100709
@@ -27520,9 +29701,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 57,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "suoyu",
 		funnel_behavior = "",
@@ -27530,6 +29711,7 @@ pg.aircraft_template = {
 		hp_growth = 3013,
 		speed = 30,
 		id = 100740,
+		scale = 0.75,
 		weapon_ID = {
 			100710
 		},
@@ -27593,9 +29775,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 57,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "suoyu",
 		funnel_behavior = "",
@@ -27603,6 +29785,7 @@ pg.aircraft_template = {
 		hp_growth = 3013,
 		speed = 30,
 		id = 100741,
+		scale = 0.75,
 		weapon_ID = {
 			100711
 		},
@@ -27666,9 +29849,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 57,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "suoyu",
 		funnel_behavior = "",
@@ -27676,6 +29859,7 @@ pg.aircraft_template = {
 		hp_growth = 3013,
 		speed = 30,
 		id = 100742,
+		scale = 0.75,
 		weapon_ID = {
 			100712
 		},
@@ -27739,9 +29923,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 57,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "suoyu",
 		funnel_behavior = "",
@@ -27749,6 +29933,7 @@ pg.aircraft_template = {
 		hp_growth = 3013,
 		speed = 30,
 		id = 100743,
+		scale = 0.75,
 		weapon_ID = {
 			100713
 		},
@@ -27812,9 +29997,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 57,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "suoyu",
 		funnel_behavior = "",
@@ -27822,6 +30007,7 @@ pg.aircraft_template = {
 		hp_growth = 3013,
 		speed = 30,
 		id = 100744,
+		scale = 0.75,
 		weapon_ID = {
 			100714
 		},
@@ -27885,9 +30071,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 78,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "haiyan",
 		funnel_behavior = "",
@@ -27895,6 +30081,7 @@ pg.aircraft_template = {
 		hp_growth = 3377,
 		speed = 30,
 		id = 100745,
+		scale = 0.75,
 		weapon_ID = {
 			100715
 		},
@@ -27958,9 +30145,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 78,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "haiyan",
 		funnel_behavior = "",
@@ -27968,6 +30155,7 @@ pg.aircraft_template = {
 		hp_growth = 3377,
 		speed = 30,
 		id = 100746,
+		scale = 0.75,
 		weapon_ID = {
 			100716
 		},
@@ -28031,9 +30219,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 78,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "haiyan",
 		funnel_behavior = "",
@@ -28041,6 +30229,7 @@ pg.aircraft_template = {
 		hp_growth = 3377,
 		speed = 30,
 		id = 100747,
+		scale = 0.75,
 		weapon_ID = {
 			100717
 		},
@@ -28104,9 +30293,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 78,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "haiyan",
 		funnel_behavior = "",
@@ -28114,6 +30303,7 @@ pg.aircraft_template = {
 		hp_growth = 3377,
 		speed = 30,
 		id = 100748,
+		scale = 0.75,
 		weapon_ID = {
 			100718
 		},
@@ -28177,9 +30367,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 78,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "haiyan",
 		funnel_behavior = "",
@@ -28187,6 +30377,7 @@ pg.aircraft_template = {
 		hp_growth = 3377,
 		speed = 30,
 		id = 100749,
+		scale = 0.75,
 		weapon_ID = {
 			100719
 		},
@@ -28250,9 +30441,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 39,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -28260,6 +30451,7 @@ pg.aircraft_template = {
 		hp_growth = 2518,
 		speed = 33,
 		id = 100750,
+		scale = 0.75,
 		weapon_ID = {
 			100700,
 			100705
@@ -28324,9 +30516,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 39,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -28334,6 +30526,7 @@ pg.aircraft_template = {
 		hp_growth = 2518,
 		speed = 33,
 		id = 100751,
+		scale = 0.75,
 		weapon_ID = {
 			100701,
 			100706
@@ -28398,9 +30591,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 39,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -28408,6 +30601,7 @@ pg.aircraft_template = {
 		hp_growth = 2518,
 		speed = 33,
 		id = 100752,
+		scale = 0.75,
 		weapon_ID = {
 			100702,
 			100707
@@ -28472,9 +30666,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 39,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -28482,6 +30676,7 @@ pg.aircraft_template = {
 		hp_growth = 2518,
 		speed = 33,
 		id = 100753,
+		scale = 0.75,
 		weapon_ID = {
 			100703,
 			100708
@@ -28546,9 +30741,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 39,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -28556,6 +30751,7 @@ pg.aircraft_template = {
 		hp_growth = 2518,
 		speed = 33,
 		id = 100754,
+		scale = 0.75,
 		weapon_ID = {
 			100704,
 			100709
@@ -28620,9 +30816,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 57,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -28630,6 +30826,7 @@ pg.aircraft_template = {
 		hp_growth = 3013,
 		speed = 30,
 		id = 100755,
+		scale = 0.75,
 		weapon_ID = {
 			100710
 		},
@@ -28693,9 +30890,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 57,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -28703,6 +30900,7 @@ pg.aircraft_template = {
 		hp_growth = 3013,
 		speed = 30,
 		id = 100756,
+		scale = 0.75,
 		weapon_ID = {
 			100711
 		},
@@ -28766,9 +30964,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 57,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -28776,6 +30974,7 @@ pg.aircraft_template = {
 		hp_growth = 3013,
 		speed = 30,
 		id = 100757,
+		scale = 0.75,
 		weapon_ID = {
 			100712
 		},
@@ -28839,9 +31038,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 57,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -28849,6 +31048,7 @@ pg.aircraft_template = {
 		hp_growth = 3013,
 		speed = 30,
 		id = 100758,
+		scale = 0.75,
 		weapon_ID = {
 			100713
 		},
@@ -28912,9 +31112,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 57,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -28922,6 +31122,7 @@ pg.aircraft_template = {
 		hp_growth = 3013,
 		speed = 30,
 		id = 100759,
+		scale = 0.75,
 		weapon_ID = {
 			100714
 		},
@@ -28985,9 +31186,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 78,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -28995,6 +31196,7 @@ pg.aircraft_template = {
 		hp_growth = 3377,
 		speed = 30,
 		id = 100760,
+		scale = 0.75,
 		weapon_ID = {
 			100715
 		},
@@ -29058,9 +31260,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 78,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -29068,6 +31270,7 @@ pg.aircraft_template = {
 		hp_growth = 3377,
 		speed = 30,
 		id = 100761,
+		scale = 0.75,
 		weapon_ID = {
 			100716
 		},
@@ -29131,9 +31334,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 78,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -29141,6 +31344,7 @@ pg.aircraft_template = {
 		hp_growth = 3377,
 		speed = 30,
 		id = 100762,
+		scale = 0.75,
 		weapon_ID = {
 			100717
 		},
@@ -29204,9 +31408,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 78,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -29214,6 +31418,7 @@ pg.aircraft_template = {
 		hp_growth = 3377,
 		speed = 30,
 		id = 100763,
+		scale = 0.75,
 		weapon_ID = {
 			100718
 		},
@@ -29277,9 +31482,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 78,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -29287,6 +31492,7 @@ pg.aircraft_template = {
 		hp_growth = 3377,
 		speed = 30,
 		id = 100764,
+		scale = 0.75,
 		weapon_ID = {
 			100719
 		},
@@ -29350,9 +31556,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 39,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "Me155A",
 		funnel_behavior = "",
@@ -29360,6 +31566,7 @@ pg.aircraft_template = {
 		hp_growth = 2518,
 		speed = 33,
 		id = 100765,
+		scale = 0.75,
 		weapon_ID = {
 			100700,
 			100705
@@ -29424,9 +31631,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 39,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "Me155A",
 		funnel_behavior = "",
@@ -29434,6 +31641,7 @@ pg.aircraft_template = {
 		hp_growth = 2518,
 		speed = 33,
 		id = 100766,
+		scale = 0.75,
 		weapon_ID = {
 			100701,
 			100706
@@ -29498,9 +31706,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 39,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "Me155A",
 		funnel_behavior = "",
@@ -29508,6 +31716,7 @@ pg.aircraft_template = {
 		hp_growth = 2518,
 		speed = 33,
 		id = 100767,
+		scale = 0.75,
 		weapon_ID = {
 			100702,
 			100707
@@ -29572,9 +31781,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 39,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "Me155A",
 		funnel_behavior = "",
@@ -29582,6 +31791,7 @@ pg.aircraft_template = {
 		hp_growth = 2518,
 		speed = 33,
 		id = 100768,
+		scale = 0.75,
 		weapon_ID = {
 			100703,
 			100708
@@ -29646,9 +31856,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 39,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "Me155A",
 		funnel_behavior = "",
@@ -29656,6 +31866,7 @@ pg.aircraft_template = {
 		hp_growth = 2518,
 		speed = 33,
 		id = 100769,
+		scale = 0.75,
 		weapon_ID = {
 			100704,
 			100709
@@ -29720,9 +31931,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 57,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "qibolin",
 		funnel_behavior = "",
@@ -29730,6 +31941,7 @@ pg.aircraft_template = {
 		hp_growth = 3013,
 		speed = 30,
 		id = 100770,
+		scale = 0.75,
 		weapon_ID = {
 			100710
 		},
@@ -29793,9 +32005,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 57,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "qibolin",
 		funnel_behavior = "",
@@ -29803,6 +32015,7 @@ pg.aircraft_template = {
 		hp_growth = 3013,
 		speed = 30,
 		id = 100771,
+		scale = 0.75,
 		weapon_ID = {
 			100711
 		},
@@ -29866,9 +32079,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 57,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "qibolin",
 		funnel_behavior = "",
@@ -29876,6 +32089,7 @@ pg.aircraft_template = {
 		hp_growth = 3013,
 		speed = 30,
 		id = 100772,
+		scale = 0.75,
 		weapon_ID = {
 			100712
 		},
@@ -29939,9 +32153,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 57,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "qibolin",
 		funnel_behavior = "",
@@ -29949,6 +32163,7 @@ pg.aircraft_template = {
 		hp_growth = 3013,
 		speed = 30,
 		id = 100773,
+		scale = 0.75,
 		weapon_ID = {
 			100713
 		},
@@ -30012,9 +32227,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 57,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "qibolin",
 		funnel_behavior = "",
@@ -30022,6 +32237,7 @@ pg.aircraft_template = {
 		hp_growth = 3013,
 		speed = 30,
 		id = 100774,
+		scale = 0.75,
 		weapon_ID = {
 			100714
 		},
@@ -30085,9 +32301,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 78,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "JU87C",
 		funnel_behavior = "",
@@ -30095,6 +32311,7 @@ pg.aircraft_template = {
 		hp_growth = 3377,
 		speed = 30,
 		id = 100775,
+		scale = 0.75,
 		weapon_ID = {
 			100715
 		},
@@ -30158,9 +32375,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 78,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "JU87C",
 		funnel_behavior = "",
@@ -30168,6 +32385,7 @@ pg.aircraft_template = {
 		hp_growth = 3377,
 		speed = 30,
 		id = 100776,
+		scale = 0.75,
 		weapon_ID = {
 			100716
 		},
@@ -30231,9 +32449,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 78,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "JU87C",
 		funnel_behavior = "",
@@ -30241,6 +32459,7 @@ pg.aircraft_template = {
 		hp_growth = 3377,
 		speed = 30,
 		id = 100777,
+		scale = 0.75,
 		weapon_ID = {
 			100717
 		},
@@ -30304,9 +32523,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 78,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "JU87C",
 		funnel_behavior = "",
@@ -30314,6 +32533,7 @@ pg.aircraft_template = {
 		hp_growth = 3377,
 		speed = 30,
 		id = 100778,
+		scale = 0.75,
 		weapon_ID = {
 			100718
 		},
@@ -30377,9 +32597,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 78,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "JU87C",
 		funnel_behavior = "",
@@ -30387,6 +32607,7 @@ pg.aircraft_template = {
 		hp_growth = 3377,
 		speed = 30,
 		id = 100779,
+		scale = 0.75,
 		weapon_ID = {
 			100719
 		},
@@ -30450,9 +32671,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 180,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -30460,6 +32681,7 @@ pg.aircraft_template = {
 		hp_growth = 3377,
 		speed = 30,
 		id = 100800,
+		scale = 0.75,
 		weapon_ID = {
 			100800
 		},
@@ -30523,9 +32745,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 180,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -30533,6 +32755,7 @@ pg.aircraft_template = {
 		hp_growth = 3377,
 		speed = 30,
 		id = 100801,
+		scale = 0.75,
 		weapon_ID = {
 			100801
 		},
@@ -30596,9 +32819,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 180,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -30606,6 +32829,7 @@ pg.aircraft_template = {
 		hp_growth = 3377,
 		speed = 30,
 		id = 100802,
+		scale = 0.75,
 		weapon_ID = {
 			100802
 		},
@@ -30669,9 +32893,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 180,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -30679,6 +32903,7 @@ pg.aircraft_template = {
 		hp_growth = 3377,
 		speed = 30,
 		id = 100803,
+		scale = 0.75,
 		weapon_ID = {
 			100803
 		},
@@ -30742,9 +32967,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 180,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -30752,6 +32977,7 @@ pg.aircraft_template = {
 		hp_growth = 3377,
 		speed = 30,
 		id = 100804,
+		scale = 0.75,
 		weapon_ID = {
 			100804
 		},
@@ -30815,9 +33041,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 150,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -30825,6 +33051,7 @@ pg.aircraft_template = {
 		hp_growth = 3013,
 		speed = 30,
 		id = 100805,
+		scale = 0.75,
 		weapon_ID = {
 			100805
 		},
@@ -30888,9 +33115,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 150,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -30898,6 +33125,7 @@ pg.aircraft_template = {
 		hp_growth = 3013,
 		speed = 30,
 		id = 100806,
+		scale = 0.75,
 		weapon_ID = {
 			100806
 		},
@@ -30961,9 +33189,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 150,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -30971,6 +33199,7 @@ pg.aircraft_template = {
 		hp_growth = 3013,
 		speed = 30,
 		id = 100807,
+		scale = 0.75,
 		weapon_ID = {
 			100807
 		},
@@ -31034,9 +33263,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 150,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -31044,6 +33273,7 @@ pg.aircraft_template = {
 		hp_growth = 3013,
 		speed = 30,
 		id = 100808,
+		scale = 0.75,
 		weapon_ID = {
 			100808
 		},
@@ -31107,9 +33337,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 150,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -31117,6 +33347,7 @@ pg.aircraft_template = {
 		hp_growth = 3013,
 		speed = 30,
 		id = 100809,
+		scale = 0.75,
 		weapon_ID = {
 			100809
 		},
@@ -31180,9 +33411,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 100,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -31190,6 +33421,7 @@ pg.aircraft_template = {
 		hp_growth = 2518,
 		speed = 33,
 		id = 100810,
+		scale = 0.75,
 		weapon_ID = {
 			100810,
 			100815
@@ -31254,9 +33486,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 100,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -31264,6 +33496,7 @@ pg.aircraft_template = {
 		hp_growth = 2518,
 		speed = 33,
 		id = 100811,
+		scale = 0.75,
 		weapon_ID = {
 			100811,
 			100816
@@ -31328,9 +33561,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 100,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -31338,6 +33571,7 @@ pg.aircraft_template = {
 		hp_growth = 2518,
 		speed = 33,
 		id = 100812,
+		scale = 0.75,
 		weapon_ID = {
 			100812,
 			100817
@@ -31402,9 +33636,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 100,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -31412,6 +33646,7 @@ pg.aircraft_template = {
 		hp_growth = 2518,
 		speed = 33,
 		id = 100813,
+		scale = 0.75,
 		weapon_ID = {
 			100813,
 			100818
@@ -31476,9 +33711,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 100,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -31486,6 +33721,7 @@ pg.aircraft_template = {
 		hp_growth = 2518,
 		speed = 33,
 		id = 100814,
+		scale = 0.75,
 		weapon_ID = {
 			100814,
 			100819
@@ -31550,9 +33786,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 47,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -31560,6 +33796,7 @@ pg.aircraft_template = {
 		hp_growth = 3013,
 		speed = 30,
 		id = 311042,
+		scale = 0.75,
 		weapon_ID = {
 			311500
 		},
@@ -31623,9 +33860,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 72,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -31633,6 +33870,7 @@ pg.aircraft_template = {
 		hp_growth = 3377,
 		speed = 30,
 		id = 311043,
+		scale = 0.75,
 		weapon_ID = {
 			311501
 		},
@@ -31696,9 +33934,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 72,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao2",
 		funnel_behavior = "",
@@ -31706,6 +33944,7 @@ pg.aircraft_template = {
 		hp_growth = 3755,
 		speed = 20,
 		id = 311045,
+		scale = 0.75,
 		weapon_ID = {
 			190007
 		},
@@ -31769,9 +34008,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 58,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -31779,6 +34018,7 @@ pg.aircraft_template = {
 		hp_growth = 4407,
 		speed = 30,
 		id = 311046,
+		scale = 0.75,
 		weapon_ID = {
 			190001
 		},
@@ -31842,9 +34082,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 58,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -31852,6 +34092,7 @@ pg.aircraft_template = {
 		hp_growth = 3013,
 		speed = 30,
 		id = 311048,
+		scale = 0.75,
 		weapon_ID = {
 			311502
 		},
@@ -31915,9 +34156,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 72,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -31925,6 +34166,7 @@ pg.aircraft_template = {
 		hp_growth = 3377,
 		speed = 30,
 		id = 311049,
+		scale = 0.75,
 		weapon_ID = {
 			311503
 		},
@@ -31988,9 +34230,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 39,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -31998,6 +34240,7 @@ pg.aircraft_template = {
 		hp_growth = 2518,
 		speed = 33,
 		id = 311051,
+		scale = 0.75,
 		weapon_ID = {
 			311504,
 			311505
@@ -32062,9 +34305,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 57,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -32072,6 +34315,7 @@ pg.aircraft_template = {
 		hp_growth = 3013,
 		speed = 30,
 		id = 311052,
+		scale = 0.75,
 		weapon_ID = {
 			311506
 		},
@@ -32135,9 +34379,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 78,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -32145,6 +34389,7 @@ pg.aircraft_template = {
 		hp_growth = 3377,
 		speed = 30,
 		id = 311053,
+		scale = 0.75,
 		weapon_ID = {
 			311507
 		},
@@ -32208,9 +34453,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 78,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -32218,6 +34463,7 @@ pg.aircraft_template = {
 		hp_growth = 3377,
 		speed = 30,
 		id = 311055,
+		scale = 0.75,
 		weapon_ID = {
 			311508
 		},
@@ -32281,9 +34527,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 57,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -32291,6 +34537,7 @@ pg.aircraft_template = {
 		hp_growth = 3013,
 		speed = 30,
 		id = 311056,
+		scale = 0.75,
 		weapon_ID = {
 			311509
 		},
@@ -32354,9 +34601,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 39,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -32364,6 +34611,7 @@ pg.aircraft_template = {
 		hp_growth = 2518,
 		speed = 33,
 		id = 311057,
+		scale = 0.75,
 		weapon_ID = {
 			311510,
 			311511
@@ -32428,9 +34676,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 78,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -32438,6 +34686,7 @@ pg.aircraft_template = {
 		hp_growth = 3377,
 		speed = 30,
 		id = 311059,
+		scale = 0.75,
 		weapon_ID = {
 			311512
 		},
@@ -32501,9 +34750,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 57,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -32511,6 +34760,7 @@ pg.aircraft_template = {
 		hp_growth = 3013,
 		speed = 30,
 		id = 311060,
+		scale = 0.75,
 		weapon_ID = {
 			311513
 		},
@@ -32574,9 +34824,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 39,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -32584,6 +34834,7 @@ pg.aircraft_template = {
 		hp_growth = 2518,
 		speed = 33,
 		id = 311061,
+		scale = 0.75,
 		weapon_ID = {
 			311514,
 			311515
@@ -32648,9 +34899,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 39,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "F4F",
 		funnel_behavior = "",
@@ -32658,6 +34909,7 @@ pg.aircraft_template = {
 		hp_growth = 2518,
 		speed = 33,
 		id = 311063,
+		scale = 0.75,
 		weapon_ID = {
 			311516,
 			311517
@@ -32722,9 +34974,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 57,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "tbd",
 		funnel_behavior = "",
@@ -32732,6 +34984,7 @@ pg.aircraft_template = {
 		hp_growth = 3013,
 		speed = 30,
 		id = 311064,
+		scale = 0.75,
 		weapon_ID = {
 			311518
 		},
@@ -32795,9 +35048,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 78,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "sbdwuwei",
 		funnel_behavior = "",
@@ -32805,6 +35058,7 @@ pg.aircraft_template = {
 		hp_growth = 3377,
 		speed = 30,
 		id = 311065,
+		scale = 0.75,
 		weapon_ID = {
 			311519
 		},
@@ -32868,9 +35122,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 39,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "F4F",
 		funnel_behavior = "",
@@ -32878,6 +35132,7 @@ pg.aircraft_template = {
 		hp_growth = 2686,
 		speed = 33,
 		id = 311069,
+		scale = 0.75,
 		weapon_ID = {
 			311520,
 			311521
@@ -32942,9 +35197,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 57,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "F6F",
 		funnel_behavior = "",
@@ -32952,6 +35207,7 @@ pg.aircraft_template = {
 		hp_growth = 3136,
 		speed = 30,
 		id = 311070,
+		scale = 0.75,
 		weapon_ID = {
 			311522
 		},
@@ -33015,9 +35271,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 78,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "tbd",
 		funnel_behavior = "",
@@ -33025,6 +35281,7 @@ pg.aircraft_template = {
 		hp_growth = 3632,
 		speed = 30,
 		id = 311071,
+		scale = 0.75,
 		weapon_ID = {
 			311523
 		},
@@ -33088,9 +35345,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 57,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -33098,6 +35355,7 @@ pg.aircraft_template = {
 		hp_growth = 3013,
 		speed = 30,
 		id = 311082,
+		scale = 0.75,
 		weapon_ID = {
 			311526
 		},
@@ -33161,9 +35419,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 78,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -33171,6 +35429,7 @@ pg.aircraft_template = {
 		hp_growth = 3377,
 		speed = 30,
 		id = 311083,
+		scale = 0.75,
 		weapon_ID = {
 			311527
 		},
@@ -33234,9 +35493,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 39,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -33244,6 +35503,7 @@ pg.aircraft_template = {
 		hp_growth = 2518,
 		speed = 33,
 		id = 311090,
+		scale = 0.75,
 		weapon_ID = {
 			311526,
 			311527
@@ -33308,9 +35568,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 78,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -33318,6 +35578,7 @@ pg.aircraft_template = {
 		hp_growth = 3377,
 		speed = 30,
 		id = 311087,
+		scale = 0.75,
 		weapon_ID = {
 			311524
 		},
@@ -33381,9 +35642,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 57,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -33391,6 +35652,7 @@ pg.aircraft_template = {
 		hp_growth = 3013,
 		speed = 30,
 		id = 311088,
+		scale = 0.75,
 		weapon_ID = {
 			311525
 		},
@@ -33454,9 +35716,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 39,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -33464,6 +35726,7 @@ pg.aircraft_template = {
 		hp_growth = 2518,
 		speed = 33,
 		id = 311091,
+		scale = 0.75,
 		weapon_ID = {
 			311530,
 			311531
@@ -33528,9 +35791,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 57,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -33538,6 +35801,7 @@ pg.aircraft_template = {
 		hp_growth = 3097,
 		speed = 30,
 		id = 311092,
+		scale = 0.75,
 		weapon_ID = {
 			50000
 		},
@@ -33601,9 +35865,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 78,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -33611,6 +35875,7 @@ pg.aircraft_template = {
 		hp_growth = 4046,
 		speed = 33,
 		id = 311093,
+		scale = 0.75,
 		weapon_ID = {
 			50000
 		},
@@ -33674,9 +35939,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 156,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao2",
 		funnel_behavior = "",
@@ -33684,6 +35949,7 @@ pg.aircraft_template = {
 		hp_growth = 2518,
 		speed = 33,
 		id = 311094,
+		scale = 0.75,
 		weapon_ID = {
 			50000
 		},
@@ -33747,9 +36013,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 114,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan52",
 		funnel_behavior = "",
@@ -33757,6 +36023,7 @@ pg.aircraft_template = {
 		hp_growth = 3013,
 		speed = 33,
 		id = 311095,
+		scale = 0.75,
 		weapon_ID = {
 			50000
 		},
@@ -33820,9 +36087,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 39,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -33830,6 +36097,7 @@ pg.aircraft_template = {
 		hp_growth = 2518,
 		speed = 33,
 		id = 312027,
+		scale = 0.75,
 		weapon_ID = {
 			312500,
 			312501
@@ -33894,9 +36162,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 64,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -33904,6 +36172,7 @@ pg.aircraft_template = {
 		hp_growth = 3013,
 		speed = 30,
 		id = 312028,
+		scale = 0.75,
 		weapon_ID = {
 			312502
 		},
@@ -33967,9 +36236,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 80,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -33977,6 +36246,7 @@ pg.aircraft_template = {
 		hp_growth = 3377,
 		speed = 30,
 		id = 312029,
+		scale = 0.75,
 		weapon_ID = {
 			312503
 		},
@@ -34040,9 +36310,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 80,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -34050,6 +36320,7 @@ pg.aircraft_template = {
 		hp_growth = 3377,
 		speed = 30,
 		id = 312031,
+		scale = 0.75,
 		weapon_ID = {
 			312504
 		},
@@ -34113,9 +36384,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 64,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -34123,6 +36394,7 @@ pg.aircraft_template = {
 		hp_growth = 3013,
 		speed = 30,
 		id = 312032,
+		scale = 0.75,
 		weapon_ID = {
 			312505
 		},
@@ -34186,9 +36458,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 57,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -34196,6 +36468,7 @@ pg.aircraft_template = {
 		hp_growth = 2518,
 		speed = 33,
 		id = 312033,
+		scale = 0.75,
 		weapon_ID = {
 			312506,
 			312507
@@ -34260,9 +36533,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 80,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -34270,6 +36543,7 @@ pg.aircraft_template = {
 		hp_growth = 3377,
 		speed = 30,
 		id = 312035,
+		scale = 0.75,
 		weapon_ID = {
 			312508
 		},
@@ -34333,9 +36607,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 57,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -34343,6 +36617,7 @@ pg.aircraft_template = {
 		hp_growth = 3013,
 		speed = 30,
 		id = 312036,
+		scale = 0.75,
 		weapon_ID = {
 			312509
 		},
@@ -34406,9 +36681,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 57,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -34416,6 +36691,7 @@ pg.aircraft_template = {
 		hp_growth = 2518,
 		speed = 33,
 		id = 312037,
+		scale = 0.75,
 		weapon_ID = {
 			312510,
 			312511
@@ -34480,9 +36756,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 64,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -34490,6 +36766,7 @@ pg.aircraft_template = {
 		hp_growth = 3013,
 		speed = 30,
 		id = 312039,
+		scale = 0.75,
 		weapon_ID = {
 			312512
 		},
@@ -34553,9 +36830,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 80,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -34563,6 +36840,7 @@ pg.aircraft_template = {
 		hp_growth = 3377,
 		speed = 30,
 		id = 312040,
+		scale = 0.75,
 		weapon_ID = {
 			312513
 		},
@@ -34626,9 +36904,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 80,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -34636,6 +36914,7 @@ pg.aircraft_template = {
 		hp_growth = 3377,
 		speed = 30,
 		id = 312042,
+		scale = 0.75,
 		weapon_ID = {
 			312514
 		},
@@ -34699,9 +36978,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 64,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -34709,6 +36988,7 @@ pg.aircraft_template = {
 		hp_growth = 3013,
 		speed = 30,
 		id = 312043,
+		scale = 0.75,
 		weapon_ID = {
 			312515
 		},
@@ -34772,9 +37052,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 80,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -34782,6 +37062,7 @@ pg.aircraft_template = {
 		hp_growth = 3377,
 		speed = 30,
 		id = 312050,
+		scale = 0.75,
 		weapon_ID = {
 			312516
 		},
@@ -34845,9 +37126,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 64,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -34855,6 +37136,7 @@ pg.aircraft_template = {
 		hp_growth = 3013,
 		speed = 30,
 		id = 312051,
+		scale = 0.75,
 		weapon_ID = {
 			312517
 		},
@@ -34918,9 +37200,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 57,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -34928,6 +37210,7 @@ pg.aircraft_template = {
 		hp_growth = 2518,
 		speed = 33,
 		id = 312052,
+		scale = 0.75,
 		weapon_ID = {
 			312518,
 			312519
@@ -34992,9 +37275,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 57,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -35002,6 +37285,7 @@ pg.aircraft_template = {
 		hp_growth = 2518,
 		speed = 33,
 		id = 312056,
+		scale = 0.75,
 		weapon_ID = {
 			312520
 		},
@@ -35065,9 +37349,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 64,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -35075,6 +37359,7 @@ pg.aircraft_template = {
 		hp_growth = 3013,
 		speed = 30,
 		id = 312057,
+		scale = 0.75,
 		weapon_ID = {
 			312521
 		},
@@ -35138,9 +37423,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 80,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -35148,6 +37433,7 @@ pg.aircraft_template = {
 		hp_growth = 3377,
 		speed = 30,
 		id = 312058,
+		scale = 0.75,
 		weapon_ID = {
 			312522
 		},
@@ -35211,9 +37497,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 90,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -35221,6 +37507,7 @@ pg.aircraft_template = {
 		hp_growth = 3377,
 		speed = 30,
 		id = 312062,
+		scale = 0.75,
 		weapon_ID = {
 			312523
 		},
@@ -35284,9 +37571,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 64,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -35294,6 +37581,7 @@ pg.aircraft_template = {
 		hp_growth = 3013,
 		speed = 30,
 		id = 312063,
+		scale = 0.75,
 		weapon_ID = {
 			312524
 		},
@@ -35357,9 +37645,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 52,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -35367,6 +37655,7 @@ pg.aircraft_template = {
 		hp_growth = 2518,
 		speed = 33,
 		id = 312064,
+		scale = 0.75,
 		weapon_ID = {
 			312525,
 			312526
@@ -35431,9 +37720,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 70,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -35441,6 +37730,7 @@ pg.aircraft_template = {
 		hp_growth = 3097,
 		speed = 30,
 		id = 312065,
+		scale = 0.75,
 		weapon_ID = {
 			50000
 		},
@@ -35504,9 +37794,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 100,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -35514,6 +37804,7 @@ pg.aircraft_template = {
 		hp_growth = 4046,
 		speed = 33,
 		id = 312066,
+		scale = 0.75,
 		weapon_ID = {
 			50000
 		},
@@ -35577,9 +37868,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 150,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao2",
 		funnel_behavior = "",
@@ -35587,6 +37878,7 @@ pg.aircraft_template = {
 		hp_growth = 2518,
 		speed = 33,
 		id = 312067,
+		scale = 0.75,
 		weapon_ID = {
 			50000
 		},
@@ -35650,9 +37942,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 99,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan52",
 		funnel_behavior = "",
@@ -35660,6 +37952,7 @@ pg.aircraft_template = {
 		hp_growth = 3013,
 		speed = 33,
 		id = 312068,
+		scale = 0.75,
 		weapon_ID = {
 			50000
 		},
@@ -35723,9 +38016,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 70,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -35733,6 +38026,7 @@ pg.aircraft_template = {
 		hp_growth = 2518,
 		speed = 33,
 		id = 313053,
+		scale = 0.75,
 		weapon_ID = {
 			313500,
 			313501
@@ -35797,9 +38091,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 90,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -35807,6 +38101,7 @@ pg.aircraft_template = {
 		hp_growth = 3013,
 		speed = 30,
 		id = 313054,
+		scale = 0.75,
 		weapon_ID = {
 			313502
 		},
@@ -35870,9 +38165,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 80,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -35880,6 +38175,7 @@ pg.aircraft_template = {
 		hp_growth = 3377,
 		speed = 30,
 		id = 313055,
+		scale = 0.75,
 		weapon_ID = {
 			313503
 		},
@@ -35943,9 +38239,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 90,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -35953,6 +38249,7 @@ pg.aircraft_template = {
 		hp_growth = 3377,
 		speed = 30,
 		id = 313056,
+		scale = 0.75,
 		weapon_ID = {
 			313504
 		},
@@ -36016,9 +38313,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 90,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -36026,6 +38323,7 @@ pg.aircraft_template = {
 		hp_growth = 3013,
 		speed = 30,
 		id = 313058,
+		scale = 0.75,
 		weapon_ID = {
 			313505
 		},
@@ -36089,9 +38387,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 60,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -36099,6 +38397,7 @@ pg.aircraft_template = {
 		hp_growth = 2518,
 		speed = 33,
 		id = 313059,
+		scale = 0.75,
 		weapon_ID = {
 			313506,
 			313507
@@ -36163,9 +38462,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 80,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -36173,6 +38472,7 @@ pg.aircraft_template = {
 		hp_growth = 3377,
 		speed = 30,
 		id = 313060,
+		scale = 0.75,
 		weapon_ID = {
 			313508
 		},
@@ -36236,9 +38536,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 90,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -36246,6 +38546,7 @@ pg.aircraft_template = {
 		hp_growth = 3013,
 		speed = 30,
 		id = 313061,
+		scale = 0.75,
 		weapon_ID = {
 			313509
 		},
@@ -36309,9 +38610,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 60,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -36319,6 +38620,7 @@ pg.aircraft_template = {
 		hp_growth = 2518,
 		speed = 33,
 		id = 313063,
+		scale = 0.75,
 		weapon_ID = {
 			313510,
 			313511
@@ -36383,9 +38685,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 90,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -36393,6 +38695,7 @@ pg.aircraft_template = {
 		hp_growth = 3013,
 		speed = 30,
 		id = 313065,
+		scale = 0.75,
 		weapon_ID = {
 			313512
 		},
@@ -36456,9 +38759,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 90,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -36466,6 +38769,7 @@ pg.aircraft_template = {
 		hp_growth = 3377,
 		speed = 30,
 		id = 313066,
+		scale = 0.75,
 		weapon_ID = {
 			313513
 		},
@@ -36529,9 +38833,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 90,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -36539,6 +38843,7 @@ pg.aircraft_template = {
 		hp_growth = 3013,
 		speed = 30,
 		id = 313067,
+		scale = 0.75,
 		weapon_ID = {
 			313514
 		},
@@ -36602,9 +38907,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 90,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -36612,6 +38917,7 @@ pg.aircraft_template = {
 		hp_growth = 3377,
 		speed = 30,
 		id = 313068,
+		scale = 0.75,
 		weapon_ID = {
 			313515
 		},
@@ -36675,9 +38981,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 90,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -36685,6 +38991,7 @@ pg.aircraft_template = {
 		hp_growth = 3377,
 		speed = 30,
 		id = 313078,
+		scale = 0.75,
 		weapon_ID = {
 			313516
 		},
@@ -36748,9 +39055,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 90,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -36758,6 +39065,7 @@ pg.aircraft_template = {
 		hp_growth = 3013,
 		speed = 30,
 		id = 313079,
+		scale = 0.75,
 		weapon_ID = {
 			313517
 		},
@@ -36821,9 +39129,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 90,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -36831,6 +39139,7 @@ pg.aircraft_template = {
 		hp_growth = 3013,
 		speed = 30,
 		id = 313082,
+		scale = 0.75,
 		weapon_ID = {
 			313518
 		},
@@ -36894,9 +39203,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 90,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -36904,6 +39213,7 @@ pg.aircraft_template = {
 		hp_growth = 3377,
 		speed = 30,
 		id = 313083,
+		scale = 0.75,
 		weapon_ID = {
 			313519
 		},
@@ -36967,9 +39277,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 90,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -36977,6 +39287,7 @@ pg.aircraft_template = {
 		hp_growth = 3013,
 		speed = 30,
 		id = 313085,
+		scale = 0.75,
 		weapon_ID = {
 			313520
 		},
@@ -37040,9 +39351,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 90,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -37050,6 +39361,7 @@ pg.aircraft_template = {
 		hp_growth = 3377,
 		speed = 30,
 		id = 313086,
+		scale = 0.75,
 		weapon_ID = {
 			313521
 		},
@@ -37113,9 +39425,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 60,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -37123,6 +39435,7 @@ pg.aircraft_template = {
 		hp_growth = 2518,
 		speed = 33,
 		id = 313088,
+		scale = 0.75,
 		weapon_ID = {
 			313522,
 			313523
@@ -37187,9 +39500,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 90,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -37197,6 +39510,7 @@ pg.aircraft_template = {
 		hp_growth = 3013,
 		speed = 30,
 		id = 313089,
+		scale = 0.75,
 		weapon_ID = {
 			313524
 		},
@@ -37260,9 +39574,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 90,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -37270,6 +39584,7 @@ pg.aircraft_template = {
 		hp_growth = 3377,
 		speed = 30,
 		id = 313090,
+		scale = 0.75,
 		weapon_ID = {
 			313525
 		},
@@ -37333,9 +39648,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 150,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -37343,6 +39658,7 @@ pg.aircraft_template = {
 		hp_growth = 3097,
 		speed = 30,
 		id = 313091,
+		scale = 0.75,
 		weapon_ID = {
 			50000
 		},
@@ -37406,9 +39722,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 90,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -37416,6 +39732,7 @@ pg.aircraft_template = {
 		hp_growth = 4046,
 		speed = 33,
 		id = 313092,
+		scale = 0.75,
 		weapon_ID = {
 			50000
 		},
@@ -37479,9 +39796,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 200,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao2",
 		funnel_behavior = "",
@@ -37489,6 +39806,7 @@ pg.aircraft_template = {
 		hp_growth = 2518,
 		speed = 33,
 		id = 313093,
+		scale = 0.75,
 		weapon_ID = {
 			50000
 		},
@@ -37552,9 +39870,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 90,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan52",
 		funnel_behavior = "",
@@ -37562,6 +39880,7 @@ pg.aircraft_template = {
 		hp_growth = 3013,
 		speed = 33,
 		id = 313094,
+		scale = 0.75,
 		weapon_ID = {
 			50000
 		},
@@ -37625,9 +39944,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 155,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -37635,6 +39954,7 @@ pg.aircraft_template = {
 		hp_growth = 3377,
 		speed = 30,
 		id = 314055,
+		scale = 0.75,
 		weapon_ID = {
 			314511
 		},
@@ -37698,9 +40018,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 115,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -37708,6 +40028,7 @@ pg.aircraft_template = {
 		hp_growth = 3013,
 		speed = 30,
 		id = 314056,
+		scale = 0.75,
 		weapon_ID = {
 			314510
 		},
@@ -37771,9 +40092,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 90,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -37781,6 +40102,7 @@ pg.aircraft_template = {
 		hp_growth = 2518,
 		speed = 33,
 		id = 314057,
+		scale = 0.75,
 		weapon_ID = {
 			314508,
 			314509
@@ -37845,9 +40167,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 155,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -37855,6 +40177,7 @@ pg.aircraft_template = {
 		hp_growth = 3377,
 		speed = 30,
 		id = 314059,
+		scale = 0.75,
 		weapon_ID = {
 			314500
 		},
@@ -37918,9 +40241,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 115,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -37928,6 +40251,7 @@ pg.aircraft_template = {
 		hp_growth = 3013,
 		speed = 30,
 		id = 314060,
+		scale = 0.75,
 		weapon_ID = {
 			314501
 		},
@@ -37991,9 +40315,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 90,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -38001,6 +40325,7 @@ pg.aircraft_template = {
 		hp_growth = 2518,
 		speed = 33,
 		id = 314061,
+		scale = 0.75,
 		weapon_ID = {
 			314502,
 			314503
@@ -38065,9 +40390,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 155,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -38075,6 +40400,7 @@ pg.aircraft_template = {
 		hp_growth = 3377,
 		speed = 30,
 		id = 314063,
+		scale = 0.75,
 		weapon_ID = {
 			314504
 		},
@@ -38138,9 +40464,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 115,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -38148,6 +40474,7 @@ pg.aircraft_template = {
 		hp_growth = 3013,
 		speed = 30,
 		id = 314064,
+		scale = 0.75,
 		weapon_ID = {
 			314505
 		},
@@ -38211,9 +40538,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 90,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -38221,6 +40548,7 @@ pg.aircraft_template = {
 		hp_growth = 2518,
 		speed = 33,
 		id = 314065,
+		scale = 0.75,
 		weapon_ID = {
 			314506,
 			314507
@@ -38285,9 +40613,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 155,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -38295,6 +40623,7 @@ pg.aircraft_template = {
 		hp_growth = 3377,
 		speed = 30,
 		id = 314075,
+		scale = 0.75,
 		weapon_ID = {
 			314515
 		},
@@ -38358,9 +40687,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 115,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -38368,6 +40697,7 @@ pg.aircraft_template = {
 		hp_growth = 3013,
 		speed = 30,
 		id = 314076,
+		scale = 0.75,
 		weapon_ID = {
 			314514
 		},
@@ -38431,9 +40761,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 90,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -38441,6 +40771,7 @@ pg.aircraft_template = {
 		hp_growth = 2518,
 		speed = 33,
 		id = 314077,
+		scale = 0.75,
 		weapon_ID = {
 			314512,
 			314513
@@ -38505,9 +40836,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 155,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -38515,6 +40846,7 @@ pg.aircraft_template = {
 		hp_growth = 3377,
 		speed = 30,
 		id = 314080,
+		scale = 0.75,
 		weapon_ID = {
 			314516
 		},
@@ -38578,9 +40910,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 115,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -38588,6 +40920,7 @@ pg.aircraft_template = {
 		hp_growth = 3013,
 		speed = 30,
 		id = 314081,
+		scale = 0.75,
 		weapon_ID = {
 			314517
 		},
@@ -38651,9 +40984,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 90,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -38661,6 +40994,7 @@ pg.aircraft_template = {
 		hp_growth = 2518,
 		speed = 33,
 		id = 314082,
+		scale = 0.75,
 		weapon_ID = {
 			314518,
 			314519
@@ -38725,9 +41059,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 240,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -38735,6 +41069,7 @@ pg.aircraft_template = {
 		hp_growth = 3097,
 		speed = 30,
 		id = 314083,
+		scale = 0.75,
 		weapon_ID = {
 			50000
 		},
@@ -38798,9 +41133,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 150,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -38808,6 +41143,7 @@ pg.aircraft_template = {
 		hp_growth = 4046,
 		speed = 33,
 		id = 314084,
+		scale = 0.75,
 		weapon_ID = {
 			50000
 		},
@@ -38871,9 +41207,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 280,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao2",
 		funnel_behavior = "",
@@ -38881,6 +41217,7 @@ pg.aircraft_template = {
 		hp_growth = 2518,
 		speed = 33,
 		id = 314085,
+		scale = 0.75,
 		weapon_ID = {
 			50000
 		},
@@ -38944,9 +41281,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 150,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan52",
 		funnel_behavior = "",
@@ -38954,6 +41291,7 @@ pg.aircraft_template = {
 		hp_growth = 3013,
 		speed = 33,
 		id = 314086,
+		scale = 0.75,
 		weapon_ID = {
 			50000
 		},
@@ -39017,9 +41355,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 180,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -39027,6 +41365,7 @@ pg.aircraft_template = {
 		hp_growth = 3377,
 		speed = 30,
 		id = 315065,
+		scale = 0.75,
 		weapon_ID = {
 			315500
 		},
@@ -39090,9 +41429,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 150,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -39100,6 +41439,7 @@ pg.aircraft_template = {
 		hp_growth = 3013,
 		speed = 30,
 		id = 315066,
+		scale = 0.75,
 		weapon_ID = {
 			315501
 		},
@@ -39163,9 +41503,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 100,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -39173,6 +41513,7 @@ pg.aircraft_template = {
 		hp_growth = 2518,
 		speed = 33,
 		id = 315067,
+		scale = 0.75,
 		weapon_ID = {
 			315502,
 			315503
@@ -39237,9 +41578,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 180,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -39247,6 +41588,7 @@ pg.aircraft_template = {
 		hp_growth = 3377,
 		speed = 30,
 		id = 315069,
+		scale = 0.75,
 		weapon_ID = {
 			315504
 		},
@@ -39310,9 +41652,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 150,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -39320,6 +41662,7 @@ pg.aircraft_template = {
 		hp_growth = 3013,
 		speed = 30,
 		id = 315070,
+		scale = 0.75,
 		weapon_ID = {
 			315505
 		},
@@ -39383,9 +41726,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 100,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -39393,6 +41736,7 @@ pg.aircraft_template = {
 		hp_growth = 2518,
 		speed = 33,
 		id = 315071,
+		scale = 0.75,
 		weapon_ID = {
 			315506,
 			315507
@@ -39457,9 +41801,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 180,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -39467,6 +41811,7 @@ pg.aircraft_template = {
 		hp_growth = 3377,
 		speed = 30,
 		id = 315082,
+		scale = 0.75,
 		weapon_ID = {
 			315508
 		},
@@ -39530,9 +41875,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 150,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -39540,6 +41885,7 @@ pg.aircraft_template = {
 		hp_growth = 3013,
 		speed = 30,
 		id = 315083,
+		scale = 0.75,
 		weapon_ID = {
 			315509
 		},
@@ -39603,9 +41949,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 100,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -39613,6 +41959,7 @@ pg.aircraft_template = {
 		hp_growth = 2518,
 		speed = 33,
 		id = 315084,
+		scale = 0.75,
 		weapon_ID = {
 			315510,
 			315511
@@ -39677,9 +42024,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 180,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -39687,6 +42034,7 @@ pg.aircraft_template = {
 		hp_growth = 3377,
 		speed = 30,
 		id = 315087,
+		scale = 0.75,
 		weapon_ID = {
 			315512
 		},
@@ -39750,9 +42098,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 150,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -39760,6 +42108,7 @@ pg.aircraft_template = {
 		hp_growth = 3013,
 		speed = 30,
 		id = 315088,
+		scale = 0.75,
 		weapon_ID = {
 			315513
 		},
@@ -39823,9 +42172,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 100,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -39833,6 +42182,7 @@ pg.aircraft_template = {
 		hp_growth = 2518,
 		speed = 33,
 		id = 315089,
+		scale = 0.75,
 		weapon_ID = {
 			315514,
 			315515
@@ -39897,9 +42247,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 260,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -39907,6 +42257,7 @@ pg.aircraft_template = {
 		hp_growth = 3097,
 		speed = 30,
 		id = 315090,
+		scale = 0.75,
 		weapon_ID = {
 			50000
 		},
@@ -39970,9 +42321,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 165,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -39980,6 +42331,7 @@ pg.aircraft_template = {
 		hp_growth = 4046,
 		speed = 33,
 		id = 315091,
+		scale = 0.75,
 		weapon_ID = {
 			50000
 		},
@@ -40043,9 +42395,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 320,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao2",
 		funnel_behavior = "",
@@ -40053,6 +42405,7 @@ pg.aircraft_template = {
 		hp_growth = 2518,
 		speed = 33,
 		id = 315092,
+		scale = 0.75,
 		weapon_ID = {
 			50000
 		},
@@ -40116,9 +42469,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 180,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan52",
 		funnel_behavior = "",
@@ -40126,6 +42479,7 @@ pg.aircraft_template = {
 		hp_growth = 3013,
 		speed = 33,
 		id = 315093,
+		scale = 0.75,
 		weapon_ID = {
 			50000
 		},
@@ -40189,9 +42543,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 160,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -40199,6 +42553,7 @@ pg.aircraft_template = {
 		hp_growth = 3013,
 		speed = 30,
 		id = 316038,
+		scale = 0.75,
 		weapon_ID = {
 			316500
 		},
@@ -40262,9 +42617,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 220,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -40272,6 +42627,7 @@ pg.aircraft_template = {
 		hp_growth = 3377,
 		speed = 30,
 		id = 316039,
+		scale = 0.75,
 		weapon_ID = {
 			316501
 		},
@@ -40335,9 +42691,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 150,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -40345,6 +42701,7 @@ pg.aircraft_template = {
 		hp_growth = 3013,
 		speed = 30,
 		id = 316042,
+		scale = 0.75,
 		weapon_ID = {
 			316503
 		},
@@ -40408,9 +42765,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 220,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -40418,6 +42775,7 @@ pg.aircraft_template = {
 		hp_growth = 3377,
 		speed = 30,
 		id = 316041,
+		scale = 0.75,
 		weapon_ID = {
 			316502
 		},
@@ -40481,9 +42839,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 330,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -40491,6 +42849,7 @@ pg.aircraft_template = {
 		hp_growth = 3097,
 		speed = 30,
 		id = 316043,
+		scale = 0.75,
 		weapon_ID = {
 			50000
 		},
@@ -40554,9 +42913,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 200,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -40564,6 +42923,7 @@ pg.aircraft_template = {
 		hp_growth = 4046,
 		speed = 33,
 		id = 316044,
+		scale = 0.75,
 		weapon_ID = {
 			50000
 		},
@@ -40627,9 +42987,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 360,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao2",
 		funnel_behavior = "",
@@ -40637,6 +42997,7 @@ pg.aircraft_template = {
 		hp_growth = 2518,
 		speed = 33,
 		id = 316045,
+		scale = 0.75,
 		weapon_ID = {
 			50000
 		},
@@ -40700,9 +43061,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 220,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan52",
 		funnel_behavior = "",
@@ -40710,6 +43071,7 @@ pg.aircraft_template = {
 		hp_growth = 3013,
 		speed = 33,
 		id = 316046,
+		scale = 0.75,
 		weapon_ID = {
 			50000
 		},
@@ -40773,9 +43135,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 180,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -40783,6 +43145,7 @@ pg.aircraft_template = {
 		hp_growth = 3377,
 		speed = 30,
 		id = 318081,
+		scale = 0.75,
 		weapon_ID = {
 			318500
 		},
@@ -40846,9 +43209,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 150,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -40856,6 +43219,7 @@ pg.aircraft_template = {
 		hp_growth = 3013,
 		speed = 30,
 		id = 318082,
+		scale = 0.75,
 		weapon_ID = {
 			318501
 		},
@@ -40919,9 +43283,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 100,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -40929,6 +43293,7 @@ pg.aircraft_template = {
 		hp_growth = 2518,
 		speed = 33,
 		id = 318083,
+		scale = 0.75,
 		weapon_ID = {
 			318502,
 			318503
@@ -40993,9 +43358,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 180,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -41003,6 +43368,7 @@ pg.aircraft_template = {
 		hp_growth = 3377,
 		speed = 30,
 		id = 318086,
+		scale = 0.75,
 		weapon_ID = {
 			318504
 		},
@@ -41066,9 +43432,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 150,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -41076,6 +43442,7 @@ pg.aircraft_template = {
 		hp_growth = 3013,
 		speed = 30,
 		id = 318087,
+		scale = 0.75,
 		weapon_ID = {
 			318505
 		},
@@ -41139,9 +43506,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 100,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -41149,6 +43516,7 @@ pg.aircraft_template = {
 		hp_growth = 2518,
 		speed = 33,
 		id = 318088,
+		scale = 0.75,
 		weapon_ID = {
 			318506,
 			318507
@@ -41213,9 +43581,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 180,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -41223,6 +43591,7 @@ pg.aircraft_template = {
 		hp_growth = 3377,
 		speed = 30,
 		id = 319201,
+		scale = 0.75,
 		weapon_ID = {
 			319301
 		},
@@ -41286,9 +43655,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 150,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -41296,6 +43665,7 @@ pg.aircraft_template = {
 		hp_growth = 3013,
 		speed = 30,
 		id = 319202,
+		scale = 0.75,
 		weapon_ID = {
 			319302
 		},
@@ -41359,9 +43729,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 100,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -41369,6 +43739,7 @@ pg.aircraft_template = {
 		hp_growth = 2518,
 		speed = 33,
 		id = 319203,
+		scale = 0.75,
 		weapon_ID = {
 			319303,
 			319304
@@ -41433,9 +43804,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 180,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -41443,6 +43814,7 @@ pg.aircraft_template = {
 		hp_growth = 3377,
 		speed = 30,
 		id = 319210,
+		scale = 0.75,
 		weapon_ID = {
 			319301
 		},
@@ -41506,9 +43878,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 150,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -41516,6 +43888,7 @@ pg.aircraft_template = {
 		hp_growth = 3013,
 		speed = 30,
 		id = 319220,
+		scale = 0.75,
 		weapon_ID = {
 			319302
 		},
@@ -41579,9 +43952,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 100,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -41589,6 +43962,7 @@ pg.aircraft_template = {
 		hp_growth = 2518,
 		speed = 33,
 		id = 319230,
+		scale = 0.75,
 		weapon_ID = {
 			319303,
 			319304
@@ -41653,9 +44027,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 180,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -41663,6 +44037,7 @@ pg.aircraft_template = {
 		hp_growth = 3377,
 		speed = 30,
 		id = 320005,
+		scale = 0.75,
 		weapon_ID = {
 			320008
 		},
@@ -41726,9 +44101,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 150,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -41736,6 +44111,7 @@ pg.aircraft_template = {
 		hp_growth = 3013,
 		speed = 30,
 		id = 320006,
+		scale = 0.75,
 		weapon_ID = {
 			320009
 		},
@@ -41799,9 +44175,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 100,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -41809,6 +44185,7 @@ pg.aircraft_template = {
 		hp_growth = 2518,
 		speed = 33,
 		id = 320007,
+		scale = 0.75,
 		weapon_ID = {
 			320010,
 			320011
@@ -41873,9 +44250,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 180,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -41883,6 +44260,7 @@ pg.aircraft_template = {
 		hp_growth = 3377,
 		speed = 30,
 		id = 320010,
+		scale = 0.75,
 		weapon_ID = {
 			320008
 		},
@@ -41946,9 +44324,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 150,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -41956,6 +44334,7 @@ pg.aircraft_template = {
 		hp_growth = 3013,
 		speed = 30,
 		id = 320020,
+		scale = 0.75,
 		weapon_ID = {
 			320009
 		},
@@ -42019,9 +44398,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 100,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -42029,6 +44408,7 @@ pg.aircraft_template = {
 		hp_growth = 2518,
 		speed = 33,
 		id = 320030,
+		scale = 0.75,
 		weapon_ID = {
 			320010,
 			320011
@@ -42093,9 +44473,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 180,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -42103,6 +44483,7 @@ pg.aircraft_template = {
 		hp_growth = 3377,
 		speed = 30,
 		id = 330005,
+		scale = 0.75,
 		weapon_ID = {
 			330008
 		},
@@ -42166,9 +44547,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 150,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -42176,6 +44557,7 @@ pg.aircraft_template = {
 		hp_growth = 3013,
 		speed = 30,
 		id = 330006,
+		scale = 0.75,
 		weapon_ID = {
 			330009
 		},
@@ -42239,9 +44621,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 100,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -42249,6 +44631,7 @@ pg.aircraft_template = {
 		hp_growth = 2518,
 		speed = 33,
 		id = 330007,
+		scale = 0.75,
 		weapon_ID = {
 			330010,
 			330011
@@ -42313,9 +44696,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 300,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -42323,6 +44706,7 @@ pg.aircraft_template = {
 		hp_growth = 3377,
 		speed = 30,
 		id = 330010,
+		scale = 0.75,
 		weapon_ID = {
 			330008
 		},
@@ -42386,9 +44770,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 300,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -42396,6 +44780,7 @@ pg.aircraft_template = {
 		hp_growth = 3013,
 		speed = 30,
 		id = 330020,
+		scale = 0.75,
 		weapon_ID = {
 			330009
 		},
@@ -42459,9 +44844,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 300,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -42469,6 +44854,7 @@ pg.aircraft_template = {
 		hp_growth = 2518,
 		speed = 33,
 		id = 330030,
+		scale = 0.75,
 		weapon_ID = {
 			330010,
 			330011
@@ -42533,9 +44919,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 400,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan21",
 		funnel_behavior = "",
@@ -42543,6 +44929,7 @@ pg.aircraft_template = {
 		hp_growth = 2518,
 		speed = 33,
 		id = 330403,
+		scale = 0.75,
 		weapon_ID = {
 			330505,
 			330507
@@ -42607,9 +44994,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 400,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -42617,6 +45004,7 @@ pg.aircraft_template = {
 		hp_growth = 3377,
 		speed = 33,
 		id = 330503,
+		scale = 0.75,
 		weapon_ID = {
 			330506
 		},
@@ -42680,9 +45068,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 180,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -42690,6 +45078,7 @@ pg.aircraft_template = {
 		hp_growth = 0,
 		speed = 30,
 		id = 340005,
+		scale = 0.75,
 		weapon_ID = {
 			340008
 		},
@@ -42753,9 +45142,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 150,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "tianshan",
 		funnel_behavior = "",
@@ -42763,6 +45152,7 @@ pg.aircraft_template = {
 		hp_growth = 0,
 		speed = 30,
 		id = 340006,
+		scale = 0.75,
 		weapon_ID = {
 			340009
 		},
@@ -42826,9 +45216,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 100,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan52",
 		funnel_behavior = "",
@@ -42836,6 +45226,7 @@ pg.aircraft_template = {
 		hp_growth = 0,
 		speed = 33,
 		id = 340007,
+		scale = 0.75,
 		weapon_ID = {
 			340010,
 			340011
@@ -42900,9 +45291,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 360,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -42910,6 +45301,7 @@ pg.aircraft_template = {
 		hp_growth = 0,
 		speed = 30,
 		id = 340010,
+		scale = 0.75,
 		weapon_ID = {
 			340008
 		},
@@ -42973,9 +45365,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 280,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "tianshan",
 		funnel_behavior = "",
@@ -42983,6 +45375,7 @@ pg.aircraft_template = {
 		hp_growth = 0,
 		speed = 30,
 		id = 340020,
+		scale = 0.75,
 		weapon_ID = {
 			340009
 		},
@@ -43046,9 +45439,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 220,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan52",
 		funnel_behavior = "",
@@ -43056,6 +45449,7 @@ pg.aircraft_template = {
 		hp_growth = 0,
 		speed = 33,
 		id = 340030,
+		scale = 0.75,
 		weapon_ID = {
 			340010,
 			340011
@@ -43120,9 +45514,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 220,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan52",
 		funnel_behavior = "",
@@ -43130,6 +45524,7 @@ pg.aircraft_template = {
 		hp_growth = 0,
 		speed = 33,
 		id = 340113,
+		scale = 0.75,
 		weapon_ID = {
 			340116,
 			340118
@@ -43194,9 +45589,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 400,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -43204,6 +45599,7 @@ pg.aircraft_template = {
 		hp_growth = 0,
 		speed = 30,
 		id = 340114,
+		scale = 0.75,
 		weapon_ID = {
 			340117
 		},
@@ -43267,9 +45663,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 220,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan52",
 		funnel_behavior = "",
@@ -43277,6 +45673,7 @@ pg.aircraft_template = {
 		hp_growth = 0,
 		speed = 33,
 		id = 340123,
+		scale = 0.75,
 		weapon_ID = {
 			340126,
 			340128
@@ -43341,9 +45738,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 400,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "huixing",
 		funnel_behavior = "",
@@ -43351,6 +45748,7 @@ pg.aircraft_template = {
 		hp_growth = 0,
 		speed = 30,
 		id = 340124,
+		scale = 0.75,
 		weapon_ID = {
 			340127
 		},
@@ -43414,9 +45812,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 220,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan52",
 		funnel_behavior = "",
@@ -43424,6 +45822,7 @@ pg.aircraft_template = {
 		hp_growth = 0,
 		speed = 33,
 		id = 340133,
+		scale = 0.75,
 		weapon_ID = {
 			340136,
 			340138
@@ -43488,9 +45887,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 400,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -43498,6 +45897,7 @@ pg.aircraft_template = {
 		hp_growth = 0,
 		speed = 30,
 		id = 340134,
+		scale = 0.75,
 		weapon_ID = {
 			340137
 		},
@@ -43561,9 +45961,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 540,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "huixing",
 		funnel_behavior = "",
@@ -43571,6 +45971,7 @@ pg.aircraft_template = {
 		hp_growth = 0,
 		speed = 30,
 		id = 340141,
+		scale = 0.75,
 		weapon_ID = {
 			340142
 		},
@@ -43634,9 +46035,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 220,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan21",
 		funnel_behavior = "",
@@ -43644,6 +46045,7 @@ pg.aircraft_template = {
 		hp_growth = 0,
 		speed = 33,
 		id = 340148,
+		scale = 0.75,
 		weapon_ID = {
 			340150,
 			340152
@@ -43708,9 +46110,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 400,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -43718,6 +46120,7 @@ pg.aircraft_template = {
 		hp_growth = 0,
 		speed = 30,
 		id = 340149,
+		scale = 0.75,
 		weapon_ID = {
 			340151
 		},
@@ -43781,9 +46184,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 350,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "huixing",
 		funnel_behavior = "",
@@ -43791,6 +46194,7 @@ pg.aircraft_template = {
 		hp_growth = 0,
 		speed = 30,
 		id = 340301,
+		scale = 0.75,
 		weapon_ID = {
 			340301
 		},
@@ -43854,9 +46258,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 450,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "huixing",
 		funnel_behavior = "",
@@ -43864,6 +46268,7 @@ pg.aircraft_template = {
 		hp_growth = 0,
 		speed = 30,
 		id = 340302,
+		scale = 0.75,
 		weapon_ID = {
 			340303
 		},
@@ -43927,9 +46332,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 100,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan52",
 		funnel_behavior = "",
@@ -43937,6 +46342,7 @@ pg.aircraft_template = {
 		hp_growth = 0,
 		speed = 33,
 		id = 340304,
+		scale = 0.75,
 		weapon_ID = {
 			340138
 		},
@@ -44000,9 +46406,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 100,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "liefeng",
 		funnel_behavior = "",
@@ -44010,6 +46416,7 @@ pg.aircraft_template = {
 		hp_growth = 0,
 		speed = 33,
 		id = 340305,
+		scale = 0.75,
 		weapon_ID = {
 			340152
 		},
@@ -44073,9 +46480,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 450,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "huixing",
 		funnel_behavior = "",
@@ -44083,6 +46490,7 @@ pg.aircraft_template = {
 		hp_growth = 0,
 		speed = 30,
 		id = 340306,
+		scale = 0.75,
 		weapon_ID = {
 			340307
 		},
@@ -44146,9 +46554,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 100,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan52",
 		funnel_behavior = "",
@@ -44156,6 +46564,7 @@ pg.aircraft_template = {
 		hp_growth = 0,
 		speed = 33,
 		id = 340308,
+		scale = 0.75,
 		weapon_ID = {
 			340118
 		},
@@ -44219,9 +46628,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 220,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan52",
 		funnel_behavior = "",
@@ -44229,6 +46638,7 @@ pg.aircraft_template = {
 		hp_growth = 0,
 		speed = 33,
 		id = 340310,
+		scale = 0.75,
 		weapon_ID = {
 			340311,
 			340312
@@ -44293,9 +46703,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 65,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -44303,6 +46713,7 @@ pg.aircraft_template = {
 		hp_growth = 2280,
 		speed = 30,
 		id = 470043,
+		scale = 0.75,
 		weapon_ID = {
 			470911
 		},
@@ -44366,9 +46777,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 36,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -44376,6 +46787,7 @@ pg.aircraft_template = {
 		hp_growth = 1680,
 		speed = 33,
 		id = 470044,
+		scale = 0.75,
 		weapon_ID = {
 			470912,
 			470913
@@ -44440,9 +46852,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 52,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "qibolin",
 		funnel_behavior = "",
@@ -44450,6 +46862,7 @@ pg.aircraft_template = {
 		hp_growth = 1920,
 		speed = 30,
 		id = 470173,
+		scale = 0.75,
 		weapon_ID = {
 			470921
 		},
@@ -44513,9 +46926,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 36,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "BF109T",
 		funnel_behavior = "",
@@ -44523,6 +46936,7 @@ pg.aircraft_template = {
 		hp_growth = 1680,
 		speed = 33,
 		id = 470174,
+		scale = 0.75,
 		weapon_ID = {
 			470922,
 			470923
@@ -44587,9 +47001,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 65,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "JU87C",
 		funnel_behavior = "",
@@ -44597,6 +47011,7 @@ pg.aircraft_template = {
 		hp_growth = 2280,
 		speed = 30,
 		id = 470175,
+		scale = 0.75,
 		weapon_ID = {
 			470924,
 			470925
@@ -44661,9 +47076,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 42,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "Me155A",
 		funnel_behavior = "",
@@ -44671,6 +47086,7 @@ pg.aircraft_template = {
 		hp_growth = 1880,
 		speed = 33,
 		id = 470176,
+		scale = 0.75,
 		weapon_ID = {
 			470926,
 			470927
@@ -44735,9 +47151,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 65,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "JU87C",
 		funnel_behavior = "",
@@ -44745,6 +47161,7 @@ pg.aircraft_template = {
 		hp_growth = 2280,
 		speed = 30,
 		id = 470901,
+		scale = 0.75,
 		weapon_ID = {
 			470901
 		},
@@ -44808,9 +47225,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 52,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "qibolin",
 		funnel_behavior = "",
@@ -44818,6 +47235,7 @@ pg.aircraft_template = {
 		hp_growth = 1920,
 		speed = 30,
 		id = 470902,
+		scale = 0.75,
 		weapon_ID = {
 			470902
 		},
@@ -44881,9 +47299,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 36,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "BF109T",
 		funnel_behavior = "",
@@ -44891,6 +47309,7 @@ pg.aircraft_template = {
 		hp_growth = 1680,
 		speed = 33,
 		id = 470903,
+		scale = 0.75,
 		weapon_ID = {
 			470903,
 			470904
@@ -44955,9 +47374,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 85,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -44965,6 +47384,7 @@ pg.aircraft_template = {
 		hp_growth = 2660,
 		speed = 30,
 		id = 471043,
+		scale = 0.75,
 		weapon_ID = {
 			471911
 		},
@@ -45028,9 +47448,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 48,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -45038,6 +47458,7 @@ pg.aircraft_template = {
 		hp_growth = 1960,
 		speed = 33,
 		id = 471044,
+		scale = 0.75,
 		weapon_ID = {
 			471912,
 			471913
@@ -45102,9 +47523,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 69,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "qibolin",
 		funnel_behavior = "",
@@ -45112,6 +47533,7 @@ pg.aircraft_template = {
 		hp_growth = 2240,
 		speed = 30,
 		id = 471173,
+		scale = 0.75,
 		weapon_ID = {
 			471921
 		},
@@ -45175,9 +47597,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 48,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "BF109T",
 		funnel_behavior = "",
@@ -45185,6 +47607,7 @@ pg.aircraft_template = {
 		hp_growth = 1960,
 		speed = 33,
 		id = 471174,
+		scale = 0.75,
 		weapon_ID = {
 			471922,
 			471923
@@ -45249,9 +47672,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 85,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "JU87C",
 		funnel_behavior = "",
@@ -45259,6 +47682,7 @@ pg.aircraft_template = {
 		hp_growth = 2660,
 		speed = 30,
 		id = 471175,
+		scale = 0.75,
 		weapon_ID = {
 			471924,
 			471925
@@ -45323,9 +47747,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 56,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "Me155A",
 		funnel_behavior = "",
@@ -45333,6 +47757,7 @@ pg.aircraft_template = {
 		hp_growth = 2100,
 		speed = 33,
 		id = 471176,
+		scale = 0.75,
 		weapon_ID = {
 			471926,
 			471927
@@ -45397,9 +47822,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 48,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "BF109T",
 		funnel_behavior = "",
@@ -45407,6 +47832,7 @@ pg.aircraft_template = {
 		hp_growth = 1960,
 		speed = 33,
 		id = 471304,
+		scale = 0.75,
 		weapon_ID = {
 			471931,
 			471932
@@ -45471,9 +47897,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 85,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "JU87C",
 		funnel_behavior = "",
@@ -45481,6 +47907,7 @@ pg.aircraft_template = {
 		hp_growth = 2660,
 		speed = 30,
 		id = 471305,
+		scale = 0.75,
 		weapon_ID = {
 			471933,
 			471934
@@ -45545,9 +47972,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 56,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "Me155A",
 		funnel_behavior = "",
@@ -45555,6 +47982,7 @@ pg.aircraft_template = {
 		hp_growth = 2100,
 		speed = 33,
 		id = 471306,
+		scale = 0.75,
 		weapon_ID = {
 			471935,
 			471936
@@ -45619,15 +48047,16 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 170,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "fuyoupao",
 		nationality = 3,
 		hp_growth = 5320,
 		speed = 70,
 		id = 471501,
+		scale = 0.75,
 		funnel_behavior = {
 			stay = 2,
 			exist = 20
@@ -45695,9 +48124,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 85,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "JU87C",
 		funnel_behavior = "",
@@ -45705,6 +48134,7 @@ pg.aircraft_template = {
 		hp_growth = 2660,
 		speed = 30,
 		id = 471901,
+		scale = 0.75,
 		weapon_ID = {
 			471901
 		},
@@ -45768,9 +48198,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 69,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "qibolin",
 		funnel_behavior = "",
@@ -45778,6 +48208,7 @@ pg.aircraft_template = {
 		hp_growth = 2240,
 		speed = 30,
 		id = 471902,
+		scale = 0.75,
 		weapon_ID = {
 			471902
 		},
@@ -45841,9 +48272,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 48,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "BF109T",
 		funnel_behavior = "",
@@ -45851,6 +48282,7 @@ pg.aircraft_template = {
 		hp_growth = 1960,
 		speed = 33,
 		id = 471903,
+		scale = 0.75,
 		weapon_ID = {
 			471903,
 			471904
@@ -45915,9 +48347,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 110,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -45925,6 +48357,7 @@ pg.aircraft_template = {
 		hp_growth = 3040,
 		speed = 30,
 		id = 472043,
+		scale = 0.75,
 		weapon_ID = {
 			472911
 		},
@@ -45988,9 +48421,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 62,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -45998,6 +48431,7 @@ pg.aircraft_template = {
 		hp_growth = 2240,
 		speed = 33,
 		id = 472044,
+		scale = 0.75,
 		weapon_ID = {
 			472912,
 			472913
@@ -46062,9 +48496,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 89,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "qibolin",
 		funnel_behavior = "",
@@ -46072,6 +48506,7 @@ pg.aircraft_template = {
 		hp_growth = 2560,
 		speed = 30,
 		id = 472173,
+		scale = 0.75,
 		weapon_ID = {
 			472921
 		},
@@ -46135,9 +48570,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 62,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "BF109T",
 		funnel_behavior = "",
@@ -46145,6 +48580,7 @@ pg.aircraft_template = {
 		hp_growth = 2240,
 		speed = 33,
 		id = 472174,
+		scale = 0.75,
 		weapon_ID = {
 			472922,
 			472923
@@ -46209,9 +48645,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 110,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "JU87C",
 		funnel_behavior = "",
@@ -46219,6 +48655,7 @@ pg.aircraft_template = {
 		hp_growth = 3040,
 		speed = 30,
 		id = 472175,
+		scale = 0.75,
 		weapon_ID = {
 			472924,
 			472925
@@ -46283,9 +48720,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 72,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "Me155A",
 		funnel_behavior = "",
@@ -46293,6 +48730,7 @@ pg.aircraft_template = {
 		hp_growth = 2400,
 		speed = 33,
 		id = 472176,
+		scale = 0.75,
 		weapon_ID = {
 			472926,
 			472927
@@ -46357,9 +48795,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 110,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "JU87C",
 		funnel_behavior = "",
@@ -46367,6 +48805,7 @@ pg.aircraft_template = {
 		hp_growth = 3040,
 		speed = 30,
 		id = 472901,
+		scale = 0.75,
 		weapon_ID = {
 			472901
 		},
@@ -46430,9 +48869,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 89,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "qibolin",
 		funnel_behavior = "",
@@ -46440,6 +48879,7 @@ pg.aircraft_template = {
 		hp_growth = 2560,
 		speed = 30,
 		id = 472902,
+		scale = 0.75,
 		weapon_ID = {
 			472902
 		},
@@ -46503,9 +48943,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 62,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "BF109T",
 		funnel_behavior = "",
@@ -46513,6 +48953,7 @@ pg.aircraft_template = {
 		hp_growth = 2240,
 		speed = 33,
 		id = 472903,
+		scale = 0.75,
 		weapon_ID = {
 			472903,
 			472904
@@ -46577,9 +49018,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 140,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -46587,6 +49028,7 @@ pg.aircraft_template = {
 		hp_growth = 3420,
 		speed = 30,
 		id = 473043,
+		scale = 0.75,
 		weapon_ID = {
 			473911
 		},
@@ -46650,9 +49092,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 79,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -46660,6 +49102,7 @@ pg.aircraft_template = {
 		hp_growth = 2520,
 		speed = 33,
 		id = 473044,
+		scale = 0.75,
 		weapon_ID = {
 			473912,
 			473913
@@ -46724,9 +49167,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 114,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "qibolin",
 		funnel_behavior = "",
@@ -46734,6 +49177,7 @@ pg.aircraft_template = {
 		hp_growth = 2880,
 		speed = 30,
 		id = 473173,
+		scale = 0.75,
 		weapon_ID = {
 			473921
 		},
@@ -46797,9 +49241,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 79,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "BF109T",
 		funnel_behavior = "",
@@ -46807,6 +49251,7 @@ pg.aircraft_template = {
 		hp_growth = 2520,
 		speed = 33,
 		id = 473174,
+		scale = 0.75,
 		weapon_ID = {
 			473922,
 			473923
@@ -46871,9 +49316,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 140,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "JU87C",
 		funnel_behavior = "",
@@ -46881,6 +49326,7 @@ pg.aircraft_template = {
 		hp_growth = 3420,
 		speed = 30,
 		id = 473175,
+		scale = 0.75,
 		weapon_ID = {
 			473924,
 			473925
@@ -46945,9 +49391,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 92,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "Me155A",
 		funnel_behavior = "",
@@ -46955,6 +49401,7 @@ pg.aircraft_template = {
 		hp_growth = 2700,
 		speed = 33,
 		id = 473176,
+		scale = 0.75,
 		weapon_ID = {
 			473926,
 			473927
@@ -47019,9 +49466,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 79,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "BF109T",
 		funnel_behavior = "",
@@ -47029,6 +49476,7 @@ pg.aircraft_template = {
 		hp_growth = 2520,
 		speed = 33,
 		id = 473304,
+		scale = 0.75,
 		weapon_ID = {
 			473931,
 			473932
@@ -47093,9 +49541,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 140,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "JU87C",
 		funnel_behavior = "",
@@ -47103,6 +49551,7 @@ pg.aircraft_template = {
 		hp_growth = 3420,
 		speed = 30,
 		id = 473305,
+		scale = 0.75,
 		weapon_ID = {
 			473933,
 			473934
@@ -47167,9 +49616,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 92,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "Me155A",
 		funnel_behavior = "",
@@ -47177,6 +49626,7 @@ pg.aircraft_template = {
 		hp_growth = 2700,
 		speed = 33,
 		id = 473306,
+		scale = 0.75,
 		weapon_ID = {
 			473935,
 			473936
@@ -47241,15 +49691,16 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 280,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "fuyoupao",
 		nationality = 3,
 		hp_growth = 6840,
 		speed = 70,
 		id = 473501,
+		scale = 0.75,
 		funnel_behavior = {
 			stay = 2,
 			exist = 20
@@ -47318,9 +49769,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 140,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "JU87C",
 		funnel_behavior = "",
@@ -47328,6 +49779,7 @@ pg.aircraft_template = {
 		hp_growth = 3420,
 		speed = 30,
 		id = 473901,
+		scale = 0.75,
 		weapon_ID = {
 			473901
 		},
@@ -47391,9 +49843,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 114,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "qibolin",
 		funnel_behavior = "",
@@ -47401,6 +49853,7 @@ pg.aircraft_template = {
 		hp_growth = 2880,
 		speed = 30,
 		id = 473902,
+		scale = 0.75,
 		weapon_ID = {
 			473902
 		},
@@ -47464,9 +49917,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 79,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "BF109T",
 		funnel_behavior = "",
@@ -47474,6 +49927,7 @@ pg.aircraft_template = {
 		hp_growth = 2520,
 		speed = 33,
 		id = 473903,
+		scale = 0.75,
 		weapon_ID = {
 			473903,
 			473904
@@ -47538,9 +49992,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 150,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "qibolin",
 		funnel_behavior = "",
@@ -47548,6 +50002,7 @@ pg.aircraft_template = {
 		hp_growth = 3200,
 		speed = 30,
 		id = 480050,
+		scale = 0.75,
 		weapon_ID = {
 			480105
 		},
@@ -47611,9 +50066,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 180,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "BF109T",
 		funnel_behavior = "",
@@ -47621,6 +50076,7 @@ pg.aircraft_template = {
 		hp_growth = 2500,
 		speed = 43,
 		id = 480051,
+		scale = 0.75,
 		weapon_ID = {
 			480101,
 			480102
@@ -47685,9 +50141,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 216,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "JU87C",
 		funnel_behavior = "",
@@ -47695,6 +50151,7 @@ pg.aircraft_template = {
 		hp_growth = 3400,
 		speed = 41,
 		id = 480052,
+		scale = 0.75,
 		weapon_ID = {
 			480104
 		},
@@ -47758,9 +50215,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 220,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "Me155A",
 		funnel_behavior = "",
@@ -47768,6 +50225,7 @@ pg.aircraft_template = {
 		hp_growth = 2800,
 		speed = 44,
 		id = 480053,
+		scale = 0.75,
 		weapon_ID = {
 			480102,
 			480103
@@ -47832,9 +50290,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 57,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -47842,6 +50300,7 @@ pg.aircraft_template = {
 		hp_growth = 3013,
 		speed = 30,
 		id = 480106,
+		scale = 0.75,
 		weapon_ID = {
 			311526
 		},
@@ -47905,9 +50364,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 78,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -47915,6 +50374,7 @@ pg.aircraft_template = {
 		hp_growth = 3377,
 		speed = 30,
 		id = 480107,
+		scale = 0.75,
 		weapon_ID = {
 			311527
 		},
@@ -47978,9 +50438,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 39,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -47988,6 +50448,7 @@ pg.aircraft_template = {
 		hp_growth = 2518,
 		speed = 33,
 		id = 480108,
+		scale = 0.75,
 		weapon_ID = {
 			311526,
 			311527
@@ -48052,9 +50513,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 78,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -48062,6 +50523,7 @@ pg.aircraft_template = {
 		hp_growth = 3377,
 		speed = 30,
 		id = 480109,
+		scale = 0.75,
 		weapon_ID = {
 			311524
 		},
@@ -48125,9 +50587,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 57,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -48135,6 +50597,7 @@ pg.aircraft_template = {
 		hp_growth = 3013,
 		speed = 30,
 		id = 480110,
+		scale = 0.75,
 		weapon_ID = {
 			311525
 		},
@@ -48198,9 +50661,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 39,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -48208,6 +50671,7 @@ pg.aircraft_template = {
 		hp_growth = 2518,
 		speed = 33,
 		id = 480111,
+		scale = 0.75,
 		weapon_ID = {
 			311530,
 			311531
@@ -48272,9 +50736,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 155,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -48282,6 +50746,7 @@ pg.aircraft_template = {
 		hp_growth = 3377,
 		speed = 30,
 		id = 490000,
+		scale = 0.75,
 		weapon_ID = {
 			490500
 		},
@@ -48345,9 +50810,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 115,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -48355,6 +50820,7 @@ pg.aircraft_template = {
 		hp_growth = 3013,
 		speed = 30,
 		id = 490001,
+		scale = 0.75,
 		weapon_ID = {
 			490501
 		},
@@ -48418,9 +50884,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 90,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -48428,6 +50894,7 @@ pg.aircraft_template = {
 		hp_growth = 2518,
 		speed = 33,
 		id = 490002,
+		scale = 0.75,
 		weapon_ID = {
 			490502,
 			490503
@@ -48492,9 +50959,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 155,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -48502,6 +50969,7 @@ pg.aircraft_template = {
 		hp_growth = 3377,
 		speed = 30,
 		id = 490003,
+		scale = 0.75,
 		weapon_ID = {
 			490504
 		},
@@ -48565,9 +51033,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 115,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -48575,6 +51043,7 @@ pg.aircraft_template = {
 		hp_growth = 3013,
 		speed = 30,
 		id = 490004,
+		scale = 0.75,
 		weapon_ID = {
 			490505
 		},
@@ -48638,9 +51107,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 90,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -48648,6 +51117,7 @@ pg.aircraft_template = {
 		hp_growth = 2518,
 		speed = 33,
 		id = 490005,
+		scale = 0.75,
 		weapon_ID = {
 			490506,
 			490507
@@ -48712,9 +51182,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 78,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -48722,6 +51192,7 @@ pg.aircraft_template = {
 		hp_growth = 3377,
 		speed = 30,
 		id = 490006,
+		scale = 0.75,
 		weapon_ID = {
 			490508
 		},
@@ -48785,9 +51256,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 57,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -48795,6 +51266,7 @@ pg.aircraft_template = {
 		hp_growth = 3013,
 		speed = 30,
 		id = 490007,
+		scale = 0.75,
 		weapon_ID = {
 			490509
 		},
@@ -48858,9 +51330,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 39,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -48868,6 +51340,7 @@ pg.aircraft_template = {
 		hp_growth = 2518,
 		speed = 33,
 		id = 490008,
+		scale = 0.75,
 		weapon_ID = {
 			490510,
 			490511
@@ -48932,9 +51405,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 180,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan52",
 		funnel_behavior = "",
@@ -48942,6 +51415,7 @@ pg.aircraft_template = {
 		hp_growth = 3013,
 		speed = 33,
 		id = 490051,
+		scale = 0.75,
 		weapon_ID = {
 			50000
 		},
@@ -49005,9 +51479,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 165,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -49015,6 +51489,7 @@ pg.aircraft_template = {
 		hp_growth = 4046,
 		speed = 33,
 		id = 490052,
+		scale = 0.75,
 		weapon_ID = {
 			50000
 		},
@@ -49078,9 +51553,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 260,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -49088,6 +51563,7 @@ pg.aircraft_template = {
 		hp_growth = 3097,
 		speed = 30,
 		id = 490053,
+		scale = 0.75,
 		weapon_ID = {
 			50000
 		},
@@ -49151,9 +51627,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 320,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao2",
 		funnel_behavior = "",
@@ -49161,6 +51637,7 @@ pg.aircraft_template = {
 		hp_growth = 2518,
 		speed = 33,
 		id = 490054,
+		scale = 0.75,
 		weapon_ID = {
 			50000
 		},
@@ -49224,9 +51701,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 90,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan52",
 		funnel_behavior = "",
@@ -49234,6 +51711,7 @@ pg.aircraft_template = {
 		hp_growth = 3397,
 		speed = 33,
 		id = 510001,
+		scale = 0.75,
 		weapon_ID = {
 			510501
 		},
@@ -49297,9 +51775,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 85,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -49307,6 +51785,7 @@ pg.aircraft_template = {
 		hp_growth = 2918,
 		speed = 33,
 		id = 510002,
+		scale = 0.75,
 		weapon_ID = {
 			510501
 		},
@@ -49370,9 +51849,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 130,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -49380,6 +51859,7 @@ pg.aircraft_template = {
 		hp_growth = 3613,
 		speed = 30,
 		id = 510003,
+		scale = 0.75,
 		weapon_ID = {
 			510502
 		},
@@ -49443,9 +51923,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 160,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao2",
 		funnel_behavior = "",
@@ -49453,6 +51933,7 @@ pg.aircraft_template = {
 		hp_growth = 4046,
 		speed = 33,
 		id = 510004,
+		scale = 0.75,
 		weapon_ID = {
 			510500
 		},
@@ -49516,9 +51997,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 108,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan52",
 		funnel_behavior = "",
@@ -49526,6 +52007,7 @@ pg.aircraft_template = {
 		hp_growth = 3397,
 		speed = 33,
 		id = 510005,
+		scale = 0.75,
 		weapon_ID = {
 			510504
 		},
@@ -49589,9 +52071,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 99,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -49599,6 +52081,7 @@ pg.aircraft_template = {
 		hp_growth = 2918,
 		speed = 33,
 		id = 510006,
+		scale = 0.75,
 		weapon_ID = {
 			510504
 		},
@@ -49662,9 +52145,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 156,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -49672,6 +52155,7 @@ pg.aircraft_template = {
 		hp_growth = 3613,
 		speed = 30,
 		id = 510007,
+		scale = 0.75,
 		weapon_ID = {
 			510505
 		},
@@ -49735,9 +52219,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 192,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao2",
 		funnel_behavior = "",
@@ -49745,6 +52229,7 @@ pg.aircraft_template = {
 		hp_growth = 4046,
 		speed = 33,
 		id = 510008,
+		scale = 0.75,
 		weapon_ID = {
 			510503
 		},
@@ -49808,9 +52293,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 184,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan52",
 		funnel_behavior = "",
@@ -49818,6 +52303,7 @@ pg.aircraft_template = {
 		hp_growth = 3397,
 		speed = 33,
 		id = 510009,
+		scale = 0.75,
 		weapon_ID = {
 			510507
 		},
@@ -49881,9 +52367,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 172,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -49891,6 +52377,7 @@ pg.aircraft_template = {
 		hp_growth = 2918,
 		speed = 33,
 		id = 510010,
+		scale = 0.75,
 		weapon_ID = {
 			510507
 		},
@@ -49954,9 +52441,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 248,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -49964,6 +52451,7 @@ pg.aircraft_template = {
 		hp_growth = 3613,
 		speed = 30,
 		id = 510011,
+		scale = 0.75,
 		weapon_ID = {
 			510508
 		},
@@ -50027,9 +52515,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 296,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao2",
 		funnel_behavior = "",
@@ -50037,6 +52525,7 @@ pg.aircraft_template = {
 		hp_growth = 4046,
 		speed = 33,
 		id = 510012,
+		scale = 0.75,
 		weapon_ID = {
 			510506
 		},
@@ -50100,9 +52589,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 220,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan52",
 		funnel_behavior = "",
@@ -50110,6 +52599,7 @@ pg.aircraft_template = {
 		hp_growth = 3397,
 		speed = 33,
 		id = 510013,
+		scale = 0.75,
 		weapon_ID = {
 			510510
 		},
@@ -50173,9 +52663,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 205,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -50183,6 +52673,7 @@ pg.aircraft_template = {
 		hp_growth = 2918,
 		speed = 33,
 		id = 510014,
+		scale = 0.75,
 		weapon_ID = {
 			510510
 		},
@@ -50246,9 +52737,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 300,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -50256,6 +52747,7 @@ pg.aircraft_template = {
 		hp_growth = 3613,
 		speed = 30,
 		id = 510015,
+		scale = 0.75,
 		weapon_ID = {
 			510511
 		},
@@ -50319,9 +52811,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 360,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao2",
 		funnel_behavior = "",
@@ -50329,6 +52821,7 @@ pg.aircraft_template = {
 		hp_growth = 4046,
 		speed = 33,
 		id = 510016,
+		scale = 0.75,
 		weapon_ID = {
 			510509
 		},
@@ -50392,9 +52885,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 90,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan52",
 		funnel_behavior = "",
@@ -50402,6 +52895,7 @@ pg.aircraft_template = {
 		hp_growth = 3397,
 		speed = 33,
 		id = 510017,
+		scale = 0.75,
 		weapon_ID = {
 			510512
 		},
@@ -50465,9 +52959,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 85,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -50475,6 +52969,7 @@ pg.aircraft_template = {
 		hp_growth = 2918,
 		speed = 33,
 		id = 510018,
+		scale = 0.75,
 		weapon_ID = {
 			510512
 		},
@@ -50538,9 +53033,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 130,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -50548,6 +53043,7 @@ pg.aircraft_template = {
 		hp_growth = 3613,
 		speed = 30,
 		id = 510019,
+		scale = 0.75,
 		weapon_ID = {
 			510513
 		},
@@ -50611,9 +53107,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 160,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao2",
 		funnel_behavior = "",
@@ -50621,6 +53117,7 @@ pg.aircraft_template = {
 		hp_growth = 4046,
 		speed = 33,
 		id = 510020,
+		scale = 0.75,
 		weapon_ID = {
 			510514
 		},
@@ -50684,9 +53181,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 150,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "ruiyun",
 		funnel_behavior = "",
@@ -50694,6 +53191,7 @@ pg.aircraft_template = {
 		hp_growth = 2778,
 		speed = 35,
 		id = 510138,
+		scale = 0.75,
 		weapon_ID = {
 			510139
 		},
@@ -50757,9 +53255,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 160,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -50767,6 +53265,7 @@ pg.aircraft_template = {
 		hp_growth = 3822,
 		speed = 30,
 		id = 510800,
+		scale = 0.75,
 		weapon_ID = {
 			510900
 		},
@@ -50830,9 +53329,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 130,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -50840,6 +53339,7 @@ pg.aircraft_template = {
 		hp_growth = 3613,
 		speed = 30,
 		id = 510801,
+		scale = 0.75,
 		weapon_ID = {
 			510901
 		},
@@ -50903,9 +53403,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 90,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -50913,6 +53413,7 @@ pg.aircraft_template = {
 		hp_growth = 2918,
 		speed = 33,
 		id = 510802,
+		scale = 0.75,
 		weapon_ID = {
 			510902,
 			510903
@@ -50977,9 +53478,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 160,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -50987,6 +53488,7 @@ pg.aircraft_template = {
 		hp_growth = 3822,
 		speed = 30,
 		id = 510803,
+		scale = 0.75,
 		weapon_ID = {
 			510904
 		},
@@ -51050,9 +53552,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 130,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -51060,6 +53562,7 @@ pg.aircraft_template = {
 		hp_growth = 3613,
 		speed = 30,
 		id = 510804,
+		scale = 0.75,
 		weapon_ID = {
 			510905
 		},
@@ -51123,9 +53626,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 90,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -51133,6 +53636,7 @@ pg.aircraft_template = {
 		hp_growth = 2918,
 		speed = 33,
 		id = 510805,
+		scale = 0.75,
 		weapon_ID = {
 			510906,
 			510907
@@ -51197,9 +53701,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 160,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -51207,6 +53711,7 @@ pg.aircraft_template = {
 		hp_growth = 3822,
 		speed = 30,
 		id = 510806,
+		scale = 0.75,
 		weapon_ID = {
 			510908
 		},
@@ -51270,9 +53775,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 130,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -51280,6 +53785,7 @@ pg.aircraft_template = {
 		hp_growth = 3613,
 		speed = 30,
 		id = 510807,
+		scale = 0.75,
 		weapon_ID = {
 			510909
 		},
@@ -51343,9 +53849,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 90,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -51353,6 +53859,7 @@ pg.aircraft_template = {
 		hp_growth = 2918,
 		speed = 33,
 		id = 510808,
+		scale = 0.75,
 		weapon_ID = {
 			510910,
 			510911
@@ -51417,9 +53924,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 160,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -51427,6 +53934,7 @@ pg.aircraft_template = {
 		hp_growth = 3822,
 		speed = 30,
 		id = 510809,
+		scale = 0.75,
 		weapon_ID = {
 			510912
 		},
@@ -51490,9 +53998,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 130,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -51500,6 +54008,7 @@ pg.aircraft_template = {
 		hp_growth = 3613,
 		speed = 30,
 		id = 510810,
+		scale = 0.75,
 		weapon_ID = {
 			510913
 		},
@@ -51563,9 +54072,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 90,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -51573,6 +54082,7 @@ pg.aircraft_template = {
 		hp_growth = 2918,
 		speed = 33,
 		id = 510811,
+		scale = 0.75,
 		weapon_ID = {
 			510914,
 			510915
@@ -51637,9 +54147,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 160,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -51647,6 +54157,7 @@ pg.aircraft_template = {
 		hp_growth = 3822,
 		speed = 30,
 		id = 510812,
+		scale = 0.75,
 		weapon_ID = {
 			510916
 		},
@@ -51710,9 +54221,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 130,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -51720,6 +54231,7 @@ pg.aircraft_template = {
 		hp_growth = 3613,
 		speed = 30,
 		id = 510813,
+		scale = 0.75,
 		weapon_ID = {
 			510917
 		},
@@ -51783,9 +54295,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 90,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -51793,6 +54305,7 @@ pg.aircraft_template = {
 		hp_growth = 2918,
 		speed = 33,
 		id = 510814,
+		scale = 0.75,
 		weapon_ID = {
 			510918,
 			510919
@@ -51857,9 +54370,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 160,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -51867,6 +54380,7 @@ pg.aircraft_template = {
 		hp_growth = 3822,
 		speed = 30,
 		id = 510815,
+		scale = 0.75,
 		weapon_ID = {
 			510920
 		},
@@ -51930,9 +54444,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 130,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -51940,6 +54454,7 @@ pg.aircraft_template = {
 		hp_growth = 3613,
 		speed = 30,
 		id = 510816,
+		scale = 0.75,
 		weapon_ID = {
 			510921
 		},
@@ -52003,9 +54518,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 90,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -52013,6 +54528,7 @@ pg.aircraft_template = {
 		hp_growth = 2918,
 		speed = 33,
 		id = 510817,
+		scale = 0.75,
 		weapon_ID = {
 			510922,
 			510923
@@ -52077,9 +54593,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 160,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -52087,6 +54603,7 @@ pg.aircraft_template = {
 		hp_growth = 3822,
 		speed = 30,
 		id = 510818,
+		scale = 0.75,
 		weapon_ID = {
 			510924
 		},
@@ -52150,9 +54667,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 130,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "liuxing",
 		funnel_behavior = "",
@@ -52160,6 +54677,7 @@ pg.aircraft_template = {
 		hp_growth = 3613,
 		speed = 30,
 		id = 510819,
+		scale = 0.75,
 		weapon_ID = {
 			510925
 		},
@@ -52223,9 +54741,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 90,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "liefeng",
 		funnel_behavior = "",
@@ -52233,6 +54751,7 @@ pg.aircraft_template = {
 		hp_growth = 2918,
 		speed = 33,
 		id = 510820,
+		scale = 0.75,
 		weapon_ID = {
 			510926,
 			510927
@@ -52297,9 +54816,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 160,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -52307,6 +54826,7 @@ pg.aircraft_template = {
 		hp_growth = 3822,
 		speed = 30,
 		id = 510821,
+		scale = 0.75,
 		weapon_ID = {
 			510928
 		},
@@ -52370,9 +54890,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 130,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "liuxing",
 		funnel_behavior = "",
@@ -52380,6 +54900,7 @@ pg.aircraft_template = {
 		hp_growth = 3613,
 		speed = 30,
 		id = 510822,
+		scale = 0.75,
 		weapon_ID = {
 			510929
 		},
@@ -52443,9 +54964,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 90,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "liefeng",
 		funnel_behavior = "",
@@ -52453,6 +54974,7 @@ pg.aircraft_template = {
 		hp_growth = 2918,
 		speed = 33,
 		id = 510823,
+		scale = 0.75,
 		weapon_ID = {
 			510930,
 			510931
@@ -52517,9 +55039,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 125,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "liefeng",
 		funnel_behavior = "",
@@ -52527,6 +55049,7 @@ pg.aircraft_template = {
 		hp_growth = 3532,
 		speed = 46,
 		id = 511126,
+		scale = 0.75,
 		weapon_ID = {
 			511127
 		},
@@ -52590,15 +55113,16 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 500,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "liefeng",
 		nationality = 3,
 		hp_growth = 8000,
 		speed = 70,
 		id = 511128,
+		scale = 0.75,
 		funnel_behavior = {
 			stay = 2,
 			exist = 20
@@ -52666,9 +55190,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 125,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "liefeng",
 		funnel_behavior = "",
@@ -52676,6 +55200,7 @@ pg.aircraft_template = {
 		hp_growth = 3532,
 		speed = 46,
 		id = 511132,
+		scale = 0.75,
 		weapon_ID = {
 			511133
 		},
@@ -52739,15 +55264,16 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 500,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "liefeng",
 		nationality = 3,
 		hp_growth = 8000,
 		speed = 70,
 		id = 511134,
+		scale = 0.75,
 		funnel_behavior = {
 			stay = 2,
 			exist = 20
@@ -52815,9 +55341,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 125,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "liefeng",
 		funnel_behavior = "",
@@ -52825,6 +55351,7 @@ pg.aircraft_template = {
 		hp_growth = 3532,
 		speed = 46,
 		id = 511138,
+		scale = 0.75,
 		weapon_ID = {
 			511139
 		},
@@ -52888,15 +55415,16 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 500,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "liefeng",
 		nationality = 3,
 		hp_growth = 8000,
 		speed = 70,
 		id = 511140,
+		scale = 0.75,
 		funnel_behavior = {
 			stay = 2,
 			exist = 20
@@ -52964,9 +55492,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 180,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -52974,6 +55502,7 @@ pg.aircraft_template = {
 		hp_growth = 3822,
 		speed = 40,
 		id = 511144,
+		scale = 0.75,
 		weapon_ID = {
 			511924
 		},
@@ -53037,9 +55566,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 150,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -53047,6 +55576,7 @@ pg.aircraft_template = {
 		hp_growth = 3613,
 		speed = 42,
 		id = 511145,
+		scale = 0.75,
 		weapon_ID = {
 			511925
 		},
@@ -53110,9 +55640,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 180,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -53120,6 +55650,7 @@ pg.aircraft_template = {
 		hp_growth = 3822,
 		speed = 40,
 		id = 511146,
+		scale = 0.75,
 		weapon_ID = {
 			511916
 		},
@@ -53183,9 +55714,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 150,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -53193,6 +55724,7 @@ pg.aircraft_template = {
 		hp_growth = 3613,
 		speed = 42,
 		id = 511147,
+		scale = 0.75,
 		weapon_ID = {
 			511917
 		},
@@ -53256,9 +55788,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 180,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -53266,6 +55798,7 @@ pg.aircraft_template = {
 		hp_growth = 3822,
 		speed = 40,
 		id = 511148,
+		scale = 0.75,
 		weapon_ID = {
 			511920
 		},
@@ -53329,9 +55862,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 150,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -53339,6 +55872,7 @@ pg.aircraft_template = {
 		hp_growth = 3613,
 		speed = 42,
 		id = 511149,
+		scale = 0.75,
 		weapon_ID = {
 			511921
 		},
@@ -53402,9 +55936,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 180,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -53412,6 +55946,7 @@ pg.aircraft_template = {
 		hp_growth = 3822,
 		speed = 30,
 		id = 511800,
+		scale = 0.75,
 		weapon_ID = {
 			511900
 		},
@@ -53475,9 +56010,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 150,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -53485,6 +56020,7 @@ pg.aircraft_template = {
 		hp_growth = 3613,
 		speed = 30,
 		id = 511801,
+		scale = 0.75,
 		weapon_ID = {
 			511901
 		},
@@ -53548,9 +56084,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 100,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -53558,6 +56094,7 @@ pg.aircraft_template = {
 		hp_growth = 2918,
 		speed = 33,
 		id = 511802,
+		scale = 0.75,
 		weapon_ID = {
 			511902,
 			511903
@@ -53622,9 +56159,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 180,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -53632,6 +56169,7 @@ pg.aircraft_template = {
 		hp_growth = 3822,
 		speed = 30,
 		id = 511803,
+		scale = 0.75,
 		weapon_ID = {
 			511904
 		},
@@ -53695,9 +56233,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 150,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -53705,6 +56243,7 @@ pg.aircraft_template = {
 		hp_growth = 3613,
 		speed = 30,
 		id = 511804,
+		scale = 0.75,
 		weapon_ID = {
 			511905
 		},
@@ -53768,9 +56307,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 100,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -53778,6 +56317,7 @@ pg.aircraft_template = {
 		hp_growth = 2918,
 		speed = 33,
 		id = 511805,
+		scale = 0.75,
 		weapon_ID = {
 			511906,
 			511907
@@ -53842,9 +56382,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 180,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -53852,6 +56392,7 @@ pg.aircraft_template = {
 		hp_growth = 3822,
 		speed = 30,
 		id = 511806,
+		scale = 0.75,
 		weapon_ID = {
 			511908
 		},
@@ -53915,9 +56456,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 150,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -53925,6 +56466,7 @@ pg.aircraft_template = {
 		hp_growth = 3613,
 		speed = 30,
 		id = 511807,
+		scale = 0.75,
 		weapon_ID = {
 			511909
 		},
@@ -53988,9 +56530,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 100,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -53998,6 +56540,7 @@ pg.aircraft_template = {
 		hp_growth = 2918,
 		speed = 33,
 		id = 511808,
+		scale = 0.75,
 		weapon_ID = {
 			511910,
 			511911
@@ -54062,9 +56605,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 180,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -54072,6 +56615,7 @@ pg.aircraft_template = {
 		hp_growth = 3822,
 		speed = 30,
 		id = 511809,
+		scale = 0.75,
 		weapon_ID = {
 			511912
 		},
@@ -54135,9 +56679,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 150,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -54145,6 +56689,7 @@ pg.aircraft_template = {
 		hp_growth = 3613,
 		speed = 30,
 		id = 511810,
+		scale = 0.75,
 		weapon_ID = {
 			511913
 		},
@@ -54208,9 +56753,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 100,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -54218,6 +56763,7 @@ pg.aircraft_template = {
 		hp_growth = 2918,
 		speed = 33,
 		id = 511811,
+		scale = 0.75,
 		weapon_ID = {
 			511914,
 			511915
@@ -54282,9 +56828,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 180,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -54292,6 +56838,7 @@ pg.aircraft_template = {
 		hp_growth = 3822,
 		speed = 30,
 		id = 511812,
+		scale = 0.75,
 		weapon_ID = {
 			511916
 		},
@@ -54355,9 +56902,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 150,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -54365,6 +56912,7 @@ pg.aircraft_template = {
 		hp_growth = 3613,
 		speed = 30,
 		id = 511813,
+		scale = 0.75,
 		weapon_ID = {
 			511917
 		},
@@ -54428,9 +56976,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 100,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -54438,6 +56986,7 @@ pg.aircraft_template = {
 		hp_growth = 2918,
 		speed = 33,
 		id = 511814,
+		scale = 0.75,
 		weapon_ID = {
 			511918,
 			511919
@@ -54502,9 +57051,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 180,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -54512,6 +57061,7 @@ pg.aircraft_template = {
 		hp_growth = 3822,
 		speed = 30,
 		id = 511815,
+		scale = 0.75,
 		weapon_ID = {
 			511920
 		},
@@ -54575,9 +57125,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 150,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -54585,6 +57135,7 @@ pg.aircraft_template = {
 		hp_growth = 3613,
 		speed = 30,
 		id = 511816,
+		scale = 0.75,
 		weapon_ID = {
 			511921
 		},
@@ -54648,9 +57199,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 100,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -54658,6 +57209,7 @@ pg.aircraft_template = {
 		hp_growth = 2918,
 		speed = 33,
 		id = 511817,
+		scale = 0.75,
 		weapon_ID = {
 			511922,
 			511923
@@ -54722,9 +57274,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 180,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -54732,6 +57284,7 @@ pg.aircraft_template = {
 		hp_growth = 3822,
 		speed = 30,
 		id = 511818,
+		scale = 0.75,
 		weapon_ID = {
 			511924
 		},
@@ -54795,9 +57348,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 150,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "liuxing",
 		funnel_behavior = "",
@@ -54805,6 +57358,7 @@ pg.aircraft_template = {
 		hp_growth = 3613,
 		speed = 30,
 		id = 511819,
+		scale = 0.75,
 		weapon_ID = {
 			511925
 		},
@@ -54868,9 +57422,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 100,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "liefeng",
 		funnel_behavior = "",
@@ -54878,6 +57432,7 @@ pg.aircraft_template = {
 		hp_growth = 2918,
 		speed = 33,
 		id = 511820,
+		scale = 0.75,
 		weapon_ID = {
 			511926,
 			511927
@@ -54942,9 +57497,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 180,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -54952,6 +57507,7 @@ pg.aircraft_template = {
 		hp_growth = 3822,
 		speed = 30,
 		id = 511821,
+		scale = 0.75,
 		weapon_ID = {
 			511928
 		},
@@ -55015,9 +57571,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 150,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "liuxing",
 		funnel_behavior = "",
@@ -55025,6 +57581,7 @@ pg.aircraft_template = {
 		hp_growth = 3613,
 		speed = 30,
 		id = 511822,
+		scale = 0.75,
 		weapon_ID = {
 			511929
 		},
@@ -55088,9 +57645,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 100,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "liefeng",
 		funnel_behavior = "",
@@ -55098,6 +57655,7 @@ pg.aircraft_template = {
 		hp_growth = 2918,
 		speed = 33,
 		id = 511823,
+		scale = 0.75,
 		weapon_ID = {
 			511930,
 			511931
@@ -55162,9 +57720,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 354,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "ruiyun",
 		funnel_behavior = "",
@@ -55172,6 +57730,7 @@ pg.aircraft_template = {
 		hp_growth = 2778,
 		speed = 35,
 		id = 512138,
+		scale = 0.75,
 		weapon_ID = {
 			512139
 		},
@@ -55235,9 +57794,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 180,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -55245,6 +57804,7 @@ pg.aircraft_template = {
 		hp_growth = 3822,
 		speed = 30,
 		id = 512800,
+		scale = 0.75,
 		weapon_ID = {
 			512900
 		},
@@ -55308,9 +57868,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 150,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -55318,6 +57878,7 @@ pg.aircraft_template = {
 		hp_growth = 3613,
 		speed = 30,
 		id = 512801,
+		scale = 0.75,
 		weapon_ID = {
 			512901
 		},
@@ -55381,9 +57942,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 100,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -55391,6 +57952,7 @@ pg.aircraft_template = {
 		hp_growth = 2918,
 		speed = 33,
 		id = 512802,
+		scale = 0.75,
 		weapon_ID = {
 			512902,
 			512903
@@ -55455,9 +58017,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 180,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -55465,6 +58027,7 @@ pg.aircraft_template = {
 		hp_growth = 3822,
 		speed = 30,
 		id = 512803,
+		scale = 0.75,
 		weapon_ID = {
 			512904
 		},
@@ -55528,9 +58091,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 150,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -55538,6 +58101,7 @@ pg.aircraft_template = {
 		hp_growth = 3613,
 		speed = 30,
 		id = 512804,
+		scale = 0.75,
 		weapon_ID = {
 			512905
 		},
@@ -55601,9 +58165,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 100,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -55611,6 +58175,7 @@ pg.aircraft_template = {
 		hp_growth = 2918,
 		speed = 33,
 		id = 512805,
+		scale = 0.75,
 		weapon_ID = {
 			512906,
 			512907
@@ -55675,9 +58240,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 180,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -55685,6 +58250,7 @@ pg.aircraft_template = {
 		hp_growth = 3822,
 		speed = 30,
 		id = 512806,
+		scale = 0.75,
 		weapon_ID = {
 			512908
 		},
@@ -55748,9 +58314,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 150,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -55758,6 +58324,7 @@ pg.aircraft_template = {
 		hp_growth = 3613,
 		speed = 30,
 		id = 512807,
+		scale = 0.75,
 		weapon_ID = {
 			512909
 		},
@@ -55821,9 +58388,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 100,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -55831,6 +58398,7 @@ pg.aircraft_template = {
 		hp_growth = 2918,
 		speed = 33,
 		id = 512808,
+		scale = 0.75,
 		weapon_ID = {
 			512910,
 			512911
@@ -55895,9 +58463,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 180,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -55905,6 +58473,7 @@ pg.aircraft_template = {
 		hp_growth = 3822,
 		speed = 30,
 		id = 512809,
+		scale = 0.75,
 		weapon_ID = {
 			512912
 		},
@@ -55968,9 +58537,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 150,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -55978,6 +58547,7 @@ pg.aircraft_template = {
 		hp_growth = 3613,
 		speed = 30,
 		id = 512810,
+		scale = 0.75,
 		weapon_ID = {
 			512913
 		},
@@ -56041,9 +58611,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 100,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -56051,6 +58621,7 @@ pg.aircraft_template = {
 		hp_growth = 2918,
 		speed = 33,
 		id = 512811,
+		scale = 0.75,
 		weapon_ID = {
 			512914,
 			512915
@@ -56115,9 +58686,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 180,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -56125,6 +58696,7 @@ pg.aircraft_template = {
 		hp_growth = 3822,
 		speed = 30,
 		id = 512812,
+		scale = 0.75,
 		weapon_ID = {
 			512916
 		},
@@ -56188,9 +58760,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 150,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -56198,6 +58770,7 @@ pg.aircraft_template = {
 		hp_growth = 3613,
 		speed = 30,
 		id = 512813,
+		scale = 0.75,
 		weapon_ID = {
 			512917
 		},
@@ -56261,9 +58834,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 100,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -56271,6 +58844,7 @@ pg.aircraft_template = {
 		hp_growth = 2918,
 		speed = 33,
 		id = 512814,
+		scale = 0.75,
 		weapon_ID = {
 			512918,
 			512919
@@ -56335,9 +58909,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 180,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -56345,6 +58919,7 @@ pg.aircraft_template = {
 		hp_growth = 3822,
 		speed = 30,
 		id = 512815,
+		scale = 0.75,
 		weapon_ID = {
 			512920
 		},
@@ -56408,9 +58983,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 150,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -56418,6 +58993,7 @@ pg.aircraft_template = {
 		hp_growth = 3613,
 		speed = 30,
 		id = 512816,
+		scale = 0.75,
 		weapon_ID = {
 			512921
 		},
@@ -56481,9 +59057,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 100,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -56491,6 +59067,7 @@ pg.aircraft_template = {
 		hp_growth = 2918,
 		speed = 33,
 		id = 512817,
+		scale = 0.75,
 		weapon_ID = {
 			512922,
 			512923
@@ -56555,9 +59132,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 180,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -56565,6 +59142,7 @@ pg.aircraft_template = {
 		hp_growth = 3822,
 		speed = 30,
 		id = 512818,
+		scale = 0.75,
 		weapon_ID = {
 			512924
 		},
@@ -56628,9 +59206,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 150,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "liuxing",
 		funnel_behavior = "",
@@ -56638,6 +59216,7 @@ pg.aircraft_template = {
 		hp_growth = 3613,
 		speed = 30,
 		id = 512819,
+		scale = 0.75,
 		weapon_ID = {
 			512925
 		},
@@ -56701,9 +59280,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 100,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "liefeng",
 		funnel_behavior = "",
@@ -56711,6 +59290,7 @@ pg.aircraft_template = {
 		hp_growth = 2918,
 		speed = 33,
 		id = 512820,
+		scale = 0.75,
 		weapon_ID = {
 			512926,
 			512927
@@ -56775,9 +59355,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 180,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -56785,6 +59365,7 @@ pg.aircraft_template = {
 		hp_growth = 3822,
 		speed = 30,
 		id = 512821,
+		scale = 0.75,
 		weapon_ID = {
 			512928
 		},
@@ -56848,9 +59429,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 150,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "liuxing",
 		funnel_behavior = "",
@@ -56858,6 +59439,7 @@ pg.aircraft_template = {
 		hp_growth = 3613,
 		speed = 30,
 		id = 512822,
+		scale = 0.75,
 		weapon_ID = {
 			512929
 		},
@@ -56921,9 +59503,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 100,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "liefeng",
 		funnel_behavior = "",
@@ -56931,6 +59513,7 @@ pg.aircraft_template = {
 		hp_growth = 2918,
 		speed = 33,
 		id = 512823,
+		scale = 0.75,
 		weapon_ID = {
 			512930,
 			512931
@@ -56995,9 +59578,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 210,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "liefeng",
 		funnel_behavior = "",
@@ -57005,6 +59588,7 @@ pg.aircraft_template = {
 		hp_growth = 3532,
 		speed = 46,
 		id = 513126,
+		scale = 0.75,
 		weapon_ID = {
 			513127
 		},
@@ -57068,15 +59652,16 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 500,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "liefeng",
 		nationality = 3,
 		hp_growth = 8000,
 		speed = 70,
 		id = 513128,
+		scale = 0.75,
 		funnel_behavior = {
 			stay = 2,
 			exist = 20
@@ -57144,9 +59729,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 165,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "liefeng",
 		funnel_behavior = "",
@@ -57154,6 +59739,7 @@ pg.aircraft_template = {
 		hp_growth = 3532,
 		speed = 44,
 		id = 513132,
+		scale = 0.75,
 		weapon_ID = {
 			513133
 		},
@@ -57217,15 +59803,16 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 500,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "liefeng",
 		nationality = 3,
 		hp_growth = 8000,
 		speed = 70,
 		id = 513134,
+		scale = 0.75,
 		funnel_behavior = {
 			stay = 2,
 			exist = 20
@@ -57293,9 +59880,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 165,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "liefeng",
 		funnel_behavior = "",
@@ -57303,6 +59890,7 @@ pg.aircraft_template = {
 		hp_growth = 3532,
 		speed = 44,
 		id = 513138,
+		scale = 0.75,
 		weapon_ID = {
 			513139
 		},
@@ -57366,15 +59954,16 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 500,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "liefeng",
 		nationality = 3,
 		hp_growth = 8000,
 		speed = 70,
 		id = 513140,
+		scale = 0.75,
 		funnel_behavior = {
 			stay = 2,
 			exist = 20
@@ -57442,9 +60031,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 360,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -57452,6 +60041,7 @@ pg.aircraft_template = {
 		hp_growth = 3822,
 		speed = 40,
 		id = 513144,
+		scale = 0.75,
 		weapon_ID = {
 			513924
 		},
@@ -57515,9 +60105,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 300,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -57525,6 +60115,7 @@ pg.aircraft_template = {
 		hp_growth = 3613,
 		speed = 42,
 		id = 513145,
+		scale = 0.75,
 		weapon_ID = {
 			513925
 		},
@@ -57588,9 +60179,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 280,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -57598,6 +60189,7 @@ pg.aircraft_template = {
 		hp_growth = 3822,
 		speed = 40,
 		id = 513146,
+		scale = 0.75,
 		weapon_ID = {
 			513916
 		},
@@ -57661,9 +60253,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 240,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -57671,6 +60263,7 @@ pg.aircraft_template = {
 		hp_growth = 3613,
 		speed = 42,
 		id = 513147,
+		scale = 0.75,
 		weapon_ID = {
 			513917
 		},
@@ -57734,9 +60327,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 280,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -57744,6 +60337,7 @@ pg.aircraft_template = {
 		hp_growth = 3822,
 		speed = 40,
 		id = 513148,
+		scale = 0.75,
 		weapon_ID = {
 			513920
 		},
@@ -57807,9 +60401,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 240,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -57817,6 +60411,7 @@ pg.aircraft_template = {
 		hp_growth = 3613,
 		speed = 42,
 		id = 513149,
+		scale = 0.75,
 		weapon_ID = {
 			513921
 		},
@@ -57880,9 +60475,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 300,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -57890,6 +60485,7 @@ pg.aircraft_template = {
 		hp_growth = 3377,
 		speed = 30,
 		id = 513800,
+		scale = 0.75,
 		weapon_ID = {
 			513900
 		},
@@ -57953,9 +60549,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 240,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -57963,6 +60559,7 @@ pg.aircraft_template = {
 		hp_growth = 3013,
 		speed = 30,
 		id = 513801,
+		scale = 0.75,
 		weapon_ID = {
 			513901
 		},
@@ -58026,9 +60623,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 125,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -58036,6 +60633,7 @@ pg.aircraft_template = {
 		hp_growth = 2518,
 		speed = 33,
 		id = 513802,
+		scale = 0.75,
 		weapon_ID = {
 			513902,
 			513903
@@ -58100,9 +60698,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 260,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -58110,6 +60708,7 @@ pg.aircraft_template = {
 		hp_growth = 3377,
 		speed = 30,
 		id = 513803,
+		scale = 0.75,
 		weapon_ID = {
 			513904
 		},
@@ -58173,9 +60772,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 200,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -58183,6 +60782,7 @@ pg.aircraft_template = {
 		hp_growth = 3013,
 		speed = 30,
 		id = 513804,
+		scale = 0.75,
 		weapon_ID = {
 			513905
 		},
@@ -58246,9 +60846,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 125,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -58256,6 +60856,7 @@ pg.aircraft_template = {
 		hp_growth = 2518,
 		speed = 33,
 		id = 513805,
+		scale = 0.75,
 		weapon_ID = {
 			513906,
 			513907
@@ -58320,9 +60921,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 260,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -58330,6 +60931,7 @@ pg.aircraft_template = {
 		hp_growth = 3377,
 		speed = 30,
 		id = 513806,
+		scale = 0.75,
 		weapon_ID = {
 			513908
 		},
@@ -58393,9 +60995,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 200,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -58403,6 +61005,7 @@ pg.aircraft_template = {
 		hp_growth = 3013,
 		speed = 30,
 		id = 513807,
+		scale = 0.75,
 		weapon_ID = {
 			513909
 		},
@@ -58466,9 +61069,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 125,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -58476,6 +61079,7 @@ pg.aircraft_template = {
 		hp_growth = 2518,
 		speed = 33,
 		id = 513808,
+		scale = 0.75,
 		weapon_ID = {
 			513910,
 			513911
@@ -58540,9 +61144,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 260,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -58550,6 +61154,7 @@ pg.aircraft_template = {
 		hp_growth = 3377,
 		speed = 30,
 		id = 513809,
+		scale = 0.75,
 		weapon_ID = {
 			513912
 		},
@@ -58613,9 +61218,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 200,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -58623,6 +61228,7 @@ pg.aircraft_template = {
 		hp_growth = 3013,
 		speed = 30,
 		id = 513810,
+		scale = 0.75,
 		weapon_ID = {
 			513913
 		},
@@ -58686,9 +61292,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 125,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -58696,6 +61302,7 @@ pg.aircraft_template = {
 		hp_growth = 2518,
 		speed = 33,
 		id = 513811,
+		scale = 0.75,
 		weapon_ID = {
 			513914,
 			513915
@@ -58760,9 +61367,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 260,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -58770,6 +61377,7 @@ pg.aircraft_template = {
 		hp_growth = 3377,
 		speed = 30,
 		id = 513812,
+		scale = 0.75,
 		weapon_ID = {
 			513916
 		},
@@ -58833,9 +61441,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 200,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -58843,6 +61451,7 @@ pg.aircraft_template = {
 		hp_growth = 3013,
 		speed = 30,
 		id = 513813,
+		scale = 0.75,
 		weapon_ID = {
 			513917
 		},
@@ -58906,9 +61515,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 125,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -58916,6 +61525,7 @@ pg.aircraft_template = {
 		hp_growth = 2518,
 		speed = 33,
 		id = 513814,
+		scale = 0.75,
 		weapon_ID = {
 			513918,
 			513919
@@ -58980,9 +61590,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 260,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -58990,6 +61600,7 @@ pg.aircraft_template = {
 		hp_growth = 3377,
 		speed = 30,
 		id = 513815,
+		scale = 0.75,
 		weapon_ID = {
 			513920
 		},
@@ -59053,9 +61664,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 200,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -59063,6 +61674,7 @@ pg.aircraft_template = {
 		hp_growth = 3013,
 		speed = 30,
 		id = 513816,
+		scale = 0.75,
 		weapon_ID = {
 			513921
 		},
@@ -59126,9 +61738,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 125,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -59136,6 +61748,7 @@ pg.aircraft_template = {
 		hp_growth = 2518,
 		speed = 33,
 		id = 513817,
+		scale = 0.75,
 		weapon_ID = {
 			513922,
 			513923
@@ -59200,9 +61813,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 260,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -59210,6 +61823,7 @@ pg.aircraft_template = {
 		hp_growth = 3377,
 		speed = 30,
 		id = 513818,
+		scale = 0.75,
 		weapon_ID = {
 			513924
 		},
@@ -59273,9 +61887,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 200,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "liuxing",
 		funnel_behavior = "",
@@ -59283,6 +61897,7 @@ pg.aircraft_template = {
 		hp_growth = 3013,
 		speed = 30,
 		id = 513819,
+		scale = 0.75,
 		weapon_ID = {
 			513925
 		},
@@ -59346,9 +61961,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 125,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "liefeng",
 		funnel_behavior = "",
@@ -59356,6 +61971,7 @@ pg.aircraft_template = {
 		hp_growth = 2518,
 		speed = 33,
 		id = 513820,
+		scale = 0.75,
 		weapon_ID = {
 			513926,
 			513927
@@ -59420,9 +62036,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 260,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -59430,6 +62046,7 @@ pg.aircraft_template = {
 		hp_growth = 3377,
 		speed = 30,
 		id = 513821,
+		scale = 0.75,
 		weapon_ID = {
 			513928
 		},
@@ -59493,9 +62110,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 200,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "liuxing",
 		funnel_behavior = "",
@@ -59503,6 +62120,7 @@ pg.aircraft_template = {
 		hp_growth = 3013,
 		speed = 30,
 		id = 513822,
+		scale = 0.75,
 		weapon_ID = {
 			513929
 		},
@@ -59566,9 +62184,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 125,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "liefeng",
 		funnel_behavior = "",
@@ -59576,6 +62194,7 @@ pg.aircraft_template = {
 		hp_growth = 2518,
 		speed = 33,
 		id = 513823,
+		scale = 0.75,
 		weapon_ID = {
 			513930,
 			513931
@@ -59640,9 +62259,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 125,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -59650,6 +62269,7 @@ pg.aircraft_template = {
 		hp_growth = 2518,
 		speed = 33,
 		id = 514132,
+		scale = 0.75,
 		weapon_ID = {
 			514133
 		},
@@ -59713,9 +62333,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 125,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -59723,6 +62343,7 @@ pg.aircraft_template = {
 		hp_growth = 2518,
 		speed = 33,
 		id = 514138,
+		scale = 0.75,
 		weapon_ID = {
 			514139
 		},
@@ -59786,9 +62407,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 260,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -59796,6 +62417,7 @@ pg.aircraft_template = {
 		hp_growth = 3377,
 		speed = 30,
 		id = 514146,
+		scale = 0.75,
 		weapon_ID = {
 			514916
 		},
@@ -59859,9 +62481,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 200,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -59869,6 +62491,7 @@ pg.aircraft_template = {
 		hp_growth = 3013,
 		speed = 30,
 		id = 514147,
+		scale = 0.75,
 		weapon_ID = {
 			514917
 		},
@@ -59932,9 +62555,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 260,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -59942,6 +62565,7 @@ pg.aircraft_template = {
 		hp_growth = 3377,
 		speed = 30,
 		id = 514148,
+		scale = 0.75,
 		weapon_ID = {
 			514920
 		},
@@ -60005,9 +62629,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 200,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -60015,6 +62639,7 @@ pg.aircraft_template = {
 		hp_growth = 3013,
 		speed = 30,
 		id = 514149,
+		scale = 0.75,
 		weapon_ID = {
 			514921
 		},
@@ -60078,9 +62703,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 300,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -60088,6 +62713,7 @@ pg.aircraft_template = {
 		hp_growth = 3377,
 		speed = 30,
 		id = 514800,
+		scale = 0.75,
 		weapon_ID = {
 			514900
 		},
@@ -60151,9 +62777,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 240,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -60161,6 +62787,7 @@ pg.aircraft_template = {
 		hp_growth = 3013,
 		speed = 30,
 		id = 514801,
+		scale = 0.75,
 		weapon_ID = {
 			514901
 		},
@@ -60224,9 +62851,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 125,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -60234,6 +62861,7 @@ pg.aircraft_template = {
 		hp_growth = 2518,
 		speed = 33,
 		id = 514802,
+		scale = 0.75,
 		weapon_ID = {
 			514902,
 			514903
@@ -60298,9 +62926,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 260,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -60308,6 +62936,7 @@ pg.aircraft_template = {
 		hp_growth = 3377,
 		speed = 30,
 		id = 514803,
+		scale = 0.75,
 		weapon_ID = {
 			514904
 		},
@@ -60371,9 +63000,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 200,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -60381,6 +63010,7 @@ pg.aircraft_template = {
 		hp_growth = 3013,
 		speed = 30,
 		id = 514804,
+		scale = 0.75,
 		weapon_ID = {
 			514905
 		},
@@ -60444,9 +63074,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 125,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -60454,6 +63084,7 @@ pg.aircraft_template = {
 		hp_growth = 2518,
 		speed = 33,
 		id = 514805,
+		scale = 0.75,
 		weapon_ID = {
 			514906,
 			514907
@@ -60518,9 +63149,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 260,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -60528,6 +63159,7 @@ pg.aircraft_template = {
 		hp_growth = 3377,
 		speed = 30,
 		id = 514806,
+		scale = 0.75,
 		weapon_ID = {
 			514908
 		},
@@ -60591,9 +63223,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 200,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -60601,6 +63233,7 @@ pg.aircraft_template = {
 		hp_growth = 3013,
 		speed = 30,
 		id = 514807,
+		scale = 0.75,
 		weapon_ID = {
 			514909
 		},
@@ -60664,9 +63297,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 125,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -60674,6 +63307,7 @@ pg.aircraft_template = {
 		hp_growth = 2518,
 		speed = 33,
 		id = 514808,
+		scale = 0.75,
 		weapon_ID = {
 			514910,
 			514911
@@ -60738,9 +63372,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 260,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -60748,6 +63382,7 @@ pg.aircraft_template = {
 		hp_growth = 3377,
 		speed = 30,
 		id = 514809,
+		scale = 0.75,
 		weapon_ID = {
 			514912
 		},
@@ -60811,9 +63446,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 200,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -60821,6 +63456,7 @@ pg.aircraft_template = {
 		hp_growth = 3013,
 		speed = 30,
 		id = 514810,
+		scale = 0.75,
 		weapon_ID = {
 			514913
 		},
@@ -60884,9 +63520,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 125,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -60894,6 +63530,7 @@ pg.aircraft_template = {
 		hp_growth = 2518,
 		speed = 33,
 		id = 514811,
+		scale = 0.75,
 		weapon_ID = {
 			514914,
 			514915
@@ -60958,9 +63595,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 260,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -60968,6 +63605,7 @@ pg.aircraft_template = {
 		hp_growth = 3377,
 		speed = 30,
 		id = 514812,
+		scale = 0.75,
 		weapon_ID = {
 			514916
 		},
@@ -61031,9 +63669,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 200,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -61041,6 +63679,7 @@ pg.aircraft_template = {
 		hp_growth = 3013,
 		speed = 30,
 		id = 514813,
+		scale = 0.75,
 		weapon_ID = {
 			514917
 		},
@@ -61104,9 +63743,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 125,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -61114,6 +63753,7 @@ pg.aircraft_template = {
 		hp_growth = 2518,
 		speed = 33,
 		id = 514814,
+		scale = 0.75,
 		weapon_ID = {
 			514918,
 			514919
@@ -61178,9 +63818,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 260,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -61188,6 +63828,7 @@ pg.aircraft_template = {
 		hp_growth = 3377,
 		speed = 30,
 		id = 514815,
+		scale = 0.75,
 		weapon_ID = {
 			514920
 		},
@@ -61251,9 +63892,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 200,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -61261,6 +63902,7 @@ pg.aircraft_template = {
 		hp_growth = 3013,
 		speed = 30,
 		id = 514816,
+		scale = 0.75,
 		weapon_ID = {
 			514921
 		},
@@ -61324,9 +63966,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 125,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -61334,6 +63976,7 @@ pg.aircraft_template = {
 		hp_growth = 2518,
 		speed = 33,
 		id = 514817,
+		scale = 0.75,
 		weapon_ID = {
 			514922,
 			514923
@@ -61398,9 +64041,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 260,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -61408,6 +64051,7 @@ pg.aircraft_template = {
 		hp_growth = 3377,
 		speed = 30,
 		id = 514818,
+		scale = 0.75,
 		weapon_ID = {
 			514924
 		},
@@ -61471,9 +64115,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 200,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "liuxing",
 		funnel_behavior = "",
@@ -61481,6 +64125,7 @@ pg.aircraft_template = {
 		hp_growth = 3013,
 		speed = 30,
 		id = 514819,
+		scale = 0.75,
 		weapon_ID = {
 			514925
 		},
@@ -61544,9 +64189,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 125,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "liefeng",
 		funnel_behavior = "",
@@ -61554,6 +64199,7 @@ pg.aircraft_template = {
 		hp_growth = 2518,
 		speed = 33,
 		id = 514820,
+		scale = 0.75,
 		weapon_ID = {
 			514926,
 			514927
@@ -61618,9 +64264,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 260,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -61628,6 +64274,7 @@ pg.aircraft_template = {
 		hp_growth = 3377,
 		speed = 30,
 		id = 514821,
+		scale = 0.75,
 		weapon_ID = {
 			514928
 		},
@@ -61691,9 +64338,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 200,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "liuxing",
 		funnel_behavior = "",
@@ -61701,6 +64348,7 @@ pg.aircraft_template = {
 		hp_growth = 3013,
 		speed = 30,
 		id = 514822,
+		scale = 0.75,
 		weapon_ID = {
 			514929
 		},
@@ -61764,9 +64412,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 125,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "liefeng",
 		funnel_behavior = "",
@@ -61774,6 +64422,7 @@ pg.aircraft_template = {
 		hp_growth = 2518,
 		speed = 33,
 		id = 514823,
+		scale = 0.75,
 		weapon_ID = {
 			514930,
 			514931
@@ -61838,9 +64487,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 125,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "qibolin",
 		funnel_behavior = "",
@@ -61848,6 +64497,7 @@ pg.aircraft_template = {
 		hp_growth = 3200,
 		speed = 30,
 		id = 520101,
+		scale = 0.75,
 		weapon_ID = {
 			520205
 		},
@@ -61911,9 +64561,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 165,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "BF109T",
 		funnel_behavior = "",
@@ -61921,6 +64571,7 @@ pg.aircraft_template = {
 		hp_growth = 2600,
 		speed = 33,
 		id = 520102,
+		scale = 0.75,
 		weapon_ID = {
 			520201,
 			520202
@@ -61985,9 +64636,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 95,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "JU87C",
 		funnel_behavior = "",
@@ -61995,6 +64646,7 @@ pg.aircraft_template = {
 		hp_growth = 3400,
 		speed = 30,
 		id = 520103,
+		scale = 0.75,
 		weapon_ID = {
 			520204
 		},
@@ -62058,9 +64710,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 105,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "Me155A",
 		funnel_behavior = "",
@@ -62068,6 +64720,7 @@ pg.aircraft_template = {
 		hp_growth = 2800,
 		speed = 36,
 		id = 520104,
+		scale = 0.75,
 		weapon_ID = {
 			520202,
 			520203
@@ -62132,9 +64785,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 125,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "BF109T",
 		funnel_behavior = "",
@@ -62142,6 +64795,7 @@ pg.aircraft_template = {
 		hp_growth = 3200,
 		speed = 30,
 		id = 520105,
+		scale = 0.75,
 		weapon_ID = {
 			520201,
 			520202
@@ -62206,9 +64860,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 165,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "Me155A",
 		funnel_behavior = "",
@@ -62216,6 +64870,7 @@ pg.aircraft_template = {
 		hp_growth = 2600,
 		speed = 33,
 		id = 520106,
+		scale = 0.75,
 		weapon_ID = {
 			520202,
 			520203
@@ -62280,9 +64935,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 95,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "qibolin",
 		funnel_behavior = "",
@@ -62290,6 +64945,7 @@ pg.aircraft_template = {
 		hp_growth = 3400,
 		speed = 30,
 		id = 520107,
+		scale = 0.75,
 		weapon_ID = {
 			520205
 		},
@@ -62353,9 +65009,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 105,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "JU87C",
 		funnel_behavior = "",
@@ -62363,6 +65019,7 @@ pg.aircraft_template = {
 		hp_growth = 2800,
 		speed = 36,
 		id = 520108,
+		scale = 0.75,
 		weapon_ID = {
 			520204
 		},
@@ -62426,15 +65083,16 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 220,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "fuyoupao2",
 		nationality = 3,
 		hp_growth = 8000,
 		speed = 70,
 		id = 531020,
+		scale = 0.75,
 		funnel_behavior = {
 			stay = 2,
 			exist = 20
@@ -62503,9 +65161,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 160,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -62513,6 +65171,7 @@ pg.aircraft_template = {
 		hp_growth = 3800,
 		speed = 30,
 		id = 531021,
+		scale = 0.75,
 		weapon_ID = {
 			531203
 		},
@@ -62576,9 +65235,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 130,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -62586,6 +65245,7 @@ pg.aircraft_template = {
 		hp_growth = 3200,
 		speed = 33,
 		id = 531022,
+		scale = 0.75,
 		weapon_ID = {
 			531204
 		},
@@ -62649,15 +65309,16 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 300,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "fuyoupao",
 		nationality = 3,
 		hp_growth = 8000,
 		speed = 70,
 		id = 531023,
+		scale = 0.75,
 		funnel_behavior = {
 			stay = 2,
 			exist = 20
@@ -62726,9 +65387,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 160,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -62736,6 +65397,7 @@ pg.aircraft_template = {
 		hp_growth = 3800,
 		speed = 30,
 		id = 531031,
+		scale = 0.75,
 		weapon_ID = {
 			531207
 		},
@@ -62799,9 +65461,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 90,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -62809,6 +65471,7 @@ pg.aircraft_template = {
 		hp_growth = 2800,
 		speed = 33,
 		id = 531032,
+		scale = 0.75,
 		weapon_ID = {
 			531208,
 			531209
@@ -62873,15 +65536,16 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 250,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "fuyoupao2",
 		nationality = 3,
 		hp_growth = 8000,
 		speed = 70,
 		id = 532020,
+		scale = 0.75,
 		funnel_behavior = {
 			stay = 2,
 			exist = 20
@@ -62950,9 +65614,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 180,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -62960,6 +65624,7 @@ pg.aircraft_template = {
 		hp_growth = 3800,
 		speed = 30,
 		id = 532021,
+		scale = 0.75,
 		weapon_ID = {
 			532203
 		},
@@ -63023,9 +65688,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 150,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -63033,6 +65698,7 @@ pg.aircraft_template = {
 		hp_growth = 3200,
 		speed = 33,
 		id = 532022,
+		scale = 0.75,
 		weapon_ID = {
 			532204
 		},
@@ -63096,15 +65762,16 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 350,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "fuyoupao",
 		nationality = 3,
 		hp_growth = 8000,
 		speed = 70,
 		id = 532023,
+		scale = 0.75,
 		funnel_behavior = {
 			stay = 2,
 			exist = 20
@@ -63173,9 +65840,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 200,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -63183,6 +65850,7 @@ pg.aircraft_template = {
 		hp_growth = 3800,
 		speed = 30,
 		id = 532031,
+		scale = 0.75,
 		weapon_ID = {
 			532207
 		},
@@ -63246,9 +65914,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 120,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -63256,6 +65924,7 @@ pg.aircraft_template = {
 		hp_growth = 2800,
 		speed = 33,
 		id = 532032,
+		scale = 0.75,
 		weapon_ID = {
 			532208,
 			532209
@@ -63320,15 +65989,16 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 300,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "fuyoupao2",
 		nationality = 3,
 		hp_growth = 6000,
 		speed = 70,
 		id = 532512,
+		scale = 0.75,
 		funnel_behavior = {
 			stay = 2,
 			exist = 20
@@ -63396,9 +66066,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 240,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -63406,6 +66076,7 @@ pg.aircraft_template = {
 		hp_growth = 3800,
 		speed = 30,
 		id = 532513,
+		scale = 0.75,
 		weapon_ID = {
 			532516
 		},
@@ -63469,9 +66140,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 200,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -63479,6 +66150,7 @@ pg.aircraft_template = {
 		hp_growth = 3400,
 		speed = 33,
 		id = 532514,
+		scale = 0.75,
 		weapon_ID = {
 			532517
 		},
@@ -63542,9 +66214,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 68,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -63552,6 +66224,7 @@ pg.aircraft_template = {
 		hp_growth = 2800,
 		speed = 46,
 		id = 532518,
+		scale = 0.75,
 		weapon_ID = {},
 		position_offset = {
 			0,
@@ -63613,15 +66286,16 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 300,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "fuyoupao2",
 		nationality = 3,
 		hp_growth = 6000,
 		speed = 70,
 		id = 532532,
+		scale = 0.75,
 		funnel_behavior = {
 			stay = 2,
 			exist = 20
@@ -63689,9 +66363,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 200,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -63699,6 +66373,7 @@ pg.aircraft_template = {
 		hp_growth = 3800,
 		speed = 30,
 		id = 532533,
+		scale = 0.75,
 		weapon_ID = {
 			532536
 		},
@@ -63762,9 +66437,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 158,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -63772,6 +66447,7 @@ pg.aircraft_template = {
 		hp_growth = 3200,
 		speed = 33,
 		id = 532534,
+		scale = 0.75,
 		weapon_ID = {
 			532537
 		},
@@ -63835,9 +66511,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 72,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -63845,6 +66521,7 @@ pg.aircraft_template = {
 		hp_growth = 2800,
 		speed = 46,
 		id = 532538,
+		scale = 0.75,
 		weapon_ID = {},
 		position_offset = {
 			0,
@@ -63906,15 +66583,16 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 280,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "fuyoupao2",
 		nationality = 3,
 		hp_growth = 8000,
 		speed = 70,
 		id = 533020,
+		scale = 0.75,
 		funnel_behavior = {
 			stay = 2,
 			exist = 20
@@ -63983,9 +66661,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 220,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -63993,6 +66671,7 @@ pg.aircraft_template = {
 		hp_growth = 3800,
 		speed = 30,
 		id = 533021,
+		scale = 0.75,
 		weapon_ID = {
 			533203
 		},
@@ -64056,9 +66735,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 180,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -64066,6 +66745,7 @@ pg.aircraft_template = {
 		hp_growth = 3200,
 		speed = 33,
 		id = 533022,
+		scale = 0.75,
 		weapon_ID = {
 			533204
 		},
@@ -64129,15 +66809,16 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 450,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "fuyoupao",
 		nationality = 3,
 		hp_growth = 8000,
 		speed = 70,
 		id = 533023,
+		scale = 0.75,
 		funnel_behavior = {
 			stay = 2,
 			exist = 20
@@ -64206,9 +66887,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 220,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -64216,6 +66897,7 @@ pg.aircraft_template = {
 		hp_growth = 3800,
 		speed = 30,
 		id = 533031,
+		scale = 0.75,
 		weapon_ID = {
 			533207
 		},
@@ -64279,9 +66961,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 130,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -64289,6 +66971,7 @@ pg.aircraft_template = {
 		hp_growth = 2800,
 		speed = 33,
 		id = 533032,
+		scale = 0.75,
 		weapon_ID = {
 			533208,
 			533209
@@ -64353,15 +67036,16 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 320,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "fuyoupao2",
 		nationality = 3,
 		hp_growth = 8000,
 		speed = 70,
 		id = 534020,
+		scale = 0.75,
 		funnel_behavior = {
 			stay = 2,
 			exist = 20
@@ -64430,9 +67114,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 280,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -64440,6 +67124,7 @@ pg.aircraft_template = {
 		hp_growth = 3800,
 		speed = 30,
 		id = 534021,
+		scale = 0.75,
 		weapon_ID = {
 			534203
 		},
@@ -64503,9 +67188,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 230,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -64513,6 +67198,7 @@ pg.aircraft_template = {
 		hp_growth = 3200,
 		speed = 33,
 		id = 534022,
+		scale = 0.75,
 		weapon_ID = {
 			534204
 		},
@@ -64576,15 +67262,16 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 500,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "fuyoupao",
 		nationality = 3,
 		hp_growth = 8000,
 		speed = 70,
 		id = 534023,
+		scale = 0.75,
 		funnel_behavior = {
 			stay = 2,
 			exist = 20
@@ -64653,9 +67340,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 280,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -64663,6 +67350,7 @@ pg.aircraft_template = {
 		hp_growth = 3800,
 		speed = 30,
 		id = 534031,
+		scale = 0.75,
 		weapon_ID = {
 			534207
 		},
@@ -64726,9 +67414,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 170,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -64736,6 +67424,7 @@ pg.aircraft_template = {
 		hp_growth = 2800,
 		speed = 33,
 		id = 534032,
+		scale = 0.75,
 		weapon_ID = {
 			534208,
 			534209
@@ -64800,15 +67489,16 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 350,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "fuyoupao2",
 		nationality = 3,
 		hp_growth = 8000,
 		speed = 70,
 		id = 534512,
+		scale = 0.75,
 		funnel_behavior = {
 			stay = 2,
 			exist = 20
@@ -64876,9 +67566,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 280,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -64886,6 +67576,7 @@ pg.aircraft_template = {
 		hp_growth = 3800,
 		speed = 30,
 		id = 534513,
+		scale = 0.75,
 		weapon_ID = {
 			534516
 		},
@@ -64949,9 +67640,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 220,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -64959,6 +67650,7 @@ pg.aircraft_template = {
 		hp_growth = 3200,
 		speed = 33,
 		id = 534514,
+		scale = 0.75,
 		weapon_ID = {
 			534517
 		},
@@ -65022,9 +67714,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 65,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -65032,6 +67724,7 @@ pg.aircraft_template = {
 		hp_growth = 3200,
 		speed = 50,
 		id = 534518,
+		scale = 0.75,
 		weapon_ID = {},
 		position_offset = {
 			0,
@@ -65093,15 +67786,16 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 350,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "fuyoupao2",
 		nationality = 3,
 		hp_growth = 6000,
 		speed = 70,
 		id = 534532,
+		scale = 0.75,
 		funnel_behavior = {
 			stay = 2,
 			exist = 20
@@ -65169,9 +67863,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 302,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -65179,6 +67873,7 @@ pg.aircraft_template = {
 		hp_growth = 3800,
 		speed = 30,
 		id = 534533,
+		scale = 0.75,
 		weapon_ID = {
 			534536
 		},
@@ -65242,9 +67937,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 226,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -65252,6 +67947,7 @@ pg.aircraft_template = {
 		hp_growth = 3600,
 		speed = 33,
 		id = 534534,
+		scale = 0.75,
 		weapon_ID = {
 			534537
 		},
@@ -65315,9 +68011,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 96,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -65325,6 +68021,7 @@ pg.aircraft_template = {
 		hp_growth = 3000,
 		speed = 50,
 		id = 534538,
+		scale = 0.75,
 		weapon_ID = {},
 		position_offset = {
 			0,
@@ -65386,9 +68083,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 160,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -65396,6 +68093,7 @@ pg.aircraft_template = {
 		hp_growth = 3800,
 		speed = 30,
 		id = 535300,
+		scale = 0.75,
 		weapon_ID = {
 			531203
 		},
@@ -65459,9 +68157,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 130,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -65469,6 +68167,7 @@ pg.aircraft_template = {
 		hp_growth = 3200,
 		speed = 30,
 		id = 535301,
+		scale = 0.75,
 		weapon_ID = {
 			531204
 		},
@@ -65532,9 +68231,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 90,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -65542,6 +68241,7 @@ pg.aircraft_template = {
 		hp_growth = 2800,
 		speed = 33,
 		id = 535302,
+		scale = 0.75,
 		weapon_ID = {
 			531208,
 			531209
@@ -65606,9 +68306,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 220,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -65616,6 +68316,7 @@ pg.aircraft_template = {
 		hp_growth = 3800,
 		speed = 30,
 		id = 535303,
+		scale = 0.75,
 		weapon_ID = {
 			532203
 		},
@@ -65679,9 +68380,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 180,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -65689,6 +68390,7 @@ pg.aircraft_template = {
 		hp_growth = 3200,
 		speed = 30,
 		id = 535304,
+		scale = 0.75,
 		weapon_ID = {
 			532204
 		},
@@ -65752,9 +68454,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 108,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -65762,6 +68464,7 @@ pg.aircraft_template = {
 		hp_growth = 2800,
 		speed = 33,
 		id = 535305,
+		scale = 0.75,
 		weapon_ID = {
 			532208,
 			532209
@@ -65826,9 +68529,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 220,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -65836,6 +68539,7 @@ pg.aircraft_template = {
 		hp_growth = 3800,
 		speed = 30,
 		id = 535401,
+		scale = 0.75,
 		weapon_ID = {
 			533203
 		},
@@ -65899,9 +68603,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 180,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -65909,6 +68613,7 @@ pg.aircraft_template = {
 		hp_growth = 3200,
 		speed = 30,
 		id = 535402,
+		scale = 0.75,
 		weapon_ID = {
 			533204
 		},
@@ -65972,9 +68677,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 130,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -65982,6 +68687,7 @@ pg.aircraft_template = {
 		hp_growth = 2800,
 		speed = 33,
 		id = 535403,
+		scale = 0.75,
 		weapon_ID = {
 			533208,
 			533209
@@ -66046,9 +68752,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 360,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -66056,6 +68762,7 @@ pg.aircraft_template = {
 		hp_growth = 4400,
 		speed = 30,
 		id = 535404,
+		scale = 0.75,
 		weapon_ID = {
 			534203
 		},
@@ -66119,9 +68826,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 300,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -66129,6 +68836,7 @@ pg.aircraft_template = {
 		hp_growth = 3600,
 		speed = 30,
 		id = 535405,
+		scale = 0.75,
 		weapon_ID = {
 			534204
 		},
@@ -66192,9 +68900,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 240,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -66202,6 +68910,7 @@ pg.aircraft_template = {
 		hp_growth = 3200,
 		speed = 33,
 		id = 535406,
+		scale = 0.75,
 		weapon_ID = {
 			534208,
 			534209
@@ -66266,9 +68975,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 160,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -66276,6 +68985,7 @@ pg.aircraft_template = {
 		hp_growth = 3800,
 		speed = 30,
 		id = 540009,
+		scale = 0.75,
 		weapon_ID = {
 			540011
 		},
@@ -66339,9 +69049,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 90,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -66349,6 +69059,7 @@ pg.aircraft_template = {
 		hp_growth = 2800,
 		speed = 33,
 		id = 540010,
+		scale = 0.75,
 		weapon_ID = {
 			540012,
 			540013
@@ -66413,9 +69124,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 120,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -66423,6 +69134,7 @@ pg.aircraft_template = {
 		hp_growth = 3800,
 		speed = 30,
 		id = 550044,
+		scale = 0.75,
 		weapon_ID = {
 			550047
 		},
@@ -66486,9 +69198,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 95,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -66496,6 +69208,7 @@ pg.aircraft_template = {
 		hp_growth = 3200,
 		speed = 30,
 		id = 550045,
+		scale = 0.75,
 		weapon_ID = {
 			550048
 		},
@@ -66559,9 +69272,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 65,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -66569,6 +69282,7 @@ pg.aircraft_template = {
 		hp_growth = 2800,
 		speed = 33,
 		id = 550046,
+		scale = 0.75,
 		weapon_ID = {
 			550049,
 			550050
@@ -66633,9 +69347,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 120,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -66643,6 +69357,7 @@ pg.aircraft_template = {
 		hp_growth = 3800,
 		speed = 30,
 		id = 550053,
+		scale = 0.75,
 		weapon_ID = {
 			550055
 		},
@@ -66706,9 +69421,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 65,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -66716,6 +69431,7 @@ pg.aircraft_template = {
 		hp_growth = 2800,
 		speed = 33,
 		id = 550054,
+		scale = 0.75,
 		weapon_ID = {
 			550056,
 			550057
@@ -66780,9 +69496,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 120,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -66790,6 +69506,7 @@ pg.aircraft_template = {
 		hp_growth = 3800,
 		speed = 30,
 		id = 550100,
+		scale = 0.75,
 		weapon_ID = {
 			550058
 		},
@@ -66853,9 +69570,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 95,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -66863,6 +69580,7 @@ pg.aircraft_template = {
 		hp_growth = 3200,
 		speed = 30,
 		id = 550200,
+		scale = 0.75,
 		weapon_ID = {
 			550059
 		},
@@ -66926,9 +69644,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 65,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -66936,6 +69654,7 @@ pg.aircraft_template = {
 		hp_growth = 2800,
 		speed = 33,
 		id = 550300,
+		scale = 0.75,
 		weapon_ID = {
 			550060,
 			550061
@@ -67000,9 +69719,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 320,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -67010,6 +69729,7 @@ pg.aircraft_template = {
 		hp_growth = 4000,
 		speed = 30,
 		id = 550110,
+		scale = 0.75,
 		weapon_ID = {
 			551058
 		},
@@ -67073,9 +69793,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 280,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -67083,6 +69803,7 @@ pg.aircraft_template = {
 		hp_growth = 3800,
 		speed = 30,
 		id = 550210,
+		scale = 0.75,
 		weapon_ID = {
 			551059
 		},
@@ -67146,9 +69867,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 240,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -67156,6 +69877,7 @@ pg.aircraft_template = {
 		hp_growth = 3400,
 		speed = 33,
 		id = 550310,
+		scale = 0.75,
 		weapon_ID = {
 			551060,
 			551061
@@ -67220,9 +69942,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 160,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -67230,6 +69952,7 @@ pg.aircraft_template = {
 		hp_growth = 3800,
 		speed = 30,
 		id = 550545,
+		scale = 0.75,
 		weapon_ID = {
 			550548
 		},
@@ -67293,9 +70016,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 130,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -67303,6 +70026,7 @@ pg.aircraft_template = {
 		hp_growth = 3200,
 		speed = 30,
 		id = 550546,
+		scale = 0.75,
 		weapon_ID = {
 			550549
 		},
@@ -67366,9 +70090,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 90,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -67376,6 +70100,7 @@ pg.aircraft_template = {
 		hp_growth = 2800,
 		speed = 33,
 		id = 550547,
+		scale = 0.75,
 		weapon_ID = {
 			550550,
 			550551
@@ -67440,9 +70165,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 260,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -67450,6 +70175,7 @@ pg.aircraft_template = {
 		hp_growth = 3800,
 		speed = 30,
 		id = 551044,
+		scale = 0.75,
 		weapon_ID = {
 			551047
 		},
@@ -67513,9 +70239,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 200,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -67523,6 +70249,7 @@ pg.aircraft_template = {
 		hp_growth = 3500,
 		speed = 30,
 		id = 551045,
+		scale = 0.75,
 		weapon_ID = {
 			551048
 		},
@@ -67586,9 +70313,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 180,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -67596,6 +70323,7 @@ pg.aircraft_template = {
 		hp_growth = 3200,
 		speed = 33,
 		id = 551046,
+		scale = 0.75,
 		weapon_ID = {
 			551049,
 			551050
@@ -67660,9 +70388,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 420,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "Nep_green",
 		funnel_behavior = "",
@@ -67670,6 +70398,7 @@ pg.aircraft_template = {
 		hp_growth = 4400,
 		speed = 31,
 		id = 551545,
+		scale = 0.75,
 		weapon_ID = {
 			551548
 		},
@@ -67733,9 +70462,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 380,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "Nep_green",
 		funnel_behavior = "",
@@ -67743,6 +70472,7 @@ pg.aircraft_template = {
 		hp_growth = 4000,
 		speed = 31,
 		id = 551546,
+		scale = 0.75,
 		weapon_ID = {
 			551549
 		},
@@ -67806,9 +70536,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 350,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "Nep_green",
 		funnel_behavior = "",
@@ -67816,6 +70546,7 @@ pg.aircraft_template = {
 		hp_growth = 3700,
 		speed = 33,
 		id = 551547,
+		scale = 0.75,
 		weapon_ID = {
 			551550,
 			551551
@@ -67880,9 +70611,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 160,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -67890,6 +70621,7 @@ pg.aircraft_template = {
 		hp_growth = 3800,
 		speed = 30,
 		id = 561003,
+		scale = 0.75,
 		weapon_ID = {
 			561201
 		},
@@ -67953,9 +70685,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 90,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -67963,6 +70695,7 @@ pg.aircraft_template = {
 		hp_growth = 2800,
 		speed = 33,
 		id = 561004,
+		scale = 0.75,
 		weapon_ID = {
 			561202,
 			561203
@@ -68027,9 +70760,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 160,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -68037,6 +70770,7 @@ pg.aircraft_template = {
 		hp_growth = 3800,
 		speed = 30,
 		id = 561601,
+		scale = 0.75,
 		weapon_ID = {
 			560001
 		},
@@ -68100,9 +70834,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 130,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -68110,6 +70844,7 @@ pg.aircraft_template = {
 		hp_growth = 3200,
 		speed = 30,
 		id = 561602,
+		scale = 0.75,
 		weapon_ID = {
 			560002
 		},
@@ -68173,9 +70908,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 90,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -68183,6 +70918,7 @@ pg.aircraft_template = {
 		hp_growth = 2800,
 		speed = 33,
 		id = 561603,
+		scale = 0.75,
 		weapon_ID = {
 			560003,
 			560004
@@ -68247,9 +70983,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 180,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -68257,6 +70993,7 @@ pg.aircraft_template = {
 		hp_growth = 3800,
 		speed = 30,
 		id = 562003,
+		scale = 0.75,
 		weapon_ID = {
 			562201
 		},
@@ -68320,9 +71057,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 108,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -68330,6 +71067,7 @@ pg.aircraft_template = {
 		hp_growth = 2800,
 		speed = 33,
 		id = 562004,
+		scale = 0.75,
 		weapon_ID = {
 			562202,
 			562203
@@ -68394,15 +71132,16 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 300,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "fuyoupao2",
 		nationality = 3,
 		hp_growth = 6000,
 		speed = 70,
 		id = 562333,
+		scale = 0.75,
 		funnel_behavior = {
 			stay = 2,
 			exist = 20
@@ -68470,9 +71209,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 180,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -68480,6 +71219,7 @@ pg.aircraft_template = {
 		hp_growth = 3800,
 		speed = 30,
 		id = 562334,
+		scale = 0.75,
 		weapon_ID = {
 			562337
 		},
@@ -68543,9 +71283,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 156,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -68553,6 +71293,7 @@ pg.aircraft_template = {
 		hp_growth = 3400,
 		speed = 33,
 		id = 562335,
+		scale = 0.75,
 		weapon_ID = {
 			562338
 		},
@@ -68616,15 +71357,16 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 300,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "fuyoupao2",
 		nationality = 3,
 		hp_growth = 6000,
 		speed = 70,
 		id = 562523,
+		scale = 0.75,
 		funnel_behavior = {
 			stay = 2,
 			exist = 20
@@ -68692,9 +71434,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 180,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -68702,6 +71444,7 @@ pg.aircraft_template = {
 		hp_growth = 3800,
 		speed = 30,
 		id = 562524,
+		scale = 0.75,
 		weapon_ID = {
 			562527
 		},
@@ -68765,9 +71508,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 156,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -68775,6 +71518,7 @@ pg.aircraft_template = {
 		hp_growth = 3400,
 		speed = 33,
 		id = 562525,
+		scale = 0.75,
 		weapon_ID = {
 			562528
 		},
@@ -68838,9 +71582,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 180,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -68848,6 +71592,7 @@ pg.aircraft_template = {
 		hp_growth = 3800,
 		speed = 30,
 		id = 562601,
+		scale = 0.75,
 		weapon_ID = {
 			560005
 		},
@@ -68911,9 +71656,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 156,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -68921,6 +71666,7 @@ pg.aircraft_template = {
 		hp_growth = 3200,
 		speed = 30,
 		id = 562602,
+		scale = 0.75,
 		weapon_ID = {
 			560006
 		},
@@ -68984,9 +71730,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 108,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -68994,6 +71740,7 @@ pg.aircraft_template = {
 		hp_growth = 2800,
 		speed = 33,
 		id = 562603,
+		scale = 0.75,
 		weapon_ID = {
 			560007,
 			560008
@@ -69058,9 +71805,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 220,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -69068,6 +71815,7 @@ pg.aircraft_template = {
 		hp_growth = 3800,
 		speed = 30,
 		id = 563003,
+		scale = 0.75,
 		weapon_ID = {
 			563201
 		},
@@ -69131,9 +71879,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 130,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -69141,6 +71889,7 @@ pg.aircraft_template = {
 		hp_growth = 2800,
 		speed = 33,
 		id = 563004,
+		scale = 0.75,
 		weapon_ID = {
 			563202,
 			563203
@@ -69205,9 +71954,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 220,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -69215,6 +71964,7 @@ pg.aircraft_template = {
 		hp_growth = 3800,
 		speed = 30,
 		id = 563601,
+		scale = 0.75,
 		weapon_ID = {
 			560009
 		},
@@ -69278,9 +72028,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 180,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -69288,6 +72038,7 @@ pg.aircraft_template = {
 		hp_growth = 3200,
 		speed = 30,
 		id = 563602,
+		scale = 0.75,
 		weapon_ID = {
 			560010
 		},
@@ -69351,9 +72102,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 130,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -69361,6 +72112,7 @@ pg.aircraft_template = {
 		hp_growth = 2800,
 		speed = 33,
 		id = 563603,
+		scale = 0.75,
 		weapon_ID = {
 			560011,
 			560012
@@ -69425,9 +72177,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 280,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -69435,6 +72187,7 @@ pg.aircraft_template = {
 		hp_growth = 3800,
 		speed = 30,
 		id = 564003,
+		scale = 0.75,
 		weapon_ID = {
 			564201
 		},
@@ -69498,9 +72251,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 192,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -69508,6 +72261,7 @@ pg.aircraft_template = {
 		hp_growth = 2800,
 		speed = 33,
 		id = 564004,
+		scale = 0.75,
 		weapon_ID = {
 			564202,
 			564203
@@ -69572,15 +72326,16 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 400,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "fuyoupao2",
 		nationality = 3,
 		hp_growth = 6000,
 		speed = 70,
 		id = 564333,
+		scale = 0.75,
 		funnel_behavior = {
 			stay = 2,
 			exist = 20
@@ -69648,9 +72403,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 280,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -69658,6 +72413,7 @@ pg.aircraft_template = {
 		hp_growth = 3800,
 		speed = 30,
 		id = 564334,
+		scale = 0.75,
 		weapon_ID = {
 			564337
 		},
@@ -69721,9 +72477,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 240,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -69731,6 +72487,7 @@ pg.aircraft_template = {
 		hp_growth = 3400,
 		speed = 33,
 		id = 564335,
+		scale = 0.75,
 		weapon_ID = {
 			564338
 		},
@@ -69794,15 +72551,16 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 400,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "fuyoupao2",
 		nationality = 3,
 		hp_growth = 6000,
 		speed = 70,
 		id = 564523,
+		scale = 0.75,
 		funnel_behavior = {
 			stay = 2,
 			exist = 20
@@ -69870,9 +72628,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 280,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -69880,6 +72638,7 @@ pg.aircraft_template = {
 		hp_growth = 3800,
 		speed = 30,
 		id = 564524,
+		scale = 0.75,
 		weapon_ID = {
 			564527
 		},
@@ -69943,9 +72702,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 240,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -69953,6 +72712,7 @@ pg.aircraft_template = {
 		hp_growth = 3400,
 		speed = 33,
 		id = 564525,
+		scale = 0.75,
 		weapon_ID = {
 			564528
 		},
@@ -70016,9 +72776,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 280,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -70026,6 +72786,7 @@ pg.aircraft_template = {
 		hp_growth = 3800,
 		speed = 30,
 		id = 564601,
+		scale = 0.75,
 		weapon_ID = {
 			560013
 		},
@@ -70089,9 +72850,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 240,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -70099,6 +72860,7 @@ pg.aircraft_template = {
 		hp_growth = 3200,
 		speed = 30,
 		id = 564602,
+		scale = 0.75,
 		weapon_ID = {
 			560014
 		},
@@ -70162,9 +72924,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 192,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -70172,6 +72934,7 @@ pg.aircraft_template = {
 		hp_growth = 2800,
 		speed = 33,
 		id = 564603,
+		scale = 0.75,
 		weapon_ID = {
 			560015,
 			560016
@@ -70236,9 +72999,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 360,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -70246,6 +73009,7 @@ pg.aircraft_template = {
 		hp_growth = 3800,
 		speed = 30,
 		id = 565003,
+		scale = 0.75,
 		weapon_ID = {
 			565201
 		},
@@ -70309,9 +73073,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 240,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -70319,6 +73083,7 @@ pg.aircraft_template = {
 		hp_growth = 2800,
 		speed = 33,
 		id = 565004,
+		scale = 0.75,
 		weapon_ID = {
 			565202,
 			565203
@@ -70383,15 +73148,16 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 500,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "fuyoupao2",
 		nationality = 3,
 		hp_growth = 6000,
 		speed = 70,
 		id = 565343,
+		scale = 0.75,
 		funnel_behavior = {
 			stay = 2,
 			exist = 20
@@ -70459,9 +73225,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 360,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -70469,6 +73235,7 @@ pg.aircraft_template = {
 		hp_growth = 3800,
 		speed = 30,
 		id = 565344,
+		scale = 0.75,
 		weapon_ID = {
 			565347
 		},
@@ -70532,9 +73299,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 300,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -70542,6 +73309,7 @@ pg.aircraft_template = {
 		hp_growth = 3400,
 		speed = 33,
 		id = 565345,
+		scale = 0.75,
 		weapon_ID = {
 			565348
 		},
@@ -70605,9 +73373,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 360,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -70615,6 +73383,7 @@ pg.aircraft_template = {
 		hp_growth = 3800,
 		speed = 30,
 		id = 565601,
+		scale = 0.75,
 		weapon_ID = {
 			560017
 		},
@@ -70678,9 +73447,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 300,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -70688,6 +73457,7 @@ pg.aircraft_template = {
 		hp_growth = 3200,
 		speed = 30,
 		id = 565602,
+		scale = 0.75,
 		weapon_ID = {
 			560018
 		},
@@ -70751,9 +73521,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 240,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -70761,6 +73531,7 @@ pg.aircraft_template = {
 		hp_growth = 2800,
 		speed = 33,
 		id = 565603,
+		scale = 0.75,
 		weapon_ID = {
 			560019,
 			560020
@@ -70825,9 +73596,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 300,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -70835,6 +73606,7 @@ pg.aircraft_template = {
 		hp_growth = 3377,
 		speed = 30,
 		id = 566003,
+		scale = 0.75,
 		weapon_ID = {
 			566013
 		},
@@ -70898,9 +73670,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 150,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -70908,6 +73680,7 @@ pg.aircraft_template = {
 		hp_growth = 2518,
 		speed = 33,
 		id = 566004,
+		scale = 0.75,
 		weapon_ID = {
 			566014,
 			566015
@@ -70972,9 +73745,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 800,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -70982,6 +73755,7 @@ pg.aircraft_template = {
 		hp_growth = 3000,
 		speed = 50,
 		id = 566016,
+		scale = 0.75,
 		weapon_ID = {},
 		position_offset = {
 			0,
@@ -71043,9 +73817,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 800,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -71053,6 +73827,7 @@ pg.aircraft_template = {
 		hp_growth = 3000,
 		speed = 50,
 		id = 566017,
+		scale = 0.75,
 		weapon_ID = {},
 		position_offset = {
 			0,
@@ -71114,9 +73889,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 65,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -71124,6 +73899,7 @@ pg.aircraft_template = {
 		hp_growth = 2280,
 		speed = 30,
 		id = 567901,
+		scale = 0.75,
 		weapon_ID = {
 			567901
 		},
@@ -71187,9 +73963,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 52,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -71197,6 +73973,7 @@ pg.aircraft_template = {
 		hp_growth = 1920,
 		speed = 30,
 		id = 567902,
+		scale = 0.75,
 		weapon_ID = {
 			567902
 		},
@@ -71260,9 +74037,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 36,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -71270,6 +74047,7 @@ pg.aircraft_template = {
 		hp_growth = 1680,
 		speed = 33,
 		id = 567903,
+		scale = 0.75,
 		weapon_ID = {
 			567903,
 			567904
@@ -71334,9 +74112,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 65,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -71344,6 +74122,7 @@ pg.aircraft_template = {
 		hp_growth = 2280,
 		speed = 30,
 		id = 567043,
+		scale = 0.75,
 		weapon_ID = {
 			567911
 		},
@@ -71407,9 +74186,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 36,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -71417,6 +74196,7 @@ pg.aircraft_template = {
 		hp_growth = 1680,
 		speed = 33,
 		id = 567044,
+		scale = 0.75,
 		weapon_ID = {
 			567912,
 			567913
@@ -71481,9 +74261,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 65,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -71491,6 +74271,7 @@ pg.aircraft_template = {
 		hp_growth = 2280,
 		speed = 30,
 		id = 567093,
+		scale = 0.75,
 		weapon_ID = {
 			567921
 		},
@@ -71554,9 +74335,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 52,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -71564,6 +74345,7 @@ pg.aircraft_template = {
 		hp_growth = 1920,
 		speed = 30,
 		id = 567094,
+		scale = 0.75,
 		weapon_ID = {
 			567922
 		},
@@ -71627,9 +74409,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 36,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -71637,6 +74419,7 @@ pg.aircraft_template = {
 		hp_growth = 1680,
 		speed = 33,
 		id = 567095,
+		scale = 0.75,
 		weapon_ID = {
 			567923,
 			567924
@@ -71701,15 +74484,16 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 108,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "fuyoupao2",
 		nationality = 3,
 		hp_growth = 2760,
 		speed = 70,
 		id = 567153,
+		scale = 0.75,
 		funnel_behavior = {
 			stay = 2,
 			exist = 20
@@ -71777,9 +74561,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 65,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -71787,6 +74571,7 @@ pg.aircraft_template = {
 		hp_growth = 2280,
 		speed = 30,
 		id = 567154,
+		scale = 0.75,
 		weapon_ID = {
 			567932
 		},
@@ -71850,9 +74635,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 52,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -71860,6 +74645,7 @@ pg.aircraft_template = {
 		hp_growth = 2040,
 		speed = 33,
 		id = 567155,
+		scale = 0.75,
 		weapon_ID = {
 			567933
 		},
@@ -71923,9 +74709,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 85,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -71933,6 +74719,7 @@ pg.aircraft_template = {
 		hp_growth = 2660,
 		speed = 30,
 		id = 568901,
+		scale = 0.75,
 		weapon_ID = {
 			568901
 		},
@@ -71996,9 +74783,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 69,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -72006,6 +74793,7 @@ pg.aircraft_template = {
 		hp_growth = 2240,
 		speed = 30,
 		id = 568902,
+		scale = 0.75,
 		weapon_ID = {
 			568902
 		},
@@ -72069,9 +74857,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 48,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -72079,6 +74867,7 @@ pg.aircraft_template = {
 		hp_growth = 1960,
 		speed = 33,
 		id = 568903,
+		scale = 0.75,
 		weapon_ID = {
 			568903,
 			568904
@@ -72143,9 +74932,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 85,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -72153,6 +74942,7 @@ pg.aircraft_template = {
 		hp_growth = 2660,
 		speed = 30,
 		id = 568043,
+		scale = 0.75,
 		weapon_ID = {
 			568911
 		},
@@ -72216,9 +75006,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 48,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -72226,6 +75016,7 @@ pg.aircraft_template = {
 		hp_growth = 1960,
 		speed = 33,
 		id = 568044,
+		scale = 0.75,
 		weapon_ID = {
 			568912,
 			568913
@@ -72290,9 +75081,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 69,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -72300,6 +75091,7 @@ pg.aircraft_template = {
 		hp_growth = 2240,
 		speed = 30,
 		id = 568103,
+		scale = 0.75,
 		weapon_ID = {
 			568921
 		},
@@ -72363,9 +75155,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 85,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -72373,6 +75165,7 @@ pg.aircraft_template = {
 		hp_growth = 2660,
 		speed = 30,
 		id = 568104,
+		scale = 0.75,
 		weapon_ID = {
 			568922
 		},
@@ -72436,9 +75229,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 48,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -72446,6 +75239,7 @@ pg.aircraft_template = {
 		hp_growth = 1960,
 		speed = 33,
 		id = 568105,
+		scale = 0.75,
 		weapon_ID = {
 			568923,
 			568924
@@ -72510,15 +75304,16 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 142,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "fuyoupao2",
 		nationality = 3,
 		hp_growth = 3220,
 		speed = 70,
 		id = 568153,
+		scale = 0.75,
 		funnel_behavior = {
 			stay = 2,
 			exist = 20
@@ -72586,9 +75381,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 85,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -72596,6 +75391,7 @@ pg.aircraft_template = {
 		hp_growth = 2660,
 		speed = 30,
 		id = 568154,
+		scale = 0.75,
 		weapon_ID = {
 			568932
 		},
@@ -72659,9 +75455,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 69,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -72669,6 +75465,7 @@ pg.aircraft_template = {
 		hp_growth = 2380,
 		speed = 33,
 		id = 568155,
+		scale = 0.75,
 		weapon_ID = {
 			568933
 		},
@@ -72732,9 +75529,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 110,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -72742,6 +75539,7 @@ pg.aircraft_template = {
 		hp_growth = 3040,
 		speed = 30,
 		id = 569901,
+		scale = 0.75,
 		weapon_ID = {
 			569901
 		},
@@ -72805,9 +75603,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 89,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -72815,6 +75613,7 @@ pg.aircraft_template = {
 		hp_growth = 2560,
 		speed = 30,
 		id = 569902,
+		scale = 0.75,
 		weapon_ID = {
 			569902
 		},
@@ -72878,9 +75677,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 62,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -72888,6 +75687,7 @@ pg.aircraft_template = {
 		hp_growth = 2240,
 		speed = 33,
 		id = 569903,
+		scale = 0.75,
 		weapon_ID = {
 			569903,
 			569904
@@ -72952,9 +75752,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 110,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -72962,6 +75762,7 @@ pg.aircraft_template = {
 		hp_growth = 3040,
 		speed = 30,
 		id = 569043,
+		scale = 0.75,
 		weapon_ID = {
 			569911
 		},
@@ -73025,9 +75826,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 62,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -73035,6 +75836,7 @@ pg.aircraft_template = {
 		hp_growth = 2240,
 		speed = 33,
 		id = 569044,
+		scale = 0.75,
 		weapon_ID = {
 			569912,
 			569913
@@ -73099,9 +75901,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 62,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -73109,6 +75911,7 @@ pg.aircraft_template = {
 		hp_growth = 2240,
 		speed = 33,
 		id = 569103,
+		scale = 0.75,
 		weapon_ID = {
 			569921,
 			569922
@@ -73173,9 +75976,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 89,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -73183,6 +75986,7 @@ pg.aircraft_template = {
 		hp_growth = 2560,
 		speed = 30,
 		id = 569104,
+		scale = 0.75,
 		weapon_ID = {
 			569923
 		},
@@ -73246,9 +76050,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 110,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -73256,6 +76060,7 @@ pg.aircraft_template = {
 		hp_growth = 3040,
 		speed = 30,
 		id = 569105,
+		scale = 0.75,
 		weapon_ID = {
 			569924
 		},
@@ -73319,15 +76124,16 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 183,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "fuyoupao2",
 		nationality = 3,
 		hp_growth = 3680,
 		speed = 70,
 		id = 569153,
+		scale = 0.75,
 		funnel_behavior = {
 			stay = 2,
 			exist = 20
@@ -73395,9 +76201,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 110,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -73405,6 +76211,7 @@ pg.aircraft_template = {
 		hp_growth = 3040,
 		speed = 30,
 		id = 569154,
+		scale = 0.75,
 		weapon_ID = {
 			569932
 		},
@@ -73468,9 +76275,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 89,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -73478,6 +76285,7 @@ pg.aircraft_template = {
 		hp_growth = 2720,
 		speed = 33,
 		id = 569155,
+		scale = 0.75,
 		weapon_ID = {
 			569933
 		},
@@ -73541,9 +76349,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 140,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -73551,6 +76359,7 @@ pg.aircraft_template = {
 		hp_growth = 3420,
 		speed = 30,
 		id = 570901,
+		scale = 0.75,
 		weapon_ID = {
 			570901
 		},
@@ -73614,9 +76423,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 114,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -73624,6 +76433,7 @@ pg.aircraft_template = {
 		hp_growth = 2880,
 		speed = 30,
 		id = 570902,
+		scale = 0.75,
 		weapon_ID = {
 			570902
 		},
@@ -73687,9 +76497,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 79,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -73697,6 +76507,7 @@ pg.aircraft_template = {
 		hp_growth = 2520,
 		speed = 33,
 		id = 570903,
+		scale = 0.75,
 		weapon_ID = {
 			570903,
 			570904
@@ -73761,9 +76572,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 140,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -73771,6 +76582,7 @@ pg.aircraft_template = {
 		hp_growth = 3420,
 		speed = 30,
 		id = 570043,
+		scale = 0.75,
 		weapon_ID = {
 			570911
 		},
@@ -73834,9 +76646,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 79,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -73844,6 +76656,7 @@ pg.aircraft_template = {
 		hp_growth = 2520,
 		speed = 33,
 		id = 570044,
+		scale = 0.75,
 		weapon_ID = {
 			570912,
 			570913
@@ -73908,9 +76721,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 140,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -73918,6 +76731,7 @@ pg.aircraft_template = {
 		hp_growth = 3420,
 		speed = 30,
 		id = 570093,
+		scale = 0.75,
 		weapon_ID = {
 			570921
 		},
@@ -73981,9 +76795,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 114,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -73991,6 +76805,7 @@ pg.aircraft_template = {
 		hp_growth = 2880,
 		speed = 30,
 		id = 570094,
+		scale = 0.75,
 		weapon_ID = {
 			570922
 		},
@@ -74054,9 +76869,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 79,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -74064,6 +76879,7 @@ pg.aircraft_template = {
 		hp_growth = 2520,
 		speed = 33,
 		id = 570095,
+		scale = 0.75,
 		weapon_ID = {
 			570923,
 			570924
@@ -74128,15 +76944,16 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 233,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "fuyoupao2",
 		nationality = 3,
 		hp_growth = 4140,
 		speed = 70,
 		id = 570153,
+		scale = 0.75,
 		funnel_behavior = {
 			stay = 2,
 			exist = 20
@@ -74204,9 +77021,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 140,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -74214,6 +77031,7 @@ pg.aircraft_template = {
 		hp_growth = 3420,
 		speed = 30,
 		id = 570154,
+		scale = 0.75,
 		weapon_ID = {
 			570932
 		},
@@ -74277,9 +77095,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 114,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -74287,6 +77105,7 @@ pg.aircraft_template = {
 		hp_growth = 3060,
 		speed = 33,
 		id = 570155,
+		scale = 0.75,
 		weapon_ID = {
 			570933
 		},
@@ -74350,9 +77169,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 65,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -74360,6 +77179,7 @@ pg.aircraft_template = {
 		hp_growth = 2280,
 		speed = 30,
 		id = 590043,
+		scale = 0.75,
 		weapon_ID = {
 			590911
 		},
@@ -74423,9 +77243,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 36,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -74433,6 +77253,7 @@ pg.aircraft_template = {
 		hp_growth = 1680,
 		speed = 33,
 		id = 590044,
+		scale = 0.75,
 		weapon_ID = {
 			590912,
 			590913
@@ -74497,9 +77318,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 65,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -74507,6 +77328,7 @@ pg.aircraft_template = {
 		hp_growth = 2280,
 		speed = 30,
 		id = 590077,
+		scale = 0.75,
 		weapon_ID = {
 			590921
 		},
@@ -74570,9 +77392,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 52,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -74580,6 +77402,7 @@ pg.aircraft_template = {
 		hp_growth = 1920,
 		speed = 30,
 		id = 590078,
+		scale = 0.75,
 		weapon_ID = {
 			590922
 		},
@@ -74643,15 +77466,16 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 108,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "fuyoupao2",
 		nationality = 3,
 		hp_growth = 2760,
 		speed = 70,
 		id = 590153,
+		scale = 0.75,
 		funnel_behavior = {
 			stay = 2,
 			exist = 20
@@ -74719,9 +77543,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 65,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -74729,6 +77553,7 @@ pg.aircraft_template = {
 		hp_growth = 2280,
 		speed = 30,
 		id = 590154,
+		scale = 0.75,
 		weapon_ID = {
 			590932
 		},
@@ -74792,9 +77617,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 52,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -74802,6 +77627,7 @@ pg.aircraft_template = {
 		hp_growth = 2040,
 		speed = 33,
 		id = 590155,
+		scale = 0.75,
 		weapon_ID = {
 			590933
 		},
@@ -74865,9 +77691,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 65,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -74875,6 +77701,7 @@ pg.aircraft_template = {
 		hp_growth = 2280,
 		speed = 30,
 		id = 590901,
+		scale = 0.75,
 		weapon_ID = {
 			590901
 		},
@@ -74938,9 +77765,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 52,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -74948,6 +77775,7 @@ pg.aircraft_template = {
 		hp_growth = 1920,
 		speed = 30,
 		id = 590902,
+		scale = 0.75,
 		weapon_ID = {
 			590902
 		},
@@ -75011,9 +77839,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 36,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -75021,6 +77849,7 @@ pg.aircraft_template = {
 		hp_growth = 1680,
 		speed = 33,
 		id = 590903,
+		scale = 0.75,
 		weapon_ID = {
 			590903,
 			590904
@@ -75085,9 +77914,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 85,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -75095,6 +77924,7 @@ pg.aircraft_template = {
 		hp_growth = 2660,
 		speed = 30,
 		id = 591043,
+		scale = 0.75,
 		weapon_ID = {
 			591911
 		},
@@ -75158,9 +77988,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 48,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -75168,6 +77998,7 @@ pg.aircraft_template = {
 		hp_growth = 1960,
 		speed = 33,
 		id = 591044,
+		scale = 0.75,
 		weapon_ID = {
 			591912,
 			591913
@@ -75232,9 +78063,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 85,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -75242,6 +78073,7 @@ pg.aircraft_template = {
 		hp_growth = 2660,
 		speed = 30,
 		id = 591077,
+		scale = 0.75,
 		weapon_ID = {
 			591921
 		},
@@ -75305,9 +78137,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 69,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -75315,6 +78147,7 @@ pg.aircraft_template = {
 		hp_growth = 2240,
 		speed = 30,
 		id = 591078,
+		scale = 0.75,
 		weapon_ID = {
 			591922
 		},
@@ -75378,15 +78211,16 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 142,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "fuyoupao2",
 		nationality = 3,
 		hp_growth = 3220,
 		speed = 70,
 		id = 591153,
+		scale = 0.75,
 		funnel_behavior = {
 			stay = 2,
 			exist = 20
@@ -75454,9 +78288,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 85,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -75464,6 +78298,7 @@ pg.aircraft_template = {
 		hp_growth = 2660,
 		speed = 30,
 		id = 591154,
+		scale = 0.75,
 		weapon_ID = {
 			591932
 		},
@@ -75527,9 +78362,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 69,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -75537,6 +78372,7 @@ pg.aircraft_template = {
 		hp_growth = 2380,
 		speed = 33,
 		id = 591155,
+		scale = 0.75,
 		weapon_ID = {
 			591933
 		},
@@ -75600,15 +78436,16 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 183,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "fuyoupao2",
 		nationality = 3,
 		hp_growth = 3680,
 		speed = 70,
 		id = 591301,
+		scale = 0.75,
 		funnel_behavior = {
 			stay = 2,
 			exist = 20
@@ -75676,9 +78513,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 110,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -75686,6 +78523,7 @@ pg.aircraft_template = {
 		hp_growth = 3040,
 		speed = 30,
 		id = 591302,
+		scale = 0.75,
 		weapon_ID = {
 			591942
 		},
@@ -75749,9 +78587,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 89,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -75759,6 +78597,7 @@ pg.aircraft_template = {
 		hp_growth = 2720,
 		speed = 33,
 		id = 591303,
+		scale = 0.75,
 		weapon_ID = {
 			591943
 		},
@@ -75822,9 +78661,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 85,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -75832,6 +78671,7 @@ pg.aircraft_template = {
 		hp_growth = 2660,
 		speed = 30,
 		id = 591901,
+		scale = 0.75,
 		weapon_ID = {
 			591901
 		},
@@ -75895,9 +78735,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 69,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -75905,6 +78745,7 @@ pg.aircraft_template = {
 		hp_growth = 2240,
 		speed = 30,
 		id = 591902,
+		scale = 0.75,
 		weapon_ID = {
 			591902
 		},
@@ -75968,9 +78809,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 48,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -75978,6 +78819,7 @@ pg.aircraft_template = {
 		hp_growth = 1960,
 		speed = 33,
 		id = 591903,
+		scale = 0.75,
 		weapon_ID = {
 			591903,
 			591904
@@ -76042,9 +78884,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 110,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -76052,6 +78894,7 @@ pg.aircraft_template = {
 		hp_growth = 3040,
 		speed = 30,
 		id = 592043,
+		scale = 0.75,
 		weapon_ID = {
 			592911
 		},
@@ -76115,9 +78958,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 62,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -76125,6 +78968,7 @@ pg.aircraft_template = {
 		hp_growth = 2240,
 		speed = 33,
 		id = 592044,
+		scale = 0.75,
 		weapon_ID = {
 			592912,
 			592913
@@ -76189,9 +79033,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 110,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -76199,6 +79043,7 @@ pg.aircraft_template = {
 		hp_growth = 3040,
 		speed = 30,
 		id = 592077,
+		scale = 0.75,
 		weapon_ID = {
 			592924
 		},
@@ -76262,9 +79107,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 89,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -76272,6 +79117,7 @@ pg.aircraft_template = {
 		hp_growth = 2560,
 		speed = 30,
 		id = 592078,
+		scale = 0.75,
 		weapon_ID = {
 			592923
 		},
@@ -76335,15 +79181,16 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 183,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "fuyoupao2",
 		nationality = 3,
 		hp_growth = 3680,
 		speed = 70,
 		id = 592153,
+		scale = 0.75,
 		funnel_behavior = {
 			stay = 2,
 			exist = 20
@@ -76411,9 +79258,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 110,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -76421,6 +79268,7 @@ pg.aircraft_template = {
 		hp_growth = 3040,
 		speed = 30,
 		id = 592154,
+		scale = 0.75,
 		weapon_ID = {
 			592932
 		},
@@ -76484,9 +79332,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 89,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -76494,6 +79342,7 @@ pg.aircraft_template = {
 		hp_growth = 2720,
 		speed = 33,
 		id = 592155,
+		scale = 0.75,
 		weapon_ID = {
 			592933
 		},
@@ -76557,9 +79406,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 110,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -76567,6 +79416,7 @@ pg.aircraft_template = {
 		hp_growth = 3040,
 		speed = 30,
 		id = 592901,
+		scale = 0.75,
 		weapon_ID = {
 			592901
 		},
@@ -76630,9 +79480,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 89,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -76640,6 +79490,7 @@ pg.aircraft_template = {
 		hp_growth = 2560,
 		speed = 30,
 		id = 592902,
+		scale = 0.75,
 		weapon_ID = {
 			592902
 		},
@@ -76703,9 +79554,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 62,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -76713,6 +79564,7 @@ pg.aircraft_template = {
 		hp_growth = 2240,
 		speed = 33,
 		id = 592903,
+		scale = 0.75,
 		weapon_ID = {
 			592903,
 			569904
@@ -76777,9 +79629,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 140,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -76787,6 +79639,7 @@ pg.aircraft_template = {
 		hp_growth = 3420,
 		speed = 30,
 		id = 593043,
+		scale = 0.75,
 		weapon_ID = {
 			593911
 		},
@@ -76850,9 +79703,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 79,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -76860,6 +79713,7 @@ pg.aircraft_template = {
 		hp_growth = 2520,
 		speed = 33,
 		id = 593044,
+		scale = 0.75,
 		weapon_ID = {
 			593912,
 			593913
@@ -76924,9 +79778,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 140,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -76934,6 +79788,7 @@ pg.aircraft_template = {
 		hp_growth = 3420,
 		speed = 30,
 		id = 593077,
+		scale = 0.75,
 		weapon_ID = {
 			593921
 		},
@@ -76997,9 +79852,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 114,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -77007,6 +79862,7 @@ pg.aircraft_template = {
 		hp_growth = 2880,
 		speed = 30,
 		id = 593078,
+		scale = 0.75,
 		weapon_ID = {
 			593922
 		},
@@ -77070,15 +79926,16 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 233,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "fuyoupao2",
 		nationality = 3,
 		hp_growth = 4140,
 		speed = 70,
 		id = 593153,
+		scale = 0.75,
 		funnel_behavior = {
 			stay = 2,
 			exist = 20
@@ -77146,9 +80003,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 140,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -77156,6 +80013,7 @@ pg.aircraft_template = {
 		hp_growth = 3420,
 		speed = 30,
 		id = 593154,
+		scale = 0.75,
 		weapon_ID = {
 			593932
 		},
@@ -77219,9 +80077,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 114,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -77229,6 +80087,7 @@ pg.aircraft_template = {
 		hp_growth = 3060,
 		speed = 33,
 		id = 593155,
+		scale = 0.75,
 		weapon_ID = {
 			593933
 		},
@@ -77292,15 +80151,16 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 293,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "fuyoupao2",
 		nationality = 3,
 		hp_growth = 4600,
 		speed = 70,
 		id = 593301,
+		scale = 0.75,
 		funnel_behavior = {
 			stay = 2,
 			exist = 20
@@ -77368,9 +80228,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 175,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -77378,6 +80238,7 @@ pg.aircraft_template = {
 		hp_growth = 3800,
 		speed = 30,
 		id = 593302,
+		scale = 0.75,
 		weapon_ID = {
 			593942
 		},
@@ -77441,9 +80302,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 144,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -77451,6 +80312,7 @@ pg.aircraft_template = {
 		hp_growth = 3400,
 		speed = 33,
 		id = 593303,
+		scale = 0.75,
 		weapon_ID = {
 			593943
 		},
@@ -77514,9 +80376,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 140,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -77524,6 +80386,7 @@ pg.aircraft_template = {
 		hp_growth = 3420,
 		speed = 30,
 		id = 593901,
+		scale = 0.75,
 		weapon_ID = {
 			593901
 		},
@@ -77587,9 +80450,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 114,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -77597,6 +80460,7 @@ pg.aircraft_template = {
 		hp_growth = 2880,
 		speed = 30,
 		id = 593902,
+		scale = 0.75,
 		weapon_ID = {
 			593902
 		},
@@ -77660,9 +80524,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 79,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -77670,6 +80534,7 @@ pg.aircraft_template = {
 		hp_growth = 2520,
 		speed = 33,
 		id = 593903,
+		scale = 0.75,
 		weapon_ID = {
 			593903,
 			593904
@@ -77734,9 +80599,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 175,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -77744,6 +80609,7 @@ pg.aircraft_template = {
 		hp_growth = 3800,
 		speed = 30,
 		id = 604003,
+		scale = 0.75,
 		weapon_ID = {
 			604005
 		},
@@ -77807,9 +80673,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 144,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -77817,6 +80683,7 @@ pg.aircraft_template = {
 		hp_growth = 3400,
 		speed = 33,
 		id = 604004,
+		scale = 0.75,
 		weapon_ID = {
 			604006
 		},
@@ -77880,9 +80747,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 175,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -77890,6 +80757,7 @@ pg.aircraft_template = {
 		hp_growth = 3800,
 		speed = 30,
 		id = 604023,
+		scale = 0.75,
 		weapon_ID = {
 			604025
 		},
@@ -77953,9 +80821,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 144,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -77963,6 +80831,7 @@ pg.aircraft_template = {
 		hp_growth = 3400,
 		speed = 33,
 		id = 604024,
+		scale = 0.75,
 		weapon_ID = {
 			604026
 		},
@@ -78026,9 +80895,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 175,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -78036,6 +80905,7 @@ pg.aircraft_template = {
 		hp_growth = 3800,
 		speed = 30,
 		id = 604033,
+		scale = 0.75,
 		weapon_ID = {
 			604035
 		},
@@ -78099,9 +80969,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 144,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -78109,6 +80979,7 @@ pg.aircraft_template = {
 		hp_growth = 3400,
 		speed = 33,
 		id = 604034,
+		scale = 0.75,
 		weapon_ID = {
 			604036
 		},
@@ -78172,15 +81043,16 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 293,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "fuyoupao2",
 		nationality = 3,
 		hp_growth = 4600,
 		speed = 70,
 		id = 604040,
+		scale = 0.75,
 		funnel_behavior = {
 			stay = 2,
 			exist = 20
@@ -78248,9 +81120,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 175,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -78258,6 +81130,7 @@ pg.aircraft_template = {
 		hp_growth = 3800,
 		speed = 30,
 		id = 604053,
+		scale = 0.75,
 		weapon_ID = {
 			604055
 		},
@@ -78321,9 +81194,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 144,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -78331,6 +81204,7 @@ pg.aircraft_template = {
 		hp_growth = 3400,
 		speed = 33,
 		id = 604054,
+		scale = 0.75,
 		weapon_ID = {
 			604056
 		},
@@ -78394,9 +81268,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 175,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -78404,6 +81278,7 @@ pg.aircraft_template = {
 		hp_growth = 3800,
 		speed = 30,
 		id = 604083,
+		scale = 0.75,
 		weapon_ID = {
 			604085
 		},
@@ -78467,9 +81342,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 144,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -78477,6 +81352,7 @@ pg.aircraft_template = {
 		hp_growth = 3400,
 		speed = 33,
 		id = 604084,
+		scale = 0.75,
 		weapon_ID = {
 			604086
 		},
@@ -78540,9 +81416,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 175,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -78550,6 +81426,7 @@ pg.aircraft_template = {
 		hp_growth = 3800,
 		speed = 30,
 		id = 604093,
+		scale = 0.75,
 		weapon_ID = {
 			604095
 		},
@@ -78613,9 +81490,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 144,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -78623,6 +81500,7 @@ pg.aircraft_template = {
 		hp_growth = 3400,
 		speed = 33,
 		id = 604094,
+		scale = 0.75,
 		weapon_ID = {
 			604096
 		},
@@ -78686,9 +81564,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 1050,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -78696,6 +81574,7 @@ pg.aircraft_template = {
 		hp_growth = 3800,
 		speed = 30,
 		id = 604115,
+		scale = 0.75,
 		weapon_ID = {
 			604117
 		},
@@ -78759,9 +81638,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 1050,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -78769,6 +81648,7 @@ pg.aircraft_template = {
 		hp_growth = 3400,
 		speed = 33,
 		id = 604116,
+		scale = 0.75,
 		weapon_ID = {
 			604118
 		},
@@ -78832,9 +81712,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 78,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -78842,6 +81722,7 @@ pg.aircraft_template = {
 		hp_growth = 3377,
 		speed = 30,
 		id = 605037,
+		scale = 0.75,
 		weapon_ID = {
 			605038
 		},
@@ -78905,9 +81786,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 57,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -78915,6 +81796,7 @@ pg.aircraft_template = {
 		hp_growth = 3013,
 		speed = 30,
 		id = 605039,
+		scale = 0.75,
 		weapon_ID = {
 			605040
 		},
@@ -78978,15 +81860,16 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 183,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "fuyoupao2",
 		nationality = 3,
 		hp_growth = 3680,
 		speed = 70,
 		id = 606040,
+		scale = 0.75,
 		funnel_behavior = {
 			stay = 2,
 			exist = 20
@@ -79054,9 +81937,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 110,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -79064,6 +81947,7 @@ pg.aircraft_template = {
 		hp_growth = 3040,
 		speed = 30,
 		id = 606041,
+		scale = 0.75,
 		weapon_ID = {
 			606047
 		},
@@ -79127,9 +82011,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 89,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -79137,6 +82021,7 @@ pg.aircraft_template = {
 		hp_growth = 2720,
 		speed = 33,
 		id = 606042,
+		scale = 0.75,
 		weapon_ID = {
 			606048
 		},
@@ -79200,15 +82085,16 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 293,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "fuyoupao2",
 		nationality = 3,
 		hp_growth = 4600,
 		speed = 70,
 		id = 606100,
+		scale = 0.75,
 		funnel_behavior = {
 			stay = 2,
 			exist = 20
@@ -79276,9 +82162,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 175,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -79286,6 +82172,7 @@ pg.aircraft_template = {
 		hp_growth = 3800,
 		speed = 30,
 		id = 606101,
+		scale = 0.75,
 		weapon_ID = {
 			606107
 		},
@@ -79349,9 +82236,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 144,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -79359,6 +82246,7 @@ pg.aircraft_template = {
 		hp_growth = 3400,
 		speed = 33,
 		id = 606102,
+		scale = 0.75,
 		weapon_ID = {
 			606108
 		},
@@ -79422,9 +82310,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 39,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "F4F",
 		funnel_behavior = "",
@@ -79432,6 +82320,7 @@ pg.aircraft_template = {
 		hp_growth = 2686,
 		speed = 33,
 		id = 607007,
+		scale = 0.75,
 		weapon_ID = {
 			607010,
 			607011
@@ -79496,9 +82385,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 57,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "F6F",
 		funnel_behavior = "",
@@ -79506,6 +82395,7 @@ pg.aircraft_template = {
 		hp_growth = 3136,
 		speed = 30,
 		id = 607008,
+		scale = 0.75,
 		weapon_ID = {
 			607012
 		},
@@ -79569,9 +82459,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 78,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "tbd",
 		funnel_behavior = "",
@@ -79579,6 +82469,7 @@ pg.aircraft_template = {
 		hp_growth = 3632,
 		speed = 30,
 		id = 607009,
+		scale = 0.75,
 		weapon_ID = {
 			607013
 		},
@@ -79642,9 +82533,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 39,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "F4F",
 		funnel_behavior = "",
@@ -79652,6 +82543,7 @@ pg.aircraft_template = {
 		hp_growth = 2686,
 		speed = 33,
 		id = 607027,
+		scale = 0.75,
 		weapon_ID = {
 			607030,
 			607031
@@ -79716,9 +82608,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 57,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "F6F",
 		funnel_behavior = "",
@@ -79726,6 +82618,7 @@ pg.aircraft_template = {
 		hp_growth = 3136,
 		speed = 30,
 		id = 607028,
+		scale = 0.75,
 		weapon_ID = {
 			607032
 		},
@@ -79789,9 +82682,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 78,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "tbd",
 		funnel_behavior = "",
@@ -79799,6 +82692,7 @@ pg.aircraft_template = {
 		hp_growth = 3632,
 		speed = 30,
 		id = 607029,
+		scale = 0.75,
 		weapon_ID = {
 			607033
 		},
@@ -79862,9 +82756,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 39,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "F4F",
 		funnel_behavior = "",
@@ -79872,6 +82766,7 @@ pg.aircraft_template = {
 		hp_growth = 2686,
 		speed = 33,
 		id = 607047,
+		scale = 0.75,
 		weapon_ID = {
 			607050,
 			607051
@@ -79936,9 +82831,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 57,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "F6F",
 		funnel_behavior = "",
@@ -79946,6 +82841,7 @@ pg.aircraft_template = {
 		hp_growth = 3136,
 		speed = 30,
 		id = 607048,
+		scale = 0.75,
 		weapon_ID = {
 			607052
 		},
@@ -80009,9 +82905,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 78,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "tbd",
 		funnel_behavior = "",
@@ -80019,6 +82915,7 @@ pg.aircraft_template = {
 		hp_growth = 3632,
 		speed = 30,
 		id = 607049,
+		scale = 0.75,
 		weapon_ID = {
 			607053
 		},
@@ -80082,9 +82979,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 39,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "F4F",
 		funnel_behavior = "",
@@ -80092,6 +82989,7 @@ pg.aircraft_template = {
 		hp_growth = 2686,
 		speed = 33,
 		id = 607067,
+		scale = 0.75,
 		weapon_ID = {
 			607070,
 			607071
@@ -80156,9 +83054,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 57,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "F6F",
 		funnel_behavior = "",
@@ -80166,6 +83064,7 @@ pg.aircraft_template = {
 		hp_growth = 3136,
 		speed = 30,
 		id = 607068,
+		scale = 0.75,
 		weapon_ID = {
 			607072
 		},
@@ -80229,9 +83128,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 78,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "tbd",
 		funnel_behavior = "",
@@ -80239,6 +83138,7 @@ pg.aircraft_template = {
 		hp_growth = 3632,
 		speed = 30,
 		id = 607069,
+		scale = 0.75,
 		weapon_ID = {
 			607073
 		},
@@ -80302,9 +83202,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 39,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "F4F",
 		funnel_behavior = "",
@@ -80312,6 +83212,7 @@ pg.aircraft_template = {
 		hp_growth = 2686,
 		speed = 33,
 		id = 607087,
+		scale = 0.75,
 		weapon_ID = {
 			607090,
 			607091
@@ -80376,9 +83277,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 57,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "F6F",
 		funnel_behavior = "",
@@ -80386,6 +83287,7 @@ pg.aircraft_template = {
 		hp_growth = 3136,
 		speed = 30,
 		id = 607088,
+		scale = 0.75,
 		weapon_ID = {
 			607092
 		},
@@ -80449,9 +83351,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 78,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "tbd",
 		funnel_behavior = "",
@@ -80459,6 +83361,7 @@ pg.aircraft_template = {
 		hp_growth = 3632,
 		speed = 30,
 		id = 607089,
+		scale = 0.75,
 		weapon_ID = {
 			607093
 		},
@@ -80522,9 +83425,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 260,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -80532,6 +83435,7 @@ pg.aircraft_template = {
 		hp_growth = 3377,
 		speed = 30,
 		id = 700034,
+		scale = 0.75,
 		weapon_ID = {
 			700043
 		},
@@ -80595,9 +83499,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 200,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -80605,6 +83509,7 @@ pg.aircraft_template = {
 		hp_growth = 3013,
 		speed = 30,
 		id = 700035,
+		scale = 0.75,
 		weapon_ID = {
 			700044
 		},
@@ -80668,9 +83573,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 125,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -80678,6 +83583,7 @@ pg.aircraft_template = {
 		hp_growth = 2518,
 		speed = 33,
 		id = 700036,
+		scale = 0.75,
 		weapon_ID = {
 			700045,
 			700046
@@ -80742,15 +83648,16 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 500,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "fuyoupao",
 		nationality = 3,
 		hp_growth = 8000,
 		speed = 70,
 		id = 700037,
+		scale = 0.75,
 		funnel_behavior = {
 			stay = 2,
 			exist = 20
@@ -80818,9 +83725,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 260,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -80828,6 +83735,7 @@ pg.aircraft_template = {
 		hp_growth = 3377,
 		speed = 30,
 		id = 700038,
+		scale = 0.75,
 		weapon_ID = {
 			700043
 		},
@@ -80891,9 +83799,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 200,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -80901,6 +83809,7 @@ pg.aircraft_template = {
 		hp_growth = 3013,
 		speed = 30,
 		id = 700039,
+		scale = 0.75,
 		weapon_ID = {
 			700044
 		},
@@ -80964,9 +83873,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 125,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -80974,6 +83883,7 @@ pg.aircraft_template = {
 		hp_growth = 2518,
 		speed = 33,
 		id = 700040,
+		scale = 0.75,
 		weapon_ID = {
 			700045,
 			700046
@@ -81038,15 +83948,16 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 500,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "fuyoupao",
 		nationality = 3,
 		hp_growth = 8000,
 		speed = 70,
 		id = 700041,
+		scale = 0.75,
 		funnel_behavior = {
 			stay = 2,
 			exist = 20
@@ -81114,9 +84025,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 220,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -81124,6 +84035,7 @@ pg.aircraft_template = {
 		hp_growth = 3800,
 		speed = 30,
 		id = 750000,
+		scale = 0.75,
 		weapon_ID = {
 			750137
 		},
@@ -81187,9 +84099,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 180,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -81197,6 +84109,7 @@ pg.aircraft_template = {
 		hp_growth = 3200,
 		speed = 30,
 		id = 750001,
+		scale = 0.75,
 		weapon_ID = {
 			750066
 		},
@@ -81260,9 +84173,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 130,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -81270,6 +84183,7 @@ pg.aircraft_template = {
 		hp_growth = 2800,
 		speed = 33,
 		id = 750002,
+		scale = 0.75,
 		weapon_ID = {
 			750133,
 			750134
@@ -81334,9 +84248,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 156,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "BF109T",
 		funnel_behavior = "",
@@ -81344,6 +84258,7 @@ pg.aircraft_template = {
 		hp_growth = 2500,
 		speed = 43,
 		id = 750003,
+		scale = 0.75,
 		weapon_ID = {
 			750133,
 			750134
@@ -81408,9 +84323,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 216,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "JU87C",
 		funnel_behavior = "",
@@ -81418,6 +84333,7 @@ pg.aircraft_template = {
 		hp_growth = 3400,
 		speed = 41,
 		id = 750004,
+		scale = 0.75,
 		weapon_ID = {
 			750137
 		},
@@ -81481,9 +84397,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 168,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "Me155A",
 		funnel_behavior = "",
@@ -81491,6 +84407,7 @@ pg.aircraft_template = {
 		hp_growth = 2800,
 		speed = 44,
 		id = 750005,
+		scale = 0.75,
 		weapon_ID = {
 			750135,
 			750136
@@ -81555,15 +84472,16 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 220,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "fuyoupao2",
 		nationality = 3,
 		hp_growth = 8000,
 		speed = 70,
 		id = 750006,
+		scale = 0.75,
 		funnel_behavior = {
 			stay = 2,
 			exist = 20
@@ -81631,9 +84549,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 160,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -81641,6 +84559,7 @@ pg.aircraft_template = {
 		hp_growth = 3800,
 		speed = 30,
 		id = 750007,
+		scale = 0.75,
 		weapon_ID = {
 			750065
 		},
@@ -81704,9 +84623,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 130,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -81714,6 +84633,7 @@ pg.aircraft_template = {
 		hp_growth = 3200,
 		speed = 33,
 		id = 750008,
+		scale = 0.75,
 		weapon_ID = {
 			750066
 		},
@@ -81777,9 +84697,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 220,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -81787,6 +84707,7 @@ pg.aircraft_template = {
 		hp_growth = 3800,
 		speed = 30,
 		id = 750010,
+		scale = 0.75,
 		weapon_ID = {
 			750142
 		},
@@ -81850,9 +84771,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 180,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -81860,6 +84781,7 @@ pg.aircraft_template = {
 		hp_growth = 3200,
 		speed = 30,
 		id = 750011,
+		scale = 0.75,
 		weapon_ID = {
 			750095
 		},
@@ -81923,9 +84845,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 130,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -81933,6 +84855,7 @@ pg.aircraft_template = {
 		hp_growth = 2800,
 		speed = 33,
 		id = 750012,
+		scale = 0.75,
 		weapon_ID = {
 			750138,
 			750139
@@ -81997,9 +84920,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 156,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "BF109T",
 		funnel_behavior = "",
@@ -82007,6 +84930,7 @@ pg.aircraft_template = {
 		hp_growth = 2500,
 		speed = 43,
 		id = 750013,
+		scale = 0.75,
 		weapon_ID = {
 			750138,
 			750139
@@ -82071,9 +84995,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 216,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "JU87C",
 		funnel_behavior = "",
@@ -82081,6 +85005,7 @@ pg.aircraft_template = {
 		hp_growth = 3400,
 		speed = 41,
 		id = 750014,
+		scale = 0.75,
 		weapon_ID = {
 			750142
 		},
@@ -82144,9 +85069,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 168,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "Me155A",
 		funnel_behavior = "",
@@ -82154,6 +85079,7 @@ pg.aircraft_template = {
 		hp_growth = 2800,
 		speed = 44,
 		id = 750015,
+		scale = 0.75,
 		weapon_ID = {
 			750140,
 			750141
@@ -82218,15 +85144,16 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 220,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "fuyoupao2",
 		nationality = 3,
 		hp_growth = 8000,
 		speed = 70,
 		id = 750016,
+		scale = 0.75,
 		funnel_behavior = {
 			stay = 2,
 			exist = 20
@@ -82294,9 +85221,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 160,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -82304,6 +85231,7 @@ pg.aircraft_template = {
 		hp_growth = 3800,
 		speed = 30,
 		id = 750017,
+		scale = 0.75,
 		weapon_ID = {
 			750094
 		},
@@ -82367,9 +85295,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 130,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -82377,6 +85305,7 @@ pg.aircraft_template = {
 		hp_growth = 3200,
 		speed = 33,
 		id = 750018,
+		scale = 0.75,
 		weapon_ID = {
 			750095
 		},
@@ -82440,9 +85369,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 220,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -82450,6 +85379,7 @@ pg.aircraft_template = {
 		hp_growth = 3800,
 		speed = 30,
 		id = 750020,
+		scale = 0.75,
 		weapon_ID = {
 			750147
 		},
@@ -82513,9 +85443,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 180,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -82523,6 +85453,7 @@ pg.aircraft_template = {
 		hp_growth = 3200,
 		speed = 30,
 		id = 750021,
+		scale = 0.75,
 		weapon_ID = {
 			750124
 		},
@@ -82586,9 +85517,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 130,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -82596,6 +85527,7 @@ pg.aircraft_template = {
 		hp_growth = 2800,
 		speed = 33,
 		id = 750022,
+		scale = 0.75,
 		weapon_ID = {
 			750143,
 			750144
@@ -82660,9 +85592,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 156,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "BF109T",
 		funnel_behavior = "",
@@ -82670,6 +85602,7 @@ pg.aircraft_template = {
 		hp_growth = 2500,
 		speed = 43,
 		id = 750023,
+		scale = 0.75,
 		weapon_ID = {
 			750143,
 			750144
@@ -82734,9 +85667,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 216,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "JU87C",
 		funnel_behavior = "",
@@ -82744,6 +85677,7 @@ pg.aircraft_template = {
 		hp_growth = 3400,
 		speed = 41,
 		id = 750024,
+		scale = 0.75,
 		weapon_ID = {
 			750147
 		},
@@ -82807,9 +85741,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 168,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "Me155A",
 		funnel_behavior = "",
@@ -82817,6 +85751,7 @@ pg.aircraft_template = {
 		hp_growth = 2800,
 		speed = 44,
 		id = 750025,
+		scale = 0.75,
 		weapon_ID = {
 			750145,
 			750146
@@ -82881,15 +85816,16 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 220,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "fuyoupao2",
 		nationality = 3,
 		hp_growth = 8000,
 		speed = 70,
 		id = 750026,
+		scale = 0.75,
 		funnel_behavior = {
 			stay = 2,
 			exist = 20
@@ -82957,9 +85893,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 160,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -82967,6 +85903,7 @@ pg.aircraft_template = {
 		hp_growth = 3800,
 		speed = 30,
 		id = 750027,
+		scale = 0.75,
 		weapon_ID = {
 			750123
 		},
@@ -83030,9 +85967,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 130,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -83040,6 +85977,7 @@ pg.aircraft_template = {
 		hp_growth = 3200,
 		speed = 33,
 		id = 750028,
+		scale = 0.75,
 		weapon_ID = {
 			750124
 		},
@@ -83103,9 +86041,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 9,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "96jiangong",
 		funnel_behavior = "",
@@ -83113,6 +86051,7 @@ pg.aircraft_template = {
 		hp_growth = 980,
 		speed = 50,
 		id = 800005,
+		scale = 0.75,
 		weapon_ID = {
 			133
 		},
@@ -83176,9 +86115,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 9,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -83186,6 +86125,7 @@ pg.aircraft_template = {
 		hp_growth = 1076,
 		speed = 48,
 		id = 800006,
+		scale = 0.75,
 		weapon_ID = {
 			135
 		},
@@ -83249,9 +86189,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 9,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -83259,6 +86199,7 @@ pg.aircraft_template = {
 		hp_growth = 1206,
 		speed = 46,
 		id = 800007,
+		scale = 0.75,
 		weapon_ID = {
 			139
 		},
@@ -83322,15 +86263,16 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 100,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "fuyoupao",
 		nationality = 3,
 		hp_growth = 1000,
 		speed = 70,
 		id = 800010,
+		scale = 0.75,
 		funnel_behavior = {
 			stay = 2,
 			exist = 20
@@ -83398,9 +86340,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 1,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "F4F",
 		funnel_behavior = "",
@@ -83408,6 +86350,7 @@ pg.aircraft_template = {
 		hp_growth = 2518,
 		speed = 33,
 		id = 30001,
+		scale = 0.75,
 		weapon_ID = {
 			190014
 		},
@@ -83471,9 +86414,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 1,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "F6F",
 		funnel_behavior = "",
@@ -83481,6 +86424,7 @@ pg.aircraft_template = {
 		hp_growth = 2518,
 		speed = 33,
 		id = 30002,
+		scale = 0.75,
 		weapon_ID = {
 			50000
 		},
@@ -83544,9 +86488,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 1,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "sbdwuwei",
 		funnel_behavior = "",
@@ -83554,6 +86498,7 @@ pg.aircraft_template = {
 		hp_growth = 2518,
 		speed = 33,
 		id = 30003,
+		scale = 0.75,
 		weapon_ID = {
 			50000
 		},
@@ -83617,9 +86562,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 1,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "haipenhuo",
 		funnel_behavior = "",
@@ -83627,6 +86572,7 @@ pg.aircraft_template = {
 		hp_growth = 3386,
 		speed = 33,
 		id = 30004,
+		scale = 0.75,
 		weapon_ID = {
 			50000
 		},
@@ -83690,9 +86636,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 1,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "sbdwuwei",
 		funnel_behavior = "",
@@ -83700,6 +86646,7 @@ pg.aircraft_template = {
 		hp_growth = 3386,
 		speed = 33,
 		id = 30005,
+		scale = 0.75,
 		weapon_ID = {
 			50000
 		},
@@ -83763,9 +86710,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 1,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "sbdwuwei",
 		funnel_behavior = "",
@@ -83773,6 +86720,7 @@ pg.aircraft_template = {
 		hp_growth = 3386,
 		speed = 33,
 		id = 30006,
+		scale = 0.75,
 		weapon_ID = {
 			50000
 		},
@@ -83836,9 +86784,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 1,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "sbdwuwei",
 		funnel_behavior = "",
@@ -83846,6 +86794,7 @@ pg.aircraft_template = {
 		hp_growth = 2932,
 		speed = 33,
 		id = 30007,
+		scale = 0.75,
 		weapon_ID = {
 			50000
 		},
@@ -83909,9 +86858,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 1,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan21",
 		funnel_behavior = "",
@@ -83919,6 +86868,7 @@ pg.aircraft_template = {
 		hp_growth = 3550,
 		speed = 33,
 		id = 31100,
+		scale = 0.75,
 		weapon_ID = {
 			50000
 		},
@@ -83982,9 +86932,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 1,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -83992,6 +86942,7 @@ pg.aircraft_template = {
 		hp_growth = 4046,
 		speed = 33,
 		id = 31101,
+		scale = 0.75,
 		weapon_ID = {
 			50000
 		},
@@ -84055,9 +87006,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 1,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan52",
 		funnel_behavior = "",
@@ -84065,6 +87016,7 @@ pg.aircraft_template = {
 		hp_growth = 3013,
 		speed = 33,
 		id = 31102,
+		scale = 0.75,
 		weapon_ID = {
 			50000
 		},
@@ -84128,9 +87080,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 1,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -84138,6 +87090,7 @@ pg.aircraft_template = {
 		hp_growth = 3097,
 		speed = 30,
 		id = 31200,
+		scale = 0.75,
 		weapon_ID = {
 			50000
 		},
@@ -84201,9 +87154,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 60,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "1shilugong",
 		funnel_behavior = "",
@@ -84211,6 +87164,7 @@ pg.aircraft_template = {
 		hp_growth = 2518,
 		speed = 27,
 		id = 31201,
+		scale = 0.75,
 		weapon_ID = {
 			50000
 		},
@@ -84274,9 +87228,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 1,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao2",
 		funnel_behavior = "",
@@ -84284,6 +87238,7 @@ pg.aircraft_template = {
 		hp_growth = 2518,
 		speed = 33,
 		id = 31300,
+		scale = 0.75,
 		weapon_ID = {
 			50000
 		},
@@ -84347,9 +87302,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 60,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "961shilugong",
 		funnel_behavior = "",
@@ -84357,6 +87312,7 @@ pg.aircraft_template = {
 		hp_growth = 3377,
 		speed = 30,
 		id = 31301,
+		scale = 0.75,
 		weapon_ID = {
 			50000
 		},
@@ -84420,9 +87376,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 146,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "BF109T",
 		funnel_behavior = "",
@@ -84430,6 +87386,7 @@ pg.aircraft_template = {
 		hp_growth = 2400,
 		speed = 42,
 		id = 32100,
+		scale = 0.75,
 		weapon_ID = {
 			470000,
 			470001
@@ -84494,9 +87451,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 168,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "Me155A",
 		funnel_behavior = "",
@@ -84504,6 +87461,7 @@ pg.aircraft_template = {
 		hp_growth = 2600,
 		speed = 44,
 		id = 32101,
+		scale = 0.75,
 		weapon_ID = {
 			470002,
 			470003
@@ -84568,9 +87526,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 218,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "qibolin",
 		funnel_behavior = "",
@@ -84578,6 +87536,7 @@ pg.aircraft_template = {
 		hp_growth = 3000,
 		speed = 42,
 		id = 32200,
+		scale = 0.75,
 		weapon_ID = {
 			470005
 		},
@@ -84641,9 +87600,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 256,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "JU87C",
 		funnel_behavior = "",
@@ -84651,6 +87610,7 @@ pg.aircraft_template = {
 		hp_growth = 3500,
 		speed = 41,
 		id = 32300,
+		scale = 0.75,
 		weapon_ID = {
 			470004
 		},
@@ -84714,9 +87674,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 268,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "BF109T",
 		funnel_behavior = "",
@@ -84724,6 +87684,7 @@ pg.aircraft_template = {
 		hp_growth = 3200,
 		speed = 42,
 		id = 33100,
+		scale = 0.75,
 		weapon_ID = {
 			470000,
 			470001
@@ -84788,9 +87749,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 312,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "Me155A",
 		funnel_behavior = "",
@@ -84798,6 +87759,7 @@ pg.aircraft_template = {
 		hp_growth = 3400,
 		speed = 44,
 		id = 33101,
+		scale = 0.75,
 		weapon_ID = {
 			470002,
 			470003
@@ -84862,9 +87824,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 338,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "qibolin",
 		funnel_behavior = "",
@@ -84872,6 +87834,7 @@ pg.aircraft_template = {
 		hp_growth = 4300,
 		speed = 42,
 		id = 33200,
+		scale = 0.75,
 		weapon_ID = {
 			470005
 		},
@@ -84935,9 +87898,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 416,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "JU87C",
 		funnel_behavior = "",
@@ -84945,6 +87908,7 @@ pg.aircraft_template = {
 		hp_growth = 4800,
 		speed = 41,
 		id = 33300,
+		scale = 0.75,
 		weapon_ID = {
 			470004
 		},
@@ -85008,9 +87972,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 1,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "F4F",
 		funnel_behavior = "",
@@ -85018,6 +87982,7 @@ pg.aircraft_template = {
 		hp_growth = 2518,
 		speed = 33,
 		id = 34001,
+		scale = 0.75,
 		weapon_ID = {
 			190014
 		},
@@ -85081,9 +88046,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 1,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "F6F",
 		funnel_behavior = "",
@@ -85091,6 +88056,7 @@ pg.aircraft_template = {
 		hp_growth = 2518,
 		speed = 33,
 		id = 34002,
+		scale = 0.75,
 		weapon_ID = {
 			50000
 		},
@@ -85154,9 +88120,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 1,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "sbdwuwei",
 		funnel_behavior = "",
@@ -85164,6 +88130,7 @@ pg.aircraft_template = {
 		hp_growth = 2518,
 		speed = 33,
 		id = 34003,
+		scale = 0.75,
 		weapon_ID = {
 			50000
 		},
@@ -85227,9 +88194,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 1,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "haipenhuo",
 		funnel_behavior = "",
@@ -85237,6 +88204,7 @@ pg.aircraft_template = {
 		hp_growth = 3386,
 		speed = 33,
 		id = 34004,
+		scale = 0.75,
 		weapon_ID = {
 			50000
 		},
@@ -85300,9 +88268,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 1,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "sbdwuwei",
 		funnel_behavior = "",
@@ -85310,6 +88278,7 @@ pg.aircraft_template = {
 		hp_growth = 3386,
 		speed = 33,
 		id = 34005,
+		scale = 0.75,
 		weapon_ID = {
 			50000
 		},
@@ -85373,9 +88342,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 1,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan21",
 		funnel_behavior = "",
@@ -85383,6 +88352,7 @@ pg.aircraft_template = {
 		hp_growth = 3550,
 		speed = 33,
 		id = 34006,
+		scale = 0.75,
 		weapon_ID = {
 			50000
 		},
@@ -85446,9 +88416,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 1,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -85456,6 +88426,7 @@ pg.aircraft_template = {
 		hp_growth = 4046,
 		speed = 33,
 		id = 34007,
+		scale = 0.75,
 		weapon_ID = {
 			50000
 		},
@@ -85519,9 +88490,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 1,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan52",
 		funnel_behavior = "",
@@ -85529,6 +88500,7 @@ pg.aircraft_template = {
 		hp_growth = 3013,
 		speed = 33,
 		id = 34008,
+		scale = 0.75,
 		weapon_ID = {
 			50000
 		},
@@ -85592,9 +88564,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 1,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -85602,6 +88574,7 @@ pg.aircraft_template = {
 		hp_growth = 3097,
 		speed = 30,
 		id = 34009,
+		scale = 0.75,
 		weapon_ID = {
 			50000
 		},
@@ -85665,9 +88638,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 180,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "1shilugong",
 		funnel_behavior = "",
@@ -85675,6 +88648,7 @@ pg.aircraft_template = {
 		hp_growth = 2518,
 		speed = 22,
 		id = 34010,
+		scale = 0.75,
 		weapon_ID = {
 			50000
 		},
@@ -85738,9 +88712,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 1,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao2",
 		funnel_behavior = "",
@@ -85748,6 +88722,7 @@ pg.aircraft_template = {
 		hp_growth = 2518,
 		speed = 33,
 		id = 34011,
+		scale = 0.75,
 		weapon_ID = {
 			50000
 		},
@@ -85811,9 +88786,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 180,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "961shilugong",
 		funnel_behavior = "",
@@ -85821,6 +88796,7 @@ pg.aircraft_template = {
 		hp_growth = 3377,
 		speed = 25,
 		id = 34012,
+		scale = 0.75,
 		weapon_ID = {
 			50000
 		},
@@ -85884,9 +88860,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 146,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "BF109T",
 		funnel_behavior = "",
@@ -85894,6 +88870,7 @@ pg.aircraft_template = {
 		hp_growth = 2400,
 		speed = 42,
 		id = 34013,
+		scale = 0.75,
 		weapon_ID = {
 			470000,
 			470001
@@ -85958,9 +88935,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 168,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "Me155A",
 		funnel_behavior = "",
@@ -85968,6 +88945,7 @@ pg.aircraft_template = {
 		hp_growth = 2600,
 		speed = 44,
 		id = 34014,
+		scale = 0.75,
 		weapon_ID = {
 			470002,
 			470003
@@ -86032,9 +89010,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 218,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "qibolin",
 		funnel_behavior = "",
@@ -86042,6 +89020,7 @@ pg.aircraft_template = {
 		hp_growth = 3000,
 		speed = 42,
 		id = 34015,
+		scale = 0.75,
 		weapon_ID = {
 			470005
 		},
@@ -86105,9 +89084,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 256,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "JU87C",
 		funnel_behavior = "",
@@ -86115,6 +89094,7 @@ pg.aircraft_template = {
 		hp_growth = 3500,
 		speed = 41,
 		id = 34016,
+		scale = 0.75,
 		weapon_ID = {
 			470004
 		},
@@ -86178,9 +89158,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 65,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -86188,6 +89168,7 @@ pg.aircraft_template = {
 		hp_growth = 2280,
 		speed = 30,
 		id = 1000655,
+		scale = 0.75,
 		weapon_ID = {
 			1000665
 		},
@@ -86251,9 +89232,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 85,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -86261,6 +89242,7 @@ pg.aircraft_template = {
 		hp_growth = 2660,
 		speed = 30,
 		id = 1000656,
+		scale = 0.75,
 		weapon_ID = {
 			1000666
 		},
@@ -86324,9 +89306,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 110,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -86334,6 +89316,7 @@ pg.aircraft_template = {
 		hp_growth = 3040,
 		speed = 30,
 		id = 1000657,
+		scale = 0.75,
 		weapon_ID = {
 			1000667
 		},
@@ -86397,9 +89380,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 140,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -86407,6 +89390,7 @@ pg.aircraft_template = {
 		hp_growth = 3420,
 		speed = 30,
 		id = 1000658,
+		scale = 0.75,
 		weapon_ID = {
 			1000668
 		},
@@ -86470,9 +89454,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 175,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -86480,6 +89464,7 @@ pg.aircraft_template = {
 		hp_growth = 3800,
 		speed = 30,
 		id = 1000659,
+		scale = 0.75,
 		weapon_ID = {
 			1000669
 		},
@@ -86543,9 +89528,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 36,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -86553,6 +89538,7 @@ pg.aircraft_template = {
 		hp_growth = 1680,
 		speed = 33,
 		id = 1000660,
+		scale = 0.75,
 		weapon_ID = {
 			1000670,
 			1000675
@@ -86617,9 +89603,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 48,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -86627,6 +89613,7 @@ pg.aircraft_template = {
 		hp_growth = 1960,
 		speed = 33,
 		id = 1000661,
+		scale = 0.75,
 		weapon_ID = {
 			1000671,
 			1000676
@@ -86691,9 +89678,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 62,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -86701,6 +89688,7 @@ pg.aircraft_template = {
 		hp_growth = 2240,
 		speed = 33,
 		id = 1000662,
+		scale = 0.75,
 		weapon_ID = {
 			1000672,
 			1000677
@@ -86765,9 +89753,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 78,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -86775,6 +89763,7 @@ pg.aircraft_template = {
 		hp_growth = 2520,
 		speed = 33,
 		id = 1000663,
+		scale = 0.75,
 		weapon_ID = {
 			1000673,
 			1000678
@@ -86839,9 +89828,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 98,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -86849,6 +89838,7 @@ pg.aircraft_template = {
 		hp_growth = 2800,
 		speed = 33,
 		id = 1000664,
+		scale = 0.75,
 		weapon_ID = {
 			1000674,
 			1000679
@@ -86913,15 +89903,16 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 108,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "fuyoupao2",
 		nationality = 3,
 		hp_growth = 2760,
 		speed = 70,
 		id = 1000810,
+		scale = 0.75,
 		funnel_behavior = {
 			stay = 2,
 			exist = 20
@@ -86989,15 +89980,16 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 142,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "fuyoupao2",
 		nationality = 3,
 		hp_growth = 3220,
 		speed = 70,
 		id = 1000811,
+		scale = 0.75,
 		funnel_behavior = {
 			stay = 2,
 			exist = 20
@@ -87065,15 +90057,16 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 182,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "fuyoupao2",
 		nationality = 3,
 		hp_growth = 3680,
 		speed = 70,
 		id = 1000812,
+		scale = 0.75,
 		funnel_behavior = {
 			stay = 2,
 			exist = 20
@@ -87141,15 +90134,16 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 232,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "fuyoupao2",
 		nationality = 3,
 		hp_growth = 4140,
 		speed = 70,
 		id = 1000813,
+		scale = 0.75,
 		funnel_behavior = {
 			stay = 2,
 			exist = 20
@@ -87217,15 +90211,16 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 294,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "fuyoupao2",
 		nationality = 3,
 		hp_growth = 4600,
 		speed = 70,
 		id = 1000814,
+		scale = 0.75,
 		funnel_behavior = {
 			stay = 2,
 			exist = 20
@@ -87293,9 +90288,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 65,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -87303,6 +90298,7 @@ pg.aircraft_template = {
 		hp_growth = 2280,
 		speed = 30,
 		id = 1000815,
+		scale = 0.75,
 		weapon_ID = {
 			1000830
 		},
@@ -87366,9 +90362,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 85,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -87376,6 +90372,7 @@ pg.aircraft_template = {
 		hp_growth = 2660,
 		speed = 30,
 		id = 1000816,
+		scale = 0.75,
 		weapon_ID = {
 			1000831
 		},
@@ -87439,9 +90436,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 110,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -87449,6 +90446,7 @@ pg.aircraft_template = {
 		hp_growth = 3040,
 		speed = 30,
 		id = 1000817,
+		scale = 0.75,
 		weapon_ID = {
 			1000832
 		},
@@ -87512,9 +90510,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 140,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -87522,6 +90520,7 @@ pg.aircraft_template = {
 		hp_growth = 3420,
 		speed = 30,
 		id = 1000818,
+		scale = 0.75,
 		weapon_ID = {
 			1000833
 		},
@@ -87585,9 +90584,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 175,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -87595,6 +90594,7 @@ pg.aircraft_template = {
 		hp_growth = 3800,
 		speed = 30,
 		id = 1000819,
+		scale = 0.75,
 		weapon_ID = {
 			1000834
 		},
@@ -87658,9 +90658,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 52,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -87668,6 +90668,7 @@ pg.aircraft_template = {
 		hp_growth = 2040,
 		speed = 33,
 		id = 1000820,
+		scale = 0.75,
 		weapon_ID = {
 			1000835
 		},
@@ -87731,9 +90732,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 70,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -87741,6 +90742,7 @@ pg.aircraft_template = {
 		hp_growth = 2380,
 		speed = 33,
 		id = 1000821,
+		scale = 0.75,
 		weapon_ID = {
 			1000836
 		},
@@ -87804,9 +90806,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 90,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -87814,6 +90816,7 @@ pg.aircraft_template = {
 		hp_growth = 2720,
 		speed = 33,
 		id = 1000822,
+		scale = 0.75,
 		weapon_ID = {
 			1000837
 		},
@@ -87877,9 +90880,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 112,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -87887,6 +90890,7 @@ pg.aircraft_template = {
 		hp_growth = 3060,
 		speed = 33,
 		id = 1000823,
+		scale = 0.75,
 		weapon_ID = {
 			1000838
 		},
@@ -87950,9 +90954,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 136,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -87960,6 +90964,7 @@ pg.aircraft_template = {
 		hp_growth = 3400,
 		speed = 33,
 		id = 1000824,
+		scale = 0.75,
 		weapon_ID = {
 			1000839
 		},
@@ -88023,9 +91028,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 65,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -88033,6 +91038,7 @@ pg.aircraft_template = {
 		hp_growth = 2280,
 		speed = 30,
 		id = 1000840,
+		scale = 0.75,
 		weapon_ID = {
 			1000840
 		},
@@ -88096,9 +91102,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 85,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -88106,6 +91112,7 @@ pg.aircraft_template = {
 		hp_growth = 2660,
 		speed = 30,
 		id = 1000841,
+		scale = 0.75,
 		weapon_ID = {
 			1000841
 		},
@@ -88169,9 +91176,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 110,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -88179,6 +91186,7 @@ pg.aircraft_template = {
 		hp_growth = 3040,
 		speed = 30,
 		id = 1000842,
+		scale = 0.75,
 		weapon_ID = {
 			1000842
 		},
@@ -88242,9 +91250,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 140,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -88252,6 +91260,7 @@ pg.aircraft_template = {
 		hp_growth = 3420,
 		speed = 30,
 		id = 1000843,
+		scale = 0.75,
 		weapon_ID = {
 			1000843
 		},
@@ -88315,9 +91324,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 175,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -88325,6 +91334,7 @@ pg.aircraft_template = {
 		hp_growth = 3800,
 		speed = 30,
 		id = 1000844,
+		scale = 0.75,
 		weapon_ID = {
 			1000844
 		},
@@ -88388,9 +91398,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 52,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -88398,6 +91408,7 @@ pg.aircraft_template = {
 		hp_growth = 2040,
 		speed = 33,
 		id = 1000845,
+		scale = 0.75,
 		weapon_ID = {
 			1000845
 		},
@@ -88461,9 +91472,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 70,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -88471,6 +91482,7 @@ pg.aircraft_template = {
 		hp_growth = 2380,
 		speed = 33,
 		id = 1000846,
+		scale = 0.75,
 		weapon_ID = {
 			1000846
 		},
@@ -88534,9 +91546,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 90,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -88544,6 +91556,7 @@ pg.aircraft_template = {
 		hp_growth = 2720,
 		speed = 33,
 		id = 1000847,
+		scale = 0.75,
 		weapon_ID = {
 			1000847
 		},
@@ -88607,9 +91620,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 112,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -88617,6 +91630,7 @@ pg.aircraft_template = {
 		hp_growth = 3060,
 		speed = 33,
 		id = 1000848,
+		scale = 0.75,
 		weapon_ID = {
 			1000848
 		},
@@ -88680,9 +91694,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 136,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -88690,6 +91704,7 @@ pg.aircraft_template = {
 		hp_growth = 3400,
 		speed = 33,
 		id = 1000849,
+		scale = 0.75,
 		weapon_ID = {
 			1000849
 		},
@@ -88753,9 +91768,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 36,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -88763,6 +91778,7 @@ pg.aircraft_template = {
 		hp_growth = 1680,
 		speed = 33,
 		id = 1000850,
+		scale = 0.75,
 		weapon_ID = {
 			1000850,
 			1000855
@@ -88827,9 +91843,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 48,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -88837,6 +91853,7 @@ pg.aircraft_template = {
 		hp_growth = 1960,
 		speed = 33,
 		id = 1000851,
+		scale = 0.75,
 		weapon_ID = {
 			1000851,
 			1000856
@@ -88901,9 +91918,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 62,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -88911,6 +91928,7 @@ pg.aircraft_template = {
 		hp_growth = 2240,
 		speed = 33,
 		id = 1000852,
+		scale = 0.75,
 		weapon_ID = {
 			1000852,
 			1000857
@@ -88975,9 +91993,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 78,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -88985,6 +92003,7 @@ pg.aircraft_template = {
 		hp_growth = 2520,
 		speed = 33,
 		id = 1000853,
+		scale = 0.75,
 		weapon_ID = {
 			1000853,
 			1000858
@@ -89049,9 +92068,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 98,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "shenhaifeiji",
 		funnel_behavior = "",
@@ -89059,6 +92078,7 @@ pg.aircraft_template = {
 		hp_growth = 2800,
 		speed = 33,
 		id = 1000854,
+		scale = 0.75,
 		weapon_ID = {
 			1000854,
 			1000859
@@ -89123,9 +92143,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 36,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "F4F",
 		funnel_behavior = "",
@@ -89133,6 +92153,7 @@ pg.aircraft_template = {
 		hp_growth = 1680,
 		speed = 33,
 		id = 1100765,
+		scale = 0.75,
 		weapon_ID = {
 			1100745,
 			1100750
@@ -89197,9 +92218,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 48,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "F4F",
 		funnel_behavior = "",
@@ -89207,6 +92228,7 @@ pg.aircraft_template = {
 		hp_growth = 1960,
 		speed = 33,
 		id = 1100766,
+		scale = 0.75,
 		weapon_ID = {
 			1100746,
 			1100751
@@ -89271,9 +92293,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 62,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "F4F",
 		funnel_behavior = "",
@@ -89281,6 +92303,7 @@ pg.aircraft_template = {
 		hp_growth = 2240,
 		speed = 33,
 		id = 1100767,
+		scale = 0.75,
 		weapon_ID = {
 			1100747,
 			1100752
@@ -89345,9 +92368,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 78,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "F4F",
 		funnel_behavior = "",
@@ -89355,6 +92378,7 @@ pg.aircraft_template = {
 		hp_growth = 2520,
 		speed = 33,
 		id = 1100768,
+		scale = 0.75,
 		weapon_ID = {
 			1100748,
 			1100753
@@ -89419,9 +92443,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 98,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "F4F",
 		funnel_behavior = "",
@@ -89429,6 +92453,7 @@ pg.aircraft_template = {
 		hp_growth = 2800,
 		speed = 33,
 		id = 1100769,
+		scale = 0.75,
 		weapon_ID = {
 			1100749,
 			1100754
@@ -89493,9 +92518,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 52,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "tbd",
 		funnel_behavior = "",
@@ -89503,6 +92528,7 @@ pg.aircraft_template = {
 		hp_growth = 2040,
 		speed = 30,
 		id = 1100770,
+		scale = 0.75,
 		weapon_ID = {
 			1100755
 		},
@@ -89566,9 +92592,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 70,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "tbd",
 		funnel_behavior = "",
@@ -89576,6 +92602,7 @@ pg.aircraft_template = {
 		hp_growth = 2380,
 		speed = 30,
 		id = 1100771,
+		scale = 0.75,
 		weapon_ID = {
 			1100756
 		},
@@ -89639,9 +92666,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 90,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "tbd",
 		funnel_behavior = "",
@@ -89649,6 +92676,7 @@ pg.aircraft_template = {
 		hp_growth = 2720,
 		speed = 30,
 		id = 1100772,
+		scale = 0.75,
 		weapon_ID = {
 			1100757
 		},
@@ -89712,9 +92740,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 112,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "tbd",
 		funnel_behavior = "",
@@ -89722,6 +92750,7 @@ pg.aircraft_template = {
 		hp_growth = 3060,
 		speed = 30,
 		id = 1100773,
+		scale = 0.75,
 		weapon_ID = {
 			1100758
 		},
@@ -89785,9 +92814,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 136,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "tbd",
 		funnel_behavior = "",
@@ -89795,6 +92824,7 @@ pg.aircraft_template = {
 		hp_growth = 3400,
 		speed = 30,
 		id = 1100774,
+		scale = 0.75,
 		weapon_ID = {
 			1100759
 		},
@@ -89858,9 +92888,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 65,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "sbdwuwei",
 		funnel_behavior = "",
@@ -89868,6 +92898,7 @@ pg.aircraft_template = {
 		hp_growth = 2280,
 		speed = 30,
 		id = 1100775,
+		scale = 0.75,
 		weapon_ID = {
 			1100760
 		},
@@ -89931,9 +92962,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 85,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "sbdwuwei",
 		funnel_behavior = "",
@@ -89941,6 +92972,7 @@ pg.aircraft_template = {
 		hp_growth = 2660,
 		speed = 30,
 		id = 1100776,
+		scale = 0.75,
 		weapon_ID = {
 			1100761
 		},
@@ -90004,9 +93036,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 110,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "sbdwuwei",
 		funnel_behavior = "",
@@ -90014,6 +93046,7 @@ pg.aircraft_template = {
 		hp_growth = 3040,
 		speed = 30,
 		id = 1100777,
+		scale = 0.75,
 		weapon_ID = {
 			1100762
 		},
@@ -90077,9 +93110,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 140,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "sbdwuwei",
 		funnel_behavior = "",
@@ -90087,6 +93120,7 @@ pg.aircraft_template = {
 		hp_growth = 3420,
 		speed = 30,
 		id = 1100778,
+		scale = 0.75,
 		weapon_ID = {
 			1100763
 		},
@@ -90150,9 +93184,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 175,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "sbdwuwei",
 		funnel_behavior = "",
@@ -90160,6 +93194,7 @@ pg.aircraft_template = {
 		hp_growth = 3800,
 		speed = 30,
 		id = 1100779,
+		scale = 0.75,
 		weapon_ID = {
 			1100764
 		},
@@ -90223,9 +93258,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 36,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "haiduya",
 		funnel_behavior = "",
@@ -90233,6 +93268,7 @@ pg.aircraft_template = {
 		hp_growth = 1680,
 		speed = 33,
 		id = 1100780,
+		scale = 0.75,
 		weapon_ID = {
 			1100745,
 			1100750
@@ -90297,9 +93333,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 48,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "haiduya",
 		funnel_behavior = "",
@@ -90307,6 +93343,7 @@ pg.aircraft_template = {
 		hp_growth = 1960,
 		speed = 33,
 		id = 1100781,
+		scale = 0.75,
 		weapon_ID = {
 			1100746,
 			1100751
@@ -90371,9 +93408,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 62,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "haiduya",
 		funnel_behavior = "",
@@ -90381,6 +93418,7 @@ pg.aircraft_template = {
 		hp_growth = 2240,
 		speed = 33,
 		id = 1100782,
+		scale = 0.75,
 		weapon_ID = {
 			1100747,
 			1100752
@@ -90445,9 +93483,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 78,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "haiduya",
 		funnel_behavior = "",
@@ -90455,6 +93493,7 @@ pg.aircraft_template = {
 		hp_growth = 2520,
 		speed = 33,
 		id = 1100783,
+		scale = 0.75,
 		weapon_ID = {
 			1100748,
 			1100753
@@ -90519,9 +93558,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 98,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "haiduya",
 		funnel_behavior = "",
@@ -90529,6 +93568,7 @@ pg.aircraft_template = {
 		hp_growth = 2800,
 		speed = 33,
 		id = 1100784,
+		scale = 0.75,
 		weapon_ID = {
 			1100749,
 			1100754
@@ -90593,9 +93633,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 52,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "suoyu",
 		funnel_behavior = "",
@@ -90603,6 +93643,7 @@ pg.aircraft_template = {
 		hp_growth = 2040,
 		speed = 30,
 		id = 1100785,
+		scale = 0.75,
 		weapon_ID = {
 			1100755
 		},
@@ -90666,9 +93707,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 70,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "suoyu",
 		funnel_behavior = "",
@@ -90676,6 +93717,7 @@ pg.aircraft_template = {
 		hp_growth = 2380,
 		speed = 30,
 		id = 1100786,
+		scale = 0.75,
 		weapon_ID = {
 			1100756
 		},
@@ -90739,9 +93781,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 90,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "suoyu",
 		funnel_behavior = "",
@@ -90749,6 +93791,7 @@ pg.aircraft_template = {
 		hp_growth = 2720,
 		speed = 30,
 		id = 1100787,
+		scale = 0.75,
 		weapon_ID = {
 			1100757
 		},
@@ -90812,9 +93855,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 112,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "suoyu",
 		funnel_behavior = "",
@@ -90822,6 +93865,7 @@ pg.aircraft_template = {
 		hp_growth = 3060,
 		speed = 30,
 		id = 1100788,
+		scale = 0.75,
 		weapon_ID = {
 			1100758
 		},
@@ -90885,9 +93929,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 136,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "suoyu",
 		funnel_behavior = "",
@@ -90895,6 +93939,7 @@ pg.aircraft_template = {
 		hp_growth = 3400,
 		speed = 30,
 		id = 1100789,
+		scale = 0.75,
 		weapon_ID = {
 			1100759
 		},
@@ -90958,9 +94003,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 65,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "haiyan",
 		funnel_behavior = "",
@@ -90968,6 +94013,7 @@ pg.aircraft_template = {
 		hp_growth = 2280,
 		speed = 30,
 		id = 1100790,
+		scale = 0.75,
 		weapon_ID = {
 			1100760
 		},
@@ -91031,9 +94077,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 85,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "haiyan",
 		funnel_behavior = "",
@@ -91041,6 +94087,7 @@ pg.aircraft_template = {
 		hp_growth = 2660,
 		speed = 30,
 		id = 1100791,
+		scale = 0.75,
 		weapon_ID = {
 			1100761
 		},
@@ -91104,9 +94151,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 110,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "haiyan",
 		funnel_behavior = "",
@@ -91114,6 +94161,7 @@ pg.aircraft_template = {
 		hp_growth = 3040,
 		speed = 30,
 		id = 1100792,
+		scale = 0.75,
 		weapon_ID = {
 			1100762
 		},
@@ -91177,9 +94225,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 140,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "haiyan",
 		funnel_behavior = "",
@@ -91187,6 +94235,7 @@ pg.aircraft_template = {
 		hp_growth = 3420,
 		speed = 30,
 		id = 1100793,
+		scale = 0.75,
 		weapon_ID = {
 			1100763
 		},
@@ -91250,9 +94299,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 175,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "haiyan",
 		funnel_behavior = "",
@@ -91260,6 +94309,7 @@ pg.aircraft_template = {
 		hp_growth = 3800,
 		speed = 30,
 		id = 1100794,
+		scale = 0.75,
 		weapon_ID = {
 			1100764
 		},
@@ -91323,9 +94373,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 36,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -91333,6 +94383,7 @@ pg.aircraft_template = {
 		hp_growth = 1680,
 		speed = 33,
 		id = 1100795,
+		scale = 0.75,
 		weapon_ID = {
 			1100745,
 			1100750
@@ -91397,9 +94448,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 48,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -91407,6 +94458,7 @@ pg.aircraft_template = {
 		hp_growth = 1960,
 		speed = 33,
 		id = 1100796,
+		scale = 0.75,
 		weapon_ID = {
 			1100746,
 			1100751
@@ -91471,9 +94523,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 62,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -91481,6 +94533,7 @@ pg.aircraft_template = {
 		hp_growth = 2240,
 		speed = 33,
 		id = 1100797,
+		scale = 0.75,
 		weapon_ID = {
 			1100747,
 			1100752
@@ -91545,9 +94598,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 78,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -91555,6 +94608,7 @@ pg.aircraft_template = {
 		hp_growth = 2520,
 		speed = 33,
 		id = 1100798,
+		scale = 0.75,
 		weapon_ID = {
 			1100748,
 			1100753
@@ -91619,9 +94673,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 98,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -91629,6 +94683,7 @@ pg.aircraft_template = {
 		hp_growth = 2800,
 		speed = 33,
 		id = 1100799,
+		scale = 0.75,
 		weapon_ID = {
 			1100749,
 			1100754
@@ -91693,9 +94748,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 52,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -91703,6 +94758,7 @@ pg.aircraft_template = {
 		hp_growth = 2040,
 		speed = 30,
 		id = 1100800,
+		scale = 0.75,
 		weapon_ID = {
 			1100755
 		},
@@ -91766,9 +94822,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 70,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -91776,6 +94832,7 @@ pg.aircraft_template = {
 		hp_growth = 2380,
 		speed = 30,
 		id = 1100801,
+		scale = 0.75,
 		weapon_ID = {
 			1100756
 		},
@@ -91839,9 +94896,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 90,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -91849,6 +94906,7 @@ pg.aircraft_template = {
 		hp_growth = 2720,
 		speed = 30,
 		id = 1100802,
+		scale = 0.75,
 		weapon_ID = {
 			1100757
 		},
@@ -91912,9 +94970,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 112,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -91922,6 +94980,7 @@ pg.aircraft_template = {
 		hp_growth = 3060,
 		speed = 30,
 		id = 1100803,
+		scale = 0.75,
 		weapon_ID = {
 			1100758
 		},
@@ -91985,9 +95044,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 136,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -91995,6 +95054,7 @@ pg.aircraft_template = {
 		hp_growth = 3400,
 		speed = 30,
 		id = 1100804,
+		scale = 0.75,
 		weapon_ID = {
 			1100759
 		},
@@ -92058,9 +95118,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 65,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -92068,6 +95128,7 @@ pg.aircraft_template = {
 		hp_growth = 2280,
 		speed = 30,
 		id = 1100805,
+		scale = 0.75,
 		weapon_ID = {
 			1100760
 		},
@@ -92131,9 +95192,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 85,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -92141,6 +95202,7 @@ pg.aircraft_template = {
 		hp_growth = 2660,
 		speed = 30,
 		id = 1100806,
+		scale = 0.75,
 		weapon_ID = {
 			1100761
 		},
@@ -92204,9 +95266,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 110,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -92214,6 +95276,7 @@ pg.aircraft_template = {
 		hp_growth = 3040,
 		speed = 30,
 		id = 1100807,
+		scale = 0.75,
 		weapon_ID = {
 			1100762
 		},
@@ -92277,9 +95340,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 140,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -92287,6 +95350,7 @@ pg.aircraft_template = {
 		hp_growth = 3420,
 		speed = 30,
 		id = 1100808,
+		scale = 0.75,
 		weapon_ID = {
 			1100763
 		},
@@ -92350,9 +95414,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 175,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -92360,6 +95424,7 @@ pg.aircraft_template = {
 		hp_growth = 3800,
 		speed = 30,
 		id = 1100809,
+		scale = 0.75,
 		weapon_ID = {
 			1100764
 		},
@@ -92423,9 +95488,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 36,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "Me155A",
 		funnel_behavior = "",
@@ -92433,6 +95498,7 @@ pg.aircraft_template = {
 		hp_growth = 1680,
 		speed = 33,
 		id = 1100810,
+		scale = 0.75,
 		weapon_ID = {
 			1100745,
 			1100750
@@ -92497,9 +95563,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 48,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "Me155A",
 		funnel_behavior = "",
@@ -92507,6 +95573,7 @@ pg.aircraft_template = {
 		hp_growth = 1960,
 		speed = 33,
 		id = 1100811,
+		scale = 0.75,
 		weapon_ID = {
 			1100746,
 			1100751
@@ -92571,9 +95638,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 62,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "Me155A",
 		funnel_behavior = "",
@@ -92581,6 +95648,7 @@ pg.aircraft_template = {
 		hp_growth = 2240,
 		speed = 33,
 		id = 1100812,
+		scale = 0.75,
 		weapon_ID = {
 			1100747,
 			1100752
@@ -92645,9 +95713,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 78,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "Me155A",
 		funnel_behavior = "",
@@ -92655,6 +95723,7 @@ pg.aircraft_template = {
 		hp_growth = 2520,
 		speed = 33,
 		id = 1100813,
+		scale = 0.75,
 		weapon_ID = {
 			1100748,
 			1100753
@@ -92719,9 +95788,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 98,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "Me155A",
 		funnel_behavior = "",
@@ -92729,6 +95798,7 @@ pg.aircraft_template = {
 		hp_growth = 2800,
 		speed = 33,
 		id = 1100814,
+		scale = 0.75,
 		weapon_ID = {
 			1100749,
 			1100754
@@ -92793,9 +95863,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 52,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "qibolin",
 		funnel_behavior = "",
@@ -92803,6 +95873,7 @@ pg.aircraft_template = {
 		hp_growth = 2040,
 		speed = 30,
 		id = 1100815,
+		scale = 0.75,
 		weapon_ID = {
 			1100755
 		},
@@ -92866,9 +95937,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 70,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "qibolin",
 		funnel_behavior = "",
@@ -92876,6 +95947,7 @@ pg.aircraft_template = {
 		hp_growth = 2380,
 		speed = 30,
 		id = 1100816,
+		scale = 0.75,
 		weapon_ID = {
 			1100756
 		},
@@ -92939,9 +96011,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 90,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "qibolin",
 		funnel_behavior = "",
@@ -92949,6 +96021,7 @@ pg.aircraft_template = {
 		hp_growth = 2720,
 		speed = 30,
 		id = 1100817,
+		scale = 0.75,
 		weapon_ID = {
 			1100757
 		},
@@ -93012,9 +96085,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 112,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "qibolin",
 		funnel_behavior = "",
@@ -93022,6 +96095,7 @@ pg.aircraft_template = {
 		hp_growth = 3060,
 		speed = 30,
 		id = 1100818,
+		scale = 0.75,
 		weapon_ID = {
 			1100758
 		},
@@ -93085,9 +96159,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 136,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "qibolin",
 		funnel_behavior = "",
@@ -93095,6 +96169,7 @@ pg.aircraft_template = {
 		hp_growth = 3400,
 		speed = 30,
 		id = 1100819,
+		scale = 0.75,
 		weapon_ID = {
 			1100759
 		},
@@ -93158,9 +96233,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 65,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "JU87C",
 		funnel_behavior = "",
@@ -93168,6 +96243,7 @@ pg.aircraft_template = {
 		hp_growth = 2280,
 		speed = 30,
 		id = 1100820,
+		scale = 0.75,
 		weapon_ID = {
 			1100760
 		},
@@ -93231,9 +96307,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 85,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "JU87C",
 		funnel_behavior = "",
@@ -93241,6 +96317,7 @@ pg.aircraft_template = {
 		hp_growth = 2660,
 		speed = 30,
 		id = 1100821,
+		scale = 0.75,
 		weapon_ID = {
 			1100761
 		},
@@ -93304,9 +96381,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 110,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "JU87C",
 		funnel_behavior = "",
@@ -93314,6 +96391,7 @@ pg.aircraft_template = {
 		hp_growth = 3040,
 		speed = 30,
 		id = 1100822,
+		scale = 0.75,
 		weapon_ID = {
 			1100762
 		},
@@ -93377,9 +96455,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 140,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "JU87C",
 		funnel_behavior = "",
@@ -93387,6 +96465,7 @@ pg.aircraft_template = {
 		hp_growth = 3420,
 		speed = 30,
 		id = 1100823,
+		scale = 0.75,
 		weapon_ID = {
 			1100763
 		},
@@ -93450,9 +96529,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 175,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "JU87C",
 		funnel_behavior = "",
@@ -93460,6 +96539,7 @@ pg.aircraft_template = {
 		hp_growth = 3800,
 		speed = 30,
 		id = 1100824,
+		scale = 0.75,
 		weapon_ID = {
 			1100764
 		},
@@ -93523,9 +96603,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 65,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -93533,6 +96613,7 @@ pg.aircraft_template = {
 		hp_growth = 2280,
 		speed = 30,
 		id = 1100830,
+		scale = 0.75,
 		weapon_ID = {
 			1100830
 		},
@@ -93596,9 +96677,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 85,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -93606,6 +96687,7 @@ pg.aircraft_template = {
 		hp_growth = 2660,
 		speed = 30,
 		id = 1100831,
+		scale = 0.75,
 		weapon_ID = {
 			1100831
 		},
@@ -93669,9 +96751,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 110,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -93679,6 +96761,7 @@ pg.aircraft_template = {
 		hp_growth = 3040,
 		speed = 30,
 		id = 1100832,
+		scale = 0.75,
 		weapon_ID = {
 			1100832
 		},
@@ -93742,9 +96825,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 140,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -93752,6 +96835,7 @@ pg.aircraft_template = {
 		hp_growth = 3420,
 		speed = 30,
 		id = 1100833,
+		scale = 0.75,
 		weapon_ID = {
 			1100833
 		},
@@ -93815,9 +96899,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 175,
 		dodge = 1,
-		type = 3,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
 		AP_growth = 2000,
 		icon = "99shijianbao1",
 		funnel_behavior = "",
@@ -93825,6 +96909,7 @@ pg.aircraft_template = {
 		hp_growth = 3800,
 		speed = 30,
 		id = 1100834,
+		scale = 0.75,
 		weapon_ID = {
 			1100834
 		},
@@ -93888,9 +96973,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 52,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -93898,6 +96983,7 @@ pg.aircraft_template = {
 		hp_growth = 2040,
 		speed = 30,
 		id = 1100835,
+		scale = 0.75,
 		weapon_ID = {
 			1100835
 		},
@@ -93961,9 +97047,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 70,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -93971,6 +97057,7 @@ pg.aircraft_template = {
 		hp_growth = 2380,
 		speed = 30,
 		id = 1100836,
+		scale = 0.75,
 		weapon_ID = {
 			1100836
 		},
@@ -94034,9 +97121,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 90,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -94044,6 +97131,7 @@ pg.aircraft_template = {
 		hp_growth = 2720,
 		speed = 30,
 		id = 1100837,
+		scale = 0.75,
 		weapon_ID = {
 			1100837
 		},
@@ -94107,9 +97195,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 112,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -94117,6 +97205,7 @@ pg.aircraft_template = {
 		hp_growth = 3060,
 		speed = 30,
 		id = 1100838,
+		scale = 0.75,
 		weapon_ID = {
 			1100838
 		},
@@ -94180,9 +97269,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 136,
 		dodge = 1,
-		type = 2,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
 		AP_growth = 2000,
 		icon = "97jiangong",
 		funnel_behavior = "",
@@ -94190,6 +97279,7 @@ pg.aircraft_template = {
 		hp_growth = 3400,
 		speed = 30,
 		id = 1100839,
+		scale = 0.75,
 		weapon_ID = {
 			1100839
 		},
@@ -94253,9 +97343,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 36,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -94263,6 +97353,7 @@ pg.aircraft_template = {
 		hp_growth = 1680,
 		speed = 33,
 		id = 1100840,
+		scale = 0.75,
 		weapon_ID = {
 			1100840,
 			1100845
@@ -94327,9 +97418,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 48,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -94337,6 +97428,7 @@ pg.aircraft_template = {
 		hp_growth = 1960,
 		speed = 33,
 		id = 1100841,
+		scale = 0.75,
 		weapon_ID = {
 			1100841,
 			1100846
@@ -94401,9 +97493,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 62,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -94411,6 +97503,7 @@ pg.aircraft_template = {
 		hp_growth = 2240,
 		speed = 33,
 		id = 1100842,
+		scale = 0.75,
 		weapon_ID = {
 			1100842,
 			1100847
@@ -94475,9 +97568,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 78,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -94485,6 +97578,7 @@ pg.aircraft_template = {
 		hp_growth = 2520,
 		speed = 33,
 		id = 1100843,
+		scale = 0.75,
 		weapon_ID = {
 			1100843,
 			1100848
@@ -94549,9 +97643,9 @@ pg.aircraft_template = {
 		ACC_growth = 0,
 		crash_DMG = 98,
 		dodge = 1,
-		type = 1,
-		dodge_limit = 0,
 		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
 		AP_growth = 2000,
 		icon = "lingzhan21gai",
 		funnel_behavior = "",
@@ -94559,6 +97653,7 @@ pg.aircraft_template = {
 		hp_growth = 2800,
 		speed = 33,
 		id = 1100844,
+		scale = 0.75,
 		weapon_ID = {
 			1100844,
 			1100849
@@ -94633,6 +97728,50 @@ pg.aircraft_template = {
 		123,
 		124,
 		144,
+		4200,
+		4201,
+		4202,
+		4203,
+		4220,
+		4221,
+		4222,
+		4223,
+		4224,
+		4225,
+		4226,
+		4240,
+		4241,
+		4242,
+		4243,
+		4244,
+		4245,
+		4246,
+		4247,
+		4248,
+		4249,
+		4250,
+		4300,
+		4301,
+		4302,
+		4303,
+		4320,
+		4321,
+		4322,
+		4323,
+		4324,
+		4325,
+		4326,
+		4340,
+		4341,
+		4342,
+		4343,
+		4344,
+		4345,
+		4346,
+		4347,
+		4348,
+		4349,
+		4350,
 		17000,
 		17001,
 		17002,
@@ -94945,6 +98084,17 @@ pg.aircraft_template = {
 		27244,
 		27245,
 		27246,
+		27300,
+		27301,
+		27302,
+		27303,
+		27304,
+		27305,
+		27306,
+		27307,
+		27308,
+		27309,
+		27310,
 		28000,
 		28001,
 		28002,
@@ -95415,17 +98565,6 @@ pg.aircraft_template = {
 		66428,
 		66429,
 		66430,
-		66440,
-		66441,
-		66442,
-		66443,
-		66444,
-		66445,
-		66446,
-		66447,
-		66448,
-		66449,
-		66450,
 		66580,
 		66581,
 		66582,

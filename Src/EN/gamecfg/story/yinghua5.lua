@@ -11,22 +11,22 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"记住，不要轻易去接触那些凡人，这样会有失你的神格",
+					"Thou shalt not touch a human, for they would tarnish thy divinity.",
 					0
 				},
 				{
-					"    记住，不要轻易的露出笑容，要保持你在民众中的威严",
+					"Thou shalt not smile, for thou must maintain thy dignity.",
 					3
 				},
 				{
-					"        记住，这个世界上可以相信的，只有我们，你的创造者",
+					"Thou shalt not forget: the Creator is your only God.",
 					6
 				}
 			}
 		},
 		{
 			blackBg = true,
-			say = "……",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -35,7 +35,7 @@ return {
 		{
 			actor = 305051,
 			side = 2,
-			say = "{namecode:75}，快帮我看看，等会用这样的站姿如何？",
+			say = "Mutsu, I need your opinion: will this pose be good for the next ceremony?",
 			dir = 1,
 			blackBg = true,
 			bgm = "story-2",
@@ -51,7 +51,7 @@ return {
 		{
 			actor = 305061,
 			side = 0,
-			say = "恩…有点死板呢，不如试试把两手伸直来看看？",
+			say = "Well, hold still so I can get a look... Hmm, it looks kinda stupid to me. Maybe it'd work if you kept your arms totally straight?",
 			dir = 1,
 			blackBg = true,
 			paintingFadeOut = {
@@ -72,7 +72,7 @@ return {
 			side = 1,
 			dir = 1,
 			blackBg = true,
-			say = "诶？…是..是这样吗？",
+			say = "Huh? ... L-like this?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			side = 0,
 			dir = 1,
 			blackBg = true,
-			say = "哈哈哈，姐姐这样就像个人偶似的",
+			say = "Hahaha~ You look like a doll now!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			side = 1,
 			dir = 1,
 			blackBg = true,
-			say = "……",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			side = 0,
 			dir = 1,
 			blackBg = true,
-			say = "啊~对不起，不是这个意思啦..嘻嘻，姐姐来笑一个~像这样——叽",
+			say = "Sorry, I didn't mean it like that! C'mon, let me see a smile! Say \"cheese\"!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 		},
 		{
 			blackBg = true,
-			say = "少女露出了一个天真无邪的笑容",
+			say = "Though the girl tried, her smile came off as incredibly forced.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "对不起…我…",
+			say = "I'm sorry... I can't do it...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "我可能已经忘了怎么笑了…",
+			say = "I seem to have forgotten how to smile...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

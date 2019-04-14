@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"来自{namecode:146}的温柔\n\n<size=30>七　今后也请多多关照！</size>",
+					"Gentle and Sweet Ooshio!\n\n<size=30>See Ya Next Time~</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "治愈心灵的茶会也快到结束的时间了。",
+			say = "The tea party seemed like it was about to end.",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -49,7 +49,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "突然有种“自己的存在是不是有些多余？”的感觉",
+			say = "But then an anxious thought suddenly crossed my mind: have I actually just been a nuisance all along?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "…似乎打扰了第八驱逐队四人的美妙时光？",
+			say = "Maybe I shouldn't have come to the tea party in the first place...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "您在想什么吗？指挥官？",
+			say = "Commander, somethin' on yer mind...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "一旁的{namecode:146}似乎看出了心中所想，走到了身旁。",
+			say = "As if she could read my mind, Ooshio started smiling.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,23 +97,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官是在担心打扰了我和姐妹们相处的时间吗？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 301641,
-			side = 2,
-			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "您想的太复杂了哦！指挥官您，我，还有姐妹们，早就是伙伴……不不，早就是一家人了呀！",
+			say = "I reckon yer worryin' 'bout whether yer just botherin' us, right~?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +113,23 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你看，大家也是这样想的哦~",
+			say = "Yer overthinkin' it, Commander~ Yer our friend... Heck, yer like family to us♪",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 301641,
+			side = 2,
+			bgName = "star_level_bg_103",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "Am I right or am I right, ya'll~?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "大家纷纷走了过来。",
+			say = "The rest of the Division 8 destroyers joined in.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,7 +159,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:145}也觉得，指挥官不需要担心。",
+			say = "She's right. You don't need to worry about feeling like a nuisance to us, Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,7 +175,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "今后……指挥官一定会经常跟{namecode:145}一起玩吧？",
+			say = "You'll still join us for our next tea party, won't you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,37 +189,35 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "似乎被{namecode:145}黏住了……",
+			say = "It felt like I was being gently pulled back...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#a9f548",
-			side = 2,
-			bgName = "star_level_bg_103",
-			dir = 1,
 			actor = 900150,
-			actorName = "{namecode:148}",
-			say = "我会和{namecode:146}一起为指挥官准备更多好吃的点心！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
+			side = 2,
+			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
+			dir = 1,
+			say = "I will prepare more snacks for you and Ooshio next time, so please...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 900150,
 			side = 2,
 			bgName = "star_level_bg_103",
+			nameColor = "#a9f548",
 			dir = 1,
-			actor = 900150,
-			actorName = "{namecode:148}",
-			say = "所以，请一定经常来我们的茶会哟~",
+			say = "Be our honorable guest once more.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,7 +231,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "{namecode:147}向这边行了一个礼。",
+			say = "Arashio turned to me and lightly nodded.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +243,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官如果喜欢花和歌声的话，就请来找{namecode:147}吧~",
+			say = "If you liked the flowers and my singing, feel free to have a chat with me whenever you'd like~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,7 +259,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘿嘿，怎么样，跟{namecode:146}说的一样吧~",
+			say = "*Giggle*~ See, what'd I tell ya~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +273,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "看着大家的笑脸，心中的疑虑完全消失了。",
+			say = "Seeing their dazzling smiles made all my doubts vanish completely.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -288,8 +286,8 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 301631,
-			actorName = "{namecode:145}级四人",
-			say = "以后也请多多指教！指挥官~",
+			actorName = "All 4",
+			say = "We hope to see you next time, Commander~",
 			subActors = {
 				{
 					actor = 301641,

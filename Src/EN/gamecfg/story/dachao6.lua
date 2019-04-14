@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"来自{namecode:146}的温柔\n\n<size=30>六　兽耳娘们的茶会</size>",
+					"Gentle and Sweet Ooshio!\n\n<size=30>Catgirl Tea Party</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "港区·重樱生活区",
+			say = "Port - Near the Sakura Empire Dormitory",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -49,7 +49,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "休息日，被{namecode:146}邀请参加第八驱逐队举办的茶道会。",
+			say = "Ooshio invited me to a tea party with the girls from Destroyer Division 8 on my day off.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "午饭之后，来到了重樱的生活区，在一颗巨大的樱花树下，四位少女的身影坐在野餐垫上。",
+			say = "Asashio, Ooshio, Michishio, and Arashio were under a big cherry tree, sitting on a picnic blanket and having an enjoyable time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "大家，指挥官来了哟！",
+			say = "Look, the Commander showed up~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，这边这边！请坐在这边。",
+			say = "Hey, over here~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,20 +101,19 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "在{namecode:146}的指引下入座。",
+			say = "Ooshio guided me to a place to sit on the blanket.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#a9f548",
-			side = 2,
-			bgName = "star_level_bg_103",
-			dir = 1,
 			actor = 900150,
-			actorName = "{namecode:148}",
-			say = "指挥官，欢迎来我们第八驱逐队的茶道会~",
+			side = 2,
+			bgName = "star_level_bg_103",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "Welcome, Commander, to Destroyer Division 8's tea party.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +124,7 @@ return {
 			}
 		},
 		{
-			say = "点心请随意吃哦，茶不够了的话请跟我说。",
+			say = "Have all the snacks ya want♪ If yer outta tea then let me know~",
 			side = 0,
 			bgName = "star_level_bg_103",
 			dir = 1,
@@ -150,7 +149,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啦啦啦~托指挥官的福，天气都变好了的说。",
+			say = "Hmm hm~♪ We get to enjoy this nice weather thanks to you, Commander~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +165,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔……指挥官能来，{namecode:145}有点高兴。",
+			say = "Yeah... I hope you'll enjoy our tea party.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +181,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘿嘿，那么大家快点喝茶吧~",
+			say = "*Giggle*~ Now let's enjoy some tea~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +195,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "将小茶杯中的茶一饮而尽，然后观察起驱逐舰们的样子。",
+			say = "I took a sip from my small cup of tea then examined the destroyer sitting next to me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +205,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "{namecode:145}坐在一旁，双手拿着一个小熊形状的饼干，安静的吃着。",
+			say = "Asashio was sitting on the side of the blanket and munching on a bear-shaped cookie.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +217,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嚼……嚼……",
+			say = "*Nom nom nom*...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,7 +228,7 @@ return {
 			}
 		},
 		{
-			say = "嗯嗯，吃东西时的{namecode:145}也是非常的可爱呢！摸摸~",
+			say = "Aahhh~ Yer so cute when yer eatin', Asashio~ I just gotta stroke them ears~",
 			side = 0,
 			bgName = "star_level_bg_103",
 			dir = 1,
@@ -252,7 +251,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "{namecode:146}摸起了旁边{namecode:145}的耳朵。",
+			say = "Ooshio started delicately stroking Asashio's ears.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -264,7 +263,7 @@ return {
 			dir = 1,
 			actor = 301631,
 			nameColor = "#a9f548",
-			say = "{namecode:146}……很痒啦……",
+			say = "Stop... that tickles...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,7 +289,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊啦……树叶，落到了茶碗里。",
+			say = "Oh noo~♪ A leaf fell into my teacup...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,13 +300,12 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			actor = 900150,
 			side = 2,
 			bgName = "star_level_bg_103",
+			nameColor = "#a9f548",
 			dir = 1,
-			actor = 900150,
-			actorName = "{namecode:148}",
-			say = "{namecode:145}酱真是……嗯？指挥官您似乎不太习惯坐姿呢，请用这个坐垫吧。",
+			say = "Ooshio, please... Oh, is there not enough room on your side of the blanket, Commander? Please, use this extra one we brought with us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -323,7 +321,7 @@ return {
 			dir = 1,
 			actor = 301641,
 			nameColor = "#a9f548",
-			say = "指挥官对今天的茶会还满意吗？",
+			say = "So, Commander, how ya like our tea party~?",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -351,13 +349,12 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			actor = 900150,
 			side = 2,
 			bgName = "star_level_bg_103",
+			nameColor = "#a9f548",
 			dir = 1,
-			actor = 900150,
-			actorName = "{namecode:148}",
-			say = "再帮您倒一杯茶，指挥官。啊，也给{namecode:145}酱倒一杯~",
+			say = "Allow me to pour you some tea, Commander. Ah, and for you too, Asashio~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -373,7 +370,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这种时候，突然很想唱歌的说~樱花啊~美丽的樱花~",
+			say = "Sitting under this cherry tree makes me want to sing~ Laa laa laaa~♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -387,7 +384,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "在这样的空间里，时间的流速似乎都变得缓慢。",
+			say = "It felt like I was sitting in a bubble where time itself was moving slowly. A soothing bubble...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -398,7 +395,7 @@ return {
 			bgName = "star_level_bg_103",
 			dir = 1,
 			blackBg = true,
-			say = "就这样安静地享受了一个美妙而治愈的下午",
+			say = "[Ooshio and her sisters soothed the Commander!]",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

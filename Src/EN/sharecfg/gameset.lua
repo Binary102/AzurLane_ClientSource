@@ -382,9 +382,9 @@ pg.gameset = {
 		key_value = 3000000
 	},
 	activity_res_id = {
-		description = "Ema",
+		description = "长门PT",
 		key = "activity_res_id",
-		key_value = 103
+		key_value = 108
 	},
 	chapter_move_speed_1 = {
 		description = "",
@@ -405,6 +405,21 @@ pg.gameset = {
 		description = "",
 		key = "elite_quota",
 		key_value = 3
+	},
+	submarine_move_speed_1 = {
+		description = "",
+		key = "submarine_move_speed_1",
+		key_value = 15
+	},
+	submarine_move_speed_2 = {
+		description = "",
+		key = "submarine_move_speed_2",
+		key_value = 25
+	},
+	submarine_round = {
+		description = "",
+		key = "submarine_round",
+		key_value = 2
 	},
 	coloring_story = {
 		key = "coloring_story",
@@ -466,6 +481,21 @@ pg.gameset = {
 		description = "",
 		key = "player_name_cold_time",
 		key_value = 2592000
+	},
+	sos_signal_interval = {
+		description = "",
+		key = "sos_signal_interval",
+		key_value = 1800
+	},
+	sos_signal_rate = {
+		description = "",
+		key = "sos_signal_rate",
+		key_value = 600
+	},
+	sos_signal_max = {
+		description = "",
+		key = "sos_signal_max",
+		key_value = 16
 	},
 	login_extra_voice = {
 		key = "login_extra_voice",

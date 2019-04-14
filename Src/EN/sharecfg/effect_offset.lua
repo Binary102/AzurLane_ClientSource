@@ -569,6 +569,26 @@ pg.effect_offset = {
 			-0.5,
 			0
 		}
+	},
+	shield03 = {
+		id = "shield03",
+		container_index = 1,
+		mirror = false,
+		offset = {
+			0,
+			0,
+			0
+		}
+	},
+	shield03_1 = {
+		id = "shield03_1",
+		container_index = 1,
+		mirror = false,
+		offset = {
+			0,
+			0,
+			0
+		}
 	}
 }
 

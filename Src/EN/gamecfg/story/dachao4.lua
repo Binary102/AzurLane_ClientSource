@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"来自{namecode:146}的温柔\n\n<size=30>四　信赖的取材班</size>",
+					"Gentle and Sweet Ooshio!\n\n<size=30>The Trusted Press Corps</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "港区·港口",
+			say = "Port - Pier",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -49,7 +49,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "早晨，和秘书舰{namecode:146}来到街上进行巡视。",
+			say = "Ooshio and I were patrolling around the base.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "唉，最近能报道的事件越来越少…记者的工作都要干不下去了",
+			say = "*Sigh*... If I don't get some new material, my job as a reporter will be over...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "哪里都找不到新闻的感觉真的是糟透了……",
+			say = "I wonder if something headline-worthy has happened anywhere recently...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "{namecode:55}痛苦的摇了摇头。",
+			say = "Aoba was in dire straits.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			dir = -1,
 			actor = 303031,
 			nameColor = "#a9f548",
-			say = "实在不行，只能靠我自己去搞个大新闻了！",
+			say = "...Maybe I should MAKE something happen?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯？那不是{namecode:55}酱嘛？她好像有些烦恼呢，指挥官请等我一下，我跟她说点事情。",
+			say = "Hey, is that Aoba sittin' over there? Must have somethin' on her mind... Wait here just a sec, Commander~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "{namecode:146}快步走上前，向她打了招呼。",
+			say = "Ooshio went over to greet Aoba.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:55}酱~看起来你又缺乏灵感了呀？",
+			say = "Ya havin' trouble findin' new stuff to write 'bout again?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			}
 		},
 		{
-			say = "是{namecode:146}啊，你有好点子？难不成是连我都不知道的超级爆料吗？",
+			say = "Oh, hey, Ooshio. You know anything I could use? Like something big that even I haven't heard about?",
 			side = 1,
 			bgName = "bg_story_outdoor",
 			dir = -1,
@@ -201,7 +201,7 @@ return {
 			dir = 1,
 			actor = 301641,
 			nameColor = "#a9f548",
-			say = "嘿嘿嘿，其实嘛~如此如此……这般这般",
+			say = "Hehehe♪ I reckon I do~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "{namecode:146}跟{namecode:55}说起了悄悄话",
+			say = "Ooshio whispered something into Aoba's ear.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -236,7 +236,7 @@ return {
 			dir = -1,
 			actor = 303031,
 			nameColor = "#a9f548",
-			say = "哦哦哦哦哦！原来还可以这样，{namecode:146}你真是个天才！",
+			say = "Holy crap! Y-you're giving me a scoop this big?! You might have it in you to be a reporter!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +257,7 @@ return {
 			}
 		},
 		{
-			say = "{namecode:55}酱，嘘！要保密哦！",
+			say = "Shhhh! Don't go shoutin'!",
 			side = 0,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -282,7 +282,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "哦哦哦，原来指挥官在偷听呀！了解了解！那么，之后等指挥官不在的时候求详细！哈哈哈。",
+			say = "Oh crap! The Commander's staring at us! Okay, please come back and give me some details later when the Commander's not around!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,7 +298,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			actor = 303031,
-			say = "说完，{namecode:55}便飞快的跑开了。",
+			say = "After Aoba saw me, she panicked and tried her hardest to act normal.",
 			action = {
 				{
 					y = 0,
@@ -321,7 +321,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "究竟发生了什么事？",
+			say = "What in the world was that about?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -334,7 +334,7 @@ return {
 			blackBg = true,
 			actor = 301641,
 			nameColor = "#a9f548",
-			say = "嗯？我和{namecode:55}酱说了什么？是可爱的女孩子之间的小秘密，不能告诉指挥官哦！哈哈~",
+			say = "Ya curious what we were talkin' 'bout? Hehehe♪ It's a secret between girls that I can't letcha in on~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

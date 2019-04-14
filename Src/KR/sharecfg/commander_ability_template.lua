@@ -317,7 +317,8 @@ pg.commander_ability_template = {
 				1,
 				{},
 				{
-					8
+					8,
+					17
 				},
 				3,
 				10
@@ -344,7 +345,8 @@ pg.commander_ability_template = {
 				1,
 				{},
 				{
-					8
+					8,
+					17
 				},
 				3,
 				14
@@ -371,7 +373,8 @@ pg.commander_ability_template = {
 				1,
 				{},
 				{
-					8
+					8,
+					17
 				},
 				3,
 				20
@@ -1124,7 +1127,8 @@ pg.commander_ability_template = {
 				1,
 				{},
 				{
-					8
+					8,
+					17
 				},
 				6,
 				3
@@ -1151,7 +1155,8 @@ pg.commander_ability_template = {
 				1,
 				{},
 				{
-					8
+					8,
+					17
 				},
 				6,
 				4
@@ -1178,7 +1183,8 @@ pg.commander_ability_template = {
 				1,
 				{},
 				{
-					8
+					8,
+					17
 				},
 				6,
 				6
@@ -1685,7 +1691,8 @@ pg.commander_ability_template = {
 				1,
 				{},
 				{
-					8
+					8,
+					17
 				},
 				1,
 				20
@@ -1712,7 +1719,8 @@ pg.commander_ability_template = {
 				1,
 				{},
 				{
-					8
+					8,
+					17
 				},
 				1,
 				35
@@ -1739,7 +1747,8 @@ pg.commander_ability_template = {
 				1,
 				{},
 				{
-					8
+					8,
+					17
 				},
 				1,
 				50
@@ -2246,7 +2255,8 @@ pg.commander_ability_template = {
 				1,
 				{},
 				{
-					8
+					8,
+					17
 				},
 				8,
 				2
@@ -2273,7 +2283,8 @@ pg.commander_ability_template = {
 				1,
 				{},
 				{
-					8
+					8,
+					17
 				},
 				8,
 				3
@@ -2300,7 +2311,8 @@ pg.commander_ability_template = {
 				1,
 				{},
 				{
-					8
+					8,
+					17
 				},
 				8,
 				5
@@ -2514,7 +2526,8 @@ pg.commander_ability_template = {
 				{},
 				{
 					1,
-					8
+					8,
+					17
 				},
 				9,
 				5
@@ -2546,7 +2559,8 @@ pg.commander_ability_template = {
 				{},
 				{
 					1,
-					8
+					8,
+					17
 				},
 				9,
 				7
@@ -2578,7 +2592,8 @@ pg.commander_ability_template = {
 				{},
 				{
 					1,
-					8
+					8,
+					17
 				},
 				9,
 				10
@@ -3416,7 +3431,8 @@ pg.commander_ability_template = {
 				1,
 				{},
 				{
-					8
+					8,
+					17
 				},
 				3,
 				10
@@ -3425,7 +3441,8 @@ pg.commander_ability_template = {
 				1,
 				{},
 				{
-					8
+					8,
+					17
 				},
 				6,
 				3
@@ -3456,7 +3473,8 @@ pg.commander_ability_template = {
 				1,
 				{},
 				{
-					8
+					8,
+					17
 				},
 				3,
 				14
@@ -3465,7 +3483,8 @@ pg.commander_ability_template = {
 				1,
 				{},
 				{
-					8
+					8,
+					17
 				},
 				6,
 				4
@@ -3496,7 +3515,8 @@ pg.commander_ability_template = {
 				1,
 				{},
 				{
-					8
+					8,
+					17
 				},
 				3,
 				20
@@ -3505,7 +3525,8 @@ pg.commander_ability_template = {
 				1,
 				{},
 				{
-					8
+					8,
+					17
 				},
 				6,
 				6
@@ -4990,7 +5011,8 @@ pg.commander_ability_template = {
 				1,
 				{},
 				{
-					8
+					8,
+					17
 				},
 				3,
 				15
@@ -4999,7 +5021,8 @@ pg.commander_ability_template = {
 				1,
 				{},
 				{
-					8
+					8,
+					17
 				},
 				6,
 				8

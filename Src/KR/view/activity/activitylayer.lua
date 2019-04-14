@@ -261,112 +261,126 @@ slot3 = ActivityConst
 slot3 = slot3.XIAOJIAJIA_PREVIEW_ID
 slot4 = "preview_xiaojiajia"
 slot2[slot3] = slot4
+slot3 = ActivityConst
+slot3 = slot3.SANLI_7DAYS_LOGIN
+slot4 = "7days_login_changmen"
+slot2[slot3] = slot4
+slot3 = ActivityConst
+slot3 = slot3.SNALI_MAIN
+slot4 = "sanli_main"
+slot2[slot3] = slot4
 slot3 = {}
 slot4 = ActivityConst
-slot4 = slot4.SKIN_YAMASHIRO
-slot5 = "clutter/yamashiro_bg"
+slot4 = slot4.AOERLIANG_RE_TASK_ID
+slot5 = ActivityConst
+slot5 = slot5.AOERLIANG_RE_SIGN_ID
 slot3[slot4] = slot5
-slot4 = ActivityConst
-slot4 = slot4.SKIN_BEILI
-slot5 = "clutter/skin_beili_bg"
-slot3[slot4] = slot5
-slot4 = ActivityConst
-slot4 = slot4.UTAWARERU_ACTIVITY_PT_ID
-slot5 = "clutter/utawareru_bg"
-slot3[slot4] = slot5
-slot4 = ActivityConst
-slot4 = slot4.UTAWARERU_PREVIEW_ID
-slot5 = "clutter/utawareru_preview_bg"
-slot3[slot4] = slot5
-slot4 = ActivityConst
-slot4 = slot4.UTAWARERU_TASK_LIST_ID
-slot5 = "clutter/utawareru_task_list_bg"
-slot3[slot4] = slot5
-slot4 = ActivityConst
-slot4 = slot4.SIPEI_RERE_ACTIVITY_ID
-slot5 = "clutter/activity_bg_sipei_rere"
-slot3[slot4] = slot5
-slot4 = ActivityConst
-slot4 = slot4.LONGXIANG_ACTIVITY_PT_ID
-slot5 = "clutter/activity_bg_longxinag"
-slot3[slot4] = slot5
-slot4 = ActivityConst
-slot4 = slot4.SKIN_OSHIO
-slot5 = "clutter/skin_bg_oshio"
-slot3[slot4] = slot5
-slot4 = ActivityConst
-slot4 = slot4.LOGIN_SANTA
-slot5 = "clutter/activity_bg_santa"
-slot3[slot4] = slot5
-slot4 = ActivityConst
-slot4 = slot4.AMAGI_PREVIEW_ID
-slot5 = "clutter/activity_bg_amagi_preview"
-slot3[slot4] = slot5
-slot4 = ActivityConst
-slot4 = slot4.AMAGI_ACTIVITY_PT_ID
-slot5 = "clutter/activity_bg_amagi_pt"
-slot3[slot4] = slot5
-slot4 = ActivityConst
-slot4 = slot4.OMIKUJI_LOTTERY_AWARD_ID
-slot5 = "clutter/activity_bg_omikuji"
-slot3[slot4] = slot5
-slot4 = ActivityConst
-slot4 = slot4.CHANGMEN_TASK_LIST
-slot5 = "clutter/clutter_pt"
-slot3[slot4] = slot5
-slot4 = ActivityConst
-slot4 = slot4.WINTER_RE_PREVIEW_ID
-slot5 = "clutter/activity_bg_preview_winter_re"
-slot3[slot4] = slot5
-slot4 = ActivityConst
-slot4 = slot4.NEW_YEAR_OVERVIEW
-slot5 = "clutter/newyear_bg"
-slot3[slot4] = slot5
-slot4 = ActivityConst
-slot4 = slot4.PIG_YEAR_RED_POCKET_SHIP_ID
-slot5 = "clutter/activity_bg_red_pocket_ship"
-slot3[slot4] = slot5
-slot4 = ActivityConst
-slot4 = slot4.NARVIK_PREVIEW_ID
-slot5 = "clutter/activity_bg_preview_narvik"
-slot3[slot4] = slot5
-slot4 = ActivityConst
-slot4 = slot4.HUNTER_PT_ID
-slot5 = "clutter/activity_bg_pt_page_hunter"
-slot3[slot4] = slot5
-slot4 = ActivityConst
-slot4 = slot4.HONGRAN_RE_PREVIEW_ID
-slot5 = "clutter/activity_bg_preview_hongran_re"
-slot3[slot4] = slot5
-slot4 = ActivityConst
-slot4 = slot4.HONGRAN_RE_PT_ID
-slot5 = "clutter/activity_bg_pt_page_hongran_re"
-slot3[slot4] = slot5
-slot4 = ActivityConst
-slot4 = slot4.FAXI_PREVIEW_ID
-slot5 = "clutter/activity_bg_preview_faxi"
-slot3[slot4] = slot5
-slot4 = ActivityConst
-slot4 = slot4.FAXI_PT_ID
-slot5 = "clutter/activity_bg_pt_page_faxi"
-slot3[slot4] = slot5
-slot4 = ActivityConst
-slot4 = slot4.FAXI_RES_ID
-slot5 = "clutter/activity_bg_res_page_faxi"
-slot3[slot4] = slot5
-slot4 = ActivityConst
-slot4 = slot4.MORAN_RE_PREVIEW_ID
-slot5 = "clutter/activity_bg_preview_moran_re"
-slot3[slot4] = slot5
-slot4 = ActivityConst
-slot4 = slot4.MORAN_RE_PT_ID
-slot5 = "clutter/activity_bg_pt_page_moran_re"
-slot3[slot4] = slot5
-slot4 = ActivityConst
-slot4 = slot4.XIAOJIAJIA_PREVIEW_ID
-slot5 = "clutter/activity_bg_preview_xiaojiajia"
-slot3[slot4] = slot5
-slot4 = {
+slot4 = {}
+slot5 = ActivityConst
+slot5 = slot5.SKIN_YAMASHIRO
+slot6 = "clutter/yamashiro_bg"
+slot4[slot5] = slot6
+slot5 = ActivityConst
+slot5 = slot5.SKIN_BEILI
+slot6 = "clutter/skin_beili_bg"
+slot4[slot5] = slot6
+slot5 = ActivityConst
+slot5 = slot5.UTAWARERU_ACTIVITY_PT_ID
+slot6 = "clutter/utawareru_bg"
+slot4[slot5] = slot6
+slot5 = ActivityConst
+slot5 = slot5.UTAWARERU_PREVIEW_ID
+slot6 = "clutter/utawareru_preview_bg"
+slot4[slot5] = slot6
+slot5 = ActivityConst
+slot5 = slot5.UTAWARERU_TASK_LIST_ID
+slot6 = "clutter/utawareru_task_list_bg"
+slot4[slot5] = slot6
+slot5 = ActivityConst
+slot5 = slot5.SIPEI_RERE_ACTIVITY_ID
+slot6 = "clutter/activity_bg_sipei_rere"
+slot4[slot5] = slot6
+slot5 = ActivityConst
+slot5 = slot5.LONGXIANG_ACTIVITY_PT_ID
+slot6 = "clutter/activity_bg_longxinag"
+slot4[slot5] = slot6
+slot5 = ActivityConst
+slot5 = slot5.SKIN_OSHIO
+slot6 = "clutter/skin_bg_oshio"
+slot4[slot5] = slot6
+slot5 = ActivityConst
+slot5 = slot5.LOGIN_SANTA
+slot6 = "clutter/activity_bg_santa"
+slot4[slot5] = slot6
+slot5 = ActivityConst
+slot5 = slot5.AMAGI_PREVIEW_ID
+slot6 = "clutter/activity_bg_amagi_preview"
+slot4[slot5] = slot6
+slot5 = ActivityConst
+slot5 = slot5.AMAGI_ACTIVITY_PT_ID
+slot6 = "clutter/activity_bg_amagi_pt"
+slot4[slot5] = slot6
+slot5 = ActivityConst
+slot5 = slot5.OMIKUJI_LOTTERY_AWARD_ID
+slot6 = "clutter/activity_bg_omikuji"
+slot4[slot5] = slot6
+slot5 = ActivityConst
+slot5 = slot5.CHANGMEN_TASK_LIST
+slot6 = "clutter/clutter_pt"
+slot4[slot5] = slot6
+slot5 = ActivityConst
+slot5 = slot5.WINTER_RE_PREVIEW_ID
+slot6 = "clutter/activity_bg_preview_winter_re"
+slot4[slot5] = slot6
+slot5 = ActivityConst
+slot5 = slot5.NEW_YEAR_OVERVIEW
+slot6 = "clutter/newyear_bg"
+slot4[slot5] = slot6
+slot5 = ActivityConst
+slot5 = slot5.PIG_YEAR_RED_POCKET_SHIP_ID
+slot6 = "clutter/activity_bg_red_pocket_ship"
+slot4[slot5] = slot6
+slot5 = ActivityConst
+slot5 = slot5.NARVIK_PREVIEW_ID
+slot6 = "clutter/activity_bg_preview_narvik"
+slot4[slot5] = slot6
+slot5 = ActivityConst
+slot5 = slot5.HUNTER_PT_ID
+slot6 = "clutter/activity_bg_pt_page_hunter"
+slot4[slot5] = slot6
+slot5 = ActivityConst
+slot5 = slot5.HONGRAN_RE_PREVIEW_ID
+slot6 = "clutter/activity_bg_preview_hongran_re"
+slot4[slot5] = slot6
+slot5 = ActivityConst
+slot5 = slot5.HONGRAN_RE_PT_ID
+slot6 = "clutter/activity_bg_pt_page_hongran_re"
+slot4[slot5] = slot6
+slot5 = ActivityConst
+slot5 = slot5.FAXI_PREVIEW_ID
+slot6 = "clutter/activity_bg_preview_faxi"
+slot4[slot5] = slot6
+slot5 = ActivityConst
+slot5 = slot5.FAXI_PT_ID
+slot6 = "clutter/activity_bg_pt_page_faxi"
+slot4[slot5] = slot6
+slot5 = ActivityConst
+slot5 = slot5.FAXI_RES_ID
+slot6 = "clutter/activity_bg_res_page_faxi"
+slot4[slot5] = slot6
+slot5 = ActivityConst
+slot5 = slot5.MORAN_RE_PREVIEW_ID
+slot6 = "clutter/activity_bg_preview_moran_re"
+slot4[slot5] = slot6
+slot5 = ActivityConst
+slot5 = slot5.MORAN_RE_PT_ID
+slot6 = "clutter/activity_bg_pt_page_moran_re"
+slot4[slot5] = slot6
+slot5 = ActivityConst
+slot5 = slot5.XIAOJIAJIA_PREVIEW_ID
+slot6 = "clutter/activity_bg_preview_xiaojiajia"
+slot4[slot5] = slot6
+slot5 = {
 	"changmen",
 	"xiaoyue",
 	"chunyue",
@@ -378,8 +392,8 @@ slot4 = {
 	"luao",
 	"qinming"
 }
-slot0.CHANGMEN_PAITING = slot4
-slot4 = {
+slot0.CHANGMEN_PAITING = slot5
+slot5 = {
 	"ajiakesi",
 	"chuixue",
 	"dafeng",
@@ -392,14 +406,14 @@ slot4 = {
 	"u81",
 	"nandaketa"
 }
-slot0.SHOW_DRESS_PAINTING = slot4
-slot4 = {
+slot0.SHOW_DRESS_PAINTING = slot5
+slot5 = {
 	[13983.0] = 1030006,
 	[14224.0] = 20120
 }
-slot0.checkList = slot4
+slot0.checkList = slot5
 
-function slot4(slot0, slot1)
+function slot5(slot0, slot1)
 	slot2 = getProxy
 	slot3 = ActivityProxy
 	slot2 = slot2(slot3)
@@ -463,25 +477,25 @@ function slot4(slot0, slot1)
 	end
 end
 
-slot0.preload = slot4
+slot0.preload = slot5
 
-function slot4(slot0)
+function slot5(slot0)
 	slot1 = "ActivityUI"
 
 	return slot1
 end
 
-slot0.getUIName = slot4
+slot0.getUIName = slot5
 
-function slot4(slot0)
+function slot5(slot0)
 	slot1 = MAIN_THEME
 
 	return slot1
 end
 
-slot0.getBGM = slot4
+slot0.getBGM = slot5
 
-function slot4(slot0)
+function slot5(slot0)
 	slot1 = {}
 	slot0.pages = slot1
 	slot1 = {}
@@ -588,9 +602,9 @@ function slot4(slot0)
 	slot0.onToggles = slot2
 end
 
-slot0.init = slot4
+slot0.init = slot5
 
-function slot4(slot0)
+function slot5(slot0)
 	slot1 = onButton
 	slot2 = slot0
 	slot3 = slot0.btnBack
@@ -610,9 +624,9 @@ function slot4(slot0)
 	slot1(slot2, slot3, slot4, slot5)
 end
 
-slot0.didEnter = slot4
+slot0.didEnter = slot5
 
-function slot4(slot0, slot1)
+function slot5(slot0, slot1)
 	slot0.activities = slot1 or {}
 	slot2 = table
 	slot2 = slot2.sort
@@ -641,27 +655,27 @@ function slot4(slot0, slot1)
 	slot2(slot3)
 end
 
-slot0.setActivities = slot4
+slot0.setActivities = slot5
 
-function slot4(slot0, slot1)
+function slot5(slot0, slot1)
 	slot0.allActivity = slot1
 end
 
-slot0.setAllActivity = slot4
+slot0.setAllActivity = slot5
 
-function slot4(slot0, slot1)
+function slot5(slot0, slot1)
 	slot0.player = slot1
 end
 
-slot0.setPlayer = slot4
+slot0.setPlayer = slot5
 
-function slot4(slot0, slot1)
+function slot5(slot0, slot1)
 	slot0.flagShip = slot1
 end
 
-slot0.setFlagShip = slot4
+slot0.setFlagShip = slot5
 
-function slot4(slot0, slot1)
+function slot5(slot0, slot1)
 	slot2 = slot0.allActivity
 	slot3 = slot1.id
 	slot2[slot3] = slot1
@@ -720,9 +734,9 @@ function slot4(slot0, slot1)
 	end
 end
 
-slot0.updateActivity = slot4
+slot0.updateActivity = slot5
 
-function slot4(slot0, slot1, slot2)
+function slot5(slot0, slot1, slot2)
 	slot3 = setParent
 	slot4 = slot0._tf
 	slot5 = slot0.UIMain
@@ -756,9 +770,9 @@ function slot4(slot0, slot1, slot2)
 	slot3(slot4, slot5, slot6)
 end
 
-slot0.showAwards = slot4
+slot0.showAwards = slot5
 
-function slot4(slot0, slot1)
+function slot5(slot0, slot1)
 	slot2 = _
 	slot2 = slot2.detect
 	slot3 = slot0.activities
@@ -858,9 +872,9 @@ function slot4(slot0, slot1)
 	end
 end
 
-slot0.selectActivity = slot4
+slot0.selectActivity = slot5
 
-function slot4(slot0)
+function slot5(slot0)
 	slot2 = slot0
 	slot1 = slot0.activity2Page
 	slot3 = slot0.activity
@@ -874,9 +888,9 @@ function slot4(slot0)
 	slot2(slot3)
 end
 
-slot0.flushActivity = slot4
+slot0.flushActivity = slot5
 
-function slot4(slot0, slot1)
+function slot5(slot0, slot1)
 	slot3 = slot1
 	slot2 = slot1.getConfig
 	slot4 = "type"
@@ -893,9 +907,9 @@ function slot4(slot0, slot1)
 	return slot3
 end
 
-slot0.activity2Page = slot4
+slot0.activity2Page = slot5
 
-function slot4(slot0)
+function slot5(slot0)
 	slot1 = 0
 	slot2 = slot0.tabs
 	slot2 = slot2.childCount
@@ -1075,9 +1089,9 @@ function slot4(slot0)
 	end
 end
 
-slot0.flushTabs = slot4
+slot0.flushTabs = slot5
 
-function slot4(slot0)
+function slot5(slot0)
 	slot1 = slot0.tabs
 	slot2 = slot1
 	slot1 = slot1.GetChild
@@ -1117,18 +1131,18 @@ function slot4(slot0)
 	slot4(slot5, slot6)
 end
 
-slot0.verifyTabs = slot4
+slot0.verifyTabs = slot5
 
-function slot4(slot0)
+function slot5(slot0)
 	slot1 = removeAllChildren
 	slot2 = slot0.tabs
 
 	slot1(slot2)
 end
 
-slot0.clearTabs = slot4
+slot0.clearTabs = slot5
 
-function slot4(slot0)
+function slot5(slot0)
 	slot1 = slot0.activity
 	slot2 = slot0.pages
 	slot4 = slot0
@@ -1279,9 +1293,9 @@ function slot4(slot0)
 	end
 end
 
-slot0.flush_7days_login = slot4
+slot0.flush_7days_login = slot5
 
-function slot4(slot0)
+function slot5(slot0)
 	slot1 = slot0.pages
 	slot2 = slot0
 	slot3 = ActivityConst
@@ -1312,9 +1326,115 @@ function slot4(slot0)
 	end
 end
 
-slot0.clear_7days_login = slot4
+slot0.clear_7days_login = slot5
 
-function slot4(slot0)
+function slot5(slot0)
+	slot1 = slot0.activity
+	slot2 = slot0.pages
+	slot4 = slot0
+	slot3 = slot0.activity2Page
+	slot5 = slot1
+	slot3 = slot3(slot4, slot5)
+	slot2 = slot2[slot3]
+	slot3 = slot0.pagesInit
+	slot4 = slot2.name
+	slot3 = slot3[slot4]
+
+	if not slot3 then
+		slot3 = {}
+		slot5 = slot0
+		slot4 = slot0.findTF
+		slot6 = "AD"
+		slot7 = slot2
+		slot4 = slot4(slot5, slot6, slot7)
+		slot3.bg = slot4
+		slot4 = onButton
+		slot5 = slot0
+		slot7 = slot0
+		slot6 = slot0.findTF
+		slot8 = "build"
+		slot9 = slot2
+		slot6 = slot6(slot7, slot8, slot9)
+
+		function slot7()
+			slot0 = slot0
+			slot1 = slot0
+			slot0 = slot0.emit
+			slot2 = ActivityMediator
+			slot2 = slot2.EVENT_GO_SCENE
+			slot3 = SCENE
+			slot3 = slot3.GETBOAT
+			slot4 = {
+				projectName = "heavy"
+			}
+
+			slot0(slot1, slot2, slot3, slot4)
+		end
+
+		slot8 = SFX_PANEL
+
+		slot4(slot5, slot6, slot7, slot8)
+
+		slot4 = onButton
+		slot5 = slot0
+		slot7 = slot0
+		slot6 = slot0.findTF
+		slot8 = "task"
+		slot9 = slot2
+		slot6 = slot6(slot7, slot8, slot9)
+
+		function slot7()
+			slot0 = slot0
+			slot1 = slot0
+			slot0 = slot0.emit
+			slot2 = ActivityMediator
+			slot2 = slot2.EVENT_GO_SCENE
+			slot3 = SCENE
+			slot3 = slot3.NAVALACADEMYSCENE
+
+			slot0(slot1, slot2, slot3)
+		end
+
+		slot8 = SFX_PANEL
+
+		slot4(slot5, slot6, slot7, slot8)
+
+		slot4 = LoadImageSpriteAsync
+		slot5 = "clutter/sanli_main_bg"
+		slot6 = slot3.bg
+
+		slot4(slot5, slot6)
+
+		slot4 = slot0.pagesInit
+		slot5 = slot2.name
+		slot4[slot5] = slot3
+	end
+end
+
+slot0.flush_sanli_main = slot5
+
+function slot5(slot0)
+	slot1 = slot0.pages
+	slot2 = slot0
+	slot3 = ActivityConst
+	slot3 = slot3.ACTIVITY_TYPE_7DAYSLOGIN
+	slot2 = slot2[slot3]
+	slot1 = slot1[slot2]
+	slot2 = slot0.pagesInit
+	slot3 = slot1.name
+	slot2 = slot2[slot3]
+
+	if slot2 then
+		slot3 = clearImageSprite
+		slot4 = slot2.bg
+
+		slot3(slot4)
+	end
+end
+
+slot0.clear_sanli_main = slot5
+
+function slot5(slot0)
 	slot1 = slot0.activity
 	slot2 = slot0.pages
 	slot4 = slot0
@@ -1328,114 +1448,136 @@ function slot4(slot0)
 
 	slot3(slot4, slot5)
 
-	slot3 = slot0.pagesInit
-	slot4 = slot2.name
+	slot3 = pg
+	slot3 = slot3.activity_7_day_sign
+	slot5 = slot1
+	slot4 = slot1.getConfig
+	slot6 = "config_id"
+	slot4 = slot4(slot5, slot6)
 	slot3 = slot3[slot4]
+	slot4 = slot0.pagesInit
+	slot5 = slot2.name
+	slot4 = slot4[slot5]
 
-	if not slot3 then
-		slot3 = {}
-		slot5 = slot0
-		slot4 = slot0.findTF
-		slot6 = "AD"
-		slot7 = slot2
-		slot4 = slot4(slot5, slot6, slot7)
-		slot3.bg = slot4
-		slot5 = slot0
-		slot4 = slot0.findTF
-		slot6 = "items"
-		slot7 = slot2
-		slot4 = slot4(slot5, slot6, slot7)
-		slot3.items = slot4
-		slot5 = slot0
-		slot4 = slot0.findTF
-		slot6 = "days/labelSignedDay"
-		slot7 = slot2
-		slot4 = slot4(slot5, slot6, slot7)
-		slot3.labelDay = slot4
-		slot4 = LoadImageSpriteAsync
-		slot5 = "clutter/changmen_8days"
-		slot6 = slot3.bg
-
-		slot4(slot5, slot6)
-
-		slot4 = pg
-		slot4 = slot4.activity_7_day_sign
+	if not slot4 then
+		slot4 = {}
+		slot6 = slot0
+		slot5 = slot0.findTF
+		slot7 = "AD"
+		slot8 = slot2
+		slot5 = slot5(slot6, slot7, slot8)
+		slot4.bg = slot5
+		slot6 = slot0
+		slot5 = slot0.findTF
+		slot7 = "items"
+		slot8 = slot2
+		slot5 = slot5(slot6, slot7, slot8)
+		slot4.items = slot5
 		slot6 = slot1
 		slot5 = slot1.getConfig
-		slot7 = "config_id"
+		slot7 = "bg"
 		slot5 = slot5(slot6, slot7)
-		slot4 = slot4[slot5]
-		slot5 = 1
-		slot6 = slot3.items
-		slot6 = slot6.childCount
-		slot7 = 1
+		slot6 = LoadImageSpriteAsync
+		slot7 = slot5
+		slot8 = slot4.bg
 
-		for slot8 = slot5, slot6, slot7 do
-			slot9 = slot3.items
-			slot10 = slot9
-			slot9 = slot9.Find
-			slot11 = "item"
-			slot12 = slot8
-			slot11 = slot11 .. slot12
-			slot9 = slot9(slot10, slot11)
-			slot10 = slot4.front_drops
-			slot10 = slot10[slot8]
-			slot11 = {}
-			slot12 = slot10[1]
-			slot11.type = slot12
-			slot12 = slot10[2]
-			slot11.id = slot12
-			slot12 = slot10[3]
-			slot11.count = slot12
-			slot12 = onButton
-			slot13 = slot0
-			slot14 = slot9
+		slot6(slot7, slot8)
 
-			function slot15()
-				slot0 = slot0
-				slot1 = slot0
-				slot0 = slot0.emit
-				slot2 = slot1
-				slot2 = slot2.ON_DROP
-				slot3 = slot2
+		slot6 = UIItemList
+		slot6 = slot6.New
+		slot7 = slot4.items
+		slot8 = slot4.items
+		slot9 = slot8
+		slot8 = slot8.Find
+		slot10 = "item"
+		slot6 = slot6(slot7, slot8(slot9, slot10))
+		slot4.uilist = slot6
+		slot6 = slot4.uilist
+		slot7 = slot6
+		slot6 = slot6.make
 
-				slot0(slot1, slot2, slot3)
+		function slot8(slot0, slot1, slot2)
+			slot3 = UIItemList
+			slot3 = slot3.EventUpdate
+
+			if slot0 == slot3 then
+				slot3 = slot1 + 1
+				slot4 = slot0
+				slot4 = slot4.front_drops
+				slot4 = slot4[slot3]
+				slot5 = {}
+				slot6 = slot4[1]
+				slot5.type = slot6
+				slot6 = slot4[2]
+				slot5.id = slot6
+				slot6 = slot4[3]
+				slot5.count = slot6
+				slot6 = onButton
+				slot7 = slot1
+				slot8 = slot2
+
+				function slot9()
+					slot0 = slot0
+					slot1 = slot0
+					slot0 = slot0.emit
+					slot2 = slot1
+					slot2 = slot2.ON_DROP
+					slot3 = slot2
+
+					slot0(slot1, slot2, slot3)
+				end
+
+				slot10 = SFX_PANEL
+
+				slot6(slot7, slot8, slot9, slot10)
+
+				slot6 = updateDrop
+				slot7 = slot2
+				slot8 = slot5
+
+				slot6(slot7, slot8)
 			end
-
-			slot16 = SFX_PANEL
-
-			slot12(slot13, slot14, slot15, slot16)
 		end
 
-		slot5 = slot0.pagesInit
-		slot6 = slot2.name
-		slot5[slot6] = slot3
-		slot5 = slot0.pageId
-		slot6 = slot2.name
-		slot7 = slot1.id
-		slot5[slot6] = slot7
+		slot6(slot7, slot8)
+
+		slot6 = slot4.uilist
+		slot7 = slot6
+		slot6 = slot6.align
+		slot8 = slot3.front_drops
+		slot8 = #slot8
+
+		slot6(slot7, slot8)
+
+		slot6 = slot0.pagesInit
+		slot7 = slot2.name
+		slot6[slot7] = slot4
+		slot6 = slot0.pageId
+		slot7 = slot2.name
+		slot8 = slot1.id
+		slot6[slot7] = slot8
 	end
 
-	setText(slot3.labelDay, string.format("%d", slot1.data1 or 0))
+	slot5 = slot4.uilist
+	slot6 = slot5
+	slot5 = slot5.each
 
-	slot4 = 1
-	slot5 = 7
-	slot6 = 1
-
-	for slot7 = slot4, slot5, slot6 do
-		setActive(slot0:findTF("mask", slot3.items:GetChild(slot7 - 1)), slot7 <= slot1.data1)
+	function slot7(slot0, slot1)
+		setActive(slot1:findTF("mask", slot1), slot0 + 1 <= slot0.data1)
 	end
+
+	slot5(slot6, slot7)
 end
 
-slot0.flush_7days_login_changmen = slot4
+slot0.flush_7days_login_changmen = slot5
 
-function slot4(slot0)
+function slot5(slot0)
 	return
 end
 
-slot0.clear_7days_login_changmen = slot4
+slot0.clear_7days_login_changmen = slot5
 
-function slot4(slot0)
+function slot5(slot0)
 	slot1 = slot0.activity
 	slot2 = slot0.pages
 	slot3 = slot0
@@ -1612,9 +1754,9 @@ function slot4(slot0)
 	end
 end
 
-slot0.flush_level_award = slot4
+slot0.flush_level_award = slot5
 
-function slot4(slot0)
+function slot5(slot0)
 	slot1 = slot0.pages
 	slot2 = slot0
 	slot3 = ActivityConst
@@ -1640,9 +1782,9 @@ function slot4(slot0)
 	end
 end
 
-slot0.clear_level_award = slot4
+slot0.clear_level_award = slot5
 
-function slot4(slot0)
+function slot5(slot0)
 	slot1 = slot0.activity
 	slot2 = slot0.pages
 	slot3 = slot0
@@ -1921,9 +2063,9 @@ function slot4(slot0)
 	end
 end
 
-slot0.flush_level_plan = slot4
+slot0.flush_level_plan = slot5
 
-function slot4(slot0)
+function slot5(slot0)
 	slot1 = slot0.pages
 	slot2 = slot0
 	slot3 = ActivityConst
@@ -1959,9 +2101,9 @@ function slot4(slot0)
 	end
 end
 
-slot0.clear_level_plan = slot4
+slot0.clear_level_plan = slot5
 
-function slot4(slot0)
+function slot5(slot0)
 	slot1 = slot0.activity
 	slot2 = slot0.pages
 	slot3 = slot0
@@ -2068,9 +2210,9 @@ function slot4(slot0)
 	slot7(slot8, slot9)
 end
 
-slot0.flush_month_sign = slot4
+slot0.flush_month_sign = slot5
 
-function slot4(slot0)
+function slot5(slot0)
 	slot1 = slot0.pages
 	slot2 = slot0
 	slot3 = ActivityConst
@@ -2096,9 +2238,9 @@ function slot4(slot0)
 	end
 end
 
-slot0.clear_month_sign = slot4
+slot0.clear_month_sign = slot5
 
-function slot4(slot0)
+function slot5(slot0)
 	slot1 = slot0.activity
 	slot2 = slot0.pages
 	slot3 = slot0
@@ -2171,9 +2313,9 @@ function slot4(slot0)
 	setActive(slot3.achieved, (slot1.achieved and true) or false)
 end
 
-slot0.flush_progress_days_login = slot4
+slot0.flush_progress_days_login = slot5
 
-function slot4(slot0)
+function slot5(slot0)
 	slot1 = slot0.pages
 	slot2 = slot0
 	slot3 = ActivityConst
@@ -2192,9 +2334,9 @@ function slot4(slot0)
 	end
 end
 
-slot0.clear_progress_days_login = slot4
+slot0.clear_progress_days_login = slot5
 
-function slot4(slot0)
+function slot5(slot0)
 	slot1 = slot0.activity
 	slot2 = slot0.pages
 	slot3 = slot0
@@ -2402,9 +2544,9 @@ function slot4(slot0)
 	end
 end
 
-slot0.flush_charge_award = slot4
+slot0.flush_charge_award = slot5
 
-function slot4(slot0)
+function slot5(slot0)
 	slot1 = slot0.pages
 	slot2 = slot0
 	slot3 = ActivityConst
@@ -2435,9 +2577,9 @@ function slot4(slot0)
 	end
 end
 
-slot0.clear_charge_award = slot4
+slot0.clear_charge_award = slot5
 
-function slot4(slot0, slot1)
+function slot5(slot0, slot1)
 	slot2 = slot0.activity
 	slot3 = slot2.id
 	slot4 = ActivityConst
@@ -2755,9 +2897,9 @@ function slot4(slot0, slot1)
 	end
 end
 
-slot0.flush_z_project = slot4
+slot0.flush_z_project = slot5
 
-function slot4(slot0)
+function slot5(slot0)
 	slot1 = slot0.pages
 	slot2 = slot0
 	slot3 = ActivityConst
@@ -2776,9 +2918,9 @@ function slot4(slot0)
 	end
 end
 
-slot0.clear_z_project = slot4
+slot0.clear_z_project = slot5
 
-function slot4(slot0, slot1)
+function slot5(slot0, slot1)
 	slot2 = slot0.pages
 	slot3 = slot0
 	slot5 = slot1
@@ -3255,9 +3397,9 @@ function slot4(slot0, slot1)
 	end
 end
 
-slot0.updateChangmen = slot4
+slot0.updateChangmen = slot5
 
-function slot4(slot0, slot1, slot2, slot3)
+function slot5(slot0, slot1, slot2, slot3)
 	slot4 = slot0
 	slot4 = slot4.SHOW_DRESS_PAINTING
 	slot4 = slot4[slot2]
@@ -3273,9 +3415,9 @@ function slot4(slot0, slot1, slot2, slot3)
 	slot5(slot6, slot7, slot8)
 end
 
-slot0.setPaintingImage = slot4
+slot0.setPaintingImage = slot5
 
-function slot4(slot0)
+function slot5(slot0)
 	slot1 = slot0.activity
 	slot2 = slot0.pages
 	slot3 = slot0
@@ -3640,9 +3782,9 @@ function slot4(slot0)
 	end
 end
 
-slot0.flush_show_dress = slot4
+slot0.flush_show_dress = slot5
 
-function slot4(slot0)
+function slot5(slot0)
 	slot1 = slot0.pages
 	slot2 = slot0
 	slot3 = ActivityConst
@@ -3682,9 +3824,9 @@ function slot4(slot0)
 	end
 end
 
-slot0.clear_show_dress = slot4
+slot0.clear_show_dress = slot5
 
-function slot4(slot0)
+function slot5(slot0)
 	slot1 = slot0.activity
 	slot2 = slot0.pages
 	slot3 = slot0
@@ -3806,9 +3948,9 @@ function slot4(slot0)
 	end
 end
 
-slot0.flush_exchange_shop = slot4
+slot0.flush_exchange_shop = slot5
 
-function slot4(slot0)
+function slot5(slot0)
 	slot1 = slot0.pages
 	slot2 = slot0
 	slot3 = ActivityConst
@@ -3827,9 +3969,9 @@ function slot4(slot0)
 	end
 end
 
-slot0.clear_exchange_shop = slot4
+slot0.clear_exchange_shop = slot5
 
-function slot4(slot0)
+function slot5(slot0)
 	slot1 = 15
 	slot2 = slot0.activity
 	slot3 = slot0.pages
@@ -3947,9 +4089,9 @@ function slot4(slot0)
 	end
 end
 
-slot0.flush_puzzla = slot4
+slot0.flush_puzzla = slot5
 
-function slot4(slot0)
+function slot5(slot0)
 	slot1 = slot0.pages
 	slot2 = slot0
 	slot3 = ActivityConst
@@ -3978,9 +4120,10 @@ function slot4(slot0)
 	end
 end
 
-slot0.clear_puzzla = slot4
+slot0.clear_puzzla = slot5
+slot5 = "flush_daily_task"
 
-function slot4(slot0)
+function slot6(slot0)
 	slot1 = slot0.activity
 	slot2 = slot0.pages
 	slot3 = slot0
@@ -4106,9 +4249,10 @@ function slot4(slot0)
 	end
 end
 
-slot0.flush_daily_task = slot4
+slot0[slot5] = slot6
+slot5 = "updatePtBonusList"
 
-function slot4(slot0, slot1, slot2, slot3, slot4)
+function slot6(slot0, slot1, slot2, slot3, slot4)
 	slot5 = slot0.pages
 	slot7 = slot0
 	slot6 = slot0.activity2Page
@@ -4327,9 +4471,10 @@ function slot4(slot0, slot1, slot2, slot3, slot4)
 	slot11(slot12, slot13)
 end
 
-slot0.updatePtBonusList = slot4
+slot0[slot5] = slot6
+slot5 = "flush_task_list_pt"
 
-function slot4(slot0)
+function slot6(slot0)
 	slot1 = slot0.activity
 	slot2 = slot0.pages
 	slot4 = slot0
@@ -4642,9 +4787,10 @@ function slot4(slot0)
 	end
 end
 
-slot0.flush_task_list_pt = slot4
+slot0[slot5] = slot6
+slot5 = "flush_task_list"
 
-function slot4(slot0)
+function slot6(slot0)
 	slot3 = slot0.pagesInit[slot0.pages[slot0[slot0.activity.getConfig(slot1, "type")]].name]
 	slot4 = slot0.pageId[slot0.pages[slot0[slot0.activity.getConfig(slot1, "type")]].name] or 0
 	slot5 = slot0.activity.id
@@ -5024,10 +5170,10 @@ function slot4(slot0)
 	end
 end
 
-slot0.flush_task_list = slot4
-slot4 = "clear_task_list"
+slot0[slot5] = slot6
+slot5 = "clear_task_list"
 
-function slot5(slot0)
+function slot6(slot0)
 	slot1 = slot0.pages
 	slot2 = slot0
 	slot3 = ActivityConst
@@ -5059,10 +5205,10 @@ function slot5(slot0)
 	end
 end
 
-slot0[slot4] = slot5
-slot4 = "flush_task_list_glory"
+slot0[slot5] = slot6
+slot5 = "flush_task_list_glory"
 
-function slot5(slot0)
+function slot6(slot0)
 	slot1 = slot0.activity
 	slot2 = slot0.pages
 	slot3 = slot0
@@ -5390,10 +5536,10 @@ function slot5(slot0)
 	slot13(slot14, slot15, slot16)
 end
 
-slot0[slot4] = slot5
-slot4 = "clear_task_list_glory"
+slot0[slot5] = slot6
+slot5 = "clear_task_list_glory"
 
-function slot5(slot0)
+function slot6(slot0)
 	slot1 = slot0.pages
 	slot2 = slot0
 	slot3 = ActivityConst
@@ -5412,10 +5558,10 @@ function slot5(slot0)
 	end
 end
 
-slot0[slot4] = slot5
-slot4 = "updateTaskLayers"
+slot0[slot5] = slot6
+slot5 = "updateTaskLayers"
 
-function slot5(slot0)
+function slot6(slot0)
 	slot1 = slot0.activity
 	slot3 = slot0
 	slot2 = slot0.activity2Page
@@ -5435,10 +5581,10 @@ function slot5(slot0)
 	slot3(slot4)
 end
 
-slot0[slot4] = slot5
-slot4 = "flush_bb"
+slot0[slot5] = slot6
+slot5 = "flush_bb"
 
-function slot5(slot0)
+function slot6(slot0)
 	slot1 = slot0.activity
 	slot2 = slot0.pages
 	slot3 = slot0
@@ -5847,10 +5993,10 @@ function slot5(slot0)
 	setText(slot3.nums, string.format("<color=#%s>%s</color> / %s", (slot1.data2 == 0 and "A9F548") or "FFFFFF", 1 - slot1.data2, 1))
 end
 
-slot0[slot4] = slot5
-slot4 = "clear_bb"
+slot0[slot5] = slot6
+slot5 = "clear_bb"
 
-function slot5(slot0)
+function slot6(slot0)
 	slot1 = slot0.pages
 	slot2 = slot0
 	slot3 = ActivityConst
@@ -5876,10 +6022,10 @@ function slot5(slot0)
 	end
 end
 
-slot0[slot4] = slot5
-slot4 = "flush_hit_monster_nian"
+slot0[slot5] = slot6
+slot5 = "flush_hit_monster_nian"
 
-function slot5(slot0)
+function slot6(slot0)
 	slot2 = slot0
 	slot1 = slot0.emit
 	slot3 = ActivityMediator
@@ -5888,10 +6034,10 @@ function slot5(slot0)
 	slot1(slot2, slot3)
 end
 
-slot0[slot4] = slot5
-slot4 = "close_hit_monster_nian"
+slot0[slot5] = slot6
+slot5 = "close_hit_monster_nian"
 
-function slot5(slot0)
+function slot6(slot0)
 	slot2 = slot0
 	slot1 = slot0.emit
 	slot3 = ActivityMediator
@@ -5900,17 +6046,17 @@ function slot5(slot0)
 	slot1(slot2, slot3)
 end
 
-slot0[slot4] = slot5
-slot4 = "clear_hit_monster_nian"
+slot0[slot5] = slot6
+slot5 = "clear_hit_monster_nian"
 
-function slot5(slot0)
+function slot6(slot0)
 	return
 end
 
-slot0[slot4] = slot5
-slot4 = "flush_coloring"
+slot0[slot5] = slot6
+slot5 = "flush_coloring"
 
-function slot5(slot0)
+function slot6(slot0)
 	slot1 = slot0.activity
 	slot2 = slot0.pages
 	slot3 = slot0
@@ -6231,10 +6377,10 @@ function slot5(slot0)
 	slot4()
 end
 
-slot0[slot4] = slot5
-slot4 = "clear_coloring"
+slot0[slot5] = slot6
+slot5 = "clear_coloring"
 
-function slot5(slot0)
+function slot6(slot0)
 	slot1 = slot0.pages
 	slot2 = slot0
 	slot3 = ActivityConst
@@ -6253,10 +6399,10 @@ function slot5(slot0)
 	end
 end
 
-slot0[slot4] = slot5
-slot4 = "playBonusAnim"
+slot0[slot5] = slot6
+slot5 = "playBonusAnim"
 
-function slot5(slot0, slot1)
+function slot6(slot0, slot1)
 	slot3 = slot0
 	slot2 = slot0.findTF
 	slot4 = "bonus_anim"
@@ -6303,10 +6449,10 @@ function slot5(slot0, slot1)
 	slot4(slot5, slot6)
 end
 
-slot0[slot4] = slot5
-slot4 = "displayBBAnim"
+slot0[slot5] = slot6
+slot5 = "displayBBAnim"
 
-function slot5(slot0, slot1)
+function slot6(slot0, slot1)
 	slot2 = PLATFORM_CODE
 	slot3 = PLATFORM_CH
 
@@ -6419,10 +6565,10 @@ function slot5(slot0, slot1)
 	slot6(slot7, slot8)
 end
 
-slot0[slot4] = slot5
-slot4 = "displayBBResult"
+slot0[slot5] = slot6
+slot5 = "displayBBResult"
 
-function slot5(slot0, slot1, slot2)
+function slot6(slot0, slot1, slot2)
 	slot3 = PLATFORM_CODE
 	slot4 = PLATFORM_CH
 
@@ -6655,10 +6801,10 @@ function slot5(slot0, slot1, slot2)
 	slot11(slot12, slot13, slot14)
 end
 
-slot0[slot4] = slot5
-slot4 = "flush_answer"
+slot0[slot5] = slot6
+slot5 = "flush_answer"
 
-function slot5(slot0)
+function slot6(slot0)
 	slot1 = slot0.activity
 	slot2 = slot0.pages
 	slot3 = slot0
@@ -6769,10 +6915,10 @@ function slot5(slot0)
 	setText(slot3.totalScore, slot4:getAverage() or "--")
 end
 
-slot0[slot4] = slot5
-slot4 = "clear_answer"
+slot0[slot5] = slot6
+slot5 = "clear_answer"
 
-function slot5(slot0)
+function slot6(slot0)
 	slot1 = slot0.pages
 	slot2 = slot0
 	slot3 = ActivityConst
@@ -6791,10 +6937,10 @@ function slot5(slot0)
 	end
 end
 
-slot0[slot4] = slot5
-slot4 = "flush_card_pairs"
+slot0[slot5] = slot6
+slot5 = "flush_card_pairs"
 
-function slot5(slot0)
+function slot6(slot0)
 	slot1 = slot0.activity
 	slot2 = slot1
 	slot1 = slot1.getConfig
@@ -6955,10 +7101,10 @@ function slot5(slot0)
 	end
 end
 
-slot0[slot4] = slot5
-slot4 = "clear_card_pairs"
+slot0[slot5] = slot6
+slot5 = "clear_card_pairs"
 
-function slot5(slot0)
+function slot6(slot0)
 	slot1 = slot0.pages
 	slot2 = slot0
 	slot3 = ActivityConst
@@ -6977,10 +7123,10 @@ function slot5(slot0)
 	end
 end
 
-slot0[slot4] = slot5
-slot4 = "flush_boss_battle"
+slot0[slot5] = slot6
+slot5 = "flush_boss_battle"
 
-function slot5(slot0)
+function slot6(slot0)
 	slot1 = slot0.activity
 	slot2 = slot0.pages
 	slot3 = slot0
@@ -7070,17 +7216,17 @@ function slot5(slot0)
 	end
 end
 
-slot0[slot4] = slot5
-slot4 = "clear_boss_battle"
+slot0[slot5] = slot6
+slot5 = "clear_boss_battle"
 
-function slot5(slot0)
+function slot6(slot0)
 	return
 end
 
-slot0[slot4] = slot5
-slot4 = "flush_task_list_pt_bili"
+slot0[slot5] = slot6
+slot5 = "flush_task_list_pt_bili"
 
-function slot5(slot0)
+function slot6(slot0)
 	slot1 = slot0.activity
 	slot2 = slot0.pages
 	slot4 = slot0
@@ -7206,17 +7352,17 @@ function slot5(slot0)
 	end
 end
 
-slot0[slot4] = slot5
-slot4 = "clear_task_list_pt_bili"
+slot0[slot5] = slot6
+slot5 = "clear_task_list_pt_bili"
 
-function slot5(slot0)
+function slot6(slot0)
 	return
 end
 
-slot0[slot4] = slot5
-slot4 = "flush_anniversary"
+slot0[slot5] = slot6
+slot5 = "flush_anniversary"
 
-function slot5(slot0)
+function slot6(slot0)
 	slot1 = slot0.activity
 	slot2 = slot0.pages
 	slot3 = slot0
@@ -7294,17 +7440,17 @@ function slot5(slot0)
 	end
 end
 
-slot0[slot4] = slot5
-slot4 = "clear_anniversary"
+slot0[slot5] = slot6
+slot5 = "clear_anniversary"
 
-function slot5(slot0)
+function slot6(slot0)
 	return
 end
 
-slot0[slot4] = slot5
-slot4 = "flush_task_list_res"
+slot0[slot5] = slot6
+slot5 = "flush_task_list_res"
 
-function slot5(slot0)
+function slot6(slot0)
 	slot1 = updateActivityTaskStatus
 	slot2 = slot0.activity
 	slot1 = slot1(slot2)
@@ -7327,10 +7473,10 @@ function slot5(slot0)
 	end
 end
 
-slot0[slot4] = slot5
-slot4 = "update_task_list_res_layer"
+slot0[slot5] = slot6
+slot5 = "update_task_list_res_layer"
 
-function slot5(slot0, slot1, slot2, slot3)
+function slot6(slot0, slot1, slot2, slot3)
 	slot4 = slot0.activity
 	slot5 = slot0.pages
 	slot7 = slot0
@@ -7653,10 +7799,10 @@ function slot5(slot0, slot1, slot2, slot3)
 	end
 end
 
-slot0[slot4] = slot5
-slot4 = "clear_task_list_res"
+slot0[slot5] = slot6
+slot5 = "clear_task_list_res"
 
-function slot5(slot0)
+function slot6(slot0)
 	slot1 = slot0.pages
 	slot2 = slot0
 	slot3 = ActivityConst
@@ -7692,10 +7838,10 @@ function slot5(slot0)
 	end
 end
 
-slot0[slot4] = slot5
-slot4 = "flush_task_list_mikasa_museum"
+slot0[slot5] = slot6
+slot5 = "flush_task_list_mikasa_museum"
 
-function slot5(slot0)
+function slot6(slot0)
 	slot1 = slot0.activity
 	slot2 = slot0.pages
 	slot4 = slot0
@@ -7711,7 +7857,7 @@ function slot5(slot0)
 		slot3 = {}
 		slot5 = slot0
 		slot4 = slot0.findTF
-		slot6 = "BG"
+		slot6 = "layer/AD"
 		slot7 = slot2
 		slot4 = slot4(slot5, slot6, slot7)
 		slot3.bg = slot4
@@ -7797,10 +7943,10 @@ function slot5(slot0)
 	end
 end
 
-slot0[slot4] = slot5
-slot4 = "update_task_list_mikasa_museum"
+slot0[slot5] = slot6
+slot5 = "update_task_list_mikasa_museum"
 
-function slot5(slot0, slot1, slot2, slot3)
+function slot6(slot0, slot1, slot2, slot3)
 	slot4 = getProxy
 	slot5 = TaskProxy
 	slot4 = slot4(slot5)
@@ -8411,10 +8557,10 @@ function slot5(slot0, slot1, slot2, slot3)
 	slot17(slot18, slot19)
 end
 
-slot0[slot4] = slot5
-slot4 = "set_mikasa_btn"
+slot0[slot5] = slot6
+slot5 = "set_mikasa_btn"
 
-function slot5(slot0, slot1, slot2, slot3, slot4, slot5)
+function slot6(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot6 = getProxy
 	slot7 = TaskProxy
 	slot6 = slot6(slot7)
@@ -8626,10 +8772,10 @@ function slot5(slot0, slot1, slot2, slot3, slot4, slot5)
 	end
 end
 
-slot0[slot4] = slot5
-slot4 = "clear_task_list_mikasa_museum"
+slot0[slot5] = slot6
+slot5 = "clear_task_list_mikasa_museum"
 
-function slot5(slot0)
+function slot6(slot0)
 	slot1 = slot0.pages
 	slot2 = slot0
 	slot3 = ActivityConst
@@ -8648,10 +8794,10 @@ function slot5(slot0)
 	end
 end
 
-slot0[slot4] = slot5
-slot4 = "setImportantProgress"
+slot0[slot5] = slot6
+slot5 = "setImportantProgress"
 
-function slot5(slot0, slot1, slot2, slot3, slot4, slot5)
+function slot6(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot7 = slot2
 	slot6 = slot2.Find
 	slot8 = "award_display"
@@ -8743,10 +8889,10 @@ function slot5(slot0, slot1, slot2, slot3, slot4, slot5)
 	end
 end
 
-slot0[slot4] = slot5
-slot4 = "flush_task_list_pt_xiaobeifa"
+slot0[slot5] = slot6
+slot5 = "flush_task_list_pt_xiaobeifa"
 
-function slot5(slot0)
+function slot6(slot0)
 	slot2 = slot0
 	slot1 = slot0.flush_task_list_pt
 
@@ -8773,10 +8919,10 @@ function slot5(slot0)
 	end
 end
 
-slot0[slot4] = slot5
-slot4 = "clear_task_list_pt_xiaobeifa"
+slot0[slot5] = slot6
+slot5 = "clear_task_list_pt_xiaobeifa"
 
-function slot5(slot0)
+function slot6(slot0)
 	slot1 = slot0.pages
 	slot2 = slot0
 	slot3 = ActivityConst
@@ -8795,20 +8941,20 @@ function slot5(slot0)
 	end
 end
 
-slot0[slot4] = slot5
-slot4 = "flush_task_list_res_gold"
+slot0[slot5] = slot6
+slot5 = "flush_task_list_res_gold"
 
-function slot5(slot0)
+function slot6(slot0)
 	slot2 = slot0
 	slot1 = slot0.flush_task_list_res
 
 	slot1(slot2)
 end
 
-slot0[slot4] = slot5
-slot4 = "clear_task_list_res_gold"
+slot0[slot5] = slot6
+slot5 = "clear_task_list_res_gold"
 
-function slot5(slot0)
+function slot6(slot0)
 	slot1 = slot0.pages
 	slot2 = slot0
 	slot3 = ActivityConst
@@ -8827,20 +8973,20 @@ function slot5(slot0)
 	end
 end
 
-slot0[slot4] = slot5
-slot4 = "flush_link_login"
+slot0[slot5] = slot6
+slot5 = "flush_link_login"
 
-function slot5(slot0)
+function slot6(slot0)
 	slot2 = slot0
 	slot1 = slot0.flush_7days_login
 
 	slot1(slot2)
 end
 
-slot0[slot4] = slot5
-slot4 = "clear_link_login"
+slot0[slot5] = slot6
+slot5 = "clear_link_login"
 
-function slot5(slot0)
+function slot6(slot0)
 	slot1 = slot0.pages
 	slot2 = slot0
 	slot3 = ActivityConst
@@ -8871,10 +9017,10 @@ function slot5(slot0)
 	end
 end
 
-slot0[slot4] = slot5
-slot4 = "flush_login_year"
+slot0[slot5] = slot6
+slot5 = "flush_login_year"
 
-function slot5(slot0)
+function slot6(slot0)
 	slot1 = slot0.activity
 	slot2 = slot0.pages
 	slot4 = slot0
@@ -9064,10 +9210,10 @@ function slot5(slot0)
 	slot5(slot6, slot7, slot8)
 end
 
-slot0[slot4] = slot5
-slot4 = "clear_login_year"
+slot0[slot5] = slot6
+slot5 = "clear_login_year"
 
-function slot5(slot0)
+function slot6(slot0)
 	slot1 = slot0.pages
 	slot2 = slot0
 	slot3 = ActivityConst
@@ -9098,10 +9244,10 @@ function slot5(slot0)
 	end
 end
 
-slot0[slot4] = slot5
-slot4 = "flush_task_list_skin"
+slot0[slot5] = slot6
+slot5 = "flush_task_list_skin"
 
-function slot5(slot0)
+function slot6(slot0)
 	slot1 = updateActivityTaskStatus
 	slot2 = slot0.activity
 	slot1 = slot1(slot2)
@@ -9118,10 +9264,10 @@ function slot5(slot0)
 	slot2(slot3, slot4)
 end
 
-slot0[slot4] = slot5
-slot4 = "update_task_list_skin"
+slot0[slot5] = slot6
+slot5 = "update_task_list_skin"
 
-function slot5(slot0, slot1)
+function slot6(slot0, slot1)
 	slot2 = slot0.activity
 	slot3 = slot0.pages
 	slot5 = slot0
@@ -9459,10 +9605,10 @@ function slot5(slot0, slot1)
 	end
 end
 
-slot0[slot4] = slot5
-slot4 = "clear_task_list_skin"
+slot0[slot5] = slot6
+slot5 = "clear_task_list_skin"
 
-function slot5(slot0, slot1)
+function slot6(slot0, slot1)
 	slot2 = IsNil
 	slot3 = slot1
 	slot2 = slot2(slot3)
@@ -9510,10 +9656,10 @@ function slot5(slot0, slot1)
 	end
 end
 
-slot0[slot4] = slot5
-slot4 = "flush_task_list_skin_yamashiro"
+slot0[slot5] = slot6
+slot5 = "flush_task_list_skin_yamashiro"
 
-function slot5(slot0)
+function slot6(slot0)
 	slot1 = updateActivityTaskStatus
 	slot2 = slot0.activity
 	slot1 = slot1(slot2)
@@ -9530,10 +9676,10 @@ function slot5(slot0)
 	slot2(slot3, slot4)
 end
 
-slot0[slot4] = slot5
-slot4 = "clear_task_list_skin_yamashiro"
+slot0[slot5] = slot6
+slot5 = "clear_task_list_skin_yamashiro"
 
-function slot5(slot0)
+function slot6(slot0)
 	slot2 = slot0
 	slot1 = slot0.clear_task_list_skin
 	slot3 = slot0.pages
@@ -9546,10 +9692,10 @@ function slot5(slot0)
 	slot1(slot2, slot3)
 end
 
-slot0[slot4] = slot5
-slot4 = "flush_link_link"
+slot0[slot5] = slot6
+slot5 = "flush_link_link"
 
-function slot5(slot0)
+function slot6(slot0)
 	slot1 = slot0.activity
 	slot2 = slot1
 	slot1 = slot1.getConfig
@@ -9664,10 +9810,10 @@ function slot5(slot0)
 	end
 end
 
-slot0[slot4] = slot5
-slot4 = "clear_link_link"
+slot0[slot5] = slot6
+slot5 = "clear_link_link"
 
-function slot5(slot0)
+function slot6(slot0)
 	slot1 = slot0.pages
 	slot2 = slot0
 	slot3 = ActivityConst
@@ -9686,10 +9832,10 @@ function slot5(slot0)
 	end
 end
 
-slot0[slot4] = slot5
-slot4 = "flush_task_list_skin_beili"
+slot0[slot5] = slot6
+slot5 = "flush_task_list_skin_beili"
 
-function slot5(slot0)
+function slot6(slot0)
 	slot1 = updateActivityTaskStatus
 	slot2 = slot0.activity
 	slot1 = slot1(slot2)
@@ -9706,10 +9852,10 @@ function slot5(slot0)
 	slot2(slot3, slot4)
 end
 
-slot0[slot4] = slot5
-slot4 = "clear_task_list_skin_beili"
+slot0[slot5] = slot6
+slot5 = "clear_task_list_skin_beili"
 
-function slot5(slot0)
+function slot6(slot0)
 	slot2 = slot0
 	slot1 = slot0.clear_task_list_skin
 	slot3 = slot0.pages
@@ -9722,10 +9868,10 @@ function slot5(slot0)
 	slot1(slot2, slot3)
 end
 
-slot0[slot4] = slot5
-slot4 = "flush_pt_page_utawareru"
+slot0[slot5] = slot6
+slot5 = "flush_pt_page_utawareru"
 
-function slot5(slot0)
+function slot6(slot0)
 	slot1 = updateActivityTaskStatus
 	slot2 = slot0.activity
 	slot1 = slot1(slot2)
@@ -9938,10 +10084,10 @@ function slot5(slot0)
 	return
 end
 
-slot0[slot4] = slot5
-slot4 = "clear_pt_page_utawareru"
+slot0[slot5] = slot6
+slot5 = "clear_pt_page_utawareru"
 
-function slot5(slot0)
+function slot6(slot0)
 	slot1 = slot0.pages
 	slot2 = slot0
 	slot3 = ActivityConst
@@ -9962,10 +10108,10 @@ function slot5(slot0)
 	return
 end
 
-slot0[slot4] = slot5
-slot4 = "flush_preview_page"
+slot0[slot5] = slot6
+slot5 = "flush_preview_page"
 
-function slot5(slot0)
+function slot6(slot0)
 	slot1 = slot0.activity
 	slot2 = slot0.pages
 	slot4 = slot0
@@ -10284,10 +10430,10 @@ function slot5(slot0)
 	return
 end
 
-slot0[slot4] = slot5
-slot4 = "flush_preview_utawareru"
+slot0[slot5] = slot6
+slot5 = "flush_preview_utawareru"
 
-function slot5(slot0)
+function slot6(slot0)
 	slot2 = slot0
 	slot1 = slot0.flush_preview_page
 
@@ -10492,10 +10638,10 @@ function slot5(slot0)
 	return
 end
 
-slot0[slot4] = slot5
-slot4 = "clear_preview_utawareru"
+slot0[slot5] = slot6
+slot5 = "clear_preview_utawareru"
 
-function slot5(slot0)
+function slot6(slot0)
 	slot2 = slot0
 	slot1 = slot0.clear_task_list_skin
 	slot3 = slot0.pages
@@ -10510,10 +10656,10 @@ function slot5(slot0)
 	return
 end
 
-slot0[slot4] = slot5
-slot4 = "flush_task_list_utawareru"
+slot0[slot5] = slot6
+slot5 = "flush_task_list_utawareru"
 
-function slot5(slot0)
+function slot6(slot0)
 	slot1 = updateActivityTaskStatus
 	slot2 = slot0.activity
 	slot1 = slot1(slot2)
@@ -10532,10 +10678,10 @@ function slot5(slot0)
 	return
 end
 
-slot0[slot4] = slot5
-slot4 = "clear_task_list_utawareru"
+slot0[slot5] = slot6
+slot5 = "clear_task_list_utawareru"
 
-function slot5(slot0)
+function slot6(slot0)
 	slot2 = slot0
 	slot1 = slot0.clear_task_list_skin
 	slot3 = slot0.pages
@@ -10550,10 +10696,10 @@ function slot5(slot0)
 	return
 end
 
-slot0[slot4] = slot5
-slot4 = "flush_task_list_sipei_rere"
+slot0[slot5] = slot6
+slot5 = "flush_task_list_sipei_rere"
 
-function slot5(slot0)
+function slot6(slot0)
 	slot1 = slot0.activity
 	slot2 = slot0.pages
 	slot4 = slot0
@@ -10820,10 +10966,10 @@ function slot5(slot0)
 	return
 end
 
-slot0[slot4] = slot5
-slot4 = "clear_task_list_sipei_rere"
+slot0[slot5] = slot6
+slot5 = "clear_task_list_sipei_rere"
 
-function slot5(slot0)
+function slot6(slot0)
 	slot1 = slot0.pages
 	slot2 = slot0
 	slot3 = ActivityConst
@@ -10844,10 +10990,10 @@ function slot5(slot0)
 	return
 end
 
-slot0[slot4] = slot5
-slot4 = "flush_pt_page_longxiang"
+slot0[slot5] = slot6
+slot5 = "flush_pt_page_longxiang"
 
-function slot5(slot0)
+function slot6(slot0)
 	slot2 = slot0
 	slot1 = slot0.flush_task_list_pt
 
@@ -10856,10 +11002,10 @@ function slot5(slot0)
 	return
 end
 
-slot0[slot4] = slot5
-slot4 = "clear_pt_page_longxiang"
+slot0[slot5] = slot6
+slot5 = "clear_pt_page_longxiang"
 
-function slot5(slot0)
+function slot6(slot0)
 	slot1 = slot0.pages
 	slot2 = slot0
 	slot3 = ActivityConst
@@ -10880,10 +11026,10 @@ function slot5(slot0)
 	return
 end
 
-slot0[slot4] = slot5
-slot4 = "flush_skin_oshio"
+slot0[slot5] = slot6
+slot5 = "flush_skin_oshio"
 
-function slot5(slot0)
+function slot6(slot0)
 	slot1 = updateActivityTaskStatus
 	slot2 = slot0.activity
 	slot1 = slot1(slot2)
@@ -10954,10 +11100,10 @@ function slot5(slot0)
 	return
 end
 
-slot0[slot4] = slot5
-slot4 = "clear_skin_oshio"
+slot0[slot5] = slot6
+slot5 = "clear_skin_oshio"
 
-function slot5(slot0)
+function slot6(slot0)
 	slot2 = slot0
 	slot1 = slot0.clear_task_list_skin
 	slot3 = slot0.pages
@@ -10972,10 +11118,10 @@ function slot5(slot0)
 	return
 end
 
-slot0[slot4] = slot5
-slot4 = "flush_login_santa"
+slot0[slot5] = slot6
+slot5 = "flush_login_santa"
 
-function slot5(slot0)
+function slot6(slot0)
 	slot1 = slot0.activity
 	slot2 = slot0.pages
 	slot4 = slot0
@@ -11108,10 +11254,10 @@ function slot5(slot0)
 	return
 end
 
-slot0[slot4] = slot5
-slot4 = "clear_login_santa"
+slot0[slot5] = slot6
+slot5 = "clear_login_santa"
 
-function slot5(slot0)
+function slot6(slot0)
 	slot1 = slot0.pages
 	slot2 = slot0
 	slot3 = ActivityConst
@@ -11132,10 +11278,10 @@ function slot5(slot0)
 	return
 end
 
-slot0[slot4] = slot5
-slot4 = "flush_pt_page_amagi"
+slot0[slot5] = slot6
+slot5 = "flush_pt_page_amagi"
 
-function slot5(slot0)
+function slot6(slot0)
 	slot2 = slot0
 	slot1 = slot0.flush_task_list_pt
 
@@ -11200,10 +11346,10 @@ function slot5(slot0)
 	return
 end
 
-slot0[slot4] = slot5
-slot4 = "clear_pt_page_amagi"
+slot0[slot5] = slot6
+slot5 = "clear_pt_page_amagi"
 
-function slot5(slot0)
+function slot6(slot0)
 	slot1 = slot0.pages
 	slot2 = slot0
 	slot3 = ActivityConst
@@ -11224,10 +11370,10 @@ function slot5(slot0)
 	return
 end
 
-slot0[slot4] = slot5
-slot4 = "flush_lottery_award_omikuji"
+slot0[slot5] = slot6
+slot5 = "flush_lottery_award_omikuji"
 
-function slot5(slot0)
+function slot6(slot0)
 	slot1 = slot0.activity
 	slot2 = slot0.pages
 	slot4 = slot0
@@ -11678,10 +11824,10 @@ function slot5(slot0)
 	return
 end
 
-slot0[slot4] = slot5
-slot4 = "clear_lottery_award_omikuji"
+slot0[slot5] = slot6
+slot5 = "clear_lottery_award_omikuji"
 
-function slot5(slot0)
+function slot6(slot0)
 	slot1 = slot0.pages
 	slot2 = slot0
 	slot3 = ActivityConst
@@ -11702,10 +11848,10 @@ function slot5(slot0)
 	return
 end
 
-slot0[slot4] = slot5
-slot4 = "flush_preview_amagi"
+slot0[slot5] = slot6
+slot5 = "flush_preview_amagi"
 
-function slot5(slot0)
+function slot6(slot0)
 	slot2 = slot0
 	slot1 = slot0.flush_preview_page
 
@@ -11714,10 +11860,10 @@ function slot5(slot0)
 	return
 end
 
-slot0[slot4] = slot5
-slot4 = "clear_preview_amagi"
+slot0[slot5] = slot6
+slot5 = "clear_preview_amagi"
 
-function slot5(slot0)
+function slot6(slot0)
 	slot1 = slot0.pages
 	slot2 = slot0
 	slot3 = ActivityConst
@@ -11738,10 +11884,10 @@ function slot5(slot0)
 	return
 end
 
-slot0[slot4] = slot5
-slot4 = "flush_task_list_link_res_re"
+slot0[slot5] = slot6
+slot5 = "flush_task_list_link_res_re"
 
-function slot5(slot0)
+function slot6(slot0)
 	slot2 = slot0
 	slot1 = slot0.flush_task_list_res
 
@@ -11750,10 +11896,10 @@ function slot5(slot0)
 	return
 end
 
-slot0[slot4] = slot5
-slot4 = "clear_task_list_link_res_re"
+slot0[slot5] = slot6
+slot5 = "clear_task_list_link_res_re"
 
-function slot5(slot0)
+function slot6(slot0)
 	slot1 = slot0.pages
 	slot2 = slot0
 	slot3 = ActivityConst
@@ -11774,10 +11920,10 @@ function slot5(slot0)
 	return
 end
 
-slot0[slot4] = slot5
-slot4 = "flush_task_list_link_res"
+slot0[slot5] = slot6
+slot5 = "flush_task_list_link_res"
 
-function slot5(slot0)
+function slot6(slot0)
 	slot2 = slot0
 	slot1 = slot0.flush_task_list_res
 
@@ -11786,10 +11932,10 @@ function slot5(slot0)
 	return
 end
 
-slot0[slot4] = slot5
-slot4 = "clear_task_list_link_res"
+slot0[slot5] = slot6
+slot5 = "clear_task_list_link_res"
 
-function slot5(slot0)
+function slot6(slot0)
 	slot1 = slot0.pages
 	slot2 = slot0
 	slot3 = ActivityConst
@@ -11810,10 +11956,10 @@ function slot5(slot0)
 	return
 end
 
-slot0[slot4] = slot5
-slot4 = "flush_link_login_re"
+slot0[slot5] = slot6
+slot5 = "flush_link_login_re"
 
-function slot5(slot0)
+function slot6(slot0)
 	slot2 = slot0
 	slot1 = slot0.flush_7days_login
 
@@ -11822,10 +11968,10 @@ function slot5(slot0)
 	return
 end
 
-slot0[slot4] = slot5
-slot4 = "clear_link_login_re"
+slot0[slot5] = slot6
+slot5 = "clear_link_login_re"
 
-function slot5(slot0)
+function slot6(slot0)
 	slot1 = slot0.pages
 	slot2 = slot0
 	slot3 = ActivityConst
@@ -11860,10 +12006,10 @@ function slot5(slot0)
 	return
 end
 
-slot0[slot4] = slot5
-slot4 = "flush_preview_aoerliang_re"
+slot0[slot5] = slot6
+slot5 = "flush_preview_aoerliang_re"
 
-function slot5(slot0)
+function slot6(slot0)
 	slot2 = slot0
 	slot1 = slot0.flush_preview_page
 
@@ -11943,10 +12089,10 @@ function slot5(slot0)
 	return
 end
 
-slot0[slot4] = slot5
-slot4 = "clear_preview_aoerliang_re"
+slot0[slot5] = slot6
+slot5 = "clear_preview_aoerliang_re"
 
-function slot5(slot0)
+function slot6(slot0)
 	slot1 = slot0.pages
 	slot2 = slot0
 	slot3 = ActivityConst
@@ -11967,10 +12113,10 @@ function slot5(slot0)
 	return
 end
 
-slot0[slot4] = slot5
-slot4 = "flush_monopoly"
+slot0[slot5] = slot6
+slot5 = "flush_monopoly"
 
-function slot5(slot0)
+function slot6(slot0)
 	slot2 = slot0
 	slot1 = slot0.emit
 	slot3 = ActivityMediator
@@ -11981,10 +12127,10 @@ function slot5(slot0)
 	return
 end
 
-slot0[slot4] = slot5
-slot4 = "close_monopoly"
+slot0[slot5] = slot6
+slot5 = "close_monopoly"
 
-function slot5(slot0)
+function slot6(slot0)
 	slot2 = slot0
 	slot1 = slot0.emit
 	slot3 = ActivityMediator
@@ -11995,10 +12141,10 @@ function slot5(slot0)
 	return
 end
 
-slot0[slot4] = slot5
-slot4 = "flush_sign_aoerliang_re"
+slot0[slot5] = slot6
+slot5 = "flush_sign_aoerliang_re"
 
-function slot5(slot0)
+function slot6(slot0)
 	slot1 = slot0.activity
 	slot2 = slot0.pages
 	slot4 = slot0
@@ -12343,10 +12489,10 @@ function slot5(slot0)
 	return
 end
 
-slot0[slot4] = slot5
-slot4 = "clear_sign_aoerliang_re"
+slot0[slot5] = slot6
+slot5 = "clear_sign_aoerliang_re"
 
-function slot5(slot0)
+function slot6(slot0)
 	slot1 = slot0.pages
 	slot2 = slot0
 	slot3 = ActivityConst
@@ -12367,10 +12513,10 @@ function slot5(slot0)
 	return
 end
 
-slot0[slot4] = slot5
-slot4 = "flush_preview_winter_re"
+slot0[slot5] = slot6
+slot5 = "flush_preview_winter_re"
 
-function slot5(slot0)
+function slot6(slot0)
 	slot2 = slot0
 	slot1 = slot0.flush_preview_page
 
@@ -12379,10 +12525,10 @@ function slot5(slot0)
 	return
 end
 
-slot0[slot4] = slot5
-slot4 = "clear_preview_aoerliang_re"
+slot0[slot5] = slot6
+slot5 = "clear_preview_aoerliang_re"
 
-function slot5(slot0)
+function slot6(slot0)
 	slot1 = slot0.pages
 	slot2 = slot0
 	slot3 = ActivityConst
@@ -12403,10 +12549,10 @@ function slot5(slot0)
 	return
 end
 
-slot0[slot4] = slot5
-slot4 = "flush_new_year_overview"
+slot0[slot5] = slot6
+slot5 = "flush_new_year_overview"
 
-function slot5(slot0)
+function slot6(slot0)
 	slot1 = slot0.activity
 	slot2 = slot0.pages
 	slot4 = slot0
@@ -12526,17 +12672,17 @@ function slot5(slot0)
 	return
 end
 
-slot0[slot4] = slot5
-slot4 = "clear_new_year_overview"
+slot0[slot5] = slot6
+slot5 = "clear_new_year_overview"
 
-function slot5(slot0)
+function slot6(slot0)
 	return
 end
 
-slot0[slot4] = slot5
-slot4 = "flush_red_pocket_ship"
+slot0[slot5] = slot6
+slot5 = "flush_red_pocket_ship"
 
-function slot5(slot0)
+function slot6(slot0)
 	slot1 = slot0.activity
 	slot2 = slot0.pages
 	slot4 = slot0
@@ -12863,10 +13009,10 @@ function slot5(slot0)
 	return
 end
 
-slot0[slot4] = slot5
-slot4 = "clear_red_pocket_ship"
+slot0[slot5] = slot6
+slot5 = "clear_red_pocket_ship"
 
-function slot5(slot0)
+function slot6(slot0)
 	slot1 = slot0.pages
 	slot2 = slot0
 	slot3 = ActivityConst
@@ -12887,10 +13033,10 @@ function slot5(slot0)
 	return
 end
 
-slot0[slot4] = slot5
-slot4 = "flush_preview_narvik"
+slot0[slot5] = slot6
+slot5 = "flush_preview_narvik"
 
-function slot5(slot0)
+function slot6(slot0)
 	slot2 = slot0
 	slot1 = slot0.flush_preview_page
 
@@ -13182,10 +13328,10 @@ function slot5(slot0)
 	return
 end
 
-slot0[slot4] = slot5
-slot4 = "clear_preview_narvik"
+slot0[slot5] = slot6
+slot5 = "clear_preview_narvik"
 
-function slot5(slot0)
+function slot6(slot0)
 	slot1 = slot0.pages
 	slot2 = slot0
 	slot3 = ActivityConst
@@ -13206,10 +13352,10 @@ function slot5(slot0)
 	return
 end
 
-slot0[slot4] = slot5
-slot4 = "flush_pt_page_hunter"
+slot0[slot5] = slot6
+slot5 = "flush_pt_page_hunter"
 
-function slot5(slot0)
+function slot6(slot0)
 	slot1 = updateActivityTaskStatus
 	slot2 = slot0.activity
 	slot1 = slot1(slot2)
@@ -13337,10 +13483,10 @@ function slot5(slot0)
 	return
 end
 
-slot0[slot4] = slot5
-slot4 = "clear_pt_page_hunter"
+slot0[slot5] = slot6
+slot5 = "clear_pt_page_hunter"
 
-function slot5(slot0)
+function slot6(slot0)
 	slot1 = slot0.pages
 	slot2 = slot0
 	slot3 = ActivityConst
@@ -13361,10 +13507,10 @@ function slot5(slot0)
 	return
 end
 
-slot0[slot4] = slot5
-slot4 = "flush_preview_hongran_re"
+slot0[slot5] = slot6
+slot5 = "flush_preview_hongran_re"
 
-function slot5(slot0)
+function slot6(slot0)
 	slot2 = slot0
 	slot1 = slot0.flush_preview_page
 
@@ -13373,10 +13519,10 @@ function slot5(slot0)
 	return
 end
 
-slot0[slot4] = slot5
-slot4 = "clear_preview_hongran_re"
+slot0[slot5] = slot6
+slot5 = "clear_preview_hongran_re"
 
-function slot5(slot0)
+function slot6(slot0)
 	slot1 = slot0.pages
 	slot2 = slot0
 	slot3 = ActivityConst
@@ -13397,10 +13543,10 @@ function slot5(slot0)
 	return
 end
 
-slot0[slot4] = slot5
-slot4 = "flush_pt_page_hongran_re"
+slot0[slot5] = slot6
+slot5 = "flush_pt_page_hongran_re"
 
-function slot5(slot0)
+function slot6(slot0)
 	slot2 = slot0
 	slot1 = slot0.flush_task_list_pt
 
@@ -13409,10 +13555,10 @@ function slot5(slot0)
 	return
 end
 
-slot0[slot4] = slot5
-slot4 = "clear_pt_page_hongran_re"
+slot0[slot5] = slot6
+slot5 = "clear_pt_page_hongran_re"
 
-function slot5(slot0)
+function slot6(slot0)
 	slot1 = slot0.pages
 	slot2 = slot0
 	slot3 = ActivityConst
@@ -13433,10 +13579,10 @@ function slot5(slot0)
 	return
 end
 
-slot0[slot4] = slot5
-slot4 = "flush_preview_faxi"
+slot0[slot5] = slot6
+slot5 = "flush_preview_faxi"
 
-function slot5(slot0)
+function slot6(slot0)
 	slot2 = slot0
 	slot1 = slot0.flush_preview_page
 
@@ -13445,10 +13591,10 @@ function slot5(slot0)
 	return
 end
 
-slot0[slot4] = slot5
-slot4 = "clear_preview_faxi"
+slot0[slot5] = slot6
+slot5 = "clear_preview_faxi"
 
-function slot5(slot0)
+function slot6(slot0)
 	slot1 = slot0.pages
 	slot2 = slot0
 	slot3 = ActivityConst
@@ -13469,10 +13615,10 @@ function slot5(slot0)
 	return
 end
 
-slot0[slot4] = slot5
-slot4 = "flush_pt_page_faxi"
+slot0[slot5] = slot6
+slot5 = "flush_pt_page_faxi"
 
-function slot5(slot0)
+function slot6(slot0)
 	slot2 = slot0
 	slot1 = slot0.flush_task_list_pt
 
@@ -13505,10 +13651,10 @@ function slot5(slot0)
 	return
 end
 
-slot0[slot4] = slot5
-slot4 = "clear_pt_page_faxi"
+slot0[slot5] = slot6
+slot5 = "clear_pt_page_faxi"
 
-function slot5(slot0)
+function slot6(slot0)
 	slot1 = slot0.pages
 	slot2 = slot0
 	slot3 = ActivityConst
@@ -13529,10 +13675,10 @@ function slot5(slot0)
 	return
 end
 
-slot0[slot4] = slot5
-slot4 = "flush_res_page_faxi"
+slot0[slot5] = slot6
+slot5 = "flush_res_page_faxi"
 
-function slot5(slot0)
+function slot6(slot0)
 	slot2 = slot0
 	slot1 = slot0.flush_task_list_res
 
@@ -13541,10 +13687,10 @@ function slot5(slot0)
 	return
 end
 
-slot0[slot4] = slot5
-slot4 = "clear_res_page_faxi"
+slot0[slot5] = slot6
+slot5 = "clear_res_page_faxi"
 
-function slot5(slot0)
+function slot6(slot0)
 	slot1 = slot0.pages
 	slot2 = slot0
 	slot3 = ActivityConst
@@ -13565,10 +13711,10 @@ function slot5(slot0)
 	return
 end
 
-slot0[slot4] = slot5
-slot4 = "flush_preview_moran_re"
+slot0[slot5] = slot6
+slot5 = "flush_preview_moran_re"
 
-function slot5(slot0)
+function slot6(slot0)
 	slot2 = slot0
 	slot1 = slot0.flush_preview_page
 
@@ -13657,10 +13803,10 @@ function slot5(slot0)
 	return
 end
 
-slot0[slot4] = slot5
-slot4 = "clear_preview_moran_re"
+slot0[slot5] = slot6
+slot5 = "clear_preview_moran_re"
 
-function slot5(slot0)
+function slot6(slot0)
 	slot1 = slot0.pages
 	slot2 = slot0
 	slot3 = ActivityConst
@@ -13681,10 +13827,10 @@ function slot5(slot0)
 	return
 end
 
-slot0[slot4] = slot5
-slot4 = "flush_pt_page_moran_re"
+slot0[slot5] = slot6
+slot5 = "flush_pt_page_moran_re"
 
-function slot5(slot0)
+function slot6(slot0)
 	slot2 = slot0
 	slot1 = slot0.flush_task_list_pt
 
@@ -13717,10 +13863,10 @@ function slot5(slot0)
 	return
 end
 
-slot0[slot4] = slot5
-slot4 = "clear_pt_page_moran_re"
+slot0[slot5] = slot6
+slot5 = "clear_pt_page_moran_re"
 
-function slot5(slot0)
+function slot6(slot0)
 	slot1 = slot0.pages
 	slot2 = slot0
 	slot3 = ActivityConst
@@ -13741,10 +13887,10 @@ function slot5(slot0)
 	return
 end
 
-slot0[slot4] = slot5
-slot4 = "flush_preview_xiaojiajia"
+slot0[slot5] = slot6
+slot5 = "flush_preview_xiaojiajia"
 
-function slot5(slot0)
+function slot6(slot0)
 	slot2 = slot0
 	slot1 = slot0.flush_preview_page
 
@@ -13842,10 +13988,10 @@ function slot5(slot0)
 	return
 end
 
-slot0[slot4] = slot5
-slot4 = "clear_preview_xiaojiajia"
+slot0[slot5] = slot6
+slot5 = "clear_preview_xiaojiajia"
 
-function slot5(slot0)
+function slot6(slot0)
 	slot1 = slot0.pages
 	slot2 = slot0
 	slot3 = ActivityConst
@@ -13866,10 +14012,10 @@ function slot5(slot0)
 	return
 end
 
-slot0[slot4] = slot5
-slot4 = "TaskSubmitCheck"
+slot0[slot5] = slot6
+slot5 = "TaskSubmitCheck"
 
-function slot5(slot0, slot1)
+function slot6(slot0, slot1)
 	slot2 = slot0
 	slot2 = slot2.checkList
 	slot3 = slot1.id
@@ -13930,10 +14076,10 @@ function slot5(slot0, slot1)
 	return slot2
 end
 
-slot0[slot4] = slot5
-slot4 = "willExit"
+slot0[slot5] = slot6
+slot5 = "willExit"
 
-function slot5(slot0)
+function slot6(slot0)
 	slot1 = nil
 	slot2 = ipairs
 	slot3 = slot0.activities
@@ -13998,6 +14144,6 @@ function slot5(slot0)
 	return
 end
 
-slot0[slot4] = slot5
+slot0[slot5] = slot6
 
 return slot0

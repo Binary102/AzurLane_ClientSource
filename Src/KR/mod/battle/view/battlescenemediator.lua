@@ -28,6 +28,7 @@ function slot5.Init(slot0)
 	slot0._bulletList = {}
 	slot0._aircraftList = {}
 	slot0._areaList = {}
+	slot0._shelterList = {}
 	slot0._bulletContainer = GameObject.Find("BulletContainer")
 	slot0._fxPool = slot0.Battle.BattleFXPool:GetInstance()
 
@@ -110,6 +111,8 @@ function slot5.AddEvent(slot0)
 	slot0._dataProxy:RegisterEventListener(slot0, slot0.REMOVE_AIR_FIGHTER, slot0.onRemoveAirFighter)
 	slot0._dataProxy:RegisterEventListener(slot0, slot0.ADD_AREA, slot0.onAddArea)
 	slot0._dataProxy:RegisterEventListener(slot0, slot0.REMOVE_AREA, slot0.onRemoveArea)
+	slot0._dataProxy:RegisterEventListener(slot0, slot0.ADD_SHELTER, slot0.onAddShelter)
+	slot0._dataProxy:RegisterEventListener(slot0, slot0.REMOVE_SHELTER, slot0.onRemoveShleter)
 	slot0._dataProxy:RegisterEventListener(slot0, slot0.ANTI_AIR_AREA, slot0.onAntiAirArea)
 	slot0._dataProxy:RegisterEventListener(slot0, slot0.UPDATE_HOSTILE_SUBMARINE, slot0.onUpdateHostileSubmarine)
 end
@@ -124,6 +127,8 @@ function slot5.RemoveEvent(slot0)
 	slot0._dataProxy:UnregisterEventListener(slot0, slot0.REMOVE_AIR_FIGHTER)
 	slot0._dataProxy:UnregisterEventListener(slot0, slot0.ADD_AREA)
 	slot0._dataProxy:UnregisterEventListener(slot0, slot0.REMOVE_AREA)
+	slot0._dataProxy:UnregisterEventListener(slot0, slot0.ADD_SHELTER)
+	slot0._dataProxy:UnregisterEventListener(slot0, slot0.REMOVE_SHELTER)
 	slot0._dataProxy:UnregisterEventListener(slot0, slot0.ANTI_AIR_AREA)
 	slot0._dataProxy:UnregisterEventListener(slot0, slot0.UPDATE_HOSTILE_SUBMARINE)
 	slot0._cameraUtil:UnregisterEventListener(slot0, slot0.CAMERA_FOCUS_RESET)
@@ -178,6 +183,27 @@ end
 
 function slot5.onRemoveArea(slot0, slot1)
 	slot0:RemoveArea(slot1.Data.id)
+end
+
+function slot5.onAddShelter(slot0, slot1)
+	slot8, slot11 = slot0._fxPool:GetFX(slot1.Data.shelter.GetFXID(slot2))
+
+	pg.EffectMgr.GetInstance():PlayBattleEffect(slot3, slot1.Data.shelter.GetPosition(slot2).Add(slot5, slot4), true)
+
+	if slot1.Data.shelter.GetIFF(slot2) == slot0.FOE_CODE then
+		slot3.transform.localEulerAngles.y = 180
+		slot3.localEulerAngles = slot3.transform.localEulerAngles
+	end
+
+	slot0._shelterList[slot2:GetUniqueID()] = slot3
+end
+
+function slot5.onRemoveShleter(slot0, slot1)
+	if slot0._shelterList[slot1.Data.uid] then
+		slot0.Battle.BattleResourceManager:GetInstance():DestroyOb(slot3)
+
+		slot0._shelterList[slot2] = nil
+	end
 end
 
 function slot5.onAntiAirArea(slot0, slot1)

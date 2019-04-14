@@ -15306,7 +15306,7 @@ pg.ship_skin_template = {
 		aircraft_skin = "",
 		main_UI_FX = "",
 		shop_id = 0,
-		desc = "에식스급 항공모함航空母艦 - 벙커힐(CV-17) ",
+		desc = "에식스급 항공모함 - 벙커힐(CV-17) ",
 		voice_actor = -1,
 		air_bomb_skin = "",
 		illustrator = -1,
@@ -36837,7 +36837,7 @@ pg.ship_skin_template = {
 		}
 	},
 	[301660] = {
-		name = "{namecode:148}",
+		name = "아라시오 ",
 		ship_group = 30166,
 		illustrator2 = -1,
 		bg = "",
@@ -36860,7 +36860,7 @@ pg.ship_skin_template = {
 		aircraft_skin = "",
 		main_UI_FX = "",
 		shop_id = 0,
-		desc = "{namecode:145}级驱逐舰四番舰—{namecode:148}",
+		desc = "아사시오급 구축함 4번함 - 아라시오 ",
 		voice_actor = -1,
 		air_bomb_skin = "",
 		illustrator = -1,
@@ -37274,6 +37274,114 @@ pg.ship_skin_template = {
 						{
 							0.56,
 							2.57,
+							-0.58
+						}
+					}
+				}
+			}
+		}
+	},
+	[302019] = {
+		name = "유바리·改",
+		ship_group = 30201,
+		illustrator2 = -1,
+		bg = "",
+		bullet_skin_secondary = "",
+		painting = "xizhang_g",
+		painting_hx = "",
+		air_bullet_skin = "",
+		hand_id = 0,
+		shop_type_id = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		isSwimsuit = 0,
+		skin_type = 2,
+		id = 302019,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "xizhang_g",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		desc = "새로운 장비, 드디어 완성! 주인님, 바로 실전에서 테스트해보자! ",
+		voice_actor = 83,
+		air_bomb_skin = "",
+		illustrator = 1,
+		rarity_bg = "",
+		isHX = 0,
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.27,
+					0.78,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.3,
+					0.79,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.04,
+					0.1,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.34,
+					0.75,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.47,
+							2.15,
 							-0.58
 						}
 					}
@@ -67284,6 +67392,7 @@ pg.ship_skin_template = {
 		301790,
 		301800,
 		302010,
+		302019,
 		302040,
 		302050,
 		302051,

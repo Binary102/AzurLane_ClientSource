@@ -99,10 +99,6 @@ function slot0.initStudents(slot0)
 	for slot4 = 1, 4, 1 do
 		slot0.studentTFs[slot4] = slot0.studentContain:GetChild(slot4 - 1)
 
-		if slot4 == 3 or slot4 == 4 then
-			setActive(slot0.studentTFs[slot4], false)
-		end
-
 		if slot4 <= NavalAcademyProxy.MAX_SKILL_CLASS_NUM then
 			setActive(slot0.studentTFs[slot4], true)
 

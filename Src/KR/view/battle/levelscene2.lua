@@ -18,12 +18,18 @@ function slot0.getUIName(slot0)
 end
 
 function slot0.preload(slot0, slot1)
-	slot0.maps = getProxy(ChapterProxy):getMaps()
+	slot2 = getProxy(ChapterProxy)
 
-	if slot0.maps[slot0:selectMap(slot2)]:getConfig("bg") and #slot5 > 0 then
-		GetSpriteFromAtlasAsync("levelmap/" .. slot4:getConfig("bg"), "", slot1)
-	elseif slot4:getConfig("animtor") == 1 then
-		PoolMgr.GetInstance():GetUI(slot4:getConfig("ani_name"), true, function (slot0)
+	slot2:updateActiveChapterShips()
+	slot2:updateShamChapterShips()
+	slot2:updateGuildChapterShips()
+
+	slot0.maps = slot2:getMaps()
+
+	if slot0.maps[slot0:selectMap(slot3)]:getConfig("bg") and #slot6 > 0 then
+		GetSpriteFromAtlasAsync("levelmap/" .. slot5:getConfig("bg"), "", slot1)
+	elseif slot5:getConfig("animtor") == 1 then
+		PoolMgr.GetInstance():GetUI(slot5:getConfig("ani_name"), true, function (slot0)
 			slot0:SetActive(false)
 
 			slot0.tornadoTF = slot0
@@ -1133,7 +1139,7 @@ function slot0.updateActivityBtns(slot0)
 		slot0:updateActivityRes()
 	end
 
-	setActive(tf(slot0.ptTotalTxt.gameObject).parent, not LOCK_PT_VALUE and slot0.ptActivity and not slot0.ptActivity:isEnd() and isActivityMap)
+	setActive(slot0.ptTotal, not LOCK_PT_VALUE and slot0.ptActivity and not slot0.ptActivity:isEnd() and isActivityMap)
 
 	slot15 = false
 
@@ -1162,7 +1168,7 @@ function slot0.updateActivityBtns(slot0)
 	end
 
 	if LOCK_PT_VALUE then
-		setActive(tf(slot0.ptTotalTxt.gameObject).parent, false)
+		setActive(slot0.ptTotal, false)
 	end
 
 	slot16 = (slot11 and slot14) or (not slot11 and slot13)

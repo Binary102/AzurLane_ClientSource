@@ -634,7 +634,7 @@ pg.furniture_data_template = {
 		icon = "sanliicon",
 		is_get_time_note = 0,
 		belong = 1,
-		count = 1,
+		count = 2,
 		advice = 0,
 		dorm_icon_price = 2000,
 		not_for_sale = 1,
@@ -1376,6 +1376,55 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		interAction_group = {}
+	},
+	[126] = {
+		can_rotate = 0,
+		name = "다이아 「회수」 상자",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		effect = "",
+		picture = "",
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 500,
+		not_for_sale = 1,
+		icon = "maoxiangicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 126,
+		comfortable = 4,
+		describe = "이것은……다이아의 냄새다냥!",
+		dorm_id = 0,
+		gem_price = 0,
+		can_trigger = 0,
+		themeId = 0,
+		spine_extra = "",
+		time = "always",
+		new = 0,
+		discount_time = "",
+		size = {
+			4,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		spine = {
+			{
+				"yizhounian2",
+				"normal",
+				{
+					"action",
+					false
+				}
+			}
+		},
 		interAction_group = {}
 	},
 	[129] = {
@@ -59067,6 +59116,7 @@ pg.furniture_data_template = {
 		118,
 		119,
 		124,
+		126,
 		129,
 		130,
 		131,

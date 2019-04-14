@@ -6559,6 +6559,43 @@ pg.activity_template = {
 			}
 		}
 	},
+	[20171] = {
+		mark = 20190404,
+		bg = "clutter/14days_login",
+		type = 3,
+		config_id = 7,
+		is_show = 1,
+		config_client = "",
+		id = 20171,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2019,
+					4,
+					4
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	[25000] = {
 		mark = 20188020,
 		bg = "",
@@ -7281,6 +7318,7 @@ pg.activity_template = {
 		20163,
 		20164,
 		20165,
+		20171,
 		25000,
 		25001,
 		25002,

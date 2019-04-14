@@ -1062,7 +1062,7 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"소형함 건조、중형함 건조、특형함 건조",
+				"소형함 건조",
 				{
 					"GETBOAT",
 					{
@@ -1243,7 +1243,7 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"소형함 건조、중형함 건조、특형함 건조",
+				"소형함 건조",
 				{
 					"GETBOAT",
 					{
@@ -2151,7 +2151,7 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"소형함 건조、특형함 건조",
+				"특형함 건조",
 				{
 					"GETBOAT",
 					{
@@ -2206,7 +2206,7 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"소형함 건조、특형함 건조",
+				"특형함 건조",
 				{
 					"GETBOAT",
 					{
@@ -2261,7 +2261,7 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"소형함 건조、특형함 건조",
+				"특형함 건조",
 				{
 					"GETBOAT",
 					{
@@ -2417,7 +2417,7 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"소형함 건조、특형함 건조",
+				"특형함 건조",
 				{
 					"GETBOAT",
 					{
@@ -2613,7 +2613,7 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"소형함 건조、특형함 건조",
+				"특형함 건조",
 				{
 					"GETBOAT",
 					{
@@ -3983,7 +3983,7 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"중형함 건조、특형함 건조",
+				"중형함 건조",
 				{
 					"GETBOAT",
 					{
@@ -4029,7 +4029,7 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"중형함 건조、특형함 건조",
+				"중형함 건조",
 				{
 					"GETBOAT",
 					{
@@ -4460,7 +4460,7 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"소형함 건조、특형함 건조",
+				"특형함 건조",
 				{
 					"GETBOAT",
 					{
@@ -4506,7 +4506,7 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"소형함 건조、특형함 건조",
+				"특형함 건조",
 				{
 					"GETBOAT",
 					{
@@ -4678,7 +4678,7 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"소형함 건조、중형함 건조",
+				"중형함 건조",
 				{
 					"GETBOAT",
 					{
@@ -4724,7 +4724,7 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"소형함 건조、중형함 건조",
+				"중형함 건조",
 				{
 					"GETBOAT",
 					{
@@ -5186,22 +5186,31 @@ pg.ship_data_group = {
 	[179] = {
 		nationality = 3,
 		hide = 0,
-		trans_skin = 0,
+		trans_skin = 302019,
 		handbook_type = 0,
 		redirect_id = 101,
 		code = 179,
 		type = 2,
 		group_type = 30201,
-		trans_type = 0,
-		trans_radar_chart = {},
-		trans_skill = {},
+		trans_type = 2,
+		trans_radar_chart = {
+			"C",
+			"B",
+			"E",
+			"B",
+			"B",
+			"C"
+		},
+		trans_skill = {
+			12040
+		},
 		description = {
 			{
-				"소형함 건조、중형함 건조、특형함 건조",
+				"소형함 건조",
 				{
 					"GETBOAT",
 					{
-						projectName = "heavy",
+						projectName = "light",
 						page = 1
 					}
 				},
@@ -7977,6 +7986,28 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[334] = {
+		nationality = 3,
+		hide = 0,
+		trans_skin = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		code = 334,
+		type = 1,
+		group_type = 30166,
+		trans_type = 0,
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"이벤트 : 아라시오의 항구견습",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[335] = {
 		nationality = 2,
 		hide = 0,
@@ -9595,6 +9626,7 @@ pg.ship_data_group = {
 		331,
 		332,
 		333,
+		334,
 		335,
 		338,
 		339,

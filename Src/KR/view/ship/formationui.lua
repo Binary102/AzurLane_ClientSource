@@ -12,7 +12,7 @@ slot1 = slot1.pi
 slot1 = slot1 / 2
 slot1 = slot1 / 6
 slot0.INTERVAL = slot1
-slot1 = 4
+slot1 = 6
 slot0.MAX_FLEET_NUM = slot1
 slot1 = 5
 slot0.MAX_SHIPP_NUM = slot1
@@ -1222,7 +1222,7 @@ function slot1(slot0)
 			slot5 = Vector3
 			slot5 = slot5.New
 			slot6 = 133
-			slot7 = 475
+			slot7 = 600
 
 			slot3(slot4, slot5(slot6, slot7))
 		end
@@ -1263,7 +1263,7 @@ function slot1(slot0)
 			slot5 = Vector3
 			slot5 = slot5.New
 			slot6 = 530
-			slot7 = 475
+			slot7 = 600
 
 			slot3(slot4, slot5(slot6, slot7))
 		end

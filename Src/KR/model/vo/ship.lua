@@ -1118,13 +1118,17 @@ function slot0.getProperties(slot0, slot1)
 			slot14 = slot14 + slot19:getAttrValueAddition(slot12, slot3, slot4)
 		end
 
-		slot15 = slot7[slot12] or 1
-		slot15 = slot13 + slot15
-
-		if slot12 == AttributeType.Speed then
-			slot5[slot12] = slot5[slot12] * slot15 + slot14 + slot6[slot12]
+		if LOCK_EQUIP_DEVELOPMENT then
+			slot5[slot12] = slot5[slot12] + slot6[slot12]
 		else
-			slot5[slot12] = math.floor(math.floor(slot5[slot12]) * slot15) + slot14 + slot6[slot12]
+			slot15 = slot7[slot12] or 1
+			slot15 = slot13 + slot15
+
+			if slot12 == AttributeType.Speed then
+				slot5[slot12] = slot5[slot12] * slot15 + slot14 + slot6[slot12]
+			else
+				slot5[slot12] = math.floor(math.floor(slot5[slot12]) * slot15) + slot14 + slot6[slot12]
+			end
 		end
 	end
 
@@ -1197,6 +1201,10 @@ function slot0.getLevelExpConfig(slot0)
 end
 
 function slot0.getExp(slot0)
+	if slot0.level == slot0:getMaxLevel() and LOCK_FULL_EXP then
+		return 0
+	end
+
 	return slot0.exp
 end
 
@@ -1218,6 +1226,10 @@ function slot0.addExp(slot0, slot1, slot2)
 	end
 
 	if slot0.level == slot0:getMaxLevel() then
+		if LOCK_FULL_EXP then
+			slot1 = 0
+		end
+
 		if not slot0:isBluePrintShip() then
 			if not slot2 or not slot0:isMaxStar() then
 				slot1 = 0

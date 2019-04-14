@@ -372,12 +372,18 @@ end
 function slot0.onInitCard(slot0, slot1)
 	onButton(slot0, CollectionShipCard.New(slot1).go, function ()
 		if slot0.state == ShipGroup.STATE_UNLOCK then
-			slot1:uiExitAnimating()
-			LeanTween.delayedCall(0.2, System.Action(function ()
-				slot0.contextData.cardScrollValue = slot0.cardList.value
+			if not slot1.onOpenDetail then
+				slot1:uiExitAnimating()
+				LeanTween.delayedCall(0.2, System.Action(function ()
+					slot0.contextData.cardScrollValue = slot0.cardList.value
 
-				slot0.contextData:emit(slot1.SHOW_DETAIL, slot2.showTrans, slot2.shipGroup.id)
-			end))
+					slot0.contextData:emit(slot1.SHOW_DETAIL, slot2.showTrans, slot2.shipGroup.id)
+
+					slot0.contextData.emit.onOpenDetail = false
+				end))
+
+				0.2.onOpenDetail = true
+			end
 		elseif slot0.state == ShipGroup.STATE_NOTGET and slot0.config then
 			slot1:showSkipableMsgBox(slot0.config.description, slot0.shipGroup:getShipConfigId())
 		end

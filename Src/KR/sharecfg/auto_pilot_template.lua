@@ -5776,6 +5776,48 @@ pg.auto_pilot_template = {
 				}
 			}
 		}
+	},
+	[99997] = {
+		id = 99997,
+		name = "测试随机移动上",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 1,
+				type = 3,
+				param = {
+					stopCount = 80,
+					Z2 = 85,
+					moveCount = 240,
+					Z1 = 55,
+					duration = -1,
+					X1 = -30,
+					X2 = 0
+				}
+			}
+		}
+	},
+	[99998] = {
+		id = 99998,
+		name = "测试随机移动下",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 1,
+				type = 3,
+				param = {
+					stopCount = 100,
+					Z2 = 55,
+					moveCount = 240,
+					Z1 = 25,
+					duration = -1,
+					X1 = -30,
+					X2 = 0
+				}
+			}
+		}
 	}
 }
 

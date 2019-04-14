@@ -152,6 +152,11 @@ function slot0.flushEva(slot0)
 		onButton(slot0, (slot2[slot7].hot and slot10) or slot11:Find("zan_bg/down"), function ()
 			slot0(1)
 		end, SFX_PANEL)
+		SetActive((slot2[slot7].hot and slot10) or slot11:Find("zan_bg/down"), not LOCK_DOWNVOTE or false)
+
+		if LOCK_DOWNVOTE then
+			slot12:Find("zan_bg/up").position = slot12:Find("zan_bg/down").position + Vector3(0, 0.15, 0)
+		end
 	end
 end
 

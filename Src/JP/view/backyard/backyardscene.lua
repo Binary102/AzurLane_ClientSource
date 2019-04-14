@@ -92,6 +92,11 @@ function slot0.init(slot0)
 	setActive(slot0.helpBtn, false)
 
 	slot0.stampBtn = slot0:findTF("stamp", slot0.bottomPanel)
+
+	if LOCK_CLICK_MINGSHI then
+		setActive(slot0:findTF("stamp", slot0.bottomPanel), false)
+	end
+
 	slot0.eyeBtn = slot0:findTF("main/eye_btn")
 	slot0.isVisitMode = slot0.contextData.mode == BackYardConst.MODE_VISIT
 	slot0.leaveCount = 0
@@ -206,6 +211,10 @@ function slot0.setMode(slot0)
 	setActive(slot0.eyeBtn, not slot0.isVisitMode)
 	setActive(slot0.clickTF, not slot0.isVisitMode)
 
+	if LOCK_SEC_FLOOR then
+		setActive(slot0.floorBtn, false)
+	end
+
 	if not slot0.isVisitMode then
 		onButton(slot0, slot0.helpBtn, function ()
 			pg.MsgboxMgr.GetInstance():ShowHelpWindow({
@@ -225,6 +234,11 @@ function slot0.setMode(slot0)
 			return
 		end, SFX_PANEL)
 		setActive(slot0.stampBtn, getProxy(TaskProxy):mingshiTouchFlagEnabled())
+
+		if LOCK_CLICK_MINGSHI then
+			setActive(slot0:findTF("stamp", slot0.bottomPanel), false)
+		end
+
 		onButton(slot0, slot0.stampBtn, function ()
 			getProxy(TaskProxy):dealMingshiTouchFlag(7)
 

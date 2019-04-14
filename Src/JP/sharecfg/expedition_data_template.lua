@@ -207,9 +207,9 @@ pg.expedition_data_template = {
 		map_id = 10001,
 		activity_id2 = 0,
 		bonus_time = 0,
+		objective_1 = "",
 		extraenemy_difficulty = 0,
 		plot_type = 0,
-		objective_3 = "",
 		id = 2000,
 		scale = 100,
 		award_display = {
@@ -224,7 +224,7 @@ pg.expedition_data_template = {
 				"100%出現"
 			}
 		},
-		objective_1 = {
+		objective_3 = {
 			4,
 			60
 		}
@@ -253,9 +253,9 @@ pg.expedition_data_template = {
 		map_id = 10001,
 		activity_id2 = 0,
 		bonus_time = 0,
+		objective_1 = "",
 		extraenemy_difficulty = 0,
 		plot_type = 0,
-		objective_3 = "",
 		id = 2001,
 		scale = 100,
 		award_display = {
@@ -270,7 +270,7 @@ pg.expedition_data_template = {
 				"100%出現"
 			}
 		},
-		objective_1 = {
+		objective_3 = {
 			4,
 			60
 		}
@@ -299,9 +299,9 @@ pg.expedition_data_template = {
 		map_id = 10001,
 		activity_id2 = 0,
 		bonus_time = 0,
+		objective_1 = "",
 		extraenemy_difficulty = 0,
 		plot_type = 0,
-		objective_3 = "",
 		id = 2002,
 		scale = 100,
 		award_display = {
@@ -321,7 +321,7 @@ pg.expedition_data_template = {
 				"80%出現"
 			}
 		},
-		objective_1 = {
+		objective_3 = {
 			4,
 			60
 		}
@@ -350,9 +350,9 @@ pg.expedition_data_template = {
 		map_id = 10001,
 		activity_id2 = 0,
 		bonus_time = 0,
+		objective_1 = "",
 		extraenemy_difficulty = 0,
 		plot_type = 0,
-		objective_3 = "",
 		id = 2003,
 		scale = 100,
 		award_display = {
@@ -372,7 +372,7 @@ pg.expedition_data_template = {
 				"80%出現"
 			}
 		},
-		objective_1 = {
+		objective_3 = {
 			4,
 			60
 		}
@@ -401,9 +401,9 @@ pg.expedition_data_template = {
 		map_id = 10001,
 		activity_id2 = 0,
 		bonus_time = 0,
+		objective_1 = "",
 		extraenemy_difficulty = 0,
 		plot_type = 0,
-		objective_3 = "",
 		id = 2004,
 		scale = 100,
 		award_display = {
@@ -423,7 +423,7 @@ pg.expedition_data_template = {
 				"60%出現"
 			}
 		},
-		objective_1 = {
+		objective_3 = {
 			4,
 			60
 		}
@@ -452,9 +452,9 @@ pg.expedition_data_template = {
 		map_id = 10001,
 		activity_id2 = 0,
 		bonus_time = 0,
+		objective_1 = "",
 		extraenemy_difficulty = 0,
 		plot_type = 0,
-		objective_3 = "",
 		id = 2005,
 		scale = 100,
 		award_display = {
@@ -474,7 +474,7 @@ pg.expedition_data_template = {
 				"60%出現"
 			}
 		},
-		objective_1 = {
+		objective_3 = {
 			4,
 			60
 		}
@@ -503,9 +503,9 @@ pg.expedition_data_template = {
 		map_id = 10001,
 		activity_id2 = 0,
 		bonus_time = 0,
+		objective_1 = "",
 		extraenemy_difficulty = 0,
 		plot_type = 0,
-		objective_3 = "",
 		id = 2006,
 		scale = 100,
 		award_display = {
@@ -530,7 +530,7 @@ pg.expedition_data_template = {
 				"40%出現"
 			}
 		},
-		objective_1 = {
+		objective_3 = {
 			4,
 			60
 		}
@@ -559,9 +559,9 @@ pg.expedition_data_template = {
 		map_id = 10001,
 		activity_id2 = 0,
 		bonus_time = 0,
+		objective_1 = "",
 		extraenemy_difficulty = 0,
 		plot_type = 0,
-		objective_3 = "",
 		id = 2007,
 		scale = 100,
 		award_display = {
@@ -586,7 +586,7 @@ pg.expedition_data_template = {
 				"40%出現"
 			}
 		},
-		objective_1 = {
+		objective_3 = {
 			4,
 			60
 		}
@@ -615,9 +615,9 @@ pg.expedition_data_template = {
 		map_id = 10001,
 		activity_id2 = 0,
 		bonus_time = 0,
+		objective_1 = "",
 		extraenemy_difficulty = 0,
 		plot_type = 0,
-		objective_3 = "",
 		id = 2008,
 		scale = 100,
 		award_display = {
@@ -642,7 +642,7 @@ pg.expedition_data_template = {
 				"20%出現"
 			}
 		},
-		objective_1 = {
+		objective_3 = {
 			4,
 			60
 		}
@@ -671,9 +671,9 @@ pg.expedition_data_template = {
 		map_id = 10001,
 		activity_id2 = 0,
 		bonus_time = 0,
+		objective_1 = "",
 		extraenemy_difficulty = 0,
 		plot_type = 0,
-		objective_3 = "",
 		id = 2009,
 		scale = 100,
 		award_display = {
@@ -698,7 +698,7 @@ pg.expedition_data_template = {
 				"20%出現"
 			}
 		},
-		objective_1 = {
+		objective_3 = {
 			4,
 			60
 		}
@@ -727,9 +727,9 @@ pg.expedition_data_template = {
 		map_id = 10001,
 		activity_id2 = 0,
 		bonus_time = 0,
+		objective_1 = "",
 		extraenemy_difficulty = 0,
 		plot_type = 0,
-		objective_3 = "",
 		id = 3000,
 		scale = 100,
 		award_display = {
@@ -744,7 +744,7 @@ pg.expedition_data_template = {
 				"100%出現"
 			}
 		},
-		objective_1 = {
+		objective_3 = {
 			4,
 			60
 		}
@@ -773,9 +773,9 @@ pg.expedition_data_template = {
 		map_id = 10001,
 		activity_id2 = 0,
 		bonus_time = 0,
+		objective_1 = "",
 		extraenemy_difficulty = 0,
 		plot_type = 0,
-		objective_3 = "",
 		id = 3001,
 		scale = 100,
 		award_display = {
@@ -795,7 +795,7 @@ pg.expedition_data_template = {
 				"80%出現"
 			}
 		},
-		objective_1 = {
+		objective_3 = {
 			4,
 			80
 		}
@@ -824,9 +824,9 @@ pg.expedition_data_template = {
 		map_id = 10001,
 		activity_id2 = 0,
 		bonus_time = 0,
+		objective_1 = "",
 		extraenemy_difficulty = 0,
 		plot_type = 0,
-		objective_3 = "",
 		id = 3002,
 		scale = 100,
 		award_display = {
@@ -846,7 +846,7 @@ pg.expedition_data_template = {
 				"60%出現"
 			}
 		},
-		objective_1 = {
+		objective_3 = {
 			4,
 			80
 		}
@@ -875,9 +875,9 @@ pg.expedition_data_template = {
 		map_id = 10001,
 		activity_id2 = 0,
 		bonus_time = 0,
+		objective_1 = "",
 		extraenemy_difficulty = 0,
 		plot_type = 0,
-		objective_3 = "",
 		id = 3003,
 		scale = 100,
 		award_display = {
@@ -902,7 +902,7 @@ pg.expedition_data_template = {
 				"40%出現"
 			}
 		},
-		objective_1 = {
+		objective_3 = {
 			4,
 			80
 		}
@@ -931,9 +931,9 @@ pg.expedition_data_template = {
 		map_id = 10001,
 		activity_id2 = 0,
 		bonus_time = 0,
+		objective_1 = "",
 		extraenemy_difficulty = 0,
 		plot_type = 0,
-		objective_3 = "",
 		id = 3004,
 		scale = 100,
 		award_display = {
@@ -958,7 +958,7 @@ pg.expedition_data_template = {
 				"20%出現"
 			}
 		},
-		objective_1 = {
+		objective_3 = {
 			4,
 			90
 		}
@@ -1383,6 +1383,240 @@ pg.expedition_data_template = {
 			60
 		}
 	},
+	[6991] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 1,
+		ai_mov = 0,
+		add_icon = "",
+		name = "战术研修(航空)",
+		exp_commander = 0,
+		activity_id = 0,
+		exp_commander_ratio = 0,
+		time_limit = 60,
+		dungeon_id = 6991,
+		icon = "qz1",
+		difficulty = 1,
+		level = 120,
+		exp = 0,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 10005,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 6991,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			60
+		}
+	},
+	[6992] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 1,
+		ai_mov = 0,
+		add_icon = "",
+		name = "战术研修(航空)",
+		exp_commander = 0,
+		activity_id = 0,
+		exp_commander_ratio = 0,
+		time_limit = 60,
+		dungeon_id = 6992,
+		icon = "qz1",
+		difficulty = 1,
+		level = 120,
+		exp = 0,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 10005,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 6992,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			60
+		}
+	},
+	[6993] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 1,
+		ai_mov = 0,
+		add_icon = "",
+		name = "战术研修(航空)",
+		exp_commander = 0,
+		activity_id = 0,
+		exp_commander_ratio = 0,
+		time_limit = 60,
+		dungeon_id = 6993,
+		icon = "qz1",
+		difficulty = 1,
+		level = 120,
+		exp = 0,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 10005,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 6993,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			60
+		}
+	},
+	[6994] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 1,
+		ai_mov = 0,
+		add_icon = "",
+		name = "战术研修(航空)",
+		exp_commander = 0,
+		activity_id = 0,
+		exp_commander_ratio = 0,
+		time_limit = 60,
+		dungeon_id = 6994,
+		icon = "qz1",
+		difficulty = 1,
+		level = 120,
+		exp = 0,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 10005,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 6994,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			60
+		}
+	},
+	[6995] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 1,
+		ai_mov = 0,
+		add_icon = "",
+		name = "战术研修(航空)",
+		exp_commander = 0,
+		activity_id = 0,
+		exp_commander_ratio = 0,
+		time_limit = 60,
+		dungeon_id = 6995,
+		icon = "qz1",
+		difficulty = 1,
+		level = 120,
+		exp = 0,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 10005,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 6995,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			60
+		}
+	},
+	[6996] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 1,
+		ai_mov = 0,
+		add_icon = "",
+		name = "战术研修(航空)",
+		exp_commander = 0,
+		activity_id = 0,
+		exp_commander_ratio = 0,
+		time_limit = 60,
+		dungeon_id = 6996,
+		icon = "qz1",
+		difficulty = 1,
+		level = 120,
+		exp = 0,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 10005,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 6996,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			60
+		}
+	},
 	[80000] = {
 		sink_limit = 1,
 		ai = 0,
@@ -1407,13 +1641,13 @@ pg.expedition_data_template = {
 		map_id = 10001,
 		activity_id2 = 0,
 		bonus_time = 0,
+		objective_1 = "",
 		extraenemy_difficulty = 0,
 		plot_type = 0,
-		objective_3 = "",
 		id = 80000,
 		scale = 100,
 		award_display = {},
-		objective_1 = {
+		objective_3 = {
 			8
 		}
 	},
@@ -1441,13 +1675,13 @@ pg.expedition_data_template = {
 		map_id = 10002,
 		activity_id2 = 0,
 		bonus_time = 0,
+		objective_1 = "",
 		extraenemy_difficulty = 0,
 		plot_type = 0,
-		objective_3 = "",
 		id = 80001,
 		scale = 100,
 		award_display = {},
-		objective_1 = {
+		objective_3 = {
 			8
 		}
 	},
@@ -1475,13 +1709,13 @@ pg.expedition_data_template = {
 		map_id = 10003,
 		activity_id2 = 0,
 		bonus_time = 0,
+		objective_1 = "",
 		extraenemy_difficulty = 0,
 		plot_type = 0,
-		objective_3 = "",
 		id = 80002,
 		scale = 100,
 		award_display = {},
-		objective_1 = {
+		objective_3 = {
 			8
 		}
 	},
@@ -1509,13 +1743,13 @@ pg.expedition_data_template = {
 		map_id = 10004,
 		activity_id2 = 0,
 		bonus_time = 0,
+		objective_1 = "",
 		extraenemy_difficulty = 0,
 		plot_type = 0,
-		objective_3 = "",
 		id = 80003,
 		scale = 100,
 		award_display = {},
-		objective_1 = {
+		objective_3 = {
 			8
 		}
 	},
@@ -1543,13 +1777,13 @@ pg.expedition_data_template = {
 		map_id = 90000,
 		activity_id2 = 0,
 		bonus_time = 0,
+		objective_1 = "",
 		extraenemy_difficulty = 0,
 		plot_type = 0,
-		objective_3 = "",
 		id = 90001,
 		scale = 100,
 		award_display = {},
-		objective_1 = {
+		objective_3 = {
 			8
 		}
 	},
@@ -1577,13 +1811,13 @@ pg.expedition_data_template = {
 		map_id = 90000,
 		activity_id2 = 0,
 		bonus_time = 0,
+		objective_1 = "",
 		extraenemy_difficulty = 0,
 		plot_type = 0,
-		objective_3 = "",
 		id = 90002,
 		scale = 100,
 		award_display = {},
-		objective_1 = {
+		objective_3 = {
 			8
 		}
 	},
@@ -1611,13 +1845,13 @@ pg.expedition_data_template = {
 		map_id = 90000,
 		activity_id2 = 0,
 		bonus_time = 0,
+		objective_1 = "",
 		extraenemy_difficulty = 0,
 		plot_type = 0,
-		objective_3 = "",
 		id = 90003,
 		scale = 100,
 		award_display = {},
-		objective_1 = {
+		objective_3 = {
 			8
 		}
 	},
@@ -1645,13 +1879,13 @@ pg.expedition_data_template = {
 		map_id = 90000,
 		activity_id2 = 0,
 		bonus_time = 0,
+		objective_1 = "",
 		extraenemy_difficulty = 0,
 		plot_type = 0,
-		objective_3 = "",
 		id = 90004,
 		scale = 100,
 		award_display = {},
-		objective_1 = {
+		objective_3 = {
 			8
 		}
 	},
@@ -1679,13 +1913,13 @@ pg.expedition_data_template = {
 		map_id = 90000,
 		activity_id2 = 0,
 		bonus_time = 0,
+		objective_1 = "",
 		extraenemy_difficulty = 0,
 		plot_type = 0,
-		objective_3 = "",
 		id = 90005,
 		scale = 100,
 		award_display = {},
-		objective_1 = {
+		objective_3 = {
 			8
 		}
 	},
@@ -1713,13 +1947,13 @@ pg.expedition_data_template = {
 		map_id = 90000,
 		activity_id2 = 0,
 		bonus_time = 0,
+		objective_1 = "",
 		extraenemy_difficulty = 0,
 		plot_type = 0,
-		objective_3 = "",
 		id = 90006,
 		scale = 100,
 		award_display = {},
-		objective_1 = {
+		objective_3 = {
 			8
 		}
 	},
@@ -1747,13 +1981,13 @@ pg.expedition_data_template = {
 		map_id = 90000,
 		activity_id2 = 0,
 		bonus_time = 0,
+		objective_1 = "",
 		extraenemy_difficulty = 0,
 		plot_type = 0,
-		objective_3 = "",
 		id = 90007,
 		scale = 100,
 		award_display = {},
-		objective_1 = {
+		objective_3 = {
 			8
 		}
 	},
@@ -1781,13 +2015,13 @@ pg.expedition_data_template = {
 		map_id = 90000,
 		activity_id2 = 0,
 		bonus_time = 0,
+		objective_1 = "",
 		extraenemy_difficulty = 0,
 		plot_type = 0,
-		objective_3 = "",
 		id = 90008,
 		scale = 100,
 		award_display = {},
-		objective_1 = {
+		objective_3 = {
 			8
 		}
 	},
@@ -1815,13 +2049,13 @@ pg.expedition_data_template = {
 		map_id = 90000,
 		activity_id2 = 0,
 		bonus_time = 0,
+		objective_1 = "",
 		extraenemy_difficulty = 0,
 		plot_type = 0,
-		objective_3 = "",
 		id = 90009,
 		scale = 100,
 		award_display = {},
-		objective_1 = {
+		objective_3 = {
 			8
 		}
 	},
@@ -1849,13 +2083,13 @@ pg.expedition_data_template = {
 		map_id = 90000,
 		activity_id2 = 0,
 		bonus_time = 0,
+		objective_1 = "",
 		extraenemy_difficulty = 0,
 		plot_type = 0,
-		objective_3 = "",
 		id = 90010,
 		scale = 100,
 		award_display = {},
-		objective_1 = {
+		objective_3 = {
 			8
 		}
 	},
@@ -1883,13 +2117,13 @@ pg.expedition_data_template = {
 		map_id = 90000,
 		activity_id2 = 0,
 		bonus_time = 0,
+		objective_1 = "",
 		extraenemy_difficulty = 0,
 		plot_type = 0,
-		objective_3 = "",
 		id = 90021,
 		scale = 100,
 		award_display = {},
-		objective_1 = {
+		objective_3 = {
 			8
 		}
 	},
@@ -1917,13 +2151,13 @@ pg.expedition_data_template = {
 		map_id = 90000,
 		activity_id2 = 0,
 		bonus_time = 0,
+		objective_1 = "",
 		extraenemy_difficulty = 0,
 		plot_type = 0,
-		objective_3 = "",
 		id = 90022,
 		scale = 100,
 		award_display = {},
-		objective_1 = {
+		objective_3 = {
 			8
 		}
 	},
@@ -1951,13 +2185,13 @@ pg.expedition_data_template = {
 		map_id = 90000,
 		activity_id2 = 0,
 		bonus_time = 0,
+		objective_1 = "",
 		extraenemy_difficulty = 0,
 		plot_type = 0,
-		objective_3 = "",
 		id = 90023,
 		scale = 100,
 		award_display = {},
-		objective_1 = {
+		objective_3 = {
 			8
 		}
 	},
@@ -1985,13 +2219,13 @@ pg.expedition_data_template = {
 		map_id = 90000,
 		activity_id2 = 0,
 		bonus_time = 0,
+		objective_1 = "",
 		extraenemy_difficulty = 0,
 		plot_type = 0,
-		objective_3 = "",
 		id = 90024,
 		scale = 100,
 		award_display = {},
-		objective_1 = {
+		objective_3 = {
 			8
 		}
 	},
@@ -2019,13 +2253,13 @@ pg.expedition_data_template = {
 		map_id = 90000,
 		activity_id2 = 0,
 		bonus_time = 0,
+		objective_1 = "",
 		extraenemy_difficulty = 0,
 		plot_type = 0,
-		objective_3 = "",
 		id = 90025,
 		scale = 100,
 		award_display = {},
-		objective_1 = {
+		objective_3 = {
 			8
 		}
 	},
@@ -2053,13 +2287,13 @@ pg.expedition_data_template = {
 		map_id = 90000,
 		activity_id2 = 0,
 		bonus_time = 0,
+		objective_1 = "",
 		extraenemy_difficulty = 0,
 		plot_type = 0,
-		objective_3 = "",
 		id = 90026,
 		scale = 100,
 		award_display = {},
-		objective_1 = {
+		objective_3 = {
 			8
 		}
 	},
@@ -2087,13 +2321,13 @@ pg.expedition_data_template = {
 		map_id = 90000,
 		activity_id2 = 0,
 		bonus_time = 0,
+		objective_1 = "",
 		extraenemy_difficulty = 0,
 		plot_type = 0,
-		objective_3 = "",
 		id = 90027,
 		scale = 100,
 		award_display = {},
-		objective_1 = {
+		objective_3 = {
 			8
 		}
 	},
@@ -2121,13 +2355,13 @@ pg.expedition_data_template = {
 		map_id = 90000,
 		activity_id2 = 0,
 		bonus_time = 0,
+		objective_1 = "",
 		extraenemy_difficulty = 0,
 		plot_type = 0,
-		objective_3 = "",
 		id = 90028,
 		scale = 100,
 		award_display = {},
-		objective_1 = {
+		objective_3 = {
 			8
 		}
 	},
@@ -2155,13 +2389,13 @@ pg.expedition_data_template = {
 		map_id = 90000,
 		activity_id2 = 0,
 		bonus_time = 0,
+		objective_1 = "",
 		extraenemy_difficulty = 0,
 		plot_type = 0,
-		objective_3 = "",
 		id = 90029,
 		scale = 100,
 		award_display = {},
-		objective_1 = {
+		objective_3 = {
 			8
 		}
 	},
@@ -2189,13 +2423,13 @@ pg.expedition_data_template = {
 		map_id = 90000,
 		activity_id2 = 0,
 		bonus_time = 0,
+		objective_1 = "",
 		extraenemy_difficulty = 0,
 		plot_type = 0,
-		objective_3 = "",
 		id = 90030,
 		scale = 100,
 		award_display = {},
-		objective_1 = {
+		objective_3 = {
 			8
 		}
 	},
@@ -2223,9 +2457,9 @@ pg.expedition_data_template = {
 		map_id = 10002,
 		activity_id2 = 0,
 		bonus_time = 0,
+		objective_1 = "",
 		extraenemy_difficulty = 0,
 		plot_type = 0,
-		objective_3 = "",
 		id = 10141,
 		scale = 100,
 		award_display = {
@@ -2246,7 +2480,7 @@ pg.expedition_data_template = {
 				17032
 			}
 		},
-		objective_1 = {
+		objective_3 = {
 			4,
 			60
 		}
@@ -2275,9 +2509,9 @@ pg.expedition_data_template = {
 		map_id = 10002,
 		activity_id2 = 0,
 		bonus_time = 0,
+		objective_1 = "",
 		extraenemy_difficulty = 0,
 		plot_type = 0,
-		objective_3 = "",
 		id = 10500,
 		scale = 100,
 		award_display = {
@@ -2298,7 +2532,7 @@ pg.expedition_data_template = {
 				17032
 			}
 		},
-		objective_1 = {
+		objective_3 = {
 			4,
 			60
 		}
@@ -2503,9 +2737,9 @@ pg.expedition_data_template = {
 		map_id = 10002,
 		activity_id2 = 0,
 		bonus_time = 0,
+		objective_1 = "",
 		extraenemy_difficulty = 0,
 		plot_type = 0,
-		objective_3 = "",
 		id = 10241,
 		scale = 100,
 		award_display = {
@@ -2526,7 +2760,7 @@ pg.expedition_data_template = {
 				17032
 			}
 		},
-		objective_1 = {
+		objective_3 = {
 			4,
 			60
 		}
@@ -2791,9 +3025,9 @@ pg.expedition_data_template = {
 		map_id = 10002,
 		activity_id2 = 0,
 		bonus_time = 0,
+		objective_1 = "",
 		extraenemy_difficulty = 0,
 		plot_type = 0,
-		objective_3 = "",
 		id = 10341,
 		scale = 100,
 		award_display = {
@@ -2814,7 +3048,7 @@ pg.expedition_data_template = {
 				17032
 			}
 		},
-		objective_1 = {
+		objective_3 = {
 			4,
 			60
 		}
@@ -224922,6 +225156,12 @@ pg.expedition_data_template = {
 		6000,
 		6001,
 		6002,
+		6991,
+		6992,
+		6993,
+		6994,
+		6995,
+		6996,
 		80000,
 		80001,
 		80002,

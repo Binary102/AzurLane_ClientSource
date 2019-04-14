@@ -14,7 +14,6 @@ function ys.Battle.BattleBuffShieldWall.SetArgs(slot0, slot1, slot2)
 	slot0._doWhenHit = slot3.do_when_hit
 	slot0._unit = slot1
 	slot0._dataProxy = slot0.Battle.BattleDataProxy:GetInstance()
-	slot0._wallList = {}
 	slot0._centerPos = slot1:GetPosition()
 	slot0._startTime = pg.TimeMgr.GetInstance():GetCombatTime()
 
@@ -31,31 +30,27 @@ function ys.Battle.BattleBuffShieldWall.SetArgs(slot0, slot1, slot2)
 	end
 
 	slot5 = slot1:GetTemplate().scale / 50
+	slot7 = slot3.cld_list[1].box
+	slot8 = Clone(slot3.cld_list[1].offset)
 
-	for slot9, slot10 in ipairs(slot3.cld_list) do
-		slot11 = slot10.box
-		slot12 = Clone(slot10.offset)
-
-		if slot1:GetDirection() == slot0.Battle.BattleConst.UnitDir.LEFT then
-			slot12[1] = -slot12[1] * slot5
-		else
-			slot12[1] = slot12[1] * slot5
-		end
-
-		slot0._wallList[slot9] = slot0._dataProxy:SpawnWall(slot0, slot4, slot11, slot12)
+	if slot1:GetDirection() == slot0.Battle.BattleConst.UnitDir.LEFT then
+		slot8[1] = -slot8[1] * slot5
+	else
+		slot8[1] = slot8[1] * slot5
 	end
 
-	slot6, slot7 = nil
+	slot0._wall = slot0._dataProxy:SpawnWall(slot0, slot4, slot7, slot8)
+	slot9 = nil
 
 	if slot1[slot3.effect] then
-		slot12 = Vector3(slot1:GetTemplate().fx_container[slot8.container_index][1], slot1.GetTemplate().fx_container[slot8.container_index][2], slot1.GetTemplate().fx_container[slot8.container_index][3])
+		slot14 = Vector3(slot1:GetTemplate().fx_container[slot10.container_index][1], slot1.GetTemplate().fx_container[slot10.container_index][2], slot1.GetTemplate().fx_container[slot10.container_index][3])
 
-		slot12:Add(Vector3(slot8.offset[1], slot8.offset[2], slot8.offset[3]))
+		slot14:Add(Vector3(slot10.offset[1], slot10.offset[2], slot10.offset[3]))
 
-		slot7 = slot12
+		slot9 = slot14
 	end
 
-	if slot7 then
+	if slot9 then
 		function slot0._centerPosFun(slot0)
 			slot2 = slot0:centerPosFun()
 			slot2:Add(nil).x = slot2.Add(nil).x * slot2._dir
@@ -70,11 +65,11 @@ function ys.Battle.BattleBuffShieldWall.SetArgs(slot0, slot1, slot2)
 
 	if slot3.effect then
 		slot0._effectIndex = "BattleBuffShieldWall" .. slot2:GetID() .. slot0._tempData.id
-		slot9 = nil
+		slot11 = nil
 		slot0._unit = slot1
 		slot0._evtData = {
 			effect = slot3.effect,
-			posFun = (not slot7 or function (slot0)
+			posFun = (not slot9 or function (slot0)
 				return slot0:centerPosFun():Add(nil)
 			end) and slot3.centerPosFun,
 			index = slot0._effectIndex,
@@ -145,11 +140,7 @@ function ys.Battle.BattleBuffShieldWall.Clear(slot0)
 		}))
 	end
 
-	if slot0._wallList then
-		for slot4, slot5 in pairs(slot0._wallList) do
-			slot0._dataProxy:RemoveWall(slot5:GetUniqueID())
-		end
-	end
+	slot0._dataProxy:RemoveWall(slot0._wall:GetUniqueID())
 end
 
 return

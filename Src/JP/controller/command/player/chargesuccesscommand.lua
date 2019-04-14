@@ -62,7 +62,7 @@ class("ChargeSuccessCommand", pm.SimpleCommand).execute = function (slot0, slot1
 	slot13 = slot10:getFirstChargeList() or {}
 
 	if isAiriJP() and _.is_empty(slot13) then
-		SendAiriJPTracking(AIRIJP_TRACKING_PURCHASE_FIRST)
+		SendAiriJPTracking(AIRIJP_TRACKING_PURCHASE_FIRST, slot9.id, slot4)
 	end
 
 	if not table.contains(slot13, slot3) then

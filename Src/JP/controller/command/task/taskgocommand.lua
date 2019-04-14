@@ -213,7 +213,9 @@ class("TaskGoCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 	elseif slot13 == 100 then
 		slot0:sendNotification(GAME.GO_SCENE, SCENE.LEVEL, slot11)
 	elseif slot13 == 101 then
-		if slot14 == 5 then
+		if slot14 == 3 then
+			slot0:sendNotification(GAME.GO_SCENE, SCENE.LEVEL, slot11)
+		elseif slot14 == 5 or slot14 == 8 then
 			slot0:sendNotification(GAME.GO_SCENE, SCENE.DOCKYARD, {
 				showTagNoBlock = true,
 				mode = DockyardScene.MODE_OVERVIEW,

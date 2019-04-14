@@ -63,10 +63,21 @@ function slot0.updateShipAttrs(slot0)
 
 	for slot10, slot11 in pairs(slot0) do
 		slot13 = findTF(slot0.tf, "icons/" .. slot10)
+		slot14 = findTF(slot12, "value")
+		slot15 = findTF(slot12, "add")
+		slot16 = slot3[slot11] or 0
+		slot17 = slot5[slot11] or 1
+		slot18 = nil
 
-		setText(findTF(slot12, "value"), slot3[slot11] or 0)
-		setText(findTF(slot12, "add"), "+" .. math.floor(((slot4[slot11] or 0) + (slot3[slot11] or 0)) * (slot5[slot11] or 1)) - (slot3[slot11] or 0))
-		setActive(findTF(slot12, "add"), math.floor((setActive + (slot3[slot11] or 0)) * (slot5[slot11] or 1)) - (slot3[slot11] or 0) ~= 0)
+		if LOCK_EQUIP_DEVELOPMENT then
+			slot18 = slot4[slot11] or 0
+		else
+			slot18 = math.floor(((slot4[slot11] or 0) + slot16) * slot17) - slot16
+		end
+
+		setText(slot14, slot16)
+		setText(slot15, "+" .. slot18)
+		setActive(slot15, slot18 ~= 0)
 
 		if slot11 == AttributeType.Armor then
 			setActive(slot14, false)
@@ -307,10 +318,21 @@ function slot0.doAttrAnim(slot0, slot1, slot2, slot3)
 		slot18 = findTF(slot0.tf, "icons/" .. slot16)
 		slot20 = findTF(slot19, "value")
 		slot21 = findTF(slot19, "add")
-		slot24 = math.floor(((slot5[slot17] or 0) + (slot4[slot17] or 0)) * (slot6[slot17] or 1)) - (slot4[slot17] or 0)
-		slot27 = math.floor(((slot8[slot17] or 0) + (slot7[slot17] or 0)) * (slot9[slot17] or 1)) - (slot7[slot17] or 0)
+		slot22 = slot4[slot17] or 0
+		slot23 = slot6[slot17] or 1
+		slot24 = slot7[slot17] or 0
+		slot25 = slot9[slot17] or 1
+		slot26, slot27 = nil
 
-		if slot22 ~= slot25 then
+		if LOCK_EQUIP_DEVELOPMENT then
+			slot26 = slot5[slot17] or 0
+			slot27 = slot8[slot17] or 0
+		else
+			slot26 = math.floor(((slot5[slot17] or 0) + slot22) * slot23) - slot22
+			slot27 = math.floor(((slot8[slot17] or 0) + slot24) * slot25) - slot24
+		end
+
+		if slot22 ~= slot24 then
 			table.insert(slot10, function (slot0)
 				TweenValue(slot0, TweenValue, , , 0, function (slot0)
 					setText(slot0, math.floor(slot0))

@@ -40,7 +40,7 @@ function slot0.execute(slot0, slot1)
 					})
 
 					if isAiriJP() then
-						SendAiriJPTracking(AIRIJP_TRACKING_ROLE_LOGIN)
+						SendAiriJPTracking(AIRIJP_TRACKING_ROLE_LOGIN, slot0.user_id)
 					elseif slot0.user_id == 0 then
 						BilibiliSdkMgr.inst:chooseServer(tostring(slot0.id), slot0.name)
 					end

@@ -12,7 +12,7 @@ class("ChargeCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 	}, Goods.TYPE_CHARGE)
 
 	if isAiriJP() then
-		SendAiriJPTracking(AIRIJP_TRACKING_PURCHASE_CLICK, slot3)
+		SendAiriJPTracking(AIRIJP_TRACKING_PURCHASE_CLICK, getProxy(PlayerProxy):getData().id, slot3)
 	end
 
 	pg.ConnectionMgr.GetInstance():Send(11501, {

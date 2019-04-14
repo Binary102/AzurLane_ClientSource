@@ -5,15 +5,15 @@ class("UpdateGuideIndexCommand", pm.SimpleCommand).execute = function (slot0, sl
 		slot4:getData().guideIndex = slot3
 
 		slot4:updatePlayer(slot4.getData())
-	end
 
-	if isAiriJP() then
-		if slot3 == GUIDE_FINALE then
-			SendAiriJPTracking(AIRIJP_TRACKING_TUTORIAL_COMPLETE_1)
-		elseif slot3 == 801 then
-			SendAiriJPTracking(AIRIJP_TRACKING_TUTORIAL_COMPLETE_2)
-		elseif slot3 == 804 then
-			SendAiriJPTracking(AIRIJP_TRACKING_TUTORIAL_COMPLETE_3)
+		if isAiriJP() then
+			if slot3 == GUIDE_FINALE then
+				SendAiriJPTracking(AIRIJP_TRACKING_TUTORIAL_COMPLETE_1, slot5.id)
+			elseif slot3 == 801 then
+				SendAiriJPTracking(AIRIJP_TRACKING_TUTORIAL_COMPLETE_2, slot5.id)
+			elseif slot3 == 804 then
+				SendAiriJPTracking(AIRIJP_TRACKING_TUTORIAL_COMPLETE_3, slot5.id)
+			end
 		end
 	end
 

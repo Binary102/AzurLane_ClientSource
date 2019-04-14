@@ -68,6 +68,11 @@ function slot0.didEnter(slot0)
 		slot0:emit(slot1.ON_CLOSE)
 	end, SFX_CANCEL)
 	setActive(slot0:findTF("stamp", slot0.mainPanel), getProxy(TaskProxy):mingshiTouchFlagEnabled())
+
+	if LOCK_CLICK_MINGSHI then
+		setActive(slot0:findTF("stamp", slot0.mainPanel), false)
+	end
+
 	onButton(slot0, slot0:findTF("stamp", slot0.mainPanel), function ()
 		getProxy(TaskProxy):dealMingshiTouchFlag(3)
 	end, SFX_CONFIRM)
@@ -93,10 +98,6 @@ function slot0.initStudents(slot0)
 
 	for slot4 = 1, 4, 1 do
 		slot0.studentTFs[slot4] = slot0.studentContain:GetChild(slot4 - 1)
-
-		if slot4 == 3 or slot4 == 4 then
-			setActive(slot0.studentTFs[slot4], false)
-		end
 
 		if slot4 <= NavalAcademyProxy.MAX_SKILL_CLASS_NUM then
 			setActive(slot0.studentTFs[slot4], true)

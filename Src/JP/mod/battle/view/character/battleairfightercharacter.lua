@@ -46,11 +46,12 @@ end
 
 function ys.Battle.BattleAirFighterCharacter.onStrikeStateChange(slot0)
 	if slot0._unitData:GetStrikeState() == slot0.STRIKE_STATE_FLY then
-		slot0._tf.localScale = Vector3(slot2, 12 / (slot0._unitData:GetFormationIndex() + 3) + 1, )
+		slot0._tf.localScale = Vector3(slot2, (12 / (slot0._unitData:GetFormationIndex() + 3) + 1) * slot0._unitData:GetSize(), )
 
 		slot0._shadow:SetActive(false)
 	elseif slot1 == slot0.STRIKE_STATE_BACK then
-		slot0._tf.localScale = Vector3(-1, 1, 1)
+		slot2 = slot0._unitData:GetSize()
+		slot0._tf.localScale = Vector3(-slot2, slot2, slot2)
 
 		slot0._HPBar:SetActive(true)
 		slot0._shadow:SetActive(true)

@@ -40,7 +40,7 @@ function slot0.Type2Print(slot0)
 			"quzhu",
 			"battle_jinbi",
 			"battle_zibao",
-			"qianting"
+			"qianmu"
 		}
 	end
 

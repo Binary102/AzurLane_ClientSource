@@ -31,7 +31,8 @@ return {
 				1
 			},
 			types = {
-				EquipType.Torpedo
+				EquipType.Torpedo,
+				EquipType.SubmarineTorpedo
 			}
 		},
 		{

@@ -22,6 +22,16 @@ PLATFORM_US = 4
 PLATFORM_CODE = PLATFORM_JP
 
 if PLATFORM_CODE == PLATFORM_JP then
+	if CSharpVersion >= 22 then
+		require("Support/Helpers/AiriSdkSupport")
+		require("Support/Helpers/AiriTrackSupport")
+	else
+		require("Support/Helpers/AiriSdkSupport_old")
+		require("Support/Helpers/AiriTrackSupport_old")
+	end
+end
+
+if PLATFORM_CODE == PLATFORM_JP then
 	PLATFORM_LOCAL = BilibiliSdkMgr.inst.channelUID
 end
 
@@ -45,14 +55,6 @@ end
 
 function GetBiliServerId()
 	return BilibiliSdkMgr.serverId
-end
-
-function getDeviceId()
-	if PLATFORM_CODE == PLATFORM_JP then
-		return AiriSdkMgr.AiriSDKInst.GetDeviceUDID()
-	else
-		return ""
-	end
 end
 
 pg.TimeMgr.GetInstance():Init()

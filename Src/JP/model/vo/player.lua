@@ -539,7 +539,7 @@ function slot0.addExp(slot0, slot1)
 		slot0.level = slot0.level + 1
 
 		if isAiriJP() then
-			SendAiriJPTracking(AIRIJP_TRACKING_USER_LEVELUP, slot0.level)
+			SendAiriJPTracking(AIRIJP_TRACKING_USER_LEVELUP, slot0.id, slot0.level)
 		else
 			BilibiliSdkMgr.inst:levelUp()
 		end
@@ -604,6 +604,26 @@ end
 
 function slot0.updateCommanderBagMax(slot0, slot1)
 	slot0.commanderBagMax = slot0.commanderBagMax + slot1
+end
+
+function slot0.GetDaysFromRegister(slot0)
+	slot1 = pg.TimeMgr:GetInstance():GetServerTime()
+
+	return math.floor((os.time({
+		hour = 0,
+		second = 0,
+		minute = 0,
+		year = os.date("%Y", slot1),
+		month = os.date("%m", slot1),
+		day = os.date("%d", slot1)
+	}) - os.time({
+		hour = 0,
+		second = 0,
+		minute = 0,
+		year = os.date("%Y", slot0.registerTime),
+		month = os.date("%m", slot0.registerTime),
+		day = os.date("%d", slot0.registerTime)
+	})) / 86400)
 end
 
 return slot0

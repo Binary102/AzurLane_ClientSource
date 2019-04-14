@@ -14,7 +14,7 @@ class("CreateNewPlayerCommand", pm.SimpleCommand).execute = function (slot0, slo
 			print("created new player: " .. slot0.user_id)
 
 			if isAiriJP() then
-				SendAiriJPTracking(AIRIJP_TRACKING_ROLE_CREATE)
+				SendAiriJPTracking(AIRIJP_TRACKING_ROLE_CREATE, slot0.user_id)
 			end
 
 			slot1 = getProxy(SettingsProxy)

@@ -18,7 +18,17 @@ function slot0.register(slot0)
 	slot0:on(11003, function (slot0)
 		Player.New(slot0).resUpdateTm = pg.TimeMgr.GetInstance():GetServerTime()
 
-		slot0:updatePlayer(Player.New(slot0))
+		slot0:updatePlayer(slot1)
+		print("days from regist time to new :" .. slot0.data:GetDaysFromRegister())
+
+		if isAiriJP() then
+			if slot0.data:GetDaysFromRegister() == 1 then
+				SendAiriJPTracking(AIRIJP_TRACKING_2D_RETENTION, slot1.id)
+			elseif slot0.data:GetDaysFromRegister() == 6 then
+				SendAiriJPTracking(AIRIJP_TRACKING_7D_RETENTION, slot1.id)
+			end
+		end
+
 		slot0:flushTimesListener()
 	end)
 	slot0:on(11004, function (slot0)

@@ -94983,6 +94983,498 @@ pg.ship_data_statistics = {
 			"Division 8"
 		}
 	},
+	[301661] = {
+		oxy_max = 0,
+		type = 1,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "荒潮",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 2,
+		oxy_recovery = 0,
+		rarity = 3,
+		ammo = 0,
+		id = 301661,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Arashio",
+		skin_id = 301660,
+		painting_dir = 1,
+		attack_duration = 0,
+		nationality = 3,
+		armor_type = 1,
+		attrs = {
+			312,
+			12,
+			98,
+			28,
+			0,
+			72,
+			0,
+			67,
+			71,
+			42,
+			32,
+			46
+		},
+		attrs_growth = {
+			7620,
+			114,
+			970,
+			540,
+			0,
+			360,
+			0,
+			990,
+			1050,
+			0,
+			0,
+			454
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"D",
+			"A",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			0.7,
+			1.3,
+			0.7
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Division 8"
+		}
+	},
+	[301662] = {
+		oxy_max = 0,
+		type = 1,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "荒潮",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		rarity = 3,
+		ammo = 0,
+		id = 301662,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Arashio",
+		skin_id = 301660,
+		painting_dir = 1,
+		attack_duration = 0,
+		nationality = 3,
+		armor_type = 1,
+		attrs = {
+			388,
+			15,
+			122,
+			35,
+			0,
+			72,
+			0,
+			67,
+			71,
+			42,
+			32,
+			57
+		},
+		attrs_growth = {
+			7620,
+			114,
+			970,
+			540,
+			0,
+			360,
+			0,
+			990,
+			1050,
+			0,
+			0,
+			454
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"D",
+			"A",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			0.7,
+			1.35,
+			0.7
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Division 8"
+		}
+	},
+	[301663] = {
+		oxy_max = 0,
+		type = 1,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "荒潮",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		rarity = 3,
+		ammo = 0,
+		id = 301663,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Arashio",
+		skin_id = 301660,
+		painting_dir = 1,
+		attack_duration = 0,
+		nationality = 3,
+		armor_type = 1,
+		attrs = {
+			541,
+			21,
+			171,
+			48,
+			0,
+			72,
+			0,
+			67,
+			71,
+			42,
+			32,
+			80
+		},
+		attrs_growth = {
+			7620,
+			114,
+			970,
+			540,
+			0,
+			360,
+			0,
+			990,
+			1050,
+			0,
+			0,
+			454
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"D",
+			"A",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			0.7,
+			1.45,
+			0.7
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Division 8"
+		}
+	},
+	[301664] = {
+		oxy_max = 0,
+		type = 1,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "荒潮",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		rarity = 3,
+		ammo = 0,
+		id = 301664,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Arashio",
+		skin_id = 301660,
+		painting_dir = 1,
+		attack_duration = 0,
+		nationality = 3,
+		armor_type = 1,
+		attrs = {
+			769,
+			29,
+			244,
+			69,
+			0,
+			72,
+			0,
+			67,
+			71,
+			42,
+			32,
+			114
+		},
+		attrs_growth = {
+			7620,
+			114,
+			970,
+			540,
+			0,
+			360,
+			0,
+			990,
+			1050,
+			0,
+			0,
+			454
+		},
+		attrs_growth_extra = {
+			7610,
+			269,
+			1215,
+			375,
+			0,
+			848,
+			0,
+			-578,
+			-765,
+			0,
+			0,
+			447
+		},
+		grades = {
+			"D",
+			"A",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			0.75,
+			1.5,
+			0.75
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Division 8"
+		}
+	},
 	[301791] = {
 		oxy_max = 0,
 		type = 1,
@@ -177008,6 +177500,10 @@ pg.ship_data_statistics = {
 		301652,
 		301653,
 		301654,
+		301661,
+		301662,
+		301663,
+		301664,
 		301791,
 		301792,
 		301793,

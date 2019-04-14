@@ -10,7 +10,7 @@ function AiriCheckPreAudit()
 	return NetConst.GATEWAY_PORT == 50001 and NetConst.GATEWAY_HOST == "staging.azurlane.jp"
 end
 
-AIRI_APP_URL = "https://azurapi.yostar.co.jp/"
+AIRI_APP_URL = "http://jp-pp1.azurlane.jp:8080/"
 AIRI_PREAUDIT_URL = "http://test.sdk.azurlane.jp:8080/"
 
 function AiriInit(slot0)
@@ -45,9 +45,9 @@ end
 
 function LoginWithSocial(slot0)
 	if slot0 == AIRI_PLATFORM_FACEBOOK then
-		print("日服暂时不支持FB登录")
+		AiriSdkMgr.inst:LoginWithSocial(AiriJP.SocialPlatform.FACEBOOK)
 	elseif slot0 == AIRI_PLATFORM_TWITTER then
-		AiriSdkMgr.inst:LoginWithTwitter()
+		AiriSdkMgr.inst:LoginWithSocial(AiriJP.SocialPlatform.TWITTER)
 	end
 end
 
@@ -57,27 +57,25 @@ end
 
 function LinkSocial(slot0)
 	if slot0 == AIRI_PLATFORM_FACEBOOK then
-		print("日服暂时不支持FB登录")
+		AiriSdkMgr.inst:LinkSocial(AiriJP.SocialPlatform.FACEBOOK)
 	elseif slot0 == AIRI_PLATFORM_TWITTER then
-		AiriSdkMgr.inst:LinkTwitter()
+		AiriSdkMgr.inst:LinkSocial(AiriJP.SocialPlatform.TWITTER)
 	end
 end
 
 function UnlinkSocial(slot0)
 	if slot0 == AIRI_PLATFORM_FACEBOOK then
-		print("日服暂时不支持FB登录")
+		AiriSdkMgr.inst:UnlinkSocial(AiriJP.SocialPlatform.FACEBOOK)
 	elseif slot0 == AIRI_PLATFORM_TWITTER then
-		AiriSdkMgr.inst:UnlinkTwitter()
+		AiriSdkMgr.inst:UnlinkSocial(AiriJP.SocialPlatform.TWITTER)
 	end
 end
 
 function IsSocialLink(slot0)
 	if slot0 == AIRI_PLATFORM_FACEBOOK then
-		print("日服暂时不支持FB登录")
-
-		return false
+		return AiriSdkMgr.AiriSDKInst:IsSocialLinked(AiriJP.SocialPlatform.FACEBOOK)
 	elseif slot0 == AIRI_PLATFORM_TWITTER then
-		return AiriSdkMgr.AiriSDKInst.IsTwitterLinked
+		return AiriSdkMgr.AiriSDKInst:IsSocialLinked(AiriJP.SocialPlatform.TWITTER)
 	end
 
 	return false
@@ -85,11 +83,9 @@ end
 
 function GetSocialName(slot0)
 	if slot0 == AIRI_PLATFORM_FACEBOOK then
-		print("日服暂时不支持FB登录")
-
-		return "None"
+		return AiriSdkMgr.AiriSDKInst:GetSocialUsername(AiriJP.SocialPlatform.FACEBOOK)
 	elseif slot0 == AIRI_PLATFORM_TWITTER then
-		return AiriSdkMgr.AiriSDKInst.TwitterUsername
+		return AiriSdkMgr.AiriSDKInst:GetSocialUsername(AiriJP.SocialPlatform.TWITTER)
 	end
 
 	return ""
@@ -165,15 +161,15 @@ function SetBirthResult(slot0)
 	end
 end
 
-function LinkTwitterResult(slot0)
+function LinkSocialResult(slot0)
 	pg.UIMgr.GetInstance():LoadingOff()
 
 	if AiriJPResultCodeHandler(slot0) then
-		pg.m02:sendNotification(GAME.ON_TWITTER_LINKED)
+		pg.m02:sendNotification(GAME.ON_SOCIAL_LINKED)
 	end
 end
 
-function AiriJPTwitterLogin(slot0, slot1, slot2)
+function AiriSocialLogin(slot0, slot1, slot2)
 	pg.UIMgr.GetInstance():LoadingOff()
 
 	if AiriJPResultCodeHandler(slot0) then
@@ -193,11 +189,11 @@ function AiriJPTwitterLogin(slot0, slot1, slot2)
 	end
 end
 
-function UnlinkTwitterResult(slot0)
+function UnlinkSocialResult(slot0)
 	pg.UIMgr.GetInstance():LoadingOff()
 
 	if AiriJPResultCodeHandler(slot0) then
-		pg.m02:sendNotification(GAME.ON_TWITTER_UNLINKED)
+		pg.m02:sendNotification(GAME.ON_SOCIAL_UNLINKED)
 	end
 end
 
@@ -219,6 +215,14 @@ function AiriJPResultCodeHandler(slot0)
 	end
 
 	return false
+end
+
+function getDeviceId()
+	if PLATFORM_CODE == PLATFORM_JP then
+		return AiriSdkMgr.AiriSDKInst.GetDeviceUDID()
+	else
+		return ""
+	end
 end
 
 return

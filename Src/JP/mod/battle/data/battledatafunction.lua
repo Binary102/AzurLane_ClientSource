@@ -229,13 +229,19 @@ ys or .Battle.BattleDataFunction.GetBulletResFromSkill = function (slot0, slot1,
 	function slot5(slot0)
 		for slot4, slot5 in ipairs(slot0) do
 			if slot5.arg_list.weapon_id ~= nil then
-				slot0[#slot0 + 1] = slot1.Battle.BattleResourceManager.GetWeaponResource(slot6)
+				for slot11, slot12 in ipairs(slot7) do
+					slot1[#slot1 + 1] = slot12
+				end
 			end
 
 			if slot5.arg_list.buff_id then
 				for slot12, slot13 in ipairs(slot8) do
-					slot0[#slot0 + 1] = slot13
+					slot1[#slot1 + 1] = slot13
 				end
+			end
+
+			if slot5.arg_list.effect then
+				slot1[#slot1 + 1] = slot0.Battle.BattleResourceManager.GetFXPath(slot8)
 			end
 		end
 

@@ -85,11 +85,11 @@ class("LogoutCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 		})
 	})
 
-	if not isAiriJP() and slot2.code ~= SDK_EXIT_CODE then
+	if isAiriJP() then
+		SendAiriJPTracking(AIRIJP_TRACKING_ROLE_LOGOUT, (userId == nil and "") or userId)
+	elseif slot2.code ~= SDK_EXIT_CODE then
 		BilibiliSdkMgr.inst:localLogout()
 	end
-
-	SendAiriJPTracking(AIRIJP_TRACKING_ROLE_LOGOUT)
 end
 
 return class("LogoutCommand", pm.SimpleCommand)

@@ -424,7 +424,9 @@ function slot0.register(slot0)
 		slot0:sendNotification(GAME.SUB_CHAPTER_REFRESH)
 	end)
 	slot0:bind(slot0.ON_FETCH_SUB_CHAPTER, function (slot0)
-		slot0:sendNotification(GAME.SUB_CHAPTER_FETCH)
+		if not LOCK_SUBMARINE then
+			slot0:sendNotification(GAME.SUB_CHAPTER_FETCH)
+		end
 	end)
 	slot0:bind(slot0.ON_STRATEGYING_CHAPTER, function (slot0)
 		pg.MsgboxMgr:GetInstance():ShowMsgBox({

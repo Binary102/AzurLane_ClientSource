@@ -37,6 +37,14 @@ function slot0.register(slot0)
 				commanders = {}
 			})
 		end
+
+		if LOCK_SUBMARINE then
+			for slot4, slot5 in pairs(slot0.data) do
+				if slot5.id == 11 or slot5.id == 12 then
+					slot0.data[slot4] = nil
+				end
+			end
+		end
 	end)
 	slot0:on(12106, function (slot0)
 		if slot0.data[Fleet.New(slot0.group).id] then

@@ -129,14 +129,6 @@ function slot0.updateActivityData(slot0, slot1, slot2, slot3, slot4)
 	if slot3:getConfig("type") == ActivityConst.ACTIVITY_TYPE_7DAYSLOGIN then
 		slot3.data1 = slot3.data1 + 1
 		slot3.data2 = pg.TimeMgr.GetInstance():GetServerTime()
-
-		if isAiriJP() then
-			if slot3.data1 == 2 then
-				SendAiriJPTracking(AIRIJP_TRACKING_2D_RETENTION)
-			elseif slot3.data1 == 7 then
-				SendAiriJPTracking(AIRIJP_TRACKING_7D_RETENTION)
-			end
-		end
 	elseif slot5 == ActivityConst.ACTIVITY_TYPE_PROGRESSLOGIN then
 		if slot1.cmd == 1 then
 			slot3.data1 = slot3.data1 + 1

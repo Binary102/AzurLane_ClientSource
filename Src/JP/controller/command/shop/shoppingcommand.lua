@@ -10,10 +10,6 @@ class("ShoppingCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 		return
 	end
 
-	if isAiriJP() then
-		SendAiriJPTracking(AIRIJP_TRACKING_PURCHASE_CLICK)
-	end
-
 	if slot5.type == 2 then
 		for slot15, slot16 in pairs(slot11) do
 			if slot16[1] == 1 then

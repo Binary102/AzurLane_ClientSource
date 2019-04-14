@@ -644,7 +644,7 @@ function slot0.handleNotification(slot0, slot1)
 	elseif slot2 == ChatProxy.NEW_MSG or slot2 == GuildProxy.NEW_MSG_ADDED then
 		slot0:updateChat()
 	elseif slot2 == GAME.LOAD_SCENE_DONE or slot2 == GAME.GUIDE_FINISH then
-		if pg.SystemOpenMgr:GetInstance():isOpenSystem(getProxy(PlayerProxy):getData().level, "TechnologyMediator") then
+		if not LOCK_TECHNOLOGY and pg.SystemOpenMgr:GetInstance():isOpenSystem(getProxy(PlayerProxy):getData().level, "TechnologyMediator") then
 			if not pg.StoryMgr.GetInstance():IsPlayed("FANGAN1") then
 				slot0:sendNotification(GAME.GO_SCENE, SCENE.SELTECHNOLOGY)
 				pg.StoryMgr:GetInstance():Play("FANGAN1", function ()
@@ -777,7 +777,11 @@ function slot0.handleEnterMainUI(slot0)
 			end
 
 			slot0:onChapterTimeUp()
-			slot0:tryRequestMainSub()
+
+			if not LOCK_SUBMARINE then
+				slot0:tryRequestMainSub()
+			end
+
 			slot0:tryRequestVersion()
 			slot0:checkCV()
 			slot0:storyStorageFix()

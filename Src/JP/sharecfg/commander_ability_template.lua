@@ -308,7 +308,7 @@ pg.commander_ability_template = {
 		name = "新人水雷士·潜水",
 		group_id = 20,
 		worth = 1,
-		desc = "<color=#5caafc>潜水艦</color>の雷装が10アップ",
+		desc = "<color=#5caafc>潜水艦、潜水空母</color>の雷装が10アップ",
 		next = 202,
 		id = 201,
 		icon = "qianting_leiji_1",
@@ -317,7 +317,8 @@ pg.commander_ability_template = {
 				1,
 				{},
 				{
-					8
+					8,
+					17
 				},
 				3,
 				10
@@ -325,7 +326,7 @@ pg.commander_ability_template = {
 		},
 		add_desc = {
 			{
-				"<潜水艦>雷装",
+				"<潜水艦、潜水空母>雷装",
 				10
 			}
 		}
@@ -335,7 +336,7 @@ pg.commander_ability_template = {
 		name = "熟練水雷士·潜水",
 		group_id = 20,
 		worth = 2,
-		desc = "<color=#5caafc>潜水艦</color>の雷装が14アップ",
+		desc = "<color=#5caafc>潜水艦、潜水空母</color>の雷装が14アップ",
 		next = 203,
 		id = 202,
 		icon = "qianting_leiji_2",
@@ -344,7 +345,8 @@ pg.commander_ability_template = {
 				1,
 				{},
 				{
-					8
+					8,
+					17
 				},
 				3,
 				14
@@ -352,7 +354,7 @@ pg.commander_ability_template = {
 		},
 		add_desc = {
 			{
-				"<潜水艦>雷装",
+				"<潜水艦、潜水空母>雷装",
 				14
 			}
 		}
@@ -362,7 +364,7 @@ pg.commander_ability_template = {
 		name = "水雷長·潜水",
 		group_id = 20,
 		worth = 3,
-		desc = "<color=#5caafc>潜水艦</color>の雷装が20アップ",
+		desc = "<color=#5caafc>潜水艦、潜水空母</color>の雷装が20アップ",
 		next = 0,
 		id = 203,
 		icon = "qianting_leiji_3",
@@ -371,7 +373,8 @@ pg.commander_ability_template = {
 				1,
 				{},
 				{
-					8
+					8,
+					17
 				},
 				3,
 				20
@@ -379,7 +382,7 @@ pg.commander_ability_template = {
 		},
 		add_desc = {
 			{
-				"<潜水艦>雷装",
+				"<潜水艦、潜水空母>雷装",
 				20
 			}
 		}
@@ -1115,7 +1118,7 @@ pg.commander_ability_template = {
 		name = "新人装填手·潜水",
 		group_id = 60,
 		worth = 1,
-		desc = "<color=#5caafc>潜水艦</color>の装填が3アップ",
+		desc = "<color=#5caafc>潜水艦、潜水空母</color>の装填が3アップ",
 		next = 602,
 		id = 601,
 		icon = "qianting_one_1",
@@ -1124,7 +1127,8 @@ pg.commander_ability_template = {
 				1,
 				{},
 				{
-					8
+					8,
+					17
 				},
 				6,
 				3
@@ -1132,7 +1136,7 @@ pg.commander_ability_template = {
 		},
 		add_desc = {
 			{
-				"<潜水艦>装填",
+				"<潜水艦、潜水空母>装填",
 				3
 			}
 		}
@@ -1142,7 +1146,7 @@ pg.commander_ability_template = {
 		name = "熟練装填手·潜水",
 		group_id = 60,
 		worth = 2,
-		desc = "<color=#5caafc>潜水艦</color>の装填が4アップ",
+		desc = "<color=#5caafc>潜水艦、潜水空母</color>の装填が4アップ",
 		next = 603,
 		id = 602,
 		icon = "qianting_one_2",
@@ -1151,7 +1155,8 @@ pg.commander_ability_template = {
 				1,
 				{},
 				{
-					8
+					8,
+					17
 				},
 				6,
 				4
@@ -1159,7 +1164,7 @@ pg.commander_ability_template = {
 		},
 		add_desc = {
 			{
-				"<潜水艦>装填",
+				"<潜水艦、潜水空母>装填",
 				4
 			}
 		}
@@ -1169,7 +1174,7 @@ pg.commander_ability_template = {
 		name = "高速装填手·潜水",
 		group_id = 60,
 		worth = 3,
-		desc = "<color=#5caafc>潜水艦</color>の装填が6アップ",
+		desc = "<color=#5caafc>潜水艦、潜水空母</color>の装填が6アップ",
 		next = 0,
 		id = 603,
 		icon = "qianting_one_3",
@@ -1178,7 +1183,8 @@ pg.commander_ability_template = {
 				1,
 				{},
 				{
-					8
+					8,
+					17
 				},
 				6,
 				6
@@ -1186,7 +1192,7 @@ pg.commander_ability_template = {
 		},
 		add_desc = {
 			{
-				"<潜水艦>装填",
+				"<潜水艦、潜水空母>装填",
 				6
 			}
 		}
@@ -1676,7 +1682,7 @@ pg.commander_ability_template = {
 		name = "新人機関士·潜水",
 		group_id = 70,
 		worth = 1,
-		desc = "<color=#5caafc>潜水艦</color>の耐久が25アップ",
+		desc = "<color=#5caafc>潜水艦、潜水空母</color>の耐久が25アップ",
 		next = 702,
 		id = 701,
 		icon = "qianting_naijiu_1",
@@ -1685,7 +1691,8 @@ pg.commander_ability_template = {
 				1,
 				{},
 				{
-					8
+					8,
+					17
 				},
 				1,
 				20
@@ -1693,7 +1700,7 @@ pg.commander_ability_template = {
 		},
 		add_desc = {
 			{
-				"<潜水艦>耐久",
+				"<潜水艦、潜水空母>耐久",
 				25
 			}
 		}
@@ -1703,7 +1710,7 @@ pg.commander_ability_template = {
 		name = "熟練機関士·潜水",
 		group_id = 70,
 		worth = 2,
-		desc = "<color=#5caafc>潜水艦</color>の耐久が35アップ",
+		desc = "<color=#5caafc>潜水艦、潜水空母</color>の耐久が35アップ",
 		next = 703,
 		id = 702,
 		icon = "qianting_naijiu_2",
@@ -1712,7 +1719,8 @@ pg.commander_ability_template = {
 				1,
 				{},
 				{
-					8
+					8,
+					17
 				},
 				1,
 				35
@@ -1720,7 +1728,7 @@ pg.commander_ability_template = {
 		},
 		add_desc = {
 			{
-				"<潜水艦>耐久",
+				"<潜水艦、潜水空母>耐久",
 				35
 			}
 		}
@@ -1730,7 +1738,7 @@ pg.commander_ability_template = {
 		name = "機関長·潜水",
 		group_id = 70,
 		worth = 3,
-		desc = "<color=#5caafc>潜水艦</color>の耐久が50アップ",
+		desc = "<color=#5caafc>潜水艦、潜水空母</color>の耐久が50アップ",
 		next = 0,
 		id = 703,
 		icon = "qianting_naijiu_3",
@@ -1739,7 +1747,8 @@ pg.commander_ability_template = {
 				1,
 				{},
 				{
-					8
+					8,
+					17
 				},
 				1,
 				50
@@ -1747,7 +1756,7 @@ pg.commander_ability_template = {
 		},
 		add_desc = {
 			{
-				"<潜水艦>耐久",
+				"<潜水艦、潜水空母>耐久",
 				50
 			}
 		}
@@ -2237,7 +2246,7 @@ pg.commander_ability_template = {
 		name = "新人見張員·潜水",
 		group_id = 80,
 		worth = 1,
-		desc = "<color=#5caafc>潜水艦</color>の命中が2アップ",
+		desc = "<color=#5caafc>潜水艦、潜水空母</color>の命中が2アップ",
 		next = 802,
 		id = 801,
 		icon = "qianting_one_1",
@@ -2246,7 +2255,8 @@ pg.commander_ability_template = {
 				1,
 				{},
 				{
-					8
+					8,
+					17
 				},
 				8,
 				2
@@ -2254,7 +2264,7 @@ pg.commander_ability_template = {
 		},
 		add_desc = {
 			{
-				"<潜水艦>命中",
+				"<潜水艦、潜水空母>命中",
 				2
 			}
 		}
@@ -2264,7 +2274,7 @@ pg.commander_ability_template = {
 		name = "熟練見張員·潜水",
 		group_id = 80,
 		worth = 2,
-		desc = "<color=#5caafc>潜水艦</color>の命中が3アップ",
+		desc = "<color=#5caafc>潜水艦、潜水空母</color>の命中が3アップ",
 		next = 803,
 		id = 802,
 		icon = "qianting_one_2",
@@ -2273,7 +2283,8 @@ pg.commander_ability_template = {
 				1,
 				{},
 				{
-					8
+					8,
+					17
 				},
 				8,
 				3
@@ -2281,7 +2292,7 @@ pg.commander_ability_template = {
 		},
 		add_desc = {
 			{
-				"<潜水艦>命中",
+				"<潜水艦、潜水空母>命中",
 				3
 			}
 		}
@@ -2291,7 +2302,7 @@ pg.commander_ability_template = {
 		name = "達人見張員·潜水",
 		group_id = 80,
 		worth = 3,
-		desc = "<color=#5caafc>潜水艦</color>の命中が5アップ",
+		desc = "<color=#5caafc>潜水艦、潜水空母</color>の命中が5アップ",
 		next = 0,
 		id = 803,
 		icon = "qianting_one_3",
@@ -2300,7 +2311,8 @@ pg.commander_ability_template = {
 				1,
 				{},
 				{
-					8
+					8,
+					17
 				},
 				8,
 				5
@@ -2308,7 +2320,7 @@ pg.commander_ability_template = {
 		},
 		add_desc = {
 			{
-				"<潜水艦>命中",
+				"<潜水艦、潜水空母>命中",
 				5
 			}
 		}
@@ -2504,7 +2516,7 @@ pg.commander_ability_template = {
 		name = "操舵手·小型艦",
 		group_id = 90,
 		worth = 1,
-		desc = "<color=#5caafc>潜水艦、駆逐</color>の回避が5アップ",
+		desc = "<color=#5caafc>潜水艦、潜水空母、駆逐</color>の回避が5アップ",
 		next = 902,
 		id = 901,
 		icon = "quzhu_one_1",
@@ -2514,7 +2526,8 @@ pg.commander_ability_template = {
 				{},
 				{
 					1,
-					8
+					8,
+					17
 				},
 				9,
 				5
@@ -2522,7 +2535,7 @@ pg.commander_ability_template = {
 		},
 		add_desc = {
 			{
-				"<潜水艦>回避",
+				"<潜水艦、潜水空母>回避",
 				5
 			},
 			{
@@ -2536,7 +2549,7 @@ pg.commander_ability_template = {
 		name = "熟練操舵手·小型艦",
 		group_id = 90,
 		worth = 2,
-		desc = "<color=#5caafc>潜水艦、駆逐</color>の回避が7アップ",
+		desc = "<color=#5caafc>潜水艦、潜水空母、駆逐</color>の回避が7アップ",
 		next = 903,
 		id = 902,
 		icon = "quzhu_one_2",
@@ -2546,7 +2559,8 @@ pg.commander_ability_template = {
 				{},
 				{
 					1,
-					8
+					8,
+					17
 				},
 				9,
 				7
@@ -2554,7 +2568,7 @@ pg.commander_ability_template = {
 		},
 		add_desc = {
 			{
-				"<潜水艦>回避",
+				"<潜水艦、潜水空母>回避",
 				7
 			},
 			{
@@ -2568,7 +2582,7 @@ pg.commander_ability_template = {
 		name = "航海長·小型艦",
 		group_id = 90,
 		worth = 3,
-		desc = "<color=#5caafc>潜水艦、駆逐</color>の回避が10アップ",
+		desc = "<color=#5caafc>潜水艦、潜水空母、駆逐</color>の回避が10アップ",
 		next = 0,
 		id = 903,
 		icon = "quzhu_one_3",
@@ -2578,7 +2592,8 @@ pg.commander_ability_template = {
 				{},
 				{
 					1,
-					8
+					8,
+					17
 				},
 				9,
 				10
@@ -2586,7 +2601,7 @@ pg.commander_ability_template = {
 		},
 		add_desc = {
 			{
-				"<潜水艦>回避",
+				"<潜水艦、潜水空母>回避",
 				10
 			},
 			{
@@ -3407,7 +3422,7 @@ pg.commander_ability_template = {
 		name = "新人参謀·潜水",
 		group_id = 204,
 		worth = 1,
-		desc = "<color=#5caafc>潜水艦</color>の雷装が10アップ、装填が3アップ",
+		desc = "<color=#5caafc>潜水艦、潜水空母</color>の雷装が10アップ、装填が3アップ",
 		next = 2042,
 		id = 2041,
 		icon = "qianting_one_1",
@@ -3416,7 +3431,8 @@ pg.commander_ability_template = {
 				1,
 				{},
 				{
-					8
+					8,
+					17
 				},
 				3,
 				10
@@ -3425,7 +3441,8 @@ pg.commander_ability_template = {
 				1,
 				{},
 				{
-					8
+					8,
+					17
 				},
 				6,
 				3
@@ -3433,11 +3450,11 @@ pg.commander_ability_template = {
 		},
 		add_desc = {
 			{
-				"<潜水艦>雷装",
+				"<潜水艦、潜水空母>雷装",
 				10
 			},
 			{
-				"<潜水艦>装填",
+				"<潜水艦、潜水空母>装填",
 				3
 			}
 		}
@@ -3447,7 +3464,7 @@ pg.commander_ability_template = {
 		name = "熟練参謀·潜水",
 		group_id = 204,
 		worth = 2,
-		desc = "<color=#5caafc>潜水艦</color>の雷装が14アップ、装填が4アップ",
+		desc = "<color=#5caafc>潜水艦、潜水空母</color>の雷装が14アップ、装填が4アップ",
 		next = 2043,
 		id = 2042,
 		icon = "qianting_one_2",
@@ -3456,7 +3473,8 @@ pg.commander_ability_template = {
 				1,
 				{},
 				{
-					8
+					8,
+					17
 				},
 				3,
 				14
@@ -3465,7 +3483,8 @@ pg.commander_ability_template = {
 				1,
 				{},
 				{
-					8
+					8,
+					17
 				},
 				6,
 				4
@@ -3473,11 +3492,11 @@ pg.commander_ability_template = {
 		},
 		add_desc = {
 			{
-				"<潜水艦>雷装",
+				"<潜水艦、潜水空母>雷装",
 				14
 			},
 			{
-				"<潜水艦>装填",
+				"<潜水艦、潜水空母>装填",
 				4
 			}
 		}
@@ -3487,7 +3506,7 @@ pg.commander_ability_template = {
 		name = "歴戦参謀·潜水",
 		group_id = 204,
 		worth = 3,
-		desc = "<color=#5caafc>潜水艦</color>の雷装が20アップ、装填が6アップ",
+		desc = "<color=#5caafc>潜水艦、潜水空母</color>の雷装が20アップ、装填が6アップ",
 		next = 0,
 		id = 2043,
 		icon = "qianting_one_3",
@@ -3496,7 +3515,8 @@ pg.commander_ability_template = {
 				1,
 				{},
 				{
-					8
+					8,
+					17
 				},
 				3,
 				20
@@ -3505,7 +3525,8 @@ pg.commander_ability_template = {
 				1,
 				{},
 				{
-					8
+					8,
+					17
 				},
 				6,
 				6
@@ -3513,11 +3534,11 @@ pg.commander_ability_template = {
 		},
 		add_desc = {
 			{
-				"<潜水艦>雷装",
+				"<潜水艦、潜水空母>雷装",
 				20
 			},
 			{
-				"<潜水艦>装填",
+				"<潜水艦、潜水空母>装填",
 				6
 			}
 		}
@@ -4981,7 +5002,7 @@ pg.commander_ability_template = {
 		name = "ウルフハウンド",
 		group_id = 505,
 		worth = 1,
-		desc = "<color=#5caafc>潜水艦</color>の雷装が15アップ，装填が8アップ",
+		desc = "<color=#5caafc>潜水艦、潜水空母</color>の雷装が15アップ，装填が8アップ",
 		next = 0,
 		id = 5051,
 		icon = "langqunzhishou",
@@ -4990,7 +5011,8 @@ pg.commander_ability_template = {
 				1,
 				{},
 				{
-					8
+					8,
+					17
 				},
 				3,
 				15
@@ -4999,7 +5021,8 @@ pg.commander_ability_template = {
 				1,
 				{},
 				{
-					8
+					8,
+					17
 				},
 				6,
 				8
@@ -5007,11 +5030,11 @@ pg.commander_ability_template = {
 		},
 		add_desc = {
 			{
-				"<潜水艦>雷装",
+				"<潜水艦、潜水空母>雷装",
 				15
 			},
 			{
-				"<潜水艦>装填",
+				"<潜水艦、潜水空母>装填",
 				8
 			}
 		}

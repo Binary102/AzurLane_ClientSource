@@ -21,8 +21,8 @@ function slot0.listNotificationInterests(slot0)
 		PlayerProxy.UPDATED,
 		GAME.EXCHANGECODE_USE_SUCCESS,
 		GAME.ON_GET_TRANSCODE,
-		GAME.ON_TWITTER_LINKED,
-		GAME.ON_TWITTER_UNLINKED
+		GAME.ON_SOCIAL_LINKED,
+		GAME.ON_SOCIAL_UNLINKED
 	}
 end
 
@@ -33,9 +33,9 @@ function slot0.handleNotification(slot0, slot1)
 		slot0.viewComponent:clearExchangeCode()
 	elseif slot2 == GAME.ON_GET_TRANSCODE then
 		slot0.viewComponent:showTranscode(slot3.transcode)
-	elseif slot2 == GAME.ON_TWITTER_LINKED then
+	elseif slot2 == GAME.ON_SOCIAL_LINKED then
 		slot0.viewComponent:checkAccountTwitterView()
-	elseif slot2 == GAME.ON_TWITTER_UNLINKED then
+	elseif slot2 == GAME.ON_SOCIAL_UNLINKED then
 		slot0.viewComponent:checkAccountTwitterView()
 	end
 end

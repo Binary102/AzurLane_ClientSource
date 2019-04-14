@@ -4826,12 +4826,19 @@ pg.gametip = {
 	},
 	help_build = {
 		tip = [[
-					<size=25>レアリティ出現割合</size>
-
+					<size=19>レアリティ出現割合
 						<color=#fff157>SSレア</color>：$2%
 						<color=#966af6>Sレア</color>：$3%
 						<color=#60a9ff>レア</color>：$4%
-						ノーマル：$5%]],
+						ノーマル：$5%
+
+						【期間限定】
+
+						<color=#fff157>三笠</color>：2%<color=#A9F548>(up!)</color>
+						<color=#966af6>比叡</color>：2.5%<color=#A9F548>(up!)</color>
+						<color=#60a9ff>浜風</color>：5%<color=#A9F548>(up!)</color>
+						<color=#60a9ff>黒潮</color>：5%<color=#A9F548>(up!)</color>
+						<color=#60a9ff>親潮</color>：5%<color=#A9F548>(up!)</color></size>]],
 		key = "help_build"
 	},
 	help_build_1 = {

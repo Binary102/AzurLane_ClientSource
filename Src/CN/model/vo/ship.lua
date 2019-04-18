@@ -125,7 +125,7 @@ function slot0.getShipWords(slot0)
 		end
 	end
 
-	return slot2
+	return slot2, pg.ship_skin_words_extra[slot0]
 end
 
 function slot0.getMainwordsCount(slot0)
@@ -136,64 +136,97 @@ function slot0.getMainwordsCount(slot0)
 	return #string.split(slot1.main, "|")
 end
 
-function slot0.getWords(slot0, slot1, slot2, slot3)
-	slot6 = math.fmod(slot0, slot0:getOriginalSkinId())
-
-	if not slot0:getShipWords() and not slot0.getShipWords(slot5) then
-		return nil
+function slot0.getWordsEx(slot0, slot1, slot2, slot3)
+	if not ((slot0 and slot0[slot1]) or nil) then
+		return
 	end
 
-	slot7 = 0
-	slot8 = false
+	if type(slot4) == "string" then
+		return
+	end
 
-	if not slot4[slot1] or slot9 == "" then
-		slot8 = true
+	slot3 = slot3 or 0
 
-		if slot4.id == slot5 then
+	for slot8, slot9 in ipairs(slot4) do
+		if slot9[1] <= slot3 then
+			if slot1 == "main" then
+				return string.split(slot9[2], "|")[slot2], slot9[1]
+			else
+				return slot9[2], slot9[1]
+			end
+		end
+	end
+end
+
+function slot0.getWords(slot0, slot1, slot2, slot3, slot4)
+	slot5, slot6 = slot0:getShipWords()
+	slot8 = math.fmod(slot0, slot0:getOriginalSkinId())
+
+	if not slot5 then
+		slot5, slot6 = slot0.getShipWords(slot7)
+
+		if not slot9 then
+			return nil
+		end
+	end
+
+	slot9 = 0
+	slot10 = false
+
+	if not slot5[slot1] or slot11 == "" then
+		slot10 = true
+
+		if slot5.id == slot7 then
 			return nil
 		else
-			if not slot0.getShipWords(slot5) then
+			if not slot0.getShipWords(slot7) then
 				return nil
 			end
 
-			if not slot4[slot1] or slot9 == "" then
+			if not slot5[slot1] or slot11 == "" then
 				return nil
 			end
 		end
 	end
 
-	slot11 = slot2 or math.random(#string.split(slot9, "|"))
+	slot13 = slot2 or math.random(#string.split(slot11, "|"))
 
-	if slot1 == "main" and slot10[slot11] == "nil" then
-		if not slot0.getShipWords(slot5) then
+	if slot1 == "main" and slot12[slot13] == "nil" then
+		if not slot0.getShipWords(slot7) then
 			return nil
 		end
 
-		if not slot4[slot1] or slot9 == "" then
+		if not slot5[slot1] or slot11 == "" then
 			return nil
 		end
 
-		slot10 = string.split(slot9, "|")
+		slot12 = string.split(slot11, "|")
 	end
 
-	slot12 = nil
-	slot14 = (PlayerPrefs.GetInt("CV_LANGUAGE_" .. pg.ship_skin_template[slot0].ship_group) == 2 and slot4.voice_key_2) or slot4.voice_key
+	slot14 = nil
+	slot16 = (PlayerPrefs.GetInt("CV_LANGUAGE_" .. pg.ship_skin_template[slot0].ship_group) == 2 and slot5.voice_key_2) or slot5.voice_key
 
-	if slot14 == 0 then
-		if not slot8 then
-			slot12 = slot0.getCVPath(slot5, slot1, slot11, slot6)
+	if slot16 == 0 then
+		if not slot10 then
+			slot14 = slot0.getCVPath(slot7, slot1, slot13, slot8)
 		end
 	else
-		slot12 = slot0.getCVPath(slot5, slot1, slot11)
+		slot14 = slot0.getCVPath(slot7, slot1, slot13)
 	end
 
-	slot15 = slot10[slot11]
+	slot17 = slot12[slot13]
 
 	if slot3 == nil or slot3 == true then
-		slot15 = slot15:gsub("%s", " ")
+		slot17 = slot17:gsub("%s", " ")
 	end
 
-	return slot15, slot12
+	rstEx, cvEx = slot0.getWordsEx(slot6, slot1, slot13, slot4)
+
+	if rstEx then
+		slot14 = slot14 .. "_ex" .. cvEx
+	end
+
+	return rstEx or slot17, slot14, cvEx
 end
 
 function slot0.getCVKeyID(slot0)
@@ -827,6 +860,10 @@ function slot0.getShipProperties(slot0)
 	return slot1
 end
 
+function slot0.getTechNationAddition(slot0, slot1)
+	return getProxy(TechnologyNationProxy):getShipAddition(slot0:getConfig("type"), slot1)
+end
+
 function slot0.getEquipProficiencyByPos(slot0, slot1)
 	return slot0:getEquipProficiencyList()[slot1]
 end
@@ -1082,45 +1119,51 @@ function slot0.calcWeaponCD(slot0, slot1)
 	end
 end
 
-function slot0.getProperties(slot0, slot1)
-	slot2 = slot1 or {}
-	slot3 = slot0:getConfig("nationality")
-	slot4 = slot0:getConfig("type")
-	slot5 = slot0:getShipProperties()
-	slot6, slot7 = slot0:getEquipmentProperties()
+function slot0.getProperties(slot0, slot1, slot2)
+	slot3 = slot1 or {}
+	slot4 = slot0:getConfig("nationality")
+	slot5 = slot0:getConfig("type")
+	slot6 = slot0:getShipProperties()
+	slot7, slot8 = slot0:getEquipmentProperties()
 
-	for slot11, slot12 in ipairs(slot0.PROPERTIES) do
-		slot13 = 0
+	for slot12, slot13 in ipairs(slot0.PROPERTIES) do
 		slot14 = 0
+		slot15 = 0
 
-		for slot18, slot19 in pairs(slot2) do
-			slot13 = slot13 + slot19:getAttrRatioAddition(slot12, slot3, slot4) / 100
-			slot14 = slot14 + slot19:getAttrValueAddition(slot12, slot3, slot4)
+		for slot19, slot20 in pairs(slot3) do
+			slot14 = slot14 + slot20:getAttrRatioAddition(slot13, slot4, slot5) / 100
+			slot15 = slot15 + slot20:getAttrValueAddition(slot13, slot4, slot5)
 		end
 
 		if LOCK_EQUIP_DEVELOPMENT then
-			slot5[slot12] = slot5[slot12] + slot6[slot12]
+			slot6[slot13] = slot6[slot13] + slot7[slot13]
 		else
-			slot15 = slot7[slot12] or 1
-			slot15 = slot13 + slot15
+			slot16 = slot8[slot13] or 1
+			slot16 = slot14 + slot16
 
-			if slot12 == AttributeType.Speed then
-				slot5[slot12] = slot5[slot12] * slot15 + slot14 + slot6[slot12]
+			if slot13 == AttributeType.Speed then
+				slot6[slot13] = slot6[slot13] * slot16 + slot15 + slot7[slot13]
 			else
-				slot5[slot12] = math.floor(math.floor(slot5[slot12]) * slot15) + slot14 + slot6[slot12]
+				slot6[slot13] = math.floor(math.floor(slot6[slot13]) * slot16) + slot15 + slot7[slot13]
 			end
 		end
 	end
 
-	for slot11, slot12 in ipairs(slot0.DIVE_PROPERTIES) do
-		slot5[slot12] = slot5[slot12] + slot6[slot12]
+	if not slot2 and slot0:isMaxStar() then
+		for slot12, slot13 in pairs(slot6) do
+			slot6[slot12] = slot6[slot12] + slot0:getTechNationAddition(slot12)
+		end
 	end
 
-	for slot11, slot12 in ipairs(slot0.SONAR_PROPERTIES) do
-		slot5[slot12] = slot5[slot12] + slot6[slot12]
+	for slot12, slot13 in ipairs(slot0.DIVE_PROPERTIES) do
+		slot6[slot13] = slot6[slot13] + slot7[slot13]
 	end
 
-	return slot5
+	for slot12, slot13 in ipairs(slot0.SONAR_PROPERTIES) do
+		slot6[slot13] = slot6[slot13] + slot7[slot13]
+	end
+
+	return slot6
 end
 
 function slot0.getTransGearScore(slot0)
@@ -1176,8 +1219,18 @@ function slot0.setIntimacy(slot0, slot1)
 	end
 end
 
-function slot0.getLevelExpConfig(slot0)
-	return getConfigFromLevel1(slot0, slot0.level)
+function slot0.getLevelExpConfig(slot0, slot1)
+	if slot0:getConfig("rarity") == ShipRarity.SSR then
+		slot2 = Clone(getConfigFromLevel1(slot0, slot1 or slot0.level))
+		slot2.exp = slot2.exp_ur
+		slot2.exp_start = slot2.exp_ur_start
+		slot2.exp_interval = slot2.exp_ur_interval
+		slot2.exp_end = slot2.exp_ur_end
+
+		return slot2
+	else
+		return getConfigFromLevel1(slot0, slot1 or slot0.level)
+	end
 end
 
 function slot0.getExp(slot0)
@@ -1242,7 +1295,7 @@ function slot0.getMaxLevel(slot0)
 end
 
 function slot0.canLevelUp(slot0)
-	return getConfigFromLevel1(slot0, slot0.level + 1) and slot0:getLevelExpConfig().exp_interval <= slot0.exp and not (slot0:getMaxLevel() <= slot0.level)
+	return slot0:getLevelExpConfig(slot0.level + 1) and slot0:getLevelExpConfig().exp_interval <= slot0.exp and not (slot0:getMaxLevel() <= slot0.level)
 end
 
 function slot0.getConfigMaxLevel(slot0)
@@ -1319,7 +1372,7 @@ function slot0.getStartBattleExpend(slot0)
 end
 
 function slot0.getEndBattleExpend(slot0)
-	return math.floor((pg.ship_data_template[slot0.configId].oil_at_end * getConfigFromLevel1(slot0, slot0.level).fight_oil_ratio) / 10000)
+	return math.floor((pg.ship_data_template[slot0.configId].oil_at_end * slot0:getLevelExpConfig().fight_oil_ratio) / 10000)
 end
 
 function slot0.getBattleTotalExpend(slot0)
@@ -1874,6 +1927,20 @@ function slot0.isBreakOut(slot0)
 	return slot0.configId % 10 > 1
 end
 
+function slot0.fateSkillChange(slot0, slot1)
+	if not slot0.skillChangeList then
+		slot0.skillChangeList = (slot0:isBluePrintShip() and slot0:getBluePrint():getChangeSkillList()) or {}
+	end
+
+	for slot5, slot6 in ipairs(slot0.skillChangeList) do
+		if slot6[1] == slot1 and slot0.skills[slot6[2]] then
+			return slot6[2]
+		end
+	end
+
+	return slot1
+end
+
 function slot0.getSkillList(slot0)
 	slot2 = Clone(pg.ship_data_template[slot0.configId].buff_list_display)
 	slot3 = Clone(pg.ship_data_template[slot0.configId].buff_list)
@@ -1892,7 +1959,7 @@ function slot0.getSkillList(slot0)
 	for slot10, slot11 in ipairs(slot2) do
 		for slot15, slot16 in ipairs(slot3) do
 			if slot11 == slot16 then
-				table.insert(slot6, slot11)
+				table.insert(slot6, slot0:fateSkillChange(slot11))
 			end
 		end
 	end
@@ -1947,7 +2014,9 @@ function slot0.getDockSortValue(slot0)
 end
 
 function slot0.getDisplaySkillIds(slot0)
-	return pg.ship_data_template[slot0.configId].buff_list_display
+	return _.map(pg.ship_data_template[slot0.configId].buff_list_display, function (slot0)
+		return slot0:fateSkillChange(slot0)
+	end)
 end
 
 function slot0.isFullSkillLevel(slot0)

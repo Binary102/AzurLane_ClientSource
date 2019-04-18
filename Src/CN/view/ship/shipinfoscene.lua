@@ -371,9 +371,6 @@ function slot0.initPages(slot0)
 	slot0.page = slot0.contextData.page or slot0.PAGE.DETAIL
 
 	if slot0.page == slot0.PAGE.EQUIPMENT then
-		setAnchoredPosition(slot0.background, {
-			x = 0
-		})
 		setAnchoredPosition(slot0.shipInfo, {
 			x = setAnchoredPosition
 		})
@@ -383,10 +380,6 @@ function slot0.initPages(slot0)
 
 		slot0.paintingFrameName = "zhuangbei"
 	else
-		setAnchoredPosition(slot0.background, {
-			x = -178
-		})
-
 		if slot0.page == slot0.PAGE.REMOULD then
 			setAnchoredPosition(slot0.shipInfo, {
 				x = -700
@@ -775,18 +768,10 @@ function slot0.updateEquipmentPanel(slot0, slot1, slot2, slot3)
 			slot13 = (slot0.shipVO:getEquipProficiencyByPos(slot1) and slot12 * 100) or 0
 
 			if slot8 then
-				slot14 = 1
-
-				if slot8.type and not table.contains(slot8.type, slot2.config.type) then
-					slot14 = slot14 * 0
-				end
-
-				if slot8.nationality and not table.contains(slot8.nationality, slot2.config.nationality) then
-					slot14 = slot14 * 0
-				end
-
-				if slot14 == 1 then
-					slot13 = slot13 + slot8.number
+				for slot17, slot18 in ipairs(slot8) do
+					if slot0:equipmentCheck(slot18) and slot0.equipmentEnhance(slot18, slot2) then
+						slot13 = slot13 + slot18.number
+					end
 				end
 			end
 
@@ -887,6 +872,62 @@ function slot0.updateEquipmentPanel(slot0, slot1, slot2, slot3)
 			end
 		end, SFX_UI_DOCKYARD_EQUIPADD)
 	end
+end
+
+function slot0.equipmentCheck(slot0, slot1)
+	if not slot0.shipVO then
+		return false
+	end
+
+	slot3 = slot1.check_indexList
+
+	if not slot1.check_type and not slot3 then
+		return true
+	end
+
+	slot4 = false
+	slot5 = {}
+	slot6 = Clone(slot0.shipVO.equipments)
+
+	if slot3 then
+		slot7 = #slot6
+
+		while slot7 > 0 do
+			if not table.contains(slot3, slot7) then
+				table.remove(slot6, slot7)
+			end
+
+			slot7 = slot7 - 1
+		end
+	end
+
+	if slot2 then
+		slot7 = #slot6
+
+		while slot7 > 0 do
+			if not slot6[slot7] or not table.contains(slot2, slot8.config.type) then
+				table.remove(slot6, slot7)
+			end
+
+			slot7 = slot7 - 1
+		end
+	end
+
+	return #slot6 > 0
+end
+
+function slot0.equipmentEnhance(slot0, slot1)
+	slot2 = 1
+
+	if slot0.type and not table.contains(slot0.type, slot1.config.type) then
+		slot2 = slot2 * 0
+	end
+
+	if slot0.nationality and not table.contains(slot0.nationality, slot1.config.nationality) then
+		slot2 = slot2 * 0
+	end
+
+	return slot2 == 1
 end
 
 function slot0.getGroupSkinList(slot0, slot1)
@@ -1509,9 +1550,9 @@ function slot0.displayShipWord(slot0, slot1, slot2)
 			Ship.SetExpression(findTF(slot0.painting, "fitter"):GetChild(0), slot0.paintingCode, slot1)
 		end
 
-		slot7, slot4 = Ship.getWords(slot0.shipVO.skinId, slot1)
+		slot7, slot4 = Ship.getWords(slot0.shipVO.skinId, slot1, nil, nil, slot0.shipVO:getIntimacy() / 100 + ((slot0.shipVO.propose and 1000) or 0))
 
-		setText(slot0.chatText, slot3)
+		setText(slot0.chatText, Ship.getWords)
 
 		if CHAT_POP_STR_LEN < #slot0.chatText:GetComponent(typeof(Text)).text then
 			slot5.alignment = TextAnchor.MiddleLeft
@@ -1633,7 +1674,6 @@ function slot0.switchToPage(slot0, slot1)
 	if slot1 == slot0.PAGE.EQUIPMENT then
 		slot0:switchPanel(slot0.equipmentR, 0, nil, nil, slot1)
 		slot0:switchPanel(slot0.equipmentL, 0, nil, nil, slot1)
-		slot0:switchPanel(slot0.background, 0, nil, slot1 * 2)
 		slot0:switchPanel(slot0.shipInfo, slot2, nil, slot1 * 2)
 		slot0:switchPanel(slot0.chat, 45, nil, slot1 * 2)
 		slot0:switchPainting(slot0.painting, "zhuangbei", slot1 * 2)
@@ -1648,7 +1688,6 @@ function slot0.switchToPage(slot0, slot1)
 			slot0:switchPanel(slot0.stylePanel, 0, nil, nil, slot1)
 		end
 
-		slot0:switchPanel(slot0.background, -178, nil, slot1 * 2)
 		slot0:switchPanel(slot0.shipInfo, 275, nil, slot1 * 2)
 		slot0:switchPanel(slot0.chat, -320, nil, slot1 * 2)
 		slot0:switchPainting(slot0.painting, "chuanwu", slot1 * 2)
@@ -1773,9 +1812,16 @@ function slot0.loadSkinBg(slot0, slot1, slot2)
 		slot0.isDesign = slot2
 
 		if slot0.isDesign then
-			if not slot0.designBg then
-				PoolMgr.GetInstance():GetUI("raritydesign5", true, function (slot0)
+			if not slot0.designBg or slot0.designBg.name ~= "raritydesign" .. slot0.shipVO:getRarity() .. "(Clone)" then
+				if slot0.designBg then
+					PoolMgr.GetInstance():ReturnUI(slot0.designName, slot0.designBg)
+
+					slot0.designBg = nil
+				end
+
+				PoolMgr.GetInstance():GetUI("raritydesign" .. slot0.shipVO:getRarity(), true, function (slot0)
 					slot0.designBg = slot0
+					slot0.designName = "raritydesign" .. slot0.shipVO:getRarity()
 
 					slot0.transform:SetParent(slot0._tf, false)
 
@@ -1902,9 +1948,6 @@ function slot0.paintView(slot0)
 
 		return
 	end, SFX_CANCEL)
-	setAnchoredPosition(slot0.background, {
-		x = -88
-	})
 
 	function slot0.hidePaintView(slot0, slot1)
 		if not slot1 and not slot0 then
@@ -1930,9 +1973,6 @@ function slot0.paintView(slot0)
 		setAnchoredPosition(slot0.painting, {
 			x = 1,
 			y = 1
-		})
-		setAnchoredPosition(slot0.background, {
-			x = 0
 		})
 
 		slot0.background:GetComponent("Button").enabled = false
@@ -2098,7 +2138,7 @@ function slot0.willExit(slot0)
 	Input.multiTouchEnabled = true
 
 	if slot0.designBg then
-		PoolMgr.GetInstance():ReturnUI("raritydesign5", slot0.designBg)
+		PoolMgr.GetInstance():ReturnUI(slot0.designName, slot0.designBg)
 	end
 
 	slot0.intensifyToggle:GetComponent("Toggle").onValueChanged:RemoveAllListeners()

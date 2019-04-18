@@ -85,11 +85,11 @@ function ys.Battle.BattleBuffCastSkill.castSkill(slot0, slot1, slot2)
 	if #slot0._hpRatioList ~= 0 then
 		slot4 = nil
 		slot4 = ((slot2 and slot2.unit) or slot1:GetHPRate()) and slot2.unit:GetHPRate()
+		slot5 = slot0._hpRatioList[1]
+		slot6 = slot0._hpRatioList[2] or 0
 
-		for slot8, slot9 in ipairs(slot0._hpRatioList) do
-			if slot9 < slot4 then
-				return "check"
-			end
+		if slot5 < slot4 or slot4 <= slot6 then
+			return "check"
 		end
 	end
 
@@ -160,14 +160,22 @@ function ys.Battle.BattleBuffCastSkill.GetEquipmentList(slot0, slot1)
 	while slot4 > 0 do
 		slot6 = true
 
-		if slot3[slot4].equipment then
+		if not slot3[slot4].equipment then
+			slot6 = false
+		else
 			slot7 = slot0.Battle.BattleDataFunction.GetEquipDataTemplate(slot5.id)
 
 			if slot1.weapon_group and not table.contains(slot1.weapon_group, slot7.group) then
 				slot6 = false
 			end
-		else
-			slot6 = false
+
+			if slot1.index and not table.contains(slot1.index, slot4) then
+				slot6 = false
+			end
+
+			if slot1.type and not table.contains(slot1.type, slot7.type) then
+				slot6 = false
+			end
 		end
 
 		if not slot6 then

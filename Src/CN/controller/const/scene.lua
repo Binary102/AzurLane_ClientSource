@@ -49,6 +49,7 @@ SCENE = {
 	BATTLE = "scene battle",
 	PROPINFO = "scene prop info",
 	ITEM_ORIGIN_PAGE = "item special page",
+	TECHNOLOGY_TREE_SCENE = "TECHNOLOGY_TREE_SCENE",
 	VOTE = "scene vote",
 	LOGIN = "scene login",
 	MAINUI = "scene mainUI",

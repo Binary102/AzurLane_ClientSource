@@ -203,7 +203,8 @@ slot0.shipType2Index = {
 	nil,
 	nil,
 	nil,
-	7
+	7,
+	3
 }
 
 function slot0.filterByIndex(slot0, slot1)

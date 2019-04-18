@@ -46,55 +46,55 @@ class("BYFurnitureCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 		else
 			pg.TipsMgr:GetInstance():ShowTips(i18n("backyard_backyardScene_error_canNotRotate"))
 		end
-	elseif slot3 == BACKYARD.FURNITURE_POS_CHANGE then
-		slot5 = slot2.id
-		slot7 = slot2.parentId
+	else
+		if slot3 == BACKYARD.FURNITURE_POS_CHANGE then
+			slot5 = slot2.id
+			slot7 = slot2.parentId
 
-		if not slot2.pos then
+			if not slot2.pos then
+				return
+			end
+
+			slot8 = slot4:getFurnitureById(slot5)
+			slot9 = slot8:getPosition()
+
+			pg.backyard:sendNotification(BACKYARD.REMOVE_ITEM, Clone(slot8))
+
+			if slot8:hasParent() then
+				slot4:getFurnitureById(slot8.parent).child[slot8.id] = nil
+				slot8.parent = 0
+			end
+
+			slot10 = slot4:getData()
+
+			if slot7 then
+				slot11 = slot4:getFurnitureById(slot7)
+				slot12 = slot11:getPosition()
+
+				if slot11.dir == 2 then
+					slot11.child[slot8.id] = Vector2(slot6.y - slot12.y, slot6.x - slot12.x)
+				else
+					slot11.child[slot8.id] = Vector2(slot6.x - slot12.x, slot6.y - slot12.y)
+				end
+
+				slot8.parent = slot11.id
+			end
+
+			slot4:changeFurniturePos(slot5, slot6)
+			slot11(slot8)
+
+			if slot8:hasStageShip() then
+				slot13 = pairs
+				slot14 = slot8:getStageShip() or {}
+
+				for slot16, slot17 in slot13(slot14) do
+					slot4:changeShipPos(slot17, Vector2(slot6.x + Vector2(slot10:getShipPosById(slot17).x - slot9.x, slot10.getShipPosById(slot17).y - slot9.y).x, slot6.y + Vector2(slot10.getShipPosById(slot17).x - slot9.x, slot10.getShipPosById(slot17).y - slot9.y).y))
+				end
+			end
+
 			return
 		end
 
-		slot8 = slot4:getFurnitureById(slot5)
-		slot9 = slot8:getPosition()
-
-		pg.backyard:sendNotification(BACKYARD.REMOVE_ITEM, Clone(slot8))
-
-		if slot8:hasParent() then
-			slot4:getFurnitureById(slot8.parent).child[slot8.id] = nil
-			slot8.parent = 0
-		end
-
-		slot10 = slot4:getData()
-
-		if slot7 then
-			slot11 = slot4:getFurnitureById(slot7)
-			slot12 = slot11:getPosition()
-
-			if slot11.dir == 2 then
-				slot11.child[slot8.id] = Vector2(slot6.y - slot12.y, slot6.x - slot12.x)
-			else
-				slot11.child[slot8.id] = Vector2(slot6.x - slot12.x, slot6.y - slot12.y)
-			end
-
-			slot8.parent = slot11.id
-		end
-
-		slot4:changeFurniturePos(slot5, slot6)
-
-		for slot14, slot15 in pairs(slot8.child) do
-			pg.backyard:sendNotification(BACKYARD.REMOVE_ITEM, Clone(slot4:getFurnitureById(slot14)))
-			slot4:changeFurniturePos(slot14, slot8:getChildPosById(slot14))
-		end
-
-		if slot8:hasStageShip() then
-			slot12 = pairs
-			slot13 = slot8:getStageShip() or {}
-
-			for slot15, slot16 in slot12(slot13) do
-				slot4:changeShipPos(slot16, Vector2(slot6.x + Vector2(slot10:getShipPosById(slot16).x - slot9.x, slot10.getShipPosById(slot16).y - slot9.y).x, slot6.y + Vector2(slot10.getShipPosById(slot16).x - slot9.x, slot10.getShipPosById(slot16).y - slot9.y).y))
-			end
-		end
-	else
 		if slot3 == BACKYARD.FURNITURE_REMOVE then
 			if slot4:getFurnitureById(slot5):hasInterActionShipId() or slot6:getSpineId() or slot6:hasStageShip() then
 				pg.MsgboxMgr.GetInstance():ShowMsgBox({
@@ -106,11 +106,7 @@ class("BYFurnitureCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 			else
 				slot4:removeFurniture(slot5)
 			end
-
-			return
-		end
-
-		if slot3 == BACKYARD.FURNITURE_SAVE then
+		elseif slot3 == BACKYARD.FURNITURE_SAVE then
 			pg.m02:sendNotification(GAME.PUT_FURNITURE, {
 				furnsPos = slot4:getData().getSaveData(slot6),
 				tip = slot2.tip

@@ -57,6 +57,7 @@ function ys.Battle.BattlePlayerUnit.SetTemplate(slot0, slot1, slot2)
 
 	slot0._tmpData = slot1.Battle.BattleDataFunction.GetPlayerShipTmpDataFromID(slot0._tmpID)
 
+	slot0:configWeaponQueueParallel()
 	slot0:overrideWeaponInfo()
 	slot0:overrideSkin(slot0._skinId, true)
 	slot0:InitCldComponent()
@@ -268,6 +269,10 @@ end
 
 function ys.Battle.BattlePlayerUnit.ShiftWeapon(slot0, slot1)
 	return
+end
+
+function ys.Battle.BattlePlayerUnit.GetManualWeaponParallel(slot0)
+	return slot0._tmpData.parallel_max
 end
 
 function ys.Battle.BattlePlayerUnit.LeaderSetting(slot0)

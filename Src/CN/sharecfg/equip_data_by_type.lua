@@ -75,7 +75,7 @@ pg.equip_data_by_type = {
 		type_name = "舰炮",
 		equip_skin = 1,
 		equip_type = 11,
-		type_name2 = "舰炮(袖珍战列)"
+		type_name2 = "舰炮(大口径重巡)"
 	},
 	{
 		distory_resource_gold_ratio = 1,

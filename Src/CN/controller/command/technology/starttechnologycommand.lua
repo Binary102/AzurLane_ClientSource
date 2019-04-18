@@ -1,5 +1,7 @@
 class("StartTechnologyCommand", pm.SimpleCommand).execute = function (slot0, slot1)
-	if not getProxy(TechnologyProxy):getTechnologyById(slot1:getBody().id) then
+	slot4 = slot1:getBody().pool_id
+
+	if not getProxy(TechnologyProxy):getTechnologyById(slot1.getBody().id) then
 		return
 	end
 
@@ -7,17 +9,17 @@ class("StartTechnologyCommand", pm.SimpleCommand).execute = function (slot0, slo
 		return
 	end
 
-	slot6, slot7 = slot5:hasResToStart()
+	slot7, slot8 = slot6:hasResToStart()
 
-	if not slot6 then
-		pg.TipsMgr:GetInstance():ShowTips(slot7)
+	if not slot7 then
+		pg.TipsMgr:GetInstance():ShowTips(slot8)
 
 		return
 	end
 
 	pg.ConnectionMgr.GetInstance():Send(63001, {
-		type = 1,
-		tech_id = slot3
+		tech_id = slot3,
+		refresh_id = slot4
 	}, 63002, function (slot0)
 		if slot0.result == 0 then
 			for slot5, slot6 in ipairs(slot1) do

@@ -70,11 +70,7 @@ function slot0.register(slot0)
 end
 
 function slot0.getTaskForBluePrint(slot0, slot1)
-	if not slot0:getTaskById(slot1) and slot0.finishData then
-		slot2 = slot0:getFinishTaskById(slot1)
-	end
-
-	return slot2
+	return slot0:getTaskById(slot1) or slot0:getFinishTaskById(slot1)
 end
 
 function slot0.getTasksForBluePrint(slot0)

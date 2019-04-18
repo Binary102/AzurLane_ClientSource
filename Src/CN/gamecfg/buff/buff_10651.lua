@@ -20,6 +20,16 @@ return {
 					number = 0.15,
 					attr = "damageRatioByShipType_2"
 				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					number = 0.15,
+					attr = "damageRatioByShipType_18"
+				}
 			}
 		}
 	},
@@ -43,6 +53,16 @@ return {
 				arg_list = {
 					number = 0.172,
 					attr = "damageRatioByShipType_2"
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					number = 0.172,
+					attr = "damageRatioByShipType_18"
 				}
 			}
 		}
@@ -68,6 +88,16 @@ return {
 					number = 0.194,
 					attr = "damageRatioByShipType_2"
 				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					number = 0.194,
+					attr = "damageRatioByShipType_18"
+				}
 			}
 		}
 	},
@@ -91,6 +121,16 @@ return {
 				arg_list = {
 					number = 0.216,
 					attr = "damageRatioByShipType_2"
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					number = 0.216,
+					attr = "damageRatioByShipType_18"
 				}
 			}
 		}
@@ -116,6 +156,16 @@ return {
 					number = 0.238,
 					attr = "damageRatioByShipType_2"
 				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					number = 0.238,
+					attr = "damageRatioByShipType_18"
+				}
 			}
 		}
 	},
@@ -139,6 +189,16 @@ return {
 				arg_list = {
 					number = 0.26,
 					attr = "damageRatioByShipType_2"
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					number = 0.26,
+					attr = "damageRatioByShipType_18"
 				}
 			}
 		}
@@ -164,6 +224,16 @@ return {
 					number = 0.282,
 					attr = "damageRatioByShipType_2"
 				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					number = 0.282,
+					attr = "damageRatioByShipType_18"
+				}
 			}
 		}
 	},
@@ -187,6 +257,16 @@ return {
 				arg_list = {
 					number = 0.304,
 					attr = "damageRatioByShipType_2"
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					number = 0.304,
+					attr = "damageRatioByShipType_18"
 				}
 			}
 		}
@@ -212,6 +292,16 @@ return {
 					number = 0.326,
 					attr = "damageRatioByShipType_2"
 				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					number = 0.326,
+					attr = "damageRatioByShipType_18"
+				}
 			}
 		}
 	},
@@ -235,6 +325,16 @@ return {
 				arg_list = {
 					number = 0.35,
 					attr = "damageRatioByShipType_2"
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					number = 0.35,
+					attr = "damageRatioByShipType_18"
 				}
 			}
 		}
@@ -274,6 +374,16 @@ return {
 			arg_list = {
 				number = 0.15,
 				attr = "damageRatioByShipType_2"
+			}
+		},
+		{
+			type = "BattleBuffAddAttr",
+			trigger = {
+				"onAttach"
+			},
+			arg_list = {
+				number = 0.15,
+				attr = "damageRatioByShipType_18"
 			}
 		}
 	}

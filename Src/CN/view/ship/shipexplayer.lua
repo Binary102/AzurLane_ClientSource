@@ -110,11 +110,11 @@ function slot0.display(slot0)
 		function slot29()
 			SetActive(findTF(slot0, "exp"), true)
 
-			slot2.level:GetComponent(typeof(Image)).fillAmount = slot1.exp / getConfigFromLevel1(pg.ship_level, slot1.level).exp
+			"exp":GetComponent(typeof(Image)).fillAmount = slot1.exp / findTF(slot0, "exp"):getLevelExpConfig().exp
 
 			if slot1.level < slot2.level then
 				for slot6 = slot1.level, slot2.level - 1, 1 do
-					slot2 = slot2 + getConfigFromLevel1(pg.ship_level, slot6).exp
+					slot2 = slot2 + slot1:getLevelExpConfig(slot6).exp
 				end
 
 				slot4:PlayAnimation(slot0, 0, (slot2 + slot2.exp) - slot1.exp, 1, 0, function (slot0)
@@ -213,7 +213,7 @@ function slot0.display(slot0)
 					slot0 = 0
 
 					for slot4 = slot4.level, slot3.level - 1, 1 do
-						slot0 = slot0 + getConfigFromLevel1(pg.ship_level, slot4).exp
+						slot0 = slot0 + slot4:getLevelExpConfig(slot4).exp
 					end
 
 					setText(slot5, "EXP+" .. (slot0 + slot3.exp) - slot4.exp)
@@ -221,7 +221,7 @@ function slot0.display(slot0)
 					setText(slot5, "EXP+" .. math.ceil(slot3.exp - slot4.exp))
 				end
 
-				slot6:GetComponent(typeof(Image)).fillAmount = slot3.exp / getConfigFromLevel1(pg.ship_level, slot3.level).exp
+				slot6:GetComponent(typeof(Image)).fillAmount = slot3.exp / Image:getLevelExpConfig().exp
 			end
 
 			SetActive(SetActive, false)

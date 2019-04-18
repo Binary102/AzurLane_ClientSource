@@ -352,16 +352,6 @@ function slot0.register(slot0)
 		}))
 	end)
 	slot0:bind(slot0.OPEN_TECHNOLOGY, function (slot0)
-		if getProxy(PlayerProxy) and slot1:getRawData() then
-			slot3, slot4 = pg.SystemOpenMgr:GetInstance():isOpenSystem(slot2.level, "TechnologyMediator")
-
-			if not slot3 then
-				pg.TipsMgr:GetInstance():ShowTips(slot4)
-
-				return
-			end
-		end
-
 		slot0:sendNotification(GAME.GO_SCENE, SCENE.SELTECHNOLOGY)
 	end)
 	slot0:bind(slot0.ON_VOTE, function ()
@@ -431,26 +421,26 @@ end
 function slot0.onBluePrintNotify(slot0)
 	slot3, slot4 = pg.SystemOpenMgr:GetInstance():isOpenSystem(getProxy(PlayerProxy):getData().level, "TechnologyMediator")
 
-	slot0.viewComponent:notifyTechnology((SelectTechnologyMediator.onBlueprintNotify() or SelectTechnologyMediator.onTechnologyNotify()) and slot3)
+	slot0.viewComponent:notifyTechnology((OPEN_TEC_TREE_SYSTEM and getProxy(TechnologyNationProxy):getShowRedPointTag()) or ((SelectTechnologyMediator.onBlueprintNotify() or SelectTechnologyMediator.onTechnologyNotify()) and slot3))
 
 	if getProxy(TechnologyProxy):getBuildingBluePrint() then
-		slot8 = false
+		slot9 = false
 
-		for slot12, slot13 in ipairs(slot7) do
-			if slot6:getTaskOpenTimeStamp(slot13) <= pg.TimeMgr.GetInstance():GetServerTime() then
-				slot16 = getProxy(TaskProxy):isFinishPrevTasks(slot13)
+		for slot13, slot14 in ipairs(slot8) do
+			if slot7:getTaskOpenTimeStamp(slot14) <= pg.TimeMgr.GetInstance():GetServerTime() then
+				slot17 = getProxy(TaskProxy):isFinishPrevTasks(slot14)
 
-				if not (getProxy(TaskProxy):getTaskById(slot13) or getProxy(TaskProxy):getFinishTaskById(slot13)) and slot16 then
-					slot8 = true
+				if not (getProxy(TaskProxy):getTaskById(slot14) or getProxy(TaskProxy):getFinishTaskById(slot14)) and slot17 then
+					slot9 = true
 
-					slot0.viewComponent:emit(slot0.ON_TASK_OPEN, slot13)
+					slot0.viewComponent:emit(slot0.ON_TASK_OPEN, slot14)
 				end
 			end
 		end
 
-		if slot8 and not slot0.DontNotifyBluePrintTaskAgain then
+		if slot9 and not slot0.DontNotifyBluePrintTaskAgain then
 			pg.MsgboxMgr:GetInstance():ShowMsgBox({
-				content = i18n("blueprint_task_update_tip", slot6:getShipVO():getConfig("name")),
+				content = i18n("blueprint_task_update_tip", slot7:getShipVO():getConfig("name")),
 				onYes = function ()
 					slot0:sendNotification(GAME.GO_SCENE, SCENE.SHIPBLUEPRINT)
 				end,
@@ -607,7 +597,8 @@ function slot0.listNotificationInterests(slot0)
 		CommanderProxy.COMMANDER_BOX_FINISHED,
 		GAME.FETCH_NPC_SHIP_DONE,
 		GAME.MAINUI_ACT_BTN_DONE,
-		NewShipMediator.OPEN
+		NewShipMediator.OPEN,
+		TechnologyConst.UPDATE_REDPOINT_ON_TOP
 	}
 end
 
@@ -692,6 +683,8 @@ function slot0.handleNotification(slot0, slot1)
 		slot0.viewComponent:notifyActivitySummary(slot3.cnt, slot3.priority)
 	elseif slot2 == NewShipMediator.OPEN then
 		slot0.viewComponent:stopCurVoice()
+	elseif slot2 == TechnologyConst.UPDATE_REDPOINT_ON_TOP then
+		slot0:onBluePrintNotify()
 	end
 end
 

@@ -814,6 +814,31 @@ pg.name_code = {
 		id = 163,
 		name = "伊13",
 		code = "伊13"
+	},
+	{
+		id = 164,
+		name = "北风",
+		code = "苝"
+	},
+	{
+		id = 165,
+		name = "吾妻",
+		code = "猉"
+	},
+	{
+		id = 166,
+		name = "特II型绫波",
+		code = "特II型柚"
+	},
+	{
+		id = 167,
+		name = "特I型吹雪",
+		code = "特I型桐"
+	},
+	{
+		id = 168,
+		name = "特III型晓",
+		code = "特III型枫"
 	}
 }
 

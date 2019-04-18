@@ -64537,6 +64537,37 @@ pg.task_data_template = {
 		open_need = {},
 		award_display = {}
 	},
+	[52011] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 7,
+		name = "数据收集任务",
+		count_inherit = 0,
+		desc = "通关第13章任意副本2次",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 52011,
+		target_num = 2,
+		fix_task = 0,
+		target_id = {
+			1301,
+			1302,
+			1303,
+			1304
+		},
+		open_need = {},
+		award_display = {}
+	},
 	[52021] = {
 		is_head = 1,
 		guild_coin_award = 0,
@@ -66385,6 +66416,1944 @@ pg.task_data_template = {
 		open_need = {},
 		award_display = {}
 	},
+	[60071] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 9,
+		name = "西雅图开启研发前置任务",
+		count_inherit = 0,
+		desc = "",
+		target_id_2 = "",
+		sub_type = 1050,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 60071,
+		target_num = 760,
+		fix_task = 0,
+		target_id = "1",
+		open_need = {},
+		award_display = {}
+	},
+	[60072] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "白鹰先锋技术测试I ",
+		count_inherit = 0,
+		desc = "<color=#797979>为确保研发工程的顺利进行，获取足够多的测试数据是非常有必要的，而最真实有效的数据，无疑来自实战</color>\n\n——使用白鹰先锋角色，在任意关卡中累计获得<color=#A9F548>100万</color>经验（不同角色可累加）",
+		target_id_2 = "",
+		sub_type = 1041,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 60072,
+		target_num = 1000000,
+		fix_task = 0,
+		target_id = {
+			{
+				1,
+				1
+			},
+			{
+				1,
+				2
+			},
+			{
+				1,
+				3
+			}
+		},
+		open_need = {},
+		award_display = {}
+	},
+	[60073] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "大型技术理论I ",
+		count_inherit = 0,
+		desc = "<color=#797979>每一次的研发都意味着大量新技术的引入。在此之前，工程师们已经积累了大量的研发理论，如果能证明这些理论的可行性，势必将加速研发的进程</color>\n\n——完成<color=#A9F548>5次</color>科研项目的研发",
+		target_id_2 = "",
+		sub_type = 110,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 60073,
+		target_num = 5,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {}
+	},
+	[60074] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "先锋技术突破I ",
+		count_inherit = 0,
+		desc = "<color=#797979>大量的实战数据和前沿理论让研发工作迎来了一次突破，这将会是一件完全不同与以往的工程，但在细节部分还需要参考之前的设计图进行比照确认</color>\n\n——提交<color=#A9F548>10张</color>巡洋改造图T2",
+		target_id_2 = "",
+		sub_type = 1000,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 18012,
+		id = 60074,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "18012",
+		open_need = {},
+		award_display = {}
+	},
+	[60075] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "白鹰先锋技术测试II ",
+		count_inherit = 0,
+		desc = [[
+<color=#797979><color=#A9F548>「需先完成白鹰先锋技术测试I」</color>
+研发进入了新的阶段，尽管改良后的设计方案在理论上具有更出色的性能，但纸面数据终究不如实战测试来得可靠</color>
+
+——使用白鹰先锋角色，在任意关卡中累计获得<color=#A9F548>200万</color>经验（不同角色可累加）]],
+		target_id_2 = "",
+		sub_type = 1041,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 60075,
+		target_num = 2000000,
+		fix_task = 0,
+		target_id = {
+			{
+				1,
+				1
+			},
+			{
+				1,
+				2
+			},
+			{
+				1,
+				3
+			}
+		},
+		open_need = {
+			60072
+		},
+		award_display = {}
+	},
+	[60076] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "大型技术理论II ",
+		count_inherit = 0,
+		desc = [[
+<color=#797979><color=#A9F548>「需先完成大型技术理论I」</color>
+支撑技术不断革新的理论建设从来没有停下过脚步，工程师们的脑海中无时无刻不在迸发更为大胆、更为激进的想法，现在是时候将这些想法落地了</color>
+
+——完成<color=#A9F548>8次</color>科研项目的研发]],
+		target_id_2 = "",
+		sub_type = 110,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 60076,
+		target_num = 8,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {
+			60073
+		},
+		award_display = {}
+	},
+	[60077] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "先锋技术突破II ",
+		count_inherit = 0,
+		desc = "<color=#797979>在更多的数据和理论的帮助下，研发工作迎来了一次巨大的突破，在诸多领域应用了全新的技术。但有几个点，工程师们并没有达成一致，他们需要以往的技术资料进行参考</color>\n\n——提交<color=#A9F548>5张</color>巡洋改造图T3",
+		target_id_2 = "",
+		sub_type = 1000,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 18013,
+		id = 60077,
+		target_num = 5,
+		fix_task = 0,
+		target_id = "18013",
+		open_need = {},
+		award_display = {}
+	},
+	[60078] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "西雅图舰体塑造I",
+		count_inherit = 0,
+		desc = "<color=#797979>漫长而又艰辛的研发工程终于来到了终点，现在只需要完成最后的舰体部分，就能享受来自港区山呼海啸般的祝贺了</color>\n\n——提交<color=#A9F548>2万</color>物资",
+		target_id_2 = "",
+		sub_type = 1002,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 1,
+		id = 60078,
+		target_num = 20000,
+		fix_task = 0,
+		target_id = "1",
+		open_need = {},
+		award_display = {}
+	},
+	[60079] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "西雅图舰体塑造II",
+		count_inherit = 0,
+		desc = "<color=#797979>漫长而又艰辛的研发工程终于来到了终点，现在只需要完成最后的舰体部分，就能享受来自港区山呼海啸般的祝贺了</color>\n\n——提交<color=#A9F548>5个</color>心智魔方",
+		target_id_2 = "",
+		sub_type = 1000,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 20001,
+		id = 60079,
+		target_num = 5,
+		fix_task = 0,
+		target_id = "20001",
+		open_need = {},
+		award_display = {}
+	},
+	[60081] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 9,
+		name = "佐治亚开启研发前置任务",
+		count_inherit = 0,
+		desc = "",
+		target_id_2 = "",
+		sub_type = 1050,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 60081,
+		target_num = 810,
+		fix_task = 0,
+		target_id = "1",
+		open_need = {},
+		award_display = {}
+	},
+	[60082] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "白鹰主力技术测试I ",
+		count_inherit = 0,
+		desc = "<color=#797979>为确保研发工程的顺利进行，获取足够多的测试数据是非常有必要的，而最真实有效的数据，无疑来自实战</color>\n\n——使用白鹰主力角色，在任意关卡中累计获得<color=#A9F548>100万</color>经验（不同角色可累加）",
+		target_id_2 = "",
+		sub_type = 1041,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 60082,
+		target_num = 1000000,
+		fix_task = 0,
+		target_id = {
+			{
+				1,
+				4
+			},
+			{
+				1,
+				5
+			},
+			{
+				1,
+				6
+			},
+			{
+				1,
+				7
+			},
+			{
+				1,
+				9
+			},
+			{
+				1,
+				10
+			},
+			{
+				1,
+				12
+			},
+			{
+				1,
+				13
+			}
+		},
+		open_need = {},
+		award_display = {}
+	},
+	[60083] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "大型技术理论I ",
+		count_inherit = 0,
+		desc = "<color=#797979>每一次的研发都意味着大量新技术的引入。在此之前，工程师们已经积累了大量的研发理论，如果能证明这些理论的可行性，势必将加速研发的进程 </color>\n\n——完成<color=#A9F548>5次</color>科研项目的研发",
+		target_id_2 = "",
+		sub_type = 110,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 60083,
+		target_num = 5,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {}
+	},
+	[60084] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "主力技术突破I ",
+		count_inherit = 0,
+		desc = "<color=#797979>大量的实战数据和前沿理论让研发工作迎来了一次突破，这将会是一件完全不同与以往的工程，但在细节部分还需要参考之前的设计图进行比照确认 </color>\n\n——提交<color=#A9F548>10张</color>战列改造图T2",
+		target_id_2 = "",
+		sub_type = 1000,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 18022,
+		id = 60084,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "18022",
+		open_need = {},
+		award_display = {}
+	},
+	[60085] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "白鹰主力技术测试II ",
+		count_inherit = 0,
+		desc = [[
+<color=#797979><color=#A9F548>「需先完成白鹰主力技术测试I」</color>
+研发进入了新的阶段，尽管改良后的设计方案在理论上具有更出色的性能，但纸面数据终究不如实战测试来得可靠 </color>
+
+——使用白鹰主力角色，在任意关卡中累计获得<color=#A9F548>200万</color>经验（不同角色可累加）]],
+		target_id_2 = "",
+		sub_type = 1041,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 60085,
+		target_num = 2000000,
+		fix_task = 0,
+		target_id = {
+			{
+				1,
+				4
+			},
+			{
+				1,
+				5
+			},
+			{
+				1,
+				6
+			},
+			{
+				1,
+				7
+			},
+			{
+				1,
+				9
+			},
+			{
+				1,
+				10
+			},
+			{
+				1,
+				12
+			},
+			{
+				1,
+				13
+			}
+		},
+		open_need = {
+			60082
+		},
+		award_display = {}
+	},
+	[60086] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "大型技术理论II ",
+		count_inherit = 0,
+		desc = [[
+<color=#797979><color=#A9F548>「需先完成大型技术理论I」</color>
+支撑技术不断革新的理论建设从来没有停下过脚步，工程师们的脑海中无时无刻不在迸发更为大胆、更为激进的想法，现在是时候将这些想法落地了 </color>
+
+——完成<color=#A9F548>8次</color>科研项目的研发]],
+		target_id_2 = "",
+		sub_type = 110,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 60086,
+		target_num = 8,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {
+			60083
+		},
+		award_display = {}
+	},
+	[60087] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "主力技术突破II ",
+		count_inherit = 0,
+		desc = "<color=#797979>在更多的数据和理论的帮助下，研发工作迎来了一次巨大的突破，在诸多领域应用了全新的技术。但有几个点，工程师们并没有达成一致，他们需要以往的技术资料进行参考 </color>\n\n——提交<color=#A9F548>5张</color>战列改造图T3",
+		target_id_2 = "",
+		sub_type = 1000,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 18023,
+		id = 60087,
+		target_num = 5,
+		fix_task = 0,
+		target_id = "18023",
+		open_need = {},
+		award_display = {}
+	},
+	[60088] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "佐治亚舰体塑造I",
+		count_inherit = 0,
+		desc = "<color=#797979>漫长而又艰辛的研发工程终于来到了终点，现在只需要完成最后的舰体部分，就能享受来自港区山呼海啸般的祝贺了 </color>\n\n——提交<color=#A9F548>3万</color>物资",
+		target_id_2 = "",
+		sub_type = 1002,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 1,
+		id = 60088,
+		target_num = 30000,
+		fix_task = 0,
+		target_id = "1",
+		open_need = {},
+		award_display = {}
+	},
+	[60089] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "佐治亚舰体塑造II",
+		count_inherit = 0,
+		desc = "<color=#797979>漫长而又艰辛的研发工程终于来到了终点，现在只需要完成最后的舰体部分，就能享受来自港区山呼海啸般的祝贺了 </color>\n\n——提交<color=#A9F548>5个</color>心智魔方",
+		target_id_2 = "",
+		sub_type = 1000,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 20001,
+		id = 60089,
+		target_num = 5,
+		fix_task = 0,
+		target_id = "20001",
+		open_need = {},
+		award_display = {}
+	},
+	[60091] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 9,
+		name = "苝开启研发前置任务",
+		count_inherit = 0,
+		desc = "",
+		target_id_2 = "",
+		sub_type = 1050,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 60091,
+		target_num = 780,
+		fix_task = 0,
+		target_id = "3",
+		open_need = {},
+		award_display = {}
+	},
+	[60092] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "重樱先锋技术测试I ",
+		count_inherit = 0,
+		desc = "<color=#797979>为确保研发工程的顺利进行，获取足够多的测试数据是非常有必要的，而最真实有效的数据，无疑来自实战</color>\n\n——使用重樱先锋角色，在任意关卡中累计获得<color=#A9F548>100万</color>经验（不同角色可累加）",
+		target_id_2 = "",
+		sub_type = 1041,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 60092,
+		target_num = 1000000,
+		fix_task = 0,
+		target_id = {
+			{
+				3,
+				1
+			},
+			{
+				3,
+				2
+			},
+			{
+				3,
+				3
+			},
+			{
+				3,
+				18
+			}
+		},
+		open_need = {},
+		award_display = {}
+	},
+	[60093] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "大型技术理论I ",
+		count_inherit = 0,
+		desc = "<color=#797979>每一次的研发都意味着大量新技术的引入。在此之前，工程师们已经积累了大量的研发理论，如果能证明这些理论的可行性，势必将加速研发的进程 </color>\n\n——完成<color=#A9F548>5次</color>科研项目的研发",
+		target_id_2 = "",
+		sub_type = 110,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 60093,
+		target_num = 5,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {}
+	},
+	[60094] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "先锋技术突破I ",
+		count_inherit = 0,
+		desc = "<color=#797979>大量的实战数据和前沿理论让研发工作迎来了一次突破，这将会是一件完全不同与以往的工程，但在细节部分还需要参考之前的设计图进行比照确认 </color>\n\n——提交<color=#A9F548>10张</color>驱逐改造图T2",
+		target_id_2 = "",
+		sub_type = 1000,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 18002,
+		id = 60094,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "18012",
+		open_need = {},
+		award_display = {}
+	},
+	[60095] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "重樱先锋技术测试II ",
+		count_inherit = 0,
+		desc = [[
+<color=#797979><color=#A9F548>「需先完成重樱驱逐技术测试I」</color>
+研发进入了新的阶段，尽管改良后的设计方案在理论上具有更出色的性能，但纸面数据终究不如实战测试来得可靠 </color>
+
+——使用重樱先锋角色，在任意关卡中累计获得<color=#A9F548>200万</color>经验（不同角色可累加）]],
+		target_id_2 = "",
+		sub_type = 1041,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 60095,
+		target_num = 2000000,
+		fix_task = 0,
+		target_id = {
+			{
+				3,
+				1
+			},
+			{
+				3,
+				2
+			},
+			{
+				3,
+				3
+			},
+			{
+				3,
+				18
+			}
+		},
+		open_need = {
+			60092
+		},
+		award_display = {}
+	},
+	[60096] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "大型技术理论II ",
+		count_inherit = 0,
+		desc = [[
+<color=#797979><color=#A9F548>「需先完成大型技术理论I」</color>
+支撑技术不断革新的理论建设从来没有停下过脚步，工程师们的脑海中无时无刻不在迸发更为大胆、更为激进的想法，现在是时候将这些想法落地了 </color>
+
+——完成<color=#A9F548>8次</color>科研项目的研发]],
+		target_id_2 = "",
+		sub_type = 110,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 60096,
+		target_num = 8,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {
+			60093
+		},
+		award_display = {}
+	},
+	[60097] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "先锋技术突破II ",
+		count_inherit = 0,
+		desc = "<color=#797979>在更多的数据和理论的帮助下，研发工作迎来了一次巨大的突破，在诸多领域应用了全新的技术。但有几个点，工程师们并没有达成一致，他们需要以往的技术资料进行参考 </color>\n\n——提交<color=#A9F548>5张</color>驱逐改造图T3",
+		target_id_2 = "",
+		sub_type = 1000,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 18003,
+		id = 60097,
+		target_num = 5,
+		fix_task = 0,
+		target_id = "18013",
+		open_need = {},
+		award_display = {}
+	},
+	[60098] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "苝舰体塑造I",
+		count_inherit = 0,
+		desc = "<color=#797979>漫长而又艰辛的研发工程终于来到了终点，现在只需要完成最后的舰体部分，就能享受来自港区山呼海啸般的祝贺了 </color>\n\n——提交<color=#A9F548>2万</color>物资",
+		target_id_2 = "",
+		sub_type = 1002,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 1,
+		id = 60098,
+		target_num = 20000,
+		fix_task = 0,
+		target_id = "1",
+		open_need = {},
+		award_display = {}
+	},
+	[60099] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "苝舰体塑造II",
+		count_inherit = 0,
+		desc = "<color=#797979>漫长而又艰辛的研发工程终于来到了终点，现在只需要完成最后的舰体部分，就能享受来自港区山呼海啸般的祝贺了 </color>\n\n——提交<color=#A9F548>5个</color>心智魔方",
+		target_id_2 = "",
+		sub_type = 1000,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 20001,
+		id = 60099,
+		target_num = 5,
+		fix_task = 0,
+		target_id = "20001",
+		open_need = {},
+		award_display = {}
+	},
+	[60101] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 9,
+		name = "猉开启研发前置任务",
+		count_inherit = 0,
+		desc = "",
+		target_id_2 = "",
+		sub_type = 1050,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 60101,
+		target_num = 900,
+		fix_task = 0,
+		target_id = "3",
+		open_need = {},
+		award_display = {}
+	},
+	[60102] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "重樱主力技术测试I ",
+		count_inherit = 0,
+		desc = "<color=#797979>为确保研发工程的顺利进行，获取足够多的测试数据是非常有必要的，而最真实有效的数据，无疑来自实战</color>\n\n——使用重樱主力角色，在任意关卡中累计获得<color=#A9F548>120万</color>经验（不同角色可累加）",
+		target_id_2 = "",
+		sub_type = 1041,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 60102,
+		target_num = 1200000,
+		fix_task = 0,
+		target_id = {
+			{
+				3,
+				4
+			},
+			{
+				3,
+				5
+			},
+			{
+				3,
+				6
+			},
+			{
+				3,
+				7
+			},
+			{
+				3,
+				9
+			},
+			{
+				3,
+				10
+			},
+			{
+				3,
+				12
+			},
+			{
+				3,
+				13
+			}
+		},
+		open_need = {},
+		award_display = {}
+	},
+	[60103] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "大型技术理论I ",
+		count_inherit = 0,
+		desc = "<color=#797979>每一次的研发都意味着大量新技术的引入。在此之前，工程师们已经积累了大量的研发理论，如果能证明这些理论的可行性，势必将加速研发的进程 </color>\n\n——完成<color=#A9F548>8次</color>科研项目的研发",
+		target_id_2 = "",
+		sub_type = 110,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 60103,
+		target_num = 8,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {}
+	},
+	[60104] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "主力技术突破I ",
+		count_inherit = 0,
+		desc = "<color=#797979>大量的实战数据和前沿理论让研发工作迎来了一次突破，这将会是一件完全不同与以往的工程，但在细节部分还需要参考之前的设计图进行比照确认 </color>\n\n——提交<color=#A9F548>3张</color>战列改造图T3",
+		target_id_2 = "",
+		sub_type = 1000,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 18023,
+		id = 60104,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "18022",
+		open_need = {},
+		award_display = {}
+	},
+	[60105] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "重樱先锋技术测试II ",
+		count_inherit = 0,
+		desc = [[
+<color=#797979><color=#A9F548>「需先完成重樱先锋技术测试I」</color>
+研发进入了新的阶段，尽管改良后的设计方案在理论上具有更出色的性能，但纸面数据终究不如实战测试来得可靠 </color>
+
+——使用重樱先锋角色，在任意关卡中累计获得<color=#A9F548>240万</color>经验（不同角色可累加）]],
+		target_id_2 = "",
+		sub_type = 1041,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 60105,
+		target_num = 2400000,
+		fix_task = 0,
+		target_id = {
+			{
+				3,
+				1
+			},
+			{
+				3,
+				2
+			},
+			{
+				3,
+				3
+			},
+			{
+				3,
+				18
+			}
+		},
+		open_need = {
+			60102
+		},
+		award_display = {}
+	},
+	[60106] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "大型技术理论II ",
+		count_inherit = 0,
+		desc = [[
+<color=#797979><color=#A9F548>「需先完成大型技术理论I」</color>
+支撑技术不断革新的理论建设从来没有停下过脚步，工程师们的脑海中无时无刻不在迸发更为大胆、更为激进的想法，现在是时候将这些想法落地了 </color>
+
+——完成<color=#A9F548>12次</color>科研项目的研发]],
+		target_id_2 = "",
+		sub_type = 110,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 60106,
+		target_num = 12,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {
+			60103
+		},
+		award_display = {}
+	},
+	[60107] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "先锋技术突破II ",
+		count_inherit = 0,
+		desc = "<color=#797979>在更多的数据和理论的帮助下，研发工作迎来了一次巨大的突破，在诸多领域应用了全新的技术。但有几个点，工程师们并没有达成一致，他们需要以往的技术资料进行参考 </color>\n\n——提交<color=#A9F548>8张</color>巡洋改造图T3",
+		target_id_2 = "",
+		sub_type = 1000,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 18013,
+		id = 60107,
+		target_num = 8,
+		fix_task = 0,
+		target_id = "18023",
+		open_need = {},
+		award_display = {}
+	},
+	[60108] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "猉舰体塑造I",
+		count_inherit = 0,
+		desc = "<color=#797979>漫长而又艰辛的研发工程终于来到了终点，现在只需要完成最后的舰体部分，就能享受来自港区山呼海啸般的祝贺了 </color>\n\n——提交<color=#A9F548>5万</color>物资",
+		target_id_2 = "",
+		sub_type = 1002,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 1,
+		id = 60108,
+		target_num = 50000,
+		fix_task = 0,
+		target_id = "1",
+		open_need = {},
+		award_display = {}
+	},
+	[60109] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "猉舰体塑造II",
+		count_inherit = 0,
+		desc = "<color=#797979>漫长而又艰辛的研发工程终于来到了终点，现在只需要完成最后的舰体部分，就能享受来自港区山呼海啸般的祝贺了 </color>\n\n——提交<color=#A9F548>10个</color>心智魔方",
+		target_id_2 = "",
+		sub_type = 1000,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 20001,
+		id = 60109,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "20001",
+		open_need = {},
+		award_display = {}
+	},
+	[60111] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 9,
+		name = "腓特烈大帝开启研发前置任务",
+		count_inherit = 0,
+		desc = "",
+		target_id_2 = "",
+		sub_type = 1050,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 60111,
+		target_num = 630,
+		fix_task = 0,
+		target_id = "4",
+		open_need = {},
+		award_display = {}
+	},
+	[60112] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "铁血主力技术测试I ",
+		count_inherit = 0,
+		desc = "<color=#797979>为确保研发工程的顺利进行，获取足够多的测试数据是非常有必要的，而最真实有效的数据，无疑来自实战</color>\n\n——使用铁血主力角色，在任意关卡中累计获得<color=#A9F548>120万</color>经验（不同角色可累加）",
+		target_id_2 = "",
+		sub_type = 1041,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 60112,
+		target_num = 1200000,
+		fix_task = 0,
+		target_id = {
+			{
+				4,
+				4
+			},
+			{
+				4,
+				5
+			},
+			{
+				4,
+				6
+			},
+			{
+				4,
+				7
+			},
+			{
+				4,
+				9
+			},
+			{
+				4,
+				10
+			},
+			{
+				4,
+				12
+			},
+			{
+				4,
+				13
+			}
+		},
+		open_need = {},
+		award_display = {}
+	},
+	[60113] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "大型技术理论I ",
+		count_inherit = 0,
+		desc = "<color=#797979>每一次的研发都意味着大量新技术的引入。在此之前，工程师们已经积累了大量的研发理论，如果能证明这些理论的可行性，势必将加速研发的进程 </color>\n\n——完成<color=#A9F548>8次</color>科研项目的研发",
+		target_id_2 = "",
+		sub_type = 110,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 60113,
+		target_num = 8,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {}
+	},
+	[60114] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "主力技术突破I ",
+		count_inherit = 0,
+		desc = "<color=#797979>大量的实战数据和前沿理论让研发工作迎来了一次突破，这将会是一件完全不同与以往的工程，但在细节部分还需要参考之前的设计图进行比照确认 </color>\n\n——提交<color=#A9F548>3张</color>战列改造图T3",
+		target_id_2 = "",
+		sub_type = 1000,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 18023,
+		id = 60114,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "18012",
+		open_need = {},
+		award_display = {}
+	},
+	[60115] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "铁血主力技术测试II ",
+		count_inherit = 0,
+		desc = [[
+<color=#797979><color=#A9F548>「需先完成铁血主力技术测试I」</color>
+研发进入了新的阶段，尽管改良后的设计方案在理论上具有更出色的性能，但纸面数据终究不如实战测试来得可靠 </color>
+
+——使用铁血主力角色，在任意关卡中累计获得<color=#A9F548>240万</color>经验（不同角色可累加）]],
+		target_id_2 = "",
+		sub_type = 1041,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 60115,
+		target_num = 2400000,
+		fix_task = 0,
+		target_id = {
+			{
+				4,
+				4
+			},
+			{
+				4,
+				5
+			},
+			{
+				4,
+				6
+			},
+			{
+				4,
+				7
+			},
+			{
+				4,
+				9
+			},
+			{
+				4,
+				10
+			},
+			{
+				4,
+				12
+			},
+			{
+				4,
+				13
+			}
+		},
+		open_need = {
+			60112
+		},
+		award_display = {}
+	},
+	[60116] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "大型技术理论II ",
+		count_inherit = 0,
+		desc = [[
+<color=#797979><color=#A9F548>「需先完成大型技术理论I」</color>
+支撑技术不断革新的理论建设从来没有停下过脚步，工程师们的脑海中无时无刻不在迸发更为大胆、更为激进的想法，现在是时候将这些想法落地了 </color>
+
+——完成<color=#A9F548>12次</color>科研项目的研发]],
+		target_id_2 = "",
+		sub_type = 110,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 60116,
+		target_num = 12,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {
+			60113
+		},
+		award_display = {}
+	},
+	[60117] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "主力技术突破II ",
+		count_inherit = 0,
+		desc = "<color=#797979>在更多的数据和理论的帮助下，研发工作迎来了一次巨大的突破，在诸多领域应用了全新的技术。但有几个点，工程师们并没有达成一致，他们需要以往的技术资料进行参考 </color>\n\n——提交<color=#A9F548>8张</color>战列改造图T3",
+		target_id_2 = "",
+		sub_type = 1000,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 18023,
+		id = 60117,
+		target_num = 8,
+		fix_task = 0,
+		target_id = "18013",
+		open_need = {},
+		award_display = {}
+	},
+	[60118] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "腓特烈大帝舰体塑造I",
+		count_inherit = 0,
+		desc = "<color=#797979>漫长而又艰辛的研发工程终于来到了终点，现在只需要完成最后的舰体部分，就能享受来自港区山呼海啸般的祝贺了 </color>\n\n——提交<color=#A9F548>6万</color>物资",
+		target_id_2 = "",
+		sub_type = 1002,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 1,
+		id = 60118,
+		target_num = 60000,
+		fix_task = 0,
+		target_id = "1",
+		open_need = {},
+		award_display = {}
+	},
+	[60119] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "腓特烈大帝舰体塑造II",
+		count_inherit = 0,
+		desc = "<color=#797979>漫长而又艰辛的研发工程终于来到了终点，现在只需要完成最后的舰体部分，就能享受来自港区山呼海啸般的祝贺了 </color>\n\n——提交<color=#A9F548>10个</color>心智魔方",
+		target_id_2 = "",
+		sub_type = 1000,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 20001,
+		id = 60119,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "20001",
+		open_need = {},
+		award_display = {}
+	},
+	[60120] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 9,
+		name = "加斯科涅开启研发前置任务1",
+		count_inherit = 0,
+		desc = "",
+		target_id_2 = "",
+		sub_type = 1050,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 60120,
+		target_num = 760,
+		fix_task = 0,
+		target_id = "1",
+		open_need = {},
+		award_display = {}
+	},
+	[60121] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 9,
+		name = "加斯科涅开启研发前置任务2",
+		count_inherit = 0,
+		desc = "",
+		target_id_2 = "",
+		sub_type = 1050,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 60121,
+		target_num = 420,
+		fix_task = 0,
+		target_id = "4",
+		open_need = {},
+		award_display = {}
+	},
+	[60122] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "铁血主力技术测试I ",
+		count_inherit = 0,
+		desc = "<color=#797979>为确保研发工程的顺利进行，获取足够多的测试数据是非常有必要的，而最真实有效的数据，无疑来自实战</color>\n\n——使用铁血、自由鸢尾或维希教廷的主力角色，在任意关卡中累计获得<color=#A9F548>100万</color>经验（不同角色可累加）",
+		target_id_2 = "",
+		sub_type = 1041,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 60122,
+		target_num = 1000000,
+		fix_task = 0,
+		target_id = {
+			{
+				4,
+				4
+			},
+			{
+				4,
+				5
+			},
+			{
+				4,
+				6
+			},
+			{
+				4,
+				7
+			},
+			{
+				4,
+				9
+			},
+			{
+				4,
+				10
+			},
+			{
+				4,
+				12
+			},
+			{
+				4,
+				13
+			},
+			{
+				8,
+				4
+			},
+			{
+				8,
+				5
+			},
+			{
+				8,
+				6
+			},
+			{
+				8,
+				7
+			},
+			{
+				8,
+				9
+			},
+			{
+				8,
+				10
+			},
+			{
+				8,
+				12
+			},
+			{
+				8,
+				13
+			},
+			{
+				9,
+				4
+			},
+			{
+				9,
+				5
+			},
+			{
+				9,
+				6
+			},
+			{
+				9,
+				7
+			},
+			{
+				9,
+				9
+			},
+			{
+				9,
+				10
+			},
+			{
+				9,
+				12
+			},
+			{
+				9,
+				13
+			}
+		},
+		open_need = {},
+		award_display = {}
+	},
+	[60123] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "大型技术理论I ",
+		count_inherit = 0,
+		desc = "<color=#797979>每一次的研发都意味着大量新技术的引入。在此之前，工程师们已经积累了大量的研发理论，如果能证明这些理论的可行性，势必将加速研发的进程 </color>\n\n——完成<color=#A9F548>5次</color>科研项目的研发",
+		target_id_2 = "",
+		sub_type = 110,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 60123,
+		target_num = 5,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {}
+	},
+	[60124] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "主力技术突破I ",
+		count_inherit = 0,
+		desc = "<color=#797979>大量的实战数据和前沿理论让研发工作迎来了一次突破，这将会是一件完全不同与以往的工程，但在细节部分还需要参考之前的设计图进行比照确认 </color>\n\n——提交<color=#A9F548>10张</color>战列改造图T2",
+		target_id_2 = "",
+		sub_type = 1000,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 18022,
+		id = 60124,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "18012",
+		open_need = {},
+		award_display = {}
+	},
+	[60125] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "铁血主力技术测试II ",
+		count_inherit = 0,
+		desc = [[
+<color=#797979><color=#A9F548>「需先完成铁血主力技术测试I」</color>
+研发进入了新的阶段，尽管改良后的设计方案在理论上具有更出色的性能，但纸面数据终究不如实战测试来得可靠 </color>
+
+——使用铁血、自由鸢尾或维希教廷的主力角色，在任意关卡中累计获得<color=#A9F548>200万</color>经验（不同角色可累加）]],
+		target_id_2 = "",
+		sub_type = 1041,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 60125,
+		target_num = 2000000,
+		fix_task = 0,
+		target_id = {
+			{
+				4,
+				4
+			},
+			{
+				4,
+				5
+			},
+			{
+				4,
+				6
+			},
+			{
+				4,
+				7
+			},
+			{
+				4,
+				9
+			},
+			{
+				4,
+				10
+			},
+			{
+				4,
+				12
+			},
+			{
+				4,
+				13
+			},
+			{
+				8,
+				4
+			},
+			{
+				8,
+				5
+			},
+			{
+				8,
+				6
+			},
+			{
+				8,
+				7
+			},
+			{
+				8,
+				9
+			},
+			{
+				8,
+				10
+			},
+			{
+				8,
+				12
+			},
+			{
+				8,
+				13
+			},
+			{
+				9,
+				4
+			},
+			{
+				9,
+				5
+			},
+			{
+				9,
+				6
+			},
+			{
+				9,
+				7
+			},
+			{
+				9,
+				9
+			},
+			{
+				9,
+				10
+			},
+			{
+				9,
+				12
+			},
+			{
+				9,
+				13
+			}
+		},
+		open_need = {
+			60122
+		},
+		award_display = {}
+	},
+	[60126] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "大型技术理论II ",
+		count_inherit = 0,
+		desc = [[
+<color=#797979><color=#A9F548>「需先完成大型技术理论I」</color>
+支撑技术不断革新的理论建设从来没有停下过脚步，工程师们的脑海中无时无刻不在迸发更为大胆、更为激进的想法，现在是时候将这些想法落地了 </color>
+
+——完成<color=#A9F548>8次</color>科研项目的研发]],
+		target_id_2 = "",
+		sub_type = 110,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 60126,
+		target_num = 8,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {
+			60123
+		},
+		award_display = {}
+	},
+	[60127] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "主力技术突破II ",
+		count_inherit = 0,
+		desc = "<color=#797979>在更多的数据和理论的帮助下，研发工作迎来了一次巨大的突破，在诸多领域应用了全新的技术。但有几个点，工程师们并没有达成一致，他们需要以往的技术资料进行参考 </color>\n\n——提交<color=#A9F548>5张</color>战列改造图T3",
+		target_id_2 = "",
+		sub_type = 1000,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 18023,
+		id = 60127,
+		target_num = 5,
+		fix_task = 0,
+		target_id = "18013",
+		open_need = {},
+		award_display = {}
+	},
+	[60128] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "加斯科涅舰体塑造I",
+		count_inherit = 0,
+		desc = "<color=#797979>漫长而又艰辛的研发工程终于来到了终点，现在只需要完成最后的舰体部分，就能享受来自港区山呼海啸般的祝贺了 </color>\n\n——提交<color=#A9F548>3万</color>物资",
+		target_id_2 = "",
+		sub_type = 1002,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 1,
+		id = 60128,
+		target_num = 30000,
+		fix_task = 0,
+		target_id = "1",
+		open_need = {},
+		award_display = {}
+	},
+	[60129] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "加斯科涅舰体塑造II",
+		count_inherit = 0,
+		desc = "<color=#797979>漫长而又艰辛的研发工程终于来到了终点，现在只需要完成最后的舰体部分，就能享受来自港区山呼海啸般的祝贺了 </color>\n\n——提交<color=#A9F548>5个</color>心智魔方",
+		target_id_2 = "",
+		sub_type = 1000,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 20001,
+		id = 60129,
+		target_num = 5,
+		fix_task = 0,
+		target_id = "20001",
+		open_need = {},
+		award_display = {}
+	},
 	all = {
 		1,
 		2,
@@ -68205,6 +70174,7 @@ pg.task_data_template = {
 		52008,
 		52009,
 		52010,
+		52011,
 		52021,
 		52022,
 		52023,
@@ -68263,7 +70233,62 @@ pg.task_data_template = {
 		60066,
 		60067,
 		60068,
-		60069
+		60069,
+		60071,
+		60072,
+		60073,
+		60074,
+		60075,
+		60076,
+		60077,
+		60078,
+		60079,
+		60081,
+		60082,
+		60083,
+		60084,
+		60085,
+		60086,
+		60087,
+		60088,
+		60089,
+		60091,
+		60092,
+		60093,
+		60094,
+		60095,
+		60096,
+		60097,
+		60098,
+		60099,
+		60101,
+		60102,
+		60103,
+		60104,
+		60105,
+		60106,
+		60107,
+		60108,
+		60109,
+		60111,
+		60112,
+		60113,
+		60114,
+		60115,
+		60116,
+		60117,
+		60118,
+		60119,
+		60120,
+		60121,
+		60122,
+		60123,
+		60124,
+		60125,
+		60126,
+		60127,
+		60128,
+		60129
 	}
 }
 

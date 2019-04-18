@@ -2520,6 +2520,119 @@ pg.furniture_data_template = {
 		canputonGrid = {},
 		interAction_group = {}
 	},
+	[141] = {
+		can_rotate = 0,
+		name = "",
+		gain_by = "",
+		type = 0,
+		dir = 0,
+		picture = "",
+		size = "",
+		is_get_time_note = 0,
+		count = 0,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 0,
+		not_for_sale = 0,
+		icon = "",
+		deblocking = 0,
+		level = 0,
+		interaction_bgm = "",
+		rarity = 0,
+		interAction_group = "",
+		spine = "",
+		belong = 0,
+		canputon = 0,
+		discount = 0,
+		id = 141,
+		comfortable = 0,
+		describe = "",
+		dorm_id = 0,
+		gem_price = 0,
+		can_trigger = 0,
+		themeId = 0,
+		spine_extra = "",
+		canputonGrid = "",
+		time = "",
+		interAction = "",
+		animator = "",
+		offset = "",
+		new = 0,
+		discount_time = ""
+	},
+	[142] = {
+		can_rotate = 0,
+		name = "乘风破浪啾！",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		picture = "",
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 500,
+		not_for_sale = 1,
+		icon = "jianjunjieicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 5,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 142,
+		comfortable = 0,
+		describe = "只要坚持不懈地努力，总是能够实现伟大的梦想的！",
+		dorm_id = 0,
+		gem_price = 0,
+		can_trigger = 0,
+		themeId = 0,
+		spine_extra = "",
+		time = "always",
+		new = 0,
+		discount_time = "",
+		size = {
+			5,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		spine = {
+			{
+				"jianjunjieB",
+				"normal"
+			},
+			{
+				"jianjunjieT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		animator = {
+			{
+				"jianjunjieCharControl"
+			}
+		},
+		interAction_group = {}
+	},
 	[100001] = {
 		can_rotate = 0,
 		name = "本ID禁用，后端固定会删除",
@@ -2869,18 +2982,18 @@ pg.furniture_data_template = {
 		gain_by = "",
 		type = 7,
 		dir = 0,
-		effect = "",
-		icon = "moshuxiangicon",
+		picture = "",
 		is_get_time_note = 0,
-		belong = 1,
 		count = 1,
 		advice = 0,
+		effect = "",
 		dorm_icon_price = 40,
 		not_for_sale = 1,
+		icon = "moshuxiangicon",
 		deblocking = 1,
 		level = 1,
 		rarity = 4,
-		picture = "",
+		belong = 1,
 		canputon = 0,
 		discount = 0,
 		id = 100005,
@@ -2895,11 +3008,69 @@ pg.furniture_data_template = {
 		new = 1,
 		discount_time = "",
 		size = {
-			3,
-			2
+			8,
+			5
 		},
 		offset = {},
 		canputonGrid = {},
+		spine = {
+			{
+				"MagicBoxB",
+				"normal"
+			},
+			{
+				"MagicBoxT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"stand21",
+						0,
+						"walk"
+					},
+					{
+						"walk1",
+						0,
+						"walk"
+					},
+					{
+						"stand22",
+						0,
+						"dance"
+					},
+					{
+						"walk2",
+						0,
+						"walk"
+					}
+				},
+				{},
+				{
+					0
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		animator = {
+			{
+				{
+					"MagicBoxCharControl",
+					"MagicBoxCharControl2"
+				}
+			}
+		},
 		interAction_group = {}
 	},
 	[1001] = {
@@ -71881,6 +72052,8 @@ pg.furniture_data_template = {
 		138,
 		139,
 		140,
+		141,
+		142,
 		100001,
 		100002,
 		100003,

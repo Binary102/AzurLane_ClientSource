@@ -7,6 +7,8 @@ slot0.ON_TASK_OPEN = "ShipBluePrintMediator:ON_TASK_OPEN"
 slot0.ON_MAIN = "ShipBluePrintMediator:ON_MAIN"
 slot0.ON_CHECK_TAKES = "ShipBluePrintMediator:ON_CHECK_TAKES"
 slot0.SHOW_SKILL_INFO = "ShipBluePrintMediator:SHOW_SKILL_INFO"
+slot0.SET_TECHNOLOGY_VERSION = "ShipBluePrintMediator:SET_TECHNOLOGY_VERSION"
+slot0.SIMULATION_BATTLE = "ShipBluePrintMediator:SIMULATION_BATTLE"
 
 function slot0.register(slot0)
 	slot1 = getProxy(TechnologyProxy)
@@ -97,9 +99,19 @@ function slot0.register(slot0)
 			}
 		}))
 	end)
+	slot0:bind(slot0.SET_TECHNOLOGY_VERSION, function (slot0, slot1)
+		slot0:setVersion(slot1)
+	end)
+	slot0:bind(slot0.SIMULATION_BATTLE, function (slot0, slot1)
+		slot0:sendNotification(GAME.BEGIN_STAGE, {
+			system = SYSTEM_SIMULATION,
+			stageId = slot1
+		})
+	end)
 	slot0.viewComponent:setShipBluePrints(slot2)
 	slot0.viewComponent:setItemVOs(slot4)
 	slot0.viewComponent:setShipVOs(getProxy(BayProxy).getRawData(slot5))
+	slot0.viewComponent:setVersion(slot1:getVersion())
 	slot0.viewComponent:setTaskVOs(getProxy(TaskProxy):getTasksForBluePrint())
 end
 
@@ -117,7 +129,9 @@ function slot0.listNotificationInterests(slot0)
 		GAME.STOP_BLUEPRINT_DONE,
 		GAME.MOD_BLUEPRINT_DONE,
 		BayProxy.SHIP_ADDED,
-		BayProxy.SHIP_UPDATED
+		BayProxy.SHIP_UPDATED,
+		GAME.BEGIN_STAGE_DONE,
+		GAME.MOD_BLUEPRINT_ANIM_LOCK
 	}
 end
 
@@ -164,7 +178,11 @@ function slot0.handleNotification(slot0, slot1)
 	elseif slot2 == BayProxy.SHIP_ADDED or BayProxy.SHIP_UPDATED == slot2 then
 		slot0.viewComponent:setShipVOs(getProxy(BayProxy):getRawData())
 	elseif GAME.BUILD_SHIP_BLUEPRINT_DONE == slot2 then
-		slot0.viewComponent:buildStartAni()
+		slot0.viewComponent:buildStartAni("researchStartWindow")
+	elseif slot2 == GAME.BEGIN_STAGE_DONE then
+		slot0:sendNotification(GAME.GO_SCENE, SCENE.COMBATLOAD, slot3)
+	elseif slot2 == GAME.MOD_BLUEPRINT_ANIM_LOCK then
+		slot0.viewComponent.noUpdateMod = true
 	end
 end
 

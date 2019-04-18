@@ -19,7 +19,7 @@ function slot0.execute(slot0, slot1)
 		return
 	end
 
-	if slot6:isMaxLevel() then
+	if slot6:isMaxLevel() and slot6:isMaxFateLevel() then
 		pg.TipsMgr:GetInstance():ShowTips(i18n("blueprint_max_level_tip"))
 
 		return
@@ -79,16 +79,34 @@ function slot0.execute(slot0, slot1)
 						end
 					end
 				end
+			elseif slot1.fateLevel < slot3.fateLevel then
+				for slot6 = slot1.fateLevel + 1, slot3.fateLevel, 1 do
+					if slot3:getFateStrengthenConfig(slot6).special == 1 and type(slot7.special_effect) == "table" then
+						for slot12, slot13 in ipairs(slot8) do
+							if slot13[1] == ShipBluePrint.STRENGTHEN_TYPE_CHANGE_SKILL then
+								slot15 = getProxy(BayProxy)
+								slot16 = slot15:getShipById(slot3.shipId)
+								Clone(slot16.skills[slot13[2][1]]).id = slot13[2][2]
+								slot16.skills[slot13[2][1]] = nil
+								slot16.skills[slot13[2][2]] = Clone(slot16.skills[slot13[2][1]])
+
+								pg.TipsMgr:GetInstance():ShowTips(slot13[3])
+								slot15:updateShip(slot16)
+							end
+						end
+					end
+				end
 			end
 
 			slot3 = slot5:getShipById(slot3.shipId)
 			slot3.strengthList = {}
 
 			table.insert(slot3.strengthList, {
-				level = slot3.level,
+				level = slot3.level + math.max(slot3.fateLevel, 0),
 				exp = slot3.exp
 			})
 			slot3.strengthList:updateShip(slot3)
+			slot0:sendNotification(GAME.MOD_BLUEPRINT_ANIM_LOCK)
 			slot6:updateBluePrint(slot3)
 			slot0:sendNotification(GAME.MOD_BLUEPRINT_DONE, {
 				oldBluePrint = slot1,

@@ -32,33 +32,33 @@ pg.attribute_info_by_type = {
 	},
 	{
 		id = 7,
-		name = "range",
-		condition = "射程"
-	},
-	{
-		id = 8,
 		name = "armor",
 		condition = "装甲"
 	},
 	{
-		id = 9,
+		id = 8,
 		name = "hit",
 		condition = "命中"
 	},
 	{
-		id = 10,
+		id = 9,
 		name = "dodge",
 		condition = "机动"
 	},
 	{
-		id = 11,
+		id = 10,
 		name = "speed",
 		condition = "航速"
 	},
 	{
-		id = 12,
+		id = 11,
 		name = "luck",
 		condition = "幸运"
+	},
+	{
+		id = 12,
+		name = "antisub",
+		condition = "反潜"
 	},
 	all = {
 		1,

@@ -3616,6 +3616,102 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[13012] = {
+		display = "试作型双联装457mm主炮MKAT0设计图",
+		rarity = 5,
+		type = 9,
+		name = "试作型双联装457mm主炮MKAT0设计图",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 13012,
+		icon = "Equips/14500",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[13013] = {
+		display = "试作型双联装406mmSKC主炮T0设计图",
+		rarity = 4,
+		type = 9,
+		name = "试作型双联装406mmSKC主炮T0设计图",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 13013,
+		icon = "Equips/44200",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[13014] = {
+		display = "试作型三联装152mm高平两用炮Mk17T0设计图",
+		rarity = 4,
+		type = 9,
+		name = "试作型三联装152mm高平两用炮Mk17T0设计图",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 13014,
+		icon = "Equips/12200",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[13015] = {
+		display = "试作型五式40mm高射机关炮T0设计图",
+		rarity = 4,
+		type = 9,
+		name = "试作型五式40mm高射机关炮T0设计图",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 13015,
+		icon = "Equips/36700",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[13016] = {
+		display = "试作型三联装310mm主炮T0设计图",
+		rarity = 4,
+		type = 9,
+		name = "试作型三联装310mm主炮T0设计图",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 13016,
+		icon = "Equips/33100",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[13017] = {
+		display = "双联37mm高射炮Mle1936T0设计图",
+		rarity = 4,
+		type = 9,
+		name = "双联37mm高射炮Mle1936T0设计图",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 13017,
+		icon = "Equips/50600",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[15001] = {
 		display = "角色退役后所获得的荣誉勋章,可用于向军部申请稀有的角色",
 		rarity = 3,
@@ -18183,6 +18279,166 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[42010] = {
+		display = "使用后可从第二期方案舰的最高方案蓝图中任意选择一张",
+		rarity = 4,
+		type = 13,
+		name = "定向蓝图・二期",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 42010,
+		icon = "Props/42010",
+		display_icon = {
+			{
+				2,
+				42011,
+				1
+			},
+			{
+				2,
+				42012,
+				1
+			},
+			{
+				2,
+				42013,
+				1
+			},
+			{
+				2,
+				42016,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[42011] = {
+		display = "白鹰巡洋「西雅图」的设计蓝图。\n<color=#A9F548>获得「西雅图」后，可在「开发船坞」中用于增强「西雅图」的能力。</color>",
+		rarity = 4,
+		type = 12,
+		name = "蓝图：西雅图",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 42011,
+		icon = "Props/42011",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[42012] = {
+		display = "白鹰战列「佐治亚」的设计蓝图。\n<color=#A9F548>获得「佐治亚」后，可在「开发船坞」中用于增强「佐治亚」的能力。</color>",
+		rarity = 4,
+		type = 12,
+		name = "蓝图：佐治亚",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 42012,
+		icon = "Props/42012",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[42013] = {
+		display = "重樱驱逐「苝」的设计蓝图。\n<color=#A9F548>获得「苝」后，可在「开发船坞」中用于增强「苝」的能力。</color>",
+		rarity = 4,
+		type = 12,
+		name = "蓝图：苝",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 42013,
+		icon = "Props/42013",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[42014] = {
+		display = "重樱超巡「猉」的设计蓝图。\n<color=#A9F548>获得「猉」后，可在「开发船坞」中用于增强「猉」的能力。</color>",
+		rarity = 5,
+		type = 12,
+		name = "蓝图：猉",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 42014,
+		icon = "Props/42014",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[42015] = {
+		display = "铁血战列「腓特烈大帝」的设计蓝图。\n<color=#A9F548>获得「腓特烈大帝」后，可在「开发船坞」中用于增强「腓特烈大帝」的能力。</color>",
+		rarity = 5,
+		type = 12,
+		name = "蓝图：腓特烈大帝",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 42015,
+		icon = "Props/42015",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[42016] = {
+		display = "维希教廷战列「加斯科涅」的设计蓝图。\n<color=#A9F548>获得「加斯科涅」后，可在「开发船坞」中用于增强「加斯科涅」的能力。</color>",
+		rarity = 4,
+		type = 12,
+		name = "蓝图：加斯科涅",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 42016,
+		icon = "Props/42016",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[42017] = {
+		display = "使用后可从第二期方案舰的决战方案蓝图中任意选择一张",
+		rarity = 5,
+		type = 13,
+		name = "高级定向蓝图・二期",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 42017,
+		icon = "Props/42017",
+		display_icon = {
+			{
+				2,
+				42014,
+				1
+			},
+			{
+				2,
+				42015,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
 	[50001] = {
 		display = "酸素可乐，口味独特，作为指挥官可能无法接受",
 		rarity = 2,
@@ -18571,6 +18827,125 @@ pg.item_data_statistics = {
 		id = 52004,
 		icon = "Props/55000",
 		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[52011] = {
+		display = "有几率获得以下蓝图",
+		rarity = 4,
+		type = 99,
+		name = "未知蓝图",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 52011,
+		icon = "Props/52001",
+		display_icon = {
+			{
+				2,
+				42014,
+				1
+			},
+			{
+				2,
+				42015,
+				1
+			},
+			{
+				2,
+				42011,
+				1
+			},
+			{
+				2,
+				42012,
+				1
+			},
+			{
+				2,
+				42013,
+				1
+			},
+			{
+				2,
+				42016,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[52012] = {
+		display = "有几率获得以下设计图",
+		rarity = 4,
+		type = 99,
+		name = "未知限定装备设计图",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 52012,
+		icon = "Props/55000",
+		display_icon = {
+			{
+				2,
+				13012,
+				1
+			},
+			{
+				2,
+				13000,
+				1
+			},
+			{
+				2,
+				13002,
+				1
+			},
+			{
+				2,
+				13009,
+				1
+			},
+			{
+				2,
+				13010,
+				1
+			},
+			{
+				2,
+				13011,
+				1
+			},
+			{
+				2,
+				13013,
+				1
+			},
+			{
+				2,
+				13014,
+				1
+			},
+			{
+				2,
+				13015,
+				1
+			},
+			{
+				2,
+				13016,
+				1
+			},
+			{
+				2,
+				13017,
+				1
+			}
+		},
 		price = {},
 		index = {}
 	},
@@ -64405,6 +64780,12 @@ pg.item_data_statistics = {
 		13009,
 		13010,
 		13011,
+		13012,
+		13013,
+		13014,
+		13015,
+		13016,
+		13017,
 		15001,
 		15002,
 		15003,
@@ -65012,6 +65393,14 @@ pg.item_data_statistics = {
 		42004,
 		42005,
 		42006,
+		42010,
+		42011,
+		42012,
+		42013,
+		42014,
+		42015,
+		42016,
+		42017,
 		50001,
 		50002,
 		50003,
@@ -65022,6 +65411,8 @@ pg.item_data_statistics = {
 		52002,
 		52003,
 		52004,
+		52011,
+		52012,
 		53000,
 		53010,
 		53011,

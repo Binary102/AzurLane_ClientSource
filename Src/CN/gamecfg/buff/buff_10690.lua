@@ -6,14 +6,16 @@ return {
 		},
 		shipInfoScene = {
 			equip = {
-				number = 15,
-				type = {
-					7,
-					8,
-					9
-				},
-				nationality = {
-					4
+				{
+					number = 15,
+					type = {
+						7,
+						8,
+						9
+					},
+					nationality = {
+						4
+					}
 				}
 			}
 		}
@@ -25,14 +27,16 @@ return {
 		},
 		shipInfoScene = {
 			equip = {
-				number = 16,
-				type = {
-					7,
-					8,
-					9
-				},
-				nationality = {
-					4
+				{
+					number = 16,
+					type = {
+						7,
+						8,
+						9
+					},
+					nationality = {
+						4
+					}
 				}
 			}
 		}
@@ -44,14 +48,16 @@ return {
 		},
 		shipInfoScene = {
 			equip = {
-				number = 17,
-				type = {
-					7,
-					8,
-					9
-				},
-				nationality = {
-					4
+				{
+					number = 17,
+					type = {
+						7,
+						8,
+						9
+					},
+					nationality = {
+						4
+					}
 				}
 			}
 		}
@@ -63,14 +69,16 @@ return {
 		},
 		shipInfoScene = {
 			equip = {
-				number = 19,
-				type = {
-					7,
-					8,
-					9
-				},
-				nationality = {
-					4
+				{
+					number = 19,
+					type = {
+						7,
+						8,
+						9
+					},
+					nationality = {
+						4
+					}
 				}
 			}
 		}
@@ -82,14 +90,16 @@ return {
 		},
 		shipInfoScene = {
 			equip = {
-				number = 20,
-				type = {
-					7,
-					8,
-					9
-				},
-				nationality = {
-					4
+				{
+					number = 20,
+					type = {
+						7,
+						8,
+						9
+					},
+					nationality = {
+						4
+					}
 				}
 			}
 		}
@@ -101,14 +111,16 @@ return {
 		},
 		shipInfoScene = {
 			equip = {
-				number = 21,
-				type = {
-					7,
-					8,
-					9
-				},
-				nationality = {
-					4
+				{
+					number = 21,
+					type = {
+						7,
+						8,
+						9
+					},
+					nationality = {
+						4
+					}
 				}
 			}
 		}
@@ -120,14 +132,16 @@ return {
 		},
 		shipInfoScene = {
 			equip = {
-				number = 23,
-				type = {
-					7,
-					8,
-					9
-				},
-				nationality = {
-					4
+				{
+					number = 23,
+					type = {
+						7,
+						8,
+						9
+					},
+					nationality = {
+						4
+					}
 				}
 			}
 		}
@@ -139,14 +153,16 @@ return {
 		},
 		shipInfoScene = {
 			equip = {
-				number = 25,
-				type = {
-					7,
-					8,
-					9
-				},
-				nationality = {
-					4
+				{
+					number = 25,
+					type = {
+						7,
+						8,
+						9
+					},
+					nationality = {
+						4
+					}
 				}
 			}
 		}
@@ -158,14 +174,16 @@ return {
 		},
 		shipInfoScene = {
 			equip = {
-				number = 27,
-				type = {
-					7,
-					8,
-					9
-				},
-				nationality = {
-					4
+				{
+					number = 27,
+					type = {
+						7,
+						8,
+						9
+					},
+					nationality = {
+						4
+					}
 				}
 			}
 		}
@@ -177,14 +195,16 @@ return {
 		},
 		shipInfoScene = {
 			equip = {
-				number = 30,
-				type = {
-					7,
-					8,
-					9
-				},
-				nationality = {
-					4
+				{
+					number = 30,
+					type = {
+						7,
+						8,
+						9
+					},
+					nationality = {
+						4
+					}
 				}
 			}
 		}

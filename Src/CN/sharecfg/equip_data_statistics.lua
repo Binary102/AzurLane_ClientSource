@@ -13168,6 +13168,134 @@ pg.equip_data_statistics = {
 		},
 		property_rate = {}
 	},
+	[12200] = {
+		name = "试作型三联装152mm高平两用炮Mk17",
+		speciality = "锁定",
+		tech = 0,
+		type = 2,
+		rarity = 5,
+		id = 12200,
+		angle = 115,
+		scatter = "16°",
+		ambush_extra = 0,
+		value_2 = 30,
+		icon = "12200",
+		value_1 = "5 x 6",
+		attribute_2 = "cannon",
+		avoid_extra = 0,
+		range = 55,
+		nationality = 1,
+		attribute_3 = "antiaircraft",
+		ammo = "高爆弹",
+		descrip = "说明未填写",
+		value_3 = 15,
+		attribute_1 = "damage",
+		property_rate = {},
+		ammo_icon = {
+			3
+		},
+		weapon_id = {
+			12200
+		},
+		skill_id = {},
+		part_main = {
+			2
+		},
+		part_sub = {
+			5
+		},
+		equip_parameters = {}
+	},
+	[12201] = {
+		base = 12200,
+		id = 12201,
+		value_1 = "6 x 6",
+		weapon_id = {
+			12201
+		},
+		property_rate = {}
+	},
+	[12202] = {
+		base = 12200,
+		id = 12202,
+		value_1 = "7 x 6",
+		weapon_id = {
+			12202
+		},
+		property_rate = {}
+	},
+	[12203] = {
+		base = 12200,
+		id = 12203,
+		value_1 = "8 x 6",
+		weapon_id = {
+			12203
+		},
+		property_rate = {}
+	},
+	[12204] = {
+		base = 12200,
+		id = 12204,
+		value_1 = "9 x 6",
+		weapon_id = {
+			12204
+		},
+		property_rate = {}
+	},
+	[12205] = {
+		base = 12200,
+		id = 12205,
+		value_1 = "10 x 6",
+		weapon_id = {
+			12205
+		},
+		property_rate = {}
+	},
+	[12206] = {
+		base = 12200,
+		id = 12206,
+		value_1 = "11 x 6",
+		weapon_id = {
+			12206
+		},
+		property_rate = {}
+	},
+	[12207] = {
+		base = 12200,
+		id = 12207,
+		value_1 = "12 x 6",
+		weapon_id = {
+			12207
+		},
+		property_rate = {}
+	},
+	[12208] = {
+		base = 12200,
+		id = 12208,
+		value_1 = "13 x 6",
+		weapon_id = {
+			12208
+		},
+		property_rate = {}
+	},
+	[12209] = {
+		base = 12200,
+		id = 12209,
+		value_1 = "14 x 6",
+		weapon_id = {
+			12209
+		},
+		property_rate = {}
+	},
+	[12210] = {
+		base = 12200,
+		id = 12210,
+		value_1 = "15 x 6",
+		weapon_id = {
+			12210
+		},
+		property_rate = {}
+	},
 	[13000] = {
 		name = "三联装203mm主炮",
 		type = 3,
@@ -15110,6 +15238,132 @@ pg.equip_data_statistics = {
 		value_1 = "182 x 3",
 		weapon_id = {
 			14450
+		},
+		property_rate = {}
+	},
+	[14500] = {
+		name = "试作型双联装457mm主炮MKA",
+		type = 4,
+		id = 14500,
+		tech = 0,
+		speciality = "跨射",
+		range = 200,
+		scatter = "23",
+		ambush_extra = 0,
+		value_2 = 65,
+		icon = "14500",
+		value_1 = "78 x 2",
+		attribute_2 = "cannon",
+		avoid_extra = 0,
+		rarity = 6,
+		angle = 50,
+		nationality = 1,
+		ammo = "穿甲弹",
+		descrip = "说明未填写",
+		value_3 = 0,
+		attribute_1 = "damage",
+		property_rate = {},
+		ammo_icon = {
+			2
+		},
+		weapon_id = {
+			14500
+		},
+		skill_id = {},
+		part_main = {
+			4,
+			5
+		},
+		part_sub = {},
+		equip_parameters = {}
+	},
+	[14501] = {
+		base = 14500,
+		id = 14501,
+		value_1 = "91 x 2",
+		weapon_id = {
+			14501
+		},
+		property_rate = {}
+	},
+	[14502] = {
+		base = 14500,
+		id = 14502,
+		value_1 = "102 x 2",
+		weapon_id = {
+			14502
+		},
+		property_rate = {}
+	},
+	[14503] = {
+		base = 14500,
+		id = 14503,
+		value_1 = "116 x 2",
+		weapon_id = {
+			14503
+		},
+		property_rate = {}
+	},
+	[14504] = {
+		base = 14500,
+		id = 14504,
+		value_1 = "129 x 2",
+		weapon_id = {
+			14504
+		},
+		property_rate = {}
+	},
+	[14505] = {
+		base = 14500,
+		id = 14505,
+		value_1 = "143 x 2",
+		weapon_id = {
+			14505
+		},
+		property_rate = {}
+	},
+	[14506] = {
+		base = 14500,
+		id = 14506,
+		value_1 = "156 x 2",
+		weapon_id = {
+			14506
+		},
+		property_rate = {}
+	},
+	[14507] = {
+		base = 14500,
+		id = 14507,
+		value_1 = "167 x 2",
+		weapon_id = {
+			14507
+		},
+		property_rate = {}
+	},
+	[14508] = {
+		base = 14500,
+		id = 14508,
+		value_1 = "180 x 2",
+		weapon_id = {
+			14508
+		},
+		property_rate = {}
+	},
+	[14509] = {
+		base = 14500,
+		id = 14509,
+		value_1 = "194 x 2",
+		weapon_id = {
+			14509
+		},
+		property_rate = {}
+	},
+	[14510] = {
+		base = 14500,
+		id = 14510,
+		value_1 = "207 x 2",
+		weapon_id = {
+			14510
 		},
 		property_rate = {}
 	},
@@ -30847,6 +31101,131 @@ pg.equip_data_statistics = {
 		},
 		property_rate = {}
 	},
+	[33100] = {
+		name = "试作型三联装310mm主炮",
+		type = 11,
+		id = 33100,
+		tech = 0,
+		speciality = "锁定",
+		range = 65,
+		scatter = "26°",
+		ambush_extra = 0,
+		value_2 = 45,
+		icon = "33100",
+		value_1 = "36 x 6",
+		attribute_2 = "cannon",
+		avoid_extra = 0,
+		rarity = 5,
+		angle = 45,
+		nationality = 3,
+		ammo = "高爆弹",
+		descrip = "说明未填写",
+		value_3 = 0,
+		attribute_1 = "damage",
+		property_rate = {},
+		ammo_icon = {
+			2
+		},
+		weapon_id = {
+			33100
+		},
+		skill_id = {},
+		part_main = {
+			18
+		},
+		part_sub = {},
+		equip_parameters = {}
+	},
+	[33101] = {
+		base = 33100,
+		id = 33101,
+		value_1 = "38 x 6",
+		weapon_id = {
+			33101
+		},
+		property_rate = {}
+	},
+	[33102] = {
+		base = 33100,
+		id = 33102,
+		value_1 = "40 x 6",
+		weapon_id = {
+			33102
+		},
+		property_rate = {}
+	},
+	[33103] = {
+		base = 33100,
+		id = 33103,
+		value_1 = "42 x 6",
+		weapon_id = {
+			33103
+		},
+		property_rate = {}
+	},
+	[33104] = {
+		base = 33100,
+		id = 33104,
+		value_1 = "44 x 6",
+		weapon_id = {
+			33104
+		},
+		property_rate = {}
+	},
+	[33105] = {
+		base = 33100,
+		id = 33105,
+		value_1 = "46 x 6",
+		weapon_id = {
+			33105
+		},
+		property_rate = {}
+	},
+	[33106] = {
+		base = 33100,
+		id = 33106,
+		value_1 = "48 x 6",
+		weapon_id = {
+			33106
+		},
+		property_rate = {}
+	},
+	[33107] = {
+		base = 33100,
+		id = 33107,
+		value_1 = "50 x 6",
+		weapon_id = {
+			33107
+		},
+		property_rate = {}
+	},
+	[33108] = {
+		base = 33100,
+		id = 33108,
+		value_1 = "52 x 6",
+		weapon_id = {
+			33108
+		},
+		property_rate = {}
+	},
+	[33109] = {
+		base = 33100,
+		id = 33109,
+		value_1 = "54 x 6",
+		weapon_id = {
+			33109
+		},
+		property_rate = {}
+	},
+	[33110] = {
+		base = 33100,
+		id = 33110,
+		value_1 = "56 x 6",
+		weapon_id = {
+			33110
+		},
+		property_rate = {}
+	},
 	[34000] = {
 		name = "356mm连装炮",
 		type = 4,
@@ -35355,6 +35734,127 @@ pg.equip_data_statistics = {
 		value_1 = "116/轮",
 		weapon_id = {
 			36650
+		},
+		property_rate = {}
+	},
+	[36700] = {
+		name = "试作型五式40mm高射机关炮",
+		type = 6,
+		id = 36700,
+		tech = 0,
+		speciality = "防空",
+		range = 29,
+		scatter = "无",
+		ambush_extra = 0,
+		value_2 = 45,
+		icon = "36700",
+		value_1 = "47/轮",
+		attribute_2 = "antiaircraft",
+		avoid_extra = 0,
+		rarity = 5,
+		angle = 360,
+		nationality = 3,
+		ammo = "通常",
+		descrip = "说明未填写",
+		value_3 = 0,
+		attribute_1 = "damage",
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {
+			36700
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {}
+	},
+	[36701] = {
+		base = 36700,
+		id = 36701,
+		value_1 = "51/轮",
+		weapon_id = {
+			36701
+		},
+		property_rate = {}
+	},
+	[36702] = {
+		base = 36700,
+		id = 36702,
+		value_1 = "55/轮",
+		weapon_id = {
+			36702
+		},
+		property_rate = {}
+	},
+	[36703] = {
+		base = 36700,
+		id = 36703,
+		value_1 = "59/轮",
+		weapon_id = {
+			36703
+		},
+		property_rate = {}
+	},
+	[36704] = {
+		base = 36700,
+		id = 36704,
+		value_1 = "63/轮",
+		weapon_id = {
+			36704
+		},
+		property_rate = {}
+	},
+	[36705] = {
+		base = 36700,
+		id = 36705,
+		value_1 = "67/轮",
+		weapon_id = {
+			36705
+		},
+		property_rate = {}
+	},
+	[36706] = {
+		base = 36700,
+		id = 36706,
+		value_1 = "71/轮",
+		weapon_id = {
+			36706
+		},
+		property_rate = {}
+	},
+	[36707] = {
+		base = 36700,
+		id = 36707,
+		value_1 = "75/轮",
+		weapon_id = {
+			36707
+		},
+		property_rate = {}
+	},
+	[36708] = {
+		base = 36700,
+		id = 36708,
+		value_1 = "79/轮",
+		weapon_id = {
+			36708
+		},
+		property_rate = {}
+	},
+	[36709] = {
+		base = 36700,
+		id = 36709,
+		value_1 = "83/轮",
+		weapon_id = {
+			36709
+		},
+		property_rate = {}
+	},
+	[36710] = {
+		base = 36700,
+		id = 36710,
+		value_1 = "87/轮",
+		weapon_id = {
+			36710
 		},
 		property_rate = {}
 	},
@@ -41050,6 +41550,132 @@ pg.equip_data_statistics = {
 		value_1 = "132 x 2",
 		weapon_id = {
 			44150
+		},
+		property_rate = {}
+	},
+	[44200] = {
+		name = "试作型双联装406mmSKC主炮",
+		type = 4,
+		id = 44200,
+		tech = 0,
+		speciality = "跨射",
+		range = 200,
+		scatter = "20",
+		ambush_extra = 0,
+		value_2 = 45,
+		icon = "44200",
+		value_1 = "58 x 2",
+		attribute_2 = "cannon",
+		avoid_extra = 0,
+		rarity = 5,
+		angle = 50,
+		nationality = 4,
+		ammo = "高爆弹",
+		descrip = "说明未填写",
+		value_3 = 0,
+		attribute_1 = "damage",
+		property_rate = {},
+		ammo_icon = {
+			2
+		},
+		weapon_id = {
+			44200
+		},
+		skill_id = {},
+		part_main = {
+			4,
+			5
+		},
+		part_sub = {},
+		equip_parameters = {}
+	},
+	[44201] = {
+		base = 44200,
+		id = 44201,
+		value_1 = "68 x 2",
+		weapon_id = {
+			44201
+		},
+		property_rate = {}
+	},
+	[44202] = {
+		base = 44200,
+		id = 44202,
+		value_1 = "76 x 2",
+		weapon_id = {
+			44202
+		},
+		property_rate = {}
+	},
+	[44203] = {
+		base = 44200,
+		id = 44203,
+		value_1 = "86 x 2",
+		weapon_id = {
+			44203
+		},
+		property_rate = {}
+	},
+	[44204] = {
+		base = 44200,
+		id = 44204,
+		value_1 = "96 x 2",
+		weapon_id = {
+			44204
+		},
+		property_rate = {}
+	},
+	[44205] = {
+		base = 44200,
+		id = 44205,
+		value_1 = "106 x 2",
+		weapon_id = {
+			44205
+		},
+		property_rate = {}
+	},
+	[44206] = {
+		base = 44200,
+		id = 44206,
+		value_1 = "116 x 2",
+		weapon_id = {
+			44206
+		},
+		property_rate = {}
+	},
+	[44207] = {
+		base = 44200,
+		id = 44207,
+		value_1 = "124 x 2",
+		weapon_id = {
+			44207
+		},
+		property_rate = {}
+	},
+	[44208] = {
+		base = 44200,
+		id = 44208,
+		value_1 = "134 x 2",
+		weapon_id = {
+			44208
+		},
+		property_rate = {}
+	},
+	[44209] = {
+		base = 44200,
+		id = 44209,
+		value_1 = "144 x 2",
+		weapon_id = {
+			44209
+		},
+		property_rate = {}
+	},
+	[44210] = {
+		base = 44200,
+		id = 44210,
+		value_1 = "154 x 2",
+		weapon_id = {
+			44210
 		},
 		property_rate = {}
 	},
@@ -51323,6 +51949,120 @@ pg.equip_data_statistics = {
 		},
 		property_rate = {}
 	},
+	[79381] = {
+		name = "专属弹幕-北风I",
+		type = 1,
+		nationality = 0,
+		speciality = "无",
+		range = 0,
+		angle = 0,
+		tech = 1,
+		ambush_extra = 0,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "",
+		avoid_extra = 0,
+		rarity = 1,
+		descrip = "技能弹幕",
+		scatter = "0",
+		ammo = "无",
+		value_3 = 0,
+		id = 79381,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {
+			79381
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {}
+	},
+	[79382] = {
+		name = "专属弹幕-北风II",
+		base = 79381,
+		id = 79382,
+		weapon_id = {
+			79382
+		},
+		property_rate = {}
+	},
+	[79383] = {
+		name = "专属弹幕鱼雷-北风I",
+		type = 1,
+		nationality = 0,
+		speciality = "无",
+		range = 0,
+		angle = 0,
+		tech = 1,
+		ambush_extra = 0,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "",
+		avoid_extra = 0,
+		rarity = 1,
+		descrip = "技能弹幕",
+		scatter = "0",
+		ammo = "无",
+		value_3 = 0,
+		id = 79383,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {
+			79383
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {}
+	},
+	[79384] = {
+		name = "专属弹幕鱼雷-北风II",
+		base = 79383,
+		id = 79384,
+		weapon_id = {
+			79384
+		},
+		property_rate = {}
+	},
+	[79391] = {
+		name = "专属弹幕-西雅图I",
+		type = 1,
+		nationality = 0,
+		speciality = "无",
+		range = 0,
+		angle = 0,
+		tech = 1,
+		ambush_extra = 0,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "",
+		avoid_extra = 0,
+		rarity = 1,
+		descrip = "技能弹幕",
+		scatter = "0",
+		ammo = "无",
+		value_3 = 0,
+		id = 79391,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {
+			79391
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {}
+	},
+	[79392] = {
+		name = "专属弹幕-西雅图II",
+		base = 79391,
+		id = 79392,
+		weapon_id = {
+			79392
+		},
+		property_rate = {}
+	},
 	[90000] = {
 		name = "130mm单装炮Mle1924",
 		type = 1,
@@ -52795,6 +53535,127 @@ pg.equip_data_statistics = {
 		},
 		property_rate = {}
 	},
+	[90600] = {
+		name = "双联37mm高射炮Mle1936",
+		type = 6,
+		id = 90600,
+		tech = 0,
+		speciality = "防空",
+		range = 28,
+		scatter = "无",
+		ambush_extra = 0,
+		value_2 = 45,
+		icon = "50600",
+		value_1 = "38/轮",
+		attribute_2 = "antiaircraft",
+		avoid_extra = 0,
+		rarity = 5,
+		angle = 360,
+		nationality = 8,
+		ammo = "通常",
+		descrip = "说明未填写",
+		value_3 = 0,
+		attribute_1 = "damage",
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {
+			90600
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {}
+	},
+	[90601] = {
+		base = 90600,
+		id = 90601,
+		value_1 = "42/轮",
+		weapon_id = {
+			90601
+		},
+		property_rate = {}
+	},
+	[90602] = {
+		base = 90600,
+		id = 90602,
+		value_1 = "46/轮",
+		weapon_id = {
+			90602
+		},
+		property_rate = {}
+	},
+	[90603] = {
+		base = 90600,
+		id = 90603,
+		value_1 = "50/轮",
+		weapon_id = {
+			90603
+		},
+		property_rate = {}
+	},
+	[90604] = {
+		base = 90600,
+		id = 90604,
+		value_1 = "54/轮",
+		weapon_id = {
+			90604
+		},
+		property_rate = {}
+	},
+	[90605] = {
+		base = 90600,
+		id = 90605,
+		value_1 = "58/轮",
+		weapon_id = {
+			90605
+		},
+		property_rate = {}
+	},
+	[90606] = {
+		base = 90600,
+		id = 90606,
+		value_1 = "62/轮",
+		weapon_id = {
+			90606
+		},
+		property_rate = {}
+	},
+	[90607] = {
+		base = 90600,
+		id = 90607,
+		value_1 = "66/轮",
+		weapon_id = {
+			90607
+		},
+		property_rate = {}
+	},
+	[90608] = {
+		base = 90600,
+		id = 90608,
+		value_1 = "70/轮",
+		weapon_id = {
+			90608
+		},
+		property_rate = {}
+	},
+	[90609] = {
+		base = 90600,
+		id = 90609,
+		value_1 = "74/轮",
+		weapon_id = {
+			90609
+		},
+		property_rate = {}
+	},
+	[90610] = {
+		base = 90600,
+		id = 90610,
+		value_1 = "78/轮",
+		weapon_id = {
+			90610
+		},
+		property_rate = {}
+	},
 	[100000] = {
 		name = "装备模板",
 		type = 0,
@@ -54191,6 +55052,17 @@ pg.equip_data_statistics = {
 		12148,
 		12149,
 		12150,
+		12200,
+		12201,
+		12202,
+		12203,
+		12204,
+		12205,
+		12206,
+		12207,
+		12208,
+		12209,
+		12210,
 		13000,
 		13001,
 		13002,
@@ -54345,6 +55217,17 @@ pg.equip_data_statistics = {
 		14448,
 		14449,
 		14450,
+		14500,
+		14501,
+		14502,
+		14503,
+		14504,
+		14505,
+		14506,
+		14507,
+		14508,
+		14509,
+		14510,
 		15000,
 		15001,
 		15002,
@@ -55617,6 +56500,17 @@ pg.equip_data_statistics = {
 		33068,
 		33069,
 		33070,
+		33100,
+		33101,
+		33102,
+		33103,
+		33104,
+		33105,
+		33106,
+		33107,
+		33108,
+		33109,
+		33110,
 		34000,
 		34001,
 		34002,
@@ -55995,6 +56889,17 @@ pg.equip_data_statistics = {
 		36648,
 		36649,
 		36650,
+		36700,
+		36701,
+		36702,
+		36703,
+		36704,
+		36705,
+		36706,
+		36707,
+		36708,
+		36709,
+		36710,
 		37000,
 		37001,
 		37002,
@@ -56456,6 +57361,17 @@ pg.equip_data_statistics = {
 		44148,
 		44149,
 		44150,
+		44200,
+		44201,
+		44202,
+		44203,
+		44204,
+		44205,
+		44206,
+		44207,
+		44208,
+		44209,
+		44210,
 		45000,
 		45001,
 		45002,
@@ -57119,6 +58035,12 @@ pg.equip_data_statistics = {
 		79362,
 		79371,
 		79372,
+		79381,
+		79382,
+		79383,
+		79384,
+		79391,
+		79392,
 		90000,
 		90001,
 		90002,
@@ -57233,6 +58155,17 @@ pg.equip_data_statistics = {
 		90501,
 		90502,
 		90503,
+		90600,
+		90601,
+		90602,
+		90603,
+		90604,
+		90605,
+		90606,
+		90607,
+		90608,
+		90609,
+		90610,
 		100000,
 		594017,
 		594018,

@@ -45,6 +45,7 @@ function slot0.Ctor(slot0, slot1, slot2)
 
 	slot0.duang = findTF(slot0.tr, "content/duang")
 	slot0.duang6 = findTF(slot0.tr, "content/duang_6")
+	slot0.duang6tuzhi = findTF(slot0.tr, "content/duang_6_tuzhi")
 
 	if findTF(slot0.tr, "content/frame/info/slv") then
 		slot0.slv = slot4.gameObject
@@ -186,23 +187,27 @@ function slot0.flush(slot0)
 		end
 
 		slot0:updateBlackBlock()
+
+		slot14 = slot0.shipVO.propose
+		slot15 = slot0.shipVO:isBluePrintShip()
+		slot16 = slot0.shipVO:getRarity() == ShipRarity.SSR
+
 		setActive(slot0.proposeTF, false)
 
 		if not LOCK_PROPOSE then
-			slot14, slot15, slot16 = slot0.shipVO:getIntimacyDetail()
+			slot17, slot18, slot19 = slot0.shipVO:getIntimacyDetail()
 
-			if slot15 <= slot16 and not slot0.shipVO.propose then
+			if slot18 <= slot19 and not slot14 then
 				setActive(slot0.proposeTF, true)
 			end
 
-			setActive(slot0.duang, slot0.shipVO.propose)
+			setActive(slot0.duang, slot14)
 		else
 			setActive(slot0.proposeTF, false)
 		end
 
-		if slot0.duang6 then
-			setActive(slot0.duang6, slot0.shipVO:getRarity() == 6 and not slot0.shipVO.propose)
-		end
+		setActive(slot0.duang6, slot16 and not slot14 and not slot15)
+		setActive(slot0.duang6tuzhi, slot16 and not slot14 and slot15)
 
 		if slot4 then
 			setActive(slot0.proposeTF, false)

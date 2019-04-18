@@ -683,6 +683,22 @@ pg.voice_actor_CN = {
 	{
 		actor_name = "藤沢れい香",
 		code = 171
+	},
+	{
+		actor_name = "河瀬茉希",
+		code = 172
+	},
+	{
+		actor_name = "下地紫野",
+		code = 173
+	},
+	{
+		actor_name = "生天目仁美",
+		code = 174
+	},
+	{
+		actor_name = "安野希世乃",
+		code = 175
 	}
 }
 

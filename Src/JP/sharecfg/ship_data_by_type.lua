@@ -169,7 +169,7 @@ pg.ship_data_by_type = {
 		energy_recover_time_ratio = 1.5,
 		ship_type = 11,
 		team_limit = 3,
-		fix_resource_gold = 24,
+		fix_resource_gold = 1,
 		property_filter = {
 			"durability",
 			"cannon",
@@ -195,7 +195,7 @@ pg.ship_data_by_type = {
 	{
 		distory_resource_gold_ratio = 30,
 		team_type = "main",
-		type_name = "重砲",
+		type_name = "砲艦",
 		energy_recover_food_ratio = 0.12,
 		distory_resource_oil_ratio = 3,
 		energy_recover_time_ratio = 1.5,
@@ -224,6 +224,22 @@ pg.ship_data_by_type = {
 			"torpedo"
 		}
 	},
+	[18] = {
+		distory_resource_gold_ratio = 60,
+		team_type = "vanguard",
+		type_name = "超巡",
+		energy_recover_food_ratio = 0.18,
+		distory_resource_oil_ratio = 5,
+		energy_recover_time_ratio = 2,
+		ship_type = 18,
+		team_limit = 3,
+		fix_resource_gold = 35,
+		property_filter = {
+			"durability",
+			"cannon",
+			"antiaircraft"
+		}
+	},
 	all = {
 		1,
 		2,
@@ -238,7 +254,8 @@ pg.ship_data_by_type = {
 		11,
 		12,
 		13,
-		17
+		17,
+		18
 	}
 }
 

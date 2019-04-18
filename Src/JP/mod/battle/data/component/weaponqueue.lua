@@ -7,8 +7,11 @@ function ys.Battle.WeaponQueue.Ctor(slot0)
 	slot0._totalWeapon = {}
 	slot0._queueList = {}
 	slot0._GCDTimerList = {}
-	slot0._torpedoQueue = slot0.Battle.ManualWeaponQueue.New()
-	slot0._chargeQueue = slot0.Battle.ManualWeaponQueue.New()
+end
+
+function ys.Battle.WeaponQueue.ConfigParallel(slot0, slot1, slot2)
+	slot0._torpedoQueue = slot0.Battle.ManualWeaponQueue.New(slot2)
+	slot0._chargeQueue = slot0.Battle.ManualWeaponQueue.New(slot1)
 end
 
 function ys.Battle.WeaponQueue.ClearAllWeapon(slot0)

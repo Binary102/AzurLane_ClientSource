@@ -4623,7 +4623,16 @@ pg.gametip = {
 		key = "help_shipinfo_attr",
 		tip = {
 			{
-				info = "1.性能について："
+				info = "1.強化表示："
+			},
+			{
+				info = "       <color=#A9F548FF>装備</color>：装備している兵装のステータス強化を表示する"
+			},
+			{
+				info = "       <color=#FFDE00FF>技術</color>：艦隊技術によるステータス強化を表示する"
+			},
+			{
+				info = "2.性能について："
 			},
 			{
 				info = "    耐久：艦のHP最大値",
@@ -4756,7 +4765,17 @@ pg.gametip = {
 				}
 			},
 			{
-				info = "2.コンディション:\n コンディションが低いままで出撃させると、親密度が下がり、\n もらえる経験値が半分になる"
+				info = "    運：KAN-SENのカンレキ・リュウコツに影響されるステータ\n    ス。戦闘には多くの要素に微々たる影響を与える",
+				icon = {
+					posX = 0,
+					atlas = "attricon",
+					posY = 0,
+					scale = 0.66,
+					path = "icon_luck"
+				}
+			},
+			{
+				info = "3.コンディション:\n コンディションが低いままで出撃させると、親密度が下がり、\n もらえる経験値が半分になる"
 			}
 		}
 	},
@@ -4826,19 +4845,12 @@ pg.gametip = {
 	},
 	help_build = {
 		tip = [[
-					<size=19>レアリティ出現割合
+					<size=25>レアリティ出現割合</size>
+
 						<color=#fff157>SSレア</color>：$2%
 						<color=#966af6>Sレア</color>：$3%
 						<color=#60a9ff>レア</color>：$4%
-						ノーマル：$5%
-
-						【期間限定】
-
-						<color=#fff157>三笠</color>：2%<color=#A9F548>(up!)</color>
-						<color=#966af6>比叡</color>：2.5%<color=#A9F548>(up!)</color>
-						<color=#60a9ff>浜風</color>：5%<color=#A9F548>(up!)</color>
-						<color=#60a9ff>黒潮</color>：5%<color=#A9F548>(up!)</color>
-						<color=#60a9ff>親潮</color>：5%<color=#A9F548>(up!)</color></size>]],
+						ノーマル：$5%]],
 		key = "help_build"
 	},
 	help_build_1 = {
@@ -6253,7 +6265,7 @@ pg.gametip = {
 		key = "mingshi_task_tip_11"
 	},
 	word_propose_changename_title = {
-		tip = "<color=#a0ff40>$1</color>はあなたの専属艦になりました。<color=#a0ff40>$1</color>の名前を変更しますか？",
+		tip = "<color=#a0ff40>$1</color>はあなたの専属艦になりました。名前を変更しますか？",
 		key = "word_propose_changename_title"
 	},
 	word_propose_changename_tip1 = {
@@ -6893,6 +6905,7 @@ pg.gametip = {
 工作艦は駆逐艦・巡洋艦の授業に参加することができます。
 航空戦艦は空母・戦艦の授業に参加することができます。
 潜水艦は駆逐艦の授業に参加することができます。
+超巡は巡洋艦の授業に参加することができます。
 
 ・授業の時間割
 月曜　『駆逐艦コース――アマゾンの水雷戦教室！』
@@ -7368,6 +7381,14 @@ pg.gametip = {
 		tip = "研究項目一覧・更新失敗",
 		key = "technology_refresh_erro"
 	},
+	change_technology_refresh_sucess = {
+		tip = "研究項目・変更成功",
+		key = "change_technology_refresh_sucess"
+	},
+	change_technology_refresh_erro = {
+		tip = "研究項目・変更失敗",
+		key = "change_technology_refresh_erro"
+	},
 	technology_start_up = {
 		tip = "研究開始",
 		key = "technology_start_up"
@@ -7383,6 +7404,14 @@ pg.gametip = {
 	technology_stop_erro = {
 		tip = "研究中止に失敗しました",
 		key = "technology_stop_erro"
+	},
+	technology_finish_success = {
+		tip = "研究完了に成功しました",
+		key = "technology_finish_success"
+	},
+	technology_finish_erro = {
+		tip = "研究完了に失敗しました",
+		key = "technology_finish_erro"
 	},
 	blueprint_stop_success = {
 		tip = "開発中止に成功しました",
@@ -7441,6 +7470,15 @@ pg.gametip = {
 		tip = {
 			{
 				info = [[
+
+※新機能：研究指向変更 
+  · 第二期特別計画艦実装に伴い、科学研究の項目に新たに
+「第二期」が追加されました。 既存の研究項目「第一期」と
+「第二期」の区分は科学研究項目左上の「Ⅰ」「Ⅱ」マークで
+  確認できます。
+  · また、研究項目一覧画面右下の「研究指向」で「第一期」
+「第二期」を選択すると、 当該研究項目を最低でも2つ出現
+させることができます。
 
 1.研究開始
   · 研究項目一覧から研究項目の「研究開始」をタップすると、
@@ -7514,13 +7552,55 @@ pg.gametip = {
 		tip = "強化レベル$1で開放",
 		key = "ship_profile_voice_locked_design"
 	},
+	help_technolog0 = {
+		key = "help_technolog0",
+		tip = {
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/technologytree1"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/technologytree2"
+				}
+			},
+			disableScroll = true,
+			pageMode = true,
+			defaultpage = 1,
+			ImageMode = true,
+			windowSize = {
+				x = 836,
+				y = 720
+			},
+			windowSize = {
+				x = 836,
+				y = 740
+			},
+			windowPos = {
+				y = 15
+			},
+			helpSize = {
+				x = 836,
+				y = 660
+			}
+		}
+	},
 	help_technolog = {
 		key = "help_technolog",
 		tip = {
 			{
 				icon = {
 					path = "",
-					atlas = "helpbg/technology"
+					atlas = "helpbg/technologytree1"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/technologytree2"
 				}
 			},
 			{
@@ -7535,9 +7615,15 @@ pg.gametip = {
 					atlas = "helpbg/blueprint_dev"
 				}
 			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/technology"
+				}
+			},
 			disableScroll = true,
 			pageMode = true,
-			defaultpage = 2,
+			defaultpage = 1,
 			ImageMode = true,
 			windowSize = {
 				x = 836,
@@ -7611,7 +7697,43 @@ pg.gametip = {
 「特別計画」艦のレベル上限について
   「特別計画」艦は限界突破しなくても、レベルを100まで上げる
   ことができますが、レベル上限を引き上げるには、資金とメンタル
-  ユニットを消費し「認識覚醒」を行う必要があります。]]
+  ユニットを消費し「認識覚醒」を行う必要があります。
+
+ 「竜骨編纂」とは 
+ ・「竜骨編纂」とは、特別計画艦のカンレキたるリュウコツを
+補強させ、さらに戦力を強化するシステムになります。
+  ・特別計画艦の強化レベルがLv.30になった場合、当該艦の
+「竜骨編纂」が解禁されます。
+  ・「竜骨編纂」では、艦に対応する強化ユニットを消費し、
+進捗を100％まで進行させると、そのレベルの竜骨編纂が完了
+します。
+  ・「竜骨編纂」では、最大レベル5まで強化することができ、
+レベル1～4では艦の「運」ステータスが強化され、レベル5では
+スキルを一部強化することができます。
+
+弾幕確認機能とは
+ ・特別計画艦Ⅱ期の「弾幕仕様」を確認できる機能になります。
+・「弾幕確認」をタップすると、該当の艦を使用した模擬戦
+（イベントバトル）が始まります。
+  ※模擬戦における艦の耐久・装填などの性能は実際の性能とは
+異なります。]]
+			}
+		}
+	},
+	help_shipblueprintui_luck = {
+		key = "help_shipblueprintui_luck",
+		tip = {
+			{
+				info = [[
+「竜骨編纂」とは
+
+1. 特別計画艦の強化レベルが<color=#A9F548>Lv.30</color>になった場合、当該艦の「竜骨
+編纂」が解禁されます
+2. 「竜骨編纂」では、<color=#A9F548>最大レベル5</color>まで強化することができ、艦に
+対応する<color=#A9F548>強化ユニット</color>を消費し、進捗を100％まで進行させると、
+そのレベルの竜骨編纂が完了します
+3. レベル<color=#A9F548>I～IV</color>では艦の<color=#A9F548>「運」</color>ステータスが強化されます
+4. レベル<color=#A9F548>V</color>では<color=#A9F548>スキル</color>を一部<color=#A9F548>強化</color>することができます]]
 			}
 		}
 	},
@@ -9218,6 +9340,95 @@ pg.gametip = {
 	refuse_and_add_into_bl = {
 		tip = "友達申請を断り、ブラックリストに追加します ",
 		key = "refuse_and_add_into_bl"
+	},
+	tech_simulate_closed = {
+		tip = "弾幕確認機能が開放されていません",
+		key = "tech_simulate_closed"
+	},
+	tech_simulate_quit = {
+		tip = "弾幕確認機能を終了しますか？\n（※実際の能力とは異なります）",
+		key = "tech_simulate_quit"
+	},
+	technology_uplevel_error_no_res = {
+		tip = "<color=#A9F548>$1</color>資金を消費し、陣営技術レベルを解放しますか？\n必要時間：<color=#A9F548>$2</color>\n技術レベル：<color=#A9F548>Lv.$3->Lv.$4</color> ",
+		key = "technology_uplevel_error_no_res"
+	},
+	help_technologytree = {
+		key = "help_technologytree",
+		tip = {
+			{
+				info = [[
+・<color=#A9F548>艦船技術</color>とは
+
+  艦船技術機能とは、艦を集め、高練度を達成することで、艦隊
+全体を強化する効果を入手するシステムです。強化効果は<color=#A9F548>【限界
+突破を3回以上行った艦船】</color>に適用されます。
+
+※いわゆる「母港の艦を満遍なく育てること」で恩恵を受けられる
+システムになります。
+
+艦船技術更に「艦船技術」「陣営技術」に分けることができます。
+
+「艦船技術」について
+
+ 艦船技術とは、艦船を育てることで、艦隊全体に強化効果を与える
+システムです。艦船技術画面では、史実における技術の発展順
+（Tier）に応じて艦船の収集・技術取得状況を確認できます。  
+下記の条件を達成すると、対応の艦船強化効果を入手することが
+できます。
+・艦船を図鑑に<color=#A9F548>登録する</color>
+・艦船のレベルを<color=#A9F548>120</color>にする
+
+※同じ種類の艦船はそれぞれの強化効果を<color=#A9F548>1回ずつ</color>しか入手できま
+せん。
+
+<color=#A9F548>「陣営技術」</color>について
+
+ 陣営技術とは、各陣営の「技術レベル」に応じて、艦隊全体に強化
+効果を与えるシステムです。
+・陣営技術項目の詳細をタップすると、この項目の強化効果、現在
+の技術レベルを確認することができます。
+・技術項目の技術レベルを上昇させると、強化効果を更にアップさ
+せることができます。
+・技術レベルを上昇させるには、<color=#A9F548>「資金」</color>の消費に加え、当該陣営
+の「技術Pt」が一定値以上に達成してる必要があります。
+ また、技術レベルの上昇は同時に一陣営でしか行なえません。
+
+「技術Pt」について
+
+  陣営技術レベルを強化するには、各陣営に対応する「技術Pt」
+の取得・蓄積が必要となります。陣営技術画面の各陣営のバナー
+をタップすることで、「技術Pt」の現在値を確認することが
+できます。
+技術Ptの入手方法は下記になります：
+・新たな艦船を図鑑に<color=#A9F548>登録する</color>
+・艦船の限界<color=#A9F548>突破回数を最大にする</color>
+・艦船のレベルを<color=#A9F548>120</color>にする
+
+ ※同じ種類の艦船はそれぞれの技術Ptを1回ずつしか入手できま
+せん]]
+			}
+		}
+	},
+	tech_change_version_mark = {
+		tip = "研究指向 ",
+		key = "tech_change_version_mark"
+	},
+	technology_uplevel_error_studying = {
+		tip = "$1—陣営技術を強化中です",
+		key = "technology_uplevel_error_studying"
+	},
+	fate_attr_word = {
+		tip = "竜骨編纂による強化効果： ",
+		key = "fate_attr_word"
+	},
+	fate_phase_word = {
+		tip = "研究進捗 ",
+		key = "fate_phase_word"
+	},
+	blueprint_simulation_confirm = {
+		tip = "弾幕確認機能（模擬戦）を起動しますか？\n(※実際の艦の性能とは異なります）",
+		key = "blueprint_simulation_confirm"
 	}
 }
 

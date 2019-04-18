@@ -67,6 +67,8 @@ function slot0.getProgress(slot0)
 		end)
 
 		slot1 = 0
+	elseif slot0:getConfig("sub_type") == TASK_SUB_TYPE_TECHNOLOGY_POINT then
+		slot1 = math.min(getProxy(TechnologyNationProxy):getNationPoint(tonumber(slot0:getConfig("target_id"))), slot0:getConfig("target_num"))
 	end
 
 	return slot1 or 0

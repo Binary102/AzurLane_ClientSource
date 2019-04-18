@@ -1298,14 +1298,6 @@ function slot7(slot0)
 
 	if slot1 == slot2 then
 		slot1 = setAnchoredPosition
-		slot2 = slot0.background
-		slot3 = {
-			x = 0
-		}
-
-		slot1(slot2, slot3)
-
-		slot1 = setAnchoredPosition
 		slot2 = slot0.shipInfo
 		slot3 = {}
 		slot4 = slot1
@@ -1324,14 +1316,6 @@ function slot7(slot0)
 		slot1 = "zhuangbei"
 		slot0.paintingFrameName = slot1
 	else
-		slot1 = setAnchoredPosition
-		slot2 = slot0.background
-		slot3 = {
-			x = -178
-		}
-
-		slot1(slot2, slot3)
-
 		slot1 = slot0.page
 		slot2 = slot0
 		slot2 = slot2.PAGE
@@ -2904,40 +2888,27 @@ function slot7(slot0, slot1, slot2, slot3)
 						slot13 = slot12 * 100 or 0
 
 						if slot8 then
-							slot14 = 1
-							slot15 = slot8.type
+							slot14 = ipairs
+							slot15 = slot8
+							slot14, slot15, slot16 = slot14(slot15)
 
-							if slot15 then
-								slot15 = table
-								slot15 = slot15.contains
-								slot16 = slot8.type
-								slot17 = slot2.config
-								slot17 = slot17.type
-								slot15 = slot15(slot16, slot17)
+							for slot17, slot18 in slot14, slot15, slot16 do
+								slot20 = slot0
+								slot19 = slot0.equipmentCheck
+								slot21 = slot18
+								slot19 = slot19(slot20, slot21)
 
-								if not slot15 then
-									slot14 = slot14 * 0
+								if slot19 then
+									slot19 = slot0.equipmentEnhance
+									slot20 = slot18
+									slot21 = slot2
+									slot19 = slot19(slot20, slot21)
+
+									if slot19 then
+										slot19 = slot18.number
+										slot13 = slot13 + slot19
+									end
 								end
-							end
-
-							slot15 = slot8.nationality
-
-							if slot15 then
-								slot15 = table
-								slot15 = slot15.contains
-								slot16 = slot8.nationality
-								slot17 = slot2.config
-								slot17 = slot17.nationality
-								slot15 = slot15(slot16, slot17)
-
-								if not slot15 then
-									slot14 = slot14 * 0
-								end
-							end
-
-							if slot14 == 1 then
-								slot15 = slot8.number
-								slot13 = slot13 + slot15
 							end
 						end
 					end
@@ -3052,230 +3023,230 @@ function slot7(slot0, slot1, slot2, slot3)
 
 			if slot16 == slot17 then
 				slot14(slot15, slot1 <= 3)
+			end
+		end
 
-				slot14 = slot0.equipmentNames
-				slot14 = slot14[slot1]
-				slot15 = slot14
-				slot14 = slot14.setText
-				slot16 = slot11
+		slot14 = slot0.equipmentNames
+		slot14 = slot14[slot1]
+		slot15 = slot14
+		slot14 = slot14.setText
+		slot16 = slot11
 
-				slot14(slot15, slot16)
+		slot14(slot15, slot16)
 
-				slot15 = slot2
-				slot14 = slot2.GetProperties
-				slot14 = slot14(slot15)
-				slot15 = false
-				slot16 = 1
-				slot17 = 4
-				slot18 = 1
+		slot15 = slot2
+		slot14 = slot2.GetProperties
+		slot14 = slot14(slot15)
+		slot15 = false
+		slot16 = 1
+		slot17 = 4
+		slot18 = 1
 
-				for slot19 = slot16, slot17, slot18 do
-					slot20 = findTF
-					slot21 = slot5
-					slot22 = "attrs/attr_"
-					slot23 = slot19
-					slot22 = slot22 .. slot23
-					slot20 = slot20(slot21, slot22)
+		for slot19 = slot16, slot17, slot18 do
+			slot20 = findTF
+			slot21 = slot5
+			slot22 = "attrs/attr_"
+			slot23 = slot19
+			slot22 = slot22 .. slot23
+			slot20 = slot20(slot21, slot22)
 
-					if slot20 then
-						slot21 = findTF
-						slot22 = slot20
-						slot23 = "panel"
-						slot21 = slot21(slot22, slot23)
-						slot22 = findTF
-						slot23 = slot20
-						slot24 = "lock"
-						slot22 = slot22(slot23, slot24)
-						slot23 = slot2.config
-						slot23 = slot23.type
-						slot24 = EquipType
-						slot24 = slot24.Equipment
+			if slot20 then
+				slot21 = findTF
+				slot22 = slot20
+				slot23 = "panel"
+				slot21 = slot21(slot22, slot23)
+				slot22 = findTF
+				slot23 = slot20
+				slot24 = "lock"
+				slot22 = slot22(slot23, slot24)
+				slot23 = slot2.config
+				slot23 = slot23.type
+				slot24 = EquipType
+				slot24 = slot24.Equipment
 
-						if slot23 == slot24 then
-							slot23 = 3
+				if slot23 == slot24 then
+					slot23 = 3
 
-							if slot1 <= slot23 and slot19 == 3 then
-								slot15 = true
-								slot23 = setActive
-								slot24 = slot13
-								slot25 = true
+					if slot1 <= slot23 and slot19 == 3 then
+						slot15 = true
+						slot23 = setActive
+						slot24 = slot13
+						slot25 = true
 
-								slot23(slot24, slot25)
+						slot23(slot24, slot25)
 
-								slot23 = SetActive
-								slot24 = slot20
-								slot25 = false
+						slot23 = SetActive
+						slot24 = slot20
+						slot25 = false
 
-								slot23(slot24, slot25)
+						slot23(slot24, slot25)
 
-								slot23 = slot12
-								slot24 = findTF
-								slot25 = slot13
-								slot26 = "panel"
-								slot24 = slot24(slot25, slot26)
-								slot25 = findTF
-								slot26 = slot13
-								slot27 = "lock"
+						slot23 = slot12
+						slot24 = findTF
+						slot25 = slot13
+						slot26 = "panel"
+						slot24 = slot24(slot25, slot26)
+						slot25 = findTF
+						slot26 = slot13
+						slot27 = "lock"
 
-								slot23(slot24, slot25(slot26, slot27))
-							end
-						else
-							slot23 = slot2.config
-							slot23 = slot23.type
-							slot24 = EquipType
-							slot24 = slot24.Equipment
+						slot23(slot24, slot25(slot26, slot27))
+					end
+				else
+					slot23 = slot2.config
+					slot23 = slot23.type
+					slot24 = EquipType
+					slot24 = slot24.Equipment
 
-							if slot23 == slot24 and slot19 == 3 then
-								slot23 = SetActive
-								slot24 = slot20
-								slot25 = true
+					if slot23 == slot24 and slot19 == 3 then
+						slot23 = SetActive
+						slot24 = slot20
+						slot25 = true
 
-								slot23(slot24, slot25)
+						slot23(slot24, slot25)
 
-								slot23 = slot12
-								slot24 = slot21
-								slot25 = slot22
+						slot23 = slot12
+						slot24 = slot21
+						slot25 = slot22
 
-								slot23(slot24, slot25)
-							elseif slot15 == true and slot19 == 4 then
-								slot23 = SetActive
-								slot24 = slot20
-								slot25 = false
+						slot23(slot24, slot25)
+					elseif slot15 == true and slot19 == 4 then
+						slot23 = SetActive
+						slot24 = slot20
+						slot25 = false
 
-								slot23(slot24, slot25)
-							else
-								slot23 = SetActive
-								slot24 = slot20
-								slot25 = true
+						slot23(slot24, slot25)
+					else
+						slot23 = SetActive
+						slot24 = slot20
+						slot25 = true
 
-								slot23(slot24, slot25)
+						slot23(slot24, slot25)
 
-								slot23 = slot14[slot19]
-								slot24 = setActive
-								slot25 = slot21
-								slot26 = slot23
+						slot23 = slot14[slot19]
+						slot24 = setActive
+						slot25 = slot21
+						slot26 = slot23
 
-								slot24(slot25, slot26)
+						slot24(slot25, slot26)
 
-								slot24 = setActive
-								slot25 = slot22
-								slot26 = not slot23
+						slot24 = setActive
+						slot25 = slot22
+						slot26 = not slot23
 
-								slot24(slot25, slot26)
+						slot24(slot25, slot26)
 
-								if slot23 then
-									slot24 = findTF
-									slot25 = slot21
-									slot26 = "tag"
-									slot24 = slot24(slot25, slot26)
-									slot25 = findTF
-									slot26 = slot21
-									slot27 = "values/value"
-									slot25 = slot25(slot26, slot27)
-									slot26 = findTF
-									slot27 = slot21
-									slot28 = "values/value_1"
-									slot26 = slot26(slot27, slot28)
-									slot27 = slot2.config
-									slot27 = slot27.type
-									slot28 = EquipType
-									slot28 = slot28.Equipment
+						if slot23 then
+							slot24 = findTF
+							slot25 = slot21
+							slot26 = "tag"
+							slot24 = slot24(slot25, slot26)
+							slot25 = findTF
+							slot26 = slot21
+							slot27 = "values/value"
+							slot25 = slot25(slot26, slot27)
+							slot26 = findTF
+							slot27 = slot21
+							slot28 = "values/value_1"
+							slot26 = slot26(slot27, slot28)
+							slot27 = slot2.config
+							slot27 = slot27.type
+							slot28 = EquipType
+							slot28 = slot28.Equipment
 
-									if slot27 ~= slot28 then
-										slot27 = slot23.type
-										slot28 = AttributeType
-										slot28 = slot28.Reload
+							if slot27 ~= slot28 then
+								slot27 = slot23.type
+								slot28 = AttributeType
+								slot28 = slot28.Reload
 
-										if slot27 == slot28 and slot19 == 4 then
-											slot27 = slot0.shipVO
-											slot28 = slot27
-											slot27 = slot27.getWeaponCD
-											slot29 = slot1
-											slot27 = slot27(slot28, slot29)
-											slot28 = setColorStr
-											slot29 = slot27
-											slot30 = "s"
-											slot29 = slot29 .. slot30
-											slot30 = COLOR_YELLOW
-											slot28 = slot28(slot29, slot30)
-											slot29 = setText
-											slot30 = slot24
-											slot31 = AttributeType
-											slot31 = slot31.Type2Name
-											slot32 = AttributeType
-											slot32 = slot32.CD
+								if slot27 == slot28 and slot19 == 4 then
+									slot27 = slot0.shipVO
+									slot28 = slot27
+									slot27 = slot27.getWeaponCD
+									slot29 = slot1
+									slot27 = slot27(slot28, slot29)
+									slot28 = setColorStr
+									slot29 = slot27
+									slot30 = "s"
+									slot29 = slot29 .. slot30
+									slot30 = COLOR_YELLOW
+									slot28 = slot28(slot29, slot30)
+									slot29 = setText
+									slot30 = slot24
+									slot31 = AttributeType
+									slot31 = slot31.Type2Name
+									slot32 = AttributeType
+									slot32 = slot32.CD
 
-											slot29(slot30, slot31(slot32))
+									slot29(slot30, slot31(slot32))
 
-											slot29 = setText
-											slot30 = slot25
-											slot31 = slot28
+									slot29 = setText
+									slot30 = slot25
+									slot31 = slot28
 
-											slot29(slot30, slot31)
+									slot29(slot30, slot31)
 
-											slot29 = setText
-											slot30 = slot26
-											slot31 = i18n
-											slot32 = "word_secondseach"
+									slot29 = setText
+									slot30 = slot26
+									slot31 = i18n
+									slot32 = "word_secondseach"
 
-											slot29(slot30, slot31(slot32))
-										end
-									else
-										slot27 = setText
-										slot28 = slot24
-										slot29 = AttributeType
-										slot29 = slot29.Type2Name
-										slot30 = slot23.type
-
-										slot27(slot28, slot29(slot30))
-
-										slot27 = setText
-										slot28 = slot25
-										slot29 = slot23.value
-
-										slot27(slot28, slot29)
-
-										slot27 = setText
-										slot28 = slot26
-										slot29 = ""
-
-										slot27(slot28, slot29)
-									end
+									slot29(slot30, slot31(slot32))
 								end
+							else
+								slot27 = setText
+								slot28 = slot24
+								slot29 = AttributeType
+								slot29 = slot29.Type2Name
+								slot30 = slot23.type
+
+								slot27(slot28, slot29(slot30))
+
+								slot27 = setText
+								slot28 = slot25
+								slot29 = slot23.value
+
+								slot27(slot28, slot29)
+
+								slot27 = setText
+								slot28 = slot26
+								slot29 = ""
+
+								slot27(slot28, slot29)
 							end
 						end
 					end
 				end
-
-				slot16 = onButton
-				slot17 = slot0
-				slot18 = slot4
-
-				function slot19()
-					slot0 = slot0
-					slot1 = slot0
-					slot0 = slot0.emit
-					slot2 = slot1
-					slot2 = slot2.ON_EQUIPMENT
-					slot3 = {}
-					slot4 = EquipmentInfoMediator
-					slot4 = slot4.TYPE_SHIP
-					slot3.type = slot4
-					slot4 = slot0
-					slot4 = slot4.shipVO
-					slot4 = slot4.id
-					slot3.shipId = slot4
-					slot4 = slot2
-					slot3.pos = slot4
-
-					slot0(slot1, slot2, slot3)
-				end
-
-				slot20 = SFX_UI_DOCKYARD_EQUIPADD
-
-				slot16(slot17, slot18, slot19, slot20)
 			end
 		end
+
+		slot16 = onButton
+		slot17 = slot0
+		slot18 = slot4
+
+		function slot19()
+			slot0 = slot0
+			slot1 = slot0
+			slot0 = slot0.emit
+			slot2 = slot1
+			slot2 = slot2.ON_EQUIPMENT
+			slot3 = {}
+			slot4 = EquipmentInfoMediator
+			slot4 = slot4.TYPE_SHIP
+			slot3.type = slot4
+			slot4 = slot0
+			slot4 = slot4.shipVO
+			slot4 = slot4.id
+			slot3.shipId = slot4
+			slot4 = slot2
+			slot3.pos = slot4
+
+			slot0(slot1, slot2, slot3)
+		end
+
+		slot20 = SFX_UI_DOCKYARD_EQUIPADD
+
+		slot16(slot17, slot18, slot19, slot20)
 	else
 		slot11 = onButton
 		slot12 = slot0
@@ -3325,6 +3296,126 @@ function slot7(slot0, slot1, slot2, slot3)
 end
 
 slot0.updateEquipmentPanel = slot7
+
+function slot7(slot0, slot1)
+	slot2 = slot0.shipVO
+
+	if not slot2 then
+		slot2 = false
+
+		return slot2
+	end
+
+	slot2 = slot1.check_type
+	slot3 = slot1.check_indexList
+
+	if not slot2 and not slot3 then
+		slot4 = true
+
+		return slot4
+	end
+
+	slot4 = false
+	slot5 = {}
+	slot6 = Clone
+	slot7 = slot0.shipVO
+	slot7 = slot7.equipments
+	slot6 = slot6(slot7)
+
+	if slot3 then
+		slot7 = #slot6
+		slot8 = 0
+
+		while slot7 > slot8 do
+			slot8 = table
+			slot8 = slot8.contains
+			slot9 = slot3
+			slot10 = slot7
+			slot8 = slot8(slot9, slot10)
+
+			if not slot8 then
+				slot8 = table
+				slot8 = slot8.remove
+				slot9 = slot6
+				slot10 = slot7
+
+				slot8(slot9, slot10)
+			end
+
+			slot7 = slot7 - 1
+		end
+	end
+
+	if slot2 then
+		slot7 = #slot6
+		slot8 = 0
+
+		while slot7 > slot8 do
+			slot8 = slot6[slot7]
+
+			if slot8 then
+				slot9 = table
+				slot9 = slot9.contains
+				slot10 = slot2
+				slot11 = slot8.config
+				slot11 = slot11.type
+				slot9 = slot9(slot10, slot11)
+
+				if not slot9 then
+					slot9 = table
+					slot9 = slot9.remove
+					slot10 = slot6
+					slot11 = slot7
+
+					slot9(slot10, slot11)
+				end
+			end
+
+			slot7 = slot7 - 1
+		end
+	end
+
+	return #slot6 > 0
+end
+
+slot0.equipmentCheck = slot7
+
+function slot7(slot0, slot1)
+	slot2 = 1
+	slot3 = slot0.type
+
+	if slot3 then
+		slot3 = table
+		slot3 = slot3.contains
+		slot4 = slot0.type
+		slot5 = slot1.config
+		slot5 = slot5.type
+		slot3 = slot3(slot4, slot5)
+
+		if not slot3 then
+			slot2 = slot2 * 0
+		end
+	end
+
+	slot3 = slot0.nationality
+
+	if slot3 then
+		slot3 = table
+		slot3 = slot3.contains
+		slot4 = slot0.nationality
+		slot5 = slot1.config
+		slot5 = slot5.nationality
+		slot3 = slot3(slot4, slot5)
+
+		if not slot3 then
+			slot2 = slot2 * 0
+		end
+	end
+
+	return slot2 == 1
+end
+
+slot0.equipmentEnhance = slot7
 
 function slot7(slot0, slot1)
 	slot2 = ShipGroup
@@ -3834,67 +3925,76 @@ function slot7(slot0, slot1)
 		slot5 = ((table.contains(slot0.skinList, slot1.id) or slot4) and 1) or 0
 		slot6 = slot1.shop_id
 		slot7 = 0
-		slot6 = pg.shop_template[slot1.shop_id] or nil
 
-		if slot6 then
-			slot7 = pg
-			slot7 = slot7.TimeMgr
-			slot7 = slot7.GetInstance
-			slot7 = slot7()
-			slot8 = slot7
-			slot7 = slot7.inTime
-			slot9 = slot6.time
-			slot7 = slot7(slot8, slot9)
-			slot7 = not slot7
+		if slot6 > slot7 then
+			slot6 = pg.shop_template[slot1.shop_id] or nil
+
+			if slot6 then
+				slot7 = pg
+				slot7 = slot7.TimeMgr
+				slot7 = slot7.GetInstance
+				slot7 = slot7()
+				slot8 = slot7
+				slot7 = slot7.inTime
+				slot9 = slot6.time
+				slot7 = slot7(slot8, slot9)
+				slot7 = not slot7
+			end
 		end
+	end
 
-		slot8 = slot1.id == slot0.shipVO.skinId
-		slot9 = slot1.id
-		slot10 = slot0.shipVO:getConfig("skin_id")
+	slot8 = slot1.id == slot0.shipVO.skinId
+	slot9 = slot1.id
+	slot10 = slot0.shipVO:getConfig("skin_id")
+
+	if slot9 ~= slot10 then
 		slot9 = 1
-		slot9 = slot1.skin_type == 3
 
-		setGray(slot2.confirm, false)
-		setActive(slot2.using, false)
-		setActive(slot2.change, false)
-		setActive(slot2.buy, false)
+		if slot5 < slot9 then
+			slot9 = slot1.skin_type == 3
 
-		if slot8 then
-			slot10 = setActive
-			slot11 = slot2.using
-			slot12 = true
+			setGray(slot2.confirm, false)
+			setActive(slot2.using, false)
+			setActive(slot2.change, false)
+			setActive(slot2.buy, false)
 
-			slot10(slot11, slot12)
-		elseif slot9 then
-			slot10 = setActive
-			slot11 = slot2.change
-			slot12 = true
+			if slot8 then
+				slot10 = setActive
+				slot11 = slot2.using
+				slot12 = true
 
-			slot10(slot11, slot12)
-		elseif slot6 then
-			slot10 = setActive
-			slot11 = slot2.buy
-			slot12 = true
+				slot10(slot11, slot12)
+			elseif slot9 then
+				slot10 = setActive
+				slot11 = slot2.change
+				slot12 = true
 
-			slot10(slot11, slot12)
+				slot10(slot11, slot12)
+			elseif slot6 then
+				slot10 = setActive
+				slot11 = slot2.buy
+				slot12 = true
 
-			slot10 = setGray
-			slot11 = slot2.confirm
-			slot12 = slot7
+				slot10(slot11, slot12)
 
-			slot10(slot11, slot12)
-		else
-			slot10 = setActive
-			slot11 = slot2.change
-			slot12 = true
+				slot10 = setGray
+				slot11 = slot2.confirm
+				slot12 = slot7
 
-			slot10(slot11, slot12)
+				slot10(slot11, slot12)
+			else
+				slot10 = setActive
+				slot11 = slot2.change
+				slot12 = true
 
-			slot10 = setGray
-			slot11 = slot2.confirm
-			slot12 = true
+				slot10(slot11, slot12)
 
-			slot10(slot11, slot12)
+				slot10 = setGray
+				slot11 = slot2.confirm
+				slot12 = true
+
+				slot10(slot11, slot12)
+			end
 		end
 	end
 
@@ -5649,7 +5749,17 @@ function slot7(slot0, slot1, slot2)
 			slot4 = slot0.shipVO
 			slot4 = slot4.skinId
 			slot5 = slot1
-			slot3, slot4 = slot3(slot4, slot5)
+			slot6, slot7 = nil
+			slot8 = slot0.shipVO
+			slot9 = slot8
+			slot8 = slot8.getIntimacy
+			slot8 = slot8(slot9)
+			slot8 = slot8 / 100
+			slot9 = slot0.shipVO
+			slot9 = slot9.propose
+			slot9 = (slot9 and 1000) or 0
+			slot8 = slot8 + slot9
+			slot3, slot4 = slot3(slot4, slot5, slot6, slot7, slot8)
 			slot5 = setText
 			slot6 = slot0.chatText
 			slot7 = slot3
@@ -5671,6 +5781,11 @@ function slot7(slot0, slot1, slot2)
 			slot6 = slot5.text
 			slot6 = #slot6
 			slot7 = CHAT_POP_STR_LEN
+			slot9 = 1000
+
+			if 1000 then
+				slot9 = 0
+			end
 
 			if slot7 < slot6 then
 				slot6 = TextAnchor
@@ -5803,16 +5918,22 @@ function slot7(slot0, slot1, slot2)
 						slot0 = slot0
 						slot1 = nil
 						slot0.chatFlag = slot1
+
+						return
 					end
 
 					slot1 = slot1(slot2, slot3(slot4))
 					slot1 = slot1.uniqueId
 					slot0.chatani2Id = slot1
+
+					return
 				end
 
 				slot1 = slot1(slot2, slot3(slot4))
 				slot1 = slot1.uniqueId
 				slot0.chatani1Id = slot1
+
+				return
 			end
 
 			if slot4 then
@@ -5849,6 +5970,8 @@ function slot7(slot0, slot1, slot2)
 					slot1 = slot3
 
 					slot1()
+
+					return
 				end
 
 				slot10 = slot0.loadedCVBankName
@@ -5893,6 +6016,8 @@ function slot7(slot0, slot1, slot2)
 								slot1.loadedCVBankName = slot0
 							end
 						end
+
+						return
 					end
 
 					slot12 = pg
@@ -5947,6 +6072,8 @@ function slot7(slot0)
 		slot2 = slot2.getInitmacyWords
 
 		slot0(slot1, slot2(slot3))
+
+		return
 	end
 
 	slot3 = slot0
@@ -5958,6 +6085,8 @@ function slot7(slot0)
 	slot1 = slot1.Start
 
 	slot1(slot2)
+
+	return
 end
 
 slot0.startChatTimer = slot7
@@ -5998,9 +6127,23 @@ function slot7(slot0, slot1)
 		slot2(slot3)
 	end
 
-	setActive(slot0.shipName, slot1 ~= slot0.PAGE.REMOULD)
+	slot2 = setActive
+	slot3 = slot0.shipName
+	slot4 = slot0
+	slot4 = slot4.PAGE
+	slot4 = slot4.REMOULD
 
-	slot2 = slot0.PAGE.FASHION
+	if slot1 == slot4 then
+		slot4 = false
+	else
+		slot4 = true
+	end
+
+	slot2(slot3, slot4)
+
+	slot2 = slot0
+	slot2 = slot2.PAGE
+	slot2 = slot2.FASHION
 
 	if slot1 ~= slot2 then
 		slot3 = slot0
@@ -6024,7 +6167,19 @@ function slot7(slot0, slot1)
 		slot2(slot3, slot4, slot5(slot6))
 	end
 
-	setActive(slot0.helpBtn, slot1 ~= slot0.PAGE.FASHION)
+	slot2 = setActive
+	slot3 = slot0.helpBtn
+	slot4 = slot0
+	slot4 = slot4.PAGE
+	slot4 = slot4.FASHION
+
+	if slot1 == slot4 then
+		slot4 = false
+	else
+		slot4 = true
+	end
+
+	slot2(slot3, slot4)
 
 	slot2 = slot0.page
 	slot4 = slot0
@@ -6095,16 +6250,6 @@ function slot7(slot0, slot1)
 		slot10 = slot1
 
 		slot4(slot5, slot6, slot7, slot8, slot9, slot10)
-
-		slot5 = slot0
-		slot4 = slot0.switchPanel
-		slot6 = slot0.background
-		slot7 = 0
-		slot8 = nil
-		slot9 = slot1
-		slot9 = slot9 * 2
-
-		slot4(slot5, slot6, slot7, slot8, slot9)
 
 		slot5 = slot0
 		slot4 = slot0.switchPanel
@@ -6181,16 +6326,6 @@ function slot7(slot0, slot1)
 					slot4(slot5, slot6, slot7, slot8, slot9, slot10)
 				end
 			end
-
-			slot5 = slot0
-			slot4 = slot0.switchPanel
-			slot6 = slot0.background
-			slot7 = -178
-			slot8 = nil
-			slot9 = slot1
-			slot9 = slot9 * 2
-
-			slot4(slot5, slot6, slot7, slot8, slot9)
 
 			slot5 = slot0
 			slot4 = slot0.switchPanel
@@ -6283,10 +6418,14 @@ function slot7(slot0, slot1)
 			slot0 = slot0.checkFirstHelp
 
 			slot0(slot1)
+
+			return
 		end
 
 		slot4(slot5, slot6(slot7))
 	end
+
+	return
 end
 
 slot0.switchToPage = slot7
@@ -6333,6 +6472,8 @@ function slot7(slot0)
 			end
 		end
 	end
+
+	return
 end
 
 slot0.checkFirstHelp = slot7
@@ -6365,6 +6506,8 @@ function slot7(slot0)
 			end
 		end
 	end
+
+	return
 end
 
 slot0.checkMaxLevelHelp = slot7
@@ -6377,9 +6520,8 @@ function slot7(slot0, slot1, slot2)
 	if slot1 == slot3 then
 		slot3 = setAnchoredPosition
 		slot4 = slot0.equipmentR
-		slot5 = {
-			x = slot2
-		}
+		slot5 = {}
+		slot5.x = slot2
 
 		slot3(slot4, slot5)
 
@@ -6415,9 +6557,8 @@ function slot7(slot0, slot1, slot2)
 			if slot1 == slot3 then
 				slot3 = setAnchoredPosition
 				slot4 = slot0.detailPanel
-				slot5 = {
-					x = slot2
-				}
+				slot5 = {}
+				slot5.x = slot2
 
 				slot3(slot4, slot5)
 			else
@@ -6428,15 +6569,16 @@ function slot7(slot0, slot1, slot2)
 				if slot1 == slot3 then
 					slot3 = setAnchoredPosition
 					slot4 = slot0.stylePanel
-					slot5 = {
-						x = slot2
-					}
+					slot5 = {}
+					slot5.x = slot2
 
 					slot3(slot4, slot5)
 				end
 			end
 		end
 	end
+
+	return
 end
 
 slot0.moveUIPanels = slot7
@@ -6540,6 +6682,8 @@ function slot7(slot0, slot1)
 			end
 		end
 	end
+
+	return
 end
 
 slot0.resetAllPage = slot7
@@ -6615,7 +6759,11 @@ end
 slot0.switchPanel = slot7
 
 function slot7(slot0, slot1, slot2, slot3)
-	slot0.paintingFrameName = slot2 or ""
+	if not slot2 then
+		slot4 = ""
+	end
+
+	slot0.paintingFrameName = slot4
 	slot4 = GetOrAddComponent
 	slot5 = findTF
 	slot6 = slot1
@@ -6647,6 +6795,8 @@ function slot7(slot0, slot1, slot2, slot3)
 	function slot8(slot0)
 		slot1 = slot0
 		slot1.Tween = slot0
+
+		return
 	end
 
 	slot5 = slot5(slot6, slot7(slot8))
@@ -6687,6 +6837,8 @@ function slot7(slot0, slot1)
 			slot2(slot3, slot4, slot5)
 		end
 	end
+
+	return
 end
 
 slot0.loadPainting = slot7
@@ -6705,62 +6857,107 @@ function slot7(slot0, slot1, slot2)
 			if slot3 then
 				slot3 = slot0.designBg
 
-				if not slot3 then
-					slot3 = PoolMgr
-					slot3 = slot3.GetInstance
-					slot3 = slot3()
-					slot4 = slot3
-					slot3 = slot3.GetUI
-					slot5 = "raritydesign5"
-					slot6 = true
+				if slot3 then
+					slot3 = slot0.designBg
+					slot3 = slot3.name
+					slot4 = "raritydesign"
+					slot5 = slot0.shipVO
+					slot6 = slot5
+					slot5 = slot5.getRarity
+					slot5 = slot5(slot6)
+					slot6 = "(Clone)"
+					slot4 = slot4 .. slot5 .. slot6
 
-					function slot7(slot0)
-						slot1 = slot0
-						slot1.designBg = slot0
-						slot1 = slot0.transform
-						slot2 = slot1
-						slot1 = slot1.SetParent
-						slot3 = slot0
-						slot3 = slot3._tf
-						slot4 = false
+					if slot3 ~= slot4 then
+						slot3 = slot0.designBg
 
-						slot1(slot2, slot3, slot4)
+						if slot3 then
+							slot3 = PoolMgr
+							slot3 = slot3.GetInstance
+							slot3 = slot3()
+							slot4 = slot3
+							slot3 = slot3.ReturnUI
+							slot5 = slot0.designName
+							slot6 = slot0.designBg
 
-						slot1 = slot0.transform
-						slot2 = Vector3
-						slot3 = 1
-						slot4 = 1
-						slot5 = 1
-						slot2 = slot2(slot3, slot4, slot5)
-						slot1.localPosition = slot2
-						slot1 = slot0.transform
-						slot2 = Vector3
-						slot3 = 1
-						slot4 = 1
-						slot5 = 1
-						slot2 = slot2(slot3, slot4, slot5)
-						slot1.localScale = slot2
-						slot1 = slot0.transform
-						slot2 = slot1
-						slot1 = slot1.SetSiblingIndex
-						slot3 = 1
+							slot3(slot4, slot5, slot6)
 
-						slot1(slot2, slot3)
+							slot3 = nil
+							slot0.designBg = slot3
+						end
 
-						slot1 = setActive
-						slot2 = slot0
-						slot3 = true
+						slot3 = PoolMgr
+						slot3 = slot3.GetInstance
+						slot3 = slot3()
+						slot4 = slot3
+						slot3 = slot3.GetUI
+						slot5 = "raritydesign"
+						slot6 = slot0.shipVO
+						slot7 = slot6
+						slot6 = slot6.getRarity
+						slot6 = slot6(slot7)
+						slot5 = slot5 .. slot6
+						slot6 = true
 
-						slot1(slot2, slot3)
+						function slot7(slot0)
+							slot1 = slot0
+							slot1.designBg = slot0
+							slot1 = slot0
+							slot2 = "raritydesign"
+							slot3 = slot0
+							slot3 = slot3.shipVO
+							slot4 = slot3
+							slot3 = slot3.getRarity
+							slot3 = slot3(slot4)
+							slot2 = slot2 .. slot3
+							slot1.designName = slot2
+							slot1 = slot0.transform
+							slot2 = slot1
+							slot1 = slot1.SetParent
+							slot3 = slot0
+							slot3 = slot3._tf
+							slot4 = false
+
+							slot1(slot2, slot3, slot4)
+
+							slot1 = slot0.transform
+							slot2 = Vector3
+							slot3 = 1
+							slot4 = 1
+							slot5 = 1
+							slot2 = slot2(slot3, slot4, slot5)
+							slot1.localPosition = slot2
+							slot1 = slot0.transform
+							slot2 = Vector3
+							slot3 = 1
+							slot4 = 1
+							slot5 = 1
+							slot2 = slot2(slot3, slot4, slot5)
+							slot1.localScale = slot2
+							slot1 = slot0.transform
+							slot2 = slot1
+							slot1 = slot1.SetSiblingIndex
+							slot3 = 1
+
+							slot1(slot2, slot3)
+
+							slot1 = setActive
+							slot2 = slot0
+							slot3 = true
+
+							slot1(slot2, slot3)
+
+							return
+						end
+
+						slot3(slot4, slot5, slot6, slot7)
+					else
+						slot3 = setActive
+						slot4 = slot0.designBg
+						slot5 = true
+
+						slot3(slot4, slot5)
 					end
-
-					slot3(slot4, slot5, slot6, slot7)
-				else
-					slot3 = setActive
-					slot4 = slot0.designBg
-					slot5 = true
-
-					slot3(slot4, slot5)
 				end
 			else
 				slot3 = slot0.designBg
@@ -6798,11 +6995,15 @@ function slot7(slot0, slot1, slot2)
 						slot1(slot2, slot3)
 					end
 				end
+
+				return
 			end
 
 			slot3(slot4, slot5, slot6)
 		end
 	end
+
+	return
 end
 
 slot0.loadSkinBg = slot7
@@ -6988,6 +7189,8 @@ function slot7(slot0)
 				end
 			end
 		end
+
+		return
 	end
 
 	slot19(slot20, slot21)
@@ -7003,6 +7206,8 @@ function slot7(slot0)
 		if slot1 <= slot2 then
 			slot0 = true
 		end
+
+		return
 	end
 
 	slot19(slot20, slot21)
@@ -7040,6 +7245,8 @@ function slot7(slot0)
 		slot3 = slot3.y
 		slot2 = slot2 - slot3
 		slot5 = slot2
+
+		return
 	end
 
 	slot19(slot20, slot21)
@@ -7081,6 +7288,8 @@ function slot7(slot0)
 			slot4 = slot4(slot5, slot6, slot7)
 			slot3.localPosition = slot4
 		end
+
+		return
 	end
 
 	slot19(slot20, slot21)
@@ -7095,19 +7304,13 @@ function slot7(slot0)
 		slot0 = slot0.hidePaintView
 
 		slot0(slot1)
+
+		return
 	end
 
 	slot23 = SFX_CANCEL
 
 	slot19(slot20, slot21, slot22, slot23)
-
-	slot19 = setAnchoredPosition
-	slot20 = slot0.background
-	slot21 = {
-		x = -88
-	}
-
-	slot19(slot20, slot21)
 
 	slot19 = slot0
 
@@ -7178,14 +7381,6 @@ function slot7(slot0)
 
 		slot2(slot3, slot4)
 
-		slot2 = setAnchoredPosition
-		slot3 = slot0.background
-		slot4 = {
-			x = 0
-		}
-
-		slot2(slot3, slot4)
-
 		slot2 = slot0.background
 		slot3 = slot2
 		slot2 = slot2.GetComponent
@@ -7211,6 +7406,8 @@ function slot7(slot0)
 
 		slot2 = false
 		slot0.inPaintingView = slot2
+
+		return
 	end
 
 	slot19.hidePaintView = slot20
@@ -7250,9 +7447,13 @@ function slot7(slot0)
 		slot0 = slot0(slot1, slot2)
 		slot1 = false
 		slot0.blocksRaycasts = slot1
+
+		return
 	end
 
 	slot20(slot21, slot22(slot23))
+
+	return
 end
 
 slot0.paintView = slot7
@@ -7274,6 +7475,8 @@ function slot7(slot0)
 	slot4 = false
 
 	slot1(slot2, slot3, slot4)
+
+	return
 end
 
 slot0.unPartialBlur = slot7
@@ -7350,6 +7553,8 @@ function slot8(slot0)
 			slot5 = 1
 
 			slot0(slot1, slot2, slot3, slot4, slot5)
+
+			return
 		end
 
 		slot10 = SFX_PANEL
@@ -7379,6 +7584,8 @@ function slot8(slot0)
 			slot5 = 2
 
 			slot0(slot1, slot2, slot3, slot4, slot5)
+
+			return
 		end
 
 		slot10 = SFX_PANEL
@@ -7397,6 +7604,8 @@ function slot8(slot0)
 
 		slot6(slot7, slot8)
 	end
+
+	return
 end
 
 slot0.displayRecordPanel = slot8
@@ -7447,61 +7656,157 @@ function slot8(slot0)
 
 		slot1(slot2, slot3)
 	end
+
+	return
 end
 
 slot0.closeRecordPanel = slot8
 
 function slot8(slot0, slot1)
-	slot2 = slot0.recordEquipmentsTFs[slot1]
-	slot4 = slot0.shipVO:getEquipmentRecord(slot0.player.id)[slot1] or {}
+	slot2 = slot0.recordEquipmentsTFs
+	slot2 = slot2[slot1]
+	slot3 = slot0.shipVO
+	slot4 = slot3
+	slot3 = slot3.getEquipmentRecord
+	slot5 = slot0.player
+	slot5 = slot5.id
+	slot3 = slot3(slot4, slot5)
+	slot4 = slot3[slot1]
+
+	if not slot4 then
+		slot4 = {}
+	end
+
 	slot5 = 1
 	slot6 = 5
 	slot7 = 1
 
 	for slot8 = slot5, slot6, slot7 do
-		slot11 = slot2:Find("equipment_" .. slot8)
+		slot9 = tonumber
+		slot10 = slot4[slot8]
+		slot9 = slot9(slot10)
 
-		setActive(slot13, slot10)
-		setActive(slot11:Find("empty"), not (tonumber(slot4[slot8]) and tonumber(slot4[slot8]) ~= -1))
+		if slot9 then
+			if slot9 == -1 then
+				slot10 = false
+			else
+				slot10 = true
+			end
+		end
 
-		slot14 = slot0.equipmentProxy
-		slot15 = slot14
-		slot14 = slot14.getEquipmentById
-		slot16 = slot9
-		slot14 = slot14(slot15, slot16)
-		slot15 = slot0.shipVO
-		slot15 = slot15.equipments
-		slot15 = slot15[slot8]
+		slot12 = slot2
+		slot11 = slot2.Find
+		slot13 = "equipment_"
+		slot14 = slot8
+		slot13 = slot13 .. slot14
+		slot11 = slot11(slot12, slot13)
+		slot13 = slot11
+		slot12 = slot11.Find
+		slot14 = "empty"
+		slot12 = slot12(slot13, slot14)
+		slot14 = slot11
+		slot13 = slot11.Find
+		slot15 = "info"
+		slot13 = slot13(slot14, slot15)
+		slot14 = setActive
+		slot15 = slot13
+		slot16 = slot10
 
-		setActive(slot13:Find("tip"), slot17)
-		updateEquipment(slot13, Equipment.New({
-			id = slot9
-		}))
+		slot14(slot15, slot16)
 
-		if slot14.count <= 0 then
-			slot18 = onButton
-			slot19 = slot0
-			slot20 = slot13
+		slot14 = setActive
+		slot15 = slot12
+		slot16 = not slot10
 
-			function slot21()
-				slot0 = pg
-				slot0 = slot0.TipsMgr
-				slot1 = slot0
-				slot0 = slot0.GetInstance
-				slot0 = slot0(slot1)
-				slot1 = slot0
-				slot0 = slot0.ShowTips
-				slot2 = i18n
-				slot3 = "ship_quick_change_nofreeequip"
+		slot14(slot15, slot16)
 
-				slot0(slot1, slot2(slot3))
+		if slot10 then
+			slot14 = slot0.equipmentProxy
+			slot15 = slot14
+			slot14 = slot14.getEquipmentById
+			slot16 = slot9
+			slot14 = slot14(slot15, slot16)
+			slot15 = slot0.shipVO
+			slot15 = slot15.equipments
+			slot15 = slot15[slot8]
+
+			if slot15 then
+				slot16 = slot15.id
+
+				if slot16 ~= slot9 then
+					slot16 = false
+
+					if false then
+						slot16 = false
+					end
+				else
+					slot16 = true
+				end
 			end
 
-			slot22 = SFX_PANEL
+			if not slot16 and slot14 then
+				slot17 = slot14.count
+				slot18 = 0
 
-			slot18(slot19, slot20, slot21, slot22)
+				if slot17 > slot18 then
+					slot17 = false
+				end
+			else
+				slot17 = true
+			end
+
+			slot18 = setActive
+			slot20 = slot13
+			slot19 = slot13.Find
+			slot21 = "tip"
+			slot19 = slot19(slot20, slot21)
+			slot20 = slot17
+
+			slot18(slot19, slot20)
+
+			slot18 = updateEquipment
+			slot19 = slot13
+			slot20 = Equipment
+			slot20 = slot20.New
+			slot21 = {}
+			slot21.id = slot9
+
+			slot18(slot19, slot20(slot21))
+
+			if slot17 then
+				slot18 = onButton
+				slot19 = slot0
+				slot20 = slot13
+
+				function slot21()
+					slot0 = pg
+					slot0 = slot0.TipsMgr
+					slot1 = slot0
+					slot0 = slot0.GetInstance
+					slot0 = slot0(slot1)
+					slot1 = slot0
+					slot0 = slot0.ShowTips
+					slot2 = i18n
+					slot3 = "ship_quick_change_nofreeequip"
+
+					slot0(slot1, slot2(slot3))
+
+					return
+				end
+
+				slot22 = SFX_PANEL
+
+				slot18(slot19, slot20, slot21, slot22)
+			end
+		else
+			slot14 = removeOnButton
+			slot15 = slot13
+
+			slot14(slot15)
 		end
 	end
+
+	return
 end
 
 slot0.updateRecordEquipments = slot8
@@ -7558,6 +7863,8 @@ function slot8(slot0)
 	slot3 = slot0.shipVO
 
 	slot1(slot2, slot3)
+
+	return
 end
 
 slot0.switch2EquipmentSkinPage = slot8
@@ -7574,7 +7881,7 @@ function slot8(slot0)
 		slot1 = slot1()
 		slot2 = slot1
 		slot1 = slot1.ReturnUI
-		slot3 = "raritydesign5"
+		slot3 = slot0.designName
 		slot4 = slot0.designBg
 
 		slot1(slot2, slot3, slot4)
@@ -7787,6 +8094,8 @@ function slot8(slot0)
 
 		slot1(slot2)
 	end
+
+	return
 end
 
 slot0.willExit = slot8

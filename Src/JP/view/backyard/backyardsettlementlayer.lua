@@ -107,7 +107,7 @@ function slot0.updateShip(slot0, slot1)
 	end
 
 	slot5.text = "LEVEL" .. slot3.level
-	slot8 = math.max(getConfigFromLevel1(pg.ship_level, slot1.level).exp, 0.001)
+	slot8 = math.max(slot1:getLevelExpConfig().exp, 0.001)
 	slot9 = findTF(slot2, "exp/value"):GetComponent(typeof(Slider))
 
 	TweenValue(slot4, 0, slot7, slot0 * (slot1.level - slot3.level + 1), 0, function (slot0)
@@ -116,7 +116,7 @@ function slot0.updateShip(slot0, slot1)
 	table.insert(slot0.tweens, slot4)
 
 	if slot1.level - slot3.level > 0 then
-		TweenValue(slot9, slot3.exp, math.max(getConfigFromLevel1(pg.ship_level, slot3.level).exp, 0.001), slot0, 0, function (slot0)
+		TweenValue(slot9, slot3.exp, math.max(slot3:getLevelExpConfig().exp, 0.001), slot0, 0, function (slot0)
 			slot0:setSliderValue(slot0.setSliderValue, slot0 / slot2)
 		end, function ()
 			playSoundEffect(SFX_BOAT_LEVEL_UP)

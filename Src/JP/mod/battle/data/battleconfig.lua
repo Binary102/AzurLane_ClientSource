@@ -237,7 +237,8 @@ ys.Battle.BattleConfig.SHIP_TYPE_DAMAGE_ENHANCE = {
 	[ShipType.YuLeiTing] = "damageRatioByShipType_14",
 	[ShipType.JinBi] = "damageRatioByShipType_15",
 	[ShipType.ZiBao] = "damageRatioByShipType_16",
-	[ShipType.QianMu] = "damageRatioByShipType_17"
+	[ShipType.QianMu] = "damageRatioByShipType_17",
+	[ShipType.ChaoXun] = "damageRatioByShipType_18"
 }
 ys.Battle.BattleConfig.SHIP_TYPE_ACCURACY_ENHANCE = {
 	[ShipType.QuZhu] = "accuracyToShipType_1",
@@ -256,7 +257,8 @@ ys.Battle.BattleConfig.SHIP_TYPE_ACCURACY_ENHANCE = {
 	[ShipType.YuLeiTing] = "accuracyToShipType_14",
 	[ShipType.JinBi] = "accuracyToShipType_15",
 	[ShipType.ZiBao] = "accuracyToShipType_16",
-	[ShipType.QianMu] = "accuracyToShipType_17"
+	[ShipType.QianMu] = "accuracyToShipType_17",
+	[ShipType.ChaoXun] = "accuracyToShipType_18"
 }
 ys.Battle.BattleConfig.CANNON_DAMAGE_ENHANCE_FROM_SHIP_TYPE = {
 	[ShipType.QuZhu] = "cannonDamageRatioFromShipType_1",
@@ -275,7 +277,8 @@ ys.Battle.BattleConfig.CANNON_DAMAGE_ENHANCE_FROM_SHIP_TYPE = {
 	[ShipType.YuLeiTing] = "cannonDamageRatioFromShipType_14",
 	[ShipType.JinBi] = "cannonDamageRatioFromShipType_15",
 	[ShipType.ZiBao] = "cannonDamageRatioFromShipType_16",
-	[ShipType.QianMu] = "cannonDamageRatioFromShipType_17"
+	[ShipType.QianMu] = "cannonDamageRatioFromShipType_17",
+	[ShipType.ChaoXun] = "cannonDamageRatioFromShipType_18"
 }
 ys.Battle.BattleConfig.TORPEDO_DAMAGE_ENHANCE_FROM_SHIP_TYPE = {
 	[ShipType.QuZhu] = "torpedoDamageRatioFromShipType_1",
@@ -294,7 +297,8 @@ ys.Battle.BattleConfig.TORPEDO_DAMAGE_ENHANCE_FROM_SHIP_TYPE = {
 	[ShipType.YuLeiTing] = "torpedoDamageRatioFromShipType_14",
 	[ShipType.JinBi] = "torpedoDamageRatioFromShipType_15",
 	[ShipType.ZiBao] = "torpedoDamageRatioFromShipType_16",
-	[ShipType.QianMu] = "torpedoDamageRatioFromShipType_17"
+	[ShipType.QianMu] = "torpedoDamageRatioFromShipType_17",
+	[ShipType.ChaoXun] = "torpedoDamageRatioFromShipType_18"
 }
 ys.Battle.BattleConfig.ANTI_AIR_DAMAGE_ENHANCE_FROM_SHIP_TYPE = {
 	[ShipType.QuZhu] = "antiAirDamageRatioFromShipType_1",
@@ -313,7 +317,8 @@ ys.Battle.BattleConfig.ANTI_AIR_DAMAGE_ENHANCE_FROM_SHIP_TYPE = {
 	[ShipType.YuLeiTing] = "antiAirDamageRatioFromShipType_14",
 	[ShipType.JinBi] = "antiAirDamageRatioFromShipType_15",
 	[ShipType.ZiBao] = "antiAirDamageRatioFromShipType_16",
-	[ShipType.QianMu] = "antiAirDamageRatioFromShipType_17"
+	[ShipType.QianMu] = "antiAirDamageRatioFromShipType_17",
+	[ShipType.ChaoXun] = "antiAirDamageRatioFromShipType_18"
 }
 ys.Battle.BattleConfig.AIR_DAMAGE_ENHANCE_FROM_SHIP_TYPE = {
 	[ShipType.QuZhu] = "airDamageRatioFromShipType_1",
@@ -332,7 +337,8 @@ ys.Battle.BattleConfig.AIR_DAMAGE_ENHANCE_FROM_SHIP_TYPE = {
 	[ShipType.YuLeiTing] = "airDamageRatioFromShipType_14",
 	[ShipType.JinBi] = "airDamageRatioFromShipType_15",
 	[ShipType.ZiBao] = "airDamageRatioFromShipType_16",
-	[ShipType.QianMu] = "airDamageRatioFromShipType_17"
+	[ShipType.QianMu] = "airDamageRatioFromShipType_17",
+	[ShipType.ChaoXun] = "airDamageRatioFromShipType_18"
 }
 ys.Battle.BattleConfig.ANTI_SUB_DAMAGE_ENHANCE_FROM_SHIP_TYPE = {
 	[ShipType.QuZhu] = "antiSubDamageRatioFromShipType_1",
@@ -351,7 +357,8 @@ ys.Battle.BattleConfig.ANTI_SUB_DAMAGE_ENHANCE_FROM_SHIP_TYPE = {
 	[ShipType.YuLeiTing] = "antiSubDamageRatioFromShipType_14",
 	[ShipType.JinBi] = "antiSubDamageRatioFromShipType_15",
 	[ShipType.ZiBao] = "antiSubDamageRatioFromShipType_16",
-	[ShipType.QianMu] = "antiSubDamageRatioFromShipType_17"
+	[ShipType.QianMu] = "antiSubDamageRatioFromShipType_17",
+	[ShipType.ChaoXun] = "antiSubDamageRatioFromShipType_18"
 }
 ys.Battle.BattleConfig.OXY_RAID_BASE_LINE_PVE = -20
 ys.Battle.BattleConfig.OXY_RAID_BASE_LINE_PVP = -20

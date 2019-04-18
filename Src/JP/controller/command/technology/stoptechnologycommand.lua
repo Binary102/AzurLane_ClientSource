@@ -1,17 +1,19 @@
 class("StopTechnologyCommand", pm.SimpleCommand).execute = function (slot0, slot1)
-	if not getProxy(TechnologyProxy):getTechnologyById(slot1:getBody().id) then
+	slot4 = slot1:getBody().pool_id
+
+	if not getProxy(TechnologyProxy):getTechnologyById(slot1.getBody().id) then
 		return
 	end
 
-	if not slot5:isStarting() then
+	if not slot6:isStarting() then
 		print("the technology is not active")
 
 		return
 	end
 
 	pg.ConnectionMgr.GetInstance():Send(63005, {
-		type = 1,
-		tech_id = slot3
+		tech_id = slot3,
+		refresh_id = slot4
 	}, 63006, function (slot0)
 		if slot0.result == 0 then
 			slot0:reset()

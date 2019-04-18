@@ -86,7 +86,7 @@ pg.commander_ability_template = {
 		name = "新人砲術士·巡洋",
 		group_id = 11,
 		worth = 1,
-		desc = "<color=#5caafc>軽巡、重巡</color>の火力が5アップ",
+		desc = "<color=#5caafc>軽巡、重巡、超巡</color>の火力が5アップ",
 		next = 112,
 		id = 111,
 		icon = "xunyang_paoji_1",
@@ -96,7 +96,8 @@ pg.commander_ability_template = {
 				{},
 				{
 					2,
-					3
+					3,
+					18
 				},
 				2,
 				5
@@ -109,6 +110,10 @@ pg.commander_ability_template = {
 			},
 			{
 				"<重巡>火力",
+				5
+			},
+			{
+				"<超巡>火力",
 				5
 			}
 		}
@@ -118,7 +123,7 @@ pg.commander_ability_template = {
 		name = "熟練砲術士·巡洋",
 		group_id = 11,
 		worth = 2,
-		desc = "<color=#5caafc>軽巡、重巡</color>の火力が7アップ",
+		desc = "<color=#5caafc>軽巡、重巡、超巡</color>の火力が7アップ",
 		next = 113,
 		id = 112,
 		icon = "xunyang_paoji_2",
@@ -128,7 +133,8 @@ pg.commander_ability_template = {
 				{},
 				{
 					2,
-					3
+					3,
+					18
 				},
 				2,
 				7
@@ -141,6 +147,10 @@ pg.commander_ability_template = {
 			},
 			{
 				"<重巡>火力",
+				7
+			},
+			{
+				"<超巡>火力",
 				7
 			}
 		}
@@ -150,7 +160,7 @@ pg.commander_ability_template = {
 		name = "砲術長·巡洋",
 		group_id = 11,
 		worth = 3,
-		desc = "<color=#5caafc>軽巡、重巡</color>の火力が10アップ",
+		desc = "<color=#5caafc>軽巡、重巡、超巡</color>の火力が10アップ",
 		next = 0,
 		id = 113,
 		icon = "xunyang_paoji_3",
@@ -160,7 +170,8 @@ pg.commander_ability_template = {
 				{},
 				{
 					2,
-					3
+					3,
+					18
 				},
 				2,
 				10
@@ -173,6 +184,10 @@ pg.commander_ability_template = {
 			},
 			{
 				"<重巡>火力",
+				10
+			},
+			{
+				"<超巡>火力",
 				10
 			}
 		}
@@ -757,7 +772,8 @@ pg.commander_ability_template = {
 				{
 					1,
 					2,
-					3
+					3,
+					18
 				},
 				4,
 				8
@@ -786,7 +802,8 @@ pg.commander_ability_template = {
 				{
 					1,
 					2,
-					3
+					3,
+					18
 				},
 				4,
 				11
@@ -815,7 +832,8 @@ pg.commander_ability_template = {
 				{
 					1,
 					2,
-					3
+					3,
+					18
 				},
 				4,
 				16
@@ -943,7 +961,8 @@ pg.commander_ability_template = {
 				{
 					1,
 					2,
-					3
+					3,
+					18
 				},
 				12,
 				4
@@ -972,7 +991,8 @@ pg.commander_ability_template = {
 				{
 					1,
 					2,
-					3
+					3,
+					18
 				},
 				12,
 				5
@@ -1001,7 +1021,8 @@ pg.commander_ability_template = {
 				{
 					1,
 					2,
-					3
+					3,
+					18
 				},
 				12,
 				8
@@ -1283,7 +1304,7 @@ pg.commander_ability_template = {
 		name = "新人装填手·巡洋",
 		group_id = 62,
 		worth = 1,
-		desc = "<color=#5caafc>軽巡、重巡</color>の装填が4アップ",
+		desc = "<color=#5caafc>軽巡、重巡、超巡</color>の装填が4アップ",
 		next = 622,
 		id = 621,
 		icon = "xunyang_one_1",
@@ -1293,7 +1314,8 @@ pg.commander_ability_template = {
 				{},
 				{
 					2,
-					3
+					3,
+					18
 				},
 				6,
 				4
@@ -1306,6 +1328,10 @@ pg.commander_ability_template = {
 			},
 			{
 				"<重巡>装填",
+				4
+			},
+			{
+				"<超巡>装填",
 				4
 			}
 		}
@@ -1315,7 +1341,7 @@ pg.commander_ability_template = {
 		name = "熟練装填手·巡洋",
 		group_id = 62,
 		worth = 2,
-		desc = "<color=#5caafc>軽巡、重巡</color>の装填が5アップ",
+		desc = "<color=#5caafc>軽巡、重巡、超巡</color>の装填が5アップ",
 		next = 623,
 		id = 622,
 		icon = "xunyang_one_2",
@@ -1325,7 +1351,8 @@ pg.commander_ability_template = {
 				{},
 				{
 					2,
-					3
+					3,
+					18
 				},
 				6,
 				5
@@ -1338,6 +1365,10 @@ pg.commander_ability_template = {
 			},
 			{
 				"<重巡>装填",
+				5
+			},
+			{
+				"<超巡>装填",
 				5
 			}
 		}
@@ -1347,7 +1378,7 @@ pg.commander_ability_template = {
 		name = "高速装填手·巡洋",
 		group_id = 62,
 		worth = 3,
-		desc = "<color=#5caafc>軽巡、重巡</color>の装填が8アップ",
+		desc = "<color=#5caafc>軽巡、重巡、超巡</color>の装填が8アップ",
 		next = 0,
 		id = 623,
 		icon = "xunyang_one_3",
@@ -1357,7 +1388,8 @@ pg.commander_ability_template = {
 				{},
 				{
 					2,
-					3
+					3,
+					18
 				},
 				6,
 				8
@@ -1370,6 +1402,10 @@ pg.commander_ability_template = {
 			},
 			{
 				"<重巡>装填",
+				8
+			},
+			{
+				"<超巡>装填",
 				8
 			}
 		}
@@ -1847,7 +1883,7 @@ pg.commander_ability_template = {
 		name = "新人機関士·巡洋",
 		group_id = 72,
 		worth = 1,
-		desc = "<color=#5caafc>軽巡、重巡</color>の耐久が50アップ",
+		desc = "<color=#5caafc>軽巡、重巡、超巡</color>の耐久が50アップ",
 		next = 722,
 		id = 721,
 		icon = "xunyang_naijiu_1",
@@ -1857,7 +1893,8 @@ pg.commander_ability_template = {
 				{},
 				{
 					2,
-					3
+					3,
+					18
 				},
 				1,
 				50
@@ -1870,6 +1907,10 @@ pg.commander_ability_template = {
 			},
 			{
 				"<重巡>耐久",
+				50
+			},
+			{
+				"<超巡>耐久",
 				50
 			}
 		}
@@ -1879,7 +1920,7 @@ pg.commander_ability_template = {
 		name = "熟練機関士·巡洋",
 		group_id = 72,
 		worth = 2,
-		desc = "<color=#5caafc>軽巡、重巡</color>の耐久が70アップ",
+		desc = "<color=#5caafc>軽巡、重巡、超巡</color>の耐久が70アップ",
 		next = 723,
 		id = 722,
 		icon = "xunyang_naijiu_2",
@@ -1889,7 +1930,8 @@ pg.commander_ability_template = {
 				{},
 				{
 					2,
-					3
+					3,
+					18
 				},
 				1,
 				70
@@ -1902,6 +1944,10 @@ pg.commander_ability_template = {
 			},
 			{
 				"<重巡>耐久",
+				70
+			},
+			{
+				"<超巡>耐久",
 				70
 			}
 		}
@@ -1911,7 +1957,7 @@ pg.commander_ability_template = {
 		name = "機関長·巡洋",
 		group_id = 72,
 		worth = 3,
-		desc = "<color=#5caafc>軽巡、重巡</color>の耐久が100アップ",
+		desc = "<color=#5caafc>軽巡、重巡、超巡</color>の耐久が100アップ",
 		next = 0,
 		id = 723,
 		icon = "xunyang_naijiu_3",
@@ -1921,7 +1967,8 @@ pg.commander_ability_template = {
 				{},
 				{
 					2,
-					3
+					3,
+					18
 				},
 				1,
 				100
@@ -1934,6 +1981,10 @@ pg.commander_ability_template = {
 			},
 			{
 				"<重巡>耐久",
+				100
+			},
+			{
+				"<超巡>耐久",
 				100
 			}
 		}
@@ -2341,7 +2392,8 @@ pg.commander_ability_template = {
 				{
 					1,
 					2,
-					3
+					3,
+					18
 				},
 				8,
 				3
@@ -2370,7 +2422,8 @@ pg.commander_ability_template = {
 				{
 					1,
 					2,
-					3
+					3,
+					18
 				},
 				8,
 				4
@@ -2399,7 +2452,8 @@ pg.commander_ability_template = {
 				{
 					1,
 					2,
-					3
+					3,
+					18
 				},
 				8,
 				6
@@ -2756,7 +2810,7 @@ pg.commander_ability_template = {
 		name = "操舵手·大型艦",
 		group_id = 92,
 		worth = 1,
-		desc = "<color=#5caafc>戦艦、巡戦、空母、航戦</color>の回避が1アップ",
+		desc = "<color=#5caafc>戦艦、巡戦、空母、航戦、超巡</color>の回避が1アップ",
 		next = 922,
 		id = 921,
 		icon = "xunyang_one_1",
@@ -2768,7 +2822,8 @@ pg.commander_ability_template = {
 					4,
 					5,
 					7,
-					10
+					10,
+					18
 				},
 				9,
 				1
@@ -2790,6 +2845,10 @@ pg.commander_ability_template = {
 			{
 				"<航戦>回避",
 				1
+			},
+			{
+				"<超巡>回避",
+				1
 			}
 		}
 	},
@@ -2798,7 +2857,7 @@ pg.commander_ability_template = {
 		name = "熟練操舵手·大型艦",
 		group_id = 92,
 		worth = 2,
-		desc = "<color=#5caafc>戦艦、巡戦、空母、航戦</color>の回避が2アップ",
+		desc = "<color=#5caafc>戦艦、巡戦、空母、航戦、超巡</color>の回避が2アップ",
 		next = 923,
 		id = 922,
 		icon = "xunyang_one_2",
@@ -2810,7 +2869,8 @@ pg.commander_ability_template = {
 					4,
 					5,
 					7,
-					10
+					10,
+					18
 				},
 				9,
 				2
@@ -2832,6 +2892,10 @@ pg.commander_ability_template = {
 			{
 				"<航戦>回避",
 				2
+			},
+			{
+				"<超巡>回避",
+				2
 			}
 		}
 	},
@@ -2840,7 +2904,7 @@ pg.commander_ability_template = {
 		name = "航海長·大型艦",
 		group_id = 92,
 		worth = 3,
-		desc = "<color=#5caafc>戦艦、巡戦、空母、航戦</color>の回避が3アップ",
+		desc = "<color=#5caafc>戦艦、巡戦、空母、航戦、超巡</color>の回避が3アップ",
 		next = 0,
 		id = 923,
 		icon = "xunyang_one_3",
@@ -2852,7 +2916,8 @@ pg.commander_ability_template = {
 					4,
 					5,
 					7,
-					10
+					10,
+					18
 				},
 				9,
 				3
@@ -2873,6 +2938,10 @@ pg.commander_ability_template = {
 			},
 			{
 				"<航戦>回避",
+				3
+			},
+			{
+				"<超巡>回避",
 				3
 			}
 		}
@@ -3002,7 +3071,7 @@ pg.commander_ability_template = {
 		name = "新人参謀·巡洋",
 		group_id = 201,
 		worth = 1,
-		desc = "<color=#5caafc>軽巡、重巡</color>の火力が5アップ、雷装が5アップ",
+		desc = "<color=#5caafc>軽巡、重巡、超巡</color>の火力が5アップ、雷装が5アップ",
 		next = 2012,
 		id = 2011,
 		icon = "xunyang_one_1",
@@ -3012,7 +3081,8 @@ pg.commander_ability_template = {
 				{},
 				{
 					2,
-					3
+					3,
+					18
 				},
 				2,
 				5
@@ -3022,7 +3092,8 @@ pg.commander_ability_template = {
 				{},
 				{
 					2,
-					3
+					3,
+					18
 				},
 				3,
 				5
@@ -3043,6 +3114,10 @@ pg.commander_ability_template = {
 			},
 			{
 				"<重巡>雷装",
+				5
+			},
+			{
+				"<超巡>雷装",
 				5
 			}
 		}
@@ -3052,7 +3127,7 @@ pg.commander_ability_template = {
 		name = "熟練参謀·巡洋",
 		group_id = 201,
 		worth = 2,
-		desc = "<color=#5caafc>軽巡、重巡</color>の火力が7アップ、雷装が7アップ",
+		desc = "<color=#5caafc>軽巡、重巡、超巡</color>の火力が7アップ、雷装が7アップ",
 		next = 2013,
 		id = 2012,
 		icon = "xunyang_one_2",
@@ -3062,7 +3137,8 @@ pg.commander_ability_template = {
 				{},
 				{
 					2,
-					3
+					3,
+					18
 				},
 				2,
 				7
@@ -3072,7 +3148,8 @@ pg.commander_ability_template = {
 				{},
 				{
 					2,
-					3
+					3,
+					18
 				},
 				3,
 				7
@@ -3093,6 +3170,10 @@ pg.commander_ability_template = {
 			},
 			{
 				"<重巡>雷装",
+				7
+			},
+			{
+				"<超巡>雷装",
 				7
 			}
 		}
@@ -3102,7 +3183,7 @@ pg.commander_ability_template = {
 		name = "歴戦参謀·巡洋",
 		group_id = 201,
 		worth = 3,
-		desc = "<color=#5caafc>軽巡、重巡</color>の火力が10アップ、雷装が10アップ",
+		desc = "<color=#5caafc>軽巡、重巡、超巡</color>の火力が10アップ、雷装が10アップ",
 		next = 0,
 		id = 2013,
 		icon = "xunyang_one_3",
@@ -3112,7 +3193,8 @@ pg.commander_ability_template = {
 				{},
 				{
 					2,
-					3
+					3,
+					18
 				},
 				2,
 				10
@@ -3122,7 +3204,8 @@ pg.commander_ability_template = {
 				{},
 				{
 					2,
-					3
+					3,
+					18
 				},
 				3,
 				10
@@ -3143,6 +3226,10 @@ pg.commander_ability_template = {
 			},
 			{
 				"<重巡>雷装",
+				10
+			},
+			{
+				"<超巡>雷装",
 				10
 			}
 		}
@@ -4814,7 +4901,7 @@ pg.commander_ability_template = {
 		name = "見敵必戦",
 		group_id = 501,
 		worth = 1,
-		desc = "<color=#5caafc>軽巡、重巡</color>の火力が10アップ，装填が12アップ",
+		desc = "<color=#5caafc>軽巡、重巡、超巡</color>の火力が10アップ，装填が12アップ",
 		next = 0,
 		id = 5011,
 		icon = "jiandibizhan",
@@ -4824,7 +4911,8 @@ pg.commander_ability_template = {
 				{},
 				{
 					2,
-					3
+					3,
+					18
 				},
 				2,
 				10
@@ -4834,7 +4922,8 @@ pg.commander_ability_template = {
 				{},
 				{
 					2,
-					3
+					3,
+					18
 				},
 				6,
 				12
@@ -4850,11 +4939,19 @@ pg.commander_ability_template = {
 				10
 			},
 			{
+				"<超巡>火力",
+				10
+			},
+			{
 				"<軽巡>装填",
 				12
 			},
 			{
 				"<重巡>装填",
+				12
+			},
+			{
+				"<超巡>装填",
 				12
 			}
 		}

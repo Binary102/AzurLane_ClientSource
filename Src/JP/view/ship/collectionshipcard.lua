@@ -85,11 +85,7 @@ function slot0.loadImage(slot0, slot1)
 
 	slot3 = slot1:getPainting(slot0.showTrans)
 
-	GetSpriteFromAtlasAsync("shipframe", ((slot1:isBluePrintGroup() and "1") or "") .. shipRarity2bgPrint(slot2), function (slot0)
-		if not IsNil(slot0.imageFrame) then
-			slot0.imageFrame.sprite = slot0
-		end
-	end)
+	GetImageSpriteFromAtlasAsync("shipframe", ((slot1:isBluePrintGroup() and "1") or "") .. shipRarity2bgPrint(slot2), slot0.imageFrame, true)
 
 	slot0.imageBg.sprite = GetSpriteFromAtlas("bg/star_level_card_" .. ((slot1:isBluePrintGroup() and "1") or "") .. shipRarity2bgPrint(slot2), "")
 	slot0.iconShip.sprite = GetSpriteFromAtlas("shipYardIcon/unknown", "")

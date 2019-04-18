@@ -7,6 +7,26 @@ return {
 					"onAttach"
 				},
 				arg_list = {
+					number = 0.05,
+					type = {
+						10,
+						11
+					},
+					nationality = {
+						1
+					}
+				}
+			}
+		}
+	},
+	{
+		effect_list = {
+			{
+				type = "BattleBuffAddProficiency",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
 					number = 0.061,
 					type = {
 						10,
@@ -67,7 +87,7 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					number = 0.94,
+					number = 0.094,
 					type = {
 						10,
 						11
@@ -148,26 +168,6 @@ return {
 				},
 				arg_list = {
 					number = 0.138,
-					type = {
-						10,
-						11
-					},
-					nationality = {
-						1
-					}
-				}
-			}
-		}
-	},
-	{
-		effect_list = {
-			{
-				type = "BattleBuffAddProficiency",
-				trigger = {
-					"onAttach"
-				},
-				arg_list = {
-					number = 0.149,
 					type = {
 						10,
 						11

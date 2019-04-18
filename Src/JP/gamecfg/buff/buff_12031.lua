@@ -4,7 +4,8 @@ return {
 			{
 				type = "BattleBuffAddAttrRatio",
 				trigger = {
-					"onAttach"
+					"onAttach",
+					"onStack"
 				},
 				arg_list = {
 					number = 150,
@@ -14,7 +15,8 @@ return {
 			{
 				type = "BattleBuffAddAttrRatio",
 				trigger = {
-					"onAttach"
+					"onAttach",
+					"onStack"
 				},
 				arg_list = {
 					number = 1000,
@@ -28,7 +30,8 @@ return {
 			{
 				type = "BattleBuffAddAttrRatio",
 				trigger = {
-					"onAttach"
+					"onAttach",
+					"onStack"
 				},
 				arg_list = {
 					number = 180,
@@ -38,7 +41,8 @@ return {
 			{
 				type = "BattleBuffAddAttrRatio",
 				trigger = {
-					"onAttach"
+					"onAttach",
+					"onStack"
 				},
 				arg_list = {
 					number = 1120,
@@ -52,7 +56,8 @@ return {
 			{
 				type = "BattleBuffAddAttrRatio",
 				trigger = {
-					"onAttach"
+					"onAttach",
+					"onStack"
 				},
 				arg_list = {
 					number = 210,
@@ -62,7 +67,8 @@ return {
 			{
 				type = "BattleBuffAddAttrRatio",
 				trigger = {
-					"onAttach"
+					"onAttach",
+					"onStack"
 				},
 				arg_list = {
 					number = 1240,
@@ -76,7 +82,8 @@ return {
 			{
 				type = "BattleBuffAddAttrRatio",
 				trigger = {
-					"onAttach"
+					"onAttach",
+					"onStack"
 				},
 				arg_list = {
 					number = 250,
@@ -86,7 +93,8 @@ return {
 			{
 				type = "BattleBuffAddAttrRatio",
 				trigger = {
-					"onAttach"
+					"onAttach",
+					"onStack"
 				},
 				arg_list = {
 					number = 1400,
@@ -100,7 +108,8 @@ return {
 			{
 				type = "BattleBuffAddAttrRatio",
 				trigger = {
-					"onAttach"
+					"onAttach",
+					"onStack"
 				},
 				arg_list = {
 					number = 280,
@@ -110,7 +119,8 @@ return {
 			{
 				type = "BattleBuffAddAttrRatio",
 				trigger = {
-					"onAttach"
+					"onAttach",
+					"onStack"
 				},
 				arg_list = {
 					number = 1550,
@@ -124,7 +134,8 @@ return {
 			{
 				type = "BattleBuffAddAttrRatio",
 				trigger = {
-					"onAttach"
+					"onAttach",
+					"onStack"
 				},
 				arg_list = {
 					number = 310,
@@ -134,7 +145,8 @@ return {
 			{
 				type = "BattleBuffAddAttrRatio",
 				trigger = {
-					"onAttach"
+					"onAttach",
+					"onStack"
 				},
 				arg_list = {
 					number = 1700,
@@ -148,7 +160,8 @@ return {
 			{
 				type = "BattleBuffAddAttrRatio",
 				trigger = {
-					"onAttach"
+					"onAttach",
+					"onStack"
 				},
 				arg_list = {
 					number = 350,
@@ -158,7 +171,8 @@ return {
 			{
 				type = "BattleBuffAddAttrRatio",
 				trigger = {
-					"onAttach"
+					"onAttach",
+					"onStack"
 				},
 				arg_list = {
 					number = 1900,
@@ -172,7 +186,8 @@ return {
 			{
 				type = "BattleBuffAddAttrRatio",
 				trigger = {
-					"onAttach"
+					"onAttach",
+					"onStack"
 				},
 				arg_list = {
 					number = 390,
@@ -182,7 +197,8 @@ return {
 			{
 				type = "BattleBuffAddAttrRatio",
 				trigger = {
-					"onAttach"
+					"onAttach",
+					"onStack"
 				},
 				arg_list = {
 					number = 2080,
@@ -196,7 +212,8 @@ return {
 			{
 				type = "BattleBuffAddAttrRatio",
 				trigger = {
-					"onAttach"
+					"onAttach",
+					"onStack"
 				},
 				arg_list = {
 					number = 430,
@@ -206,7 +223,8 @@ return {
 			{
 				type = "BattleBuffAddAttrRatio",
 				trigger = {
-					"onAttach"
+					"onAttach",
+					"onStack"
 				},
 				arg_list = {
 					number = 2260,
@@ -220,7 +238,8 @@ return {
 			{
 				type = "BattleBuffAddAttrRatio",
 				trigger = {
-					"onAttach"
+					"onAttach",
+					"onStack"
 				},
 				arg_list = {
 					number = 500,
@@ -230,7 +249,8 @@ return {
 			{
 				type = "BattleBuffAddAttrRatio",
 				trigger = {
-					"onAttach"
+					"onAttach",
+					"onStack"
 				},
 				arg_list = {
 					number = 2500,
@@ -260,7 +280,8 @@ return {
 		{
 			type = "BattleBuffAddAttrRatio",
 			trigger = {
-				"onAttach"
+				"onAttach",
+				"onStack"
 			},
 			arg_list = {
 				number = 150,
@@ -270,7 +291,8 @@ return {
 		{
 			type = "BattleBuffAddAttrRatio",
 			trigger = {
-				"onAttach"
+				"onAttach",
+				"onStack"
 			},
 			arg_list = {
 				number = 1000,

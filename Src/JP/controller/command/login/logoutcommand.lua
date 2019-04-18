@@ -75,6 +75,7 @@ class("LogoutCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 	slot0.facade:removeProxy(ColoringProxy.__cname)
 	slot0.facade:removeProxy(AnswerProxy.__cname)
 	slot0.facade:removeProxy(TechnologyProxy.__cname)
+	slot0.facade:removeProxy(TechnologyNationProxy.__cname)
 	slot0:sendNotification(GAME.LOAD_SCENE, {
 		context = Context.New({
 			cleanStack = true,

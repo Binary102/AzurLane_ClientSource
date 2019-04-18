@@ -60135,6 +60135,37 @@ pg.task_data_template = {
 		open_need = {},
 		award_display = {}
 	},
+	[52011] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 7,
+		name = "科研测试任务",
+		count_inherit = 0,
+		desc = "13章(ノーマル)のステージを2回クリア",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 52011,
+		target_num = 2,
+		fix_task = 0,
+		target_id = {
+			1301,
+			1302,
+			1303,
+			1304
+		},
+		open_need = {},
+		award_display = {}
+	},
 	[52021] = {
 		is_head = 1,
 		guild_coin_award = 0,
@@ -61983,6 +62014,1944 @@ pg.task_data_template = {
 		open_need = {},
 		award_display = {}
 	},
+	[60071] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 9,
+		name = "西雅图开启研发前置任务",
+		count_inherit = 0,
+		desc = "",
+		target_id_2 = "",
+		sub_type = 1050,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 60071,
+		target_num = 760,
+		fix_task = 0,
+		target_id = "1",
+		open_need = {},
+		award_display = {}
+	},
+	[60072] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "戦術データ収集Ⅰ ",
+		count_inherit = 0,
+		desc = "<color=#797979>開発作業を円滑に進めるためには、十分な実験データの入手が必要不可欠であり、蓄積された実戦経験が最も有効だと考えられる。</color>\n\n――艦隊を出撃させ、ユニオン所属前衛艦隊の累計獲得経験値を<color=#A9F548>1000000</color>蓄積させる ",
+		target_id_2 = "",
+		sub_type = 1041,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 60072,
+		target_num = 1000000,
+		fix_task = 0,
+		target_id = {
+			{
+				1,
+				1
+			},
+			{
+				1,
+				2
+			},
+			{
+				1,
+				3
+			}
+		},
+		open_need = {},
+		award_display = {}
+	},
+	[60073] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "技術理論研究Ⅰ ",
+		count_inherit = 0,
+		desc = "<color=#797979>開発による具現化には技術投資が欠かせない。基礎研究の成果を先端技術に応用できれば、開発を大いに加速させられるはずだ。</color>\n\n――「科学研究」で任意の研究項目を<color=#A9F548>5回</color>完了する",
+		target_id_2 = "",
+		sub_type = 110,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 60073,
+		target_num = 5,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {}
+	},
+	[60074] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "超越技術設計Ⅰ ",
+		count_inherit = 0,
+		desc = "<color=#797979>戦術データによるフィードバックと最先端の技術理論を組み合わせ、開発はようやく製図段階に進むことができた。しかし、設計の細部を詰めるには既存の図面設計との比較を徹底的に行わなければならない。</color>\n\n――巡洋改造図T2を<color=#A9F548>10枚</color>集める（「完了」をタップすると消費されます） ",
+		target_id_2 = "",
+		sub_type = 1000,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 18012,
+		id = 60074,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "18012",
+		open_need = {},
+		award_display = {}
+	},
+	[60075] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "戦術データ収集Ⅱ ",
+		count_inherit = 0,
+		desc = [[
+<color=#A9F548>「戦術データ収集Ⅰ」を完了する必要がある</color>
+<color=#797979>図面設計の初稿が完成した。カタログスペックは果たしてどこまで実現できるのか、その検証にはさらなる戦術データの収集が必要不可欠である。</color>
+
+――艦隊を出撃させ、ユニオン所属前衛艦隊の累計獲得経験値を<color=#A9F548>2000000</color>蓄積させる ]],
+		target_id_2 = "",
+		sub_type = 1041,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 60075,
+		target_num = 2000000,
+		fix_task = 0,
+		target_id = {
+			{
+				1,
+				1
+			},
+			{
+				1,
+				2
+			},
+			{
+				1,
+				3
+			}
+		},
+		open_need = {
+			60072
+		},
+		award_display = {}
+	},
+	[60076] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "技術理論研究Ⅱ ",
+		count_inherit = 0,
+		desc = [[
+<color=#A9F548>「技術理論研究Ⅰ」を完了する必要がある</color>
+<color=#797979>基本設計の次は修正・改善・最適化。初期段階で実現できなかったアイデアを実現させる最大のチャンスが訪れる。</color>
+
+――「科学研究」で任意の研究項目を<color=#A9F548>8回</color>完了する]],
+		target_id_2 = "",
+		sub_type = 110,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 60076,
+		target_num = 8,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {
+			60073
+		},
+		award_display = {}
+	},
+	[60077] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "超越技術設計Ⅱ ",
+		count_inherit = 0,
+		desc = "<color=#797979>技術理論と実戦データ、堅実な設計と大胆な発想を組み合わせた特別計画（プライオリティプラン）艦の設計がついに完成に近づいた。残った問題点を解決し、最高の完成度を目指そう。</color>\n\n――巡洋改造図T3を<color=#A9F548>5枚</color>集める（「完了」をタップすると消費されます） ",
+		target_id_2 = "",
+		sub_type = 1000,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 18013,
+		id = 60077,
+		target_num = 5,
+		fix_task = 0,
+		target_id = "18013",
+		open_need = {},
+		award_display = {}
+	},
+	[60078] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "艦体建造 ",
+		count_inherit = 0,
+		desc = "<color=#797979>長きにわたる設計作業はついに完了した。残るは艦体の建造のみ。さあ、特別計画艦を完成させよ！シャンパンを開ける準備も忘れずに！</color>\n\n――資金<color=#A9F548>20000</color>を集める（「完了」をタップすると消費されます） ",
+		target_id_2 = "",
+		sub_type = 1002,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 1,
+		id = 60078,
+		target_num = 20000,
+		fix_task = 0,
+		target_id = "1",
+		open_need = {},
+		award_display = {}
+	},
+	[60079] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "艦体建造Ⅱ ",
+		count_inherit = 0,
+		desc = "<color=#797979>長きにわたる設計作業はついに完了した。残るは艦体の建造のみ。さあ、特別計画艦を完成させよ！シャンパンを開ける準備も忘れずに！</color>\n\n――メンタルキューブ<color=#A9F548>5個</color>を集める（「完了」をタップすると消費されます）",
+		target_id_2 = "",
+		sub_type = 1000,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 20001,
+		id = 60079,
+		target_num = 5,
+		fix_task = 0,
+		target_id = "20001",
+		open_need = {},
+		award_display = {}
+	},
+	[60081] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 9,
+		name = "佐治亚开启研发前置任务",
+		count_inherit = 0,
+		desc = "",
+		target_id_2 = "",
+		sub_type = 1050,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 60081,
+		target_num = 810,
+		fix_task = 0,
+		target_id = "1",
+		open_need = {},
+		award_display = {}
+	},
+	[60082] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "戦術データ収集Ⅰ ",
+		count_inherit = 0,
+		desc = "<color=#797979>開発作業を円滑に進めるためには、十分な実験データの入手が必要不可欠であり、蓄積された実戦経験が最も有効だと考えられる。</color>\n\n――艦隊を出撃させ、ユニオン所属主力艦隊の累計獲得経験値を<color=#A9F548>1000000</color>蓄積させる ",
+		target_id_2 = "",
+		sub_type = 1041,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 60082,
+		target_num = 1000000,
+		fix_task = 0,
+		target_id = {
+			{
+				1,
+				4
+			},
+			{
+				1,
+				5
+			},
+			{
+				1,
+				6
+			},
+			{
+				1,
+				7
+			},
+			{
+				1,
+				9
+			},
+			{
+				1,
+				10
+			},
+			{
+				1,
+				12
+			},
+			{
+				1,
+				13
+			}
+		},
+		open_need = {},
+		award_display = {}
+	},
+	[60083] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "技術理論研究Ⅰ ",
+		count_inherit = 0,
+		desc = "<color=#797979>開発による具現化には技術投資が欠かせない。基礎研究の成果を先端技術に応用できれば、開発を大いに加速させられるはずだ。</color>\n\n――「科学研究」で任意の研究項目を<color=#A9F548>5回</color>完了する",
+		target_id_2 = "",
+		sub_type = 110,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 60083,
+		target_num = 5,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {}
+	},
+	[60084] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "超越技術設計Ⅰ ",
+		count_inherit = 0,
+		desc = "<color=#797979>戦術データによるフィードバックと最先端の技術理論を組み合わせ、開発はようやく製図段階に進むことができた。しかし、設計の細部を詰めるには既存の図面設計との比較を徹底的に行わなければならない。</color>\n\n――戦艦改造図T2を<color=#A9F548>10枚</color>集める（「完了」をタップすると消費されます） ",
+		target_id_2 = "",
+		sub_type = 1000,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 18022,
+		id = 60084,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "18022",
+		open_need = {},
+		award_display = {}
+	},
+	[60085] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "戦術データ収集Ⅱ ",
+		count_inherit = 0,
+		desc = [[
+<color=#A9F548>「戦術データ収集Ⅰ」を完了する必要がある</color>
+<color=#797979>図面設計の初稿が完成した。カタログスペックは果たしてどこまで実現できるのか、その検証にはさらなる戦術データの収集が必要不可欠である。</color>
+
+――艦隊を出撃させ、ユニオン所属主力艦隊の累計獲得経験値を<color=#A9F548>2000000</color>蓄積させる ]],
+		target_id_2 = "",
+		sub_type = 1041,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 60085,
+		target_num = 2000000,
+		fix_task = 0,
+		target_id = {
+			{
+				1,
+				4
+			},
+			{
+				1,
+				5
+			},
+			{
+				1,
+				6
+			},
+			{
+				1,
+				7
+			},
+			{
+				1,
+				9
+			},
+			{
+				1,
+				10
+			},
+			{
+				1,
+				12
+			},
+			{
+				1,
+				13
+			}
+		},
+		open_need = {
+			60082
+		},
+		award_display = {}
+	},
+	[60086] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "技術理論研究Ⅱ ",
+		count_inherit = 0,
+		desc = [[
+<color=#A9F548>「技術理論研究Ⅰ」を完了する必要がある</color>
+<color=#797979>基本設計の次は修正・改善・最適化。初期段階で実現できなかったアイデアを実現させる最大のチャンスが訪れる。</color>
+
+――「科学研究」で任意の研究項目を<color=#A9F548>8回</color>完了する]],
+		target_id_2 = "",
+		sub_type = 110,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 60086,
+		target_num = 8,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {
+			60083
+		},
+		award_display = {}
+	},
+	[60087] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "超越技術設計Ⅱ ",
+		count_inherit = 0,
+		desc = "<color=#797979>技術理論と実戦データ、堅実な設計と大胆な発想を組み合わせた特別計画（プライオリティプラン）艦の設計がついに完成に近づいた。残った問題点を解決し、最高の完成度を目指そう。</color>\n\n――戦艦改造図T3を<color=#A9F548>5枚</color>集める（「完了」をタップすると消費されます） ",
+		target_id_2 = "",
+		sub_type = 1000,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 18023,
+		id = 60087,
+		target_num = 5,
+		fix_task = 0,
+		target_id = "18023",
+		open_need = {},
+		award_display = {}
+	},
+	[60088] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "艦体建造 ",
+		count_inherit = 0,
+		desc = "<color=#797979>長きにわたる設計作業はついに完了した。残るは艦体の建造のみ。さあ、特別計画艦を完成させよ！シャンパンを開ける準備も忘れずに！</color>\n\n――資金<color=#A9F548>30000</color>を集める（「完了」をタップすると消費されます） ",
+		target_id_2 = "",
+		sub_type = 1002,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 1,
+		id = 60088,
+		target_num = 30000,
+		fix_task = 0,
+		target_id = "1",
+		open_need = {},
+		award_display = {}
+	},
+	[60089] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "艦体建造Ⅱ ",
+		count_inherit = 0,
+		desc = "<color=#797979>長きにわたる設計作業はついに完了した。残るは艦体の建造のみ。さあ、特別計画艦を完成させよ！シャンパンを開ける準備も忘れずに！</color>\n\n――メンタルキューブ<color=#A9F548>5個</color>を集める（「完了」をタップすると消費されます）",
+		target_id_2 = "",
+		sub_type = 1000,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 20001,
+		id = 60089,
+		target_num = 5,
+		fix_task = 0,
+		target_id = "20001",
+		open_need = {},
+		award_display = {}
+	},
+	[60091] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 9,
+		name = "北风开启研发前置任务",
+		count_inherit = 0,
+		desc = "",
+		target_id_2 = "",
+		sub_type = 1050,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 60091,
+		target_num = 780,
+		fix_task = 0,
+		target_id = "3",
+		open_need = {},
+		award_display = {}
+	},
+	[60092] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "戦術データ収集Ⅰ ",
+		count_inherit = 0,
+		desc = "<color=#797979>開発作業を円滑に進めるためには、十分な実験データの入手が必要不可欠であり、蓄積された実戦経験が最も有効だと考えられる。</color>\n\n――艦隊を出撃させ、重桜所属前衛艦隊の累計獲得経験値を<color=#A9F548>1000000</color>蓄積させる ",
+		target_id_2 = "",
+		sub_type = 1041,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 60092,
+		target_num = 1000000,
+		fix_task = 0,
+		target_id = {
+			{
+				3,
+				1
+			},
+			{
+				3,
+				2
+			},
+			{
+				3,
+				3
+			},
+			{
+				3,
+				18
+			}
+		},
+		open_need = {},
+		award_display = {}
+	},
+	[60093] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "技術理論研究Ⅰ ",
+		count_inherit = 0,
+		desc = "<color=#797979>開発による具現化には技術投資が欠かせない。基礎研究の成果を先端技術に応用できれば、開発を大いに加速させられるはずだ。</color>\n\n――「科学研究」で任意の研究項目を<color=#A9F548>5回</color>完了する",
+		target_id_2 = "",
+		sub_type = 110,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 60093,
+		target_num = 5,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {}
+	},
+	[60094] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "超越技術設計Ⅰ ",
+		count_inherit = 0,
+		desc = "<color=#797979>戦術データによるフィードバックと最先端の技術理論を組み合わせ、開発はようやく製図段階に進むことができた。しかし、設計の細部を詰めるには既存の図面設計との比較を徹底的に行わなければならない。</color>\n\n――駆逐改造図T2を<color=#A9F548>10枚</color>集める（「完了」をタップすると消費されます） ",
+		target_id_2 = "",
+		sub_type = 1000,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 18002,
+		id = 60094,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "18012",
+		open_need = {},
+		award_display = {}
+	},
+	[60095] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "戦術データ収集Ⅱ ",
+		count_inherit = 0,
+		desc = [[
+<color=#A9F548>「戦術データ収集Ⅰ」を完了する必要がある</color>
+<color=#797979>図面設計の初稿が完成した。カタログスペックは果たしてどこまで実現できるのか、その検証にはさらなる戦術データの収集が必要不可欠である。</color>
+
+――艦隊を出撃させ、重桜所属前衛艦隊の累計獲得経験値を<color=#A9F548>2000000</color>蓄積させる ]],
+		target_id_2 = "",
+		sub_type = 1041,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 60095,
+		target_num = 2000000,
+		fix_task = 0,
+		target_id = {
+			{
+				3,
+				1
+			},
+			{
+				3,
+				2
+			},
+			{
+				3,
+				3
+			},
+			{
+				3,
+				18
+			}
+		},
+		open_need = {
+			60092
+		},
+		award_display = {}
+	},
+	[60096] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "技術理論研究Ⅱ ",
+		count_inherit = 0,
+		desc = [[
+<color=#A9F548>「技術理論研究Ⅰ」を完了する必要がある</color>
+<color=#797979>基本設計の次は修正・改善・最適化。初期段階で実現できなかったアイデアを実現させる最大のチャンスが訪れる。</color>
+
+――「科学研究」で任意の研究項目を<color=#A9F548>8回</color>完了する]],
+		target_id_2 = "",
+		sub_type = 110,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 60096,
+		target_num = 8,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {
+			60093
+		},
+		award_display = {}
+	},
+	[60097] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "超越技術設計Ⅱ ",
+		count_inherit = 0,
+		desc = "<color=#797979>技術理論と実戦データ、堅実な設計と大胆な発想を組み合わせた特別計画（プライオリティプラン）艦の設計がついに完成に近づいた。残った問題点を解決し、最高の完成度を目指そう。</color>\n\n――駆逐改造図T3を<color=#A9F548>5枚</color>集める（「完了」をタップすると消費されます） ",
+		target_id_2 = "",
+		sub_type = 1000,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 18003,
+		id = 60097,
+		target_num = 5,
+		fix_task = 0,
+		target_id = "18013",
+		open_need = {},
+		award_display = {}
+	},
+	[60098] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "艦体建造 ",
+		count_inherit = 0,
+		desc = "<color=#797979>長きにわたる設計作業はついに完了した。残るは艦体の建造のみ。さあ、特別計画艦を完成させよ！シャンパンを開ける準備も忘れずに！</color>\n\n――資金<color=#A9F548>20000</color>を集める（「完了」をタップすると消費されます） ",
+		target_id_2 = "",
+		sub_type = 1002,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 1,
+		id = 60098,
+		target_num = 20000,
+		fix_task = 0,
+		target_id = "1",
+		open_need = {},
+		award_display = {}
+	},
+	[60099] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "艦体建造Ⅱ ",
+		count_inherit = 0,
+		desc = "<color=#797979>長きにわたる設計作業はついに完了した。残るは艦体の建造のみ。さあ、特別計画艦を完成させよ！シャンパンを開ける準備も忘れずに！</color>\n\n――メンタルキューブ<color=#A9F548>5個</color>を集める（「完了」をタップすると消費されます）",
+		target_id_2 = "",
+		sub_type = 1000,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 20001,
+		id = 60099,
+		target_num = 5,
+		fix_task = 0,
+		target_id = "20001",
+		open_need = {},
+		award_display = {}
+	},
+	[60101] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 9,
+		name = "吾妻开启研发前置任务",
+		count_inherit = 0,
+		desc = "",
+		target_id_2 = "",
+		sub_type = 1050,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 60101,
+		target_num = 900,
+		fix_task = 0,
+		target_id = "3",
+		open_need = {},
+		award_display = {}
+	},
+	[60102] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "戦術データ収集Ⅰ ",
+		count_inherit = 0,
+		desc = "<color=#797979>開発作業を円滑に進めるためには、十分な実験データの入手が必要不可欠であり、蓄積された実戦経験が最も有効だと考えられる。</color>\n\n――艦隊を出撃させ、重桜所属主力艦隊の累計獲得経験値を<color=#A9F548>1200000</color>蓄積させる ",
+		target_id_2 = "",
+		sub_type = 1041,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 60102,
+		target_num = 1200000,
+		fix_task = 0,
+		target_id = {
+			{
+				3,
+				4
+			},
+			{
+				3,
+				5
+			},
+			{
+				3,
+				6
+			},
+			{
+				3,
+				7
+			},
+			{
+				3,
+				9
+			},
+			{
+				3,
+				10
+			},
+			{
+				3,
+				12
+			},
+			{
+				3,
+				13
+			}
+		},
+		open_need = {},
+		award_display = {}
+	},
+	[60103] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "技術理論研究Ⅰ ",
+		count_inherit = 0,
+		desc = "<color=#797979>開発による具現化には技術投資が欠かせない。基礎研究の成果を先端技術に応用できれば、開発を大いに加速させられるはずだ。</color>\n\n――「科学研究」で任意の研究項目を<color=#A9F548>8回</color>完了する",
+		target_id_2 = "",
+		sub_type = 110,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 60103,
+		target_num = 8,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {}
+	},
+	[60104] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "超越技術設計Ⅰ ",
+		count_inherit = 0,
+		desc = "<color=#797979>戦術データによるフィードバックと最先端の技術理論を組み合わせ、開発はようやく製図段階に進むことができた。しかし、設計の細部を詰めるには既存の図面設計との比較を徹底的に行わなければならない。</color>\n\n――戦艦改造図T3を<color=#A9F548>3枚</color>集める（「完了」をタップすると消費されます） ",
+		target_id_2 = "",
+		sub_type = 1000,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 18023,
+		id = 60104,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "18022",
+		open_need = {},
+		award_display = {}
+	},
+	[60105] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "戦術データ収集Ⅱ ",
+		count_inherit = 0,
+		desc = [[
+<color=#A9F548>「戦術データ収集Ⅰ」を完了する必要がある</color>
+<color=#797979>図面設計の初稿が完成した。カタログスペックは果たしてどこまで実現できるのか、その検証にはさらなる戦術データの収集が必要不可欠である。</color>
+
+――艦隊を出撃させ、重桜所属前衛艦隊の累計獲得経験値を<color=#A9F548>2400000</color>蓄積させる ]],
+		target_id_2 = "",
+		sub_type = 1041,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 60105,
+		target_num = 2400000,
+		fix_task = 0,
+		target_id = {
+			{
+				3,
+				1
+			},
+			{
+				3,
+				2
+			},
+			{
+				3,
+				3
+			},
+			{
+				3,
+				18
+			}
+		},
+		open_need = {
+			60102
+		},
+		award_display = {}
+	},
+	[60106] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "技術理論研究Ⅱ ",
+		count_inherit = 0,
+		desc = [[
+<color=#A9F548>「技術理論研究Ⅰ」を完了する必要がある</color>
+<color=#797979>基本設計の次は修正・改善・最適化。初期段階で実現できなかったアイデアを実現させる最大のチャンスが訪れる。</color>
+
+――「科学研究」で任意の研究項目を<color=#A9F548>12回</color>完了する]],
+		target_id_2 = "",
+		sub_type = 110,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 60106,
+		target_num = 12,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {
+			60103
+		},
+		award_display = {}
+	},
+	[60107] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "超越技術設計Ⅱ ",
+		count_inherit = 0,
+		desc = "<color=#797979>技術理論と実戦データ、堅実な設計と大胆な発想を組み合わせた特別計画（プライオリティプラン）艦の設計がついに完成に近づいた。残った問題点を解決し、最高の完成度を目指そう。</color>\n\n――巡洋改造図T3を<color=#A9F548>8枚</color>集める（「完了」をタップすると消費されます） ",
+		target_id_2 = "",
+		sub_type = 1000,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 18013,
+		id = 60107,
+		target_num = 8,
+		fix_task = 0,
+		target_id = "18023",
+		open_need = {},
+		award_display = {}
+	},
+	[60108] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "艦体建造 ",
+		count_inherit = 0,
+		desc = "<color=#797979>長きにわたる設計作業はついに完了した。残るは艦体の建造のみ。さあ、特別計画艦を完成させよ！シャンパンを開ける準備も忘れずに！</color>\n\n――資金<color=#A9F548>50000</color>を集める（「完了」をタップすると消費されます） ",
+		target_id_2 = "",
+		sub_type = 1002,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 1,
+		id = 60108,
+		target_num = 50000,
+		fix_task = 0,
+		target_id = "1",
+		open_need = {},
+		award_display = {}
+	},
+	[60109] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "艦体建造Ⅱ ",
+		count_inherit = 0,
+		desc = "<color=#797979>長きにわたる設計作業はついに完了した。残るは艦体の建造のみ。さあ、特別計画艦を完成させよ！シャンパンを開ける準備も忘れずに！</color>\n\n――メンタルキューブ<color=#A9F548>10個</color>を集める（「完了」をタップすると消費されます）",
+		target_id_2 = "",
+		sub_type = 1000,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 20001,
+		id = 60109,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "20001",
+		open_need = {},
+		award_display = {}
+	},
+	[60111] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 9,
+		name = "腓特烈大帝开启研发前置任务",
+		count_inherit = 0,
+		desc = "",
+		target_id_2 = "",
+		sub_type = 1050,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 60111,
+		target_num = 630,
+		fix_task = 0,
+		target_id = "4",
+		open_need = {},
+		award_display = {}
+	},
+	[60112] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "戦術データ収集Ⅰ ",
+		count_inherit = 0,
+		desc = "<color=#797979>開発作業を円滑に進めるためには、十分な実験データの入手が必要不可欠であり、蓄積された実戦経験が最も有効だと考えられる。</color>\n\n――艦隊を出撃させ、鉄血所属主力艦隊の累計獲得経験値を<color=#A9F548>1200000</color>蓄積させる ",
+		target_id_2 = "",
+		sub_type = 1041,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 60112,
+		target_num = 1200000,
+		fix_task = 0,
+		target_id = {
+			{
+				4,
+				4
+			},
+			{
+				4,
+				5
+			},
+			{
+				4,
+				6
+			},
+			{
+				4,
+				7
+			},
+			{
+				4,
+				9
+			},
+			{
+				4,
+				10
+			},
+			{
+				4,
+				12
+			},
+			{
+				4,
+				13
+			}
+		},
+		open_need = {},
+		award_display = {}
+	},
+	[60113] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "技術理論研究Ⅰ ",
+		count_inherit = 0,
+		desc = "<color=#797979>開発による具現化には技術投資が欠かせない。基礎研究の成果を先端技術に応用できれば、開発を大いに加速させられるはずだ。</color>\n\n――「科学研究」で任意の研究項目を<color=#A9F548>8回</color>完了する",
+		target_id_2 = "",
+		sub_type = 110,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 60113,
+		target_num = 8,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {}
+	},
+	[60114] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "超越技術設計Ⅰ ",
+		count_inherit = 0,
+		desc = "<color=#797979>戦術データによるフィードバックと最先端の技術理論を組み合わせ、開発はようやく製図段階に進むことができた。しかし、設計の細部を詰めるには既存の図面設計との比較を徹底的に行わなければならない。</color>\n\n――戦艦改造図T3を<color=#A9F548>3枚</color>集める（「完了」をタップすると消費されます） ",
+		target_id_2 = "",
+		sub_type = 1000,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 18023,
+		id = 60114,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "18012",
+		open_need = {},
+		award_display = {}
+	},
+	[60115] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "戦術データ収集Ⅱ ",
+		count_inherit = 0,
+		desc = [[
+<color=#A9F548>「戦術データ収集Ⅰ」を完了する必要がある</color>
+<color=#797979>図面設計の初稿が完成した。カタログスペックは果たしてどこまで実現できるのか、その検証にはさらなる戦術データの収集が必要不可欠である。</color>
+
+――艦隊を出撃させ、鉄血所属主力艦隊の累計獲得経験値を<color=#A9F548>2400000</color>蓄積させる ]],
+		target_id_2 = "",
+		sub_type = 1041,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 60115,
+		target_num = 2400000,
+		fix_task = 0,
+		target_id = {
+			{
+				4,
+				4
+			},
+			{
+				4,
+				5
+			},
+			{
+				4,
+				6
+			},
+			{
+				4,
+				7
+			},
+			{
+				4,
+				9
+			},
+			{
+				4,
+				10
+			},
+			{
+				4,
+				12
+			},
+			{
+				4,
+				13
+			}
+		},
+		open_need = {
+			60112
+		},
+		award_display = {}
+	},
+	[60116] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "技術理論研究Ⅱ ",
+		count_inherit = 0,
+		desc = [[
+<color=#A9F548>「技術理論研究Ⅰ」を完了する必要がある</color>
+<color=#797979>基本設計の次は修正・改善・最適化。初期段階で実現できなかったアイデアを実現させる最大のチャンスが訪れる。</color>
+
+――「科学研究」で任意の研究項目を<color=#A9F548>12回</color>完了する]],
+		target_id_2 = "",
+		sub_type = 110,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 60116,
+		target_num = 12,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {
+			60113
+		},
+		award_display = {}
+	},
+	[60117] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "超越技術設計Ⅱ ",
+		count_inherit = 0,
+		desc = "<color=#797979>技術理論と実戦データ、堅実な設計と大胆な発想を組み合わせた特別計画（プライオリティプラン）艦の設計がついに完成に近づいた。残った問題点を解決し、最高の完成度を目指そう。</color>\n\n――戦艦改造図T3を<color=#A9F548>8枚</color>集める（「完了」をタップすると消費されます） ",
+		target_id_2 = "",
+		sub_type = 1000,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 18023,
+		id = 60117,
+		target_num = 8,
+		fix_task = 0,
+		target_id = "18013",
+		open_need = {},
+		award_display = {}
+	},
+	[60118] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "艦体建造 ",
+		count_inherit = 0,
+		desc = "<color=#797979>長きにわたる設計作業はついに完了した。残るは艦体の建造のみ。さあ、特別計画艦を完成させよ！シャンパンを開ける準備も忘れずに！</color>\n\n――資金<color=#A9F548>60000</color>を集める（「完了」をタップすると消費されます） ",
+		target_id_2 = "",
+		sub_type = 1002,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 1,
+		id = 60118,
+		target_num = 60000,
+		fix_task = 0,
+		target_id = "1",
+		open_need = {},
+		award_display = {}
+	},
+	[60119] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "艦体建造Ⅱ ",
+		count_inherit = 0,
+		desc = "<color=#797979>長きにわたる設計作業はついに完了した。残るは艦体の建造のみ。さあ、特別計画艦を完成させよ！シャンパンを開ける準備も忘れずに！</color>\n\n――メンタルキューブ<color=#A9F548>10個</color>を集める（「完了」をタップすると消費されます）",
+		target_id_2 = "",
+		sub_type = 1000,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 20001,
+		id = 60119,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "20001",
+		open_need = {},
+		award_display = {}
+	},
+	[60120] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 9,
+		name = "加斯科涅开启研发前置任务1",
+		count_inherit = 0,
+		desc = "",
+		target_id_2 = "",
+		sub_type = 1050,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 60120,
+		target_num = 760,
+		fix_task = 0,
+		target_id = "1",
+		open_need = {},
+		award_display = {}
+	},
+	[60121] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 9,
+		name = "加斯科涅开启研发前置任务",
+		count_inherit = 0,
+		desc = "",
+		target_id_2 = "",
+		sub_type = 1050,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 60121,
+		target_num = 420,
+		fix_task = 0,
+		target_id = "4",
+		open_need = {},
+		award_display = {}
+	},
+	[60122] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "戦術データ収集Ⅰ ",
+		count_inherit = 0,
+		desc = "<color=#797979>開発作業を円滑に進めるためには、十分な実験データの入手が必要不可欠であり、蓄積された実戦経験が最も有効だと考えられる。</color>\n\n――艦隊を出撃させ、鉄血/ヴィシア/アイリス所属主力艦隊の累計獲得経験値を<color=#A9F548>1000000</color>蓄積させる ",
+		target_id_2 = "",
+		sub_type = 1041,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 60122,
+		target_num = 1000000,
+		fix_task = 0,
+		target_id = {
+			{
+				4,
+				4
+			},
+			{
+				4,
+				5
+			},
+			{
+				4,
+				6
+			},
+			{
+				4,
+				7
+			},
+			{
+				4,
+				9
+			},
+			{
+				4,
+				10
+			},
+			{
+				4,
+				12
+			},
+			{
+				4,
+				13
+			},
+			{
+				8,
+				4
+			},
+			{
+				8,
+				5
+			},
+			{
+				8,
+				6
+			},
+			{
+				8,
+				7
+			},
+			{
+				8,
+				9
+			},
+			{
+				8,
+				10
+			},
+			{
+				8,
+				12
+			},
+			{
+				8,
+				13
+			},
+			{
+				9,
+				4
+			},
+			{
+				9,
+				5
+			},
+			{
+				9,
+				6
+			},
+			{
+				9,
+				7
+			},
+			{
+				9,
+				9
+			},
+			{
+				9,
+				10
+			},
+			{
+				9,
+				12
+			},
+			{
+				9,
+				13
+			}
+		},
+		open_need = {},
+		award_display = {}
+	},
+	[60123] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "技術理論研究Ⅰ ",
+		count_inherit = 0,
+		desc = "<color=#797979>開発による具現化には技術投資が欠かせない。基礎研究の成果を先端技術に応用できれば、開発を大いに加速させられるはずだ。</color>\n\n――「科学研究」で任意の研究項目を<color=#A9F548>5回</color>完了する",
+		target_id_2 = "",
+		sub_type = 110,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 60123,
+		target_num = 5,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {}
+	},
+	[60124] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "超越技術設計Ⅰ ",
+		count_inherit = 0,
+		desc = "<color=#797979>戦術データによるフィードバックと最先端の技術理論を組み合わせ、開発はようやく製図段階に進むことができた。しかし、設計の細部を詰めるには既存の図面設計との比較を徹底的に行わなければならない。</color>\n\n――戦艦改造図T2を<color=#A9F548>10枚</color>集める（「完了」をタップすると消費されます） ",
+		target_id_2 = "",
+		sub_type = 1000,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 18022,
+		id = 60124,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "18012",
+		open_need = {},
+		award_display = {}
+	},
+	[60125] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "戦術データ収集Ⅱ ",
+		count_inherit = 0,
+		desc = [[
+<color=#A9F548>「戦術データ収集Ⅰ」を完了する必要がある</color>
+<color=#797979>図面設計の初稿が完成した。カタログスペックは果たしてどこまで実現できるのか、その検証にはさらなる戦術データの収集が必要不可欠である。</color>
+
+――艦隊を出撃させ、鉄血/ヴィシア/アイリス所属主力艦隊の累計獲得経験値を<color=#A9F548>2000000</color>蓄積させる ]],
+		target_id_2 = "",
+		sub_type = 1041,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 60125,
+		target_num = 2000000,
+		fix_task = 0,
+		target_id = {
+			{
+				4,
+				4
+			},
+			{
+				4,
+				5
+			},
+			{
+				4,
+				6
+			},
+			{
+				4,
+				7
+			},
+			{
+				4,
+				9
+			},
+			{
+				4,
+				10
+			},
+			{
+				4,
+				12
+			},
+			{
+				4,
+				13
+			},
+			{
+				8,
+				4
+			},
+			{
+				8,
+				5
+			},
+			{
+				8,
+				6
+			},
+			{
+				8,
+				7
+			},
+			{
+				8,
+				9
+			},
+			{
+				8,
+				10
+			},
+			{
+				8,
+				12
+			},
+			{
+				8,
+				13
+			},
+			{
+				9,
+				4
+			},
+			{
+				9,
+				5
+			},
+			{
+				9,
+				6
+			},
+			{
+				9,
+				7
+			},
+			{
+				9,
+				9
+			},
+			{
+				9,
+				10
+			},
+			{
+				9,
+				12
+			},
+			{
+				9,
+				13
+			}
+		},
+		open_need = {
+			60122
+		},
+		award_display = {}
+	},
+	[60126] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "技術理論研究Ⅱ ",
+		count_inherit = 0,
+		desc = [[
+<color=#A9F548>「技術理論研究Ⅰ」を完了する必要がある</color>
+<color=#797979>基本設計の次は修正・改善・最適化。初期段階で実現できなかったアイデアを実現させる最大のチャンスが訪れる。</color>
+
+――「科学研究」で任意の研究項目を<color=#A9F548>8回</color>完了する]],
+		target_id_2 = "",
+		sub_type = 110,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 60126,
+		target_num = 8,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {
+			60123
+		},
+		award_display = {}
+	},
+	[60127] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "超越技術設計Ⅱ ",
+		count_inherit = 0,
+		desc = "<color=#797979>技術理論と実戦データ、堅実な設計と大胆な発想を組み合わせた特別計画（プライオリティプラン）艦の設計がついに完成に近づいた。残った問題点を解決し、最高の完成度を目指そう。</color>\n\n――戦艦改造図T3を<color=#A9F548>5枚</color>集める（「完了」をタップすると消費されます） ",
+		target_id_2 = "",
+		sub_type = 1000,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 18023,
+		id = 60127,
+		target_num = 5,
+		fix_task = 0,
+		target_id = "18013",
+		open_need = {},
+		award_display = {}
+	},
+	[60128] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "艦体建造 ",
+		count_inherit = 0,
+		desc = "<color=#797979>長きにわたる設計作業はついに完了した。残るは艦体の建造のみ。さあ、特別計画艦を完成させよ！シャンパンを開ける準備も忘れずに！</color>\n\n――資金<color=#A9F548>30000</color>を集める（「完了」をタップすると消費されます） ",
+		target_id_2 = "",
+		sub_type = 1002,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 1,
+		id = 60128,
+		target_num = 30000,
+		fix_task = 0,
+		target_id = "1",
+		open_need = {},
+		award_display = {}
+	},
+	[60129] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "艦体建造Ⅱ ",
+		count_inherit = 0,
+		desc = "<color=#797979>長きにわたる設計作業はついに完了した。残るは艦体の建造のみ。さあ、特別計画艦を完成させよ！シャンパンを開ける準備も忘れずに！</color>\n\n――メンタルキューブ<color=#A9F548>5個</color>を集める（「完了」をタップすると消費されます）",
+		target_id_2 = "",
+		sub_type = 1000,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 20001,
+		id = 60129,
+		target_num = 5,
+		fix_task = 0,
+		target_id = "20001",
+		open_need = {},
+		award_display = {}
+	},
 	all = {
 		1,
 		2,
@@ -63673,6 +65642,7 @@ pg.task_data_template = {
 		52008,
 		52009,
 		52010,
+		52011,
 		52021,
 		52022,
 		52023,
@@ -63731,7 +65701,62 @@ pg.task_data_template = {
 		60066,
 		60067,
 		60068,
-		60069
+		60069,
+		60071,
+		60072,
+		60073,
+		60074,
+		60075,
+		60076,
+		60077,
+		60078,
+		60079,
+		60081,
+		60082,
+		60083,
+		60084,
+		60085,
+		60086,
+		60087,
+		60088,
+		60089,
+		60091,
+		60092,
+		60093,
+		60094,
+		60095,
+		60096,
+		60097,
+		60098,
+		60099,
+		60101,
+		60102,
+		60103,
+		60104,
+		60105,
+		60106,
+		60107,
+		60108,
+		60109,
+		60111,
+		60112,
+		60113,
+		60114,
+		60115,
+		60116,
+		60117,
+		60118,
+		60119,
+		60120,
+		60121,
+		60122,
+		60123,
+		60124,
+		60125,
+		60126,
+		60127,
+		60128,
+		60129
 	}
 }
 

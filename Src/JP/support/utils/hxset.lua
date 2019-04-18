@@ -51,6 +51,16 @@ HXSet = {
 				slot6.name = slot0[slot6.name]
 			end
 		end
+
+		for slot5, slot6 in pairs(pg.fleet_tech_ship_class) do
+			if slot6.name then
+				slot7, slot8 = string.gsub(slot6.name, "级", "")
+
+				if slot6.nation == Nation.JP and slot0[slot7] then
+					slot6.name = slot0[slot7] .. ((slot8 > 0 and "级") or "")
+				end
+			end
+		end
 	end,
 	hxLan = function (slot0, slot1)
 		return string.gsub(slot0 or "", "{namecode:(%d+)}", function (slot0)

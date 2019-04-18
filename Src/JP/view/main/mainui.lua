@@ -414,23 +414,12 @@ function slot0.didEnter(slot0)
 	onButton(slot0, slot0._secondaryPanel, function ()
 		slot0:closeSecondaryPanel()
 	end)
-
-	if not pg.SystemOpenMgr:GetInstance():isOpenSystem(slot0._player.level, "TechnologyMediator") then
-		setActive(slot0:findTF("lock", slot0._technologyBtn), true)
-
-		slot0._technologyBtn:GetComponent(typeof(Image)).color = Color(0.3, 0.3, 0.3, 1)
-	else
-		setActive(slot0:findTF("lock", slot0._technologyBtn), false)
-
-		slot0._technologyBtn:GetComponent(typeof(Image)).color = Color(1, 1, 1, 1)
-	end
-
 	onButton(slot0, slot0._technologyBtn, function ()
 		slot0:emit(MainUIMediator.OPEN_TECHNOLOGY)
 	end, SFX_PANEL)
-	pg.DelegateInfo.Add(slot0, slot6)
-	GetOrAddComponent(slot0._paintingTF, "UILongPressTrigger").onLongPressed.RemoveAllListeners(slot6)
-	GetOrAddComponent(slot0._paintingTF, "UILongPressTrigger").onLongPressed.AddListener(slot6, function ()
+	pg.DelegateInfo.Add(slot0, slot5)
+	GetOrAddComponent(slot0._paintingTF, "UILongPressTrigger").onLongPressed.RemoveAllListeners(slot5)
+	GetOrAddComponent(slot0._paintingTF, "UILongPressTrigger").onLongPressed.AddListener(slot5, function ()
 		if slot0.Live2dChar then
 			return
 		end
@@ -696,39 +685,40 @@ function slot0.displayShipWord(slot0, slot1)
 		slot0.chatTimer = nil
 	end
 
-	slot3, slot4, slot5, slot6 = nil
+	slot2 = slot0.flagShip:getIntimacy() / 100 + ((slot0.flagShip.propose and 1000) or 0)
+	slot4, slot5, slot6, slot7 = nil
 
 	if string.split(slot1, "_")[1] == "main" then
-		slot3, slot4 = Ship.getWords(slot0.flagShip.skinId, slot2[1], tonumber(slot2[2]))
-		slot5 = Ship.getCVCalibrate(slot0.flagShip.skinId, slot2[1], tonumber(slot2[2]))
-		slot6 = Ship.getL2dSoundEffect(slot0.flagShip.skinId, slot2[1], tonumber(slot2[2]))
+		slot4, slot5 = Ship.getWords(slot0.flagShip.skinId, slot3[1], tonumber(slot3[2]), nil, slot2)
+		slot6 = Ship.getCVCalibrate(slot0.flagShip.skinId, slot3[1], tonumber(slot3[2]))
+		slot7 = Ship.getL2dSoundEffect(slot0.flagShip.skinId, slot3[1], tonumber(slot3[2]))
 	else
-		slot3, slot4 = Ship.getWords(slot0.flagShip.skinId, slot1)
-		slot5 = Ship.getCVCalibrate(slot0.flagShip.skinId, slot1)
-		slot6 = Ship.getL2dSoundEffect(slot0.flagShip.skinId, slot1)
+		slot4, slot5 = Ship.getWords(slot0.flagShip.skinId, slot1, nil, nil, slot2)
+		slot6 = Ship.getCVCalibrate(slot0.flagShip.skinId, slot1)
+		slot7 = Ship.getL2dSoundEffect(slot0.flagShip.skinId, slot1)
 	end
 
-	setText(slot0._chatText, slot3)
+	setText(slot0._chatText, slot4)
 
 	if CHAT_POP_STR_LEN < #slot0._chatText:GetComponent(typeof(Text)).text then
-		slot7.alignment = TextAnchor.MiddleLeft
+		slot8.alignment = TextAnchor.MiddleLeft
 	else
-		slot7.alignment = TextAnchor.MiddleCenter
+		slot8.alignment = TextAnchor.MiddleCenter
 	end
 
-	if slot0.initChatBgH < slot7.preferredHeight + 26 then
-		slot0._chatTextBg.sizeDelta = Vector2.New(slot0._chatTextBg.sizeDelta.x, slot8)
+	if slot0.initChatBgH < slot8.preferredHeight + 26 then
+		slot0._chatTextBg.sizeDelta = Vector2.New(slot0._chatTextBg.sizeDelta.x, slot9)
 	else
 		slot0._chatTextBg.sizeDelta = Vector2.New(slot0._chatTextBg.sizeDelta.x, slot0.initChatBgH)
 	end
 
-	slot9 = slot0.CHAT_SHOW_TIME
+	slot10 = slot0.CHAT_SHOW_TIME
 
 	if findTF(slot0._paintingTF, "fitter").childCount > 0 then
 		Ship.SetExpression(findTF(slot0._paintingTF, "fitter"):GetChild(0), slot0.flagShip:getPainting(), slot1)
 	end
 
-	function slot10()
+	function slot11()
 		LeanTween.scale(rtf(slot0._chat.gameObject), Vector3.New(1, 1, 1), slot0.CHAT_ANIMATION_TIME):setEase(LeanTweenType.easeOutBack):setOnComplete(System.Action(function ()
 			LeanTween.scale(rtf(slot0._chat.gameObject), Vector3.New(0, 0, 1), slot0.CHAT_ANIMATION_TIME):setEase(LeanTweenType.easeInBack):setDelay(slot0.CHAT_ANIMATION_TIME + LeanTween.scale(rtf(slot0._chat.gameObject), Vector3.New(0, 0, 1), slot0.CHAT_ANIMATION_TIME).setEase(LeanTweenType.easeInBack)):setOnComplete(System.Action(function ()
 				slot0.chatFlag = nil
@@ -750,8 +740,8 @@ function slot0.displayShipWord(slot0, slot1)
 		slot0._delayL2dSeID = nil
 	end
 
-	if slot0.live2dCom and slot6 then
-		slot0._delayL2dSeID = LeanTween.delayedCall(slot6[2], System.Action(function ()
+	if slot0.live2dCom and slot7 then
+		slot0._delayL2dSeID = LeanTween.delayedCall(slot7[2], System.Action(function ()
 			playSoundEffect("event:/ui/" .. slot0[1])
 
 			"event:/ui/" .. slot0[1]._delayL2dSeID = nil
@@ -760,12 +750,12 @@ function slot0.displayShipWord(slot0, slot1)
 		end)).id
 	end
 
-	slot11 = pg.StoryMgr:GetInstance():isActive()
+	slot12 = pg.StoryMgr:GetInstance():isActive()
 
 	if getProxy(ContextProxy):getContextByMediator(NewShipMediator) then
 	else
-		if slot4 and not slot11 then
-			function slot12()
+		if slot5 and not slot12 then
+			function slot13()
 				if slot0._currentVoice then
 					slot0._currentVoice:Stop(true)
 				end
@@ -805,7 +795,7 @@ function slot0.displayShipWord(slot0, slot1)
 			end
 
 			if slot0.loadedCVBankName then
-				slot12()
+				slot13()
 			else
 				pg.CriMgr:LoadCV(Ship.getCVKeyID(slot0.flagShip.skinId), function ()
 					if pg.CriMgr.GetInstance().onStopCV then
@@ -834,8 +824,8 @@ function slot0.displayShipWord(slot0, slot1)
 				slot0.loadingKey = Ship.getCVKeyID(slot0.flagShip.skinId)
 			end
 		else
-			if slot3 then
-				slot10()
+			if slot4 then
+				slot11()
 			else
 				slot0.chatFlag = false
 			end

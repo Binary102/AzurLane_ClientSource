@@ -21,7 +21,8 @@ function slot0.Ctor(slot0, slot1)
 	slot0.propsTr1 = findTF(slot0.detail, "frame/list1")
 	slot0.energyTF = findTF(slot0.tr, "energy")
 	slot0.duang = findTF(slot0.detail, "duang")
-	slot0.duang6 = findTF(slot0.detail, "duang_6")
+	slot0.duang6 = findTF(slot0.detail, "duang_6_1")
+	slot0.duang6tuzhi = findTF(slot0.detail, "duang_6_tuzhi_1")
 	slot0.npc = findTF(slot0.detail, "frame/npc")
 
 	if not IsNil(slot0.npc) then
@@ -115,23 +116,31 @@ function slot0.flush(slot0)
 		slot0.frameImage.sprite = GetSpriteFromAtlas("shipframe", "b" .. ((slot1.propose and "prop") or slot3))
 
 		slot0.frameImage:SetNativeSize()
+
+		slot5 = slot1:isBluePrintShip()
+		slot6 = slot1:getRarity() == ShipRarity.SSR
+
 		setActive(slot0.duang, slot1.propose)
 
 		if slot0.duang6 then
-			setActive(slot0.duang6, not slot1.propose and slot1:getRarity() == 6)
+			setActive(slot0.duang6, slot6 and not slot4 and not slot5)
+		end
+
+		if slot0.duang6tuzhi then
+			setActive(slot0.duang6tuzhi, slot6 and not slot4 and slot5)
 		end
 
 		slot0.shipTypeImage.sprite = GetSpriteFromAtlas("shiptype", shipType2print(slot2.type))
-		slot7 = slot1:getMaxStar() - slot1:getStar()
+		slot10 = slot1:getMaxStar() - slot1:getStar()
 
-		for slot11 = slot0.starsTr.childCount, slot1.getMaxStar() - 1, 1 do
+		for slot14 = slot0.starsTr.childCount, slot1.getMaxStar() - 1, 1 do
 			cloneTplTo(slot0.starTr, slot0.starsTr)
 		end
 
-		for slot11 = 0, slot0.starsTr.childCount - 1, 1 do
-			slot0.starsTr:GetChild(slot11).gameObject:SetActive(slot11 < slot6)
-			SetActive(slot12:Find("empty"), slot11 < slot7)
-			SetActive(slot12:Find("star"), slot7 <= slot11)
+		for slot14 = 0, slot0.starsTr.childCount - 1, 1 do
+			slot0.starsTr:GetChild(slot14).gameObject:SetActive(slot14 < slot9)
+			SetActive(slot15:Find("empty"), slot14 < slot10)
+			SetActive(slot15:Find("star"), slot10 <= slot14)
 		end
 	else
 		setActive(slot0.add, true)

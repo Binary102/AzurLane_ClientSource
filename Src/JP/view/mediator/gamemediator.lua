@@ -170,6 +170,9 @@ function slot0.handleNotification(slot0, slot1)
 		elseif slot3 == SCENE.ITEM_ORIGIN_PAGE then
 			slot4.mediator = getSpecialItemPage(slot4.data.open_ui).mediator
 			slot4.viewComponent = getSpecialItemPage(slot4.data.open_ui).viewComponent
+		elseif slot3 == SCENE.TECHNOLOGY_TREE_SCENE then
+			slot4.mediator = TechnologyTreeMediator
+			slot4.viewComponent = TechnologyTreeScene
 		end
 
 		print("load scene: " .. slot3)

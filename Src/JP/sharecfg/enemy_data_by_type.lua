@@ -49,7 +49,7 @@ pg.enemy_data_by_type = {
 		type = 12
 	},
 	{
-		type_name = "重砲",
+		type_name = "砲艦",
 		type = 13
 	},
 	{

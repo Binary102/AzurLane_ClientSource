@@ -1,16 +1,18 @@
 pg = pg or {}
 pg.activity_banner = {
 	{
-		param = "10224",
-		type = 3,
+		type = 2,
 		id = 1,
 		pic = "temp2",
+		param = {
+			"seltechnology"
+		},
 		time = {
 			{
 				{
 					2019,
-					3,
-					28
+					4,
+					18
 				},
 				{
 					0,
@@ -22,39 +24,7 @@ pg.activity_banner = {
 				{
 					2019,
 					4,
-					18
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		param = "10228",
-		type = 3,
-		id = 2,
-		pic = "temp10",
-		time = {
-			{
-				{
-					2019,
-					4,
-					4
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					4,
-					18
+					26
 				},
 				{
 					23,
@@ -66,20 +36,17 @@ pg.activity_banner = {
 	},
 	{
 		type = 2,
-		id = 3,
-		pic = "temp1",
+		id = 2,
+		pic = "temp10",
 		param = {
-			"scene charge",
-			{
-				wrap = 1
-			}
+			"TECHNOLOGY_TREE_SCENE"
 		},
 		time = {
 			{
 				{
 					2019,
 					4,
-					4
+					18
 				},
 				{
 					0,
@@ -91,7 +58,7 @@ pg.activity_banner = {
 				{
 					2019,
 					4,
-					17
+					26
 				},
 				{
 					23,
@@ -102,6 +69,14 @@ pg.activity_banner = {
 		}
 	},
 	{
+		param = "10232",
+		time = "stop",
+		type = 3,
+		id = 3,
+		pic = "temp1"
+	},
+	{
+		time = "stop",
 		type = 2,
 		id = 4,
 		pic = "temp4",
@@ -110,35 +85,10 @@ pg.activity_banner = {
 			{
 				projectName = "new"
 			}
-		},
-		time = {
-			{
-				{
-					2019,
-					3,
-					28
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					4,
-					18
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	{
+		time = "stop",
 		type = 2,
 		id = 5,
 		pic = "temp3",
@@ -147,66 +97,15 @@ pg.activity_banner = {
 			{
 				wrap = 3
 			}
-		},
-		time = {
-			{
-				{
-					2019,
-					3,
-					28
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					4,
-					17
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	{
+		time = "stop",
 		type = 2,
 		id = 6,
 		pic = "temp12",
 		param = {
 			"scene back yard"
-		},
-		time = {
-			{
-				{
-					2019,
-					3,
-					15
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					4,
-					14
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	{

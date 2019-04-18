@@ -3376,6 +3376,102 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[13012] = {
+		display = "試作型457mm連装砲MKAT0設計図",
+		rarity = 5,
+		type = 9,
+		name = "試作型457mm連装砲MKAT0設計図",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 13012,
+		icon = "Equips/14500",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[13013] = {
+		display = "試作型406mmSKC連装砲T0設計図",
+		rarity = 4,
+		type = 9,
+		name = "試作型406mmSKC連装砲T0設計図",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 13013,
+		icon = "Equips/44200",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[13014] = {
+		display = "試作型三連装152mm両用砲Mk17T0設計図",
+		rarity = 4,
+		type = 9,
+		name = "試作型三連装152mm両用砲Mk17T0設計図",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 13014,
+		icon = "Equips/12200",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[13015] = {
+		display = "試作型五式40mm高射機関砲T0設計図",
+		rarity = 4,
+		type = 9,
+		name = "試作型五式40mm高射機関砲T0設計図",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 13015,
+		icon = "Equips/36700",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[13016] = {
+		display = "試作型三連装310mm砲T0設計図",
+		rarity = 4,
+		type = 9,
+		name = "試作型三連装310mm砲T0設計図",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 13016,
+		icon = "Equips/33100",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[13017] = {
+		display = "二連装37mm高射砲Mle1936T0設計図",
+		rarity = 4,
+		type = 9,
+		name = "二連装37mm高射砲Mle1936T0設計図",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 13017,
+		icon = "Equips/50600",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[15001] = {
 		display = "艦船を退役させることで手に入る勲章。本部に戦力支援を要請することが出来る",
 		rarity = 3,
@@ -17817,6 +17913,166 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[42010] = {
+		display = "特別計画艦「シアトル」「ジョージア」「北風」「ガスコーニュ」の強化ユニットを選択して入手できます。",
+		rarity = 4,
+		type = 13,
+		name = "指向型強化ユニット・二期目 ",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 42010,
+		icon = "Props/42010",
+		display_icon = {
+			{
+				2,
+				42011,
+				1
+			},
+			{
+				2,
+				42012,
+				1
+			},
+			{
+				2,
+				42013,
+				1
+			},
+			{
+				2,
+				42016,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[42011] = {
+		display = "ユニオン巡洋艦「シアトル」の強化ユニット。\n<color=#A9F548>「シアトル」開発完了後、「開発ドック」で「シアトル」の性能を強化できる。</color> ",
+		rarity = 4,
+		type = 12,
+		name = "指向型強化ユニット「シアトル」",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 42011,
+		icon = "Props/42011",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[42012] = {
+		display = "ユニオン戦艦「ジョージア」の強化ユニット。\n<color=#A9F548>「ジョージア」開発完了後、「開発ドック」で「ジョージア」の性能を強化できる。</color> ",
+		rarity = 4,
+		type = 12,
+		name = "指向型強化ユニット「ジョージア」",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 42012,
+		icon = "Props/42012",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[42013] = {
+		display = "重桜駆逐「北風」の強化ユニット。\n<color=#A9F548>「北風」開発完了後、「開発ドック」で「北風」の性能を強化できる。</color>",
+		rarity = 4,
+		type = 12,
+		name = "指向型強化ユニット「北風」",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 42013,
+		icon = "Props/42013",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[42014] = {
+		display = "重桜超巡「吾妻」の強化ユニット。\n<color=#A9F548>「吾妻」開発完了後、「開発ドック」で「吾妻」の性能を強化できる。</color>",
+		rarity = 5,
+		type = 12,
+		name = "指向型強化ユニット「吾妻」",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 42014,
+		icon = "Props/42014",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[42015] = {
+		display = "鉄血戦艦「フリードリヒ・デア・グローセ」の強化ユニット。\n<color=#A9F548>「フリードリヒ・デア・グローセ」開発完了後、「開発ドック」で「フリードリヒ・デア・グローセ」の性能を強化できる。</color>",
+		rarity = 5,
+		type = 12,
+		name = "指向型強化ユニット「フリードリヒ・デア・グローセ」",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 42015,
+		icon = "Props/42015",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[42016] = {
+		display = "ヴィシア戦艦「ガスコーニュ」の強化ユニット。\n<color=#A9F548>「ガスコーニュ」開発完了後、「開発ドック」で「ガスコーニュ」の性能を強化できる。</color>",
+		rarity = 4,
+		type = 12,
+		name = "指向型強化ユニット「ガスコーニュ」",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 42016,
+		icon = "Props/42016",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[42017] = {
+		display = "特別計画艦「吾妻」「フリードリヒ・デア・グローセ」の強化ユニットを選択して入手できます。",
+		rarity = 5,
+		type = 13,
+		name = "上級指向型強化ユニット・二期目",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 42017,
+		icon = "Props/42017",
+		display_icon = {
+			{
+				2,
+				42014,
+				1
+			},
+			{
+				2,
+				42015,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
 	[50001] = {
 		display = "酸素充填のコーラ。独特な味で指揮官は多分飲めない",
 		rarity = 2,
@@ -18205,6 +18461,125 @@ pg.item_data_statistics = {
 		id = 52004,
 		icon = "Props/55000",
 		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[52011] = {
+		display = "ランダムで下記の強化ユニットを入手できます。",
+		rarity = 4,
+		type = 99,
+		name = "強化ユニット(ランダム)",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 52011,
+		icon = "Props/52001",
+		display_icon = {
+			{
+				2,
+				42014,
+				1
+			},
+			{
+				2,
+				42015,
+				1
+			},
+			{
+				2,
+				42011,
+				1
+			},
+			{
+				2,
+				42012,
+				1
+			},
+			{
+				2,
+				42013,
+				1
+			},
+			{
+				2,
+				42016,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[52012] = {
+		display = "ランダムで下記の設計図を入手できます。",
+		rarity = 4,
+		type = 99,
+		name = "兵装設計図(ランダム)",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 52012,
+		icon = "Props/55000",
+		display_icon = {
+			{
+				2,
+				13012,
+				1
+			},
+			{
+				2,
+				13000,
+				1
+			},
+			{
+				2,
+				13002,
+				1
+			},
+			{
+				2,
+				13009,
+				1
+			},
+			{
+				2,
+				13010,
+				1
+			},
+			{
+				2,
+				13011,
+				1
+			},
+			{
+				2,
+				13013,
+				1
+			},
+			{
+				2,
+				13014,
+				1
+			},
+			{
+				2,
+				13015,
+				1
+			},
+			{
+				2,
+				13016,
+				1
+			},
+			{
+				2,
+				13017,
+				1
+			}
+		},
 		price = {},
 		index = {}
 	},
@@ -62498,6 +62873,12 @@ pg.item_data_statistics = {
 		13009,
 		13010,
 		13011,
+		13012,
+		13013,
+		13014,
+		13015,
+		13016,
+		13017,
 		15001,
 		15002,
 		15003,
@@ -63102,6 +63483,14 @@ pg.item_data_statistics = {
 		42004,
 		42005,
 		42006,
+		42010,
+		42011,
+		42012,
+		42013,
+		42014,
+		42015,
+		42016,
+		42017,
 		50001,
 		50002,
 		50003,
@@ -63112,6 +63501,8 @@ pg.item_data_statistics = {
 		52002,
 		52003,
 		52004,
+		52011,
+		52012,
 		53000,
 		53010,
 		53011,

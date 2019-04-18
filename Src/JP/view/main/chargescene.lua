@@ -305,7 +305,6 @@ function slot0.switchPage(slot0, slot1)
 	end
 
 	setActive(slot0.skinSortBtn, not LOCK_SKIN_SORT and slot1 == slot0.TYPE_SKIN)
-	setActive(slot0.skinSortBtn, slot1 == slot0.TYPE_SKIN)
 
 	slot0.prePage = slot1
 end

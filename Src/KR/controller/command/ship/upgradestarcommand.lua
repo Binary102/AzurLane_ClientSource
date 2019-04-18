@@ -84,7 +84,7 @@ class("UpgradeStarCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 				slot1:updateShip(slot2)
 
 				if slot4 then
-					slot4.star = slot2:getStar()
+					slot4.star = math.max(slot4.star, slot2:getStar())
 
 					slot4:updateShipGroup(slot4)
 				end

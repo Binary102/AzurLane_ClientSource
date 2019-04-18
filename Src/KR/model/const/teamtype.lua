@@ -7,7 +7,8 @@ slot0.VanguardShipType = {
 	ShipType.QingXun,
 	ShipType.ZhongXun,
 	ShipType.HangXun,
-	ShipType.LeiXun
+	ShipType.LeiXun,
+	ShipType.ChaoXun
 }
 slot0.MainShipType = {
 	ShipType.ZhanXun,

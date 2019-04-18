@@ -2099,18 +2099,18 @@ pg.furniture_data_template = {
 		gain_by = "",
 		type = 7,
 		dir = 0,
-		effect = "",
-		icon = "moshuxiangicon",
+		picture = "",
 		is_get_time_note = 0,
-		belong = 1,
 		count = 1,
 		advice = 0,
+		effect = "",
 		dorm_icon_price = 40,
 		not_for_sale = 1,
+		icon = "moshuxiangicon",
 		deblocking = 1,
 		level = 1,
 		rarity = 4,
-		picture = "",
+		belong = 1,
 		canputon = 0,
 		discount = 0,
 		id = 100005,
@@ -2125,11 +2125,69 @@ pg.furniture_data_template = {
 		new = 1,
 		discount_time = "",
 		size = {
-			3,
-			2
+			8,
+			5
 		},
 		offset = {},
 		canputonGrid = {},
+		spine = {
+			{
+				"MagicBoxB",
+				"normal"
+			},
+			{
+				"MagicBoxT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"stand21",
+						0,
+						"walk"
+					},
+					{
+						"walk1",
+						0,
+						"walk"
+					},
+					{
+						"stand22",
+						0,
+						"dance"
+					},
+					{
+						"walk2",
+						0,
+						"walk"
+					}
+				},
+				{},
+				{
+					0
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		animator = {
+			{
+				{
+					"MagicBoxCharControl",
+					"MagicBoxCharControl2"
+				}
+			}
+		},
 		interAction_group = {}
 	},
 	[1001] = {

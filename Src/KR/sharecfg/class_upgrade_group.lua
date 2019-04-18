@@ -24,7 +24,8 @@ pg.class_upgrade_group = {
 			3,
 			9,
 			11,
-			12
+			12,
+			18
 		}
 	},
 	{
@@ -76,7 +77,8 @@ pg.class_upgrade_group = {
 			3,
 			9,
 			11,
-			12
+			12,
+			18
 		}
 	},
 	{

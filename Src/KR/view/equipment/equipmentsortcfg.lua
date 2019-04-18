@@ -67,7 +67,8 @@ return {
 			},
 			types = {
 				EquipType.Equipment,
-				EquipType.AntiSubAircraft
+				EquipType.AntiSubAircraft,
+				EquipType.Sonar
 			}
 		}
 	},

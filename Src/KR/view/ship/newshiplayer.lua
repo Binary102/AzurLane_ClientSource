@@ -46,10 +46,6 @@ function slot0.init(slot0)
 	slot0.emptyTpl = slot0:getTpl("bg/skill_panel/frame/emptytpl", slot0.rightPanel)
 	slot0.addTpl = slot0:getTpl("bg/skill_panel/frame/addtpl", slot0.rightPanel)
 	slot0.newTF = slot0._shake:Find("New")
-	slot0.rarityTF = slot0._shake:Find("rarity")
-	slot0.starsTF = slot0._shake:Find("rarity/stars")
-	slot0.starsCont = slot0:findTF("content", slot0.starsTF)
-	slot0.rarityType = slot0._shake:Find("rarity/type")
 	slot0._skipButton = slot0._shake:Find("skip")
 
 	setActive(slot0._skipButton, slot0.contextData.canSkipBatch)
@@ -102,7 +98,7 @@ function slot0.setShip(slot0, slot1)
 	slot0._shipVO = slot1
 	slot0.isRemoulded = slot1:isRemoulded()
 
-	GetSpriteFromAtlasAsync("bg/star_level_bg_" .. slot1:rarity2bgPrintForGet(), "", function (slot0)
+	GetSpriteFromAtlasAsync("bg/star_level_bg_" .. slot0._shipVO:rarity2bgPrintForGet(), "", function (slot0)
 		setImageSprite(slot0._bg, slot0, true)
 
 		slot0.isLoadBg = true
@@ -112,7 +108,7 @@ function slot0.setShip(slot0, slot1)
 
 	if slot1:isBluePrintShip() then
 		if not slot0.designBg then
-			PoolMgr.GetInstance():GetUI("raritydesign5", true, function (slot0)
+			PoolMgr.GetInstance():GetUI("raritydesign" .. slot0._shipVO:getRarity(), true, function (slot0)
 				slot0.designBg = slot0
 
 				slot0.transform:SetParent(slot0._shake, false)
@@ -128,7 +124,7 @@ function slot0.setShip(slot0, slot1)
 		end
 	end
 
-	if slot1.virgin and not slot0.isRemoulded and not slot1:isActivityNpc() then
+	if slot0._shipVO.virgin and not slot0.isRemoulded and not slot0._shipVO:isActivityNpc() then
 		setActive(slot0.newTF, true)
 		LoadImageSpriteAsync("clutter/new", slot0.newTF)
 	else
@@ -152,12 +148,12 @@ function slot0.setShip(slot0, slot1)
 
 	slot0._shipType:SetNativeSize()
 
-	slot0._shipName.text = slot1:getName()
+	slot0._shipName.text = slot0._shipVO:getName()
 	slot4 = ""
 	slot5 = nil
 
 	if slot0.isRemoulded then
-		slot0._wordsConfig = Ship.getShipWords(slot1:getRemouldSkinId())
+		slot0._wordsConfig = Ship.getShipWords(slot0._shipVO:getRemouldSkinId())
 
 		if slot0._wordsConfig.unlock == "" then
 			slot4 = Ship.getWords(slot6, "drop_descrip")
@@ -179,8 +175,8 @@ function slot0.setShip(slot0, slot1)
 		LeanTween.scale:voice(LeanTween.scale)
 	end))
 
-	slot6 = slot1:getRarity()
-	slot0.rarityTF.localPosition = (slot2 and Vector3(368, 0, 0)) or Vector3(368, 49, 0)
+	slot0.starsTF = (slot2 and slot0._shipVO:getRarity() == ShipRarity.SSR and slot0._shake:Find("special_rarity/stars")) or slot0._shake:Find("rarity/stars")
+	slot0.starsCont = slot0:findTF("content", slot0.starsTF)
 	slot8 = slot0._shipVO:getStar()
 	slot10 = (pg.ship_data_template[slot3.id].star_max % 2 == 0 and pg.ship_data_template[slot3.id].star_max / 2) or math.floor(pg.ship_data_template[slot3.id].star_max / 2) + 1
 	slot11 = 15
@@ -203,62 +199,68 @@ function slot0.setShip(slot0, slot1)
 		end
 	end
 
-	slot12 = slot0._shake:Find("nation")
-	slot13 = LoadSprite
-	slot14 = "prints/"
-	slot15 = nation2print(slot3.nationality)
-	slot16 = (slot2 and "") or "_1"
+	slot0.nationTF = slot0._shake:Find((slot2 and slot6 == ShipRarity.SSR and "half_nation") or "nation")
 
-	if not slot13(slot14 .. slot15 .. slot16) then
-		warning("找不到印花, shipConfigId: " .. slot1.configId)
-		setActive(slot12, false)
+	if slot6 == 16 then
+		setActive(slot0.nationTF:Find(nation2print(slot3.nationality)), true)
+	elseif not LoadSprite("prints/" .. nation2print(slot3.nationality) .. ((slot2 and "") or "_1")) then
+		warning("找不到印花, shipConfigId: " .. slot0._shipVO.configId)
 	else
-		rtf(slot12).pivot = getSpritePivot(slot13)
+		rtf(slot0.nationTF).pivot = getSpritePivot(slot12)
 
-		setImageSprite(slot12, slot13, true)
-		setActive(slot12, true)
+		setImageSprite(slot0.nationTF, slot12, true)
 	end
 
-	LoadImageSpriteAsync("shiprarity/" .. ((slot2 and "1") or "") .. slot6, slot0._shake:Find("rarity/type"), true)
-	setActive(slot12, false)
+	slot0.rarityTF = slot0._shake:Find((slot2 and slot6 == ShipRarity.SSR and "special_rarity") or "rarity")
+
+	if slot2 and slot6 == ShipRarity.SSR then
+	else
+		slot0.rarityTF.localPosition = (slot2 and Vector3(368, 0, 0)) or Vector3(368, 49, 0)
+		slot0.rarityType = slot0._shake:Find("rarity/type")
+
+		LoadImageSpriteAsync("shiprarity/" .. ((slot2 and "1") or "") .. slot6, slot0.rarityType, true)
+	end
+
+	setActive(slot0.nationTF, false)
 	setActive(slot0.rarityTF, false)
 	setActive(slot0._shade, true)
 
 	slot0.inAnimating = true
 
 	LeanTween.delayedCall(0.5, System.Action(function ()
-		setActive(setActive, true)
-		setActive(setActive.rarityTF, true)
-		setActive.rarityTF:starsAnimation()
+		setActive(slot0.nationTF, true)
+		setActive(slot0.rarityTF, true)
+		setActive:starsAnimation()
 	end))
 
-	slot17 = slot0._shake:Find("ship_type"):Find("stars/startpl")
+	slot12 = slot0._shake:Find("ship_type")
+	slot14 = slot12:Find("stars/startpl")
 
-	setText(slot18, slot0._shipVO:getConfig("english_name"))
+	setText(slot15, slot0._shipVO:getConfig("english_name"))
 
-	slot20 = slot0._shipVO:getStar()
+	slot17 = slot0._shipVO:getStar()
 
-	for slot25 = slot15:Find("stars").childCount, slot0._shipVO:getMaxStar() - 1, 1 do
-		cloneTplTo(slot17, slot16)
+	for slot22 = slot12:Find("stars").childCount, slot0._shipVO:getMaxStar() - 1, 1 do
+		cloneTplTo(slot14, slot13)
 	end
 
-	slot22 = slot21 - slot20
+	slot19 = slot18 - slot17
 
-	for slot26 = 0, slot16.childCount - 1, 1 do
-		slot16:GetChild(slot26).gameObject:SetActive(slot26 < slot21)
-		SetActive(slot27:Find("star"), slot22 <= slot26)
-		SetActive(slot27:Find("empty"), slot26 < slot22)
+	for slot23 = 0, slot13.childCount - 1, 1 do
+		slot13:GetChild(slot23).gameObject:SetActive(slot23 < slot18)
+		SetActive(slot24:Find("star"), slot19 <= slot23)
+		SetActive(slot24:Find("empty"), slot23 < slot19)
 	end
 
-	slot23 = slot0._shipVO:getConfigTable()
-	findTF(slot15, "type_bg/type"):GetComponent(typeof(Image)).sprite = GetSpriteFromAtlas("shiptype", tostring(slot0._shipVO:getShipType()))
+	slot20 = slot0._shipVO:getConfigTable()
+	findTF(slot12, "type_bg/type"):GetComponent(typeof(Image)).sprite = GetSpriteFromAtlas("shiptype", tostring(slot0._shipVO:getShipType()))
 
 	slot0._shipType:SetNativeSize()
-	setText(slot0:findTF("name_bg/Text", slot15), slot0._shipVO:getName())
-	setActive(slot0.commanderIcon, slot1:hasCommander())
+	setText(slot0:findTF("name_bg/Text", slot12), slot0._shipVO:getName())
+	setActive(slot0.commanderIcon, slot0._shipVO:hasCommander())
 
-	if slot1.hasCommander() then
-		setImageSprite(slot0:findTF("icon", slot0.commanderIcon), LoadSprite("QIcon/" .. getProxy(CommanderProxy):getCommanderById(slot1:getCommander()):getPainting()), true)
+	if slot0._shipVO.hasCommander() then
+		setImageSprite(slot0:findTF("icon", slot0.commanderIcon), LoadSprite("QIcon/" .. getProxy(CommanderProxy):getCommanderById(slot0._shipVO:getCommander()):getPainting()), true)
 	end
 
 	if not slot0.rarityEffect[slot6] then
@@ -297,7 +299,7 @@ function slot0.switch2Property(slot0)
 	LeanTween.move(rtf(slot1), Vector3(0, 0, 0), 0.3)
 	LeanTween.move(rtf(slot0._paintingTF), Vector3(-59, 21, 0), 0.2)
 	setActive(slot0.rarityTF, false)
-	setActive(slot0._shake:Find("nation"), false)
+	setActive(slot0.nationTF, false)
 	onButton(slot0, slot0._shake:Find("right_panel/qr_btn"), function ()
 		if not slot0.isLoadBg then
 			return
@@ -633,7 +635,7 @@ end
 
 function slot0.willExit(slot0)
 	if slot0.designBg then
-		PoolMgr.GetInstance():ReturnUI("raritydesign5", slot0.designBg)
+		PoolMgr.GetInstance():ReturnUI("raritydesign" .. slot0._shipVO:getRarity(), slot0.designBg)
 	end
 
 	for slot4, slot5 in ipairs(slot0.rarityEffect) do

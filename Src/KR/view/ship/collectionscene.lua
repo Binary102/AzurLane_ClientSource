@@ -11,7 +11,7 @@ slot0.ShipIndex = {
 	display = {
 		index = IndexConst.FlagRange2Bits(IndexConst.IndexAll, IndexConst.IndexOther),
 		camp = IndexConst.FlagRange2Bits(IndexConst.CampAll, IndexConst.CampOther),
-		rarity = IndexConst.FlagRange2Bits(IndexConst.RarityAll, IndexConst.Rarity4)
+		rarity = IndexConst.FlagRange2Bits(IndexConst.RarityAll, IndexConst.Rarity5)
 	},
 	index = IndexConst.Flags2Bits({
 		IndexConst.IndexAll

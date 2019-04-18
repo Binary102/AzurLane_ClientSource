@@ -3584,6 +3584,102 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[13012] = {
+		display = "시제형 457mm 연장포 MKA T0설계도 ",
+		rarity = 5,
+		type = 9,
+		name = "시제형 457mm 연장포 MKA T0설계도 ",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 13012,
+		icon = "Equips/14500",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[13013] = {
+		display = "시제형 406mm SKC 연장포 T0설계도 ",
+		rarity = 4,
+		type = 9,
+		name = "시제형 406mm SKC 연장포 T0설계도 ",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 13013,
+		icon = "Equips/44200",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[13014] = {
+		display = "시제형 3연장 152mm 양용포 Mk17 T0설계도 ",
+		rarity = 4,
+		type = 9,
+		name = "시제형 3연장 152mm 양용포 Mk17 T0설계도 ",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 13014,
+		icon = "Equips/12200",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[13015] = {
+		display = "시제형 5식 40mm 고사기관포 T0설계도 ",
+		rarity = 4,
+		type = 9,
+		name = "시제형 5식 40mm 고사기관포 T0설계도 ",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 13015,
+		icon = "Equips/36700",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[13016] = {
+		display = "시제형 3연장 310mm 포 T0설계도 ",
+		rarity = 4,
+		type = 9,
+		name = "시제형 3연장 310mm 포 T0설계도 ",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 13016,
+		icon = "Equips/33100",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[13017] = {
+		display = "2연장 37mm 고사포 Mle1936 T0설계도 ",
+		rarity = 4,
+		type = 9,
+		name = "2연장 37mm 고사포 Mle1936 T0설계도 ",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 13017,
+		icon = "Equips/50600",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[15001] = {
 		display = "함선을 퇴역시키는 것으로 얻을 수 있는 훈장, 본부에 전력 지원을 요청하는 데에 사용할 수 있다.",
 		rarity = 3,
@@ -11473,6 +11569,166 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[42010] = {
+		display = "스페셜 프로젝트 함선 「시애틀」, 「조지아」, 「키타카제」, 「가스코뉴」의 강화 유닛을 선택하여 획득할 수 있습니다.",
+		rarity = 4,
+		type = 13,
+		name = "지향형 강화 유닛 - 제2기",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 42010,
+		icon = "Props/42010",
+		display_icon = {
+			{
+				2,
+				42011,
+				1
+			},
+			{
+				2,
+				42012,
+				1
+			},
+			{
+				2,
+				42013,
+				1
+			},
+			{
+				2,
+				42016,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[42011] = {
+		display = "유니온 순양함 '시애틀'의 강화 유닛.\n<color=#A9F548> 」개발 완료 후, 「개발 도크」에서 「시애틀」의 성능을 강화할 수 있다.</color>",
+		rarity = 4,
+		type = 12,
+		name = "지향형 강화 유닛 「시애틀」",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 42011,
+		icon = "Props/42011",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[42012] = {
+		display = "유니온 전함 「조지아」의 강화 유닛.\n<color=#A9F548>「조지아」개발 완료 후, 「개발 도크」에서 「조지아」의 성능을 강화할 수 있다.</color>",
+		rarity = 4,
+		type = 12,
+		name = "지향형 강화 유닛 「조지아」",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 42012,
+		icon = "Props/42012",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[42013] = {
+		display = "사쿠라 엠파이어 구축함 「키타카제」의 강화 유닛.\n<color=#A9F548>「키타카제」개발 완료 후, 「개발 도크」에서 「키타카제」의 성능을 강화할 수 있다.</color>",
+		rarity = 4,
+		type = 12,
+		name = "지향형 강화 유닛 「키타카제」",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 42013,
+		icon = "Props/42013",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[42014] = {
+		display = "사쿠라 엠파이어 장갑순양함 「아즈마」의 강화 유닛.\n<color=#A9F548>「아즈마」개발 완료 후, 「개발 도크」에서 「아즈마」의 성능을 강화할 수 있다.</color>",
+		rarity = 5,
+		type = 12,
+		name = "지향형 강화 유닛 「아즈마」",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 42014,
+		icon = "Props/42014",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[42015] = {
+		display = "메탈 블러드 전함 「프리드리히 데어 그로세」의 강화 유닛.\n<color=#A9F548>「프리드리히 데어 그로세」개발 완료 후, 「개발 도크」에서 「프리드리히 데어 그로세」의 성능을 강화할 수 있다.</color>",
+		rarity = 5,
+		type = 12,
+		name = "지향형 강화 유닛 「프리드리히 데어 그로세」",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 42015,
+		icon = "Props/42015",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[42016] = {
+		display = "비시아 전함 「가스코뉴」의 강화 유닛.\n<color=#A9F548>「가스코뉴」개발 완료 후, 「개발 도크」에서 「가스코뉴」의 성능을 강화할 수 있다.</color>",
+		rarity = 4,
+		type = 12,
+		name = "지향형 강화 유닛 「가스코뉴」",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 42016,
+		icon = "Props/42016",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[42017] = {
+		display = "스페셜 프로젝트 함선 「아즈마」, 「프리드리히 데어 그로세」의 강화 유닛을 선택하여 획득할 수 있습니다.",
+		rarity = 5,
+		type = 13,
+		name = "상급 지향형 강화 유닛 - 제2기",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 42017,
+		icon = "Props/42017",
+		display_icon = {
+			{
+				2,
+				42014,
+				1
+			},
+			{
+				2,
+				42015,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
 	[50001] = {
 		display = "산소가 충전되어 있는 콜라. 독특한 맛으로, 아마 지휘관은 마실 수 없다.",
 		rarity = 2,
@@ -11861,6 +12117,125 @@ pg.item_data_statistics = {
 		id = 52004,
 		icon = "Props/55000",
 		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[52011] = {
+		display = "랜덤으로 하기 강화 유닛을 획득할 수 있습니다.",
+		rarity = 4,
+		type = 99,
+		name = "강화 유닛 (랜덤)",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 52011,
+		icon = "Props/52001",
+		display_icon = {
+			{
+				2,
+				42014,
+				1
+			},
+			{
+				2,
+				42015,
+				1
+			},
+			{
+				2,
+				42011,
+				1
+			},
+			{
+				2,
+				42012,
+				1
+			},
+			{
+				2,
+				42013,
+				1
+			},
+			{
+				2,
+				42016,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[52012] = {
+		display = "랜덤으로 하기 장비 설계도를 획득할 수 있습니다.",
+		rarity = 4,
+		type = 99,
+		name = "장비 설계도 (랜덤)",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 52012,
+		icon = "Props/55000",
+		display_icon = {
+			{
+				2,
+				13012,
+				1
+			},
+			{
+				2,
+				13000,
+				1
+			},
+			{
+				2,
+				13002,
+				1
+			},
+			{
+				2,
+				13009,
+				1
+			},
+			{
+				2,
+				13010,
+				1
+			},
+			{
+				2,
+				13011,
+				1
+			},
+			{
+				2,
+				13013,
+				1
+			},
+			{
+				2,
+				13014,
+				1
+			},
+			{
+				2,
+				13015,
+				1
+			},
+			{
+				2,
+				13016,
+				1
+			},
+			{
+				2,
+				13017,
+				1
+			}
+		},
 		price = {},
 		index = {}
 	},
@@ -53433,6 +53808,12 @@ pg.item_data_statistics = {
 		13009,
 		13010,
 		13011,
+		13012,
+		13013,
+		13014,
+		13015,
+		13016,
+		13017,
 		15001,
 		15002,
 		15003,
@@ -53836,6 +54217,14 @@ pg.item_data_statistics = {
 		42004,
 		42005,
 		42006,
+		42010,
+		42011,
+		42012,
+		42013,
+		42014,
+		42015,
+		42016,
+		42017,
 		50001,
 		50002,
 		50003,
@@ -53846,6 +54235,8 @@ pg.item_data_statistics = {
 		52002,
 		52003,
 		52004,
+		52011,
+		52012,
 		53000,
 		53010,
 		53011,

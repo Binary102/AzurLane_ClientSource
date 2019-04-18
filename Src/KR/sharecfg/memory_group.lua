@@ -60,6 +60,20 @@ pg.memory_group = {
 			28
 		}
 	},
+	[98] = {
+		title = "「용골편찬」오픈 ",
+		type = 1,
+		id = 98,
+		icon = "title_main",
+		memories = {
+			716,
+			717,
+			718,
+			719,
+			720,
+			721
+		}
+	},
 	[99] = {
 		title = "지휘냥, 등장!",
 		type = 1,
@@ -79,7 +93,8 @@ pg.memory_group = {
 		icon = "title_main",
 		memories = {
 			299,
-			300
+			300,
+			715
 		}
 	},
 	[101] = {
@@ -1232,6 +1247,7 @@ pg.memory_group = {
 		2,
 		3,
 		4,
+		98,
 		99,
 		100,
 		101,

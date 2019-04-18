@@ -5,23 +5,17 @@ slot0.PAGE_EXCHANGE = 3
 slot0.PAGE_UNSEAM = 4
 slot0.PROJECTS = {
 	SPECIAL = "special",
+	ACTIVITY = "new",
 	HEAVY = "heavy",
-	LIGHT = "light",
-	ACTIVITY = {
-		"new",
-		"new1",
-		"new2"
-	}
+	LIGHT = "light"
 }
 
 function slot0.getCreateId(slot0, slot1)
-	for slot5, slot6 in ipairs(slot0.PROJECTS.ACTIVITY) do
-		if slot1 == slot6 then
-			return slot0.activity[slot5]:getConfig("config_id")
+	if slot1 == slot0.PROJECTS.ACTIVITY then
+		if slot0.activity and not slot0.activity:isEnd() then
+			return slot0.activity:getConfig("config_id")
 		end
-	end
-
-	if slot1 == slot0.PROJECTS.LIGHT then
+	elseif slot1 == slot0.PROJECTS.LIGHT then
 		return 2
 	elseif slot1 == slot0.PROJECTS.HEAVY then
 		return 3
@@ -40,33 +34,27 @@ end
 function slot0.setActivity(slot0, slot1)
 	slot0.activity = slot1
 
-	for slot5 = #slot0.activityTimer, 1, -1 do
-		slot0:removeActTimer(slot5)
-	end
-
 	slot0:removeActTimer()
 
-	for slot5, slot6 in ipairs(slot0.activity) do
-		if slot6 and not slot6:isEnd() then
-			if slot0.curProjectName == slot0.PROJECTS.ACTIVITY[slot5] then
-				slot0:switchProject(slot0.PROJECTS.ACTIVITY[slot5])
-			end
-
-			slot0.activityTimer[slot5] = Timer.New(function ()
-				slot0:removeActTimer(slot0)
-				slot0.removeActTimer:emit(BuildShipMediator.ON_UPDATE_ACT)
-			end, slot6.stopTime - pg.TimeMgr.GetInstance():GetServerTime(), 1)
-
-			slot0.activityTimer[slot5]:Start()
+	if slot0.activity and not slot0.activity:isEnd() then
+		if slot0.curProjectName == slot0.PROJECTS.ACTIVITY then
+			slot0:switchProject(slot0.PROJECTS.ACTIVITY)
 		end
+
+		slot0.activityTimer = Timer.New(function ()
+			slot0:removeActTimer()
+			slot0.removeActTimer:emit(BuildShipMediator.ON_UPDATE_ACT)
+		end, slot0.activity.stopTime - pg.TimeMgr.GetInstance():GetServerTime(), 1)
+
+		slot0.activityTimer:Start()
 	end
 end
 
-function slot0.removeActTimer(slot0, slot1)
-	if slot0.activityTimer[slot1] then
-		slot0.activityTimer[slot1]:Stop()
+function slot0.removeActTimer(slot0)
+	if slot0.activityTimer then
+		slot0.activityTimer:Stop()
 
-		slot0.activityTimer[slot1] = nil
+		slot0.activityTimer = nil
 	end
 end
 
@@ -103,8 +91,7 @@ function slot0.init(slot0)
 	slot0._guiderLoaded = true
 	slot0.backBtn = slot0:findTF("bg/blur_container/top/back")
 	slot0.togglesPanel = slot0:findTF("bg/blur_container/left_length/toggles")
-	slot0.projectTogglesPnael = slot0:findTF("bg/frame/projectRect/projects")
-	slot0.projectRectCom = slot0:findTF("bg/frame/projectRect"):GetComponent(typeof(ScrollRect))
+	slot0.projectTogglesPnael = slot0:findTF("bg/frame/projects")
 	slot0.projectBg = slot0:findTF("bg/frame/painting"):GetComponent(typeof(Image))
 	slot0.itemsPanel = slot0:findTF("bg/frame/painting/items_bg")
 	slot0.blurContainer = slot0:findTF("bg/blur_container")
@@ -133,8 +120,6 @@ function slot0.init(slot0)
 
 	slot0.materialCfg = pg.ship_data_create_material
 	slot0.patingTF = slot0:findTF("bg/painting")
-	slot0.activity = {}
-	slot0.activityTimer = {}
 end
 
 function slot0.uiStartAnimating(slot0)
@@ -290,92 +275,35 @@ function slot0.initBuildPanel(slot0)
 end
 
 function slot0.updateActivityBuildPage(slot0)
-	slot1 = nil
-
-	for slot5, slot6 in ipairs(slot0.activity) do
-		setActive(slot0.projectToggles[slot0.PROJECTS.ACTIVITY[slot5]], slot6 and not slot6:isEnd())
-
-		if slot6 and not slot6.isEnd() and activityIndex ~= nil then
-			activityIndex = slot5
-		end
-	end
-
-	if not activityIndex then
+	if slot0.curProjectName == slot0.PROJECTS.ACTIVITY then
 		triggerToggle(slot0.projectToggles[slot0.PROJECTS.LIGHT], true)
 	end
-end
 
-function slot0.initToggle(slot0, slot1, slot2, slot3)
-	slot4 = nil
-
-	if slot2 then
-		cloneTplTo(slot0.projectTogglesPnael:Find("new"), slot0.projectTogglesPnael, slot1):SetSiblingIndex(slot3 - 1)
-	else
-		slot4 = slot0.projectTogglesPnael:Find(slot1)
-	end
-
-	slot0.projectToggles[slot1] = slot4
-
-	onToggle(slot0, slot4, function (slot0)
-		if slot0 then
-			slot1 = false
-
-			for slot5, slot6 in ipairs(slot0.activity) do
-				slot7 = slot6 and not slot6:isEnd()
-
-				if slot1 == slot2.PROJECTS.ACTIVITY[slot5] and not slot7 then
-					setActive(slot3, false)
-
-					slot1 = true
-				end
-			end
-
-			if not slot1 then
-				slot0:switchProject(slot1)
-			end
-		end
-	end, SFX_PANEL)
+	setActive(slot0.projectToggles[slot0.PROJECTS.ACTIVITY], slot0.activity and not slot0.activity:isEnd())
 end
 
 function slot0.initProjectToggles(slot0)
 	slot0.projectToggles = {}
 
 	for slot4, slot5 in pairs(slot0.PROJECTS) do
-		if type(slot5) == "table" then
-			for slot9, slot10 in ipairs(slot5) do
-				slot0:initToggle(slot10, slot9 > 1, slot9)
+		slot0.projectToggles[slot5] = slot0.projectTogglesPnael:Find(slot5)
+
+		onToggle(slot0, slot0.projectTogglesPnael.Find(slot5), function (slot0)
+			if slot0 then
+				slot0:switchProject(slot0.switchProject)
 			end
-		else
-			slot0:initToggle(slot5, false)
-		end
+		end, SFX_PANEL)
 	end
 
-	for slot4, slot5 in ipairs(slot0.PROJECTS.ACTIVITY) do
-		setActive(slot0.projectToggles[slot0.PROJECTS.ACTIVITY[slot4]], slot0.activity[slot4])
-	end
+	setActive(slot0.projectToggles[slot0.PROJECTS.ACTIVITY], slot0.activity)
 
 	if pg.GuideMgr2:GetInstance().ENABLE_GUIDE then
 		slot0.projectName = slot0.contextData.projectName or slot0.PROJECTS.LIGHT
-	elseif #slot0.activity > 0 then
-		slot0.projectName = slot0.PROJECTS.ACTIVITY[1]
 	else
-		slot1 = false
-
-		for slot5, slot6 in ipairs(slot0.PROJECTS.ACTIVITY) do
-			if slot0.projectName == slot6 then
-				slot0.projectName = slot0.PROJECTS.HEAVY
-				slot1 = true
-			end
-		end
-
-		if not slot1 then
-			slot0.projectName = BuildShipScene.projectName or slot0.contextData.projectName or (slot0.activity and slot0.PROJECTS.ACTIVITY) or slot0.PROJECTS.HEAVY
-		end
+		slot0.projectName = BuildShipScene.projectName or slot0.contextData.projectName or (slot0.activity and slot0.PROJECTS.ACTIVITY) or slot0.PROJECTS.HEAVY
 	end
 
 	triggerToggle(slot0.projectToggles[slot0.projectName], true)
-
-	slot0.projectRectCom.horizontalNormalizedPosition = 0
 end
 
 function slot0.notifacation(slot0, slot1)
@@ -477,15 +405,7 @@ function slot0.showBuildMsgBox(slot0, slot1)
 		print("buidId：" .. slot0.buildId .. "-- build count : " .. slot1.buildShipCount)
 
 		if slot2.type == slot3.BUILD_TYPE_ACTIVITY then
-			slot0 = nil
-
-			for slot4, slot5 in ipairs(slot1.PROJECTS.ACTIVITY) do
-				if slot5 == slot1.curProjectName then
-					slot0 = slot1.activity[slot4].id
-				end
-			end
-
-			slot1:emit(BuildShipMediator.ACT_ON_BUILD, slot0, slot0.buildId, slot1.buildShipCount)
+			slot1:emit(BuildShipMediator.ACT_ON_BUILD, slot1.activity.id, slot0.buildId, slot1.buildShipCount)
 		elseif slot2.type == slot3.BUILD_TYPE_NORMAL then
 			slot1:emit(BuildShipMediator.ON_BUILD, slot0.buildId, slot1.buildShipCount)
 		end

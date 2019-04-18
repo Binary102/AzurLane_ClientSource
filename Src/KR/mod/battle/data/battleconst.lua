@@ -282,5 +282,10 @@ ys.Battle.BattleConst.SubAidFlag = {
 	AID_EMPTY = -1,
 	OIL_EMPTY = -2
 }
+ys.Battle.BattleConst.ManualWeaponIndex = {
+	CALIBRATION = 1,
+	TORPEDO = 2,
+	AIR_ASSIST = 3
+}
 
 return

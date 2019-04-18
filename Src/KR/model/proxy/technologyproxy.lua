@@ -6,6 +6,8 @@ slot0.BLUEPRINT_UPDATED = "TechnologyProxy:BLUEPRINT_UPDATED"
 slot0.REFRESH_UPDATED = "TechnologyProxy:REFRESH_UPDATED"
 
 function slot0.register(slot0)
+	slot0.tendency = {}
+
 	slot0:on(63000, function (slot0)
 		slot0:updateTechnologys(slot0)
 
@@ -16,7 +18,8 @@ function slot0.register(slot0)
 
 	_.each(pg.ship_data_blueprint.all, function (slot0)
 		slot0.bluePrintData[ShipBluePrint.New({
-			id = slot0
+			id = slot0,
+			version = pg.ship_data_blueprint[slot0].blueprint_version
 		}).id] = ShipBluePrint.New()
 	end)
 	slot0:on(63100, function (slot0)
@@ -26,6 +29,29 @@ function slot0.register(slot0)
 
 		slot0.coldTime = slot0.cold_time or 0
 	end)
+end
+
+function slot0.setVersion(slot0, slot1)
+	PlayerPrefs.SetInt("technology_version", slot1)
+	PlayerPrefs.Save()
+end
+
+function slot0.getVersion(slot0)
+	if not PlayerPrefs.HasKey("technology_version") then
+		slot0:setVersion(1)
+
+		return 1
+	else
+		return PlayerPrefs.GetInt("technology_version")
+	end
+end
+
+function slot0.setTendency(slot0, slot1, slot2)
+	slot0.tendency[slot1] = slot2
+end
+
+function slot0.getTendency(slot0, slot1)
+	return slot0.tendency[slot1]
 end
 
 function slot0.updateBlueprintStates(slot0)
@@ -54,8 +80,16 @@ end
 function slot0.updateTechnologys(slot0, slot1)
 	slot0.data = {}
 
-	for slot5, slot6 in ipairs(slot1.tech_list) do
-		slot0:addTechnology(Technology.New(slot6))
+	for slot5, slot6 in ipairs(slot1.refresh_list) do
+		slot0.tendency[slot6.id] = slot6.target
+
+		for slot10, slot11 in ipairs(slot6.technologys) do
+			slot0:addTechnology(Technology.New({
+				id = slot11.id,
+				time = slot11.time,
+				pool_id = slot6.id
+			}))
+		end
 	end
 end
 

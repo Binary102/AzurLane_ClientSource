@@ -6,7 +6,7 @@ function slot0.execute(slot0, slot1)
 	slot5 = slot1:getBody().stageId
 	slot7 = pg.battle_cost_template[slot1.getBody().system]
 
-	if slot1:getBody().system == SYSTEM_PROLOGUE or (slot6 == SYSTEM_PERFORM and slot2.memory) then
+	if slot1:getBody().system == SYSTEM_PROLOGUE or slot6 == SYSTEM_SIMULATION or (slot6 == SYSTEM_PERFORM and slot2.memory) then
 		slot0:sendNotification(GAME.FINISH_STAGE_DONE, {
 			system = slot6
 		})
@@ -123,7 +123,7 @@ function slot0.execute(slot0, slot1)
 
 			slot13 = 0
 			slot14 = 0
-		elseif slot6 == SYSTEM_PERFORM then
+		elseif slot6 == SYSTEM_PERFORM or slot6 == SYSTEM_SIMULATION then
 			slot15 = {}
 			slot13 = 0
 			slot14 = 0
@@ -208,7 +208,7 @@ function slot0.execute(slot0, slot1)
 			enemy_info = slot19
 		}, 40004, function (slot0)
 			if slot0.result == 0 or slot0.result == 1030 then
-				if slot0 == SYSTEM_PERFORM then
+				if slot0 == SYSTEM_PERFORM or slot0 == SYSTEM_SIMULATION then
 					slot1:sendNotification(GAME.FINISH_STAGE_DONE, {
 						system = slot0,
 						exitCallback = slot2.exitCallback

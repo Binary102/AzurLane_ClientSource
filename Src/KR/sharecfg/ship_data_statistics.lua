@@ -102,6 +102,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -217,6 +222,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -342,6 +352,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -459,6 +474,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -584,6 +604,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -705,6 +730,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -822,6 +852,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -947,6 +982,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -1066,6 +1106,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -1189,6 +1234,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -1306,6 +1356,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -1431,6 +1486,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -1550,6 +1610,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -1673,6 +1738,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -1790,6 +1860,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -1917,6 +1992,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -2038,6 +2118,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -2163,6 +2248,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -2282,6 +2372,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -2407,6 +2502,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -2526,6 +2626,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -2649,6 +2754,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -2766,6 +2876,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -2891,6 +3006,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -3010,6 +3130,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -3133,6 +3258,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -3250,6 +3380,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -3375,6 +3510,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -3494,6 +3634,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -3617,6 +3762,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -3734,6 +3884,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -3861,6 +4016,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -3982,6 +4142,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -4107,6 +4272,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -4226,6 +4396,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -4353,6 +4528,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -4474,6 +4654,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -4599,6 +4784,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -4718,6 +4908,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -4845,6 +5040,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -4966,6 +5166,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -5091,6 +5296,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -5210,6 +5420,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -5337,6 +5552,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -5458,6 +5678,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -5583,6 +5808,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -5702,6 +5932,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -5829,6 +6064,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -5950,6 +6190,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -6075,6 +6320,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -6194,6 +6444,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -6321,6 +6576,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -6442,6 +6702,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -6567,6 +6832,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -6686,6 +6956,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -6811,6 +7086,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -6930,6 +7210,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -7053,6 +7338,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -7170,6 +7460,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -7295,6 +7590,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -7414,6 +7714,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -7537,6 +7842,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -7654,6 +7964,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -7779,6 +8094,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -7898,6 +8218,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -8021,6 +8346,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -8138,6 +8468,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -8263,6 +8598,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -8382,6 +8722,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -8505,6 +8850,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -8622,6 +8972,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -8747,6 +9102,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -8866,6 +9226,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -8989,6 +9354,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -9106,6 +9476,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -9231,6 +9606,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -9350,6 +9730,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -9473,6 +9858,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -9590,6 +9980,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -9717,6 +10112,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -9838,6 +10238,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -9963,6 +10368,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -10082,6 +10492,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -10209,6 +10624,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -10330,6 +10750,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -10455,6 +10880,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -10574,6 +11004,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -10701,6 +11136,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -10822,6 +11262,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -10947,6 +11392,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -11066,6 +11516,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -11193,6 +11648,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -11314,6 +11774,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -11439,6 +11904,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -11558,6 +12028,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -11685,6 +12160,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -11806,6 +12286,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -11931,6 +12416,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -12050,6 +12540,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -12175,6 +12670,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -12294,6 +12794,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -12417,6 +12922,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -12534,6 +13044,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -12659,6 +13174,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -12778,6 +13298,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -12901,6 +13426,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -13018,6 +13548,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -13145,6 +13680,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -13266,6 +13806,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -13391,6 +13936,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -13510,6 +14060,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -13637,6 +14192,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -13758,6 +14318,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -13883,6 +14448,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -14004,6 +14574,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -14132,6 +14707,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -14254,6 +14834,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -14380,6 +14965,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -14500,6 +15090,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -14628,6 +15223,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -14750,6 +15350,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -14876,6 +15481,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -14995,6 +15605,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -15121,6 +15736,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -15240,6 +15860,11 @@ pg.ship_data_statistics = {
 		},
 		base_list = {
 			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
 			1,
 			1
 		},
@@ -15365,6 +15990,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -15483,6 +16113,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -15609,6 +16244,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -15728,6 +16368,11 @@ pg.ship_data_statistics = {
 		},
 		base_list = {
 			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
 			1,
 			1
 		},
@@ -15853,6 +16498,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -15971,6 +16621,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -16097,6 +16752,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -16216,6 +16876,11 @@ pg.ship_data_statistics = {
 		},
 		base_list = {
 			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
 			1,
 			1
 		},
@@ -16341,6 +17006,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -16460,6 +17130,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -16588,6 +17263,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -16710,6 +17390,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -16836,6 +17521,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -16956,6 +17646,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -17084,6 +17779,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -17206,6 +17906,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -17332,6 +18037,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -17452,6 +18162,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -17580,6 +18295,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -17702,6 +18422,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -17828,6 +18553,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -17947,6 +18677,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -18075,6 +18810,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -18196,6 +18936,11 @@ pg.ship_data_statistics = {
 		},
 		base_list = {
 			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
 			1,
 			1
 		},
@@ -18323,6 +19068,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -18443,6 +19193,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -18571,6 +19326,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -18695,6 +19455,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -18816,6 +19581,11 @@ pg.ship_data_statistics = {
 		},
 		base_list = {
 			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
 			1,
 			1
 		},
@@ -18944,6 +19714,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -19064,6 +19839,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -19192,6 +19972,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -19316,6 +20101,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -19435,6 +20225,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -19561,6 +20356,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -19680,6 +20480,11 @@ pg.ship_data_statistics = {
 		},
 		base_list = {
 			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
 			1,
 			1
 		},
@@ -19805,6 +20610,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -19923,6 +20733,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -20049,6 +20864,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -20168,6 +20988,11 @@ pg.ship_data_statistics = {
 		},
 		base_list = {
 			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
 			1,
 			1
 		},
@@ -20293,6 +21118,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -20411,6 +21241,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -20539,6 +21374,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -20660,6 +21500,11 @@ pg.ship_data_statistics = {
 		},
 		base_list = {
 			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
 			1,
 			1
 		},
@@ -20787,6 +21632,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -20907,6 +21757,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -21035,6 +21890,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -21159,6 +22019,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -21280,6 +22145,11 @@ pg.ship_data_statistics = {
 		},
 		base_list = {
 			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
 			1,
 			1
 		},
@@ -21408,6 +22278,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -21528,6 +22403,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -21656,6 +22536,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -21778,6 +22663,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -21904,6 +22794,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -22024,6 +22919,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -22152,6 +23052,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -22274,6 +23179,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -22400,6 +23310,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -22518,6 +23433,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -22643,6 +23563,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -22761,6 +23686,11 @@ pg.ship_data_statistics = {
 		depth_charge_list = {},
 		base_list = {
 			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
 			1,
 			1
 		},
@@ -22885,6 +23815,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -23002,6 +23937,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -23127,6 +24067,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -23245,6 +24190,11 @@ pg.ship_data_statistics = {
 		depth_charge_list = {},
 		base_list = {
 			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
 			1,
 			1
 		},
@@ -23369,6 +24319,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -23486,6 +24441,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -23611,6 +24571,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -23729,6 +24694,11 @@ pg.ship_data_statistics = {
 		depth_charge_list = {},
 		base_list = {
 			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
 			1,
 			1
 		},
@@ -23853,6 +24823,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -23970,6 +24945,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -24095,6 +25075,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -24213,6 +25198,11 @@ pg.ship_data_statistics = {
 		depth_charge_list = {},
 		base_list = {
 			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
 			1,
 			1
 		},
@@ -24337,6 +25327,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -24454,6 +25449,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -24579,6 +25579,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -24697,6 +25702,11 @@ pg.ship_data_statistics = {
 		depth_charge_list = {},
 		base_list = {
 			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
 			1,
 			1
 		},
@@ -24821,6 +25831,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -24938,6 +25953,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -25063,6 +26083,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -25181,6 +26206,11 @@ pg.ship_data_statistics = {
 		depth_charge_list = {},
 		base_list = {
 			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
 			1,
 			1
 		},
@@ -25305,6 +26335,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -25422,6 +26457,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -25547,6 +26587,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -25665,6 +26710,11 @@ pg.ship_data_statistics = {
 		depth_charge_list = {},
 		base_list = {
 			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
 			1,
 			1
 		},
@@ -25789,6 +26839,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -25906,6 +26961,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -26033,6 +27093,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -26153,6 +27218,11 @@ pg.ship_data_statistics = {
 		depth_charge_list = {},
 		base_list = {
 			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
 			1,
 			1
 		},
@@ -26279,6 +27349,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -26398,6 +27473,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -26525,6 +27605,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -26645,6 +27730,11 @@ pg.ship_data_statistics = {
 		depth_charge_list = {},
 		base_list = {
 			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
 			1,
 			1
 		},
@@ -26771,6 +27861,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -26890,6 +27985,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -27017,6 +28117,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -27137,6 +28242,11 @@ pg.ship_data_statistics = {
 		depth_charge_list = {},
 		base_list = {
 			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
 			1,
 			1
 		},
@@ -27263,6 +28373,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -27382,6 +28497,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -27507,6 +28627,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -27625,6 +28750,11 @@ pg.ship_data_statistics = {
 		depth_charge_list = {},
 		base_list = {
 			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
 			1,
 			1
 		},
@@ -27749,6 +28879,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -27866,6 +29001,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -27993,6 +29133,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -28113,6 +29258,11 @@ pg.ship_data_statistics = {
 		depth_charge_list = {},
 		base_list = {
 			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
 			1,
 			1
 		},
@@ -28239,6 +29389,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -28358,6 +29513,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -28483,6 +29643,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -28602,6 +29767,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -28725,6 +29895,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -28842,6 +30017,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -28967,6 +30147,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -29086,6 +30271,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -29209,6 +30399,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -29326,6 +30521,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -29451,6 +30651,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -29570,6 +30775,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -29693,6 +30903,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -29810,6 +31025,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -29935,6 +31155,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -30054,6 +31279,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -30177,6 +31407,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -30294,6 +31529,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -30419,6 +31659,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -30538,6 +31783,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -30661,6 +31911,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -30778,6 +32033,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -30903,6 +32163,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -31022,6 +32287,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -31145,6 +32415,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -31262,6 +32537,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -31387,6 +32667,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -31506,6 +32791,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -31629,6 +32919,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -31746,6 +33041,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -31871,6 +33171,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -31990,6 +33295,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -32113,6 +33423,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -32230,6 +33545,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -32355,6 +33675,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -32474,6 +33799,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -32597,6 +33927,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -32714,6 +34049,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -32839,6 +34179,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -32958,6 +34303,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -33081,6 +34431,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -33198,6 +34553,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -33323,6 +34683,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -33442,6 +34807,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -33565,6 +34935,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -33682,6 +35057,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -33807,6 +35187,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -33926,6 +35311,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -34049,6 +35439,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -34166,6 +35561,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -34291,6 +35691,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -34410,6 +35815,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -34533,6 +35943,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -34649,6 +36064,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -34773,6 +36193,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -34891,6 +36316,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			2,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -35013,6 +36443,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -35129,6 +36564,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -35253,6 +36693,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -35371,6 +36816,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			2,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -35493,6 +36943,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -35609,6 +37064,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -35733,6 +37193,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -35851,6 +37316,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			3,
 			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -35973,6 +37443,11 @@ pg.ship_data_statistics = {
 			3,
 			2
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -36090,6 +37565,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -36215,6 +37695,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -36335,6 +37820,11 @@ pg.ship_data_statistics = {
 			2,
 			2,
 			2
+		},
+		parallel_max = {
+			1,
+			1,
+			1
 		},
 		preload_count = {
 			0,
@@ -36457,6 +37947,11 @@ pg.ship_data_statistics = {
 			3,
 			3
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -36574,6 +38069,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -36699,6 +38199,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -36819,6 +38324,11 @@ pg.ship_data_statistics = {
 			2,
 			2,
 			2
+		},
+		parallel_max = {
+			1,
+			1,
+			1
 		},
 		preload_count = {
 			0,
@@ -36941,6 +38451,11 @@ pg.ship_data_statistics = {
 			3,
 			3
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -37057,6 +38572,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -37181,6 +38701,11 @@ pg.ship_data_statistics = {
 			2,
 			2
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -37300,6 +38825,11 @@ pg.ship_data_statistics = {
 			2,
 			2,
 			2
+		},
+		parallel_max = {
+			1,
+			1,
+			1
 		},
 		preload_count = {
 			0,
@@ -37421,6 +38951,11 @@ pg.ship_data_statistics = {
 			3,
 			3
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -37538,6 +39073,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -37663,6 +39203,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -37782,6 +39327,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			2,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -37905,6 +39455,11 @@ pg.ship_data_statistics = {
 			3,
 			2
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -38022,6 +39577,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -38147,6 +39707,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -38266,6 +39831,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			2,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -38389,6 +39959,11 @@ pg.ship_data_statistics = {
 			3,
 			2
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -38506,6 +40081,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -38631,6 +40211,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -38750,6 +40335,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			2,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -38873,6 +40463,11 @@ pg.ship_data_statistics = {
 			3,
 			2
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -38990,6 +40585,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -39115,6 +40715,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -39234,6 +40839,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			2,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -39357,6 +40967,11 @@ pg.ship_data_statistics = {
 			3,
 			2
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -39474,6 +41089,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -39599,6 +41219,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -39718,6 +41343,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			2,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -39841,6 +41471,11 @@ pg.ship_data_statistics = {
 			3,
 			2
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -39958,6 +41593,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -40083,6 +41723,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -40202,6 +41847,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			2,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -40325,6 +41975,11 @@ pg.ship_data_statistics = {
 			3,
 			2
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -40441,6 +42096,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -40565,6 +42225,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -40683,6 +42348,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			2,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -40805,6 +42475,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -40922,6 +42597,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -41047,6 +42727,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -41166,6 +42851,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			2,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -41289,6 +42979,11 @@ pg.ship_data_statistics = {
 			3,
 			2
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -41406,6 +43101,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -41636,6 +43336,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -41860,6 +43565,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			2,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -42088,6 +43798,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -42310,6 +44025,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -42552,6 +44272,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -42788,6 +44513,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			2,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -43028,6 +44758,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -43266,6 +45001,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -43393,6 +45133,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -43528,6 +45273,11 @@ pg.ship_data_statistics = {
 			2,
 			2
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -43658,6 +45408,11 @@ pg.ship_data_statistics = {
 			1,
 			2,
 			2
+		},
+		parallel_max = {
+			1,
+			1,
+			1
 		},
 		preload_count = {
 			0,
@@ -43790,6 +45545,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -43907,6 +45667,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -44032,6 +45797,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -44153,6 +45923,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -44270,6 +46045,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -44395,6 +46175,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -44514,6 +46299,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -44637,6 +46427,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -44754,6 +46549,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -44879,6 +46679,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -44998,6 +46803,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -45121,6 +46931,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -45238,6 +47053,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -45363,6 +47183,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -45482,6 +47307,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -45605,6 +47435,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -45722,6 +47557,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -45847,6 +47687,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -45966,6 +47811,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -46089,6 +47939,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -46206,6 +48061,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -46331,6 +48191,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -46450,6 +48315,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -46573,6 +48443,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -46690,6 +48565,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -46815,6 +48695,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -46934,6 +48819,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -47057,6 +48947,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -47174,6 +49069,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -47299,6 +49199,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -47418,6 +49323,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -47541,6 +49451,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -47658,6 +49573,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -47783,6 +49703,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -47902,6 +49827,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -48025,6 +49955,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -48142,6 +50077,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -48267,6 +50207,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -48386,6 +50331,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -48509,6 +50459,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -48626,6 +50581,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -48751,6 +50711,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -48870,6 +50835,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -48993,6 +50963,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -49110,6 +51085,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -49235,6 +51215,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -49354,6 +51339,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -49477,6 +51467,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -49594,6 +51589,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -49719,6 +51719,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -49838,6 +51843,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -49961,6 +51971,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -50078,6 +52093,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -50205,6 +52225,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -50326,6 +52351,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -50451,6 +52481,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -50570,6 +52605,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -50697,6 +52737,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -50818,6 +52863,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -50943,6 +52993,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -51062,6 +53117,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -51187,6 +53247,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -51306,6 +53371,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -51429,6 +53499,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -51546,6 +53621,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -51671,6 +53751,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -51790,6 +53875,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -51913,6 +54003,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -52030,6 +54125,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -52155,6 +54255,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -52274,6 +54379,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -52397,6 +54507,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -52516,6 +54631,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -52644,6 +54764,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -52766,6 +54891,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -52892,6 +55022,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -53012,6 +55147,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -53140,6 +55280,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -53262,6 +55407,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -53388,6 +55538,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -53508,6 +55663,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -53636,6 +55796,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -53758,6 +55923,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -53884,6 +56054,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -54004,6 +56179,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -54132,6 +56312,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -54254,6 +56439,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -54380,6 +56570,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -54500,6 +56695,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -54628,6 +56828,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -54750,6 +56955,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -54876,6 +57086,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -54996,6 +57211,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -55124,6 +57344,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -55246,6 +57471,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -55372,6 +57602,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -55492,6 +57727,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -55620,6 +57860,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -55742,6 +57987,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -55868,6 +58118,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -55988,6 +58243,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -56116,6 +58376,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -56238,6 +58503,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -56364,6 +58634,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -56484,6 +58759,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -56612,6 +58892,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -56734,6 +59019,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -56860,6 +59150,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -56980,6 +59275,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -57108,6 +59408,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -57230,6 +59535,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -57356,6 +59666,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -57476,6 +59791,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -57604,6 +59924,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -57726,6 +60051,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -57852,6 +60182,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -57972,6 +60307,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -58100,6 +60440,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -58222,6 +60567,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -58348,6 +60698,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -58468,6 +60823,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -58596,6 +60956,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -58718,6 +61083,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -58844,6 +61214,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -58965,6 +61340,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -59094,6 +61474,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -59216,6 +61601,11 @@ pg.ship_data_statistics = {
 		},
 		base_list = {
 			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
 			1,
 			1
 		},
@@ -59344,6 +61734,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -59465,6 +61860,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -59594,6 +61994,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -59716,6 +62121,11 @@ pg.ship_data_statistics = {
 		},
 		base_list = {
 			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
 			1,
 			1
 		},
@@ -59844,6 +62254,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -59963,6 +62378,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -60090,6 +62510,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -60211,6 +62636,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -60336,6 +62766,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -60455,6 +62890,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -60582,6 +63022,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -60703,6 +63148,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -60828,6 +63278,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -60947,6 +63402,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -61074,6 +63534,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -61195,6 +63660,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -61320,6 +63790,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -61439,6 +63914,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -61566,6 +64046,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -61687,6 +64172,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -61812,6 +64302,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -61931,6 +64426,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -62058,6 +64558,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -62179,6 +64684,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -62304,6 +64814,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -62423,6 +64938,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -62550,6 +65070,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -62671,6 +65196,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -62796,6 +65326,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -62915,6 +65450,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -63042,6 +65582,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -63163,6 +65708,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -63288,6 +65838,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -63407,6 +65962,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -63534,6 +66094,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -63655,6 +66220,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -63780,6 +66350,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -63899,6 +66474,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -64026,6 +66606,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -64147,6 +66732,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -64272,6 +66862,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -64390,6 +66985,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -64515,6 +67115,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -64634,6 +67239,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -64757,6 +67367,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -64874,6 +67489,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -64999,6 +67619,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -65118,6 +67743,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -65241,6 +67871,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -65358,6 +67993,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -65483,6 +68123,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -65602,6 +68247,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -65725,6 +68375,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -65842,6 +68497,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -65967,6 +68627,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -66086,6 +68751,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -66209,6 +68879,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -66326,6 +69001,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -66451,6 +69131,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -66570,6 +69255,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -66693,6 +69383,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -66813,6 +69508,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -66930,6 +69630,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -67055,6 +69760,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -67174,6 +69884,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -67297,6 +70012,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -67414,6 +70134,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -67539,6 +70264,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -67658,6 +70388,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -67781,6 +70516,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -67898,6 +70638,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -68023,6 +70768,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -68142,6 +70892,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -68265,6 +71020,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -68382,6 +71142,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -68507,6 +71272,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -68626,6 +71396,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -68749,6 +71524,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -68865,6 +71645,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -68989,6 +71774,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -69107,6 +71897,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			2,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -69229,6 +72024,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -69345,6 +72145,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -69469,6 +72274,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -69587,6 +72397,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			2,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -69709,6 +72524,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -69825,6 +72645,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -69949,6 +72774,11 @@ pg.ship_data_statistics = {
 			1,
 			2
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -70068,6 +72898,11 @@ pg.ship_data_statistics = {
 			2,
 			2,
 			2
+		},
+		parallel_max = {
+			1,
+			1,
+			1
 		},
 		preload_count = {
 			0,
@@ -70189,6 +73024,11 @@ pg.ship_data_statistics = {
 			2,
 			4
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -70305,6 +73145,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -70429,6 +73274,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -70547,6 +73397,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			2,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -70669,6 +73524,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -70786,6 +73646,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -70911,6 +73776,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -71031,6 +73901,11 @@ pg.ship_data_statistics = {
 			2,
 			2,
 			2
+		},
+		parallel_max = {
+			1,
+			1,
+			1
 		},
 		preload_count = {
 			0,
@@ -71153,6 +74028,11 @@ pg.ship_data_statistics = {
 			3,
 			2
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -71270,6 +74150,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -71395,6 +74280,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -71515,6 +74405,11 @@ pg.ship_data_statistics = {
 			2,
 			2,
 			2
+		},
+		parallel_max = {
+			1,
+			1,
+			1
 		},
 		preload_count = {
 			0,
@@ -71637,6 +74532,11 @@ pg.ship_data_statistics = {
 			3,
 			2
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -71754,6 +74654,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -71879,6 +74784,11 @@ pg.ship_data_statistics = {
 			1,
 			2
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -71999,6 +74909,11 @@ pg.ship_data_statistics = {
 			1,
 			2,
 			2
+		},
+		parallel_max = {
+			1,
+			1,
+			1
 		},
 		preload_count = {
 			0,
@@ -72121,6 +75036,11 @@ pg.ship_data_statistics = {
 			3,
 			3
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -72238,6 +75158,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -72363,6 +75288,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -72483,6 +75413,11 @@ pg.ship_data_statistics = {
 			2,
 			2,
 			2
+		},
+		parallel_max = {
+			1,
+			1,
+			1
 		},
 		preload_count = {
 			0,
@@ -72605,6 +75540,11 @@ pg.ship_data_statistics = {
 			2,
 			2
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -72722,6 +75662,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -72847,6 +75792,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -72966,6 +75916,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -73089,6 +76044,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -73206,6 +76166,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -73331,6 +76296,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -73450,6 +76420,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -73573,6 +76548,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -73690,6 +76670,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -73815,6 +76800,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -73934,6 +76924,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -74057,6 +77052,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -74174,6 +77174,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -74301,6 +77306,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -74422,6 +77432,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -74547,6 +77562,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -74666,6 +77686,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -74793,6 +77818,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -74914,6 +77944,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -75039,6 +78074,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -75159,6 +78199,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -75287,6 +78332,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -75409,6 +78459,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -75535,6 +78590,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -75655,6 +78715,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -75783,6 +78848,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -75905,6 +78975,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -76031,6 +79106,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -76151,6 +79231,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -76279,6 +79364,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -76401,6 +79491,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -76527,6 +79622,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -76647,6 +79747,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -76772,6 +79877,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -76891,6 +80001,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -77014,6 +80129,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -77131,6 +80251,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -77256,6 +80381,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -77375,6 +80505,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -77498,6 +80633,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -77615,6 +80755,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -77740,6 +80885,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -77859,6 +81009,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -77982,6 +81137,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -78099,6 +81259,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -78224,6 +81389,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -78343,6 +81513,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -78466,6 +81641,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -78583,6 +81763,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -78708,6 +81893,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -78827,6 +82017,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -78950,6 +82145,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -79067,6 +82267,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -79192,6 +82397,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -79311,6 +82521,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -79434,6 +82649,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -79551,6 +82771,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -79676,6 +82901,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -79795,6 +83025,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -79918,6 +83153,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -80035,6 +83275,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -80160,6 +83405,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -80279,6 +83529,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -80402,6 +83657,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -80519,6 +83779,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -80644,6 +83909,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -80763,6 +84033,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -80886,6 +84161,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -81003,6 +84283,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -81128,6 +84413,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -81247,6 +84537,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -81370,6 +84665,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -81487,6 +84787,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -81612,6 +84917,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -81731,6 +85041,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -81854,6 +85169,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -81971,6 +85291,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -82096,6 +85421,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -82215,6 +85545,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -82338,6 +85673,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -82455,6 +85795,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -82580,6 +85925,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -82699,6 +86049,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -82822,6 +86177,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -82939,6 +86299,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -83064,6 +86429,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -83183,6 +86553,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -83306,6 +86681,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -83423,6 +86803,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -83548,6 +86933,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -83667,6 +87057,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -83790,6 +87185,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -83907,6 +87307,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -84032,6 +87437,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -84151,6 +87561,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -84274,6 +87689,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -84391,6 +87811,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -84516,6 +87941,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -84635,6 +88065,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -84758,6 +88193,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -84875,6 +88315,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -85000,6 +88445,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -85119,6 +88569,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -85242,6 +88697,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -85359,6 +88819,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -85484,6 +88949,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -85603,6 +89073,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -85726,6 +89201,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -85843,6 +89323,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -85968,6 +89453,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -86087,6 +89577,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -86210,6 +89705,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -86327,6 +89827,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -86452,6 +89957,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -86571,6 +90081,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -86694,6 +90209,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -86811,6 +90331,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -86936,6 +90461,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -87055,6 +90585,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -87178,6 +90713,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -87295,6 +90835,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -87420,6 +90965,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -87539,6 +91089,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -87662,6 +91217,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -87779,6 +91339,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -87904,6 +91469,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -88022,6 +91592,11 @@ pg.ship_data_statistics = {
 		},
 		base_list = {
 			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
 			1,
 			1
 		},
@@ -88146,6 +91721,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -88263,6 +91843,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -88388,6 +91973,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -88506,6 +92096,11 @@ pg.ship_data_statistics = {
 		},
 		base_list = {
 			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
 			1,
 			1
 		},
@@ -88630,6 +92225,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -88747,6 +92347,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -88872,6 +92477,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -88990,6 +92600,11 @@ pg.ship_data_statistics = {
 		},
 		base_list = {
 			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
 			1,
 			1
 		},
@@ -89114,6 +92729,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -89231,6 +92851,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -89356,6 +92981,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -89475,6 +93105,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -89598,6 +93233,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -89715,6 +93355,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -89840,6 +93485,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -89959,6 +93609,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -90082,6 +93737,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -90199,6 +93859,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -90324,6 +93989,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -90443,6 +94113,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -90566,6 +94241,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -90683,6 +94363,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -90808,6 +94493,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -90927,6 +94617,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -91050,6 +94745,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -91167,6 +94867,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -91294,6 +94999,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -91415,6 +95125,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -91540,6 +95255,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -91659,6 +95379,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -91786,6 +95511,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -91907,6 +95637,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -92032,6 +95767,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -92151,6 +95891,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -92278,6 +96023,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -92399,6 +96149,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -92524,6 +96279,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -92643,6 +96403,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -92770,6 +96535,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -92891,6 +96661,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -93016,6 +96791,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -93135,6 +96915,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -93260,6 +97045,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -93379,6 +97169,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -93502,6 +97297,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -93619,6 +97419,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -93744,6 +97549,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -93863,6 +97673,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -93986,6 +97801,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -94105,6 +97925,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -94233,6 +98058,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -94355,6 +98185,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -94481,6 +98316,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -94601,6 +98441,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -94729,6 +98574,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -94851,6 +98701,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -94977,6 +98832,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -95097,6 +98957,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -95225,6 +99090,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -95348,6 +99218,11 @@ pg.ship_data_statistics = {
 			1,
 			1,
 			2
+		},
+		parallel_max = {
+			1,
+			1,
+			1
 		},
 		preload_count = {
 			0,
@@ -95473,6 +99348,11 @@ pg.ship_data_statistics = {
 			1,
 			2
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -95593,6 +99473,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -95721,6 +99606,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -95843,6 +99733,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -95969,6 +99864,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -96089,6 +99989,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -96217,6 +100122,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -96339,6 +100249,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -96465,6 +100380,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -96585,6 +100505,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -96713,6 +100638,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -96835,6 +100765,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -96961,6 +100896,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -97081,6 +101021,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -97209,6 +101154,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -97331,6 +101281,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -97457,6 +101412,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -97577,6 +101537,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -97705,6 +101670,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -97827,6 +101797,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -97953,6 +101928,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -98072,6 +102052,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -98199,6 +102184,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -98320,6 +102310,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -98445,6 +102440,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -98564,6 +102564,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -98691,6 +102696,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -98812,6 +102822,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -98937,6 +102952,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -99056,6 +103076,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -99183,6 +103208,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -99304,6 +103334,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -99429,6 +103464,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -99548,6 +103588,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -99675,6 +103720,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -99796,6 +103846,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -99921,6 +103976,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -100040,6 +104100,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -100167,6 +104232,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -100288,6 +104358,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -100413,6 +104488,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -100532,6 +104612,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -100659,6 +104744,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -100780,6 +104870,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -100905,6 +105000,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -101024,6 +105124,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -101151,6 +105256,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -101272,6 +105382,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -101397,6 +105512,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -101516,6 +105636,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -101643,6 +105768,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -101764,6 +105894,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -101889,6 +106024,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -102008,6 +106148,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -102135,6 +106280,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -102256,6 +106406,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -102381,6 +106536,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -102500,6 +106660,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -102627,6 +106792,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -102748,6 +106918,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -102873,6 +107048,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -102992,6 +107172,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -103119,6 +107304,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -103240,6 +107430,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -103365,6 +107560,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -103483,6 +107683,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -103608,6 +107813,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -103727,6 +107937,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -103850,6 +108065,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -103967,6 +108187,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -104092,6 +108317,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -104211,6 +108441,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -104334,6 +108569,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -104451,6 +108691,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -104576,6 +108821,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -104695,6 +108945,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -104818,6 +109073,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -104935,6 +109195,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -105060,6 +109325,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -105179,6 +109449,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -105302,6 +109577,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -105418,6 +109698,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -105542,6 +109827,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -105660,6 +109950,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -105782,6 +110077,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -105899,6 +110199,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -106024,6 +110329,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -106143,6 +110453,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -106266,6 +110581,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -106383,6 +110703,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -106508,6 +110833,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -106627,6 +110957,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -106750,6 +111085,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -106867,6 +111207,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -106992,6 +111337,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -107111,6 +111461,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -107234,6 +111589,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -107351,6 +111711,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -107476,6 +111841,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -107595,6 +111965,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -107718,6 +112093,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -107835,6 +112215,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -107960,6 +112345,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -108079,6 +112469,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -108202,6 +112597,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -108319,6 +112719,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -108444,6 +112849,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -108563,6 +112973,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -108686,6 +113101,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -108802,6 +113222,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -108926,6 +113351,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -109044,6 +113474,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -109166,6 +113601,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -109283,6 +113723,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -109408,6 +113853,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -109528,6 +113978,11 @@ pg.ship_data_statistics = {
 			1,
 			2,
 			2
+		},
+		parallel_max = {
+			1,
+			1,
+			1
 		},
 		preload_count = {
 			0,
@@ -109650,6 +114105,11 @@ pg.ship_data_statistics = {
 			2,
 			2
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -109766,6 +114226,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -109890,6 +114355,11 @@ pg.ship_data_statistics = {
 			1,
 			2
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -110009,6 +114479,11 @@ pg.ship_data_statistics = {
 			2,
 			1,
 			2
+		},
+		parallel_max = {
+			1,
+			1,
+			1
 		},
 		preload_count = {
 			0,
@@ -110130,6 +114605,11 @@ pg.ship_data_statistics = {
 			3,
 			2
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -110246,6 +114726,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -110370,6 +114855,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -110488,6 +114978,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			2,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -110610,6 +115105,11 @@ pg.ship_data_statistics = {
 			2,
 			3
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -110726,6 +115226,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -110850,6 +115355,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -110969,6 +115479,11 @@ pg.ship_data_statistics = {
 			1,
 			2,
 			2
+		},
+		parallel_max = {
+			1,
+			1,
+			1
 		},
 		preload_count = {
 			0,
@@ -111090,6 +115605,11 @@ pg.ship_data_statistics = {
 			3,
 			3
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -111206,6 +115726,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -111330,6 +115855,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -111448,6 +115978,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			2,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -111570,6 +116105,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -111686,6 +116226,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -111810,6 +116355,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -111928,6 +116478,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			2,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -112050,6 +116605,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -112167,6 +116727,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -112292,6 +116857,11 @@ pg.ship_data_statistics = {
 			1,
 			2
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -112412,6 +116982,11 @@ pg.ship_data_statistics = {
 			2,
 			1,
 			2
+		},
+		parallel_max = {
+			1,
+			1,
+			1
 		},
 		preload_count = {
 			0,
@@ -112534,6 +117109,11 @@ pg.ship_data_statistics = {
 			2,
 			3
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -112651,6 +117231,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -112776,6 +117361,11 @@ pg.ship_data_statistics = {
 			1,
 			2
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -112896,6 +117486,11 @@ pg.ship_data_statistics = {
 			2,
 			1,
 			2
+		},
+		parallel_max = {
+			1,
+			1,
+			1
 		},
 		preload_count = {
 			0,
@@ -113018,6 +117613,11 @@ pg.ship_data_statistics = {
 			2,
 			3
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -113135,6 +117735,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -113260,6 +117865,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -113379,6 +117989,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			2,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -113502,6 +118117,11 @@ pg.ship_data_statistics = {
 			3,
 			2
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -113619,6 +118239,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -113744,6 +118369,11 @@ pg.ship_data_statistics = {
 			1,
 			2
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -113864,6 +118494,11 @@ pg.ship_data_statistics = {
 			2,
 			1,
 			2
+		},
+		parallel_max = {
+			1,
+			1,
+			1
 		},
 		preload_count = {
 			0,
@@ -113986,6 +118621,11 @@ pg.ship_data_statistics = {
 			2,
 			3
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -114103,6 +118743,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -114228,6 +118873,11 @@ pg.ship_data_statistics = {
 			1,
 			2
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -114348,6 +118998,11 @@ pg.ship_data_statistics = {
 			1,
 			1,
 			3
+		},
+		parallel_max = {
+			1,
+			1,
+			1
 		},
 		preload_count = {
 			0,
@@ -114470,6 +119125,11 @@ pg.ship_data_statistics = {
 			2,
 			4
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -114587,6 +119247,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -114712,6 +119377,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -114832,6 +119502,11 @@ pg.ship_data_statistics = {
 			1,
 			2,
 			2
+		},
+		parallel_max = {
+			1,
+			1,
+			1
 		},
 		preload_count = {
 			0,
@@ -114954,6 +119629,11 @@ pg.ship_data_statistics = {
 			3,
 			3
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -115071,6 +119751,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -115196,6 +119881,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -115316,6 +120006,11 @@ pg.ship_data_statistics = {
 			1,
 			2,
 			2
+		},
+		parallel_max = {
+			1,
+			1,
+			1
 		},
 		preload_count = {
 			0,
@@ -115438,6 +120133,11 @@ pg.ship_data_statistics = {
 			3,
 			3
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -115555,6 +120255,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -115797,6 +120502,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -116033,6 +120743,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			2,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -116273,6 +120988,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -116511,6 +121231,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -116737,6 +121462,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -116971,6 +121701,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -117201,6 +121936,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -117427,6 +122167,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -117665,6 +122410,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -117897,6 +122647,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			2,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -118133,6 +122888,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -118366,6 +123126,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -118484,6 +123249,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -118606,6 +123376,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -118726,6 +123501,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -118843,6 +123623,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -118978,6 +123763,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -119108,6 +123898,11 @@ pg.ship_data_statistics = {
 			1,
 			2,
 			2
+		},
+		parallel_max = {
+			1,
+			1,
+			1
 		},
 		preload_count = {
 			0,
@@ -119240,6 +124035,11 @@ pg.ship_data_statistics = {
 			2,
 			2
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -119371,6 +124171,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -119490,6 +124295,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -119617,6 +124427,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -119740,6 +124555,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -119859,6 +124679,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -119986,6 +124811,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -120107,6 +124937,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -120232,6 +125067,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -120351,6 +125191,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -120478,6 +125323,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -120599,6 +125449,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -120724,6 +125579,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -120843,6 +125703,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -120970,6 +125835,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -121091,6 +125961,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -121216,6 +126091,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -121335,6 +126215,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -121462,6 +126347,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -121583,6 +126473,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -121708,6 +126603,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -121827,6 +126727,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -121954,6 +126859,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -122075,6 +126985,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -122200,6 +127115,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -122319,6 +127239,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -122446,6 +127371,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -122567,6 +127497,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -122692,6 +127627,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -122811,6 +127751,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -122938,6 +127883,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -123059,6 +128009,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -123184,6 +128139,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -123303,6 +128263,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -123430,6 +128395,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -123551,6 +128521,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -123676,6 +128651,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -123795,6 +128775,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -123922,6 +128907,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -124043,6 +129033,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -124168,6 +129163,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -124289,6 +129289,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -124417,6 +129422,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -124539,6 +129549,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -124665,6 +129680,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -124785,6 +129805,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -124913,6 +129938,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -125035,6 +130065,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -125161,6 +130196,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -125281,6 +130321,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -125409,6 +130454,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -125531,6 +130581,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -125657,6 +130712,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -125777,6 +130837,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -125905,6 +130970,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -126027,6 +131097,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -126153,6 +131228,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -126272,6 +131352,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -126399,6 +131484,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -126520,6 +131610,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -126645,6 +131740,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -126764,6 +131864,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -126891,6 +131996,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -127012,6 +132122,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -127137,6 +132252,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -127256,6 +132376,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -127383,6 +132508,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -127504,6 +132634,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -127629,6 +132764,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -127748,6 +132888,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -127875,6 +133020,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -127996,6 +133146,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -128121,6 +133276,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -128239,6 +133399,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -128364,6 +133529,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -128484,6 +133654,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -128600,6 +133775,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -128725,6 +133905,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -128842,6 +134027,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -128966,6 +134156,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -129082,6 +134277,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -129206,6 +134406,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -129322,6 +134527,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -129446,6 +134656,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -129566,6 +134781,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -129683,6 +134903,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -129808,6 +135033,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -129928,6 +135158,11 @@ pg.ship_data_statistics = {
 			2,
 			2,
 			2
+		},
+		parallel_max = {
+			1,
+			1,
+			1
 		},
 		preload_count = {
 			0,
@@ -130050,6 +135285,11 @@ pg.ship_data_statistics = {
 			3,
 			3
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -130167,6 +135407,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -130421,6 +135666,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -130669,6 +135919,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			2,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -130921,6 +136176,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -131171,6 +136431,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -131413,6 +136678,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -131663,6 +136933,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -131907,6 +137182,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			2,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -132155,6 +137435,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -132272,6 +137557,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -132397,6 +137687,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -132518,6 +137813,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -132635,6 +137935,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -132760,6 +138065,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -132879,6 +138189,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -133002,6 +138317,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -133119,6 +138439,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -133244,6 +138569,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -133363,6 +138693,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -133486,6 +138821,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -133603,6 +138943,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -133728,6 +139073,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -133847,6 +139197,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -133970,6 +139325,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -134088,6 +139448,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -134214,6 +139579,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -134335,6 +139705,11 @@ pg.ship_data_statistics = {
 			1,
 			1,
 			2
+		},
+		parallel_max = {
+			1,
+			1,
+			1
 		},
 		preload_count = {
 			0,
@@ -134458,6 +139833,11 @@ pg.ship_data_statistics = {
 			1,
 			2
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -134577,6 +139957,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -134705,6 +140090,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -134827,6 +140217,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -134953,6 +140348,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -135073,6 +140473,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -135201,6 +140606,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -135323,6 +140733,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -135449,6 +140864,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -135569,6 +140989,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -135697,6 +141122,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -135818,6 +141248,11 @@ pg.ship_data_statistics = {
 		},
 		base_list = {
 			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
 			1,
 			1
 		},
@@ -135945,6 +141380,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -136063,6 +141503,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -136188,6 +141633,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -136307,6 +141757,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -136430,6 +141885,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -136547,6 +142007,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -136672,6 +142137,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -136791,6 +142261,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -136914,6 +142389,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -137031,6 +142511,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -137156,6 +142641,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -137275,6 +142765,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -137398,6 +142893,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -137517,6 +143017,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -137645,6 +143150,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -137767,6 +143277,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -137893,6 +143408,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -138011,6 +143531,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -138261,6 +143786,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -138505,6 +144035,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			2,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -138753,6 +144288,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -138999,6 +144539,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -139116,6 +144661,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -139241,6 +144791,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -139362,6 +144917,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -139479,6 +145039,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -139604,6 +145169,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			1,
 			0,
@@ -139723,6 +145293,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -139846,6 +145421,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			1,
 			0,
@@ -139963,6 +145543,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -140088,6 +145673,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			1,
 			0,
@@ -140207,6 +145797,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -140330,6 +145925,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			1,
 			0,
@@ -140445,6 +146045,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -140568,6 +146173,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -140683,6 +146293,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -140806,6 +146421,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -140921,6 +146541,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -141045,6 +146670,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -141161,6 +146791,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -141285,6 +146920,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -141400,6 +147040,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -141524,6 +147169,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -141640,6 +147290,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -141764,6 +147419,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -141880,6 +147540,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -142004,6 +147669,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -142120,6 +147790,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -142244,6 +147919,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -142360,6 +148040,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -142484,6 +148169,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -142600,6 +148290,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -142724,6 +148419,11 @@ pg.ship_data_statistics = {
 			1,
 			2
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -142840,6 +148540,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -142964,6 +148669,11 @@ pg.ship_data_statistics = {
 			1,
 			2
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -143083,6 +148793,11 @@ pg.ship_data_statistics = {
 			1,
 			1,
 			2
+		},
+		parallel_max = {
+			1,
+			1,
+			1
 		},
 		preload_count = {
 			0,
@@ -143204,6 +148919,11 @@ pg.ship_data_statistics = {
 			1,
 			2
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -143323,6 +149043,11 @@ pg.ship_data_statistics = {
 			1,
 			1,
 			2
+		},
+		parallel_max = {
+			1,
+			1,
+			1
 		},
 		preload_count = {
 			0,
@@ -143444,6 +149169,11 @@ pg.ship_data_statistics = {
 			1,
 			2
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -143560,6 +149290,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -143684,6 +149419,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -143800,6 +149540,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -143924,6 +149669,11 @@ pg.ship_data_statistics = {
 			1,
 			2
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -144043,6 +149793,11 @@ pg.ship_data_statistics = {
 			1,
 			1,
 			2
+		},
+		parallel_max = {
+			1,
+			1,
+			1
 		},
 		preload_count = {
 			0,
@@ -144164,6 +149919,11 @@ pg.ship_data_statistics = {
 			1,
 			2
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -144283,6 +150043,11 @@ pg.ship_data_statistics = {
 			1,
 			2,
 			2
+		},
+		parallel_max = {
+			1,
+			1,
+			1
 		},
 		preload_count = {
 			0,
@@ -144409,6 +150174,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -144524,6 +150294,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -144647,6 +150422,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -144762,6 +150542,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -144886,6 +150671,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -145006,6 +150796,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -145121,6 +150916,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -145246,6 +151046,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -145363,6 +151168,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -145487,6 +151297,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -145603,6 +151418,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -145727,6 +151547,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -145843,6 +151668,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -145967,6 +151797,11 @@ pg.ship_data_statistics = {
 			3,
 			2
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -146084,6 +151919,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -146205,6 +152045,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -146321,6 +152166,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -146445,6 +152295,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -146564,6 +152419,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -146679,6 +152539,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -146802,6 +152667,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -146921,6 +152791,11 @@ pg.ship_data_statistics = {
 			3,
 			3,
 			2
+		},
+		parallel_max = {
+			1,
+			1,
+			1
 		},
 		preload_count = {
 			0,
@@ -147042,6 +152917,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -147159,6 +153039,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -147282,6 +153167,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -147402,6 +153292,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -147519,6 +153414,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -147641,6 +153541,11 @@ pg.ship_data_statistics = {
 			2,
 			3
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -147760,6 +153665,11 @@ pg.ship_data_statistics = {
 			3,
 			2,
 			3
+		},
+		parallel_max = {
+			1,
+			1,
+			1
 		},
 		preload_count = {
 			0,
@@ -147881,6 +153791,11 @@ pg.ship_data_statistics = {
 			2,
 			2
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -148001,6 +153916,11 @@ pg.ship_data_statistics = {
 			3,
 			2
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -148120,6 +154040,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -148237,6 +154162,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -148360,6 +154290,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -148478,6 +154413,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -148601,6 +154541,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -148722,6 +154667,11 @@ pg.ship_data_statistics = {
 			3,
 			2
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -148838,6 +154788,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -148962,6 +154917,11 @@ pg.ship_data_statistics = {
 			3,
 			2
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -149081,6 +155041,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -149204,6 +155169,11 @@ pg.ship_data_statistics = {
 			3,
 			3
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -149324,6 +155294,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -149441,6 +155416,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -149563,6 +155543,11 @@ pg.ship_data_statistics = {
 			3,
 			3
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -149680,6 +155665,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -149802,6 +155792,11 @@ pg.ship_data_statistics = {
 			2,
 			2
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -149917,6 +155912,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -150041,6 +156041,11 @@ pg.ship_data_statistics = {
 			3,
 			2
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -150157,6 +156162,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -150280,6 +156290,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -150395,6 +156410,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -150515,6 +156535,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -150640,6 +156665,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -150756,6 +156786,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -150881,6 +156916,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -150998,6 +157038,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -151122,6 +157167,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -151242,6 +157292,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -151358,6 +157413,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -151483,6 +157543,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -151600,6 +157665,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -151725,6 +157795,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -151842,6 +157917,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -151967,6 +158047,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -152084,6 +158169,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -152209,6 +158299,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -152326,6 +158421,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -152451,6 +158551,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -152568,6 +158673,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -152693,6 +158803,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -152810,6 +158925,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -152935,6 +159055,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -153052,6 +159177,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -153177,6 +159307,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -153294,6 +159429,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -153419,6 +159559,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -153536,6 +159681,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -153661,6 +159811,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -153778,6 +159933,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -153903,6 +160063,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -154020,6 +160185,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -154145,6 +160315,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -154262,6 +160437,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -154387,6 +160567,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -154504,6 +160689,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -154629,6 +160819,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -154746,6 +160941,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -154871,6 +161071,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -154988,6 +161193,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -155113,6 +161323,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -155230,6 +161445,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -155355,6 +161575,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -155472,6 +161697,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -155597,6 +161827,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -155714,6 +161949,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -155839,6 +162079,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -155960,6 +162205,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -156077,6 +162327,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -156203,6 +162458,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -156322,6 +162582,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -156445,6 +162710,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -156565,6 +162835,11 @@ pg.ship_data_statistics = {
 			3,
 			3,
 			2
+		},
+		parallel_max = {
+			1,
+			1,
+			1
 		},
 		preload_count = {
 			0,
@@ -156687,6 +162962,11 @@ pg.ship_data_statistics = {
 			3,
 			2
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -156804,6 +163084,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -156929,6 +163214,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -157046,6 +163336,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -157171,6 +163466,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -157288,6 +163588,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -157413,6 +163718,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -157530,6 +163840,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -157655,6 +163970,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -157772,6 +164092,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -157897,6 +164222,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -158014,6 +164344,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -158139,6 +164474,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -158256,6 +164596,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -158381,6 +164726,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -158498,6 +164848,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -158623,6 +164978,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -158740,6 +165100,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -158865,6 +165230,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -158982,6 +165352,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -159107,6 +165482,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -159224,6 +165604,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -159349,6 +165734,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -159466,6 +165856,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -159591,6 +165986,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -159708,6 +166108,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -159821,6 +166226,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -159938,6 +166348,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -160051,6 +166466,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -160168,6 +166588,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -160281,6 +166706,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -160398,6 +166828,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -160511,6 +166946,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -160628,6 +167068,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -160741,6 +167186,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -160858,6 +167308,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -160971,6 +167426,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -161088,6 +167548,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -161201,6 +167666,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -161318,6 +167788,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -161431,6 +167906,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -161548,6 +168028,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -161557,6 +168042,766 @@ pg.ship_data_statistics = {
 			1.55,
 			1,
 			1.05
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[900907] = {
+		oxy_max = 0,
+		type = 2,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "시애틀 ",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 6,
+		oxy_recovery = 0,
+		rarity = 5,
+		ammo = 0,
+		id = 900907,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "simulation",
+		skin_id = 199010,
+		painting_dir = 1,
+		attack_duration = 0,
+		nationality = 1,
+		armor_type = 1,
+		attrs = {
+			924,
+			33,
+			0,
+			70,
+			0,
+			57,
+			0,
+			54,
+			28,
+			33,
+			0,
+			93
+		},
+		attrs_growth = {
+			22545,
+			652,
+			0,
+			1364,
+			0,
+			286,
+			0,
+			792,
+			414,
+			0,
+			0,
+			370
+		},
+		attrs_growth_extra = {
+			0,
+			443,
+			0,
+			528,
+			0,
+			674,
+			0,
+			3,
+			726,
+			0,
+			0,
+			428
+		},
+		grades = {
+			"E",
+			"E",
+			"E",
+			"E",
+			"E",
+			"E"
+		},
+		lock = {
+			"torpedo",
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			204
+		},
+		default_equip_list = {
+			12200,
+			12200,
+			16440
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.45,
+			0.65,
+			1.3,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[900908] = {
+		oxy_max = 0,
+		type = 5,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "조지아 ",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 6,
+		oxy_recovery = 0,
+		rarity = 5,
+		ammo = 0,
+		id = 900908,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "simulation",
+		skin_id = 199020,
+		painting_dir = 1,
+		attack_duration = 0,
+		nationality = 1,
+		armor_type = 3,
+		attrs = {
+			1459,
+			84,
+			0,
+			79,
+			0,
+			60,
+			0,
+			23,
+			9,
+			33,
+			0,
+			0
+		},
+		attrs_growth = {
+			35580,
+			1656,
+			0,
+			1540,
+			0,
+			298,
+			0,
+			342,
+			138,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			333,
+			0,
+			425,
+			0,
+			707,
+			0,
+			278,
+			172,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"E",
+			"E",
+			"E",
+			"E",
+			"E",
+			"E"
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			14510,
+			90150,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.65,
+			2.1,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[900909] = {
+		oxy_max = 0,
+		type = 1,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "키타카제 ",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 6,
+		oxy_recovery = 0,
+		rarity = 5,
+		ammo = 0,
+		id = 900909,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "simulation",
+		skin_id = 399030,
+		painting_dir = 1,
+		attack_duration = 0,
+		nationality = 3,
+		armor_type = 1,
+		attrs = {
+			454,
+			16,
+			75,
+			37,
+			0,
+			82,
+			0,
+			75,
+			72,
+			44,
+			0,
+			49
+		},
+		attrs_growth = {
+			11075,
+			316,
+			1476,
+			716,
+			0,
+			408,
+			0,
+			1110,
+			1062,
+			0,
+			0,
+			484
+		},
+		attrs_growth_extra = {
+			2769,
+			217,
+			466,
+			492,
+			0,
+			965,
+			0,
+			-536,
+			-620,
+			0,
+			0,
+			448
+		},
+		grades = {
+			"E",
+			"E",
+			"E",
+			"E",
+			"E",
+			"E"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			31050,
+			45150,
+			16440
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.05,
+			1.35,
+			1.35
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[900910] = {
+		oxy_max = 0,
+		type = 18,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "아즈마 ",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 6,
+		oxy_recovery = 0,
+		rarity = 6,
+		ammo = 0,
+		id = 900910,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "simulation",
+		skin_id = 399040,
+		painting_dir = 1,
+		attack_duration = 0,
+		nationality = 3,
+		armor_type = 2,
+		attrs = {
+			1291,
+			58,
+			0,
+			42,
+			0,
+			62,
+			0,
+			43,
+			11,
+			27.2,
+			0,
+			0
+		},
+		attrs_growth = {
+			31480,
+			1136,
+			0,
+			824,
+			0,
+			310,
+			0,
+			636,
+			168,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			9444,
+			601,
+			0,
+			564,
+			0,
+			733,
+			0,
+			-111,
+			567,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"E",
+			"E",
+			"E",
+			"E",
+			"E",
+			"E"
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			33110,
+			90150,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1,
+			0.6,
+			1.1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[900911] = {
+		oxy_max = 0,
+		type = 5,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "프리드리히 데어 그로세 ",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 6,
+		oxy_recovery = 0,
+		rarity = 6,
+		ammo = 0,
+		id = 900911,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "simulation",
+		skin_id = 499020,
+		painting_dir = 1,
+		attack_duration = 0,
+		nationality = 4,
+		armor_type = 3,
+		attrs = {
+			1634,
+			87,
+			0,
+			45,
+			0,
+			58,
+			0,
+			22,
+			8,
+			30,
+			0,
+			0
+		},
+		attrs_growth = {
+			39855,
+			1708,
+			0,
+			880,
+			0,
+			288,
+			0,
+			330,
+			120,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			27892,
+			289,
+			0,
+			605,
+			0,
+			680,
+			0,
+			48,
+			175,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"E",
+			"E",
+			"E",
+			"E",
+			"E",
+			"E"
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			44210,
+			32250,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.6,
+			2.2,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[900912] = {
+		oxy_max = 0,
+		type = 5,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "가스코뉴 ",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 6,
+		oxy_recovery = 0,
+		rarity = 5,
+		ammo = 0,
+		id = 900912,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "simulation",
+		skin_id = 999010,
+		painting_dir = 1,
+		attack_duration = 0,
+		nationality = 9,
+		armor_type = 3,
+		attrs = {
+			1334,
+			83,
+			0,
+			45,
+			0,
+			62,
+			0,
+			24,
+			10,
+			32,
+			0,
+			0
+		},
+		attrs_growth = {
+			32540,
+			1632,
+			0,
+			884,
+			0,
+			308,
+			0,
+			360,
+			144,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			13012,
+			354,
+			0,
+			601,
+			0,
+			727,
+			0,
+			43,
+			376,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"E",
+			"E",
+			"E",
+			"E",
+			"E",
+			"E"
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			90450,
+			32250,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			3,
+			1
+		},
+		parallel_max = {
+			2,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.8,
+			2,
+			0.8
 		},
 		strategy_list = {},
 		strategy_list_ai = {},
@@ -161667,6 +168912,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -161795,6 +169045,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -161917,6 +169172,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -162043,6 +169303,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -162134,7 +169399,8 @@ pg.ship_data_statistics = {
 			"B"
 		},
 		lock = {
-			"air"
+			"air",
+			"antisub"
 		},
 		cld_box = {
 			4,
@@ -162161,6 +169427,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -162256,7 +169527,8 @@ pg.ship_data_statistics = {
 			"B"
 		},
 		lock = {
-			"air"
+			"air",
+			"antisub"
 		},
 		cld_box = {
 			4,
@@ -162283,6 +169555,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -162378,7 +169655,8 @@ pg.ship_data_statistics = {
 			"B"
 		},
 		lock = {
-			"air"
+			"air",
+			"antisub"
 		},
 		cld_box = {
 			4,
@@ -162407,6 +169685,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -162500,7 +169783,8 @@ pg.ship_data_statistics = {
 			"B"
 		},
 		lock = {
-			"air"
+			"air",
+			"antisub"
 		},
 		cld_box = {
 			4,
@@ -162529,6 +169813,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -162649,6 +169938,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -162774,6 +170068,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -162893,6 +170192,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -163016,6 +170320,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -163107,7 +170416,8 @@ pg.ship_data_statistics = {
 		},
 		lock = {
 			"cannon",
-			"torpedo"
+			"torpedo",
+			"antisub"
 		},
 		cld_box = {
 			4,
@@ -163132,6 +170442,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -163227,7 +170542,8 @@ pg.ship_data_statistics = {
 		},
 		lock = {
 			"cannon",
-			"torpedo"
+			"torpedo",
+			"antisub"
 		},
 		cld_box = {
 			4,
@@ -163253,6 +170569,11 @@ pg.ship_data_statistics = {
 		depth_charge_list = {},
 		base_list = {
 			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
 			1,
 			1
 		},
@@ -163347,7 +170668,8 @@ pg.ship_data_statistics = {
 		},
 		lock = {
 			"cannon",
-			"torpedo"
+			"torpedo",
+			"antisub"
 		},
 		cld_box = {
 			4,
@@ -163375,6 +170697,11 @@ pg.ship_data_statistics = {
 			2,
 			2,
 			2
+		},
+		parallel_max = {
+			1,
+			1,
+			1
 		},
 		preload_count = {
 			0,
@@ -163467,7 +170794,8 @@ pg.ship_data_statistics = {
 		},
 		lock = {
 			"cannon",
-			"torpedo"
+			"torpedo",
+			"antisub"
 		},
 		cld_box = {
 			4,
@@ -163495,6 +170823,11 @@ pg.ship_data_statistics = {
 			3,
 			2,
 			2
+		},
+		parallel_max = {
+			1,
+			1,
+			1
 		},
 		preload_count = {
 			0,
@@ -163615,6 +170948,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -163743,6 +171081,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -163865,6 +171208,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -163991,6 +171339,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -164082,7 +171435,8 @@ pg.ship_data_statistics = {
 			"B"
 		},
 		lock = {
-			"air"
+			"air",
+			"antisub"
 		},
 		cld_box = {
 			4,
@@ -164109,6 +171463,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -164204,7 +171563,8 @@ pg.ship_data_statistics = {
 			"B"
 		},
 		lock = {
-			"air"
+			"air",
+			"antisub"
 		},
 		cld_box = {
 			4,
@@ -164231,6 +171591,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -164326,7 +171691,8 @@ pg.ship_data_statistics = {
 			"B"
 		},
 		lock = {
-			"air"
+			"air",
+			"antisub"
 		},
 		cld_box = {
 			4,
@@ -164355,6 +171721,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -164448,7 +171819,8 @@ pg.ship_data_statistics = {
 			"B"
 		},
 		lock = {
-			"air"
+			"air",
+			"antisub"
 		},
 		cld_box = {
 			4,
@@ -164477,6 +171849,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -164597,6 +171974,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -164722,6 +172104,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -164841,6 +172228,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -164964,6 +172356,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -165055,7 +172452,8 @@ pg.ship_data_statistics = {
 		},
 		lock = {
 			"cannon",
-			"torpedo"
+			"torpedo",
+			"antisub"
 		},
 		cld_box = {
 			4,
@@ -165080,6 +172478,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -165175,7 +172578,8 @@ pg.ship_data_statistics = {
 		},
 		lock = {
 			"cannon",
-			"torpedo"
+			"torpedo",
+			"antisub"
 		},
 		cld_box = {
 			4,
@@ -165201,6 +172605,11 @@ pg.ship_data_statistics = {
 		depth_charge_list = {},
 		base_list = {
 			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
 			1,
 			1
 		},
@@ -165295,7 +172704,8 @@ pg.ship_data_statistics = {
 		},
 		lock = {
 			"cannon",
-			"torpedo"
+			"torpedo",
+			"antisub"
 		},
 		cld_box = {
 			4,
@@ -165323,6 +172733,11 @@ pg.ship_data_statistics = {
 			2,
 			2,
 			2
+		},
+		parallel_max = {
+			1,
+			1,
+			1
 		},
 		preload_count = {
 			0,
@@ -165415,7 +172830,8 @@ pg.ship_data_statistics = {
 		},
 		lock = {
 			"cannon",
-			"torpedo"
+			"torpedo",
+			"antisub"
 		},
 		cld_box = {
 			4,
@@ -165443,6 +172859,11 @@ pg.ship_data_statistics = {
 			2,
 			3,
 			3
+		},
+		parallel_max = {
+			1,
+			1,
+			1
 		},
 		preload_count = {
 			0,
@@ -165534,7 +172955,8 @@ pg.ship_data_statistics = {
 			"B"
 		},
 		lock = {
-			"air"
+			"air",
+			"antisub"
 		},
 		cld_box = {
 			4,
@@ -165561,6 +172983,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -165656,7 +173083,8 @@ pg.ship_data_statistics = {
 			"B"
 		},
 		lock = {
-			"air"
+			"air",
+			"antisub"
 		},
 		cld_box = {
 			4,
@@ -165683,6 +173111,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -165778,7 +173211,8 @@ pg.ship_data_statistics = {
 			"B"
 		},
 		lock = {
-			"air"
+			"air",
+			"antisub"
 		},
 		cld_box = {
 			4,
@@ -165807,6 +173241,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -165900,7 +173339,8 @@ pg.ship_data_statistics = {
 			"B"
 		},
 		lock = {
-			"air"
+			"air",
+			"antisub"
 		},
 		cld_box = {
 			4,
@@ -165929,6 +173369,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -166049,6 +173494,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -166174,6 +173624,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -166293,6 +173748,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -166416,6 +173876,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -166535,6 +174000,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -166663,6 +174133,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -166785,6 +174260,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -166911,6 +174391,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -167028,6 +174513,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -167152,6 +174642,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -167270,6 +174765,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			2,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -167392,6 +174892,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -167508,6 +175013,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -167632,6 +175142,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -167750,6 +175265,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			2,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -167872,6 +175392,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -167989,6 +175514,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -168114,6 +175644,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -168234,6 +175769,11 @@ pg.ship_data_statistics = {
 			2,
 			2,
 			2
+		},
+		parallel_max = {
+			1,
+			1,
+			1
 		},
 		preload_count = {
 			0,
@@ -168356,6 +175896,11 @@ pg.ship_data_statistics = {
 			3,
 			3
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -168475,6 +176020,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -168603,6 +176153,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -168725,6 +176280,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -168851,6 +176411,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -168943,7 +176508,8 @@ pg.ship_data_statistics = {
 		},
 		lock = {
 			"torpedo",
-			"air"
+			"air",
+			"antisub"
 		},
 		cld_box = {
 			4,
@@ -168968,6 +176534,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -169063,7 +176634,8 @@ pg.ship_data_statistics = {
 		},
 		lock = {
 			"torpedo",
-			"air"
+			"air",
+			"antisub"
 		},
 		cld_box = {
 			4,
@@ -169088,6 +176660,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -169183,7 +176760,8 @@ pg.ship_data_statistics = {
 		},
 		lock = {
 			"torpedo",
-			"air"
+			"air",
+			"antisub"
 		},
 		cld_box = {
 			4,
@@ -169210,6 +176788,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -169303,7 +176886,8 @@ pg.ship_data_statistics = {
 		},
 		lock = {
 			"torpedo",
-			"air"
+			"air",
+			"antisub"
 		},
 		cld_box = {
 			4,
@@ -169330,6 +176914,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -169422,7 +177011,8 @@ pg.ship_data_statistics = {
 			"A"
 		},
 		lock = {
-			"air"
+			"air",
+			"antisub"
 		},
 		cld_box = {
 			4,
@@ -169449,6 +177039,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -169544,7 +177139,8 @@ pg.ship_data_statistics = {
 			"A"
 		},
 		lock = {
-			"air"
+			"air",
+			"antisub"
 		},
 		cld_box = {
 			4,
@@ -169571,6 +177167,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -169666,7 +177267,8 @@ pg.ship_data_statistics = {
 			"A"
 		},
 		lock = {
-			"air"
+			"air",
+			"antisub"
 		},
 		cld_box = {
 			4,
@@ -169695,6 +177297,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -169788,7 +177395,8 @@ pg.ship_data_statistics = {
 			"A"
 		},
 		lock = {
-			"air"
+			"air",
+			"antisub"
 		},
 		cld_box = {
 			4,
@@ -169817,6 +177425,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -169911,7 +177524,8 @@ pg.ship_data_statistics = {
 		},
 		lock = {
 			"torpedo",
-			"air"
+			"air",
+			"antisub"
 		},
 		cld_box = {
 			4,
@@ -169936,6 +177550,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -170031,7 +177650,8 @@ pg.ship_data_statistics = {
 		},
 		lock = {
 			"torpedo",
-			"air"
+			"air",
+			"antisub"
 		},
 		cld_box = {
 			4,
@@ -170056,6 +177676,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -170151,7 +177776,8 @@ pg.ship_data_statistics = {
 		},
 		lock = {
 			"torpedo",
-			"air"
+			"air",
+			"antisub"
 		},
 		cld_box = {
 			4,
@@ -170178,6 +177804,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -170271,7 +177902,8 @@ pg.ship_data_statistics = {
 		},
 		lock = {
 			"torpedo",
-			"air"
+			"air",
+			"antisub"
 		},
 		cld_box = {
 			4,
@@ -170298,6 +177930,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -170390,7 +178027,8 @@ pg.ship_data_statistics = {
 			"S"
 		},
 		lock = {
-			"air"
+			"air",
+			"antisub"
 		},
 		cld_box = {
 			4,
@@ -170417,6 +178055,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -170512,7 +178155,8 @@ pg.ship_data_statistics = {
 			"S"
 		},
 		lock = {
-			"air"
+			"air",
+			"antisub"
 		},
 		cld_box = {
 			4,
@@ -170540,6 +178184,11 @@ pg.ship_data_statistics = {
 		depth_charge_list = {},
 		base_list = {
 			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
 			1,
 			1
 		},
@@ -170634,7 +178283,8 @@ pg.ship_data_statistics = {
 			"S"
 		},
 		lock = {
-			"air"
+			"air",
+			"antisub"
 		},
 		cld_box = {
 			4,
@@ -170662,6 +178312,11 @@ pg.ship_data_statistics = {
 		depth_charge_list = {},
 		base_list = {
 			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
 			1,
 			1
 		},
@@ -170756,7 +178411,8 @@ pg.ship_data_statistics = {
 			"S"
 		},
 		lock = {
-			"air"
+			"air",
+			"antisub"
 		},
 		cld_box = {
 			4,
@@ -170784,6 +178440,11 @@ pg.ship_data_statistics = {
 		depth_charge_list = {},
 		base_list = {
 			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
 			1,
 			1
 		},
@@ -170878,7 +178539,8 @@ pg.ship_data_statistics = {
 			"A"
 		},
 		lock = {
-			"air"
+			"air",
+			"antisub"
 		},
 		cld_box = {
 			4,
@@ -170905,6 +178567,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -171000,7 +178667,8 @@ pg.ship_data_statistics = {
 			"A"
 		},
 		lock = {
-			"air"
+			"air",
+			"antisub"
 		},
 		cld_box = {
 			4,
@@ -171028,6 +178696,11 @@ pg.ship_data_statistics = {
 		depth_charge_list = {},
 		base_list = {
 			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
 			1,
 			1
 		},
@@ -171122,7 +178795,8 @@ pg.ship_data_statistics = {
 			"A"
 		},
 		lock = {
-			"air"
+			"air",
+			"antisub"
 		},
 		cld_box = {
 			4,
@@ -171150,6 +178824,11 @@ pg.ship_data_statistics = {
 		depth_charge_list = {},
 		base_list = {
 			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
 			1,
 			1
 		},
@@ -171244,7 +178923,8 @@ pg.ship_data_statistics = {
 			"A"
 		},
 		lock = {
-			"air"
+			"air",
+			"antisub"
 		},
 		cld_box = {
 			4,
@@ -171275,6 +178955,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -171285,6 +178970,3046 @@ pg.ship_data_statistics = {
 			1.2,
 			1.25,
 			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[199011] = {
+		oxy_max = 0,
+		type = 2,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "시애틀 ",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		rarity = 5,
+		ammo = 0,
+		id = 199011,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Seattle",
+		skin_id = 199010,
+		painting_dir = 1,
+		attack_duration = 0,
+		nationality = 1,
+		armor_type = 1,
+		attrs = {
+			924,
+			33,
+			0,
+			70,
+			0,
+			57,
+			0,
+			54,
+			28,
+			33,
+			0,
+			37
+		},
+		attrs_growth = {
+			22545,
+			652,
+			0,
+			1364,
+			0,
+			286,
+			0,
+			792,
+			414,
+			0,
+			0,
+			370
+		},
+		attrs_growth_extra = {
+			0,
+			443,
+			0,
+			528,
+			0,
+			674,
+			0,
+			3,
+			726,
+			0,
+			0,
+			428
+		},
+		grades = {
+			"B",
+			"E",
+			"E",
+			"B",
+			"A",
+			"B"
+		},
+		lock = {
+			"torpedo",
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			201
+		},
+		default_equip_list = {
+			101,
+			104,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.05,
+			0.65,
+			1.3,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[199012] = {
+		oxy_max = 0,
+		type = 2,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "시애틀 ",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		rarity = 5,
+		ammo = 0,
+		id = 199012,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Seattle",
+		skin_id = 199010,
+		painting_dir = 1,
+		attack_duration = 0,
+		nationality = 1,
+		armor_type = 1,
+		attrs = {
+			924,
+			33,
+			0,
+			70,
+			0,
+			57,
+			0,
+			54,
+			28,
+			33,
+			0,
+			46
+		},
+		attrs_growth = {
+			22545,
+			652,
+			0,
+			1364,
+			0,
+			286,
+			0,
+			792,
+			414,
+			0,
+			0,
+			370
+		},
+		attrs_growth_extra = {
+			0,
+			443,
+			0,
+			528,
+			0,
+			674,
+			0,
+			3,
+			726,
+			0,
+			0,
+			428
+		},
+		grades = {
+			"B",
+			"E",
+			"E",
+			"B",
+			"A",
+			"B"
+		},
+		lock = {
+			"torpedo",
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			202
+		},
+		default_equip_list = {
+			101,
+			104,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			0.65,
+			1.3,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[199013] = {
+		oxy_max = 0,
+		type = 2,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "시애틀 ",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		rarity = 5,
+		ammo = 0,
+		id = 199013,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Seattle",
+		skin_id = 199010,
+		painting_dir = 1,
+		attack_duration = 0,
+		nationality = 1,
+		armor_type = 1,
+		attrs = {
+			924,
+			33,
+			0,
+			70,
+			0,
+			57,
+			0,
+			54,
+			28,
+			33,
+			0,
+			65
+		},
+		attrs_growth = {
+			22545,
+			652,
+			0,
+			1364,
+			0,
+			286,
+			0,
+			792,
+			414,
+			0,
+			0,
+			370
+		},
+		attrs_growth_extra = {
+			0,
+			443,
+			0,
+			528,
+			0,
+			674,
+			0,
+			3,
+			726,
+			0,
+			0,
+			428
+		},
+		grades = {
+			"B",
+			"E",
+			"E",
+			"B",
+			"A",
+			"B"
+		},
+		lock = {
+			"torpedo",
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			203
+		},
+		default_equip_list = {
+			101,
+			104,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			0.65,
+			1.3,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[199014] = {
+		oxy_max = 0,
+		type = 2,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "시애틀 ",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 6,
+		oxy_recovery = 0,
+		rarity = 5,
+		ammo = 0,
+		id = 199014,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Seattle",
+		skin_id = 199010,
+		painting_dir = 1,
+		attack_duration = 0,
+		nationality = 1,
+		armor_type = 1,
+		attrs = {
+			924,
+			33,
+			0,
+			70,
+			0,
+			57,
+			0,
+			54,
+			28,
+			33,
+			0,
+			93
+		},
+		attrs_growth = {
+			22545,
+			652,
+			0,
+			1364,
+			0,
+			286,
+			0,
+			792,
+			414,
+			0,
+			0,
+			370
+		},
+		attrs_growth_extra = {
+			0,
+			443,
+			0,
+			528,
+			0,
+			674,
+			0,
+			3,
+			726,
+			0,
+			0,
+			428
+		},
+		grades = {
+			"B",
+			"E",
+			"E",
+			"B",
+			"A",
+			"B"
+		},
+		lock = {
+			"torpedo",
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			204
+		},
+		default_equip_list = {
+			101,
+			104,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.35,
+			0.65,
+			1.3,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[199021] = {
+		oxy_max = 0,
+		type = 5,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "조지아 ",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		rarity = 5,
+		ammo = 0,
+		id = 199021,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Georgia",
+		skin_id = 199020,
+		painting_dir = 1,
+		attack_duration = 0,
+		nationality = 1,
+		armor_type = 3,
+		attrs = {
+			1459,
+			84,
+			0,
+			79,
+			0,
+			60,
+			0,
+			23,
+			9,
+			33,
+			0,
+			0
+		},
+		attrs_growth = {
+			35580,
+			1656,
+			0,
+			1540,
+			0,
+			298,
+			0,
+			342,
+			138,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			333,
+			0,
+			425,
+			0,
+			707,
+			0,
+			278,
+			172,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"S",
+			"E",
+			"E",
+			"C",
+			"B",
+			"S"
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.25,
+			2,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[199022] = {
+		oxy_max = 0,
+		type = 5,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "조지아 ",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		rarity = 5,
+		ammo = 0,
+		id = 199022,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Georgia",
+		skin_id = 199020,
+		painting_dir = 1,
+		attack_duration = 0,
+		nationality = 1,
+		armor_type = 3,
+		attrs = {
+			1459,
+			84,
+			0,
+			79,
+			0,
+			60,
+			0,
+			23,
+			9,
+			33,
+			0,
+			0
+		},
+		attrs_growth = {
+			35580,
+			1656,
+			0,
+			1540,
+			0,
+			298,
+			0,
+			342,
+			138,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			333,
+			0,
+			425,
+			0,
+			707,
+			0,
+			278,
+			172,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"S",
+			"E",
+			"E",
+			"C",
+			"B",
+			"S"
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.3,
+			2,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[199023] = {
+		oxy_max = 0,
+		type = 5,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "조지아 ",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		rarity = 5,
+		ammo = 0,
+		id = 199023,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Georgia",
+		skin_id = 199020,
+		painting_dir = 1,
+		attack_duration = 0,
+		nationality = 1,
+		armor_type = 3,
+		attrs = {
+			1459,
+			84,
+			0,
+			79,
+			0,
+			60,
+			0,
+			23,
+			9,
+			33,
+			0,
+			0
+		},
+		attrs_growth = {
+			35580,
+			1656,
+			0,
+			1540,
+			0,
+			298,
+			0,
+			342,
+			138,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			333,
+			0,
+			425,
+			0,
+			707,
+			0,
+			278,
+			172,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"S",
+			"E",
+			"E",
+			"C",
+			"B",
+			"S"
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.4,
+			2,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[199024] = {
+		oxy_max = 0,
+		type = 5,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "조지아 ",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 6,
+		oxy_recovery = 0,
+		rarity = 5,
+		ammo = 0,
+		id = 199024,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Georgia",
+		skin_id = 199020,
+		painting_dir = 1,
+		attack_duration = 0,
+		nationality = 1,
+		armor_type = 3,
+		attrs = {
+			1459,
+			84,
+			0,
+			79,
+			0,
+			60,
+			0,
+			23,
+			9,
+			33,
+			0,
+			0
+		},
+		attrs_growth = {
+			35580,
+			1656,
+			0,
+			1540,
+			0,
+			298,
+			0,
+			342,
+			138,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			333,
+			0,
+			425,
+			0,
+			707,
+			0,
+			278,
+			172,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"S",
+			"E",
+			"E",
+			"C",
+			"B",
+			"S"
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.55,
+			2,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[399031] = {
+		oxy_max = 0,
+		type = 1,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "키타카제 ",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		rarity = 5,
+		ammo = 0,
+		id = 399031,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Kitakaze",
+		skin_id = 399030,
+		painting_dir = 1,
+		attack_duration = 0,
+		nationality = 3,
+		armor_type = 1,
+		attrs = {
+			454,
+			16,
+			75,
+			37,
+			0,
+			82,
+			0,
+			75,
+			72,
+			44,
+			0,
+			49
+		},
+		attrs_growth = {
+			11075,
+			316,
+			1476,
+			716,
+			0,
+			408,
+			0,
+			1110,
+			1062,
+			0,
+			0,
+			484
+		},
+		attrs_growth_extra = {
+			2769,
+			217,
+			466,
+			492,
+			0,
+			965,
+			0,
+			-536,
+			-620,
+			0,
+			0,
+			448
+		},
+		grades = {
+			"C",
+			"B",
+			"E",
+			"A",
+			"B",
+			"C"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			102,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			0.85,
+			1.3,
+			1.2
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[399032] = {
+		oxy_max = 0,
+		type = 1,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "키타카제 ",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		rarity = 5,
+		ammo = 0,
+		id = 399032,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Kitakaze",
+		skin_id = 399030,
+		painting_dir = 1,
+		attack_duration = 0,
+		nationality = 3,
+		armor_type = 1,
+		attrs = {
+			454,
+			16,
+			75,
+			37,
+			0,
+			82,
+			0,
+			75,
+			72,
+			44,
+			0,
+			49
+		},
+		attrs_growth = {
+			11075,
+			316,
+			1476,
+			716,
+			0,
+			408,
+			0,
+			1110,
+			1062,
+			0,
+			0,
+			484
+		},
+		attrs_growth_extra = {
+			2769,
+			217,
+			466,
+			492,
+			0,
+			965,
+			0,
+			-536,
+			-620,
+			0,
+			0,
+			448
+		},
+		grades = {
+			"C",
+			"B",
+			"E",
+			"A",
+			"B",
+			"C"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			102,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			0.9,
+			1.3,
+			1.2
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[399033] = {
+		oxy_max = 0,
+		type = 1,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "키타카제 ",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		rarity = 5,
+		ammo = 0,
+		id = 399033,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Kitakaze",
+		skin_id = 399030,
+		painting_dir = 1,
+		attack_duration = 0,
+		nationality = 3,
+		armor_type = 1,
+		attrs = {
+			454,
+			16,
+			75,
+			37,
+			0,
+			82,
+			0,
+			75,
+			72,
+			44,
+			0,
+			49
+		},
+		attrs_growth = {
+			11075,
+			316,
+			1476,
+			716,
+			0,
+			408,
+			0,
+			1110,
+			1062,
+			0,
+			0,
+			484
+		},
+		attrs_growth_extra = {
+			2769,
+			217,
+			466,
+			492,
+			0,
+			965,
+			0,
+			-536,
+			-620,
+			0,
+			0,
+			448
+		},
+		grades = {
+			"C",
+			"B",
+			"E",
+			"A",
+			"B",
+			"C"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			102,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			0.9,
+			1.3,
+			1.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[399034] = {
+		oxy_max = 0,
+		type = 1,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "키타카제 ",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 6,
+		oxy_recovery = 0,
+		rarity = 5,
+		ammo = 0,
+		id = 399034,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Kitakaze",
+		skin_id = 399030,
+		painting_dir = 1,
+		attack_duration = 0,
+		nationality = 3,
+		armor_type = 1,
+		attrs = {
+			454,
+			16,
+			75,
+			37,
+			0,
+			82,
+			0,
+			75,
+			72,
+			44,
+			0,
+			49
+		},
+		attrs_growth = {
+			11075,
+			316,
+			1476,
+			716,
+			0,
+			408,
+			0,
+			1110,
+			1062,
+			0,
+			0,
+			484
+		},
+		attrs_growth_extra = {
+			2769,
+			217,
+			466,
+			492,
+			0,
+			965,
+			0,
+			-536,
+			-620,
+			0,
+			0,
+			448
+		},
+		grades = {
+			"C",
+			"B",
+			"E",
+			"A",
+			"B",
+			"C"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			102,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			0.95,
+			1.35,
+			1.35
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[399041] = {
+		oxy_max = 0,
+		type = 18,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "아즈마 ",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		rarity = 6,
+		ammo = 0,
+		id = 399041,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Azuma",
+		skin_id = 399040,
+		painting_dir = 1,
+		attack_duration = 0,
+		nationality = 3,
+		armor_type = 2,
+		attrs = {
+			1291,
+			58,
+			0,
+			42,
+			0,
+			62,
+			0,
+			43,
+			11,
+			27.2,
+			0,
+			0
+		},
+		attrs_growth = {
+			31480,
+			1136,
+			0,
+			824,
+			0,
+			310,
+			0,
+			636,
+			168,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			9444,
+			601,
+			0,
+			564,
+			0,
+			733,
+			0,
+			-111,
+			567,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"A",
+			"E",
+			"E",
+			"C",
+			"C",
+			"S"
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			102,
+			100,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			0.7,
+			0.5,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[399042] = {
+		oxy_max = 0,
+		type = 18,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "아즈마 ",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		rarity = 6,
+		ammo = 0,
+		id = 399042,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Azuma",
+		skin_id = 399040,
+		painting_dir = 1,
+		attack_duration = 0,
+		nationality = 3,
+		armor_type = 2,
+		attrs = {
+			1291,
+			58,
+			0,
+			42,
+			0,
+			62,
+			0,
+			43,
+			11,
+			27.2,
+			0,
+			0
+		},
+		attrs_growth = {
+			31480,
+			1136,
+			0,
+			824,
+			0,
+			310,
+			0,
+			636,
+			168,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			9444,
+			601,
+			0,
+			564,
+			0,
+			733,
+			0,
+			-111,
+			567,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"A",
+			"E",
+			"E",
+			"C",
+			"C",
+			"S"
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			102,
+			100,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			0.75,
+			0.5,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[399043] = {
+		oxy_max = 0,
+		type = 18,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "아즈마 ",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		rarity = 6,
+		ammo = 0,
+		id = 399043,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Azuma",
+		skin_id = 399040,
+		painting_dir = 1,
+		attack_duration = 0,
+		nationality = 3,
+		armor_type = 2,
+		attrs = {
+			1291,
+			58,
+			0,
+			42,
+			0,
+			62,
+			0,
+			43,
+			11,
+			27.2,
+			0,
+			0
+		},
+		attrs_growth = {
+			31480,
+			1136,
+			0,
+			824,
+			0,
+			310,
+			0,
+			636,
+			168,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			9444,
+			601,
+			0,
+			564,
+			0,
+			733,
+			0,
+			-111,
+			567,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"A",
+			"E",
+			"E",
+			"C",
+			"C",
+			"S"
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			102,
+			100,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			0.75,
+			0.6,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[399044] = {
+		oxy_max = 0,
+		type = 18,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "아즈마 ",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 6,
+		oxy_recovery = 0,
+		rarity = 6,
+		ammo = 0,
+		id = 399044,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Azuma",
+		skin_id = 399040,
+		painting_dir = 1,
+		attack_duration = 0,
+		nationality = 3,
+		armor_type = 2,
+		attrs = {
+			1291,
+			58,
+			0,
+			42,
+			0,
+			62,
+			0,
+			43,
+			11,
+			27.2,
+			0,
+			0
+		},
+		attrs_growth = {
+			31480,
+			1136,
+			0,
+			824,
+			0,
+			310,
+			0,
+			636,
+			168,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			9444,
+			601,
+			0,
+			564,
+			0,
+			733,
+			0,
+			-111,
+			567,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"A",
+			"E",
+			"E",
+			"C",
+			"C",
+			"S"
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			102,
+			100,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			0.9,
+			0.6,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[499021] = {
+		oxy_max = 0,
+		type = 5,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "프리드리히 데어 그로세 ",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		rarity = 6,
+		ammo = 0,
+		id = 499021,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "KMS Friedrich der Grosse",
+		skin_id = 499020,
+		painting_dir = 1,
+		attack_duration = 0,
+		nationality = 4,
+		armor_type = 3,
+		attrs = {
+			1634,
+			87,
+			0,
+			45,
+			0,
+			58,
+			0,
+			22,
+			8,
+			30,
+			0,
+			0
+		},
+		attrs_growth = {
+			39855,
+			1708,
+			0,
+			880,
+			0,
+			288,
+			0,
+			330,
+			120,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			27892,
+			289,
+			0,
+			605,
+			0,
+			680,
+			0,
+			48,
+			175,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"S",
+			"E",
+			"E",
+			"C",
+			"C",
+			"S"
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			2.2,
+			0.9
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[499022] = {
+		oxy_max = 0,
+		type = 5,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "프리드리히 데어 그로세 ",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		rarity = 6,
+		ammo = 0,
+		id = 499022,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "KMS Friedrich der Grosse",
+		skin_id = 499020,
+		painting_dir = 1,
+		attack_duration = 0,
+		nationality = 4,
+		armor_type = 3,
+		attrs = {
+			1634,
+			87,
+			0,
+			45,
+			0,
+			58,
+			0,
+			22,
+			8,
+			30,
+			0,
+			0
+		},
+		attrs_growth = {
+			39855,
+			1708,
+			0,
+			880,
+			0,
+			288,
+			0,
+			330,
+			120,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			27892,
+			289,
+			0,
+			605,
+			0,
+			680,
+			0,
+			48,
+			175,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"S",
+			"E",
+			"E",
+			"C",
+			"C",
+			"S"
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.25,
+			2.2,
+			0.9
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[499023] = {
+		oxy_max = 0,
+		type = 5,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "프리드리히 데어 그로세 ",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		rarity = 6,
+		ammo = 0,
+		id = 499023,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "KMS Friedrich der Grosse",
+		skin_id = 499020,
+		painting_dir = 1,
+		attack_duration = 0,
+		nationality = 4,
+		armor_type = 3,
+		attrs = {
+			1634,
+			87,
+			0,
+			45,
+			0,
+			58,
+			0,
+			22,
+			8,
+			30,
+			0,
+			0
+		},
+		attrs_growth = {
+			39855,
+			1708,
+			0,
+			880,
+			0,
+			288,
+			0,
+			330,
+			120,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			27892,
+			289,
+			0,
+			605,
+			0,
+			680,
+			0,
+			48,
+			175,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"S",
+			"E",
+			"E",
+			"C",
+			"C",
+			"S"
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.35,
+			2.2,
+			0.9
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[499024] = {
+		oxy_max = 0,
+		type = 5,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "프리드리히 데어 그로세 ",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 6,
+		oxy_recovery = 0,
+		rarity = 6,
+		ammo = 0,
+		id = 499024,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "KMS Friedrich der Grosse",
+		skin_id = 499020,
+		painting_dir = 1,
+		attack_duration = 0,
+		nationality = 4,
+		armor_type = 3,
+		attrs = {
+			1634,
+			87,
+			0,
+			45,
+			0,
+			58,
+			0,
+			22,
+			8,
+			30,
+			0,
+			0
+		},
+		attrs_growth = {
+			39855,
+			1708,
+			0,
+			880,
+			0,
+			288,
+			0,
+			330,
+			120,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			27892,
+			289,
+			0,
+			605,
+			0,
+			680,
+			0,
+			48,
+			175,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"S",
+			"E",
+			"E",
+			"C",
+			"C",
+			"S"
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.5,
+			2.2,
+			0.9
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[999011] = {
+		oxy_max = 0,
+		type = 5,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "가스코뉴 ",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		rarity = 5,
+		ammo = 0,
+		id = 999011,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "MNF Gascogne",
+		skin_id = 999010,
+		painting_dir = 1,
+		attack_duration = 0,
+		nationality = 9,
+		armor_type = 3,
+		attrs = {
+			1334,
+			83,
+			0,
+			45,
+			0,
+			62,
+			0,
+			24,
+			10,
+			32,
+			0,
+			0
+		},
+		attrs_growth = {
+			32540,
+			1632,
+			0,
+			884,
+			0,
+			308,
+			0,
+			360,
+			144,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			13012,
+			354,
+			0,
+			601,
+			0,
+			727,
+			0,
+			43,
+			376,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"S",
+			"E",
+			"E",
+			"C",
+			"D",
+			"A"
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			2,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.4,
+			2,
+			0.7
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[999012] = {
+		oxy_max = 0,
+		type = 5,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "가스코뉴 ",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		rarity = 5,
+		ammo = 0,
+		id = 999012,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "MNF Gascogne",
+		skin_id = 999010,
+		painting_dir = 1,
+		attack_duration = 0,
+		nationality = 9,
+		armor_type = 3,
+		attrs = {
+			1334,
+			83,
+			0,
+			45,
+			0,
+			62,
+			0,
+			24,
+			10,
+			32,
+			0,
+			0
+		},
+		attrs_growth = {
+			32540,
+			1632,
+			0,
+			884,
+			0,
+			308,
+			0,
+			360,
+			144,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			13012,
+			354,
+			0,
+			601,
+			0,
+			727,
+			0,
+			43,
+			376,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"S",
+			"E",
+			"E",
+			"C",
+			"D",
+			"A"
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			2,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.45,
+			2,
+			0.7
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[999013] = {
+		oxy_max = 0,
+		type = 5,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "가스코뉴 ",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		rarity = 5,
+		ammo = 0,
+		id = 999013,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "MNF Gascogne",
+		skin_id = 999010,
+		painting_dir = 1,
+		attack_duration = 0,
+		nationality = 9,
+		armor_type = 3,
+		attrs = {
+			1334,
+			83,
+			0,
+			45,
+			0,
+			62,
+			0,
+			24,
+			10,
+			32,
+			0,
+			0
+		},
+		attrs_growth = {
+			32540,
+			1632,
+			0,
+			884,
+			0,
+			308,
+			0,
+			360,
+			144,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			13012,
+			354,
+			0,
+			601,
+			0,
+			727,
+			0,
+			43,
+			376,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"S",
+			"E",
+			"E",
+			"C",
+			"D",
+			"A"
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			3,
+			1
+		},
+		parallel_max = {
+			2,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.55,
+			2,
+			0.7
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[999014] = {
+		oxy_max = 0,
+		type = 5,
+		personality = 2,
+		backyard_speed = "0.3",
+		name = "가스코뉴 ",
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		star = 6,
+		oxy_recovery = 0,
+		rarity = 5,
+		ammo = 0,
+		id = 999014,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "MNF Gascogne",
+		skin_id = 999010,
+		painting_dir = 1,
+		attack_duration = 0,
+		nationality = 9,
+		armor_type = 3,
+		attrs = {
+			1334,
+			83,
+			0,
+			45,
+			0,
+			62,
+			0,
+			24,
+			10,
+			32,
+			0,
+			0
+		},
+		attrs_growth = {
+			32540,
+			1632,
+			0,
+			884,
+			0,
+			308,
+			0,
+			360,
+			144,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			13012,
+			354,
+			0,
+			601,
+			0,
+			727,
+			0,
+			43,
+			376,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"S",
+			"E",
+			"E",
+			"C",
+			"D",
+			"A"
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			3,
+			1
+		},
+		parallel_max = {
+			2,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.7,
+			2,
+			0.7
 		},
 		strategy_list = {},
 		strategy_list_ai = {},
@@ -172591,6 +183316,12 @@ pg.ship_data_statistics = {
 		900176,
 		900177,
 		900178,
+		900907,
+		900908,
+		900909,
+		900910,
+		900911,
+		900912,
 		10100011,
 		10100012,
 		10100013,
@@ -172670,7 +183401,31 @@ pg.ship_data_statistics = {
 		899011,
 		899012,
 		899013,
-		899014
+		899014,
+		199011,
+		199012,
+		199013,
+		199014,
+		199021,
+		199022,
+		199023,
+		199024,
+		399031,
+		399032,
+		399033,
+		399034,
+		399041,
+		399042,
+		399043,
+		399044,
+		499021,
+		499022,
+		499023,
+		499024,
+		999011,
+		999012,
+		999013,
+		999014
 	}
 }
 

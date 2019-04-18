@@ -314,6 +314,9 @@ seriesAsync({
 			end,
 			function (slot0)
 				pg.SystemOpenMgr.GetInstance():Init(slot0)
+			end,
+			function (slot0)
+				pg.TecToastMgr.GetInstance():Init(slot0)
 			end
 		}, slot0)
 	end

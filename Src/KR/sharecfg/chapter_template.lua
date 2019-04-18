@@ -4014,10 +4014,6 @@ pg.chapter_template = {
 			{
 				2,
 				59001
-			},
-			{
-				2,
-				59125
 			}
 		},
 		grids = {
@@ -4594,10 +4590,6 @@ pg.chapter_template = {
 			{
 				2,
 				59001
-			},
-			{
-				2,
-				59125
 			}
 		},
 		grids = {
@@ -5198,10 +5190,6 @@ pg.chapter_template = {
 			{
 				2,
 				59001
-			},
-			{
-				2,
-				59125
 			}
 		},
 		grids = {
@@ -5797,10 +5785,6 @@ pg.chapter_template = {
 			{
 				2,
 				59001
-			},
-			{
-				2,
-				59125
 			}
 		},
 		grids = {
@@ -6378,10 +6362,6 @@ pg.chapter_template = {
 			{
 				2,
 				59001
-			},
-			{
-				2,
-				59125
 			}
 		},
 		grids = {
@@ -6908,10 +6888,6 @@ pg.chapter_template = {
 			{
 				2,
 				59001
-			},
-			{
-				2,
-				59125
 			}
 		},
 		grids = {
@@ -7405,10 +7381,6 @@ pg.chapter_template = {
 			{
 				2,
 				59001
-			},
-			{
-				2,
-				59125
 			}
 		},
 		grids = {
@@ -7895,10 +7867,6 @@ pg.chapter_template = {
 			{
 				2,
 				59001
-			},
-			{
-				2,
-				59125
 			}
 		},
 		grids = {
@@ -8331,10 +8299,6 @@ pg.chapter_template = {
 			{
 				2,
 				59001
-			},
-			{
-				2,
-				59125
 			}
 		},
 		grids = {
@@ -8899,10 +8863,6 @@ pg.chapter_template = {
 			{
 				2,
 				59001
-			},
-			{
-				2,
-				59125
 			}
 		},
 		grids = {
@@ -9526,10 +9486,6 @@ pg.chapter_template = {
 			{
 				2,
 				59001
-			},
-			{
-				2,
-				59125
 			}
 		},
 		grids = {
@@ -10103,10 +10059,6 @@ pg.chapter_template = {
 			{
 				2,
 				59001
-			},
-			{
-				2,
-				59125
 			}
 		},
 		grids = {
@@ -10618,10 +10570,6 @@ pg.chapter_template = {
 			{
 				2,
 				59001
-			},
-			{
-				2,
-				59125
 			}
 		},
 		grids = {
@@ -11103,10 +11051,6 @@ pg.chapter_template = {
 			{
 				2,
 				59001
-			},
-			{
-				2,
-				59125
 			}
 		},
 		grids = {
@@ -11609,10 +11553,6 @@ pg.chapter_template = {
 			{
 				2,
 				59001
-			},
-			{
-				2,
-				59125
 			}
 		},
 		grids = {
@@ -12174,10 +12114,6 @@ pg.chapter_template = {
 			{
 				2,
 				59001
-			},
-			{
-				2,
-				59125
 			}
 		},
 		grids = {
@@ -12722,10 +12658,6 @@ pg.chapter_template = {
 			{
 				2,
 				59001
-			},
-			{
-				2,
-				59125
 			}
 		},
 		grids = {
@@ -13326,10 +13258,6 @@ pg.chapter_template = {
 			{
 				2,
 				59001
-			},
-			{
-				2,
-				59125
 			}
 		},
 		grids = {
@@ -13854,10 +13782,6 @@ pg.chapter_template = {
 			{
 				2,
 				59001
-			},
-			{
-				2,
-				59125
 			}
 		},
 		grids = {
@@ -14422,10 +14346,6 @@ pg.chapter_template = {
 			{
 				2,
 				59001
-			},
-			{
-				2,
-				59125
 			}
 		},
 		grids = {
@@ -14982,10 +14902,6 @@ pg.chapter_template = {
 			{
 				2,
 				59001
-			},
-			{
-				2,
-				59125
 			}
 		},
 		grids = {
@@ -15377,10 +15293,6 @@ pg.chapter_template = {
 			{
 				2,
 				59001
-			},
-			{
-				2,
-				59125
 			}
 		},
 		grids = {
@@ -15876,10 +15788,6 @@ pg.chapter_template = {
 			{
 				2,
 				59001
-			},
-			{
-				2,
-				59125
 			}
 		},
 		grids = {
@@ -16444,10 +16352,6 @@ pg.chapter_template = {
 			{
 				2,
 				59001
-			},
-			{
-				2,
-				59125
 			}
 		},
 		grids = {
@@ -16993,10 +16897,6 @@ pg.chapter_template = {
 			{
 				2,
 				59001
-			},
-			{
-				2,
-				59125
 			}
 		},
 		grids = {
@@ -17553,10 +17453,6 @@ pg.chapter_template = {
 			{
 				2,
 				59001
-			},
-			{
-				2,
-				59125
 			}
 		},
 		grids = {
@@ -17970,10 +17866,6 @@ pg.chapter_template = {
 			{
 				2,
 				59001
-			},
-			{
-				2,
-				59125
 			}
 		},
 		grids = {
@@ -18473,10 +18365,6 @@ pg.chapter_template = {
 			{
 				2,
 				59001
-			},
-			{
-				2,
-				59125
 			}
 		},
 		grids = {
@@ -19039,10 +18927,6 @@ pg.chapter_template = {
 			{
 				2,
 				59001
-			},
-			{
-				2,
-				59125
 			}
 		},
 		grids = {
@@ -19664,10 +19548,6 @@ pg.chapter_template = {
 			{
 				2,
 				59001
-			},
-			{
-				2,
-				59125
 			}
 		},
 		grids = {
@@ -20288,10 +20168,6 @@ pg.chapter_template = {
 			{
 				2,
 				59001
-			},
-			{
-				2,
-				59125
 			}
 		},
 		grids = {
@@ -20799,10 +20675,6 @@ pg.chapter_template = {
 			{
 				2,
 				59001
-			},
-			{
-				2,
-				59125
 			}
 		},
 		grids = {
@@ -21348,10 +21220,6 @@ pg.chapter_template = {
 			{
 				2,
 				59001
-			},
-			{
-				2,
-				59125
 			}
 		},
 		grids = {
@@ -21921,10 +21789,6 @@ pg.chapter_template = {
 			{
 				2,
 				59001
-			},
-			{
-				2,
-				59125
 			}
 		},
 		grids = {
@@ -22512,10 +22376,6 @@ pg.chapter_template = {
 			{
 				2,
 				59001
-			},
-			{
-				2,
-				59125
 			}
 		},
 		grids = {
@@ -23121,10 +22981,6 @@ pg.chapter_template = {
 			{
 				2,
 				59001
-			},
-			{
-				2,
-				59125
 			}
 		},
 		grids = {
@@ -23650,10 +23506,6 @@ pg.chapter_template = {
 			{
 				2,
 				59001
-			},
-			{
-				2,
-				59125
 			}
 		},
 		grids = {
@@ -24237,10 +24089,6 @@ pg.chapter_template = {
 			{
 				2,
 				59001
-			},
-			{
-				2,
-				59125
 			}
 		},
 		grids = {
@@ -24841,10 +24689,6 @@ pg.chapter_template = {
 			{
 				2,
 				59001
-			},
-			{
-				2,
-				59125
 			}
 		},
 		grids = {
@@ -25454,10 +25298,6 @@ pg.chapter_template = {
 			{
 				2,
 				59001
-			},
-			{
-				2,
-				59125
 			}
 		},
 		grids = {
@@ -26062,10 +25902,6 @@ pg.chapter_template = {
 			{
 				2,
 				59001
-			},
-			{
-				2,
-				59125
 			}
 		},
 		grids = {
@@ -26641,10 +26477,6 @@ pg.chapter_template = {
 			{
 				2,
 				59001
-			},
-			{
-				2,
-				59125
 			}
 		},
 		grids = {
@@ -27337,10 +27169,6 @@ pg.chapter_template = {
 			{
 				2,
 				59001
-			},
-			{
-				2,
-				59125
 			}
 		},
 		grids = {
@@ -28001,10 +27829,6 @@ pg.chapter_template = {
 			{
 				2,
 				59001
-			},
-			{
-				2,
-				59125
 			}
 		},
 		grids = {
@@ -28774,10 +28598,6 @@ pg.chapter_template = {
 			{
 				2,
 				59001
-			},
-			{
-				2,
-				59125
 			}
 		},
 		grids = {
@@ -29551,10 +29371,6 @@ pg.chapter_template = {
 			{
 				2,
 				59001
-			},
-			{
-				2,
-				59125
 			}
 		},
 		grids = {
@@ -30110,10 +29926,6 @@ pg.chapter_template = {
 			{
 				2,
 				59001
-			},
-			{
-				2,
-				59125
 			}
 		},
 		grids = {
@@ -30781,10 +30593,6 @@ pg.chapter_template = {
 			{
 				2,
 				59001
-			},
-			{
-				2,
-				59125
 			}
 		},
 		grids = {
@@ -31488,10 +31296,6 @@ pg.chapter_template = {
 			{
 				2,
 				59001
-			},
-			{
-				2,
-				59125
 			}
 		},
 		grids = {
@@ -32310,10 +32114,6 @@ pg.chapter_template = {
 			{
 				2,
 				59001
-			},
-			{
-				2,
-				59125
 			}
 		},
 		grids = {
@@ -33149,10 +32949,6 @@ pg.chapter_template = {
 			{
 				2,
 				59001
-			},
-			{
-				2,
-				59125
 			}
 		},
 		grids = {
@@ -33715,10 +33511,6 @@ pg.chapter_template = {
 			{
 				2,
 				59001
-			},
-			{
-				2,
-				59125
 			}
 		},
 		grids = {
@@ -34387,10 +34179,6 @@ pg.chapter_template = {
 			{
 				2,
 				59001
-			},
-			{
-				2,
-				59125
 			}
 		},
 		grids = {
@@ -35102,10 +34890,6 @@ pg.chapter_template = {
 			{
 				2,
 				59001
-			},
-			{
-				2,
-				59125
 			}
 		},
 		grids = {
@@ -110983,7 +110767,7 @@ pg.chapter_template = {
 		map = 1140002,
 		enter_story_limit = "",
 		star_require_3 = 3,
-		profiles = "동시에 가로 막는 비시아 큐리아 바티칸과 세이렌의 군세. 강자의 정의가 어떤건지 가르쳐주마!",
+		profiles = "동시에 가로 막는 비시아 큐리아와 세이렌의 군세. 강자의 정의가 어떤건지 가르쳐주마!",
 		difficulty = 6,
 		avoid_ratio = 11,
 		star_require_2 = 2,
@@ -114981,7 +114765,7 @@ pg.chapter_template = {
 		map = 1140012,
 		enter_story_limit = "",
 		star_require_3 = 3,
-		profiles = "동시에 가로 막는 비시아 큐리아 바티칸과 세이렌의 군세. 강자의 정의가 어떤건지 가르쳐주마!",
+		profiles = "동시에 가로 막는 비시아 큐리아와 세이렌의 군세. 강자의 정의가 어떤건지 가르쳐주마!",
 		difficulty = 9,
 		avoid_ratio = 15,
 		star_require_2 = 2,

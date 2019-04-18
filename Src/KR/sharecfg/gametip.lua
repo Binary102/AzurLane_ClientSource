@@ -3630,7 +3630,7 @@ pg.gametip = {
 		key = "attribute_speed"
 	},
 	attribute_luck = {
-		tip = "운",
+		tip = "행운",
 		key = "attribute_luck"
 	},
 	attribute_dodge = {
@@ -4610,7 +4610,16 @@ pg.gametip = {
 				info = "1.스텟에 관하여 : "
 			},
 			{
-				info = "       내구 : 함선소녀의 최대 HP 수치",
+				info = " <color=#A9F548FF>장비</color>：함선소녀 장비로 인한 속성이 상승합니다."
+			},
+			{
+				info = " <color=#FFDE00FF>기술</color>：함대 기술로 인한 속성이 상승합니다."
+			},
+			{
+				info = "2.속성설명："
+			},
+			{
+				info = "      내구 : 함선소녀의 최대 HP 수치",
 				icon = {
 					posX = 0,
 					atlas = "attricon",
@@ -4620,7 +4629,7 @@ pg.gametip = {
 				}
 			},
 			{
-				info = "       포격 : 함포의 대미지가 상승합니다.",
+				info = "      포격 : 함포의 대미지가 상승합니다.",
 				icon = {
 					posX = 0,
 					atlas = "attricon",
@@ -4630,7 +4639,7 @@ pg.gametip = {
 				}
 			},
 			{
-				info = "       대공 : 대공화기의 대미지가 상승합니다.",
+				info = "      대공 : 대공화기의 대미지가 상승합니다.",
 				icon = {
 					posX = 0,
 					atlas = "attricon",
@@ -4640,7 +4649,7 @@ pg.gametip = {
 				}
 			},
 			{
-				info = "       장갑 유형 : 장갑이 두꺼울수록 대구경 포로부터 받는 피해가 \n감소하고,소구경 포로부터 받는 피해를 무효화 할 수도 있습니다.\n (피해 경감률 : 중장갑>중형장갑>경장갑)",
+				info = "      장갑 유형 : 장갑이 두꺼울수록 대구경 포로부터 받는 피해가 \n감소하고,소구경 포로부터 받는 피해를 무효화 할 수도 있습니다.\n (피해 경감률 : 중장갑>중형장갑>경장갑)",
 				icon = {
 					posX = 0,
 					atlas = "attricon",
@@ -4650,7 +4659,7 @@ pg.gametip = {
 				}
 			},
 			{
-				info = "       뇌장 : 어뢰의 대미지가 상승합니다.",
+				info = "      뇌장 : 어뢰의 대미지가 상승합니다.",
 				icon = {
 					posX = 0,
 					atlas = "attricon",
@@ -4660,7 +4669,7 @@ pg.gametip = {
 				}
 			},
 			{
-				info = "       항공 : 함재기의 대미지가 상승합니다.",
+				info = "      항공 : 함재기의 대미지가 상승합니다.",
 				icon = {
 					posX = 0,
 					atlas = "attricon",
@@ -4670,7 +4679,7 @@ pg.gametip = {
 				}
 			},
 			{
-				info = "       장전 : 무장 및 스킬의 재사용 대기 시간이 감소합니다.",
+				info = "      장전 : 무장 및 스킬의 재사용 대기 시간이 감소합니다.",
 				icon = {
 					posX = 0,
 					atlas = "attricon",
@@ -4680,7 +4689,7 @@ pg.gametip = {
 				}
 			},
 			{
-				info = "       기동 : 적의 탄막을 회피할 확률이 상승합니다.",
+				info = "      기동 : 적의 탄막을 회피할 확률이 상승합니다.",
 				icon = {
 					posX = 0,
 					atlas = "attricon",
@@ -4690,7 +4699,7 @@ pg.gametip = {
 				}
 			},
 			{
-				info = "       소모 : 매 전투에서 소비하는 연료",
+				info = "      소모 : 매 전투에서 소비하는 연료",
 				icon = {
 					posX = 0,
 					atlas = "attricon",
@@ -4700,7 +4709,7 @@ pg.gametip = {
 				}
 			},
 			{
-				info = "       대잠 : 잠수함에 대항하는 \"대잠 무기\"의 대미지가 상승합니다.",
+				info = "      대잠 : 잠수함에 대항하는 \"대잠 무기\"의 대미지가 상승합니다.",
 				icon = {
 					posX = 0,
 					atlas = "attricon",
@@ -4710,7 +4719,7 @@ pg.gametip = {
 				}
 			},
 			{
-				info = "       잠항력 : 최대 잠항 시간. 잠항 상태 동안 소비되어, 잠항력이 0이\n 되면 수면 위로 떠오르게 됩니다.",
+				info = "      잠항력 : 최대 잠항 시간. 잠항 상태 동안 소비되어, 잠항력이 0이\n 되면 수면 위로 떠오르게 됩니다.",
 				icon = {
 					posX = 0,
 					atlas = "attricon",
@@ -4720,7 +4729,7 @@ pg.gametip = {
 				}
 			},
 			{
-				info = "       탄약량 : 잠수함대가 해역 상의 적을 공격할 때, 탄약을 소모하게\n 됩니다.",
+				info = "      탄약량 : 잠수함대가 해역 상의 적을 공격할 때, 탄약을 소모하게\n 됩니다.",
 				icon = {
 					posX = 0,
 					atlas = "attricon",
@@ -4730,7 +4739,7 @@ pg.gametip = {
 				}
 			},
 			{
-				info = "       지원 범위 : 잠수함대의 지원 범위 내에서 전투 중, 잠수함대의 \n탄약을 소모하여 잠수함 지원이 가능. 잠수함대는 자동으로 지원 범위 \n내의 적을 공격합니다.",
+				info = "      지원 범위 : 잠수함대의 지원 범위 내에서 전투 중, 잠수함대의 \n탄약을 소모하여 잠수함 지원이 가능. 잠수함대는 자동으로 지원 범위 \n내의 적을 공격합니다.",
 				icon = {
 					posX = 0,
 					atlas = "attricon",
@@ -4740,8 +4749,18 @@ pg.gametip = {
 				}
 			},
 			{
+				info = "      행운：함선소녀의 기존 밈으로 인한 속성이 전투에 미세하게 \n영향을 줍니다.",
+				icon = {
+					posX = 0,
+					atlas = "attricon",
+					posY = 0,
+					scale = 0.66,
+					path = "icon_luck"
+				}
+			},
+			{
 				info = [[
- 2.컨디션 : 
+ 3.컨디션 : 
  컨디션이 좋은 함선소녀는 전투 시 능력치가 상승합니다.
  컨디션이 나쁜 상태에서 출격하는 경우, 호감도가 하락하고, 획득하는 
  경험치가 절반으로 감소합니다.]]
@@ -6858,7 +6877,7 @@ pg.gametip = {
 ‘학생’이 많으면 많을 수록, 숙련도의 변환 효율이 상승합니다.
 ‘수업’에 참가한 학생은 컨디션이 약간 저하됩니다.
 모니터함은 전함의 수업에 참가할 수 있고,
-공작함은 구축함 및 순양함의 수업에 참가할 수 있으며,
+공작함은 구축함 및 순양함, 장갑함은 순양함의 수업에 참가할 수 있으며,
 항공전함은 항공모함 및 전함의 수업에 참가할 수 있습니다.
 
 ・수업의 시간 배분
@@ -7335,6 +7354,14 @@ pg.gametip = {
 		tip = "연구 항목 일람 - 갱신 실패",
 		key = "technology_refresh_erro"
 	},
+	change_technology_refresh_sucess = {
+		tip = "연구 항목 - 변경 성공",
+		key = "change_technology_refresh_sucess"
+	},
+	change_technology_refresh_erro = {
+		tip = "연구 항목 - 변경 실패",
+		key = "change_technology_refresh_erro"
+	},
 	technology_start_up = {
 		tip = "연구 개시",
 		key = "technology_start_up"
@@ -7350,6 +7377,14 @@ pg.gametip = {
 	technology_stop_erro = {
 		tip = "연구 중단에 실패하였습니다.",
 		key = "technology_stop_erro"
+	},
+	technology_finish_success = {
+		tip = "연구를 성공적으로 완료했습니다.",
+		key = "technology_finish_success"
+	},
+	technology_finish_erro = {
+		tip = "연구에 실패했습니다.",
+		key = "technology_finish_erro"
 	},
 	blueprint_stop_success = {
 		tip = "개발 중단에 성공하였습니다.",
@@ -7409,36 +7444,44 @@ pg.gametip = {
 			{
 				info = [[
 
+※새로운 기능：연구 지향 변경 
+ · 제2기 스페셜 프로젝트 함선 추가에 따라, 과학 연구 항목에 
+「제2기」가 새롭게 추가되었습니다. 기존 연구 항목 「제1기」와
+「제2기」의 구분은 과학 연구 항목 왼쪽 위의 「Ⅰ」,「Ⅱ」마크로
+ 확인할 수 있습니다. 
+ · 또한, 연구 항목 일람 화면 오른쪽 아래의 「연구 지향」에서
+「제1기」「제2기」를 선택하면, 해당 연구 항목을 최소 2개씩 출현
+시킬 수 있습니다. 
+
 1. 연구 개시
- · 연구 항목 일람에서 연구항목의 「연구 개시」를 터치하면, 
-해당 항목의 연구를 진행하실 수 있습니다.
- ·일부 연구 항목을 시작하려면 물자를 소모하게 됩니다.
- · 동시에 여러 개의 연구 항목을 연구할 수는 없습니다.
+ · 연구 항목 일람에서 연구 항목의 「연구 개시」를 터치하면, 
+해당 항목의 연구를 진행할 수 있습니다. 
+ · 일부 연구 항목의 연구는 개시하기 위해 자원을 소비합니다. 
+ · 동시에 복수의 연구 항목을 연구할 수는 없습니다. 
 
-2. 연구 완료
- · 연구 항목의 연구에는 시간이 수요됩니다.
- · 일부 연구 항목은 시간 외에도 특수 조건을 
-달성하여야 합니다.
- ·「연구 완성 조건」의 진행도는, 연구 개시 후에만 증가됩니다.
- ·「연구 완성 조건」의 일부 연구 항목은 연구 시간이 종료되어도, 
-「연구 완성 조건」을 진행 혹은 달성할 수 있습니다.
- · 연구 완료 시 연구 보상을 수령하면, 연구 항목 일람이
-갱신됩니다.
+2.연구 완료
+ · 연구 항목의 연구는 시간이 필요합니다. 
+ · 일부 연구 항목은 시간 이외에도 특정한 조건을 달성할 필요가 
+있습니다. 
+ ·「연구 완성 조건」은 연구 개시 이후에만 진척됩니다. 
+ ·「연구 완성 조건」이 있는 연구 항목은, 연구 시간이 종료되더라도 
+「연구 완성 조건」을 진행 및 달성할 수 있습니다. 
+ · 연구가 완료되어 연구 보상을 받으면, 연구 항목 일람이 갱신
+됩니다. 
 
-3. 연구 중단
- ·「연구 중단」를 터치하시면,
-진행 중인 연구 항목을 중단할 수 있습니다.
- · 연구를 중단하여도, 연구 개시 시에 소모된 물자는 반환되지 
-않습니다.
- · 연구를 중단하면, 「연구 완성 조건」의
-진행과 연구에 소모된 시간이 리셋됩니다.
+3.연구 중지
+ ·「연구 중지」를 터치하면 진행 중인 연구 항목을 중단할 수 
+있습니다. 
+ · 연구를 중단하더라도 연구 개시 때 소비된 자원은 반환되지 않습니다. 
+ · 연구를 중단하면, 「연구 완성 조건」의 진척도와 연구에 사용한 
+시간이 초기화됩니다. 
 
-4. 연구 항목 일람의 갱신
- · 0시 이후에 「항목 갱신」을 터치하시면, 연구 항목 일람을
-갱신하실 수 있습니다.
- ·「항목 갱신」은 매일 1회만 진행하실 수 있습니다.
- · 연구 중인 항목이 존재할 경우,
-연구 항목 일람은 갱신하실 수 없습니다.]]
+4.연구 항목 일람을 갱신
+ · 0시 이후 「항목 갱신」을 터치하면, 연구 항목 일람을 갱신
+할 수 있습니다. 
+ ·「항목 갱신」은 하루에 한 번밖에 할 수 없습니다. 
+ · 연구 중의 항목이 존재할 경우, 연구 항목 일람을 갱신할 수 
+없습니다. ]]
 			}
 		}
 	},
@@ -7482,13 +7525,55 @@ pg.gametip = {
 		tip = "개발 레벨 $1 달성 후 개방",
 		key = "ship_profile_voice_locked_design"
 	},
+	help_technolog0 = {
+		key = "help_technolog0",
+		tip = {
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/technologytree1"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/technologytree2"
+				}
+			},
+			disableScroll = true,
+			pageMode = true,
+			defaultpage = 1,
+			ImageMode = true,
+			windowSize = {
+				x = 836,
+				y = 720
+			},
+			windowSize = {
+				x = 836,
+				y = 740
+			},
+			windowPos = {
+				y = 15
+			},
+			helpSize = {
+				x = 836,
+				y = 660
+			}
+		}
+	},
 	help_technolog = {
 		key = "help_technolog",
 		tip = {
 			{
 				icon = {
 					path = "",
-					atlas = "helpbg/technology"
+					atlas = "helpbg/technologytree1"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/technologytree2"
 				}
 			},
 			{
@@ -7503,9 +7588,15 @@ pg.gametip = {
 					atlas = "helpbg/blueprint_dev"
 				}
 			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/technology"
+				}
+			},
 			disableScroll = true,
 			pageMode = true,
-			defaultpage = 2,
+			defaultpage = 1,
 			ImageMode = true,
 			windowSize = {
 				x = 836,
@@ -7582,6 +7673,23 @@ pg.gametip = {
  「스페셜 프로젝트」함선은 한계돌파를 진행하지 않아도 레벨을
 100 이상으로 올릴 수 있으며, 최대 레벨 상승에는 물자와
 성정 유닛을 소비하는 「인식 각성」을 진행하셔야 합니다.]]
+			}
+		}
+	},
+	help_shipblueprintui_luck = {
+		key = "help_shipblueprintui_luck",
+		tip = {
+			{
+				info = [[
+「용골편찬」이란
+
+1. 스페셜 프로젝트 함선의 강화 레벨이<color=#A9F548>Lv.30</color>이 된 경우, 해당 함선의
+「용골 편찬」이 가능해집니다.
+2. 「용골편찬」에선, <color=#A9F548>최대 레벨5</color>까지 강화할 수 있으며, 함선에 
+대응하는<color=#A9F548>강화 유닛</color>을 소비하여 진척도를 100％까지 진행시키면 
+그 레벨의 용골편찬이 완료됩니다.
+3. 레벨<color=#A9F548>I～V</color>에선 함선의<color=#A9F548>「운」</color>스테이터스가 강화됩니다.
+4. 레벨<color=#A9F548>V</color>에선 <color=#A9F548>스킬</color>을 일부<color=#A9F548> 강화</color>할 수 있습니다.]]
 			}
 		}
 	},
@@ -9243,6 +9351,96 @@ P.S. 아군의 대공은 효율적으로 적의 제공수치를 낮춘다!
 	refuse_and_add_into_bl = {
 		tip = "거절 및 차단했습니다.",
 		key = "refuse_and_add_into_bl"
+	},
+	tech_simulate_closed = {
+		tip = "리뷰 기능(모의전)이 개방되지 않았습니다.",
+		key = "tech_simulate_closed"
+	},
+	tech_simulate_quit = {
+		tip = "리뷰 기능(모의전)을 종료하시겠습니까?",
+		key = "tech_simulate_quit"
+	},
+	technology_uplevel_error_no_res = {
+		tip = "<color=#A9F548>$1</color>물자를 소모하여 기술 레벨을 해제하시겠습니까?\n필요시간 : <color=#A9F548>$2</color>\n레벨변화 : <color=#A9F548>Lv.$3->Lv.$4</color> ",
+		key = "technology_uplevel_error_no_res"
+	},
+	help_technologytree = {
+		key = "help_technologytree",
+		tip = {
+			{
+				info = [[
+・함대 기술이란
+
+ 함대 기술 기능이란, 함선을 모아 고레벨을 달성하여 함대 
+전체를 강화하는 효과를 얻는 시스템입니다. 강화 효과는 【한계
+돌파를 3회 이상 실행한 함선】에 적용됩니다. 
+
+※이른바 「모항의 함선들을 편애 없이 골고루 키우는 것」에
+혜택이 가는 시스템입니다. 
+
+함대 기술은 나아가「함대 기술」,「진영 기술」로 나눌 수 있습니다. 
+
+「함대 기술」에 대해
+
+ 함대 기술이란, 함선을 육성함으로써 함대 전체에 강화 효과를 주는 
+시스템입니다. 함대 기술 화면에선, 실제 역사에 따른 기술의 발전 순서
+(Tier)에 따라 함선의 수집 및 기술 습득 상황을 확인할 수 있습니다. 
+아래 조건을 달성하면, 대응되는 함선 강화 효과를 얻을 수 
+있습니다. 
+・함선을 도감에 등록한다
+・함선의 레벨을 120으로 만든다.
+
+※같은 종류의 함선은 각각의 강화 효과를 한 번씩만 얻을 수 있습
+니다. 
+
+「진영 기술」에 대해
+
+ 진영 기술이란, 각 진영의 「기술 레벨」에 따라 함대 전체에 강화 
+효과를 주는 시스템입니다. 
+・진영 기술 항목의 '상세'를 터치하면, 이 항목의 강화 효과, 현재
+의 기술 레벨을 확인할 수 있습니다. 
+・기술 항목의 기술 레벨을 상승시키면, 강화 효과를 더욱 올릴 수 
+있습니다. 
+・기술 레벨을 상승시키려면 「물자」를 소비해야 하며, 추가로
+해당 진영 의 「기술 Pt」가 일정 수치 이상이어야 합니다. 
+ 또한, 기술 레벨의 상승은 동시에 하나의 진영에서만 실행할 수
+있습니다. 
+
+「기술Pt」에 대해
+
+ 진영 기술 레벨을 강화하려면, 각 진영에 대응하는 「기술 Pt」
+의 습득 및 축적이 필요합니다. 진영 기술 화면의 각 진영 배너
+를 터치하여 「기술 Pt」의 현재 수치를 확인할 수 
+있습니다. 
+기술Pt의 입수 방법은 다음과 같습니다：
+・새로운 함선을 도감에 등록한다
+・함선의 한계돌파 회수를 최대치로 만든다.
+・함선의 레벨을 120으로 만든다.
+
+ ※같은 종류의 함선은 각각의 기술 Pt를 한 번씩만 얻을 수 
+있습니다.]]
+			}
+		}
+	},
+	tech_change_version_mark = {
+		tip = "연구 지향 ",
+		key = "tech_change_version_mark"
+	},
+	technology_uplevel_error_studying = {
+		tip = "<color=#A9F548>$1</color>—진영 기술을 강화 중입니다.(진영 기술은 동시에 하나만 강화할 수 있습니다)",
+		key = "technology_uplevel_error_studying"
+	},
+	fate_attr_word = {
+		tip = "용골편찬에 따른 강화 효과：",
+		key = "fate_attr_word"
+	},
+	fate_phase_word = {
+		tip = "연구 진척",
+		key = "fate_phase_word"
+	},
+	blueprint_simulation_confirm = {
+		tip = "전술 모의전을 시작하시겠습니까?(전술 시뮬레이션 중 아군 함대는 특수 버프를 받게되며 <color=#D6341D>실제 성능은 획득 함선을 기준으로 측정됩니다.</color>",
+		key = "blueprint_simulation_confirm"
 	}
 }
 

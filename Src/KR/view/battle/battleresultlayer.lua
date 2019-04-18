@@ -578,8 +578,8 @@ function slot0.displayShips(slot0)
 				SetActive(findTF(SetActive, "exp"), true.getIntimacy() < true.getIntimacy())
 				SetActive(slot4, true.getIntimacy() < true.getIntimacy():getIntimacy() < true.getIntimacy() < true.getIntimacy():getIntimacy())
 
-				slot1 = getConfigFromLevel1(pg.ship_level, slot3.level).exp
-				slot5.fillAmount = true.getIntimacy() < true.getIntimacy().getIntimacy() < true.getIntimacy() < true.getIntimacy().getIntimacy():getExp() / getConfigFromLevel1(pg.ship_level, true.getIntimacy() < true.getIntimacy().getIntimacy() < true.getIntimacy() < true.getIntimacy().getIntimacy().level).exp
+				slot1 = slot3:getLevelExpConfig().exp
+				slot5.fillAmount = true.getIntimacy() < true.getIntimacy().getIntimacy() < true.getIntimacy() < true.getIntimacy().getIntimacy():getExp() / true.getIntimacy() < true.getIntimacy().getIntimacy() < true.getIntimacy() < true.getIntimacy().getIntimacy():getLevelExpConfig().exp
 				slot2 = false
 
 				if false then
@@ -592,9 +592,9 @@ function slot0.displayShips(slot0)
 					slot2 = true
 				end
 
-				if slot5.level < true.getIntimacy() < true.getIntimacy().getIntimacy() < true.getIntimacy() < true.getIntimacy().getIntimacy().getExp() / getConfigFromLevel1(pg.ship_level, true.getIntimacy() < true.getIntimacy().getIntimacy() < true.getIntimacy() < true.getIntimacy().getIntimacy().level).exp.level then
+				if slot5.level < true.getIntimacy() < true.getIntimacy().getIntimacy() < true.getIntimacy() < true.getIntimacy().getIntimacy().getExp() / true.getIntimacy() < true.getIntimacy().getIntimacy() < true.getIntimacy() < true.getIntimacy().getIntimacy().getLevelExpConfig().exp.level then
 					for slot6 = slot2.level, slot3.level - 1, 1 do
-						slot2 = slot2 + getConfigFromLevel1(pg.ship_level, slot6).exp
+						slot2 = slot2 + slot2:getLevelExpConfig(slot6).exp
 					end
 
 					slot6:PlayAnimation(slot0, 0, (slot2 + slot3:getExp()) - slot2:getExp(), 1, 0, function (slot0)
@@ -722,7 +722,7 @@ function slot0.displayShips(slot0)
 						slot0 = 0
 
 						for slot4 = slot3.level, slot4.level - 1, 1 do
-							slot0 = slot0 + getConfigFromLevel1(pg.ship_level, slot4).exp
+							slot0 = slot0 + slot3:getLevelExpConfig(slot4).exp
 						end
 
 						setText(slot7, "EXP+" .. (slot0 + slot4:getExp()) - slot3:getExp())
@@ -730,7 +730,7 @@ function slot0.displayShips(slot0)
 						setText(slot7, "EXP+" .. math.ceil(slot4:getExp() - slot3:getExp()))
 					end
 
-					slot8.fillAmount = slot4:getExp() / getConfigFromLevel1(pg.ship_level, slot4.level).exp
+					slot8.fillAmount = slot4:getExp() / slot4:getLevelExpConfig().exp
 				end
 
 				SetActive(SetActive, false)

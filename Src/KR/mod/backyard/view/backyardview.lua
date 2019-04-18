@@ -430,45 +430,52 @@ function slot0.initFurnitures(slot0)
 	slot2 = {}
 	slot3 = {}
 	slot4 = {}
+	slot5 = {}
+	slot6 = {}
+	slot7 = {}
+	slot8 = {}
+	slot9 = {}
 
-	for slot8, slot9 in pairs(slot0.furnitureVOs) do
-		if slot9:hasParent() then
-			table.insert(slot4, slot9)
-		elseif slot9:isStageFurniture() then
-			table.insert(slot2, slot9)
+	for slot13, slot14 in pairs(slot0.furnitureVOs) do
+		if slot14:hasParent() and slot14:hasChild() then
+			table.insert(slot4, slot14)
+		elseif slot14:hasParent() then
+			table.insert(slot5, slot14)
+		elseif slot14:isStageFurniture() then
+			table.insert(slot2, slot14)
 		else
-			table.insert(slot3, slot9)
+			table.insert(slot3, slot14)
 		end
 	end
 
-	slot5 = {}
-
-	for slot9, slot10 in ipairs(slot2) do
-		table.insert(slot5, function (slot0)
-			slot0(slot0, slot0)
-		end)
-	end
-
-	slot6 = {}
-
-	for slot10, slot11 in ipairs(slot3) do
+	for slot13, slot14 in ipairs(slot2) do
 		table.insert(slot6, function (slot0)
 			slot0(slot0, slot0)
 		end)
 	end
 
-	slot7 = {}
-
-	for slot11, slot12 in ipairs(slot4) do
+	for slot13, slot14 in ipairs(slot3) do
 		table.insert(slot7, function (slot0)
 			slot0(slot0, slot0)
 		end)
 	end
 
-	slot8 = {}
-
-	for slot12, slot13 in pairs(slot0.boatVOs) do
+	for slot13, slot14 in ipairs(slot4) do
 		table.insert(slot8, function (slot0)
+			slot0(slot0, slot0)
+		end)
+	end
+
+	for slot13, slot14 in ipairs(slot5) do
+		table.insert(slot9, function (slot0)
+			slot0(slot0, slot0)
+		end)
+	end
+
+	slot10 = {}
+
+	for slot14, slot15 in pairs(slot0.boatVOs) do
+		table.insert(slot10, function (slot0)
 			onNextTick(function ()
 				slot0:loadBoatModal(slot0, )
 			end)
@@ -486,6 +493,9 @@ function slot0.initFurnitures(slot0)
 		end,
 		function (slot0)
 			parallelAsync(slot0, slot0)
+		end,
+		function (slot0)
+			seriesAsync(slot0, slot0)
 		end,
 		function (slot0)
 			seriesAsync(slot0, slot0)
@@ -735,33 +745,24 @@ end
 function slot0.loadSpineAnimator(slot0, slot1, slot2)
 	if slot1:hasAnimator() then
 		slot3 = {}
-		slot5 = slot1:getAnimatorData()
-		slot6 = slot0.furnitureModals[slot1.id]
+		slot5 = slot0.furnitureModals[slot1.id]
 
-		for slot10 = 1, slot1:getSpineMaxCnt(), 1 do
-			table.insert(slot3, function (slot0)
-				if not slot0[] then
-					slot1 = slot0[1]
-				end
+		for slot9 = 1, slot1:getSpineMaxCnt(), 1 do
+			for slot14, slot15 in ipairs(slot10) do
+				table.insert(slot3, function (slot0)
+					LoadAndInstantiateAsync("sfurniture", slot0, function (slot0)
+						go(slot0).name = slot0:getAnimtorControlGoName(slot1 - 1, slot0)
 
-				LoadAndInstantiateAsync("sfurniture", slot1, function (slot0)
-					if slot0 == 1 then
-						slot1 = "animator"
-					else
-						slot1 = "animator" .. slot0 - 1
-					end
+						setActive(slot0, false)
+						SetParent(slot0, )
+						slot0()
 
-					go(slot0).name = slot1
-
-					setActive(slot0, false)
-					SetParent(slot0, slot1)
-					SetParent()
+						return
+					end)
 
 					return
 				end)
-
-				return
-			end)
+			end
 		end
 
 		parallelAsync(slot3, function ()
@@ -1156,24 +1157,9 @@ end
 function slot0.removeFurn(slot0, slot1)
 	slot2 = slot0.furnitureModals[slot1.id]
 
-	function slot3(slot0, slot1)
-		if IsNil(slot0:Find("char_" .. slot0)) then
-			if slot1 then
-				slot2 = slot0:Find("animator" .. slot1 .. "/char_" .. slot0)
-			else
-				slot2 = slot0:Find("animator/char_" .. slot0)
-			end
-		end
-
-		if IsNil(slot2) then
-			slot2 = slot0:Find("icon/char_" .. slot0)
-		end
-
-		if not IsNil(slot2) then
-			SetParent(slot2, slot1.floorContain)
-		end
-
-		slot1.shipModels[slot0]:setAction("stand2")
+	function slot3(slot0)
+		SetParent(slot0.shipModels[slot0].tf, slot0.floorContain)
+		slot0.shipModels[slot0]:setAction("stand2")
 
 		return
 	end
@@ -1205,7 +1191,7 @@ function slot0.removeFurn(slot0, slot1)
 
 	if slot1:hasSpineExtra() then
 		for slot7, slot8 in pairs(slot1:getShipExtra()) do
-			slot3(slot8, slot7)
+			slot3(slot8)
 		end
 	end
 
@@ -1771,24 +1757,31 @@ function slot0.willExit(slot0)
 end
 
 function slot0.clearFunriture(slot0, slot1)
+	slot3 = {
+		{
+			"grids",
+			"childs",
+			"mask"
+		},
+		{
+			"drag"
+		}
+	}
+
 	if slot0.furnitureModals[slot1.id] and slot1 then
-		if not IsNil(slot2:Find("icon")) then
-			Destroy(slot3)
-		end
+		slot4 = _.flatten(slot3)
 
-		for slot8, slot9 in pairs(slot4) do
-			if not IsNil(slot2:Find(BackYardConst.FURNITRUE_MASK_ORDER_NAME .. slot8)) then
-				Destroy(slot10)
+		eachChild(slot2, function (slot0)
+			if not table.contains(slot0, go(slot0).name) then
+				Destroy(slot0)
 			end
-		end
 
-		if not IsNil(slot2:Find(BackYardConst.FURNITRUE_MASK_NAME)) then
-			Destroy(slot5)
-		end
+			if table.contains(slot1[1], go(slot0).name) then
+				removeAllChildren(slot0)
+			end
 
-		if not IsNil(slot2:Find("animator")) then
-			Destroy(slot6)
-		end
+			return
+		end)
 	end
 
 	return

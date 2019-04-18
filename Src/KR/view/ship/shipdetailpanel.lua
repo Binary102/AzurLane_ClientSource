@@ -2,21 +2,24 @@ slot0 = class("ShipDetailPanel")
 slot1 = {
 	durability = AttributeType.Durability,
 	armor = AttributeType.Armor,
+	reload = AttributeType.Reload,
 	cannon = AttributeType.Cannon,
 	torpedo = AttributeType.Torpedo,
+	motion = AttributeType.Dodge,
 	antiaircraft = AttributeType.AntiAircraft,
 	air = AttributeType.Air,
-	reload = AttributeType.Reload,
-	luck = AttributeType.Expend,
-	motion = AttributeType.Dodge,
+	consume = AttributeType.Expend,
 	antisub = AttributeType.AntiSub,
 	oxy_max = AttributeType.OxyMax,
 	ammo = AttributeType.Ammo,
-	hunting_range = AttributeType.HuntingRange
+	hunting_range = AttributeType.HuntingRange,
+	luck = AttributeType.Luck
 }
 slot2 = 0.5
 slot3 = Vector3(1, 1, 1)
 slot4 = Vector3(1.3, 1.3, 1.3)
+slot0.EQUIPMENT_ADDITION = 0
+slot0.TECHNOLOGY_ADDITION = 1
 
 function slot0.Ctor(slot0, slot1, slot2)
 	pg.DelegateInfo.New(slot0)
@@ -34,8 +37,16 @@ function slot0.Ctor(slot0, slot1, slot2)
 	slot0.outline = findTF(slot0.tf, "level_bg/outline")
 	slot0.levelTip = findTF(slot0.tf, "level_bg/tip")
 	slot0.levelBg = findTF(slot0.tf, "level_bg")
-	slot0.armorNameTxt = slot0.tf:Find("icons"):GetChild(1):Find("name")
+	slot0.armorNameTxt = slot0.tf:Find("icons/armor"):Find("name")
 	slot0.maxlevel_tip = findTF(slot0.tf, "level_bg/maxlevel_tip")
+	slot0.evalueToggle = slot0.tf:Find("evalue_toggle")
+	slot0.evalueIndex = slot0.viewComponent.contextData.evalueIndex or slot0.EQUIPMENT_ADDITION
+
+	onToggle(slot0.viewComponent, slot0.evalueToggle, function ()
+		slot0.evalueIndex = 1 - slot0.evalueIndex
+
+		slot0:updateEvalues()
+	end)
 end
 
 function slot0.enableEvent(slot0, slot1)
@@ -44,6 +55,12 @@ function slot0.enableEvent(slot0, slot1)
 end
 
 function slot0.flush(slot0, slot1)
+	if not slot1:isMaxStar() and slot0.evalueIndex == slot0.TECHNOLOGY_ADDITION then
+		triggerToggle(slot0.evalueToggle, false)
+	end
+
+	setActive(slot0.evalueToggle, slot2)
+
 	slot0.shipDataTemplate = pg.ship_data_template[slot1.configId]
 	slot0.shipVO = slot1
 
@@ -52,7 +69,26 @@ function slot0.flush(slot0, slot1)
 	slot0:updateLevelInfo()
 end
 
+function slot0.updateEvalues(slot0)
+	slot1 = table.contains(TeamType.SubShipType, slot0.shipVO:getShipType())
+
+	for slot5, slot6 in pairs(slot0.additionValues.transforms) do
+		if slot5 == AttributeType.Armor or slot5 == AttributeType.Expend or (slot5 == AttributeType.HuntingRange and slot1) then
+			setText(slot6, "")
+			setActive(slot6, false)
+		else
+			setText(slot6, ((slot0.additionValues[slot0.evalueIndex][slot5] or 0) == 0 and "") or setColorStr(" +" .. (slot0.additionValues[slot0.evalueIndex][slot5] or 0), (slot0.evalueIndex == slot0.EQUIPMENT_ADDITION and COLOR_GREEN) or COLOR_YELLOW))
+			setActive(slot6, (slot0.additionValues[slot0.evalueIndex][slot5] or 0) ~= 0)
+		end
+	end
+end
+
 function slot0.updateShipAttrs(slot0)
+	slot0.additionValues = {
+		[slot0.EQUIPMENT_ADDITION] = {},
+		[slot0.TECHNOLOGY_ADDITION] = {},
+		transforms = {}
+	}
 	slot2 = table.contains(TeamType.SubShipType, slot0.shipVO.getShipType(slot1))
 	slot3 = intProperties(slot0.shipVO.getShipProperties(slot1))
 	slot7, slot7 = slot0.shipVO.getEquipmentProperties(slot1)
@@ -61,7 +97,7 @@ function slot0.updateShipAttrs(slot0)
 
 	setText(slot0.powerTxt, tostring(slot6))
 
-	for slot10, slot11 in pairs(slot0) do
+	for slot10, slot11 in pairs(slot1) do
 		slot13 = findTF(slot0.tf, "icons/" .. slot10)
 		slot14 = findTF(slot12, "value")
 		slot15 = findTF(slot12, "add")
@@ -76,23 +112,22 @@ function slot0.updateShipAttrs(slot0)
 		end
 
 		setText(slot14, slot16)
-		setText(slot15, "+" .. slot18)
-		setActive(slot15, slot18 ~= 0)
+
+		slot0.additionValues.transforms[slot11] = slot15
+		slot0.additionValues[0][slot11] = slot18
+		slot0.additionValues[1][slot11] = slot1:getTechNationAddition(slot11)
 
 		if slot11 == AttributeType.Armor then
 			setActive(slot14, false)
-			setActive(slot15, false)
 			setText(slot0.armorNameTxt, slot1:getShipArmorName())
 		elseif slot11 == AttributeType.Expend then
 			setText(findTF(slot12, "value"), slot1:getBattleTotalExpend())
-			setActive(slot15, false)
 		elseif slot11 == AttributeType.HuntingRange then
 			setActive(slot13, slot2)
 			setActive(slot12, slot2)
 
 			if slot2 then
 				setActive(slot14, false)
-				setActive(slot15, false)
 			end
 		elseif slot11 == AttributeType.AntiSub then
 			setActive(slot13, not slot2)
@@ -106,6 +141,8 @@ function slot0.updateShipAttrs(slot0)
 			end
 		end
 	end
+
+	slot0:updateEvalues()
 end
 
 function slot0.updateSKills(slot0)
@@ -126,7 +163,7 @@ function slot0.updateSKills(slot0)
 			if slot0[slot1 + 1] then
 				slot4 = getSkillConfig(slot3)
 
-				if slot1.skills[slot3] and slot5.id == 11720 and not slot1.transforms[3612] then
+				if slot1.skills[slot1:fateSkillChange(slot3)] and slot5.id == 11720 and not slot1.transforms[3612] then
 					slot5 = nil
 				end
 
@@ -146,21 +183,22 @@ function slot0.updateSKills(slot0)
 end
 
 function slot0.updateLevelInfo(slot0)
-	slot3 = nil
+	slot2 = slot0.shipVO.isReachNextMaxLevel(slot1)
+	slot4 = nil
 
 	if pg.ship_data_breakout[slot0.shipVO.configId].breakout_id > 0 then
-		slot3 = pg.ship_data_template[slot2.breakout_id]
+		slot4 = pg.ship_data_template[slot3.breakout_id]
 	end
 
 	setText(slot0.levelTxt, slot1.level)
 
-	slot4 = slot1:getLevelExpConfig()
+	slot5 = slot1:getLevelExpConfig()
 
-	print("最高等级为：" .. slot5)
+	print("最高等级为：" .. slot6)
 
 	if slot1.level ~= slot1:getMaxLevel() then
-		setSlider(slot0.levelSlider, 0, slot4.exp_interval, slot1.exp)
-		setText(slot0.expInfo, slot1.exp .. "/" .. slot4.exp_interval)
+		setSlider(slot0.levelSlider, 0, slot5.exp_interval, slot1.exp)
+		setText(slot0.expInfo, slot1.exp .. "/" .. slot5.exp_interval)
 
 		if slot0.maxlevel_tip then
 			setActive(slot0.maxlevel_tip, false)
@@ -169,16 +207,12 @@ function slot0.updateLevelInfo(slot0)
 		setSlider(slot0.levelSlider, 0, 1, 1)
 		setText(slot0.expInfo, slot1.exp .. "/Max")
 
-		if slot3 ~= nil and slot0.maxlevel_tip then
+		if slot4 ~= nil and slot0.maxlevel_tip and not slot2 then
 			setActive(slot0.maxlevel_tip, true)
-			setText(slot0.maxlevel_tip, i18n("max_level_notice", slot3.max_level))
-		elseif slot0.maxlevel_tip then
+			setText(slot0.maxlevel_tip, i18n("max_level_notice", slot4.max_level))
+		else
 			setActive(slot0.maxlevel_tip, false)
 		end
-	end
-
-	if slot1:isBluePrintShip() then
-		setActive(slot0.maxlevel_tip, false)
 	end
 
 	slot0:updateMaxLevel(slot1)
@@ -327,15 +361,20 @@ function slot0.doAttrAnim(slot0, slot1, slot2, slot3)
 		slot25 = slot9[slot17] or 1
 		slot26, slot27 = nil
 
-		if LOCK_EQUIP_DEVELOPMENT then
-			slot26 = slot5[slot17] or 0
-			slot27 = slot8[slot17] or 0
-		else
-			slot26 = math.floor(((slot5[slot17] or 0) + slot22) * slot23) - slot22
-			slot27 = math.floor(((slot8[slot17] or 0) + slot24) * slot25) - slot24
+		if slot0.evalueIndex == slot2.EQUIPMENT_ADDITION then
+			if LOCK_EQUIP_DEVELOPMENT then
+				slot26 = slot5[slot17] or 0
+				slot27 = slot8[slot17] or 0
+			else
+				slot26 = math.floor(((slot5[slot17] or 0) + slot22) * slot23) - slot22
+				slot27 = math.floor(((slot8[slot17] or 0) + slot24) * slot25) - slot24
+			end
+		elseif slot0.evalueIndex == slot2.TECHNOLOGY_ADDITION then
+			slot26 = slot1:getTechNationAddition(slot17)
+			slot27 = slot2:getTechNationAddition(slot17)
 		end
 
-		if slot22 ~= slot24 then
+		if slot24 ~= 0 then
 			table.insert(slot10, function (slot0)
 				TweenValue(slot0, TweenValue, , , 0, function (slot0)
 					setText(slot0, math.floor(slot0))
@@ -344,12 +383,16 @@ function slot0.doAttrAnim(slot0, slot1, slot2, slot3)
 			end)
 		end
 
-		if slot27 ~= 0 then
+		if slot26 < slot27 then
+			slot28 = (slot0.evalueIndex == slot2.EQUIPMENT_ADDITION and COLOR_GREEN) or COLOR_YELLOW
+
 			table.insert(slot10, function (slot0)
 				TweenValue(slot0, TweenValue, , , 0, function (slot0)
-					setText(slot0, "+" .. math.floor(slot0))
+					setText(slot0, setColorStr("+" .. math.floor(slot0), setText))
 				end, slot0)
-				slot4:scaleAnim(slot0, TweenValue, 0, slot3 / 2)
+				slot5:scaleAnim(slot0, 0, function (slot0)
+					setText(slot0, setColorStr("+" .. math.floor(slot0), setText))
+				end, slot3 / 2)
 			end)
 		end
 
@@ -359,31 +402,39 @@ function slot0.doAttrAnim(slot0, slot1, slot2, slot3)
 			setActive(slot20, false)
 			setActive(slot21, false)
 			setText(slot0.armorNameTxt, slot2:getShipArmorName())
-		elseif slot17 == AttributeType.Expend then
-			slot30 = findTF(slot19, "value")
+		else
+			if slot17 == AttributeType.Expend then
+				slot30 = findTF(slot19, "value")
 
-			if slot1:getBattleTotalExpend() ~= slot2:getBattleTotalExpend() then
-				table.insert(slot10, function (slot0)
-					TweenValue(slot0, TweenValue, , , 0, function (slot0)
-						setText(slot0, math.floor(slot0))
-					end, slot0)
-					slot4:scaleAnim(slot0, TweenValue, 0, slot3 / 2)
-				end)
-			end
+				if slot1:getBattleTotalExpend() ~= slot2:getBattleTotalExpend() then
+					table.insert(slot10, function (slot0)
+						TweenValue(slot0, TweenValue, , , 0, function (slot0)
+							setText(slot0, math.floor(slot0))
 
-			setActive(slot21, false)
-		elseif slot17 == AttributeType.OxyMax or slot17 == AttributeType.Tactics then
-			slot28 = table.contains(TeamType.SubShipType, slot2:getShipType())
+							return
+						end, slot0)
+						slot4:scaleAnim(slot0, TweenValue, 0, slot3 / 2)
 
-			setActive(slot18, slot28)
-			setActive(slot19, slot28)
+						return
+					end)
+				end
 
-			if slot28 and slot17 == AttributeType.Tactics then
-				slot29, slot34 = slot2:getTactics()
+				setActive(slot21, false)
+			else
+				if slot17 == AttributeType.OxyMax or slot17 == AttributeType.Tactics then
+					slot28 = table.contains(TeamType.SubShipType, slot2:getShipType())
 
-				setActive(slot20, false)
-				setActive(slot21, true)
-				setText(slot21, i18n(slot30))
+					setActive(slot18, slot28)
+					setActive(slot19, slot28)
+
+					if slot28 and slot17 == AttributeType.Tactics then
+						slot29, slot34 = slot2:getTactics()
+
+						setActive(slot20, false)
+						setActive(slot21, true)
+						setText(slot21, i18n(slot30))
+					end
+				end
 			end
 		end
 	end
@@ -392,6 +443,8 @@ function slot0.doAttrAnim(slot0, slot1, slot2, slot3)
 		if slot0 then
 			slot0()
 		end
+
+		return
 	end)
 end
 
@@ -402,7 +455,11 @@ function slot0.scaleAnim(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 		end
 
 		LeanTween.scale(go(go), go, slot3):setFrom(slot4):setOnComplete(System.Action(slot5))
+
+		return
 	end))
+
+	return
 end
 
 function slot0.clear(slot0)
@@ -421,6 +478,10 @@ function slot0.clear(slot0)
 	end
 
 	slot0:removeLevelUpTip()
+
+	slot0.additionValues = nil
+
+	return
 end
 
 return slot0

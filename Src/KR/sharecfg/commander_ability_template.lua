@@ -86,7 +86,7 @@ pg.commander_ability_template = {
 		name = "루키의 포격술 (순양)",
 		group_id = 11,
 		worth = 1,
-		desc = "<color=#5caafc>경순양함, 중순양함</color>의 포격 수치가 5 상승",
+		desc = "<color=#5caafc>경순양함, 중순양함, 장갑순양함</color>의 포격 수치가 5 상승",
 		next = 112,
 		id = 111,
 		icon = "xunyang_paoji_1",
@@ -96,7 +96,8 @@ pg.commander_ability_template = {
 				{},
 				{
 					2,
-					3
+					3,
+					18
 				},
 				2,
 				5
@@ -109,6 +110,10 @@ pg.commander_ability_template = {
 			},
 			{
 				"<중순양함>포격",
+				5
+			},
+			{
+				"<장갑순양함>포격",
 				5
 			}
 		}
@@ -118,7 +123,7 @@ pg.commander_ability_template = {
 		name = "숙련된 포격술 (순양)",
 		group_id = 11,
 		worth = 2,
-		desc = "<color=#5caafc>경순양함, 중순양함</color>의 포격 수치가 7 상승",
+		desc = "<color=#5caafc>경순양함, 중순양함, 장갑순양함</color>의 포격 수치가 7 상승",
 		next = 113,
 		id = 112,
 		icon = "xunyang_paoji_2",
@@ -128,7 +133,8 @@ pg.commander_ability_template = {
 				{},
 				{
 					2,
-					3
+					3,
+					18
 				},
 				2,
 				7
@@ -141,6 +147,10 @@ pg.commander_ability_template = {
 			},
 			{
 				"<중순양함>포격",
+				7
+			},
+			{
+				"<장갑순양함>포격",
 				7
 			}
 		}
@@ -150,7 +160,7 @@ pg.commander_ability_template = {
 		name = "포격 마스터 (순양)",
 		group_id = 11,
 		worth = 3,
-		desc = "<color=#5caafc>경순양함, 중순양함</color>의 포격 수치가 10 상승",
+		desc = "<color=#5caafc>경순양함, 중순양함, 장갑순양함</color>의 포격 수치가 10 상승",
 		next = 0,
 		id = 113,
 		icon = "xunyang_paoji_3",
@@ -160,7 +170,8 @@ pg.commander_ability_template = {
 				{},
 				{
 					2,
-					3
+					3,
+					18
 				},
 				2,
 				10
@@ -173,6 +184,10 @@ pg.commander_ability_template = {
 			},
 			{
 				"<중순양함>포격",
+				10
+			},
+			{
+				"<장갑순양함>포격",
 				10
 			}
 		}
@@ -757,7 +772,8 @@ pg.commander_ability_template = {
 				{
 					1,
 					2,
-					3
+					3,
+					18
 				},
 				4,
 				8
@@ -786,7 +802,8 @@ pg.commander_ability_template = {
 				{
 					1,
 					2,
-					3
+					3,
+					18
 				},
 				4,
 				11
@@ -815,7 +832,8 @@ pg.commander_ability_template = {
 				{
 					1,
 					2,
-					3
+					3,
+					18
 				},
 				4,
 				16
@@ -943,7 +961,8 @@ pg.commander_ability_template = {
 				{
 					1,
 					2,
-					3
+					3,
+					18
 				},
 				12,
 				4
@@ -972,7 +991,8 @@ pg.commander_ability_template = {
 				{
 					1,
 					2,
-					3
+					3,
+					18
 				},
 				12,
 				5
@@ -1001,7 +1021,8 @@ pg.commander_ability_template = {
 				{
 					1,
 					2,
-					3
+					3,
+					18
 				},
 				12,
 				8
@@ -1283,7 +1304,7 @@ pg.commander_ability_template = {
 		name = "루키의 장전술 (순양)",
 		group_id = 62,
 		worth = 1,
-		desc = "<color=#5caafc>경순양함, 중순양함</color>의 장전 수치가 4 상승",
+		desc = "<color=#5caafc>경순양함, 중순양함, 장갑순양함</color>의 장전 수치가 4 상승",
 		next = 622,
 		id = 621,
 		icon = "xunyang_one_1",
@@ -1293,7 +1314,8 @@ pg.commander_ability_template = {
 				{},
 				{
 					2,
-					3
+					3,
+					18
 				},
 				6,
 				4
@@ -1306,6 +1328,10 @@ pg.commander_ability_template = {
 			},
 			{
 				"<중순양함>장전",
+				4
+			},
+			{
+				"<장갑순양함>장전",
 				4
 			}
 		}
@@ -1315,7 +1341,7 @@ pg.commander_ability_template = {
 		name = "숙련된 장전술 (순양)",
 		group_id = 62,
 		worth = 2,
-		desc = "<color=#5caafc>경순양함, 중순양함</color>의 장전 수치가 5 상승",
+		desc = "<color=#5caafc>경순양함, 중순양함, 장갑순양함</color>의 장전 수치가 5 상승",
 		next = 623,
 		id = 622,
 		icon = "xunyang_one_2",
@@ -1325,7 +1351,8 @@ pg.commander_ability_template = {
 				{},
 				{
 					2,
-					3
+					3,
+					18
 				},
 				6,
 				5
@@ -1338,6 +1365,10 @@ pg.commander_ability_template = {
 			},
 			{
 				"<중순양함>장전",
+				5
+			},
+			{
+				"<장갑순양함>장전",
 				5
 			}
 		}
@@ -1347,7 +1378,7 @@ pg.commander_ability_template = {
 		name = "장전 마스터 (순양)",
 		group_id = 62,
 		worth = 3,
-		desc = "<color=#5caafc>경순양함, 중순양함</color>의 장전 수치가 8 상승",
+		desc = "<color=#5caafc>경순양함, 중순양함, 장갑순양함</color>의 장전 수치가 8 상승",
 		next = 0,
 		id = 623,
 		icon = "xunyang_one_3",
@@ -1357,7 +1388,8 @@ pg.commander_ability_template = {
 				{},
 				{
 					2,
-					3
+					3,
+					18
 				},
 				6,
 				8
@@ -1370,6 +1402,10 @@ pg.commander_ability_template = {
 			},
 			{
 				"<중순양함>장전",
+				8
+			},
+			{
+				"<장갑순양함>장전",
 				8
 			}
 		}
@@ -1847,7 +1883,7 @@ pg.commander_ability_template = {
 		name = "기관사 루키 (순양)",
 		group_id = 72,
 		worth = 1,
-		desc = "<color=#5caafc>경순양함, 중순양함</color>의 내구 수치가 50 상승",
+		desc = "<color=#5caafc>경순양함, 중순양함, 장갑순양함</color>의 내구 수치가 50 상승",
 		next = 722,
 		id = 721,
 		icon = "xunyang_naijiu_1",
@@ -1857,7 +1893,8 @@ pg.commander_ability_template = {
 				{},
 				{
 					2,
-					3
+					3,
+					18
 				},
 				1,
 				50
@@ -1870,6 +1907,10 @@ pg.commander_ability_template = {
 			},
 			{
 				"<중순양함>내구",
+				50
+			},
+			{
+				"<장갑순양함>내구",
 				50
 			}
 		}
@@ -1879,7 +1920,7 @@ pg.commander_ability_template = {
 		name = "숙련된 기관사 (순양)",
 		group_id = 72,
 		worth = 2,
-		desc = "<color=#5caafc>경순양함, 중순양함</color>의 내구 수치가 70 상승",
+		desc = "<color=#5caafc>경순양함, 중순양함, 장갑순양함</color>의 내구 수치가 70 상승",
 		next = 723,
 		id = 722,
 		icon = "xunyang_naijiu_2",
@@ -1889,7 +1930,8 @@ pg.commander_ability_template = {
 				{},
 				{
 					2,
-					3
+					3,
+					18
 				},
 				1,
 				70
@@ -1902,6 +1944,10 @@ pg.commander_ability_template = {
 			},
 			{
 				"<중순양함>내구",
+				70
+			},
+			{
+				"<장갑순양함>내구",
 				70
 			}
 		}
@@ -1911,7 +1957,7 @@ pg.commander_ability_template = {
 		name = "기관장 (순양)",
 		group_id = 72,
 		worth = 3,
-		desc = "<color=#5caafc>경순양함, 중순양함</color>의 내구 수치가 100 상승",
+		desc = "<color=#5caafc>경순양함, 중순양함, 장갑순양함</color>의 내구 수치가 100 상승",
 		next = 0,
 		id = 723,
 		icon = "xunyang_naijiu_3",
@@ -1921,7 +1967,8 @@ pg.commander_ability_template = {
 				{},
 				{
 					2,
-					3
+					3,
+					18
 				},
 				1,
 				100
@@ -1934,6 +1981,10 @@ pg.commander_ability_template = {
 			},
 			{
 				"<중순양함>내구",
+				100
+			},
+			{
+				"<장갑순양함>내구",
 				100
 			}
 		}
@@ -2341,7 +2392,8 @@ pg.commander_ability_template = {
 				{
 					1,
 					2,
-					3
+					3,
+					18
 				},
 				8,
 				3
@@ -2370,7 +2422,8 @@ pg.commander_ability_template = {
 				{
 					1,
 					2,
-					3
+					3,
+					18
 				},
 				8,
 				4
@@ -2399,7 +2452,8 @@ pg.commander_ability_template = {
 				{
 					1,
 					2,
-					3
+					3,
+					18
 				},
 				8,
 				6
@@ -2756,7 +2810,7 @@ pg.commander_ability_template = {
 		name = "조타수 루키 (대형함)",
 		group_id = 92,
 		worth = 1,
-		desc = "<color=#5caafc>전함, 순양전함, 항공모함, 항공전함</color>의 기동 수치가 1 상승",
+		desc = "<color=#5caafc>전함, 순양전함, 항공모함, 항공전함, 장갑순양함</color>의 기동 수치가 1 상승",
 		next = 922,
 		id = 921,
 		icon = "xunyang_one_1",
@@ -2768,7 +2822,8 @@ pg.commander_ability_template = {
 					4,
 					5,
 					7,
-					10
+					10,
+					18
 				},
 				9,
 				1
@@ -2798,7 +2853,7 @@ pg.commander_ability_template = {
 		name = "숙련된 조타수 (대형함)",
 		group_id = 92,
 		worth = 2,
-		desc = "<color=#5caafc>전함, 순양전함, 항공모함, 항공전함</color>의 기동 수치가 2 상승",
+		desc = "<color=#5caafc>전함, 순양전함, 항공모함, 항공전함, 장갑순양함</color>의 기동 수치가 2 상승",
 		next = 923,
 		id = 922,
 		icon = "xunyang_one_2",
@@ -2810,7 +2865,8 @@ pg.commander_ability_template = {
 					4,
 					5,
 					7,
-					10
+					10,
+					18
 				},
 				9,
 				2
@@ -2840,7 +2896,7 @@ pg.commander_ability_template = {
 		name = "항해사 (대형함)",
 		group_id = 92,
 		worth = 3,
-		desc = "<color=#5caafc>전함, 순양전함, 항공모함, 항공전함</color>의 기동 수치가 3 상승",
+		desc = "<color=#5caafc>전함, 순양전함, 항공모함, 항공전함, 장갑순양함</color>의 기동 수치가 3 상승",
 		next = 0,
 		id = 923,
 		icon = "xunyang_one_3",
@@ -2852,7 +2908,8 @@ pg.commander_ability_template = {
 					4,
 					5,
 					7,
-					10
+					10,
+					18
 				},
 				9,
 				3
@@ -3002,7 +3059,7 @@ pg.commander_ability_template = {
 		name = "루키의 참모 능력 (순양)",
 		group_id = 201,
 		worth = 1,
-		desc = "<color=#5caafc>경순양함, 중순양함</color>의 포격 수치가 5 상승, 뇌장 수치가 5 상승",
+		desc = "<color=#5caafc>경순양함, 중순양함, 장갑순양함</color>의 포격 수치가 5 상승、<color=#5caafc>경순양함, 중순양함</color>의 뇌장 수치가 5 상승",
 		next = 2012,
 		id = 2011,
 		icon = "xunyang_one_1",
@@ -3012,7 +3069,8 @@ pg.commander_ability_template = {
 				{},
 				{
 					2,
-					3
+					3,
+					18
 				},
 				2,
 				5
@@ -3022,7 +3080,8 @@ pg.commander_ability_template = {
 				{},
 				{
 					2,
-					3
+					3,
+					18
 				},
 				3,
 				5
@@ -3035,6 +3094,10 @@ pg.commander_ability_template = {
 			},
 			{
 				"<중순양함>포격",
+				5
+			},
+			{
+				"<장갑순양함>포격",
 				5
 			},
 			{
@@ -3052,7 +3115,7 @@ pg.commander_ability_template = {
 		name = "숙련된 참모 능력 (순양)",
 		group_id = 201,
 		worth = 2,
-		desc = "<color=#5caafc>경순양함, 중순양함</color>의 포격 수치가 7 상승, 뇌장 수치가 7 상승",
+		desc = "<color=#5caafc>경순양함, 중순양함, 장갑순양함</color>의 포격 수치가 7 상승、<color=#5caafc>경순양함, 중순양함</color>의 뇌장 수치가 7 상승",
 		next = 2013,
 		id = 2012,
 		icon = "xunyang_one_2",
@@ -3062,7 +3125,8 @@ pg.commander_ability_template = {
 				{},
 				{
 					2,
-					3
+					3,
+					18
 				},
 				2,
 				7
@@ -3072,7 +3136,8 @@ pg.commander_ability_template = {
 				{},
 				{
 					2,
-					3
+					3,
+					18
 				},
 				3,
 				7
@@ -3085,6 +3150,10 @@ pg.commander_ability_template = {
 			},
 			{
 				"<중순양함>포격",
+				7
+			},
+			{
+				"<장갑순양함>포격",
 				7
 			},
 			{
@@ -3102,7 +3171,7 @@ pg.commander_ability_template = {
 		name = "참모 마스터 (순양)",
 		group_id = 201,
 		worth = 3,
-		desc = "<color=#5caafc>경순양함, 중순양함</color>의 포격 수치가 10 상승, 뇌장 수치가 10 상승",
+		desc = "<color=#5caafc>경순양함, 중순양함, 장갑순양함</color>의 포격 수치가 10 상승、<color=#5caafc>경순양함, 중순양함</color>의 뇌장 수치가 10 상승",
 		next = 0,
 		id = 2013,
 		icon = "xunyang_one_3",
@@ -3112,7 +3181,8 @@ pg.commander_ability_template = {
 				{},
 				{
 					2,
-					3
+					3,
+					18
 				},
 				2,
 				10
@@ -3122,7 +3192,8 @@ pg.commander_ability_template = {
 				{},
 				{
 					2,
-					3
+					3,
+					18
 				},
 				3,
 				10
@@ -3135,6 +3206,10 @@ pg.commander_ability_template = {
 			},
 			{
 				"<중순양함>포격",
+				10
+			},
+			{
+				"<장갑순양함>포격",
 				10
 			},
 			{
@@ -4814,7 +4889,7 @@ pg.commander_ability_template = {
 		name = "임전무퇴",
 		group_id = 501,
 		worth = 1,
-		desc = "<color=#5caafc>경순양함, 중순양함</color>의 포격 수치가 10 상승，장전 수치가 12 상승",
+		desc = "<color=#5caafc>경순양함, 중순양함, 장갑순양함</color>의 포격 수치가 10 상승，장전 수치가 12 상승",
 		next = 0,
 		id = 5011,
 		icon = "jiandibizhan",
@@ -4824,7 +4899,8 @@ pg.commander_ability_template = {
 				{},
 				{
 					2,
-					3
+					3,
+					18
 				},
 				2,
 				10
@@ -4834,7 +4910,8 @@ pg.commander_ability_template = {
 				{},
 				{
 					2,
-					3
+					3,
+					18
 				},
 				6,
 				12
@@ -4850,11 +4927,19 @@ pg.commander_ability_template = {
 				10
 			},
 			{
+				"<장갑순양함>포격",
+				12
+			},
+			{
 				"<경순양함>장전",
 				12
 			},
 			{
 				"<중순양함>장전",
+				12
+			},
+			{
+				"<장갑순양함>장전",
 				12
 			}
 		}

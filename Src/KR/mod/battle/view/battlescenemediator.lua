@@ -192,7 +192,7 @@ function slot5.onAddShelter(slot0, slot1)
 
 	if slot1.Data.shelter.GetIFF(slot2) == slot0.FOE_CODE then
 		slot3.transform.localEulerAngles.y = 180
-		slot3.localEulerAngles = slot3.transform.localEulerAngles
+		slot3.transform.localEulerAngles = slot3.transform.localEulerAngles
 	end
 
 	slot0._shelterList[slot2:GetUniqueID()] = slot3

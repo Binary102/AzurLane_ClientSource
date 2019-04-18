@@ -41,5 +41,6 @@ end
 
 prepareLevelExpConfig(pg.user_level)
 prepareLevelExpConfig(pg.ship_level)
+prepareLevelExpConfig(pg.ship_level, "exp_ur")
 
 return

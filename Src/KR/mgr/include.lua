@@ -17,7 +17,8 @@ require("Mgr/Pool/PoolMgr")
 require("Mgr/SystemOpenMgr")
 require("Mgr/ShareMgr")
 require("Mgr/PushNotificationMgr")
-require("Mgr/Live2DMgr")
 require("Mgr/SDKMgr")
+require("Mgr/Live2DMgr")
+require("Mgr/TecToastMgr")
 
 return

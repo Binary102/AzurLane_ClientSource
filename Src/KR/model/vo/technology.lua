@@ -6,15 +6,12 @@ slot0.STATE_FINISHED = 3
 function slot0.Ctor(slot0, slot1)
 	slot0.id = slot1.id
 	slot0.configId = slot0.id
+	slot0.poolId = slot1.pool_id
 	slot0.time = slot1.time
-	slot0.state = slot0.STATE_IDLE
+	slot0.state = (slot0.time > 0 and slot0.STATE_STARTING) or slot0.STATE_IDLE
 
-	if slot0.time > 0 then
-		if slot0:canFinish() then
-			slot0.state = slot0.STATE_FINISHED
-		else
-			slot0.state = slot0.STATE_STARTING
-		end
+	if slot0.time > 0 and slot0:canFinish() then
+		slot0.state = slot0.STATE_FINISHED
 	end
 end
 

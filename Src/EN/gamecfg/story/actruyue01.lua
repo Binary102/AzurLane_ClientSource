@@ -49,7 +49,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = -1,
-			actor = 312011,
+			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "呜…怎么办才好喵……",
 			typewriter = {
@@ -77,7 +77,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 301181,
+			actor = 301180,
 			actorName = "{namecode:20}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -97,7 +97,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = -1,
-			actor = 312011,
+			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "是那个喵…前不久那批本来应该取消的食材订单喵…",
 			typewriter = {
@@ -114,7 +114,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 301181,
+			actor = 301180,
 			actorName = "{namecode:20}",
 			say = "我记得…你说回头就处理掉的",
 			typewriter = {
@@ -131,7 +131,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = -1,
-			actor = 312011,
+			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "{namecode:98}此生最大的失误喵…大出血喵…",
 			typewriter = {
@@ -158,7 +158,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 301181,
+			actor = 301180,
 			actorName = "{namecode:20}",
 			say = "这些食材要怎么办呢…放着不管的话很快就要过期了…而且还是夏天…",
 			typewriter = {
@@ -175,7 +175,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 301181,
+			actor = 301180,
 			actorName = "{namecode:20}",
 			say = "冷藏库也已经放不下了…",
 			typewriter = {
@@ -192,7 +192,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = -1,
-			actor = 312011,
+			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "夏天…冷藏库…食材…",
 			typewriter = {
@@ -209,7 +209,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = -1,
-			actor = 312011,
+			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "既、既然如此，就来开个火锅大会喵！",
 			typewriter = {
@@ -236,7 +236,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 301181,
+			actor = 301180,
 			actorName = "{namecode:20}",
 			say = "火、火锅大会？！刚才那几个词究竟是怎么让你联想到这个的…",
 			typewriter = {
@@ -263,7 +263,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = -1,
-			actor = 312011,
+			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "不、不要吐槽喵！不可以浪费粮食喵！就算是夏天，好吃的东西还是好吃的喵！",
 			typewriter = {
@@ -280,7 +280,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 301181,
+			actor = 301180,
 			actorName = "{namecode:20}",
 			say = "就算你这么说…真的会有人来参加吗…盛夏的火锅大会…",
 			typewriter = {
@@ -297,7 +297,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = -1,
-			actor = 312011,
+			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "一定会有的喵！{namecode:98}去邀请大家，{namecode:20}就一边做准备吧！食材的处理还有其他各种各样的准备喵！",
 			typewriter = {
@@ -315,7 +315,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			actor = 301181,
+			actor = 301180,
 			actorName = "{namecode:20}",
 			say = "好、好吧……",
 			typewriter = {

@@ -15,7 +15,7 @@ return {
 			}
 		},
 		{
-			actor = 401234,
+			actor = 401230,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -30,7 +30,7 @@ return {
 			}
 		},
 		{
-			actor = 201214,
+			actor = 201210,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
@@ -49,7 +49,7 @@ return {
 			}
 		},
 		{
-			actor = 101174,
+			actor = 101170,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -64,7 +64,7 @@ return {
 			}
 		},
 		{
-			actor = 201214,
+			actor = 201210,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -79,7 +79,7 @@ return {
 			}
 		},
 		{
-			actor = 101174,
+			actor = 101170,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -94,7 +94,7 @@ return {
 			}
 		},
 		{
-			actor = 401234,
+			actor = 401230,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -109,7 +109,7 @@ return {
 			}
 		},
 		{
-			actor = 201214,
+			actor = 201210,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -124,7 +124,7 @@ return {
 			}
 		},
 		{
-			actor = 401234,
+			actor = 401230,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -139,7 +139,7 @@ return {
 			}
 		},
 		{
-			actor = 201214,
+			actor = 201210,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -154,7 +154,7 @@ return {
 			}
 		},
 		{
-			actor = 201214,
+			actor = 201210,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -169,7 +169,7 @@ return {
 			}
 		},
 		{
-			actor = 401234,
+			actor = 401230,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -184,7 +184,7 @@ return {
 			}
 		},
 		{
-			actor = 101174,
+			actor = 101170,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -199,7 +199,7 @@ return {
 			}
 		},
 		{
-			actor = 401234,
+			actor = 401230,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -214,7 +214,7 @@ return {
 			}
 		},
 		{
-			actor = 301054,
+			actor = 301050,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
@@ -233,7 +233,7 @@ return {
 			side = 1,
 			say = "Woooahhh! Ayayanami?",
 			dir = 1,
-			actor = 401234,
+			actor = 401230,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -255,7 +255,7 @@ return {
 			}
 		},
 		{
-			actor = 201214,
+			actor = 201210,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -270,7 +270,7 @@ return {
 			}
 		},
 		{
-			actor = 401234,
+			actor = 401230,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -285,7 +285,7 @@ return {
 			}
 		},
 		{
-			actor = 301054,
+			actor = 301050,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
@@ -301,7 +301,7 @@ return {
 			}
 		},
 		{
-			actor = 201214,
+			actor = 201210,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -316,7 +316,7 @@ return {
 			}
 		},
 		{
-			actor = 301054,
+			actor = 301050,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
@@ -332,7 +332,7 @@ return {
 			}
 		},
 		{
-			actor = 201214,
+			actor = 201210,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -347,7 +347,7 @@ return {
 			}
 		},
 		{
-			actor = 401234,
+			actor = 401230,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -362,7 +362,7 @@ return {
 			}
 		},
 		{
-			actor = 101174,
+			actor = 101170,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -377,7 +377,7 @@ return {
 			}
 		},
 		{
-			actor = 201214,
+			actor = 201210,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -397,12 +397,12 @@ return {
 			actorName = "{namecode:6} & Z23",
 			hideOther = true,
 			dir = 1,
-			actor = 301054,
+			actor = 301050,
 			nameColor = "#a9f548",
 			say = "On it!",
 			subActors = {
 				{
-					actor = 401234,
+					actor = 401230,
 					pos = {
 						x = 685
 					}
@@ -418,7 +418,7 @@ return {
 			}
 		},
 		{
-			actor = 101174,
+			actor = 101170,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -437,7 +437,7 @@ return {
 			side = 0,
 			dir = 1,
 			blackBg = true,
-			actor = 201214,
+			actor = 201210,
 			nameColor = "#a9f548",
 			say = "Ehehehe~ Just relax, it'll be fine~",
 			flashout = {
@@ -472,7 +472,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			actor = 301054,
+			actor = 301050,
 			actorName = "{namecode:6}",
 			say = "Laffey's skin... so smooth...",
 			typewriter = {
@@ -489,7 +489,7 @@ return {
 			side = 0,
 			dir = 1,
 			blackBg = true,
-			actor = 101174,
+			actor = 101170,
 			nameColor = "#a9f548",
 			say = "Cold... Itchy...",
 			typewriter = {
@@ -506,7 +506,7 @@ return {
 			side = 0,
 			dir = 1,
 			blackBg = true,
-			actor = 401234,
+			actor = 401230,
 			nameColor = "#a9f548",
 			say = "Keep it PG-13, you two... Well, whatever...",
 			typewriter = {
@@ -521,7 +521,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			actor = 201214,
+			actor = 201210,
 			nameColor = "#a9f548",
 			say = "Transformation complete~! Laffey, what do you think?",
 			flashout = {
@@ -551,7 +551,7 @@ return {
 			}
 		},
 		{
-			actor = 900065,
+			actor = 101172,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -570,7 +570,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 301054,
+			actor = 301050,
 			actorName = "{namecode:6}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -586,7 +586,7 @@ return {
 			}
 		},
 		{
-			actor = 401234,
+			actor = 401230,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -601,7 +601,7 @@ return {
 			}
 		},
 		{
-			actor = 201214,
+			actor = 201210,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -616,7 +616,7 @@ return {
 			}
 		},
 		{
-			actor = 301054,
+			actor = 301050,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -632,7 +632,7 @@ return {
 			}
 		},
 		{
-			actor = 900065,
+			actor = 101172,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -647,7 +647,7 @@ return {
 			}
 		},
 		{
-			actor = 401234,
+			actor = 401230,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -662,7 +662,7 @@ return {
 			}
 		},
 		{
-			actor = 201214,
+			actor = 201210,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -677,7 +677,7 @@ return {
 			}
 		},
 		{
-			actor = 301054,
+			actor = 301050,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
@@ -697,18 +697,18 @@ return {
 			side = 0,
 			actorName = "Everyone",
 			hideOther = true,
-			actor = 401234,
+			actor = 401230,
 			nameColor = "#a9f548",
 			say = "……",
 			subActors = {
 				{
-					actor = 900065,
+					actor = 101172,
 					pos = {
 						x = 350
 					}
 				},
 				{
-					actor = 201214,
+					actor = 201210,
 					pos = {
 						x = 750
 					}

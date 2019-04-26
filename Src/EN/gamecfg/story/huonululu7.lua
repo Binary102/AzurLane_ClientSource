@@ -52,7 +52,7 @@ return {
 			}
 		},
 		{
-			actor = 102121,
+			actor = 102120,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -68,7 +68,7 @@ return {
 			}
 		},
 		{
-			actor = 102121,
+			actor = 102120,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -97,7 +97,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 102121,
+			actor = 102120,
 			nameColor = "#a9f548",
 			say = "Wait... Isn't this... that teddy bear I saw earlier...?!",
 			typewriter = {
@@ -120,7 +120,7 @@ return {
 			}
 		},
 		{
-			actor = 102121,
+			actor = 102120,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -136,7 +136,7 @@ return {
 			}
 		},
 		{
-			actor = 102121,
+			actor = 102120,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -157,7 +157,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			bgm = "story-2",
-			actor = 102121,
+			actor = 102120,
 			nameColor = "#a9f548",
 			say = "Honolulu seemed to relax as she hugged the large teddy bear I'd given her.",
 			typewriter = {
@@ -174,7 +174,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			withoutActorName = true,
-			actor = 102121,
+			actor = 102120,
 			nameColor = "#a9f548",
 			say = "She then took a deep breath, and it seemed like she was determined to say something...",
 			typewriter = {
@@ -187,7 +187,7 @@ return {
 			}
 		},
 		{
-			actor = 102121,
+			actor = 102120,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -203,7 +203,7 @@ return {
 			}
 		},
 		{
-			actor = 102121,
+			actor = 102120,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -219,7 +219,7 @@ return {
 			}
 		},
 		{
-			actor = 102121,
+			actor = 102120,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -239,7 +239,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			withoutActorName = true,
-			actor = 102121,
+			actor = 102120,
 			nameColor = "#a9f548",
 			say = "Honolulu was blushing. Her expression turned as deep red as her hair.",
 			typewriter = {
@@ -252,7 +252,7 @@ return {
 			}
 		},
 		{
-			actor = 102121,
+			actor = 102120,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -272,7 +272,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			withoutActorName = true,
-			actor = 102121,
+			actor = 102120,
 			nameColor = "#a9f548",
 			say = "Honolulu hid her face behind her teddy bear. Maybe she'd mustered every last bit of her courage to say of all that.",
 			typewriter = {
@@ -294,7 +294,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 102121,
+			actor = 102120,
 			nameColor = "#a9f548",
 			say = "... W-wha...?! Geesh... N-next time, tell me before you do that...",
 			typewriter = {
@@ -329,7 +329,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			blackBg = true,
-			actor = 102121,
+			actor = 102120,
 			nameColor = "#a9f548",
 			say = "... Thank you, Commander...",
 			typewriter = {

@@ -4,7 +4,7 @@ return {
 	once = true,
 	scripts = {
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 2,
 			dir = -1,
 			say = "Almost there, nyaa~",
@@ -18,7 +18,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 2,
 			dir = -1,
 			say = "I’m ready to go~ {namecode:98} is going to the port waiting for the Commander to return. Nya~",

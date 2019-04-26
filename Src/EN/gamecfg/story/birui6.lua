@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			actor = 304021,
+			actor = 304020,
 			nameColor = "#a9f548",
 			say = "呵呵，果然{namecode:73}还是一样很受欢迎呢",
 			flashout = {
@@ -55,7 +55,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 304021,
+			actor = 304020,
 			nameColor = "#a9f548",
 			say = "真亏她能周旋在那么多女孩子之间呀…看来是天性的魅力使然呢。",
 			typewriter = {
@@ -74,7 +74,7 @@ return {
 			}
 		},
 		{
-			actor = 304021,
+			actor = 304020,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -104,7 +104,7 @@ return {
 			bgName = "bg_night",
 			dir = -1,
 			bgm = "story-1",
-			actor = 312011,
+			actor = 312010,
 			nameColor = "#a9f548",
 			say = "发现指挥官和{namecode:71}了喵！",
 			typewriter = {
@@ -121,7 +121,7 @@ return {
 			side = 1,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 301181,
+			actor = 301180,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -137,7 +137,7 @@ return {
 			}
 		},
 		{
-			actor = 304021,
+			actor = 304020,
 			side = 0,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -153,7 +153,7 @@ return {
 			}
 		},
 		{
-			actor = 301181,
+			actor = 301180,
 			side = 1,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -172,7 +172,7 @@ return {
 			side = 0,
 			bgName = "bg_night",
 			dir = -1,
-			actor = 312011,
+			actor = 312010,
 			nameColor = "#a9f548",
 			say = "{namecode:98}准备的材料，怎么可能不好喵！",
 			typewriter = {
@@ -195,7 +195,7 @@ return {
 			}
 		},
 		{
-			actor = 301181,
+			actor = 301180,
 			side = 1,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -211,7 +211,7 @@ return {
 			}
 		},
 		{
-			actor = 304011,
+			actor = 304010,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -231,7 +231,7 @@ return {
 			side = 0,
 			bgName = "bg_night",
 			dir = -1,
-			actor = 312011,
+			actor = 312010,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -247,7 +247,7 @@ return {
 			}
 		},
 		{
-			actor = 304021,
+			actor = 304020,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -267,7 +267,7 @@ return {
 			side = 1,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 304011,
+			actor = 304010,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -287,7 +287,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 304011,
+			actor = 304010,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -306,7 +306,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = -1,
-			actor = 312011,
+			actor = 312010,
 			nameColor = "#a9f548",
 			say = "喵！？不要把{namecode:98}举起来喵，{namecode:98}自己会走路喵！",
 			typewriter = {
@@ -329,7 +329,7 @@ return {
 			}
 		},
 		{
-			actor = 301181,
+			actor = 301180,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -345,7 +345,7 @@ return {
 			}
 		},
 		{
-			actor = 304011,
+			actor = 304010,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -361,7 +361,7 @@ return {
 			}
 		},
 		{
-			actor = 304021,
+			actor = 304020,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -387,7 +387,7 @@ return {
 			}
 		},
 		{
-			actor = 304021,
+			actor = 304020,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -407,7 +407,7 @@ return {
 			bgName = "bg_night",
 			dir = 1,
 			blackBg = true,
-			actor = 304021,
+			actor = 304020,
 			nameColor = "#a9f548",
 			say = "指挥官，不知有没有荣幸邀请您一起跳支舞呢？",
 			typewriter = {

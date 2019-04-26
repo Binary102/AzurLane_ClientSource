@@ -73,7 +73,7 @@ return {
 			}
 		},
 		{
-			actor = 401461,
+			actor = 401460,
 			side = 2,
 			bgName = "bg_story_task",
 			say = "Is it fine to put these resources here? Mm... I shall do as you have commanded.",
@@ -87,7 +87,7 @@ return {
 			}
 		},
 		{
-			actor = 401461,
+			actor = 401460,
 			side = 2,
 			bgName = "bg_story_task",
 			say = "...Humans are amusing beings after all. Even just to simply move some weapons, one must first fill out so much paperwork.",
@@ -101,7 +101,7 @@ return {
 			}
 		},
 		{
-			actor = 401461,
+			actor = 401460,
 			side = 2,
 			bgName = "bg_story_task",
 			say = "Procuring and storing our precious fuel, securing ammunition and rations, acquiring and disposing of supplies, performing maintenance on equipment, even tracking personal expenses... daily life proves to be quite cumbersome.",
@@ -115,7 +115,7 @@ return {
 			}
 		},
 		{
-			actor = 401461,
+			actor = 401460,
 			side = 2,
 			bgName = "bg_story_task",
 			say = "Having that said, this arrangement is fine. Being secretary indeed has its perks; it can sometimes provide the illusion, that I have some say in running the fleet.",
@@ -165,7 +165,7 @@ return {
 			}
 		},
 		{
-			actor = 401461,
+			actor = 401460,
 			side = 2,
 			bgName = "bg_story_task",
 			say = "I have come to deliver the reports. Commander, please accept my humble work.",
@@ -179,7 +179,7 @@ return {
 			}
 		},
 		{
-			actor = 401461,
+			actor = 401460,
 			side = 2,
 			bgName = "bg_story_task",
 			say = "I have finished accounting for this month; the Iron Blood Dorm is barely in the red.",
@@ -193,7 +193,7 @@ return {
 			}
 		},
 		{
-			actor = 401461,
+			actor = 401460,
 			side = 2,
 			bgName = "bg_story_task",
 			say = "Conservation is of utmost import; and though destroyers accept this tenet, the heavy cruisers were hard to persuade. Battleships have always been expensive, and because of that, it's hard to cut costs.",
@@ -219,7 +219,7 @@ return {
 			}
 		},
 		{
-			actor = 401461,
+			actor = 401460,
 			side = 2,
 			bgName = "bg_story_task",
 			say = "Though I understand the meaning of praise, I still know not the purpose of this touch. ",
@@ -233,7 +233,7 @@ return {
 			}
 		},
 		{
-			actor = 401461,
+			actor = 401460,
 			side = 2,
 			bgName = "bg_story_task",
 			say = "If it will not increase what I am paid, what is the benefit of such contact?",

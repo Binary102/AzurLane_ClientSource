@@ -50,7 +50,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			withoutActorName = true,
-			actor = 102121,
+			actor = 102120,
 			nameColor = "#a9f548",
 			say = "My secretary, Honolulu, was standing in front of a bookcase and sorting documents.",
 			typewriter = {
@@ -67,7 +67,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			withoutActorName = true,
-			actor = 102121,
+			actor = 102120,
 			nameColor = "#a9f548",
 			say = "......",
 			typewriter = {
@@ -80,7 +80,7 @@ return {
 			}
 		},
 		{
-			actor = 102121,
+			actor = 102120,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -100,7 +100,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			withoutActorName = true,
-			actor = 102121,
+			actor = 102120,
 			nameColor = "#a9f548",
 			say = "...... (The Commander silently stopped observing Honolulu.)",
 			typewriter = {
@@ -113,7 +113,7 @@ return {
 			}
 		},
 		{
-			actor = 102121,
+			actor = 102120,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -133,7 +133,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			withoutActorName = true,
-			actor = 102121,
+			actor = 102120,
 			nameColor = "#a9f548",
 			say = "...... (The Commander silently nodded in agreement.)",
 			typewriter = {
@@ -146,7 +146,7 @@ return {
 			}
 		},
 		{
-			actor = 102121,
+			actor = 102120,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -166,7 +166,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			withoutActorName = true,
-			actor = 102121,
+			actor = 102120,
 			nameColor = "#a9f548",
 			say = "...... (The Commander silently got ready to inspect Honolulu's equipment.)",
 			typewriter = {
@@ -179,7 +179,7 @@ return {
 			}
 		},
 		{
-			actor = 102121,
+			actor = 102120,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -199,7 +199,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			withoutActorName = true,
-			actor = 102121,
+			actor = 102120,
 			nameColor = "#a9f548",
 			say = "...... (The Commander silently confirmed the results of the commission.)",
 			typewriter = {
@@ -255,7 +255,7 @@ return {
 			}
 		},
 		{
-			actor = 102121,
+			actor = 102120,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -271,7 +271,7 @@ return {
 			}
 		},
 		{
-			actor = 102121,
+			actor = 102120,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -287,7 +287,7 @@ return {
 			}
 		},
 		{
-			actor = 102121,
+			actor = 102120,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -303,7 +303,7 @@ return {
 			}
 		},
 		{
-			actor = 102121,
+			actor = 102120,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -319,7 +319,7 @@ return {
 			}
 		},
 		{
-			actor = 102121,
+			actor = 102120,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",

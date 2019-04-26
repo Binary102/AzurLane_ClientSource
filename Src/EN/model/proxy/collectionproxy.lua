@@ -107,22 +107,48 @@ function slot0.getLinkCollectionCount(slot0)
 end
 
 function slot0.flushCollection(slot0, slot1)
+	slot3 = nil
+
 	if not slot0:getShipGroup(slot1.groupId) then
 		slot2 = ShipGroup.New({
 			heart_flag = 0,
 			heart_count = 0,
+			lv_max = 1,
 			id = slot1.groupId,
 			star = slot1:getStar(),
 			marry_flag = (slot1.propose and 1) or 0,
 			intimacy_max = slot1.intimacy
 		})
+
+		if OPEN_TEC_TREE_SYSTEM and table.indexof(pg.fleet_tech_ship_template.all, slot1.groupId, 1) then
+			slot3 = true
+		end
 	else
+		if OPEN_TEC_TREE_SYSTEM and table.indexof(pg.fleet_tech_ship_template.all, slot1.groupId, 1) then
+			if slot2.star < slot1:getStar() and slot1:getStar() == pg.fleet_tech_ship_template[slot1.groupId].max_star then
+				slot3 = true
+
+				pg.TecToastMgr:GetInstance():tryShow(pg.fleet_tech_ship_template[slot1.groupId].pt_upgrage)
+			end
+
+			if slot2.maxLV < slot1.level and slot1.level == TechnologyConst.MAX_LV then
+				slot3 = true
+
+				pg.TecToastMgr:GetInstance():tryShow(pg.fleet_tech_ship_template[slot1.groupId].pt_level, pg.fleet_tech_ship_template[slot1.groupId].add_level_shiptype, pg.fleet_tech_ship_template[slot1.groupId].add_level_attr, pg.fleet_tech_ship_template[slot1.groupId].add_level_value)
+			end
+		end
+
 		slot2.star = math.max(slot2.star, slot1:getStar())
 		slot2.maxIntimacy = math.max(slot2.maxIntimacy, slot1.intimacy)
 		slot2.married = math.max(slot2.married, (slot1.propose and 1) or 0)
+		slot2.maxLV = math.max(slot2.maxLV, slot1.level)
 	end
 
 	slot0:updateShipGroup(slot2)
+
+	if slot3 then
+		getProxy(TechnologyNationProxy):flushData()
+	end
 end
 
 return slot0

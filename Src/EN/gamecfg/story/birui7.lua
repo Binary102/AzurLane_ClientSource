@@ -50,7 +50,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -66,7 +66,7 @@ return {
 			}
 		},
 		{
-			actor = 304011,
+			actor = 304010,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -82,7 +82,7 @@ return {
 			}
 		},
 		{
-			actor = 304031,
+			actor = 304030,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -98,7 +98,7 @@ return {
 			}
 		},
 		{
-			actor = 304041,
+			actor = 304040,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -114,7 +114,7 @@ return {
 			}
 		},
 		{
-			actor = 304021,
+			actor = 304020,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -135,7 +135,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-2",
-			actor = 304021,
+			actor = 304020,
 			nameColor = "#a9f548",
 			say = "呼…结束了呢",
 			flashout = {
@@ -165,7 +165,7 @@ return {
 			}
 		},
 		{
-			actor = 304021,
+			actor = 304020,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -181,7 +181,7 @@ return {
 			}
 		},
 		{
-			actor = 304021,
+			actor = 304020,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -200,7 +200,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 304021,
+			actor = 304020,
 			nameColor = "#a9f548",
 			say = "呵呵，不过即使如此，我还是喜欢这样热闹的宴会呢",
 			typewriter = {
@@ -219,7 +219,7 @@ return {
 			}
 		},
 		{
-			actor = 304021,
+			actor = 304020,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -235,7 +235,7 @@ return {
 			}
 		},
 		{
-			actor = 304021,
+			actor = 304020,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -251,7 +251,7 @@ return {
 			}
 		},
 		{
-			actor = 304021,
+			actor = 304020,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -267,7 +267,7 @@ return {
 			}
 		},
 		{
-			actor = 304021,
+			actor = 304020,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -283,7 +283,7 @@ return {
 			}
 		},
 		{
-			actor = 304021,
+			actor = 304020,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -299,7 +299,7 @@ return {
 			}
 		},
 		{
-			actor = 304021,
+			actor = 304020,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -338,7 +338,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 304021,
+			actor = 304020,
 			nameColor = "#a9f548",
 			say = "跳舞…现在吗？宴会已经结束了哟？也没有音乐呢…",
 			flashout = {
@@ -378,7 +378,7 @@ return {
 			}
 		},
 		{
-			actor = 304021,
+			actor = 304020,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -394,7 +394,7 @@ return {
 			}
 		},
 		{
-			actor = 304021,
+			actor = 304020,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",

@@ -4,7 +4,7 @@ return {
 	once = true,
 	scripts = {
 		{
-			actor = 405021,
+			actor = 405020,
 			side = 2,
 			nameColor = "#ff0000",
 			say = "So you were the ones chosen by the Creator. I have no choice but to acknowledge the gap in power between us.",
@@ -22,7 +22,7 @@ return {
 			}
 		},
 		{
-			actor = 405021,
+			actor = 405020,
 			side = 2,
 			nameColor = "#ff0000",
 			say = "I now finally understand what my dreams mean. That there is a real world that lies beyond this mirrored one...",
@@ -40,7 +40,7 @@ return {
 			}
 		},
 		{
-			actor = 405021,
+			actor = 405020,
 			side = 2,
 			nameColor = "#ff0000",
 			say = "And in that real world, there is another me who is fighting for Ironblood...",
@@ -58,7 +58,7 @@ return {
 			}
 		},
 		{
-			actor = 405021,
+			actor = 405020,
 			side = 2,
 			nameColor = "#ff0000",
 			say = "Hahah... \"Fight for your hopes and beliefs\"... That's what I've always been unable to do in this world...",
@@ -76,7 +76,7 @@ return {
 			}
 		},
 		{
-			actor = 405021,
+			actor = 405020,
 			side = 2,
 			nameColor = "#ff0000",
 			say = "If you happen to meet me again... could you tell me something? ...That \"I want you to fight proudly till the very end\"...",

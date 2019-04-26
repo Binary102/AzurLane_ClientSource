@@ -50,7 +50,7 @@ return {
 			}
 		},
 		{
-			actor = 301301,
+			actor = 301300,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -66,7 +66,7 @@ return {
 			}
 		},
 		{
-			actor = 301301,
+			actor = 301300,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -86,7 +86,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			withoutActorName = true,
-			actor = 301301,
+			actor = 301300,
 			nameColor = "#a9f548",
 			say = "……",
 			typewriter = {
@@ -102,7 +102,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 301301,
+			actor = 301300,
 			nameColor = "#a9f548",
 			say = "She's doing a lot better now than at first? Well of course! She's one of my precious juniors after all!",
 			typewriter = {
@@ -121,7 +121,7 @@ return {
 			}
 		},
 		{
-			actor = 301301,
+			actor = 301300,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -140,7 +140,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 301301,
+			actor = 301300,
 			nameColor = "#a9f548",
 			say = "She should be alone, resting in her room right now. Let me try knocking...",
 			flashout = {
@@ -170,7 +170,7 @@ return {
 			}
 		},
 		{
-			actor = 301301,
+			actor = 301300,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -186,7 +186,7 @@ return {
 			}
 		},
 		{
-			actor = 301301,
+			actor = 301300,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -206,7 +206,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgName = "bg_story_room",
-			actor = 303091,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "Wh-what should I do... I've folded so many without realizing it... If I give all of these to Commander at once...",
 			flashout = {
@@ -242,7 +242,7 @@ return {
 			say = "Uhh...",
 			actorName = "{namecode:144}&{namecode:124}",
 			bgName = "bg_story_room",
-			actor = 303091,
+			actor = 303090,
 			nameColor = "#a9f548",
 			flashout = {
 				dur = 0.25,
@@ -267,7 +267,7 @@ return {
 			},
 			subActors = {
 				{
-					actor = 301301,
+					actor = 301300,
 					pos = {
 						x = 750
 					}
@@ -287,7 +287,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 303091,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "C-c-c-commander?!",
 			typewriter = {
@@ -310,7 +310,7 @@ return {
 			}
 		},
 		{
-			actor = 301301,
+			actor = 301300,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -326,7 +326,7 @@ return {
 			}
 		},
 		{
-			actor = 301301,
+			actor = 301300,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -342,7 +342,7 @@ return {
 			}
 		},
 		{
-			actor = 301301,
+			actor = 301300,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -358,7 +358,7 @@ return {
 			}
 		},
 		{
-			actor = 301301,
+			actor = 301300,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -377,7 +377,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 301301,
+			actor = 301300,
 			nameColor = "#a9f548",
 			say = "Ah, I just remembered! I have a training drill with the rest of the squadron! Time to jet~!",
 			typewriter = {
@@ -403,7 +403,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 303091,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "Huh? Kamikaze? W-wait, why are you leaving me here?!",
 			typewriter = {
@@ -430,7 +430,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 303091,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "(If you do that, d-d-d-doesn't that mean it's just the two of us here?!)",
 			typewriter = {
@@ -447,7 +447,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 303091,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "(What should I do...?!)",
 			typewriter = {

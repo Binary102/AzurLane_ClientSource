@@ -62,7 +62,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			actorName = "{namecode:96}",
-			actor = 307064,
+			actor = 307060,
 			nameColor = "#a9f548",
 			say = "*Snore*... Mmhh... *Snore*... Zzzzzzz...",
 			flashout = {
@@ -96,7 +96,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 307054,
+			actor = 307050,
 			actorName = "{namecode:95}",
 			say = "As you can see, she's fast asleep... Please, forgive her, Commander...",
 			typewriter = {
@@ -123,7 +123,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 307054,
+			actor = 307050,
 			actorName = "{namecode:95}",
 			say = "Perhaps she overworked herself during last night's training... Usually, she'd even wake up before me...",
 			typewriter = {
@@ -141,7 +141,7 @@ return {
 			bgName = "bg_story_room",
 			actorName = "{namecode:96}",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			nameColor = "#a9f548",
 			withoutPainting = true,
 			typewriter = {
@@ -158,7 +158,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 307054,
+			actor = 307050,
 			actorName = "{namecode:95}",
 			say = "I just cleaned the room yesterday, and now she's made a mess of it...",
 			typewriter = {
@@ -175,7 +175,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 307054,
+			actor = 307050,
 			actorName = "{namecode:95}",
 			say = "C'mon, Zuikaku, wake up! The Commander's here!",
 			typewriter = {
@@ -193,7 +193,7 @@ return {
 			bgName = "bg_story_room",
 			actorName = "{namecode:96}",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -239,7 +239,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 307054,
+			actor = 307050,
 			actorName = "{namecode:95}",
 			say = "Goodness gracious... Go and get yourself in order, I'll clean up the room.",
 			typewriter = {
@@ -256,7 +256,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 307054,
+			actor = 307050,
 			actorName = "{namecode:95}",
 			say = "... The Commander's waiting for you, so don't dawdle. *Giggle*",
 			typewriter = {
@@ -275,7 +275,7 @@ return {
 			actorName = "{namecode:96}",
 			dir = 1,
 			blackBg = true,
-			actor = 307064,
+			actor = 307060,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,

@@ -60,7 +60,7 @@ return {
 			}
 		},
 		{
-			actor = 307071,
+			actor = 307070,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -80,7 +80,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 307071,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "优先的放在上面，不大重要的放在下面，不需要指挥官大人关心的在垃圾桶里",
 			typewriter = {
@@ -93,7 +93,7 @@ return {
 			}
 		},
 		{
-			actor = 307071,
+			actor = 307070,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -113,7 +113,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgName = "bg_story_task",
-			actor = 307071,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "指挥官大人，一天工作辛苦了，请用茶~",
 			flashout = {
@@ -143,7 +143,7 @@ return {
 			}
 		},
 		{
-			actor = 307071,
+			actor = 307070,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -159,7 +159,7 @@ return {
 			}
 		},
 		{
-			actor = 307071,
+			actor = 307070,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -179,7 +179,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 307071,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "……怎么了指挥官？莫非您——",
 			typewriter = {
@@ -192,7 +192,7 @@ return {
 			}
 		},
 		{
-			actor = 307071,
+			actor = 307070,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -252,7 +252,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 307071,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "…………………指挥官大人——",
 			typewriter = {

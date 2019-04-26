@@ -61,7 +61,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 307051,
+			actor = 307050,
 			nameColor = "#a9f548",
 			say = "指挥官？怎么了？脸色这么差？",
 			flashout = {
@@ -91,7 +91,7 @@ return {
 			}
 		},
 		{
-			actor = 307051,
+			actor = 307050,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -139,7 +139,7 @@ return {
 			say = "指挥官！太好了，你在这里，快跟我来！{namecode:97}她、{namecode:97}她——",
 			dir = 1,
 			bgName = "bg_story_task",
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			actorPosition = {
 				x = 1000,
@@ -168,7 +168,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgName = "star_level_bg_103",
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "对不起，指挥官…昨天原本只是开玩笑对{namecode:97}说，太过献身会导致别人的反感什么的，还给她找了一些杂志的报导",
 			flashout = {
@@ -202,7 +202,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "当时也没觉得有什么，没想到那之后她就把自己关在房间里不出来了……",
 			typewriter = {
@@ -219,7 +219,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "指挥官，大概只有你的话她听得进去了…拜托了，指挥官，请把{namecode:97}从房间里带出来吧！",
 			typewriter = {
@@ -455,7 +455,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 307071,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "<size=30>指挥官大人！！！</size>",
 			dialogShake = {

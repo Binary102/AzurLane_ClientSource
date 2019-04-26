@@ -50,7 +50,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 900093,
+			actor = 201232,
 			nameColor = "#a9f548",
 			say = "欸？给大家添麻烦了吗？",
 			typewriter = {
@@ -75,7 +75,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 203011,
+			actor = 203010,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -95,7 +95,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 900093,
+			actor = 201232,
 			nameColor = "#a9f548",
 			say = "…………",
 			typewriter = {
@@ -112,7 +112,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 900093,
+			actor = 201232,
 			nameColor = "#a9f548",
 			say = "这样啊…人家，做了不好的事呢。",
 			typewriter = {
@@ -125,7 +125,7 @@ return {
 			}
 		},
 		{
-			actor = 203011,
+			actor = 203010,
 			side = 1,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -141,7 +141,7 @@ return {
 			}
 		},
 		{
-			actor = 203011,
+			actor = 203010,
 			side = 1,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -161,7 +161,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 900093,
+			actor = 201232,
 			nameColor = "#a9f548",
 			say = "不，做错了就是做错了，这点道理人家还是懂的。",
 			typewriter = {
@@ -178,7 +178,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 900093,
+			actor = 201232,
 			nameColor = "#a9f548",
 			say = "看起来人家确实不适合做护士呢，连最基本的体谅病人都没有做到…这件衣服人家会还给{namecode:98}的，然后去向大家好好道歉……",
 			typewriter = {
@@ -191,7 +191,7 @@ return {
 			}
 		},
 		{
-			actor = 203011,
+			actor = 203010,
 			side = 1,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -210,7 +210,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = -1,
-			actor = 301351,
+			actor = 301350,
 			nameColor = "#a9f548",
 			say = "不好了，指挥官，指挥官！",
 			effects = {
@@ -242,7 +242,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = -1,
-			actor = 301351,
+			actor = 301350,
 			nameColor = "#a9f548",
 			say = "{namecode:33}生病啦，好像很严重的样子，呜呜，怎么办呀！",
 			typewriter = {
@@ -273,7 +273,7 @@ return {
 			expression = 3,
 			side = 0,
 			bgName = "bg_story_task",
-			actor = 900093,
+			actor = 201232,
 			dir = 1,
 			say = "什么？",
 			nameColor = "#a9f548",
@@ -301,7 +301,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 900093,
+			actor = 201232,
 			nameColor = "#a9f548",
 			say = "……伦敦，这件衣服我可以等一下再换掉嘛？",
 			typewriter = {
@@ -314,7 +314,7 @@ return {
 			}
 		},
 		{
-			actor = 203011,
+			actor = 203010,
 			side = 1,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -334,7 +334,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 900093,
+			actor = 201232,
 			nameColor = "#a9f548",
 			say = "那就…伦敦去叫{namecode:98}或者女灶神来，指挥官跟我一起去看看小{namecode:33}，没问题吧？",
 			typewriter = {
@@ -347,7 +347,7 @@ return {
 			}
 		},
 		{
-			actor = 203011,
+			actor = 203010,
 			side = 1,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -367,7 +367,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			actor = 900093,
+			actor = 201232,
 			nameColor = "#a9f548",
 			say = "走吧，指挥官，可不能让病人久等了呢！",
 			typewriter = {

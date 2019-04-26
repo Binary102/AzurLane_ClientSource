@@ -1452,77 +1452,41 @@ pg.skill_data_display = {
 		id = 11900,
 		name = "Protector of The North Passage"
 	},
-	[19000] = {
-		id = 19000,
-		name = "Siren Killer Ⅰ"
+	[12050] = {
+		id = 12050,
+		name = "Torpedoes: Ready!"
 	},
-	[19001] = {
-		id = 19001,
-		name = "Siren Killer Ⅱ"
+	[12060] = {
+		id = 12060,
+		name = "Priestess of the Sacred Mountain "
 	},
-	[19002] = {
-		id = 19002,
-		name = "Siren Killer Ⅲ"
+	[12070] = {
+		id = 12070,
+		name = "Take the Initiative!"
 	},
-	[19010] = {
-		id = 19010,
-		name = "MKV-Class AP Shell"
+	[12080] = {
+		id = 12080,
+		name = "Crimson God's Protection"
 	},
-	[19020] = {
-		id = 19020,
-		name = "Goddess of the Sea"
+	[12090] = {
+		id = 12090,
+		name = "Taste My Wrath! "
 	},
-	[19030] = {
-		id = 19030,
-		name = "Monarch's Coercion"
+	[12100] = {
+		id = 12100,
+		name = "Iron Blood Hatchling"
 	},
 	[19031] = {
 		id = 19031,
 		name = "Monarch's Coercion"
 	},
-	[19040] = {
-		id = 19040,
-		name = "Against the Current"
-	},
 	[19041] = {
 		id = 19041,
 		name = "Against the Current"
 	},
-	[19050] = {
-		id = 19050,
-		name = "Body and Soul"
-	},
-	[19060] = {
-		id = 19060,
-		name = "Flash of Lightning"
-	},
-	[19070] = {
-		id = 19070,
-		name = "A Legend's Inheritance"
-	},
-	[19080] = {
-		id = 19080,
-		name = "Specialized Armor"
-	},
-	[19090] = {
-		id = 19090,
-		name = "Expert Loader"
-	},
 	[19091] = {
 		id = 19091,
 		name = "Expert Loader"
-	},
-	[19100] = {
-		id = 19100,
-		name = "Well-Rounded Armor"
-	},
-	[19110] = {
-		id = 19110,
-		name = "Augmented HE Ammo"
-	},
-	[19120] = {
-		id = 19120,
-		name = "Engine Boost"
 	},
 	[20011] = {
 		id = 20011,
@@ -2296,38 +2260,6 @@ pg.skill_data_display = {
 		id = 29212,
 		name = "EX Barrage: Z46 Ⅱ"
 	},
-	[29221] = {
-		id = 29221,
-		name = "EX Barrage: {namecode:152} Ⅰ"
-	},
-	[29222] = {
-		id = 29222,
-		name = "EX Barrage: {namecode:152} Ⅱ"
-	},
-	[29231] = {
-		id = 29231,
-		name = "EX Barrage: Neptune Ⅰ"
-	},
-	[29232] = {
-		id = 29232,
-		name = "EX Barrage: Neptune Ⅱ"
-	},
-	[29241] = {
-		id = 29241,
-		name = "EX Barrage: Roon Ⅰ"
-	},
-	[29242] = {
-		id = 29242,
-		name = "EX Barrage: Roon Ⅱ"
-	},
-	[29251] = {
-		id = 29251,
-		name = "EX Barrage: Saint Louis Ⅰ"
-	},
-	[29252] = {
-		id = 29252,
-		name = "EX Barrage: Saint Louis Ⅱ"
-	},
 	[29261] = {
 		id = 29261,
 		name = "All Out Assault Ⅰ"
@@ -2487,6 +2419,62 @@ pg.skill_data_display = {
 	[102020] = {
 		id = 102020,
 		name = "bili看板娘"
+	},
+	[104010] = {
+		id = 104010,
+		name = "Kizuna Beam"
+	},
+	[104011] = {
+		id = 104011,
+		name = "Kizuna Beam"
+	},
+	[104012] = {
+		id = 104012,
+		name = "Kizuna Beam"
+	},
+	[104013] = {
+		id = 104013,
+		name = "Kizuna Beam"
+	},
+	[104014] = {
+		id = 104014,
+		name = "Kizuna Beam"
+	},
+	[104020] = {
+		id = 104020,
+		name = "Crisis Prevention!"
+	},
+	[104030] = {
+		id = 104030,
+		name = "Connected"
+	},
+	[104031] = {
+		id = 104031,
+		name = "Connected"
+	},
+	[104040] = {
+		id = 104040,
+		name = "Everything Is In Order"
+	},
+	[104050] = {
+		id = 104050,
+		name = "Future Base"
+	},
+	[104060] = {
+		id = 104060,
+		name = "Melty World"
+	},
+	[104070] = {
+		id = 104070,
+		name = "Super AIming Adjustments"
+	},
+	[104071] = {
+		id = 104071,
+		name = "Super AIming Adjustments"
+	},
+	[104080] = {
+		id = 104080,
+		name = "Coercion Assistance Mode"
 	},
 	all = {
 		4,
@@ -2852,24 +2840,15 @@ pg.skill_data_display = {
 		11860,
 		11890,
 		11900,
-		19000,
-		19001,
-		19002,
-		19010,
-		19020,
-		19030,
+		12050,
+		12060,
+		12070,
+		12080,
+		12090,
+		12100,
 		19031,
-		19040,
 		19041,
-		19050,
-		19060,
-		19070,
-		19080,
-		19090,
 		19091,
-		19100,
-		19110,
-		19120,
 		20011,
 		20012,
 		20021,
@@ -3063,14 +3042,6 @@ pg.skill_data_display = {
 		29202,
 		29211,
 		29212,
-		29221,
-		29222,
-		29231,
-		29232,
-		29241,
-		29242,
-		29251,
-		29252,
 		29261,
 		29262,
 		29271,
@@ -3110,7 +3081,21 @@ pg.skill_data_display = {
 		101123,
 		101130,
 		102010,
-		102020
+		102020,
+		104010,
+		104011,
+		104012,
+		104013,
+		104014,
+		104020,
+		104030,
+		104031,
+		104040,
+		104050,
+		104060,
+		104070,
+		104071,
+		104080
 	}
 }
 

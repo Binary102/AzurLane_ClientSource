@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-2",
-			actor = 303091,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "……",
 			flashout = {
@@ -56,7 +56,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 303091,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "(I.... I have to say something... Ughh...)",
 			typewriter = {
@@ -74,7 +74,7 @@ return {
 			bgName = "bg_story_room",
 			withoutActorName = true,
 			dir = 1,
-			actor = 303091,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "Ashigara fidgeted in her seat next to me, her face red from ear to ear.",
 			typewriter = {
@@ -87,7 +87,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 303091,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "......",
 			typewriter = {
@@ -124,7 +124,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 303091,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "Commander! P-please go out with me!",
 			typewriter = {
@@ -151,7 +151,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 303091,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "Wh-wh-what did I say just now?!",
 			typewriter = {
@@ -178,7 +178,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 303091,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "P-please forget the strange thing that I said just now!",
 			typewriter = {
@@ -211,7 +211,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 303091,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "Huh...?!",
 			typewriter = {
@@ -228,7 +228,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 303091,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "D-don't worry about it! I don't know what was going through my head just now...",
 			typewriter = {
@@ -251,7 +251,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 303091,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "Um... I see! I also want to learn more about you as well, Commander...",
 			typewriter = {
@@ -278,7 +278,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 303091,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "Um, then... I'll be looking forward to it...",
 			typewriter = {
@@ -335,7 +335,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			bgm = "story-1",
-			actor = 301301,
+			actor = 301300,
 			nameColor = "#a9f548",
 			say = "Grrr... just when they were getting to the juicy, kissy part...",
 			typewriter = {
@@ -348,7 +348,7 @@ return {
 			}
 		},
 		{
-			actor = 303081,
+			actor = 303080,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -364,7 +364,7 @@ return {
 			}
 		},
 		{
-			actor = 303031,
+			actor = 303030,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -380,7 +380,7 @@ return {
 			}
 		},
 		{
-			actor = 303071,
+			actor = 303070,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",

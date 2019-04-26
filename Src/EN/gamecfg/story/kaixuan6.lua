@@ -50,7 +50,7 @@ return {
 			}
 		},
 		{
-			actor = 801021,
+			actor = 801020,
 			side = 2,
 			bgName = "bg_story_task",
 			dir = -1,
@@ -65,7 +65,7 @@ return {
 			}
 		},
 		{
-			actor = 801021,
+			actor = 801020,
 			side = 2,
 			bgName = "bg_story_task",
 			dir = -1,
@@ -80,7 +80,7 @@ return {
 			}
 		},
 		{
-			actor = 801011,
+			actor = 801010,
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -105,7 +105,7 @@ return {
 			}
 		},
 		{
-			actor = 801021,
+			actor = 801020,
 			side = 2,
 			bgName = "bg_story_task",
 			dir = -1,
@@ -124,7 +124,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 801011,
+			actor = 801010,
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -145,7 +145,7 @@ return {
 			}
 		},
 		{
-			actor = 801021,
+			actor = 801020,
 			side = 1,
 			bgName = "bg_story_task",
 			dir = -1,
@@ -160,7 +160,7 @@ return {
 			}
 		},
 		{
-			actor = 801021,
+			actor = 801020,
 			side = 1,
 			bgName = "bg_story_task",
 			dir = -1,
@@ -175,7 +175,7 @@ return {
 			}
 		},
 		{
-			actor = 801011,
+			actor = 801010,
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -193,7 +193,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = -1,
-			actor = 901011,
+			actor = 901010,
 			say = "指挥官，福尔班说你找我们？哎？凯旋小姐也在呀，呀吼～",
 			flashout = {
 				dur = 1,
@@ -222,7 +222,7 @@ return {
 			}
 		},
 		{
-			actor = 801011,
+			actor = 801010,
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -237,7 +237,7 @@ return {
 			}
 		},
 		{
-			actor = 801021,
+			actor = 801020,
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -252,7 +252,7 @@ return {
 			}
 		},
 		{
-			actor = 901011,
+			actor = 901010,
 			side = 1,
 			bgName = "bg_story_task",
 			dir = -1,
@@ -267,7 +267,7 @@ return {
 			}
 		},
 		{
-			actor = 801011,
+			actor = 801010,
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -282,7 +282,7 @@ return {
 			}
 		},
 		{
-			actor = 801021,
+			actor = 801020,
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -297,7 +297,7 @@ return {
 			}
 		},
 		{
-			actor = 801021,
+			actor = 801020,
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -312,7 +312,7 @@ return {
 			}
 		},
 		{
-			actor = 901011,
+			actor = 901010,
 			side = 1,
 			bgName = "bg_story_task",
 			dir = -1,
@@ -327,7 +327,7 @@ return {
 			}
 		},
 		{
-			actor = 801021,
+			actor = 801020,
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -342,7 +342,7 @@ return {
 			}
 		},
 		{
-			actor = 901011,
+			actor = 901010,
 			side = 1,
 			bgName = "bg_story_task",
 			dir = -1,
@@ -365,7 +365,7 @@ return {
 			}
 		},
 		{
-			actor = 801011,
+			actor = 801010,
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -380,7 +380,7 @@ return {
 			}
 		},
 		{
-			actor = 801021,
+			actor = 801020,
 			side = 1,
 			bgName = "bg_story_task",
 			dir = -1,
@@ -395,7 +395,7 @@ return {
 			}
 		},
 		{
-			actor = 801021,
+			actor = 801020,
 			side = 1,
 			bgName = "bg_story_task",
 			dir = -1,
@@ -410,7 +410,7 @@ return {
 			}
 		},
 		{
-			actor = 801011,
+			actor = 801010,
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -425,7 +425,7 @@ return {
 			}
 		},
 		{
-			actor = 801011,
+			actor = 801010,
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,

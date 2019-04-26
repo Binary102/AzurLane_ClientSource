@@ -64,7 +64,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -83,7 +83,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 312011,
+			actor = 312010,
 			nameColor = "#a9f548",
 			say = "Tada! Akashi's \"Special Cleaning Bullets,\" nya!",
 			effects = {
@@ -105,7 +105,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 202081,
+			actor = 202080,
 			nameColor = "#a9f548",
 			say = "Impressive work as always, Akashi.",
 			effects = {
@@ -144,7 +144,7 @@ return {
 			}
 		},
 		{
-			actor = 202081,
+			actor = 202080,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -160,7 +160,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -233,7 +233,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 312011,
+			actor = 312010,
 			nameColor = "#a9f548",
 			say = "Nyaa?! W-woah... what are you doing, nya! That's not what I meant by demonstrate!",
 			typewriter = {
@@ -256,7 +256,7 @@ return {
 			}
 		},
 		{
-			actor = 202081,
+			actor = 202080,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -286,7 +286,7 @@ return {
 			}
 		},
 		{
-			actor = 202081,
+			actor = 202080,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -302,7 +302,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -318,7 +318,7 @@ return {
 			}
 		},
 		{
-			actor = 202081,
+			actor = 202080,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",

@@ -50,7 +50,7 @@ return {
 			}
 		},
 		{
-			actor = 900063,
+			actor = 312011,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -66,7 +66,7 @@ return {
 			}
 		},
 		{
-			actor = 900064,
+			actor = 307031,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -82,7 +82,7 @@ return {
 			}
 		},
 		{
-			actor = 900064,
+			actor = 307031,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -101,7 +101,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 900063,
+			actor = 312011,
 			nameColor = "#a9f548",
 			say = "If it's come down to this... then I have no choice but to let you all wear some new clothes I've prepared nya!",
 			typewriter = {
@@ -124,7 +124,7 @@ return {
 			}
 		},
 		{
-			actor = 102141,
+			actor = 102140,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -143,7 +143,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 900155,
+			actor = 102132,
 			nameColor = "#a9f548",
 			say = "This outfit... it's what's known as a \"kimono\", right? Ahah... It seems to be made of quite fancy materials.",
 			flashout = {
@@ -177,7 +177,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 900160,
+			actor = 201103,
 			nameColor = "#a9f548",
 			say = "Whoa... these clothes... are warmer than I thought they'd be~",
 			typewriter = {
@@ -190,7 +190,7 @@ return {
 			}
 		},
 		{
-			actor = 900157,
+			actor = 102051,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -206,7 +206,7 @@ return {
 			}
 		},
 		{
-			actor = 900151,
+			actor = 101263,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -226,7 +226,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 900153,
+			actor = 399021,
 			actorName = "{namecode:151}",
 			say = "This makes me want to perform kabuki. It's flamboyant and doesn't get in the way.",
 			typewriter = {
@@ -243,7 +243,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 900152,
+			actor = 399011,
 			actorName = "{namecode:152}",
 			say = "And I received a regular kimono. Somehow it feels relaxing to wear.",
 			typewriter = {
@@ -260,7 +260,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 900154,
+			actor = 205062,
 			nameColor = "#a9f548",
 			say = "Now I see. These kimonos have design elements from various different factions. Hahah, how fascinating!",
 			typewriter = {
@@ -276,7 +276,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 102091,
+			actor = 102090,
 			nameColor = "#a9f548",
 			say = "....W-what the heck is this...?!",
 			typewriter = {
@@ -302,7 +302,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 102091,
+			actor = 102090,
 			nameColor = "#a9f548",
 			say = "I-I've got urgent business to do, so I've gotta go early!",
 			typewriter = {
@@ -324,7 +324,7 @@ return {
 			}
 		},
 		{
-			actor = 102141,
+			actor = 102140,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -340,7 +340,7 @@ return {
 			}
 		},
 		{
-			actor = 900063,
+			actor = 312011,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -359,7 +359,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 102141,
+			actor = 102140,
 			nameColor = "#a9f548",
 			say = "Wha?!",
 			typewriter = {
@@ -385,7 +385,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 900158,
+			actor = 102141,
 			nameColor = "#a9f548",
 			say = "(So this is how a kimono looks... I think Columbia and Denver would like it.)",
 			flashout = {
@@ -415,7 +415,7 @@ return {
 			}
 		},
 		{
-			actor = 900063,
+			actor = 312011,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -431,7 +431,7 @@ return {
 			}
 		},
 		{
-			actor = 900158,
+			actor = 102141,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -447,7 +447,7 @@ return {
 			}
 		},
 		{
-			actor = 900063,
+			actor = 312011,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -467,7 +467,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			blackBg = true,
-			actor = 900063,
+			actor = 312011,
 			nameColor = "#a9f548",
 			say = "H-has everyone gotten changed nya? Then come have your fill of New Year's food nya!",
 			typewriter = {

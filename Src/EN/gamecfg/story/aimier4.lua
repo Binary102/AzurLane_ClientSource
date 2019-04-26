@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"自由的天使\n\n<size=30>四 “克制”的埃米尔</size>",
+					"踊り子天使エミール\n\n<size=30>四 我慢我慢！</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "港区·指挥室",
+			say = "母港·執務室",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -46,13 +46,12 @@ return {
 			}
 		},
 		{
-			expression = "1",
+			actor = 904010,
 			side = 2,
 			bgName = "bg_story_task",
-			dir = 1,
-			actor = 904011,
 			nameColor = "#a9f548",
-			say = "……以上就是本次任务的报告，指挥官，请过目。",
+			dir = 1,
+			say = "……今回の任務の報告書を提出するわ。指揮官、ご確認を。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,20 +65,19 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "敦刻尔克把报告和一个装着点心的小盒子一块递了过来。",
+			say = "報告書と共に、ダンケルクはお菓子の入った小箱を渡してきた。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			expression = "1",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 904011,
+			actor = 904010,
 			nameColor = "#a9f548",
-			say = "还有，指挥官，我做了一些点心一起带了过来，要尝尝吗？",
+			say = "それと…実はお菓子を少し作ったのだけど、指揮官、食べる？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +88,7 @@ return {
 			},
 			options = {
 				{
-					content = "答应",
+					content = "了承する",
 					flag = 1
 				}
 			}
@@ -99,20 +97,19 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "……敦刻尔克每天都在做这些看着特别好吃的点心啊……",
+			say = "……それにしても、ダンケルクは毎日美味しそうなお菓子を作っているな……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			expression = "2",
+			actor = 904010,
 			side = 2,
 			bgName = "bg_story_task",
-			dir = 1,
-			actor = 904011,
 			nameColor = "#a9f548",
-			say = "哎呀，埃米尔也在吗，你也过来一起吃吧？",
+			dir = 1,
+			say = "あら、エミールもいたの？こっちに来てみんなで食べましょう？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,12 +120,12 @@ return {
 			}
 		},
 		{
-			actor = 802011,
+			actor = 802010,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔…虽然很想吃…但是我拒绝！",
+			say = "ええと…食べたいけど…ううん、今日はダメよ！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,13 +136,12 @@ return {
 			}
 		},
 		{
-			expression = "2",
+			actor = 904010,
 			side = 2,
 			bgName = "bg_story_task",
-			dir = 1,
-			actor = 904011,
 			nameColor = "#a9f548",
-			say = "嗯…？哎呀，差点忘了，又到了埃米尔不吃甜食的时候了吗，那就等你要吃的时候，再来找我吧",
+			dir = 1,
+			say = "そう…？ああ、ごめんなさい、今日はスイーツ禁止の日だったかしら。じゃあ今度、食べたかったら声をかけてちょうだい。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,12 +152,12 @@ return {
 			}
 		},
 		{
-			actor = 802011,
+			actor = 802010,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好~",
+			say = "ありがとう～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,13 +168,12 @@ return {
 			}
 		},
 		{
-			expression = "1",
+			actor = 904010,
 			side = 2,
 			bgName = "bg_story_task",
-			dir = 1,
-			actor = 904011,
 			nameColor = "#a9f548",
-			say = "那我就先回去忙了，指挥官，慢用。",
+			dir = 1,
+			say = "じゃあここに置いておくわ。指揮官、ごゆっくりどうぞ。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,18 +187,18 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "敦刻尔克说着离开了指挥室。",
+			say = "ダンケルクが執務室から退室した。さて、このお菓子はどうしようか――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "故意吃得津津有味",
+					content = "美味しそうに食べる（実際美味しい）",
 					flag = 1
 				},
 				{
-					content = "把点心收起来",
+					content = "食べずに棚にしまう",
 					flag = 2
 				}
 			}
@@ -213,9 +208,9 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			optionFlag = 1,
-			actor = 802011,
+			actor = 802010,
 			nameColor = "#a9f548",
-			say = "指、指挥官，我是不会被你引诱的！",
+			say = "指揮官、私……ぜ、絶対に負けないわよ！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,9 +225,9 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			optionFlag = 2,
-			actor = 802011,
+			actor = 802010,
 			nameColor = "#a9f548",
-			say = "指挥官，你不用在意我的……",
+			say = "指揮官、私のことを気にしなくてもいいのに……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,12 +238,12 @@ return {
 			}
 		},
 		{
-			actor = 802011,
+			actor = 802010,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "因、因为敦刻尔克做的点心实在太好吃了，一旦下手了就停不下来了嘛…",
+			say = "だ、だってダンケルクの作ったお菓子は美味しすぎて、一個でも食べたら手が止まらないんだもの…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,12 +254,12 @@ return {
 			}
 		},
 		{
-			actor = 802011,
+			actor = 802010,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "然后就是飙升的体重、越发笨拙的行动…再也不能愉快地跳舞了呢…",
+			say = "そして増え続ける体重、拙くなるステップ…二度と人前で踊れなくなる悲しい結末…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,12 +270,12 @@ return {
 			}
 		},
 		{
-			actor = 802011,
+			actor = 802010,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "简直就是恶魔的诱惑！所以啦，我给自己规定，每周只能吃一次敦刻尔克的甜食！这周的份已经…啊啊…",
+			say = "それはまさに、悪魔の誘惑だわ！だから私、ダンケルクのお菓子は週に一度しか食べないって決めたの！今週分はもう……あああ…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -294,25 +289,25 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "埃米尔罕见地苦恼了起来。",
+			say = "エミールは珍しく頭を抱えた。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "感到有些新奇",
+					content = "励ましてみる",
 					flag = 1
 				}
 			}
 		},
 		{
-			actor = 802011,
+			actor = 802010,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我也是女孩子，当然会在意这个啦，指挥官你也注意一下比较好哦。",
+			say = "女の子だから気にするわよ！指揮官も、そういうところには気を配ったほうがいいわよ？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -323,12 +318,12 @@ return {
 			}
 		},
 		{
-			actor = 802011,
+			actor = 802010,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不注意保持体形的话，有一天一定会后悔的。",
+			say = "体形に気をつけないと将来後悔するわ！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -339,12 +334,12 @@ return {
 			}
 		},
 		{
-			actor = 802011,
+			actor = 802010,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "身为指挥官呢——",
+			say = "そもそも、指揮官として――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -359,7 +354,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "……接下来被说教了将近30分钟。",
+			say = "……なぜかエミールに３０分ぐらい説教された。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

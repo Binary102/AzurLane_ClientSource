@@ -192,6 +192,17 @@ pg.word_template = {
 					}
 				}
 			}
+		},
+		i = {
+			g = {
+				g = {
+					e = {
+						r = {
+							this = true
+						}
+					}
+				}
+			}
 		}
 	},
 	P = {

@@ -97,7 +97,7 @@ return {
 			}
 		},
 		{
-			actor = 401461,
+			actor = 401460,
 			side = 2,
 			bgName = "bg_story_task",
 			say = "Was it you who summoned me to this place?",
@@ -123,7 +123,7 @@ return {
 			}
 		},
 		{
-			actor = 401461,
+			actor = 401460,
 			side = 2,
 			bgName = "bg_story_task",
 			say = "I am...",
@@ -161,7 +161,7 @@ return {
 			}
 		},
 		{
-			actor = 401461,
+			actor = 401460,
 			side = 2,
 			bgName = "bg_story_task",
 			say = "It pains me to say, I still lack a name. Just for the time being, please call me Viersechs.",
@@ -199,7 +199,7 @@ return {
 			}
 		},
 		{
-			actor = 401461,
+			actor = 401460,
 			side = 2,
 			bgName = "bg_story_task",
 			say = "What do you think? Is it not apropos?",
@@ -237,7 +237,7 @@ return {
 			}
 		},
 		{
-			actor = 401461,
+			actor = 401460,
 			side = 2,
 			bgName = "bg_story_task",
 			say = "Until I can discover my real name, Viersechs shall become the string that binds us.",
@@ -251,7 +251,7 @@ return {
 			}
 		},
 		{
-			actor = 401461,
+			actor = 401460,
 			side = 2,
 			bgName = "bg_story_task",
 			say = "Now, my new master, take hold of this string. Please become my light, guide me down my path!",

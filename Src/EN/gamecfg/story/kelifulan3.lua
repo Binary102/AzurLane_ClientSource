@@ -32,7 +32,7 @@ return {
 			bgName = "star_level_bg_103",
 			dir = 1,
 			actorScale = 0.6,
-			actor = 102091,
+			actor = 102090,
 			nameColor = "#a9f548",
 			say = "哈……哈……对不起我来晚了！",
 			effects = {
@@ -110,7 +110,7 @@ return {
 			}
 		},
 		{
-			actor = 102091,
+			actor = 102090,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -129,7 +129,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 102091,
+			actor = 102090,
 			nameColor = "#a9f548",
 			say = "咕嘟咕嘟…哈！其实是刚才过来的路上——",
 			action = {
@@ -168,7 +168,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 102091,
+			actor = 102090,
 			nameColor = "#a9f548",
 			say = "诶诶！圣地亚哥害得宿舍后院里长满了小麦！？……那不是正好可以补贴粮食……",
 			flashout = {
@@ -198,7 +198,7 @@ return {
 			}
 		},
 		{
-			actor = 102091,
+			actor = 102090,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -214,7 +214,7 @@ return {
 			}
 		},
 		{
-			actor = 102091,
+			actor = 102090,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -233,7 +233,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 102091,
+			actor = 102090,
 			nameColor = "#a9f548",
 			say = "行了行了！大家一起动手收割总行了吧，别再叫我克爹了！",
 			action = {
@@ -258,7 +258,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 102091,
+			actor = 102090,
 			nameColor = "#a9f548",
 			say = "所以就给白鹰宿舍帮忙去了……实在抱歉！",
 			flashout = {
@@ -298,7 +298,7 @@ return {
 			}
 		},
 		{
-			actor = 102091,
+			actor = 102090,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -318,7 +318,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_103",
 			dir = -1,
-			actor = 102151,
+			actor = 102150,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -337,7 +337,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_103",
 			dir = -1,
-			actor = 102101,
+			actor = 102100,
 			nameColor = "#a9f548",
 			say = "大姐头太迟钝啦～海伦娜的便当虽然不错，偶尔也想尝尝克利夫兰的手艺啊，是吧指挥官？",
 			typewriter = {
@@ -360,7 +360,7 @@ return {
 			bgName = "star_level_bg_103",
 			dir = 1,
 			blackBg = true,
-			actor = 102091,
+			actor = 102090,
 			nameColor = "#a9f548",
 			say = "真，真的吗？那我下次问问海伦娜吧……是因为指挥官想吃我才做的哦！",
 			typewriter = {

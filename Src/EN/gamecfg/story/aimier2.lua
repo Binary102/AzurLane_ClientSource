@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"自由的天使\n\n<size=30>二 黄金的友谊？</size>",
+					"踊り子天使エミール\n\n<size=30>二 黄金の友情？</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "港区·指挥室",
+			say = "母港·執務室",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -49,18 +49,18 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "爱丁堡似乎找埃米尔有事的样子。",
+			say = "エディンバラはエミールに用事があるみたいだ。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actor = 202111,
+			actor = 202110,
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "嘻嘻，小埃米尔～我来找你玩啦～",
+			say = "エミールちゃん、遊びに来たよ～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,11 +71,11 @@ return {
 			}
 		},
 		{
-			actor = 802011,
+			actor = 802010,
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "哎呀，是爱丁堡呀，欢迎～不过还是等我秘书舰的工作处理完…是吧，指挥官？",
+			say = "エディンバラじゃない！Bienvenue！でも今は秘書艦だから、お遊びは仕事のあと…そうよね？指揮官？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,10 +86,10 @@ return {
 			}
 		},
 		{
-			actor = 202111,
+			actor = 202110,
 			side = 0,
 			bgName = "bg_story_task",
-			say = "小埃米尔的话，三两下就能搞定啦～我的眼光是绝对不会出错的",
+			say = "エミールちゃんならちゃちゃっと片付けられるわよ～私、こう見えても人を見る目はあるんだから！",
 			dir = 1,
 			paintingFadeOut = {
 				time = 0.5,
@@ -108,18 +108,18 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "两人不知道什么时候关系变得非常好了",
+			say = "二人はいつの間にこんなに仲良くなったんだろう…？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actor = 802011,
+			actor = 802010,
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "啊哈，指挥官，你知道吗，我和爱丁堡可是同样在大战中运输过黄金的同伴呢～",
+			say = "あら、指揮官は知らないの？私とエディンバラはあの大戦では同じく黄金を輸送していた艦なのよ？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,11 +130,11 @@ return {
 			}
 		},
 		{
-			actor = 202111,
+			actor = 202110,
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "嗯哼！虽然运送的黄金量是我比较少，但要论话题性肯定是我比较高哦！",
+			say = "そうそう！運んだ黄金の量こそ少なかったけど、話題性は私のほうがずっと高かったからね！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,11 +145,11 @@ return {
 			}
 		},
 		{
-			actor = 802011,
+			actor = 802010,
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "不服输这点也是爱丁堡可爱的地方呢～",
+			say = "負けず嫌いのところもカワイイからね～エディンバラは♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
-			say = "过了一段时间，秘书舰的工作差不多结束了",
+			say = "エディンバラの言う通り、エミールは今日の秘書艦の仕事をテキパキと片付けた。",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -187,11 +187,11 @@ return {
 			}
 		},
 		{
-			actor = 202111,
+			actor = 202110,
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "小埃米尔果然很能干呢…让我想起我家贝法了都",
+			say = "やっぱりエミールは有能ね…「アイツ」のことを思い出しちゃう……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,11 +202,11 @@ return {
 			}
 		},
 		{
-			actor = 802011,
+			actor = 802010,
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "贝尔法斯特小姐吗，跟她比还是有所差距的呀～",
+			say = "ベルファストさん？あはは、彼女と比べたら私は全然ダメダメだから～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,11 +217,11 @@ return {
 			}
 		},
 		{
-			actor = 802011,
+			actor = 802010,
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "不过，她真的不是爱丁堡的姐姐吗？",
+			say = "あら？そういえば、ベルファストさんってなんかエディンバラのお姉さんっぽかったような…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,11 +232,11 @@ return {
 			}
 		},
 		{
-			actor = 202111,
+			actor = 202110,
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "啊！怎么连小埃米尔也这么说啦！",
+			say = "妹よ！もうエミールちゃんまでそんなこと言って！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,11 +247,11 @@ return {
 			}
 		},
 		{
-			actor = 202111,
+			actor = 202110,
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "有个能干的妹妹是一件让人多心情复杂的事情，小埃米尔是不会懂的啦呜呜呜……",
+			say = "出来すぎた妹がいる事がどれだけ複雑なのか、エミールちゃんにはわからないよね！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,11 +262,11 @@ return {
 			}
 		},
 		{
-			actor = 802011,
+			actor = 802010,
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "不哭不哭～像爱丁堡这样有个性的其实意外的更受欢迎呢",
+			say = "はいはい、でもエディンバラはエディンバラでいい性格をしていると思うわ。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,11 +277,11 @@ return {
 			}
 		},
 		{
-			actor = 202111,
+			actor = 202110,
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "嗯…这究竟是在夸我还是损我呢…",
+			say = "褒められているのか微妙な気分……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,11 +292,11 @@ return {
 			}
 		},
 		{
-			actor = 802011,
+			actor = 802010,
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "啊，说到黄金，爱丁堡知道“黄金之国”重樱吗？",
+			say = "あ、そういえば、エディンバラは「黄金の国」の話を知ってる？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -307,11 +307,11 @@ return {
 			}
 		},
 		{
-			actor = 802011,
+			actor = 802010,
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "我在某本游记里面看到了这样的说法，就觉得十分好奇呢",
+			say = "実は、重桜は国中黄金に包まれているってとある旅行記に書いてあったの！どう？実際に見に行きたいと思わない？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -322,11 +322,11 @@ return {
 			}
 		},
 		{
-			actor = 202111,
+			actor = 202110,
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "重樱的话…舰队里倒是有不少来自那里的小伙伴呢",
+			say = "重桜所属の仲間なら艦隊にもいるけど……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -337,11 +337,11 @@ return {
 			}
 		},
 		{
-			actor = 202111,
+			actor = 202110,
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "不过重樱之国倒是一直都挺神秘的…有机会能去看看就好了呢…",
+			say = "でも重桜の国ってやっぱり神秘的だよね…いつか行ってみたいかも。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -352,11 +352,11 @@ return {
 			}
 		},
 		{
-			actor = 802011,
+			actor = 802010,
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "决定了！下次有机会的话，就一起去重樱看看吧！寻找传说中的黄金之国～什么的～似乎也挺有趣的～",
+			say = "じゃあ今度重桜に行く任務があったら指揮官に参加申請しましょう！黄金の国・重桜、噂を聞いただけでもワクワクしちゃうわ！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -367,11 +367,11 @@ return {
 			}
 		},
 		{
-			actor = 202111,
+			actor = 202110,
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "噢噢噢！感觉兴致都上来了！",
+			say = "おお！なんかテンションが上ってきた！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -396,7 +396,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "因为黄金而诞生的奇妙友谊似乎还会继续下去",
+			say = "黄金の友情？はまだまだ続きそうだ。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

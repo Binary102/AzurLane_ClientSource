@@ -1,210 +1,16 @@
 return {
-	fadeOut = 1.5,
 	mode = 2,
-	fadeType = 2,
 	once = true,
 	id = "LINKPREHEAT2",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
-			stopbgm = true,
-			sequence = {
-				{
-					"梦幻的交汇\n\n<size=30>序幕 嘈杂的海域</size>",
-					1
-				}
-			}
-		},
-		{
-			bgName = "bg_story_chuansong",
+			actor = 10300010,
+			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "……（电报音）哔，哔，哔……哔……哔，哔，哔……哔……",
-			flashout = {
-				dur = 1,
-				black = true,
-				alpha = {
-					0,
-					1
-				}
-			},
-			flashin = {
-				delay = 1,
-				dur = 1,
-				black = true,
-				alpha = {
-					1,
-					0
-				}
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 401231,
-			side = 2,
-			bgName = "bg_story_chuansong",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "没有错——信号就是从这片海域发出来的",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 401231,
-			side = 2,
-			bgName = "bg_story_chuansong",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "但是…目前还是找不到信号源的位置……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			say = "{namecode:98}应该已经先前往调查了才对……一点回音都没有哦",
-			side = 1,
-			bgName = "bg_story_chuansong",
-			dir = 1,
-			actor = 201211,
-			nameColor = "#a9f548",
-			paintingFadeOut = {
-				time = 0.5,
-				side = 0
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 101171,
-			side = 1,
-			bgName = "bg_story_chuansong",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "这里是…镜面海域…？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 401231,
-			side = 0,
-			bgName = "bg_story_chuansong",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "是的。出现了和一般海域完全不同的反应，所以{namecode:98}才对那个充满了兴趣……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 401231,
-			side = 0,
-			bgName = "bg_story_chuansong",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "天气一直非常不稳定，洋流也非常混乱……这么不稳定的海域我还是第一次见…",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 201211,
-			side = 1,
-			bgName = "bg_story_chuansong",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "再加上由于强力的电波干扰，通信根本无法进行…这别说去找{namecode:98}了，连港区都联系不上啊",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 1,
-			bgName = "bg_story_chuansong",
-			dir = 1,
-			actor = 101171,
-			nameColor = "#a9f548",
-			say = "起雾了……前后左右都是一片白……",
-			effects = {
-				{
-					active = true,
-					name = "memoryFog"
-				}
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 401231,
-			side = 0,
-			bgName = "bg_story_chuansong",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "大家小心，不要在雾里走散了！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 1,
-			bgName = "bg_story_chuansong",
-			dir = 1,
+			say = "那群脸色铁青的人……已经赶跑了吗？",
 			bgm = "level-uta",
-			actor = 201211,
-			nameColor = "#a9f548",
-			say = "……？!Z23，11点方向好像有什么东西！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,29 +21,11 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			actor = 10300040,
 			side = 2,
-			bgName = "bg_story_chuansong",
-			dir = 1,
-			actor = 10300061,
-			actorName = "???",
-			say = "喂—？不好意思……有谁在那里吗？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 401231,
-			side = 2,
-			bgName = "bg_story_chuansong",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "雾里好像有什么人……大家注意！",
+			say = "没有敌人的反应",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,253 +36,11 @@ return {
 			}
 		},
 		{
-			expression = 1,
-			side = 2,
-			bgName = "bg_story_chuansong",
-			nameColor = "#a9f548",
-			dir = 1,
-			actor = 10300061,
-			actorName = "???",
-			say = "啊…请不要那么慌张…我只是迷路了……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 2,
-			side = 2,
-			bgName = "bg_story_chuansong",
-			nameColor = "#a9f548",
-			dir = 1,
-			actor = 10300061,
-			actorName = "???",
-			say = "请问~……这里是哪里？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 201211,
-			side = 2,
-			bgName = "bg_story_chuansong",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "那舰装是……而且还长着兽耳和尾巴？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 101171,
-			side = 2,
-			bgName = "bg_story_chuansong",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "新的……重樱成员？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			dir = 1,
-			bgmDelay = 2,
-			bgName = "bg_story_school",
-			bgm = "main-uta",
-			actor = 401231,
-			nameColor = "#a9f548",
-			say = "如此这般——我们就千辛万苦把她从那片海域领回来了",
-			effects = {
-				{
-					active = false,
-					name = "memoryFog"
-				}
-			},
-			flashout = {
-				dur = 1,
-				black = true,
-				alpha = {
-					0,
-					1
-				}
-			},
-			flashin = {
-				delay = 1,
-				dur = 1,
-				black = true,
-				alpha = {
-					1,
-					0
-				}
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			say = "初次见面，我叫做芙米露露",
-			side = 0,
-			bgName = "bg_story_school",
-			dir = 1,
-			actor = 10300061,
-			nameColor = "#a9f548",
-			paintingFadeOut = {
-				time = 0.5,
-				side = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 301051,
+			expression = 3,
 			side = 1,
-			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			say = "刚才包围着这边的气息也已经消失了。可以说暂时脱离危险了吧",
 			dir = 1,
-			say = "我是{namecode:6}。请多……指教",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 2,
-			side = 0,
-			bgName = "bg_story_school",
-			dir = 1,
-			actor = 10300061,
-			nameColor = "#a9f548",
-			say = "呀，居然真的长着和我们一样的耳朵和尾巴。果然是同乡吧？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 301051,
-			side = 1,
-			bgName = "bg_story_school",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "同乡……？芙米露露小姐也是重樱来的人吗？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 301051,
-			side = 1,
-			bgName = "bg_story_school",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "但是…在重樱也没听说过……芙米露露小姐这样的人",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 201211,
-			side = 2,
-			bgName = "bg_story_school",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "诶？{namecode:6}也不认识芙米露露小姐吗？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 101171,
-			side = 2,
-			bgName = "bg_story_school",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "…和重樱的人不一样…",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 10300061,
-			side = 2,
-			bgName = "bg_story_school",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "重…樱…我也没听说过有这么一个国家呢",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			say = "芙米露露小姐，请问您是从哪儿来的呢？",
-			side = 1,
-			bgName = "bg_story_school",
-			dir = 1,
-			actor = 401231,
+			actor = 10300050,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -510,13 +56,122 @@ return {
 			}
 		},
 		{
+			expression = 3,
+			nameColor = "#a9f548",
+			side = 2,
+			dir = 1,
+			actor = 10300010,
+			say = "似乎是这样呢。假芙米露露也被打倒了……",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 10300010,
+			side = 2,
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "那么就只剩下你们几个了吧？",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 401230,
+			side = 2,
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "先等一下！我们是……！",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 201210,
+			side = 2,
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "求你了先听我们说句话！我们是来帮你们……",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 2,
+			side = 2,
+			nameColor = "#a9f548",
+			dir = 1,
+			actor = 10300060,
+			stopbgm = true,
+			say = "小久————不可以哦",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 10300060,
+			side = 2,
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "她们是我的恩人。而且这次她们是来帮你们的",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 2,
+			side = 2,
+			dir = 1,
+			bgm = "main-uta",
+			actor = 10300010,
+			nameColor = "#a9f548",
+			say = "芙米露露？！是、是真的吗？……你没事真的太好了！",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
 			expression = 1,
-			side = 0,
-			bgName = "bg_story_school",
-			dir = 1,
-			actor = 10300061,
 			nameColor = "#a9f548",
-			say = "要说从哪儿来…我只能说从图斯库尔来的了",
+			side = 2,
+			dir = 1,
+			actor = 10300060,
+			say = "对，正是我。我没事的，请放心",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -527,13 +182,11 @@ return {
 			}
 		},
 		{
-			expression = 2,
-			side = 0,
-			bgName = "bg_story_school",
-			dir = 1,
-			actor = 10300061,
+			actor = 312010,
+			side = 2,
 			nameColor = "#a9f548",
-			say = "本来应该是和小久还有同伴们一起正在前往大和国的途中呢……",
+			dir = -1,
+			say = "乌璐露和萨拉娜也把矛收起来喵，这群人是我们的同伴喵。{namecode:98}向你们保证喵",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -544,12 +197,91 @@ return {
 			}
 		},
 		{
-			actor = 101171,
+			actor = 301050,
+			side = 2,
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "{namecode:98}也没事啊……怎么说呢，真是命大",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 312010,
+			side = 2,
+			nameColor = "#a9f548",
+			dir = -1,
+			say = "我就当做你是在夸我了喵",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 3,
+			nameColor = "#a9f548",
+			side = 2,
+			dir = 1,
+			actor = 10300010,
+			say = "这群小姑娘是猫神大人的朋友吗？",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 101170,
+			side = 2,
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "猫神……大人……？",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 10300040,
+			side = 2,
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "猫神大人是我们的恩人",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 10300050,
+			nameColor = "#a9f548",
 			side = 1,
-			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "图斯库尔…大和…没听说过…",
+			say = "赐给在这片海域迷路、还被敌人袭击了的我们不可思议装备的，正是猫神大人",
+			paintingFadeOut = {
+				time = 0.5,
+				side = 0
+			},
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -560,28 +292,36 @@ return {
 			}
 		},
 		{
-			actor = 10300061,
-			side = 0,
-			bgName = "bg_story_school",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "这里…果然不是大和吧，我这是……到了什么地方呀？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 201211,
+			actor = 312010,
 			side = 2,
-			bgName = "bg_story_school",
+			nameColor = "#a9f548",
+			dir = -1,
+			say = "喵哈哈哈，尽管崇拜猫神大人喵！赛钱也是多多益善喵！",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			action = {
+				{
+					y = 30,
+					type = "shake",
+					delay = 0.1,
+					dur = 0.15,
+					x = 0,
+					number = 3
+				}
+			}
+		},
+		{
+			actor = 301050,
+			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这…完全就是个迷了路的姐姐嘛",
+			say = "太嚣张了……真是的，让人这么担心。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -592,12 +332,11 @@ return {
 			}
 		},
 		{
-			actor = 401231,
+			actor = 312010,
 			side = 2,
-			bgName = "bg_story_school",
 			nameColor = "#a9f548",
-			dir = 1,
-			say = "这和她之前出现在鄂霍次克海难道有什么联系吗",
+			dir = -1,
+			say = "喵？！抱，抱歉让你们担心了喵…对不起喵",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -608,12 +347,11 @@ return {
 			}
 		},
 		{
-			actor = 301051,
+			actor = 10300010,
 			side = 2,
-			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那现在只能……再去一次鄂霍次克海域了",
+			say = "真对不起，我还以为你们是那群人的同伴……谢谢你们救了芙米露露",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -624,78 +362,12 @@ return {
 			}
 		},
 		{
-			actor = 301051,
-			side = 2,
-			bgName = "bg_story_school",
+			expression = 1,
 			nameColor = "#a9f548",
-			dir = 1,
-			say = "{namecode:6}也去……这次一定要彻底调查清楚",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 201211,
 			side = 2,
-			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "说的也是，{namecode:98}也还没找到，不去找她不行呢！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 10300061,
-			side = 2,
-			bgName = "bg_story_school",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "如果要回那片海的话，能不能让我也同行呢？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 2,
-			side = 2,
-			bgName = "bg_story_school",
-			dir = 1,
-			actor = 10300061,
-			nameColor = "#a9f548",
-			say = "没准小久和大家也在那片海里迷路了呢……而且有这个舰装？的话也许我也能派上用场",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			bgName = "bg_story_school",
-			dir = 1,
-			blackBg = true,
-			actor = 401231,
-			nameColor = "#a9f548",
-			say = "也是……同时也得搞清楚原因呢，让我们再次出发吧。我这就去找指挥官申请出击命令",
+			actor = 10300010,
+			say = "我叫做久远——请多指教",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

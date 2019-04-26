@@ -32,7 +32,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			say = "Geesh... There's an unusual amount of paperwork today... Usually, by now you'd have already been gone to sleep...",
 			typewriter = {
@@ -59,7 +59,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			say = "Um, since it's so late, maybe I should make you something light to eat?",
 			typewriter = {
@@ -77,7 +77,7 @@ return {
 			bgName = "bg_night",
 			actorName = "{namecode:95}",
 			dir = 1,
-			actor = 307054,
+			actor = 307050,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -97,7 +97,7 @@ return {
 			side = 0,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			say = "You're here, sis?!",
 			typewriter = {
@@ -114,7 +114,7 @@ return {
 			side = 1,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 307054,
+			actor = 307050,
 			actorName = "{namecode:95}",
 			say = "I noticed that you hadn't come back to the dorm yet, so I reasoned that you must still be hard at work...",
 			typewriter = {
@@ -131,7 +131,7 @@ return {
 			side = 1,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 307054,
+			actor = 307050,
 			actorName = "{namecode:95}",
 			say = "It's not good for your health to overwork yourself. Now, watch and learn the importance of being prepared...",
 			typewriter = {
@@ -158,7 +158,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			say = "B-but I was just about to prepare something... Wait a minute, is that... beer?",
 			typewriter = {
@@ -176,7 +176,7 @@ return {
 			bgName = "bg_night",
 			actorName = "{namecode:95}",
 			dir = 1,
-			actor = 307054,
+			actor = 307050,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -196,7 +196,7 @@ return {
 			side = 1,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 307054,
+			actor = 307050,
 			actorName = "{namecode:95}",
 			say = "By which I mean that time when I'd had a lot to drink, and... Oh, you haven't told her yet, have you, Commander...?",
 			typewriter = {
@@ -223,7 +223,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			say = "(I knew it: sis has been doing all sorts of stuff with the Commander when I'm not around...)",
 			typewriter = {
@@ -240,7 +240,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			say = "(I get it now... She's prettier than me, she's more composed than me, and though we're equals in combat, she's a way better secretary than me... Someone like me can't even hold a candle to her...)",
 			typewriter = {
@@ -257,7 +257,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			say = "... Alright, then... I'll just go and leave my snacks in the fridge...",
 			typewriter = {
@@ -275,7 +275,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actorName = "{namecode:95}",
-			actor = 307054,
+			actor = 307050,
 			nameColor = "#a9f548",
 			say = "... Maybe I took my teasing a little too far?",
 			flashout = {

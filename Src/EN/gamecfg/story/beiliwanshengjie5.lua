@@ -46,7 +46,7 @@ return {
 			}
 		},
 		{
-			actor = 900138,
+			actor = 101271,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -67,7 +67,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 900137,
+			actor = 302051,
 			actorName = "{namecode:48}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -88,7 +88,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 900137,
+			actor = 302051,
 			actorName = "{namecode:48}",
 			say = "Also, it’s dark in here, I feel like something ominous will...",
 			typewriter = {
@@ -115,7 +115,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 900138,
+			actor = 101271,
 			nameColor = "#a9f548",
 			say = "Miss ghost——! Hurry...huh? What’s over there? A coffin?",
 			typewriter = {
@@ -133,7 +133,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 900137,
+			actor = 302051,
 			actorName = "{namecode:48}",
 			say = "Ack! A C-Coffin?!!!!",
 			typewriter = {
@@ -159,7 +159,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 900138,
+			actor = 101271,
 			nameColor = "#a9f548",
 			say = "Let’s open it first! Allow me!",
 			typewriter = {
@@ -186,7 +186,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 900140,
+			actor = 205031,
 			nameColor = "#a9f548",
 			say = "Wait——",
 			typewriter = {
@@ -203,7 +203,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 900139,
+			actor = 213021,
 			nameColor = "#a9f548",
 			say = "Boo! Surprise, surprise~~",
 			typewriter = {
@@ -230,7 +230,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 900137,
+			actor = 302051,
 			actorName = "{namecode:48}",
 			say = "Ahhhh!!!",
 			typewriter = {
@@ -257,7 +257,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 900138,
+			actor = 101271,
 			nameColor = "#a9f548",
 			say = "O gosh, suddenly someone appeared!",
 			typewriter = {
@@ -270,7 +270,7 @@ return {
 			}
 		},
 		{
-			actor = 900140,
+			actor = 205031,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -286,7 +286,7 @@ return {
 			}
 		},
 		{
-			actor = 900139,
+			actor = 213021,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -307,7 +307,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 900137,
+			actor = 302051,
 			actorName = "{namecode:48}",
 			say = "I thought it was a zombie or something, you scared me...",
 			typewriter = {
@@ -324,7 +324,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 900140,
+			actor = 205031,
 			nameColor = "#a9f548",
 			say = "…Why are you in a coffin, Terror?",
 			typewriter = {
@@ -337,7 +337,7 @@ return {
 			}
 		},
 		{
-			actor = 900140,
+			actor = 205031,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -357,7 +357,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 900139,
+			actor = 213021,
 			nameColor = "#a9f548",
 			say = "Terror cannot say, Terror is keeping a promise...",
 			typewriter = {
@@ -373,7 +373,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 900138,
+			actor = 101271,
 			nameColor = "#a9f548",
 			say = "Ah! Quick, look over there!",
 			typewriter = {
@@ -401,7 +401,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 900137,
+			actor = 302051,
 			actorName = "{namecode:48}",
 			say = "Hey, M-Miss ghost has appeared!!",
 			typewriter = {
@@ -428,7 +428,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 900140,
+			actor = 205031,
 			nameColor = "#a9f548",
 			say = "Who is it?!",
 			typewriter = {
@@ -441,7 +441,7 @@ return {
 			}
 		},
 		{
-			actor = 900138,
+			actor = 101271,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -461,7 +461,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 900139,
+			actor = 213021,
 			nameColor = "#a9f548",
 			say = "Wait...take this. It is “Witch’s Broomstick”.",
 			typewriter = {
@@ -478,7 +478,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 900138,
+			actor = 101271,
 			nameColor = "#a9f548",
 			say = "Wow, exactly one broomstick per person...we must catch up to that ghost!",
 			typewriter = {
@@ -494,7 +494,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 900138,
+			actor = 101271,
 			nameColor = "#a9f548",
 			say = "Don’t think you can easily escape from us! I’m coming for ya!!",
 			typewriter = {
@@ -522,7 +522,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			actor = 900137,
+			actor = 302051,
 			actorName = "{namecode:48}",
 			say = "Bailey, don't rush...",
 			typewriter = {

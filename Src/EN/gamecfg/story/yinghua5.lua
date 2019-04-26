@@ -33,7 +33,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 2,
 			say = "Mutsu, I need your opinion: will this pose be good for the next ceremony?",
 			dir = 1,
@@ -49,7 +49,7 @@ return {
 			}
 		},
 		{
-			actor = 305061,
+			actor = 305060,
 			side = 0,
 			say = "Well, hold still so I can get a look... Hmm, it looks kinda stupid to me. Maybe it'd work if you kept your arms totally straight?",
 			dir = 1,
@@ -68,7 +68,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 1,
 			dir = 1,
 			blackBg = true,
@@ -83,7 +83,7 @@ return {
 			}
 		},
 		{
-			actor = 305061,
+			actor = 305060,
 			side = 0,
 			dir = 1,
 			blackBg = true,
@@ -98,7 +98,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 1,
 			dir = 1,
 			blackBg = true,
@@ -113,7 +113,7 @@ return {
 			}
 		},
 		{
-			actor = 305061,
+			actor = 305060,
 			side = 0,
 			dir = 1,
 			blackBg = true,
@@ -136,7 +136,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -151,7 +151,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 2,
 			dir = 1,
 			blackBg = true,

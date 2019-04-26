@@ -21,7 +21,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			bgm = "story-1",
-			actor = 107031,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "Yikes, these are photos of me! Commander, are you perhaps...",
 			typewriter = {
@@ -48,7 +48,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			optionFlag = 1,
-			actor = 107031,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "Hmm... I'm not sure I believe you... Who did you get these from anyway~?",
 			typewriter = {
@@ -65,7 +65,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			optionFlag = 1,
-			actor = 107031,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "Isn't it obvious? There's only one person here who would be able to take all these photos.",
 			typewriter = {
@@ -82,7 +82,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			optionFlag = 2,
-			actor = 107031,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "Ehhhh? No way...! Commander, you took these?",
 			typewriter = {
@@ -99,7 +99,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			optionFlag = 2,
-			actor = 107031,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "... That's absurd! There's no way Commander could take photos of this quality.",
 			typewriter = {
@@ -112,7 +112,7 @@ return {
 			}
 		},
 		{
-			actor = 107031,
+			actor = 107030,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -138,7 +138,7 @@ return {
 			}
 		},
 		{
-			actor = 107031,
+			actor = 107030,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -174,7 +174,7 @@ return {
 			}
 		},
 		{
-			actor = 107031,
+			actor = 107030,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -190,7 +190,7 @@ return {
 			}
 		},
 		{
-			actor = 107031,
+			actor = 107030,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -206,7 +206,7 @@ return {
 			}
 		},
 		{
-			actor = 107031,
+			actor = 107030,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -232,7 +232,7 @@ return {
 			}
 		},
 		{
-			actor = 107031,
+			actor = 107030,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -248,7 +248,7 @@ return {
 			}
 		},
 		{
-			actor = 107031,
+			actor = 107030,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -264,7 +264,7 @@ return {
 			}
 		},
 		{
-			actor = 107031,
+			actor = 107030,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",

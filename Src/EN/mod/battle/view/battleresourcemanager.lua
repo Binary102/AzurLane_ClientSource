@@ -274,6 +274,12 @@ function slot5.InstSkillPaintingUI(slot0)
 	return slot0._allPool["UI/SkillPainting"].GetObject(slot1)
 end
 
+function slot5.InstKizunaJamming(slot0)
+	slot0._ob2Pool[slot0._allPool["UI/KizunaJamming"].GetObject(slot1)] = slot0._allPool["UI/KizunaJamming"]
+
+	return slot0._allPool["UI/KizunaJamming"].GetObject(slot1)
+end
+
 function slot5.InstPainting(slot0, slot1)
 	slot3 = nil
 
@@ -576,6 +582,8 @@ function slot5.InitPool(slot0, slot1, slot2)
 		slot0._allPool[slot1] = pg.Pool.New(slot3, slot2, 3, 20, false, false):InitSize()
 	elseif slot1 == "UI/SkillPainting" then
 		slot0._allPool[slot1] = pg.Pool.New(slot3, slot2, 1, 20, false, false):InitSize()
+	elseif slot1 == "UI/KizunaJamming" then
+		slot0._allPool[slot1] = pg.Pool.New(slot3, slot2, 1, 20, false, false):InitSize()
 	end
 end
 
@@ -723,9 +731,17 @@ function slot5.GetEquipResource(slot0, slot1)
 		end
 	end
 
-	for slot7, slot8 in ipairs(slot3) do
-		for slot13, slot14 in ipairs(slot9) do
-			slot2[#slot2 + 1] = slot14
+	slot5 = slot0.Battle.BattleDataFunction.GetWeaponDataFromID(slot0).skill_id
+
+	for slot9, slot10 in ipairs(slot4) do
+		for slot15, slot16 in ipairs(slot11) do
+			slot2[#slot2 + 1] = slot16
+		end
+	end
+
+	for slot9, slot10 in ipairs(slot5) do
+		for slot15, slot16 in ipairs(slot11) do
+			slot2[#slot2 + 1] = slot16
 		end
 	end
 
@@ -920,6 +936,8 @@ function slot5.GetStageResource(slot0)
 						slot3[#slot3 + 1] = slot21.skinId
 					end
 				end
+			elseif slot13.triggerType == slot0.Battle.BattleConst.WaveTriggerType.JAMMING then
+				slot2[#slot2 + 1] = slot1.GetKizunaJammingUI()
 			end
 
 			if slot13.airFighter ~= nil then
@@ -933,6 +951,10 @@ function slot5.GetStageResource(slot0)
 	end
 
 	return slot2, slot3
+end
+
+function slot5.GetKizunaJammingUI()
+	return slot0.GetUIPath("KizunaJamming")
 end
 
 function slot5.GetEquipSkinPreviewRes(slot0)
@@ -967,6 +989,39 @@ function slot5.GetEquipSkinPreviewRes(slot0)
 	slot3(slot5)
 	slot3(slot6)
 	slot3(slot7)
+
+	return slot1
+end
+
+function slot5.GetEquipSkinBulletRes(slot0)
+	slot1 = {}
+	slot2, slot3, slot4, slot5 = slot0:GetEquipSkin()
+
+	function slot6(slot0)
+		if slot0 ~= "" then
+			slot0[#slot0 + 1] = slot1.GetBulletPath(slot0)
+		end
+	end
+
+	slot8 = false
+
+	for slot12, slot13 in ipairs(slot0:GetEquipSkinDataFromID().equip_type) do
+		if table.contains(EquipType.AircraftSkinType, slot13) then
+			slot8 = true
+		end
+	end
+
+	if slot8 then
+		if slot2 ~= "" then
+			slot1[#slot1 + 1] = slot1.GetCharacterGoPath(slot2)
+		end
+	else
+		slot6(slot2)
+	end
+
+	slot6(slot3)
+	slot6(slot4)
+	slot6(slot5)
 
 	return slot1
 end

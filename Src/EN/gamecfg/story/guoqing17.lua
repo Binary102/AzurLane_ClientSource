@@ -8,7 +8,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 307011,
+			actor = 307010,
 			actorName = "{namecode:91}",
 			side = 0,
 			nameColor = "#ff0000",
@@ -27,7 +27,7 @@ return {
 			}
 		},
 		{
-			actor = 307021,
+			actor = 307020,
 			actorName = "{namecode:92}",
 			side = 1,
 			nameColor = "#ff0000",
@@ -46,7 +46,7 @@ return {
 			}
 		},
 		{
-			actor = 307011,
+			actor = 307010,
 			actorName = "{namecode:91}",
 			side = 0,
 			nameColor = "#ff0000",
@@ -65,7 +65,7 @@ return {
 			}
 		},
 		{
-			actor = 307021,
+			actor = 307020,
 			actorName = "{namecode:92}",
 			side = 1,
 			nameColor = "#ff0000",

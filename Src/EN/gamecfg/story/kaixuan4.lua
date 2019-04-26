@@ -50,7 +50,7 @@ return {
 			}
 		},
 		{
-			actor = 801011,
+			actor = 801010,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -79,7 +79,7 @@ return {
 			}
 		},
 		{
-			actor = 213011,
+			actor = 213010,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -94,7 +94,7 @@ return {
 			}
 		},
 		{
-			actor = 213021,
+			actor = 213020,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -123,7 +123,7 @@ return {
 			}
 		},
 		{
-			actor = 801011,
+			actor = 801010,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -138,7 +138,7 @@ return {
 			}
 		},
 		{
-			actor = 213011,
+			actor = 213010,
 			side = 1,
 			bgName = "bg_story_outdoor",
 			say = "凯旋小姐，谢谢你…和你一起出击之后，恐怖变得比以前自信了不少…",
@@ -157,7 +157,7 @@ return {
 			}
 		},
 		{
-			actor = 213021,
+			actor = 213020,
 			side = 1,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -172,7 +172,7 @@ return {
 			}
 		},
 		{
-			actor = 801011,
+			actor = 801010,
 			side = 0,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -190,7 +190,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 213011,
+			actor = 213010,
 			say = "那…我们就先走了。这么大的太阳对恐怖的身体不大好…恐怖，想吃点心吗…？",
 			flashout = {
 				dur = 0.5,
@@ -219,7 +219,7 @@ return {
 			}
 		},
 		{
-			actor = 213021,
+			actor = 213020,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -248,7 +248,7 @@ return {
 			}
 		},
 		{
-			actor = 801011,
+			actor = 801010,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -266,7 +266,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 107021,
+			actor = 107020,
 			say = "哎呀，是凯旋小姐啊，和指挥官在巡逻吗？",
 			flashout = {
 				dur = 0.5,
@@ -295,7 +295,7 @@ return {
 			}
 		},
 		{
-			actor = 801011,
+			actor = 801010,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -310,7 +310,7 @@ return {
 			}
 		},
 		{
-			actor = 107031,
+			actor = 107030,
 			side = 1,
 			bgName = "bg_story_outdoor",
 			say = "哎？哎哎？怎么被发现了！？还想要偷偷出现吓指挥官一跳呢～",
@@ -329,7 +329,7 @@ return {
 			}
 		},
 		{
-			actor = 801011,
+			actor = 801010,
 			side = 0,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -344,7 +344,7 @@ return {
 			}
 		},
 		{
-			actor = 107021,
+			actor = 107020,
 			side = 0,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -359,7 +359,7 @@ return {
 			}
 		},
 		{
-			actor = 107031,
+			actor = 107030,
 			side = 1,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -374,7 +374,7 @@ return {
 			}
 		},
 		{
-			actor = 107021,
+			actor = 107020,
 			side = 0,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -389,7 +389,7 @@ return {
 			}
 		},
 		{
-			actor = 107031,
+			actor = 107030,
 			side = 1,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -407,7 +407,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 801011,
+			actor = 801010,
 			say = "稳重啊…",
 			flashout = {
 				dur = 1,
@@ -464,7 +464,7 @@ return {
 			}
 		},
 		{
-			actor = 801011,
+			actor = 801010,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -485,7 +485,7 @@ return {
 			}
 		},
 		{
-			actor = 801011,
+			actor = 801010,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -500,7 +500,7 @@ return {
 			}
 		},
 		{
-			actor = 801011,
+			actor = 801010,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,

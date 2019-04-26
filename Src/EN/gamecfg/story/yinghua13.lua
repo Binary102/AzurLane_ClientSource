@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 305061,
+			actor = 305060,
 			side = 0,
 			dir = 1,
 			bgm = "nagato-map",
@@ -16,7 +16,7 @@ return {
 			say = "Ugh, we lost... Even though we tried so hard...",
 			subActors = {
 				{
-					actor = 305051,
+					actor = 305050,
 					pos = {
 						x = 750
 					}
@@ -32,7 +32,7 @@ return {
 			}
 		},
 		{
-			actor = 305111,
+			actor = 305110,
 			side = 2,
 			dir = 1,
 			say = "I may be old, but I've still got it! Ahahahah!",
@@ -46,7 +46,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 2,
 			dir = 1,
 			say = "Mikasa...",
@@ -60,7 +60,7 @@ return {
 			}
 		},
 		{
-			actor = 305111,
+			actor = 305110,
 			side = 2,
 			dir = 1,
 			say = "So, did you enjoy yourself?",
@@ -74,7 +74,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 2,
 			dir = 1,
 			say = "I did. It was quite a learning experience as well.",
@@ -88,7 +88,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 2,
 			dir = 1,
 			say = "But... I still have much to learn. About combat, and about myself. I didn't want to be a disappointment to my people or my friends, so I worked strenuously...",
@@ -102,7 +102,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 2,
 			dir = 1,
 			say = "I've lost so much, and I was manipulated into starting a war... Nobody can deny it's all my fault.",
@@ -116,7 +116,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 2,
 			dir = 1,
 			say = "However, the Spirits told me something important: that there is a divergence point in this timeline. And I want you to help me look for it.",
@@ -130,7 +130,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 2,
 			dir = 1,
 			say = "This time... I will not run away from myself!",
@@ -240,7 +240,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 2,
 			dir = 1,
 			say = "Have you any more to say? If not... prepare to be engulfed by cannon fire!",

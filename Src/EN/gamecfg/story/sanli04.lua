@@ -58,7 +58,7 @@ return {
 			}
 		},
 		{
-			actor = 307054,
+			actor = 307050,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -74,7 +74,7 @@ return {
 			}
 		},
 		{
-			actor = 307064,
+			actor = 307060,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
@@ -90,7 +90,7 @@ return {
 			}
 		},
 		{
-			actor = 307064,
+			actor = 307060,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
@@ -111,7 +111,7 @@ return {
 			bgName = "bg_story_mikasa",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 307054,
+			actor = 307050,
 			actorName = "{namecode:95}&{namecode:96}",
 			say = "！！…重樱联合曾经的大旗舰——",
 			effects = {
@@ -135,7 +135,7 @@ return {
 			bgName = "bg_story_mikasa",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 307054,
+			actor = 307050,
 			mode = 3,
 			say = "<size=35>{namecode:82}！！</size>",
 			dialogShake = {
@@ -159,7 +159,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 305114,
+			actor = 305110,
 			mode = 3,
 			say = "后辈们，拿出你们的气势来！战斗才刚刚开始！！！",
 			typewriter = {
@@ -176,7 +176,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 305114,
+			actor = 305110,
 			mode = 3,
 			say = "绳锯木断，滴水穿石，今日的努力将被未来铭记",
 			typewriter = {
@@ -193,7 +193,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 305114,
+			actor = 305110,
 			mode = 3,
 			say = "而未来，将因你们今日的努力改变",
 			typewriter = {
@@ -210,7 +210,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 305114,
+			actor = 305110,
 			mode = 3,
 			say = "再次一起奋战吧！",
 			typewriter = {
@@ -227,7 +227,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 305114,
+			actor = 305110,
 			mode = 3,
 			say = "今日晴空万里，波澜壮阔——",
 			typewriter = {
@@ -244,7 +244,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 305114,
+			actor = 305110,
 			mode = 3,
 			say = "新生重樱联合",
 			typewriter = {
@@ -261,7 +261,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 305114,
+			actor = 305110,
 			mode = 3,
 			say = "——出击！",
 			typewriter = {

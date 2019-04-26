@@ -42,7 +42,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 307041,
+			actor = 307040,
 			actorName = "{namecode:94}",
 			say = "哈啊…哈啊…今，今天训练得比平时还凶啊…",
 			typewriter = {
@@ -69,7 +69,7 @@ return {
 			bgName = "bg_story_nepu1",
 			actorName = "{namecode:93}",
 			dir = 1,
-			actor = 307031,
+			actor = 307030,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -89,7 +89,7 @@ return {
 			side = 0,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 307061,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			say = "唔！但只要熬过这关就能更接近前辈一些了！…怎么了{namecode:95}姐！？",
 			typewriter = {
@@ -106,7 +106,7 @@ return {
 			side = 1,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 307051,
+			actor = 307050,
 			actorName = "{namecode:95}",
 			say = "前辈真坏前辈真坏前辈真坏真坏真坏……（碎碎念）",
 			typewriter = {
@@ -123,7 +123,7 @@ return {
 			side = 1,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 307024,
+			actor = 307020,
 			actorName = "{namecode:92}",
 			say = "你们还是别费口舌了。今天的姐姐是动真格的。一个不小心就会像当初姐姐绰号里说的那样…见识到什么是地狱。",
 			typewriter = {
@@ -140,7 +140,7 @@ return {
 			side = 0,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 307041,
+			actor = 307040,
 			actorName = "{namecode:94}",
 			say = "不过为什么突然说要共同演习呢……{namecode:92}前辈知道原因吗？",
 			typewriter = {
@@ -157,7 +157,7 @@ return {
 			side = 1,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 307024,
+			actor = 307020,
 			actorName = "{namecode:92}",
 			say = "我也不清楚，不过据报告说上次演习的时候，白鹰那些家伙的成绩比我们重樱更好",
 			typewriter = {
@@ -174,7 +174,7 @@ return {
 			side = 1,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 307024,
+			actor = 307020,
 			actorName = "{namecode:92}",
 			say = "姐姐也好久没这么拼了。就让我好好享受吧……呵呵呵呵……",
 			typewriter = {
@@ -191,7 +191,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:91}",
-			actor = 307011,
+			actor = 307010,
 			nameColor = "#a9f548",
 			say = "这点程度就叫苦…就这样也敢自称重樱航空战队的一员吗！？",
 			flashout = {
@@ -225,7 +225,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 307011,
+			actor = 307010,
 			actorName = "{namecode:91}",
 			say = "……指挥官大人？呵呵，让你见笑了……请见谅",
 			typewriter = {
@@ -242,7 +242,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 307011,
+			actor = 307010,
 			actorName = "{namecode:91}",
 			say = "不过…我并不是公报私仇，而是为了我们一航战…不，是为了我们重樱……",
 			typewriter = {
@@ -259,7 +259,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 307011,
+			actor = 307010,
 			actorName = "{namecode:91}",
 			say = "正是因为这些努力，我们才会在那场战斗里得到“无双”的称呼哦",
 			typewriter = {
@@ -277,7 +277,7 @@ return {
 			bgName = "bg_story_nepu1",
 			actorName = "{namecode:92}",
 			dir = 1,
-			actor = 307024,
+			actor = 307020,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -298,7 +298,7 @@ return {
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			blackBg = true,
-			actor = 307011,
+			actor = 307010,
 			nameColor = "#a9f548",
 			say = "……那么指挥官，{namecode:91}就先回去共同训练了哦。想参观的话麻烦到那边去看吧。呵呵♪",
 			typewriter = {

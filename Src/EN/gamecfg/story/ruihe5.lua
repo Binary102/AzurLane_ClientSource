@@ -32,7 +32,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			say = "Welcome back, Commander! Want me to bring you your food soon?",
 			typewriter = {
@@ -49,7 +49,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			say = "... Huh? Didn't I tell you that I'd be making your food today, not Shoukaku? I can't keep asking her to make food for you forever, so I tried my own hand at it!",
 			typewriter = {
@@ -66,7 +66,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			say = "Just sit tight, I'll be back in a moment.",
 			typewriter = {
@@ -110,7 +110,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			say = "Dinner's served! Chicken nuggets with onions, rice cooked in barley and miso soup with an egg, and lastly for dessert: coconut juice and a Royal Rations Banana!",
 			typewriter = {
@@ -127,7 +127,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			say = "All in all, it's like a road trip through Flavortown! Bon appetit!",
 			typewriter = {
@@ -164,7 +164,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			say = "So, what do you think?",
 			typewriter = {
@@ -200,7 +200,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			say = "... Delicious, like always? Sweet! I mean, even without my sister's help, I can at least make some delicious food!",
 			typewriter = {
@@ -217,7 +217,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			say = "So it's even better than the Grey Ghost's cooking? Thanks, Commander!",
 			typewriter = {
@@ -234,7 +234,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			say = "I've heard Vestal is teaching her how to cook so that basically means she's no match for me!",
 			typewriter = {
@@ -252,7 +252,7 @@ return {
 			bgName = "bg_night",
 			dir = 1,
 			blackBg = true,
-			actor = 307064,
+			actor = 307060,
 			nameColor = "#a9f548",
 			say = "*Giggle*♪ I beat the Grey Ghost today♪",
 			typewriter = {

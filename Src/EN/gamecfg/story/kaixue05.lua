@@ -98,7 +98,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 900087,
+			actor = 101262,
 			nameColor = "#a9f548",
 			say = "Eh...? C-Commander?",
 			flashout = {
@@ -143,7 +143,7 @@ return {
 			}
 		},
 		{
-			actor = 900087,
+			actor = 101262,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -159,7 +159,7 @@ return {
 			}
 		},
 		{
-			actor = 900087,
+			actor = 101262,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -175,7 +175,7 @@ return {
 			}
 		},
 		{
-			actor = 900087,
+			actor = 101262,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -214,7 +214,7 @@ return {
 			}
 		},
 		{
-			actor = 900087,
+			actor = 101262,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -253,7 +253,7 @@ return {
 			}
 		},
 		{
-			actor = 900087,
+			actor = 101262,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -269,7 +269,7 @@ return {
 			}
 		},
 		{
-			actor = 900087,
+			actor = 101262,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -285,7 +285,7 @@ return {
 			}
 		},
 		{
-			actor = 900087,
+			actor = 101262,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",

@@ -50,7 +50,7 @@ return {
 			}
 		},
 		{
-			actor = 107381,
+			actor = 107380,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -66,7 +66,7 @@ return {
 			}
 		},
 		{
-			actor = 107091,
+			actor = 107090,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -86,7 +86,7 @@ return {
 			side = 0,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 107381,
+			actor = 107380,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -106,7 +106,7 @@ return {
 			side = 0,
 			bgName = "bg_story_nepu1",
 			withoutActorName = true,
-			actor = 107381,
+			actor = 107380,
 			nameColor = "#a9f548",
 			say = "看到埃塞克斯一副欲言又止的模样，香格里拉率先打开了话匣子",
 			typewriter = {
@@ -119,7 +119,7 @@ return {
 			}
 		},
 		{
-			actor = 107381,
+			actor = 107380,
 			side = 0,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -139,7 +139,7 @@ return {
 			side = 1,
 			bgName = "bg_story_nepu1",
 			dir = -1,
-			actor = 107091,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "！你、你怎么知道",
 			typewriter = {
@@ -166,7 +166,7 @@ return {
 			side = 1,
 			bgName = "bg_story_nepu1",
 			withoutActorName = true,
-			actor = 107091,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "说起来刚才埃塞克斯的反应却是有点让人好奇。",
 			typewriter = {
@@ -183,7 +183,7 @@ return {
 			side = 0,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 107381,
+			actor = 107380,
 			nameColor = "#a9f548",
 			say = "呵呵，让我猜猜看…是不是关于下次白鹰大型演习的事情呢？",
 			typewriter = {
@@ -200,7 +200,7 @@ return {
 			side = 1,
 			bgName = "bg_story_nepu1",
 			dir = -1,
-			actor = 107091,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "（小声）哇？难道你会读心术吗，香格里拉？",
 			typewriter = {
@@ -217,7 +217,7 @@ return {
 			side = 0,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 107381,
+			actor = 107380,
 			nameColor = "#a9f548",
 			say = "（小声）看这反应，你的烦恼八成还跟我们那位“前辈”脱不开关系吧~？",
 			typewriter = {
@@ -234,7 +234,7 @@ return {
 			side = 1,
 			bgName = "bg_story_nepu1",
 			dir = -1,
-			actor = 107091,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "呜…还、还是让我自己来说吧，事情是这样的——",
 			typewriter = {
@@ -260,7 +260,7 @@ return {
 			side = 0,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 107381,
+			actor = 107380,
 			nameColor = "#a9f548",
 			say = "嗯…想要在下次大型演习前寻找到能确切战胜企业前辈的方法，实在不行，至少也要让前辈大吃一惊…吗",
 			flashout = {
@@ -294,7 +294,7 @@ return {
 			side = 0,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 107381,
+			actor = 107380,
 			nameColor = "#a9f548",
 			say = "不介意的话，就让我来给你提供一点小小的帮助如何~？",
 			typewriter = {
@@ -310,7 +310,7 @@ return {
 			side = 1,
 			bgName = "bg_story_nepu1",
 			dir = -1,
-			actor = 107091,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "真的吗！？……咳咳！",
 			typewriter = {
@@ -333,7 +333,7 @@ return {
 			}
 		},
 		{
-			actor = 107381,
+			actor = 107380,
 			side = 0,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -349,7 +349,7 @@ return {
 			}
 		},
 		{
-			actor = 107091,
+			actor = 107090,
 			side = 1,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -369,7 +369,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgName = "bg_story_task",
-			actor = 107381,
+			actor = 107380,
 			nameColor = "#a9f548",
 			say = "东煌有句古话，叫做“知己知彼，百战不殆”。",
 			flashout = {
@@ -403,7 +403,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 107381,
+			actor = 107380,
 			nameColor = "#a9f548",
 			say = "虽然是古典理论，但是面对企业前辈，信息和经验的重要性自然是不用多说",
 			typewriter = {
@@ -416,7 +416,7 @@ return {
 			}
 		},
 		{
-			actor = 107381,
+			actor = 107380,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -432,7 +432,7 @@ return {
 			}
 		},
 		{
-			actor = 107091,
+			actor = 107090,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -452,7 +452,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 107381,
+			actor = 107380,
 			nameColor = "#a9f548",
 			say = "嗯，之后再按照记录，针对企业前辈的战斗风格来给埃塞克斯你定制一个特训吧",
 			typewriter = {
@@ -469,7 +469,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 107381,
+			actor = 107380,
 			nameColor = "#a9f548",
 			say = "啊，指挥官也可以来观摩一下。毕竟不是什么秘密的东西",
 			typewriter = {

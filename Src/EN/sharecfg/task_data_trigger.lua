@@ -69,7 +69,7 @@ pg.task_data_trigger = {
 	[8] = {
 		group_id = 30701,
 		id = 8,
-		activity_id = 2005,
+		activity_id = 30517,
 		args = {
 			{
 				1,
@@ -80,7 +80,7 @@ pg.task_data_trigger = {
 	[9] = {
 		group_id = 10209,
 		id = 9,
-		activity_id = 2006,
+		activity_id = 30518,
 		args = {
 			{
 				1,

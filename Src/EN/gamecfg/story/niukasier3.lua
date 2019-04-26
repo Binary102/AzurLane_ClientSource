@@ -65,7 +65,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 203031,
+			actor = 203030,
 			nameColor = "#a9f548",
 			say = "Question？纽卡斯尔姐姐在哪？",
 			flashout = {
@@ -95,7 +95,7 @@ return {
 			}
 		},
 		{
-			actor = 203031,
+			actor = 203030,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -115,7 +115,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgName = "bg_story_school",
-			actor = 203041,
+			actor = 203040,
 			nameColor = "#a9f548",
 			say = "哦…？那片云是……啊我没有偷懒！没有偷懒啦！",
 			flashout = {
@@ -145,7 +145,7 @@ return {
 			}
 		},
 		{
-			actor = 203041,
+			actor = 203040,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -164,7 +164,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 202081,
+			actor = 202080,
 			nameColor = "#a9f548",
 			say = "没看到。…非常抱歉",
 			flashout = {
@@ -197,7 +197,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 202111,
+			actor = 202110,
 			nameColor = "#a9f548",
 			say = "纽卡斯尔吗？没和谢菲在一起的话，估计是一个人在看书吧！",
 			flashout = {
@@ -227,7 +227,7 @@ return {
 			}
 		},
 		{
-			actor = 202111,
+			actor = 202110,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -243,7 +243,7 @@ return {
 			}
 		},
 		{
-			actor = 202111,
+			actor = 202110,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",

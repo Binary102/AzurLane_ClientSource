@@ -8,7 +8,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 307021,
+			actor = 307020,
 			actorName = "{namecode:92}",
 			side = 2,
 			nameColor = "#ff0000",
@@ -27,7 +27,7 @@ return {
 			}
 		},
 		{
-			actor = 307021,
+			actor = 307020,
 			actorName = "{namecode:92}",
 			side = 2,
 			nameColor = "#ff0000",
@@ -46,7 +46,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			side = 2,
 			nameColor = "#a9f548",
@@ -68,7 +68,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			soundeffect = "event:/battle/boom2",
-			actor = 307061,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			say = "What...?! Sho... Shoukaku?!",
 			flashout = {
@@ -103,7 +103,7 @@ return {
 			side = 1,
 			say = "I promised... I would always... protect you...!",
 			actorName = "{namecode:95}",
-			actor = 307051,
+			actor = 307050,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -123,7 +123,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			side = 0,
 			nameColor = "#a9f548",
@@ -145,7 +145,7 @@ return {
 			side = 0,
 			actorName = "{namecode:92}",
 			dir = -1,
-			actor = 307021,
+			actor = 307020,
 			nameColor = "#ff0000",
 			say = "This must be an Awakening Response... Brought on by remembering something important from the depths of her mind at just the right time...",
 			shake = {
@@ -165,7 +165,7 @@ return {
 			side = 1,
 			actorName = "{namecode:91}",
 			dir = -1,
-			actor = 307011,
+			actor = 307010,
 			nameColor = "#ff0000",
 			say = "Kaga, let's retreat. Our priority right now is to report to the Creator that a Pawn has Awakened.",
 			shake = {
@@ -185,7 +185,7 @@ return {
 			side = 0,
 			actorName = "{namecode:92}",
 			dir = -1,
-			actor = 307021,
+			actor = 307020,
 			nameColor = "#ff0000",
 			say = "Understood.",
 			shake = {
@@ -202,7 +202,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			side = 0,
 			nameColor = "#a9f548",
@@ -221,7 +221,7 @@ return {
 			}
 		},
 		{
-			actor = 307051,
+			actor = 307050,
 			actorName = "{namecode:95}",
 			side = 1,
 			nameColor = "#a9f548",
@@ -240,7 +240,7 @@ return {
 			}
 		},
 		{
-			actor = 307051,
+			actor = 307050,
 			actorName = "{namecode:95}",
 			side = 1,
 			nameColor = "#a9f548",
@@ -259,7 +259,7 @@ return {
 			}
 		},
 		{
-			actor = 307051,
+			actor = 307050,
 			actorName = "{namecode:95}",
 			side = 1,
 			nameColor = "#a9f548",
@@ -278,7 +278,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			side = 0,
 			nameColor = "#a9f548",
@@ -297,7 +297,7 @@ return {
 			}
 		},
 		{
-			actor = 307051,
+			actor = 307050,
 			actorName = "{namecode:95}",
 			side = 1,
 			nameColor = "#a9f548",

@@ -50,7 +50,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 900164,
+			actor = 501041,
 			nameColor = "#a9f548",
 			say = "Ugh... Where are we even supposed to find gunpowder...?",
 			typewriter = {
@@ -67,7 +67,7 @@ return {
 			side = 0,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 501021,
+			actor = 501020,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -83,7 +83,7 @@ return {
 			}
 		},
 		{
-			actor = 900164,
+			actor = 501041,
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -99,7 +99,7 @@ return {
 			}
 		},
 		{
-			actor = 501021,
+			actor = 501020,
 			side = 0,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -120,7 +120,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 900167,
+			actor = 301054,
 			actorName = "{namecode:6}",
 			say = "This is Yuugure. I don't believe you've met before.",
 			typewriter = {
@@ -138,7 +138,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 900168,
+			actor = 301262,
 			actorName = "{namecode:32}",
 			say = "Ah... Nice to meet you. I'm Yuugure. I hope we can be friends.",
 			typewriter = {
@@ -151,7 +151,7 @@ return {
 			}
 		},
 		{
-			actor = 501021,
+			actor = 501020,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -171,7 +171,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 900164,
+			actor = 501041,
 			nameColor = "#a9f548",
 			say = "Ayanami, Laffey, and Yuugure in new clothes... You look so cute in them...",
 			typewriter = {
@@ -189,7 +189,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 900168,
+			actor = 301262,
 			actorName = "{namecode:32}",
 			say = "We worked on them together.",
 			typewriter = {
@@ -202,7 +202,7 @@ return {
 			}
 		},
 		{
-			actor = 900169,
+			actor = 101173,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -222,7 +222,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 900167,
+			actor = 301054,
 			actorName = "{namecode:6}",
 			say = "Longer than we'd expected to, yes... But it's fine since we made in time for the Lunar New Year.",
 			typewriter = {
@@ -235,7 +235,7 @@ return {
 			}
 		},
 		{
-			actor = 501021,
+			actor = 501020,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -251,7 +251,7 @@ return {
 			}
 		},
 		{
-			actor = 501021,
+			actor = 501020,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -271,7 +271,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 900167,
+			actor = 301054,
 			actorName = "{namecode:6}",
 			say = "...Yes, there should be some that we previously used to make fireworks with in the old warehouse.",
 			typewriter = {
@@ -287,7 +287,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 501021,
+			actor = 501020,
 			nameColor = "#a9f548",
 			say = "Oh, really? In the old warehouse? Heheheh, I didn't think we'd be able to find some this quickly~",
 			typewriter = {
@@ -314,7 +314,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 900169,
+			actor = 101173,
 			nameColor = "#a9f548",
 			say = "Oh, I love firecrackers!",
 			typewriter = {
@@ -327,7 +327,7 @@ return {
 			}
 		},
 		{
-			actor = 501021,
+			actor = 501020,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -343,7 +343,7 @@ return {
 			}
 		},
 		{
-			actor = 900169,
+			actor = 101173,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -364,7 +364,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 900167,
+			actor = 301054,
 			actorName = "{namecode:6}",
 			say = "Firecrackers are dangerous... But, when used responsibly... in sober mind... they can be quite fun.",
 			typewriter = {
@@ -382,7 +382,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 900168,
+			actor = 301262,
 			actorName = "{namecode:32}",
 			say = "T-to the old warehouse? I-I think I'll have to pass... My sister Ariake is waiting for me, and the old warehouse is just a little too dark and scary for me...",
 			typewriter = {
@@ -400,7 +400,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 900167,
+			actor = 301054,
 			actorName = "{namecode:6}",
 			say = "Okay. Take care on the way back, Yuugure.",
 			typewriter = {
@@ -449,7 +449,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 900167,
+			actor = 301054,
 			actorName = "{namecode:6}",
 			say = "...I found it. Over here.",
 			typewriter = {
@@ -462,7 +462,7 @@ return {
 			}
 		},
 		{
-			actor = 501021,
+			actor = 501020,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -478,7 +478,7 @@ return {
 			}
 		},
 		{
-			actor = 900169,
+			actor = 101173,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -498,7 +498,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 900167,
+			actor = 301054,
 			actorName = "{namecode:6}",
 			say = "I found something as well. It's called a sugoroku board... I think?",
 			typewriter = {
@@ -511,7 +511,7 @@ return {
 			}
 		},
 		{
-			actor = 501021,
+			actor = 501020,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -530,7 +530,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 501021,
+			actor = 501020,
 			nameColor = "#a9f548",
 			say = "Oh, this thing's called Shengguan Tu... Actually, I'm pretty sure they call it \"Momopoly\" in the Eagle Union, and \"sugoroku\" in the Sakura Empire, right?",
 			typewriter = {
@@ -558,18 +558,18 @@ return {
 			bgName = "bg_story_task",
 			hideOther = true,
 			dir = 1,
-			actor = 900169,
+			actor = 101173,
 			actorName = "Laffey & Ayanami & Fu Shun",
 			say = "…I have an idea…",
 			subActors = {
 				{
-					actor = 501021,
+					actor = 501020,
 					pos = {
 						x = -370
 					}
 				},
 				{
-					actor = 900167,
+					actor = 301054,
 					pos = {
 						x = 370
 					}
@@ -589,7 +589,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 900164,
+			actor = 501041,
 			nameColor = "#a9f548",
 			say = "Instead of making firecrackers, how about we just play...",
 			typewriter = {
@@ -605,7 +605,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 501021,
+			actor = 501020,
 			nameColor = "#a9f548",
 			say = "Then it's settled. After we've made firecrackers, we'll play some of this! Heheh, I'll have you know I'm really good at games like these!",
 			typewriter = {
@@ -631,14 +631,14 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			bgName = "bg_story_task",
-			actor = 900169,
+			actor = 101173,
 			dir = 1,
 			hideOther = true,
 			actorName = "Laffey & Ayanami",
 			say = "Wow, that's cool.",
 			subActors = {
 				{
-					actor = 900167,
+					actor = 301054,
 					pos = {
 						x = 850
 					}
@@ -659,7 +659,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			actor = 900164,
+			actor = 501041,
 			nameColor = "#a9f548",
 			say = "W-wait, what about my idea...",
 			typewriter = {

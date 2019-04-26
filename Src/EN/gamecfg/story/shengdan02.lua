@@ -16,7 +16,7 @@ return {
 			}
 		},
 		{
-			actor = 900058,
+			actor = 102081,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -31,7 +31,7 @@ return {
 			}
 		},
 		{
-			actor = 900060,
+			actor = 101051,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
@@ -50,7 +50,7 @@ return {
 			}
 		},
 		{
-			actor = 900058,
+			actor = 102081,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -65,7 +65,7 @@ return {
 			}
 		},
 		{
-			actor = 900058,
+			actor = 102081,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -80,7 +80,7 @@ return {
 			}
 		},
 		{
-			actor = 900060,
+			actor = 101051,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -95,7 +95,7 @@ return {
 			}
 		},
 		{
-			actor = 900060,
+			actor = 101051,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -110,7 +110,7 @@ return {
 			}
 		},
 		{
-			actor = 900058,
+			actor = 102081,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -125,7 +125,7 @@ return {
 			}
 		},
 		{
-			actor = 900058,
+			actor = 102081,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -140,7 +140,7 @@ return {
 			}
 		},
 		{
-			actor = 900058,
+			actor = 102081,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -155,7 +155,7 @@ return {
 			}
 		},
 		{
-			actor = 900060,
+			actor = 101051,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -170,7 +170,7 @@ return {
 			}
 		},
 		{
-			actor = 900058,
+			actor = 102081,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -185,7 +185,7 @@ return {
 			}
 		},
 		{
-			actor = 900058,
+			actor = 102081,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
@@ -204,7 +204,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 900060,
+			actor = 101051,
 			nameColor = "#a9f548",
 			say = "AAAAAAAA",
 			flashout = {
@@ -242,7 +242,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			actor = 900058,
+			actor = 102081,
 			nameColor = "#a9f548",
 			say = "Hm? Did I sing the wrong part...? Gridley? Why are you on the floor?",
 			flashout = {
@@ -272,7 +272,7 @@ return {
 			}
 		},
 		{
-			actor = 900058,
+			actor = 102081,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -287,7 +287,7 @@ return {
 			}
 		},
 		{
-			actor = 900060,
+			actor = 101051,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
@@ -306,7 +306,7 @@ return {
 			}
 		},
 		{
-			actor = 900058,
+			actor = 102081,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -336,7 +336,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			actor = 900060,
+			actor = 101051,
 			nameColor = "#a9f548",
 			say = "Anyway, I managed to get a good picture! Let's call it... \"Sandy Claus\"! Heheh, time to find the next target!",
 			flashout = {

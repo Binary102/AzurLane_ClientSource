@@ -8,7 +8,7 @@ return {
 	once = true,
 	scripts = {
 		{
-			actor = 404021,
+			actor = 404020,
 			side = 2,
 			nameColor = "#ff0000",
 			mode = 2,
@@ -27,7 +27,7 @@ return {
 			}
 		},
 		{
-			actor = 404021,
+			actor = 404020,
 			side = 2,
 			nameColor = "#ff0000",
 			mode = 2,
@@ -46,7 +46,7 @@ return {
 			}
 		},
 		{
-			actor = 404021,
+			actor = 404020,
 			side = 2,
 			nameColor = "#ff0000",
 			mode = 2,
@@ -68,7 +68,7 @@ return {
 			side = 2,
 			dir = 0,
 			mode = 2,
-			actor = 405021,
+			actor = 405020,
 			nameColor = "#FF0000",
 			say = "…",
 			flashout = {
@@ -106,7 +106,7 @@ return {
 			say = "What's the matter?",
 			nameColor = "#FF0000",
 			dir = 0,
-			actor = 407011,
+			actor = 407010,
 			mode = 2,
 			paintingFadeOut = {
 				time = 0.5,
@@ -129,7 +129,7 @@ return {
 			side = 0,
 			mode = 2,
 			dir = 0,
-			actor = 405021,
+			actor = 405020,
 			nameColor = "#FF0000",
 			say = "Every move White has made so far is different from the last time...",
 			shake = {
@@ -149,7 +149,7 @@ return {
 			side = 1,
 			mode = 2,
 			dir = 0,
-			actor = 407011,
+			actor = 407010,
 			nameColor = "#FF0000",
 			say = "I see. Perhaps that's what the Judge is hoping for.",
 			shake = {
@@ -169,7 +169,7 @@ return {
 			side = 0,
 			mode = 2,
 			dir = 0,
-			actor = 405021,
+			actor = 405020,
 			nameColor = "#FF0000",
 			say = "I've been thinking about something... What if we're just meant to be...\nmere stepping stones for White to \"evolve\"...",
 			shake = {
@@ -189,7 +189,7 @@ return {
 			side = 0,
 			mode = 2,
 			dir = 0,
-			actor = 405021,
+			actor = 405020,
 			nameColor = "#FF0000",
 			say = "The Sirens gave us our powers... And what if this is all part of their plan...",
 			shake = {
@@ -209,7 +209,7 @@ return {
 			side = 1,
 			mode = 2,
 			dir = 0,
-			actor = 407011,
+			actor = 407010,
 			nameColor = "#FF0000",
 			say = "Stop... Your ego will crumble if you keep thinking like that. Don't make her sacrifices for Ironblood all in vain...",
 			shake = {
@@ -229,7 +229,7 @@ return {
 			side = 0,
 			mode = 2,
 			dir = 0,
-			actor = 405021,
+			actor = 405020,
 			nameColor = "#FF0000",
 			say = "\"Her\"...?",
 			shake = {
@@ -249,7 +249,7 @@ return {
 			side = 1,
 			mode = 2,
 			dir = 0,
-			actor = 407011,
+			actor = 407010,
 			nameColor = "#FF0000",
 			say = "...Never mind. She was a dreamer, just like you are. Hmph, what a fool she was, losing herself to her idealistic delusions...",
 			shake = {
@@ -269,7 +269,7 @@ return {
 			side = 0,
 			mode = 2,
 			dir = 0,
-			actor = 405021,
+			actor = 405020,
 			nameColor = "#FF0000",
 			say = "……",
 			shake = {

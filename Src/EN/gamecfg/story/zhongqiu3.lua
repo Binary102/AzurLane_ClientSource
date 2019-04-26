@@ -8,7 +8,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 502011,
+			actor = 502010,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -23,7 +23,7 @@ return {
 			}
 		},
 		{
-			actor = 502021,
+			actor = 502020,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
@@ -42,7 +42,7 @@ return {
 			}
 		},
 		{
-			actor = 107021,
+			actor = 107020,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -57,7 +57,7 @@ return {
 			}
 		},
 		{
-			actor = 502011,
+			actor = 502010,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -72,7 +72,7 @@ return {
 			}
 		},
 		{
-			actor = 502031,
+			actor = 502030,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -87,7 +87,7 @@ return {
 			}
 		},
 		{
-			actor = 502021,
+			actor = 502020,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -102,7 +102,7 @@ return {
 			}
 		},
 		{
-			actor = 502031,
+			actor = 502030,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -117,7 +117,7 @@ return {
 			}
 		},
 		{
-			actor = 107021,
+			actor = 107020,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -136,7 +136,7 @@ return {
 			side = 2,
 			actorName = "？？？",
 			dir = -1,
-			actor = 201101,
+			actor = 201100,
 			nameColor = "#a9f548",
 			withoutPainting = true,
 			typewriter = {
@@ -153,7 +153,7 @@ return {
 			side = 1,
 			actorName = "？？？",
 			dir = -1,
-			actor = 204031,
+			actor = 204030,
 			nameColor = "#a9f548",
 			withoutPainting = true,
 			typewriter = {
@@ -170,7 +170,7 @@ return {
 			side = 2,
 			actorName = "？？？",
 			dir = -1,
-			actor = 201101,
+			actor = 201100,
 			nameColor = "#a9f548",
 			withoutPainting = true,
 			typewriter = {
@@ -187,7 +187,7 @@ return {
 			side = 1,
 			actorName = "？？？",
 			dir = -1,
-			actor = 204031,
+			actor = 204030,
 			nameColor = "#a9f548",
 			withoutPainting = true,
 			typewriter = {
@@ -204,7 +204,7 @@ return {
 			side = 0,
 			actorName = "？？？",
 			dir = -1,
-			actor = 201101,
+			actor = 201100,
 			nameColor = "#a9f548",
 			withoutPainting = true,
 			typewriter = {
@@ -217,7 +217,7 @@ return {
 			}
 		},
 		{
-			actor = 107021,
+			actor = 107020,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -232,7 +232,7 @@ return {
 			}
 		},
 		{
-			actor = 107031,
+			actor = 107030,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,

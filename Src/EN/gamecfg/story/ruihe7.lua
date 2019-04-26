@@ -32,7 +32,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			say = "I'm sure... you'd prefer Shoukaku's snacks over mine anyway...",
 			typewriter = {
@@ -68,7 +68,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			say = "You mean you want mine too...?",
 			typewriter = {
@@ -86,7 +86,7 @@ return {
 			bgName = "bg_night",
 			actorName = "{namecode:95}",
 			dir = 1,
-			actor = 307054,
+			actor = 307050,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -106,7 +106,7 @@ return {
 			side = 0,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			say = "You don't have to force yourself to eat it... Sis has already gotten you some snacks, so I'll save mine for next time, okay...?",
 			typewriter = {
@@ -123,7 +123,7 @@ return {
 			side = 0,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			say = "... \"Only when together can sis and I form your wings, so it's absurd to choose only one of us\"...?",
 			typewriter = {
@@ -140,7 +140,7 @@ return {
 			side = 0,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			say = "... J-jeez...",
 			typewriter = {
@@ -175,7 +175,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 307054,
+			actor = 307050,
 			actorName = "{namecode:95}",
 			say = "That is a charming, albeit very cheesy way of expressing your feelings...",
 			typewriter = {
@@ -192,7 +192,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:96}",
-			actor = 307064,
+			actor = 307060,
 			nameColor = "#a9f548",
 			say = "Commander, thank you.",
 			flashout = {
@@ -226,7 +226,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			say = "I know that you care about us both. I've known it for a long time, and yet I got so upset over nothing...",
 			typewriter = {
@@ -243,7 +243,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			say = "If I ever lose faith in myself again and start acting mopey...",
 			typewriter = {
@@ -260,7 +260,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			say = "Actually, no! I'll never let that happen again! I'm the indomitable crane; I'm above mopiness!",
 			typewriter = {
@@ -285,7 +285,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			say = "But... if you'd every now and then tell me that you like me more...",
 			typewriter = {
@@ -302,7 +302,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			say = "Then I might... be a little happier...",
 			typewriter = {
@@ -320,7 +320,7 @@ return {
 			bgName = "bg_night",
 			dir = 1,
 			blackBg = true,
-			actor = 307064,
+			actor = 307060,
 			nameColor = "#a9f548",
 			say = "... Please? Commander...?",
 			typewriter = {

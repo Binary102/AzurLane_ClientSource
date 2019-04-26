@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 304051,
+			actor = 304050,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
@@ -27,7 +27,7 @@ return {
 			nameColor = "#ff0000",
 			side = 1,
 			dir = 1,
-			actor = 305071,
+			actor = 305070,
 			say = "And suddenly, I'm surrounded... So you've been hiding your talent for combat all along.",
 			typewriter = {
 				speed = 0.05,
@@ -43,7 +43,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
-			actor = 304051,
+			actor = 304050,
 			say = "\"All warfare is based on deception.\" I planned this before the wargames had even begun.",
 			typewriter = {
 				speed = 0.05,
@@ -59,7 +59,7 @@ return {
 			nameColor = "#ff0000",
 			side = 1,
 			dir = 1,
-			actor = 305071,
+			actor = 305070,
 			say = "Guh...! How is that humanly possible...",
 			typewriter = {
 				speed = 0.05,
@@ -75,7 +75,7 @@ return {
 			nameColor = "#ff0000",
 			side = 1,
 			dir = 1,
-			actor = 305071,
+			actor = 305070,
 			say = "Even in the midst of gunfire and explosions you manage to stay calm and adjust your strategy and issue commands...",
 			typewriter = {
 				speed = 0.05,
@@ -87,7 +87,7 @@ return {
 			}
 		},
 		{
-			actor = 305071,
+			actor = 305070,
 			side = 1,
 			nameColor = "#ff0000",
 			dir = 1,
@@ -106,7 +106,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
-			actor = 304051,
+			actor = 304050,
 			say = "Ahaha... Then could I ask you to start calling me \"Amagi-san\" from now on?",
 			typewriter = {
 				speed = 0.05,
@@ -118,7 +118,7 @@ return {
 			}
 		},
 		{
-			actor = 305071,
+			actor = 305070,
 			side = 1,
 			nameColor = "#ff0000",
 			dir = 1,
@@ -152,7 +152,7 @@ return {
 			}
 		},
 		{
-			actor = 304051,
+			actor = 304050,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -171,7 +171,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
-			actor = 304051,
+			actor = 304050,
 			say = "Then what if today had not been a wargame, but a real battle...? Could you have actually...",
 			typewriter = {
 				speed = 0.05,

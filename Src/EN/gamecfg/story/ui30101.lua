@@ -4,7 +4,7 @@ return {
 	once = true,
 	scripts = {
 		{
-			actor = 107061,
+			actor = 107060,
 			side = 2,
 			dir = -1,
 			nameColor = "#a9f548",
@@ -26,7 +26,7 @@ return {
 			side = 1,
 			say = "Even the most cunning fox cannot hide its tail, hehe.",
 			dir = -1,
-			actor = 107071,
+			actor = 107070,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -46,7 +46,7 @@ return {
 			}
 		},
 		{
-			actor = 107051,
+			actor = 107050,
 			side = 1,
 			nameColor = "#a9f548",
 			say = "Now that we've confirmed \"AF\" is indeed Midway, we should move out immediately.",
@@ -64,7 +64,7 @@ return {
 			}
 		},
 		{
-			actor = 107061,
+			actor = 107060,
 			side = 0,
 			dir = -1,
 			nameColor = "#a9f548",
@@ -83,7 +83,7 @@ return {
 			}
 		},
 		{
-			actor = 107051,
+			actor = 107050,
 			side = 1,
 			nameColor = "#a9f548",
 			say = "Don't worry. The maintenance crew were working around the clock for three days to bring me back up to shape. They're so reliable.",
@@ -101,7 +101,7 @@ return {
 			}
 		},
 		{
-			actor = 107051,
+			actor = 107050,
 			side = 1,
 			nameColor = "#a9f548",
 			say = "Enterprise, how about you? If you get hurt again because of me, Vestal will never let me hear the end of it.",
@@ -119,7 +119,7 @@ return {
 			}
 		},
 		{
-			actor = 107061,
+			actor = 107060,
 			side = 0,
 			dir = -1,
 			nameColor = "#a9f548",
@@ -138,7 +138,7 @@ return {
 			}
 		},
 		{
-			actor = 107051,
+			actor = 107050,
 			side = 1,
 			nameColor = "#a9f548",
 			say = "Considering it's not every day that all three of us get to fight together, we've got to show off the power of the Yorktown-class!",
@@ -159,14 +159,14 @@ return {
 			actorShadow = true,
 			side = 0,
 			actorName = "Enterprise & Hornet",
-			actor = 107061,
+			actor = 107060,
 			dir = -1,
 			hideOther = true,
 			nameColor = "#a9f548",
 			say = "Yes ma'am! For freedom, and the glory of the Eagle Union!",
 			subActors = {
 				{
-					actor = 107071,
+					actor = 107070,
 					pos = {
 						x = -550
 					}
@@ -178,7 +178,7 @@ return {
 			}
 		},
 		{
-			actor = 107051,
+			actor = 107050,
 			side = 2,
 			nameColor = "#a9f548",
 			say = "Union Task Force 16, 17, sortieing!",

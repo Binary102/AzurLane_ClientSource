@@ -4,7 +4,7 @@ return {
 	once = true,
 	scripts = {
 		{
-			actor = 403011,
+			actor = 403010,
 			side = 2,
 			nameColor = "#ff0000",
 			say = "Huh? You're supposed to be the new White? You look weak as hell.",
@@ -22,7 +22,7 @@ return {
 			}
 		},
 		{
-			actor = 403011,
+			actor = 403010,
 			side = 2,
 			nameColor = "#ff0000",
 			say = "But you somehow beat Deut... I mean, Lützow... Whatever, in short you guys beat that tomboy charging into battle, yelling how she's \"the world's greatest armored ship\", right? Actually, don't answer, it's written all over your faces!",
@@ -40,7 +40,7 @@ return {
 			}
 		},
 		{
-			actor = 403011,
+			actor = 403010,
 			side = 2,
 			nameColor = "#ff0000",
 			say = "I don't have any sympathy for that moron, but I can't just let her give you the wrong impression of Ironblood's might either!",
@@ -58,7 +58,7 @@ return {
 			}
 		},
 		{
-			actor = 403011,
+			actor = 403010,
 			side = 2,
 			nameColor = "#ff0000",
 			say = "I, Admiral Hipper, the world's greatest heavy cruiser, will finish you off in the blink of an eye!",

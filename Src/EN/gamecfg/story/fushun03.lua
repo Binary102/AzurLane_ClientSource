@@ -22,7 +22,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			bgm = "story-china",
-			actor = 312014,
+			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "Welcome, nya~ Oh? What brings you here, nya? Shopping for supplies, nya?",
 			typewriter = {
@@ -39,7 +39,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 501024,
+			actor = 501020,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -55,7 +55,7 @@ return {
 			}
 		},
 		{
-			actor = 501024,
+			actor = 501020,
 			side = 0,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -75,7 +75,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 312014,
+			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "A game console, nya?",
 			typewriter = {
@@ -88,7 +88,7 @@ return {
 			}
 		},
 		{
-			actor = 501024,
+			actor = 501020,
 			side = 0,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -108,7 +108,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 312014,
+			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "F-fine, nya... Just this one time I'll examine it for free, nya.",
 			typewriter = {
@@ -125,7 +125,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 312014,
+			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "Unya... This is a pretty old model, nya... First we'll fix this... then replace this...",
 			typewriter = {
@@ -138,7 +138,7 @@ return {
 			}
 		},
 		{
-			actor = 501024,
+			actor = 501020,
 			side = 0,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -158,7 +158,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgName = "bg_story_task",
-			actor = 312014,
+			actor = 312010,
 			nameColor = "#a9f548",
 			say = "Phew... It's fixed, nya!",
 			flashout = {
@@ -192,7 +192,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 501024,
+			actor = 501020,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -212,7 +212,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 312014,
+			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "It took some time to replace the old parts, but now it should be fine, nya~",
 			typewriter = {
@@ -225,7 +225,7 @@ return {
 			}
 		},
 		{
-			actor = 501024,
+			actor = 501020,
 			side = 0,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -244,7 +244,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 501024,
+			actor = 501020,
 			nameColor = "#a9f548",
 			say = "Chang Chun~ I got the handheld fixed~ Wanna play some games?",
 			flashout = {
@@ -278,7 +278,7 @@ return {
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 501034,
+			actor = 501030,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -294,7 +294,7 @@ return {
 			}
 		},
 		{
-			actor = 501024,
+			actor = 501020,
 			side = 0,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -310,7 +310,7 @@ return {
 			}
 		},
 		{
-			actor = 501024,
+			actor = 501020,
 			side = 0,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -326,7 +326,7 @@ return {
 			}
 		},
 		{
-			actor = 501034,
+			actor = 501030,
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -342,7 +342,7 @@ return {
 			}
 		},
 		{
-			actor = 501024,
+			actor = 501020,
 			side = 0,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -358,7 +358,7 @@ return {
 			}
 		},
 		{
-			actor = 501024,
+			actor = 501020,
 			side = 0,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",

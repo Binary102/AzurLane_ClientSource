@@ -27,8 +27,6 @@ end
 
 function ys.Battle.BattleSkillView.InitBtns(slot0)
 	slot0._skillBtnList = {}
-	slot0.chargeFalg = true
-	slot0.torFlag = true
 	slot0._fleetVO = slot0._mediator._dataProxy:GetFleetByIFF(slot0.Battle.BattleConfig.FRIENDLY_CODE)
 	slot5 = slot0.Battle.BattleWeaponButton.New()
 	slot0._skillBtnList[1] = slot5

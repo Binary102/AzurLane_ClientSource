@@ -16,7 +16,7 @@ return {
 			}
 		},
 		{
-			actor = 101054,
+			actor = 101050,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -33,7 +33,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			actor = 101054,
+			actor = 101050,
 			nameColor = "#a9f548",
 			say = "Wah! ...Oh, it's just you, Commander. Don't just approach people out of the blue when they're thinking about stuff!",
 			flashout = {
@@ -67,7 +67,7 @@ return {
 			}
 		},
 		{
-			actor = 101054,
+			actor = 101050,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -82,7 +82,7 @@ return {
 			}
 		},
 		{
-			actor = 101054,
+			actor = 101050,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -97,7 +97,7 @@ return {
 			}
 		},
 		{
-			actor = 101054,
+			actor = 101050,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -112,7 +112,7 @@ return {
 			}
 		},
 		{
-			actor = 101054,
+			actor = 101050,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -129,7 +129,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			actor = 900060,
+			actor = 101051,
 			nameColor = "#a9f548",
 			say = "Tadaaah! Christmas Photography Mode Gridley, ready to go!",
 			flashout = {
@@ -159,7 +159,7 @@ return {
 			}
 		},
 		{
-			actor = 900060,
+			actor = 101051,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,

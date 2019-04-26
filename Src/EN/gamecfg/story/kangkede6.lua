@@ -50,7 +50,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "Oh~ so this is how you do it, looks like it'll be a breeze~☆",
 			typewriter = {
@@ -67,7 +67,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "And done! Hehe~ Concord's red velvet cake!",
 			typewriter = {
@@ -84,7 +84,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "Commander, the cake looks pretty good, doesn't it.",
 			typewriter = {
@@ -111,7 +111,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "Ugh... you look a bit dissatisfied. Commander sure is picky~♪",
 			typewriter = {
@@ -128,7 +128,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "I'll make sure to work harder~",
 			typewriter = {
@@ -144,7 +144,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "Hey hey, today is my favorite strawberry sundae~",
 			flashout = {
@@ -178,7 +178,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "Commander, what do you think?",
 			typewriter = {
@@ -195,7 +195,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			withoutActorName = true,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "Concord, starry eyed, seemed to be waiting for a certain response...",
 			typewriter = {
@@ -222,7 +222,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "Ugh~ looks like there's still some room for improvement.",
 			typewriter = {
@@ -238,7 +238,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "Today, I have an even bigger surprise ready for you~",
 			flashout = {
@@ -282,7 +282,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "It's no good after all, huh?",
 			typewriter = {
@@ -299,7 +299,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "Turns out, I don't have any talents... and I'm bit of a klutz...",
 			typewriter = {
@@ -322,7 +322,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "Eh? Don't make too many changes... and just focus on making improvements to one thing... and it'll be fine?",
 			typewriter = {
@@ -339,7 +339,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "Hmm... I suppose that makes sense~",
 			typewriter = {
@@ -367,7 +367,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			blackBg = true,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "Hehe~ Commander, it's decided then~ Next time, be my first taste tester as well~",
 			typewriter = {

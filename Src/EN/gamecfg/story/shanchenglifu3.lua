@@ -45,7 +45,7 @@ return {
 			}
 		},
 		{
-			actor = 900116,
+			actor = 102092,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -61,7 +61,7 @@ return {
 			}
 		},
 		{
-			actor = 900116,
+			actor = 102092,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -77,7 +77,7 @@ return {
 			}
 		},
 		{
-			actor = 900116,
+			actor = 102092,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -93,7 +93,7 @@ return {
 			}
 		},
 		{
-			actor = 900116,
+			actor = 102092,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -112,7 +112,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 900116,
+			actor = 102092,
 			nameColor = "#a9f548",
 			say = "但是只有我一个男装会不会很奇怪啊……",
 			typewriter = {
@@ -135,7 +135,7 @@ return {
 			}
 		},
 		{
-			actor = 900116,
+			actor = 102092,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -151,7 +151,7 @@ return {
 			}
 		},
 		{
-			actor = 900116,
+			actor = 102092,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -167,7 +167,7 @@ return {
 			}
 		},
 		{
-			actor = 900116,
+			actor = 102092,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -183,7 +183,7 @@ return {
 			}
 		},
 		{
-			actor = 900116,
+			actor = 102092,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -199,7 +199,7 @@ return {
 			}
 		},
 		{
-			actor = 900116,
+			actor = 102092,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -215,7 +215,7 @@ return {
 			}
 		},
 		{
-			actor = 900116,
+			actor = 102092,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -231,7 +231,7 @@ return {
 			}
 		},
 		{
-			actor = 900116,
+			actor = 102092,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -269,7 +269,7 @@ return {
 			bgName = "star_level_bg_107",
 			dir = 1,
 			bgm = "story-1",
-			actor = 900116,
+			actor = 102092,
 			nameColor = "#a9f548",
 			say = "………………金碧辉煌啊。",
 			typewriter = {
@@ -282,7 +282,7 @@ return {
 			}
 		},
 		{
-			actor = 900116,
+			actor = 102092,
 			side = 2,
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
@@ -302,7 +302,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgName = "star_level_bg_107",
-			actor = 900117,
+			actor = 207032,
 			nameColor = "#a9f548",
 			say = "胜利，那边就拜托你了——",
 			flashout = {
@@ -332,7 +332,7 @@ return {
 			}
 		},
 		{
-			actor = 900117,
+			actor = 207032,
 			side = 2,
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
@@ -352,7 +352,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			actor = 900116,
+			actor = 102092,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -373,7 +373,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = -1,
-			actor = 900113,
+			actor = 312012,
 			actorName = "{namecode:98}",
 			say = "克利夫兰，晚上好喵~",
 			typewriter = {
@@ -386,7 +386,7 @@ return {
 			}
 		},
 		{
-			actor = 206031,
+			actor = 206030,
 			side = 1,
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
@@ -402,7 +402,7 @@ return {
 			}
 		},
 		{
-			actor = 900116,
+			actor = 102092,
 			side = 2,
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
@@ -422,7 +422,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			actor = 900117,
+			actor = 207032,
 			nameColor = "#a9f548",
 			say = "独角兽，{namecode:71}把宴会拜托给我，所以我还要四处走走，你一个人在这没关系吗？",
 			typewriter = {
@@ -439,7 +439,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			actor = 206031,
+			actor = 206030,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -459,7 +459,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			actor = 900117,
+			actor = 207032,
 			nameColor = "#a9f548",
 			say = "呵呵，独角兽还是一如既往地粘指挥官呢……",
 			typewriter = {
@@ -472,7 +472,7 @@ return {
 			}
 		},
 		{
-			actor = 900117,
+			actor = 207032,
 			side = 0,
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
@@ -493,7 +493,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = -1,
-			actor = 900113,
+			actor = 312012,
 			actorName = "{namecode:98}",
 			say = "交给{namecode:98}喵！",
 			typewriter = {
@@ -506,7 +506,7 @@ return {
 			}
 		},
 		{
-			actor = 206031,
+			actor = 206030,
 			side = 1,
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
@@ -526,7 +526,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			actor = 900116,
+			actor = 102092,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -546,7 +546,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			actor = 900117,
+			actor = 207032,
 			nameColor = "#a9f548",
 			say = "是呀，她最近的心情看来都相当不错的样子～",
 			typewriter = {
@@ -559,7 +559,7 @@ return {
 			}
 		},
 		{
-			actor = 900117,
+			actor = 207032,
 			side = 2,
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
@@ -579,7 +579,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			actor = 900116,
+			actor = 102092,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -595,7 +595,7 @@ return {
 			}
 		},
 		{
-			actor = 900116,
+			actor = 102092,
 			side = 1,
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
@@ -615,7 +615,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			actor = 900117,
+			actor = 207032,
 			nameColor = "#a9f548",
 			say = "呵呵，习惯就好了。",
 			typewriter = {
@@ -632,7 +632,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			actor = 900117,
+			actor = 207032,
 			nameColor = "#a9f548",
 			say = "现在先到处走走吧，等指挥官来了之后舞会就会开始，今晚的你说不定会很忙呢～",
 			typewriter = {
@@ -645,7 +645,7 @@ return {
 			}
 		},
 		{
-			actor = 900116,
+			actor = 102092,
 			side = 1,
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
@@ -664,7 +664,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			actor = 102141,
+			actor = 102140,
 			nameColor = "#a9f548",
 			say = "啊，大姐头！这边这边！",
 			typewriter = {
@@ -687,7 +687,7 @@ return {
 			}
 		},
 		{
-			actor = 900117,
+			actor = 207032,
 			side = 2,
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
@@ -707,7 +707,7 @@ return {
 			bgName = "star_level_bg_107",
 			dir = 1,
 			blackBg = true,
-			actor = 900116,
+			actor = 102092,
 			nameColor = "#a9f548",
 			say = "嗯，回见。",
 			typewriter = {

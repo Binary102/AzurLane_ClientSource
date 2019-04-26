@@ -12,7 +12,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgm = "story-french2",
-			actor = 107041,
+			actor = 107040,
 			say = "无畏式，再次俯冲！",
 			flashN = {
 				color = {
@@ -56,7 +56,7 @@ return {
 			}
 		},
 		{
-			actor = 105191,
+			actor = 105190,
 			side = 0,
 			say = "算了，她已经..失去反抗的能力了",
 			dir = 1,
@@ -74,7 +74,7 @@ return {
 			}
 		},
 		{
-			actor = 905011,
+			actor = 905010,
 			side = 1,
 			dir = 1,
 			say = "可恶…动起来啊！快动起来啊！！！",
@@ -97,7 +97,7 @@ return {
 			}
 		},
 		{
-			actor = 105191,
+			actor = 105190,
 			side = 0,
 			dir = 1,
 			say = "……",
@@ -111,7 +111,7 @@ return {
 			}
 		},
 		{
-			actor = 905011,
+			actor = 905010,
 			side = 1,
 			dir = 1,
 			say = "可恶，为什么，为什么就不能把我完整的造完！！",
@@ -134,7 +134,7 @@ return {
 			}
 		},
 		{
-			actor = 905011,
+			actor = 905010,
 			side = 1,
 			dir = 1,
 			say = "为什么，为什么姐姐就可以！！",
@@ -148,7 +148,7 @@ return {
 			}
 		},
 		{
-			actor = 105191,
+			actor = 105190,
 			side = 0,
 			dir = 1,
 			say = "…你的二号炮台并没有开炮过，是在放水瞧不起我吗？",
@@ -162,7 +162,7 @@ return {
 			}
 		},
 		{
-			actor = 905011,
+			actor = 905010,
 			side = 1,
 			dir = 1,
 			say = "…",
@@ -179,7 +179,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 900092,
+			actor = 900055,
 			stopbgm = true,
 			say = "姐，司令部突然下令要把我们从造船厂转移到遥远的港口，这是真的吗？！",
 			flashout = {
@@ -209,7 +209,7 @@ return {
 			}
 		},
 		{
-			actor = 900091,
+			actor = 900054,
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -224,7 +224,7 @@ return {
 			}
 		},
 		{
-			actor = 900092,
+			actor = 900055,
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -239,7 +239,7 @@ return {
 			}
 		},
 		{
-			actor = 900091,
+			actor = 900054,
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -254,7 +254,7 @@ return {
 			}
 		},
 		{
-			actor = 900092,
+			actor = 900055,
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -269,7 +269,7 @@ return {
 			}
 		},
 		{
-			actor = 900091,
+			actor = 900054,
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -284,7 +284,7 @@ return {
 			}
 		},
 		{
-			actor = 900092,
+			actor = 900055,
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -299,7 +299,7 @@ return {
 			}
 		},
 		{
-			actor = 900091,
+			actor = 900054,
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -314,7 +314,7 @@ return {
 			}
 		},
 		{
-			actor = 900092,
+			actor = 900055,
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -329,7 +329,7 @@ return {
 			}
 		},
 		{
-			actor = 900092,
+			actor = 900055,
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -348,7 +348,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-french2",
-			actor = 905011,
+			actor = 905010,
 			say = "…也许从一开始，司令部就没打算把我完整的造出来…",
 			flashout = {
 				dur = 1,
@@ -377,7 +377,7 @@ return {
 			}
 		},
 		{
-			actor = 905011,
+			actor = 905010,
 			side = 2,
 			dir = 1,
 			say = "在铁血和帝国的包夹下，就算再多一艘大型军舰，也只不过会成为新的傀儡，他们从一开始就是这么想的",
@@ -391,7 +391,7 @@ return {
 			}
 		},
 		{
-			actor = 905011,
+			actor = 905010,
 			side = 2,
 			dir = 1,
 			say = "本还寄希望于塞壬赋予的能力让自己更接近一个完成体，可惜最后也是徒劳",
@@ -405,7 +405,7 @@ return {
 			}
 		},
 		{
-			actor = 905011,
+			actor = 905010,
 			side = 2,
 			dir = 1,
 			say = "呵呵，一心想守护自己的家园，一面却得看着国家分崩离析…",
@@ -419,7 +419,7 @@ return {
 			}
 		},
 		{
-			actor = 905011,
+			actor = 905010,
 			side = 2,
 			dir = 1,
 			say = "一心想追上前面的人，一面却得面对对方的背叛…真是讽刺啊",
@@ -437,7 +437,7 @@ return {
 			soundeffect = "event:/ui/noice"
 		},
 		{
-			actor = 107041,
+			actor = 107040,
 			side = 2,
 			dir = 1,
 			say = "收到了司令部紧急电报…",
@@ -451,7 +451,7 @@ return {
 			}
 		},
 		{
-			actor = 105191,
+			actor = 105190,
 			side = 0,
 			say = "…铁血机动部队正在高速南下，登陆部队全员做好战斗准备…居然在这个时候？",
 			dir = 1,
@@ -469,7 +469,7 @@ return {
 			}
 		},
 		{
-			actor = 905011,
+			actor = 905010,
 			side = 1,
 			dir = 1,
 			say = "呵呵呵，他们并不是冲着你们来的…",
@@ -483,7 +483,7 @@ return {
 			}
 		},
 		{
-			actor = 905011,
+			actor = 905010,
 			side = 1,
 			dir = 1,
 			say = "我们的圣教骑士分布在陆间海的各个港口…怕不是…",
@@ -537,7 +537,7 @@ return {
 			}
 		},
 		{
-			actor = 105191,
+			actor = 105190,
 			side = 0,
 			dir = 1,
 			say = "……",
@@ -551,7 +551,7 @@ return {
 			}
 		},
 		{
-			actor = 905011,
+			actor = 905010,
 			side = 1,
 			dir = 1,
 			say = "啊哈哈哈哈哈哈…",
@@ -565,7 +565,7 @@ return {
 			}
 		},
 		{
-			actor = 204011,
+			actor = 204010,
 			side = 0,
 			dir = 1,
 			say = "……放下武装吧，和我们一起…",
@@ -579,7 +579,7 @@ return {
 			}
 		},
 		{
-			actor = 905011,
+			actor = 905010,
 			side = 1,
 			dir = 1,
 			say = "闭嘴！你们这群无耻之徒，凯比尔港的事情我们不会再让他发生第二次",
@@ -864,7 +864,7 @@ return {
 			}
 		},
 		{
-			actor = 105191,
+			actor = 105190,
 			side = 2,
 			say = "…",
 			dir = 1,
@@ -885,7 +885,7 @@ return {
 			}
 		},
 		{
-			actor = 105191,
+			actor = 105190,
 			side = 2,
 			dir = 1,
 			say = "这是何苦呢…",
@@ -899,7 +899,7 @@ return {
 			}
 		},
 		{
-			actor = 905011,
+			actor = 905010,
 			side = 1,
 			say = "这样也算…遵守了同盟时期许下的诺言吧…永世，不为铁血和帝国所用…不成为赤色中轴的獠牙",
 			dir = 1,
@@ -917,7 +917,7 @@ return {
 			}
 		},
 		{
-			actor = 204011,
+			actor = 204010,
 			side = 0,
 			dir = 1,
 			say = "…",
@@ -931,7 +931,7 @@ return {
 			}
 		},
 		{
-			actor = 905011,
+			actor = 905010,
 			side = 1,
 			dir = 1,
 			say = "呵呵，可恶啊，真是羡慕你们，拥有这么强大的国力…可以造出这么强而有力的船身和舰炮…",
@@ -945,7 +945,7 @@ return {
 			}
 		},
 		{
-			actor = 905011,
+			actor = 905010,
 			side = 1,
 			dir = 1,
 			say = "如果我也能…哪怕是再强大一点点，就能追上…",
@@ -959,7 +959,7 @@ return {
 			}
 		},
 		{
-			actor = 105191,
+			actor = 105190,
 			side = 0,
 			dir = 1,
 			say = "我很期待哦",
@@ -973,7 +973,7 @@ return {
 			}
 		},
 		{
-			actor = 105191,
+			actor = 105190,
 			side = 0,
 			dir = 1,
 			say = "等战争结束后，也许你就能有机会获得一个更完整的身躯了，我会期待着跟那样的你来一次堂堂正正的对决的",
@@ -987,7 +987,7 @@ return {
 			}
 		},
 		{
-			actor = 905011,
+			actor = 905010,
 			side = 1,
 			dir = 1,
 			say = "呵呵…你们这群白鹰的军舰哪懂得骑士精神..",
@@ -1003,7 +1003,7 @@ return {
 		{
 			expression = "1",
 			side = 0,
-			actor = 105191,
+			actor = 105190,
 			dir = 1,
 			say = "呵呵，至少向往自由的牛仔是不会轻易食言的",
 			typewriter = {
@@ -1016,7 +1016,7 @@ return {
 			}
 		},
 		{
-			actor = 905011,
+			actor = 905010,
 			side = 1,
 			dir = 1,
 			say = "(哼，又是想让我追上的背影吗…你们这两个家伙，在这种地方倒是出乎意料的相似啊…）",
@@ -1030,7 +1030,7 @@ return {
 			}
 		},
 		{
-			actor = 905011,
+			actor = 905010,
 			side = 1,
 			dir = 1,
 			say = "那么…希望能有那么一天…在此之前，我可能得先沉睡上一会了…",
@@ -1044,7 +1044,7 @@ return {
 			}
 		},
 		{
-			actor = 105191,
+			actor = 105190,
 			side = 0,
 			dir = 1,
 			say = "嗯，好好休息吧，你们和铁血、帝国的恩怨",
@@ -1058,7 +1058,7 @@ return {
 			}
 		},
 		{
-			actor = 105191,
+			actor = 105190,
 			side = 0,
 			dir = 1,
 			say = "——就由我们来了结吧！",
@@ -1075,7 +1075,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 900091,
+			actor = 900054,
 			stopbgm = true,
 			say = "那么，你知道“名字”的含义吗？",
 			flashout = {
@@ -1105,7 +1105,7 @@ return {
 			}
 		},
 		{
-			actor = 900092,
+			actor = 900055,
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -1120,7 +1120,7 @@ return {
 			}
 		},
 		{
-			actor = 900091,
+			actor = 900054,
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -1135,7 +1135,7 @@ return {
 			}
 		},
 		{
-			actor = 900091,
+			actor = 900054,
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -1150,7 +1150,7 @@ return {
 			}
 		},
 		{
-			actor = 900091,
+			actor = 900054,
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -1165,7 +1165,7 @@ return {
 			}
 		},
 		{
-			actor = 900092,
+			actor = 900055,
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -1180,7 +1180,7 @@ return {
 			}
 		},
 		{
-			actor = 900091,
+			actor = 900054,
 			side = 2,
 			dir = 1,
 			blackBg = true,

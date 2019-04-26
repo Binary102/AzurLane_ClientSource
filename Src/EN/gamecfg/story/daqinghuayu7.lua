@@ -107,7 +107,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "睡着了吗？该不会是在装睡吧？",
 			typewriter = {
@@ -124,7 +124,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "睡着的话就没办法了呢……",
 			typewriter = {
@@ -142,7 +142,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			bgm = "story-2",
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "……",
 			typewriter = {
@@ -159,7 +159,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "呐，指挥官……我有很多东西想和指挥官说呢。",
 			typewriter = {
@@ -172,7 +172,7 @@ return {
 			}
 		},
 		{
-			actor = 108021,
+			actor = 108020,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -188,7 +188,7 @@ return {
 			}
 		},
 		{
-			actor = 108021,
+			actor = 108020,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -204,7 +204,7 @@ return {
 			}
 		},
 		{
-			actor = 108021,
+			actor = 108020,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -220,7 +220,7 @@ return {
 			}
 		},
 		{
-			actor = 108021,
+			actor = 108020,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -240,7 +240,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "舰队的大家，我最喜欢了。",
 			typewriter = {
@@ -257,7 +257,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "还有指挥官，虽然我好像一直在捉弄你，不过其实——",
 			typewriter = {
@@ -280,7 +280,7 @@ return {
 			}
 		},
 		{
-			actor = 108021,
+			actor = 108020,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -300,7 +300,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "对了，明天还有我给你准备的惊喜呢……装睡听别人真心话的指挥官要吃点苦头才行呢~",
 			typewriter = {
@@ -345,7 +345,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 201211,
+			actor = 201210,
 			nameColor = "#a9f548",
 			say = "真真真真的吗！指挥官，居然和大青花鱼一起睡了一晚！",
 			typewriter = {
@@ -368,7 +368,7 @@ return {
 			}
 		},
 		{
-			actor = 301051,
+			actor = 301050,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -384,7 +384,7 @@ return {
 			}
 		},
 		{
-			actor = 401231,
+			actor = 401230,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -400,7 +400,7 @@ return {
 			}
 		},
 		{
-			actor = 101171,
+			actor = 101170,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",

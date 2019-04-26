@@ -1,13 +1,13 @@
 pg = pg or {}
 pg.ship_data_statistics = {
 	[100001] = {
-		oxy_max = 0,
+		name = "Universal Bulin",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Universal Bulin",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -20,6 +20,7 @@ pg.ship_data_statistics = {
 		skin_id = 100000,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 0,
 		armor_type = 1,
 		attrs = {
@@ -98,6 +99,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -120,13 +126,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[100011] = {
-		oxy_max = 0,
+		name = "Prototype Bulin MKII",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Prototype Bulin MKII",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -139,6 +145,7 @@ pg.ship_data_statistics = {
 		skin_id = 100010,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 0,
 		armor_type = 1,
 		attrs = {
@@ -221,6 +228,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -239,13 +251,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[101031] = {
-		oxy_max = 0,
+		name = "Cassin",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.23",
-		name = "Cassin",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.23",
 		star = 1,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -258,6 +270,7 @@ pg.ship_data_statistics = {
 		skin_id = 101030,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -338,6 +351,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -360,13 +378,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[101032] = {
-		oxy_max = 0,
+		name = "Cassin",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.23",
-		name = "Cassin",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.23",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -379,6 +397,7 @@ pg.ship_data_statistics = {
 		skin_id = 101030,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -463,6 +482,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -481,13 +505,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[101033] = {
-		oxy_max = 0,
+		name = "Cassin",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.23",
-		name = "Cassin",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.23",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -500,6 +524,7 @@ pg.ship_data_statistics = {
 		skin_id = 101030,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -584,6 +609,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -602,13 +632,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[101034] = {
-		oxy_max = 0,
+		name = "Cassin",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.23",
-		name = "Cassin",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.23",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -621,6 +651,7 @@ pg.ship_data_statistics = {
 		skin_id = 101030,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -705,6 +736,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -723,13 +759,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[101041] = {
-		oxy_max = 0,
+		name = "Downes",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.23",
-		name = "Downes",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.23",
 		star = 1,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -742,6 +778,7 @@ pg.ship_data_statistics = {
 		skin_id = 101040,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -826,6 +863,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -844,13 +886,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[101042] = {
-		oxy_max = 0,
+		name = "Downes",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.23",
-		name = "Downes",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.23",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -863,6 +905,7 @@ pg.ship_data_statistics = {
 		skin_id = 101040,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -947,6 +990,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -965,13 +1013,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[101043] = {
-		oxy_max = 0,
+		name = "Downes",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.23",
-		name = "Downes",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.23",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -984,6 +1032,7 @@ pg.ship_data_statistics = {
 		skin_id = 101040,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -1068,6 +1117,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -1086,13 +1140,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[101044] = {
-		oxy_max = 0,
+		name = "Downes",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.23",
-		name = "Downes",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.23",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -1105,6 +1159,7 @@ pg.ship_data_statistics = {
 		skin_id = 101040,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -1189,6 +1244,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -1207,13 +1267,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[101051] = {
-		oxy_max = 0,
+		name = "Gridley",
 		type = 1,
 		personality = 2,
-		backyard_speed = "1",
-		name = "Gridley",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "1",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -1226,6 +1286,7 @@ pg.ship_data_statistics = {
 		skin_id = 101050,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -1310,6 +1371,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -1330,13 +1396,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[101052] = {
-		oxy_max = 0,
+		name = "Gridley",
 		type = 1,
 		personality = 2,
-		backyard_speed = "1",
-		name = "Gridley",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "1",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -1349,6 +1415,7 @@ pg.ship_data_statistics = {
 		skin_id = 101050,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -1433,6 +1500,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -1453,13 +1525,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[101053] = {
-		oxy_max = 0,
+		name = "Gridley",
 		type = 1,
 		personality = 2,
-		backyard_speed = "1",
-		name = "Gridley",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "1",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -1472,6 +1544,7 @@ pg.ship_data_statistics = {
 		skin_id = 101050,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -1556,6 +1629,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -1576,13 +1654,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[101054] = {
-		oxy_max = 0,
+		name = "Gridley",
 		type = 1,
 		personality = 2,
-		backyard_speed = "1",
-		name = "Gridley",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "1",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -1595,6 +1673,7 @@ pg.ship_data_statistics = {
 		skin_id = 101050,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -1679,6 +1758,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -1699,13 +1783,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[101061] = {
-		oxy_max = 0,
+		name = "Craven",
 		type = 1,
 		personality = 2,
-		backyard_speed = "1",
-		name = "Craven",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "1",
 		star = 1,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -1718,6 +1802,7 @@ pg.ship_data_statistics = {
 		skin_id = 101060,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -1802,6 +1887,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -1820,13 +1910,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[101062] = {
-		oxy_max = 0,
+		name = "Craven",
 		type = 1,
 		personality = 2,
-		backyard_speed = "1",
-		name = "Craven",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "1",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -1839,6 +1929,7 @@ pg.ship_data_statistics = {
 		skin_id = 101060,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -1923,6 +2014,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -1941,13 +2037,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[101063] = {
-		oxy_max = 0,
+		name = "Craven",
 		type = 1,
 		personality = 2,
-		backyard_speed = "1",
-		name = "Craven",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "1",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -1960,6 +2056,7 @@ pg.ship_data_statistics = {
 		skin_id = 101060,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -2044,6 +2141,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -2062,13 +2164,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[101064] = {
-		oxy_max = 0,
+		name = "Craven",
 		type = 1,
 		personality = 2,
-		backyard_speed = "1",
-		name = "Craven",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "1",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -2081,6 +2183,7 @@ pg.ship_data_statistics = {
 		skin_id = 101060,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -2165,6 +2268,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -2183,13 +2291,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[101071] = {
-		oxy_max = 0,
+		name = "McCall",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "McCall",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 1,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -2202,6 +2310,7 @@ pg.ship_data_statistics = {
 		skin_id = 101070,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -2286,6 +2395,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -2304,13 +2418,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[101072] = {
-		oxy_max = 0,
+		name = "McCall",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "McCall",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -2323,6 +2437,7 @@ pg.ship_data_statistics = {
 		skin_id = 101070,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -2407,6 +2522,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -2425,13 +2545,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[101073] = {
-		oxy_max = 0,
+		name = "McCall",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "McCall",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -2444,6 +2564,7 @@ pg.ship_data_statistics = {
 		skin_id = 101070,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -2528,6 +2649,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -2546,13 +2672,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[101074] = {
-		oxy_max = 0,
+		name = "McCall",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "McCall",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -2565,6 +2691,7 @@ pg.ship_data_statistics = {
 		skin_id = 101070,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -2649,6 +2776,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -2667,13 +2799,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[101081] = {
-		oxy_max = 0,
+		name = "Maury",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.22",
-		name = "Maury",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.22",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -2686,6 +2818,7 @@ pg.ship_data_statistics = {
 		skin_id = 101080,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -2770,6 +2903,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -2788,13 +2926,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[101082] = {
-		oxy_max = 0,
+		name = "Maury",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.22",
-		name = "Maury",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.22",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -2807,6 +2945,7 @@ pg.ship_data_statistics = {
 		skin_id = 101080,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -2891,6 +3030,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -2909,13 +3053,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[101083] = {
-		oxy_max = 0,
+		name = "Maury",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.22",
-		name = "Maury",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.22",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -2928,6 +3072,7 @@ pg.ship_data_statistics = {
 		skin_id = 101080,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -3012,6 +3157,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -3030,13 +3180,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[101084] = {
-		oxy_max = 0,
+		name = "Maury",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.22",
-		name = "Maury",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.22",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -3049,6 +3199,7 @@ pg.ship_data_statistics = {
 		skin_id = 101080,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -3133,6 +3284,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -3151,13 +3307,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[101091] = {
-		oxy_max = 0,
+		name = "Fletcher",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.23",
-		name = "Fletcher",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.23",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -3170,6 +3326,7 @@ pg.ship_data_statistics = {
 		skin_id = 101090,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -3254,6 +3411,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -3274,13 +3436,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[101092] = {
-		oxy_max = 0,
+		name = "Fletcher",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.23",
-		name = "Fletcher",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.23",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -3293,6 +3455,7 @@ pg.ship_data_statistics = {
 		skin_id = 101090,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -3377,6 +3540,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -3397,13 +3565,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[101093] = {
-		oxy_max = 0,
+		name = "Fletcher",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.23",
-		name = "Fletcher",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.23",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -3416,6 +3584,7 @@ pg.ship_data_statistics = {
 		skin_id = 101090,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -3500,6 +3669,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -3520,13 +3694,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[101094] = {
-		oxy_max = 0,
+		name = "Fletcher",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.23",
-		name = "Fletcher",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.23",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -3539,6 +3713,7 @@ pg.ship_data_statistics = {
 		skin_id = 101090,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -3623,6 +3798,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -3643,13 +3823,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[101111] = {
-		oxy_max = 0,
+		name = "Charles Ausburne",
 		type = 1,
 		personality = 2,
-		backyard_speed = "1",
-		name = "Charles Ausburne",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "1",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -3662,6 +3842,7 @@ pg.ship_data_statistics = {
 		skin_id = 101110,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -3746,6 +3927,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -3766,13 +3952,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[101112] = {
-		oxy_max = 0,
+		name = "Charles Ausburne",
 		type = 1,
 		personality = 2,
-		backyard_speed = "1",
-		name = "Charles Ausburne",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "1",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -3785,6 +3971,7 @@ pg.ship_data_statistics = {
 		skin_id = 101110,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -3869,6 +4056,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -3889,13 +4081,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[101113] = {
-		oxy_max = 0,
+		name = "Charles Ausburne",
 		type = 1,
 		personality = 2,
-		backyard_speed = "1",
-		name = "Charles Ausburne",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "1",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -3908,6 +4100,7 @@ pg.ship_data_statistics = {
 		skin_id = 101110,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -3992,6 +4185,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -4012,13 +4210,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[101114] = {
-		oxy_max = 0,
+		name = "Charles Ausburne",
 		type = 1,
 		personality = 2,
-		backyard_speed = "1",
-		name = "Charles Ausburne",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "1",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -4031,6 +4229,7 @@ pg.ship_data_statistics = {
 		skin_id = 101110,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -4115,6 +4314,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -4135,13 +4339,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[101121] = {
-		oxy_max = 0,
+		name = "Thatcher",
 		type = 1,
 		personality = 2,
-		backyard_speed = "1",
-		name = "Thatcher",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "1",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -4154,6 +4358,7 @@ pg.ship_data_statistics = {
 		skin_id = 101120,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -4238,6 +4443,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -4258,13 +4468,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[101122] = {
-		oxy_max = 0,
+		name = "Thatcher",
 		type = 1,
 		personality = 2,
-		backyard_speed = "1",
-		name = "Thatcher",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "1",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -4277,6 +4487,7 @@ pg.ship_data_statistics = {
 		skin_id = 101120,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -4361,6 +4572,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -4381,13 +4597,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[101123] = {
-		oxy_max = 0,
+		name = "Thatcher",
 		type = 1,
 		personality = 2,
-		backyard_speed = "1",
-		name = "Thatcher",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "1",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -4400,6 +4616,7 @@ pg.ship_data_statistics = {
 		skin_id = 101120,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -4484,6 +4701,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -4504,13 +4726,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[101124] = {
-		oxy_max = 0,
+		name = "Thatcher",
 		type = 1,
 		personality = 2,
-		backyard_speed = "1",
-		name = "Thatcher",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "1",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -4523,6 +4745,7 @@ pg.ship_data_statistics = {
 		skin_id = 101120,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -4607,6 +4830,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -4627,13 +4855,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[101131] = {
-		oxy_max = 0,
+		name = "Aulick",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.45",
-		name = "Aulick",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.45",
 		star = 1,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -4646,6 +4874,7 @@ pg.ship_data_statistics = {
 		skin_id = 101130,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -4730,6 +4959,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -4750,13 +4984,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[101132] = {
-		oxy_max = 0,
+		name = "Aulick",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.45",
-		name = "Aulick",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.45",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -4769,6 +5003,7 @@ pg.ship_data_statistics = {
 		skin_id = 101130,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -4853,6 +5088,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -4873,13 +5113,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[101133] = {
-		oxy_max = 0,
+		name = "Aulick",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.45",
-		name = "Aulick",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.45",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -4892,6 +5132,7 @@ pg.ship_data_statistics = {
 		skin_id = 101130,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -4976,6 +5217,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -4996,13 +5242,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[101134] = {
-		oxy_max = 0,
+		name = "Aulick",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.45",
-		name = "Aulick",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.45",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -5015,6 +5261,7 @@ pg.ship_data_statistics = {
 		skin_id = 101130,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -5099,6 +5346,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -5119,13 +5371,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[101141] = {
-		oxy_max = 0,
+		name = "Foote",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Foote",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 1,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -5138,6 +5390,7 @@ pg.ship_data_statistics = {
 		skin_id = 101140,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -5218,6 +5471,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -5242,13 +5500,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[101142] = {
-		oxy_max = 0,
+		name = "Foote",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Foote",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -5261,6 +5519,7 @@ pg.ship_data_statistics = {
 		skin_id = 101140,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -5345,6 +5604,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -5365,13 +5629,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[101143] = {
-		oxy_max = 0,
+		name = "Foote",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Foote",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -5384,6 +5648,7 @@ pg.ship_data_statistics = {
 		skin_id = 101140,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -5468,6 +5733,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -5488,13 +5758,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[101144] = {
-		oxy_max = 0,
+		name = "Foote",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Foote",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -5507,6 +5777,7 @@ pg.ship_data_statistics = {
 		skin_id = 101140,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -5591,6 +5862,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -5611,13 +5887,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[101151] = {
-		oxy_max = 0,
+		name = "Spence",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Spence",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 1,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -5630,6 +5906,7 @@ pg.ship_data_statistics = {
 		skin_id = 101150,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -5714,6 +5991,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -5734,13 +6016,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[101152] = {
-		oxy_max = 0,
+		name = "Spence",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Spence",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -5753,6 +6035,7 @@ pg.ship_data_statistics = {
 		skin_id = 101150,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -5837,6 +6120,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -5857,13 +6145,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[101153] = {
-		oxy_max = 0,
+		name = "Spence",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Spence",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -5876,6 +6164,7 @@ pg.ship_data_statistics = {
 		skin_id = 101150,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -5960,6 +6249,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -5980,13 +6274,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[101154] = {
-		oxy_max = 0,
+		name = "Spence",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Spence",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -5999,6 +6293,7 @@ pg.ship_data_statistics = {
 		skin_id = 101150,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -6083,6 +6378,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -6103,13 +6403,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[101161] = {
-		oxy_max = 0,
+		name = "Benson",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Benson",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -6122,6 +6422,7 @@ pg.ship_data_statistics = {
 		skin_id = 101160,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -6206,6 +6507,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -6224,13 +6530,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[101162] = {
-		oxy_max = 0,
+		name = "Benson",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Benson",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -6243,6 +6549,7 @@ pg.ship_data_statistics = {
 		skin_id = 101160,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -6327,6 +6634,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -6345,13 +6657,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[101163] = {
-		oxy_max = 0,
+		name = "Benson",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Benson",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -6364,6 +6676,7 @@ pg.ship_data_statistics = {
 		skin_id = 101160,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -6448,6 +6761,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -6466,13 +6784,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[101164] = {
-		oxy_max = 0,
+		name = "Benson",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Benson",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -6485,6 +6803,7 @@ pg.ship_data_statistics = {
 		skin_id = 101160,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -6569,6 +6888,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -6587,13 +6911,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[101171] = {
-		oxy_max = 0,
+		name = "Laffey",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.45",
-		name = "Laffey",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.45",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -6606,6 +6930,7 @@ pg.ship_data_statistics = {
 		skin_id = 101170,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -6690,6 +7015,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -6708,13 +7038,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[101172] = {
-		oxy_max = 0,
+		name = "Laffey",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.45",
-		name = "Laffey",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.45",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -6727,6 +7057,7 @@ pg.ship_data_statistics = {
 		skin_id = 101170,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -6811,6 +7142,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -6829,13 +7165,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[101173] = {
-		oxy_max = 0,
+		name = "Laffey",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.45",
-		name = "Laffey",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.45",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -6848,6 +7184,7 @@ pg.ship_data_statistics = {
 		skin_id = 101170,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -6932,6 +7269,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -6950,13 +7292,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[101174] = {
-		oxy_max = 0,
+		name = "Laffey",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.45",
-		name = "Laffey",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.45",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -6969,6 +7311,7 @@ pg.ship_data_statistics = {
 		skin_id = 101170,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -7053,6 +7396,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -7071,13 +7419,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[101241] = {
-		oxy_max = 0,
+		name = "Sims",
 		type = 1,
 		personality = 2,
-		backyard_speed = "1",
-		name = "Sims",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "1",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -7090,6 +7438,7 @@ pg.ship_data_statistics = {
 		skin_id = 101240,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -7170,6 +7519,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -7192,13 +7546,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[101242] = {
-		oxy_max = 0,
+		name = "Sims",
 		type = 1,
 		personality = 2,
-		backyard_speed = "1",
-		name = "Sims",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "1",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -7211,6 +7565,7 @@ pg.ship_data_statistics = {
 		skin_id = 101240,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -7295,6 +7650,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -7313,13 +7673,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[101243] = {
-		oxy_max = 0,
+		name = "Sims",
 		type = 1,
 		personality = 2,
-		backyard_speed = "1",
-		name = "Sims",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "1",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -7332,6 +7692,7 @@ pg.ship_data_statistics = {
 		skin_id = 101240,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -7416,6 +7777,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -7434,13 +7800,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[101244] = {
-		oxy_max = 0,
+		name = "Sims",
 		type = 1,
 		personality = 2,
-		backyard_speed = "1",
-		name = "Sims",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "1",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -7453,6 +7819,7 @@ pg.ship_data_statistics = {
 		skin_id = 101240,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -7537,6 +7904,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -7555,13 +7927,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[101251] = {
-		oxy_max = 0,
+		name = "Hammann",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Hammann",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -7574,6 +7946,7 @@ pg.ship_data_statistics = {
 		skin_id = 101250,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -7658,6 +8031,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -7676,13 +8054,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[101252] = {
-		oxy_max = 0,
+		name = "Hammann",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Hammann",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -7695,6 +8073,7 @@ pg.ship_data_statistics = {
 		skin_id = 101250,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -7779,6 +8158,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -7797,13 +8181,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[101253] = {
-		oxy_max = 0,
+		name = "Hammann",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Hammann",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -7816,6 +8200,7 @@ pg.ship_data_statistics = {
 		skin_id = 101250,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -7900,6 +8285,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -7918,13 +8308,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[101254] = {
-		oxy_max = 0,
+		name = "Hammann",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Hammann",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -7937,6 +8327,7 @@ pg.ship_data_statistics = {
 		skin_id = 101250,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -8021,6 +8412,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -8039,13 +8435,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[101261] = {
-		oxy_max = 0,
+		name = "Eldridge",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Eldridge",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -8058,6 +8454,7 @@ pg.ship_data_statistics = {
 		skin_id = 101260,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -8142,6 +8539,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -8160,13 +8562,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[101262] = {
-		oxy_max = 0,
+		name = "Eldridge",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Eldridge",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -8179,6 +8581,7 @@ pg.ship_data_statistics = {
 		skin_id = 101260,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -8263,6 +8666,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -8281,13 +8689,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[101263] = {
-		oxy_max = 0,
+		name = "Eldridge",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Eldridge",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -8300,6 +8708,7 @@ pg.ship_data_statistics = {
 		skin_id = 101260,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -8384,6 +8793,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -8402,13 +8816,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[101264] = {
-		oxy_max = 0,
+		name = "Eldridge",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Eldridge",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 6,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -8421,6 +8835,7 @@ pg.ship_data_statistics = {
 		skin_id = 101260,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -8505,6 +8920,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -8523,13 +8943,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[101271] = {
-		oxy_max = 0,
+		name = "Bailey",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.23",
-		name = "Bailey",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.23",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -8542,6 +8962,7 @@ pg.ship_data_statistics = {
 		skin_id = 101270,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -8626,6 +9047,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -8644,13 +9070,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[101272] = {
-		oxy_max = 0,
+		name = "Bailey",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.23",
-		name = "Bailey",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.23",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -8663,6 +9089,7 @@ pg.ship_data_statistics = {
 		skin_id = 101270,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -8747,6 +9174,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -8765,13 +9197,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[101273] = {
-		oxy_max = 0,
+		name = "Bailey",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.23",
-		name = "Bailey",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.23",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -8784,6 +9216,7 @@ pg.ship_data_statistics = {
 		skin_id = 101270,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -8868,6 +9301,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -8886,13 +9324,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[101274] = {
-		oxy_max = 0,
+		name = "Bailey",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.23",
-		name = "Bailey",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.23",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -8905,6 +9343,7 @@ pg.ship_data_statistics = {
 		skin_id = 101270,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -8989,6 +9428,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -9007,13 +9451,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[101291] = {
-		oxy_max = 0,
+		name = "Radford",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Radford",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -9026,6 +9470,7 @@ pg.ship_data_statistics = {
 		skin_id = 101290,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -9110,6 +9555,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -9130,13 +9580,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[101292] = {
-		oxy_max = 0,
+		name = "Radford",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Radford",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -9149,6 +9599,7 @@ pg.ship_data_statistics = {
 		skin_id = 101290,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -9233,6 +9684,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -9253,13 +9709,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[101293] = {
-		oxy_max = 0,
+		name = "Radford",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Radford",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -9272,6 +9728,7 @@ pg.ship_data_statistics = {
 		skin_id = 101290,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -9356,6 +9813,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -9376,13 +9838,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[101294] = {
-		oxy_max = 0,
+		name = "Radford",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Radford",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -9395,6 +9857,7 @@ pg.ship_data_statistics = {
 		skin_id = 101290,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -9479,6 +9942,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -9499,13 +9967,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[101301] = {
-		oxy_max = 0,
+		name = "Jenkins",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Jenkins",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -9518,6 +9986,7 @@ pg.ship_data_statistics = {
 		skin_id = 101300,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -9602,6 +10071,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -9622,13 +10096,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[101302] = {
-		oxy_max = 0,
+		name = "Jenkins",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Jenkins",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -9641,6 +10115,7 @@ pg.ship_data_statistics = {
 		skin_id = 101300,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -9725,6 +10200,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -9745,13 +10225,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[101303] = {
-		oxy_max = 0,
+		name = "Jenkins",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Jenkins",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -9764,6 +10244,7 @@ pg.ship_data_statistics = {
 		skin_id = 101300,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -9848,6 +10329,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -9868,13 +10354,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[101304] = {
-		oxy_max = 0,
+		name = "Jenkins",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Jenkins",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -9887,6 +10373,7 @@ pg.ship_data_statistics = {
 		skin_id = 101300,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -9971,6 +10458,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -9991,13 +10483,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[101311] = {
-		oxy_max = 0,
+		name = "Nicholas",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Nicholas",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -10010,6 +10502,7 @@ pg.ship_data_statistics = {
 		skin_id = 101310,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -10094,6 +10587,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -10114,13 +10612,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[101312] = {
-		oxy_max = 0,
+		name = "Nicholas",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Nicholas",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -10133,6 +10631,7 @@ pg.ship_data_statistics = {
 		skin_id = 101310,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -10217,6 +10716,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -10237,13 +10741,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[101313] = {
-		oxy_max = 0,
+		name = "Nicholas",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Nicholas",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -10256,6 +10760,7 @@ pg.ship_data_statistics = {
 		skin_id = 101310,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -10340,6 +10845,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -10360,13 +10870,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[101314] = {
-		oxy_max = 0,
+		name = "Nicholas",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Nicholas",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -10379,6 +10889,7 @@ pg.ship_data_statistics = {
 		skin_id = 101310,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -10463,6 +10974,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -10483,13 +10999,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[101361] = {
-		oxy_max = 0,
+		name = "Hobby ",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Hobby ",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -10502,6 +11018,7 @@ pg.ship_data_statistics = {
 		skin_id = 101360,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -10586,6 +11103,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -10604,13 +11126,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[101362] = {
-		oxy_max = 0,
+		name = "Hobby ",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Hobby ",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -10623,6 +11145,7 @@ pg.ship_data_statistics = {
 		skin_id = 101360,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -10707,6 +11230,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -10725,13 +11253,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[101363] = {
-		oxy_max = 0,
+		name = "Hobby ",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Hobby ",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -10744,6 +11272,7 @@ pg.ship_data_statistics = {
 		skin_id = 101360,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -10828,6 +11357,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -10846,13 +11380,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[101364] = {
-		oxy_max = 0,
+		name = "Hobby ",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Hobby ",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -10865,6 +11399,7 @@ pg.ship_data_statistics = {
 		skin_id = 101360,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -10949,6 +11484,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -10967,13 +11507,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[101371] = {
-		oxy_max = 0,
+		name = "Kalk ",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Kalk ",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -10986,6 +11526,7 @@ pg.ship_data_statistics = {
 		skin_id = 101370,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -11070,6 +11611,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -11088,13 +11634,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[101372] = {
-		oxy_max = 0,
+		name = "Kalk ",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Kalk ",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -11107,6 +11653,7 @@ pg.ship_data_statistics = {
 		skin_id = 101370,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -11191,6 +11738,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -11209,13 +11761,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[101373] = {
-		oxy_max = 0,
+		name = "Kalk ",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Kalk ",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -11228,6 +11780,7 @@ pg.ship_data_statistics = {
 		skin_id = 101370,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -11312,6 +11865,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -11330,13 +11888,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[101374] = {
-		oxy_max = 0,
+		name = "Kalk ",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Kalk ",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -11349,6 +11907,7 @@ pg.ship_data_statistics = {
 		skin_id = 101370,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -11433,6 +11992,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -11451,13 +12015,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[101381] = {
-		oxy_max = 0,
+		name = "Kimberly",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Kimberly",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -11470,6 +12034,7 @@ pg.ship_data_statistics = {
 		skin_id = 101380,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -11554,6 +12119,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -11574,13 +12144,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[101382] = {
-		oxy_max = 0,
+		name = "Kimberly",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Kimberly",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -11593,6 +12163,7 @@ pg.ship_data_statistics = {
 		skin_id = 101380,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -11677,6 +12248,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -11697,13 +12273,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[101383] = {
-		oxy_max = 0,
+		name = "Kimberly",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Kimberly",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -11716,6 +12292,7 @@ pg.ship_data_statistics = {
 		skin_id = 101380,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -11800,6 +12377,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -11820,13 +12402,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[101384] = {
-		oxy_max = 0,
+		name = "Kimberly",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Kimberly",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -11839,6 +12421,7 @@ pg.ship_data_statistics = {
 		skin_id = 101380,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -11923,6 +12506,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -11943,13 +12531,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[101391] = {
-		oxy_max = 0,
+		name = "Mullany",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Mullany",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -11962,6 +12550,7 @@ pg.ship_data_statistics = {
 		skin_id = 101390,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -12046,6 +12635,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -12066,13 +12660,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[101392] = {
-		oxy_max = 0,
+		name = "Mullany",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Mullany",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -12085,6 +12679,7 @@ pg.ship_data_statistics = {
 		skin_id = 101390,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -12169,6 +12764,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -12189,13 +12789,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[101393] = {
-		oxy_max = 0,
+		name = "Mullany",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Mullany",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -12208,6 +12808,7 @@ pg.ship_data_statistics = {
 		skin_id = 101390,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -12292,6 +12893,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -12312,13 +12918,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[101394] = {
-		oxy_max = 0,
+		name = "Mullany",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Mullany",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -12331,6 +12937,7 @@ pg.ship_data_statistics = {
 		skin_id = 101390,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -12415,6 +13022,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -12435,13 +13047,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[102011] = {
-		oxy_max = 0,
+		name = "Omaha",
 		type = 2,
 		personality = 2,
-		backyard_speed = "1",
-		name = "Omaha",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "1",
 		star = 1,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -12454,6 +13066,7 @@ pg.ship_data_statistics = {
 		skin_id = 102010,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -12536,6 +13149,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -12559,13 +13177,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[102012] = {
-		oxy_max = 0,
+		name = "Omaha",
 		type = 2,
 		personality = 2,
-		backyard_speed = "1",
-		name = "Omaha",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "1",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -12578,6 +13196,7 @@ pg.ship_data_statistics = {
 		skin_id = 102010,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -12664,6 +13283,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -12683,13 +13307,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[102013] = {
-		oxy_max = 0,
+		name = "Omaha",
 		type = 2,
 		personality = 2,
-		backyard_speed = "1",
-		name = "Omaha",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "1",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -12702,6 +13326,7 @@ pg.ship_data_statistics = {
 		skin_id = 102010,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -12788,6 +13413,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -12807,13 +13437,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[102014] = {
-		oxy_max = 0,
+		name = "Omaha",
 		type = 2,
 		personality = 2,
-		backyard_speed = "1",
-		name = "Omaha",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "1",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -12826,6 +13456,7 @@ pg.ship_data_statistics = {
 		skin_id = 102010,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -12912,6 +13543,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -12931,13 +13567,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[102021] = {
-		oxy_max = 0,
+		name = "Raleigh",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Raleigh",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 1,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -12950,6 +13586,7 @@ pg.ship_data_statistics = {
 		skin_id = 102020,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -13036,6 +13673,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -13055,13 +13697,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[102022] = {
-		oxy_max = 0,
+		name = "Raleigh",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Raleigh",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -13074,6 +13716,7 @@ pg.ship_data_statistics = {
 		skin_id = 102020,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -13160,6 +13803,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -13179,13 +13827,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[102023] = {
-		oxy_max = 0,
+		name = "Raleigh",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Raleigh",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -13198,6 +13846,7 @@ pg.ship_data_statistics = {
 		skin_id = 102020,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -13284,6 +13933,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -13303,13 +13957,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[102024] = {
-		oxy_max = 0,
+		name = "Raleigh",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Raleigh",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -13322,6 +13976,7 @@ pg.ship_data_statistics = {
 		skin_id = 102020,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -13408,6 +14063,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -13427,13 +14087,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[102031] = {
-		oxy_max = 0,
+		name = "Brooklyn",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Brooklyn",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -13446,6 +14106,7 @@ pg.ship_data_statistics = {
 		skin_id = 102030,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -13531,6 +14192,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -13549,13 +14215,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[102032] = {
-		oxy_max = 0,
+		name = "Brooklyn",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Brooklyn",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -13568,6 +14234,7 @@ pg.ship_data_statistics = {
 		skin_id = 102030,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -13653,6 +14320,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -13671,13 +14343,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[102033] = {
-		oxy_max = 0,
+		name = "Brooklyn",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Brooklyn",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -13690,6 +14362,7 @@ pg.ship_data_statistics = {
 		skin_id = 102030,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -13775,6 +14448,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -13793,13 +14471,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[102034] = {
-		oxy_max = 0,
+		name = "Brooklyn",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Brooklyn",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -13812,6 +14490,7 @@ pg.ship_data_statistics = {
 		skin_id = 102030,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -13897,6 +14576,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -13915,13 +14599,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[102041] = {
-		oxy_max = 0,
+		name = "Phoenix",
 		type = 2,
 		personality = 2,
-		backyard_speed = "1",
-		name = "Phoenix",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "1",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -13934,6 +14618,7 @@ pg.ship_data_statistics = {
 		skin_id = 102040,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -14019,6 +14704,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -14037,13 +14727,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[102042] = {
-		oxy_max = 0,
+		name = "Phoenix",
 		type = 2,
 		personality = 2,
-		backyard_speed = "1",
-		name = "Phoenix",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "1",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -14056,6 +14746,7 @@ pg.ship_data_statistics = {
 		skin_id = 102040,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -14141,6 +14832,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -14159,13 +14855,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[102043] = {
-		oxy_max = 0,
+		name = "Phoenix",
 		type = 2,
 		personality = 2,
-		backyard_speed = "1",
-		name = "Phoenix",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "1",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -14178,6 +14874,7 @@ pg.ship_data_statistics = {
 		skin_id = 102040,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -14263,6 +14960,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -14281,13 +14983,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[102044] = {
-		oxy_max = 0,
+		name = "Phoenix",
 		type = 2,
 		personality = 2,
-		backyard_speed = "1",
-		name = "Phoenix",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "1",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -14300,6 +15002,7 @@ pg.ship_data_statistics = {
 		skin_id = 102040,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -14385,6 +15088,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -14403,13 +15111,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[102051] = {
-		oxy_max = 0,
+		name = "Helena",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Helena",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -14422,6 +15130,7 @@ pg.ship_data_statistics = {
 		skin_id = 102050,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -14507,6 +15216,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -14525,13 +15239,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[102052] = {
-		oxy_max = 0,
+		name = "Helena",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Helena",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -14544,6 +15258,7 @@ pg.ship_data_statistics = {
 		skin_id = 102050,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -14629,6 +15344,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -14647,13 +15367,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[102053] = {
-		oxy_max = 0,
+		name = "Helena",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Helena",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -14666,6 +15386,7 @@ pg.ship_data_statistics = {
 		skin_id = 102050,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -14751,6 +15472,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -14769,13 +15495,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[102054] = {
-		oxy_max = 0,
+		name = "Helena",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Helena",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -14788,6 +15514,7 @@ pg.ship_data_statistics = {
 		skin_id = 102050,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -14873,6 +15600,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -14891,13 +15623,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[102061] = {
-		oxy_max = 0,
+		name = "Atlanta",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Atlanta",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -14910,6 +15642,7 @@ pg.ship_data_statistics = {
 		skin_id = 102060,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -14992,6 +15725,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -15015,13 +15753,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[102062] = {
-		oxy_max = 0,
+		name = "Atlanta",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Atlanta",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -15034,6 +15772,7 @@ pg.ship_data_statistics = {
 		skin_id = 102060,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -15120,6 +15859,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -15139,13 +15883,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[102063] = {
-		oxy_max = 0,
+		name = "Atlanta",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Atlanta",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -15158,6 +15902,7 @@ pg.ship_data_statistics = {
 		skin_id = 102060,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -15244,6 +15989,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -15263,13 +16013,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[102064] = {
-		oxy_max = 0,
+		name = "Atlanta",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Atlanta",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -15282,6 +16032,7 @@ pg.ship_data_statistics = {
 		skin_id = 102060,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -15368,6 +16119,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -15387,13 +16143,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[102071] = {
-		oxy_max = 0,
+		name = "Juneau",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Juneau",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -15406,6 +16162,7 @@ pg.ship_data_statistics = {
 		skin_id = 102070,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -15492,6 +16249,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -15511,13 +16273,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[102072] = {
-		oxy_max = 0,
+		name = "Juneau",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Juneau",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -15530,6 +16292,7 @@ pg.ship_data_statistics = {
 		skin_id = 102070,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -15616,6 +16379,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -15635,13 +16403,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[102073] = {
-		oxy_max = 0,
+		name = "Juneau",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Juneau",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -15654,6 +16422,7 @@ pg.ship_data_statistics = {
 		skin_id = 102070,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -15740,6 +16509,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -15759,13 +16533,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[102074] = {
-		oxy_max = 0,
+		name = "Juneau",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Juneau",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -15778,6 +16552,7 @@ pg.ship_data_statistics = {
 		skin_id = 102070,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -15864,6 +16639,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -15883,13 +16663,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[102081] = {
-		oxy_max = 0,
+		name = "San Diego",
 		type = 2,
 		personality = 2,
-		backyard_speed = "1",
-		name = "San Diego",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "1",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -15902,6 +16682,7 @@ pg.ship_data_statistics = {
 		skin_id = 102080,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -15988,6 +16769,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -16007,13 +16793,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[102082] = {
-		oxy_max = 0,
+		name = "San Diego",
 		type = 2,
 		personality = 2,
-		backyard_speed = "1",
-		name = "San Diego",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "1",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -16026,6 +16812,7 @@ pg.ship_data_statistics = {
 		skin_id = 102080,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -16112,6 +16899,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -16131,13 +16923,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[102083] = {
-		oxy_max = 0,
+		name = "San Diego",
 		type = 2,
 		personality = 2,
-		backyard_speed = "1",
-		name = "San Diego",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "1",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -16150,6 +16942,7 @@ pg.ship_data_statistics = {
 		skin_id = 102080,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -16236,6 +17029,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -16255,13 +17053,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[102084] = {
-		oxy_max = 0,
+		name = "San Diego",
 		type = 2,
 		personality = 2,
-		backyard_speed = "1",
-		name = "San Diego",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "1",
 		star = 6,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -16274,6 +17072,7 @@ pg.ship_data_statistics = {
 		skin_id = 102080,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -16360,6 +17159,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -16379,13 +17183,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[102091] = {
-		oxy_max = 0,
+		name = "Cleveland",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.45",
-		name = "Cleveland",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.45",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -16398,6 +17202,7 @@ pg.ship_data_statistics = {
 		skin_id = 102090,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -16483,6 +17288,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -16503,13 +17313,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[102092] = {
-		oxy_max = 0,
+		name = "Cleveland",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.45",
-		name = "Cleveland",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.45",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -16522,6 +17332,7 @@ pg.ship_data_statistics = {
 		skin_id = 102090,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -16607,6 +17418,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -16627,13 +17443,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[102093] = {
-		oxy_max = 0,
+		name = "Cleveland",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.45",
-		name = "Cleveland",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.45",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -16646,6 +17462,7 @@ pg.ship_data_statistics = {
 		skin_id = 102090,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -16731,6 +17548,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -16751,13 +17573,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[102094] = {
-		oxy_max = 0,
+		name = "Cleveland",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.45",
-		name = "Cleveland",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.45",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -16770,6 +17592,7 @@ pg.ship_data_statistics = {
 		skin_id = 102090,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -16855,6 +17678,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -16875,13 +17703,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[102101] = {
-		oxy_max = 0,
+		name = "Columbia",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.45",
-		name = "Columbia",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.45",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -16894,6 +17722,7 @@ pg.ship_data_statistics = {
 		skin_id = 102100,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -16979,6 +17808,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -16999,13 +17833,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[102102] = {
-		oxy_max = 0,
+		name = "Columbia",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.45",
-		name = "Columbia",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.45",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -17018,6 +17852,7 @@ pg.ship_data_statistics = {
 		skin_id = 102100,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -17103,6 +17938,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -17123,13 +17963,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[102103] = {
-		oxy_max = 0,
+		name = "Columbia",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.45",
-		name = "Columbia",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.45",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -17142,6 +17982,7 @@ pg.ship_data_statistics = {
 		skin_id = 102100,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -17227,6 +18068,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -17247,13 +18093,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[102104] = {
-		oxy_max = 0,
+		name = "Columbia",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.45",
-		name = "Columbia",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.45",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -17266,6 +18112,7 @@ pg.ship_data_statistics = {
 		skin_id = 102100,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -17351,6 +18198,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -17371,13 +18223,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[102111] = {
-		oxy_max = 0,
+		name = "Richmond",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Richmond",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 1,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -17390,6 +18242,7 @@ pg.ship_data_statistics = {
 		skin_id = 102110,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -17476,6 +18329,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -17495,13 +18353,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[102112] = {
-		oxy_max = 0,
+		name = "Richmond",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Richmond",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -17514,6 +18372,7 @@ pg.ship_data_statistics = {
 		skin_id = 102110,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -17600,6 +18459,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -17619,13 +18483,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[102113] = {
-		oxy_max = 0,
+		name = "Richmond",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Richmond",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -17638,6 +18502,7 @@ pg.ship_data_statistics = {
 		skin_id = 102110,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -17724,6 +18589,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -17743,13 +18613,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[102114] = {
-		oxy_max = 0,
+		name = "Richmond",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Richmond",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -17762,6 +18632,7 @@ pg.ship_data_statistics = {
 		skin_id = 102110,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -17848,6 +18719,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -17867,13 +18743,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[102121] = {
-		oxy_max = 0,
+		name = "Honolulu",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Honolulu",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -17886,6 +18762,7 @@ pg.ship_data_statistics = {
 		skin_id = 102120,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -17971,6 +18848,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -17989,13 +18871,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[102122] = {
-		oxy_max = 0,
+		name = "Honolulu",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Honolulu",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -18008,6 +18890,7 @@ pg.ship_data_statistics = {
 		skin_id = 102120,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -18093,6 +18976,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -18111,13 +18999,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[102123] = {
-		oxy_max = 0,
+		name = "Honolulu",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Honolulu",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -18130,6 +19018,7 @@ pg.ship_data_statistics = {
 		skin_id = 102120,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -18215,6 +19104,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -18233,13 +19127,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[102124] = {
-		oxy_max = 0,
+		name = "Honolulu",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Honolulu",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -18252,6 +19146,7 @@ pg.ship_data_statistics = {
 		skin_id = 102120,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -18337,6 +19232,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -18355,13 +19255,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[102131] = {
-		oxy_max = 0,
+		name = "St. Louis",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "St. Louis",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -18374,6 +19274,7 @@ pg.ship_data_statistics = {
 		skin_id = 102130,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -18459,6 +19360,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -18477,13 +19383,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[102132] = {
-		oxy_max = 0,
+		name = "St. Louis",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "St. Louis",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -18496,6 +19402,7 @@ pg.ship_data_statistics = {
 		skin_id = 102130,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -18581,6 +19488,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -18599,13 +19511,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[102133] = {
-		oxy_max = 0,
+		name = "St. Louis",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "St. Louis",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -18618,6 +19530,7 @@ pg.ship_data_statistics = {
 		skin_id = 102130,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -18703,6 +19616,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -18721,13 +19639,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[102134] = {
-		oxy_max = 0,
+		name = "St. Louis",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "St. Louis",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -18740,6 +19658,7 @@ pg.ship_data_statistics = {
 		skin_id = 102130,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -18825,6 +19744,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -18843,13 +19767,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[102141] = {
-		oxy_max = 0,
+		name = "Montpelier",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Montpelier",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -18862,6 +19786,7 @@ pg.ship_data_statistics = {
 		skin_id = 102140,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -18947,6 +19872,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -18967,13 +19897,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[102142] = {
-		oxy_max = 0,
+		name = "Montpelier",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Montpelier",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -18986,6 +19916,7 @@ pg.ship_data_statistics = {
 		skin_id = 102140,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -19071,6 +20002,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -19091,13 +20027,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[102143] = {
-		oxy_max = 0,
+		name = "Montpelier",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Montpelier",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -19110,6 +20046,7 @@ pg.ship_data_statistics = {
 		skin_id = 102140,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -19195,6 +20132,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -19215,13 +20157,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[102144] = {
-		oxy_max = 0,
+		name = "Montpelier",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Montpelier",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 6,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -19234,6 +20176,7 @@ pg.ship_data_statistics = {
 		skin_id = 102140,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -19319,6 +20262,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -19339,13 +20287,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[102151] = {
-		oxy_max = 0,
+		name = "Denver",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Denver",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -19358,6 +20306,7 @@ pg.ship_data_statistics = {
 		skin_id = 102150,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -19443,6 +20392,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -19463,13 +20417,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[102152] = {
-		oxy_max = 0,
+		name = "Denver",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Denver",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -19482,6 +20436,7 @@ pg.ship_data_statistics = {
 		skin_id = 102150,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -19567,6 +20522,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -19587,13 +20547,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[102153] = {
-		oxy_max = 0,
+		name = "Denver",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Denver",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -19606,6 +20566,7 @@ pg.ship_data_statistics = {
 		skin_id = 102150,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -19691,6 +20652,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -19711,13 +20677,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[102154] = {
-		oxy_max = 0,
+		name = "Denver",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Denver",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -19730,6 +20696,7 @@ pg.ship_data_statistics = {
 		skin_id = 102150,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -19815,6 +20782,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -19835,13 +20807,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[102181] = {
-		oxy_max = 0,
+		name = "Concord ",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Concord ",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -19854,6 +20826,7 @@ pg.ship_data_statistics = {
 		skin_id = 102180,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -19940,6 +20913,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -19959,13 +20937,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[102182] = {
-		oxy_max = 0,
+		name = "Concord ",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Concord ",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -19978,6 +20956,7 @@ pg.ship_data_statistics = {
 		skin_id = 102180,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -20064,6 +21043,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -20083,13 +21067,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[102183] = {
-		oxy_max = 0,
+		name = "Concord ",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Concord ",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -20102,6 +21086,7 @@ pg.ship_data_statistics = {
 		skin_id = 102180,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -20188,6 +21173,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -20207,13 +21197,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[102184] = {
-		oxy_max = 0,
+		name = "Concord ",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Concord ",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -20226,6 +21216,7 @@ pg.ship_data_statistics = {
 		skin_id = 102180,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -20312,6 +21303,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -20331,13 +21327,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[103011] = {
-		oxy_max = 0,
+		name = "Pensacola",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Pensacola",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 1,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -20350,6 +21346,7 @@ pg.ship_data_statistics = {
 		skin_id = 103010,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -20430,6 +21427,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -20452,13 +21454,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[103012] = {
-		oxy_max = 0,
+		name = "Pensacola",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Pensacola",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -20471,6 +21473,7 @@ pg.ship_data_statistics = {
 		skin_id = 103010,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -20555,6 +21558,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -20573,13 +21581,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[103013] = {
-		oxy_max = 0,
+		name = "Pensacola",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Pensacola",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -20592,6 +21600,7 @@ pg.ship_data_statistics = {
 		skin_id = 103010,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -20676,6 +21685,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -20694,13 +21708,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[103014] = {
-		oxy_max = 0,
+		name = "Pensacola",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Pensacola",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -20713,6 +21727,7 @@ pg.ship_data_statistics = {
 		skin_id = 103010,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -20797,6 +21812,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -20815,13 +21835,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[103021] = {
-		oxy_max = 0,
+		name = "Salt Lake City",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Salt Lake City",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 1,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -20834,6 +21854,7 @@ pg.ship_data_statistics = {
 		skin_id = 103020,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -20918,6 +21939,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -20936,13 +21962,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[103022] = {
-		oxy_max = 0,
+		name = "Salt Lake City",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Salt Lake City",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -20955,6 +21981,7 @@ pg.ship_data_statistics = {
 		skin_id = 103020,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -21039,6 +22066,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -21057,13 +22089,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[103023] = {
-		oxy_max = 0,
+		name = "Salt Lake City",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Salt Lake City",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -21076,6 +22108,7 @@ pg.ship_data_statistics = {
 		skin_id = 103020,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -21160,6 +22193,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -21178,13 +22216,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[103024] = {
-		oxy_max = 0,
+		name = "Salt Lake City",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Salt Lake City",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -21197,6 +22235,7 @@ pg.ship_data_statistics = {
 		skin_id = 103020,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -21281,6 +22320,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -21299,13 +22343,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[103031] = {
-		oxy_max = 0,
+		name = "Northampton",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.4",
-		name = "Northampton",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.4",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -21318,6 +22362,7 @@ pg.ship_data_statistics = {
 		skin_id = 103030,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -21402,6 +22447,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -21420,13 +22470,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[103032] = {
-		oxy_max = 0,
+		name = "Northampton",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.4",
-		name = "Northampton",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.4",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -21439,6 +22489,7 @@ pg.ship_data_statistics = {
 		skin_id = 103030,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -21523,6 +22574,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -21541,13 +22597,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[103033] = {
-		oxy_max = 0,
+		name = "Northampton",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.4",
-		name = "Northampton",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.4",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -21560,6 +22616,7 @@ pg.ship_data_statistics = {
 		skin_id = 103030,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -21644,6 +22701,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -21662,13 +22724,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[103034] = {
-		oxy_max = 0,
+		name = "Northampton",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.4",
-		name = "Northampton",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.4",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -21681,6 +22743,7 @@ pg.ship_data_statistics = {
 		skin_id = 103030,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -21765,6 +22828,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -21783,13 +22851,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[103041] = {
-		oxy_max = 0,
+		name = "Chicago",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.4",
-		name = "Chicago",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.4",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -21802,6 +22870,7 @@ pg.ship_data_statistics = {
 		skin_id = 103040,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -21886,6 +22955,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -21904,13 +22978,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[103042] = {
-		oxy_max = 0,
+		name = "Chicago",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.4",
-		name = "Chicago",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.4",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -21923,6 +22997,7 @@ pg.ship_data_statistics = {
 		skin_id = 103040,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -22007,6 +23082,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -22025,13 +23105,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[103043] = {
-		oxy_max = 0,
+		name = "Chicago",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.4",
-		name = "Chicago",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.4",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -22044,6 +23124,7 @@ pg.ship_data_statistics = {
 		skin_id = 103040,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -22128,6 +23209,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -22146,13 +23232,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[103044] = {
-		oxy_max = 0,
+		name = "Chicago",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.4",
-		name = "Chicago",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.4",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -22165,6 +23251,7 @@ pg.ship_data_statistics = {
 		skin_id = 103040,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -22249,6 +23336,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -22267,13 +23359,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[103051] = {
-		oxy_max = 0,
+		name = "Houston",
 		type = 3,
 		personality = 2,
-		backyard_speed = "1",
-		name = "Houston",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "1",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -22286,6 +23378,7 @@ pg.ship_data_statistics = {
 		skin_id = 103050,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -22370,6 +23463,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -22388,13 +23486,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[103052] = {
-		oxy_max = 0,
+		name = "Houston",
 		type = 3,
 		personality = 2,
-		backyard_speed = "1",
-		name = "Houston",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "1",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -22407,6 +23505,7 @@ pg.ship_data_statistics = {
 		skin_id = 103050,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -22491,6 +23590,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -22509,13 +23613,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[103053] = {
-		oxy_max = 0,
+		name = "Houston",
 		type = 3,
 		personality = 2,
-		backyard_speed = "1",
-		name = "Houston",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "1",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -22528,6 +23632,7 @@ pg.ship_data_statistics = {
 		skin_id = 103050,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -22612,6 +23717,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -22630,13 +23740,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[103054] = {
-		oxy_max = 0,
+		name = "Houston",
 		type = 3,
 		personality = 2,
-		backyard_speed = "1",
-		name = "Houston",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "1",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -22649,6 +23759,7 @@ pg.ship_data_statistics = {
 		skin_id = 103050,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -22733,6 +23844,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -22751,13 +23867,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[103061] = {
-		oxy_max = 0,
+		name = "Portland",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.23",
-		name = "Portland",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.23",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -22770,6 +23886,7 @@ pg.ship_data_statistics = {
 		skin_id = 103060,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 2,
 		attrs = {
@@ -22854,6 +23971,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -22872,13 +23994,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[103062] = {
-		oxy_max = 0,
+		name = "Portland",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.23",
-		name = "Portland",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.23",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -22891,6 +24013,7 @@ pg.ship_data_statistics = {
 		skin_id = 103060,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 2,
 		attrs = {
@@ -22975,6 +24098,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -22993,13 +24121,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[103063] = {
-		oxy_max = 0,
+		name = "Portland",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.23",
-		name = "Portland",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.23",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -23012,6 +24140,7 @@ pg.ship_data_statistics = {
 		skin_id = 103060,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 2,
 		attrs = {
@@ -23096,6 +24225,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -23114,13 +24248,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[103064] = {
-		oxy_max = 0,
+		name = "Portland",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.23",
-		name = "Portland",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.23",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -23133,6 +24267,7 @@ pg.ship_data_statistics = {
 		skin_id = 103060,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 2,
 		attrs = {
@@ -23217,6 +24352,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -23235,13 +24375,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[103071] = {
-		oxy_max = 0,
+		name = "Indianapolis",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Indianapolis",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -23254,6 +24394,7 @@ pg.ship_data_statistics = {
 		skin_id = 103070,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 2,
 		attrs = {
@@ -23338,6 +24479,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -23356,13 +24502,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[103072] = {
-		oxy_max = 0,
+		name = "Indianapolis",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Indianapolis",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -23375,6 +24521,7 @@ pg.ship_data_statistics = {
 		skin_id = 103070,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 2,
 		attrs = {
@@ -23459,6 +24606,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -23477,13 +24629,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[103073] = {
-		oxy_max = 0,
+		name = "Indianapolis",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Indianapolis",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -23496,6 +24648,7 @@ pg.ship_data_statistics = {
 		skin_id = 103070,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 2,
 		attrs = {
@@ -23580,6 +24733,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -23598,13 +24756,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[103074] = {
-		oxy_max = 0,
+		name = "Indianapolis",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Indianapolis",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -23617,6 +24775,7 @@ pg.ship_data_statistics = {
 		skin_id = 103070,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 2,
 		attrs = {
@@ -23701,6 +24860,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -23719,13 +24883,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[103081] = {
-		oxy_max = 0,
+		name = "Astoria",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Astoria",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -23738,6 +24902,7 @@ pg.ship_data_statistics = {
 		skin_id = 103080,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 2,
 		attrs = {
@@ -23822,6 +24987,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -23842,13 +25012,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[103082] = {
-		oxy_max = 0,
+		name = "Astoria",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Astoria",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -23861,6 +25031,7 @@ pg.ship_data_statistics = {
 		skin_id = 103080,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 2,
 		attrs = {
@@ -23945,6 +25116,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -23965,13 +25141,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[103083] = {
-		oxy_max = 0,
+		name = "Astoria",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Astoria",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -23984,6 +25160,7 @@ pg.ship_data_statistics = {
 		skin_id = 103080,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 2,
 		attrs = {
@@ -24068,6 +25245,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -24088,13 +25270,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[103084] = {
-		oxy_max = 0,
+		name = "Astoria",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Astoria",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -24107,6 +25289,7 @@ pg.ship_data_statistics = {
 		skin_id = 103080,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 2,
 		attrs = {
@@ -24191,6 +25374,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -24211,13 +25399,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[103091] = {
-		oxy_max = 0,
+		name = "Quincy",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Quincy",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -24230,6 +25418,7 @@ pg.ship_data_statistics = {
 		skin_id = 103090,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 2,
 		attrs = {
@@ -24314,6 +25503,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -24334,13 +25528,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[103092] = {
-		oxy_max = 0,
+		name = "Quincy",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Quincy",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -24353,6 +25547,7 @@ pg.ship_data_statistics = {
 		skin_id = 103090,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 2,
 		attrs = {
@@ -24437,6 +25632,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -24457,13 +25657,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[103093] = {
-		oxy_max = 0,
+		name = "Quincy",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Quincy",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -24476,6 +25676,7 @@ pg.ship_data_statistics = {
 		skin_id = 103090,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 2,
 		attrs = {
@@ -24560,6 +25761,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -24580,13 +25786,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[103094] = {
-		oxy_max = 0,
+		name = "Quincy",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Quincy",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -24599,6 +25805,7 @@ pg.ship_data_statistics = {
 		skin_id = 103090,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 2,
 		attrs = {
@@ -24683,6 +25890,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -24703,13 +25915,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[103101] = {
-		oxy_max = 0,
+		name = "Vincennes",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Vincennes",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -24722,6 +25934,7 @@ pg.ship_data_statistics = {
 		skin_id = 103100,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 2,
 		attrs = {
@@ -24806,6 +26019,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -24826,13 +26044,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[103102] = {
-		oxy_max = 0,
+		name = "Vincennes",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Vincennes",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -24845,6 +26063,7 @@ pg.ship_data_statistics = {
 		skin_id = 103100,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 2,
 		attrs = {
@@ -24929,6 +26148,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -24949,13 +26173,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[103103] = {
-		oxy_max = 0,
+		name = "Vincennes",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Vincennes",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -24968,6 +26192,7 @@ pg.ship_data_statistics = {
 		skin_id = 103100,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 2,
 		attrs = {
@@ -25052,6 +26277,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -25072,13 +26302,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[103104] = {
-		oxy_max = 0,
+		name = "Vincennes",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Vincennes",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -25091,6 +26321,7 @@ pg.ship_data_statistics = {
 		skin_id = 103100,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 2,
 		attrs = {
@@ -25175,6 +26406,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -25195,13 +26431,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[103111] = {
-		oxy_max = 0,
+		name = "Wichita",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Wichita",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -25214,6 +26450,7 @@ pg.ship_data_statistics = {
 		skin_id = 103110,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -25298,6 +26535,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -25316,13 +26558,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[103112] = {
-		oxy_max = 0,
+		name = "Wichita",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Wichita",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -25335,6 +26577,7 @@ pg.ship_data_statistics = {
 		skin_id = 103110,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -25419,6 +26662,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -25437,13 +26685,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[103113] = {
-		oxy_max = 0,
+		name = "Wichita",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Wichita",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -25456,6 +26704,7 @@ pg.ship_data_statistics = {
 		skin_id = 103110,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -25540,6 +26789,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -25558,13 +26812,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[103114] = {
-		oxy_max = 0,
+		name = "Wichita",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Wichita",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -25577,6 +26831,7 @@ pg.ship_data_statistics = {
 		skin_id = 103110,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -25661,6 +26916,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -25679,13 +26939,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[103131] = {
-		oxy_max = 0,
+		name = "Minneapolis ",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Minneapolis ",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -25698,6 +26958,7 @@ pg.ship_data_statistics = {
 		skin_id = 103130,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 2,
 		attrs = {
@@ -25782,6 +27043,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -25802,13 +27068,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[103132] = {
-		oxy_max = 0,
+		name = "Minneapolis ",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Minneapolis ",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -25821,6 +27087,7 @@ pg.ship_data_statistics = {
 		skin_id = 103130,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 2,
 		attrs = {
@@ -25905,6 +27172,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -25925,13 +27197,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[103133] = {
-		oxy_max = 0,
+		name = "Minneapolis ",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Minneapolis ",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -25944,6 +27216,7 @@ pg.ship_data_statistics = {
 		skin_id = 103130,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 2,
 		attrs = {
@@ -26028,6 +27301,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -26048,13 +27326,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[103134] = {
-		oxy_max = 0,
+		name = "Minneapolis ",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Minneapolis ",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 6,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -26067,6 +27345,7 @@ pg.ship_data_statistics = {
 		skin_id = 103130,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 2,
 		attrs = {
@@ -26151,6 +27430,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -26171,13 +27455,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[105011] = {
-		oxy_max = 0,
+		name = "Nevada",
 		type = 5,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Nevada",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 1,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -26190,6 +27474,7 @@ pg.ship_data_statistics = {
 		skin_id = 105010,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 3,
 		attrs = {
@@ -26274,6 +27559,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -26292,13 +27582,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[105012] = {
-		oxy_max = 0,
+		name = "Nevada",
 		type = 5,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Nevada",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -26311,6 +27601,7 @@ pg.ship_data_statistics = {
 		skin_id = 105010,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 3,
 		attrs = {
@@ -26395,6 +27686,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -26413,13 +27709,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[105013] = {
-		oxy_max = 0,
+		name = "Nevada",
 		type = 5,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Nevada",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -26432,6 +27728,7 @@ pg.ship_data_statistics = {
 		skin_id = 105010,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 3,
 		attrs = {
@@ -26516,6 +27813,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -26534,13 +27836,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[105014] = {
-		oxy_max = 0,
+		name = "Nevada",
 		type = 5,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Nevada",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -26553,6 +27855,7 @@ pg.ship_data_statistics = {
 		skin_id = 105010,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 3,
 		attrs = {
@@ -26637,6 +27940,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -26655,13 +27963,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[105021] = {
-		oxy_max = 0,
+		name = "Oklahoma",
 		type = 5,
 		personality = 2,
-		backyard_speed = "1",
-		name = "Oklahoma",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "1",
 		star = 1,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -26674,6 +27982,7 @@ pg.ship_data_statistics = {
 		skin_id = 105020,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 3,
 		attrs = {
@@ -26758,6 +28067,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -26776,13 +28090,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[105022] = {
-		oxy_max = 0,
+		name = "Oklahoma",
 		type = 5,
 		personality = 2,
-		backyard_speed = "1",
-		name = "Oklahoma",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "1",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -26795,6 +28109,7 @@ pg.ship_data_statistics = {
 		skin_id = 105020,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 3,
 		attrs = {
@@ -26879,6 +28194,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -26897,13 +28217,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[105023] = {
-		oxy_max = 0,
+		name = "Oklahoma",
 		type = 5,
 		personality = 2,
-		backyard_speed = "1",
-		name = "Oklahoma",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "1",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -26916,6 +28236,7 @@ pg.ship_data_statistics = {
 		skin_id = 105020,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 3,
 		attrs = {
@@ -27000,6 +28321,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -27018,13 +28344,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[105024] = {
-		oxy_max = 0,
+		name = "Oklahoma",
 		type = 5,
 		personality = 2,
-		backyard_speed = "1",
-		name = "Oklahoma",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "1",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -27037,6 +28363,7 @@ pg.ship_data_statistics = {
 		skin_id = 105020,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 3,
 		attrs = {
@@ -27121,6 +28448,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -27139,13 +28471,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[105031] = {
-		oxy_max = 0,
+		name = "Pennsylvania",
 		type = 5,
 		personality = 2,
-		backyard_speed = "0.23",
-		name = "Pennsylvania",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.23",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -27158,6 +28490,7 @@ pg.ship_data_statistics = {
 		skin_id = 105030,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 3,
 		attrs = {
@@ -27242,6 +28575,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -27260,13 +28598,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[105032] = {
-		oxy_max = 0,
+		name = "Pennsylvania",
 		type = 5,
 		personality = 2,
-		backyard_speed = "0.23",
-		name = "Pennsylvania",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.23",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -27279,6 +28617,7 @@ pg.ship_data_statistics = {
 		skin_id = 105030,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 3,
 		attrs = {
@@ -27363,6 +28702,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -27381,13 +28725,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[105033] = {
-		oxy_max = 0,
+		name = "Pennsylvania",
 		type = 5,
 		personality = 2,
-		backyard_speed = "0.23",
-		name = "Pennsylvania",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.23",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -27400,6 +28744,7 @@ pg.ship_data_statistics = {
 		skin_id = 105030,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 3,
 		attrs = {
@@ -27484,6 +28829,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -27502,13 +28852,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[105034] = {
-		oxy_max = 0,
+		name = "Pennsylvania",
 		type = 5,
 		personality = 2,
-		backyard_speed = "0.23",
-		name = "Pennsylvania",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.23",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -27521,6 +28871,7 @@ pg.ship_data_statistics = {
 		skin_id = 105030,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 3,
 		attrs = {
@@ -27605,6 +28956,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -27623,13 +28979,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[105041] = {
-		oxy_max = 0,
+		name = "Arizona",
 		type = 5,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Arizona",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -27642,6 +28998,7 @@ pg.ship_data_statistics = {
 		skin_id = 105040,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 3,
 		attrs = {
@@ -27726,6 +29083,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -27744,13 +29106,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[105042] = {
-		oxy_max = 0,
+		name = "Arizona",
 		type = 5,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Arizona",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -27763,6 +29125,7 @@ pg.ship_data_statistics = {
 		skin_id = 105040,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 3,
 		attrs = {
@@ -27847,6 +29210,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -27865,13 +29233,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[105043] = {
-		oxy_max = 0,
+		name = "Arizona",
 		type = 5,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Arizona",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -27884,6 +29252,7 @@ pg.ship_data_statistics = {
 		skin_id = 105040,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 3,
 		attrs = {
@@ -27968,6 +29337,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -27986,13 +29360,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[105044] = {
-		oxy_max = 0,
+		name = "Arizona",
 		type = 5,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Arizona",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -28005,6 +29379,7 @@ pg.ship_data_statistics = {
 		skin_id = 105040,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 3,
 		attrs = {
@@ -28089,6 +29464,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -28107,13 +29487,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[105071] = {
-		oxy_max = 0,
+		name = "Tennessee",
 		type = 5,
 		personality = 2,
-		backyard_speed = "0.23",
-		name = "Tennessee",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.23",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -28126,6 +29506,7 @@ pg.ship_data_statistics = {
 		skin_id = 105070,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 3,
 		attrs = {
@@ -28206,6 +29587,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -28228,13 +29614,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[105072] = {
-		oxy_max = 0,
+		name = "Tennessee",
 		type = 5,
 		personality = 2,
-		backyard_speed = "0.23",
-		name = "Tennessee",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.23",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -28247,6 +29633,7 @@ pg.ship_data_statistics = {
 		skin_id = 105070,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 3,
 		attrs = {
@@ -28331,6 +29718,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -28349,13 +29741,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[105073] = {
-		oxy_max = 0,
+		name = "Tennessee",
 		type = 5,
 		personality = 2,
-		backyard_speed = "0.23",
-		name = "Tennessee",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.23",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -28368,6 +29760,7 @@ pg.ship_data_statistics = {
 		skin_id = 105070,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 3,
 		attrs = {
@@ -28452,6 +29845,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -28470,13 +29868,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[105074] = {
-		oxy_max = 0,
+		name = "Tennessee",
 		type = 5,
 		personality = 2,
-		backyard_speed = "0.23",
-		name = "Tennessee",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.23",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -28489,6 +29887,7 @@ pg.ship_data_statistics = {
 		skin_id = 105070,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 3,
 		attrs = {
@@ -28573,6 +29972,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -28591,13 +29995,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[105081] = {
-		oxy_max = 0,
+		name = "California",
 		type = 5,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "California",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -28610,6 +30014,7 @@ pg.ship_data_statistics = {
 		skin_id = 105080,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 3,
 		attrs = {
@@ -28694,6 +30099,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -28712,13 +30122,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[105082] = {
-		oxy_max = 0,
+		name = "California",
 		type = 5,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "California",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -28731,6 +30141,7 @@ pg.ship_data_statistics = {
 		skin_id = 105080,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 3,
 		attrs = {
@@ -28815,6 +30226,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -28833,13 +30249,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[105083] = {
-		oxy_max = 0,
+		name = "California",
 		type = 5,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "California",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -28852,6 +30268,7 @@ pg.ship_data_statistics = {
 		skin_id = 105080,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 3,
 		attrs = {
@@ -28936,6 +30353,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -28954,13 +30376,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[105084] = {
-		oxy_max = 0,
+		name = "California",
 		type = 5,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "California",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -28973,6 +30395,7 @@ pg.ship_data_statistics = {
 		skin_id = 105080,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 3,
 		attrs = {
@@ -29057,6 +30480,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -29075,13 +30503,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[105091] = {
-		oxy_max = 0,
+		name = "Colorado",
 		type = 5,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Colorado",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -29094,6 +30522,7 @@ pg.ship_data_statistics = {
 		skin_id = 105090,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 3,
 		attrs = {
@@ -29178,6 +30607,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -29196,13 +30630,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[105092] = {
-		oxy_max = 0,
+		name = "Colorado",
 		type = 5,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Colorado",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -29215,6 +30649,7 @@ pg.ship_data_statistics = {
 		skin_id = 105090,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 3,
 		attrs = {
@@ -29299,6 +30734,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -29317,13 +30757,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[105093] = {
-		oxy_max = 0,
+		name = "Colorado",
 		type = 5,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Colorado",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -29336,6 +30776,7 @@ pg.ship_data_statistics = {
 		skin_id = 105090,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 3,
 		attrs = {
@@ -29420,6 +30861,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -29438,13 +30884,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[105094] = {
-		oxy_max = 0,
+		name = "Colorado",
 		type = 5,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Colorado",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -29457,6 +30903,7 @@ pg.ship_data_statistics = {
 		skin_id = 105090,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 3,
 		attrs = {
@@ -29541,6 +30988,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -29559,13 +31011,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[105101] = {
-		oxy_max = 0,
+		name = "Maryland",
 		type = 5,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Maryland",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -29578,6 +31030,7 @@ pg.ship_data_statistics = {
 		skin_id = 105100,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 3,
 		attrs = {
@@ -29662,6 +31115,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -29680,13 +31138,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[105102] = {
-		oxy_max = 0,
+		name = "Maryland",
 		type = 5,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Maryland",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -29699,6 +31157,7 @@ pg.ship_data_statistics = {
 		skin_id = 105100,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 3,
 		attrs = {
@@ -29783,6 +31242,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -29801,13 +31265,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[105103] = {
-		oxy_max = 0,
+		name = "Maryland",
 		type = 5,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Maryland",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -29820,6 +31284,7 @@ pg.ship_data_statistics = {
 		skin_id = 105100,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 3,
 		attrs = {
@@ -29904,6 +31369,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -29922,13 +31392,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[105104] = {
-		oxy_max = 0,
+		name = "Maryland",
 		type = 5,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Maryland",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -29941,6 +31411,7 @@ pg.ship_data_statistics = {
 		skin_id = 105100,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 3,
 		attrs = {
@@ -30025,6 +31496,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -30043,13 +31519,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[105111] = {
-		oxy_max = 0,
+		name = "West Virginia",
 		type = 5,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "West Virginia",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -30062,6 +31538,7 @@ pg.ship_data_statistics = {
 		skin_id = 105110,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 3,
 		attrs = {
@@ -30146,6 +31623,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -30164,13 +31646,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[105112] = {
-		oxy_max = 0,
+		name = "West Virginia",
 		type = 5,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "West Virginia",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -30183,6 +31665,7 @@ pg.ship_data_statistics = {
 		skin_id = 105110,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 3,
 		attrs = {
@@ -30267,6 +31750,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -30285,13 +31773,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[105113] = {
-		oxy_max = 0,
+		name = "West Virginia",
 		type = 5,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "West Virginia",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -30304,6 +31792,7 @@ pg.ship_data_statistics = {
 		skin_id = 105110,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 3,
 		attrs = {
@@ -30388,6 +31877,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -30406,13 +31900,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[105114] = {
-		oxy_max = 0,
+		name = "West Virginia",
 		type = 5,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "West Virginia",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -30425,6 +31919,7 @@ pg.ship_data_statistics = {
 		skin_id = 105110,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 3,
 		attrs = {
@@ -30509,6 +32004,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -30527,13 +32027,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[105121] = {
-		oxy_max = 0,
+		name = "North Carolina",
 		type = 5,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "North Carolina",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -30546,6 +32046,7 @@ pg.ship_data_statistics = {
 		skin_id = 105120,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 3,
 		attrs = {
@@ -30630,6 +32131,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -30648,13 +32154,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[105122] = {
-		oxy_max = 0,
+		name = "North Carolina",
 		type = 5,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "North Carolina",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -30667,6 +32173,7 @@ pg.ship_data_statistics = {
 		skin_id = 105120,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 3,
 		attrs = {
@@ -30751,6 +32258,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -30769,13 +32281,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[105123] = {
-		oxy_max = 0,
+		name = "North Carolina",
 		type = 5,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "North Carolina",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -30788,6 +32300,7 @@ pg.ship_data_statistics = {
 		skin_id = 105120,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 3,
 		attrs = {
@@ -30872,6 +32385,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -30890,13 +32408,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[105124] = {
-		oxy_max = 0,
+		name = "North Carolina",
 		type = 5,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "North Carolina",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 6,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -30909,6 +32427,7 @@ pg.ship_data_statistics = {
 		skin_id = 105120,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 3,
 		attrs = {
@@ -30993,6 +32512,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -31011,13 +32535,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[105131] = {
-		oxy_max = 0,
+		name = "Washington",
 		type = 5,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Washington",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -31030,6 +32554,7 @@ pg.ship_data_statistics = {
 		skin_id = 105130,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 3,
 		attrs = {
@@ -31114,6 +32639,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -31132,13 +32662,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[105132] = {
-		oxy_max = 0,
+		name = "Washington",
 		type = 5,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Washington",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -31151,6 +32681,7 @@ pg.ship_data_statistics = {
 		skin_id = 105130,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 3,
 		attrs = {
@@ -31235,6 +32766,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -31253,13 +32789,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[105133] = {
-		oxy_max = 0,
+		name = "Washington",
 		type = 5,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Washington",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -31272,6 +32808,7 @@ pg.ship_data_statistics = {
 		skin_id = 105130,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 3,
 		attrs = {
@@ -31356,6 +32893,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -31374,13 +32916,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[105134] = {
-		oxy_max = 0,
+		name = "Washington",
 		type = 5,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Washington",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 6,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -31393,6 +32935,7 @@ pg.ship_data_statistics = {
 		skin_id = 105130,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 3,
 		attrs = {
@@ -31477,6 +33020,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -31495,13 +33043,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[105141] = {
-		oxy_max = 0,
+		name = "South Dakota",
 		type = 5,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "South Dakota",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -31514,6 +33062,7 @@ pg.ship_data_statistics = {
 		skin_id = 105140,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 3,
 		attrs = {
@@ -31598,6 +33147,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -31616,13 +33170,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[105142] = {
-		oxy_max = 0,
+		name = "South Dakota",
 		type = 5,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "South Dakota",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -31635,6 +33189,7 @@ pg.ship_data_statistics = {
 		skin_id = 105140,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 3,
 		attrs = {
@@ -31719,6 +33274,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -31737,13 +33297,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[105143] = {
-		oxy_max = 0,
+		name = "South Dakota",
 		type = 5,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "South Dakota",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -31756,6 +33316,7 @@ pg.ship_data_statistics = {
 		skin_id = 105140,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 3,
 		attrs = {
@@ -31840,6 +33401,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -31858,13 +33424,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[105144] = {
-		oxy_max = 0,
+		name = "South Dakota",
 		type = 5,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "South Dakota",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 6,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -31877,6 +33443,7 @@ pg.ship_data_statistics = {
 		skin_id = 105140,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 3,
 		attrs = {
@@ -31961,6 +33528,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -31979,13 +33551,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[106011] = {
-		oxy_max = 0,
+		name = "Long Island",
 		type = 6,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Long Island",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -31998,6 +33570,7 @@ pg.ship_data_statistics = {
 		skin_id = 106010,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 2,
 		attrs = {
@@ -32081,6 +33654,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -32099,13 +33677,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[106012] = {
-		oxy_max = 0,
+		name = "Long Island",
 		type = 6,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Long Island",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -32118,6 +33696,7 @@ pg.ship_data_statistics = {
 		skin_id = 106010,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 2,
 		attrs = {
@@ -32201,6 +33780,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -32219,13 +33803,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[106013] = {
-		oxy_max = 0,
+		name = "Long Island",
 		type = 6,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Long Island",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -32238,6 +33822,7 @@ pg.ship_data_statistics = {
 		skin_id = 106010,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 2,
 		attrs = {
@@ -32321,6 +33906,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -32339,13 +33929,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[106014] = {
-		oxy_max = 0,
+		name = "Long Island",
 		type = 6,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Long Island",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -32358,6 +33948,7 @@ pg.ship_data_statistics = {
 		skin_id = 106010,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 2,
 		attrs = {
@@ -32441,6 +34032,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -32459,13 +34055,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[106021] = {
-		oxy_max = 0,
+		name = "Bogue",
 		type = 6,
 		personality = 2,
-		backyard_speed = "0.45",
-		name = "Bogue",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.45",
 		star = 1,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -32478,6 +34074,7 @@ pg.ship_data_statistics = {
 		skin_id = 106020,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 2,
 		attrs = {
@@ -32561,6 +34158,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -32579,13 +34181,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[106022] = {
-		oxy_max = 0,
+		name = "Bogue",
 		type = 6,
 		personality = 2,
-		backyard_speed = "0.45",
-		name = "Bogue",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.45",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -32598,6 +34200,7 @@ pg.ship_data_statistics = {
 		skin_id = 106020,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 2,
 		attrs = {
@@ -32681,6 +34284,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -32699,13 +34307,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[106023] = {
-		oxy_max = 0,
+		name = "Bogue",
 		type = 6,
 		personality = 2,
-		backyard_speed = "0.45",
-		name = "Bogue",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.45",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -32718,6 +34326,7 @@ pg.ship_data_statistics = {
 		skin_id = 106020,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 2,
 		attrs = {
@@ -32801,6 +34410,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -32819,13 +34433,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[106024] = {
-		oxy_max = 0,
+		name = "Bogue",
 		type = 6,
 		personality = 2,
-		backyard_speed = "0.45",
-		name = "Bogue",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.45",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -32838,6 +34452,7 @@ pg.ship_data_statistics = {
 		skin_id = 106020,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 2,
 		attrs = {
@@ -32921,6 +34536,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -32939,13 +34559,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[107011] = {
-		oxy_max = 0,
+		name = "Langley",
 		type = 6,
 		personality = 2,
-		backyard_speed = "0.25",
-		name = "Langley",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.25",
 		star = 1,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -32958,6 +34578,7 @@ pg.ship_data_statistics = {
 		skin_id = 107010,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 2,
 		attrs = {
@@ -33041,6 +34662,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -33059,13 +34685,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[107012] = {
-		oxy_max = 0,
+		name = "Langley",
 		type = 6,
 		personality = 2,
-		backyard_speed = "0.25",
-		name = "Langley",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.25",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -33078,6 +34704,7 @@ pg.ship_data_statistics = {
 		skin_id = 107010,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 2,
 		attrs = {
@@ -33161,6 +34788,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -33179,13 +34811,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[107013] = {
-		oxy_max = 0,
+		name = "Langley",
 		type = 6,
 		personality = 2,
-		backyard_speed = "0.25",
-		name = "Langley",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.25",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -33198,6 +34830,7 @@ pg.ship_data_statistics = {
 		skin_id = 107010,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 2,
 		attrs = {
@@ -33281,6 +34914,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -33299,13 +34937,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[107014] = {
-		oxy_max = 0,
+		name = "Langley",
 		type = 6,
 		personality = 2,
-		backyard_speed = "0.25",
-		name = "Langley",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.25",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -33318,6 +34956,7 @@ pg.ship_data_statistics = {
 		skin_id = 107010,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 2,
 		attrs = {
@@ -33401,6 +35040,11 @@ pg.ship_data_statistics = {
 			3,
 			2
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -33419,13 +35063,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[107021] = {
-		oxy_max = 0,
+		name = "Lexington",
 		type = 7,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Lexington",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -33438,6 +35082,7 @@ pg.ship_data_statistics = {
 		skin_id = 107020,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 2,
 		attrs = {
@@ -33518,6 +35163,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -33540,13 +35190,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[107022] = {
-		oxy_max = 0,
+		name = "Lexington",
 		type = 7,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Lexington",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -33559,6 +35209,7 @@ pg.ship_data_statistics = {
 		skin_id = 107020,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 2,
 		attrs = {
@@ -33643,6 +35294,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -33661,13 +35317,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[107023] = {
-		oxy_max = 0,
+		name = "Lexington",
 		type = 7,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Lexington",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -33680,6 +35336,7 @@ pg.ship_data_statistics = {
 		skin_id = 107020,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 2,
 		attrs = {
@@ -33764,6 +35421,11 @@ pg.ship_data_statistics = {
 			2,
 			2
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -33782,13 +35444,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[107024] = {
-		oxy_max = 0,
+		name = "Lexington",
 		type = 7,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Lexington",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -33801,6 +35463,7 @@ pg.ship_data_statistics = {
 		skin_id = 107020,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 2,
 		attrs = {
@@ -33885,6 +35548,11 @@ pg.ship_data_statistics = {
 			3,
 			3
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -33903,13 +35571,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[107031] = {
-		oxy_max = 0,
+		name = "Saratoga",
 		type = 7,
 		personality = 2,
-		backyard_speed = "1",
-		name = "Saratoga",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "1",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -33922,6 +35590,7 @@ pg.ship_data_statistics = {
 		skin_id = 107030,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 2,
 		attrs = {
@@ -34006,6 +35675,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -34024,13 +35698,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[107032] = {
-		oxy_max = 0,
+		name = "Saratoga",
 		type = 7,
 		personality = 2,
-		backyard_speed = "1",
-		name = "Saratoga",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "1",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -34043,6 +35717,7 @@ pg.ship_data_statistics = {
 		skin_id = 107030,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 2,
 		attrs = {
@@ -34127,6 +35802,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -34145,13 +35825,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[107033] = {
-		oxy_max = 0,
+		name = "Saratoga",
 		type = 7,
 		personality = 2,
-		backyard_speed = "1",
-		name = "Saratoga",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "1",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -34164,6 +35844,7 @@ pg.ship_data_statistics = {
 		skin_id = 107030,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 2,
 		attrs = {
@@ -34248,6 +35929,11 @@ pg.ship_data_statistics = {
 			2,
 			2
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -34266,13 +35952,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[107034] = {
-		oxy_max = 0,
+		name = "Saratoga",
 		type = 7,
 		personality = 2,
-		backyard_speed = "1",
-		name = "Saratoga",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "1",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -34285,6 +35971,7 @@ pg.ship_data_statistics = {
 		skin_id = 107030,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 2,
 		attrs = {
@@ -34369,6 +36056,11 @@ pg.ship_data_statistics = {
 			3,
 			3
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -34387,13 +36079,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[107041] = {
-		oxy_max = 0,
+		name = "Ranger",
 		type = 6,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Ranger",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 1,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -34406,6 +36098,7 @@ pg.ship_data_statistics = {
 		skin_id = 107040,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 2,
 		attrs = {
@@ -34489,6 +36182,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -34507,13 +36205,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[107042] = {
-		oxy_max = 0,
+		name = "Ranger",
 		type = 6,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Ranger",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -34526,6 +36224,7 @@ pg.ship_data_statistics = {
 		skin_id = 107040,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 2,
 		attrs = {
@@ -34609,6 +36308,11 @@ pg.ship_data_statistics = {
 			2,
 			2
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -34627,13 +36331,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[107043] = {
-		oxy_max = 0,
+		name = "Ranger",
 		type = 6,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Ranger",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -34646,6 +36350,7 @@ pg.ship_data_statistics = {
 		skin_id = 107040,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 2,
 		attrs = {
@@ -34729,6 +36434,11 @@ pg.ship_data_statistics = {
 			2,
 			2
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -34747,13 +36457,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[107044] = {
-		oxy_max = 0,
+		name = "Ranger",
 		type = 6,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Ranger",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -34766,6 +36476,7 @@ pg.ship_data_statistics = {
 		skin_id = 107040,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 2,
 		attrs = {
@@ -34849,6 +36560,11 @@ pg.ship_data_statistics = {
 			3,
 			3
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -34867,13 +36583,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[107051] = {
-		oxy_max = 0,
+		name = "Yorktown",
 		type = 7,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Yorktown",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -34886,6 +36602,7 @@ pg.ship_data_statistics = {
 		skin_id = 107050,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 2,
 		attrs = {
@@ -34970,6 +36687,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -34988,13 +36710,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[107052] = {
-		oxy_max = 0,
+		name = "Yorktown",
 		type = 7,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Yorktown",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -35007,6 +36729,7 @@ pg.ship_data_statistics = {
 		skin_id = 107050,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 2,
 		attrs = {
@@ -35091,6 +36814,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -35109,13 +36837,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[107053] = {
-		oxy_max = 0,
+		name = "Yorktown",
 		type = 7,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Yorktown",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -35128,6 +36856,7 @@ pg.ship_data_statistics = {
 		skin_id = 107050,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 2,
 		attrs = {
@@ -35212,6 +36941,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -35230,13 +36964,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[107054] = {
-		oxy_max = 0,
+		name = "Yorktown",
 		type = 7,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Yorktown",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -35249,6 +36983,7 @@ pg.ship_data_statistics = {
 		skin_id = 107050,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 2,
 		attrs = {
@@ -35333,6 +37068,11 @@ pg.ship_data_statistics = {
 			3,
 			2
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -35351,13 +37091,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[107061] = {
-		oxy_max = 0,
+		name = "Enterprise",
 		type = 7,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Enterprise",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -35370,6 +37110,7 @@ pg.ship_data_statistics = {
 		skin_id = 107060,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 2,
 		attrs = {
@@ -35454,6 +37195,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -35472,13 +37218,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[107062] = {
-		oxy_max = 0,
+		name = "Enterprise",
 		type = 7,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Enterprise",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -35491,6 +37237,7 @@ pg.ship_data_statistics = {
 		skin_id = 107060,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 2,
 		attrs = {
@@ -35575,6 +37322,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -35593,13 +37345,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[107063] = {
-		oxy_max = 0,
+		name = "Enterprise",
 		type = 7,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Enterprise",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -35612,6 +37364,7 @@ pg.ship_data_statistics = {
 		skin_id = 107060,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 2,
 		attrs = {
@@ -35696,6 +37449,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -35714,13 +37472,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[107064] = {
-		oxy_max = 0,
+		name = "Enterprise",
 		type = 7,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Enterprise",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 6,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -35733,6 +37491,7 @@ pg.ship_data_statistics = {
 		skin_id = 107060,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 2,
 		attrs = {
@@ -35817,6 +37576,11 @@ pg.ship_data_statistics = {
 			3,
 			2
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -35835,13 +37599,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[107071] = {
-		oxy_max = 0,
+		name = "Hornet",
 		type = 7,
 		personality = 2,
-		backyard_speed = "1",
-		name = "Hornet",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "1",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -35854,6 +37618,7 @@ pg.ship_data_statistics = {
 		skin_id = 107070,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 2,
 		attrs = {
@@ -35938,6 +37703,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -35956,13 +37726,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[107072] = {
-		oxy_max = 0,
+		name = "Hornet",
 		type = 7,
 		personality = 2,
-		backyard_speed = "1",
-		name = "Hornet",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "1",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -35975,6 +37745,7 @@ pg.ship_data_statistics = {
 		skin_id = 107070,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 2,
 		attrs = {
@@ -36059,6 +37830,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -36077,13 +37853,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[107073] = {
-		oxy_max = 0,
+		name = "Hornet",
 		type = 7,
 		personality = 2,
-		backyard_speed = "1",
-		name = "Hornet",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "1",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -36096,6 +37872,7 @@ pg.ship_data_statistics = {
 		skin_id = 107070,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 2,
 		attrs = {
@@ -36180,6 +37957,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -36198,13 +37980,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[107074] = {
-		oxy_max = 0,
+		name = "Hornet",
 		type = 7,
 		personality = 2,
-		backyard_speed = "1",
-		name = "Hornet",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "1",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -36217,6 +37999,7 @@ pg.ship_data_statistics = {
 		skin_id = 107070,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 2,
 		attrs = {
@@ -36301,6 +38084,11 @@ pg.ship_data_statistics = {
 			3,
 			2
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -36319,13 +38107,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[107081] = {
-		oxy_max = 0,
+		name = "Wasp",
 		type = 7,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Wasp",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -36338,6 +38126,7 @@ pg.ship_data_statistics = {
 		skin_id = 107080,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 2,
 		attrs = {
@@ -36422,6 +38211,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -36440,13 +38234,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[107082] = {
-		oxy_max = 0,
+		name = "Wasp",
 		type = 7,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Wasp",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -36459,6 +38253,7 @@ pg.ship_data_statistics = {
 		skin_id = 107080,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 2,
 		attrs = {
@@ -36543,6 +38338,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -36561,13 +38361,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[107083] = {
-		oxy_max = 0,
+		name = "Wasp",
 		type = 7,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Wasp",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -36580,6 +38380,7 @@ pg.ship_data_statistics = {
 		skin_id = 107080,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 2,
 		attrs = {
@@ -36664,6 +38465,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -36682,13 +38488,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[107084] = {
-		oxy_max = 0,
+		name = "Wasp",
 		type = 7,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Wasp",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -36701,6 +38507,7 @@ pg.ship_data_statistics = {
 		skin_id = 107080,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 2,
 		attrs = {
@@ -36785,6 +38592,11 @@ pg.ship_data_statistics = {
 			3,
 			2
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -36803,13 +38615,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[108011] = {
-		oxy_max = 243,
+		name = "Dace",
 		type = 8,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Dace",
+		oxy_max = 243,
 		oxy_cost = 10,
 		huntingrange_level = 1,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -36822,6 +38634,7 @@ pg.ship_data_statistics = {
 		skin_id = 108010,
 		painting_dir = 1,
 		attack_duration = 5,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -36902,6 +38715,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -37029,13 +38847,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[108012] = {
-		oxy_max = 243,
+		name = "Dace",
 		type = 8,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Dace",
+		oxy_max = 243,
 		oxy_cost = 10,
 		huntingrange_level = 1,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -37048,6 +38866,7 @@ pg.ship_data_statistics = {
 		skin_id = 108010,
 		painting_dir = 1,
 		attack_duration = 5,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -37128,6 +38947,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -37255,13 +39079,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[108013] = {
-		oxy_max = 243,
+		name = "Dace",
 		type = 8,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Dace",
+		oxy_max = 243,
 		oxy_cost = 10,
 		huntingrange_level = 2,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -37274,6 +39098,7 @@ pg.ship_data_statistics = {
 		skin_id = 108010,
 		painting_dir = 1,
 		attack_duration = 5,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -37356,6 +39181,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			2,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -37481,13 +39311,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[108014] = {
-		oxy_max = 243,
+		name = "Dace",
 		type = 8,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Dace",
+		oxy_max = 243,
 		oxy_cost = 10,
 		huntingrange_level = 2,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -37500,6 +39330,7 @@ pg.ship_data_statistics = {
 		skin_id = 108010,
 		painting_dir = 1,
 		attack_duration = 5,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -37582,6 +39413,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			2,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -37707,13 +39543,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[108021] = {
-		oxy_max = 243,
+		name = "Albacore ",
 		type = 8,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Albacore ",
+		oxy_max = 243,
 		oxy_cost = 10,
 		huntingrange_level = 1,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -37726,6 +39562,7 @@ pg.ship_data_statistics = {
 		skin_id = 108020,
 		painting_dir = 1,
 		attack_duration = 5,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -37806,6 +39643,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -37945,13 +39787,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[108022] = {
-		oxy_max = 243,
+		name = "Albacore ",
 		type = 8,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Albacore ",
+		oxy_max = 243,
 		oxy_cost = 10,
 		huntingrange_level = 1,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -37964,6 +39806,7 @@ pg.ship_data_statistics = {
 		skin_id = 108020,
 		painting_dir = 1,
 		attack_duration = 5,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -38044,6 +39887,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -38183,13 +40031,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[108023] = {
-		oxy_max = 243,
+		name = "Albacore ",
 		type = 8,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Albacore ",
+		oxy_max = 243,
 		oxy_cost = 10,
 		huntingrange_level = 2,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -38202,6 +40050,7 @@ pg.ship_data_statistics = {
 		skin_id = 108020,
 		painting_dir = 1,
 		attack_duration = 5,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -38284,6 +40133,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			2,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -38421,13 +40275,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[108024] = {
-		oxy_max = 243,
+		name = "Albacore ",
 		type = 8,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Albacore ",
+		oxy_max = 243,
 		oxy_cost = 10,
 		huntingrange_level = 2,
+		backyard_speed = "0.3",
 		star = 6,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -38440,6 +40294,7 @@ pg.ship_data_statistics = {
 		skin_id = 108020,
 		painting_dir = 1,
 		attack_duration = 5,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -38522,6 +40377,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			2,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -38659,13 +40519,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[112011] = {
-		oxy_max = 0,
+		name = "Vestal",
 		type = 12,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Vestal",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -38678,6 +40538,7 @@ pg.ship_data_statistics = {
 		skin_id = 112010,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -38762,6 +40623,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -38790,13 +40656,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[112012] = {
-		oxy_max = 0,
+		name = "Vestal",
 		type = 12,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Vestal",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -38809,6 +40675,7 @@ pg.ship_data_statistics = {
 		skin_id = 112010,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -38893,6 +40760,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -38921,13 +40793,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[112013] = {
-		oxy_max = 0,
+		name = "Vestal",
 		type = 12,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Vestal",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -38940,6 +40812,7 @@ pg.ship_data_statistics = {
 		skin_id = 112010,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -39024,6 +40897,11 @@ pg.ship_data_statistics = {
 			2,
 			2
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -39052,13 +40930,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[112014] = {
-		oxy_max = 0,
+		name = "Vestal",
 		type = 12,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Vestal",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -39071,6 +40949,7 @@ pg.ship_data_statistics = {
 		skin_id = 112010,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -39155,6 +41034,11 @@ pg.ship_data_statistics = {
 			2,
 			2
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -39183,13 +41067,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[201011] = {
-		oxy_max = 0,
+		name = "Amazon",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.34",
-		name = "Amazon",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.34",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -39202,6 +41086,7 @@ pg.ship_data_statistics = {
 		skin_id = 201010,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -39286,6 +41171,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -39304,13 +41194,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[201012] = {
-		oxy_max = 0,
+		name = "Amazon",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.34",
-		name = "Amazon",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.34",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -39323,6 +41213,7 @@ pg.ship_data_statistics = {
 		skin_id = 201010,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -39407,6 +41298,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -39425,13 +41321,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[201013] = {
-		oxy_max = 0,
+		name = "Amazon",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.34",
-		name = "Amazon",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.34",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -39444,6 +41340,7 @@ pg.ship_data_statistics = {
 		skin_id = 201010,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -39528,6 +41425,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -39546,13 +41448,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[201014] = {
-		oxy_max = 0,
+		name = "Amazon",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.34",
-		name = "Amazon",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.34",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -39565,6 +41467,7 @@ pg.ship_data_statistics = {
 		skin_id = 201010,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -39649,6 +41552,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -39667,13 +41575,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[201061] = {
-		oxy_max = 0,
+		name = "Beagle",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.15",
-		name = "Beagle",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.15",
 		star = 1,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -39686,6 +41594,7 @@ pg.ship_data_statistics = {
 		skin_id = 201060,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -39770,6 +41679,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -39788,13 +41702,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[201062] = {
-		oxy_max = 0,
+		name = "Beagle",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.15",
-		name = "Beagle",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.15",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -39807,6 +41721,7 @@ pg.ship_data_statistics = {
 		skin_id = 201060,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -39891,6 +41806,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -39909,13 +41829,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[201063] = {
-		oxy_max = 0,
+		name = "Beagle",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.15",
-		name = "Beagle",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.15",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -39928,6 +41848,7 @@ pg.ship_data_statistics = {
 		skin_id = 201060,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -40012,6 +41933,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -40030,13 +41956,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[201064] = {
-		oxy_max = 0,
+		name = "Beagle",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.15",
-		name = "Beagle",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.15",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -40049,6 +41975,7 @@ pg.ship_data_statistics = {
 		skin_id = 201060,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -40133,6 +42060,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -40151,13 +42083,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[201071] = {
-		oxy_max = 0,
+		name = "Bulldog",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.23",
-		name = "Bulldog",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.23",
 		star = 1,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -40170,6 +42102,7 @@ pg.ship_data_statistics = {
 		skin_id = 201070,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -40254,6 +42187,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -40272,13 +42210,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[201072] = {
-		oxy_max = 0,
+		name = "Bulldog",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.23",
-		name = "Bulldog",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.23",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -40291,6 +42229,7 @@ pg.ship_data_statistics = {
 		skin_id = 201070,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -40375,6 +42314,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -40393,13 +42337,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[201073] = {
-		oxy_max = 0,
+		name = "Bulldog",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.23",
-		name = "Bulldog",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.23",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -40412,6 +42356,7 @@ pg.ship_data_statistics = {
 		skin_id = 201070,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -40496,6 +42441,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -40514,13 +42464,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[201074] = {
-		oxy_max = 0,
+		name = "Bulldog",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.23",
-		name = "Bulldog",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.23",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -40533,6 +42483,7 @@ pg.ship_data_statistics = {
 		skin_id = 201070,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -40617,6 +42568,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -40635,13 +42591,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[201081] = {
-		oxy_max = 0,
+		name = "Comet",
 		type = 1,
 		personality = 2,
-		backyard_speed = "1",
-		name = "Comet",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "1",
 		star = 1,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -40654,6 +42610,7 @@ pg.ship_data_statistics = {
 		skin_id = 201080,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -40734,6 +42691,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -40756,13 +42718,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[201082] = {
-		oxy_max = 0,
+		name = "Comet",
 		type = 1,
 		personality = 2,
-		backyard_speed = "1",
-		name = "Comet",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "1",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -40775,6 +42737,7 @@ pg.ship_data_statistics = {
 		skin_id = 201080,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -40859,6 +42822,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -40877,13 +42845,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[201083] = {
-		oxy_max = 0,
+		name = "Comet",
 		type = 1,
 		personality = 2,
-		backyard_speed = "1",
-		name = "Comet",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "1",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -40896,6 +42864,7 @@ pg.ship_data_statistics = {
 		skin_id = 201080,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -40980,6 +42949,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -40998,13 +42972,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[201084] = {
-		oxy_max = 0,
+		name = "Comet",
 		type = 1,
 		personality = 2,
-		backyard_speed = "1",
-		name = "Comet",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "1",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -41017,6 +42991,7 @@ pg.ship_data_statistics = {
 		skin_id = 201080,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -41101,6 +43076,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -41119,13 +43099,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[201091] = {
-		oxy_max = 0,
+		name = "Crescent",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.45",
-		name = "Crescent",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.45",
 		star = 1,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -41138,6 +43118,7 @@ pg.ship_data_statistics = {
 		skin_id = 201090,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -41222,6 +43203,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -41240,13 +43226,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[201092] = {
-		oxy_max = 0,
+		name = "Crescent",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.45",
-		name = "Crescent",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.45",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -41259,6 +43245,7 @@ pg.ship_data_statistics = {
 		skin_id = 201090,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -41343,6 +43330,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -41361,13 +43353,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[201093] = {
-		oxy_max = 0,
+		name = "Crescent",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.45",
-		name = "Crescent",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.45",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -41380,6 +43372,7 @@ pg.ship_data_statistics = {
 		skin_id = 201090,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -41464,6 +43457,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -41482,13 +43480,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[201094] = {
-		oxy_max = 0,
+		name = "Crescent",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.45",
-		name = "Crescent",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.45",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -41501,6 +43499,7 @@ pg.ship_data_statistics = {
 		skin_id = 201090,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -41585,6 +43584,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -41603,13 +43607,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[201101] = {
-		oxy_max = 0,
+		name = "Cygnet",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Cygnet",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 1,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -41622,6 +43626,7 @@ pg.ship_data_statistics = {
 		skin_id = 201100,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -41706,6 +43711,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -41724,13 +43734,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[201102] = {
-		oxy_max = 0,
+		name = "Cygnet",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Cygnet",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -41743,6 +43753,7 @@ pg.ship_data_statistics = {
 		skin_id = 201100,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -41827,6 +43838,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -41845,13 +43861,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[201103] = {
-		oxy_max = 0,
+		name = "Cygnet",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Cygnet",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -41864,6 +43880,7 @@ pg.ship_data_statistics = {
 		skin_id = 201100,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -41948,6 +43965,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -41966,13 +43988,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[201104] = {
-		oxy_max = 0,
+		name = "Cygnet",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Cygnet",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -41985,6 +44007,7 @@ pg.ship_data_statistics = {
 		skin_id = 201100,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -42069,6 +44092,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -42087,13 +44115,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[201111] = {
-		oxy_max = 0,
+		name = "Foxhound",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.23",
-		name = "Foxhound",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.23",
 		star = 1,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -42106,6 +44134,7 @@ pg.ship_data_statistics = {
 		skin_id = 201110,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -42190,6 +44219,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -42208,13 +44242,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[201112] = {
-		oxy_max = 0,
+		name = "Foxhound",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.23",
-		name = "Foxhound",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.23",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -42227,6 +44261,7 @@ pg.ship_data_statistics = {
 		skin_id = 201110,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -42311,6 +44346,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -42329,13 +44369,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[201113] = {
-		oxy_max = 0,
+		name = "Foxhound",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.23",
-		name = "Foxhound",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.23",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -42348,6 +44388,7 @@ pg.ship_data_statistics = {
 		skin_id = 201110,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -42432,6 +44473,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -42450,13 +44496,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[201114] = {
-		oxy_max = 0,
+		name = "Foxhound",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.23",
-		name = "Foxhound",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.23",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -42469,6 +44515,7 @@ pg.ship_data_statistics = {
 		skin_id = 201110,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -42553,6 +44600,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -42571,13 +44623,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[201121] = {
-		oxy_max = 0,
+		name = "Fortune",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.13",
-		name = "Fortune",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.13",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -42590,6 +44642,7 @@ pg.ship_data_statistics = {
 		skin_id = 201120,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -42674,6 +44727,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -42692,13 +44750,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[201122] = {
-		oxy_max = 0,
+		name = "Fortune",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.13",
-		name = "Fortune",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.13",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -42711,6 +44769,7 @@ pg.ship_data_statistics = {
 		skin_id = 201120,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -42795,6 +44854,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -42813,13 +44877,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[201123] = {
-		oxy_max = 0,
+		name = "Fortune",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.13",
-		name = "Fortune",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.13",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -42832,6 +44896,7 @@ pg.ship_data_statistics = {
 		skin_id = 201120,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -42916,6 +44981,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -42934,13 +45004,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[201124] = {
-		oxy_max = 0,
+		name = "Fortune",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.13",
-		name = "Fortune",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.13",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -42953,6 +45023,7 @@ pg.ship_data_statistics = {
 		skin_id = 201120,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -43037,6 +45108,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -43055,13 +45131,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[201131] = {
-		oxy_max = 0,
+		name = "Grenville",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Grenville",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -43074,6 +45150,7 @@ pg.ship_data_statistics = {
 		skin_id = 201130,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -43158,6 +45235,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -43176,13 +45258,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[201132] = {
-		oxy_max = 0,
+		name = "Grenville",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Grenville",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -43195,6 +45277,7 @@ pg.ship_data_statistics = {
 		skin_id = 201130,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -43279,6 +45362,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -43297,13 +45385,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[201133] = {
-		oxy_max = 0,
+		name = "Grenville",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Grenville",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -43316,6 +45404,7 @@ pg.ship_data_statistics = {
 		skin_id = 201130,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -43400,6 +45489,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -43418,13 +45512,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[201134] = {
-		oxy_max = 0,
+		name = "Grenville",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Grenville",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -43437,6 +45531,7 @@ pg.ship_data_statistics = {
 		skin_id = 201130,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -43521,6 +45616,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -43539,13 +45639,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[201141] = {
-		oxy_max = 0,
+		name = "Glowworm",
 		type = 1,
 		personality = 2,
-		backyard_speed = "1",
-		name = "Glowworm",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "1",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -43558,6 +45658,7 @@ pg.ship_data_statistics = {
 		skin_id = 201140,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -43642,6 +45743,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -43660,13 +45766,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[201142] = {
-		oxy_max = 0,
+		name = "Glowworm",
 		type = 1,
 		personality = 2,
-		backyard_speed = "1",
-		name = "Glowworm",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "1",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -43679,6 +45785,7 @@ pg.ship_data_statistics = {
 		skin_id = 201140,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -43763,6 +45870,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -43781,13 +45893,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[201143] = {
-		oxy_max = 0,
+		name = "Glowworm",
 		type = 1,
 		personality = 2,
-		backyard_speed = "1",
-		name = "Glowworm",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "1",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -43800,6 +45912,7 @@ pg.ship_data_statistics = {
 		skin_id = 201140,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -43884,6 +45997,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -43902,13 +46020,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[201144] = {
-		oxy_max = 0,
+		name = "Glowworm",
 		type = 1,
 		personality = 2,
-		backyard_speed = "1",
-		name = "Glowworm",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "1",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -43921,6 +46039,7 @@ pg.ship_data_statistics = {
 		skin_id = 201140,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -44005,6 +46124,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -44023,13 +46147,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[201211] = {
-		oxy_max = 0,
+		name = "Javelin",
 		type = 1,
 		personality = 2,
-		backyard_speed = "1",
-		name = "Javelin",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "1",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -44042,6 +46166,7 @@ pg.ship_data_statistics = {
 		skin_id = 201210,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -44126,6 +46251,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -44146,13 +46276,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[201212] = {
-		oxy_max = 0,
+		name = "Javelin",
 		type = 1,
 		personality = 2,
-		backyard_speed = "1",
-		name = "Javelin",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "1",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -44165,6 +46295,7 @@ pg.ship_data_statistics = {
 		skin_id = 201210,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -44249,6 +46380,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -44269,13 +46405,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[201213] = {
-		oxy_max = 0,
+		name = "Javelin",
 		type = 1,
 		personality = 2,
-		backyard_speed = "1",
-		name = "Javelin",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "1",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -44288,6 +46424,7 @@ pg.ship_data_statistics = {
 		skin_id = 201210,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -44372,6 +46509,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -44392,13 +46534,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[201214] = {
-		oxy_max = 0,
+		name = "Javelin",
 		type = 1,
 		personality = 2,
-		backyard_speed = "1",
-		name = "Javelin",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "1",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -44411,6 +46553,7 @@ pg.ship_data_statistics = {
 		skin_id = 201210,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -44495,6 +46638,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -44515,13 +46663,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[201221] = {
-		oxy_max = 0,
+		name = "Juno",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Juno",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -44534,6 +46682,7 @@ pg.ship_data_statistics = {
 		skin_id = 201220,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -44618,6 +46767,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -44638,13 +46792,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[201222] = {
-		oxy_max = 0,
+		name = "Juno",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Juno",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -44657,6 +46811,7 @@ pg.ship_data_statistics = {
 		skin_id = 201220,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -44741,6 +46896,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -44761,13 +46921,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[201223] = {
-		oxy_max = 0,
+		name = "Juno",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Juno",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -44780,6 +46940,7 @@ pg.ship_data_statistics = {
 		skin_id = 201220,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -44864,6 +47025,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -44884,13 +47050,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[201224] = {
-		oxy_max = 0,
+		name = "Juno",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Juno",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -44903,6 +47069,7 @@ pg.ship_data_statistics = {
 		skin_id = 201220,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -44987,6 +47154,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -45007,13 +47179,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[201231] = {
-		oxy_max = 0,
+		name = "Vampire",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Vampire",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -45026,6 +47198,7 @@ pg.ship_data_statistics = {
 		skin_id = 201230,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -45110,6 +47283,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -45128,13 +47306,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[201232] = {
-		oxy_max = 0,
+		name = "Vampire",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Vampire",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -45147,6 +47325,7 @@ pg.ship_data_statistics = {
 		skin_id = 201230,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -45231,6 +47410,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -45249,13 +47433,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[201233] = {
-		oxy_max = 0,
+		name = "Vampire",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Vampire",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -45268,6 +47452,7 @@ pg.ship_data_statistics = {
 		skin_id = 201230,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -45352,6 +47537,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -45370,13 +47560,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[201234] = {
-		oxy_max = 0,
+		name = "Vampire",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Vampire",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -45389,6 +47579,7 @@ pg.ship_data_statistics = {
 		skin_id = 201230,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -45473,6 +47664,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -45491,13 +47687,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[201261] = {
-		oxy_max = 0,
+		name = "Matchless",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Matchless",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -45510,6 +47706,7 @@ pg.ship_data_statistics = {
 		skin_id = 201260,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -45594,6 +47791,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -45612,13 +47814,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[201262] = {
-		oxy_max = 0,
+		name = "Matchless",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Matchless",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -45631,6 +47833,7 @@ pg.ship_data_statistics = {
 		skin_id = 201260,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -45715,6 +47918,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -45733,13 +47941,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[201263] = {
-		oxy_max = 0,
+		name = "Matchless",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Matchless",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -45752,6 +47960,7 @@ pg.ship_data_statistics = {
 		skin_id = 201260,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -45836,6 +48045,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -45854,13 +48068,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[201264] = {
-		oxy_max = 0,
+		name = "Matchless",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Matchless",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -45873,6 +48087,7 @@ pg.ship_data_statistics = {
 		skin_id = 201260,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -45957,6 +48172,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -45975,13 +48195,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[201271] = {
-		oxy_max = 0,
+		name = "Musketeer",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Musketeer",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -45994,6 +48214,7 @@ pg.ship_data_statistics = {
 		skin_id = 201270,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -46078,6 +48299,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -46096,13 +48322,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[201272] = {
-		oxy_max = 0,
+		name = "Musketeer",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Musketeer",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -46115,6 +48341,7 @@ pg.ship_data_statistics = {
 		skin_id = 201270,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -46199,6 +48426,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -46217,13 +48449,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[201273] = {
-		oxy_max = 0,
+		name = "Musketeer",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Musketeer",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -46236,6 +48468,7 @@ pg.ship_data_statistics = {
 		skin_id = 201270,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -46320,6 +48553,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -46338,13 +48576,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[201274] = {
-		oxy_max = 0,
+		name = "Musketeer",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Musketeer",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -46357,6 +48595,7 @@ pg.ship_data_statistics = {
 		skin_id = 201270,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -46441,6 +48680,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -46459,13 +48703,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[202011] = {
-		oxy_max = 0,
+		name = "Leander",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Leander",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 1,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -46478,6 +48722,7 @@ pg.ship_data_statistics = {
 		skin_id = 202010,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -46564,6 +48809,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -46583,13 +48833,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[202012] = {
-		oxy_max = 0,
+		name = "Leander",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Leander",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -46602,6 +48852,7 @@ pg.ship_data_statistics = {
 		skin_id = 202010,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -46688,6 +48939,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -46707,13 +48963,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[202013] = {
-		oxy_max = 0,
+		name = "Leander",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Leander",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -46726,6 +48982,7 @@ pg.ship_data_statistics = {
 		skin_id = 202010,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -46812,6 +49069,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -46831,13 +49093,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[202014] = {
-		oxy_max = 0,
+		name = "Leander",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Leander",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -46850,6 +49112,7 @@ pg.ship_data_statistics = {
 		skin_id = 202010,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -46936,6 +49199,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -46955,13 +49223,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[202021] = {
-		oxy_max = 0,
+		name = "Achilles",
 		type = 2,
 		personality = 2,
-		backyard_speed = "1",
-		name = "Achilles",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "1",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -46974,6 +49242,7 @@ pg.ship_data_statistics = {
 		skin_id = 202020,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -47056,6 +49325,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -47079,13 +49353,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[202022] = {
-		oxy_max = 0,
+		name = "Achilles",
 		type = 2,
 		personality = 2,
-		backyard_speed = "1",
-		name = "Achilles",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "1",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -47098,6 +49372,7 @@ pg.ship_data_statistics = {
 		skin_id = 202020,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -47184,6 +49459,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -47203,13 +49483,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[202023] = {
-		oxy_max = 0,
+		name = "Achilles",
 		type = 2,
 		personality = 2,
-		backyard_speed = "1",
-		name = "Achilles",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "1",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -47222,6 +49502,7 @@ pg.ship_data_statistics = {
 		skin_id = 202020,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -47308,6 +49589,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -47327,13 +49613,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[202024] = {
-		oxy_max = 0,
+		name = "Achilles",
 		type = 2,
 		personality = 2,
-		backyard_speed = "1",
-		name = "Achilles",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "1",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -47346,6 +49632,7 @@ pg.ship_data_statistics = {
 		skin_id = 202020,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -47432,6 +49719,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -47451,13 +49743,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[202031] = {
-		oxy_max = 0,
+		name = "Ajax",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Ajax",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -47470,6 +49762,7 @@ pg.ship_data_statistics = {
 		skin_id = 202030,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -47556,6 +49849,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -47575,13 +49873,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[202032] = {
-		oxy_max = 0,
+		name = "Ajax",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Ajax",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -47594,6 +49892,7 @@ pg.ship_data_statistics = {
 		skin_id = 202030,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -47680,6 +49979,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -47699,13 +50003,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[202033] = {
-		oxy_max = 0,
+		name = "Ajax",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Ajax",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -47718,6 +50022,7 @@ pg.ship_data_statistics = {
 		skin_id = 202030,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -47804,6 +50109,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -47823,13 +50133,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[202034] = {
-		oxy_max = 0,
+		name = "Ajax",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Ajax",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -47842,6 +50152,7 @@ pg.ship_data_statistics = {
 		skin_id = 202030,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -47928,6 +50239,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -47947,13 +50263,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[202081] = {
-		oxy_max = 0,
+		name = "Sheffield",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Sheffield",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -47966,6 +50282,7 @@ pg.ship_data_statistics = {
 		skin_id = 202080,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -48052,6 +50369,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -48071,13 +50393,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[202082] = {
-		oxy_max = 0,
+		name = "Sheffield",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Sheffield",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -48090,6 +50412,7 @@ pg.ship_data_statistics = {
 		skin_id = 202080,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -48176,6 +50499,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -48195,13 +50523,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[202083] = {
-		oxy_max = 0,
+		name = "Sheffield",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Sheffield",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -48214,6 +50542,7 @@ pg.ship_data_statistics = {
 		skin_id = 202080,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -48300,6 +50629,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -48319,13 +50653,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[202084] = {
-		oxy_max = 0,
+		name = "Sheffield",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Sheffield",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -48338,6 +50672,7 @@ pg.ship_data_statistics = {
 		skin_id = 202080,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -48424,6 +50759,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -48443,13 +50783,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[202111] = {
-		oxy_max = 0,
+		name = "Edinburgh",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Edinburgh",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -48462,6 +50802,7 @@ pg.ship_data_statistics = {
 		skin_id = 202110,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -48548,6 +50889,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -48567,13 +50913,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[202112] = {
-		oxy_max = 0,
+		name = "Edinburgh",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Edinburgh",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -48586,6 +50932,7 @@ pg.ship_data_statistics = {
 		skin_id = 202110,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -48672,6 +51019,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -48691,13 +51043,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[202113] = {
-		oxy_max = 0,
+		name = "Edinburgh",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Edinburgh",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -48710,6 +51062,7 @@ pg.ship_data_statistics = {
 		skin_id = 202110,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -48796,6 +51149,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -48815,13 +51173,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[202114] = {
-		oxy_max = 0,
+		name = "Edinburgh",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Edinburgh",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -48834,6 +51192,7 @@ pg.ship_data_statistics = {
 		skin_id = 202110,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -48920,6 +51279,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -48939,13 +51303,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[202121] = {
-		oxy_max = 0,
+		name = "Belfast",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Belfast",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -48958,6 +51322,7 @@ pg.ship_data_statistics = {
 		skin_id = 202120,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -49044,6 +51409,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -49063,13 +51433,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[202122] = {
-		oxy_max = 0,
+		name = "Belfast",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Belfast",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -49082,6 +51452,7 @@ pg.ship_data_statistics = {
 		skin_id = 202120,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -49168,6 +51539,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -49187,13 +51563,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[202123] = {
-		oxy_max = 0,
+		name = "Belfast",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Belfast",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -49206,6 +51582,7 @@ pg.ship_data_statistics = {
 		skin_id = 202120,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -49292,6 +51669,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -49311,13 +51693,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[202124] = {
-		oxy_max = 0,
+		name = "Belfast",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Belfast",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 6,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -49330,6 +51712,7 @@ pg.ship_data_statistics = {
 		skin_id = 202120,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -49416,6 +51799,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -49435,13 +51823,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[202131] = {
-		oxy_max = 0,
+		name = "Arethusa",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Arethusa",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -49454,6 +51842,7 @@ pg.ship_data_statistics = {
 		skin_id = 202130,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -49540,6 +51929,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -49559,13 +51953,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[202132] = {
-		oxy_max = 0,
+		name = "Arethusa",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Arethusa",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -49578,6 +51972,7 @@ pg.ship_data_statistics = {
 		skin_id = 202130,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -49664,6 +52059,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -49683,13 +52083,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[202133] = {
-		oxy_max = 0,
+		name = "Arethusa",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Arethusa",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -49702,6 +52102,7 @@ pg.ship_data_statistics = {
 		skin_id = 202130,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -49788,6 +52189,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -49807,13 +52213,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[202134] = {
-		oxy_max = 0,
+		name = "Arethusa",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Arethusa",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -49826,6 +52232,7 @@ pg.ship_data_statistics = {
 		skin_id = 202130,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -49912,6 +52319,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -49931,13 +52343,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[202141] = {
-		oxy_max = 0,
+		name = "Galatea",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Galatea",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -49950,6 +52362,7 @@ pg.ship_data_statistics = {
 		skin_id = 202140,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -50036,6 +52449,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -50055,13 +52473,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[202142] = {
-		oxy_max = 0,
+		name = "Galatea",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Galatea",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -50074,6 +52492,7 @@ pg.ship_data_statistics = {
 		skin_id = 202140,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -50160,6 +52579,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -50179,13 +52603,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[202143] = {
-		oxy_max = 0,
+		name = "Galatea",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Galatea",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -50198,6 +52622,7 @@ pg.ship_data_statistics = {
 		skin_id = 202140,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -50284,6 +52709,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -50303,13 +52733,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[202144] = {
-		oxy_max = 0,
+		name = "Galatea",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Galatea",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -50322,6 +52752,7 @@ pg.ship_data_statistics = {
 		skin_id = 202140,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -50408,6 +52839,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -50427,13 +52863,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[202151] = {
-		oxy_max = 0,
+		name = "Aurora",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Aurora",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -50446,6 +52882,7 @@ pg.ship_data_statistics = {
 		skin_id = 202150,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -50532,6 +52969,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -50551,13 +52993,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[202152] = {
-		oxy_max = 0,
+		name = "Aurora",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Aurora",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -50570,6 +53012,7 @@ pg.ship_data_statistics = {
 		skin_id = 202150,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -50656,6 +53099,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -50675,13 +53123,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[202153] = {
-		oxy_max = 0,
+		name = "Aurora",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Aurora",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -50694,6 +53142,7 @@ pg.ship_data_statistics = {
 		skin_id = 202150,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -50780,6 +53229,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -50799,13 +53253,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[202154] = {
-		oxy_max = 0,
+		name = "Aurora",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Aurora",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -50818,6 +53272,7 @@ pg.ship_data_statistics = {
 		skin_id = 202150,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -50904,6 +53359,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -50923,13 +53383,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[202161] = {
-		oxy_max = 0,
+		name = "Fiji",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Fiji",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -50942,6 +53402,7 @@ pg.ship_data_statistics = {
 		skin_id = 202160,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -51028,6 +53489,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -51047,13 +53513,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[202162] = {
-		oxy_max = 0,
+		name = "Fiji",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Fiji",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -51066,6 +53532,7 @@ pg.ship_data_statistics = {
 		skin_id = 202160,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -51152,6 +53619,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -51171,13 +53643,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[202163] = {
-		oxy_max = 0,
+		name = "Fiji",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Fiji",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -51190,6 +53662,7 @@ pg.ship_data_statistics = {
 		skin_id = 202160,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -51276,6 +53749,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -51295,13 +53773,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[202164] = {
-		oxy_max = 0,
+		name = "Fiji",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Fiji",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -51314,6 +53792,7 @@ pg.ship_data_statistics = {
 		skin_id = 202160,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -51400,6 +53879,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -51419,13 +53903,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[202171] = {
-		oxy_max = 0,
+		name = "Jamaica",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Jamaica",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -51438,6 +53922,7 @@ pg.ship_data_statistics = {
 		skin_id = 202170,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -51524,6 +54009,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -51543,13 +54033,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[202172] = {
-		oxy_max = 0,
+		name = "Jamaica",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Jamaica",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -51562,6 +54052,7 @@ pg.ship_data_statistics = {
 		skin_id = 202170,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -51648,6 +54139,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -51667,13 +54163,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[202173] = {
-		oxy_max = 0,
+		name = "Jamaica",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Jamaica",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -51686,6 +54182,7 @@ pg.ship_data_statistics = {
 		skin_id = 202170,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -51772,6 +54269,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -51791,13 +54293,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[202174] = {
-		oxy_max = 0,
+		name = "Jamaica",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Jamaica",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -51810,6 +54312,7 @@ pg.ship_data_statistics = {
 		skin_id = 202170,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -51896,6 +54399,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -51915,13 +54423,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[202181] = {
-		oxy_max = 0,
+		name = "Little Bel ",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Belfast",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -51934,6 +54442,7 @@ pg.ship_data_statistics = {
 		skin_id = 202180,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -52020,6 +54529,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -52039,13 +54553,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[202182] = {
-		oxy_max = 0,
+		name = "Little Bel ",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Belfast",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -52058,6 +54572,7 @@ pg.ship_data_statistics = {
 		skin_id = 202180,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -52144,6 +54659,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -52163,13 +54683,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[202183] = {
-		oxy_max = 0,
+		name = "Little Bel ",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Belfast",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -52182,6 +54702,7 @@ pg.ship_data_statistics = {
 		skin_id = 202180,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -52268,6 +54789,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -52287,13 +54813,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[202184] = {
-		oxy_max = 0,
+		name = "Little Bel ",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Belfast",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -52306,6 +54832,7 @@ pg.ship_data_statistics = {
 		skin_id = 202180,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -52392,6 +54919,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -52411,13 +54943,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[202191] = {
-		oxy_max = 0,
+		name = "Newcastle ",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Newcastle ",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -52430,6 +54962,7 @@ pg.ship_data_statistics = {
 		skin_id = 202190,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -52516,6 +55049,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -52535,13 +55073,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[202192] = {
-		oxy_max = 0,
+		name = "Newcastle ",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Newcastle ",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -52554,6 +55092,7 @@ pg.ship_data_statistics = {
 		skin_id = 202190,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -52640,6 +55179,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -52659,13 +55203,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[202193] = {
-		oxy_max = 0,
+		name = "Newcastle ",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Newcastle ",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -52678,6 +55222,7 @@ pg.ship_data_statistics = {
 		skin_id = 202190,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -52764,6 +55309,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -52783,13 +55333,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[202194] = {
-		oxy_max = 0,
+		name = "Newcastle ",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Newcastle ",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -52802,6 +55352,7 @@ pg.ship_data_statistics = {
 		skin_id = 202190,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -52888,6 +55439,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -52907,13 +55463,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[202211] = {
-		oxy_max = 0,
+		name = "Curacoa",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Curacoa",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -52926,6 +55482,7 @@ pg.ship_data_statistics = {
 		skin_id = 202210,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -53013,6 +55570,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -53032,13 +55594,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[202212] = {
-		oxy_max = 0,
+		name = "Curacoa",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Curacoa",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -53051,6 +55613,7 @@ pg.ship_data_statistics = {
 		skin_id = 202210,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -53138,6 +55701,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -53157,13 +55725,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[202213] = {
-		oxy_max = 0,
+		name = "Curacoa",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Curacoa",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -53176,6 +55744,7 @@ pg.ship_data_statistics = {
 		skin_id = 202210,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -53263,6 +55832,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -53282,13 +55856,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[202214] = {
-		oxy_max = 0,
+		name = "Curacoa",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Curacoa",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -53301,6 +55875,7 @@ pg.ship_data_statistics = {
 		skin_id = 202210,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -53388,6 +55963,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -53407,13 +55987,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[202221] = {
-		oxy_max = 0,
+		name = "Curlew",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Curlew",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -53426,6 +56006,7 @@ pg.ship_data_statistics = {
 		skin_id = 202220,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -53513,6 +56094,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -53532,13 +56118,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[202222] = {
-		oxy_max = 0,
+		name = "Curlew",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Curlew",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -53551,6 +56137,7 @@ pg.ship_data_statistics = {
 		skin_id = 202220,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -53638,6 +56225,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -53657,13 +56249,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[202223] = {
-		oxy_max = 0,
+		name = "Curlew",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Curlew",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -53676,6 +56268,7 @@ pg.ship_data_statistics = {
 		skin_id = 202220,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -53763,6 +56356,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -53782,13 +56380,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[202224] = {
-		oxy_max = 0,
+		name = "Curlew",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Curlew",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -53801,6 +56399,7 @@ pg.ship_data_statistics = {
 		skin_id = 202220,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -53888,6 +56487,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -53907,13 +56511,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[202201] = {
-		oxy_max = 0,
+		name = "Sirius",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Sirius",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -53926,6 +56530,7 @@ pg.ship_data_statistics = {
 		skin_id = 202200,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -54012,6 +56617,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -54031,13 +56641,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[202202] = {
-		oxy_max = 0,
+		name = "Sirius",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Sirius",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -54050,6 +56660,7 @@ pg.ship_data_statistics = {
 		skin_id = 202200,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -54136,6 +56747,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -54155,13 +56771,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[202203] = {
-		oxy_max = 0,
+		name = "Sirius",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Sirius",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -54174,6 +56790,7 @@ pg.ship_data_statistics = {
 		skin_id = 202200,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -54260,6 +56877,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -54279,13 +56901,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[202204] = {
-		oxy_max = 0,
+		name = "Sirius",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Sirius",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 6,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -54298,6 +56920,7 @@ pg.ship_data_statistics = {
 		skin_id = 202200,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -54384,6 +57007,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -54403,13 +57031,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[203011] = {
-		oxy_max = 0,
+		name = "London",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "London",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -54422,6 +57050,7 @@ pg.ship_data_statistics = {
 		skin_id = 203010,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -54507,6 +57136,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -54526,13 +57160,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[203012] = {
-		oxy_max = 0,
+		name = "London",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "London",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -54545,6 +57179,7 @@ pg.ship_data_statistics = {
 		skin_id = 203010,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -54630,6 +57265,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -54649,13 +57289,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[203013] = {
-		oxy_max = 0,
+		name = "London",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "London",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -54668,6 +57308,7 @@ pg.ship_data_statistics = {
 		skin_id = 203010,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -54753,6 +57394,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -54772,13 +57418,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[203014] = {
-		oxy_max = 0,
+		name = "London",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "London",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -54791,6 +57437,7 @@ pg.ship_data_statistics = {
 		skin_id = 203010,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -54876,6 +57523,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -54895,13 +57547,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[203021] = {
-		oxy_max = 0,
+		name = "Shropshire",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.23",
-		name = "Shropshire",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.23",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -54914,6 +57566,7 @@ pg.ship_data_statistics = {
 		skin_id = 203020,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -54999,6 +57652,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -55018,13 +57676,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[203022] = {
-		oxy_max = 0,
+		name = "Shropshire",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.23",
-		name = "Shropshire",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.23",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -55037,6 +57695,7 @@ pg.ship_data_statistics = {
 		skin_id = 203020,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -55122,6 +57781,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -55141,13 +57805,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[203023] = {
-		oxy_max = 0,
+		name = "Shropshire",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.23",
-		name = "Shropshire",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.23",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -55160,6 +57824,7 @@ pg.ship_data_statistics = {
 		skin_id = 203020,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -55245,6 +57910,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -55264,13 +57934,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[203024] = {
-		oxy_max = 0,
+		name = "Shropshire",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.23",
-		name = "Shropshire",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.23",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -55283,6 +57953,7 @@ pg.ship_data_statistics = {
 		skin_id = 203020,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -55368,6 +58039,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -55387,13 +58063,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[203031] = {
-		oxy_max = 0,
+		name = "Kent",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Kent",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -55406,6 +58082,7 @@ pg.ship_data_statistics = {
 		skin_id = 203030,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -55491,6 +58168,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -55510,13 +58192,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[203032] = {
-		oxy_max = 0,
+		name = "Kent",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Kent",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -55529,6 +58211,7 @@ pg.ship_data_statistics = {
 		skin_id = 203030,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -55614,6 +58297,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -55633,13 +58321,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[203033] = {
-		oxy_max = 0,
+		name = "Kent",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Kent",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -55652,6 +58340,7 @@ pg.ship_data_statistics = {
 		skin_id = 203030,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -55737,6 +58426,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -55756,13 +58450,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[203034] = {
-		oxy_max = 0,
+		name = "Kent",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Kent",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -55775,6 +58469,7 @@ pg.ship_data_statistics = {
 		skin_id = 203030,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -55860,6 +58555,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -55879,13 +58579,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[203041] = {
-		oxy_max = 0,
+		name = "Suffolk",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Suffolk",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -55898,6 +58598,7 @@ pg.ship_data_statistics = {
 		skin_id = 203040,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -55983,6 +58684,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -56002,13 +58708,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[203042] = {
-		oxy_max = 0,
+		name = "Suffolk",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Suffolk",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -56021,6 +58727,7 @@ pg.ship_data_statistics = {
 		skin_id = 203040,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -56106,6 +58813,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -56125,13 +58837,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[203043] = {
-		oxy_max = 0,
+		name = "Suffolk",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Suffolk",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -56144,6 +58856,7 @@ pg.ship_data_statistics = {
 		skin_id = 203040,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -56229,6 +58942,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -56248,13 +58966,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[203044] = {
-		oxy_max = 0,
+		name = "Suffolk",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Suffolk",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -56267,6 +58985,7 @@ pg.ship_data_statistics = {
 		skin_id = 203040,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -56352,6 +59071,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -56371,13 +59095,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[203051] = {
-		oxy_max = 0,
+		name = "Norfolk",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.45",
-		name = "Norfolk",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.45",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -56390,6 +59114,7 @@ pg.ship_data_statistics = {
 		skin_id = 203050,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 2,
 		attrs = {
@@ -56475,6 +59200,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -56494,13 +59224,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[203052] = {
-		oxy_max = 0,
+		name = "Norfolk",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.45",
-		name = "Norfolk",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.45",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -56513,6 +59243,7 @@ pg.ship_data_statistics = {
 		skin_id = 203050,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 2,
 		attrs = {
@@ -56598,6 +59329,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -56617,13 +59353,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[203053] = {
-		oxy_max = 0,
+		name = "Norfolk",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.45",
-		name = "Norfolk",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.45",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -56636,6 +59372,7 @@ pg.ship_data_statistics = {
 		skin_id = 203050,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 2,
 		attrs = {
@@ -56721,6 +59458,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -56740,13 +59482,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[203054] = {
-		oxy_max = 0,
+		name = "Norfolk",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.45",
-		name = "Norfolk",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.45",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -56759,6 +59501,7 @@ pg.ship_data_statistics = {
 		skin_id = 203050,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 2,
 		attrs = {
@@ -56844,6 +59587,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -56863,13 +59611,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[203061] = {
-		oxy_max = 0,
+		name = "Dorsetshire",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Dorsetshire",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -56882,6 +59630,7 @@ pg.ship_data_statistics = {
 		skin_id = 203060,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 2,
 		attrs = {
@@ -56967,6 +59716,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -56986,13 +59740,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[203062] = {
-		oxy_max = 0,
+		name = "Dorsetshire",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Dorsetshire",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -57005,6 +59759,7 @@ pg.ship_data_statistics = {
 		skin_id = 203060,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 2,
 		attrs = {
@@ -57090,6 +59845,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -57109,13 +59869,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[203063] = {
-		oxy_max = 0,
+		name = "Dorsetshire",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Dorsetshire",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -57128,6 +59888,7 @@ pg.ship_data_statistics = {
 		skin_id = 203060,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 2,
 		attrs = {
@@ -57213,6 +59974,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -57232,13 +59998,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[203064] = {
-		oxy_max = 0,
+		name = "Dorsetshire",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Dorsetshire",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -57251,6 +60017,7 @@ pg.ship_data_statistics = {
 		skin_id = 203060,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 2,
 		attrs = {
@@ -57336,6 +60103,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -57355,13 +60127,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[203071] = {
-		oxy_max = 0,
+		name = "York",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.4",
-		name = "York",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.4",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -57374,6 +60146,7 @@ pg.ship_data_statistics = {
 		skin_id = 203070,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 2,
 		attrs = {
@@ -57459,6 +60232,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -57478,13 +60256,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[203072] = {
-		oxy_max = 0,
+		name = "York",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.4",
-		name = "York",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.4",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -57497,6 +60275,7 @@ pg.ship_data_statistics = {
 		skin_id = 203070,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 2,
 		attrs = {
@@ -57582,6 +60361,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -57601,13 +60385,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[203073] = {
-		oxy_max = 0,
+		name = "York",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.4",
-		name = "York",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.4",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -57620,6 +60404,7 @@ pg.ship_data_statistics = {
 		skin_id = 203070,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 2,
 		attrs = {
@@ -57705,6 +60490,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -57724,13 +60514,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[203074] = {
-		oxy_max = 0,
+		name = "York",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.4",
-		name = "York",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.4",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -57743,6 +60533,7 @@ pg.ship_data_statistics = {
 		skin_id = 203070,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 2,
 		attrs = {
@@ -57828,6 +60619,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -57847,13 +60643,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[203081] = {
-		oxy_max = 0,
+		name = "Exeter",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Exeter",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -57866,6 +60662,7 @@ pg.ship_data_statistics = {
 		skin_id = 203080,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 2,
 		attrs = {
@@ -57951,6 +60748,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -57970,13 +60772,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[203082] = {
-		oxy_max = 0,
+		name = "Exeter",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Exeter",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -57989,6 +60791,7 @@ pg.ship_data_statistics = {
 		skin_id = 203080,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 2,
 		attrs = {
@@ -58074,6 +60877,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -58093,13 +60901,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[203083] = {
-		oxy_max = 0,
+		name = "Exeter",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Exeter",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -58112,6 +60920,7 @@ pg.ship_data_statistics = {
 		skin_id = 203080,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 2,
 		attrs = {
@@ -58197,6 +61006,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -58216,13 +61030,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[203084] = {
-		oxy_max = 0,
+		name = "Exeter",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Exeter",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -58235,6 +61049,7 @@ pg.ship_data_statistics = {
 		skin_id = 203080,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 2,
 		attrs = {
@@ -58320,6 +61135,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -58339,13 +61159,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[204011] = {
-		oxy_max = 0,
+		name = "Renown",
 		type = 4,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Renown",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -58358,6 +61178,7 @@ pg.ship_data_statistics = {
 		skin_id = 204010,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 2,
 		attrs = {
@@ -58442,6 +61263,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -58460,13 +61286,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[204012] = {
-		oxy_max = 0,
+		name = "Renown",
 		type = 4,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Renown",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -58479,6 +61305,7 @@ pg.ship_data_statistics = {
 		skin_id = 204010,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 2,
 		attrs = {
@@ -58563,6 +61390,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -58581,13 +61413,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[204013] = {
-		oxy_max = 0,
+		name = "Renown",
 		type = 4,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Renown",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -58600,6 +61432,7 @@ pg.ship_data_statistics = {
 		skin_id = 204010,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 2,
 		attrs = {
@@ -58684,6 +61517,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -58702,13 +61540,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[204014] = {
-		oxy_max = 0,
+		name = "Renown",
 		type = 4,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Renown",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -58721,6 +61559,7 @@ pg.ship_data_statistics = {
 		skin_id = 204010,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 2,
 		attrs = {
@@ -58805,6 +61644,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -58823,13 +61667,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[204021] = {
-		oxy_max = 0,
+		name = "Repulse",
 		type = 4,
 		personality = 2,
-		backyard_speed = "1",
-		name = "Repulse",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "1",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -58842,6 +61686,7 @@ pg.ship_data_statistics = {
 		skin_id = 204020,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 2,
 		attrs = {
@@ -58926,6 +61771,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -58944,13 +61794,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[204022] = {
-		oxy_max = 0,
+		name = "Repulse",
 		type = 4,
 		personality = 2,
-		backyard_speed = "1",
-		name = "Repulse",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "1",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -58963,6 +61813,7 @@ pg.ship_data_statistics = {
 		skin_id = 204020,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 2,
 		attrs = {
@@ -59047,6 +61898,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -59065,13 +61921,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[204023] = {
-		oxy_max = 0,
+		name = "Repulse",
 		type = 4,
 		personality = 2,
-		backyard_speed = "1",
-		name = "Repulse",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "1",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -59084,6 +61940,7 @@ pg.ship_data_statistics = {
 		skin_id = 204020,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 2,
 		attrs = {
@@ -59168,6 +62025,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -59186,13 +62048,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[204024] = {
-		oxy_max = 0,
+		name = "Repulse",
 		type = 4,
 		personality = 2,
-		backyard_speed = "1",
-		name = "Repulse",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "1",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -59205,6 +62067,7 @@ pg.ship_data_statistics = {
 		skin_id = 204020,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 2,
 		attrs = {
@@ -59289,6 +62152,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -59307,13 +62175,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[204031] = {
-		oxy_max = 0,
+		name = "Hood",
 		type = 4,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Hood",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -59326,6 +62194,7 @@ pg.ship_data_statistics = {
 		skin_id = 204030,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 2,
 		attrs = {
@@ -59410,6 +62279,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -59428,13 +62302,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[204032] = {
-		oxy_max = 0,
+		name = "Hood",
 		type = 4,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Hood",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -59447,6 +62321,7 @@ pg.ship_data_statistics = {
 		skin_id = 204030,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 2,
 		attrs = {
@@ -59531,6 +62406,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -59549,13 +62429,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[204033] = {
-		oxy_max = 0,
+		name = "Hood",
 		type = 4,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Hood",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -59568,6 +62448,7 @@ pg.ship_data_statistics = {
 		skin_id = 204030,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 2,
 		attrs = {
@@ -59652,6 +62533,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -59670,13 +62556,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[204034] = {
-		oxy_max = 0,
+		name = "Hood",
 		type = 4,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Hood",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 6,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -59689,6 +62575,7 @@ pg.ship_data_statistics = {
 		skin_id = 204030,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 2,
 		attrs = {
@@ -59773,6 +62660,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -59791,13 +62683,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[205011] = {
-		oxy_max = 0,
+		name = "Queen Elizabeth",
 		type = 5,
 		personality = 2,
-		backyard_speed = "1",
-		name = "Queen Elizabeth",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "1",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -59810,6 +62702,7 @@ pg.ship_data_statistics = {
 		skin_id = 205010,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 3,
 		attrs = {
@@ -59894,6 +62787,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -59912,13 +62810,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[205012] = {
-		oxy_max = 0,
+		name = "Queen Elizabeth",
 		type = 5,
 		personality = 2,
-		backyard_speed = "1",
-		name = "Queen Elizabeth",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "1",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -59931,6 +62829,7 @@ pg.ship_data_statistics = {
 		skin_id = 205010,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 3,
 		attrs = {
@@ -60015,6 +62914,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -60033,13 +62937,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[205013] = {
-		oxy_max = 0,
+		name = "Queen Elizabeth",
 		type = 5,
 		personality = 2,
-		backyard_speed = "1",
-		name = "Queen Elizabeth",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "1",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -60052,6 +62956,7 @@ pg.ship_data_statistics = {
 		skin_id = 205010,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 3,
 		attrs = {
@@ -60136,6 +63041,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -60154,13 +63064,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[205014] = {
-		oxy_max = 0,
+		name = "Queen Elizabeth",
 		type = 5,
 		personality = 2,
-		backyard_speed = "1",
-		name = "Queen Elizabeth",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "1",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -60173,6 +63083,7 @@ pg.ship_data_statistics = {
 		skin_id = 205010,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 3,
 		attrs = {
@@ -60257,6 +63168,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -60275,13 +63191,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[205021] = {
-		oxy_max = 0,
+		name = "Warspite",
 		type = 5,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Warspite",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -60294,6 +63210,7 @@ pg.ship_data_statistics = {
 		skin_id = 205020,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 3,
 		attrs = {
@@ -60378,6 +63295,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -60396,13 +63318,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[205022] = {
-		oxy_max = 0,
+		name = "Warspite",
 		type = 5,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Warspite",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -60415,6 +63337,7 @@ pg.ship_data_statistics = {
 		skin_id = 205020,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 3,
 		attrs = {
@@ -60499,6 +63422,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -60517,13 +63445,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[205023] = {
-		oxy_max = 0,
+		name = "Warspite",
 		type = 5,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Warspite",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -60536,6 +63464,7 @@ pg.ship_data_statistics = {
 		skin_id = 205020,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 3,
 		attrs = {
@@ -60620,6 +63549,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -60638,13 +63572,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[205024] = {
-		oxy_max = 0,
+		name = "Warspite",
 		type = 5,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Warspite",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 6,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -60657,6 +63591,7 @@ pg.ship_data_statistics = {
 		skin_id = 205020,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 3,
 		attrs = {
@@ -60741,6 +63676,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -60759,13 +63699,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[205031] = {
-		oxy_max = 0,
+		name = "Nelson",
 		type = 5,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Nelson",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -60778,6 +63718,7 @@ pg.ship_data_statistics = {
 		skin_id = 205030,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 3,
 		attrs = {
@@ -60862,6 +63803,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -60880,13 +63826,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[205032] = {
-		oxy_max = 0,
+		name = "Nelson",
 		type = 5,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Nelson",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -60899,6 +63845,7 @@ pg.ship_data_statistics = {
 		skin_id = 205030,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 3,
 		attrs = {
@@ -60983,6 +63930,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -61001,13 +63953,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[205033] = {
-		oxy_max = 0,
+		name = "Nelson",
 		type = 5,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Nelson",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -61020,6 +63972,7 @@ pg.ship_data_statistics = {
 		skin_id = 205030,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 3,
 		attrs = {
@@ -61104,6 +64057,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -61122,13 +64080,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[205034] = {
-		oxy_max = 0,
+		name = "Nelson",
 		type = 5,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Nelson",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -61141,6 +64099,7 @@ pg.ship_data_statistics = {
 		skin_id = 205030,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 3,
 		attrs = {
@@ -61225,6 +64184,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -61243,13 +64207,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[205041] = {
-		oxy_max = 0,
+		name = "Rodney",
 		type = 5,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Rodney",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -61262,6 +64226,7 @@ pg.ship_data_statistics = {
 		skin_id = 205040,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 3,
 		attrs = {
@@ -61346,6 +64311,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -61364,13 +64334,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[205042] = {
-		oxy_max = 0,
+		name = "Rodney",
 		type = 5,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Rodney",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -61383,6 +64353,7 @@ pg.ship_data_statistics = {
 		skin_id = 205040,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 3,
 		attrs = {
@@ -61467,6 +64438,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -61485,13 +64461,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[205043] = {
-		oxy_max = 0,
+		name = "Rodney",
 		type = 5,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Rodney",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -61504,6 +64480,7 @@ pg.ship_data_statistics = {
 		skin_id = 205040,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 3,
 		attrs = {
@@ -61588,6 +64565,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -61606,13 +64588,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[205044] = {
-		oxy_max = 0,
+		name = "Rodney",
 		type = 5,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Rodney",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -61625,6 +64607,7 @@ pg.ship_data_statistics = {
 		skin_id = 205040,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 3,
 		attrs = {
@@ -61709,6 +64692,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -61727,13 +64715,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[205061] = {
-		oxy_max = 0,
+		name = "Prince of Wales",
 		type = 5,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Prince of Wales",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -61746,6 +64734,7 @@ pg.ship_data_statistics = {
 		skin_id = 205060,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 3,
 		attrs = {
@@ -61830,6 +64819,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -61848,13 +64842,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[205062] = {
-		oxy_max = 0,
+		name = "Prince of Wales",
 		type = 5,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Prince of Wales",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -61867,6 +64861,7 @@ pg.ship_data_statistics = {
 		skin_id = 205060,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 3,
 		attrs = {
@@ -61951,6 +64946,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -61969,13 +64969,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[205063] = {
-		oxy_max = 0,
+		name = "Prince of Wales",
 		type = 5,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Prince of Wales",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -61988,6 +64988,7 @@ pg.ship_data_statistics = {
 		skin_id = 205060,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 3,
 		attrs = {
@@ -62072,6 +65073,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -62090,13 +65096,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[205064] = {
-		oxy_max = 0,
+		name = "Prince of Wales",
 		type = 5,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Prince of Wales",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 6,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -62109,6 +65115,7 @@ pg.ship_data_statistics = {
 		skin_id = 205060,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 3,
 		attrs = {
@@ -62193,6 +65200,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -62211,13 +65223,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[205071] = {
-		oxy_max = 0,
+		name = "Duke of York",
 		type = 5,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Duke of York",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -62230,6 +65242,7 @@ pg.ship_data_statistics = {
 		skin_id = 205070,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 3,
 		attrs = {
@@ -62314,6 +65327,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -62332,13 +65350,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[205072] = {
-		oxy_max = 0,
+		name = "Duke of York",
 		type = 5,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Duke of York",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -62351,6 +65369,7 @@ pg.ship_data_statistics = {
 		skin_id = 205070,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 3,
 		attrs = {
@@ -62435,6 +65454,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -62453,13 +65477,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[205073] = {
-		oxy_max = 0,
+		name = "Duke of York",
 		type = 5,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Duke of York",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -62472,6 +65496,7 @@ pg.ship_data_statistics = {
 		skin_id = 205070,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 3,
 		attrs = {
@@ -62556,6 +65581,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -62574,13 +65604,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[205074] = {
-		oxy_max = 0,
+		name = "Duke of York",
 		type = 5,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Duke of York",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 6,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -62593,6 +65623,7 @@ pg.ship_data_statistics = {
 		skin_id = 205070,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 3,
 		attrs = {
@@ -62677,6 +65708,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -62695,13 +65731,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[206011] = {
-		oxy_max = 0,
+		name = "Hermes",
 		type = 6,
 		personality = 2,
-		backyard_speed = "0.4",
-		name = "Hermes",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.4",
 		star = 1,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -62714,6 +65750,7 @@ pg.ship_data_statistics = {
 		skin_id = 206010,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 2,
 		attrs = {
@@ -62797,6 +65834,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -62815,13 +65857,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[206012] = {
-		oxy_max = 0,
+		name = "Hermes",
 		type = 6,
 		personality = 2,
-		backyard_speed = "0.4",
-		name = "Hermes",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.4",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -62834,6 +65876,7 @@ pg.ship_data_statistics = {
 		skin_id = 206010,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 2,
 		attrs = {
@@ -62917,6 +65960,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -62935,13 +65983,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[206013] = {
-		oxy_max = 0,
+		name = "Hermes",
 		type = 6,
 		personality = 2,
-		backyard_speed = "0.4",
-		name = "Hermes",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.4",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -62954,6 +66002,7 @@ pg.ship_data_statistics = {
 		skin_id = 206010,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 2,
 		attrs = {
@@ -63037,6 +66086,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -63055,13 +66109,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[206014] = {
-		oxy_max = 0,
+		name = "Hermes",
 		type = 6,
 		personality = 2,
-		backyard_speed = "0.4",
-		name = "Hermes",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.4",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -63074,6 +66128,7 @@ pg.ship_data_statistics = {
 		skin_id = 206010,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 2,
 		attrs = {
@@ -63157,6 +66212,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -63175,13 +66235,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[206031] = {
-		oxy_max = 0,
+		name = "Unicorn",
 		type = 6,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Unicorn",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -63194,6 +66254,7 @@ pg.ship_data_statistics = {
 		skin_id = 206030,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 2,
 		attrs = {
@@ -63277,6 +66338,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -63295,13 +66361,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[206032] = {
-		oxy_max = 0,
+		name = "Unicorn",
 		type = 6,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Unicorn",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -63314,6 +66380,7 @@ pg.ship_data_statistics = {
 		skin_id = 206030,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 2,
 		attrs = {
@@ -63397,6 +66464,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -63415,13 +66487,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[206033] = {
-		oxy_max = 0,
+		name = "Unicorn",
 		type = 6,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Unicorn",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -63434,6 +66506,7 @@ pg.ship_data_statistics = {
 		skin_id = 206030,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 2,
 		attrs = {
@@ -63517,6 +66590,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -63535,13 +66613,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[206034] = {
-		oxy_max = 0,
+		name = "Unicorn",
 		type = 6,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Unicorn",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -63554,6 +66632,7 @@ pg.ship_data_statistics = {
 		skin_id = 206030,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 2,
 		attrs = {
@@ -63637,6 +66716,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -63655,13 +66739,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[206051] = {
-		oxy_max = 0,
+		name = "Chaser",
 		type = 6,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Chaser",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -63674,6 +66758,7 @@ pg.ship_data_statistics = {
 		skin_id = 206050,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 2,
 		attrs = {
@@ -63757,6 +66842,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -63775,13 +66865,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[206052] = {
-		oxy_max = 0,
+		name = "Chaser",
 		type = 6,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Chaser",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -63794,6 +66884,7 @@ pg.ship_data_statistics = {
 		skin_id = 206050,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 2,
 		attrs = {
@@ -63877,6 +66968,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -63895,13 +66991,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[206053] = {
-		oxy_max = 0,
+		name = "Chaser",
 		type = 6,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Chaser",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -63914,6 +67010,7 @@ pg.ship_data_statistics = {
 		skin_id = 206050,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 2,
 		attrs = {
@@ -63997,6 +67094,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -64015,13 +67117,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[206054] = {
-		oxy_max = 0,
+		name = "Chaser",
 		type = 6,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Chaser",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -64034,6 +67136,7 @@ pg.ship_data_statistics = {
 		skin_id = 206050,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 2,
 		attrs = {
@@ -64117,6 +67220,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -64135,13 +67243,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[207021] = {
-		oxy_max = 0,
+		name = "Ark Royal",
 		type = 7,
 		personality = 2,
-		backyard_speed = "0.15",
-		name = "Ark Royal",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.15",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -64154,6 +67262,7 @@ pg.ship_data_statistics = {
 		skin_id = 207020,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 2,
 		attrs = {
@@ -64238,6 +67347,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -64256,13 +67370,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[207022] = {
-		oxy_max = 0,
+		name = "Ark Royal",
 		type = 7,
 		personality = 2,
-		backyard_speed = "0.15",
-		name = "Ark Royal",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.15",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -64275,6 +67389,7 @@ pg.ship_data_statistics = {
 		skin_id = 207020,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 2,
 		attrs = {
@@ -64359,6 +67474,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -64377,13 +67497,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[207023] = {
-		oxy_max = 0,
+		name = "Ark Royal",
 		type = 7,
 		personality = 2,
-		backyard_speed = "0.15",
-		name = "Ark Royal",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.15",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -64396,6 +67516,7 @@ pg.ship_data_statistics = {
 		skin_id = 207020,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 2,
 		attrs = {
@@ -64480,6 +67601,11 @@ pg.ship_data_statistics = {
 			2,
 			2
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -64498,13 +67624,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[207024] = {
-		oxy_max = 0,
+		name = "Ark Royal",
 		type = 7,
 		personality = 2,
-		backyard_speed = "0.15",
-		name = "Ark Royal",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.15",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -64517,6 +67643,7 @@ pg.ship_data_statistics = {
 		skin_id = 207020,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 2,
 		attrs = {
@@ -64601,6 +67728,11 @@ pg.ship_data_statistics = {
 			3,
 			2
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -64619,13 +67751,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[207031] = {
-		oxy_max = 0,
+		name = "Illustrious",
 		type = 7,
 		personality = 2,
-		backyard_speed = "0.6",
-		name = "Illustrious",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.6",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -64638,6 +67770,7 @@ pg.ship_data_statistics = {
 		skin_id = 207030,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 3,
 		attrs = {
@@ -64722,6 +67855,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -64740,13 +67878,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[207032] = {
-		oxy_max = 0,
+		name = "Illustrious",
 		type = 7,
 		personality = 2,
-		backyard_speed = "0.6",
-		name = "Illustrious",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.6",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -64759,6 +67897,7 @@ pg.ship_data_statistics = {
 		skin_id = 207030,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 3,
 		attrs = {
@@ -64843,6 +67982,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -64861,13 +68005,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[207033] = {
-		oxy_max = 0,
+		name = "Illustrious",
 		type = 7,
 		personality = 2,
-		backyard_speed = "0.6",
-		name = "Illustrious",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.6",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -64880,6 +68024,7 @@ pg.ship_data_statistics = {
 		skin_id = 207030,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 3,
 		attrs = {
@@ -64964,6 +68109,11 @@ pg.ship_data_statistics = {
 			2,
 			2
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -64982,13 +68132,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[207034] = {
-		oxy_max = 0,
+		name = "Illustrious",
 		type = 7,
 		personality = 2,
-		backyard_speed = "0.6",
-		name = "Illustrious",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.6",
 		star = 6,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -65001,6 +68151,7 @@ pg.ship_data_statistics = {
 		skin_id = 207030,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 3,
 		attrs = {
@@ -65085,6 +68236,11 @@ pg.ship_data_statistics = {
 			3,
 			2
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -65103,13 +68259,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[207041] = {
-		oxy_max = 0,
+		name = "Victorious",
 		type = 7,
 		personality = 2,
-		backyard_speed = "0.6",
-		name = "Victorious",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.6",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -65122,6 +68278,7 @@ pg.ship_data_statistics = {
 		skin_id = 207040,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 3,
 		attrs = {
@@ -65206,6 +68363,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -65224,13 +68386,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[207042] = {
-		oxy_max = 0,
+		name = "Victorious",
 		type = 7,
 		personality = 2,
-		backyard_speed = "0.6",
-		name = "Victorious",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.6",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -65243,6 +68405,7 @@ pg.ship_data_statistics = {
 		skin_id = 207040,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 3,
 		attrs = {
@@ -65327,6 +68490,11 @@ pg.ship_data_statistics = {
 			1,
 			2
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -65345,13 +68513,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[207043] = {
-		oxy_max = 0,
+		name = "Victorious",
 		type = 7,
 		personality = 2,
-		backyard_speed = "0.6",
-		name = "Victorious",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.6",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -65364,6 +68532,7 @@ pg.ship_data_statistics = {
 		skin_id = 207040,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 3,
 		attrs = {
@@ -65448,6 +68617,11 @@ pg.ship_data_statistics = {
 			2,
 			2
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -65466,13 +68640,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[207044] = {
-		oxy_max = 0,
+		name = "Victorious",
 		type = 7,
 		personality = 2,
-		backyard_speed = "0.6",
-		name = "Victorious",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.6",
 		star = 6,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -65485,6 +68659,7 @@ pg.ship_data_statistics = {
 		skin_id = 207040,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 3,
 		attrs = {
@@ -65569,6 +68744,11 @@ pg.ship_data_statistics = {
 			3,
 			3
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -65587,13 +68767,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[207061] = {
-		oxy_max = 0,
+		name = "Glorious",
 		type = 7,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Glorious",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -65606,6 +68786,7 @@ pg.ship_data_statistics = {
 		skin_id = 207060,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 2,
 		attrs = {
@@ -65690,6 +68871,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -65708,13 +68894,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[207062] = {
-		oxy_max = 0,
+		name = "Glorious",
 		type = 7,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Glorious",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -65727,6 +68913,7 @@ pg.ship_data_statistics = {
 		skin_id = 207060,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 2,
 		attrs = {
@@ -65811,6 +68998,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -65829,13 +69021,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[207063] = {
-		oxy_max = 0,
+		name = "Glorious",
 		type = 7,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Glorious",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -65848,6 +69040,7 @@ pg.ship_data_statistics = {
 		skin_id = 207060,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 2,
 		attrs = {
@@ -65932,6 +69125,11 @@ pg.ship_data_statistics = {
 			2,
 			2
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -65950,13 +69148,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[207064] = {
-		oxy_max = 0,
+		name = "Glorious",
 		type = 7,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Glorious",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -65969,6 +69167,7 @@ pg.ship_data_statistics = {
 		skin_id = 207060,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 2,
 		attrs = {
@@ -66053,6 +69252,11 @@ pg.ship_data_statistics = {
 			2,
 			2
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -66071,13 +69275,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[213011] = {
-		oxy_max = 0,
+		name = "Erebus",
 		type = 13,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Erebus",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -66090,6 +69294,7 @@ pg.ship_data_statistics = {
 		skin_id = 213010,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -66170,6 +69375,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -66192,13 +69402,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[213012] = {
-		oxy_max = 0,
+		name = "Erebus",
 		type = 13,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Erebus",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -66211,6 +69421,7 @@ pg.ship_data_statistics = {
 		skin_id = 213010,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -66295,6 +69506,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -66313,13 +69529,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[213013] = {
-		oxy_max = 0,
+		name = "Erebus",
 		type = 13,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Erebus",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -66332,6 +69548,7 @@ pg.ship_data_statistics = {
 		skin_id = 213010,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -66416,6 +69633,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -66434,13 +69656,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[213014] = {
-		oxy_max = 0,
+		name = "Erebus",
 		type = 13,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Erebus",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -66453,6 +69675,7 @@ pg.ship_data_statistics = {
 		skin_id = 213010,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -66537,6 +69760,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -66555,13 +69783,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[213021] = {
-		oxy_max = 0,
+		name = "Terror",
 		type = 13,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Terror",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -66574,6 +69802,7 @@ pg.ship_data_statistics = {
 		skin_id = 213020,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -66658,6 +69887,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -66676,13 +69910,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[213022] = {
-		oxy_max = 0,
+		name = "Terror",
 		type = 13,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Terror",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -66695,6 +69929,7 @@ pg.ship_data_statistics = {
 		skin_id = 213020,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -66779,6 +70014,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -66797,13 +70037,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[213023] = {
-		oxy_max = 0,
+		name = "Terror",
 		type = 13,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Terror",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -66816,6 +70056,7 @@ pg.ship_data_statistics = {
 		skin_id = 213020,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -66900,6 +70141,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -66918,13 +70164,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[213024] = {
-		oxy_max = 0,
+		name = "Terror",
 		type = 13,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Terror",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -66937,6 +70183,7 @@ pg.ship_data_statistics = {
 		skin_id = 213020,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -67021,6 +70268,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -67039,13 +70291,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[301011] = {
-		oxy_max = 0,
+		name = "Fubuki",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Fubuki",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -67058,6 +70310,7 @@ pg.ship_data_statistics = {
 		skin_id = 301010,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -67142,6 +70395,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -67162,13 +70420,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[301012] = {
-		oxy_max = 0,
+		name = "Fubuki",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Fubuki",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -67181,6 +70439,7 @@ pg.ship_data_statistics = {
 		skin_id = 301010,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -67265,6 +70524,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -67285,13 +70549,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[301013] = {
-		oxy_max = 0,
+		name = "Fubuki",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Fubuki",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -67304,6 +70568,7 @@ pg.ship_data_statistics = {
 		skin_id = 301010,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -67388,6 +70653,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -67408,13 +70678,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[301014] = {
-		oxy_max = 0,
+		name = "Fubuki",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Fubuki",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -67427,6 +70697,7 @@ pg.ship_data_statistics = {
 		skin_id = 301010,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -67511,6 +70782,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -67531,13 +70807,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[301051] = {
-		oxy_max = 0,
+		name = "Ayanami",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Ayanami",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -67550,6 +70826,7 @@ pg.ship_data_statistics = {
 		skin_id = 301050,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -67634,6 +70911,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -67654,13 +70936,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[301052] = {
-		oxy_max = 0,
+		name = "Ayanami",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Ayanami",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -67673,6 +70955,7 @@ pg.ship_data_statistics = {
 		skin_id = 301050,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -67757,6 +71040,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -67777,13 +71065,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[301053] = {
-		oxy_max = 0,
+		name = "Ayanami",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Ayanami",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -67796,6 +71084,7 @@ pg.ship_data_statistics = {
 		skin_id = 301050,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -67880,6 +71169,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -67900,13 +71194,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[301054] = {
-		oxy_max = 0,
+		name = "Ayanami",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Ayanami",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -67919,6 +71213,7 @@ pg.ship_data_statistics = {
 		skin_id = 301050,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -68003,6 +71298,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -68024,13 +71324,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[301091] = {
-		oxy_max = 0,
+		name = "Akatsuki",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Akatsuki",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -68043,6 +71343,7 @@ pg.ship_data_statistics = {
 		skin_id = 301090,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -68127,6 +71428,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -68148,13 +71454,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[301092] = {
-		oxy_max = 0,
+		name = "Akatsuki",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Akatsuki",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -68167,6 +71473,7 @@ pg.ship_data_statistics = {
 		skin_id = 301090,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -68251,6 +71558,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -68272,13 +71584,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[301093] = {
-		oxy_max = 0,
+		name = "Akatsuki",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Akatsuki",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -68291,6 +71603,7 @@ pg.ship_data_statistics = {
 		skin_id = 301090,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -68375,6 +71688,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -68396,13 +71714,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[301094] = {
-		oxy_max = 0,
+		name = "Akatsuki",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Akatsuki",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -68415,6 +71733,7 @@ pg.ship_data_statistics = {
 		skin_id = 301090,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -68499,6 +71818,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -68520,13 +71844,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[301111] = {
-		oxy_max = 0,
+		name = "Ikazuchi",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Ikazuchi",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -68539,6 +71863,7 @@ pg.ship_data_statistics = {
 		skin_id = 301110,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -68619,6 +71944,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -68644,13 +71974,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[301112] = {
-		oxy_max = 0,
+		name = "Ikazuchi",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Ikazuchi",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -68663,6 +71993,7 @@ pg.ship_data_statistics = {
 		skin_id = 301110,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -68747,6 +72078,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -68768,13 +72104,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[301113] = {
-		oxy_max = 0,
+		name = "Ikazuchi",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Ikazuchi",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -68787,6 +72123,7 @@ pg.ship_data_statistics = {
 		skin_id = 301110,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -68871,6 +72208,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -68892,13 +72234,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[301114] = {
-		oxy_max = 0,
+		name = "Ikazuchi",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Ikazuchi",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -68911,6 +72253,7 @@ pg.ship_data_statistics = {
 		skin_id = 301110,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -68995,6 +72338,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -69016,13 +72364,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[301121] = {
-		oxy_max = 0,
+		name = "Inazuma",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Inazuma",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -69035,6 +72383,7 @@ pg.ship_data_statistics = {
 		skin_id = 301120,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -69119,6 +72468,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -69140,13 +72494,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[301122] = {
-		oxy_max = 0,
+		name = "Inazuma",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Inazuma",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -69159,6 +72513,7 @@ pg.ship_data_statistics = {
 		skin_id = 301120,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -69243,6 +72598,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -69264,13 +72624,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[301123] = {
-		oxy_max = 0,
+		name = "Inazuma",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Inazuma",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -69283,6 +72643,7 @@ pg.ship_data_statistics = {
 		skin_id = 301120,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -69367,6 +72728,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -69388,13 +72754,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[301124] = {
-		oxy_max = 0,
+		name = "Inazuma",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Inazuma",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -69407,6 +72773,7 @@ pg.ship_data_statistics = {
 		skin_id = 301120,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -69491,6 +72858,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -69512,13 +72884,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[301131] = {
-		oxy_max = 0,
+		name = "Shiratsuyu",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.4",
-		name = "Shiratsuyu",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.4",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -69531,6 +72903,7 @@ pg.ship_data_statistics = {
 		skin_id = 301130,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -69615,6 +72988,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -69633,13 +73011,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[301132] = {
-		oxy_max = 0,
+		name = "Shiratsuyu",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.4",
-		name = "Shiratsuyu",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.4",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -69652,6 +73030,7 @@ pg.ship_data_statistics = {
 		skin_id = 301130,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -69736,6 +73115,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -69754,13 +73138,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[301133] = {
-		oxy_max = 0,
+		name = "Shiratsuyu",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.4",
-		name = "Shiratsuyu",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.4",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -69773,6 +73157,7 @@ pg.ship_data_statistics = {
 		skin_id = 301130,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -69857,6 +73242,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -69875,13 +73265,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[301134] = {
-		oxy_max = 0,
+		name = "Shiratsuyu",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.4",
-		name = "Shiratsuyu",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.4",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -69894,6 +73284,7 @@ pg.ship_data_statistics = {
 		skin_id = 301130,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -69978,6 +73369,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -69996,13 +73392,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[301141] = {
-		oxy_max = 0,
+		name = "Yuudachi",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.6",
-		name = "Yuudachi",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.6",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -70015,6 +73411,7 @@ pg.ship_data_statistics = {
 		skin_id = 301140,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -70099,6 +73496,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -70117,13 +73519,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[301142] = {
-		oxy_max = 0,
+		name = "Yuudachi",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.6",
-		name = "Yuudachi",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.6",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -70136,6 +73538,7 @@ pg.ship_data_statistics = {
 		skin_id = 301140,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -70220,6 +73623,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -70238,13 +73646,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[301143] = {
-		oxy_max = 0,
+		name = "Yuudachi",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.6",
-		name = "Yuudachi",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.6",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -70257,6 +73665,7 @@ pg.ship_data_statistics = {
 		skin_id = 301140,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -70341,6 +73750,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -70359,13 +73773,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[301144] = {
-		oxy_max = 0,
+		name = "Yuudachi",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.6",
-		name = "Yuudachi",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.6",
 		star = 6,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -70378,6 +73792,7 @@ pg.ship_data_statistics = {
 		skin_id = 301140,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -70462,6 +73877,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -70480,13 +73900,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[301151] = {
-		oxy_max = 0,
+		name = "Shigure",
 		type = 1,
 		personality = 2,
-		backyard_speed = "1",
-		name = "Shigure",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "1",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -70499,6 +73919,7 @@ pg.ship_data_statistics = {
 		skin_id = 301150,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -70583,6 +74004,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -70601,13 +74027,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[301152] = {
-		oxy_max = 0,
+		name = "Shigure",
 		type = 1,
 		personality = 2,
-		backyard_speed = "1",
-		name = "Shigure",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "1",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -70620,6 +74046,7 @@ pg.ship_data_statistics = {
 		skin_id = 301150,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -70704,6 +74131,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -70722,13 +74154,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[301153] = {
-		oxy_max = 0,
+		name = "Shigure",
 		type = 1,
 		personality = 2,
-		backyard_speed = "1",
-		name = "Shigure",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "1",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -70741,6 +74173,7 @@ pg.ship_data_statistics = {
 		skin_id = 301150,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -70825,6 +74258,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -70843,13 +74281,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[301154] = {
-		oxy_max = 0,
+		name = "Shigure",
 		type = 1,
 		personality = 2,
-		backyard_speed = "1",
-		name = "Shigure",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "1",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -70862,6 +74300,7 @@ pg.ship_data_statistics = {
 		skin_id = 301150,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -70946,6 +74385,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -70964,13 +74408,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[301161] = {
-		oxy_max = 0,
+		name = "Yukikaze",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Yukikaze",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -70983,6 +74427,7 @@ pg.ship_data_statistics = {
 		skin_id = 301160,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -71067,6 +74512,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -71085,13 +74535,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[301162] = {
-		oxy_max = 0,
+		name = "Yukikaze",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Yukikaze",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -71104,6 +74554,7 @@ pg.ship_data_statistics = {
 		skin_id = 301160,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -71188,6 +74639,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -71206,13 +74662,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[301163] = {
-		oxy_max = 0,
+		name = "Yukikaze",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Yukikaze",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -71225,6 +74681,7 @@ pg.ship_data_statistics = {
 		skin_id = 301160,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -71309,6 +74766,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -71327,13 +74789,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[301164] = {
-		oxy_max = 0,
+		name = "Yukikaze",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Yukikaze",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 6,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -71346,6 +74808,7 @@ pg.ship_data_statistics = {
 		skin_id = 301160,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -71430,6 +74893,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -71448,13 +74916,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[301171] = {
-		oxy_max = 0,
+		name = "Kagerou",
 		type = 1,
 		personality = 2,
-		backyard_speed = "1",
-		name = "Kagerou",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "1",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -71467,6 +74935,7 @@ pg.ship_data_statistics = {
 		skin_id = 301170,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -71551,6 +75020,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -71569,13 +75043,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[301172] = {
-		oxy_max = 0,
+		name = "Kagerou",
 		type = 1,
 		personality = 2,
-		backyard_speed = "1",
-		name = "Kagerou",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "1",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -71588,6 +75062,7 @@ pg.ship_data_statistics = {
 		skin_id = 301170,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -71672,6 +75147,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -71690,13 +75170,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[301173] = {
-		oxy_max = 0,
+		name = "Kagerou",
 		type = 1,
 		personality = 2,
-		backyard_speed = "1",
-		name = "Kagerou",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "1",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -71709,6 +75189,7 @@ pg.ship_data_statistics = {
 		skin_id = 301170,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -71793,6 +75274,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -71811,13 +75297,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[301174] = {
-		oxy_max = 0,
+		name = "Kagerou",
 		type = 1,
 		personality = 2,
-		backyard_speed = "1",
-		name = "Kagerou",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "1",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -71830,6 +75316,7 @@ pg.ship_data_statistics = {
 		skin_id = 301170,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -71914,6 +75401,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -71932,13 +75424,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[301181] = {
-		oxy_max = 0,
+		name = "Shiranui",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Shiranui",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 1,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -71951,6 +75443,7 @@ pg.ship_data_statistics = {
 		skin_id = 301180,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -72035,6 +75528,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -72053,13 +75551,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[301182] = {
-		oxy_max = 0,
+		name = "Shiranui",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Shiranui",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -72072,6 +75570,7 @@ pg.ship_data_statistics = {
 		skin_id = 301180,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -72156,6 +75655,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -72174,13 +75678,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[301183] = {
-		oxy_max = 0,
+		name = "Shiranui",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Shiranui",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -72193,6 +75697,7 @@ pg.ship_data_statistics = {
 		skin_id = 301180,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -72277,6 +75782,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -72295,13 +75805,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[301184] = {
-		oxy_max = 0,
+		name = "Shiranui",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Shiranui",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -72314,6 +75824,7 @@ pg.ship_data_statistics = {
 		skin_id = 301180,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -72398,6 +75909,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -72416,13 +75932,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[301201] = {
-		oxy_max = 0,
+		name = "Nowaki",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Nowaki",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -72435,6 +75951,7 @@ pg.ship_data_statistics = {
 		skin_id = 301200,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -72519,6 +76036,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -72537,13 +76059,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[301202] = {
-		oxy_max = 0,
+		name = "Nowaki",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Nowaki",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -72556,6 +76078,7 @@ pg.ship_data_statistics = {
 		skin_id = 301200,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -72640,6 +76163,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -72658,13 +76186,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[301203] = {
-		oxy_max = 0,
+		name = "Nowaki",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Nowaki",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -72677,6 +76205,7 @@ pg.ship_data_statistics = {
 		skin_id = 301200,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -72761,6 +76290,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -72779,13 +76313,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[301204] = {
-		oxy_max = 0,
+		name = "Nowaki",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Nowaki",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -72798,6 +76332,7 @@ pg.ship_data_statistics = {
 		skin_id = 301200,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -72882,6 +76417,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -72900,13 +76440,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[301211] = {
-		oxy_max = 0,
+		name = "Hatsuharu",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Hatsuharu",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -72919,6 +76459,7 @@ pg.ship_data_statistics = {
 		skin_id = 301210,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -73003,6 +76544,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -73021,13 +76567,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[301212] = {
-		oxy_max = 0,
+		name = "Hatsuharu",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Hatsuharu",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -73040,6 +76586,7 @@ pg.ship_data_statistics = {
 		skin_id = 301210,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -73124,6 +76671,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -73142,13 +76694,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[301213] = {
-		oxy_max = 0,
+		name = "Hatsuharu",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Hatsuharu",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -73161,6 +76713,7 @@ pg.ship_data_statistics = {
 		skin_id = 301210,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -73245,6 +76798,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -73263,13 +76821,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[301214] = {
-		oxy_max = 0,
+		name = "Hatsuharu",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Hatsuharu",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -73282,6 +76840,7 @@ pg.ship_data_statistics = {
 		skin_id = 301210,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -73366,6 +76925,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -73384,13 +76948,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[301231] = {
-		oxy_max = 0,
+		name = "Wakaba",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Wakaba",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -73403,6 +76967,7 @@ pg.ship_data_statistics = {
 		skin_id = 301230,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -73487,6 +77052,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -73505,13 +77075,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[301232] = {
-		oxy_max = 0,
+		name = "Wakaba",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Wakaba",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -73524,6 +77094,7 @@ pg.ship_data_statistics = {
 		skin_id = 301230,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -73608,6 +77179,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -73626,13 +77202,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[301233] = {
-		oxy_max = 0,
+		name = "Wakaba",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Wakaba",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -73645,6 +77221,7 @@ pg.ship_data_statistics = {
 		skin_id = 301230,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -73729,6 +77306,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -73747,13 +77329,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[301234] = {
-		oxy_max = 0,
+		name = "Wakaba",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Wakaba",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -73766,6 +77348,7 @@ pg.ship_data_statistics = {
 		skin_id = 301230,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -73850,6 +77433,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -73868,13 +77456,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[301241] = {
-		oxy_max = 0,
+		name = "Hatsushimo",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Hatsushimo",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -73887,6 +77475,7 @@ pg.ship_data_statistics = {
 		skin_id = 301240,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -73971,6 +77560,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -73989,13 +77583,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[301242] = {
-		oxy_max = 0,
+		name = "Hatsushimo",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Hatsushimo",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -74008,6 +77602,7 @@ pg.ship_data_statistics = {
 		skin_id = 301240,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -74092,6 +77687,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -74110,13 +77710,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[301243] = {
-		oxy_max = 0,
+		name = "Hatsushimo",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Hatsushimo",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -74129,6 +77729,7 @@ pg.ship_data_statistics = {
 		skin_id = 301240,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -74213,6 +77814,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -74231,13 +77837,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[301244] = {
-		oxy_max = 0,
+		name = "Hatsushimo",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Hatsushimo",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -74250,6 +77856,7 @@ pg.ship_data_statistics = {
 		skin_id = 301240,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -74334,6 +77941,519 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			0.75,
+			1.5,
+			0.75
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[301251] = {
+		name = "Ariake",
+		type = 1,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 2,
+		oxy_recovery = 0,
+		rarity = 3,
+		ammo = 0,
+		id = 301251,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Ariake",
+		skin_id = 301250,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 3,
+		armor_type = 1,
+		attrs = {
+			286,
+			11,
+			92,
+			27,
+			0,
+			72,
+			0,
+			66,
+			71,
+			43.2,
+			34,
+			46
+		},
+		attrs_growth = {
+			6970,
+			108,
+			914,
+			532,
+			0,
+			358,
+			0,
+			972,
+			1056,
+			0,
+			0,
+			458
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"D",
+			"A",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			0.7,
+			1.3,
+			0.7
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[301252] = {
+		name = "Ariake",
+		type = 1,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 3,
+		oxy_recovery = 0,
+		rarity = 3,
+		ammo = 0,
+		id = 301252,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Ariake",
+		skin_id = 301250,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 3,
+		armor_type = 1,
+		attrs = {
+			356,
+			14,
+			115,
+			34,
+			0,
+			72,
+			0,
+			66,
+			71,
+			43.2,
+			34,
+			57
+		},
+		attrs_growth = {
+			6970,
+			108,
+			914,
+			532,
+			0,
+			358,
+			0,
+			972,
+			1056,
+			0,
+			0,
+			458
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"D",
+			"A",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			0.7,
+			1.35,
+			0.7
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[301253] = {
+		name = "Ariake",
+		type = 1,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 4,
+		oxy_recovery = 0,
+		rarity = 3,
+		ammo = 0,
+		id = 301253,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Ariake",
+		skin_id = 301250,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 3,
+		armor_type = 1,
+		attrs = {
+			495,
+			19,
+			161,
+			47,
+			0,
+			72,
+			0,
+			66,
+			71,
+			43.2,
+			34,
+			80
+		},
+		attrs_growth = {
+			6970,
+			108,
+			914,
+			532,
+			0,
+			358,
+			0,
+			972,
+			1056,
+			0,
+			0,
+			458
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"D",
+			"A",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			0.7,
+			1.45,
+			0.7
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[301254] = {
+		name = "Ariake",
+		type = 1,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 5,
+		oxy_recovery = 0,
+		rarity = 3,
+		ammo = 0,
+		id = 301254,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Ariake",
+		skin_id = 301250,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 3,
+		armor_type = 1,
+		attrs = {
+			704,
+			27,
+			229,
+			67,
+			0,
+			72,
+			0,
+			66,
+			71,
+			43.2,
+			34,
+			115
+		},
+		attrs_growth = {
+			6970,
+			108,
+			914,
+			532,
+			0,
+			358,
+			0,
+			972,
+			1056,
+			0,
+			0,
+			458
+		},
+		attrs_growth_extra = {
+			6970,
+			252,
+			1136,
+			361,
+			0,
+			850,
+			0,
+			-567,
+			-769,
+			0,
+			0,
+			449
+		},
+		grades = {
+			"D",
+			"A",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -74352,13 +78472,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[301261] = {
-		oxy_max = 0,
+		name = "Yuugure",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Yuugure",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -74371,6 +78491,7 @@ pg.ship_data_statistics = {
 		skin_id = 301260,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -74455,6 +78576,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -74473,13 +78599,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[301262] = {
-		oxy_max = 0,
+		name = "Yuugure",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Yuugure",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -74492,6 +78618,7 @@ pg.ship_data_statistics = {
 		skin_id = 301260,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -74576,6 +78703,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -74594,13 +78726,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[301263] = {
-		oxy_max = 0,
+		name = "Yuugure",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Yuugure",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -74613,6 +78745,7 @@ pg.ship_data_statistics = {
 		skin_id = 301260,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -74697,6 +78830,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -74715,13 +78853,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[301264] = {
-		oxy_max = 0,
+		name = "Yuugure",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Yuugure",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -74734,6 +78872,7 @@ pg.ship_data_statistics = {
 		skin_id = 301260,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -74818,6 +78957,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -74836,13 +78980,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[301271] = {
-		oxy_max = 0,
+		name = "Kuroshio",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Kuroshio",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -74855,6 +78999,7 @@ pg.ship_data_statistics = {
 		skin_id = 301270,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -74939,6 +79084,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -74957,13 +79107,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[301272] = {
-		oxy_max = 0,
+		name = "Kuroshio",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Kuroshio",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -74976,6 +79126,7 @@ pg.ship_data_statistics = {
 		skin_id = 301270,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -75060,6 +79211,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -75078,13 +79234,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[301273] = {
-		oxy_max = 0,
+		name = "Kuroshio",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Kuroshio",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -75097,6 +79253,7 @@ pg.ship_data_statistics = {
 		skin_id = 301270,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -75181,6 +79338,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -75199,13 +79361,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[301274] = {
-		oxy_max = 0,
+		name = "Kuroshio",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Kuroshio",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -75218,6 +79380,7 @@ pg.ship_data_statistics = {
 		skin_id = 301270,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -75302,6 +79465,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -75320,13 +79488,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[301301] = {
-		oxy_max = 0,
+		name = "Kamikaze",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Kamikaze",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -75339,6 +79507,7 @@ pg.ship_data_statistics = {
 		skin_id = 301300,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -75423,6 +79592,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -75441,13 +79615,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[301302] = {
-		oxy_max = 0,
+		name = "Kamikaze",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Kamikaze",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -75460,6 +79634,7 @@ pg.ship_data_statistics = {
 		skin_id = 301300,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -75544,6 +79719,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -75562,13 +79742,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[301303] = {
-		oxy_max = 0,
+		name = "Kamikaze",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Kamikaze",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -75581,6 +79761,7 @@ pg.ship_data_statistics = {
 		skin_id = 301300,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -75665,6 +79846,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -75683,13 +79869,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[301304] = {
-		oxy_max = 0,
+		name = "Kamikaze",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Kamikaze",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -75702,6 +79888,7 @@ pg.ship_data_statistics = {
 		skin_id = 301300,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -75786,6 +79973,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -75804,13 +79996,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[301311] = {
-		oxy_max = 0,
+		name = "Matsukaze",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Matsukaze",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -75823,6 +80015,7 @@ pg.ship_data_statistics = {
 		skin_id = 301310,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -75907,6 +80100,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -75925,13 +80123,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[301312] = {
-		oxy_max = 0,
+		name = "Matsukaze",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Matsukaze",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -75944,6 +80142,7 @@ pg.ship_data_statistics = {
 		skin_id = 301310,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -76028,6 +80227,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -76046,13 +80250,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[301313] = {
-		oxy_max = 0,
+		name = "Matsukaze",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Matsukaze",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -76065,6 +80269,7 @@ pg.ship_data_statistics = {
 		skin_id = 301310,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -76149,6 +80354,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -76167,13 +80377,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[301314] = {
-		oxy_max = 0,
+		name = "Matsukaze",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Matsukaze",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -76186,6 +80396,7 @@ pg.ship_data_statistics = {
 		skin_id = 301310,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -76270,6 +80481,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -76288,13 +80504,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[301321] = {
-		oxy_max = 0,
+		name = "Mutsuki",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Mutsuki",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 1,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -76307,6 +80523,7 @@ pg.ship_data_statistics = {
 		skin_id = 301320,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -76391,6 +80608,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -76409,13 +80631,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[301322] = {
-		oxy_max = 0,
+		name = "Mutsuki",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Mutsuki",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -76428,6 +80650,7 @@ pg.ship_data_statistics = {
 		skin_id = 301320,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -76512,6 +80735,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -76530,13 +80758,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[301323] = {
-		oxy_max = 0,
+		name = "Mutsuki",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Mutsuki",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -76549,6 +80777,7 @@ pg.ship_data_statistics = {
 		skin_id = 301320,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -76633,6 +80862,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -76651,13 +80885,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[301324] = {
-		oxy_max = 0,
+		name = "Mutsuki",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Mutsuki",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -76670,6 +80904,7 @@ pg.ship_data_statistics = {
 		skin_id = 301320,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -76754,6 +80989,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -76772,13 +81012,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[301331] = {
-		oxy_max = 0,
+		name = "Kisaragi",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Kisaragi",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 1,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -76791,6 +81031,7 @@ pg.ship_data_statistics = {
 		skin_id = 301330,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -76875,6 +81116,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -76893,13 +81139,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[301332] = {
-		oxy_max = 0,
+		name = "Kisaragi",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Kisaragi",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -76912,6 +81158,7 @@ pg.ship_data_statistics = {
 		skin_id = 301330,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -76996,6 +81243,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -77014,13 +81266,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[301333] = {
-		oxy_max = 0,
+		name = "Kisaragi",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Kisaragi",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -77033,6 +81285,7 @@ pg.ship_data_statistics = {
 		skin_id = 301330,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -77117,6 +81370,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -77135,13 +81393,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[301334] = {
-		oxy_max = 0,
+		name = "Kisaragi",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Kisaragi",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -77154,6 +81412,7 @@ pg.ship_data_statistics = {
 		skin_id = 301330,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -77238,6 +81497,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -77256,13 +81520,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[301351] = {
-		oxy_max = 0,
+		name = "Uzuki",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Uzuki",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 1,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -77275,6 +81539,7 @@ pg.ship_data_statistics = {
 		skin_id = 301350,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -77359,6 +81624,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -77377,13 +81647,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[301352] = {
-		oxy_max = 0,
+		name = "Uzuki",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Uzuki",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -77396,6 +81666,7 @@ pg.ship_data_statistics = {
 		skin_id = 301350,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -77480,6 +81751,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -77498,13 +81774,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[301353] = {
-		oxy_max = 0,
+		name = "Uzuki",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Uzuki",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -77517,6 +81793,7 @@ pg.ship_data_statistics = {
 		skin_id = 301350,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -77601,6 +81878,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -77619,13 +81901,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[301354] = {
-		oxy_max = 0,
+		name = "Uzuki",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Uzuki",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -77638,6 +81920,7 @@ pg.ship_data_statistics = {
 		skin_id = 301350,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -77722,6 +82005,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -77740,13 +82028,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[301371] = {
-		oxy_max = 0,
+		name = "Minazuki",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Minazuki",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 1,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -77759,6 +82047,7 @@ pg.ship_data_statistics = {
 		skin_id = 301370,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -77843,6 +82132,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -77861,13 +82155,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[301372] = {
-		oxy_max = 0,
+		name = "Minazuki",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Minazuki",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -77880,6 +82174,7 @@ pg.ship_data_statistics = {
 		skin_id = 301370,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -77964,6 +82259,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -77982,13 +82282,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[301373] = {
-		oxy_max = 0,
+		name = "Minazuki",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Minazuki",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -78001,6 +82301,7 @@ pg.ship_data_statistics = {
 		skin_id = 301370,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -78085,6 +82386,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -78103,13 +82409,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[301374] = {
-		oxy_max = 0,
+		name = "Minazuki",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Minazuki",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -78122,6 +82428,7 @@ pg.ship_data_statistics = {
 		skin_id = 301370,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -78206,6 +82513,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -78224,13 +82536,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[301381] = {
-		oxy_max = 0,
+		name = "Fumizuki",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Fumizuki",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -78243,6 +82555,7 @@ pg.ship_data_statistics = {
 		skin_id = 301380,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -78327,6 +82640,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -78345,13 +82663,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[301382] = {
-		oxy_max = 0,
+		name = "Fumizuki",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Fumizuki",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -78364,6 +82682,7 @@ pg.ship_data_statistics = {
 		skin_id = 301380,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -78448,6 +82767,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -78466,13 +82790,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[301383] = {
-		oxy_max = 0,
+		name = "Fumizuki",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Fumizuki",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -78485,6 +82809,7 @@ pg.ship_data_statistics = {
 		skin_id = 301380,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -78569,6 +82894,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -78587,13 +82917,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[301384] = {
-		oxy_max = 0,
+		name = "Fumizuki",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Fumizuki",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -78606,6 +82936,7 @@ pg.ship_data_statistics = {
 		skin_id = 301380,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -78690,6 +83021,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -78708,13 +83044,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[301411] = {
-		oxy_max = 0,
+		name = "Mikazuki",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Mikazuki",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 1,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -78727,6 +83063,7 @@ pg.ship_data_statistics = {
 		skin_id = 301410,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -78811,6 +83148,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -78829,13 +83171,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[301412] = {
-		oxy_max = 0,
+		name = "Mikazuki",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Mikazuki",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -78848,6 +83190,7 @@ pg.ship_data_statistics = {
 		skin_id = 301410,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -78932,6 +83275,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -78950,13 +83298,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[301413] = {
-		oxy_max = 0,
+		name = "Mikazuki",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Mikazuki",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -78969,6 +83317,7 @@ pg.ship_data_statistics = {
 		skin_id = 301410,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -79053,6 +83402,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -79071,13 +83425,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[301414] = {
-		oxy_max = 0,
+		name = "Mikazuki",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Mikazuki",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -79090,6 +83444,7 @@ pg.ship_data_statistics = {
 		skin_id = 301410,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -79174,6 +83529,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -79192,13 +83552,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[301491] = {
-		oxy_max = 0,
+		name = "Kawakaze",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Kawakaze",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -79211,6 +83571,7 @@ pg.ship_data_statistics = {
 		skin_id = 301490,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -79295,6 +83656,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -79313,13 +83679,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[301492] = {
-		oxy_max = 0,
+		name = "Kawakaze",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Kawakaze",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -79332,6 +83698,7 @@ pg.ship_data_statistics = {
 		skin_id = 301490,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -79416,6 +83783,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -79434,13 +83806,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[301493] = {
-		oxy_max = 0,
+		name = "Kawakaze",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Kawakaze",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -79453,6 +83825,7 @@ pg.ship_data_statistics = {
 		skin_id = 301490,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -79537,6 +83910,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -79555,13 +83933,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[301494] = {
-		oxy_max = 0,
+		name = "Kawakaze",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Kawakaze",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 6,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -79574,6 +83952,7 @@ pg.ship_data_statistics = {
 		skin_id = 301490,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -79658,6 +84037,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -79676,13 +84060,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[301561] = {
-		oxy_max = 0,
+		name = "Niizuki ",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Niizuki ",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -79695,6 +84079,7 @@ pg.ship_data_statistics = {
 		skin_id = 301560,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -79779,6 +84164,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -79797,13 +84187,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[301562] = {
-		oxy_max = 0,
+		name = "Niizuki ",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Niizuki ",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -79816,6 +84206,7 @@ pg.ship_data_statistics = {
 		skin_id = 301560,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -79900,6 +84291,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -79918,13 +84314,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[301563] = {
-		oxy_max = 0,
+		name = "Niizuki ",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Niizuki ",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -79937,6 +84333,7 @@ pg.ship_data_statistics = {
 		skin_id = 301560,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -80021,6 +84418,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -80039,13 +84441,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[301564] = {
-		oxy_max = 0,
+		name = "Niizuki ",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Niizuki ",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -80058,6 +84460,7 @@ pg.ship_data_statistics = {
 		skin_id = 301560,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -80142,6 +84545,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -80160,13 +84568,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[301571] = {
-		oxy_max = 0,
+		name = "Harutsuki",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Harutsuki",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -80179,6 +84587,7 @@ pg.ship_data_statistics = {
 		skin_id = 301570,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -80263,6 +84672,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -80281,13 +84695,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[301572] = {
-		oxy_max = 0,
+		name = "Harutsuki",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Harutsuki",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -80300,6 +84714,7 @@ pg.ship_data_statistics = {
 		skin_id = 301570,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -80384,6 +84799,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -80402,13 +84822,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[301573] = {
-		oxy_max = 0,
+		name = "Harutsuki",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Harutsuki",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -80421,6 +84841,7 @@ pg.ship_data_statistics = {
 		skin_id = 301570,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -80505,6 +84926,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -80523,13 +84949,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[301574] = {
-		oxy_max = 0,
+		name = "Harutsuki",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Harutsuki",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -80542,6 +84968,7 @@ pg.ship_data_statistics = {
 		skin_id = 301570,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -80626,6 +85053,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -80644,13 +85076,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[301581] = {
-		oxy_max = 0,
+		name = "Yoizuki",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Yoizuki",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -80663,6 +85095,7 @@ pg.ship_data_statistics = {
 		skin_id = 301580,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -80747,6 +85180,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -80765,13 +85203,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[301582] = {
-		oxy_max = 0,
+		name = "Yoizuki",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Yoizuki",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -80784,6 +85222,7 @@ pg.ship_data_statistics = {
 		skin_id = 301580,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -80868,6 +85307,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -80886,13 +85330,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[301583] = {
-		oxy_max = 0,
+		name = "Yoizuki",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Yoizuki",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -80905,6 +85349,7 @@ pg.ship_data_statistics = {
 		skin_id = 301580,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -80989,6 +85434,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -81007,13 +85457,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[301584] = {
-		oxy_max = 0,
+		name = "Yoizuki",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Yoizuki",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -81026,6 +85476,7 @@ pg.ship_data_statistics = {
 		skin_id = 301580,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -81110,6 +85561,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -81128,13 +85584,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[301591] = {
-		oxy_max = 0,
+		name = "Urakaze",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Urakaze",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -81147,6 +85603,7 @@ pg.ship_data_statistics = {
 		skin_id = 301590,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -81231,6 +85688,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -81249,13 +85711,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[301592] = {
-		oxy_max = 0,
+		name = "Urakaze",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Urakaze",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -81268,6 +85730,7 @@ pg.ship_data_statistics = {
 		skin_id = 301590,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -81352,6 +85815,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -81370,13 +85838,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[301593] = {
-		oxy_max = 0,
+		name = "Urakaze",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Urakaze",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -81389,6 +85857,7 @@ pg.ship_data_statistics = {
 		skin_id = 301590,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -81473,6 +85942,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -81491,13 +85965,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[301594] = {
-		oxy_max = 0,
+		name = "Urakaze",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Urakaze",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -81510,6 +85984,7 @@ pg.ship_data_statistics = {
 		skin_id = 301590,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -81594,6 +86069,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -81612,13 +86092,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[301601] = {
-		oxy_max = 0,
+		name = "Isokaze",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Isokaze",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -81631,6 +86111,7 @@ pg.ship_data_statistics = {
 		skin_id = 301600,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -81715,6 +86196,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -81733,13 +86219,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[301602] = {
-		oxy_max = 0,
+		name = "Isokaze",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Isokaze",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -81752,6 +86238,7 @@ pg.ship_data_statistics = {
 		skin_id = 301600,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -81836,6 +86323,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -81854,13 +86346,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[301603] = {
-		oxy_max = 0,
+		name = "Isokaze",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Isokaze",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -81873,6 +86365,7 @@ pg.ship_data_statistics = {
 		skin_id = 301600,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -81957,6 +86450,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -81975,13 +86473,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[301604] = {
-		oxy_max = 0,
+		name = "Isokaze",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Isokaze",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -81994,6 +86492,7 @@ pg.ship_data_statistics = {
 		skin_id = 301600,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -82078,6 +86577,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -82096,13 +86600,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[301611] = {
-		oxy_max = 0,
+		name = "Hamakaze",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Hamakaze",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -82115,6 +86619,7 @@ pg.ship_data_statistics = {
 		skin_id = 301610,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -82199,6 +86704,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -82217,13 +86727,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[301612] = {
-		oxy_max = 0,
+		name = "Hamakaze",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Hamakaze",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -82236,6 +86746,7 @@ pg.ship_data_statistics = {
 		skin_id = 301610,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -82320,6 +86831,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -82338,13 +86854,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[301613] = {
-		oxy_max = 0,
+		name = "Hamakaze",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Hamakaze",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -82357,6 +86873,7 @@ pg.ship_data_statistics = {
 		skin_id = 301610,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -82441,6 +86958,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -82459,13 +86981,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[301614] = {
-		oxy_max = 0,
+		name = "Hamakaze",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Hamakaze",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -82478,6 +87000,7 @@ pg.ship_data_statistics = {
 		skin_id = 301610,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -82562,6 +87085,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -82580,13 +87108,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[301621] = {
-		oxy_max = 0,
+		name = "Tanikaze",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Tanikaze",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -82599,6 +87127,7 @@ pg.ship_data_statistics = {
 		skin_id = 301620,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -82683,6 +87212,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -82701,13 +87235,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[301622] = {
-		oxy_max = 0,
+		name = "Tanikaze",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Tanikaze",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -82720,6 +87254,7 @@ pg.ship_data_statistics = {
 		skin_id = 301620,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -82804,6 +87339,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -82822,13 +87362,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[301623] = {
-		oxy_max = 0,
+		name = "Tanikaze",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Tanikaze",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -82841,6 +87381,7 @@ pg.ship_data_statistics = {
 		skin_id = 301620,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -82925,6 +87466,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -82943,13 +87489,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[301624] = {
-		oxy_max = 0,
+		name = "Tanikaze",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Tanikaze",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -82962,6 +87508,7 @@ pg.ship_data_statistics = {
 		skin_id = 301620,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -83046,6 +87593,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -83064,13 +87616,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[301631] = {
-		oxy_max = 0,
+		name = "Asashio",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Asashio",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -83083,6 +87635,7 @@ pg.ship_data_statistics = {
 		skin_id = 301630,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -83167,6 +87720,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -83187,13 +87745,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[301632] = {
-		oxy_max = 0,
+		name = "Asashio",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Asashio",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -83206,6 +87764,7 @@ pg.ship_data_statistics = {
 		skin_id = 301630,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -83290,6 +87849,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -83310,13 +87874,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[301633] = {
-		oxy_max = 0,
+		name = "Asashio",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Asashio",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -83329,6 +87893,7 @@ pg.ship_data_statistics = {
 		skin_id = 301630,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -83413,6 +87978,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -83433,13 +88003,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[301634] = {
-		oxy_max = 0,
+		name = "Asashio",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Asashio",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -83452,6 +88022,7 @@ pg.ship_data_statistics = {
 		skin_id = 301630,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -83536,6 +88107,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -83556,13 +88132,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[301641] = {
-		oxy_max = 0,
+		name = "Ooshio",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Ooshio",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -83575,6 +88151,7 @@ pg.ship_data_statistics = {
 		skin_id = 301640,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -83659,6 +88236,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -83679,13 +88261,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[301642] = {
-		oxy_max = 0,
+		name = "Ooshio",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Ooshio",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -83698,6 +88280,7 @@ pg.ship_data_statistics = {
 		skin_id = 301640,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -83782,6 +88365,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -83802,13 +88390,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[301643] = {
-		oxy_max = 0,
+		name = "Ooshio",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Ooshio",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -83821,6 +88409,7 @@ pg.ship_data_statistics = {
 		skin_id = 301640,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -83905,6 +88494,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -83925,13 +88519,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[301644] = {
-		oxy_max = 0,
+		name = "Ooshio",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Ooshio",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -83944,6 +88538,7 @@ pg.ship_data_statistics = {
 		skin_id = 301640,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -84028,6 +88623,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -84048,13 +88648,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[301651] = {
-		oxy_max = 0,
+		name = "Michishio",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Michishio",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -84067,6 +88667,7 @@ pg.ship_data_statistics = {
 		skin_id = 301650,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -84151,6 +88752,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -84171,13 +88777,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[301652] = {
-		oxy_max = 0,
+		name = "Michishio",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Michishio",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -84190,6 +88796,7 @@ pg.ship_data_statistics = {
 		skin_id = 301650,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -84274,6 +88881,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -84294,13 +88906,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[301653] = {
-		oxy_max = 0,
+		name = "Michishio",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Michishio",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -84313,6 +88925,7 @@ pg.ship_data_statistics = {
 		skin_id = 301650,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -84397,6 +89010,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -84417,13 +89035,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[301654] = {
-		oxy_max = 0,
+		name = "Michishio",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Michishio",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -84436,6 +89054,7 @@ pg.ship_data_statistics = {
 		skin_id = 301650,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -84520,6 +89139,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -84540,13 +89164,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[301661] = {
-		oxy_max = 0,
+		name = "Arashio",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Arashio",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -84559,6 +89183,7 @@ pg.ship_data_statistics = {
 		skin_id = 301660,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -84643,6 +89268,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -84663,13 +89293,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[301662] = {
-		oxy_max = 0,
+		name = "Arashio",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Arashio",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -84682,6 +89312,7 @@ pg.ship_data_statistics = {
 		skin_id = 301660,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -84766,6 +89397,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -84786,13 +89422,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[301663] = {
-		oxy_max = 0,
+		name = "Arashio",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Arashio",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -84805,6 +89441,7 @@ pg.ship_data_statistics = {
 		skin_id = 301660,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -84889,6 +89526,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -84909,13 +89551,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[301664] = {
-		oxy_max = 0,
+		name = "Arashio",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Arashio",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -84928,6 +89570,7 @@ pg.ship_data_statistics = {
 		skin_id = 301660,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -85012,6 +89655,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -85032,13 +89680,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[301791] = {
-		oxy_max = 0,
+		name = "Hatakaze",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Hatakaze",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -85051,6 +89699,7 @@ pg.ship_data_statistics = {
 		skin_id = 301790,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -85135,6 +89784,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -85153,13 +89807,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[301792] = {
-		oxy_max = 0,
+		name = "Hatakaze",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Hatakaze",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -85172,6 +89826,7 @@ pg.ship_data_statistics = {
 		skin_id = 301790,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -85256,6 +89911,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -85274,13 +89934,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[301793] = {
-		oxy_max = 0,
+		name = "Hatakaze",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Hatakaze",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -85293,6 +89953,7 @@ pg.ship_data_statistics = {
 		skin_id = 301790,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -85377,6 +90038,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -85395,13 +90061,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[301794] = {
-		oxy_max = 0,
+		name = "Hatakaze",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Hatakaze",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -85414,6 +90080,7 @@ pg.ship_data_statistics = {
 		skin_id = 301790,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -85498,6 +90165,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -85516,13 +90188,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[301801] = {
-		oxy_max = 0,
+		name = "Makinami",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Makinami",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -85535,6 +90207,7 @@ pg.ship_data_statistics = {
 		skin_id = 301800,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -85619,6 +90292,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -85637,13 +90315,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[301802] = {
-		oxy_max = 0,
+		name = "Makinami",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Makinami",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -85656,6 +90334,7 @@ pg.ship_data_statistics = {
 		skin_id = 301800,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -85740,6 +90419,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -85758,13 +90442,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[301803] = {
-		oxy_max = 0,
+		name = "Makinami",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Makinami",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -85777,6 +90461,7 @@ pg.ship_data_statistics = {
 		skin_id = 301800,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -85861,6 +90546,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -85879,13 +90569,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[301804] = {
-		oxy_max = 0,
+		name = "Makinami",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Makinami",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -85898,6 +90588,7 @@ pg.ship_data_statistics = {
 		skin_id = 301800,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -85982,6 +90673,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -86000,13 +90696,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[302011] = {
-		oxy_max = 0,
+		name = "Yuubari",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.15",
-		name = "Yuubari",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.15",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -86019,6 +90715,7 @@ pg.ship_data_statistics = {
 		skin_id = 302010,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -86105,6 +90802,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -86124,13 +90826,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[302012] = {
-		oxy_max = 0,
+		name = "Yuubari",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.15",
-		name = "Yuubari",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.15",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -86143,6 +90845,7 @@ pg.ship_data_statistics = {
 		skin_id = 302010,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -86229,6 +90932,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -86248,13 +90956,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[302013] = {
-		oxy_max = 0,
+		name = "Yuubari",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.15",
-		name = "Yuubari",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.15",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -86267,6 +90975,7 @@ pg.ship_data_statistics = {
 		skin_id = 302010,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -86353,6 +91062,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -86372,13 +91086,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[302014] = {
-		oxy_max = 0,
+		name = "Yuubari",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.15",
-		name = "Yuubari",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.15",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -86391,6 +91105,7 @@ pg.ship_data_statistics = {
 		skin_id = 302010,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -86477,6 +91192,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -86496,13 +91216,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[302041] = {
-		oxy_max = 0,
+		name = "Nagara",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Nagara",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 1,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -86515,6 +91235,7 @@ pg.ship_data_statistics = {
 		skin_id = 302040,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -86601,6 +91322,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -86620,13 +91346,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[302042] = {
-		oxy_max = 0,
+		name = "Nagara",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Nagara",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -86639,6 +91365,7 @@ pg.ship_data_statistics = {
 		skin_id = 302040,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -86725,6 +91452,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -86744,13 +91476,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[302043] = {
-		oxy_max = 0,
+		name = "Nagara",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Nagara",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -86763,6 +91495,7 @@ pg.ship_data_statistics = {
 		skin_id = 302040,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -86849,6 +91582,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -86868,13 +91606,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[302044] = {
-		oxy_max = 0,
+		name = "Nagara",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Nagara",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -86887,6 +91625,7 @@ pg.ship_data_statistics = {
 		skin_id = 302040,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -86973,6 +91712,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -86992,13 +91736,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[302051] = {
-		oxy_max = 0,
+		name = "Isuzu",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Isuzu",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -87011,6 +91755,7 @@ pg.ship_data_statistics = {
 		skin_id = 302050,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -87097,6 +91842,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -87116,13 +91866,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[302052] = {
-		oxy_max = 0,
+		name = "Isuzu",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Isuzu",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -87135,6 +91885,7 @@ pg.ship_data_statistics = {
 		skin_id = 302050,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -87221,6 +91972,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -87240,13 +91996,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[302053] = {
-		oxy_max = 0,
+		name = "Isuzu",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Isuzu",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -87259,6 +92015,7 @@ pg.ship_data_statistics = {
 		skin_id = 302050,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -87345,6 +92102,11 @@ pg.ship_data_statistics = {
 			1,
 			2
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -87364,13 +92126,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[302054] = {
-		oxy_max = 0,
+		name = "Isuzu",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Isuzu",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -87383,6 +92145,7 @@ pg.ship_data_statistics = {
 		skin_id = 302050,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -87469,6 +92232,11 @@ pg.ship_data_statistics = {
 			1,
 			2
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -87488,13 +92256,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[302091] = {
-		oxy_max = 0,
+		name = "Abukuma",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Abukuma",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 1,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -87507,6 +92275,7 @@ pg.ship_data_statistics = {
 		skin_id = 302090,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -87593,6 +92362,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -87612,13 +92386,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[302092] = {
-		oxy_max = 0,
+		name = "Abukuma",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Abukuma",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -87631,6 +92405,7 @@ pg.ship_data_statistics = {
 		skin_id = 302090,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -87717,6 +92492,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -87736,13 +92516,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[302093] = {
-		oxy_max = 0,
+		name = "Abukuma",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Abukuma",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -87755,6 +92535,7 @@ pg.ship_data_statistics = {
 		skin_id = 302090,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -87841,6 +92622,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -87860,13 +92646,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[302094] = {
-		oxy_max = 0,
+		name = "Abukuma",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Abukuma",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -87879,6 +92665,7 @@ pg.ship_data_statistics = {
 		skin_id = 302090,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -87965,6 +92752,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -87984,13 +92776,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[302101] = {
-		oxy_max = 0,
+		name = "Mogami",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Mogami",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -88003,6 +92795,7 @@ pg.ship_data_statistics = {
 		skin_id = 302100,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 2,
 		attrs = {
@@ -88089,6 +92882,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -88108,13 +92906,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[302102] = {
-		oxy_max = 0,
+		name = "Mogami",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Mogami",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -88127,6 +92925,7 @@ pg.ship_data_statistics = {
 		skin_id = 302100,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 2,
 		attrs = {
@@ -88213,6 +93012,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -88232,13 +93036,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[302103] = {
-		oxy_max = 0,
+		name = "Mogami",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Mogami",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -88251,6 +93055,7 @@ pg.ship_data_statistics = {
 		skin_id = 302100,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 2,
 		attrs = {
@@ -88337,6 +93142,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -88356,13 +93166,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[302104] = {
-		oxy_max = 0,
+		name = "Mogami",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Mogami",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -88375,6 +93185,7 @@ pg.ship_data_statistics = {
 		skin_id = 302100,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 2,
 		attrs = {
@@ -88461,6 +93272,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -88480,13 +93296,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[302111] = {
-		oxy_max = 0,
+		name = "Mikuma",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Mikuma",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -88499,6 +93315,7 @@ pg.ship_data_statistics = {
 		skin_id = 302110,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 2,
 		attrs = {
@@ -88585,6 +93402,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -88604,13 +93426,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[302112] = {
-		oxy_max = 0,
+		name = "Mikuma",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Mikuma",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -88623,6 +93445,7 @@ pg.ship_data_statistics = {
 		skin_id = 302110,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 2,
 		attrs = {
@@ -88709,6 +93532,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -88728,13 +93556,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[302113] = {
-		oxy_max = 0,
+		name = "Mikuma",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Mikuma",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -88747,6 +93575,7 @@ pg.ship_data_statistics = {
 		skin_id = 302110,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 2,
 		attrs = {
@@ -88833,6 +93662,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -88852,13 +93686,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[302114] = {
-		oxy_max = 0,
+		name = "Mikuma",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Mikuma",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -88871,6 +93705,7 @@ pg.ship_data_statistics = {
 		skin_id = 302110,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 2,
 		attrs = {
@@ -88957,6 +93792,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -88976,13 +93816,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[302121] = {
-		oxy_max = 0,
+		name = "Sendai",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Sendai",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -88995,6 +93835,7 @@ pg.ship_data_statistics = {
 		skin_id = 302120,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -89081,6 +93922,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -89100,13 +93946,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[302122] = {
-		oxy_max = 0,
+		name = "Sendai",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Sendai",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -89119,6 +93965,7 @@ pg.ship_data_statistics = {
 		skin_id = 302120,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -89205,6 +94052,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -89224,13 +94076,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[302123] = {
-		oxy_max = 0,
+		name = "Sendai",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Sendai",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -89243,6 +94095,7 @@ pg.ship_data_statistics = {
 		skin_id = 302120,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -89329,6 +94182,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -89348,13 +94206,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[302124] = {
-		oxy_max = 0,
+		name = "Sendai",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Sendai",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -89367,6 +94225,7 @@ pg.ship_data_statistics = {
 		skin_id = 302120,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -89453,6 +94312,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -89472,13 +94336,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[302131] = {
-		oxy_max = 0,
+		name = "Jintsuu",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Jintsuu",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -89491,6 +94355,7 @@ pg.ship_data_statistics = {
 		skin_id = 302130,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -89577,6 +94442,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -89596,13 +94466,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[302132] = {
-		oxy_max = 0,
+		name = "Jintsuu",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Jintsuu",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -89615,6 +94485,7 @@ pg.ship_data_statistics = {
 		skin_id = 302130,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -89701,6 +94572,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -89720,13 +94596,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[302133] = {
-		oxy_max = 0,
+		name = "Jintsuu",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Jintsuu",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -89739,6 +94615,7 @@ pg.ship_data_statistics = {
 		skin_id = 302130,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -89825,6 +94702,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -89844,13 +94726,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[302134] = {
-		oxy_max = 0,
+		name = "Jintsuu",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Jintsuu",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -89863,6 +94745,7 @@ pg.ship_data_statistics = {
 		skin_id = 302130,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -89949,6 +94832,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -89968,13 +94856,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[302141] = {
-		oxy_max = 0,
+		name = "Naka",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Naka",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -89987,6 +94875,7 @@ pg.ship_data_statistics = {
 		skin_id = 302140,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -90073,6 +94962,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -90092,13 +94986,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[302142] = {
-		oxy_max = 0,
+		name = "Naka",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Naka",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -90111,6 +95005,7 @@ pg.ship_data_statistics = {
 		skin_id = 302140,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -90197,6 +95092,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -90216,13 +95116,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[302143] = {
-		oxy_max = 0,
+		name = "Naka",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Naka",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -90235,6 +95135,7 @@ pg.ship_data_statistics = {
 		skin_id = 302140,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -90321,6 +95222,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -90340,13 +95246,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[302144] = {
-		oxy_max = 0,
+		name = "Naka",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Naka",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -90359,6 +95265,7 @@ pg.ship_data_statistics = {
 		skin_id = 302140,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -90445,6 +95352,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -90464,13 +95376,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[302201] = {
-		oxy_max = 0,
+		name = "Agano",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Agano",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -90483,6 +95395,7 @@ pg.ship_data_statistics = {
 		skin_id = 302200,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -90569,6 +95482,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -90588,13 +95506,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[302202] = {
-		oxy_max = 0,
+		name = "Agano",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Agano",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -90607,6 +95525,7 @@ pg.ship_data_statistics = {
 		skin_id = 302200,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -90693,6 +95612,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -90712,13 +95636,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[302203] = {
-		oxy_max = 0,
+		name = "Agano",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Agano",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -90731,6 +95655,7 @@ pg.ship_data_statistics = {
 		skin_id = 302200,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -90817,6 +95742,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -90836,13 +95766,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[302204] = {
-		oxy_max = 0,
+		name = "Agano",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Agano",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -90855,6 +95785,7 @@ pg.ship_data_statistics = {
 		skin_id = 302200,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -90941,6 +95872,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -90960,13 +95896,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[303011] = {
-		oxy_max = 0,
+		name = "Furutaka",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.15",
-		name = "Furutaka",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.15",
 		star = 1,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -90979,6 +95915,7 @@ pg.ship_data_statistics = {
 		skin_id = 303010,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 2,
 		attrs = {
@@ -91060,6 +95997,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -91083,13 +96025,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[303012] = {
-		oxy_max = 0,
+		name = "Furutaka",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.15",
-		name = "Furutaka",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.15",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -91102,6 +96044,7 @@ pg.ship_data_statistics = {
 		skin_id = 303010,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 2,
 		attrs = {
@@ -91187,6 +96130,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -91206,13 +96154,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[303013] = {
-		oxy_max = 0,
+		name = "Furutaka",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.15",
-		name = "Furutaka",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.15",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -91225,6 +96173,7 @@ pg.ship_data_statistics = {
 		skin_id = 303010,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 2,
 		attrs = {
@@ -91310,6 +96259,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -91329,13 +96283,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[303014] = {
-		oxy_max = 0,
+		name = "Furutaka",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.15",
-		name = "Furutaka",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.15",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -91348,6 +96302,7 @@ pg.ship_data_statistics = {
 		skin_id = 303010,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 2,
 		attrs = {
@@ -91433,6 +96388,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -91452,13 +96412,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[303021] = {
-		oxy_max = 0,
+		name = "Kako",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Kako",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 1,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -91471,6 +96431,7 @@ pg.ship_data_statistics = {
 		skin_id = 303020,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 2,
 		attrs = {
@@ -91556,6 +96517,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -91575,13 +96541,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[303022] = {
-		oxy_max = 0,
+		name = "Kako",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Kako",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -91594,6 +96560,7 @@ pg.ship_data_statistics = {
 		skin_id = 303020,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 2,
 		attrs = {
@@ -91679,6 +96646,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -91698,13 +96670,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[303023] = {
-		oxy_max = 0,
+		name = "Kako",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Kako",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -91717,6 +96689,7 @@ pg.ship_data_statistics = {
 		skin_id = 303020,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 2,
 		attrs = {
@@ -91802,6 +96775,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -91821,13 +96799,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[303024] = {
-		oxy_max = 0,
+		name = "Kako",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Kako",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -91840,6 +96818,7 @@ pg.ship_data_statistics = {
 		skin_id = 303020,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 2,
 		attrs = {
@@ -91925,6 +96904,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -91944,13 +96928,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[303031] = {
-		oxy_max = 0,
+		name = "Aoba",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Aoba",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 1,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -91963,6 +96947,7 @@ pg.ship_data_statistics = {
 		skin_id = 303030,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 2,
 		attrs = {
@@ -92044,6 +97029,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -92067,13 +97057,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[303032] = {
-		oxy_max = 0,
+		name = "Aoba",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Aoba",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -92086,6 +97076,7 @@ pg.ship_data_statistics = {
 		skin_id = 303030,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 2,
 		attrs = {
@@ -92171,6 +97162,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -92190,13 +97186,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[303033] = {
-		oxy_max = 0,
+		name = "Aoba",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Aoba",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -92209,6 +97205,7 @@ pg.ship_data_statistics = {
 		skin_id = 303030,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 2,
 		attrs = {
@@ -92294,6 +97291,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -92313,13 +97315,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[303034] = {
-		oxy_max = 0,
+		name = "Aoba",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Aoba",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -92332,6 +97334,7 @@ pg.ship_data_statistics = {
 		skin_id = 303030,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 2,
 		attrs = {
@@ -92417,6 +97420,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -92436,13 +97444,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[303041] = {
-		oxy_max = 0,
+		name = "Kinugasa",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Kinugasa",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 1,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -92455,6 +97463,7 @@ pg.ship_data_statistics = {
 		skin_id = 303040,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 2,
 		attrs = {
@@ -92540,6 +97549,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -92559,13 +97573,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[303042] = {
-		oxy_max = 0,
+		name = "Kinugasa",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Kinugasa",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -92578,6 +97592,7 @@ pg.ship_data_statistics = {
 		skin_id = 303040,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 2,
 		attrs = {
@@ -92663,6 +97678,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -92682,13 +97702,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[303043] = {
-		oxy_max = 0,
+		name = "Kinugasa",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Kinugasa",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -92701,6 +97721,7 @@ pg.ship_data_statistics = {
 		skin_id = 303040,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 2,
 		attrs = {
@@ -92786,6 +97807,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -92805,13 +97831,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[303044] = {
-		oxy_max = 0,
+		name = "Kinugasa",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Kinugasa",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -92824,6 +97850,7 @@ pg.ship_data_statistics = {
 		skin_id = 303040,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 2,
 		attrs = {
@@ -92909,6 +97936,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -92928,13 +97960,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[303071] = {
-		oxy_max = 0,
+		name = "Myoukou",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Myoukou",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -92947,6 +97979,7 @@ pg.ship_data_statistics = {
 		skin_id = 303070,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 2,
 		attrs = {
@@ -93028,6 +98061,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -93051,13 +98089,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[303072] = {
-		oxy_max = 0,
+		name = "Myoukou",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Myoukou",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -93070,6 +98108,7 @@ pg.ship_data_statistics = {
 		skin_id = 303070,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 2,
 		attrs = {
@@ -93155,6 +98194,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -93174,13 +98218,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[303073] = {
-		oxy_max = 0,
+		name = "Myoukou",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Myoukou",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -93193,6 +98237,7 @@ pg.ship_data_statistics = {
 		skin_id = 303070,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 2,
 		attrs = {
@@ -93278,6 +98323,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -93297,13 +98347,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[303074] = {
-		oxy_max = 0,
+		name = "Myoukou",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Myoukou",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -93316,6 +98366,7 @@ pg.ship_data_statistics = {
 		skin_id = 303070,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 2,
 		attrs = {
@@ -93401,6 +98452,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -93420,13 +98476,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[303081] = {
-		oxy_max = 0,
+		name = "Nachi",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Nachi",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -93439,6 +98495,7 @@ pg.ship_data_statistics = {
 		skin_id = 303080,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 2,
 		attrs = {
@@ -93524,6 +98581,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -93543,13 +98605,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[303082] = {
-		oxy_max = 0,
+		name = "Nachi",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Nachi",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -93562,6 +98624,7 @@ pg.ship_data_statistics = {
 		skin_id = 303080,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 2,
 		attrs = {
@@ -93647,6 +98710,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -93666,13 +98734,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[303083] = {
-		oxy_max = 0,
+		name = "Nachi",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Nachi",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -93685,6 +98753,7 @@ pg.ship_data_statistics = {
 		skin_id = 303080,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 2,
 		attrs = {
@@ -93770,6 +98839,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -93789,13 +98863,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[303084] = {
-		oxy_max = 0,
+		name = "Nachi",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Nachi",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -93808,6 +98882,7 @@ pg.ship_data_statistics = {
 		skin_id = 303080,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 2,
 		attrs = {
@@ -93893,6 +98968,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -93912,13 +98992,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[303091] = {
-		oxy_max = 0,
+		name = "Ashigara",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Ashigara",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -93931,6 +99011,7 @@ pg.ship_data_statistics = {
 		skin_id = 303090,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 2,
 		attrs = {
@@ -94016,6 +99097,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -94035,13 +99121,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[303092] = {
-		oxy_max = 0,
+		name = "Ashigara",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Ashigara",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -94054,6 +99140,7 @@ pg.ship_data_statistics = {
 		skin_id = 303090,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 2,
 		attrs = {
@@ -94139,6 +99226,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -94158,13 +99250,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[303093] = {
-		oxy_max = 0,
+		name = "Ashigara",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Ashigara",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -94177,6 +99269,7 @@ pg.ship_data_statistics = {
 		skin_id = 303090,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 2,
 		attrs = {
@@ -94262,6 +99355,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -94281,13 +99379,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[303094] = {
-		oxy_max = 0,
+		name = "Ashigara",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Ashigara",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -94300,6 +99398,7 @@ pg.ship_data_statistics = {
 		skin_id = 303090,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 2,
 		attrs = {
@@ -94385,6 +99484,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -94404,13 +99508,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[303111] = {
-		oxy_max = 0,
+		name = "Takao",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Takao",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -94423,6 +99527,7 @@ pg.ship_data_statistics = {
 		skin_id = 303110,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 2,
 		attrs = {
@@ -94504,6 +99609,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -94527,13 +99637,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[303112] = {
-		oxy_max = 0,
+		name = "Takao",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Takao",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -94546,6 +99656,7 @@ pg.ship_data_statistics = {
 		skin_id = 303110,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 2,
 		attrs = {
@@ -94627,6 +99738,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -94650,13 +99766,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[303113] = {
-		oxy_max = 0,
+		name = "Takao",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Takao",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -94669,6 +99785,7 @@ pg.ship_data_statistics = {
 		skin_id = 303110,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 2,
 		attrs = {
@@ -94754,6 +99871,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -94773,13 +99895,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[303114] = {
-		oxy_max = 0,
+		name = "Takao",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Takao",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 6,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -94792,6 +99914,7 @@ pg.ship_data_statistics = {
 		skin_id = 303110,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 2,
 		attrs = {
@@ -94877,6 +100000,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -94896,13 +100024,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[303121] = {
-		oxy_max = 0,
+		name = "Atago",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Atago",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -94915,6 +100043,7 @@ pg.ship_data_statistics = {
 		skin_id = 303120,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 2,
 		attrs = {
@@ -94996,6 +100125,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -95019,13 +100153,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[303122] = {
-		oxy_max = 0,
+		name = "Atago",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Atago",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -95038,6 +100172,7 @@ pg.ship_data_statistics = {
 		skin_id = 303120,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 2,
 		attrs = {
@@ -95123,6 +100258,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -95142,13 +100282,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[303123] = {
-		oxy_max = 0,
+		name = "Atago",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Atago",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -95161,6 +100301,7 @@ pg.ship_data_statistics = {
 		skin_id = 303120,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 2,
 		attrs = {
@@ -95246,6 +100387,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -95265,13 +100411,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[303124] = {
-		oxy_max = 0,
+		name = "Atago",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Atago",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 6,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -95284,6 +100430,7 @@ pg.ship_data_statistics = {
 		skin_id = 303120,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 2,
 		attrs = {
@@ -95369,6 +100516,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -95388,13 +100540,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[303131] = {
-		oxy_max = 0,
+		name = "Maya",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Maya",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -95407,6 +100559,7 @@ pg.ship_data_statistics = {
 		skin_id = 303130,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 2,
 		attrs = {
@@ -95492,6 +100645,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -95511,13 +100669,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[303132] = {
-		oxy_max = 0,
+		name = "Maya",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Maya",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -95530,6 +100688,7 @@ pg.ship_data_statistics = {
 		skin_id = 303130,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 2,
 		attrs = {
@@ -95615,6 +100774,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -95634,13 +100798,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[303133] = {
-		oxy_max = 0,
+		name = "Maya",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Maya",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -95653,6 +100817,7 @@ pg.ship_data_statistics = {
 		skin_id = 303130,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 2,
 		attrs = {
@@ -95738,6 +100903,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -95757,13 +100927,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[303134] = {
-		oxy_max = 0,
+		name = "Maya",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Maya",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 6,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -95776,6 +100946,7 @@ pg.ship_data_statistics = {
 		skin_id = 303130,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 2,
 		attrs = {
@@ -95861,6 +101032,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -95880,13 +101056,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[303141] = {
-		oxy_max = 0,
+		name = "Choukai",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Choukai",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -95899,6 +101075,7 @@ pg.ship_data_statistics = {
 		skin_id = 303140,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 2,
 		attrs = {
@@ -95984,6 +101161,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -96003,13 +101185,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[303142] = {
-		oxy_max = 0,
+		name = "Choukai",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Choukai",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -96022,6 +101204,7 @@ pg.ship_data_statistics = {
 		skin_id = 303140,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 2,
 		attrs = {
@@ -96107,6 +101290,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -96126,13 +101314,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[303143] = {
-		oxy_max = 0,
+		name = "Choukai",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Choukai",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -96145,6 +101333,7 @@ pg.ship_data_statistics = {
 		skin_id = 303140,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 2,
 		attrs = {
@@ -96230,6 +101419,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -96249,13 +101443,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[303144] = {
-		oxy_max = 0,
+		name = "Choukai",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Choukai",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 6,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -96268,6 +101462,7 @@ pg.ship_data_statistics = {
 		skin_id = 303140,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 2,
 		attrs = {
@@ -96353,6 +101548,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -96372,13 +101572,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[303154] = {
-		oxy_max = 0,
+		name = "Mogami Retrofit",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Mogami Retrofit",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -96391,6 +101591,7 @@ pg.ship_data_statistics = {
 		skin_id = 302100,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 2,
 		attrs = {
@@ -96476,6 +101677,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -96495,13 +101701,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[304011] = {
-		oxy_max = 0,
+		name = "Kongou",
 		type = 4,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Kongou",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -96514,6 +101720,7 @@ pg.ship_data_statistics = {
 		skin_id = 304010,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 2,
 		attrs = {
@@ -96598,6 +101805,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -96613,16 +101825,18 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Kongo-Class"
+		}
 	},
 	[304012] = {
-		oxy_max = 0,
+		name = "Kongou",
 		type = 4,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Kongou",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -96635,6 +101849,7 @@ pg.ship_data_statistics = {
 		skin_id = 304010,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 2,
 		attrs = {
@@ -96719,6 +101934,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -96734,16 +101954,18 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Kongo-Class"
+		}
 	},
 	[304013] = {
-		oxy_max = 0,
+		name = "Kongou",
 		type = 4,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Kongou",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -96756,6 +101978,7 @@ pg.ship_data_statistics = {
 		skin_id = 304010,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 2,
 		attrs = {
@@ -96840,6 +102063,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -96855,16 +102083,18 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Kongo-Class"
+		}
 	},
 	[304014] = {
-		oxy_max = 0,
+		name = "Kongou",
 		type = 4,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Kongou",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -96877,6 +102107,7 @@ pg.ship_data_statistics = {
 		skin_id = 304010,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 2,
 		attrs = {
@@ -96961,6 +102192,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -96976,16 +102212,18 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Kongo-Class"
+		}
 	},
 	[304021] = {
-		oxy_max = 0,
+		name = "Hiei",
 		type = 4,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Hiei",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -96998,6 +102236,7 @@ pg.ship_data_statistics = {
 		skin_id = 304020,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 2,
 		attrs = {
@@ -97082,6 +102321,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -97097,16 +102341,18 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Kongo-Class"
+		}
 	},
 	[304022] = {
-		oxy_max = 0,
+		name = "Hiei",
 		type = 4,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Hiei",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -97119,6 +102365,7 @@ pg.ship_data_statistics = {
 		skin_id = 304020,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 2,
 		attrs = {
@@ -97203,6 +102450,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -97218,16 +102470,18 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Kongo-Class"
+		}
 	},
 	[304023] = {
-		oxy_max = 0,
+		name = "Hiei",
 		type = 4,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Hiei",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -97240,6 +102494,7 @@ pg.ship_data_statistics = {
 		skin_id = 304020,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 2,
 		attrs = {
@@ -97324,6 +102579,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -97339,16 +102599,18 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Kongo-Class"
+		}
 	},
 	[304024] = {
-		oxy_max = 0,
+		name = "Hiei",
 		type = 4,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Hiei",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -97361,6 +102623,7 @@ pg.ship_data_statistics = {
 		skin_id = 304020,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 2,
 		attrs = {
@@ -97445,6 +102708,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -97460,16 +102728,18 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Kongo-Class"
+		}
 	},
 	[304031] = {
-		oxy_max = 0,
+		name = "Haruna",
 		type = 4,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Haruna",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -97482,6 +102752,7 @@ pg.ship_data_statistics = {
 		skin_id = 304030,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 2,
 		attrs = {
@@ -97566,6 +102837,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -97581,16 +102857,18 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Kongo-Class"
+		}
 	},
 	[304032] = {
-		oxy_max = 0,
+		name = "Haruna",
 		type = 4,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Haruna",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -97603,6 +102881,7 @@ pg.ship_data_statistics = {
 		skin_id = 304030,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 2,
 		attrs = {
@@ -97687,6 +102966,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -97702,16 +102986,18 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Kongo-Class"
+		}
 	},
 	[304033] = {
-		oxy_max = 0,
+		name = "Haruna",
 		type = 4,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Haruna",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -97724,6 +103010,7 @@ pg.ship_data_statistics = {
 		skin_id = 304030,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 2,
 		attrs = {
@@ -97808,6 +103095,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -97823,16 +103115,18 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Kongo-Class"
+		}
 	},
 	[304034] = {
-		oxy_max = 0,
+		name = "Haruna",
 		type = 4,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Haruna",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -97845,6 +103139,7 @@ pg.ship_data_statistics = {
 		skin_id = 304030,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 2,
 		attrs = {
@@ -97929,6 +103224,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -97944,16 +103244,18 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Kongo-Class"
+		}
 	},
 	[304041] = {
-		oxy_max = 0,
+		name = "Kirishima",
 		type = 4,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Kirishima",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -97966,6 +103268,7 @@ pg.ship_data_statistics = {
 		skin_id = 304040,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 2,
 		attrs = {
@@ -98050,6 +103353,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -98065,16 +103373,18 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Kongo-Class"
+		}
 	},
 	[304042] = {
-		oxy_max = 0,
+		name = "Kirishima",
 		type = 4,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Kirishima",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -98087,6 +103397,7 @@ pg.ship_data_statistics = {
 		skin_id = 304040,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 2,
 		attrs = {
@@ -98171,6 +103482,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -98186,16 +103502,18 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Kongo-Class"
+		}
 	},
 	[304043] = {
-		oxy_max = 0,
+		name = "Kirishima",
 		type = 4,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Kirishima",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -98208,6 +103526,7 @@ pg.ship_data_statistics = {
 		skin_id = 304040,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 2,
 		attrs = {
@@ -98292,6 +103611,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -98307,16 +103631,18 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Kongo-Class"
+		}
 	},
 	[304044] = {
-		oxy_max = 0,
+		name = "Kirishima",
 		type = 4,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Kirishima",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -98329,6 +103655,7 @@ pg.ship_data_statistics = {
 		skin_id = 304040,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 2,
 		attrs = {
@@ -98413,6 +103740,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -98428,16 +103760,18 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Kongo-Class"
+		}
 	},
 	[304051] = {
-		oxy_max = 0,
+		name = "Amagi",
 		type = 4,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Amagi",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -98450,6 +103784,7 @@ pg.ship_data_statistics = {
 		skin_id = 304050,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 2,
 		attrs = {
@@ -98533,6 +103868,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -98551,13 +103891,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[304052] = {
-		oxy_max = 0,
+		name = "Amagi",
 		type = 4,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Amagi",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -98570,6 +103910,7 @@ pg.ship_data_statistics = {
 		skin_id = 304050,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 2,
 		attrs = {
@@ -98653,6 +103994,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -98671,13 +104017,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[304053] = {
-		oxy_max = 0,
+		name = "Amagi",
 		type = 4,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Amagi",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -98690,6 +104036,7 @@ pg.ship_data_statistics = {
 		skin_id = 304050,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 2,
 		attrs = {
@@ -98773,6 +104120,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -98791,13 +104143,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[304054] = {
-		oxy_max = 0,
+		name = "Amagi",
 		type = 4,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Amagi",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 6,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -98810,6 +104162,7 @@ pg.ship_data_statistics = {
 		skin_id = 304050,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 2,
 		attrs = {
@@ -98893,6 +104246,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -98910,14 +104268,526 @@ pg.ship_data_statistics = {
 		},
 		tag_list = {}
 	},
-	[305011] = {
-		oxy_max = 0,
-		type = 5,
+	[304061] = {
+		name = "Hiei-chan ",
+		type = 4,
 		personality = 2,
-		backyard_speed = "0.23",
-		name = "Fusou",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 2,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 304061,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Hiei",
+		skin_id = 304060,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 3,
+		armor_type = 2,
+		attrs = {
+			1062,
+			68,
+			31,
+			46,
+			0,
+			59,
+			0,
+			21,
+			9,
+			30,
+			37,
+			0
+		},
+		attrs_growth = {
+			25910,
+			678,
+			306,
+			904,
+			0,
+			292,
+			0,
+			312,
+			132,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"A",
+			"D",
+			"E",
+			"C",
+			"D",
+			"B"
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1,
+			1.5,
+			0.85
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Kongo-Class"
+		}
+	},
+	[304062] = {
+		name = "Hiei-chan ",
+		type = 4,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 3,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 304062,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Hiei",
+		skin_id = 304060,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 3,
+		armor_type = 2,
+		attrs = {
+			1321,
+			85,
+			39,
+			57,
+			0,
+			59,
+			0,
+			21,
+			9,
+			30,
+			37,
+			0
+		},
+		attrs_growth = {
+			25910,
+			678,
+			306,
+			904,
+			0,
+			292,
+			0,
+			312,
+			132,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"A",
+			"D",
+			"E",
+			"C",
+			"D",
+			"B"
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.05,
+			1.5,
+			0.85
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Kongo-Class"
+		}
+	},
+	[304063] = {
+		name = "Hiei-chan ",
+		type = 4,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 4,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 304063,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Hiei",
+		skin_id = 304060,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 3,
+		armor_type = 2,
+		attrs = {
+			1839,
+			119,
+			54,
+			80,
+			0,
+			59,
+			0,
+			21,
+			9,
+			30,
+			37,
+			0
+		},
+		attrs_growth = {
+			25910,
+			678,
+			306,
+			904,
+			0,
+			292,
+			0,
+			312,
+			132,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"A",
+			"D",
+			"E",
+			"C",
+			"D",
+			"B"
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			1.5,
+			0.85
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Kongo-Class"
+		}
+	},
+	[304064] = {
+		name = "Hiei-chan ",
+		type = 4,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 5,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 304064,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Hiei",
+		skin_id = 304060,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 3,
+		armor_type = 2,
+		attrs = {
+			2617,
+			170,
+			77,
+			114,
+			0,
+			59,
+			0,
+			21,
+			9,
+			30,
+			37,
+			0
+		},
+		attrs_growth = {
+			25910,
+			678,
+			306,
+			904,
+			0,
+			292,
+			0,
+			312,
+			132,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			19433,
+			1209,
+			729,
+			611,
+			0,
+			691,
+			0,
+			343,
+			678,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"A",
+			"D",
+			"E",
+			"C",
+			"D",
+			"B"
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.3,
+			1.5,
+			0.85
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Kongo-Class"
+		}
+	},
+	[305011] = {
+		name = "Fusou",
+		type = 5,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.23",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -98930,6 +104800,7 @@ pg.ship_data_statistics = {
 		skin_id = 305010,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 3,
 		attrs = {
@@ -99014,6 +104885,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -99032,13 +104908,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[305012] = {
-		oxy_max = 0,
+		name = "Fusou",
 		type = 5,
 		personality = 2,
-		backyard_speed = "0.23",
-		name = "Fusou",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.23",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -99051,6 +104927,7 @@ pg.ship_data_statistics = {
 		skin_id = 305010,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 3,
 		attrs = {
@@ -99135,6 +105012,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -99153,13 +105035,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[305013] = {
-		oxy_max = 0,
+		name = "Fusou",
 		type = 5,
 		personality = 2,
-		backyard_speed = "0.23",
-		name = "Fusou",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.23",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -99172,6 +105054,7 @@ pg.ship_data_statistics = {
 		skin_id = 305010,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 3,
 		attrs = {
@@ -99256,6 +105139,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -99274,13 +105162,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[305014] = {
-		oxy_max = 0,
+		name = "Fusou",
 		type = 5,
 		personality = 2,
-		backyard_speed = "0.23",
-		name = "Fusou",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.23",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -99293,6 +105181,7 @@ pg.ship_data_statistics = {
 		skin_id = 305010,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 3,
 		attrs = {
@@ -99377,6 +105266,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -99395,13 +105289,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[305021] = {
-		oxy_max = 0,
+		name = "Yamashiro",
 		type = 5,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Yamashiro",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -99414,6 +105308,7 @@ pg.ship_data_statistics = {
 		skin_id = 305020,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 3,
 		attrs = {
@@ -99498,6 +105393,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -99516,13 +105416,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[305022] = {
-		oxy_max = 0,
+		name = "Yamashiro",
 		type = 5,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Yamashiro",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -99535,6 +105435,7 @@ pg.ship_data_statistics = {
 		skin_id = 305020,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 3,
 		attrs = {
@@ -99619,6 +105520,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -99637,13 +105543,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[305023] = {
-		oxy_max = 0,
+		name = "Yamashiro",
 		type = 5,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Yamashiro",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -99656,6 +105562,7 @@ pg.ship_data_statistics = {
 		skin_id = 305020,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 3,
 		attrs = {
@@ -99740,6 +105647,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -99758,13 +105670,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[305024] = {
-		oxy_max = 0,
+		name = "Yamashiro",
 		type = 5,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Yamashiro",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -99777,6 +105689,7 @@ pg.ship_data_statistics = {
 		skin_id = 305020,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 3,
 		attrs = {
@@ -99861,6 +105774,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -99879,13 +105797,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[305031] = {
-		oxy_max = 0,
+		name = "Ise",
 		type = 5,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Ise",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -99898,6 +105816,7 @@ pg.ship_data_statistics = {
 		skin_id = 305030,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 3,
 		attrs = {
@@ -99978,6 +105897,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -100000,13 +105924,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[305032] = {
-		oxy_max = 0,
+		name = "Ise",
 		type = 5,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Ise",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -100019,6 +105943,7 @@ pg.ship_data_statistics = {
 		skin_id = 305030,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 3,
 		attrs = {
@@ -100103,6 +106028,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -100121,13 +106051,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[305033] = {
-		oxy_max = 0,
+		name = "Ise",
 		type = 5,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Ise",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -100140,6 +106070,7 @@ pg.ship_data_statistics = {
 		skin_id = 305030,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 3,
 		attrs = {
@@ -100224,6 +106155,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -100242,13 +106178,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[305034] = {
-		oxy_max = 0,
+		name = "Ise",
 		type = 5,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Ise",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -100261,6 +106197,7 @@ pg.ship_data_statistics = {
 		skin_id = 305030,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 3,
 		attrs = {
@@ -100345,6 +106282,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -100363,13 +106305,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[305041] = {
-		oxy_max = 0,
+		name = "Hyuuga",
 		type = 5,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Hyuuga",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -100382,6 +106324,7 @@ pg.ship_data_statistics = {
 		skin_id = 305040,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 3,
 		attrs = {
@@ -100466,6 +106409,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -100484,13 +106432,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[305042] = {
-		oxy_max = 0,
+		name = "Hyuuga",
 		type = 5,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Hyuuga",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -100503,6 +106451,7 @@ pg.ship_data_statistics = {
 		skin_id = 305040,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 3,
 		attrs = {
@@ -100587,6 +106536,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -100605,13 +106559,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[305043] = {
-		oxy_max = 0,
+		name = "Hyuuga",
 		type = 5,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Hyuuga",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -100624,6 +106578,7 @@ pg.ship_data_statistics = {
 		skin_id = 305040,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 3,
 		attrs = {
@@ -100708,6 +106663,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -100726,13 +106686,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[305044] = {
-		oxy_max = 0,
+		name = "Hyuuga",
 		type = 5,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Hyuuga",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -100745,6 +106705,7 @@ pg.ship_data_statistics = {
 		skin_id = 305040,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 3,
 		attrs = {
@@ -100829,6 +106790,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -100847,13 +106813,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[305051] = {
-		oxy_max = 0,
+		name = "Nagato",
 		type = 5,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Nagato",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -100866,6 +106832,7 @@ pg.ship_data_statistics = {
 		skin_id = 305050,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 3,
 		attrs = {
@@ -100950,6 +106917,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -100968,13 +106940,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[305052] = {
-		oxy_max = 0,
+		name = "Nagato",
 		type = 5,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Nagato",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -100987,6 +106959,7 @@ pg.ship_data_statistics = {
 		skin_id = 305050,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 3,
 		attrs = {
@@ -101071,6 +107044,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -101089,13 +107067,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[305053] = {
-		oxy_max = 0,
+		name = "Nagato",
 		type = 5,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Nagato",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -101108,6 +107086,7 @@ pg.ship_data_statistics = {
 		skin_id = 305050,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 3,
 		attrs = {
@@ -101192,6 +107171,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -101210,13 +107194,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[305054] = {
-		oxy_max = 0,
+		name = "Nagato",
 		type = 5,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Nagato",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 6,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -101229,6 +107213,7 @@ pg.ship_data_statistics = {
 		skin_id = 305050,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 3,
 		attrs = {
@@ -101313,6 +107298,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -101331,13 +107321,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[305061] = {
-		oxy_max = 0,
+		name = "Mutsu",
 		type = 5,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Mutsu",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -101350,6 +107340,7 @@ pg.ship_data_statistics = {
 		skin_id = 305060,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 3,
 		attrs = {
@@ -101434,6 +107425,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -101452,13 +107448,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[305062] = {
-		oxy_max = 0,
+		name = "Mutsu",
 		type = 5,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Mutsu",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -101471,6 +107467,7 @@ pg.ship_data_statistics = {
 		skin_id = 305060,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 3,
 		attrs = {
@@ -101555,6 +107552,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -101573,13 +107575,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[305063] = {
-		oxy_max = 0,
+		name = "Mutsu",
 		type = 5,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Mutsu",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -101592,6 +107594,7 @@ pg.ship_data_statistics = {
 		skin_id = 305060,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 3,
 		attrs = {
@@ -101676,6 +107679,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -101694,13 +107702,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[305064] = {
-		oxy_max = 0,
+		name = "Mutsu",
 		type = 5,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Mutsu",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -101713,6 +107721,7 @@ pg.ship_data_statistics = {
 		skin_id = 305060,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 3,
 		attrs = {
@@ -101797,6 +107806,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -101815,13 +107829,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[305071] = {
-		oxy_max = 0,
+		name = "Kaga",
 		type = 5,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Kaga",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -101834,6 +107848,7 @@ pg.ship_data_statistics = {
 		skin_id = 305070,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 3,
 		attrs = {
@@ -101917,6 +107932,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -101935,13 +107955,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[305072] = {
-		oxy_max = 0,
+		name = "Kaga",
 		type = 5,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Kaga",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -101954,6 +107974,7 @@ pg.ship_data_statistics = {
 		skin_id = 305070,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 3,
 		attrs = {
@@ -102037,6 +108058,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -102055,13 +108081,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[305073] = {
-		oxy_max = 0,
+		name = "Kaga",
 		type = 5,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Kaga",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -102074,6 +108100,7 @@ pg.ship_data_statistics = {
 		skin_id = 305070,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 3,
 		attrs = {
@@ -102157,6 +108184,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -102175,13 +108207,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[305074] = {
-		oxy_max = 0,
+		name = "Kaga",
 		type = 5,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Kaga",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 6,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -102194,6 +108226,7 @@ pg.ship_data_statistics = {
 		skin_id = 305070,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 3,
 		attrs = {
@@ -102277,6 +108310,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -102295,13 +108333,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[305111] = {
-		oxy_max = 0,
+		name = "Mikasa",
 		type = 5,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Mikasa",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -102314,6 +108352,7 @@ pg.ship_data_statistics = {
 		skin_id = 305110,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 3,
 		attrs = {
@@ -102398,6 +108437,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -102416,13 +108460,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[305112] = {
-		oxy_max = 0,
+		name = "Mikasa",
 		type = 5,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Mikasa",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -102435,6 +108479,7 @@ pg.ship_data_statistics = {
 		skin_id = 305110,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 3,
 		attrs = {
@@ -102519,6 +108564,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -102537,13 +108587,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[305113] = {
-		oxy_max = 0,
+		name = "Mikasa",
 		type = 5,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Mikasa",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -102556,6 +108606,7 @@ pg.ship_data_statistics = {
 		skin_id = 305110,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 3,
 		attrs = {
@@ -102640,6 +108691,11 @@ pg.ship_data_statistics = {
 			2,
 			2
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -102658,13 +108714,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[305114] = {
-		oxy_max = 0,
+		name = "Mikasa",
 		type = 5,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Mikasa",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 6,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -102677,6 +108733,7 @@ pg.ship_data_statistics = {
 		skin_id = 305110,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 3,
 		attrs = {
@@ -102761,6 +108818,11 @@ pg.ship_data_statistics = {
 			2,
 			2
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -102779,13 +108841,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[306011] = {
-		oxy_max = 0,
+		name = "Hiyou",
 		type = 6,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Hiyou",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -102798,6 +108860,7 @@ pg.ship_data_statistics = {
 		skin_id = 306010,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 2,
 		attrs = {
@@ -102881,6 +108944,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -102899,13 +108967,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[306012] = {
-		oxy_max = 0,
+		name = "Hiyou",
 		type = 6,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Hiyou",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -102918,6 +108986,7 @@ pg.ship_data_statistics = {
 		skin_id = 306010,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 2,
 		attrs = {
@@ -103001,6 +109070,11 @@ pg.ship_data_statistics = {
 			1,
 			2
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -103019,13 +109093,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[306013] = {
-		oxy_max = 0,
+		name = "Hiyou",
 		type = 6,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Hiyou",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -103038,6 +109112,7 @@ pg.ship_data_statistics = {
 		skin_id = 306010,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 2,
 		attrs = {
@@ -103121,6 +109196,11 @@ pg.ship_data_statistics = {
 			1,
 			2
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -103139,13 +109219,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[306014] = {
-		oxy_max = 0,
+		name = "Hiyou",
 		type = 6,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Hiyou",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -103158,6 +109238,7 @@ pg.ship_data_statistics = {
 		skin_id = 306010,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 2,
 		attrs = {
@@ -103241,6 +109322,11 @@ pg.ship_data_statistics = {
 			3,
 			2
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -103259,13 +109345,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[306021] = {
-		oxy_max = 0,
+		name = "Junyo",
 		type = 6,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Junyo",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -103278,6 +109364,7 @@ pg.ship_data_statistics = {
 		skin_id = 306020,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 2,
 		attrs = {
@@ -103361,6 +109448,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -103379,13 +109471,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[306022] = {
-		oxy_max = 0,
+		name = "Junyo",
 		type = 6,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Junyo",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -103398,6 +109490,7 @@ pg.ship_data_statistics = {
 		skin_id = 306020,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 2,
 		attrs = {
@@ -103481,6 +109574,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -103499,13 +109597,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[306023] = {
-		oxy_max = 0,
+		name = "Junyo",
 		type = 6,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Junyo",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -103518,6 +109616,7 @@ pg.ship_data_statistics = {
 		skin_id = 306020,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 2,
 		attrs = {
@@ -103601,6 +109700,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -103619,13 +109723,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[306024] = {
-		oxy_max = 0,
+		name = "Junyo",
 		type = 6,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Junyo",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -103638,6 +109742,7 @@ pg.ship_data_statistics = {
 		skin_id = 306020,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 2,
 		attrs = {
@@ -103721,6 +109826,11 @@ pg.ship_data_statistics = {
 			2,
 			3
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -103739,13 +109849,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[306031] = {
-		oxy_max = 0,
+		name = "Houshou",
 		type = 6,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Houshou",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -103758,6 +109868,7 @@ pg.ship_data_statistics = {
 		skin_id = 306030,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 2,
 		attrs = {
@@ -103841,6 +109952,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -103859,13 +109975,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[306032] = {
-		oxy_max = 0,
+		name = "Houshou",
 		type = 6,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Houshou",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -103878,6 +109994,7 @@ pg.ship_data_statistics = {
 		skin_id = 306030,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 2,
 		attrs = {
@@ -103961,6 +110078,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -103979,13 +110101,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[306033] = {
-		oxy_max = 0,
+		name = "Houshou",
 		type = 6,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Houshou",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -103998,6 +110120,7 @@ pg.ship_data_statistics = {
 		skin_id = 306030,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 2,
 		attrs = {
@@ -104081,6 +110204,11 @@ pg.ship_data_statistics = {
 			2,
 			2
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -104099,13 +110227,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[306034] = {
-		oxy_max = 0,
+		name = "Houshou",
 		type = 6,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Houshou",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -104118,6 +110246,7 @@ pg.ship_data_statistics = {
 		skin_id = 306030,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 2,
 		attrs = {
@@ -104201,6 +110330,11 @@ pg.ship_data_statistics = {
 			3,
 			3
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -104219,13 +110353,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[306051] = {
-		oxy_max = 0,
+		name = "Shouhou",
 		type = 6,
 		personality = 2,
-		backyard_speed = "0.45",
-		name = "Shouhou",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.45",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -104238,6 +110372,7 @@ pg.ship_data_statistics = {
 		skin_id = 306050,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 2,
 		attrs = {
@@ -104321,6 +110456,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -104339,13 +110479,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[306052] = {
-		oxy_max = 0,
+		name = "Shouhou",
 		type = 6,
 		personality = 2,
-		backyard_speed = "0.45",
-		name = "Shouhou",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.45",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -104358,6 +110498,7 @@ pg.ship_data_statistics = {
 		skin_id = 306050,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 2,
 		attrs = {
@@ -104441,6 +110582,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -104459,13 +110605,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[306053] = {
-		oxy_max = 0,
+		name = "Shouhou",
 		type = 6,
 		personality = 2,
-		backyard_speed = "0.45",
-		name = "Shouhou",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.45",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -104478,6 +110624,7 @@ pg.ship_data_statistics = {
 		skin_id = 306050,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 2,
 		attrs = {
@@ -104561,6 +110708,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -104579,13 +110731,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[306054] = {
-		oxy_max = 0,
+		name = "Shouhou",
 		type = 6,
 		personality = 2,
-		backyard_speed = "0.45",
-		name = "Shouhou",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.45",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -104598,6 +110750,7 @@ pg.ship_data_statistics = {
 		skin_id = 306050,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 2,
 		attrs = {
@@ -104681,6 +110834,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -104699,13 +110857,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[306061] = {
-		oxy_max = 0,
+		name = "Ryuujou",
 		type = 6,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Ryuujou",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -104718,6 +110876,7 @@ pg.ship_data_statistics = {
 		skin_id = 306060,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 2,
 		attrs = {
@@ -104801,6 +110960,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -104819,13 +110983,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[306062] = {
-		oxy_max = 0,
+		name = "Ryuujou",
 		type = 6,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Ryuujou",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -104838,6 +111002,7 @@ pg.ship_data_statistics = {
 		skin_id = 306060,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 2,
 		attrs = {
@@ -104921,6 +111086,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -104939,13 +111109,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[306063] = {
-		oxy_max = 0,
+		name = "Ryuujou",
 		type = 6,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Ryuujou",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -104958,6 +111128,7 @@ pg.ship_data_statistics = {
 		skin_id = 306060,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 2,
 		attrs = {
@@ -105041,6 +111212,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -105059,13 +111235,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[306064] = {
-		oxy_max = 0,
+		name = "Ryuujou",
 		type = 6,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Ryuujou",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -105078,6 +111254,7 @@ pg.ship_data_statistics = {
 		skin_id = 306060,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 2,
 		attrs = {
@@ -105161,6 +111338,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -105179,13 +111361,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[307011] = {
-		oxy_max = 0,
+		name = "Akagi",
 		type = 7,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Akagi",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -105198,6 +111380,7 @@ pg.ship_data_statistics = {
 		skin_id = 307010,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 2,
 		attrs = {
@@ -105282,6 +111465,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -105300,13 +111488,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[307012] = {
-		oxy_max = 0,
+		name = "Akagi",
 		type = 7,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Akagi",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -105319,6 +111507,7 @@ pg.ship_data_statistics = {
 		skin_id = 307010,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 2,
 		attrs = {
@@ -105403,6 +111592,11 @@ pg.ship_data_statistics = {
 			1,
 			2
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -105421,13 +111615,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[307013] = {
-		oxy_max = 0,
+		name = "Akagi",
 		type = 7,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Akagi",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -105440,6 +111634,7 @@ pg.ship_data_statistics = {
 		skin_id = 307010,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 2,
 		attrs = {
@@ -105524,6 +111719,11 @@ pg.ship_data_statistics = {
 			1,
 			2
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -105542,13 +111742,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[307014] = {
-		oxy_max = 0,
+		name = "Akagi",
 		type = 7,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Akagi",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 6,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -105561,6 +111761,7 @@ pg.ship_data_statistics = {
 		skin_id = 307010,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 2,
 		attrs = {
@@ -105645,6 +111846,11 @@ pg.ship_data_statistics = {
 			2,
 			3
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -105663,13 +111869,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[307021] = {
-		oxy_max = 0,
+		name = "Kaga",
 		type = 7,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Kaga",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -105682,6 +111888,7 @@ pg.ship_data_statistics = {
 		skin_id = 307020,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 2,
 		attrs = {
@@ -105766,6 +111973,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -105784,13 +111996,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[307022] = {
-		oxy_max = 0,
+		name = "Kaga",
 		type = 7,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Kaga",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -105803,6 +112015,7 @@ pg.ship_data_statistics = {
 		skin_id = 307020,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 2,
 		attrs = {
@@ -105887,6 +112100,11 @@ pg.ship_data_statistics = {
 			1,
 			2
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -105905,13 +112123,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[307023] = {
-		oxy_max = 0,
+		name = "Kaga",
 		type = 7,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Kaga",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -105924,6 +112142,7 @@ pg.ship_data_statistics = {
 		skin_id = 307020,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 2,
 		attrs = {
@@ -106008,6 +112227,11 @@ pg.ship_data_statistics = {
 			1,
 			2
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -106026,13 +112250,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[307024] = {
-		oxy_max = 0,
+		name = "Kaga",
 		type = 7,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Kaga",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 6,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -106045,6 +112269,7 @@ pg.ship_data_statistics = {
 		skin_id = 307020,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 2,
 		attrs = {
@@ -106129,6 +112354,11 @@ pg.ship_data_statistics = {
 			2,
 			3
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -106147,13 +112377,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[307031] = {
-		oxy_max = 0,
+		name = "Souryuu",
 		type = 7,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Souryuu",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -106166,6 +112396,7 @@ pg.ship_data_statistics = {
 		skin_id = 307030,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 2,
 		attrs = {
@@ -106250,6 +112481,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -106268,13 +112504,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[307032] = {
-		oxy_max = 0,
+		name = "Souryuu",
 		type = 7,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Souryuu",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -106287,6 +112523,7 @@ pg.ship_data_statistics = {
 		skin_id = 307030,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 2,
 		attrs = {
@@ -106371,6 +112608,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -106389,13 +112631,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[307033] = {
-		oxy_max = 0,
+		name = "Souryuu",
 		type = 7,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Souryuu",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -106408,6 +112650,7 @@ pg.ship_data_statistics = {
 		skin_id = 307030,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 2,
 		attrs = {
@@ -106492,6 +112735,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -106510,13 +112758,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[307034] = {
-		oxy_max = 0,
+		name = "Souryuu",
 		type = 7,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Souryuu",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -106529,6 +112777,7 @@ pg.ship_data_statistics = {
 		skin_id = 307030,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 2,
 		attrs = {
@@ -106613,6 +112862,11 @@ pg.ship_data_statistics = {
 			3,
 			2
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -106631,13 +112885,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[307041] = {
-		oxy_max = 0,
+		name = "Hiryuu",
 		type = 7,
 		personality = 2,
-		backyard_speed = "0.4",
-		name = "Hiryuu",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.4",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -106650,6 +112904,7 @@ pg.ship_data_statistics = {
 		skin_id = 307040,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 2,
 		attrs = {
@@ -106734,6 +112989,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -106752,13 +113012,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[307042] = {
-		oxy_max = 0,
+		name = "Hiryuu",
 		type = 7,
 		personality = 2,
-		backyard_speed = "0.4",
-		name = "Hiryuu",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.4",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -106771,6 +113031,7 @@ pg.ship_data_statistics = {
 		skin_id = 307040,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 2,
 		attrs = {
@@ -106855,6 +113116,11 @@ pg.ship_data_statistics = {
 			1,
 			2
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -106873,13 +113139,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[307043] = {
-		oxy_max = 0,
+		name = "Hiryuu",
 		type = 7,
 		personality = 2,
-		backyard_speed = "0.4",
-		name = "Hiryuu",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.4",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -106892,6 +113158,7 @@ pg.ship_data_statistics = {
 		skin_id = 307040,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 2,
 		attrs = {
@@ -106976,6 +113243,11 @@ pg.ship_data_statistics = {
 			1,
 			2
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -106994,13 +113266,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[307044] = {
-		oxy_max = 0,
+		name = "Hiryuu",
 		type = 7,
 		personality = 2,
-		backyard_speed = "0.4",
-		name = "Hiryuu",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.4",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -107013,6 +113285,7 @@ pg.ship_data_statistics = {
 		skin_id = 307040,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 2,
 		attrs = {
@@ -107097,6 +113370,11 @@ pg.ship_data_statistics = {
 			2,
 			3
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -107115,13 +113393,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[307051] = {
-		oxy_max = 0,
+		name = "Shoukaku",
 		type = 7,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Shoukaku",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -107134,6 +113412,7 @@ pg.ship_data_statistics = {
 		skin_id = 307050,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 2,
 		attrs = {
@@ -107218,6 +113497,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -107236,13 +113520,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[307052] = {
-		oxy_max = 0,
+		name = "Shoukaku",
 		type = 7,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Shoukaku",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -107255,6 +113539,7 @@ pg.ship_data_statistics = {
 		skin_id = 307050,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 2,
 		attrs = {
@@ -107339,6 +113624,11 @@ pg.ship_data_statistics = {
 			1,
 			2
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -107357,13 +113647,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[307053] = {
-		oxy_max = 0,
+		name = "Shoukaku",
 		type = 7,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Shoukaku",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -107376,6 +113666,7 @@ pg.ship_data_statistics = {
 		skin_id = 307050,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 2,
 		attrs = {
@@ -107460,6 +113751,11 @@ pg.ship_data_statistics = {
 			1,
 			3
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -107478,13 +113774,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[307054] = {
-		oxy_max = 0,
+		name = "Shoukaku",
 		type = 7,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Shoukaku",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 6,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -107497,6 +113793,7 @@ pg.ship_data_statistics = {
 		skin_id = 307050,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 2,
 		attrs = {
@@ -107581,6 +113878,11 @@ pg.ship_data_statistics = {
 			2,
 			4
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -107599,13 +113901,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[307061] = {
-		oxy_max = 0,
+		name = "Zuikaku",
 		type = 7,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Zuikaku",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -107618,6 +113920,7 @@ pg.ship_data_statistics = {
 		skin_id = 307060,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 2,
 		attrs = {
@@ -107702,6 +114005,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -107720,13 +114028,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[307062] = {
-		oxy_max = 0,
+		name = "Zuikaku",
 		type = 7,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Zuikaku",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -107739,6 +114047,7 @@ pg.ship_data_statistics = {
 		skin_id = 307060,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 2,
 		attrs = {
@@ -107823,6 +114132,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -107841,13 +114155,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[307063] = {
-		oxy_max = 0,
+		name = "Zuikaku",
 		type = 7,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Zuikaku",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -107860,6 +114174,7 @@ pg.ship_data_statistics = {
 		skin_id = 307060,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 2,
 		attrs = {
@@ -107944,6 +114259,11 @@ pg.ship_data_statistics = {
 			2,
 			2
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -107962,13 +114282,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[307064] = {
-		oxy_max = 0,
+		name = "Zuikaku",
 		type = 7,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Zuikaku",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 6,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -107981,6 +114301,7 @@ pg.ship_data_statistics = {
 		skin_id = 307060,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 2,
 		attrs = {
@@ -108065,6 +114386,11 @@ pg.ship_data_statistics = {
 			3,
 			3
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -108082,14 +114408,522 @@ pg.ship_data_statistics = {
 		},
 		tag_list = {}
 	},
+	[307091] = {
+		name = "Akagi-chan ",
+		type = 7,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 2,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 307091,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Akagi",
+		skin_id = 307090,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 3,
+		armor_type = 2,
+		attrs = {
+			1077,
+			0,
+			0,
+			59,
+			75,
+			46,
+			0,
+			31,
+			13,
+			31.5,
+			42,
+			0
+		},
+		attrs_growth = {
+			26280,
+			0,
+			0,
+			1152,
+			740,
+			228,
+			0,
+			456,
+			192,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"E",
+			"E",
+			"A",
+			"C",
+			"B",
+			"B"
+		},
+		lock = {
+			"cannon",
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			117,
+			119,
+			118
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			1,
+			1.1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[307092] = {
+		name = "Akagi-chan ",
+		type = 7,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 3,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 307092,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Akagi",
+		skin_id = 307090,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 3,
+		armor_type = 2,
+		attrs = {
+			1340,
+			0,
+			0,
+			73,
+			94,
+			46,
+			0,
+			31,
+			13,
+			31.5,
+			42,
+			0
+		},
+		attrs_growth = {
+			26280,
+			0,
+			0,
+			1152,
+			740,
+			228,
+			0,
+			456,
+			192,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"E",
+			"E",
+			"A",
+			"C",
+			"B",
+			"B"
+		},
+		lock = {
+			"cannon",
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			117,
+			119,
+			118
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			2
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.13,
+			1.03,
+			1.13
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[307093] = {
+		name = "Akagi-chan ",
+		type = 7,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 4,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 307093,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Akagi",
+		skin_id = 307090,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 3,
+		armor_type = 2,
+		attrs = {
+			1865,
+			0,
+			0,
+			102,
+			131,
+			46,
+			0,
+			31,
+			13,
+			31.5,
+			42,
+			0
+		},
+		attrs_growth = {
+			26280,
+			0,
+			0,
+			1152,
+			740,
+			228,
+			0,
+			456,
+			192,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"E",
+			"E",
+			"A",
+			"C",
+			"B",
+			"B"
+		},
+		lock = {
+			"cannon",
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			117,
+			119,
+			118
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			1,
+			2
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.18,
+			1.08,
+			1.18
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[307094] = {
+		name = "Akagi-chan ",
+		type = 7,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 5,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 307094,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Akagi",
+		skin_id = 307090,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 3,
+		armor_type = 2,
+		attrs = {
+			2654,
+			0,
+			0,
+			145,
+			186,
+			46,
+			0,
+			31,
+			13,
+			31.5,
+			42,
+			0
+		},
+		attrs_growth = {
+			26280,
+			0,
+			0,
+			1152,
+			740,
+			228,
+			0,
+			456,
+			192,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			5779,
+			0,
+			0,
+			599,
+			1204,
+			537,
+			0,
+			-1,
+			768,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"E",
+			"E",
+			"A",
+			"C",
+			"B",
+			"B"
+		},
+		lock = {
+			"cannon",
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			117,
+			119,
+			118
+		},
+		depth_charge_list = {},
+		base_list = {
+			3,
+			2,
+			3
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.25,
+			1.15,
+			1.25
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
 	[308011] = {
-		oxy_max = 200,
+		name = "I-19",
 		type = 8,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "I-19",
+		oxy_max = 200,
 		oxy_cost = 10,
 		huntingrange_level = 1,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -108102,6 +114936,7 @@ pg.ship_data_statistics = {
 		skin_id = 308010,
 		painting_dir = 1,
 		attack_duration = 5,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -108182,6 +115017,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -108321,13 +115161,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[308012] = {
-		oxy_max = 200,
+		name = "I-19",
 		type = 8,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "I-19",
+		oxy_max = 200,
 		oxy_cost = 10,
 		huntingrange_level = 1,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -108340,6 +115180,7 @@ pg.ship_data_statistics = {
 		skin_id = 308010,
 		painting_dir = 1,
 		attack_duration = 5,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -108420,6 +115261,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -108559,13 +115405,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[308013] = {
-		oxy_max = 200,
+		name = "I-19",
 		type = 8,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "I-19",
+		oxy_max = 200,
 		oxy_cost = 10,
 		huntingrange_level = 2,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -108578,6 +115424,7 @@ pg.ship_data_statistics = {
 		skin_id = 308010,
 		painting_dir = 1,
 		attack_duration = 5,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -108660,6 +115507,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			2,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -108797,13 +115649,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[308014] = {
-		oxy_max = 200,
+		name = "I-19",
 		type = 8,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "I-19",
+		oxy_max = 200,
 		oxy_cost = 10,
 		huntingrange_level = 2,
+		backyard_speed = "0.3",
 		star = 6,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -108816,6 +115668,7 @@ pg.ship_data_statistics = {
 		skin_id = 308010,
 		painting_dir = 1,
 		attack_duration = 5,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -108898,6 +115751,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			2,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -109035,13 +115893,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[308021] = {
-		oxy_max = 218,
+		name = "I-26",
 		type = 8,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "I-26",
+		oxy_max = 218,
 		oxy_cost = 10,
 		huntingrange_level = 1,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -109054,6 +115912,7 @@ pg.ship_data_statistics = {
 		skin_id = 308020,
 		painting_dir = 1,
 		attack_duration = 5,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -109134,6 +115993,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -109265,13 +116129,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[308022] = {
-		oxy_max = 218,
+		name = "I-26",
 		type = 8,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "I-26",
+		oxy_max = 218,
 		oxy_cost = 10,
 		huntingrange_level = 1,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -109284,6 +116148,7 @@ pg.ship_data_statistics = {
 		skin_id = 308020,
 		painting_dir = 1,
 		attack_duration = 5,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -109364,6 +116229,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -109495,13 +116365,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[308023] = {
-		oxy_max = 218,
+		name = "I-26",
 		type = 8,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "I-26",
+		oxy_max = 218,
 		oxy_cost = 10,
 		huntingrange_level = 2,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -109514,6 +116384,7 @@ pg.ship_data_statistics = {
 		skin_id = 308020,
 		painting_dir = 1,
 		attack_duration = 5,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -109596,6 +116467,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			2,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -109725,13 +116601,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[308024] = {
-		oxy_max = 218,
+		name = "I-26",
 		type = 8,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "I-26",
+		oxy_max = 218,
 		oxy_cost = 10,
 		huntingrange_level = 2,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -109744,6 +116620,7 @@ pg.ship_data_statistics = {
 		skin_id = 308020,
 		painting_dir = 1,
 		attack_duration = 5,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -109826,6 +116703,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			2,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -109955,13 +116837,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[308031] = {
-		oxy_max = 268,
+		name = "I-58",
 		type = 8,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "I-58",
+		oxy_max = 268,
 		oxy_cost = 10,
 		huntingrange_level = 1,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -109974,6 +116856,7 @@ pg.ship_data_statistics = {
 		skin_id = 308030,
 		painting_dir = 1,
 		attack_duration = 4,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -110054,6 +116937,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -110189,13 +117077,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[308032] = {
-		oxy_max = 268,
+		name = "I-58",
 		type = 8,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "I-58",
+		oxy_max = 268,
 		oxy_cost = 10,
 		huntingrange_level = 1,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -110208,6 +117096,7 @@ pg.ship_data_statistics = {
 		skin_id = 308030,
 		painting_dir = 1,
 		attack_duration = 4,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -110288,6 +117177,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -110423,13 +117317,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[308033] = {
-		oxy_max = 268,
+		name = "I-58",
 		type = 8,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "I-58",
+		oxy_max = 268,
 		oxy_cost = 10,
 		huntingrange_level = 2,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -110442,6 +117336,7 @@ pg.ship_data_statistics = {
 		skin_id = 308030,
 		painting_dir = 1,
 		attack_duration = 4,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -110524,6 +117419,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			2,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -110657,13 +117557,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[308034] = {
-		oxy_max = 268,
+		name = "I-58",
 		type = 8,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "I-58",
+		oxy_max = 268,
 		oxy_cost = 10,
 		huntingrange_level = 2,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -110676,6 +117576,7 @@ pg.ship_data_statistics = {
 		skin_id = 308030,
 		painting_dir = 1,
 		attack_duration = 4,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -110758,6 +117659,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			2,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -110891,13 +117797,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[310014] = {
-		oxy_max = 0,
+		name = "Fusou Retrofit",
 		type = 10,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Fusou Retrofit",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -110910,6 +117816,7 @@ pg.ship_data_statistics = {
 		skin_id = 305010,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 3,
 		attrs = {
@@ -110993,6 +117900,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -111011,13 +117923,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[310024] = {
-		oxy_max = 0,
+		name = "Yamashiro Retrofit",
 		type = 10,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Yamashiro Retrofit",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -111030,6 +117942,7 @@ pg.ship_data_statistics = {
 		skin_id = 305020,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 3,
 		attrs = {
@@ -111113,6 +118026,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -111131,13 +118049,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[310034] = {
-		oxy_max = 0,
+		name = "Ise Retrofit",
 		type = 10,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Ise Retrofit",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -111150,6 +118068,7 @@ pg.ship_data_statistics = {
 		skin_id = 305030,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 3,
 		attrs = {
@@ -111231,6 +118150,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -111251,13 +118175,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[310044] = {
-		oxy_max = 0,
+		name = "Hyuuga Retrofit",
 		type = 10,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Hyuuga Retrofit",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -111270,6 +118194,7 @@ pg.ship_data_statistics = {
 		skin_id = 305040,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 3,
 		attrs = {
@@ -111353,6 +118278,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -111371,13 +118301,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[312011] = {
-		oxy_max = 0,
+		name = "Akashi",
 		type = 12,
 		personality = 2,
-		backyard_speed = "0.15",
-		name = "Akashi",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.15",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -111390,6 +118320,7 @@ pg.ship_data_statistics = {
 		skin_id = 312010,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -111474,6 +118405,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -111502,13 +118438,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[312012] = {
-		oxy_max = 0,
+		name = "Akashi",
 		type = 12,
 		personality = 2,
-		backyard_speed = "0.15",
-		name = "Akashi",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.15",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -111521,6 +118457,7 @@ pg.ship_data_statistics = {
 		skin_id = 312010,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -111605,6 +118542,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -111633,13 +118575,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[312013] = {
-		oxy_max = 0,
+		name = "Akashi",
 		type = 12,
 		personality = 2,
-		backyard_speed = "0.15",
-		name = "Akashi",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.15",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -111652,6 +118594,7 @@ pg.ship_data_statistics = {
 		skin_id = 312010,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -111736,6 +118679,11 @@ pg.ship_data_statistics = {
 			2,
 			2
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -111764,13 +118712,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[312014] = {
-		oxy_max = 0,
+		name = "Akashi",
 		type = 12,
 		personality = 2,
-		backyard_speed = "0.15",
-		name = "Akashi",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.15",
 		star = 6,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -111783,6 +118731,7 @@ pg.ship_data_statistics = {
 		skin_id = 312010,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -111867,6 +118816,11 @@ pg.ship_data_statistics = {
 			2,
 			2
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -111895,13 +118849,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[401011] = {
-		oxy_max = 0,
+		name = "Z1",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.45",
-		name = "Z1",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.45",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -111914,6 +118868,7 @@ pg.ship_data_statistics = {
 		skin_id = 401010,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 4,
 		armor_type = 1,
 		attrs = {
@@ -111998,6 +118953,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -112018,13 +118978,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[401012] = {
-		oxy_max = 0,
+		name = "Z1",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.45",
-		name = "Z1",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.45",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -112037,6 +118997,7 @@ pg.ship_data_statistics = {
 		skin_id = 401010,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 4,
 		armor_type = 1,
 		attrs = {
@@ -112121,6 +119082,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -112141,13 +119107,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[401013] = {
-		oxy_max = 0,
+		name = "Z1",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.45",
-		name = "Z1",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.45",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -112160,6 +119126,7 @@ pg.ship_data_statistics = {
 		skin_id = 401010,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 4,
 		armor_type = 1,
 		attrs = {
@@ -112244,6 +119211,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -112264,13 +119236,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[401014] = {
-		oxy_max = 0,
+		name = "Z1",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.45",
-		name = "Z1",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.45",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -112283,6 +119255,7 @@ pg.ship_data_statistics = {
 		skin_id = 401010,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 4,
 		armor_type = 1,
 		attrs = {
@@ -112367,6 +119340,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -112387,13 +119365,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[401191] = {
-		oxy_max = 0,
+		name = "Z19",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Z19",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -112406,6 +119384,7 @@ pg.ship_data_statistics = {
 		skin_id = 401190,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 4,
 		armor_type = 1,
 		attrs = {
@@ -112490,6 +119469,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -112510,13 +119494,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[401192] = {
-		oxy_max = 0,
+		name = "Z19",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Z19",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -112529,6 +119513,7 @@ pg.ship_data_statistics = {
 		skin_id = 401190,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 4,
 		armor_type = 1,
 		attrs = {
@@ -112613,6 +119598,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -112633,13 +119623,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[401193] = {
-		oxy_max = 0,
+		name = "Z19",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Z19",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -112652,6 +119642,7 @@ pg.ship_data_statistics = {
 		skin_id = 401190,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 4,
 		armor_type = 1,
 		attrs = {
@@ -112736,6 +119727,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -112756,13 +119752,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[401194] = {
-		oxy_max = 0,
+		name = "Z19",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Z19",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -112775,6 +119771,7 @@ pg.ship_data_statistics = {
 		skin_id = 401190,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 4,
 		armor_type = 1,
 		attrs = {
@@ -112859,6 +119856,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -112879,13 +119881,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[401201] = {
-		oxy_max = 0,
+		name = "Z20",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Z20",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 1,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -112898,6 +119900,7 @@ pg.ship_data_statistics = {
 		skin_id = 401200,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 4,
 		armor_type = 1,
 		attrs = {
@@ -112982,6 +119985,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -113002,13 +120010,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[401202] = {
-		oxy_max = 0,
+		name = "Z20",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Z20",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -113021,6 +120029,7 @@ pg.ship_data_statistics = {
 		skin_id = 401200,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 4,
 		armor_type = 1,
 		attrs = {
@@ -113105,6 +120114,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -113125,13 +120139,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[401203] = {
-		oxy_max = 0,
+		name = "Z20",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Z20",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -113144,6 +120158,7 @@ pg.ship_data_statistics = {
 		skin_id = 401200,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 4,
 		armor_type = 1,
 		attrs = {
@@ -113228,6 +120243,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -113248,13 +120268,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[401204] = {
-		oxy_max = 0,
+		name = "Z20",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Z20",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -113267,6 +120287,7 @@ pg.ship_data_statistics = {
 		skin_id = 401200,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 4,
 		armor_type = 1,
 		attrs = {
@@ -113351,6 +120372,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -113371,13 +120397,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[401211] = {
-		oxy_max = 0,
+		name = "Z21",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Z21",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 1,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -113390,6 +120416,7 @@ pg.ship_data_statistics = {
 		skin_id = 401210,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 4,
 		armor_type = 1,
 		attrs = {
@@ -113474,6 +120501,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -113494,13 +120526,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[401212] = {
-		oxy_max = 0,
+		name = "Z21",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Z21",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -113513,6 +120545,7 @@ pg.ship_data_statistics = {
 		skin_id = 401210,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 4,
 		armor_type = 1,
 		attrs = {
@@ -113597,6 +120630,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -113617,13 +120655,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[401213] = {
-		oxy_max = 0,
+		name = "Z21",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Z21",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -113636,6 +120674,7 @@ pg.ship_data_statistics = {
 		skin_id = 401210,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 4,
 		armor_type = 1,
 		attrs = {
@@ -113720,6 +120759,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -113740,13 +120784,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[401214] = {
-		oxy_max = 0,
+		name = "Z21",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Z21",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -113759,6 +120803,7 @@ pg.ship_data_statistics = {
 		skin_id = 401210,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 4,
 		armor_type = 1,
 		attrs = {
@@ -113843,6 +120888,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -113863,13 +120913,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[401231] = {
-		oxy_max = 0,
+		name = "Z23",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Z23",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -113882,6 +120932,7 @@ pg.ship_data_statistics = {
 		skin_id = 401230,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 4,
 		armor_type = 1,
 		attrs = {
@@ -113966,6 +121017,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -113986,13 +121042,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[401232] = {
-		oxy_max = 0,
+		name = "Z23",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Z23",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -114005,6 +121061,7 @@ pg.ship_data_statistics = {
 		skin_id = 401230,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 4,
 		armor_type = 1,
 		attrs = {
@@ -114089,6 +121146,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -114109,13 +121171,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[401233] = {
-		oxy_max = 0,
+		name = "Z23",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Z23",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -114128,6 +121190,7 @@ pg.ship_data_statistics = {
 		skin_id = 401230,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 4,
 		armor_type = 1,
 		attrs = {
@@ -114212,6 +121275,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -114232,13 +121300,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[401234] = {
-		oxy_max = 0,
+		name = "Z23",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Z23",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -114251,6 +121319,7 @@ pg.ship_data_statistics = {
 		skin_id = 401230,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 4,
 		armor_type = 1,
 		attrs = {
@@ -114335,6 +121404,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -114355,13 +121429,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[401251] = {
-		oxy_max = 0,
+		name = "Z25",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Z25",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -114374,6 +121448,7 @@ pg.ship_data_statistics = {
 		skin_id = 401250,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 4,
 		armor_type = 1,
 		attrs = {
@@ -114458,6 +121533,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -114478,13 +121558,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[401252] = {
-		oxy_max = 0,
+		name = "Z25",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Z25",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -114497,6 +121577,7 @@ pg.ship_data_statistics = {
 		skin_id = 401250,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 4,
 		armor_type = 1,
 		attrs = {
@@ -114581,6 +121662,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -114601,13 +121687,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[401253] = {
-		oxy_max = 0,
+		name = "Z25",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Z25",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -114620,6 +121706,7 @@ pg.ship_data_statistics = {
 		skin_id = 401250,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 4,
 		armor_type = 1,
 		attrs = {
@@ -114704,6 +121791,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -114724,13 +121816,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[401254] = {
-		oxy_max = 0,
+		name = "Z25",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Z25",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -114743,6 +121835,7 @@ pg.ship_data_statistics = {
 		skin_id = 401250,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 4,
 		armor_type = 1,
 		attrs = {
@@ -114827,6 +121920,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -114847,13 +121945,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[401351] = {
-		oxy_max = 0,
+		name = "Z35",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Z35",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -114866,6 +121964,7 @@ pg.ship_data_statistics = {
 		skin_id = 401350,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 4,
 		armor_type = 1,
 		attrs = {
@@ -114950,6 +122049,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -114970,13 +122074,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[401352] = {
-		oxy_max = 0,
+		name = "Z35",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Z35",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -114989,6 +122093,7 @@ pg.ship_data_statistics = {
 		skin_id = 401350,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 4,
 		armor_type = 1,
 		attrs = {
@@ -115073,6 +122178,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -115093,13 +122203,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[401353] = {
-		oxy_max = 0,
+		name = "Z35",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Z35",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -115112,6 +122222,7 @@ pg.ship_data_statistics = {
 		skin_id = 401350,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 4,
 		armor_type = 1,
 		attrs = {
@@ -115196,6 +122307,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -115216,13 +122332,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[401354] = {
-		oxy_max = 0,
+		name = "Z35",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Z35",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -115235,6 +122351,7 @@ pg.ship_data_statistics = {
 		skin_id = 401350,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 4,
 		armor_type = 1,
 		attrs = {
@@ -115319,6 +122436,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -115339,13 +122461,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[401461] = {
-		oxy_max = 0,
+		name = "Z46",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Z46",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -115358,6 +122480,7 @@ pg.ship_data_statistics = {
 		skin_id = 401460,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 4,
 		armor_type = 1,
 		attrs = {
@@ -115442,6 +122565,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -115462,13 +122590,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[401462] = {
-		oxy_max = 0,
+		name = "Z46",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Z46",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -115481,6 +122609,7 @@ pg.ship_data_statistics = {
 		skin_id = 401460,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 4,
 		armor_type = 1,
 		attrs = {
@@ -115565,6 +122694,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -115585,13 +122719,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[401463] = {
-		oxy_max = 0,
+		name = "Z46",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Z46",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -115604,6 +122738,7 @@ pg.ship_data_statistics = {
 		skin_id = 401460,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 4,
 		armor_type = 1,
 		attrs = {
@@ -115688,6 +122823,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -115708,13 +122848,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[401464] = {
-		oxy_max = 0,
+		name = "Z46",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Z46",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 6,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -115727,6 +122867,7 @@ pg.ship_data_statistics = {
 		skin_id = 401460,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 4,
 		armor_type = 1,
 		attrs = {
@@ -115811,6 +122952,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -115831,13 +122977,13 @@ pg.ship_data_statistics = {
 		}
 	},
 	[402011] = {
-		oxy_max = 0,
+		name = "Königsberg",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Königsberg",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 1,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -115850,6 +122996,7 @@ pg.ship_data_statistics = {
 		skin_id = 402010,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 4,
 		armor_type = 1,
 		attrs = {
@@ -115936,6 +123083,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -115955,13 +123107,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[402012] = {
-		oxy_max = 0,
+		name = "Königsberg",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Königsberg",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -115974,6 +123126,7 @@ pg.ship_data_statistics = {
 		skin_id = 402010,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 4,
 		armor_type = 1,
 		attrs = {
@@ -116060,6 +123213,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -116079,13 +123237,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[402013] = {
-		oxy_max = 0,
+		name = "Königsberg",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Königsberg",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -116098,6 +123256,7 @@ pg.ship_data_statistics = {
 		skin_id = 402010,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 4,
 		armor_type = 1,
 		attrs = {
@@ -116184,6 +123343,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -116203,13 +123367,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[402014] = {
-		oxy_max = 0,
+		name = "Königsberg",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Königsberg",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -116222,6 +123386,7 @@ pg.ship_data_statistics = {
 		skin_id = 402010,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 4,
 		armor_type = 1,
 		attrs = {
@@ -116308,6 +123473,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -116327,13 +123497,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[402021] = {
-		oxy_max = 0,
+		name = "Karlsruhe",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Karlsruhe",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 1,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -116346,6 +123516,7 @@ pg.ship_data_statistics = {
 		skin_id = 402020,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 4,
 		armor_type = 1,
 		attrs = {
@@ -116432,6 +123603,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -116451,13 +123627,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[402022] = {
-		oxy_max = 0,
+		name = "Karlsruhe",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Karlsruhe",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -116470,6 +123646,7 @@ pg.ship_data_statistics = {
 		skin_id = 402020,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 4,
 		armor_type = 1,
 		attrs = {
@@ -116556,6 +123733,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -116575,13 +123757,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[402023] = {
-		oxy_max = 0,
+		name = "Karlsruhe",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Karlsruhe",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -116594,6 +123776,7 @@ pg.ship_data_statistics = {
 		skin_id = 402020,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 4,
 		armor_type = 1,
 		attrs = {
@@ -116680,6 +123863,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -116699,13 +123887,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[402024] = {
-		oxy_max = 0,
+		name = "Karlsruhe",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Karlsruhe",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -116718,6 +123906,7 @@ pg.ship_data_statistics = {
 		skin_id = 402020,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 4,
 		armor_type = 1,
 		attrs = {
@@ -116804,6 +123993,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -116823,13 +124017,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[402031] = {
-		oxy_max = 0,
+		name = "Köln",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Köln",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 1,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -116842,6 +124036,7 @@ pg.ship_data_statistics = {
 		skin_id = 402030,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 4,
 		armor_type = 1,
 		attrs = {
@@ -116928,6 +124123,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -116947,13 +124147,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[402032] = {
-		oxy_max = 0,
+		name = "Köln",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Köln",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -116966,6 +124166,7 @@ pg.ship_data_statistics = {
 		skin_id = 402030,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 4,
 		armor_type = 1,
 		attrs = {
@@ -117052,6 +124253,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -117071,13 +124277,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[402033] = {
-		oxy_max = 0,
+		name = "Köln",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Köln",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -117090,6 +124296,7 @@ pg.ship_data_statistics = {
 		skin_id = 402030,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 4,
 		armor_type = 1,
 		attrs = {
@@ -117176,6 +124383,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -117195,13 +124407,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[402034] = {
-		oxy_max = 0,
+		name = "Köln",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Köln",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -117214,6 +124426,7 @@ pg.ship_data_statistics = {
 		skin_id = 402030,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 4,
 		armor_type = 1,
 		attrs = {
@@ -117300,6 +124513,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -117319,13 +124537,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[402041] = {
-		oxy_max = 0,
+		name = "Leipzig",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.23",
-		name = "Leipzig",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.23",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -117338,6 +124556,7 @@ pg.ship_data_statistics = {
 		skin_id = 402040,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 4,
 		armor_type = 1,
 		attrs = {
@@ -117424,6 +124643,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -117443,13 +124667,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[402042] = {
-		oxy_max = 0,
+		name = "Leipzig",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.23",
-		name = "Leipzig",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.23",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -117462,6 +124686,7 @@ pg.ship_data_statistics = {
 		skin_id = 402040,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 4,
 		armor_type = 1,
 		attrs = {
@@ -117548,6 +124773,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -117567,13 +124797,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[402043] = {
-		oxy_max = 0,
+		name = "Leipzig",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.23",
-		name = "Leipzig",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.23",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -117586,6 +124816,7 @@ pg.ship_data_statistics = {
 		skin_id = 402040,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 4,
 		armor_type = 1,
 		attrs = {
@@ -117672,6 +124903,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -117691,13 +124927,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[402044] = {
-		oxy_max = 0,
+		name = "Leipzig",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.23",
-		name = "Leipzig",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.23",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -117710,6 +124946,7 @@ pg.ship_data_statistics = {
 		skin_id = 402040,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 4,
 		armor_type = 1,
 		attrs = {
@@ -117796,6 +125033,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -117815,13 +125057,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[403011] = {
-		oxy_max = 0,
+		name = "Admiral Hipper",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Admiral Hipper",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -117834,6 +125076,7 @@ pg.ship_data_statistics = {
 		skin_id = 403010,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 4,
 		armor_type = 2,
 		attrs = {
@@ -117919,6 +125162,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -117938,13 +125186,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[403012] = {
-		oxy_max = 0,
+		name = "Admiral Hipper",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Admiral Hipper",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -117957,6 +125205,7 @@ pg.ship_data_statistics = {
 		skin_id = 403010,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 4,
 		armor_type = 2,
 		attrs = {
@@ -118042,6 +125291,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -118061,13 +125315,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[403013] = {
-		oxy_max = 0,
+		name = "Admiral Hipper",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Admiral Hipper",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -118080,6 +125334,7 @@ pg.ship_data_statistics = {
 		skin_id = 403010,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 4,
 		armor_type = 2,
 		attrs = {
@@ -118165,6 +125420,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -118184,13 +125444,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[403014] = {
-		oxy_max = 0,
+		name = "Admiral Hipper",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Admiral Hipper",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -118203,6 +125463,7 @@ pg.ship_data_statistics = {
 		skin_id = 403010,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 4,
 		armor_type = 2,
 		attrs = {
@@ -118288,6 +125549,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -118307,13 +125573,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[403031] = {
-		oxy_max = 0,
+		name = "Prinz Eugen",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Prinz Eugen",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -118326,6 +125592,7 @@ pg.ship_data_statistics = {
 		skin_id = 403030,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 4,
 		armor_type = 2,
 		attrs = {
@@ -118411,6 +125678,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -118430,13 +125702,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[403032] = {
-		oxy_max = 0,
+		name = "Prinz Eugen",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Prinz Eugen",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -118449,6 +125721,7 @@ pg.ship_data_statistics = {
 		skin_id = 403030,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 4,
 		armor_type = 2,
 		attrs = {
@@ -118534,6 +125807,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -118553,13 +125831,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[403033] = {
-		oxy_max = 0,
+		name = "Prinz Eugen",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Prinz Eugen",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -118572,6 +125850,7 @@ pg.ship_data_statistics = {
 		skin_id = 403030,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 4,
 		armor_type = 2,
 		attrs = {
@@ -118657,6 +125936,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -118676,13 +125960,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[403034] = {
-		oxy_max = 0,
+		name = "Prinz Eugen",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Prinz Eugen",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 6,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -118695,6 +125979,7 @@ pg.ship_data_statistics = {
 		skin_id = 403030,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 4,
 		armor_type = 2,
 		attrs = {
@@ -118780,6 +126065,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -118799,13 +126089,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[403041] = {
-		oxy_max = 0,
+		name = "Deutschland",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Deutschland",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -118818,6 +126108,7 @@ pg.ship_data_statistics = {
 		skin_id = 403040,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 4,
 		armor_type = 2,
 		attrs = {
@@ -118903,6 +126194,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -118922,13 +126218,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[403042] = {
-		oxy_max = 0,
+		name = "Deutschland",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Deutschland",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -118941,6 +126237,7 @@ pg.ship_data_statistics = {
 		skin_id = 403040,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 4,
 		armor_type = 2,
 		attrs = {
@@ -119026,6 +126323,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -119045,13 +126347,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[403043] = {
-		oxy_max = 0,
+		name = "Deutschland",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Deutschland",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -119064,6 +126366,7 @@ pg.ship_data_statistics = {
 		skin_id = 403040,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 4,
 		armor_type = 2,
 		attrs = {
@@ -119149,6 +126452,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -119168,13 +126476,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[403044] = {
-		oxy_max = 0,
+		name = "Deutschland",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Deutschland",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -119187,6 +126495,7 @@ pg.ship_data_statistics = {
 		skin_id = 403040,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 4,
 		armor_type = 2,
 		attrs = {
@@ -119272,6 +126581,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -119291,13 +126605,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[403051] = {
-		oxy_max = 0,
+		name = "Admiral Graf Spee",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Admiral Graf Spee",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -119310,6 +126624,7 @@ pg.ship_data_statistics = {
 		skin_id = 403050,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 4,
 		armor_type = 2,
 		attrs = {
@@ -119395,6 +126710,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -119414,13 +126734,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[403052] = {
-		oxy_max = 0,
+		name = "Admiral Graf Spee",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Admiral Graf Spee",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -119433,6 +126753,7 @@ pg.ship_data_statistics = {
 		skin_id = 403050,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 4,
 		armor_type = 2,
 		attrs = {
@@ -119518,6 +126839,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -119537,13 +126863,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[403053] = {
-		oxy_max = 0,
+		name = "Admiral Graf Spee",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Admiral Graf Spee",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -119556,6 +126882,7 @@ pg.ship_data_statistics = {
 		skin_id = 403050,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 4,
 		armor_type = 2,
 		attrs = {
@@ -119641,6 +126968,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -119660,13 +126992,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[403054] = {
-		oxy_max = 0,
+		name = "Admiral Graf Spee",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Admiral Graf Spee",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -119679,6 +127011,7 @@ pg.ship_data_statistics = {
 		skin_id = 403050,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 4,
 		armor_type = 2,
 		attrs = {
@@ -119764,6 +127097,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -119783,13 +127121,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[404011] = {
-		oxy_max = 0,
+		name = "Scharnhorst",
 		type = 4,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Scharnhorst",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -119802,6 +127140,7 @@ pg.ship_data_statistics = {
 		skin_id = 404010,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 4,
 		armor_type = 2,
 		attrs = {
@@ -119882,6 +127221,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -119904,13 +127248,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[404012] = {
-		oxy_max = 0,
+		name = "Scharnhorst",
 		type = 4,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Scharnhorst",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -119923,6 +127267,7 @@ pg.ship_data_statistics = {
 		skin_id = 404010,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 4,
 		armor_type = 2,
 		attrs = {
@@ -120007,6 +127352,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -120025,13 +127375,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[404013] = {
-		oxy_max = 0,
+		name = "Scharnhorst",
 		type = 4,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Scharnhorst",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -120044,6 +127394,7 @@ pg.ship_data_statistics = {
 		skin_id = 404010,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 4,
 		armor_type = 2,
 		attrs = {
@@ -120127,6 +127478,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -120145,13 +127501,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[404014] = {
-		oxy_max = 0,
+		name = "Scharnhorst",
 		type = 4,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Scharnhorst",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -120164,6 +127520,7 @@ pg.ship_data_statistics = {
 		skin_id = 404010,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 4,
 		armor_type = 2,
 		attrs = {
@@ -120247,6 +127604,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -120265,13 +127627,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[404021] = {
-		oxy_max = 0,
+		name = "Gneisenau",
 		type = 4,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Gneisenau",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -120284,6 +127646,7 @@ pg.ship_data_statistics = {
 		skin_id = 404020,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 4,
 		armor_type = 2,
 		attrs = {
@@ -120368,6 +127731,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -120386,13 +127754,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[404022] = {
-		oxy_max = 0,
+		name = "Gneisenau",
 		type = 4,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Gneisenau",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -120405,6 +127773,7 @@ pg.ship_data_statistics = {
 		skin_id = 404020,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 4,
 		armor_type = 2,
 		attrs = {
@@ -120489,6 +127858,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -120507,13 +127881,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[404023] = {
-		oxy_max = 0,
+		name = "Gneisenau",
 		type = 4,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Gneisenau",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -120526,6 +127900,7 @@ pg.ship_data_statistics = {
 		skin_id = 404020,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 4,
 		armor_type = 2,
 		attrs = {
@@ -120609,6 +127984,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -120627,13 +128007,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[404024] = {
-		oxy_max = 0,
+		name = "Gneisenau",
 		type = 4,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Gneisenau",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -120646,6 +128026,7 @@ pg.ship_data_statistics = {
 		skin_id = 404020,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 4,
 		armor_type = 2,
 		attrs = {
@@ -120729,6 +128110,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -120747,13 +128133,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[405021] = {
-		oxy_max = 0,
+		name = "Tirpitz",
 		type = 5,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Tirpitz",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -120766,6 +128152,7 @@ pg.ship_data_statistics = {
 		skin_id = 405020,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 4,
 		armor_type = 3,
 		attrs = {
@@ -120849,6 +128236,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -120867,13 +128259,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[405022] = {
-		oxy_max = 0,
+		name = "Tirpitz",
 		type = 5,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Tirpitz",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -120886,6 +128278,7 @@ pg.ship_data_statistics = {
 		skin_id = 405020,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 4,
 		armor_type = 3,
 		attrs = {
@@ -120969,6 +128362,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -120987,13 +128385,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[405023] = {
-		oxy_max = 0,
+		name = "Tirpitz",
 		type = 5,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Tirpitz",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -121006,6 +128404,7 @@ pg.ship_data_statistics = {
 		skin_id = 405020,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 4,
 		armor_type = 3,
 		attrs = {
@@ -121089,6 +128488,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -121107,13 +128511,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[405024] = {
-		oxy_max = 0,
+		name = "Tirpitz",
 		type = 5,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Tirpitz",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 6,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -121126,6 +128530,7 @@ pg.ship_data_statistics = {
 		skin_id = 405020,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 4,
 		armor_type = 3,
 		attrs = {
@@ -121209,6 +128614,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -121227,13 +128637,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[407011] = {
-		oxy_max = 0,
+		name = "Graf Zeppelin",
 		type = 7,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Graf Zeppelin",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -121246,6 +128656,7 @@ pg.ship_data_statistics = {
 		skin_id = 407010,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 4,
 		armor_type = 2,
 		attrs = {
@@ -121330,6 +128741,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -121348,13 +128764,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[407012] = {
-		oxy_max = 0,
+		name = "Graf Zeppelin",
 		type = 7,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Graf Zeppelin",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -121367,6 +128783,7 @@ pg.ship_data_statistics = {
 		skin_id = 407010,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 4,
 		armor_type = 2,
 		attrs = {
@@ -121451,6 +128868,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -121469,13 +128891,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[407013] = {
-		oxy_max = 0,
+		name = "Graf Zeppelin",
 		type = 7,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Graf Zeppelin",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -121488,6 +128910,7 @@ pg.ship_data_statistics = {
 		skin_id = 407010,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 4,
 		armor_type = 2,
 		attrs = {
@@ -121572,6 +128995,11 @@ pg.ship_data_statistics = {
 			2,
 			2
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -121590,13 +129018,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[407014] = {
-		oxy_max = 0,
+		name = "Graf Zeppelin",
 		type = 7,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Graf Zeppelin",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 6,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -121609,6 +129037,7 @@ pg.ship_data_statistics = {
 		skin_id = 407010,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 4,
 		armor_type = 2,
 		attrs = {
@@ -121693,6 +129122,11 @@ pg.ship_data_statistics = {
 			3,
 			3
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -121710,14 +129144,518 @@ pg.ship_data_statistics = {
 		},
 		tag_list = {}
 	},
+	[407021] = {
+		name = "Zeppy ",
+		type = 7,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.2",
+		star = 2,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 407021,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "KMS Graf Zeppelin",
+		skin_id = 407020,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 4,
+		armor_type = 2,
+		attrs = {
+			1228,
+			32,
+			0,
+			58,
+			71,
+			41,
+			0,
+			29,
+			16,
+			33.8,
+			45,
+			0
+		},
+		attrs_growth = {
+			29945,
+			318,
+			0,
+			1136,
+			704,
+			202,
+			0,
+			432,
+			234,
+			0,
+			0,
+			2
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"D",
+			"E",
+			"A",
+			"C",
+			"B",
+			"B"
+		},
+		lock = {
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			121,
+			123,
+			123
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1,
+			1.15,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[407022] = {
+		name = "Zeppy ",
+		type = 7,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.2",
+		star = 3,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 407022,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "KMS Graf Zeppelin",
+		skin_id = 407020,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 4,
+		armor_type = 2,
+		attrs = {
+			1527,
+			40,
+			0,
+			72,
+			89,
+			41,
+			0,
+			29,
+			16,
+			33.8,
+			45,
+			0
+		},
+		attrs_growth = {
+			29945,
+			318,
+			0,
+			1136,
+			704,
+			202,
+			0,
+			432,
+			234,
+			0,
+			0,
+			2
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"D",
+			"E",
+			"A",
+			"C",
+			"B",
+			"B"
+		},
+		lock = {
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			121,
+			123,
+			123
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.03,
+			1.18,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[407023] = {
+		name = "Zeppy ",
+		type = 7,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.2",
+		star = 4,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 407023,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "KMS Graf Zeppelin",
+		skin_id = 407020,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 4,
+		armor_type = 2,
+		attrs = {
+			2126,
+			56,
+			0,
+			101,
+			124,
+			41,
+			0,
+			29,
+			16,
+			33.8,
+			45,
+			0
+		},
+		attrs_growth = {
+			29945,
+			318,
+			0,
+			1136,
+			704,
+			202,
+			0,
+			432,
+			234,
+			0,
+			0,
+			2
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"D",
+			"E",
+			"A",
+			"C",
+			"B",
+			"B"
+		},
+		lock = {
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			121,
+			123,
+			123
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			2,
+			2
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.08,
+			1.23,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[407024] = {
+		name = "Zeppy ",
+		type = 7,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.2",
+		star = 5,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 407024,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "KMS Graf Zeppelin",
+		skin_id = 407020,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 4,
+		armor_type = 2,
+		attrs = {
+			3025,
+			80,
+			0,
+			143,
+			177,
+			41,
+			0,
+			29,
+			16,
+			33.8,
+			45,
+			0
+		},
+		attrs_growth = {
+			29945,
+			318,
+			0,
+			1136,
+			704,
+			202,
+			0,
+			432,
+			234,
+			0,
+			0,
+			2
+		},
+		attrs_growth_extra = {
+			0,
+			755,
+			0,
+			601,
+			1208,
+			473,
+			0,
+			2,
+			461,
+			0,
+			0,
+			-2
+		},
+		grades = {
+			"D",
+			"E",
+			"A",
+			"C",
+			"B",
+			"B"
+		},
+		lock = {
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			121,
+			123,
+			123
+		},
+		depth_charge_list = {},
+		base_list = {
+			3,
+			3,
+			2
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			1.3,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
 	[408011] = {
-		oxy_max = 188,
+		name = "U-81",
 		type = 8,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "U-81",
+		oxy_max = 188,
 		oxy_cost = 10,
 		huntingrange_level = 1,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -121730,6 +129668,7 @@ pg.ship_data_statistics = {
 		skin_id = 408010,
 		painting_dir = 1,
 		attack_duration = 5,
+		ignite_accuracy = 0,
 		nationality = 4,
 		armor_type = 1,
 		attrs = {
@@ -121810,6 +129749,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -121961,13 +129905,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[408012] = {
-		oxy_max = 188,
+		name = "U-81",
 		type = 8,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "U-81",
+		oxy_max = 188,
 		oxy_cost = 10,
 		huntingrange_level = 1,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -121980,6 +129924,7 @@ pg.ship_data_statistics = {
 		skin_id = 408010,
 		painting_dir = 1,
 		attack_duration = 5,
+		ignite_accuracy = 0,
 		nationality = 4,
 		armor_type = 1,
 		attrs = {
@@ -122060,6 +130005,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -122211,13 +130161,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[408013] = {
-		oxy_max = 188,
+		name = "U-81",
 		type = 8,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "U-81",
+		oxy_max = 188,
 		oxy_cost = 10,
 		huntingrange_level = 2,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -122230,6 +130180,7 @@ pg.ship_data_statistics = {
 		skin_id = 408010,
 		painting_dir = 1,
 		attack_duration = 5,
+		ignite_accuracy = 0,
 		nationality = 4,
 		armor_type = 1,
 		attrs = {
@@ -122312,6 +130263,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			2,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -122461,13 +130417,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[408014] = {
-		oxy_max = 188,
+		name = "U-81",
 		type = 8,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "U-81",
+		oxy_max = 188,
 		oxy_cost = 10,
 		huntingrange_level = 2,
+		backyard_speed = "0.3",
 		star = 6,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -122480,6 +130436,7 @@ pg.ship_data_statistics = {
 		skin_id = 408010,
 		painting_dir = 1,
 		attack_duration = 5,
+		ignite_accuracy = 0,
 		nationality = 4,
 		armor_type = 1,
 		attrs = {
@@ -122562,6 +130519,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			2,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -122711,13 +130673,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[501011] = {
-		oxy_max = 0,
+		name = "An Shan",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "An Shan",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -122730,6 +130692,7 @@ pg.ship_data_statistics = {
 		skin_id = 501010,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 5,
 		armor_type = 1,
 		attrs = {
@@ -122814,6 +130777,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -122832,13 +130800,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[501012] = {
-		oxy_max = 0,
+		name = "An Shan",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "An Shan",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -122851,6 +130819,7 @@ pg.ship_data_statistics = {
 		skin_id = 501010,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 5,
 		armor_type = 1,
 		attrs = {
@@ -122935,6 +130904,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -122953,13 +130927,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[501013] = {
-		oxy_max = 0,
+		name = "An Shan",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "An Shan",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -122972,6 +130946,7 @@ pg.ship_data_statistics = {
 		skin_id = 501010,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 5,
 		armor_type = 1,
 		attrs = {
@@ -123056,6 +131031,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -123074,13 +131054,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[501014] = {
-		oxy_max = 0,
+		name = "An Shan",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "An Shan",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -123093,6 +131073,7 @@ pg.ship_data_statistics = {
 		skin_id = 501010,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 5,
 		armor_type = 1,
 		attrs = {
@@ -123177,6 +131158,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -123195,13 +131181,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[501021] = {
-		oxy_max = 0,
+		name = "Fu Shun",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Fu Shun",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -123214,6 +131200,7 @@ pg.ship_data_statistics = {
 		skin_id = 501020,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 5,
 		armor_type = 1,
 		attrs = {
@@ -123298,6 +131285,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -123316,13 +131308,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[501022] = {
-		oxy_max = 0,
+		name = "Fu Shun",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Fu Shun",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -123335,6 +131327,7 @@ pg.ship_data_statistics = {
 		skin_id = 501020,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 5,
 		armor_type = 1,
 		attrs = {
@@ -123419,6 +131412,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -123437,13 +131435,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[501023] = {
-		oxy_max = 0,
+		name = "Fu Shun",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Fu Shun",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -123456,6 +131454,7 @@ pg.ship_data_statistics = {
 		skin_id = 501020,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 5,
 		armor_type = 1,
 		attrs = {
@@ -123540,6 +131539,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -123558,13 +131562,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[501024] = {
-		oxy_max = 0,
+		name = "Fu Shun",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Fu Shun",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -123577,6 +131581,7 @@ pg.ship_data_statistics = {
 		skin_id = 501020,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 5,
 		armor_type = 1,
 		attrs = {
@@ -123661,6 +131666,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -123679,13 +131689,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[501031] = {
-		oxy_max = 0,
+		name = "Chang Chun",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Chang Chun",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -123698,6 +131708,7 @@ pg.ship_data_statistics = {
 		skin_id = 501030,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 5,
 		armor_type = 1,
 		attrs = {
@@ -123782,6 +131793,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -123800,13 +131816,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[501032] = {
-		oxy_max = 0,
+		name = "Chang Chun",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Chang Chun",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -123819,6 +131835,7 @@ pg.ship_data_statistics = {
 		skin_id = 501030,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 5,
 		armor_type = 1,
 		attrs = {
@@ -123903,6 +131920,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -123921,13 +131943,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[501033] = {
-		oxy_max = 0,
+		name = "Chang Chun",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Chang Chun",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -123940,6 +131962,7 @@ pg.ship_data_statistics = {
 		skin_id = 501030,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 5,
 		armor_type = 1,
 		attrs = {
@@ -124024,6 +132047,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -124042,13 +132070,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[501034] = {
-		oxy_max = 0,
+		name = "Chang Chun",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Chang Chun",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -124061,6 +132089,7 @@ pg.ship_data_statistics = {
 		skin_id = 501030,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 5,
 		armor_type = 1,
 		attrs = {
@@ -124145,6 +132174,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -124163,13 +132197,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[501041] = {
-		oxy_max = 0,
+		name = "Tai Yuan",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Tai Yuan",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -124182,6 +132216,7 @@ pg.ship_data_statistics = {
 		skin_id = 501040,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 5,
 		armor_type = 1,
 		attrs = {
@@ -124266,6 +132301,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -124284,13 +132324,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[501042] = {
-		oxy_max = 0,
+		name = "Tai Yuan",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Tai Yuan",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -124303,6 +132343,7 @@ pg.ship_data_statistics = {
 		skin_id = 501040,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 5,
 		armor_type = 1,
 		attrs = {
@@ -124387,6 +132428,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -124405,13 +132451,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[501043] = {
-		oxy_max = 0,
+		name = "Tai Yuan",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Tai Yuan",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -124424,6 +132470,7 @@ pg.ship_data_statistics = {
 		skin_id = 501040,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 5,
 		armor_type = 1,
 		attrs = {
@@ -124508,6 +132555,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -124526,13 +132578,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[501044] = {
-		oxy_max = 0,
+		name = "Tai Yuan",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Tai Yuan",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -124545,6 +132597,7 @@ pg.ship_data_statistics = {
 		skin_id = 501040,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 5,
 		armor_type = 1,
 		attrs = {
@@ -124629,6 +132682,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -124647,13 +132705,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[502011] = {
-		oxy_max = 0,
+		name = "Yat Sen",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Yat Sen",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -124666,6 +132724,7 @@ pg.ship_data_statistics = {
 		skin_id = 502010,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 5,
 		armor_type = 1,
 		attrs = {
@@ -124751,6 +132810,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -124769,13 +132833,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[502012] = {
-		oxy_max = 0,
+		name = "Yat Sen",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Yat Sen",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -124788,6 +132852,7 @@ pg.ship_data_statistics = {
 		skin_id = 502010,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 5,
 		armor_type = 1,
 		attrs = {
@@ -124873,6 +132938,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -124891,13 +132961,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[502013] = {
-		oxy_max = 0,
+		name = "Yat Sen",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Yat Sen",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -124910,6 +132980,7 @@ pg.ship_data_statistics = {
 		skin_id = 502010,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 5,
 		armor_type = 1,
 		attrs = {
@@ -124995,6 +133066,11 @@ pg.ship_data_statistics = {
 			1,
 			2
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -125013,13 +133089,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[502014] = {
-		oxy_max = 0,
+		name = "Yat Sen",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Yat Sen",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -125032,6 +133108,7 @@ pg.ship_data_statistics = {
 		skin_id = 502010,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 5,
 		armor_type = 1,
 		attrs = {
@@ -125117,6 +133194,11 @@ pg.ship_data_statistics = {
 			1,
 			2
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -125135,13 +133217,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[502021] = {
-		oxy_max = 0,
+		name = "Ning Hai",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Ning Hai",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -125154,6 +133236,7 @@ pg.ship_data_statistics = {
 		skin_id = 502020,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 5,
 		armor_type = 1,
 		attrs = {
@@ -125240,6 +133323,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -125259,13 +133347,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[502022] = {
-		oxy_max = 0,
+		name = "Ning Hai",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Ning Hai",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -125278,6 +133366,7 @@ pg.ship_data_statistics = {
 		skin_id = 502020,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 5,
 		armor_type = 1,
 		attrs = {
@@ -125364,6 +133453,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -125383,13 +133477,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[502023] = {
-		oxy_max = 0,
+		name = "Ning Hai",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Ning Hai",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -125402,6 +133496,7 @@ pg.ship_data_statistics = {
 		skin_id = 502020,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 5,
 		armor_type = 1,
 		attrs = {
@@ -125488,6 +133583,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -125507,13 +133607,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[502024] = {
-		oxy_max = 0,
+		name = "Ning Hai",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Ning Hai",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -125526,6 +133626,7 @@ pg.ship_data_statistics = {
 		skin_id = 502020,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 5,
 		armor_type = 1,
 		attrs = {
@@ -125612,6 +133713,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -125631,13 +133737,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[502031] = {
-		oxy_max = 0,
+		name = "Ping Hai",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Ping Hai",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -125650,6 +133756,7 @@ pg.ship_data_statistics = {
 		skin_id = 502030,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 5,
 		armor_type = 1,
 		attrs = {
@@ -125736,6 +133843,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -125755,13 +133867,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[502032] = {
-		oxy_max = 0,
+		name = "Ping Hai",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Ping Hai",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -125774,6 +133886,7 @@ pg.ship_data_statistics = {
 		skin_id = 502030,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 5,
 		armor_type = 1,
 		attrs = {
@@ -125860,6 +133973,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -125879,13 +133997,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[502033] = {
-		oxy_max = 0,
+		name = "Ping Hai",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Ping Hai",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -125898,6 +134016,7 @@ pg.ship_data_statistics = {
 		skin_id = 502030,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 5,
 		armor_type = 1,
 		attrs = {
@@ -125984,6 +134103,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -126003,13 +134127,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[502034] = {
-		oxy_max = 0,
+		name = "Ping Hai",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Ping Hai",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -126022,6 +134146,7 @@ pg.ship_data_statistics = {
 		skin_id = 502030,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 5,
 		armor_type = 1,
 		attrs = {
@@ -126108,6 +134233,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -126127,13 +134257,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[702011] = {
-		oxy_max = 0,
+		name = "Avrora",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Avrora",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -126146,6 +134276,7 @@ pg.ship_data_statistics = {
 		skin_id = 702010,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 7,
 		armor_type = 2,
 		attrs = {
@@ -126232,6 +134363,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -126251,13 +134387,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[702012] = {
-		oxy_max = 0,
+		name = "Avrora",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Avrora",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -126270,6 +134406,7 @@ pg.ship_data_statistics = {
 		skin_id = 702010,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 7,
 		armor_type = 2,
 		attrs = {
@@ -126356,6 +134493,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -126375,13 +134517,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[702013] = {
-		oxy_max = 0,
+		name = "Avrora",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Avrora",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -126394,6 +134536,7 @@ pg.ship_data_statistics = {
 		skin_id = 702010,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 7,
 		armor_type = 2,
 		attrs = {
@@ -126480,6 +134623,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -126499,13 +134647,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[702014] = {
-		oxy_max = 0,
+		name = "Avrora",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Avrora",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 6,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -126518,6 +134666,7 @@ pg.ship_data_statistics = {
 		skin_id = 702010,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 7,
 		armor_type = 2,
 		attrs = {
@@ -126604,6 +134753,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -126623,13 +134777,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[904011] = {
-		oxy_max = 0,
+		name = "Dunkerque",
 		type = 4,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Dunkerque",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -126642,6 +134796,7 @@ pg.ship_data_statistics = {
 		skin_id = 904010,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 9,
 		armor_type = 2,
 		attrs = {
@@ -126726,6 +134881,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -126744,13 +134904,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[904012] = {
-		oxy_max = 0,
+		name = "Dunkerque",
 		type = 4,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Dunkerque",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -126763,6 +134923,7 @@ pg.ship_data_statistics = {
 		skin_id = 904010,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 9,
 		armor_type = 2,
 		attrs = {
@@ -126847,6 +135008,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			1,
 			0,
@@ -126865,13 +135031,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[904013] = {
-		oxy_max = 0,
+		name = "Dunkerque",
 		type = 4,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Dunkerque",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -126884,6 +135050,7 @@ pg.ship_data_statistics = {
 		skin_id = 904010,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 9,
 		armor_type = 2,
 		attrs = {
@@ -126968,6 +135135,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			1,
 			0,
@@ -126986,13 +135158,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[904014] = {
-		oxy_max = 0,
+		name = "Dunkerque",
 		type = 4,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Dunkerque",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -127005,6 +135177,7 @@ pg.ship_data_statistics = {
 		skin_id = 904010,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 9,
 		armor_type = 2,
 		attrs = {
@@ -127089,6 +135262,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			1,
 			0,
@@ -127107,13 +135285,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[900001] = {
-		oxy_max = 0,
+		name = "Königsberg",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Königsberg",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 1,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -127126,6 +135304,7 @@ pg.ship_data_statistics = {
 		skin_id = 900001,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 4,
 		armor_type = 2,
 		attrs = {
@@ -127204,6 +135383,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -127226,13 +135410,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[900002] = {
-		oxy_max = 0,
+		name = "Karlsruhe",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Karlsruhe",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 1,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -127245,6 +135429,7 @@ pg.ship_data_statistics = {
 		skin_id = 900002,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 4,
 		armor_type = 2,
 		attrs = {
@@ -127323,6 +135508,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -127345,13 +135535,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[900003] = {
-		oxy_max = 0,
+		name = "Köln",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Köln",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 1,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -127364,6 +135554,7 @@ pg.ship_data_statistics = {
 		skin_id = 900003,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 4,
 		armor_type = 2,
 		attrs = {
@@ -127446,6 +135637,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -127464,13 +135660,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[900004] = {
-		oxy_max = 0,
+		name = "Suffolk",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Suffolk",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -127483,6 +135679,7 @@ pg.ship_data_statistics = {
 		skin_id = 900004,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 2,
 		attrs = {
@@ -127565,6 +135762,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -127583,13 +135785,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[900005] = {
-		oxy_max = 0,
+		name = "Norfolk",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Norfolk",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -127602,6 +135804,7 @@ pg.ship_data_statistics = {
 		skin_id = 900005,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 2,
 		attrs = {
@@ -127684,6 +135887,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -127702,13 +135910,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[900006] = {
-		oxy_max = 0,
+		name = "Hood",
 		type = 4,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Hood",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 6,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -127721,6 +135929,7 @@ pg.ship_data_statistics = {
 		skin_id = 900006,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 2,
 		attrs = {
@@ -127804,6 +136013,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -127822,13 +136036,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[900007] = {
-		oxy_max = 0,
+		name = "Prince of Wales",
 		type = 5,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Prince of Wales",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -127841,6 +136055,7 @@ pg.ship_data_statistics = {
 		skin_id = 900007,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 3,
 		attrs = {
@@ -127924,6 +136139,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -127942,13 +136162,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[900008] = {
-		oxy_max = 0,
+		name = "Ark Royal",
 		type = 7,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Ark Royal",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 6,
@@ -127961,6 +136181,7 @@ pg.ship_data_statistics = {
 		skin_id = 900008,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 2,
 		attrs = {
@@ -128044,6 +136265,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -128062,13 +136288,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[900009] = {
-		oxy_max = 0,
+		name = "Prinz Eugen",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Prinz Eugen",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 6,
@@ -128081,6 +136307,7 @@ pg.ship_data_statistics = {
 		skin_id = 900009,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 4,
 		armor_type = 2,
 		attrs = {
@@ -128163,6 +136390,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -128181,13 +136413,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[900010] = {
-		oxy_max = 0,
+		name = "Bismarck",
 		type = 5,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Bismarck",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 6,
@@ -128200,6 +136432,7 @@ pg.ship_data_statistics = {
 		skin_id = 900010,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 4,
 		armor_type = 3,
 		attrs = {
@@ -128279,6 +136512,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -128301,13 +136539,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[900011] = {
-		oxy_max = 0,
+		name = "？？？？？",
 		type = 5,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "？？？？？",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 6,
@@ -128320,6 +136558,7 @@ pg.ship_data_statistics = {
 		skin_id = 900011,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 4,
 		armor_type = 3,
 		attrs = {
@@ -128399,6 +136638,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -128421,13 +136665,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[900012] = {
-		oxy_max = 0,
+		name = "？？？？？",
 		type = 5,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "？？？？？",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 6,
@@ -128440,6 +136684,7 @@ pg.ship_data_statistics = {
 		skin_id = 900012,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 4,
 		armor_type = 3,
 		attrs = {
@@ -128519,6 +136764,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -128541,13 +136791,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[900013] = {
-		oxy_max = 0,
+		name = "Tone",
 		type = 5,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Tone",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 6,
@@ -128560,6 +136810,7 @@ pg.ship_data_statistics = {
 		skin_id = 900013,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 4,
 		armor_type = 3,
 		attrs = {
@@ -128639,6 +136890,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -128661,13 +136917,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[900014] = {
-		oxy_max = 0,
+		name = "Kirishima",
 		type = 5,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Kirishima",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 6,
@@ -128680,6 +136936,7 @@ pg.ship_data_statistics = {
 		skin_id = 900014,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 4,
 		armor_type = 3,
 		attrs = {
@@ -128759,6 +137016,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -128781,13 +137043,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[900015] = {
-		oxy_max = 0,
+		name = "Mogami",
 		type = 5,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Mogami",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 6,
@@ -128800,6 +137062,7 @@ pg.ship_data_statistics = {
 		skin_id = 900015,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 4,
 		armor_type = 3,
 		attrs = {
@@ -128879,6 +137142,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -128901,13 +137169,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[900016] = {
-		oxy_max = 0,
+		name = "Atago",
 		type = 5,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Atago",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 6,
@@ -128920,6 +137188,7 @@ pg.ship_data_statistics = {
 		skin_id = 900016,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 4,
 		armor_type = 3,
 		attrs = {
@@ -128999,6 +137268,11 @@ pg.ship_data_statistics = {
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -129021,13 +137295,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[900017] = {
-		oxy_max = 0,
+		name = "Kongou",
 		type = 5,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Kongou",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 6,
@@ -129040,6 +137314,7 @@ pg.ship_data_statistics = {
 		skin_id = 900017,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 4,
 		armor_type = 3,
 		attrs = {
@@ -129123,6 +137398,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -129141,13 +137421,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[900018] = {
-		oxy_max = 0,
+		name = "Houshou",
 		type = 6,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Houshou",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -129160,6 +137440,7 @@ pg.ship_data_statistics = {
 		skin_id = 306031,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 2,
 		attrs = {
@@ -129243,6 +137524,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -129261,13 +137547,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[900019] = {
-		oxy_max = 0,
+		name = "Erebus",
 		type = 13,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Erebus",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -129280,6 +137566,7 @@ pg.ship_data_statistics = {
 		skin_id = 213011,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -129363,6 +137650,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -129381,13 +137673,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[900020] = {
-		oxy_max = 0,
+		name = "Yat Sen",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Yat Sen",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -129400,6 +137692,7 @@ pg.ship_data_statistics = {
 		skin_id = 502010,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 5,
 		armor_type = 2,
 		attrs = {
@@ -129483,6 +137776,11 @@ pg.ship_data_statistics = {
 			1,
 			2
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -129501,13 +137799,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[900021] = {
-		oxy_max = 0,
+		name = "?????",
 		type = 5,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "?????",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 6,
@@ -129520,6 +137818,7 @@ pg.ship_data_statistics = {
 		skin_id = 900021,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 4,
 		armor_type = 3,
 		attrs = {
@@ -129603,6 +137902,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -129621,13 +137925,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[900022] = {
-		oxy_max = 0,
+		name = "Ning Hai",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Ning Hai",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -129640,6 +137944,7 @@ pg.ship_data_statistics = {
 		skin_id = 900022,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 5,
 		armor_type = 2,
 		attrs = {
@@ -129722,6 +138027,11 @@ pg.ship_data_statistics = {
 			1,
 			1,
 			2
+		},
+		parallel_max = {
+			1,
+			1,
+			1
 		},
 		preload_count = {
 			0,
@@ -129741,13 +138051,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[900023] = {
-		oxy_max = 0,
+		name = "Ping Hai",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Ping Hai",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -129760,6 +138070,7 @@ pg.ship_data_statistics = {
 		skin_id = 900023,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 5,
 		armor_type = 2,
 		attrs = {
@@ -129842,6 +138153,11 @@ pg.ship_data_statistics = {
 			1,
 			1,
 			2
+		},
+		parallel_max = {
+			1,
+			1,
+			1
 		},
 		preload_count = {
 			0,
@@ -129861,13 +138177,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[900024] = {
-		oxy_max = 0,
+		name = "Yat Sen",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Yat Sen",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -129880,6 +138196,7 @@ pg.ship_data_statistics = {
 		skin_id = 900024,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 5,
 		armor_type = 2,
 		attrs = {
@@ -129962,6 +138279,11 @@ pg.ship_data_statistics = {
 			1,
 			1,
 			2
+		},
+		parallel_max = {
+			1,
+			1,
+			1
 		},
 		preload_count = {
 			0,
@@ -129981,13 +138303,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[900025] = {
-		oxy_max = 0,
+		name = "Ning Hai",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Ning Hai",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -130000,6 +138322,7 @@ pg.ship_data_statistics = {
 		skin_id = 502022,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 5,
 		armor_type = 2,
 		attrs = {
@@ -130082,6 +138405,11 @@ pg.ship_data_statistics = {
 			1,
 			1,
 			2
+		},
+		parallel_max = {
+			1,
+			1,
+			1
 		},
 		preload_count = {
 			0,
@@ -130101,13 +138429,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[900026] = {
-		oxy_max = 0,
+		name = "Ping Hai",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Ping Hai",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -130120,6 +138448,7 @@ pg.ship_data_statistics = {
 		skin_id = 502032,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 5,
 		armor_type = 2,
 		attrs = {
@@ -130203,6 +138532,11 @@ pg.ship_data_statistics = {
 			1,
 			2
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -130221,13 +138555,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[900027] = {
-		oxy_max = 0,
+		name = "Shoukaku",
 		type = 7,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Shoukaku",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -130240,6 +138574,7 @@ pg.ship_data_statistics = {
 		skin_id = 900027,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 2,
 		attrs = {
@@ -130323,6 +138658,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -130341,13 +138681,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[900028] = {
-		oxy_max = 0,
+		name = "Zuikaku",
 		type = 7,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Zuikaku",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -130360,6 +138700,7 @@ pg.ship_data_statistics = {
 		skin_id = 900028,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 2,
 		attrs = {
@@ -130443,6 +138784,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -130461,13 +138807,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[900029] = {
-		oxy_max = 0,
+		name = "Yamashiro Retrofit",
 		type = 5,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Yamashiro Retrofit",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -130480,6 +138826,7 @@ pg.ship_data_statistics = {
 		skin_id = 305029,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 3,
 		attrs = {
@@ -130563,6 +138910,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -130581,13 +138933,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[900030] = {
-		oxy_max = 0,
+		name = "Ning Hai",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Ning Hai",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -130600,6 +138952,7 @@ pg.ship_data_statistics = {
 		skin_id = 502020,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 5,
 		armor_type = 2,
 		attrs = {
@@ -130682,6 +139035,11 @@ pg.ship_data_statistics = {
 			1,
 			1,
 			2
+		},
+		parallel_max = {
+			1,
+			1,
+			1
 		},
 		preload_count = {
 			0,
@@ -130701,13 +139059,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[900031] = {
-		oxy_max = 0,
+		name = "Ping Hai",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Ping Hai",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -130720,6 +139078,7 @@ pg.ship_data_statistics = {
 		skin_id = 502030,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 5,
 		armor_type = 2,
 		attrs = {
@@ -130803,6 +139162,11 @@ pg.ship_data_statistics = {
 			1,
 			2
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -130821,13 +139185,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[900032] = {
-		oxy_max = 0,
+		name = "Yat Sen",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Yat Sen",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -130840,6 +139204,7 @@ pg.ship_data_statistics = {
 		skin_id = 900032,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 5,
 		armor_type = 2,
 		attrs = {
@@ -130923,6 +139288,11 @@ pg.ship_data_statistics = {
 			1,
 			2
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -130941,13 +139311,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[900033] = {
-		oxy_max = 0,
+		name = "Akashi",
 		type = 12,
 		personality = 2,
-		backyard_speed = "0.15",
-		name = "Akashi",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.15",
 		star = 6,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -130960,6 +139330,7 @@ pg.ship_data_statistics = {
 		skin_id = 900033,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -131043,6 +139414,11 @@ pg.ship_data_statistics = {
 			2,
 			2
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -131066,13 +139442,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[900034] = {
-		oxy_max = 0,
+		name = "Long Island",
 		type = 6,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Long Island",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -131085,6 +139461,7 @@ pg.ship_data_statistics = {
 		skin_id = 106011,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 2,
 		attrs = {
@@ -131168,6 +139545,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -131186,13 +139568,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[900035] = {
-		oxy_max = 0,
+		name = "Cleveland",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.45",
-		name = "Cleveland",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.45",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -131205,6 +139587,7 @@ pg.ship_data_statistics = {
 		skin_id = 102091,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -131287,6 +139670,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -131305,13 +139693,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[900036] = {
-		oxy_max = 0,
+		name = "Kagerou",
 		type = 1,
 		personality = 2,
-		backyard_speed = "1",
-		name = "Kagerou",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "1",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -131324,6 +139712,7 @@ pg.ship_data_statistics = {
 		skin_id = 301171,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -131406,6 +139795,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -131424,13 +139818,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[900037] = {
-		oxy_max = 0,
+		name = "Ayanami",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Ayanami",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -131443,6 +139837,7 @@ pg.ship_data_statistics = {
 		skin_id = 301051,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -131525,6 +139920,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -131543,13 +139943,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[900038] = {
-		oxy_max = 0,
+		name = "Shouhou",
 		type = 6,
 		personality = 2,
-		backyard_speed = "0.45",
-		name = "Shouhou",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.45",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -131562,6 +139962,7 @@ pg.ship_data_statistics = {
 		skin_id = 306051,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 2,
 		attrs = {
@@ -131645,6 +140046,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -131663,13 +140069,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[900039] = {
-		oxy_max = 0,
+		name = "Unicorn",
 		type = 6,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Unicorn",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -131682,6 +140088,7 @@ pg.ship_data_statistics = {
 		skin_id = 206031,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 2,
 		attrs = {
@@ -131765,6 +140172,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -131783,13 +140195,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[900040] = {
-		oxy_max = 0,
+		name = "Ayanami",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Ayanami",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -131802,6 +140214,7 @@ pg.ship_data_statistics = {
 		skin_id = 900040,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -131884,6 +140297,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -131902,13 +140320,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[900041] = {
-		oxy_max = 0,
+		name = "Takao",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Takao",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -131921,6 +140339,7 @@ pg.ship_data_statistics = {
 		skin_id = 900041,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 2,
 		attrs = {
@@ -132005,6 +140424,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -132024,13 +140448,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[900042] = {
-		oxy_max = 0,
+		name = "Atago",
 		type = 5,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Atago",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 6,
@@ -132043,6 +140467,7 @@ pg.ship_data_statistics = {
 		skin_id = 900042,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 4,
 		armor_type = 3,
 		attrs = {
@@ -132126,6 +140551,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -132144,13 +140574,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[900043] = {
-		oxy_max = 0,
+		name = "Shoukaku",
 		type = 7,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Shoukaku",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -132163,6 +140593,7 @@ pg.ship_data_statistics = {
 		skin_id = 900043,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 2,
 		attrs = {
@@ -132246,6 +140677,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -132264,13 +140700,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[900044] = {
-		oxy_max = 0,
+		name = "Zuikaku",
 		type = 7,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Zuikaku",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -132283,6 +140719,7 @@ pg.ship_data_statistics = {
 		skin_id = 900044,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 2,
 		attrs = {
@@ -132366,6 +140803,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -132384,13 +140826,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[900045] = {
-		oxy_max = 0,
+		name = "Mikasa",
 		type = 5,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Mikasa",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 6,
@@ -132403,6 +140845,7 @@ pg.ship_data_statistics = {
 		skin_id = 900045,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 4,
 		armor_type = 3,
 		attrs = {
@@ -132486,6 +140929,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -132504,13 +140952,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[900046] = {
-		oxy_max = 0,
+		name = "Hiei",
 		type = 5,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Hiei",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 6,
@@ -132523,6 +140971,7 @@ pg.ship_data_statistics = {
 		skin_id = 900046,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 4,
 		armor_type = 3,
 		attrs = {
@@ -132606,6 +141055,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -132624,13 +141078,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[900047] = {
-		oxy_max = 0,
+		name = "Illustrious",
 		type = 7,
 		personality = 2,
-		backyard_speed = "0.6",
-		name = "Illustrious",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.6",
 		star = 6,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -132643,6 +141097,7 @@ pg.ship_data_statistics = {
 		skin_id = 207031,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 3,
 		attrs = {
@@ -132726,6 +141181,11 @@ pg.ship_data_statistics = {
 			3,
 			2
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -132744,13 +141204,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[900048] = {
-		oxy_max = 0,
+		name = "Ikazuchi",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Ikazuchi",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -132763,6 +141223,7 @@ pg.ship_data_statistics = {
 		skin_id = 301111,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -132845,6 +141306,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -132863,13 +141329,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[900049] = {
-		oxy_max = 0,
+		name = "Inazuma",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Inazuma",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -132882,6 +141348,7 @@ pg.ship_data_statistics = {
 		skin_id = 301121,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -132964,6 +141431,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -132982,13 +141454,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[900050] = {
-		oxy_max = 0,
+		name = "Mikasa",
 		type = 5,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Mikasa",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 6,
@@ -133001,6 +141473,7 @@ pg.ship_data_statistics = {
 		skin_id = 900050,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 4,
 		armor_type = 3,
 		attrs = {
@@ -133084,6 +141557,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -133102,13 +141580,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[900051] = {
-		oxy_max = 0,
+		name = "Hiei",
 		type = 5,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Hiei",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 6,
@@ -133121,6 +141599,7 @@ pg.ship_data_statistics = {
 		skin_id = 900051,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 4,
 		armor_type = 3,
 		attrs = {
@@ -133204,6 +141683,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -133222,13 +141706,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[900052] = {
-		oxy_max = 0,
+		name = "Z23",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Z23",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -133241,6 +141725,7 @@ pg.ship_data_statistics = {
 		skin_id = 401231,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 4,
 		armor_type = 1,
 		attrs = {
@@ -133323,6 +141808,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -133341,13 +141831,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[900053] = {
-		oxy_max = 0,
+		name = "Ayanami",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Ayanami",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -133360,6 +141850,7 @@ pg.ship_data_statistics = {
 		skin_id = 301052,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -133442,6 +141933,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -133460,13 +141956,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[900054] = {
-		oxy_max = 0,
+		name = "Eldridge",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Eldridge",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 6,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -133479,6 +141975,7 @@ pg.ship_data_statistics = {
 		skin_id = 101261,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -133561,6 +142058,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -133579,13 +142081,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[900055] = {
-		oxy_max = 0,
+		name = "Enterprise",
 		type = 7,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Enterprise",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 6,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -133598,6 +142100,7 @@ pg.ship_data_statistics = {
 		skin_id = 107061,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 2,
 		attrs = {
@@ -133681,6 +142184,11 @@ pg.ship_data_statistics = {
 			3,
 			2
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -133699,13 +142207,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[900056] = {
-		oxy_max = 0,
+		name = "Yamashiro",
 		type = 5,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Yamashiro",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -133718,6 +142226,7 @@ pg.ship_data_statistics = {
 		skin_id = 305022,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 3,
 		attrs = {
@@ -133801,6 +142310,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -133819,13 +142333,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[900057] = {
-		oxy_max = 0,
+		name = "Cygnet",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Cygnet",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -133838,6 +142352,7 @@ pg.ship_data_statistics = {
 		skin_id = 201102,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -133920,6 +142435,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -133938,13 +142458,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[900058] = {
-		oxy_max = 0,
+		name = "San Diego",
 		type = 2,
 		personality = 2,
-		backyard_speed = "1",
-		name = "San Diego",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "1",
 		star = 6,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -133957,6 +142477,7 @@ pg.ship_data_statistics = {
 		skin_id = 102081,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -134041,6 +142562,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -134060,13 +142586,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[900059] = {
-		oxy_max = 0,
+		name = "Mutsuki",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Mutsuki",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -134079,6 +142605,7 @@ pg.ship_data_statistics = {
 		skin_id = 301321,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -134161,6 +142688,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -134179,13 +142711,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[900060] = {
-		oxy_max = 0,
+		name = "Gridley",
 		type = 1,
 		personality = 2,
-		backyard_speed = "1",
-		name = "Gridley",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "1",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -134198,6 +142730,7 @@ pg.ship_data_statistics = {
 		skin_id = 101051,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -134280,6 +142813,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -134298,13 +142836,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[900061] = {
-		oxy_max = 0,
+		name = "Akagi",
 		type = 7,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Akagi",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 6,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -134317,6 +142855,7 @@ pg.ship_data_statistics = {
 		skin_id = 307012,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 2,
 		attrs = {
@@ -134400,6 +142939,11 @@ pg.ship_data_statistics = {
 			2,
 			3
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -134418,13 +142962,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[900062] = {
-		oxy_max = 0,
+		name = "Kaga",
 		type = 7,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Kaga",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 6,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -134437,6 +142981,7 @@ pg.ship_data_statistics = {
 		skin_id = 307022,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 2,
 		attrs = {
@@ -134520,6 +143065,11 @@ pg.ship_data_statistics = {
 			2,
 			3
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -134538,13 +143088,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[900063] = {
-		oxy_max = 0,
+		name = "Akashi",
 		type = 12,
 		personality = 2,
-		backyard_speed = "0.15",
-		name = "Akashi",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.15",
 		star = 6,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -134557,6 +143107,7 @@ pg.ship_data_statistics = {
 		skin_id = 312011,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -134640,6 +143191,11 @@ pg.ship_data_statistics = {
 			2,
 			2
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -134658,13 +143214,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[900064] = {
-		oxy_max = 0,
+		name = "Souryuu",
 		type = 7,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Souryuu",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -134677,6 +143233,7 @@ pg.ship_data_statistics = {
 		skin_id = 307031,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 2,
 		attrs = {
@@ -134760,6 +143317,11 @@ pg.ship_data_statistics = {
 			3,
 			2
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -134778,13 +143340,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[900065] = {
-		oxy_max = 0,
+		name = "Laffey",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.45",
-		name = "Laffey",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.45",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -134797,6 +143359,7 @@ pg.ship_data_statistics = {
 		skin_id = 101172,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -134879,6 +143442,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -134897,13 +143465,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[900066] = {
-		oxy_max = 0,
+		name = "Yuudachi",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.6",
-		name = "Yuudachi",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.6",
 		star = 6,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -134916,6 +143484,7 @@ pg.ship_data_statistics = {
 		skin_id = 301141,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -134998,6 +143567,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -135016,13 +143590,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[900067] = {
-		oxy_max = 0,
+		name = "Prinz Eugen",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Prinz Eugen",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 6,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -135035,6 +143609,7 @@ pg.ship_data_statistics = {
 		skin_id = 403032,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 4,
 		armor_type = 2,
 		attrs = {
@@ -135119,6 +143694,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -135138,13 +143718,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[900068] = {
-		oxy_max = 0,
+		name = "Kisaragi",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Kisaragi",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -135157,6 +143737,7 @@ pg.ship_data_statistics = {
 		skin_id = 301331,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -135239,6 +143820,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -135257,13 +143843,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[900069] = {
-		oxy_max = 0,
+		name = "Atago",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Atago",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 6,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -135276,6 +143862,7 @@ pg.ship_data_statistics = {
 		skin_id = 303122,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 2,
 		attrs = {
@@ -135360,6 +143947,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -135379,13 +143971,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[900070] = {
-		oxy_max = 0,
+		name = "Enterprise",
 		type = 7,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Enterprise",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 6,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -135398,6 +143990,7 @@ pg.ship_data_statistics = {
 		skin_id = 900070,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 2,
 		attrs = {
@@ -135481,6 +144074,11 @@ pg.ship_data_statistics = {
 			3,
 			2
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -135499,13 +144097,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[900071] = {
-		oxy_max = 0,
+		name = "?????",
 		type = 5,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "?????",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 6,
@@ -135518,6 +144116,7 @@ pg.ship_data_statistics = {
 		skin_id = 900071,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 4,
 		armor_type = 3,
 		attrs = {
@@ -135601,6 +144200,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -135619,13 +144223,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[900072] = {
-		oxy_max = 0,
+		name = "Enterprise",
 		type = 7,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Enterprise",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 6,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -135638,6 +144242,7 @@ pg.ship_data_statistics = {
 		skin_id = 900072,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 2,
 		attrs = {
@@ -135721,6 +144326,11 @@ pg.ship_data_statistics = {
 			3,
 			2
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -135739,13 +144349,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[900073] = {
-		oxy_max = 0,
+		name = "Beach Rhapsody",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Beach Rhapsody",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 6,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -135758,6 +144368,7 @@ pg.ship_data_statistics = {
 		skin_id = 303112,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 2,
 		attrs = {
@@ -135842,6 +144453,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -135861,13 +144477,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[900074] = {
-		oxy_max = 0,
+		name = "Seven Seas of Rest",
 		type = 7,
 		personality = 2,
-		backyard_speed = "1",
-		name = "Seven Seas of Rest",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "1",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -135880,6 +144496,7 @@ pg.ship_data_statistics = {
 		skin_id = 107031,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 2,
 		attrs = {
@@ -135963,6 +144580,11 @@ pg.ship_data_statistics = {
 			3,
 			3
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -135981,13 +144603,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[900075] = {
-		oxy_max = 0,
+		name = "Yamashiro",
 		type = 5,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Yamashiro",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -136000,6 +144622,7 @@ pg.ship_data_statistics = {
 		skin_id = 305021,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 3,
 		attrs = {
@@ -136083,6 +144706,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -136101,13 +144729,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[900076] = {
-		oxy_max = 0,
+		name = "Blanc",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Blanc",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -136120,6 +144748,7 @@ pg.ship_data_statistics = {
 		skin_id = 900076,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 101,
 		armor_type = 1,
 		attrs = {
@@ -136202,6 +144831,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -136220,13 +144854,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[900077] = {
-		oxy_max = 0,
+		name = "Vert",
 		type = 7,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Vert",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -136239,6 +144873,7 @@ pg.ship_data_statistics = {
 		skin_id = 900077,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 101,
 		armor_type = 2,
 		attrs = {
@@ -136322,6 +144957,11 @@ pg.ship_data_statistics = {
 			3,
 			3
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -136340,13 +144980,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[900078] = {
-		oxy_max = 0,
+		name = "Cygnet",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Cygnet",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -136359,6 +144999,7 @@ pg.ship_data_statistics = {
 		skin_id = 201101,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -136441,6 +145082,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -136459,13 +145105,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[900079] = {
-		oxy_max = 0,
+		name = "Glorious",
 		type = 7,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Glorious",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -136478,6 +145124,7 @@ pg.ship_data_statistics = {
 		skin_id = 900079,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 2,
 		attrs = {
@@ -136561,6 +145208,11 @@ pg.ship_data_statistics = {
 			2,
 			2
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -136579,13 +145231,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[900080] = {
-		oxy_max = 0,
+		name = "Fubuki",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Fubuki",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -136598,6 +145250,7 @@ pg.ship_data_statistics = {
 		skin_id = 301011,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 1,
 		attrs = {
@@ -136680,6 +145333,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -136698,13 +145356,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[900081] = {
-		oxy_max = 0,
+		name = "Souryuu",
 		type = 7,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Souryuu",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -136717,6 +145375,7 @@ pg.ship_data_statistics = {
 		skin_id = 307032,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 2,
 		attrs = {
@@ -136800,6 +145459,11 @@ pg.ship_data_statistics = {
 			3,
 			2
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -136818,13 +145482,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[900082] = {
-		oxy_max = 0,
+		name = "Hiryuu",
 		type = 7,
 		personality = 2,
-		backyard_speed = "0.4",
-		name = "Hiryuu",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.4",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -136837,6 +145501,7 @@ pg.ship_data_statistics = {
 		skin_id = 307041,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 2,
 		attrs = {
@@ -136920,6 +145585,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -136938,13 +145608,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[900083] = {
-		oxy_max = 0,
+		name = "Z1",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.45",
-		name = "Z1",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.45",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -136957,6 +145627,7 @@ pg.ship_data_statistics = {
 		skin_id = 401011,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 4,
 		armor_type = 1,
 		attrs = {
@@ -137039,6 +145710,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -137057,13 +145733,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[900084] = {
-		oxy_max = 0,
+		name = "Craven",
 		type = 1,
 		personality = 2,
-		backyard_speed = "1",
-		name = "Craven",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "1",
 		star = 1,
 		oxy_recovery = 0,
 		rarity = 2,
@@ -137076,6 +145752,7 @@ pg.ship_data_statistics = {
 		skin_id = 101061,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -137158,6 +145835,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -137176,13 +145858,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[900085] = {
-		oxy_max = 0,
+		name = "Honolulu",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Honolulu",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 3,
@@ -137195,6 +145877,7 @@ pg.ship_data_statistics = {
 		skin_id = 102121,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -137278,6 +145961,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -137296,13 +145984,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[900086] = {
-		oxy_max = 0,
+		name = "Edinburgh",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Edinburgh",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -137315,6 +146003,7 @@ pg.ship_data_statistics = {
 		skin_id = 202111,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -137399,6 +146088,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -137418,13 +146112,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[900087] = {
-		oxy_max = 0,
+		name = "Eldridge",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Eldridge",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -137437,6 +146131,7 @@ pg.ship_data_statistics = {
 		skin_id = 101262,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -137519,6 +146214,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -137537,13 +146237,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[900088] = {
-		oxy_max = 0,
+		name = "Choukai ",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Choukai ",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -137556,6 +146256,7 @@ pg.ship_data_statistics = {
 		skin_id = 303140,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 3,
 		armor_type = 2,
 		attrs = {
@@ -137640,6 +146341,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -137659,13 +146365,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[900132] = {
-		oxy_max = 0,
+		name = "Helena ",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Helena ",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -137678,6 +146384,7 @@ pg.ship_data_statistics = {
 		skin_id = 102050,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 1,
 		attrs = {
@@ -137763,6 +146470,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -137781,13 +146493,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[900133] = {
-		oxy_max = 0,
+		name = "North Carolina ",
 		type = 5,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "North Carolina ",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 6,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -137800,6 +146512,7 @@ pg.ship_data_statistics = {
 		skin_id = 105120,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 3,
 		attrs = {
@@ -137884,6 +146597,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -137902,13 +146620,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[900134] = {
-		oxy_max = 0,
+		name = "Washington ",
 		type = 5,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Washington ",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 6,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -137921,6 +146639,7 @@ pg.ship_data_statistics = {
 		skin_id = 105130,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 3,
 		attrs = {
@@ -138005,6 +146724,11 @@ pg.ship_data_statistics = {
 			3,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -138023,13 +146747,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[900135] = {
-		oxy_max = 0,
+		name = "？？？？？",
 		type = 7,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "？？？？？",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 6,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -138042,6 +146766,7 @@ pg.ship_data_statistics = {
 		skin_id = 900135,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 2,
 		attrs = {
@@ -138125,6 +146850,11 @@ pg.ship_data_statistics = {
 			3,
 			3,
 			2
+		},
+		parallel_max = {
+			1,
+			1,
+			1
 		},
 		preload_count = {
 			0,
@@ -138144,13 +146874,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[900136] = {
-		oxy_max = 0,
+		name = "Observer zero",
 		type = 7,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Observer zero",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 6,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -138163,6 +146893,7 @@ pg.ship_data_statistics = {
 		skin_id = 900136,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 1,
 		armor_type = 2,
 		attrs = {
@@ -138247,6 +146978,11 @@ pg.ship_data_statistics = {
 			3,
 			2
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -138265,13 +147001,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[900137] = {
-		oxy_max = 0,
+		name = "Isuzu",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Isuzu",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -138284,6 +147020,7 @@ pg.ship_data_statistics = {
 		skin_id = 302051,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -138364,6 +147101,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -138386,13 +147128,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[900138] = {
-		oxy_max = 0,
+		name = "Bailey",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Bailey",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -138405,6 +147147,7 @@ pg.ship_data_statistics = {
 		skin_id = 101271,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -138485,6 +147228,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -138507,13 +147255,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[900139] = {
-		oxy_max = 0,
+		name = "Terror",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Terror",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -138526,6 +147274,7 @@ pg.ship_data_statistics = {
 		skin_id = 213021,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -138606,6 +147355,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -138628,13 +147382,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[900140] = {
-		oxy_max = 0,
+		name = "Nelson",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Nelson",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -138647,6 +147401,7 @@ pg.ship_data_statistics = {
 		skin_id = 205031,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -138727,6 +147482,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -138749,13 +147509,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[900141] = {
-		oxy_max = 0,
+		name = "Shouhou",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Shouhou",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -138768,6 +147528,7 @@ pg.ship_data_statistics = {
 		skin_id = 306051,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -138848,6 +147609,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -138870,13 +147636,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[900142] = {
-		oxy_max = 0,
+		name = "Cleveland",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Cleveland",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -138889,6 +147655,7 @@ pg.ship_data_statistics = {
 		skin_id = 102091,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -138969,6 +147736,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -138991,13 +147763,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[900143] = {
-		oxy_max = 0,
+		name = "Ayanami",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Ayanami",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -139010,6 +147782,7 @@ pg.ship_data_statistics = {
 		skin_id = 301051,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -139090,6 +147863,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -139112,13 +147890,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[900144] = {
-		oxy_max = 0,
+		name = "Kagerou",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Kagerou",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -139131,6 +147909,7 @@ pg.ship_data_statistics = {
 		skin_id = 301171,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -139211,6 +147990,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -139233,13 +148017,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[900145] = {
-		oxy_max = 0,
+		name = "Warspite",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Warspite",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -139252,6 +148036,7 @@ pg.ship_data_statistics = {
 		skin_id = 205021,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -139332,6 +148117,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -139354,13 +148144,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[900146] = {
-		oxy_max = 0,
+		name = "Nicholas",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Nicholas",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -139373,6 +148163,7 @@ pg.ship_data_statistics = {
 		skin_id = 101312,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -139453,6 +148244,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -139475,13 +148271,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[900147] = {
-		oxy_max = 0,
+		name = "Urakaze",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Urakaze",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -139494,6 +148290,7 @@ pg.ship_data_statistics = {
 		skin_id = 301591,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -139574,6 +148371,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -139596,13 +148398,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[900148] = {
-		oxy_max = 0,
+		name = "Ooshio",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Ooshio",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -139615,6 +148417,7 @@ pg.ship_data_statistics = {
 		skin_id = 301641,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -139695,6 +148498,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -139717,13 +148525,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[900149] = {
-		oxy_max = 0,
+		name = "Honolulu",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Honolulu",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -139736,6 +148544,7 @@ pg.ship_data_statistics = {
 		skin_id = 102123,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -139816,6 +148625,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -139838,13 +148652,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[900150] = {
-		oxy_max = 0,
+		name = "Arashio",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Arashio",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -139857,6 +148671,7 @@ pg.ship_data_statistics = {
 		skin_id = 301660,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -139937,6 +148752,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -139959,13 +148779,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[900151] = {
-		oxy_max = 0,
+		name = "Eldridge",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Eldridge",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -139978,6 +148798,7 @@ pg.ship_data_statistics = {
 		skin_id = 101263,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -140058,6 +148879,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -140080,13 +148906,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[900152] = {
-		oxy_max = 0,
+		name = "Ibuki",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Ibuki",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -140099,6 +148925,7 @@ pg.ship_data_statistics = {
 		skin_id = 399011,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -140179,6 +149006,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -140201,13 +149033,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[900153] = {
-		oxy_max = 0,
+		name = "Izumo",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Izumo",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -140220,6 +149052,7 @@ pg.ship_data_statistics = {
 		skin_id = 399021,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -140300,6 +149133,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -140322,13 +149160,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[900154] = {
-		oxy_max = 0,
+		name = "Prince of Wales",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Prince of Wales",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -140341,6 +149179,7 @@ pg.ship_data_statistics = {
 		skin_id = 205062,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -140421,6 +149260,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -140443,13 +149287,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[900155] = {
-		oxy_max = 0,
+		name = "St. Louis",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "St. Louis",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -140462,6 +149306,7 @@ pg.ship_data_statistics = {
 		skin_id = 102132,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -140542,6 +149387,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -140564,13 +149414,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[900156] = {
-		oxy_max = 0,
+		name = "Isokaze",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Isokaze",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -140583,6 +149433,7 @@ pg.ship_data_statistics = {
 		skin_id = 301601,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -140663,6 +149514,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -140685,13 +149541,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[900157] = {
-		oxy_max = 0,
+		name = "Helena",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Helena",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -140704,6 +149560,7 @@ pg.ship_data_statistics = {
 		skin_id = 102051,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -140784,6 +149641,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -140806,13 +149668,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[900158] = {
-		oxy_max = 0,
+		name = "Montpelier",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Montpelier",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -140825,6 +149687,7 @@ pg.ship_data_statistics = {
 		skin_id = 102141,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -140905,6 +149768,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -140927,13 +149795,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[900159] = {
-		oxy_max = 0,
+		name = "Ashigara",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Ashigara",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -140946,6 +149814,7 @@ pg.ship_data_statistics = {
 		skin_id = 303091,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -141026,6 +149895,11 @@ pg.ship_data_statistics = {
 			141
 		},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -141048,13 +149922,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[900160] = {
-		oxy_max = 0,
+		name = "Cygnet",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.2",
-		name = "Cygnet",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.2",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -141067,6 +149941,7 @@ pg.ship_data_statistics = {
 		skin_id = 201103,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
@@ -141151,6 +150026,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -141169,13 +150049,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[900163] = {
-		oxy_max = 0,
+		name = "Chang Chun",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Chang Chun",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -141188,6 +150068,7 @@ pg.ship_data_statistics = {
 		skin_id = 501031,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 5,
 		armor_type = 1,
 		attrs = {
@@ -141264,6 +150145,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -141284,13 +150170,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[900164] = {
-		oxy_max = 0,
+		name = "Tai Yuan",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Tai Yuan",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -141303,6 +150189,7 @@ pg.ship_data_statistics = {
 		skin_id = 501041,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 5,
 		armor_type = 1,
 		attrs = {
@@ -141379,6 +150266,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -141399,13 +150291,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[900165] = {
-		oxy_max = 0,
+		name = "Kimberly",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Kimberly",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -141418,6 +150310,7 @@ pg.ship_data_statistics = {
 		skin_id = 101382,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 5,
 		armor_type = 1,
 		attrs = {
@@ -141494,6 +150387,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -141514,13 +150412,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[900166] = {
-		oxy_max = 0,
+		name = "Mullany",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Mullany",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -141533,6 +150431,7 @@ pg.ship_data_statistics = {
 		skin_id = 101392,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 5,
 		armor_type = 1,
 		attrs = {
@@ -141609,6 +150508,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -141629,13 +150533,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[900167] = {
-		oxy_max = 0,
+		name = "Ayanami",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Ayanami",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -141648,6 +150552,7 @@ pg.ship_data_statistics = {
 		skin_id = 301054,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 5,
 		armor_type = 1,
 		attrs = {
@@ -141724,6 +150629,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -141744,13 +150654,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[900168] = {
-		oxy_max = 0,
+		name = "Yuugure",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Yuugure",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -141763,6 +150673,7 @@ pg.ship_data_statistics = {
 		skin_id = 301262,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 5,
 		armor_type = 1,
 		attrs = {
@@ -141839,6 +150750,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -141859,13 +150775,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[900169] = {
-		oxy_max = 0,
+		name = "Laffey",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Laffey",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -141878,6 +150794,7 @@ pg.ship_data_statistics = {
 		skin_id = 101173,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 5,
 		armor_type = 1,
 		attrs = {
@@ -141954,6 +150871,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -141974,13 +150896,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[900170] = {
-		oxy_max = 0,
+		name = "Enterprise",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Enterprise",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -141993,6 +150915,7 @@ pg.ship_data_statistics = {
 		skin_id = 107062,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 5,
 		armor_type = 1,
 		attrs = {
@@ -142069,6 +150992,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -142089,13 +151017,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[900171] = {
-		oxy_max = 0,
+		name = "Lexington",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Lexington",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -142108,6 +151036,7 @@ pg.ship_data_statistics = {
 		skin_id = 107021,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 5,
 		armor_type = 1,
 		attrs = {
@@ -142184,6 +151113,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -142204,13 +151138,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[900172] = {
-		oxy_max = 0,
+		name = "Belfas",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Belfas",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -142223,6 +151157,7 @@ pg.ship_data_statistics = {
 		skin_id = 202121,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 5,
 		armor_type = 1,
 		attrs = {
@@ -142299,6 +151234,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -142319,13 +151259,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[900173] = {
-		oxy_max = 0,
+		name = "Centaur",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Centaur",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -142338,6 +151278,7 @@ pg.ship_data_statistics = {
 		skin_id = 206042,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 5,
 		armor_type = 1,
 		attrs = {
@@ -142414,6 +151355,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -142434,13 +151380,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[900174] = {
-		oxy_max = 0,
+		name = "Monarch",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Monarch",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -142453,6 +151399,7 @@ pg.ship_data_statistics = {
 		skin_id = 299022,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 5,
 		armor_type = 1,
 		attrs = {
@@ -142529,6 +151476,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -142549,13 +151501,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[900175] = {
-		oxy_max = 0,
+		name = "Curacoa",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Curacoa",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -142568,6 +151520,7 @@ pg.ship_data_statistics = {
 		skin_id = 202211,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 5,
 		armor_type = 1,
 		attrs = {
@@ -142644,6 +151597,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -142664,13 +151622,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[900176] = {
-		oxy_max = 0,
+		name = "Curlew",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Curlew",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -142683,6 +151641,7 @@ pg.ship_data_statistics = {
 		skin_id = 202221,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 5,
 		armor_type = 1,
 		attrs = {
@@ -142759,6 +151718,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -142779,13 +151743,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[900177] = {
-		oxy_max = 0,
+		name = "Chaser",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Chaser",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -142798,6 +151762,7 @@ pg.ship_data_statistics = {
 		skin_id = 206051,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 5,
 		armor_type = 1,
 		attrs = {
@@ -142874,6 +151839,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -142894,13 +151864,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[900178] = {
-		oxy_max = 0,
+		name = "Sirius",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Sirius",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -142913,6 +151883,7 @@ pg.ship_data_statistics = {
 		skin_id = 202201,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 5,
 		armor_type = 1,
 		attrs = {
@@ -142991,6 +151962,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -143008,14 +151984,780 @@ pg.ship_data_statistics = {
 		},
 		tag_list = {}
 	},
-	[10100011] = {
-		oxy_max = 0,
+	[900907] = {
+		name = "Seattle",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Neptune",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 6,
+		oxy_recovery = 0,
+		rarity = 5,
+		ammo = 0,
+		id = 900907,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "simulation",
+		skin_id = 199010,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 1,
+		armor_type = 1,
+		attrs = {
+			924,
+			33,
+			0,
+			70,
+			0,
+			57,
+			0,
+			54,
+			28,
+			33,
+			0,
+			93
+		},
+		attrs_growth = {
+			22545,
+			652,
+			0,
+			1364,
+			0,
+			286,
+			0,
+			792,
+			414,
+			0,
+			0,
+			370
+		},
+		attrs_growth_extra = {
+			0,
+			443,
+			0,
+			528,
+			0,
+			674,
+			0,
+			3,
+			726,
+			0,
+			0,
+			428
+		},
+		grades = {
+			"E",
+			"E",
+			"E",
+			"E",
+			"E",
+			"E"
+		},
+		lock = {
+			"torpedo",
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			204
+		},
+		default_equip_list = {
+			12200,
+			12200,
+			16450
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.45,
+			0.65,
+			1.3,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[900908] = {
+		name = "Georgia",
+		type = 5,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 6,
+		oxy_recovery = 0,
+		rarity = 5,
+		ammo = 0,
+		id = 900908,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "simulation",
+		skin_id = 199020,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 1,
+		armor_type = 3,
+		attrs = {
+			1459,
+			84,
+			0,
+			79,
+			0,
+			60,
+			0,
+			23,
+			9,
+			33,
+			0,
+			0
+		},
+		attrs_growth = {
+			35580,
+			1656,
+			0,
+			1540,
+			0,
+			298,
+			0,
+			342,
+			138,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			333,
+			0,
+			425,
+			0,
+			707,
+			0,
+			278,
+			172,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"E",
+			"E",
+			"E",
+			"E",
+			"E",
+			"E"
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			14510,
+			11250,
+			16450
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.65,
+			2.1,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[900909] = {
+		name = "Kitakaze",
+		type = 1,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 6,
+		oxy_recovery = 0,
+		rarity = 5,
+		ammo = 0,
+		id = 900909,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "simulation",
+		skin_id = 399030,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 3,
+		armor_type = 1,
+		attrs = {
+			454,
+			16,
+			75,
+			37,
+			0,
+			82,
+			0,
+			75,
+			72,
+			44,
+			0,
+			49
+		},
+		attrs_growth = {
+			11075,
+			316,
+			1476,
+			716,
+			0,
+			408,
+			0,
+			1110,
+			1062,
+			0,
+			0,
+			484
+		},
+		attrs_growth_extra = {
+			2769,
+			217,
+			466,
+			492,
+			0,
+			965,
+			0,
+			-536,
+			-620,
+			0,
+			0,
+			448
+		},
+		grades = {
+			"E",
+			"E",
+			"E",
+			"E",
+			"E",
+			"E"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			31050,
+			35250,
+			36710
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.05,
+			1.35,
+			1.35
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[900910] = {
+		name = "Azuma",
+		type = 18,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 6,
+		oxy_recovery = 0,
+		rarity = 6,
+		ammo = 0,
+		id = 900910,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "simulation",
+		skin_id = 399040,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 3,
+		armor_type = 2,
+		attrs = {
+			1291,
+			58,
+			0,
+			42,
+			0,
+			62,
+			0,
+			43,
+			11,
+			27.2,
+			0,
+			0
+		},
+		attrs_growth = {
+			31480,
+			1136,
+			0,
+			824,
+			0,
+			310,
+			0,
+			636,
+			168,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			9444,
+			601,
+			0,
+			564,
+			0,
+			733,
+			0,
+			-111,
+			567,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"E",
+			"E",
+			"E",
+			"E",
+			"E",
+			"E"
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			33110,
+			31050,
+			36710
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1,
+			0.6,
+			1.1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[900911] = {
+		name = "Friedrich der Grosse",
+		type = 5,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 6,
+		oxy_recovery = 0,
+		rarity = 6,
+		ammo = 0,
+		id = 900911,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "simulation",
+		skin_id = 499020,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 4,
+		armor_type = 3,
+		attrs = {
+			1634,
+			87,
+			0,
+			45,
+			0,
+			58,
+			0,
+			22,
+			8,
+			30,
+			0,
+			0
+		},
+		attrs_growth = {
+			39855,
+			1708,
+			0,
+			880,
+			0,
+			288,
+			0,
+			330,
+			120,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			27892,
+			289,
+			0,
+			605,
+			0,
+			680,
+			0,
+			48,
+			175,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"E",
+			"E",
+			"E",
+			"E",
+			"E",
+			"E"
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			44210,
+			42250,
+			46350
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.6,
+			2.2,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[900912] = {
+		name = "Gascogne",
+		type = 5,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 6,
+		oxy_recovery = 0,
+		rarity = 5,
+		ammo = 0,
+		id = 900912,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "simulation",
+		skin_id = 999010,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 9,
+		armor_type = 3,
+		attrs = {
+			1334,
+			83,
+			0,
+			45,
+			0,
+			62,
+			0,
+			24,
+			10,
+			32,
+			0,
+			0
+		},
+		attrs_growth = {
+			32540,
+			1632,
+			0,
+			884,
+			0,
+			308,
+			0,
+			360,
+			144,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			13012,
+			354,
+			0,
+			601,
+			0,
+			727,
+			0,
+			43,
+			376,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"E",
+			"E",
+			"E",
+			"E",
+			"E",
+			"E"
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			90450,
+			32250,
+			90610
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			3,
+			1
+		},
+		parallel_max = {
+			2,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.8,
+			2,
+			0.8
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[10100011] = {
+		name = "Neptune",
+		type = 2,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -143028,6 +152770,7 @@ pg.ship_data_statistics = {
 		skin_id = 10100010,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 101,
 		armor_type = 1,
 		attrs = {
@@ -143114,6 +152857,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -143133,13 +152881,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[10100012] = {
-		oxy_max = 0,
+		name = "Neptune",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Neptune",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -143152,6 +152900,7 @@ pg.ship_data_statistics = {
 		skin_id = 10100010,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 101,
 		armor_type = 1,
 		attrs = {
@@ -143238,6 +152987,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -143257,13 +153011,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[10100013] = {
-		oxy_max = 0,
+		name = "Neptune",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Neptune",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -143276,6 +153030,7 @@ pg.ship_data_statistics = {
 		skin_id = 10100010,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 101,
 		armor_type = 1,
 		attrs = {
@@ -143362,6 +153117,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -143381,13 +153141,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[10100014] = {
-		oxy_max = 0,
+		name = "Neptune",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Neptune",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -143400,6 +153160,7 @@ pg.ship_data_statistics = {
 		skin_id = 10100010,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 101,
 		armor_type = 1,
 		attrs = {
@@ -143486,6 +153247,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -143505,13 +153271,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[10100021] = {
-		oxy_max = 0,
+		name = "Noire",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Noire",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -143524,6 +153290,7 @@ pg.ship_data_statistics = {
 		skin_id = 10100020,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 101,
 		armor_type = 2,
 		attrs = {
@@ -143577,7 +153344,8 @@ pg.ship_data_statistics = {
 			"B"
 		},
 		lock = {
-			"air"
+			"air",
+			"antisub"
 		},
 		cld_box = {
 			4,
@@ -143608,6 +153376,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -143627,13 +153400,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[10100022] = {
-		oxy_max = 0,
+		name = "Noire",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Noire",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -143646,6 +153419,7 @@ pg.ship_data_statistics = {
 		skin_id = 10100020,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 101,
 		armor_type = 2,
 		attrs = {
@@ -143699,7 +153473,8 @@ pg.ship_data_statistics = {
 			"B"
 		},
 		lock = {
-			"air"
+			"air",
+			"antisub"
 		},
 		cld_box = {
 			4,
@@ -143730,6 +153505,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -143749,13 +153529,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[10100023] = {
-		oxy_max = 0,
+		name = "Noire",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Noire",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -143768,6 +153548,7 @@ pg.ship_data_statistics = {
 		skin_id = 10100020,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 101,
 		armor_type = 2,
 		attrs = {
@@ -143821,7 +153602,8 @@ pg.ship_data_statistics = {
 			"B"
 		},
 		lock = {
-			"air"
+			"air",
+			"antisub"
 		},
 		cld_box = {
 			4,
@@ -143852,6 +153634,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -143871,13 +153658,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[10100024] = {
-		oxy_max = 0,
+		name = "Noire",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Noire",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -143890,6 +153677,7 @@ pg.ship_data_statistics = {
 		skin_id = 10100020,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 101,
 		armor_type = 2,
 		attrs = {
@@ -143943,7 +153731,8 @@ pg.ship_data_statistics = {
 			"B"
 		},
 		lock = {
-			"air"
+			"air",
+			"antisub"
 		},
 		cld_box = {
 			4,
@@ -143974,6 +153763,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -143993,13 +153787,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[10100031] = {
-		oxy_max = 0,
+		name = "Blanc",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Blanc",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -144012,6 +153806,7 @@ pg.ship_data_statistics = {
 		skin_id = 10100030,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 101,
 		armor_type = 1,
 		attrs = {
@@ -144096,6 +153891,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -144114,13 +153914,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[10100032] = {
-		oxy_max = 0,
+		name = "Blanc",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Blanc",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -144133,6 +153933,7 @@ pg.ship_data_statistics = {
 		skin_id = 10100030,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 101,
 		armor_type = 1,
 		attrs = {
@@ -144217,6 +154018,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -144235,13 +154041,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[10100033] = {
-		oxy_max = 0,
+		name = "Blanc",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Blanc",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -144254,6 +154060,7 @@ pg.ship_data_statistics = {
 		skin_id = 10100030,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 101,
 		armor_type = 1,
 		attrs = {
@@ -144338,6 +154145,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -144356,13 +154168,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[10100034] = {
-		oxy_max = 0,
+		name = "Blanc",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Blanc",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -144375,6 +154187,7 @@ pg.ship_data_statistics = {
 		skin_id = 10100030,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 101,
 		armor_type = 1,
 		attrs = {
@@ -144459,6 +154272,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -144477,13 +154295,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[10100041] = {
-		oxy_max = 0,
+		name = "Vert",
 		type = 7,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Vert",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 2,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -144496,6 +154314,7 @@ pg.ship_data_statistics = {
 		skin_id = 10100040,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 101,
 		armor_type = 2,
 		attrs = {
@@ -144550,7 +154369,8 @@ pg.ship_data_statistics = {
 		},
 		lock = {
 			"cannon",
-			"torpedo"
+			"torpedo",
+			"antisub"
 		},
 		cld_box = {
 			4,
@@ -144579,6 +154399,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -144597,13 +154422,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[10100042] = {
-		oxy_max = 0,
+		name = "Vert",
 		type = 7,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Vert",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -144616,6 +154441,7 @@ pg.ship_data_statistics = {
 		skin_id = 10100040,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 101,
 		armor_type = 2,
 		attrs = {
@@ -144670,7 +154496,8 @@ pg.ship_data_statistics = {
 		},
 		lock = {
 			"cannon",
-			"torpedo"
+			"torpedo",
+			"antisub"
 		},
 		cld_box = {
 			4,
@@ -144699,6 +154526,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -144717,13 +154549,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[10100043] = {
-		oxy_max = 0,
+		name = "Vert",
 		type = 7,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Vert",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -144736,6 +154568,7 @@ pg.ship_data_statistics = {
 		skin_id = 10100040,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 101,
 		armor_type = 2,
 		attrs = {
@@ -144790,7 +154623,8 @@ pg.ship_data_statistics = {
 		},
 		lock = {
 			"cannon",
-			"torpedo"
+			"torpedo",
+			"antisub"
 		},
 		cld_box = {
 			4,
@@ -144819,6 +154653,11 @@ pg.ship_data_statistics = {
 			2,
 			2
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -144837,13 +154676,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[10100044] = {
-		oxy_max = 0,
+		name = "Vert",
 		type = 7,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Vert",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 4,
@@ -144856,6 +154695,7 @@ pg.ship_data_statistics = {
 		skin_id = 10100040,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 101,
 		armor_type = 2,
 		attrs = {
@@ -144910,7 +154750,8 @@ pg.ship_data_statistics = {
 		},
 		lock = {
 			"cannon",
-			"torpedo"
+			"torpedo",
+			"antisub"
 		},
 		cld_box = {
 			4,
@@ -144939,6 +154780,11 @@ pg.ship_data_statistics = {
 			2,
 			2
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -144957,13 +154803,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[10100051] = {
-		oxy_max = 0,
+		name = "Purple Heart",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Purple Heart",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -144976,6 +154822,7 @@ pg.ship_data_statistics = {
 		skin_id = 10100050,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 101,
 		armor_type = 1,
 		attrs = {
@@ -145062,6 +154909,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -145081,13 +154933,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[10100052] = {
-		oxy_max = 0,
+		name = "Purple Heart",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Purple Heart",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -145100,6 +154952,7 @@ pg.ship_data_statistics = {
 		skin_id = 10100050,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 101,
 		armor_type = 1,
 		attrs = {
@@ -145186,6 +155039,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -145205,13 +155063,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[10100053] = {
-		oxy_max = 0,
+		name = "Purple Heart",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Purple Heart",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -145224,6 +155082,7 @@ pg.ship_data_statistics = {
 		skin_id = 10100050,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 101,
 		armor_type = 1,
 		attrs = {
@@ -145310,6 +155169,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -145329,13 +155193,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[10100054] = {
-		oxy_max = 0,
+		name = "Purple Heart",
 		type = 2,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Purple Heart",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 6,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -145348,6 +155212,7 @@ pg.ship_data_statistics = {
 		skin_id = 10100050,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 101,
 		armor_type = 1,
 		attrs = {
@@ -145434,6 +155299,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -145453,13 +155323,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[10100061] = {
-		oxy_max = 0,
+		name = "Black Heart",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Black Heart",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -145472,6 +155342,7 @@ pg.ship_data_statistics = {
 		skin_id = 10100060,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 101,
 		armor_type = 2,
 		attrs = {
@@ -145525,7 +155396,8 @@ pg.ship_data_statistics = {
 			"B"
 		},
 		lock = {
-			"air"
+			"air",
+			"antisub"
 		},
 		cld_box = {
 			4,
@@ -145556,6 +155428,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -145575,13 +155452,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[10100062] = {
-		oxy_max = 0,
+		name = "Black Heart",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Black Heart",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -145594,6 +155471,7 @@ pg.ship_data_statistics = {
 		skin_id = 10100060,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 101,
 		armor_type = 2,
 		attrs = {
@@ -145647,7 +155525,8 @@ pg.ship_data_statistics = {
 			"B"
 		},
 		lock = {
-			"air"
+			"air",
+			"antisub"
 		},
 		cld_box = {
 			4,
@@ -145678,6 +155557,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -145697,13 +155581,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[10100063] = {
-		oxy_max = 0,
+		name = "Black Heart",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Black Heart",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -145716,6 +155600,7 @@ pg.ship_data_statistics = {
 		skin_id = 10100060,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 101,
 		armor_type = 2,
 		attrs = {
@@ -145769,7 +155654,8 @@ pg.ship_data_statistics = {
 			"B"
 		},
 		lock = {
-			"air"
+			"air",
+			"antisub"
 		},
 		cld_box = {
 			4,
@@ -145800,6 +155686,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -145819,13 +155710,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[10100064] = {
-		oxy_max = 0,
+		name = "Black Heart",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Black Heart",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 6,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -145838,6 +155729,7 @@ pg.ship_data_statistics = {
 		skin_id = 10100060,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 101,
 		armor_type = 2,
 		attrs = {
@@ -145891,7 +155783,8 @@ pg.ship_data_statistics = {
 			"B"
 		},
 		lock = {
-			"air"
+			"air",
+			"antisub"
 		},
 		cld_box = {
 			4,
@@ -145922,6 +155815,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -145941,13 +155839,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[10100071] = {
-		oxy_max = 0,
+		name = "White Heart",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "White Heart",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -145960,6 +155858,7 @@ pg.ship_data_statistics = {
 		skin_id = 10100070,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 101,
 		armor_type = 1,
 		attrs = {
@@ -146044,6 +155943,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -146062,13 +155966,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[10100072] = {
-		oxy_max = 0,
+		name = "White Heart",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "White Heart",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -146081,6 +155985,7 @@ pg.ship_data_statistics = {
 		skin_id = 10100070,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 101,
 		armor_type = 1,
 		attrs = {
@@ -146165,6 +156070,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -146183,13 +156093,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[10100073] = {
-		oxy_max = 0,
+		name = "White Heart",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "White Heart",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -146202,6 +156112,7 @@ pg.ship_data_statistics = {
 		skin_id = 10100070,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 101,
 		armor_type = 1,
 		attrs = {
@@ -146286,6 +156197,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -146304,13 +156220,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[10100074] = {
-		oxy_max = 0,
+		name = "White Heart",
 		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "White Heart",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 6,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -146323,6 +156239,7 @@ pg.ship_data_statistics = {
 		skin_id = 10100070,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 101,
 		armor_type = 1,
 		attrs = {
@@ -146407,6 +156324,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			1,
@@ -146425,13 +156347,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[10100081] = {
-		oxy_max = 0,
+		name = "Green Heart",
 		type = 7,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Green Heart",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -146444,6 +156366,7 @@ pg.ship_data_statistics = {
 		skin_id = 10100080,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 101,
 		armor_type = 2,
 		attrs = {
@@ -146498,7 +156421,8 @@ pg.ship_data_statistics = {
 		},
 		lock = {
 			"cannon",
-			"torpedo"
+			"torpedo",
+			"antisub"
 		},
 		cld_box = {
 			4,
@@ -146527,6 +156451,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -146545,13 +156474,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[10100082] = {
-		oxy_max = 0,
+		name = "Green Heart",
 		type = 7,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Green Heart",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -146564,6 +156493,7 @@ pg.ship_data_statistics = {
 		skin_id = 10100080,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 101,
 		armor_type = 2,
 		attrs = {
@@ -146618,7 +156548,8 @@ pg.ship_data_statistics = {
 		},
 		lock = {
 			"cannon",
-			"torpedo"
+			"torpedo",
+			"antisub"
 		},
 		cld_box = {
 			4,
@@ -146647,6 +156578,11 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -146665,13 +156601,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[10100083] = {
-		oxy_max = 0,
+		name = "Green Heart",
 		type = 7,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Green Heart",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -146684,6 +156620,7 @@ pg.ship_data_statistics = {
 		skin_id = 10100080,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 101,
 		armor_type = 2,
 		attrs = {
@@ -146738,7 +156675,8 @@ pg.ship_data_statistics = {
 		},
 		lock = {
 			"cannon",
-			"torpedo"
+			"torpedo",
+			"antisub"
 		},
 		cld_box = {
 			4,
@@ -146767,6 +156705,11 @@ pg.ship_data_statistics = {
 			2,
 			2
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -146785,13 +156728,13 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[10100084] = {
-		oxy_max = 0,
+		name = "Green Heart",
 		type = 7,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Green Heart",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 6,
 		oxy_recovery = 0,
 		rarity = 5,
@@ -146804,6 +156747,7 @@ pg.ship_data_statistics = {
 		skin_id = 10100080,
 		painting_dir = 1,
 		attack_duration = 0,
+		ignite_accuracy = 0,
 		nationality = 101,
 		armor_type = 2,
 		attrs = {
@@ -146858,7 +156802,8 @@ pg.ship_data_statistics = {
 		},
 		lock = {
 			"cannon",
-			"torpedo"
+			"torpedo",
+			"antisub"
 		},
 		cld_box = {
 			4,
@@ -146887,6 +156832,11 @@ pg.ship_data_statistics = {
 			3,
 			3
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -146904,80 +156854,599 @@ pg.ship_data_statistics = {
 		},
 		tag_list = {}
 	},
-	[399011] = {
-		oxy_max = 0,
-		type = 3,
+	[10400011] = {
+		name = "Kizuna AI ",
+		type = 1,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Ibuki",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 2,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 10400011,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "KizunaAI",
+		skin_id = 10400010,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 104,
+		armor_type = 1,
+		attrs = {
+			285,
+			14,
+			91,
+			31,
+			0,
+			74,
+			0,
+			66,
+			71,
+			42,
+			66,
+			55
+		},
+		attrs_growth = {
+			6950,
+			136,
+			904,
+			608,
+			0,
+			366,
+			0,
+			972,
+			1050,
+			0,
+			0,
+			544
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"D",
+			"A",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			0.7,
+			1.4,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"KizunaAI"
+		}
+	},
+	[10400012] = {
+		name = "Kizuna AI ",
+		type = 1,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 3,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 10400012,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "KizunaAI",
+		skin_id = 10400010,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 104,
+		armor_type = 1,
+		attrs = {
+			355,
+			17,
+			114,
+			39,
+			0,
+			74,
+			0,
+			66,
+			71,
+			42,
+			66,
+			69
+		},
+		attrs_growth = {
+			6950,
+			136,
+			904,
+			608,
+			0,
+			366,
+			0,
+			972,
+			1050,
+			0,
+			0,
+			544
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"D",
+			"A",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			0.7,
+			1.45,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"KizunaAI"
+		}
+	},
+	[10400013] = {
+		name = "Kizuna AI ",
+		type = 1,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 4,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 10400013,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "KizunaAI",
+		skin_id = 10400010,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 104,
+		armor_type = 1,
+		attrs = {
+			494,
+			24,
+			159,
+			54,
+			0,
+			74,
+			0,
+			66,
+			71,
+			42,
+			66,
+			96
+		},
+		attrs_growth = {
+			6950,
+			136,
+			904,
+			608,
+			0,
+			366,
+			0,
+			972,
+			1050,
+			0,
+			0,
+			544
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"D",
+			"A",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			0.7,
+			1.55,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"KizunaAI"
+		}
+	},
+	[10400014] = {
+		name = "Kizuna AI ",
+		type = 1,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 5,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 10400014,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "KizunaAI",
+		skin_id = 10400010,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 104,
+		armor_type = 1,
+		attrs = {
+			702,
+			34,
+			227,
+			77,
+			0,
+			74,
+			0,
+			66,
+			71,
+			42,
+			66,
+			137
+		},
+		attrs_growth = {
+			6950,
+			136,
+			904,
+			608,
+			0,
+			366,
+			0,
+			972,
+			1050,
+			0,
+			0,
+			544
+		},
+		attrs_growth_extra = {
+			6950,
+			322,
+			1126,
+			420,
+			0,
+			872,
+			0,
+			-567,
+			-615,
+			0,
+			0,
+			438
+		},
+		grades = {
+			"D",
+			"A",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			0.75,
+			1.6,
+			1.05
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"KizunaAI"
+		}
+	},
+	[10400021] = {
+		name = "Elegant Kizuna AI ",
+		type = 3,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 3,
 		oxy_recovery = 0,
 		rarity = 5,
 		ammo = 0,
-		id = 399011,
+		id = 10400021,
 		summon_offset = 0,
 		scale = 100,
 		raid_distance = 0,
-		english_name = "IJN Ibuki",
-		skin_id = 399010,
+		english_name = "KizunaAI·Elegant",
+		skin_id = 10400020,
 		painting_dir = 1,
 		attack_duration = 0,
-		nationality = 3,
+		ignite_accuracy = 0,
+		nationality = 104,
 		armor_type = 2,
 		attrs = {
-			824,
-			51,
-			54,
-			36,
-			0,
-			69,
-			0,
+			809,
 			47,
-			10,
-			28,
 			0,
+			42,
+			0,
+			64,
+			0,
+			46,
+			19,
+			28,
+			66,
 			0
 		},
 		attrs_growth = {
-			20095,
-			992,
-			1068,
-			712,
+			19735,
+			466,
 			0,
-			342,
+			820,
 			0,
-			690,
-			144,
+			320,
+			0,
+			678,
+			276,
 			0,
 			0,
 			0
 		},
 		attrs_growth_extra = {
-			5024,
-			616,
-			608,
-			481,
 			0,
-			806,
 			0,
-			-1,
-			1976,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
 			0,
 			0,
 			0
 		},
 		grades = {
-			"A",
 			"B",
 			"E",
+			"E",
 			"C",
-			"C",
+			"B",
 			"A"
 		},
 		lock = {
-			"air"
+			"torpedo",
+			"air",
+			"antisub"
 		},
 		cld_box = {
 			4,
@@ -146994,16 +157463,19 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
-		fix_equip_list = {
-			321
-		},
+		fix_equip_list = {},
 		default_equip_list = {
 			102,
-			106,
+			100,
 			104
 		},
 		depth_charge_list = {},
 		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
 			1,
 			1,
 			1
@@ -147014,92 +157486,96 @@ pg.ship_data_statistics = {
 			0
 		},
 		equipment_proficiency = {
-			1.25,
-			1.6,
-			1.1,
-			0.4
+			0.9,
+			0.5,
+			1.2
 		},
 		strategy_list = {},
 		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"KizunaAI"
+		}
 	},
-	[399012] = {
-		oxy_max = 0,
+	[10400022] = {
+		name = "Elegant Kizuna AI ",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Ibuki",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 4,
 		oxy_recovery = 0,
 		rarity = 5,
 		ammo = 0,
-		id = 399012,
+		id = 10400022,
 		summon_offset = 0,
 		scale = 100,
 		raid_distance = 0,
-		english_name = "IJN Ibuki",
-		skin_id = 399010,
+		english_name = "KizunaAI·Elegant",
+		skin_id = 10400020,
 		painting_dir = 1,
 		attack_duration = 0,
-		nationality = 3,
+		ignite_accuracy = 0,
+		nationality = 104,
 		armor_type = 2,
 		attrs = {
-			824,
-			51,
-			54,
-			36,
+			1006,
+			59,
 			0,
-			69,
+			52,
 			0,
-			47,
-			10,
+			64,
+			0,
+			46,
+			19,
 			28,
-			0,
+			66,
 			0
 		},
 		attrs_growth = {
-			20095,
-			992,
-			1068,
-			712,
+			19735,
+			466,
 			0,
-			342,
+			820,
 			0,
-			690,
-			144,
+			320,
+			0,
+			678,
+			276,
 			0,
 			0,
 			0
 		},
 		attrs_growth_extra = {
-			5024,
-			616,
-			608,
-			481,
 			0,
-			806,
 			0,
-			-1,
-			1976,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
 			0,
 			0,
 			0
 		},
 		grades = {
-			"A",
 			"B",
 			"E",
+			"E",
 			"C",
-			"C",
+			"B",
 			"A"
 		},
 		lock = {
-			"air"
+			"torpedo",
+			"air",
+			"antisub"
 		},
 		cld_box = {
 			4,
@@ -147116,12 +157592,10 @@ pg.ship_data_statistics = {
 			0,
 			0
 		},
-		fix_equip_list = {
-			322
-		},
+		fix_equip_list = {},
 		default_equip_list = {
 			102,
-			106,
+			100,
 			104
 		},
 		depth_charge_list = {},
@@ -147130,343 +157604,107 @@ pg.ship_data_statistics = {
 			1,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
-			1,
+			0,
 			0
 		},
 		equipment_proficiency = {
-			1.3,
-			1.6,
-			1.1,
-			0.4
+			0.95,
+			0.5,
+			1.2
 		},
 		strategy_list = {},
 		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"KizunaAI"
+		}
 	},
-	[399013] = {
-		oxy_max = 0,
+	[10400023] = {
+		name = "Elegant Kizuna AI ",
 		type = 3,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Ibuki",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 5,
 		oxy_recovery = 0,
 		rarity = 5,
 		ammo = 0,
-		id = 399013,
+		id = 10400023,
 		summon_offset = 0,
 		scale = 100,
 		raid_distance = 0,
-		english_name = "IJN Ibuki",
-		skin_id = 399010,
+		english_name = "KizunaAI·Elegant",
+		skin_id = 10400020,
 		painting_dir = 1,
 		attack_duration = 0,
-		nationality = 3,
+		ignite_accuracy = 0,
+		nationality = 104,
 		armor_type = 2,
 		attrs = {
-			824,
-			51,
-			54,
-			36,
+			1401,
+			82,
 			0,
-			69,
+			73,
 			0,
-			47,
-			10,
+			64,
+			0,
+			46,
+			19,
 			28,
-			0,
+			66,
 			0
 		},
 		attrs_growth = {
-			20095,
-			992,
-			1068,
-			712,
+			19735,
+			466,
 			0,
-			342,
+			820,
 			0,
-			690,
-			144,
+			320,
+			0,
+			678,
+			276,
 			0,
 			0,
 			0
 		},
 		attrs_growth_extra = {
-			5024,
-			616,
-			608,
-			481,
 			0,
-			806,
 			0,
-			-1,
-			1976,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
 			0,
 			0,
 			0
 		},
 		grades = {
-			"A",
 			"B",
 			"E",
+			"E",
 			"C",
-			"C",
-			"A"
-		},
-		lock = {
-			"air"
-		},
-		cld_box = {
-			4,
-			5,
-			5
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		position_offset = {
-			0,
-			0,
-			0
-		},
-		fix_equip_list = {
-			323
-		},
-		default_equip_list = {
-			102,
-			106,
-			104
-		},
-		depth_charge_list = {},
-		base_list = {
-			1,
-			2,
-			1
-		},
-		preload_count = {
-			0,
-			2,
-			0
-		},
-		equipment_proficiency = {
-			1.3,
-			1.7,
-			1.1,
-			0.4
-		},
-		strategy_list = {},
-		strategy_list_ai = {},
-		hunting_range = {
-			{}
-		},
-		tag_list = {}
-	},
-	[399014] = {
-		oxy_max = 0,
-		type = 3,
-		personality = 2,
-		backyard_speed = "0.3",
-		name = "Ibuki",
-		oxy_cost = 0,
-		huntingrange_level = 0,
-		star = 6,
-		oxy_recovery = 0,
-		rarity = 5,
-		ammo = 0,
-		id = 399014,
-		summon_offset = 0,
-		scale = 100,
-		raid_distance = 0,
-		english_name = "IJN Ibuki",
-		skin_id = 399010,
-		painting_dir = 1,
-		attack_duration = 0,
-		nationality = 3,
-		armor_type = 2,
-		attrs = {
-			824,
-			51,
-			54,
-			36,
-			0,
-			69,
-			0,
-			47,
-			10,
-			28,
-			0,
-			0
-		},
-		attrs_growth = {
-			20095,
-			992,
-			1068,
-			712,
-			0,
-			342,
-			0,
-			690,
-			144,
-			0,
-			0,
-			0
-		},
-		attrs_growth_extra = {
-			5024,
-			616,
-			608,
-			481,
-			0,
-			806,
-			0,
-			-1,
-			1976,
-			0,
-			0,
-			0
-		},
-		grades = {
-			"A",
 			"B",
-			"E",
-			"C",
-			"C",
 			"A"
-		},
-		lock = {
-			"air"
-		},
-		cld_box = {
-			4,
-			5,
-			5
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		position_offset = {
-			0,
-			0,
-			0
-		},
-		fix_equip_list = {
-			324
-		},
-		default_equip_list = {
-			102,
-			106,
-			104
-		},
-		depth_charge_list = {},
-		base_list = {
-			1,
-			2,
-			1
-		},
-		preload_count = {
-			0,
-			2,
-			0
-		},
-		equipment_proficiency = {
-			1.3,
-			1.85,
-			1.1,
-			0.4
-		},
-		strategy_list = {},
-		strategy_list_ai = {},
-		hunting_range = {
-			{}
-		},
-		tag_list = {}
-	},
-	[399021] = {
-		oxy_max = 0,
-		type = 5,
-		personality = 2,
-		backyard_speed = "0.3",
-		name = "Izumo",
-		oxy_cost = 0,
-		huntingrange_level = 0,
-		star = 3,
-		oxy_recovery = 0,
-		rarity = 5,
-		ammo = 0,
-		id = 399021,
-		summon_offset = 0,
-		scale = 100,
-		raid_distance = 0,
-		english_name = "IJN Izumo",
-		skin_id = 399020,
-		painting_dir = 1,
-		attack_duration = 0,
-		nationality = 3,
-		armor_type = 3,
-		attrs = {
-			1423,
-			84,
-			0,
-			44,
-			0,
-			54,
-			0,
-			20,
-			7,
-			28,
-			0,
-			0
-		},
-		attrs_growth = {
-			34700,
-			1644,
-			0,
-			864,
-			0,
-			268,
-			0,
-			300,
-			108,
-			0,
-			0,
-			0
-		},
-		attrs_growth_extra = {
-			24290,
-			94,
-			0,
-			591,
-			0,
-			632,
-			0,
-			345,
-			777,
-			0,
-			0,
-			0
-		},
-		grades = {
-			"S",
-			"E",
-			"E",
-			"C",
-			"D",
-			"S"
 		},
 		lock = {
 			"torpedo",
-			"air"
+			"air",
+			"antisub"
 		},
 		cld_box = {
 			4,
@@ -147485,132 +157723,17 @@ pg.ship_data_statistics = {
 		},
 		fix_equip_list = {},
 		default_equip_list = {
-			103,
-			101,
+			102,
+			100,
 			104
 		},
 		depth_charge_list = {},
 		base_list = {
-			1,
+			2,
 			1,
 			1
 		},
-		preload_count = {
-			0,
-			0,
-			0
-		},
-		equipment_proficiency = {
-			1,
-			2.1,
-			0.8
-		},
-		strategy_list = {},
-		strategy_list_ai = {},
-		hunting_range = {
-			{}
-		},
-		tag_list = {}
-	},
-	[399022] = {
-		oxy_max = 0,
-		type = 5,
-		personality = 2,
-		backyard_speed = "0.3",
-		name = "Izumo",
-		oxy_cost = 0,
-		huntingrange_level = 0,
-		star = 4,
-		oxy_recovery = 0,
-		rarity = 5,
-		ammo = 0,
-		id = 399022,
-		summon_offset = 0,
-		scale = 100,
-		raid_distance = 0,
-		english_name = "IJN Izumo",
-		skin_id = 399020,
-		painting_dir = 1,
-		attack_duration = 0,
-		nationality = 3,
-		armor_type = 3,
-		attrs = {
-			1423,
-			84,
-			0,
-			44,
-			0,
-			54,
-			0,
-			20,
-			7,
-			28,
-			0,
-			0
-		},
-		attrs_growth = {
-			34700,
-			1644,
-			0,
-			864,
-			0,
-			268,
-			0,
-			300,
-			108,
-			0,
-			0,
-			0
-		},
-		attrs_growth_extra = {
-			24290,
-			94,
-			0,
-			591,
-			0,
-			632,
-			0,
-			345,
-			777,
-			0,
-			0,
-			0
-		},
-		grades = {
-			"S",
-			"E",
-			"E",
-			"C",
-			"D",
-			"S"
-		},
-		lock = {
-			"torpedo",
-			"air"
-		},
-		cld_box = {
-			4,
-			5,
-			5
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		position_offset = {
-			0,
-			0,
-			0
-		},
-		fix_equip_list = {},
-		default_equip_list = {
-			103,
-			101,
-			104
-		},
-		depth_charge_list = {},
-		base_list = {
+		parallel_max = {
 			1,
 			1,
 			1
@@ -147622,91 +157745,995 @@ pg.ship_data_statistics = {
 		},
 		equipment_proficiency = {
 			1.05,
-			2.1,
-			0.8
+			0.5,
+			1.2
 		},
 		strategy_list = {},
 		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"KizunaAI"
+		}
 	},
-	[399023] = {
-		oxy_max = 0,
-		type = 5,
+	[10400024] = {
+		name = "Elegant Kizuna AI ",
+		type = 3,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Izumo",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
-		star = 5,
+		backyard_speed = "0.3",
+		star = 6,
 		oxy_recovery = 0,
 		rarity = 5,
 		ammo = 0,
-		id = 399023,
+		id = 10400024,
 		summon_offset = 0,
 		scale = 100,
 		raid_distance = 0,
-		english_name = "IJN Izumo",
-		skin_id = 399020,
+		english_name = "KizunaAI·Elegant",
+		skin_id = 10400020,
 		painting_dir = 1,
 		attack_duration = 0,
-		nationality = 3,
-		armor_type = 3,
+		ignite_accuracy = 0,
+		nationality = 104,
+		armor_type = 2,
 		attrs = {
-			1423,
-			84,
+			1993,
+			117,
 			0,
-			44,
+			104,
 			0,
-			54,
+			64,
 			0,
-			20,
-			7,
+			46,
+			19,
 			28,
-			0,
+			66,
 			0
 		},
 		attrs_growth = {
-			34700,
-			1644,
+			19735,
+			466,
 			0,
-			864,
+			820,
 			0,
-			268,
+			320,
 			0,
-			300,
-			108,
+			678,
+			276,
 			0,
 			0,
 			0
 		},
 		attrs_growth_extra = {
-			24290,
-			94,
+			19725,
+			1083,
 			0,
-			591,
+			568,
 			0,
-			632,
+			753,
 			0,
-			345,
-			777,
+			-113,
+			-46,
 			0,
 			0,
 			0
 		},
 		grades = {
-			"S",
+			"B",
 			"E",
 			"E",
 			"C",
-			"D",
-			"S"
+			"B",
+			"A"
 		},
 		lock = {
 			"torpedo",
-			"air"
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			102,
+			100,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			0.55,
+			1.25
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"KizunaAI"
+		}
+	},
+	[10400031] = {
+		name = "Anniversary Kizuna AI ",
+		type = 7,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 3,
+		oxy_recovery = 0,
+		rarity = 5,
+		ammo = 0,
+		id = 10400031,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "KizunaAI·Anniversary",
+		skin_id = 10400030,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 104,
+		armor_type = 2,
+		attrs = {
+			1068,
+			0,
+			0,
+			61,
+			78,
+			44,
+			0,
+			30,
+			13,
+			32.5,
+			66,
+			0
+		},
+		attrs_growth = {
+			26045,
+			0,
+			0,
+			1200,
+			774,
+			220,
+			0,
+			444,
+			198,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"E",
+			"E",
+			"S",
+			"C",
+			"B",
+			"B"
+		},
+		lock = {
+			"cannon",
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			117,
+			119,
+			118
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.05,
+			1.2,
+			1.25
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"KizunaAI"
+		}
+	},
+	[10400032] = {
+		name = "Anniversary Kizuna AI ",
+		type = 7,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 4,
+		oxy_recovery = 0,
+		rarity = 5,
+		ammo = 0,
+		id = 10400032,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "KizunaAI·Anniversary",
+		skin_id = 10400030,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 104,
+		armor_type = 2,
+		attrs = {
+			1328,
+			0,
+			0,
+			76,
+			97,
+			44,
+			0,
+			30,
+			13,
+			32.5,
+			66,
+			0
+		},
+		attrs_growth = {
+			26045,
+			0,
+			0,
+			1200,
+			774,
+			220,
+			0,
+			444,
+			198,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"E",
+			"E",
+			"S",
+			"C",
+			"B",
+			"B"
+		},
+		lock = {
+			"cannon",
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			117,
+			119,
+			118
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.05,
+			1.2,
+			1.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"KizunaAI"
+		}
+	},
+	[10400033] = {
+		name = "Anniversary Kizuna AI ",
+		type = 7,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 5,
+		oxy_recovery = 0,
+		rarity = 5,
+		ammo = 0,
+		id = 10400033,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "KizunaAI·Anniversary",
+		skin_id = 10400030,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 104,
+		armor_type = 2,
+		attrs = {
+			1849,
+			0,
+			0,
+			106,
+			136,
+			44,
+			0,
+			30,
+			13,
+			32.5,
+			66,
+			0
+		},
+		attrs_growth = {
+			26045,
+			0,
+			0,
+			1200,
+			774,
+			220,
+			0,
+			444,
+			198,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"E",
+			"E",
+			"S",
+			"C",
+			"B",
+			"B"
+		},
+		lock = {
+			"cannon",
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			117,
+			119,
+			118
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			2,
+			2
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.05,
+			1.3,
+			1.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"KizunaAI"
+		}
+	},
+	[10400034] = {
+		name = "Anniversary Kizuna AI ",
+		type = 7,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 6,
+		oxy_recovery = 0,
+		rarity = 5,
+		ammo = 0,
+		id = 10400034,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "KizunaAI·Anniversary",
+		skin_id = 10400030,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 104,
+		armor_type = 2,
+		attrs = {
+			2631,
+			0,
+			0,
+			151,
+			194,
+			44,
+			0,
+			30,
+			13,
+			32.5,
+			66,
+			0
+		},
+		attrs_growth = {
+			26045,
+			0,
+			0,
+			1200,
+			774,
+			220,
+			0,
+			444,
+			198,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			26045,
+			0,
+			0,
+			585,
+			1191,
+			515,
+			0,
+			-79,
+			-38,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"E",
+			"E",
+			"S",
+			"C",
+			"B",
+			"B"
+		},
+		lock = {
+			"cannon",
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			117,
+			119,
+			118
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			3,
+			3
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			1.35,
+			1.35
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"KizunaAI"
+		}
+	},
+	[10400041] = {
+		name = "Super Gamer Kizuna AI ",
+		type = 5,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 3,
+		oxy_recovery = 0,
+		rarity = 5,
+		ammo = 0,
+		id = 10400041,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "KizunaAI·SuperGamer",
+		skin_id = 10400040,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 104,
+		armor_type = 3,
+		attrs = {
+			1233,
+			78,
+			39,
+			37,
+			0,
+			52,
+			0,
+			19,
+			11,
+			26,
+			66,
+			0
+		},
+		attrs_growth = {
+			30065,
+			770,
+			386,
+			728,
+			0,
+			260,
+			0,
+			288,
+			156,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"A",
+			"D",
+			"E",
+			"D",
+			"D",
+			"B"
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1,
+			2,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"KizunaAI"
+		}
+	},
+	[10400042] = {
+		name = "Super Gamer Kizuna AI ",
+		type = 5,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 4,
+		oxy_recovery = 0,
+		rarity = 5,
+		ammo = 0,
+		id = 10400042,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "KizunaAI·SuperGamer",
+		skin_id = 10400040,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 104,
+		armor_type = 3,
+		attrs = {
+			1534,
+			97,
+			49,
+			46,
+			0,
+			52,
+			0,
+			19,
+			11,
+			26,
+			66,
+			0
+		},
+		attrs_growth = {
+			30065,
+			770,
+			386,
+			728,
+			0,
+			260,
+			0,
+			288,
+			156,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"A",
+			"D",
+			"E",
+			"D",
+			"D",
+			"B"
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.05,
+			2,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"KizunaAI"
+		}
+	},
+	[10400043] = {
+		name = "Super Gamer Kizuna AI ",
+		type = 5,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 5,
+		oxy_recovery = 0,
+		rarity = 5,
+		ammo = 0,
+		id = 10400043,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "KizunaAI·SuperGamer",
+		skin_id = 10400040,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 104,
+		armor_type = 3,
+		attrs = {
+			2135,
+			136,
+			68,
+			64,
+			0,
+			52,
+			0,
+			19,
+			11,
+			26,
+			66,
+			0
+		},
+		attrs_growth = {
+			30065,
+			770,
+			386,
+			728,
+			0,
+			260,
+			0,
+			288,
+			156,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"A",
+			"D",
+			"E",
+			"D",
+			"D",
+			"B"
+		},
+		lock = {
+			"air",
+			"antisub"
 		},
 		cld_box = {
 			4,
@@ -147733,6 +158760,11 @@ pg.ship_data_statistics = {
 		base_list = {
 			1,
 			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
 			1
 		},
 		preload_count = {
@@ -147742,91 +158774,94 @@ pg.ship_data_statistics = {
 		},
 		equipment_proficiency = {
 			1.15,
-			2.1,
-			0.8
+			2,
+			1
 		},
 		strategy_list = {},
 		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"KizunaAI"
+		}
 	},
-	[399024] = {
-		oxy_max = 0,
+	[10400044] = {
+		name = "Super Gamer Kizuna AI ",
 		type = 5,
 		personality = 2,
-		backyard_speed = "0.3",
-		name = "Izumo",
+		oxy_max = 0,
 		oxy_cost = 0,
 		huntingrange_level = 0,
+		backyard_speed = "0.3",
 		star = 6,
 		oxy_recovery = 0,
 		rarity = 5,
 		ammo = 0,
-		id = 399024,
+		id = 10400044,
 		summon_offset = 0,
 		scale = 100,
 		raid_distance = 0,
-		english_name = "IJN Izumo",
-		skin_id = 399020,
+		english_name = "KizunaAI·SuperGamer",
+		skin_id = 10400040,
 		painting_dir = 1,
 		attack_duration = 0,
-		nationality = 3,
+		ignite_accuracy = 0,
+		nationality = 104,
 		armor_type = 3,
 		attrs = {
-			1423,
-			84,
+			3037,
+			194,
+			97,
+			92,
 			0,
-			44,
+			52,
 			0,
-			54,
-			0,
-			20,
-			7,
-			28,
-			0,
+			19,
+			11,
+			26,
+			66,
 			0
 		},
 		attrs_growth = {
-			34700,
-			1644,
+			30065,
+			770,
+			386,
+			728,
 			0,
-			864,
+			260,
 			0,
-			268,
-			0,
-			300,
-			108,
+			288,
+			156,
 			0,
 			0,
 			0
 		},
 		attrs_growth_extra = {
-			24290,
-			94,
+			30065,
+			1195,
+			919,
+			502,
 			0,
-			591,
+			610,
 			0,
-			632,
-			0,
-			345,
-			777,
+			-53,
+			-26,
 			0,
 			0,
 			0
 		},
 		grades = {
-			"S",
-			"E",
-			"E",
-			"C",
+			"A",
 			"D",
-			"S"
+			"E",
+			"D",
+			"D",
+			"B"
 		},
 		lock = {
-			"torpedo",
-			"air"
+			"air",
+			"antisub"
 		},
 		cld_box = {
 			4,
@@ -147855,6 +158890,11 @@ pg.ship_data_statistics = {
 			2,
 			1
 		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
 		preload_count = {
 			0,
 			0,
@@ -147862,15 +158902,17 @@ pg.ship_data_statistics = {
 		},
 		equipment_proficiency = {
 			1.3,
-			2.1,
-			0.8
+			2,
+			1
 		},
 		strategy_list = {},
 		strategy_list_ai = {},
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"KizunaAI"
+		}
 	},
 	all = {
 		100001,
@@ -148475,6 +159517,10 @@ pg.ship_data_statistics = {
 		301242,
 		301243,
 		301244,
+		301251,
+		301252,
+		301253,
+		301254,
 		301261,
 		301262,
 		301263,
@@ -148676,6 +159722,10 @@ pg.ship_data_statistics = {
 		304052,
 		304053,
 		304054,
+		304061,
+		304062,
+		304063,
+		304064,
 		305011,
 		305012,
 		305013,
@@ -148752,6 +159802,10 @@ pg.ship_data_statistics = {
 		307062,
 		307063,
 		307064,
+		307091,
+		307092,
+		307093,
+		307094,
 		308011,
 		308012,
 		308013,
@@ -148852,6 +159906,10 @@ pg.ship_data_statistics = {
 		407012,
 		407013,
 		407014,
+		407021,
+		407022,
+		407023,
+		407024,
 		408011,
 		408012,
 		408013,
@@ -149025,6 +160083,12 @@ pg.ship_data_statistics = {
 		900176,
 		900177,
 		900178,
+		900907,
+		900908,
+		900909,
+		900910,
+		900911,
+		900912,
 		10100011,
 		10100012,
 		10100013,
@@ -149057,14 +160121,22 @@ pg.ship_data_statistics = {
 		10100082,
 		10100083,
 		10100084,
-		399011,
-		399012,
-		399013,
-		399014,
-		399021,
-		399022,
-		399023,
-		399024
+		10400011,
+		10400012,
+		10400013,
+		10400014,
+		10400021,
+		10400022,
+		10400023,
+		10400024,
+		10400031,
+		10400032,
+		10400033,
+		10400034,
+		10400041,
+		10400042,
+		10400043,
+		10400044
 	}
 }
 

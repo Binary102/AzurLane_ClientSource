@@ -73,7 +73,7 @@ return {
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "story-2",
-			actor = 405021,
+			actor = 405020,
 			nameColor = "#a9f548",
 			say = "呼……又是这个梦吗？这是第几次了呢……",
 			flashout = {
@@ -103,7 +103,7 @@ return {
 			}
 		},
 		{
-			actor = 405021,
+			actor = 405020,
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			side = 2,
@@ -119,7 +119,7 @@ return {
 			}
 		},
 		{
-			actor = 405021,
+			actor = 405020,
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			side = 2,
@@ -164,7 +164,7 @@ return {
 			}
 		},
 		{
-			actor = 405021,
+			actor = 405020,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -183,7 +183,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 405021,
+			actor = 405020,
 			nameColor = "#a9f548",
 			say = "正好，这份是今天的工作安排，过目一下吧，有什么问题我再调整。",
 			typewriter = {
@@ -202,7 +202,7 @@ return {
 			}
 		},
 		{
-			actor = 405021,
+			actor = 405020,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -234,7 +234,7 @@ return {
 			}
 		},
 		{
-			actor = 405021,
+			actor = 405020,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",

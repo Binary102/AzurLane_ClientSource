@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 502021,
+			actor = 502020,
 			side = 1,
 			dir = 1,
 			say = "逸仙真是意外的可靠！",
@@ -21,7 +21,7 @@ return {
 			}
 		},
 		{
-			actor = 502031,
+			actor = 502030,
 			side = 0,
 			dir = 1,
 			say = "就和姐姐一样强！",
@@ -39,7 +39,7 @@ return {
 			}
 		},
 		{
-			actor = 502011,
+			actor = 502010,
 			side = 1,
 			dir = 1,
 			say = "意外是多余的",
@@ -53,7 +53,7 @@ return {
 			}
 		},
 		{
-			actor = 502011,
+			actor = 502010,
 			side = 2,
 			dir = 1,
 			say = "（远眺）……你们…不如就这样回去吧？",
@@ -67,7 +67,7 @@ return {
 			}
 		},
 		{
-			actor = 502021,
+			actor = 502020,
 			side = 0,
 			say = "你都感觉前面有危险，还觉得我会答应？",
 			dir = -1,
@@ -85,7 +85,7 @@ return {
 			}
 		},
 		{
-			actor = 502031,
+			actor = 502030,
 			side = 1,
 			dir = -1,
 			say = "逸仙担心我们会受伤吗？",
@@ -99,7 +99,7 @@ return {
 			}
 		},
 		{
-			actor = 502011,
+			actor = 502010,
 			side = 0,
 			dir = -1,
 			say = "如果你们出了什么意外，我会很难办的",
@@ -113,7 +113,7 @@ return {
 			}
 		},
 		{
-			actor = 502021,
+			actor = 502020,
 			side = 1,
 			dir = -1,
 			say = "是感受到姐姐的魅力了？",
@@ -127,7 +127,7 @@ return {
 			}
 		},
 		{
-			actor = 502011,
+			actor = 502010,
 			side = 0,
 			dir = -1,
 			say = "毕竟还有三个月分量的包子呢……",
@@ -141,7 +141,7 @@ return {
 			}
 		},
 		{
-			actor = 502021,
+			actor = 502020,
 			side = 1,
 			dir = -1,
 			say = "喂！",

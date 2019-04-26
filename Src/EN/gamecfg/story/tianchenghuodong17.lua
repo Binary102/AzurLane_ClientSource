@@ -12,7 +12,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			actor = 305071,
+			actor = 305070,
 			stopbgm = true,
 			say = "Amagi, what's the meaning of this? Why are you at this exercise?",
 			typewriter = {
@@ -25,7 +25,7 @@ return {
 			}
 		},
 		{
-			actor = 304051,
+			actor = 304050,
 			side = 1,
 			nameColor = "#ff0000",
 			dir = 1,
@@ -44,7 +44,7 @@ return {
 			nameColor = "#ff0000",
 			side = 1,
 			dir = 1,
-			actor = 304051,
+			actor = 304050,
 			say = "The world has already begun to change. The era of large capital ships and cannons will soon come to an end.",
 			typewriter = {
 				speed = 0.05,
@@ -60,7 +60,7 @@ return {
 			nameColor = "#ff0000",
 			side = 1,
 			dir = 1,
-			actor = 304051,
+			actor = 304050,
 			say = "From here on out... is the era of the aircraft carrier.",
 			typewriter = {
 				speed = 0.05,
@@ -72,7 +72,7 @@ return {
 			}
 		},
 		{
-			actor = 304051,
+			actor = 304050,
 			side = 1,
 			nameColor = "#ff0000",
 			dir = 1,
@@ -91,7 +91,7 @@ return {
 			nameColor = "#ff0000",
 			side = 1,
 			dir = 1,
-			actor = 304051,
+			actor = 304050,
 			say = "That is why I chose to come here.",
 			typewriter = {
 				speed = 0.05,
@@ -107,7 +107,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
-			actor = 305071,
+			actor = 305070,
 			say = "... ...",
 			typewriter = {
 				speed = 0.05,
@@ -123,7 +123,7 @@ return {
 			nameColor = "#ff0000",
 			side = 1,
 			dir = 1,
-			actor = 304051,
+			actor = 304050,
 			say = "Come, Kaga, if you still consider me your rival. You have yet to best me even a single time, right?",
 			typewriter = {
 				speed = 0.05,
@@ -139,7 +139,7 @@ return {
 			nameColor = "#ff0000",
 			side = 1,
 			dir = 1,
-			actor = 304051,
+			actor = 304050,
 			say = "If you dare go easy on me, I won't forgive you for the rest of my life.",
 			typewriter = {
 				speed = 0.05,
@@ -155,7 +155,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
-			actor = 305071,
+			actor = 305070,
 			say = "...Understood. I truly am blessed... aren't I?",
 			typewriter = {
 				speed = 0.05,
@@ -171,7 +171,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
-			actor = 305071,
+			actor = 305070,
 			say = "To have an opponent like you who can be true to herself until the very end, Amagi... I truly am blessed.",
 			typewriter = {
 				speed = 0.05,
@@ -183,7 +183,7 @@ return {
 			}
 		},
 		{
-			actor = 305071,
+			actor = 305070,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -198,7 +198,7 @@ return {
 			nameColor = "#ff0000",
 			side = 1,
 			dir = 1,
-			actor = 304051,
+			actor = 304050,
 			say = "...I am the Amagi-class battlecruiser Amagi.",
 			painting = {
 				alpha = 0.3,
@@ -208,7 +208,7 @@ return {
 		{
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 305071,
+			actor = 305070,
 			dir = -1,
 			bgm = "theme",
 			hideOther = true,
@@ -217,7 +217,7 @@ return {
 			subActors = {
 				{
 					dir = -1,
-					actor = 304051,
+					actor = 304050,
 					pos = {
 						x = -687
 					}

@@ -50,7 +50,7 @@ return {
 			}
 		},
 		{
-			actor = 801011,
+			actor = 801010,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
@@ -65,7 +65,7 @@ return {
 			}
 		},
 		{
-			actor = 801011,
+			actor = 801010,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
@@ -80,7 +80,7 @@ return {
 			}
 		},
 		{
-			actor = 801011,
+			actor = 801010,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
@@ -98,7 +98,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 801011,
+			actor = 801010,
 			say = "这里需要主力舰队的伙伴们配合了!",
 			flashout = {
 				dur = 0.5,
@@ -127,7 +127,7 @@ return {
 			}
 		},
 		{
-			actor = 801011,
+			actor = 801010,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
@@ -145,7 +145,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 801011,
+			actor = 801010,
 			say = "哼哼～想要跟上空想级的速度，可没有那么容易哟～",
 			flashout = {
 				dur = 0.5,
@@ -174,7 +174,7 @@ return {
 			}
 		},
 		{
-			actor = 801011,
+			actor = 801010,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
@@ -242,7 +242,7 @@ return {
 			}
 		},
 		{
-			actor = 801011,
+			actor = 801010,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -257,7 +257,7 @@ return {
 			}
 		},
 		{
-			actor = 801011,
+			actor = 801010,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -272,7 +272,7 @@ return {
 			}
 		},
 		{
-			actor = 801011,
+			actor = 801010,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -287,7 +287,7 @@ return {
 			}
 		},
 		{
-			actor = 801011,
+			actor = 801010,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -302,7 +302,7 @@ return {
 			}
 		},
 		{
-			actor = 801011,
+			actor = 801010,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,

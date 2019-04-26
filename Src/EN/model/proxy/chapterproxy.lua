@@ -4,6 +4,7 @@ slot0.CHAPTER_ADDED = "ChapterProxy:CHAPTER_ADDED"
 slot0.CHAPTER_REMOVED = "ChapterProxy:CHAPTER_REMOVED"
 slot0.CHAPTER_TIMESUP = "ChapterProxy:CHAPTER_TIMESUP"
 slot0.CHAPTER_CELL_UPDATED = "ChapterProxy:CHAPTER_CELL_UPDATED"
+slot0.CHAPTER_EXTAR_FLAG_UPDATED = "ChapterProxy:CHAPTER_EXTAR_FLAG_UPDATED"
 slot0.SHAM_CHAPTER_UPDATED = "ChapterProxy:SHAM_CHAPTER_UPDATED"
 slot0.SHAM_SHOP_UPDATED = "ChapterProxy:SHAM_SHOP_UPDATED"
 slot0.GUILD_CHAPTER_UPDATED = "ChapterProxy:GUILD_CHAPTER_UPDATED"
@@ -130,6 +131,12 @@ function slot0.register(slot0)
 				end)
 
 				slot2 = bit.bor(slot2, bit.bor(ChapterConst.DirtyChampion, ChapterConst.DirtyAutoAction))
+			end
+
+			if #slot0.add_flag_list > 0 or #slot0.del_flag_list > 0 then
+				slot2 = bit.bor(slot2, ChapterConst.DirtyStrategy)
+
+				slot0:updateExtraFlag(slot1, slot0.add_flag_list, slot0.del_flag_list)
 			end
 
 			slot0:updateChapter(slot1, slot2)
@@ -389,6 +396,26 @@ function slot0.updateChapter(slot0, slot1, slot2)
 	if slot0.data[slot1.id] and slot0.data[slot1.id].fleet then
 		slot0.data[slot1.id].fleet:clearShipHpChange()
 	end
+end
+
+function slot0.updateExtraFlag(slot0, slot1, slot2, slot3)
+	if not slot1:updateExtraFlags(slot2, slot3) then
+		return
+	end
+
+	slot5 = {}
+
+	for slot9, slot10 in ipairs(slot2) do
+		table.insert(slot5, slot10)
+	end
+
+	slot0.extraFlagUpdate = true
+
+	slot0.facade:sendNotification(slot0.CHAPTER_EXTAR_FLAG_UPDATED, slot5)
+end
+
+function slot0.extraFlagUpdated(slot0)
+	slot0.extraFlagUpdate = false
 end
 
 function slot0.removeChapter(slot0, slot1)

@@ -19,14 +19,14 @@ return {
 			actorShadow = true,
 			side = 0,
 			actorName = "{namecode:87}&{namecode:19}",
-			actor = 900036,
+			actor = 301171,
 			dir = -1,
 			hideOther = true,
 			nameColor = "#ff0000",
 			say = "Trick or treat！",
 			subActors = {
 				{
-					actor = 900038,
+					actor = 306051,
 					dir = -1,
 					pos = {
 						x = -750
@@ -42,14 +42,14 @@ return {
 			actorShadow = true,
 			side = 0,
 			actorName = "{namecode:6}&Cleveland",
-			actor = 900037,
+			actor = 301051,
 			dir = -1,
 			hideOther = true,
 			nameColor = "#ff0000",
 			say = "Trick or treat！",
 			subActors = {
 				{
-					actor = 900035,
+					actor = 102091,
 					dir = -1,
 					pos = {
 						x = -750
@@ -62,7 +62,7 @@ return {
 			}
 		},
 		{
-			actor = 307054,
+			actor = 307050,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
@@ -82,7 +82,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			actor = 900036,
+			actor = 301171,
 			actorName = "{namecode:19}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -98,7 +98,7 @@ return {
 			}
 		},
 		{
-			actor = 900038,
+			actor = 306051,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
@@ -114,7 +114,7 @@ return {
 			}
 		},
 		{
-			actor = 307054,
+			actor = 307050,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -130,7 +130,7 @@ return {
 			}
 		},
 		{
-			actor = 900035,
+			actor = 102091,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -148,7 +148,7 @@ return {
 			actorName = "{namecode:87}",
 			side = 2,
 			dir = 1,
-			actor = 900038,
+			actor = 306051,
 			nameColor = "#a9f548",
 			say = "Let’s go!~",
 			flashout = {
@@ -182,7 +182,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -198,7 +198,7 @@ return {
 			}
 		},
 		{
-			actor = 307054,
+			actor = 307050,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -217,7 +217,7 @@ return {
 			actorName = "{namecode:87}",
 			side = 2,
 			dir = 1,
-			actor = 900038,
+			actor = 306051,
 			nameColor = "#a9f548",
 			say = "Hey look—— are those pumpkin lanterns floating in the sky? Is, is there ghosts——!",
 			flashout = {
@@ -251,7 +251,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			actor = 900037,
+			actor = 301051,
 			actorName = "{namecode:6}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -267,7 +267,7 @@ return {
 			}
 		},
 		{
-			actor = 900036,
+			actor = 301171,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -283,7 +283,7 @@ return {
 			}
 		},
 		{
-			actor = 900035,
+			actor = 102091,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -298,7 +298,7 @@ return {
 			}
 		},
 		{
-			actor = 307054,
+			actor = 307050,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -314,7 +314,7 @@ return {
 			}
 		},
 		{
-			actor = 900038,
+			actor = 306051,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
@@ -333,7 +333,7 @@ return {
 			actorName = "{namecode:19}",
 			side = 2,
 			dir = -1,
-			actor = 900036,
+			actor = 301171,
 			nameColor = "#a9f548",
 			say = "Those pumpkin lanterns were all flying in the air… {namecode:96}, where is {namecode:96}!",
 			flashout = {
@@ -368,7 +368,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			withoutPainting = true,
-			actor = 307064,
+			actor = 307060,
 			nameColor = "#a9f548",
 			say = "Shou—— White, I wanted to sew something for you like this, but then I realized how hard it is to sew... so, please use this for now.",
 			flashout = {
@@ -404,7 +404,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			actor = 307054,
+			actor = 307050,
 			actorName = "？？？",
 			paintingFadeOut = {
 				time = 0.5,
@@ -425,7 +425,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			actor = 307064,
+			actor = 307060,
 			actorName = "？？？",
 			say = "Cough, I am Gold, she is Grey. In short, we are no longer “adults” tonight but more like “adolescents” instead. It won’t be a problem to go wild during Halloween night!",
 			typewriter = {
@@ -443,7 +443,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			actor = 107064,
+			actor = 107060,
 			actorName = "？？？",
 			say = "I lost to Zui... Gold, therefore I’ve come to help her——",
 			typewriter = {
@@ -461,7 +461,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			actor = 307064,
+			actor = 307060,
 			actorName = "？？？",
 			say = "Hmm? Are you not convinced of your defeat!",
 			typewriter = {
@@ -479,7 +479,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			actor = 107064,
+			actor = 107060,
 			actorName = "？？？",
 			say = "Ok ok ok, these girls who’re still “kids at heart” will enjoy pranking tonight. I will use my pumpkin lantern to help them.",
 			typewriter = {
@@ -497,7 +497,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			actor = 307064,
+			actor = 307060,
 			actorName = "？？？",
 			say = "Hehe, after all “I” am younger than you by a lot, Grey.",
 			typewriter = {

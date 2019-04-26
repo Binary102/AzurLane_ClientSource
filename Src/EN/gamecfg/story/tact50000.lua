@@ -21,7 +21,7 @@ return {
 			}
 		},
 		{
-			actor = 103041,
+			actor = 103040,
 			side = 2,
 			nameColor = "#a9f548",
 			say = "*Phew*... Looks like it's finally started to cool down a little bit tonight... It's way too humid and hot here, and the sun is oppressive as well. If not for this mission, I would have booked it long ago.",
@@ -35,7 +35,7 @@ return {
 			}
 		},
 		{
-			actor = 103041,
+			actor = 103040,
 			side = 2,
 			nameColor = "#a9f548",
 			say = "I sure envy Astoria. Her class consists of only sisters, but over here, we have \"allies,\" not just sisters. Well, it's not like I have anything against them...",
@@ -49,7 +49,7 @@ return {
 			}
 		},
 		{
-			actor = 103041,
+			actor = 103040,
 			side = 2,
 			nameColor = "#a9f548",
 			say = "*Sigh*... Houston, how nice it'd be if you were here...",
@@ -63,7 +63,7 @@ return {
 			}
 		},
 		{
-			actor = 103041,
+			actor = 103040,
 			side = 2,
 			nameColor = "#a9f548",
 			say = "Gah, this is no time to be getting sentimental. Australia went north to meet up with the others, so I am now temporarily in charge of the South Group. I have to set a good example, hehe.",
@@ -77,7 +77,7 @@ return {
 			}
 		},
 		{
-			actor = 103041,
+			actor = 103040,
 			side = 2,
 			nameColor = "#a9f548",
 			say = "I just have to hang in there a bit longer. Tomorrow...",
@@ -100,7 +100,7 @@ return {
 			}
 		},
 		{
-			actor = 103041,
+			actor = 103040,
 			side = 2,
 			nameColor = "#a9f548",
 			say = "This is... an alert from Patterson?",
@@ -114,7 +114,7 @@ return {
 			}
 		},
 		{
-			actor = 103041,
+			actor = 103040,
 			side = 2,
 			nameColor = "#a9f548",
 			say = "Impossible...! How could the Sakura Fleet show up here? Also, what's with this distance?! Savo Island's patrols should have picked them up on their radars...!",
@@ -137,7 +137,7 @@ return {
 			}
 		},
 		{
-			actor = 103041,
+			actor = 103040,
 			side = 2,
 			nameColor = "#a9f548",
 			say = "Bagley, please come with me! We've got trouble!",

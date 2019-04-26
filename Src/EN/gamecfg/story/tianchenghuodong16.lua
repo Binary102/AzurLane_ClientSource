@@ -12,7 +12,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 305071,
+			actor = 305070,
 			stopbgm = true,
 			say = "How's the situation looking?",
 			typewriter = {
@@ -25,7 +25,7 @@ return {
 			}
 		},
 		{
-			actor = 301791,
+			actor = 301790,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
@@ -44,7 +44,7 @@ return {
 			}
 		},
 		{
-			actor = 301791,
+			actor = 301790,
 			nameColor = "#a9f548",
 			dir = 1,
 			withoutActorName = true,
@@ -64,7 +64,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			actor = 301791,
+			actor = 301790,
 			say = "During her examination, we found out that Amagi's wisdom cube had been severely damaged. Nobody knows exactly what caused it though...",
 			typewriter = {
 				speed = 0.05,
@@ -76,7 +76,7 @@ return {
 			}
 		},
 		{
-			actor = 301791,
+			actor = 301790,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -95,7 +95,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			actor = 301791,
+			actor = 301790,
 			say = "The problem must have flared up when she overexerted herself earlier on the Mirror Sea...",
 			typewriter = {
 				speed = 0.05,
@@ -111,7 +111,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			actor = 301791,
+			actor = 301790,
 			say = "However, I'm worried that...",
 			typewriter = {
 				speed = 0.05,
@@ -126,7 +126,7 @@ return {
 			expression = 2,
 			side = 1,
 			dir = 1,
-			actor = 305071,
+			actor = 305070,
 			nameColor = "#a9f548",
 			say = "That what?",
 			typewriter = {
@@ -153,7 +153,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			actor = 301791,
+			actor = 301790,
 			say = "... that in this state, she won't even be able to have a normal civilian life, let alone receive her carrier remodel.",
 			typewriter = {
 				speed = 0.05,
@@ -169,7 +169,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
-			actor = 305071,
+			actor = 305070,
 			say = "... ...",
 			typewriter = {
 				speed = 0.05,
@@ -181,7 +181,7 @@ return {
 			}
 		},
 		{
-			actor = 301791,
+			actor = 301790,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -200,7 +200,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			actor = 301791,
+			actor = 301790,
 			say = "... even to the one who is currently undergoing her remodel.",
 			typewriter = {
 				speed = 0.05,
@@ -216,7 +216,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
-			actor = 305071,
+			actor = 305070,
 			say = "... ...",
 			typewriter = {
 				speed = 0.05,
@@ -245,7 +245,7 @@ return {
 			side = 2,
 			dir = -1,
 			blackBg = true,
-			actor = 304051,
+			actor = 304050,
 			nameColor = "#a9f548",
 			say = "Hatakaze...?",
 			flashout = {
@@ -275,7 +275,7 @@ return {
 			}
 		},
 		{
-			actor = 301791,
+			actor = 301790,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -295,7 +295,7 @@ return {
 			side = 2,
 			dir = -1,
 			blackBg = true,
-			actor = 304051,
+			actor = 304050,
 			nameColor = "#a9f548",
 			say = "There's... just one more thing left to do... please...",
 			typewriter = {
@@ -312,7 +312,7 @@ return {
 			side = 2,
 			dir = -1,
 			blackBg = true,
-			actor = 301791,
+			actor = 301790,
 			nameColor = "#a9f548",
 			say = "Of course. I will make sure it is done.",
 			typewriter = {
@@ -355,7 +355,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
@@ -371,7 +371,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -386,7 +386,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -401,7 +401,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -416,7 +416,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -431,7 +431,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -446,7 +446,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -461,7 +461,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -476,7 +476,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,

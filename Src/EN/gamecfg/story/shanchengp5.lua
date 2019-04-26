@@ -32,7 +32,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_101",
 			dir = 1,
-			actor = 305024,
+			actor = 305020,
 			actorName = "{namecode:79}",
 			say = "殿下，让你久等了！咳咳！",
 			typewriter = {
@@ -49,7 +49,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_101",
 			dir = 1,
-			actor = 305024,
+			actor = 305020,
 			actorName = "{namecode:79}",
 			say = "上次和你提过的巫女舞，我想今天跳给你看看！",
 			typewriter = {
@@ -66,7 +66,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_101",
 			dir = 1,
-			actor = 305024,
+			actor = 305020,
 			actorName = "{namecode:79}",
 			say = "嗯，其实我有背着姐姐在偷偷学巫女舞！可没人看我跳，不知道哪里跳得行哪里不行……",
 			typewriter = {
@@ -83,7 +83,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_101",
 			dir = 1,
-			actor = 305024,
+			actor = 305020,
 			actorName = "{namecode:79}",
 			say = "所以想让殿下帮我看看！还有呢……巫女舞就是要在合适的地方跳才对，是吧！",
 			typewriter = {
@@ -100,7 +100,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_101",
 			dir = 1,
-			actor = 305024,
+			actor = 305020,
 			actorName = "{namecode:79}",
 			say = "里面都打扫干净了，就先在外面比划一下动作再说——",
 			typewriter = {
@@ -207,7 +207,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_101",
 			dir = 1,
-			actor = 305024,
+			actor = 305020,
 			actorName = "{namecode:79}",
 			say = "哇……哇哇！",
 			typewriter = {
@@ -251,7 +251,7 @@ return {
 			bgName = "star_level_bg_101",
 			dir = 1,
 			blackBg = true,
-			actor = 305024,
+			actor = 305020,
 			actorName = "{namecode:79}",
 			say = "殿下？？……好、好的！先躲一下免得淋湿了！",
 			typewriter = {

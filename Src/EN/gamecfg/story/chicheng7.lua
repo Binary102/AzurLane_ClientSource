@@ -70,7 +70,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 307011,
+			actor = 307010,
 			actorName = "{namecode:91}",
 			say = "指挥官，睡得如何？没想到你就那样睡着了…果然是最近太累了吧…",
 			typewriter = {
@@ -87,7 +87,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 307011,
+			actor = 307010,
 			actorName = "{namecode:91}",
 			say = "……{namecode:91}什么也没做呀。嗯，只要指挥官能接受我……",
 			typewriter = {
@@ -104,7 +104,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 307011,
+			actor = 307010,
 			actorName = "{namecode:91}",
 			say = "指挥官要是不想只看着{namecode:91}，不看也没关系……不想只属于{namecode:91}的话…也可以。",
 			typewriter = {
@@ -121,7 +121,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 307011,
+			actor = 307010,
 			actorName = "{namecode:91}",
 			say = "{namecode:91}只是希望，{namecode:91}对指挥官的爱能一直留在指挥官心里，就够了…",
 			typewriter = {
@@ -138,7 +138,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 307011,
+			actor = 307010,
 			actorName = "{namecode:91}",
 			say = "……指挥官真是温柔的人啊……",
 			typewriter = {
@@ -171,7 +171,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 307011,
+			actor = 307010,
 			actorName = "{namecode:91}",
 			say = "好的，指挥官。已经到了出发的时间了呢。",
 			typewriter = {
@@ -188,7 +188,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 307011,
+			actor = 307010,
 			actorName = "{namecode:91}",
 			say = "无论是{namecode:91}，还是我们这支舰队，亦或是重樱的大家，都交给你了",
 			typewriter = {
@@ -206,7 +206,7 @@ return {
 			bgName = "bg_night",
 			dir = 1,
 			blackBg = true,
-			actor = 307011,
+			actor = 307010,
 			nameColor = "#a9f548",
 			say = "愿神明大人的力量能守护着你…{namecode:91}的…命运之人……",
 			typewriter = {

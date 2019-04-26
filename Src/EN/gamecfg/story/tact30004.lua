@@ -4,7 +4,7 @@ return {
 	once = true,
 	scripts = {
 		{
-			actor = 204031,
+			actor = 204030,
 			side = 2,
 			nameColor = "#D6341D",
 			say = "想不到会败在这里……咕……对不起，指挥官，胡德可能……",
@@ -22,7 +22,7 @@ return {
 			}
 		},
 		{
-			actor = 900019,
+			actor = 213011,
 			side = 0,
 			say = "胡德小……胡德，我以前怎么不知道你是这么幽默的人……",
 			paintingFadeOut = {
@@ -43,7 +43,7 @@ return {
 			}
 		},
 		{
-			actor = 204031,
+			actor = 204030,
 			side = 1,
 			nameColor = "#D6341D",
 			say = "哎呀，适当的幽默是淑女理应掌握的让生活充满乐趣的技巧哦？",
@@ -62,7 +62,7 @@ return {
 		},
 		{
 			side = 0,
-			actor = 900019,
+			actor = 213011,
 			say = "……虽然很有道理……但总觉得很不想承认……",
 			shake = {
 				speed = 1,
@@ -78,7 +78,7 @@ return {
 			}
 		},
 		{
-			actor = 205061,
+			actor = 205060,
 			side = 1,
 			dir = -1,
 			nameColor = "#D6341D",
@@ -97,7 +97,7 @@ return {
 			}
 		},
 		{
-			actor = 900019,
+			actor = 213011,
 			side = 0,
 			nameColor = "#D6341D",
 			say = "……?",
@@ -115,7 +115,7 @@ return {
 			}
 		},
 		{
-			actor = 204031,
+			actor = 204030,
 			side = 2,
 			nameColor = "#D6341D",
 			say = "「不幸啊，尊贵的皇家竟要败于铁血」",
@@ -129,7 +129,7 @@ return {
 			}
 		},
 		{
-			actor = 205061,
+			actor = 205060,
 			side = 0,
 			say = "「便是因为先后出发的差距——」",
 			nameColor = "#D6341D",
@@ -147,7 +147,7 @@ return {
 			}
 		},
 		{
-			actor = 204031,
+			actor = 204030,
 			side = 1,
 			nameColor = "#D6341D",
 			say = "「可憎啊，先来的要被后来者超越」",
@@ -161,7 +161,7 @@ return {
 			}
 		},
 		{
-			actor = 205061,
+			actor = 205060,
 			side = 0,
 			nameColor = "#D6341D",
 			say = "「或者因为听信了同僚的谗言——」",
@@ -175,7 +175,7 @@ return {
 			}
 		},
 		{
-			actor = 204031,
+			actor = 204030,
 			side = 1,
 			nameColor = "#D6341D",
 			say = "所以带上皇家的荣耀",
@@ -189,7 +189,7 @@ return {
 			}
 		},
 		{
-			actor = 205061,
+			actor = 205060,
 			side = 0,
 			nameColor = "#D6341D",
 			say = "与这颗向往巧克力的心",
@@ -206,13 +206,13 @@ return {
 			actorShadow = true,
 			side = 1,
 			actorName = "胡德&威尔士亲王",
-			actor = 204031,
+			actor = 204030,
 			hideOther = true,
 			nameColor = "#D6341D",
 			say = "超越铁血，取得最后的胜利吧！",
 			subActors = {
 				{
-					actor = 205061,
+					actor = 205060,
 					pos = {
 						x = -750
 					}
@@ -228,7 +228,7 @@ return {
 			}
 		},
 		{
-			actor = 900019,
+			actor = 213011,
 			side = 2,
 			nameColor = "#D6341D",
 			say = "哦，哦……",

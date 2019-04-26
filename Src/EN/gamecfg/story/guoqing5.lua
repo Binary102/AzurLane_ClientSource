@@ -10,7 +10,7 @@ return {
 			say = "That idiot has taken the bait. All systems normal.",
 			nameColor = "#ff0000",
 			blackBg = true,
-			actor = 307061,
+			actor = 307060,
 			actorName = "？？？",
 			withoutPainting = true,
 			shake = {
@@ -31,7 +31,7 @@ return {
 			side = 1,
 			actorName = "？？？",
 			blackBg = true,
-			actor = 301091,
+			actor = 301090,
 			nameColor = "#ff0000",
 			withoutPainting = true,
 			typewriter = {
@@ -48,7 +48,7 @@ return {
 			side = 1,
 			actorName = "？？？",
 			blackBg = true,
-			actor = 301091,
+			actor = 301090,
 			nameColor = "#ff0000",
 			withoutPainting = true,
 			typewriter = {
@@ -65,7 +65,7 @@ return {
 			say = "Let's give them a little surprise. This is a perfect opportunity to test the new weapon the Creator gave us...",
 			nameColor = "#ff0000",
 			blackBg = true,
-			actor = 307061,
+			actor = 307060,
 			actorName = "？？？",
 			withoutPainting = true,
 			shake = {
@@ -86,7 +86,7 @@ return {
 			say = "Those who dare stand between the Creator and me must be punished...",
 			nameColor = "#ff0000",
 			blackBg = true,
-			actor = 307061,
+			actor = 307060,
 			actorName = "？？？",
 			withoutPainting = true,
 			shake = {

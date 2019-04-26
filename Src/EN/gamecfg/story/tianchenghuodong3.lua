@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 301791,
+			actor = 301790,
 			nameColor = "#ff0000",
 			side = 1,
 			dir = -1,
@@ -23,7 +23,7 @@ return {
 			}
 		},
 		{
-			actor = 304051,
+			actor = 304050,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -38,7 +38,7 @@ return {
 			}
 		},
 		{
-			actor = 301791,
+			actor = 301790,
 			side = 1,
 			nameColor = "#ff0000",
 			dir = -1,
@@ -57,7 +57,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
-			actor = 304051,
+			actor = 304050,
 			say = "Perhaps so. It is true I like devising new strategies, but never once have I said I am an incapable soldier.",
 			typewriter = {
 				speed = 0.05,
@@ -73,7 +73,7 @@ return {
 			nameColor = "#ff0000",
 			side = 1,
 			dir = -1,
-			actor = 301791,
+			actor = 301790,
 			say = "Indeed... I fully believe that it's a fortunate thing I am not your enemy.",
 			typewriter = {
 				speed = 0.05,
@@ -85,7 +85,7 @@ return {
 			}
 		},
 		{
-			actor = 301791,
+			actor = 301790,
 			side = 1,
 			nameColor = "#ff0000",
 			dir = -1,
@@ -104,7 +104,7 @@ return {
 			nameColor = "#ff0000",
 			side = 1,
 			dir = -1,
-			actor = 301791,
+			actor = 301790,
 			say = "If you wish to pass, you must first defeat me!",
 			typewriter = {
 				speed = 0.05,
@@ -116,7 +116,7 @@ return {
 			}
 		},
 		{
-			actor = 304051,
+			actor = 304050,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,

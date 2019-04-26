@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 305051,
+			actor = 305050,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
@@ -23,7 +23,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -38,7 +38,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -53,7 +53,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -68,7 +68,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			nameColor = "#a9f548",
 			dir = 1,
 			withoutActorName = true,
@@ -84,7 +84,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -123,7 +123,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			actor = 305071,
+			actor = 305070,
 			say = "Nagato-sama's... next flagship?!",
 			typewriter = {
 				speed = 0.05,
@@ -135,7 +135,7 @@ return {
 			}
 		},
 		{
-			actor = 305061,
+			actor = 305060,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -150,7 +150,7 @@ return {
 			}
 		},
 		{
-			actor = 305061,
+			actor = 305060,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -165,7 +165,7 @@ return {
 			}
 		},
 		{
-			actor = 305061,
+			actor = 305060,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -180,7 +180,7 @@ return {
 			}
 		},
 		{
-			actor = 305061,
+			actor = 305060,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -195,7 +195,7 @@ return {
 			}
 		},
 		{
-			actor = 305071,
+			actor = 305070,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -210,7 +210,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -225,7 +225,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -240,7 +240,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,

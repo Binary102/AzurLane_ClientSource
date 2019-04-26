@@ -49,7 +49,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 2,
 			dir = 1,
 			say = "*Gasp*... *Gasp*... Has the Siren retreated...?",
@@ -63,7 +63,7 @@ return {
 			}
 		},
 		{
-			actor = 305111,
+			actor = 305110,
 			side = 2,
 			dir = 1,
 			say = "For being your first real battle, that was spectacular. How does it feel to be victorious?",
@@ -77,7 +77,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 2,
 			dir = 1,
 			say = "*Gasp*... I didn't think a battle would be this tiring, but... to fight and be victorious, as an actual combatant, feels terrific.",
@@ -91,7 +91,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			side = 2,
 			dir = 1,
 			say = "So, will you team up with us and help fight the baddies?",
@@ -105,7 +105,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 2,
 			dir = 1,
 			say = "Yes. By the way, Mikasa, there is something the Siren said that I'm worried about...",
@@ -119,7 +119,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 2,
 			dir = 1,
 			say = "She mentioned \"soul transmigration.\" There is a legend that says the Sacred Sakura is a catalyst for God to hear our prayers...",
@@ -133,7 +133,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 2,
 			dir = 1,
 			say = "But it's also said that it offers peace and salvation to the souls of the deceased.",
@@ -147,7 +147,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 2,
 			dir = 1,
 			say = "If the Spirits I saw in my slumber are the \"souls\" the Siren spoke of, then they aren't gathering here, but in a far-off, distant place.",
@@ -161,7 +161,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 2,
 			dir = 1,
 			say = "Whether the Sirens are behind this, or a being beyond my comprehension, I can't say. But I do know that somewhere in this world, there is a force trying to cause great change.",
@@ -175,7 +175,7 @@ return {
 			}
 		},
 		{
-			actor = 305111,
+			actor = 305110,
 			side = 2,
 			dir = 1,
 			say = "I see... Your concern deserves attention, but for now, we need more allies.",
@@ -189,7 +189,7 @@ return {
 			}
 		},
 		{
-			actor = 305111,
+			actor = 305110,
 			side = 2,
 			dir = 1,
 			say = "Zuikaku has bothered you with the question many times now, but won't you join us?",
@@ -203,7 +203,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 2,
 			dir = 1,
 			say = "Yes... I'm interested to see what's in store for me in the unexplored oceans beyond my birthplace...",
@@ -217,7 +217,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 2,
 			dir = 1,
 			say = "I, battleship Nagato, shall fight by your side!",
@@ -234,7 +234,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 307011,
+			actor = 307010,
 			stopbgm = true,
 			say = "Finally... Finally, it is complete...",
 			flashout = {
@@ -264,7 +264,7 @@ return {
 			}
 		},
 		{
-			actor = 307011,
+			actor = 307010,
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -279,7 +279,7 @@ return {
 			}
 		},
 		{
-			actor = 307021,
+			actor = 307020,
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -294,7 +294,7 @@ return {
 			}
 		},
 		{
-			actor = 307011,
+			actor = 307010,
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -312,7 +312,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 307021,
+			actor = 307020,
 			say = "If you were in this situation beyond all expectations... what would you do?",
 			flashout = {
 				dur = 1,

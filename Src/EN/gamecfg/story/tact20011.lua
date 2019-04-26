@@ -8,7 +8,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 404011,
+			actor = 404010,
 			side = 2,
 			nameColor = "#ff0000",
 			say = "If you've come this far, that can only mean one thing... I hate to admit it, but you might be just a little different from those we've fought so far.",
@@ -26,7 +26,7 @@ return {
 			}
 		},
 		{
-			actor = 404011,
+			actor = 404010,
 			side = 2,
 			nameColor = "#ff0000",
 			say = "But we've never fought anyone that could escape from our mighty guns. You are no exception!",
@@ -47,7 +47,7 @@ return {
 			side = 1,
 			say = "I collected a lot of data during our last battle. This time our chances of winning are over 90%.",
 			nameColor = "#ff0000",
-			actor = 404021,
+			actor = 404020,
 			mode = 2,
 			paintingFadeOut = {
 				time = 0.5,
@@ -67,7 +67,7 @@ return {
 			}
 		},
 		{
-			actor = 404011,
+			actor = 404010,
 			side = 0,
 			nameColor = "#ff0000",
 			say = "Listen up, you fools standing before the Shark Sisters! This is where our hunt begins! And don't you dare disappoint me!",
@@ -88,13 +88,13 @@ return {
 			actorShadow = true,
 			side = 0,
 			actorName = "Scharnhorst&Gneisenau",
-			actor = 404011,
+			actor = 404010,
 			hideOther = true,
 			nameColor = "#ff0000",
 			say = "Scharnhorst-class battlecruisers Scharnhorst and Gneisenau, ready for battle! Come and face your doom!",
 			subActors = {
 				{
-					actor = 404021,
+					actor = 404020,
 					pos = {
 						x = 685
 					}

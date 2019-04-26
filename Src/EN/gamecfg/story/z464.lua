@@ -69,7 +69,7 @@ return {
 			}
 		},
 		{
-			actor = 401461,
+			actor = 401460,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			say = "Tirpitz, I've come with commander's package.",
@@ -83,7 +83,7 @@ return {
 			}
 		},
 		{
-			actor = 405021,
+			actor = 405020,
 			side = 1,
 			bgName = "bg_story_outdoor",
 			say = "Viersechs? Thank you, I'll take care of it.",
@@ -113,7 +113,7 @@ return {
 			}
 		},
 		{
-			actor = 405021,
+			actor = 405020,
 			side = 1,
 			bgName = "bg_story_outdoor",
 			say = "Viersechs, so you're on secretary duty now? What are your plans for later?",
@@ -127,7 +127,7 @@ return {
 			}
 		},
 		{
-			actor = 401461,
+			actor = 401460,
 			side = 0,
 			bgName = "bg_story_outdoor",
 			say = "Other than plans to return to my dorm, no other plans seem to come to my mind.",
@@ -141,7 +141,7 @@ return {
 			}
 		},
 		{
-			actor = 405021,
+			actor = 405020,
 			side = 1,
 			bgName = "bg_story_outdoor",
 			say = "Is that so? Then, you should keep me company for a while. I still find it easier to talk with you.",
@@ -155,7 +155,7 @@ return {
 			}
 		},
 		{
-			actor = 401461,
+			actor = 401460,
 			side = 0,
 			bgName = "bg_story_outdoor",
 			say = "Though that much is fine, I must warn you first: I struggle greatly to find what to say. If you do not mind, an ear I can lend.",
@@ -169,7 +169,7 @@ return {
 			}
 		},
 		{
-			actor = 405021,
+			actor = 405020,
 			side = 1,
 			bgName = "bg_story_outdoor",
 			say = "Of course, that is no problem at all. I'm no stranger to talking to myself.",
@@ -219,7 +219,7 @@ return {
 			}
 		},
 		{
-			actor = 405021,
+			actor = 405020,
 			side = 1,
 			bgName = "bg_story_outdoor",
 			say = "Viersechs, what would you like to do in the future?",
@@ -233,7 +233,7 @@ return {
 			}
 		},
 		{
-			actor = 401461,
+			actor = 401460,
 			side = 0,
 			bgName = "bg_story_outdoor",
 			say = "Me? I... ... ...",

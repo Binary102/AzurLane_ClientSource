@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"特别演习·埃塞克斯级\n\n<size=30>三　休息时间</size>",
+					"特别演习·埃塞克斯级\n\n<size=30>三　幕间的倾听者</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			actor = 107071,
+			actor = 107070,
 			nameColor = "#a9f548",
 			say = "哈喽！欢迎回来！",
 			flashout = {
@@ -52,7 +52,7 @@ return {
 			}
 		},
 		{
-			actor = 107051,
+			actor = 107050,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -72,7 +72,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = -1,
-			actor = 107091,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "啊，谢谢前辈们——",
 			typewriter = {
@@ -89,7 +89,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 107381,
+			actor = 107380,
 			nameColor = "#a9f548",
 			say = "谢谢了。",
 			typewriter = {
@@ -102,7 +102,7 @@ return {
 			}
 		},
 		{
-			actor = 107071,
+			actor = 107070,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -118,7 +118,7 @@ return {
 			}
 		},
 		{
-			actor = 107071,
+			actor = 107070,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -134,7 +134,7 @@ return {
 			}
 		},
 		{
-			actor = 107071,
+			actor = 107070,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -154,7 +154,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = -1,
-			actor = 107091,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "抱歉，我没有想这么多……",
 			typewriter = {
@@ -171,7 +171,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = -1,
-			actor = 107091,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "这是一次重要的演习，也是展示我实力的舞台，所以我会全力以赴……感想大概就这些吧？",
 			typewriter = {
@@ -184,7 +184,7 @@ return {
 			}
 		},
 		{
-			actor = 107071,
+			actor = 107070,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -204,7 +204,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 107381,
+			actor = 107380,
 			nameColor = "#a9f548",
 			say = "认真的埃塞克斯可不像某位牛仔小姐那样八卦。",
 			typewriter = {
@@ -217,7 +217,7 @@ return {
 			}
 		},
 		{
-			actor = 107071,
+			actor = 107070,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -233,7 +233,7 @@ return {
 			}
 		},
 		{
-			actor = 107071,
+			actor = 107070,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -249,7 +249,7 @@ return {
 			}
 		},
 		{
-			actor = 107091,
+			actor = 107090,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -265,7 +265,7 @@ return {
 			}
 		},
 		{
-			actor = 107051,
+			actor = 107050,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -281,7 +281,7 @@ return {
 			}
 		},
 		{
-			actor = 107071,
+			actor = 107070,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -297,7 +297,7 @@ return {
 			}
 		},
 		{
-			actor = 107381,
+			actor = 107380,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -316,7 +316,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 107381,
+			actor = 107380,
 			nameColor = "#a9f548",
 			say = "对了，牛仔小姐？",
 			flashout = {
@@ -346,7 +346,7 @@ return {
 			}
 		},
 		{
-			actor = 107071,
+			actor = 107070,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -366,7 +366,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 107381,
+			actor = 107380,
 			nameColor = "#a9f548",
 			say = "咳，咳……关于你刚刚说的，企业前辈的一些秘密，我稍微有一些记录的兴趣……",
 			typewriter = {
@@ -379,7 +379,7 @@ return {
 			}
 		},
 		{
-			actor = 107071,
+			actor = 107070,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -395,7 +395,7 @@ return {
 			}
 		},
 		{
-			actor = 107381,
+			actor = 107380,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -411,7 +411,7 @@ return {
 			}
 		},
 		{
-			actor = 107071,
+			actor = 107070,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -427,7 +427,7 @@ return {
 			}
 		},
 		{
-			actor = 107071,
+			actor = 107070,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -443,7 +443,7 @@ return {
 			}
 		},
 		{
-			actor = 107061,
+			actor = 107060,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -462,7 +462,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 107071,
+			actor = 107070,
 			nameColor = "#a9f548",
 			say = "咳咳，咳咳！！没，没，没什么……我先回去休息了！",
 			typewriter = {
@@ -496,7 +496,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 107381,
+			actor = 107380,
 			nameColor = "#a9f548",
 			say = "我们……我们刚刚在讨论一些关于今天演习的事情。",
 			typewriter = {
@@ -509,7 +509,7 @@ return {
 			}
 		},
 		{
-			actor = 107061,
+			actor = 107060,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -525,7 +525,7 @@ return {
 			}
 		},
 		{
-			actor = 107381,
+			actor = 107380,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -541,7 +541,7 @@ return {
 			}
 		},
 		{
-			actor = 107061,
+			actor = 107060,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -557,7 +557,7 @@ return {
 			}
 		},
 		{
-			actor = 107061,
+			actor = 107060,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -573,7 +573,7 @@ return {
 			}
 		},
 		{
-			actor = 107381,
+			actor = 107380,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -589,7 +589,7 @@ return {
 			}
 		},
 		{
-			actor = 107061,
+			actor = 107060,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -605,7 +605,7 @@ return {
 			}
 		},
 		{
-			actor = 107061,
+			actor = 107060,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -621,7 +621,7 @@ return {
 			}
 		},
 		{
-			actor = 107061,
+			actor = 107060,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -641,7 +641,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			actor = 107381,
+			actor = 107380,
 			nameColor = "#a9f548",
 			say = "……",
 			typewriter = {

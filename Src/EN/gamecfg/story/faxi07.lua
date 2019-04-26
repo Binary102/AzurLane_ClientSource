@@ -32,7 +32,7 @@ return {
 			side = 0,
 			bgName = "bg_story_faxi2",
 			dir = 1,
-			actor = 905011,
+			actor = 905010,
 			withoutPainting = true,
 			flashout = {
 				dur = 1,
@@ -61,7 +61,7 @@ return {
 			}
 		},
 		{
-			actor = 905011,
+			actor = 905010,
 			side = 0,
 			bgName = "bg_story_faxi2",
 			say = "这就是你所期望的吗，我的姐姐？",
@@ -392,7 +392,7 @@ return {
 			side = 0,
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
-			actor = 101301,
+			actor = 101300,
 			say = "开开开…维希教廷的舰队朝我们的登陆部队开火了！！",
 			effects = {
 				{
@@ -442,7 +442,7 @@ return {
 			}
 		},
 		{
-			actor = 102031,
+			actor = 102030,
 			say = "登陆部队受到重创，立即请求支援！",
 			dir = 1,
 			side = 1,
@@ -489,7 +489,7 @@ return {
 			}
 		},
 		{
-			actor = 102031,
+			actor = 102030,
 			say = "重复一遍，登陆部队受到重创，立即请求支援！！",
 			dir = 1,
 			side = 1,
@@ -536,7 +536,7 @@ return {
 			}
 		},
 		{
-			actor = 107041,
+			actor = 107040,
 			say = "任务果然不会那么简单呀…",
 			dir = 1,
 			side = 1,
@@ -583,7 +583,7 @@ return {
 			}
 		},
 		{
-			actor = 107041,
+			actor = 107040,
 			say = "周边空域所有舰载机听令，任务变更，任务变更",
 			dir = 1,
 			side = 1,
@@ -630,7 +630,7 @@ return {
 			}
 		},
 		{
-			actor = 107041,
+			actor = 107040,
 			say = "优先压制卡萨布兰卡附近所有岸防炮，开始掩护登陆部队行动",
 			dir = 1,
 			side = 1,
@@ -677,7 +677,7 @@ return {
 			}
 		},
 		{
-			actor = 102091,
+			actor = 102090,
 			say = "呀~果然还是打起来了呢，可惜对手里似乎没有飞机呀，都没有我大展身手的机…",
 			dir = 1,
 			side = 1,
@@ -724,7 +724,7 @@ return {
 			}
 		},
 		{
-			actor = 102091,
+			actor = 102090,
 			say = "哇呀呀！是塞壬的舰载机攻击！！",
 			dir = 1,
 			side = 1,
@@ -771,7 +771,7 @@ return {
 			}
 		},
 		{
-			actor = 103111,
+			actor = 103110,
 			say = "不要大意，周边的护航和防空就交给你了，我倒是要去会会塞壬的新型空母！",
 			dir = 1,
 			side = 1,

@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 303091,
+			actor = 303090,
 			side = 1,
 			dir = -1,
 			bgm = "story-6",
@@ -17,7 +17,7 @@ return {
 			subActors = {
 				{
 					dir = 1,
-					actor = 304051,
+					actor = 304050,
 					pos = {
 						x = 687
 					}
@@ -37,13 +37,13 @@ return {
 			side = 0,
 			hideOther = true,
 			dir = -1,
-			actor = 304051,
+			actor = 304050,
 			nameColor = "#a9f548",
 			say = "I wanted to make sure Houshou got all her planes back safely, but it looks like that's not an option anymore...",
 			subActors = {
 				{
 					dir = 1,
-					actor = 303091,
+					actor = 303090,
 					pos = {
 						x = -687
 					}
@@ -63,7 +63,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
-			actor = 304051,
+			actor = 304050,
 			say = "The recon plane was most likely shot down by the Sirens. Since none of the other planes have been able to locate Kaga so far, heading towards 9 o'clock is our best bet.",
 			typewriter = {
 				speed = 0.05,
@@ -78,7 +78,7 @@ return {
 			expression = 2,
 			side = 1,
 			dir = 1,
-			actor = 302141,
+			actor = 302140,
 			nameColor = "#a9f548",
 			say = "Amagi, b-b-big t-trouble!!",
 			typewriter = {
@@ -101,7 +101,7 @@ return {
 			}
 		},
 		{
-			actor = 304051,
+			actor = 304050,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -119,7 +119,7 @@ return {
 			expression = 1,
 			side = 1,
 			dir = 1,
-			actor = 302141,
+			actor = 302140,
 			nameColor = "#a9f548",
 			say = "B-b-black shadows in the sky... so many of them are flying towards us!",
 			typewriter = {
@@ -142,7 +142,7 @@ return {
 			}
 		},
 		{
-			actor = 304051,
+			actor = 304050,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -161,7 +161,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
-			actor = 304051,
+			actor = 304050,
 			say = "We're under attack from a carrier-class Siren! All ships, prepare for anti-air measures!",
 			typewriter = {
 				speed = 0.05,
@@ -177,7 +177,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
-			actor = 302141,
+			actor = 302140,
 			say = "Eh? A-anti-air measures?",
 			typewriter = {
 				speed = 0.05,
@@ -193,7 +193,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
-			actor = 304051,
+			actor = 304050,
 			say = "Yes, proceed forward in an S-formation with your secondary weapons raised to maximum elevation angle. Shoot those things out of the sky!",
 			typewriter = {
 				speed = 0.05,
@@ -208,7 +208,7 @@ return {
 			expression = 1,
 			side = 1,
 			dir = 1,
-			actor = 302141,
+			actor = 302140,
 			nameColor = "#a9f548",
 			say = "Y-yes ma'am! I will do my best!",
 			typewriter = {

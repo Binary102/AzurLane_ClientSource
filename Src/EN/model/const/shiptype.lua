@@ -13,6 +13,7 @@ slot0.LeiXun = 11
 slot0.WeiXiu = 12
 slot0.ZhongPao = 13
 slot0.QianMu = 17
+slot0.ChaoXun = 18
 slot0.YuLeiTing = 14
 slot0.JinBi = 15
 slot0.ZiBao = 16
@@ -36,11 +37,13 @@ function slot0.Type2Print(slot0)
 			"hangzhan",
 			"zhanlie",
 			"weixiu",
-			"zhanlie",
+			"zhongpao",
 			"quzhu",
 			"battle_jinbi",
 			"battle_zibao",
-			"qianmu"
+			"qianmu",
+			"zhongxun",
+			"chaoxun"
 		}
 	end
 
@@ -66,7 +69,8 @@ function slot0.Type2BattlePrint(slot0)
 			"battle_quzhu",
 			"battle_jinbi",
 			"battle_zibao",
-			"battle_hangmu"
+			"battle_hangmu",
+			"battle_zhanlie"
 		}
 	end
 
@@ -92,7 +96,8 @@ function slot0.Type2CNLabel(slot0)
 			"label_1",
 			"label_1",
 			"label_1",
-			"label_17"
+			"label_17",
+			"label_18"
 		}
 	end
 
@@ -102,6 +107,7 @@ end
 slot0.BundleBattleShip = "zhan"
 slot0.BundleAircraftCarrier = "hang"
 slot0.BundleSubmarine = "qian"
+slot0.BundleLargeCrusier = "zhong"
 slot0.BundleList = {
 	zhan = {
 		slot0.ZhanXun,
@@ -114,6 +120,10 @@ slot0.BundleList = {
 	qian = {
 		slot0.QianTing,
 		slot0.QianMu
+	},
+	zhong = {
+		slot0.ZhongXun,
+		slot0.ChaoXun
 	}
 }
 
@@ -122,7 +132,8 @@ function slot0.BundleType2CNLabel(slot0)
 		slot0.bundleLabel = {
 			qian = "label_8",
 			hang = "label_12",
-			zhan = "label_11"
+			zhan = "label_11",
+			zhong = "label_13"
 		}
 	end
 

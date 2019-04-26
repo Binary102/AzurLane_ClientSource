@@ -38,7 +38,7 @@ return {
 			actorName = "{namecode:2}",
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 900080,
+			actor = 301011,
 			dir = 1,
 			actorScale = 0.6,
 			bgm = "story-1",
@@ -107,7 +107,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 900080,
+			actor = 301011,
 			actorName = "{namecode:2}",
 			say = "Whining... so many sisters, but none of them cared to wake me up!!",
 			typewriter = {
@@ -133,7 +133,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgName = "star_level_bg_103",
-			actor = 900082,
+			actor = 307041,
 			nameColor = "#a9f548",
 			say = "Hmmm～～ As a bully girl, I should skip my classes without feeling ashamed, right? ",
 			effects = {
@@ -173,7 +173,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 900082,
+			actor = 307041,
 			actorName = "{namecode:94}",
 			say = "Ahh... That's a terrible idea, big sis will be angry again.",
 			typewriter = {
@@ -190,7 +190,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 900082,
+			actor = 307041,
 			actorName = "{namecode:94}",
 			say = "B-but, without bully girls, there would be no taskmaster girls!",
 			typewriter = {
@@ -207,7 +207,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgName = "star_level_bg_103",
-			actor = 900082,
+			actor = 307041,
 			nameColor = "#a9f548",
 			say = "Eh?",
 			flashout = {
@@ -239,7 +239,7 @@ return {
 		{
 			side = 0,
 			bgName = "star_level_bg_103",
-			actor = 900082,
+			actor = 307041,
 			dir = 1,
 			actorName = "{namecode:94}&{namecode:2}",
 			hideOther = true,
@@ -267,7 +267,7 @@ return {
 			},
 			subActors = {
 				{
-					actor = 900080,
+					actor = 301011,
 					pos = {
 						x = 750
 					}
@@ -287,7 +287,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 900082,
+			actor = 307041,
 			actorName = "{namecode:94}",
 			say = "Who’s there! Don’t you look where you’re walking?",
 			typewriter = {
@@ -313,7 +313,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 900080,
+			actor = 301011,
 			actorName = "{namecode:2}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -333,7 +333,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 900082,
+			actor = 307041,
 			actorName = "{namecode:94}",
 			say = "So, it's {namecode:2}... Why are you in such a hurry?",
 			typewriter = {
@@ -350,7 +350,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 900080,
+			actor = 301011,
 			actorName = "{namecode:2}",
 			say = "B-because I'm late — — Eh? {namecode:94}? Are you {namecode:94}? You look like a...",
 			typewriter = {
@@ -367,7 +367,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 900080,
+			actor = 301011,
 			actorName = "{namecode:2}",
 			say = "B-bully girl?!",
 			typewriter = {
@@ -384,7 +384,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 900082,
+			actor = 307041,
 			actorName = "{namecode:94}",
 			say = "Heeheehee. Impressed? Looks like the real deal, right? My sister will be surprised — —",
 			typewriter = {
@@ -401,7 +401,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 900081,
+			actor = 307032,
 			actorName = "{namecode:93}",
 			say = "{namecode:94}～～～!!!",
 			typewriter = {
@@ -418,7 +418,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 900082,
+			actor = 307041,
 			actorName = "{namecode:94}",
 			say = "Woaaa! She's coming this way!",
 			typewriter = {
@@ -435,7 +435,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 900081,
+			actor = 307032,
 			actorName = "{namecode:93}",
 			say = "{namecode:63} entrusted me to be a taskmaster girl. I shall not fail her. Sister or not, I'll teach you a lesson!",
 			typewriter = {
@@ -453,12 +453,12 @@ return {
 			bgName = "star_level_bg_103",
 			hideOther = true,
 			dir = 1,
-			actor = 900082,
+			actor = 307041,
 			nameColor = "#a9f548",
 			say = "Whining — —",
 			subActors = {
 				{
-					actor = 900080,
+					actor = 301011,
 					pos = {
 						x = 750
 					}
@@ -478,7 +478,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 900081,
+			actor = 307032,
 			actorName = "{namecode:93}",
 			say = "What? {namecode:2}, what are you doing here?",
 			typewriter = {
@@ -495,7 +495,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 900081,
+			actor = 307032,
 			actorName = "{namecode:93}",
 			say = "Ah, there’s no time left...A-anyways, let’s head to school first! We are late...",
 			typewriter = {
@@ -512,7 +512,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 900081,
+			actor = 307032,
 			actorName = "{namecode:93}",
 			say = "{namecode:94}! We are not done, I'll deal with you later!",
 			typewriter = {
@@ -530,7 +530,7 @@ return {
 			bgName = "star_level_bg_103",
 			dir = 1,
 			blackBg = true,
-			actor = 900082,
+			actor = 307041,
 			actorName = "{namecode:94}",
 			say = "Fine...",
 			typewriter = {

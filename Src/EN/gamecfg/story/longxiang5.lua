@@ -50,7 +50,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 306061,
+			actor = 306060,
 			nameColor = "#a9f548",
 			say = "I-I'm still full of regret from letting Milord see such rudeness... what a shameful thing for a ranger...!",
 			typewriter = {
@@ -67,7 +67,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 306061,
+			actor = 306060,
 			nameColor = "#a9f548",
 			say = "Ugh...! This thing has been bugging me for so long now...!",
 			typewriter = {
@@ -104,7 +104,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 306061,
+			actor = 306060,
 			nameColor = "#a9f548",
 			say = "If this keeps up, I won't even be able to do my normal military work, let alone serve as the secretary ship.",
 			typewriter = {
@@ -140,7 +140,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 306061,
+			actor = 306060,
 			nameColor = "#a9f548",
 			say = "Aww, I didn't even have a chance to play the game that Ayanami recommended...!",
 			typewriter = {
@@ -167,7 +167,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 306061,
+			actor = 306060,
 			nameColor = "#a9f548",
 			say = "Now that I think about it, I've been a bit off recently...",
 			typewriter = {
@@ -180,7 +180,7 @@ return {
 			}
 		},
 		{
-			actor = 306061,
+			actor = 306060,
 			side = 2,
 			dir = 1,
 			bgName = "bg_story_task",
@@ -233,7 +233,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgName = "bg_story_outdoor",
-			actor = 306061,
+			actor = 306060,
 			nameColor = "#a9f548",
 			say = "You've come, Grey Ghost! As a former member of the First Carrier Division, I will have my vengeance!",
 			flashout = {
@@ -263,7 +263,7 @@ return {
 			}
 		},
 		{
-			actor = 306061,
+			actor = 306060,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -283,7 +283,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 306061,
+			actor = 306060,
 			nameColor = "#a9f548",
 			say = "O-ow!! ..I-I've been hit?! No way!",
 			typewriter = {
@@ -310,7 +310,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgName = "star_level_bg_103",
-			actor = 306061,
+			actor = 306060,
 			nameColor = "#a9f548",
 			say = "Illustrious, even though it was me who suggested to go shopping for cute outfits that Milord would like...",
 			flashout = {
@@ -343,7 +343,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 306061,
+			actor = 306060,
 			nameColor = "#a9f548",
 			say = "N-no matter how you look at it, there's no way I could wear such... breezy clothing...!",
 			typewriter = {
@@ -369,7 +369,7 @@ return {
 			expression = 3,
 			side = 2,
 			dir = 1,
-			actor = 306061,
+			actor = 306060,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			say = "Just what in the world is wrong with me...",

@@ -81,6 +81,24 @@ pg.open_systems_limited = {
 		mediator = "ClassMediator",
 		level = 50
 	},
+	{
+		scene = "MAINUI",
+		name = "Dev. Dock",
+		guid_end_id = 0,
+		guidId = 0,
+		id = 10,
+		mediator = "ShipBluePrintMediator",
+		level = 30
+	},
+	{
+		scene = "MAINUI",
+		name = "Research Lab",
+		guid_end_id = 0,
+		guidId = 0,
+		id = 11,
+		mediator = "TechnologyMediator",
+		level = 30
+	},
 	all = {
 		1,
 		2,
@@ -90,7 +108,9 @@ pg.open_systems_limited = {
 		6,
 		7,
 		8,
-		9
+		9,
+		10,
+		11
 	}
 }
 

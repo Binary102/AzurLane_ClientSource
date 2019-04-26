@@ -29,7 +29,7 @@ return {
 			}
 		},
 		{
-			actor = 305014,
+			actor = 305010,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
@@ -49,7 +49,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 305024,
+			actor = 305020,
 			actorName = "{namecode:79}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -65,7 +65,7 @@ return {
 			}
 		},
 		{
-			actor = 305014,
+			actor = 305010,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
@@ -81,7 +81,7 @@ return {
 			}
 		},
 		{
-			actor = 305024,
+			actor = 305020,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -97,7 +97,7 @@ return {
 			}
 		},
 		{
-			actor = 305014,
+			actor = 305010,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
@@ -113,7 +113,7 @@ return {
 			}
 		},
 		{
-			actor = 305024,
+			actor = 305020,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -129,7 +129,7 @@ return {
 			}
 		},
 		{
-			actor = 305014,
+			actor = 305010,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
@@ -145,7 +145,7 @@ return {
 			}
 		},
 		{
-			actor = 305024,
+			actor = 305020,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -161,7 +161,7 @@ return {
 			}
 		},
 		{
-			actor = 305014,
+			actor = 305010,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
@@ -177,7 +177,7 @@ return {
 			}
 		},
 		{
-			actor = 305024,
+			actor = 305020,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -196,7 +196,7 @@ return {
 			actorName = "{namecode:79}",
 			side = 2,
 			dir = 1,
-			actor = 900056,
+			actor = 305022,
 			nameColor = "#a9f548",
 			say = "H-how do I look...?",
 			flashout = {
@@ -230,7 +230,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 305014,
+			actor = 305010,
 			actorName = "{namecode:78}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -250,7 +250,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 900060,
+			actor = 101051,
 			actorName = "Mysterious Voice",
 			say = "Next targets spotted: the Sakura Empire's Battleship Sisters!",
 			typewriter = {
@@ -263,7 +263,7 @@ return {
 			}
 		},
 		{
-			actor = 305014,
+			actor = 305010,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
@@ -283,7 +283,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 900056,
+			actor = 305022,
 			actorName = "{namecode:79}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -299,7 +299,7 @@ return {
 			}
 		},
 		{
-			actor = 900060,
+			actor = 101051,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -314,7 +314,7 @@ return {
 			}
 		},
 		{
-			actor = 900056,
+			actor = 305022,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -330,7 +330,7 @@ return {
 			}
 		},
 		{
-			actor = 305014,
+			actor = 305010,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
@@ -346,7 +346,7 @@ return {
 			}
 		},
 		{
-			actor = 900060,
+			actor = 101051,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -361,7 +361,7 @@ return {
 			}
 		},
 		{
-			actor = 900056,
+			actor = 305022,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -379,7 +379,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			actor = 900060,
+			actor = 101051,
 			nameColor = "#a9f548",
 			say = "Nice! I name this one \"Holiday Offensive\"! Now, who's next on the list...?",
 			flashout = {

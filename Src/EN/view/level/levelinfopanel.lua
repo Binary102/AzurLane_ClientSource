@@ -103,9 +103,9 @@ function slot0.set(slot0, slot1, slot2)
 	slot0.awards = slot0:getChapterAwards()
 
 	slot0.dropList:align(#slot0.awards)
-	setActive(slot0.loopBtn, false)
+	setActive(slot0.loopBtn, slot1:existLoop())
 
-	if slot1:existLoop() then
+	if slot1.existLoop() then
 		setActive(slot0.loopOn, PlayerPrefs.GetInt("chapter_loop_flag_" .. slot1.id, -1) == 1 or (slot9 == -1 and slot1:canActivateLoop()))
 		setActive(slot0.loopOff, not (PlayerPrefs.GetInt("chapter_loop_flag_" .. slot1.id, -1) == 1 or (slot9 == -1 and slot1.canActivateLoop())))
 		onButton(slot0, slot0.loopBtn, function ()

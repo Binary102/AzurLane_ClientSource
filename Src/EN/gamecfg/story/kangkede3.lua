@@ -50,7 +50,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "Commander, if you don't have any other plans tonight, why don't you come with me to the open-air concert~",
 			typewriter = {
@@ -68,7 +68,7 @@ return {
 			bgName = "bg_story_task",
 			withoutActorName = true,
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "After finishing work, Concord appeared in front of me with two concert tickets in hand.",
 			typewriter = {
@@ -81,7 +81,7 @@ return {
 			}
 		},
 		{
-			actor = 102181,
+			actor = 102180,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -101,7 +101,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "Unusual, right? She rarely performs live. I'm a huge fan, you know~",
 			typewriter = {
@@ -119,7 +119,7 @@ return {
 			bgName = "bg_story_task",
 			withoutActorName = true,
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "Concord, starry-eyed with excitement, was clearly looking forward to it.",
 			typewriter = {
@@ -162,7 +162,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "Hurry up, Commander! The show's about to start~ We have the best seats in the house, right in front of the stage!",
 			typewriter = {
@@ -189,7 +189,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "We'll be able to feast our eyes on Lady Lexington!",
 			typewriter = {
@@ -206,7 +206,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "By the way, Lady Lexington is a very kind person~",
 			typewriter = {
@@ -223,7 +223,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "At the last meet-and-greet, I not only got to shake her hand, but also even received a cake from her! She was very happy as well...",
 			typewriter = {
@@ -249,7 +249,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "Lady Lexington is here! Commander!",
 			flashout = {
@@ -293,7 +293,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgName = "bg_night",
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "Lady Lex~☆! I love you!!",
 			flashout = {
@@ -336,7 +336,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "Hehe...",
 			flashout = {
@@ -380,7 +380,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			withoutActorName = true,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "The performance soon reached its climax. Though the surrounding people were all swept away by the energy of the performance, Concord conversely seemed to fall into a solemn silence, her eyes fixed upon the figure on the stage.",
 			typewriter = {
@@ -407,7 +407,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "Commander... will I be able to stand out like her one day?",
 			typewriter = {
@@ -425,7 +425,7 @@ return {
 			bgName = "bg_night",
 			withoutActorName = true,
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "Even though Concord already sticks out from the crowd like a sore thumb...",
 			typewriter = {
@@ -448,7 +448,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "Commander... Hehe... unexpectedly, you're quite the smooth talker~",
 			typewriter = {

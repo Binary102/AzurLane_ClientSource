@@ -4,7 +4,7 @@ return {
 	once = true,
 	scripts = {
 		{
-			actor = 404021,
+			actor = 404020,
 			side = 2,
 			nameColor = "#ff0000",
 			say = "*Sigh*... They let White come through. They always do. You can't entrust them with anything.",
@@ -22,7 +22,7 @@ return {
 			}
 		},
 		{
-			actor = 404021,
+			actor = 404020,
 			side = 2,
 			nameColor = "#ff0000",
 			say = "You have a 31.75% chance of victory according to my simulations. But in a real battle... who knows?",
@@ -40,7 +40,7 @@ return {
 			}
 		},
 		{
-			actor = 404021,
+			actor = 404020,
 			side = 2,
 			nameColor = "#ff0000",
 			say = "I am Gneisenau, Scharnhorst-class battlecruiser number two. I will assess your combat potential.",

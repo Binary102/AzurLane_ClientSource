@@ -49,7 +49,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 808011,
+			actor = 808010,
 			nameColor = "#a9f548",
 			say = "指挥官，好无聊……",
 			typewriter = {
@@ -68,7 +68,7 @@ return {
 			}
 		},
 		{
-			actor = 808011,
+			actor = 808010,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -87,7 +87,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 808011,
+			actor = 808010,
 			nameColor = "#a9f548",
 			say = "哎嘿嘿~指挥官，忙不忙嘛，不忙的话来聊天呀",
 			typewriter = {
@@ -114,7 +114,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			optionFlag = 1,
-			actor = 808011,
+			actor = 808010,
 			nameColor = "#a9f548",
 			say = "那就我来说，你听着就好了~",
 			typewriter = {
@@ -131,7 +131,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			optionFlag = 2,
-			actor = 808011,
+			actor = 808010,
 			nameColor = "#a9f548",
 			say = "太好啦~",
 			typewriter = {
@@ -154,7 +154,7 @@ return {
 			}
 		},
 		{
-			actor = 808011,
+			actor = 808010,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -170,7 +170,7 @@ return {
 			}
 		},
 		{
-			actor = 808011,
+			actor = 808010,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -196,7 +196,7 @@ return {
 			}
 		},
 		{
-			actor = 808011,
+			actor = 808010,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -212,7 +212,7 @@ return {
 			}
 		},
 		{
-			actor = 808011,
+			actor = 808010,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -228,7 +228,7 @@ return {
 			}
 		},
 		{
-			actor = 808011,
+			actor = 808010,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -254,7 +254,7 @@ return {
 			}
 		},
 		{
-			actor = 808011,
+			actor = 808010,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -270,7 +270,7 @@ return {
 			}
 		},
 		{
-			actor = 808011,
+			actor = 808010,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -296,7 +296,7 @@ return {
 			}
 		},
 		{
-			actor = 808011,
+			actor = 808010,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -312,7 +312,7 @@ return {
 			}
 		},
 		{
-			actor = 808011,
+			actor = 808010,
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -337,7 +337,7 @@ return {
 			}
 		},
 		{
-			actor = 808011,
+			actor = 808010,
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -352,7 +352,7 @@ return {
 			}
 		},
 		{
-			actor = 808011,
+			actor = 808010,
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -367,7 +367,7 @@ return {
 			}
 		},
 		{
-			actor = 808011,
+			actor = 808010,
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,

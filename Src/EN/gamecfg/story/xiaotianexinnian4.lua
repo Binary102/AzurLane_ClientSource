@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "main-newyear",
-			actor = 205061,
+			actor = 205060,
 			nameColor = "#a9f548",
 			say = "I've long heard the Sakura Empire's new year celebrations are lively... but are they really that fun?",
 			flashout = {
@@ -56,7 +56,7 @@ return {
 			side = 1,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 102091,
+			actor = 102090,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -72,7 +72,7 @@ return {
 			}
 		},
 		{
-			actor = 900066,
+			actor = 301141,
 			side = 0,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -88,7 +88,7 @@ return {
 			}
 		},
 		{
-			actor = 102051,
+			actor = 102050,
 			side = 1,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -104,7 +104,7 @@ return {
 			}
 		},
 		{
-			actor = 102131,
+			actor = 102130,
 			side = 1,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -120,7 +120,7 @@ return {
 			}
 		},
 		{
-			actor = 101261,
+			actor = 101260,
 			side = 1,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -136,7 +136,7 @@ return {
 			}
 		},
 		{
-			actor = 205061,
+			actor = 205060,
 			side = 0,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -155,7 +155,7 @@ return {
 			side = 0,
 			bgName = "bg_story_outdoor",
 			dir = -1,
-			actor = 201101,
+			actor = 201100,
 			nameColor = "#a9f548",
 			say = "Umm... there's also the way Eugen drinks... Oh, I guess it's pretty hard to imagine how that looks...",
 			typewriter = {
@@ -178,7 +178,7 @@ return {
 			}
 		},
 		{
-			actor = 900062,
+			actor = 307022,
 			side = 1,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -194,7 +194,7 @@ return {
 			}
 		},
 		{
-			actor = 399021,
+			actor = 399020,
 			side = 0,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -210,7 +210,7 @@ return {
 			}
 		},
 		{
-			actor = 102141,
+			actor = 102140,
 			side = 1,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -226,7 +226,7 @@ return {
 			}
 		},
 		{
-			actor = 102091,
+			actor = 102090,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -242,7 +242,7 @@ return {
 			}
 		},
 		{
-			actor = 102141,
+			actor = 102140,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -262,7 +262,7 @@ return {
 			side = 0,
 			bgName = "bg_story_outdoor",
 			dir = -1,
-			actor = 399011,
+			actor = 399010,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -278,7 +278,7 @@ return {
 			}
 		},
 		{
-			actor = 102051,
+			actor = 102050,
 			side = 1,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -294,7 +294,7 @@ return {
 			}
 		},
 		{
-			actor = 900066,
+			actor = 301141,
 			side = 0,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -313,7 +313,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 900063,
+			actor = 312011,
 			nameColor = "#a9f548",
 			say = "Whew~ My zouni is finally done nya! Who wants to be the first to...",
 			flashout = {
@@ -353,7 +353,7 @@ return {
 			}
 		},
 		{
-			actor = 900063,
+			actor = 312011,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",

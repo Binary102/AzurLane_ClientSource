@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			actor = 102121,
+			actor = 102120,
 			nameColor = "#a9f548",
 			say = "You're late, Commander.",
 			flashout = {
@@ -52,7 +52,7 @@ return {
 			}
 		},
 		{
-			actor = 102121,
+			actor = 102120,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -72,7 +72,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			withoutActorName = true,
-			actor = 102121,
+			actor = 102120,
 			nameColor = "#a9f548",
 			say = "......",
 			typewriter = {
@@ -85,7 +85,7 @@ return {
 			}
 		},
 		{
-			actor = 102121,
+			actor = 102120,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -104,7 +104,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 102121,
+			actor = 102120,
 			nameColor = "#a9f548",
 			say = "They do look pretty nice, after all... *A-ahem*! Okay, that's enough window shopping! ... Come on, let's head to the next store.",
 			typewriter = {
@@ -131,7 +131,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			withoutActorName = true,
-			actor = 102121,
+			actor = 102120,
 			nameColor = "#a9f548",
 			say = "... Honolulu seemed like she couldn't let up and relax.",
 			typewriter = {
@@ -144,7 +144,7 @@ return {
 			}
 		},
 		{
-			actor = 102121,
+			actor = 102120,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -163,7 +163,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 102121,
+			actor = 102120,
 			nameColor = "#a9f548",
 			say = "L-look, I didn't mean it like that ... I was just wondering if Helena might like it! C-c'mon, let's get a move on...",
 			typewriter = {
@@ -190,7 +190,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			withoutActorName = true,
-			actor = 102121,
+			actor = 102120,
 			nameColor = "#a9f548",
 			say = "... I won't be able to have a conversation with her like this.",
 			typewriter = {
@@ -203,7 +203,7 @@ return {
 			}
 		},
 		{
-			actor = 102121,
+			actor = 102120,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -222,7 +222,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 102121,
+			actor = 102120,
 			nameColor = "#a9f548",
 			say = "... What's the problem with that? Girls have to be mindful of their calorie intake!",
 			typewriter = {
@@ -249,7 +249,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			withoutActorName = true,
-			actor = 102121,
+			actor = 102120,
 			nameColor = "#a9f548",
 			say = "......",
 			typewriter = {
@@ -292,7 +292,7 @@ return {
 			}
 		},
 		{
-			actor = 102121,
+			actor = 102120,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -312,7 +312,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			withoutActorName = true,
-			actor = 102121,
+			actor = 102120,
 			nameColor = "#a9f548",
 			say = "Honolulu glared at me.",
 			typewriter = {
@@ -325,7 +325,7 @@ return {
 			}
 		},
 		{
-			actor = 102121,
+			actor = 102120,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -361,7 +361,7 @@ return {
 			}
 		},
 		{
-			actor = 102121,
+			actor = 102120,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -381,7 +381,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			blackBg = true,
-			actor = 102121,
+			actor = 102120,
 			nameColor = "#a9f548",
 			say = "Mind if I ask... who it's for?",
 			typewriter = {

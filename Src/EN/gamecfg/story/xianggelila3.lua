@@ -64,7 +64,7 @@ return {
 			}
 		},
 		{
-			actor = 107091,
+			actor = 107090,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -84,7 +84,7 @@ return {
 			side = 0,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 107381,
+			actor = 107380,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -100,7 +100,7 @@ return {
 			}
 		},
 		{
-			actor = 107381,
+			actor = 107380,
 			side = 0,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -120,7 +120,7 @@ return {
 			side = 0,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 107381,
+			actor = 107380,
 			nameColor = "#a9f548",
 			say = "不过，如果采用集团对抗的方法，通过与己方其他舰艇的配合避免和企业前辈一对一作战，或许有取胜的机会。",
 			typewriter = {
@@ -133,7 +133,7 @@ return {
 			}
 		},
 		{
-			actor = 107381,
+			actor = 107380,
 			side = 0,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -152,7 +152,7 @@ return {
 			side = 1,
 			bgName = "bg_story_nepu1",
 			dir = -1,
-			actor = 107091,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "原来如此…这时候像这样将攻击编队分散开…",
 			flashout = {
@@ -182,7 +182,7 @@ return {
 			}
 		},
 		{
-			actor = 107381,
+			actor = 107380,
 			side = 0,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -202,7 +202,7 @@ return {
 			side = 1,
 			bgName = "bg_story_nepu1",
 			dir = -1,
-			actor = 107091,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "这样的话，就能应对企业前辈的这个战术了！",
 			typewriter = {
@@ -232,7 +232,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = -1,
-			actor = 107071,
+			actor = 107070,
 			nameColor = "#a9f548",
 			say = "嘿！",
 			typewriter = {
@@ -258,7 +258,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = -1,
-			actor = 107091,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "哇！原、原来是大黄蜂啊……",
 			typewriter = {
@@ -285,7 +285,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 107381,
+			actor = 107380,
 			nameColor = "#a9f548",
 			say = "突然吓人可不好哦，牛仔小姐？",
 			typewriter = {
@@ -298,7 +298,7 @@ return {
 			}
 		},
 		{
-			actor = 107071,
+			actor = 107070,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -314,7 +314,7 @@ return {
 			}
 		},
 		{
-			actor = 107381,
+			actor = 107380,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -330,7 +330,7 @@ return {
 			}
 		},
 		{
-			actor = 107071,
+			actor = 107070,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -349,7 +349,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = -1,
-			actor = 107071,
+			actor = 107070,
 			nameColor = "#a9f548",
 			say = "原来如此…看着是不坏啦，不过…总感觉这个战术前提会不会太偏重过往的经验了？",
 			flashout = {
@@ -384,7 +384,7 @@ return {
 			bgName = "bg_story_nepu1",
 			say = "…有经验才能归纳出正确的理论。企业前辈的实力不也是源自于以往经验的归纳总结吗？",
 			dir = 1,
-			actor = 107381,
+			actor = 107380,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -400,7 +400,7 @@ return {
 			}
 		},
 		{
-			actor = 107071,
+			actor = 107070,
 			side = 1,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -420,7 +420,7 @@ return {
 			side = 0,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 107381,
+			actor = 107380,
 			nameColor = "#a9f548",
 			say = "…我明白了。正好指挥官也在这里，不如就让我们在此约定一场战斗演习如何？用事实来证明谁的方针更加有效。",
 			typewriter = {
@@ -433,7 +433,7 @@ return {
 			}
 		},
 		{
-			actor = 107071,
+			actor = 107070,
 			side = 1,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -449,7 +449,7 @@ return {
 			}
 		},
 		{
-			actor = 107381,
+			actor = 107380,
 			side = 0,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -465,7 +465,7 @@ return {
 			}
 		},
 		{
-			actor = 107381,
+			actor = 107380,
 			side = 0,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -481,7 +481,7 @@ return {
 			}
 		},
 		{
-			actor = 107091,
+			actor = 107090,
 			side = 1,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -497,7 +497,7 @@ return {
 			}
 		},
 		{
-			actor = 107071,
+			actor = 107070,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",

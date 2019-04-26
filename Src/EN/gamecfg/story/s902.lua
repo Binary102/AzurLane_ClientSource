@@ -3,12 +3,12 @@ return {
 	type = 2,
 	scripts = {
 		{
-			actor = 101031,
+			actor = 101030,
 			side = 0,
 			say = "前方有敌情！"
 		},
 		{
-			actor = 101031,
+			actor = 101030,
 			side = 1,
 			say = "哪尼！"
 		},

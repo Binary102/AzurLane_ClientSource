@@ -16,7 +16,7 @@ return {
 			}
 		},
 		{
-			actor = 900037,
+			actor = 301051,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = -1,
@@ -32,7 +32,7 @@ return {
 			}
 		},
 		{
-			actor = 900035,
+			actor = 102091,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -55,7 +55,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 307054,
+			actor = 307050,
 			actorName = "White?",
 			withoutPainting = true,
 			typewriter = {
@@ -72,7 +72,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "Gold?",
 			withoutPainting = true,
 			typewriter = {
@@ -89,7 +89,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 307054,
+			actor = 307050,
 			actorName = "White?",
 			say = "I’m not Sara.",
 			typewriter = {
@@ -106,7 +106,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			actor = 900037,
+			actor = 301051,
 			actorName = "{namecode:6}",
 			say = "This sound—— It was you {namecode:95} after all!",
 			typewriter = {
@@ -119,7 +119,7 @@ return {
 			}
 		},
 		{
-			actor = 307054,
+			actor = 307050,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -135,7 +135,7 @@ return {
 			}
 		},
 		{
-			actor = 900038,
+			actor = 306051,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
@@ -151,7 +151,7 @@ return {
 			}
 		},
 		{
-			actor = 307054,
+			actor = 307050,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -167,7 +167,7 @@ return {
 			}
 		},
 		{
-			actor = 900035,
+			actor = 102091,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -182,7 +182,7 @@ return {
 			}
 		},
 		{
-			actor = 307054,
+			actor = 307050,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -198,7 +198,7 @@ return {
 			}
 		},
 		{
-			actor = 900036,
+			actor = 301171,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
@@ -214,7 +214,7 @@ return {
 			}
 		},
 		{
-			actor = 900038,
+			actor = 306051,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
@@ -230,7 +230,7 @@ return {
 			}
 		},
 		{
-			actor = 307054,
+			actor = 307050,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -246,7 +246,7 @@ return {
 			}
 		},
 		{
-			actor = 107064,
+			actor = 107060,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -262,7 +262,7 @@ return {
 			}
 		},
 		{
-			actor = 307064,
+			actor = 307060,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
@@ -278,7 +278,7 @@ return {
 			}
 		},
 		{
-			actor = 107064,
+			actor = 107060,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -294,7 +294,7 @@ return {
 			}
 		},
 		{
-			actor = 307064,
+			actor = 307060,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
@@ -310,7 +310,7 @@ return {
 			}
 		},
 		{
-			actor = 307054,
+			actor = 307050,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,

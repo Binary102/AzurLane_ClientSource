@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 301491,
+			actor = 301490,
 			side = 2,
 			dir = 0,
 			say = "Halt! Who are you?!",
@@ -21,7 +21,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			side = 2,
 			dir = 0,
 			say = "We're the Sakura Empire's new Combined Fleet, and we're here to have a look at the girl in the Sacred Sakura...",
@@ -35,7 +35,7 @@ return {
 			}
 		},
 		{
-			actor = 301491,
+			actor = 301490,
 			side = 2,
 			dir = 0,
 			say = "... Leave this place. None shall disturb the shrine maiden's slumber.",
@@ -49,7 +49,7 @@ return {
 			}
 		},
 		{
-			actor = 305111,
+			actor = 305110,
 			side = 2,
 			dir = 0,
 			say = "It is our goal to bring Nagato and her sister safely out of here!",
@@ -63,7 +63,7 @@ return {
 			}
 		},
 		{
-			actor = 301491,
+			actor = 301490,
 			side = 2,
 			dir = 0,
 			say = "I thank you for your noble consideration, but I made a promise with Nagato. I shall not let anyone wake her from her slumber!",
@@ -77,7 +77,7 @@ return {
 			}
 		},
 		{
-			actor = 301491,
+			actor = 301490,
 			side = 2,
 			dir = 0,
 			say = "Nobody, not even you, even though we are allies.",
@@ -91,7 +91,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			side = 2,
 			dir = 0,
 			say = "*Sigh*... I really hate it when people are as stubborn as you... We're trying to save the world! Let us through!",
@@ -105,7 +105,7 @@ return {
 			}
 		},
 		{
-			actor = 301491,
+			actor = 301490,
 			side = 2,
 			dir = 0,
 			say = "If you still wish to have it your way, then show me your resolve through a battle!",
@@ -119,7 +119,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			side = 2,
 			dir = 0,
 			say = "I knew it! I knew this would happen! It's so clichéd, yet it always does!",
@@ -133,7 +133,7 @@ return {
 			}
 		},
 		{
-			actor = 301491,
+			actor = 301490,
 			side = 2,
 			dir = 0,
 			say = "Relax. I will end this in an instant!",

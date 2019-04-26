@@ -32,7 +32,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "level",
-			actor = 107031,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "All righty! Sara's carrier task force lecture is about to begin~!",
 			flashout = {
@@ -74,7 +74,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 204011,
+			actor = 204010,
 			nameColor = "#a9f548",
 			say = "It is an honour to receive your instruction!",
 			typewriter = {
@@ -96,7 +96,7 @@ return {
 			}
 		},
 		{
-			actor = 207031,
+			actor = 207030,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -115,7 +115,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 205011,
+			actor = 205010,
 			nameColor = "#a9f548",
 			say = "Spare no expense in your training! ... Wait, why am I here too?!",
 			typewriter = {
@@ -140,7 +140,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 107031,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "I'm going to start the lecture! Carriers have a much longer attack range than battleships! The most crucial thing is how you utilize this advantage!",
 			typewriter = {
@@ -162,7 +162,7 @@ return {
 			}
 		},
 		{
-			actor = 107031,
+			actor = 107030,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -178,7 +178,7 @@ return {
 			}
 		},
 		{
-			actor = 107031,
+			actor = 107030,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -204,7 +204,7 @@ return {
 			}
 		},
 		{
-			actor = 204011,
+			actor = 204010,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -220,7 +220,7 @@ return {
 			}
 		},
 		{
-			actor = 205011,
+			actor = 205010,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -236,7 +236,7 @@ return {
 			}
 		},
 		{
-			actor = 207031,
+			actor = 207030,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -255,7 +255,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 107031,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "Hey, you two right there! No chattering during the lecture!",
 			typewriter = {
@@ -277,7 +277,7 @@ return {
 			}
 		},
 		{
-			actor = 207031,
+			actor = 207030,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -296,7 +296,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 205011,
+			actor = 205010,
 			nameColor = "#a9f548",
 			say = "Arghh....!",
 			typewriter = {

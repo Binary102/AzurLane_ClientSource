@@ -56,7 +56,7 @@ return {
 			}
 		},
 		{
-			actor = 303031,
+			actor = 303030,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -76,7 +76,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 301181,
+			actor = 301180,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -92,7 +92,7 @@ return {
 			}
 		},
 		{
-			actor = 303031,
+			actor = 303030,
 			side = 0,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -108,7 +108,7 @@ return {
 			}
 		},
 		{
-			actor = 301181,
+			actor = 301180,
 			side = 1,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -127,7 +127,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 303031,
+			actor = 303030,
 			nameColor = "#a9f548",
 			say = "No problem! Let's get started right away!",
 			typewriter = {
@@ -150,7 +150,7 @@ return {
 			}
 		},
 		{
-			actor = 303031,
+			actor = 303030,
 			side = 0,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -166,7 +166,7 @@ return {
 			}
 		},
 		{
-			actor = 301181,
+			actor = 301180,
 			side = 1,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -182,7 +182,7 @@ return {
 			}
 		},
 		{
-			actor = 303031,
+			actor = 303030,
 			side = 0,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -198,7 +198,7 @@ return {
 			}
 		},
 		{
-			actor = 301181,
+			actor = 301180,
 			side = 1,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -214,7 +214,7 @@ return {
 			}
 		},
 		{
-			actor = 303031,
+			actor = 303030,
 			side = 0,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -230,7 +230,7 @@ return {
 			}
 		},
 		{
-			actor = 301181,
+			actor = 301180,
 			side = 1,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -249,7 +249,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 303031,
+			actor = 303030,
 			nameColor = "#a9f548",
 			say = "Th-then... the rumor that you can see ghosts as well...?",
 			typewriter = {
@@ -272,7 +272,7 @@ return {
 			}
 		},
 		{
-			actor = 301181,
+			actor = 301180,
 			side = 1,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -288,7 +288,7 @@ return {
 			}
 		},
 		{
-			actor = 303031,
+			actor = 303030,
 			side = 0,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -307,7 +307,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 303031,
+			actor = 303030,
 			nameColor = "#a9f548",
 			say = "Ehhh??? It's true?!",
 			typewriter = {
@@ -330,7 +330,7 @@ return {
 			}
 		},
 		{
-			actor = 301181,
+			actor = 301180,
 			side = 1,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -349,7 +349,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 303031,
+			actor = 303030,
 			nameColor = "#a9f548",
 			say = "Waaaaaaaaaaaaahhhh!",
 			typewriter = {
@@ -379,7 +379,7 @@ return {
 			}
 		},
 		{
-			actor = 301181,
+			actor = 301180,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -395,7 +395,7 @@ return {
 			}
 		},
 		{
-			actor = 301181,
+			actor = 301180,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",

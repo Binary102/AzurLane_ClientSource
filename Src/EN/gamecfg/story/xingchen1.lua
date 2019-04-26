@@ -47,7 +47,7 @@ return {
 			}
 		},
 		{
-			actor = 206031,
+			actor = 206030,
 			side = 2,
 			nameColor = "#a9f548",
 			say = "Commander nii-chan... why are you looking for Unicorn?...",
@@ -78,7 +78,7 @@ return {
 			}
 		},
 		{
-			actor = 206031,
+			actor = 206030,
 			nameColor = "#a9f548",
 			side = 2,
 			say = "Although... to be able to see Onii-chan... has made Unicorn so happy... hehe...",
@@ -123,7 +123,7 @@ return {
 			}
 		},
 		{
-			actor = 206031,
+			actor = 206030,
 			side = 2,
 			nameColor = "#a9f548",
 			say = "Unicorn... reporting in... is there anything you need from Unicorn, Onii-chan?",
@@ -158,7 +158,7 @@ return {
 			bgName = "bg_story_star0",
 			bgspeed = 2,
 			blackBg = true,
-			actor = 105031,
+			actor = 105030,
 			mode = 3,
 			withoutPainting = true,
 			flashout = {
@@ -184,7 +184,7 @@ return {
 			}
 		},
 		{
-			actor = 206031,
+			actor = 206030,
 			side = 2,
 			nameColor = "#a9f548",
 			say = "Is this…?  A Ticket?",
@@ -215,7 +215,7 @@ return {
 			}
 		},
 		{
-			actor = 206031,
+			actor = 206030,
 			nameColor = "#a9f548",
 			side = 2,
 			say = "Con-concert? Unicorn doesn't understand...",
@@ -244,7 +244,7 @@ return {
 			}
 		},
 		{
-			actor = 206031,
+			actor = 206030,
 			nameColor = "#a9f548",
 			side = 2,
 			say = "Unicorn will go with Onii-chan... together?",
@@ -258,7 +258,7 @@ return {
 			}
 		},
 		{
-			actor = 206031,
+			actor = 206030,
 			nameColor = "#a9f548",
 			side = 2,
 			say = "Could this be... what Unicorn has been hearing about... a date?",
@@ -272,7 +272,7 @@ return {
 			}
 		},
 		{
-			actor = 206031,
+			actor = 206030,
 			nameColor = "#a9f548",
 			side = 2,
 			say = "Hehe... to go on a date with Onii-chan. Unicorn… can’t wait...",

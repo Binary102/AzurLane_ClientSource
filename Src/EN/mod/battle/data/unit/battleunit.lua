@@ -660,7 +660,7 @@ end
 
 function slot9.SetAirAssistList(slot0, slot1)
 	slot0._airAssistList = slot1
-	slot0._airAssistQueue = slot0.Battle.ManualWeaponQueue.New()
+	slot0._airAssistQueue = slot0.Battle.ManualWeaponQueue.New(slot0:GetManualWeaponParallel()[slot1.ManualWeaponIndex.AIR_ASSIST])
 
 	for slot5, slot6 in ipairs(slot0._airAssistList) do
 		slot0._airAssistQueue:AppendWeapon(slot6)
@@ -673,6 +673,18 @@ end
 
 function slot9.GetAirAssistQueue(slot0)
 	return slot0._airAssistQueue
+end
+
+function slot9.GetManualWeaponParallel(slot0)
+	return {
+		1,
+		1,
+		1
+	}
+end
+
+function slot9.configWeaponQueueParallel(slot0)
+	slot0._weaponQueue:ConfigParallel(slot0:GetManualWeaponParallel()[slot0.ManualWeaponIndex.CALIBRATION], slot0.GetManualWeaponParallel()[slot0.ManualWeaponIndex.TORPEDO])
 end
 
 function slot9.ClearWeapon(slot0)
@@ -889,7 +901,9 @@ function slot9.GetBuff(slot0, slot1)
 end
 
 function slot9.SetAI(slot0, slot1)
-	slot0._autoPilotAI = slot1.Battle.AutoPilot.New(slot0, slot0.GetAITmpDataFromID(slot1))
+	slot0._move:CancelFormationCtrl()
+
+	slot0._autoPilotAI = slot1.Battle.AutoPilot.New(slot0, slot2)
 end
 
 function slot9.AddPhaseSwitcher(slot0, slot1)

@@ -46,7 +46,7 @@ return {
 			}
 		},
 		{
-			actor = 301211,
+			actor = 301210,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#92fc63",
@@ -65,7 +65,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 301211,
+			actor = 301210,
 			nameColor = "#92fc63",
 			say = "I practiced it so much on my way to the office, but I just can't say the words in front of the Commander...",
 			typewriter = {
@@ -88,7 +88,7 @@ return {
 			}
 		},
 		{
-			actor = 306011,
+			actor = 306010,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#92fc63",
@@ -107,7 +107,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 301211,
+			actor = 301210,
 			nameColor = "#92fc63",
 			say = "*Eek*?! *Whimper*... H-hello, Hiyou...",
 			typewriter = {
@@ -134,7 +134,7 @@ return {
 			side = 1,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 306011,
+			actor = 306010,
 			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
@@ -150,7 +150,7 @@ return {
 			}
 		},
 		{
-			actor = 306011,
+			actor = 306010,
 			side = 1,
 			bgName = "bg_story_room",
 			nameColor = "#92fc63",
@@ -166,7 +166,7 @@ return {
 			}
 		},
 		{
-			actor = 301211,
+			actor = 301210,
 			side = 0,
 			bgName = "bg_story_room",
 			nameColor = "#92fc63",
@@ -182,7 +182,7 @@ return {
 			}
 		},
 		{
-			actor = 306011,
+			actor = 306010,
 			side = 1,
 			bgName = "bg_story_room",
 			nameColor = "#92fc63",
@@ -198,7 +198,7 @@ return {
 			}
 		},
 		{
-			actor = 301211,
+			actor = 301210,
 			side = 0,
 			bgName = "bg_story_room",
 			nameColor = "#92fc63",
@@ -214,7 +214,7 @@ return {
 			}
 		},
 		{
-			actor = 301211,
+			actor = 301210,
 			side = 0,
 			bgName = "bg_story_room",
 			nameColor = "#92fc63",
@@ -230,7 +230,7 @@ return {
 			}
 		},
 		{
-			actor = 306011,
+			actor = 306010,
 			side = 1,
 			bgName = "bg_story_room",
 			nameColor = "#92fc63",
@@ -249,7 +249,7 @@ return {
 			side = 0,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 301211,
+			actor = 301210,
 			nameColor = "#92fc63",
 			say = "(Hatsuharu nodded in agreement.)",
 			typewriter = {
@@ -272,7 +272,7 @@ return {
 			}
 		},
 		{
-			actor = 306011,
+			actor = 306010,
 			side = 1,
 			bgName = "bg_story_room",
 			nameColor = "#92fc63",
@@ -288,7 +288,7 @@ return {
 			}
 		},
 		{
-			actor = 306011,
+			actor = 306010,
 			side = 1,
 			bgName = "bg_story_room",
 			nameColor = "#92fc63",
@@ -304,7 +304,7 @@ return {
 			}
 		},
 		{
-			actor = 301211,
+			actor = 301210,
 			side = 0,
 			bgName = "bg_story_room",
 			nameColor = "#92fc63",
@@ -320,7 +320,7 @@ return {
 			}
 		},
 		{
-			actor = 306011,
+			actor = 306010,
 			side = 1,
 			bgName = "bg_story_room",
 			nameColor = "#92fc63",
@@ -339,7 +339,7 @@ return {
 			side = 0,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 301211,
+			actor = 301210,
 			nameColor = "#92fc63",
 			say = "T-thanks, but no thanks...",
 			typewriter = {
@@ -362,7 +362,7 @@ return {
 			}
 		},
 		{
-			actor = 306011,
+			actor = 306010,
 			side = 1,
 			bgName = "bg_story_room",
 			nameColor = "#92fc63",
@@ -381,7 +381,7 @@ return {
 			side = 1,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 306011,
+			actor = 306010,
 			nameColor = "#92fc63",
 			say = "... Maybe we need to take more drastic measures. Hatsuharu, let's head out, right now! You have the power within you to conquer the high seas, the Commander, and even your social anxiety!",
 			effects = {
@@ -403,7 +403,7 @@ return {
 			side = 0,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 301211,
+			actor = 301210,
 			nameColor = "#92fc63",
 			say = "*Whimper*... I don't think I...",
 			effects = {
@@ -432,7 +432,7 @@ return {
 			}
 		},
 		{
-			actor = 301241,
+			actor = 301240,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#92fc63",
@@ -451,7 +451,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 301231,
+			actor = 301230,
 			nameColor = "#92fc63",
 			say = "Whoa, Hatsuharu! You look pretty cool!",
 			typewriter = {
@@ -477,7 +477,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 301211,
+			actor = 301210,
 			nameColor = "#92fc63",
 			say = "*Whimper*... I-I can't do thiiiiis!",
 			typewriter = {

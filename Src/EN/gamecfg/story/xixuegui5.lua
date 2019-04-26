@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			actor = 301324,
+			actor = 301320,
 			nameColor = "#a9f548",
 			say = "指挥官……",
 			flashout = {
@@ -56,7 +56,7 @@ return {
 			side = 1,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 301331,
+			actor = 301330,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -76,7 +76,7 @@ return {
 			side = 0,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 900093,
+			actor = 201232,
 			nameColor = "#a9f548",
 			say = "嗯…和女灶神说的一样，是普通的发烧呢。不过也不能掉以轻心。能去拿一盆水和两条湿毛巾过来吗，小{namecode:34}？",
 			typewriter = {
@@ -89,7 +89,7 @@ return {
 			}
 		},
 		{
-			actor = 301331,
+			actor = 301330,
 			side = 1,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -108,7 +108,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 312011,
+			actor = 312010,
 			nameColor = "#a9f548",
 			say = "基本没有问题了喵，睡醒应该就能恢复精神了，看起来没有{namecode:98}出场的机会了喵？",
 			flashout = {
@@ -143,7 +143,7 @@ return {
 			bgName = "bg_story_room",
 			say = "呼……太好了",
 			dir = 1,
-			actor = 900093,
+			actor = 201232,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -159,7 +159,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 1,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -179,7 +179,7 @@ return {
 			side = 0,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 900093,
+			actor = 201232,
 			nameColor = "#a9f548",
 			say = "……还是算了，人家其实一点也不懂护理，只是书上看来了一些，之前还给大家添了麻烦……",
 			typewriter = {
@@ -192,7 +192,7 @@ return {
 			}
 		},
 		{
-			actor = 203011,
+			actor = 203010,
 			side = 1,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -212,7 +212,7 @@ return {
 			side = 0,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 900093,
+			actor = 201232,
 			nameColor = "#a9f548",
 			say = "什么？！你你你，你从哪里知道的？！",
 			typewriter = {
@@ -233,7 +233,7 @@ return {
 			}
 		},
 		{
-			actor = 203011,
+			actor = 203010,
 			side = 1,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -253,7 +253,7 @@ return {
 			side = 0,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 900093,
+			actor = 201232,
 			nameColor = "#a9f548",
 			say = "……是吗",
 			typewriter = {
@@ -270,7 +270,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 900093,
+			actor = 201232,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,

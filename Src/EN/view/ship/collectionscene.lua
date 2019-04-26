@@ -11,7 +11,7 @@ slot0.ShipIndex = {
 	display = {
 		index = IndexConst.FlagRange2Bits(IndexConst.IndexAll, IndexConst.IndexOther),
 		camp = IndexConst.FlagRange2Bits(IndexConst.CampAll, IndexConst.CampOther),
-		rarity = IndexConst.FlagRange2Bits(IndexConst.RarityAll, IndexConst.Rarity4)
+		rarity = IndexConst.FlagRange2Bits(IndexConst.RarityAll, IndexConst.Rarity5)
 	},
 	index = IndexConst.Flags2Bits({
 		IndexConst.IndexAll
@@ -964,7 +964,8 @@ function slot0.playMemory(slot0, slot1)
 
 		if string.len(slot1.mask) > 0 then
 			setActive(slot2, true)
-			LoadImageSpriteAsync(slot1.mask, slot2)
+
+			slot2:GetComponent(typeof(Image)).sprite = LoadSprite(slot1.mask)
 		else
 			setActive(slot2, false)
 		end

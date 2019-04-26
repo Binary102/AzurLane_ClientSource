@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 107031,
+			actor = 107030,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
@@ -23,7 +23,7 @@ return {
 			}
 		},
 		{
-			actor = 107061,
+			actor = 107060,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
@@ -42,7 +42,7 @@ return {
 			}
 		},
 		{
-			actor = 107031,
+			actor = 107030,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -57,7 +57,7 @@ return {
 			}
 		},
 		{
-			actor = 107061,
+			actor = 107060,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -72,7 +72,7 @@ return {
 			}
 		},
 		{
-			actor = 107031,
+			actor = 107030,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -87,7 +87,7 @@ return {
 			}
 		},
 		{
-			actor = 107031,
+			actor = 107030,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -102,7 +102,7 @@ return {
 			}
 		},
 		{
-			actor = 107061,
+			actor = 107060,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -117,7 +117,7 @@ return {
 			}
 		},
 		{
-			actor = 103061,
+			actor = 103060,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -142,7 +142,7 @@ return {
 			}
 		},
 		{
-			actor = 103061,
+			actor = 103060,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -167,7 +167,7 @@ return {
 			}
 		},
 		{
-			actor = 102061,
+			actor = 102060,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -182,7 +182,7 @@ return {
 			}
 		},
 		{
-			actor = 103131,
+			actor = 103130,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -199,7 +199,7 @@ return {
 		{
 			side = 2,
 			dir = -1,
-			actor = 107061,
+			actor = 107060,
 			nameColor = "#a9f548",
 			say = "Portland never changes, does she...",
 			flashout = {
@@ -229,7 +229,7 @@ return {
 			}
 		},
 		{
-			actor = 107031,
+			actor = 107030,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -244,7 +244,7 @@ return {
 			}
 		},
 		{
-			actor = 107061,
+			actor = 107060,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -259,7 +259,7 @@ return {
 			}
 		},
 		{
-			actor = 107061,
+			actor = 107060,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,

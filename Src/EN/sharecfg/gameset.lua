@@ -382,9 +382,9 @@ pg.gameset = {
 		key_value = 3000000
 	},
 	activity_res_id = {
-		description = "长门PT",
+		description = "小贝法",
 		key = "activity_res_id",
-		key_value = 108
+		key_value = 123
 	},
 	chapter_move_speed_1 = {
 		description = "",

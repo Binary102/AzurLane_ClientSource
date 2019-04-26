@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 401181,
+			actor = 401180,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = -1,
@@ -23,7 +23,7 @@ return {
 			}
 		},
 		{
-			actor = 401181,
+			actor = 401180,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -42,7 +42,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			actor = 401021,
+			actor = 401020,
 			say = "情报有误吗……总之，辛苦了。",
 			typewriter = {
 				speed = 0.05,
@@ -54,7 +54,7 @@ return {
 			}
 		},
 		{
-			actor = 401191,
+			actor = 401190,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -69,7 +69,7 @@ return {
 			}
 		},
 		{
-			actor = 401021,
+			actor = 401020,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -84,7 +84,7 @@ return {
 			}
 		},
 		{
-			actor = 401181,
+			actor = 401180,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -99,7 +99,7 @@ return {
 			}
 		},
 		{
-			actor = 401021,
+			actor = 401020,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -114,7 +114,7 @@ return {
 			}
 		},
 		{
-			actor = 401211,
+			actor = 401210,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -143,7 +143,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			actor = 401021,
+			actor = 401020,
 			say = "我刚才说了，问题在于之后……预定到达的两艘补给舰只到达了一艘，我们现在缺乏足够的补给返航，而且……",
 			typewriter = {
 				speed = 0.05,
@@ -170,7 +170,7 @@ return {
 			}
 		},
 		{
-			actor = 401021,
+			actor = 401020,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -189,7 +189,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			actor = 401021,
+			actor = 401020,
 			say = "她们……马上就会来的。",
 			typewriter = {
 				speed = 0.05,
@@ -201,7 +201,7 @@ return {
 			}
 		},
 		{
-			actor = 401211,
+			actor = 401210,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -230,7 +230,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			actor = 401021,
+			actor = 401020,
 			say = "有力气说大话的话，还是先养精蓄锐吧。",
 			typewriter = {
 				speed = 0.05,
@@ -242,7 +242,7 @@ return {
 			}
 		},
 		{
-			actor = 401021,
+			actor = 401020,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -259,21 +259,21 @@ return {
 		{
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 401181,
+			actor = 401180,
 			dir = -1,
 			hideOther = true,
 			actorName = "Z驱们",
 			say = "是！",
 			subActors = {
 				{
-					actor = 401191,
+					actor = 401190,
 					dir = -1,
 					pos = {
 						x = -450
 					}
 				},
 				{
-					actor = 401211,
+					actor = 401210,
 					dir = -1,
 					pos = {
 						x = 450

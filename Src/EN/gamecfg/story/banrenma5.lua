@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			actor = 207021,
+			actor = 207020,
 			nameColor = "#a9f548",
 			say = "你已经得到了本人梦寐以求的东西，真是何等令人羡慕的后辈……",
 			flashout = {
@@ -56,7 +56,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "欸，是、是这样吗？",
 			typewriter = {
@@ -83,7 +83,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 207041,
+			actor = 207040,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -102,7 +102,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 207021,
+			actor = 207020,
 			nameColor = "#a9f548",
 			say = "但是，那可是本人梦寐以求的东西啊！",
 			effects = {
@@ -125,7 +125,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "啊，胜利前辈，你好。",
 			effects = {
@@ -147,7 +147,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 207041,
+			actor = 207040,
 			nameColor = "#a9f548",
 			say = "嗯，你也好。指挥官，这是任务报告，请过目一下。",
 			typewriter = {
@@ -166,7 +166,7 @@ return {
 			}
 		},
 		{
-			actor = 207041,
+			actor = 207040,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -186,7 +186,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 207021,
+			actor = 207020,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -202,7 +202,7 @@ return {
 			}
 		},
 		{
-			actor = 207041,
+			actor = 207040,
 			side = 0,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -221,7 +221,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 207021,
+			actor = 207020,
 			nameColor = "#a9f548",
 			say = "不是，本人是觉得半人马有亲近感才会接近她的，结果就看到了令人羡慕的一幕……",
 			action = {
@@ -244,7 +244,7 @@ return {
 			}
 		},
 		{
-			actor = 207041,
+			actor = 207040,
 			side = 0,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -260,7 +260,7 @@ return {
 			}
 		},
 		{
-			actor = 206041,
+			actor = 206040,
 			side = 1,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -276,7 +276,7 @@ return {
 			}
 		},
 		{
-			actor = 207041,
+			actor = 207040,
 			side = 0,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -295,7 +295,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 207041,
+			actor = 207040,
 			nameColor = "#a9f548",
 			say = "指挥官，借用一下你的秘书舰哦？",
 			typewriter = {
@@ -341,7 +341,7 @@ return {
 			}
 		},
 		{
-			actor = 207041,
+			actor = 207040,
 			side = 0,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -361,7 +361,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "是的，其实一开始发现我和前辈们长相都不一样，我也有些惊讶呢。",
 			typewriter = {
@@ -378,7 +378,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 207021,
+			actor = 207020,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -398,7 +398,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 207021,
+			actor = 207020,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -420,7 +420,7 @@ return {
 			}
 		},
 		{
-			actor = 206041,
+			actor = 206040,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -440,7 +440,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 207041,
+			actor = 207040,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -460,7 +460,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "会不会是因为我的名字是神话中的生物，而且和森林也有着挺深的关系。",
 			typewriter = {
@@ -477,7 +477,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "所以在认知上就容易让人联想到同为森林中的幻想种族“精灵”了呢…？",
 			typewriter = {
@@ -490,7 +490,7 @@ return {
 			}
 		},
 		{
-			actor = 207021,
+			actor = 207020,
 			side = 1,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -510,7 +510,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "{namecode:37}前辈和{namecode:98}前辈吗…下次遇到的时候也和她们聊聊吧~",
 			typewriter = {
@@ -523,7 +523,7 @@ return {
 			}
 		},
 		{
-			actor = 207041,
+			actor = 207040,
 			side = 0,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -543,7 +543,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "没问题~",
 			typewriter = {
@@ -556,7 +556,7 @@ return {
 			}
 		},
 		{
-			actor = 207041,
+			actor = 207040,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -575,7 +575,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 207021,
+			actor = 207020,
 			nameColor = "#a9f548",
 			say = "那本人也该回去了。半人马，下次和驱逐舰们一起玩的时候能不能那个，呃，就是，叫一下本人？",
 			action = {
@@ -602,7 +602,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "好的~两位前辈回见。",
 			typewriter = {

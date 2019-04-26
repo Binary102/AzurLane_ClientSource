@@ -10,6 +10,7 @@ end
 
 function slot1.SetParameter(slot0, slot1, slot2)
 	slot0._paramList = slot1
+	slot0._valve = slot1.valve or slot0.Battle.AutoPilot.PILOT_VALVE
 	slot0._toIndex = slot2
 end
 

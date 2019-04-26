@@ -49,7 +49,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgName = "bg_story_task",
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "我想到第二个条件是什么了！",
 			flashout = {
@@ -95,7 +95,7 @@ return {
 			}
 		},
 		{
-			actor = 108021,
+			actor = 108020,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -149,7 +149,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "今天的海滩被我们两个人包场了呢！嘿嘿，要做些什么事情好呢，指~挥~官~？",
 			typewriter = {
@@ -172,7 +172,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "欸？只是游泳比赛吗？也不是不可以啦。",
 			typewriter = {
@@ -191,7 +191,7 @@ return {
 			}
 		},
 		{
-			actor = 108021,
+			actor = 108020,
 			side = 2,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -211,7 +211,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "我将赌上潜水舰全部的尊严！指挥官，来和我一决胜负吧！",
 			effects = {
@@ -233,7 +233,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "这样的开场白会不会比较有气势呢？但是——",
 			effects = {
@@ -266,7 +266,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "我先走一步啦！拜拜~",
 			typewriter = {
@@ -346,7 +346,7 @@ return {
 			say = "surprise！！！",
 			dir = 1,
 			bgName = "star_level_bg_106",
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			actorPosition = {
 				x = 0,
@@ -374,7 +374,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "怎么样，指挥官，被吓了一跳吧！",
 			typewriter = {
@@ -397,7 +397,7 @@ return {
 			}
 		},
 		{
-			actor = 108021,
+			actor = 108020,
 			side = 2,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -417,7 +417,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "那么，round 2，start！",
 			typewriter = {

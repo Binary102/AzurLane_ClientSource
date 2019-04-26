@@ -21,7 +21,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			bgm = "story-1",
-			actor = 305034,
+			actor = 305030,
 			nameColor = "#a9f548",
 			say = "*Glug glug*... Ahh, can't have a Flower Festival without something to drink!",
 			typewriter = {
@@ -38,7 +38,7 @@ return {
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 305044,
+			actor = 305040,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -54,7 +54,7 @@ return {
 			}
 		},
 		{
-			actor = 301304,
+			actor = 301300,
 			nameColor = "#a9f548",
 			bgName = "bg_story_school",
 			side = 2,
@@ -74,7 +74,7 @@ return {
 			side = 0,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 403034,
+			actor = 403030,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -90,7 +90,7 @@ return {
 			}
 		},
 		{
-			actor = 403034,
+			actor = 403030,
 			nameColor = "#a9f548",
 			bgName = "bg_story_school",
 			side = 0,
@@ -106,7 +106,7 @@ return {
 			}
 		},
 		{
-			actor = 101174,
+			actor = 101170,
 			nameColor = "#a9f548",
 			bgName = "bg_story_school",
 			side = 1,
@@ -125,7 +125,7 @@ return {
 			bgName = "bg_story_school",
 			side = 2,
 			dir = 1,
-			actor = 306034,
+			actor = 306030,
 			nameColor = "#a9f548",
 			say = "Oh dear, it seems they're getting busy with their beverages~",
 			flashout = {
@@ -155,7 +155,7 @@ return {
 			}
 		},
 		{
-			actor = 306034,
+			actor = 306030,
 			nameColor = "#a9f548",
 			bgName = "bg_story_school",
 			side = 2,

@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 307061,
+			actor = 307060,
 			side = 2,
 			say = "... It's our duty and all, but finding a way to wake Nagato is easier said than done...",
 			dir = 1,
@@ -22,7 +22,7 @@ return {
 			}
 		},
 		{
-			actor = 301051,
+			actor = 301050,
 			side = 2,
 			dir = 1,
 			say = "I've detected a Siren fleet. They're in the process of surrounding us... 12 minutes until contact.",
@@ -36,7 +36,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			side = 2,
 			dir = 1,
 			say = "God dammit, not more of them... Even if they all stand still, we won't make any progress... I guess we could knock on the crystal to see if she'll wake up...",
@@ -84,7 +84,7 @@ return {
 			}
 		},
 		{
-			actor = 301491,
+			actor = 301490,
 			side = 2,
 			dir = 1,
 			say = "I won't let anyone lay a finger on her.",
@@ -98,7 +98,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			side = 2,
 			dir = 1,
 			say = "Geez, I was just kidding... Don't get so worked up, I wasn't serious!",
@@ -138,7 +138,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			side = 2,
 			dir = 1,
 			say = "That voice, could it be...?",
@@ -152,7 +152,7 @@ return {
 			}
 		},
 		{
-			actor = 305061,
+			actor = 305060,
 			side = 2,
 			dir = 1,
 			say = "... Why would you be mean to my poor sister? You should know your place, idiots!",
@@ -166,7 +166,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			side = 2,
 			dir = 1,
 			say = "It's Mutsu, the Big Seven...!",
@@ -180,7 +180,7 @@ return {
 			}
 		},
 		{
-			actor = 305061,
+			actor = 305060,
 			side = 2,
 			dir = 1,
 			say = "Huh? You know about me? How?",
@@ -194,7 +194,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			side = 2,
 			dir = 1,
 			say = "Well, we're trying to wake up Nagato, and save the Sacred Sakura while we're at it, so we came here to...",
@@ -276,7 +276,7 @@ return {
 			}
 		},
 		{
-			actor = 307051,
+			actor = 307050,
 			side = 2,
 			dir = 1,
 			say = "It's unlikely this conversation can continue until after we've dealt with the Sirens...",
@@ -290,7 +290,7 @@ return {
 			}
 		},
 		{
-			actor = 301491,
+			actor = 301490,
 			side = 2,
 			dir = 1,
 			say = "I will protect the shrine maiden at any cost!",
@@ -304,7 +304,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			side = 2,
 			dir = 1,
 			say = "Wait, hold on! ... Dammit! She's totally stealing my spot in the limelight!",

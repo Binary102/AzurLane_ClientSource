@@ -8,7 +8,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 301201,
+			actor = 301200,
 			actorName = "{namecode:24}",
 			side = 2,
 			nameColor = "#ff0000",
@@ -30,7 +30,7 @@ return {
 			side = 0,
 			say = "Sorry, Nowaki, I don't have time to play games. Shoukaku's in danger, so I want to finish this quick.",
 			actorName = "{namecode:96}",
-			actor = 307061,
+			actor = 307060,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -50,7 +50,7 @@ return {
 			}
 		},
 		{
-			actor = 301201,
+			actor = 301200,
 			actorName = "{namecode:24}",
 			side = 1,
 			nameColor = "#ff0000",
@@ -69,7 +69,7 @@ return {
 			}
 		},
 		{
-			actor = 301201,
+			actor = 301200,
 			actorName = "{namecode:24}",
 			side = 1,
 			nameColor = "#ff0000",

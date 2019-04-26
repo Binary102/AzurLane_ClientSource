@@ -4,7 +4,7 @@ return {
 	once = true,
 	scripts = {
 		{
-			actor = 307011,
+			actor = 307010,
 			side = 2,
 			dir = -1,
 			nameColor = "#D6341D",
@@ -23,7 +23,7 @@ return {
 			}
 		},
 		{
-			actor = 307021,
+			actor = 307020,
 			side = 2,
 			nameColor = "#D6341D",
 			say = "已经被爱冲昏头了吧……{namecode:91}……不过，还是要夸你干得不错……对强者就应该奉上敬意，下次再来一起“玩”吧，嘻嘻",
@@ -41,7 +41,7 @@ return {
 			}
 		},
 		{
-			actor = 307011,
+			actor = 307010,
 			side = 2,
 			dir = -1,
 			nameColor = "#D6341D",
@@ -60,7 +60,7 @@ return {
 			}
 		},
 		{
-			actor = 307021,
+			actor = 307020,
 			side = 2,
 			nameColor = "#D6341D",
 			say = "嗯…？刚才莫名的高扬感消失了…罢了…大概是尽情活动过心情畅快了吧",
@@ -78,7 +78,7 @@ return {
 			}
 		},
 		{
-			actor = 900019,
+			actor = 213011,
 			side = 0,
 			say = "??……算了，继续寻找{namecode:89}小姐说的那个吧……",
 			paintingFadeOut = {

@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 307061,
+			actor = 307060,
 			side = 2,
 			stopbgm = true,
 			dir = 1,
@@ -32,7 +32,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 2,
 			dir = 1,
 			say = "You must be Zuikaku of the 5th Carrier Division. What business have you with me?",
@@ -46,7 +46,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			side = 2,
 			dir = 1,
 			say = "... Head on the nail! You see, we need you on our side!",
@@ -60,7 +60,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 2,
 			dir = 1,
 			say = "I refuse!",
@@ -74,7 +74,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			side = 2,
 			dir = 1,
 			say = "Could you at least try it before you say no?!",
@@ -88,7 +88,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 2,
 			dir = 1,
 			say = "I was tasked with ensuring the Sacred Sakura's safety. I shall remain here till my body turns to dust.",
@@ -102,7 +102,7 @@ return {
 			}
 		},
 		{
-			actor = 305061,
+			actor = 305060,
 			side = 2,
 			dir = 1,
 			say = "Nagato, you...",
@@ -116,7 +116,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			side = 2,
 			dir = 1,
 			say = "Did you make that decision of your own accord? Or was it forced on you?",
@@ -130,7 +130,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 2,
 			dir = 1,
 			say = "I... It is for the sake of the Sakura Empire and her people, and to atone for my sins. My say is irrelevant.",
@@ -144,7 +144,7 @@ return {
 			}
 		},
 		{
-			actor = 305111,
+			actor = 305110,
 			side = 2,
 			dir = 1,
 			say = "You fool!",
@@ -158,7 +158,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 2,
 			dir = 1,
 			say = "W-what?!",
@@ -182,7 +182,7 @@ return {
 			}
 		},
 		{
-			actor = 305111,
+			actor = 305110,
 			side = 2,
 			dir = 1,
 			say = "Do you not see how frivolous it is to sit here and rot away when a battleship of your caliber is more desirable than ever in these changing times?!",
@@ -196,7 +196,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 2,
 			dir = 1,
 			say = "I-is that...",
@@ -220,7 +220,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 2,
 			dir = 1,
 			say = "Is that you, Mikasa?!",
@@ -244,7 +244,7 @@ return {
 			}
 		},
 		{
-			actor = 305111,
+			actor = 305110,
 			side = 2,
 			dir = 1,
 			say = "Your 41 centimeter cannons make whole nations quiver, your bridge towers to the heavens, your armor deflects shells like they were stones...",
@@ -276,7 +276,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 2,
 			dir = 1,
 			say = "I-it's not as great as you think... But why are you here, Mikasa?",
@@ -290,7 +290,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			side = 2,
 			dir = 1,
 			say = "Uh, it's a long story, so why don't you come with us and we'll explain it on the way...",
@@ -313,7 +313,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 2,
 			dir = 1,
 			say = "M-Mikasa, ever since I became the Combined Fleet's flagship, I've been trying to be like you...",
@@ -327,7 +327,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 2,
 			dir = 1,
 			say = "I tried to be a magnificent flagship... And yet...",
@@ -341,7 +341,7 @@ return {
 			}
 		},
 		{
-			actor = 305111,
+			actor = 305110,
 			side = 2,
 			dir = 1,
 			say = "Say no more. Have a battle with me.",
@@ -355,7 +355,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 2,
 			dir = 1,
 			say = "Huh...?",
@@ -379,7 +379,7 @@ return {
 			}
 		},
 		{
-			actor = 305111,
+			actor = 305110,
 			side = 2,
 			dir = 1,
 			say = "I needed only one look at your cannons to know it with certainty: you haven't fired them as much as once since your birth.",
@@ -393,7 +393,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 2,
 			dir = 1,
 			say = "Ah...!?",
@@ -416,7 +416,7 @@ return {
 			}
 		},
 		{
-			actor = 305111,
+			actor = 305110,
 			side = 2,
 			dir = 1,
 			say = "Battleships should know dearly the smell of the sea and gunpowder, not of trees and their own rusting hulls. I can't stand to see my successor stuck in a place like this.",
@@ -430,7 +430,7 @@ return {
 			}
 		},
 		{
-			actor = 305111,
+			actor = 305110,
 			side = 2,
 			dir = 1,
 			say = "Sometimes, a battle can offer more insight into a person's character than a thousand of their words.",
@@ -444,7 +444,7 @@ return {
 			}
 		},
 		{
-			actor = 305111,
+			actor = 305110,
 			side = 2,
 			dir = 1,
 			say = "You there, you must be her little sister. Why not join us for a bout?",
@@ -458,7 +458,7 @@ return {
 			}
 		},
 		{
-			actor = 305061,
+			actor = 305060,
 			side = 2,
 			dir = 1,
 			say = "Sure! Hehehe~ I've been waiting so long for this day!",
@@ -472,7 +472,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 2,
 			dir = 1,
 			say = "......",
@@ -504,7 +504,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -519,7 +519,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -534,7 +534,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -554,7 +554,7 @@ return {
 			dir = 1,
 			bgName = "bg_story_nagato4",
 			bgm = "nagato-boss",
-			actor = 305051,
+			actor = 305050,
 			say = "Very well! Lacking in experience as I may be, I shall hold nothing back!",
 			flashout = {
 				dur = 1,
@@ -583,7 +583,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 2,
 			bgName = "bg_story_nagato4",
 			withoutPainting = true,

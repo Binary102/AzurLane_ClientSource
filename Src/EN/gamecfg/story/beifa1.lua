@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"明日的淑女\n\n<size=30>一 幼小的访客</size>",
+					"The Miniature Head Maid\n\n<size=30>Chapter 1 - A Little Visitor</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "某日·港区",
+			say = "Port - One Day",
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -32,9 +32,9 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 202181,
-			actorName = "？？？",
-			say = "嗯…这里就是“港区”吗？",
+			actor = 202180,
+			actorName = "???",
+			say = "So... this is the \"Port,\" is it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -49,9 +49,9 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 202181,
-			actorName = "？？？",
-			say = "比想象中的还要大好多——",
+			actor = 202180,
+			actorName = "???",
+			say = "It's much larger than I expected...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,9 +66,9 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 202181,
-			actorName = "？？？",
-			say = "好！去找{namecode:98}姐姐说的“指挥官”报到吧～",
+			actor = 202180,
+			actorName = "???",
+			say = "Right! I must report to this \"Commander\" Akashi spoke of~",
 			action = {
 				{
 					y = 20,
@@ -90,9 +90,9 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 205021,
+			actor = 205020,
 			nameColor = "#a9f548",
-			say = "殿下，这些是准备交给指挥官的资料，没有缺吧？",
+			say = "Are these documents ready for the Commander, Your Majesty?",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -120,11 +120,11 @@ return {
 			}
 		},
 		{
-			say = "那是当然啦！本王做事怎么会有差池～",
+			say = "Naturally! You're not implying my royal self would make mistakes, hmm?",
 			side = 1,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 205011,
+			actor = 205010,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -140,12 +140,12 @@ return {
 			}
 		},
 		{
-			actor = 205011,
+			actor = 205010,
 			side = 1,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过…身为仆人竟然要本王亲自给他送资料过来，实在是…嗯？",
+			say = "Hmph... and yet my servant still expects me to deliver them in person. The nerve of... Hm?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,9 +160,9 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 202181,
-			actorName = "？？？",
-			say = "啊…",
+			actor = 202180,
+			actorName = "???",
+			say = "Ah...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,17 +173,17 @@ return {
 			}
 		},
 		{
-			actorName = "厌战&伊丽莎白女王",
+			actorName = "Warspite & Queen Elizabeth",
 			side = 0,
 			bgName = "bg_story_outdoor",
 			hideOther = true,
 			dir = 1,
-			actor = 205021,
+			actor = 205020,
 			nameColor = "#a9f548",
-			say = "贝尔法斯特？",
+			say = "Belfast?",
 			subActors = {
 				{
-					actor = 205011,
+					actor = 205010,
 					pos = {
 						x = 750
 					}
@@ -203,9 +203,9 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 202181,
-			actorName = "贝尔法斯特？",
-			say = "贵安，两位姐姐，我是贝法。请问你们知道“指挥官”在哪里吗？",
+			actor = 202180,
+			actorName = "Belfast?",
+			say = "Good day, mesdames. I am Belfast. May I ask, do either of you know where the \"Commander\" might be?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,11 +216,11 @@ return {
 			}
 		},
 		{
-			say = "贝、贝贝贝贝尔法斯特缩水了啊啊啊啊啊啊！",
+			say = "B-B-Belfast! You've shrunk! Aiiieeee!",
 			side = 0,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 205011,
+			actor = 205010,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -236,12 +236,12 @@ return {
 			}
 		},
 		{
-			actor = 205021,
+			actor = 205020,
 			side = 0,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这、这是怎么回事…？",
+			say = "What... what's become of you...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,12 +252,12 @@ return {
 			}
 		},
 		{
-			actor = 202181,
+			actor = 202180,
 			side = 1,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯？贝法就是贝法哟？两位姐姐难道认识贝法吗？",
+			say = "Hm? What are you talking about? Mesdames, I can assure you that I have not shrunk.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,9 +272,9 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 312011,
+			actor = 312010,
 			actorName = "{namecode:98}",
-			say = "喵！原来在这里喵！真是的，都说了不可以乱跑了喵！",
+			say = "Nya! I finally found you, nya! Didn't I tell you not to go running off, nya?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,11 +285,11 @@ return {
 			}
 		},
 		{
-			say = "啊…被{namecode:98}姐姐找到了",
+			say = "Oh, Madam Akashi...",
 			side = 0,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 202181,
+			actor = 202180,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -305,12 +305,12 @@ return {
 			}
 		},
 		{
-			actor = 205011,
+			actor = 205010,
 			side = 0,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "明、{namecode:98}？！这、这是什么情况？！",
+			say = "A-A-Akashi?! Explain yourself at once!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -326,9 +326,9 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			blackBg = true,
-			actor = 312011,
+			actor = 312010,
 			actorName = "{namecode:98}",
-			say = "事、事情是这样的喵——",
+			say = "Well, er, okay, so it's like this, nya...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

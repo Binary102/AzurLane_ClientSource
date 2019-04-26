@@ -21,7 +21,7 @@ return {
 			bgName = "star_level_bg_103",
 			dir = 1,
 			bgm = "story-1",
-			actor = 900084,
+			actor = 101061,
 			nameColor = "#a9f548",
 			say = "Seriously! I really saw her!",
 			typewriter = {
@@ -39,7 +39,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 900080,
+			actor = 301011,
 			actorName = "{namecode:2}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -55,7 +55,7 @@ return {
 			}
 		},
 		{
-			actor = 900084,
+			actor = 101061,
 			side = 0,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -75,7 +75,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 900080,
+			actor = 301011,
 			actorName = "{namecode:2}",
 			say = "I was chasing the sound, but then...there was nothing there!",
 			typewriter = {
@@ -88,7 +88,7 @@ return {
 			}
 		},
 		{
-			actor = 900084,
+			actor = 101061,
 			side = 0,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -108,12 +108,12 @@ return {
 			side = 0,
 			bgName = "star_level_bg_103",
 			hideOther = true,
-			actor = 900084,
+			actor = 101061,
 			nameColor = "#a9f548",
 			say = "It must be the \"Fairy of the library\"! Commander!",
 			subActors = {
 				{
-					actor = 900080,
+					actor = 301011,
 					pos = {
 						x = 685
 					}
@@ -181,7 +181,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			actor = 900086,
+			actor = 202111,
 			actorName = "？？？",
 			say = "Tsk tsk...why doesn't that girl come to school with me.",
 			typewriter = {
@@ -200,7 +200,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			actor = 900086,
+			actor = 202111,
 			actorName = "？？？",
 			say = "She says she’s a maid for the Queen..well, so am I…",
 			typewriter = {
@@ -219,7 +219,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			actor = 900086,
+			actor = 202111,
 			actorName = "？？？",
 			say = "It's no fun without her...",
 			typewriter = {
@@ -238,7 +238,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			actor = 900086,
+			actor = 202111,
 			actorName = "？？？",
 			say = "Thank goodness the school got this library~~",
 			typewriter = {
@@ -257,7 +257,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			actor = 900086,
+			actor = 202111,
 			actorName = "？？？",
 			say = "It's quiet.. spacious... and occasionally I can tease the girls borrowing books, hehehe — —",
 			typewriter = {
@@ -302,7 +302,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			actor = 900086,
+			actor = 202111,
 			say = "Wow! W-wow!!",
 			flashN = {
 				color = {
@@ -350,7 +350,7 @@ return {
 			side = 2,
 			dir = 1,
 			optionFlag = 2,
-			actor = 900086,
+			actor = 202111,
 			nameColor = "#a9f548",
 			say = "Belfast... I'm clearly the elder one...",
 			flashout = {
@@ -384,7 +384,7 @@ return {
 			side = 2,
 			dir = 1,
 			optionFlag = 2,
-			actor = 900086,
+			actor = 202111,
 			nameColor = "#a9f548",
 			say = "Why haven't those girls come to the library today?",
 			typewriter = {
@@ -401,7 +401,7 @@ return {
 			side = 2,
 			dir = 1,
 			optionFlag = 2,
-			actor = 900086,
+			actor = 202111,
 			nameColor = "#a9f548",
 			say = "Wow! W-wow!!",
 			typewriter = {
@@ -414,7 +414,7 @@ return {
 			}
 		},
 		{
-			actor = 900086,
+			actor = 202111,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -434,7 +434,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgm = "story-1",
-			actor = 900084,
+			actor = 101061,
 			nameColor = "#a9f548",
 			say = "So \"Fairy of the library\" is actually Edinburgh~~",
 			flashout = {
@@ -469,7 +469,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 900080,
+			actor = 301011,
 			actorName = "{namecode:2}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -485,7 +485,7 @@ return {
 			}
 		},
 		{
-			actor = 900086,
+			actor = 202111,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -522,7 +522,7 @@ return {
 			bgName = "star_level_bg_103",
 			dir = 1,
 			blackBg = true,
-			actor = 900086,
+			actor = 202111,
 			nameColor = "#a9f548",
 			say = "Y-you want to tell Belfast? No, just leave it, please. Whines — —",
 			typewriter = {

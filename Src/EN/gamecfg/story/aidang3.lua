@@ -46,7 +46,7 @@ return {
 			}
 		},
 		{
-			actor = 303121,
+			actor = 303120,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -62,7 +62,7 @@ return {
 			}
 		},
 		{
-			actor = 303121,
+			actor = 303120,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -78,7 +78,7 @@ return {
 			}
 		},
 		{
-			actor = 303121,
+			actor = 303120,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -94,7 +94,7 @@ return {
 			}
 		},
 		{
-			actor = 900088,
+			actor = 303140,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -110,7 +110,7 @@ return {
 			}
 		},
 		{
-			actor = 303131,
+			actor = 303130,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -126,7 +126,7 @@ return {
 			}
 		},
 		{
-			actor = 303121,
+			actor = 303120,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -142,7 +142,7 @@ return {
 			}
 		},
 		{
-			actor = 900088,
+			actor = 303140,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -158,7 +158,7 @@ return {
 			}
 		},
 		{
-			actor = 900088,
+			actor = 303140,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -174,7 +174,7 @@ return {
 			}
 		},
 		{
-			actor = 900088,
+			actor = 303140,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -190,7 +190,7 @@ return {
 			}
 		},
 		{
-			actor = 303131,
+			actor = 303130,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -206,7 +206,7 @@ return {
 			}
 		},
 		{
-			actor = 900088,
+			actor = 303140,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -222,7 +222,7 @@ return {
 			}
 		},
 		{
-			actor = 303121,
+			actor = 303120,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -238,7 +238,7 @@ return {
 			}
 		},
 		{
-			actor = 900088,
+			actor = 303140,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -254,7 +254,7 @@ return {
 			}
 		},
 		{
-			actor = 303121,
+			actor = 303120,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -273,7 +273,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 303131,
+			actor = 303130,
 			nameColor = "#a9f548",
 			say = "That may be the case, but... I don't know why I'm like this either...",
 			typewriter = {
@@ -292,7 +292,7 @@ return {
 			}
 		},
 		{
-			actor = 303131,
+			actor = 303130,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -308,7 +308,7 @@ return {
 			}
 		},
 		{
-			actor = 303121,
+			actor = 303120,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -324,7 +324,7 @@ return {
 			}
 		},
 		{
-			actor = 303131,
+			actor = 303130,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",

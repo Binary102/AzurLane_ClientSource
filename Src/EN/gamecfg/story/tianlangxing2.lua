@@ -53,7 +53,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 205011,
+			actor = 205010,
 			nameColor = "#a9f548",
 			say = "I hereby command all my subjects to be in attendance at our next banquet to strengthen cross-faction ties!",
 			typewriter = {
@@ -76,7 +76,7 @@ return {
 			}
 		},
 		{
-			actor = 205011,
+			actor = 205010,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -95,7 +95,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 205011,
+			actor = 205010,
 			nameColor = "#a9f548",
 			say = "...Be there! That is an order!",
 			typewriter = {
@@ -150,7 +150,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 202201,
+			actor = 202200,
 			nameColor = "#a9f548",
 			say = "I am here, please rest assured, my honourable Master.",
 			typewriter = {
@@ -163,7 +163,7 @@ return {
 			}
 		},
 		{
-			actor = 202201,
+			actor = 202200,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -179,7 +179,7 @@ return {
 			}
 		},
 		{
-			actor = 202201,
+			actor = 202200,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -209,7 +209,7 @@ return {
 			}
 		},
 		{
-			actor = 202201,
+			actor = 202200,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -229,7 +229,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 202201,
+			actor = 202200,
 			nameColor = "#a9f548",
 			say = "Although I would be much obliged, I believe it would be considered inappropriate for you to bring a lowly maid as your partner, my honourable Master.",
 			typewriter = {
@@ -242,7 +242,7 @@ return {
 			}
 		},
 		{
-			actor = 202201,
+			actor = 202200,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -272,7 +272,7 @@ return {
 			}
 		},
 		{
-			actor = 202201,
+			actor = 202200,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -292,7 +292,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 202201,
+			actor = 202200,
 			nameColor = "#a9f548",
 			say = "Oh, my apologies! I was unable to infer the meaning of your statement and I made a senseless remark...",
 			typewriter = {
@@ -319,7 +319,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 202201,
+			actor = 202200,
 			nameColor = "#a9f548",
 			say = "Please, give this incompetent maid her due punishment!",
 			typewriter = {

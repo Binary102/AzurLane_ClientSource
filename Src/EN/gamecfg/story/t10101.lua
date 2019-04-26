@@ -4,7 +4,7 @@ return {
 	once = true,
 	scripts = {
 		{
-			actor = 107071,
+			actor = 107070,
 			side = 2,
 			dir = -1,
 			nameColor = "#ff0000",
@@ -23,7 +23,7 @@ return {
 			}
 		},
 		{
-			actor = 107071,
+			actor = 107070,
 			side = 2,
 			dir = -1,
 			nameColor = "#ff0000",
@@ -42,7 +42,7 @@ return {
 			}
 		},
 		{
-			actor = 107071,
+			actor = 107070,
 			side = 2,
 			dir = -1,
 			nameColor = "#ff0000",
@@ -61,7 +61,7 @@ return {
 			}
 		},
 		{
-			actor = 107071,
+			actor = 107070,
 			side = 2,
 			dir = -1,
 			nameColor = "#ff0000",
@@ -80,7 +80,7 @@ return {
 			}
 		},
 		{
-			actor = 106011,
+			actor = 106010,
 			side = 0,
 			say = "Commander, air support preparation is underway. Buy us time and delay Hornet's attacks until its complete!",
 			nameColor = "#a9f548",

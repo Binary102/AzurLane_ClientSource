@@ -21,7 +21,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			bgm = "story-1",
-			actor = 301154,
+			actor = 301150,
 			nameColor = "#a9f548",
 			say = "I found another furniture coin~ Stuuupid Commander~",
 			typewriter = {
@@ -47,7 +47,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			bgm = "story-1",
-			actor = 301164,
+			actor = 301160,
 			nameColor = "#a9f548",
 			say = "Yukikaze the Great has found yet another furniture coin! You should be thankful!",
 			typewriter = {
@@ -74,12 +74,12 @@ return {
 			bgName = "bg_story_outdoor",
 			hideOther = true,
 			dir = 1,
-			actor = 301154,
+			actor = 301150,
 			nameColor = "#a9f548",
 			say = "... ...",
 			subActors = {
 				{
-					actor = 301164,
+					actor = 301160,
 					pos = {
 						x = -750
 					}
@@ -108,7 +108,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 301154,
+			actor = 301150,
 			nameColor = "#a9f548",
 			say = "What the heck! What is this loser doing here?",
 			typewriter = {
@@ -135,7 +135,7 @@ return {
 			side = 0,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 301164,
+			actor = 301160,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -166,12 +166,12 @@ return {
 			bgName = "bg_story_outdoor",
 			hideOther = true,
 			dir = 1,
-			actor = 301154,
+			actor = 301150,
 			nameColor = "#a9f548",
 			say = "... ...",
 			subActors = {
 				{
-					actor = 301164,
+					actor = 301160,
 					pos = {
 						x = -750
 					}
@@ -200,7 +200,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 301154,
+			actor = 301150,
 			nameColor = "#a9f548",
 			say = "Tsk... I never thought they'd assign Yuckykaze over here...",
 			typewriter = {
@@ -227,7 +227,7 @@ return {
 			side = 0,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 301164,
+			actor = 301160,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -258,12 +258,12 @@ return {
 			bgName = "bg_story_outdoor",
 			hideOther = true,
 			dir = 1,
-			actor = 301154,
+			actor = 301150,
 			nameColor = "#a9f548",
 			say = "…………",
 			subActors = {
 				{
-					actor = 301164,
+					actor = 301160,
 					pos = {
 						x = -750
 					}
@@ -297,7 +297,7 @@ return {
 				x = 0,
 				number = 1
 			},
-			actor = 301154,
+			actor = 301150,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -328,7 +328,7 @@ return {
 			bgName = "bg_story_outdoor",
 			say = "Wa ha ha ha! Even though you've never defeated Yukikaze the Great even once? Hmph! Come at me then!",
 			dir = 1,
-			actor = 301164,
+			actor = 301160,
 			actorName = "{namecode:22}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -348,7 +348,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 301134,
+			actor = 301130,
 			actorName = "{namecode:15}",
 			say = "Um... Shigure... it's not good to pick fights..",
 			typewriter = {
@@ -366,7 +366,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 301174,
+			actor = 301170,
 			actorName = "{namecode:19}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -386,7 +386,7 @@ return {
 			side = 1,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 301134,
+			actor = 301130,
 			actorName = "{namecode:15}",
 			say = "Kagerou... Nowaki... please stop those two...",
 			typewriter = {
@@ -403,7 +403,7 @@ return {
 			side = 0,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 301204,
+			actor = 301200,
 			actorName = "{namecode:24}",
 			say = "Zzz... zzz...",
 			typewriter = {
@@ -420,7 +420,7 @@ return {
 			side = 1,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 301174,
+			actor = 301170,
 			actorName = "{namecode:19}",
 			say = "Hahaha! Commander, you should also come enjoy the show!",
 			typewriter = {
@@ -437,7 +437,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			actorName = "{namecode:17}",
-			actor = 301154,
+			actor = 301150,
 			nameColor = "#a9f548",
 			say = "*pant* *pant*... I thought you only had your dumb luck going for you but... seems like you do have some real skill...",
 			flashout = {
@@ -472,7 +472,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 301164,
+			actor = 301160,
 			actorName = "{namecode:22}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -492,7 +492,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 301204,
+			actor = 301200,
 			actorName = "{namecode:24}",
 			say = "Zzzzz... zzzzz...",
 			typewriter = {
@@ -510,7 +510,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 301114,
+			actor = 301110,
 			actorName = "{namecode:13}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -531,7 +531,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			blackBg = true,
-			actor = 301124,
+			actor = 301120,
 			actorName = "{namecode:14}",
 			say = "They could've just played rock-paper-scissors... so how did it escalate into all this? I don't get it...",
 			typewriter = {

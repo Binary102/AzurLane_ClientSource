@@ -11,7 +11,7 @@ return {
 			side = 1,
 			dir = 1,
 			bgm = "battle-boss-tiancheng",
-			actor = 305071,
+			actor = 305070,
 			nameColor = "#ff0000",
 			say = "At last we meet on the battlefield, Amagi!",
 			typewriter = {
@@ -28,7 +28,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
-			actor = 304051,
+			actor = 304050,
 			say = "The King's defense consists of 3 Gold and Silver pieces... and you have learned how to attack them.",
 			typewriter = {
 				speed = 0.05,
@@ -44,7 +44,7 @@ return {
 			nameColor = "#ff0000",
 			side = 1,
 			dir = 1,
-			actor = 305071,
+			actor = 305070,
 			say = "I have you to thank for that. Let's be honest, you know a lot more about shrewdness and tactics than me...",
 			typewriter = {
 				speed = 0.05,
@@ -60,7 +60,7 @@ return {
 			nameColor = "#ff0000",
 			side = 1,
 			dir = 1,
-			actor = 305071,
+			actor = 305070,
 			say = "But in combat, someone like you doesn't stand a chance against me!",
 			typewriter = {
 				speed = 0.05,
@@ -72,7 +72,7 @@ return {
 			}
 		},
 		{
-			actor = 304051,
+			actor = 304050,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -91,7 +91,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
-			actor = 304051,
+			actor = 304050,
 			say = "But if I win, you will become the most powerful weapon in my arsenal, and you will cooperate with me on my plans.",
 			typewriter = {
 				speed = 0.05,
@@ -107,7 +107,7 @@ return {
 			nameColor = "#ff0000",
 			side = 1,
 			dir = 1,
-			actor = 305071,
+			actor = 305070,
 			say = "...But of course.",
 			typewriter = {
 				speed = 0.05,
@@ -119,7 +119,7 @@ return {
 			}
 		},
 		{
-			actor = 305071,
+			actor = 305070,
 			side = 1,
 			nameColor = "#ff0000",
 			dir = 1,

@@ -55,7 +55,7 @@ return {
 			side = 1,
 			nameColor = "#ff0000",
 			dir = 1,
-			actor = 306031,
+			actor = 306030,
 			actorName = "{namecode:89}",
 			say = "接下来，我就以这个形态去刺激刺激她们吧~",
 			shake = {

@@ -49,14 +49,14 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			bgName = "bg_story_task",
-			actor = 301121,
+			actor = 301120,
 			dir = 1,
 			hideOther = true,
 			actorName = "{namecode:13}&{namecode:14}",
 			say = "Pardon the intrusion!",
 			subActors = {
 				{
-					actor = 301111,
+					actor = 301110,
 					pos = {
 						x = 750
 					}
@@ -72,7 +72,7 @@ return {
 			}
 		},
 		{
-			actor = 301091,
+			actor = 301090,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -92,7 +92,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 301121,
+			actor = 301120,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -114,7 +114,7 @@ return {
 			}
 		},
 		{
-			actor = 301091,
+			actor = 301090,
 			side = 1,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -130,7 +130,7 @@ return {
 			}
 		},
 		{
-			actor = 301111,
+			actor = 301110,
 			side = 1,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -146,7 +146,7 @@ return {
 			}
 		},
 		{
-			actor = 301121,
+			actor = 301120,
 			side = 0,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -165,7 +165,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 301091,
+			actor = 301090,
 			nameColor = "#a9f548",
 			say = "Ugh...",
 			typewriter = {
@@ -188,7 +188,7 @@ return {
 			}
 		},
 		{
-			actor = 301111,
+			actor = 301110,
 			side = 1,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -207,7 +207,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 301091,
+			actor = 301090,
 			nameColor = "#a9f548",
 			say = "P-please, don't talk about that...!",
 			typewriter = {
@@ -230,7 +230,7 @@ return {
 			}
 		},
 		{
-			actor = 301121,
+			actor = 301120,
 			side = 0,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -246,7 +246,7 @@ return {
 			}
 		},
 		{
-			actor = 301111,
+			actor = 301110,
 			side = 1,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -262,7 +262,7 @@ return {
 			}
 		},
 		{
-			actor = 301111,
+			actor = 301110,
 			side = 1,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -278,7 +278,7 @@ return {
 			}
 		},
 		{
-			actor = 301121,
+			actor = 301120,
 			side = 0,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -294,7 +294,7 @@ return {
 			}
 		},
 		{
-			actor = 301111,
+			actor = 301110,
 			side = 1,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -310,7 +310,7 @@ return {
 			}
 		},
 		{
-			actor = 301121,
+			actor = 301120,
 			side = 0,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -326,7 +326,7 @@ return {
 			}
 		},
 		{
-			actor = 301111,
+			actor = 301110,
 			side = 1,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -352,7 +352,7 @@ return {
 			}
 		},
 		{
-			actor = 301091,
+			actor = 301090,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -371,7 +371,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 301091,
+			actor = 301090,
 			nameColor = "#a9f548",
 			say = "A-ahem! So, now you know much more about me. My inept side in particular. You must be very disappointed...",
 			typewriter = {
@@ -397,7 +397,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 301091,
+			actor = 301090,
 			nameColor = "#a9f548",
 			say = "I swear upon my title as a ninja that I will never get lost and never be afraid of the dark again! I shall overcome my weaknesses!",
 			typewriter = {
@@ -423,7 +423,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 301091,
+			actor = 301090,
 			nameColor = "#a9f548",
 			say = "Hiyah! Hooah! I'm feeling rather fired up! I'm ready to take on any task you have in store for me!",
 			effects = {

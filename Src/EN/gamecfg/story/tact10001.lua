@@ -4,7 +4,7 @@ return {
 	once = true,
 	scripts = {
 		{
-			actor = 201234,
+			actor = 201230,
 			side = 2,
 			dir = 0,
 			nameColor = "#a9f548",
@@ -26,7 +26,7 @@ return {
 			side = 1,
 			say = "Damn, we have been discovered, is there a submarine in the area?",
 			dir = 0,
-			actor = 205064,
+			actor = 205060,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -46,7 +46,7 @@ return {
 			}
 		},
 		{
-			actor = 205064,
+			actor = 205060,
 			side = 1,
 			dir = 0,
 			nameColor = "#a9f548",

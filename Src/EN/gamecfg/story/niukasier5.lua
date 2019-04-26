@@ -46,7 +46,7 @@ return {
 			}
 		},
 		{
-			actor = 202081,
+			actor = 202080,
 			side = 2,
 			bgName = "star_level_bg_105",
 			nameColor = "#a9f548",
@@ -62,7 +62,7 @@ return {
 			}
 		},
 		{
-			actor = 202191,
+			actor = 202190,
 			side = 2,
 			bgName = "star_level_bg_105",
 			nameColor = "#a9f548",
@@ -78,7 +78,7 @@ return {
 			}
 		},
 		{
-			actor = 202081,
+			actor = 202080,
 			side = 2,
 			bgName = "star_level_bg_105",
 			nameColor = "#a9f548",
@@ -110,7 +110,7 @@ return {
 			}
 		},
 		{
-			actor = 202191,
+			actor = 202190,
 			side = 2,
 			bgName = "star_level_bg_105",
 			nameColor = "#a9f548",
@@ -126,7 +126,7 @@ return {
 			}
 		},
 		{
-			actor = 202191,
+			actor = 202190,
 			side = 2,
 			bgName = "star_level_bg_105",
 			nameColor = "#a9f548",
@@ -142,7 +142,7 @@ return {
 			}
 		},
 		{
-			actor = 202191,
+			actor = 202190,
 			side = 2,
 			bgName = "star_level_bg_105",
 			nameColor = "#a9f548",
@@ -158,7 +158,7 @@ return {
 			}
 		},
 		{
-			actor = 202191,
+			actor = 202190,
 			side = 2,
 			bgName = "star_level_bg_105",
 			dir = 1,
@@ -174,7 +174,7 @@ return {
 			}
 		},
 		{
-			actor = 202191,
+			actor = 202190,
 			side = 2,
 			bgName = "star_level_bg_105",
 			nameColor = "#a9f548",
@@ -190,7 +190,7 @@ return {
 			}
 		},
 		{
-			actor = 202191,
+			actor = 202190,
 			side = 2,
 			bgName = "star_level_bg_105",
 			nameColor = "#a9f548",
@@ -206,7 +206,7 @@ return {
 			}
 		},
 		{
-			actor = 202191,
+			actor = 202190,
 			side = 2,
 			bgName = "star_level_bg_105",
 			nameColor = "#a9f548",
@@ -222,7 +222,7 @@ return {
 			}
 		},
 		{
-			actor = 202191,
+			actor = 202190,
 			side = 2,
 			bgName = "star_level_bg_105",
 			nameColor = "#a9f548",
@@ -238,7 +238,7 @@ return {
 			}
 		},
 		{
-			actor = 202191,
+			actor = 202190,
 			side = 2,
 			bgName = "star_level_bg_105",
 			nameColor = "#a9f548",
@@ -264,7 +264,7 @@ return {
 			}
 		},
 		{
-			actor = 202191,
+			actor = 202190,
 			side = 2,
 			bgName = "star_level_bg_105",
 			nameColor = "#a9f548",
@@ -280,7 +280,7 @@ return {
 			}
 		},
 		{
-			actor = 202191,
+			actor = 202190,
 			side = 2,
 			bgName = "star_level_bg_105",
 			dir = 1,
@@ -300,7 +300,7 @@ return {
 			bgName = "star_level_bg_105",
 			dir = 1,
 			blackBg = true,
-			actor = 202191,
+			actor = 202190,
 			nameColor = "#a9f548",
 			say = "——因为大家都是守护平稳日常的最重要的伙伴呢",
 			typewriter = {

@@ -22,7 +22,7 @@ return {
 			dir = -1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			actor = 900142,
+			actor = 102091,
 			nameColor = "#a9f548",
 			say = "Heya!",
 			flashout = {
@@ -57,7 +57,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 900141,
+			actor = 306051,
 			actorName = "{namecode:87}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -87,7 +87,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 900143,
+			actor = 301051,
 			actorName = "{namecode:6}",
 			say = "Is this the “Super Pumpkin Lantern” that we’re showing off today?",
 			typewriter = {
@@ -100,7 +100,7 @@ return {
 			}
 		},
 		{
-			actor = 900142,
+			actor = 102091,
 			side = 0,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -120,7 +120,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 900144,
+			actor = 301171,
 			actorName = "{namecode:19}",
 			say = "By the way, I've made delicious pies stuffed with pumpkin filling inside!",
 			typewriter = {
@@ -133,7 +133,7 @@ return {
 			}
 		},
 		{
-			actor = 900142,
+			actor = 102091,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -149,7 +149,7 @@ return {
 			}
 		},
 		{
-			actor = 900142,
+			actor = 102091,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -168,7 +168,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			bgName = "bg_story_task",
-			actor = 900143,
+			actor = 301051,
 			dir = 1,
 			hideOther = true,
 			actorName = "{namecode:6}&{namecode:87}",
@@ -176,7 +176,7 @@ return {
 			subActors = {
 				{
 					dir = 1,
-					actor = 900141,
+					actor = 306051,
 					pos = {
 						x = 687
 					}
@@ -196,7 +196,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 900141,
+			actor = 306051,
 			actorName = "{namecode:87}",
 			say = "Oh...this seems troublesome, the party will start shortly tonight...",
 			typewriter = {
@@ -213,7 +213,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 900143,
+			actor = 301051,
 			actorName = "{namecode:6}",
 			say = "There seems to be something inside...the pumpkin’s mouth...",
 			typewriter = {
@@ -226,7 +226,7 @@ return {
 			}
 		},
 		{
-			actor = 900142,
+			actor = 102091,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -246,7 +246,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 900141,
+			actor = 306051,
 			actorName = "{namecode:87}",
 			say = "“We have lost a ghost mingling amongst us at this Halloween party, only the combined power of three virtuous witches can send it home.”",
 			typewriter = {
@@ -263,7 +263,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 900141,
+			actor = 306051,
 			actorName = "{namecode:87}",
 			say = "What does this mean?",
 			typewriter = {
@@ -279,7 +279,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			bgName = "bg_story_task",
-			actor = 900143,
+			actor = 301051,
 			dir = 1,
 			hideOther = true,
 			actorName = "{namecode:6}&{namecode:19}",
@@ -287,7 +287,7 @@ return {
 			subActors = {
 				{
 					dir = 1,
-					actor = 900144,
+					actor = 301171,
 					pos = {
 						x = 687
 					}
@@ -306,7 +306,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 900138,
+			actor = 101271,
 			nameColor = "#a9f548",
 			say = "Hehe, it’s time! Here comes the witch from the Rabbit Planet!",
 			effects = {
@@ -328,7 +328,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = -1,
-			actor = 900142,
+			actor = 102091,
 			nameColor = "#a9f548",
 			say = "Wow, a witch really did appear!",
 			effects = {
@@ -361,7 +361,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 900138,
+			actor = 101271,
 			nameColor = "#a9f548",
 			say = "Let the rabbit witch help out Bailey!",
 			typewriter = {
@@ -380,18 +380,18 @@ return {
 			hideOther = true,
 			dir = 1,
 			blackBg = true,
-			actor = 900143,
+			actor = 301051,
 			nameColor = "#a9f548",
 			say = "Ooo-ahhh~",
 			subActors = {
 				{
-					actor = 900144,
+					actor = 301171,
 					pos = {
 						x = 370
 					}
 				},
 				{
-					actor = 900142,
+					actor = 102091,
 					dir = -1,
 					pos = {
 						x = 750

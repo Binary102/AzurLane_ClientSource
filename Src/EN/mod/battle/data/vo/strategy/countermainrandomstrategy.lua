@@ -9,6 +9,10 @@ function ys.Battle.CounterMainRandomStrategy.Ctor(slot0, slot1)
 	slot0.super.Ctor(slot0, slot1)
 end
 
+function ys.Battle.CounterMainRandomStrategy.GetStrategyType(slot0)
+	return slot0.Battle.BattleJoyStickAutoBot.COUNTER_MAIN
+end
+
 function ys.Battle.CounterMainRandomStrategy.generateTargetPoint(slot0)
 	slot1 = slot0._upperBound
 	slot2 = slot0._lowerBound

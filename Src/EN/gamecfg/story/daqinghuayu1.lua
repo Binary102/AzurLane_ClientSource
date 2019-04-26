@@ -127,7 +127,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgName = "bg_story_task",
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "对了对了，我在指挥室给指挥官准备了一份惊喜呢！",
 			flashout = {
@@ -167,7 +167,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "嘿嘿，指挥官你就好好期待一下吧！",
 			typewriter = {
@@ -305,7 +305,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "指挥官，早上好！",
 			typewriter = {
@@ -338,7 +338,7 @@ return {
 			}
 		},
 		{
-			actor = 108021,
+			actor = 108020,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -358,7 +358,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "机关的时机，位置，角度都精准地把控好了，不会弄湿指挥官的衣服和指挥室的其它东西呢！",
 			typewriter = {

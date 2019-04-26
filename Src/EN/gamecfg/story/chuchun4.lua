@@ -49,7 +49,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 301211,
+			actor = 301210,
 			nameColor = "#a9f548",
 			say = "P-p-please, let me be your secretary!",
 			typewriter = {
@@ -86,7 +86,7 @@ return {
 			}
 		},
 		{
-			actor = 301211,
+			actor = 301210,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -105,7 +105,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 301211,
+			actor = 301210,
 			nameColor = "#a9f548",
 			say = "I-I want to be someone that people can rely on!",
 			typewriter = {
@@ -128,7 +128,7 @@ return {
 			}
 		},
 		{
-			actor = 301231,
+			actor = 301230,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -195,7 +195,7 @@ return {
 			}
 		},
 		{
-			actor = 301211,
+			actor = 301210,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -214,7 +214,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 301231,
+			actor = 301230,
 			nameColor = "#a9f548",
 			say = "You did it! Now just give it all you've got, Hatsuharu! I'll leave now so I won't get in your way! See ya!",
 			typewriter = {
@@ -239,7 +239,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 301211,
+			actor = 301210,
 			nameColor = "#a9f548",
 			say = "Uh, um, okay! I-I promise to give it my all!",
 			typewriter = {
@@ -279,7 +279,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 103111,
+			actor = 103110,
 			nameColor = "#a9f548",
 			say = "You there, Sakura Empire girl, could you tell me what the schedule is for tomorrow's exercises?",
 			flashout = {
@@ -312,7 +312,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 301211,
+			actor = 301210,
 			nameColor = "#a9f548",
 			say = "*Eek*?! W-what did you ask?! I-I'm not...",
 			typewriter = {
@@ -335,7 +335,7 @@ return {
 			}
 		},
 		{
-			actor = 103111,
+			actor = 103110,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -354,7 +354,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 203071,
+			actor = 203070,
 			nameColor = "#a9f548",
 			say = "Has the †Area† for the †Exercises† of the morrow been prepared yet?",
 			flashout = {
@@ -384,7 +384,7 @@ return {
 			}
 		},
 		{
-			actor = 301211,
+			actor = 301210,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -400,7 +400,7 @@ return {
 			}
 		},
 		{
-			actor = 203071,
+			actor = 203070,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -419,7 +419,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 301211,
+			actor = 301210,
 			nameColor = "#a9f548",
 			say = "*Whimper*... I'm sorry that I can't help!",
 			typewriter = {
@@ -476,7 +476,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 301211,
+			actor = 301210,
 			nameColor = "#a9f548",
 			say = "I-I'm sorry! I-I'm just... no good at t-talking to people...",
 			typewriter = {
@@ -495,7 +495,7 @@ return {
 			}
 		},
 		{
-			actor = 301211,
+			actor = 301210,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -511,7 +511,7 @@ return {
 			}
 		},
 		{
-			actor = 301211,
+			actor = 301210,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -527,7 +527,7 @@ return {
 			}
 		},
 		{
-			actor = 301211,
+			actor = 301210,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",

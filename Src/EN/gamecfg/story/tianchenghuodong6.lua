@@ -11,7 +11,7 @@ return {
 			side = 1,
 			dir = 1,
 			bgm = "battle-boss-tiancheng",
-			actor = 302141,
+			actor = 302140,
 			nameColor = "#ff0000",
 			say = "You win after all, Amagi-san! You've defeated me!",
 			typewriter = {
@@ -24,7 +24,7 @@ return {
 			}
 		},
 		{
-			actor = 304051,
+			actor = 304050,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -43,7 +43,7 @@ return {
 			nameColor = "#ff0000",
 			side = 1,
 			dir = 1,
-			actor = 302141,
+			actor = 302140,
 			say = "Do you get along well with your sister too?",
 			typewriter = {
 				speed = 0.05,
@@ -55,7 +55,7 @@ return {
 			}
 		},
 		{
-			actor = 304051,
+			actor = 304050,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -74,7 +74,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
-			actor = 304051,
+			actor = 304050,
 			say = "Jintsuu is wise, Sendai is strong... And the qualities you possess may rival or even surpass theirs.",
 			typewriter = {
 				speed = 0.05,
@@ -86,7 +86,7 @@ return {
 			}
 		},
 		{
-			actor = 302141,
+			actor = 302140,
 			side = 1,
 			nameColor = "#ff0000",
 			dir = 1,
@@ -101,7 +101,7 @@ return {
 			}
 		},
 		{
-			actor = 304051,
+			actor = 304050,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -120,7 +120,7 @@ return {
 			nameColor = "#ff0000",
 			side = 1,
 			dir = 1,
-			actor = 302141,
+			actor = 302140,
 			say = "Akagi...? Do you mean your sister?",
 			typewriter = {
 				speed = 0.05,
@@ -136,7 +136,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
-			actor = 304051,
+			actor = 304050,
 			say = "Yes. She's... well, I might have been a little too lenient with her...",
 			typewriter = {
 				speed = 0.05,
@@ -152,7 +152,7 @@ return {
 			nameColor = "#ff0000",
 			side = 1,
 			dir = 1,
-			actor = 302141,
+			actor = 302140,
 			say = "Too lenient...? I think she's incredibly strong.",
 			typewriter = {
 				speed = 0.05,
@@ -168,7 +168,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
-			actor = 304051,
+			actor = 304050,
 			say = "She may be strong, but if she can't control her strength... I suppose it's fine if everything goes well, but if it does not...",
 			typewriter = {
 				speed = 0.05,
@@ -180,7 +180,7 @@ return {
 			}
 		},
 		{
-			actor = 302141,
+			actor = 302140,
 			side = 1,
 			nameColor = "#ff0000",
 			dir = 1,
@@ -198,7 +198,7 @@ return {
 			expression = 3,
 			side = 0,
 			dir = -1,
-			actor = 304051,
+			actor = 304050,
 			nameColor = "#a9f548",
 			say = "That won't always be... *Cough*! *Cough cough*!",
 			typewriter = {
@@ -221,7 +221,7 @@ return {
 			}
 		},
 		{
-			actor = 304051,
+			actor = 304050,
 			nameColor = "#a9f548",
 			dir = -1,
 			withoutActorName = true,
@@ -240,7 +240,7 @@ return {
 			expression = 1,
 			side = 1,
 			dir = 1,
-			actor = 302141,
+			actor = 302140,
 			nameColor = "#ff0000",
 			say = "Amagi-san?! Are you okay?!",
 			typewriter = {
@@ -267,7 +267,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
-			actor = 304051,
+			actor = 304050,
 			say = "I'm fine... *Cough cough*... It's just that preparing for the wargames has had a small impact on my health.",
 			typewriter = {
 				speed = 0.05,
@@ -283,7 +283,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
-			actor = 304051,
+			actor = 304050,
 			say = "I apologize for being such a pitiful sight.",
 			typewriter = {
 				speed = 0.05,
@@ -299,7 +299,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
-			actor = 304051,
+			actor = 304050,
 			say = "Shouldn't you hurry back to the harbor? You've been \"sunk\", after all.",
 			typewriter = {
 				speed = 0.05,
@@ -315,7 +315,7 @@ return {
 			nameColor = "#ff0000",
 			side = 1,
 			dir = 1,
-			actor = 302141,
+			actor = 302140,
 			say = "I... I will! Take care of yourself, Amagi-san!",
 			typewriter = {
 				speed = 0.05,
@@ -331,7 +331,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = -1,
-			actor = 304051,
+			actor = 304050,
 			say = "*Phew*...",
 			typewriter = {
 				speed = 0.05,
@@ -347,7 +347,7 @@ return {
 			side = 2,
 			dir = -1,
 			blackBg = true,
-			actor = 304051,
+			actor = 304050,
 			nameColor = "#a9f548",
 			say = "\"She has me\", you say? ...I suppose she does...",
 			typewriter = {
@@ -364,7 +364,7 @@ return {
 			side = 2,
 			dir = -1,
 			blackBg = true,
-			actor = 304051,
+			actor = 304050,
 			nameColor = "#a9f548",
 			say = "But who knows for how long I will actually be here to watch over you, Akagi...",
 			typewriter = {

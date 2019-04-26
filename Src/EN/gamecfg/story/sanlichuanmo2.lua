@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			actor = 305111,
+			actor = 305110,
 			nameColor = "#a9f548",
 			say = "真是大受打击。",
 			flashout = {
@@ -52,7 +52,7 @@ return {
 			}
 		},
 		{
-			actor = 305111,
+			actor = 305110,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -68,7 +68,7 @@ return {
 			}
 		},
 		{
-			actor = 305111,
+			actor = 305110,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -84,7 +84,7 @@ return {
 			}
 		},
 		{
-			actor = 301321,
+			actor = 301320,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -103,7 +103,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 301321,
+			actor = 301320,
 			nameColor = "#a9f548",
 			say = "{namecode:82}前辈对不起呜呜呜…{namecode:33}又干了坏事哇啊啊啊啊——",
 			typewriter = {
@@ -138,7 +138,7 @@ return {
 			side = 1,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 305111,
+			actor = 305110,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -157,7 +157,7 @@ return {
 			side = 0,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 301321,
+			actor = 301320,
 			nameColor = "#a9f548",
 			say = "好痒……好痒……啊哈哈哈。",
 			typewriter = {
@@ -188,7 +188,7 @@ return {
 			}
 		},
 		{
-			actor = 301321,
+			actor = 301320,
 			side = 0,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -204,7 +204,7 @@ return {
 			}
 		},
 		{
-			actor = 305111,
+			actor = 305110,
 			side = 1,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -223,7 +223,7 @@ return {
 			side = 0,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 301321,
+			actor = 301320,
 			nameColor = "#a9f548",
 			say = "唔……{namecode:33}，{namecode:33}犯了那么大的错，一定会想办法弥补过错的！",
 			typewriter = {
@@ -249,7 +249,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 301321,
+			actor = 301320,
 			nameColor = "#a9f548",
 			say = "嘿咻……嘿咻，{namecode:33}也想多搬点东西。",
 			flashout = {
@@ -293,7 +293,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 307051,
+			actor = 307050,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -309,7 +309,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			side = 0,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -325,7 +325,7 @@ return {
 			}
 		},
 		{
-			actor = 301321,
+			actor = 301320,
 			side = 0,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -371,7 +371,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 301321,
+			actor = 301320,
 			nameColor = "#a9f548",
 			say = "{namecode:33}也来帮忙修补！",
 			typewriter = {
@@ -398,7 +398,7 @@ return {
 			side = 1,
 			bgName = "bg_story_school",
 			dir = -1,
-			actor = 304021,
+			actor = 304020,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -414,7 +414,7 @@ return {
 			}
 		},
 		{
-			actor = 301321,
+			actor = 301320,
 			side = 0,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -430,7 +430,7 @@ return {
 			}
 		},
 		{
-			actor = 304021,
+			actor = 304020,
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -449,7 +449,7 @@ return {
 			side = 0,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 301321,
+			actor = 301320,
 			nameColor = "#a9f548",
 			say = "啊——橘子味的糖果，好次！",
 			typewriter = {
@@ -476,7 +476,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 301321,
+			actor = 301320,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -519,7 +519,7 @@ return {
 			}
 		},
 		{
-			actor = 301331,
+			actor = 301330,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -539,7 +539,7 @@ return {
 			side = 0,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 301371,
+			actor = 301370,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -558,7 +558,7 @@ return {
 			side = 1,
 			bgName = "bg_story_school",
 			dir = -1,
-			actor = 301351,
+			actor = 301350,
 			nameColor = "#a9f548",
 			say = "慢……慢点。哈……哈，好累。",
 			typewriter = {
@@ -581,7 +581,7 @@ return {
 			}
 		},
 		{
-			actor = 301321,
+			actor = 301320,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -597,7 +597,7 @@ return {
 			}
 		},
 		{
-			actor = 301321,
+			actor = 301320,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -617,7 +617,7 @@ return {
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 301331,
+			actor = 301330,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -633,7 +633,7 @@ return {
 			}
 		},
 		{
-			actor = 301321,
+			actor = 301320,
 			side = 0,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -654,18 +654,18 @@ return {
 			bgName = "bg_story_school",
 			hideOther = true,
 			dir = 1,
-			actor = 301331,
+			actor = 301330,
 			actorName = "{namecode:133}&{namecode:137}&{namecode:34}",
 			say = "哦——",
 			subActors = {
 				{
-					actor = 301371,
+					actor = 301370,
 					pos = {
 						x = -750
 					}
 				},
 				{
-					actor = 301351,
+					actor = 301350,
 					pos = {
 						x = -370
 					}

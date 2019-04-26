@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"自由的天使\n\n<size=30>六 浪漫的约会？</size>",
+					"踊り子天使エミール\n\n<size=30>六 ロマンス・デート？</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "港区·广场",
+			say = "母港·広場",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -59,9 +59,9 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 802011,
+			actor = 802010,
 			nameColor = "#a9f548",
-			say = "不过，说是约会，但却完全没想好要去哪里玩呢…",
+			say = "デートするって言い出したのはこっちだけど…指揮官、どこに行けばいいのかしら…？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,18 +72,18 @@ return {
 			},
 			options = {
 				{
-					content = "散步吧",
+					content = "とりあえずフラフラしてみる",
 					flag = 1
 				}
 			}
 		},
 		{
-			actor = 802011,
+			actor = 802010,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯~那就稍微散散步好了，我们就往那边走吧~",
+			say = "なるほどね。じゃあ少しお散歩でもしてみようか。まずはあっち～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,25 +97,25 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "被埃米尔十分自然地抱住了手臂，传来了十分柔软的触感。",
+			say = "エミールはごく自然な流れで腕を組んできた。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "？！",
+					content = "！？",
 					flag = 1
 				}
 			}
 		},
 		{
-			actor = 802011,
+			actor = 802010,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘻嘻，指挥官，这可是约会哦？得做一些有约会气氛的事呢。",
+			say = "指揮官、これはデートよ？デートらしいことでもしないと～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,35 +156,19 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "散步的路上，和埃米尔闲聊了起来",
+			say = "散歩がてらにエミールが好きな踊りの話を聞いた。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actor = 802011,
+			actor = 802010,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯？指挥官想知道我为什么会喜欢上跳舞吗？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 802011,
-			side = 2,
-			bgName = "bg_story_school",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "我呢，曾经有一段十分不自由的时间…因为生活实在太过无趣，就随便选了一样东西学习",
+			say = "あら、指揮官は私がなんで踊りを好きなのかを知りたいって？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,12 +179,12 @@ return {
 			}
 		},
 		{
-			actor = 802011,
+			actor = 802010,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过在过程中，意外地学到了如何在不那么有趣的日常中寻找乐趣呢",
+			say = "私はあの大戦で一時期、ずっととある港に係留されていたの。あの時のような空白の日々にならないよう、一つ習い事でもしようかなって思って、それで踊りを選んだのよ。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,12 +195,12 @@ return {
 			}
 		},
 		{
-			actor = 802011,
+			actor = 802010,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "喜悦的时候、激动的时候，跳舞可以让大家也感受到我的快乐",
+			say = "まあそれで色々勉強できたわ。どんなにつまらない日でも、楽しさを見いだせること……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,12 +211,28 @@ return {
 			}
 		},
 		{
-			actor = 802011,
+			actor = 802010,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "悲伤的时候，痛苦的时候，只要动起身体，难过的情绪也会减少几分",
+			say = "楽しい時、心地いい時、踊りで喜ぶ気持ちをみんなに分け与えること……",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 802010,
+			side = 2,
+			bgName = "bg_story_school",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "悲しい時、苦しい時、踊りでつらい気持ちを少しでも減らすこと……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,9 +246,9 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 802011,
+			actor = 802010,
 			nameColor = "#a9f548",
-			say = "虽然在大家看来可能会有些夸张吧，哈哈~",
+			say = "みんなからすれば、こうして踊る私は少し身勝手かもしれないけどね。ふふ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,18 +259,18 @@ return {
 			},
 			options = {
 				{
-					content = "埃米尔的舞很好看",
+					content = "その踊りもまたロマンティックだ",
 					flag = 1
 				}
 			}
 		},
 		{
-			actor = 802011,
+			actor = 802010,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官也变得会说话了呢~",
+			say = "指揮官もお世辞が上手ね♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,12 +281,12 @@ return {
 			}
 		},
 		{
-			actor = 802011,
+			actor = 802010,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这么说起来，加入舰队也过了相当长的时间呢，认识指挥官也…",
+			say = "そう言えば私、この艦隊に入ってから指揮官と知り合って少しは経っているけど……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -300,9 +300,9 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 802011,
+			actor = 802010,
 			nameColor = "#a9f548",
-			say = "嘻嘻，指挥官有没有想过用些甜言蜜语或是制造点“意外惊喜”来接近我呀？",
+			say = "ふふ、指揮官はなにか「ロマンティックなこと」をして、女の子たちと仲良くしようって思ったことある？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,11 +313,11 @@ return {
 			},
 			options = {
 				{
-					content = "想过",
+					content = "ある",
 					flag = 1
 				},
 				{
-					content = "没有",
+					content = "ない",
 					flag = 2
 				}
 			}
@@ -327,9 +327,9 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			optionFlag = 1,
-			actor = 802011,
+			actor = 802010,
 			nameColor = "#a9f548",
-			say = "幸好没有实践呢，因为我对那种完全没兴趣的~",
+			say = "それなら私はパス……かな？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -344,9 +344,9 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			optionFlag = 2,
-			actor = 802011,
+			actor = 802010,
 			nameColor = "#a9f548",
-			say = "嘻嘻，果然指挥官是我看中的人呢",
+			say = "さすがは私が惚れ込んだ指揮官！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -361,9 +361,9 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			blackBg = true,
-			actor = 802011,
+			actor = 802010,
 			nameColor = "#a9f548",
-			say = "这些在别人看来也许浪漫的东西，对我来说可是没有丝毫吸引力的哦～",
+			say = "うふふ、私、そういうところは他の娘とちょっと違うわよ？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

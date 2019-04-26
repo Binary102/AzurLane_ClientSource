@@ -64,7 +64,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = -1,
-			actor = 107091,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "诶、这是…要直接找前辈吗？",
 			typewriter = {
@@ -77,7 +77,7 @@ return {
 			}
 		},
 		{
-			actor = 107381,
+			actor = 107380,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -93,7 +93,7 @@ return {
 			}
 		},
 		{
-			actor = 107381,
+			actor = 107380,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -112,7 +112,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 107381,
+			actor = 107380,
 			nameColor = "#a9f548",
 			say = "各位前辈，打扰了。",
 			flashout = {
@@ -142,7 +142,7 @@ return {
 			}
 		},
 		{
-			actor = 107061,
+			actor = 107060,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -158,7 +158,7 @@ return {
 			}
 		},
 		{
-			actor = 107381,
+			actor = 107380,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -177,7 +177,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 107061,
+			actor = 107060,
 			nameColor = "#a9f548",
 			say = "原来如此，单刀直入。用最直接的方式调查对手的情报么，不错的想法",
 			flashout = {
@@ -207,7 +207,7 @@ return {
 			}
 		},
 		{
-			actor = 107381,
+			actor = 107380,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -223,7 +223,7 @@ return {
 			}
 		},
 		{
-			actor = 107061,
+			actor = 107060,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -239,7 +239,7 @@ return {
 			}
 		},
 		{
-			actor = 107051,
+			actor = 107050,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -255,7 +255,7 @@ return {
 			}
 		},
 		{
-			actor = 107051,
+			actor = 107050,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -271,7 +271,7 @@ return {
 			}
 		},
 		{
-			actor = 107051,
+			actor = 107050,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -287,7 +287,7 @@ return {
 			}
 		},
 		{
-			actor = 107061,
+			actor = 107060,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -303,7 +303,7 @@ return {
 			}
 		},
 		{
-			actor = 107381,
+			actor = 107380,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -319,7 +319,7 @@ return {
 			}
 		},
 		{
-			actor = 107061,
+			actor = 107060,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -338,7 +338,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 107071,
+			actor = 107070,
 			nameColor = "#a9f548",
 			say = "阿，阿，阿嚏！",
 			flashout = {
@@ -382,7 +382,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			blackBg = true,
-			actor = 107071,
+			actor = 107070,
 			nameColor = "#a9f548",
 			say = "（总，总觉得有背后有一股凉意……）",
 			typewriter = {

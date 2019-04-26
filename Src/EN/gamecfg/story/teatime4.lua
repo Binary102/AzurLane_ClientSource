@@ -16,7 +16,7 @@ return {
 			}
 		},
 		{
-			actor = 202111,
+			actor = 202110,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -31,7 +31,7 @@ return {
 			}
 		},
 		{
-			actor = 202121,
+			actor = 202120,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -46,7 +46,7 @@ return {
 			}
 		},
 		{
-			actor = 202111,
+			actor = 202110,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -61,7 +61,7 @@ return {
 			}
 		},
 		{
-			actor = 202121,
+			actor = 202120,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -76,7 +76,7 @@ return {
 			}
 		},
 		{
-			actor = 202111,
+			actor = 202110,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -91,7 +91,7 @@ return {
 			}
 		},
 		{
-			actor = 202121,
+			actor = 202120,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -106,7 +106,7 @@ return {
 			}
 		},
 		{
-			actor = 202111,
+			actor = 202110,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -121,7 +121,7 @@ return {
 			}
 		},
 		{
-			actor = 202121,
+			actor = 202120,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -136,7 +136,7 @@ return {
 			}
 		},
 		{
-			actor = 202111,
+			actor = 202110,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -151,7 +151,7 @@ return {
 			}
 		},
 		{
-			actor = 202121,
+			actor = 202120,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -166,7 +166,7 @@ return {
 			}
 		},
 		{
-			actor = 202111,
+			actor = 202110,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -181,7 +181,7 @@ return {
 			}
 		},
 		{
-			actor = 202121,
+			actor = 202120,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -196,7 +196,7 @@ return {
 			}
 		},
 		{
-			actor = 202111,
+			actor = 202110,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -211,7 +211,7 @@ return {
 			}
 		},
 		{
-			actor = 202121,
+			actor = 202120,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -226,7 +226,7 @@ return {
 			}
 		},
 		{
-			actor = 202111,
+			actor = 202110,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -241,7 +241,7 @@ return {
 			}
 		},
 		{
-			actor = 202121,
+			actor = 202120,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -256,7 +256,7 @@ return {
 			}
 		},
 		{
-			actor = 202121,
+			actor = 202120,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -271,7 +271,7 @@ return {
 			}
 		},
 		{
-			actor = 202111,
+			actor = 202110,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -286,7 +286,7 @@ return {
 			}
 		},
 		{
-			actor = 202121,
+			actor = 202120,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -346,7 +346,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 301091,
+			actor = 301090,
 			actorName = "{namecode:11}",
 			say = "It's getting hotter and hotter, my clothes are all soaked... Must be because I ran too much! A route sign ahead, Honolulu? What does this mean? No matter, as long as I keep on moving forward!",
 			typewriter = {

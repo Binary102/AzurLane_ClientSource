@@ -50,7 +50,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 904011,
+			actor = 904010,
 			nameColor = "#a9f548",
 			say = "Thank you for waiting. Today's first dish will be pancakes.",
 			typewriter = {
@@ -67,7 +67,7 @@ return {
 			side = 0,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 301321,
+			actor = 301320,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -93,7 +93,7 @@ return {
 			}
 		},
 		{
-			actor = 102011,
+			actor = 102010,
 			side = 1,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -113,7 +113,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "Mm... hmm... *smiles weakly*",
 			typewriter = {
@@ -140,7 +140,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgName = "bg_story_room",
-			actor = 904011,
+			actor = 904010,
 			nameColor = "#a9f548",
 			say = "And this is the last of the sweets today. Everyone, please enjoy it!",
 			flashout = {
@@ -173,7 +173,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 101291,
+			actor = 101290,
 			nameColor = "#a9f548",
 			say = "Oohhhh!",
 			typewriter = {
@@ -227,7 +227,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "Commander, I prepared something for you~ Just wait a minute, okay~♪",
 			typewriter = {
@@ -254,7 +254,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "Concord's special macarons have arrived~ Hehe, I got a lot of help from Miss Dunkirk~",
 			typewriter = {
@@ -271,7 +271,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "Commander, as Concord's taste tester, please be the first to give these a try~",
 			typewriter = {
@@ -288,7 +288,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "I won't let you down this time~",
 			typewriter = {
@@ -331,7 +331,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "Is it delicious? Eh? It... has a very \"Concord\" flavor? Really? Hehe, thanks for your praise~",
 			typewriter = {
@@ -348,7 +348,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "After all, sweets have to be packed with sugar, or it won't be just right~",
 			typewriter = {
@@ -381,7 +381,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "Hehe~ Commander, if you're going to say that much, you should eat a few more~",
 			typewriter = {
@@ -399,7 +399,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			blackBg = true,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "Ahhhn~",
 			typewriter = {

@@ -4,7 +4,7 @@ return {
 	once = true,
 	scripts = {
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 2,
 			dir = -1,
 			say = "Commander, do you know what type of person will most likely be welcomed and respected?",
@@ -18,7 +18,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 2,
 			dir = -1,
 			say = "Why don’t you let {namecode:98} teach you her ways! Which is ~~~~",
@@ -32,7 +32,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 2,
 			dir = -1,
 			say = "Learn how to persevere to the end, nyaa!",
@@ -46,7 +46,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 2,
 			dir = -1,
 			say = "Let {namecode:98} witness your will to persevere~ Push forward, many a little makes a muckle! Nyaa~",
@@ -60,7 +60,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 2,
 			dir = -1,
 			say = "{namecode:66} also said so! Nya~",

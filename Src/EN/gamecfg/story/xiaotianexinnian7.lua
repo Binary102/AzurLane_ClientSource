@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "main-newyear",
-			actor = 900063,
+			actor = 312011,
 			nameColor = "#a9f548",
 			say = "Nya?! It's this late already nya?!",
 			flashout = {
@@ -52,7 +52,7 @@ return {
 			}
 		},
 		{
-			actor = 900154,
+			actor = 205062,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -68,7 +68,7 @@ return {
 			}
 		},
 		{
-			actor = 900160,
+			actor = 201103,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -89,7 +89,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 900152,
+			actor = 399011,
 			actorName = "{namecode:152}",
 			say = "It's called a <i>hatsumode</i>, the first shrine visit of the year. It's said that the first wish of the year you make will always come true.",
 			typewriter = {
@@ -106,7 +106,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 900158,
+			actor = 102141,
 			nameColor = "#a9f548",
 			say = "New Year's wish, huh. (Whispering) I wonder if it'll really come true...",
 			typewriter = {
@@ -119,7 +119,7 @@ return {
 			}
 		},
 		{
-			actor = 102091,
+			actor = 102090,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -139,7 +139,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 900158,
+			actor = 102141,
 			nameColor = "#a9f548",
 			say = "No, nothing. Just that I'll keep working hard to try to be more like you.",
 			typewriter = {
@@ -152,7 +152,7 @@ return {
 			}
 		},
 		{
-			actor = 900155,
+			actor = 102132,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -168,7 +168,7 @@ return {
 			}
 		},
 		{
-			actor = 900157,
+			actor = 102051,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -189,7 +189,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 900153,
+			actor = 399021,
 			actorName = "{namecode:151}",
 			say = "Hold it. If you say your wish out loud, it won't come true. Your wishes are for the gods' ears only.",
 			typewriter = {
@@ -212,7 +212,7 @@ return {
 			}
 		},
 		{
-			actor = 900063,
+			actor = 312011,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -233,7 +233,7 @@ return {
 			dir = 1,
 			actorName = "{namecode:151}",
 			bgName = "star_level_bg_101",
-			actor = 900153,
+			actor = 399021,
 			nameColor = "#a9f548",
 			say = "Whoa! I've never visited the port's shrine before, but I didn't expect it to be this magnificent!",
 			flashout = {
@@ -267,7 +267,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_101",
 			dir = 1,
-			actor = 900152,
+			actor = 399011,
 			actorName = "{namecode:152}",
 			say = "It's marvelous that such a divine place exists on this base... I'm certain the gods will watch over it.",
 			typewriter = {
@@ -280,7 +280,7 @@ return {
 			}
 		},
 		{
-			actor = 900154,
+			actor = 205062,
 			side = 2,
 			bgName = "star_level_bg_101",
 			nameColor = "#a9f548",
@@ -296,7 +296,7 @@ return {
 			}
 		},
 		{
-			actor = 900156,
+			actor = 301601,
 			side = 2,
 			bgName = "star_level_bg_101",
 			nameColor = "#a9f548",
@@ -308,7 +308,7 @@ return {
 			}
 		},
 		{
-			actor = 900063,
+			actor = 312011,
 			side = 2,
 			bgName = "star_level_bg_101",
 			nameColor = "#a9f548",
@@ -330,7 +330,7 @@ return {
 			}
 		},
 		{
-			actor = 900063,
+			actor = 312011,
 			side = 2,
 			bgName = "star_level_bg_101",
 			nameColor = "#a9f548",
@@ -359,7 +359,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_101",
 			dir = 1,
-			actor = 900155,
+			actor = 102132,
 			nameColor = "#a9f548",
 			say = "So what did everyone wish for?",
 			flashout = {
@@ -389,7 +389,7 @@ return {
 			}
 		},
 		{
-			actor = 102091,
+			actor = 102090,
 			side = 2,
 			bgName = "star_level_bg_101",
 			nameColor = "#a9f548",
@@ -409,7 +409,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_101",
 			dir = 1,
-			actor = 900154,
+			actor = 205062,
 			nameColor = "#a9f548",
 			say = "Well, people of all cultures wish for good health and happy lives. Happy new year, everyone.",
 			typewriter = {
@@ -426,7 +426,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_101",
 			dir = 1,
-			actor = 900152,
+			actor = 399011,
 			actorName = "{namecode:152}",
 			say = "That they do. Let's work together to restore peace and harmony to this world.",
 			typewriter = {
@@ -442,7 +442,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_101",
 			dir = 1,
-			actor = 900063,
+			actor = 312011,
 			nameColor = "#a9f548",
 			say = "...Hah hah ha...",
 			typewriter = {
@@ -465,7 +465,7 @@ return {
 			}
 		},
 		{
-			actor = 900063,
+			actor = 312011,
 			side = 2,
 			bgName = "star_level_bg_101",
 			nameColor = "#a9f548",
@@ -502,7 +502,7 @@ return {
 			bgName = "star_level_bg_101",
 			dir = 1,
 			blackBg = true,
-			actor = 900063,
+			actor = 312011,
 			nameColor = "#a9f548",
 			say = "Nya♪ It looks like this will be another prosperous year for me! Happy new year nya!",
 			typewriter = {

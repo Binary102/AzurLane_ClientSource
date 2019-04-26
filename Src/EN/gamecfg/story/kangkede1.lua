@@ -50,7 +50,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "Nnnh~~ I've been working for a good while, so I deserve a sugar break~",
 			typewriter = {
@@ -77,7 +77,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "Mmhmm~ that hits the spot! Lollipops are the best after a long day of work!",
 			typewriter = {
@@ -100,7 +100,7 @@ return {
 			}
 		},
 		{
-			actor = 102181,
+			actor = 102180,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -140,7 +140,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "Ahh, I'll have to get by from just thinking about sugar. There are still many training reports on that table waiting to be compiled~",
 			typewriter = {
@@ -157,7 +157,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "Gotta work hard~♪",
 			typewriter = {
@@ -174,7 +174,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgName = "bg_story_task",
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "Hey! Mutsuki, wanna trade lollipops?",
 			flashout = {
@@ -208,7 +208,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgName = "bg_story_task",
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "Isn't that dummy Omaha? ...Ah, she's buying snacks again. Maybe I should go swipe some later, hehe~",
 			flashout = {
@@ -242,7 +242,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgName = "bg_story_task",
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "Aha, done with work~ Sooo tired~ Hurry up and come give me a massage~♪",
 			flashout = {
@@ -306,7 +306,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "Commander, come give me a shoulder massage~ I'll make sure to pay you back, okay~?",
 			typewriter = {
@@ -329,7 +329,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "Hehe, that hurts so good~ Commander, you're also pretty skilled at giving massages.",
 			typewriter = {
@@ -356,7 +356,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "Great~ Now to repay you~",
 			typewriter = {
@@ -383,7 +383,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "Hehe, sit down already~ As a reward, Commander, I'll also give you a shoulder rub~",
 			typewriter = {

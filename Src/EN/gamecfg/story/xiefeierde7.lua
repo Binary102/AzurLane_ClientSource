@@ -50,7 +50,7 @@ return {
 			}
 		},
 		{
-			actor = 202081,
+			actor = 202080,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -128,7 +128,7 @@ return {
 			}
 		},
 		{
-			actor = 202081,
+			actor = 202080,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -148,7 +148,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			withoutActorName = true,
-			actor = 202081,
+			actor = 202080,
 			nameColor = "#a9f548",
 			say = "Sheffield suddenly drew close and put her hand on my forehead.",
 			typewriter = {
@@ -161,7 +161,7 @@ return {
 			}
 		},
 		{
-			actor = 202081,
+			actor = 202080,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -181,7 +181,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			withoutActorName = true,
-			actor = 202081,
+			actor = 202080,
 			nameColor = "#a9f548",
 			say = "I don't think I've ever been tended to more rudely.",
 			typewriter = {
@@ -200,7 +200,7 @@ return {
 			}
 		},
 		{
-			actor = 202081,
+			actor = 202080,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -216,7 +216,7 @@ return {
 			}
 		},
 		{
-			actor = 202082,
+			actor = 202080,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -246,7 +246,7 @@ return {
 			}
 		},
 		{
-			actor = 202081,
+			actor = 202080,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -276,7 +276,7 @@ return {
 			}
 		},
 		{
-			actor = 202081,
+			actor = 202080,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -292,7 +292,7 @@ return {
 			}
 		},
 		{
-			actor = 202082,
+			actor = 202080,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -322,7 +322,7 @@ return {
 			}
 		},
 		{
-			actor = 202081,
+			actor = 202080,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -338,7 +338,7 @@ return {
 			}
 		},
 		{
-			actor = 202081,
+			actor = 202080,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -354,7 +354,7 @@ return {
 			}
 		},
 		{
-			actor = 202081,
+			actor = 202080,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",

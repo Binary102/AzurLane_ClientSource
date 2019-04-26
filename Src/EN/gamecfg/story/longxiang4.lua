@@ -56,7 +56,7 @@ return {
 			}
 		},
 		{
-			actor = 306031,
+			actor = 306030,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -72,7 +72,7 @@ return {
 			}
 		},
 		{
-			actor = 306031,
+			actor = 306030,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -88,7 +88,7 @@ return {
 			}
 		},
 		{
-			actor = 306031,
+			actor = 306030,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -145,7 +145,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 306061,
+			actor = 306060,
 			nameColor = "#a9f548",
 			say = "*Om nom nom*... ...Delicious!!",
 			typewriter = {
@@ -168,7 +168,7 @@ return {
 			}
 		},
 		{
-			actor = 306061,
+			actor = 306060,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -184,7 +184,7 @@ return {
 			}
 		},
 		{
-			actor = 306061,
+			actor = 306060,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -204,7 +204,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 306061,
+			actor = 306060,
 			nameColor = "#a9f548",
 			say = "Ahh, it's not satisfying unless I eat until I'm stuffed!! *munch munch*",
 			typewriter = {
@@ -227,7 +227,7 @@ return {
 			}
 		},
 		{
-			actor = 303111,
+			actor = 303110,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -243,7 +243,7 @@ return {
 			}
 		},
 		{
-			actor = 303121,
+			actor = 303120,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -259,7 +259,7 @@ return {
 			}
 		},
 		{
-			actor = 303121,
+			actor = 303120,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -279,7 +279,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 306061,
+			actor = 306060,
 			nameColor = "#a9f548",
 			say = "No need to worry about that... Milord will be in the training area for a while longer! *munch munch*",
 			typewriter = {
@@ -302,7 +302,7 @@ return {
 			}
 		},
 		{
-			actor = 303111,
+			actor = 303110,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -322,7 +322,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 306061,
+			actor = 306060,
 			nameColor = "#a9f548",
 			say = "... .... ... ... ... Ehh?!",
 			typewriter = {
@@ -335,7 +335,7 @@ return {
 			}
 		},
 		{
-			actor = 303121,
+			actor = 303120,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -355,7 +355,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 306061,
+			actor = 306060,
 			nameColor = "#a9f548",
 			say = "M-milord! I apologize deeply for showing you such unsightly behavior!",
 			typewriter = {
@@ -382,7 +382,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 306061,
+			actor = 306060,
 			nameColor = "#a9f548",
 			say = "C-could you p-please f-forgive... waaaaah...!!!",
 			typewriter = {

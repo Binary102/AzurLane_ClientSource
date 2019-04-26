@@ -8,7 +8,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 502031,
+			actor = 502030,
 			side = 0,
 			nameColor = "#a9f548",
 			say = "前方发现敌小型航空母舰和…许多舰载机！",
@@ -26,7 +26,7 @@ return {
 			}
 		},
 		{
-			actor = 502021,
+			actor = 502020,
 			side = 1,
 			nameColor = "#a9f548",
 			say = "可恶，没有空军支援，这可不是闹着玩的…",
@@ -47,7 +47,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
-			actor = 502011,
+			actor = 502010,
 			actorName = "？？？",
 			say = "刚才是谁说没有支援的呢？",
 			shake = {
@@ -67,7 +67,7 @@ return {
 			side = 0,
 			say = "这个声音是…逸仙？！你怎么也来了？",
 			dir = -1,
-			actor = 502021,
+			actor = 502020,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -87,7 +87,7 @@ return {
 			}
 		},
 		{
-			actor = 502011,
+			actor = 502010,
 			nameColor = "#a9f548",
 			dir = -1,
 			side = 1,
@@ -106,7 +106,7 @@ return {
 			}
 		},
 		{
-			actor = 502021,
+			actor = 502020,
 			nameColor = "#a9f548",
 			dir = -1,
 			side = 0,
@@ -125,7 +125,7 @@ return {
 			}
 		},
 		{
-			actor = 502011,
+			actor = 502010,
 			nameColor = "#a9f548",
 			dir = -1,
 			side = 1,
@@ -144,7 +144,7 @@ return {
 			}
 		},
 		{
-			actor = 502021,
+			actor = 502020,
 			nameColor = "#a9f548",
 			dir = -1,
 			side = 0,
@@ -163,7 +163,7 @@ return {
 			}
 		},
 		{
-			actor = 502031,
+			actor = 502030,
 			side = 0,
 			nameColor = "#a9f548",
 			say = "是的姐姐！",
@@ -181,7 +181,7 @@ return {
 			}
 		},
 		{
-			actor = 502021,
+			actor = 502020,
 			nameColor = "#a9f548",
 			dir = -1,
 			side = 0,

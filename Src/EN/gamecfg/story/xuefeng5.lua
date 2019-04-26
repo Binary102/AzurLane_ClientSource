@@ -22,7 +22,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			bgm = "story-1",
-			actor = 301164,
+			actor = 301160,
 			actorName = "{namecode:22}",
 			say = "You want to take me to the amusement park? Hmph, do you seriously think that Yukikaze the Great and Mature would want to... Arghhh...",
 			typewriter = {
@@ -39,7 +39,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 301164,
+			actor = 301160,
 			actorName = "{namecode:22}",
 			say = "...Hmph! Commander, since you're begging me to go so desperately, I suppose I can follow you!",
 			typewriter = {
@@ -56,7 +56,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 301164,
+			actor = 301160,
 			actorName = "{namecode:22}",
 			say = "Hmph! You should bow before me in gratitude!",
 			typewriter = {
@@ -83,7 +83,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			actorName = "{namecode:22}",
-			actor = 301164,
+			actor = 301160,
 			nameColor = "#a9f548",
 			say = "Merry-go-round? Yukikaze the Great would never do something so childish?",
 			flashout = {
@@ -117,7 +117,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			actorName = "{namecode:22}",
-			actor = 301164,
+			actor = 301160,
 			nameColor = "#a9f548",
 			say = "Roller coaster? That's like a nap on a soft bed compared to being on the rough seas!",
 			flashout = {
@@ -151,7 +151,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			actorName = "{namecode:22}",
-			actor = 301164,
+			actor = 301160,
 			nameColor = "#a9f548",
 			say = "Ferris wheel? Isn't that for dates? Yukikaze the Great does not...",
 			flashout = {
@@ -185,7 +185,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 301164,
+			actor = 301160,
 			actorName = "{namecode:22}",
 			say = "Huh? So, you want to go for a test of courage in that haunted mansion?",
 			typewriter = {
@@ -202,7 +202,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 301164,
+			actor = 301160,
 			actorName = "{namecode:22}",
 			say = "Wa ha ha! Only a child would get spooked by one of these cheap haunted mansions! Yukikaze the Great isn't afraid of anything!",
 			typewriter = {
@@ -246,7 +246,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 301164,
+			actor = 301160,
 			actorName = "{namecode:22}",
 			say = "Fugyaaaaaaaaaaaaaahhh!!",
 			typewriter = {
@@ -272,7 +272,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			actor = 301164,
+			actor = 301160,
 			actorName = "{namecode:22}",
 			say = "*trembling* ... Wh-wh-what was that...! H-h-h-here... hold onto my hand and... AAAAAAAHHH!!",
 			typewriter = {
@@ -293,7 +293,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 301164,
+			actor = 301160,
 			actorName = "{namecode:22}",
 			say = "Commander! Save meeeeeeeee!!",
 			typewriter = {
@@ -329,7 +329,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			actorName = "{namecode:22}",
-			actor = 301164,
+			actor = 301160,
 			nameColor = "#a9f548",
 			say = "I... I thought I was gonna die...",
 			flashout = {
@@ -373,7 +373,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 301164,
+			actor = 301160,
 			actorName = "{namecode:22}",
 			say = "C-Commander... Waaaahhh...!!",
 			typewriter = {

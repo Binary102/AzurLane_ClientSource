@@ -12,7 +12,7 @@ return {
 			side = 1,
 			dir = 1,
 			bgm = "theme",
-			actor = 304051,
+			actor = 304050,
 			nameColor = "#a9f548",
 			say = "You've become stronger. I won't be able to use the same old tricks on you... *chuckles*",
 			typewriter = {
@@ -29,7 +29,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
-			actor = 305071,
+			actor = 305070,
 			say = "I learned from the best, after all...",
 			typewriter = {
 				speed = 0.05,
@@ -41,7 +41,7 @@ return {
 			}
 		},
 		{
-			actor = 304051,
+			actor = 304050,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -59,7 +59,7 @@ return {
 			expression = 2,
 			side = 0,
 			dir = -1,
-			actor = 305071,
+			actor = 305070,
 			nameColor = "#a9f548",
 			say = "W-wait, \"big sister?\"",
 			typewriter = {
@@ -86,7 +86,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
-			actor = 304051,
+			actor = 304050,
 			say = "... Kaga, listen to me!",
 			typewriter = {
 				speed = 0.05,
@@ -102,7 +102,7 @@ return {
 			side = 1,
 			withoutActorName = true,
 			dir = 1,
-			actor = 304051,
+			actor = 304050,
 			nameColor = "#a9f548",
 			say = "Amagi's expression quickly changed from jovial to serious as she looked Kaga in the eye.",
 			typewriter = {
@@ -115,7 +115,7 @@ return {
 			}
 		},
 		{
-			actor = 304051,
+			actor = 304050,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -134,7 +134,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
-			actor = 304051,
+			actor = 304050,
 			say = "I, Amagi, was born into this world flawed- what you would call weak.",
 			typewriter = {
 				speed = 0.05,
@@ -146,7 +146,7 @@ return {
 			}
 		},
 		{
-			actor = 304051,
+			actor = 304050,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -165,7 +165,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
-			actor = 304051,
+			actor = 304050,
 			say = "That is why I desperately threw myself at my studies and training, so that people would assume that I was naturally \"strong.\"",
 			typewriter = {
 				speed = 0.05,
@@ -181,7 +181,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
-			actor = 304051,
+			actor = 304050,
 			say = "Perhaps you have realized it as well. In the end, I was not able to attain true strength.",
 			typewriter = {
 				speed = 0.05,
@@ -193,7 +193,7 @@ return {
 			}
 		},
 		{
-			actor = 304051,
+			actor = 304050,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -212,7 +212,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
-			actor = 304051,
+			actor = 304050,
 			say = "And when that time comes, you and Akagi will form the foundation for the Sakura Fleet's future.",
 			typewriter = {
 				speed = 0.05,
@@ -228,7 +228,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
-			actor = 304051,
+			actor = 304050,
 			say = "You will encounter opponents just like you from all across the world - nay, even stronger than you.",
 			typewriter = {
 				speed = 0.05,
@@ -244,7 +244,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
-			actor = 304051,
+			actor = 304050,
 			say = "But remember to never underestimate your enemies, and always strive to become stronger.",
 			typewriter = {
 				speed = 0.05,
@@ -260,7 +260,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
-			actor = 304051,
+			actor = 304050,
 			say = "Unlike me, who was born a weakling, you were born strong. And you are destined to become even stronger.",
 			typewriter = {
 				speed = 0.05,
@@ -276,7 +276,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
-			actor = 304051,
+			actor = 304050,
 			say = "For you and Akagi, your strength is both your birthright and your obligation.。",
 			typewriter = {
 				speed = 0.05,
@@ -292,7 +292,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
-			actor = 304051,
+			actor = 304050,
 			say = "Therefore, remember me not as Amagi \"the weak,\" but rather as Amagi \"the strong.\" Pick up my mantle and become that strength that I could only represent.",
 			typewriter = {
 				speed = 0.05,
@@ -308,7 +308,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
-			actor = 304051,
+			actor = 304050,
 			say = "Please, protect the Sakura Empire in my stead...",
 			typewriter = {
 				speed = 0.05,

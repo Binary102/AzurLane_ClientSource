@@ -23,7 +23,7 @@ return {
 			bgmDelay = 2,
 			actorName = "{namecode:48}",
 			bgm = "story-1",
-			actor = 900137,
+			actor = 302051,
 			nameColor = "#a9f548",
 			bgName = "bg_night",
 			say = "Finally, I’m back on the ground...",
@@ -58,7 +58,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 900138,
+			actor = 101271,
 			nameColor = "#a9f548",
 			say = "We’ve finally caught up to you, Miss ghost!",
 			typewriter = {
@@ -85,7 +85,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 900138,
+			actor = 101271,
 			nameColor = "#a9f548",
 			say = "...Eh? ...a glowing aircraft and a white cloak? What? Why is everyone here?!",
 			typewriter = {
@@ -98,7 +98,7 @@ return {
 			}
 		},
 		{
-			actor = 107031,
+			actor = 107030,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -117,7 +117,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 900138,
+			actor = 101271,
 			nameColor = "#a9f548",
 			say = "Eh! So in the end, it was only Saratoga playing a prank on us?!",
 			typewriter = {
@@ -144,7 +144,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "Hehehe, I also helped!",
 			typewriter = {
@@ -162,7 +162,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			actorName = "???",
 			say = "“Hey, did you hear? Rumor has it the warehouse in Port area is haunted!”... ",
 			typewriter = {
@@ -180,7 +180,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			actorName = "???",
 			say = "“How is that possible!”... “Even though it’s Halloween, actual ghosts shouldn’t exist!”",
 			typewriter = {
@@ -196,7 +196,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 900138,
+			actor = 101271,
 			nameColor = "#a9f548",
 			say = "The voice I heard that time was actually from Albacore!",
 			typewriter = {
@@ -223,7 +223,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "Hehehe, looks like my acting chops were not bad~",
 			typewriter = {
@@ -236,7 +236,7 @@ return {
 			}
 		},
 		{
-			actor = 900140,
+			actor = 205031,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -252,7 +252,7 @@ return {
 			}
 		},
 		{
-			actor = 900139,
+			actor = 213021,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -273,18 +273,18 @@ return {
 			bgName = "bg_night",
 			hideOther = true,
 			dir = 1,
-			actor = 900140,
+			actor = 205031,
 			actorName = "Bailey & Isuzu & Nelson",
 			say = "Terror?!",
 			subActors = {
 				{
-					actor = 900137,
+					actor = 302051,
 					pos = {
 						x = 370
 					}
 				},
 				{
-					actor = 900138,
+					actor = 101271,
 					dir = 1,
 					pos = {
 						x = 750
@@ -311,7 +311,7 @@ return {
 			}
 		},
 		{
-			actor = 900140,
+			actor = 205031,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -327,7 +327,7 @@ return {
 			}
 		},
 		{
-			actor = 900138,
+			actor = 101271,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -348,7 +348,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 900137,
+			actor = 302051,
 			actorName = "{namecode:48}",
 			say = "So, Miss ghost will not appear again...",
 			typewriter = {
@@ -361,7 +361,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -377,7 +377,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -393,7 +393,7 @@ return {
 			}
 		},
 		{
-			actor = 205041,
+			actor = 205040,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -413,7 +413,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 900140,
+			actor = 205031,
 			nameColor = "#a9f548",
 			say = "Wow, this turned out actually not bad...ah! Rodney! You knew all along from the beginning!",
 			typewriter = {
@@ -436,7 +436,7 @@ return {
 			}
 		},
 		{
-			actor = 205041,
+			actor = 205040,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -452,7 +452,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -471,7 +471,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 900140,
+			actor = 205031,
 			nameColor = "#a9f548",
 			say = "That means the original culprit must be Akashi?!?!",
 			typewriter = {
@@ -494,7 +494,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -515,18 +515,18 @@ return {
 			bgName = "bg_night",
 			hideOther = true,
 			dir = 1,
-			actor = 900138,
+			actor = 101271,
 			actorName = "Bailey & Isuzu & Terror",
 			say = "OK!",
 			subActors = {
 				{
-					actor = 900137,
+					actor = 302051,
 					pos = {
 						x = 370
 					}
 				},
 				{
-					actor = 900139,
+					actor = 213021,
 					dir = -1,
 					pos = {
 						x = 750
@@ -547,7 +547,7 @@ return {
 			bgName = "bg_night",
 			dir = 1,
 			blackBg = true,
-			actor = 900140,
+			actor = 205031,
 			nameColor = "#a9f548",
 			say = "wait wait,Don’t change the subject! ",
 			typewriter = {

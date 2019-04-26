@@ -21,7 +21,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 303091,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "Eh? Serve as s-secretary? Me?",
 			flashout = {
@@ -62,7 +62,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 303091,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "Surely, this is a sign that Commander trusts me... so I've got to do my best!",
 			typewriter = {
@@ -118,7 +118,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 303091,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "Commander, the files of this past month's commissions are all here.",
 			typewriter = {
@@ -135,7 +135,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 303091,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "...I have to arrange them by date?",
 			typewriter = {
@@ -148,7 +148,7 @@ return {
 			}
 		},
 		{
-			actor = 303091,
+			actor = 303090,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -167,7 +167,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 303091,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "Commander, um, your tea is-",
 			flashout = {
@@ -201,7 +201,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 303091,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "Eep...!",
 			typewriter = {
@@ -228,7 +228,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 303091,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "I-I'm so sorry! I accidentally knocked the teacup over! I'll clean it up right away... um, paper towels, where are the paper towels....",
 			typewriter = {
@@ -255,7 +255,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgName = "bg_story_task",
-			actor = 303091,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "Weird, I swore I put the pen here just a moment ago, and now I can't find it...",
 			flashout = {
@@ -285,7 +285,7 @@ return {
 			}
 		},
 		{
-			actor = 303091,
+			actor = 303090,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -305,7 +305,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 303091,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "......",
 			typewriter = {
@@ -322,7 +322,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 303091,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "I found it! How did it get all the way over here....",
 			typewriter = {
@@ -339,7 +339,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 303091,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "Oh no! The pile of documents are about to fall over! I didn't notice because I was busy looking for the pen...",
 			typewriter = {
@@ -398,7 +398,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 303091,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "Huh? ...It's already this late?!",
 			typewriter = {
@@ -411,7 +411,7 @@ return {
 			}
 		},
 		{
-			actor = 303091,
+			actor = 303090,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -431,7 +431,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 303091,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "(Ugh... I have to redeem myself next time...!)",
 			typewriter = {

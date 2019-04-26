@@ -411,6 +411,18 @@ pg.memory_group = {
 			10035
 		}
 	},
+	[129] = {
+		title = "Lady of Tomorrow",
+		type = 2,
+		id = 129,
+		icon = "title_event",
+		memories = {
+			295,
+			296,
+			297,
+			298
+		}
+	},
 	[131] = {
 		title = "Ink-Stained Steel Sakura ",
 		type = 2,
@@ -542,6 +554,78 @@ pg.memory_group = {
 			681,
 			682,
 			683
+		}
+	},
+	[152] = {
+		title = "\"Virtual Connection Synchronicity\" - Daily Memorabilia",
+		type = 2,
+		id = 152,
+		icon = "title_event",
+		memories = {
+			728,
+			729,
+			730,
+			731,
+			732,
+			733,
+			734
+		}
+	},
+	[153] = {
+		title = "\"Virtual Connection Synchronicity\" - Purification",
+		type = 2,
+		id = 153,
+		icon = "title_event",
+		memories = {
+			735,
+			736,
+			737,
+			738
+		}
+	},
+	[154] = {
+		title = "\"Virtual Connection Synchronicity\" - Task",
+		type = 2,
+		id = 154,
+		icon = "title_event",
+		memories = {
+			739,
+			740,
+			741,
+			742,
+			743,
+			744,
+			745,
+			746,
+			747,
+			748,
+			749,
+			750,
+			751,
+			752,
+			753,
+			754,
+			755,
+			756,
+			757,
+			758,
+			759,
+			760,
+			761,
+			762
+		}
+	},
+	[155] = {
+		title = "Operation: Escape from Port!",
+		type = 2,
+		id = 155,
+		icon = "title_event",
+		memories = {
+			763,
+			764,
+			765,
+			766,
+			767
 		}
 	},
 	[501] = {
@@ -868,6 +952,7 @@ pg.memory_group = {
 		124,
 		125,
 		128,
+		129,
 		131,
 		132,
 		141,
@@ -875,6 +960,10 @@ pg.memory_group = {
 		147,
 		148,
 		149,
+		152,
+		153,
+		154,
+		155,
 		501,
 		502,
 		503,

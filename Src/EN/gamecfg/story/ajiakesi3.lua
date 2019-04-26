@@ -17,7 +17,7 @@ return {
 			}
 		},
 		{
-			actor = 202031,
+			actor = 202030,
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			side = 2,
@@ -33,7 +33,7 @@ return {
 			}
 		},
 		{
-			actor = 202031,
+			actor = 202030,
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			side = 2,
@@ -49,7 +49,7 @@ return {
 			}
 		},
 		{
-			actor = 202031,
+			actor = 202030,
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			side = 2,
@@ -65,7 +65,7 @@ return {
 			}
 		},
 		{
-			actor = 202031,
+			actor = 202030,
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			side = 2,
@@ -84,7 +84,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 202031,
+			actor = 202030,
 			nameColor = "#a9f548",
 			say = "好了，今天的秘书舰工作到此结束。指挥官，辛苦啦。",
 			typewriter = {
@@ -103,7 +103,7 @@ return {
 			}
 		},
 		{
-			actor = 202031,
+			actor = 202030,
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			side = 2,
@@ -119,7 +119,7 @@ return {
 			}
 		},
 		{
-			actor = 202031,
+			actor = 202030,
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			side = 2,
@@ -135,7 +135,7 @@ return {
 			}
 		},
 		{
-			actor = 202031,
+			actor = 202030,
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			side = 2,
@@ -180,7 +180,7 @@ return {
 			}
 		},
 		{
-			actor = 202031,
+			actor = 202030,
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			side = 2,
@@ -196,7 +196,7 @@ return {
 			}
 		},
 		{
-			actor = 202031,
+			actor = 202030,
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			side = 2,
@@ -212,7 +212,7 @@ return {
 			}
 		},
 		{
-			actor = 202031,
+			actor = 202030,
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			side = 2,
@@ -228,7 +228,7 @@ return {
 			}
 		},
 		{
-			actor = 202031,
+			actor = 202030,
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			side = 2,
@@ -244,7 +244,7 @@ return {
 			}
 		},
 		{
-			actor = 202031,
+			actor = 202030,
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			side = 2,

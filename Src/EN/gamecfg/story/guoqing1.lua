@@ -289,7 +289,7 @@ return {
 			side = 2,
 			mode = 2,
 			blackBg = true,
-			actor = 307061,
+			actor = 307060,
 			nameColor = "#a9f548",
 			say = "……",
 			flashout = {
@@ -321,7 +321,7 @@ return {
 			side = 2,
 			mode = 2,
 			blackBg = true,
-			actor = 307061,
+			actor = 307060,
 			nameColor = "#a9f548",
 			say = "... Where... am I?",
 			typewriter = {
@@ -338,7 +338,7 @@ return {
 			side = 2,
 			mode = 2,
 			blackBg = true,
-			actor = 307061,
+			actor = 307060,
 			nameColor = "#a9f548",
 			say = "Hey... I'm still in one piece! I made it!",
 			typewriter = {
@@ -355,7 +355,7 @@ return {
 			side = 2,
 			mode = 2,
 			blackBg = true,
-			actor = 307061,
+			actor = 307060,
 			nameColor = "#a9f548",
 			say = "Ow! My head hurts, though... And I don't remember what happened...",
 			typewriter = {
@@ -372,7 +372,7 @@ return {
 			side = 2,
 			mode = 2,
 			blackBg = true,
-			actor = 307061,
+			actor = 307060,
 			nameColor = "#a9f548",
 			say = "Damn... I can't radio Shoukaku... Now things really aren't looking good...",
 			typewriter = {
@@ -389,7 +389,7 @@ return {
 			side = 2,
 			mode = 2,
 			blackBg = true,
-			actor = 307061,
+			actor = 307060,
 			nameColor = "#a9f548",
 			say = "……",
 			typewriter = {
@@ -406,7 +406,7 @@ return {
 			side = 2,
 			mode = 2,
 			blackBg = true,
-			actor = 307061,
+			actor = 307060,
 			nameColor = "#a9f548",
 			say = "No, get it together! I finally made it, after all...",
 			typewriter = {
@@ -423,7 +423,7 @@ return {
 			side = 2,
 			mode = 2,
 			blackBg = true,
-			actor = 307061,
+			actor = 307060,
 			nameColor = "#a9f548",
 			say = "I made it here! To the Sanctuary!",
 			typewriter = {

@@ -28,7 +28,7 @@ return {
 			}
 		},
 		{
-			actor = 102091,
+			actor = 102090,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -46,7 +46,7 @@ return {
 		{
 			actorName = "丹佛&蒙彼利埃",
 			side = 0,
-			actor = 102151,
+			actor = 102150,
 			dir = -1,
 			bgName = "star_level_bg_103",
 			hideOther = true,
@@ -63,7 +63,7 @@ return {
 			},
 			subActors = {
 				{
-					actor = 102141,
+					actor = 102140,
 					dir = -1,
 					pos = {
 						x = -750
@@ -83,7 +83,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 102101,
+			actor = 102100,
 			nameColor = "#a9f548",
 			say = "……噗。……噢——！",
 			action = {
@@ -115,7 +115,7 @@ return {
 			}
 		},
 		{
-			actor = 102091,
+			actor = 102090,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -131,7 +131,7 @@ return {
 			}
 		},
 		{
-			actor = 102091,
+			actor = 102090,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -150,7 +150,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = -1,
-			actor = 102141,
+			actor = 102140,
 			nameColor = "#a9f548",
 			say = "……明白了。只要大姐头一声令下，就算只有我一个人也会去干掉对方全队的",
 			flashout = {
@@ -184,7 +184,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 102091,
+			actor = 102090,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -200,7 +200,7 @@ return {
 			}
 		},
 		{
-			actor = 102151,
+			actor = 102150,
 			side = 0,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -216,7 +216,7 @@ return {
 			}
 		},
 		{
-			actor = 102091,
+			actor = 102090,
 			side = 1,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -232,7 +232,7 @@ return {
 			}
 		},
 		{
-			actor = 102101,
+			actor = 102100,
 			side = 0,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -251,7 +251,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 102091,
+			actor = 102090,
 			nameColor = "#a9f548",
 			say = "……什么！？///（脸红）",
 			action = {
@@ -283,7 +283,7 @@ return {
 			}
 		},
 		{
-			actor = 102151,
+			actor = 102150,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -303,7 +303,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 102141,
+			actor = 102140,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -323,7 +323,7 @@ return {
 			bgName = "star_level_bg_103",
 			dir = 1,
 			blackBg = true,
-			actor = 102091,
+			actor = 102090,
 			nameColor = "#a9f548",
 			say = "不——是——啦！！你们倒是好好听人说话啊——！",
 			action = {

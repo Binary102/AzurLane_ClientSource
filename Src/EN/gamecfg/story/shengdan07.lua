@@ -65,7 +65,7 @@ return {
 			}
 		},
 		{
-			actor = 900054,
+			actor = 101261,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -80,7 +80,7 @@ return {
 			}
 		},
 		{
-			actor = 900054,
+			actor = 101261,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -111,7 +111,7 @@ return {
 			}
 		},
 		{
-			actor = 900054,
+			actor = 101261,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -126,7 +126,7 @@ return {
 			}
 		},
 		{
-			actor = 900054,
+			actor = 101261,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -141,7 +141,7 @@ return {
 			}
 		},
 		{
-			actor = 900054,
+			actor = 101261,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -172,7 +172,7 @@ return {
 			}
 		},
 		{
-			actor = 900054,
+			actor = 101261,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -203,7 +203,7 @@ return {
 			}
 		},
 		{
-			actor = 900054,
+			actor = 101261,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -233,7 +233,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			actor = 900060,
+			actor = 101051,
 			nameColor = "#a9f548",
 			say = "Christmas Reporter Gridley, here to deliver her mission report! Here you are, Commander!",
 			flashout = {
@@ -279,7 +279,7 @@ return {
 			}
 		},
 		{
-			actor = 900060,
+			actor = 101051,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -296,7 +296,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			actor = 900060,
+			actor = 101051,
 			nameColor = "#a9f548",
 			say = "Whew... This is a good one! I call it \"Holy Night's Embrace\"! Heck, this is Pulitzer Prize material!",
 			flashout = {

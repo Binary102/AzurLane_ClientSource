@@ -17,7 +17,7 @@ return {
 			}
 		},
 		{
-			actor = 206031,
+			actor = 206030,
 			side = 2,
 			say = "O-Onii-chan... before Unicorn says so, Onii-chan cannot open his eyes!",
 			nameColor = "#a9f548",
@@ -33,7 +33,7 @@ return {
 			}
 		},
 		{
-			actor = 206031,
+			actor = 206030,
 			side = 2,
 			say = "Ugh... it’s still like this...",
 			nameColor = "#a9f548",
@@ -49,7 +49,7 @@ return {
 			}
 		},
 		{
-			actor = 206031,
+			actor = 206030,
 			side = 2,
 			say = "Lady Stardust… please give Unicorn courage...",
 			nameColor = "#a9f548",
@@ -65,7 +65,7 @@ return {
 			}
 		},
 		{
-			actor = 900039,
+			actor = 206031,
 			side = 2,
 			nameColor = "#a9f548",
 			say = "(Singing)...",
@@ -96,7 +96,7 @@ return {
 			}
 		},
 		{
-			actor = 900039,
+			actor = 206031,
 			nameColor = "#a9f548",
 			side = 2,
 			say = "Wh-what do you think? These clothes were gifted to Unicorn by Lady Stardust… as well as this song!",
@@ -110,7 +110,7 @@ return {
 			}
 		},
 		{
-			actor = 900039,
+			actor = 206031,
 			nameColor = "#a9f548",
 			side = 2,
 			say = "Lady Stardust said that this... will make Onii-chan happy...",
@@ -124,7 +124,7 @@ return {
 			}
 		},
 		{
-			actor = 900039,
+			actor = 206031,
 			nameColor = "#a9f548",
 			side = 2,
 			say = "Unicorn... has made an effort, right?",
@@ -138,7 +138,7 @@ return {
 			}
 		},
 		{
-			actor = 900039,
+			actor = 206031,
 			nameColor = "#a9f548",
 			side = 2,
 			say = "Hmm? O-Onii-chan?!!!",
@@ -152,7 +152,7 @@ return {
 			}
 		},
 		{
-			actor = 900039,
+			actor = 206031,
 			side = 2,
 			nameColor = "#a9f548",
 			say = "Sigh... thank goodness... Onii-chan is alright...",
@@ -183,7 +183,7 @@ return {
 			}
 		},
 		{
-			actor = 900039,
+			actor = 206031,
 			nameColor = "#a9f548",
 			side = 2,
 			say = "Huh? You fainted from being overly excited?",
@@ -197,7 +197,7 @@ return {
 			}
 		},
 		{
-			actor = 900039,
+			actor = 206031,
 			nameColor = "#a9f548",
 			side = 2,
 			say = "Onii-chan… (///)",
@@ -211,7 +211,7 @@ return {
 			}
 		},
 		{
-			actor = 900039,
+			actor = 206031,
 			nameColor = "#a9f548",
 			side = 2,
 			say = "Hehe... thank you... Onii-chan... Unicorn is so glad that she can make you happy. Unicorn feels satisfied, it turned out just like what Lady Stardust said...",
@@ -225,7 +225,7 @@ return {
 			}
 		},
 		{
-			actor = 900039,
+			actor = 206031,
 			nameColor = "#a9f548",
 			side = 2,
 			say = "「Bits of Courage, is the greatest form of magic」 Hehe...",

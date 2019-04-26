@@ -5,7 +5,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -22,7 +22,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			actor = 312011,
+			actor = 312010,
 			nameColor = "#a9f548",
 			say = "好了喵！准备迎接你的第一名指挥喵伙伴喵！",
 			flashout = {

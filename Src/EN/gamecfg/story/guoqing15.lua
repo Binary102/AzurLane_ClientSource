@@ -8,7 +8,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 307051,
+			actor = 307050,
 			actorName = "{namecode:95}",
 			side = 2,
 			nameColor = "#ff0000",
@@ -30,7 +30,7 @@ return {
 			side = 0,
 			say = "Sis! Thank god you're o...",
 			actorName = "{namecode:96}",
-			actor = 307061,
+			actor = 307060,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -50,7 +50,7 @@ return {
 			}
 		},
 		{
-			actor = 307051,
+			actor = 307050,
 			actorName = "{namecode:95}",
 			side = 1,
 			nameColor = "#ff0000",
@@ -69,7 +69,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			side = 0,
 			nameColor = "#a9f548",
@@ -88,7 +88,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			side = 0,
 			nameColor = "#a9f548",
@@ -110,7 +110,7 @@ return {
 			side = 1,
 			actorName = "{namecode:91}",
 			dir = -1,
-			actor = 307011,
+			actor = 307010,
 			nameColor = "#ff0000",
 			say = "An exquisite sacrifice is needed so that the Creator will continue gracing us with his blessings.",
 			shake = {
@@ -127,7 +127,7 @@ return {
 			}
 		},
 		{
-			actor = 307021,
+			actor = 307020,
 			actorName = "{namecode:92}",
 			side = 1,
 			nameColor = "#ff0000",
@@ -146,7 +146,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			side = 0,
 			nameColor = "#a9f548",
@@ -165,7 +165,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			side = 0,
 			nameColor = "#a9f548",
@@ -184,7 +184,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			side = 0,
 			nameColor = "#a9f548",
@@ -203,7 +203,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			side = 0,
 			nameColor = "#a9f548",
@@ -225,7 +225,7 @@ return {
 			side = 1,
 			actorName = "{namecode:91}",
 			dir = -1,
-			actor = 307011,
+			actor = 307010,
 			nameColor = "#ff0000",
 			say = "*Giggle*~ Have you thought about how you're going to defeat the enemy in front of you?",
 			shake = {
@@ -245,7 +245,7 @@ return {
 			side = 1,
 			actorName = "{namecode:91}",
 			dir = -1,
-			actor = 307011,
+			actor = 307010,
 			nameColor = "#ff0000",
 			say = "We've already offered her soul to the Creator. And now we will turn you into an empty husk as well!",
 			shake = {

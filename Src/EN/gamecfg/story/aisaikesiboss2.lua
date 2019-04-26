@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"特别演习·埃塞克斯级\n\n<size=30>二　苦战</size>",
+					"特别演习·埃塞克斯级\n\n<size=30>二　独立的奋斗</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			bgmDelay = 2,
 			bgName = "bg_story_nepu1",
 			bgm = "level",
-			actor = 107221,
+			actor = 107220,
 			nameColor = "#a9f548",
 			say = "唔…比想象中的更困难啊……",
 			flashout = {
@@ -53,7 +53,7 @@ return {
 			}
 		},
 		{
-			actor = 107221,
+			actor = 107220,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -73,7 +73,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 107221,
+			actor = 107220,
 			nameColor = "#a9f548",
 			say = "果然还是身为轻型航母的限制吗……",
 			typewriter = {
@@ -90,7 +90,7 @@ return {
 			side = 1,
 			bgName = "bg_story_nepu1",
 			dir = -1,
-			actor = 107381,
+			actor = 107380,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -106,7 +106,7 @@ return {
 			}
 		},
 		{
-			actor = 107221,
+			actor = 107220,
 			side = 0,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -126,7 +126,7 @@ return {
 			side = 1,
 			bgName = "bg_story_nepu1",
 			dir = -1,
-			actor = 107381,
+			actor = 107380,
 			nameColor = "#a9f548",
 			say = "是的。可能会有些冒犯，我想…我可以帮独立小姐你分析一下，你在演习中存在的一些问题。",
 			typewriter = {
@@ -139,7 +139,7 @@ return {
 			}
 		},
 		{
-			actor = 107381,
+			actor = 107380,
 			side = 1,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -159,7 +159,7 @@ return {
 			side = 1,
 			bgName = "bg_story_nepu1",
 			dir = -1,
-			actor = 107381,
+			actor = 107380,
 			nameColor = "#a9f548",
 			say = "独立小姐，你是不是有点…太过心急了？继续这种战斗方式的话，可能接下来会变得更加辛苦哦？",
 			typewriter = {
@@ -176,7 +176,7 @@ return {
 			side = 0,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 107221,
+			actor = 107220,
 			nameColor = "#a9f548",
 			say = "太过…心急吗…？嗯…我知道了。谢谢你的提醒…",
 			typewriter = {
@@ -189,7 +189,7 @@ return {
 			}
 		},
 		{
-			actor = 107381,
+			actor = 107380,
 			side = 1,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -205,7 +205,7 @@ return {
 			}
 		},
 		{
-			actor = 107221,
+			actor = 107220,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -225,7 +225,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 107221,
+			actor = 107220,
 			nameColor = "#a9f548",
 			say = "（但是，要怎样才能和队伍的大家配合好……）",
 			typewriter = {
@@ -241,7 +241,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 102091,
+			actor = 102090,
 			nameColor = "#a9f548",
 			say = "哟，独立！怎么在这一个人发呆啊，是在烦恼刚才演习的事么？",
 			typewriter = {
@@ -268,7 +268,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 107221,
+			actor = 107220,
 			nameColor = "#a9f548",
 			say = "（克利夫兰…？唔……要向她求教一下吗…作为首舰的她说不定会在这上面有什么心得……）",
 			typewriter = {
@@ -281,7 +281,7 @@ return {
 			}
 		},
 		{
-			actor = 107221,
+			actor = 107220,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -302,7 +302,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			actor = 102091,
+			actor = 102090,
 			nameColor = "#a9f548",
 			say = "啊啊，和其他人的配合问题吗？",
 			flashout = {
@@ -335,7 +335,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 102091,
+			actor = 102090,
 			nameColor = "#a9f548",
 			say = "这个嘛……",
 			typewriter = {
@@ -358,7 +358,7 @@ return {
 			}
 		},
 		{
-			actor = 102101,
+			actor = 102100,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -374,7 +374,7 @@ return {
 			}
 		},
 		{
-			actor = 102141,
+			actor = 102140,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -393,7 +393,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 102091,
+			actor = 102090,
 			nameColor = "#a9f548",
 			say = "欸？你，你们是什么时候出现的？",
 			typewriter = {
@@ -416,7 +416,7 @@ return {
 			}
 		},
 		{
-			actor = 102151,
+			actor = 102150,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -432,7 +432,7 @@ return {
 			}
 		},
 		{
-			actor = 107221,
+			actor = 107220,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -448,7 +448,7 @@ return {
 			}
 		},
 		{
-			actor = 102151,
+			actor = 102150,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -464,7 +464,7 @@ return {
 			}
 		},
 		{
-			actor = 102151,
+			actor = 102150,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -480,7 +480,7 @@ return {
 			}
 		},
 		{
-			actor = 102151,
+			actor = 102150,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -500,7 +500,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 107221,
+			actor = 107220,
 			nameColor = "#a9f548",
 			say = "哦…诶？现在吗？但是之后还有演习——",
 			typewriter = {
@@ -523,7 +523,7 @@ return {
 			}
 		},
 		{
-			actor = 102101,
+			actor = 102100,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -543,7 +543,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 107221,
+			actor = 107220,
 			nameColor = "#a9f548",
 			say = "哦，哦……",
 			typewriter = {
@@ -556,7 +556,7 @@ return {
 			}
 		},
 		{
-			actor = 102091,
+			actor = 102090,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -575,7 +575,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 102091,
+			actor = 102090,
 			nameColor = "#a9f548",
 			say = "不对等等，明明最开始倾听烦恼的是我，排忧解难的机会却被抢走了！",
 			typewriter = {
@@ -598,7 +598,7 @@ return {
 			}
 		},
 		{
-			actor = 102141,
+			actor = 102140,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -614,7 +614,7 @@ return {
 			}
 		},
 		{
-			actor = 107221,
+			actor = 107220,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -630,7 +630,7 @@ return {
 			}
 		},
 		{
-			actor = 107221,
+			actor = 107220,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,

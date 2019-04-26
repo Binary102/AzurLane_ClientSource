@@ -25,7 +25,6 @@ pg.furniture_data_template = {
 		describe = "Special decoration: A 1:100 scale model of a Yorktown class carrier",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -37,6 +36,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	{
@@ -64,7 +66,6 @@ pg.furniture_data_template = {
 		describe = "Special decoration: A 1:100 scale model of a Lexington class carrier",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -76,6 +77,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	{
@@ -103,7 +107,6 @@ pg.furniture_data_template = {
 		describe = "Special decoration: A 1:100 scale model of an Atlanta class light cruiser",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -115,6 +118,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	{
@@ -142,7 +148,6 @@ pg.furniture_data_template = {
 		describe = "Special decoration: A 1:100 scale model of a Brooklyn class light cruiser",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -154,6 +159,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	{
@@ -181,7 +189,6 @@ pg.furniture_data_template = {
 		describe = "Special decoration: A 1:100 scale model of a Northampton class heavy cruiser",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -193,6 +200,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	{
@@ -220,7 +230,6 @@ pg.furniture_data_template = {
 		describe = "Special decoration: A 1:100 scale model of a Queen Elizabeth class battleship",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -232,6 +241,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	{
@@ -259,7 +271,6 @@ pg.furniture_data_template = {
 		describe = "Special decoration: A 1:100 scale model of a Hood class battleship",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -271,6 +282,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	{
@@ -298,7 +312,6 @@ pg.furniture_data_template = {
 		describe = "Special decoration: A 1:100 scale model of a Fletcher class destroyer",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -310,6 +323,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	{
@@ -337,7 +353,6 @@ pg.furniture_data_template = {
 		describe = "Special decoration: A 1:100 scale model of a Nelson class battleship",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -349,6 +364,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	{
@@ -376,7 +394,6 @@ pg.furniture_data_template = {
 		describe = "Special decoration: A 1:100 scale model of a Leander class light cruiser",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -388,6 +405,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	{
@@ -415,7 +435,6 @@ pg.furniture_data_template = {
 		describe = "Special decoration: A 1:100 scale model of a Königsberg class light cruiser",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -427,6 +446,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	{
@@ -454,7 +476,6 @@ pg.furniture_data_template = {
 		describe = "Special decoration: A 1:100 scale model of a Gridley class destroyer",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -466,6 +487,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	{
@@ -493,7 +517,6 @@ pg.furniture_data_template = {
 		describe = "Special decoration: A 1:100 scale model of a C class destroyer",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -505,6 +528,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	{
@@ -532,7 +558,6 @@ pg.furniture_data_template = {
 		describe = "Special decoration: A 1:100 scale model of a County class heavy cruiser",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -544,6 +569,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	{
@@ -571,7 +599,6 @@ pg.furniture_data_template = {
 		describe = "Special decoration: A 1:100 scale model of an Illustrious class carrier",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -583,6 +610,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	{
@@ -610,7 +640,6 @@ pg.furniture_data_template = {
 		describe = "Special decoration: A 1:100 scale model of a Bismarck class battleship",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -622,6 +651,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[102] = {
@@ -649,7 +681,6 @@ pg.furniture_data_template = {
 		describe = "USS Arizona 1915.6.19 -1941.12.7",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -661,6 +692,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[104] = {
@@ -688,7 +722,6 @@ pg.furniture_data_template = {
 		describe = "From the Eagles 23rd Destroyer Squadron\n<color=#fad545>All Beavers, maintain 31 knots! Forward! -- Charles Ausburne</color>",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -700,6 +733,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[105] = {
@@ -727,7 +763,6 @@ pg.furniture_data_template = {
 		describe = "Hold your positions! Wait until the enemy fires! If the enemy forces us into war, then we'll meet them head on!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -739,6 +774,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[106] = {
@@ -766,7 +804,6 @@ pg.furniture_data_template = {
 		describe = "An ancient medal recovered from the site of the final battle during Operation \"Dichotomous Chess.\" After being recovered by the Naval HQ, these were awarded to commanders who made outstanding contributions in battle. You can almost feel the fanatical, indomitable will of the Iron Blood pulsing in this medal.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 1,
 		themeId = 8,
 		spine_extra = "",
 		time = "always",
@@ -778,6 +815,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			1
+		},
 		interAction_group = {}
 	},
 	[107] = {
@@ -805,7 +845,6 @@ pg.furniture_data_template = {
 		describe = "A beautiful painting of Indianapolis. What a treasure!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -817,6 +856,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[108] = {
@@ -844,7 +886,6 @@ pg.furniture_data_template = {
 		describe = "A mystical tree said to be the meeting place of the spirits.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -869,6 +910,9 @@ pg.furniture_data_template = {
 				},
 				"chuanmo/qiuqianqixi_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -897,7 +941,6 @@ pg.furniture_data_template = {
 		describe = "Love binds us and connects us, no matter the distance.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -966,6 +1009,9 @@ pg.furniture_data_template = {
 				}
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[111] = {
@@ -993,7 +1039,6 @@ pg.furniture_data_template = {
 		describe = "I'll think of you as the wind rises.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -1005,6 +1050,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[112] = {
@@ -1032,7 +1080,6 @@ pg.furniture_data_template = {
 		describe = "An old medal recovered by the Visitors Dyed in Red and given to Commanders who have performed considerably well.\n\t\t\t<color=#fad545>-- Given to Commanders who made outstanding contributions in special event.</color>",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 1,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -1044,6 +1091,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			1
+		},
 		interAction_group = {}
 	},
 	[116] = {
@@ -1072,7 +1122,6 @@ pg.furniture_data_template = {
 		describe = "War is so boring ~ Come come and listen to me sing instead!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -1084,6 +1133,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"jinkelawutaiB",
@@ -1140,7 +1192,6 @@ pg.furniture_data_template = {
 		describe = "After having been recovered by HQ from the burning ruins, it was given to the Commander who has made an outstanding contribution in Operation: Fallen Wings.\n\t\t\t<color=#fad545>—— To commemorate those brave Eagles who fell for the cause of Azur Lane.</color>",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 1,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -1152,6 +1203,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			1
+		},
 		interAction_group = {}
 	},
 	[118] = {
@@ -1179,7 +1233,6 @@ pg.furniture_data_template = {
 		describe = "With hyperdimensional materials and technology, the medal was forged and polished to shine brightly in an unusual way. It is granted to those who dare to face the challenge from another dimension.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 1,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -1191,6 +1244,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			1
+		},
 		interAction_group = {}
 	},
 	[119] = {
@@ -1218,7 +1274,6 @@ pg.furniture_data_template = {
 		describe = "Medal given to the brave who broke through the Final Barrier. Its design represents the Royal Family's honor and pride. ",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 1,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -1230,7 +1285,217 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			1
+		},
 		interAction_group = {}
+	},
+	[122] = {
+		can_rotate = 0,
+		name = "鎧人形",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 150,
+		not_for_sale = 0,
+		icon = "renouwoicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 4,
+		picture = "chuanmo/renouwo",
+		canputon = 0,
+		discount = 20,
+		id = 122,
+		comfortable = 4,
+		describe = "ピンチの時に駆けつけてくれないかもしれない",
+		dorm_id = 0,
+		gem_price = 450,
+		themeId = 0,
+		spine_extra = "",
+		new = 0,
+		size = {
+			4,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-12.5,
+					10
+				},
+				{
+					-1,
+					1,
+					1
+				},
+				"chuanmo/renou_using",
+				[6] = {
+					{
+						0,
+						50
+					},
+					{
+						175,
+						200
+					}
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2018,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2018,
+					5,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {},
+		discount_time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[123] = {
+		can_rotate = 0,
+		name = "巨大こいのぼり",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		icon = "liyuqiwoicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 150,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 4,
+		picture = "chuanmo/liyuqiwo",
+		canputon = 0,
+		discount = 20,
+		id = 123,
+		comfortable = 4,
+		describe = "巨大なこいのぼり",
+		dorm_id = 0,
+		gem_price = 450,
+		themeId = 0,
+		spine_extra = "",
+		new = 0,
+		size = {
+			6,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2018,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2018,
+					5,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {},
+		discount_time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
 	},
 	[124] = {
 		can_rotate = 0,
@@ -1257,7 +1522,6 @@ pg.furniture_data_template = {
 		describe = "A medal given to those of unwavering courage who saw the \"Ink-Stained Steel Sakura\" event to the end.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 1,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -1269,6 +1533,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			1
+		},
 		interAction_group = {}
 	},
 	[137] = {
@@ -1296,7 +1563,6 @@ pg.furniture_data_template = {
 		describe = "Happy birthday~ Young beauty. Wish you to stay 18 forever.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -1308,6 +1574,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"dangaoB",
@@ -1383,7 +1652,6 @@ pg.furniture_data_template = {
 		describe = "An intricately created miniature of a castle. It gives you a sense of the Sakura Empire's rich history. -- An honorary medal of the highest order acquired during the \"Crimson Echoes\" event.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 1,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -1395,6 +1663,257 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		interAction_group = {}
+	},
+	[141] = {
+		can_rotate = 0,
+		name = "Commemorative Pyoko-Pyoko Medal",
+		gain_by = "Virtual Link Synchronicity ",
+		type = 7,
+		dir = 0,
+		effect = "",
+		icon = "kizunaaiicon",
+		is_get_time_note = 1,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 500,
+		not_for_sale = 1,
+		deblocking = 1,
+		level = 1,
+		rarity = 5,
+		picture = "chuanmo/kizunaai",
+		canputon = 0,
+		discount = 0,
+		id = 141,
+		comfortable = 0,
+		describe = "「This 1:1 scale commemorative badge depicting Kizuna AI's legendary Pyoko-Pyoko was awarded for meritorious service in purifying the virtual world. Take good care of it. \n\t\t\t<color=#fad545>——Kizuna AI</color>",
+		dorm_id = 0,
+		gem_price = 0,
+		themeId = 0,
+		spine_extra = "",
+		time = "always",
+		new = 0,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1,
+			"event:/cv/furniture/kizunavoice"
+		},
+		interAction_group = {}
+	},
+	[143] = {
+		can_rotate = 0,
+		name = "Koi Streamers",
+		gain_by = "",
+		type = 11,
+		dir = 0,
+		picture = "",
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 0,
+		not_for_sale = 1,
+		icon = "liyuqiicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 4,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 143,
+		comfortable = 0,
+		describe = "Hop on this bad boy for a fishy time on the high seas!",
+		dorm_id = 0,
+		gem_price = 0,
+		themeId = 0,
+		time = "always",
+		new = 0,
+		discount_time = "",
+		size = {
+			2,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"liyuqiB",
+				"normal"
+			},
+			{
+				"liyuqiT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{
+				{
+					4,
+					171
+				},
+				{
+					314,
+					554
+				},
+				"chuanmo/liyuqi_mask",
+				{
+					-1,
+					1
+				}
+			},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			},
+			0.3
+		},
+		spine_extra = {
+			{
+				{},
+				{
+					0,
+					0
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		animator = {
+			{
+				"liyuCharControl",
+				"liyuCharControl2"
+			}
+		},
+		interAction_group = {}
+	},
+	[100006] = {
+		can_rotate = 0,
+		name = "闪亮的舞台秀",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		picture = "",
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 1,
+		icon = "qiandaowutaiicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 4,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 100006,
+		comfortable = 0,
+		describe = "就是今天，你也能成为展台上最闪亮的那颗星星！",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 0,
+		spine_extra = "",
+		time = "always",
+		new = 1,
+		discount_time = "",
+		size = {
+			8,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"MagicBoxB",
+				"normal"
+			},
+			{
+				"MagicBoxT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"stand21",
+						0,
+						"walk"
+					},
+					{
+						"walk1",
+						0,
+						"walk"
+					},
+					{
+						"stand22",
+						0,
+						"dance"
+					},
+					{
+						"walk2",
+						0,
+						"walk"
+					}
+				},
+				{},
+				{
+					0
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		animator = {
+			{
+				{
+					"MagicBoxCharControl",
+					"MagicBoxCharControl2"
+				}
+			}
+		},
 		interAction_group = {}
 	},
 	[1001] = {
@@ -1422,7 +1941,6 @@ pg.furniture_data_template = {
 		describe = "Watch out for splinters.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 1,
 		spine_extra = "",
 		time = "always",
@@ -1431,6 +1949,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[1002] = {
@@ -1458,7 +1979,6 @@ pg.furniture_data_template = {
 		describe = "Mold... mold everywhere! Should we just tear this down?",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 1,
 		spine_extra = "",
 		time = "always",
@@ -1467,6 +1987,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[1101] = {
@@ -1494,7 +2017,6 @@ pg.furniture_data_template = {
 		describe = "A tattered and shredded mat. Really unties the room.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 1,
 		spine_extra = "",
 		time = "always",
@@ -1506,6 +2028,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[1102] = {
@@ -1533,7 +2058,6 @@ pg.furniture_data_template = {
 		describe = "This will have to do for now!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 1,
 		spine_extra = "",
 		time = "always",
@@ -1545,6 +2069,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[1103] = {
@@ -1572,7 +2099,6 @@ pg.furniture_data_template = {
 		describe = "Too cheap to even buy a blanket, eh?",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 1,
 		spine_extra = "",
 		time = "always",
@@ -1592,6 +2118,9 @@ pg.furniture_data_template = {
 					10
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -1620,7 +2149,6 @@ pg.furniture_data_template = {
 		describe = "Is it really a screen if you can see through the holes in it?",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 1,
 		spine_extra = "",
 		time = "always",
@@ -1632,6 +2160,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[1105] = {
@@ -1659,7 +2190,6 @@ pg.furniture_data_template = {
 		describe = "A pile of old newspapers makes a good cushion when necessary.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 1,
 		spine_extra = "",
 		time = "always",
@@ -1671,6 +2201,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[1106] = {
@@ -1698,7 +2231,6 @@ pg.furniture_data_template = {
 		describe = "And old TV purchased at the local thrift shop.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 1,
 		spine_extra = "",
 		time = "always",
@@ -1721,6 +2253,9 @@ pg.furniture_data_template = {
 				3,
 				2
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -1749,7 +2284,6 @@ pg.furniture_data_template = {
 		describe = "We should grow our own vegetables to eat and save money!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 1,
 		spine_extra = "",
 		time = "always",
@@ -1761,6 +2295,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[1108] = {
@@ -1788,7 +2325,6 @@ pg.furniture_data_template = {
 		describe = "The strength of our spirits are like the flames of a fire in darkness!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 1,
 		spine_extra = "",
 		time = "always",
@@ -1800,6 +2336,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[1109] = {
@@ -1827,7 +2366,6 @@ pg.furniture_data_template = {
 		describe = "Works well enough to catch rain from the leaky roof!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 1,
 		spine_extra = "",
 		time = "always",
@@ -1839,6 +2377,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[1110] = {
@@ -1866,7 +2407,6 @@ pg.furniture_data_template = {
 		describe = "This should be good enough to clean up the puddles from last night's rain.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 1,
 		spine_extra = "",
 		time = "always",
@@ -1878,6 +2418,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[1111] = {
@@ -1905,7 +2448,6 @@ pg.furniture_data_template = {
 		describe = "Clothes are expensive! You gotta protect them!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 1,
 		spine_extra = "",
 		time = "always",
@@ -1917,6 +2459,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[1112] = {
@@ -1944,7 +2489,6 @@ pg.furniture_data_template = {
 		describe = "Cardboard is wonderful! It works for everything!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 1,
 		spine_extra = "",
 		time = "always",
@@ -1976,6 +2520,9 @@ pg.furniture_data_template = {
 				2
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[1201] = {
@@ -2003,7 +2550,6 @@ pg.furniture_data_template = {
 		describe = "Petrified so that we can save electricity!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 1,
 		spine_extra = "",
 		time = "always",
@@ -2015,6 +2561,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[1202] = {
@@ -2042,7 +2591,6 @@ pg.furniture_data_template = {
 		describe = "Everyone needs time to relax and enjoy some fresh tea!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 1,
 		spine_extra = "",
 		time = "always",
@@ -2054,6 +2602,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[1203] = {
@@ -2081,7 +2632,6 @@ pg.furniture_data_template = {
 		describe = "This cat hasn't caught a mouse in its entire life.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 1,
 		spine_extra = "",
 		time = "always",
@@ -2093,6 +2643,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[1204] = {
@@ -2120,7 +2673,6 @@ pg.furniture_data_template = {
 		describe = "We found the cheese thief!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 1,
 		spine_extra = "",
 		time = "always",
@@ -2132,6 +2684,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[1205] = {
@@ -2159,7 +2714,6 @@ pg.furniture_data_template = {
 		describe = "Today's soup is... clear, flavorless, and vegetarian.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 1,
 		spine_extra = "",
 		time = "always",
@@ -2171,6 +2725,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[1206] = {
@@ -2198,7 +2755,6 @@ pg.furniture_data_template = {
 		describe = "The night is most beautiful by candlelight.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 1,
 		spine_extra = "",
 		time = "always",
@@ -2210,6 +2766,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[1301] = {
@@ -2237,7 +2796,6 @@ pg.furniture_data_template = {
 		describe = "Write on paper instead of the wall!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 1,
 		spine_extra = "",
 		time = "always",
@@ -2249,6 +2807,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[1302] = {
@@ -2276,7 +2837,6 @@ pg.furniture_data_template = {
 		describe = "The view outside isn't too bad, but it doesn't seem to keep the bugs outside.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 1,
 		spine_extra = "",
 		time = "always",
@@ -2288,6 +2848,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[1303] = {
@@ -2315,7 +2878,6 @@ pg.furniture_data_template = {
 		describe = "The view outside isn't too bad, but it doesn't seem to keep the bugs outside.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 1,
 		spine_extra = "",
 		time = "always",
@@ -2327,6 +2889,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[1304] = {
@@ -2354,7 +2919,6 @@ pg.furniture_data_template = {
 		describe = "A good spot for roommates to leave notes for each other.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 1,
 		spine_extra = "",
 		time = "always",
@@ -2366,6 +2930,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[1305] = {
@@ -2393,7 +2960,6 @@ pg.furniture_data_template = {
 		describe = "Be careful when opening the door! We don't have enough money to replace it!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 1,
 		spine_extra = "",
 		time = "always",
@@ -2405,6 +2971,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[1306] = {
@@ -2432,7 +3001,6 @@ pg.furniture_data_template = {
 		describe = "This sliding door is so hard to close, we usually keep it wide open.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 1,
 		spine_extra = "",
 		time = "always",
@@ -2444,6 +3012,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[1307] = {
@@ -2471,7 +3042,6 @@ pg.furniture_data_template = {
 		describe = "This sliding door is so hard to close, we usually keep it wide open.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 1,
 		spine_extra = "",
 		time = "always",
@@ -2483,6 +3053,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[1308] = {
@@ -2510,7 +3083,6 @@ pg.furniture_data_template = {
 		describe = "Not many sounds come through except a few pops and crackles.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 1,
 		spine_extra = "",
 		time = "always",
@@ -2522,6 +3094,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[1309] = {
@@ -2549,7 +3124,6 @@ pg.furniture_data_template = {
 		describe = "This will have to make do as decoration for now.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 1,
 		spine_extra = "",
 		time = "always",
@@ -2561,6 +3135,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[2001] = {
@@ -2588,7 +3165,6 @@ pg.furniture_data_template = {
 		describe = "An all new tatami mat! Remember, no shoes!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 2,
 		spine_extra = "",
 		time = "always",
@@ -2597,6 +3173,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[2002] = {
@@ -2624,7 +3203,6 @@ pg.furniture_data_template = {
 		describe = "It looks so soft! Can I rub up against it?",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 2,
 		spine_extra = "",
 		time = "always",
@@ -2633,6 +3211,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[2101] = {
@@ -2660,7 +3241,6 @@ pg.furniture_data_template = {
 		describe = "A soft and fluffy cushion with a cherry blossom pattern!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 2,
 		spine_extra = "",
 		time = "always",
@@ -2672,6 +3252,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[2102] = {
@@ -2699,7 +3282,6 @@ pg.furniture_data_template = {
 		describe = "A cozy daybed covered with a cherry blossom design.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 2,
 		spine_extra = "",
 		time = "always",
@@ -2735,6 +3317,9 @@ pg.furniture_data_template = {
 				}
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[2105] = {
@@ -2762,7 +3347,6 @@ pg.furniture_data_template = {
 		describe = "This lamp's soft light really makes everything seem so much more romantic!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 2,
 		spine_extra = "",
 		time = "always",
@@ -2774,6 +3358,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[2106] = {
@@ -2801,7 +3388,6 @@ pg.furniture_data_template = {
 		describe = "Finally! Life in HD!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 2,
 		spine_extra = "",
 		time = "always",
@@ -2813,6 +3399,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[2107] = {
@@ -2840,7 +3429,6 @@ pg.furniture_data_template = {
 		describe = "A thick quilt! A warm blanket! We can live through winter!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 2,
 		spine_extra = "",
 		time = "always",
@@ -2892,6 +3480,9 @@ pg.furniture_data_template = {
 				3
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[2108] = {
@@ -2919,7 +3510,6 @@ pg.furniture_data_template = {
 		describe = "Just like ships, every sword has its own story.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 2,
 		spine_extra = "",
 		time = "always",
@@ -2931,6 +3521,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[2109] = {
@@ -2958,7 +3551,6 @@ pg.furniture_data_template = {
 		describe = "It's nearly see-through! This won't hide anyth... Oh, I see...",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 2,
 		spine_extra = "",
 		time = "always",
@@ -2970,6 +3562,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[2110] = {
@@ -2997,7 +3592,6 @@ pg.furniture_data_template = {
 		describe = "Sleeps more than it goes out looking for fortunes!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 2,
 		spine_extra = "",
 		time = "always",
@@ -3009,6 +3603,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[2201] = {
@@ -3036,7 +3633,6 @@ pg.furniture_data_template = {
 		describe = "A simple antique tea set.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 2,
 		spine_extra = "",
 		time = "always",
@@ -3048,6 +3644,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[2202] = {
@@ -3075,7 +3674,6 @@ pg.furniture_data_template = {
 		describe = "Sashimi! What a treat!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 2,
 		spine_extra = "",
 		time = "always",
@@ -3087,6 +3685,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[2203] = {
@@ -3114,7 +3715,6 @@ pg.furniture_data_template = {
 		describe = "Don't you want to take a shot?",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 2,
 		spine_extra = "",
 		time = "always",
@@ -3126,6 +3726,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[2204] = {
@@ -3153,7 +3756,6 @@ pg.furniture_data_template = {
 		describe = "Bring the great outdoors inside.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 2,
 		spine_extra = "",
 		time = "always",
@@ -3165,6 +3767,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[2205] = {
@@ -3192,7 +3797,6 @@ pg.furniture_data_template = {
 		describe = "These smell as great as they look!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 2,
 		spine_extra = "",
 		time = "always",
@@ -3204,6 +3808,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[2206] = {
@@ -3231,7 +3838,6 @@ pg.furniture_data_template = {
 		describe = "If only we could jump into a pile of leaves.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 2,
 		spine_extra = "",
 		time = "always",
@@ -3243,6 +3849,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[2207] = {
@@ -3270,7 +3879,6 @@ pg.furniture_data_template = {
 		describe = "Make sure to change the water frequently! Don't forget to feed the fish!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 2,
 		spine_extra = "",
 		time = "always",
@@ -3282,6 +3890,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[2301] = {
@@ -3309,7 +3920,6 @@ pg.furniture_data_template = {
 		describe = "Really helps air out the room!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 2,
 		spine_extra = "",
 		time = "always",
@@ -3321,6 +3931,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[2302] = {
@@ -3348,7 +3961,6 @@ pg.furniture_data_template = {
 		describe = "Written with a delicate hand.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 2,
 		spine_extra = "",
 		time = "always",
@@ -3360,6 +3972,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[2303] = {
@@ -3387,7 +4002,6 @@ pg.furniture_data_template = {
 		describe = "Be careful when opening and closing!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 2,
 		spine_extra = "",
 		time = "always",
@@ -3399,6 +4013,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[2304] = {
@@ -3426,7 +4043,6 @@ pg.furniture_data_template = {
 		describe = "The perfect place to show off your memorabilia.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 2,
 		spine_extra = "",
 		time = "always",
@@ -3438,6 +4054,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[2305] = {
@@ -3465,7 +4084,6 @@ pg.furniture_data_template = {
 		describe = "A giant fan encrusted with onyx and gold. Looks expensive!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 2,
 		spine_extra = "",
 		time = "always",
@@ -3477,6 +4095,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[3001] = {
@@ -3504,7 +4125,6 @@ pg.furniture_data_template = {
 		describe = "Black floors stay cleaner longer than white floors.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 3,
 		spine_extra = "",
 		time = "always",
@@ -3513,6 +4133,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[3002] = {
@@ -3540,7 +4163,6 @@ pg.furniture_data_template = {
 		describe = "As blue as the Carolina skies.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 3,
 		spine_extra = "",
 		time = "always",
@@ -3549,6 +4171,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[3101] = {
@@ -3576,7 +4201,6 @@ pg.furniture_data_template = {
 		describe = "So soft that you can roll around on the ground!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 3,
 		spine_extra = "",
 		time = "always",
@@ -3588,6 +4212,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[3102] = {
@@ -3615,7 +4242,6 @@ pg.furniture_data_template = {
 		describe = "Good for books and puzzles... Just kidding! Where's the wine?",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 3,
 		spine_extra = "",
 		time = "always",
@@ -3627,6 +4253,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[3103] = {
@@ -3654,7 +4283,6 @@ pg.furniture_data_template = {
 		describe = "Hey, boy! It's time to start the game!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 3,
 		spine_extra = "",
 		time = "always",
@@ -3666,6 +4294,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[3104] = {
@@ -3693,7 +4324,6 @@ pg.furniture_data_template = {
 		describe = "Feel safe and secure when sleeping! Just try not to roll off.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 3,
 		spine_extra = "",
 		time = "always",
@@ -3713,6 +4343,9 @@ pg.furniture_data_template = {
 					70
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -3741,7 +4374,6 @@ pg.furniture_data_template = {
 		describe = "Red, white, and blue, just like our hearts!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 3,
 		spine_extra = "",
 		time = "always",
@@ -3779,6 +4411,9 @@ pg.furniture_data_template = {
 				"meishi/shafa4a_using"
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[3107] = {
@@ -3806,7 +4441,6 @@ pg.furniture_data_template = {
 		describe = "Learn how to read the emotions of your opponents.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 3,
 		spine_extra = "",
 		time = "always",
@@ -3858,6 +4492,9 @@ pg.furniture_data_template = {
 				3
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[3108] = {
@@ -3885,7 +4522,6 @@ pg.furniture_data_template = {
 		describe = "BBQ! A foodie's favorite!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 3,
 		spine_extra = "",
 		time = "always",
@@ -3897,6 +4533,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[3109] = {
@@ -3924,7 +4563,6 @@ pg.furniture_data_template = {
 		describe = "Get ready to kick up some dust!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 3,
 		spine_extra = "",
 		time = "always",
@@ -3936,6 +4574,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[3110] = {
@@ -3963,7 +4604,6 @@ pg.furniture_data_template = {
 		describe = "Don't sit down too quickly or it might explode!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 3,
 		spine_extra = "",
 		time = "always",
@@ -3983,6 +4623,9 @@ pg.furniture_data_template = {
 					55
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -4011,7 +4654,6 @@ pg.furniture_data_template = {
 		describe = "Envelop yourself in the love of your nation.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 3,
 		spine_extra = "",
 		time = "always",
@@ -4031,6 +4673,9 @@ pg.furniture_data_template = {
 					40
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -4059,7 +4704,6 @@ pg.furniture_data_template = {
 		describe = "Sir! We kept kicking over the plant when it was on the floor, so we've moved to a stool.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 3,
 		spine_extra = "",
 		time = "always",
@@ -4071,6 +4715,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[3202] = {
@@ -4098,7 +4745,6 @@ pg.furniture_data_template = {
 		describe = "This sure does seem unnecessarily large, doesn't it?",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 3,
 		spine_extra = "",
 		time = "always",
@@ -4110,6 +4756,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[3203] = {
@@ -4137,7 +4786,6 @@ pg.furniture_data_template = {
 		describe = "Start practicing your poker face!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 3,
 		spine_extra = "",
 		time = "always",
@@ -4149,6 +4797,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[3204] = {
@@ -4176,7 +4827,6 @@ pg.furniture_data_template = {
 		describe = "Wait, this doesn't look like a little boy...",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 3,
 		spine_extra = "",
 		time = "always",
@@ -4188,6 +4838,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[3301] = {
@@ -4215,7 +4868,6 @@ pg.furniture_data_template = {
 		describe = "The breeze from the ocean is so strong!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 3,
 		spine_extra = "",
 		time = "always",
@@ -4227,6 +4879,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[3302] = {
@@ -4254,7 +4909,6 @@ pg.furniture_data_template = {
 		describe = "What a magnificent building!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 3,
 		spine_extra = "",
 		time = "always",
@@ -4266,6 +4920,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[3303] = {
@@ -4293,7 +4950,6 @@ pg.furniture_data_template = {
 		describe = "Save a life and time!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 3,
 		spine_extra = "",
 		time = "always",
@@ -4305,6 +4961,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[3304] = {
@@ -4332,7 +4991,6 @@ pg.furniture_data_template = {
 		describe = "A strong iron door that can withstand nearly any impact.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 3,
 		spine_extra = "",
 		time = "always",
@@ -4344,6 +5002,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[3305] = {
@@ -4371,7 +5032,6 @@ pg.furniture_data_template = {
 		describe = "Just for decoration.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 3,
 		spine_extra = "",
 		time = "always",
@@ -4383,6 +5043,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[3306] = {
@@ -4410,7 +5073,6 @@ pg.furniture_data_template = {
 		describe = "Good for planning battle strategies or watching movies.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 3,
 		spine_extra = "",
 		time = "always",
@@ -4422,6 +5084,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[4001] = {
@@ -4449,7 +5114,6 @@ pg.furniture_data_template = {
 		describe = "Elegant solid wood flooring. Welcome to the royal lifestyle!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 4,
 		spine_extra = "",
 		time = "always",
@@ -4458,6 +5122,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[4002] = {
@@ -4485,7 +5152,6 @@ pg.furniture_data_template = {
 		describe = "It's nice to have a change of color for once!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 4,
 		spine_extra = "",
 		time = "always",
@@ -4494,6 +5160,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[4101] = {
@@ -4521,7 +5190,6 @@ pg.furniture_data_template = {
 		describe = "A pure white rug very popular with cats.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 4,
 		spine_extra = "",
 		time = "always",
@@ -4533,6 +5201,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[4102] = {
@@ -4560,7 +5231,6 @@ pg.furniture_data_template = {
 		describe = "This tall lamp emits a warm yellow glow.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 4,
 		spine_extra = "",
 		time = "always",
@@ -4572,6 +5242,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[4103] = {
@@ -4599,7 +5272,6 @@ pg.furniture_data_template = {
 		describe = "Small tables are easy to rearrange when necessary.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 4,
 		spine_extra = "",
 		time = "always",
@@ -4611,6 +5283,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[4104] = {
@@ -4638,7 +5313,6 @@ pg.furniture_data_template = {
 		describe = "Small tables are easy to rearrange when necessary.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 4,
 		spine_extra = "",
 		time = "always",
@@ -4650,6 +5324,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[4105] = {
@@ -4677,7 +5354,6 @@ pg.furniture_data_template = {
 		describe = "Reading is an important part of self-cultivation! What?! There aren't any books?",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 4,
 		spine_extra = "",
 		time = "always",
@@ -4689,6 +5365,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[4106] = {
@@ -4716,7 +5395,6 @@ pg.furniture_data_template = {
 		describe = "Try not to stab yourself in the eye!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 4,
 		spine_extra = "",
 		time = "always",
@@ -4728,6 +5406,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[4107] = {
@@ -4755,7 +5436,6 @@ pg.furniture_data_template = {
 		describe = "Sink right in and relax.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 4,
 		spine_extra = "",
 		time = "always",
@@ -4779,6 +5459,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -4807,7 +5490,6 @@ pg.furniture_data_template = {
 		describe = "Kick up your feet for a relaxing afternoon!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 4,
 		spine_extra = "",
 		time = "always",
@@ -4831,6 +5513,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -4859,7 +5544,6 @@ pg.furniture_data_template = {
 		describe = "Make meetings go faster by giving your guests chairs without backs.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 4,
 		spine_extra = "",
 		time = "always",
@@ -4883,6 +5567,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -4911,7 +5598,6 @@ pg.furniture_data_template = {
 		describe = "Sure looks like it can hold quite a bit!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 4,
 		spine_extra = "",
 		time = "always",
@@ -4923,6 +5609,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[4113] = {
@@ -4950,7 +5639,6 @@ pg.furniture_data_template = {
 		describe = "Covered with a blue tablecloth with lots of room for plates and decorations.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 4,
 		spine_extra = "",
 		time = "always",
@@ -4982,6 +5670,9 @@ pg.furniture_data_template = {
 				3
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[4114] = {
@@ -5009,7 +5700,6 @@ pg.furniture_data_template = {
 		describe = "Comes with a cute little bear! How sweet!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 4,
 		spine_extra = "",
 		time = "always",
@@ -5045,6 +5735,9 @@ pg.furniture_data_template = {
 				}
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[4201] = {
@@ -5072,7 +5765,6 @@ pg.furniture_data_template = {
 		describe = "Practice the Violin during your spare time!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 4,
 		spine_extra = "",
 		time = "always",
@@ -5084,6 +5776,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[4202] = {
@@ -5111,7 +5806,6 @@ pg.furniture_data_template = {
 		describe = "Care for a cup of tea?",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 4,
 		spine_extra = "",
 		time = "always",
@@ -5123,6 +5817,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[4203] = {
@@ -5150,7 +5847,6 @@ pg.furniture_data_template = {
 		describe = "*Meow~*! What a cute little kitty.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 4,
 		spine_extra = "",
 		time = "always",
@@ -5162,6 +5858,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[4301] = {
@@ -5189,7 +5888,6 @@ pg.furniture_data_template = {
 		describe = "A small lamp which can illuminate a surprisingly large area.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 4,
 		spine_extra = "",
 		time = "always",
@@ -5201,6 +5899,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[4302] = {
@@ -5228,7 +5929,6 @@ pg.furniture_data_template = {
 		describe = "It's fake, don't worry!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 4,
 		spine_extra = "",
 		time = "always",
@@ -5240,6 +5940,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[4303] = {
@@ -5267,7 +5970,6 @@ pg.furniture_data_template = {
 		describe = "A cute portrait of King Chirp! Cheep chirp cheep!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 4,
 		spine_extra = "",
 		time = "always",
@@ -5279,6 +5981,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[4304] = {
@@ -5306,7 +6011,6 @@ pg.furniture_data_template = {
 		describe = "Bring warmth home.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 4,
 		spine_extra = "",
 		time = "always",
@@ -5318,6 +6022,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[4305] = {
@@ -5345,7 +6052,6 @@ pg.furniture_data_template = {
 		describe = "Big floor to ceiling windows!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 4,
 		spine_extra = "",
 		time = "always",
@@ -5357,6 +6063,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[4306] = {
@@ -5384,7 +6093,6 @@ pg.furniture_data_template = {
 		describe = "These classically-styled doors give guests a solid first impression!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 4,
 		spine_extra = "",
 		time = "always",
@@ -5396,6 +6104,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[4307] = {
@@ -5423,7 +6134,6 @@ pg.furniture_data_template = {
 		describe = "Photos from the glory days.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 4,
 		spine_extra = "",
 		time = "always",
@@ -5435,6 +6145,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[5001] = {
@@ -5462,7 +6175,6 @@ pg.furniture_data_template = {
 		describe = "Brutal but effective steel floors.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 5,
 		spine_extra = "",
 		time = "always",
@@ -5471,6 +6183,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[5002] = {
@@ -5498,7 +6213,6 @@ pg.furniture_data_template = {
 		describe = "Simplicity, minimalism, and pragmatism!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 5,
 		spine_extra = "",
 		time = "always",
@@ -5507,6 +6221,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[5101] = {
@@ -5534,7 +6251,6 @@ pg.furniture_data_template = {
 		describe = "Dyed with the blood of the enemy!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 5,
 		spine_extra = "",
 		time = "always",
@@ -5546,6 +6262,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[5102] = {
@@ -5573,7 +6292,6 @@ pg.furniture_data_template = {
 		describe = "This folding office chair is both convenient and practical!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 5,
 		spine_extra = "",
 		time = "always",
@@ -5597,6 +6315,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -5625,7 +6346,6 @@ pg.furniture_data_template = {
 		describe = "Anyone looks serious when sitting at such an imposing desk.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 5,
 		spine_extra = "",
 		time = "always",
@@ -5673,6 +6393,9 @@ pg.furniture_data_template = {
 				2
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[5105] = {
@@ -5700,7 +6423,6 @@ pg.furniture_data_template = {
 		describe = "This excellent technology will help you recover while you sleep.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 5,
 		spine_extra = "",
 		time = "always",
@@ -5736,6 +6458,9 @@ pg.furniture_data_template = {
 				}
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[5106] = {
@@ -5763,7 +6488,6 @@ pg.furniture_data_template = {
 		describe = "A simple table with a map set across it.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 5,
 		spine_extra = "",
 		time = "always",
@@ -5775,6 +6499,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[5107] = {
@@ -5802,7 +6529,6 @@ pg.furniture_data_template = {
 		describe = "This pure red sofa is a bit smaller than most others.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 5,
 		spine_extra = "",
 		time = "always",
@@ -5838,6 +6564,9 @@ pg.furniture_data_template = {
 				}
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[5108] = {
@@ -5865,7 +6594,6 @@ pg.furniture_data_template = {
 		describe = "Make sure no one steals these blueprints!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 5,
 		spine_extra = "",
 		time = "always",
@@ -5877,6 +6605,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[5109] = {
@@ -5904,7 +6635,6 @@ pg.furniture_data_template = {
 		describe = "Test, test! 1, 2, 3!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 5,
 		spine_extra = "",
 		time = "always",
@@ -5916,6 +6646,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[5111] = {
@@ -5943,7 +6676,6 @@ pg.furniture_data_template = {
 		describe = "This chair encourages strong posture to increase attentiveness during meetings.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 5,
 		spine_extra = "",
 		time = "always",
@@ -5967,6 +6699,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -5995,7 +6730,6 @@ pg.furniture_data_template = {
 		describe = "Reduce and reuse! This table made from a stack of bricks is the perfect place to serve snacks.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 5,
 		spine_extra = "",
 		time = "always",
@@ -6022,6 +6756,9 @@ pg.furniture_data_template = {
 				2,
 				0
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -6050,7 +6787,6 @@ pg.furniture_data_template = {
 		describe = "Holds lots of confidential information. Keep an eye on your guests!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 5,
 		spine_extra = "",
 		time = "always",
@@ -6062,6 +6798,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[5114] = {
@@ -6089,7 +6828,6 @@ pg.furniture_data_template = {
 		describe = "Beer! Roast sausage! S'mores!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 5,
 		spine_extra = "",
 		time = "always",
@@ -6101,6 +6839,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[5201] = {
@@ -6128,7 +6869,6 @@ pg.furniture_data_template = {
 		describe = "An old system for transmitting information.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 5,
 		spine_extra = "",
 		time = "always",
@@ -6140,6 +6880,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[5202] = {
@@ -6167,7 +6910,6 @@ pg.furniture_data_template = {
 		describe = "Wine is good for guests, but beer is still the best!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 5,
 		spine_extra = "",
 		time = "always",
@@ -6179,6 +6921,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[5203] = {
@@ -6206,7 +6951,6 @@ pg.furniture_data_template = {
 		describe = "Ready for a drink?",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 5,
 		spine_extra = "",
 		time = "always",
@@ -6218,6 +6962,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[5301] = {
@@ -6245,7 +6992,6 @@ pg.furniture_data_template = {
 		describe = "Hazy windows are good for obscuring the view of pesky neighbors.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 5,
 		spine_extra = "",
 		time = "always",
@@ -6257,6 +7003,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[5302] = {
@@ -6284,7 +7033,6 @@ pg.furniture_data_template = {
 		describe = "The official flag of the Ironblood!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 5,
 		spine_extra = "",
 		time = "always",
@@ -6296,6 +7044,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[5303] = {
@@ -6323,7 +7074,6 @@ pg.furniture_data_template = {
 		describe = "A stunning portrait of Bismark. She looks a little embarrassed.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 5,
 		spine_extra = "",
 		time = "always",
@@ -6335,6 +7085,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[5304] = {
@@ -6362,7 +7115,6 @@ pg.furniture_data_template = {
 		describe = "An iron gate that also comes with a thermometer.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 5,
 		spine_extra = "",
 		time = "always",
@@ -6374,6 +7126,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[5305] = {
@@ -6401,7 +7156,6 @@ pg.furniture_data_template = {
 		describe = "Ship designs must be constantly updated and improved.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 5,
 		spine_extra = "",
 		time = "always",
@@ -6413,6 +7167,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[5306] = {
@@ -6440,7 +7197,6 @@ pg.furniture_data_template = {
 		describe = "A map of territories that the Ironblood claim as their own.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 5,
 		spine_extra = "",
 		time = "always",
@@ -6452,6 +7208,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[5307] = {
@@ -6479,7 +7238,6 @@ pg.furniture_data_template = {
 		describe = "Ready for repairs at any time!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 5,
 		spine_extra = "",
 		time = "always",
@@ -6491,6 +7249,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[7001] = {
@@ -6518,7 +7279,6 @@ pg.furniture_data_template = {
 		describe = "Blue is in!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 7,
 		spine_extra = "",
 		new = 0,
@@ -6526,6 +7286,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -6579,7 +7342,6 @@ pg.furniture_data_template = {
 		describe = "Blue is in!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 7,
 		spine_extra = "",
 		new = 0,
@@ -6587,6 +7349,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -6640,7 +7405,6 @@ pg.furniture_data_template = {
 		describe = "Put at the doorway so guests can wipe their shoes!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 7,
 		spine_extra = "",
 		new = 0,
@@ -6651,6 +7415,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -6704,7 +7471,6 @@ pg.furniture_data_template = {
 		describe = "Feels just like being at the beach.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 7,
 		spine_extra = "",
 		new = 0,
@@ -6715,6 +7481,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -6768,7 +7537,6 @@ pg.furniture_data_template = {
 		describe = "A round, blue rug.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 7,
 		spine_extra = "",
 		new = 0,
@@ -6779,6 +7547,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -6832,7 +7603,6 @@ pg.furniture_data_template = {
 		describe = "Get clean, naturally!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 7,
 		spine_extra = "",
 		new = 0,
@@ -6856,6 +7626,9 @@ pg.furniture_data_template = {
 				},
 				"xigua/yushixg_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -6910,7 +7683,6 @@ pg.furniture_data_template = {
 		describe = "Drinks have to be chilled during summer!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 7,
 		spine_extra = "",
 		new = 0,
@@ -6921,6 +7693,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -6974,7 +7749,6 @@ pg.furniture_data_template = {
 		describe = "What could be inside?",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 7,
 		spine_extra = "",
 		new = 0,
@@ -6985,6 +7759,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -7038,7 +7815,6 @@ pg.furniture_data_template = {
 		describe = "What a comfy melon!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 7,
 		spine_extra = "",
 		new = 0,
@@ -7062,6 +7838,9 @@ pg.furniture_data_template = {
 				},
 				"xigua/chuangxg_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -7116,7 +7895,6 @@ pg.furniture_data_template = {
 		describe = "Surf's up!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 7,
 		spine_extra = "",
 		new = 0,
@@ -7127,6 +7905,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -7180,7 +7961,6 @@ pg.furniture_data_template = {
 		describe = "Covered with snacks!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 7,
 		spine_extra = "",
 		new = 0,
@@ -7191,6 +7971,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -7244,7 +8027,6 @@ pg.furniture_data_template = {
 		describe = "Good for holding various goodies.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 7,
 		spine_extra = "",
 		new = 0,
@@ -7282,6 +8064,9 @@ pg.furniture_data_template = {
 				3,
 				2
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -7336,7 +8121,6 @@ pg.furniture_data_template = {
 		describe = "Let's get juicin'!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 7,
 		spine_extra = "",
 		new = 0,
@@ -7347,6 +8131,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -7400,7 +8187,6 @@ pg.furniture_data_template = {
 		describe = "We love watermelons!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 7,
 		spine_extra = "",
 		new = 0,
@@ -7426,6 +8212,9 @@ pg.furniture_data_template = {
 				3,
 				1
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -7480,7 +8269,6 @@ pg.furniture_data_template = {
 		describe = "A watermelon sofa. Smells fresh!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 7,
 		spine_extra = "",
 		new = 0,
@@ -7525,6 +8313,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -7579,7 +8370,6 @@ pg.furniture_data_template = {
 		describe = "Snacks on demand.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 7,
 		spine_extra = "",
 		new = 0,
@@ -7590,6 +8380,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -7643,7 +8436,6 @@ pg.furniture_data_template = {
 		describe = "There are lots of books in this bookcase.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 7,
 		spine_extra = "",
 		new = 0,
@@ -7698,6 +8490,9 @@ pg.furniture_data_template = {
 				3
 			}
 		},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -7751,7 +8546,6 @@ pg.furniture_data_template = {
 		describe = "Iced fruit! Don't get a brain freeze!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 7,
 		spine_extra = "",
 		new = 0,
@@ -7762,6 +8556,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -7815,7 +8612,6 @@ pg.furniture_data_template = {
 		describe = "Lay down, relax, and forget about your problems!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 7,
 		spine_extra = "",
 		new = 0,
@@ -7838,6 +8634,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -7892,7 +8691,6 @@ pg.furniture_data_template = {
 		describe = "Its one purpose is to cool watermelons.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 7,
 		spine_extra = "",
 		new = 0,
@@ -7903,6 +8701,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -7956,7 +8757,6 @@ pg.furniture_data_template = {
 		describe = "These coconut trees really make it feel like the beach!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 7,
 		spine_extra = "",
 		new = 0,
@@ -7967,6 +8767,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -8020,7 +8823,6 @@ pg.furniture_data_template = {
 		describe = "Swim fish, swim!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 7,
 		spine_extra = "",
 		new = 0,
@@ -8031,6 +8833,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -8084,7 +8889,6 @@ pg.furniture_data_template = {
 		describe = "Good for holding various goodies.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 7,
 		spine_extra = "",
 		new = 0,
@@ -8114,6 +8918,9 @@ pg.furniture_data_template = {
 				2,
 				2
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -8168,7 +8975,6 @@ pg.furniture_data_template = {
 		describe = "It's big enough that everyone can eat together!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 7,
 		spine_extra = "",
 		new = 0,
@@ -8218,6 +9024,9 @@ pg.furniture_data_template = {
 				3,
 				3
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -8272,7 +9081,6 @@ pg.furniture_data_template = {
 		describe = "A cute stool for one person.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 7,
 		spine_extra = "",
 		new = 0,
@@ -8295,6 +9103,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -8349,7 +9160,6 @@ pg.furniture_data_template = {
 		describe = "*Hnnng~~* Brain freeze!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 7,
 		spine_extra = "",
 		new = 0,
@@ -8360,6 +9170,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -8413,7 +9226,6 @@ pg.furniture_data_template = {
 		describe = "*Hnnng~~* Brain freeze!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 7,
 		spine_extra = "",
 		new = 0,
@@ -8424,6 +9236,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -8477,7 +9292,6 @@ pg.furniture_data_template = {
 		describe = "I'm telling you, this melon is sweet!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 7,
 		spine_extra = "",
 		new = 0,
@@ -8488,6 +9302,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -8541,7 +9358,6 @@ pg.furniture_data_template = {
 		describe = "I'm telling you, this melon is sour!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 7,
 		spine_extra = "",
 		new = 0,
@@ -8552,6 +9368,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -8605,7 +9424,6 @@ pg.furniture_data_template = {
 		describe = "A pale green plant.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 7,
 		spine_extra = "",
 		new = 0,
@@ -8616,6 +9434,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -8669,7 +9490,6 @@ pg.furniture_data_template = {
 		describe = "Its little hairs are so cute!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 7,
 		spine_extra = "",
 		new = 0,
@@ -8680,6 +9500,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -8733,7 +9556,6 @@ pg.furniture_data_template = {
 		describe = "A notepad printed with a watermelon design.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 7,
 		spine_extra = "",
 		new = 0,
@@ -8744,6 +9566,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -8797,7 +9622,6 @@ pg.furniture_data_template = {
 		describe = "A checkered blanket.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 7,
 		spine_extra = "",
 		new = 0,
@@ -8808,6 +9632,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -8861,7 +9688,6 @@ pg.furniture_data_template = {
 		describe = "Is that a picture of a seal?",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 7,
 		spine_extra = "",
 		new = 0,
@@ -8872,6 +9698,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -8925,7 +9754,6 @@ pg.furniture_data_template = {
 		describe = "Don't forget to take care of your hair!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 7,
 		spine_extra = "",
 		new = 0,
@@ -8936,6 +9764,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -8989,7 +9820,6 @@ pg.furniture_data_template = {
 		describe = "Eat it straight with a spoon!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 7,
 		spine_extra = "",
 		new = 0,
@@ -9000,6 +9830,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -9053,7 +9886,6 @@ pg.furniture_data_template = {
 		describe = "A tasty slice of watermelon.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 7,
 		spine_extra = "",
 		new = 0,
@@ -9064,6 +9896,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -9117,7 +9952,6 @@ pg.furniture_data_template = {
 		describe = "As tasty as they are colorful.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 7,
 		spine_extra = "",
 		new = 0,
@@ -9128,6 +9962,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -9181,7 +10018,6 @@ pg.furniture_data_template = {
 		describe = "Gotta keep it clean! Gotta keep it clean!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 7,
 		spine_extra = "",
 		new = 0,
@@ -9192,6 +10028,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -9245,7 +10084,6 @@ pg.furniture_data_template = {
 		describe = "A perfect place to eat a slice of watermelon.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 7,
 		spine_extra = "",
 		new = 0,
@@ -9256,6 +10094,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -9309,7 +10150,6 @@ pg.furniture_data_template = {
 		describe = "Absolutely necessary during the hot, wet summers!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 7,
 		spine_extra = "",
 		new = 0,
@@ -9320,6 +10160,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -9373,7 +10216,6 @@ pg.furniture_data_template = {
 		describe = "A cute blue door. Look both ways before stepping out!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 7,
 		spine_extra = "",
 		new = 0,
@@ -9384,6 +10226,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -9437,7 +10282,6 @@ pg.furniture_data_template = {
 		describe = "A nice view of a relaxing summer garden.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 7,
 		spine_extra = "",
 		new = 0,
@@ -9448,6 +10292,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -9501,7 +10348,6 @@ pg.furniture_data_template = {
 		describe = "Flooring crafted by the Ironblood.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 8,
 		spine_extra = "",
 		time = "always",
@@ -9510,6 +10356,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[8002] = {
@@ -9537,7 +10386,6 @@ pg.furniture_data_template = {
 		describe = "Elegant walls good for creating an intimate atmosphere.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 8,
 		spine_extra = "",
 		time = "always",
@@ -9546,6 +10394,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[8101] = {
@@ -9573,7 +10424,6 @@ pg.furniture_data_template = {
 		describe = "A thick rug that's a pleasure to step on!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 8,
 		spine_extra = "",
 		time = "always",
@@ -9585,6 +10435,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[8102] = {
@@ -9612,7 +10465,6 @@ pg.furniture_data_template = {
 		describe = "Put at the doorway so guests can wipe their shoes!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 8,
 		spine_extra = "",
 		time = "always",
@@ -9624,6 +10476,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[8103] = {
@@ -9651,7 +10506,6 @@ pg.furniture_data_template = {
 		describe = "Wow! That's a big pool! How many girls can sit inside?",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 8,
 		spine_extra = "",
 		time = "always",
@@ -9701,6 +10555,9 @@ pg.furniture_data_template = {
 				"ger/gerpijiuchi_using"
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[8104] = {
@@ -9728,7 +10585,6 @@ pg.furniture_data_template = {
 		describe = "Bark! Bark bark!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 8,
 		spine_extra = "",
 		time = "always",
@@ -9740,6 +10596,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[8105] = {
@@ -9767,7 +10626,6 @@ pg.furniture_data_template = {
 		describe = "What does 999 mean?",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 8,
 		spine_extra = "",
 		time = "always",
@@ -9779,6 +10637,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[8106] = {
@@ -9806,7 +10667,6 @@ pg.furniture_data_template = {
 		describe = "Sleep where you drink.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 8,
 		spine_extra = "",
 		time = "always",
@@ -9830,6 +10690,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -9858,7 +10721,6 @@ pg.furniture_data_template = {
 		describe = "Can I get you something to drink?",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 8,
 		spine_extra = "",
 		time = "always",
@@ -9883,6 +10745,9 @@ pg.furniture_data_template = {
 				},
 				"ger/gerbatai_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -9911,7 +10776,6 @@ pg.furniture_data_template = {
 		describe = "A rack for holding your precious bottles of wine.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 8,
 		spine_extra = "",
 		time = "always",
@@ -9923,6 +10787,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[8109] = {
@@ -9950,7 +10817,6 @@ pg.furniture_data_template = {
 		describe = "A rather short staircase.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 8,
 		spine_extra = "",
 		time = "always",
@@ -9962,6 +10828,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[8110] = {
@@ -9989,7 +10858,6 @@ pg.furniture_data_template = {
 		describe = "A rather tall staircase.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 8,
 		spine_extra = "",
 		time = "always",
@@ -10001,6 +10869,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[8111] = {
@@ -10028,7 +10899,6 @@ pg.furniture_data_template = {
 		describe = "Let's sit together and have a drink!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 8,
 		spine_extra = "",
 		time = "always",
@@ -10086,6 +10956,9 @@ pg.furniture_data_template = {
 				}
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[8112] = {
@@ -10113,7 +10986,6 @@ pg.furniture_data_template = {
 		describe = "Sometimes it's nice to be green.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 8,
 		spine_extra = "",
 		time = "always",
@@ -10125,6 +10997,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[8113] = {
@@ -10152,7 +11027,6 @@ pg.furniture_data_template = {
 		describe = "A partition for separating seats.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 8,
 		spine_extra = "",
 		time = "always",
@@ -10164,6 +11038,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[8114] = {
@@ -10191,7 +11068,6 @@ pg.furniture_data_template = {
 		describe = "How about some food for the table?",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 8,
 		spine_extra = "",
 		time = "always",
@@ -10223,6 +11099,9 @@ pg.furniture_data_template = {
 				2
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[8115] = {
@@ -10250,7 +11129,6 @@ pg.furniture_data_template = {
 		describe = "A healthy Bluebonnet flower.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 8,
 		spine_extra = "",
 		time = "always",
@@ -10262,6 +11140,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[8116] = {
@@ -10289,7 +11170,6 @@ pg.furniture_data_template = {
 		describe = "A good stool for sitting.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 8,
 		spine_extra = "",
 		time = "always",
@@ -10313,6 +11193,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -10341,7 +11224,6 @@ pg.furniture_data_template = {
 		describe = "Don't stand on these!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 8,
 		spine_extra = "",
 		time = "always",
@@ -10353,6 +11235,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[8118] = {
@@ -10380,7 +11265,6 @@ pg.furniture_data_template = {
 		describe = "A nice wine cask for solo bathers.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 8,
 		spine_extra = "",
 		time = "always",
@@ -10405,6 +11289,9 @@ pg.furniture_data_template = {
 				},
 				"ger/geryugang_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -10433,7 +11320,6 @@ pg.furniture_data_template = {
 		describe = "Reduce and reuse!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 8,
 		spine_extra = "",
 		time = "always",
@@ -10456,6 +11342,9 @@ pg.furniture_data_template = {
 				2,
 				3
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -10484,7 +11373,6 @@ pg.furniture_data_template = {
 		describe = "Reduce and reuse!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 8,
 		spine_extra = "",
 		time = "always",
@@ -10507,6 +11395,9 @@ pg.furniture_data_template = {
 				2,
 				3
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -10535,7 +11426,6 @@ pg.furniture_data_template = {
 		describe = "Smells delicious!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 8,
 		spine_extra = "",
 		time = "always",
@@ -10547,6 +11437,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[8201] = {
@@ -10574,7 +11467,6 @@ pg.furniture_data_template = {
 		describe = "*Glug* *glug* *glug*",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 8,
 		spine_extra = "",
 		time = "always",
@@ -10586,6 +11478,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[8202] = {
@@ -10613,7 +11508,6 @@ pg.furniture_data_template = {
 		describe = "Don't drink? How about some coffee instead.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 8,
 		spine_extra = "",
 		time = "always",
@@ -10625,6 +11519,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[8203] = {
@@ -10652,7 +11549,6 @@ pg.furniture_data_template = {
 		describe = "A big glass of beer!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 8,
 		spine_extra = "",
 		time = "always",
@@ -10664,6 +11560,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[8204] = {
@@ -10691,7 +11590,6 @@ pg.furniture_data_template = {
 		describe = "You need snacks if you're drinking!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 8,
 		spine_extra = "",
 		time = "always",
@@ -10703,6 +11601,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[8301] = {
@@ -10730,7 +11631,6 @@ pg.furniture_data_template = {
 		describe = "Can't we just forget about the war for a night?",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 8,
 		spine_extra = "",
 		time = "always",
@@ -10742,6 +11642,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[8302] = {
@@ -10769,7 +11672,6 @@ pg.furniture_data_template = {
 		describe = "Emits a dim light.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 8,
 		spine_extra = "",
 		time = "always",
@@ -10781,6 +11683,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[8303] = {
@@ -10808,7 +11713,6 @@ pg.furniture_data_template = {
 		describe = "The door is right here.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 8,
 		spine_extra = "",
 		time = "always",
@@ -10820,6 +11724,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[8304] = {
@@ -10847,7 +11754,6 @@ pg.furniture_data_template = {
 		describe = "The right spot to store your barrels of wine.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 8,
 		spine_extra = "",
 		time = "always",
@@ -10859,6 +11765,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[8305] = {
@@ -10886,7 +11795,6 @@ pg.furniture_data_template = {
 		describe = "A lifesaver for decoration.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 8,
 		spine_extra = "",
 		time = "always",
@@ -10898,6 +11806,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[8306] = {
@@ -10925,7 +11836,6 @@ pg.furniture_data_template = {
 		describe = "Entrance to the mysterious second floor.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 8,
 		spine_extra = "",
 		time = "always",
@@ -10937,6 +11847,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[8307] = {
@@ -10964,7 +11877,6 @@ pg.furniture_data_template = {
 		describe = "Records of glory.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 8,
 		spine_extra = "",
 		time = "always",
@@ -10976,6 +11888,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[10101] = {
@@ -11003,7 +11918,6 @@ pg.furniture_data_template = {
 		describe = "A big fountain bath complete with a dragon waterfall!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 10,
 		spine_extra = "",
 		time = "always",
@@ -11041,6 +11955,9 @@ pg.furniture_data_template = {
 				"cn/yuchicn_using"
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[10102] = {
@@ -11068,7 +11985,6 @@ pg.furniture_data_template = {
 		describe = "An elegant table used to display valuable objects.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 10,
 		spine_extra = "",
 		time = "always",
@@ -11140,6 +12056,9 @@ pg.furniture_data_template = {
 				7
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[10105] = {
@@ -11167,7 +12086,6 @@ pg.furniture_data_template = {
 		describe = "A large maple bed crafted in an Eastern style.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 10,
 		spine_extra = "",
 		time = "always",
@@ -11192,6 +12110,9 @@ pg.furniture_data_template = {
 				},
 				"cn/chuangcn_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -11220,7 +12141,6 @@ pg.furniture_data_template = {
 		describe = "Includes a nice view of the courtyard.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 10,
 		spine_extra = "",
 		time = "always",
@@ -11232,6 +12152,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[11001] = {
@@ -11259,7 +12182,6 @@ pg.furniture_data_template = {
 		describe = "Pink flooring, girls' favorite.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -11268,6 +12190,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[11002] = {
@@ -11295,7 +12220,6 @@ pg.furniture_data_template = {
 		describe = "Pink wallpaper, girls' favorite.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -11304,6 +12228,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[11101] = {
@@ -11331,7 +12258,6 @@ pg.furniture_data_template = {
 		describe = "Mid-sized bath, available for one person only.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -11356,6 +12282,9 @@ pg.furniture_data_template = {
 				},
 				"ap/dieziap_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -11384,7 +12313,6 @@ pg.furniture_data_template = {
 		describe = "Filled with delicious cakes.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -11407,6 +12335,9 @@ pg.furniture_data_template = {
 				3,
 				4
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -11435,7 +12366,6 @@ pg.furniture_data_template = {
 		describe = "An ordinary bench. Sit down and rest if you are tired.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -11471,6 +12401,9 @@ pg.furniture_data_template = {
 				}
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[11104] = {
@@ -11498,7 +12431,6 @@ pg.furniture_data_template = {
 		describe = "Today's special --",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -11510,6 +12442,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[11105] = {
@@ -11537,7 +12472,6 @@ pg.furniture_data_template = {
 		describe = "A giant teapot. Let's sleep inside and start a party in our combined dreams.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -11562,6 +12496,9 @@ pg.furniture_data_template = {
 				},
 				"ap/chabeichuangap_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -11590,7 +12527,6 @@ pg.furniture_data_template = {
 		describe = "Looks delicious, but too hard to chew.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -11614,6 +12550,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -11642,7 +12581,6 @@ pg.furniture_data_template = {
 		describe = "Have you seen the little rainbow over it?",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -11654,6 +12592,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[11108] = {
@@ -11681,7 +12622,6 @@ pg.furniture_data_template = {
 		describe = "Looks delicious, but too hard to chew.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -11705,6 +12645,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -11733,7 +12676,6 @@ pg.furniture_data_template = {
 		describe = "The basin will keep doctors away.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -11745,6 +12687,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[11110] = {
@@ -11772,7 +12717,6 @@ pg.furniture_data_template = {
 		describe = "It takes real patience to keep a white stair clean.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -11784,6 +12728,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[11111] = {
@@ -11811,7 +12758,6 @@ pg.furniture_data_template = {
 		describe = "A soft and sweet sofa.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -11836,6 +12782,9 @@ pg.furniture_data_template = {
 				},
 				"ap/shafaap_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -11864,7 +12813,6 @@ pg.furniture_data_template = {
 		describe = "NOT FOR EAT!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -11876,6 +12824,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[11113] = {
@@ -11903,7 +12854,6 @@ pg.furniture_data_template = {
 		describe = "Used to separate the garden and the indoor.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -11915,6 +12865,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[11114] = {
@@ -11942,7 +12895,6 @@ pg.furniture_data_template = {
 		describe = "Use it to practice your gardening skills.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -11954,6 +12906,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[11115] = {
@@ -11981,7 +12936,6 @@ pg.furniture_data_template = {
 		describe = "A small carriage as immobile as a statue.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -12019,6 +12973,9 @@ pg.furniture_data_template = {
 				"ap/nanguacheap_using"
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[11116] = {
@@ -12046,7 +13003,6 @@ pg.furniture_data_template = {
 		describe = "A crispy screen, not very useful during meal times.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -12058,6 +13014,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[11117] = {
@@ -12085,7 +13044,6 @@ pg.furniture_data_template = {
 		describe = "A soft and sweet stool.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -12109,6 +13067,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -12137,7 +13098,6 @@ pg.furniture_data_template = {
 		describe = "A little table, nothing special.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -12160,6 +13120,9 @@ pg.furniture_data_template = {
 				3,
 				2
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -12188,7 +13151,6 @@ pg.furniture_data_template = {
 		describe = "A little chair, nothing special.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -12212,6 +13174,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -12240,7 +13205,6 @@ pg.furniture_data_template = {
 		describe = "Used to separate your garden.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -12252,6 +13216,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[11121] = {
@@ -12279,7 +13246,6 @@ pg.furniture_data_template = {
 		describe = "Freshly baked. Welcome to have a taste.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -12291,6 +13257,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[11122] = {
@@ -12318,7 +13287,6 @@ pg.furniture_data_template = {
 		describe = "Good for battle conferences or... parties.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -12358,6 +13326,9 @@ pg.furniture_data_template = {
 				3
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[11123] = {
@@ -12385,7 +13356,6 @@ pg.furniture_data_template = {
 		describe = "「How can I help you?」",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -12397,6 +13367,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[11124] = {
@@ -12424,7 +13397,6 @@ pg.furniture_data_template = {
 		describe = "Full of little biscuits.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -12436,6 +13408,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[11125] = {
@@ -12463,7 +13438,6 @@ pg.furniture_data_template = {
 		describe = "It requires gardeners' attention.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -12475,6 +13449,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[11126] = {
@@ -12502,7 +13479,6 @@ pg.furniture_data_template = {
 		describe = "Newly designed.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -12514,6 +13490,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[11127] = {
@@ -12541,7 +13520,6 @@ pg.furniture_data_template = {
 		describe = "A round carpet with lace.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -12553,6 +13531,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[11128] = {
@@ -12580,7 +13561,6 @@ pg.furniture_data_template = {
 		describe = "You need a description for grass? Now you have it.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -12592,6 +13572,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[11201] = {
@@ -12619,7 +13602,6 @@ pg.furniture_data_template = {
 		describe = "Tea tastes better with elegance.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -12631,6 +13613,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[11202] = {
@@ -12658,7 +13643,6 @@ pg.furniture_data_template = {
 		describe = "Color, aroma, and taste... The perfect appetizing combo.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -12670,6 +13654,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[11203] = {
@@ -12697,7 +13684,6 @@ pg.furniture_data_template = {
 		describe = "An aromatherapy candle.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -12709,6 +13695,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[11301] = {
@@ -12736,7 +13725,6 @@ pg.furniture_data_template = {
 		describe = "You can see a good view through the window.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -12748,6 +13736,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[11302] = {
@@ -12775,7 +13766,6 @@ pg.furniture_data_template = {
 		describe = "A high rack for biscuits bottles.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -12787,6 +13777,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[11303] = {
@@ -12814,7 +13807,6 @@ pg.furniture_data_template = {
 		describe = "A fine wooden door.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -12826,6 +13818,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[11304] = {
@@ -12853,7 +13848,6 @@ pg.furniture_data_template = {
 		describe = "A glass wall cabinet with tea props.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -12865,6 +13859,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[11305] = {
@@ -12892,7 +13889,6 @@ pg.furniture_data_template = {
 		describe = "A door leads to your garden.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -12904,6 +13900,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[11306] = {
@@ -12931,7 +13930,6 @@ pg.furniture_data_template = {
 		describe = "Spring is coming.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -12943,6 +13941,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[11307] = {
@@ -12970,7 +13971,6 @@ pg.furniture_data_template = {
 		describe = "Wall cabinet with small decorations.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -12982,6 +13982,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[12002] = {
@@ -13009,7 +14012,6 @@ pg.furniture_data_template = {
 		describe = "Feel the charm of Autumn in your home.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -13018,6 +14020,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[12102] = {
@@ -13045,7 +14050,6 @@ pg.furniture_data_template = {
 		describe = "Use to hang gorgeous clothes.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -13057,6 +14061,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[12103] = {
@@ -13084,7 +14091,6 @@ pg.furniture_data_template = {
 		describe = "Buddha above, bless me!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -13096,6 +14102,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[12104] = {
@@ -13123,7 +14132,6 @@ pg.furniture_data_template = {
 		describe = "Light up an entire side of the world.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -13135,6 +14143,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[12105] = {
@@ -13162,7 +14173,6 @@ pg.furniture_data_template = {
 		describe = "Take a break and have some snacks.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -13186,6 +14196,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -13214,7 +14227,6 @@ pg.furniture_data_template = {
 		describe = "Swim to the skies!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -13226,6 +14238,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[12107] = {
@@ -13253,7 +14268,6 @@ pg.furniture_data_template = {
 		describe = "Take a break if you’re tired.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -13277,6 +14291,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -13305,7 +14322,6 @@ pg.furniture_data_template = {
 		describe = "Meow meow meow!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -13317,6 +14333,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[12110] = {
@@ -13344,7 +14363,6 @@ pg.furniture_data_template = {
 		describe = "Financial Resource ",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -13368,6 +14386,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -13396,7 +14417,6 @@ pg.furniture_data_template = {
 		describe = "A painting of koi that will swim for an eternity.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -13408,6 +14428,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[12202] = {
@@ -13435,7 +14458,6 @@ pg.furniture_data_template = {
 		describe = "If you’re bored, head to the courtyard to get some fresh air. ",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -13447,6 +14469,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13001] = {
@@ -13474,7 +14499,6 @@ pg.furniture_data_template = {
 		describe = "Dark purple floors. Is something growing from underneath?",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -13483,6 +14507,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13002] = {
@@ -13510,7 +14537,6 @@ pg.furniture_data_template = {
 		describe = "The design is covered in veins. How terrifying!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -13519,6 +14545,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13101] = {
@@ -13546,7 +14575,6 @@ pg.furniture_data_template = {
 		describe = "Commander, if someone doesn't listen to your orders, just bury them here!",
 		dorm_id = 0,
 		gem_price = 200,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		new = 0,
@@ -13557,6 +14585,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"fenkenghlB",
@@ -13648,7 +14679,6 @@ pg.furniture_data_template = {
 		describe = "Hard to collect but worth the time!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -13680,6 +14710,9 @@ pg.furniture_data_template = {
 				4
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13103] = {
@@ -13707,7 +14740,6 @@ pg.furniture_data_template = {
 		describe = "A little wooden stool. It must have quite the history.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -13731,6 +14763,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -13759,7 +14794,6 @@ pg.furniture_data_template = {
 		describe = "This is the entrance to a mysterious place.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -13771,6 +14805,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13105] = {
@@ -13798,7 +14835,6 @@ pg.furniture_data_template = {
 		describe = "Eh? Is this a new bed?",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -13823,6 +14859,9 @@ pg.furniture_data_template = {
 				},
 				"hl/guancaihl_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -13851,7 +14890,6 @@ pg.furniture_data_template = {
 		describe = "A pumpkin magically grown in the shape of a chair!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -13889,6 +14927,9 @@ pg.furniture_data_template = {
 				"hl/nanguazhuohl_using"
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13107] = {
@@ -13916,7 +14957,6 @@ pg.furniture_data_template = {
 		describe = "Be careful not to drown in the swamp!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -13928,6 +14968,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13108] = {
@@ -13955,7 +14998,6 @@ pg.furniture_data_template = {
 		describe = "What happened to the water?",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -13967,6 +15009,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13109] = {
@@ -13994,7 +15039,6 @@ pg.furniture_data_template = {
 		describe = "A large bottle containing a mysterious liquid. Best not to open it!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -14006,6 +15050,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13110] = {
@@ -14033,7 +15080,6 @@ pg.furniture_data_template = {
 		describe = "Want to try something new?",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -14083,6 +15129,9 @@ pg.furniture_data_template = {
 				"hl/qiulonghl_using"
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13111] = {
@@ -14110,7 +15159,6 @@ pg.furniture_data_template = {
 		describe = "A simply magical aircraft.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -14122,6 +15170,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13112] = {
@@ -14149,7 +15200,6 @@ pg.furniture_data_template = {
 		describe = "A nameless tomb.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -14161,6 +15211,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13113] = {
@@ -14188,7 +15241,6 @@ pg.furniture_data_template = {
 		describe = "Don't get too close!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -14200,6 +15252,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13114] = {
@@ -14227,7 +15282,6 @@ pg.furniture_data_template = {
 		describe = "Remember to clean up after experimenting!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -14275,6 +15329,9 @@ pg.furniture_data_template = {
 				4
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13115] = {
@@ -14302,7 +15359,6 @@ pg.furniture_data_template = {
 		describe = "Looks like an old cape.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -14334,6 +15390,9 @@ pg.furniture_data_template = {
 				3
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13116] = {
@@ -14361,7 +15420,6 @@ pg.furniture_data_template = {
 		describe = "Stacked full of spell books.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -14373,6 +15431,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13117] = {
@@ -14400,7 +15461,6 @@ pg.furniture_data_template = {
 		describe = "A sack filled with loads of candy!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -14412,6 +15472,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13118] = {
@@ -14439,7 +15502,6 @@ pg.furniture_data_template = {
 		describe = "I, the Chirp of Death, descend from the shadows!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -14451,6 +15513,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13119] = {
@@ -14478,7 +15543,6 @@ pg.furniture_data_template = {
 		describe = "A sack filled with loads of peppermints!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -14490,6 +15554,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13120] = {
@@ -14517,7 +15584,6 @@ pg.furniture_data_template = {
 		describe = "A rug full of stars.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -14529,6 +15595,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13121] = {
@@ -14556,7 +15625,6 @@ pg.furniture_data_template = {
 		describe = "This isn't supposed to look like this!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -14568,6 +15636,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13122] = {
@@ -14595,7 +15666,6 @@ pg.furniture_data_template = {
 		describe = "A deep amethyst-purple rug. Hard to see clearly on purple flooring.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -14607,6 +15677,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13123] = {
@@ -14634,7 +15707,6 @@ pg.furniture_data_template = {
 		describe = "No one quite knows where this flower came from.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -14646,6 +15718,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13124] = {
@@ -14673,7 +15748,6 @@ pg.furniture_data_template = {
 		describe = "What treasures could be inside this grave?",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -14685,6 +15759,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13125] = {
@@ -14712,7 +15789,6 @@ pg.furniture_data_template = {
 		describe = "Use to separate two areas.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -14724,6 +15800,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13126] = {
@@ -14751,7 +15830,6 @@ pg.furniture_data_template = {
 		describe = "Bubbling, bubbling, witch's brew. Make me a potion, and I'll turn you blue.",
 		dorm_id = 0,
 		gem_price = 150,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		new = 0,
@@ -14762,6 +15840,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"guohlB",
@@ -14844,7 +15925,6 @@ pg.furniture_data_template = {
 		describe = "Come forth, my little demon! It's time to play!",
 		dorm_id = 0,
 		gem_price = 150,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		new = 0,
@@ -14855,6 +15935,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"mofazhenhlB",
@@ -14935,7 +16018,6 @@ pg.furniture_data_template = {
 		describe = "Not much use.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -14947,6 +16029,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13201] = {
@@ -14974,7 +16059,6 @@ pg.furniture_data_template = {
 		describe = "No touching!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -14986,6 +16070,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13202] = {
@@ -15013,7 +16100,6 @@ pg.furniture_data_template = {
 		describe = "Flickering firelight.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -15025,6 +16111,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13203] = {
@@ -15052,7 +16141,6 @@ pg.furniture_data_template = {
 		describe = "*Meow mii~*!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -15064,6 +16152,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13204] = {
@@ -15091,7 +16182,6 @@ pg.furniture_data_template = {
 		describe = "A laughing pumpkin lamp.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -15103,6 +16193,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13205] = {
@@ -15130,7 +16223,6 @@ pg.furniture_data_template = {
 		describe = "A pumpkin with good command over witchcraft.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -15142,6 +16234,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13206] = {
@@ -15169,7 +16264,6 @@ pg.furniture_data_template = {
 		describe = "Useful for various physical and chemical studies.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -15181,6 +16275,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13301] = {
@@ -15208,7 +16305,6 @@ pg.furniture_data_template = {
 		describe = "Cobwebs have covered the holes in the glass.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -15220,6 +16316,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13302] = {
@@ -15247,7 +16346,6 @@ pg.furniture_data_template = {
 		describe = "It's going to take a lot of courage to open this door.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -15259,6 +16357,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13303] = {
@@ -15286,7 +16387,6 @@ pg.furniture_data_template = {
 		describe = "A hanging painting called 'Midnight'.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -15298,6 +16398,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13304] = {
@@ -15325,7 +16428,6 @@ pg.furniture_data_template = {
 		describe = "Overlooks the haunting in the distance.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -15337,6 +16439,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13305] = {
@@ -15364,7 +16469,6 @@ pg.furniture_data_template = {
 		describe = "What's behind this iron gate?",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -15376,6 +16480,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13306] = {
@@ -15403,7 +16510,6 @@ pg.furniture_data_template = {
 		describe = "*Ke... ke... ke...~* You can still hear the skull cackling faintly.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -15415,6 +16521,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[14001] = {
@@ -15442,7 +16551,6 @@ pg.furniture_data_template = {
 		describe = "The idea of an infinite universe sure is humbling.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 14,
 		spine_extra = "",
 		time = "always",
@@ -15451,6 +16559,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[14002] = {
@@ -15478,7 +16589,6 @@ pg.furniture_data_template = {
 		describe = "The idea of an infinite universe sure is humbling.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 14,
 		spine_extra = "",
 		time = "always",
@@ -15487,6 +16597,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[14101] = {
@@ -15514,7 +16627,6 @@ pg.furniture_data_template = {
 		describe = "Everything lasts longer in a vacuum!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 14,
 		spine_extra = "",
 		time = "always",
@@ -15526,6 +16638,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[14102] = {
@@ -15553,7 +16668,6 @@ pg.furniture_data_template = {
 		describe = "The eighth planet - Neptune!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 14,
 		spine_extra = "",
 		time = "always",
@@ -15577,6 +16691,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -15605,7 +16722,6 @@ pg.furniture_data_template = {
 		describe = "The fourth planet - Mars!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 14,
 		spine_extra = "",
 		time = "always",
@@ -15629,6 +16745,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -15657,7 +16776,6 @@ pg.furniture_data_template = {
 		describe = "As soft as a cloud.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 14,
 		spine_extra = "",
 		time = "always",
@@ -15682,6 +16800,9 @@ pg.furniture_data_template = {
 				},
 				"st/guifeiyist_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -15710,7 +16831,6 @@ pg.furniture_data_template = {
 		describe = "The fifth planet - Jupiter!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 14,
 		spine_extra = "",
 		time = "always",
@@ -15734,6 +16854,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -15762,7 +16885,6 @@ pg.furniture_data_template = {
 		describe = "A screen full of stars. May all your dreams come true!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 14,
 		spine_extra = "",
 		time = "always",
@@ -15774,6 +16896,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[14107] = {
@@ -15801,7 +16926,6 @@ pg.furniture_data_template = {
 		describe = "A pink star balloon.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 14,
 		spine_extra = "",
 		time = "always",
@@ -15813,6 +16937,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[14108] = {
@@ -15840,7 +16967,6 @@ pg.furniture_data_template = {
 		describe = "A yellow star balloon.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 14,
 		spine_extra = "",
 		time = "always",
@@ -15852,6 +16978,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[14109] = {
@@ -15879,7 +17008,6 @@ pg.furniture_data_template = {
 		describe = "A starry night holds a certain charm.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 14,
 		spine_extra = "",
 		time = "always",
@@ -15891,6 +17019,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[14110] = {
@@ -15918,7 +17049,6 @@ pg.furniture_data_template = {
 		describe = "So comfortable you won't be able to get up!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 14,
 		spine_extra = "",
 		time = "always",
@@ -15943,6 +17073,9 @@ pg.furniture_data_template = {
 				},
 				"st/shafast_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -15971,7 +17104,6 @@ pg.furniture_data_template = {
 		describe = "A small projection device which reveals the mysteries of the universe.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 14,
 		spine_extra = "",
 		time = "always",
@@ -15983,6 +17115,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[14112] = {
@@ -16010,7 +17145,6 @@ pg.furniture_data_template = {
 		describe = "Saturn makes a perfect table.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 14,
 		spine_extra = "",
 		time = "always",
@@ -16022,6 +17156,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[14113] = {
@@ -16049,7 +17186,6 @@ pg.furniture_data_template = {
 		describe = "Cover with a tablecloth before using.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 14,
 		spine_extra = "",
 		time = "always",
@@ -16097,6 +17233,9 @@ pg.furniture_data_template = {
 				2
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[14114] = {
@@ -16124,7 +17263,6 @@ pg.furniture_data_template = {
 		describe = "Let's see what lies ahead!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 14,
 		spine_extra = "",
 		time = "always",
@@ -16136,6 +17274,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[14115] = {
@@ -16163,7 +17304,6 @@ pg.furniture_data_template = {
 		describe = "Shake it, shake it, shake it side to side.",
 		dorm_id = 0,
 		gem_price = 200,
-		can_trigger = 0,
 		themeId = 14,
 		spine_extra = "",
 		new = 0,
@@ -16174,6 +17314,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"yueliangstB",
@@ -16256,7 +17399,6 @@ pg.furniture_data_template = {
 		describe = "Take a quick rinse!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 14,
 		spine_extra = "",
 		time = "always",
@@ -16281,6 +17423,9 @@ pg.furniture_data_template = {
 				},
 				"st/yugangst_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -16309,7 +17454,6 @@ pg.furniture_data_template = {
 		describe = "It feels so good to sit down!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 14,
 		spine_extra = "",
 		time = "always",
@@ -16333,6 +17477,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -16361,7 +17508,6 @@ pg.furniture_data_template = {
 		describe = "The stairway to heaven.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 14,
 		spine_extra = "",
 		time = "always",
@@ -16373,6 +17519,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[14119] = {
@@ -16400,7 +17549,6 @@ pg.furniture_data_template = {
 		describe = "Try not to fall through!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 14,
 		spine_extra = "",
 		time = "always",
@@ -16438,6 +17586,9 @@ pg.furniture_data_template = {
 				"st/chuangst_using1"
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[14120] = {
@@ -16465,7 +17616,6 @@ pg.furniture_data_template = {
 		describe = "Pew, pew, pew!",
 		dorm_id = 0,
 		gem_price = 200,
-		can_trigger = 0,
 		themeId = 14,
 		spine_extra = "",
 		new = 0,
@@ -16476,6 +17626,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"feichuanstB",
@@ -16576,7 +17729,6 @@ pg.furniture_data_template = {
 		describe = "The stars on the other side are barely visible.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 14,
 		spine_extra = "",
 		time = "always",
@@ -16588,6 +17740,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[14201] = {
@@ -16615,7 +17770,6 @@ pg.furniture_data_template = {
 		describe = "A specimen from another world.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 14,
 		spine_extra = "",
 		time = "always",
@@ -16627,6 +17781,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[14301] = {
@@ -16654,7 +17811,6 @@ pg.furniture_data_template = {
 		describe = "What's on the other side?",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 14,
 		spine_extra = "",
 		time = "always",
@@ -16666,6 +17822,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[14302] = {
@@ -16693,7 +17852,6 @@ pg.furniture_data_template = {
 		describe = "The universe is vast. Are we alone?",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 14,
 		spine_extra = "",
 		time = "always",
@@ -16705,6 +17863,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[14303] = {
@@ -16732,7 +17893,6 @@ pg.furniture_data_template = {
 		describe = "Remember to put on your spacesuit before leaving the airlock.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 14,
 		spine_extra = "",
 		time = "always",
@@ -16744,6 +17904,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[14304] = {
@@ -16771,7 +17934,6 @@ pg.furniture_data_template = {
 		describe = "Don't go into space without first wearing this!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 14,
 		spine_extra = "",
 		time = "always",
@@ -16783,6 +17945,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[16001] = {
@@ -16810,7 +17975,6 @@ pg.furniture_data_template = {
 		describe = "Authentic wooden floorboards! Be careful not to spill water on them.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 16,
 		spine_extra = "",
 		time = "always",
@@ -16818,6 +17982,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -16871,7 +18038,6 @@ pg.furniture_data_template = {
 		describe = "This festive design will make your head spin by the end of the month. Merry Christmas!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 16,
 		spine_extra = "",
 		time = "always",
@@ -16879,6 +18045,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -16932,7 +18101,6 @@ pg.furniture_data_template = {
 		describe = "Giving one of these is a polite way of saying \"you need a bath for Christmas.\"",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 16,
 		spine_extra = "",
 		time = "always",
@@ -16956,6 +18124,9 @@ pg.furniture_data_template = {
 				},
 				"cr/yugangcr_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {},
 		discount_time = {
@@ -17010,7 +18181,6 @@ pg.furniture_data_template = {
 		describe = "Choo choo! The train has arrived at the station!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 16,
 		spine_extra = "",
 		time = "always",
@@ -17021,6 +18191,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -17074,7 +18247,6 @@ pg.furniture_data_template = {
 		describe = "Good for maintaining correct posture while stuffing yourself senseless.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 16,
 		spine_extra = "",
 		time = "always",
@@ -17097,6 +18269,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {},
 		discount_time = {
@@ -17151,7 +18326,6 @@ pg.furniture_data_template = {
 		describe = "A comfortable seat to rest at after a long journey.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 16,
 		spine_extra = "",
 		time = "always",
@@ -17185,6 +18359,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {},
 		discount_time = {
@@ -17239,7 +18416,6 @@ pg.furniture_data_template = {
 		describe = "Lavish feast not included with purchase.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 16,
 		spine_extra = "",
 		time = "always",
@@ -17302,6 +18478,9 @@ pg.furniture_data_template = {
 				4
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -17355,7 +18534,6 @@ pg.furniture_data_template = {
 		describe = "This little Manjuu is substituting for Santa Claus.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 16,
 		spine_extra = "",
 		time = "always",
@@ -17366,6 +18544,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -17419,7 +18600,6 @@ pg.furniture_data_template = {
 		describe = "It's stuffed to the brim with presents. Not for you though.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 16,
 		spine_extra = "",
 		time = "always",
@@ -17430,6 +18610,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -17483,7 +18666,6 @@ pg.furniture_data_template = {
 		describe = "Good for succumbing to food coma after stuffing yourself senseless.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 16,
 		spine_extra = "",
 		time = "always",
@@ -17519,6 +18701,9 @@ pg.furniture_data_template = {
 				},
 				"cr/shafacr_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {},
 		discount_time = {
@@ -17573,7 +18758,6 @@ pg.furniture_data_template = {
 		describe = "It's just not Christmas without it.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 16,
 		spine_extra = "",
 		time = "always",
@@ -17584,6 +18768,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -17637,7 +18824,6 @@ pg.furniture_data_template = {
 		describe = "Shiny lights dance across this pretty snowglobe.",
 		dorm_id = 0,
 		gem_price = 150,
-		can_trigger = 0,
 		themeId = 16,
 		spine_extra = "",
 		time = "always",
@@ -17648,6 +18834,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"shuijingqiuB",
@@ -17748,7 +18937,6 @@ pg.furniture_data_template = {
 		describe = "A sled so big you can even sleep in it.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 16,
 		spine_extra = "",
 		time = "always",
@@ -17796,6 +18984,9 @@ pg.furniture_data_template = {
 				},
 				"cr/xueqiaocr_using2"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {},
 		discount_time = {
@@ -17850,7 +19041,6 @@ pg.furniture_data_template = {
 		describe = "This guy is huge!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 16,
 		spine_extra = "",
 		time = "always",
@@ -17873,6 +19063,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {},
 		discount_time = {
@@ -17927,7 +19120,6 @@ pg.furniture_data_template = {
 		describe = "Don't worry, he won't melt indoors.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 16,
 		spine_extra = "",
 		time = "always",
@@ -17938,6 +19130,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -17991,7 +19186,6 @@ pg.furniture_data_template = {
 		describe = "Don't bully the reindeer.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 16,
 		spine_extra = "",
 		time = "always",
@@ -18002,6 +19196,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -18055,7 +19252,6 @@ pg.furniture_data_template = {
 		describe = "A small rocking chair. Try not to go too crazy while sitting in it.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 16,
 		spine_extra = "",
 		time = "always",
@@ -18079,6 +19275,9 @@ pg.furniture_data_template = {
 				},
 				"cr/yaoyaoyicr_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {},
 		discount_time = {
@@ -18133,7 +19332,6 @@ pg.furniture_data_template = {
 		describe = "A green carpet with a large snowflake design.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 16,
 		spine_extra = "",
 		time = "always",
@@ -18144,6 +19342,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -18197,7 +19398,6 @@ pg.furniture_data_template = {
 		describe = "As pure white as the driven snow. Also, a nightmare to keep clean.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 16,
 		spine_extra = "",
 		time = "always",
@@ -18208,6 +19408,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -18261,7 +19464,6 @@ pg.furniture_data_template = {
 		describe = "A classic taste of Christmas.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 16,
 		spine_extra = "",
 		time = "always",
@@ -18272,6 +19474,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -18325,7 +19530,6 @@ pg.furniture_data_template = {
 		describe = "A nice, juicy hunk of meat slathered with sauce.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 16,
 		spine_extra = "",
 		time = "always",
@@ -18336,6 +19540,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -18389,7 +19596,6 @@ pg.furniture_data_template = {
 		describe = "Everyone's favorite staple carbohydrate.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 16,
 		spine_extra = "",
 		time = "always",
@@ -18400,6 +19606,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -18453,7 +19662,6 @@ pg.furniture_data_template = {
 		describe = "A big slab of pork.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 16,
 		spine_extra = "",
 		time = "always",
@@ -18464,6 +19672,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -18517,7 +19728,6 @@ pg.furniture_data_template = {
 		describe = "Another Christmas essential! Get those stockings ready!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 16,
 		spine_extra = "",
 		time = "always",
@@ -18528,6 +19738,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -18581,7 +19794,6 @@ pg.furniture_data_template = {
 		describe = "A small window that allows you to enjoy the view of a white Christmas.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 16,
 		spine_extra = "",
 		time = "always",
@@ -18592,6 +19804,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -18645,7 +19860,6 @@ pg.furniture_data_template = {
 		describe = "Wonder if there's anything interesting to read here...",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 16,
 		spine_extra = "",
 		time = "always",
@@ -18656,6 +19870,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -18709,7 +19926,6 @@ pg.furniture_data_template = {
 		describe = "A transparent glass door. Be careful that Yuudachi doesn't run into this.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 16,
 		spine_extra = "",
 		time = "always",
@@ -18720,6 +19936,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -18773,7 +19992,6 @@ pg.furniture_data_template = {
 		describe = "Merry Christmas!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 16,
 		spine_extra = "",
 		time = "always",
@@ -18784,6 +20002,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -18837,7 +20058,6 @@ pg.furniture_data_template = {
 		describe = "The snowy scenery outside is so beautiful!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 16,
 		spine_extra = "",
 		time = "always",
@@ -18848,6 +20068,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -18901,13 +20124,15 @@ pg.furniture_data_template = {
 		describe = "Take care not to slip and fall.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 17,
 		spine_extra = "",
 		new = 0,
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -18938,9 +20163,9 @@ pg.furniture_data_template = {
 		discount_time = {
 			{
 				{
-					2019,
-					1,
-					10
+					2018,
+					12,
+					27
 				},
 				{
 					0,
@@ -18952,7 +20177,7 @@ pg.furniture_data_template = {
 				{
 					2019,
 					1,
-					31
+					16
 				},
 				{
 					23,
@@ -18987,13 +20212,15 @@ pg.furniture_data_template = {
 		describe = "What you see in your first dream after New Year's will foretell your luck for the rest of the year. Sweet dreams!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 17,
 		spine_extra = "",
 		new = 0,
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -19024,9 +20251,9 @@ pg.furniture_data_template = {
 		discount_time = {
 			{
 				{
-					2019,
-					1,
-					10
+					2018,
+					12,
+					27
 				},
 				{
 					0,
@@ -19038,7 +20265,7 @@ pg.furniture_data_template = {
 				{
 					2019,
 					1,
-					31
+					16
 				},
 				{
 					23,
@@ -19073,7 +20300,6 @@ pg.furniture_data_template = {
 		describe = "A surprisingly welcome footbath. Why don't you give it a try, Commander?",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 17,
 		spine_extra = "",
 		new = 0,
@@ -19109,6 +20335,9 @@ pg.furniture_data_template = {
 				"mh/zutangmh_using"
 			}
 		},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -19139,9 +20368,9 @@ pg.furniture_data_template = {
 		discount_time = {
 			{
 				{
-					2019,
-					1,
-					10
+					2018,
+					12,
+					27
 				},
 				{
 					0,
@@ -19153,7 +20382,7 @@ pg.furniture_data_template = {
 				{
 					2019,
 					1,
-					31
+					16
 				},
 				{
 					23,
@@ -19188,7 +20417,6 @@ pg.furniture_data_template = {
 		describe = "Tranquility is wonderful, even during New Year's.",
 		dorm_id = 0,
 		gem_price = 100,
-		can_trigger = 0,
 		themeId = 17,
 		spine_extra = "",
 		new = 0,
@@ -19198,6 +20426,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"chitang",
@@ -19234,9 +20465,9 @@ pg.furniture_data_template = {
 		discount_time = {
 			{
 				{
-					2019,
-					1,
-					10
+					2018,
+					12,
+					27
 				},
 				{
 					0,
@@ -19248,7 +20479,7 @@ pg.furniture_data_template = {
 				{
 					2019,
 					1,
-					31
+					16
 				},
 				{
 					23,
@@ -19283,7 +20514,6 @@ pg.furniture_data_template = {
 		describe = "You make a wish then paint in one of its eyes. If it comes true, paint in the other.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 17,
 		spine_extra = "",
 		new = 0,
@@ -19293,6 +20523,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -19323,9 +20556,9 @@ pg.furniture_data_template = {
 		discount_time = {
 			{
 				{
-					2019,
-					1,
-					10
+					2018,
+					12,
+					27
 				},
 				{
 					0,
@@ -19337,7 +20570,7 @@ pg.furniture_data_template = {
 				{
 					2019,
 					1,
-					31
+					16
 				},
 				{
 					23,
@@ -19372,7 +20605,6 @@ pg.furniture_data_template = {
 		describe = "A stone lantern of a certain design often seen in the Sakura Empire's domain.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 17,
 		spine_extra = "",
 		new = 0,
@@ -19382,6 +20614,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -19412,9 +20647,9 @@ pg.furniture_data_template = {
 		discount_time = {
 			{
 				{
-					2019,
-					1,
-					10
+					2018,
+					12,
+					27
 				},
 				{
 					0,
@@ -19426,7 +20661,7 @@ pg.furniture_data_template = {
 				{
 					2019,
 					1,
-					31
+					16
 				},
 				{
 					23,
@@ -19461,7 +20696,6 @@ pg.furniture_data_template = {
 		describe = "Two paper lanterns painted with a beautiful sakura flower print.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 17,
 		spine_extra = "",
 		new = 0,
@@ -19471,6 +20705,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -19501,9 +20738,9 @@ pg.furniture_data_template = {
 		discount_time = {
 			{
 				{
-					2019,
-					1,
-					10
+					2018,
+					12,
+					27
 				},
 				{
 					0,
@@ -19515,7 +20752,7 @@ pg.furniture_data_template = {
 				{
 					2019,
 					1,
-					31
+					16
 				},
 				{
 					23,
@@ -19550,7 +20787,6 @@ pg.furniture_data_template = {
 		describe = "Say a prayer and wish for a year of good luck.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 17,
 		spine_extra = "",
 		new = 0,
@@ -19560,6 +20796,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -19590,9 +20829,9 @@ pg.furniture_data_template = {
 		discount_time = {
 			{
 				{
-					2019,
-					1,
-					10
+					2018,
+					12,
+					27
 				},
 				{
 					0,
@@ -19604,7 +20843,7 @@ pg.furniture_data_template = {
 				{
 					2019,
 					1,
-					31
+					16
 				},
 				{
 					23,
@@ -19639,7 +20878,6 @@ pg.furniture_data_template = {
 		describe = "\"Explosions are nice and all, but hitting a drum is fun too!\"",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 17,
 		spine_extra = "",
 		new = 0,
@@ -19649,6 +20887,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -19679,9 +20920,9 @@ pg.furniture_data_template = {
 		discount_time = {
 			{
 				{
-					2019,
-					1,
-					10
+					2018,
+					12,
+					27
 				},
 				{
 					0,
@@ -19693,7 +20934,7 @@ pg.furniture_data_template = {
 				{
 					2019,
 					1,
-					31
+					16
 				},
 				{
 					23,
@@ -19728,7 +20969,6 @@ pg.furniture_data_template = {
 		describe = "\"Please, gods, make this the year where I defeat the Grey Ghost.\"",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 17,
 		spine_extra = "",
 		new = 0,
@@ -19738,6 +20978,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -19768,9 +21011,9 @@ pg.furniture_data_template = {
 		discount_time = {
 			{
 				{
-					2019,
-					1,
-					10
+					2018,
+					12,
+					27
 				},
 				{
 					0,
@@ -19782,7 +21025,7 @@ pg.furniture_data_template = {
 				{
 					2019,
 					1,
-					31
+					16
 				},
 				{
 					23,
@@ -19817,7 +21060,6 @@ pg.furniture_data_template = {
 		describe = "An old well that hasn't been used for quite some time.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 17,
 		spine_extra = "",
 		new = 0,
@@ -19827,6 +21069,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -19857,9 +21102,9 @@ pg.furniture_data_template = {
 		discount_time = {
 			{
 				{
-					2019,
-					1,
-					10
+					2018,
+					12,
+					27
 				},
 				{
 					0,
@@ -19871,7 +21116,7 @@ pg.furniture_data_template = {
 				{
 					2019,
 					1,
-					31
+					16
 				},
 				{
 					23,
@@ -19906,7 +21151,6 @@ pg.furniture_data_template = {
 		describe = "A staircase decorated with stone lanterns along both sides.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 17,
 		spine_extra = "",
 		new = 0,
@@ -19916,6 +21160,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -19946,9 +21193,9 @@ pg.furniture_data_template = {
 		discount_time = {
 			{
 				{
-					2019,
-					1,
-					10
+					2018,
+					12,
+					27
 				},
 				{
 					0,
@@ -19960,7 +21207,7 @@ pg.furniture_data_template = {
 				{
 					2019,
 					1,
-					31
+					16
 				},
 				{
 					23,
@@ -19995,7 +21242,6 @@ pg.furniture_data_template = {
 		describe = "It's a long, long road.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 17,
 		spine_extra = "",
 		new = 0,
@@ -20005,6 +21251,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -20035,9 +21284,9 @@ pg.furniture_data_template = {
 		discount_time = {
 			{
 				{
-					2019,
-					1,
-					10
+					2018,
+					12,
+					27
 				},
 				{
 					0,
@@ -20049,7 +21298,7 @@ pg.furniture_data_template = {
 				{
 					2019,
 					1,
-					31
+					16
 				},
 				{
 					23,
@@ -20084,7 +21333,6 @@ pg.furniture_data_template = {
 		describe = "A long, long, looooong road.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 17,
 		spine_extra = "",
 		new = 0,
@@ -20094,6 +21342,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -20124,9 +21375,9 @@ pg.furniture_data_template = {
 		discount_time = {
 			{
 				{
-					2019,
-					1,
-					10
+					2018,
+					12,
+					27
 				},
 				{
 					0,
@@ -20138,7 +21389,7 @@ pg.furniture_data_template = {
 				{
 					2019,
 					1,
-					31
+					16
 				},
 				{
 					23,
@@ -20173,7 +21424,6 @@ pg.furniture_data_template = {
 		describe = "A shinto gate decorated with a sacred rope that wards off evil.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 17,
 		spine_extra = "",
 		new = 0,
@@ -20183,6 +21433,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -20213,9 +21466,9 @@ pg.furniture_data_template = {
 		discount_time = {
 			{
 				{
-					2019,
-					1,
-					10
+					2018,
+					12,
+					27
 				},
 				{
 					0,
@@ -20227,7 +21480,7 @@ pg.furniture_data_template = {
 				{
 					2019,
 					1,
-					31
+					16
 				},
 				{
 					23,
@@ -20262,7 +21515,6 @@ pg.furniture_data_template = {
 		describe = "A-wham! A-bam! A-wham! Be careful not to get mochi stuck in your throat!",
 		dorm_id = 0,
 		gem_price = 90,
-		can_trigger = 0,
 		themeId = 17,
 		spine_extra = "",
 		new = 0,
@@ -20272,6 +21524,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"daniangao",
@@ -20308,9 +21563,9 @@ pg.furniture_data_template = {
 		discount_time = {
 			{
 				{
-					2019,
-					1,
-					10
+					2018,
+					12,
+					27
 				},
 				{
 					0,
@@ -20322,7 +21577,7 @@ pg.furniture_data_template = {
 				{
 					2019,
 					1,
-					31
+					16
 				},
 				{
 					23,
@@ -20357,7 +21612,6 @@ pg.furniture_data_template = {
 		describe = "A set of colorful temari. Can be used for handball games, but mainly given away as gifts.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 17,
 		spine_extra = "",
 		new = 0,
@@ -20367,6 +21621,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -20397,9 +21654,9 @@ pg.furniture_data_template = {
 		discount_time = {
 			{
 				{
-					2019,
-					1,
-					10
+					2018,
+					12,
+					27
 				},
 				{
 					0,
@@ -20411,7 +21668,7 @@ pg.furniture_data_template = {
 				{
 					2019,
 					1,
-					31
+					16
 				},
 				{
 					23,
@@ -20446,7 +21703,6 @@ pg.furniture_data_template = {
 		describe = "A red paper umbrella. Often carried by geisha to protect against the sun.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 17,
 		spine_extra = "",
 		new = 0,
@@ -20456,6 +21712,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -20486,9 +21745,9 @@ pg.furniture_data_template = {
 		discount_time = {
 			{
 				{
-					2019,
-					1,
-					10
+					2018,
+					12,
+					27
 				},
 				{
 					0,
@@ -20500,7 +21759,7 @@ pg.furniture_data_template = {
 				{
 					2019,
 					1,
-					31
+					16
 				},
 				{
 					23,
@@ -20535,7 +21794,6 @@ pg.furniture_data_template = {
 		describe = "This stone can predict what romantic things the future has in store for you.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 17,
 		spine_extra = "",
 		new = 0,
@@ -20545,6 +21803,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -20575,9 +21836,9 @@ pg.furniture_data_template = {
 		discount_time = {
 			{
 				{
-					2019,
-					1,
-					10
+					2018,
+					12,
+					27
 				},
 				{
 					0,
@@ -20589,7 +21850,7 @@ pg.furniture_data_template = {
 				{
 					2019,
 					1,
-					31
+					16
 				},
 				{
 					23,
@@ -20624,7 +21885,6 @@ pg.furniture_data_template = {
 		describe = "You can pray to this statue for happiness, luck, and good gacha pulls.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 17,
 		spine_extra = "",
 		new = 0,
@@ -20634,6 +21894,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -20664,9 +21927,9 @@ pg.furniture_data_template = {
 		discount_time = {
 			{
 				{
-					2019,
-					1,
-					10
+					2018,
+					12,
+					27
 				},
 				{
 					0,
@@ -20678,7 +21941,7 @@ pg.furniture_data_template = {
 				{
 					2019,
 					1,
-					31
+					16
 				},
 				{
 					23,
@@ -20713,7 +21976,6 @@ pg.furniture_data_template = {
 		describe = "Everyone tied their fortune slips to this tree so the fortune they got will come true.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 17,
 		spine_extra = "",
 		new = 0,
@@ -20723,6 +21985,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -20753,9 +22018,9 @@ pg.furniture_data_template = {
 		discount_time = {
 			{
 				{
-					2019,
-					1,
-					10
+					2018,
+					12,
+					27
 				},
 				{
 					0,
@@ -20767,7 +22032,7 @@ pg.furniture_data_template = {
 				{
 					2019,
 					1,
-					31
+					16
 				},
 				{
 					23,
@@ -20802,7 +22067,6 @@ pg.furniture_data_template = {
 		describe = "A traditional table that's low to the ground. You don't HAVE to sit traditionally at it, though.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 17,
 		spine_extra = "",
 		new = 0,
@@ -20856,6 +22120,9 @@ pg.furniture_data_template = {
 				1
 			}
 		},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -20886,9 +22153,9 @@ pg.furniture_data_template = {
 		discount_time = {
 			{
 				{
-					2019,
-					1,
-					10
+					2018,
+					12,
+					27
 				},
 				{
 					0,
@@ -20900,7 +22167,7 @@ pg.furniture_data_template = {
 				{
 					2019,
 					1,
-					31
+					16
 				},
 				{
 					23,
@@ -20935,7 +22202,6 @@ pg.furniture_data_template = {
 		describe = "Makes you just a bit taller than your audience.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 17,
 		spine_extra = "",
 		new = 0,
@@ -21365,6 +22631,9 @@ pg.furniture_data_template = {
 				14
 			}
 		},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -21395,9 +22664,9 @@ pg.furniture_data_template = {
 		discount_time = {
 			{
 				{
-					2019,
-					1,
-					10
+					2018,
+					12,
+					27
 				},
 				{
 					0,
@@ -21409,7 +22678,7 @@ pg.furniture_data_template = {
 				{
 					2019,
 					1,
-					31
+					16
 				},
 				{
 					23,
@@ -21444,7 +22713,6 @@ pg.furniture_data_template = {
 		describe = "3 sweet little dango in everyone's favorite colors.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 17,
 		spine_extra = "",
 		new = 0,
@@ -21454,6 +22722,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -21484,9 +22755,9 @@ pg.furniture_data_template = {
 		discount_time = {
 			{
 				{
-					2019,
-					1,
-					10
+					2018,
+					12,
+					27
 				},
 				{
 					0,
@@ -21498,7 +22769,7 @@ pg.furniture_data_template = {
 				{
 					2019,
 					1,
-					31
+					16
 				},
 				{
 					23,
@@ -21533,7 +22804,6 @@ pg.furniture_data_template = {
 		describe = "Filled with delicious hot azuki bean paste.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 17,
 		spine_extra = "",
 		new = 0,
@@ -21543,6 +22813,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -21573,9 +22846,9 @@ pg.furniture_data_template = {
 		discount_time = {
 			{
 				{
-					2019,
-					1,
-					10
+					2018,
+					12,
+					27
 				},
 				{
 					0,
@@ -21587,7 +22860,7 @@ pg.furniture_data_template = {
 				{
 					2019,
 					1,
-					31
+					16
 				},
 				{
 					23,
@@ -21622,7 +22895,6 @@ pg.furniture_data_template = {
 		describe = "Kagami mochi you put out for New Year's. You're not meant to eat it.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 17,
 		spine_extra = "",
 		new = 0,
@@ -21632,6 +22904,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -21662,9 +22937,9 @@ pg.furniture_data_template = {
 		discount_time = {
 			{
 				{
-					2019,
-					1,
-					10
+					2018,
+					12,
+					27
 				},
 				{
 					0,
@@ -21676,7 +22951,7 @@ pg.furniture_data_template = {
 				{
 					2019,
 					1,
-					31
+					16
 				},
 				{
 					23,
@@ -21711,7 +22986,6 @@ pg.furniture_data_template = {
 		describe = "\"Would you like a Grab Bag, nya?\"",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 17,
 		spine_extra = "",
 		new = 0,
@@ -21721,6 +22995,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -21751,9 +23028,9 @@ pg.furniture_data_template = {
 		discount_time = {
 			{
 				{
-					2019,
-					1,
-					10
+					2018,
+					12,
+					27
 				},
 				{
 					0,
@@ -21765,7 +23042,7 @@ pg.furniture_data_template = {
 				{
 					2019,
 					1,
-					31
+					16
 				},
 				{
 					23,
@@ -21800,7 +23077,6 @@ pg.furniture_data_template = {
 		describe = "Flooring with tiles that stand out.",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 18,
 		spine_extra = "",
 		new = 0,
@@ -21808,6 +23084,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -21861,7 +23140,6 @@ pg.furniture_data_template = {
 		describe = "Wallpaper bustling with Dogoos.",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 18,
 		spine_extra = "",
 		new = 0,
@@ -21869,6 +23147,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -21922,7 +23203,6 @@ pg.furniture_data_template = {
 		describe = "(Part of) a device that can teleport you to another world.",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 18,
 		spine_extra = "",
 		new = 0,
@@ -21933,6 +23213,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -21986,7 +23269,6 @@ pg.furniture_data_template = {
 		describe = "A big Dogoo plushie. It'd probably take hundreds of quarters to win one at the arcade.",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 18,
 		spine_extra = "",
 		new = 0,
@@ -21997,6 +23279,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -22050,7 +23335,6 @@ pg.furniture_data_template = {
 		describe = "A cushion designed to look like the pockets of Neptune's black hoodie. It is not a button.",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 18,
 		spine_extra = "",
 		new = 0,
@@ -22073,6 +23357,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -22127,7 +23414,6 @@ pg.furniture_data_template = {
 		describe = "A cushion designed to look like the pockets of Neptune's hoodie. It is not a button!",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 18,
 		spine_extra = "",
 		new = 0,
@@ -22150,6 +23436,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -22204,7 +23493,6 @@ pg.furniture_data_template = {
 		describe = "Hostile vessels spotted at 3 o' clock!",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 18,
 		spine_extra = "",
 		new = 0,
@@ -22215,6 +23503,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -22268,7 +23559,6 @@ pg.furniture_data_template = {
 		describe = "A fence that emits blue light.",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 18,
 		spine_extra = "",
 		new = 0,
@@ -22279,6 +23569,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -22332,7 +23625,6 @@ pg.furniture_data_template = {
 		describe = "Link Open... Teleport!",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 18,
 		spine_extra = "",
 		new = 0,
@@ -22356,6 +23648,9 @@ pg.furniture_data_template = {
 				},
 				"cy/linkcy_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -22410,7 +23705,6 @@ pg.furniture_data_template = {
 		describe = "A kitty cat plushie.",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 18,
 		spine_extra = "",
 		new = 0,
@@ -22421,6 +23715,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -22474,7 +23771,6 @@ pg.furniture_data_template = {
 		describe = "A cube that makes you feel like an event will happen when you touch it.",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 18,
 		spine_extra = "",
 		new = 0,
@@ -22497,6 +23793,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -22551,7 +23850,6 @@ pg.furniture_data_template = {
 		describe = "A crystal that looks like it could summon the Four Protectors of The World.",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 18,
 		spine_extra = "",
 		new = 0,
@@ -22562,6 +23860,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -22615,7 +23916,6 @@ pg.furniture_data_template = {
 		describe = "A regular sized Dogoo plushie.",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 18,
 		spine_extra = "",
 		new = 0,
@@ -22626,6 +23926,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -22679,7 +23982,6 @@ pg.furniture_data_template = {
 		describe = "A cushion often left in places where one can easily come across heroines.",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 18,
 		spine_extra = "",
 		new = 0,
@@ -22702,6 +24004,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -22756,7 +24061,6 @@ pg.furniture_data_template = {
 		describe = "A dark crystal that emits an ominous light.",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 18,
 		spine_extra = "",
 		new = 0,
@@ -22767,6 +24071,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -22820,7 +24127,6 @@ pg.furniture_data_template = {
 		describe = "It's time for your medicine♪",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 18,
 		spine_extra = "",
 		new = 0,
@@ -22831,6 +24137,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -22884,7 +24193,6 @@ pg.furniture_data_template = {
 		describe = "A hologram-type pillar often seen at the entrance to a dungeon.",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 18,
 		spine_extra = "",
 		new = 0,
@@ -22895,6 +24203,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -22948,7 +24259,6 @@ pg.furniture_data_template = {
 		describe = "A pillar with a design commonly seen throughout Gamindustri.",
 		dorm_id = 0,
 		gem_price = 90,
-		can_trigger = 0,
 		themeId = 18,
 		spine_extra = "",
 		new = 0,
@@ -22959,6 +24269,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -23012,7 +24325,6 @@ pg.furniture_data_template = {
 		describe = "A table crafted in the likeliness of Purple Heart's hardware.",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 18,
 		spine_extra = "",
 		new = 0,
@@ -23075,6 +24387,9 @@ pg.furniture_data_template = {
 				3
 			}
 		},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -23128,7 +24443,6 @@ pg.furniture_data_template = {
 		describe = "A chair designed to look like a Dogoo. Makes you want to sink right into it.",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 18,
 		spine_extra = "",
 		new = 0,
@@ -23152,6 +24466,9 @@ pg.furniture_data_template = {
 				},
 				"cy/zuoyicy_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -23206,7 +24523,6 @@ pg.furniture_data_template = {
 		describe = "A portable charger designed to look like N-Gear. Too bad you can't play games on it.",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 18,
 		spine_extra = "",
 		new = 0,
@@ -23217,6 +24533,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"chongdianbaochuangB",
@@ -23299,7 +24618,6 @@ pg.furniture_data_template = {
 		describe = "An original design by Histoire herself.",
 		dorm_id = 0,
 		gem_price = 150,
-		can_trigger = 0,
 		themeId = 18,
 		spine_extra = "",
 		new = 0,
@@ -23310,6 +24628,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"shubenyizi",
@@ -23398,7 +24719,6 @@ pg.furniture_data_template = {
 		describe = "Can be used to traverse obstacles.",
 		dorm_id = 0,
 		gem_price = 200,
-		can_trigger = 0,
 		themeId = 18,
 		spine_extra = "",
 		new = 0,
@@ -23465,6 +24785,9 @@ pg.furniture_data_template = {
 				0,
 				14
 			}
+		},
+		can_trigger = {
+			0
 		},
 		spine = {
 			{
@@ -23553,7 +24876,6 @@ pg.furniture_data_template = {
 		describe = "Standing in this circle will bestow a CPU's protection! Actually, nothing really happens.",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 18,
 		spine_extra = "",
 		new = 0,
@@ -23564,6 +24886,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"jiaju4B",
@@ -23646,7 +24971,6 @@ pg.furniture_data_template = {
 		describe = "A table lamp that emits a faint green glow.",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 18,
 		spine_extra = "",
 		new = 0,
@@ -23657,6 +24981,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -23710,7 +25037,6 @@ pg.furniture_data_template = {
 		describe = "A small Dogoo plushie. Fits in the palm of your hand.",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 18,
 		spine_extra = "",
 		new = 0,
@@ -23721,6 +25047,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -23774,7 +25103,6 @@ pg.furniture_data_template = {
 		describe = "A display of four monitors hanging from the wall. It's hard to see what's on them though.",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 18,
 		spine_extra = "",
 		new = 0,
@@ -23785,6 +25113,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -23838,7 +25169,6 @@ pg.furniture_data_template = {
 		describe = "A futuristic door. I wonder if it goes to another dimension.",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 18,
 		spine_extra = "",
 		new = 0,
@@ -23849,6 +25179,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -23902,7 +25235,6 @@ pg.furniture_data_template = {
 		describe = "A monitor that continuously refreshes with information.",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 18,
 		spine_extra = "",
 		new = 0,
@@ -23913,6 +25245,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -23966,7 +25301,6 @@ pg.furniture_data_template = {
 		describe = "The thing that often appears at the top right of your screen.",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 18,
 		spine_extra = "",
 		new = 0,
@@ -23977,6 +25311,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -24030,7 +25367,6 @@ pg.furniture_data_template = {
 		describe = "A white-colored decoration made to look like a mind control device.",
 		dorm_id = 0,
 		gem_price = 90,
-		can_trigger = 0,
 		themeId = 18,
 		spine_extra = "",
 		new = 0,
@@ -24041,6 +25377,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -24094,7 +25433,6 @@ pg.furniture_data_template = {
 		describe = "A black-colored decoration made to look like a mind control device.",
 		dorm_id = 0,
 		gem_price = 90,
-		can_trigger = 0,
 		themeId = 18,
 		spine_extra = "",
 		new = 0,
@@ -24105,6 +25443,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -24158,13 +25499,15 @@ pg.furniture_data_template = {
 		describe = "Does a grass mat even count as flooring? Happy Lunar New Year!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 19,
 		spine_extra = "",
 		new = 0,
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -24244,13 +25587,15 @@ pg.furniture_data_template = {
 		describe = "Beautiful crimson wallpaper. Happy Lunar New Year!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 19,
 		spine_extra = "",
 		new = 0,
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -24330,7 +25675,6 @@ pg.furniture_data_template = {
 		describe = "Don't let destroyers near it.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 19,
 		spine_extra = "",
 		new = 0,
@@ -24340,6 +25684,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -24419,7 +25766,6 @@ pg.furniture_data_template = {
 		describe = "Pray to it for good luck and good catches. Might also improve your gacha luck...?",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 19,
 		spine_extra = "",
 		new = 0,
@@ -24429,6 +25775,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -24508,7 +25857,6 @@ pg.furniture_data_template = {
 		describe = "Ever wanted to sit and play drums at the same time? Then this is for you!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 19,
 		spine_extra = "",
 		new = 0,
@@ -24530,6 +25878,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -24610,7 +25961,6 @@ pg.furniture_data_template = {
 		describe = "Decorative lanterns put out during Lunar New Year.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 19,
 		spine_extra = "",
 		new = 0,
@@ -24620,6 +25970,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -24699,7 +26052,6 @@ pg.furniture_data_template = {
 		describe = "A carpet with a Good Luck Manjuu drawn on it.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 19,
 		spine_extra = "",
 		new = 0,
@@ -24709,6 +26061,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -24788,7 +26143,6 @@ pg.furniture_data_template = {
 		describe = "Don't go climbing over it. Fences exist for a reason.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 19,
 		spine_extra = "",
 		new = 0,
@@ -24798,6 +26152,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -24877,7 +26234,6 @@ pg.furniture_data_template = {
 		describe = "Oh my gosh, what a cute doggo!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 19,
 		spine_extra = "",
 		new = 0,
@@ -24887,6 +26243,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -24966,7 +26325,6 @@ pg.furniture_data_template = {
 		describe = "Oh my gosh, what a cute doggo!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 19,
 		spine_extra = "",
 		new = 0,
@@ -24976,6 +26334,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -25055,7 +26416,6 @@ pg.furniture_data_template = {
 		describe = "It's so big you can literally bathe in snacks.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 19,
 		spine_extra = "",
 		new = 0,
@@ -25139,6 +26499,9 @@ pg.furniture_data_template = {
 				}
 			}
 		},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -25218,7 +26581,6 @@ pg.furniture_data_template = {
 		describe = "A small flower bed one might find in a garden. Please don't walk over it.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 19,
 		spine_extra = "",
 		new = 0,
@@ -25228,6 +26590,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -25307,7 +26672,6 @@ pg.furniture_data_template = {
 		describe = "(A segment of) an elevated passageway. Make your own mini-Great Wall!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 19,
 		spine_extra = "",
 		new = 0,
@@ -25330,6 +26694,9 @@ pg.furniture_data_template = {
 				},
 				"cj/langcj_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -25410,7 +26777,6 @@ pg.furniture_data_template = {
 		describe = "\"Hey, Commander! Take this, it'll bring you good luck!\"",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 19,
 		spine_extra = "",
 		new = 0,
@@ -25420,6 +26786,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -25499,7 +26868,6 @@ pg.furniture_data_template = {
 		describe = "Not the comfiest to walk on, but still a fabulous addition to any garden.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 19,
 		spine_extra = "",
 		new = 0,
@@ -25509,6 +26877,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -25588,7 +26959,6 @@ pg.furniture_data_template = {
 		describe = "Looks like the gardener missed a spot.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 19,
 		spine_extra = "",
 		new = 0,
@@ -25598,6 +26968,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -25677,7 +27050,6 @@ pg.furniture_data_template = {
 		describe = "What we have here is a staircase in its infancy.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 19,
 		spine_extra = "",
 		new = 0,
@@ -25687,6 +27059,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -25766,7 +27141,6 @@ pg.furniture_data_template = {
 		describe = "A dance stage with a Manjuu drawn in the center. Let loose and let's dance!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 19,
 		spine_extra = "",
 		new = 0,
@@ -25810,6 +27184,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -25890,7 +27267,6 @@ pg.furniture_data_template = {
 		describe = "Farewell last year, hello next year!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 19,
 		spine_extra = "",
 		new = 0,
@@ -25900,6 +27276,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -25979,7 +27358,6 @@ pg.furniture_data_template = {
 		describe = "Served as a form of currency long ago, but now this oversized one serves as a nice decoration.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 19,
 		spine_extra = "",
 		new = 0,
@@ -25989,6 +27367,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -26068,7 +27449,6 @@ pg.furniture_data_template = {
 		describe = "A table designed to look like a drum.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 19,
 		spine_extra = "",
 		new = 0,
@@ -26089,6 +27469,9 @@ pg.furniture_data_template = {
 				3,
 				3
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -26169,7 +27552,6 @@ pg.furniture_data_template = {
 		describe = "Start your Lunar New Year with a bang!",
 		dorm_id = 0,
 		gem_price = 200,
-		can_trigger = 0,
 		themeId = 19,
 		spine_extra = "",
 		new = 0,
@@ -26179,6 +27561,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"yanhuaB",
@@ -26309,7 +27694,6 @@ pg.furniture_data_template = {
 		describe = "A yummy dessert similar to mochi.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 19,
 		spine_extra = "",
 		new = 0,
@@ -26319,6 +27703,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -26398,7 +27785,6 @@ pg.furniture_data_template = {
 		describe = "A favorite among people from the Eastern Radiance.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 19,
 		spine_extra = "",
 		new = 0,
@@ -26408,6 +27794,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -26487,7 +27876,6 @@ pg.furniture_data_template = {
 		describe = "If you think setting off ONE firecracker is fun, just you wait...",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 19,
 		spine_extra = "",
 		new = 0,
@@ -26497,6 +27885,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -26576,7 +27967,6 @@ pg.furniture_data_template = {
 		describe = "A somewhat unusually shaped window.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 19,
 		spine_extra = "",
 		new = 0,
@@ -26586,6 +27976,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -26665,7 +28058,6 @@ pg.furniture_data_template = {
 		describe = "A wall-mounted scroll hung up during Lunar New Year's. The handwriting is too messy to read what it actually says.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 19,
 		spine_extra = "",
 		new = 0,
@@ -26675,6 +28067,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -26754,7 +28149,6 @@ pg.furniture_data_template = {
 		describe = "A wall-mounted scroll hung up during Lunar New Year's. The handwriting is too messy to read what it actually says.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 19,
 		spine_extra = "",
 		new = 0,
@@ -26764,6 +28158,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -26843,7 +28240,6 @@ pg.furniture_data_template = {
 		describe = "It reads \"fortune.\" Hung upside down to bring good luck.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 19,
 		spine_extra = "",
 		new = 0,
@@ -26853,6 +28249,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -26932,7 +28331,6 @@ pg.furniture_data_template = {
 		describe = "Don't peek through the gaps.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 19,
 		spine_extra = "",
 		new = 0,
@@ -26942,6 +28340,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -27021,7 +28422,6 @@ pg.furniture_data_template = {
 		describe = "A gate to the Eastern Radiance's estate. It's endowed with quite characteristic metal door handles.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 19,
 		spine_extra = "",
 		new = 0,
@@ -27031,6 +28431,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -27110,7 +28513,6 @@ pg.furniture_data_template = {
 		describe = "The Royal Family's elegance shines through in its design.",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 22,
 		spine_extra = "",
 		new = 1,
@@ -27118,6 +28520,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -27171,7 +28576,6 @@ pg.furniture_data_template = {
 		describe = "The Royal Family's elegance shines through in its design.",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 22,
 		spine_extra = "",
 		new = 1,
@@ -27179,6 +28583,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -27232,7 +28639,6 @@ pg.furniture_data_template = {
 		describe = "\"We can't fit Tower Bridge in here!\" \"But what if we scaled it down?\"",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 22,
 		spine_extra = "",
 		new = 1,
@@ -27280,6 +28686,9 @@ pg.furniture_data_template = {
 				},
 				"yl/taqiaoyl_using1"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -27334,7 +28743,6 @@ pg.furniture_data_template = {
 		describe = "Just down the river from where Belfast goes on her vacation days!",
 		dorm_id = 0,
 		gem_price = 250,
-		can_trigger = 0,
 		themeId = 22,
 		spine_extra = "",
 		new = 1,
@@ -27345,6 +28753,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"motianlunB",
@@ -27445,7 +28856,6 @@ pg.furniture_data_template = {
 		describe = "\"What did you say your name was again? Doctor...?\"",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 22,
 		spine_extra = "",
 		time = "always",
@@ -27457,6 +28867,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[22104] = {
@@ -27484,7 +28897,6 @@ pg.furniture_data_template = {
 		describe = "Travelers often use it as a makeshift chair.",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 22,
 		spine_extra = "",
 		new = 1,
@@ -27495,6 +28907,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -27548,7 +28963,6 @@ pg.furniture_data_template = {
 		describe = "Snailmail? In this day and age? How quaint.",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 22,
 		spine_extra = "",
 		new = 1,
@@ -27559,6 +28973,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -27612,7 +29029,6 @@ pg.furniture_data_template = {
 		describe = "It emanates an elegant air that makes you want to have a tea party.",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 22,
 		spine_extra = "",
 		new = 1,
@@ -27642,6 +29058,9 @@ pg.furniture_data_template = {
 				3,
 				3
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -27696,7 +29115,6 @@ pg.furniture_data_template = {
 		describe = "It emanates an elegant air that makes you want to have a tea party.",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 22,
 		spine_extra = "",
 		new = 1,
@@ -27720,6 +29138,9 @@ pg.furniture_data_template = {
 				},
 				"yl/zuoyiyl_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -27774,7 +29195,6 @@ pg.furniture_data_template = {
 		describe = "Hop onboard for the most fantastic view of the whole city!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 22,
 		spine_extra = "",
 		time = "always",
@@ -27799,6 +29219,9 @@ pg.furniture_data_template = {
 				},
 				"yl/qiqiuyl_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -27827,7 +29250,6 @@ pg.furniture_data_template = {
 		describe = "The Royal Navy may be known as tea addicts, but once in a while they have some coffee as well.",
 		dorm_id = 0,
 		gem_price = 150,
-		can_trigger = 0,
 		themeId = 22,
 		spine_extra = "",
 		new = 1,
@@ -27838,6 +29260,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"kafeijiB",
@@ -27939,7 +29364,6 @@ pg.furniture_data_template = {
 		describe = "Not edible, but just as exquisite as the Royal Gourmet it's modeled after.",
 		dorm_id = 0,
 		gem_price = 200,
-		can_trigger = 0,
 		themeId = 22,
 		spine_extra = "",
 		new = 1,
@@ -27950,6 +29374,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"yangwangxingkongpaiB",
@@ -28050,7 +29477,6 @@ pg.furniture_data_template = {
 		describe = "A queen-sized bed that only a chosen lucky few may lie in.",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 22,
 		spine_extra = "",
 		new = 1,
@@ -28086,6 +29512,9 @@ pg.furniture_data_template = {
 				},
 				"yl/chuangyl_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -28140,7 +29569,6 @@ pg.furniture_data_template = {
 		describe = "See all the sights of the city without having to leave your seat!",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 22,
 		spine_extra = "",
 		new = 1,
@@ -28201,6 +29629,9 @@ pg.furniture_data_template = {
 				"yl/bashiyl_using1"
 			}
 		},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -28254,7 +29685,6 @@ pg.furniture_data_template = {
 		describe = "Keeps the streets well-lit at night and picturesque at day.",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 22,
 		spine_extra = "",
 		new = 1,
@@ -28265,6 +29695,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -28318,7 +29751,6 @@ pg.furniture_data_template = {
 		describe = "Only the queen may enjoy this lavish flower bath.",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 22,
 		spine_extra = "",
 		new = 1,
@@ -28342,6 +29774,9 @@ pg.furniture_data_template = {
 				},
 				"yl/yuchiyl_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -28396,7 +29831,6 @@ pg.furniture_data_template = {
 		describe = "I wonder where all those letters end up...",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 22,
 		spine_extra = "",
 		new = 1,
@@ -28407,6 +29841,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -28460,7 +29897,6 @@ pg.furniture_data_template = {
 		describe = "How can you easily make a sofa more luxurious? You add a crown, of course!",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 22,
 		spine_extra = "",
 		new = 1,
@@ -28484,6 +29920,9 @@ pg.furniture_data_template = {
 				},
 				"yl/shafa1yl_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -28538,7 +29977,6 @@ pg.furniture_data_template = {
 		describe = "It's said sitting on it makes you feel like a monarch.",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 22,
 		spine_extra = "",
 		new = 1,
@@ -28573,6 +30011,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -28627,7 +30068,6 @@ pg.furniture_data_template = {
 		describe = "God save the queen, peep!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 22,
 		spine_extra = "",
 		time = "always",
@@ -28639,6 +30079,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[22119] = {
@@ -28666,7 +30109,6 @@ pg.furniture_data_template = {
 		describe = "A magnificent staircase fit for a palace.",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 22,
 		spine_extra = "",
 		new = 1,
@@ -28677,6 +30119,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -28730,7 +30175,6 @@ pg.furniture_data_template = {
 		describe = "An absurdly long carpet. Wouldn't want to be the one who has to clean it...",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 22,
 		spine_extra = "",
 		new = 1,
@@ -28741,6 +30185,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -28794,7 +30241,6 @@ pg.furniture_data_template = {
 		describe = "\"Ah, yes, this is what being part of the Royal Family is all about!\"",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 22,
 		spine_extra = "",
 		new = 1,
@@ -28805,6 +30251,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -28858,7 +30307,6 @@ pg.furniture_data_template = {
 		describe = "\"Ah, yes, this is what being part of the Royal Family is all about!\"",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 22,
 		spine_extra = "",
 		new = 1,
@@ -28869,6 +30317,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -28922,7 +30373,6 @@ pg.furniture_data_template = {
 		describe = "All the maids made one desert each. Can you figure out who made which...?",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 22,
 		spine_extra = "",
 		new = 1,
@@ -28933,6 +30383,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -28986,7 +30439,6 @@ pg.furniture_data_template = {
 		describe = "Mirror, mirror on the wall, who is the waifuest of them all...?",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 22,
 		spine_extra = "",
 		new = 1,
@@ -28997,6 +30449,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -29050,7 +30505,6 @@ pg.furniture_data_template = {
 		describe = "Green isn't really a royal color, but some greenery can really help spice up a room's atmosphere.",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 22,
 		spine_extra = "",
 		new = 1,
@@ -29061,6 +30515,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -29114,7 +30571,6 @@ pg.furniture_data_template = {
 		describe = "All in all they contain a year's worth of candy. A bit less if you have a sweet tooth.",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 22,
 		spine_extra = "",
 		new = 1,
@@ -29125,6 +30581,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -29178,7 +30637,6 @@ pg.furniture_data_template = {
 		describe = "For those unfamiliar, a picture is essentially a screenshot taken in the real world.",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 22,
 		spine_extra = "",
 		new = 1,
@@ -29189,6 +30647,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -29242,7 +30703,6 @@ pg.furniture_data_template = {
 		describe = "Look both ways before you cross the road.",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 22,
 		spine_extra = "",
 		new = 1,
@@ -29253,6 +30713,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -29306,7 +30769,6 @@ pg.furniture_data_template = {
 		describe = "Gives you a brilliant view of a certain famous clocktower.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 22,
 		spine_extra = "",
 		time = "always",
@@ -29318,6 +30780,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[24001] = {
@@ -29345,7 +30810,6 @@ pg.furniture_data_template = {
 		describe = "Intri-cat-ely designed flooring with a pawprint motif.",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 24,
 		spine_extra = "",
 		new = 1,
@@ -29353,6 +30817,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -29406,7 +30873,6 @@ pg.furniture_data_template = {
 		describe = "Wallpa-purr with a fang-tastatic color palette.",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 24,
 		spine_extra = "",
 		new = 1,
@@ -29414,6 +30880,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -29467,7 +30936,6 @@ pg.furniture_data_template = {
 		describe = "\"Care to try a meow-tini or a catània, nya?\"",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 24,
 		spine_extra = "",
 		new = 1,
@@ -29478,6 +30946,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -29531,7 +31002,6 @@ pg.furniture_data_template = {
 		describe = "\"Time for a catnap, nya...\"",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 24,
 		spine_extra = "",
 		new = 1,
@@ -29567,6 +31037,9 @@ pg.furniture_data_template = {
 				},
 				"cafe/chuang2cf_using2"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -29621,7 +31094,6 @@ pg.furniture_data_template = {
 		describe = "All fur-niture can be improved with the addition of a tail!",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 24,
 		spine_extra = "",
 		new = 1,
@@ -29644,6 +31116,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -29698,7 +31173,6 @@ pg.furniture_data_template = {
 		describe = "Paw-ssibly the meow-st com-fur-table sofa you'll ever sit on.",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 24,
 		spine_extra = "",
 		new = 1,
@@ -29721,6 +31195,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -29775,7 +31252,6 @@ pg.furniture_data_template = {
 		describe = "Cat-egorically speaking, it has more in common with a mat.",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 24,
 		spine_extra = "",
 		new = 1,
@@ -29786,6 +31262,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -29839,7 +31318,6 @@ pg.furniture_data_template = {
 		describe = "These decorative pawprints give some purr-sonality to an otherwise bland carpet.",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 24,
 		spine_extra = "",
 		new = 1,
@@ -29850,6 +31328,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -29903,7 +31384,6 @@ pg.furniture_data_template = {
 		describe = "One giant cup of blue meow-ntain, brewed to purr-fection!",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 24,
 		spine_extra = "",
 		new = 1,
@@ -29927,6 +31407,9 @@ pg.furniture_data_template = {
 				},
 				"cafe/kafeibeicf_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -29981,7 +31464,6 @@ pg.furniture_data_template = {
 		describe = "A playground for cats. Also known as the Fur Fortress, Cat Cave, and Meow Mansion.",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 24,
 		spine_extra = "",
 		new = 1,
@@ -30015,6 +31497,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -30069,7 +31554,6 @@ pg.furniture_data_template = {
 		describe = "\"No, Akashi! This is for the cats, not for you!\"",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 24,
 		spine_extra = "",
 		new = 1,
@@ -30080,6 +31564,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -30133,7 +31620,6 @@ pg.furniture_data_template = {
 		describe = "Pent-up e-meow-tions? Need some cat-harsis? Then scratch away and purr-ge yourself of those feral feline feelings!",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 24,
 		spine_extra = "",
 		new = 1,
@@ -30144,6 +31630,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -30197,7 +31686,6 @@ pg.furniture_data_template = {
 		describe = "Don't worry about leakage, it's scratch-proof.",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 24,
 		spine_extra = "",
 		new = 1,
@@ -30220,6 +31708,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -30274,7 +31765,6 @@ pg.furniture_data_template = {
 		describe = "Don't worry about leakage, it's scratch-proof.",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 24,
 		spine_extra = "",
 		new = 1,
@@ -30297,6 +31787,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -30351,7 +31844,6 @@ pg.furniture_data_template = {
 		describe = "Don't worry about leakage, it's scratch-proof.",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 24,
 		spine_extra = "",
 		new = 1,
@@ -30374,6 +31866,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -30428,7 +31923,6 @@ pg.furniture_data_template = {
 		describe = "A paw-sitively massive kitty hideout, big enough to house a purr-son.",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 24,
 		spine_extra = "",
 		new = 1,
@@ -30463,6 +31957,9 @@ pg.furniture_data_template = {
 					}
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -30517,7 +32014,6 @@ pg.furniture_data_template = {
 		describe = "A hydrated cat is a cool cat!",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 24,
 		spine_extra = "",
 		new = 1,
@@ -30528,6 +32024,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -30581,7 +32080,6 @@ pg.furniture_data_template = {
 		describe = "\"U-umm... I think I'll have some lasagna instead, nya...\"",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 24,
 		spine_extra = "",
 		new = 1,
@@ -30592,6 +32090,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"feiyuguantouB",
@@ -30677,7 +32178,6 @@ pg.furniture_data_template = {
 		describe = "These little balls of yarn provide a cat with fun for 9 whole lifetimes.",
 		dorm_id = 0,
 		gem_price = 100,
-		can_trigger = 0,
 		themeId = 24,
 		spine_extra = "",
 		new = 1,
@@ -30688,6 +32188,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"maoxianghexin",
@@ -30747,7 +32250,6 @@ pg.furniture_data_template = {
 		describe = "\"Makes me want to curl up inside, nya...\"",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 24,
 		spine_extra = "",
 		new = 1,
@@ -30771,6 +32273,9 @@ pg.furniture_data_template = {
 				},
 				"cafe/zhidaicf_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -30825,7 +32330,6 @@ pg.furniture_data_template = {
 		describe = "\"I wanna curl up! Inside! Right now! Nya!\"",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 24,
 		spine_extra = "",
 		new = 1,
@@ -30849,6 +32353,9 @@ pg.furniture_data_template = {
 				},
 				"cafe/zhixiangcf_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -30903,7 +32410,6 @@ pg.furniture_data_template = {
 		describe = "Don't try to argue that it should be called a sup-purr table or you'll get thrown out.",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 24,
 		spine_extra = "",
 		new = 1,
@@ -30914,6 +32420,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -30967,7 +32476,6 @@ pg.furniture_data_template = {
 		describe = "They say that cats always land on their feet... Do cat tables always land upright?",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 24,
 		spine_extra = "",
 		new = 1,
@@ -30978,6 +32486,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -31031,7 +32542,6 @@ pg.furniture_data_template = {
 		describe = "This piece of fur-niture has a rather sublime and sop-hiss-ticated design.",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 24,
 		spine_extra = "",
 		new = 1,
@@ -31061,6 +32571,9 @@ pg.furniture_data_template = {
 				3,
 				3
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -31115,7 +32628,6 @@ pg.furniture_data_template = {
 		describe = "He hates Mondays, among other things.",
 		dorm_id = 0,
 		gem_price = 150,
-		can_trigger = 0,
 		themeId = 24,
 		spine_extra = "",
 		new = 1,
@@ -31126,6 +32638,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"amazingboxbrownB",
@@ -31223,7 +32738,6 @@ pg.furniture_data_template = {
 		describe = "♪ And all the cats say I'm pretty fine for a feline ♪",
 		dorm_id = 0,
 		gem_price = 150,
-		can_trigger = 0,
 		themeId = 24,
 		spine_extra = "",
 		new = 1,
@@ -31234,6 +32748,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"amazingboxgrayB",
@@ -31331,7 +32848,6 @@ pg.furniture_data_template = {
 		describe = "\"I think I know who taught her that expression...\"",
 		dorm_id = 0,
 		gem_price = 150,
-		can_trigger = 0,
 		themeId = 24,
 		spine_extra = "",
 		new = 1,
@@ -31342,6 +32858,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"amazingboxcolorB",
@@ -31439,7 +32958,6 @@ pg.furniture_data_template = {
 		describe = "\"Cat cookies? Sounds fishy... I think I'll pass.\"",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 24,
 		spine_extra = "",
 		new = 1,
@@ -31450,6 +32968,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -31503,7 +33024,6 @@ pg.furniture_data_template = {
 		describe = "Yummy cake, straight from the kit-chen!",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 24,
 		spine_extra = "",
 		new = 1,
@@ -31514,6 +33034,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -31567,7 +33090,6 @@ pg.furniture_data_template = {
 		describe = "\"Is the order a cat, nya?\"",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 24,
 		spine_extra = "",
 		new = 1,
@@ -31578,6 +33100,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -31631,7 +33156,6 @@ pg.furniture_data_template = {
 		describe = "Usually, customers can sit here, but it's currently occupied by cats...",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 24,
 		spine_extra = "",
 		new = 1,
@@ -31642,6 +33166,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -31695,7 +33222,6 @@ pg.furniture_data_template = {
 		describe = "Before the invention of the internet, people had to paint their own cat pictures to share them with others.",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 24,
 		spine_extra = "",
 		new = 1,
@@ -31706,6 +33232,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -31759,7 +33288,6 @@ pg.furniture_data_template = {
 		describe = "Household cats can easily jump high enough to reach it. Akashi has never quite managed, though.",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 24,
 		spine_extra = "",
 		new = 1,
@@ -31770,6 +33298,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -31823,7 +33354,6 @@ pg.furniture_data_template = {
 		describe = "\"Welcome to the Cat Café! In retrospect, maybe we should have called it the Cat-fé...\"",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 24,
 		spine_extra = "",
 		new = 1,
@@ -31834,6 +33364,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -31887,7 +33420,6 @@ pg.furniture_data_template = {
 		describe = "\"My instincts are telling me to take a nap on the porch, nya...\"",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 24,
 		spine_extra = "",
 		new = 1,
@@ -31898,6 +33430,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -31951,7 +33486,6 @@ pg.furniture_data_template = {
 		describe = "A wilderness full of wandering ghosts.",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -31959,6 +33493,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -32012,7 +33549,6 @@ pg.furniture_data_template = {
 		describe = "This field of grass is hiding...many many secrets.",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -32020,6 +33556,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -32073,7 +33612,6 @@ pg.furniture_data_template = {
 		describe = "A seemingly ordinary tiny pile of haystack.",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -32084,6 +33622,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -32137,7 +33678,6 @@ pg.furniture_data_template = {
 		describe = "Where did this pile of bones come from?",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -32161,6 +33701,9 @@ pg.furniture_data_template = {
 				},
 				"halloween2/chehl2_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -32215,7 +33758,6 @@ pg.furniture_data_template = {
 		describe = "Flattened by a huge Skeleton.",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -32226,6 +33768,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -32279,7 +33824,6 @@ pg.furniture_data_template = {
 		describe = "A big purple carpet, its sewn seems to contain some strange meaning.",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -32290,6 +33834,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -32343,7 +33890,6 @@ pg.furniture_data_template = {
 		describe = "A path made of gravel. Don’t walk on it in barefoot.",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -32354,6 +33900,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -32407,7 +33956,6 @@ pg.furniture_data_template = {
 		describe = "Come guess what is underneath this cloak.",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -32418,6 +33966,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -32471,7 +34022,6 @@ pg.furniture_data_template = {
 		describe = "A row of black spears laced with purple cloth.",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -32482,6 +34032,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -32535,7 +34088,6 @@ pg.furniture_data_template = {
 		describe = "This does not fit the courtyard style at all.",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -32546,6 +34098,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -32599,7 +34154,6 @@ pg.furniture_data_template = {
 		describe = "The highlight of this courtyard, the witch’s masterpiece!",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -32610,6 +34164,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -32663,7 +34220,6 @@ pg.furniture_data_template = {
 		describe = "What are we having for Halloween...",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -32674,6 +34230,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -32727,7 +34286,6 @@ pg.furniture_data_template = {
 		describe = "I have been resurrected from the dead!",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -32738,6 +34296,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -32791,7 +34352,6 @@ pg.furniture_data_template = {
 		describe = "This pit feels like the right size.",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -32827,6 +34387,9 @@ pg.furniture_data_template = {
 					"halloween2/kenghl2_mask"
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -32881,7 +34444,6 @@ pg.furniture_data_template = {
 		describe = "The Pumpkin light is watching you.",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -32892,6 +34454,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -32945,7 +34510,6 @@ pg.furniture_data_template = {
 		describe = "My friend, if you’re lost then look over here!",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -32956,6 +34520,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -33009,7 +34576,6 @@ pg.furniture_data_template = {
 		describe = "The tombstone has accumulated spider webs.",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -33020,6 +34586,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -33073,7 +34642,6 @@ pg.furniture_data_template = {
 		describe = "Commemorating XXX (The writing seems to be blurry).",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -33084,6 +34652,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -33137,7 +34708,6 @@ pg.furniture_data_template = {
 		describe = "Giant pumpkin lamp that can also be used as a storage box.",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -33161,6 +34731,9 @@ pg.furniture_data_template = {
 				},
 				"halloween2/nangua2hl2_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -33215,7 +34788,6 @@ pg.furniture_data_template = {
 		describe = "A little pile of mini pumpkin lights.",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -33226,6 +34798,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -33279,7 +34854,6 @@ pg.furniture_data_template = {
 		describe = "A broomstick which you so dearly deserve!",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -33302,6 +34876,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -33356,7 +34933,6 @@ pg.furniture_data_template = {
 		describe = "A withered tree, nothing special.",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -33367,6 +34943,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -33420,7 +34999,6 @@ pg.furniture_data_template = {
 		describe = "A witch’s residence.",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -33443,6 +35021,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -33497,7 +35078,6 @@ pg.furniture_data_template = {
 		describe = "A broken purple satin-covered seat.",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -33520,6 +35100,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -33574,7 +35157,6 @@ pg.furniture_data_template = {
 		describe = "A broken white satin-covered seat.",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -33597,6 +35179,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -33651,7 +35236,6 @@ pg.furniture_data_template = {
 		describe = "A secluded candlelit bench.",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -33674,6 +35258,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -33728,7 +35315,6 @@ pg.furniture_data_template = {
 		describe = "A withered trunk that’s oozing out green goo.",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -33751,6 +35337,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -33805,7 +35394,6 @@ pg.furniture_data_template = {
 		describe = "A pool bubbling with purple liquid.",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -33841,6 +35429,9 @@ pg.furniture_data_template = {
 					"halloween2/zhaozehl2_mask"
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -33895,7 +35486,6 @@ pg.furniture_data_template = {
 		describe = "Welcome everyone, what would you like to eat?",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -33937,6 +35527,9 @@ pg.furniture_data_template = {
 				6,
 				1
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -33991,7 +35584,6 @@ pg.furniture_data_template = {
 		describe = "Wahahaha~ Try and catch me if you can!",
 		dorm_id = 0,
 		gem_price = 150,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -34002,6 +35594,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"ghost",
@@ -34065,7 +35660,6 @@ pg.furniture_data_template = {
 		describe = "It is my honor to take you on my horse, miss?",
 		dorm_id = 0,
 		gem_price = 150,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -34076,6 +35670,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"nanguaqishiB",
@@ -34161,7 +35758,6 @@ pg.furniture_data_template = {
 		describe = "Stacks of candles illuminating shadows.",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -34172,6 +35768,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -34225,7 +35824,6 @@ pg.furniture_data_template = {
 		describe = "A lonely little candle.",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -34236,6 +35834,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -34289,7 +35890,6 @@ pg.furniture_data_template = {
 		describe = "Blue liquid, unknown properties.",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -34300,6 +35900,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -34353,7 +35956,6 @@ pg.furniture_data_template = {
 		describe = "Red liquid, unknown properties.",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -34364,6 +35966,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -34417,7 +36022,6 @@ pg.furniture_data_template = {
 		describe = "A standard red candlestick for banquets.",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -34428,6 +36032,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -34481,7 +36088,6 @@ pg.furniture_data_template = {
 		describe = "A large magnificent golden gate.",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -34492,6 +36098,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -34545,7 +36154,6 @@ pg.furniture_data_template = {
 		describe = "A bright moon illuminating the dark night.",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -34556,6 +36164,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -34609,7 +36220,6 @@ pg.furniture_data_template = {
 		describe = "A large spider web.",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -34620,6 +36230,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -34673,7 +36286,6 @@ pg.furniture_data_template = {
 		describe = "Wallpaper decked out with the romantic component of a Snowy Holy Night. Or Christmas for short.",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 37,
 		spine_extra = "",
 		new = 1,
@@ -34681,6 +36293,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -34734,7 +36349,6 @@ pg.furniture_data_template = {
 		describe = "Tiling which you just need for that Royal townscape look.",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 37,
 		spine_extra = "",
 		new = 1,
@@ -34742,6 +36356,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -34795,7 +36412,6 @@ pg.furniture_data_template = {
 		describe = "A shop painted with the colors of Christmas. Maybe they sell presents too?",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 37,
 		spine_extra = "",
 		new = 1,
@@ -34806,6 +36422,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -34859,7 +36478,6 @@ pg.furniture_data_template = {
 		describe = "The blades spin. The snowflakes spin. The wintry winds caresses the town.",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 37,
 		spine_extra = "",
 		new = 1,
@@ -34870,6 +36488,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -34923,7 +36544,6 @@ pg.furniture_data_template = {
 		describe = "Everyone's gotta follow the rules of the road, even Santa!",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 37,
 		spine_extra = "",
 		new = 1,
@@ -34934,6 +36554,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -34987,7 +36610,6 @@ pg.furniture_data_template = {
 		describe = "Normally used to take shelter from the rain.",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 37,
 		spine_extra = "",
 		new = 1,
@@ -35011,6 +36633,9 @@ pg.furniture_data_template = {
 				},
 				"christmas2/houcheyics2_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -35065,7 +36690,6 @@ pg.furniture_data_template = {
 		describe = "Many pretty flowers come sprouting out of this present bag when opened. Nobody knows how.",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 37,
 		spine_extra = "",
 		new = 1,
@@ -35076,6 +36700,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -35129,7 +36756,6 @@ pg.furniture_data_template = {
 		describe = "A whole train loaded with presents. No more than one present per person!",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 37,
 		spine_extra = "",
 		new = 1,
@@ -35165,6 +36791,9 @@ pg.furniture_data_template = {
 				},
 				"christmas2/huochecs2_using2"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -35219,7 +36848,6 @@ pg.furniture_data_template = {
 		describe = "\"We're hiring Santas for Christmas Eve!\"",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 37,
 		spine_extra = "",
 		new = 1,
@@ -35230,6 +36858,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -35283,7 +36914,6 @@ pg.furniture_data_template = {
 		describe = "A door decorated with Christmas lights and a wreath. Merry Christmas!",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 37,
 		spine_extra = "",
 		new = 1,
@@ -35294,6 +36924,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -35347,7 +36980,6 @@ pg.furniture_data_template = {
 		describe = "A yummy-looking chocolate ball. Do you think the star is edible too?",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 37,
 		spine_extra = "",
 		new = 1,
@@ -35371,6 +37003,9 @@ pg.furniture_data_template = {
 				},
 				"christmas2/qiucs2"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -35425,7 +37060,6 @@ pg.furniture_data_template = {
 		describe = "A chocolate fountain designed to look like a Christmas tree. \"Perfect for balancing out your blood sugar levels♪\"",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 37,
 		spine_extra = "",
 		new = 1,
@@ -35436,6 +37070,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -35489,7 +37126,6 @@ pg.furniture_data_template = {
 		describe = "A ticket booth with Santa on top. They don't sell lottery tickets.",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 37,
 		spine_extra = "",
 		new = 1,
@@ -35525,6 +37161,9 @@ pg.furniture_data_template = {
 					"christmas2/shoupiaocs2_mask"
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -35579,7 +37218,6 @@ pg.furniture_data_template = {
 		describe = "Everyone worked together to make this gorgeous Christmas tree.",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 37,
 		spine_extra = "",
 		new = 1,
@@ -35590,6 +37228,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -35643,7 +37284,6 @@ pg.furniture_data_template = {
 		describe = "All it needs is the chance to grow to become a big and beautiful Christmas tree!",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 37,
 		spine_extra = "",
 		new = 1,
@@ -35654,6 +37294,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -35707,7 +37350,6 @@ pg.furniture_data_template = {
 		describe = "Loaded to capacity with Manjuu. Not a viable escape route for those suffering from Christmas spirit intoxication...",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 37,
 		spine_extra = "",
 		new = 1,
@@ -35718,6 +37360,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -35771,7 +37416,6 @@ pg.furniture_data_template = {
 		describe = "\"Hey, wanna build a snowman...?\"",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 37,
 		spine_extra = "",
 		new = 1,
@@ -35782,6 +37426,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -35835,7 +37482,6 @@ pg.furniture_data_template = {
 		describe = "It looks like a big snowman, but it's actually a bath that became a snowman.",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 37,
 		spine_extra = "",
 		new = 1,
@@ -35859,6 +37505,9 @@ pg.furniture_data_template = {
 				},
 				"christmas2/xuerencs2_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -35913,7 +37562,6 @@ pg.furniture_data_template = {
 		describe = "This Manjuu has come to sell you Christmas cards.",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 37,
 		spine_extra = "",
 		new = 1,
@@ -35924,6 +37572,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -35977,7 +37628,6 @@ pg.furniture_data_template = {
 		describe = "A red post box. Let's check if there are any presents inside!",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 37,
 		spine_extra = "",
 		new = 1,
@@ -35988,6 +37638,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -36041,7 +37694,6 @@ pg.furniture_data_template = {
 		describe = "A run-of-the-mill plaza paved with stone.",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 37,
 		spine_extra = "",
 		new = 1,
@@ -36052,6 +37704,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -36105,7 +37760,6 @@ pg.furniture_data_template = {
 		describe = "\"Woof! Let's have a snowball fight!\"",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 37,
 		spine_extra = "",
 		new = 1,
@@ -36116,6 +37770,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -36169,7 +37826,6 @@ pg.furniture_data_template = {
 		describe = "Let's just give the reindeer this year off.",
 		dorm_id = 0,
 		gem_price = 150,
-		can_trigger = 0,
 		themeId = 37,
 		spine_extra = "",
 		new = 1,
@@ -36180,6 +37836,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"shengdancheB",
@@ -36277,7 +37936,6 @@ pg.furniture_data_template = {
 		describe = "Fun for kids around the world! Caution: may be cold to sit on at first.",
 		dorm_id = 0,
 		gem_price = 150,
-		can_trigger = 0,
 		themeId = 37,
 		spine_extra = "",
 		new = 1,
@@ -36288,6 +37946,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"shengdanqiuqianB",
@@ -36378,7 +38039,6 @@ pg.furniture_data_template = {
 		describe = "Wallpaper that makes all the boars feel at home.",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -36386,6 +38046,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -36439,7 +38102,6 @@ pg.furniture_data_template = {
 		describe = "Floor that just feels natural. Don't eat the grass though, it's fake.",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -36447,6 +38109,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -36500,7 +38165,6 @@ pg.furniture_data_template = {
 		describe = "Totally fine to sit on, just don't try it with a real boar.",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -36523,6 +38187,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -36577,7 +38244,6 @@ pg.furniture_data_template = {
 		describe = "Does it look like a Neighbor, or a Friend?",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -36613,6 +38279,9 @@ pg.furniture_data_template = {
 				},
 				"yezhu/bashiyz_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -36667,7 +38336,6 @@ pg.furniture_data_template = {
 		describe = "You'll snore like a boar when you sleep in this bed.",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -36691,6 +38359,9 @@ pg.furniture_data_template = {
 				},
 				"yezhu/chuangyz_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -36745,7 +38416,6 @@ pg.furniture_data_template = {
 		describe = "It's almost hard to believe how fluffy the lampshade is.",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -36756,6 +38426,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -36809,7 +38482,6 @@ pg.furniture_data_template = {
 		describe = "A plain old rock. Take care not to slip on it!",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -36832,6 +38504,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -36886,7 +38561,6 @@ pg.furniture_data_template = {
 		describe = "A plain old rock. Be careful of the moss!",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -36909,6 +38583,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -36963,7 +38640,6 @@ pg.furniture_data_template = {
 		describe = "A carpet that belongs in a living room. Very nice texture.",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -36974,6 +38650,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -37027,7 +38706,6 @@ pg.furniture_data_template = {
 		describe = "Square tiles painted in the color of chocolate. Not edible, but won't melt!",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -37038,6 +38716,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -37091,7 +38772,6 @@ pg.furniture_data_template = {
 		describe = "A small campfire you and your friends can sit around and tell stories.",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -37102,6 +38782,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -37155,7 +38838,6 @@ pg.furniture_data_template = {
 		describe = "\"No, not that one! It's still growing!\"",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -37166,6 +38848,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -37219,7 +38904,6 @@ pg.furniture_data_template = {
 		describe = "\"You gotta water it every morning! Don't forget it!\"",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -37230,6 +38914,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -37283,7 +38970,6 @@ pg.furniture_data_template = {
 		describe = "\"One day I'd like to grow roses in it.\"",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -37294,6 +38980,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -37347,7 +39036,6 @@ pg.furniture_data_template = {
 		describe = "There's a boar somewhere in our peaceful dormitory...!",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -37358,6 +39046,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -37411,7 +39102,6 @@ pg.furniture_data_template = {
 		describe = "We caught him.",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -37422,6 +39112,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -37475,7 +39168,6 @@ pg.furniture_data_template = {
 		describe = "Goes well with meat stew, but won't give you an extra life.",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -37486,6 +39178,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -37539,7 +39234,6 @@ pg.furniture_data_template = {
 		describe = "There's a captain's log in there somewhere.",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -37550,6 +39244,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -37603,7 +39300,6 @@ pg.furniture_data_template = {
 		describe = "How come kids play in the mud but adults bathe in it?",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -37627,6 +39323,9 @@ pg.furniture_data_template = {
 				},
 				"yezhu/nitanyz_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -37681,7 +39380,6 @@ pg.furniture_data_template = {
 		describe = "There are 2 regular balloons and one BOARloon.",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -37692,6 +39390,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -37745,7 +39446,6 @@ pg.furniture_data_template = {
 		describe = "Is it a drumstick? What's it from? Nobody knows. Still delicious, though.",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -37756,6 +39456,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -37809,7 +39512,6 @@ pg.furniture_data_template = {
 		describe = "Keeps the fire safely contained and perfectly ventilated.",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -37820,6 +39522,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -37873,7 +39578,6 @@ pg.furniture_data_template = {
 		describe = "This boar is waiting to am-bush its prey.",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -37884,6 +39588,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -37937,7 +39644,6 @@ pg.furniture_data_template = {
 		describe = "A certain someone made it nice and tidy for you.",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -37948,6 +39654,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -38001,7 +39710,6 @@ pg.furniture_data_template = {
 		describe = "A fluffy carpet with a friendly boar sitting on it.",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -38012,6 +39720,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -38065,7 +39776,6 @@ pg.furniture_data_template = {
 		describe = "Not everyone wears shoes indoors, but anyone can wear slippers indoors.",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -38076,6 +39786,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -38129,7 +39842,6 @@ pg.furniture_data_template = {
 		describe = "A boar on a rampage. Well, it's standing still now, but...",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -38140,6 +39852,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -38193,7 +39908,6 @@ pg.furniture_data_template = {
 		describe = "A rack to hang all your nice clothes on.",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -38204,6 +39918,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -38257,7 +39974,6 @@ pg.furniture_data_template = {
 		describe = "No pillow fights allowed. We're not animals.",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -38280,6 +39996,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -38334,7 +40053,6 @@ pg.furniture_data_template = {
 		describe = "No pillow fights allowed. It's BOARderline dangerous.",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -38357,6 +40075,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -38411,7 +40132,6 @@ pg.furniture_data_template = {
 		describe = "A tent with a novel design. Might attract wild boars.",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -38447,6 +40167,9 @@ pg.furniture_data_template = {
 					"yezhu/zhangpengyz_mask"
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -38501,7 +40224,6 @@ pg.furniture_data_template = {
 		describe = "You stand while eating at this table. You can add chairs if you want, but then what's the point?",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -38519,6 +40241,9 @@ pg.furniture_data_template = {
 				1,
 				1
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -38573,7 +40298,6 @@ pg.furniture_data_template = {
 		describe = "A table perfect for eating stake at.",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -38611,6 +40335,9 @@ pg.furniture_data_template = {
 				2,
 				3
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -38665,7 +40392,6 @@ pg.furniture_data_template = {
 		describe = "A round chair with a big boar's nose drawn on it. Some people say it looks like a heart.",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -38688,6 +40414,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -38742,7 +40471,6 @@ pg.furniture_data_template = {
 		describe = "\"Change my style? Not this again, Kumano...\"",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -38753,6 +40481,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -38806,7 +40537,6 @@ pg.furniture_data_template = {
 		describe = "Meat is great, but don't forget to eat your vegetables too.",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -38817,6 +40547,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -38870,7 +40603,6 @@ pg.furniture_data_template = {
 		describe = "Some Asian cultures believe this color brings good luck.",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -38881,6 +40613,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -38934,7 +40669,6 @@ pg.furniture_data_template = {
 		describe = "A window beyond which lays a beautiful snowy landscape and lots of boars. ...Wait, boars?",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -38945,6 +40679,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -38998,7 +40735,6 @@ pg.furniture_data_template = {
 		describe = "Spring is coming...",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -39009,6 +40745,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -39062,7 +40801,6 @@ pg.furniture_data_template = {
 		describe = "\"Just look at all those cute little clouds~\"",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -39073,6 +40811,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -39126,7 +40867,6 @@ pg.furniture_data_template = {
 		describe = "A shelf that's mounted so high that destroyers can't really reach it.",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -39137,6 +40877,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -39190,7 +40933,6 @@ pg.furniture_data_template = {
 		describe = "Wallpaper that puts you in the mood to celebrate this happy day.",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -39198,6 +40940,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -39251,7 +40996,6 @@ pg.furniture_data_template = {
 		describe = "Finely created Dragon Empery-style wooden flooring. Even expert craftsmen would have trouble replicating it.",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -39259,6 +41003,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -39312,7 +41059,6 @@ pg.furniture_data_template = {
 		describe = "Don't forget to water it regularly.",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -39323,6 +41069,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -39376,7 +41125,6 @@ pg.furniture_data_template = {
 		describe = "'They're so cute... but I'll still eat them! I'm so hungry!'",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -39387,6 +41135,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -39440,7 +41191,6 @@ pg.furniture_data_template = {
 		describe = "Some people can get through any rough day with some tea. Others do it with coffee.",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -39478,6 +41228,9 @@ pg.furniture_data_template = {
 				2,
 				3
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -39532,7 +41285,6 @@ pg.furniture_data_template = {
 		describe = "A big bed that has room for 2. Or just 1, if they're the type that needs personal space.",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -39566,6 +41318,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -39620,7 +41375,6 @@ pg.furniture_data_template = {
 		describe = "Might be worth more than any amount of money you can store in it!",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -39631,6 +41385,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -39684,7 +41441,6 @@ pg.furniture_data_template = {
 		describe = "A hand-knitted carpet that's almost too beautiful to walk over.",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -39695,6 +41451,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -39748,7 +41507,6 @@ pg.furniture_data_template = {
 		describe = "A hand-knitted carpet that's almost too beautiful to walk over.",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -39759,6 +41517,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -39812,7 +41573,6 @@ pg.furniture_data_template = {
 		describe = "Say oink 3 times before opening and you might get lucky!",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -39823,6 +41583,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -39876,7 +41639,6 @@ pg.furniture_data_template = {
 		describe = "Has various New Year's treasures on display.",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -39887,6 +41649,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -39940,7 +41705,6 @@ pg.furniture_data_template = {
 		describe = "Dragon Empery-style side table. Feels retro yet premium at the same time.",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -39951,6 +41715,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -40004,7 +41771,6 @@ pg.furniture_data_template = {
 		describe = "A little tiger made from cloth. Stronger than one made from paper, but weaker than a real tiger.",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -40028,6 +41794,9 @@ pg.furniture_data_template = {
 				},
 				"zhunian/huzn_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -40082,7 +41851,6 @@ pg.furniture_data_template = {
 		describe = "A traditional medicine bath that could get you drunk if you stay in it for too long.",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -40106,6 +41874,9 @@ pg.furniture_data_template = {
 				},
 				"zhunian/jiugangzn_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -40160,7 +41931,6 @@ pg.furniture_data_template = {
 		describe = "Don't let kids or destroyers drink! Especially not if they're both!",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -40171,6 +41941,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -40224,7 +41997,6 @@ pg.furniture_data_template = {
 		describe = "Dragon Empery-style folding screen. Hides less beyond the screen than you'd hope.",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -40235,6 +42007,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -40288,7 +42063,6 @@ pg.furniture_data_template = {
 		describe = "A wonderful invention so you won't need to write on the ground anymore. Takao is sure to appreciate it.",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -40299,6 +42073,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -40352,7 +42129,6 @@ pg.furniture_data_template = {
 		describe = "Balls made from glutinous rice. You can't deny they worked too hard on the exterior appearance.",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -40363,6 +42139,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -40416,7 +42195,6 @@ pg.furniture_data_template = {
 		describe = "A small red sofa that suits the holiday mood well.",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -40440,6 +42218,9 @@ pg.furniture_data_template = {
 				},
 				"zhunian/yizi2zn_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -40494,7 +42275,6 @@ pg.furniture_data_template = {
 		describe = "A red lounge chair that suits the holiday mood well.",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -40518,6 +42298,9 @@ pg.furniture_data_template = {
 				},
 				"zhunian/yizi3zn_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -40572,7 +42355,6 @@ pg.furniture_data_template = {
 		describe = "A big red sofa that suits the holiday mood well.",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -40596,6 +42378,9 @@ pg.furniture_data_template = {
 				},
 				"zhunian/yizi4zn_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -40650,7 +42435,6 @@ pg.furniture_data_template = {
 		describe = "A chair that's intended to be paired with a, you guessed it, dining table.",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -40673,6 +42457,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -40727,7 +42514,6 @@ pg.furniture_data_template = {
 		describe = "Served as a form of currency long ago. It appears to be golden, so we don't know why it's called a silver sycee.",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -40738,6 +42524,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -40791,7 +42580,6 @@ pg.furniture_data_template = {
 		describe = "Table designed to compliment Dragon Empery cuisine better than any other.",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -40841,6 +42629,9 @@ pg.furniture_data_template = {
 				4,
 				4
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -40895,7 +42686,6 @@ pg.furniture_data_template = {
 		describe = "'Wait, you're supposed to put it on your head?!'",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -40919,6 +42709,9 @@ pg.furniture_data_template = {
 				},
 				"zhunian/zhuzn_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -40973,7 +42766,6 @@ pg.furniture_data_template = {
 		describe = "It only brings luck once you place it on the floor. Otherwise it's just a normal cushion.",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -40996,6 +42788,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -41050,7 +42845,6 @@ pg.furniture_data_template = {
 		describe = "They say money doesn't grow on trees, but this little guy might prove them wrong.",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -41061,6 +42855,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -41114,7 +42911,6 @@ pg.furniture_data_template = {
 		describe = "A hearty meal that's a favorite in the Dragon Empery.",
 		dorm_id = 0,
 		gem_price = 150,
-		can_trigger = 0,
 		themeId = 39,
 		new = 1,
 		discount_time = "",
@@ -41124,6 +42920,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"xiaozhuhuoguoB",
@@ -41234,7 +43033,6 @@ pg.furniture_data_template = {
 		describe = "A hearty meal that's a favorite in the Dragon Empery.",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -41245,6 +43043,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -41298,7 +43099,6 @@ pg.furniture_data_template = {
 		describe = "Envelopes containing money, meant to be given away to friends and family on New Year's.",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -41309,6 +43109,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -41362,7 +43165,6 @@ pg.furniture_data_template = {
 		describe = "Basket filled with fruit you'd have a hard time finding during winter.",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -41373,6 +43175,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -41426,7 +43231,6 @@ pg.furniture_data_template = {
 		describe = "The scenery beyond the veils feels rather captivating.",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -41437,6 +43241,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -41490,7 +43297,6 @@ pg.furniture_data_template = {
 		describe = "It means 'spring.' Hang it on the wall to welcome the end of winter.",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -41501,6 +43307,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -41554,7 +43363,6 @@ pg.furniture_data_template = {
 		describe = "One of a set of two curtains that bring good luck when hung up.",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -41565,6 +43373,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -41618,7 +43429,6 @@ pg.furniture_data_template = {
 		describe = "One of a set of two curtains that bring good luck when hung up.",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -41629,6 +43439,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -41682,7 +43495,6 @@ pg.furniture_data_template = {
 		describe = "A wooden window beyond which lies some nice scenery.",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -41693,6 +43505,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -41746,7 +43561,6 @@ pg.furniture_data_template = {
 		describe = "A detailed painting of an astonishingly beautiful landscape. Its author is unknown.",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -41757,6 +43571,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -41810,7 +43627,6 @@ pg.furniture_data_template = {
 		describe = "A Dragon Empery-style hexagonal window that opens to reveal a gorgeous garden.",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -41821,6 +43637,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -41874,7 +43693,6 @@ pg.furniture_data_template = {
 		describe = "Experience thrills and chills on these two-dimensional valleys and hills!",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 41,
 		spine_extra = "",
 		new = 1,
@@ -41882,6 +43700,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -41935,7 +43756,6 @@ pg.furniture_data_template = {
 		describe = "Specially crafted to prevent children from tripping.",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 41,
 		spine_extra = "",
 		new = 1,
@@ -41943,6 +43763,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -41996,7 +43819,6 @@ pg.furniture_data_template = {
 		describe = "So much to do, so much to see! Where should we go next?",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 41,
 		spine_extra = "",
 		new = 1,
@@ -42007,6 +43829,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -42060,7 +43885,6 @@ pg.furniture_data_template = {
 		describe = "Although designed to look like a teacup, it appears to contain coffee.",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 41,
 		spine_extra = "",
 		new = 1,
@@ -42084,6 +43908,9 @@ pg.furniture_data_template = {
 				},
 				"valentine/chabei1vt_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -42138,7 +43965,6 @@ pg.furniture_data_template = {
 		describe = "Although designed to look like a teacup, it appears to contain coffee.",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 41,
 		spine_extra = "",
 		new = 1,
@@ -42162,6 +43988,9 @@ pg.furniture_data_template = {
 				},
 				"valentine/chabei2vt_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -42216,7 +44045,6 @@ pg.furniture_data_template = {
 		describe = "Although designed to look like a teacup, it appears to contain coffee.",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 41,
 		spine_extra = "",
 		new = 1,
@@ -42240,6 +44068,9 @@ pg.furniture_data_template = {
 				},
 				"valentine/chabei3vt_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -42294,7 +44125,6 @@ pg.furniture_data_template = {
 		describe = "Yarr-har, fiddle dee dee!",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 41,
 		spine_extra = "",
 		new = 1,
@@ -42305,6 +44135,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -42358,7 +44191,6 @@ pg.furniture_data_template = {
 		describe = "We heard you like ships, so you can put a ship on this ship.",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 41,
 		spine_extra = "",
 		new = 1,
@@ -42382,6 +44214,9 @@ pg.furniture_data_template = {
 				},
 				"valentine/haidaochuanvt_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -42436,7 +44271,6 @@ pg.furniture_data_template = {
 		describe = "Money doesn't grow on trees, but maybe love does...?",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 41,
 		spine_extra = "",
 		new = 1,
@@ -42447,6 +44281,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -42500,7 +44337,6 @@ pg.furniture_data_template = {
 		describe = "Increases the Joy factor of nearby Rides by 3.5%. Allegedly.",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 41,
 		spine_extra = "",
 		new = 1,
@@ -42511,6 +44347,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -42564,7 +44403,6 @@ pg.furniture_data_template = {
 		describe = "\"I've never tasted candy like that before! I want one, Ark!\"",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 41,
 		spine_extra = "",
 		new = 1,
@@ -42600,6 +44438,9 @@ pg.furniture_data_template = {
 					"valentine/miahuatangchevt_mask"
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -42654,7 +44495,6 @@ pg.furniture_data_template = {
 		describe = "The only kinds of cars that don't require a sober mind or a license!",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 41,
 		spine_extra = "",
 		new = 1,
@@ -42690,6 +44530,9 @@ pg.furniture_data_template = {
 				},
 				"valentine/pengpengchevt_using2"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -42744,7 +44587,6 @@ pg.furniture_data_template = {
 		describe = "Rumor has it that shooting it for a few minutes triggers a secret boss battle.",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 41,
 		spine_extra = "",
 		new = 1,
@@ -42755,6 +44597,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -42808,7 +44653,6 @@ pg.furniture_data_template = {
 		describe = "All hotdogs sold here contain only Union-approved additives!",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 41,
 		spine_extra = "",
 		new = 1,
@@ -42819,6 +44663,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -42872,7 +44719,6 @@ pg.furniture_data_template = {
 		describe = "Stay under it for long enough and you might get a free snack! Or a concussion.",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 41,
 		spine_extra = "",
 		new = 1,
@@ -42883,6 +44729,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -42936,7 +44785,6 @@ pg.furniture_data_template = {
 		describe = "You scream, I scream, we all scream for ice cream.",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 41,
 		spine_extra = "",
 		new = 1,
@@ -42960,6 +44808,9 @@ pg.furniture_data_template = {
 				},
 				"valentine/xuegaovt_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -43014,7 +44865,6 @@ pg.furniture_data_template = {
 		describe = "Having too much fun? Sit down and have a break!",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 41,
 		spine_extra = "",
 		new = 1,
@@ -43050,6 +44900,9 @@ pg.furniture_data_template = {
 				},
 				"valentine/yizivt_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -43104,7 +44957,6 @@ pg.furniture_data_template = {
 		describe = "The horses on the ride go round and round, round and round...",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 41,
 		spine_extra = "",
 		new = 1,
@@ -43140,6 +44992,9 @@ pg.furniture_data_template = {
 				},
 				"valentine/xuanzhuanmumavt_using2"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -43194,7 +45049,6 @@ pg.furniture_data_template = {
 		describe = "To go where no ship has gone before... to the skies!",
 		dorm_id = 0,
 		gem_price = 150,
-		can_trigger = 0,
 		themeId = 41,
 		spine_extra = "",
 		new = 1,
@@ -43205,6 +45059,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"reqiqiuB",
@@ -43300,7 +45157,6 @@ pg.furniture_data_template = {
 		describe = "The patterns and colors of this wallpaper evoke tranquil memories of time spent with family.",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 42,
 		spine_extra = "",
 		new = 1,
@@ -43308,6 +45164,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -43361,7 +45220,6 @@ pg.furniture_data_template = {
 		describe = "Traditional floorboards carefully crafted from real wood. Feels nice and cozy underneath your feet~",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 42,
 		spine_extra = "",
 		new = 1,
@@ -43369,6 +45227,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -43422,7 +45283,6 @@ pg.furniture_data_template = {
 		describe = "A bed inspired by everyone's favorite fermented dish. Don't eat the props though!",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 42,
 		spine_extra = "",
 		new = 1,
@@ -43445,6 +45305,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -43499,7 +45362,6 @@ pg.furniture_data_template = {
 		describe = "You don't need heavy plating to sally forth and overcome any hardship!",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 42,
 		spine_extra = "",
 		new = 1,
@@ -43535,6 +45397,9 @@ pg.furniture_data_template = {
 				},
 				"korea/chuanko_using2"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -43589,7 +45454,6 @@ pg.furniture_data_template = {
 		describe = "A traditional-styled wooden bench. Sitting on it seems to transport you to the past.",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 42,
 		spine_extra = "",
 		new = 1,
@@ -43612,6 +45476,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -43666,7 +45533,6 @@ pg.furniture_data_template = {
 		describe = "Freshly-prepared bibimbap. The delicious aroma of rice and vegetables wafts into your nostrils.",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 42,
 		spine_extra = "",
 		new = 1,
@@ -43690,6 +45556,9 @@ pg.furniture_data_template = {
 				},
 				"korea/fanko_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -43744,7 +45613,6 @@ pg.furniture_data_template = {
 		describe = "Come forth and partake of the deliciousness!",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 42,
 		spine_extra = "",
 		new = 1,
@@ -43755,6 +45623,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -43808,7 +45679,6 @@ pg.furniture_data_template = {
 		describe = "Be patient! Its contents are better with age!",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 42,
 		spine_extra = "",
 		new = 1,
@@ -43819,6 +45689,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -43872,7 +45745,6 @@ pg.furniture_data_template = {
 		describe = "How can something be so simple but elegant? So practical yet so artistic?",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 42,
 		spine_extra = "",
 		new = 1,
@@ -43883,6 +45755,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -43936,7 +45811,6 @@ pg.furniture_data_template = {
 		describe = "A drum used in many celebrations. The urge to pound out some beats is unbearable.",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 42,
 		spine_extra = "",
 		new = 1,
@@ -43947,6 +45821,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -44000,7 +45877,6 @@ pg.furniture_data_template = {
 		describe = "Glug... glug... glug... phew~! Ahh, beverages are best enjoyed like this.",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 42,
 		spine_extra = "",
 		new = 1,
@@ -44024,6 +45900,9 @@ pg.furniture_data_template = {
 				},
 				"korea/jiuko_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -44078,7 +45957,6 @@ pg.furniture_data_template = {
 		describe = "Don't let its appearances fool you. This is yet another battleground. First come first served!",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 42,
 		spine_extra = "",
 		new = 1,
@@ -44089,6 +45967,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -44142,7 +46023,6 @@ pg.furniture_data_template = {
 		describe = "The East is famous for its miraculous herbalism. Wonder if there's anything that will make me cuter...",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 42,
 		spine_extra = "",
 		new = 1,
@@ -44153,6 +46033,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -44206,7 +46089,6 @@ pg.furniture_data_template = {
 		describe = "A piping-hot plate of fried spicy rice cakes, one of the world's most beloved street foods.",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 42,
 		spine_extra = "",
 		new = 1,
@@ -44217,6 +46099,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -44270,7 +46155,6 @@ pg.furniture_data_template = {
 		describe = "If only it came with the ability to light up as well...",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 42,
 		spine_extra = "",
 		new = 1,
@@ -44281,6 +46165,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -44334,7 +46221,6 @@ pg.furniture_data_template = {
 		describe = "Silky and refreshing, this warm and comforting soy drink is the real liquid happiness.",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 42,
 		spine_extra = "",
 		new = 1,
@@ -44358,6 +46244,9 @@ pg.furniture_data_template = {
 				},
 				"korea/tangko_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -44412,7 +46301,6 @@ pg.furniture_data_template = {
 		describe = "A can of grape juice, straight out of the fridge. There are little jelly pieces at the bottom.",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 42,
 		spine_extra = "",
 		new = 1,
@@ -44423,6 +46311,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -44476,7 +46367,6 @@ pg.furniture_data_template = {
 		describe = "Orange juice is a universally beloved drink. Of course there's pulp.",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 42,
 		spine_extra = "",
 		new = 1,
@@ -44487,6 +46377,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -44540,7 +46433,6 @@ pg.furniture_data_template = {
 		describe = "Grab-and-go deliciousness for your busy schedule!",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 42,
 		spine_extra = "",
 		new = 1,
@@ -44551,6 +46443,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -44604,7 +46499,6 @@ pg.furniture_data_template = {
 		describe = "Equally suited for enjoying tea and gossipping about the shipgirls next door.",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 42,
 		spine_extra = "",
 		new = 1,
@@ -44615,6 +46509,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -44668,7 +46565,6 @@ pg.furniture_data_template = {
 		describe = "A traditional board game. Let's teach everyone how to play!",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 42,
 		spine_extra = "",
 		new = 1,
@@ -44706,6 +46602,9 @@ pg.furniture_data_template = {
 				2,
 				3
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -44760,7 +46659,6 @@ pg.furniture_data_template = {
 		describe = "Is it a table, or is it a drum?",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 42,
 		spine_extra = "",
 		new = 1,
@@ -44790,6 +46688,9 @@ pg.furniture_data_template = {
 				3,
 				3
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -44844,7 +46745,6 @@ pg.furniture_data_template = {
 		describe = "Is it a table, or is it a long drum?",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 42,
 		spine_extra = "",
 		new = 1,
@@ -44867,6 +46767,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -44921,7 +46824,6 @@ pg.furniture_data_template = {
 		describe = "Craftsmanship was certainly better back then... No matter how much you squeeze this cushion, it won't lose its shape.",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 42,
 		spine_extra = "",
 		new = 1,
@@ -44944,6 +46846,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -44998,7 +46903,6 @@ pg.furniture_data_template = {
 		describe = "Game pieces for the yuts table. Tossing these takes some finesse. Hiyah~!",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 42,
 		spine_extra = "",
 		new = 1,
@@ -45021,6 +46925,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -45075,7 +46982,6 @@ pg.furniture_data_template = {
 		describe = "Though it's made of wood, it looks undeniably sturdy and beautiful.",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 42,
 		spine_extra = "",
 		new = 1,
@@ -45086,6 +46992,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -45139,7 +47048,6 @@ pg.furniture_data_template = {
 		describe = "A necessary component in the room. It is said that this flower symbolizes a promise for the future.",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 42,
 		spine_extra = "",
 		new = 1,
@@ -45150,6 +47058,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -45203,7 +47114,6 @@ pg.furniture_data_template = {
 		describe = "A beautiful ornament of an iconic flower. It even gives off a faint, sweet scent.",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 42,
 		spine_extra = "",
 		new = 1,
@@ -45214,6 +47124,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -45267,7 +47180,6 @@ pg.furniture_data_template = {
 		describe = "A simple but effective sliding door. It gives off an earthy smell when it slides across the ground.",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 42,
 		spine_extra = "",
 		new = 1,
@@ -45278,6 +47190,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -45296,6 +47211,2578 @@ pg.furniture_data_template = {
 					2019,
 					4,
 					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[43001] = {
+		can_rotate = 0,
+		name = "Virtual Wallpaper",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		effect = "",
+		icon = "qiangbikaicon",
+		is_get_time_note = 0,
+		belong = 0,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 150,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 4,
+		picture = "KizunaAI/qiangbika",
+		canputon = 0,
+		discount = 0,
+		id = 43001,
+		comfortable = 4,
+		describe = "Wallpaper made to look like the \"white space\" Kizuna AI lives in. Now you too can have a virtual room!",
+		dorm_id = 0,
+		gem_price = 450,
+		themeId = 43,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[43002] = {
+		can_rotate = 0,
+		name = "Virtual Flooring",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		effect = "",
+		icon = "dibankaicon",
+		is_get_time_note = 0,
+		belong = 0,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 150,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 5,
+		rarity = 4,
+		picture = "KizunaAI/dibanka",
+		canputon = 0,
+		discount = 0,
+		id = 43002,
+		comfortable = 4,
+		describe = "Flooring made to look like the \"white space\" Kizuna AI lives in. Now you too can have a virtual room!",
+		dorm_id = 0,
+		gem_price = 450,
+		themeId = 43,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[43101] = {
+		can_rotate = 1,
+		name = "Easel",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		icon = "bankaicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 0,
+		not_for_sale = 1,
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		picture = "KizunaAI/banka",
+		canputon = 0,
+		discount = 0,
+		id = 43101,
+		comfortable = 3,
+		describe = "An easel that Kizuna AI made herself. You can decorate it with your favorite pictures.",
+		dorm_id = 0,
+		gem_price = 0,
+		themeId = 43,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[43102] = {
+		can_rotate = 0,
+		name = "Snack Ai Sofa",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "bataikaicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		picture = "KizunaAI/bataika",
+		canputon = 0,
+		discount = 0,
+		id = 43102,
+		comfortable = 3,
+		describe = "A sofa and table from the Snack AI series. We recommend the ginger ale.",
+		dorm_id = 0,
+		gem_price = 240,
+		themeId = 43,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			6,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-87,
+					47
+				},
+				{
+					1,
+					1
+				},
+				"KizunaAI/bataika_using"
+			},
+			{
+				"sit",
+				{
+					15,
+					77
+				},
+				{
+					-1,
+					1
+				},
+				"KizunaAI/bataika_using"
+			},
+			{
+				"sit",
+				{
+					104,
+					29
+				},
+				{
+					-1,
+					1
+				},
+				"KizunaAI/bataika_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[43103] = {
+		can_rotate = 0,
+		name = "Kizuna AI Fridge",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		icon = "bingxiangkaicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 2,
+		advice = 0,
+		dorm_icon_price = 20,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 1,
+		picture = "KizunaAI/bingxiangka",
+		canputon = 0,
+		discount = 0,
+		id = 43103,
+		comfortable = 1,
+		describe = "A super high-tech fridge. Kizuna AI can control its temperature.",
+		dorm_id = 0,
+		gem_price = 60,
+		themeId = 43,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[43104] = {
+		can_rotate = 0,
+		name = "A.I.-Equipped Bed",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "chuangkaicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		picture = "KizunaAI/chuangka",
+		canputon = 0,
+		discount = 0,
+		id = 43104,
+		comfortable = 3,
+		describe = "A bed equipped with an artificial intelligence. The A.I. schedules your naptime so you get the optimum amount of beauty sleep!",
+		dorm_id = 0,
+		gem_price = 240,
+		themeId = 43,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			6,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					6.9,
+					48.1
+				},
+				{
+					1,
+					1
+				}
+			},
+			{
+				"sleep",
+				{
+					79.1,
+					15.3
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[43105] = {
+		can_rotate = 0,
+		name = "A.I.-Equipped Kitchen",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		icon = "chufangkaicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		picture = "KizunaAI/chufangka",
+		canputon = 0,
+		discount = 0,
+		id = 43105,
+		comfortable = 3,
+		describe = "A kitchen equipped with a highly advanced A.I. to make it easy to use. Just upload your recipe, and the food makes itself! ... In theory, anyway.",
+		dorm_id = 0,
+		gem_price = 240,
+		themeId = 43,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			3,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[43106] = {
+		can_rotate = 0,
+		name = "Kizuna AI Stool",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 2,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "dengzi2kaicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "KizunaAI/dengzi2ka",
+		canputon = 0,
+		discount = 0,
+		id = 43106,
+		comfortable = 2,
+		describe = "A stool that's reminiscent of Kizuna AI. \"It's light and durable, so it won't break easily!\"",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 43,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-11,
+					59
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[43107] = {
+		can_rotate = 0,
+		name = "Kizuna AI Chair",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 2,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "dengzi3kaicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "KizunaAI/dengzi3ka",
+		canputon = 0,
+		discount = 0,
+		id = 43107,
+		comfortable = 2,
+		describe = "A chair that's reminiscent of Kizuna AI. \"Why's there no backrest? Because backrests contribute to bad posture.\"",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 43,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-18,
+					54
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[43108] = {
+		can_rotate = 0,
+		name = "Heart Seat",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 2,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "dengzikaicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "KizunaAI/dengzika",
+		canputon = 0,
+		discount = 0,
+		id = 43108,
+		comfortable = 2,
+		describe = "A heart-shaped seat that's reminiscent of Kizuna AI. It's actually pretty cushy.",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 43,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					21,
+					38
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[43109] = {
+		can_rotate = 1,
+		name = "4K Kizuna AI Television",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		picture = "",
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 0,
+		not_for_sale = 0,
+		icon = "dianshikaicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 4,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 43109,
+		comfortable = 4,
+		describe = "It almost makes videos look realer than reality itself. It makes games feel more immersive, too!",
+		dorm_id = 0,
+		gem_price = 200,
+		themeId = 43,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			7,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"ai_tv",
+				"normal",
+				{
+					"action",
+					true
+				}
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[43110] = {
+		can_rotate = 0,
+		name = "Headband Rug",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		effect = "",
+		icon = "ditan2kaicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "KizunaAI/ditan2ka",
+		canputon = 0,
+		discount = 0,
+		id = 43110,
+		comfortable = 2,
+		describe = "A rug that's reminiscent of the headband Kizuna AI wears.",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 43,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			6,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[43111] = {
+		can_rotate = 1,
+		name = "Kizuna AI Carpet",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		effect = "",
+		icon = "ditankaicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 20,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 1,
+		picture = "KizunaAI/ditanka",
+		canputon = 0,
+		discount = 0,
+		id = 43111,
+		comfortable = 1,
+		describe = "A carpet that's reminiscent of the super smart artificial intelligence Kizuna AI.",
+		dorm_id = 0,
+		gem_price = 60,
+		themeId = 43,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			8,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[43112] = {
+		can_rotate = 0,
+		name = "Random Word Generator",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "jikaicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		picture = "KizunaAI/jika",
+		canputon = 0,
+		discount = 0,
+		id = 43112,
+		comfortable = 3,
+		describe = "A device that looks like the strange box that ended up in the same world as Kizuna AI. \"The real thing is even cooler!\"",
+		dorm_id = 0,
+		gem_price = 240,
+		themeId = 43,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"wash",
+				{
+					-3,
+					-37
+				},
+				{
+					-1,
+					1
+				},
+				"KizunaAI/jika_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[43113] = {
+		can_rotate = 0,
+		name = "AI-Equipped Bottle Rack",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		icon = "jiuguikaicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "KizunaAI/jiuguika",
+		canputon = 0,
+		discount = 0,
+		id = 43113,
+		comfortable = 2,
+		describe = "A bottle rack from the Snack AI series. \"I recommend that there A.I. Whiskey, but don't drink none till yer 21!\"",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 43,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[43114] = {
+		can_rotate = 0,
+		name = "Kitty Cat",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		icon = "maokaicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "KizunaAI/maoka",
+		canputon = 0,
+		discount = 0,
+		id = 43114,
+		comfortable = 2,
+		describe = "Just a normal cat. Not a munchkin, not a parrot, not a techitechi bird.",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 43,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[43115] = {
+		can_rotate = 0,
+		name = "A.I. Nursing Device",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 0,
+		not_for_sale = 1,
+		icon = "peiyangkaicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 4,
+		picture = "KizunaAI/peiyangka",
+		canputon = 0,
+		discount = 0,
+		id = 43115,
+		comfortable = 4,
+		describe = "A nursing device equipped with an A.I. that's highly advanced. Standing inside it restores your energy quicker than usual. Maybe.",
+		dorm_id = 0,
+		gem_price = 0,
+		themeId = 43,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"dance",
+				{
+					-3,
+					-109
+				},
+				{
+					-1,
+					1
+				},
+				"KizunaAI/peiyangka_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[43116] = {
+		can_rotate = 0,
+		name = "Virtual Potted Plant",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		icon = "penzaikaicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 3,
+		advice = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "KizunaAI/penzaika",
+		canputon = 0,
+		discount = 0,
+		id = 43116,
+		comfortable = 2,
+		describe = "A virtual potted plant shaped like a heart. \"It's virtual, so it can take on any shape you want! It's really fun to see it change!\"",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 43,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[43117] = {
+		can_rotate = 0,
+		name = "L-Shaped Kizuna AI Sofa",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "shafakaicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		picture = "KizunaAI/shafaka",
+		canputon = 0,
+		discount = 0,
+		id = 43117,
+		comfortable = 3,
+		describe = "A multifunction sofa that's reminiscent of Kizuna AI. It has lots of storage slots to make the most use of its space.",
+		dorm_id = 0,
+		gem_price = 240,
+		themeId = 43,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			6,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-34,
+					79
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[43118] = {
+		can_rotate = 0,
+		name = "A.I. Closet",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		icon = "yiguikaicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "KizunaAI/yiguika",
+		canputon = 0,
+		discount = 0,
+		id = 43118,
+		comfortable = 2,
+		describe = "A closet that stores various items styled after Kizuna AI. \"Now you can be Kizuna AI whenever you want!\"",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 43,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[43119] = {
+		can_rotate = 0,
+		name = "Kizuna AI Sofa",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 2,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "yizikaicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "KizunaAI/yizika",
+		canputon = 0,
+		discount = 0,
+		id = 43119,
+		comfortable = 2,
+		describe = "A sofa that's reminiscent of Kizuna AI. There's not anything particularly virtual about it. \"Whaddya mean it's not virtual?!\"",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 43,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			3,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-99,
+					39
+				},
+				{
+					-1,
+					1
+				}
+			},
+			{
+				"sit",
+				{
+					-38,
+					6
+				},
+				{
+					-1,
+					1
+				}
+			},
+			{
+				"sit",
+				{
+					16,
+					-21
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[43120] = {
+		can_rotate = 0,
+		name = "A.I. Bathtub",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "yugangkaicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		picture = "KizunaAI/yugangka",
+		canputon = 0,
+		discount = 0,
+		id = 43120,
+		comfortable = 3,
+		describe = "A bathtub that's reminiscent of Kizuna AI. \"You can place your device on the transparent board to watch my videos while in the bath!\"",
+		dorm_id = 0,
+		gem_price = 240,
+		themeId = 43,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			4,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"wash",
+				{
+					22,
+					-12
+				},
+				{
+					-1,
+					1
+				},
+				"KizunaAI/yugang_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[43121] = {
+		can_rotate = 0,
+		name = "A.I. Desk",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		icon = "zhuo2kaicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 0,
+		not_for_sale = 1,
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "KizunaAI/zhuo2ka",
+		canputon = 0,
+		discount = 0,
+		id = 43121,
+		comfortable = 2,
+		describe = "A desk that's reminiscent of the one Kizuna AI uses when she does cool work. With this fantastic triple-screen setup you can edit videos faster... in theory.",
+		dorm_id = 0,
+		gem_price = 0,
+		themeId = 43,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			5,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[43122] = {
+		can_rotate = 0,
+		name = "Round A.I. Table",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		icon = "zhuokaicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 2,
+		advice = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "KizunaAI/zhuoka",
+		canputon = 1,
+		discount = 0,
+		id = 43122,
+		comfortable = 2,
+		describe = "A big, round table that's reminiscent of Kizuna AI. You can make friends easily if you sit in a circle around this table!",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 43,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			4,
+			4
+		},
+		offset = {
+			0,
+			-5.23
+		},
+		canputonGrid = {
+			{
+				2,
+				2
+			},
+			{
+				2,
+				3
+			},
+			{
+				2,
+				4
+			},
+			{
+				3,
+				2
+			},
+			{
+				3,
+				3
+			},
+			{
+				3,
+				4
+			},
+			{
+				4,
+				2
+			},
+			{
+				4,
+				3
+			},
+			{
+				4,
+				4
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[43123] = {
+		can_rotate = 1,
+		name = "A.I. Stage",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		picture = "",
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 0,
+		not_for_sale = 0,
+		icon = "wutaikaicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 4,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 43123,
+		comfortable = 4,
+		describe = "A stage prepared for Kizuna AI when she hosts a concert at the base. There's a heart-shaped monitor on the back which lets you do all kinds of effects and stuff.",
+		dorm_id = 0,
+		gem_price = 200,
+		themeId = 43,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			8,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"Ai_Stage",
+				"normal"
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				63,
+				-107
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[43201] = {
+		can_rotate = 0,
+		name = "A.I. Glow Stick",
+		gain_by = "",
+		type = 3,
+		dir = 0,
+		effect = "",
+		icon = "bangkaicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 4,
+		advice = 0,
+		dorm_icon_price = 20,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 2,
+		rarity = 1,
+		picture = "KizunaAI/bangka",
+		canputon = 0,
+		discount = 0,
+		id = 43201,
+		comfortable = 1,
+		describe = "A glow stick that's reminiscent of Kizuna AI. Don't forget to bring it with you to her concert, or else you might feel so ashamed you'll want to run away.",
+		dorm_id = 0,
+		gem_price = 60,
+		themeId = 43,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[43202] = {
+		can_rotate = 0,
+		name = "A.I. Controller",
+		gain_by = "",
+		type = 3,
+		dir = 0,
+		effect = "",
+		icon = "shoubingkaicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 2,
+		advice = 0,
+		dorm_icon_price = 20,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 2,
+		rarity = 1,
+		picture = "KizunaAI/shoubingka",
+		canputon = 0,
+		discount = 0,
+		id = 43202,
+		comfortable = 1,
+		describe = "A controller that's reminiscent of Kizuna AI. It comes equipped with an artificial intelligence, so even if you suck at games, it'll help you play like a pro... in theory.",
+		dorm_id = 0,
+		gem_price = 60,
+		themeId = 43,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[43205] = {
+		can_rotate = 0,
+		name = "A.I. Cushion",
+		gain_by = "",
+		type = 3,
+		dir = 0,
+		effect = "",
+		icon = "baozhengkaicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 0,
+		not_for_sale = 1,
+		deblocking = 1,
+		level = 2,
+		rarity = 3,
+		picture = "KizunaAI/baozhengka",
+		canputon = 0,
+		discount = 0,
+		id = 43205,
+		comfortable = 3,
+		describe = "A cushion that's reminiscent of Kizuna AI. In particular, pro gamer Kizuna AI with short hair.",
+		dorm_id = 0,
+		gem_price = 0,
+		themeId = 43,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[43301] = {
+		can_rotate = 0,
+		name = "A.I. Concert Poster",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		effect = "",
+		icon = "huakaicon",
+		is_get_time_note = 0,
+		belong = 2,
+		count = 3,
+		advice = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 5,
+		rarity = 2,
+		picture = "KizunaAI/huaka",
+		canputon = 0,
+		discount = 0,
+		id = 43301,
+		comfortable = 2,
+		describe = "A poster that might be used to advertise Kizuna AI's first concert. \"Hello, world!\"",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 43,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[43302] = {
+		can_rotate = 0,
+		name = "A.I. Clothes Rack",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		effect = "",
+		icon = "jiazi2kaicon",
+		is_get_time_note = 0,
+		belong = 2,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 0,
+		not_for_sale = 1,
+		deblocking = 1,
+		level = 5,
+		rarity = 3,
+		picture = "KizunaAI/jiazi2ka",
+		canputon = 0,
+		discount = 0,
+		id = 43302,
+		comfortable = 3,
+		describe = "Kizuna AI's clothes rack. Just by wearing a white coat and a pair of glasses, people will think you're intelligent... probably.",
+		dorm_id = 0,
+		gem_price = 0,
+		themeId = 43,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[43303] = {
+		can_rotate = 0,
+		name = "A.I. Bookshelf",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		effect = "",
+		icon = "jiazikaicon",
+		is_get_time_note = 0,
+		belong = 2,
+		count = 2,
+		advice = 0,
+		dorm_icon_price = 20,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 5,
+		rarity = 1,
+		picture = "KizunaAI/jiazika",
+		canputon = 0,
+		discount = 0,
+		id = 43303,
+		comfortable = 1,
+		describe = "A bookcase where Kizuna AI leaves books she's done reading. She seems happy to be able to read physical, real-life books.",
+		dorm_id = 0,
+		gem_price = 60,
+		themeId = 43,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[43304] = {
+		can_rotate = 0,
+		name = "Portal To Anywhere",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		effect = "",
+		icon = "menkaicon",
+		is_get_time_note = 0,
+		belong = 2,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 5,
+		rarity = 3,
+		picture = "KizunaAI/menka",
+		canputon = 0,
+		discount = 0,
+		id = 43304,
+		comfortable = 3,
+		describe = "One of Kizuna AI's secret tools. Most of the worlds she visit have a high difficulty setting.",
+		dorm_id = 0,
+		gem_price = 240,
+		themeId = 43,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[43305] = {
+		can_rotate = 0,
+		name = "Virtual Screen",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		effect = "",
+		icon = "pingmukaicon",
+		is_get_time_note = 0,
+		belong = 4,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 0,
+		not_for_sale = 1,
+		deblocking = 1,
+		level = 5,
+		rarity = 3,
+		picture = "KizunaAI/pingmuka",
+		canputon = 0,
+		discount = 0,
+		id = 43305,
+		comfortable = 3,
+		describe = "A high-tech screen that uses the latest projection technology. \"With this, you can watch me on the big screen, no matter where you are!\"",
+		dorm_id = 0,
+		gem_price = 0,
+		themeId = 43,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			6,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[43306] = {
+		can_rotate = 0,
+		name = "Heart-Shaped Shelf",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		effect = "",
+		icon = "shujiakaicon",
+		is_get_time_note = 0,
+		belong = 2,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 0,
+		not_for_sale = 1,
+		deblocking = 1,
+		level = 5,
+		rarity = 3,
+		picture = "KizunaAI/shujiaka",
+		canputon = 0,
+		discount = 0,
+		id = 43306,
+		comfortable = 3,
+		describe = "A great place for your game cases. It has lots of games that Kizuna AI bought so she could stream them.",
+		dorm_id = 0,
+		gem_price = 0,
+		themeId = 43,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[43307] = {
+		can_rotate = 0,
+		name = "Kizuna AI Letter Boxes",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		effect = "",
+		icon = "zikaicon",
+		is_get_time_note = 0,
+		belong = 4,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 5,
+		rarity = 3,
+		picture = "KizunaAI/zika",
+		canputon = 0,
+		discount = 0,
+		id = 43307,
+		comfortable = 3,
+		describe = "Letter boxes that spell out the name of the super intelligent Kizuna AI. - \"Kizuna AI... was a good person. I will miss her.\" - \"Hey, I'm still alive!\"",
+		dorm_id = 0,
+		gem_price = 240,
+		themeId = 43,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			6,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
 				},
 				{
 					23,
@@ -45336,9 +49823,14 @@ pg.furniture_data_template = {
 		117,
 		118,
 		119,
+		122,
+		123,
 		124,
 		137,
 		140,
+		141,
+		143,
+		100006,
 		1001,
 		1002,
 		1101,
@@ -46036,7 +50528,42 @@ pg.furniture_data_template = {
 		42301,
 		42302,
 		42303,
-		42304
+		42304,
+		43001,
+		43002,
+		43101,
+		43102,
+		43103,
+		43104,
+		43105,
+		43106,
+		43107,
+		43108,
+		43109,
+		43110,
+		43111,
+		43112,
+		43113,
+		43114,
+		43115,
+		43116,
+		43117,
+		43118,
+		43119,
+		43120,
+		43121,
+		43122,
+		43123,
+		43201,
+		43202,
+		43205,
+		43301,
+		43302,
+		43303,
+		43304,
+		43305,
+		43306,
+		43307
 	}
 }
 

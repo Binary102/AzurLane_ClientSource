@@ -59,7 +59,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 205011,
+			actor = 205010,
 			nameColor = "#a9f548",
 			say = "这家伙虽然有点挺没意思的……但是在辅佐仆人你这件事上还是绰绰有余的！",
 			effects = {
@@ -119,7 +119,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			optionFlag = 1,
-			actor = 202191,
+			actor = 202190,
 			nameColor = "#a9f548",
 			say = "呼……",
 			typewriter = {
@@ -189,7 +189,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			optionFlag = 1,
-			actor = 202191,
+			actor = 202190,
 			nameColor = "#a9f548",
 			say = "…………",
 			typewriter = {
@@ -318,7 +318,7 @@ return {
 			optionFlag = 1,
 			bgName = "bg_story_task",
 			bgm = "story-1",
-			actor = 202191,
+			actor = 202190,
 			nameColor = "#a9f548",
 			say = "指挥官？你还好吗？",
 			flashout = {
@@ -374,7 +374,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			optionFlag = 1,
-			actor = 202191,
+			actor = 202190,
 			nameColor = "#a9f548",
 			say = "刚才的是事故呢……还是满足了您的愿望呢？",
 			typewriter = {
@@ -391,7 +391,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			optionFlag = 1,
-			actor = 202191,
+			actor = 202190,
 			nameColor = "#a9f548",
 			say = "如果您希望的话可以尽管这样呆下去。……不过那样的话后面就要加班了呢",
 			typewriter = {

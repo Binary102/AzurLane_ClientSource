@@ -61,6 +61,10 @@ function UnlinkSocial(slot0)
 end
 
 function IsSocialLink(slot0)
+	if not isAiriUS() then
+		return
+	end
+
 	if slot0 == AIRI_PLATFORM_FACEBOOK then
 		return AiriSdkMgr.inst:CheckPlatformLink(Airisdk.LoginPlatform.FACEBOOK)
 	elseif slot0 == AIRI_PLATFORM_TWITTER then

@@ -61,7 +61,7 @@ return {
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
-			actor = 404011,
+			actor = 404010,
 			say = "我又赢了！",
 			flashN = {
 				color = {
@@ -115,7 +115,7 @@ return {
 			}
 		},
 		{
-			actor = 404011,
+			actor = 404010,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -135,7 +135,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 403041,
+			actor = 403040,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -165,7 +165,7 @@ return {
 			side = 0,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 404011,
+			actor = 404010,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -186,7 +186,7 @@ return {
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
-			actor = 403041,
+			actor = 403040,
 			say = "不用你说我也知道！！",
 			flashN = {
 				color = {
@@ -259,7 +259,7 @@ return {
 			}
 		},
 		{
-			actor = 403041,
+			actor = 403040,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -275,7 +275,7 @@ return {
 			}
 		},
 		{
-			actor = 403041,
+			actor = 403040,
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -293,7 +293,7 @@ return {
 			}
 		},
 		{
-			actor = 403041,
+			actor = 403040,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -309,7 +309,7 @@ return {
 			}
 		},
 		{
-			actor = 403041,
+			actor = 403040,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -356,7 +356,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 301321,
+			actor = 301320,
 			actorName = "{namecode:33}",
 			say = "德意志，你是不是有另一个名字呀？",
 			typewriter = {
@@ -373,7 +373,7 @@ return {
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 403041,
+			actor = 403040,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -389,7 +389,7 @@ return {
 			}
 		},
 		{
-			actor = 301411,
+			actor = 301410,
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -408,7 +408,7 @@ return {
 			side = 1,
 			bgName = "bg_story_school",
 			dir = -1,
-			actor = 301331,
+			actor = 301330,
 			nameColor = "#a9f548",
 			say = "{namecode:126}，要是德意志不喜欢的话……",
 			typewriter = {
@@ -431,7 +431,7 @@ return {
 			}
 		},
 		{
-			actor = 403041,
+			actor = 403040,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -447,7 +447,7 @@ return {
 			}
 		},
 		{
-			actor = 403041,
+			actor = 403040,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -483,7 +483,7 @@ return {
 			}
 		},
 		{
-			actor = 403041,
+			actor = 403040,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -502,7 +502,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 403041,
+			actor = 403040,
 			nameColor = "#a9f548",
 			say = "区区一个下等生物，脑子里该不会又在想着什么下流的事吧？",
 			typewriter = {
@@ -525,7 +525,7 @@ return {
 			}
 		},
 		{
-			actor = 403041,
+			actor = 403040,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -554,7 +554,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 403041,
+			actor = 403040,
 			nameColor = "#a9f548",
 			say = "总之别在那发呆了，赶紧过来，要开始捉迷藏了！",
 			typewriter = {

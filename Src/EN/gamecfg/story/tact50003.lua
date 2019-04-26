@@ -14,7 +14,7 @@ return {
 			}
 		},
 		{
-			actor = 103101,
+			actor = 103100,
 			side = 2,
 			nameColor = "#a9f548",
 			say = "Astoria, it's so hot...",
@@ -28,7 +28,7 @@ return {
 			}
 		},
 		{
-			actor = 103081,
+			actor = 103080,
 			side = 2,
 			nameColor = "#a9f548",
 			say = "Okay~ In that case, why don't you take off your blazer and pass it over to me?",
@@ -42,7 +42,7 @@ return {
 			}
 		},
 		{
-			actor = 103101,
+			actor = 103100,
 			side = 2,
 			nameColor = "#a9f548",
 			say = "It's still too hot even if I take it off... I'm gonna melt...",
@@ -56,7 +56,7 @@ return {
 			}
 		},
 		{
-			actor = 103091,
+			actor = 103090,
 			side = 2,
 			nameColor = "#a9f548",
 			say = "We're in the tropics, after all. This is just how the climate is all year 'round. At least it cools down at night.",
@@ -70,7 +70,7 @@ return {
 			}
 		},
 		{
-			actor = 103091,
+			actor = 103090,
 			side = 2,
 			nameColor = "#a9f548",
 			say = "That said, Vincennes has been busy lugging supplies around the last two days, so it only makes sense that she'd be tired...",
@@ -84,7 +84,7 @@ return {
 			}
 		},
 		{
-			actor = 103101,
+			actor = 103100,
 			side = 1,
 			say = "Also, going on patrol is tiring and boring... Why do we have to run around when Enterprise and the others could handle it?",
 			nameColor = "#a9f548",
@@ -102,7 +102,7 @@ return {
 			}
 		},
 		{
-			actor = 103091,
+			actor = 103090,
 			side = 0,
 			nameColor = "#a9f548",
 			say = "Um, it seems that the admiralty is worried that there are enemy carriers lurking around, so they issued orders to have her withdrawn...",
@@ -116,7 +116,7 @@ return {
 			}
 		},
 		{
-			actor = 103091,
+			actor = 103090,
 			side = 0,
 			nameColor = "#a9f548",
 			say = "That's why we're needed to patrol the area and ensure the safety of the landing force.",
@@ -130,7 +130,7 @@ return {
 			}
 		},
 		{
-			actor = 103081,
+			actor = 103080,
 			side = 1,
 			nameColor = "#a9f548",
 			say = "Quincy knows everything, doesn't she? Is she becoming a better big sister than me?",
@@ -144,7 +144,7 @@ return {
 			}
 		},
 		{
-			actor = 103091,
+			actor = 103090,
 			side = 0,
 			nameColor = "#a9f548",
 			say = "Th-that wasn't my intention... I just want to be helpful to you, Astoria...",
@@ -158,7 +158,7 @@ return {
 			}
 		},
 		{
-			actor = 103081,
+			actor = 103080,
 			side = 1,
 			nameColor = "#a9f548",
 			say = "Hm... is that so? But not this time! You've shown me that I need to get smarter! Quincy, after this mission is over, teach me how to get smart!",
@@ -172,7 +172,7 @@ return {
 			}
 		},
 		{
-			actor = 103091,
+			actor = 103090,
 			side = 0,
 			nameColor = "#a9f548",
 			say = "Um, sure!",
@@ -186,7 +186,7 @@ return {
 			}
 		},
 		{
-			actor = 103101,
+			actor = 103100,
 			side = 1,
 			nameColor = "#a9f548",
 			say = "Quincy, I'm sleepy...",
@@ -200,7 +200,7 @@ return {
 			}
 		},
 		{
-			actor = 103091,
+			actor = 103090,
 			side = 0,
 			nameColor = "#a9f548",
 			say = "I suppose there's no helping it... Vincennes, come here, I'll carry you.",
@@ -214,7 +214,7 @@ return {
 			}
 		},
 		{
-			actor = 103101,
+			actor = 103100,
 			side = 1,
 			nameColor = "#a9f548",
 			say = "Yay! Quincy, I love you~",
@@ -228,7 +228,7 @@ return {
 			}
 		},
 		{
-			actor = 103081,
+			actor = 103080,
 			side = 1,
 			nameColor = "#a9f548",
 			say = "What about Astoria? You know, your other big sister?!",
@@ -242,7 +242,7 @@ return {
 			}
 		},
 		{
-			actor = 103101,
+			actor = 103100,
 			side = 1,
 			nameColor = "#a9f548",
 			say = "Um... I love you second best?",
@@ -256,7 +256,7 @@ return {
 			}
 		},
 		{
-			actor = 103081,
+			actor = 103080,
 			side = 1,
 			nameColor = "#a9f548",
 			say = "Hm... I suppose that's still a silver medal...",
@@ -296,7 +296,7 @@ return {
 			}
 		},
 		{
-			actor = 103101,
+			actor = 103100,
 			side = 2,
 			nameColor = "#a9f548",
 			say = "Searchlights...? Or did someone behind us accidentally turn on the high beams...?",
@@ -310,7 +310,7 @@ return {
 			}
 		},
 		{
-			actor = 103081,
+			actor = 103080,
 			side = 0,
 			say = "Wait, no! These are... enemies! Quincy, Vincennes, prepare for battle!",
 			nameColor = "#a9f548",

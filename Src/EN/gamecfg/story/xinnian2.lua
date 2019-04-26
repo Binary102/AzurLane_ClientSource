@@ -15,7 +15,7 @@ return {
 			}
 		},
 		{
-			actor = 307034,
+			actor = 307030,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
@@ -48,7 +48,7 @@ return {
 			}
 		},
 		{
-			actor = 301144,
+			actor = 301140,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = -1,
@@ -68,7 +68,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 301334,
+			actor = 301330,
 			actorName = "{namecode:34}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -84,7 +84,7 @@ return {
 			}
 		},
 		{
-			actor = 307024,
+			actor = 307020,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -100,7 +100,7 @@ return {
 			}
 		},
 		{
-			actor = 307014,
+			actor = 307010,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
@@ -116,7 +116,7 @@ return {
 			}
 		},
 		{
-			actor = 307024,
+			actor = 307020,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -132,7 +132,7 @@ return {
 			}
 		},
 		{
-			actor = 307014,
+			actor = 307010,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
@@ -148,7 +148,7 @@ return {
 			}
 		},
 		{
-			actor = 307034,
+			actor = 307030,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -164,7 +164,7 @@ return {
 			}
 		},
 		{
-			actor = 403034,
+			actor = 403030,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -179,7 +179,7 @@ return {
 			}
 		},
 		{
-			actor = 307024,
+			actor = 307020,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -195,7 +195,7 @@ return {
 			}
 		},
 		{
-			actor = 307034,
+			actor = 307030,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -211,7 +211,7 @@ return {
 			}
 		},
 		{
-			actor = 403034,
+			actor = 403030,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -226,7 +226,7 @@ return {
 			}
 		},
 		{
-			actor = 307014,
+			actor = 307010,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = -1,
@@ -245,14 +245,14 @@ return {
 			actorShadow = true,
 			side = 0,
 			actorName = "{namecode:93}&{namecode:92}",
-			actor = 307034,
+			actor = 307030,
 			dir = -1,
 			hideOther = true,
 			nameColor = "#a9f548",
 			say = "……",
 			subActors = {
 				{
-					actor = 307024,
+					actor = 307020,
 					dir = -1,
 					pos = {
 						x = -735
@@ -269,7 +269,7 @@ return {
 			}
 		},
 		{
-			actor = 403034,
+			actor = 403030,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -288,7 +288,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 307024,
+			actor = 307020,
 			actorName = "{namecode:92}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -304,7 +304,7 @@ return {
 			}
 		},
 		{
-			actor = 307034,
+			actor = 307030,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
@@ -320,7 +320,7 @@ return {
 			}
 		},
 		{
-			actor = 303124,
+			actor = 303120,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = -1,
@@ -336,7 +336,7 @@ return {
 			}
 		},
 		{
-			actor = 403034,
+			actor = 403030,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -351,7 +351,7 @@ return {
 			}
 		},
 		{
-			actor = 307034,
+			actor = 307030,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -367,7 +367,7 @@ return {
 			}
 		},
 		{
-			actor = 403034,
+			actor = 403030,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,

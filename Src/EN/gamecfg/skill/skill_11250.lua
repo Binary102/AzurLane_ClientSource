@@ -55,6 +55,16 @@ return {
 				buff_id = 11252,
 				shipType = 11
 			}
+		},
+		{
+			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
+			target_choise = "TargetPlayerByType",
+			arg_list = {
+				buff_id = 11252,
+				shipType = 18
+			}
 		}
 	}
 }

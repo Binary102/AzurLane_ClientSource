@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"特别演习·埃塞克斯级\n\n<size=30>四　目标</size>",
+					"特别演习·埃塞克斯级\n\n<size=30>四　努力的目标</size>",
 					1
 				}
 			}
@@ -50,7 +50,7 @@ return {
 			}
 		},
 		{
-			actor = 107221,
+			actor = 107220,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -66,7 +66,7 @@ return {
 			}
 		},
 		{
-			actor = 107091,
+			actor = 107090,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -86,7 +86,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 107221,
+			actor = 107220,
 			nameColor = "#a9f548",
 			say = "就是……埃塞克斯是怎样看待“变强”这件事情的呢？",
 			typewriter = {
@@ -103,7 +103,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 107221,
+			actor = 107220,
 			nameColor = "#a9f548",
 			say = "这次的演习，我觉得自己发挥得还不够好，实力上还有所欠缺。因为参与进攻的大家都在夸赞埃塞克斯小姐，所以我想问下……这方面的事情。",
 			typewriter = {
@@ -120,7 +120,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = -1,
-			actor = 107091,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "真，真的吗？",
 			typewriter = {
@@ -137,7 +137,7 @@ return {
 			side = 2,
 			dir = -1,
 			blackBg = true,
-			actor = 107091,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "（被人倾慕的感觉，意外地还不错…呢…）",
 			typewriter = {
@@ -154,7 +154,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgName = "bg_story_outdoor",
-			actor = 107381,
+			actor = 107380,
 			nameColor = "#a9f548",
 			say = "好，这张照片就叫着“因为被夸奖而藏不住高兴心情的埃塞克斯”吧",
 			flashout = {
@@ -188,7 +188,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = -1,
-			actor = 107091,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "香、香格里拉！什么时候出现的，不对，话说这种让人害羞的照片就不要拍了啦！",
 			typewriter = {
@@ -216,7 +216,7 @@ return {
 			bgName = "bg_story_outdoor",
 			say = "这些也是珍贵的“记录”呀。比起这个，是不是应该先给有问题的“学生”一点解答呢，埃塞克斯“老师”？",
 			dir = 1,
-			actor = 107381,
+			actor = 107380,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -236,7 +236,7 @@ return {
 			side = 1,
 			bgName = "bg_story_outdoor",
 			dir = -1,
-			actor = 107091,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "咳、咳咳…我想，不妨给自己设定一个“目标”吧",
 			typewriter = {
@@ -259,7 +259,7 @@ return {
 			}
 		},
 		{
-			actor = 107221,
+			actor = 107220,
 			side = 0,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -275,7 +275,7 @@ return {
 			}
 		},
 		{
-			actor = 107091,
+			actor = 107090,
 			side = 1,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -295,7 +295,7 @@ return {
 			side = 0,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 107221,
+			actor = 107220,
 			nameColor = "#a9f548",
 			say = "原来如此……不过，要以什么为目标才好呢……",
 			typewriter = {
@@ -312,7 +312,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 107381,
+			actor = 107380,
 			nameColor = "#a9f548",
 			say = "比如…埃塞克斯最尊敬的前辈也是最大的目标，企业小姐如何？",
 			typewriter = {
@@ -329,7 +329,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = -1,
-			actor = 107091,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "哇哇？！——咳咳咳，嗯…她是我最尊敬的前辈，也是我一直以来想要超越的对象。",
 			typewriter = {
@@ -352,7 +352,7 @@ return {
 			}
 		},
 		{
-			actor = 107091,
+			actor = 107090,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -372,7 +372,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = -1,
-			actor = 107091,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "当我像这样把目光放开的时候，就会发现，其实除了前辈，向其他人学习，也能够得到许多进步",
 			typewriter = {
@@ -385,7 +385,7 @@ return {
 			}
 		},
 		{
-			actor = 107091,
+			actor = 107090,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -405,7 +405,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 107381,
+			actor = 107380,
 			nameColor = "#a9f548",
 			say = "真是充满埃塞克斯风格的一番发言呢～不过就独立小姐的情况来说，其实你已经知道答案了不是吗？",
 			typewriter = {
@@ -418,7 +418,7 @@ return {
 			}
 		},
 		{
-			actor = 107381,
+			actor = 107380,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -438,7 +438,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 107381,
+			actor = 107380,
 			nameColor = "#a9f548",
 			say = "就像之前说过的那样，独立小姐，你是不是太心急了一些呢？",
 			typewriter = {
@@ -451,7 +451,7 @@ return {
 			}
 		},
 		{
-			actor = 107221,
+			actor = 107220,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -471,7 +471,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 107221,
+			actor = 107220,
 			nameColor = "#a9f548",
 			say = "（要走的路…似乎还很长啊）",
 			typewriter = {
@@ -488,7 +488,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 107221,
+			actor = 107220,
 			nameColor = "#a9f548",
 			say = "谢谢你们，埃塞克斯，香格里拉。我想我现在有点明白了……",
 			typewriter = {
@@ -506,9 +506,9 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			blackBg = true,
-			actor = 107221,
+			actor = 107220,
 			nameColor = "#a9f548",
-			say = "（趁着演习还没结束，先从和队友的沟通开始慢慢改变自己吧）",
+			say = "（果然就像丹佛说的那样，多和同伴们交流一下比较好吧…）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

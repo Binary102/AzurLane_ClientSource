@@ -66,7 +66,7 @@ return {
 			}
 		},
 		{
-			actor = 205021,
+			actor = 205020,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -82,7 +82,7 @@ return {
 			}
 		},
 		{
-			actor = 205021,
+			actor = 205020,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -98,7 +98,7 @@ return {
 			}
 		},
 		{
-			actor = 205021,
+			actor = 205020,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -114,7 +114,7 @@ return {
 			}
 		},
 		{
-			actor = 205021,
+			actor = 205020,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -149,7 +149,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 205021,
+			actor = 205020,
 			nameColor = "#a9f548",
 			say = "(…该怎么办呢)",
 			typewriter = {
@@ -176,7 +176,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			optionFlag = 1,
-			actor = 205021,
+			actor = 205020,
 			nameColor = "#a9f548",
 			say = "陛下，该起床了。还有会议要等着你主持呢，陛下——",
 			typewriter = {
@@ -193,7 +193,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			optionFlag = 1,
-			actor = 205011,
+			actor = 205010,
 			nameColor = "#a9f548",
 			say = "唔唔……嗯……嗯？怎么了，厌战，你就在旁边吗？太好了…啊——",
 			typewriter = {
@@ -220,7 +220,7 @@ return {
 			side = 2,
 			dir = 1,
 			optionFlag = 2,
-			actor = 205021,
+			actor = 205020,
 			nameColor = "#a9f548",
 			say = "(果然这个时候得采取些强硬的手段啊…床单是在这里…陛下，请恕臣冒犯了。)",
 			typewriter = {
@@ -233,7 +233,7 @@ return {
 			}
 		},
 		{
-			actor = 205021,
+			actor = 205020,
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -261,7 +261,7 @@ return {
 			}
 		},
 		{
-			actor = 205011,
+			actor = 205010,
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -298,7 +298,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			optionFlag = 2,
-			actor = 205011,
+			actor = 205010,
 			nameColor = "#a9f548",
 			say = "你，你在干什么啊厌战！！欸，等等——",
 			typewriter = {
@@ -321,7 +321,7 @@ return {
 			}
 		},
 		{
-			actor = 205011,
+			actor = 205010,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -340,7 +340,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 205011,
+			actor = 205010,
 			nameColor = "#a9f548",
 			say = "真、真是的，为什么不早点把本王叫醒！这下会议都要迟到了啦！",
 			typewriter = {
@@ -363,7 +363,7 @@ return {
 			}
 		},
 		{
-			actor = 205021,
+			actor = 205020,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -382,7 +382,7 @@ return {
 			side = 2,
 			bgName = "bg_guild_blue",
 			dir = 1,
-			actor = 205011,
+			actor = 205010,
 			nameColor = "#a9f548",
 			say = "咳咳！总之，我们皇家决定和白鹰进行第二次的大规模的联合演习！",
 			flashout = {
@@ -412,7 +412,7 @@ return {
 			}
 		},
 		{
-			actor = 205011,
+			actor = 205010,
 			side = 2,
 			bgName = "bg_guild_blue",
 			nameColor = "#a9f548",
@@ -428,7 +428,7 @@ return {
 			}
 		},
 		{
-			actor = 205011,
+			actor = 205010,
 			side = 2,
 			bgName = "bg_guild_blue",
 			nameColor = "#a9f548",
@@ -447,7 +447,7 @@ return {
 			side = 2,
 			bgName = "bg_guild_blue",
 			dir = 1,
-			actor = 205021,
+			actor = 205020,
 			nameColor = "#a9f548",
 			say = "是，陛下！",
 			typewriter = {
@@ -470,7 +470,7 @@ return {
 			}
 		},
 		{
-			actor = 205021,
+			actor = 205020,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -486,7 +486,7 @@ return {
 			}
 		},
 		{
-			actor = 205021,
+			actor = 205020,
 			side = 2,
 			bgName = "bg_guild_blue",
 			nameColor = "#a9f548",
@@ -502,7 +502,7 @@ return {
 			}
 		},
 		{
-			actor = 205021,
+			actor = 205020,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,

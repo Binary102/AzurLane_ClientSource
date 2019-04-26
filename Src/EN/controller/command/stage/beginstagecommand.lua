@@ -285,6 +285,16 @@ class("BeginStageCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 				system = slot3,
 				drops = {}
 			})
+		elseif slot3 == SYSTEM_SIMULATION then
+			slot0:sendNotification(GAME.BEGIN_STAGE_DONE, {
+				prefabFleet = ys.Battle.BattleDataFunction.GetDungeonTmpDataByID(slot12).fleet_prefab,
+				stageId = slot2.stageId,
+				system = slot3,
+				token = token,
+				drops = {},
+				memory = slot2.memory,
+				exitCallback = slot2.exitCallback
+			})
 		end
 	end
 end

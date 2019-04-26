@@ -1,15 +1,17 @@
 class("FinishTechnologyCommand", pm.SimpleCommand).execute = function (slot0, slot1)
-	if not getProxy(TechnologyProxy):getTechnologyById(slot1:getBody().id) then
+	slot4 = slot1:getBody().pool_id
+
+	if not getProxy(TechnologyProxy):getTechnologyById(slot1.getBody().id) then
 		return
 	end
 
-	if not slot5:isFinished() then
+	if not slot6:isFinished() then
 		return
 	end
 
 	pg.ConnectionMgr.GetInstance():Send(63003, {
-		type = 1,
-		tech_id = slot3
+		tech_id = slot3,
+		refresh_id = slot4
 	}, 63004, function (slot0)
 		if slot0.result == 0 then
 			slot0:reset()
@@ -39,6 +41,8 @@ class("FinishTechnologyCommand", pm.SimpleCommand).execute = function (slot0, sl
 				items = slot1,
 				commons = slot2
 			})
+		else
+			pg.TipsMgr:GetInstance():ShowTips(i18n("technology_finish_erro") .. slot0.result)
 		end
 	end)
 end

@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			actor = 202151,
+			actor = 202150,
 			nameColor = "#a9f548",
 			say = "Now you turn around like this... Then move like this...",
 			flashout = {
@@ -52,7 +52,7 @@ return {
 			}
 		},
 		{
-			actor = 202201,
+			actor = 202200,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -68,7 +68,7 @@ return {
 			}
 		},
 		{
-			actor = 202151,
+			actor = 202150,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -102,7 +102,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgName = "bg_story_task",
-			actor = 202201,
+			actor = 202200,
 			nameColor = "#a9f548",
 			say = "My honourable Master, I kindly ask of you to join me and help me practice this dance.",
 			flashout = {
@@ -136,7 +136,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			withoutActorName = true,
-			actor = 202201,
+			actor = 202200,
 			nameColor = "#a9f548",
 			say = "Sirius, my all-in-one banquet partner, secretary, and personal maid elegantly reached her hand out to me.",
 			typewriter = {
@@ -188,7 +188,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actorScale = 1.5,
-			actor = 202201,
+			actor = 202200,
 			nameColor = "#a9f548",
 			say = "...I am truly thankful for all of your help.",
 			typewriter = {
@@ -210,7 +210,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actorScale = 1.5,
-			actor = 202201,
+			actor = 202200,
 			nameColor = "#a9f548",
 			say = "Though I am a mere maid, you have been so kind to me...",
 			typewriter = {
@@ -232,7 +232,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actorScale = 1.5,
-			actor = 202201,
+			actor = 202200,
 			nameColor = "#a9f548",
 			say = "I know that this is far outside my jurisdiction as a maid, but nevertheless...",
 			typewriter = {
@@ -282,7 +282,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actorScale = 1.5,
-			actor = 202201,
+			actor = 202200,
 			nameColor = "#a9f548",
 			say = "...My honourable Master, I...",
 			typewriter = {
@@ -304,7 +304,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actorScale = 1.5,
-			actor = 202201,
+			actor = 202200,
 			nameColor = "#a9f548",
 			say = "Oh my goodness, I am so sorry! I... Um...",
 			typewriter = {

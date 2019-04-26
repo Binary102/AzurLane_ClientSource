@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -23,7 +23,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -41,7 +41,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			actor = 312011,
+			actor = 312010,
 			nameColor = "#a9f548",
 			say = "面对近来发生的诸多事件，以及塞壬强大的科技力，司令部一直感到十分担忧喵……",
 			flashout = {
@@ -71,7 +71,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -86,7 +86,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -110,7 +110,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -125,7 +125,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -140,7 +140,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -155,7 +155,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -170,7 +170,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -195,7 +195,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -220,7 +220,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -235,7 +235,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,

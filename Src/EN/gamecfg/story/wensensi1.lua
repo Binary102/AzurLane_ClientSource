@@ -17,7 +17,7 @@ return {
 			}
 		},
 		{
-			actor = 103101,
+			actor = 103100,
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -110,7 +110,7 @@ return {
 			}
 		},
 		{
-			actor = 103091,
+			actor = 103090,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -126,7 +126,7 @@ return {
 			}
 		},
 		{
-			actor = 103091,
+			actor = 103090,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -159,7 +159,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 103101,
+			actor = 103100,
 			nameColor = "#a9f548",
 			say = "Zzzz.... huh? Ugh... five more minutes...",
 			typewriter = {
@@ -182,7 +182,7 @@ return {
 			}
 		},
 		{
-			actor = 103091,
+			actor = 103090,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -198,7 +198,7 @@ return {
 			}
 		},
 		{
-			actor = 103101,
+			actor = 103100,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -231,7 +231,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 103091,
+			actor = 103090,
 			nameColor = "#a9f548",
 			say = "I'm sorry, Commander, Vincennes is just always like this...",
 			typewriter = {
@@ -250,7 +250,7 @@ return {
 			}
 		},
 		{
-			actor = 103091,
+			actor = 103090,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -266,7 +266,7 @@ return {
 			}
 		},
 		{
-			actor = 103091,
+			actor = 103090,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -282,7 +282,7 @@ return {
 			}
 		},
 		{
-			actor = 103091,
+			actor = 103090,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -298,7 +298,7 @@ return {
 			}
 		},
 		{
-			actor = 103091,
+			actor = 103090,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -334,7 +334,7 @@ return {
 			}
 		},
 		{
-			actor = 103091,
+			actor = 103090,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -350,7 +350,7 @@ return {
 			}
 		},
 		{
-			actor = 103101,
+			actor = 103100,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -366,7 +366,7 @@ return {
 			}
 		},
 		{
-			actor = 103091,
+			actor = 103090,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",

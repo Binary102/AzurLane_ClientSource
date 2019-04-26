@@ -138,7 +138,7 @@ return {
 			}
 		},
 		{
-			actor = 301641,
+			actor = 301640,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -157,7 +157,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 301641,
+			actor = 301640,
 			nameColor = "#a9f548",
 			say = "As she greeted me, she left her broom on a shelf nearby.",
 			typewriter = {
@@ -180,7 +180,7 @@ return {
 			}
 		},
 		{
-			actor = 301641,
+			actor = 301640,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -196,7 +196,7 @@ return {
 			}
 		},
 		{
-			actor = 301641,
+			actor = 301640,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -222,7 +222,7 @@ return {
 			}
 		},
 		{
-			actor = 301641,
+			actor = 301640,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -238,7 +238,7 @@ return {
 			}
 		},
 		{
-			actor = 301641,
+			actor = 301640,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -268,7 +268,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			actor = 301641,
+			actor = 301640,
 			nameColor = "#a9f548",
 			say = "I reckon we'll be spendin' a lotta time together from now on♪ Hope I can be of use to ya~",
 			typewriter = {

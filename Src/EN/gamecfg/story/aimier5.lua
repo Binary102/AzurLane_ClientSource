@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"自由的天使\n\n<size=30>五 埃米尔的浪漫说·上</size>",
+					"踊り子天使エミール\n\n<size=30>五 エミールのロマン論·上</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "港区·指挥室",
+			say = "母港·執務室",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -49,7 +49,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "和埃米尔闲聊了起来。",
+			say = "エミールと雑談をしている。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,9 +59,9 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 802011,
+			actor = 802010,
 			nameColor = "#a9f548",
-			say = "只有细心留意，才能发掘生活中的美。而珍惜这些细小的美好，我觉得，就是浪漫的本质哦~",
+			say = "……細部に気を配ってこそ、日々の美しさを見いだせるわ。小さな美しさでも大切にすることこそ本当のロマンティックではなくて？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,18 +72,18 @@ return {
 			},
 			options = {
 				{
-					content = "好奇",
+					content = "例えば…？",
 					flag = 1
 				}
 			}
 		},
 		{
-			actor = 802011,
+			actor = 802010,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "生活中的美好东西有许多呢，即使每天都是一样的环境，其中也会有细微的变化。",
+			say = "私にとって、小さな美しさとは「今までとは違うこと」だわ。それがたとえどんなに小さなことでも、気をつけていればきっと多く見つけられるはずよ。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,58 +94,12 @@ return {
 			}
 		},
 		{
-			actor = 802011,
+			actor = 802010,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "今天的鸟儿叫声是不是和昨天不一样呢？这里有一朵没有见过的花呢~在不同的地方跳舞的感觉也完全不同……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			bgName = "bg_story_task",
-			dir = 1,
-			say = "埃米尔闭上双眼，双手抱在胸前，像是在拥抱着什么美好的东西一样。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 802011,
-			side = 2,
-			bgName = "bg_story_task",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "和人交流也是一样的，世上不存在两个性格完全一样的人，即使看起来相似，也一定存在着某些差异。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 802011,
-			side = 2,
-			bgName = "bg_story_task",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "去发现每个人身上的不同，我觉得是十分重要的~",
+			say = "窓に止まる鳥の囀り、道端に咲く小さな花、心を落ち着かせて真剣に探せば、世の中は美しいことでいっぱい溢れていることに気づくの。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,9 +113,55 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 802011,
+			say = "エミールは目を閉じ、何かを胸に抱きしめるポーズをした。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 802010,
+			side = 2,
+			bgName = "bg_story_task",
 			nameColor = "#a9f548",
-			say = "而且指挥官你不觉得，如果发现一个人身上有非常美好的品质，会是一件十分开心的事吗？",
+			dir = 1,
+			say = "それは人も同じ。性格がまったく同じ人はこの世にいないわ。凄く似ているとしても、どこかできっと違うところがある。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 802010,
+			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "人と接するときも、「その人が持っている、他の人とは違うもの」を見つけるのが大切よ。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			bgName = "bg_story_task",
+			dir = 1,
+			actor = 802010,
+			nameColor = "#a9f548",
+			say = "今まで知らなかった、この人ならではの美点を見いだすこと――それは凄くロマンティックだと思わない？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,18 +172,18 @@ return {
 			},
 			options = {
 				{
-					content = "点头",
+					content = "一理ある",
 					flag = 1
 				}
 			}
 		},
 		{
-			actor = 802011,
+			actor = 802010,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "所以呢，虽然也会有难过和悲伤的时候，不过只要想到世界上还有那么多值得我去体验和发现的东西，就觉得一定要坚持下去。",
+			say = "どんなに悲しくても、苦しくても、この先にはまだたくさん美しいことが待っていると思えば、諦めずに前に進められる。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,12 +194,12 @@ return {
 			}
 		},
 		{
-			actor = 802011,
+			actor = 802010,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "离别也好，战争也好，哪怕有多么痛苦，只要我的这份热情没有消退，我就永远不会屈服。",
+			say = "だって私、美しいものをもっと見たい、知りたい、そして心の中から愛でたいもの。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "埃米尔回过神来，露出有点不好意思的表情",
+			say = "ふとエミールが少し気恥ずかしそうに振り向いてきた。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,12 +238,12 @@ return {
 			}
 		},
 		{
-			actor = 802011,
+			actor = 802010,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊哈哈，好像说了一些非常自大的话，有点不好意思呢…指挥官你听过就算了哦？",
+			say = "ふふ、なんか偉そうに喋っちゃって少し恥ずかしいわ。…今話したことは聞き流しちゃっていいわよ？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +257,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "不过她马上像是想到了什么一样凑了过来。",
+			say = "そして――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,28 +268,12 @@ return {
 			}
 		},
 		{
-			actor = 802011,
-			side = 2,
-			bgName = "bg_story_task",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "对了，指挥官！我们来约会吧~",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 802011,
+			actor = 802010,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你看，既然聊到了浪漫，比起说些大道理，来实践不是更好的方法吗？",
+			say = "そうだ！指揮官、デートしましょう？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -300,12 +284,28 @@ return {
 			}
 		},
 		{
-			actor = 802011,
+			actor = 802010,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "还是说，指挥官不愿意和我约会呢？嘻嘻",
+			say = "せっかくロマンの話をしたんだし、言葉を並べるより、実践のほうがもっとわかりやすいと思わない？",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 802010,
+			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "それとも指揮官は私とデートしたくないかな？ふふふ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,7 +320,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "…定下了和埃米尔约会的行程",
+			say = "流されてエミールとデートすることになった。…悪くないかも？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -16,7 +16,7 @@ return {
 			}
 		},
 		{
-			actor = 306051,
+			actor = 306050,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
@@ -37,7 +37,7 @@ return {
 			actorName = "{namecode:87}",
 			dir = 1,
 			blackBg = true,
-			actor = 306051,
+			actor = 306050,
 			nameColor = "#a9f548",
 			withoutPainting = true,
 			typewriter = {
@@ -53,7 +53,7 @@ return {
 			actorName = "{namecode:87}",
 			side = 2,
 			dir = 1,
-			actor = 900038,
+			actor = 306051,
 			nameColor = "#a9f548",
 			say = "Heehee... I really am beautiful!",
 			flashout = {
@@ -83,7 +83,7 @@ return {
 			}
 		},
 		{
-			actor = 900038,
+			actor = 306051,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
@@ -102,7 +102,7 @@ return {
 			actorName = "{namecode:87}",
 			side = 2,
 			dir = 1,
-			actor = 900038,
+			actor = 306051,
 			nameColor = "#a9f548",
 			say = "Pumpkin congee... are we having pumpkin again for lunch? Yesterday was pumpkin stew, and pumpkin pie the day before... I'm so done with pumpkins!",
 			flashout = {
@@ -136,7 +136,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 301051,
+			actor = 301050,
 			actorName = "{namecode:6}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -152,7 +152,7 @@ return {
 			}
 		},
 		{
-			actor = 900038,
+			actor = 306051,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -168,7 +168,7 @@ return {
 			}
 		},
 		{
-			actor = 301051,
+			actor = 301050,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
@@ -184,7 +184,7 @@ return {
 			}
 		},
 		{
-			actor = 900038,
+			actor = 306051,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -200,7 +200,7 @@ return {
 			}
 		},
 		{
-			actor = 301051,
+			actor = 301050,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
@@ -216,7 +216,7 @@ return {
 			}
 		},
 		{
-			actor = 900038,
+			actor = 306051,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -232,7 +232,7 @@ return {
 			}
 		},
 		{
-			actor = 301051,
+			actor = 301050,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
@@ -248,7 +248,7 @@ return {
 			}
 		},
 		{
-			actor = 900038,
+			actor = 306051,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -264,7 +264,7 @@ return {
 			}
 		},
 		{
-			actor = 301051,
+			actor = 301050,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
@@ -280,7 +280,7 @@ return {
 			}
 		},
 		{
-			actor = 900038,
+			actor = 306051,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -296,7 +296,7 @@ return {
 			}
 		},
 		{
-			actor = 301051,
+			actor = 301050,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
@@ -312,7 +312,7 @@ return {
 			}
 		},
 		{
-			actor = 900038,
+			actor = 306051,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -331,7 +331,7 @@ return {
 			actorName = "{namecode:95}",
 			side = 2,
 			dir = 1,
-			actor = 307054,
+			actor = 307050,
 			nameColor = "#a9f548",
 			say = "What a pity, I’m not sure if I’ll go… you girls have fun~",
 			flashout = {
@@ -364,7 +364,7 @@ return {
 			actorName = "{namecode:98}",
 			side = 2,
 			dir = 1,
-			actor = 312011,
+			actor = 312010,
 			nameColor = "#a9f548",
 			say = "Pumpkins are delicious, nyaa~ and wasting food is a serious crime, nyaa~ {namecode:87} eat a little more, nyaa~",
 			flashout = {
@@ -397,7 +397,7 @@ return {
 			actorName = "{namecode:96}",
 			side = 2,
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			nameColor = "#a9f548",
 			say = "Tempura? No, there’s no more left! I wanted to store food for the coming winter!",
 			flashout = {
@@ -430,7 +430,7 @@ return {
 			actorName = "{namecode:87}",
 			side = 2,
 			dir = 1,
-			actor = 900038,
+			actor = 306051,
 			nameColor = "#a9f548",
 			say = "I still feel like… the atmosphere is very tense.",
 			flashout = {
@@ -460,7 +460,7 @@ return {
 			}
 		},
 		{
-			actor = 900038,
+			actor = 306051,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
@@ -481,7 +481,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actorName = "？？？",
-			actor = 307064,
+			actor = 307060,
 			nameColor = "#a9f548",
 			withoutPainting = true,
 			flashout = {

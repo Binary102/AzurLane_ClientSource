@@ -133,7 +133,7 @@ return {
 			}
 		},
 		{
-			actor = 206031,
+			actor = 206030,
 			nameColor = "#a9f548",
 			side = 0,
 			blackBg = true,
@@ -164,7 +164,7 @@ return {
 			}
 		},
 		{
-			actor = 206031,
+			actor = 206030,
 			nameColor = "#a9f548",
 			side = 0,
 			blackBg = true,
@@ -179,7 +179,7 @@ return {
 			}
 		},
 		{
-			actor = 206031,
+			actor = 206030,
 			nameColor = "#a9f548",
 			side = 0,
 			blackBg = true,
@@ -305,7 +305,7 @@ return {
 			side = 2,
 			mode = 2,
 			blackBg = true,
-			actor = 206031,
+			actor = 206030,
 			nameColor = "#a9f548",
 			say = "So this must be... the alluring power of music... Unicorn is getting pulled in...",
 			flashout = {
@@ -342,7 +342,7 @@ return {
 			side = 2,
 			mode = 2,
 			blackBg = true,
-			actor = 206031,
+			actor = 206030,
 			nameColor = "#a9f548",
 			say = "Even Unicorn… is touched...by this concert...",
 			typewriter = {
@@ -362,7 +362,7 @@ return {
 			side = 2,
 			mode = 2,
 			blackBg = true,
-			actor = 206031,
+			actor = 206030,
 			nameColor = "#a9f548",
 			say = "Unicorn also wants to... make Onii-chan happy...",
 			typewriter = {

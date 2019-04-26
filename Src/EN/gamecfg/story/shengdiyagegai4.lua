@@ -22,7 +22,7 @@ return {
 			dir = -1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			actor = 107061,
+			actor = 107060,
 			nameColor = "#a9f548",
 			say = "嗯，下一场演习的时间是——嗯？",
 			flashout = {
@@ -56,7 +56,7 @@ return {
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 102081,
+			actor = 102080,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -82,7 +82,7 @@ return {
 			}
 		},
 		{
-			actor = 107061,
+			actor = 107060,
 			side = 0,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -98,7 +98,7 @@ return {
 			}
 		},
 		{
-			actor = 102081,
+			actor = 102080,
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -114,7 +114,7 @@ return {
 			}
 		},
 		{
-			actor = 107061,
+			actor = 107060,
 			side = 0,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -130,7 +130,7 @@ return {
 			}
 		},
 		{
-			actor = 102081,
+			actor = 102080,
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -146,7 +146,7 @@ return {
 			}
 		},
 		{
-			actor = 107061,
+			actor = 107060,
 			side = 0,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -162,7 +162,7 @@ return {
 			}
 		},
 		{
-			actor = 102081,
+			actor = 102080,
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -178,7 +178,7 @@ return {
 			}
 		},
 		{
-			actor = 107061,
+			actor = 107060,
 			side = 0,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -194,7 +194,7 @@ return {
 			}
 		},
 		{
-			actor = 102081,
+			actor = 102080,
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -210,7 +210,7 @@ return {
 			}
 		},
 		{
-			actor = 107061,
+			actor = 107060,
 			side = 0,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -226,7 +226,7 @@ return {
 			}
 		},
 		{
-			actor = 107061,
+			actor = 107060,
 			side = 0,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -242,7 +242,7 @@ return {
 			}
 		},
 		{
-			actor = 102081,
+			actor = 102080,
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -258,7 +258,7 @@ return {
 			}
 		},
 		{
-			actor = 107061,
+			actor = 107060,
 			side = 0,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -274,7 +274,7 @@ return {
 			}
 		},
 		{
-			actor = 107061,
+			actor = 107060,
 			side = 0,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -290,7 +290,7 @@ return {
 			}
 		},
 		{
-			actor = 102081,
+			actor = 102080,
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -306,7 +306,7 @@ return {
 			}
 		},
 		{
-			actor = 107061,
+			actor = 107060,
 			side = 0,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -325,7 +325,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 102081,
+			actor = 102080,
 			nameColor = "#a9f548",
 			say = "感觉干劲都涌上来了~！有种立刻就能“变身”的感觉！难道这就是“改造”的感觉吗！？",
 			typewriter = {

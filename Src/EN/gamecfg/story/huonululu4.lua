@@ -56,7 +56,7 @@ return {
 			}
 		},
 		{
-			actor = 102051,
+			actor = 102050,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -76,7 +76,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 102121,
+			actor = 102120,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -92,7 +92,7 @@ return {
 			}
 		},
 		{
-			actor = 102051,
+			actor = 102050,
 			side = 1,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -108,7 +108,7 @@ return {
 			}
 		},
 		{
-			actor = 102121,
+			actor = 102120,
 			side = 0,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -124,7 +124,7 @@ return {
 			}
 		},
 		{
-			actor = 102121,
+			actor = 102120,
 			side = 0,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -140,7 +140,7 @@ return {
 			}
 		},
 		{
-			actor = 102051,
+			actor = 102050,
 			side = 1,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -156,7 +156,7 @@ return {
 			}
 		},
 		{
-			actor = 102121,
+			actor = 102120,
 			side = 0,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -172,7 +172,7 @@ return {
 			}
 		},
 		{
-			actor = 102051,
+			actor = 102050,
 			side = 1,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -188,7 +188,7 @@ return {
 			}
 		},
 		{
-			actor = 102121,
+			actor = 102120,
 			side = 0,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -204,7 +204,7 @@ return {
 			}
 		},
 		{
-			actor = 102051,
+			actor = 102050,
 			side = 1,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -220,7 +220,7 @@ return {
 			}
 		},
 		{
-			actor = 102051,
+			actor = 102050,
 			side = 1,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -236,7 +236,7 @@ return {
 			}
 		},
 		{
-			actor = 102121,
+			actor = 102120,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -252,7 +252,7 @@ return {
 			}
 		},
 		{
-			actor = 102121,
+			actor = 102120,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -271,7 +271,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 102121,
+			actor = 102120,
 			nameColor = "#a9f548",
 			say = "I'm such a big and total moron...",
 			typewriter = {
@@ -293,7 +293,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 102121,
+			actor = 102120,
 			nameColor = "#a9f548",
 			say = "... Huh?!",
 			typewriter = {
@@ -316,7 +316,7 @@ return {
 			}
 		},
 		{
-			actor = 102121,
+			actor = 102120,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -336,7 +336,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			withoutActorName = true,
-			actor = 102121,
+			actor = 102120,
 			nameColor = "#a9f548",
 			say = "Honolulu drew a heavy sigh.",
 			typewriter = {
@@ -352,7 +352,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 102121,
+			actor = 102120,
 			nameColor = "#a9f548",
 			say = "... I'm worried about Helena. And yet... I can't even properly ask her if she's okay. I'm such a helpless, stupid idiot...",
 			typewriter = {
@@ -371,7 +371,7 @@ return {
 			}
 		},
 		{
-			actor = 102121,
+			actor = 102120,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -391,7 +391,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			withoutActorName = true,
-			actor = 102121,
+			actor = 102120,
 			nameColor = "#a9f548",
 			say = "Honolulu averted her gaze from me yet again. This time, however, while she seemed embarrassed, she didn't seem displeased.",
 			typewriter = {
@@ -404,7 +404,7 @@ return {
 			}
 		},
 		{
-			actor = 102121,
+			actor = 102120,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -424,7 +424,7 @@ return {
 			bgName = "star_level_bg_103",
 			dir = 1,
 			blackBg = true,
-			actor = 102121,
+			actor = 102120,
 			nameColor = "#a9f548",
 			say = "So... could you share some of your advice... with me?",
 			typewriter = {

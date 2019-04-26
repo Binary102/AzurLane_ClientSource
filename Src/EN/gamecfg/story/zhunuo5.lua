@@ -10,7 +10,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 404024,
+			actor = 404020,
 			nameColor = "#D6341D",
 			stopBGM = true,
 			say = "希佩尔，“区区皇家杂鱼，我一个人就能轻松解决掉”，这句话不是从你口里说出来的吗？",
@@ -28,7 +28,7 @@ return {
 			side = 1,
 			dir = 1,
 			blackBg = true,
-			actor = 403014,
+			actor = 403010,
 			nameColor = "#D6341D",
 			paintingFadeOut = {
 				time = 0.5,
@@ -44,7 +44,7 @@ return {
 			}
 		},
 		{
-			actor = 404024,
+			actor = 404020,
 			nameColor = "#D6341D",
 			side = 0,
 			dir = 1,
@@ -60,7 +60,7 @@ return {
 			}
 		},
 		{
-			actor = 403014,
+			actor = 403010,
 			nameColor = "#D6341D",
 			side = 1,
 			dir = 1,
@@ -76,7 +76,7 @@ return {
 			}
 		},
 		{
-			actor = 404024,
+			actor = 404020,
 			nameColor = "#D6341D",
 			side = 0,
 			dir = 1,
@@ -92,7 +92,7 @@ return {
 			}
 		},
 		{
-			actor = 404014,
+			actor = 404010,
 			nameColor = "#D6341D",
 			side = 1,
 			dir = -1,
@@ -111,7 +111,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 403014,
+			actor = 403010,
 			nameColor = "#D6341D",
 			say = "别说的我好像死了一样！而且谁要你们帮我报仇了！喂，听我说话啊！",
 			shake = {

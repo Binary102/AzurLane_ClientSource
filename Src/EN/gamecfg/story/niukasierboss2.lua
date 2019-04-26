@@ -50,7 +50,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 203041,
+			actor = 203040,
 			nameColor = "#a9f548",
 			say = "呼，总算是守住了这一波。",
 			typewriter = {
@@ -67,7 +67,7 @@ return {
 			side = 0,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 203031,
+			actor = 203030,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -97,7 +97,7 @@ return {
 			side = 1,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 203041,
+			actor = 203040,
 			nameColor = "#a9f548",
 			say = "虽然贝尔法斯特她们在正面一定更加辛苦，不过侧翼的攻势也很汹涌呢。",
 			typewriter = {
@@ -110,7 +110,7 @@ return {
 			}
 		},
 		{
-			actor = 203041,
+			actor = 203040,
 			side = 1,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -126,7 +126,7 @@ return {
 			}
 		},
 		{
-			actor = 203031,
+			actor = 203030,
 			side = 0,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -146,7 +146,7 @@ return {
 			side = 1,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 203041,
+			actor = 203040,
 			nameColor = "#a9f548",
 			say = "啊哈哈，不过，果然和同伴交手即使是演习也会很紧张呢……",
 			typewriter = {
@@ -159,7 +159,7 @@ return {
 			}
 		},
 		{
-			actor = 203031,
+			actor = 203030,
 			side = 0,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -178,7 +178,7 @@ return {
 			side = 0,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 203031,
+			actor = 203030,
 			nameColor = "#a9f548",
 			say = "比如，“拿出你们的全力吧！”“Come on，你们的实力不止这一点吧？”什么的~",
 			typewriter = {
@@ -205,7 +205,7 @@ return {
 			side = 1,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 203041,
+			actor = 203040,
 			nameColor = "#a9f548",
 			say = "肯特，你回去后肯定要被大家修理的啦……",
 			typewriter = {
@@ -218,7 +218,7 @@ return {
 			}
 		},
 		{
-			actor = 203031,
+			actor = 203030,
 			side = 0,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -238,7 +238,7 @@ return {
 			side = 1,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 203041,
+			actor = 203040,
 			nameColor = "#a9f548",
 			say = "哈啊…真羡慕你呢，哎，好想看看云，摸摸鱼什么的呀…",
 			typewriter = {
@@ -256,7 +256,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 900131,
+			actor = 202190,
 			actorName = "？？？",
 			say = "偷懒可不是皇家女仆所为哦，萨福克。",
 			typewriter = {
@@ -273,7 +273,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 203041,
+			actor = 203040,
 			nameColor = "#a9f548",
 			say = "哎呀，好疼！谁弹我的头！咦，你是…",
 			typewriter = {
@@ -296,7 +296,7 @@ return {
 			}
 		},
 		{
-			actor = 203031,
+			actor = 203030,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -312,7 +312,7 @@ return {
 			}
 		},
 		{
-			actor = 202191,
+			actor = 202190,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -328,7 +328,7 @@ return {
 			}
 		},
 		{
-			actor = 202191,
+			actor = 202190,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -349,7 +349,7 @@ return {
 			bgName = "bg_story_nepu1",
 			say = "纽卡斯尔~！",
 			dir = 1,
-			actor = 203041,
+			actor = 203040,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -375,7 +375,7 @@ return {
 			}
 		},
 		{
-			actor = 202191,
+			actor = 202190,
 			side = 0,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -395,7 +395,7 @@ return {
 			side = 1,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 203041,
+			actor = 203040,
 			nameColor = "#a9f548",
 			say = "因为贝尔法斯特虽然很可靠，但是好亲近这点还是纽卡斯尔你最好亲近嘛～",
 			typewriter = {
@@ -411,7 +411,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 203031,
+			actor = 203030,
 			nameColor = "#a9f548",
 			say = "啊，好狡猾，我也要！",
 			typewriter = {
@@ -438,7 +438,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 203041,
+			actor = 203040,
 			nameColor = "#a9f548",
 			say = "嗯……是纽卡斯尔的味道……",
 			typewriter = {
@@ -461,7 +461,7 @@ return {
 			}
 		},
 		{
-			actor = 202191,
+			actor = 202190,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -477,7 +477,7 @@ return {
 			}
 		},
 		{
-			actor = 202191,
+			actor = 202190,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -497,7 +497,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 203041,
+			actor = 203040,
 			nameColor = "#a9f548",
 			say = "……嗯，汲取到了动力呢。",
 			typewriter = {
@@ -514,7 +514,7 @@ return {
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			blackBg = true,
-			actor = 202191,
+			actor = 202190,
 			nameColor = "#a9f548",
 			say = "呵呵，那就加油吧，我还要去后方看看。之后，再好好聊聊吧~",
 			typewriter = {

@@ -4,7 +4,7 @@ return {
 	once = true,
 	scripts = {
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 2,
 			dir = -1,
 			say = "Commander, you’re petting me so much...",
@@ -18,7 +18,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 2,
 			dir = -1,
 			say = "{namecode:98} is busy ya know! She doesn’t have time to play with you Commander!",
@@ -32,7 +32,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 2,
 			dir = -1,
 			say = "Since the Commander is so idle, then come help {namecode:98}!",
@@ -46,7 +46,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 2,
 			dir = -1,
 			say = "Great timing, the inventory will soon run out... come quick and help me collect all these materials!",
@@ -60,7 +60,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 2,
 			dir = -1,
 			say = "Cheering for ya, Commander! {namecode:98} believes in you, nyaa!",

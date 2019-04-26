@@ -22,7 +22,7 @@ return {
 			dir = -1,
 			bgmDelay = 2,
 			bgm = "main-newyear",
-			actor = 900066,
+			actor = 301141,
 			nameColor = "#a9f548",
 			say = "Aw yeah~ Kotatsus are frickin' amazing~",
 			flashout = {
@@ -56,7 +56,7 @@ return {
 			side = 1,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 301151,
+			actor = 301150,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -72,7 +72,7 @@ return {
 			}
 		},
 		{
-			actor = 900069,
+			actor = 303122,
 			side = 1,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -91,7 +91,7 @@ return {
 			side = 0,
 			bgName = "bg_story_room",
 			dir = -1,
-			actor = 900066,
+			actor = 301141,
 			nameColor = "#a9f548",
 			say = "Snow?! Oh, man, it's snowing! C'mon, Shigure, let's have a snowball fight!",
 			typewriter = {
@@ -117,7 +117,7 @@ return {
 			side = 1,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 301151,
+			actor = 301150,
 			nameColor = "#a9f548",
 			say = "Hey! Let go! Don't drag me along!",
 			typewriter = {
@@ -144,7 +144,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgName = "bg_story_room",
-			actor = 900156,
+			actor = 301601,
 			nameColor = "#a9f548",
 			say = "Wow, look at all that snow! It's piled up so quickly!",
 			flashout = {
@@ -178,7 +178,7 @@ return {
 			side = 0,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 301591,
+			actor = 301590,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -198,7 +198,7 @@ return {
 			side = 1,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 900156,
+			actor = 301601,
 			nameColor = "#a9f548",
 			say = "Then why is your tail wagging so much? It's moving faster than Nobunaga's unification of Japan!",
 			typewriter = {
@@ -214,7 +214,7 @@ return {
 			side = 0,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 301591,
+			actor = 301590,
 			nameColor = "#a9f548",
 			say = "No it's not! L-like I'd ever get excited over some stupid snow!",
 			typewriter = {
@@ -240,7 +240,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 900061,
+			actor = 307012,
 			nameColor = "#a9f548",
 			say = "A trim here and a snip there... Fufufufu... Ahh... I can't wait to see how much he'll love my present...",
 			flashout = {
@@ -270,7 +270,7 @@ return {
 			}
 		},
 		{
-			actor = 900061,
+			actor = 307012,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -290,7 +290,7 @@ return {
 			side = 1,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 900062,
+			actor = 307022,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -306,7 +306,7 @@ return {
 			}
 		},
 		{
-			actor = 900061,
+			actor = 307012,
 			side = 0,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -322,7 +322,7 @@ return {
 			}
 		},
 		{
-			actor = 900062,
+			actor = 307022,
 			side = 1,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -338,7 +338,7 @@ return {
 			}
 		},
 		{
-			actor = 900061,
+			actor = 307012,
 			side = 0,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -354,7 +354,7 @@ return {
 			}
 		},
 		{
-			actor = 900064,
+			actor = 307031,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -394,7 +394,7 @@ return {
 			}
 		},
 		{
-			actor = 900069,
+			actor = 303122,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -414,7 +414,7 @@ return {
 			side = 0,
 			bgName = "bg_story_room",
 			dir = -1,
-			actor = 399021,
+			actor = 399020,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -430,7 +430,7 @@ return {
 			}
 		},
 		{
-			actor = 399011,
+			actor = 399010,
 			side = 0,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -446,7 +446,7 @@ return {
 			}
 		},
 		{
-			actor = 900061,
+			actor = 307012,
 			side = 1,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -465,7 +465,7 @@ return {
 			side = 0,
 			bgName = "bg_story_room",
 			dir = -1,
-			actor = 399011,
+			actor = 399010,
 			nameColor = "#a9f548",
 			say = "E-excuse me?! You mean to take part in the <i>snowball</i> fight?!",
 			typewriter = {
@@ -488,7 +488,7 @@ return {
 			}
 		},
 		{
-			actor = 900062,
+			actor = 307022,
 			side = 1,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -504,7 +504,7 @@ return {
 			}
 		},
 		{
-			actor = 900066,
+			actor = 301141,
 			side = 0,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -520,7 +520,7 @@ return {
 			}
 		},
 		{
-			actor = 900064,
+			actor = 307031,
 			side = 1,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -536,7 +536,7 @@ return {
 			}
 		},
 		{
-			actor = 900066,
+			actor = 301141,
 			side = 0,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -552,7 +552,7 @@ return {
 			}
 		},
 		{
-			actor = 301611,
+			actor = 301610,
 			side = 1,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -568,7 +568,7 @@ return {
 			}
 		},
 		{
-			actor = 301621,
+			actor = 301620,
 			side = 1,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -584,7 +584,7 @@ return {
 			}
 		},
 		{
-			actor = 399021,
+			actor = 399020,
 			side = 0,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -604,7 +604,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			blackBg = true,
-			actor = 900064,
+			actor = 307031,
 			nameColor = "#a9f548",
 			say = "Everyone gets so excited around New Year's... I just hope they don't make a mess... *Sigh*, my stomach's already starting to ache...",
 			typewriter = {

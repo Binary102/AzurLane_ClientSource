@@ -21,7 +21,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			bgm = "story-nepu2",
-			actor = 10100044,
+			actor = 10100040,
 			nameColor = "#a9f548",
 			say = "This should be the place... Ah, you've got such a wonderful gaming PC!",
 			typewriter = {
@@ -34,7 +34,7 @@ return {
 			}
 		},
 		{
-			actor = 10100044,
+			actor = 10100040,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -50,7 +50,7 @@ return {
 			}
 		},
 		{
-			actor = 10100044,
+			actor = 10100040,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -70,7 +70,7 @@ return {
 			side = 0,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 900034,
+			actor = 106011,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -90,7 +90,7 @@ return {
 			side = 0,
 			bgName = "bg_story_room",
 			dir = -1,
-			actor = 302014,
+			actor = 302010,
 			actorName = "{namecode:37}",
 			say = "This is a place of relaxation for those who have been freed of their duties, a place where they can spend some time as social rejects and indulge in their love of games and degeneracy... You are welcome here!",
 			typewriter = {
@@ -103,7 +103,7 @@ return {
 			}
 		},
 		{
-			actor = 10100044,
+			actor = 10100040,
 			side = 1,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -119,7 +119,7 @@ return {
 			}
 		},
 		{
-			actor = 10100044,
+			actor = 10100040,
 			side = 1,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -139,7 +139,7 @@ return {
 			side = 0,
 			bgName = "bg_story_room",
 			dir = -1,
-			actor = 302014,
+			actor = 302010,
 			actorName = "{namecode:37}",
 			say = "Hum hum, that is the deepest thing I've heard all month... You are a pro, aren't you?",
 			typewriter = {
@@ -152,7 +152,7 @@ return {
 			}
 		},
 		{
-			actor = 900034,
+			actor = 106011,
 			side = 0,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -168,7 +168,7 @@ return {
 			}
 		},
 		{
-			actor = 10100044,
+			actor = 10100040,
 			side = 1,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -184,7 +184,7 @@ return {
 			}
 		},
 		{
-			actor = 10100044,
+			actor = 10100040,
 			side = 1,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -210,7 +210,7 @@ return {
 			}
 		},
 		{
-			actor = 900034,
+			actor = 106011,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -231,7 +231,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 302014,
+			actor = 302010,
 			actorName = "{namecode:37}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -247,7 +247,7 @@ return {
 			}
 		},
 		{
-			actor = 900034,
+			actor = 106011,
 			side = 0,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -267,7 +267,7 @@ return {
 			side = 1,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 302014,
+			actor = 302010,
 			actorName = "{namecode:37}",
 			say = "She tried land, sea, and air combat... She played every military sim there is, and she conquered them all!",
 			typewriter = {
@@ -280,7 +280,7 @@ return {
 			}
 		},
 		{
-			actor = 900034,
+			actor = 106011,
 			side = 0,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -300,7 +300,7 @@ return {
 			side = 1,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 302014,
+			actor = 302010,
 			actorName = "{namecode:37}",
 			say = "Then she immediately reaches for a bag of chips... I've never seen such a fearsome playstyle before!",
 			typewriter = {
@@ -323,7 +323,7 @@ return {
 			}
 		},
 		{
-			actor = 10100044,
+			actor = 10100040,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -343,7 +343,7 @@ return {
 			side = 0,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 900034,
+			actor = 106011,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -363,7 +363,7 @@ return {
 			side = 0,
 			bgName = "bg_story_room",
 			dir = -1,
-			actor = 302014,
+			actor = 302010,
 			actorName = "{namecode:37}",
 			say = "I, too, admire you! You are the very god of gaming itself... You have descended from the heavens to grace us with your presence...!",
 			typewriter = {
@@ -376,7 +376,7 @@ return {
 			}
 		},
 		{
-			actor = 10100044,
+			actor = 10100040,
 			side = 1,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -392,7 +392,7 @@ return {
 			}
 		},
 		{
-			actor = 10100044,
+			actor = 10100040,
 			side = 1,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -408,7 +408,7 @@ return {
 			}
 		},
 		{
-			actor = 900034,
+			actor = 106011,
 			side = 0,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -424,7 +424,7 @@ return {
 			}
 		},
 		{
-			actor = 10100044,
+			actor = 10100040,
 			side = 1,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -440,7 +440,7 @@ return {
 			}
 		},
 		{
-			actor = 900034,
+			actor = 106011,
 			side = 0,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -460,7 +460,7 @@ return {
 			side = 0,
 			bgName = "bg_story_room",
 			dir = -1,
-			actor = 302014,
+			actor = 302010,
 			actorName = "{namecode:37}",
 			say = "Hum hum, if that's the plan, then it would be nice if we had a few more players...",
 			typewriter = {
@@ -473,7 +473,7 @@ return {
 			}
 		},
 		{
-			actor = 205014,
+			actor = 205010,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -493,7 +493,7 @@ return {
 			side = 0,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 205024,
+			actor = 205020,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -513,7 +513,7 @@ return {
 			side = 0,
 			bgName = "bg_story_room",
 			dir = -1,
-			actor = 302014,
+			actor = 302010,
 			actorName = "{namecode:37}",
 			say = "...Oh, I guess we just got a few more players.",
 			typewriter = {
@@ -526,7 +526,7 @@ return {
 			}
 		},
 		{
-			actor = 205014,
+			actor = 205010,
 			side = 1,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -542,7 +542,7 @@ return {
 			}
 		},
 		{
-			actor = 205024,
+			actor = 205020,
 			side = 0,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -558,7 +558,7 @@ return {
 			}
 		},
 		{
-			actor = 900034,
+			actor = 106011,
 			side = 0,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -574,7 +574,7 @@ return {
 			}
 		},
 		{
-			actor = 205014,
+			actor = 205010,
 			side = 1,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -594,7 +594,7 @@ return {
 			side = 0,
 			bgName = "bg_story_room",
 			dir = -1,
-			actor = 302014,
+			actor = 302010,
 			actorName = "{namecode:37}",
 			say = "I think there's a fallacy in there somewhere, but... Are you sure?",
 			typewriter = {
@@ -607,7 +607,7 @@ return {
 			}
 		},
 		{
-			actor = 10100044,
+			actor = 10100040,
 			side = 0,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -623,7 +623,7 @@ return {
 			}
 		},
 		{
-			actor = 205014,
+			actor = 205010,
 			side = 1,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -639,7 +639,7 @@ return {
 			}
 		},
 		{
-			actor = 205024,
+			actor = 205020,
 			side = 1,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -659,7 +659,7 @@ return {
 			side = 0,
 			bgName = "bg_story_room",
 			dir = -1,
-			actor = 302014,
+			actor = 302010,
 			actorName = "{namecode:37}",
 			say = "Hey... That sounds exactly like something Ark Royal would say!",
 			typewriter = {
@@ -672,7 +672,7 @@ return {
 			}
 		},
 		{
-			actor = 900034,
+			actor = 106011,
 			side = 0,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -688,7 +688,7 @@ return {
 			}
 		},
 		{
-			actor = 10100044,
+			actor = 10100040,
 			side = 1,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",

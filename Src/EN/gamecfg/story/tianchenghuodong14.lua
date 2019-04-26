@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 304051,
+			actor = 304050,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = -1,
@@ -23,7 +23,7 @@ return {
 			}
 		},
 		{
-			actor = 305071,
+			actor = 305070,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -42,7 +42,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = -1,
-			actor = 304051,
+			actor = 304050,
 			say = "I could ask you the same thing. Why are you doing this?",
 			typewriter = {
 				speed = 0.05,
@@ -58,7 +58,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = -1,
-			actor = 304051,
+			actor = 304050,
 			say = "For the future of the Combined Fleet? The Sakura Empire? Are you trying to sound cool, acting like death will solve all your problems?",
 			typewriter = {
 				speed = 0.05,
@@ -74,7 +74,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			actor = 305071,
+			actor = 305070,
 			say = "I already told you! If I'm going to be converted into something as weak and pathetic as a carrier, I'd rather...",
 			typewriter = {
 				speed = 0.05,
@@ -136,7 +136,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = -1,
-			actor = 304051,
+			actor = 304050,
 			say = "Every day, you prattle on about the \"strong\" and the \"weak\" as if you were the tragic hero of some opera. But while you wallow in fantasies of your own making, your comrades now bleed because of your selfishness!",
 			typewriter = {
 				speed = 0.05,
@@ -152,7 +152,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = -1,
-			actor = 304051,
+			actor = 304050,
 			say = "From the very beginning, the world has never judged who is weak or strong. You are just using that as an excuse to escape from reality.",
 			typewriter = {
 				speed = 0.05,
@@ -168,7 +168,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			actor = 305071,
+			actor = 305070,
 			say = "... ... ....",
 			typewriter = {
 				speed = 0.05,
@@ -184,7 +184,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			actor = 305071,
+			actor = 305070,
 			say = "Then tell me... now that I am shackled by the Treaty, how am I supposed to fight?!",
 			typewriter = {
 				speed = 0.05,
@@ -196,7 +196,7 @@ return {
 			}
 		},
 		{
-			actor = 304051,
+			actor = 304050,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -211,7 +211,7 @@ return {
 			}
 		},
 		{
-			actor = 304051,
+			actor = 304050,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -226,7 +226,7 @@ return {
 			}
 		},
 		{
-			actor = 305071,
+			actor = 305070,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -241,7 +241,7 @@ return {
 			}
 		},
 		{
-			actor = 304051,
+			actor = 304050,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -273,7 +273,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = -1,
-			actor = 304051,
+			actor = 304050,
 			say = "But before we get ahead of ourselves... we have to find some way to get everyone out of here safely.",
 			typewriter = {
 				speed = 0.05,
@@ -302,7 +302,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = -1,
-			actor = 304051,
+			actor = 304050,
 			say = "Do not lose hope! Our recon planes have already located the Siren carrier's location. If we hold out here, we will be able to break through!",
 			typewriter = {
 				speed = 0.05,
@@ -318,7 +318,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = -1,
-			actor = 304051,
+			actor = 304050,
 			say = "Everyone, prepare for anti-air combat! We have but one target - the Siren carrier!",
 			typewriter = {
 				speed = 0.05,

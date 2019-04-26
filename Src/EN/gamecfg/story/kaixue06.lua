@@ -22,7 +22,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			bgm = "story-1",
-			actor = 900081,
+			actor = 307032,
 			actorName = "{namecode:93}",
 			say = "Then...let's start today's special training — —",
 			typewriter = {
@@ -40,7 +40,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 900082,
+			actor = 307041,
 			actorName = "{namecode:94}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -56,7 +56,7 @@ return {
 			}
 		},
 		{
-			actor = 900083,
+			actor = 401011,
 			side = 0,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -76,7 +76,7 @@ return {
 			side = 0,
 			bgName = "bg_story_school",
 			dir = -1,
-			actor = 900080,
+			actor = 301011,
 			actorName = "{namecode:2}",
 			say = "Whines... I accidentally forgot to write my name on the test...",
 			typewriter = {
@@ -93,7 +93,7 @@ return {
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 900081,
+			actor = 307032,
 			actorName = "{namecode:93}",
 			say = "First calling..., {namecode:2} !",
 			typewriter = {
@@ -110,7 +110,7 @@ return {
 			side = 0,
 			bgName = "bg_story_school",
 			dir = -1,
-			actor = 900080,
+			actor = 301011,
 			actorName = "{namecode:2}",
 			say = "Yes, yes!",
 			typewriter = {
@@ -135,7 +135,7 @@ return {
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 900081,
+			actor = 307032,
 			actorName = "{namecode:93}",
 			say = "There's no issues with your school academics, but you always make silly mistakes in strange places...",
 			typewriter = {
@@ -152,7 +152,7 @@ return {
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 900081,
+			actor = 307032,
 			actorName = "{namecode:93}",
 			say = "Papers without names, answers in wrong places...",
 			typewriter = {
@@ -169,7 +169,7 @@ return {
 			side = 0,
 			bgName = "bg_story_school",
 			dir = -1,
-			actor = 900080,
+			actor = 301011,
 			actorName = "{namecode:2}",
 			say = "Whines... why am I so careless...",
 			typewriter = {
@@ -186,7 +186,7 @@ return {
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 900081,
+			actor = 307032,
 			actorName = "{namecode:93}",
 			say = "Anyway, I asked you to stay so I could give you a friendly reminder. Not really a big issue though...",
 			typewriter = {
@@ -203,7 +203,7 @@ return {
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 900081,
+			actor = 307032,
 			actorName = "{namecode:93}",
 			say = "The real problem is the Z1!",
 			typewriter = {
@@ -216,7 +216,7 @@ return {
 			}
 		},
 		{
-			actor = 900083,
+			actor = 401011,
 			side = 0,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -236,7 +236,7 @@ return {
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 900081,
+			actor = 307032,
 			actorName = "{namecode:93}",
 			say = "And {namecode:94}!",
 			typewriter = {
@@ -253,7 +253,7 @@ return {
 			side = 0,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 900082,
+			actor = 307041,
 			actorName = "{namecode:94}",
 			say = "Yes, yes!",
 			typewriter = {
@@ -278,7 +278,7 @@ return {
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 900081,
+			actor = 307032,
 			actorName = "{namecode:93}",
 			say = "You two troublemakers, it is time to teach you the basics of \"student duties\"...",
 			typewriter = {
@@ -295,7 +295,7 @@ return {
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 900081,
+			actor = 307032,
 			actorName = "{namecode:93}",
 			say = "Best prepare yourself! Today's training class will be a long one!",
 			typewriter = {
@@ -314,12 +314,12 @@ return {
 			hideOther = true,
 			dir = 1,
 			blackBg = true,
-			actor = 900082,
+			actor = 307041,
 			nameColor = "#a9f548",
 			say = "No~~~~~~~",
 			subActors = {
 				{
-					actor = 900083,
+					actor = 401011,
 					pos = {
 						x = 685
 					}

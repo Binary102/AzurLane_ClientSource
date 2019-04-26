@@ -814,6 +814,56 @@ pg.name_code = {
 		id = 163,
 		name = "I-13",
 		code = "I-13"
+	},
+	{
+		id = 164,
+		name = "Kitakaze",
+		code = "Kitakaze"
+	},
+	{
+		id = 165,
+		name = "Azuma",
+		code = "Azuma"
+	},
+	{
+		id = 166,
+		name = "Type II Ayanami",
+		code = "Type II Ayanami"
+	},
+	{
+		id = 167,
+		name = "Type I Fubuki",
+		code = "Type I Fubuki"
+	},
+	{
+		id = 168,
+		name = "Type III Akatsuki",
+		code = "Type III Akatsuki"
+	},
+	{
+		id = 169,
+		name = "Baby Huey ",
+		code = "Baby Huey "
+	},
+	{
+		id = 170,
+		name = "Akagi Pickles ",
+		code = "Akagi Pickles "
+	},
+	{
+		id = 171,
+		name = "AI-Type Kagerou Production",
+		code = "AI-Type Kagerou Production"
+	},
+	{
+		id = 172,
+		name = "AI-Type Myoukou Production",
+		code = "AI-Type Myoukou Production"
+	},
+	{
+		id = 173,
+		name = "AI-Type Fusou Production",
+		code = "AI-Type Fusou Production"
 	}
 }
 

@@ -20,7 +20,8 @@ ys.Battle.BattleConst.WaveTriggerType = {
 	BGM = 5,
 	GUIDE = 6,
 	CAMERA = 7,
-	CLEAR = 8
+	CLEAR = 8,
+	JAMMING = 9
 }
 ys.Battle.BattleConst.UnitType = {
 	PLAYER_UNIT = 1,
@@ -281,6 +282,11 @@ ys.Battle.BattleConst.SubAidFlag = {
 	AMMO_EMPTY = 0,
 	AID_EMPTY = -1,
 	OIL_EMPTY = -2
+}
+ys.Battle.BattleConst.ManualWeaponIndex = {
+	CALIBRATION = 1,
+	TORPEDO = 2,
+	AIR_ASSIST = 3
 }
 
 return

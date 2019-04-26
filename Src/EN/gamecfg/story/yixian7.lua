@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 502011,
+			actor = 502010,
 			side = 2,
 			dir = 0,
 			blackBg = true,
@@ -22,7 +22,7 @@ return {
 			}
 		},
 		{
-			actor = 502011,
+			actor = 502010,
 			side = 2,
 			dir = 0,
 			blackBg = true,
@@ -37,7 +37,7 @@ return {
 			}
 		},
 		{
-			actor = 502011,
+			actor = 502010,
 			side = 2,
 			dir = 0,
 			blackBg = true,
@@ -52,7 +52,7 @@ return {
 			}
 		},
 		{
-			actor = 502011,
+			actor = 502010,
 			side = 2,
 			dir = 0,
 			blackBg = true,
@@ -67,7 +67,7 @@ return {
 			}
 		},
 		{
-			actor = 502011,
+			actor = 502010,
 			side = 2,
 			dir = 0,
 			blackBg = true,
@@ -82,7 +82,7 @@ return {
 			}
 		},
 		{
-			actor = 502011,
+			actor = 502010,
 			side = 2,
 			dir = 0,
 			blackBg = true,

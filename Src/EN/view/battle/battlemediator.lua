@@ -71,7 +71,7 @@ function slot0.register(slot0)
 				end
 			elseif slot0 == SYSTEM_SCENARIO then
 				slot2:removeChild(slot2:getContextByMediator(ChapterPreCombatMediator))
-			elseif slot0 ~= SYSTEM_PERFORM then
+			elseif slot0 ~= SYSTEM_PERFORM and slot0 ~= SYSTEM_SIMULATION then
 				slot2:removeChild(slot2:getContextByMediator(PreCombatMediator))
 			end
 		elseif slot3 and slot3:getContextByMediator(PreCombatMediator) then
@@ -145,6 +145,28 @@ function slot0.onPauseBtn(slot0)
 			}
 		})
 		slot1:Pause()
+	elseif slot0.contextData.system == SYSTEM_SIMULATION then
+		pg.MsgboxMgr.GetInstance():ShowHelpWindow({
+			helps = i18n("help_battle_rule"),
+			onClose = function ()
+				ys.Battle.BattleState.GetInstance():Resume()
+			end,
+			onNo = function ()
+				ys.Battle.BattleState.GetInstance():Resume()
+			end,
+			custom = {
+				{
+					text = "text_cancel_fight",
+					btnType = pg.MsgboxMgr.BUTTON_RED,
+					onCallback = function ()
+						slot0:warnFunc(function ()
+							ys.Battle.BattleState.GetInstance():Resume()
+						end)
+					end
+				}
+			}
+		})
+		slot1:Pause()
 	else
 		slot0.viewComponent:updatePauseWindow()
 		slot1:Pause()
@@ -159,7 +181,7 @@ function slot0.warnFunc(slot0, slot1)
 		modal = true,
 		hideYes = true,
 		hideNo = true,
-		content = (slot0.contextData.system ~= SYSTEM_CHALLENGE or i18n("battle_battleMediator_clear_warning")) and i18n("battle_battleMediator_quest_exist"),
+		content = (slot0.contextData.system ~= SYSTEM_CHALLENGE or i18n("battle_battleMediator_clear_warning")) and (slot3 ~= SYSTEM_SIMULATION or i18n("tech_simulate_quit")) and i18n("battle_battleMediator_quest_exist"),
 		onClose = slot1,
 		custom = {
 			{
@@ -183,39 +205,39 @@ function slot0.guideDispatch(slot0)
 	return
 end
 
-function slot1(slot0, slot1, slot2)
-	slot3 = {}
+function slot1(slot0, slot1, slot2, slot3)
+	slot4 = {}
 
-	for slot7, slot8 in ipairs(slot1:getActiveEquipments()) do
-		if slot8 then
-			slot3[#slot3 + 1] = {
-				id = slot8.configId,
-				skin = slot8.skinId
+	for slot8, slot9 in ipairs(slot1:getActiveEquipments()) do
+		if slot9 then
+			slot4[#slot4 + 1] = {
+				id = slot9.configId,
+				skin = slot9.skinId
 			}
 		else
-			slot3[#slot3 + 1] = {
+			slot4[#slot4 + 1] = {
 				skin = 0,
-				id = slot8
+				id = slot9
 			}
 		end
 	end
 
-	slot4 = ys.Battle.BattleDataFunction.GenerateHiddenBuff(slot1.configId)
+	slot5 = ys.Battle.BattleDataFunction.GenerateHiddenBuff(slot1.configId)
 
-	for slot8, slot9 in pairs(slot1.skills) do
-		if slot9 and slot9.id == 11720 and not slot1.transforms[3612] then
+	for slot9, slot10 in pairs(slot1.skills) do
+		if slot10 and slot10.id == 11720 and not slot1.transforms[3612] then
 		else
-			slot4[({
-				level = slot9.level,
-				id = ys.Battle.BattleDataFunction.SkillTranform(slot0, slot9.id)
+			slot5[({
+				level = slot10.level,
+				id = ys.Battle.BattleDataFunction.SkillTranform(slot0, slot10.id)
 			})["id"]] = 
 		end
 	end
 
-	for slot8, slot9 in pairs(slot1:getTriggerSkills()) do
-		slot4[({
-			level = slot9.level,
-			id = ys.Battle.BattleDataFunction.SkillTranform(slot0, slot9.id)
+	for slot9, slot10 in pairs(slot1:getTriggerSkills()) do
+		slot5[({
+			level = slot10.level,
+			id = ys.Battle.BattleDataFunction.SkillTranform(slot0, slot10.id)
 		})["id"]] = 
 	end
 
@@ -224,12 +246,12 @@ function slot1(slot0, slot1, slot2)
 		tmpID = slot1.configId,
 		skinId = slot1.skinId,
 		level = slot1.level,
-		equipment = slot3,
-		properties = slot1:getProperties(slot2),
+		equipment = slot4,
+		properties = slot1:getProperties(slot2, slot3),
 		proficiency = slot1:getEquipProficiencyList(),
 		rarity = slot1:getRarity(),
 		shipGS = slot1:getShipCombatPower(),
-		skills = slot4,
+		skills = slot5,
 		baseList = slot1:getBaseList(),
 		preloasList = slot1:getPreLoadCount(),
 		name = slot1:getName()
@@ -265,6 +287,7 @@ function slot0.GenBattleData(slot0)
 
 		slot0.viewComponent:setChapter(slot6)
 
+		slot1.KizunaJamming = slot6.extraFlagList
 		slot1.ChapterBuffIDs, slot1.CommanderList = slot6:getFleetBattleBuffs(slot7)
 		slot8 = _.values(slot6.fleet.getCommanders(slot7))
 		slot9 = {}
@@ -400,22 +423,11 @@ function slot0.GenBattleData(slot0)
 			slot0.viewComponent:setFleet(slot10, slot11, slot12)
 		end
 	elseif slot0.contextData.mainFleetId then
-		slot6, slot7 = nil
-		slot0.mainShips = slot3:getShipsByFleet(slot6)
-		slot8 = {}
+		slot5 = slot2 == SYSTEM_DUEL
+		slot0.mainShips = slot3:getShipsByFleet(nil)
 		slot9 = {}
 		slot10 = {}
-
-		for slot15, slot16 in ipairs(slot11) do
-			if table.contains(slot4, slot16) then
-				BattleVertify.cloneShipVertiry = true
-			end
-
-			slot4[#slot4 + 1] = slot16
-
-			table.insert(slot8, slot17)
-			table.insert(slot1.MainUnitList, slot0(slot2, slot17))
-		end
+		slot11 = {}
 
 		for slot16, slot17 in ipairs(slot12) do
 			if table.contains(slot4, slot17) then
@@ -425,10 +437,21 @@ function slot0.GenBattleData(slot0)
 			slot4[#slot4 + 1] = slot17
 
 			table.insert(slot9, slot18)
-			table.insert(slot1.VanguardUnitList, slot0(slot2, slot18))
+			table.insert(slot1.MainUnitList, slot0(slot2, slot18, nil, slot5))
 		end
 
-		slot0.viewComponent:setFleet(slot8, slot9, slot10)
+		for slot17, slot18 in ipairs(slot13) do
+			if table.contains(slot4, slot18) then
+				BattleVertify.cloneShipVertiry = true
+			end
+
+			slot4[#slot4 + 1] = slot18
+
+			table.insert(slot10, slot19)
+			table.insert(slot1.VanguardUnitList, slot0(slot2, slot19, nil, slot5))
+		end
+
+		slot0.viewComponent:setFleet(slot9, slot10, slot11)
 	end
 
 	slot1.RivalVanguardUnitList = {}
@@ -571,7 +594,7 @@ function slot0.handleNotification(slot0, slot1)
 		if slot3.system == SYSTEM_PROLOGUE then
 			ys.Battle.BattleState.GetInstance():Deactive()
 			slot0:sendNotification(GAME.GO_SCENE, SCENE.CREATE_PLAYER)
-		elseif slot5 == SYSTEM_PERFORM then
+		elseif slot5 == SYSTEM_PERFORM or slot5 == SYSTEM_SIMULATION then
 			ys.Battle.BattleState.GetInstance():Deactive()
 			slot0.viewComponent:exitBattle()
 

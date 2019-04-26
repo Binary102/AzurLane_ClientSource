@@ -49,7 +49,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 307061,
+			actor = 307060,
 			nameColor = "#a9f548",
 			say = "呜哇…这就是传说中的——",
 			typewriter = {
@@ -76,7 +76,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 307051,
+			actor = 307050,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -102,7 +102,7 @@ return {
 			}
 		},
 		{
-			actor = 305111,
+			actor = 305110,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -156,7 +156,7 @@ return {
 			side = 2,
 			bgName = "bg_sanli_cg_1",
 			dir = 1,
-			actor = 307061,
+			actor = 307060,
 			nameColor = "#a9f548",
 			say = "哇啊——没想到{namecode:82}前辈一直在收集着这些船模呢！",
 			effects = {
@@ -179,7 +179,7 @@ return {
 			side = 2,
 			bgName = "bg_sanli_cg_1",
 			dir = 1,
-			actor = 307061,
+			actor = 307060,
 			nameColor = "#a9f548",
 			say = "不过看到自己的船模，总觉得有点害羞呢…",
 			typewriter = {
@@ -195,7 +195,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 307051,
+			actor = 307050,
 			nameColor = "#a9f548",
 			say = "哎呀，竟然还有一航战的“前·辈·们”的模型呢",
 			flashout = {
@@ -225,7 +225,7 @@ return {
 			}
 		},
 		{
-			actor = 307051,
+			actor = 307050,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -245,7 +245,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 307061,
+			actor = 307060,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -261,7 +261,7 @@ return {
 			}
 		},
 		{
-			actor = 304021,
+			actor = 304020,
 			side = 0,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -277,7 +277,7 @@ return {
 			}
 		},
 		{
-			actor = 307051,
+			actor = 307050,
 			side = 1,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -297,7 +297,7 @@ return {
 			side = 2,
 			bgName = "bg_sanli_cg_1",
 			dir = 1,
-			actor = 305111,
+			actor = 305110,
 			nameColor = "#a9f548",
 			say = "哈哈，大家都是我可爱的后辈呀！我来介绍一下吧，这边是我们这些经受过战火考验的战舰的模型，那边是正规空母——",
 			typewriter = {
@@ -383,7 +383,7 @@ return {
 			side = 2,
 			bgName = "bg_sanli_cg_2",
 			dir = 1,
-			actor = 305111,
+			actor = 305110,
 			nameColor = "#a9f548",
 			say = "对了，这个收藏室姑且还是设置了防止入侵以及保护船模的装置，所以大家还是要小心不要误碰了哦",
 			typewriter = {
@@ -521,7 +521,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			soundeffect = "event:/battle/boom1",
-			actor = 305111,
+			actor = 305110,
 			nameColor = "#a9f548",
 			say = "这、这声音，难道是自毁装置启动了！？",
 			typewriter = {
@@ -547,7 +547,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 307051,
+			actor = 307050,
 			nameColor = "#a9f548",
 			say = "为、为什么收藏室会有自毁装置啦！！",
 			typewriter = {
@@ -574,7 +574,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 305111,
+			actor = 305110,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -596,7 +596,7 @@ return {
 			actorName = "{namecode:96}",
 			dir = 1,
 			soundeffect = "event:/battle/boom1",
-			actor = 305111,
+			actor = 305110,
 			say = "{namecode:82}前辈危险！",
 			flashN = {
 				color = {
@@ -632,7 +632,7 @@ return {
 			},
 			subActors = {
 				{
-					actor = 307061,
+					actor = 307060,
 					pos = {
 						x = -400
 					}
@@ -687,7 +687,7 @@ return {
 			}
 		},
 		{
-			actor = 304021,
+			actor = 304020,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -774,7 +774,7 @@ return {
 			side = 2,
 			bgName = "bg_sanli_cg_4",
 			dir = 1,
-			actor = 307051,
+			actor = 307050,
 			nameColor = "#a9f548",
 			say = "哎…在这边不知所措也没用，还是想想怎么善后跟补救吧…",
 			typewriter = {
@@ -791,7 +791,7 @@ return {
 			side = 2,
 			bgName = "bg_sanli_cg_4",
 			dir = 1,
-			actor = 307051,
+			actor = 307050,
 			nameColor = "#a9f548",
 			say = "好啦，{namecode:33}{namecode:34}也不要哭啦，{namecode:96}，你去找人来一起帮忙，接下来有得忙了",
 			typewriter = {
@@ -809,7 +809,7 @@ return {
 			bgName = "bg_sanli_cg_4",
 			say = "姐姐…嗯！我这就去！",
 			dir = 1,
-			actor = 307061,
+			actor = 307060,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,

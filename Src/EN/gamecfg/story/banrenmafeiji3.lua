@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			actor = 900094,
+			actor = 201212,
 			nameColor = "#a9f548",
 			say = "看来半人马你还不理解这一点呢，你这么漂亮没有穿泳装来太可惜了。",
 			flashout = {
@@ -57,7 +57,7 @@ return {
 			bgName = "star_level_bg_106",
 			say = "嗯，毕竟我也才刚加入舰队，这方面的准备也还没有——",
 			dir = 1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -73,7 +73,7 @@ return {
 			}
 		},
 		{
-			actor = 900094,
+			actor = 201212,
 			side = 0,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -93,7 +93,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "欸，不是向导吗？",
 			typewriter = {
@@ -119,7 +119,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 900102,
+			actor = 101251,
 			nameColor = "#a9f548",
 			say = "萨拉托加，站住啦！！！把我的饮料还给我！！",
 			flashout = {
@@ -162,7 +162,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 900103,
+			actor = 107031,
 			nameColor = "#a9f548",
 			say = "嘻嘻嘻，你叫我站住我就会站住吗~~~",
 			typewriter = {
@@ -192,7 +192,7 @@ return {
 			}
 		},
 		{
-			actor = 900094,
+			actor = 201212,
 			side = 2,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -208,7 +208,7 @@ return {
 			}
 		},
 		{
-			actor = 900094,
+			actor = 201212,
 			side = 2,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -229,7 +229,7 @@ return {
 			bgName = "star_level_bg_106",
 			say = "不愧是萨拉托加前辈呢！",
 			dir = 1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -245,7 +245,7 @@ return {
 			}
 		},
 		{
-			actor = 900094,
+			actor = 201212,
 			side = 0,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -265,7 +265,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 900094,
+			actor = 201212,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -285,7 +285,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "啊，是皇家方舟前辈，好英气的泳装呢。",
 			typewriter = {
@@ -298,7 +298,7 @@ return {
 			}
 		},
 		{
-			actor = 206041,
+			actor = 206040,
 			side = 2,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -317,7 +317,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 900104,
+			actor = 207021,
 			nameColor = "#a9f548",
 			say = "努噢噢噢噢！驱逐妹妹们在沙滩上的安全，就由本人皇家方舟来守护！！",
 			effects = {
@@ -339,7 +339,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 900094,
+			actor = 201212,
 			nameColor = "#a9f548",
 			say = "喏，如你所见…虽然台词和动作都挺帅气的啦——",
 			effects = {
@@ -362,7 +362,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -388,7 +388,7 @@ return {
 			}
 		},
 		{
-			actor = 900094,
+			actor = 201212,
 			side = 0,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -404,7 +404,7 @@ return {
 			}
 		},
 		{
-			actor = 900094,
+			actor = 201212,
 			side = 0,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -423,7 +423,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 900104,
+			actor = 207021,
 			nameColor = "#a9f548",
 			say = "沙滩！蓝天！碧海！还有嬉戏的驱逐妹妹们！夏天真是太棒了！",
 			effects = {
@@ -445,7 +445,7 @@ return {
 			expression = 2,
 			side = 1,
 			bgName = "star_level_bg_106",
-			actor = 206041,
+			actor = 206040,
 			dir = 1,
 			say = "皇家方舟前辈，你好！",
 			nameColor = "#a9f548",
@@ -472,7 +472,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 900104,
+			actor = 207021,
 			nameColor = "#a9f548",
 			say = "嗯？咳、咳咳，是半人马吗，哦，和标枪？真是稀罕的组合啊？",
 			typewriter = {
@@ -495,7 +495,7 @@ return {
 			}
 		},
 		{
-			actor = 900094,
+			actor = 201212,
 			side = 1,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -511,7 +511,7 @@ return {
 			}
 		},
 		{
-			actor = 900104,
+			actor = 207021,
 			side = 0,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -527,7 +527,7 @@ return {
 			}
 		},
 		{
-			actor = 900094,
+			actor = 201212,
 			side = 1,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -543,7 +543,7 @@ return {
 			}
 		},
 		{
-			actor = 900104,
+			actor = 207021,
 			side = 0,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -563,7 +563,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "嗯…我才刚加入舰队，还没有来得及做这方面的准备——",
 			typewriter = {
@@ -586,7 +586,7 @@ return {
 			}
 		},
 		{
-			actor = 900104,
+			actor = 207021,
 			side = 0,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -602,7 +602,7 @@ return {
 			}
 		},
 		{
-			actor = 900094,
+			actor = 201212,
 			side = 1,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -621,7 +621,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 900104,
+			actor = 207021,
 			nameColor = "#a9f548",
 			say = "哈啊！顾着聊天差点忘了正事，我还要欣赏、不对是守护沙滩上的驱逐妹妹们呢！",
 			flashout = {
@@ -664,7 +664,7 @@ return {
 			say = "啊哈哈，那我们就先不打扰了",
 			side = 1,
 			bgName = "star_level_bg_106",
-			actor = 900094,
+			actor = 201212,
 			dir = 1,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
@@ -701,7 +701,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "皇家方舟前辈，要加油哦！",
 			typewriter = {
@@ -714,7 +714,7 @@ return {
 			}
 		},
 		{
-			actor = 900094,
+			actor = 201212,
 			side = 2,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",

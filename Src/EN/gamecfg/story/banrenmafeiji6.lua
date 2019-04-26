@@ -23,7 +23,7 @@ return {
 			bgmDelay = 2,
 			blackBg = true,
 			bgm = "story-2",
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "海边的夕阳真是美丽啊",
 			flashout = {
@@ -57,7 +57,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "呼，结果沙滩排球比赛因为中途参加的人越来越多，变成持续了一整个下午的大型活动……稍微有些累了呢。",
 			typewriter = {
@@ -70,7 +70,7 @@ return {
 			}
 		},
 		{
-			actor = 206041,
+			actor = 206040,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -90,7 +90,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "原来经历过大战的前辈们，也会度过这样的一天……",
 			typewriter = {
@@ -103,7 +103,7 @@ return {
 			}
 		},
 		{
-			actor = 206041,
+			actor = 206040,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -123,7 +123,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "果然加入舰队是正确的选择，在这里，我能够近距离地接触到各种各样的前辈们，从大家身上学习和平时代诞生的我所缺少的东西……",
 			typewriter = {
@@ -140,7 +140,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgm = "story-1",
-			actor = 900094,
+			actor = 201212,
 			nameColor = "#a9f548",
 			say = "喂，半人马~~",
 			flashout = {
@@ -184,7 +184,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -200,7 +200,7 @@ return {
 			}
 		},
 		{
-			actor = 900094,
+			actor = 201212,
 			side = 0,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -220,7 +220,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "嗯，是的，我也在回味今天。",
 			typewriter = {
@@ -237,7 +237,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "对我来说，今天是十分有意义的一天呢。",
 			typewriter = {
@@ -250,7 +250,7 @@ return {
 			}
 		},
 		{
-			actor = 900094,
+			actor = 201212,
 			side = 0,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -270,7 +270,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "嗯，今天学到了许多战斗之外的东西呢，比如前辈们的生活态度之类的。",
 			typewriter = {
@@ -283,7 +283,7 @@ return {
 			}
 		},
 		{
-			actor = 900094,
+			actor = 201212,
 			side = 0,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -299,7 +299,7 @@ return {
 			}
 		},
 		{
-			actor = 206041,
+			actor = 206040,
 			side = 1,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -315,7 +315,7 @@ return {
 			}
 		},
 		{
-			actor = 900094,
+			actor = 201212,
 			side = 0,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -331,7 +331,7 @@ return {
 			}
 		},
 		{
-			actor = 900094,
+			actor = 201212,
 			side = 0,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -351,7 +351,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "欸，排球比赛不是已经结束了吗？我看前辈们也都散了。",
 			typewriter = {
@@ -364,7 +364,7 @@ return {
 			}
 		},
 		{
-			actor = 900094,
+			actor = 201212,
 			side = 0,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -380,7 +380,7 @@ return {
 			}
 		},
 		{
-			actor = 900094,
+			actor = 201212,
 			side = 0,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -400,7 +400,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "咦，好多姐妹在搬箱子一样的东西，那些是……？",
 			typewriter = {
@@ -413,7 +413,7 @@ return {
 			}
 		},
 		{
-			actor = 900094,
+			actor = 201212,
 			side = 0,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -432,7 +432,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 900094,
+			actor = 201212,
 			nameColor = "#a9f548",
 			say = "是专门为了欢迎自由和维希的新同伴，还有你的加入而准备的哦！",
 			typewriter = {
@@ -459,7 +459,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "……原来白天说的就是这个啊。",
 			typewriter = {
@@ -475,7 +475,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 900094,
+			actor = 201212,
 			nameColor = "#a9f548",
 			say = "啊，让巴尔和敦刻尔克姐姐那边也来了呢。",
 			typewriter = {
@@ -502,7 +502,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 900094,
+			actor = 201212,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -521,7 +521,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 900094,
+			actor = 201212,
 			nameColor = "#a9f548",
 			say = "美好的时光才刚刚开始呢。",
 			typewriter = {
@@ -548,7 +548,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "说的是呢，现在还不是回味的时候……",
 			typewriter = {
@@ -566,7 +566,7 @@ return {
 			bgName = "star_level_bg_106",
 			dir = 1,
 			blackBg = true,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "值得回味的时光，才刚刚开始呢。",
 			typewriter = {

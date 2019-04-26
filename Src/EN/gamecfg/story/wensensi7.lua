@@ -46,7 +46,7 @@ return {
 			}
 		},
 		{
-			actor = 103101,
+			actor = 103100,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -62,7 +62,7 @@ return {
 			}
 		},
 		{
-			actor = 103101,
+			actor = 103100,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -106,7 +106,7 @@ return {
 			}
 		},
 		{
-			actor = 103101,
+			actor = 103100,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -126,7 +126,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			withoutActorName = true,
-			actor = 103101,
+			actor = 103100,
 			nameColor = "#a9f548",
 			say = "Vincennes handed over a small pouch of elegantly-wrapped cookies.",
 			typewriter = {
@@ -143,7 +143,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			withoutActorName = true,
-			actor = 103101,
+			actor = 103100,
 			nameColor = "#a9f548",
 			say = "They were clearly handmade. Their shapes were a bit rough, but one could immediately see the sincere feelings of the person who made them.",
 			typewriter = {
@@ -156,7 +156,7 @@ return {
 			}
 		},
 		{
-			actor = 103101,
+			actor = 103100,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -172,7 +172,7 @@ return {
 			}
 		},
 		{
-			actor = 103101,
+			actor = 103100,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -188,7 +188,7 @@ return {
 			}
 		},
 		{
-			actor = 103101,
+			actor = 103100,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -218,7 +218,7 @@ return {
 			}
 		},
 		{
-			actor = 103101,
+			actor = 103100,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -234,7 +234,7 @@ return {
 			}
 		},
 		{
-			actor = 103101,
+			actor = 103100,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -253,7 +253,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 103101,
+			actor = 103100,
 			nameColor = "#a9f548",
 			say = "So, from now on, I'll do my best!",
 			typewriter = {
@@ -276,7 +276,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			actor = 103101,
+			actor = 103100,
 			nameColor = "#a9f548",
 			say = "Okay! Oh, but um... Commander, you'll still take naps with me, right?",
 			typewriter = {

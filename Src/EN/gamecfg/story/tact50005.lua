@@ -4,7 +4,7 @@ return {
 	once = true,
 	scripts = {
 		{
-			actor = 303021,
+			actor = 303020,
 			side = 2,
 			nameColor = "#a9f548",
 			actorName = "{namecode:54}",
@@ -19,7 +19,7 @@ return {
 			}
 		},
 		{
-			actor = 303041,
+			actor = 303040,
 			nameColor = "#a9f548",
 			side = 1,
 			say = "Sis, I've come to help!",
@@ -47,7 +47,7 @@ return {
 			}
 		},
 		{
-			actor = 303141,
+			actor = 303140,
 			side = 2,
 			nameColor = "#a9f548",
 			actorName = "{namecode:69}",
@@ -64,14 +64,14 @@ return {
 		{
 			actorName = "{namecode:55}&{namecode:53}",
 			side = 0,
-			actor = 303031,
+			actor = 303030,
 			dir = 1,
 			hideOther = true,
 			nameColor = "#a9f548",
 			say = "Understood!",
 			subActors = {
 				{
-					actor = 303011,
+					actor = 303010,
 					dir = 1,
 					pos = {
 						x = 650

@@ -39,6 +39,35 @@ pg.strategy_data_template = {
 			10
 		}
 	},
+	[9] = {
+		buff_id = 0,
+		name = "Exchange location",
+		type = 2,
+		id = 9,
+		icon = "9",
+		desc = "Exchange location with friendly team",
+		arg = {
+			exchange
+		}
+	},
+	[90] = {
+		buff_id = 90,
+		name = "RED ALERT!",
+		type = 90,
+		id = 90,
+		icon = "90",
+		desc = "Kizuna AI is going to harass you during your next battle: Submarine Call, Air Strike, Torpedo Attack, and Main Battery Fire functions will be locked (including manual control mode). Tap her face a bunch to make her go away.",
+		arg = {}
+	},
+	[91] = {
+		buff_id = 91,
+		name = "Crisis Averted~",
+		type = 90,
+		id = 91,
+		icon = "91",
+		desc = "Crisis Averted~Nobody is going to harass you this time",
+		arg = {}
+	},
 	[10001] = {
 		buff_id = 200,
 		name = "Adequate Ammo",
@@ -117,6 +146,9 @@ pg.strategy_data_template = {
 		2,
 		3,
 		4,
+		9,
+		90,
+		91,
 		10001,
 		10002,
 		10011,

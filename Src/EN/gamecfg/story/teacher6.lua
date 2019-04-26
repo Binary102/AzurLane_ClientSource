@@ -21,7 +21,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			bgm = "story-1",
-			actor = 401234,
+			actor = 401230,
 			nameColor = "#a9f548",
 			say = "To become a part of their life... Okay! First up is...",
 			typewriter = {
@@ -37,7 +37,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 401234,
+			actor = 401230,
 			nameColor = "#a9f548",
 			say = "Long Island! Let's have a challenge!",
 			flashout = {
@@ -71,7 +71,7 @@ return {
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 900034,
+			actor = 106011,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -87,7 +87,7 @@ return {
 			}
 		},
 		{
-			actor = 401234,
+			actor = 401230,
 			side = 0,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -103,7 +103,7 @@ return {
 			}
 		},
 		{
-			actor = 900034,
+			actor = 106011,
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -119,7 +119,7 @@ return {
 			}
 		},
 		{
-			actor = 401234,
+			actor = 401230,
 			side = 0,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -135,7 +135,7 @@ return {
 			}
 		},
 		{
-			actor = 900034,
+			actor = 106011,
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -154,7 +154,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 900034,
+			actor = 106011,
 			nameColor = "#a9f548",
 			say = "I... I lost...?",
 			flashout = {
@@ -188,7 +188,7 @@ return {
 			side = 0,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 401234,
+			actor = 401230,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -204,7 +204,7 @@ return {
 			}
 		},
 		{
-			actor = 900034,
+			actor = 106011,
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -220,7 +220,7 @@ return {
 			}
 		},
 		{
-			actor = 900034,
+			actor = 106011,
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -239,7 +239,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 102084,
+			actor = 102080,
 			nameColor = "#a9f548",
 			say = "What is it~ Something fun~?",
 			flashout = {
@@ -273,7 +273,7 @@ return {
 			side = 0,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 401234,
+			actor = 401230,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -289,7 +289,7 @@ return {
 			}
 		},
 		{
-			actor = 401234,
+			actor = 401230,
 			side = 0,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -305,7 +305,7 @@ return {
 			}
 		},
 		{
-			actor = 102084,
+			actor = 102080,
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -324,7 +324,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 107034,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "I'm sorry, Z23, I just wanted to joke around with you a bit...",
 			flashout = {
@@ -358,7 +358,7 @@ return {
 			side = 0,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 401234,
+			actor = 401230,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -374,7 +374,7 @@ return {
 			}
 		},
 		{
-			actor = 107034,
+			actor = 107030,
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -390,7 +390,7 @@ return {
 			}
 		},
 		{
-			actor = 107034,
+			actor = 107030,
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -406,7 +406,7 @@ return {
 			}
 		},
 		{
-			actor = 401234,
+			actor = 401230,
 			side = 0,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -422,7 +422,7 @@ return {
 			}
 		},
 		{
-			actor = 107034,
+			actor = 107030,
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -438,7 +438,7 @@ return {
 			}
 		},
 		{
-			actor = 401234,
+			actor = 401230,
 			side = 0,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -454,7 +454,7 @@ return {
 			}
 		},
 		{
-			actor = 107034,
+			actor = 107030,
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -470,7 +470,7 @@ return {
 			}
 		},
 		{
-			actor = 401234,
+			actor = 401230,
 			side = 0,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -486,7 +486,7 @@ return {
 			}
 		},
 		{
-			actor = 107034,
+			actor = 107030,
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -505,7 +505,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 401234,
+			actor = 401230,
 			nameColor = "#a9f548",
 			say = "All right! This time, I'll definitely be able to succeed!",
 			flashout = {
@@ -535,7 +535,7 @@ return {
 			}
 		},
 		{
-			actor = 401234,
+			actor = 401230,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",

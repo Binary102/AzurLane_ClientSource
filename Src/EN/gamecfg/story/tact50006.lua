@@ -4,7 +4,7 @@ return {
 	once = true,
 	scripts = {
 		{
-			actor = 103081,
+			actor = 103080,
 			side = 2,
 			nameColor = "#a9f548",
 			say = "How come the enemy can get reinforcements before us? I thought we were supposed to be in control of these waters?!",
@@ -18,7 +18,7 @@ return {
 			}
 		},
 		{
-			actor = 103091,
+			actor = 103090,
 			side = 0,
 			say = "Those two came from the south, so that must mean...",
 			nameColor = "#a9f548",
@@ -36,7 +36,7 @@ return {
 			}
 		},
 		{
-			actor = 103081,
+			actor = 103080,
 			side = 1,
 			nameColor = "#a9f548",
 			say = "As you predicted, Quincy... Chicago must have already been taken out...",
@@ -50,7 +50,7 @@ return {
 			}
 		},
 		{
-			actor = 103101,
+			actor = 103100,
 			side = 1,
 			nameColor = "#a9f548",
 			say = "Chicago... is kinda useless...",
@@ -64,7 +64,7 @@ return {
 			}
 		},
 		{
-			actor = 103091,
+			actor = 103090,
 			side = 0,
 			nameColor = "#a9f548",
 			say = "Don't say that! Chicago surely did her best. Got it, Vincennes?",
@@ -78,7 +78,7 @@ return {
 			}
 		},
 		{
-			actor = 103101,
+			actor = 103100,
 			side = 1,
 			nameColor = "#a9f548",
 			say = "Sure...",
@@ -92,7 +92,7 @@ return {
 			}
 		},
 		{
-			actor = 103081,
+			actor = 103080,
 			side = 1,
 			nameColor = "#a9f548",
 			say = "So, I suppose San Juan and the others won't be able to make it from the east either...",
@@ -106,7 +106,7 @@ return {
 			}
 		},
 		{
-			actor = 103091,
+			actor = 103090,
 			side = 0,
 			nameColor = "#a9f548",
 			say = "Seems to be the case...",
@@ -120,7 +120,7 @@ return {
 			}
 		},
 		{
-			actor = 103091,
+			actor = 103090,
 			side = 0,
 			nameColor = "#a9f548",
 			say = "The enemy won't be able to surround us just yet. We should make use of the time we have to counterattack...",
@@ -134,7 +134,7 @@ return {
 			}
 		},
 		{
-			actor = 103081,
+			actor = 103080,
 			side = 1,
 			nameColor = "#a9f548",
 			say = "All right, let's do that then.",
@@ -148,7 +148,7 @@ return {
 			}
 		},
 		{
-			actor = 103101,
+			actor = 103100,
 			side = 2,
 			nameColor = "#a9f548",
 			say = "Let's go!",

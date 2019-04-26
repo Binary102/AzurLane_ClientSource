@@ -1,29 +1,27 @@
 class("BuildShipBluePrintCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 	slot4 = slot1:getBody().hideTip
 
-	if not getProxy(TaskProxy):getTaskById(getProxy(TechnologyProxy).getBluePrintById(slot5, slot3).getOpenTaskID(slot6)) then
-		return
-	end
+	if not getProxy(TechnologyProxy).getBluePrintById(slot5, slot3):isFinishPrevTask(true) then
+		pg.TipsMgr.GetInstance():ShowTips("without finish pre task")
 
-	if not slot9:isFinish() and not slot9:isReceive() then
 		return
 	end
 
 	if pg.TimeMgr.GetInstance():GetServerTime() < slot5:getColdTime() then
-		if slot10 - slot11 < 0 then
-			slot12 = 0
+		if slot7 - slot8 < 0 then
+			slot9 = 0
 		end
 
-		slot14 = nil
+		slot11 = nil
 
-		pg.TipsMgr:GetInstance():ShowTips(i18n("blueprint_cannot_build_tip", (math.floor(slot12 / 86400) > 0 and i18n("time_remaining_tip") .. slot13 .. i18n("word_date")) or (math.floor(slot12 / 3600) > 0 and i18n("time_remaining_tip") .. slot15 .. i18n("word_hour")) or (math.floor(slot12 / 60) > 0 and i18n("time_remaining_tip") .. slot16 .. i18n("word_minute")) or i18n("time_remaining_tip") .. slot12 .. i18n("word_second")))
+		pg.TipsMgr:GetInstance():ShowTips(i18n("blueprint_cannot_build_tip", (math.floor(slot9 / 86400) > 0 and i18n("time_remaining_tip") .. slot10 .. i18n("word_date")) or (math.floor(slot9 / 3600) > 0 and i18n("time_remaining_tip") .. slot12 .. i18n("word_hour")) or (math.floor(slot9 / 60) > 0 and i18n("time_remaining_tip") .. slot13 .. i18n("word_minute")) or i18n("time_remaining_tip") .. slot9 .. i18n("word_second")))
 
 		return
 	end
 
 	if slot5:getBuildingBluePrint() then
 		pg.MsgboxMgr:GetInstance():ShowMsgBox({
-			content = i18n("cannot_build_multiple_printblue", slot12:getShipVO().getConfig(slot13, "name"), slot6:getShipVO():getConfig("name")),
+			content = i18n("cannot_build_multiple_printblue", slot9:getShipVO().getConfig(slot10, "name"), slot6:getShipVO():getConfig("name")),
 			onYes = function ()
 				slot0:sendNotification(GAME.STOP_BLUEPRINT, {
 					id = slot1.id,
@@ -40,7 +38,7 @@ class("BuildShipBluePrintCommand", pm.SimpleCommand).execute = function (slot0, 
 		return
 	end
 
-	function slot13()
+	function slot10()
 		pg.ConnectionMgr.GetInstance():Send(63200, {
 			blueprint_id = slot0
 		}, 63201, function (slot0)
@@ -56,7 +54,7 @@ class("BuildShipBluePrintCommand", pm.SimpleCommand).execute = function (slot0, 
 	end
 
 	if slot4 then
-		slot13()
+		slot10()
 	else
 		pg.MsgboxMgr:GetInstance():ShowMsgBox({
 			content = i18n("blueprint_build_time_tip"),

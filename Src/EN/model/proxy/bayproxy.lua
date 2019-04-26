@@ -303,7 +303,7 @@ function slot0.updateShip(slot0, slot1)
 
 	slot0.recordShipLevelVertify(slot1)
 
-	if (slot0.data[slot1.id].getStar(slot2) < slot1:getStar() or slot2.intimacy < slot1.intimacy or (not slot2.propose and slot1.propose)) and getProxy(CollectionProxy) then
+	if (slot0.data[slot1.id].getStar(slot2) < slot1:getStar() or slot2.intimacy < slot1.intimacy or slot2.level < slot1.level or (not slot2.propose and slot1.propose)) and getProxy(CollectionProxy) then
 		slot3:flushCollection(slot1)
 	end
 

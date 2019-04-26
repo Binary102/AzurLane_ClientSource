@@ -64,7 +64,7 @@ return {
 			}
 		},
 		{
-			actor = 202201,
+			actor = 202200,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -84,7 +84,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 202201,
+			actor = 202200,
 			nameColor = "#a9f548",
 			say = "If there is anything at all that I can help with, please tell me. Though I am not as talented as Belfast, I shall do my absolute best to meet your expectations.",
 			typewriter = {
@@ -114,7 +114,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 202201,
+			actor = 202200,
 			nameColor = "#a9f548",
 			say = "......?",
 			flashout = {
@@ -148,7 +148,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			withoutActorName = true,
-			actor = 202201,
+			actor = 202200,
 			nameColor = "#a9f548",
 			say = "Sirius tilted her head sideways like she didn't understand what I said.",
 			typewriter = {
@@ -161,7 +161,7 @@ return {
 			}
 		},
 		{
-			actor = 202201,
+			actor = 202200,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -180,7 +180,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 202201,
+			actor = 202200,
 			nameColor = "#a9f548",
 			say = "My sincerest apologies... I thought you had already finished reading them yesterday, so I disposed of them...",
 			typewriter = {
@@ -207,7 +207,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 202201,
+			actor = 202200,
 			nameColor = "#a9f548",
 			say = "I-I shall locate them at once!",
 			typewriter = {
@@ -246,7 +246,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 202201,
+			actor = 202200,
 			nameColor = "#a9f548",
 			say = "Pardon the interruption, Master, but... what would you like me to clean first?",
 			flashout = {
@@ -279,7 +279,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 202201,
+			actor = 202200,
 			nameColor = "#a9f548",
 			say = "I'm truly sorry, but I have always gotten my fellow maids to brew tea on my behalf, so I have never done it myself...",
 			flashout = {
@@ -350,7 +350,7 @@ return {
 			}
 		},
 		{
-			actor = 202201,
+			actor = 202200,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -370,7 +370,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 202201,
+			actor = 202200,
 			nameColor = "#a9f548",
 			say = "Please... Please teach this naughty maid some proper manners!",
 			typewriter = {

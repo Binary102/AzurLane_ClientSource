@@ -267,7 +267,7 @@ return {
 			side = 2,
 			bgName = "bg_story_faxi2",
 			dir = 1,
-			actor = 905011,
+			actor = 905010,
 			withoutPainting = true,
 			flashout = {
 				dur = 1,
@@ -296,7 +296,7 @@ return {
 			}
 		},
 		{
-			actor = 905011,
+			actor = 905010,
 			side = 2,
 			bgName = "bg_story_faxi2",
 			say = "堂堂的圣教骑士、大洋上最强的战舰，最后却选择了依附别人的力量，呵呵",
@@ -312,7 +312,7 @@ return {
 			}
 		},
 		{
-			actor = 905011,
+			actor = 905010,
 			side = 2,
 			bgName = "bg_story_faxi2",
 			say = "......",
@@ -328,7 +328,7 @@ return {
 			}
 		},
 		{
-			actor = 905011,
+			actor = 905010,
 			side = 2,
 			bgName = "bg_story_faxi2",
 			say = "——真是愚蠢而软弱",

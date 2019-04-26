@@ -17,7 +17,7 @@ return {
 			}
 		},
 		{
-			actor = 206031,
+			actor = 206030,
 			nameColor = "#a9f548",
 			side = 2,
 			say = "Wh-what should Unicorn do...",
@@ -31,7 +31,7 @@ return {
 			}
 		},
 		{
-			actor = 206031,
+			actor = 206030,
 			nameColor = "#a9f548",
 			side = 2,
 			say = "Even with the advice from Lady Stardust...",
@@ -45,7 +45,7 @@ return {
 			}
 		},
 		{
-			actor = 206031,
+			actor = 206030,
 			nameColor = "#a9f548",
 			side = 2,
 			say = "Ugh…Unicorn is still nervous to express her feelings...",
@@ -59,7 +59,7 @@ return {
 			}
 		},
 		{
-			actor = 206031,
+			actor = 206030,
 			nameColor = "#a9f548",
 			side = 2,
 			say = "And... such beautiful clothes... doesn’t really fit Unicorn... what if Onii-chan doesn’t like it...",
@@ -73,7 +73,7 @@ return {
 			}
 		},
 		{
-			actor = 206031,
+			actor = 206030,
 			side = 2,
 			nameColor = "#a9f548",
 			say = "Bits of Courage… is the greatest form of magic...",
@@ -104,7 +104,7 @@ return {
 			}
 		},
 		{
-			actor = 206031,
+			actor = 206030,
 			nameColor = "#a9f548",
 			side = 2,
 			say = "Yes, Unicorn will try her best!",

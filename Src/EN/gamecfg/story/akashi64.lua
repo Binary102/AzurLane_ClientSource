@@ -4,7 +4,7 @@ return {
 	once = true,
 	scripts = {
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 2,
 			dir = -1,
 			say = "Kill mission! Annihilate all enemies ahead, nya!",

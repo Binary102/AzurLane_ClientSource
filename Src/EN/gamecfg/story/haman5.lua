@@ -17,7 +17,7 @@ return {
 			}
 		},
 		{
-			actor = 101251,
+			actor = 101250,
 			side = 2,
 			bgName = "bg_story_room",
 			say = "——然后呢，哈曼就把指挥官赶出指挥室了……",
@@ -33,7 +33,7 @@ return {
 			}
 		},
 		{
-			actor = 107051,
+			actor = 107050,
 			side = 0,
 			bgName = "bg_story_room",
 			say = "嗯嗯。",
@@ -52,7 +52,7 @@ return {
 			}
 		},
 		{
-			actor = 101251,
+			actor = 101250,
 			side = 1,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -67,7 +67,7 @@ return {
 			}
 		},
 		{
-			actor = 107051,
+			actor = 107050,
 			side = 0,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -82,7 +82,7 @@ return {
 			}
 		},
 		{
-			actor = 101251,
+			actor = 101250,
 			side = 1,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -97,7 +97,7 @@ return {
 			}
 		},
 		{
-			actor = 107051,
+			actor = 107050,
 			side = 0,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -112,7 +112,7 @@ return {
 			}
 		},
 		{
-			actor = 101251,
+			actor = 101250,
 			side = 1,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -150,7 +150,7 @@ return {
 			}
 		},
 		{
-			actor = 107051,
+			actor = 107050,
 			side = 0,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -165,7 +165,7 @@ return {
 			}
 		},
 		{
-			actor = 107051,
+			actor = 107050,
 			side = 0,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -180,7 +180,7 @@ return {
 			}
 		},
 		{
-			actor = 101251,
+			actor = 101250,
 			side = 1,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -209,7 +209,7 @@ return {
 			}
 		},
 		{
-			actor = 101241,
+			actor = 101240,
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -230,7 +230,7 @@ return {
 			}
 		},
 		{
-			actor = 101241,
+			actor = 101240,
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -245,7 +245,7 @@ return {
 			}
 		},
 		{
-			actor = 107051,
+			actor = 107050,
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -264,7 +264,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			blackBg = true,
-			actor = 101241,
+			actor = 101240,
 			say = "诶！？",
 			typewriter = {
 				speed = 0.05,

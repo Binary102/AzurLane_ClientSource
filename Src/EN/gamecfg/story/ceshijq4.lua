@@ -49,7 +49,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 808011,
+			actor = 808010,
 			nameColor = "#a9f548",
 			say = "请选择分支，将影响BOSS战斗内容",
 			typewriter = {

@@ -32,7 +32,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 307011,
+			actor = 307010,
 			actorName = "{namecode:91}",
 			say = "哎呀？你是铁血的……",
 			typewriter = {
@@ -49,7 +49,7 @@ return {
 			side = 1,
 			bgName = "bg_night",
 			dir = -1,
-			actor = 407011,
+			actor = 407010,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -69,7 +69,7 @@ return {
 			side = 0,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 307011,
+			actor = 307010,
 			actorName = "{namecode:91}",
 			say = "心血来潮而已…再说还得照顾年轻孩子们啊。你不也一样吗？",
 			typewriter = {
@@ -82,7 +82,7 @@ return {
 			}
 		},
 		{
-			actor = 407011,
+			actor = 407010,
 			nameColor = "#a9f548",
 			bgName = "bg_night",
 			side = 1,
@@ -102,7 +102,7 @@ return {
 			side = 0,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 307011,
+			actor = 307010,
 			actorName = "{namecode:91}",
 			say = "下次就能一起并肩战斗了呢。想想身边还有另一个自己就很安心啊。",
 			typewriter = {
@@ -115,7 +115,7 @@ return {
 			}
 		},
 		{
-			actor = 407011,
+			actor = 407010,
 			nameColor = "#a9f548",
 			bgName = "bg_night",
 			side = 1,
@@ -135,7 +135,7 @@ return {
 			side = 0,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 307011,
+			actor = 307010,
 			actorName = "{namecode:91}",
 			say = "确实，那时如果没有遇到指挥官，我应该是会继续追随“神”的哦？",
 			typewriter = {
@@ -148,7 +148,7 @@ return {
 			}
 		},
 		{
-			actor = 407011,
+			actor = 407010,
 			nameColor = "#a9f548",
 			bgName = "bg_night",
 			side = 1,
@@ -168,7 +168,7 @@ return {
 			side = 0,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 307011,
+			actor = 307010,
 			actorName = "{namecode:91}",
 			say = "不断持续的战争，不惜伤害同伴，为了得到可憎敌人的力量，一味地寻求着拥有“觉醒”可能的存在……",
 			typewriter = {
@@ -185,7 +185,7 @@ return {
 			side = 0,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 307011,
+			actor = 307010,
 			actorName = "{namecode:91}",
 			say = "不，那个跟随了“神明”的我……不管是不是真的——都不过是一种可能而已。",
 			typewriter = {
@@ -198,7 +198,7 @@ return {
 			}
 		},
 		{
-			actor = 407011,
+			actor = 407010,
 			nameColor = "#a9f548",
 			bgName = "bg_night",
 			side = 1,
@@ -218,7 +218,7 @@ return {
 			side = 0,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 307011,
+			actor = 307010,
 			actorName = "{namecode:91}",
 			say = "同一面镜子里倒映出的不同姿态的我…基于同样的信息而被雕刻出的，有着自我的存在都是“可能性”呦。",
 			typewriter = {
@@ -235,7 +235,7 @@ return {
 			side = 0,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 307011,
+			actor = 307010,
 			actorName = "{namecode:91}",
 			say = "在某个时刻与你们交战的我，也不过是“可能性”的一种。在这里和你一起喝酒的我亦不过是…",
 			typewriter = {
@@ -252,7 +252,7 @@ return {
 			side = 0,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 307011,
+			actor = 307010,
 			actorName = "{namecode:91}",
 			say = "因为遇到指挥官而从“塞壬”手中得到解救的一种“可能性”……",
 			typewriter = {
@@ -265,7 +265,7 @@ return {
 			}
 		},
 		{
-			actor = 407011,
+			actor = 407010,
 			nameColor = "#a9f548",
 			bgName = "bg_night",
 			side = 1,
@@ -285,7 +285,7 @@ return {
 			side = 0,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 307011,
+			actor = 307010,
 			actorName = "{namecode:91}",
 			say = "总有一天他会明白的。",
 			typewriter = {
@@ -302,7 +302,7 @@ return {
 			side = 0,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 307011,
+			actor = 307010,
 			actorName = "{namecode:91}",
 			say = "我们的存在、“圣域”、“灵魂”，还有“模具”…",
 			typewriter = {
@@ -315,7 +315,7 @@ return {
 			}
 		},
 		{
-			actor = 407011,
+			actor = 407010,
 			nameColor = "#a9f548",
 			bgName = "bg_night",
 			side = 1,
@@ -335,7 +335,7 @@ return {
 			side = 0,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 307011,
+			actor = 307010,
 			actorName = "{namecode:91}",
 			say = "呵呵…看来我也有点喝醉了呢…",
 			typewriter = {
@@ -362,7 +362,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 307011,
+			actor = 307010,
 			actorName = "{namecode:91}",
 			say = "即使如此，我也相信指挥官会爱着我……呵呵呵……",
 			typewriter = {

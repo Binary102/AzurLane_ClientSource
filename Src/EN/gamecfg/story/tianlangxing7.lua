@@ -67,7 +67,7 @@ return {
 			side = 2,
 			bgName = "bg_battle_night",
 			dir = 1,
-			actor = 205011,
+			actor = 205010,
 			nameColor = "#a9f548",
 			say = "What rubbish! They stole the limelight from my Home Fleet!",
 			typewriter = {
@@ -90,7 +90,7 @@ return {
 			}
 		},
 		{
-			actor = 205021,
+			actor = 205020,
 			side = 2,
 			bgName = "bg_battle_night",
 			nameColor = "#a9f548",
@@ -106,7 +106,7 @@ return {
 			}
 		},
 		{
-			actor = 205011,
+			actor = 205010,
 			side = 2,
 			bgName = "bg_battle_night",
 			nameColor = "#a9f548",
@@ -127,7 +127,7 @@ return {
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "story-2",
-			actor = 205021,
+			actor = 205020,
 			nameColor = "#a9f548",
 			say = "...I must admit, the anti-air capabilities of the Dido-class are a marvel to behold.",
 			flashout = {
@@ -157,7 +157,7 @@ return {
 			}
 		},
 		{
-			actor = 205021,
+			actor = 205020,
 			side = 2,
 			bgName = "bg_battle_night",
 			nameColor = "#a9f548",
@@ -219,7 +219,7 @@ return {
 			side = 2,
 			bgName = "bg_battle_night",
 			dir = 1,
-			actor = 900178,
+			actor = 202201,
 			nameColor = "#a9f548",
 			say = "My honourable Master, I have cleared the path so that you may move forward.",
 			typewriter = {
@@ -236,7 +236,7 @@ return {
 			side = 2,
 			bgName = "bg_battle_night",
 			withoutActorName = true,
-			actor = 900178,
+			actor = 202201,
 			nameColor = "#a9f548",
 			say = "Silently and elegantly, she reached her hand out to me.",
 			typewriter = {
@@ -249,7 +249,7 @@ return {
 			}
 		},
 		{
-			actor = 900178,
+			actor = 202201,
 			side = 2,
 			bgName = "bg_battle_night",
 			nameColor = "#a9f548",
@@ -269,7 +269,7 @@ return {
 			side = 2,
 			bgName = "bg_battle_night",
 			dir = 1,
-			actor = 900178,
+			actor = 202201,
 			nameColor = "#a9f548",
 			say = "Were it your wish, I would more brightly and magnificently than anyone else.",
 			typewriter = {
@@ -282,7 +282,7 @@ return {
 			}
 		},
 		{
-			actor = 900178,
+			actor = 202201,
 			side = 2,
 			bgName = "bg_battle_night",
 			nameColor = "#a9f548",

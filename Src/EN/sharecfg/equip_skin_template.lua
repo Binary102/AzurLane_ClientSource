@@ -2737,6 +2737,498 @@ pg.equip_skin_template = {
 			61504
 		}
 	},
+	[1101] = {
+		bullet_name = "yulei_ai_faku",
+		name = "Headband Torpedo",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "A torpedo with a headband reminiscent of the one Kizuna AI wears... It might even be the very one, but it's a mystery!",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		icon = "91621",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 1101,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[1102] = {
+		bullet_name = "yulei_ai_lingdai",
+		name = "Necktie Torpedo",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "You thought I'd be a formal and elegant little necktie? Sorry, I'm a torpedo!",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		icon = "91622",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 1102,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[1103] = {
+		bullet_name = "yulei_ai_yingyuan",
+		name = "Glow Stick Torpedo",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "When waving it around at a concert, be careful not to hit others around you. Warning: if you do, it will explode.",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		icon = "91623",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 1103,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[1104] = {
+		bullet_name = "zidan_ai_dachui",
+		name = "100t Hammer Shell",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "A product recommended by the Kizuna AI Home Shopping Network. Customers claim it dramatically increased their winrate.",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		icon = "91611",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 1104,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	},
+	[1105] = {
+		bullet_name = "zidan_ai_duandai",
+		name = "Ribbon Shell",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "The same ribbon as the one Kizuna AI wears... Okay, not really. I mean, it'd freakin' blow up if you bumped into something!",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		icon = "91612",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 1105,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	},
+	[1106] = {
+		bullet_name = "zidan_ai_quantao",
+		name = "Glove Shell",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "Gloves that Kizuna AI often uses while streaming. They explode when thrown. \"Fakkyu!\"",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		icon = "91613",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 1106,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	},
+	[1107] = {
+		bullet_name = "paodan_ai_1",
+		name = "Caption Shell (Hai Domo!)",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "A common greeting Kizuna AI opens her videos with. The caption somehow escaped the virtual world and became a shell.",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		icon = "91614",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 1107,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[1108] = {
+		bullet_name = "paodan_ai_2",
+		name = "Caption Shell (Guilty)",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "\"I'll deliver the judgement... GUILTY! I sentence you to 1 week of watching my videos! After that, this shell will explode!\"",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		icon = "91615",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 1108,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[1109] = {
+		bullet_name = "paodan_ai_3",
+		name = "Caption Shell (Cute)",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "Kizuna AI's favorite caption. She's said it so much that the caption took physical form! It explodes with passion and love!",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		icon = "91616",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 1109,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[1110] = {
+		bullet_name = "paodan_ai_4",
+		name = "Caption Shell (Fakkyu)",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "A caption that Kizuna AI picked up from a character in a horror game. Means nothing in particular.",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		icon = "91617",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 1110,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[1111] = {
+		bullet_name = "feiji_ai_aijiang",
+		name = "Mini-AI (Torpedo)",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "A small A.I. that was born from Kizuna AI wishing \"if only my clones could do stuff on their own.\" Go get 'em, Mini-Ai!",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		icon = "91631",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 1111,
+		derivate_torpedo = "yulei_ai_faku",
+		ship_skin_id = 0,
+		equip_type = {
+			8
+		},
+		weapon_ids = {
+			61503,
+			61504
+		}
+	},
+	[1112] = {
+		bullet_name = "feiji_ai_aijiang",
+		name = "Mini-AI (Fighter)",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "A small A.I. that was born from Kizuna AI wishing \"if only my clones could do stuff on their own.\" Go get 'em, Mini-Ai!",
+		ship_config_id = 100011,
+		derivate_boom = "paodan_ai_4",
+		icon = "91631",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 1112,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			7
+		},
+		weapon_ids = {
+			61505,
+			54010
+		}
+	},
+	[1113] = {
+		bullet_name = "feiji_ai_aijiang",
+		name = "Mini-AI (Bomber)",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "A small A.I. that was born from Kizuna AI wishing \"if only my clones could do stuff on their own.\" Go get 'em, Mini-Ai!",
+		ship_config_id = 100011,
+		derivate_boom = "paodan_ai_4",
+		icon = "91631",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 1113,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			9
+		},
+		weapon_ids = {
+			61501,
+			54014
+		}
+	},
+	[1114] = {
+		bullet_name = "feiji_ai_gamer",
+		name = "Super Gamer Mini-AI (Torpedo)",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "A small A.I. that was born from Kizuna AI wishing \"if only my clones could do stuff on their own.\" Go get 'em, Mini-Ai!",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		icon = "91632",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 1114,
+		derivate_torpedo = "yulei_ai_lingdai",
+		ship_skin_id = 0,
+		equip_type = {
+			8
+		},
+		weapon_ids = {
+			61503,
+			61504
+		}
+	},
+	[1115] = {
+		bullet_name = "feiji_ai_gamer",
+		name = "Super Gamer Mini-AI (Fighter)",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "A small A.I. that was born from Kizuna AI wishing \"if only my clones could do stuff on their own.\" Go get 'em, Mini-Ai!",
+		ship_config_id = 100011,
+		derivate_boom = "paodan_ai_1",
+		icon = "91632",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 1115,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			7
+		},
+		weapon_ids = {
+			61505,
+			54010
+		}
+	},
+	[1116] = {
+		bullet_name = "feiji_ai_gamer",
+		name = "Super Gamer Mini-AI (Bomber)",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "A small A.I. that was born from Kizuna AI wishing \"if only my clones could do stuff on their own.\" Go get 'em, Mini-Ai!",
+		ship_config_id = 100011,
+		derivate_boom = "paodan_ai_1",
+		icon = "91632",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 1116,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			9
+		},
+		weapon_ids = {
+			61501,
+			54014
+		}
+	},
+	[1117] = {
+		bullet_name = "feiji_ai_perform",
+		name = "Anniversary Mini-AI (Torpedo)",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "A small A.I. that was born from Kizuna AI wishing \"if only my clones could do stuff on their own.\" Go get 'em, Mini-Ai!",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		icon = "91633",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 1117,
+		derivate_torpedo = "yulei_ai_yingyuan",
+		ship_skin_id = 0,
+		equip_type = {
+			8
+		},
+		weapon_ids = {
+			61503,
+			61504
+		}
+	},
+	[1118] = {
+		bullet_name = "feiji_ai_perform",
+		name = "Anniversary Mini-AI (Fighter)",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "A small A.I. that was born from Kizuna AI wishing \"if only my clones could do stuff on their own.\" Go get 'em, Mini-Ai!",
+		ship_config_id = 100011,
+		derivate_boom = "paodan_ai_2",
+		icon = "91633",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 1118,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			7
+		},
+		weapon_ids = {
+			61505,
+			54010
+		}
+	},
+	[1119] = {
+		bullet_name = "feiji_ai_perform",
+		name = "Anniversary Mini-AI (Bomber)",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "A small A.I. that was born from Kizuna AI wishing \"if only my clones could do stuff on their own.\" Go get 'em, Mini-Ai!",
+		ship_config_id = 100011,
+		derivate_boom = "paodan_ai_2",
+		icon = "91633",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 1119,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			9
+		},
+		weapon_ids = {
+			61501,
+			54014
+		}
+	},
 	all = {
 		1,
 		2,
@@ -2843,7 +3335,26 @@ pg.equip_skin_template = {
 		1012,
 		1013,
 		1014,
-		1015
+		1015,
+		1101,
+		1102,
+		1103,
+		1104,
+		1105,
+		1106,
+		1107,
+		1108,
+		1109,
+		1110,
+		1111,
+		1112,
+		1113,
+		1114,
+		1115,
+		1116,
+		1117,
+		1118,
+		1119
 	}
 }
 

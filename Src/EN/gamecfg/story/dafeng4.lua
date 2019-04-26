@@ -62,7 +62,7 @@ return {
 			}
 		},
 		{
-			actor = 307071,
+			actor = 307070,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -78,7 +78,7 @@ return {
 			}
 		},
 		{
-			actor = 307051,
+			actor = 307050,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -104,7 +104,7 @@ return {
 			}
 		},
 		{
-			actor = 307051,
+			actor = 307050,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -123,7 +123,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 307051,
+			actor = 307050,
 			nameColor = "#a9f548",
 			say = "比起那位无时不刻都在散发着生人勿近气场的前·辈要好多了，呵呵呵",
 			typewriter = {
@@ -151,7 +151,7 @@ return {
 			bgName = "star_level_bg_103",
 			say = "是…{namecode:91}前辈吗——嗯？这个气味是…指挥官？",
 			dir = 1,
-			actor = 307071,
+			actor = 307070,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -167,7 +167,7 @@ return {
 			}
 		},
 		{
-			actor = 307051,
+			actor = 307050,
 			side = 1,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -186,7 +186,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 307071,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "果然是指挥官大人！呵呵呵，指挥官大人是特意来找{namecode:97}的吗？{namecode:97}好感动~",
 			typewriter = {
@@ -219,7 +219,7 @@ return {
 			}
 		},
 		{
-			actor = 307051,
+			actor = 307050,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -239,7 +239,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 307071,
+			actor = 307070,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -259,7 +259,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 307071,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "战力暂且不论，{namecode:91}前辈的战斗经验确实比{namecode:97}更多。唔……",
 			typewriter = {
@@ -272,7 +272,7 @@ return {
 			}
 		},
 		{
-			actor = 307051,
+			actor = 307050,
 			side = 1,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -292,7 +292,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 307071,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "联手？",
 			typewriter = {
@@ -305,7 +305,7 @@ return {
 			}
 		},
 		{
-			actor = 307051,
+			actor = 307050,
 			side = 1,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -325,7 +325,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 307051,
+			actor = 307050,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -351,7 +351,7 @@ return {
 			}
 		},
 		{
-			actor = 307071,
+			actor = 307070,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -367,7 +367,7 @@ return {
 			}
 		},
 		{
-			actor = 307051,
+			actor = 307050,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -387,7 +387,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 307071,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "(小声)呵呵呵，这样就算{namecode:91}前辈想要跟我抢指挥官大人，也——",
 			typewriter = {

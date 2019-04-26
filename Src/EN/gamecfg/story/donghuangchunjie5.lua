@@ -50,7 +50,7 @@ return {
 			}
 		},
 		{
-			actor = 501011,
+			actor = 501010,
 			side = 2,
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
@@ -66,7 +66,7 @@ return {
 			}
 		},
 		{
-			actor = 900172,
+			actor = 202121,
 			side = 2,
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
@@ -82,7 +82,7 @@ return {
 			}
 		},
 		{
-			actor = 501011,
+			actor = 501010,
 			side = 2,
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
@@ -98,7 +98,7 @@ return {
 			}
 		},
 		{
-			actor = 900163,
+			actor = 501031,
 			side = 2,
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
@@ -118,7 +118,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_102",
 			dir = 1,
-			actor = 900174,
+			actor = 299022,
 			nameColor = "#a9f548",
 			say = "It was the commander's suggestion. We were told to experience the Lunar New Year mood. I must say I enjoy how elegant and stylish these clothes are.",
 			typewriter = {
@@ -131,7 +131,7 @@ return {
 			}
 		},
 		{
-			actor = 900177,
+			actor = 206051,
 			side = 2,
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
@@ -147,7 +147,7 @@ return {
 			}
 		},
 		{
-			actor = 107021,
+			actor = 107020,
 			side = 2,
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
@@ -167,7 +167,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_102",
 			dir = 1,
-			actor = 900172,
+			actor = 202121,
 			nameColor = "#a9f548",
 			say = "Miss Lexington, Miss Enterprise, it is pleasant to see you again. What is that you're...?",
 			typewriter = {
@@ -180,7 +180,7 @@ return {
 			}
 		},
 		{
-			actor = 501021,
+			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
@@ -196,7 +196,7 @@ return {
 			}
 		},
 		{
-			actor = 107061,
+			actor = 107060,
 			side = 2,
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
@@ -212,7 +212,7 @@ return {
 			}
 		},
 		{
-			actor = 107021,
+			actor = 107020,
 			side = 2,
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
@@ -232,7 +232,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_102",
 			dir = 1,
-			actor = 900174,
+			actor = 299022,
 			nameColor = "#a9f548",
 			say = "That's right. Let me guess: you're also wearing them because the commander asked you to...",
 			typewriter = {
@@ -245,7 +245,7 @@ return {
 			}
 		},
 		{
-			actor = 900177,
+			actor = 206051,
 			side = 2,
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
@@ -261,7 +261,7 @@ return {
 			}
 		},
 		{
-			actor = 900172,
+			actor = 202121,
 			side = 2,
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
@@ -280,7 +280,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_102",
 			dir = 1,
-			actor = 107061,
+			actor = 107060,
 			nameColor = "#a9f548",
 			say = "I see. As for mine, Laffey and Victorious made it.",
 			effects = {
@@ -299,7 +299,7 @@ return {
 			}
 		},
 		{
-			actor = 107021,
+			actor = 107020,
 			side = 2,
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
@@ -318,7 +318,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_102",
 			dir = 1,
-			actor = 501011,
+			actor = 501010,
 			nameColor = "#a9f548",
 			say = "Since everyone's here, why don't we have a nian ye fan... Er, I mean New Year's Eve meal together?",
 			flashout = {
@@ -348,7 +348,7 @@ return {
 			}
 		},
 		{
-			actor = 900172,
+			actor = 202121,
 			side = 2,
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
@@ -368,7 +368,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_102",
 			dir = 1,
-			actor = 900172,
+			actor = 202121,
 			nameColor = "#a9f548",
 			say = "The goods we delivered also contain enough food for all of the guests. As recompense for having us, please allow us to assist you with the preparations.",
 			typewriter = {
@@ -381,7 +381,7 @@ return {
 			}
 		},
 		{
-			actor = 501011,
+			actor = 501010,
 			side = 2,
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
@@ -397,7 +397,7 @@ return {
 			}
 		},
 		{
-			actor = 900170,
+			actor = 107062,
 			side = 2,
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
@@ -417,7 +417,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_102",
 			dir = 1,
-			actor = 900171,
+			actor = 107021,
 			nameColor = "#a9f548",
 			say = "Maybe we could help prepare some of this food...",
 			typewriter = {
@@ -430,7 +430,7 @@ return {
 			}
 		},
 		{
-			actor = 501021,
+			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
@@ -451,7 +451,7 @@ return {
 			bgName = "star_level_bg_102",
 			dir = 1,
 			blackBg = true,
-			actor = 900173,
+			actor = 206042,
 			nameColor = "#a9f548",
 			say = "I can help with that too!",
 			typewriter = {

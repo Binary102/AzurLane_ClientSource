@@ -68,7 +68,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 301321,
+			actor = 301320,
 			actorName = "{namecode:33}",
 			say = "趁着没人注意，悄悄地把带来的糖果给……",
 			typewriter = {
@@ -85,7 +85,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 301321,
+			actor = 301320,
 			actorName = "{namecode:33}",
 			say = "嗯？",
 			typewriter = {
@@ -130,7 +130,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = -1,
-			actor = 312011,
+			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "{namecode:33}什么时候出现在那里的喵…？",
 			typewriter = {
@@ -148,7 +148,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 301181,
+			actor = 301180,
 			actorName = "{namecode:20}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -168,7 +168,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 900068,
+			actor = 301331,
 			actorName = "{namecode:34}",
 			say = "{namecode:33}、{namecode:33}…不是说好要穿冬天的衣服的吗…？",
 			typewriter = {
@@ -186,7 +186,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 301321,
+			actor = 301320,
 			actorName = "{namecode:33}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -206,7 +206,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 301171,
+			actor = 301170,
 			actorName = "{namecode:19}",
 			say = "看上去更像是为了一时的有趣顺口编造了奇怪的知识呢…",
 			typewriter = {
@@ -224,7 +224,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 900068,
+			actor = 301331,
 			actorName = "{namecode:34}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -245,7 +245,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			blackBg = true,
-			actor = 301321,
+			actor = 301320,
 			actorName = "{namecode:33}",
 			say = "我、我知道错了…{namecode:34}，对、对不起啦！——",
 			typewriter = {

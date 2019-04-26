@@ -51,6 +51,7 @@ function slot8.SetTemplate(slot0, slot1, slot2)
 
 	slot0._tmpData = slot1.GetMonsterTmpDataFromID(slot0._tmpID)
 
+	slot0:configWeaponQueueParallel()
 	slot0:InitCldComponent()
 	slot0:SetAttr()
 

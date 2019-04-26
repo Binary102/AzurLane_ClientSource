@@ -4,7 +4,7 @@ return {
 	once = true,
 	scripts = {
 		{
-			actor = 103081,
+			actor = 103080,
 			side = 2,
 			nameColor = "#a9f548",
 			say = "What the hell! The enemies came from the south, so why didn't Chicago tell us anything?!",
@@ -18,7 +18,7 @@ return {
 			}
 		},
 		{
-			actor = 103091,
+			actor = 103090,
 			side = 0,
 			say = "Um, when Australia came here, perhaps there was an error in delegating the next in command?",
 			nameColor = "#a9f548",
@@ -36,7 +36,7 @@ return {
 			}
 		},
 		{
-			actor = 103081,
+			actor = 103080,
 			side = 1,
 			nameColor = "#a9f548",
 			say = "Dele... gation? What does that mean?",
@@ -50,7 +50,7 @@ return {
 			}
 		},
 		{
-			actor = 103101,
+			actor = 103100,
 			side = 1,
 			nameColor = "#a9f548",
 			say = "Sounds... \"dele\"...cious...?",
@@ -64,7 +64,7 @@ return {
 			}
 		},
 		{
-			actor = 103091,
+			actor = 103090,
 			side = 0,
 			nameColor = "#a9f548",
 			say = "Now's not the time to explain... We have to assume the worst case scenario - that Chicago's forces were taken out before they had a chance to react...",
@@ -78,7 +78,7 @@ return {
 			}
 		},
 		{
-			actor = 103091,
+			actor = 103090,
 			side = 0,
 			nameColor = "#a9f548",
 			say = "For the time being, I'll issue an alarm to mobilize all our forces, but I don't think reinforcements are going to be able to make it.",
@@ -92,7 +92,7 @@ return {
 			}
 		},
 		{
-			actor = 103081,
+			actor = 103080,
 			side = 1,
 			nameColor = "#a9f548",
 			say = "You don't need to explain that to me! The enemy's right in front of our eyes!",
@@ -106,7 +106,7 @@ return {
 			}
 		},
 		{
-			actor = 103081,
+			actor = 103080,
 			side = 1,
 			nameColor = "#a9f548",
 			say = "Quincy, Vincennes, stay on your guard!",
@@ -122,14 +122,14 @@ return {
 		{
 			actorName = "Quincy & Vincennes",
 			side = 0,
-			actor = 103091,
+			actor = 103090,
 			dir = 1,
 			hideOther = true,
 			nameColor = "#a9f548",
 			say = "Roger that!",
 			subActors = {
 				{
-					actor = 103101,
+					actor = 103100,
 					dir = -1,
 					pos = {
 						x = 750

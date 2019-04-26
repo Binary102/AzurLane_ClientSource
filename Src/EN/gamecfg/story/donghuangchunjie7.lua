@@ -20,7 +20,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 900164,
+			actor = 501041,
 			nameColor = "#a9f548",
 			say = "Unf... Flipping the light switch doesn't do anything... I think the breaker has tripped.",
 			flashout = {
@@ -50,7 +50,7 @@ return {
 			}
 		},
 		{
-			actor = 900169,
+			actor = 101173,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -70,7 +70,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 900172,
+			actor = 202121,
 			nameColor = "#a9f548",
 			say = "I hear something...! I believe there is something down the hallway, drawing closer.",
 			typewriter = {
@@ -87,7 +87,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 900170,
+			actor = 107062,
 			nameColor = "#a9f548",
 			say = "I think there is something at the end of the hallway...",
 			typewriter = {
@@ -100,7 +100,7 @@ return {
 			}
 		},
 		{
-			actor = 501011,
+			actor = 501010,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -116,7 +116,7 @@ return {
 			}
 		},
 		{
-			actor = 501021,
+			actor = 501020,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -135,7 +135,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 501021,
+			actor = 501020,
 			nameColor = "#a9f548",
 			say = "Goooo! ...Wait, did something just...?",
 			typewriter = {
@@ -181,7 +181,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 501021,
+			actor = 501020,
 			nameColor = "#a9f548",
 			say = "Oh my gooooosh! Stop, don't explode!",
 			typewriter = {
@@ -274,7 +274,7 @@ return {
 			bgName = "star_level_bg_102",
 			dir = 1,
 			bgm = "main-chunjie",
-			actor = 501021,
+			actor = 501020,
 			nameColor = "#a9f548",
 			say = "Agh... How could I fail at the very, very end... This sucks...",
 			typewriter = {
@@ -299,7 +299,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_102",
 			dir = 1,
-			actor = 900164,
+			actor = 501041,
 			nameColor = "#a9f548",
 			say = "F-Fu Shun?! Are you hurt?!",
 			typewriter = {
@@ -325,7 +325,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_102",
 			dir = 1,
-			actor = 501011,
+			actor = 501010,
 			nameColor = "#a9f548",
 			say = "*Cough, cough*... Not again, Fu Shun! You'd better be prepared for your punishment after trying to do something this stupid! ...Wait, huh?",
 			typewriter = {
@@ -348,7 +348,7 @@ return {
 			}
 		},
 		{
-			actor = 900163,
+			actor = 501031,
 			side = 2,
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
@@ -364,7 +364,7 @@ return {
 			}
 		},
 		{
-			actor = 900170,
+			actor = 107062,
 			side = 2,
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
@@ -384,7 +384,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_102",
 			dir = 1,
-			actor = 900171,
+			actor = 107021,
 			nameColor = "#a9f548",
 			say = "Oh dear, you've been very naughty, Fu Shun. But it was still surprisingly good entertainment.",
 			typewriter = {
@@ -397,7 +397,7 @@ return {
 			}
 		},
 		{
-			actor = 501021,
+			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
@@ -417,7 +417,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_102",
 			dir = 1,
-			actor = 900167,
+			actor = 301054,
 			nameColor = "#a9f548",
 			say = "...Yes, you should look in the mirror.",
 			typewriter = {
@@ -433,7 +433,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_102",
 			dir = 1,
-			actor = 501021,
+			actor = 501020,
 			nameColor = "#a9f548",
 			say = "Aha, ahahaha... I'm a mess...",
 			typewriter = {
@@ -456,7 +456,7 @@ return {
 			}
 		},
 		{
-			actor = 501011,
+			actor = 501010,
 			side = 2,
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
@@ -476,7 +476,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_102",
 			dir = 1,
-			actor = 900172,
+			actor = 202121,
 			nameColor = "#a9f548",
 			say = "This is a rather amusing turn of events, ahaha~",
 			typewriter = {
@@ -492,7 +492,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_102",
 			dir = 1,
-			actor = 501021,
+			actor = 501020,
 			nameColor = "#a9f548",
 			say = "Kay, I'm done washing my face~",
 			flashout = {
@@ -522,7 +522,7 @@ return {
 			}
 		},
 		{
-			actor = 900172,
+			actor = 202121,
 			side = 2,
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
@@ -542,7 +542,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_102",
 			dir = 1,
-			actor = 900170,
+			actor = 107062,
 			nameColor = "#a9f548",
 			say = "Yeah, go ahead. It's all thanks to the commander that we got to have this nice night together. We have to express our thanks.",
 			typewriter = {
@@ -555,7 +555,7 @@ return {
 			}
 		},
 		{
-			actor = 501021,
+			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
@@ -571,7 +571,7 @@ return {
 			}
 		},
 		{
-			actor = 900167,
+			actor = 301054,
 			side = 2,
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
@@ -591,7 +591,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_102",
 			dir = 1,
-			actor = 900171,
+			actor = 107021,
 			nameColor = "#a9f548",
 			say = "Ahaha, then may I suggest we have an afterparty in the commander's office?",
 			typewriter = {
@@ -620,7 +620,7 @@ return {
 			}
 		},
 		{
-			actor = 501021,
+			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",

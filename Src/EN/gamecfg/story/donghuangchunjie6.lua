@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "main-chunjie",
-			actor = 501011,
+			actor = 501010,
 			nameColor = "#a9f548",
 			say = "Now then, my dear guests, I hope you'll enjoy the food! We have seconds if you want more!",
 			flashout = {
@@ -52,7 +52,7 @@ return {
 			}
 		},
 		{
-			actor = 501021,
+			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
@@ -68,7 +68,7 @@ return {
 			}
 		},
 		{
-			actor = 900163,
+			actor = 501031,
 			side = 2,
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
@@ -84,7 +84,7 @@ return {
 			}
 		},
 		{
-			actor = 900164,
+			actor = 501041,
 			side = 2,
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
@@ -104,7 +104,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_102",
 			dir = 1,
-			actor = 900173,
+			actor = 206042,
 			nameColor = "#a9f548",
 			say = "When there's this much food on the table, it becomes hard to choose which to eat first... Ah, something on your mind, Enterprise?",
 			typewriter = {
@@ -121,7 +121,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_102",
 			dir = 1,
-			actor = 900170,
+			actor = 107062,
 			nameColor = "#a9f548",
 			say = "...Oh, I just thinking about how nice it is that we're all here in one place... All around the same table, having such a good time.",
 			typewriter = {
@@ -138,7 +138,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_102",
 			dir = 1,
-			actor = 900171,
+			actor = 107021,
 			nameColor = "#a9f548",
 			say = "Aha, festivities like these make me want to sing~ But perhaps today, the food matters more.",
 			typewriter = {
@@ -151,7 +151,7 @@ return {
 			}
 		},
 		{
-			actor = 900169,
+			actor = 101173,
 			side = 2,
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
@@ -171,7 +171,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_102",
 			dir = 1,
-			actor = 900167,
+			actor = 301054,
 			nameColor = "#a9f548",
 			say = "Laffey, you're supposed to hold the chopsticks like this, then pick up the food with it.",
 			typewriter = {
@@ -188,7 +188,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_102",
 			dir = 1,
-			actor = 900172,
+			actor = 202121,
 			nameColor = "#a9f548",
 			say = "There are quite a few foods here that I think could easily be added to the Royal Navy menu to help give it a little variety.",
 			typewriter = {
@@ -205,7 +205,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_102",
 			dir = 1,
-			actor = 900164,
+			actor = 501041,
 			nameColor = "#a9f548",
 			say = "...It doesn't look like the commander made it in time to eat with us...",
 			typewriter = {
@@ -218,7 +218,7 @@ return {
 			}
 		},
 		{
-			actor = 501021,
+			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
@@ -234,7 +234,7 @@ return {
 			}
 		},
 		{
-			actor = 900177,
+			actor = 206051,
 			side = 2,
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
@@ -250,7 +250,7 @@ return {
 			}
 		},
 		{
-			actor = 900172,
+			actor = 202121,
 			side = 2,
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
@@ -270,7 +270,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 501021,
+			actor = 501020,
 			nameColor = "#a9f548",
 			say = "Whew, I'm stuffed! Yat Sen's homemade food deserves 5 stars! Now it's time for... Heheheh...",
 			flashout = {
@@ -304,7 +304,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgName = "star_level_bg_102",
-			actor = 900169,
+			actor = 101173,
 			nameColor = "#a9f548",
 			say = "I'm totally stuffed... and when I get stuffed, I get sleepy...",
 			flashout = {
@@ -338,7 +338,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_102",
 			dir = 1,
-			actor = 900170,
+			actor = 107062,
 			nameColor = "#a9f548",
 			say = "If everyone's had their fill, what do you say we have a Momopoly showdown, Royal ladies? Maybe we should give you a handicap too, since this game was made in the Union?",
 			typewriter = {
@@ -355,7 +355,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_102",
 			dir = 1,
-			actor = 900174,
+			actor = 299022,
 			nameColor = "#a9f548",
 			say = "Are you challenging me? Then come! My unrivalled excellence shall be proven to you on this board!",
 			typewriter = {
@@ -372,7 +372,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_102",
 			dir = 1,
-			actor = 900171,
+			actor = 107021,
 			nameColor = "#a9f548",
 			say = "Sounds interesting. May I play as well?",
 			typewriter = {
@@ -389,7 +389,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 900173,
+			actor = 206042,
 			nameColor = "#a9f548",
 			say = "Eek! T-the lights just went off...",
 			typewriter = {
@@ -402,7 +402,7 @@ return {
 			}
 		},
 		{
-			actor = 900163,
+			actor = 501031,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -444,7 +444,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 900172,
+			actor = 202121,
 			nameColor = "#a9f548",
 			say = "That noise...",
 			typewriter = {
@@ -457,7 +457,7 @@ return {
 			}
 		},
 		{
-			actor = 900169,
+			actor = 101173,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -473,7 +473,7 @@ return {
 			}
 		},
 		{
-			actor = 501011,
+			actor = 501010,
 			side = 2,
 			dir = 1,
 			blackBg = true,

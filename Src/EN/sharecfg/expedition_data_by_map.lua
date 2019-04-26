@@ -2550,6 +2550,88 @@ pg.expedition_data_by_map = {
 			}
 		}
 	},
+	[1220001] = {
+		map = 1220001,
+		name = "Virtual Link Synchronicity|| ||CHAPTER EX||E.X.",
+		bgm = "ai-fb-inst",
+		type = 4,
+		on_activity = 30118,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "AIGUANQIA2",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "Map_1210001",
+		cloud_suffix = "",
+		bg = "map_1210001",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 0,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1220021] = {
+		map = 1220021,
+		name = "Virtual Link Synchronicity·EX|| ||CHAPTER EX||E.X.",
+		bgm = "ai-fb-inst",
+		type = 8,
+		on_activity = 30118,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "Map_1210001",
+		cloud_suffix = "",
+		bg = "map_1210001",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1220001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -2608,7 +2690,9 @@ pg.expedition_data_by_map = {
 		1190001,
 		1190010,
 		1190011,
-		1190021
+		1190021,
+		1220001,
+		1220021
 	}
 }
 

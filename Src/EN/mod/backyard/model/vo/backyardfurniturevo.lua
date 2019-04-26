@@ -39,6 +39,22 @@ function slot0.Ctor(slot0, slot1)
 	slot0.stageShips = {}
 end
 
+function slot0.hasChild(slot0)
+	return table.getCount(slot0.child) > 0
+end
+
+function slot0.existVoice(slot0)
+	if slot0:isShowDesc() then
+		return slot0:getConfig("can_trigger")[2] ~= nil
+	end
+end
+
+function slot0.getVoice(slot0)
+	if slot0:existVoice() then
+		return slot0:getConfig("can_trigger")[2]
+	end
+end
+
 function slot0.getShipExtra(slot0)
 	return slot0.spineExtra
 end
@@ -699,7 +715,7 @@ function slot0.isConflictPos(slot0, slot1)
 end
 
 function slot0.isShowDesc(slot0)
-	return slot0:getConfig("can_trigger") == 1
+	return #slot0:getConfig("can_trigger") > 0 and slot1[1] == 1
 end
 
 function slot0.isTouchSpine(slot0)
@@ -762,6 +778,24 @@ function slot0.getAnimatorData(slot0)
 	if slot0:hasAnimator() then
 		return slot0:getConfig("animator")[1]
 	end
+end
+
+function slot0.getAnimtorControlName(slot0, slot1)
+	slot2 = {}
+
+	if slot0:hasAnimator() then
+		if type(slot0:getConfig("animator")[1][slot1] or slot3[1] or {}) == "string" then
+			table.insert(slot2, slot4)
+		else
+			slot2 = slot4
+		end
+	end
+
+	return slot2
+end
+
+function slot0.getAnimtorControlGoName(slot0, slot1, slot2)
+	return "Animator" .. slot1 .. slot2
 end
 
 function slot0.isArch(slot0)

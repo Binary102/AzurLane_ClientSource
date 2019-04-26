@@ -22,7 +22,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			bgm = "story-1",
-			actor = 301164,
+			actor = 301160,
 			actorName = "{namecode:22}",
 			say = "Wa ha ha ha! So you want Yukikaze the Great to be your secretary. You've chosen well!",
 			typewriter = {
@@ -54,7 +54,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 301164,
+			actor = 301160,
 			actorName = "{namecode:22}",
 			say = "Heh. Surely this is because you've heard of my many feats!",
 			typewriter = {
@@ -76,7 +76,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 201214,
+			actor = 201210,
 			nameColor = "#a9f548",
 			say = "Zed, I don't quite get this question~",
 			flashout = {
@@ -120,7 +120,7 @@ return {
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 401234,
+			actor = 401230,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -140,7 +140,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 301164,
+			actor = 301160,
 			actorName = "{namecode:22}",
 			say = "Hmph! You two seriously can't solve an easy question like this? I can figure out the answer just by glancing at it!",
 			typewriter = {
@@ -165,7 +165,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			actorName = "{namecode:67}",
-			actor = 303124,
+			actor = 303120,
 			nameColor = "#a9f548",
 			say = "I've been having trouble trying to do maintenance on my equipment, since I can't really see from this angle... Yuki~ could you lend me a hand?",
 			flashout = {
@@ -199,7 +199,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 301164,
+			actor = 301160,
 			actorName = "{namecode:22}",
 			say = "Uhh.... Huh?? *bonk!*",
 			typewriter = {
@@ -224,7 +224,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = -1,
-			actor = 303114,
+			actor = 303110,
 			actorName = "{namecode:66}",
 			say = "W-what?! She managed to fix it so easily! I am truly humbled by her ability to use her head...",
 			typewriter = {
@@ -251,7 +251,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 301164,
+			actor = 301160,
 			actorName = "{namecode:22}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -271,7 +271,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			actorName = "{namecode:98}",
-			actor = 312014,
+			actor = 312010,
 			nameColor = "#a9f548",
 			say = "I'm so glad you came, Yukikaze! You've managed to find all the supplies that I lost, nya!",
 			flashout = {
@@ -306,7 +306,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 301164,
+			actor = 301160,
 			actorName = "{namecode:22}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -334,7 +334,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			actorName = "{namecode:22}",
-			actor = 301164,
+			actor = 301160,
 			nameColor = "#a9f548",
 			say = "Hmph! Now, you understand the true power of Yukikaze the Great! Please continue count on me in the future!",
 			flashout = {
@@ -385,7 +385,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			blackBg = true,
-			actor = 301164,
+			actor = 301160,
 			actorName = "{namecode:22}",
 			say = "What?! Make a cup of tea for you...?! Do you think Yukikaze the Great is some kind of errand girl...?",
 			typewriter = {

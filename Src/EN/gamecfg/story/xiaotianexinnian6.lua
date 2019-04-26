@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "main-newyear",
-			actor = 900156,
+			actor = 301601,
 			nameColor = "#a9f548",
 			say = "Wow! Soba and zouni! Finally we get to have dinner!",
 			flashout = {
@@ -52,7 +52,7 @@ return {
 			}
 		},
 		{
-			actor = 900154,
+			actor = 205062,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -72,7 +72,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 900154,
+			actor = 205062,
 			nameColor = "#a9f548",
 			say = "Mm...! What a peculiar texture! It's so soft, yet hard to actually chew...",
 			typewriter = {
@@ -95,7 +95,7 @@ return {
 			}
 		},
 		{
-			actor = 900151,
+			actor = 101263,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -111,7 +111,7 @@ return {
 			}
 		},
 		{
-			actor = 900160,
+			actor = 201103,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -127,7 +127,7 @@ return {
 			}
 		},
 		{
-			actor = 900158,
+			actor = 102141,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -143,7 +143,7 @@ return {
 			}
 		},
 		{
-			actor = 900157,
+			actor = 102051,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -163,7 +163,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 900155,
+			actor = 102132,
 			nameColor = "#a9f548",
 			say = "Relax and don't think about it too much, Helena. Cleveland's a strong girl, she's not one to get hurt like that.",
 			typewriter = {
@@ -180,7 +180,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 900157,
+			actor = 102051,
 			nameColor = "#a9f548",
 			say = "But...",
 			typewriter = {
@@ -196,7 +196,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 102091,
+			actor = 102090,
 			nameColor = "#a9f548",
 			say = "Yo! I'm back!",
 			typewriter = {
@@ -223,7 +223,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 900155,
+			actor = 102132,
 			nameColor = "#a9f548",
 			say = "Hahah, see? I told you she'd be fine. Good timing, Cleveland! You know, apparently this \"soba\" thing tastes better while it's still warm.",
 			typewriter = {
@@ -236,7 +236,7 @@ return {
 			}
 		},
 		{
-			actor = 102091,
+			actor = 102090,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -252,7 +252,7 @@ return {
 			}
 		},
 		{
-			actor = 900156,
+			actor = 301601,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -268,7 +268,7 @@ return {
 			}
 		},
 		{
-			actor = 102091,
+			actor = 102090,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -287,7 +287,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 900064,
+			actor = 307031,
 			nameColor = "#a9f548",
 			say = "It seems like everyone, regardless of their faction, has gotten intimately familiar with the kotatsu.",
 			flashout = {
@@ -317,7 +317,7 @@ return {
 			}
 		},
 		{
-			actor = 900063,
+			actor = 312011,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -336,7 +336,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 900063,
+			actor = 312011,
 			nameColor = "#a9f548",
 			say = "Oh! I forgot to give you all your New Year's cards nya!",
 			typewriter = {
@@ -359,7 +359,7 @@ return {
 			}
 		},
 		{
-			actor = 900064,
+			actor = 307031,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -379,7 +379,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 900160,
+			actor = 201103,
 			nameColor = "#a9f548",
 			say = "Is this a flower...? How cute! Thank you so much!",
 			typewriter = {
@@ -406,7 +406,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 900157,
+			actor = 102051,
 			nameColor = "#a9f548",
 			say = "This is a picture of... ah, it's a blue bird which symbolizes happiness! Thank you. I will treasure it.",
 			typewriter = {
@@ -423,7 +423,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 900151,
+			actor = 101263,
 			nameColor = "#a9f548",
 			say = "Sparkle... cute. Like.",
 			typewriter = {
@@ -436,7 +436,7 @@ return {
 			}
 		},
 		{
-			actor = 900158,
+			actor = 102141,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -452,7 +452,7 @@ return {
 			}
 		},
 		{
-			actor = 102091,
+			actor = 102090,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -473,7 +473,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			blackBg = true,
-			actor = 900158,
+			actor = 102141,
 			nameColor = "#a9f548",
 			say = "N-no, it's fine! T-this works too... (Blushes)",
 			typewriter = {

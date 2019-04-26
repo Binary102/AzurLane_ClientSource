@@ -34,7 +34,7 @@ return {
 			}
 		},
 		{
-			actor = 303091,
+			actor = 303090,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -49,7 +49,7 @@ return {
 			}
 		},
 		{
-			actor = 304051,
+			actor = 304050,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -68,7 +68,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = -1,
-			actor = 304051,
+			actor = 304050,
 			say = "If we make it back to port, we have to think of some countermeasures... and develop new equipment to combat this threat... *cough* *cough*",
 			typewriter = {
 				speed = 0.05,
@@ -97,7 +97,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			actor = 305071,
+			actor = 305070,
 			say = "Amagi, you-",
 			typewriter = {
 				speed = 0.05,
@@ -113,7 +113,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = -1,
-			actor = 304051,
+			actor = 304050,
 			say = "Time is running out. We have got to get you out of...",
 			typewriter = {
 				speed = 0.05,
@@ -154,7 +154,7 @@ return {
 			expression = 2,
 			side = 2,
 			dir = 1,
-			actor = 305071,
+			actor = 305070,
 			nameColor = "#a9f548",
 			say = "Hey! Amagi! Pull yourself together!",
 			typewriter = {
@@ -180,7 +180,7 @@ return {
 			expression = 2,
 			side = 2,
 			dir = 1,
-			actor = 305071,
+			actor = 305070,
 			nameColor = "#a9f548",
 			say = "Amagi!!",
 			typewriter = {
@@ -279,7 +279,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = -1,
-			actor = 304051,
+			actor = 304050,
 			say = "*cough* ... You fool... why didn't you dodge...?",
 			typewriter = {
 				speed = 0.05,
@@ -291,7 +291,7 @@ return {
 			}
 		},
 		{
-			actor = 305071,
+			actor = 305070,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -369,7 +369,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			actor = 305071,
+			actor = 305070,
 			say = "...Gah! Persistent bastards!",
 			typewriter = {
 				speed = 0.05,
@@ -397,7 +397,7 @@ return {
 			expression = 2,
 			side = 2,
 			dir = 1,
-			actor = 305071,
+			actor = 305070,
 			nameColor = "#a9f548",
 			say = "At this rate, we're all going to be wiped out! What should I do?!",
 			typewriter = {
@@ -424,7 +424,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			actor = 305071,
+			actor = 305070,
 			say = "Amagi, surely you don't plan to lose here!",
 			typewriter = {
 				speed = 0.05,
@@ -440,7 +440,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = -1,
-			actor = 304051,
+			actor = 304050,
 			say = "Just... a little more...",
 			typewriter = {
 				speed = 0.05,
@@ -455,7 +455,7 @@ return {
 			expression = 2,
 			side = 2,
 			dir = 1,
-			actor = 305071,
+			actor = 305070,
 			nameColor = "#a9f548",
 			say = "What? A little more what? Amagi!",
 			typewriter = {
@@ -495,7 +495,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 305071,
+			actor = 305070,
 			nameColor = "#a9f548",
 			say = "You should never have come here... I alone should bear the consequences for my mistakes...",
 			typewriter = {
@@ -553,7 +553,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = -1,
-			actor = 304051,
+			actor = 304050,
 			say = "*cough* *cough* Looks like... they made it in time...",
 			typewriter = {
 				speed = 0.05,
@@ -595,7 +595,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			actor = 305071,
+			actor = 305070,
 			say = "What... are these?",
 			typewriter = {
 				speed = 0.05,
@@ -607,7 +607,7 @@ return {
 			}
 		},
 		{
-			actor = 304051,
+			actor = 304050,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -622,7 +622,7 @@ return {
 			}
 		},
 		{
-			actor = 304051,
+			actor = 304050,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -641,7 +641,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			actor = 305071,
+			actor = 305070,
 			say = "But... how did they manage to find us?",
 			typewriter = {
 				speed = 0.05,
@@ -657,7 +657,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = -1,
-			actor = 304051,
+			actor = 304050,
 			say = "Well, before this even began, I told Houshou... if a recon plane was lost, to immediately scramble her fighters in that direction...",
 			typewriter = {
 				speed = 0.05,
@@ -673,7 +673,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = -1,
-			actor = 304051,
+			actor = 304050,
 			say = "We have to use every resource at our disposal... after all, we aren't the only ones with carriers... the Sirens too...",
 			typewriter = {
 				speed = 0.05,
@@ -685,7 +685,7 @@ return {
 			}
 		},
 		{
-			actor = 305071,
+			actor = 305070,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -710,7 +710,7 @@ return {
 			}
 		},
 		{
-			actor = 305071,
+			actor = 305070,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -725,7 +725,7 @@ return {
 			}
 		},
 		{
-			actor = 305071,
+			actor = 305070,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,

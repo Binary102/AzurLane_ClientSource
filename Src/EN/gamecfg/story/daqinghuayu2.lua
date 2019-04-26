@@ -59,7 +59,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "一，二——！",
 			typewriter = {
@@ -91,14 +91,14 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			bgName = "bg_story_nepu1",
-			actor = 308021,
+			actor = 308020,
 			dir = 1,
 			hideOther = true,
 			actorName = "伊26&鲦鱼",
 			say = "一，二——！",
 			subActors = {
 				{
-					actor = 108011,
+					actor = 108010,
 					pos = {
 						x = 750
 					}
@@ -133,7 +133,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "三，四——！",
 			typewriter = {
@@ -165,14 +165,14 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			bgName = "bg_story_nepu1",
-			actor = 408011,
+			actor = 408010,
 			dir = 1,
 			hideOther = true,
 			actorName = "U81&伊19",
 			say = "三，四~",
 			subActors = {
 				{
-					actor = 308011,
+					actor = 308010,
 					pos = {
 						x = 750
 					}
@@ -207,7 +207,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "五，六——！",
 			typewriter = {
@@ -239,14 +239,14 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			bgName = "bg_story_nepu1",
-			actor = 308031,
+			actor = 308030,
 			dir = 1,
 			hideOther = true,
 			actorName = "伊58&U557",
 			say = "五，六……",
 			subActors = {
 				{
-					actor = 408031,
+					actor = 408030,
 					pos = {
 						x = 750
 					}
@@ -288,7 +288,7 @@ return {
 			}
 		},
 		{
-			actor = 108021,
+			actor = 108020,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -307,7 +307,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "先这样，再像这样……",
 			typewriter = {
@@ -335,7 +335,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "好的！这样一来“潜水前热身体操”就全部完成了呢！",
 			flashout = {
@@ -369,7 +369,7 @@ return {
 			side = 0,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 308021,
+			actor = 308020,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -385,7 +385,7 @@ return {
 			}
 		},
 		{
-			actor = 308031,
+			actor = 308030,
 			side = 0,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -401,7 +401,7 @@ return {
 			}
 		},
 		{
-			actor = 108021,
+			actor = 108020,
 			side = 1,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -417,7 +417,7 @@ return {
 			}
 		},
 		{
-			actor = 408011,
+			actor = 408010,
 			side = 0,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -433,7 +433,7 @@ return {
 			}
 		},
 		{
-			actor = 108021,
+			actor = 108020,
 			side = 1,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -452,7 +452,7 @@ return {
 			side = 1,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "那下次就让我说服她一起来吧！",
 			typewriter = {
@@ -475,7 +475,7 @@ return {
 			}
 		},
 		{
-			actor = 408031,
+			actor = 408030,
 			side = 0,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -495,7 +495,7 @@ return {
 			side = 1,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "啊，放心吧！我的话一定没问题的！",
 			typewriter = {

@@ -4,7 +4,7 @@ return {
 	once = true,
 	scripts = {
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 2,
 			dir = -1,
 			say = "Hehehe, looks like {namecode:98} will win for sure~",
@@ -18,7 +18,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 2,
 			dir = -1,
 			say = "Just in case, let’s test these out some more!",
@@ -32,7 +32,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 2,
 			dir = -1,
 			say = "{namecode:98} has prepared everything, {namecode:20}, it's time for you to pay the bill!",

@@ -50,7 +50,7 @@ return {
 			}
 		},
 		{
-			actor = 205021,
+			actor = 205020,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -66,7 +66,7 @@ return {
 			}
 		},
 		{
-			actor = 205021,
+			actor = 205020,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -82,7 +82,7 @@ return {
 			}
 		},
 		{
-			actor = 205021,
+			actor = 205020,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -98,7 +98,7 @@ return {
 			}
 		},
 		{
-			actor = 205021,
+			actor = 205020,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -114,7 +114,7 @@ return {
 			}
 		},
 		{
-			actor = 205021,
+			actor = 205020,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -130,7 +130,7 @@ return {
 			}
 		},
 		{
-			actor = 205021,
+			actor = 205020,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -146,7 +146,7 @@ return {
 			}
 		},
 		{
-			actor = 205021,
+			actor = 205020,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -162,7 +162,7 @@ return {
 			}
 		},
 		{
-			actor = 205021,
+			actor = 205020,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -178,7 +178,7 @@ return {
 			}
 		},
 		{
-			actor = 205021,
+			actor = 205020,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -197,7 +197,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 205021,
+			actor = 205020,
 			nameColor = "#a9f548",
 			say = "（不、不能因为这点小事就麻烦指挥官，这里我一个人也能解决！）",
 			typewriter = {
@@ -220,7 +220,7 @@ return {
 			}
 		},
 		{
-			actor = 205021,
+			actor = 205020,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -239,7 +239,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 205021,
+			actor = 205020,
 			nameColor = "#a9f548",
 			say = "哈啊！",
 			typewriter = {
@@ -262,7 +262,7 @@ return {
 			}
 		},
 		{
-			actor = 205021,
+			actor = 205020,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -278,7 +278,7 @@ return {
 			}
 		},
 		{
-			actor = 205021,
+			actor = 205020,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -312,7 +312,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 205021,
+			actor = 205020,
 			nameColor = "#a9f548",
 			say = "糟了！！！",
 			typewriter = {
@@ -335,7 +335,7 @@ return {
 			}
 		},
 		{
-			actor = 205021,
+			actor = 205020,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -351,7 +351,7 @@ return {
 			}
 		},
 		{
-			actor = 205021,
+			actor = 205020,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -367,7 +367,7 @@ return {
 			}
 		},
 		{
-			actor = 205021,
+			actor = 205020,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -386,7 +386,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 205021,
+			actor = 205020,
 			nameColor = "#a9f548",
 			say = "别，别笑了啊！",
 			typewriter = {
@@ -412,7 +412,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 205021,
+			actor = 205020,
 			nameColor = "#a9f548",
 			say = "(是、是不是老老实实让指挥官帮忙比较好呢……）",
 			typewriter = {

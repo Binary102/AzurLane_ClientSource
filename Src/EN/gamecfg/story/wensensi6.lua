@@ -63,7 +63,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 103091,
+			actor = 103090,
 			nameColor = "#a9f548",
 			say = "First, let's talk about organizing the documents. In order to be of assistance to the commander, you'll first have to quickly understand what kind of document you're working with...",
 			flashout = {
@@ -93,7 +93,7 @@ return {
 			}
 		},
 		{
-			actor = 103101,
+			actor = 103100,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -109,7 +109,7 @@ return {
 			}
 		},
 		{
-			actor = 103091,
+			actor = 103090,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -125,7 +125,7 @@ return {
 			}
 		},
 		{
-			actor = 103091,
+			actor = 103090,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -141,7 +141,7 @@ return {
 			}
 		},
 		{
-			actor = 103091,
+			actor = 103090,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -157,7 +157,7 @@ return {
 			}
 		},
 		{
-			actor = 103101,
+			actor = 103100,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -173,7 +173,7 @@ return {
 			}
 		},
 		{
-			actor = 103091,
+			actor = 103090,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -192,7 +192,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 103081,
+			actor = 103080,
 			nameColor = "#a9f548",
 			say = "Nnnnngh... What should I teach...? Ah, I'll tell you all about what Commander likes to eat!",
 			flashout = {
@@ -225,7 +225,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 103081,
+			actor = 103080,
 			nameColor = "#a9f548",
 			say = "You also have to make sure Commander is in top condition at all times!",
 			typewriter = {
@@ -251,7 +251,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 103101,
+			actor = 103100,
 			nameColor = "#a9f548",
 			say = "Got it!",
 			typewriter = {
@@ -277,7 +277,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 103131,
+			actor = 103130,
 			nameColor = "#a9f548",
 			say = "I'll teach you how to hunt! Wait... how did I get dragged into this?",
 			flashout = {
@@ -311,7 +311,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 103091,
+			actor = 103090,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -330,7 +330,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 103131,
+			actor = 103130,
 			nameColor = "#a9f548",
 			say = "But New Orleans herself didn't bother to show up... Oh well, if I'm not needed here, s'pose I'll head back!",
 			typewriter = {

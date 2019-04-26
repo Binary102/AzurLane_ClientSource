@@ -50,7 +50,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "Phew, I'm a bit sore from walking so much today~ Commander, come give me a foot rub~ Hehe~♪",
 			typewriter = {
@@ -73,7 +73,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "Hahaha~ Commander, it tickles~♪",
 			typewriter = {
@@ -100,7 +100,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "However, if you use the same strength every time, it won't feel fresh after a while~ Hehe, I'd get bored~",
 			typewriter = {
@@ -117,7 +117,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "Eating the same thing that someone else made every day... who is to say that won't get stale as well? What do you think?",
 			typewriter = {
@@ -144,7 +144,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "For me, ever since Dunkirk's Sugar Alliance meeting, I've been thinking...",
 			typewriter = {
@@ -161,7 +161,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "I can't always be imposing on Dunkirk. Plus, I'd get tired of eating the same thing~",
 			typewriter = {
@@ -178,7 +178,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "How about this~ I'll learn to make sweets as well, and then Commander can try some!",
 			typewriter = {
@@ -208,7 +208,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 102011,
+			actor = 102010,
 			nameColor = "#a9f548",
 			say = "Woah, seeing Concord this motivated makes me proud!",
 			flashout = {
@@ -238,7 +238,7 @@ return {
 			}
 		},
 		{
-			actor = 102021,
+			actor = 102020,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -254,7 +254,7 @@ return {
 			}
 		},
 		{
-			actor = 102021,
+			actor = 102020,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -274,7 +274,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "I already told you! I'm super serious this time!",
 			typewriter = {
@@ -297,7 +297,7 @@ return {
 			}
 		},
 		{
-			actor = 102021,
+			actor = 102020,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -313,7 +313,7 @@ return {
 			}
 		},
 		{
-			actor = 102011,
+			actor = 102010,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -333,7 +333,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "Eheh~ You'll all be conquered by my sweets!",
 			typewriter = {
@@ -346,7 +346,7 @@ return {
 			}
 		},
 		{
-			actor = 102181,
+			actor = 102180,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -367,7 +367,7 @@ return {
 			bgName = "bg_story_room",
 			withoutActorName = true,
 			blackBg = true,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "Concord's eyes burned bright with determination.",
 			typewriter = {

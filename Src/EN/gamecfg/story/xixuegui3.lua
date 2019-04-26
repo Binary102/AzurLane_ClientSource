@@ -50,7 +50,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 900093,
+			actor = 201232,
 			nameColor = "#a9f548",
 			say = "哼，什么嘛，人家明明是看他平时工作那么辛苦，才想要用护士装来好好让他放松一下的。",
 			typewriter = {
@@ -67,7 +67,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 900093,
+			actor = 201232,
 			nameColor = "#a9f548",
 			say = "指挥官这个大笨蛋，大傻瓜，大木头，人家再也不理你了！",
 			typewriter = {
@@ -94,7 +94,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 900093,
+			actor = 201232,
 			nameColor = "#a9f548",
 			say = "人家还特意去学习了护理的知识呢，哼，看人家把大家照顾得好好的，让那个大傻瓜说不出话！",
 			typewriter = {
@@ -121,7 +121,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgName = "bg_story_school",
-			actor = 900093,
+			actor = 201232,
 			nameColor = "#a9f548",
 			say = "标枪，你有没有什么不舒服的地方？",
 			flashout = {
@@ -155,7 +155,7 @@ return {
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 201211,
+			actor = 201210,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -171,7 +171,7 @@ return {
 			}
 		},
 		{
-			actor = 201211,
+			actor = 201210,
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -191,7 +191,7 @@ return {
 			side = 0,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 900093,
+			actor = 201232,
 			nameColor = "#a9f548",
 			say = "…………",
 			typewriter = {
@@ -208,7 +208,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgName = "bg_story_school",
-			actor = 900093,
+			actor = 201232,
 			nameColor = "#a9f548",
 			say = "萤火虫，不要整天用你的头撞来撞去，过来躺下，让人家来照顾你。",
 			flashout = {
@@ -242,7 +242,7 @@ return {
 			side = 1,
 			bgName = "bg_story_school",
 			dir = -1,
-			actor = 201141,
+			actor = 201140,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -262,7 +262,7 @@ return {
 			side = 0,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 900093,
+			actor = 201232,
 			nameColor = "#a9f548",
 			say = "…………",
 			typewriter = {
@@ -279,7 +279,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgName = "bg_story_school",
-			actor = 900093,
+			actor = 201232,
 			nameColor = "#a9f548",
 			say = "拉菲，在这种地方睡觉会感冒的，盖上这条被子吧。",
 			flashout = {
@@ -313,7 +313,7 @@ return {
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 101171,
+			actor = 101170,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -333,7 +333,7 @@ return {
 			side = 0,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 900093,
+			actor = 201232,
 			nameColor = "#a9f548",
 			say = "…………",
 			typewriter = {
@@ -346,7 +346,7 @@ return {
 			}
 		},
 		{
-			actor = 203011,
+			actor = 203010,
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -365,7 +365,7 @@ return {
 			side = 0,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 900093,
+			actor = 201232,
 			nameColor = "#a9f548",
 			say = "嗯？怎么啦，伦敦，意识到自己的错误想要向人家道歉了吗~",
 			typewriter = {
@@ -388,7 +388,7 @@ return {
 			}
 		},
 		{
-			actor = 203011,
+			actor = 203010,
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -407,7 +407,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 900093,
+			actor = 201232,
 			nameColor = "#a9f548",
 			say = "那个笨蛋终于也意识到自己对人家的冷落了吗~人家就勉为其难地原谅他好了~",
 			typewriter = {
@@ -434,7 +434,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			blackBg = true,
-			actor = 203011,
+			actor = 203010,
 			nameColor = "#a9f548",
 			say = "哈啊……",
 			typewriter = {

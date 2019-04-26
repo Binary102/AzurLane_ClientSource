@@ -4,7 +4,7 @@ return {
 	once = true,
 	scripts = {
 		{
-			actor = 407011,
+			actor = 407010,
 			side = 2,
 			nameColor = "#ff0000",
 			say = "So this is beautiful afterglow of a life being thrown away...",
@@ -22,7 +22,7 @@ return {
 			}
 		},
 		{
-			actor = 407011,
+			actor = 407010,
 			side = 2,
 			nameColor = "#ff0000",
 			say = "...I see. The existence of you pitiable Pieces worthy of annihilation is precisely what, for the first time ever, gives true meaning to my temporal life and to this war...",
@@ -40,7 +40,7 @@ return {
 			}
 		},
 		{
-			actor = 407011,
+			actor = 407010,
 			side = 2,
 			nameColor = "#ff0000",
 			say = "I am the aircraft carrier Graf Zeppelin. My Ironblood Hellwings shall rain apocalyptic destruction down on you from the heavens!",

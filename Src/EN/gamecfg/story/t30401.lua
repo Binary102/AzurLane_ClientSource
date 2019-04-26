@@ -7,7 +7,7 @@ return {
 			side = 2,
 			actorName = "{namecode:94}",
 			dir = -1,
-			actor = 307041,
+			actor = 307040,
 			nameColor = "#ff0000",
 			say = "…",
 			shake = {
@@ -27,7 +27,7 @@ return {
 			side = 2,
 			actorName = "{namecode:94}",
 			dir = -1,
-			actor = 307041,
+			actor = 307040,
 			nameColor = "#ff0000",
 			say = "So, the First Carrier Division and my sister have already...",
 			shake = {
@@ -47,7 +47,7 @@ return {
 			side = 2,
 			actorName = "{namecode:94}",
 			dir = -1,
-			actor = 307041,
+			actor = 307040,
 			nameColor = "#ff0000",
 			say = "But I can't let it end like this... All squadrons, attack!!",
 			shake = {
@@ -67,7 +67,7 @@ return {
 			side = 2,
 			actorName = "{namecode:94}",
 			dir = -1,
-			actor = 307041,
+			actor = 307040,
 			nameColor = "#ff0000",
 			say = "I'll show you what the Second Carrier Division is made of! This is our final counterattack!",
 			shake = {

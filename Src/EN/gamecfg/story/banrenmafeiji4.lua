@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			actor = 900094,
+			actor = 201212,
 			nameColor = "#a9f548",
 			say = "啊，自由和维希的姐妹们来了呢。",
 			flashout = {
@@ -57,7 +57,7 @@ return {
 			bgName = "star_level_bg_106",
 			say = "还有罗德尼前辈。",
 			dir = 1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -73,7 +73,7 @@ return {
 			}
 		},
 		{
-			actor = 900094,
+			actor = 201212,
 			side = 0,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -92,7 +92,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 900094,
+			actor = 201212,
 			nameColor = "#a9f548",
 			say = "罗德尼姐姐，敦刻尔克小姐，埃米尔小姐，这边~~~",
 			typewriter = {
@@ -115,7 +115,7 @@ return {
 			}
 		},
 		{
-			actor = 900106,
+			actor = 904011,
 			side = 2,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -136,7 +136,7 @@ return {
 			bgName = "star_level_bg_106",
 			say = "是的，敦刻尔克前辈，埃米尔·贝尔汀前辈，还有罗德尼前辈，上午好。",
 			dir = 1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -152,7 +152,7 @@ return {
 			}
 		},
 		{
-			actor = 900107,
+			actor = 802011,
 			side = 0,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -168,7 +168,7 @@ return {
 			}
 		},
 		{
-			actor = 900106,
+			actor = 904011,
 			side = 0,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -184,7 +184,7 @@ return {
 			}
 		},
 		{
-			actor = 900105,
+			actor = 205041,
 			side = 0,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -200,7 +200,7 @@ return {
 			}
 		},
 		{
-			actor = 900106,
+			actor = 904011,
 			side = 0,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -216,7 +216,7 @@ return {
 			}
 		},
 		{
-			actor = 900094,
+			actor = 201212,
 			side = 1,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -232,7 +232,7 @@ return {
 			}
 		},
 		{
-			actor = 206041,
+			actor = 206040,
 			side = 1,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -248,7 +248,7 @@ return {
 			}
 		},
 		{
-			actor = 900094,
+			actor = 201212,
 			side = 2,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -269,7 +269,7 @@ return {
 			bgName = "star_level_bg_106",
 			say = "这样啊，那好吧……",
 			dir = 1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -285,7 +285,7 @@ return {
 			}
 		},
 		{
-			actor = 900106,
+			actor = 904011,
 			side = 0,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -301,7 +301,7 @@ return {
 			}
 		},
 		{
-			actor = 900094,
+			actor = 201212,
 			side = 1,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -317,7 +317,7 @@ return {
 			}
 		},
 		{
-			actor = 900105,
+			actor = 205041,
 			side = 0,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -333,7 +333,7 @@ return {
 			}
 		},
 		{
-			actor = 900106,
+			actor = 904011,
 			side = 0,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -353,7 +353,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "……真美味啊。",
 			typewriter = {
@@ -369,7 +369,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 900094,
+			actor = 201212,
 			nameColor = "#a9f548",
 			say = "对吧~不过我虽然很想吃……但总觉得吃下去的话，回去要没有勇气面对体重计了。",
 			typewriter = {
@@ -392,7 +392,7 @@ return {
 			}
 		},
 		{
-			actor = 900105,
+			actor = 205041,
 			side = 0,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -408,7 +408,7 @@ return {
 			}
 		},
 		{
-			actor = 900106,
+			actor = 904011,
 			side = 0,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -424,7 +424,7 @@ return {
 			}
 		},
 		{
-			actor = 900107,
+			actor = 802011,
 			side = 1,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -440,7 +440,7 @@ return {
 			}
 		},
 		{
-			actor = 900107,
+			actor = 802011,
 			side = 1,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -456,7 +456,7 @@ return {
 			}
 		},
 		{
-			actor = 900106,
+			actor = 904011,
 			side = 0,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -472,7 +472,7 @@ return {
 			}
 		},
 		{
-			actor = 900107,
+			actor = 802011,
 			side = 1,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -488,7 +488,7 @@ return {
 			}
 		},
 		{
-			actor = 900107,
+			actor = 802011,
 			side = 1,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -508,7 +508,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "也很符合夏天的感觉呢。",
 			typewriter = {
@@ -521,7 +521,7 @@ return {
 			}
 		},
 		{
-			actor = 900094,
+			actor = 201212,
 			side = 0,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -542,7 +542,7 @@ return {
 			bgName = "star_level_bg_106",
 			dir = 1,
 			blackBg = true,
-			actor = 900094,
+			actor = 201212,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.3,

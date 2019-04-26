@@ -683,6 +683,26 @@ pg.voice_actor_CN = {
 	{
 		actor_name = "Reika Fujisawa",
 		code = 171
+	},
+	{
+		actor_name = "Maki Kawase",
+		code = 172
+	},
+	{
+		actor_name = "Shino Shimoji",
+		code = 173
+	},
+	{
+		actor_name = "Hitomi Nabatame",
+		code = 174
+	},
+	{
+		actor_name = "Kiyono Yasuno",
+		code = 175
+	},
+	{
+		actor_name = "Kizuna AI ",
+		code = 176
 	}
 }
 

@@ -143,7 +143,7 @@ function slot0.updateTaskGroup(slot0, slot1, slot2, slot3)
 	slot9 = false
 
 	if slot7 then
-		slot9 = slot0.activityVO:getStartTime() + (slot2 - 1) * 86400 <= pg.TimeMgr.GetInstance():GetServerTime()
+		slot9 = slot0.activityVO.data1 + (slot2 - 1) * 86400 <= pg.TimeMgr.GetInstance():GetServerTime()
 
 		setText(slot4:Find("Text"), pg.TimeMgr.GetInstance():DescClientTime(slot11, "%m/%d"))
 	else

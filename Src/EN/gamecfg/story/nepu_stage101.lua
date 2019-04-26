@@ -125,7 +125,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 10100054,
+			actor = 10100050,
 			actorName = "？？？",
 			say = "... ... ...",
 			typewriter = {
@@ -142,7 +142,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 10100064,
+			actor = 10100060,
 			actorName = "？？？",
 			say = "... ... ...",
 			typewriter = {

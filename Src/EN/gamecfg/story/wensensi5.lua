@@ -74,7 +74,7 @@ return {
 			}
 		},
 		{
-			actor = 103101,
+			actor = 103100,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -107,7 +107,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 103101,
+			actor = 103100,
 			nameColor = "#a9f548",
 			say = "Commander... how do I become a better secretary?",
 			typewriter = {
@@ -126,7 +126,7 @@ return {
 			}
 		},
 		{
-			actor = 103101,
+			actor = 103100,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -142,7 +142,7 @@ return {
 			}
 		},
 		{
-			actor = 103101,
+			actor = 103100,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -158,7 +158,7 @@ return {
 			}
 		},
 		{
-			actor = 103101,
+			actor = 103100,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -178,7 +178,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			withoutActorName = true,
-			actor = 103101,
+			actor = 103100,
 			nameColor = "#a9f548",
 			say = "Vincennes glowed with a determination I had never seen in her before.",
 			typewriter = {
@@ -191,7 +191,7 @@ return {
 			}
 		},
 		{
-			actor = 103101,
+			actor = 103100,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -207,7 +207,7 @@ return {
 			}
 		},
 		{
-			actor = 103101,
+			actor = 103100,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -227,7 +227,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			withoutActorName = true,
-			actor = 103101,
+			actor = 103100,
 			nameColor = "#a9f548",
 			say = "Recollections of Quincy and Astoria fawning over their sister immediately popped up inside my head.",
 			typewriter = {
@@ -240,7 +240,7 @@ return {
 			}
 		},
 		{
-			actor = 103101,
+			actor = 103100,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -260,7 +260,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			withoutActorName = true,
-			actor = 103101,
+			actor = 103100,
 			nameColor = "#a9f548",
 			say = "From the beginning, those like Vincennes and Indianapolis have always been able to find an important role on the front lines, no matter how they were treated back home.",
 			typewriter = {
@@ -277,7 +277,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			withoutActorName = true,
-			actor = 103101,
+			actor = 103100,
 			nameColor = "#a9f548",
 			say = "Well, Vincennes, if you become more capable, then perhaps your sisters will change the way they see you.",
 			typewriter = {
@@ -300,7 +300,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			actor = 103101,
+			actor = 103100,
 			nameColor = "#a9f548",
 			say = "You'll teach me? Hooray!",
 			typewriter = {

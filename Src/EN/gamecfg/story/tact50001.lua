@@ -14,7 +14,7 @@ return {
 			}
 		},
 		{
-			actor = 103041,
+			actor = 103040,
 			side = 2,
 			nameColor = "#a9f548",
 			say = "You sure have some guts to attack with a force this small. I suppose this is what they mean when they talk about the Sakura Empire's fearsome valor.",
@@ -28,7 +28,7 @@ return {
 			}
 		},
 		{
-			actor = 303021,
+			actor = 303020,
 			side = 2,
 			nameColor = "#a9f548",
 			actorName = "{namecode:54}",
@@ -43,7 +43,7 @@ return {
 			}
 		},
 		{
-			actor = 103041,
+			actor = 103040,
 			side = 2,
 			nameColor = "#a9f548",
 			say = "I hate to admit it, but you're right...",
@@ -66,7 +66,7 @@ return {
 			}
 		},
 		{
-			actor = 103041,
+			actor = 103040,
 			side = 2,
 			nameColor = "#a9f548",
 			say = "But there's no point babbling on. Prepare yourself!",
@@ -80,7 +80,7 @@ return {
 			}
 		},
 		{
-			actor = 303021,
+			actor = 303020,
 			side = 2,
 			nameColor = "#a9f548",
 			actorName = "{namecode:54}",

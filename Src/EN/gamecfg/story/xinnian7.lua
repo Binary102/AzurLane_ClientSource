@@ -15,7 +15,7 @@ return {
 			}
 		},
 		{
-			actor = 900062,
+			actor = 307022,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
@@ -35,7 +35,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 900061,
+			actor = 307012,
 			actorName = "{namecode:91}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -51,7 +51,7 @@ return {
 			}
 		},
 		{
-			actor = 900069,
+			actor = 303122,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -67,7 +67,7 @@ return {
 			}
 		},
 		{
-			actor = 900067,
+			actor = 403032,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -82,7 +82,7 @@ return {
 			}
 		},
 		{
-			actor = 900065,
+			actor = 101172,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -97,7 +97,7 @@ return {
 			}
 		},
 		{
-			actor = 900067,
+			actor = 403032,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -112,7 +112,7 @@ return {
 			}
 		},
 		{
-			actor = 900065,
+			actor = 101172,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -127,7 +127,7 @@ return {
 			}
 		},
 		{
-			actor = 900062,
+			actor = 307022,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
@@ -143,7 +143,7 @@ return {
 			}
 		},
 		{
-			actor = 900063,
+			actor = 312011,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -159,7 +159,7 @@ return {
 			}
 		},
 		{
-			actor = 900068,
+			actor = 301331,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
@@ -175,7 +175,7 @@ return {
 			}
 		},
 		{
-			actor = 900064,
+			actor = 307031,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -194,7 +194,7 @@ return {
 			bgName = "star_level_bg_101",
 			side = 2,
 			dir = 1,
-			actor = 900067,
+			actor = 403032,
 			nameColor = "#a9f548",
 			say = "So this is the \"shrine?\" It has a nice atmosphere to it.",
 			flashout = {
@@ -229,7 +229,7 @@ return {
 			bgName = "star_level_bg_101",
 			actorName = "{namecode:92}",
 			dir = 1,
-			actor = 900062,
+			actor = 307022,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -249,7 +249,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_101",
 			dir = 1,
-			actor = 900069,
+			actor = 303122,
 			actorName = "{namecode:67}",
 			say = "All right, since we're all here, we should all make our offerings.",
 			typewriter = {
@@ -266,7 +266,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_101",
 			dir = 1,
-			actor = 900064,
+			actor = 307031,
 			actorName = "{namecode:93}",
 			say = "Those who came here first have already started to hang up their wishes, huh? Wow, there's quite a variety of wishes...",
 			typewriter = {
@@ -283,7 +283,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_101",
 			dir = 1,
-			actor = 900064,
+			actor = 307031,
 			actorName = "{namecode:93}",
 			say = "This note with all these scribbly lines… “I wanna eat a lot of meat!” One glance and I can already tell it's Yuudachi's...",
 			typewriter = {
@@ -300,7 +300,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_101",
 			dir = 1,
-			actor = 305014,
+			actor = 305010,
 			actorName = "{namecode:78}",
 			say = "Welcome to the shrine. Yamashiro and I are so happy to see everyone's wishes. It makes all our work worth it.",
 			typewriter = {
@@ -317,7 +317,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_101",
 			dir = 1,
-			actor = 900062,
+			actor = 307022,
 			actorName = "{namecode:92}",
 			say = "Thank you for this ceremonial arrow. I shall take good care of it.",
 			typewriter = {
@@ -334,7 +334,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_101",
 			dir = 1,
-			actor = 305014,
+			actor = 305010,
 			actorName = "{namecode:78}",
 			say = "No, thank you for coming. Everyone, please come this way. Because Eugen and Laffey are here, I will explain how to make an offering.",
 			typewriter = {
@@ -351,7 +351,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_101",
 			dir = 1,
-			actor = 305014,
+			actor = 305010,
 			actorName = "{namecode:78}",
 			say = "First, purify your hands. Toss a coin into the offering box and ring the bell to greet the deity. Then bow twice, clap your hands twice, and pray. Finally, bow again, and you will be all done.",
 			typewriter = {
@@ -364,7 +364,7 @@ return {
 			}
 		},
 		{
-			actor = 900067,
+			actor = 403032,
 			nameColor = "#a9f548",
 			bgName = "star_level_bg_101",
 			side = 1,
@@ -380,7 +380,7 @@ return {
 			}
 		},
 		{
-			actor = 900065,
+			actor = 101172,
 			nameColor = "#a9f548",
 			bgName = "star_level_bg_101",
 			side = 0,
@@ -400,7 +400,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_101",
 			dir = 1,
-			actor = 900064,
+			actor = 307031,
 			actorName = "{namecode:93}",
 			say = "Let’s start then.",
 			typewriter = {
@@ -427,7 +427,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_101",
 			dir = 1,
-			actor = 900064,
+			actor = 307031,
 			actorName = "{namecode:93}",
 			say = "(I wish for these peaceful days to continue onwards…)",
 			typewriter = {
@@ -454,7 +454,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_101",
 			dir = 1,
-			actor = 900069,
+			actor = 303122,
 			actorName = "{namecode:67}",
 			say = "(I wish for the Commander to rely on me more and more~)",
 			typewriter = {
@@ -481,7 +481,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_101",
 			dir = 1,
-			actor = 900061,
+			actor = 307012,
 			actorName = "{namecode:91}",
 			say = "(Commander will definitely be with me forever, right, Gods? Of course, just leave those troublesome pests to me… hehehe…)",
 			typewriter = {
@@ -508,7 +508,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_101",
 			dir = 1,
-			actor = 900062,
+			actor = 307022,
 			actorName = "{namecode:92}",
 			say = "(I wish to engage in a thrilling, bloody battle with a truly worthy foe this year...)",
 			typewriter = {
@@ -535,7 +535,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_101",
 			dir = 1,
-			actor = 900068,
+			actor = 301331,
 			actorName = "{namecode:34}",
 			say = "(This year, I wish to be together with Mutsuki and all my friends, and we will have lots of fun playing together.)",
 			typewriter = {
@@ -562,7 +562,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_101",
 			dir = 1,
-			actor = 900063,
+			actor = 312011,
 			actorName = "{namecode:98}",
 			say = "(I wish for everyone to support Akashi's business this coming year, nya)",
 			typewriter = {
@@ -589,7 +589,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_101",
 			dir = 1,
-			actor = 900066,
+			actor = 301141,
 			actorName = "{namecode:16}",
 			say = "I wanna be able to eat a lot of delicious stuff!",
 			typewriter = {
@@ -607,7 +607,7 @@ return {
 			bgName = "star_level_bg_101",
 			actorName = "{namecode:93}",
 			dir = 1,
-			actor = 900064,
+			actor = 307031,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -633,7 +633,7 @@ return {
 			}
 		},
 		{
-			actor = 900067,
+			actor = 403032,
 			nameColor = "#a9f548",
 			bgName = "star_level_bg_101",
 			side = 2,
@@ -659,7 +659,7 @@ return {
 			}
 		},
 		{
-			actor = 900065,
+			actor = 101172,
 			nameColor = "#a9f548",
 			bgName = "star_level_bg_101",
 			side = 2,

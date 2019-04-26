@@ -27,7 +27,7 @@ return {
 			side = 2,
 			dir = -1,
 			blackBg = true,
-			actor = 107061,
+			actor = 107060,
 			nameColor = "#a9f548",
 			say = "Radio silence protocols have been lifted. Urgent call from Enterprise to Hornet!",
 			shake = {
@@ -48,7 +48,7 @@ return {
 			say = "Hornet here~! Go ahead!",
 			dir = -1,
 			blackBg = true,
-			actor = 107071,
+			actor = 107070,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -71,7 +71,7 @@ return {
 			side = 0,
 			dir = -1,
 			blackBg = true,
-			actor = 107061,
+			actor = 107060,
 			nameColor = "#a9f548",
 			say = "We've been found out. Should we continue our mission?",
 			shake = {
@@ -91,7 +91,7 @@ return {
 			side = 1,
 			dir = -1,
 			blackBg = true,
-			actor = 107071,
+			actor = 107070,
 			nameColor = "#a9f548",
 			say = "Coordinates were just a little off... but I think we can still do it!",
 			shake = {
@@ -111,7 +111,7 @@ return {
 			side = 0,
 			dir = -1,
 			blackBg = true,
-			actor = 107061,
+			actor = 107060,
 			nameColor = "#a9f548",
 			say = "Very good. Immediately destroy the enemy's patrol ship! All convoys, continue to protect Hornet! The mission will continue.",
 			shake = {
@@ -131,7 +131,7 @@ return {
 			side = 1,
 			dir = -1,
 			blackBg = true,
-			actor = 107071,
+			actor = 107070,
 			nameColor = "#a9f548",
 			say = "It's finally time for me, Hornet, to show my stuff!",
 			shake = {
@@ -151,7 +151,7 @@ return {
 			side = 0,
 			dir = -1,
 			blackBg = true,
-			actor = 107061,
+			actor = 107060,
 			nameColor = "#a9f548",
 			say = "Of course. Only you would be able to complete such a risky mission! Haha!",
 			shake = {
@@ -175,7 +175,7 @@ return {
 			dir = -1,
 			blackBg = true,
 			say = "Fight! Fight for our fallen sisters! Fight for the land and sea burned by the war!",
-			actor = 107071,
+			actor = 107070,
 			nameColor = "#a9f548",
 			withoutPainting = true,
 			typewriter = {
@@ -190,7 +190,7 @@ return {
 			say = "This attack is filled with anguish and fury. Now is when we make our stand!",
 			bgspeed = 2,
 			blackBg = true,
-			actor = 107071,
+			actor = 107070,
 			nameColor = "#a9f548",
 			withoutPainting = true,
 			typewriter = {
@@ -205,7 +205,7 @@ return {
 			say = "For the Eagles! For freedom!",
 			bgspeed = 2,
 			blackBg = true,
-			actor = 107071,
+			actor = 107070,
 			nameColor = "#a9f548",
 			withoutPainting = true,
 			typewriter = {
@@ -220,7 +220,7 @@ return {
 			say = "B-25 Doolittle Squadron, attack!",
 			bgspeed = 2,
 			blackBg = true,
-			actor = 107071,
+			actor = 107070,
 			nameColor = "#a9f548",
 			withoutPainting = true,
 			typewriter = {

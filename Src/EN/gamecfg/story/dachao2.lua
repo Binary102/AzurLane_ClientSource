@@ -56,7 +56,7 @@ return {
 			}
 		},
 		{
-			actor = 301641,
+			actor = 301640,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -72,7 +72,7 @@ return {
 			}
 		},
 		{
-			actor = 301641,
+			actor = 301640,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -98,7 +98,7 @@ return {
 			}
 		},
 		{
-			actor = 301641,
+			actor = 301640,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -114,7 +114,7 @@ return {
 			}
 		},
 		{
-			actor = 301641,
+			actor = 301640,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -130,7 +130,7 @@ return {
 			}
 		},
 		{
-			actor = 301641,
+			actor = 301640,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -149,7 +149,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 301641,
+			actor = 301640,
 			nameColor = "#a9f548",
 			say = "Ah, I don't mean I get a kick outta watchin' people hurt! I'm just sayin' I love cute girls, that's all~",
 			typewriter = {
@@ -211,7 +211,7 @@ return {
 			}
 		},
 		{
-			actor = 301641,
+			actor = 301640,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -227,7 +227,7 @@ return {
 			}
 		},
 		{
-			actor = 301641,
+			actor = 301640,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -243,7 +243,7 @@ return {
 			}
 		},
 		{
-			actor = 301641,
+			actor = 301640,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",

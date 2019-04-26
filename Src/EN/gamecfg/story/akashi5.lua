@@ -4,7 +4,7 @@ return {
 	once = true,
 	scripts = {
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 2,
 			dir = -1,
 			say = "Accepting to go on commissions is proof that I trust you, nya~",
@@ -18,7 +18,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 2,
 			dir = -1,
 			say = "{namecode:98} wants to know if you’re a trustworthy person! nya~",
@@ -32,7 +32,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 2,
 			dir = -1,
 			say = "To go on commissions is to help others!",
@@ -46,7 +46,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 2,
 			dir = -1,
 			say = "{namecode:98} wants to see the Commander’s true mettle!",

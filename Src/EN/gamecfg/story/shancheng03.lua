@@ -16,7 +16,7 @@ return {
 			}
 		},
 		{
-			actor = 305024,
+			actor = 305020,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
@@ -32,7 +32,7 @@ return {
 			}
 		},
 		{
-			actor = 305024,
+			actor = 305020,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
@@ -48,7 +48,7 @@ return {
 			}
 		},
 		{
-			actor = 305024,
+			actor = 305020,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
@@ -64,7 +64,7 @@ return {
 			}
 		},
 		{
-			actor = 305024,
+			actor = 305020,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
@@ -83,7 +83,7 @@ return {
 			actorName = "{namecode:79}",
 			side = 2,
 			dir = 1,
-			actor = 305024,
+			actor = 305020,
 			nameColor = "#a9f548",
 			say = "Eh? Why can't I find it?",
 			flashout = {

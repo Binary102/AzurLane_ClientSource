@@ -81,6 +81,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0.iheart = (slot1.heart_flag or 0) > 0
 	slot0.married = slot1.marry_flag
 	slot0.maxIntimacy = slot1.intimacy_max
+	slot0.maxLV = slot1.lv_max
 	slot0.evaluation = nil
 	slot0.lastReqStamp = 0
 	slot0.trans = false
@@ -204,6 +205,10 @@ end
 
 function slot0.isBluePrintGroup(slot0)
 	return table.contains(pg.ship_data_blueprint.all, slot0.id)
+end
+
+function slot0.getBluePrintChangeSkillList(slot0)
+	return pg.ship_data_blueprint[slot0.id].change_skill
 end
 
 return slot0

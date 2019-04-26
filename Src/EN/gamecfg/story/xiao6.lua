@@ -216,7 +216,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 102061,
+			actor = 102060,
 			stopbgm = true,
 			say = "... Huh?",
 			typewriter = {
@@ -242,7 +242,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 301091,
+			actor = 301090,
 			nameColor = "#a9f548",
 			say = "Eek?!",
 			typewriter = {
@@ -279,7 +279,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			bgm = "story-1",
-			actor = 102061,
+			actor = 102060,
 			nameColor = "#a9f548",
 			say = "I just wanted to check how you were doing since I was in the area... Hey, a-are you okay?!",
 			typewriter = {

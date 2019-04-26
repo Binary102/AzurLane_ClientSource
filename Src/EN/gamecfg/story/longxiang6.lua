@@ -23,7 +23,7 @@ return {
 			bgmDelay = 2,
 			bgName = "bg_story_school",
 			bgm = "story-1",
-			actor = 306061,
+			actor = 306060,
 			nameColor = "#a9f548",
 			say = "I wonder what Milord is doing right now...",
 			flashout = {
@@ -57,7 +57,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			soundeffect = "event:/battle/plane",
-			actor = 107031,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "Ta-da! Carrier-based aircraft surprise attack!",
 			typewriter = {
@@ -84,7 +84,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 306061,
+			actor = 306060,
 			nameColor = "#a9f548",
 			say = "Haah...",
 			typewriter = {
@@ -101,7 +101,7 @@ return {
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 107031,
+			actor = 107030,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -121,7 +121,7 @@ return {
 			side = 0,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 306061,
+			actor = 306060,
 			nameColor = "#a9f548",
 			say = "Saratoga... I'm not really in the mood for your pranks today, sorry.",
 			typewriter = {
@@ -134,7 +134,7 @@ return {
 			}
 		},
 		{
-			actor = 107031,
+			actor = 107030,
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -150,7 +150,7 @@ return {
 			}
 		},
 		{
-			actor = 306061,
+			actor = 306060,
 			side = 0,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -170,7 +170,7 @@ return {
 			side = 0,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 306061,
+			actor = 306060,
 			nameColor = "#a9f548",
 			say = "Even though we're all in the same fleet now, it's not so easy to just open my heart!",
 			typewriter = {
@@ -193,7 +193,7 @@ return {
 			}
 		},
 		{
-			actor = 306061,
+			actor = 306060,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -213,7 +213,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 306061,
+			actor = 306060,
 			nameColor = "#a9f548",
 			say = "As the secretary ship, I can't condone such an egregious attempt to rob Milord of precious working time!",
 			typewriter = {
@@ -229,7 +229,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 306061,
+			actor = 306060,
 			nameColor = "#a9f548",
 			say = "In other words, Saratoga, you're my rival!",
 			typewriter = {
@@ -252,7 +252,7 @@ return {
 			}
 		},
 		{
-			actor = 107031,
+			actor = 107030,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -272,7 +272,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 306061,
+			actor = 306060,
 			nameColor = "#a9f548",
 			say = "Eh?",
 			typewriter = {
@@ -289,7 +289,7 @@ return {
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 107031,
+			actor = 107030,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -309,7 +309,7 @@ return {
 			side = 0,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 306061,
+			actor = 306060,
 			nameColor = "#a9f548",
 			say = "Wha?!",
 			typewriter = {
@@ -332,7 +332,7 @@ return {
 			}
 		},
 		{
-			actor = 107031,
+			actor = 107030,
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -348,7 +348,7 @@ return {
 			}
 		},
 		{
-			actor = 107031,
+			actor = 107030,
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -368,7 +368,7 @@ return {
 			side = 0,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 306061,
+			actor = 306060,
 			nameColor = "#a9f548",
 			say = "I-I don't need to do such a thing...",
 			typewriter = {
@@ -391,7 +391,7 @@ return {
 			}
 		},
 		{
-			actor = 107031,
+			actor = 107030,
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -412,7 +412,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			blackBg = true,
-			actor = 306061,
+			actor = 306060,
 			nameColor = "#a9f548",
 			say = "Saratoga...",
 			typewriter = {

@@ -46,7 +46,7 @@ return {
 			}
 		},
 		{
-			actor = 205021,
+			actor = 205020,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -62,7 +62,7 @@ return {
 			}
 		},
 		{
-			actor = 205021,
+			actor = 205020,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -78,7 +78,7 @@ return {
 			}
 		},
 		{
-			actor = 205021,
+			actor = 205020,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -97,20 +97,20 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			bgName = "bg_story_nepu1",
-			actor = 203031,
+			actor = 203030,
 			dir = 1,
 			hideOther = true,
 			actorName = "众人",
 			say = "哦哦哦！！",
 			subActors = {
 				{
-					actor = 203051,
+					actor = 203050,
 					pos = {
 						x = 370
 					}
 				},
 				{
-					actor = 203041,
+					actor = 203040,
 					pos = {
 						x = 750
 					}
@@ -139,7 +139,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 205021,
+			actor = 205020,
 			nameColor = "#a9f548",
 			say = "（稍微出来透透气吧。）",
 			flashout = {
@@ -169,7 +169,7 @@ return {
 			}
 		},
 		{
-			actor = 205021,
+			actor = 205020,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -185,7 +185,7 @@ return {
 			}
 		},
 		{
-			actor = 205021,
+			actor = 205020,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -205,7 +205,7 @@ return {
 			side = 1,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 107061,
+			actor = 107060,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -221,7 +221,7 @@ return {
 			}
 		},
 		{
-			actor = 107061,
+			actor = 107060,
 			side = 1,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -237,7 +237,7 @@ return {
 			}
 		},
 		{
-			actor = 107061,
+			actor = 107060,
 			side = 1,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -253,7 +253,7 @@ return {
 			}
 		},
 		{
-			actor = 205021,
+			actor = 205020,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -272,7 +272,7 @@ return {
 			side = 0,
 			dir = 1,
 			blackBg = true,
-			actor = 205021,
+			actor = 205020,
 			nameColor = "#a9f548",
 			say = "（演习过程里全程疲于防空与躲避…狼狈的样子还被观战的指挥官尽收眼底……）",
 			typewriter = {
@@ -303,7 +303,7 @@ return {
 			}
 		},
 		{
-			actor = 205021,
+			actor = 205020,
 			side = 0,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -319,7 +319,7 @@ return {
 			}
 		},
 		{
-			actor = 107061,
+			actor = 107060,
 			side = 1,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -335,7 +335,7 @@ return {
 			}
 		},
 		{
-			actor = 205021,
+			actor = 205020,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -351,7 +351,7 @@ return {
 			}
 		},
 		{
-			actor = 205021,
+			actor = 205020,
 			side = 0,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -367,7 +367,7 @@ return {
 			}
 		},
 		{
-			actor = 107061,
+			actor = 107060,
 			side = 1,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -383,7 +383,7 @@ return {
 			}
 		},
 		{
-			actor = 107061,
+			actor = 107060,
 			side = 1,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -402,7 +402,7 @@ return {
 			side = 0,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 205021,
+			actor = 205020,
 			nameColor = "#a9f548",
 			say = "哈哈，关于这点彼此彼此吧。",
 			typewriter = {
@@ -425,7 +425,7 @@ return {
 			}
 		},
 		{
-			actor = 205041,
+			actor = 205040,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -441,7 +441,7 @@ return {
 			}
 		},
 		{
-			actor = 205021,
+			actor = 205020,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -457,7 +457,7 @@ return {
 			}
 		},
 		{
-			actor = 107061,
+			actor = 107060,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -473,7 +473,7 @@ return {
 			}
 		},
 		{
-			actor = 205021,
+			actor = 205020,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -489,7 +489,7 @@ return {
 			}
 		},
 		{
-			actor = 205021,
+			actor = 205020,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,

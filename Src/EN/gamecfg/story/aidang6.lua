@@ -46,7 +46,7 @@ return {
 			}
 		},
 		{
-			actor = 303121,
+			actor = 303120,
 			nameColor = "#a9f548",
 			bgName = "bg_story_outdoor",
 			side = 2,
@@ -62,7 +62,7 @@ return {
 			}
 		},
 		{
-			actor = 303121,
+			actor = 303120,
 			nameColor = "#a9f548",
 			bgName = "bg_story_outdoor",
 			side = 2,
@@ -81,7 +81,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 303121,
+			actor = 303120,
 			nameColor = "#a9f548",
 			say = "Commander, what did you think of our date? Did you have fun?",
 			typewriter = {
@@ -100,7 +100,7 @@ return {
 			}
 		},
 		{
-			actor = 303121,
+			actor = 303120,
 			nameColor = "#a9f548",
 			bgName = "bg_story_outdoor",
 			side = 2,
@@ -116,7 +116,7 @@ return {
 			}
 		},
 		{
-			actor = 303121,
+			actor = 303120,
 			nameColor = "#a9f548",
 			bgName = "bg_story_outdoor",
 			side = 2,
@@ -132,7 +132,7 @@ return {
 			}
 		},
 		{
-			actor = 303121,
+			actor = 303120,
 			nameColor = "#a9f548",
 			bgName = "bg_story_outdoor",
 			side = 2,
@@ -148,7 +148,7 @@ return {
 			}
 		},
 		{
-			actor = 303121,
+			actor = 303120,
 			nameColor = "#a9f548",
 			bgName = "bg_story_outdoor",
 			side = 2,
@@ -164,7 +164,7 @@ return {
 			}
 		},
 		{
-			actor = 303121,
+			actor = 303120,
 			nameColor = "#a9f548",
 			bgName = "bg_story_outdoor",
 			side = 2,
@@ -180,7 +180,7 @@ return {
 			}
 		},
 		{
-			actor = 303121,
+			actor = 303120,
 			nameColor = "#a9f548",
 			bgName = "bg_story_outdoor",
 			side = 2,
@@ -196,7 +196,7 @@ return {
 			}
 		},
 		{
-			actor = 303121,
+			actor = 303120,
 			nameColor = "#a9f548",
 			bgName = "bg_story_outdoor",
 			side = 2,
@@ -234,7 +234,7 @@ return {
 			}
 		},
 		{
-			actor = 303121,
+			actor = 303120,
 			nameColor = "#a9f548",
 			bgName = "bg_story_outdoor",
 			side = 2,
@@ -250,7 +250,7 @@ return {
 			}
 		},
 		{
-			actor = 303121,
+			actor = 303120,
 			nameColor = "#a9f548",
 			bgName = "bg_story_outdoor",
 			side = 2,
@@ -266,7 +266,7 @@ return {
 			}
 		},
 		{
-			actor = 303121,
+			actor = 303120,
 			nameColor = "#a9f548",
 			bgName = "bg_story_outdoor",
 			side = 2,
@@ -286,7 +286,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			blackBg = true,
-			actor = 303121,
+			actor = 303120,
 			nameColor = "#a9f548",
 			say = "That's why I'd like a present... the thing that I want most.",
 			typewriter = {

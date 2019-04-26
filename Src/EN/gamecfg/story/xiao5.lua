@@ -56,7 +56,7 @@ return {
 			}
 		},
 		{
-			actor = 301091,
+			actor = 301090,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -72,7 +72,7 @@ return {
 			}
 		},
 		{
-			actor = 301091,
+			actor = 301090,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -88,7 +88,7 @@ return {
 			}
 		},
 		{
-			actor = 301091,
+			actor = 301090,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -107,7 +107,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 301091,
+			actor = 301090,
 			nameColor = "#a9f548",
 			say = "Let us work hard and get through it together, Commander!",
 			typewriter = {
@@ -143,7 +143,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 301091,
+			actor = 301090,
 			nameColor = "#a9f548",
 			say = "That's the final report! We're finished!",
 			flashout = {
@@ -173,7 +173,7 @@ return {
 			}
 		},
 		{
-			actor = 301091,
+			actor = 301090,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -199,7 +199,7 @@ return {
 			}
 		},
 		{
-			actor = 301091,
+			actor = 301090,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",

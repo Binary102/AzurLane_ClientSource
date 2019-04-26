@@ -56,7 +56,7 @@ return {
 			}
 		},
 		{
-			actor = 306021,
+			actor = 306020,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -72,7 +72,7 @@ return {
 			}
 		},
 		{
-			actor = 306021,
+			actor = 306020,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -93,7 +93,7 @@ return {
 			bgName = "bg_story_task",
 			say = "Good for you. Anyway, next!",
 			dir = 1,
-			actor = 306061,
+			actor = 306060,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -109,7 +109,7 @@ return {
 			}
 		},
 		{
-			actor = 306021,
+			actor = 306020,
 			side = 1,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -129,7 +129,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 306061,
+			actor = 306060,
 			nameColor = "#a9f548",
 			say = "Good for you. Look over this as well.",
 			typewriter = {
@@ -142,7 +142,7 @@ return {
 			}
 		},
 		{
-			actor = 306021,
+			actor = 306020,
 			side = 1,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -162,7 +162,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 306061,
+			actor = 306060,
 			nameColor = "#a9f548",
 			say = "Mhm. Two more things to look over... I think this commission was a Great Success!",
 			typewriter = {
@@ -175,7 +175,7 @@ return {
 			}
 		},
 		{
-			actor = 306021,
+			actor = 306020,
 			side = 1,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -194,7 +194,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 306061,
+			actor = 306060,
 			nameColor = "#a9f548",
 			say = "Appreciate it. Wait... isn't that your job in the first place as secretary?",
 			typewriter = {
@@ -245,7 +245,7 @@ return {
 			}
 		},
 		{
-			actor = 306021,
+			actor = 306020,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -261,7 +261,7 @@ return {
 			}
 		},
 		{
-			actor = 306061,
+			actor = 306060,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -281,7 +281,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 306061,
+			actor = 306060,
 			nameColor = "#a9f548",
 			say = "Junyou, I'll be frank. We're very busy, so we can't have you dragging Commander off to a date.",
 			typewriter = {
@@ -294,7 +294,7 @@ return {
 			}
 		},
 		{
-			actor = 306021,
+			actor = 306020,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -314,7 +314,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 306061,
+			actor = 306060,
 			nameColor = "#a9f548",
 			say = "... ...",
 			typewriter = {
@@ -331,7 +331,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 306061,
+			actor = 306060,
 			nameColor = "#a9f548",
 			say = "... A date, with Milord...",
 			typewriter = {
@@ -348,7 +348,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 306061,
+			actor = 306060,
 			nameColor = "#a9f548",
 			say = "... I wonder what that would feel like...",
 			typewriter = {

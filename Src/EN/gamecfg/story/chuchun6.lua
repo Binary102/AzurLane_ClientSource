@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			actor = 301211,
+			actor = 301210,
 			nameColor = "#a9f548",
 			say = "C-Commander, why are you here...?",
 			flashout = {
@@ -58,7 +58,7 @@ return {
 			}
 		},
 		{
-			actor = 301211,
+			actor = 301210,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -74,7 +74,7 @@ return {
 			}
 		},
 		{
-			actor = 301211,
+			actor = 301210,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -93,7 +93,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 301211,
+			actor = 301210,
 			nameColor = "#a9f548",
 			say = "I can't even overcome my social anxiety...",
 			typewriter = {
@@ -112,7 +112,7 @@ return {
 			}
 		},
 		{
-			actor = 301211,
+			actor = 301210,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -128,7 +128,7 @@ return {
 			}
 		},
 		{
-			actor = 301211,
+			actor = 301210,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -144,7 +144,7 @@ return {
 			}
 		},
 		{
-			actor = 301211,
+			actor = 301210,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -163,7 +163,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 301211,
+			actor = 301210,
 			nameColor = "#a9f548",
 			say = "Then I became your secretary, you helped me become better at talking, and I somehow managed to hold a conversation with strangers...",
 			typewriter = {
@@ -186,7 +186,7 @@ return {
 			}
 		},
 		{
-			actor = 301211,
+			actor = 301210,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -202,7 +202,7 @@ return {
 			}
 		},
 		{
-			actor = 301241,
+			actor = 301240,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -218,7 +218,7 @@ return {
 			}
 		},
 		{
-			actor = 301211,
+			actor = 301210,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -234,7 +234,7 @@ return {
 			}
 		},
 		{
-			actor = 301231,
+			actor = 301230,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -250,7 +250,7 @@ return {
 			}
 		},
 		{
-			actor = 301211,
+			actor = 301210,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -269,7 +269,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 301211,
+			actor = 301210,
 			nameColor = "#a9f548",
 			say = "I... I'm...",
 			typewriter = {
@@ -301,7 +301,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 301211,
+			actor = 301210,
 			nameColor = "#a9f548",
 			say = "O-okay! That sounds good!",
 			typewriter = {
@@ -324,7 +324,7 @@ return {
 			}
 		},
 		{
-			actor = 306011,
+			actor = 306010,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -340,7 +340,7 @@ return {
 			}
 		},
 		{
-			actor = 301211,
+			actor = 301210,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",

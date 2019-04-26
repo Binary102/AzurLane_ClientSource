@@ -46,7 +46,7 @@ return {
 			}
 		},
 		{
-			actor = 301111,
+			actor = 301110,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -65,7 +65,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 301091,
+			actor = 301090,
 			nameColor = "#a9f548",
 			say = "W-what in the?! Oh no!",
 			typewriter = {
@@ -93,7 +93,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
-			actor = 301111,
+			actor = 301110,
 			say = "Alright, let's wreck some face!",
 			flashN = {
 				color = {
@@ -142,7 +142,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
-			actor = 301111,
+			actor = 301110,
 			say = "→↘↓↙←→+BD↓+CC↓↙←→+CD, ↘←↙↓↘→←↓↙+BC, →↓←＋P＋G→←＋P＋G→←＋P＋G←↓→↑←＋P＋G↓→←＋P!",
 			flashN = {
 				color = {
@@ -186,7 +186,7 @@ return {
 			}
 		},
 		{
-			actor = 301091,
+			actor = 301090,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -212,7 +212,7 @@ return {
 			}
 		},
 		{
-			actor = 301091,
+			actor = 301090,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -228,7 +228,7 @@ return {
 			}
 		},
 		{
-			actor = 301111,
+			actor = 301110,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -257,7 +257,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 301111,
+			actor = 301110,
 			nameColor = "#a9f548",
 			say = "Phew... I see! Games can be really fun!",
 			flashout = {
@@ -291,7 +291,7 @@ return {
 			side = 0,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 301121,
+			actor = 301120,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -307,7 +307,7 @@ return {
 			}
 		},
 		{
-			actor = 301091,
+			actor = 301090,
 			side = 1,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -323,7 +323,7 @@ return {
 			}
 		},
 		{
-			actor = 301091,
+			actor = 301090,
 			side = 1,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -339,7 +339,7 @@ return {
 			}
 		},
 		{
-			actor = 301121,
+			actor = 301120,
 			side = 0,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -355,7 +355,7 @@ return {
 			}
 		},
 		{
-			actor = 301091,
+			actor = 301090,
 			side = 1,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -371,7 +371,7 @@ return {
 			}
 		},
 		{
-			actor = 301121,
+			actor = 301120,
 			side = 0,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -390,7 +390,7 @@ return {
 			side = 0,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 301121,
+			actor = 301120,
 			nameColor = "#a9f548",
 			say = "I'm certain she's all right. Sometimes it's best not to worry about things like this. I'm sure the Commander agrees.",
 			typewriter = {
@@ -412,7 +412,7 @@ return {
 			side = 1,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 301091,
+			actor = 301090,
 			nameColor = "#a9f548",
 			say = "Is it...? ... I'm feeling somewhat tired, so I think I'll go home now...",
 			typewriter = {
@@ -433,7 +433,7 @@ return {
 			}
 		},
 		{
-			actor = 301111,
+			actor = 301110,
 			side = 1,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",

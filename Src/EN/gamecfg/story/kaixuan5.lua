@@ -50,7 +50,7 @@ return {
 			}
 		},
 		{
-			actor = 801011,
+			actor = 801010,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -65,7 +65,7 @@ return {
 			}
 		},
 		{
-			actor = 801011,
+			actor = 801010,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -80,7 +80,7 @@ return {
 			}
 		},
 		{
-			actor = 801011,
+			actor = 801010,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -95,7 +95,7 @@ return {
 			}
 		},
 		{
-			actor = 801011,
+			actor = 801010,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -110,7 +110,7 @@ return {
 			}
 		},
 		{
-			actor = 801011,
+			actor = 801010,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -125,7 +125,7 @@ return {
 			}
 		},
 		{
-			actor = 801011,
+			actor = 801010,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -140,7 +140,7 @@ return {
 			}
 		},
 		{
-			actor = 801011,
+			actor = 801010,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -161,7 +161,7 @@ return {
 			}
 		},
 		{
-			actor = 801011,
+			actor = 801010,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -176,7 +176,7 @@ return {
 			}
 		},
 		{
-			actor = 801011,
+			actor = 801010,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -191,7 +191,7 @@ return {
 			}
 		},
 		{
-			actor = 801011,
+			actor = 801010,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -220,7 +220,7 @@ return {
 			}
 		},
 		{
-			actor = 801011,
+			actor = 801010,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -235,7 +235,7 @@ return {
 			}
 		},
 		{
-			actor = 801011,
+			actor = 801010,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -250,7 +250,7 @@ return {
 			}
 		},
 		{
-			actor = 801011,
+			actor = 801010,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -265,7 +265,7 @@ return {
 			}
 		},
 		{
-			actor = 801011,
+			actor = 801010,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,

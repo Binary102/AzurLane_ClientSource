@@ -8,7 +8,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 900029,
+			actor = 305029,
 			actorName = "{namecode:132}",
 			side = 2,
 			nameColor = "#ff0000",
@@ -30,7 +30,7 @@ return {
 			side = 0,
 			say = "Yamashiro?! Surely they didn't get to you, too...",
 			actorName = "{namecode:96}",
-			actor = 307061,
+			actor = 307060,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -50,7 +50,7 @@ return {
 			}
 		},
 		{
-			actor = 900029,
+			actor = 305029,
 			actorName = "{namecode:132}",
 			side = 1,
 			nameColor = "#ff0000",
@@ -69,7 +69,7 @@ return {
 			}
 		},
 		{
-			actor = 900029,
+			actor = 305029,
 			actorName = "{namecode:132}",
 			side = 1,
 			nameColor = "#ff0000",
@@ -88,7 +88,7 @@ return {
 			}
 		},
 		{
-			actor = 900029,
+			actor = 305029,
 			actorName = "{namecode:132}",
 			side = 1,
 			nameColor = "#ff0000",
@@ -107,7 +107,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			side = 0,
 			nameColor = "#a9f548",
@@ -126,7 +126,7 @@ return {
 			}
 		},
 		{
-			actor = 900029,
+			actor = 305029,
 			actorName = "{namecode:132}",
 			side = 1,
 			nameColor = "#ff0000",
@@ -145,7 +145,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			side = 0,
 			nameColor = "#a9f548",
@@ -164,7 +164,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			side = 0,
 			nameColor = "#a9f548",
@@ -183,7 +183,7 @@ return {
 			}
 		},
 		{
-			actor = 900029,
+			actor = 305029,
 			actorName = "{namecode:132}",
 			side = 1,
 			nameColor = "#ff0000",
@@ -202,7 +202,7 @@ return {
 			}
 		},
 		{
-			actor = 900029,
+			actor = 305029,
 			actorName = "{namecode:132}",
 			side = 1,
 			nameColor = "#ff0000",

@@ -9,7 +9,7 @@ return {
 		{
 			stopbgm = true,
 			side = 2,
-			actor = 304051,
+			actor = 304050,
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
@@ -44,7 +44,7 @@ return {
 			side = 0,
 			dir = 1,
 			blackBg = true,
-			actor = 305051,
+			actor = 305050,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -64,7 +64,7 @@ return {
 			side = 1,
 			dir = 1,
 			blackBg = true,
-			actor = 304051,
+			actor = 304050,
 			nameColor = "#a9f548",
 			say = "If you pardon my rudeness, I would like to make a request on behalf of Kaga.",
 			typewriter = {
@@ -77,7 +77,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -97,7 +97,7 @@ return {
 			side = 1,
 			dir = 1,
 			blackBg = true,
-			actor = 304051,
+			actor = 304050,
 			nameColor = "#a9f548",
 			say = "As you know, the treaty allows any two large capitol ships to be converted to aircraft carriers. I seek to rescind the decommissioning of Battleship Kaga based upon the Treaty's demands.",
 			typewriter = {
@@ -110,7 +110,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -130,7 +130,7 @@ return {
 			side = 1,
 			dir = 1,
 			blackBg = true,
-			actor = 304051,
+			actor = 304050,
 			nameColor = "#a9f548",
 			say = "Unless someone takes her place, correct?",
 			typewriter = {
@@ -143,7 +143,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -159,7 +159,7 @@ return {
 			}
 		},
 		{
-			actor = 304051,
+			actor = 304050,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -179,7 +179,7 @@ return {
 			side = 1,
 			dir = 1,
 			blackBg = true,
-			actor = 304051,
+			actor = 304050,
 			nameColor = "#a9f548",
 			say = "While she may not be up to the task just yet, if you were to pass on the role to Kaga, I would be able to rest easy knowing that I was able to serve the Sakura Empire, even with this flawed body.",
 			typewriter = {
@@ -192,7 +192,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -208,7 +208,7 @@ return {
 			}
 		},
 		{
-			actor = 304051,
+			actor = 304050,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -224,7 +224,7 @@ return {
 			}
 		},
 		{
-			actor = 304051,
+			actor = 304050,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -244,7 +244,7 @@ return {
 			side = 1,
 			dir = 1,
 			blackBg = true,
-			actor = 304051,
+			actor = 304050,
 			nameColor = "#a9f548",
 			say = "Thank you for entertaining my selfish requests, but this is my... *cough* *cough*...",
 			typewriter = {
@@ -257,7 +257,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -273,7 +273,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -293,7 +293,7 @@ return {
 			side = 1,
 			dir = 1,
 			blackBg = true,
-			actor = 304051,
+			actor = 304050,
 			nameColor = "#a9f548",
 			say = "Thank you for your graciousness, Nagato...",
 			typewriter = {
@@ -306,7 +306,7 @@ return {
 			}
 		},
 		{
-			actor = 304051,
+			actor = 304050,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -326,7 +326,7 @@ return {
 			side = 1,
 			dir = 1,
 			blackBg = true,
-			actor = 304051,
+			actor = 304050,
 			nameColor = "#a9f548",
 			say = "Those two have the strength and talent to become the core of the Combined Fleet. Please rest assured, Nagato.",
 			typewriter = {
@@ -339,7 +339,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -359,7 +359,7 @@ return {
 			side = 1,
 			dir = 1,
 			blackBg = true,
-			actor = 304051,
+			actor = 304050,
 			nameColor = "#a9f548",
 			say = "Thank you very much. I am sorry for troubling you.",
 			typewriter = {

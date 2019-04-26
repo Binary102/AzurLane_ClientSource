@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			actor = 808011,
+			actor = 808010,
 			nameColor = "#a9f548",
 			say = "唔……指挥官，早上好。",
 			flashout = {
@@ -62,7 +62,7 @@ return {
 			}
 		},
 		{
-			actor = 808011,
+			actor = 808010,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -78,7 +78,7 @@ return {
 			}
 		},
 		{
-			actor = 808011,
+			actor = 808010,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -94,7 +94,7 @@ return {
 			}
 		},
 		{
-			actor = 808011,
+			actor = 808010,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -126,7 +126,7 @@ return {
 			}
 		},
 		{
-			actor = 808011,
+			actor = 808010,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -142,7 +142,7 @@ return {
 			}
 		},
 		{
-			actor = 808011,
+			actor = 808010,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -161,7 +161,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 808011,
+			actor = 808010,
 			nameColor = "#a9f548",
 			say = "但是，指挥官没有我帮忙也这么能干，这样我不就没有做秘书舰的价值了吗……",
 			typewriter = {
@@ -180,7 +180,7 @@ return {
 			}
 		},
 		{
-			actor = 808011,
+			actor = 808010,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -196,7 +196,7 @@ return {
 			}
 		},
 		{
-			actor = 808011,
+			actor = 808010,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -212,7 +212,7 @@ return {
 			}
 		},
 		{
-			actor = 808011,
+			actor = 808010,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -228,7 +228,7 @@ return {
 			}
 		},
 		{
-			actor = 808011,
+			actor = 808010,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -244,7 +244,7 @@ return {
 			}
 		},
 		{
-			actor = 808011,
+			actor = 808010,
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -269,7 +269,7 @@ return {
 			}
 		},
 		{
-			actor = 808011,
+			actor = 808010,
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -284,7 +284,7 @@ return {
 			}
 		},
 		{
-			actor = 808011,
+			actor = 808010,
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -299,7 +299,7 @@ return {
 			}
 		},
 		{
-			actor = 808011,
+			actor = 808010,
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,

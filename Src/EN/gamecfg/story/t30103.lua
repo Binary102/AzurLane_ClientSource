@@ -11,7 +11,7 @@ return {
 			mode = 2,
 			nameColor = "#ff0000",
 			soundeffect = "event:/battle/boom2",
-			actor = 307021,
+			actor = 307020,
 			actorName = "{namecode:92}",
 			say = "Graaaaghhh!",
 			flashN = {
@@ -63,7 +63,7 @@ return {
 			side = 2,
 			mode = 2,
 			soundeffect = "event:/battle/boom2",
-			actor = 307011,
+			actor = 307010,
 			nameColor = "#ff0000",
 			say = "Kaga! Kagaaaaaaaaaa!",
 			flashN = {
@@ -115,7 +115,7 @@ return {
 			side = 2,
 			mode = 2,
 			actorName = "{namecode:92}",
-			actor = 307021,
+			actor = 307020,
 			nameColor = "#ff0000",
 			say = "To let my guard down... at such a critical time...",
 			shake = {
@@ -135,7 +135,7 @@ return {
 			side = 2,
 			mode = 2,
 			actorName = "{namecode:92}",
-			actor = 307021,
+			actor = 307020,
 			nameColor = "#ff0000",
 			say = " ...Akagi... Sister...",
 			shake = {

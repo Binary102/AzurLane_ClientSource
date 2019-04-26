@@ -10,7 +10,7 @@ return {
 			say = "Our brave little bird seems to be heading to the Sculpture Room. How annoying...",
 			nameColor = "#ff0000",
 			blackBg = true,
-			actor = 307061,
+			actor = 307060,
 			actorName = "？？？",
 			withoutPainting = true,
 			shake = {
@@ -31,7 +31,7 @@ return {
 			side = 1,
 			actorName = "？？？",
 			blackBg = true,
-			actor = 301091,
+			actor = 301090,
 			nameColor = "#ff0000",
 			withoutPainting = true,
 			typewriter = {
@@ -48,7 +48,7 @@ return {
 			side = 0,
 			actorName = "？？？",
 			blackBg = true,
-			actor = 301091,
+			actor = 301090,
 			nameColor = "#ff0000",
 			withoutPainting = true,
 			typewriter = {
@@ -65,7 +65,7 @@ return {
 			say = "Then let's send out a rabbit to stall the little bird. She's been waiting for her tea party long enough...",
 			nameColor = "#ff0000",
 			blackBg = true,
-			actor = 307061,
+			actor = 307060,
 			actorName = "？？？",
 			withoutPainting = true,
 			shake = {

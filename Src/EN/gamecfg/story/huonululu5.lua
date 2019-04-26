@@ -56,7 +56,7 @@ return {
 			}
 		},
 		{
-			actor = 102121,
+			actor = 102120,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -72,7 +72,7 @@ return {
 			}
 		},
 		{
-			actor = 102121,
+			actor = 102120,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -92,7 +92,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			withoutActorName = true,
-			actor = 102121,
+			actor = 102120,
 			nameColor = "#a9f548",
 			say = "Honolulu suddenly went silent. A short while later, she started talking again, with a hint of hesitation in her voice.",
 			typewriter = {
@@ -105,7 +105,7 @@ return {
 			}
 		},
 		{
-			actor = 102121,
+			actor = 102120,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -124,7 +124,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 102121,
+			actor = 102120,
 			nameColor = "#a9f548",
 			say = "I can't imagine myself ever cheerfully smiling like some other girls do, either...",
 			typewriter = {
@@ -150,7 +150,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 102121,
+			actor = 102120,
 			nameColor = "#a9f548",
 			flag = 2,
 			say = "You're a strange one, you know that? ... *H-hmph*... *Ugh*...",
@@ -174,7 +174,7 @@ return {
 			}
 		},
 		{
-			actor = 102121,
+			actor = 102120,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -190,7 +190,7 @@ return {
 			}
 		},
 		{
-			actor = 102121,
+			actor = 102120,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -206,7 +206,7 @@ return {
 			}
 		},
 		{
-			actor = 102121,
+			actor = 102120,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -222,7 +222,7 @@ return {
 			}
 		},
 		{
-			actor = 102121,
+			actor = 102120,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -238,7 +238,7 @@ return {
 			}
 		},
 		{
-			actor = 102121,
+			actor = 102120,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -258,7 +258,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			withoutActorName = true,
-			actor = 102121,
+			actor = 102120,
 			nameColor = "#a9f548",
 			say = "Honolulu exposed her weak side to me, something she's never done before.",
 			typewriter = {
@@ -280,7 +280,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 102121,
+			actor = 102120,
 			nameColor = "#a9f548",
 			say = "...... What?",
 			typewriter = {
@@ -299,7 +299,7 @@ return {
 			}
 		},
 		{
-			actor = 102121,
+			actor = 102120,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",

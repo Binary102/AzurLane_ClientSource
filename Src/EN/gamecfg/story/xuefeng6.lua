@@ -32,7 +32,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 301164,
+			actor = 301160,
 			actorName = "{namecode:22}",
 			say = "Commander... thanks...",
 			typewriter = {
@@ -59,7 +59,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 301164,
+			actor = 301160,
 			actorName = "{namecode:22}",
 			say = "C-Commander, it's not your fault!",
 			typewriter = {
@@ -85,7 +85,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 301164,
+			actor = 301160,
 			actorName = "{namecode:22}",
 			say = "Truthfully, I was never good with the scary stuff... But since you wanted to go, I couldn't just say no...",
 			typewriter = {
@@ -112,7 +112,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 301164,
+			actor = 301160,
 			actorName = "{namecode:22}",
 			say = "I wasn't trying to act tough... much...",
 			typewriter = {
@@ -157,7 +157,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 301164,
+			actor = 301160,
 			actorName = "{namecode:22}",
 			say = "Are you saying that I'm acting tough all the time?",
 			typewriter = {
@@ -174,7 +174,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 301164,
+			actor = 301160,
 			actorName = "{namecode:22}",
 			say = "That's not it! It's just that...",
 			typewriter = {
@@ -191,7 +191,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 301164,
+			actor = 301160,
 			actorName = "{namecode:22}",
 			say = "Everyone is placing their faith in me, so that's why Yukikaze the Great has to help them!",
 			typewriter = {
@@ -208,7 +208,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 301164,
+			actor = 301160,
 			actorName = "{namecode:22}",
 			say = "It's not like... I want to be better friends with them or anything...",
 			typewriter = {
@@ -235,7 +235,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 301164,
+			actor = 301160,
 			actorName = "{namecode:22}",
 			say = "Ehehe... murr...",
 			typewriter = {
@@ -262,7 +262,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 301164,
+			actor = 301160,
 			actorName = "{namecode:22}",
 			say = "Hmm... I suppose I can try to be more honest like you said, Commander...",
 			typewriter = {
@@ -289,7 +289,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 301164,
+			actor = 301160,
 			actorName = "{namecode:22}",
 			say = "Ack...! What did you make Yukikaze the Great say just now...?",
 			typewriter = {
@@ -316,7 +316,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			blackBg = true,
-			actor = 301164,
+			actor = 301160,
 			actorName = "{namecode:22}",
 			say = "F-forget you ever heard anything! ... I definitely didn't say anything just now! Nothing at all!",
 			typewriter = {

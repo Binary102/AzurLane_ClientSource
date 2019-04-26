@@ -4,7 +4,7 @@ return {
 	once = true,
 	scripts = {
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 2,
 			dir = -1,
 			say = "Sure enough, {namecode:98} did not make any mistakes! Also, thank you Commander for your help! This time {namecode:20} will have nothing left to say!",
@@ -18,7 +18,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 2,
 			dir = -1,
 			say = "--- Nya? You’re going to take your fleet out to commission, Commander?",
@@ -32,7 +32,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 2,
 			dir = -1,
 			say = "You’re so hardworking Commander, purr ~ Cheering for ya ~",

@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"特别演习·埃塞克斯级\n\n<size=30>五　演习结束</size>",
+					"特别演习·埃塞克斯级\n\n<size=30>五　Best Memories</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			actor = 107061,
+			actor = 107060,
 			nameColor = "#a9f548",
 			say = "埃塞克斯、香格里拉、独立，还有其他参与演习的大家，辛苦你们了。",
 			flashout = {
@@ -52,7 +52,7 @@ return {
 			}
 		},
 		{
-			actor = 107061,
+			actor = 107060,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -68,7 +68,7 @@ return {
 			}
 		},
 		{
-			actor = 107061,
+			actor = 107060,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -105,12 +105,29 @@ return {
 			}
 		},
 		{
-			actor = 107061,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 107060,
+			nameColor = "#a9f548",
 			say = "埃塞克斯。说实话，在一开始设想敌对方的时候，我完全没料到将会面对如此猛烈的攻势……不过你依然完美地完成了任务。",
+			flashout = {
+				dur = 0.5,
+				black = true,
+				alpha = {
+					0,
+					1
+				}
+			},
+			flashin = {
+				delay = 0.5,
+				dur = 0.5,
+				black = true,
+				alpha = {
+					1,
+					0
+				}
+			},
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +138,7 @@ return {
 			}
 		},
 		{
-			actor = 107061,
+			actor = 107060,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -141,7 +158,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 107091,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "我、我只是完成了自己的分内工作而已……前辈的话一定可以做得比我更好吧！",
 			typewriter = {
@@ -154,7 +171,7 @@ return {
 			}
 		},
 		{
-			actor = 107061,
+			actor = 107060,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -174,7 +191,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgName = "bg_story_task",
-			actor = 107381,
+			actor = 107380,
 			nameColor = "#a9f548",
 			say = "对了，在记录演习过程中我顺便拍了不少照片。要不大家一起来看看吧？",
 			flashout = {
@@ -204,7 +221,7 @@ return {
 			}
 		},
 		{
-			actor = 107071,
+			actor = 107070,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -220,7 +237,7 @@ return {
 			}
 		},
 		{
-			actor = 107061,
+			actor = 107060,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -240,7 +257,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 107091,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "是，是这样么？！",
 			typewriter = {
@@ -257,7 +274,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 107091,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "（有，有点害羞啊……）",
 			typewriter = {
@@ -270,7 +287,7 @@ return {
 			}
 		},
 		{
-			actor = 107071,
+			actor = 107070,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -290,7 +307,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 107221,
+			actor = 107220,
 			nameColor = "#a9f548",
 			say = "非常抱歉，让大家看到了我不成器的一面……",
 			typewriter = {
@@ -303,7 +320,7 @@ return {
 			}
 		},
 		{
-			actor = 107221,
+			actor = 107220,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -322,7 +339,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 107071,
+			actor = 107070,
 			nameColor = "#a9f548",
 			say = "呜咕！这也被拍下来了吗……",
 			typewriter = {
@@ -345,7 +362,7 @@ return {
 			}
 		},
 		{
-			actor = 107091,
+			actor = 107090,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -361,7 +378,7 @@ return {
 			}
 		},
 		{
-			actor = 107221,
+			actor = 107220,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -377,7 +394,7 @@ return {
 			}
 		},
 		{
-			actor = 107381,
+			actor = 107380,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -397,7 +414,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 107381,
+			actor = 107380,
 			nameColor = "#a9f548",
 			say = "那么，作为演习最后的记录，我们来拍一张合照如何？",
 			typewriter = {
@@ -410,7 +427,7 @@ return {
 			}
 		},
 		{
-			actor = 107061,
+			actor = 107060,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -430,7 +447,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 107221,
+			actor = 107220,
 			nameColor = "#a9f548",
 			say = "等等，为什么我要站在前面……",
 			typewriter = {
@@ -457,7 +474,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 107381,
+			actor = 107380,
 			nameColor = "#a9f548",
 			say = "你可是队长啊，队长不在最前面怎么行。埃塞克斯也是，赶紧上来吧。",
 			typewriter = {
@@ -473,7 +490,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 107381,
+			actor = 107380,
 			nameColor = "#a9f548",
 			say = "那么，三、二、一——",
 			flashout = {

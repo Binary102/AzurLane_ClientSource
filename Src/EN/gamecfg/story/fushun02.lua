@@ -21,7 +21,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			bgm = "story-china",
-			actor = 501024,
+			actor = 501020,
 			nameColor = "#a9f548",
 			say = "Chang Chun, look at this!",
 			typewriter = {
@@ -38,7 +38,7 @@ return {
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 501034,
+			actor = 501030,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -54,7 +54,7 @@ return {
 			}
 		},
 		{
-			actor = 501024,
+			actor = 501020,
 			side = 0,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -70,7 +70,7 @@ return {
 			}
 		},
 		{
-			actor = 501034,
+			actor = 501030,
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -86,7 +86,7 @@ return {
 			}
 		},
 		{
-			actor = 501024,
+			actor = 501020,
 			side = 0,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -102,7 +102,7 @@ return {
 			}
 		},
 		{
-			actor = 501034,
+			actor = 501030,
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -118,7 +118,7 @@ return {
 			}
 		},
 		{
-			actor = 501024,
+			actor = 501020,
 			side = 0,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -134,7 +134,7 @@ return {
 			}
 		},
 		{
-			actor = 501034,
+			actor = 501030,
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -150,7 +150,7 @@ return {
 			}
 		},
 		{
-			actor = 501024,
+			actor = 501020,
 			side = 0,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -166,7 +166,7 @@ return {
 			}
 		},
 		{
-			actor = 501034,
+			actor = 501030,
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -182,7 +182,7 @@ return {
 			}
 		},
 		{
-			actor = 501024,
+			actor = 501020,
 			side = 0,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -198,7 +198,7 @@ return {
 			}
 		},
 		{
-			actor = 501034,
+			actor = 501030,
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -217,7 +217,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 900034,
+			actor = 106011,
 			nameColor = "#a9f548",
 			say = "Isn't that a... handheld?",
 			flashout = {
@@ -251,7 +251,7 @@ return {
 			side = 0,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 501024,
+			actor = 501020,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -267,7 +267,7 @@ return {
 			}
 		},
 		{
-			actor = 900034,
+			actor = 106011,
 			side = 1,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -283,7 +283,7 @@ return {
 			}
 		},
 		{
-			actor = 900034,
+			actor = 106011,
 			side = 1,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -299,7 +299,7 @@ return {
 			}
 		},
 		{
-			actor = 900034,
+			actor = 106011,
 			side = 1,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -315,7 +315,7 @@ return {
 			}
 		},
 		{
-			actor = 501024,
+			actor = 501020,
 			side = 0,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -331,7 +331,7 @@ return {
 			}
 		},
 		{
-			actor = 900034,
+			actor = 106011,
 			side = 1,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",

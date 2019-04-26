@@ -29,7 +29,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "battle-2",
-			actor = 307041,
+			actor = 307040,
 			nameColor = "#a9f548",
 			say = "Are we ready yet?! The enemy's counterattack is incoming!",
 			flashout = {
@@ -59,7 +59,7 @@ return {
 			}
 		},
 		{
-			actor = 307011,
+			actor = 307010,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -74,7 +74,7 @@ return {
 			}
 		},
 		{
-			actor = 307021,
+			actor = 307020,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -89,7 +89,7 @@ return {
 			}
 		},
 		{
-			actor = 307021,
+			actor = 307020,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -104,7 +104,7 @@ return {
 			}
 		},
 		{
-			actor = 307031,
+			actor = 307030,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -119,7 +119,7 @@ return {
 			}
 		},
 		{
-			actor = 307011,
+			actor = 307010,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -134,7 +134,7 @@ return {
 			}
 		},
 		{
-			actor = 307021,
+			actor = 307020,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -153,7 +153,7 @@ return {
 			side = 2,
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
-			actor = 307021,
+			actor = 307020,
 			say = "Graaaaghhh!",
 			flashN = {
 				color = {
@@ -603,7 +603,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			actor = 305061,
+			actor = 305060,
 			nameColor = "#a9f548",
 			say = "Sis, I checked out the participants for this year... and they all seem really motivated! I'm so excited!",
 			flashout = {
@@ -633,7 +633,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -648,7 +648,7 @@ return {
 			}
 		},
 		{
-			actor = 305061,
+			actor = 305060,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -663,7 +663,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -678,7 +678,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,

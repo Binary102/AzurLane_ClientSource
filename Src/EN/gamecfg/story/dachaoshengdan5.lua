@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			actor = 205021,
+			actor = 205020,
 			nameColor = "#a9f548",
 			say = "刚才……有些言重了。其实，我们是想向有经验的你请教如何帮大家选择礼物。",
 			flashout = {
@@ -52,7 +52,7 @@ return {
 			}
 		},
 		{
-			actor = 205021,
+			actor = 205020,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -68,7 +68,7 @@ return {
 			}
 		},
 		{
-			actor = 205021,
+			actor = 205020,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -88,7 +88,7 @@ return {
 			side = 1,
 			bgName = "bg_story_school",
 			dir = -1,
-			actor = 900055,
+			actor = 107061,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -104,7 +104,7 @@ return {
 			}
 		},
 		{
-			actor = 205021,
+			actor = 205020,
 			side = 0,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -120,7 +120,7 @@ return {
 			}
 		},
 		{
-			actor = 900055,
+			actor = 107061,
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -136,7 +136,7 @@ return {
 			}
 		},
 		{
-			actor = 205021,
+			actor = 205020,
 			side = 0,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -152,7 +152,7 @@ return {
 			}
 		},
 		{
-			actor = 900055,
+			actor = 107061,
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -171,7 +171,7 @@ return {
 			side = 0,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 205021,
+			actor = 205020,
 			nameColor = "#a9f548",
 			say = "心意……心意吗……我似乎明白了。重要的送礼物时的心意，而不是礼物的价值！",
 			typewriter = {
@@ -194,7 +194,7 @@ return {
 			}
 		},
 		{
-			actor = 900055,
+			actor = 107061,
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -210,7 +210,7 @@ return {
 			}
 		},
 		{
-			actor = 900055,
+			actor = 107061,
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -226,7 +226,7 @@ return {
 			}
 		},
 		{
-			actor = 205021,
+			actor = 205020,
 			side = 0,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -242,7 +242,7 @@ return {
 			}
 		},
 		{
-			actor = 201101,
+			actor = 201100,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -261,7 +261,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 201101,
+			actor = 201100,
 			nameColor = "#a9f548",
 			say = "如果不介意的话，请……请前辈试试看！如果适合前辈的话……咱也……会很高兴的！",
 			typewriter = {
@@ -284,7 +284,7 @@ return {
 			}
 		},
 		{
-			actor = 205021,
+			actor = 205020,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -300,7 +300,7 @@ return {
 			}
 		},
 		{
-			actor = 205021,
+			actor = 205020,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -316,7 +316,7 @@ return {
 			}
 		},
 		{
-			actor = 201101,
+			actor = 201100,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -336,7 +336,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			blackBg = true,
-			actor = 900055,
+			actor = 107061,
 			nameColor = "#a9f548",
 			say = "皇家的圣诞节……想必会很温馨吧，哈哈哈！",
 			typewriter = {

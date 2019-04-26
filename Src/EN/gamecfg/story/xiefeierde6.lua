@@ -53,7 +53,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 202081,
+			actor = 202080,
 			nameColor = "#a9f548",
 			say = "Good morning, Master. Breakfast is ready, so please get rinsed. I mean, washed.",
 			typewriter = {
@@ -72,7 +72,7 @@ return {
 			}
 		},
 		{
-			actor = 202081,
+			actor = 202080,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -102,7 +102,7 @@ return {
 			}
 		},
 		{
-			actor = 202081,
+			actor = 202080,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -118,7 +118,7 @@ return {
 			}
 		},
 		{
-			actor = 202081,
+			actor = 202080,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -134,7 +134,7 @@ return {
 			}
 		},
 		{
-			actor = 202081,
+			actor = 202080,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",

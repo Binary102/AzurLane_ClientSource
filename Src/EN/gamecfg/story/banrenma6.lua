@@ -76,7 +76,7 @@ return {
 			}
 		},
 		{
-			actor = 204031,
+			actor = 204030,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -97,7 +97,7 @@ return {
 			bgName = "bg_story_school",
 			say = "啊，是的。你好，胡德前辈。",
 			dir = -1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -113,7 +113,7 @@ return {
 			}
 		},
 		{
-			actor = 204031,
+			actor = 204030,
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -133,7 +133,7 @@ return {
 			side = 0,
 			bgName = "bg_story_school",
 			dir = -1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "嘻嘻，没有啦，您过奖了~",
 			typewriter = {
@@ -146,7 +146,7 @@ return {
 			}
 		},
 		{
-			actor = 204031,
+			actor = 204030,
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -166,7 +166,7 @@ return {
 			side = 0,
 			bgName = "bg_story_school",
 			dir = -1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "嗯！虽然我对茶懂得不多，不过很好喝呢。",
 			typewriter = {
@@ -179,7 +179,7 @@ return {
 			}
 		},
 		{
-			actor = 204031,
+			actor = 204030,
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -199,7 +199,7 @@ return {
 			side = 0,
 			bgName = "bg_story_school",
 			dir = -1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "嗯~",
 			typewriter = {
@@ -215,7 +215,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 301321,
+			actor = 301320,
 			nameColor = "#a9f548",
 			say = "啊，是半人马！",
 			flashout = {
@@ -249,7 +249,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 301331,
+			actor = 301330,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -265,7 +265,7 @@ return {
 			}
 		},
 		{
-			actor = 206041,
+			actor = 206040,
 			side = 0,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -281,7 +281,7 @@ return {
 			}
 		},
 		{
-			actor = 301331,
+			actor = 301330,
 			side = 1,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -301,7 +301,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_103",
 			dir = -1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "谢谢~",
 			typewriter = {
@@ -314,7 +314,7 @@ return {
 			}
 		},
 		{
-			actor = 301321,
+			actor = 301320,
 			side = 0,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -334,7 +334,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "好的~我晚点再去找你们~",
 			typewriter = {
@@ -356,7 +356,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 301321,
+			actor = 301320,
 			nameColor = "#a9f548",
 			say = "不给指挥官~~",
 			typewriter = {
@@ -427,7 +427,7 @@ return {
 			bgName = "star_level_bg_103",
 			dir = 1,
 			blackBg = true,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "啊，这个的话，因为“前辈”两个字对现在的我来说，有了新的含义呢~",
 			typewriter = {

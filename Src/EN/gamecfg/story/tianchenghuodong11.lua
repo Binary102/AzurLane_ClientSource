@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 304051,
+			actor = 304050,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = -1,
@@ -27,7 +27,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = -1,
-			actor = 301791,
+			actor = 301790,
 			say = "The Sirens' movements are unpredictable. Who could have foreseen them attacking the same place where we just held our wargames?",
 			typewriter = {
 				speed = 0.05,
@@ -39,7 +39,7 @@ return {
 			}
 		},
 		{
-			actor = 303091,
+			actor = 303090,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -58,7 +58,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = -1,
-			actor = 304051,
+			actor = 304050,
 			say = "Great news. Though I'm not sold on their combat ability, at least these little flying critters are great at reconnaissance. Hehe...",
 			typewriter = {
 				speed = 0.05,
@@ -70,7 +70,7 @@ return {
 			}
 		},
 		{
-			actor = 304051,
+			actor = 304050,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,

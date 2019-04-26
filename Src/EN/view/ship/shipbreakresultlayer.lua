@@ -100,11 +100,11 @@ function slot0.updateStatistics(slot0)
 		setImageSprite(slot0._tf, slot0, false)
 	end)
 
-	slot20, slot17 = Ship.getWords(slot1.skinId, "upgrade")
+	slot20, slot17 = Ship.getWords(slot1.skinId, "upgrade", nil, nil, slot1:getIntimacy() / 100 + ((slot1.propose and 1000) or 0))
 
-	setWidgetTextEN(slot0._chat, slot16)
+	setWidgetTextEN(slot0._chat, Ship.getWords)
 
-	slot18.alignment = (CHAT_POP_STR_LEN < #slot0:findTF("Text", slot0._chat):GetComponent(typeof(Text)).text and TextAnchor.MiddleLeft) or TextAnchor.MiddleCenter
+	"upgrade".alignment = (CHAT_POP_STR_LEN < #slot0:findTF("Text", slot0._chat):GetComponent(typeof(Text)).text and TextAnchor.MiddleLeft) or TextAnchor.MiddleCenter
 	slot0._chat.transform.localScale = Vector3(0, 0, 1)
 
 	LeanTween.delayedCall(0.6, System.Action(function ()

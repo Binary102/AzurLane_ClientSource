@@ -27,6 +27,7 @@ function slot6.Ctor(slot0)
 	slot0._reloadFacotrList = {}
 	slot0._diveEnabled = true
 	slot0._comboIDList = {}
+	slot0._jammingTime = 0
 end
 
 function slot6.HostOnEnemy(slot0)
@@ -302,7 +303,7 @@ function slot6.Update(slot0)
 end
 
 function slot6.UpdateReload(slot0)
-	if slot0._CDstartTime then
+	if slot0._CDstartTime and not slot0._jammingStartTime then
 		if slot0:GetReloadFinishTimeStamp() <= pg.TimeMgr.GetInstance():GetCombatTime() then
 			slot0:handleCoolDown()
 		else
@@ -873,6 +874,7 @@ end
 function slot6.handleCoolDown(slot0)
 	slot0._currentState = slot0.STATE_READY
 	slot0._CDstartTime = nil
+	slot0._jammingTime = 0
 
 	return
 end
@@ -1027,7 +1029,24 @@ function slot6.GetReloadTime(slot0)
 end
 
 function slot6.GetReloadFinishTimeStamp(slot0)
-	return slot0._reloadRequire + slot0._CDstartTime
+	return slot0._reloadRequire + slot0._CDstartTime + slot0._jammingTime
+end
+
+function slot6.StartJamming(slot0)
+	slot0._jammingStartTime = pg.TimeMgr.GetInstance():GetCombatTime()
+
+	return
+end
+
+function slot6.JammingEliminate(slot0)
+	if not slot0._jammingStartTime then
+		return
+	end
+
+	slot0._jammingTime = pg.TimeMgr.GetInstance():GetCombatTime() - slot0._jammingStartTime
+	slot0._jammingStartTime = nil
+
+	return
 end
 
 function slot6.FlushReloadMax(slot0, slot1)

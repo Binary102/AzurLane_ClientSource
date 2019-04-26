@@ -74,7 +74,7 @@ return {
 			nameColor = "#D6341D",
 			dir = 0,
 			blackBg = true,
-			actor = 502011,
+			actor = 502010,
 			actorName = "？？？",
 			say = "啊啊啊，这样的话多无聊啊，都没有我出马的机会了！！",
 			shake = {

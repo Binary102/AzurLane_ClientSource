@@ -110,7 +110,7 @@ return {
 		{
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 307061,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			say = "Now that I think about it, maybe this trap was also part of their plan...",
 			flashout = {
@@ -140,7 +140,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			side = 2,
 			nameColor = "#a9f548",

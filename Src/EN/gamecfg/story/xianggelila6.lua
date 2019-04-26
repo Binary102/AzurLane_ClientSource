@@ -46,7 +46,7 @@ return {
 			}
 		},
 		{
-			actor = 107091,
+			actor = 107090,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -62,7 +62,7 @@ return {
 			}
 		},
 		{
-			actor = 107381,
+			actor = 107380,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -78,7 +78,7 @@ return {
 			}
 		},
 		{
-			actor = 107071,
+			actor = 107070,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -94,7 +94,7 @@ return {
 			}
 		},
 		{
-			actor = 107381,
+			actor = 107380,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -113,7 +113,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 307061,
+			actor = 307060,
 			nameColor = "#a9f548",
 			say = "哇哦，燃起来了燃起来了！",
 			typewriter = {
@@ -136,7 +136,7 @@ return {
 			}
 		},
 		{
-			actor = 107061,
+			actor = 107060,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -152,7 +152,7 @@ return {
 			}
 		},
 		{
-			actor = 107051,
+			actor = 107050,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -172,7 +172,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 107381,
+			actor = 107380,
 			nameColor = "#a9f548",
 			say = "前辈…还有大家，都来了啊",
 			typewriter = {
@@ -188,7 +188,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = -1,
-			actor = 107071,
+			actor = 107070,
 			nameColor = "#a9f548",
 			say = "啊哈哈，意外的成了一场热闹比赛啊！",
 			typewriter = {
@@ -215,7 +215,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 107381,
+			actor = 107380,
 			nameColor = "#a9f548",
 			say = "那么…开始的信号，就拜托指挥官了。",
 			typewriter = {
@@ -263,7 +263,7 @@ return {
 			bgName = "bg_story_nepu1",
 			dir = -1,
 			soundeffect = "event:/battle/plane",
-			actor = 107071,
+			actor = 107070,
 			nameColor = "#a9f548",
 			say = "去吧，舰载机们！",
 			typewriter = {
@@ -280,7 +280,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 107381,
+			actor = 107380,
 			nameColor = "#a9f548",
 			say = "根据以往的数据分析，这里是佯攻的概率有90%——",
 			typewriter = {
@@ -297,7 +297,7 @@ return {
 			bgName = "bg_story_nepu1",
 			dir = -1,
 			soundeffect = "event:/battle/plane",
-			actor = 107071,
+			actor = 107070,
 			nameColor = "#a9f548",
 			say = "嘁，没有上当么…那就…这样如何！",
 			typewriter = {
@@ -314,7 +314,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 107381,
+			actor = 107380,
 			say = "这也在…预料之内！",
 			flashN = {
 				color = {
@@ -358,7 +358,7 @@ return {
 			}
 		},
 		{
-			actor = 107061,
+			actor = 107060,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -374,7 +374,7 @@ return {
 			}
 		},
 		{
-			actor = 307051,
+			actor = 307050,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -390,7 +390,7 @@ return {
 			}
 		},
 		{
-			actor = 107051,
+			actor = 107050,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -411,7 +411,7 @@ return {
 			dir = 1,
 			bgName = "bg_story_nepu1",
 			soundeffect = "event:/battle/plane",
-			actor = 107381,
+			actor = 107380,
 			nameColor = "#a9f548",
 			seDelay = 1,
 			flashout = {
@@ -445,7 +445,7 @@ return {
 			bgName = "bg_story_nepu1",
 			dir = -1,
 			soundeffect = "event:/battle/plane",
-			actor = 107071,
+			actor = 107070,
 			nameColor = "#a9f548",
 			say = "嘁！别小看了…大黄蜂大人啊！！",
 			effects = {
@@ -477,7 +477,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 107381,
+			actor = 107380,
 			nameColor = "#a9f548",
 			say = "居然还藏有攻击编队？！糟了！！",
 			effects = {
@@ -543,7 +543,7 @@ return {
 			}
 		},
 		{
-			actor = 107061,
+			actor = 107060,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -559,7 +559,7 @@ return {
 			}
 		},
 		{
-			actor = 107051,
+			actor = 107050,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -579,7 +579,7 @@ return {
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			blackBg = true,
-			actor = 107091,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "这算是……平局？",
 			typewriter = {

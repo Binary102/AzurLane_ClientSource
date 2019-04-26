@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			actor = 202201,
+			actor = 202200,
 			nameColor = "#a9f548",
 			say = "Nelson, Rodney, please share your insight with me.",
 			flashout = {
@@ -52,7 +52,7 @@ return {
 			}
 		},
 		{
-			actor = 205031,
+			actor = 205030,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -68,7 +68,7 @@ return {
 			}
 		},
 		{
-			actor = 205041,
+			actor = 205040,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -98,7 +98,7 @@ return {
 			}
 		},
 		{
-			actor = 205031,
+			actor = 205030,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -114,7 +114,7 @@ return {
 			}
 		},
 		{
-			actor = 202201,
+			actor = 202200,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -134,7 +134,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 202201,
+			actor = 202200,
 			nameColor = "#a9f548",
 			say = "I have done a general background check on all of the attendees, and my survey of the perimeter's defences and emergency escape routes is 90% complete.",
 			typewriter = {
@@ -151,7 +151,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 202201,
+			actor = 202200,
 			nameColor = "#a9f548",
 			say = "Lastly, I've prepared various banquet items for the Master, installed a communications device in the Master's car, prepared spare clothing, and prepared antiemetic medicine.",
 			typewriter = {
@@ -178,7 +178,7 @@ return {
 			}
 		},
 		{
-			actor = 205031,
+			actor = 205030,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -197,7 +197,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 202201,
+			actor = 202200,
 			nameColor = "#a9f548",
 			say = "If there is anything I may have not accounted for, please do let me know.",
 			typewriter = {
@@ -220,7 +220,7 @@ return {
 			}
 		},
 		{
-			actor = 205041,
+			actor = 205040,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -239,7 +239,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 205041,
+			actor = 205040,
 			nameColor = "#a9f548",
 			say = "That should be everything. Oh, right, I nearly forgot to ask an important question: do you have a dress prepared?",
 			flashout = {
@@ -273,7 +273,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 202201,
+			actor = 202200,
 			nameColor = "#a9f548",
 			say = "I've... Um...",
 			typewriter = {
@@ -289,7 +289,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 205031,
+			actor = 205030,
 			nameColor = "#a9f548",
 			say = "Figures... You should go ask Illustrious or Akashi. You're basically already wearing a dress, so they might be able to get you a new one right away.",
 			typewriter = {
@@ -312,7 +312,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 202201,
+			actor = 202200,
 			nameColor = "#a9f548",
 			say = "Nelson, Master, you have my sincerest thanks for all of your help!",
 			typewriter = {

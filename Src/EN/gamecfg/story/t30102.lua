@@ -4,7 +4,7 @@ return {
 	once = true,
 	scripts = {
 		{
-			actor = 307041,
+			actor = 307040,
 			side = 2,
 			nameColor = "#ff0000",
 			say = "Are we ready yet?! The enemy's counterattack is incoming!",
@@ -22,7 +22,7 @@ return {
 			}
 		},
 		{
-			actor = 307011,
+			actor = 307010,
 			side = 2,
 			dir = -1,
 			nameColor = "#ff0000",
@@ -41,7 +41,7 @@ return {
 			}
 		},
 		{
-			actor = 307021,
+			actor = 307020,
 			side = 2,
 			nameColor = "#ff0000",
 			say = "What?! Change equipment right now?!",
@@ -59,7 +59,7 @@ return {
 			}
 		},
 		{
-			actor = 307021,
+			actor = 307020,
 			side = 2,
 			nameColor = "#ff0000",
 			say = "Akagi, I can't do that! What if the enemy attacks while we're unprepared?!",
@@ -77,7 +77,7 @@ return {
 			}
 		},
 		{
-			actor = 307011,
+			actor = 307010,
 			side = 2,
 			dir = -1,
 			nameColor = "#ff0000",
@@ -96,7 +96,7 @@ return {
 			}
 		},
 		{
-			actor = 307031,
+			actor = 307030,
 			side = 2,
 			dir = -1,
 			nameColor = "#ff0000",
@@ -115,7 +115,7 @@ return {
 			}
 		},
 		{
-			actor = 307011,
+			actor = 307010,
 			side = 2,
 			dir = -1,
 			nameColor = "#ff0000",
@@ -134,7 +134,7 @@ return {
 			}
 		},
 		{
-			actor = 307021,
+			actor = 307020,
 			side = 2,
 			nameColor = "#ff0000",
 			say = "Dammit! Call back the fighters! We need anti-air now!",
@@ -155,7 +155,7 @@ return {
 			side = 0,
 			say = "Too late! McClusky squadron, attaaack!!",
 			dir = -1,
-			actor = 107061,
+			actor = 107060,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,

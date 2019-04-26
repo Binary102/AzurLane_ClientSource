@@ -49,7 +49,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 301271,
+			actor = 301270,
 			nameColor = "#a9f548",
 			say = "Hi-yah!",
 			typewriter = {
@@ -85,7 +85,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 301091,
+			actor = 301090,
 			nameColor = "#a9f548",
 			say = "I-impressive...!",
 			typewriter = {
@@ -112,7 +112,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 301271,
+			actor = 301270,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -131,7 +131,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 301091,
+			actor = 301090,
 			nameColor = "#a9f548",
 			say = "Really?! Then I shall give it a try... Haaaaahh! ... Waaahhh?!",
 			typewriter = {
@@ -164,7 +164,7 @@ return {
 			}
 		},
 		{
-			actor = 301091,
+			actor = 301090,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -180,7 +180,7 @@ return {
 			}
 		},
 		{
-			actor = 301091,
+			actor = 301090,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -199,7 +199,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 301091,
+			actor = 301090,
 			nameColor = "#a9f548",
 			say = "Haaaahh! ... Huh?... Waaahhhh?!",
 			typewriter = {
@@ -235,7 +235,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 301091,
+			actor = 301090,
 			nameColor = "#a9f548",
 			say = "Grr... O-one more attempt!",
 			typewriter = {
@@ -261,7 +261,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 301091,
+			actor = 301090,
 			nameColor = "#a9f548",
 			say = "This time, I shall succeed! Hah! ... Waaahhh?!",
 			typewriter = {
@@ -294,7 +294,7 @@ return {
 			}
 		},
 		{
-			actor = 301271,
+			actor = 301270,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -314,7 +314,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 301091,
+			actor = 301090,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -330,7 +330,7 @@ return {
 			}
 		},
 		{
-			actor = 301271,
+			actor = 301270,
 			side = 0,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -346,7 +346,7 @@ return {
 			}
 		},
 		{
-			actor = 301271,
+			actor = 301270,
 			side = 0,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -362,7 +362,7 @@ return {
 			}
 		},
 		{
-			actor = 301091,
+			actor = 301090,
 			side = 1,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -378,7 +378,7 @@ return {
 			}
 		},
 		{
-			actor = 301091,
+			actor = 301090,
 			side = 1,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -394,7 +394,7 @@ return {
 			}
 		},
 		{
-			actor = 301271,
+			actor = 301270,
 			side = 0,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -413,7 +413,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 301091,
+			actor = 301090,
 			nameColor = "#a9f548",
 			say = "I understand... I'm sorry...",
 			typewriter = {
@@ -436,7 +436,7 @@ return {
 			}
 		},
 		{
-			actor = 301271,
+			actor = 301270,
 			side = 0,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -452,7 +452,7 @@ return {
 			}
 		},
 		{
-			actor = 301271,
+			actor = 301270,
 			side = 0,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -468,7 +468,7 @@ return {
 			}
 		},
 		{
-			actor = 301091,
+			actor = 301090,
 			side = 1,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",

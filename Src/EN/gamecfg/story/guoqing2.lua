@@ -243,7 +243,7 @@ return {
 			side = 2,
 			mode = 2,
 			blackBg = true,
-			actor = 307061,
+			actor = 307060,
 			nameColor = "#a9f548",
 			say = "……",
 			flashout = {
@@ -275,7 +275,7 @@ return {
 			side = 2,
 			mode = 2,
 			blackBg = true,
-			actor = 307061,
+			actor = 307060,
 			nameColor = "#a9f548",
 			say = "Is this...?",
 			typewriter = {
@@ -292,7 +292,7 @@ return {
 			side = 2,
 			mode = 2,
 			blackBg = true,
-			actor = 307061,
+			actor = 307060,
 			nameColor = "#a9f548",
 			say = "Huh?? I’m still alive!!!",
 			typewriter = {
@@ -309,7 +309,7 @@ return {
 			side = 2,
 			mode = 2,
 			blackBg = true,
-			actor = 307061,
+			actor = 307060,
 			nameColor = "#a9f548",
 			say = "That was... my head hurts, what happened just now? I can’t seem to remember...",
 			typewriter = {
@@ -326,7 +326,7 @@ return {
 			side = 2,
 			mode = 2,
 			blackBg = true,
-			actor = 307061,
+			actor = 307060,
 			nameColor = "#a9f548",
 			say = "Damn, I've lost contact with {namecode:95}, the situation is getting worse...",
 			typewriter = {
@@ -343,7 +343,7 @@ return {
 			side = 2,
 			mode = 2,
 			blackBg = true,
-			actor = 307061,
+			actor = 307060,
 			nameColor = "#a9f548",
 			say = "……",
 			typewriter = {
@@ -360,7 +360,7 @@ return {
 			side = 2,
 			mode = 2,
 			blackBg = true,
-			actor = 307061,
+			actor = 307060,
 			nameColor = "#a9f548",
 			say = "Belay my last… at the very least, I found you at last...",
 			typewriter = {
@@ -377,7 +377,7 @@ return {
 			side = 2,
 			mode = 2,
 			blackBg = true,
-			actor = 307061,
+			actor = 307060,
 			nameColor = "#a9f548",
 			say = "Here it is, the “Sanctuary” foretold in legends.",
 			typewriter = {

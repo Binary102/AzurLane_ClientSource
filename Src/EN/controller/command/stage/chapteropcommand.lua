@@ -48,6 +48,8 @@ class("ChapterOpCommand", import(".ChapterOpRoutine")).execute = function (slot0
 				slot0:doAIUpdate()
 				slot0:doShipUpdate()
 				slot0:doBuffUpdate()
+				slot0:doCellFlagUpdate()
+				slot0:doKizunaJammingUpdate()
 
 				if slot1.type == ChapterConst.OpRetreat then
 					if slot3:getPlayType() == ChapterConst.TypeMainSub and (slot1.win or not slot3:isValid()) then
@@ -103,7 +105,9 @@ class("ChapterOpCommand", import(".ChapterOpRoutine")).execute = function (slot0
 					items = slot0.items,
 					exittype = slot1.exittype or 0,
 					aiActs = slot0.aiActs,
-					oldLine = slot1.ordLine
+					oldLine = slot1.ordLine,
+					extraFlagRemoveList = slot0.del_flag_list,
+					extraFlagAddList = slot0.add_flag_list
 				})
 			end
 		else

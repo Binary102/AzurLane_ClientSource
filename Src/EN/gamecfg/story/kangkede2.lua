@@ -59,7 +59,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "Hey~ hurry up, the confectionery is just ahead!",
 			typewriter = {
@@ -86,7 +86,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 102011,
+			actor = 102010,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -112,7 +112,7 @@ return {
 			}
 		},
 		{
-			actor = 102021,
+			actor = 102020,
 			side = 1,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -132,7 +132,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "Don't worry, Li'l Raleigh! Whatever you can't finish, I will take care of~",
 			typewriter = {
@@ -148,7 +148,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 102021,
+			actor = 102020,
 			nameColor = "#a9f548",
 			say = "How many times do I have to tell you, I'm the elder sister! Address me accordingly!",
 			typewriter = {
@@ -171,7 +171,7 @@ return {
 			}
 		},
 		{
-			actor = 102011,
+			actor = 102010,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -191,7 +191,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgName = "star_level_bg_104",
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "The variety here isn't half bad~ gotta try the strawberry sundae first though!",
 			flashout = {
@@ -221,7 +221,7 @@ return {
 			}
 		},
 		{
-			actor = 102021,
+			actor = 102020,
 			side = 2,
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
@@ -240,7 +240,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_104",
 			dir = 1,
-			actor = 102011,
+			actor = 102010,
 			nameColor = "#a9f548",
 			say = "Ooohh~ a Napoleon cake! I'm not gonna hold back!",
 			typewriter = {
@@ -268,7 +268,7 @@ return {
 			bgName = "star_level_bg_104",
 			say = "Sis, didn't you say you were trying to lose weight? As soon as you come here, you grab enough cake for five people.",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -287,7 +287,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_104",
 			dir = 1,
-			actor = 102011,
+			actor = 102010,
 			nameColor = "#a9f548",
 			say = "Haha, sweets are also a form of snacks! For the sake of delicious snacks, we won't talk about stuff like weight loss!",
 			typewriter = {
@@ -310,7 +310,7 @@ return {
 			}
 		},
 		{
-			actor = 102021,
+			actor = 102020,
 			side = 1,
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
@@ -330,7 +330,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_104",
 			withoutActorName = true,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "Before she realized it, in front of Concord was an ever-growing array of plates of various shapes and sizes. It was as if she was being surrounded by an army of sweets.",
 			typewriter = {
@@ -343,7 +343,7 @@ return {
 			}
 		},
 		{
-			actor = 102021,
+			actor = 102020,
 			side = 1,
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
@@ -363,7 +363,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_104",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "Tisk tisk tisk! Don't you know, refuelling my sugar supply is a daily obligation!",
 			typewriter = {
@@ -390,7 +390,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_104",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "There's a difference between sugar and casual snacks, you know~",
 			typewriter = {
@@ -407,7 +407,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_104",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "So, let's just cut loose and eat, hehe~",
 			typewriter = {
@@ -420,7 +420,7 @@ return {
 			}
 		},
 		{
-			actor = 102011,
+			actor = 102010,
 			side = 1,
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
@@ -436,7 +436,7 @@ return {
 			}
 		},
 		{
-			actor = 102021,
+			actor = 102020,
 			side = 2,
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",

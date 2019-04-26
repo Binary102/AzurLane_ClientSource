@@ -12,7 +12,7 @@ return {
 			dir = -1,
 			blackBg = true,
 			bgm = "story-5",
-			actor = 307041,
+			actor = 307040,
 			actorName = "{namecode:94}",
 			say = "I'll put every last ounce of my remaining strength... into this single attack!",
 			shake = {
@@ -35,7 +35,7 @@ return {
 			bgspeed = 2,
 			blackBg = true,
 			soundeffect = "event:/battle/boom2",
-			actor = 107051,
+			actor = 107050,
 			nameColor = "#a9f548",
 			withoutPainting = true,
 			flash = {
@@ -62,12 +62,12 @@ return {
 			blackBg = true,
 			side = 0,
 			say = "Yorktown!!",
-			actor = 107061,
+			actor = 107060,
 			actorName = "Enterprise & Hornet",
 			withoutPainting = true,
 			subActors = {
 				{
-					actor = 107071,
+					actor = 107070,
 					pos = {
 						x = -550
 					}
@@ -81,7 +81,7 @@ return {
 		{
 			side = 2,
 			actorName = "{namecode:94}",
-			actor = 307041,
+			actor = 307040,
 			dir = -1,
 			blackBg = true,
 			mode = 2,
@@ -108,7 +108,7 @@ return {
 			mode = 2,
 			dir = -1,
 			blackBg = true,
-			actor = 307041,
+			actor = 307040,
 			nameColor = "#ff0000",
 			say = "I can die without any regrets...",
 			shake = {
@@ -128,7 +128,7 @@ return {
 			mode = 3,
 			side = 0,
 			bgName = "bg_story_10",
-			actor = 107051,
+			actor = 107050,
 			say = "Why are you two crying at a time like this? We just won a decisive battle.",
 			blackBg = true,
 			nameColor = "#a9f548",
@@ -145,7 +145,7 @@ return {
 			}
 		},
 		{
-			actor = 107051,
+			actor = 107050,
 			mode = 3,
 			nameColor = "#a9f548",
 			side = 0,
@@ -158,7 +158,7 @@ return {
 			}
 		},
 		{
-			actor = 107051,
+			actor = 107050,
 			mode = 3,
 			nameColor = "#a9f548",
 			side = 0,
@@ -171,7 +171,7 @@ return {
 			}
 		},
 		{
-			actor = 107051,
+			actor = 107050,
 			mode = 3,
 			nameColor = "#a9f548",
 			side = 0,
@@ -184,7 +184,7 @@ return {
 			}
 		},
 		{
-			actor = 107061,
+			actor = 107060,
 			mode = 3,
 			nameColor = "#a9f548",
 			side = 0,
@@ -197,7 +197,7 @@ return {
 			}
 		},
 		{
-			actor = 107051,
+			actor = 107050,
 			mode = 3,
 			nameColor = "#a9f548",
 			side = 0,
@@ -210,7 +210,7 @@ return {
 			}
 		},
 		{
-			actor = 107051,
+			actor = 107050,
 			mode = 3,
 			nameColor = "#a9f548",
 			side = 0,
@@ -226,7 +226,7 @@ return {
 			mode = 3,
 			side = 0,
 			bgName = "bg_story_11",
-			actor = 107051,
+			actor = 107050,
 			bgspeed = 2,
 			blackBg = true,
 			say = "Finally... I entrust my dear friend to you...",
@@ -244,7 +244,7 @@ return {
 			}
 		},
 		{
-			actor = 107051,
+			actor = 107050,
 			mode = 3,
 			nameColor = "#a9f548",
 			side = 0,
@@ -257,7 +257,7 @@ return {
 			}
 		},
 		{
-			actor = 107051,
+			actor = 107050,
 			mode = 3,
 			nameColor = "#a9f548",
 			side = 0,
@@ -290,7 +290,7 @@ return {
 			blackBg = true,
 			say = "Once again, so many souls are dispersing...",
 			fadein = 1.5,
-			actor = 307041,
+			actor = 307040,
 			actorName = "？？？",
 			nameColor = "#ff0000",
 			withoutPainting = true,
@@ -314,7 +314,7 @@ return {
 			dir = -1,
 			blackBg = true,
 			nameColor = "#ff0000",
-			actor = 307041,
+			actor = 307040,
 			actorName = "？？？",
 			withoutPainting = true,
 			shake = {
@@ -337,7 +337,7 @@ return {
 			dir = -1,
 			blackBg = true,
 			nameColor = "#ff0000",
-			actor = 307041,
+			actor = 307040,
 			actorName = "？？？",
 			withoutPainting = true,
 			shake = {
@@ -360,7 +360,7 @@ return {
 			dir = -1,
 			blackBg = true,
 			mode = 2,
-			actor = 307041,
+			actor = 307040,
 			actorName = "？？？",
 			withoutPainting = true,
 			shake = {

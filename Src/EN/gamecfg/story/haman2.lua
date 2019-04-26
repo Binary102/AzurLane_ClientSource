@@ -41,7 +41,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 101251,
+			actor = 101250,
 			say = "那个大笨蛋！难得哈曼开口说要帮他，居然说什么“太努力过头了不好啊—”！？",
 			flashout = {
 				dur = 1,
@@ -78,7 +78,7 @@ return {
 			}
 		},
 		{
-			actor = 101251,
+			actor = 101250,
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -93,7 +93,7 @@ return {
 			}
 		},
 		{
-			actor = 101251,
+			actor = 101250,
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -123,7 +123,7 @@ return {
 			}
 		},
 		{
-			actor = 101251,
+			actor = 101250,
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -144,7 +144,7 @@ return {
 			}
 		},
 		{
-			actor = 101251,
+			actor = 101250,
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -167,7 +167,7 @@ return {
 			}
 		},
 		{
-			actor = 101251,
+			actor = 101250,
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -197,7 +197,7 @@ return {
 			}
 		},
 		{
-			actor = 101251,
+			actor = 101250,
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -227,7 +227,7 @@ return {
 			}
 		},
 		{
-			actor = 101251,
+			actor = 101250,
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -250,7 +250,7 @@ return {
 			}
 		},
 		{
-			actor = 101251,
+			actor = 101250,
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -271,7 +271,7 @@ return {
 			}
 		},
 		{
-			actor = 101251,
+			actor = 101250,
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -286,7 +286,7 @@ return {
 			}
 		},
 		{
-			actor = 101251,
+			actor = 101250,
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -301,7 +301,7 @@ return {
 			}
 		},
 		{
-			actor = 101251,
+			actor = 101250,
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -325,7 +325,7 @@ return {
 			}
 		},
 		{
-			actor = 101251,
+			actor = 101250,
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -344,7 +344,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			actor = 101251,
+			actor = 101250,
 			say = "哈曼为什么把指挥官赶出去了啊！！",
 			typewriter = {
 				speed = 0.05,

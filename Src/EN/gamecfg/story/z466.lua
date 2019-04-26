@@ -108,7 +108,7 @@ return {
 			}
 		},
 		{
-			actor = 401461,
+			actor = 401460,
 			side = 2,
 			bgName = "bg_story_task",
 			say = "This report of the battle that took place... please do not forget to give it a look.",
@@ -134,7 +134,7 @@ return {
 			}
 		},
 		{
-			actor = 401461,
+			actor = 401460,
 			side = 2,
 			bgName = "bg_story_task",
 			say = "Our ships put forth the best effort we could, even as we fired our last bullets. Should the enemy know the thing called \"pride\", they too would feel good for giving their all. ",
@@ -160,7 +160,7 @@ return {
 			}
 		},
 		{
-			actor = 401461,
+			actor = 401460,
 			side = 2,
 			bgName = "bg_story_task",
 			say = "We strove to attain the best combat results. From the perspective of consequences, we struck a severe blow into their heart, a better outcome than a quick retreat.",
@@ -186,7 +186,7 @@ return {
 			}
 		},
 		{
-			actor = 401461,
+			actor = 401460,
 			side = 2,
 			bgName = "bg_story_task",
 			say = "Though I also serve as secretary, in the end I am still but a weapon. The fact that I only exist to fight, is perhaps something that never will change.",
@@ -200,7 +200,7 @@ return {
 			}
 		},
 		{
-			actor = 401461,
+			actor = 401460,
 			side = 2,
 			bgName = "bg_story_task",
 			say = "Before the existence of this \"Viersechs\", I was first laid down during the Great War. I carried with me great expectations; the sign I was given, \"Z46\".",

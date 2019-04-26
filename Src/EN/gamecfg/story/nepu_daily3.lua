@@ -21,7 +21,7 @@ return {
 			bgName = "bg_story_school",
 			dir = -1,
 			bgm = "story-nepu1",
-			actor = 10100014,
+			actor = 10100010,
 			nameColor = "#a9f548",
 			say = "Everyone together now, let's make some noise! I'll nep up your face~♪",
 			typewriter = {
@@ -40,12 +40,12 @@ return {
 			hideOther = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			actor = 201214,
+			actor = 201210,
 			actorName = "Laffey & Javelin",
 			say = "I'll nep up your face~♪",
 			subActors = {
 				{
-					actor = 101174,
+					actor = 101170,
 					dir = 1,
 					pos = {
 						x = 680
@@ -68,12 +68,12 @@ return {
 			hideOther = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			actor = 301124,
+			actor = 301120,
 			actorName = "{namecode:14}&{namecode:13}",
 			say = "I'll nep up your face~♪",
 			subActors = {
 				{
-					actor = 301114,
+					actor = 301110,
 					dir = 1,
 					pos = {
 						x = 680
@@ -96,12 +96,12 @@ return {
 			hideOther = true,
 			dir = -1,
 			nameColor = "#a9f548",
-			actor = 107034,
+			actor = 107030,
 			actorName = "Saratoga & San Diego",
 			say = "I'll nep up your face~♪",
 			subActors = {
 				{
-					actor = 102084,
+					actor = 102080,
 					dir = -1,
 					pos = {
 						x = -680
@@ -118,7 +118,7 @@ return {
 			}
 		},
 		{
-			actor = 10100014,
+			actor = 10100010,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -138,7 +138,7 @@ return {
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 10100024,
+			actor = 10100020,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -154,7 +154,7 @@ return {
 			}
 		},
 		{
-			actor = 10100014,
+			actor = 10100010,
 			side = 0,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -170,7 +170,7 @@ return {
 			}
 		},
 		{
-			actor = 10100024,
+			actor = 10100020,
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -190,7 +190,7 @@ return {
 			side = 0,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 301054,
+			actor = 301050,
 			actorName = "{namecode:6}",
 			say = "Is she ignoring the fact there are carriers and light cruisers here too...?",
 			typewriter = {
@@ -203,7 +203,7 @@ return {
 			}
 		},
 		{
-			actor = 401234,
+			actor = 401230,
 			side = 0,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -219,7 +219,7 @@ return {
 			}
 		},
 		{
-			actor = 10100024,
+			actor = 10100020,
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -235,7 +235,7 @@ return {
 			}
 		},
 		{
-			actor = 10100014,
+			actor = 10100010,
 			side = 0,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -251,7 +251,7 @@ return {
 			}
 		},
 		{
-			actor = 10100024,
+			actor = 10100020,
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -267,7 +267,7 @@ return {
 			}
 		},
 		{
-			actor = 10100014,
+			actor = 10100010,
 			side = 0,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -283,7 +283,7 @@ return {
 			}
 		},
 		{
-			actor = 201214,
+			actor = 201210,
 			side = 0,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -299,7 +299,7 @@ return {
 			}
 		},
 		{
-			actor = 10100024,
+			actor = 10100020,
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -315,7 +315,7 @@ return {
 			}
 		},
 		{
-			actor = 101174,
+			actor = 101170,
 			side = 0,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -331,7 +331,7 @@ return {
 			}
 		},
 		{
-			actor = 10100024,
+			actor = 10100020,
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -347,7 +347,7 @@ return {
 			}
 		},
 		{
-			actor = 10100014,
+			actor = 10100010,
 			side = 0,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -367,7 +367,7 @@ return {
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 301114,
+			actor = 301110,
 			actorName = "{namecode:13}",
 			say = "I see! You're so considerate, Nep-Nep! Okay everyone, let's ctrl+esc out of here, before she tags us!",
 			typewriter = {
@@ -384,7 +384,7 @@ return {
 			side = 0,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 301124,
+			actor = 301120,
 			actorName = "{namecode:14}",
 			say = "...I will follow you. \"Of the thirty-six stratagems, fleeing is best,\" as they say...",
 			typewriter = {
@@ -397,7 +397,7 @@ return {
 			}
 		},
 		{
-			actor = 102084,
+			actor = 102080,
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -413,7 +413,7 @@ return {
 			}
 		},
 		{
-			actor = 107034,
+			actor = 107030,
 			side = 0,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -429,7 +429,7 @@ return {
 			}
 		},
 		{
-			actor = 10100024,
+			actor = 10100020,
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -449,7 +449,7 @@ return {
 			side = 0,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 301054,
+			actor = 301050,
 			actorName = "{namecode:6}",
 			say = "That said... Everyone's enjoying themselves and having fun.",
 			typewriter = {
@@ -462,7 +462,7 @@ return {
 			}
 		},
 		{
-			actor = 401234,
+			actor = 401230,
 			side = 0,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -478,7 +478,7 @@ return {
 			}
 		},
 		{
-			actor = 10100024,
+			actor = 10100020,
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -494,7 +494,7 @@ return {
 			}
 		},
 		{
-			actor = 10100024,
+			actor = 10100020,
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -510,7 +510,7 @@ return {
 			}
 		},
 		{
-			actor = 401234,
+			actor = 401230,
 			side = 0,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -529,7 +529,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 10100044,
+			actor = 10100040,
 			nameColor = "#a9f548",
 			say = "Oh dear... Have I died and gone to CPU heaven?",
 			flashout = {
@@ -564,7 +564,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 301324,
+			actor = 301320,
 			actorName = "{namecode:33}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -584,7 +584,7 @@ return {
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 301334,
+			actor = 301330,
 			actorName = "{namecode:34}",
 			say = "It's unfair if she gets all of it... I want some too, please...",
 			typewriter = {
@@ -601,7 +601,7 @@ return {
 			side = 0,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 301354,
+			actor = 301350,
 			actorName = "{namecode:137}",
 			say = "Me, me! Me too! I want even more candy than they do!",
 			typewriter = {
@@ -614,7 +614,7 @@ return {
 			}
 		},
 		{
-			actor = 10100044,
+			actor = 10100040,
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -634,7 +634,7 @@ return {
 			side = 0,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 301324,
+			actor = 301320,
 			actorName = "{namecode:33}",
 			say = "Yaaaay! You have so much candy I've never tasted before!",
 			typewriter = {
@@ -651,7 +651,7 @@ return {
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 301334,
+			actor = 301330,
 			actorName = "{namecode:34}",
 			say = "I like this chocolate...",
 			typewriter = {
@@ -668,7 +668,7 @@ return {
 			side = 0,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 301354,
+			actor = 301350,
 			actorName = "{namecode:137}",
 			say = "Mmmm, these marshmallows are so fluffy!",
 			typewriter = {
@@ -681,7 +681,7 @@ return {
 			}
 		},
 		{
-			actor = 10100044,
+			actor = 10100040,
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -697,7 +697,7 @@ return {
 			}
 		},
 		{
-			actor = 207021,
+			actor = 207020,
 			side = 0,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -713,7 +713,7 @@ return {
 			}
 		},
 		{
-			actor = 207021,
+			actor = 207020,
 			side = 0,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -733,7 +733,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgName = "bg_story_school",
-			actor = 301054,
+			actor = 301050,
 			nameColor = "#a9f548",
 			say = "...Something like that. I saw her playing games with some of the children.",
 			flashout = {
@@ -767,7 +767,7 @@ return {
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 10100024,
+			actor = 10100020,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -783,7 +783,7 @@ return {
 			}
 		},
 		{
-			actor = 401234,
+			actor = 401230,
 			side = 0,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -799,7 +799,7 @@ return {
 			}
 		},
 		{
-			actor = 10100024,
+			actor = 10100020,
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -815,7 +815,7 @@ return {
 			}
 		},
 		{
-			actor = 401234,
+			actor = 401230,
 			side = 0,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -831,7 +831,7 @@ return {
 			}
 		},
 		{
-			actor = 10100024,
+			actor = 10100020,
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -851,7 +851,7 @@ return {
 			side = 0,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 301054,
+			actor = 301050,
 			actorName = "{namecode:6}",
 			say = "If so, I could be your guide, if you'd like.",
 			typewriter = {
@@ -864,7 +864,7 @@ return {
 			}
 		},
 		{
-			actor = 10100024,
+			actor = 10100020,
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",

@@ -4,11 +4,13 @@ slot0.ON_FINISHED = "TechnologyMediator:ON_FINISHED"
 slot0.ON_TIME_OVER = "TechnologyMediator:ON_TIME_OVER"
 slot0.ON_REFRESH = "TechnologyMediator:ON_REFRESH"
 slot0.ON_STOP = "TechnologyMediator:ON_STOP"
+slot0.CHANGE_TENDENCY = "TechnologyMediator:CHANGE_TENDENCY"
 
 function slot0.register(slot0)
 	slot0:bind(slot0.ON_START, function (slot0, slot1)
 		slot0:sendNotification(GAME.START_TECHNOLOGY, {
-			id = slot1
+			id = slot1.id,
+			pool_id = slot1.pool_id
 		})
 	end)
 	slot0:bind(slot0.ON_TIME_OVER, function (slot0, slot1)
@@ -19,7 +21,8 @@ function slot0.register(slot0)
 	end)
 	slot0:bind(slot0.ON_FINISHED, function (slot0, slot1)
 		slot0:sendNotification(GAME.FINISH_TECHNOLOGY, {
-			id = slot1
+			id = slot1.id,
+			pool_id = slot1.pool_id
 		})
 	end)
 	slot0:bind(slot0.ON_REFRESH, function (slot0)
@@ -27,7 +30,14 @@ function slot0.register(slot0)
 	end)
 	slot0:bind(slot0.ON_STOP, function (slot0, slot1)
 		slot0:sendNotification(GAME.STOP_TECHNOLOGY, {
-			id = slot1
+			id = slot1.id,
+			pool_id = slot1.pool_id
+		})
+	end)
+	slot0:bind(slot0.CHANGE_TENDENCY, function (slot0, slot1)
+		slot0:sendNotification(GAME.CHANGE_REFRESH_TECHNOLOGYS_TENDENCY, {
+			pool_id = 2,
+			tendency = slot1
 		})
 	end)
 
@@ -35,6 +45,7 @@ function slot0.register(slot0)
 
 	slot0.viewComponent:setTechnologys(slot1:getTechnologys())
 	slot0.viewComponent:setRefreshFlag(slot1.refreshTechnologysFlag)
+	slot0.viewComponent:setTendency(slot1:getTendency(2))
 	slot0.viewComponent:setPlayer(getProxy(PlayerProxy):getData())
 end
 
@@ -44,7 +55,8 @@ function slot0.listNotificationInterests(slot0)
 		GAME.FINISH_TECHNOLOGY_DONE,
 		GAME.REFRESH_TECHNOLOGYS_DONE,
 		TechnologyProxy.REFRESH_UPDATED,
-		PlayerProxy.UPDATED
+		PlayerProxy.UPDATED,
+		GAME.CHANGE_REFRESH_TECHNOLOGYS_TENDENCY_DONE
 	}
 end
 
@@ -87,6 +99,8 @@ function slot0.handleNotification(slot0, slot1)
 			slot0.viewComponent:updateRefreshBtn(slot2)
 		elseif slot3 == PlayerProxy.UPDATED then
 			slot0.viewComponent:setPlayer(slot2)
+		elseif slot3 == GAME.CHANGE_REFRESH_TECHNOLOGYS_TENDENCY_DONE then
+			slot0.viewComponent:setTendency(getProxy(TechnologyProxy):getTendency(2))
 		end
 	end
 end

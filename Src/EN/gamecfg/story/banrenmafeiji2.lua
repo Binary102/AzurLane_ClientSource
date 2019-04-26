@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			actor = 900094,
+			actor = 201212,
 			nameColor = "#a9f548",
 			say = "嗨，平海，{namecode:17}~你也来拿西瓜吗？",
 			flashout = {
@@ -66,7 +66,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 900099,
+			actor = 502031,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -86,7 +86,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_106",
 			dir = -1,
-			actor = 900100,
+			actor = 301151,
 			actorName = "{namecode:17}",
 			say = "是标枪啊，对呀。",
 			typewriter = {
@@ -113,7 +113,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_106",
 			dir = -1,
-			actor = 900100,
+			actor = 301151,
 			actorName = "{namecode:17}",
 			say = "你在带新人观光吗？",
 			typewriter = {
@@ -126,7 +126,7 @@ return {
 			}
 		},
 		{
-			actor = 900094,
+			actor = 201212,
 			side = 0,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -146,7 +146,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "你们好，{namecode:17}前辈，平海前辈。",
 			typewriter = {
@@ -164,7 +164,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 900100,
+			actor = 301151,
 			actorName = "{namecode:17}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -190,7 +190,7 @@ return {
 			}
 		},
 		{
-			actor = 900099,
+			actor = 502031,
 			side = 1,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -206,7 +206,7 @@ return {
 			}
 		},
 		{
-			actor = 900094,
+			actor = 201212,
 			side = 0,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -222,7 +222,7 @@ return {
 			}
 		},
 		{
-			actor = 206041,
+			actor = 206040,
 			side = 1,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -242,7 +242,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 900100,
+			actor = 301151,
 			actorName = "{namecode:17}",
 			say = "你说这个？这个可是有正式的名字的，叫做“校园泳装”，简称“死库水”，是重樱的特色哦！",
 			typewriter = {
@@ -259,7 +259,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 900100,
+			actor = 301151,
 			actorName = "{namecode:17}",
 			say = "顺便告诉你一个小秘密，指挥官说不定喜欢这种哦~",
 			typewriter = {
@@ -275,7 +275,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 900094,
+			actor = 201212,
 			nameColor = "#a9f548",
 			say = "真、真的吗？！",
 			typewriter = {
@@ -303,7 +303,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = -1,
-			actor = 900100,
+			actor = 301151,
 			actorName = "{namecode:17}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -319,7 +319,7 @@ return {
 			}
 		},
 		{
-			actor = 900094,
+			actor = 201212,
 			side = 0,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -339,7 +339,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_106",
 			dir = -1,
-			actor = 900100,
+			actor = 301151,
 			actorName = "{namecode:17}",
 			say = "好好好。",
 			typewriter = {
@@ -356,7 +356,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "原来世上还有死库水这样的泳装吗……",
 			typewriter = {
@@ -372,7 +372,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 900094,
+			actor = 201212,
 			nameColor = "#a9f548",
 			say = "……没想到重樱…居然还藏着这样的秘密武器呢……",
 			typewriter = {
@@ -399,7 +399,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "标枪前辈……？",
 			typewriter = {
@@ -415,7 +415,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 900094,
+			actor = 201212,
 			nameColor = "#a9f548",
 			say = "咳、咳咳，没什么没什么，我继续给你介绍吧！",
 			typewriter = {
@@ -443,7 +443,7 @@ return {
 			bgName = "star_level_bg_106",
 			hideOther = true,
 			dir = 1,
-			actor = 900094,
+			actor = 201212,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -451,7 +451,7 @@ return {
 			},
 			subActors = {
 				{
-					actor = 900101,
+					actor = 204031,
 					pos = {
 						x = 750
 					}
@@ -471,7 +471,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "确实，胡德前辈不愧是优雅的代名词呢，只是坐在那里就像是一幅画一样美丽。",
 			typewriter = {
@@ -488,7 +488,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 900094,
+			actor = 201212,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -518,7 +518,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "那个，为什么标枪前辈的介绍，听起来像是什么比赛一样呢？",
 			typewriter = {
@@ -531,7 +531,7 @@ return {
 			}
 		},
 		{
-			actor = 900094,
+			actor = 201212,
 			side = 0,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -551,7 +551,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "是、是！",
 			typewriter = {
@@ -574,7 +574,7 @@ return {
 			}
 		},
 		{
-			actor = 900094,
+			actor = 201212,
 			side = 2,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -593,7 +593,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 900094,
+			actor = 201212,
 			nameColor = "#a9f548",
 			say = "战争啊！",
 			effects = {
@@ -617,7 +617,7 @@ return {
 			bgName = "star_level_bg_106",
 			dir = 1,
 			say = "是、是这样吗？",
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -649,7 +649,7 @@ return {
 			}
 		},
 		{
-			actor = 900094,
+			actor = 201212,
 			side = 0,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -665,7 +665,7 @@ return {
 			}
 		},
 		{
-			actor = 900094,
+			actor = 201212,
 			side = 0,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -686,7 +686,7 @@ return {
 			bgName = "star_level_bg_106",
 			dir = 1,
 			blackBg = true,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "原、原来如此……",
 			typewriter = {

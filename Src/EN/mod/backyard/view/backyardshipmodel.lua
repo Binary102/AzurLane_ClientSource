@@ -717,7 +717,11 @@ function slot0.callActionCB(slot0, slot1, slot2)
 end
 
 function slot0.resumeAnim(slot0)
-	slot0:playAnimsFollowFurniture(slot0.spineFurniture)
+	if slot0.spineFurniture:isFollowFurnitrueAnim() then
+		slot0:playAnimsFollowFurniture(slot1)
+	else
+		slot0:playAnims(slot1)
+	end
 
 	return
 end
@@ -741,6 +745,8 @@ function slot0.playAnims(slot0, slot1)
 
 			if slot1 == #slot3.roles then
 				if slot2 then
+					slot3:callActionCB("end")
+
 					if slot3 == BackyardFurnitureVO.INTERACTION_LOOP_TYPE_ALL then
 						slot4()
 					else
@@ -763,6 +769,7 @@ function slot0.playAnims(slot0, slot1)
 				end
 			end
 		else
+			slot3:callActionCB("update", slot0[slot1][1])
 			slot0:SetAction(slot0[slot1][1], 0)
 		end
 
@@ -772,16 +779,27 @@ function slot0.playAnims(slot0, slot1)
 	slot0.timer = {}
 
 	function ()
-		slot0 = 0
+		if slot0:hasAnimator() then
+			slot1:endSpineAnimator(slot1.endSpineAnimator)
+			slot1:startSpineAnimator(slot1.startSpineAnimator)
+		end
+
+		slot2 = 0
 
 		for slot3, slot4 in pairs(slot1.roles) do
-			if type(slot2[1][1]) == "table" then
+			if type(slot3[1][1]) == "table" then
 				slot6 = slot6[math.random(1, #slot6)]
 			end
 
-			slot4:SetAction(slot6, 0)
+			if slot3 == 1 and slot3[slot5][3] then
+				slot4:SetAction(slot3[slot5][3], 0)
+			else
+				slot4:SetAction(slot6, 0)
+			end
 
-			if _.detect(slot3, function (slot0)
+			slot1:callActionCB("update", slot6)
+
+			if _.detect(slot4, function (slot0)
 				return slot0[1] == slot0 and slot1.id == slot0[3]
 			end) then
 				slot8 = slot7[2]
@@ -831,30 +849,30 @@ function slot0.playTailActions(slot0, slot1)
 end
 
 function slot0.startSpineAnimator(slot0, slot1, slot2)
-	slot4 = slot0.viewComponent.furnitureModals[slot1.id]:Find("animator")
+	slot2 = slot2 or 0
+	slot0.animtorNameIndex = slot0.animtorNameIndex or math.random(1, #slot1:getAnimtorControlName(slot2 or 0))
+	slot6 = slot0.viewComponent.furnitureModals[slot1.id]:Find(slot0.animtorNameIndex or math.random(1, #slot1.getAnimtorControlName(slot2 or 0)))
+	slot7 = slot6:GetComponent(typeof(Animator))
 
-	if slot2 then
-		slot4 = slot3:Find("animator" .. slot2)
-	end
+	SetParent(slot0.tf, slot6)
 
-	slot5 = slot4:GetComponent(typeof(Animator))
-
-	SetParent(slot0.tf, slot4)
+	slot2 = 0
+	slot5 = math.random(1, #slot1.getAnimtorControlName(slot2 or 0))
 
 	if slot1:hasAnimatorMask() then
-		slot6 = slot1:getAnimatorMaskConfig()
-		slot7 = slot3:Find("mask")
-		slot7.sizeDelta = Vector2(slot6[1][1], slot6[1][2])
-		slot7.anchoredPosition = Vector3(slot6[2][1], slot6[2][2], 0)
+		slot8 = slot1:getAnimatorMaskConfig()
+		slot9 = slot3:Find("mask")
+		slot9.sizeDelta = Vector2(slot8[1][1], slot8[1][2])
+		slot9.anchoredPosition = Vector3(slot8[2][1], slot8[2][2], 0)
 
-		setActive(slot7, true)
-		SetParent(slot4, slot7)
+		setActive(slot9, true)
+		SetParent(slot6, slot9)
 	end
 
-	if slot4:GetComponent(typeof(DftAniEvent)) then
-		slot7 = 1
+	if slot6:GetComponent(typeof(DftAniEvent)) then
+		slot9 = 1
 
-		slot6:SetTriggerEvent(function (slot0)
+		slot8:SetTriggerEvent(function (slot0)
 			if slot0.localScale.x < 0 then
 				slot1 = -1
 
@@ -863,7 +881,7 @@ function slot0.startSpineAnimator(slot0, slot1, slot2)
 
 			return
 		end)
-		slot6:SetEndEvent(function (slot0)
+		slot8:SetEndEvent(function (slot0)
 			if slot0 == -1 then
 				slot1:changeInnerDir(-1)
 
@@ -874,39 +892,40 @@ function slot0.startSpineAnimator(slot0, slot1, slot2)
 		end)
 	end
 
-	setActive(slot4, true)
+	setActive(slot6, true)
 
 	return
 end
 
 function slot0.endSpineAnimator(slot0, slot1, slot2)
+	if not slot0.animtorNameIndex then
+		return
+	end
+
+	if not slot2 then
+		slot2 = 0
+	end
+
 	if slot1 and slot1:hasAnimator() and slot0.viewComponent.furnitureModals[slot1.id] then
 		slot4 = nil
+		slot5 = slot1:getAnimtorControlGoName(slot2, slot0.animtorNameIndex)
 
 		if slot1:hasAnimatorMask() then
-			slot4 = slot3:Find("mask/animator")
-
-			if slot2 then
-				slot4 = slot3:Find("mask/animator" .. slot2)
-			end
-
-			setActive(slot5, false)
-			SetParent(slot4, slot3)
+			setActive(slot6, false)
+			SetParent(slot3:Find("mask/" .. slot5), slot3)
 		else
-			slot4 = slot3:Find("animator")
-
-			if slot2 then
-				slot4 = slot3:Find("animator" .. slot2)
-			end
+			slot4 = slot3:Find(slot5)
 		end
 
 		if slot4:GetComponent(typeof(DftAniEvent)) then
-			slot5:SetTriggerEvent(nil)
-			slot5:SetTriggerEvent(nil)
+			slot6:SetTriggerEvent(nil)
+			slot6:SetTriggerEvent(nil)
 		end
 
 		setActive(slot4, false)
 	end
+
+	slot0.animtorNameIndex = nil
 
 	return
 end
@@ -970,7 +989,11 @@ function slot0.getSpineNormalAction(slot0, slot1)
 		if slot0.spineFurniture then
 			slot2, slot3 = slot0.spineFurniture:getSpineName()
 
-			return (slot3 and slot3) or "normal"
+			if not slot3 or not slot3 then
+				slot4 = "normal"
+			end
+
+			return slot4
 		end
 	end
 
@@ -1017,8 +1040,6 @@ function slot0.clearSpineInteraction(slot0, slot1)
 end
 
 function slot0.updateStageInterAction(slot0, slot1)
-	slot0.print("start stage interaction.............")
-
 	slot2 = slot0.boatVO:getStageId()
 
 	if slot1 and slot2 then
@@ -1047,8 +1068,6 @@ function slot0.updateStageInterAction(slot0, slot1)
 end
 
 function slot0.clearStageInterAction(slot0)
-	slot0.print("clear stage interaction......................")
-
 	slot0.stageId = nil
 
 	SetParent(slot0.tf, slot0.floorGrid)
@@ -1057,8 +1076,6 @@ function slot0.clearStageInterAction(slot0)
 end
 
 function slot0.clearStage(slot0)
-	slot0.print("clear stage .................")
-
 	if slot0.stageId then
 		slot0.viewComponent:emit(BackyardMainMediator.CLEAR_STAGE_INTERACTION, slot0.boatVO.id)
 	end
@@ -1067,7 +1084,6 @@ function slot0.clearStage(slot0)
 end
 
 function slot0.updateArchInterAction(slot0, slot1)
-	slot0.print("start arch interaction.................")
 	slot0:removeItem()
 
 	if slot0.nextPosition then
@@ -1089,7 +1105,6 @@ function slot0.updateArchInterAction(slot0, slot1)
 end
 
 function slot0.clearArchInterAction(slot0)
-	slot0.print("clear arch interaction ...........")
 	slot0:removeItem()
 
 	if slot0.nextPosition then
@@ -1125,7 +1140,13 @@ function slot0.moveOnFurniture(slot0, slot1, slot2, slot3)
 	slot4 = slot0.stageId
 	slot5 = nil
 
-	slot0:startMove((not slot0.archId or slot0:calcOnFurnitureLPos(slot1, slot0.archId)) and slot0:calcOnFurnitureLPos(slot1, slot0.stageId), slot1, slot2, slot3)
+	if slot0.archId then
+		slot5 = slot0:calcOnFurnitureLPos(slot1, slot0.archId)
+	else
+		slot5 = slot0:calcOnFurnitureLPos(slot1, slot0.stageId)
+	end
+
+	slot0:startMove(slot5, slot1, slot2, slot3)
 
 	return
 end
@@ -1133,7 +1154,13 @@ end
 function slot0.move(slot0, slot1, slot2, slot3)
 	slot4 = nil
 
-	slot0:startMove((not slot0.archId or slot0:calcOnFurnitureLPos(slot1, slot0.archId)) and slot0.getLocalPos(slot1), slot1, slot2, slot3)
+	if slot0.archId then
+		slot4 = slot0:calcOnFurnitureLPos(slot1, slot0.archId)
+	else
+		slot4 = slot0.getLocalPos(slot1)
+	end
+
+	slot0:startMove(slot4, slot1, slot2, slot3)
 
 	return
 end
@@ -1149,7 +1176,15 @@ function slot0.startMove(slot0, slot1, slot2, slot3, slot4)
 		slot0.isMove = true
 	end
 
-	slot7 = slot0.getSign((slot2.x < slot0.boatVO:getPosition().x and slot2.y == slot6.y) or (slot2.x == slot6.x and slot6.y < slot2.y))
+	slot7 = slot0.getSign
+
+	if (slot2.x >= slot0.boatVO:getPosition().x or slot2.y ~= slot6.y) and (slot2.x ~= slot6.x or slot6.y >= slot2.y) then
+		slot8 = false
+	else
+		slot8 = true
+	end
+
+	slot7 = slot7(slot8)
 	slot8 = 1
 
 	if slot0.stageId then
@@ -1387,7 +1422,7 @@ function slot0.addSpineExtra(slot0, slot1, slot2)
 	slot0.tf.anchoredPosition = Vector3(slot5[2][1], slot5[2][2], 0)
 
 	if slot0.viewComponent.furnitureVOs[slot1]:hasAnimator() then
-		SetParent(slot0.tf, slot3:Find("animator" .. slot2))
+		slot0:startSpineAnimator(slot4, slot2)
 	end
 
 	if slot4:getSpineExtraBodyMask(slot2) ~= nil and #slot6 > 0 then
@@ -1424,33 +1459,39 @@ function slot0.showBodyMask(slot0, slot1, slot2)
 		slot0.bodyMask:GetComponent(typeof(Image)).sprite = nil
 	end
 
-	slot6 = slot1[4] or slot3
+	if not slot1[4] then
+		slot6 = slot3
+	end
+
+	if slot2 ~= 1 or not slot3 then
+		slot7 = slot6
+	end
+
 	slot0.isShowBodyMask = true
 
 	setActive(slot0.bodyMask, true)
 
-	tf(slot0.bodyMask).localPosition = Vector3((slot2 == 1 and slot3) or slot1[4] or slot3[1], (slot2 == 1 and slot3) or slot1[4] or slot3[2], 0)
-	tf(slot0.model).localPosition = Vector3(-1 * ((slot2 == 1 and slot2) or -1) * (slot2 == 1 and slot3) or slot1[4] or slot3[1], -1 * (slot2 == 1 and slot3) or slot1[4] or slot3[2], 0)
-	rtf(slot0.bodyMask).sizeDelta = Vector2(slot4, slot5)
+	tf(slot0.bodyMask).localPosition = Vector3(slot7[1], slot7[2], 0)
+	slot8 = tf(slot0.model)
+	slot9 = Vector3
 
-	slot0:changeInnerDir((slot2 == 1 and slot2) or -1)
+	if slot2 ~= 1 or not slot2 then
+		slot10 = -1
+	end
+
+	slot8.localPosition = slot9(-1 * slot10 * slot7[1], -1 * slot7[2], 0)
+	rtf(slot0.bodyMask).sizeDelta = Vector2(slot4, slot5)
+	slot9 = slot0
+	slot8 = slot0.changeInnerDir
+
+	if slot2 ~= 1 or not slot2 then
+		slot10 = -1
+	end
+
+	slot8(slot9, slot10)
 	SetParent(slot0.model, slot0.bodyMask)
 
 	return
-
-	slot6 = slot3
-
-	if not slot3 then
-		slot7 = slot6
-	end
-
-	if not slot2 then
-		slot10 = -1
-	end
-
-	if not slot2 then
-		slot10 = -1
-	end
 end
 
 function slot0.closeBodyMask(slot0, slot1)

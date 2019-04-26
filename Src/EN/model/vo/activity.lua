@@ -84,6 +84,8 @@ function slot0.getDataConfigTable(slot0)
 		return pg.activity_event_nianshou[tonumber(slot2)]
 	elseif slot1 == ActivityConst.ACTIVITY_TYPE_MONOPOLY then
 		return pg.activity_event_monopoly[tonumber(slot2)]
+	elseif slot1 == ActivityConst.ACTIVITY_TYPE_PT_ACCUM then
+		return pg.activity_event_pt[tonumber(slot2)]
 	end
 end
 
@@ -132,9 +134,9 @@ function slot0.readyToAchieve(slot0)
 		return (slot0.data4 == 0 and slot0.data2 >= 7) or defaultValue(slot0.data2_list[1], 0) > 0 or defaultValue(slot0.data2_list[2], 0) > 0 or slot0.data2 < math.min(slot3:DiffDay(slot0.data1, slot3:GetServerTime()) + 1, 7) or slot0.data3 < slot3.DiffDay(slot0.data1, slot3.GetServerTime()) + 1
 	elseif slot2 == ActivityConst.ACTIVITY_TYPE_MONOPOLY then
 		return (math.ceil((pg.TimeMgr.GetInstance():GetServerTime() - slot0.data1) / 86400) * slot0:getDataConfig("daily_time") + slot0.data1_list[1]) - slot0.data1_list[2] > 0 or slot0.data2_list[1] - slot0.data2_list[2] > 0
+	elseif slot2 == ActivityConst.ACTIVITY_TYPE_PT_ACCUM and (table.indexof(slot0:getDataConfig("target"), slot0.data2) or 0) then
+		return not (slot4 == #slot3) and slot3[math.min(slot4 + 1, #slot3)] <= slot0.data1
 	end
-
-	return slot1
 end
 
 function slot0.isShow(slot0)

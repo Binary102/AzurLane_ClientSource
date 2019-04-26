@@ -46,7 +46,7 @@ return {
 			}
 		},
 		{
-			actor = 808011,
+			actor = 808010,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",

@@ -1,7 +1,6 @@
 pg = pg or {}
 pg.box_data_template = {
 	{
-		activity_id = 0,
 		name = "Supply Chest",
 		type = 1,
 		id = 1,
@@ -9,7 +8,6 @@ pg.box_data_template = {
 		effect_id = 10001
 	},
 	{
-		activity_id = 0,
 		name = "Supply Chest",
 		type = 1,
 		id = 2,
@@ -17,7 +15,6 @@ pg.box_data_template = {
 		effect_id = 10002
 	},
 	{
-		activity_id = 0,
 		name = "Supply Chest",
 		type = 1,
 		id = 3,
@@ -25,7 +22,6 @@ pg.box_data_template = {
 		effect_id = 10003
 	},
 	{
-		activity_id = 0,
 		name = "Supply Chest",
 		type = 1,
 		id = 4,
@@ -33,7 +29,6 @@ pg.box_data_template = {
 		effect_id = 10004
 	},
 	{
-		activity_id = 0,
 		name = "Supply Chest",
 		type = 1,
 		id = 5,
@@ -41,7 +36,6 @@ pg.box_data_template = {
 		effect_id = 10005
 	},
 	{
-		activity_id = 0,
 		name = "Supply Chest",
 		type = 1,
 		id = 6,
@@ -49,7 +43,6 @@ pg.box_data_template = {
 		effect_id = 10006
 	},
 	{
-		activity_id = 0,
 		name = "Supply Chest",
 		type = 1,
 		id = 7,
@@ -57,7 +50,6 @@ pg.box_data_template = {
 		effect_id = 10007
 	},
 	{
-		activity_id = 0,
 		name = "Supply Chest",
 		type = 1,
 		id = 8,
@@ -65,7 +57,6 @@ pg.box_data_template = {
 		effect_id = 10008
 	},
 	{
-		activity_id = 0,
 		name = "Supply Chest",
 		type = 1,
 		id = 9,
@@ -73,7 +64,6 @@ pg.box_data_template = {
 		effect_id = 10009
 	},
 	{
-		activity_id = 0,
 		name = "Supply Chest",
 		type = 1,
 		id = 10,
@@ -81,7 +71,6 @@ pg.box_data_template = {
 		effect_id = 10010
 	},
 	[21] = {
-		activity_id = 0,
 		name = "Snack Chest",
 		type = 1,
 		id = 21,
@@ -89,7 +78,6 @@ pg.box_data_template = {
 		effect_id = 10021
 	},
 	[22] = {
-		activity_id = 0,
 		name = "Snack Chest",
 		type = 1,
 		id = 22,
@@ -97,7 +85,6 @@ pg.box_data_template = {
 		effect_id = 10022
 	},
 	[23] = {
-		activity_id = 0,
 		name = "Snack Chest",
 		type = 1,
 		id = 23,
@@ -105,7 +92,6 @@ pg.box_data_template = {
 		effect_id = 10023
 	},
 	[24] = {
-		activity_id = 0,
 		name = "Snack Chest",
 		type = 1,
 		id = 24,
@@ -113,7 +99,6 @@ pg.box_data_template = {
 		effect_id = 10024
 	},
 	[101] = {
-		activity_id = 0,
 		name = "Gear Chest",
 		type = 1,
 		id = 101,
@@ -121,7 +106,6 @@ pg.box_data_template = {
 		effect_id = 10101
 	},
 	[102] = {
-		activity_id = 0,
 		name = "Gear Chest",
 		type = 1,
 		id = 102,
@@ -129,7 +113,6 @@ pg.box_data_template = {
 		effect_id = 10102
 	},
 	[103] = {
-		activity_id = 0,
 		name = "Gear Chest",
 		type = 1,
 		id = 103,
@@ -137,7 +120,6 @@ pg.box_data_template = {
 		effect_id = 10103
 	},
 	[104] = {
-		activity_id = 0,
 		name = "Gear Chest",
 		type = 1,
 		id = 104,
@@ -145,7 +127,6 @@ pg.box_data_template = {
 		effect_id = 10104
 	},
 	[105] = {
-		activity_id = 0,
 		name = "Gear Chest",
 		type = 1,
 		id = 105,
@@ -153,7 +134,6 @@ pg.box_data_template = {
 		effect_id = 10105
 	},
 	[1001] = {
-		activity_id = 0,
 		name = "Event",
 		type = 2,
 		id = 1001,
@@ -161,7 +141,6 @@ pg.box_data_template = {
 		effect_id = 1
 	},
 	[1002] = {
-		activity_id = 0,
 		name = "Event",
 		type = 2,
 		id = 1002,
@@ -169,7 +148,6 @@ pg.box_data_template = {
 		effect_id = 2
 	},
 	[1003] = {
-		activity_id = 0,
 		name = "Event",
 		type = 2,
 		id = 1003,
@@ -177,7 +155,6 @@ pg.box_data_template = {
 		effect_id = 3
 	},
 	[1004] = {
-		activity_id = 0,
 		name = "Event",
 		type = 2,
 		id = 1004,
@@ -185,7 +162,6 @@ pg.box_data_template = {
 		effect_id = 4
 	},
 	[2001] = {
-		activity_id = 0,
 		name = "Torpedo",
 		type = 7,
 		id = 2001,
@@ -193,7 +169,6 @@ pg.box_data_template = {
 		effect_id = 5
 	},
 	[3001] = {
-		activity_id = 0,
 		name = "Airstrike",
 		type = 4,
 		id = 3001,
@@ -201,7 +176,6 @@ pg.box_data_template = {
 		effect_id = 5
 	},
 	[4001] = {
-		activity_id = 0,
 		name = "Radar",
 		type = 5,
 		id = 4001,
@@ -209,15 +183,20 @@ pg.box_data_template = {
 		effect_id = 0
 	},
 	[5001] = {
-		activity_id = 0,
 		name = "Ammo Chest",
 		type = 6,
 		id = 5001,
 		icon = "event2",
 		effect_id = 1
 	},
+	[6001] = {
+		name = "Kizuna AI Air Raid",
+		type = 8,
+		id = 6001,
+		icon = "event2",
+		effect_id = 5
+	},
 	[10001] = {
-		activity_id = 30030,
 		name = "Jigsaw Box",
 		type = 1,
 		id = 10001,
@@ -225,7 +204,6 @@ pg.box_data_template = {
 		effect_id = 8106
 	},
 	[10002] = {
-		activity_id = 30030,
 		name = "Jigsaw Box",
 		type = 1,
 		id = 10002,
@@ -233,7 +211,6 @@ pg.box_data_template = {
 		effect_id = 8107
 	},
 	[10003] = {
-		activity_id = 30030,
 		name = "Jigsaw Box",
 		type = 1,
 		id = 10003,
@@ -241,7 +218,6 @@ pg.box_data_template = {
 		effect_id = 8108
 	},
 	[10004] = {
-		activity_id = 30030,
 		name = "Jigsaw Box",
 		type = 1,
 		id = 10004,
@@ -249,7 +225,6 @@ pg.box_data_template = {
 		effect_id = 8109
 	},
 	[10005] = {
-		activity_id = 30030,
 		name = "Jigsaw Box",
 		type = 1,
 		id = 10005,
@@ -257,7 +232,6 @@ pg.box_data_template = {
 		effect_id = 8110
 	},
 	[10006] = {
-		activity_id = 30030,
 		name = "Jigsaw Box",
 		type = 1,
 		id = 10006,
@@ -265,7 +239,6 @@ pg.box_data_template = {
 		effect_id = 8111
 	},
 	[10007] = {
-		activity_id = 30030,
 		name = "Jigsaw Box",
 		type = 1,
 		id = 10007,
@@ -273,16 +246,42 @@ pg.box_data_template = {
 		effect_id = 8112
 	},
 	[10008] = {
-		activity_id = 30030,
 		name = "Jigsaw Box",
 		type = 1,
 		id = 10008,
 		icon = "event5",
 		effect_id = 8113
 	},
+	[10101] = {
+		name = "Port Memories No. 17",
+		type = 1,
+		id = 10101,
+		icon = "event5",
+		effect_id = 90828
+	},
+	[10102] = {
+		name = "Port Memories No. 18",
+		type = 1,
+		id = 10102,
+		icon = "event5",
+		effect_id = 90829
+	},
+	[10103] = {
+		name = "Port Memories No. 19",
+		type = 1,
+		id = 10103,
+		icon = "event5",
+		effect_id = 90830
+	},
+	[10104] = {
+		name = "Port Memories No. 20",
+		type = 1,
+		id = 10104,
+		icon = "event5",
+		effect_id = 90831
+	},
 	[20001] = {
-		activity_id = 0,
-		name = "障碍物",
+		name = "Barrier",
 		type = 0,
 		id = 20001,
 		icon = "torpedo2",
@@ -316,6 +315,7 @@ pg.box_data_template = {
 		3001,
 		4001,
 		5001,
+		6001,
 		10001,
 		10002,
 		10003,
@@ -324,6 +324,10 @@ pg.box_data_template = {
 		10006,
 		10007,
 		10008,
+		10101,
+		10102,
+		10103,
+		10104,
 		20001
 	}
 }

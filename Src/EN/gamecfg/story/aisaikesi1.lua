@@ -76,7 +76,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 107091,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "…啊，指挥官？早上好",
 			typewriter = {
@@ -89,7 +89,7 @@ return {
 			}
 		},
 		{
-			actor = 107091,
+			actor = 107090,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -109,7 +109,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			withoutActorName = true,
-			actor = 107091,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "……………………",
 			typewriter = {
@@ -126,7 +126,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 107091,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "昨晚工作到太晚…了吗？",
 			typewriter = {
@@ -139,7 +139,7 @@ return {
 			}
 		},
 		{
-			actor = 107091,
+			actor = 107090,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -159,7 +159,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 107091,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "帮助指挥官安排工作时间也是秘书舰的重要职责…",
 			typewriter = {
@@ -172,7 +172,7 @@ return {
 			}
 		},
 		{
-			actor = 107091,
+			actor = 107090,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -188,7 +188,7 @@ return {
 			}
 		},
 		{
-			actor = 107091,
+			actor = 107090,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -204,7 +204,7 @@ return {
 			}
 		},
 		{
-			actor = 107091,
+			actor = 107090,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -220,7 +220,7 @@ return {
 			}
 		},
 		{
-			actor = 107091,
+			actor = 107090,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -236,7 +236,7 @@ return {
 			}
 		},
 		{
-			actor = 107091,
+			actor = 107090,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",

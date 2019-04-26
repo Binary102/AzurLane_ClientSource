@@ -347,7 +347,7 @@ return {
 			expression = 3,
 			side = 2,
 			dir = -1,
-			actor = 304051,
+			actor = 304050,
 			nameColor = "#a9f548",
 			say = "*Gasp* *Gasp* ... Houshou, do you have... some spare time?",
 			flashout = {
@@ -377,7 +377,7 @@ return {
 			}
 		},
 		{
-			actor = 306031,
+			actor = 306030,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -418,7 +418,7 @@ return {
 			}
 		},
 		{
-			actor = 304051,
+			actor = 304050,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -437,7 +437,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = -1,
-			actor = 304051,
+			actor = 304050,
 			say = "Are you able to send your planes to search for Kaga in the Mirror Sea?",
 			typewriter = {
 				speed = 0.05,
@@ -449,7 +449,7 @@ return {
 			}
 		},
 		{
-			actor = 306031,
+			actor = 306030,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -464,7 +464,7 @@ return {
 			}
 		},
 		{
-			actor = 304051,
+			actor = 304050,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -479,7 +479,7 @@ return {
 			}
 		},
 		{
-			actor = 306031,
+			actor = 306030,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -547,7 +547,7 @@ return {
 			}
 		},
 		{
-			actor = 306031,
+			actor = 306030,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -562,7 +562,7 @@ return {
 			}
 		},
 		{
-			actor = 306031,
+			actor = 306030,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -591,7 +591,7 @@ return {
 			}
 		},
 		{
-			actor = 304051,
+			actor = 304050,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -619,7 +619,7 @@ return {
 			}
 		},
 		{
-			actor = 306031,
+			actor = 306030,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -653,7 +653,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = -1,
-			actor = 304051,
+			actor = 304050,
 			say = "See that, Akagi? Aren't those planes far more capable than you had first expected?",
 			typewriter = {
 				speed = 0.05,
@@ -665,7 +665,7 @@ return {
 			}
 		},
 		{
-			actor = 304051,
+			actor = 304050,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -699,7 +699,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = -1,
-			actor = 304051,
+			actor = 304050,
 			say = "Listen to your big sister. I swear to bring Kaga back safely.",
 			typewriter = {
 				speed = 0.05,

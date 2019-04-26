@@ -59,7 +59,7 @@ function slot0.updateLeftPanel(slot0)
 end
 
 function slot0.updateState(slot0)
-	setActive(slot0.startBtn, slot0.technologyVO:gteState() == Technology.STATE_IDLE)
+	setActive(slot0.startBtn, slot0.technologyVO:getState() == Technology.STATE_IDLE)
 	setActive(slot0.finishedLabel, slot1 == Technology.STATE_FINISHED)
 	setActive(slot0.conditionL, slot1 == Technology.STATE_STARTING)
 	setActive(slot0.timeL, slot1 == Technology.STATE_STARTING)

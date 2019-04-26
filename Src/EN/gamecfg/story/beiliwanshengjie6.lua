@@ -23,7 +23,7 @@ return {
 			bgmDelay = 2,
 			bgName = "bg_story_task",
 			bgm = "story-1",
-			actor = 900138,
+			actor = 101271,
 			nameColor = "#a9f548",
 			say = "Over here!",
 			flashout = {
@@ -56,7 +56,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 900138,
+			actor = 101271,
 			nameColor = "#a9f548",
 			say = "No! Over there!",
 			typewriter = {
@@ -82,7 +82,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 900140,
+			actor = 205031,
 			nameColor = "#a9f548",
 			say = "Huff...puff...I can’t believe we chased her all the way to the rooftop...",
 			flashout = {
@@ -127,7 +127,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 900137,
+			actor = 302051,
 			actorName = "{namecode:48}",
 			say = "I, I can’t run any longer...",
 			typewriter = {
@@ -154,7 +154,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 900140,
+			actor = 205031,
 			nameColor = "#a9f548",
 			say = "There’s nowhere left for you to run. Who are you exactly? What are you up to?",
 			typewriter = {
@@ -167,7 +167,7 @@ return {
 			}
 		},
 		{
-			actor = 900138,
+			actor = 101271,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -199,7 +199,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 900140,
+			actor = 205031,
 			nameColor = "#a9f548",
 			say = "Sh-she flew away?!",
 			typewriter = {
@@ -226,7 +226,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 900137,
+			actor = 302051,
 			actorName = "{namecode:48}",
 			say = "Wh-what now! We can’t fly…",
 			typewriter = {
@@ -243,7 +243,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 900138,
+			actor = 101271,
 			nameColor = "#a9f548",
 			say = "F...Fly! I just got this broomstick! Could it be time for me to...jump!",
 			typewriter = {
@@ -266,7 +266,7 @@ return {
 			}
 		},
 		{
-			actor = 900140,
+			actor = 205031,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -286,7 +286,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 900137,
+			actor = 302051,
 			actorName = "{namecode:48}",
 			say = "She...she’s flying….she’s ACTUALLY flying?!",
 			typewriter = {
@@ -312,7 +312,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 900138,
+			actor = 101271,
 			nameColor = "#a9f548",
 			say = "Hmph, don’t think that you can escape this time!",
 			typewriter = {
@@ -338,7 +338,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 900140,
+			actor = 205031,
 			nameColor = "#a9f548",
 			say = "No way, what’s with this broomstick...",
 			typewriter = {
@@ -354,7 +354,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 900138,
+			actor = 101271,
 			nameColor = "#a9f548",
 			say = "Hahaha~ I’m now a flying Witch~ Quick, come join me Isuzu, Nelson~",
 			typewriter = {
@@ -376,7 +376,7 @@ return {
 			}
 		},
 		{
-			actor = 900140,
+			actor = 205031,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -396,7 +396,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 900137,
+			actor = 302051,
 			actorName = "{namecode:48}",
 			say = "Wahahaha! I’m actually flying! I...am...flying!",
 			typewriter = {
@@ -414,7 +414,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 900137,
+			actor = 302051,
 			actorName = "{namecode:48}",
 			say = "Broomstick, catch up to them…!",
 			typewriter = {
@@ -436,7 +436,7 @@ return {
 			}
 		},
 		{
-			actor = 900140,
+			actor = 205031,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -468,7 +468,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 900140,
+			actor = 205031,
 			nameColor = "#a9f548",
 			say = "Rodney?! …Yeeha~",
 			typewriter = {
@@ -494,7 +494,7 @@ return {
 			bgName = "bg_night",
 			dir = 1,
 			blackBg = true,
-			actor = 205041,
+			actor = 205040,
 			nameColor = "#a9f548",
 			say = "Go and enjoy this feeling of flying, this is a once in a lifetime experience. Hold on tight. Have fun, sisters~",
 			typewriter = {

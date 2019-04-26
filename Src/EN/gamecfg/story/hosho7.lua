@@ -5,7 +5,7 @@ return {
 	fadeType = 1,
 	scripts = {
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 0,
 			dir = -1,
 			say = "{namecode:89}喵！",
@@ -19,7 +19,7 @@ return {
 			}
 		},
 		{
-			actor = 900018,
+			actor = 306031,
 			side = 1,
 			say = "哦？是{namecode:98}啊，你是来送东西的吗？",
 			typewriter = {
@@ -32,7 +32,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 0,
 			dir = -1,
 			say = "对！{namecode:16}饿了在{namecode:98}的店里大吃特吃喵！先把东西送给你等下还要去找指挥官结账喵！……喵？今天的{namecode:89}，和{namecode:16}说的一样，有点不大一样喵！",
@@ -46,7 +46,7 @@ return {
 			}
 		},
 		{
-			actor = 900018,
+			actor = 306031,
 			side = 1,
 			say = "呵呵，毕竟是节日嘛，总要改变一下~",
 			typewriter = {
@@ -59,7 +59,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 0,
 			dir = -1,
 			say = "嗯？（歪头）是这样喵？",
@@ -73,7 +73,7 @@ return {
 			}
 		},
 		{
-			actor = 900018,
+			actor = 306031,
 			side = 1,
 			say = "是这样哦~对了{namecode:98}，虽然东西已经齐了，不过还有最后一件事，就麻烦你好了~",
 			typewriter = {
@@ -86,7 +86,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 0,
 			dir = -1,
 			say = "什么事喵？",
@@ -100,7 +100,7 @@ return {
 			}
 		},
 		{
-			actor = 900018,
+			actor = 306031,
 			side = 1,
 			say = "舰队的器械都是由你来维护的对吧，最近档案记录室不是开放了吗，要不要大家一起去看个电影呢～？",
 			typewriter = {
@@ -113,7 +113,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 0,
 			dir = -1,
 			say = "电影？唔，也可以喵……虽然不知道有什么意义喵！",
@@ -127,7 +127,7 @@ return {
 			}
 		},
 		{
-			actor = 900018,
+			actor = 306031,
 			side = 1,
 			say = "意义就是大家一起做些高兴的事嘛~",
 			typewriter = {
@@ -140,7 +140,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 0,
 			dir = -1,
 			say = "高兴的事？有道理喵！{namecode:98}这就去叫大家！",
@@ -166,7 +166,7 @@ return {
 			}
 		},
 		{
-			actor = 900018,
+			actor = 306031,
 			actorName = "{namecode:89}？？",
 			side = 2,
 			nameColor = "#D6341D",

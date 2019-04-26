@@ -3037,6 +3037,10 @@ February 8th.]]
 		tip = "Reach Commander lv. <color=#A9F548>$1</color> to unlock this stage.",
 		key = "levelScene_chapter_level_limit"
 	},
+	levelScene_chapter_count_tip = {
+		tip = "Today's Attempts: ",
+		key = "levelScene_chapter_count_tip"
+	},
 	levelScene_tracking_error_retry = {
 		tip = "Failed to activate stage. Please try again.",
 		key = "levelScene_tracking_error_retry"
@@ -3064,6 +3068,10 @@ February 8th.]]
 	levelScene_new_chapter_coming = {
 		tip = "New Chapter(s): ",
 		key = "levelScene_new_chapter_coming"
+	},
+	levelScene_activate_loop_mode_failed = {
+		tip = "Bring the Threat Level down to Safe and clear with 3 Stars to unlock Clearing Mode. ",
+		key = "levelScene_activate_loop_mode_failed"
 	},
 	error_refresh_sub_chapter = {
 		tip = "You cannot initiate any more Rescue Missions. ",
@@ -3741,6 +3749,10 @@ February 8th.]]
 		tip = "Neptune",
 		key = "word_shipNation_np"
 	},
+	word_shipNation_ai = {
+		tip = "KizunaAI",
+		key = "word_shipNation_ai"
+	},
 	word_reset = {
 		tip = "Reset",
 		key = "word_reset"
@@ -4058,12 +4070,18 @@ Promise date: $1]],
 			{
 				icon = {
 					path = "",
+					atlas = "helpbg/levelup"
+				}
+			},
+			{
+				icon = {
+					path = "",
 					atlas = "helpbg/fanqian"
 				}
 			},
 			disableScroll = true,
 			pageMode = true,
-			defaultpage = 7,
+			defaultpage = 8,
 			ImageMode = true,
 			windowSize = {
 				x = 836,
@@ -4124,12 +4142,18 @@ Promise date: $1]],
 			{
 				icon = {
 					path = "",
+					atlas = "helpbg/levelup"
+				}
+			},
+			{
+				icon = {
+					path = "",
 					atlas = "helpbg/fanqian"
 				}
 			},
 			disableScroll = true,
 			pageMode = true,
-			defaultpage = 7,
+			defaultpage = 8,
 			ImageMode = true,
 			windowSize = {
 				x = 836,
@@ -4190,12 +4214,18 @@ Promise date: $1]],
 			{
 				icon = {
 					path = "",
+					atlas = "helpbg/levelup"
+				}
+			},
+			{
+				icon = {
+					path = "",
 					atlas = "helpbg/fanqian"
 				}
 			},
 			disableScroll = true,
 			pageMode = true,
-			defaultpage = 7,
+			defaultpage = 8,
 			ImageMode = true,
 			windowSize = {
 				x = 836,
@@ -4256,12 +4286,18 @@ Promise date: $1]],
 			{
 				icon = {
 					path = "",
+					atlas = "helpbg/levelup"
+				}
+			},
+			{
+				icon = {
+					path = "",
 					atlas = "helpbg/fanqian"
 				}
 			},
 			disableScroll = true,
 			pageMode = true,
-			defaultpage = 7,
+			defaultpage = 8,
 			ImageMode = true,
 			windowSize = {
 				x = 836,
@@ -4322,12 +4358,18 @@ Promise date: $1]],
 			{
 				icon = {
 					path = "",
+					atlas = "helpbg/levelup"
+				}
+			},
+			{
+				icon = {
+					path = "",
 					atlas = "helpbg/fanqian"
 				}
 			},
 			disableScroll = true,
 			pageMode = true,
-			defaultpage = 7,
+			defaultpage = 8,
 			ImageMode = true,
 			windowSize = {
 				x = 836,
@@ -4619,7 +4661,11 @@ Urgent Ops times: Wednesday, Saturday, Sunday]]
 								 <color=#60a9ff>Rare</color>: $4%
 								 Common: $5% 
 
-									]],
+									<size=23>【Building Event】</size>
+
+							<color=#966af6>   Akagi-chan</color>：2.5%<color=#A9F548>(up!)</color>
+							<color=#966af6>   Hiei-chan</color>：2.5%<color=#A9F548>(up!)</color>
+							<color=#966af6>   Zeppy</color>：2.5%<color=#A9F548>(up!)</color>]],
 		key = "help_build_1"
 	},
 	help_build_2 = {
@@ -4645,12 +4691,10 @@ Urgent Ops times: Wednesday, Saturday, Sunday]]
 
 							<size=23>【Building Event】</size>
 
-							<color=#fff157>   Nagato</color>：2.0%<color=#A9F548>(up!)</color>
-							<color=#fff157>   Kawakaze</color>：2.0%<color=#A9F548>(up!)</color>
-							<color=#966af6>   Yoizuki</color>：2.5%<color=#A9F548>(up!)</color>
-							<color=#966af6>   Harutsuki</color>：2.5%<color=#A9F548>(up!)</color>
-							<color=#60a9ff>   Fumizuki</color>：5.0%<color=#A9F548>(up!)</color>
-							<color=#60a9ff>   Asashio</color>：5.0%<color=#A9F548>(up!)</color>
+						<color=#fff157>KizunaAI·Anniversary</color>：2.0%<color=#A9F548>(up!)</color>
+						<color=#fff157>KizunaAI·SuperGamer</color>：2.0%<color=#A9F548>(up!)</color>
+						<color=#fff157>KizunaAI·Elegant</color>：0.5%<color=#A9F548>(up!)</color>
+
 ]],
 		key = "help_build_4"
 	},
@@ -7106,7 +7150,7 @@ double the amount of Proficiency from sorties.]]
 		key = "activity_switch_award_pool_failed"
 	},
 	shop_street_activity_tip = {
-		tip = "※<color=#A1E400FF>Gear Skins</color> are purchasable during(<color=#A1E400FF>02.21 – 03.13</COLOR>)!",
+		tip = "※<color=#A1E400FF>Gear Skins</color> are purchasable during(<color=#A1E400FF>04.26 – 05.15</COLOR>)!",
 		key = "shop_street_activity_tip"
 	},
 	twitter_link_title = {
@@ -7271,6 +7315,168 @@ $3]],
 		tip = "Mission $1 unavailable now.",
 		key = "task_is_not_existence"
 	},
+	cannot_build_multiple_printblue = {
+		tip = "現在進行中の<color=#A9F548>$1</color>開発を一時停止し、開発対象を<color=#A9F548>$2</color>に変更しますか？開発進捗が保存されます。\n開発開始・再開<color=#A9F548>24時間以内</color>は開発対象を変更できません。",
+		key = "cannot_build_multiple_printblue"
+	},
+	printblue_build_success = {
+		tip = "開発開始",
+		key = "printblue_build_success"
+	},
+	printblue_build_erro = {
+		tip = "開発失敗",
+		key = "printblue_build_erro"
+	},
+	blueprint_mod_success = {
+		tip = "強化成功",
+		key = "blueprint_mod_success"
+	},
+	blueprint_mod_erro = {
+		tip = "強化失敗",
+		key = "blueprint_mod_erro"
+	},
+	technology_refresh_sucess = {
+		tip = "研究項目一覧・更新成功",
+		key = "technology_refresh_sucess"
+	},
+	technology_refresh_erro = {
+		tip = "研究項目一覧・更新失敗",
+		key = "technology_refresh_erro"
+	},
+	technology_start_up = {
+		tip = "研究開始",
+		key = "technology_start_up"
+	},
+	technology_start_erro = {
+		tip = "研究失敗",
+		key = "technology_start_erro"
+	},
+	technology_stop_success = {
+		tip = "研究中止に成功しました",
+		key = "technology_stop_success"
+	},
+	technology_stop_erro = {
+		tip = "研究中止に失敗しました",
+		key = "technology_stop_erro"
+	},
+	blueprint_stop_success = {
+		tip = "開発中止に成功しました",
+		key = "blueprint_stop_success"
+	},
+	blueprint_stop_erro = {
+		tip = "開発中止に失敗しました",
+		key = "blueprint_stop_erro"
+	},
+	blueprint_destory_tip = {
+		tip = "特別計画艦は廃棄できません",
+		key = "blueprint_destory_tip"
+	},
+	blueprint_task_update_tip = {
+		tip = "艦船の開発進捗に更新がありました。開発ドックをご確認ください",
+		key = "blueprint_task_update_tip"
+	},
+	blueprint_mod_addition_lock = {
+		tip = "強化レベル$1到達で開放されます",
+		key = "blueprint_mod_addition_lock"
+	},
+	blueprint_mod_word_unlock = {
+		tip = "セリフ開放：$1",
+		key = "blueprint_mod_word_unlock"
+	},
+	blueprint_mod_skin_unlock = {
+		tip = "着せ替え獲得：$1",
+		key = "blueprint_mod_skin_unlock"
+	},
+	blueprint_build_consume = {
+		tip = "$1を消費し、開発を行いますか？",
+		key = "blueprint_build_consume"
+	},
+	blueprint_stop_tip = {
+		tip = "開発を中止しますか？（消費したアイテム・資源は元に戻りません）",
+		key = "blueprint_stop_tip"
+	},
+	technology_canot_refresh = {
+		tip = "研究中は研究項目一覧を更新できません",
+		key = "technology_canot_refresh"
+	},
+	technology_refresh_tip = {
+		tip = "研究項目一覧を更新しますか？",
+		key = "technology_refresh_tip"
+	},
+	technology_is_actived = {
+		tip = "研究中の研究項目があります",
+		key = "technology_is_actived"
+	},
+	technology_stop_tip = {
+		tip = "研究を中止しますか？（消費したアイテム・資源は元に戻りません）",
+		key = "technology_stop_tip"
+	},
+	technology_help_text = {
+		key = "technology_help_text",
+		tip = {
+			{
+				info = [[
+
+1.研究開始
+  · 研究項目一覧から研究項目の「研究開始」をタップすると、
+該当項目の研究を行うことができます。
+  · 一部の研究項目を研究開始するには資源を消費します。
+  · 同時に複数の研究項目を研究することはできません。
+
+2.研究完了
+  · 研究項目の研究には時間を要します。
+  · 一部の研究項目は時間以外に特定の条件を達成する必要が
+あります。
+  ·「研究完成条件」の進捗は、研究開始後にのみ進みます。
+  ·「研究完成条件」のある研究項目は、研究時間が終了しても、
+「研究完成条件」を進行・達成できます。
+  · 研究が完了し、研究報酬を受け取ると、研究項目一覧が更新
+されます。
+
+3.研究中止
+  ·「研究中止」をタップすると、進行中の研究項目を中断する事が
+できます。
+  · 研究を中断しても、研究開始時に消費した資源は元に戻りません。
+  · 研究を中断すると、「研究完成条件」の進捗と研究に費やした
+時間がリセットされます。
+
+4.研究項目一覧を更新
+  · 0時以降、「項目更新」をタップすると、研究項目一覧を更新
+できます。
+  ·「項目更新」は一日一回しか行なえません。
+  · 研究中の項目が存在する場合、研究項目一覧を更新することが
+出来ません。]]
+			}
+		}
+	},
+	blueprint_build_time_tip = {
+		tip = "開発開始・再開24時間以内は開発対象を変更できません。\n\nこのまま開発を開始しますか？",
+		key = "blueprint_build_time_tip"
+	},
+	blueprint_cannot_build_tip = {
+		tip = "開発対象が変更可能になるまで$1間",
+		key = "blueprint_cannot_build_tip"
+	},
+	technology_task_none_tip = {
+		tip = "-なし-",
+		key = "technology_task_none_tip"
+	},
+	technology_task_build_tip = {
+		tip = "研究開始するには下記の資源・アイテムを消費します：$1",
+		key = "technology_task_build_tip"
+	},
+	blueprint_commit_tip = {
+		tip = "開発任務を完了するには<color=#A9F548>$1</color>を消費します。開発任務を完了しますか？",
+		key = "blueprint_commit_tip"
+	},
+	buleprint_need_level_tip = {
+		tip = "該当艦がレベル$1で開放",
+		key = "buleprint_need_level_tip"
+	},
+	blueprint_max_level_tip = {
+		tip = "現在は最大レベルに到達しています",
+		key = "blueprint_max_level_tip"
+	},
 	ship_profile_voice_locked_intimacy = {
 		tip = "Coming Soon",
 		key = "ship_profile_voice_locked_intimacy"
@@ -7283,6 +7489,48 @@ $3]],
 		tip = "Coming Soon",
 		key = "ship_profile_voice_locked_design"
 	},
+	help_technolog = {
+		key = "help_technolog",
+		tip = {
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/technology"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/blueprint_build"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/blueprint_dev"
+				}
+			},
+			disableScroll = true,
+			pageMode = true,
+			defaultpage = 2,
+			ImageMode = true,
+			windowSize = {
+				x = 836,
+				y = 720
+			},
+			windowSize = {
+				x = 836,
+				y = 740
+			},
+			windowPos = {
+				y = 15
+			},
+			helpSize = {
+				x = 836,
+				y = 660
+			}
+		}
+	},
 	hide_chat_warning = {
 		tip = "Turning off chat to hide messages.",
 		key = "hide_chat_warning"
@@ -7290,6 +7538,73 @@ $3]],
 	show_chat_warning = {
 		tip = "Turning on chat to display messages.",
 		key = "show_chat_warning"
+	},
+	help_shipblueprintui = {
+		key = "help_shipblueprintui",
+		tip = {
+			{
+				info = [[
+
+開発開始
+1. 「特別計画」艦の開発開放条件が達成されますと、艦の
+開発が可能になります。
+2. 「特別計画」艦の開発開放条件は画面中央に表示されます。
+3. 開発ドック画面にて対象艦を選択し、「開発開始」を
+タップすると、開発を開始できます。
+4. 同時に複数の開発を行うことできません。
+
+開発任務
+1. 対象艦の開発任務を全て完了すると対象艦を入手できます。
+2. 開発中、24時間毎に新しい開発任務が開放されます。
+また、任務を完了することで開発が進みます。
+3. 最初の開発任務は開発を開始すると開放されます。
+4. 一部の開発任務は他の開発任務を完了しなければ進められ
+ません。
+
+開発対象変更
+1. 開発中に、開発対象を別の艦に変更することができます。
+2. 開発対象を変更すると、開発全体の進捗および進行中
+任務の進捗状況が保持されます。
+3. 開発開始・再開後、24時間以内は開発対象を変更でき
+ません。
+
+開発完了
+1. 対象艦の開発任務を全て完了すると対象艦を入手でき、
+強化機能が開放されます。
+2. 開発完了後、新しい開発対象は手動で指定する必要が
+あります。
+
+「特別計画」艦の強化
+1. 「特別計画」艦入手後、艦の強化機能が開放されます。
+2. 強化には艦の「強化ユニット」を消費します。
+3. 「強化ユニット」は科学研究室で研究を行うことにより
+入手出来ます。
+4. 強化を行うことで「特別計画」艦の性能を向上させられ
+ます。また、一定の強化レベルに達するとさらなる強化効果
+を獲得できます。
+
+「特別計画」艦のレベル上限について
+  「特別計画」艦は限界突破しなくても、レベルを100まで上げる
+  ことができますが、レベル上限を引き上げるには、資金とメンタル
+  ユニットを消費し「認識覚醒」を行う必要があります。]]
+			}
+		}
+	},
+	help_shipblueprintui_luck = {
+		key = "help_shipblueprintui_luck",
+		tip = {
+			{
+				info = [[
+《天运拟合》系统
+
+1. 方案舰的研发等级<color=#A9F548>满级(Lv.30)</color>后才能解锁相应的《天运拟合》
+系统
+2. 《天运拟合》共分<color=#A9F548>5</color>个阶段，每个阶段需要消耗相应的<color=#A9F548>蓝图</color>提
+升完成度，完成度达到100%即可解锁对应的拟合阶段
+3. 解锁<color=#A9F548>阶段I~阶段V</color>时，会提升相应方案舰的<color=#A9F548>幸运值</color>
+4. 解锁阶段<color=#A9F548>V</color>时，将使对应的方案舰的<color=#A9F548>技能</color>发生<color=#A9F548>特殊变化</color>]]
+			}
+		}
 	},
 	help_sos = {
 		key = "help_sos",
@@ -7954,6 +8269,30 @@ with Anti-Sub gear.
 		tip = "Cannot uses spaces",
 		key = "spece_illegal_tip"
 	},
+	map_event_skip = {
+		tip = "Skip stories",
+		key = "map_event_skip"
+	},
+	map_event_stop_tip = {
+		tip = "Step on <color=#A9F548>mechanisms</color> to remove obstacles of the same color.",
+		key = "map_event_stop_tip"
+	},
+	map_event_save_nekone = {
+		tip = "Successfully Rescued <color=#A9F548>Nekone</color>",
+		key = "map_event_save_nekone"
+	},
+	map_event_save_rurutie = {
+		tip = "Successfully Rescued <color=#A9F548>Rulutieh</color>",
+		key = "map_event_save_rurutie"
+	},
+	map_event_memory_collected = {
+		tip = "Successfully unlocked hidden story <color=#A9F548>$1</color>!",
+		key = "map_event_memory_collected"
+	},
+	map_event_save_kizuna = {
+		tip = "Successfully Rescued <color=#A9F548>Kizuna AI</color> ",
+		key = "map_event_save_kizuna"
+	},
 	five_choose_one = {
 		tip = "Using this will give you <color=#A9F548>$1</color> and a commemorative item.\nWould you like to use your Holy Night Gift? ",
 		key = "five_choose_one"
@@ -8074,6 +8413,25 @@ with Anti-Sub gear.
 		tip = "Loading furniture... ",
 		key = "backyard_is_loading"
 	},
+	levelScene_loop_help_tip = {
+		key = "levelScene_loop_help_tip",
+		tip = {
+			{
+				info = [[
+Once you get a Stage's Threat Level down to <color=#A9F548>Safe</color> and clear 
+it with <color=#A9F548>3 Stars</color>, you can choose to enable <color=#A9F548>Clearing Mode</color> from 
+the Stage's select screen.
+
+Enabling Clearing Mode affects a Stage in the following ways:
+1. On non-event Hard Mode Stages, <color=#A9F548>enemy mob fleets will 
+disappear, leaving only the Boss Fleet</color>.
+2. On event Stages, the positioning and pathfinding of enemy 
+fleets will change.
+3. On event Stages, <color=#A9F548>the movement restriction placed on your 
+fleets is removed</color>, allowing you to move freely around the map.]]
+			}
+		}
+	},
 	no_airspace_competition = {
 		tip = "无空域争夺",
 		key = "no_airspace_competition"
@@ -8114,6 +8472,60 @@ with Anti-Sub gear.
 		tip = "Danger",
 		key = "ambush_display_6"
 	},
+	black_white_grid_notice = {
+		key = "black_white_grid_notice",
+		tip = {
+			{
+				info = "Event Description："
+			},
+			{
+				info = [[
+1.Purification Virtual Space consists of five boards, which 
+can be repeated over the course of the event, But only the 
+<color=#A9F548>first time</color> clearing each of the first four boards will earn 
+rewards.]]
+			},
+			{
+				info = "2.The first four boards are fixed, while the fifth is randomly \ngenerated."
+			},
+			{
+				info = "3.the event maps must be 3-star cleared in order to unlock \nthe corresponding game board."
+			},
+			{
+				info = "4.Each game board must be completed in order to unlock \nthe subsequent boards."
+			},
+			{
+				info = "5 The player gets 3 flips every round."
+			},
+			{
+				info = "6.Tap any square on the board twice to execute a flip"
+			},
+			{
+				info = "7.Executing a flip causes the tapped square to become the \ncenter of a <color=#A9F548>9-square</color> color <color=#A9F548>inversion</color>。\n（Black squares turn white, white squares turn black）"
+			},
+			{
+				info = "8.The game ends after 3 flips and scoring begins."
+			},
+			{
+				info = [[
+9.During scoring, each black piece on the board is worth <color=#A9F548>-1</color> 
+point, each white piece is worth <color=#A9F548>+1</color> point.
+ A score of <color=#A9F548>≥0</color> means a completed purification, <color=#A9F548>＜0</color> means 
+purification has failed.]]
+			},
+			{
+				info = "10. Players have 3 flips per round."
+			}
+		}
+	},
+	black_white_grid_reset = {
+		tip = "Confirm Placement?",
+		key = "black_white_grid_reset"
+	},
+	black_white_grid_switch_tip = {
+		tip = "This Board is still in Progress",
+		key = "black_white_grid_switch_tip"
+	},
 	no_way_to_escape = {
 		tip = "Can't escape!",
 		key = "no_way_to_escape"
@@ -8125,6 +8537,31 @@ with Anti-Sub gear.
 	refuse_and_add_into_bl = {
 		tip = "Decline and add to blacklist?",
 		key = "refuse_and_add_into_bl"
+	},
+	electrotherapy_wanning = {
+		tip = "The electrified area is about to expand",
+		key = "electrotherapy_wanning"
+	},
+	memorybook_get_award_tip = {
+		tip = "You must unlock all \"Port Memories\" to receive the \"Commemorative Pyoko-Pyoko Medal\"",
+		key = "memorybook_get_award_tip"
+	},
+	memorybook_notice = {
+		key = "memorybook_notice",
+		tip = {
+			{
+				info = "Event Description："
+			},
+			{
+				info = "1.Participate in the event to earn \"Port Memories.\" Collect all \n20 to receive\n the \"Commemorative Pyoko-Pyoko Medal.\""
+			},
+			{
+				info = "2.Play through the content below to earn \"Port Memories\":\n Clear event stages, complete daily tasks, complete Virtual \nSpace Purification, complete event tasks, collect Kizuna Points"
+			},
+			{
+				info = "3. Return to SP1-SP4 after clearing Black-SP to collect \nnew memories!"
+			}
+		}
 	},
 	verification_code_req_tip1 = {
 		tip = "The e-mail box cannot be left blank.",

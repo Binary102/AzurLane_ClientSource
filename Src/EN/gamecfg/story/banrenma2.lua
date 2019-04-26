@@ -56,7 +56,7 @@ return {
 			}
 		},
 		{
-			actor = 204031,
+			actor = 204030,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -77,7 +77,7 @@ return {
 			bgName = "bg_story_school",
 			say = "胡德前辈，您好！是的，我们正在巡逻途中。",
 			dir = -1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -93,7 +93,7 @@ return {
 			}
 		},
 		{
-			actor = 204031,
+			actor = 204030,
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -109,7 +109,7 @@ return {
 			}
 		},
 		{
-			actor = 206041,
+			actor = 206040,
 			side = 0,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -125,7 +125,7 @@ return {
 			}
 		},
 		{
-			actor = 204031,
+			actor = 204030,
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -141,7 +141,7 @@ return {
 			}
 		},
 		{
-			actor = 204031,
+			actor = 204030,
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -161,7 +161,7 @@ return {
 			side = 0,
 			bgName = "bg_story_school",
 			dir = -1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "好的，胡德前辈！我一定准时参加！",
 			typewriter = {
@@ -197,7 +197,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 301321,
+			actor = 301320,
 			nameColor = "#a9f548",
 			say = "指挥官，还有，那个，唔……给你们糖~",
 			flashout = {
@@ -231,7 +231,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 301331,
+			actor = 301330,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -247,7 +247,7 @@ return {
 			}
 		},
 		{
-			actor = 206041,
+			actor = 206040,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -282,7 +282,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 301331,
+			actor = 301330,
 			nameColor = "#a9f548",
 			say = "欸欸欸，前、前辈吗……",
 			typewriter = {
@@ -309,7 +309,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_103",
 			dir = -1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -325,7 +325,7 @@ return {
 			}
 		},
 		{
-			actor = 301321,
+			actor = 301320,
 			side = 0,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -341,7 +341,7 @@ return {
 			}
 		},
 		{
-			actor = 301331,
+			actor = 301330,
 			side = 1,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -357,7 +357,7 @@ return {
 			}
 		},
 		{
-			actor = 301321,
+			actor = 301320,
 			side = 0,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -377,7 +377,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = -1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "是的，请不用太在意。",
 			typewriter = {
@@ -394,7 +394,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 301331,
+			actor = 301330,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,

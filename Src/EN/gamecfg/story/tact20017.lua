@@ -4,7 +4,7 @@ return {
 	once = true,
 	scripts = {
 		{
-			actor = 408031,
+			actor = 408030,
 			side = 2,
 			nameColor = "#ff0000",
 			say = "Did you record all that?",
@@ -18,7 +18,7 @@ return {
 			}
 		},
 		{
-			actor = 408021,
+			actor = 408020,
 			side = 2,
 			nameColor = "#ff0000",
 			say = "Yeah... I don't know how this fleet managed to appear again when it doesn't exist anymore... The situation is even worse than I thought.",
@@ -47,7 +47,7 @@ return {
 			}
 		},
 		{
-			actor = 408031,
+			actor = 408030,
 			side = 2,
 			nameColor = "#ff0000",
 			say = "They found us... She never even showed up on my sonar...",
@@ -61,7 +61,7 @@ return {
 			}
 		},
 		{
-			actor = 408021,
+			actor = 408020,
 			side = 2,
 			nameColor = "#ff0000",
 			say = "We might be in trouble here... Submerge at max speed!",
@@ -105,7 +105,7 @@ return {
 			}
 		},
 		{
-			actor = 408021,
+			actor = 408020,
 			side = 2,
 			nameColor = "#ff0000",
 			say = "We need to get this intel to the commander...!",
@@ -119,7 +119,7 @@ return {
 			}
 		},
 		{
-			actor = 408031,
+			actor = 408030,
 			side = 2,
 			nameColor = "#ff0000",
 			say = "U-47, go on without me... The enemy shouldn't be able to follow us down to our maximum depth...",
@@ -133,7 +133,7 @@ return {
 			}
 		},
 		{
-			actor = 408031,
+			actor = 408030,
 			side = 2,
 			nameColor = "#ff0000",
 			say = "You're faster than me anyway. I'll try to buy you some time.",
@@ -147,7 +147,7 @@ return {
 			}
 		},
 		{
-			actor = 408021,
+			actor = 408020,
 			side = 2,
 			nameColor = "#ff0000",
 			say = "557…",
@@ -161,7 +161,7 @@ return {
 			}
 		},
 		{
-			actor = 408021,
+			actor = 408020,
 			side = 2,
 			nameColor = "#ff0000",
 			say = "...Okay. I wish you good luck.",
@@ -205,7 +205,7 @@ return {
 			}
 		},
 		{
-			actor = 408031,
+			actor = 408030,
 			side = 2,
 			nameColor = "#ff0000",
 			say = "...I used to be called an unlucky sub... and up until now I thought that was true...",
@@ -219,7 +219,7 @@ return {
 			}
 		},
 		{
-			actor = 408031,
+			actor = 408030,
 			side = 2,
 			nameColor = "#ff0000",
 			say = "But now... it isn't anymore!",
@@ -233,7 +233,7 @@ return {
 			}
 		},
 		{
-			actor = 408031,
+			actor = 408030,
 			side = 2,
 			nameColor = "#ff0000",
 			say = "My sisters, give me courage...!",

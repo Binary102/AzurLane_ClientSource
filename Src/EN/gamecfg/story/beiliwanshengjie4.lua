@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			actor = 205041,
+			actor = 205040,
 			nameColor = "#a9f548",
 			say = "Sister, did you hear the latest gossip about Miss ghost lurking around the port area?",
 			flashout = {
@@ -56,7 +56,7 @@ return {
 			side = 1,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 205031,
+			actor = 205030,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -72,7 +72,7 @@ return {
 			}
 		},
 		{
-			actor = 205031,
+			actor = 205030,
 			side = 1,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -88,7 +88,7 @@ return {
 			}
 		},
 		{
-			actor = 205041,
+			actor = 205040,
 			side = 0,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -104,7 +104,7 @@ return {
 			}
 		},
 		{
-			actor = 205041,
+			actor = 205040,
 			side = 0,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -123,7 +123,7 @@ return {
 			side = 1,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 205031,
+			actor = 205030,
 			nameColor = "#a9f548",
 			say = "S-Swimsuits are shameless...",
 			typewriter = {
@@ -146,7 +146,7 @@ return {
 			}
 		},
 		{
-			actor = 205041,
+			actor = 205040,
 			side = 0,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -166,7 +166,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 205041,
+			actor = 205040,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -185,7 +185,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 205031,
+			actor = 205030,
 			nameColor = "#a9f548",
 			say = "Where did you get this...h-hold on, at least let me change into it myself!",
 			typewriter = {
@@ -219,7 +219,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 900140,
+			actor = 205031,
 			nameColor = "#a9f548",
 			say = "Sigh...such a troublemaker...that Rodney. Half the time I don’t know what goes on in that mind of hers.",
 			flashout = {
@@ -253,7 +253,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 900140,
+			actor = 205031,
 			nameColor = "#a9f548",
 			say = "“Three Witches” whatever...it’s just a gossip. Let’s walk around and deal with it.",
 			typewriter = {
@@ -269,7 +269,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 900138,
+			actor = 101271,
 			nameColor = "#a9f548",
 			say = "I caught the third Witch!",
 			typewriter = {
@@ -296,7 +296,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 900140,
+			actor = 205031,
 			nameColor = "#a9f548",
 			say = "Wow! -- So it turns out to be you girls...",
 			typewriter = {
@@ -324,7 +324,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 900137,
+			actor = 302051,
 			actorName = "{namecode:48}",
 			say = "Is Ms. Nelson also one of the \"virtuous witches\" who is looking for the “Miss ghost”?",
 			typewriter = {
@@ -341,7 +341,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 900140,
+			actor = 205031,
 			nameColor = "#a9f548",
 			say = "Ha? Um, yea, sure...",
 			typewriter = {
@@ -358,7 +358,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 900140,
+			actor = 205031,
 			nameColor = "#a9f548",
 			say = "(Crap, I blurted that out)",
 			typewriter = {
@@ -376,7 +376,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 900137,
+			actor = 302051,
 			actorName = "{namecode:48}",
 			say = "Now all three have shown up, great...",
 			typewriter = {
@@ -389,7 +389,7 @@ return {
 			}
 		},
 		{
-			actor = 900138,
+			actor = 101271,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -409,7 +409,7 @@ return {
 			bgName = "star_level_bg_103",
 			dir = 1,
 			blackBg = true,
-			actor = 900140,
+			actor = 205031,
 			nameColor = "#a9f548",
 			say = "(Even though it’ll surely be a prank, it’s not good to leave these kids alone and not help...I’ll follow them then).",
 			typewriter = {

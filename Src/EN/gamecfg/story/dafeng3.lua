@@ -50,7 +50,7 @@ return {
 			}
 		},
 		{
-			actor = 307071,
+			actor = 307070,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -71,7 +71,7 @@ return {
 			say = "呜哇哈！",
 			dir = 1,
 			bgName = "bg_story_task",
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			actorPosition = {
 				x = 0,
@@ -100,7 +100,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 307071,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "呀啊啊啊啊啊啊啊！大、大大大、大青花鱼！",
 			typewriter = {
@@ -127,7 +127,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "哇哈哈哈哈，有没有吓一跳呀！",
 			typewriter = {
@@ -164,7 +164,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 307071,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "又、又是你！！！",
 			typewriter = {
@@ -191,7 +191,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -211,7 +211,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 307071,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "多亏了你，{namecode:97}现在精神得很！",
 			typewriter = {
@@ -228,7 +228,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "对了的了，我找到了新的游戏，你今天有没有时间呀，一起来试试新游戏嘛",
 			typewriter = {
@@ -245,7 +245,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 307071,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "{namecode:97}作为指挥官大人的秘书舰，有义务随时陪伴在指挥官大人身边。才没有时间陪你玩游戏呢——",
 			typewriter = {
@@ -262,7 +262,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "欸~~那带上指挥官一起玩也好嘛~来嘛来嘛~",
 			typewriter = {
@@ -289,7 +289,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 307071,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "（这家伙莫非是装嫩来让指挥官心软来…！）",
 			typewriter = {
@@ -306,7 +306,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 307071,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "……啊啊啊！知道了啦，{namecode:97}会考虑的",
 			typewriter = {
@@ -332,7 +332,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "嘿嘿，太好了。那我晚点再来找你们~指挥官、{namecode:97}，拜拜~",
 			typewriter = {
@@ -368,7 +368,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 307071,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "关系好？和那孩子？倒、倒也不算坏……？",
 			typewriter = {
@@ -395,7 +395,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 307071,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "每次都是那孩子自顾自地跑来，把人家拉扯来拉扯去的……",
 			typewriter = {
@@ -412,7 +412,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 307071,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "而且还要把指挥官卷进来……搞不清楚那孩子到底在想些什么！",
 			typewriter = {

@@ -8,7 +8,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 307061,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			side = 2,
 			nameColor = "#a9f548",
@@ -31,7 +31,7 @@ return {
 			say = "We are what you see. In this Sanctuary bestowed upon us by the Creator, we wield unlimited power.",
 			actorName = "{namecode:91}",
 			dir = -1,
-			actor = 307011,
+			actor = 307010,
 			nameColor = "#ff0000",
 			paintingFadeOut = {
 				time = 0.5,
@@ -54,7 +54,7 @@ return {
 			side = 1,
 			actorName = "{namecode:91}",
 			dir = -1,
-			actor = 307011,
+			actor = 307010,
 			nameColor = "#ff0000",
 			say = "That is, as long as we continue sacrificing exquisite souls... *Giggle*...",
 			shake = {
@@ -71,7 +71,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			side = 0,
 			nameColor = "#a9f548",
@@ -93,7 +93,7 @@ return {
 			side = 1,
 			actorName = "{namecode:91}",
 			dir = -1,
-			actor = 307011,
+			actor = 307010,
 			nameColor = "#ff0000",
 			say = "Silence! Don't you dare utter that name in my presence!",
 			shake = {
@@ -110,7 +110,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			side = 0,
 			nameColor = "#a9f548",
@@ -132,7 +132,7 @@ return {
 			side = 1,
 			actorName = "{namecode:91}",
 			dir = -1,
-			actor = 307011,
+			actor = 307010,
 			nameColor = "#ff0000",
 			say = "Enough! It drives me crazy to hear that despicable name repeated! Over and over! I will destroy her... I WILL DESTROY HER MYSELF! AAAGGHHH!",
 			shake = {
@@ -149,7 +149,7 @@ return {
 			}
 		},
 		{
-			actor = 307021,
+			actor = 307020,
 			actorName = "{namecode:92}",
 			side = 1,
 			nameColor = "#ff0000",

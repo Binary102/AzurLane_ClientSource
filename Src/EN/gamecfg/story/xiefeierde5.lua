@@ -137,7 +137,7 @@ return {
 			}
 		},
 		{
-			actor = 202081,
+			actor = 202080,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -157,7 +157,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			withoutActorName = true,
-			actor = 202081,
+			actor = 202080,
 			nameColor = "#a9f548",
 			say = "When I opened my eyes, I could see Sheffield's cold expression in front of me, her gun still smoking. So that was the sound...",
 			typewriter = {
@@ -176,7 +176,7 @@ return {
 			}
 		},
 		{
-			actor = 202081,
+			actor = 202080,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -209,7 +209,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 202081,
+			actor = 202080,
 			nameColor = "#a9f548",
 			say = "Commander, I figured that your room was as sloppy and disorganised as you are. Therefore, I will need to clean it.",
 			effects = {
@@ -248,7 +248,7 @@ return {
 			}
 		},
 		{
-			actor = 202081,
+			actor = 202080,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -264,7 +264,7 @@ return {
 			}
 		},
 		{
-			actor = 202081,
+			actor = 202080,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -308,7 +308,7 @@ return {
 			}
 		},
 		{
-			actor = 202081,
+			actor = 202080,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -358,7 +358,7 @@ return {
 			}
 		},
 		{
-			actor = 202081,
+			actor = 202080,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -378,7 +378,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			actor = 202081,
+			actor = 202080,
 			nameColor = "#a9f548",
 			say = "Since we are spending quite a bit of time together, Master, you should also call me \"Sheffy\" for the sake of convenience. Saves a syllable.",
 			typewriter = {

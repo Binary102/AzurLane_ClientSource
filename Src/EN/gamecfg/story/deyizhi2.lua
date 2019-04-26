@@ -46,7 +46,7 @@ return {
 			}
 		},
 		{
-			actor = 205011,
+			actor = 205010,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -66,7 +66,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 202121,
+			actor = 202120,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -85,7 +85,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_103",
 			dir = -1,
-			actor = 205011,
+			actor = 205010,
 			nameColor = "#a9f548",
 			say = "我不想去，交给厌战去吧！",
 			typewriter = {
@@ -108,7 +108,7 @@ return {
 			}
 		},
 		{
-			actor = 202121,
+			actor = 202120,
 			side = 1,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -127,7 +127,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 403041,
+			actor = 403040,
 			nameColor = "#a9f548",
 			say = "哼，皇家的女王居然还会受仆人的意见左右，在我们铁血，这种事是绝对不会发生的！",
 			flashout = {
@@ -157,7 +157,7 @@ return {
 			}
 		},
 		{
-			actor = 403041,
+			actor = 403040,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -176,7 +176,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 403041,
+			actor = 403040,
 			nameColor = "#a9f548",
 			say = "喂，格奈森瑙。",
 			typewriter = {
@@ -203,7 +203,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 404021,
+			actor = 404020,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -219,7 +219,7 @@ return {
 			}
 		},
 		{
-			actor = 403041,
+			actor = 403040,
 			side = 0,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -235,7 +235,7 @@ return {
 			}
 		},
 		{
-			actor = 404021,
+			actor = 404020,
 			side = 1,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -255,7 +255,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 404021,
+			actor = 404020,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -284,7 +284,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 403041,
+			actor = 403040,
 			nameColor = "#a9f548",
 			say = "哼，看到了吧，仆人！",
 			typewriter = {
@@ -330,7 +330,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 403041,
+			actor = 403040,
 			nameColor = "#a9f548",
 			say = "哼，我才是铁血的精神领袖呢！",
 			typewriter = {

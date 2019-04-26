@@ -69,7 +69,7 @@ return {
 			bgName = "bg_story_task",
 			bgmDelay = 2,
 			bgm = "story-2",
-			actor = 401461,
+			actor = 401460,
 			say = "Oh my beloved, what color am I?",
 			flashout = {
 				dur = 1,
@@ -98,7 +98,7 @@ return {
 			}
 		},
 		{
-			actor = 401461,
+			actor = 401460,
 			side = 2,
 			bgName = "bg_story_task",
 			say = "Please teach me the meaning of being \"me.\" How do I become the \"me\" you desire?",
@@ -112,7 +112,7 @@ return {
 			}
 		},
 		{
-			actor = 401461,
+			actor = 401460,
 			side = 2,
 			bgName = "bg_story_task",
 			say = "I will change myself so I can be yours, the kind of person you'd want me to be.",
@@ -150,7 +150,7 @@ return {
 			}
 		},
 		{
-			actor = 401461,
+			actor = 401460,
 			side = 2,
 			bgName = "bg_story_task",
 			say = "My color... should be Weiss.",
@@ -164,7 +164,7 @@ return {
 			}
 		},
 		{
-			actor = 401461,
+			actor = 401460,
 			side = 2,
 			bgName = "bg_story_task",
 			say = "So that you may dye me with your color, I have dyed myself an innocent white.",
@@ -178,7 +178,7 @@ return {
 			}
 		},
 		{
-			actor = 401461,
+			actor = 401460,
 			side = 2,
 			bgName = "bg_story_task",
 			say = "No matter how many times I am stained with smoke and soot, I want to become the kind of \"person\" who can wash away the grayness inside her heart over and over again.",
@@ -216,7 +216,7 @@ return {
 			}
 		},
 		{
-			actor = 401461,
+			actor = 401460,
 			side = 2,
 			bgName = "bg_story_task",
 			blackBg = true,

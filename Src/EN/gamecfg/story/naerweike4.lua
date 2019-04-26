@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 201161,
+			actor = 201160,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
@@ -23,7 +23,7 @@ return {
 			}
 		},
 		{
-			actor = 201201,
+			actor = 201200,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -42,7 +42,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			actor = 201161,
+			actor = 201160,
 			say = "嗯……不过，这么近的距离都有警戒，看来铁血确实已经拿下纳尔维克了……可恶。",
 			typewriter = {
 				speed = 0.05,
@@ -58,7 +58,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			actor = 201201,
+			actor = 201200,
 			say = "没关系，近岸炮击之后再找机会抢过来就好了。",
 			typewriter = {
 				speed = 0.05,
@@ -74,7 +74,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			actor = 201161,
+			actor = 201160,
 			say = "……话说，猎人，虽然你总说我容易激动，不过我觉得…你也偶尔会很自然地说些突兀的话呢…",
 			typewriter = {
 				speed = 0.05,
@@ -86,7 +86,7 @@ return {
 			}
 		},
 		{
-			actor = 201201,
+			actor = 201200,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -101,7 +101,7 @@ return {
 			}
 		},
 		{
-			actor = 201161,
+			actor = 201160,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -120,7 +120,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			actor = 201161,
+			actor = 201160,
 			say = "唔，总之，我们已经绕过警戒进入了峡湾，等于掌握了主动权，接下来，就开始侦查敌情吧。",
 			typewriter = {
 				speed = 0.05,
@@ -132,7 +132,7 @@ return {
 			}
 		},
 		{
-			actor = 401191,
+			actor = 401190,
 			nameColor = "#ff5c5c",
 			side = 1,
 			dir = 1,
@@ -152,7 +152,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			actor = 201201,
+			actor = 201200,
 			say = "？！",
 			typewriter = {
 				speed = 0.05,
@@ -164,7 +164,7 @@ return {
 			}
 		},
 		{
-			actor = 201161,
+			actor = 201160,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,

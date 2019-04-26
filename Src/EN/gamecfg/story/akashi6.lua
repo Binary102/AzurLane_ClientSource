@@ -4,7 +4,7 @@ return {
 	once = true,
 	scripts = {
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 2,
 			dir = -1,
 			say = "A talented Commander should constantly challenge himself to his limits!",
@@ -18,7 +18,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 2,
 			dir = -1,
 			say = "--- Now that’s a challenge! Let {namecode:98} witness firsthand your determination and perseverance!",
@@ -32,7 +32,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 2,
 			dir = -1,
 			say = "If you’re short on equipment then come find {namecode:98}, she will support you, Commander, to the best of her abilities!",
@@ -46,7 +46,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 2,
 			dir = -1,
 			say = "Firstly, let's escort those cargo ships. C’mon, to battle! Growl~~",

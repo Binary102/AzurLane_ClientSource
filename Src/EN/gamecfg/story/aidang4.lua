@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			actor = 303121,
+			actor = 303120,
 			nameColor = "#a9f548",
 			say = "Everything on the shopping list is checked off, and we've even had lunch. Wouldn't you say our day has gone pretty smoothly?",
 			flashout = {
@@ -55,7 +55,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 303121,
+			actor = 303120,
 			nameColor = "#a9f548",
 			say = "*giggles* You look like you're not ready to head back just yet. It's written all over your face. Is there anywhere you'd still like to go?",
 			typewriter = {
@@ -74,7 +74,7 @@ return {
 			}
 		},
 		{
-			actor = 303121,
+			actor = 303120,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -90,7 +90,7 @@ return {
 			}
 		},
 		{
-			actor = 303121,
+			actor = 303120,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -109,7 +109,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 303121,
+			actor = 303120,
 			nameColor = "#a9f548",
 			say = "Here, take this ticket. Sorry for making you run around so much today.",
 			flashout = {
@@ -149,7 +149,7 @@ return {
 			}
 		},
 		{
-			actor = 303121,
+			actor = 303120,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -165,7 +165,7 @@ return {
 			}
 		},
 		{
-			actor = 303121,
+			actor = 303120,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -191,7 +191,7 @@ return {
 			}
 		},
 		{
-			actor = 303121,
+			actor = 303120,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -210,7 +210,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 303121,
+			actor = 303120,
 			nameColor = "#a9f548",
 			say = "As for our seats... here, you can lean against me. If you get scared, you can always hug your big sister nice and tight~",
 			flashout = {
@@ -240,7 +240,7 @@ return {
 			}
 		},
 		{
-			actor = 303121,
+			actor = 303120,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
@@ -256,7 +256,7 @@ return {
 			}
 		},
 		{
-			actor = 303121,
+			actor = 303120,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,

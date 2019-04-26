@@ -29,6 +29,7 @@ class("LoadPlayerDataCommand", pm.SimpleCommand).execute = function (slot0, slot
 	slot0.facade:registerProxy(CommanderProxy.New())
 	slot0.facade:registerProxy(ColoringProxy.New())
 	slot0.facade:registerProxy(TechnologyProxy.New())
+	slot0.facade:registerProxy(TechnologyNationProxy.New())
 	pg.ConnectionMgr.GetInstance():setPacketIdx(1)
 	pg.ConnectionMgr.GetInstance():Send(11001, {
 		timestamp = 0

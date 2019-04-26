@@ -21,7 +21,7 @@ return {
 			bgName = "bg_night",
 			dir = 1,
 			bgm = "story-2",
-			actor = 306034,
+			actor = 306030,
 			nameColor = "#a9f548",
 			say = "The banquet was wonderful, but I felt rather lonely when it had ended and everyone went home...",
 			typewriter = {
@@ -34,7 +34,7 @@ return {
 			}
 		},
 		{
-			actor = 306034,
+			actor = 306030,
 			nameColor = "#a9f548",
 			bgName = "bg_night",
 			side = 2,
@@ -50,7 +50,7 @@ return {
 			}
 		},
 		{
-			actor = 306034,
+			actor = 306030,
 			nameColor = "#a9f548",
 			bgName = "bg_night",
 			side = 2,
@@ -83,7 +83,7 @@ return {
 			}
 		},
 		{
-			actor = 306034,
+			actor = 306030,
 			nameColor = "#a9f548",
 			bgName = "bg_night",
 			side = 2,
@@ -102,7 +102,7 @@ return {
 			bgName = "bg_night",
 			side = 2,
 			dir = 1,
-			actor = 900018,
+			actor = 306031,
 			nameColor = "#a9f548",
 			say = "Oh, my beloved, please allow me to accompany you to see the cherry trees tonight.",
 			flashout = {
@@ -149,7 +149,7 @@ return {
 			}
 		},
 		{
-			actor = 900018,
+			actor = 306031,
 			nameColor = "#a9f548",
 			bgName = "bg_night",
 			side = 2,
@@ -182,7 +182,7 @@ return {
 			}
 		},
 		{
-			actor = 900018,
+			actor = 306031,
 			nameColor = "#a9f548",
 			bgName = "bg_night",
 			side = 2,
@@ -198,7 +198,7 @@ return {
 			}
 		},
 		{
-			actor = 900018,
+			actor = 306031,
 			nameColor = "#a9f548",
 			bgName = "bg_night",
 			side = 2,

@@ -22,7 +22,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			bgm = "story-1",
-			actor = 301164,
+			actor = 301160,
 			actorName = "？？？",
 			say = "Wa~hahaha!",
 			typewriter = {
@@ -54,7 +54,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 301164,
+			actor = 301160,
 			actorName = "？？？",
 			say = "Listen up! I'm the noble, lucky, invincible, magni... magnici...",
 			typewriter = {
@@ -71,7 +71,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 301164,
+			actor = 301160,
 			actorName = "？？？",
 			say = "...mag... magni-what the heck... A-anyway! Call me Yukikaze the Great!",
 			typewriter = {
@@ -98,7 +98,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 301164,
+			actor = 301160,
 			actorName = "{namecode:22}",
 			say = "Hmph! In any case, I am a part of this fleet from now on. Do your best to use Yukikaze the Great to her fullest potential!",
 			typewriter = {
@@ -131,7 +131,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 301164,
+			actor = 301160,
 			actorName = "{namecode:22}",
 			say = "Now! Bow down before me and place me in the main fleet!",
 			typewriter = {
@@ -158,7 +158,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgName = "bg_story_school",
-			actor = 301164,
+			actor = 301160,
 			nameColor = "#a9f548",
 			say = "Were you so starstruck by Yukikaze the Great's majesty that you are unable to speak? You are merely a lowly human after all!",
 			effects = {
@@ -228,7 +228,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 301164,
+			actor = 301160,
 			actorName = "{namecode:22}",
 			say = "H-huh...?",
 			typewriter = {
@@ -245,7 +245,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 301614,
+			actor = 301610,
 			actorName = "{namecode:128}",
 			say = "Um... Commander... turned into a rock...",
 			typewriter = {
@@ -263,7 +263,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 301624,
+			actor = 301620,
 			actorName = "{namecode:127}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -283,7 +283,7 @@ return {
 			side = 0,
 			bgName = "bg_story_school",
 			dir = -1,
-			actor = 301604,
+			actor = 301600,
 			actorName = "{namecode:143}",
 			say = "S-so cool... Hey Urakaze, help me think up a wild self-introduction like that too!",
 			typewriter = {
@@ -300,7 +300,7 @@ return {
 			side = 1,
 			bgName = "bg_story_school",
 			dir = -1,
-			actor = 301594,
+			actor = 301590,
 			actorName = "{namecode:142}",
 			say = "Huh? How would I know how to do something like that? More importantly, Commander, is it fine to leave Yukikaze alone over there?",
 			typewriter = {
@@ -324,7 +324,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			blackBg = true,
-			actor = 301164,
+			actor = 301160,
 			actorName = "{namecode:22}",
 			say = "Grrr...!! For ignoring Yukikaze the Great, even ten thousand deaths are not enough for the likes of you!",
 			typewriter = {

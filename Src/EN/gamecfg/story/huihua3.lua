@@ -50,7 +50,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 307071,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "布料，准备完成~缝纫工具，没有问题~",
 			typewriter = {
@@ -67,7 +67,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 307071,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "向{namecode:98}借的蛮啾们……",
 			typewriter = {
@@ -90,7 +90,7 @@ return {
 			}
 		},
 		{
-			actor = 307071,
+			actor = 307070,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -109,7 +109,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 307071,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "呵呵呵，想到亲爱的指挥官大人被我的礼服迷住的样子…啊哈~{namecode:97}真是太幸福了~",
 			typewriter = {
@@ -136,7 +136,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			actorPosition = {
 				x = 0,
@@ -165,7 +165,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 307071,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "大大大大大青花鱼？！鬼啊！！！",
 			typewriter = {
@@ -192,7 +192,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 307071,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "呜………………",
 			typewriter = {
@@ -218,7 +218,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "……欸，我只是想吓一吓你，怎么昏过去了。",
 			typewriter = {
@@ -235,7 +235,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "喂，{namecode:97}，醒一醒，醒~一~醒~",
 			typewriter = {
@@ -292,7 +292,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			bgm = "story-1",
-			actor = 307071,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "……这里，是哪里……我好像梦见大青花鱼出现在我的宿舍里……",
 			typewriter = {
@@ -309,7 +309,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			actorPosition = {
 				x = 0,
@@ -337,7 +337,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 307071,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "…………",
 			typewriter = {
@@ -363,7 +363,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "欸，你可别又晕过去了，蛮啾们，麻烦你们端杯水过来。",
 			typewriter = {
@@ -381,7 +381,7 @@ return {
 			bgName = "bg_story_room",
 			say = "你、你这家伙，怎么会大大咧咧地出现在我的宿舍里。",
 			dir = 1,
-			actor = 307071,
+			actor = 307070,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -407,7 +407,7 @@ return {
 			}
 		},
 		{
-			actor = 108021,
+			actor = 108020,
 			side = 1,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -427,7 +427,7 @@ return {
 			side = 0,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 307071,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "……找我玩？我们的关系还没有好到那个地步吧。",
 			typewriter = {
@@ -440,7 +440,7 @@ return {
 			}
 		},
 		{
-			actor = 108021,
+			actor = 108020,
 			side = 1,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -460,7 +460,7 @@ return {
 			side = 0,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 307071,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "……算了。不过，其实现在我也不那么在意了就是…过去是过去，现在是现在。",
 			typewriter = {
@@ -473,7 +473,7 @@ return {
 			}
 		},
 		{
-			actor = 108021,
+			actor = 108020,
 			side = 1,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -494,7 +494,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			actorScale = 1.1,
-			actor = 307071,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "胆敢骚扰指挥官大人的家伙…杀无赦——",
 			effects = {
@@ -516,7 +516,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "呜哇！不是说好和解了吗？！",
 			effects = {
@@ -549,7 +549,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			soundeffect = "event:/battle/plane",
-			actor = 307071,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "虽然我并不在意过去的事，但如果现在有人想要骚扰我最爱的指挥官大人……",
 			typewriter = {
@@ -562,7 +562,7 @@ return {
 			}
 		},
 		{
-			actor = 307071,
+			actor = 307070,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -582,7 +582,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "呜哇哇，我错了，我错了，我不会抢走指挥官的啦！",
 			typewriter = {
@@ -609,7 +609,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "快把你的舰载机收起来收起来，蛮啾们都要被你吓到啦！",
 			typewriter = {
@@ -636,7 +636,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "呼……吓死我了。",
 			typewriter = {
@@ -649,7 +649,7 @@ return {
 			}
 		},
 		{
-			actor = 108021,
+			actor = 108020,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -665,7 +665,7 @@ return {
 			}
 		},
 		{
-			actor = 108021,
+			actor = 108020,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -685,7 +685,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "而且这么重大的比赛，说不定还能遇到指挥官呢~",
 			typewriter = {
@@ -702,7 +702,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 307071,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "是、是嘛…真是个缠人的家伙，就陪你这么一次好了…",
 			typewriter = {
@@ -719,7 +719,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			blackBg = true,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "耶~",
 			typewriter = {

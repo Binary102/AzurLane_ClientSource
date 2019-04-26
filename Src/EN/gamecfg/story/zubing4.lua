@@ -50,7 +50,7 @@ return {
 			}
 		},
 		{
-			actor = 204031,
+			actor = 204030,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -66,7 +66,7 @@ return {
 			}
 		},
 		{
-			actor = 305111,
+			actor = 305110,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -82,7 +82,7 @@ return {
 			}
 		},
 		{
-			actor = 305111,
+			actor = 305110,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -101,7 +101,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 205071,
+			actor = 205070,
 			nameColor = "#a9f548",
 			say = "If memory doth serve me properly, thou art Ashigara of the Sakura Empire?",
 			flashout = {
@@ -136,7 +136,7 @@ return {
 			bgName = "bg_story_nepu1",
 			say = "Huh? Uhh, um, yes ma'am!",
 			dir = 1,
-			actor = 303091,
+			actor = 303090,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -152,7 +152,7 @@ return {
 			}
 		},
 		{
-			actor = 303091,
+			actor = 303090,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -168,7 +168,7 @@ return {
 			}
 		},
 		{
-			actor = 205071,
+			actor = 205070,
 			side = 1,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -188,7 +188,7 @@ return {
 			side = 0,
 			dir = 1,
 			blackBg = true,
-			actor = 303091,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "(Is... is she complimenting me?)",
 			typewriter = {
@@ -205,7 +205,7 @@ return {
 			side = 0,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 303091,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "Th-thank you very much...",
 			typewriter = {
@@ -218,7 +218,7 @@ return {
 			}
 		},
 		{
-			actor = 205071,
+			actor = 205070,
 			side = 1,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -238,7 +238,7 @@ return {
 			side = 0,
 			dir = 1,
 			blackBg = true,
-			actor = 303091,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "(Wh-what does she mean? Is she asking about why I work hard?)",
 			typewriter = {
@@ -255,7 +255,7 @@ return {
 			side = 0,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 303091,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "Um... though this is just an exercise, I am a representative of the Sakura Empire, so...",
 			typewriter = {
@@ -268,7 +268,7 @@ return {
 			}
 		},
 		{
-			actor = 303091,
+			actor = 303090,
 			side = 0,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -284,7 +284,7 @@ return {
 			}
 		},
 		{
-			actor = 205071,
+			actor = 205070,
 			side = 1,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -300,7 +300,7 @@ return {
 			}
 		},
 		{
-			actor = 205071,
+			actor = 205070,
 			side = 1,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -320,7 +320,7 @@ return {
 			side = 0,
 			dir = 1,
 			blackBg = true,
-			actor = 303091,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "(I-I've never heard these words before...)",
 			typewriter = {
@@ -333,7 +333,7 @@ return {
 			}
 		},
 		{
-			actor = 205061,
+			actor = 205060,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -349,7 +349,7 @@ return {
 			}
 		},
 		{
-			actor = 205061,
+			actor = 205060,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -365,7 +365,7 @@ return {
 			}
 		},
 		{
-			actor = 205071,
+			actor = 205070,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -395,7 +395,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 303091,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "(Phew... I-I'm saved...)",
 			typewriter = {
@@ -408,7 +408,7 @@ return {
 			}
 		},
 		{
-			actor = 303091,
+			actor = 303090,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -428,7 +428,7 @@ return {
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			blackBg = true,
-			actor = 303091,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "(Do I really have something like that...?)",
 			typewriter = {

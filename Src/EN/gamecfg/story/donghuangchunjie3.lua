@@ -46,7 +46,7 @@ return {
 			}
 		},
 		{
-			actor = 501021,
+			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
@@ -65,7 +65,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_102",
 			dir = 1,
-			actor = 501021,
+			actor = 501020,
 			nameColor = "#a9f548",
 			say = "Alright, the firecracker is finished! I'm so good at crafting stuff!",
 			typewriter = {
@@ -88,7 +88,7 @@ return {
 			}
 		},
 		{
-			actor = 900164,
+			actor = 501041,
 			side = 2,
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
@@ -104,7 +104,7 @@ return {
 			}
 		},
 		{
-			actor = 501021,
+			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
@@ -123,7 +123,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_102",
 			dir = 1,
-			actor = 501021,
+			actor = 501020,
 			nameColor = "#a9f548",
 			say = "Woohoo! Now witness the might of my specially made, extra large New Year's firecracker!",
 			typewriter = {
@@ -200,7 +200,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_102",
 			dir = 1,
-			actor = 501011,
+			actor = 501010,
 			nameColor = "#a9f548",
 			say = "W-what was that noise?! Was it you, Fu Shun?! I know you're up to something again!",
 			flashout = {
@@ -240,7 +240,7 @@ return {
 			}
 		},
 		{
-			actor = 501021,
+			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
@@ -260,7 +260,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_102",
 			dir = 1,
-			actor = 900164,
+			actor = 501041,
 			nameColor = "#a9f548",
 			say = "Owww... Your firecrackers are scary, Fu Shun! ...I'm sorry, An Shan, I just couldn't stop her...",
 			typewriter = {
@@ -283,7 +283,7 @@ return {
 			}
 		},
 		{
-			actor = 501011,
+			actor = 501010,
 			side = 2,
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
@@ -303,7 +303,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_102",
 			dir = 1,
-			actor = 900167,
+			actor = 301054,
 			actorName = "{namecode:6}",
 			say = "Owch... My head is spinning...",
 			typewriter = {
@@ -316,7 +316,7 @@ return {
 			}
 		},
 		{
-			actor = 900169,
+			actor = 101173,
 			side = 2,
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
@@ -336,7 +336,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_102",
 			dir = 1,
-			actor = 107061,
+			actor = 107060,
 			nameColor = "#a9f548",
 			actorPosition = {
 				x = 1000,
@@ -361,7 +361,7 @@ return {
 			}
 		},
 		{
-			actor = 107021,
+			actor = 107020,
 			side = 2,
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
@@ -377,7 +377,7 @@ return {
 			}
 		},
 		{
-			actor = 107061,
+			actor = 107060,
 			side = 2,
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
@@ -393,7 +393,7 @@ return {
 			}
 		},
 		{
-			actor = 900169,
+			actor = 101173,
 			side = 2,
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
@@ -409,7 +409,7 @@ return {
 			}
 		},
 		{
-			actor = 501011,
+			actor = 501010,
 			side = 2,
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
@@ -425,7 +425,7 @@ return {
 			}
 		},
 		{
-			actor = 501021,
+			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
@@ -441,7 +441,7 @@ return {
 			}
 		},
 		{
-			actor = 107021,
+			actor = 107020,
 			side = 2,
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
@@ -457,7 +457,7 @@ return {
 			}
 		},
 		{
-			actor = 501011,
+			actor = 501010,
 			side = 2,
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
@@ -473,7 +473,7 @@ return {
 			}
 		},
 		{
-			actor = 107061,
+			actor = 107060,
 			side = 2,
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
@@ -489,7 +489,7 @@ return {
 			}
 		},
 		{
-			actor = 501011,
+			actor = 501010,
 			side = 2,
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
@@ -505,7 +505,7 @@ return {
 			}
 		},
 		{
-			actor = 900163,
+			actor = 501031,
 			side = 2,
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
@@ -521,7 +521,7 @@ return {
 			}
 		},
 		{
-			actor = 107061,
+			actor = 107060,
 			side = 2,
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
@@ -541,7 +541,7 @@ return {
 			bgName = "star_level_bg_102",
 			dir = 1,
 			blackBg = true,
-			actor = 107021,
+			actor = 107020,
 			nameColor = "#a9f548",
 			say = "I wouldn't mind either. We've never tried your cuisine before, so if anything you'll have to pardon us if we unknowingly do anything impolite.",
 			typewriter = {

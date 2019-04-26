@@ -564,7 +564,7 @@ function slot0.updateEquipmentPanel(slot0, slot1, slot2, slot3, slot4)
 			setActive(findTF(slot16, "locked"), not slot19)
 
 			if slot19 then
-				setText(findTF(slot16, "value"), getSkillDescGet(slot19.id))
+				setText(slot20, getSkillDescGet(slot19.id))
 			end
 
 			for slot26 = 1, 8, 1 do
@@ -578,10 +578,6 @@ function slot0.updateEquipmentPanel(slot0, slot1, slot2, slot3, slot4)
 				end
 
 				slot5[slot26] = slot27
-
-				if slot27 then
-					print("prpo:" .. AttributeType.Type2Name(slot27.type))
-				end
 
 				if slot26 <= 5 then
 					setActive(slot28, true)
@@ -807,55 +803,60 @@ function slot0.updateEquipmentPanel(slot0, slot1, slot2, slot3, slot4)
 									slot34 = 0
 									slot35 = 0
 
-									if string.match(slot27.value, i18n("word_secondseach")) == i18n("word_secondseach") then
-										slot34 = string.gsub(slot27.value, slot36, "")
-										slot35 = string.gsub(slot6[slot26].value, slot36, "")
+									if string.match(slot27.value, i18n("word_secondseach")) ~= string.match(slot6[slot26].value, i18n("word_secondseach")) then
+										setActive(slot31, false)
+										setActive(slot32, false)
 									else
-										slot37, slot38 = string.match(string.gsub(slot27.value, " ", ""), "(%d+)x(%d+)")
+										if slot36 == i18n("word_secondseach") then
+											slot34 = string.gsub(slot27.value, slot36, "")
+											slot35 = string.gsub(slot6[slot26].value, slot36, "")
+										else
+											slot38, slot39 = string.match(string.gsub(slot27.value, " ", ""), "(%d+)x(%d+)")
 
-										if not slot37 or not slot37 then
-											slot39 = 0
+											if not slot38 or not slot38 then
+												slot40 = 0
+											end
+
+											if not slot39 or not slot39 then
+												slot41 = 0
+											end
+
+											slot34 = slot40 * slot41
+											slot40, slot41 = string.match(string.gsub(slot6[slot26].value, " ", ""), "(%d+)x(%d+)")
+
+											if not slot40 or not slot40 then
+												slot42 = 0
+											end
+
+											if not slot41 or not slot41 then
+												slot43 = 0
+											end
+
+											slot35 = slot42 * slot43
 										end
 
-										if not slot38 or not slot38 then
-											slot40 = 0
+										slot38 = setActive
+										slot39 = slot31
+
+										if tonumber(slot35) >= tonumber(slot34) then
+											slot40 = false
+										else
+											slot40 = true
 										end
 
-										slot34 = slot39 * slot40
-										slot39, slot40 = string.match(string.gsub(slot6[slot26].value, " ", ""), "(%d+)x(%d+)")
+										slot38(slot39, slot40)
 
-										if not slot39 or not slot39 then
-											slot41 = 0
+										slot38 = setActive
+										slot39 = slot32
+
+										if tonumber(slot34) >= tonumber(slot35) then
+											slot40 = false
+										else
+											slot40 = true
 										end
 
-										if not slot40 or not slot40 then
-											slot42 = 0
-										end
-
-										slot35 = slot41 * slot42
+										slot38(slot39, slot40)
 									end
-
-									slot37 = setActive
-									slot38 = slot31
-
-									if tonumber(slot35) >= tonumber(slot34) then
-										slot39 = false
-									else
-										slot39 = true
-									end
-
-									slot37(slot38, slot39)
-
-									slot37 = setActive
-									slot38 = slot32
-
-									if tonumber(slot34) >= tonumber(slot35) then
-										slot39 = false
-									else
-										slot39 = true
-									end
-
-									slot37(slot38, slot39)
 								elseif slot27.type == AttributeType.SonarInterval then
 									slot34 = setActive
 									slot35 = slot31

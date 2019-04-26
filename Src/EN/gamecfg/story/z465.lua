@@ -48,7 +48,7 @@ return {
 			}
 		},
 		{
-			actor = 407011,
+			actor = 407010,
 			side = 2,
 			bgName = "bg_story_school",
 			dir = -1,
@@ -63,7 +63,7 @@ return {
 			}
 		},
 		{
-			actor = 401461,
+			actor = 401460,
 			side = 0,
 			bgName = "bg_story_school",
 			say = "Graf, you too have changed, since coming to here. Your pickling technique became quite divine.",
@@ -81,7 +81,7 @@ return {
 			}
 		},
 		{
-			actor = 407011,
+			actor = 407010,
 			side = 1,
 			bgName = "bg_story_school",
 			dir = -1,
@@ -96,7 +96,7 @@ return {
 			}
 		},
 		{
-			actor = 401461,
+			actor = 401460,
 			side = 0,
 			bgName = "bg_story_school",
 			say = "Think nothing of it, my very close friend. It is natural to lend you my aid.",
@@ -110,7 +110,7 @@ return {
 			}
 		},
 		{
-			actor = 407011,
+			actor = 407010,
 			side = 1,
 			bgName = "bg_story_school",
 			dir = -1,
@@ -125,7 +125,7 @@ return {
 			}
 		},
 		{
-			actor = 401461,
+			actor = 401460,
 			side = 0,
 			bgName = "bg_story_school",
 			say = "Also, I've done nothing worthy of praise. For fellow members of the Iron Blood, helping each other needs no second thought.",
@@ -139,7 +139,7 @@ return {
 			}
 		},
 		{
-			actor = 407011,
+			actor = 407010,
 			side = 1,
 			bgName = "bg_story_school",
 			dir = -1,
@@ -154,7 +154,7 @@ return {
 			}
 		},
 		{
-			actor = 401461,
+			actor = 401460,
 			side = 0,
 			bgName = "bg_story_school",
 			say = "Graf, are you in a position to talk? But what exactly is wrong with my speech?",
@@ -168,7 +168,7 @@ return {
 			}
 		},
 		{
-			actor = 407011,
+			actor = 407010,
 			side = 1,
 			bgName = "bg_story_school",
 			dir = -1,
@@ -183,7 +183,7 @@ return {
 			}
 		},
 		{
-			actor = 407011,
+			actor = 407010,
 			side = 1,
 			bgName = "bg_story_school",
 			dir = -1,
@@ -198,7 +198,7 @@ return {
 			}
 		},
 		{
-			actor = 401461,
+			actor = 401460,
 			side = 0,
 			bgName = "bg_story_school",
 			say = "…………",
@@ -212,7 +212,7 @@ return {
 			}
 		},
 		{
-			actor = 407011,
+			actor = 407010,
 			side = 1,
 			bgName = "bg_story_school",
 			dir = -1,
@@ -227,7 +227,7 @@ return {
 			}
 		},
 		{
-			actor = 401461,
+			actor = 401460,
 			side = 0,
 			bgName = "bg_story_school",
 			say = "I... I'll give it a shot... \"okay.\"",
@@ -241,7 +241,7 @@ return {
 			}
 		},
 		{
-			actor = 407011,
+			actor = 407010,
 			side = 1,
 			bgName = "bg_story_school",
 			dir = -1,
@@ -256,7 +256,7 @@ return {
 			}
 		},
 		{
-			actor = 401461,
+			actor = 401460,
 			side = 0,
 			bgName = "bg_story_school",
 			say = "Mm... Next time... we'll share lunch together as well, right?",
@@ -270,7 +270,7 @@ return {
 			}
 		},
 		{
-			actor = 407011,
+			actor = 407010,
 			side = 1,
 			bgName = "bg_story_school",
 			dir = -1,

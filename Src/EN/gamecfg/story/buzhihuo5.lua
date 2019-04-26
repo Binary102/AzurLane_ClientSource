@@ -76,7 +76,7 @@ return {
 			}
 		},
 		{
-			actor = 301181,
+			actor = 301180,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -96,7 +96,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			withoutActorName = true,
-			actor = 301181,
+			actor = 301180,
 			nameColor = "#a9f548",
 			say = "Well, since Shiranui seems to have found me, there's no point staying hidden.",
 			typewriter = {
@@ -115,7 +115,7 @@ return {
 			}
 		},
 		{
-			actor = 301181,
+			actor = 301180,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -131,7 +131,7 @@ return {
 			}
 		},
 		{
-			actor = 301181,
+			actor = 301180,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -160,7 +160,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 301181,
+			actor = 301180,
 			nameColor = "#a9f548",
 			say = "So, Commander, tell me what are you looking at?",
 			typewriter = {
@@ -179,7 +179,7 @@ return {
 			}
 		},
 		{
-			actor = 301181,
+			actor = 301180,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -199,7 +199,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			withoutActorName = true,
-			actor = 301181,
+			actor = 301180,
 			nameColor = "#a9f548",
 			say = "If I did that, I would have just been treated like an idiot! Although this...",
 			typewriter = {
@@ -218,7 +218,7 @@ return {
 			}
 		},
 		{
-			actor = 301181,
+			actor = 301180,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -254,7 +254,7 @@ return {
 			}
 		},
 		{
-			actor = 301181,
+			actor = 301180,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -274,7 +274,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			withoutActorName = true,
-			actor = 301181,
+			actor = 301180,
 			nameColor = "#a9f548",
 			say = "Before she could finish her words, Shiranui's body began to sway, as if she was about to collapse.",
 			typewriter = {
@@ -306,7 +306,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 301181,
+			actor = 301180,
 			nameColor = "#a9f548",
 			say = "Don't worry, I just got a little dizzy...",
 			typewriter = {

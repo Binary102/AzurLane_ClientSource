@@ -4,7 +4,7 @@ return {
 	once = true,
 	scripts = {
 		{
-			actor = 401461,
+			actor = 401460,
 			side = 2,
 			nameColor = "#ff0000",
 			say = "...The end... My lack of combat experience was my downfall, I see. I should have better demonstrated my planned anti-air superiority.",
@@ -22,7 +22,7 @@ return {
 			}
 		},
 		{
-			actor = 401461,
+			actor = 401460,
 			side = 2,
 			nameColor = "#ff0000",
 			say = "Nonetheless... I never thought this world could be so different from what I expected! It's fascinating!",
@@ -40,7 +40,7 @@ return {
 			}
 		},
 		{
-			actor = 401461,
+			actor = 401460,
 			side = 2,
 			nameColor = "#ff0000",
 			say = "The next time we meet... Will you play with me... once more?",

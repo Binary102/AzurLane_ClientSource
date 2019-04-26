@@ -46,7 +46,7 @@ return {
 			}
 		},
 		{
-			actor = 206011,
+			actor = 206010,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -66,7 +66,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			soundeffect = "event:/battle/plane",
-			actor = 206011,
+			actor = 206010,
 			nameColor = "#a9f548",
 			say = "我的回合，抽卡！",
 			effects = {
@@ -138,7 +138,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = -1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "啊，指、指挥官，你好！",
 			typewriter = {
@@ -165,7 +165,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = -1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "那个，我没在做什么可疑的事哦！只是……",
 			typewriter = {
@@ -188,7 +188,7 @@ return {
 			}
 		},
 		{
-			actor = 206041,
+			actor = 206040,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -204,7 +204,7 @@ return {
 			}
 		},
 		{
-			actor = 206041,
+			actor = 206040,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -224,7 +224,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = -1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "指挥官能帮我……",
 			typewriter = {
@@ -256,7 +256,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = -1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "欸欸欸！！！",
 			typewriter = {
@@ -279,7 +279,7 @@ return {
 			}
 		},
 		{
-			actor = 206011,
+			actor = 206010,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -300,7 +300,7 @@ return {
 			bgName = "bg_story_outdoor",
 			say = "那个，竞技神大前辈……",
 			dir = -1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -316,7 +316,7 @@ return {
 			}
 		},
 		{
-			actor = 206011,
+			actor = 206010,
 			side = 1,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -336,7 +336,7 @@ return {
 			side = 0,
 			bgName = "bg_story_outdoor",
 			dir = -1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "是、是的！",
 			typewriter = {
@@ -369,7 +369,7 @@ return {
 			}
 		},
 		{
-			actor = 206011,
+			actor = 206010,
 			side = 1,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -385,7 +385,7 @@ return {
 			}
 		},
 		{
-			actor = 206011,
+			actor = 206010,
 			side = 1,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -405,12 +405,12 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = -1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "欸，欸，欸？",
 			subActors = {
 				{
-					actor = 206011,
+					actor = 206010,
 					pos = {
 						x = -450
 					}

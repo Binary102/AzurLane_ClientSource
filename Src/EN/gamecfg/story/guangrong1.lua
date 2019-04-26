@@ -28,7 +28,7 @@ return {
 			}
 		},
 		{
-			actor = 207064,
+			actor = 207060,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -44,7 +44,7 @@ return {
 			}
 		},
 		{
-			actor = 207064,
+			actor = 207060,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -60,7 +60,7 @@ return {
 			}
 		},
 		{
-			actor = 207064,
+			actor = 207060,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -103,7 +103,7 @@ return {
 			}
 		},
 		{
-			actor = 207064,
+			actor = 207060,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -119,7 +119,7 @@ return {
 			}
 		},
 		{
-			actor = 207064,
+			actor = 207060,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -135,7 +135,7 @@ return {
 			}
 		},
 		{
-			actor = 207064,
+			actor = 207060,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -154,7 +154,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 207064,
+			actor = 207060,
 			nameColor = "#a9f548",
 			say = "（小声）不行啊光荣，要有点皇家荣光的样子……！舰历上我可是最资深的……！",
 			typewriter = {
@@ -189,7 +189,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 207064,
+			actor = 207060,
 			nameColor = "#a9f548",
 			say = "没、没有紧张！……找、找到了！观测报告在这里！",
 			typewriter = {
@@ -221,7 +221,7 @@ return {
 			}
 		},
 		{
-			actor = 207064,
+			actor = 207060,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -237,7 +237,7 @@ return {
 			}
 		},
 		{
-			actor = 207064,
+			actor = 207060,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -253,7 +253,7 @@ return {
 			}
 		},
 		{
-			actor = 207064,
+			actor = 207060,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",

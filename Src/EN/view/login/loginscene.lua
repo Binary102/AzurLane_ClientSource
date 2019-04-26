@@ -6,7 +6,7 @@ function slot0.getUIName(slot0)
 end
 
 function slot0.getBGM(slot0)
-	return slot0:getSpecialDate(4) or "login"
+	return "ai-fb"
 end
 
 function slot0.preload(slot0, slot1)
@@ -97,13 +97,14 @@ function slot0.init(slot0)
 	slot0.userAgreenConfirmTF = slot0:findTF("UserAgreement/main/accept_btn")
 
 	setActive(slot0.userAgreenTF, false)
+
+	slot0.opBtn = slot0:findTF("opBtn")
+
+	setActive(slot0.opBtn, PLAY_OPENING)
 	slot0:switchToServer()
-
-	slot1 = slot0:getSpecialDate(3)
-
 	slot0:setBg()
 
-	if CRI_BG_FLAG or slot1 then
+	if CRI_BG_FLAG then
 		slot0:setCriBg()
 	end
 end
@@ -153,36 +154,21 @@ function slot0.showUserAgreement(slot0, slot1)
 	end)
 end
 
-function slot0.getSpecialDate(slot0, slot1)
+function slot0.setBg(slot0)
+	slot1 = "login"
 	slot2 = pg.TimeMgr.GetInstance():ServerTimeDesc("%Y%m%d")
 
 	for slot6, slot7 in ipairs(SPECIAL_DATE) do
 		if slot7[1] == slot2 then
-			return slot7[slot1 or 2]
+			slot1 = slot7[2]
 		end
-	end
-
-	return nil
-end
-
-function slot0.setBg(slot0)
-	slot1 = "login"
-
-	if slot0:getSpecialDate() then
-		slot1 = slot2
 	end
 
 	setImageSprite(slot0._bg, LoadSprite("loadingbg/" .. slot1), false)
 end
 
 function slot0.setCriBg(slot0)
-	slot1 = "loginbg"
-
-	if slot0:getSpecialDate(3) then
-		slot1 = slot2
-	end
-
-	PoolMgr.GetInstance():GetPrefab("effect/" .. slot1, slot1, true, function (slot0)
+	PoolMgr.GetInstance():GetPrefab("effect/loginbg", "loginbg", true, function (slot0)
 		if slot0 and not slot0.exited then
 			slot0._paintingFX = {
 				name = paintingFX,
@@ -367,6 +353,10 @@ function slot0.didEnter(slot0)
 		setActive(slot0.serversPanel, false)
 	end, SFX_CANCEL)
 	onButton(slot0, slot0:findTF("background"), function ()
+		if not slot0.initFinished then
+			return
+		end
+
 		if go(slot0.pressToLogin).activeSelf then
 			if slot0(slot0.serverList or {}) == 0 then
 				slot1()
@@ -401,6 +391,11 @@ function slot0.didEnter(slot0)
 	end)
 	onButton(slot0, slot0.wxLoginBtn, function ()
 		BilibiliSdkMgr.inst:login(2)
+	end)
+	onButton(slot0, slot0.opBtn, function ()
+		if slot0.initFinished then
+			slot0:playOpening(true)
+		end
 	end)
 	onButton(slot0, slot0.airiLoginBtn, function ()
 		playSoundEffect(SFX_CONFIRM)
@@ -482,6 +477,19 @@ function slot0.didEnter(slot0)
 
 	slot0:playExtraVoice()
 	slot0:checkVersion()
+
+	if PLAY_OPENING and PlayerPrefs.GetString("op_ver", "") ~= OP_VERSION then
+		slot0:playOpening(true, function ()
+			PlayerPrefs.SetString("op_ver", OP_VERSION)
+			PlayerPrefs.SetString:playExtraVoice()
+
+			PlayerPrefs.SetString.playExtraVoice.initFinished = true
+		end)
+	else
+		slot0:playExtraVoice()
+
+		slot0.initFinished = true
+	end
 end
 
 function slot0.CheckAiriGenCodeCounter(slot0)
@@ -777,6 +785,94 @@ function slot0.willExit(slot0)
 		slot0.waitTimer:Stop()
 
 		slot0.waitTimer = nil
+	end
+
+	if slot0.openingTF then
+		SetParent(slot0.openingTF, slot0._tf)
+	end
+
+	return
+end
+
+function slot0.playOpening(slot0, slot1, slot2, slot3)
+	pg.CriMgr.GetInstance():stopBGM()
+
+	function slot4()
+		setActive(slot0.openingTF, false)
+
+		setActive.openingAni.enabled = false
+
+		if setActive.openingAni.criAni then
+			slot0.criAni:Stop()
+		end
+
+		if slot0.openingTF then
+			Destroy(slot0.openingTF)
+
+			Destroy.openingTF = nil
+		end
+
+		if slot1 then
+			slot1()
+		end
+
+		pg.CriMgr.GetInstance():resumeNormalBGM()
+
+		return
+	end
+
+	function slot5()
+		setActive(slot0.openingTF, true)
+
+		setActive.openingAni.enabled = true
+
+		onButton(onButton, slot0.openingTF, function ()
+			if slot0 then
+				slot1()
+			end
+
+			return
+		end)
+
+		slot0 = onButton.openingTF:GetComponent("DftAniEvent")
+
+		slot0:SetStartEvent(function (slot0)
+			if slot0.criAni then
+				slot0.criAni:Play()
+			end
+
+			return
+		end)
+		slot0:SetEndEvent(function (slot0)
+			slot0()
+
+			return
+		end)
+		setActive(slot0.openingTF, true)
+
+		return
+	end
+
+	if not slot0.openingTF then
+		PoolMgr.GetInstance():GetUI(slot3 or "opening", true, function (slot0)
+			slot0:SetActive(false)
+
+			slot0.openingTF = slot0
+
+			slot0.openingTF.transform:SetParent(GameObject.Find("Overlay/UIOverlay").transform, false)
+
+			slot0.criAni = slot0.openingTF:GetComponent("CriManaEffectUI")
+
+			setActive(slot0.openingTF, false)
+
+			slot0.openingAni = slot0.openingTF:GetComponent("Animator")
+
+			GameObject.Find("Overlay/UIOverlay")()
+
+			return
+		end)
+	else
+		slot5()
 	end
 
 	return

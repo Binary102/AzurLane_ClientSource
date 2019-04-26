@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 207024,
+			actor = 207020,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -22,7 +22,7 @@ return {
 			}
 		},
 		{
-			actor = 207024,
+			actor = 207020,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -37,7 +37,7 @@ return {
 			}
 		},
 		{
-			actor = 207064,
+			actor = 207060,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = -1,
@@ -56,7 +56,7 @@ return {
 			}
 		},
 		{
-			actor = 207024,
+			actor = 207020,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -71,7 +71,7 @@ return {
 			}
 		},
 		{
-			actor = 207064,
+			actor = 207060,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -86,7 +86,7 @@ return {
 			}
 		},
 		{
-			actor = 207024,
+			actor = 207020,
 			side = 0,
 			dir = 1,
 			nameColor = "#a9f548",
@@ -105,7 +105,7 @@ return {
 			}
 		},
 		{
-			actor = 207064,
+			actor = 207060,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -120,7 +120,7 @@ return {
 			}
 		},
 		{
-			actor = 207024,
+			actor = 207020,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -135,7 +135,7 @@ return {
 			}
 		},
 		{
-			actor = 207064,
+			actor = 207060,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -152,14 +152,14 @@ return {
 		{
 			actorName = "光荣&皇家方舟",
 			side = 0,
-			actor = 207024,
+			actor = 207020,
 			dir = 1,
 			hideOther = true,
 			nameColor = "#a9f548",
 			say = "（真是白璧微瑕呢）",
 			subActors = {
 				{
-					actor = 207064,
+					actor = 207060,
 					dir = -1,
 					pos = {
 						x = 750

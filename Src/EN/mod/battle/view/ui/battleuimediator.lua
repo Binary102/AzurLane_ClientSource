@@ -62,6 +62,10 @@ function slot6.DisableComponent(slot0)
 	slot0._skillView:DisableWeapnButton()
 	SetActive(slot0._ui:findTF("HPBarContainer"), false)
 	SetActive(slot0._ui:findTF("flagShipMark"), false)
+
+	if slot0._jammingView then
+		slot0._jammingView:Eliminate(false)
+	end
 end
 
 function slot6.ActiveDebugConsole(slot0)
@@ -136,6 +140,18 @@ function slot6.InitScoreBar(slot0)
 	slot0._scoreBarView = slot0.Battle.BattleScoreBarView.New(slot0._ui:findTF("DodgemCountBar"))
 end
 
+function slot6.InitKizunaJamming(slot0)
+	setParent(slot2, slot0._ui.uiCanvas, false)
+
+	slot0._jammingView = slot0.Battle.BattleKizunaJammingView.New(slot2)
+
+	slot0._jammingView:ConfigCallback(function ()
+		slot0._dataProxy:KizunaJammingEliminate()
+		SetActive(slot0._dataProxy, false)
+	end)
+	slot0._jammingView:Active()
+end
+
 function slot6.InitAutoBtn(slot0)
 	slot0._autoBtn = slot0._ui:findTF("AutoBtn")
 	slot0._autoBtn.localScale = Vector3(slot2, slot2, 1)
@@ -200,6 +216,7 @@ function slot6.AddUIEvent(slot0)
 	slot0._dataProxy:RegisterEventListener(slot0, slot0.REMOVE_AIR_FIGHTER_ICON, slot0.onRemoveAirStrike)
 	slot0._dataProxy:RegisterEventListener(slot0, slot0.UPDATE_HOSTILE_SUBMARINE, slot0.onUpdateHostileSubmarine)
 	slot0._dataProxy:RegisterEventListener(slot0, slot0.UPDATE_COUNT_DOWN, slot0.onUpdateCountDown)
+	slot0._dataProxy:RegisterEventListener(slot0, slot0.KIZUNA_JAMMING, slot0.onJamming)
 end
 
 function slot6.RemoveUIEvent(slot0)
@@ -406,6 +423,10 @@ function slot6.onUpdateCountDown(slot0, slot1)
 	slot0._timerView:SetCountDownText(slot0._dataProxy:GetCountDown())
 end
 
+function slot6.onJamming(slot0, slot1)
+	slot0:InitKizunaJamming()
+end
+
 function slot6.onUpdateDodgemScore(slot0, slot1)
 	slot0._scoreBarView:UpdateScore(slot1.Data.totalScore)
 end
@@ -529,6 +550,12 @@ function slot6.Dispose(slot0)
 		slot0._simulationBuffCountView:Dispose()
 
 		slot0._simulationBuffCountView = nil
+	end
+
+	if slot0._jammingView then
+		slot0._jammingView:Dispose()
+
+		slot0._jammingView = nil
 	end
 
 	slot0.super.Dispose(slot0)

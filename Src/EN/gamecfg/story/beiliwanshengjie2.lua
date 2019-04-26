@@ -23,7 +23,7 @@ return {
 			bgmDelay = 2,
 			bgName = "bg_story_task",
 			bgm = "story-1",
-			actor = 900138,
+			actor = 101271,
 			nameColor = "#a9f548",
 			say = "If Miss ghost can’t find her way home, then that’s so pitiful...",
 			flashout = {
@@ -53,7 +53,7 @@ return {
 			}
 		},
 		{
-			actor = 900138,
+			actor = 101271,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -72,7 +72,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 900138,
+			actor = 101271,
 			nameColor = "#a9f548",
 			say = "Hmm…saying is one thing, but where exactly is Miss ghost hiding?",
 			flashout = {
@@ -106,7 +106,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 900138,
+			actor = 101271,
 			nameColor = "#a9f548",
 			say = "Also ghosts can fly, right? But Rabbit Alien cannot fly...",
 			typewriter = {
@@ -119,7 +119,7 @@ return {
 			}
 		},
 		{
-			actor = 900138,
+			actor = 101271,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -175,7 +175,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 900138,
+			actor = 101271,
 			nameColor = "#a9f548",
 			say = "(Warehouse? Ghosts? Could it be…)",
 			typewriter = {
@@ -192,7 +192,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 900138,
+			actor = 101271,
 			nameColor = "#a9f548",
 			say = " “Pretty”, “Lucky”, let’s head over there!",
 			typewriter = {
@@ -215,7 +215,7 @@ return {
 			}
 		},
 		{
-			actor = 900138,
+			actor = 101271,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -235,7 +235,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgName = "star_level_bg_103",
-			actor = 900138,
+			actor = 101271,
 			nameColor = "#a9f548",
 			say = "Although, “Three virtuous witches”...if you count Bailey as one of them, then who are the other two...",
 			flashout = {
@@ -270,7 +270,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 900137,
+			actor = 302051,
 			actorName = "{namecode:48}",
 			say = "Hey...ghosts or whatever, they seems so scary. B-but...",
 			typewriter = {
@@ -296,7 +296,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 900138,
+			actor = 101271,
 			nameColor = "#a9f548",
 			say = "Ah! I found a new Witch!",
 			typewriter = {

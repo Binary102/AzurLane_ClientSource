@@ -4914,6 +4914,28 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[175] = {
+		nationality = 3,
+		hide = 0,
+		trans_skin = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		code = 175,
+		type = 1,
+		group_type = 30125,
+		trans_type = 0,
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"Monthly Sign-in",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[176] = {
 		nationality = 3,
 		hide = 0,
@@ -6799,7 +6821,7 @@ pg.ship_data_group = {
 		code = 272,
 		type = 1,
 		group_type = 30133,
-		trans_type = 0,
+		trans_type = 1,
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -7544,6 +7566,28 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[335] = {
+		nationality = 2,
+		hide = 0,
+		trans_skin = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		code = 335,
+		type = 2,
+		group_type = 20218,
+		trans_type = 0,
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"Event: Operation Manjuu",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[338] = {
 		nationality = 3,
 		hide = 0,
@@ -7964,6 +8008,72 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[383] = {
+		nationality = 3,
+		hide = 0,
+		trans_skin = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		code = 383,
+		type = 4,
+		group_type = 30406,
+		trans_type = 0,
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"Event: Escape from Port",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[384] = {
+		nationality = 3,
+		hide = 0,
+		trans_skin = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		code = 384,
+		type = 7,
+		group_type = 30709,
+		trans_type = 0,
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"Event: Escape from Port",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[385] = {
+		nationality = 4,
+		hide = 0,
+		trans_skin = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		code = 385,
+		type = 7,
+		group_type = 40702,
+		trans_type = 0,
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"Event: Escape from Port",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[10001] = {
 		nationality = 101,
 		hide = 0,
@@ -8140,6 +8250,94 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[10041] = {
+		nationality = 104,
+		hide = 0,
+		trans_skin = 0,
+		handbook_type = 1,
+		redirect_id = 101,
+		code = 10041,
+		type = 1,
+		group_type = 1040001,
+		trans_type = 0,
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"Event：Virtual Connection Synchronicity",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[10042] = {
+		nationality = 104,
+		hide = 0,
+		trans_skin = 0,
+		handbook_type = 1,
+		redirect_id = 101,
+		code = 10042,
+		type = 3,
+		group_type = 1040002,
+		trans_type = 0,
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"Event：Virtual Connection Synchronicity",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[10043] = {
+		nationality = 104,
+		hide = 0,
+		trans_skin = 0,
+		handbook_type = 1,
+		redirect_id = 101,
+		code = 10043,
+		type = 7,
+		group_type = 1040003,
+		trans_type = 0,
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"Event：Virtual Connection Synchronicity",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[10044] = {
+		nationality = 104,
+		hide = 0,
+		trans_skin = 0,
+		handbook_type = 1,
+		redirect_id = 101,
+		code = 10044,
+		type = 5,
+		group_type = 1040004,
+		trans_type = 0,
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"Event：Virtual Connection Synchronicity",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -8265,6 +8463,7 @@ pg.ship_data_group = {
 		171,
 		173,
 		174,
+		175,
 		176,
 		182,
 		183,
@@ -8363,6 +8562,7 @@ pg.ship_data_group = {
 		330,
 		331,
 		332,
+		335,
 		338,
 		339,
 		340,
@@ -8381,6 +8581,9 @@ pg.ship_data_group = {
 		374,
 		375,
 		376,
+		383,
+		384,
+		385,
 		10001,
 		10002,
 		10003,
@@ -8388,7 +8591,11 @@ pg.ship_data_group = {
 		10005,
 		10006,
 		10007,
-		10008
+		10008,
+		10041,
+		10042,
+		10043,
+		10044
 	}
 }
 

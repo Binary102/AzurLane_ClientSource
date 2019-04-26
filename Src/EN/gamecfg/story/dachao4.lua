@@ -56,7 +56,7 @@ return {
 			}
 		},
 		{
-			actor = 303031,
+			actor = 303030,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -72,7 +72,7 @@ return {
 			}
 		},
 		{
-			actor = 303031,
+			actor = 303030,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -101,7 +101,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = -1,
-			actor = 303031,
+			actor = 303030,
 			nameColor = "#a9f548",
 			say = "...Maybe I should MAKE something happen?",
 			typewriter = {
@@ -124,7 +124,7 @@ return {
 			}
 		},
 		{
-			actor = 301641,
+			actor = 301640,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -150,7 +150,7 @@ return {
 			}
 		},
 		{
-			actor = 301641,
+			actor = 301640,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -170,7 +170,7 @@ return {
 			side = 1,
 			bgName = "bg_story_outdoor",
 			dir = -1,
-			actor = 303031,
+			actor = 303030,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -199,7 +199,7 @@ return {
 			side = 0,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 301641,
+			actor = 301640,
 			nameColor = "#a9f548",
 			say = "Hehehe♪ I reckon I do~",
 			typewriter = {
@@ -234,7 +234,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = -1,
-			actor = 303031,
+			actor = 303030,
 			nameColor = "#a9f548",
 			say = "Holy crap! Y-you're giving me a scoop this big?! You might have it in you to be a reporter!",
 			typewriter = {
@@ -261,7 +261,7 @@ return {
 			side = 0,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 301641,
+			actor = 301640,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -277,7 +277,7 @@ return {
 			}
 		},
 		{
-			actor = 303031,
+			actor = 303030,
 			side = 1,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -297,7 +297,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 303031,
+			actor = 303030,
 			say = "After Aoba saw me, she panicked and tried her hardest to act normal.",
 			action = {
 				{
@@ -332,7 +332,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			blackBg = true,
-			actor = 301641,
+			actor = 301640,
 			nameColor = "#a9f548",
 			say = "Ya curious what we were talkin' 'bout? Hehehe♪ It's a secret between girls that I can't letcha in on~",
 			typewriter = {

@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 301491,
+			actor = 301490,
 			side = 2,
 			dir = 0,
 			say = "You really are as strong as they say. I'm impressed.",
@@ -21,7 +21,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			side = 2,
 			dir = 0,
 			say = "Come on, we're allies! We didn't have to fight in the first place...",
@@ -35,7 +35,7 @@ return {
 			}
 		},
 		{
-			actor = 301491,
+			actor = 301490,
 			side = 2,
 			dir = 0,
 			say = "Sorry, I was overcome by my soldierly instinct to fight a worthy opponent.",
@@ -49,7 +49,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			side = 2,
 			dir = 0,
 			say = "Yeah, sure... So will you lead us to her, as you promised?",
@@ -63,7 +63,7 @@ return {
 			}
 		},
 		{
-			actor = 301491,
+			actor = 301490,
 			side = 2,
 			dir = 0,
 			say = "I am true to my word. I know I can entrust Nagato to you people.",
@@ -126,7 +126,7 @@ return {
 			}
 		},
 		{
-			actor = 301491,
+			actor = 301490,
 			side = 2,
 			bgName = "bg_story_nagato3",
 			dir = 0,
@@ -141,7 +141,7 @@ return {
 			}
 		},
 		{
-			actor = 301491,
+			actor = 301490,
 			side = 2,
 			bgName = "bg_story_nagato3",
 			dir = 0,
@@ -156,7 +156,7 @@ return {
 			}
 		},
 		{
-			actor = 301491,
+			actor = 301490,
 			side = 2,
 			bgName = "bg_story_nagato3",
 			dir = 0,
@@ -171,7 +171,7 @@ return {
 			}
 		},
 		{
-			actor = 301491,
+			actor = 301490,
 			side = 2,
 			bgName = "bg_story_nagato3",
 			dir = 0,
@@ -186,7 +186,7 @@ return {
 			}
 		},
 		{
-			actor = 305111,
+			actor = 305110,
 			side = 2,
 			bgName = "bg_story_nagato3",
 			dir = 0,

@@ -138,7 +138,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 202081,
+			actor = 202080,
 			nameColor = "#a9f548",
 			say = "Kent, though I commend your dedication towards staying active, you may find that you cannot clean the floor by running all over it.",
 			flashout = {
@@ -171,7 +171,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 203031,
+			actor = 203030,
 			nameColor = "#a9f548",
 			say = "I understand... it's my mistake!",
 			typewriter = {
@@ -194,7 +194,7 @@ return {
 			}
 		},
 		{
-			actor = 202081,
+			actor = 202080,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -214,7 +214,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 203041,
+			actor = 203040,
 			nameColor = "#a9f548",
 			say = "Eh? Y-y-you've got it wrong! I've been cleaning properly!",
 			typewriter = {
@@ -251,7 +251,7 @@ return {
 			}
 		},
 		{
-			actor = 202081,
+			actor = 202080,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -267,7 +267,7 @@ return {
 			}
 		},
 		{
-			actor = 202081,
+			actor = 202080,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -283,7 +283,7 @@ return {
 			}
 		},
 		{
-			actor = 202081,
+			actor = 202080,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -313,7 +313,7 @@ return {
 			}
 		},
 		{
-			actor = 202081,
+			actor = 202080,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -329,7 +329,7 @@ return {
 			}
 		},
 		{
-			actor = 202081,
+			actor = 202080,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",

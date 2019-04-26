@@ -50,7 +50,7 @@ return {
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			soundeffect = "event:/battle/plane",
-			actor = 107061,
+			actor = 107060,
 			nameColor = "#a9f548",
 			say = "这就是最后的胜负了，能一路赢过来，不愧是我引以为傲的后辈！",
 			typewriter = {
@@ -68,7 +68,7 @@ return {
 			bgName = "bg_story_nepu1",
 			say = "前辈才是，总是游刃有余的样子…",
 			dir = 1,
-			actor = 107091,
+			actor = 107090,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -84,7 +84,7 @@ return {
 			}
 		},
 		{
-			actor = 107091,
+			actor = 107090,
 			side = 0,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -100,7 +100,7 @@ return {
 			}
 		},
 		{
-			actor = 107061,
+			actor = 107060,
 			side = 1,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -118,7 +118,7 @@ return {
 		{
 			side = 0,
 			bgName = "bg_story_nepu1",
-			actor = 107091,
+			actor = 107090,
 			dir = 1,
 			nameColor = "#a9f548",
 			hideOther = true,
@@ -132,8 +132,8 @@ return {
 			},
 			subActors = {
 				{
-					dir = 1,
-					actor = 107061,
+					dir = 107060,
+					actor = 107060,
 					pos = {
 						x = 687
 					}
@@ -148,7 +148,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 107071,
+			actor = 107070,
 			nameColor = "#a9f548",
 			say = "哦哦…燃起来了~",
 			effects = {
@@ -167,7 +167,7 @@ return {
 			}
 		},
 		{
-			actor = 107051,
+			actor = 107050,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -187,7 +187,7 @@ return {
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			soundeffect = "event:/battle/plane",
-			actor = 107091,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "看招！",
 			typewriter = {
@@ -205,7 +205,7 @@ return {
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
-			actor = 107061,
+			actor = 107060,
 			say = "不错！但还是太嫩了！",
 			flashN = {
 				color = {
@@ -254,7 +254,7 @@ return {
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
-			actor = 107091,
+			actor = 107090,
 			say = "前辈的攻击我已经预料到了！接下来是我的反击时间！",
 			flashN = {
 				color = {
@@ -328,7 +328,7 @@ return {
 			}
 		},
 		{
-			actor = 107051,
+			actor = 107050,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -344,7 +344,7 @@ return {
 			}
 		},
 		{
-			actor = 107071,
+			actor = 107070,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -360,7 +360,7 @@ return {
 			}
 		},
 		{
-			actor = 107061,
+			actor = 107060,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -376,7 +376,7 @@ return {
 			}
 		},
 		{
-			actor = 107061,
+			actor = 107060,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -392,7 +392,7 @@ return {
 			}
 		},
 		{
-			actor = 107091,
+			actor = 107090,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -408,7 +408,7 @@ return {
 			}
 		},
 		{
-			actor = 107061,
+			actor = 107060,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -424,7 +424,7 @@ return {
 			}
 		},
 		{
-			actor = 107091,
+			actor = 107090,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -440,7 +440,7 @@ return {
 			}
 		},
 		{
-			actor = 107091,
+			actor = 107090,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",

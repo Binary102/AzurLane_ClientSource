@@ -50,7 +50,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 301321,
+			actor = 301320,
 			actorName = "{namecode:33}",
 			say = "{namecode:34}{namecode:34}~一起去火锅大会吧！",
 			typewriter = {
@@ -68,7 +68,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 301331,
+			actor = 301330,
 			actorName = "{namecode:34}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -88,7 +88,7 @@ return {
 			side = 0,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 301321,
+			actor = 301320,
 			actorName = "{namecode:33}",
 			say = "{namecode:98}在召集大家一起吃火锅呢~",
 			typewriter = {
@@ -105,7 +105,7 @@ return {
 			side = 1,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 301331,
+			actor = 301330,
 			actorName = "{namecode:34}",
 			say = "可是…火锅不是冬天吃的吗…？",
 			typewriter = {
@@ -122,7 +122,7 @@ return {
 			side = 0,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 301321,
+			actor = 301320,
 			actorName = "{namecode:33}",
 			say = "欸，嗯……嗯，是呢！",
 			typewriter = {
@@ -139,7 +139,7 @@ return {
 			side = 1,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 301331,
+			actor = 301330,
 			actorName = "{namecode:34}",
 			say = "那我们要穿冬天的衣服去吗？",
 			typewriter = {
@@ -156,7 +156,7 @@ return {
 			side = 0,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 301321,
+			actor = 301320,
 			actorName = "{namecode:33}",
 			say = "欸？嗯……大概吧！",
 			typewriter = {
@@ -173,7 +173,7 @@ return {
 			side = 1,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 301331,
+			actor = 301330,
 			actorName = "{namecode:34}",
 			say = "这样啊……",
 			typewriter = {
@@ -190,7 +190,7 @@ return {
 			side = 0,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 301321,
+			actor = 301320,
 			actorName = "{namecode:33}",
 			say = "嗯…？嗯！穿上冬天的衣服才是对冬天的火锅的尊敬！",
 			typewriter = {
@@ -208,7 +208,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			blackBg = true,
-			actor = 301331,
+			actor = 301330,
 			actorName = "{namecode:34}",
 			say = "这、这样啊…",
 			typewriter = {

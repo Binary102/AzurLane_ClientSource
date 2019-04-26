@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 307061,
+			actor = 307060,
 			side = 2,
 			dir = 1,
 			say = "We're finally back here, after so long... Look, Shoukaku! This is the place where we used to train!",
@@ -21,7 +21,7 @@ return {
 			}
 		},
 		{
-			actor = 307051,
+			actor = 307050,
 			side = 1,
 			say = "Yes, we made many memories here. And we haven't been here ever since the war began...",
 			dir = 1,
@@ -67,7 +67,7 @@ return {
 			}
 		},
 		{
-			actor = 305111,
+			actor = 305110,
 			side = 2,
 			dir = 1,
 			say = "I don't blame you for being so excited to see such a nostalgic place... but could you at least show a little consideration for the elderly... *Panting*...",
@@ -81,7 +81,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			side = 0,
 			say = "Sorry, Mikasa! We'll slow down. Also, this is the first time I've heard you complaining...",
 			dir = 1,
@@ -99,7 +99,7 @@ return {
 			}
 		},
 		{
-			actor = 305111,
+			actor = 305110,
 			side = 1,
 			dir = 1,
 			say = "Speaking of first times, how about you get a taste of my handmade Royal Gourmet when we get back?",
@@ -120,7 +120,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			side = 2,
 			dir = 1,
 			say = "Ahaha, um... I appreciate the thought... But I don't think my palate is ready to try that yet...",
@@ -164,7 +164,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			side = 2,
 			dir = 1,
 			say = "That was close! They scared the bejesus outta me!",
@@ -178,7 +178,7 @@ return {
 			}
 		},
 		{
-			actor = 301051,
+			actor = 301050,
 			side = 2,
 			dir = 1,
 			say = "Sirens detected at 3 o' clock, distance 12,000 meters.",
@@ -192,7 +192,7 @@ return {
 			}
 		},
 		{
-			actor = 305111,
+			actor = 305110,
 			side = 2,
 			dir = 1,
 			say = "Our intel was right; the Sirens really were out here. All personnel! Prepare to strike back!",

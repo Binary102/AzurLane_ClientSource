@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 307061,
+			actor = 307060,
 			side = 2,
 			dir = 1,
 			say = "No wonder nobody's come near this place for ages... It's because the Sirens invaded it...",
@@ -21,7 +21,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			side = 2,
 			dir = 1,
 			say = "Shoukaku, I'm just wondering: why are we here, again?",
@@ -35,7 +35,7 @@ return {
 			}
 		},
 		{
-			actor = 307051,
+			actor = 307050,
 			side = 1,
 			say = "For the Sacred Sakura. Measurements taken since the war began show that it has started to wither. We're here to investigate why, and also we must...",
 			dir = 1,
@@ -53,7 +53,7 @@ return {
 			}
 		},
 		{
-			actor = 305111,
+			actor = 305110,
 			side = 1,
 			dir = 1,
 			say = "We must rescue someone important. The new Combined Fleet is shaping up better than I thought, but we still are in need of her strength.",
@@ -67,7 +67,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			side = 2,
 			dir = 1,
 			say = "By \"someone important,\" surely you don't mean...?",
@@ -81,7 +81,7 @@ return {
 			}
 		},
 		{
-			actor = 305111,
+			actor = 305110,
 			side = 1,
 			dir = 1,
 			say = "I do. We must rescue Nagato, who has remained by the Sacred Sakura all this time.",
@@ -95,7 +95,7 @@ return {
 			}
 		},
 		{
-			actor = 305111,
+			actor = 305110,
 			side = 1,
 			dir = 1,
 			say = "She wasn't able to prevent the war, and she has been blaming herself for it...",
@@ -109,7 +109,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			side = 2,
 			dir = 1,
 			say = "We'd better hurry, then! But first, we'll have to take care of these guys!",
@@ -126,7 +126,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 307021,
+			actor = 307020,
 			stopbgm = true,
 			say = "They're making their way toward the Sacred Sakura. Shouldn't we stop them? Before long, they'll discover Nagato.",
 			flashout = {
@@ -156,7 +156,7 @@ return {
 			}
 		},
 		{
-			actor = 307011,
+			actor = 307010,
 			side = 0,
 			say = "Those vermin just won't die no matter how much pesticide you use on them... How utterly annoying.",
 			dir = 1,
@@ -175,7 +175,7 @@ return {
 			}
 		},
 		{
-			actor = 307011,
+			actor = 307010,
 			side = 0,
 			dir = 1,
 			blackBg = true,
@@ -190,7 +190,7 @@ return {
 			}
 		},
 		{
-			actor = 307011,
+			actor = 307010,
 			side = 0,
 			dir = 1,
 			blackBg = true,
@@ -205,7 +205,7 @@ return {
 			}
 		},
 		{
-			actor = 307021,
+			actor = 307020,
 			side = 1,
 			dir = 1,
 			blackBg = true,
@@ -220,7 +220,7 @@ return {
 			}
 		},
 		{
-			actor = 307011,
+			actor = 307010,
 			side = 0,
 			dir = 1,
 			blackBg = true,
@@ -235,7 +235,7 @@ return {
 			}
 		},
 		{
-			actor = 307011,
+			actor = 307010,
 			side = 0,
 			dir = 1,
 			blackBg = true,

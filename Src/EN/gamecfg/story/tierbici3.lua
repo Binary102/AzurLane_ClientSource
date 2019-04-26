@@ -105,7 +105,7 @@ return {
 			}
 		},
 		{
-			actor = 405021,
+			actor = 405020,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -125,7 +125,7 @@ return {
 			side = 1,
 			bgName = "bg_story_nepu1",
 			dir = -1,
-			actor = 403031,
+			actor = 403030,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -141,7 +141,7 @@ return {
 			}
 		},
 		{
-			actor = 405021,
+			actor = 405020,
 			side = 0,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -157,7 +157,7 @@ return {
 			}
 		},
 		{
-			actor = 403031,
+			actor = 403030,
 			side = 1,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -176,7 +176,7 @@ return {
 			side = 0,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 403011,
+			actor = 403010,
 			nameColor = "#a9f548",
 			say = "哈？为什么我要向提尔比茨学习？",
 			typewriter = {
@@ -199,7 +199,7 @@ return {
 			}
 		},
 		{
-			actor = 403031,
+			actor = 403030,
 			side = 1,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -215,7 +215,7 @@ return {
 			}
 		},
 		{
-			actor = 405021,
+			actor = 405020,
 			side = 0,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -234,7 +234,7 @@ return {
 			side = 0,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 403011,
+			actor = 403010,
 			nameColor = "#a9f548",
 			say = "哈？！我的性格就是这样还真是对不起啊！欧根我看你今天是皮痒了……",
 			typewriter = {
@@ -260,7 +260,7 @@ return {
 			side = 1,
 			bgName = "bg_story_nepu1",
 			dir = -1,
-			actor = 403031,
+			actor = 403030,
 			nameColor = "#a9f548",
 			say = "啊哈哈——",
 			typewriter = {
@@ -290,7 +290,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 403011,
+			actor = 403010,
 			nameColor = "#a9f548",
 			say = "指挥官你不要管，啧，欧根，给我站住，不要跑！今天我就要让你明白我这个姐姐不是白当的！",
 			typewriter = {
@@ -320,7 +320,7 @@ return {
 			}
 		},
 		{
-			actor = 405021,
+			actor = 405020,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -352,7 +352,7 @@ return {
 			}
 		},
 		{
-			actor = 405021,
+			actor = 405020,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -368,7 +368,7 @@ return {
 			}
 		},
 		{
-			actor = 405021,
+			actor = 405020,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",

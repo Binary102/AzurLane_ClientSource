@@ -14,7 +14,7 @@ return {
 			}
 		},
 		{
-			actor = 303041,
+			actor = 303040,
 			side = 2,
 			nameColor = "#a9f548",
 			actorName = "{namecode:56}",
@@ -29,7 +29,7 @@ return {
 			}
 		},
 		{
-			actor = 303021,
+			actor = 303020,
 			nameColor = "#a9f548",
 			side = 0,
 			say = "I suppose so. Since this is a fast fleet, we can outmaneuver our enemies even if they outgun us. Besides, Tenryuu's group isn't cut out for heavy fighting.",
@@ -48,7 +48,7 @@ return {
 			}
 		},
 		{
-			actor = 303021,
+			actor = 303020,
 			side = 0,
 			nameColor = "#a9f548",
 			actorName = "{namecode:54}",
@@ -63,7 +63,7 @@ return {
 			}
 		},
 		{
-			actor = 303021,
+			actor = 303020,
 			side = 2,
 			actorName = "{namecode:54}",
 			nameColor = "#a9f548",
@@ -75,7 +75,7 @@ return {
 			}
 		},
 		{
-			actor = 303041,
+			actor = 303040,
 			nameColor = "#a9f548",
 			side = 1,
 			say = "Yes, yes, I know. We should be concentrating our efforts on supporting Operation SN now, correct?",
@@ -94,7 +94,7 @@ return {
 			}
 		},
 		{
-			actor = 303021,
+			actor = 303020,
 			side = 0,
 			nameColor = "#a9f548",
 			actorName = "{namecode:54}",

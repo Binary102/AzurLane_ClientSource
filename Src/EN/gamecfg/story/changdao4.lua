@@ -16,7 +16,7 @@ return {
 			}
 		},
 		{
-			actor = 900034,
+			actor = 106011,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -31,7 +31,7 @@ return {
 			}
 		},
 		{
-			actor = 900034,
+			actor = 106011,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -46,7 +46,7 @@ return {
 			}
 		},
 		{
-			actor = 900034,
+			actor = 106011,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -61,7 +61,7 @@ return {
 			}
 		},
 		{
-			actor = 900034,
+			actor = 106011,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -76,7 +76,7 @@ return {
 			}
 		},
 		{
-			actor = 900034,
+			actor = 106011,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,

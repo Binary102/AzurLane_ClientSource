@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"Mysterious Rabbit Alien?!\n\n<size=30>VII 「The Real Rabbit Alien」</size>",
+					"神秘的兔兔星人？！\n\n<size=30>七 真正的兔兔星人</size>",
 					1
 				}
 			}
@@ -22,9 +22,9 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-2",
-			actor = 101271,
+			actor = 101270,
 			nameColor = "#a9f548",
-			say = "Hey...Commander, Bailey thinks that you misunderstood her.",
+			say = "唔……指挥官，贝利觉得你对贝利有一些误解哦？",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -52,18 +52,18 @@ return {
 			},
 			options = {
 				{
-					content = "Hesitate",
+					content = "疑惑",
 					flag = 1
 				}
 			}
 		},
 		{
-			actor = 101271,
+			actor = 101270,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Bailey knew from the beginning that the Rabbit Planet was a lie told by Benson...",
+			say = "贝利早就知道兔兔星是本森姐姐骗人的哦……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,12 +74,12 @@ return {
 			}
 		},
 		{
-			actor = 101271,
+			actor = 101270,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "More rather, given Benson’s personality, even if she wants to keep something a secret, she won’t be able to.",
+			say = "倒不如说，姐姐那种性格，就算她想要藏事情，也一般是藏不住的啦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,12 +100,12 @@ return {
 			}
 		},
 		{
-			actor = 101271,
+			actor = 101270,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "But...does it really matter?",
+			say = "但是……这又有什么关系呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,12 +116,12 @@ return {
 			}
 		},
 		{
-			actor = 101271,
+			actor = 101270,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Benson-chan told Bailey that the Rabbit Alien must be kind, the Rabbit Alien must be strong, and the Rabbit Alien are idols, after all.",
+			say = "姐姐告诉贝利，兔兔星人要善良，兔兔星人要坚强，兔兔星人都是偶像。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,38 +132,12 @@ return {
 			}
 		},
 		{
-			actor = 101271,
+			actor = 101270,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Bailey did it. So even if the Rabbit Aliens do not exist, then Bailey will be the first Rabbit Alien.",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			bgName = "bg_night",
-			dir = 1,
-			say = "…It seems that Bailey has become so mature from her words.",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 101271,
-			side = 2,
-			bgName = "bg_night",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "And and, just now Akashi said that perhaps they do exist in another g-galaxy? ",
+			say = "这些贝利都做到了，那么要是兔兔星人不存在的话，那么贝利就来当第一个兔兔星人好了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,9 +151,35 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 312011,
+			say = "……总觉得贝利说了十分成熟的话。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 101270,
+			side = 2,
+			bgName = "bg_night",
 			nameColor = "#a9f548",
-			say = "Indeed, nyaa~ Scientifically speaking, the universe is still vastly unexplored!",
+			dir = 1,
+			say = "而且而且，刚才{namecode:98}也说了，说不定在其他星、星系？什么的东西里存在真正的兔兔星嘛。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			bgName = "bg_night",
+			dir = 1,
+			actor = 312010,
+			nameColor = "#a9f548",
+			say = "确实喵，从科学上来说，宇宙还很广阔喵！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,12 +200,12 @@ return {
 			}
 		},
 		{
-			actor = 101271,
+			actor = 101270,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "So, perhaps the Rabbit Alien Planet really does exist, only that we haven’t discovered it yet~",
+			say = "所以，说不定兔兔星是真的存在的，只是大家还不知道而已~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,12 +216,12 @@ return {
 			}
 		},
 		{
-			actor = 101271,
+			actor = 101270,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "If given the chance, Bailey wishes to go see them with Commander!",
+			say = "要是有机会的话，想和指挥官一起去看看呢！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			say = "Such an idealistic idea...",
+			say = "这是何等阳光的想法……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +245,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			say = "Although, seeing the smile on Bailey’s face, almost makes people think that everything she’s said must be real.",
+			say = "不过，看到贝利脸上的笑容，又让人觉得，说不定其实真的是这么一回事。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,9 +255,9 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 101361,
+			actor = 101360,
 			nameColor = "#a9f548",
-			say = "Bailey, the meteor shower has begun!",
+			say = "贝利，流星雨好像开始了哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,12 +278,12 @@ return {
 			}
 		},
 		{
-			actor = 101271,
+			actor = 101270,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Coming!~",
+			say = "来啦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,7 +298,7 @@ return {
 			bgName = "bg_night",
 			dir = 1,
 			blackBg = true,
-			say = "At the very least, even if the Rabbit Planet doesn’t exist, it will exist within the hearts and minds of this fleet.",
+			say = "而且，不管怎么说，即使兔兔星不存在，至少在这支舰队里，确实存在着兔兔星人呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

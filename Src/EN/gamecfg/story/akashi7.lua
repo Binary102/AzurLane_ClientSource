@@ -4,7 +4,7 @@ return {
 	once = true,
 	scripts = {
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 2,
 			dir = -1,
 			say = "That {namecode:20} is such an idiot, she doesn’t trust what {namecode:98} says, nya...",
@@ -18,7 +18,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 2,
 			dir = -1,
 			say = "---Nya? Oh, it’s only the Commander... it’s nothing… just that {namecode:20} said the Sakura Empire tech pack sold in store had shown a different company’s logo...",
@@ -32,7 +32,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 2,
 			dir = -1,
 			say = "That’s impossible! All inventory has been double checked by {namecode:98}...",
@@ -46,7 +46,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 2,
 			dir = -1,
 			say = "Nyaa? Great timing… the Commander can also join us and help test these...",
@@ -60,7 +60,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 2,
 			dir = -1,
 			say = "I must make it so that idiot {namecode:20} will have nothing left to say, nya! ---",

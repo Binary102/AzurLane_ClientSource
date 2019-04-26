@@ -58,7 +58,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = -1,
-			actor = 304051,
+			actor = 304050,
 			say = "... Agh!",
 			typewriter = {
 				speed = 0.05,
@@ -73,7 +73,7 @@ return {
 			expression = 4,
 			side = 0,
 			nameColor = "#a9f548",
-			actor = 303091,
+			actor = 303090,
 			dir = -1,
 			hideOther = true,
 			actorName = "{namecode:144}&{namecode:40}",
@@ -81,7 +81,7 @@ return {
 			subActors = {
 				{
 					dir = -1,
-					actor = 302141,
+					actor = 302140,
 					expression = 2,
 					pos = {
 						x = -687
@@ -102,7 +102,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = -1,
-			actor = 304051,
+			actor = 304050,
 			say = "Don't worry about me, it's just a scratch. I just... did not expect these things to self-destruct. How negligent of me...",
 			typewriter = {
 				speed = 0.05,
@@ -114,7 +114,7 @@ return {
 			}
 		},
 		{
-			actor = 303091,
+			actor = 303090,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -129,7 +129,7 @@ return {
 			}
 		},
 		{
-			actor = 304051,
+			actor = 304050,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -148,7 +148,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = -1,
-			actor = 304051,
+			actor = 304050,
 			say = "Chess tactics are to be left on the chessboard. In live combat, how could a commander hide in the rear while her subordinates sacrifice themselves because of her decisions?",
 			typewriter = {
 				speed = 0.05,
@@ -160,7 +160,7 @@ return {
 			}
 		},
 		{
-			actor = 304051,
+			actor = 304050,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -192,7 +192,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = -1,
-			actor = 304051,
+			actor = 304050,
 			say = "See? By moving forward like this, we have already been rewarded for our efforts. Wait, everyone, stop for a second.",
 			typewriter = {
 				speed = 0.05,
@@ -217,7 +217,7 @@ return {
 			}
 		},
 		{
-			actor = 304051,
+			actor = 304050,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -236,7 +236,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = -1,
-			actor = 304051,
+			actor = 304050,
 			say = "... What a fool...",
 			typewriter = {
 				speed = 0.05,

@@ -32,7 +32,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 305114,
+			actor = 305110,
 			actorName = "{namecode:82}",
 			say = "Splendid! Now come at me and attack!",
 			typewriter = {
@@ -50,7 +50,7 @@ return {
 			bgName = "bg_story_nepu1",
 			actorName = "{namecode:96}",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -81,7 +81,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 305114,
+			actor = 305110,
 			actorName = "{namecode:82}",
 			say = "Ouch!",
 			typewriter = {
@@ -108,7 +108,7 @@ return {
 			bgName = "bg_story_nepu1",
 			actorName = "{namecode:96}",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -128,7 +128,7 @@ return {
 			side = 1,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 305114,
+			actor = 305110,
 			actorName = "{namecode:82}",
 			say = "I-I am fine... I must say, that was a spectacular attack! You have made phenomenal progress since your training began!",
 			typewriter = {
@@ -145,7 +145,7 @@ return {
 			side = 0,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			say = "Thank you, Master Mikasa! ... Hey, Commander, am I awesome, or what?!",
 			typewriter = {
@@ -170,7 +170,7 @@ return {
 			side = 0,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			say = "... Ahahahah! Okay, I'm awesome, but maybe not THAT awesome~! All right, now I should be one step closer to surpassing the Grey Ghost!",
 			typewriter = {
@@ -187,7 +187,7 @@ return {
 			side = 0,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			say = "Then, next time, I'll be able to protect my sister and my friends...!",
 			typewriter = {
@@ -204,7 +204,7 @@ return {
 			side = 0,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			say = "... Commander, could you put the Grey Ghost and me together for the next sortie? I'll nab that MVP, I swear it!",
 			typewriter = {
@@ -231,7 +231,7 @@ return {
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			actorName = "{namecode:82}",
-			actor = 305114,
+			actor = 305110,
 			nameColor = "#a9f548",
 			say = "Commander, do you have a moment?",
 			flashout = {
@@ -265,7 +265,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 305114,
+			actor = 305110,
 			actorName = "{namecode:82}",
 			say = "Zuikaku may not seem like it, but within her lies the strong desire to thoroughly prove her worth. In other words: she will one day drive herself into a corner.",
 			typewriter = {
@@ -282,7 +282,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 305114,
+			actor = 305110,
 			actorName = "{namecode:82}",
 			say = "Her desires go beyond merely wanting to surpass the Grey Ghost. She wants to shoulder the burdens of Shoukaku, her Sakura Empire brethren, the entire world, and even you, Commander.",
 			typewriter = {
@@ -299,7 +299,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 305114,
+			actor = 305110,
 			actorName = "{namecode:82}",
 			say = "Commander, I must ask a favor of you... A favor as Zuikaku's mentor, a favor as an individual...",
 			typewriter = {
@@ -316,7 +316,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 305114,
+			actor = 305110,
 			actorName = "{namecode:82}",
 			say = "If the burdens she carries grow too heavy... then I want you to be by her side and support her.",
 			typewriter = {
@@ -347,7 +347,7 @@ return {
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			blackBg = true,
-			actor = 305114,
+			actor = 305110,
 			nameColor = "#a9f548",
 			say = "... Ahah, that's what I wanted to hear. You have my gratitude.",
 			typewriter = {

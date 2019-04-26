@@ -56,7 +56,7 @@ return {
 			}
 		},
 		{
-			actor = 301181,
+			actor = 301180,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -72,7 +72,7 @@ return {
 			}
 		},
 		{
-			actor = 301181,
+			actor = 301180,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -88,7 +88,7 @@ return {
 			}
 		},
 		{
-			actor = 301181,
+			actor = 301180,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -104,7 +104,7 @@ return {
 			}
 		},
 		{
-			actor = 301181,
+			actor = 301180,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -184,7 +184,7 @@ return {
 			}
 		},
 		{
-			actor = 301181,
+			actor = 301180,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -200,7 +200,7 @@ return {
 			}
 		},
 		{
-			actor = 301181,
+			actor = 301180,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -219,7 +219,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 301181,
+			actor = 301180,
 			nameColor = "#a9f548",
 			say = "Commander, if your luck is bad, you have to make up for it with quantity. Believe yourself. You can do it.",
 			typewriter = {

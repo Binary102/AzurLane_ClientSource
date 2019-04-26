@@ -50,7 +50,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 303091,
+			actor = 303090,
 			say = "Hiya!",
 			flashN = {
 				color = {
@@ -97,7 +97,7 @@ return {
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 303071,
+			actor = 303070,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -113,7 +113,7 @@ return {
 			}
 		},
 		{
-			actor = 303071,
+			actor = 303070,
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -134,7 +134,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 303091,
+			actor = 303090,
 			say = "Then how about this? Hiyaaa-!",
 			flashN = {
 				color = {
@@ -177,7 +177,7 @@ return {
 			}
 		},
 		{
-			actor = 303071,
+			actor = 303070,
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -197,7 +197,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 303071,
+			actor = 303070,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -217,7 +217,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 303091,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "What...?!",
 			typewriter = {
@@ -253,7 +253,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 303071,
+			actor = 303070,
 			nameColor = "#a9f548",
 			say = "Let's call it here for today's training. Ashigara, you've improved a lot.",
 			flashout = {
@@ -288,7 +288,7 @@ return {
 			bgName = "bg_story_school",
 			say = "W-wait, Myoukou... I can keep going-",
 			dir = 1,
-			actor = 303091,
+			actor = 303090,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -304,7 +304,7 @@ return {
 			}
 		},
 		{
-			actor = 303071,
+			actor = 303070,
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -324,7 +324,7 @@ return {
 			side = 0,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 303091,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "...I understand.",
 			typewriter = {
@@ -337,7 +337,7 @@ return {
 			}
 		},
 		{
-			actor = 303071,
+			actor = 303070,
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -353,7 +353,7 @@ return {
 			}
 		},
 		{
-			actor = 303081,
+			actor = 303080,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -369,7 +369,7 @@ return {
 			}
 		},
 		{
-			actor = 303071,
+			actor = 303070,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -389,7 +389,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 303091,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "Nachi, thank you!",
 			typewriter = {
@@ -402,7 +402,7 @@ return {
 			}
 		},
 		{
-			actor = 303081,
+			actor = 303080,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -422,7 +422,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 303091,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "Ehh? H-how did you know...",
 			typewriter = {
@@ -445,7 +445,7 @@ return {
 			}
 		},
 		{
-			actor = 303081,
+			actor = 303080,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -461,7 +461,7 @@ return {
 			}
 		},
 		{
-			actor = 303081,
+			actor = 303080,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -477,7 +477,7 @@ return {
 			}
 		},
 		{
-			actor = 303071,
+			actor = 303070,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -493,7 +493,7 @@ return {
 			}
 		},
 		{
-			actor = 303071,
+			actor = 303070,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -513,7 +513,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 303091,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "Myoukou, Nachi... I understand now! Because I also don't want to cause further trouble for Commander, I'll do my best!",
 			typewriter = {

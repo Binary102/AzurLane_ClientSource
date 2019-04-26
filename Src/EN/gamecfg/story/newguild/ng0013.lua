@@ -4,7 +4,7 @@ return {
 		{
 			action = {
 				say = {
-					text = "「周回模式」启动！点击帮助按钮查看详细内容吧！",
+					text = "The new Clearing Mode feature has arrived! See more details by tapping the \"Help\" button!",
 					style = {
 						posY = -110,
 						mode = 1,

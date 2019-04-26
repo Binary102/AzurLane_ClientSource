@@ -262,6 +262,10 @@ function ys.Battle.BattleBuffEffect.onLeader(slot0, slot1, slot2)
 	slot0:onTrigger(slot1, slot2)
 end
 
+function ys.Battle.BattleBuffEffect.onRear(slot0, slot1, slot2)
+	slot0:onTrigger(slot1, slot2)
+end
+
 function ys.Battle.BattleBuffEffect.onSubLeader(slot0, slot1, slot2)
 	slot0:onTrigger(slot1, slot2)
 end

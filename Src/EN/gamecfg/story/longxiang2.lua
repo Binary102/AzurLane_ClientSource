@@ -49,7 +49,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 306051,
+			actor = 306050,
 			nameColor = "#a9f548",
 			say = "Phew... I'm totally beat... I can't even lift my arms anymore...",
 			typewriter = {
@@ -75,7 +75,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 307041,
+			actor = 307040,
 			nameColor = "#a9f548",
 			say = "Haah... haah... I don't think... I can keep going...",
 			typewriter = {
@@ -98,7 +98,7 @@ return {
 			}
 		},
 		{
-			actor = 307021,
+			actor = 307020,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -117,7 +117,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 307061,
+			actor = 307060,
 			nameColor = "#a9f548",
 			say = "Our seniors are being more strict than usual, eh... Ah, wait, Shoukaku! Wait until afterwards to complain!",
 			flashout = {
@@ -147,7 +147,7 @@ return {
 			}
 		},
 		{
-			actor = 307051,
+			actor = 307050,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -163,7 +163,7 @@ return {
 			}
 		},
 		{
-			actor = 306051,
+			actor = 306050,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -179,7 +179,7 @@ return {
 			}
 		},
 		{
-			actor = 307021,
+			actor = 307020,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -198,7 +198,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 306061,
+			actor = 306060,
 			nameColor = "#a9f548",
 			say = "I can still keep going!",
 			typewriter = {
@@ -221,7 +221,7 @@ return {
 			}
 		},
 		{
-			actor = 307021,
+			actor = 307020,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -241,7 +241,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 306061,
+			actor = 306060,
 			nameColor = "#a9f548",
 			say = "It's just as Kaga said before! This is nothing for a carrier of the Sakura Empire!",
 			typewriter = {
@@ -254,7 +254,7 @@ return {
 			}
 		},
 		{
-			actor = 306061,
+			actor = 306060,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -270,7 +270,7 @@ return {
 			}
 		},
 		{
-			actor = 307011,
+			actor = 307010,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -290,7 +290,7 @@ return {
 			side = 1,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 307021,
+			actor = 307020,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -306,7 +306,7 @@ return {
 			}
 		},
 		{
-			actor = 307011,
+			actor = 307010,
 			side = 0,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -322,7 +322,7 @@ return {
 			}
 		},
 		{
-			actor = 307021,
+			actor = 307020,
 			side = 1,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -342,7 +342,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 306061,
+			actor = 306060,
 			nameColor = "#a9f548",
 			say = "Well then! Everyone, let's keep at it! Let's muster our fighting spirits and work harder!",
 			typewriter = {
@@ -360,7 +360,7 @@ return {
 			bgName = "bg_story_nepu1",
 			hideOther = true,
 			dir = 1,
-			actor = 307061,
+			actor = 307060,
 			nameColor = "#a9f548",
 			say = "Whaaaat....?!",
 			dialogShake = {
@@ -370,13 +370,13 @@ return {
 			},
 			subActors = {
 				{
-					actor = 307041,
+					actor = 307040,
 					pos = {
 						x = 370
 					}
 				},
 				{
-					actor = 306051,
+					actor = 306050,
 					pos = {
 						x = 750
 					}

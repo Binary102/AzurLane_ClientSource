@@ -59,7 +59,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = -1,
-			actor = 312011,
+			actor = 312010,
 			nameColor = "#a9f548",
 			say = "Shiranui Nyaa~~!!!",
 			typewriter = {
@@ -98,7 +98,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = -1,
-			actor = 312011,
+			actor = 312010,
 			nameColor = "#a9f548",
 			say = "Uuuughh... that was cruel, Nyaa.... Why did you have to dodge away from Akashi?",
 			typewriter = {
@@ -125,7 +125,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 301181,
+			actor = 301180,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -144,7 +144,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = -1,
-			actor = 312011,
+			actor = 312010,
 			nameColor = "#a9f548",
 			say = "I thought we were good friends Nyaa~~!",
 			typewriter = {
@@ -167,7 +167,7 @@ return {
 			}
 		},
 		{
-			actor = 301181,
+			actor = 301180,
 			side = 1,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -183,7 +183,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 0,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -199,7 +199,7 @@ return {
 			}
 		},
 		{
-			actor = 301181,
+			actor = 301180,
 			side = 1,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -218,7 +218,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = -1,
-			actor = 312011,
+			actor = 312010,
 			nameColor = "#a9f548",
 			say = "It's about the new promotion plan, Nyaa!",
 			typewriter = {
@@ -241,7 +241,7 @@ return {
 			}
 		},
 		{
-			actor = 301181,
+			actor = 301180,
 			side = 1,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -260,7 +260,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = -1,
-			actor = 312011,
+			actor = 312010,
 			nameColor = "#a9f548",
 			say = "But it's different this time. It's going to be comprehensive, Nyaa!",
 			typewriter = {
@@ -283,7 +283,7 @@ return {
 			}
 		},
 		{
-			actor = 301181,
+			actor = 301180,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -303,12 +303,12 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 301181,
+			actor = 301180,
 			actorName = "Akashi",
 			say = "Shiranui, please help me, just this time Nyaa! Akashi will definitely repay you!",
 			subActors = {
 				{
-					actor = 312011,
+					actor = 312010,
 					dir = -1,
 					pos = {
 						x = -30
@@ -338,12 +338,12 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 301181,
+			actor = 301180,
 			nameColor = "#a9f548",
 			say = "Stop clinging to me... this dumb cat better let go...",
 			subActors = {
 				{
-					actor = 312011,
+					actor = 312010,
 					dir = -1,
 					pos = {
 						x = -30
@@ -364,12 +364,12 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 301181,
+			actor = 301180,
 			actorName = "Akashi",
 			say = "I won't let go until you say yes!",
 			subActors = {
 				{
-					actor = 312011,
+					actor = 312010,
 					dir = -1,
 					pos = {
 						x = -30
@@ -399,12 +399,12 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 301181,
+			actor = 301180,
 			nameColor = "#a9f548",
 			say = "Fine, fine.. I'll fund you!",
 			subActors = {
 				{
-					actor = 312011,
+					actor = 312010,
 					dir = -1,
 					pos = {
 						x = -30
@@ -424,7 +424,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = -1,
-			actor = 312011,
+			actor = 312010,
 			nameColor = "#a9f548",
 			say = "That's great, Nyaa! Here is the business proposal. Akashi will go ahead and make preparations, Nyaa!",
 			typewriter = {
@@ -450,7 +450,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			withoutActorName = true,
-			actor = 301181,
+			actor = 301180,
 			nameColor = "#a9f548",
 			say = "After Akashi leaves, Shiranui skims through the business proposal.",
 			typewriter = {
@@ -463,7 +463,7 @@ return {
 			}
 		},
 		{
-			actor = 301181,
+			actor = 301180,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",

@@ -70,7 +70,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "指挥官！",
 			typewriter = {
@@ -93,7 +93,7 @@ return {
 			}
 		},
 		{
-			actor = 108021,
+			actor = 108020,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -133,7 +133,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "指挥官，莫非——这几天，一直在偷偷跟踪着大青花鱼？",
 			typewriter = {
@@ -161,7 +161,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			optionFlag = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "啊，果然！被我猜到了呢！嘿嘿~",
 			typewriter = {
@@ -179,7 +179,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			optionFlag = 2,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "指挥官，说谎可是不行的呢~",
 			typewriter = {
@@ -202,7 +202,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "要是港区的大家知道了这件事情的话——",
 			typewriter = {
@@ -219,7 +219,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "“哼！指挥官果然是个变态！”“怎，怎么可能，指挥官怎么会做出这样的事情！难道指挥官真的是个萝莉控……”“这样的指挥官，果然还是切成几块放在身边好了……”",
 			typewriter = {
@@ -245,7 +245,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "总而言之，指挥官要怎么做才好呢？",
 			typewriter = {
@@ -268,7 +268,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "原来如此……你的担心也不是没有道理呢。",
 			typewriter = {
@@ -281,7 +281,7 @@ return {
 			}
 		},
 		{
-			actor = 108021,
+			actor = 108020,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -301,7 +301,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "第一！我现在有点累了~要是能在指挥的腿上睡一个下午的话，我就能恢复精神了呢！",
 			typewriter = {
@@ -328,7 +328,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "第二……第二先留着！等我想到了再说吧！",
 			typewriter = {
@@ -355,7 +355,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "下午要工作吗？唔……这个要指挥官自己想办法了呢~",
 			typewriter = {

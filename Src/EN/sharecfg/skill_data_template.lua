@@ -5772,6 +5772,39 @@ pg.skill_data_template = {
 		desc_get_add = {},
 		desc_add = {}
 	},
+	[6380] = {
+		desc_get = "",
+		name = "Random Word Generator",
+		desc = "A helpful tool for planning. Rumor has it, when the the moon is full, the seas are clear, and the time is right, it will speak to you...?",
+		type = 0,
+		max_level = 0,
+		id = 6380,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[6390] = {
+		desc_get = "",
+		name = "Pyoko-Pyoko",
+		desc = "Kizuna AI's headband. It's a flippy-floppy wing-dang-doodle of a honkin' good time that goes on your head. ",
+		type = 0,
+		max_level = 0,
+		id = 6390,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[6400] = {
+		desc_get = "",
+		name = "Intelligence Chip",
+		desc = "A plugin chip that Kizuna AI uses to...? --No talking shit!",
+		type = 0,
+		max_level = 0,
+		id = 6400,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
 	[7000] = {
 		desc_get = "",
 		name = "Rhine Drill",
@@ -14916,7 +14949,7 @@ pg.skill_data_template = {
 		}
 	},
 	[11280] = {
-		desc_get = "Petite bodies are more dexterous and less likely to be hit. Increase own Speed by 3 (increase by 8 when fully upgraded) and Evasion by 13% (25% when fully upgraded).",
+		desc_get = "Increases this ship's Speed by 3 (8 when fully upgraded) and EVA by 13.0% (25.0% when fully upgraded.)",
 		name = "The Perfect Mini-Maid",
 		desc = "Increases this ship's Speed by $1 and EVA by $2.",
 		type = 2,
@@ -19542,817 +19575,350 @@ pg.skill_data_template = {
 			}
 		}
 	},
-	[19000] = {
-		desc_get = "",
-		name = "Siren Killer Ⅰ",
-		desc = "Increases the DMG this ship deals to Sirens by 5.0%.",
-		type = 1,
-		max_level = 1,
-		id = 19000,
-		system_transform = {},
-		desc_get_add = {},
-		desc_add = {}
-	},
-	[19001] = {
-		desc_get = "",
-		name = "Siren Killer Ⅱ",
-		desc = "Increases the DMG this ship deals to Sirens by 10.0%.",
-		type = 1,
-		max_level = 1,
-		id = 19001,
-		system_transform = {},
-		desc_get_add = {},
-		desc_add = {}
-	},
-	[19002] = {
-		desc_get = "",
-		name = "Siren Killer Ⅲ",
-		desc = "Increases the DMG this ship deals to Sirens by 15.0%.",
-		type = 1,
-		max_level = 1,
-		id = 19002,
-		system_transform = {},
-		desc_get_add = {},
-		desc_add = {}
-	},
-	[19010] = {
-		desc_get = "",
-		name = "MKV-Class AP Shell",
-		desc = "Increases this ship's DMG with AP ammo by $1.",
+	[12050] = {
+		desc_get = "Every $1s: fires a torpedo barrage. Barrage damage is based on the skill's level.",
+		name = "Torpedoes: Ready!",
+		desc = "Every 35s (20s at max level): fires a torpedo barrage. Barrage damage is based on the skill's level.",
 		type = 1,
 		max_level = 10,
-		id = 19010,
+		id = 12050,
 		system_transform = {},
 		desc_get_add = {
 			{
-				"15.0%",
-				"35.0%"
+				"35.0",
+				"20.0"
 			}
 		},
 		desc_add = {
 			{
 				{
-					"15.0%",
-					"+2.2%"
+					"35",
+					"-1"
 				},
 				{
-					"17.2%",
-					"+2.2%"
+					"34",
+					"-1"
 				},
 				{
-					"19.4%",
-					"+2.2%"
+					"33",
+					"-2"
 				},
 				{
-					"21.6%",
-					"+2.2%"
+					"31",
+					"-1"
 				},
 				{
-					"23.8%",
-					"+2.2%"
+					"30",
+					"-1"
 				},
 				{
-					"26.0%",
-					"+2.2%"
+					"29",
+					"-3"
 				},
 				{
-					"28.2%",
-					"+2.2%"
+					"26",
+					"-1"
 				},
 				{
-					"30.4%",
-					"+2.2%"
+					"25",
+					"-2"
 				},
 				{
-					"32.6%",
-					"+2.4%"
+					"23",
+					"-3"
 				},
 				{
-					"35.0%"
+					"20"
 				}
 			}
 		}
 	},
-	[19020] = {
+	[12060] = {
 		desc_get = "",
-		name = "Goddess of the Sea",
-		desc = "When this ship's HP falls below 20.0%: restores $1 of its max HP. Additionally, for the rest of the battle: increases this ship's RLD by 30.0%. This skill can only activate once per battle.",
+		name = "Priestess of the Sacred Mountain ",
+		desc = "Every 20s: decreases the Burn DMG your Main Fleet takes by $1 for 8s.",
 		type = 2,
 		max_level = 10,
-		id = 19020,
+		id = 12060,
 		system_transform = {},
 		desc_get_add = {
 			{
-				"15%",
-				"25%"
+				"30%",
+				"60%"
 			}
 		},
 		desc_add = {
 			{
 				{
-					"15.0%",
-					"+1.1%"
-				},
-				{
-					"16.1%",
-					"+1.1%"
-				},
-				{
-					"17.2%",
-					"+1.1%"
-				},
-				{
-					"18.3%",
-					"+1.1%"
-				},
-				{
-					"19.4%",
-					"+1.1%"
-				},
-				{
-					"20.5%",
-					"+1.1%"
-				},
-				{
-					"21.6%",
-					"+1.1%"
-				},
-				{
-					"22.7%",
-					"+1.1%"
-				},
-				{
-					"23.8%",
-					"+1.2%"
-				},
-				{
-					"25.0%"
-				}
-			}
-		}
-	},
-	[19030] = {
-		desc_get = "",
-		name = "Monarch's Coercion",
-		desc = "When this ship fires its Main Guns: $1 chance to fire a special barrage. Decreases the Speed of enemies hit by the barrage by $2 for 6s. Barrage damage is based on the skill's level.",
-		type = 1,
-		max_level = 10,
-		id = 19030,
-		system_transform = {
-			19031,
-			19031,
-			nil,
-			19031,
-			nil,
-			19031,
-			nil,
-			19031,
-			19031
-		},
-		desc_get_add = {
-			{
-				"40.0%",
-				"70.0%"
-			},
-			{
-				"20.0%",
-				"40.0%"
-			}
-		},
-		desc_add = {
-			{
-				{
-					"40.0%",
+					"30.0%",
 					"+3.3%"
 				},
 				{
-					"43.3%",
+					"33.3%",
 					"+3.3%"
 				},
 				{
-					"46.6%",
+					"36.6%",
 					"+3.3%"
 				},
 				{
-					"49.9%",
+					"39.9%",
 					"+3.3%"
 				},
 				{
-					"53.2%",
+					"43.2%",
 					"+3.3%"
 				},
 				{
-					"56.5%",
+					"46.5%",
 					"+3.3%"
 				},
 				{
-					"59.8%",
+					"49.8%",
 					"+3.3%"
 				},
 				{
-					"63.1%",
+					"53.1%",
 					"+3.3%"
 				},
 				{
-					"66.4%",
+					"56.4%",
 					"+3.6%"
 				},
 				{
-					"70.0%"
-				}
-			},
-			{
-				{
-					"20.0%",
-					"+2.2%"
-				},
-				{
-					"22.2%",
-					"+2.2%"
-				},
-				{
-					"24.4%",
-					"+2.2%"
-				},
-				{
-					"26.6%",
-					"+2.2%"
-				},
-				{
-					"28.8%",
-					"+2.2%"
-				},
-				{
-					"31.0%",
-					"+2.2%"
-				},
-				{
-					"33.2%",
-					"+2.2%"
-				},
-				{
-					"35.4%",
-					"+2.2%"
-				},
-				{
-					"37.6%",
-					"+2.4%"
-				},
-				{
-					"40.0%"
+					"60.0%"
 				}
 			}
 		}
 	},
-	[19040] = {
+	[12070] = {
 		desc_get = "",
-		name = "Against the Current",
-		desc = "When this ship's HP falls below 20.0%: restores 12.0% of its max HP over 8s. This effect can only activate once per battle. Additionally, for every 1.0% of max HP lost since the start of the battle: increases this ship's RLD by $1.",
-		type = 2,
-		max_level = 10,
-		id = 19040,
-		system_transform = {},
-		desc_get_add = {
-			{
-				"0.6",
-				"1"
-			}
-		},
-		desc_add = {
-			{
-				{
-					"0.6",
-					"+0.04"
-				},
-				{
-					"0.64",
-					"+0.04"
-				},
-				{
-					"0.68",
-					"+0.05"
-				},
-				{
-					"0.73",
-					"+0.04"
-				},
-				{
-					"0.77",
-					"+0.04"
-				},
-				{
-					"0.81",
-					"+0.05"
-				},
-				{
-					"0.86",
-					"+0.04"
-				},
-				{
-					"0.9",
-					"+0.04"
-				},
-				{
-					"0.94",
-					"+0.06"
-				},
-				{
-					"1"
-				}
-			}
-		}
-	},
-	[19050] = {
-		desc_get = "",
-		name = "Body and Soul",
-		desc = "Increases this ship's Torpedo Crit Rate by $1 and increases this ship's Torpedo Crit DMG by 65.0%.",
+		name = "Take the Initiative!",
+		desc = "If there are 3 or more Sakura Empire ships in your fleet: launches a $1 special airstrike 12s after the battle starts.",
 		type = 1,
 		max_level = 10,
-		id = 19050,
+		id = 12070,
 		system_transform = {},
 		desc_get_add = {
 			{
-				"20.0%",
-				"40.0%"
+				"Lv.1",
+				"Lv.10"
 			}
 		},
 		desc_add = {
 			{
 				{
-					"20.0%",
-					"+2.2%"
+					"Lv.1",
+					"+1"
 				},
 				{
-					"22.2%",
-					"+2.2%"
+					"Lv.2",
+					"+1"
 				},
 				{
-					"24.4%",
-					"+2.2%"
+					"Lv.3",
+					"+1"
 				},
 				{
-					"26.6%",
-					"+2.2%"
+					"Lv.4",
+					"+1"
 				},
 				{
-					"28.8%",
-					"+2.2%"
+					"Lv.5",
+					"+1"
 				},
 				{
-					"31.0%",
-					"+2.2%"
+					"Lv.6",
+					"+1"
 				},
 				{
-					"33.2%",
-					"+2.2%"
+					"Lv.7",
+					"+1"
 				},
 				{
-					"35.4%",
-					"+2.2%"
+					"Lv.8",
+					"+1"
 				},
 				{
-					"37.6%",
-					"+2.4%"
+					"Lv.9",
+					"+1"
 				},
 				{
-					"40.0%"
+					"Lv.10"
 				}
 			}
 		}
 	},
-	[19060] = {
+	[12080] = {
 		desc_get = "",
-		name = "Flash of Lightning",
-		desc = "When this ship fires its Torpedoes: $1 chance to launch a special torpedo barrage. Barrage damage is based on the skill's level.",
+		name = "Crimson God's Protection",
+		desc = "When this ship launches an Airstrike: grants 100% Evasion Rate for $1s to the ship in your Vanguard which has the lowest percentage of their HP remaining.",
+		type = 3,
+		max_level = 10,
+		id = 12080,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"2.0",
+				"5.0"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"2.0",
+					"+0.3"
+				},
+				{
+					"2.3",
+					"+0.3"
+				},
+				{
+					"2.6",
+					"+0.4"
+				},
+				{
+					"3.0",
+					"+0.3"
+				},
+				{
+					"3.3",
+					"+0.3"
+				},
+				{
+					"3.6",
+					"+0.4"
+				},
+				{
+					"4.0",
+					"+0.3"
+				},
+				{
+					"4.3",
+					"+0.3"
+				},
+				{
+					"4.6",
+					"+0.4"
+				},
+				{
+					"5.0"
+				}
+			}
+		}
+	},
+	[12090] = {
+		desc_get = "",
+		name = "Taste My Wrath! ",
+		desc = "Every 8s: increases this ship's FP by $1. When this buff has stacked 3 times: launches a special barrage, removes the FP buffs, and resets the stack to 0. When this ship is equipped with an Auxiliary Gun: improves the special barrage.",
 		type = 1,
 		max_level = 10,
-		id = 19060,
+		id = 12090,
 		system_transform = {},
 		desc_get_add = {
 			{
-				"15.0%",
-				"30.0%"
+				"20",
+				"80"
 			}
 		},
 		desc_add = {
 			{
 				{
-					"15.0%",
-					"+1.6%"
+					"20",
+					"+6"
 				},
 				{
-					"16.6%",
-					"+1.6%"
+					"26",
+					"+6"
 				},
 				{
-					"18.2%",
-					"+1.6%"
+					"32",
+					"+8"
 				},
 				{
-					"19.8%",
-					"+1.6%"
+					"40",
+					"+6"
 				},
 				{
-					"21.4%",
-					"+1.6%"
+					"46",
+					"+6"
 				},
 				{
-					"23.0%",
-					"+1.6%"
+					"52",
+					"+8"
 				},
 				{
-					"24.6%",
-					"+1.8%"
+					"60",
+					"+6"
 				},
 				{
-					"26.4%",
-					"+1.8%"
+					"66",
+					"+6"
 				},
 				{
-					"28.2%",
-					"+1.8%"
+					"72",
+					"+8"
 				},
 				{
-					"30.0%"
+					"80"
 				}
 			}
 		}
 	},
-	[19070] = {
+	[12100] = {
 		desc_get = "",
-		name = "A Legend's Inheritance",
-		desc = "When this ship fires its Main Guns: $1 chance to fire a special barrage. Barrage damage is based on the skill's level.",
-		type = 1,
+		name = "Iron Blood Hatchling",
+		desc = "Increases the AVI, AA, and RLD of this ship by $1 for each Iron Blood ship in your fleet at the start of the battle.",
+		type = 3,
 		max_level = 10,
-		id = 19070,
-		system_transform = {},
-		desc_get_add = {
-			{
-				"40.0%",
-				"70.0%"
-			}
-		},
-		desc_add = {
-			{
-				{
-					"40.0%",
-					"+3.3%"
-				},
-				{
-					"43.3%",
-					"+3.3%"
-				},
-				{
-					"46.6%",
-					"+3.3%"
-				},
-				{
-					"49.9%",
-					"+3.3%"
-				},
-				{
-					"53.2%",
-					"+3.3%"
-				},
-				{
-					"56.5%",
-					"+3.3%"
-				},
-				{
-					"59.8%",
-					"+3.3%"
-				},
-				{
-					"63.1%",
-					"+3.3%"
-				},
-				{
-					"66.4%",
-					"+3.6%"
-				},
-				{
-					"70%"
-				}
-			}
-		}
-	},
-	[19080] = {
-		desc_get = "",
-		name = "Specialized Armor",
-		desc = "Slightly increases this ship's chance of catching fire (depends on the enemy's weapon caliber; maximum of 6.0%) and extends the duration it burns by 3s. Decreases the DMG this ship takes from AP ammo by $1.",
-		type = 2,
-		max_level = 10,
-		id = 19080,
-		system_transform = {},
-		desc_get_add = {
-			{
-				"15%",
-				"30%"
-			}
-		},
-		desc_add = {
-			{
-				{
-					"15.0%",
-					"+1.5%"
-				},
-				{
-					"16.5%",
-					"+1.5%"
-				},
-				{
-					"18.0%",
-					"+2.0%"
-				},
-				{
-					"20.0%",
-					"+1.5%"
-				},
-				{
-					"21.5%",
-					"+1.5%"
-				},
-				{
-					"23.0%",
-					"+2.0%"
-				},
-				{
-					"25.0%",
-					"+1.5%"
-				},
-				{
-					"26.5%",
-					"+1.5%"
-				},
-				{
-					"28.0%",
-					"+2.0%"
-				},
-				{
-					"30.0%"
-				}
-			}
-		}
-	},
-	[19090] = {
-		desc_get = "",
-		name = "Expert Loader",
-		desc = "Changes the ammo type of this ship's Main Guns to HE. Every time this ship fires its Main Guns: increases this ship's reload by $1 (can be stacked up to 12 times.) The ammo type of this ship's Main Guns will alternate between AP and HE every 2 shots.",
-		type = 1,
-		max_level = 10,
-		id = 19090,
+		id = 12100,
 		system_transform = {},
 		desc_get_add = {
 			{
 				"1.0%",
-				"3.5%"
+				"5.0%"
 			}
 		},
 		desc_add = {
 			{
 				{
 					"1.0%",
-					"+0.2%"
-				},
-				{
-					"1.2%",
-					"+0.2%"
+					"+0.4%"
 				},
 				{
 					"1.4%",
-					"+0.2%"
-				},
-				{
-					"1.6%",
-					"+0.2%"
+					"+0.4%"
 				},
 				{
 					"1.8%",
-					"+0.3%"
-				},
-				{
-					"2.1%",
-					"+0.3%"
-				},
-				{
-					"2.4%",
-					"+0.3%"
-				},
-				{
-					"2.7%",
 					"+0.4%"
 				},
 				{
-					"3.1%",
+					"2.2%",
 					"+0.4%"
 				},
 				{
-					"3.5%"
-				}
-			}
-		}
-	},
-	[19100] = {
-		desc_get = "Every 30 seconds, deploy 4 rotating shields which can block up to 8 rounds each. Shields last for 5 seconds (15 seconds when fully upgraded).",
-		name = "Well-Rounded Armor",
-		desc = "Every 30s: deploys 4 rotating shields that can each block up to 8 hits. Shields last for $1s.",
-		type = 2,
-		max_level = 10,
-		id = 19100,
-		system_transform = {},
-		desc_get_add = {},
-		desc_add = {
-			{
-				{
-					"5",
-					"+1"
+					"2.6%",
+					"+0.4%"
 				},
 				{
-					"6",
-					"+1"
+					"3.0%",
+					"+0.5%"
 				},
 				{
-					"7",
-					"+1"
+					"3.5%",
+					"+0.5%"
 				},
 				{
-					"8",
-					"+1"
+					"4.0%",
+					"+0.5%"
 				},
 				{
-					"9",
-					"+1"
+					"4.5%",
+					"+0.5%"
 				},
 				{
-					"10",
-					"+1"
-				},
-				{
-					"11",
-					"+1"
-				},
-				{
-					"12",
-					"+1"
-				},
-				{
-					"13",
-					"+2"
-				},
-				{
-					"15"
-				}
-			}
-		}
-	},
-	[19110] = {
-		desc_get = "",
-		name = "Augmented HE Ammo",
-		desc = "Increases this ship's DMG with HE ammo by $1 but decreases its chance to ignite enemies by 3.0%.",
-		type = 1,
-		max_level = 10,
-		id = 19110,
-		system_transform = {},
-		desc_get_add = {
-			{
-				"15.0%",
-				"35.0%"
-			}
-		},
-		desc_add = {
-			{
-				{
-					"15.0%",
-					"+2.2%"
-				},
-				{
-					"17.2%",
-					"+2.2%"
-				},
-				{
-					"19.4%",
-					"+2.2%"
-				},
-				{
-					"21.6%",
-					"+2.2%"
-				},
-				{
-					"23.8%",
-					"+2.2%"
-				},
-				{
-					"26.0%",
-					"+2.2%"
-				},
-				{
-					"28.2%",
-					"+2.2%"
-				},
-				{
-					"30.4%",
-					"+2.2%"
-				},
-				{
-					"32.6%",
-					"+2.4%"
-				},
-				{
-					"35.0%"
-				}
-			}
-		}
-	},
-	[19120] = {
-		desc_get = "Increase Speed by 3 (increase by 8 when fully upgraded). When battle begins, increase Evasion by 15% (35% when fully upgraded) for 40 seconds.",
-		name = "Engine Boost",
-		desc = "Increases this ship's Speed by $1. At the start of the battle: increases this ship's EVA by $2 for 40s.",
-		type = 2,
-		max_level = 10,
-		id = 19120,
-		system_transform = {},
-		desc_get_add = {},
-		desc_add = {
-			{
-				{
-					"3",
-					"+0.5"
-				},
-				{
-					"3.5",
-					"+0.5"
-				},
-				{
-					"4",
-					"+0.5"
-				},
-				{
-					"4.5",
-					"+0.5"
-				},
-				{
-					"5",
-					"+0.5"
-				},
-				{
-					"5.5",
-					"+0.5"
-				},
-				{
-					"6",
-					"+0.5"
-				},
-				{
-					"6.5",
-					"+0.5"
-				},
-				{
-					"7",
-					"+1"
-				},
-				{
-					"8"
-				}
-			},
-			{
-				{
-					"15.0%",
-					"+2.2%"
-				},
-				{
-					"17.2%",
-					"+2.2%"
-				},
-				{
-					"19.4%",
-					"+2.2%"
-				},
-				{
-					"21.6%",
-					"+2.2%"
-				},
-				{
-					"23.8%",
-					"+2.2%"
-				},
-				{
-					"26.0%",
-					"+2.2%"
-				},
-				{
-					"28.2%",
-					"+2.2%"
-				},
-				{
-					"30.4%",
-					"+2.2%"
-				},
-				{
-					"32.6%",
-					"+2.4%"
-				},
-				{
-					"35.0%"
+					"5.0%"
 				}
 			}
 		}
@@ -22502,94 +22068,6 @@ pg.skill_data_template = {
 		desc_get_add = {},
 		desc_add = {}
 	},
-	[29221] = {
-		desc_get = "",
-		name = "EX Barrage: {namecode:152} Ⅰ",
-		desc = "Activate EX Barrage: {namecode:152} Ⅰ once every 9 times the main gun is fired.",
-		type = 1,
-		max_level = 1,
-		id = 29221,
-		system_transform = {},
-		desc_get_add = {},
-		desc_add = {}
-	},
-	[29222] = {
-		desc_get = "",
-		name = "EX Barrage: {namecode:152} Ⅱ",
-		desc = "Activate EX Barrage: {namecode:152} Ⅱ once every 6 times the main gun is fired.",
-		type = 1,
-		max_level = 1,
-		id = 29222,
-		system_transform = {},
-		desc_get_add = {},
-		desc_add = {}
-	},
-	[29231] = {
-		desc_get = "",
-		name = "EX Barrage: Neptune Ⅰ",
-		desc = "Activate EX Barrage: Neptune Ⅰ once every 12 times the main gun is fired.",
-		type = 1,
-		max_level = 1,
-		id = 29231,
-		system_transform = {},
-		desc_get_add = {},
-		desc_add = {}
-	},
-	[29232] = {
-		desc_get = "",
-		name = "EX Barrage: Neptune Ⅱ",
-		desc = "Activate EX Barrage: Neptune Ⅱ once every 8 times the main gun is fired.",
-		type = 1,
-		max_level = 1,
-		id = 29232,
-		system_transform = {},
-		desc_get_add = {},
-		desc_add = {}
-	},
-	[29241] = {
-		desc_get = "",
-		name = "EX Barrage: Roon Ⅰ",
-		desc = "Activate EX Barrage: Roon Ⅰ once every 12 times the main gun is fired.",
-		type = 1,
-		max_level = 1,
-		id = 29241,
-		system_transform = {},
-		desc_get_add = {},
-		desc_add = {}
-	},
-	[29242] = {
-		desc_get = "",
-		name = "EX Barrage: Roon Ⅱ",
-		desc = "Activate EX Barrage: Roon Ⅱ once every 8 times the main gun is fired.",
-		type = 1,
-		max_level = 1,
-		id = 29242,
-		system_transform = {},
-		desc_get_add = {},
-		desc_add = {}
-	},
-	[29251] = {
-		desc_get = "",
-		name = "EX Barrage: Saint Louis Ⅰ",
-		desc = "Activate EX Barrage: Saint Louis Ⅰ once every 12 times the main gun is fired.",
-		type = 1,
-		max_level = 1,
-		id = 29251,
-		system_transform = {},
-		desc_get_add = {},
-		desc_add = {}
-	},
-	[29252] = {
-		desc_get = "",
-		name = "EX Barrage: Saint Louis Ⅱ",
-		desc = "Activate EX Barrage: Saint Louis Ⅱ once every 8 times the main gun is fired.",
-		type = 1,
-		max_level = 1,
-		id = 29252,
-		system_transform = {},
-		desc_get_add = {},
-		desc_add = {}
-	},
 	[29261] = {
 		desc_get = "",
 		name = "All Out Assault Ⅰ",
@@ -24188,27 +23666,586 @@ pg.skill_data_template = {
 			}
 		}
 	},
-	[98000] = {
-		desc_get = "测试",
-		name = "指挥喵测试技能1",
-		desc = "状态增益",
-		type = 1,
+	[104010] = {
+		desc_get = "",
+		name = "Kizuna Beam",
+		desc = "Every 20s: this ship performs super A.I. hacking to decrease the FP, TRP, and AVI of all enemies by a large amount (up to $1) for 8s... Also has a small chance to accidentally increase the stats of all enemies instead.",
+		type = 3,
 		max_level = 10,
-		id = 98000,
+		id = 104010,
 		system_transform = {},
-		desc_get_add = {},
-		desc_add = {}
+		desc_get_add = {
+			{
+				"4.0%",
+				"8.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"4.0%"
+				},
+				{
+					"6.0%"
+				},
+				{
+					"8.0%"
+				},
+				{
+					"8.0%"
+				},
+				{
+					"8.0%"
+				},
+				{
+					"8.0%"
+				},
+				{
+					"8.0%"
+				},
+				{
+					"8.0%"
+				},
+				{
+					"8.0%"
+				},
+				{
+					"8.0%"
+				}
+			}
+		}
 	},
-	[98010] = {
-		desc_get = "测试",
-		name = "指挥喵测试技能2",
-		desc = "附加效果触发器",
+	[104020] = {
+		desc_get = "",
+		name = "Crisis Prevention!",
+		desc = "When this ship takes DMG: $1 chance to fire a special torpedo barrage and avoid all enemy attacks for 3s. Once the effect ends: increases this ship's EVA by $2 for 3s.",
+		type = 2,
+		max_level = 10,
+		id = 104020,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"4.5%",
+				"12.0%"
+			},
+			{
+				"20.0%",
+				"40.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"4.5%",
+					"+0.7%"
+				},
+				{
+					"5.2%",
+					"+0.8%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+0.7%"
+				},
+				{
+					"7.7%",
+					"+0.8%"
+				},
+				{
+					"8.5%",
+					"+1.0%"
+				},
+				{
+					"9.5%",
+					"+0.7%"
+				},
+				{
+					"10.2%",
+					"+0.8%"
+				},
+				{
+					"11.0%",
+					"+1.0%"
+				},
+				{
+					"12.0%"
+				}
+			},
+			{
+				{
+					"20.0%",
+					"+2.2%"
+				},
+				{
+					"22.2%",
+					"+2.2%"
+				},
+				{
+					"24.4%",
+					"+2.2%"
+				},
+				{
+					"26.6%",
+					"+2.2%"
+				},
+				{
+					"28.8%",
+					"+2.2%"
+				},
+				{
+					"31.0%",
+					"+2.2%"
+				},
+				{
+					"33.2%",
+					"+2.2%"
+				},
+				{
+					"35.4%",
+					"+2.2%"
+				},
+				{
+					"37.6%",
+					"+2.4%"
+				},
+				{
+					"40.0%"
+				}
+			}
+		}
+	},
+	[104030] = {
+		desc_get = "",
+		name = "Connected",
+		desc = "For each Kizuna AI in your fleet (excluding this ship) at the start of the battle: increases this ship's FP by $1 (can be stacked up to 4 times.) If there are no other Kizuna AIs in your fleet: decreases the DMG this ship takes by $2 for 30s after the battle starts.",
+		type = 3,
+		max_level = 10,
+		id = 104030,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"1.5%",
+				"6.0%"
+			},
+			{
+				"5.0%",
+				"15.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"1.5%",
+					"+0.5%"
+				},
+				{
+					"2.0%",
+					"+0.5%"
+				},
+				{
+					"2.5%",
+					"+0.5%"
+				},
+				{
+					"3.0%",
+					"+0.5%"
+				},
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%",
+					"+0.5%"
+				},
+				{
+					"5.5%",
+					"+0.5%"
+				},
+				{
+					"6.0%"
+				}
+			},
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			}
+		}
+	},
+	[104040] = {
+		desc_get = "",
+		name = "Everything Is In Order",
+		desc = "Decreases the duration this ship Burns by 3s and decreases the HE DMG it takes by $1.",
+		type = 2,
+		max_level = 10,
+		id = 104040,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"5.0%",
+				"15.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			}
+		}
+	},
+	[104050] = {
+		desc_get = "",
+		name = "Future Base",
+		desc = "30s, 45s, and 60s after the start of the battle: launches a $1 special airstrike. Airstrike damage is based on the skill's level.",
 		type = 1,
 		max_level = 10,
-		id = 98010,
+		id = 104050,
 		system_transform = {},
-		desc_get_add = {},
-		desc_add = {}
+		desc_get_add = {
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[104060] = {
+		desc_get = "",
+		name = "Melty World",
+		desc = "When this ship launches an Airstrike while sortied with Kizuna AI: $1 chance for the Airstrike to deal double DMG.",
+		type = 1,
+		max_level = 10,
+		id = 104060,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"15.0%",
+				"25.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"15.0%",
+					"+1.1%"
+				},
+				{
+					"16.1%",
+					"+1.1%"
+				},
+				{
+					"17.2%",
+					"+1.1%"
+				},
+				{
+					"18.3%",
+					"+1.1%"
+				},
+				{
+					"19.4%",
+					"+1.1%"
+				},
+				{
+					"20.5%",
+					"+1.1%"
+				},
+				{
+					"21.6%",
+					"+1.1%"
+				},
+				{
+					"22.7%",
+					"+1.1%"
+				},
+				{
+					"23.8%",
+					"+1.2%"
+				},
+				{
+					"25.0%"
+				}
+			}
+		}
+	},
+	[104070] = {
+		desc_get = "",
+		name = "Super AIming Adjustments",
+		desc = "Increases this ship's Main Gun Crit Rate by $1 but increases its Spread Range by 1. Every 16s after the start of the battle: $2 chance to fire a special barrage. Barrage damage is based on the skill's level.",
+		type = 1,
+		max_level = 10,
+		id = 104070,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"15.0%",
+				"30.0%"
+			},
+			{
+				"40.0%",
+				"70.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"15.0%",
+					"+1.6%"
+				},
+				{
+					"16.6%",
+					"+1.6%"
+				},
+				{
+					"18.2%",
+					"+1.6%"
+				},
+				{
+					"19.8%",
+					"+1.6%"
+				},
+				{
+					"21.4%",
+					"+1.6%"
+				},
+				{
+					"23.0%",
+					"+1.6%"
+				},
+				{
+					"24.6%",
+					"+1.8%"
+				},
+				{
+					"26.4%",
+					"+1.8%"
+				},
+				{
+					"28.2%",
+					"+1.8%"
+				},
+				{
+					"30.0%"
+				}
+			},
+			{
+				{
+					"40.0%",
+					"+3.3%"
+				},
+				{
+					"43.3%",
+					"+3.3%"
+				},
+				{
+					"46.6%",
+					"+3.3%"
+				},
+				{
+					"49.9%",
+					"+3.3%"
+				},
+				{
+					"53.2%",
+					"+3.3%"
+				},
+				{
+					"56.5%",
+					"+3.3%"
+				},
+				{
+					"59.8%",
+					"+3.3%"
+				},
+				{
+					"63.1%",
+					"+3.3%"
+				},
+				{
+					"66.4%",
+					"+3.6%"
+				},
+				{
+					"70.0%"
+				}
+			}
+		}
+	},
+	[104080] = {
+		desc_get = "",
+		name = "Coercion Assistance Mode",
+		desc = "Increases this ship's Accuracy and EVA by $1 through the use of advanced super A.I. tracking.",
+		type = 2,
+		max_level = 10,
+		id = 104080,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"10.0%",
+				"25.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"10.0%",
+					"+1.2%"
+				},
+				{
+					"11.2%",
+					"+1.2%"
+				},
+				{
+					"12.4%",
+					"+1.6%"
+				},
+				{
+					"14.0%",
+					"+1.5%"
+				},
+				{
+					"15.5%",
+					"+1.5%"
+				},
+				{
+					"17.0%",
+					"+2.0%"
+				},
+				{
+					"19.0%",
+					"+1.8%"
+				},
+				{
+					"20.8%",
+					"+1.8%"
+				},
+				{
+					"22.6%",
+					"+2.4%"
+				},
+				{
+					"25.0%"
+				}
+			}
+		}
 	},
 	all = {
 		10,
@@ -24334,6 +24371,9 @@ pg.skill_data_template = {
 		6280,
 		6290,
 		6291,
+		6380,
+		6390,
+		6400,
 		7000,
 		9010,
 		9020,
@@ -24529,21 +24569,12 @@ pg.skill_data_template = {
 		11860,
 		11890,
 		11900,
-		19000,
-		19001,
-		19002,
-		19010,
-		19020,
-		19030,
-		19040,
-		19050,
-		19060,
-		19070,
-		19080,
-		19090,
-		19100,
-		19110,
-		19120,
+		12050,
+		12060,
+		12070,
+		12080,
+		12090,
+		12100,
 		20011,
 		20012,
 		20021,
@@ -24739,14 +24770,6 @@ pg.skill_data_template = {
 		29202,
 		29211,
 		29212,
-		29221,
-		29222,
-		29231,
-		29232,
-		29241,
-		29242,
-		29251,
-		29252,
 		29261,
 		29262,
 		29271,
@@ -24783,8 +24806,14 @@ pg.skill_data_template = {
 		101130,
 		102010,
 		102020,
-		98000,
-		98010
+		104010,
+		104020,
+		104030,
+		104040,
+		104050,
+		104060,
+		104070,
+		104080
 	}
 }
 

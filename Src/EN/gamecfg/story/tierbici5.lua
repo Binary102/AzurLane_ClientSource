@@ -57,7 +57,7 @@ return {
 			}
 		},
 		{
-			actor = 405021,
+			actor = 405020,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -83,7 +83,7 @@ return {
 			}
 		},
 		{
-			actor = 202081,
+			actor = 202080,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -103,7 +103,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 405021,
+			actor = 405020,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -119,7 +119,7 @@ return {
 			}
 		},
 		{
-			actor = 202081,
+			actor = 202080,
 			side = 1,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -138,7 +138,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 405021,
+			actor = 405020,
 			nameColor = "#a9f548",
 			say = "根据这份分布图，接下来的巡逻路线也要随之进行调整……",
 			flashout = {
@@ -182,7 +182,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 302011,
+			actor = 302010,
 			actorName = "{namecode:37}",
 			say = "打扰了。提尔比茨，上次谢谢你的帮忙了。",
 			typewriter = {
@@ -199,7 +199,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 302011,
+			actor = 302010,
 			actorName = "{namecode:37}",
 			say = "这是最新型的空气净化器，能提高工作效率，保持健康的那种。我就放这里了。",
 			typewriter = {
@@ -216,7 +216,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 405021,
+			actor = 405020,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -236,7 +236,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 302011,
+			actor = 302010,
 			actorName = "{namecode:37}",
 			say = "科研部还有事情，那我先走了。",
 			typewriter = {
@@ -252,7 +252,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 405021,
+			actor = 405020,
 			nameColor = "#a9f548",
 			say = "巡逻路线安排好了，接下来是人选……",
 			flashout = {
@@ -292,7 +292,7 @@ return {
 			}
 		},
 		{
-			actor = 102091,
+			actor = 102090,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -308,7 +308,7 @@ return {
 			}
 		},
 		{
-			actor = 102091,
+			actor = 102090,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -328,7 +328,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 405021,
+			actor = 405020,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -344,7 +344,7 @@ return {
 			}
 		},
 		{
-			actor = 102091,
+			actor = 102090,
 			side = 1,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -363,7 +363,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 405021,
+			actor = 405020,
 			nameColor = "#a9f548",
 			say = "……",
 			flashout = {
@@ -393,7 +393,7 @@ return {
 			}
 		},
 		{
-			actor = 405021,
+			actor = 405020,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",

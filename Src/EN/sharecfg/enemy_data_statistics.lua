@@ -5532,6 +5532,561 @@ pg.enemy_data_statistics = {
 		},
 		equipment_list = {}
 	},
+	[135] = {
+		cannon = 0,
+		name = "AI-Type Kagerou Production",
+		antiaircraft_growth = 0,
+		speed_growth = 0,
+		luck = 0,
+		air = 0,
+		nationality = 3,
+		icon_type = 0,
+		type = 1,
+		rarity = 0,
+		antiaircraft = 0,
+		dodge_growth = 0,
+		icon = "yangyandanchuan_kizuna",
+		star = 0,
+		battle_unit_type = 49,
+		antisub_growth = 0,
+		air_growth = 0,
+		antisub = 0,
+		friendly_cld = 1,
+		durability = 99999,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		bubble_interval = 0,
+		speed = 15,
+		armor = 0,
+		id = 135,
+		scale = 200,
+		drop_id = 0,
+		wave_fx = "danchuanlanghuazhong2",
+		prefab = "yangyandanchuan_kizuna",
+		cannon_growth = 0,
+		pilot_ai_template_id = 20001,
+		reload = 150,
+		bubble_fx = "",
+		dodge = 0,
+		bubble_initial = 0,
+		reload_growth = 0,
+		remarks = "敌人模板",
+		hit = 0,
+		torpedo = 0,
+		durability_growth = 0,
+		luck_growth = 0,
+		hit_growth = 0,
+		armor_type = 1,
+		cld_box = {
+			13,
+			7.5,
+			8
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.62,
+					1.27,
+					0
+				}
+			},
+			torpedo = {
+				{
+					1.62,
+					1.27,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							1.035,
+							0.869,
+							0.099
+						}
+					}
+				}
+			},
+			{
+				40,
+				{
+					{
+						"smoke",
+						{
+							-0.964,
+							1.16,
+							-0.022
+						}
+					}
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				-1,
+				0
+			},
+			{
+				1,
+				0.2,
+				-0.3464
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		specific_fx_scale = {},
+		appear_fx = {},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		hp_bar = {
+			200,
+			4
+		},
+		equipment_list = {}
+	},
+	[136] = {
+		cannon = 0,
+		name = "AI-Type Myoukou Production",
+		antiaircraft_growth = 0,
+		speed_growth = 0,
+		luck = 0,
+		air = 0,
+		nationality = 3,
+		icon_type = 0,
+		type = 3,
+		rarity = 0,
+		antiaircraft = 0,
+		dodge_growth = 0,
+		icon = "miaogaodanchuan_kizuna",
+		star = 0,
+		battle_unit_type = 49,
+		antisub_growth = 0,
+		air_growth = 0,
+		antisub = 0,
+		friendly_cld = 1,
+		durability = 99999,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		bubble_interval = 0,
+		speed = 15,
+		armor = 0,
+		id = 136,
+		scale = 200,
+		drop_id = 0,
+		wave_fx = "danchuanlanghuazhong3",
+		prefab = "miaogaodanchuan_kizuna",
+		cannon_growth = 0,
+		pilot_ai_template_id = 20001,
+		reload = 150,
+		bubble_fx = "",
+		dodge = 0,
+		bubble_initial = 0,
+		reload_growth = 0,
+		remarks = "敌人模板",
+		hit = 0,
+		torpedo = 0,
+		durability_growth = 0,
+		luck_growth = 0,
+		hit_growth = 0,
+		armor_type = 2,
+		cld_box = {
+			25,
+			7.5,
+			8
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			cannon = {
+				{
+					2.26,
+					1.83,
+					0
+				}
+			},
+			torpedo = {
+				{
+					1.92,
+					0.54,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smokebig",
+						{
+							-1.48,
+							1.08,
+							0.01
+						}
+					}
+				}
+			},
+			{
+				50,
+				{
+					{
+						"smokebig",
+						{
+							1.659,
+							0.911,
+							0.127
+						}
+					}
+				}
+			},
+			{
+				40,
+				{
+					{
+						"smokebig",
+						{
+							0.334,
+							1.906,
+							-0.445
+						}
+					}
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				1.25,
+				0,
+				1.353
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		specific_fx_scale = {},
+		appear_fx = {},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		hp_bar = {
+			200,
+			4
+		},
+		equipment_list = {}
+	},
+	[137] = {
+		cannon = 0,
+		name = "AI-Type Fusou Production",
+		antiaircraft_growth = 0,
+		speed_growth = 0,
+		luck = 0,
+		air = 0,
+		nationality = 3,
+		icon_type = 0,
+		type = 5,
+		rarity = 0,
+		antiaircraft = 0,
+		dodge_growth = 0,
+		icon = "fusangdanchuan_kizuna",
+		star = 0,
+		battle_unit_type = 49,
+		antisub_growth = 0,
+		air_growth = 0,
+		antisub = 0,
+		friendly_cld = 1,
+		durability = 99999,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		bubble_interval = 0,
+		speed = 15,
+		armor = 0,
+		id = 137,
+		scale = 250,
+		drop_id = 0,
+		wave_fx = "danchuanlanghuazhong3",
+		prefab = "fusangdanchuan_kizuna",
+		cannon_growth = 0,
+		pilot_ai_template_id = 20001,
+		reload = 150,
+		bubble_fx = "",
+		dodge = 0,
+		bubble_initial = 0,
+		reload_growth = 0,
+		remarks = "敌人模板",
+		hit = 0,
+		torpedo = 0,
+		durability_growth = 0,
+		luck_growth = 0,
+		hit_growth = 0,
+		armor_type = 3,
+		cld_box = {
+			13,
+			7.5,
+			8
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			cannon = {
+				{
+					2.22,
+					1.74,
+					0
+				}
+			},
+			torpedo = {
+				{
+					1.66,
+					0.37,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smokebig",
+						{
+							-1.44,
+							1.48,
+							-0.39
+						}
+					}
+				}
+			},
+			{
+				50,
+				{
+					{
+						"smokebig",
+						{
+							1.85,
+							1.021,
+							-0.155
+						}
+					}
+				}
+			},
+			{
+				40,
+				{
+					{
+						"smokebig",
+						{
+							0.808,
+							1.65,
+							-0.263
+						}
+					}
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				1.25,
+				0,
+				1.353
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		specific_fx_scale = {},
+		appear_fx = {},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		hp_bar = {
+			200,
+			4
+		},
+		equipment_list = {}
+	},
+	[138] = {
+		cannon = 0,
+		name = "Pink Bombing Ship",
+		antiaircraft_growth = 0,
+		speed_growth = 0,
+		luck = 0,
+		air = 0,
+		nationality = 98,
+		icon_type = 0,
+		type = 16,
+		rarity = 0,
+		antiaircraft = 0,
+		dodge_growth = 0,
+		icon = "zibao_kizuna",
+		star = 0,
+		battle_unit_type = 49,
+		antisub_growth = 0,
+		air_growth = 0,
+		antisub = 0,
+		friendly_cld = 0,
+		durability = 99999,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		bubble_interval = 0,
+		speed = 30,
+		armor = 0,
+		id = 138,
+		scale = 200,
+		drop_id = 0,
+		wave_fx = "danchuanlanghuaxiao2",
+		prefab = "zibao_kizuna",
+		cannon_growth = 0,
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		bubble_fx = "",
+		dodge = 0,
+		bubble_initial = 0,
+		reload_growth = 0,
+		remarks = "敌人模板",
+		hit = 0,
+		torpedo = 0,
+		durability_growth = 0,
+		luck_growth = 0,
+		hit_growth = 0,
+		armor_type = 1,
+		cld_box = {
+			5.5,
+			7.5,
+			8
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0,
+					1,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							0.112,
+							0.664,
+							0
+						}
+					}
+				}
+			},
+			{
+				40,
+				{
+					{
+						"smoke",
+						{
+							-0.473,
+							1.283,
+							0
+						}
+					}
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				-0.82,
+				0
+			},
+			{
+				0,
+				0,
+				0.358
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		specific_fx_scale = {},
+		appear_fx = {},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		hp_bar = {
+			150,
+			4
+		},
+		equipment_list = {}
+	},
 	[150] = {
 		cannon = 0,
 		name = "Gridley",
@@ -33006,6 +33561,1849 @@ pg.enemy_data_statistics = {
 		},
 		equipment_list = {}
 	},
+	[347] = {
+		cannon = 0,
+		name = "Kizuna AI",
+		antiaircraft_growth = 0,
+		speed_growth = 0,
+		luck = 0,
+		air = 0,
+		nationality = 3,
+		icon_type = 1,
+		type = 1,
+		rarity = 0,
+		antiaircraft = 0,
+		dodge_growth = 0,
+		icon = "aijiangDD",
+		star = 0,
+		battle_unit_type = 49,
+		antisub_growth = 0,
+		air_growth = 0,
+		antisub = 0,
+		friendly_cld = 0,
+		durability = 99999,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		bubble_interval = 0,
+		speed = 15,
+		armor = 0,
+		id = 347,
+		scale = 150,
+		drop_id = 0,
+		wave_fx = "movewave",
+		prefab = "aijiangDD",
+		cannon_growth = 0,
+		pilot_ai_template_id = 20001,
+		reload = 150,
+		bubble_fx = "",
+		dodge = 0,
+		bubble_initial = 0,
+		reload_growth = 0,
+		remarks = "敌人模板",
+		hit = 0,
+		torpedo = 0,
+		durability_growth = 0,
+		luck_growth = 0,
+		hit_growth = 0,
+		armor_type = 1,
+		cld_box = {
+			5.5,
+			7.5,
+			10
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.99,
+					0.98,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.15,
+					0.1,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.73,
+					0.85,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.57,
+							2.46,
+							0
+						}
+					}
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		specific_fx_scale = {},
+		appear_fx = {},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		hp_bar = {
+			150,
+			4
+		},
+		equipment_list = {}
+	},
+	[348] = {
+		cannon = 0,
+		name = "Chun-chun",
+		antiaircraft_growth = 0,
+		speed_growth = 0,
+		luck = 0,
+		air = 0,
+		nationality = 2,
+		icon_type = 1,
+		type = 1,
+		rarity = 0,
+		antiaircraft = 0,
+		dodge_growth = 0,
+		icon = "mingyunnvshen",
+		star = 0,
+		battle_unit_type = 49,
+		antisub_growth = 0,
+		air_growth = 0,
+		antisub = 0,
+		friendly_cld = 0,
+		durability = 99999,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		bubble_interval = 0,
+		speed = 18,
+		armor = 0,
+		id = 348,
+		scale = 150,
+		drop_id = 0,
+		wave_fx = "movewave",
+		prefab = "mingyunnvshen",
+		cannon_growth = 0,
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		bubble_fx = "",
+		dodge = 0,
+		bubble_initial = 0,
+		reload_growth = 0,
+		remarks = "敌人模板",
+		hit = 0,
+		torpedo = 0,
+		durability_growth = 0,
+		luck_growth = 0,
+		hit_growth = 0,
+		armor_type = 1,
+		cld_box = {
+			5.5,
+			7.5,
+			10
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			cannon = {
+				{
+					-0.129,
+					0.726,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.651,
+					0.537,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					-0.129,
+					0.726,
+					0
+				},
+				{
+					0.703,
+					0.514,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-0.655,
+							0.35,
+							0
+						}
+					}
+				}
+			},
+			{
+				30,
+				{
+					{
+						"smoke",
+						{
+							0.456,
+							0.371,
+							0
+						}
+					}
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		specific_fx_scale = {},
+		appear_fx = {},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		hp_bar = {
+			150,
+			4
+		},
+		equipment_list = {}
+	},
+	[349] = {
+		cannon = 0,
+		name = "Takao-chan",
+		antiaircraft_growth = 0,
+		speed_growth = 0,
+		luck = 0,
+		air = 0,
+		nationality = 3,
+		icon_type = 3,
+		type = 3,
+		rarity = 0,
+		antiaircraft = 0,
+		dodge_growth = 0,
+		icon = "gaoxiong_h",
+		star = 0,
+		battle_unit_type = 49,
+		antisub_growth = 0,
+		air_growth = 0,
+		antisub = 0,
+		friendly_cld = 0,
+		durability = 99999,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		bubble_interval = 0,
+		speed = 18,
+		armor = 0,
+		id = 349,
+		scale = 150,
+		drop_id = 10014,
+		wave_fx = "movewave",
+		prefab = "gaoxiong_h",
+		cannon_growth = 0,
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		bubble_fx = "",
+		dodge = 0,
+		bubble_initial = 0,
+		reload_growth = 0,
+		remarks = "敌人模板",
+		hit = 0,
+		torpedo = 0,
+		durability_growth = 0,
+		luck_growth = 0,
+		hit_growth = 0,
+		armor_type = 2,
+		cld_box = {
+			5.5,
+			7.5,
+			10
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.36,
+					0.18,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.36,
+					0.18,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.16,
+					-0.23,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.36,
+					0.18,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							0.43,
+							-0.01,
+							-0.14
+						}
+					}
+				}
+			},
+			{
+				30,
+				{
+					{
+						"smoke",
+						{
+							-0.56,
+							1.72,
+							-1.31
+						}
+					}
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		specific_fx_scale = {},
+		appear_fx = {},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		hp_bar = {
+			150,
+			4
+		},
+		equipment_list = {}
+	},
+	[350] = {
+		cannon = 0,
+		name = "Prinz-chan",
+		antiaircraft_growth = 0,
+		speed_growth = 0,
+		luck = 0,
+		air = 0,
+		nationality = 4,
+		icon_type = 3,
+		type = 3,
+		rarity = 0,
+		antiaircraft = 0,
+		dodge_growth = 0,
+		icon = "ougen_h",
+		star = 0,
+		battle_unit_type = 49,
+		antisub_growth = 0,
+		air_growth = 0,
+		antisub = 0,
+		friendly_cld = 0,
+		durability = 99999,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		bubble_interval = 0,
+		speed = 15,
+		armor = 0,
+		id = 350,
+		scale = 150,
+		drop_id = 0,
+		wave_fx = "movewave",
+		prefab = "ougen_h",
+		cannon_growth = 0,
+		pilot_ai_template_id = 20001,
+		reload = 150,
+		bubble_fx = "",
+		dodge = 0,
+		bubble_initial = 0,
+		reload_growth = 0,
+		remarks = "敌人模板",
+		hit = 0,
+		torpedo = 0,
+		durability_growth = 0,
+		luck_growth = 0,
+		hit_growth = 0,
+		armor_type = 2,
+		cld_box = {
+			5.5,
+			7.5,
+			10
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.42,
+					0.73,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.3,
+					0.09,
+					0
+				}
+			},
+			torpedo = {
+				{
+					1.42,
+					0.73,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.42,
+					0.73,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-0.531,
+							0.427,
+							0
+						}
+					}
+				}
+			},
+			{
+				30,
+				{
+					{
+						"smoke",
+						{
+							0.711,
+							0.361,
+							0
+						}
+					}
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		specific_fx_scale = {},
+		appear_fx = {},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		hp_bar = {
+			150,
+			4
+		},
+		equipment_list = {}
+	},
+	[351] = {
+		cannon = 0,
+		name = "Shou-chan",
+		antiaircraft_growth = 0,
+		speed_growth = 0,
+		luck = 0,
+		air = 0,
+		nationality = 3,
+		icon_type = 7,
+		type = 7,
+		rarity = 0,
+		antiaircraft = 0,
+		dodge_growth = 0,
+		icon = "xianghe",
+		star = 0,
+		battle_unit_type = 49,
+		antisub_growth = 0,
+		air_growth = 0,
+		antisub = 0,
+		friendly_cld = 0,
+		durability = 99999,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		bubble_interval = 0,
+		speed = 15,
+		armor = 0,
+		id = 351,
+		scale = 150,
+		drop_id = 0,
+		wave_fx = "movewave",
+		prefab = "xianghe",
+		cannon_growth = 0,
+		pilot_ai_template_id = 20001,
+		reload = 150,
+		bubble_fx = "",
+		dodge = 0,
+		bubble_initial = 0,
+		reload_growth = 0,
+		remarks = "敌人模板",
+		hit = 0,
+		torpedo = 0,
+		durability_growth = 0,
+		luck_growth = 0,
+		hit_growth = 0,
+		armor_type = 2,
+		cld_box = {
+			5.5,
+			7.5,
+			10
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			cannon = {
+				{
+					-1.19,
+					1.31,
+					0
+				}
+			},
+			plane = {
+				{
+					0.62,
+					1.13,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.64,
+							2.22,
+							0
+						}
+					}
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		specific_fx_scale = {},
+		appear_fx = {},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		hp_bar = {
+			150,
+			4
+		},
+		equipment_list = {}
+	},
+	[352] = {
+		cannon = 0,
+		name = "Kizuna AI Clone ",
+		antiaircraft_growth = 0,
+		speed_growth = 0,
+		luck = 0,
+		air = 0,
+		nationality = 3,
+		icon_type = 3,
+		type = 3,
+		rarity = 0,
+		antiaircraft = 0,
+		dodge_growth = 0,
+		icon = "aijiangCL",
+		star = 0,
+		battle_unit_type = 49,
+		antisub_growth = 0,
+		air_growth = 0,
+		antisub = 0,
+		friendly_cld = 0,
+		durability = 99999,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		bubble_interval = 0,
+		speed = 15,
+		armor = 0,
+		id = 352,
+		scale = 150,
+		drop_id = 0,
+		wave_fx = "movewave",
+		prefab = "aijiangCL",
+		cannon_growth = 0,
+		pilot_ai_template_id = 20001,
+		reload = 150,
+		bubble_fx = "",
+		dodge = 0,
+		bubble_initial = 0,
+		reload_growth = 0,
+		remarks = "敌人模板",
+		hit = 0,
+		torpedo = 0,
+		durability_growth = 0,
+		luck_growth = 0,
+		hit_growth = 0,
+		armor_type = 2,
+		cld_box = {
+			5.5,
+			7.5,
+			10
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.99,
+					0.98,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.15,
+					0.1,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.73,
+					0.85,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.57,
+							2.46,
+							0
+						}
+					}
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		specific_fx_scale = {},
+		appear_fx = {},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		hp_bar = {
+			150,
+			4
+		},
+		equipment_list = {}
+	},
+	[353] = {
+		cannon = 0,
+		name = "Kizuna AI Clone ",
+		antiaircraft_growth = 0,
+		speed_growth = 0,
+		luck = 0,
+		air = 0,
+		nationality = 3,
+		icon_type = 5,
+		type = 5,
+		rarity = 0,
+		antiaircraft = 0,
+		dodge_growth = 0,
+		icon = "aijiangBB",
+		star = 0,
+		battle_unit_type = 49,
+		antisub_growth = 0,
+		air_growth = 0,
+		antisub = 0,
+		friendly_cld = 0,
+		durability = 99999,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		bubble_interval = 0,
+		speed = 15,
+		armor = 0,
+		id = 353,
+		scale = 150,
+		drop_id = 0,
+		wave_fx = "movewave",
+		prefab = "aijiangBB",
+		cannon_growth = 0,
+		pilot_ai_template_id = 20001,
+		reload = 150,
+		bubble_fx = "",
+		dodge = 0,
+		bubble_initial = 0,
+		reload_growth = 0,
+		remarks = "敌人模板",
+		hit = 0,
+		torpedo = 0,
+		durability_growth = 0,
+		luck_growth = 0,
+		hit_growth = 0,
+		armor_type = 3,
+		cld_box = {
+			5.5,
+			7.5,
+			10
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.99,
+					0.98,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.15,
+					0.1,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.73,
+					0.85,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.57,
+							2.46,
+							0
+						}
+					}
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		specific_fx_scale = {},
+		appear_fx = {},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		hp_bar = {
+			150,
+			4
+		},
+		equipment_list = {}
+	},
+	[354] = {
+		cannon = 0,
+		name = "Kizuna AI Clone ",
+		antiaircraft_growth = 0,
+		speed_growth = 0,
+		luck = 0,
+		air = 0,
+		nationality = 3,
+		icon_type = 7,
+		type = 7,
+		rarity = 0,
+		antiaircraft = 0,
+		dodge_growth = 0,
+		icon = "aijiangCV",
+		star = 0,
+		battle_unit_type = 49,
+		antisub_growth = 0,
+		air_growth = 0,
+		antisub = 0,
+		friendly_cld = 0,
+		durability = 99999,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		bubble_interval = 0,
+		speed = 15,
+		armor = 0,
+		id = 354,
+		scale = 150,
+		drop_id = 0,
+		wave_fx = "movewave",
+		prefab = "aijiangCV",
+		cannon_growth = 0,
+		pilot_ai_template_id = 20001,
+		reload = 150,
+		bubble_fx = "",
+		dodge = 0,
+		bubble_initial = 0,
+		reload_growth = 0,
+		remarks = "敌人模板",
+		hit = 0,
+		torpedo = 0,
+		durability_growth = 0,
+		luck_growth = 0,
+		hit_growth = 0,
+		armor_type = 2,
+		cld_box = {
+			5.5,
+			7.5,
+			10
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.99,
+					0.98,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.15,
+					0.1,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.73,
+					0.85,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.57,
+							2.46,
+							0
+						}
+					}
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		specific_fx_scale = {},
+		appear_fx = {},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		hp_bar = {
+			150,
+			4
+		},
+		equipment_list = {}
+	},
+	[355] = {
+		cannon = 0,
+		name = "Giant Kizuna AI ",
+		antiaircraft_growth = 0,
+		speed_growth = 0,
+		luck = 0,
+		air = 0,
+		nationality = 3,
+		icon_type = 1,
+		type = 1,
+		rarity = 0,
+		antiaircraft = 0,
+		dodge_growth = 0,
+		icon = "aijiangDD",
+		star = 0,
+		battle_unit_type = 49,
+		antisub_growth = 0,
+		air_growth = 0,
+		antisub = 0,
+		friendly_cld = 0,
+		durability = 99999,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		bubble_interval = 0,
+		speed = 15,
+		armor = 0,
+		id = 355,
+		scale = 150,
+		drop_id = 0,
+		wave_fx = "movewave",
+		prefab = "aijiangDD",
+		cannon_growth = 0,
+		pilot_ai_template_id = 20001,
+		reload = 150,
+		bubble_fx = "",
+		dodge = 0,
+		bubble_initial = 0,
+		reload_growth = 0,
+		remarks = "敌人模板",
+		hit = 0,
+		torpedo = 0,
+		durability_growth = 0,
+		luck_growth = 0,
+		hit_growth = 0,
+		armor_type = 1,
+		cld_box = {
+			5.5,
+			7.5,
+			10
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.99,
+					0.98,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.15,
+					0.1,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.73,
+					0.85,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.57,
+							2.46,
+							0
+						}
+					}
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		specific_fx_scale = {},
+		appear_fx = {},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		hp_bar = {
+			150,
+			4
+		},
+		equipment_list = {}
+	},
+	[356] = {
+		cannon = 0,
+		name = "Kizuna AI Clone ",
+		antiaircraft_growth = 0,
+		speed_growth = 0,
+		luck = 0,
+		air = 0,
+		nationality = 3,
+		icon_type = 1,
+		type = 1,
+		rarity = 0,
+		antiaircraft = 0,
+		dodge_growth = 0,
+		icon = "aijiangDD",
+		star = 0,
+		battle_unit_type = 49,
+		antisub_growth = 0,
+		air_growth = 0,
+		antisub = 0,
+		friendly_cld = 0,
+		durability = 99999,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		bubble_interval = 0,
+		speed = 15,
+		armor = 0,
+		id = 356,
+		scale = 150,
+		drop_id = 0,
+		wave_fx = "movewave",
+		prefab = "aijiangDD",
+		cannon_growth = 0,
+		pilot_ai_template_id = 20001,
+		reload = 150,
+		bubble_fx = "",
+		dodge = 0,
+		bubble_initial = 0,
+		reload_growth = 0,
+		remarks = "敌人模板",
+		hit = 0,
+		torpedo = 0,
+		durability_growth = 0,
+		luck_growth = 0,
+		hit_growth = 0,
+		armor_type = 1,
+		cld_box = {
+			5.5,
+			7.5,
+			10
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.99,
+					0.98,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.15,
+					0.1,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.73,
+					0.85,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.57,
+							2.46,
+							0
+						}
+					}
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		specific_fx_scale = {},
+		appear_fx = {},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		hp_bar = {
+			150,
+			4
+		},
+		equipment_list = {}
+	},
+	[357] = {
+		cannon = 0,
+		name = "Kizuna AI Clone ",
+		antiaircraft_growth = 0,
+		speed_growth = 0,
+		luck = 0,
+		air = 0,
+		nationality = 3,
+		icon_type = 2,
+		type = 2,
+		rarity = 0,
+		antiaircraft = 0,
+		dodge_growth = 0,
+		icon = "aijiangDD",
+		star = 0,
+		battle_unit_type = 49,
+		antisub_growth = 0,
+		air_growth = 0,
+		antisub = 0,
+		friendly_cld = 0,
+		durability = 99999,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		bubble_interval = 0,
+		speed = 15,
+		armor = 0,
+		id = 357,
+		scale = 150,
+		drop_id = 0,
+		wave_fx = "movewave",
+		prefab = "aijiangDD",
+		cannon_growth = 0,
+		pilot_ai_template_id = 20001,
+		reload = 150,
+		bubble_fx = "",
+		dodge = 0,
+		bubble_initial = 0,
+		reload_growth = 0,
+		remarks = "敌人模板",
+		hit = 0,
+		torpedo = 0,
+		durability_growth = 0,
+		luck_growth = 0,
+		hit_growth = 0,
+		armor_type = 1,
+		cld_box = {
+			5.5,
+			7.5,
+			10
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.99,
+					0.98,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.15,
+					0.1,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.73,
+					0.85,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.57,
+							2.46,
+							0
+						}
+					}
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		specific_fx_scale = {},
+		appear_fx = {},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		hp_bar = {
+			150,
+			4
+		},
+		equipment_list = {}
+	},
+	[358] = {
+		cannon = 0,
+		name = "Kizuna AI Clone ",
+		antiaircraft_growth = 0,
+		speed_growth = 0,
+		luck = 0,
+		air = 0,
+		nationality = 3,
+		icon_type = 5,
+		type = 5,
+		rarity = 0,
+		antiaircraft = 0,
+		dodge_growth = 0,
+		icon = "aijiangDD",
+		star = 0,
+		battle_unit_type = 49,
+		antisub_growth = 0,
+		air_growth = 0,
+		antisub = 0,
+		friendly_cld = 0,
+		durability = 99999,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		bubble_interval = 0,
+		speed = 15,
+		armor = 0,
+		id = 358,
+		scale = 150,
+		drop_id = 0,
+		wave_fx = "movewave",
+		prefab = "aijiangDD",
+		cannon_growth = 0,
+		pilot_ai_template_id = 20001,
+		reload = 150,
+		bubble_fx = "",
+		dodge = 0,
+		bubble_initial = 0,
+		reload_growth = 0,
+		remarks = "敌人模板",
+		hit = 0,
+		torpedo = 0,
+		durability_growth = 0,
+		luck_growth = 0,
+		hit_growth = 0,
+		armor_type = 3,
+		cld_box = {
+			5.5,
+			7.5,
+			10
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.99,
+					0.98,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.15,
+					0.1,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.73,
+					0.85,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.57,
+							2.46,
+							0
+						}
+					}
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		specific_fx_scale = {},
+		appear_fx = {},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		hp_bar = {
+			150,
+			4
+		},
+		equipment_list = {}
+	},
+	[359] = {
+		cannon = 0,
+		name = "Kizuna AI Clone ",
+		antiaircraft_growth = 0,
+		speed_growth = 0,
+		luck = 0,
+		air = 0,
+		nationality = 3,
+		icon_type = 7,
+		type = 7,
+		rarity = 0,
+		antiaircraft = 0,
+		dodge_growth = 0,
+		icon = "aijiangDD",
+		star = 0,
+		battle_unit_type = 49,
+		antisub_growth = 0,
+		air_growth = 0,
+		antisub = 0,
+		friendly_cld = 0,
+		durability = 99999,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		bubble_interval = 0,
+		speed = 15,
+		armor = 0,
+		id = 359,
+		scale = 150,
+		drop_id = 0,
+		wave_fx = "movewave",
+		prefab = "aijiangDD",
+		cannon_growth = 0,
+		pilot_ai_template_id = 20001,
+		reload = 150,
+		bubble_fx = "",
+		dodge = 0,
+		bubble_initial = 0,
+		reload_growth = 0,
+		remarks = "敌人模板",
+		hit = 0,
+		torpedo = 0,
+		durability_growth = 0,
+		luck_growth = 0,
+		hit_growth = 0,
+		armor_type = 2,
+		cld_box = {
+			5.5,
+			7.5,
+			10
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.99,
+					0.98,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.15,
+					0.1,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.73,
+					0.85,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.57,
+							2.46,
+							0
+						}
+					}
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		specific_fx_scale = {},
+		appear_fx = {},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		hp_bar = {
+			150,
+			4
+		},
+		equipment_list = {}
+	},
+	[360] = {
+		cannon = 0,
+		name = "Kizuna AI",
+		antiaircraft_growth = 0,
+		speed_growth = 0,
+		luck = 0,
+		air = 0,
+		nationality = 3,
+		icon_type = 1,
+		type = 1,
+		rarity = 0,
+		antiaircraft = 0,
+		dodge_growth = 0,
+		icon = "aijiangDD",
+		star = 0,
+		battle_unit_type = 49,
+		antisub_growth = 0,
+		air_growth = 0,
+		antisub = 0,
+		friendly_cld = 0,
+		durability = 99999,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		bubble_interval = 0,
+		speed = 15,
+		armor = 0,
+		id = 360,
+		scale = 150,
+		drop_id = 0,
+		wave_fx = "movewave",
+		prefab = "aijiangDD",
+		cannon_growth = 0,
+		pilot_ai_template_id = 20001,
+		reload = 150,
+		bubble_fx = "",
+		dodge = 0,
+		bubble_initial = 0,
+		reload_growth = 0,
+		remarks = "敌人模板",
+		hit = 0,
+		torpedo = 0,
+		durability_growth = 0,
+		luck_growth = 0,
+		hit_growth = 0,
+		armor_type = 1,
+		cld_box = {
+			5.5,
+			7.5,
+			10
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.99,
+					0.98,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.15,
+					0.1,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.73,
+					0.85,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.57,
+							2.46,
+							0
+						}
+					}
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		specific_fx_scale = {},
+		appear_fx = {},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		hp_bar = {
+			150,
+			4
+		},
+		equipment_list = {}
+	},
 	[400] = {
 		cannon = 6,
 		name = "Nameless Demon",
@@ -38271,6 +40669,303 @@ pg.enemy_data_statistics = {
 			4
 		},
 		equipment_list = {}
+	},
+	[901] = {
+		cannon = 10,
+		name = "Destroyer: Pawn",
+		air = 0,
+		remarks = "天运拟合用",
+		pilot_ai_template_id = 20005,
+		reload = 150,
+		armor = 0,
+		dodge = 0,
+		armor_type = 1,
+		id = 901,
+		speed = 15,
+		bubble_fx = "",
+		bubble_initial = 0,
+		bubble_interval = 0,
+		hit = 0,
+		torpedo = 30,
+		base = 123,
+		durability = 1200,
+		antiaircraft = 0,
+		battle_unit_type = 1,
+		luck = 0,
+		antisub = 0,
+		equipment_list = {
+			473001,
+			473002,
+			473003
+		}
+	},
+	[902] = {
+		cannon = 10,
+		name = "Light Cruiser: Knight",
+		air = 0,
+		remarks = "天运拟合用",
+		pilot_ai_template_id = 20005,
+		reload = 150,
+		armor = 0,
+		dodge = 0,
+		armor_type = 1,
+		id = 902,
+		speed = 15,
+		bubble_fx = "",
+		bubble_initial = 0,
+		bubble_interval = 0,
+		hit = 0,
+		torpedo = 20,
+		base = 124,
+		durability = 3000,
+		antiaircraft = 0,
+		battle_unit_type = 2,
+		luck = 0,
+		antisub = 0,
+		equipment_list = {
+			473011,
+			473012
+		}
+	},
+	[903] = {
+		cannon = 20,
+		name = "Heavy Cruiser: Bishop",
+		air = 0,
+		remarks = "天运拟合用",
+		pilot_ai_template_id = 20004,
+		reload = 150,
+		armor = 0,
+		dodge = 0,
+		armor_type = 2,
+		id = 903,
+		speed = 15,
+		bubble_fx = "",
+		bubble_initial = 0,
+		bubble_interval = 0,
+		hit = 0,
+		torpedo = 20,
+		base = 125,
+		durability = 4000,
+		antiaircraft = 0,
+		battle_unit_type = 3,
+		luck = 0,
+		antisub = 0,
+		equipment_list = {
+			473021,
+			473022,
+			473023
+		}
+	},
+	[904] = {
+		cannon = 30,
+		name = "Battleship: Rook",
+		air = 0,
+		remarks = "天运拟合用",
+		pilot_ai_template_id = 20004,
+		reload = 150,
+		armor = 0,
+		dodge = 0,
+		armor_type = 3,
+		id = 904,
+		speed = 15,
+		bubble_fx = "",
+		bubble_initial = 0,
+		bubble_interval = 0,
+		hit = 0,
+		torpedo = 0,
+		base = 126,
+		durability = 6000,
+		antiaircraft = 0,
+		battle_unit_type = 4,
+		luck = 0,
+		antisub = 0,
+		equipment_list = {
+			473031,
+			473032,
+			473033
+		}
+	},
+	[905] = {
+		cannon = 0,
+		name = "Carrier: Queen",
+		air = 50,
+		remarks = "天运拟合用",
+		pilot_ai_template_id = 20004,
+		reload = 150,
+		armor = 0,
+		dodge = 0,
+		armor_type = 2,
+		id = 905,
+		speed = 15,
+		bubble_fx = "",
+		bubble_initial = 0,
+		bubble_interval = 0,
+		hit = 0,
+		torpedo = 0,
+		base = 127,
+		durability = 5000,
+		antiaircraft = 0,
+		battle_unit_type = 4,
+		luck = 0,
+		antisub = 0,
+		equipment_list = {
+			473041,
+			473042,
+			473043,
+			473044
+		}
+	},
+	[911] = {
+		cannon = 10,
+		name = "Explorer Ⅰ",
+		air = 0,
+		remarks = "天运拟合用",
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		armor = 0,
+		dodge = 0,
+		armor_type = 1,
+		id = 911,
+		speed = 20,
+		bubble_fx = "",
+		bubble_initial = 0,
+		bubble_interval = 0,
+		hit = 0,
+		torpedo = 40,
+		base = 248,
+		durability = 3200,
+		antiaircraft = 0,
+		battle_unit_type = 51,
+		luck = 0,
+		antisub = 0,
+		equipment_list = {
+			531001,
+			531002,
+			531003,
+			531004
+		}
+	},
+	[912] = {
+		cannon = 10,
+		name = "Tracker Ⅰ",
+		air = 0,
+		remarks = "天运拟合用",
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		armor = 0,
+		dodge = 0,
+		armor_type = 1,
+		id = 912,
+		speed = 20,
+		bubble_fx = "",
+		bubble_initial = 0,
+		bubble_interval = 0,
+		hit = 0,
+		torpedo = 30,
+		base = 249,
+		durability = 4400,
+		antiaircraft = 0,
+		battle_unit_type = 52,
+		luck = 0,
+		antisub = 0,
+		equipment_list = {
+			531005,
+			531006,
+			531007,
+			531008
+		}
+	},
+	[913] = {
+		cannon = 20,
+		name = "Oceana Ⅰ",
+		air = 0,
+		remarks = "天运拟合用",
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		armor = 0,
+		dodge = 0,
+		armor_type = 2,
+		id = 913,
+		speed = 20,
+		bubble_fx = "",
+		bubble_initial = 0,
+		bubble_interval = 0,
+		hit = 0,
+		torpedo = 30,
+		base = 250,
+		durability = 10000,
+		antiaircraft = 0,
+		battle_unit_type = 53,
+		luck = 0,
+		antisub = 0,
+		equipment_list = {
+			531009,
+			531010,
+			531011,
+			531012
+		}
+	},
+	[914] = {
+		cannon = 40,
+		name = "Peace Breaker Ⅰ",
+		air = 0,
+		remarks = "天运拟合用",
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		armor = 0,
+		dodge = 0,
+		armor_type = 3,
+		id = 914,
+		speed = 20,
+		bubble_fx = "",
+		bubble_initial = 0,
+		bubble_interval = 0,
+		hit = 0,
+		torpedo = 0,
+		base = 251,
+		durability = 30000,
+		antiaircraft = 0,
+		battle_unit_type = 54,
+		luck = 0,
+		antisub = 0,
+		equipment_list = {
+			531013,
+			531014,
+			531015,
+			531016,
+			531017
+		}
+	},
+	[915] = {
+		cannon = 0,
+		name = "Strategist Ⅰ",
+		air = 60,
+		remarks = "天运拟合用",
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		armor = 0,
+		dodge = 0,
+		armor_type = 2,
+		id = 915,
+		speed = 20,
+		bubble_fx = "",
+		bubble_initial = 0,
+		bubble_interval = 0,
+		hit = 0,
+		torpedo = 0,
+		base = 252,
+		durability = 20000,
+		antiaircraft = 0,
+		battle_unit_type = 54,
+		luck = 0,
+		antisub = 0,
+		equipment_list = {
+			531018,
+			531019,
+			531020,
+			531021,
+			531022
+		}
 	},
 	[1000] = {
 		cannon = 3,
@@ -105345,6 +108040,7 @@ pg.enemy_data_statistics = {
 		specific_fx_scale = {},
 		equipment_list = {
 			513041,
+			513042,
 			513043
 		}
 	},
@@ -105386,6 +108082,7 @@ pg.enemy_data_statistics = {
 		specific_fx_scale = {},
 		equipment_list = {
 			513044,
+			513045,
 			513046
 		}
 	},
@@ -105427,6 +108124,7 @@ pg.enemy_data_statistics = {
 		specific_fx_scale = {},
 		equipment_list = {
 			513047,
+			513048,
 			513049
 		}
 	},
@@ -119032,9 +121730,9 @@ pg.enemy_data_statistics = {
 		luck_growth = 0,
 		antiaircraft_growth = 1200,
 		equipment_list = {
-			470031,
-			470032,
-			470033
+			531033,
+			531034,
+			531035
 		},
 		appear_fx = {
 			"appearQ"
@@ -119632,9 +122330,9 @@ pg.enemy_data_statistics = {
 		luck_growth = 0,
 		antiaircraft_growth = 1200,
 		equipment_list = {
-			470031,
-			470032,
-			470033
+			531033,
+			531034,
+			531035
 		},
 		appear_fx = {
 			"appearQ"
@@ -120232,9 +122930,9 @@ pg.enemy_data_statistics = {
 		luck_growth = 0,
 		antiaircraft_growth = 1200,
 		equipment_list = {
-			471031,
-			471032,
-			471033
+			531033,
+			531034,
+			531035
 		},
 		appear_fx = {
 			"appearQ"
@@ -120789,9 +123487,9 @@ pg.enemy_data_statistics = {
 		luck_growth = 0,
 		antiaircraft_growth = 1200,
 		equipment_list = {
-			470031,
-			470032,
-			470033
+			531033,
+			531034,
+			531035
 		},
 		appear_fx = {
 			"appearQ"
@@ -121637,9 +124335,9 @@ pg.enemy_data_statistics = {
 		luck_growth = 0,
 		antiaircraft_growth = 1200,
 		equipment_list = {
-			470031,
-			470032,
-			470033
+			531033,
+			531034,
+			531035
 		},
 		appear_fx = {
 			"appearQ"
@@ -122488,9 +125186,9 @@ pg.enemy_data_statistics = {
 		luck_growth = 0,
 		antiaircraft_growth = 1200,
 		equipment_list = {
-			470031,
-			470032,
-			470033
+			531033,
+			531034,
+			531035
 		},
 		appear_fx = {
 			"appearQ"
@@ -123336,9 +126034,9 @@ pg.enemy_data_statistics = {
 		luck_growth = 0,
 		antiaircraft_growth = 1200,
 		equipment_list = {
-			470031,
-			470032,
-			470033
+			531033,
+			531034,
+			531035
 		},
 		appear_fx = {
 			"appearQ"
@@ -124185,9 +126883,9 @@ pg.enemy_data_statistics = {
 		luck_growth = 0,
 		antiaircraft_growth = 1400,
 		equipment_list = {
-			470031,
-			470032,
-			470033
+			531033,
+			531034,
+			531035
 		},
 		appear_fx = {
 			"appearQ"
@@ -125321,9 +128019,9 @@ pg.enemy_data_statistics = {
 		antiaircraft_growth = 1200,
 		specific_fx_scale = {},
 		equipment_list = {
-			470031,
-			470032,
-			470033
+			531033,
+			531034,
+			531035
 		}
 	},
 	[10101005] = {
@@ -126237,9 +128935,9 @@ pg.enemy_data_statistics = {
 		antiaircraft_growth = 1200,
 		specific_fx_scale = {},
 		equipment_list = {
-			471031,
-			471032,
-			471033
+			531033,
+			531034,
+			531035
 		}
 	},
 	[10102005] = {
@@ -127265,9 +129963,9 @@ pg.enemy_data_statistics = {
 		antiaircraft_growth = 1400,
 		specific_fx_scale = {},
 		equipment_list = {
-			472031,
-			472032,
-			472033
+			531033,
+			531034,
+			531035
 		}
 	},
 	[10103005] = {
@@ -128181,9 +130879,9 @@ pg.enemy_data_statistics = {
 		antiaircraft_growth = 1400,
 		specific_fx_scale = {},
 		equipment_list = {
-			473031,
-			473032,
-			473033
+			531033,
+			531034,
+			531035
 		}
 	},
 	[10104005] = {
@@ -129209,9 +131907,9 @@ pg.enemy_data_statistics = {
 		antiaircraft_growth = 1400,
 		specific_fx_scale = {},
 		equipment_list = {
-			473031,
-			473032,
-			473033
+			531033,
+			531034,
+			531035
 		}
 	},
 	[10105005] = {
@@ -152896,6 +155594,3568 @@ pg.enemy_data_statistics = {
 			608034
 		}
 	},
+	[12100101] = {
+		cannon = 5,
+		battle_unit_type = 25,
+		antiaircraft = 25,
+		speed_growth = 0,
+		drop_id = 10001,
+		air = 0,
+		armor = 0,
+		air_growth = 0,
+		hit_growth = 144,
+		antisub = 0,
+		bubble_fx = "",
+		bubble_initial = 0,
+		dodge_growth = 0,
+		remarks = "【绊爱联动SP1】阳炎级量产型",
+		star = 2,
+		antisub_growth = 0,
+		rarity = 1,
+		base = 135,
+		durability = 105,
+		armor_growth = 0,
+		torpedo_growth = 3000,
+		bubble_interval = 0,
+		speed = 15,
+		luck = 0,
+		id = 12100101,
+		cannon_growth = 300,
+		pilot_ai_template_id = 20005,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 10,
+		torpedo = 27,
+		durability_growth = 4000,
+		luck_growth = 0,
+		antiaircraft_growth = 800,
+		appear_fx = {
+			"appearsmall"
+		},
+		specific_fx_scale = {},
+		equipment_list = {
+			1100100,
+			1100496
+		}
+	},
+	[12100102] = {
+		cannon = 12,
+		luck = 0,
+		luck_growth = 0,
+		speed_growth = 0,
+		air_growth = 0,
+		air = 0,
+		battle_unit_type = 35,
+		hit_growth = 144,
+		antisub = 0,
+		bubble_fx = "",
+		bubble_initial = 0,
+		remarks = "【绊爱联动SP1】妙高级量产型",
+		dodge_growth = 0,
+		star = 2,
+		antisub_growth = 0,
+		rarity = 2,
+		base = 136,
+		durability = 270,
+		armor_growth = 0,
+		torpedo_growth = 1200,
+		bubble_interval = 0,
+		speed = 15,
+		armor = 0,
+		id = 12100102,
+		cannon_growth = 1500,
+		pilot_ai_template_id = 20005,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 10,
+		torpedo = 15,
+		durability_growth = 16000,
+		antiaircraft = 35,
+		antiaircraft_growth = 1000,
+		appear_fx = {},
+		specific_fx_scale = {},
+		equipment_list = {
+			1100040,
+			1100570,
+			1100455
+		}
+	},
+	[12100103] = {
+		cannon = 35,
+		luck = 0,
+		luck_growth = 0,
+		speed_growth = 0,
+		air_growth = 0,
+		air = 0,
+		battle_unit_type = 60,
+		hit_growth = 144,
+		antisub = 0,
+		bubble_fx = "",
+		bubble_initial = 0,
+		remarks = "【绊爱联动SP1】扶桑级量产型",
+		dodge_growth = 0,
+		star = 2,
+		antisub_growth = 0,
+		rarity = 2,
+		base = 137,
+		durability = 650,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		bubble_interval = 0,
+		speed = 15,
+		armor = 0,
+		id = 12100103,
+		cannon_growth = 2000,
+		pilot_ai_template_id = 20005,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 10,
+		torpedo = 0,
+		durability_growth = 33600,
+		antiaircraft = 40,
+		antiaircraft_growth = 1200,
+		appear_fx = {},
+		specific_fx_scale = {},
+		equipment_list = {
+			1100575,
+			100505
+		}
+	},
+	[12100104] = {
+		cannon = 0,
+		luck = 0,
+		luck_growth = 0,
+		speed_growth = 0,
+		air_growth = 0,
+		air = 0,
+		battle_unit_type = 20,
+		hit_growth = 120,
+		antisub = 0,
+		bubble_fx = "",
+		bubble_initial = 0,
+		remarks = "【绊爱联动SP1】物资船",
+		dodge_growth = 0,
+		star = 1,
+		antisub_growth = 0,
+		rarity = 1,
+		base = 90,
+		durability = 650,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		bubble_interval = 0,
+		speed = 30,
+		armor = 0,
+		id = 12100104,
+		cannon_growth = 0,
+		pilot_ai_template_id = 20001,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 8,
+		torpedo = 0,
+		durability_growth = 6800,
+		antiaircraft = 0,
+		antiaircraft_growth = 0,
+		appear_fx = {
+			"appearsmall"
+		},
+		specific_fx_scale = {},
+		equipment_list = {}
+	},
+	[12100105] = {
+		cannon = 0,
+		antisub = 0,
+		antiaircraft = 0,
+		speed_growth = 0,
+		battle_unit_type = 35,
+		air = 0,
+		armor = 0,
+		hit_growth = 120,
+		air_growth = 0,
+		bubble_fx = "",
+		bubble_initial = 0,
+		remarks = "【绊爱联动SP1】鱼雷艇",
+		dodge_growth = 0,
+		star = 1,
+		antisub_growth = 0,
+		rarity = 1,
+		base = 70,
+		durability = 250,
+		armor_growth = 0,
+		torpedo_growth = 864,
+		bubble_interval = 0,
+		speed = 15,
+		luck = 0,
+		id = 12100105,
+		wave_fx = "danchuanlanghuaxiao2",
+		cannon_growth = 0,
+		pilot_ai_template_id = 20001,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 8,
+		torpedo = 15,
+		durability_growth = 2550,
+		luck_growth = 0,
+		antiaircraft_growth = 0,
+		appear_fx = {
+			"appearsmall"
+		},
+		specific_fx_scale = {},
+		equipment_list = {
+			540100
+		}
+	},
+	[12100106] = {
+		cannon = 45,
+		luck = 0,
+		luck_growth = 0,
+		speed_growth = 0,
+		air_growth = 0,
+		air = 0,
+		battle_unit_type = 15,
+		hit_growth = 1200,
+		antisub = 0,
+		bubble_fx = "",
+		bubble_initial = 0,
+		remarks = "【绊爱联动SP1】自爆船",
+		dodge_growth = 0,
+		star = 1,
+		antisub_growth = 0,
+		rarity = 1,
+		base = 138,
+		durability = 60,
+		armor_growth = 0,
+		torpedo_growth = 900,
+		bubble_interval = 0,
+		speed = 30,
+		armor = 0,
+		id = 12100106,
+		cannon_growth = 0,
+		pilot_ai_template_id = 80000,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 81,
+		torpedo = 85,
+		durability_growth = 2550,
+		antiaircraft = 0,
+		antiaircraft_growth = 0,
+		appear_fx = {
+			"appearsmall"
+		},
+		specific_fx_scale = {},
+		equipment_list = {
+			540101
+		}
+	},
+	[12100107] = {
+		cannon = 6,
+		luck_growth = 0,
+		air_growth = 0,
+		speed_growth = 0,
+		armor = 0,
+		air = 0,
+		hit_growth = 210,
+		drop_id = 10011,
+		antiaircraft_growth = 1638,
+		id = 12100107,
+		bubble_fx = "",
+		dodge_growth = 222,
+		bubble_initial = 0,
+		star = 5,
+		remarks = "【绊爱联动SP1】绊爱——驱逐",
+		antisub_growth = 0,
+		rarity = 5,
+		base = 356,
+		durability = 510,
+		armor_growth = 0,
+		torpedo_growth = 4491,
+		bubble_interval = 0,
+		speed = 33,
+		luck = 0,
+		antisub = 0,
+		cannon_growth = 468,
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		dodge = 15,
+		reload_growth = 0,
+		hit = 14,
+		torpedo = 54,
+		durability_growth = 18800,
+		antiaircraft = 20,
+		battle_unit_type = 50,
+		appear_fx = {
+			"appearQ"
+		},
+		specific_fx_scale = {},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-0.26,
+							0.686,
+							-0.081
+						}
+					}
+				}
+			},
+			{
+				40,
+				{
+					{
+						"smoke",
+						{
+							-0.46,
+							0.486,
+							-0.481
+						}
+					},
+					{
+						"smoke",
+						{
+							0.54,
+							0.486,
+							-0.481
+						}
+					}
+				}
+			}
+		},
+		equipment_list = {
+			1100055,
+			1100100,
+			1100165,
+			1100495
+		}
+	},
+	[12100108] = {
+		cannon = 20,
+		luck = 0,
+		luck_growth = 0,
+		speed_growth = 0,
+		air_growth = 0,
+		air = 0,
+		battle_unit_type = 55,
+		hit_growth = 210,
+		antisub = 0,
+		bubble_fx = "",
+		bubble_initial = 0,
+		remarks = "【绊爱联动SP1】绊爱——轻巡",
+		dodge_growth = 162,
+		star = 4,
+		antisub_growth = 0,
+		rarity = 4,
+		base = 357,
+		durability = 630,
+		armor_growth = 0,
+		torpedo_growth = 3366,
+		bubble_interval = 0,
+		speed = 25,
+		armor = 0,
+		id = 12100108,
+		cannon_growth = 936,
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		dodge = 11,
+		reload_growth = 0,
+		hit = 14,
+		torpedo = 27,
+		durability_growth = 23120,
+		antiaircraft = 28,
+		antiaircraft_growth = 3744,
+		appear_fx = {
+			"appearQ"
+		},
+		specific_fx_scale = {},
+		equipment_list = {
+			1100506,
+			1100100,
+			1100275
+		}
+	},
+	[12100109] = {
+		cannon = 31,
+		battle_unit_type = 65,
+		antiaircraft = 45,
+		speed_growth = 0,
+		drop_id = 10016,
+		air = 0,
+		armor = 0,
+		air_growth = 0,
+		hit_growth = 210,
+		antisub = 0,
+		bubble_fx = "",
+		bubble_initial = 0,
+		dodge_growth = 48,
+		remarks = "【绊爱联动SP1】绊爱——战列",
+		star = 4,
+		antisub_growth = 0,
+		rarity = 4,
+		base = 358,
+		durability = 1020,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		bubble_interval = 0,
+		speed = 18,
+		luck = 0,
+		id = 12100109,
+		cannon_growth = 2592,
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		dodge = 3,
+		reload_growth = 0,
+		hit = 18,
+		torpedo = 0,
+		durability_growth = 49600,
+		luck_growth = 0,
+		antiaircraft_growth = 3744,
+		appear_fx = {
+			"appearQ"
+		},
+		specific_fx_scale = {},
+		equipment_list = {
+			1100020,
+			1100626,
+			1100040,
+			1100730
+		}
+	},
+	[12100110] = {
+		cannon = 0,
+		luck = 0,
+		luck_growth = 0,
+		speed_growth = 0,
+		air_growth = 2574,
+		air = 31,
+		battle_unit_type = 60,
+		hit_growth = 210,
+		antisub = 0,
+		bubble_fx = "",
+		bubble_initial = 0,
+		remarks = "【绊爱联动SP1】绊爱——航母",
+		dodge_growth = 132,
+		star = 5,
+		antisub_growth = 0,
+		rarity = 4,
+		base = 359,
+		durability = 770,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		bubble_interval = 0,
+		speed = 22,
+		armor = 0,
+		id = 12100110,
+		cannon_growth = 0,
+		pilot_ai_template_id = 70054,
+		reload = 150,
+		dodge = 9,
+		reload_growth = 0,
+		hit = 14,
+		torpedo = 0,
+		durability_growth = 39200,
+		antiaircraft = 38,
+		antiaircraft_growth = 3168,
+		appear_fx = {
+			"bossguangxiao",
+			"appearQ"
+		},
+		specific_fx_scale = {},
+		equipment_list = {
+			1100021,
+			1100170,
+			1100796,
+			1100800,
+			1100805
+		}
+	},
+	[12100111] = {
+		cannon = 20,
+		luck = 0,
+		luck_growth = 0,
+		speed_growth = 0,
+		air_growth = 0,
+		air = 0,
+		battle_unit_type = 90,
+		hit_growth = 210,
+		antisub = 0,
+		bubble_fx = "",
+		bubble_initial = 0,
+		remarks = "【绊爱联动SP1】精英人形 绊爱",
+		dodge_growth = 270,
+		star = 3,
+		antisub_growth = 0,
+		rarity = 3,
+		base = 347,
+		durability = 1050,
+		armor_growth = 0,
+		torpedo_growth = 3000,
+		bubble_interval = 0,
+		speed = 20,
+		armor = 0,
+		id = 12100111,
+		cannon_growth = 1200,
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		dodge = 19,
+		reload_growth = 0,
+		hit = 14,
+		torpedo = 80,
+		durability_growth = 105600,
+		antiaircraft = 65,
+		antiaircraft_growth = 2800,
+		appear_fx = {
+			"appearQ"
+		},
+		specific_fx_scale = {},
+		equipment_list = {
+			1100010,
+			1100015,
+			1100375,
+			1100506
+		}
+	},
+	[12100121] = {
+		cannon = 85,
+		luck = 0,
+		luck_growth = 0,
+		speed_growth = 0,
+		air_growth = 0,
+		air = 0,
+		battle_unit_type = 95,
+		hit_growth = 210,
+		antisub = 0,
+		bubble_fx = "",
+		bubble_initial = 0,
+		remarks = "【绊爱联动SP1】BOSS-绊爱正装",
+		dodge_growth = 156,
+		star = 6,
+		antisub_growth = 0,
+		rarity = 6,
+		base = 352,
+		durability = 8200,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		bubble_interval = 0,
+		speed = 18,
+		armor = 0,
+		id = 12100121,
+		cannon_growth = 0,
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		dodge = 11,
+		reload_growth = 0,
+		hit = 14,
+		torpedo = 65,
+		durability_growth = 0,
+		antiaircraft = 115,
+		antiaircraft_growth = 0,
+		appear_fx = {
+			"bossguangxiao",
+			"appearQ"
+		},
+		specific_fx_scale = {},
+		equipment_list = {
+			609010,
+			609011,
+			609012,
+			609013,
+			609014
+		}
+	},
+	[12100201] = {
+		cannon = 5,
+		battle_unit_type = 25,
+		antiaircraft = 25,
+		speed_growth = 0,
+		drop_id = 10001,
+		air = 0,
+		armor = 0,
+		air_growth = 0,
+		hit_growth = 144,
+		antisub = 0,
+		bubble_fx = "",
+		bubble_initial = 0,
+		dodge_growth = 0,
+		remarks = "【绊爱联动SP2】阳炎级量产型",
+		star = 2,
+		antisub_growth = 0,
+		rarity = 1,
+		base = 135,
+		durability = 105,
+		armor_growth = 0,
+		torpedo_growth = 3000,
+		bubble_interval = 0,
+		speed = 15,
+		luck = 0,
+		id = 12100201,
+		cannon_growth = 300,
+		pilot_ai_template_id = 20005,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 10,
+		torpedo = 27,
+		durability_growth = 4000,
+		luck_growth = 0,
+		antiaircraft_growth = 800,
+		appear_fx = {
+			"appearsmall"
+		},
+		specific_fx_scale = {},
+		equipment_list = {
+			1100101,
+			1100496
+		}
+	},
+	[12100202] = {
+		cannon = 12,
+		luck = 0,
+		luck_growth = 0,
+		speed_growth = 0,
+		air_growth = 0,
+		air = 0,
+		battle_unit_type = 35,
+		hit_growth = 144,
+		antisub = 0,
+		bubble_fx = "",
+		bubble_initial = 0,
+		remarks = "【绊爱联动SP2】妙高级量产型",
+		dodge_growth = 0,
+		star = 2,
+		antisub_growth = 0,
+		rarity = 2,
+		base = 136,
+		durability = 270,
+		armor_growth = 0,
+		torpedo_growth = 1200,
+		bubble_interval = 0,
+		speed = 15,
+		armor = 0,
+		id = 12100202,
+		cannon_growth = 1500,
+		pilot_ai_template_id = 20005,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 10,
+		torpedo = 15,
+		durability_growth = 16000,
+		antiaircraft = 35,
+		antiaircraft_growth = 1000,
+		appear_fx = {},
+		specific_fx_scale = {},
+		equipment_list = {
+			1100041,
+			1100571,
+			1100456
+		}
+	},
+	[12100203] = {
+		cannon = 35,
+		luck = 0,
+		luck_growth = 0,
+		speed_growth = 0,
+		air_growth = 0,
+		air = 0,
+		battle_unit_type = 60,
+		hit_growth = 144,
+		antisub = 0,
+		bubble_fx = "",
+		bubble_initial = 0,
+		remarks = "【绊爱联动SP2】扶桑级量产型",
+		dodge_growth = 0,
+		star = 2,
+		antisub_growth = 0,
+		rarity = 2,
+		base = 137,
+		durability = 650,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		bubble_interval = 0,
+		speed = 15,
+		armor = 0,
+		id = 12100203,
+		cannon_growth = 2000,
+		pilot_ai_template_id = 20005,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 10,
+		torpedo = 0,
+		durability_growth = 33600,
+		antiaircraft = 40,
+		antiaircraft_growth = 1200,
+		appear_fx = {},
+		specific_fx_scale = {},
+		equipment_list = {
+			1100576,
+			100506
+		}
+	},
+	[12100204] = {
+		cannon = 0,
+		luck = 0,
+		luck_growth = 0,
+		speed_growth = 0,
+		air_growth = 0,
+		air = 0,
+		battle_unit_type = 20,
+		hit_growth = 120,
+		antisub = 0,
+		bubble_fx = "",
+		bubble_initial = 0,
+		remarks = "【绊爱联动SP2】物资船",
+		dodge_growth = 0,
+		star = 1,
+		antisub_growth = 0,
+		rarity = 1,
+		base = 90,
+		durability = 650,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		bubble_interval = 0,
+		speed = 30,
+		armor = 0,
+		id = 12100204,
+		cannon_growth = 0,
+		pilot_ai_template_id = 20001,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 8,
+		torpedo = 0,
+		durability_growth = 6800,
+		antiaircraft = 0,
+		antiaircraft_growth = 0,
+		appear_fx = {
+			"appearsmall"
+		},
+		specific_fx_scale = {},
+		equipment_list = {}
+	},
+	[12100205] = {
+		cannon = 0,
+		antisub = 0,
+		antiaircraft = 0,
+		speed_growth = 0,
+		battle_unit_type = 35,
+		air = 0,
+		armor = 0,
+		hit_growth = 120,
+		air_growth = 0,
+		bubble_fx = "",
+		bubble_initial = 0,
+		remarks = "【绊爱联动SP2】鱼雷艇",
+		dodge_growth = 0,
+		star = 1,
+		antisub_growth = 0,
+		rarity = 1,
+		base = 70,
+		durability = 250,
+		armor_growth = 0,
+		torpedo_growth = 864,
+		bubble_interval = 0,
+		speed = 15,
+		luck = 0,
+		id = 12100205,
+		wave_fx = "danchuanlanghuaxiao2",
+		cannon_growth = 0,
+		pilot_ai_template_id = 20001,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 8,
+		torpedo = 15,
+		durability_growth = 2550,
+		luck_growth = 0,
+		antiaircraft_growth = 0,
+		appear_fx = {
+			"appearsmall"
+		},
+		specific_fx_scale = {},
+		equipment_list = {
+			540100
+		}
+	},
+	[12100206] = {
+		cannon = 45,
+		luck = 0,
+		luck_growth = 0,
+		speed_growth = 0,
+		air_growth = 0,
+		air = 0,
+		battle_unit_type = 15,
+		hit_growth = 1200,
+		antisub = 0,
+		bubble_fx = "",
+		bubble_initial = 0,
+		remarks = "【绊爱联动SP2】自爆船",
+		dodge_growth = 0,
+		star = 1,
+		antisub_growth = 0,
+		rarity = 1,
+		base = 138,
+		durability = 60,
+		armor_growth = 0,
+		torpedo_growth = 900,
+		bubble_interval = 0,
+		speed = 30,
+		armor = 0,
+		id = 12100206,
+		cannon_growth = 0,
+		pilot_ai_template_id = 80000,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 81,
+		torpedo = 85,
+		durability_growth = 2550,
+		antiaircraft = 0,
+		antiaircraft_growth = 0,
+		appear_fx = {
+			"appearsmall"
+		},
+		specific_fx_scale = {},
+		equipment_list = {
+			540101
+		}
+	},
+	[12100207] = {
+		cannon = 6,
+		luck_growth = 0,
+		battle_unit_type = 50,
+		speed_growth = 0,
+		drop_id = 10011,
+		air = 0,
+		armor = 0,
+		air_growth = 0,
+		hit_growth = 210,
+		id = 12100207,
+		dodge_growth = 222,
+		bubble_fx = "",
+		star = 5,
+		bubble_initial = 0,
+		antisub_growth = 0,
+		rarity = 5,
+		remarks = "【绊爱联动SP2】绊爱——驱逐",
+		base = 356,
+		durability = 510,
+		armor_growth = 0,
+		torpedo_growth = 4491,
+		bubble_interval = 0,
+		speed = 33,
+		luck = 0,
+		antisub = 0,
+		cannon_growth = 468,
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		dodge = 15,
+		reload_growth = 0,
+		hit = 14,
+		torpedo = 54,
+		durability_growth = 18800,
+		antiaircraft = 20,
+		antiaircraft_growth = 1638,
+		appear_fx = {
+			"appearQ"
+		},
+		specific_fx_scale = {},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-0.26,
+							0.686,
+							-0.081
+						}
+					}
+				}
+			},
+			{
+				40,
+				{
+					{
+						"smoke",
+						{
+							-0.46,
+							0.486,
+							-0.481
+						}
+					},
+					{
+						"smoke",
+						{
+							0.54,
+							0.486,
+							-0.481
+						}
+					}
+				}
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.088,
+					0.917,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.694,
+					0.853,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.088,
+					0.917,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.096,
+					3.156,
+					0
+				}
+			}
+		},
+		equipment_list = {
+			1100056,
+			1100101,
+			1100166,
+			1100496
+		}
+	},
+	[12100208] = {
+		cannon = 20,
+		luck = 0,
+		luck_growth = 0,
+		speed_growth = 0,
+		air_growth = 0,
+		air = 0,
+		battle_unit_type = 55,
+		hit_growth = 210,
+		antisub = 0,
+		bubble_fx = "",
+		bubble_initial = 0,
+		remarks = "【绊爱联动SP2】绊爱——轻巡",
+		dodge_growth = 162,
+		star = 4,
+		antisub_growth = 0,
+		rarity = 4,
+		base = 357,
+		durability = 630,
+		armor_growth = 0,
+		torpedo_growth = 3366,
+		bubble_interval = 0,
+		speed = 25,
+		armor = 0,
+		id = 12100208,
+		cannon_growth = 936,
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		dodge = 11,
+		reload_growth = 0,
+		hit = 14,
+		torpedo = 27,
+		durability_growth = 23120,
+		antiaircraft = 28,
+		antiaircraft_growth = 3744,
+		appear_fx = {
+			"appearQ"
+		},
+		specific_fx_scale = {},
+		equipment_list = {
+			1100506,
+			1100101,
+			1100276
+		}
+	},
+	[12100209] = {
+		cannon = 31,
+		battle_unit_type = 65,
+		antiaircraft = 45,
+		speed_growth = 0,
+		drop_id = 10016,
+		air = 0,
+		armor = 0,
+		air_growth = 0,
+		hit_growth = 210,
+		antisub = 0,
+		bubble_fx = "",
+		bubble_initial = 0,
+		dodge_growth = 48,
+		remarks = "【绊爱联动SP2】绊爱——战列",
+		star = 4,
+		antisub_growth = 0,
+		rarity = 4,
+		base = 358,
+		durability = 1020,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		bubble_interval = 0,
+		speed = 18,
+		luck = 0,
+		id = 12100209,
+		cannon_growth = 2592,
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		dodge = 3,
+		reload_growth = 0,
+		hit = 18,
+		torpedo = 0,
+		durability_growth = 49600,
+		luck_growth = 0,
+		antiaircraft_growth = 3744,
+		appear_fx = {
+			"appearQ"
+		},
+		specific_fx_scale = {},
+		equipment_list = {
+			1100021,
+			1100626,
+			1100041,
+			1100731
+		}
+	},
+	[12100210] = {
+		cannon = 0,
+		luck = 0,
+		luck_growth = 0,
+		speed_growth = 0,
+		air_growth = 2574,
+		air = 31,
+		battle_unit_type = 60,
+		hit_growth = 210,
+		antisub = 0,
+		bubble_fx = "",
+		bubble_initial = 0,
+		remarks = "【绊爱联动SP2】绊爱——航母",
+		dodge_growth = 132,
+		star = 5,
+		antisub_growth = 0,
+		rarity = 4,
+		base = 359,
+		durability = 770,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		bubble_interval = 0,
+		speed = 22,
+		armor = 0,
+		id = 12100210,
+		cannon_growth = 0,
+		pilot_ai_template_id = 70054,
+		reload = 150,
+		dodge = 9,
+		reload_growth = 0,
+		hit = 14,
+		torpedo = 0,
+		durability_growth = 39200,
+		antiaircraft = 38,
+		antiaircraft_growth = 3168,
+		appear_fx = {
+			"bossguangxiao",
+			"appearQ"
+		},
+		specific_fx_scale = {},
+		equipment_list = {
+			1100021,
+			1100171,
+			1100796,
+			1100801,
+			1100806
+		}
+	},
+	[12100211] = {
+		cannon = 20,
+		luck = 0,
+		luck_growth = 0,
+		speed_growth = 0,
+		air_growth = 0,
+		air = 0,
+		battle_unit_type = 90,
+		hit_growth = 210,
+		antisub = 0,
+		bubble_fx = "",
+		bubble_initial = 0,
+		remarks = "【绊爱联动SP2】精英人形 绊爱",
+		dodge_growth = 270,
+		star = 3,
+		antisub_growth = 0,
+		rarity = 3,
+		base = 347,
+		durability = 1240,
+		armor_growth = 0,
+		torpedo_growth = 3000,
+		bubble_interval = 0,
+		speed = 20,
+		armor = 0,
+		id = 12100211,
+		cannon_growth = 1200,
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		dodge = 19,
+		reload_growth = 0,
+		hit = 14,
+		torpedo = 80,
+		durability_growth = 124800,
+		antiaircraft = 65,
+		antiaircraft_growth = 2800,
+		appear_fx = {
+			"appearQ"
+		},
+		specific_fx_scale = {},
+		equipment_list = {
+			1100010,
+			1100015,
+			1100375,
+			1100506
+		}
+	},
+	[12100221] = {
+		cannon = 105,
+		luck = 5,
+		luck_growth = 0,
+		speed_growth = 0,
+		air_growth = 0,
+		air = 0,
+		battle_unit_type = 95,
+		hit_growth = 210,
+		antisub = 145,
+		bubble_fx = "",
+		bubble_initial = 0,
+		remarks = "【绊爱联动SP2】BOSS-绊爱live",
+		dodge_growth = 156,
+		star = 6,
+		antisub_growth = 0,
+		rarity = 6,
+		base = 354,
+		durability = 18800,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		bubble_interval = 0,
+		speed = 16,
+		armor = 0,
+		id = 12100221,
+		cannon_growth = 0,
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		dodge = 11,
+		reload_growth = 0,
+		hit = 14,
+		torpedo = 0,
+		durability_growth = 0,
+		antiaircraft = 210,
+		antiaircraft_growth = 0,
+		appear_fx = {
+			"bossguangxiao",
+			"appearQ"
+		},
+		specific_fx_scale = {},
+		equipment_list = {
+			609020,
+			609021,
+			609022,
+			609026,
+			609027
+		}
+	},
+	[12100301] = {
+		cannon = 7,
+		battle_unit_type = 25,
+		antiaircraft = 25,
+		speed_growth = 0,
+		drop_id = 10001,
+		air = 0,
+		armor = 0,
+		air_growth = 0,
+		hit_growth = 144,
+		antisub = 0,
+		bubble_fx = "",
+		bubble_initial = 0,
+		dodge_growth = 0,
+		remarks = "【绊爱联动SP3】阳炎级量产型",
+		star = 2,
+		antisub_growth = 0,
+		rarity = 1,
+		base = 135,
+		durability = 200,
+		armor_growth = 0,
+		torpedo_growth = 3000,
+		bubble_interval = 0,
+		speed = 15,
+		luck = 0,
+		id = 12100301,
+		cannon_growth = 500,
+		pilot_ai_template_id = 20005,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 10,
+		torpedo = 30,
+		durability_growth = 5120,
+		luck_growth = 0,
+		antiaircraft_growth = 800,
+		appear_fx = {
+			"appearsmall"
+		},
+		specific_fx_scale = {},
+		equipment_list = {
+			1100101,
+			1100496
+		}
+	},
+	[12100302] = {
+		cannon = 16,
+		luck = 0,
+		luck_growth = 0,
+		speed_growth = 0,
+		air_growth = 0,
+		air = 0,
+		battle_unit_type = 35,
+		hit_growth = 144,
+		antisub = 0,
+		bubble_fx = "",
+		bubble_initial = 0,
+		remarks = "【绊爱联动SP3】妙高级量产型",
+		dodge_growth = 0,
+		star = 2,
+		antisub_growth = 0,
+		rarity = 2,
+		base = 136,
+		durability = 460,
+		armor_growth = 0,
+		torpedo_growth = 1200,
+		bubble_interval = 0,
+		speed = 15,
+		armor = 0,
+		id = 12100302,
+		cannon_growth = 1500,
+		pilot_ai_template_id = 20005,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 10,
+		torpedo = 16,
+		durability_growth = 20000,
+		antiaircraft = 35,
+		antiaircraft_growth = 1000,
+		appear_fx = {},
+		specific_fx_scale = {},
+		equipment_list = {
+			1100042,
+			1100571,
+			1100456
+		}
+	},
+	[12100303] = {
+		cannon = 39,
+		luck = 0,
+		luck_growth = 0,
+		speed_growth = 0,
+		air_growth = 0,
+		air = 0,
+		battle_unit_type = 60,
+		hit_growth = 144,
+		antisub = 0,
+		bubble_fx = "",
+		bubble_initial = 0,
+		remarks = "【绊爱联动SP3】扶桑级量产型",
+		dodge_growth = 0,
+		star = 2,
+		antisub_growth = 0,
+		rarity = 2,
+		base = 137,
+		durability = 1020,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		bubble_interval = 0,
+		speed = 15,
+		armor = 0,
+		id = 12100303,
+		cannon_growth = 2000,
+		pilot_ai_template_id = 20005,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 10,
+		torpedo = 0,
+		durability_growth = 41600,
+		antiaircraft = 40,
+		antiaircraft_growth = 1200,
+		appear_fx = {},
+		specific_fx_scale = {},
+		equipment_list = {
+			1100577,
+			100506
+		}
+	},
+	[12100304] = {
+		cannon = 0,
+		luck = 0,
+		luck_growth = 0,
+		speed_growth = 0,
+		air_growth = 0,
+		air = 0,
+		battle_unit_type = 20,
+		hit_growth = 120,
+		antisub = 0,
+		bubble_fx = "",
+		bubble_initial = 0,
+		remarks = "【绊爱联动SP3】物资船",
+		dodge_growth = 0,
+		star = 1,
+		antisub_growth = 0,
+		rarity = 1,
+		base = 90,
+		durability = 700,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		bubble_interval = 0,
+		speed = 30,
+		armor = 0,
+		id = 12100304,
+		cannon_growth = 0,
+		pilot_ai_template_id = 20001,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 8,
+		torpedo = 0,
+		durability_growth = 6800,
+		antiaircraft = 0,
+		antiaircraft_growth = 0,
+		appear_fx = {
+			"appearsmall"
+		},
+		specific_fx_scale = {},
+		equipment_list = {}
+	},
+	[12100305] = {
+		cannon = 0,
+		antisub = 0,
+		antiaircraft = 0,
+		speed_growth = 0,
+		battle_unit_type = 35,
+		air = 0,
+		armor = 0,
+		hit_growth = 120,
+		air_growth = 0,
+		bubble_fx = "",
+		bubble_initial = 0,
+		remarks = "【绊爱联动SP3】鱼雷艇",
+		dodge_growth = 0,
+		star = 1,
+		antisub_growth = 0,
+		rarity = 1,
+		base = 70,
+		durability = 265,
+		armor_growth = 0,
+		torpedo_growth = 864,
+		bubble_interval = 0,
+		speed = 15,
+		luck = 0,
+		id = 12100305,
+		wave_fx = "danchuanlanghuaxiao2",
+		cannon_growth = 0,
+		pilot_ai_template_id = 20001,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 8,
+		torpedo = 30,
+		durability_growth = 2550,
+		luck_growth = 0,
+		antiaircraft_growth = 0,
+		appear_fx = {
+			"appearsmall"
+		},
+		specific_fx_scale = {},
+		equipment_list = {
+			540100
+		}
+	},
+	[12100306] = {
+		cannon = 50,
+		luck = 0,
+		luck_growth = 0,
+		speed_growth = 0,
+		air_growth = 0,
+		air = 0,
+		battle_unit_type = 15,
+		hit_growth = 1200,
+		antisub = 0,
+		bubble_fx = "",
+		bubble_initial = 0,
+		remarks = "【绊爱联动SP3】自爆船",
+		dodge_growth = 0,
+		star = 1,
+		antisub_growth = 0,
+		rarity = 1,
+		base = 138,
+		durability = 70,
+		armor_growth = 0,
+		torpedo_growth = 1080,
+		bubble_interval = 0,
+		speed = 30,
+		armor = 0,
+		id = 12100306,
+		cannon_growth = 0,
+		pilot_ai_template_id = 80000,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 81,
+		torpedo = 100,
+		durability_growth = 2550,
+		antiaircraft = 0,
+		antiaircraft_growth = 0,
+		appear_fx = {
+			"appearsmall"
+		},
+		specific_fx_scale = {},
+		equipment_list = {
+			540101
+		}
+	},
+	[12100307] = {
+		cannon = 6,
+		luck_growth = 0,
+		battle_unit_type = 50,
+		speed_growth = 0,
+		drop_id = 10011,
+		air = 0,
+		armor = 0,
+		air_growth = 0,
+		hit_growth = 210,
+		id = 12100307,
+		dodge_growth = 222,
+		bubble_fx = "",
+		star = 5,
+		bubble_initial = 0,
+		antisub_growth = 0,
+		rarity = 5,
+		remarks = "【绊爱联动SP3】绊爱——驱逐",
+		base = 356,
+		durability = 640,
+		armor_growth = 0,
+		torpedo_growth = 4491,
+		bubble_interval = 0,
+		speed = 32,
+		luck = 0,
+		antisub = 0,
+		cannon_growth = 468,
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		dodge = 15,
+		reload_growth = 0,
+		hit = 14,
+		torpedo = 54,
+		durability_growth = 20080,
+		antiaircraft = 20,
+		antiaircraft_growth = 1638,
+		appear_fx = {
+			"appearQ"
+		},
+		specific_fx_scale = {},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-0.26,
+							0.686,
+							-0.081
+						}
+					}
+				}
+			},
+			{
+				40,
+				{
+					{
+						"smoke",
+						{
+							-0.46,
+							0.486,
+							-0.481
+						}
+					},
+					{
+						"smoke",
+						{
+							0.54,
+							0.486,
+							-0.481
+						}
+					}
+				}
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.088,
+					0.917,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.694,
+					0.853,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.088,
+					0.917,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.096,
+					3.156,
+					0
+				}
+			}
+		},
+		equipment_list = {
+			1100057,
+			1100101,
+			1100166,
+			1100496
+		}
+	},
+	[12100308] = {
+		cannon = 20,
+		luck = 0,
+		luck_growth = 0,
+		speed_growth = 0,
+		air_growth = 0,
+		air = 0,
+		battle_unit_type = 55,
+		hit_growth = 210,
+		antisub = 0,
+		bubble_fx = "",
+		bubble_initial = 0,
+		remarks = "【绊爱联动SP3】绊爱——轻巡",
+		dodge_growth = 162,
+		star = 4,
+		antisub_growth = 0,
+		rarity = 4,
+		base = 357,
+		durability = 760,
+		armor_growth = 0,
+		torpedo_growth = 3366,
+		bubble_interval = 0,
+		speed = 25,
+		armor = 0,
+		id = 12100308,
+		cannon_growth = 936,
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		dodge = 11,
+		reload_growth = 0,
+		hit = 14,
+		torpedo = 27,
+		durability_growth = 30500,
+		antiaircraft = 28,
+		antiaircraft_growth = 3744,
+		appear_fx = {
+			"appearQ"
+		},
+		specific_fx_scale = {},
+		equipment_list = {
+			1100506,
+			1100102,
+			1100276
+		}
+	},
+	[12100309] = {
+		cannon = 31,
+		battle_unit_type = 65,
+		antiaircraft = 45,
+		speed_growth = 0,
+		drop_id = 10016,
+		air = 0,
+		armor = 0,
+		air_growth = 0,
+		hit_growth = 210,
+		antisub = 0,
+		bubble_fx = "",
+		bubble_initial = 0,
+		dodge_growth = 48,
+		remarks = "【绊爱联动SP3】绊爱——战列",
+		star = 4,
+		antisub_growth = 0,
+		rarity = 4,
+		base = 358,
+		durability = 1360,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		bubble_interval = 0,
+		speed = 18,
+		luck = 0,
+		id = 12100309,
+		cannon_growth = 2592,
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		dodge = 3,
+		reload_growth = 0,
+		hit = 14,
+		torpedo = 0,
+		durability_growth = 59840,
+		luck_growth = 0,
+		antiaircraft_growth = 3744,
+		appear_fx = {
+			"appearQ"
+		},
+		specific_fx_scale = {},
+		equipment_list = {
+			1100021,
+			1100627,
+			1100041,
+			1100731
+		}
+	},
+	[12100310] = {
+		cannon = 0,
+		luck = 0,
+		luck_growth = 0,
+		speed_growth = 0,
+		air_growth = 3627,
+		air = 44,
+		battle_unit_type = 70,
+		hit_growth = 210,
+		antisub = 0,
+		bubble_fx = "",
+		bubble_initial = 0,
+		remarks = "【绊爱联动SP3】绊爱——航母",
+		dodge_growth = 72,
+		star = 5,
+		antisub_growth = 0,
+		rarity = 4,
+		base = 359,
+		durability = 1070,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		bubble_interval = 0,
+		speed = 18,
+		armor = 0,
+		id = 12100310,
+		cannon_growth = 0,
+		pilot_ai_template_id = 70054,
+		reload = 150,
+		dodge = 5,
+		reload_growth = 0,
+		hit = 14,
+		torpedo = 0,
+		durability_growth = 54400,
+		antiaircraft = 45,
+		antiaircraft_growth = 3744,
+		appear_fx = {
+			"bossguangxiao",
+			"appearQ"
+		},
+		specific_fx_scale = {},
+		equipment_list = {
+			1100021,
+			1100172,
+			1100796,
+			1100802,
+			1100806
+		}
+	},
+	[12100311] = {
+		cannon = 35,
+		luck = 9,
+		luck_growth = 0,
+		speed_growth = 0,
+		air_growth = 0,
+		air = 0,
+		battle_unit_type = 90,
+		hit_growth = 210,
+		antisub = 0,
+		bubble_fx = "",
+		bubble_initial = 0,
+		remarks = "【绊爱联动SP3】精英人形 绊爱",
+		dodge_growth = 156,
+		star = 3,
+		antisub_growth = 0,
+		rarity = 3,
+		base = 347,
+		durability = 1430,
+		armor_growth = 0,
+		torpedo_growth = 3000,
+		bubble_interval = 0,
+		speed = 20,
+		armor = 0,
+		id = 12100311,
+		cannon_growth = 1200,
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		dodge = 19,
+		reload_growth = 0,
+		hit = 14,
+		torpedo = 120,
+		durability_growth = 144000,
+		antiaircraft = 95,
+		antiaircraft_growth = 2800,
+		appear_fx = {
+			"appearQ"
+		},
+		specific_fx_scale = {},
+		equipment_list = {
+			1100010,
+			1100016,
+			1100376,
+			1100506
+		}
+	},
+	[12100321] = {
+		cannon = 180,
+		luck = 15,
+		luck_growth = 0,
+		speed_growth = 0,
+		air_growth = 0,
+		air = 0,
+		battle_unit_type = 95,
+		hit_growth = 210,
+		antisub = 0,
+		bubble_fx = "",
+		bubble_initial = 0,
+		remarks = "【绊爱联动SP3】BOSS-绊爱（平底锅）",
+		dodge_growth = 156,
+		star = 6,
+		antisub_growth = 0,
+		rarity = 6,
+		base = 353,
+		durability = 27800,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		bubble_interval = 0,
+		speed = 16,
+		armor = 0,
+		id = 12100321,
+		cannon_growth = 0,
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		dodge = 11,
+		reload_growth = 0,
+		hit = 14,
+		torpedo = 0,
+		durability_growth = 0,
+		antiaircraft = 320,
+		antiaircraft_growth = 0,
+		appear_fx = {
+			"bossguangxiao",
+			"appearQ"
+		},
+		specific_fx_scale = {},
+		equipment_list = {
+			609030,
+			609031,
+			609032,
+			609035
+		}
+	},
+	[12100322] = {
+		cannon = 180,
+		luck = 15,
+		luck_growth = 0,
+		speed_growth = 0,
+		air_growth = 0,
+		air = 0,
+		battle_unit_type = 95,
+		hit_growth = 210,
+		antisub = 0,
+		bubble_fx = "",
+		bubble_initial = 0,
+		remarks = "【绊爱联动SP3】BOSS-绊爱（AKM）",
+		dodge_growth = 156,
+		star = 6,
+		antisub_growth = 0,
+		rarity = 6,
+		base = 353,
+		durability = 27800,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		bubble_interval = 0,
+		speed = 16,
+		armor = 0,
+		id = 12100322,
+		cannon_growth = 0,
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		dodge = 11,
+		reload_growth = 0,
+		hit = 14,
+		torpedo = 0,
+		durability_growth = 0,
+		antiaircraft = 320,
+		antiaircraft_growth = 0,
+		appear_fx = {
+			"bossguangxiao",
+			"appearQ"
+		},
+		specific_fx_scale = {},
+		equipment_list = {
+			609036,
+			609031,
+			609032,
+			609035
+		}
+	},
+	[12100323] = {
+		cannon = 180,
+		luck = 15,
+		luck_growth = 0,
+		speed_growth = 0,
+		air_growth = 0,
+		air = 0,
+		battle_unit_type = 95,
+		hit_growth = 210,
+		antisub = 0,
+		bubble_fx = "",
+		bubble_initial = 0,
+		remarks = "【绊爱联动SP3】BOSS-绊爱（98K）",
+		dodge_growth = 156,
+		star = 6,
+		antisub_growth = 0,
+		rarity = 6,
+		base = 353,
+		durability = 27800,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		bubble_interval = 0,
+		speed = 16,
+		armor = 0,
+		id = 12100323,
+		cannon_growth = 0,
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		dodge = 11,
+		reload_growth = 0,
+		hit = 14,
+		torpedo = 0,
+		durability_growth = 0,
+		antiaircraft = 320,
+		antiaircraft_growth = 0,
+		appear_fx = {
+			"bossguangxiao",
+			"appearQ"
+		},
+		specific_fx_scale = {},
+		equipment_list = {
+			609030,
+			609031,
+			609033,
+			609034,
+			609035
+		}
+	},
+	[12100401] = {
+		cannon = 7,
+		battle_unit_type = 25,
+		antiaircraft = 60,
+		speed_growth = 0,
+		drop_id = 10001,
+		air = 0,
+		armor = 0,
+		air_growth = 0,
+		hit_growth = 144,
+		antisub = 0,
+		bubble_fx = "",
+		bubble_initial = 0,
+		dodge_growth = 0,
+		remarks = "【绊爱联动SP4】阳炎级量产型",
+		star = 2,
+		antisub_growth = 0,
+		rarity = 1,
+		base = 135,
+		durability = 300,
+		armor_growth = 0,
+		torpedo_growth = 3250,
+		bubble_interval = 0,
+		speed = 15,
+		luck = 0,
+		id = 12100401,
+		cannon_growth = 560,
+		pilot_ai_template_id = 20005,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 10,
+		torpedo = 33,
+		durability_growth = 10000,
+		luck_growth = 0,
+		antiaircraft_growth = 1000,
+		appear_fx = {
+			"appearsmall"
+		},
+		specific_fx_scale = {},
+		equipment_list = {
+			1100103,
+			1100498
+		}
+	},
+	[12100402] = {
+		cannon = 18,
+		luck = 0,
+		luck_growth = 0,
+		speed_growth = 0,
+		air_growth = 0,
+		air = 0,
+		battle_unit_type = 35,
+		hit_growth = 144,
+		antisub = 0,
+		bubble_fx = "",
+		bubble_initial = 0,
+		remarks = "【绊爱联动SP4】妙高级量产型",
+		dodge_growth = 0,
+		star = 2,
+		antisub_growth = 0,
+		rarity = 2,
+		base = 136,
+		durability = 1190,
+		armor_growth = 0,
+		torpedo_growth = 1250,
+		bubble_interval = 0,
+		speed = 15,
+		armor = 0,
+		id = 12100402,
+		cannon_growth = 1800,
+		pilot_ai_template_id = 20005,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 10,
+		torpedo = 17,
+		durability_growth = 35200,
+		antiaircraft = 95,
+		antiaircraft_growth = 1400,
+		appear_fx = {},
+		specific_fx_scale = {},
+		equipment_list = {
+			1100043,
+			1100573,
+			1100457
+		}
+	},
+	[12100403] = {
+		cannon = 43,
+		luck = 0,
+		luck_growth = 0,
+		speed_growth = 0,
+		air_growth = 0,
+		air = 0,
+		battle_unit_type = 60,
+		hit_growth = 144,
+		antisub = 0,
+		bubble_fx = "",
+		bubble_initial = 0,
+		remarks = "【绊爱联动SP4】扶桑级量产型",
+		dodge_growth = 0,
+		star = 2,
+		antisub_growth = 0,
+		rarity = 2,
+		base = 137,
+		durability = 4930,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		bubble_interval = 0,
+		speed = 15,
+		armor = 0,
+		id = 12100403,
+		cannon_growth = 2200,
+		pilot_ai_template_id = 20005,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 10,
+		torpedo = 0,
+		durability_growth = 70400,
+		antiaircraft = 105,
+		antiaircraft_growth = 1400,
+		appear_fx = {},
+		specific_fx_scale = {},
+		equipment_list = {
+			1100578,
+			100507
+		}
+	},
+	[12100404] = {
+		cannon = 0,
+		luck = 0,
+		luck_growth = 0,
+		speed_growth = 0,
+		air_growth = 0,
+		air = 0,
+		battle_unit_type = 20,
+		hit_growth = 120,
+		antisub = 0,
+		bubble_fx = "",
+		bubble_initial = 0,
+		remarks = "【绊爱联动SP4】物资船",
+		dodge_growth = 0,
+		star = 1,
+		antisub_growth = 0,
+		rarity = 1,
+		base = 90,
+		durability = 750,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		bubble_interval = 0,
+		speed = 30,
+		armor = 0,
+		id = 12100404,
+		cannon_growth = 0,
+		pilot_ai_template_id = 20001,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 8,
+		torpedo = 0,
+		durability_growth = 6800,
+		antiaircraft = 0,
+		antiaircraft_growth = 0,
+		appear_fx = {
+			"appearsmall"
+		},
+		specific_fx_scale = {},
+		equipment_list = {}
+	},
+	[12100405] = {
+		cannon = 0,
+		antisub = 0,
+		antiaircraft = 0,
+		speed_growth = 0,
+		battle_unit_type = 35,
+		air = 0,
+		armor = 0,
+		hit_growth = 120,
+		air_growth = 0,
+		bubble_fx = "",
+		bubble_initial = 0,
+		remarks = "【绊爱联动SP4】鱼雷艇",
+		dodge_growth = 0,
+		star = 1,
+		antisub_growth = 0,
+		rarity = 1,
+		base = 70,
+		durability = 280,
+		armor_growth = 0,
+		torpedo_growth = 864,
+		bubble_interval = 0,
+		speed = 15,
+		luck = 0,
+		id = 12100405,
+		wave_fx = "danchuanlanghuaxiao2",
+		cannon_growth = 0,
+		pilot_ai_template_id = 20001,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 8,
+		torpedo = 70,
+		durability_growth = 2550,
+		luck_growth = 0,
+		antiaircraft_growth = 0,
+		appear_fx = {
+			"appearsmall"
+		},
+		specific_fx_scale = {},
+		equipment_list = {
+			540100
+		}
+	},
+	[12100406] = {
+		cannon = 60,
+		luck = 0,
+		luck_growth = 0,
+		speed_growth = 0,
+		air_growth = 0,
+		air = 0,
+		battle_unit_type = 15,
+		hit_growth = 1200,
+		antisub = 0,
+		bubble_fx = "",
+		bubble_initial = 0,
+		remarks = "【绊爱联动SP4】自爆船",
+		dodge_growth = 0,
+		star = 1,
+		antisub_growth = 0,
+		rarity = 1,
+		base = 138,
+		durability = 80,
+		armor_growth = 0,
+		torpedo_growth = 900,
+		bubble_interval = 0,
+		speed = 30,
+		armor = 0,
+		id = 12100406,
+		cannon_growth = 0,
+		pilot_ai_template_id = 80000,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 81,
+		torpedo = 120,
+		durability_growth = 2550,
+		antiaircraft = 0,
+		antiaircraft_growth = 0,
+		appear_fx = {
+			"appearsmall"
+		},
+		specific_fx_scale = {},
+		equipment_list = {
+			540101
+		}
+	},
+	[12100407] = {
+		cannon = 22,
+		luck_growth = 0,
+		battle_unit_type = 50,
+		speed_growth = 0,
+		drop_id = 10011,
+		air = 0,
+		armor = 0,
+		air_growth = 0,
+		hit_growth = 280,
+		id = 12100407,
+		dodge_growth = 360,
+		bubble_fx = "",
+		star = 5,
+		bubble_initial = 0,
+		antisub_growth = 0,
+		rarity = 5,
+		remarks = "【绊爱联动SP4】绊爱——驱逐",
+		base = 356,
+		durability = 3060,
+		armor_growth = 0,
+		torpedo_growth = 5200,
+		bubble_interval = 0,
+		speed = 36,
+		luck = 0,
+		antisub = 0,
+		cannon_growth = 626,
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		dodge = 22,
+		reload_growth = 0,
+		hit = 25,
+		torpedo = 94,
+		durability_growth = 21600,
+		antiaircraft = 72,
+		antiaircraft_growth = 3000,
+		appear_fx = {
+			"appearQ"
+		},
+		specific_fx_scale = {},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-0.26,
+							0.686,
+							-0.081
+						}
+					}
+				}
+			},
+			{
+				40,
+				{
+					{
+						"smoke",
+						{
+							-0.46,
+							0.486,
+							-0.481
+						}
+					},
+					{
+						"smoke",
+						{
+							0.54,
+							0.486,
+							-0.481
+						}
+					}
+				}
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.088,
+					0.917,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.694,
+					0.853,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.088,
+					0.917,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.096,
+					3.156,
+					0
+				}
+			}
+		},
+		equipment_list = {
+			1100058,
+			1100103,
+			1100168,
+			1100497
+		}
+	},
+	[12100408] = {
+		cannon = 38,
+		luck = 0,
+		luck_growth = 0,
+		speed_growth = 0,
+		air_growth = 0,
+		air = 0,
+		battle_unit_type = 55,
+		hit_growth = 210,
+		antisub = 0,
+		bubble_fx = "",
+		bubble_initial = 0,
+		remarks = "【绊爱联动SP4】绊爱——轻巡",
+		dodge_growth = 162,
+		star = 4,
+		antisub_growth = 0,
+		rarity = 4,
+		base = 357,
+		durability = 3570,
+		armor_growth = 0,
+		torpedo_growth = 3366,
+		bubble_interval = 0,
+		speed = 25,
+		armor = 0,
+		id = 12100408,
+		cannon_growth = 936,
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		dodge = 11,
+		reload_growth = 0,
+		hit = 14,
+		torpedo = 76,
+		durability_growth = 30400,
+		antiaircraft = 156,
+		antiaircraft_growth = 3744,
+		appear_fx = {
+			"appearQ"
+		},
+		specific_fx_scale = {},
+		equipment_list = {
+			1100507,
+			1100103,
+			1100277
+		}
+	},
+	[12100409] = {
+		cannon = 78,
+		battle_unit_type = 65,
+		antiaircraft = 106,
+		speed_growth = 0,
+		drop_id = 10016,
+		air = 0,
+		armor = 0,
+		air_growth = 0,
+		hit_growth = 280,
+		antisub = 0,
+		bubble_fx = "",
+		bubble_initial = 0,
+		dodge_growth = 136,
+		remarks = "【绊爱联动SP4】绊爱——战列",
+		star = 4,
+		antisub_growth = 0,
+		rarity = 4,
+		base = 358,
+		durability = 6630,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		bubble_interval = 0,
+		speed = 14,
+		luck = 0,
+		id = 12100409,
+		cannon_growth = 3400,
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		dodge = 11,
+		reload_growth = 0,
+		hit = 25,
+		torpedo = 0,
+		durability_growth = 65600,
+		luck_growth = 0,
+		antiaircraft_growth = 4680,
+		appear_fx = {
+			"appearQ"
+		},
+		specific_fx_scale = {},
+		equipment_list = {
+			1100023,
+			1100628,
+			1100043,
+			1100732
+		}
+	},
+	[12100410] = {
+		cannon = 36,
+		luck = 0,
+		luck_growth = 0,
+		speed_growth = 0,
+		air_growth = 4127,
+		air = 86,
+		battle_unit_type = 70,
+		hit_growth = 280,
+		antisub = 0,
+		bubble_fx = "",
+		bubble_initial = 0,
+		remarks = "【绊爱联动SP4】绊爱——航母",
+		dodge_growth = 96,
+		star = 5,
+		antisub_growth = 0,
+		rarity = 4,
+		base = 359,
+		durability = 5780,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		bubble_interval = 0,
+		speed = 16,
+		armor = 0,
+		id = 12100410,
+		cannon_growth = 0,
+		pilot_ai_template_id = 70054,
+		reload = 150,
+		dodge = 9,
+		reload_growth = 0,
+		hit = 25,
+		torpedo = 0,
+		durability_growth = 58880,
+		antiaircraft = 134,
+		antiaircraft_growth = 5280,
+		appear_fx = {
+			"bossguangxiao",
+			"appearQ"
+		},
+		specific_fx_scale = {},
+		equipment_list = {
+			1100022,
+			1100173,
+			1100798,
+			1100802,
+			1100808
+		}
+	},
+	[12100411] = {
+		cannon = 55,
+		battle_unit_type = 90,
+		antiaircraft = 115,
+		speed_growth = 0,
+		drop_id = 10011,
+		air = 0,
+		armor = 0,
+		air_growth = 0,
+		hit_growth = 210,
+		antisub = 0,
+		bubble_fx = "",
+		bubble_initial = 0,
+		dodge_growth = 156,
+		remarks = "【绊爱联动SP4】精英 – 命运女神",
+		star = 6,
+		antisub_growth = 0,
+		rarity = 5,
+		base = 348,
+		durability = 10890,
+		armor_growth = 0,
+		torpedo_growth = 3000,
+		bubble_interval = 0,
+		speed = 20,
+		luck = 15,
+		id = 12100411,
+		cannon_growth = 1200,
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		dodge = 11,
+		reload_growth = 0,
+		hit = 16,
+		torpedo = 180,
+		durability_growth = 228800,
+		luck_growth = 0,
+		antiaircraft_growth = 2800,
+		appear_fx = {
+			"bossguangxiao",
+			"appearQ"
+		},
+		specific_fx_scale = {},
+		equipment_list = {
+			1100178,
+			1100318,
+			1101502,
+			1101508,
+			1101513
+		}
+	},
+	[12100412] = {
+		cannon = 115,
+		luck = 15,
+		luck_growth = 0,
+		speed_growth = 0,
+		air_growth = 0,
+		air = 0,
+		battle_unit_type = 90,
+		hit_growth = 210,
+		antisub = 0,
+		bubble_fx = "",
+		bubble_initial = 0,
+		remarks = "【绊爱联动SP4】精英 – 高雄",
+		dodge_growth = 156,
+		star = 5,
+		antisub_growth = 0,
+		rarity = 4,
+		base = 349,
+		durability = 13040,
+		armor_growth = 0,
+		torpedo_growth = 1500,
+		bubble_interval = 0,
+		speed = 20,
+		armor = 0,
+		id = 12100412,
+		cannon_growth = 2000,
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		dodge = 11,
+		reload_growth = 0,
+		hit = 16,
+		torpedo = 75,
+		durability_growth = 270400,
+		antiaircraft = 155,
+		antiaircraft_growth = 3200,
+		appear_fx = {},
+		specific_fx_scale = {},
+		equipment_list = {
+			1100027,
+			1101518,
+			1100498,
+			1101523,
+			1100623
+		}
+	},
+	[12100413] = {
+		cannon = 115,
+		luck = 15,
+		luck_growth = 0,
+		speed_growth = 0,
+		air_growth = 0,
+		air = 0,
+		battle_unit_type = 90,
+		hit_growth = 210,
+		antisub = 0,
+		bubble_fx = "",
+		bubble_initial = 0,
+		remarks = "【绊爱联动SP4】精英 – 欧根亲王",
+		dodge_growth = 156,
+		star = 6,
+		antisub_growth = 0,
+		rarity = 5,
+		base = 350,
+		durability = 13040,
+		armor_growth = 0,
+		torpedo_growth = 1500,
+		bubble_interval = 0,
+		speed = 20,
+		armor = 0,
+		id = 12100413,
+		cannon_growth = 2000,
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		dodge = 11,
+		reload_growth = 0,
+		hit = 16,
+		torpedo = 75,
+		durability_growth = 270400,
+		antiaircraft = 155,
+		antiaircraft_growth = 3200,
+		appear_fx = {
+			"bossguangxiao",
+			"appearQ"
+		},
+		specific_fx_scale = {},
+		equipment_list = {
+			1101543,
+			1101548,
+			1101553,
+			1101558
+		}
+	},
+	[12100414] = {
+		cannon = 75,
+		battle_unit_type = 90,
+		antiaircraft = 190,
+		speed_growth = 0,
+		drop_id = 10015,
+		air = 160,
+		armor = 0,
+		air_growth = 3500,
+		hit_growth = 210,
+		antisub = 0,
+		bubble_fx = "",
+		bubble_initial = 0,
+		dodge_growth = 156,
+		remarks = "【绊爱联动SP4】精英 – 翔鹤",
+		star = 6,
+		antisub_growth = 0,
+		rarity = 5,
+		base = 351,
+		durability = 15250,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		bubble_interval = 0,
+		speed = 20,
+		luck = 15,
+		id = 12100414,
+		cannon_growth = 0,
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		dodge = 11,
+		reload_growth = 0,
+		hit = 16,
+		torpedo = 0,
+		durability_growth = 312000,
+		luck_growth = 0,
+		antiaircraft_growth = 3200,
+		appear_fx = {
+			"appearQ"
+		},
+		specific_fx_scale = {},
+		equipment_list = {
+			1100023,
+			1100312,
+			1100353,
+			1100853,
+			1100858,
+			1100863
+		}
+	},
+	[12100415] = {
+		cannon = 620,
+		luck = 0,
+		luck_growth = 0,
+		speed_growth = 0,
+		air_growth = 0,
+		air = 0,
+		battle_unit_type = 60,
+		hit_growth = 0,
+		antisub = 0,
+		bubble_fx = "",
+		bubble_initial = 0,
+		remarks = "【绊爱联动SP4】BOSS战 绊爱·Elegant",
+		dodge_growth = 0,
+		star = 4,
+		antisub_growth = 0,
+		rarity = 4,
+		base = 352,
+		durability = 9160,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		bubble_interval = 0,
+		speed = 18,
+		armor = 0,
+		id = 12100415,
+		cannon_growth = 0,
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		dodge = 24,
+		reload_growth = 0,
+		hit = 45,
+		torpedo = 765,
+		durability_growth = 54000,
+		antiaircraft = 480,
+		antiaircraft_growth = 0,
+		appear_fx = {
+			"appearQ"
+		},
+		specific_fx_scale = {},
+		equipment_list = {
+			1100507,
+			1100103,
+			1100143
+		}
+	},
+	[12100416] = {
+		cannon = 860,
+		battle_unit_type = 65,
+		antiaircraft = 480,
+		speed_growth = 0,
+		drop_id = 10016,
+		air = 0,
+		armor = 0,
+		air_growth = 0,
+		hit_growth = 0,
+		antisub = 0,
+		bubble_fx = "",
+		bubble_initial = 0,
+		dodge_growth = 0,
+		remarks = "【绊爱联动SP4】BOSS战 绊爱·SuperGamer",
+		star = 4,
+		antisub_growth = 0,
+		rarity = 4,
+		base = 353,
+		durability = 12800,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		bubble_interval = 0,
+		speed = 14,
+		luck = 0,
+		id = 12100416,
+		cannon_growth = 0,
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		dodge = 24,
+		reload_growth = 0,
+		hit = 45,
+		torpedo = 0,
+		durability_growth = 85000,
+		luck_growth = 0,
+		antiaircraft_growth = 0,
+		appear_fx = {
+			"appearQ"
+		},
+		specific_fx_scale = {},
+		equipment_list = {
+			1100023,
+			1100628,
+			1100043,
+			1100732
+		}
+	},
+	[12100417] = {
+		cannon = 420,
+		luck = 25,
+		luck_growth = 0,
+		speed_growth = 0,
+		air_growth = 0,
+		air = 180,
+		battle_unit_type = 60,
+		hit_growth = 0,
+		antisub = 0,
+		bubble_fx = "",
+		bubble_initial = 0,
+		remarks = "【绊爱联动SP4】BOSS战 绊爱·Anniversary",
+		dodge_growth = 0,
+		star = 5,
+		antisub_growth = 0,
+		rarity = 4,
+		base = 354,
+		durability = 12800,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		bubble_interval = 0,
+		speed = 28,
+		armor = 0,
+		id = 12100417,
+		cannon_growth = 0,
+		pilot_ai_template_id = 70054,
+		reload = 150,
+		dodge = 75,
+		reload_growth = 0,
+		hit = 72,
+		torpedo = 0,
+		durability_growth = 0,
+		antiaircraft = 510,
+		antiaircraft_growth = 0,
+		appear_fx = {
+			"bossguangxiao",
+			"appearQ"
+		},
+		specific_fx_scale = {},
+		equipment_list = {
+			1100022,
+			1100173,
+			1100798,
+			1100802,
+			1100808
+		}
+	},
+	[12100421] = {
+		cannon = 140,
+		luck_growth = 0,
+		antiaircraft_growth = 0,
+		speed_growth = 0,
+		armor = 0,
+		air = 0,
+		air_growth = 0,
+		hit_growth = 210,
+		antisub = 0,
+		bubble_fx = "",
+		bubble_initial = 0,
+		remarks = "【绊爱联动SP4】BOSS-绊爱",
+		dodge_growth = 284,
+		star = 6,
+		antisub_growth = 0,
+		rarity = 6,
+		base = 355,
+		durability = 56000,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		bubble_interval = 0,
+		speed = 18,
+		luck = 25,
+		id = 12100421,
+		scale = 200,
+		cannon_growth = 0,
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		dodge = 30,
+		reload_growth = 0,
+		hit = 25,
+		torpedo = 320,
+		durability_growth = 0,
+		antiaircraft = 285,
+		battle_unit_type = 95,
+		appear_fx = {
+			"bossguangxiao",
+			"appearQ"
+		},
+		specific_fx_scale = {},
+		equipment_list = {
+			609040,
+			609041,
+			609043,
+			609044,
+			609045,
+			609046
+		}
+	},
+	[12100501] = {
+		cannon = 8,
+		battle_unit_type = 25,
+		antiaircraft = 80,
+		speed_growth = 0,
+		drop_id = 10001,
+		air = 0,
+		armor = 0,
+		air_growth = 0,
+		hit_growth = 144,
+		antisub = 0,
+		bubble_fx = "",
+		bubble_initial = 0,
+		dodge_growth = 0,
+		remarks = "【绊爱联动SP5】阳炎级量产型",
+		star = 2,
+		antisub_growth = 0,
+		rarity = 1,
+		base = 135,
+		durability = 640,
+		armor_growth = 0,
+		torpedo_growth = 3250,
+		bubble_interval = 0,
+		speed = 15,
+		luck = 0,
+		id = 12100501,
+		cannon_growth = 560,
+		pilot_ai_template_id = 20005,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 10,
+		torpedo = 36,
+		durability_growth = 13200,
+		luck_growth = 0,
+		antiaircraft_growth = 1000,
+		appear_fx = {
+			"appearsmall"
+		},
+		specific_fx_scale = {},
+		equipment_list = {
+			1100104,
+			1100498
+		}
+	},
+	[12100502] = {
+		cannon = 21,
+		luck = 0,
+		luck_growth = 0,
+		speed_growth = 0,
+		air_growth = 0,
+		air = 0,
+		battle_unit_type = 35,
+		hit_growth = 144,
+		antisub = 0,
+		bubble_fx = "",
+		bubble_initial = 0,
+		remarks = "【绊爱联动SP5】妙高级量产型",
+		dodge_growth = 0,
+		star = 2,
+		antisub_growth = 0,
+		rarity = 2,
+		base = 136,
+		durability = 1700,
+		armor_growth = 0,
+		torpedo_growth = 1250,
+		bubble_interval = 0,
+		speed = 15,
+		armor = 0,
+		id = 12100502,
+		cannon_growth = 1800,
+		pilot_ai_template_id = 20005,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 10,
+		torpedo = 18,
+		durability_growth = 36800,
+		antiaircraft = 125,
+		antiaircraft_growth = 1400,
+		appear_fx = {},
+		specific_fx_scale = {},
+		equipment_list = {
+			1100044,
+			1100574,
+			1100458
+		}
+	},
+	[12100503] = {
+		cannon = 47,
+		luck = 0,
+		luck_growth = 0,
+		speed_growth = 0,
+		air_growth = 0,
+		air = 0,
+		battle_unit_type = 60,
+		hit_growth = 144,
+		antisub = 0,
+		bubble_fx = "",
+		bubble_initial = 0,
+		remarks = "【绊爱联动SP5】扶桑级量产型",
+		dodge_growth = 0,
+		star = 2,
+		antisub_growth = 0,
+		rarity = 2,
+		base = 137,
+		durability = 5270,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		bubble_interval = 0,
+		speed = 15,
+		armor = 0,
+		id = 12100503,
+		cannon_growth = 2200,
+		pilot_ai_template_id = 20005,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 10,
+		torpedo = 0,
+		durability_growth = 70400,
+		antiaircraft = 135,
+		antiaircraft_growth = 1400,
+		appear_fx = {},
+		specific_fx_scale = {},
+		equipment_list = {
+			1100578,
+			100507
+		}
+	},
+	[12100504] = {
+		cannon = 0,
+		luck = 0,
+		luck_growth = 0,
+		speed_growth = 0,
+		air_growth = 0,
+		air = 0,
+		battle_unit_type = 20,
+		hit_growth = 120,
+		antisub = 0,
+		bubble_fx = "",
+		bubble_initial = 0,
+		remarks = "【绊爱联动SP5】物资船",
+		dodge_growth = 0,
+		star = 1,
+		antisub_growth = 0,
+		rarity = 1,
+		base = 90,
+		durability = 850,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		bubble_interval = 0,
+		speed = 30,
+		armor = 0,
+		id = 12100504,
+		cannon_growth = 0,
+		pilot_ai_template_id = 20001,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 8,
+		torpedo = 0,
+		durability_growth = 6800,
+		antiaircraft = 0,
+		antiaircraft_growth = 0,
+		appear_fx = {
+			"appearsmall"
+		},
+		specific_fx_scale = {},
+		equipment_list = {}
+	},
+	[12100505] = {
+		cannon = 0,
+		antisub = 0,
+		antiaircraft = 0,
+		speed_growth = 0,
+		battle_unit_type = 35,
+		air = 0,
+		armor = 0,
+		hit_growth = 120,
+		air_growth = 0,
+		bubble_fx = "",
+		bubble_initial = 0,
+		remarks = "【绊爱联动SP5】鱼雷艇",
+		dodge_growth = 0,
+		star = 1,
+		antisub_growth = 0,
+		rarity = 1,
+		base = 70,
+		durability = 320,
+		armor_growth = 0,
+		torpedo_growth = 864,
+		bubble_interval = 0,
+		speed = 15,
+		luck = 0,
+		id = 12100505,
+		wave_fx = "danchuanlanghuaxiao2",
+		cannon_growth = 0,
+		pilot_ai_template_id = 20001,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 8,
+		torpedo = 70,
+		durability_growth = 2550,
+		luck_growth = 0,
+		antiaircraft_growth = 0,
+		appear_fx = {
+			"appearsmall"
+		},
+		specific_fx_scale = {},
+		equipment_list = {
+			540100
+		}
+	},
+	[12100506] = {
+		cannon = 100,
+		luck = 0,
+		luck_growth = 0,
+		speed_growth = 0,
+		air_growth = 0,
+		air = 0,
+		battle_unit_type = 15,
+		hit_growth = 1200,
+		antisub = 0,
+		bubble_fx = "",
+		bubble_initial = 0,
+		remarks = "【绊爱联动SP5】自爆船",
+		dodge_growth = 0,
+		star = 1,
+		antisub_growth = 0,
+		rarity = 1,
+		base = 138,
+		durability = 90,
+		armor_growth = 0,
+		torpedo_growth = 900,
+		bubble_interval = 0,
+		speed = 30,
+		armor = 0,
+		id = 12100506,
+		cannon_growth = 0,
+		pilot_ai_template_id = 80000,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 81,
+		torpedo = 180,
+		durability_growth = 2550,
+		antiaircraft = 0,
+		antiaircraft_growth = 0,
+		appear_fx = {
+			"appearsmall"
+		},
+		specific_fx_scale = {},
+		equipment_list = {
+			540101
+		}
+	},
+	[12100507] = {
+		cannon = 45,
+		luck_growth = 0,
+		battle_unit_type = 50,
+		speed_growth = 0,
+		drop_id = 10011,
+		air = 0,
+		armor = 0,
+		air_growth = 0,
+		hit_growth = 350,
+		id = 12100507,
+		dodge_growth = 450,
+		bubble_fx = "",
+		star = 5,
+		bubble_initial = 0,
+		antisub_growth = 0,
+		rarity = 5,
+		remarks = "【绊爱联动SP5】绊爱——驱逐",
+		base = 356,
+		durability = 4340,
+		armor_growth = 0,
+		torpedo_growth = 5200,
+		bubble_interval = 0,
+		speed = 36,
+		luck = 0,
+		antisub = 0,
+		cannon_growth = 640,
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		dodge = 28,
+		reload_growth = 0,
+		hit = 30,
+		torpedo = 135,
+		durability_growth = 23600,
+		antiaircraft = 125,
+		antiaircraft_growth = 3000,
+		appear_fx = {
+			"appearQ"
+		},
+		specific_fx_scale = {},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-0.26,
+							0.686,
+							-0.081
+						}
+					}
+				}
+			},
+			{
+				40,
+				{
+					{
+						"smoke",
+						{
+							-0.46,
+							0.486,
+							-0.481
+						}
+					},
+					{
+						"smoke",
+						{
+							0.54,
+							0.486,
+							-0.481
+						}
+					}
+				}
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.088,
+					0.917,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.694,
+					0.853,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.088,
+					0.917,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.096,
+					3.156,
+					0
+				}
+			}
+		},
+		equipment_list = {
+			1100059,
+			1100104,
+			1100168,
+			1100498
+		}
+	},
+	[12100508] = {
+		cannon = 74,
+		luck = 0,
+		luck_growth = 0,
+		speed_growth = 0,
+		air_growth = 0,
+		air = 0,
+		battle_unit_type = 55,
+		hit_growth = 210,
+		antisub = 0,
+		bubble_fx = "",
+		bubble_initial = 0,
+		remarks = "【绊爱联动SP5】绊爱——轻巡",
+		dodge_growth = 162,
+		star = 4,
+		antisub_growth = 0,
+		rarity = 4,
+		base = 357,
+		durability = 5270,
+		armor_growth = 0,
+		torpedo_growth = 3366,
+		bubble_interval = 0,
+		speed = 24,
+		armor = 0,
+		id = 12100508,
+		cannon_growth = 936,
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		dodge = 11,
+		reload_growth = 0,
+		hit = 14,
+		torpedo = 112,
+		durability_growth = 33600,
+		antiaircraft = 255,
+		antiaircraft_growth = 3744,
+		appear_fx = {
+			"appearQ"
+		},
+		specific_fx_scale = {},
+		equipment_list = {
+			1100508,
+			1100104,
+			1100278
+		}
+	},
+	[12100509] = {
+		cannon = 120,
+		battle_unit_type = 65,
+		antiaircraft = 212,
+		speed_growth = 0,
+		drop_id = 10016,
+		air = 0,
+		armor = 0,
+		air_growth = 0,
+		hit_growth = 350,
+		antisub = 0,
+		bubble_fx = "",
+		bubble_initial = 0,
+		dodge_growth = 170,
+		remarks = "【绊爱联动SP5】绊爱——战列",
+		star = 4,
+		antisub_growth = 0,
+		rarity = 4,
+		base = 358,
+		durability = 9010,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		bubble_interval = 0,
+		speed = 14,
+		luck = 0,
+		id = 12100509,
+		cannon_growth = 3600,
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		dodge = 17,
+		reload_growth = 0,
+		hit = 30,
+		torpedo = 0,
+		durability_growth = 68000,
+		luck_growth = 0,
+		antiaircraft_growth = 4680,
+		appear_fx = {
+			"appearQ"
+		},
+		specific_fx_scale = {},
+		equipment_list = {
+			1100023,
+			1100628,
+			1100044,
+			1100733
+		}
+	},
+	[12100510] = {
+		cannon = 86,
+		luck = 0,
+		luck_growth = 0,
+		speed_growth = 0,
+		air_growth = 4500,
+		air = 145,
+		battle_unit_type = 70,
+		hit_growth = 350,
+		antisub = 0,
+		bubble_fx = "",
+		bubble_initial = 0,
+		remarks = "【绊爱联动SP5】绊爱——航母",
+		dodge_growth = 120,
+		star = 5,
+		antisub_growth = 0,
+		rarity = 4,
+		base = 359,
+		durability = 7820,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		bubble_interval = 0,
+		speed = 16,
+		armor = 0,
+		id = 12100510,
+		cannon_growth = 0,
+		pilot_ai_template_id = 70054,
+		reload = 150,
+		dodge = 15,
+		reload_growth = 0,
+		hit = 30,
+		torpedo = 0,
+		durability_growth = 59600,
+		antiaircraft = 230,
+		antiaircraft_growth = 5280,
+		appear_fx = {
+			"bossguangxiao",
+			"appearQ"
+		},
+		specific_fx_scale = {},
+		equipment_list = {
+			1100024,
+			1100173,
+			1100799,
+			1100804,
+			1100808
+		}
+	},
+	[12100511] = {
+		cannon = 115,
+		battle_unit_type = 90,
+		antiaircraft = 280,
+		speed_growth = 0,
+		drop_id = 10011,
+		air = 0,
+		armor = 0,
+		air_growth = 0,
+		hit_growth = 210,
+		antisub = 0,
+		bubble_fx = "",
+		bubble_initial = 0,
+		dodge_growth = 156,
+		remarks = "【绊爱联动SP5】精英 – 命运女神",
+		star = 6,
+		antisub_growth = 0,
+		rarity = 5,
+		base = 348,
+		durability = 11920,
+		armor_growth = 0,
+		torpedo_growth = 2000,
+		bubble_interval = 0,
+		speed = 20,
+		luck = 18,
+		id = 12100511,
+		cannon_growth = 1600,
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		dodge = 11,
+		reload_growth = 0,
+		hit = 20,
+		torpedo = 165,
+		durability_growth = 196000,
+		luck_growth = 0,
+		antiaircraft_growth = 3600,
+		appear_fx = {
+			"bossguangxiao",
+			"appearQ"
+		},
+		specific_fx_scale = {},
+		equipment_list = {
+			1100178,
+			1100318,
+			1101504,
+			1101509,
+			1101513
+		}
+	},
+	[12100512] = {
+		cannon = 150,
+		luck = 18,
+		luck_growth = 0,
+		speed_growth = 0,
+		air_growth = 0,
+		air = 0,
+		battle_unit_type = 90,
+		hit_growth = 210,
+		antisub = 0,
+		bubble_fx = "",
+		bubble_initial = 0,
+		remarks = "【绊爱联动SP5】精英 – 高雄",
+		dodge_growth = 156,
+		star = 5,
+		antisub_growth = 0,
+		rarity = 4,
+		base = 349,
+		durability = 14810,
+		armor_growth = 0,
+		torpedo_growth = 1500,
+		bubble_interval = 0,
+		speed = 20,
+		armor = 0,
+		id = 12100512,
+		cannon_growth = 2000,
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		dodge = 11,
+		reload_growth = 0,
+		hit = 20,
+		torpedo = 105,
+		durability_growth = 270400,
+		antiaircraft = 205,
+		antiaircraft_growth = 3200,
+		appear_fx = {},
+		specific_fx_scale = {},
+		equipment_list = {
+			1100028,
+			1101519,
+			1100498,
+			1101524,
+			1100623
+		}
+	},
+	[12100513] = {
+		cannon = 150,
+		luck = 18,
+		luck_growth = 0,
+		speed_growth = 0,
+		air_growth = 0,
+		air = 0,
+		battle_unit_type = 90,
+		hit_growth = 210,
+		antisub = 0,
+		bubble_fx = "",
+		bubble_initial = 0,
+		remarks = "【绊爱联动SP5】精英 – 欧根亲王",
+		dodge_growth = 156,
+		star = 6,
+		antisub_growth = 0,
+		rarity = 5,
+		base = 350,
+		durability = 14810,
+		armor_growth = 0,
+		torpedo_growth = 1500,
+		bubble_interval = 0,
+		speed = 20,
+		armor = 0,
+		id = 12100513,
+		cannon_growth = 2000,
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		dodge = 11,
+		reload_growth = 0,
+		hit = 20,
+		torpedo = 105,
+		durability_growth = 270400,
+		antiaircraft = 205,
+		antiaircraft_growth = 3200,
+		appear_fx = {
+			"bossguangxiao",
+			"appearQ"
+		},
+		specific_fx_scale = {},
+		equipment_list = {
+			1101544,
+			1101548,
+			1101554,
+			1101558
+		}
+	},
+	[12100514] = {
+		cannon = 135,
+		battle_unit_type = 90,
+		antiaircraft = 260,
+		speed_growth = 0,
+		drop_id = 10015,
+		air = 210,
+		armor = 0,
+		air_growth = 3500,
+		hit_growth = 210,
+		antisub = 0,
+		bubble_fx = "",
+		bubble_initial = 0,
+		dodge_growth = 156,
+		remarks = "【绊爱联动SP5】精英 – 翔鹤",
+		star = 6,
+		antisub_growth = 0,
+		rarity = 5,
+		base = 351,
+		durability = 17240,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		bubble_interval = 0,
+		speed = 20,
+		luck = 18,
+		id = 12100514,
+		cannon_growth = 0,
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		dodge = 11,
+		reload_growth = 0,
+		hit = 20,
+		torpedo = 0,
+		durability_growth = 312000,
+		luck_growth = 0,
+		antiaircraft_growth = 3200,
+		appear_fx = {
+			"appearQ"
+		},
+		specific_fx_scale = {},
+		equipment_list = {
+			1100024,
+			1100313,
+			1100354,
+			1100854,
+			1100858,
+			1100864
+		}
+	},
+	[12100521] = {
+		cannon = 200,
+		luck = 30,
+		luck_growth = 0,
+		speed_growth = 0,
+		air_growth = 0,
+		air = 0,
+		battle_unit_type = 95,
+		hit_growth = 210,
+		antisub = 0,
+		bubble_fx = "",
+		bubble_initial = 0,
+		remarks = "【绊爱联动SP5】BOSS-绊爱",
+		dodge_growth = 228,
+		star = 6,
+		antisub_growth = 0,
+		rarity = 6,
+		base = 354,
+		durability = 104000,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		bubble_interval = 0,
+		speed = 22,
+		armor = 0,
+		id = 12100521,
+		cannon_growth = 0,
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		dodge = 75,
+		reload_growth = 0,
+		hit = 45,
+		torpedo = 450,
+		durability_growth = 0,
+		antiaircraft = 360,
+		antiaircraft_growth = 0,
+		appear_fx = {
+			"bossguangxiao",
+			"appearQ"
+		},
+		specific_fx_scale = {},
+		equipment_list = {
+			609050,
+			609051,
+			609052,
+			609056,
+			609057,
+			609058
+		}
+	},
+	[12100621] = {
+		cannon = 160,
+		luck = 50,
+		luck_growth = 0,
+		speed_growth = 0,
+		air_growth = 0,
+		air = 0,
+		battle_unit_type = 95,
+		hit_growth = 210,
+		antisub = 0,
+		bubble_fx = "",
+		bubble_initial = 0,
+		remarks = "【绊爱联动EX】BOSS-绊爱",
+		dodge_growth = 462,
+		star = 6,
+		antisub_growth = 0,
+		rarity = 6,
+		base = 360,
+		durability = 200000,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		bubble_interval = 0,
+		speed = 24,
+		armor = 0,
+		id = 12100621,
+		cannon_growth = 0,
+		pilot_ai_template_id = 70040,
+		reload = 150,
+		dodge = 35,
+		reload_growth = 0,
+		hit = 9999,
+		torpedo = 240,
+		durability_growth = 0,
+		antiaircraft = 220,
+		antiaircraft_growth = 0,
+		appear_fx = {
+			"bossguangxiao",
+			"appearQ"
+		},
+		specific_fx_scale = {},
+		equipment_list = {}
+	},
 	[900001] = {
 		luck_growth = 0,
 		luck = 0,
@@ -164462,6 +170722,10 @@ pg.enemy_data_statistics = {
 		132,
 		133,
 		134,
+		135,
+		136,
+		137,
+		138,
 		150,
 		151,
 		152,
@@ -164659,6 +170923,20 @@ pg.enemy_data_statistics = {
 		344,
 		345,
 		346,
+		347,
+		348,
+		349,
+		350,
+		351,
+		352,
+		353,
+		354,
+		355,
+		356,
+		357,
+		358,
+		359,
+		360,
 		400,
 		401,
 		402,
@@ -164744,6 +171022,16 @@ pg.enemy_data_statistics = {
 		742,
 		743,
 		744,
+		901,
+		902,
+		903,
+		904,
+		905,
+		911,
+		912,
+		913,
+		914,
+		915,
 		1000,
 		1001,
 		1002,
@@ -167069,6 +173357,78 @@ pg.enemy_data_statistics = {
 		12000306,
 		12000307,
 		12000331,
+		12100101,
+		12100102,
+		12100103,
+		12100104,
+		12100105,
+		12100106,
+		12100107,
+		12100108,
+		12100109,
+		12100110,
+		12100111,
+		12100121,
+		12100201,
+		12100202,
+		12100203,
+		12100204,
+		12100205,
+		12100206,
+		12100207,
+		12100208,
+		12100209,
+		12100210,
+		12100211,
+		12100221,
+		12100301,
+		12100302,
+		12100303,
+		12100304,
+		12100305,
+		12100306,
+		12100307,
+		12100308,
+		12100309,
+		12100310,
+		12100311,
+		12100321,
+		12100322,
+		12100323,
+		12100401,
+		12100402,
+		12100403,
+		12100404,
+		12100405,
+		12100406,
+		12100407,
+		12100408,
+		12100409,
+		12100410,
+		12100411,
+		12100412,
+		12100413,
+		12100414,
+		12100415,
+		12100416,
+		12100417,
+		12100421,
+		12100501,
+		12100502,
+		12100503,
+		12100504,
+		12100505,
+		12100506,
+		12100507,
+		12100508,
+		12100509,
+		12100510,
+		12100511,
+		12100512,
+		12100513,
+		12100514,
+		12100521,
+		12100621,
 		900001,
 		900002,
 		900003,

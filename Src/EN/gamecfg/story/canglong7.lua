@@ -11,65 +11,20 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"苍龙个人角色物语\n\n<size=30>七 占坑</size>",
+					"与{namecode:93}共度的时光\n\n<size=30>七 不变与变化（下）</size>",
 					1
 				}
 			}
 		},
 		{
+			bgName = "bg_night",
 			side = 2,
-			dir = 1,
-			blackBg = true,
-			say = "她们是拥有人类之型，钢铁之躯的战斗少女 ",
-			flashout = {
-				dur = 1,
-				black = true,
-				alpha = {
-					0,
-					1
-				}
-			},
-			flashin = {
-				delay = 1,
-				dur = 1,
-				black = true,
-				alpha = {
-					1,
-					0
-				}
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			dir = 1,
-			blackBg = true,
-			say = "曾在那次大战中大显身手，如今以心智魔方的力量变成人形，",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			dir = 1,
-			blackBg = true,
-			say = "活跃在与全人类的敌人——塞壬的战斗之中",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
-			bgm = "story-1",
-			say = "港区・仓库",
+			bgm = "story-2",
+			actor = 307030,
+			nameColor = "#a9f548",
+			say = "今天的路上，大家都用很不可思议的眼光在看着我们呢。",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -90,194 +45,253 @@ return {
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			bgName = "bg_story_task",
-			dir = 1,
-			say = "灰头土脸的指挥官正拼命翻找着收在仓库深处的某个稀有装备。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			bgName = "bg_story_task",
-			dir = 1,
-			say = "咚！当！咣咣！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			bgName = "bg_story_task",
-			dir = 1,
-			say = "……找东西的过程好像并不怎么顺利。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			bgName = "bg_story_task",
-			dir = 1,
-			say = "面对着垒的如同小山一样高资源材料和装备，指挥官已经精疲力尽并且摇摇欲坠了。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#a9f548",
-			actorName = "???",
-			bgName = "bg_story_task",
-			side = 2,
-			dir = 1,
-			say = "……危险！",
-			dialogShake = {
-				speed = 0.1,
-				x = 9.5,
-				number = 2
 			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
+			painting = {
+				alpha = 0.3,
+				time = 1
 			}
 		},
 		{
 			side = 2,
-			bgName = "bg_story_task",
+			bgName = "bg_night",
 			dir = 1,
-			say = "光芒一闪。从某处放出的式神劈开浑浊的空气，然后——",
-			flashN = {
-				color = {
-					1,
-					1,
-					1
-				},
-				alpha = {
-					{
-						0,
-						1,
-						0.5
-					},
-					{
-						1,
-						0,
-						0.5,
-						0.5
-					}
-				}
-			},
+			say = "确实，几乎每个人看到今天的{namecode:93}都露出了惊讶的表情。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
+			actor = 307030,
 			side = 2,
-			bgName = "bg_story_task",
-			dir = 1,
-			say = "在指挥官被砸中之前，式神便完美接住了从高处掉下的材料。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
+			bgName = "bg_night",
 			nameColor = "#a9f548",
-			bgName = "bg_story_task",
-			side = 2,
 			dir = 1,
-			actorName = "???",
-			say = "天在呼唤！地在呼唤！人在呼唤！千钧一发需要帮助的主公也在呼唤！",
-			effects = {
+			say = "是的，我应该是板着脸督促指挥官好好工作的形象。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 307030,
+			side = 2,
+			bgName = "bg_night",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "而不应该是在和指挥官的约会中露出笑容的形象。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 307030,
+			side = 2,
+			bgName = "bg_night",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "但是，我为什么不能呢？",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "bg_night",
+			withoutActorName = true,
+			actor = 307030,
+			nameColor = "#a9f548",
+			say = "{namecode:93}扶了一下眼镜，直视着这边。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 307030,
+			side = 2,
+			bgName = "bg_night",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "我的指挥官变得越来越出色，不再是我需要督促的存在，而仅仅需要我的辅佐。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 307030,
+			side = 2,
+			bgName = "bg_night",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "闲暇的时候，还会主动来找我，陪我玩我唯一的爱好花札。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 307030,
+			side = 2,
+			bgName = "bg_night",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "我会想要为这样的人改变，会喜欢上这样的人，不是理所当然的事情吗？",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "bg_night",
+			withoutActorName = true,
+			actor = 307030,
+			nameColor = "#a9f548",
+			say = "虽然做着大胆的表白，然而{namecode:93}的脸上却没有丝毫羞涩。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			bgName = "bg_night",
+			dir = 1,
+			actor = 307030,
+			nameColor = "#a9f548",
+			say = "指挥官，你还记得之前我和{namecode:94}的对话吧？",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			options = {
 				{
-					active = true,
-					name = "speed"
+					content = "点头",
+					flag = 1
 				}
+			}
+		},
+		{
+			actor = 307030,
+			side = 2,
+			bgName = "bg_night",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "能让我改变想法，想要为所谓女子力而努力的人，就是你。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
 			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
+			painting = {
+				alpha = 0.3,
+				time = 1
 			}
 		},
 		{
-			actorName = "???",
+			dir = 1,
 			side = 2,
-			bgName = "bg_story_task",
+			bgName = "bg_night",
+			withoutActorName = true,
+			actor = 307030,
+			nameColor = "#a9f548",
+			say = "原来如此，以为是自己适应了{namecode:93}的节奏，实际上，自己也悄悄影响了{namecode:93}吗……",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 307030,
+			side = 2,
+			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "日出之国的武士，轻航母{namecode:90}，前来参见！",
+			say = "指挥官呢，对我是怎么想的？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
 			}
 		},
 		{
-			actorName = "???",
+			dir = 1,
 			side = 2,
-			bgName = "bg_story_task",
+			bgName = "bg_night",
+			withoutActorName = true,
+			actor = 307030,
 			nameColor = "#a9f548",
-			dir = 1,
-			say = "……的说！",
+			say = "对{namecode:93}的心意，自然不必多说，但是这个时候，果然还是应该……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			bgName = "bg_story_task",
-			dir = 1,
-			say = "如同白昼一般的出场效果闪光。",
-			flashN = {
-				color = {
-					1,
-					1,
-					1
-				},
-				alpha = {
-					{
-						0,
-						1,
-						0.5
-					},
-					{
-						1,
-						0,
-						0.5,
-						0.5
-					}
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			options = {
+				{
+					content = "回去来一局花札吧！",
+					flag = 1
 				}
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
 			}
 		},
 		{
 			side = 2,
-			bgName = "bg_story_task",
+			bgName = "bg_night",
 			dir = 1,
-			say = "（爆炸效果……果然还是算了吧）",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			bgName = "bg_story_task",
-			dir = 1,
-			actor = 306061,
+			actor = 307030,
 			nameColor = "#a9f548",
-			say = "主公！您没事吗？吾也来帮忙！",
+			say = "…………噗。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,14 +312,36 @@ return {
 			}
 		},
 		{
+			actor = 307030,
 			side = 2,
-			bgName = "bg_story_task",
+			bgName = "bg_night",
+			nameColor = "#a9f548",
 			dir = 1,
-			blackBg = true,
-			say = "秘书舰{namecode:90}，今天也在努力保护指挥官！",
+			say = "不愧是指挥官。说的也是，既然是从花札开始，那就用花札来延续吧……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			bgName = "bg_night",
+			dir = 1,
+			blackBg = true,
+			actor = 307030,
+			nameColor = "#a9f548",
+			say = "指挥官要是能从我手里赢下一局的话，我什么都答应你哦？",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
 			}
 		}
 	}

@@ -84,7 +84,8 @@ slot9 = {
 	nil,
 	nil,
 	nil,
-	7
+	7,
+	3
 }
 slot10 = {
 	1,

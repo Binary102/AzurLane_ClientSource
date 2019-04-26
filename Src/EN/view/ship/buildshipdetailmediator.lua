@@ -18,7 +18,7 @@ function slot0.register(slot0)
 		slot0:sendNotification(GAME.BUILD_SHIP_IMMEDIATELY, {
 			pos = slot1,
 			anim = function (slot0)
-				slot0.viewComponent:playGetShipAnimate(slot0)
+				slot0.viewComponent:playGetShipAnimate(slot0, pos)
 			end
 		})
 
@@ -31,7 +31,7 @@ function slot0.register(slot0)
 		slot0:sendNotification(GAME.GET_SHIP, {
 			pos = slot1,
 			anim = function (slot0)
-				slot0.viewComponent:playGetShipAnimate(slot0)
+				slot0.viewComponent:playGetShipAnimate(slot0, pos)
 			end
 		})
 	end)

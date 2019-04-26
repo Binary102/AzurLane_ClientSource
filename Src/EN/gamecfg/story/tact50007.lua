@@ -13,7 +13,7 @@ return {
 			}
 		},
 		{
-			actor = 103091,
+			actor = 103090,
 			nameColor = "#a9f548",
 			say = "Astoria!",
 			side = 2,
@@ -38,7 +38,7 @@ return {
 			}
 		},
 		{
-			actor = 103081,
+			actor = 103080,
 			side = 1,
 			say = "I'm all right... I can still keep fighting!",
 			nameColor = "#a9f548",
@@ -56,7 +56,7 @@ return {
 			}
 		},
 		{
-			actor = 103101,
+			actor = 103100,
 			side = 1,
 			nameColor = "#a9f548",
 			say = "Sis... Ugh...",
@@ -70,7 +70,7 @@ return {
 			}
 		},
 		{
-			actor = 103081,
+			actor = 103080,
 			side = 1,
 			nameColor = "#a9f548",
 			say = "It'll be okay, Vincennes!",
@@ -84,7 +84,7 @@ return {
 			}
 		},
 		{
-			actor = 103081,
+			actor = 103080,
 			side = 1,
 			nameColor = "#a9f548",
 			say = "Heh. I'm lucky to have sisters like you two in such a tough fight. Otherwise I wouldn't be able to keep myself from crying.",
@@ -98,7 +98,7 @@ return {
 			}
 		},
 		{
-			actor = 103091,
+			actor = 103090,
 			side = 0,
 			nameColor = "#a9f548",
 			say = "Astoria... Big sister, that's right...",
@@ -112,7 +112,7 @@ return {
 			}
 		},
 		{
-			actor = 103101,
+			actor = 103100,
 			side = 1,
 			nameColor = "#a9f548",
 			say = "Mm... as long as we're all together, Vincennes will also...",
@@ -126,7 +126,7 @@ return {
 			}
 		},
 		{
-			actor = 103081,
+			actor = 103080,
 			side = 2,
 			nameColor = "#a9f548",
 			say = "All right, let's make our final counterattack!",

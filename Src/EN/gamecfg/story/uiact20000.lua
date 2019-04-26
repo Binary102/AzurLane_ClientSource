@@ -27,7 +27,7 @@ return {
 			say = "……",
 			nameColor = "#ff0000",
 			blackBg = true,
-			actor = 107061,
+			actor = 107060,
 			actorName = "???",
 			withoutPainting = true,
 			shake = {
@@ -48,7 +48,7 @@ return {
 			say = "Wake up. The battle is about to begin.",
 			nameColor = "#ff0000",
 			blackBg = true,
-			actor = 107061,
+			actor = 107060,
 			actorName = "???",
 			withoutPainting = true,
 			shake = {
@@ -69,7 +69,7 @@ return {
 			say = "………",
 			nameColor = "#ff0000",
 			blackBg = true,
-			actor = 107061,
+			actor = 107060,
 			actorName = "???",
 			withoutPainting = true,
 			shake = {
@@ -86,7 +86,7 @@ return {
 			}
 		},
 		{
-			actor = 405021,
+			actor = 405020,
 			side = 0,
 			nameColor = "#ff0000",
 			blackBg = true,
@@ -105,7 +105,7 @@ return {
 			}
 		},
 		{
-			actor = 405021,
+			actor = 405020,
 			side = 0,
 			nameColor = "#ff0000",
 			blackBg = true,
@@ -128,7 +128,7 @@ return {
 			say = "A dream...? Nonsense. A mere Pawn like you does not dream. Even if you did, it would merely be a fragment of your own thoughts, like a hallucination.",
 			dir = -1,
 			blackBg = true,
-			actor = 407011,
+			actor = 407010,
 			nameColor = "#ff0000",
 			paintingFadeOut = {
 				time = 0.5,
@@ -148,7 +148,7 @@ return {
 			}
 		},
 		{
-			actor = 403041,
+			actor = 403040,
 			side = 2,
 			nameColor = "#ff0000",
 			blackBg = true,
@@ -167,7 +167,7 @@ return {
 			}
 		},
 		{
-			actor = 403041,
+			actor = 403040,
 			side = 2,
 			nameColor = "#ff0000",
 			blackBg = true,
@@ -186,7 +186,7 @@ return {
 			}
 		},
 		{
-			actor = 403041,
+			actor = 403040,
 			side = 2,
 			nameColor = "#ff0000",
 			blackBg = true,
@@ -208,7 +208,7 @@ return {
 			side = 0,
 			say = "Sacrificed, huh...",
 			blackBg = true,
-			actor = 405021,
+			actor = 405020,
 			nameColor = "#ff0000",
 			paintingFadeOut = {
 				time = 0.5,
@@ -228,7 +228,7 @@ return {
 			}
 		},
 		{
-			actor = 403041,
+			actor = 403040,
 			side = 1,
 			nameColor = "#ff0000",
 			blackBg = true,
@@ -247,7 +247,7 @@ return {
 			}
 		},
 		{
-			actor = 403041,
+			actor = 403040,
 			side = 1,
 			nameColor = "#ff0000",
 			blackBg = true,

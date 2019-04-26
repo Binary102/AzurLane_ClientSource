@@ -46,7 +46,7 @@ return {
 			}
 		},
 		{
-			actor = 101291,
+			actor = 101290,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -65,7 +65,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 101291,
+			actor = 101290,
 			nameColor = "#a9f548",
 			say = "The candy on the table also tastes so good!",
 			typewriter = {
@@ -92,7 +92,7 @@ return {
 			side = 0,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 301321,
+			actor = 301320,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -112,7 +112,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 904011,
+			actor = 904010,
 			nameColor = "#a9f548",
 			say = "I've kept you all waiting. The unique specialty desserts are now being served.",
 			typewriter = {
@@ -139,7 +139,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgName = "bg_story_room",
-			actor = 904011,
+			actor = 904010,
 			nameColor = "#a9f548",
 			say = "Were the desserts today to everyone's liking? I hope that I was able to satisfy your tastes.",
 			flashout = {
@@ -173,7 +173,7 @@ return {
 			side = 0,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 301321,
+			actor = 301320,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -192,7 +192,7 @@ return {
 			side = 1,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 101291,
+			actor = 101290,
 			nameColor = "#a9f548",
 			say = "Miss Dunkirk makes the best macarons of all!",
 			typewriter = {
@@ -235,7 +235,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "(Haaah~)",
 			typewriter = {
@@ -252,7 +252,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "Mmmh~ So delicious~ *chews*",
 			typewriter = {
@@ -269,7 +269,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "(But if I eat too many macarons, I'll get tired of them.))",
 			typewriter = {
@@ -286,7 +286,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "(After all, macarons are just a snack. I want to eat something drizzled with cream after all...)",
 			typewriter = {
@@ -303,7 +303,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "Ah, hehe~ Commander, I didn't say anything~",
 			typewriter = {
@@ -320,7 +320,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "(Haaah~)",
 			typewriter = {

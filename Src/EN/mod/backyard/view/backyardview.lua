@@ -152,7 +152,6 @@ function slot0.enableDecorateMode(slot0, slot1)
 	for slot5, slot6 in slot2(slot3) do
 		if not slot0.furnitureVOs[slot5]:canBeTouch() then
 			slot6:Find("icon"):GetComponent(typeof(Image)).raycastTarget = slot1
-			GetOrAddComponent(slot6:Find("icon"), typeof(CanvasGroup)).blocksRaycasts = slot1
 		end
 	end
 
@@ -430,45 +429,52 @@ function slot0.initFurnitures(slot0)
 	slot2 = {}
 	slot3 = {}
 	slot4 = {}
+	slot5 = {}
+	slot6 = {}
+	slot7 = {}
+	slot8 = {}
+	slot9 = {}
 
-	for slot8, slot9 in pairs(slot0.furnitureVOs) do
-		if slot9:hasParent() then
-			table.insert(slot4, slot9)
-		elseif slot9:isStageFurniture() then
-			table.insert(slot2, slot9)
+	for slot13, slot14 in pairs(slot0.furnitureVOs) do
+		if slot14:hasParent() and slot14:hasChild() then
+			table.insert(slot4, slot14)
+		elseif slot14:hasParent() then
+			table.insert(slot5, slot14)
+		elseif slot14:isStageFurniture() then
+			table.insert(slot2, slot14)
 		else
-			table.insert(slot3, slot9)
+			table.insert(slot3, slot14)
 		end
 	end
 
-	slot5 = {}
-
-	for slot9, slot10 in ipairs(slot2) do
-		table.insert(slot5, function (slot0)
-			slot0(slot0, slot0)
-		end)
-	end
-
-	slot6 = {}
-
-	for slot10, slot11 in ipairs(slot3) do
+	for slot13, slot14 in ipairs(slot2) do
 		table.insert(slot6, function (slot0)
 			slot0(slot0, slot0)
 		end)
 	end
 
-	slot7 = {}
-
-	for slot11, slot12 in ipairs(slot4) do
+	for slot13, slot14 in ipairs(slot3) do
 		table.insert(slot7, function (slot0)
 			slot0(slot0, slot0)
 		end)
 	end
 
-	slot8 = {}
-
-	for slot12, slot13 in pairs(slot0.boatVOs) do
+	for slot13, slot14 in ipairs(slot4) do
 		table.insert(slot8, function (slot0)
+			slot0(slot0, slot0)
+		end)
+	end
+
+	for slot13, slot14 in ipairs(slot5) do
+		table.insert(slot9, function (slot0)
+			slot0(slot0, slot0)
+		end)
+	end
+
+	slot10 = {}
+
+	for slot14, slot15 in pairs(slot0.boatVOs) do
+		table.insert(slot10, function (slot0)
 			onNextTick(function ()
 				slot0:loadBoatModal(slot0, )
 			end)
@@ -486,6 +492,9 @@ function slot0.initFurnitures(slot0)
 		end,
 		function (slot0)
 			parallelAsync(slot0, slot0)
+		end,
+		function (slot0)
+			seriesAsync(slot0, slot0)
 		end,
 		function (slot0)
 			seriesAsync(slot0, slot0)
@@ -735,33 +744,24 @@ end
 function slot0.loadSpineAnimator(slot0, slot1, slot2)
 	if slot1:hasAnimator() then
 		slot3 = {}
-		slot5 = slot1:getAnimatorData()
-		slot6 = slot0.furnitureModals[slot1.id]
+		slot5 = slot0.furnitureModals[slot1.id]
 
-		for slot10 = 1, slot1:getSpineMaxCnt(), 1 do
-			table.insert(slot3, function (slot0)
-				if not slot0[] then
-					slot1 = slot0[1]
-				end
+		for slot9 = 1, slot1:getSpineMaxCnt(), 1 do
+			for slot14, slot15 in ipairs(slot10) do
+				table.insert(slot3, function (slot0)
+					LoadAndInstantiateAsync("sfurniture", slot0, function (slot0)
+						go(slot0).name = slot0:getAnimtorControlGoName(slot1 - 1, slot0)
 
-				LoadAndInstantiateAsync("sfurniture", slot1, function (slot0)
-					if slot0 == 1 then
-						slot1 = "animator"
-					else
-						slot1 = "animator" .. slot0 - 1
-					end
+						setActive(slot0, false)
+						SetParent(slot0, )
+						slot0()
 
-					go(slot0).name = slot1
-
-					setActive(slot0, false)
-					SetParent(slot0, slot1)
-					SetParent()
+						return
+					end)
 
 					return
 				end)
-
-				return
-			end)
+			end
 		end
 
 		parallelAsync(slot3, function ()
@@ -982,6 +982,7 @@ function slot0.showFurnitrueDesc(slot0, slot1)
 		slot0.miniIcon = findTF(slot0.miniPanel, "bg1/frame/icon"):GetComponent(typeof(Image))
 		slot0.miniName = findTF(slot0.miniPanel, "name_container/Text"):GetComponent(typeof(Text))
 		slot0.descPanelParent = slot0.descPanel.parent
+		slot0.descPanelVoiceBtn = findTF(slot0.maxPanel, "desc/container/frame/voice")
 
 		onButton(slot0, slot0.descPanel, function ()
 			slot0:closeFurnitrueDesc()
@@ -1000,11 +1001,20 @@ function slot0.showFurnitrueDesc(slot0, slot1)
 		end, SFX_PANEL)
 	end
 
+	setActive(slot0.descPanelVoiceBtn, slot1:existVoice())
 	setActive(slot0.descPanel, true)
 	setActive(slot0.miniPanel, false)
 	SetActive(slot0.maxFrame, false)
 
-	slot2 = nil
+	if slot1:existVoice() then
+		onButton(slot0, slot0.descPanelVoiceBtn, function ()
+			slot0:playFurnitureVoice(slot0)
+
+			return
+		end, SFX_PANEL)
+	end
+
+	slot3 = nil
 
 	LoadSpriteAsync("FurnitureIcon/" .. slot1:getConfig("icon"), function (slot0)
 		slot0.miniIcon.sprite = slot0
@@ -1013,7 +1023,7 @@ function slot0.showFurnitrueDesc(slot0, slot1)
 	end)
 
 	slot0.miniName.text = shortenString(slot1:getConfig("name"), 6)
-	slot0.miniPanel.position = slot0.furnitureModals[slot1.id].Find(slot3, "icon").position
+	slot0.miniPanel.position = slot0.furnitureModals[slot1.id].Find(slot4, "icon").position
 
 	function ()
 		setActive(slot0.miniPanel, false)
@@ -1044,8 +1054,54 @@ function slot0.showFurnitrueDesc(slot0, slot1)
 	return
 end
 
+function slot0.playFurnitureVoice(slot0, slot1)
+	slot2 = slot1:getVoice()
+
+	function slot3()
+		slot0:stopCV()
+
+		slot0.stopCV.currVoice = playSoundEffect(playSoundEffect)
+
+		return
+	end
+
+	if slot0.loadedBank then
+		slot3()
+	else
+		pg.CriMgr:GetInstance():LoadCV("furniture", function ()
+			slot0 = pg.CriMgr.GetCVBankName(pg.CriMgr.GetCVBankName)
+
+			if pg.CriMgr.GetCVBankName.exited then
+				pg.CriMgr.UnloadCVBank(slot0)
+			else
+				slot2()
+
+				if slot2.currVoice then
+					slot1.loadedBank = slot0
+				end
+			end
+
+			return
+		end)
+	end
+
+	return
+end
+
+function slot0.stopCV(slot0)
+	if slot0.currVoice then
+		slot0.currVoice:Stop(true)
+	end
+
+	slot0.currVoice = nil
+
+	return
+end
+
 function slot0.closeFurnitrueDesc(slot0)
 	if slot0.isOpenDesc then
+		slot0:stopCV()
+
 		slot0.isOpenDesc = nil
 
 		setActive(slot0.descPanel, false)
@@ -1156,24 +1212,9 @@ end
 function slot0.removeFurn(slot0, slot1)
 	slot2 = slot0.furnitureModals[slot1.id]
 
-	function slot3(slot0, slot1)
-		if IsNil(slot0:Find("char_" .. slot0)) then
-			if slot1 then
-				slot2 = slot0:Find("animator" .. slot1 .. "/char_" .. slot0)
-			else
-				slot2 = slot0:Find("animator/char_" .. slot0)
-			end
-		end
-
-		if IsNil(slot2) then
-			slot2 = slot0:Find("icon/char_" .. slot0)
-		end
-
-		if not IsNil(slot2) then
-			SetParent(slot2, slot1.floorContain)
-		end
-
-		slot1.shipModels[slot0]:setAction("stand2")
+	function slot3(slot0)
+		SetParent(slot0.shipModels[slot0].tf, slot0.floorContain)
+		slot0.shipModels[slot0]:setAction("stand2")
 
 		return
 	end
@@ -1205,7 +1246,7 @@ function slot0.removeFurn(slot0, slot1)
 
 	if slot1:hasSpineExtra() then
 		for slot7, slot8 in pairs(slot1:getShipExtra()) do
-			slot3(slot8, slot7)
+			slot3(slot8)
 		end
 	end
 
@@ -1672,16 +1713,16 @@ function slot0.addSpineExtra(slot0, slot1, slot2, slot3)
 			slot6 = slot0.furnitureModals[slot1]
 
 			slot0.shipModels[slot5:getSpineId()].pauseAnim(slot8)
-			slot4:addSpineExtra(slot1, slot3)
 
 			for slot12, slot13 in ipairs(slot5:getShipExtra()) do
+				slot0.shipModels[slot13].addSpineExtra(slot14, slot1, slot12)
 				slot8:registerActionCB(slot13, function (slot0)
-					slot0.shipModels[]:setAction(slot0, 0)
+					slot0:setAction(slot0, 0)
 
 					return
 				end, function ()
-					slot0.shipModels[slot1].endSpineAnimator(slot0, , )
-					slot0.shipModels[slot1]:startSpineAnimator(slot0.shipModels[slot1], )
+					slot0:endSpineAnimator(slot0, )
+					slot0.endSpineAnimator:startSpineAnimator(slot0.endSpineAnimator, )
 
 					return
 				end)
@@ -1771,24 +1812,31 @@ function slot0.willExit(slot0)
 end
 
 function slot0.clearFunriture(slot0, slot1)
+	slot3 = {
+		{
+			"grids",
+			"childs",
+			"mask"
+		},
+		{
+			"drag"
+		}
+	}
+
 	if slot0.furnitureModals[slot1.id] and slot1 then
-		if not IsNil(slot2:Find("icon")) then
-			Destroy(slot3)
-		end
+		slot4 = _.flatten(slot3)
 
-		for slot8, slot9 in pairs(slot4) do
-			if not IsNil(slot2:Find(BackYardConst.FURNITRUE_MASK_ORDER_NAME .. slot8)) then
-				Destroy(slot10)
+		eachChild(slot2, function (slot0)
+			if not table.contains(slot0, go(slot0).name) then
+				Destroy(slot0)
 			end
-		end
 
-		if not IsNil(slot2:Find(BackYardConst.FURNITRUE_MASK_NAME)) then
-			Destroy(slot5)
-		end
+			if table.contains(slot1[1], go(slot0).name) then
+				removeAllChildren(slot0)
+			end
 
-		if not IsNil(slot2:Find("animator")) then
-			Destroy(slot6)
-		end
+			return
+		end)
 	end
 
 	return

@@ -58,7 +58,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			bgm = "story-2",
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "嗯…？为什么对所有人都用“前辈”称呼吗？…指挥官，你知道我是战后出生的对吧。",
 			typewriter = {
@@ -76,7 +76,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "当时，因为战争结束的关系，我们这一级面临着被取消的风险。",
 			typewriter = {
@@ -89,7 +89,7 @@ return {
 			}
 		},
 		{
-			actor = 206041,
+			actor = 206040,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -109,7 +109,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "不过因为战争已经结束，我们即使降生了，也没有体验过前辈们那种波澜壮阔的生活。",
 			typewriter = {
@@ -122,7 +122,7 @@ return {
 			}
 		},
 		{
-			actor = 206041,
+			actor = 206040,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -152,7 +152,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "不过，不只是这样的。",
 			typewriter = {
@@ -169,7 +169,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "指挥官，我的生涯是在和平之中度过的，我没有体会过战争的伤痛。",
 			typewriter = {
@@ -186,7 +186,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "但我在了解前辈们事迹的同时，也明白了战争是什么样的东西。",
 			typewriter = {
@@ -203,7 +203,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "那绝不是未曾体验过其残酷的我，能够轻率地挂在嘴边的东西。",
 			typewriter = {
@@ -216,7 +216,7 @@ return {
 			}
 		},
 		{
-			actor = 206041,
+			actor = 206040,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -236,7 +236,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "说实在的，光是“前辈”两个字，完全无法表达我对各位的敬意呢。",
 			typewriter = {
@@ -259,7 +259,7 @@ return {
 			}
 		},
 		{
-			actor = 206041,
+			actor = 206040,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -279,7 +279,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "我会和大家商量的，如果有前辈觉得困扰，那我就克服一下，从行动上体现我对大家的尊敬好了~",
 			typewriter = {

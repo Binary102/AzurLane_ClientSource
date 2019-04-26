@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"苍龙个人角色物语\n\n<size=30>二 占坑</size>",
+					"与{namecode:93}共度的时光\n\n<size=30>二 教教我，{namecode:93}老师！</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "她们是拥有人类之型，钢铁之躯的战斗少女 ",
+			say = "听说{namecode:93}好像喜欢花札的样子，就从花札入手吧！",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -41,35 +41,19 @@ return {
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
 			}
 		},
 		{
 			side = 2,
-			dir = 1,
-			blackBg = true,
-			say = "曾在那次大战中大显身手，如今以心智魔方的力量变成人形，",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			dir = 1,
-			blackBg = true,
-			say = "活跃在与全人类的敌人——塞壬的战斗之中",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			bgName = "bg_story_task",
+			bgName = "bg_story_room",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "港区・仓库",
+			say = "港区·重樱宿舍",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -90,182 +74,222 @@ return {
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
 			}
 		},
 		{
+			actor = 307030,
 			side = 2,
-			bgName = "bg_story_task",
-			dir = 1,
-			say = "灰头土脸的指挥官正拼命翻找着收在仓库深处的某个稀有装备。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			bgName = "bg_story_task",
-			dir = 1,
-			say = "咚！当！咣咣！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			bgName = "bg_story_task",
-			dir = 1,
-			say = "……找东西的过程好像并不怎么顺利。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			bgName = "bg_story_task",
-			dir = 1,
-			say = "面对着垒的如同小山一样高资源材料和装备，指挥官已经精疲力尽并且摇摇欲坠了。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
+			bgName = "bg_story_room",
 			nameColor = "#a9f548",
-			actorName = "???",
-			bgName = "bg_story_task",
-			side = 2,
 			dir = 1,
-			say = "……危险！",
-			dialogShake = {
-				speed = 0.1,
-				x = 9.5,
-				number = 2
+			say = "……那么，今天我们要讲的是桶狭间之战。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			say = "哦……终于到了这场决定性的战役了！",
+			side = 0,
+			bgName = "bg_story_room",
+			dir = 1,
+			actor = 301590,
+			nameColor = "#a9f548",
+			paintingFadeOut = {
+				time = 0.5,
+				side = 1
 			},
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			bgName = "bg_story_task",
-			dir = 1,
-			say = "光芒一闪。从某处放出的式神劈开浑浊的空气，然后——",
-			flashN = {
-				color = {
-					1,
-					1,
-					1
-				},
-				alpha = {
-					{
-						0,
-						1,
-						0.5
-					},
-					{
-						1,
-						0,
-						0.5,
-						0.5
-					}
-				}
 			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
+			painting = {
+				alpha = 0.3,
+				time = 1
 			}
 		},
 		{
-			side = 2,
-			bgName = "bg_story_task",
+			side = 1,
+			bgName = "bg_story_room",
 			dir = 1,
-			say = "在指挥官被砸中之前，式神便完美接住了从高处掉下的材料。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
+			actor = 307030,
 			nameColor = "#a9f548",
-			bgName = "bg_story_task",
-			side = 2,
-			dir = 1,
-			actorName = "???",
-			say = "天在呼唤！地在呼唤！人在呼唤！千钧一发需要帮助的主公也在呼唤！",
-			effects = {
+			say = "在那时，今川家还是称霸东海道的……咦，这不是指挥官吗？",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			options = {
 				{
-					active = true,
-					name = "speed"
+					content = "询问在做什么",
+					flag = 1
 				}
+			}
+		},
+		{
+			actor = 301590,
+			side = 0,
+			bgName = "bg_story_room",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "一看就知道了吧，是历史课。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
 			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
+			painting = {
+				alpha = 0.3,
+				time = 1
 			}
 		},
 		{
-			actorName = "???",
-			side = 2,
-			bgName = "bg_story_task",
+			actor = 307030,
+			side = 1,
+			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "日出之国的武士，轻航母{namecode:90}，前来参见！",
+			say = "嗯，{namecode:142}想要进一步了解战国时代，就由我来给她上课。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
 			}
 		},
 		{
-			actorName = "???",
-			side = 2,
-			bgName = "bg_story_task",
+			actor = 307030,
+			side = 1,
+			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……的说！",
+			say = "指挥官要是有兴趣的话，也可以来听一听。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 1,
+			bgName = "bg_story_room",
+			withoutActorName = true,
+			actor = 307030,
+			nameColor = "#a9f548",
+			say = "那就听一听吧。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
 			}
 		},
 		{
 			side = 2,
-			bgName = "bg_story_task",
+			bgName = "bg_story_room",
 			dir = 1,
-			say = "如同白昼一般的出场效果闪光。",
-			flashN = {
-				color = {
-					1,
-					1,
-					1
-				},
+			actor = 307030,
+			nameColor = "#a9f548",
+			say = "……信长的奇袭竟然直取了义元的首级，这是谁也没想到的。",
+			flashout = {
+				dur = 0.5,
+				black = true,
 				alpha = {
-					{
-						0,
-						1,
-						0.5
-					},
-					{
-						1,
-						0,
-						0.5,
-						0.5
-					}
+					0,
+					1
+				}
+			},
+			flashin = {
+				delay = 0.5,
+				dur = 0.5,
+				black = true,
+				alpha = {
+					1,
+					0
 				}
 			},
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 307030,
+			side = 2,
+			bgName = "bg_story_room",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "以这一战为契机，织田氏……——",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
 			}
 		},
 		{
 			side = 2,
-			bgName = "bg_story_task",
+			bgName = "bg_story_room",
 			dir = 1,
-			say = "（爆炸效果……果然还是算了吧）",
+			actor = 307030,
+			nameColor = "#a9f548",
+			say = "今天的课就上到这里了。",
+			flashout = {
+				dur = 1,
+				black = true,
+				alpha = {
+					0,
+					1
+				}
+			},
+			flashin = {
+				delay = 1,
+				dur = 1,
+				black = true,
+				alpha = {
+					1,
+					0
+				}
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			bgName = "bg_story_room",
+			dir = 1,
+			say = "不愧是{namecode:93}，讲解的十分简洁明了，而且面面俱到。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,11 +297,11 @@ return {
 		},
 		{
 			side = 2,
-			bgName = "bg_story_task",
+			bgName = "bg_story_room",
 			dir = 1,
-			actor = 306061,
+			actor = 301590,
 			nameColor = "#a9f548",
-			say = "主公！您没事吗？吾也来帮忙！",
+			say = "嗯嗯……原来如此，谢谢{namecode:93}老师！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,21 +315,137 @@ return {
 					y = 30,
 					type = "shake",
 					delay = 0,
-					dur = 0.2,
+					dur = 0.15,
 					x = 0,
 					number = 2
 				}
 			}
 		},
 		{
+			actor = 301590,
 			side = 2,
-			bgName = "bg_story_task",
+			bgName = "bg_story_room",
+			nameColor = "#a9f548",
 			dir = 1,
-			blackBg = true,
-			say = "秘书舰{namecode:90}，今天也在努力保护指挥官！",
+			say = "之后{namecode:143}她们的课程也麻烦你了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 307030,
+			side = 2,
+			bgName = "bg_story_room",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "嗯。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			bgName = "bg_story_room",
+			dir = 1,
+			say = "其他课程……总觉得{namecode:93}好像什么都知道的样子。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 307030,
+			side = 2,
+			bgName = "bg_story_room",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "指挥官，想什么都写在脸上了……这是一名副官应该有的素养。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			bgName = "bg_story_room",
+			dir = 1,
+			actor = 307030,
+			nameColor = "#a9f548",
+			say = "话说回来，您来找我有什么事吗？",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			options = {
+				{
+					content = "说明来意",
+					flag = 1
+				}
+			}
+		},
+		{
+			actor = 307030,
+			side = 2,
+			bgName = "bg_story_room",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "学习花札？您为什么突然对这个感兴趣？",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 307030,
+			side = 2,
+			bgName = "bg_story_room",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "不过，要是真的想学，我自然不介意……",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			bgName = "bg_story_room",
+			dir = 1,
+			blackBg = true,
+			say = "于是，向{namecode:93}学习了花札。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
 			}
 		}
 	}

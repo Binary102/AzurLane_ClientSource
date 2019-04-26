@@ -1381,20 +1381,53 @@ function slot8.GetStatistics(slot0)
 end
 
 function slot8.BlockManualCast(slot0, slot1)
-	for slot5, slot6 in pairs(slot0._fleetList) do
-		slot6:SetWeaponBlock(slot1)
+	if slot1 then
+		slot2 = 1
+	else
+		slot2 = -1
+	end
+
+	for slot6, slot7 in pairs(slot0._fleetList) do
+		slot7:SetWeaponBlock(slot2)
 	end
 
 	return
 end
 
 function slot8.SubmarineStrike(slot0, slot1)
+	if slot0:GetFleetByIFF(slot1):GetWeaponBlock() then
+		return
+	end
+
 	for slot7, slot8 in ipairs(slot3) do
 		slot0:InitAidUnitStatistics(slot0:SpawnSub(slot8, slot1))
 	end
 
 	slot2:SubWarcry()
-	slot2:GetSubList()[1]:TriggerBuff(slot0.BuffEffectType.ON_SUB_LEADER)
+	slot2:GetSubList()[1].TriggerBuff(slot5, slot0.BuffEffectType.ON_SUB_LEADER)
+	slot2:GetSubAidVO():Cast()
+
+	return
+end
+
+function slot8.KizunaJamming(slot0)
+	for slot4, slot5 in pairs(slot0._fleetList) do
+		slot5:Jamming(true)
+	end
+
+	slot0:BlockManualCast(true)
+	slot0:DispatchEvent(slot0.Event.New(slot1.KIZUNA_JAMMING))
+
+	return
+end
+
+function slot8.KizunaJammingEliminate(slot0)
+	for slot4, slot5 in pairs(slot0._fleetList) do
+		slot5:Jamming(false)
+	end
+
+	slot0:BlockManualCast(false)
+	slot0:DispatchEvent(slot0.Event.New(slot1.KIZUNA_JAMMING_ELIMINATE))
 
 	return
 end

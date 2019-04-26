@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"Mysterious Rabbit Alien?!\n\n<size=30>III 「Rabbit Alien Characteristics—— “Effort”!」</size>",
+					"神秘的兔兔星人？！\n\n<size=30>三 兔兔星人特征——“努力”！</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "Port area, Academy",
+			say = "港区·学院",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -49,19 +49,19 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			say = "Sigh, I was delayed with some of my routine tasks and now it’s already night time.",
+			say = "处理部分事务拖延了一下，不知不觉已经是夜里了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actor = 101271,
+			actor = 101270,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Hmm, let’s start today's training!",
+			say = "呼，那就开始今天的练习吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Oh, it’s you again!",
+			say = "嘁，又是你啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,19 +87,19 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			say = "This sounds like Bailey and…?",
+			say = "这声音是贝利和…？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actor = 101271,
+			actor = 101270,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Ha, good evening Nachi-chan~",
+			say = "啊，{namecode:64}姐姐，晚上好~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,11 +110,11 @@ return {
 			}
 		},
 		{
-			say = "Don’t pretend that we’re close by calling me chan, I don’t plan on being your close friend...",
+			say = "别姐姐姐姐地叫那么亲热，我可没打算和你搞好关系……",
 			side = 1,
 			bgName = "bg_night",
 			dir = -1,
-			actor = 303081,
+			actor = 303080,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -133,9 +133,9 @@ return {
 			side = 0,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 101271,
+			actor = 101270,
 			nameColor = "#a9f548",
-			say = "But...but...",
+			say = "但是但是……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,12 +156,12 @@ return {
 			}
 		},
 		{
-			actor = 303081,
+			actor = 303080,
 			side = 1,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "...forget it, since we’re teammates on the battlefield, then do what you must.",
+			say = "……算了，既然现在是战友了，随你高兴吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,9 +175,9 @@ return {
 			side = 0,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 101271,
+			actor = 101270,
 			nameColor = "#a9f548",
-			say = "Yea~",
+			say = "耶~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,12 +198,12 @@ return {
 			}
 		},
 		{
-			actor = 303081,
+			actor = 303080,
 			side = 1,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "I must say you really do put in the work, do you always practice after work?",
+			say = "不过你还真是努力呢，每天下班后都会抽出时间在这边练习吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,12 +214,12 @@ return {
 			}
 		},
 		{
-			actor = 101271,
+			actor = 101270,
 			side = 0,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Yep~ Sara-sensei told me, “Practice is essential!”",
+			say = "嗯~萨拉老师说过，练习是必不可少的呢！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,12 +230,12 @@ return {
 			}
 		},
 		{
-			actor = 101271,
+			actor = 101270,
 			side = 0,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Nachi-chan, don’t you always secretly come here as well to practice your dialogue and the likes?",
+			say = "{namecode:64}姐姐不也是经常暗中来这边练习对话之类的吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -249,9 +249,9 @@ return {
 			side = 1,
 			bgName = "bg_night",
 			dir = -1,
-			actor = 303081,
+			actor = 303080,
 			nameColor = "#a9f548",
-			say = "I, I am merely reviewing, I am already familiar with those lines a long time ago.",
+			say = "我、我只是在复习而已，那些都是我早就会的东西了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,12 +272,12 @@ return {
 			}
 		},
 		{
-			actor = 101271,
+			actor = 101270,
 			side = 0,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Is that so, Nachi-chan you really are amazing.",
+			say = "这样啊，{namecode:64}姐姐果然好厉害呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -288,12 +288,12 @@ return {
 			}
 		},
 		{
-			actor = 303081,
+			actor = 303080,
 			side = 1,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "...cough cough. Anyways, don’t tire yourself too much, don’t you have secretary duty during the day?",
+			say = "………………咳咳，总、总之，你也不要太累到自己，白天还要担任秘书舰的吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -304,12 +304,12 @@ return {
 			}
 		},
 		{
-			actor = 101271,
+			actor = 101270,
 			side = 0,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Yes~ Not to worry, though~ Helping the Commander is equally important to Bailey becoming an idol!",
+			say = "嗯！不过没关系的~帮指挥官的忙对贝利来说是和成为偶像同等重要的事呢！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,12 +320,12 @@ return {
 			}
 		},
 		{
-			actor = 303081,
+			actor = 303080,
 			side = 1,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "...you really are such a child.",
+			say = "…还真是个好孩子呢",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -339,9 +339,9 @@ return {
 			side = 0,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 101271,
+			actor = 101270,
 			nameColor = "#a9f548",
-			say = "Hehehe, am not~",
+			say = "欸嘿嘿，没有啦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -362,12 +362,12 @@ return {
 			}
 		},
 		{
-			actor = 303081,
+			actor = 303080,
 			side = 1,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "Well, I won’t bother you, since you are practicing now.",
+			say = "总之，既然你要在这里练习，那我就不打扰了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -378,12 +378,12 @@ return {
 			}
 		},
 		{
-			actor = 101271,
+			actor = 101270,
 			side = 0,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Huh? I wanted Nachi-chan to see my progress though.",
+			say = "欸，我还想让{namecode:64}姐姐帮我看看我的练习成果呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -394,12 +394,12 @@ return {
 			}
 		},
 		{
-			actor = 303081,
+			actor = 303080,
 			side = 1,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "...Alright, I can do that.",
+			say = "…好吧，也不是不行。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -413,9 +413,9 @@ return {
 			side = 0,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 101271,
+			actor = 101270,
 			nameColor = "#a9f548",
-			say = "Terrific!",
+			say = "太好啦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -440,7 +440,7 @@ return {
 			bgName = "bg_night",
 			dir = 1,
 			blackBg = true,
-			say = "Looks like “Effort” is also a key trait of the Rabbit Alien characteristics.",
+			say = "看来“努力”也是兔兔星人的特征呢",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

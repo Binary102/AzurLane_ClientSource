@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 304051,
+			actor = 304050,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
@@ -23,7 +23,7 @@ return {
 			}
 		},
 		{
-			actor = 302141,
+			actor = 302140,
 			side = 1,
 			nameColor = "#ff0000",
 			dir = 1,
@@ -42,7 +42,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
-			actor = 304051,
+			actor = 304050,
 			say = "I'm glad to see you're doing well. Is this your first time leading during an exercise?",
 			typewriter = {
 				speed = 0.05,
@@ -54,7 +54,7 @@ return {
 			}
 		},
 		{
-			actor = 302141,
+			actor = 302140,
 			side = 1,
 			nameColor = "#ff0000",
 			dir = 1,
@@ -73,7 +73,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
-			actor = 304051,
+			actor = 304050,
 			say = "Ahah, it's good that you're so eager, but I hope you haven't forgotten that this is a battlefield.",
 			typewriter = {
 				speed = 0.05,
@@ -89,7 +89,7 @@ return {
 			nameColor = "#ff0000",
 			side = 1,
 			dir = 1,
-			actor = 302141,
+			actor = 302140,
 			say = "Of course not! Just because you're my superior doesn't mean I'll step to the side and nicely ask you to pass through!",
 			typewriter = {
 				speed = 0.05,
@@ -101,7 +101,7 @@ return {
 			}
 		},
 		{
-			actor = 304051,
+			actor = 304050,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,

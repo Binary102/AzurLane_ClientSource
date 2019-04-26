@@ -74,7 +74,7 @@ return {
 			}
 		},
 		{
-			actor = 301211,
+			actor = 301210,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#92fc63",
@@ -107,7 +107,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 301211,
+			actor = 301210,
 			nameColor = "#92fc63",
 			say = "A-a commission has been completed...",
 			typewriter = {
@@ -130,7 +130,7 @@ return {
 			}
 		},
 		{
-			actor = 301211,
+			actor = 301210,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#92fc63",
@@ -197,7 +197,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 301211,
+			actor = 301210,
 			nameColor = "#92fc63",
 			say = "Wah?! *Whimper*...",
 			typewriter = {
@@ -220,7 +220,7 @@ return {
 			}
 		},
 		{
-			actor = 301211,
+			actor = 301210,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#92fc63",
@@ -236,7 +236,7 @@ return {
 			}
 		},
 		{
-			actor = 301211,
+			actor = 301210,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#92fc63",
@@ -248,7 +248,7 @@ return {
 			}
 		},
 		{
-			actor = 301211,
+			actor = 301210,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#92fc63",

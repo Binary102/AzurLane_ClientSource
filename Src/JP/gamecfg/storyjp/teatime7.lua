@@ -16,7 +16,7 @@ return {
 			}
 		},
 		{
-			actor = 202111,
+			actor = 202110,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -31,7 +31,7 @@ return {
 			}
 		},
 		{
-			actor = 202121,
+			actor = 202120,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -50,7 +50,7 @@ return {
 			}
 		},
 		{
-			actor = 205011,
+			actor = 205010,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -65,7 +65,7 @@ return {
 			}
 		},
 		{
-			actor = 202121,
+			actor = 202120,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -80,7 +80,7 @@ return {
 			}
 		},
 		{
-			actor = 205011,
+			actor = 205010,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -95,7 +95,7 @@ return {
 			}
 		},
 		{
-			actor = 202121,
+			actor = 202120,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -110,7 +110,7 @@ return {
 			}
 		},
 		{
-			actor = 205011,
+			actor = 205010,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -125,7 +125,7 @@ return {
 			}
 		},
 		{
-			actor = 202121,
+			actor = 202120,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -140,7 +140,7 @@ return {
 			}
 		},
 		{
-			actor = 205011,
+			actor = 205010,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -155,7 +155,7 @@ return {
 			}
 		},
 		{
-			actor = 202121,
+			actor = 202120,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -170,7 +170,7 @@ return {
 			}
 		},
 		{
-			actor = 202111,
+			actor = 202110,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -188,13 +188,13 @@ return {
 			actorShadow = true,
 			side = 1,
 			actorName = "{namecode:13}&{namecode:14}",
-			actor = 900049,
+			actor = 301121,
 			hideOther = true,
 			nameColor = "#a9f548",
 			say = "……",
 			subActors = {
 				{
-					actor = 900048,
+					actor = 301111,
 					pos = {
 						x = -750
 					}
@@ -210,7 +210,7 @@ return {
 			}
 		},
 		{
-			actor = 900047,
+			actor = 207031,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -229,7 +229,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			actor = 900048,
+			actor = 301111,
 			actorName = "{namecode:13}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -247,7 +247,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			actor = 207021,
+			actor = 207020,
 			nameColor = "#a9f548",
 			say = "は！そろそろ駆逐艦たちが委託から戻ってくる時間だ。すまない、私は先に失礼させてもらう！",
 			flashout = {
@@ -281,7 +281,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 900048,
+			actor = 301111,
 			actorName = "{namecode:13}",
 			paintingFadeOut = {
 				time = 0,
@@ -297,7 +297,7 @@ return {
 			}
 		},
 		{
-			actor = 900047,
+			actor = 207031,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -312,7 +312,7 @@ return {
 			}
 		},
 		{
-			actor = 900049,
+			actor = 301121,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
@@ -328,7 +328,7 @@ return {
 			}
 		},
 		{
-			actor = 900047,
+			actor = 207031,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -343,7 +343,7 @@ return {
 			}
 		},
 		{
-			actor = 202121,
+			actor = 202120,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -358,7 +358,7 @@ return {
 			}
 		},
 		{
-			actor = 202111,
+			actor = 202110,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -373,7 +373,7 @@ return {
 			}
 		},
 		{
-			actor = 205011,
+			actor = 205010,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -388,7 +388,7 @@ return {
 			}
 		},
 		{
-			actor = 900047,
+			actor = 207031,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -403,7 +403,7 @@ return {
 			}
 		},
 		{
-			actor = 900049,
+			actor = 301121,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
@@ -419,7 +419,7 @@ return {
 			}
 		},
 		{
-			actor = 900048,
+			actor = 301111,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = -1,
@@ -435,7 +435,7 @@ return {
 			}
 		},
 		{
-			actor = 900049,
+			actor = 301121,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
@@ -496,7 +496,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 301091,
+			actor = 301090,
 			actorName = "{namecode:11}",
 			say = "響がいない……うん？ここになんか書いてあるわ。「あすか」「ドローニング・モード・ランド」――",
 			typewriter = {

@@ -15,10 +15,16 @@ slot0.ON_TASK_GO = "event on task go"
 slot0.OPEN_MONOPOLY = "event open monopoly"
 slot0.CLOSE_MONOPOLY = "event close monopoly"
 slot0.GO_DODGEM = "event go dodgem"
+slot0.EVENT_PT_OPERATION = "event pt op"
+slot0.BLACKWHITEGRID = "black white grid"
+slot0.MEMORYBOOK = "memory book"
 
 function slot0.register(slot0)
 	slot0.UIAvalibleCallbacks = {}
 
+	slot0:bind(slot0.EVENT_PT_OPERATION, function (slot0, slot1)
+		slot0:sendNotification(GAME.ACT_NEW_PT, slot1)
+	end)
 	slot0:bind(slot0.OPEN_MONOPOLY, function ()
 		if slot0.UIAvalible then
 			slot0()
@@ -38,6 +44,30 @@ function slot0.register(slot0)
 	end)
 	slot0:bind(slot0.EVENT_GO_SCENE, function (slot0, slot1, slot2)
 		slot0:sendNotification(GAME.GO_SCENE, slot1, slot2)
+	end)
+	slot0:bind(slot0.BLACKWHITEGRID, function ()
+		if not getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_BLACKWHITE) then
+			pg.TipsMgr:GetInstance():ShowTips(i18n("common_activity_end"))
+
+			return
+		end
+
+		slot0:addSubLayers(Context.New({
+			viewComponent = BlackWhiteGridLayer,
+			mediator = BlackWhiteGridMediator
+		}))
+	end)
+	slot0:bind(slot0.MEMORYBOOK, function ()
+		if not getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_PUZZLA) then
+			pg.TipsMgr:GetInstance():ShowTips(i18n("common_activity_end"))
+
+			return
+		end
+
+		slot0:addSubLayers(Context.New({
+			viewComponent = MemoryBookLayer,
+			mediator = MemoryBookMediator
+		}))
 	end)
 	slot0:bind(slot0.GO_SHOPS_LAYER, function (slot0, slot1)
 		slot0:addSubLayers(Context.New({
@@ -148,7 +178,8 @@ function slot0.listNotificationInterests(slot0)
 		ActivityProxy.ACTIVITY_SHOW_LOTTERY_AWARD_RESULT,
 		GAME.COLORING_ACHIEVE_DONE,
 		GAME.SUBMIT_TASK_DONE,
-		GAME.BEGIN_STAGE_DONE
+		GAME.BEGIN_STAGE_DONE,
+		GAME.ACT_NEW_PT_DONE
 	}
 end
 
@@ -189,6 +220,8 @@ function slot0.handleNotification(slot0, slot1)
 
 		if slot2 == GAME.BEGIN_STAGE_DONE then
 			slot0:sendNotification(GAME.GO_SCENE, SCENE.COMBATLOAD, slot3)
+		elseif slot2 == GAME.ACT_NEW_PT_DONE then
+			slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3.awards)
 		end
 	end
 end

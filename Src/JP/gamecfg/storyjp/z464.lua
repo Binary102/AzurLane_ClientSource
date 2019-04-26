@@ -69,7 +69,7 @@ return {
 			}
 		},
 		{
-			actor = 401461,
+			actor = 401460,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			say = "ティルピッツ、指揮官から預かったもの、届けに参った。",
@@ -83,7 +83,7 @@ return {
 			}
 		},
 		{
-			actor = 405021,
+			actor = 405020,
 			side = 1,
 			bgName = "bg_story_outdoor",
 			say = "フィーゼ？ありがとう。これは確かに預かったわ。",
@@ -113,7 +113,7 @@ return {
 			}
 		},
 		{
-			actor = 405021,
+			actor = 405020,
 			side = 1,
 			bgName = "bg_story_outdoor",
 			say = "フィーゼは秘書艦勤務中？これからどうする？",
@@ -127,7 +127,7 @@ return {
 			}
 		},
 		{
-			actor = 401461,
+			actor = 401460,
 			side = 0,
 			bgName = "bg_story_outdoor",
 			say = "特に予定はない故、寮の自室に帰る――というのが予定である。",
@@ -141,7 +141,7 @@ return {
 			}
 		},
 		{
-			actor = 405021,
+			actor = 405020,
 			side = 1,
 			bgName = "bg_story_outdoor",
 			say = "そう？もしよかったら話に付き合ってもらえないかしら。多分ほかの子より、フィーゼのほうが話しやすいから。",
@@ -155,7 +155,7 @@ return {
 			}
 		},
 		{
-			actor = 401461,
+			actor = 401460,
 			side = 0,
 			bgName = "bg_story_outdoor",
 			say = "構わない。こちらは聞くだけだが、それで良いなら付き合おう。",
@@ -169,7 +169,7 @@ return {
 			}
 		},
 		{
-			actor = 405021,
+			actor = 405020,
 			side = 1,
 			bgName = "bg_story_outdoor",
 			say = "もちろんいいわ。ただの独り言だと思ってくれればそれで十分よ。",
@@ -219,7 +219,7 @@ return {
 			}
 		},
 		{
-			actor = 405021,
+			actor = 405020,
 			side = 1,
 			bgName = "bg_story_outdoor",
 			say = "フィーゼは将来、何をしたい？",
@@ -233,7 +233,7 @@ return {
 			}
 		},
 		{
-			actor = 401461,
+			actor = 401460,
 			side = 0,
 			bgName = "bg_story_outdoor",
 			say = "私？私は………",

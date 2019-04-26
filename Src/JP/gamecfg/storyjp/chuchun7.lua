@@ -46,7 +46,7 @@ return {
 			}
 		},
 		{
-			actor = 900034,
+			actor = 106011,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -62,7 +62,7 @@ return {
 			}
 		},
 		{
-			actor = 301211,
+			actor = 301210,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -81,7 +81,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 900034,
+			actor = 106011,
 			nameColor = "#a9f548",
 			say = "文化研究の名目で新作ゲームを買う幽霊さんの計画が失敗したのー！？",
 			typewriter = {
@@ -104,7 +104,7 @@ return {
 			}
 		},
 		{
-			actor = 900034,
+			actor = 106011,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -120,7 +120,7 @@ return {
 			}
 		},
 		{
-			actor = 301211,
+			actor = 301210,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -164,7 +164,7 @@ return {
 			}
 		},
 		{
-			actor = 301211,
+			actor = 301210,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -183,7 +183,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 301231,
+			actor = 301230,
 			nameColor = "#a9f548",
 			say = "初春姉！",
 			typewriter = {
@@ -208,7 +208,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 301211,
+			actor = 301210,
 			nameColor = "#a9f548",
 			say = "若葉ちゃん！？きゅ、急に抱きつかないでよ！",
 			typewriter = {
@@ -231,7 +231,7 @@ return {
 			}
 		},
 		{
-			actor = 301231,
+			actor = 301230,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -247,7 +247,7 @@ return {
 			}
 		},
 		{
-			actor = 301211,
+			actor = 301210,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -280,7 +280,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 301231,
+			actor = 301230,
 			nameColor = "#a9f548",
 			say = "あ、そういえば！初春姉はいつ指揮官に告白するの？",
 			typewriter = {
@@ -307,7 +307,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 301211,
+			actor = 301210,
 			stopbgm = true,
 			say = "は、はぃ！？！？？",
 			typewriter = {
@@ -343,7 +343,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			bgm = "story-1",
-			actor = 301211,
+			actor = 301210,
 			nameColor = "#a9f548",
 			say = "<size=45>ななななに言ってるの若葉ちゃん！？！？</size>",
 			painting = {
@@ -362,7 +362,7 @@ return {
 			}
 		},
 		{
-			actor = 301231,
+			actor = 301230,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -381,7 +381,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 301231,
+			actor = 301230,
 			nameColor = "#a9f548",
 			say = "あぅ！？",
 			typewriter = {
@@ -406,7 +406,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 301211,
+			actor = 301210,
 			nameColor = "#a9f548",
 			say = "な、なんで若葉ちゃんに聞こえたの！？",
 			typewriter = {
@@ -433,7 +433,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 301231,
+			actor = 301230,
 			nameColor = "#a9f548",
 			actorPosition = {
 				x = 0,
@@ -458,7 +458,7 @@ return {
 			}
 		},
 		{
-			actor = 301231,
+			actor = 301230,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -477,7 +477,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 301211,
+			actor = 301210,
 			nameColor = "#a9f548",
 			say = "<size=45>い、言わないで――！！！</size>",
 			effects = {

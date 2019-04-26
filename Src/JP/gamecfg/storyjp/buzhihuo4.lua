@@ -59,7 +59,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = -1,
-			actor = 312011,
+			actor = 312010,
 			nameColor = "#a9f548",
 			say = "ぬいにゃ！！！",
 			typewriter = {
@@ -98,7 +98,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = -1,
-			actor = 312011,
+			actor = 312010,
 			nameColor = "#a9f548",
 			say = "ひどいにゃ！なんで明石をスルーしたにゃ！",
 			typewriter = {
@@ -125,7 +125,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 301181,
+			actor = 301180,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -144,7 +144,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = -1,
-			actor = 312011,
+			actor = 312010,
 			nameColor = "#a9f548",
 			say = "お友達じゃなかったのかにゃ！",
 			typewriter = {
@@ -167,7 +167,7 @@ return {
 			}
 		},
 		{
-			actor = 301181,
+			actor = 301180,
 			side = 1,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -183,7 +183,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 0,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -199,7 +199,7 @@ return {
 			}
 		},
 		{
-			actor = 301181,
+			actor = 301180,
 			side = 1,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -218,7 +218,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = -1,
-			actor = 312011,
+			actor = 312010,
 			nameColor = "#a9f548",
 			say = "新しい販促計画についてにゃ！",
 			typewriter = {
@@ -241,7 +241,7 @@ return {
 			}
 		},
 		{
-			actor = 301181,
+			actor = 301180,
 			side = 1,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -260,7 +260,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = -1,
-			actor = 312011,
+			actor = 312010,
 			nameColor = "#a9f548",
 			say = "今回は違うにゃ！きっと大丈夫にゃ！",
 			typewriter = {
@@ -283,7 +283,7 @@ return {
 			}
 		},
 		{
-			actor = 301181,
+			actor = 301180,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -303,12 +303,12 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 301181,
+			actor = 301180,
 			actorName = "明石",
 			say = "ぬいぬいにゃ！助けてにゃ！一生のお願いにゃ！あとでお礼してあげるにゃ！",
 			subActors = {
 				{
-					actor = 312011,
+					actor = 312010,
 					dir = -1,
 					pos = {
 						x = -30
@@ -338,12 +338,12 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 301181,
+			actor = 301180,
 			nameColor = "#a9f548",
 			say = "このウツケ猫、ぺったりくっつくんじゃありません……",
 			subActors = {
 				{
-					actor = 312011,
+					actor = 312010,
 					dir = -1,
 					pos = {
 						x = -30
@@ -364,12 +364,12 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 301181,
+			actor = 301180,
 			actorName = "明石",
 			say = "ぬいぬいがおっけーしてくれるまで離さないにゃ！",
 			subActors = {
 				{
-					actor = 312011,
+					actor = 312010,
 					dir = -1,
 					pos = {
 						x = -30
@@ -399,12 +399,12 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 301181,
+			actor = 301180,
 			nameColor = "#a9f548",
 			say = "わ、わかったのでございますよ……",
 			subActors = {
 				{
-					actor = 312011,
+					actor = 312010,
 					dir = -1,
 					pos = {
 						x = -30
@@ -424,7 +424,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = -1,
-			actor = 312011,
+			actor = 312010,
 			nameColor = "#a9f548",
 			say = "よかったにゃ！計画書はこれにゃ！明石準備してくるにゃ！",
 			typewriter = {
@@ -450,7 +450,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			withoutActorName = true,
-			actor = 301181,
+			actor = 301180,
 			nameColor = "#a9f548",
 			say = "不知火は計画書を開き、そして―ー",
 			typewriter = {
@@ -463,7 +463,7 @@ return {
 			}
 		},
 		{
-			actor = 301181,
+			actor = 301180,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",

@@ -8,7 +8,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 307011,
+			actor = 307010,
 			side = 0,
 			nameColor = "#ff0000",
 			say = "「ログ」は全てカミに。あとは「あのお方」のご降臨を待つだけよ",
@@ -26,7 +26,7 @@ return {
 			}
 		},
 		{
-			actor = 307021,
+			actor = 307020,
 			side = 1,
 			nameColor = "#ff0000",
 			say = "…あの子が追いかけてきたようだ。どうする？",
@@ -44,7 +44,7 @@ return {
 			}
 		},
 		{
-			actor = 307011,
+			actor = 307010,
 			side = 0,
 			nameColor = "#ff0000",
 			say = "「あのお方」からの指示は完遂したわ。少し遊んでみても罰は当たらないわよ？",
@@ -62,7 +62,7 @@ return {
 			}
 		},
 		{
-			actor = 307021,
+			actor = 307020,
 			side = 1,
 			nameColor = "#ff0000",
 			say = "姉さまは相変わらずだな。",

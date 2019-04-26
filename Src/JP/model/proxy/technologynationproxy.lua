@@ -35,6 +35,7 @@ end
 function slot0.updateTecItem(slot0, slot1, slot2, slot3, slot4)
 	if not slot0.techList[slot1] then
 		slot0.techList[slot1] = {
+			completeID = 0,
 			studyID = slot3,
 			finishTime = slot4
 		}

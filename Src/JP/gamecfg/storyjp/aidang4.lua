@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			actor = 303121,
+			actor = 303120,
 			nameColor = "#a9f548",
 			say = "お昼食べたし、買い物もこれでほぼOKね。意外と順調じゃない？",
 			flashout = {
@@ -55,7 +55,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 303121,
+			actor = 303120,
 			nameColor = "#a9f548",
 			say = "うふふ、「このまま戻るのはもったいない」って言いたそうな顔してるわよ。指揮官はどこか行きたいところはないのかしら？",
 			typewriter = {
@@ -74,7 +74,7 @@ return {
 			}
 		},
 		{
-			actor = 303121,
+			actor = 303120,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -90,7 +90,7 @@ return {
 			}
 		},
 		{
-			actor = 303121,
+			actor = 303120,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -109,7 +109,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 303121,
+			actor = 303120,
 			nameColor = "#a9f548",
 			say = "はい、チケット。ごめんね、お姉さんのワガママに付き合わせちゃって",
 			flashout = {
@@ -149,7 +149,7 @@ return {
 			}
 		},
 		{
-			actor = 303121,
+			actor = 303120,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -165,7 +165,7 @@ return {
 			}
 		},
 		{
-			actor = 303121,
+			actor = 303120,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -191,7 +191,7 @@ return {
 			}
 		},
 		{
-			actor = 303121,
+			actor = 303120,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -210,7 +210,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 303121,
+			actor = 303120,
 			nameColor = "#a9f548",
 			say = "席は……うん、隣の方がいいわよね？怖かったらお姉さんに抱きついてもいいのよ？",
 			flashout = {
@@ -240,7 +240,7 @@ return {
 			}
 		},
 		{
-			actor = 303121,
+			actor = 303120,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
@@ -256,7 +256,7 @@ return {
 			}
 		},
 		{
-			actor = 303121,
+			actor = 303120,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,

@@ -22,7 +22,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			bgm = "story-1",
-			actor = 301164,
+			actor = 301160,
 			actorName = "{namecode:22}",
 			say = "遊園地に行きたいか？ふん、そんなとこ、この大人の雪風様が好きなわけ……ぐぬぬ……",
 			typewriter = {
@@ -39,7 +39,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 301164,
+			actor = 301160,
 			actorName = "{namecode:22}",
 			say = "………こ、これは指揮官がどうしても雪風様を連れてってあげたいと言ったから仕方なく行ってあげたのだ！",
 			typewriter = {
@@ -56,7 +56,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 301164,
+			actor = 301160,
 			actorName = "{namecode:22}",
 			say = "ふん！感謝するのだぞ！",
 			typewriter = {
@@ -83,7 +83,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			actorName = "{namecode:22}",
-			actor = 301164,
+			actor = 301160,
 			nameColor = "#a9f548",
 			say = "メリーゴーランド？そんな子供っぽい遊具は雪風様は絶対に乗らないのだぞ！",
 			flashout = {
@@ -117,7 +117,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			actorName = "{namecode:22}",
-			actor = 301164,
+			actor = 301160,
 			nameColor = "#a9f548",
 			say = "ジェットコースター？海の荒波と比べれば話にすらならないのだ！",
 			flashout = {
@@ -151,7 +151,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			actorName = "{namecode:22}",
-			actor = 301164,
+			actor = 301160,
 			nameColor = "#a9f548",
 			say = "観覧車？あ、あれはでで、デートする時に乗るものなのだぞ！？雪風は別に……",
 			flashout = {
@@ -185,7 +185,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 301164,
+			actor = 301160,
 			actorName = "{namecode:22}",
 			say = "ん？じゃあ、あのお化け屋敷に挑戦したいって？",
 			typewriter = {
@@ -202,7 +202,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 301164,
+			actor = 301160,
 			actorName = "{namecode:22}",
 			say = "あっはっはっは！お化け屋敷なんて所詮は子供騙しなのだ！この雪風が怖がるわけないのだ！",
 			typewriter = {
@@ -246,7 +246,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 301164,
+			actor = 301160,
 			actorName = "{namecode:22}",
 			say = "うにゃあああああああああああ！！！",
 			typewriter = {
@@ -272,7 +272,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			actor = 301164,
+			actor = 301160,
 			actorName = "{namecode:22}",
 			say = "（ブルブル）……こ、怖ぃ……！て、ててて手は離さないでぇ――！",
 			typewriter = {
@@ -293,7 +293,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 301164,
+			actor = 301160,
 			actorName = "{namecode:22}",
 			say = "指揮官！助けてええええ！！",
 			typewriter = {
@@ -329,7 +329,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			actorName = "{namecode:22}",
-			actor = 301164,
+			actor = 301160,
 			nameColor = "#a9f548",
 			say = "し、死ぬかと思った……",
 			flashout = {
@@ -373,7 +373,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 301164,
+			actor = 301160,
 			actorName = "{namecode:22}",
 			say = "し、しきかん……うぇえええ……",
 			typewriter = {

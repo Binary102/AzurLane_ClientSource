@@ -8,7 +8,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 307061,
+			actor = 307060,
 			side = 2,
 			nameColor = "#a9f548",
 			say = "くっ、ニセモノが次から次へと…嵐で艦載機をあんなに失わなければ……",
@@ -26,7 +26,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			side = 2,
 			nameColor = "#a9f548",
 			say = "うん？前方海域に救難信号…？もしかして翔鶴姉！？",
@@ -44,7 +44,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			side = 2,
 			nameColor = "#a9f548",
 			say = "翔鶴姉待ってて、今度は絶対に…！",

@@ -25,7 +25,6 @@ pg.furniture_data_template = {
 		describe = "特殊家具：ヨークタウン模型（1:100)",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -37,6 +36,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	{
@@ -64,7 +66,6 @@ pg.furniture_data_template = {
 		describe = "特殊家具：レキシントン模型（1:100)",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -76,6 +77,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	{
@@ -103,7 +107,6 @@ pg.furniture_data_template = {
 		describe = "特殊家具：アトランタ模型（1:100)",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -115,6 +118,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	{
@@ -142,7 +148,6 @@ pg.furniture_data_template = {
 		describe = "特殊家具：ブルックリン模型（1:100)",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -154,6 +159,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	{
@@ -181,7 +189,6 @@ pg.furniture_data_template = {
 		describe = "特殊家具：ノーザンプトン模型（1:100)",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -193,6 +200,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	{
@@ -220,7 +230,6 @@ pg.furniture_data_template = {
 		describe = "特殊家具：クイーンエリザベス模型（1:100)",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -232,6 +241,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	{
@@ -259,7 +271,6 @@ pg.furniture_data_template = {
 		describe = "特殊家具：フッド模型（1:100)",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -271,6 +282,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	{
@@ -298,7 +312,6 @@ pg.furniture_data_template = {
 		describe = "特殊家具：フレッチャー模型（1:100)",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -310,6 +323,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	{
@@ -337,7 +353,6 @@ pg.furniture_data_template = {
 		describe = "特殊家具：ネルソン模型（1:100)",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -349,6 +364,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	{
@@ -376,7 +394,6 @@ pg.furniture_data_template = {
 		describe = "特殊家具：リアンダー模型（1:100)",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -388,6 +405,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	{
@@ -415,7 +435,6 @@ pg.furniture_data_template = {
 		describe = "特殊家具：ケーニヒスベルク模型（1:100)",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -427,6 +446,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	{
@@ -454,7 +476,6 @@ pg.furniture_data_template = {
 		describe = "特殊家具：グリッドレイ模型（1:100)",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -466,6 +487,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	{
@@ -493,7 +517,6 @@ pg.furniture_data_template = {
 		describe = "特殊家具：Cクラス模型（1:100)",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -505,6 +528,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	{
@@ -532,7 +558,6 @@ pg.furniture_data_template = {
 		describe = "特殊家具：カウンティ級模型（1:100)",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -544,6 +569,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	{
@@ -571,7 +599,6 @@ pg.furniture_data_template = {
 		describe = "特殊家具：イラストリアス模型（1:100)",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -583,6 +610,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	{
@@ -610,7 +640,6 @@ pg.furniture_data_template = {
 		describe = "特殊家具：ビスマルク模型（1:100)",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -622,6 +651,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	{
@@ -649,7 +681,6 @@ pg.furniture_data_template = {
 		describe = "特殊家具：三笠模型（1:100)",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -661,6 +692,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[101] = {
@@ -688,7 +722,6 @@ pg.furniture_data_template = {
 		describe = "βテスト報酬",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -700,6 +733,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[102] = {
@@ -727,7 +763,6 @@ pg.furniture_data_template = {
 		describe = "USS Arizona 1915.6.19—1941.12.7",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -739,6 +774,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[104] = {
@@ -766,7 +804,6 @@ pg.furniture_data_template = {
 		describe = "<color=#fad545>「ユニオン第23駆逐艦中隊・ビーバーズ、31ノットで前進よ！」</color>",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -778,6 +815,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[105] = {
@@ -805,7 +845,6 @@ pg.furniture_data_template = {
 		describe = "「撃たれるまでは撃つな。奴らが戦争をしたいというなら、ここで始めよう」",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -817,6 +856,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[106] = {
@@ -844,7 +886,6 @@ pg.furniture_data_template = {
 		describe = "「鏡面海域」から回収された勲章。その形から鋼鉄の意志と強さを感じ取れる。記念として、超高難易度な作戦をクリアした指揮官に贈るもの――",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 1,
 		themeId = 8,
 		spine_extra = "",
 		time = "always",
@@ -856,6 +897,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			1
+		},
 		interAction_group = {}
 	},
 	[107] = {
@@ -883,7 +927,6 @@ pg.furniture_data_template = {
 		describe = "「私の大事なインディちゃんコレクションですよ～」",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -895,6 +938,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[108] = {
@@ -922,7 +968,6 @@ pg.furniture_data_template = {
 		describe = "鞦韆 ゆらりくらりの 初紅葉　",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -947,6 +992,9 @@ pg.furniture_data_template = {
 				},
 				"chuanmo/qiuqianqixi_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -975,7 +1023,6 @@ pg.furniture_data_template = {
 		describe = "七夕の 逢はぬ心や 雨中天",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -1044,6 +1091,9 @@ pg.furniture_data_template = {
 				}
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[111] = {
@@ -1071,7 +1121,6 @@ pg.furniture_data_template = {
 		describe = "月の朧なる、薬を搗く此頃ーー",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -1083,6 +1132,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[112] = {
@@ -1110,7 +1162,6 @@ pg.furniture_data_template = {
 		describe = "セイレーンの実験場から、「紅染の来訪者」たちによって回収された勲章。記念として、超高難易度な作戦をクリアした指揮官に贈るもの――",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 1,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -1122,6 +1173,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			1
+		},
 		interAction_group = {}
 	},
 	[113] = {
@@ -1149,7 +1203,6 @@ pg.furniture_data_template = {
 		describe = "１ヶ月未満で…フォロワー10万…っ！圧倒的感謝っ！\n…食糧のフルコースも…お願いします…っ！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -1185,6 +1238,9 @@ pg.furniture_data_template = {
 				}
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[114] = {
@@ -1212,7 +1268,6 @@ pg.furniture_data_template = {
 		describe = "ツイッター20万フォロワー記念！これが例の…",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -1224,6 +1279,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"zhibojian",
@@ -1280,7 +1338,6 @@ pg.furniture_data_template = {
 		describe = "ゴルディオンウォッシュレット！発動承認！40万フォロワーまで、レディー…ゴー！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -1292,6 +1349,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"matongB",
@@ -1362,7 +1422,6 @@ pg.furniture_data_template = {
 		describe = "戦争なんてつまんない！私の歌を聞けー！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -1374,6 +1433,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"jinkelawutaiB",
@@ -1430,7 +1492,6 @@ pg.furniture_data_template = {
 		describe = "戦火に包まれた廃墟から本部が回収したメダル。青き自由に誓うユニオンの人々の強い意志を感じさせる―― ",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 1,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -1442,6 +1503,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			1
+		},
 		interAction_group = {}
 	},
 	[118] = {
@@ -1469,7 +1533,6 @@ pg.furniture_data_template = {
 		describe = "『超次元の挑戦状』をクリアした勇者に送る記念章。別次元の素材が使用されており、奇妙なる光彩を放っている",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 1,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -1481,6 +1544,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			1
+		},
 		interAction_group = {}
 	},
 	[119] = {
@@ -1508,7 +1574,6 @@ pg.furniture_data_template = {
 		describe = "「凛冽なる最難関」を突破した勇者に贈られる勲章。そのデザインは王家の栄光と誇りを表すものになっている",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 1,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -1520,6 +1585,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			1
+		},
 		interAction_group = {}
 	},
 	[120] = {
@@ -1547,7 +1615,6 @@ pg.furniture_data_template = {
 		describe = "柔らかいちまき風の椅子。ササの葉の香りがする",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		new = 1,
@@ -1570,6 +1637,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -1624,7 +1694,6 @@ pg.furniture_data_template = {
 		describe = "ちまき風の寝袋。包まれたって食べられたりはしないよ！",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		new = 1,
@@ -1648,6 +1717,9 @@ pg.furniture_data_template = {
 				},
 				"chuanmo/zongziwo_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -1696,17 +1768,15 @@ pg.furniture_data_template = {
 		rarity = 4,
 		picture = "chuanmo/renouwo",
 		canputon = 0,
-		discount = 0,
+		discount = 20,
 		id = 122,
 		comfortable = 4,
 		describe = "ピンチの時に駆けつけてくれないかもしれない",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
-		new = 1,
-		discount_time = "",
+		new = 0,
 		size = {
 			4,
 			3
@@ -1738,10 +1808,13 @@ pg.furniture_data_template = {
 				}
 			}
 		},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
-					2018,
+					2019,
 					4,
 					26
 				},
@@ -1753,9 +1826,9 @@ pg.furniture_data_template = {
 			},
 			{
 				{
-					2018,
+					2019,
 					5,
-					9
+					15
 				},
 				{
 					23,
@@ -1764,7 +1837,33 @@ pg.furniture_data_template = {
 				}
 			}
 		},
-		interAction_group = {}
+		interAction_group = {},
+		discount_time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
 	},
 	[123] = {
 		can_rotate = 0,
@@ -1785,27 +1884,28 @@ pg.furniture_data_template = {
 		rarity = 4,
 		picture = "chuanmo/liyuqiwo",
 		canputon = 0,
-		discount = 0,
+		discount = 20,
 		id = 123,
 		comfortable = 4,
 		describe = "巨大なこいのぼり",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
-		new = 1,
-		discount_time = "",
+		new = 0,
 		size = {
 			6,
 			5
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
-					2018,
+					2019,
 					4,
 					26
 				},
@@ -1817,9 +1917,9 @@ pg.furniture_data_template = {
 			},
 			{
 				{
-					2018,
+					2019,
 					5,
-					9
+					15
 				},
 				{
 					23,
@@ -1828,7 +1928,33 @@ pg.furniture_data_template = {
 				}
 			}
 		},
-		interAction_group = {}
+		interAction_group = {},
+		discount_time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
 	},
 	[124] = {
 		can_rotate = 0,
@@ -1855,7 +1981,6 @@ pg.furniture_data_template = {
 		describe = "「墨染まりし鋼の桜」を見届けた者に送られる勲章。絶えぬ勇気をその心に―― ",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 1,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -1867,6 +1992,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			1
+		},
 		interAction_group = {}
 	},
 	[128] = {
@@ -1894,7 +2022,6 @@ pg.furniture_data_template = {
 		describe = "足側面にグライディングホイールを装備し、湿地戦用に改装されたスコープドッグ。足裏部にハイドロジェット、背部にエアボンベ増設、腰部にエアバージ（フロート）を追加し、上半身部を浮かべて水上戦闘が可能。気密処理を行い酸素ボンベを追加することで多少の水中戦を行う事ができる。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -1906,6 +2033,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"zhuangjiaqibingB",
@@ -1983,7 +2113,6 @@ pg.furniture_data_template = {
 		describe = "神聖にして荘厳なる雰囲気が感じ取れる自由アイリス教国のチャペルラーベル。「光と影のアイリス」における戦果が卓越した指揮官に贈る。 ",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 1,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -1995,6 +2124,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			1
+		},
 		interAction_group = {}
 	},
 	[133] = {
@@ -2022,7 +2154,6 @@ pg.furniture_data_template = {
 		describe = "「一周年祭りのはじまり～お楽しみはこれから、ってね♪」 ",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -2034,6 +2165,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"wutaiJP",
@@ -2088,7 +2222,6 @@ pg.furniture_data_template = {
 		describe = "にょるにょるしてて疲れるよね>_< ",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -2100,6 +2233,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"juanzhiguai",
@@ -2133,7 +2269,6 @@ pg.furniture_data_template = {
 		describe = "これは……ダイヤの匂いにゃ！ ",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -2145,6 +2280,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"akashibox",
@@ -2186,7 +2324,6 @@ pg.furniture_data_template = {
 		describe = "誕生日おめでとうございます！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -2198,6 +2335,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"dangaoB",
@@ -2273,7 +2413,6 @@ pg.furniture_data_template = {
 		describe = "鏡面海域深部に発見された、セイレーンが作ったとあるもののレプリカ。異なる世界との接触の記念品として母港に持ち帰られた。 ",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 1,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -2285,6 +2424,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			1
+		},
 		interAction_group = {}
 	},
 	[140] = {
@@ -2312,7 +2454,6 @@ pg.furniture_data_template = {
 		describe = "精巧に作られているとあるお城のミニチュア。重桜の重厚なる歴史を感じさせる――イベント「縹映る深緋の残響」で手に入れた最高の栄誉の記念章",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 1,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -2324,6 +2465,158 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		interAction_group = {}
+	},
+	[141] = {
+		can_rotate = 0,
+		name = "ぴょこぴょこ記念章",
+		gain_by = "仮想繋げし共時性",
+		type = 7,
+		dir = 0,
+		effect = "",
+		icon = "kizunaaiicon",
+		is_get_time_note = 1,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 500,
+		not_for_sale = 1,
+		deblocking = 1,
+		level = 1,
+		rarity = 5,
+		picture = "chuanmo/kizunaai",
+		canputon = 0,
+		discount = 0,
+		id = 141,
+		comfortable = 0,
+		describe = "「バーチャル空間のウィルスを完全に駆除したお礼として、この『1/1キズナアイ特製ぴょこぴょこ記念章』をお受け取りください――ということで、これからもよろしくお願いしますね！」\n―――キズナアイ",
+		dorm_id = 0,
+		gem_price = 0,
+		themeId = 0,
+		spine_extra = "",
+		time = "always",
+		new = 0,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1,
+			"event:/cv/furniture/kizunavoice"
+		},
+		interAction_group = {}
+	},
+	[143] = {
+		can_rotate = 0,
+		name = "決戦型コイノボリ（嘘）",
+		gain_by = "",
+		type = 11,
+		dir = 0,
+		picture = "",
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 0,
+		not_for_sale = 1,
+		icon = "liyuqiicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 4,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 143,
+		comfortable = 0,
+		describe = "ライディングフィッシュ！アクセラレーション！航跡波についてこい！",
+		dorm_id = 0,
+		gem_price = 0,
+		themeId = 0,
+		time = "always",
+		new = 0,
+		discount_time = "",
+		size = {
+			2,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"liyuqiB",
+				"normal"
+			},
+			{
+				"liyuqiT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{
+				{
+					4,
+					171
+				},
+				{
+					314,
+					554
+				},
+				"chuanmo/liyuqi_mask",
+				{
+					-1,
+					1
+				}
+			},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			},
+			0.3
+		},
+		spine_extra = {
+			{
+				{},
+				{
+					0,
+					0
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		animator = {
+			{
+				"liyuCharControl",
+				"liyuCharControl2"
+			}
+		},
 		interAction_group = {}
 	},
 	[100002] = {
@@ -2351,7 +2644,6 @@ pg.furniture_data_template = {
 		describe = "ゆゆゆ友情パワーだぴょぴょぴょぴょ………",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 0,
 		time = "always",
 		new = 1,
@@ -2362,6 +2654,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"201901login",
@@ -2438,7 +2733,6 @@ pg.furniture_data_template = {
 		describe = "空を自由に飛びたい夢――今、叶う！ ",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -2450,6 +2744,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"zhuqingting",
@@ -2517,7 +2814,6 @@ pg.furniture_data_template = {
 		describe = "無関係の饅頭を2体待ち伏せさせる危険の罠 ",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -2529,6 +2825,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"moshumaoB",
@@ -2582,6 +2881,105 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[100005] = {
+		can_rotate = 0,
+		name = "謎のマジックボックス",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		picture = "",
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 1,
+		icon = "moshuxiangicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 4,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 100005,
+		comfortable = 0,
+		describe = "饅頭も艦船も隠せる奇術の箱",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 0,
+		spine_extra = "",
+		time = "always",
+		new = 1,
+		discount_time = "",
+		size = {
+			8,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"MagicBoxB",
+				"normal"
+			},
+			{
+				"MagicBoxT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"stand21",
+						0,
+						"walk"
+					},
+					{
+						"walk1",
+						0,
+						"walk"
+					},
+					{
+						"stand22",
+						0,
+						"dance"
+					},
+					{
+						"walk2",
+						0,
+						"walk"
+					}
+				},
+				{},
+				{
+					0
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		animator = {
+			{
+				{
+					"MagicBoxCharControl",
+					"MagicBoxCharControl2"
+				}
+			}
+		},
+		interAction_group = {}
+	},
 	[1001] = {
 		can_rotate = 0,
 		name = "ボロ床",
@@ -2607,7 +3005,6 @@ pg.furniture_data_template = {
 		describe = "至る所がぼろぼろになっているフローリング。足元注意。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 1,
 		spine_extra = "",
 		time = "always",
@@ -2616,6 +3013,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[1002] = {
@@ -2643,7 +3043,6 @@ pg.furniture_data_template = {
 		describe = "激安物件特有なボロい壁。穴つき。壁紙なしにちゃんと住めるか心配",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 1,
 		spine_extra = "",
 		time = "always",
@@ -2652,6 +3051,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[1101] = {
@@ -2679,7 +3081,6 @@ pg.furniture_data_template = {
 		describe = "申し訳程度のフロアマット。マットが床よりずっとボロいのは禁句",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 1,
 		spine_extra = "",
 		time = "always",
@@ -2691,6 +3092,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[1102] = {
@@ -2718,7 +3122,6 @@ pg.furniture_data_template = {
 		describe = "座るところがない！…しょうがない、布団でガマンガマン",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 1,
 		spine_extra = "",
 		time = "always",
@@ -2730,6 +3133,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[1103] = {
@@ -2757,7 +3163,6 @@ pg.furniture_data_template = {
 		describe = "地べたで寝るよりマシな床ベッド。プロレタリアスタイル…かも？",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 1,
 		spine_extra = "",
 		time = "always",
@@ -2777,6 +3182,9 @@ pg.furniture_data_template = {
 					10
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -2805,7 +3213,6 @@ pg.furniture_data_template = {
 		describe = "木製の間仕切り。所々がツギハギしているようで本当に仕切れるかが疑問",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 1,
 		spine_extra = "",
 		time = "always",
@@ -2817,6 +3224,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[1105] = {
@@ -2844,7 +3254,6 @@ pg.furniture_data_template = {
 		describe = "古新聞。何に使うんだろ…",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 1,
 		spine_extra = "",
 		time = "always",
@@ -2856,6 +3265,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[1106] = {
@@ -2883,7 +3295,6 @@ pg.furniture_data_template = {
 		describe = "リサイクルショップから買ったと言わんばかりの古いテレビ。見れるだけで満足",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 1,
 		spine_extra = "",
 		time = "always",
@@ -2906,6 +3317,9 @@ pg.furniture_data_template = {
 				3,
 				2
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -2934,7 +3348,6 @@ pg.furniture_data_template = {
 		describe = "姉ちゃんは、外食費がかさむから、自給自足こそが王道って！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 1,
 		spine_extra = "",
 		time = "always",
@@ -2946,6 +3359,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[1108] = {
@@ -2973,7 +3389,6 @@ pg.furniture_data_template = {
 		describe = "凍える夜を明かす灯油ランプは我々労働者の革命精神を象徴するものだ！…指揮官、やはり照明を買い替えたほうが…",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 1,
 		spine_extra = "",
 		time = "always",
@@ -2985,6 +3400,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[1109] = {
@@ -3012,7 +3430,6 @@ pg.furniture_data_template = {
 		describe = "欠けたタライ。これで屋根の雨漏れに心配しなくて済む！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 1,
 		spine_extra = "",
 		time = "always",
@@ -3024,6 +3441,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[1110] = {
@@ -3051,7 +3471,6 @@ pg.furniture_data_template = {
 		describe = "新品のモップ。雨漏れ対策に新調したらしい",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 1,
 		spine_extra = "",
 		time = "always",
@@ -3063,6 +3482,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[1111] = {
@@ -3090,7 +3512,6 @@ pg.furniture_data_template = {
 		describe = "クローゼットは高いから、ひとまずはこのダンボールで…",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 1,
 		spine_extra = "",
 		time = "always",
@@ -3102,6 +3523,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[1112] = {
@@ -3129,7 +3553,6 @@ pg.furniture_data_template = {
 		describe = "ダンボールサイコー！ダンボールを発明した人サイコー！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 1,
 		spine_extra = "",
 		time = "always",
@@ -3161,6 +3584,9 @@ pg.furniture_data_template = {
 				2
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[1201] = {
@@ -3188,7 +3614,6 @@ pg.furniture_data_template = {
 		describe = "ケーニヒスベルグちゃんが渋々供出したアイツ。これで電気代も減るね！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 1,
 		spine_extra = "",
 		time = "always",
@@ -3200,6 +3625,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[1202] = {
@@ -3227,7 +3655,6 @@ pg.furniture_data_template = {
 		describe = "いくら貧しかろうと、お茶を楽しむことを諦めない！茶器はとりあえずこれぐらいで",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 1,
 		spine_extra = "",
 		time = "always",
@@ -3239,6 +3666,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[1203] = {
@@ -3266,7 +3696,6 @@ pg.furniture_data_template = {
 		describe = "ネズミ取りに飼い始めたネコなのに、どうしていつも寝てるだろう",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 1,
 		spine_extra = "",
 		time = "always",
@@ -3278,6 +3707,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[1204] = {
@@ -3305,7 +3737,6 @@ pg.furniture_data_template = {
 		describe = "部屋を破壊する元凶。この形だと愛嬌があるかも",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 1,
 		spine_extra = "",
 		time = "always",
@@ -3317,6 +3748,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[1205] = {
@@ -3344,7 +3778,6 @@ pg.furniture_data_template = {
 		describe = "今日の夕食は……野菜に白湯？お肉食べたい~",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 1,
 		spine_extra = "",
 		time = "always",
@@ -3356,6 +3789,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[1206] = {
@@ -3383,7 +3819,6 @@ pg.furniture_data_template = {
 		describe = "キャンドルライトに照らし出される夜の景色。美しいとは思いませんか？",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 1,
 		spine_extra = "",
 		time = "always",
@@ -3395,6 +3830,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[1301] = {
@@ -3422,7 +3860,6 @@ pg.furniture_data_template = {
 		describe = "連絡事項が書かれている便せん。だからテキトウに壁に貼るな！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 1,
 		spine_extra = "",
 		time = "always",
@@ -3434,6 +3871,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[1302] = {
@@ -3461,7 +3901,6 @@ pg.furniture_data_template = {
 		describe = "視界良好、風景上々、なお外からの視線は防げない模様",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 1,
 		spine_extra = "",
 		time = "always",
@@ -3473,6 +3912,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[1303] = {
@@ -3500,7 +3942,6 @@ pg.furniture_data_template = {
 		describe = "視界良好、風景上々、なお外からの視線は防げない模様",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 1,
 		spine_extra = "",
 		time = "always",
@@ -3512,6 +3953,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[1304] = {
@@ -3539,7 +3983,6 @@ pg.furniture_data_template = {
 		describe = "色々書けそうな黒板",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 1,
 		spine_extra = "",
 		time = "always",
@@ -3551,6 +3994,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[1305] = {
@@ -3578,7 +4024,6 @@ pg.furniture_data_template = {
 		describe = "いい？ドアを開ける時に力入れすぎないこと！新しいのを買う予算がもうないの！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 1,
 		spine_extra = "",
 		time = "always",
@@ -3590,6 +4035,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[1306] = {
@@ -3617,7 +4065,6 @@ pg.furniture_data_template = {
 		describe = "あまり丈夫じゃないドア。強く引っ張ると壊れそう",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 1,
 		spine_extra = "",
 		time = "always",
@@ -3629,6 +4076,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[1307] = {
@@ -3656,7 +4106,6 @@ pg.furniture_data_template = {
 		describe = "あまり丈夫じゃないドア。強く引っ張ると壊れそう",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 1,
 		spine_extra = "",
 		time = "always",
@@ -3668,6 +4117,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[1308] = {
@@ -3695,7 +4147,6 @@ pg.furniture_data_template = {
 		describe = "かろうじて声が出せるスピーカー。放送する時にザザっとノイズがかかる",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 1,
 		spine_extra = "",
 		time = "always",
@@ -3707,6 +4158,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[1309] = {
@@ -3734,7 +4188,6 @@ pg.furniture_data_template = {
 		describe = "どこから手に入れたかわからないポスター",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 1,
 		spine_extra = "",
 		time = "always",
@@ -3746,6 +4199,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[2001] = {
@@ -3773,7 +4229,6 @@ pg.furniture_data_template = {
 		describe = "新しい畳。今度は汚しちゃだめ！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 2,
 		spine_extra = "",
 		time = "always",
@@ -3782,6 +4237,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[2002] = {
@@ -3809,7 +4267,6 @@ pg.furniture_data_template = {
 		describe = "穏やかな雰囲気の壁紙。そのまま顔を壁にくっつけたい",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 2,
 		spine_extra = "",
 		time = "always",
@@ -3818,6 +4275,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[2101] = {
@@ -3845,7 +4305,6 @@ pg.furniture_data_template = {
 		describe = "座り心地のいい、桜柄の座布団",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 2,
 		spine_extra = "",
 		time = "always",
@@ -3857,6 +4316,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[2102] = {
@@ -3884,7 +4346,6 @@ pg.furniture_data_template = {
 		describe = "桜柄の和風布団セット。敷き布団に掛ふとん、大きな枕",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 2,
 		spine_extra = "",
 		time = "always",
@@ -3920,6 +4381,9 @@ pg.furniture_data_template = {
 				}
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[2105] = {
@@ -3947,7 +4411,6 @@ pg.furniture_data_template = {
 		describe = "和風カバーから伝わる柔らかい光。室中を充満する温かい和の雰囲気",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 2,
 		spine_extra = "",
 		time = "always",
@@ -3959,6 +4422,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[2106] = {
@@ -3986,7 +4452,6 @@ pg.furniture_data_template = {
 		describe = "大画面16K薄型テレビ。君こそこれを持つ資格がある",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 2,
 		spine_extra = "",
 		time = "always",
@@ -3998,6 +4463,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[2107] = {
@@ -4025,7 +4493,6 @@ pg.furniture_data_template = {
 		describe = "厚い布団と暖炉で醸し出す極楽空間。入ったら二度と出てこれない",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 2,
 		spine_extra = "",
 		time = "always",
@@ -4077,6 +4544,9 @@ pg.furniture_data_template = {
 				3
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[2108] = {
@@ -4104,7 +4574,6 @@ pg.furniture_data_template = {
 		describe = "すべての刀には己の物語がある。すべての艦と同じように",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 2,
 		spine_extra = "",
 		time = "always",
@@ -4116,6 +4585,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[2109] = {
@@ -4143,7 +4615,6 @@ pg.furniture_data_template = {
 		describe = "まさかの半透明！これじゃ後ろできがえない…な、なんでもないわよ！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 2,
 		spine_extra = "",
 		time = "always",
@@ -4155,6 +4626,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[2110] = {
@@ -4182,7 +4656,6 @@ pg.furniture_data_template = {
 		describe = "招き猫なのに、猫じゃらしを抱えてもっぱら寝ているらしい",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 2,
 		spine_extra = "",
 		time = "always",
@@ -4194,6 +4667,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[2201] = {
@@ -4221,7 +4697,6 @@ pg.furniture_data_template = {
 		describe = "歴史を感じさせる茶器セット。たまには茶をたてて、侘び寂びの心を感じましょう",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 2,
 		spine_extra = "",
 		time = "always",
@@ -4233,6 +4708,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[2202] = {
@@ -4260,7 +4738,6 @@ pg.furniture_data_template = {
 		describe = "おにぎり中心の豪華な和食オードブル。美味しいもので幸せがいっぱい",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 2,
 		spine_extra = "",
 		time = "always",
@@ -4272,6 +4749,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[2203] = {
@@ -4299,7 +4779,6 @@ pg.furniture_data_template = {
 		describe = "桜を肴に酒を楽しむ酒器セット。一杯…どうですか？",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 2,
 		spine_extra = "",
 		time = "always",
@@ -4311,6 +4790,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[2204] = {
@@ -4338,7 +4820,6 @@ pg.furniture_data_template = {
 		describe = "カチグミの指揮官なら、何かを飾っておかないと",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 2,
 		spine_extra = "",
 		time = "always",
@@ -4350,6 +4831,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[2205] = {
@@ -4377,7 +4861,6 @@ pg.furniture_data_template = {
 		describe = "インテリアに映える伝統芸能",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 2,
 		spine_extra = "",
 		time = "always",
@@ -4389,6 +4872,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[2206] = {
@@ -4416,7 +4902,6 @@ pg.furniture_data_template = {
 		describe = "秋の感触も、この楓の葉に残すことができればいいのに…",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 2,
 		spine_extra = "",
 		time = "always",
@@ -4428,6 +4913,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[2207] = {
@@ -4455,7 +4943,6 @@ pg.furniture_data_template = {
 		describe = "デザインセンス溢れる和風水槽。…誰だ！これを飼ったのは！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 2,
 		spine_extra = "",
 		time = "always",
@@ -4467,6 +4954,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[2301] = {
@@ -4494,7 +4984,6 @@ pg.furniture_data_template = {
 		describe = "大きな窓。通風性が良さそう！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 2,
 		spine_extra = "",
 		time = "always",
@@ -4506,6 +4995,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[2302] = {
@@ -4533,7 +5025,6 @@ pg.furniture_data_template = {
 		describe = "誰が書いたかは分からないが、妙に人をおちつかせる一筆",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 2,
 		spine_extra = "",
 		time = "always",
@@ -4545,6 +5036,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[2303] = {
@@ -4572,7 +5066,6 @@ pg.furniture_data_template = {
 		describe = "THE・和風の襖。引く時に力を入れすぎないように！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 2,
 		spine_extra = "",
 		time = "always",
@@ -4584,6 +5077,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[2304] = {
@@ -4611,7 +5107,6 @@ pg.furniture_data_template = {
 		describe = "壁の収納には記念すべきアイテムを飾ろう！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 2,
 		spine_extra = "",
 		time = "always",
@@ -4623,6 +5118,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[2305] = {
@@ -4650,7 +5148,6 @@ pg.furniture_data_template = {
 		describe = "大きな飾り扇子。白だったら色々書けそうなのに…",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 2,
 		spine_extra = "",
 		time = "always",
@@ -4662,6 +5159,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[3001] = {
@@ -4689,7 +5189,6 @@ pg.furniture_data_template = {
 		describe = "黒のフローリング。あまり掃除しなくてもそう汚く見えないのが利点",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 3,
 		spine_extra = "",
 		time = "always",
@@ -4698,6 +5197,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[3002] = {
@@ -4725,7 +5227,6 @@ pg.furniture_data_template = {
 		describe = "淡青の色合いは空と海をイメージするものだろうか？",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 3,
 		spine_extra = "",
 		time = "always",
@@ -4734,6 +5235,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[3101] = {
@@ -4761,7 +5265,6 @@ pg.furniture_data_template = {
 		describe = "横になってゴロゴロできるふわふわな絨毯",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 3,
 		spine_extra = "",
 		time = "always",
@@ -4773,6 +5276,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[3102] = {
@@ -4800,7 +5306,6 @@ pg.furniture_data_template = {
 		describe = "色々置けそうなテーブル。例えば……ああ酒は隠して！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 3,
 		spine_extra = "",
 		time = "always",
@@ -4812,6 +5317,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[3103] = {
@@ -4839,7 +5347,6 @@ pg.furniture_data_template = {
 		describe = "Hey，boy！Let‘s start game！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 3,
 		spine_extra = "",
 		time = "always",
@@ -4851,6 +5358,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[3104] = {
@@ -4878,7 +5388,6 @@ pg.furniture_data_template = {
 		describe = "メガサイズの空母風ベッド。上がるのは面倒、転がり落ちることも要注意",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 3,
 		spine_extra = "",
 		time = "always",
@@ -4898,6 +5407,9 @@ pg.furniture_data_template = {
 					70
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -4926,7 +5438,6 @@ pg.furniture_data_template = {
 		describe = "赤白ボーダーのソファ。まあ、座り心地がいいからいいんじゃない？",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 3,
 		spine_extra = "",
 		time = "always",
@@ -4964,6 +5475,9 @@ pg.furniture_data_template = {
 				"meishi/shafa4a_using"
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[3107] = {
@@ -4991,7 +5505,6 @@ pg.furniture_data_template = {
 		describe = "作戦打ち合わせ用のデスク。普段は主にポーカーゲームする時に使う",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 3,
 		spine_extra = "",
 		time = "always",
@@ -5043,6 +5556,9 @@ pg.furniture_data_template = {
 				3
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[3108] = {
@@ -5070,7 +5586,6 @@ pg.furniture_data_template = {
 		describe = "バーベーキュー！食いしん坊にはたまらない響！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 3,
 		spine_extra = "",
 		time = "always",
@@ -5082,6 +5597,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[3109] = {
@@ -5109,7 +5627,6 @@ pg.furniture_data_template = {
 		describe = "絶妙な音質が、君の耳をも虜にする！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 3,
 		spine_extra = "",
 		time = "always",
@@ -5121,6 +5638,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[3110] = {
@@ -5148,7 +5668,6 @@ pg.furniture_data_template = {
 		describe = "ギリシャ風の椅子",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 3,
 		spine_extra = "",
 		time = "always",
@@ -5168,6 +5687,9 @@ pg.furniture_data_template = {
 					55
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -5196,7 +5718,6 @@ pg.furniture_data_template = {
 		describe = "赤白ボーダーの椅子。柔らかくてゆったりな座り心地",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 3,
 		spine_extra = "",
 		time = "always",
@@ -5216,6 +5737,9 @@ pg.furniture_data_template = {
 					40
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -5244,7 +5768,6 @@ pg.furniture_data_template = {
 		describe = "上官から贈られた植物の盆栽",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 3,
 		spine_extra = "",
 		time = "always",
@@ -5256,6 +5779,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[3202] = {
@@ -5283,7 +5809,6 @@ pg.furniture_data_template = {
 		describe = "遠出する際に、荷物を入れて運ぶトランク。ちょっとだけ大きめ",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 3,
 		spine_extra = "",
 		time = "always",
@@ -5295,6 +5820,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[3203] = {
@@ -5322,7 +5850,6 @@ pg.furniture_data_template = {
 		describe = "大人気なエンタテインメント。指揮官がいないうちにちょっとだけやっちゃおう",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 3,
 		spine_extra = "",
 		time = "always",
@@ -5334,6 +5861,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[3204] = {
@@ -5361,7 +5891,6 @@ pg.furniture_data_template = {
 		describe = "ユニオン風のナイトランプ",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 3,
 		spine_extra = "",
 		time = "always",
@@ -5373,6 +5902,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[3301] = {
@@ -5400,7 +5932,6 @@ pg.furniture_data_template = {
 		describe = "窓の外に広がる夏の海……風が大きすぎて何も見えなーい！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 3,
 		spine_extra = "",
 		time = "always",
@@ -5412,6 +5943,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[3302] = {
@@ -5439,7 +5973,6 @@ pg.furniture_data_template = {
 		describe = "ユニオンのシンボルである、とあるスカイスクレイパーのポスター",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 3,
 		spine_extra = "",
 		time = "always",
@@ -5451,6 +5984,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[3303] = {
@@ -5478,7 +6014,6 @@ pg.furniture_data_template = {
 		describe = "浮き輪をモチーフにデザインされた時計。独特なセンスである",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 3,
 		spine_extra = "",
 		time = "always",
@@ -5490,6 +6025,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[3304] = {
@@ -5517,7 +6055,6 @@ pg.furniture_data_template = {
 		describe = "とても丈夫な鉄製ドア。叩くと重厚な音を発しそう",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 3,
 		spine_extra = "",
 		time = "always",
@@ -5529,6 +6066,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[3305] = {
@@ -5556,7 +6096,6 @@ pg.furniture_data_template = {
 		describe = "壁掛け世界地図。ただの飾りですよ",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 3,
 		spine_extra = "",
 		time = "always",
@@ -5568,6 +6107,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[3306] = {
@@ -5595,7 +6137,6 @@ pg.furniture_data_template = {
 		describe = "戦略案をプレゼンする際に使う機械。ぶっちゃけ映画を見るのに使されることが多い",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 3,
 		spine_extra = "",
 		time = "always",
@@ -5607,6 +6148,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[4001] = {
@@ -5634,7 +6178,6 @@ pg.furniture_data_template = {
 		describe = "貴族感たっぷりの天然木フローリング。これで快適度もバッチリ！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 4,
 		spine_extra = "",
 		time = "always",
@@ -5643,6 +6186,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[4002] = {
@@ -5670,7 +6216,6 @@ pg.furniture_data_template = {
 		describe = "淡い緑色の壁紙。どことなく落ち着いた温かい雰囲気",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 4,
 		spine_extra = "",
 		time = "always",
@@ -5679,6 +6224,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[4101] = {
@@ -5706,7 +6254,6 @@ pg.furniture_data_template = {
 		describe = "純白のカーペット。柔らかくていい気持ち。ネコたちには大人気",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 4,
 		spine_extra = "",
 		time = "always",
@@ -5718,6 +6265,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[4102] = {
@@ -5745,7 +6295,6 @@ pg.furniture_data_template = {
 		describe = "高いランプスタンドに少し黄色く仕上げられたカバーで、夕焼け空を演出する",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 4,
 		spine_extra = "",
 		time = "always",
@@ -5757,6 +6306,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[4103] = {
@@ -5784,7 +6336,6 @@ pg.furniture_data_template = {
 		describe = "小さいラウンドテーブル。手元に置くと色々と便利",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 4,
 		spine_extra = "",
 		time = "always",
@@ -5796,6 +6347,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[4104] = {
@@ -5823,7 +6377,6 @@ pg.furniture_data_template = {
 		describe = "小さいラウンドテーブル。手元に置くと色々と便利",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 4,
 		spine_extra = "",
 		time = "always",
@@ -5835,6 +6388,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[4105] = {
@@ -5862,7 +6418,6 @@ pg.furniture_data_template = {
 		describe = "教養を上げるには読書！本棚は必要不可欠なのよ！え？何の本ですって？",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 4,
 		spine_extra = "",
 		time = "always",
@@ -5874,6 +6429,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[4106] = {
@@ -5901,7 +6459,6 @@ pg.furniture_data_template = {
 		describe = "世界を風靡するスポーツ。キューで人を突いてしまうことだけには注意してね！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 4,
 		spine_extra = "",
 		time = "always",
@@ -5913,6 +6470,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[4107] = {
@@ -5940,7 +6500,6 @@ pg.furniture_data_template = {
 		describe = "厚革のソファチェア。座るとソファに沈みそう",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 4,
 		spine_extra = "",
 		time = "always",
@@ -5964,6 +6523,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -5992,7 +6554,6 @@ pg.furniture_data_template = {
 		describe = "小さいソファ・スツール。足りない椅子の足しになる",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 4,
 		spine_extra = "",
 		time = "always",
@@ -6016,6 +6577,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -6044,7 +6608,6 @@ pg.furniture_data_template = {
 		describe = "背もたれに精巧な透かし彫りデザインが入ってる椅子",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 4,
 		spine_extra = "",
 		time = "always",
@@ -6068,6 +6631,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -6096,7 +6662,6 @@ pg.furniture_data_template = {
 		describe = "小物が色々入れそうな棚",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 4,
 		spine_extra = "",
 		time = "always",
@@ -6108,6 +6673,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[4113] = {
@@ -6135,7 +6703,6 @@ pg.furniture_data_template = {
 		describe = "青いテーブルクロスに覆われる大きなラウンドテーブル。多くのものが置けそう",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 4,
 		spine_extra = "",
 		time = "always",
@@ -6167,6 +6734,9 @@ pg.furniture_data_template = {
 				3
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[4114] = {
@@ -6194,7 +6764,6 @@ pg.furniture_data_template = {
 		describe = "高貴なデザイン、可愛らしいクマのぬいぐるみはお姫様のような雰囲気を演出",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 4,
 		spine_extra = "",
 		time = "always",
@@ -6230,6 +6799,9 @@ pg.furniture_data_template = {
 				}
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[4201] = {
@@ -6257,7 +6829,6 @@ pg.furniture_data_template = {
 		describe = "チェロの声を聞くと気持ちが落ち着く",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 4,
 		spine_extra = "",
 		time = "always",
@@ -6269,6 +6840,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[4202] = {
@@ -6296,7 +6870,6 @@ pg.furniture_data_template = {
 		describe = "王家用ティーセット一式。周りが一瞬でアフタヌーンティーの雰囲気に",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 4,
 		spine_extra = "",
 		time = "always",
@@ -6308,6 +6881,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[4203] = {
@@ -6335,7 +6911,6 @@ pg.furniture_data_template = {
 		describe = "にゃー！可愛いショートヘア(=^･ω･^=)",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 4,
 		spine_extra = "",
 		time = "always",
@@ -6347,6 +6922,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[4301] = {
@@ -6374,7 +6952,6 @@ pg.furniture_data_template = {
 		describe = "高い所に飾る照明ランプ。小さいランプでも広く照らせる",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 4,
 		spine_extra = "",
 		time = "always",
@@ -6386,6 +6963,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[4302] = {
@@ -6413,7 +6993,6 @@ pg.furniture_data_template = {
 		describe = "鹿の剥製風装飾。もちろん本物ではない",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 4,
 		spine_extra = "",
 		time = "always",
@@ -6425,6 +7004,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[4303] = {
@@ -6452,7 +7034,6 @@ pg.furniture_data_template = {
 		describe = "とあるスタッフの似顔絵。意外と安い",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 4,
 		spine_extra = "",
 		time = "always",
@@ -6464,6 +7045,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[4304] = {
@@ -6491,7 +7075,6 @@ pg.furniture_data_template = {
 		describe = "普段は目立たないが、寒い日こそ存在感を放つ",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 4,
 		spine_extra = "",
 		time = "always",
@@ -6503,6 +7086,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[4305] = {
@@ -6530,7 +7116,6 @@ pg.furniture_data_template = {
 		describe = "床までの大窓。採光性抜群！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 4,
 		spine_extra = "",
 		time = "always",
@@ -6542,6 +7127,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[4306] = {
@@ -6569,7 +7157,6 @@ pg.furniture_data_template = {
 		describe = "天然木素材の王家風ドア",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 4,
 		spine_extra = "",
 		time = "always",
@@ -6581,6 +7168,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[4307] = {
@@ -6608,7 +7198,6 @@ pg.furniture_data_template = {
 		describe = "太陽の沈まない帝国の栄光を記した、写真の数々",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 4,
 		spine_extra = "",
 		time = "always",
@@ -6620,6 +7209,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[5001] = {
@@ -6647,7 +7239,6 @@ pg.furniture_data_template = {
 		describe = "鋼鉄でフローリングされた床",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 5,
 		spine_extra = "",
 		time = "always",
@@ -6656,6 +7247,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[5002] = {
@@ -6683,7 +7277,6 @@ pg.furniture_data_template = {
 		describe = "余分な装飾が一切なく、洗練されたデザインの鉄血式壁紙。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 5,
 		spine_extra = "",
 		time = "always",
@@ -6692,6 +7285,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[5101] = {
@@ -6719,7 +7315,6 @@ pg.furniture_data_template = {
 		describe = "このカーペット、敵の鮮血で染められし栄光なり！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 5,
 		spine_extra = "",
 		time = "always",
@@ -6731,6 +7326,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[5102] = {
@@ -6758,7 +7356,6 @@ pg.furniture_data_template = {
 		describe = "折りたたみ式のオフィスチェア。使いやすい！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 5,
 		spine_extra = "",
 		time = "always",
@@ -6782,6 +7379,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -6810,7 +7410,6 @@ pg.furniture_data_template = {
 		describe = "黒と灰色基調のオフィスデスク。クールに決める仕事人スタイル",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 5,
 		spine_extra = "",
 		time = "always",
@@ -6858,6 +7457,9 @@ pg.furniture_data_template = {
 				2
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[5105] = {
@@ -6885,7 +7487,6 @@ pg.furniture_data_template = {
 		describe = "寝ている間に体を修理してくれる修理作業場。鉄血公国の技術が世界一ィ！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 5,
 		spine_extra = "",
 		time = "always",
@@ -6921,6 +7522,9 @@ pg.furniture_data_template = {
 				}
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[5106] = {
@@ -6948,7 +7552,6 @@ pg.furniture_data_template = {
 		describe = "オーソドックスな作戦会議用デスク。地図はおまけ",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 5,
 		spine_extra = "",
 		time = "always",
@@ -6960,6 +7563,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[5107] = {
@@ -6987,7 +7593,6 @@ pg.furniture_data_template = {
 		describe = "赤のソファ。普通のソファより少しサイズが小さい",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 5,
 		spine_extra = "",
 		time = "always",
@@ -7023,6 +7628,9 @@ pg.furniture_data_template = {
 				}
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[5108] = {
@@ -7050,7 +7658,6 @@ pg.furniture_data_template = {
 		describe = "新兵器の設計図面が収納されているボックス",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 5,
 		spine_extra = "",
 		time = "always",
@@ -7062,6 +7669,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[5109] = {
@@ -7089,7 +7699,6 @@ pg.furniture_data_template = {
 		describe = "マイクテスト~マイクテスト~はい、1，2，3！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 5,
 		spine_extra = "",
 		time = "always",
@@ -7101,6 +7710,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[5111] = {
@@ -7128,7 +7740,6 @@ pg.furniture_data_template = {
 		describe = "会議用の椅子。座る時に姿勢を正さなければならない",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 5,
 		spine_extra = "",
 		time = "always",
@@ -7152,6 +7763,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -7180,7 +7794,6 @@ pg.furniture_data_template = {
 		describe = "レンガブロックで積み上げたようなデザインのチェスト",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 5,
 		spine_extra = "",
 		time = "always",
@@ -7207,6 +7820,9 @@ pg.furniture_data_template = {
 				2,
 				0
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -7235,7 +7851,6 @@ pg.furniture_data_template = {
 		describe = "大事な資料をたくさん入っている資料棚。機密情報につき、扱いには要注意！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 5,
 		spine_extra = "",
 		time = "always",
@@ -7247,6 +7862,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[5114] = {
@@ -7274,7 +7892,6 @@ pg.furniture_data_template = {
 		describe = "暖炉のそばでビールとソーセージを楽しむアイデア、天才的！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 5,
 		spine_extra = "",
 		time = "always",
@@ -7286,6 +7903,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[5201] = {
@@ -7313,7 +7933,6 @@ pg.furniture_data_template = {
 		describe = "古典的でありながら有効な情報伝達手段",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 5,
 		spine_extra = "",
 		time = "always",
@@ -7325,6 +7944,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[5202] = {
@@ -7352,7 +7974,6 @@ pg.furniture_data_template = {
 		describe = "客をもてなすためのワイン。でもやっぱりビールのほうは美味しいもん！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 5,
 		spine_extra = "",
 		time = "always",
@@ -7364,6 +7985,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[5203] = {
@@ -7391,7 +8015,6 @@ pg.furniture_data_template = {
 		describe = "大きなビール樽。蛇口を捻れば気分はオクトバーフェスト",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 5,
 		spine_extra = "",
 		time = "always",
@@ -7403,6 +8026,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[5301] = {
@@ -7430,7 +8056,6 @@ pg.furniture_data_template = {
 		describe = "潜水艦用に設計された舷窓だが、部屋にも付けてみた",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 5,
 		spine_extra = "",
 		time = "always",
@@ -7442,6 +8067,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[5302] = {
@@ -7469,7 +8097,6 @@ pg.furniture_data_template = {
 		describe = "鉄血公国の旗",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 5,
 		spine_extra = "",
 		time = "always",
@@ -7481,6 +8108,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[5303] = {
@@ -7508,7 +8138,6 @@ pg.furniture_data_template = {
 		describe = "ビスマルクちゃんが描かれている絵よ。もっとも本人は恥ずかしがってるけど",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 5,
 		spine_extra = "",
 		time = "always",
@@ -7520,6 +8149,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[5304] = {
@@ -7547,7 +8179,6 @@ pg.furniture_data_template = {
 		describe = "鉄血公国謹製鋼鉄ドア。温度計付き",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 5,
 		spine_extra = "",
 		time = "always",
@@ -7559,6 +8190,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[5305] = {
@@ -7586,7 +8220,6 @@ pg.furniture_data_template = {
 		describe = "戦艦の設計図。ただいま絶賛見直し中",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 5,
 		spine_extra = "",
 		time = "always",
@@ -7598,6 +8231,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[5306] = {
@@ -7625,7 +8261,6 @@ pg.furniture_data_template = {
 		describe = "鉄血公国発行の界地図。かの国の世界観はこの一枚にも現れている",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 5,
 		spine_extra = "",
 		time = "always",
@@ -7637,6 +8272,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[5307] = {
@@ -7664,7 +8302,6 @@ pg.furniture_data_template = {
 		describe = "一家に一つ常備修理道具セット。備えあれば憂いなし！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 5,
 		spine_extra = "",
 		time = "always",
@@ -7676,6 +8313,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[7001] = {
@@ -7703,7 +8343,6 @@ pg.furniture_data_template = {
 		describe = "真夏の昼に少し涼しい気分をもたらす。ありがたい。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 7,
 		spine_extra = "",
 		time = "always",
@@ -7712,6 +8351,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[7002] = {
@@ -7739,7 +8381,6 @@ pg.furniture_data_template = {
 		describe = "真夏の昼に少し涼しい気分をもたらす。ありがたい。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 7,
 		spine_extra = "",
 		time = "always",
@@ -7748,6 +8389,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[7101] = {
@@ -7775,7 +8419,6 @@ pg.furniture_data_template = {
 		describe = "玄関で靴はき用。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 7,
 		spine_extra = "",
 		time = "always",
@@ -7787,6 +8430,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[7102] = {
@@ -7814,7 +8460,6 @@ pg.furniture_data_template = {
 		describe = "砂浜の雰囲気を自宅に。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 7,
 		spine_extra = "",
 		time = "always",
@@ -7826,6 +8471,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[7103] = {
@@ -7853,7 +8501,6 @@ pg.furniture_data_template = {
 		describe = "丸い青いカーペット",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 7,
 		spine_extra = "",
 		time = "always",
@@ -7865,6 +8512,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[7104] = {
@@ -7892,7 +8542,6 @@ pg.furniture_data_template = {
 		describe = "大きなスイカの形をした浴槽。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 7,
 		spine_extra = "",
 		time = "always",
@@ -7917,6 +8566,9 @@ pg.furniture_data_template = {
 				},
 				"xigua/yushixg_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -7945,7 +8597,6 @@ pg.furniture_data_template = {
 		describe = "氷魔法で仕込んだ私の特製ドリンクは、焦熱に舞い降りる夏の天使なり！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 7,
 		spine_extra = "",
 		time = "always",
@@ -7957,6 +8608,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[7106] = {
@@ -7984,7 +8638,6 @@ pg.furniture_data_template = {
 		describe = "何が入ってるのかな…",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 7,
 		spine_extra = "",
 		time = "always",
@@ -7996,6 +8649,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[7107] = {
@@ -8023,7 +8679,6 @@ pg.furniture_data_template = {
 		describe = "大きなスイカ！っぽい？",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 7,
 		spine_extra = "",
 		time = "always",
@@ -8048,6 +8703,9 @@ pg.furniture_data_template = {
 				},
 				"xigua/chuangxg_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -8076,7 +8734,6 @@ pg.furniture_data_template = {
 		describe = "サーフィンボード！でも部屋じゃ使えないよね。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 7,
 		spine_extra = "",
 		time = "always",
@@ -8088,6 +8745,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[7109] = {
@@ -8115,7 +8775,6 @@ pg.furniture_data_template = {
 		describe = "中庭の側に敷かれそうなカーペット。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 7,
 		spine_extra = "",
 		time = "always",
@@ -8127,6 +8786,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[7110] = {
@@ -8154,7 +8816,6 @@ pg.furniture_data_template = {
 		describe = "物を入れる収納棚。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 7,
 		spine_extra = "",
 		time = "always",
@@ -8194,6 +8855,9 @@ pg.furniture_data_template = {
 				2
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[7111] = {
@@ -8221,7 +8885,6 @@ pg.furniture_data_template = {
 		describe = "ジュースがいっぱい！思いっきりがぶ飲みできるよね！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 7,
 		spine_extra = "",
 		time = "always",
@@ -8233,6 +8896,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[7112] = {
@@ -8260,7 +8926,6 @@ pg.furniture_data_template = {
 		describe = "スイカテーマのドレッサー",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 7,
 		spine_extra = "",
 		time = "always",
@@ -8287,6 +8952,9 @@ pg.furniture_data_template = {
 				3,
 				1
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -8315,7 +8983,6 @@ pg.furniture_data_template = {
 		describe = "スイカをイメージして作られたソファ。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 7,
 		spine_extra = "",
 		time = "always",
@@ -8362,6 +9029,9 @@ pg.furniture_data_template = {
 				}
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[7114] = {
@@ -8389,7 +9059,6 @@ pg.furniture_data_template = {
 		describe = "自動販売機。コイン入れなくても買える。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 7,
 		spine_extra = "",
 		time = "always",
@@ -8401,6 +9070,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[7115] = {
@@ -8428,7 +9100,6 @@ pg.furniture_data_template = {
 		describe = "色んな本がいっぱい。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 7,
 		spine_extra = "",
 		time = "always",
@@ -8484,6 +9155,9 @@ pg.furniture_data_template = {
 				3
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[7116] = {
@@ -8511,7 +9185,6 @@ pg.furniture_data_template = {
 		describe = "冷蔵庫で冷やした果物。お腹を壊さないよう気をつけてね。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 7,
 		spine_extra = "",
 		time = "always",
@@ -8523,6 +9196,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[7117] = {
@@ -8550,7 +9226,6 @@ pg.furniture_data_template = {
 		describe = "ベタっと倒れると不思議に気持ちよくなる。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 7,
 		spine_extra = "",
 		time = "always",
@@ -8574,6 +9249,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -8602,7 +9280,6 @@ pg.furniture_data_template = {
 		describe = "スイカ専用の冷蔵庫。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 7,
 		spine_extra = "",
 		time = "always",
@@ -8614,6 +9291,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[7119] = {
@@ -8641,7 +9321,6 @@ pg.furniture_data_template = {
 		describe = "夏の砂浜感UP↑。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 7,
 		spine_extra = "",
 		time = "always",
@@ -8653,6 +9332,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[7120] = {
@@ -8680,7 +9362,6 @@ pg.furniture_data_template = {
 		describe = "お魚きゅんーどこぉ…？（パタッ",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 7,
 		spine_extra = "",
 		time = "always",
@@ -8692,6 +9373,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[7121] = {
@@ -8719,7 +9403,6 @@ pg.furniture_data_template = {
 		describe = "物を入れる収納棚。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 7,
 		spine_extra = "",
 		time = "always",
@@ -8751,6 +9434,9 @@ pg.furniture_data_template = {
 				2
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[7122] = {
@@ -8778,7 +9464,6 @@ pg.furniture_data_template = {
 		describe = "大きなスイカのようなテーブル。ああ食べ物を奪うな！行儀悪い！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 7,
 		spine_extra = "",
 		time = "always",
@@ -8830,6 +9515,9 @@ pg.furniture_data_template = {
 				3
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[7123] = {
@@ -8857,7 +9545,6 @@ pg.furniture_data_template = {
 		describe = "スイカをイメージしたチェア。一人用。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 7,
 		spine_extra = "",
 		time = "always",
@@ -8881,6 +9568,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -8909,7 +9599,6 @@ pg.furniture_data_template = {
 		describe = "キーン！脳がぁ~震える~",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 7,
 		spine_extra = "",
 		time = "always",
@@ -8921,6 +9610,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[7202] = {
@@ -8948,7 +9640,6 @@ pg.furniture_data_template = {
 		describe = "キーン！脳がぁ~震える~",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 7,
 		spine_extra = "",
 		time = "always",
@@ -8960,6 +9651,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[7203] = {
@@ -8987,7 +9681,6 @@ pg.furniture_data_template = {
 		describe = "通行人A：このスイカ、甘いぞ",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 7,
 		spine_extra = "",
 		time = "always",
@@ -8999,6 +9692,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[7204] = {
@@ -9026,7 +9722,6 @@ pg.furniture_data_template = {
 		describe = "通行人B：このスイカ、甘くないぞ",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 7,
 		spine_extra = "",
 		time = "always",
@@ -9038,6 +9733,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[7205] = {
@@ -9065,7 +9763,6 @@ pg.furniture_data_template = {
 		describe = "淡い緑色の観葉植物。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 7,
 		spine_extra = "",
 		time = "always",
@@ -9077,6 +9774,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[7206] = {
@@ -9104,7 +9804,6 @@ pg.furniture_data_template = {
 		describe = "淡い緑色の観葉植物。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 7,
 		spine_extra = "",
 		time = "always",
@@ -9116,6 +9815,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[7207] = {
@@ -9143,7 +9845,6 @@ pg.furniture_data_template = {
 		describe = "スイカの色をイメージしたメモ帳。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 7,
 		spine_extra = "",
 		time = "always",
@@ -9155,6 +9856,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[7208] = {
@@ -9182,7 +9886,6 @@ pg.furniture_data_template = {
 		describe = "普通のカーペット。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 7,
 		spine_extra = "",
 		time = "always",
@@ -9194,6 +9897,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[7209] = {
@@ -9221,7 +9927,6 @@ pg.furniture_data_template = {
 		describe = "アザラシの額縁。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 7,
 		spine_extra = "",
 		time = "always",
@@ -9233,6 +9938,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[7210] = {
@@ -9260,7 +9968,6 @@ pg.furniture_data_template = {
 		describe = "髪の保養も大事ね。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 7,
 		spine_extra = "",
 		time = "always",
@@ -9272,6 +9979,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[7211] = {
@@ -9299,7 +10009,6 @@ pg.furniture_data_template = {
 		describe = "スプーンで食べるスイカ。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 7,
 		spine_extra = "",
 		time = "always",
@@ -9311,6 +10020,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[7212] = {
@@ -9338,7 +10050,6 @@ pg.furniture_data_template = {
 		describe = "切ったスイカ。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 7,
 		spine_extra = "",
 		time = "always",
@@ -9350,6 +10061,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[7213] = {
@@ -9377,7 +10091,6 @@ pg.furniture_data_template = {
 		describe = "美味しい飲み物。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 7,
 		spine_extra = "",
 		time = "always",
@@ -9389,6 +10102,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[7214] = {
@@ -9416,7 +10132,6 @@ pg.furniture_data_template = {
 		describe = "コシコシコシコシ（洗濯音",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 7,
 		spine_extra = "",
 		time = "always",
@@ -9428,6 +10143,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[7301] = {
@@ -9455,7 +10173,6 @@ pg.furniture_data_template = {
 		describe = "スイカを食べながら風景を眺める。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 7,
 		spine_extra = "",
 		time = "always",
@@ -9467,6 +10184,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[7302] = {
@@ -9494,7 +10214,6 @@ pg.furniture_data_template = {
 		describe = "青いエアコン。これがないと夏を生き抜けられない！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 7,
 		spine_extra = "",
 		time = "always",
@@ -9506,6 +10225,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[7303] = {
@@ -9533,7 +10255,6 @@ pg.furniture_data_template = {
 		describe = "淡い青色のドア。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 7,
 		spine_extra = "",
 		time = "always",
@@ -9545,6 +10266,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[7304] = {
@@ -9572,7 +10296,6 @@ pg.furniture_data_template = {
 		describe = "疲れたら中庭にでも少し休憩しましょう。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 7,
 		spine_extra = "",
 		time = "always",
@@ -9584,6 +10307,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[8001] = {
@@ -9611,7 +10337,6 @@ pg.furniture_data_template = {
 		describe = "鉄血謹製の床。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 8,
 		spine_extra = "",
 		time = "always",
@@ -9620,6 +10345,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[8002] = {
@@ -9647,7 +10375,6 @@ pg.furniture_data_template = {
 		describe = "バーの雰囲気に良く合う質素な壁。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 8,
 		spine_extra = "",
 		time = "always",
@@ -9656,6 +10383,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[8101] = {
@@ -9683,7 +10413,6 @@ pg.furniture_data_template = {
 		describe = "厚手のカーペット。いい踏み心地。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 8,
 		spine_extra = "",
 		time = "always",
@@ -9695,6 +10424,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[8102] = {
@@ -9722,7 +10454,6 @@ pg.furniture_data_template = {
 		describe = "玄関に置けばプレミアム感アップ！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 8,
 		spine_extra = "",
 		time = "always",
@@ -9734,6 +10465,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[8103] = {
@@ -9761,7 +10495,6 @@ pg.furniture_data_template = {
 		describe = "流石にビールは入っていない。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 8,
 		spine_extra = "",
 		time = "always",
@@ -9811,6 +10544,9 @@ pg.furniture_data_template = {
 				"ger/gerpijiuchi_using"
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[8104] = {
@@ -9838,7 +10574,6 @@ pg.furniture_data_template = {
 		describe = "どこから現れたか分からない謎の犬。甘いぞ指揮官！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 8,
 		spine_extra = "",
 		time = "always",
@@ -9850,6 +10585,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[8105] = {
@@ -9877,7 +10615,6 @@ pg.furniture_data_template = {
 		describe = "「きゅう、きゅう、きゅう…しゅきかん、これ、どういういみ？」",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 8,
 		spine_extra = "",
 		time = "always",
@@ -9889,6 +10626,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[8106] = {
@@ -9916,7 +10656,6 @@ pg.furniture_data_template = {
 		describe = "ほろ酔い気分でそのまま寝られるベッド。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 8,
 		spine_extra = "",
 		time = "always",
@@ -9940,6 +10679,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -9968,7 +10710,6 @@ pg.furniture_data_template = {
 		describe = "「…ミルクでも貰おうか」",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 8,
 		spine_extra = "",
 		time = "always",
@@ -9993,6 +10734,9 @@ pg.furniture_data_template = {
 				},
 				"ger/gerbatai_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -10021,7 +10765,6 @@ pg.furniture_data_template = {
 		describe = "ワインを斜めに保存できる収納。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 8,
 		spine_extra = "",
 		time = "always",
@@ -10033,6 +10776,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[8109] = {
@@ -10060,7 +10806,6 @@ pg.furniture_data_template = {
 		describe = "低めの階段。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 8,
 		spine_extra = "",
 		time = "always",
@@ -10072,6 +10817,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[8110] = {
@@ -10099,7 +10847,6 @@ pg.furniture_data_template = {
 		describe = "高めの階段。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 8,
 		spine_extra = "",
 		time = "always",
@@ -10111,6 +10858,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[8111] = {
@@ -10138,7 +10888,6 @@ pg.furniture_data_template = {
 		describe = "「やっぱ酒はみんなで飲んだほうがうめぇな～！なあ日向？」",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 8,
 		spine_extra = "",
 		time = "always",
@@ -10196,6 +10945,9 @@ pg.furniture_data_template = {
 				}
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[8112] = {
@@ -10223,7 +10975,6 @@ pg.furniture_data_template = {
 		describe = "「へへー、やっぱり大人の部屋には盆栽を植えないとな！」",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 8,
 		spine_extra = "",
 		time = "always",
@@ -10235,6 +10986,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[8113] = {
@@ -10262,7 +11016,6 @@ pg.furniture_data_template = {
 		describe = "席を仕切って個室気分。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 8,
 		spine_extra = "",
 		time = "always",
@@ -10274,6 +11027,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[8114] = {
@@ -10301,7 +11057,6 @@ pg.furniture_data_template = {
 		describe = "ジョッキと料理が欲しいところ。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 8,
 		spine_extra = "",
 		time = "always",
@@ -10333,6 +11088,9 @@ pg.furniture_data_template = {
 				2
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[8115] = {
@@ -10360,7 +11118,6 @@ pg.furniture_data_template = {
 		describe = "綺麗なヤグルマキク。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 8,
 		spine_extra = "",
 		time = "always",
@@ -10372,6 +11129,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[8116] = {
@@ -10399,7 +11159,6 @@ pg.furniture_data_template = {
 		describe = "バーカウンターに似合う椅子。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 8,
 		spine_extra = "",
 		time = "always",
@@ -10423,6 +11182,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -10451,7 +11213,6 @@ pg.furniture_data_template = {
 		describe = "酒樽の台。土足厳禁。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 8,
 		spine_extra = "",
 		time = "always",
@@ -10463,6 +11224,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[8118] = {
@@ -10490,7 +11254,6 @@ pg.furniture_data_template = {
 		describe = "ビール樽の形の風呂。缶風呂じゃないわよ！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 8,
 		spine_extra = "",
 		time = "always",
@@ -10515,6 +11278,9 @@ pg.furniture_data_template = {
 				},
 				"ger/geryugang_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -10543,7 +11309,6 @@ pg.furniture_data_template = {
 		describe = "テーブルが足りない！そんな時にだけ使われる樽。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 8,
 		spine_extra = "",
 		time = "always",
@@ -10566,6 +11331,9 @@ pg.furniture_data_template = {
 				2,
 				3
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -10594,7 +11362,6 @@ pg.furniture_data_template = {
 		describe = "テーブルが足りない！そんな時にだけ使われる樽。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 8,
 		spine_extra = "",
 		time = "always",
@@ -10617,6 +11384,9 @@ pg.furniture_data_template = {
 				2,
 				3
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -10645,7 +11415,6 @@ pg.furniture_data_template = {
 		describe = "鉄血特色料理・豚足ロースト。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 8,
 		spine_extra = "",
 		time = "always",
@@ -10657,6 +11426,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[8201] = {
@@ -10684,7 +11456,6 @@ pg.furniture_data_template = {
 		describe = "何本目で酔うかな～",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 8,
 		spine_extra = "",
 		time = "always",
@@ -10696,6 +11467,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[8202] = {
@@ -10723,7 +11497,6 @@ pg.furniture_data_template = {
 		describe = "酒は苦手でもコーヒーで大人のひと時を楽しめる。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 8,
 		spine_extra = "",
 		time = "always",
@@ -10735,6 +11508,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[8203] = {
@@ -10762,7 +11538,6 @@ pg.furniture_data_template = {
 		describe = "豪快なビールジョッキ。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 8,
 		spine_extra = "",
 		time = "always",
@@ -10774,6 +11549,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[8204] = {
@@ -10801,7 +11579,6 @@ pg.furniture_data_template = {
 		describe = "酒のつまみ。んまいッ！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 8,
 		spine_extra = "",
 		time = "always",
@@ -10813,6 +11590,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[8301] = {
@@ -10840,7 +11620,6 @@ pg.furniture_data_template = {
 		describe = "誰かが勝手に壁に飾った海図。殺風景だと思ったら意外と…？",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 8,
 		spine_extra = "",
 		time = "always",
@@ -10852,6 +11631,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[8302] = {
@@ -10879,7 +11661,6 @@ pg.furniture_data_template = {
 		describe = "酒場の熱気を照らす仄かな光。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 8,
 		spine_extra = "",
 		time = "always",
@@ -10891,6 +11672,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[8303] = {
@@ -10918,7 +11702,6 @@ pg.furniture_data_template = {
 		describe = "こちらは出口になります。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 8,
 		spine_extra = "",
 		time = "always",
@@ -10930,6 +11713,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[8304] = {
@@ -10957,7 +11743,6 @@ pg.furniture_data_template = {
 		describe = "酒樽を保存する場所。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 8,
 		spine_extra = "",
 		time = "always",
@@ -10969,6 +11754,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[8305] = {
@@ -10996,7 +11784,6 @@ pg.furniture_data_template = {
 		describe = "浮き輪の形をしたオブジェクト。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 8,
 		spine_extra = "",
 		time = "always",
@@ -11008,6 +11795,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[8306] = {
@@ -11035,7 +11825,6 @@ pg.furniture_data_template = {
 		describe = "三階なんてしばらくはないけどね…",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 8,
 		spine_extra = "",
 		time = "always",
@@ -11047,6 +11836,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[8307] = {
@@ -11074,7 +11866,6 @@ pg.furniture_data_template = {
 		describe = "「私にとって大切なものだ」",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 8,
 		spine_extra = "",
 		time = "always",
@@ -11086,6 +11877,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[11001] = {
@@ -11113,7 +11907,6 @@ pg.furniture_data_template = {
 		describe = "可愛らしいピンク色のフローリング。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -11122,6 +11915,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[11002] = {
@@ -11149,7 +11945,6 @@ pg.furniture_data_template = {
 		describe = "可愛らしいピンク色の壁紙。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -11158,6 +11953,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[11101] = {
@@ -11185,7 +11983,6 @@ pg.furniture_data_template = {
 		describe = "サイズが中ぐらいのデザイナーズバス、一人用。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -11210,6 +12007,9 @@ pg.furniture_data_template = {
 				},
 				"ap/dieziap_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -11238,7 +12038,6 @@ pg.furniture_data_template = {
 		describe = "美味しそうなケーキが選び放題。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -11261,6 +12060,9 @@ pg.furniture_data_template = {
 				3,
 				4
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -11289,7 +12091,6 @@ pg.furniture_data_template = {
 		describe = "中庭に置かれていそうな長い椅子。横になっても…いいよ？",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -11325,6 +12126,9 @@ pg.furniture_data_template = {
 				}
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[11104] = {
@@ -11352,7 +12156,6 @@ pg.furniture_data_template = {
 		describe = "「今日の特別メニューは――」",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -11364,6 +12167,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[11105] = {
@@ -11391,7 +12197,6 @@ pg.furniture_data_template = {
 		describe = "大きなポット風のベッド。寝心地が良さそう。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -11416,6 +12221,9 @@ pg.furniture_data_template = {
 				},
 				"ap/chabeichuangap_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -11444,7 +12252,6 @@ pg.furniture_data_template = {
 		describe = "美味しそうな外見の割に座り心地はちょっと微妙。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -11468,6 +12275,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -11496,7 +12306,6 @@ pg.furniture_data_template = {
 		describe = "小さい虹が見える噴水。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -11508,6 +12317,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[11108] = {
@@ -11535,7 +12347,6 @@ pg.furniture_data_template = {
 		describe = "美味しそうな外見の割に座り心地はちょっと微妙。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -11559,6 +12370,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -11587,7 +12401,6 @@ pg.furniture_data_template = {
 		describe = "「フルーツは健康にいいですよ」",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -11599,6 +12412,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[11110] = {
@@ -11626,7 +12442,6 @@ pg.furniture_data_template = {
 		describe = "ミルクホワイトの階段。よく掃除するように。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -11638,6 +12453,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[11111] = {
@@ -11665,7 +12483,6 @@ pg.furniture_data_template = {
 		describe = "甘くてやわらかそうなソファ。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -11690,6 +12507,9 @@ pg.furniture_data_template = {
 				},
 				"ap/shafaap_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -11718,7 +12538,6 @@ pg.furniture_data_template = {
 		describe = "※食べられません",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -11730,6 +12549,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[11113] = {
@@ -11757,7 +12579,6 @@ pg.furniture_data_template = {
 		describe = "建物とガーデンを分ける境界線。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -11769,6 +12590,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[11114] = {
@@ -11796,7 +12620,6 @@ pg.furniture_data_template = {
 		describe = "おしゃれな花壇。世話してあげてね。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -11808,6 +12631,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[11115] = {
@@ -11835,7 +12661,6 @@ pg.furniture_data_template = {
 		describe = "12時になってもカボチャにならない安心感。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -11873,6 +12698,9 @@ pg.furniture_data_template = {
 				"ap/nanguacheap_using"
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[11116] = {
@@ -11900,7 +12728,6 @@ pg.furniture_data_template = {
 		describe = "ビスケットデザインのセパレート。※食べられません（二回目）",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -11912,6 +12739,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[11117] = {
@@ -11939,7 +12769,6 @@ pg.furniture_data_template = {
 		describe = "甘くてやわらかそうなチェア。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -11963,6 +12792,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -11991,7 +12823,6 @@ pg.furniture_data_template = {
 		describe = "小さい子用のテーブル。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -12014,6 +12845,9 @@ pg.furniture_data_template = {
 				3,
 				2
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -12042,7 +12876,6 @@ pg.furniture_data_template = {
 		describe = "小さい子用のチェア。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -12066,6 +12899,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -12094,7 +12930,6 @@ pg.furniture_data_template = {
 		describe = "中庭の空間を仕切るフェンス。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -12106,6 +12941,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[11121] = {
@@ -12133,7 +12971,6 @@ pg.furniture_data_template = {
 		describe = "「最新作だにゃー」",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -12145,6 +12982,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[11122] = {
@@ -12172,7 +13012,6 @@ pg.furniture_data_template = {
 		describe = "お茶会の時に使う長いテーブル。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -12212,6 +13051,9 @@ pg.furniture_data_template = {
 				3
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[11123] = {
@@ -12239,7 +13081,6 @@ pg.furniture_data_template = {
 		describe = "「何かご用ですぴょ？」",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -12251,6 +13092,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[11124] = {
@@ -12278,7 +13122,6 @@ pg.furniture_data_template = {
 		describe = "スッキリとした甘さのクッキー。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -12290,6 +13133,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[11125] = {
@@ -12317,7 +13163,6 @@ pg.furniture_data_template = {
 		describe = "ガーデナーのケアが必要になりそう。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -12329,6 +13174,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[11126] = {
@@ -12356,7 +13204,6 @@ pg.furniture_data_template = {
 		describe = "新しいお茶会用のカーペット。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -12368,6 +13215,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[11127] = {
@@ -12395,7 +13245,6 @@ pg.furniture_data_template = {
 		describe = "レース模様の可愛い丸いカーペット。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -12407,6 +13256,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[11128] = {
@@ -12434,7 +13286,6 @@ pg.furniture_data_template = {
 		describe = "芝生（のような）カーペット。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -12446,6 +13297,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[11201] = {
@@ -12473,7 +13327,6 @@ pg.furniture_data_template = {
 		describe = "「お茶会はもちろん優雅が第一、ですわ！」",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -12485,6 +13338,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[11202] = {
@@ -12512,7 +13368,6 @@ pg.furniture_data_template = {
 		describe = "「私の得意作ですよ！ベルにも負けませんわ！」",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -12524,6 +13379,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[11203] = {
@@ -12551,7 +13409,6 @@ pg.furniture_data_template = {
 		describe = "香るロウソク。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -12563,6 +13420,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[11301] = {
@@ -12590,7 +13450,6 @@ pg.furniture_data_template = {
 		describe = "窓の外には綺麗な風景が広がる。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -12602,6 +13461,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[11302] = {
@@ -12629,7 +13491,6 @@ pg.furniture_data_template = {
 		describe = "クッキーの瓶詰めが置かれる棚。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -12641,6 +13502,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[11303] = {
@@ -12668,7 +13532,6 @@ pg.furniture_data_template = {
 		describe = "精巧に作られている木製の扉。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -12680,6 +13543,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[11304] = {
@@ -12707,7 +13573,6 @@ pg.furniture_data_template = {
 		describe = "お茶会のティーセットが収納されている。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -12719,6 +13584,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[11305] = {
@@ -12746,7 +13614,6 @@ pg.furniture_data_template = {
 		describe = "中庭への扉。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -12758,6 +13625,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[11306] = {
@@ -12785,7 +13655,6 @@ pg.furniture_data_template = {
 		describe = "窓の外には緑の風景が広がる。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -12797,6 +13666,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[11307] = {
@@ -12824,7 +13696,6 @@ pg.furniture_data_template = {
 		describe = "可愛らしい小物が置かれている収納。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -12836,6 +13707,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[12002] = {
@@ -12863,7 +13737,6 @@ pg.furniture_data_template = {
 		describe = "楓をイメージした障子。秋の雰囲気が感じ取れる",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -12872,6 +13745,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[12101] = {
@@ -12899,7 +13775,6 @@ pg.furniture_data_template = {
 		describe = "ゆらゆら~楽しそう~",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -12924,6 +13799,9 @@ pg.furniture_data_template = {
 				},
 				"r2/yaoyaocher2_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -12952,7 +13830,6 @@ pg.furniture_data_template = {
 		describe = "衣類などを掛けておく道具",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -12964,6 +13841,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[12103] = {
@@ -12991,7 +13871,6 @@ pg.furniture_data_template = {
 		describe = "「重桜のヤオヨロズの神々よ、我々にご加護を――」",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -13003,6 +13882,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[12104] = {
@@ -13030,7 +13912,6 @@ pg.furniture_data_template = {
 		describe = "心の一隅をも照らしだす柔らかい光",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -13042,6 +13923,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[12105] = {
@@ -13069,7 +13953,6 @@ pg.furniture_data_template = {
 		describe = "旅の疲れの癒やしに、肴も沿えて軽く一杯",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -13093,6 +13976,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -13121,7 +14007,6 @@ pg.furniture_data_template = {
 		describe = "大和男児の健康を願って…ここにはいませんけど♪",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -13133,6 +14018,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[12107] = {
@@ -13160,7 +14048,6 @@ pg.furniture_data_template = {
 		describe = "ふとんを敷こう！ね！ ",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -13184,6 +14071,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -13212,7 +14102,6 @@ pg.furniture_data_template = {
 		describe = "（鳴き声） ",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -13224,6 +14113,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[12110] = {
@@ -13251,7 +14143,6 @@ pg.furniture_data_template = {
 		describe = "商売繁盛にゃ ",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -13275,6 +14166,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -13303,7 +14197,6 @@ pg.furniture_data_template = {
 		describe = "（釣られて）生きる意味を…失う…！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -13315,6 +14208,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[12202] = {
@@ -13342,7 +14238,6 @@ pg.furniture_data_template = {
 		describe = "気分転換は庭で ",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -13354,6 +14249,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13001] = {
@@ -13381,7 +14279,6 @@ pg.furniture_data_template = {
 		describe = "濃い紫色の床。何かの液体が固まった痕跡が見えなくもない。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -13390,6 +14287,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13002] = {
@@ -13417,7 +14317,6 @@ pg.furniture_data_template = {
 		describe = "妙な模様がうっすらと映る壁。模様じゃない…だと？",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -13426,6 +14325,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13101] = {
@@ -13453,7 +14355,6 @@ pg.furniture_data_template = {
 		describe = "言うこと聞かないコは埋めちゃうぞ―",
 		dorm_id = 0,
 		gem_price = 200,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		new = 0,
@@ -13464,6 +14365,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"fenkenghlB",
@@ -13555,7 +14459,6 @@ pg.furniture_data_template = {
 		describe = "積み上げた干し藁。これで高い所からダイブしても大丈夫！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -13587,6 +14490,9 @@ pg.furniture_data_template = {
 				4
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13103] = {
@@ -13614,7 +14520,6 @@ pg.furniture_data_template = {
 		describe = "檜の木で作った椅子。使い古された雰囲気を感じる。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -13638,6 +14543,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -13666,7 +14574,6 @@ pg.furniture_data_template = {
 		describe = "謎の場所への入り口。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -13678,6 +14585,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13105] = {
@@ -13705,7 +14615,6 @@ pg.furniture_data_template = {
 		describe = "「ふーん、いいわ、妾の寝床には相応しい出来よ！」",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -13730,6 +14639,9 @@ pg.furniture_data_template = {
 				},
 				"hl/guancaihl_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -13758,7 +14670,6 @@ pg.furniture_data_template = {
 		describe = "椅子が生える奇妙なカボチャ。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -13796,6 +14707,9 @@ pg.furniture_data_template = {
 				"hl/nanguazhuohl_using"
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13107] = {
@@ -13823,7 +14737,6 @@ pg.furniture_data_template = {
 		describe = "うっかり入ってしまうとダメージを受けそうな、ドクの沼。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -13835,6 +14748,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13108] = {
@@ -13862,7 +14778,6 @@ pg.furniture_data_template = {
 		describe = "「噴水の色がちょっと悪趣味すぎない？」",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -13874,6 +14789,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13109] = {
@@ -13901,7 +14819,6 @@ pg.furniture_data_template = {
 		describe = "謎の液体が入っている試薬瓶。中身は気にしてはならない。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -13913,6 +14830,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13110] = {
@@ -13940,7 +14860,6 @@ pg.furniture_data_template = {
 		describe = "「はい♡いいものを見せてあげるわ！」",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -13990,6 +14909,9 @@ pg.furniture_data_template = {
 				"hl/qiulonghl_using"
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13111] = {
@@ -14017,7 +14939,6 @@ pg.furniture_data_template = {
 		describe = "乗ると飛べるかも？",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -14029,6 +14950,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13112] = {
@@ -14056,7 +14980,6 @@ pg.furniture_data_template = {
 		describe = "とある無名な勇者を記念する墓。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -14068,6 +14991,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13113] = {
@@ -14095,7 +15021,6 @@ pg.furniture_data_template = {
 		describe = "ああ！鉢に！鉢に！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -14107,6 +15032,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13114] = {
@@ -14134,7 +15062,6 @@ pg.furniture_data_template = {
 		describe = "実験台は常に整理整頓、清潔感を保つように",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -14182,6 +15109,9 @@ pg.furniture_data_template = {
 				4
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13115] = {
@@ -14209,7 +15139,6 @@ pg.furniture_data_template = {
 		describe = "ボロボロな布をかぶせたデスク。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -14241,6 +15170,9 @@ pg.furniture_data_template = {
 				3
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13116] = {
@@ -14268,7 +15200,6 @@ pg.furniture_data_template = {
 		describe = "梯形の棚。怪しい本とアイテムがいっぱい。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -14280,6 +15211,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13117] = {
@@ -14307,7 +15241,6 @@ pg.furniture_data_template = {
 		describe = "グルグルとした形のお菓子が入っている袋。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -14319,6 +15252,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13118] = {
@@ -14346,7 +15282,6 @@ pg.furniture_data_template = {
 		describe = "「I'm back in black…」",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -14358,6 +15293,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13119] = {
@@ -14385,7 +15323,6 @@ pg.furniture_data_template = {
 		describe = "まんまるとした形のお菓子が入っている袋。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -14397,6 +15334,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13120] = {
@@ -14424,7 +15364,6 @@ pg.furniture_data_template = {
 		describe = "星の模様を散りばめたマット。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -14436,6 +15375,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13121] = {
@@ -14463,7 +15405,6 @@ pg.furniture_data_template = {
 		describe = "「ガーゴイルはこんなモンじゃないのー！」",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -14475,6 +15416,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13122] = {
@@ -14502,7 +15446,6 @@ pg.furniture_data_template = {
 		describe = "ディープパープルのマット。紫色の床だと見分けられない。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -14514,6 +15457,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13123] = {
@@ -14541,7 +15487,6 @@ pg.furniture_data_template = {
 		describe = "誰もどこから来たかわからない盆栽。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -14553,6 +15498,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13124] = {
@@ -14580,7 +15528,6 @@ pg.furniture_data_template = {
 		describe = "急に蘇ったりしないかが心配。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -14592,6 +15539,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13125] = {
@@ -14619,7 +15569,6 @@ pg.furniture_data_template = {
 		describe = "空間を囲み、もしくは仕切る柵 (さく) 。映画では倒れやすい。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -14631,6 +15580,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13126] = {
@@ -14658,7 +15610,6 @@ pg.furniture_data_template = {
 		describe = "どくどく、今日は何を調合しようかな？日数には気をつけないと…",
 		dorm_id = 0,
 		gem_price = 150,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		new = 0,
@@ -14669,6 +15620,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"guohlB",
@@ -14751,7 +15705,6 @@ pg.furniture_data_template = {
 		describe = "ピリカピリルンルンプワプワ～出よ、小悪魔！",
 		dorm_id = 0,
 		gem_price = 150,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		new = 0,
@@ -14762,6 +15715,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"mofazhenhlB",
@@ -14842,7 +15798,6 @@ pg.furniture_data_template = {
 		describe = "土。用途不明。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -14854,6 +15809,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13201] = {
@@ -14881,7 +15839,6 @@ pg.furniture_data_template = {
 		describe = "ノータッチ！お触り禁止！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -14893,6 +15850,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13202] = {
@@ -14920,7 +15880,6 @@ pg.furniture_data_template = {
 		describe = "部屋を仄かに灯す光。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -14932,6 +15891,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13203] = {
@@ -14959,7 +15921,6 @@ pg.furniture_data_template = {
 		describe = "マジックにゃー＞▽＜ ",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -14971,6 +15932,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13204] = {
@@ -14998,7 +15962,6 @@ pg.furniture_data_template = {
 		describe = "たまに笑い声を放つカボチャライト。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -15010,6 +15973,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13205] = {
@@ -15037,7 +16003,6 @@ pg.furniture_data_template = {
 		describe = "「このカボチャ…私と同じ<†魔導†>の素質がありますわ！」",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -15049,6 +16014,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13206] = {
@@ -15076,7 +16044,6 @@ pg.furniture_data_template = {
 		describe = "研究用の機材。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -15088,6 +16055,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13301] = {
@@ -15115,7 +16085,6 @@ pg.furniture_data_template = {
 		describe = "蜘蛛の網が張り巡らされた窓。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -15127,6 +16096,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13302] = {
@@ -15154,7 +16126,6 @@ pg.furniture_data_template = {
 		describe = "闇の世界へようこそ…",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -15166,6 +16137,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13303] = {
@@ -15193,7 +16167,6 @@ pg.furniture_data_template = {
 		describe = "「ミッドナイト」と名付けられた、額縁に収められた絵。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -15205,6 +16178,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13304] = {
@@ -15232,7 +16208,6 @@ pg.furniture_data_template = {
 		describe = "視界が広く、周りを見渡せる。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -15244,6 +16219,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13305] = {
@@ -15271,7 +16249,6 @@ pg.furniture_data_template = {
 		describe = "ざんねん！わたし の ぼうけん は ここまで だ！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -15283,6 +16260,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13306] = {
@@ -15310,7 +16290,6 @@ pg.furniture_data_template = {
 		describe = "カクカクと、微かに音が聞こえる。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -15322,6 +16301,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[14001] = {
@@ -15349,7 +16331,6 @@ pg.furniture_data_template = {
 		describe = "連なる星を示すフローリング。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 14,
 		spine_extra = "",
 		time = "always",
@@ -15358,6 +16339,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[14002] = {
@@ -15385,7 +16369,6 @@ pg.furniture_data_template = {
 		describe = "深遠なる宇宙を示す壁紙。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 14,
 		spine_extra = "",
 		time = "always",
@@ -15394,6 +16377,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[14101] = {
@@ -15421,7 +16407,6 @@ pg.furniture_data_template = {
 		describe = "真空仕掛けの収納棚。…真空ってなに？",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 14,
 		spine_extra = "",
 		time = "always",
@@ -15433,6 +16418,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[14102] = {
@@ -15460,7 +16448,6 @@ pg.furniture_data_template = {
 		describe = "とある星系の第八遊星・ネプチューン",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 14,
 		spine_extra = "",
 		time = "always",
@@ -15484,6 +16471,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -15512,7 +16502,6 @@ pg.furniture_data_template = {
 		describe = "とある星系の第六遊星・マーズ",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 14,
 		spine_extra = "",
 		time = "always",
@@ -15536,6 +16525,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -15564,7 +16556,6 @@ pg.furniture_data_template = {
 		describe = "ふわふわ雲さんチェアー",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 14,
 		spine_extra = "",
 		time = "always",
@@ -15589,6 +16580,9 @@ pg.furniture_data_template = {
 				},
 				"st/guifeiyist_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -15617,7 +16611,6 @@ pg.furniture_data_template = {
 		describe = "とある星系の第五遊星・ジュピター",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 14,
 		spine_extra = "",
 		time = "always",
@@ -15641,6 +16634,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -15669,7 +16665,6 @@ pg.furniture_data_template = {
 		describe = "星空の屏風。描かれている星々が真実か、それとも幻か――",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 14,
 		spine_extra = "",
 		time = "always",
@@ -15681,6 +16676,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[14107] = {
@@ -15708,7 +16706,6 @@ pg.furniture_data_template = {
 		describe = "星の形をしたピンク色のバルーン。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 14,
 		spine_extra = "",
 		time = "always",
@@ -15720,6 +16717,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[14108] = {
@@ -15747,7 +16747,6 @@ pg.furniture_data_template = {
 		describe = "星の形をした黄色のバルーン。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 14,
 		spine_extra = "",
 		time = "always",
@@ -15759,6 +16758,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[14109] = {
@@ -15786,7 +16788,6 @@ pg.furniture_data_template = {
 		describe = "星空をイメージしたデザインはミステリアスな魅力を醸し出す。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 14,
 		spine_extra = "",
 		time = "always",
@@ -15798,6 +16799,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[14110] = {
@@ -15825,7 +16829,6 @@ pg.furniture_data_template = {
 		describe = "人をダメにするソファー。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 14,
 		spine_extra = "",
 		time = "always",
@@ -15850,6 +16853,9 @@ pg.furniture_data_template = {
 				},
 				"st/shafast_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -15878,7 +16884,6 @@ pg.furniture_data_template = {
 		describe = "小さいプロジェクターで映り出すとある星系の景色。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 14,
 		spine_extra = "",
 		time = "always",
@@ -15890,6 +16895,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[14112] = {
@@ -15917,7 +16925,6 @@ pg.furniture_data_template = {
 		describe = "大きすぎてデスクになったサターンチェア。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 14,
 		spine_extra = "",
 		time = "always",
@@ -15929,6 +16936,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[14113] = {
@@ -15956,7 +16966,6 @@ pg.furniture_data_template = {
 		describe = "柔らかそうで、テーブルクロスを張らないと物を置けなさそう。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 14,
 		spine_extra = "",
 		time = "always",
@@ -16004,6 +17013,9 @@ pg.furniture_data_template = {
 				2
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[14114] = {
@@ -16031,7 +17043,6 @@ pg.furniture_data_template = {
 		describe = "星空の彼方を覗いててみよう。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 14,
 		spine_extra = "",
 		time = "always",
@@ -16043,6 +17054,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[14115] = {
@@ -16070,7 +17084,6 @@ pg.furniture_data_template = {
 		describe = "ゆらりくらり　月の船",
 		dorm_id = 0,
 		gem_price = 200,
-		can_trigger = 0,
 		themeId = 14,
 		spine_extra = "",
 		new = 0,
@@ -16081,6 +17094,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"yueliangstB",
@@ -16163,7 +17179,6 @@ pg.furniture_data_template = {
 		describe = "実は太空風呂である。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 14,
 		spine_extra = "",
 		time = "always",
@@ -16188,6 +17203,9 @@ pg.furniture_data_template = {
 				},
 				"st/yugangst_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -16216,7 +17234,6 @@ pg.furniture_data_template = {
 		describe = "ふわーっと丸ごと体を沈めたい。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 14,
 		spine_extra = "",
 		time = "always",
@@ -16240,6 +17257,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -16268,7 +17288,6 @@ pg.furniture_data_template = {
 		describe = "天国への階段。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 14,
 		spine_extra = "",
 		time = "always",
@@ -16280,6 +17299,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[14119] = {
@@ -16307,7 +17329,6 @@ pg.furniture_data_template = {
 		describe = "「落ちないように注意してくださいねー」",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 14,
 		spine_extra = "",
 		time = "always",
@@ -16345,6 +17366,9 @@ pg.furniture_data_template = {
 				"st/chuangst_using1"
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[14120] = {
@@ -16372,7 +17396,6 @@ pg.furniture_data_template = {
 		describe = "Manjuu隊ゼンメツ！？円盤は家具だった！",
 		dorm_id = 0,
 		gem_price = 200,
-		can_trigger = 0,
 		themeId = 14,
 		spine_extra = "",
 		new = 0,
@@ -16383,6 +17406,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"feichuanstB",
@@ -16483,7 +17509,6 @@ pg.furniture_data_template = {
 		describe = "かすかに見える星々がわが艦隊の進路を示す。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 14,
 		spine_extra = "",
 		time = "always",
@@ -16495,6 +17520,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[14201] = {
@@ -16522,7 +17550,6 @@ pg.furniture_data_template = {
 		describe = "ケースに収納されている植物。白亜の空間にある緑色の一隅。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 14,
 		spine_extra = "",
 		time = "always",
@@ -16534,6 +17561,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[14301] = {
@@ -16561,7 +17591,6 @@ pg.furniture_data_template = {
 		describe = "「いざ、最後のフロンティアへ」",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 14,
 		spine_extra = "",
 		time = "always",
@@ -16573,6 +17602,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[14302] = {
@@ -16600,7 +17632,6 @@ pg.furniture_data_template = {
 		describe = "何もない宇宙には無限の可能性が潜んでいる。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 14,
 		spine_extra = "",
 		time = "always",
@@ -16612,6 +17643,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[14303] = {
@@ -16639,7 +17673,6 @@ pg.furniture_data_template = {
 		describe = "ゲート開放ルール：宇宙服着用、気密チェック、ご用心",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 14,
 		spine_extra = "",
 		time = "always",
@@ -16651,6 +17684,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[14304] = {
@@ -16678,7 +17714,6 @@ pg.furniture_data_template = {
 		describe = "「指揮官様、今日から宇宙服を着けて出撃なさってください」",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 14,
 		spine_extra = "",
 		time = "always",
@@ -16690,6 +17725,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[15001] = {
@@ -16717,7 +17755,6 @@ pg.furniture_data_template = {
 		describe = "ニコニコフローリング",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 15,
 		spine_extra = "",
 		new = 0,
@@ -16725,6 +17762,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -16778,7 +17818,6 @@ pg.furniture_data_template = {
 		describe = "ニコニコ壁紙",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 15,
 		spine_extra = "",
 		new = 0,
@@ -16786,6 +17825,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -16839,7 +17881,6 @@ pg.furniture_data_template = {
 		describe = "生実況を楽しめながらお風呂タイム",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 15,
 		spine_extra = "",
 		new = 0,
@@ -16863,6 +17904,9 @@ pg.furniture_data_template = {
 				},
 				"nc/yuchinc_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -16917,7 +17961,6 @@ pg.furniture_data_template = {
 		describe = "いろんなものを置ける",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 15,
 		spine_extra = "",
 		new = 0,
@@ -16928,6 +17971,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -16981,7 +18027,6 @@ pg.furniture_data_template = {
 		describe = "柔らかい座り心地",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 15,
 		spine_extra = "",
 		new = 0,
@@ -17004,6 +18049,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -17058,7 +18106,6 @@ pg.furniture_data_template = {
 		describe = "そのまま寝そべられる",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 15,
 		spine_extra = "",
 		new = 0,
@@ -17082,6 +18129,9 @@ pg.furniture_data_template = {
 				},
 				"nc/guifeiyinc_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -17136,7 +18186,6 @@ pg.furniture_data_template = {
 		describe = "中のものは使ったら戻してね",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 15,
 		spine_extra = "",
 		new = 0,
@@ -17147,6 +18196,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -17200,7 +18252,6 @@ pg.furniture_data_template = {
 		describe = "普段使っているテーブルより低め",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 15,
 		spine_extra = "",
 		new = 0,
@@ -17236,6 +18287,9 @@ pg.furniture_data_template = {
 				},
 				"nc/luodizhuonc_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -17290,7 +18344,6 @@ pg.furniture_data_template = {
 		describe = "「指揮官サンキュー！気が利くな！…って兄貴呼ぶな！」",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 15,
 		spine_extra = "",
 		new = 0,
@@ -17301,6 +18354,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -17354,7 +18410,6 @@ pg.furniture_data_template = {
 		describe = "柔らかいソファ",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 15,
 		spine_extra = "",
 		new = 0,
@@ -17390,6 +18445,9 @@ pg.furniture_data_template = {
 				},
 				"nc/shafanc_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -17444,7 +18502,6 @@ pg.furniture_data_template = {
 		describe = "(｀・ω・´)(´・ω・`)(　ﾟ∀ﾟ)",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 15,
 		spine_extra = "",
 		new = 0,
@@ -17455,6 +18512,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -17508,7 +18568,6 @@ pg.furniture_data_template = {
 		describe = "掛ふとんはグレースケールだけど？",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 15,
 		spine_extra = "",
 		new = 0,
@@ -17531,6 +18590,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -17585,7 +18647,6 @@ pg.furniture_data_template = {
 		describe = "テレビちゃんと一緒に快眠タイム！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 15,
 		spine_extra = "",
 		new = 0,
@@ -17619,6 +18680,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -17673,7 +18737,6 @@ pg.furniture_data_template = {
 		describe = "にゃー",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 15,
 		spine_extra = "",
 		new = 0,
@@ -17684,6 +18747,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -17737,7 +18803,6 @@ pg.furniture_data_template = {
 		describe = "クマー",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 15,
 		spine_extra = "",
 		new = 0,
@@ -17771,6 +18836,9 @@ pg.furniture_data_template = {
 					}
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -17825,7 +18893,6 @@ pg.furniture_data_template = {
 		describe = "立ち会議は大人気！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 15,
 		spine_extra = "",
 		new = 0,
@@ -17855,6 +18922,9 @@ pg.furniture_data_template = {
 				2,
 				2
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -17909,7 +18979,6 @@ pg.furniture_data_template = {
 		describe = "キレイに使ってくださいね",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 15,
 		spine_extra = "",
 		new = 0,
@@ -17920,6 +18989,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -17973,7 +19045,6 @@ pg.furniture_data_template = {
 		describe = "吸水力に強いマット",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 15,
 		spine_extra = "",
 		new = 0,
@@ -17984,6 +19055,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -18037,7 +19111,6 @@ pg.furniture_data_template = {
 		describe = "土足禁止！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 15,
 		spine_extra = "",
 		new = 0,
@@ -18048,6 +19121,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -18101,7 +19177,6 @@ pg.furniture_data_template = {
 		describe = "リビングルーム用",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 15,
 		spine_extra = "",
 		new = 0,
@@ -18112,6 +19187,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -18165,7 +19243,6 @@ pg.furniture_data_template = {
 		describe = "小さな台座",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 15,
 		spine_extra = "",
 		new = 0,
@@ -18348,6 +19425,9 @@ pg.furniture_data_template = {
 				7
 			}
 		},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -18401,7 +19481,6 @@ pg.furniture_data_template = {
 		describe = "花が飾られている花瓶",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 15,
 		spine_extra = "",
 		new = 0,
@@ -18412,6 +19491,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -18465,7 +19547,6 @@ pg.furniture_data_template = {
 		describe = "五目並べに使ってはいけない（規則）",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 15,
 		spine_extra = "",
 		new = 0,
@@ -18476,6 +19557,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -18529,7 +19613,6 @@ pg.furniture_data_template = {
 		describe = "上下開きの窓",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 15,
 		spine_extra = "",
 		new = 0,
@@ -18540,6 +19623,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -18593,7 +19679,6 @@ pg.furniture_data_template = {
 		describe = "白基調のカーテン付きの窓",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 15,
 		spine_extra = "",
 		new = 0,
@@ -18604,6 +19689,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -18657,7 +19745,6 @@ pg.furniture_data_template = {
 		describe = "テレビデザインのドア",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 15,
 		spine_extra = "",
 		new = 0,
@@ -18668,6 +19755,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -18721,7 +19811,6 @@ pg.furniture_data_template = {
 		describe = "壁に飾れます",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 15,
 		spine_extra = "",
 		new = 0,
@@ -18732,6 +19821,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -18785,7 +19877,6 @@ pg.furniture_data_template = {
 		describe = "部屋の出入り口",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 15,
 		spine_extra = "",
 		new = 0,
@@ -18796,6 +19887,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -18849,7 +19943,6 @@ pg.furniture_data_template = {
 		describe = "テレビちゃんが入っている収納",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 15,
 		spine_extra = "",
 		new = 0,
@@ -18860,6 +19953,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -18913,7 +20009,6 @@ pg.furniture_data_template = {
 		describe = "クリスマスの雰囲気に合う無垢フローリング。湿気注意。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 16,
 		spine_extra = "",
 		time = "always",
@@ -18921,6 +20016,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -18974,7 +20072,6 @@ pg.furniture_data_template = {
 		describe = "メリークリスマス！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 16,
 		spine_extra = "",
 		time = "always",
@@ -18982,6 +20079,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -19035,7 +20135,6 @@ pg.furniture_data_template = {
 		describe = "プレゼントボックスに見せかけたお風呂である！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 16,
 		spine_extra = "",
 		time = "always",
@@ -19059,6 +20158,9 @@ pg.furniture_data_template = {
 				},
 				"cr/yugangcr_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {},
 		discount_time = {
@@ -19113,7 +20215,6 @@ pg.furniture_data_template = {
 		describe = "機関車のおもちゃ（レール付き）。車種は…わかりません！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 16,
 		spine_extra = "",
 		time = "always",
@@ -19124,6 +20225,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -19177,7 +20281,6 @@ pg.furniture_data_template = {
 		describe = "「こら！食べる時はちゃんと座って食べるの！」",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 16,
 		spine_extra = "",
 		time = "always",
@@ -19200,6 +20303,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {},
 		discount_time = {
@@ -19254,7 +20360,6 @@ pg.furniture_data_template = {
 		describe = "羽根を詰め込んだ柔らかいチェア。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 16,
 		spine_extra = "",
 		time = "always",
@@ -19288,6 +20393,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {},
 		discount_time = {
@@ -19342,7 +20450,6 @@ pg.furniture_data_template = {
 		describe = "「美味しいご馳走をいっぱい並べよう！」",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 16,
 		spine_extra = "",
 		time = "always",
@@ -19405,6 +20512,9 @@ pg.furniture_data_template = {
 				4
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -19458,7 +20568,6 @@ pg.furniture_data_template = {
 		describe = "サンタークロス、今年は残業で来ないってよ…",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 16,
 		spine_extra = "",
 		time = "always",
@@ -19469,6 +20578,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -19522,7 +20634,6 @@ pg.furniture_data_template = {
 		describe = "贈り物で満杯になった袋。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 16,
 		spine_extra = "",
 		time = "always",
@@ -19533,6 +20644,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -19586,7 +20700,6 @@ pg.furniture_data_template = {
 		describe = "クリスマス風ソファ。身体を沈めよう。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 16,
 		spine_extra = "",
 		time = "always",
@@ -19622,6 +20735,9 @@ pg.furniture_data_template = {
 				},
 				"cr/shafacr_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {},
 		discount_time = {
@@ -19676,7 +20792,6 @@ pg.furniture_data_template = {
 		describe = "クリスマスに必須！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 16,
 		spine_extra = "",
 		time = "always",
@@ -19687,6 +20802,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -19740,7 +20858,6 @@ pg.furniture_data_template = {
 		describe = "キラキラピカピカの水晶玉。",
 		dorm_id = 0,
 		gem_price = 150,
-		can_trigger = 0,
 		themeId = 16,
 		spine_extra = "",
 		time = "always",
@@ -19751,6 +20868,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"shuijingqiuB",
@@ -19851,7 +20971,6 @@ pg.furniture_data_template = {
 		describe = "大きなソリのベッド。夢はサンタ気分。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 16,
 		spine_extra = "",
 		time = "always",
@@ -19899,6 +21018,9 @@ pg.furniture_data_template = {
 				},
 				"cr/xueqiaocr_using2"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {},
 		discount_time = {
@@ -19953,7 +21075,6 @@ pg.furniture_data_template = {
 		describe = "大きいクマのぬいぐるみ。ぬいぐるみは変わらないわ……",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 16,
 		spine_extra = "",
 		time = "always",
@@ -19976,6 +21097,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {},
 		discount_time = {
@@ -20030,7 +21154,6 @@ pg.furniture_data_template = {
 		describe = "部屋の中でも溶けないスゴイスノーマン。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 16,
 		spine_extra = "",
 		time = "always",
@@ -20041,6 +21164,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -20094,7 +21220,6 @@ pg.furniture_data_template = {
 		describe = "「トナカイさんをいじめちゃダメですよ！」",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 16,
 		spine_extra = "",
 		time = "always",
@@ -20105,6 +21230,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -20158,7 +21286,6 @@ pg.furniture_data_template = {
 		describe = "安眠へと誘う。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 16,
 		spine_extra = "",
 		time = "always",
@@ -20182,6 +21309,9 @@ pg.furniture_data_template = {
 				},
 				"cr/yaoyaoyicr_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {},
 		discount_time = {
@@ -20236,7 +21366,6 @@ pg.furniture_data_template = {
 		describe = "スノードロップ模様のカーペット。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 16,
 		spine_extra = "",
 		time = "always",
@@ -20247,6 +21376,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -20300,7 +21432,6 @@ pg.furniture_data_template = {
 		describe = "雪のような踏み心地のカーペット。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 16,
 		spine_extra = "",
 		time = "always",
@@ -20311,6 +21442,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -20364,7 +21498,6 @@ pg.furniture_data_template = {
 		describe = "クリスマスといえばこれ！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 16,
 		spine_extra = "",
 		time = "always",
@@ -20375,6 +21508,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -20428,7 +21564,6 @@ pg.furniture_data_template = {
 		describe = "レアなビーフステーキ。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 16,
 		spine_extra = "",
 		time = "always",
@@ -20439,6 +21574,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -20492,7 +21630,6 @@ pg.furniture_data_template = {
 		describe = "主食はトーストでお決まり！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 16,
 		spine_extra = "",
 		time = "always",
@@ -20503,6 +21640,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -20556,7 +21696,6 @@ pg.furniture_data_template = {
 		describe = "大きいポークステーキ。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 16,
 		spine_extra = "",
 		time = "always",
@@ -20567,6 +21706,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -20620,7 +21762,6 @@ pg.furniture_data_template = {
 		describe = "オールハイルストーブ！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 16,
 		spine_extra = "",
 		time = "always",
@@ -20631,6 +21772,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -20684,7 +21828,6 @@ pg.furniture_data_template = {
 		describe = "雪景色を眺められる窓。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 16,
 		spine_extra = "",
 		time = "always",
@@ -20695,6 +21838,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -20748,7 +21894,6 @@ pg.furniture_data_template = {
 		describe = "本が収まる壁付けの本棚。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 16,
 		spine_extra = "",
 		time = "always",
@@ -20759,6 +21904,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -20812,7 +21960,6 @@ pg.furniture_data_template = {
 		describe = "透明のガラス扉。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 16,
 		spine_extra = "",
 		time = "always",
@@ -20823,6 +21970,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -20876,7 +22026,6 @@ pg.furniture_data_template = {
 		describe = "メリクリ！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 16,
 		spine_extra = "",
 		time = "always",
@@ -20887,6 +22036,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -20940,7 +22092,6 @@ pg.furniture_data_template = {
 		describe = "冬を満喫できる中庭。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 16,
 		spine_extra = "",
 		time = "always",
@@ -20951,6 +22102,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -21004,7 +22158,6 @@ pg.furniture_data_template = {
 		describe = "滑らないように注意ね。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 17,
 		spine_extra = "",
 		time = "always",
@@ -21012,6 +22165,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -21065,7 +22221,6 @@ pg.furniture_data_template = {
 		describe = "一富士二鷹三茄子。良い初夢をみました？",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 17,
 		spine_extra = "",
 		time = "always",
@@ -21073,6 +22228,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -21126,7 +22284,6 @@ pg.furniture_data_template = {
 		describe = "意外と歓迎された足湯。指揮官も試してみませんか？",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 17,
 		spine_extra = "",
 		time = "always",
@@ -21162,6 +22319,9 @@ pg.furniture_data_template = {
 				},
 				"mh/zutangmh_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {},
 		discount_time = {
@@ -21216,7 +22376,6 @@ pg.furniture_data_template = {
 		describe = "お正月にも、ワビサビの心で。",
 		dorm_id = 0,
 		gem_price = 100,
-		can_trigger = 0,
 		themeId = 17,
 		spine_extra = "",
 		time = "always",
@@ -21227,6 +22386,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"chitang",
@@ -21286,7 +22448,6 @@ pg.furniture_data_template = {
 		describe = "家内安全・交通安全・心願成就・目標達成。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 17,
 		spine_extra = "",
 		time = "always",
@@ -21297,6 +22458,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -21350,7 +22514,6 @@ pg.furniture_data_template = {
 		describe = "重桜でよく見かける石灯籠。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 17,
 		spine_extra = "",
 		time = "always",
@@ -21361,6 +22524,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -21414,7 +22580,6 @@ pg.furniture_data_template = {
 		describe = "桜の提灯。二つで一つ。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 17,
 		spine_extra = "",
 		time = "always",
@@ -21425,6 +22590,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -21478,7 +22646,6 @@ pg.furniture_data_template = {
 		describe = "祈りを捧げ、幸運を願う。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 17,
 		spine_extra = "",
 		time = "always",
@@ -21489,6 +22656,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -21542,7 +22712,6 @@ pg.furniture_data_template = {
 		describe = "「爆発もいいけど、太鼓を叩くのも楽しいよな！」",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 17,
 		spine_extra = "",
 		time = "always",
@@ -21553,6 +22722,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -21606,7 +22778,6 @@ pg.furniture_data_template = {
 		describe = "「今年こそ、グレイゴーストに勝つように」",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 17,
 		spine_extra = "",
 		time = "always",
@@ -21617,6 +22788,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -21670,7 +22844,6 @@ pg.furniture_data_template = {
 		describe = "深い古井戸。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 17,
 		spine_extra = "",
 		time = "always",
@@ -21681,6 +22854,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -21734,7 +22910,6 @@ pg.furniture_data_template = {
 		describe = "石灯籠が両脇に飾られる石段。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 17,
 		spine_extra = "",
 		time = "always",
@@ -21745,6 +22920,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -21798,7 +22976,6 @@ pg.furniture_data_template = {
 		describe = "長い長い道。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 17,
 		spine_extra = "",
 		time = "always",
@@ -21809,6 +22986,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -21862,7 +23042,6 @@ pg.furniture_data_template = {
 		describe = "長い長い道。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 17,
 		spine_extra = "",
 		time = "always",
@@ -21873,6 +23052,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -21926,7 +23108,6 @@ pg.furniture_data_template = {
 		describe = "しめ縄が飾られる鳥居。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 17,
 		spine_extra = "",
 		time = "always",
@@ -21937,6 +23118,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -21990,7 +23174,6 @@ pg.furniture_data_template = {
 		describe = "よいっしょ！よいっしょ！喉詰め注意！",
 		dorm_id = 0,
 		gem_price = 90,
-		can_trigger = 0,
 		themeId = 17,
 		spine_extra = "",
 		time = "always",
@@ -22001,6 +23184,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"daniangao",
@@ -22060,7 +23246,6 @@ pg.furniture_data_template = {
 		describe = "色彩豊かな手毬たち。「一つ受け取ってもよろしいかしら」",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 17,
 		spine_extra = "",
 		time = "always",
@@ -22071,6 +23256,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -22124,7 +23312,6 @@ pg.furniture_data_template = {
 		describe = "赤い和傘。疲れたら傘の陰に座って一休みしよう。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 17,
 		spine_extra = "",
 		time = "always",
@@ -22135,6 +23322,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -22188,7 +23378,6 @@ pg.furniture_data_template = {
 		describe = "恋愛運を占う石。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 17,
 		spine_extra = "",
 		time = "always",
@@ -22199,6 +23388,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -22252,7 +23444,6 @@ pg.furniture_data_template = {
 		describe = "ご利益があるかもしれません。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 17,
 		spine_extra = "",
 		time = "always",
@@ -22263,6 +23454,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -22316,7 +23510,6 @@ pg.furniture_data_template = {
 		describe = "みんなが引いたおみくじを結ぶ木。願いが成就するように。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 17,
 		spine_extra = "",
 		time = "always",
@@ -22327,6 +23520,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -22380,7 +23576,6 @@ pg.furniture_data_template = {
 		describe = "正座しなくても大丈夫！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 17,
 		spine_extra = "",
 		time = "always",
@@ -22435,6 +23630,9 @@ pg.furniture_data_template = {
 				1
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -22488,7 +23686,6 @@ pg.furniture_data_template = {
 		describe = "ちょこっと高い。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 17,
 		spine_extra = "",
 		time = "always",
@@ -22919,6 +24116,9 @@ pg.furniture_data_template = {
 				14
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -22972,7 +24172,6 @@ pg.furniture_data_template = {
 		describe = "みんな大好きお団子三兄弟。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 17,
 		spine_extra = "",
 		time = "always",
@@ -22983,6 +24182,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -23036,7 +24238,6 @@ pg.furniture_data_template = {
 		describe = "熱々のあずき餡が幸せの味。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 17,
 		spine_extra = "",
 		time = "always",
@@ -23047,6 +24248,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -23100,7 +24304,6 @@ pg.furniture_data_template = {
 		describe = "お正月用の鏡餅。美味いかどうかは分からない。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 17,
 		spine_extra = "",
 		time = "always",
@@ -23111,6 +24314,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -23164,7 +24370,6 @@ pg.furniture_data_template = {
 		describe = "「福袋、一個でどうかにゃ？」",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 17,
 		spine_extra = "",
 		time = "always",
@@ -23175,6 +24380,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -23228,7 +24436,6 @@ pg.furniture_data_template = {
 		describe = "ラインが浮かび上がるフローリング。",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 18,
 		spine_extra = "",
 		new = 0,
@@ -23236,6 +24443,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -23289,7 +24499,6 @@ pg.furniture_data_template = {
 		describe = "スライヌたくさんいて賑やかな壁。",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 18,
 		spine_extra = "",
 		new = 0,
@@ -23297,6 +24506,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -23350,7 +24562,6 @@ pg.furniture_data_template = {
 		describe = "異世界への転送装置（の一部）。",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 18,
 		spine_extra = "",
 		new = 0,
@@ -23361,6 +24572,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -23414,7 +24628,6 @@ pg.furniture_data_template = {
 		describe = "大きなスライヌのぬいぐるみ。クレーンゲームなら1万円くらいかかりそう。",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 18,
 		spine_extra = "",
 		new = 0,
@@ -23425,6 +24638,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -23478,7 +24694,6 @@ pg.furniture_data_template = {
 		describe = "ブラックパーカーワンピのポケットを模した椅子。決定ボタンではない。",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 18,
 		spine_extra = "",
 		new = 0,
@@ -23501,6 +24716,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -23555,7 +24773,6 @@ pg.furniture_data_template = {
 		describe = "パーカーワンピのポケットを模した椅子。決定ボタンではない！",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 18,
 		spine_extra = "",
 		new = 0,
@@ -23578,6 +24795,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -23632,7 +24852,6 @@ pg.furniture_data_template = {
 		describe = "3時方向に敵艦発見！",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 18,
 		spine_extra = "",
 		new = 0,
@@ -23643,6 +24862,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -23696,7 +24918,6 @@ pg.furniture_data_template = {
 		describe = "青い光を放つフェンス。",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 18,
 		spine_extra = "",
 		new = 0,
@@ -23707,6 +24928,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -23760,7 +24984,6 @@ pg.furniture_data_template = {
 		describe = "リンクオープン…転送―！",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 18,
 		spine_extra = "",
 		new = 0,
@@ -23784,6 +25007,9 @@ pg.furniture_data_template = {
 				},
 				"cy/linkcy_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -23838,7 +25064,6 @@ pg.furniture_data_template = {
 		describe = "ネコちゃんのぬいぐるみ。",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 18,
 		spine_extra = "",
 		new = 0,
@@ -23849,6 +25074,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -23902,7 +25130,6 @@ pg.furniture_data_template = {
 		describe = "触るとイベントが起こりそうなキューブ。",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 18,
 		spine_extra = "",
 		new = 0,
@@ -23925,6 +25152,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -23979,7 +25209,6 @@ pg.furniture_data_template = {
 		describe = "世界を守る四人の戦士を召喚しそうなクリスタル。",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 18,
 		spine_extra = "",
 		new = 0,
@@ -23990,6 +25219,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -24043,7 +25275,6 @@ pg.furniture_data_template = {
 		describe = "スライヌのぬいぐるみ。",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 18,
 		spine_extra = "",
 		new = 0,
@@ -24054,6 +25285,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -24107,7 +25341,6 @@ pg.furniture_data_template = {
 		describe = "目当てのヒロインと出会いやすい場所によく置かれるクッション。",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 18,
 		spine_extra = "",
 		new = 0,
@@ -24130,6 +25363,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -24184,7 +25420,6 @@ pg.furniture_data_template = {
 		describe = "怪しい光を放つダーククリスタル。",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 18,
 		spine_extra = "",
 		new = 0,
@@ -24195,6 +25430,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -24248,7 +25486,6 @@ pg.furniture_data_template = {
 		describe = "お注射の時間です♪",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 18,
 		spine_extra = "",
 		new = 0,
@@ -24259,6 +25496,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -24312,7 +25552,6 @@ pg.furniture_data_template = {
 		describe = "ダンジョン入口の両脇によく見かけるホログラムタイプの柱。",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 18,
 		spine_extra = "",
 		new = 0,
@@ -24323,6 +25562,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -24376,7 +25618,6 @@ pg.furniture_data_template = {
 		describe = "ゲイムギョウ界でよく見られるデザインの柱。",
 		dorm_id = 0,
 		gem_price = 90,
-		can_trigger = 0,
 		themeId = 18,
 		spine_extra = "",
 		new = 0,
@@ -24387,6 +25628,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -24440,7 +25684,6 @@ pg.furniture_data_template = {
 		describe = "ハード機パープルハートを模したテーブル。",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 18,
 		spine_extra = "",
 		new = 0,
@@ -24503,6 +25746,9 @@ pg.furniture_data_template = {
 				3
 			}
 		},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -24556,7 +25802,6 @@ pg.furniture_data_template = {
 		describe = "スライヌのクッション。（体を）埋めたい。",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 18,
 		spine_extra = "",
 		new = 0,
@@ -24580,6 +25825,9 @@ pg.furniture_data_template = {
 				},
 				"cy/zuoyicy_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -24634,7 +25882,6 @@ pg.furniture_data_template = {
 		describe = "Ｎギアを模したモバイルバッテリー。ゲームは出来ない。",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 18,
 		spine_extra = "",
 		new = 0,
@@ -24645,6 +25892,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"chongdianbaochuangB",
@@ -24727,7 +25977,6 @@ pg.furniture_data_template = {
 		describe = "イストワールのデザインをあしらった家具。",
 		dorm_id = 0,
 		gem_price = 150,
-		can_trigger = 0,
 		themeId = 18,
 		spine_extra = "",
 		new = 0,
@@ -24738,6 +25987,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"shubenyizi",
@@ -24826,7 +26078,6 @@ pg.furniture_data_template = {
 		describe = "ぶら下がって移動できる。その姿は宇宙の騎士のよう。",
 		dorm_id = 0,
 		gem_price = 200,
-		can_trigger = 0,
 		themeId = 18,
 		spine_extra = "",
 		new = 0,
@@ -24893,6 +26144,9 @@ pg.furniture_data_template = {
 				0,
 				14
 			}
+		},
+		can_trigger = {
+			0
 		},
 		spine = {
 			{
@@ -24981,7 +26235,6 @@ pg.furniture_data_template = {
 		describe = "女神の加護を得られそうなサークル。ただし何も起こらない。",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 18,
 		spine_extra = "",
 		new = 0,
@@ -24992,6 +26245,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"jiaju4B",
@@ -25074,7 +26330,6 @@ pg.furniture_data_template = {
 		describe = "緑の光を放つライトスタンド。",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 18,
 		spine_extra = "",
 		new = 0,
@@ -25085,6 +26340,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -25138,7 +26396,6 @@ pg.furniture_data_template = {
 		describe = "小さいスライヌのぬいぐるみ。手のひらサイズ。",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 18,
 		spine_extra = "",
 		new = 0,
@@ -25149,6 +26406,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -25202,7 +26462,6 @@ pg.furniture_data_template = {
 		describe = "壁掛けのモニター四枚組。正直見にくい。",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 18,
 		spine_extra = "",
 		new = 0,
@@ -25213,6 +26472,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -25266,7 +26528,6 @@ pg.furniture_data_template = {
 		describe = "別次元にも通じていそうな、SF感溢れるゲート。",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 18,
 		spine_extra = "",
 		new = 0,
@@ -25277,6 +26538,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -25330,7 +26594,6 @@ pg.furniture_data_template = {
 		describe = "情報が続々と更新されるモニター。",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 18,
 		spine_extra = "",
 		new = 0,
@@ -25341,6 +26604,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -25394,7 +26660,6 @@ pg.furniture_data_template = {
 		describe = "よく画面の右上に表示されるやつ！",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 18,
 		spine_extra = "",
 		new = 0,
@@ -25405,6 +26670,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -25458,7 +26726,6 @@ pg.furniture_data_template = {
 		describe = "脳波コンの形をしたオブジェクト。",
 		dorm_id = 0,
 		gem_price = 90,
-		can_trigger = 0,
 		themeId = 18,
 		spine_extra = "",
 		new = 0,
@@ -25469,6 +26736,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -25522,7 +26792,6 @@ pg.furniture_data_template = {
 		describe = "ブラック脳波コンの形をしたオブジェクト。",
 		dorm_id = 0,
 		gem_price = 90,
-		can_trigger = 0,
 		themeId = 18,
 		spine_extra = "",
 		new = 0,
@@ -25533,6 +26802,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -25586,7 +26858,6 @@ pg.furniture_data_template = {
 		describe = "春節おめでとう！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 19,
 		spine_extra = "",
 		time = "always",
@@ -25594,6 +26865,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -25647,7 +26921,6 @@ pg.furniture_data_template = {
 		describe = "春節おめでとう！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 19,
 		spine_extra = "",
 		time = "always",
@@ -25655,6 +26928,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -25708,7 +26984,6 @@ pg.furniture_data_template = {
 		describe = "名付けて、「東煌ドカーン」！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 19,
 		spine_extra = "",
 		time = "always",
@@ -25719,6 +26994,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -25772,7 +27050,6 @@ pg.furniture_data_template = {
 		describe = "財を招いて、寳に進むピョ！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 19,
 		spine_extra = "",
 		time = "always",
@@ -25783,6 +27060,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -25836,7 +27116,6 @@ pg.furniture_data_template = {
 		describe = "もう一回座れるドン！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 19,
 		spine_extra = "",
 		time = "always",
@@ -25859,6 +27138,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {},
 		discount_time = {
@@ -25913,7 +27195,6 @@ pg.furniture_data_template = {
 		describe = "春節（旧正月）で飾る灯籠。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 19,
 		spine_extra = "",
 		time = "always",
@@ -25924,6 +27205,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -25977,7 +27261,6 @@ pg.furniture_data_template = {
 		describe = "大吉饅頭が描かれているカーペット。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 19,
 		spine_extra = "",
 		time = "always",
@@ -25988,6 +27271,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -26041,7 +27327,6 @@ pg.furniture_data_template = {
 		describe = "フェンスを乗り越えちゃダメだよ。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 19,
 		spine_extra = "",
 		time = "always",
@@ -26052,6 +27337,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -26105,7 +27393,6 @@ pg.furniture_data_template = {
 		describe = "（∪＾ω＾）わんわんお（黄）",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 19,
 		spine_extra = "",
 		time = "always",
@@ -26116,6 +27403,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -26169,7 +27459,6 @@ pg.furniture_data_template = {
 		describe = "（∪＾ω＾）わんわんお（黒）",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 19,
 		spine_extra = "",
 		time = "always",
@@ -26180,6 +27469,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -26233,7 +27525,6 @@ pg.furniture_data_template = {
 		describe = "身を隠せるぐらい大きな重箱。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 19,
 		spine_extra = "",
 		time = "always",
@@ -26318,6 +27609,9 @@ pg.furniture_data_template = {
 				}
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -26371,7 +27665,6 @@ pg.furniture_data_template = {
 		describe = "庭の小さい花壇。※踏んではいけません",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 19,
 		spine_extra = "",
 		time = "always",
@@ -26382,6 +27675,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -26435,7 +27731,6 @@ pg.furniture_data_template = {
 		describe = "渡り廊下（の一部）。上がってみる？",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 19,
 		spine_extra = "",
 		time = "always",
@@ -26459,6 +27754,9 @@ pg.furniture_data_template = {
 				},
 				"cj/langcj_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {},
 		discount_time = {
@@ -26513,7 +27811,6 @@ pg.furniture_data_template = {
 		describe = "「指揮官！へへー、今日は大吉仕様だぞ！」",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 19,
 		spine_extra = "",
 		time = "always",
@@ -26524,6 +27821,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -26577,7 +27877,6 @@ pg.furniture_data_template = {
 		describe = "石で舗装された道。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 19,
 		spine_extra = "",
 		time = "always",
@@ -26588,6 +27887,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -26641,7 +27943,6 @@ pg.furniture_data_template = {
 		describe = "落ち葉の山。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 19,
 		spine_extra = "",
 		time = "always",
@@ -26652,6 +27953,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -26705,7 +28009,6 @@ pg.furniture_data_template = {
 		describe = "赤いカーペットが敷かれた階段。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 19,
 		spine_extra = "",
 		time = "always",
@@ -26716,6 +28019,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -26769,7 +28075,6 @@ pg.furniture_data_template = {
 		describe = "饅頭が描かれている舞台。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 19,
 		spine_extra = "",
 		time = "always",
@@ -26814,6 +28119,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {},
 		discount_time = {
@@ -26868,7 +28176,6 @@ pg.furniture_data_template = {
 		describe = "行く年来る年、願いを込めて……",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 19,
 		spine_extra = "",
 		time = "always",
@@ -26879,6 +28186,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -26932,7 +28242,6 @@ pg.furniture_data_template = {
 		describe = "黄金の銀錠…それって…金錠？",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 19,
 		spine_extra = "",
 		time = "always",
@@ -26943,6 +28252,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -26996,7 +28308,6 @@ pg.furniture_data_template = {
 		describe = "太鼓のイメージでデザインされたテーブル。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 19,
 		spine_extra = "",
 		time = "always",
@@ -27018,6 +28329,9 @@ pg.furniture_data_template = {
 				3,
 				3
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {},
 		discount_time = {
@@ -27072,7 +28386,6 @@ pg.furniture_data_template = {
 		describe = "新春の祝砲を打ち上げよう！",
 		dorm_id = 0,
 		gem_price = 200,
-		can_trigger = 0,
 		themeId = 19,
 		spine_extra = "",
 		time = "always",
@@ -27083,6 +28396,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"yanhuaB",
@@ -27187,7 +28503,6 @@ pg.furniture_data_template = {
 		describe = "熱々の湯円（たんゆえん）でもどうぞ！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 19,
 		spine_extra = "",
 		time = "always",
@@ -27198,6 +28513,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -27251,7 +28569,6 @@ pg.furniture_data_template = {
 		describe = "「私たち東煌的にはやっぱり水餃子のほうが…」",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 19,
 		spine_extra = "",
 		time = "always",
@@ -27262,6 +28579,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -27315,7 +28635,6 @@ pg.furniture_data_template = {
 		describe = "ダダダダダダダダダダ（爆発音）",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 19,
 		spine_extra = "",
 		time = "always",
@@ -27326,6 +28645,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -27379,7 +28701,6 @@ pg.furniture_data_template = {
 		describe = "五角形の窓。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 19,
 		spine_extra = "",
 		time = "always",
@@ -27390,6 +28711,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -27443,7 +28767,6 @@ pg.furniture_data_template = {
 		describe = "春節のために準備した対聯（ついれん）…だが、字が汚すぎて何を書いているかわからない。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 19,
 		spine_extra = "",
 		time = "always",
@@ -27454,6 +28777,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -27507,7 +28833,6 @@ pg.furniture_data_template = {
 		describe = "春節のために準備した対聯（ついれん）…だが、字が汚すぎて何を書いているかわからない。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 19,
 		spine_extra = "",
 		time = "always",
@@ -27518,6 +28843,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -27571,7 +28899,6 @@ pg.furniture_data_template = {
 		describe = "さかさまの福の貼り紙。福が来るように。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 19,
 		spine_extra = "",
 		time = "always",
@@ -27582,6 +28909,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -27635,7 +28965,6 @@ pg.furniture_data_template = {
 		describe = "隙間から覗いてはいけません。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 19,
 		spine_extra = "",
 		time = "always",
@@ -27646,6 +28975,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -27699,7 +29031,6 @@ pg.furniture_data_template = {
 		describe = "東煌屋敷の門。金属の輪のドアノブが特徴。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 19,
 		spine_extra = "",
 		time = "always",
@@ -27710,6 +29041,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -27763,7 +29097,6 @@ pg.furniture_data_template = {
 		describe = "饅頭パークへようこそ！",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 20,
 		spine_extra = "",
 		new = 1,
@@ -27771,6 +29104,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -27824,7 +29160,6 @@ pg.furniture_data_template = {
 		describe = "饅頭パークへようこそ！",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 20,
 		spine_extra = "",
 		new = 1,
@@ -27832,6 +29167,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -27885,7 +29223,6 @@ pg.furniture_data_template = {
 		describe = "干し草が布団代わり。あまり気持ちよくないかも……",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 20,
 		spine_extra = "",
 		new = 1,
@@ -27909,6 +29246,9 @@ pg.furniture_data_template = {
 				},
 				"zo/chuangzo_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -27963,7 +29303,6 @@ pg.furniture_data_template = {
 		describe = "迷ったらレッドフラッグに向かって進もう",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 20,
 		spine_extra = "",
 		new = 1,
@@ -27974,6 +29313,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -28027,7 +29369,6 @@ pg.furniture_data_template = {
 		describe = "覗き見禁止！",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 20,
 		spine_extra = "",
 		new = 1,
@@ -28063,6 +29404,9 @@ pg.furniture_data_template = {
 					"zo/gengyishizo_mask"
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -28117,7 +29461,6 @@ pg.furniture_data_template = {
 		describe = "マンジュパークへようこそ！",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 20,
 		spine_extra = "",
 		new = 1,
@@ -28128,6 +29471,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -28181,7 +29527,6 @@ pg.furniture_data_template = {
 		describe = "ようこそ饅頭たちの森へ！",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 20,
 		spine_extra = "",
 		new = 1,
@@ -28192,6 +29537,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -28245,7 +29593,6 @@ pg.furniture_data_template = {
 		describe = "二色しかない…？",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 20,
 		spine_extra = "",
 		new = 1,
@@ -28256,6 +29603,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -28309,7 +29659,6 @@ pg.furniture_data_template = {
 		describe = "焼けないように注意しないとね～",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 20,
 		spine_extra = "",
 		new = 1,
@@ -28320,6 +29669,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -28373,7 +29725,6 @@ pg.furniture_data_template = {
 		describe = "このわたしこそが森の王様なのだ！わぅ～！",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 20,
 		spine_extra = "",
 		new = 1,
@@ -28397,6 +29748,9 @@ pg.furniture_data_template = {
 				},
 				"zo/shizizo_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -28451,7 +29805,6 @@ pg.furniture_data_template = {
 		describe = "パンの実を実るかな？",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 20,
 		spine_extra = "",
 		new = 1,
@@ -28462,6 +29815,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -28515,7 +29871,6 @@ pg.furniture_data_template = {
 		describe = "天然温泉100％！のぼせるまで浸ってみよう！",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 20,
 		spine_extra = "",
 		new = 1,
@@ -28526,6 +29881,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -28579,7 +29937,6 @@ pg.furniture_data_template = {
 		describe = "探検の前にお腹を満たしておこう！",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 20,
 		spine_extra = "",
 		new = 1,
@@ -28603,6 +29960,9 @@ pg.furniture_data_template = {
 				},
 				"zo/yecanzhuozo_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -28657,7 +30017,6 @@ pg.furniture_data_template = {
 		describe = "探検の前に十分休もう！",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 20,
 		spine_extra = "",
 		new = 1,
@@ -28680,6 +30039,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -28734,7 +30096,6 @@ pg.furniture_data_template = {
 		describe = "中になにかが隠れているかもしれない。",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 20,
 		spine_extra = "",
 		new = 1,
@@ -28745,6 +30106,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -28798,7 +30162,6 @@ pg.furniture_data_template = {
 		describe = "わんわん！にゃんにゃん！ウホ！",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 20,
 		spine_extra = "",
 		new = 1,
@@ -28832,6 +30195,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -28886,7 +30252,6 @@ pg.furniture_data_template = {
 		describe = "MARIAGE D'AMOUR",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 21,
 		spine_extra = "",
 		new = 1,
@@ -28894,6 +30259,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -28947,7 +30315,6 @@ pg.furniture_data_template = {
 		describe = "MARIAGE D'AMOUR",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 21,
 		spine_extra = "",
 		new = 1,
@@ -28955,6 +30322,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -29008,7 +30378,6 @@ pg.furniture_data_template = {
 		describe = "夢の中でも指輪を交わす約束を――",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 21,
 		spine_extra = "",
 		new = 1,
@@ -29032,6 +30401,9 @@ pg.furniture_data_template = {
 				},
 				"wd/jiezhichuangwd_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -29086,7 +30458,6 @@ pg.furniture_data_template = {
 		describe = "この素晴らしい瞬間を見届けよう。",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 21,
 		spine_extra = "",
 		new = 1,
@@ -29109,6 +30480,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -29163,7 +30537,6 @@ pg.furniture_data_template = {
 		describe = "愛を乗せて空飛ぶ夢のバルーン。",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 21,
 		spine_extra = "",
 		new = 1,
@@ -29174,6 +30547,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -29227,7 +30603,6 @@ pg.furniture_data_template = {
 		describe = "「うふふ、式の宴会は心こめてご用意させていただきました」",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 21,
 		spine_extra = "",
 		new = 1,
@@ -29290,6 +30665,9 @@ pg.furniture_data_template = {
 				3
 			}
 		},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -29343,7 +30721,6 @@ pg.furniture_data_template = {
 		describe = "ピンクのリボンが織りなす夢の世界。",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 21,
 		spine_extra = "",
 		new = 1,
@@ -29354,6 +30731,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -29407,7 +30787,6 @@ pg.furniture_data_template = {
 		describe = "一曲弾いてあげるピョ。",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 21,
 		spine_extra = "",
 		new = 1,
@@ -29418,6 +30797,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -29471,7 +30853,6 @@ pg.furniture_data_template = {
 		describe = "バイキング？コース？結婚式のディナーに文句つけるのは御法度。",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 21,
 		spine_extra = "",
 		new = 1,
@@ -29501,6 +30882,9 @@ pg.furniture_data_template = {
 				3,
 				3
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -29555,7 +30939,6 @@ pg.furniture_data_template = {
 		describe = "愛と幸せを象徴するハートアーチ。",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 21,
 		spine_extra = "",
 		new = 1,
@@ -29566,6 +30949,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -29619,7 +31005,6 @@ pg.furniture_data_template = {
 		describe = "「…ゆーちゃん？ううん…」",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 21,
 		spine_extra = "",
 		new = 1,
@@ -29643,6 +31028,9 @@ pg.furniture_data_template = {
 				},
 				"wd/machewd_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -29697,7 +31085,6 @@ pg.furniture_data_template = {
 		describe = "饅頭はクリーム製。",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 21,
 		spine_extra = "",
 		new = 1,
@@ -29708,6 +31095,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -29761,7 +31151,6 @@ pg.furniture_data_template = {
 		describe = "二人のためのダブルベッド。",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 21,
 		spine_extra = "",
 		new = 1,
@@ -29797,6 +31186,9 @@ pg.furniture_data_template = {
 				},
 				"wd/hunchuangwd_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -29851,7 +31243,6 @@ pg.furniture_data_template = {
 		describe = "乗るしかねぇこの（ケッコン）のビッグウェーブに",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 21,
 		spine_extra = "",
 		new = 1,
@@ -29875,6 +31266,9 @@ pg.furniture_data_template = {
 				},
 				"wd/qichewd_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -29929,7 +31323,6 @@ pg.furniture_data_template = {
 		describe = "「シャンパンは豪快に飲むに限るな～ねえ日向？」",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 21,
 		spine_extra = "",
 		new = 1,
@@ -29953,6 +31346,9 @@ pg.furniture_data_template = {
 				},
 				"wd/xiangbintongwd_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -30007,7 +31403,6 @@ pg.furniture_data_template = {
 		describe = "「姉さん、ラッパ飲みは行儀が悪いぞ…」",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 21,
 		spine_extra = "",
 		new = 1,
@@ -30018,6 +31413,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -30071,7 +31469,6 @@ pg.furniture_data_template = {
 		describe = "饅頭が住むお城らしいピョ。",
 		dorm_id = 0,
 		gem_price = 200,
-		can_trigger = 0,
 		themeId = 21,
 		spine_extra = "",
 		new = 1,
@@ -30082,6 +31479,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"tonghuachengbaoB",
@@ -30168,7 +31568,6 @@ pg.furniture_data_template = {
 		describe = "みんなに配るカクテル。",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 21,
 		spine_extra = "",
 		new = 1,
@@ -30179,6 +31578,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -30232,7 +31634,6 @@ pg.furniture_data_template = {
 		describe = "ストロベリーはハッピーなテースト。",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 21,
 		spine_extra = "",
 		new = 1,
@@ -30243,6 +31644,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -30296,7 +31700,6 @@ pg.furniture_data_template = {
 		describe = "「ラドフォード！これ一つもらっていいの？」",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 21,
 		spine_extra = "",
 		new = 1,
@@ -30307,6 +31710,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -30360,7 +31766,6 @@ pg.furniture_data_template = {
 		describe = "「大丈夫大丈夫！キャンディは博愛！みんなの分まであるから！」",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 21,
 		spine_extra = "",
 		new = 1,
@@ -30371,6 +31776,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -30424,7 +31832,6 @@ pg.furniture_data_template = {
 		describe = "パチッ……パシャ―…ドン！",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 21,
 		spine_extra = "",
 		new = 1,
@@ -30435,6 +31842,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -30488,7 +31898,6 @@ pg.furniture_data_template = {
 		describe = "一口サイズのミニケーキ。",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 21,
 		spine_extra = "",
 		new = 1,
@@ -30499,6 +31908,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -30552,7 +31964,6 @@ pg.furniture_data_template = {
 		describe = "ケッコン式のために用意された特別なマカロン。",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 21,
 		spine_extra = "",
 		new = 1,
@@ -30563,6 +31974,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -30616,7 +32030,6 @@ pg.furniture_data_template = {
 		describe = "バラの飾りが施されている木製のゲート。",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 21,
 		spine_extra = "",
 		new = 1,
@@ -30627,6 +32040,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -30680,7 +32096,6 @@ pg.furniture_data_template = {
 		describe = "ピンク色のシアーにうっすら隠される木製の窓。",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 21,
 		spine_extra = "",
 		new = 1,
@@ -30691,6 +32106,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -30744,7 +32162,6 @@ pg.furniture_data_template = {
 		describe = "模様にロイヤル王家の優雅さが見てとれる。",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 22,
 		spine_extra = "",
 		new = 1,
@@ -30752,6 +32169,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -30805,7 +32225,6 @@ pg.furniture_data_template = {
 		describe = "模様にロイヤル王家の優雅さが見てとれる。",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 22,
 		spine_extra = "",
 		new = 1,
@@ -30813,6 +32232,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -30866,7 +32288,6 @@ pg.furniture_data_template = {
 		describe = "かの都市にある有名観光スポット…のレプリカ。",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 22,
 		spine_extra = "",
 		new = 1,
@@ -30914,6 +32335,9 @@ pg.furniture_data_template = {
 				},
 				"yl/taqiaoyl_using1"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -30968,7 +32392,6 @@ pg.furniture_data_template = {
 		describe = "ウェルカムトゥロンドン！",
 		dorm_id = 0,
 		gem_price = 250,
-		can_trigger = 0,
 		themeId = 22,
 		spine_extra = "",
 		new = 1,
@@ -30979,6 +32402,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"motianlunB",
@@ -31079,7 +32505,6 @@ pg.furniture_data_template = {
 		describe = "「もしも○○○だったら、いいな」",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 22,
 		spine_extra = "",
 		time = "always",
@@ -31091,6 +32516,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[22104] = {
@@ -31118,7 +32546,6 @@ pg.furniture_data_template = {
 		describe = "皮革鞄。丈夫で座り心地がいいからついつい椅子扱いされる。",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 22,
 		spine_extra = "",
 		new = 1,
@@ -31129,6 +32556,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -31182,7 +32612,6 @@ pg.furniture_data_template = {
 		describe = "手紙のやり取りはオーソドックスなロマンス。",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 22,
 		spine_extra = "",
 		new = 1,
@@ -31193,6 +32622,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -31246,7 +32678,6 @@ pg.furniture_data_template = {
 		describe = "「なるほどね！王家のアフタヌーンティーは心こめて準備しなくちゃね！」",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 22,
 		spine_extra = "",
 		new = 1,
@@ -31276,6 +32707,9 @@ pg.furniture_data_template = {
 				3,
 				3
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -31330,7 +32764,6 @@ pg.furniture_data_template = {
 		describe = "「なるほどね！王家のアフタヌーンティーは心こめて準備しなくちゃね！」",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 22,
 		spine_extra = "",
 		new = 1,
@@ -31354,6 +32787,9 @@ pg.furniture_data_template = {
 				},
 				"yl/zuoyiyl_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -31408,7 +32844,6 @@ pg.furniture_data_template = {
 		describe = "空を飛ぶ憧れを小さなゴンドラに載せて。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 22,
 		spine_extra = "",
 		time = "always",
@@ -31433,6 +32868,9 @@ pg.furniture_data_template = {
 				},
 				"yl/qiqiuyl_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -31461,7 +32899,6 @@ pg.furniture_data_template = {
 		describe = "コーヒーいかがですか？",
 		dorm_id = 0,
 		gem_price = 150,
-		can_trigger = 0,
 		themeId = 22,
 		spine_extra = "",
 		new = 1,
@@ -31472,6 +32909,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"kafeijiB",
@@ -31573,7 +33013,6 @@ pg.furniture_data_template = {
 		describe = "「うち、実は王家グルメが好きなんだ～あ、あれ？なんで食べないの…？結構美味しいよ？」",
 		dorm_id = 0,
 		gem_price = 200,
-		can_trigger = 0,
 		themeId = 22,
 		spine_extra = "",
 		new = 1,
@@ -31584,6 +33023,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"yangwangxingkongpaiB",
@@ -31684,7 +33126,6 @@ pg.furniture_data_template = {
 		describe = "「このベッドは女王さま専用よ！選ばれた者しか上がらせないわ！」",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 22,
 		spine_extra = "",
 		new = 1,
@@ -31720,6 +33161,9 @@ pg.furniture_data_template = {
 				},
 				"yl/chuangyl_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -31774,7 +33218,6 @@ pg.furniture_data_template = {
 		describe = "見晴らしがいい観光バス。なぜ室内に置けるのかが謎。",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 22,
 		spine_extra = "",
 		new = 1,
@@ -31835,6 +33278,9 @@ pg.furniture_data_template = {
 				"yl/bashiyl_using1"
 			}
 		},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -31888,7 +33334,6 @@ pg.furniture_data_template = {
 		describe = "ロイヤルの都会によく見かける美しい造形の街灯。",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 22,
 		spine_extra = "",
 		new = 1,
@@ -31899,6 +33344,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -31952,7 +33400,6 @@ pg.furniture_data_template = {
 		describe = "花びらを浮かせたお風呂。入るといい匂い！",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 22,
 		spine_extra = "",
 		new = 1,
@@ -31976,6 +33423,9 @@ pg.furniture_data_template = {
 				},
 				"yl/yuchiyl_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -32030,7 +33480,6 @@ pg.furniture_data_template = {
 		describe = "入れた手紙はいずこへ…",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 22,
 		spine_extra = "",
 		new = 1,
@@ -32041,6 +33490,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -32094,7 +33546,6 @@ pg.furniture_data_template = {
 		describe = "「このソファも女王さま専用だわ！はい！頭を下げなさい！」",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 22,
 		spine_extra = "",
 		new = 1,
@@ -32118,6 +33569,9 @@ pg.furniture_data_template = {
 				},
 				"yl/shafa1yl_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -32172,7 +33626,6 @@ pg.furniture_data_template = {
 		describe = "大きな王冠のオブジェクト。上に座ると王様気分になれるとの噂。",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 22,
 		spine_extra = "",
 		new = 1,
@@ -32207,6 +33660,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -32261,7 +33717,6 @@ pg.furniture_data_template = {
 		describe = "王家名物衛兵饅頭。交代式は見ものだピョ。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 22,
 		spine_extra = "",
 		time = "always",
@@ -32273,6 +33728,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[22119] = {
@@ -32300,7 +33758,6 @@ pg.furniture_data_template = {
 		describe = "華麗なるロイヤルステア。",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 22,
 		spine_extra = "",
 		new = 1,
@@ -32311,6 +33768,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -32364,7 +33824,6 @@ pg.furniture_data_template = {
 		describe = "すごくながーーーーーーーーーいカーペット。",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 22,
 		spine_extra = "",
 		new = 1,
@@ -32375,6 +33834,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -32428,7 +33890,6 @@ pg.furniture_data_template = {
 		describe = "淹れたての紅茶。芳醇でいい香り",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 22,
 		spine_extra = "",
 		new = 1,
@@ -32439,6 +33900,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -32492,7 +33956,6 @@ pg.furniture_data_template = {
 		describe = "淹れたての紅茶。芳醇でいい香り",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 22,
 		spine_extra = "",
 		new = 1,
@@ -32503,6 +33966,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -32556,7 +34022,6 @@ pg.furniture_data_template = {
 		describe = "「ベルはビスケット、私はスコーン、サフォークはミルクプリン、ケントはミニケーキ、シェフィはサンドイッチ…あとは…なにがあったっけ？」",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 22,
 		spine_extra = "",
 		new = 1,
@@ -32567,6 +34032,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -32620,7 +34088,6 @@ pg.furniture_data_template = {
 		describe = "「鏡よ鏡、この世界で一番キレイな人は誰なのか、教えてちょうだい」",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 22,
 		spine_extra = "",
 		new = 1,
@@ -32631,6 +34098,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -32684,7 +34154,6 @@ pg.furniture_data_template = {
 		describe = "「この盆栽は壁掛けでもいいかも！…えっとちょっと高いかな…あはは……あ！指揮官、サンキューな！」",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 22,
 		spine_extra = "",
 		new = 1,
@@ -32695,6 +34164,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -32748,7 +34220,6 @@ pg.furniture_data_template = {
 		describe = "チョコキャンディで作られた壁。噛んじゃうと歯が大変なことに。",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 22,
 		spine_extra = "",
 		new = 1,
@@ -32759,6 +34230,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -32812,7 +34286,6 @@ pg.furniture_data_template = {
 		describe = "過ぎゆく日々を記念に。",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 22,
 		spine_extra = "",
 		new = 1,
@@ -32823,6 +34296,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -32876,7 +34352,6 @@ pg.furniture_data_template = {
 		describe = "交通安全要注意。",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 22,
 		spine_extra = "",
 		new = 1,
@@ -32887,6 +34362,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -32940,7 +34418,6 @@ pg.furniture_data_template = {
 		describe = "あの有名なビッグベンが見える。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 22,
 		spine_extra = "",
 		time = "always",
@@ -32952,6 +34429,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[23001] = {
@@ -32979,7 +34459,6 @@ pg.furniture_data_template = {
 		describe = "転ばないようにご注意！",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 23,
 		spine_extra = "",
 		new = 1,
@@ -32987,6 +34466,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -33040,7 +34522,6 @@ pg.furniture_data_template = {
 		describe = "饅頭が描かれている壁",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 23,
 		spine_extra = "",
 		new = 1,
@@ -33048,6 +34529,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -33101,7 +34585,6 @@ pg.furniture_data_template = {
 		describe = "飛び込み禁止！",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 23,
 		spine_extra = "",
 		new = 1,
@@ -33137,6 +34620,9 @@ pg.furniture_data_template = {
 				},
 				"yy/bobochiyy_using2"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -33191,7 +34677,6 @@ pg.furniture_data_template = {
 		describe = "レールがないので、本当に機関車なのかは謎でしかない",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 23,
 		spine_extra = "",
 		new = 1,
@@ -33214,6 +34699,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -33268,7 +34756,6 @@ pg.furniture_data_template = {
 		describe = "いい子はちゃんと昼寝しなきゃ",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 23,
 		spine_extra = "",
 		new = 1,
@@ -33292,6 +34779,9 @@ pg.furniture_data_template = {
 				},
 				"yy/chuangyy_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -33346,7 +34836,6 @@ pg.furniture_data_template = {
 		describe = "ご飯はちゃんと座って食べるように",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 23,
 		spine_extra = "",
 		new = 1,
@@ -33369,6 +34858,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -33423,7 +34915,6 @@ pg.furniture_data_template = {
 		describe = "机を汚したら饅頭にプンプンされるたらいい",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 23,
 		spine_extra = "",
 		new = 1,
@@ -33461,6 +34952,9 @@ pg.furniture_data_template = {
 				4,
 				3
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -33515,7 +35009,6 @@ pg.furniture_data_template = {
 		describe = "1の次は…9？",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 23,
 		spine_extra = "",
 		new = 1,
@@ -33526,6 +35019,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -33579,7 +35075,6 @@ pg.furniture_data_template = {
 		describe = "「私もひまわり…ぴよよよ！」",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 23,
 		spine_extra = "",
 		new = 1,
@@ -33590,6 +35085,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -33643,7 +35141,6 @@ pg.furniture_data_template = {
 		describe = "「私以外は列をちゃんと並んでもらうわ！」",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 23,
 		spine_extra = "",
 		new = 1,
@@ -33691,6 +35188,9 @@ pg.furniture_data_template = {
 				},
 				"yy/huatiyy_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -33745,7 +35245,6 @@ pg.furniture_data_template = {
 		describe = "「遊戯用の砂場…いやいや、砂城作りの修行場というわけか！？」",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 23,
 		spine_extra = "",
 		new = 1,
@@ -33769,6 +35268,9 @@ pg.furniture_data_template = {
 				},
 				"yy/shachiyy_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -33823,7 +35325,6 @@ pg.furniture_data_template = {
 		describe = "一緒に遊びましょ！",
 		dorm_id = 0,
 		gem_price = 180,
-		can_trigger = 0,
 		themeId = 23,
 		spine_extra = "",
 		new = 1,
@@ -33834,6 +35335,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -33887,7 +35391,6 @@ pg.furniture_data_template = {
 		describe = "「アルキメデスの梃子を持っていしてもこの饅頭、そう簡単に動かされることはあるまい…！」",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 23,
 		spine_extra = "",
 		new = 1,
@@ -33911,6 +35414,9 @@ pg.furniture_data_template = {
 				},
 				"yy/qiaoqiaobanyy_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -33965,7 +35471,6 @@ pg.furniture_data_template = {
 		describe = "高い高いー",
 		dorm_id = 0,
 		gem_price = 200,
-		can_trigger = 0,
 		themeId = 23,
 		spine_extra = "",
 		new = 1,
@@ -33976,6 +35481,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"bengchuang",
@@ -34064,7 +35572,6 @@ pg.furniture_data_template = {
 		describe = "「ゆれるゆれるー…ゆれ……ねむい……」",
 		dorm_id = 0,
 		gem_price = 200,
-		can_trigger = 0,
 		themeId = 23,
 		spine_extra = "",
 		new = 1,
@@ -34075,6 +35582,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"mumaB",
@@ -34165,7 +35675,6 @@ pg.furniture_data_template = {
 		describe = "「どっちが高いか競争だああああ！」",
 		dorm_id = 0,
 		gem_price = 200,
-		can_trigger = 0,
 		themeId = 23,
 		spine_extra = "",
 		new = 1,
@@ -34176,6 +35685,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"qiuqianB",
@@ -34266,7 +35778,6 @@ pg.furniture_data_template = {
 		describe = "食わず嫌いは禁止！肉も野菜もちゃんと食べるように！",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 23,
 		spine_extra = "",
 		new = 1,
@@ -34277,6 +35788,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -34330,7 +35844,6 @@ pg.furniture_data_template = {
 		describe = "ミルクはまだ温かい",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 23,
 		spine_extra = "",
 		new = 1,
@@ -34341,6 +35854,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -34394,7 +35910,6 @@ pg.furniture_data_template = {
 		describe = "クマさんをモチーフとした窓",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 23,
 		spine_extra = "",
 		new = 1,
@@ -34405,6 +35920,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -34458,7 +35976,6 @@ pg.furniture_data_template = {
 		describe = "「本物の雲さんじゃないけど可愛い！」",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 23,
 		spine_extra = "",
 		new = 1,
@@ -34469,6 +35986,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -34522,7 +36042,6 @@ pg.furniture_data_template = {
 		describe = "「月は聖なる象徴。我がアイリス教国の中でもそれが通じているぐらいだ」",
 		dorm_id = 0,
 		gem_price = 180,
-		can_trigger = 0,
 		themeId = 23,
 		spine_extra = "",
 		new = 1,
@@ -34533,6 +36052,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -34586,7 +36108,6 @@ pg.furniture_data_template = {
 		describe = "「たくさん飾ってみたいな…」",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 23,
 		spine_extra = "",
 		new = 1,
@@ -34597,6 +36118,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -34650,7 +36174,6 @@ pg.furniture_data_template = {
 		describe = "作者を当ててみよう！",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 23,
 		spine_extra = "",
 		new = 1,
@@ -34661,6 +36184,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -34714,7 +36240,6 @@ pg.furniture_data_template = {
 		describe = "クマさんをモチーフとした入り口",
 		dorm_id = 0,
 		gem_price = 180,
-		can_trigger = 0,
 		themeId = 23,
 		spine_extra = "",
 		new = 1,
@@ -34725,6 +36250,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -34778,7 +36306,6 @@ pg.furniture_data_template = {
 		describe = "壁を飾るのにわざと買ったシール。簡単に剥がせる",
 		dorm_id = 0,
 		gem_price = 180,
-		can_trigger = 0,
 		themeId = 23,
 		spine_extra = "",
 		new = 1,
@@ -34789,6 +36316,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -34842,7 +36372,6 @@ pg.furniture_data_template = {
 		describe = "ネコの模様が飾られているフローリング。",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 24,
 		spine_extra = "",
 		new = 1,
@@ -34850,6 +36379,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -34903,7 +36435,6 @@ pg.furniture_data_template = {
 		describe = "ネコカフェの壁。",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 24,
 		spine_extra = "",
 		new = 1,
@@ -34911,6 +36442,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -34964,7 +36498,6 @@ pg.furniture_data_template = {
 		describe = "「ブルーマウンテンかにゃ？それともマンデリンかにゃ？」",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 24,
 		spine_extra = "",
 		new = 1,
@@ -34975,6 +36508,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -35028,7 +36564,6 @@ pg.furniture_data_template = {
 		describe = "「疲れたから寝るにゃ…おやすみにゃ…」",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 24,
 		spine_extra = "",
 		new = 1,
@@ -35064,6 +36599,9 @@ pg.furniture_data_template = {
 				},
 				"cafe/chuang2cf_using2"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -35118,7 +36656,6 @@ pg.furniture_data_template = {
 		describe = "シッポ引っ張り厳禁",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 24,
 		spine_extra = "",
 		new = 1,
@@ -35141,6 +36678,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -35195,7 +36735,6 @@ pg.furniture_data_template = {
 		describe = "「ネコパンチを大型化してみたにゃ！これで火力も……ってなんでソファにするにゃ！」",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 24,
 		spine_extra = "",
 		new = 1,
@@ -35218,6 +36757,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -35272,7 +36814,6 @@ pg.furniture_data_template = {
 		describe = "「踏む時は力入れないでほしいにゃ」",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 24,
 		spine_extra = "",
 		new = 1,
@@ -35283,6 +36824,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -35336,7 +36880,6 @@ pg.furniture_data_template = {
 		describe = "ネコ成分が山盛りに追加された普通のカーペット。",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 24,
 		spine_extra = "",
 		new = 1,
@@ -35347,6 +36890,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -35400,7 +36946,6 @@ pg.furniture_data_template = {
 		describe = "「し、沈むにゃ！」",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 24,
 		spine_extra = "",
 		new = 1,
@@ -35424,6 +36969,9 @@ pg.furniture_data_template = {
 				},
 				"cafe/kafeibeicf_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -35478,7 +37026,6 @@ pg.furniture_data_template = {
 		describe = "ネコ用のミニサイズレジャーランド。",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 24,
 		spine_extra = "",
 		new = 1,
@@ -35512,6 +37059,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -35566,7 +37116,6 @@ pg.furniture_data_template = {
 		describe = "「美味しそうだにゃ？」",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 24,
 		spine_extra = "",
 		new = 1,
@@ -35577,6 +37126,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -35630,7 +37182,6 @@ pg.furniture_data_template = {
 		describe = "「ガマンガマン……にゃ！」",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 24,
 		spine_extra = "",
 		new = 1,
@@ -35641,6 +37192,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -35694,7 +37248,6 @@ pg.furniture_data_template = {
 		describe = "「ダメになるにゃ…」",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 24,
 		spine_extra = "",
 		new = 1,
@@ -35717,6 +37270,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -35771,7 +37327,6 @@ pg.furniture_data_template = {
 		describe = "「ダメになるにゃ…」",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 24,
 		spine_extra = "",
 		new = 1,
@@ -35794,6 +37349,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -35848,7 +37406,6 @@ pg.furniture_data_template = {
 		describe = "「ダメになるにゃ…」",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 24,
 		spine_extra = "",
 		new = 1,
@@ -35871,6 +37428,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -35925,7 +37485,6 @@ pg.furniture_data_template = {
 		describe = "「ニャンニャンハウスを占領しないでほしいにゃ！」",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 24,
 		spine_extra = "",
 		new = 1,
@@ -35960,6 +37519,9 @@ pg.furniture_data_template = {
 					}
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -36014,7 +37576,6 @@ pg.furniture_data_template = {
 		describe = "「がぶがぶにゃ！」",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 24,
 		spine_extra = "",
 		new = 1,
@@ -36025,6 +37586,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -36078,7 +37642,6 @@ pg.furniture_data_template = {
 		describe = "「おぇ…お、美味しかったにゃ！お、おお、ｵｲｼｶｯﾀﾆｬ…」",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 24,
 		spine_extra = "",
 		new = 1,
@@ -36089,6 +37652,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"feiyuguantouB",
@@ -36174,7 +37740,6 @@ pg.furniture_data_template = {
 		describe = "「これでどんなネコもイチコロだにゃ！」",
 		dorm_id = 0,
 		gem_price = 100,
-		can_trigger = 0,
 		themeId = 24,
 		spine_extra = "",
 		new = 1,
@@ -36185,6 +37750,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"maoxianghexin",
@@ -36244,7 +37812,6 @@ pg.furniture_data_template = {
 		describe = "「中で丸くなりたいにゃ……」",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 24,
 		spine_extra = "",
 		new = 1,
@@ -36268,6 +37835,9 @@ pg.furniture_data_template = {
 				},
 				"cafe/zhidaicf_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -36322,7 +37892,6 @@ pg.furniture_data_template = {
 		describe = "「中で！丸く！なりたい！にゃ！」",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 24,
 		spine_extra = "",
 		new = 1,
@@ -36346,6 +37915,9 @@ pg.furniture_data_template = {
 				},
 				"cafe/zhixiangcf_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -36400,7 +37972,6 @@ pg.furniture_data_template = {
 		describe = "「いただきます！にゃ」",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 24,
 		spine_extra = "",
 		new = 1,
@@ -36411,6 +37982,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -36464,7 +38038,6 @@ pg.furniture_data_template = {
 		describe = "「だからネコじゃないって言ったにゃ！」",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 24,
 		spine_extra = "",
 		new = 1,
@@ -36475,6 +38048,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -36528,7 +38104,6 @@ pg.furniture_data_template = {
 		describe = "ニャンニャンをイメージしたデザイナーズテーブル。「ネコじゃないにゃ！」",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 24,
 		spine_extra = "",
 		new = 1,
@@ -36558,6 +38133,9 @@ pg.furniture_data_template = {
 				3,
 				3
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -36612,7 +38190,6 @@ pg.furniture_data_template = {
 		describe = "「どうも、ネコです。ネコがいます」",
 		dorm_id = 0,
 		gem_price = 150,
-		can_trigger = 0,
 		themeId = 24,
 		spine_extra = "",
 		new = 1,
@@ -36623,6 +38200,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"amazingboxbrownB",
@@ -36720,7 +38300,6 @@ pg.furniture_data_template = {
 		describe = "「ふっ、世話のやけるレディなんだにゃ」",
 		dorm_id = 0,
 		gem_price = 150,
-		can_trigger = 0,
 		themeId = 24,
 		spine_extra = "",
 		new = 1,
@@ -36731,6 +38310,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"amazingboxgrayB",
@@ -36828,7 +38410,6 @@ pg.furniture_data_template = {
 		describe = "「ムツキのマネをしちゃダメー！」",
 		dorm_id = 0,
 		gem_price = 150,
-		can_trigger = 0,
 		themeId = 24,
 		spine_extra = "",
 		new = 1,
@@ -36839,6 +38420,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"amazingboxcolorB",
@@ -36936,7 +38520,6 @@ pg.furniture_data_template = {
 		describe = "「ネコカフェ限定商品のクッキーにゃ」",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 24,
 		spine_extra = "",
 		new = 1,
@@ -36947,6 +38530,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -37000,7 +38586,6 @@ pg.furniture_data_template = {
 		describe = "「ぎ、ギンバイなんてしていないにゃ！」",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 24,
 		spine_extra = "",
 		new = 1,
@@ -37011,6 +38596,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -37064,7 +38652,6 @@ pg.furniture_data_template = {
 		describe = "「ご注文はネコですかにゃ？」",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 24,
 		spine_extra = "",
 		new = 1,
@@ -37075,6 +38662,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -37128,7 +38718,6 @@ pg.furniture_data_template = {
 		describe = "「東煌風情の特等席にゃ！」",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 24,
 		spine_extra = "",
 		new = 1,
@@ -37139,6 +38728,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -37192,7 +38784,6 @@ pg.furniture_data_template = {
 		describe = "気持ちよさそうに遊んでいるネコが描かれている。",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 24,
 		spine_extra = "",
 		new = 1,
@@ -37203,6 +38794,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -37256,7 +38850,6 @@ pg.furniture_data_template = {
 		describe = "跳躍力と横スライド力が試される壁掛け猫ハウス。",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 24,
 		spine_extra = "",
 		new = 1,
@@ -37267,6 +38860,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -37320,7 +38916,6 @@ pg.furniture_data_template = {
 		describe = "「いらっしゃいませにゃ！」",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 24,
 		spine_extra = "",
 		new = 1,
@@ -37331,6 +38926,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -37384,7 +38982,6 @@ pg.furniture_data_template = {
 		describe = "「昼寝部、全員集合にゃ！」",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 24,
 		spine_extra = "",
 		new = 1,
@@ -37395,6 +38992,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -37448,7 +39048,6 @@ pg.furniture_data_template = {
 		describe = "滑り防止の為にあるプールサイドにある白い床 ",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 27,
 		spine_extra = "",
 		new = 1,
@@ -37456,6 +39055,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -37509,7 +39111,6 @@ pg.furniture_data_template = {
 		describe = "「高めの茂み、隠密行動には最適――うにゃあ！？」 ",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 27,
 		spine_extra = "",
 		new = 1,
@@ -37517,6 +39118,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -37570,7 +39174,6 @@ pg.furniture_data_template = {
 		describe = "黄色いウォーターボール、ぶつかると意外と痛い？ ",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 27,
 		spine_extra = "",
 		new = 1,
@@ -37593,6 +39196,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -37647,7 +39253,6 @@ pg.furniture_data_template = {
 		describe = "青いウォーターボール、ぶつかると意外と痛い？ ",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 27,
 		spine_extra = "",
 		new = 1,
@@ -37670,6 +39275,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -37724,7 +39332,6 @@ pg.furniture_data_template = {
 		describe = "青と白のストライプ柄。一部には人気らしい。 ",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 27,
 		spine_extra = "",
 		new = 1,
@@ -37735,6 +39342,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -37788,7 +39398,6 @@ pg.furniture_data_template = {
 		describe = "「ビー！プールは飛び込み禁止！」 ",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 27,
 		spine_extra = "",
 		new = 1,
@@ -37812,6 +39421,9 @@ pg.furniture_data_template = {
 				},
 				"shuileyuan/jiushengyisly_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -37866,7 +39478,6 @@ pg.furniture_data_template = {
 		describe = "危険！浮き輪なしでの進入は禁止！",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 27,
 		spine_extra = "",
 		new = 1,
@@ -38025,6 +39636,9 @@ pg.furniture_data_template = {
 				5
 			}
 		},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -38078,7 +39692,6 @@ pg.furniture_data_template = {
 		describe = "足元注意！「パシャーン！」 ",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 27,
 		spine_extra = "",
 		new = 1,
@@ -38101,6 +39714,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -38155,7 +39771,6 @@ pg.furniture_data_template = {
 		describe = "絶賛潜航中―― ",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 27,
 		spine_extra = "",
 		new = 1,
@@ -38166,6 +39781,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -38219,7 +39837,6 @@ pg.furniture_data_template = {
 		describe = "水上スポーツでカラダを鍛えよう！ ",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 27,
 		spine_extra = "",
 		new = 1,
@@ -38243,6 +39860,9 @@ pg.furniture_data_template = {
 				},
 				"shuileyuan/qiusly_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -38297,7 +39917,6 @@ pg.furniture_data_template = {
 		describe = "ビーチチェア用のパラソル ",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 27,
 		spine_extra = "",
 		new = 1,
@@ -38308,6 +39927,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -38361,7 +39983,6 @@ pg.furniture_data_template = {
 		describe = "日陰で冷たい飲み物でも飲んで楽しみましょう！ ",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 27,
 		spine_extra = "",
 		new = 1,
@@ -38387,6 +40008,9 @@ pg.furniture_data_template = {
 				3,
 				2
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -38441,7 +40065,6 @@ pg.furniture_data_template = {
 		describe = "ふくらませるといくら力を入れて座っても壊れない！多分！ ",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 27,
 		spine_extra = "",
 		new = 1,
@@ -38465,6 +40088,9 @@ pg.furniture_data_template = {
 				},
 				"shuileyuan/shafasly_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -38519,7 +40145,6 @@ pg.furniture_data_template = {
 		describe = "夏の味覚をここに。 ",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 27,
 		spine_extra = "",
 		new = 1,
@@ -38530,6 +40155,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -38583,7 +40211,6 @@ pg.furniture_data_template = {
 		describe = "見ただけでも涼しくなるスイカ椅子。もちろん本物のスイカではないが… ",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 27,
 		spine_extra = "",
 		new = 1,
@@ -38606,6 +40233,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -38660,7 +40290,6 @@ pg.furniture_data_template = {
 		describe = "「ゆーちゃんが大きくなったら……ううん、このままがいい…かな…」 ",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 27,
 		spine_extra = "",
 		new = 1,
@@ -38683,6 +40312,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -38737,7 +40369,6 @@ pg.furniture_data_template = {
 		describe = "日焼け対策、必須です！ ",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 27,
 		spine_extra = "",
 		new = 1,
@@ -38761,6 +40392,9 @@ pg.furniture_data_template = {
 				},
 				"shuileyuan/tangyi4sly_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -38815,7 +40449,6 @@ pg.furniture_data_template = {
 		describe = "※トゲはありません。 ",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 27,
 		spine_extra = "",
 		new = 1,
@@ -38838,6 +40471,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -38892,7 +40528,6 @@ pg.furniture_data_template = {
 		describe = "ヤシはまだ実っていない。 ",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 27,
 		spine_extra = "",
 		new = 1,
@@ -38903,6 +40538,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -38956,7 +40594,6 @@ pg.furniture_data_template = {
 		describe = "ココナッツの形をした風呂。浸るのはココナッツミルクではなく普通のお湯…かも？ ",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 27,
 		spine_extra = "",
 		new = 1,
@@ -38980,6 +40617,9 @@ pg.furniture_data_template = {
 				},
 				"shuileyuan/yezisly_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -39034,7 +40674,6 @@ pg.furniture_data_template = {
 		describe = "ストライプ柄の浮き輪 ",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 27,
 		spine_extra = "",
 		new = 1,
@@ -39057,6 +40696,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -39111,7 +40753,6 @@ pg.furniture_data_template = {
 		describe = "黄色い浮き輪 ",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 27,
 		spine_extra = "",
 		new = 1,
@@ -39134,6 +40775,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -39188,7 +40832,6 @@ pg.furniture_data_template = {
 		describe = "プールに入る前に、シャワーを浴びるのを忘れないでね！ ",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 27,
 		spine_extra = "",
 		new = 1,
@@ -39212,6 +40855,9 @@ pg.furniture_data_template = {
 				},
 				"shuileyuan/yuchisly_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -39266,7 +40912,6 @@ pg.furniture_data_template = {
 		describe = "とても椅子には見えない虹のオブジェクト。柔らかい座り心地 ",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 27,
 		spine_extra = "",
 		new = 1,
@@ -39300,6 +40945,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -39354,7 +41002,6 @@ pg.furniture_data_template = {
 		describe = "プールに入る前に、シャワーを浴びるのを忘れないでね！ ",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 27,
 		spine_extra = "",
 		new = 1,
@@ -39378,6 +41025,9 @@ pg.furniture_data_template = {
 				},
 				"shuileyuan/linyusly_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -39432,7 +41082,6 @@ pg.furniture_data_template = {
 		describe = "プールにダイレクトアタック！スカッとするぜ！ ",
 		dorm_id = 0,
 		gem_price = 150,
-		can_trigger = 0,
 		themeId = 27,
 		spine_extra = "",
 		new = 1,
@@ -39443,6 +41092,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"shayuhuatiB",
@@ -39543,7 +41195,6 @@ pg.furniture_data_template = {
 		describe = "饅頭を模した噴水オブジェクト。「オロロロロロ」…うん？ ",
 		dorm_id = 0,
 		gem_price = 150,
-		can_trigger = 0,
 		themeId = 27,
 		spine_extra = "",
 		new = 1,
@@ -39554,6 +41205,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"manjuupengquan",
@@ -39613,7 +41267,6 @@ pg.furniture_data_template = {
 		describe = "夏はやっぱり水に浸っているほうが気持ちいいよね～ ",
 		dorm_id = 0,
 		gem_price = 180,
-		can_trigger = 0,
 		themeId = 27,
 		spine_extra = "",
 		new = 1,
@@ -39663,6 +41316,9 @@ pg.furniture_data_template = {
 				},
 				"shuileyuan/shuichisly_using2"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -39717,7 +41373,6 @@ pg.furniture_data_template = {
 		describe = "未成年は飲酒禁止！ ",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 27,
 		spine_extra = "",
 		new = 1,
@@ -39728,6 +41383,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -39781,7 +41439,6 @@ pg.furniture_data_template = {
 		describe = "潮をかけると風味が良くなるという噂が ",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 27,
 		spine_extra = "",
 		new = 1,
@@ -39792,6 +41449,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -39845,7 +41505,6 @@ pg.furniture_data_template = {
 		describe = "薄めのカーテンは艶めかしいシルエットを映し出す。 ",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 27,
 		spine_extra = "",
 		new = 1,
@@ -39856,6 +41515,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -39909,7 +41571,6 @@ pg.furniture_data_template = {
 		describe = "部屋の中は森気分！",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -39917,6 +41578,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -39970,7 +41634,6 @@ pg.furniture_data_template = {
 		describe = "部屋の芝生感UP",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -39978,6 +41641,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -40031,7 +41697,6 @@ pg.furniture_data_template = {
 		describe = "森でよく見かける草むら",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -40042,6 +41707,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -40095,7 +41763,6 @@ pg.furniture_data_template = {
 		describe = "少し大きい草むら。それでも、人を隠すことはできない",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -40106,6 +41773,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -40159,7 +41829,6 @@ pg.furniture_data_template = {
 		describe = "コロポックルが好きそうなデザインベッド",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -40183,6 +41852,9 @@ pg.furniture_data_template = {
 				},
 				"senlin/chuangsl_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -40237,7 +41909,6 @@ pg.furniture_data_template = {
 		describe = "野菜の自給自足を図るべし！",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -40248,6 +41919,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -40301,7 +41975,6 @@ pg.furniture_data_template = {
 		describe = "野菜の自給自足を図るべし！",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -40312,6 +41985,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -40365,7 +42041,6 @@ pg.furniture_data_template = {
 		describe = "ねじれている木の幹の形をしたランプ",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -40376,6 +42051,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -40429,7 +42107,6 @@ pg.furniture_data_template = {
 		describe = "フラワーシリーズの椅子",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -40452,6 +42129,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -40506,7 +42186,6 @@ pg.furniture_data_template = {
 		describe = "フラワーシリーズの椅子",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -40529,6 +42208,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -40583,7 +42265,6 @@ pg.furniture_data_template = {
 		describe = "フラワーシリーズの椅子",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -40606,6 +42287,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -40660,7 +42344,6 @@ pg.furniture_data_template = {
 		describe = "きのこを取り込んで大きくなったきのこ",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -40683,6 +42366,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -40737,7 +42423,6 @@ pg.furniture_data_template = {
 		describe = "食わず嫌いは治療だッ！",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -40748,6 +42433,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -40801,7 +42489,6 @@ pg.furniture_data_template = {
 		describe = "本物の芝生に迫る踏み心地",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -40812,6 +42499,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -40865,7 +42555,6 @@ pg.furniture_data_template = {
 		describe = "ピックニック用のテーブルクロス",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -40876,6 +42565,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -40929,7 +42621,6 @@ pg.furniture_data_template = {
 		describe = "くまさんが大好きなハチミツ",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -40953,6 +42644,9 @@ pg.furniture_data_template = {
 				},
 				"senlin/fengmisl_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -41007,7 +42701,6 @@ pg.furniture_data_template = {
 		describe = "横になった時でもすぐ手に取りたいものを置ける台",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -41025,6 +42718,9 @@ pg.furniture_data_template = {
 				2,
 				2
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -41079,7 +42775,6 @@ pg.furniture_data_template = {
 		describe = "とりあえず布などで飾ってみた横断幕ポール",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -41109,6 +42804,9 @@ pg.furniture_data_template = {
 				0,
 				4
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -41163,7 +42861,6 @@ pg.furniture_data_template = {
 		describe = "石で用土を囲んで作られた花壇",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -41174,6 +42871,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -41227,7 +42927,6 @@ pg.furniture_data_template = {
 		describe = "親切で優しい饅頭オーナー",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -41238,6 +42937,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -41291,7 +42993,6 @@ pg.furniture_data_template = {
 		describe = "果物の形をしたクッションが彩る",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -41325,6 +43026,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -41379,7 +43083,6 @@ pg.furniture_data_template = {
 		describe = "←森 ┗(0w0 )┓三　母港→",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -41390,6 +43093,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -41443,7 +43149,6 @@ pg.furniture_data_template = {
 		describe = "夜は元気！昼は睡眠中",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -41454,6 +43159,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -41507,7 +43215,6 @@ pg.furniture_data_template = {
 		describe = "森小屋の床",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -41518,6 +43225,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -41571,7 +43281,6 @@ pg.furniture_data_template = {
 		describe = "休憩用のヒュッテ。饅頭じゃなくても利用可能",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -41595,6 +43304,9 @@ pg.furniture_data_template = {
 				},
 				"senlin/muwusl_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -41649,7 +43361,6 @@ pg.furniture_data_template = {
 		describe = "細い木に吊り下げたブランコ。大人は乗っては行けない",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -41673,6 +43384,9 @@ pg.furniture_data_template = {
 				},
 				"senlin/qiuqiansl_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -41727,7 +43441,6 @@ pg.furniture_data_template = {
 		describe = "コケが生えた木の幹。椅子代わりに使えそう",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -41761,6 +43474,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -41815,7 +43531,6 @@ pg.furniture_data_template = {
 		describe = "「お花に水をやりませんか…？」",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -41826,6 +43541,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -41879,7 +43597,6 @@ pg.furniture_data_template = {
 		describe = "とある大木の名残",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -41902,6 +43619,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -41956,7 +43676,6 @@ pg.furniture_data_template = {
 		describe = "短すぎるため用途が限られる",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -41967,6 +43686,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -42020,7 +43742,6 @@ pg.furniture_data_template = {
 		describe = "一人用のミニ温泉。のぼせ注意",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -42044,6 +43765,9 @@ pg.furniture_data_template = {
 				},
 				"senlin/wenquan1sl_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -42098,7 +43822,6 @@ pg.furniture_data_template = {
 		describe = "二人用のミニ温泉。（指揮官は入ってはいけません！）",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -42134,6 +43857,9 @@ pg.furniture_data_template = {
 				},
 				"senlin/wenquan2sl_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -42188,7 +43914,6 @@ pg.furniture_data_template = {
 		describe = "天板の大きさが驚異的なテーブル",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -42222,6 +43947,9 @@ pg.furniture_data_template = {
 				4,
 				3
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -42276,7 +44004,6 @@ pg.furniture_data_template = {
 		describe = "珍しい木目のテーブル",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -42314,6 +44041,9 @@ pg.furniture_data_template = {
 				2,
 				4
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -42368,7 +44098,6 @@ pg.furniture_data_template = {
 		describe = "やせい　の　マンジュウ　が　あらわれた！",
 		dorm_id = 0,
 		gem_price = 150,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -42379,6 +44108,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"manjuushandong",
@@ -42438,7 +44170,6 @@ pg.furniture_data_template = {
 		describe = "「ハンマーで叩かないでください」",
 		dorm_id = 0,
 		gem_price = 150,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -42449,6 +44180,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"dishu",
@@ -42508,7 +44242,6 @@ pg.furniture_data_template = {
 		describe = "搾りたてジューシー！",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -42519,6 +44252,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -42572,7 +44308,6 @@ pg.furniture_data_template = {
 		describe = "きのこの形をしたランプ",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -42583,6 +44318,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -42636,7 +44374,6 @@ pg.furniture_data_template = {
 		describe = "清々しい朝に一杯",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -42647,6 +44384,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -42700,7 +44440,6 @@ pg.furniture_data_template = {
 		describe = "サンドイッチとパンが入っているバスケット",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -42711,6 +44450,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -42764,7 +44506,6 @@ pg.furniture_data_template = {
 		describe = "「アイリスのパンもエレガントですわ！」",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -42775,6 +44516,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -42828,7 +44572,6 @@ pg.furniture_data_template = {
 		describe = "カロリーMAX！",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -42839,6 +44582,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -42892,7 +44638,6 @@ pg.furniture_data_template = {
 		describe = "森の風景が見える窓",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -42903,6 +44648,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -42956,7 +44704,6 @@ pg.furniture_data_template = {
 		describe = "ロイヤル田舎風の窓",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -42967,6 +44714,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -43020,7 +44770,6 @@ pg.furniture_data_template = {
 		describe = "1.5階とも言われる追加スペース",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -43031,6 +44780,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -43084,7 +44836,6 @@ pg.furniture_data_template = {
 		describe = "壁の凹み収納に置かれるキャンドル",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -43095,6 +44846,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -43148,7 +44902,6 @@ pg.furniture_data_template = {
 		describe = "入る前にノックしてください",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -43159,6 +44912,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -43212,7 +44968,6 @@ pg.furniture_data_template = {
 		describe = "森小屋の壁",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -43223,6 +44978,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -43276,7 +45034,6 @@ pg.furniture_data_template = {
 		describe = "木製の機械仕掛けの時計",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -43287,6 +45044,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -43340,7 +45100,6 @@ pg.furniture_data_template = {
 		describe = "海の中の世界もカラフル",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 29,
 		spine_extra = "",
 		new = 1,
@@ -43348,6 +45107,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -43401,7 +45163,6 @@ pg.furniture_data_template = {
 		describe = "まだまだ沈む。太陽の光すら届かない深さまで",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 29,
 		spine_extra = "",
 		new = 1,
@@ -43409,6 +45170,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -43462,7 +45226,6 @@ pg.furniture_data_template = {
 		describe = "大きな真珠は枕代わり",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 29,
 		spine_extra = "",
 		new = 1,
@@ -43486,6 +45249,9 @@ pg.furniture_data_template = {
 				},
 				"haiyang/beikehy_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -43540,7 +45306,6 @@ pg.furniture_data_template = {
 		describe = "毒々しいイメージが全く感じられず、安心して寝れる",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 29,
 		spine_extra = "",
 		new = 1,
@@ -43576,6 +45341,9 @@ pg.furniture_data_template = {
 				},
 				"haiyang/chuanghy_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -43630,7 +45398,6 @@ pg.furniture_data_template = {
 		describe = "大きな巻き貝で作られた椅子。潮風の音が若干うるさく感じる",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 29,
 		spine_extra = "",
 		new = 1,
@@ -43654,6 +45421,9 @@ pg.furniture_data_template = {
 				},
 				"haiyang/dengzi2hy_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -43708,7 +45478,6 @@ pg.furniture_data_template = {
 		describe = "シェルの表面を平ったく加工して作られた椅子",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 29,
 		spine_extra = "",
 		new = 1,
@@ -43731,6 +45500,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -43785,7 +45557,6 @@ pg.furniture_data_template = {
 		describe = "ヒトデモチーフのカーペット。あまり似ていない",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 29,
 		spine_extra = "",
 		new = 1,
@@ -43796,6 +45567,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -43849,7 +45623,6 @@ pg.furniture_data_template = {
 		describe = "海底の細砂（ほそすな）の踏み心地を再現したカーペット",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 29,
 		spine_extra = "",
 		new = 1,
@@ -43860,6 +45633,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -43913,7 +45689,6 @@ pg.furniture_data_template = {
 		describe = "真珠で飾られるとばり",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 29,
 		spine_extra = "",
 		new = 1,
@@ -43924,6 +45699,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -43977,7 +45755,6 @@ pg.furniture_data_template = {
 		describe = "大きいものでも丸々と飲み込んでしまうオブジェクト（無害）",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 29,
 		spine_extra = "",
 		new = 1,
@@ -44013,6 +45790,9 @@ pg.furniture_data_template = {
 					"haiyang/haikuihy_mask"
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -44067,7 +45847,6 @@ pg.furniture_data_template = {
 		describe = "ミステリアスな光を放つ巻き貝",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 29,
 		spine_extra = "",
 		new = 1,
@@ -44078,6 +45857,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -44131,7 +45913,6 @@ pg.furniture_data_template = {
 		describe = "鞍の位置が若干間違っている",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 29,
 		spine_extra = "",
 		new = 1,
@@ -44155,6 +45936,9 @@ pg.furniture_data_template = {
 				},
 				"haiyang/haimahy_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -44209,7 +45993,6 @@ pg.furniture_data_template = {
 		describe = "噴火しない火山のオブジェクト",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 29,
 		spine_extra = "",
 		new = 1,
@@ -44220,6 +46003,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -44273,7 +46059,6 @@ pg.furniture_data_template = {
 		describe = "海に散りばめられた泡の真珠",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 29,
 		spine_extra = "",
 		new = 1,
@@ -44284,6 +46069,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -44337,7 +46125,6 @@ pg.furniture_data_template = {
 		describe = "海を内包するバブルの椅子。…なんか浮いてる？",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 29,
 		spine_extra = "",
 		new = 1,
@@ -44360,6 +46147,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -44414,7 +46204,6 @@ pg.furniture_data_template = {
 		describe = "海を内包するバスタブ。海水浴じゃい！",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 29,
 		spine_extra = "",
 		new = 1,
@@ -44450,6 +46239,9 @@ pg.furniture_data_template = {
 					"haiyang/pao3hy_mask"
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -44504,7 +46296,6 @@ pg.furniture_data_template = {
 		describe = "海要素を内包するバブルのお飾り",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 29,
 		spine_extra = "",
 		new = 1,
@@ -44515,6 +46306,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -44568,7 +46362,6 @@ pg.furniture_data_template = {
 		describe = "シェルモチーフのソファ。もちろん素材は別物",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 29,
 		spine_extra = "",
 		new = 1,
@@ -44604,6 +46397,9 @@ pg.furniture_data_template = {
 				},
 				"haiyang/shafahy_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -44658,7 +46454,6 @@ pg.furniture_data_template = {
 		describe = "海の底でよく見かけるサンゴ",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 29,
 		spine_extra = "",
 		new = 1,
@@ -44669,6 +46464,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -44722,7 +46520,6 @@ pg.furniture_data_template = {
 		describe = "海の底でよく見かける岩",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 29,
 		spine_extra = "",
 		new = 1,
@@ -44733,6 +46530,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -44786,7 +46586,6 @@ pg.furniture_data_template = {
 		describe = "サンゴと石を組み合わせて作った机",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 29,
 		spine_extra = "",
 		new = 1,
@@ -44824,6 +46623,9 @@ pg.furniture_data_template = {
 				4,
 				3
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -44878,7 +46680,6 @@ pg.furniture_data_template = {
 		describe = "机に使えそうな岩をそのまま持ってきました",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 29,
 		spine_extra = "",
 		new = 1,
@@ -44916,6 +46717,9 @@ pg.furniture_data_template = {
 				4,
 				3
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -44970,7 +46774,6 @@ pg.furniture_data_template = {
 		describe = "波に合わせて揺らぐ海藻",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 29,
 		spine_extra = "",
 		new = 1,
@@ -44981,6 +46784,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -45034,7 +46840,6 @@ pg.furniture_data_template = {
 		describe = "海底の天然温泉を利用したバスタブ",
 		dorm_id = 0,
 		gem_price = 150,
-		can_trigger = 0,
 		themeId = 29,
 		spine_extra = "",
 		new = 1,
@@ -45045,6 +46850,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"shenhaiyugangB",
@@ -45127,7 +46935,6 @@ pg.furniture_data_template = {
 		describe = "墨ではなくバブルを飛ばす。ソファだからね",
 		dorm_id = 0,
 		gem_price = 150,
-		can_trigger = 0,
 		themeId = 29,
 		spine_extra = "",
 		new = 1,
@@ -45138,6 +46945,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"zhangyuB",
@@ -45223,7 +47033,6 @@ pg.furniture_data_template = {
 		describe = "「ビリビリ放つともっと高く飛べるよ…？」（電撃音）",
 		dorm_id = 0,
 		gem_price = 150,
-		can_trigger = 0,
 		themeId = 29,
 		spine_extra = "",
 		new = 1,
@@ -45234,6 +47043,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"shuimubengchuang",
@@ -45322,7 +47134,6 @@ pg.furniture_data_template = {
 		describe = "食用可能な巻き貝",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 29,
 		spine_extra = "",
 		new = 1,
@@ -45333,6 +47144,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -45386,7 +47200,6 @@ pg.furniture_data_template = {
 		describe = "栄養を補充するには最適な、世界的TRADITIONAL　FOOD",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 29,
 		spine_extra = "",
 		new = 1,
@@ -45397,6 +47210,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -45450,7 +47266,6 @@ pg.furniture_data_template = {
 		describe = "どこかで見つけた舵をそのまま掛飾りにした",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 29,
 		spine_extra = "",
 		new = 1,
@@ -45461,6 +47276,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -45514,7 +47332,6 @@ pg.furniture_data_template = {
 		describe = "窓の外は竜宮城",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 29,
 		spine_extra = "",
 		new = 1,
@@ -45525,6 +47342,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -45578,7 +47398,6 @@ pg.furniture_data_template = {
 		describe = "７つの色が輝く虹の壁。ファンタスティック！",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 30,
 		spine_extra = "",
 		new = 1,
@@ -45586,6 +47405,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -45639,7 +47461,6 @@ pg.furniture_data_template = {
 		describe = "カラフルなブロックを組み合わせた床。カラフル！",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 30,
 		spine_extra = "",
 		new = 1,
@@ -45647,6 +47468,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -45700,7 +47524,6 @@ pg.furniture_data_template = {
 		describe = "いろんな味のシロップを味わえる…ような気がする",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 30,
 		spine_extra = "",
 		new = 1,
@@ -45724,6 +47547,9 @@ pg.furniture_data_template = {
 				},
 				"caihong/bingshach_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -45778,7 +47604,6 @@ pg.furniture_data_template = {
 		describe = "分厚いチョコを乗せている虹色のケーキ",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 30,
 		spine_extra = "",
 		new = 1,
@@ -45802,6 +47627,9 @@ pg.furniture_data_template = {
 				},
 				"caihong/chuangch_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -45856,7 +47684,6 @@ pg.furniture_data_template = {
 		describe = "アピールチャンス！",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 30,
 		spine_extra = "",
 		new = 1,
@@ -45892,6 +47719,9 @@ pg.furniture_data_template = {
 				},
 				"caihong/dadaoch_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -45946,7 +47776,6 @@ pg.furniture_data_template = {
 		describe = "花のスタンプが飾られている椅子",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 30,
 		spine_extra = "",
 		new = 1,
@@ -45969,6 +47798,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -46023,7 +47855,6 @@ pg.furniture_data_template = {
 		describe = "ハートのスタンプが飾られている椅子",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 30,
 		spine_extra = "",
 		new = 1,
@@ -46046,6 +47877,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -46100,7 +47934,6 @@ pg.furniture_data_template = {
 		describe = "フルーツゼリーのような椅子。座ると揺れそう",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 30,
 		spine_extra = "",
 		new = 1,
@@ -46123,6 +47956,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -46177,7 +48013,6 @@ pg.furniture_data_template = {
 		describe = "虹色のキャンディスプリンクル――ってドーナツだこれ！",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 30,
 		spine_extra = "",
 		new = 1,
@@ -46200,6 +48035,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -46254,7 +48092,6 @@ pg.furniture_data_template = {
 		describe = "塗り具が凝結して出来たもの",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 30,
 		spine_extra = "",
 		new = 1,
@@ -46265,6 +48102,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -46318,7 +48158,6 @@ pg.furniture_data_template = {
 		describe = "虹色のカーペット。波の形をしている",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 30,
 		spine_extra = "",
 		new = 1,
@@ -46329,6 +48168,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -46382,7 +48224,6 @@ pg.furniture_data_template = {
 		describe = "いい子は盗み食いしない！",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 30,
 		spine_extra = "",
 		new = 1,
@@ -46406,6 +48247,9 @@ pg.furniture_data_template = {
 				},
 				"caihong/guanzich_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -46460,7 +48304,6 @@ pg.furniture_data_template = {
 		describe = "スターの登場だ！",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 30,
 		spine_extra = "",
 		new = 1,
@@ -46484,6 +48327,9 @@ pg.furniture_data_template = {
 				},
 				"caihong/mench_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -46538,7 +48384,6 @@ pg.furniture_data_template = {
 		describe = "螺旋のように回転エネルギー会得しそうなマシュマロン",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 30,
 		spine_extra = "",
 		new = 1,
@@ -46549,6 +48394,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -46602,7 +48450,6 @@ pg.furniture_data_template = {
 		describe = "青色のマシュマロン",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 30,
 		spine_extra = "",
 		new = 1,
@@ -46613,6 +48460,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -46666,7 +48516,6 @@ pg.furniture_data_template = {
 		describe = "緑色のマシュマロン",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 30,
 		spine_extra = "",
 		new = 1,
@@ -46677,6 +48526,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -46730,7 +48582,6 @@ pg.furniture_data_template = {
 		describe = "ピンク色のマシュマロン",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 30,
 		spine_extra = "",
 		new = 1,
@@ -46741,6 +48592,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -46794,7 +48648,6 @@ pg.furniture_data_template = {
 		describe = "テーマパークにありそうなお飾りバルーン",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 30,
 		spine_extra = "",
 		new = 1,
@@ -46805,6 +48658,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -46858,7 +48714,6 @@ pg.furniture_data_template = {
 		describe = "ダブルサイズセット！",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 30,
 		spine_extra = "",
 		new = 1,
@@ -46869,6 +48724,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -46922,7 +48780,6 @@ pg.furniture_data_template = {
 		describe = "浸ると虹が現れるバス",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 30,
 		spine_extra = "",
 		new = 1,
@@ -46946,6 +48803,9 @@ pg.furniture_data_template = {
 				},
 				"caihong/yugangch_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -47000,7 +48860,6 @@ pg.furniture_data_template = {
 		describe = "塗り壁ならぬ、ただ塗り具を塗っただけの机",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 30,
 		spine_extra = "",
 		new = 1,
@@ -47063,6 +48922,9 @@ pg.furniture_data_template = {
 				3
 			}
 		},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -47116,7 +48978,6 @@ pg.furniture_data_template = {
 		describe = "まんまるケーキから切り取った一カット",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 30,
 		spine_extra = "",
 		new = 1,
@@ -47138,6 +48999,9 @@ pg.furniture_data_template = {
 				2,
 				1
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -47192,7 +49056,6 @@ pg.furniture_data_template = {
 		describe = "三人まで収容できる大きなお城",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 30,
 		spine_extra = "",
 		new = 1,
@@ -47240,6 +49103,9 @@ pg.furniture_data_template = {
 				},
 				"caihong/chengbaoch_using2"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -47294,7 +49160,6 @@ pg.furniture_data_template = {
 		describe = "よーい、撃てー！",
 		dorm_id = 0,
 		gem_price = 150,
-		can_trigger = 0,
 		themeId = 30,
 		spine_extra = "",
 		new = 1,
@@ -47305,6 +49170,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"caihongdapaoB",
@@ -47399,7 +49267,6 @@ pg.furniture_data_template = {
 		describe = "いつしか雨はやみ、そこには虹がかかるんだよなぁ……",
 		dorm_id = 0,
 		gem_price = 200,
-		can_trigger = 0,
 		themeId = 30,
 		spine_extra = "",
 		new = 1,
@@ -47410,6 +49277,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"caihongyun",
@@ -47503,7 +49373,6 @@ pg.furniture_data_template = {
 		describe = "サプライズ！",
 		dorm_id = 0,
 		gem_price = 150,
-		can_trigger = 0,
 		themeId = 30,
 		spine_extra = "",
 		new = 1,
@@ -47514,6 +49383,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"caihongxiarenxiang1B",
@@ -47608,7 +49480,6 @@ pg.furniture_data_template = {
 		describe = "サプライズ！",
 		dorm_id = 0,
 		gem_price = 150,
-		can_trigger = 0,
 		themeId = 30,
 		spine_extra = "",
 		new = 1,
@@ -47619,6 +49490,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"caihongxiarenxiang2B",
@@ -47713,7 +49587,6 @@ pg.furniture_data_template = {
 		describe = "小さなマシュマロン。食用可能",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 30,
 		spine_extra = "",
 		new = 1,
@@ -47724,6 +49597,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -47777,7 +49653,6 @@ pg.furniture_data_template = {
 		describe = "緑黄色野菜と卵を添えたシーザー風サラダ",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 30,
 		spine_extra = "",
 		new = 1,
@@ -47788,6 +49663,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -47841,7 +49719,6 @@ pg.furniture_data_template = {
 		describe = "虹色の窓から虹が見える",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 30,
 		spine_extra = "",
 		new = 1,
@@ -47852,6 +49729,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -47905,7 +49785,6 @@ pg.furniture_data_template = {
 		describe = "天気予報を教えてくれる壁飾りのオブジェクト",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 30,
 		spine_extra = "",
 		new = 1,
@@ -47916,6 +49795,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -47969,7 +49851,6 @@ pg.furniture_data_template = {
 		describe = "虹色の時計",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 30,
 		spine_extra = "",
 		new = 1,
@@ -47980,6 +49861,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -48033,7 +49917,6 @@ pg.furniture_data_template = {
 		describe = "アトレ秋葉原（と母港）の平和を守るトリ！",
 		dorm_id = 0,
 		gem_price = 1000,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -48045,6 +49928,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[31102] = {
@@ -48072,7 +49958,6 @@ pg.furniture_data_template = {
 		describe = "みんなの頼れる知的なリーダー（のメイド姿）トリ！",
 		dorm_id = 0,
 		gem_price = 1000,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -48084,6 +49969,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[31103] = {
@@ -48111,7 +49999,6 @@ pg.furniture_data_template = {
 		describe = "トリのおうち。真正面ならバレないトリ！",
 		dorm_id = 0,
 		gem_price = 1000,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -48123,6 +50010,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[31104] = {
@@ -48150,7 +50040,6 @@ pg.furniture_data_template = {
 		describe = "いざアトレ秋葉原へGO！",
 		dorm_id = 0,
 		gem_price = 1000,
-		can_trigger = 0,
 		themeId = 0,
 		time = "always",
 		new = 0,
@@ -48161,6 +50050,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"xiaohuocheB",
@@ -48255,7 +50147,6 @@ pg.furniture_data_template = {
 		describe = "お化けたちに囲まれハロウィンナイト♫",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -48263,6 +50154,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -48316,7 +50210,6 @@ pg.furniture_data_template = {
 		describe = "様々な闇が潜む……",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -48324,6 +50217,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -48377,7 +50273,6 @@ pg.furniture_data_template = {
 		describe = "なんか出てきそう",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -48388,6 +50283,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -48441,7 +50339,6 @@ pg.furniture_data_template = {
 		describe = "「むむっ、これは武器を載せてカイゼンしなくちゃ……」",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -48465,6 +50362,9 @@ pg.furniture_data_template = {
 				},
 				"halloween2/chehl2_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -48519,7 +50419,6 @@ pg.furniture_data_template = {
 		describe = "ぺらぺらに押しつぶされた哀れなドクロくん",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -48530,6 +50429,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -48583,7 +50485,6 @@ pg.furniture_data_template = {
 		describe = "謎のドクロ印が目立つカーペット",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -48594,6 +50495,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -48647,7 +50551,6 @@ pg.furniture_data_template = {
 		describe = "素足で歩くべからず",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -48658,6 +50561,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -48711,7 +50617,6 @@ pg.furniture_data_template = {
 		describe = "すがすがしい日だよな、明日は",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -48722,6 +50627,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -48775,7 +50683,6 @@ pg.furniture_data_template = {
 		describe = "「テラー、あまり触らないで」",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -48786,6 +50693,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -48839,7 +50749,6 @@ pg.furniture_data_template = {
 		describe = "溢れ出る場違い感",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -48850,6 +50759,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -48903,7 +50815,6 @@ pg.furniture_data_template = {
 		describe = "魔女たちが心を込めて作った目玉スポット",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -48914,6 +50825,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -48967,7 +50881,6 @@ pg.furniture_data_template = {
 		describe = "ハロウィンでは何を食べるんでしたっけ……",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -48978,6 +50891,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -49031,7 +50947,6 @@ pg.furniture_data_template = {
 		describe = "復活した饅頭ジュジュジュジュジュ",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -49042,6 +50957,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -49095,7 +51013,6 @@ pg.furniture_data_template = {
 		describe = "「エレバス姉さんも、一緒に入る？」",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -49131,6 +51048,9 @@ pg.furniture_data_template = {
 					"halloween2/kenghl2_mask"
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -49185,7 +51105,6 @@ pg.furniture_data_template = {
 		describe = "PUMPKIN IS WATCHING YOU",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -49196,6 +51115,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -49249,7 +51171,6 @@ pg.furniture_data_template = {
 		describe = "その行き先は光か、それとも闇か",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -49260,6 +51181,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -49313,7 +51237,6 @@ pg.furniture_data_template = {
 		describe = "清掃されず蜘蛛の巣ができた墓（嘘）",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -49324,6 +51247,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -49377,7 +51303,6 @@ pg.furniture_data_template = {
 		describe = "とある魔女の墓（嘘）",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -49388,6 +51313,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -49441,7 +51369,6 @@ pg.furniture_data_template = {
 		describe = "大きなカボチャランプ。有り余る空間を活かし物入れにすることも可能",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -49465,6 +51392,9 @@ pg.furniture_data_template = {
 				},
 				"halloween2/nangua2hl2_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -49519,7 +51449,6 @@ pg.furniture_data_template = {
 		describe = "それぞれの方向に向けて炎を吐いて辺りを明るくする",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -49530,6 +51459,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -49583,7 +51515,6 @@ pg.furniture_data_template = {
 		describe = "魔女気分になれる椅子",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -49606,6 +51537,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -49660,7 +51594,6 @@ pg.furniture_data_template = {
 		describe = "普通の枯れ木",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -49671,6 +51604,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -49724,7 +51660,6 @@ pg.furniture_data_template = {
 		describe = "魔女の棲み家",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -49747,6 +51682,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -49801,7 +51739,6 @@ pg.furniture_data_template = {
 		describe = "覆っている絹織りが少し破れている",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -49824,6 +51761,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -49878,7 +51818,6 @@ pg.furniture_data_template = {
 		describe = "覆っている絹織りが少し破れている",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -49901,6 +51840,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -49955,7 +51897,6 @@ pg.furniture_data_template = {
 		describe = "蝋燭で装飾されるベンチ",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -49978,6 +51919,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -50032,7 +51976,6 @@ pg.furniture_data_template = {
 		describe = "謎の液体を垂れ流している",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -50055,6 +51998,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -50109,7 +52055,6 @@ pg.furniture_data_template = {
 		describe = "更に強くなった毒沼",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -50145,6 +52090,9 @@ pg.furniture_data_template = {
 					"halloween2/zhaozehl2_mask"
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -50199,7 +52147,6 @@ pg.furniture_data_template = {
 		describe = "洋館の宴席に設置される長い机",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -50241,6 +52188,9 @@ pg.furniture_data_template = {
 				6,
 				1
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -50295,7 +52245,6 @@ pg.furniture_data_template = {
 		describe = "コワイ！",
 		dorm_id = 0,
 		gem_price = 150,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -50306,6 +52255,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"ghost",
@@ -50369,7 +52321,6 @@ pg.furniture_data_template = {
 		describe = "ハロウィンという劇場に舞い降りた黒騎士",
 		dorm_id = 0,
 		gem_price = 150,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -50380,6 +52331,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"nanguaqishiB",
@@ -50465,7 +52419,6 @@ pg.furniture_data_template = {
 		describe = "不気味さが半減した",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -50476,6 +52429,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -50529,7 +52485,6 @@ pg.furniture_data_template = {
 		describe = "不気味な炎",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -50540,6 +52495,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -50593,7 +52551,6 @@ pg.furniture_data_template = {
 		describe = "効果不明",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -50604,6 +52561,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -50657,7 +52617,6 @@ pg.furniture_data_template = {
 		describe = "効果不明",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -50668,6 +52627,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -50721,7 +52683,6 @@ pg.furniture_data_template = {
 		describe = "「これも宴会の備品ですね…」",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -50732,6 +52693,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -50785,7 +52749,6 @@ pg.furniture_data_template = {
 		describe = "豪華な洋館のゲート。横開き",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -50796,6 +52759,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -50849,7 +52815,6 @@ pg.furniture_data_template = {
 		describe = "夜を照らす月",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -50860,6 +52825,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -50913,7 +52881,6 @@ pg.furniture_data_template = {
 		describe = "ハロウィンからの使者！",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -50924,6 +52891,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -50977,7 +52947,6 @@ pg.furniture_data_template = {
 		describe = "帝都のとある「一風変わっている」旅籠の風情を再現した壁紙",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 36,
 		spine_extra = "",
 		new = 1,
@@ -50985,6 +52954,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -51038,7 +53010,6 @@ pg.furniture_data_template = {
 		describe = "帝都のとある「一風変わっている」旅籠の風情を再現した床",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 36,
 		spine_extra = "",
 		new = 1,
@@ -51046,6 +53017,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -51099,7 +53073,6 @@ pg.furniture_data_template = {
 		describe = "お団子でもいかが？",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 36,
 		spine_extra = "",
 		new = 1,
@@ -51122,6 +53095,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -51176,7 +53152,6 @@ pg.furniture_data_template = {
 		describe = "夜の町を照らす優しい光",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 36,
 		spine_extra = "",
 		new = 1,
@@ -51187,6 +53162,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -51240,7 +53218,6 @@ pg.furniture_data_template = {
 		describe = "はしゃぐのも程々にね？",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 36,
 		spine_extra = "",
 		new = 1,
@@ -51251,6 +53228,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -51304,7 +53284,6 @@ pg.furniture_data_template = {
 		describe = "懐かしい……光",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 36,
 		spine_extra = "",
 		new = 1,
@@ -51315,6 +53294,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -51368,7 +53350,6 @@ pg.furniture_data_template = {
 		describe = "「ハクション！…あとでもっかい入るか……」",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 36,
 		spine_extra = "",
 		new = 1,
@@ -51402,6 +53383,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -51456,7 +53440,6 @@ pg.furniture_data_template = {
 		describe = "綺麗な模様で作られたカーペット",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 36,
 		spine_extra = "",
 		new = 1,
@@ -51467,6 +53450,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -51520,7 +53506,6 @@ pg.furniture_data_template = {
 		describe = "猛獣の毛皮で作られたカーペット",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 36,
 		spine_extra = "",
 		new = 1,
@@ -51531,6 +53516,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -51584,7 +53572,6 @@ pg.furniture_data_template = {
 		describe = "風呂に入る前に体を清める流し湯",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 36,
 		spine_extra = "",
 		new = 1,
@@ -51595,6 +53582,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -51648,7 +53638,6 @@ pg.furniture_data_template = {
 		describe = "民家にある囲炉裏",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 36,
 		spine_extra = "",
 		new = 1,
@@ -51659,6 +53648,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -51712,7 +53704,6 @@ pg.furniture_data_template = {
 		describe = "かけ湯用の風呂桶",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 36,
 		spine_extra = "",
 		new = 1,
@@ -51723,6 +53714,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -51776,7 +53770,6 @@ pg.furniture_data_template = {
 		describe = "旅籠の入り口に置かれている衝立て",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 36,
 		spine_extra = "",
 		new = 1,
@@ -51787,6 +53780,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -51840,7 +53836,6 @@ pg.furniture_data_template = {
 		describe = "部屋の仕切りや装飾に用いる家具",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 36,
 		spine_extra = "",
 		new = 1,
@@ -51851,6 +53846,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -51904,7 +53902,6 @@ pg.furniture_data_template = {
 		describe = "人をダメにする？ソファ",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 36,
 		spine_extra = "",
 		new = 1,
@@ -51927,6 +53924,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -51981,7 +53981,6 @@ pg.furniture_data_template = {
 		describe = "集落で使われている井戸",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 36,
 		spine_extra = "",
 		new = 1,
@@ -51992,6 +53991,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -52045,7 +54047,6 @@ pg.furniture_data_template = {
 		describe = "「ちょっと…眠くなったな…」",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 36,
 		spine_extra = "",
 		new = 1,
@@ -52056,6 +54057,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -52109,7 +54113,6 @@ pg.furniture_data_template = {
 		describe = "背もたれには金色の模様が…",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 36,
 		spine_extra = "",
 		new = 1,
@@ -52132,6 +54135,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -52186,7 +54192,6 @@ pg.furniture_data_template = {
 		describe = "「ふは――！生き返ったわー」",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 36,
 		spine_extra = "",
 		new = 1,
@@ -52210,6 +54215,9 @@ pg.furniture_data_template = {
 				},
 				"chuansong/zaopengcs_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -52264,7 +54272,6 @@ pg.furniture_data_template = {
 		describe = "旅籠の大風呂。多くの人が一緒に入っても大丈夫",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 36,
 		spine_extra = "",
 		new = 1,
@@ -52373,6 +54380,9 @@ pg.furniture_data_template = {
 				}
 			}
 		},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -52426,7 +54436,6 @@ pg.furniture_data_template = {
 		describe = "旅籠の客室に置かれる執務机",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 36,
 		spine_extra = "",
 		new = 1,
@@ -52472,6 +54481,9 @@ pg.furniture_data_template = {
 				4,
 				2
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -52526,7 +54538,6 @@ pg.furniture_data_template = {
 		describe = "食堂に置かれてある食器と食べ物を載せる台",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 36,
 		spine_extra = "",
 		new = 1,
@@ -52564,6 +54575,9 @@ pg.furniture_data_template = {
 				3,
 				2
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -52618,7 +54632,6 @@ pg.furniture_data_template = {
 		describe = "聖廟への通りの両脇にある御柱",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 36,
 		spine_extra = "",
 		new = 1,
@@ -52629,6 +54642,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -52682,7 +54698,6 @@ pg.furniture_data_template = {
 		describe = "干し草で作られた敷物",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 36,
 		spine_extra = "",
 		new = 1,
@@ -52705,6 +54720,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -52759,7 +54777,6 @@ pg.furniture_data_template = {
 		describe = "ある人の相棒、らしい",
 		dorm_id = 0,
 		gem_price = 150,
-		can_trigger = 0,
 		themeId = 36,
 		spine_extra = "",
 		new = 1,
@@ -52770,6 +54787,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"chuansong1",
@@ -52833,7 +54853,6 @@ pg.furniture_data_template = {
 		describe = "「と、止まってぇ！」",
 		dorm_id = 0,
 		gem_price = 150,
-		can_trigger = 0,
 		themeId = 36,
 		spine_extra = "",
 		new = 1,
@@ -52844,6 +54863,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"kekeboB",
@@ -52939,7 +54961,6 @@ pg.furniture_data_template = {
 		describe = "「なんて書いてあるんだ？……よ、読めん……」",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 36,
 		spine_extra = "",
 		new = 1,
@@ -52950,6 +54971,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -53003,7 +55027,6 @@ pg.furniture_data_template = {
 		describe = "華美なる旅籠の廊下",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 36,
 		spine_extra = "",
 		new = 1,
@@ -53014,6 +55037,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -53067,7 +55093,6 @@ pg.furniture_data_template = {
 		describe = "高そうな掛け軸",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 36,
 		spine_extra = "",
 		new = 1,
@@ -53078,6 +55103,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -53131,7 +55159,6 @@ pg.furniture_data_template = {
 		describe = "客室に飾られている異国模様の掛飾り",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 36,
 		spine_extra = "",
 		new = 1,
@@ -53142,6 +55169,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -53195,7 +55225,6 @@ pg.furniture_data_template = {
 		describe = "応接用の客間へと続く引き戸",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 36,
 		spine_extra = "",
 		new = 1,
@@ -53206,6 +55235,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -53259,7 +55291,6 @@ pg.furniture_data_template = {
 		describe = "雪が降る聖誕祭（クリスマス）――ロマンチックな要素満載の壁紙",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 37,
 		spine_extra = "",
 		new = 1,
@@ -53267,6 +55298,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -53320,7 +55354,6 @@ pg.furniture_data_template = {
 		describe = "ロイヤルの町並み風景に欠かせないタイル床",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 37,
 		spine_extra = "",
 		new = 1,
@@ -53328,6 +55361,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -53381,7 +55417,6 @@ pg.furniture_data_template = {
 		describe = "クリスマス一色に装飾された売店。プレゼントでも売っているのかな？",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 37,
 		spine_extra = "",
 		new = 1,
@@ -53392,6 +55427,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -53445,7 +55483,6 @@ pg.furniture_data_template = {
 		describe = "風車が回る。雪が回る。町を撫でていくは冬の風",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 37,
 		spine_extra = "",
 		new = 1,
@@ -53456,6 +55493,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -53509,7 +55549,6 @@ pg.furniture_data_template = {
 		describe = "サンタさんもルール遵守だッ！",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 37,
 		spine_extra = "",
 		new = 1,
@@ -53520,6 +55559,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -53573,7 +55615,6 @@ pg.furniture_data_template = {
 		describe = "雨宿りに使うのが定番",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 37,
 		spine_extra = "",
 		new = 1,
@@ -53597,6 +55638,9 @@ pg.furniture_data_template = {
 				},
 				"christmas2/houcheyics2_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -53651,7 +55695,6 @@ pg.furniture_data_template = {
 		describe = "プレゼント袋を開けると綺麗な花がみるみる伸びていく謎仕様",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 37,
 		spine_extra = "",
 		new = 1,
@@ -53662,6 +55705,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -53715,7 +55761,6 @@ pg.furniture_data_template = {
 		describe = "プレゼント満載の列車。一人につき一個だけよ！",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 37,
 		spine_extra = "",
 		new = 1,
@@ -53751,6 +55796,9 @@ pg.furniture_data_template = {
 				},
 				"christmas2/huochecs2_using2"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -53805,7 +55853,6 @@ pg.furniture_data_template = {
 		describe = "「サンタさん募集です！」",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 37,
 		spine_extra = "",
 		new = 1,
@@ -53816,6 +55863,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -53869,7 +55919,6 @@ pg.furniture_data_template = {
 		describe = "イルミネーションとリースで装飾されたドア。メリークリスマス！",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 37,
 		spine_extra = "",
 		new = 1,
@@ -53880,6 +55929,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -53933,7 +55985,6 @@ pg.furniture_data_template = {
 		describe = "美味しそうなチョコボール。スターも食べられる？",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 37,
 		spine_extra = "",
 		new = 1,
@@ -53957,6 +56008,9 @@ pg.furniture_data_template = {
 				},
 				"christmas2/qiucs2"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -54011,7 +56065,6 @@ pg.furniture_data_template = {
 		describe = "クリスマスツリーを模したチョコレートファウンテン。「糖分補給には最適♪」",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 37,
 		spine_extra = "",
 		new = 1,
@@ -54022,6 +56075,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -54075,7 +56131,6 @@ pg.furniture_data_template = {
 		describe = "サンタさんのいるチケットブース。※宝くじは販売していません",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 37,
 		spine_extra = "",
 		new = 1,
@@ -54111,6 +56166,9 @@ pg.furniture_data_template = {
 					"christmas2/shoupiaocs2_mask"
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -54165,7 +56223,6 @@ pg.furniture_data_template = {
 		describe = "寮のみんなで作った豪華なクリスマスツリー",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 37,
 		spine_extra = "",
 		new = 1,
@@ -54176,6 +56233,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -54229,7 +56289,6 @@ pg.furniture_data_template = {
 		describe = "いつかマスターの手によって育てられるのを夢見る、リポジトリから持ち出したクリスマスブランチ",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 37,
 		spine_extra = "",
 		new = 1,
@@ -54240,6 +56299,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -54293,7 +56355,6 @@ pg.furniture_data_template = {
 		describe = "饅頭たちで満員だ。クリスマスの雰囲気からの逃走経路に使えない……",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 37,
 		spine_extra = "",
 		new = 1,
@@ -54304,6 +56365,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -54357,7 +56421,6 @@ pg.furniture_data_template = {
 		describe = "「スノーマンを作ってみない…？」",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 37,
 		spine_extra = "",
 		new = 1,
@@ -54368,6 +56431,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -54421,7 +56487,6 @@ pg.furniture_data_template = {
 		describe = "大きなスノーマンに見せかけて実はバスだったスノーマン",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 37,
 		spine_extra = "",
 		new = 1,
@@ -54445,6 +56510,9 @@ pg.furniture_data_template = {
 				},
 				"christmas2/xuerencs2_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -54499,7 +56567,6 @@ pg.furniture_data_template = {
 		describe = "クリスマスのポスターカードを販売しに来た饅頭",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 37,
 		spine_extra = "",
 		new = 1,
@@ -54510,6 +56577,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -54563,7 +56633,6 @@ pg.furniture_data_template = {
 		describe = "赤い郵便ポスト。プレゼントがないか早くチェックしてみよー！",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 37,
 		spine_extra = "",
 		new = 1,
@@ -54574,6 +56643,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -54627,7 +56699,6 @@ pg.furniture_data_template = {
 		describe = "石のタイルで舗装された商店街の広場",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 37,
 		spine_extra = "",
 		new = 1,
@@ -54638,6 +56709,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -54691,7 +56765,6 @@ pg.furniture_data_template = {
 		describe = "「オゥ！雪合戦しようぜ！」",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 37,
 		spine_extra = "",
 		new = 1,
@@ -54702,6 +56775,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -54755,7 +56831,6 @@ pg.furniture_data_template = {
 		describe = "今年はトナカイさんに休暇を与えよう",
 		dorm_id = 0,
 		gem_price = 150,
-		can_trigger = 0,
 		themeId = 37,
 		spine_extra = "",
 		new = 1,
@@ -54766,6 +56841,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"shengdancheB",
@@ -54863,7 +56941,6 @@ pg.furniture_data_template = {
 		describe = "「あーはっはっは！そのまま一番高いところで飛び出して雪に突っ込むのだ！」",
 		dorm_id = 0,
 		gem_price = 150,
-		can_trigger = 0,
 		themeId = 37,
 		spine_extra = "",
 		new = 1,
@@ -54874,6 +56951,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"shengdanqiuqianB",
@@ -54964,7 +57044,6 @@ pg.furniture_data_template = {
 		describe = "イノシシたちが住む森――風の壁紙",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -54972,6 +57051,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -55025,7 +57107,6 @@ pg.furniture_data_template = {
 		describe = "野生感を感じさせる床",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -55033,6 +57114,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -55086,7 +57170,6 @@ pg.furniture_data_template = {
 		describe = "ボアのシンボルが描かれている椅子",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -55109,6 +57192,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -55163,7 +57249,6 @@ pg.furniture_data_template = {
 		describe = "ボアバス、発進！",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -55199,6 +57284,9 @@ pg.furniture_data_template = {
 				},
 				"yezhu/bashiyz_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -55253,7 +57341,6 @@ pg.furniture_data_template = {
 		describe = "ボアなみのいびきが出そうなベッド",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -55277,6 +57364,9 @@ pg.furniture_data_template = {
 				},
 				"yezhu/chuangyz_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -55331,7 +57421,6 @@ pg.furniture_data_template = {
 		describe = "カバーは実にモフモフである",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -55342,6 +57431,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -55395,7 +57487,6 @@ pg.furniture_data_template = {
 		describe = "ただの石。※滑り注意",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -55418,6 +57509,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -55472,7 +57566,6 @@ pg.furniture_data_template = {
 		describe = "ただの石。※滑り注意",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -55495,6 +57588,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -55549,7 +57645,6 @@ pg.furniture_data_template = {
 		describe = "応接室に敷きしたいカーペット。気持ちいい手触り",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -55560,6 +57655,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -55613,7 +57711,6 @@ pg.furniture_data_template = {
 		describe = "チョコの色をしたブロックフローリング",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -55624,6 +57721,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -55677,7 +57777,6 @@ pg.furniture_data_template = {
 		describe = "囲むと暖が取れる小さな焚き火",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -55688,6 +57787,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -55741,7 +57843,6 @@ pg.furniture_data_template = {
 		describe = "「わわ！こっちはまだ育ってないってば！」",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -55752,6 +57853,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -55805,7 +57909,6 @@ pg.furniture_data_template = {
 		describe = "「毎日の朝に水をやること！忘れないでね！」",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -55816,6 +57919,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -55869,7 +57975,6 @@ pg.furniture_data_template = {
 		describe = "「いつかバラも植えたいのですね」",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -55880,6 +57985,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -55933,7 +58041,6 @@ pg.furniture_data_template = {
 		describe = "平和な艦船の寮舎にボアの足跡が…！",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -55944,6 +58051,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -55997,7 +58107,6 @@ pg.furniture_data_template = {
 		describe = "そして捕えられたボアである。",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -56008,6 +58117,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -56061,7 +58173,6 @@ pg.furniture_data_template = {
 		describe = "シイタケ狩りだッ！",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -56072,6 +58183,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -56125,7 +58239,6 @@ pg.furniture_data_template = {
 		describe = "丸太で作られたラックではなく、丸太を置くラックである",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -56136,6 +58249,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -56189,7 +58305,6 @@ pg.furniture_data_template = {
 		describe = "健康にいい鉱泥浴（こうでいよく）",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -56213,6 +58328,9 @@ pg.furniture_data_template = {
 				},
 				"yezhu/nitanyz_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -56267,7 +58385,6 @@ pg.furniture_data_template = {
 		describe = "ボアの形をしたバルーンが一つ",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -56278,6 +58395,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -56331,7 +58451,6 @@ pg.furniture_data_template = {
 		describe = "美味しそう",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -56342,6 +58461,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -56395,7 +58517,6 @@ pg.furniture_data_template = {
 		describe = "換気も火災対策もバッチリ",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -56406,6 +58527,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -56459,7 +58583,6 @@ pg.furniture_data_template = {
 		describe = "ブッシュでカモフラージュしたボア。バレバレである",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -56470,6 +58593,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -56523,7 +58649,6 @@ pg.furniture_data_template = {
 		describe = "とある艦にキレイに整理された本棚",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -56534,6 +58659,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -56587,7 +58715,6 @@ pg.furniture_data_template = {
 		describe = "モフモフな絨毯",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -56598,6 +58725,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -56651,7 +58781,6 @@ pg.furniture_data_template = {
 		describe = "室内用の健康スリッパ",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -56662,6 +58791,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -56715,7 +58847,6 @@ pg.furniture_data_template = {
 		describe = "暴走中のボア。早く取り押さえよう！",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -56726,6 +58857,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -56779,7 +58913,6 @@ pg.furniture_data_template = {
 		describe = "普通のハンガーラック",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -56790,6 +58923,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -56843,7 +58979,6 @@ pg.furniture_data_template = {
 		describe = "枕投げ合戦禁止",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -56866,6 +59001,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -56920,7 +59058,6 @@ pg.furniture_data_template = {
 		describe = "枕投げ合戦禁止",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -56943,6 +59080,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -56997,7 +59137,6 @@ pg.furniture_data_template = {
 		describe = "デザインが奇抜なテント",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -57033,6 +59172,9 @@ pg.furniture_data_template = {
 					"yezhu/zhangpengyz_mask"
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -57087,7 +59229,6 @@ pg.furniture_data_template = {
 		describe = "立ち話をしながらグルメを楽しめそうなテーブル",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -57105,6 +59246,9 @@ pg.furniture_data_template = {
 				1,
 				1
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -57159,7 +59303,6 @@ pg.furniture_data_template = {
 		describe = "肉料理に合うテーブルクロス",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -57197,6 +59340,9 @@ pg.furniture_data_template = {
 				2,
 				3
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -57251,7 +59397,6 @@ pg.furniture_data_template = {
 		describe = "ボア鼻が大々的描かれているラウンドチェア。人によってハートに見えるかもしれない",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -57274,6 +59419,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -57328,7 +59476,6 @@ pg.furniture_data_template = {
 		describe = "「イメチェン？熊野、またそれなの…」",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -57339,6 +59486,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -57392,7 +59542,6 @@ pg.furniture_data_template = {
 		describe = "野菜も食べよう！",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -57403,6 +59552,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -57456,7 +59608,6 @@ pg.furniture_data_template = {
 		describe = "東煌的に縁起のいい壁紙",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -57467,6 +59618,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -57520,7 +59674,6 @@ pg.furniture_data_template = {
 		describe = "雪景色とイノシシが見える窓。…イノシシ？",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -57531,6 +59684,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -57584,7 +59740,6 @@ pg.furniture_data_template = {
 		describe = "春の訪れが近い",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -57595,6 +59750,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -57648,7 +59806,6 @@ pg.furniture_data_template = {
 		describe = "「可愛い雲さんがたくさん見えます～」",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -57659,6 +59816,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -57712,7 +59872,6 @@ pg.furniture_data_template = {
 		describe = "駆逐艦では中々届かない高いところにある収納",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -57723,6 +59882,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -57776,7 +59938,6 @@ pg.furniture_data_template = {
 		describe = "めでたい日を祝う雰囲気を感じさせる赤い壁紙",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -57784,6 +59945,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -57837,7 +60001,6 @@ pg.furniture_data_template = {
 		describe = "精巧に作られた東煌風模様のウッドフロア。職人でも中々作れない逸品",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -57845,6 +60008,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -57898,7 +60064,6 @@ pg.furniture_data_template = {
 		describe = "梅の水やりも忘れずに",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -57909,6 +60074,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -57962,7 +60130,6 @@ pg.furniture_data_template = {
 		describe = "「可愛い……でもやっぱり食べる！平海腹減ったから！」",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -57973,6 +60140,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -58026,7 +60196,6 @@ pg.furniture_data_template = {
 		describe = "「どの勢力でもお茶だけで午後まるごと過ごせる子がいるわね」「うちはコーヒーだけど？」",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -58064,6 +60233,9 @@ pg.furniture_data_template = {
 				2,
 				3
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -58118,7 +60290,6 @@ pg.furniture_data_template = {
 		describe = "大の字で寝るという贅沢な使い方も可能…？",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -58152,6 +60323,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -58206,7 +60380,6 @@ pg.furniture_data_template = {
 		describe = "横の文字は「招財進寶（しょうざいしんほう）」の合体字である",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -58217,6 +60390,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -58270,7 +60446,6 @@ pg.furniture_data_template = {
 		describe = "祝日ムードを演出してくれる手編みのカーペット",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -58281,6 +60456,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -58334,7 +60512,6 @@ pg.furniture_data_template = {
 		describe = "祝日ムードを演出してくれる手編みのカーペット",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -58345,6 +60522,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -58398,7 +60578,6 @@ pg.furniture_data_template = {
 		describe = "何が出るブヒ？",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -58409,6 +60588,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -58462,7 +60644,6 @@ pg.furniture_data_template = {
 		describe = "お正月アイテム「年貨（ねんか）」がたくさん収納されている",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -58473,6 +60654,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -58526,7 +60710,6 @@ pg.furniture_data_template = {
 		describe = "東煌風のサイドテーブル。レトロでプレミアムな質感",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -58537,6 +60720,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -58590,7 +60776,6 @@ pg.furniture_data_template = {
 		describe = "布で出来たトラ。紙のトラより強いが本物より弱い",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -58614,6 +60799,9 @@ pg.furniture_data_template = {
 				},
 				"zhunian/huzn_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -58668,7 +60856,6 @@ pg.furniture_data_template = {
 		describe = "浸りすぎると酔ってしまう漢方酒風呂",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -58692,6 +60879,9 @@ pg.furniture_data_template = {
 				},
 				"zhunian/jiugangzn_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -58746,7 +60936,6 @@ pg.furniture_data_template = {
 		describe = "「小さい子は飲んではダメですよ？」",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -58757,6 +60946,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -58810,7 +61002,6 @@ pg.furniture_data_template = {
 		describe = "東煌風の屏風。梅の刺繍は誰の手によるものか？",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -58821,6 +61012,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -58874,7 +61068,6 @@ pg.furniture_data_template = {
 		describe = "「これで地べたで書く必要がなくなるな。愛宕、拙者の筆を持ってきてくれんか？」",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -58885,6 +61078,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -58938,7 +61134,6 @@ pg.furniture_data_template = {
 		describe = "もち米のだんご。外見的にやりすぎ感は否めない",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -58949,6 +61144,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -59002,7 +61200,6 @@ pg.furniture_data_template = {
 		describe = "祝日に合わせて赤くした小さいソファ",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -59026,6 +61223,9 @@ pg.furniture_data_template = {
 				},
 				"zhunian/yizi2zn_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -59080,7 +61280,6 @@ pg.furniture_data_template = {
 		describe = "祝日に合わせて赤くしたラウンジチェア",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -59104,6 +61303,9 @@ pg.furniture_data_template = {
 				},
 				"zhunian/yizi3zn_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -59158,7 +61360,6 @@ pg.furniture_data_template = {
 		describe = "祝日に合わせて赤くした大きいソファ",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -59182,6 +61383,9 @@ pg.furniture_data_template = {
 				},
 				"zhunian/yizi4zn_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -59236,7 +61440,6 @@ pg.furniture_data_template = {
 		describe = "東煌テーブルのセットチェア",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -59259,6 +61462,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -59313,7 +61519,6 @@ pg.furniture_data_template = {
 		describe = "「なんで金なのに銀錠と呼ぶの？」",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -59324,6 +61529,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -59377,7 +61585,6 @@ pg.furniture_data_template = {
 		describe = "東煌料理に一番合うテーブル",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -59427,6 +61634,9 @@ pg.furniture_data_template = {
 				4,
 				4
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -59481,7 +61691,6 @@ pg.furniture_data_template = {
 		describe = "「あ、頭につけるんすか？！」",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -59505,6 +61714,9 @@ pg.furniture_data_template = {
 				},
 				"zhunian/zhuzn_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -59559,7 +61771,6 @@ pg.furniture_data_template = {
 		describe = "皆に一枚あげたい福の座布団",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -59582,6 +61793,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -59636,7 +61850,6 @@ pg.furniture_data_template = {
 		describe = "「普通の盆栽に見える？違う、これこそが真の『カネニナル木』だ！ほらコインがついてんだろ？」",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -59647,6 +61860,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -59700,7 +61916,6 @@ pg.furniture_data_template = {
 		describe = "東煌で食べる豪快な料理。熱々の料理に熱々の蒸気、シメに熱々のスープラーメンでお決まり！",
 		dorm_id = 0,
 		gem_price = 150,
-		can_trigger = 0,
 		themeId = 39,
 		new = 1,
 		discount_time = "",
@@ -59710,6 +61925,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"xiaozhuhuoguoB",
@@ -59820,7 +62038,6 @@ pg.furniture_data_template = {
 		describe = "東煌で食べる豪快な料理。熱々の料理に熱々の蒸気、シメに熱々のスープラーメンでお決まり！",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -59831,6 +62048,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -59884,7 +62104,6 @@ pg.furniture_data_template = {
 		describe = "配るお年玉。昨年のコイン入り仕様は不人気だった模様",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -59895,6 +62114,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -59948,7 +62170,6 @@ pg.furniture_data_template = {
 		describe = "冬では中々見かけない果物もたくさん",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -59959,6 +62180,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -60012,7 +62236,6 @@ pg.furniture_data_template = {
 		describe = "カーテン越しの景色は少し魅惑的な情緒",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -60023,6 +62246,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -60076,7 +62302,6 @@ pg.furniture_data_template = {
 		describe = "新春を迎えよう",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -60087,6 +62312,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -60140,7 +62368,6 @@ pg.furniture_data_template = {
 		describe = "幸運を祈る掛けカーテンの片方",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -60151,6 +62378,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -60204,7 +62434,6 @@ pg.furniture_data_template = {
 		describe = "幸運を祈る掛けカーテンの片方",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -60215,6 +62444,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -60268,7 +62500,6 @@ pg.furniture_data_template = {
 		describe = "石の園林を楽しめる木の窓",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -60279,6 +62510,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -60332,7 +62566,6 @@ pg.furniture_data_template = {
 		describe = "工筆（こうひつ）画か写意（しゃい）画か判然としない山水画。誰の作品だろう",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -60343,6 +62576,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -60396,7 +62632,6 @@ pg.furniture_data_template = {
 		describe = "魚米（ぎょべい）の郷の深閨を連想させる東煌式窓",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -60407,6 +62642,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -60460,7 +62698,6 @@ pg.furniture_data_template = {
 		describe = "雪国の山々をモチーフとした壁紙。気分は頂上♪",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 40,
 		spine_extra = "",
 		new = 1,
@@ -60468,6 +62705,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -60521,7 +62761,6 @@ pg.furniture_data_template = {
 		describe = "いかにもスキーしやすそう（？）な雪の床",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 40,
 		spine_extra = "",
 		new = 1,
@@ -60529,6 +62768,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -60582,7 +62824,6 @@ pg.furniture_data_template = {
 		describe = "「うち知ってるよ！外は氷でできてるけど、中は暖かいって！」",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 40,
 		spine_extra = "",
 		new = 1,
@@ -60593,6 +62834,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -60646,7 +62890,6 @@ pg.furniture_data_template = {
 		describe = "銀色の世界を綴る緑色",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 40,
 		spine_extra = "",
 		new = 1,
@@ -60657,6 +62900,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -60710,7 +62956,6 @@ pg.furniture_data_template = {
 		describe = "薪の入ったウッドボックス。最大のエネルギー源",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 40,
 		spine_extra = "",
 		new = 1,
@@ -60721,6 +62966,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -60774,7 +63022,6 @@ pg.furniture_data_template = {
 		describe = "雪景色の眺めを楽しみながら浸れる温泉",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 40,
 		spine_extra = "",
 		new = 1,
@@ -60798,6 +63045,9 @@ pg.furniture_data_template = {
 				},
 				"xuedi/chixd_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -60852,7 +63102,6 @@ pg.furniture_data_template = {
 		describe = "山小屋を照らす希望の灯火",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 40,
 		spine_extra = "",
 		new = 1,
@@ -60863,6 +63112,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -60916,7 +63168,6 @@ pg.furniture_data_template = {
 		describe = "雪山のスノーフェスティバル！",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 40,
 		spine_extra = "",
 		new = 1,
@@ -60939,6 +63190,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -60993,7 +63247,6 @@ pg.furniture_data_template = {
 		describe = "なぜかスキー場に設置された焼き芋機（ドラム缶式）。熱々の焼き芋は大好評の模様",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 40,
 		spine_extra = "",
 		new = 1,
@@ -61004,6 +63257,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -61057,7 +63313,6 @@ pg.furniture_data_template = {
 		describe = "小さいアザラシくん。かわいい…かも…？",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 40,
 		spine_extra = "",
 		new = 1,
@@ -61068,6 +63323,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -61121,7 +63379,6 @@ pg.furniture_data_template = {
 		describe = "（※特殊防寒機能あり。マフラー一本で雪山に挑戦するのは真似しないでください）",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 40,
 		spine_extra = "",
 		new = 1,
@@ -61132,6 +63389,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -61185,7 +63445,6 @@ pg.furniture_data_template = {
 		describe = "一度やってみたい、ワカサギ釣り。（穴に落ちないように注意）",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 40,
 		spine_extra = "",
 		new = 1,
@@ -61196,6 +63455,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -61249,7 +63511,6 @@ pg.furniture_data_template = {
 		describe = "スキーエリアを隔てるフェンス",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 40,
 		spine_extra = "",
 		new = 1,
@@ -61260,6 +63521,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -61313,7 +63577,6 @@ pg.furniture_data_template = {
 		describe = "融ける雪で若干滑りやすくなった道。",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 40,
 		spine_extra = "",
 		new = 1,
@@ -61324,6 +63587,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -61377,7 +63643,6 @@ pg.furniture_data_template = {
 		describe = "ペンギンと化した饅頭。「饅頭ってなんでしょう…」",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 40,
 		spine_extra = "",
 		new = 1,
@@ -61388,6 +63653,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -61441,7 +63709,6 @@ pg.furniture_data_template = {
 		describe = "大きな雪玉。「これを雪合戦の弾薬庫にするぜ！」",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 40,
 		spine_extra = "",
 		new = 1,
@@ -61452,6 +63719,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -61505,7 +63775,6 @@ pg.furniture_data_template = {
 		describe = "スキー中にぶつかると大変",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 40,
 		spine_extra = "",
 		new = 1,
@@ -61516,6 +63785,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -61569,7 +63841,6 @@ pg.furniture_data_template = {
 		describe = "銀色の世界を綴る緑色",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 40,
 		spine_extra = "",
 		new = 1,
@@ -61580,6 +63851,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -61633,7 +63907,6 @@ pg.furniture_data_template = {
 		describe = "「それがしの友達でござる！」",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 40,
 		spine_extra = "",
 		new = 1,
@@ -61656,6 +63929,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -61710,7 +63986,6 @@ pg.furniture_data_template = {
 		describe = "防寒・防水・滑り防止機能を備えたスノーブーツ",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 40,
 		spine_extra = "",
 		new = 1,
@@ -61721,6 +63996,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -61774,7 +64052,6 @@ pg.furniture_data_template = {
 		describe = "これは…事件の予感！",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 40,
 		spine_extra = "",
 		new = 1,
@@ -61785,6 +64062,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -61838,7 +64118,6 @@ pg.furniture_data_template = {
 		describe = "スキーに疲れたら少し休憩しよう",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 40,
 		spine_extra = "",
 		new = 1,
@@ -61862,6 +64141,9 @@ pg.furniture_data_template = {
 				},
 				"xuedi/yizixd_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -61916,7 +64198,6 @@ pg.furniture_data_template = {
 		describe = "ボタンを押せば飛び越えられそうなフェンス",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 40,
 		spine_extra = "",
 		new = 1,
@@ -61927,6 +64208,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -61980,7 +64264,6 @@ pg.furniture_data_template = {
 		describe = "ボタンを押しても飛び越えられそうにないフェンス",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 40,
 		spine_extra = "",
 		new = 1,
@@ -61991,6 +64274,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -62044,7 +64330,6 @@ pg.furniture_data_template = {
 		describe = "「なるほどね！これが『雪ニンジャはうす』ってことね！」",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 40,
 		spine_extra = "",
 		new = 1,
@@ -62068,6 +64353,9 @@ pg.furniture_data_template = {
 				},
 				"xuedi/zhangpengxd_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -62122,7 +64410,6 @@ pg.furniture_data_template = {
 		describe = "スキーを装備してなくても滑れる滑り台",
 		dorm_id = 0,
 		gem_price = 150,
-		can_trigger = 0,
 		themeId = 40,
 		spine_extra = "",
 		new = 1,
@@ -62133,6 +64420,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"xueqiaoB",
@@ -62230,7 +64520,6 @@ pg.furniture_data_template = {
 		describe = "雪山の極短距離の移動を可能にした豪華饅頭ロープウェイ",
 		dorm_id = 0,
 		gem_price = 150,
-		can_trigger = 0,
 		themeId = 40,
 		spine_extra = "",
 		new = 1,
@@ -62241,6 +64530,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"lancheB",
@@ -62338,7 +64630,6 @@ pg.furniture_data_template = {
 		describe = "名付けて「饅頭☆ザ☆ライド」！最高のスリルな体験をあなたに――",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 41,
 		spine_extra = "",
 		new = 1,
@@ -62346,6 +64637,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -62399,7 +64693,6 @@ pg.furniture_data_template = {
 		describe = "転倒防止のための加工がされた遊園地の床",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 41,
 		spine_extra = "",
 		new = 1,
@@ -62407,6 +64700,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -62460,7 +64756,6 @@ pg.furniture_data_template = {
 		describe = "次は～どれに～しようかな～？",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 41,
 		spine_extra = "",
 		new = 1,
@@ -62471,6 +64766,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -62524,7 +64822,6 @@ pg.furniture_data_template = {
 		describe = "コーヒーカップ？ティーカップ？",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 41,
 		spine_extra = "",
 		new = 1,
@@ -62548,6 +64845,9 @@ pg.furniture_data_template = {
 				},
 				"valentine/chabei1vt_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -62602,7 +64902,6 @@ pg.furniture_data_template = {
 		describe = "コーヒーカップ？ティーカップ？",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 41,
 		spine_extra = "",
 		new = 1,
@@ -62626,6 +64925,9 @@ pg.furniture_data_template = {
 				},
 				"valentine/chabei2vt_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -62680,7 +64982,6 @@ pg.furniture_data_template = {
 		describe = "コーヒーカップ？ティーカップ？",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 41,
 		spine_extra = "",
 		new = 1,
@@ -62704,6 +65005,9 @@ pg.furniture_data_template = {
 				},
 				"valentine/chabei3vt_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -62758,7 +65062,6 @@ pg.furniture_data_template = {
 		describe = "「今に見ていろ！オレがすぐ制覇してやるからな！」",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 41,
 		spine_extra = "",
 		new = 1,
@@ -62769,6 +65072,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -62822,7 +65128,6 @@ pg.furniture_data_template = {
 		describe = "「これはまた水軍とやらと違う趣になるよのう」",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 41,
 		spine_extra = "",
 		new = 1,
@@ -62846,6 +65151,9 @@ pg.furniture_data_template = {
 				},
 				"valentine/haidaochuanvt_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -62900,7 +65208,6 @@ pg.furniture_data_template = {
 		describe = "「姉貴ってこんな感じの盆栽も持ってるんだ…」「違うってば！」",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 41,
 		spine_extra = "",
 		new = 1,
@@ -62911,6 +65218,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -62964,7 +65274,6 @@ pg.furniture_data_template = {
 		describe = "幸せと楽しさが溢れる花壇",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 41,
 		spine_extra = "",
 		new = 1,
@@ -62975,6 +65284,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -63028,7 +65340,6 @@ pg.furniture_data_template = {
 		describe = "ふわふわな綿あめでもいかが？",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 41,
 		spine_extra = "",
 		new = 1,
@@ -63064,6 +65375,9 @@ pg.furniture_data_template = {
 					"valentine/miahuatangchevt_mask"
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -63118,7 +65432,6 @@ pg.furniture_data_template = {
 		describe = "バーンパーバトル！",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 41,
 		spine_extra = "",
 		new = 1,
@@ -63154,6 +65467,9 @@ pg.furniture_data_template = {
 				},
 				"valentine/pengpengchevt_using2"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -63208,7 +65524,6 @@ pg.furniture_data_template = {
 		describe = "遊園地のトレードマークである饅頭噴水",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 41,
 		spine_extra = "",
 		new = 1,
@@ -63219,6 +65534,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -63272,7 +65590,6 @@ pg.furniture_data_template = {
 		describe = "ユニオンの代表的なグルメ…かも？",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 41,
 		spine_extra = "",
 		new = 1,
@@ -63283,6 +65600,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -63336,7 +65656,6 @@ pg.furniture_data_template = {
 		describe = "登ってはダメですよ",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 41,
 		spine_extra = "",
 		new = 1,
@@ -63347,6 +65666,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -63400,7 +65722,6 @@ pg.furniture_data_template = {
 		describe = "「今日はどれにしようかな…スウィーティー！」",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 41,
 		spine_extra = "",
 		new = 1,
@@ -63424,6 +65745,9 @@ pg.furniture_data_template = {
 				},
 				"valentine/xuegaovt_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -63478,7 +65802,6 @@ pg.furniture_data_template = {
 		describe = "疲れたら一休み",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 41,
 		spine_extra = "",
 		new = 1,
@@ -63514,6 +65837,9 @@ pg.furniture_data_template = {
 				},
 				"valentine/yizivt_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -63568,7 +65894,6 @@ pg.furniture_data_template = {
 		describe = "回れ回れー",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 41,
 		spine_extra = "",
 		new = 1,
@@ -63604,6 +65929,9 @@ pg.furniture_data_template = {
 				},
 				"valentine/xuanzhuanmumavt_using2"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -63658,7 +65986,6 @@ pg.furniture_data_template = {
 		describe = "より高い高度を目指して開発された饅頭気球",
 		dorm_id = 0,
 		gem_price = 150,
-		can_trigger = 0,
 		themeId = 41,
 		spine_extra = "",
 		new = 1,
@@ -63669,6 +65996,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"reqiqiuB",
@@ -63739,6 +66069,2578 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[43001] = {
+		can_rotate = 0,
+		name = "バーチャル壁紙",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		effect = "",
+		icon = "qiangbikaicon",
+		is_get_time_note = 0,
+		belong = 0,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 150,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 4,
+		picture = "KizunaAI/qiangbika",
+		canputon = 0,
+		discount = 0,
+		id = 43001,
+		comfortable = 4,
+		describe = "キズナアイが存在する「白い空間」をイメージした壁紙。これであなたのお部屋もバーチャル空間に！",
+		dorm_id = 0,
+		gem_price = 450,
+		themeId = 43,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[43002] = {
+		can_rotate = 0,
+		name = "バーチャルフロア",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		effect = "",
+		icon = "dibankaicon",
+		is_get_time_note = 0,
+		belong = 0,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 150,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 5,
+		rarity = 4,
+		picture = "KizunaAI/dibanka",
+		canputon = 0,
+		discount = 0,
+		id = 43002,
+		comfortable = 4,
+		describe = "キズナアイが存在する「白い空間」をイメージした床。これであなたのお部屋もバーチャル空間に！",
+		dorm_id = 0,
+		gem_price = 450,
+		themeId = 43,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[43101] = {
+		can_rotate = 1,
+		name = "イーゼル",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		icon = "bankaicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 0,
+		not_for_sale = 1,
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		picture = "KizunaAI/banka",
+		canputon = 0,
+		discount = 0,
+		id = 43101,
+		comfortable = 3,
+		describe = "キズナアイが自作したイーゼル。好きなイラストを飾ることができる",
+		dorm_id = 0,
+		gem_price = 0,
+		themeId = 43,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[43102] = {
+		can_rotate = 0,
+		name = "スナック愛ソファ",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "bataikaicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		picture = "KizunaAI/bataika",
+		canputon = 0,
+		discount = 0,
+		id = 43102,
+		comfortable = 3,
+		describe = "スナック愛にありそうなソファとテーブル。オススメはジンジャーエール。",
+		dorm_id = 0,
+		gem_price = 240,
+		themeId = 43,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			6,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-87,
+					47
+				},
+				{
+					1,
+					1
+				},
+				"KizunaAI/bataika_using"
+			},
+			{
+				"sit",
+				{
+					15,
+					77
+				},
+				{
+					-1,
+					1
+				},
+				"KizunaAI/bataika_using"
+			},
+			{
+				"sit",
+				{
+					104,
+					29
+				},
+				{
+					-1,
+					1
+				},
+				"KizunaAI/bataika_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[43103] = {
+		can_rotate = 0,
+		name = "アイちゃん冷蔵庫",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		icon = "bingxiangkaicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 2,
+		advice = 0,
+		dorm_icon_price = 20,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 1,
+		picture = "KizunaAI/bingxiangka",
+		canputon = 0,
+		discount = 0,
+		id = 43103,
+		comfortable = 1,
+		describe = "キズナアイが温度調節をしてくれる超高性能冷蔵庫",
+		dorm_id = 0,
+		gem_price = 60,
+		themeId = 43,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[43104] = {
+		can_rotate = 0,
+		name = "AI搭載ベッド",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "chuangkaicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		picture = "KizunaAI/chuangka",
+		canputon = 0,
+		discount = 0,
+		id = 43104,
+		comfortable = 3,
+		describe = "キズナアイのイメージが具現化したAI搭載型ベッド。AIによる完璧な睡眠時間の管理で快眠生活を始めましょう！",
+		dorm_id = 0,
+		gem_price = 240,
+		themeId = 43,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			6,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					6.9,
+					48.1
+				},
+				{
+					1,
+					1
+				}
+			},
+			{
+				"sleep",
+				{
+					79.1,
+					15.3
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[43105] = {
+		can_rotate = 0,
+		name = "AIシステムキッチン",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		icon = "chufangkaicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		picture = "KizunaAI/chufangka",
+		canputon = 0,
+		discount = 0,
+		id = 43105,
+		comfortable = 3,
+		describe = "天才AIが搭載されているので、色々と使いやすいシステムキッチン。レシピさえインストールすれば料理も余裕！……なはず",
+		dorm_id = 0,
+		gem_price = 240,
+		themeId = 43,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			3,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[43106] = {
+		can_rotate = 0,
+		name = "アイちゃんスツール",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 2,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "dengzi2kaicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "KizunaAI/dengzi2ka",
+		canputon = 0,
+		discount = 0,
+		id = 43106,
+		comfortable = 2,
+		describe = "キズナアイをイメージしたスツール。――軽くて丈夫なので壊れにくいですよ！",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 43,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-11,
+					59
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[43107] = {
+		can_rotate = 0,
+		name = "アイちゃんチェア",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 2,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "dengzi3kaicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "KizunaAI/dengzi3ka",
+		canputon = 0,
+		discount = 0,
+		id = 43107,
+		comfortable = 2,
+		describe = "キズナアイをイメージしたチェア。背もたれ？そんなものに頼るから姿勢が悪くなるんです",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 43,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-18,
+					54
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[43108] = {
+		can_rotate = 0,
+		name = "ハートの腰掛け",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 2,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "dengzikaicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "KizunaAI/dengzika",
+		canputon = 0,
+		discount = 0,
+		id = 43108,
+		comfortable = 2,
+		describe = "キズナアイのイメージが具現化したハート型の腰掛け。実はけっこう柔らかい",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 43,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					21,
+					38
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[43109] = {
+		can_rotate = 1,
+		name = "4Kアイちゃんテレビ",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		picture = "",
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 0,
+		not_for_sale = 0,
+		icon = "dianshikaicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 4,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 43109,
+		comfortable = 4,
+		describe = "まるで本物のようにリアルな映像を映すことができる4Kテレビ――ゲームの没入感もすごいですね！",
+		dorm_id = 0,
+		gem_price = 200,
+		themeId = 43,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			7,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"ai_tv",
+				"normal",
+				{
+					"action",
+					true
+				}
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[43110] = {
+		can_rotate = 0,
+		name = "ぴょこぴょこ絨毯",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		effect = "",
+		icon = "ditan2kaicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "KizunaAI/ditan2ka",
+		canputon = 0,
+		discount = 0,
+		id = 43110,
+		comfortable = 2,
+		describe = "キズナアイが頭に着けている「ぴょこぴょこ」をイメージした絨毯",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 43,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			6,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[43111] = {
+		can_rotate = 1,
+		name = "アイちゃん絨毯",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		effect = "",
+		icon = "ditankaicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 20,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 1,
+		picture = "KizunaAI/ditanka",
+		canputon = 0,
+		discount = 0,
+		id = 43111,
+		comfortable = 1,
+		describe = "インテリジェントなスーパーAIキズナアイをイメージした絨毯",
+		dorm_id = 0,
+		gem_price = 60,
+		themeId = 43,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			8,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[43112] = {
+		can_rotate = 0,
+		name = "ランダムワード生成器",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "jikaicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		picture = "KizunaAI/jika",
+		canputon = 0,
+		discount = 0,
+		id = 43112,
+		comfortable = 3,
+		describe = "キズナアイと一緒にこの世界へ迷い込んできた謎の箱をモデルにした装置。様々なワードを自動で生成することができる。本物はもっとすごいぞ！",
+		dorm_id = 0,
+		gem_price = 240,
+		themeId = 43,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"wash",
+				{
+					-3,
+					-37
+				},
+				{
+					-1,
+					1
+				},
+				"KizunaAI/jika_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[43113] = {
+		can_rotate = 0,
+		name = "AIボトルラック",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		icon = "jiuguikaicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "KizunaAI/jiuguika",
+		canputon = 0,
+		discount = 0,
+		id = 43113,
+		comfortable = 2,
+		describe = "スナック愛にありそうなボトルラックーー「A.I.Whisky」っていうのがおすすめやけど、お酒は二十歳になってからやで！",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 43,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[43114] = {
+		can_rotate = 0,
+		name = "ねこちゃん",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		icon = "maokaicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "KizunaAI/maoka",
+		canputon = 0,
+		discount = 0,
+		id = 43114,
+		comfortable = 2,
+		describe = "ただの猫。マンチカンでも、オウムでも、てちてち鳥でもない",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 43,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[43115] = {
+		can_rotate = 0,
+		name = "AI培養器",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 0,
+		not_for_sale = 1,
+		icon = "peiyangkaicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 4,
+		picture = "KizunaAI/peiyangka",
+		canputon = 0,
+		discount = 0,
+		id = 43115,
+		comfortable = 4,
+		describe = "スーパーAIを搭載した培養器。中に入るといつもより早く元気になれるかもしれない",
+		dorm_id = 0,
+		gem_price = 0,
+		themeId = 43,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"dance",
+				{
+					-3,
+					-109
+				},
+				{
+					-1,
+					1
+				},
+				"KizunaAI/peiyangka_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[43116] = {
+		can_rotate = 0,
+		name = "バーチャル盆栽",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		icon = "penzaikaicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 3,
+		advice = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "KizunaAI/penzaika",
+		canputon = 0,
+		discount = 0,
+		id = 43116,
+		comfortable = 2,
+		describe = "ハートの形をしたバーチャル盆栽。――バーチャルなので変幻自在！形を整えるのも楽でいいですね！",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 43,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[43117] = {
+		can_rotate = 0,
+		name = "アイちゃんL字ソファ",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "shafakaicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		picture = "KizunaAI/shafaka",
+		canputon = 0,
+		discount = 0,
+		id = 43117,
+		comfortable = 3,
+		describe = "キズナアイのイメージが具現化したとても多機能なソファ。いろいろな場所に収納スペースがあり、空間を最大限に使える。",
+		dorm_id = 0,
+		gem_price = 240,
+		themeId = 43,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			6,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-34,
+					79
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[43118] = {
+		can_rotate = 0,
+		name = "AIクローゼット",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		icon = "yiguikaicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "KizunaAI/yiguika",
+		canputon = 0,
+		discount = 0,
+		id = 43118,
+		comfortable = 2,
+		describe = "キズナアイの様々な衣装や装飾品をモチーフにしたアイテムが収納されたクローゼットーーこれでいつでもキズナアイになれる！",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 43,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[43119] = {
+		can_rotate = 0,
+		name = "アイちゃんソファ",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 2,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "yizikaicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "KizunaAI/yizika",
+		canputon = 0,
+		discount = 0,
+		id = 43119,
+		comfortable = 2,
+		describe = "キズナアイをイメージしたソファ。特にバーチャル的要素はない。ないんかーい！",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 43,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			3,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-99,
+					39
+				},
+				{
+					-1,
+					1
+				}
+			},
+			{
+				"sit",
+				{
+					-38,
+					6
+				},
+				{
+					-1,
+					1
+				}
+			},
+			{
+				"sit",
+				{
+					16,
+					-21
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[43120] = {
+		can_rotate = 0,
+		name = "AIバスタブ",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "yugangkaicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		picture = "KizunaAI/yugangka",
+		canputon = 0,
+		discount = 0,
+		id = 43120,
+		comfortable = 3,
+		describe = "キズナアイのイメージが具現化したバスタブーー透明な板があるので、お風呂に入りながら私の動画を見れちゃいますよ！",
+		dorm_id = 0,
+		gem_price = 240,
+		themeId = 43,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			4,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"wash",
+				{
+					22,
+					-12
+				},
+				{
+					-1,
+					1
+				},
+				"KizunaAI/yugang_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[43121] = {
+		can_rotate = 0,
+		name = "AIデスク",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		icon = "zhuo2kaicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 0,
+		not_for_sale = 1,
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "KizunaAI/zhuo2ka",
+		canputon = 0,
+		discount = 0,
+		id = 43121,
+		comfortable = 2,
+		describe = "キズナアイがかっこよく作業する様子をイメージしたデスク。理想的なトリプルディスプレイで動画編集がとても捗る…予定",
+		dorm_id = 0,
+		gem_price = 0,
+		themeId = 43,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			5,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[43122] = {
+		can_rotate = 0,
+		name = "AI丸テーブル",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		icon = "zhuokaicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 2,
+		advice = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "KizunaAI/zhuoka",
+		canputon = 1,
+		discount = 0,
+		id = 43122,
+		comfortable = 2,
+		describe = "キズナアイのイメージが具現化した丸くて大きなテーブル。ここで団らんすればすぐにつながれるはず！",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 43,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			4,
+			4
+		},
+		offset = {
+			0,
+			-5.23
+		},
+		canputonGrid = {
+			{
+				2,
+				2
+			},
+			{
+				2,
+				3
+			},
+			{
+				2,
+				4
+			},
+			{
+				3,
+				2
+			},
+			{
+				3,
+				3
+			},
+			{
+				3,
+				4
+			},
+			{
+				4,
+				2
+			},
+			{
+				4,
+				3
+			},
+			{
+				4,
+				4
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[43123] = {
+		can_rotate = 1,
+		name = "AIステージ",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		picture = "",
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 0,
+		not_for_sale = 0,
+		icon = "wutaikaicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 4,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 43123,
+		comfortable = 4,
+		describe = "キズナアイが母港でライブを開催するために用意したステージ。後ろにはハート型のモニターがあり、様々な演出ができる",
+		dorm_id = 0,
+		gem_price = 200,
+		themeId = 43,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			8,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"Ai_Stage",
+				"normal"
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				63,
+				-107
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[43201] = {
+		can_rotate = 0,
+		name = "AIサイリウム",
+		gain_by = "",
+		type = 3,
+		dir = 0,
+		effect = "",
+		icon = "bangkaicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 4,
+		advice = 0,
+		dorm_icon_price = 20,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 2,
+		rarity = 1,
+		picture = "KizunaAI/bangka",
+		canputon = 0,
+		discount = 0,
+		id = 43201,
+		comfortable = 1,
+		describe = "キズナアイ仕様のサイリウム。キズナアイのライブに参加するときに持っていこう。忘れるといたたまれない気持ちになるかもしれない",
+		dorm_id = 0,
+		gem_price = 60,
+		themeId = 43,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[43202] = {
+		can_rotate = 0,
+		name = "AIコントローラー",
+		gain_by = "",
+		type = 3,
+		dir = 0,
+		effect = "",
+		icon = "shoubingkaicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 2,
+		advice = 0,
+		dorm_icon_price = 20,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 2,
+		rarity = 1,
+		picture = "KizunaAI/shoubingka",
+		canputon = 0,
+		discount = 0,
+		id = 43202,
+		comfortable = 1,
+		describe = "キズナアイ仕様のコントローラー。スーパーAI搭載で、どんなに下手な人でもスーパープレイができるようになる…はず",
+		dorm_id = 0,
+		gem_price = 60,
+		themeId = 43,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[43205] = {
+		can_rotate = 0,
+		name = "AIクッション",
+		gain_by = "",
+		type = 3,
+		dir = 0,
+		effect = "",
+		icon = "baozhengkaicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 0,
+		not_for_sale = 1,
+		deblocking = 1,
+		level = 2,
+		rarity = 3,
+		picture = "KizunaAI/baozhengka",
+		canputon = 0,
+		discount = 0,
+		id = 43205,
+		comfortable = 3,
+		describe = "キズナアイをイメージした大型クッション。ショートカットなゲーマーバージョン。",
+		dorm_id = 0,
+		gem_price = 0,
+		themeId = 43,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[43301] = {
+		can_rotate = 0,
+		name = "AIライブポスター",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		effect = "",
+		icon = "huakaicon",
+		is_get_time_note = 0,
+		belong = 2,
+		count = 3,
+		advice = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 5,
+		rarity = 2,
+		picture = "KizunaAI/huaka",
+		canputon = 0,
+		discount = 0,
+		id = 43301,
+		comfortable = 2,
+		describe = "キズナアイのファーストライブイベントで使用されていたかもしれないポスター。――hello world！",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 43,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[43302] = {
+		can_rotate = 0,
+		name = "AIハンガーラック",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		effect = "",
+		icon = "jiazi2kaicon",
+		is_get_time_note = 0,
+		belong = 2,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 0,
+		not_for_sale = 1,
+		deblocking = 1,
+		level = 5,
+		rarity = 3,
+		picture = "KizunaAI/jiazi2ka",
+		canputon = 0,
+		discount = 0,
+		id = 43302,
+		comfortable = 3,
+		describe = "キズナアイのハンガーラック。白衣と眼鏡とつけるだけでとてもインテリジェントで知的な感じに見えるようになる…気がする",
+		dorm_id = 0,
+		gem_price = 0,
+		themeId = 43,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[43303] = {
+		can_rotate = 0,
+		name = "AI本棚",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		effect = "",
+		icon = "jiazikaicon",
+		is_get_time_note = 0,
+		belong = 2,
+		count = 2,
+		advice = 0,
+		dorm_icon_price = 20,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 5,
+		rarity = 1,
+		picture = "KizunaAI/jiazika",
+		canputon = 0,
+		discount = 0,
+		id = 43303,
+		comfortable = 1,
+		describe = "キズナアイが使った資料が置いてあるただの本棚。この世界では紙の本が読めるのが嬉しいらしい",
+		dorm_id = 0,
+		gem_price = 60,
+		themeId = 43,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[43304] = {
+		can_rotate = 0,
+		name = "どこでもポータル",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		effect = "",
+		icon = "menkaicon",
+		is_get_time_note = 0,
+		belong = 2,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 5,
+		rarity = 3,
+		picture = "KizunaAI/menka",
+		canputon = 0,
+		discount = 0,
+		id = 43304,
+		comfortable = 3,
+		describe = "アイえもんのひみつ道具。連れて行ってくれる場所は大体ハードな環境なことが多い",
+		dorm_id = 0,
+		gem_price = 240,
+		themeId = 43,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[43305] = {
+		can_rotate = 0,
+		name = "バーチャルスクリーン",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		effect = "",
+		icon = "pingmukaicon",
+		is_get_time_note = 0,
+		belong = 4,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 0,
+		not_for_sale = 1,
+		deblocking = 1,
+		level = 5,
+		rarity = 3,
+		picture = "KizunaAI/pingmuka",
+		canputon = 0,
+		discount = 0,
+		id = 43305,
+		comfortable = 3,
+		describe = "空間上に映像を映し出す最新のスクリーン。――これさえあればどこでも大画面で私の動画を見れますね♪",
+		dorm_id = 0,
+		gem_price = 0,
+		themeId = 43,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			6,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[43306] = {
+		can_rotate = 0,
+		name = "ハート型壁掛け棚",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		effect = "",
+		icon = "shujiakaicon",
+		is_get_time_note = 0,
+		belong = 2,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 0,
+		not_for_sale = 1,
+		deblocking = 1,
+		level = 5,
+		rarity = 3,
+		picture = "KizunaAI/shujiaka",
+		canputon = 0,
+		discount = 0,
+		id = 43306,
+		comfortable = 3,
+		describe = "ゲームソフトを置くのにちょうどいい壁掛け棚。キズナアイが実況用に購入したソフトがたくさん置いてある",
+		dorm_id = 0,
+		gem_price = 0,
+		themeId = 43,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[43307] = {
+		can_rotate = 0,
+		name = "Kizuna AIパネル",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		effect = "",
+		icon = "zikaicon",
+		is_get_time_note = 0,
+		belong = 4,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 5,
+		rarity = 3,
+		picture = "KizunaAI/zika",
+		canputon = 0,
+		discount = 0,
+		id = 43307,
+		comfortable = 3,
+		describe = "キズナアイの名前が一文字ずつ書かれたパネル。スーパーAIの名前をお部屋に刻もう。「アイ…いい人だったです」「ちゃんと生きてるよ！？」",
+		dorm_id = 0,
+		gem_price = 240,
+		themeId = 43,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			6,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
 	all = {
 		1,
 		2,
@@ -63787,9 +68689,12 @@ pg.furniture_data_template = {
 		137,
 		138,
 		140,
+		141,
+		143,
 		100002,
 		100003,
 		100004,
+		100005,
 		1001,
 		1002,
 		1101,
@@ -64755,7 +69660,42 @@ pg.furniture_data_template = {
 		41114,
 		41115,
 		41116,
-		41117
+		41117,
+		43001,
+		43002,
+		43101,
+		43102,
+		43103,
+		43104,
+		43105,
+		43106,
+		43107,
+		43108,
+		43109,
+		43110,
+		43111,
+		43112,
+		43113,
+		43114,
+		43115,
+		43116,
+		43117,
+		43118,
+		43119,
+		43120,
+		43121,
+		43122,
+		43123,
+		43201,
+		43202,
+		43205,
+		43301,
+		43302,
+		43303,
+		43304,
+		43305,
+		43306,
+		43307
 	}
 }
 

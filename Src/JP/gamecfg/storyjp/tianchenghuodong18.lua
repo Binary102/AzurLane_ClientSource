@@ -12,7 +12,7 @@ return {
 			side = 1,
 			dir = 1,
 			bgm = "theme",
-			actor = 304051,
+			actor = 304050,
 			nameColor = "#a9f548",
 			say = "強くなりましたわね。私の策も簡単にはもう通用しないぐらい…ふふふふ……",
 			typewriter = {
@@ -29,7 +29,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
-			actor = 305071,
+			actor = 305070,
 			say = "全てはあなたが教えてくれました",
 			typewriter = {
 				speed = 0.05,
@@ -41,7 +41,7 @@ return {
 			}
 		},
 		{
-			actor = 304051,
+			actor = 304050,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -59,7 +59,7 @@ return {
 			expression = 2,
 			side = 0,
 			dir = -1,
-			actor = 305071,
+			actor = 305070,
 			nameColor = "#a9f548",
 			say = "待て、「姉さん」！？",
 			typewriter = {
@@ -86,7 +86,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
-			actor = 304051,
+			actor = 304050,
 			say = "………加賀、よく聞いてください",
 			typewriter = {
 				speed = 0.05,
@@ -102,7 +102,7 @@ return {
 			side = 1,
 			withoutActorName = true,
 			dir = 1,
-			actor = 304051,
+			actor = 304050,
 			nameColor = "#a9f548",
 			say = "天城は真剣な表情で加賀に語りかける。",
 			typewriter = {
@@ -115,7 +115,7 @@ return {
 			}
 		},
 		{
-			actor = 304051,
+			actor = 304050,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -134,7 +134,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
-			actor = 304051,
+			actor = 304050,
 			say = "「天城」として生まれた私は、紛れもなくあなたの言っていた「弱者」……",
 			typewriter = {
 				speed = 0.05,
@@ -146,7 +146,7 @@ return {
 			}
 		},
 		{
-			actor = 304051,
+			actor = 304050,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -165,7 +165,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
-			actor = 304051,
+			actor = 304050,
 			say = "だから必死に訓練して、勉学に励んで、自然と「強者」と思わせるような振る舞いをして、",
 			typewriter = {
 				speed = 0.05,
@@ -181,7 +181,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
-			actor = 304051,
+			actor = 304050,
 			say = "あなたもが認めるほど、私は「強者」でいることができたのです",
 			typewriter = {
 				speed = 0.05,
@@ -193,7 +193,7 @@ return {
 			}
 		},
 		{
-			actor = 304051,
+			actor = 304050,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -212,7 +212,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
-			actor = 304051,
+			actor = 304050,
 			say = "空母へと改修されるあなたと赤城は重桜の要となりましょう",
 			typewriter = {
 				speed = 0.05,
@@ -228,7 +228,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
-			actor = 304051,
+			actor = 304050,
 			say = "そして世の中にはあなたと同格…いいえ、あなたが「強者」と認める存在がたくさんいます",
 			typewriter = {
 				speed = 0.05,
@@ -244,7 +244,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
-			actor = 304051,
+			actor = 304050,
 			say = "――敵を侮らず、もっと強くなりなさい",
 			typewriter = {
 				speed = 0.05,
@@ -260,7 +260,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
-			actor = 304051,
+			actor = 304050,
 			say = "「弱者」として生まれた私と違って、あなたは「強者」であり、そして「強者」であるべきよ",
 			typewriter = {
 				speed = 0.05,
@@ -276,7 +276,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
-			actor = 304051,
+			actor = 304050,
 			say = "あなたと赤城が持つ栄光なるリュウコツには、その資格があるのです",
 			typewriter = {
 				speed = 0.05,
@@ -292,7 +292,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
-			actor = 304051,
+			actor = 304050,
 			say = "だから、「弱者」としての天城ではなく、あなたが思う「強者」としての私の「因子」を背負って、",
 			typewriter = {
 				speed = 0.05,
@@ -308,7 +308,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
-			actor = 304051,
+			actor = 304050,
 			say = "重桜の守り手として、どうか、末永く――",
 			typewriter = {
 				speed = 0.05,

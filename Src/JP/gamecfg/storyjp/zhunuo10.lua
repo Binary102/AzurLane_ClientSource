@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 207064,
+			actor = 207060,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -22,7 +22,7 @@ return {
 			}
 		},
 		{
-			actor = 207064,
+			actor = 207060,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -37,7 +37,7 @@ return {
 			}
 		},
 		{
-			actor = 207064,
+			actor = 207060,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -52,7 +52,7 @@ return {
 			}
 		},
 		{
-			actor = 207064,
+			actor = 207060,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -69,7 +69,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			actor = 403014,
+			actor = 403010,
 			nameColor = "#D6341D",
 			say = "おーい、大丈夫？って、なんでこんな損傷を受けてんの！",
 			flashout = {
@@ -99,7 +99,7 @@ return {
 			}
 		},
 		{
-			actor = 404014,
+			actor = 404010,
 			nameColor = "#D6341D",
 			side = 0,
 			dir = 1,
@@ -118,7 +118,7 @@ return {
 			}
 		},
 		{
-			actor = 404024,
+			actor = 404020,
 			side = 1,
 			nameColor = "#D6341D",
 			dir = -1,
@@ -133,7 +133,7 @@ return {
 			}
 		},
 		{
-			actor = 404014,
+			actor = 404010,
 			side = 0,
 			nameColor = "#D6341D",
 			dir = 1,
@@ -148,7 +148,7 @@ return {
 			}
 		},
 		{
-			actor = 404024,
+			actor = 404020,
 			side = 1,
 			nameColor = "#D6341D",
 			dir = -1,

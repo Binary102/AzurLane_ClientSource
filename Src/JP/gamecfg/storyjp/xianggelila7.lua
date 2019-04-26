@@ -46,7 +46,7 @@ return {
 			}
 		},
 		{
-			actor = 107381,
+			actor = 107380,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -76,7 +76,7 @@ return {
 			}
 		},
 		{
-			actor = 107381,
+			actor = 107380,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -96,7 +96,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 107381,
+			actor = 107380,
 			nameColor = "#a9f548",
 			say = "……私のことが気になる、ですか？",
 			typewriter = {
@@ -109,7 +109,7 @@ return {
 			}
 		},
 		{
-			actor = 107381,
+			actor = 107380,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -125,7 +125,7 @@ return {
 			}
 		},
 		{
-			actor = 107071,
+			actor = 107070,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -145,7 +145,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 107381,
+			actor = 107380,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -164,7 +164,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = -1,
-			actor = 107071,
+			actor = 107070,
 			nameColor = "#a9f548",
 			say = "ちょっと待ったー！その前に昨日のお礼を言わせて！",
 			typewriter = {
@@ -191,7 +191,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 107381,
+			actor = 107380,
 			nameColor = "#a9f548",
 			say = "お礼？",
 			typewriter = {
@@ -204,7 +204,7 @@ return {
 			}
 		},
 		{
-			actor = 107071,
+			actor = 107070,
 			side = 1,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -224,7 +224,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 107381,
+			actor = 107380,
 			nameColor = "#a9f548",
 			say = "こちらこそ、記録ばかり頼ってはダメだと改めて学ばせていただきました",
 			typewriter = {
@@ -237,7 +237,7 @@ return {
 			}
 		},
 		{
-			actor = 107381,
+			actor = 107380,
 			side = 0,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -257,7 +257,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			withoutActorName = true,
-			actor = 107381,
+			actor = 107380,
 			nameColor = "#a9f548",
 			say = "シャングリラはアルバムを取り出した",
 			typewriter = {
@@ -273,7 +273,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = -1,
-			actor = 107071,
+			actor = 107070,
 			nameColor = "#a9f548",
 			say = "おお！これはいつ撮ったの？",
 			typewriter = {
@@ -296,7 +296,7 @@ return {
 			}
 		},
 		{
-			actor = 107381,
+			actor = 107380,
 			side = 0,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -316,7 +316,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 107381,
+			actor = 107380,
 			nameColor = "#a9f548",
 			say = "まぁ、このあとは「コレクション」に格納しますから、その前に皆に見せたいと思って",
 			typewriter = {
@@ -333,7 +333,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			withoutActorName = true,
-			actor = 107381,
+			actor = 107380,
 			nameColor = "#a9f548",
 			say = "そう言いながら、シャングリラは写真を皆に配った。",
 			typewriter = {
@@ -346,7 +346,7 @@ return {
 			}
 		},
 		{
-			actor = 107381,
+			actor = 107380,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -365,7 +365,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = -1,
-			actor = 107071,
+			actor = 107070,
 			nameColor = "#a9f548",
 			say = "これって…昨日の模擬戦が終わってから撮ったのね！",
 			typewriter = {
@@ -406,7 +406,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 107381,
+			actor = 107380,
 			nameColor = "#a9f548",
 			say = "名前は「仲間」。裏面については何を書けばいいか相談してもいいですか？",
 			typewriter = {

@@ -50,7 +50,7 @@ return {
 			}
 		},
 		{
-			actor = 304021,
+			actor = 304020,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -66,7 +66,7 @@ return {
 			}
 		},
 		{
-			actor = 304021,
+			actor = 304020,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -82,7 +82,7 @@ return {
 			}
 		},
 		{
-			actor = 304021,
+			actor = 304020,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -111,7 +111,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 301141,
+			actor = 301140,
 			nameColor = "#a9f548",
 			say = "お肉だ！！へへへ、夕立は比叡の宴会が大好きだぜ！",
 			flashout = {
@@ -145,7 +145,7 @@ return {
 			side = 1,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 301151,
+			actor = 301150,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -161,7 +161,7 @@ return {
 			}
 		},
 		{
-			actor = 301141,
+			actor = 301140,
 			side = 0,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -180,7 +180,7 @@ return {
 			side = 1,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 301151,
+			actor = 301150,
 			nameColor = "#a9f548",
 			say = "あなたね……",
 			typewriter = {
@@ -206,7 +206,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 304041,
+			actor = 304040,
 			nameColor = "#a9f548",
 			say = "余興のダンスの相手になってほしいって？ふふ、よろこんでレディにお付き合いするぜ（ヒュー♪",
 			flashout = {
@@ -236,7 +236,7 @@ return {
 			}
 		},
 		{
-			actor = 304041,
+			actor = 304040,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -252,7 +252,7 @@ return {
 			}
 		},
 		{
-			actor = 304041,
+			actor = 304040,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -271,7 +271,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 304041,
+			actor = 304040,
 			nameColor = "#a9f548",
 			say = "ははは、みんな一緒に～カンパーイ！！",
 			typewriter = {
@@ -321,7 +321,7 @@ return {
 			}
 		},
 		{
-			actor = 304021,
+			actor = 304020,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",

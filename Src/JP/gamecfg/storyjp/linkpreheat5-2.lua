@@ -5,7 +5,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 401231,
+			actor = 401230,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
@@ -21,7 +21,7 @@ return {
 			}
 		},
 		{
-			actor = 10300061,
+			actor = 10300060,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -36,7 +36,7 @@ return {
 			}
 		},
 		{
-			actor = 10300011,
+			actor = 10300010,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -51,7 +51,7 @@ return {
 			}
 		},
 		{
-			actor = 101171,
+			actor = 101170,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -66,7 +66,7 @@ return {
 			}
 		},
 		{
-			actor = 10300041,
+			actor = 10300040,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -81,7 +81,7 @@ return {
 			}
 		},
 		{
-			actor = 10300051,
+			actor = 10300050,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -100,7 +100,7 @@ return {
 			}
 		},
 		{
-			actor = 301051,
+			actor = 301050,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -119,7 +119,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 10300041,
+			actor = 10300040,
 			actorName = "ウルゥル？",
 			say = "…………",
 			typewriter = {
@@ -136,7 +136,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 10300051,
+			actor = 10300050,
 			actorName = "サラァナ？",
 			say = "…………",
 			typewriter = {
@@ -153,7 +153,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			actor = 10300041,
+			actor = 10300040,
 			say = "そっくりさん",
 			typewriter = {
 				speed = 0.05,
@@ -169,7 +169,7 @@ return {
 			side = 1,
 			say = "やはり、私たちの姿と能力を模した幻影です。魂の色がついておりません",
 			dir = 1,
-			actor = 10300051,
+			actor = 10300050,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -185,7 +185,7 @@ return {
 			}
 		},
 		{
-			actor = 101171,
+			actor = 101170,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -200,7 +200,7 @@ return {
 			}
 		},
 		{
-			actor = 401231,
+			actor = 401230,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -215,7 +215,7 @@ return {
 			}
 		},
 		{
-			actor = 201211,
+			actor = 201210,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -230,7 +230,7 @@ return {
 			}
 		},
 		{
-			actor = 301051,
+			actor = 301050,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -245,7 +245,7 @@ return {
 			}
 		},
 		{
-			actor = 10300011,
+			actor = 10300010,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,

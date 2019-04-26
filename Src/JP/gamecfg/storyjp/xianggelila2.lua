@@ -50,7 +50,7 @@ return {
 			}
 		},
 		{
-			actor = 107381,
+			actor = 107380,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -66,7 +66,7 @@ return {
 			}
 		},
 		{
-			actor = 107091,
+			actor = 107090,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -86,7 +86,7 @@ return {
 			side = 0,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 107381,
+			actor = 107380,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -106,7 +106,7 @@ return {
 			side = 0,
 			bgName = "bg_story_nepu1",
 			withoutActorName = true,
-			actor = 107381,
+			actor = 107380,
 			nameColor = "#a9f548",
 			say = "こっちが挨拶するよりも先に、シャングリラは話を切り出した",
 			typewriter = {
@@ -119,7 +119,7 @@ return {
 			}
 		},
 		{
-			actor = 107381,
+			actor = 107380,
 			side = 0,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -139,7 +139,7 @@ return {
 			side = 1,
 			bgName = "bg_story_nepu1",
 			dir = -1,
-			actor = 107091,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "えっ、どうしてそれを…？",
 			typewriter = {
@@ -166,7 +166,7 @@ return {
 			side = 1,
 			bgName = "bg_story_nepu1",
 			withoutActorName = true,
-			actor = 107091,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "言われてみれば、確かに今の反応はちょっと気になる",
 			typewriter = {
@@ -183,7 +183,7 @@ return {
 			side = 0,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 107381,
+			actor = 107380,
 			nameColor = "#a9f548",
 			say = "さてはユニオンの航空対抗演習のことでしょうか？",
 			typewriter = {
@@ -200,7 +200,7 @@ return {
 			side = 1,
 			bgName = "bg_story_nepu1",
 			dir = -1,
-			actor = 107091,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "（小声）心でも読めるのかと毎回驚かれされるね…",
 			typewriter = {
@@ -217,7 +217,7 @@ return {
 			side = 0,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 107381,
+			actor = 107380,
 			nameColor = "#a9f548",
 			say = "（小声）エセックスがあんな表情をするときはエンタープライズ先輩に関わる何かが原因に決まっていますから。ふふふ",
 			typewriter = {
@@ -234,7 +234,7 @@ return {
 			side = 1,
 			bgName = "bg_story_nepu1",
 			dir = -1,
-			actor = 107091,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "こ、コホン！大したことではありません。実は……（かくかくしかじか",
 			typewriter = {
@@ -260,7 +260,7 @@ return {
 			side = 0,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 107381,
+			actor = 107380,
 			nameColor = "#a9f548",
 			say = "なるほど…次の演習こそエンタープライズ先輩に勝つか、最低でも驚かせられる作戦……",
 			flashout = {
@@ -294,7 +294,7 @@ return {
 			side = 0,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 107381,
+			actor = 107380,
 			nameColor = "#a9f548",
 			say = "私でよければ一緒に考えませんか？",
 			typewriter = {
@@ -310,7 +310,7 @@ return {
 			side = 1,
 			bgName = "bg_story_nepu1",
 			dir = -1,
-			actor = 107091,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "本当！？…こ、コホン！",
 			typewriter = {
@@ -333,7 +333,7 @@ return {
 			}
 		},
 		{
-			actor = 107381,
+			actor = 107380,
 			side = 0,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -349,7 +349,7 @@ return {
 			}
 		},
 		{
-			actor = 107091,
+			actor = 107090,
 			side = 1,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -369,7 +369,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgName = "bg_story_task",
-			actor = 107381,
+			actor = 107380,
 			nameColor = "#a9f548",
 			say = "「彼を知り己を知れば、百戦殆うからず」",
 			flashout = {
@@ -403,7 +403,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 107381,
+			actor = 107380,
 			nameColor = "#a9f548",
 			say = "古典的ではありますが、相手がエンタープライズ先輩となると尚更ですね",
 			typewriter = {
@@ -416,7 +416,7 @@ return {
 			}
 		},
 		{
-			actor = 107381,
+			actor = 107380,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -432,7 +432,7 @@ return {
 			}
 		},
 		{
-			actor = 107091,
+			actor = 107090,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -452,7 +452,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 107381,
+			actor = 107380,
 			nameColor = "#a9f548",
 			say = "ちょっと卑怯かもしれませんが、ここはエンタープライズ先輩対策の特訓でも組むとしましょう",
 			typewriter = {
@@ -469,7 +469,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 107381,
+			actor = 107380,
 			nameColor = "#a9f548",
 			say = "あ、指揮官も見学していただいて問題ありませんよ。秘密裏のものではありませんので",
 			typewriter = {

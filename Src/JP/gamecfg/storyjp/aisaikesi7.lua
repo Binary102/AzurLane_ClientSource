@@ -46,7 +46,7 @@ return {
 			}
 		},
 		{
-			actor = 107091,
+			actor = 107090,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -62,7 +62,7 @@ return {
 			}
 		},
 		{
-			actor = 107091,
+			actor = 107090,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -88,7 +88,7 @@ return {
 			}
 		},
 		{
-			actor = 107091,
+			actor = 107090,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -107,7 +107,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 107091,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "……あ、どうぞ！そのままお入りください！",
 			flashout = {
@@ -141,7 +141,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 107061,
+			actor = 107060,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -161,7 +161,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 107091,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "エンタープライズ先輩！なにかご用ですか？",
 			typewriter = {
@@ -174,7 +174,7 @@ return {
 			}
 		},
 		{
-			actor = 107061,
+			actor = 107060,
 			side = 1,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -193,7 +193,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 107091,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "少々お待ちください。指揮官、委託リストは手元の山の中にあるはずです",
 			typewriter = {
@@ -212,7 +212,7 @@ return {
 			}
 		},
 		{
-			actor = 107061,
+			actor = 107060,
 			side = 1,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -232,7 +232,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 107061,
+			actor = 107060,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -248,7 +248,7 @@ return {
 			}
 		},
 		{
-			actor = 107061,
+			actor = 107060,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -268,7 +268,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgName = "bg_story_task",
-			actor = 107091,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "私が変わった…？",
 			flashout = {
@@ -301,7 +301,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 107091,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "多分指揮官と長くいたおかげですね。秘書艦になってから、訓練もほかの子とのコミュニケーションも、指揮官には色々助けていただきました",
 			typewriter = {
@@ -324,7 +324,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 107091,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "そういう意味では、指揮官との仲も、ええと……",
 			typewriter = {
@@ -337,7 +337,7 @@ return {
 			}
 		},
 		{
-			actor = 107091,
+			actor = 107090,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -357,7 +357,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 107091,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "指揮官、実は私……",
 			typewriter = {
@@ -374,7 +374,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 107061,
+			actor = 107060,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -394,7 +394,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 107091,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "！！……/////////",
 			typewriter = {
@@ -412,7 +412,7 @@ return {
 			bgName = "bg_story_task",
 			withoutActorName = true,
 			dir = 1,
-			actor = 107091,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "エセックスの表情が不自然にちょっとだけ怖くなり、ドアを開けていたエンタープライズも気まずさで動きを止めた。",
 			typewriter = {
@@ -425,7 +425,7 @@ return {
 			}
 		},
 		{
-			actor = 107061,
+			actor = 107060,
 			side = 1,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",

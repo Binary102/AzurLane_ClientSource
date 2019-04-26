@@ -105,7 +105,7 @@ return {
 			}
 		},
 		{
-			actor = 405021,
+			actor = 405020,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -125,7 +125,7 @@ return {
 			side = 1,
 			bgName = "bg_story_nepu1",
 			dir = -1,
-			actor = 403031,
+			actor = 403030,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -141,7 +141,7 @@ return {
 			}
 		},
 		{
-			actor = 405021,
+			actor = 405020,
 			side = 0,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -157,7 +157,7 @@ return {
 			}
 		},
 		{
-			actor = 403031,
+			actor = 403030,
 			side = 1,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -176,7 +176,7 @@ return {
 			side = 0,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 403011,
+			actor = 403010,
 			nameColor = "#a9f548",
 			say = "はあ？なんで私が？",
 			typewriter = {
@@ -199,7 +199,7 @@ return {
 			}
 		},
 		{
-			actor = 403031,
+			actor = 403030,
 			side = 1,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -215,7 +215,7 @@ return {
 			}
 		},
 		{
-			actor = 405021,
+			actor = 405020,
 			side = 0,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -234,7 +234,7 @@ return {
 			side = 0,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 403011,
+			actor = 403010,
 			nameColor = "#a9f548",
 			say = "はあ！？こんな性格で悪かったわね！オイゲン！あんたまた私に殴られたいっての！？",
 			typewriter = {
@@ -260,7 +260,7 @@ return {
 			side = 1,
 			bgName = "bg_story_nepu1",
 			dir = -1,
-			actor = 403031,
+			actor = 403030,
 			nameColor = "#a9f548",
 			say = "ふふふ、どうかしら♪",
 			typewriter = {
@@ -290,7 +290,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 403011,
+			actor = 403010,
 			nameColor = "#a9f548",
 			say = "指揮官は関係ないっての！オイゲン！そこにいろ！逃げるな！今日こそこの私こそがヒッパー級の長女であることを思い知らせてやる！！",
 			typewriter = {
@@ -320,7 +320,7 @@ return {
 			}
 		},
 		{
-			actor = 405021,
+			actor = 405020,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -352,7 +352,7 @@ return {
 			}
 		},
 		{
-			actor = 405021,
+			actor = 405020,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -368,7 +368,7 @@ return {
 			}
 		},
 		{
-			actor = 405021,
+			actor = 405020,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",

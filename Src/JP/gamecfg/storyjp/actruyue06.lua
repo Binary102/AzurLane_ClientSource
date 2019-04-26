@@ -23,7 +23,7 @@ return {
 			bgmDelay = 2,
 			bgName = "bg_story_room",
 			bgm = "story-1",
-			actor = 312011,
+			actor = 312010,
 			nameColor = "#a9f548",
 			say = "よ、よしにゃ！睦月も悪かったって言ってるし、もう許してあげるにゃ！",
 			flashout = {
@@ -57,7 +57,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 312011,
+			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "そ、それににゃ！冬の服を着る事にはいいこともあるのにゃ！",
 			typewriter = {
@@ -75,12 +75,12 @@ return {
 			bgName = "bg_story_room",
 			hideOther = true,
 			dir = 1,
-			actor = 301321,
+			actor = 301320,
 			nameColor = "#a9f548",
 			say = "うん……？",
 			subActors = {
 				{
-					actor = 900068,
+					actor = 301331,
 					pos = {
 						x = 750
 					}
@@ -100,7 +100,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 312011,
+			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "ふふん、実はこれも用意したにゃ！",
 			typewriter = {
@@ -116,7 +116,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 312011,
+			actor = 312010,
 			dir = 1,
 			actorName = "{namecode:98}",
 			say = "『温度調節装置』にゃ！",
@@ -139,7 +139,7 @@ return {
 			say = "ただの冷風機でございますね…",
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 301181,
+			actor = 301180,
 			dir = 1,
 			actorName = "{namecode:20}",
 			nameColor = "#a9f548",
@@ -167,7 +167,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 312011,
+			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "こ、コホン！起動にゃ！",
 			typewriter = {
@@ -184,7 +184,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 301141,
+			actor = 301140,
 			actorName = "{namecode:16}",
 			say = "は…はくしょん！！",
 			typewriter = {
@@ -201,7 +201,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 307031,
+			actor = 307030,
 			actorName = "{namecode:93}",
 			say = "はあ…まあこれはこれで冬の雰囲気が出てるわね……",
 			typewriter = {
@@ -218,7 +218,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 312011,
+			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "というわけでにゃ！鍋大会を始めるにゃ！",
 			typewriter = {
@@ -235,7 +235,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgName = "bg_story_room",
-			actor = 301141,
+			actor = 301140,
 			nameColor = "#a9f548",
 			say = "お肉確保！かむかむ！",
 			flashout = {
@@ -270,7 +270,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 301151,
+			actor = 301150,
 			actorName = "{namecode:17}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -290,7 +290,7 @@ return {
 			side = 0,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 301141,
+			actor = 301140,
 			actorName = "{namecode:16}",
 			say = "ふっふん、弱肉強食ってやつだ！",
 			typewriter = {
@@ -307,7 +307,7 @@ return {
 			side = 1,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 301131,
+			actor = 301130,
 			actorName = "{namecode:15}",
 			say = "野菜も食べましょうよ……",
 			typewriter = {
@@ -324,7 +324,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgName = "bg_story_room",
-			actor = 307041,
+			actor = 307040,
 			nameColor = "#a9f548",
 			say = "ふぅ…シメのうどんも沁みますね！",
 			flashout = {
@@ -359,7 +359,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 307031,
+			actor = 307030,
 			actorName = "{namecode:93}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -379,7 +379,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 312011,
+			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "にゃははは！どんどん食べていいにゃ！",
 			typewriter = {
@@ -396,7 +396,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgName = "bg_story_room",
-			actor = 301321,
+			actor = 301320,
 			nameColor = "#a9f548",
 			say = "如月、ごめん…おにくとアメさんあげるから、もうおこらないで…",
 			flashout = {
@@ -431,7 +431,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 900068,
+			actor = 301331,
 			actorName = "{namecode:34}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -451,7 +451,7 @@ return {
 			side = 0,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 301321,
+			actor = 301320,
 			actorName = "{namecode:33}",
 			say = "うん！",
 			typewriter = {
@@ -468,7 +468,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgName = "bg_story_room",
-			actor = 312011,
+			actor = 312010,
 			nameColor = "#a9f548",
 			say = "グルメと科学の勝利にゃ！",
 			flashout = {
@@ -502,7 +502,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 312011,
+			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "ふにゃ！？…こ、これは……新しいビジネス――『真夏の特別鍋大会with冬服参加限定』にゃ！？",
 			typewriter = {
@@ -519,7 +519,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 301181,
+			actor = 301180,
 			actorName = "{namecode:20}",
 			say = "もううつけでございますね……",
 			typewriter = {
@@ -537,7 +537,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			blackBg = true,
-			actor = 900068,
+			actor = 301331,
 			actorName = "{namecode:34}",
 			say = "おなべはいいけど……つぎはふつうのをやってください……",
 			typewriter = {

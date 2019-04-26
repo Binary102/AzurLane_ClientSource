@@ -22,7 +22,7 @@ return {
 			bgName = "bg_night",
 			dir = 1,
 			bgm = "story-2",
-			actor = 306034,
+			actor = 306030,
 			nameColor = "#a9f548",
 			say = "宴は楽しいですが、宴が終わった後の静けさはなんだか寂しいですね……",
 			typewriter = {
@@ -39,7 +39,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 306034,
+			actor = 306030,
 			actorName = "{namecode:89}",
 			say = "あら？指揮官様？もうお休みになったと思ってましたけど…まだ起きていらっしゃったのですか？",
 			typewriter = {
@@ -56,7 +56,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 306034,
+			actor = 306030,
 			actorName = "{namecode:89}",
 			say = "この鳳翔と夜ザクラを見たい、ですか？",
 			typewriter = {
@@ -90,7 +90,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 306034,
+			actor = 306030,
 			actorName = "{namecode:89}",
 			say = "うふふ…それでしたら、少々お待ち下さい。今支度いたしますわ。",
 			typewriter = {
@@ -107,7 +107,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:89}",
-			actor = 900018,
+			actor = 306031,
 			nameColor = "#a9f548",
 			say = "「旦那さん、今宵のお花見お供させておくんなし」",
 			flashout = {
@@ -158,7 +158,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 900018,
+			actor = 306031,
 			actorName = "{namecode:89}",
 			say = "どうですか？…ドキドキしますか？指揮官様？",
 			typewriter = {
@@ -192,7 +192,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 900018,
+			actor = 306031,
 			actorName = "{namecode:89}",
 			say = "うふふ、指揮官様からお褒めの言葉をいただけるなんて…鳳翔は満足しましたわ。",
 			typewriter = {
@@ -209,7 +209,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 900018,
+			actor = 306031,
 			actorName = "{namecode:89}",
 			say = "では、続いては「月見酒」…月と夜ザクラの下で乾杯といたしましょうか？「旦那さま」？",
 			typewriter = {

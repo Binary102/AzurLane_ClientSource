@@ -22,7 +22,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			bgm = "story-1",
-			actor = 201094,
+			actor = 201090,
 			nameColor = "#a9f548",
 			say = "やっぱりあなただったのね…",
 			typewriter = {
@@ -39,7 +39,7 @@ return {
 			side = 0,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 201084,
+			actor = 201080,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -55,7 +55,7 @@ return {
 			}
 		},
 		{
-			actor = 201114,
+			actor = 201110,
 			nameColor = "#a9f548",
 			bgName = "bg_story_school",
 			side = 1,
@@ -71,7 +71,7 @@ return {
 			}
 		},
 		{
-			actor = 900078,
+			actor = 201101,
 			nameColor = "#a9f548",
 			bgName = "bg_story_school",
 			side = 0,
@@ -87,7 +87,7 @@ return {
 			}
 		},
 		{
-			actor = 207024,
+			actor = 207020,
 			nameColor = "#a9f548",
 			bgName = "bg_story_school",
 			side = 1,
@@ -103,7 +103,7 @@ return {
 			}
 		},
 		{
-			actor = 201094,
+			actor = 201090,
 			nameColor = "#a9f548",
 			bgName = "bg_story_school",
 			side = 0,
@@ -119,7 +119,7 @@ return {
 			}
 		},
 		{
-			actor = 201114,
+			actor = 201110,
 			nameColor = "#a9f548",
 			bgName = "bg_story_school",
 			side = 0,
@@ -135,7 +135,7 @@ return {
 			}
 		},
 		{
-			actor = 900078,
+			actor = 201101,
 			nameColor = "#a9f548",
 			bgName = "bg_story_school",
 			side = 0,
@@ -151,7 +151,7 @@ return {
 			}
 		},
 		{
-			actor = 207024,
+			actor = 207020,
 			nameColor = "#a9f548",
 			bgName = "bg_story_school",
 			side = 1,
@@ -167,7 +167,7 @@ return {
 			}
 		},
 		{
-			actor = 201084,
+			actor = 201080,
 			nameColor = "#a9f548",
 			bgName = "bg_story_school",
 			side = 0,
@@ -183,7 +183,7 @@ return {
 			}
 		},
 		{
-			actor = 207024,
+			actor = 207020,
 			nameColor = "#a9f548",
 			bgName = "bg_story_school",
 			side = 1,

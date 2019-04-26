@@ -64,7 +64,7 @@ return {
 			}
 		},
 		{
-			actor = 202201,
+			actor = 202200,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -84,7 +84,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 202201,
+			actor = 202200,
 			nameColor = "#a9f548",
 			say = "シリアスがお役に立てることがありましたら、なんでも仰ってくださいませ。メイド長ほどではございませんが、全力でご期待にお応えいたします",
 			typewriter = {
@@ -114,7 +114,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 202201,
+			actor = 202200,
 			nameColor = "#a9f548",
 			say = "…………？",
 			flashout = {
@@ -148,7 +148,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			withoutActorName = true,
-			actor = 202201,
+			actor = 202200,
 			nameColor = "#a9f548",
 			say = "シリアスは意味がわからなそうに頭をかしげた。",
 			typewriter = {
@@ -161,7 +161,7 @@ return {
 			}
 		},
 		{
-			actor = 202201,
+			actor = 202200,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -180,7 +180,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 202201,
+			actor = 202200,
 			nameColor = "#a9f548",
 			say = "申し訳ございません……昨日ご主人様がご覧になったかと思い、処分いたしました……",
 			typewriter = {
@@ -207,7 +207,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 202201,
+			actor = 202200,
 			nameColor = "#a9f548",
 			say = "す、すぐ見つけ出します！",
 			typewriter = {
@@ -246,7 +246,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 202201,
+			actor = 202200,
 			nameColor = "#a9f548",
 			say = "恐れ入りますがご主人様、掃除は…どこから始めればよろしいでしょうか？",
 			flashout = {
@@ -279,7 +279,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 202201,
+			actor = 202200,
 			nameColor = "#a9f548",
 			say = "恐縮ですが、お茶はいつもメイド隊の仲間に淹れていただいておりまして、シリアスは淹れたことがございません…",
 			flashout = {
@@ -350,7 +350,7 @@ return {
 			}
 		},
 		{
-			actor = 202201,
+			actor = 202200,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -370,7 +370,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 202201,
+			actor = 202200,
 			nameColor = "#a9f548",
 			say = "どうか…どうかこの卑しきメイドにお躾ください！",
 			typewriter = {

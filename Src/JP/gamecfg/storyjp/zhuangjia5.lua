@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "story-5",
-			actor = 403031,
+			actor = 403030,
 			say = "これ本当にマーシィドッグね…。嘘みたいな話だわ。",
 			flashout = {
 				dur = 0.5,
@@ -57,7 +57,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			side = 0,
 			bgName = "bg_night",
 			dir = 1,
@@ -72,7 +72,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 1,
 			bgName = "bg_night",
 			dir = 1,
@@ -106,7 +106,7 @@ return {
 			bgName = "bg_night",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
-			actor = 312011,
+			actor = 312010,
 			say = "おおおっ、凄まじい数の水柱だにゃ！",
 			flashout = {
 				dur = 0.5,
@@ -135,7 +135,7 @@ return {
 			}
 		},
 		{
-			actor = 107061,
+			actor = 107060,
 			side = 1,
 			bgName = "bg_night",
 			say = "新手の敵か！",
@@ -154,7 +154,7 @@ return {
 			}
 		},
 		{
-			actor = 301161,
+			actor = 301160,
 			side = 0,
 			bgName = "bg_night",
 			dir = 1,
@@ -169,7 +169,7 @@ return {
 			}
 		},
 		{
-			actor = 403031,
+			actor = 403030,
 			side = 0,
 			bgName = "bg_night",
 			dir = 1,
@@ -184,7 +184,7 @@ return {
 			}
 		},
 		{
-			actor = 107061,
+			actor = 107060,
 			side = 1,
 			bgName = "bg_night",
 			dir = 1,
@@ -225,7 +225,7 @@ return {
 			}
 		},
 		{
-			actor = 303031,
+			actor = 303030,
 			side = 0,
 			bgName = "bg_night",
 			hideOther = true,
@@ -241,7 +241,7 @@ return {
 			}
 		},
 		{
-			actor = 107061,
+			actor = 107060,
 			side = 1,
 			bgName = "bg_night",
 			dir = 1,
@@ -319,7 +319,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
@@ -386,7 +386,7 @@ return {
 			}
 		},
 		{
-			actor = 303031,
+			actor = 303030,
 			side = 0,
 			bgName = "bg_night",
 			hideOther = true,
@@ -398,7 +398,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 1,
 			bgName = "bg_night",
 			dir = 1,
@@ -438,7 +438,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
@@ -459,7 +459,7 @@ return {
 			}
 		},
 		{
-			actor = 107061,
+			actor = 107060,
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
@@ -478,7 +478,7 @@ return {
 			side = 0,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 301161,
+			actor = 301160,
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -509,7 +509,7 @@ return {
 			}
 		},
 		{
-			actor = 303031,
+			actor = 303030,
 			side = 0,
 			bgName = "bg_night",
 			dir = 1,
@@ -524,7 +524,7 @@ return {
 			}
 		},
 		{
-			actor = 107061,
+			actor = 107060,
 			side = 1,
 			bgName = "bg_night",
 			dir = 1,
@@ -542,7 +542,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 301161,
+			actor = 301160,
 			say = "おお、あの緑のやつがテスターβにたどり着いたのだ。",
 			flashout = {
 				dur = 0.5,
@@ -641,7 +641,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 307061,
+			actor = 307060,
 			say = "懐に入り込んで肉薄しながら小刻みにダメージを与えてる…。セイレーン相手にあんな戦い方ができるなんて…。",
 			flashout = {
 				dur = 0.5,
@@ -725,7 +725,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
@@ -740,7 +740,7 @@ return {
 			}
 		},
 		{
-			actor = 403031,
+			actor = 403030,
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
@@ -759,7 +759,7 @@ return {
 			bgName = "bg_night",
 			dir = 1,
 			hideOther = true,
-			actor = 307061,
+			actor = 307060,
 			say = "ああっ、マーシィドッグが何発か喰らった。",
 			flashout = {
 				dur = 0.5,
@@ -788,7 +788,7 @@ return {
 			}
 		},
 		{
-			actor = 303031,
+			actor = 303030,
 			side = 1,
 			bgName = "bg_night",
 			dir = -1,
@@ -803,7 +803,7 @@ return {
 			}
 		},
 		{
-			actor = 107061,
+			actor = 107060,
 			side = 1,
 			bgName = "bg_night",
 			dir = 1,
@@ -874,7 +874,7 @@ return {
 			}
 		},
 		{
-			actor = 301161,
+			actor = 301160,
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
@@ -899,7 +899,7 @@ return {
 			}
 		},
 		{
-			actor = 403031,
+			actor = 403030,
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
@@ -931,7 +931,7 @@ return {
 			}
 		},
 		{
-			actor = 107061,
+			actor = 107060,
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
@@ -946,7 +946,7 @@ return {
 			}
 		},
 		{
-			actor = 303031,
+			actor = 303030,
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
@@ -961,7 +961,7 @@ return {
 			}
 		},
 		{
-			actor = 403031,
+			actor = 403030,
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,

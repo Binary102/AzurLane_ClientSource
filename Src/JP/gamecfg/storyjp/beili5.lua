@@ -59,7 +59,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 101271,
+			actor = 101270,
 			nameColor = "#a9f548",
 			say = "んん……よいっしょ……",
 			flashout = {
@@ -99,7 +99,7 @@ return {
 			}
 		},
 		{
-			actor = 101271,
+			actor = 101270,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -115,7 +115,7 @@ return {
 			}
 		},
 		{
-			actor = 101271,
+			actor = 101270,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -144,7 +144,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 101271,
+			actor = 101270,
 			nameColor = "#a9f548",
 			say = "指揮官も見に来ない？ウサウサ、すっごく可愛いんだから～",
 			typewriter = {
@@ -190,7 +190,7 @@ return {
 			}
 		},
 		{
-			actor = 101271,
+			actor = 101270,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -216,7 +216,7 @@ return {
 			}
 		},
 		{
-			actor = 101271,
+			actor = 101270,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -245,7 +245,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 101271,
+			actor = 101270,
 			nameColor = "#a9f548",
 			say = "あまり走っちゃダメだよー。今ベイリーが牧草と水を補充してあげるから～",
 			typewriter = {
@@ -264,7 +264,7 @@ return {
 			}
 		},
 		{
-			actor = 101271,
+			actor = 101270,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -280,7 +280,7 @@ return {
 			}
 		},
 		{
-			actor = 101271,
+			actor = 101270,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -306,7 +306,7 @@ return {
 			}
 		},
 		{
-			actor = 101271,
+			actor = 101270,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -322,7 +322,7 @@ return {
 			}
 		},
 		{
-			actor = 101271,
+			actor = 101270,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",

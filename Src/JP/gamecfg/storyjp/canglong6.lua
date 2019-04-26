@@ -47,7 +47,7 @@ return {
 			}
 		},
 		{
-			actor = 307031,
+			actor = 307030,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -73,7 +73,7 @@ return {
 			}
 		},
 		{
-			actor = 307031,
+			actor = 307030,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -89,7 +89,7 @@ return {
 			}
 		},
 		{
-			actor = 307031,
+			actor = 307030,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -119,7 +119,7 @@ return {
 			}
 		},
 		{
-			actor = 307031,
+			actor = 307030,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -138,7 +138,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 307031,
+			actor = 307030,
 			nameColor = "#a9f548",
 			say = "明石、買いたいものはこれです。あと不知火、ラッピングのほうもお願いしますね",
 			flashout = {
@@ -168,7 +168,7 @@ return {
 			}
 		},
 		{
-			actor = 301181,
+			actor = 301180,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -184,7 +184,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -213,7 +213,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_105",
 			dir = 1,
-			actor = 307041,
+			actor = 307040,
 			nameColor = "#a9f548",
 			say = "あれは？ね、姉様……！？",
 			flashout = {
@@ -257,7 +257,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_105",
 			dir = 1,
-			actor = 307031,
+			actor = 307030,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -273,7 +273,7 @@ return {
 			}
 		},
 		{
-			actor = 307041,
+			actor = 307040,
 			side = 0,
 			bgName = "star_level_bg_105",
 			nameColor = "#a9f548",
@@ -289,7 +289,7 @@ return {
 			}
 		},
 		{
-			actor = 307031,
+			actor = 307030,
 			side = 1,
 			bgName = "star_level_bg_105",
 			nameColor = "#a9f548",
@@ -305,7 +305,7 @@ return {
 			}
 		},
 		{
-			actor = 307041,
+			actor = 307040,
 			side = 0,
 			bgName = "star_level_bg_105",
 			nameColor = "#a9f548",
@@ -334,7 +334,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 307031,
+			actor = 307030,
 			nameColor = "#a9f548",
 			say = "ディナーを用意してくれてありがとうございます。比叡",
 			flashout = {
@@ -364,7 +364,7 @@ return {
 			}
 		},
 		{
-			actor = 304021,
+			actor = 304020,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -393,7 +393,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 307031,
+			actor = 307030,
 			nameColor = "#a9f548",
 			say = "指揮官、今日のデートはご満足いただけたでしょうか？",
 			typewriter = {
@@ -416,7 +416,7 @@ return {
 			}
 		},
 		{
-			actor = 307031,
+			actor = 307030,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",

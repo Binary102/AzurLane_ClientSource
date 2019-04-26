@@ -107,7 +107,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "本当に寝たの？もしかしてタヌキ寝入りってやつ？",
 			typewriter = {
@@ -124,7 +124,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "……もう、寝たんならしょうがないね……",
 			typewriter = {
@@ -142,7 +142,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			bgm = "story-2",
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "……（スリスリ）",
 			typewriter = {
@@ -159,7 +159,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "ねえ、指揮官……あたし、指揮官にたくさん伝えたいことがあるの。",
 			typewriter = {
@@ -172,7 +172,7 @@ return {
 			}
 		},
 		{
-			actor = 108021,
+			actor = 108020,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -188,7 +188,7 @@ return {
 			}
 		},
 		{
-			actor = 108021,
+			actor = 108020,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -204,7 +204,7 @@ return {
 			}
 		},
 		{
-			actor = 108021,
+			actor = 108020,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -220,7 +220,7 @@ return {
 			}
 		},
 		{
-			actor = 108021,
+			actor = 108020,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -240,7 +240,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "……とにかくあたし、艦隊のみんなが大好きだよ。",
 			typewriter = {
@@ -257,7 +257,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "それと指揮官、ずっとイジっちゃってるけど、本当は――",
 			typewriter = {
@@ -280,7 +280,7 @@ return {
 			}
 		},
 		{
-			actor = 108021,
+			actor = 108020,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -300,7 +300,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "それと、明日にでもサプライズを用意するからね♪……だって、せっかくあたしがイイコトを話してあげたのに、ずっと寝たフリしてたもん。ちょっとだけ痛い目にあってもらわないと、へへへ♪",
 			typewriter = {
@@ -345,7 +345,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 201211,
+			actor = 201210,
 			nameColor = "#a9f548",
 			say = "ほ、ほほほ本当ですか？！指揮官はアルバコアと同じ部屋で一晩過ごしたのですか！？",
 			typewriter = {
@@ -368,7 +368,7 @@ return {
 			}
 		},
 		{
-			actor = 301051,
+			actor = 301050,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -384,7 +384,7 @@ return {
 			}
 		},
 		{
-			actor = 401231,
+			actor = 401230,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -400,7 +400,7 @@ return {
 			}
 		},
 		{
-			actor = 101171,
+			actor = 101170,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",

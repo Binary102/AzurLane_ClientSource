@@ -76,7 +76,7 @@ return {
 			}
 		},
 		{
-			actor = 303121,
+			actor = 303120,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -91,7 +91,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 303121,
+			actor = 303120,
 			nameColor = "#a9f548",
 			say = "明日は非番だから指揮官は休んでいいわ。宿直はお姉さんに任せて。",
 			typewriter = {
@@ -110,7 +110,7 @@ return {
 			}
 		},
 		{
-			actor = 303121,
+			actor = 303120,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -126,7 +126,7 @@ return {
 			}
 		},
 		{
-			actor = 303121,
+			actor = 303120,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -142,7 +142,7 @@ return {
 			}
 		},
 		{
-			actor = 303121,
+			actor = 303120,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -161,7 +161,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 303121,
+			actor = 303120,
 			nameColor = "#a9f548",
 			say = "それで？どんな物を買うの？",
 			typewriter = {
@@ -180,7 +180,7 @@ return {
 			}
 		},
 		{
-			actor = 303121,
+			actor = 303120,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -196,7 +196,7 @@ return {
 			}
 		},
 		{
-			actor = 303121,
+			actor = 303120,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -212,7 +212,7 @@ return {
 			}
 		},
 		{
-			actor = 303121,
+			actor = 303120,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -228,7 +228,7 @@ return {
 			}
 		},
 		{
-			actor = 303121,
+			actor = 303120,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",

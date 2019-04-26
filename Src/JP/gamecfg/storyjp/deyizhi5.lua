@@ -56,7 +56,7 @@ return {
 			}
 		},
 		{
-			actor = 404021,
+			actor = 404020,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -72,7 +72,7 @@ return {
 			}
 		},
 		{
-			actor = 404021,
+			actor = 404020,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -92,7 +92,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 403041,
+			actor = 403040,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -118,7 +118,7 @@ return {
 			}
 		},
 		{
-			actor = 404021,
+			actor = 404020,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -134,7 +134,7 @@ return {
 			}
 		},
 		{
-			actor = 404021,
+			actor = 404020,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -177,7 +177,7 @@ return {
 			}
 		},
 		{
-			actor = 404021,
+			actor = 404020,
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -186,7 +186,7 @@ return {
 			say = "では、オイゲン、シュペー、ティルピッツ、そしてZ1。来てくれてありがとうございます。",
 			subActors = {
 				{
-					actor = 403041,
+					actor = 403040,
 					pos = {
 						x = 1000
 					}
@@ -202,7 +202,7 @@ return {
 			}
 		},
 		{
-			actor = 403051,
+			actor = 403050,
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -211,7 +211,7 @@ return {
 			say = "やっぱり……ドイッチュラントのこと？",
 			subActors = {
 				{
-					actor = 403041,
+					actor = 403040,
 					pos = {
 						x = 1000
 					}
@@ -227,7 +227,7 @@ return {
 			}
 		},
 		{
-			actor = 404021,
+			actor = 404020,
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -236,7 +236,7 @@ return {
 			say = "はい。あの子が楽しく生きていられるよう、私達は可能な限りあの子のワガママに付き合うと約束しました。",
 			subActors = {
 				{
-					actor = 403041,
+					actor = 403040,
 					pos = {
 						x = 1000
 					}
@@ -252,7 +252,7 @@ return {
 			}
 		},
 		{
-			actor = 404021,
+			actor = 404020,
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -261,7 +261,7 @@ return {
 			say = "……みんなはこのことを覚えていますよね？",
 			subActors = {
 				{
-					actor = 403041,
+					actor = 403040,
 					pos = {
 						x = 1000
 					}
@@ -280,7 +280,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 403041,
+			actor = 403040,
 			nameColor = "#a9f548",
 			say = "！？……今、なんて……",
 			typewriter = {
@@ -312,7 +312,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 403041,
+			actor = 403040,
 			nameColor = "#a9f548",
 			say = "離せ……！",
 			typewriter = {
@@ -345,7 +345,7 @@ return {
 			}
 		},
 		{
-			actor = 403041,
+			actor = 403040,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -361,7 +361,7 @@ return {
 			}
 		},
 		{
-			actor = 403041,
+			actor = 403040,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -377,7 +377,7 @@ return {
 			}
 		},
 		{
-			actor = 403031,
+			actor = 403030,
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -386,7 +386,7 @@ return {
 			say = "そうね。確かそう約束したわ。……まああの子にはもう慣れちゃったから、約束なんてなくたってどうでもいいけど。",
 			subActors = {
 				{
-					actor = 403041,
+					actor = 403040,
 					pos = {
 						x = 1000
 					}
@@ -402,7 +402,7 @@ return {
 			}
 		},
 		{
-			actor = 405021,
+			actor = 405020,
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -411,7 +411,7 @@ return {
 			say = "だが、気遣いとはいえ、あの子にとって悪いことをしたのも事実。",
 			subActors = {
 				{
-					actor = 403041,
+					actor = 403040,
 					pos = {
 						x = 1000
 					}
@@ -427,7 +427,7 @@ return {
 			}
 		},
 		{
-			actor = 404021,
+			actor = 404020,
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -436,7 +436,7 @@ return {
 			say = "はい。ほかの子にも迷惑がかかりました。そしてあの子は私達が気を使っていたことに気づいて余計に傷ついています。",
 			subActors = {
 				{
-					actor = 403041,
+					actor = 403040,
 					pos = {
 						x = 1000
 					}
@@ -452,7 +452,7 @@ return {
 			}
 		},
 		{
-			actor = 404021,
+			actor = 404020,
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -461,7 +461,7 @@ return {
 			say = "ですから、これからどうするかを議論するためにみんなを集めました。",
 			subActors = {
 				{
-					actor = 403041,
+					actor = 403040,
 					pos = {
 						x = 1000
 					}
@@ -477,7 +477,7 @@ return {
 			}
 		},
 		{
-			actor = 403041,
+			actor = 403040,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -493,7 +493,7 @@ return {
 			}
 		},
 		{
-			actor = 403041,
+			actor = 403040,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -513,7 +513,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			actor = 403041,
+			actor = 403040,
 			nameColor = "#a9f548",
 			say = "（小声）下僕、わたしはどうしたら……",
 			typewriter = {

@@ -16,7 +16,7 @@ return {
 			}
 		},
 		{
-			actor = 401234,
+			actor = 401230,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -31,7 +31,7 @@ return {
 			}
 		},
 		{
-			actor = 201214,
+			actor = 201210,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
@@ -50,7 +50,7 @@ return {
 			}
 		},
 		{
-			actor = 101174,
+			actor = 101170,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -65,7 +65,7 @@ return {
 			}
 		},
 		{
-			actor = 201214,
+			actor = 201210,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -80,7 +80,7 @@ return {
 			}
 		},
 		{
-			actor = 101174,
+			actor = 101170,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -95,7 +95,7 @@ return {
 			}
 		},
 		{
-			actor = 401234,
+			actor = 401230,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -110,7 +110,7 @@ return {
 			}
 		},
 		{
-			actor = 201214,
+			actor = 201210,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -125,7 +125,7 @@ return {
 			}
 		},
 		{
-			actor = 401234,
+			actor = 401230,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -140,7 +140,7 @@ return {
 			}
 		},
 		{
-			actor = 201214,
+			actor = 201210,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -155,7 +155,7 @@ return {
 			}
 		},
 		{
-			actor = 201214,
+			actor = 201210,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -170,7 +170,7 @@ return {
 			}
 		},
 		{
-			actor = 401234,
+			actor = 401230,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -185,7 +185,7 @@ return {
 			}
 		},
 		{
-			actor = 101174,
+			actor = 101170,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -200,7 +200,7 @@ return {
 			}
 		},
 		{
-			actor = 401234,
+			actor = 401230,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -215,7 +215,7 @@ return {
 			}
 		},
 		{
-			actor = 301054,
+			actor = 301050,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
@@ -234,7 +234,7 @@ return {
 			side = 1,
 			say = "うわぁぁぁ！あ、綾波！？",
 			dir = 1,
-			actor = 401234,
+			actor = 401230,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -256,7 +256,7 @@ return {
 			}
 		},
 		{
-			actor = 201214,
+			actor = 201210,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -271,7 +271,7 @@ return {
 			}
 		},
 		{
-			actor = 401234,
+			actor = 401230,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -286,7 +286,7 @@ return {
 			}
 		},
 		{
-			actor = 301054,
+			actor = 301050,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
@@ -302,7 +302,7 @@ return {
 			}
 		},
 		{
-			actor = 201214,
+			actor = 201210,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -317,7 +317,7 @@ return {
 			}
 		},
 		{
-			actor = 301054,
+			actor = 301050,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
@@ -333,7 +333,7 @@ return {
 			}
 		},
 		{
-			actor = 201214,
+			actor = 201210,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -348,7 +348,7 @@ return {
 			}
 		},
 		{
-			actor = 401234,
+			actor = 401230,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -363,7 +363,7 @@ return {
 			}
 		},
 		{
-			actor = 101174,
+			actor = 101170,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -378,7 +378,7 @@ return {
 			}
 		},
 		{
-			actor = 201214,
+			actor = 201210,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -398,12 +398,12 @@ return {
 			actorName = "{namecode:6}&Z23",
 			hideOther = true,
 			dir = 1,
-			actor = 301054,
+			actor = 301050,
 			nameColor = "#a9f548",
 			say = "はい！",
 			subActors = {
 				{
-					actor = 401234,
+					actor = 401230,
 					pos = {
 						x = 685
 					}
@@ -419,7 +419,7 @@ return {
 			}
 		},
 		{
-			actor = 101174,
+			actor = 101170,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -438,7 +438,7 @@ return {
 			side = 0,
 			dir = 1,
 			blackBg = true,
-			actor = 201214,
+			actor = 201210,
 			nameColor = "#a9f548",
 			say = "えへへへ、よいではないか～よいではないか～",
 			flashout = {
@@ -473,7 +473,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			actor = 301054,
+			actor = 301050,
 			actorName = "{namecode:6}",
 			say = "ラフィーの肌…すべすべ――",
 			typewriter = {
@@ -490,7 +490,7 @@ return {
 			side = 0,
 			dir = 1,
 			blackBg = true,
-			actor = 101174,
+			actor = 101170,
 			nameColor = "#a9f548",
 			say = "かゆ…さむ――",
 			typewriter = {
@@ -507,7 +507,7 @@ return {
 			side = 0,
 			dir = 1,
 			blackBg = true,
-			actor = 401234,
+			actor = 401230,
 			nameColor = "#a9f548",
 			say = "なんかちょっと変だけど…まぁいいか――",
 			typewriter = {
@@ -522,7 +522,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			actor = 201214,
+			actor = 201210,
 			nameColor = "#a9f548",
 			say = "変身完了～ラフィーちゃん、どう？",
 			flashout = {
@@ -552,7 +552,7 @@ return {
 			}
 		},
 		{
-			actor = 900065,
+			actor = 101172,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -571,7 +571,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 301054,
+			actor = 301050,
 			actorName = "{namecode:6}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -587,7 +587,7 @@ return {
 			}
 		},
 		{
-			actor = 401234,
+			actor = 401230,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -602,7 +602,7 @@ return {
 			}
 		},
 		{
-			actor = 201214,
+			actor = 201210,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -617,7 +617,7 @@ return {
 			}
 		},
 		{
-			actor = 301054,
+			actor = 301050,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -633,7 +633,7 @@ return {
 			}
 		},
 		{
-			actor = 900065,
+			actor = 101172,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -648,7 +648,7 @@ return {
 			}
 		},
 		{
-			actor = 401234,
+			actor = 401230,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -663,7 +663,7 @@ return {
 			}
 		},
 		{
-			actor = 201214,
+			actor = 201210,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -678,7 +678,7 @@ return {
 			}
 		},
 		{
-			actor = 301054,
+			actor = 301050,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
@@ -698,18 +698,18 @@ return {
 			side = 0,
 			actorName = "みんな",
 			hideOther = true,
-			actor = 401234,
+			actor = 401230,
 			nameColor = "#a9f548",
 			say = "……",
 			subActors = {
 				{
-					actor = 900065,
+					actor = 101172,
 					pos = {
 						x = 350
 					}
 				},
 				{
-					actor = 201214,
+					actor = 201210,
 					pos = {
 						x = 750
 					}

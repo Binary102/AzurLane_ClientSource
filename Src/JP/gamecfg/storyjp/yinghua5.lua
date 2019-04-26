@@ -33,7 +33,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 2,
 			say = "陸奥、見てくれ。次の神儀はこの身構えで良いのだろうか？",
 			dir = 1,
@@ -49,7 +49,7 @@ return {
 			}
 		},
 		{
-			actor = 305061,
+			actor = 305060,
 			side = 0,
 			say = "ん？少しそのままでいてね～うーん、少しバカっぽい？手を真っ直ぐ伸ばしてみたらどうかな？",
 			dir = 1,
@@ -68,7 +68,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 1,
 			dir = 1,
 			blackBg = true,
@@ -83,7 +83,7 @@ return {
 			}
 		},
 		{
-			actor = 305061,
+			actor = 305060,
 			side = 0,
 			dir = 1,
 			blackBg = true,
@@ -98,7 +98,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 1,
 			dir = 1,
 			blackBg = true,
@@ -113,7 +113,7 @@ return {
 			}
 		},
 		{
-			actor = 305061,
+			actor = 305060,
 			side = 0,
 			dir = 1,
 			blackBg = true,
@@ -136,7 +136,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -151,7 +151,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 2,
 			dir = 1,
 			blackBg = true,

@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 205074,
+			actor = 205070,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
@@ -23,7 +23,7 @@ return {
 			}
 		},
 		{
-			actor = 205074,
+			actor = 205070,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -38,7 +38,7 @@ return {
 			}
 		},
 		{
-			actor = 207044,
+			actor = 207040,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
@@ -57,7 +57,7 @@ return {
 			}
 		},
 		{
-			actor = 205074,
+			actor = 205070,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -72,7 +72,7 @@ return {
 			}
 		},
 		{
-			actor = 205074,
+			actor = 205070,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -109,7 +109,7 @@ return {
 			}
 		},
 		{
-			actor = 207044,
+			actor = 207040,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -124,7 +124,7 @@ return {
 			}
 		},
 		{
-			actor = 205074,
+			actor = 205070,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -143,7 +143,7 @@ return {
 			}
 		},
 		{
-			actor = 207044,
+			actor = 207040,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -158,7 +158,7 @@ return {
 			}
 		},
 		{
-			actor = 205074,
+			actor = 205070,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -173,7 +173,7 @@ return {
 			}
 		},
 		{
-			actor = 205074,
+			actor = 205070,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -188,7 +188,7 @@ return {
 			}
 		},
 		{
-			actor = 205074,
+			actor = 205070,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -203,7 +203,7 @@ return {
 			}
 		},
 		{
-			actor = 205074,
+			actor = 205070,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -218,7 +218,7 @@ return {
 			}
 		},
 		{
-			actor = 207044,
+			actor = 207040,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -233,7 +233,7 @@ return {
 			}
 		},
 		{
-			actor = 205074,
+			actor = 205070,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -248,7 +248,7 @@ return {
 			}
 		},
 		{
-			actor = 205074,
+			actor = 205070,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,

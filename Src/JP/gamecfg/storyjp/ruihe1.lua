@@ -62,7 +62,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			actorName = "{namecode:96}",
-			actor = 307064,
+			actor = 307060,
 			nameColor = "#a9f548",
 			say = "ぐう…はぁ…ぐう…Zzzzzzz",
 			flashout = {
@@ -96,7 +96,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 307054,
+			actor = 307050,
 			actorName = "{namecode:95}",
 			say = "こんな感じです…指揮官、申し訳ございません…",
 			typewriter = {
@@ -123,7 +123,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 307054,
+			actor = 307050,
 			actorName = "{namecode:95}",
 			say = "昨晩の特訓で張り切りすぎたのかしら…いつもは私より早く起きてくるのに…。",
 			typewriter = {
@@ -141,7 +141,7 @@ return {
 			bgName = "bg_story_room",
 			actorName = "{namecode:96}",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			nameColor = "#a9f548",
 			withoutPainting = true,
 			typewriter = {
@@ -158,7 +158,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 307054,
+			actor = 307050,
 			actorName = "{namecode:95}",
 			say = "もう…昨日も片づけたのにまたこんなに散らかしちゃって……。",
 			typewriter = {
@@ -175,7 +175,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 307054,
+			actor = 307050,
 			actorName = "{namecode:95}",
 			say = "ほら瑞鶴起きて、指揮官が来ているのよ？",
 			typewriter = {
@@ -193,7 +193,7 @@ return {
 			bgName = "bg_story_room",
 			actorName = "{namecode:96}",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -239,7 +239,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 307054,
+			actor = 307050,
 			actorName = "{namecode:95}",
 			say = "あらら…片づけはお姉ちゃんに任せて、もう早く支度して？",
 			typewriter = {
@@ -256,7 +256,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 307054,
+			actor = 307050,
 			actorName = "{namecode:95}",
 			say = "…指揮官が待っているからね？うふふ",
 			typewriter = {
@@ -275,7 +275,7 @@ return {
 			actorName = "{namecode:96}",
 			dir = 1,
 			blackBg = true,
-			actor = 307064,
+			actor = 307060,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,

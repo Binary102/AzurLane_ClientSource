@@ -4,7 +4,7 @@ return {
 	once = true,
 	scripts = {
 		{
-			actor = 107061,
+			actor = 107060,
 			side = 2,
 			dir = -1,
 			nameColor = "#a9f548",
@@ -26,7 +26,7 @@ return {
 			side = 1,
 			say = "どんなにずる賢い狐も尻尾を隠しきれないんだよね、へへへ",
 			dir = -1,
-			actor = 107071,
+			actor = 107070,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -46,7 +46,7 @@ return {
 			}
 		},
 		{
-			actor = 107051,
+			actor = 107050,
 			side = 1,
 			nameColor = "#a9f548",
 			say = "AFの場所がわかったのなら、そろそろ出動しないと。",
@@ -64,7 +64,7 @@ return {
 			}
 		},
 		{
-			actor = 107061,
+			actor = 107060,
 			side = 0,
 			dir = -1,
 			nameColor = "#a9f548",
@@ -83,7 +83,7 @@ return {
 			}
 		},
 		{
-			actor = 107051,
+			actor = 107050,
 			side = 1,
 			nameColor = "#a9f548",
 			say = "大丈夫よ。3日間しか無かったけど、応急修理でだいぶ回復できたわ。",
@@ -101,7 +101,7 @@ return {
 			}
 		},
 		{
-			actor = 107051,
+			actor = 107050,
 			side = 1,
 			nameColor = "#a9f548",
 			say = "エンタープライズちゃんこそ大丈夫？私のせいで怪我したら、ヴェスタルさんに顔向けできないのよ？",
@@ -119,7 +119,7 @@ return {
 			}
 		},
 		{
-			actor = 107061,
+			actor = 107060,
 			side = 0,
 			dir = -1,
 			nameColor = "#a9f548",
@@ -138,7 +138,7 @@ return {
 			}
 		},
 		{
-			actor = 107051,
+			actor = 107050,
 			side = 1,
 			nameColor = "#a9f548",
 			say = "せっかく私たち全員揃っているから、ヨークタウン級の実力を相手に見せつけないと！",
@@ -159,14 +159,14 @@ return {
 			actorShadow = true,
 			side = 0,
 			actorName = "エンタープライズ＆ホーネット",
-			actor = 107061,
+			actor = 107060,
 			dir = -1,
 			hideOther = true,
 			nameColor = "#a9f548",
 			say = "はい！「ーー青き自由のために、ユニオンに栄光を！」",
 			subActors = {
 				{
-					actor = 107071,
+					actor = 107070,
 					pos = {
 						x = -550
 					}
@@ -178,7 +178,7 @@ return {
 			}
 		},
 		{
-			actor = 107051,
+			actor = 107050,
 			side = 2,
 			nameColor = "#a9f548",
 			say = "ユニオンタスクフォース16、17、出撃！",

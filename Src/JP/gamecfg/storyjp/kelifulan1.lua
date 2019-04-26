@@ -31,7 +31,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 102091,
+			actor = 102090,
 			nameColor = "#a9f548",
 			say = "指揮官、バスケの試合に参加してみない？",
 			typewriter = {
@@ -57,7 +57,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 102091,
+			actor = 102090,
 			nameColor = "#a9f548",
 			say = "兄貴って呼ぶなぁ！……って、指揮官がするんじゃなくて、監督として私のチームに参加してほしいのさ！",
 			action = {
@@ -79,7 +79,7 @@ return {
 			}
 		},
 		{
-			actor = 102091,
+			actor = 102090,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -95,7 +95,7 @@ return {
 			}
 		},
 		{
-			actor = 102091,
+			actor = 102090,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -111,7 +111,7 @@ return {
 			}
 		},
 		{
-			actor = 102091,
+			actor = 102090,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -127,7 +127,7 @@ return {
 			}
 		},
 		{
-			actor = 102091,
+			actor = 102090,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -156,7 +156,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 102091,
+			actor = 102090,
 			nameColor = "#a9f548",
 			say = "……引き受けてくれるのか？やったー！さっすがは指揮官、話がわかる！",
 			action = {
@@ -178,7 +178,7 @@ return {
 			}
 		},
 		{
-			actor = 102091,
+			actor = 102090,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -194,7 +194,7 @@ return {
 			}
 		},
 		{
-			actor = 102091,
+			actor = 102090,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -210,7 +210,7 @@ return {
 			}
 		},
 		{
-			actor = 102091,
+			actor = 102090,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",

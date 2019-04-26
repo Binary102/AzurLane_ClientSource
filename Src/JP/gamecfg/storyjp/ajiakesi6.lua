@@ -21,7 +21,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			bgm = "story-2",
-			actor = 202031,
+			actor = 202030,
 			nameColor = "#a9f548",
 			say = "はくしょん！……",
 			typewriter = {
@@ -62,7 +62,7 @@ return {
 			}
 		},
 		{
-			actor = 202031,
+			actor = 202030,
 			nameColor = "#a9f548",
 			bgName = "bg_story_room",
 			side = 2,
@@ -78,7 +78,7 @@ return {
 			}
 		},
 		{
-			actor = 202031,
+			actor = 202030,
 			nameColor = "#a9f548",
 			bgName = "bg_story_room",
 			side = 2,
@@ -94,7 +94,7 @@ return {
 			}
 		},
 		{
-			actor = 202031,
+			actor = 202030,
 			nameColor = "#a9f548",
 			bgName = "bg_story_room",
 			side = 2,
@@ -110,7 +110,7 @@ return {
 			}
 		},
 		{
-			actor = 202031,
+			actor = 202030,
 			nameColor = "#a9f548",
 			bgName = "bg_story_room",
 			side = 2,
@@ -140,7 +140,7 @@ return {
 			}
 		},
 		{
-			actor = 202031,
+			actor = 202030,
 			nameColor = "#a9f548",
 			bgName = "bg_story_room",
 			side = 2,
@@ -156,7 +156,7 @@ return {
 			}
 		},
 		{
-			actor = 202031,
+			actor = 202030,
 			nameColor = "#a9f548",
 			bgName = "bg_story_room",
 			side = 2,
@@ -172,7 +172,7 @@ return {
 			}
 		},
 		{
-			actor = 202031,
+			actor = 202030,
 			nameColor = "#a9f548",
 			bgName = "bg_story_room",
 			side = 2,
@@ -188,7 +188,7 @@ return {
 			}
 		},
 		{
-			actor = 202031,
+			actor = 202030,
 			nameColor = "#a9f548",
 			bgName = "bg_story_room",
 			side = 2,
@@ -204,7 +204,7 @@ return {
 			}
 		},
 		{
-			actor = 202031,
+			actor = 202030,
 			nameColor = "#a9f548",
 			bgName = "bg_story_room",
 			side = 2,
@@ -234,7 +234,7 @@ return {
 			}
 		},
 		{
-			actor = 202031,
+			actor = 202030,
 			nameColor = "#a9f548",
 			bgName = "bg_story_room",
 			side = 2,
@@ -253,7 +253,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 202031,
+			actor = 202030,
 			nameColor = "#a9f548",
 			say = "あなた……なんで……",
 			typewriter = {
@@ -272,7 +272,7 @@ return {
 			}
 		},
 		{
-			actor = 202031,
+			actor = 202030,
 			nameColor = "#a9f548",
 			bgName = "bg_story_room",
 			side = 2,

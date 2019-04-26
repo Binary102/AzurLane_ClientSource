@@ -4,7 +4,7 @@ return {
 	once = true,
 	scripts = {
 		{
-			actor = 306051,
+			actor = 306050,
 			side = 2,
 			nameColor = "#ff0000",
 			say = "吾輩としたことか突っ込み過ぎた……不覚や…",

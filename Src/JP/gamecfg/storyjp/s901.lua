@@ -4,12 +4,12 @@ return {
 	type = 2,
 	scripts = {
 		{
-			actor = 101031,
+			actor = 101030,
 			side = 0,
 			say = "有人吗"
 		},
 		{
-			actor = 101031,
+			actor = 101030,
 			side = 1,
 			say = "谁？",
 			options = {
@@ -27,7 +27,7 @@ return {
 			}
 		},
 		{
-			actor = 101031,
+			actor = 101030,
 			side = 0,
 			say = "是我,"
 		},
@@ -35,7 +35,7 @@ return {
 			say = "老王!"
 		},
 		{
-			actor = 101031,
+			actor = 101030,
 			side = 0,
 			say = "我就是试一下剧情模块。"
 		},
@@ -44,7 +44,7 @@ return {
 			say = "接下来有个新手引导，需要你完成一场战斗"
 		},
 		{
-			actor = 101031,
+			actor = 101030,
 			side = 1,
 			say = "加油"
 		}

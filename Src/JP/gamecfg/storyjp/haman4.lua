@@ -17,7 +17,7 @@ return {
 			}
 		},
 		{
-			actor = 101251,
+			actor = 101250,
 			side = 2,
 			bgName = "bg_story_task",
 			say = "見られた…ハムマン…見られちゃった………",
@@ -33,7 +33,7 @@ return {
 			}
 		},
 		{
-			actor = 101241,
+			actor = 101240,
 			side = 0,
 			bgName = "bg_story_task",
 			say = "まあ不本意ながら見ちゃったけど、あれは一体何なの？",
@@ -52,7 +52,7 @@ return {
 			}
 		},
 		{
-			actor = 101251,
+			actor = 101250,
 			side = 1,
 			bgName = "bg_story_task",
 			say = "かくかくしかじか",
@@ -72,7 +72,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			bgm = "story-1",
-			actor = 101251,
+			actor = 101250,
 			say = "…ってい、いまの忘れなさい！忘れるのだぞ！",
 			flashout = {
 				dur = 1,
@@ -101,7 +101,7 @@ return {
 			}
 		},
 		{
-			actor = 101241,
+			actor = 101240,
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -129,7 +129,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			bgm = "story-1",
-			actor = 101251,
+			actor = 101250,
 			say = "大したことなんだぞ！指揮官、今どうしてるのかな……",
 			typewriter = {
 				speed = 0.05,
@@ -149,7 +149,7 @@ return {
 			}
 		},
 		{
-			actor = 101241,
+			actor = 101240,
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -164,7 +164,7 @@ return {
 			}
 		},
 		{
-			actor = 101251,
+			actor = 101250,
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -194,7 +194,7 @@ return {
 			}
 		},
 		{
-			actor = 101241,
+			actor = 101240,
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -209,7 +209,7 @@ return {
 			}
 		},
 		{
-			actor = 101251,
+			actor = 101250,
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -246,7 +246,7 @@ return {
 			}
 		},
 		{
-			actor = 101241,
+			actor = 101240,
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -261,7 +261,7 @@ return {
 			}
 		},
 		{
-			actor = 101241,
+			actor = 101240,
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -276,7 +276,7 @@ return {
 			}
 		},
 		{
-			actor = 101241,
+			actor = 101240,
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -300,7 +300,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 101241,
+			actor = 101240,
 			say = "きゃっ！？指揮官、いつの間に！？",
 			flashout = {
 				dur = 1,
@@ -338,7 +338,7 @@ return {
 			}
 		},
 		{
-			actor = 101241,
+			actor = 101240,
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,

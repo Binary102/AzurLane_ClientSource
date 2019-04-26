@@ -50,7 +50,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "指揮官、今日の夜暇なら、私と一緒にライブ行かない？",
 			typewriter = {
@@ -68,7 +68,7 @@ return {
 			bgName = "bg_story_task",
 			withoutActorName = true,
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "仕事が上がると、コンコードが笑顔でライブチケットを見せびらかしてきた。",
 			typewriter = {
@@ -81,7 +81,7 @@ return {
 			}
 		},
 		{
-			actor = 102181,
+			actor = 102180,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -101,7 +101,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "いやぁ、ソロライブって結構珍しいんだからね～一番推しの私が逃すわけないじゃない♪",
 			typewriter = {
@@ -119,7 +119,7 @@ return {
 			bgName = "bg_story_task",
 			withoutActorName = true,
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "コンコードは目をキラキラさせている。",
 			typewriter = {
@@ -162,7 +162,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "ライブが始まるよ！指揮官早く！……よし、センターとうちゃーく！",
 			typewriter = {
@@ -189,7 +189,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "これでレキシントンをバッチリ目に収められるよね♪",
 			typewriter = {
@@ -206,7 +206,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "そういえば、レキシントンって実はすごく優しい人なんだよー",
 			typewriter = {
@@ -223,7 +223,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "この間の握手会でケーキ差し入れしたら、後ですごく喜んでくれたし……",
 			typewriter = {
@@ -249,7 +249,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "レキシントンの登場だ！指揮官！",
 			flashout = {
@@ -293,7 +293,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgName = "bg_night",
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "HI~HI~HI~☆ い～つも～応援中～♪",
 			flashout = {
@@ -336,7 +336,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "……",
 			flashout = {
@@ -380,7 +380,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			withoutActorName = true,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "ライブが佳境に入ると、今まで頑張ってライブを応援していたコンコードが逆に静かになった――彼女はただただ、ステージの上にいるあの輝かしい存在に目を釘付けにしていた。",
 			typewriter = {
@@ -407,7 +407,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "（小声）……指揮官、私も、いつか彼女みたいに輝けるのかな？",
 			typewriter = {
@@ -425,7 +425,7 @@ return {
 			bgName = "bg_night",
 			withoutActorName = true,
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "ライブに集中していたコンコード、もう十分輝いていると思うが…",
 			typewriter = {
@@ -448,7 +448,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "指揮官……えへへ、結構上手いこと言うじゃない",
 			typewriter = {

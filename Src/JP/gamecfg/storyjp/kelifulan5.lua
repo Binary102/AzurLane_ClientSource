@@ -31,7 +31,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 102101,
+			actor = 102100,
 			nameColor = "#a9f548",
 			say = "次の相手は……嘘！？川内に阿賀野、それに妙高まで！？",
 			action = {
@@ -57,7 +57,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_103",
 			dir = -1,
-			actor = 102141,
+			actor = 102140,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -73,7 +73,7 @@ return {
 			}
 		},
 		{
-			actor = 102091,
+			actor = 102090,
 			side = 1,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -91,7 +91,7 @@ return {
 		{
 			actorName = "デンバー&コロンビア",
 			side = 0,
-			actor = 102151,
+			actor = 102150,
 			dir = -1,
 			bgName = "star_level_bg_103",
 			hideOther = true,
@@ -108,7 +108,7 @@ return {
 			},
 			subActors = {
 				{
-					actor = 102101,
+					actor = 102100,
 					dir = -1,
 					pos = {
 						x = -750
@@ -129,7 +129,7 @@ return {
 			side = 2,
 			dir = -1,
 			bgm = "story-4",
-			actor = 102141,
+			actor = 102140,
 			nameColor = "#a9f548",
 			say = "さすがは三水戦のリーダー、手強い…！",
 			flashout = {
@@ -162,7 +162,7 @@ return {
 			say = "俺とここまで戦えるとは……あの時のようには行かないぞ！",
 			side = 1,
 			bgName = "star_level_bg_103",
-			actor = 302121,
+			actor = 302120,
 			dir = 1,
 			actorName = "{namecode:38}",
 			nameColor = "#a9f548",
@@ -186,7 +186,7 @@ return {
 			}
 		},
 		{
-			actor = 102151,
+			actor = 102150,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -207,7 +207,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 303071,
+			actor = 303070,
 			actorName = "{namecode:63}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -223,7 +223,7 @@ return {
 			}
 		},
 		{
-			actor = 102091,
+			actor = 102090,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -244,7 +244,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 302201,
+			actor = 302200,
 			actorName = "{namecode:49}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -279,7 +279,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 102091,
+			actor = 102090,
 			nameColor = "#a9f548",
 			say = "くっ……指揮官…みんな……すまない、リーダーの私が不甲斐なかったせいで……",
 			flashout = {
@@ -309,7 +309,7 @@ return {
 			}
 		},
 		{
-			actor = 102091,
+			actor = 102090,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",

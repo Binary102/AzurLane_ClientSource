@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			actor = 107061,
+			actor = 107060,
 			nameColor = "#a9f548",
 			say = "エセックス、シャングリラ、インディペンデンス、そして特別演習に参加したメンバーたち――",
 			flashout = {
@@ -52,7 +52,7 @@ return {
 			}
 		},
 		{
-			actor = 107061,
+			actor = 107060,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -68,7 +68,7 @@ return {
 			}
 		},
 		{
-			actor = 107061,
+			actor = 107060,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -108,7 +108,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 107061,
+			actor = 107060,
 			nameColor = "#a9f548",
 			say = "エセックスが敵役を名乗り出た時、正直ここまで凄い攻撃を繰り出してくるとは思っていなかったな。……まあ、おかげで演習の目的を達成できた訳だ。",
 			flashout = {
@@ -138,7 +138,7 @@ return {
 			}
 		},
 		{
-			actor = 107061,
+			actor = 107060,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -158,7 +158,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 107091,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "ま、任された任務を全うしたまでです！エンタープライズ先輩ならもっと……",
 			typewriter = {
@@ -171,7 +171,7 @@ return {
 			}
 		},
 		{
-			actor = 107061,
+			actor = 107060,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -191,7 +191,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgName = "bg_story_task",
-			actor = 107381,
+			actor = 107380,
 			nameColor = "#a9f548",
 			say = "今回の演習で記録用の写真を撮りましたけど、一緒に見てみませんか？",
 			flashout = {
@@ -221,7 +221,7 @@ return {
 			}
 		},
 		{
-			actor = 107071,
+			actor = 107070,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -237,7 +237,7 @@ return {
 			}
 		},
 		{
-			actor = 107061,
+			actor = 107060,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -257,7 +257,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 107091,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "そ、そうなんですか！？",
 			typewriter = {
@@ -274,7 +274,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 107091,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "（恥ずかしい！！）",
 			typewriter = {
@@ -287,7 +287,7 @@ return {
 			}
 		},
 		{
-			actor = 107071,
+			actor = 107070,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -307,7 +307,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 107221,
+			actor = 107220,
 			nameColor = "#a9f548",
 			say = "……見苦しい所を見られたな…",
 			typewriter = {
@@ -320,7 +320,7 @@ return {
 			}
 		},
 		{
-			actor = 107221,
+			actor = 107220,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -339,7 +339,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 107071,
+			actor = 107070,
 			nameColor = "#a9f548",
 			say = "サボってなかったってば！",
 			typewriter = {
@@ -362,7 +362,7 @@ return {
 			}
 		},
 		{
-			actor = 107091,
+			actor = 107090,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -378,7 +378,7 @@ return {
 			}
 		},
 		{
-			actor = 107221,
+			actor = 107220,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -394,7 +394,7 @@ return {
 			}
 		},
 		{
-			actor = 107381,
+			actor = 107380,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -414,7 +414,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 107381,
+			actor = 107380,
 			nameColor = "#a9f548",
 			say = "そしてまだ撮っていない最後の一枚は――そうですね。最後に演習参加者全員の集合写真でもどうでしょう？",
 			typewriter = {
@@ -427,7 +427,7 @@ return {
 			}
 		},
 		{
-			actor = 107061,
+			actor = 107060,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -447,7 +447,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 107221,
+			actor = 107220,
 			nameColor = "#a9f548",
 			say = "わわ！なんで私が一番前に！？",
 			typewriter = {
@@ -474,7 +474,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 107381,
+			actor = 107380,
 			nameColor = "#a9f548",
 			say = "赤グループのリーダーだもの、一番前に立ってもらわないとね。エセックスもこっちでお願いしますね",
 			typewriter = {
@@ -490,7 +490,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 107381,
+			actor = 107380,
 			nameColor = "#a9f548",
 			say = "はい、3、2、1――",
 			flashout = {

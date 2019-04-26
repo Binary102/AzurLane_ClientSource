@@ -43,7 +43,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			bgmDelay = 2,
-			actor = 303121,
+			actor = 303120,
 			nameColor = "#a9f548",
 			say = "今の私が一番欲しいのは指揮官、あなたよ。",
 			flashout = {
@@ -73,7 +73,7 @@ return {
 			}
 		},
 		{
-			actor = 303121,
+			actor = 303120,
 			nameColor = "#a9f548",
 			bgName = "bg_story_outdoor",
 			side = 2,
@@ -89,7 +89,7 @@ return {
 			}
 		},
 		{
-			actor = 303121,
+			actor = 303120,
 			nameColor = "#a9f548",
 			bgName = "bg_story_outdoor",
 			side = 2,
@@ -132,7 +132,7 @@ return {
 			}
 		},
 		{
-			actor = 303121,
+			actor = 303120,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
@@ -148,7 +148,7 @@ return {
 			}
 		},
 		{
-			actor = 303121,
+			actor = 303120,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
@@ -164,7 +164,7 @@ return {
 			}
 		},
 		{
-			actor = 303121,
+			actor = 303120,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
@@ -180,7 +180,7 @@ return {
 			}
 		},
 		{
-			actor = 303121,
+			actor = 303120,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
@@ -206,7 +206,7 @@ return {
 			}
 		},
 		{
-			actor = 303121,
+			actor = 303120,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
@@ -222,7 +222,7 @@ return {
 			}
 		},
 		{
-			actor = 303121,
+			actor = 303120,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
@@ -238,7 +238,7 @@ return {
 			}
 		},
 		{
-			actor = 303121,
+			actor = 303120,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,

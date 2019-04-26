@@ -21,7 +21,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			bgm = "story-1",
-			actor = 207064,
+			actor = 207060,
 			nameColor = "#a9f548",
 			say = "指揮官、すみません、アーク・ロイヤルさんを探すのを手伝ってもらっちゃって…",
 			typewriter = {
@@ -37,7 +37,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 207064,
+			actor = 207060,
 			nameColor = "#a9f548",
 			say = "…あ、あそこにいるのは！！",
 			typewriter = {
@@ -62,7 +62,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 207024,
+			actor = 207020,
 			nameColor = "#a9f548",
 			say = "陛下、これは無実です！私はあくまで委託に出かけた駆逐艦の妹たちが心配でこっそり母港まで護衛していただけで、別にウォースパイト様を尾行していたわけではありません！",
 			flashout = {
@@ -105,7 +105,7 @@ return {
 			side = 0,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 205024,
+			actor = 205020,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -124,7 +124,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 205014,
+			actor = 205010,
 			nameColor = "#a9f548",
 			say = "黙りなさい！私は見たわ！あなたが妙な笑いを浮かべてウォースパイトの後ろにこっそり付いていくところ！",
 			typewriter = {
@@ -150,7 +150,7 @@ return {
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 207024,
+			actor = 207020,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -166,7 +166,7 @@ return {
 			}
 		},
 		{
-			actor = 202124,
+			actor = 202120,
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -182,7 +182,7 @@ return {
 			}
 		},
 		{
-			actor = 205014,
+			actor = 205010,
 			side = 0,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -198,7 +198,7 @@ return {
 			}
 		},
 		{
-			actor = 207024,
+			actor = 207020,
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -234,7 +234,7 @@ return {
 			}
 		},
 		{
-			actor = 207064,
+			actor = 207060,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -254,7 +254,7 @@ return {
 			side = 0,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 205014,
+			actor = 205010,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -274,7 +274,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			blackBg = true,
-			actor = 207064,
+			actor = 207060,
 			nameColor = "#a9f548",
 			say = "お言葉ですが、私はアーク・ロイヤルさんが無実だと証明することができます！",
 			typewriter = {

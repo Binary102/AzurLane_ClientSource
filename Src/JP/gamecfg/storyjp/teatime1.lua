@@ -16,7 +16,7 @@ return {
 			}
 		},
 		{
-			actor = 900048,
+			actor = 301111,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
@@ -32,7 +32,7 @@ return {
 			}
 		},
 		{
-			actor = 202111,
+			actor = 202110,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -47,7 +47,7 @@ return {
 			}
 		},
 		{
-			actor = 900048,
+			actor = 301111,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
@@ -63,7 +63,7 @@ return {
 			}
 		},
 		{
-			actor = 900049,
+			actor = 301121,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -79,7 +79,7 @@ return {
 			}
 		},
 		{
-			actor = 900047,
+			actor = 207031,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -94,7 +94,7 @@ return {
 			}
 		},
 		{
-			actor = 900048,
+			actor = 301111,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
@@ -110,7 +110,7 @@ return {
 			}
 		},
 		{
-			actor = 900049,
+			actor = 301121,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -126,7 +126,7 @@ return {
 			}
 		},
 		{
-			actor = 900047,
+			actor = 207031,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -141,7 +141,7 @@ return {
 			}
 		},
 		{
-			actor = 900048,
+			actor = 301111,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
@@ -157,7 +157,7 @@ return {
 			}
 		},
 		{
-			actor = 900049,
+			actor = 301121,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -173,7 +173,7 @@ return {
 			}
 		},
 		{
-			actor = 900047,
+			actor = 207031,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -188,7 +188,7 @@ return {
 			}
 		},
 		{
-			actor = 202121,
+			actor = 202120,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -203,7 +203,7 @@ return {
 			}
 		},
 		{
-			actor = 900049,
+			actor = 301121,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -219,7 +219,7 @@ return {
 			}
 		},
 		{
-			actor = 202121,
+			actor = 202120,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -234,7 +234,7 @@ return {
 			}
 		},
 		{
-			actor = 202111,
+			actor = 202110,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -249,7 +249,7 @@ return {
 			}
 		},
 		{
-			actor = 900049,
+			actor = 301121,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -265,7 +265,7 @@ return {
 			}
 		},
 		{
-			actor = 900047,
+			actor = 207031,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -284,7 +284,7 @@ return {
 			actorShadow = true,
 			hideOther = true,
 			side = 1,
-			actor = 202121,
+			actor = 202120,
 			nameColor = "#a9f548",
 			say = "……こ、これは――！！",
 			flashout = {
@@ -306,13 +306,13 @@ return {
 			},
 			subActors = {
 				{
-					actor = 900047,
+					actor = 207031,
 					pos = {
 						x = -350
 					}
 				},
 				{
-					actor = 202111,
+					actor = 202110,
 					pos = {
 						x = -750
 					}
@@ -328,7 +328,7 @@ return {
 			}
 		},
 		{
-			actor = 202111,
+			actor = 202110,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -343,7 +343,7 @@ return {
 			}
 		},
 		{
-			actor = 900047,
+			actor = 207031,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
@@ -362,7 +362,7 @@ return {
 			}
 		},
 		{
-			actor = 900047,
+			actor = 207031,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -377,7 +377,7 @@ return {
 			}
 		},
 		{
-			actor = 900049,
+			actor = 301121,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -393,7 +393,7 @@ return {
 			}
 		},
 		{
-			actor = 900048,
+			actor = 301111,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = -1,
@@ -409,7 +409,7 @@ return {
 			}
 		},
 		{
-			actor = 900047,
+			actor = 207031,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -428,7 +428,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 301091,
+			actor = 301090,
 			nameColor = "#a9f548",
 			say = "『響が参加していないお茶会なんて拙者はお断りするでござる！響、待ってて！拙者が絶対連れ帰ってみせるのでござる！』",
 			flashout = {

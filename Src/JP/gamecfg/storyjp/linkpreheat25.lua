@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-uta",
-			actor = 10300011,
+			actor = 10300010,
 			nameColor = "#a9f548",
 			say = "あ、こんにちは指揮官。今日もいい天気だね",
 			flashout = {
@@ -56,7 +56,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 10300011,
+			actor = 10300010,
 			nameColor = "#a9f548",
 			say = "こう天気がいいとお部屋に籠もってるのが勿体なくなっちゃうよね",
 			typewriter = {
@@ -69,7 +69,7 @@ return {
 			}
 		},
 		{
-			actor = 10300011,
+			actor = 10300010,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -85,7 +85,7 @@ return {
 			}
 		},
 		{
-			actor = 10300011,
+			actor = 10300010,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -105,7 +105,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 10300011,
+			actor = 10300010,
 			nameColor = "#a9f548",
 			say = "ヤマトにいた頃は隠み……じゃなくて、割と何でもやってたから、ドンドン任せてね！",
 			typewriter = {
@@ -128,7 +128,7 @@ return {
 			}
 		},
 		{
-			actor = 10300011,
+			actor = 10300010,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -144,7 +144,7 @@ return {
 			}
 		},
 		{
-			actor = 10300011,
+			actor = 10300010,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -164,7 +164,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 10300011,
+			actor = 10300010,
 			nameColor = "#a9f548",
 			say = "寮舎にお部屋まで用意してもらったし、指揮官様々かな",
 			typewriter = {
@@ -191,7 +191,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 10300011,
+			actor = 10300010,
 			nameColor = "#a9f548",
 			say = "うん、みんなもこっちの世界での暮らしを楽しんでると思うよ",
 			typewriter = {
@@ -207,7 +207,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 10300011,
+			actor = 10300010,
 			nameColor = "#a9f548",
 			say = "私としては個人的に大のお気に入りになったのは……やっぱりあれかなー？",
 			typewriter = {
@@ -230,7 +230,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 10300011,
+			actor = 10300010,
 			nameColor = "#a9f548",
 			say = "そう！それ！あの大浴場！",
 			typewriter = {
@@ -243,7 +243,7 @@ return {
 			}
 		},
 		{
-			actor = 10300011,
+			actor = 10300010,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",

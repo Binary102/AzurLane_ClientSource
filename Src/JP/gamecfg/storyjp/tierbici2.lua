@@ -46,7 +46,7 @@ return {
 			}
 		},
 		{
-			actor = 405021,
+			actor = 405020,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -75,7 +75,7 @@ return {
 			}
 		},
 		{
-			actor = 405021,
+			actor = 405020,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -96,7 +96,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 101111,
+			actor = 101110,
 			actorName = "???",
 			paintingFadeOut = {
 				time = 0.5,
@@ -112,7 +112,7 @@ return {
 			}
 		},
 		{
-			actor = 405021,
+			actor = 405020,
 			side = 0,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -132,7 +132,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 101111,
+			actor = 101110,
 			actorName = "???",
 			say = "私は正義の味方、リトルビーバーズの隊長チャールズ・オースバーンよ！ちょっと待ってて、今みんなを集めてくる！",
 			typewriter = {
@@ -149,7 +149,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 101111,
+			actor = 101110,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -179,7 +179,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 101131,
+			actor = 101130,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -208,7 +208,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 101151,
+			actor = 101150,
 			nameColor = "#a9f548",
 			say = "な、なにがあったのでしょうか！？",
 			typewriter = {
@@ -234,7 +234,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 101141,
+			actor = 101140,
 			nameColor = "#a9f548",
 			say = "めんどい…",
 			typewriter = {
@@ -257,7 +257,7 @@ return {
 			}
 		},
 		{
-			actor = 101111,
+			actor = 101110,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -276,7 +276,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 405021,
+			actor = 405020,
 			nameColor = "#a9f548",
 			say = "待って、これは秘書艦の仕事よ。私ひとりで…",
 			typewriter = {
@@ -346,7 +346,7 @@ return {
 			}
 		},
 		{
-			actor = 101111,
+			actor = 101110,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -366,7 +366,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 405021,
+			actor = 405020,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -382,7 +382,7 @@ return {
 			}
 		},
 		{
-			actor = 101111,
+			actor = 101110,
 			side = 1,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -398,7 +398,7 @@ return {
 			}
 		},
 		{
-			actor = 101111,
+			actor = 101110,
 			side = 1,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -418,7 +418,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 101111,
+			actor = 101110,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -438,7 +438,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			actor = 405021,
+			actor = 405020,
 			nameColor = "#a9f548",
 			say = "私は、仲間……わかったわ。",
 			typewriter = {

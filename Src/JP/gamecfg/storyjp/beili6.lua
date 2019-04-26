@@ -56,7 +56,7 @@ return {
 			}
 		},
 		{
-			actor = 101361,
+			actor = 101360,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -72,7 +72,7 @@ return {
 			}
 		},
 		{
-			actor = 101371,
+			actor = 101370,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -88,7 +88,7 @@ return {
 			}
 		},
 		{
-			actor = 303081,
+			actor = 303080,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -114,7 +114,7 @@ return {
 			}
 		},
 		{
-			actor = 101271,
+			actor = 101270,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -140,7 +140,7 @@ return {
 			}
 		},
 		{
-			actor = 101271,
+			actor = 101270,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -156,7 +156,7 @@ return {
 			}
 		},
 		{
-			actor = 101271,
+			actor = 101270,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -192,7 +192,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -208,7 +208,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -228,7 +228,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			withoutActorName = true,
-			actor = 312011,
+			actor = 312010,
 			nameColor = "#a9f548",
 			say = "通りすがった明石が科学的なツッコミをしてきた。",
 			typewriter = {
@@ -250,7 +250,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 312011,
+			actor = 312010,
 			nameColor = "#a9f548",
 			say = "……あ、で、でもにゃ！明石もそんなにしっかり見てないにゃ！実は宇宙船がその流星群に混ざっているのかもしれないにゃ！",
 			typewriter = {
@@ -284,7 +284,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 312011,
+			actor = 312010,
 			nameColor = "#a9f548",
 			say = "ウサウサ星ももしかしたら別星系にあるかもしれないにゃ！",
 			typewriter = {
@@ -317,7 +317,7 @@ return {
 			}
 		},
 		{
-			actor = 101271,
+			actor = 101270,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",

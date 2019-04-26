@@ -51,18 +51,19 @@ function slot7.UpdateAutoComponent(slot0, slot1)
 		slot6:UpdateOxygen(slot1)
 		slot6:UpdatePhaseSwitcher()
 	end
-end
 
-function slot7.UpdateWeaponVO(slot0, slot1)
-	slot0._chargeWeaponVO:Update(slot1)
-	slot0._torpedoWeaponVO:Update(slot1)
-	slot0._airAssistVO:Update(slot1)
 	slot0._fleetAntiAir:Update(slot1)
 	slot0._fleetSonar:Update(slot1)
 
 	for slot5, slot6 in pairs(slot0._indieSonarList) do
 		slot5:Update(slot1)
 	end
+end
+
+function slot7.UpdateManualWeaponVO(slot0, slot1)
+	slot0._chargeWeaponVO:Update(slot1)
+	slot0._torpedoWeaponVO:Update(slot1)
+	slot0._airAssistVO:Update(slot1)
 end
 
 function slot7.UpdateFleetDamage(slot0, slot1)
@@ -235,6 +236,12 @@ function slot7.RemovePlayerUnit(slot0, slot1)
 	slot0:refreshFleetFormation(slot2)
 end
 
+function slot7.OverrideJoyStickAutoBot(slot0, slot1)
+	slot0._autoBotAIID = slot1
+
+	slot0:DispatchEvent(slot0.Event.New(slot0.Battle.BattleEvent.OVERRIDE_AUTO_BOT))
+end
+
 function slot7.SnapShot(slot0)
 	slot0._totalDMGRatio = slot0:GetFleetTotalHP()
 	slot0._currentDMGRatio = slot0._totalDMGRatio
@@ -266,6 +273,14 @@ end
 
 function slot7.GetMotion(slot0)
 	return slot0._motionVO
+end
+
+function slot7.GetMotionReferenceUnit(slot0)
+	return slot0._motionReferenceUnit
+end
+
+function slot7.GetAutoBotAIID(slot0)
+	return slot0._autoBotAIID
 end
 
 function slot7.GetChargeWeaponVO(slot0)
@@ -367,6 +382,8 @@ function slot7.refreshFleetFormation(slot0, slot1)
 		slot0._motionReferenceUnit = slot0._mainList[1]
 		slot0._leaderUnit = nil
 	end
+
+	slot0:DispatchEvent(slot2.Event.New(slot2.Battle.BattleEvent.REFRESH_FLEET_FORMATION))
 end
 
 function slot7.init(slot0)
@@ -382,7 +399,7 @@ function slot7.init(slot0)
 	slot0._subList = {}
 	slot0._unitList = {}
 	slot0._maxCount = 0
-	slot0._blockCast = false
+	slot0._blockCast = 0
 
 	slot0:SetMotionSource()
 end
@@ -468,15 +485,15 @@ function slot7.SubWarcry(slot0)
 end
 
 function slot7.SetWeaponBlock(slot0, slot1)
-	slot0._blockCast = slot1
+	slot0._blockCast = slot0._blockCast + slot1
 end
 
 function slot7.GetWeaponBlock(slot0)
-	return slot0._blockCast
+	return slot0._blockCast > 0
 end
 
 function slot7.CastChargeWeapon(slot0)
-	if slot0._blockCast then
+	if slot0:GetWeaponBlock() then
 		return
 	end
 
@@ -494,7 +511,7 @@ function slot7.CancelChargeWeapon(slot0)
 end
 
 function slot7.UnleashChrageWeapon(slot0)
-	if slot0._blockCast then
+	if slot0:GetWeaponBlock() then
 		slot0:CancelChargeWeapon()
 
 		return
@@ -512,7 +529,7 @@ function slot7.UnleashChrageWeapon(slot0)
 end
 
 function slot7.QuickTagChrageWeapon(slot0, slot1)
-	if slot0._blockCast then
+	if slot0:GetWeaponBlock() then
 		return
 	end
 
@@ -557,7 +574,7 @@ function slot7.switchCalibrationHost(slot0, slot1)
 end
 
 function slot7.UnleashAllInStrike(slot0)
-	if slot0._blockCast then
+	if slot0:GetWeaponBlock() then
 		return
 	end
 
@@ -575,7 +592,7 @@ function slot7.UnleashAllInStrike(slot0)
 end
 
 function slot7.CastTorpedo(slot0)
-	if slot0._blockCast then
+	if slot0:GetWeaponBlock() then
 		return
 	end
 
@@ -591,7 +608,7 @@ function slot7.CancelTorpedo(slot0)
 end
 
 function slot7.UnleashTorpedo(slot0)
-	if slot0._blockCast then
+	if slot0:GetWeaponBlock() then
 		slot0:CancelTorpedo()
 
 		return
@@ -603,12 +620,24 @@ function slot7.UnleashTorpedo(slot0)
 end
 
 function slot7.QuickCastTorpedo(slot0)
-	if slot0._blockCast then
+	if slot0:GetWeaponBlock() then
 		return
 	end
 
 	if slot0._torpedoWeaponVO:GetCurrentWeapon() ~= nil and slot1:GetCurrentState() == slot1.STATE_READY then
 		slot1:Fire()
+	end
+end
+
+function slot7.Jamming(slot0, slot1)
+	if slot1 then
+		slot0._chargeWeaponVO:StartJamming()
+		slot0._torpedoWeaponVO:StartJamming()
+		slot0._airAssistVO:StartJamming()
+	else
+		slot0._chargeWeaponVO:JammingEliminate()
+		slot0._torpedoWeaponVO:JammingEliminate()
+		slot0._airAssistVO:JammingEliminate()
 	end
 end
 

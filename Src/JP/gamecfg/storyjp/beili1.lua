@@ -59,7 +59,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 101271,
+			actor = 101270,
 			nameColor = "#a9f548",
 			say = "指揮官元気～？ベイリーがウサウサパワーを注入してあげる！",
 			typewriter = {
@@ -85,7 +85,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 101271,
+			actor = 101270,
 			nameColor = "#a9f548",
 			say = "指揮官、ニンジンを貯めるのはいいけど、任務は貯めても何も出ないよ？",
 			flashout = {
@@ -128,7 +128,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 101271,
+			actor = 101270,
 			nameColor = "#a9f548",
 			say = "指揮官、メールよ！ウサウサ星からのものなの？",
 			flashout = {
@@ -178,7 +178,7 @@ return {
 			}
 		},
 		{
-			actor = 101271,
+			actor = 101270,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -204,7 +204,7 @@ return {
 			}
 		},
 		{
-			actor = 101271,
+			actor = 101270,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -223,7 +223,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 101271,
+			actor = 101270,
 			nameColor = "#a9f548",
 			say = "えへへ、困ったことがあったらベイリーに教えて♪　ベイリーがウサウサ星の知恵で全部解決してあげるっ！",
 			typewriter = {
@@ -242,7 +242,7 @@ return {
 			}
 		},
 		{
-			actor = 101271,
+			actor = 101270,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -258,7 +258,7 @@ return {
 			}
 		},
 		{
-			actor = 101271,
+			actor = 101270,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",

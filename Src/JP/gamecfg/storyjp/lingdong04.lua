@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 202124,
+			actor = 202120,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -22,7 +22,7 @@ return {
 			}
 		},
 		{
-			actor = 202124,
+			actor = 202120,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -37,7 +37,7 @@ return {
 			}
 		},
 		{
-			actor = 202084,
+			actor = 202080,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
@@ -56,7 +56,7 @@ return {
 			}
 		},
 		{
-			actor = 202124,
+			actor = 202120,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -71,7 +71,7 @@ return {
 			}
 		},
 		{
-			actor = 203054,
+			actor = 203050,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -86,7 +86,7 @@ return {
 			}
 		},
 		{
-			actor = 202124,
+			actor = 202120,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -101,7 +101,7 @@ return {
 			}
 		},
 		{
-			actor = 202124,
+			actor = 202120,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -116,7 +116,7 @@ return {
 			}
 		},
 		{
-			actor = 202124,
+			actor = 202120,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -133,14 +133,14 @@ return {
 		{
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 201264,
+			actor = 201260,
 			dir = 1,
 			hideOther = true,
 			actorName = "マッチレス&マスケティーア",
 			say = "了解！/はい！",
 			subActors = {
 				{
-					actor = 201274,
+					actor = 201270,
 					pos = {
 						x = 750
 					}
@@ -156,7 +156,7 @@ return {
 			}
 		},
 		{
-			actor = 202124,
+			actor = 202120,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,

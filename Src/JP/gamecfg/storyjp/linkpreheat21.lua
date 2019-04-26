@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-uta",
-			actor = 204031,
+			actor = 204030,
 			nameColor = "#a9f548",
 			say = "始めまして、異世界の皆さま方──本日、応援に参上いたしましたロイヤルネイビーの栄光、フッドでございます。こちらは私の付き添いで……",
 			flashout = {
@@ -56,7 +56,7 @@ return {
 			side = 1,
 			bgName = "bg_story_chuansong",
 			dir = 1,
-			actor = 201101,
+			actor = 201100,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -72,7 +72,7 @@ return {
 			}
 		},
 		{
-			actor = 204031,
+			actor = 204030,
 			side = 0,
 			bgName = "bg_story_chuansong",
 			nameColor = "#a9f548",
@@ -88,7 +88,7 @@ return {
 			}
 		},
 		{
-			actor = 201101,
+			actor = 201100,
 			side = 1,
 			bgName = "bg_story_chuansong",
 			nameColor = "#a9f548",
@@ -108,7 +108,7 @@ return {
 			side = 2,
 			bgName = "bg_story_chuansong",
 			dir = 1,
-			actor = 10300061,
+			actor = 10300060,
 			nameColor = "#a9f548",
 			say = "あらあら、また姉妹のように仲が良さそうなお二人のご登場ですね。親近感が湧いてしまいます",
 			typewriter = {
@@ -125,7 +125,7 @@ return {
 			side = 2,
 			bgName = "bg_story_chuansong",
 			dir = 1,
-			actor = 10300011,
+			actor = 10300010,
 			nameColor = "#a9f548",
 			say = "そう……かな？",
 			typewriter = {
@@ -142,7 +142,7 @@ return {
 			side = 2,
 			bgName = "bg_story_chuansong",
 			dir = 1,
-			actor = 10300031,
+			actor = 10300030,
 			nameColor = "#a9f548",
 			say = "でも……ああいう御二人を見ていると、クオンさまとネコネさまのようにも見えますよ？",
 			typewriter = {
@@ -155,7 +155,7 @@ return {
 			}
 		},
 		{
-			actor = 10300021,
+			actor = 10300020,
 			side = 2,
 			bgName = "bg_story_chuansong",
 			nameColor = "#a9f548",
@@ -175,7 +175,7 @@ return {
 			side = 2,
 			bgName = "bg_story_chuansong",
 			dir = 1,
-			actor = 10300011,
+			actor = 10300010,
 			nameColor = "#a9f548",
 			say = "もうちょっと自然じゃないかな……ねえ、ネコネ？",
 			typewriter = {
@@ -188,7 +188,7 @@ return {
 			}
 		},
 		{
-			actor = 10300021,
+			actor = 10300020,
 			side = 2,
 			bgName = "bg_story_chuansong",
 			nameColor = "#a9f548",
@@ -204,7 +204,7 @@ return {
 			}
 		},
 		{
-			actor = 204031,
+			actor = 204030,
 			side = 2,
 			bgName = "bg_story_chuansong",
 			nameColor = "#a9f548",
@@ -220,7 +220,7 @@ return {
 			}
 		},
 		{
-			actor = 204031,
+			actor = 204030,
 			side = 2,
 			bgName = "bg_story_chuansong",
 			nameColor = "#a9f548",
@@ -240,7 +240,7 @@ return {
 			side = 1,
 			bgName = "bg_story_chuansong",
 			dir = 1,
-			actor = 201101,
+			actor = 201100,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -256,7 +256,7 @@ return {
 			}
 		},
 		{
-			actor = 204031,
+			actor = 204030,
 			side = 0,
 			bgName = "bg_story_chuansong",
 			nameColor = "#a9f548",
@@ -275,7 +275,7 @@ return {
 			side = 1,
 			bgName = "bg_story_chuansong",
 			dir = 1,
-			actor = 201101,
+			actor = 201100,
 			nameColor = "#a9f548",
 			say = "ふぇぇぇ……フッド姉さん、近い近い！そんなピッタリくっつかれると、うち恥ずかしい……",
 			typewriter = {
@@ -302,7 +302,7 @@ return {
 			side = 2,
 			bgName = "bg_story_chuansong",
 			dir = 1,
-			actor = 10300031,
+			actor = 10300030,
 			nameColor = "#a9f548",
 			say = "あ、あの！いくら女の子同士だからって、ひ、人前でくっつきすぎるのはいかがなものかと……！？",
 			typewriter = {
@@ -325,7 +325,7 @@ return {
 			}
 		},
 		{
-			actor = 101171,
+			actor = 101170,
 			side = 2,
 			bgName = "bg_story_chuansong",
 			nameColor = "#a9f548",
@@ -341,7 +341,7 @@ return {
 			}
 		},
 		{
-			actor = 401231,
+			actor = 401230,
 			side = 2,
 			bgName = "bg_story_chuansong",
 			nameColor = "#a9f548",
@@ -361,7 +361,7 @@ return {
 			side = 2,
 			bgName = "bg_story_chuansong",
 			dir = 1,
-			actor = 10300041,
+			actor = 10300040,
 			nameColor = "#a9f548",
 			say = "微妙なお年頃",
 			typewriter = {
@@ -379,7 +379,7 @@ return {
 			bgName = "bg_story_chuansong",
 			say = "女とはいつまでも乙女心を忘れぬもの……お母様がよく仰っておられました",
 			dir = 1,
-			actor = 10300051,
+			actor = 10300050,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -395,7 +395,7 @@ return {
 			}
 		},
 		{
-			actor = 10300021,
+			actor = 10300020,
 			side = 2,
 			bgName = "bg_story_chuansong",
 			nameColor = "#a9f548",
@@ -411,7 +411,7 @@ return {
 			}
 		},
 		{
-			actor = 301051,
+			actor = 301050,
 			side = 2,
 			bgName = "bg_story_chuansong",
 			nameColor = "#a9f548",
@@ -427,7 +427,7 @@ return {
 			}
 		},
 		{
-			actor = 201101,
+			actor = 201100,
 			side = 2,
 			bgName = "bg_story_chuansong",
 			nameColor = "#a9f548",
@@ -443,7 +443,7 @@ return {
 			}
 		},
 		{
-			actor = 201101,
+			actor = 201100,
 			side = 2,
 			bgName = "bg_story_chuansong",
 			nameColor = "#a9f548",
@@ -459,7 +459,7 @@ return {
 			}
 		},
 		{
-			actor = 10300011,
+			actor = 10300010,
 			side = 2,
 			bgName = "bg_story_chuansong",
 			nameColor = "#a9f548",
@@ -475,7 +475,7 @@ return {
 			}
 		},
 		{
-			actor = 10300061,
+			actor = 10300060,
 			side = 2,
 			bgName = "bg_story_chuansong",
 			nameColor = "#a9f548",
@@ -491,7 +491,7 @@ return {
 			}
 		},
 		{
-			actor = 201101,
+			actor = 201100,
 			side = 2,
 			bgName = "bg_story_chuansong",
 			nameColor = "#a9f548",
@@ -507,7 +507,7 @@ return {
 			}
 		},
 		{
-			actor = 10300011,
+			actor = 10300010,
 			side = 2,
 			bgName = "bg_story_chuansong",
 			nameColor = "#a9f548",
@@ -523,7 +523,7 @@ return {
 			}
 		},
 		{
-			actor = 10300061,
+			actor = 10300060,
 			side = 2,
 			bgName = "bg_story_chuansong",
 			nameColor = "#a9f548",
@@ -539,7 +539,7 @@ return {
 			}
 		},
 		{
-			actor = 10300011,
+			actor = 10300010,
 			side = 2,
 			bgName = "bg_story_chuansong",
 			nameColor = "#a9f548",
@@ -555,7 +555,7 @@ return {
 			}
 		},
 		{
-			actor = 201101,
+			actor = 201100,
 			side = 2,
 			bgName = "bg_story_chuansong",
 			nameColor = "#a9f548",
@@ -575,7 +575,7 @@ return {
 			side = 0,
 			bgName = "bg_story_chuansong",
 			dir = 1,
-			actor = 204031,
+			actor = 204030,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -591,7 +591,7 @@ return {
 			}
 		},
 		{
-			actor = 201101,
+			actor = 201100,
 			side = 1,
 			bgName = "bg_story_chuansong",
 			nameColor = "#a9f548",
@@ -607,7 +607,7 @@ return {
 			}
 		},
 		{
-			actor = 204031,
+			actor = 204030,
 			side = 0,
 			bgName = "bg_story_chuansong",
 			nameColor = "#a9f548",
@@ -623,7 +623,7 @@ return {
 			}
 		},
 		{
-			actor = 201101,
+			actor = 201100,
 			side = 1,
 			bgName = "bg_story_chuansong",
 			nameColor = "#a9f548",
@@ -639,7 +639,7 @@ return {
 			}
 		},
 		{
-			actor = 204031,
+			actor = 204030,
 			side = 0,
 			bgName = "bg_story_chuansong",
 			nameColor = "#a9f548",
@@ -655,7 +655,7 @@ return {
 			}
 		},
 		{
-			actor = 201101,
+			actor = 201100,
 			side = 1,
 			bgName = "bg_story_chuansong",
 			nameColor = "#a9f548",
@@ -675,7 +675,7 @@ return {
 			side = 2,
 			bgName = "bg_story_chuansong",
 			dir = 1,
-			actor = 10300011,
+			actor = 10300010,
 			nameColor = "#a9f548",
 			say = "……なんだろう、シグニットちゃんを見てると他人の気がしないかも。",
 			typewriter = {
@@ -688,7 +688,7 @@ return {
 			}
 		},
 		{
-			actor = 10300061,
+			actor = 10300060,
 			side = 2,
 			bgName = "bg_story_chuansong",
 			nameColor = "#a9f548",
@@ -704,7 +704,7 @@ return {
 			}
 		},
 		{
-			actor = 10300031,
+			actor = 10300030,
 			side = 2,
 			bgName = "bg_story_chuansong",
 			nameColor = "#a9f548",
@@ -720,7 +720,7 @@ return {
 			}
 		},
 		{
-			actor = 10300021,
+			actor = 10300020,
 			side = 2,
 			bgName = "bg_story_chuansong",
 			nameColor = "#a9f548",
@@ -736,7 +736,7 @@ return {
 			}
 		},
 		{
-			actor = 201211,
+			actor = 201210,
 			side = 2,
 			bgName = "bg_story_chuansong",
 			nameColor = "#a9f548",
@@ -752,7 +752,7 @@ return {
 			}
 		},
 		{
-			actor = 101171,
+			actor = 101170,
 			side = 2,
 			bgName = "bg_story_chuansong",
 			nameColor = "#a9f548",
@@ -768,7 +768,7 @@ return {
 			}
 		},
 		{
-			actor = 301051,
+			actor = 301050,
 			side = 2,
 			bgName = "bg_story_chuansong",
 			nameColor = "#a9f548",
@@ -788,7 +788,7 @@ return {
 			side = 2,
 			bgName = "bg_story_chuansong",
 			withoutActorName = true,
-			actor = 204031,
+			actor = 204030,
 			nameColor = "#a9f548",
 			say = "──キラーン！",
 			typewriter = {
@@ -801,7 +801,7 @@ return {
 			}
 		},
 		{
-			actor = 204031,
+			actor = 204030,
 			side = 2,
 			bgName = "bg_story_chuansong",
 			nameColor = "#a9f548",
@@ -817,7 +817,7 @@ return {
 			}
 		},
 		{
-			actor = 301051,
+			actor = 301050,
 			side = 2,
 			bgName = "bg_story_chuansong",
 			nameColor = "#a9f548",
@@ -837,7 +837,7 @@ return {
 			side = 2,
 			bgName = "bg_story_chuansong",
 			dir = 1,
-			actor = 10300041,
+			actor = 10300040,
 			nameColor = "#a9f548",
 			say = "禁句",
 			typewriter = {
@@ -855,7 +855,7 @@ return {
 			bgName = "bg_story_chuansong",
 			say = "その単語を言い終えた瞬間、ウィツァルネミテアの怒りに匹敵するものが解き放たれると感知しました。どうぞお控えください",
 			dir = 1,
-			actor = 10300051,
+			actor = 10300050,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -871,7 +871,7 @@ return {
 			}
 		},
 		{
-			actor = 201211,
+			actor = 201210,
 			side = 2,
 			bgName = "bg_story_chuansong",
 			nameColor = "#a9f548",
@@ -887,7 +887,7 @@ return {
 			}
 		},
 		{
-			actor = 10300061,
+			actor = 10300060,
 			side = 2,
 			bgName = "bg_story_chuansong",
 			nameColor = "#a9f548",
@@ -908,7 +908,7 @@ return {
 			bgName = "bg_story_chuansong",
 			dir = 1,
 			blackBg = true,
-			actor = 10300011,
+			actor = 10300010,
 			nameColor = "#a9f548",
 			say = "……本当、カルラお母……お姉様を思い出すなぁ……",
 			typewriter = {

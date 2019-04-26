@@ -8,7 +8,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 404011,
+			actor = 404010,
 			side = 2,
 			nameColor = "#ff0000",
 			say = "ここまで来たとはな……認めたくはないが、お前らは今までの相手とは「少し」違うかもしれん。",
@@ -26,7 +26,7 @@ return {
 			}
 		},
 		{
-			actor = 404011,
+			actor = 404010,
 			side = 2,
 			nameColor = "#ff0000",
 			say = "だが、我々姉妹の砲火から逃れられる獲物など今までいなかった。そしてお前らも例外ではない！",
@@ -47,7 +47,7 @@ return {
 			side = 1,
 			say = "この前の戦闘でデータを十分集めました。今度の私たちの勝率は90%超です。",
 			nameColor = "#ff0000",
-			actor = 404021,
+			actor = 404020,
 			mode = 2,
 			paintingFadeOut = {
 				time = 0.5,
@@ -67,7 +67,7 @@ return {
 			}
 		},
 		{
-			actor = 404011,
+			actor = 404010,
 			side = 0,
 			nameColor = "#ff0000",
 			say = "この鮫姉妹の前に立ってしまった愚かな獲物たち、さぁ、楽しい狩りの始まりだ！この私を失望させてくれるなよ！",
@@ -88,13 +88,13 @@ return {
 			actorShadow = true,
 			side = 0,
 			actorName = "シャルンホルスト&グナイゼナウ",
-			actor = 404011,
+			actor = 404010,
 			hideOther = true,
 			nameColor = "#ff0000",
 			say = "シャルンホルスト級巡洋戦艦・シャルンホルスト、グナイゼナウ参上！いざ、蹂躙せよ！",
 			subActors = {
 				{
-					actor = 404021,
+					actor = 404020,
 					pos = {
 						x = 685
 					}

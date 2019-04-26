@@ -32,7 +32,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 305024,
+			actor = 305020,
 			actorName = "{namecode:79}",
 			say = "殿様、おはようございます！今日は一日よろしくお願いしますっ！",
 			typewriter = {
@@ -49,7 +49,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 305024,
+			actor = 305020,
 			actorName = "{namecode:79}",
 			say = "……「いつからいた」ですか？うーん、さ、30分ぐらい前かな…ドジで遅れたら殿様をまたせちゃいますし…",
 			typewriter = {
@@ -67,7 +67,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = -1,
-			actor = 301154,
+			actor = 301150,
 			actorName = "{namecode:17}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -97,7 +97,7 @@ return {
 			side = 1,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 305024,
+			actor = 305020,
 			actorName = "{namecode:79}",
 			say = "ち、違うよ時雨ちゃん！今日は殿様と神社の掃除をする約束をしただけだってばー！",
 			typewriter = {
@@ -124,7 +124,7 @@ return {
 			side = 0,
 			bgName = "bg_story_outdoor",
 			dir = -1,
-			actor = 301154,
+			actor = 301150,
 			actorName = "{namecode:17}",
 			say = "ふーん、デートじゃなかったら時雨も手伝っていい？ふっふっふーこの時雨様なら百倍も綺麗に掃除できますよ～",
 			typewriter = {
@@ -141,7 +141,7 @@ return {
 			side = 0,
 			bgName = "bg_story_outdoor",
 			dir = -1,
-			actor = 301154,
+			actor = 301150,
 			actorName = "{namecode:17}",
 			say = "……それともそこの馬鹿指揮官とデートでもしちゃおうかしら～？って痛っ！",
 			typewriter = {
@@ -168,7 +168,7 @@ return {
 			side = 0,
 			bgName = "bg_story_outdoor",
 			dir = -1,
-			actor = 302104,
+			actor = 302100,
 			actorName = "{namecode:57}",
 			say = "時雨、あまり山城と指揮官をからかわないの。おはよう、山城。",
 			typewriter = {
@@ -185,7 +185,7 @@ return {
 			side = 1,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 305024,
+			actor = 305020,
 			actorName = "{namecode:79}",
 			say = "最上ちゃん！時雨ちゃんとお買い物？",
 			typewriter = {
@@ -202,7 +202,7 @@ return {
 			side = 0,
 			bgName = "bg_story_outdoor",
 			dir = -1,
-			actor = 302104,
+			actor = 302100,
 			actorName = "{namecode:57}",
 			say = "うん。満潮ちゃんたちの寮の備品も買わないといけないからね。こういうのっていつまでも三隈に任せっぱなしじゃダメから。",
 			typewriter = {
@@ -219,7 +219,7 @@ return {
 			side = 0,
 			bgName = "bg_story_outdoor",
 			dir = -1,
-			actor = 301154,
+			actor = 301150,
 			actorName = "{namecode:17}",
 			say = "最近は不知火のやつがまた値上げしちゃうし、この母港のお店ってあの二人しかいないから、サービスしろーって言ってもなかなか聞いてくれないよね…",
 			typewriter = {
@@ -236,7 +236,7 @@ return {
 			side = 1,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 305024,
+			actor = 305020,
 			actorName = "{namecode:79}",
 			say = "そう？よくわからないけど、この山城にまかせて！今度装備箱を買いに行く時はガツンと言ってあげるよ！",
 			typewriter = {
@@ -253,7 +253,7 @@ return {
 			side = 0,
 			bgName = "bg_story_outdoor",
 			dir = -1,
-			actor = 301154,
+			actor = 301150,
 			actorName = "{namecode:17}",
 			say = "ありがとう山城姉さん！……ってやっぱりいいかな。山城姉さんは九割方言い負かされて逆に高値で買わされそうだし……",
 			typewriter = {
@@ -270,7 +270,7 @@ return {
 			side = 1,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 305024,
+			actor = 305020,
 			actorName = "{namecode:79}",
 			say = "そんな～！",
 			typewriter = {
@@ -287,7 +287,7 @@ return {
 			side = 0,
 			bgName = "bg_story_outdoor",
 			dir = -1,
-			actor = 302104,
+			actor = 302100,
 			actorName = "{namecode:57}",
 			say = "ふふ、やっぱり時雨と山城は仲がいいよね。",
 			typewriter = {
@@ -304,7 +304,7 @@ return {
 			side = 0,
 			bgName = "bg_story_outdoor",
 			dir = -1,
-			actor = 301154,
+			actor = 301150,
 			actorName = "{namecode:17}",
 			say = "そうよ！山城姉さんは時雨といっちばん仲がいいだもん！山城姉さん大好き！",
 			typewriter = {
@@ -332,7 +332,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			blackBg = true,
-			actor = 305024,
+			actor = 305020,
 			actorName = "{namecode:79}",
 			say = "えへへ、時雨ちゃん……というわけで、今日は殿様と神社掃除に行くから遊びはまた今度ね！",
 			typewriter = {

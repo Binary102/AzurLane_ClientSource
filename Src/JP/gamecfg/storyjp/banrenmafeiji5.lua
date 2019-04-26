@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "ジャベリン先輩、鉄血の先輩のみなさんも来ていますよ。",
 			flashout = {
@@ -56,7 +56,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 900094,
+			actor = 201212,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -76,7 +76,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 900094,
+			actor = 201212,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -96,7 +96,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 900094,
+			actor = 201212,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -116,7 +116,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 900094,
+			actor = 201212,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -146,7 +146,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "Z25先輩、Z46先輩、こんにちは。",
 			typewriter = {
@@ -162,7 +162,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_106",
 			dir = -1,
-			actor = 900108,
+			actor = 401251,
 			nameColor = "#a9f548",
 			say = "えっ！？こ、こここんにちは……",
 			typewriter = {
@@ -185,7 +185,7 @@ return {
 			}
 		},
 		{
-			actor = 900108,
+			actor = 401251,
 			side = 0,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -201,7 +201,7 @@ return {
 			}
 		},
 		{
-			actor = 900109,
+			actor = 401461,
 			side = 1,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -217,7 +217,7 @@ return {
 			}
 		},
 		{
-			actor = 900109,
+			actor = 401461,
 			side = 1,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -233,7 +233,7 @@ return {
 			}
 		},
 		{
-			actor = 900106,
+			actor = 904011,
 			side = 0,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -249,7 +249,7 @@ return {
 			}
 		},
 		{
-			actor = 900094,
+			actor = 201212,
 			side = 2,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -268,7 +268,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 900094,
+			actor = 201212,
 			nameColor = "#a9f548",
 			say = "ニコちゃん、フィーゼちゃん、私のもよかったらどうぞ！",
 			typewriter = {
@@ -291,7 +291,7 @@ return {
 			}
 		},
 		{
-			actor = 900111,
+			actor = 405021,
 			side = 2,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -307,7 +307,7 @@ return {
 			}
 		},
 		{
-			actor = 900111,
+			actor = 405021,
 			side = 2,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -327,7 +327,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_106",
 			dir = -1,
-			actor = 900110,
+			actor = 407011,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -343,7 +343,7 @@ return {
 			}
 		},
 		{
-			actor = 900110,
+			actor = 407011,
 			side = 1,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -359,7 +359,7 @@ return {
 			}
 		},
 		{
-			actor = 900111,
+			actor = 405021,
 			side = 0,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -378,7 +378,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_106",
 			dir = -1,
-			actor = 900110,
+			actor = 407011,
 			nameColor = "#a9f548",
 			say = "感謝する。……ッ！味蕾（みらい）を刺激するこの絶妙な甘さは……！",
 			typewriter = {
@@ -401,7 +401,7 @@ return {
 			}
 		},
 		{
-			actor = 900110,
+			actor = 407011,
 			side = 1,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -417,7 +417,7 @@ return {
 			}
 		},
 		{
-			actor = 206041,
+			actor = 206040,
 			side = 2,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -437,7 +437,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 900111,
+			actor = 405021,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -453,7 +453,7 @@ return {
 			}
 		},
 		{
-			actor = 900111,
+			actor = 405021,
 			side = 0,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -469,7 +469,7 @@ return {
 			}
 		},
 		{
-			actor = 900110,
+			actor = 407011,
 			side = 0,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -489,7 +489,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "（小声）ジャベリン先輩、鉄血の先輩たちはいい人ですね。",
 			typewriter = {
@@ -506,7 +506,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 900094,
+			actor = 201212,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -522,7 +522,7 @@ return {
 			}
 		},
 		{
-			actor = 900108,
+			actor = 401251,
 			side = 2,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -542,7 +542,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 900111,
+			actor = 405021,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -558,7 +558,7 @@ return {
 			}
 		},
 		{
-			actor = 900108,
+			actor = 401251,
 			side = 1,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -574,7 +574,7 @@ return {
 			}
 		},
 		{
-			actor = 900111,
+			actor = 405021,
 			side = 0,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -590,7 +590,7 @@ return {
 			}
 		},
 		{
-			actor = 900107,
+			actor = 802011,
 			side = 1,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -606,7 +606,7 @@ return {
 			}
 		},
 		{
-			actor = 900111,
+			actor = 405021,
 			side = 0,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -625,7 +625,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 900094,
+			actor = 201212,
 			nameColor = "#a9f548",
 			say = "ティルピッツさんってスポーツにも興味があるタイプだっけ…？",
 			typewriter = {
@@ -648,7 +648,7 @@ return {
 			}
 		},
 		{
-			actor = 900111,
+			actor = 405021,
 			side = 0,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -668,7 +668,7 @@ return {
 			bgName = "star_level_bg_106",
 			dir = 1,
 			blackBg = true,
-			actor = 900094,
+			actor = 201212,
 			nameColor = "#a9f548",
 			say = "いえいえ！ビーチバレーはいいアイデアだと思うし私もおかし食べちゃったからやりたいと思って！みんな、一緒にやりましょー！",
 			typewriter = {

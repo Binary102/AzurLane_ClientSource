@@ -16,7 +16,7 @@ return {
 			}
 		},
 		{
-			actor = 900075,
+			actor = 305021,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
@@ -32,7 +32,7 @@ return {
 			}
 		},
 		{
-			actor = 900075,
+			actor = 305021,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
@@ -64,7 +64,7 @@ return {
 			}
 		},
 		{
-			actor = 900075,
+			actor = 305021,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
@@ -80,7 +80,7 @@ return {
 			}
 		},
 		{
-			actor = 900075,
+			actor = 305021,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
@@ -112,7 +112,7 @@ return {
 			}
 		},
 		{
-			actor = 900075,
+			actor = 305021,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
@@ -131,7 +131,7 @@ return {
 			actorName = "{namecode:79}",
 			side = 2,
 			dir = 1,
-			actor = 900075,
+			actor = 305021,
 			nameColor = "#a9f548",
 			say = "ここに来るまで、辛いことや悩んじゃったことも、たくさんあったけど…",
 			flashout = {
@@ -161,7 +161,7 @@ return {
 			}
 		},
 		{
-			actor = 900075,
+			actor = 305021,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
@@ -193,7 +193,7 @@ return {
 			}
 		},
 		{
-			actor = 900075,
+			actor = 305021,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,

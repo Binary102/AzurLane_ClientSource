@@ -50,7 +50,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 904011,
+			actor = 904010,
 			nameColor = "#a9f548",
 			say = "おまたせ。今日の最初のお菓子はホットケーキよ",
 			typewriter = {
@@ -67,7 +67,7 @@ return {
 			side = 0,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 301321,
+			actor = 301320,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -93,7 +93,7 @@ return {
 			}
 		},
 		{
-			actor = 102011,
+			actor = 102010,
 			side = 1,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -113,7 +113,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "ふーん…",
 			typewriter = {
@@ -140,7 +140,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgName = "bg_story_room",
-			actor = 904011,
+			actor = 904010,
 			nameColor = "#a9f548",
 			say = "これで最後ね。みんな、好きなだけ食べていいわよ",
 			flashout = {
@@ -173,7 +173,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 101291,
+			actor = 101290,
 			nameColor = "#a9f548",
 			say = "おおお！",
 			typewriter = {
@@ -227,7 +227,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "あ、指揮官、ちょっと見せたいものがあるんだよね～。少し待ってて♪",
 			typewriter = {
@@ -254,7 +254,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "コンコード特製マカロン♪　ふふふ、ダンケルクさんに色々助けてもらった♪",
 			typewriter = {
@@ -271,7 +271,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "コンコード専属試食スタッフとして～指揮官、早く味見、しちゃってね♪",
 			typewriter = {
@@ -288,7 +288,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "今回はぜったいに失望させないから！",
 			typewriter = {
@@ -331,7 +331,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "私らしくて……美味しい？本当？えへへ、ありがとう！",
 			typewriter = {
@@ -348,7 +348,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "やっぱりお菓子は糖分いっぱいであまーーーいほうがいいよね♪",
 			typewriter = {
@@ -381,7 +381,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "ふふふ、指揮官がそこまで言うなら、もっともっと食べてくれてもいいよ♪",
 			typewriter = {
@@ -399,7 +399,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			blackBg = true,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "はい、あーん♡",
 			typewriter = {

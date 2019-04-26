@@ -50,7 +50,7 @@ return {
 			}
 		},
 		{
-			actor = 801011,
+			actor = 801010,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -79,7 +79,7 @@ return {
 			}
 		},
 		{
-			actor = 213011,
+			actor = 213010,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -94,7 +94,7 @@ return {
 			}
 		},
 		{
-			actor = 213021,
+			actor = 213020,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -123,7 +123,7 @@ return {
 			}
 		},
 		{
-			actor = 801011,
+			actor = 801010,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -138,7 +138,7 @@ return {
 			}
 		},
 		{
-			actor = 213011,
+			actor = 213010,
 			side = 1,
 			bgName = "bg_story_outdoor",
 			say = "トリオンファンさん、ありがとう。トリオンファンさんと一緒に出撃するようになってから、テラーもなんだか自信をつけられたようで…",
@@ -157,7 +157,7 @@ return {
 			}
 		},
 		{
-			actor = 213021,
+			actor = 213020,
 			side = 1,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -172,7 +172,7 @@ return {
 			}
 		},
 		{
-			actor = 801011,
+			actor = 801010,
 			side = 0,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -190,7 +190,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 213011,
+			actor = 213010,
 			say = "ごめんなさい。日光が強すぎるとテラーの体に悪いから、お礼は改めて…テラー、お菓子でも食べに行きましょう？",
 			flashout = {
 				dur = 0.5,
@@ -219,7 +219,7 @@ return {
 			}
 		},
 		{
-			actor = 213021,
+			actor = 213020,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -248,7 +248,7 @@ return {
 			}
 		},
 		{
-			actor = 801011,
+			actor = 801010,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -266,7 +266,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 107021,
+			actor = 107020,
 			say = "あら、トリオンファンちゃん？指揮官と母港の見回り？",
 			flashout = {
 				dur = 0.5,
@@ -295,7 +295,7 @@ return {
 			}
 		},
 		{
-			actor = 801011,
+			actor = 801010,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -310,7 +310,7 @@ return {
 			}
 		},
 		{
-			actor = 107031,
+			actor = 107030,
 			side = 1,
 			bgName = "bg_story_outdoor",
 			say = "え？えええ！バレた！？指揮官にドッキリを仕掛けようと思ってたのに～",
@@ -329,7 +329,7 @@ return {
 			}
 		},
 		{
-			actor = 801011,
+			actor = 801010,
 			side = 0,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -344,7 +344,7 @@ return {
 			}
 		},
 		{
-			actor = 107021,
+			actor = 107020,
 			side = 0,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -359,7 +359,7 @@ return {
 			}
 		},
 		{
-			actor = 107031,
+			actor = 107030,
 			side = 1,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -374,7 +374,7 @@ return {
 			}
 		},
 		{
-			actor = 107021,
+			actor = 107020,
 			side = 0,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -389,7 +389,7 @@ return {
 			}
 		},
 		{
-			actor = 107031,
+			actor = 107030,
 			side = 1,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -407,7 +407,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 801011,
+			actor = 801010,
 			say = "落ち着いている、ところ…",
 			flashout = {
 				dur = 1,
@@ -464,7 +464,7 @@ return {
 			}
 		},
 		{
-			actor = 801011,
+			actor = 801010,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -485,7 +485,7 @@ return {
 			}
 		},
 		{
-			actor = 801011,
+			actor = 801010,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -500,7 +500,7 @@ return {
 			}
 		},
 		{
-			actor = 801011,
+			actor = 801010,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,

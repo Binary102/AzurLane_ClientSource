@@ -50,7 +50,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 307071,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "生地もバッチリ…小物と加工用の道具も揃ってる……",
 			typewriter = {
@@ -67,7 +67,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 307071,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "明石に貸してもらった手伝い饅頭は……",
 			typewriter = {
@@ -90,7 +90,7 @@ return {
 			}
 		},
 		{
-			actor = 307071,
+			actor = 307070,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -109,7 +109,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 307071,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "ふふ、ふふふふふ♡　指揮官様が大鳳のドレス姿に心を奪われる姿を想像しますと…ああ～大鳳、幸せですわ～",
 			typewriter = {
@@ -136,7 +136,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			actorPosition = {
 				x = 0,
@@ -165,7 +165,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 307071,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "！！！ああああああアルバコア！？！？！？！？！",
 			typewriter = {
@@ -192,7 +192,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 307071,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "あぅ…………",
 			typewriter = {
@@ -218,7 +218,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "わわ、なんか気を失っちゃった。サプライズしようと思っただけなのに…相変わらずこういうのが苦手なんね",
 			typewriter = {
@@ -235,7 +235,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "おーい、大鳳、おきてー、おきてよー",
 			typewriter = {
@@ -292,7 +292,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			bgm = "story-1",
-			actor = 307071,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "……ここは……さっき夢の中でアルバコアを見たような……",
 			typewriter = {
@@ -309,7 +309,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			actorPosition = {
 				x = 0,
@@ -337,7 +337,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 307071,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "（パタン）",
 			typewriter = {
@@ -363,7 +363,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "わわ！し、しっかり！饅頭たち、水を持ってきて！",
 			typewriter = {
@@ -381,7 +381,7 @@ return {
 			bgName = "bg_story_room",
 			say = "……あなた、なんでこうも正々堂々と重桜寮に入ってるのよ……",
 			dir = 1,
-			actor = 307071,
+			actor = 307070,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -407,7 +407,7 @@ return {
 			}
 		},
 		{
-			actor = 108021,
+			actor = 108020,
 			side = 1,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -427,7 +427,7 @@ return {
 			side = 0,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 307071,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "大鳳と？……わ、私たちそんなに仲が良かったかしら",
 			typewriter = {
@@ -440,7 +440,7 @@ return {
 			}
 		},
 		{
-			actor = 108021,
+			actor = 108020,
 			side = 1,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -460,7 +460,7 @@ return {
 			side = 0,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 307071,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "……まあいいわ。別に昔のことをいつまでもこだわるタイプではありませんし…今は今ですわ",
 			typewriter = {
@@ -473,7 +473,7 @@ return {
 			}
 		},
 		{
-			actor = 108021,
+			actor = 108020,
 			side = 1,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -494,7 +494,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			actorScale = 1.1,
-			actor = 307071,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "指揮官様の邪魔をするものは生かしておけませんよね――",
 			effects = {
@@ -516,7 +516,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "あわわわ！？み、水に流すって言ったじゃないの！？",
 			effects = {
@@ -549,7 +549,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			soundeffect = "event:/battle/plane",
-			actor = 307071,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "「過去」のことは水に流すと言ったんです。この大鳳が愛する指揮官様を「今」邪魔しようとする痴れ者は……",
 			typewriter = {
@@ -562,7 +562,7 @@ return {
 			}
 		},
 		{
-			actor = 307071,
+			actor = 307070,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -582,7 +582,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "ごめん！わたしが悪かった！大鳳の指揮官を取ったりしないってば！",
 			typewriter = {
@@ -609,7 +609,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "艦載機を収めて収めて！饅頭たちが怖がっているじゃない！",
 			typewriter = {
@@ -636,7 +636,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "……ふぅ……死ぬかと思った……",
 			typewriter = {
@@ -649,7 +649,7 @@ return {
 			}
 		},
 		{
-			actor = 108021,
+			actor = 108020,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -665,7 +665,7 @@ return {
 			}
 		},
 		{
-			actor = 108021,
+			actor = 108020,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -685,7 +685,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "いやぁここまで大事なイベントなら、あの指揮官も出るかもしれないぞー",
 			typewriter = {
@@ -702,7 +702,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 307071,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "（いつものブラフ！？ううん、もしかしたら……）そ、そうかしら…？じゃあ少し付き合ってあげますわ……",
 			typewriter = {
@@ -719,7 +719,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			blackBg = true,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "いえーい！",
 			typewriter = {

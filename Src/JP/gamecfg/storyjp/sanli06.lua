@@ -13,7 +13,7 @@ return {
 			blackBg = true,
 			stopbgm = true,
 			withoutPainting = true,
-			actor = 303114,
+			actor = 303110,
 			nameColor = "#a9f548",
 			say = "そうか、あのお方が戻ってきたというのか",
 			flashout = {
@@ -44,7 +44,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			actor = 303124,
+			actor = 303120,
 			actorName = "？？？",
 			say = "連合艦隊の…軍神？まったく頼もしいかぎりね",
 			typewriter = {
@@ -58,7 +58,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			actor = 303114,
+			actor = 303110,
 			actorName = "？？？",
 			say = "いずれにしても…「あのお方」を渡すわけにはいかない…",
 			typewriter = {
@@ -72,7 +72,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			actor = 303114,
+			actor = 303110,
 			actorName = "？？？",
 			say = "重桜は…カミの力さえあれば…",
 			typewriter = {

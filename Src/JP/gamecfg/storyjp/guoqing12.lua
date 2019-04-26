@@ -8,7 +8,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 301201,
+			actor = 301200,
 			side = 2,
 			nameColor = "#ff0000",
 			say = "今回の任務…意外と敵が強い…うぅ、私って真正面からぶつかるタイプじゃないのに…",
@@ -26,7 +26,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			nameColor = "#a9f548",
 			side = 0,
 			say = "野分ちゃんごめん、翔鶴姉が危ないから遊びに付き合っている暇はないの。全力で行かせてもらうわよ。",
@@ -48,7 +48,7 @@ return {
 			}
 		},
 		{
-			actor = 301201,
+			actor = 301200,
 			side = 1,
 			nameColor = "#ff0000",
 			say = "強い敵…でも野分だって強いんだから…",
@@ -66,7 +66,7 @@ return {
 			}
 		},
 		{
-			actor = 301201,
+			actor = 301200,
 			side = 1,
 			nameColor = "#ff0000",
 			say = "空母なんて…私だって…多分…",

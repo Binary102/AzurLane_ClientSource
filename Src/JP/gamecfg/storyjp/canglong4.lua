@@ -60,7 +60,7 @@ return {
 			}
 		},
 		{
-			actor = 307041,
+			actor = 307040,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -80,7 +80,7 @@ return {
 			side = 1,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 307031,
+			actor = 307030,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -100,7 +100,7 @@ return {
 			side = 1,
 			bgName = "bg_story_room",
 			withoutActorName = true,
-			actor = 307031,
+			actor = 307030,
 			nameColor = "#a9f548",
 			say = "蒼龍は昨日持ち帰った書類の整理をやっていた。さすがは秘書艦の鑑である",
 			typewriter = {
@@ -113,7 +113,7 @@ return {
 			}
 		},
 		{
-			actor = 307041,
+			actor = 307040,
 			side = 0,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -129,7 +129,7 @@ return {
 			}
 		},
 		{
-			actor = 307041,
+			actor = 307040,
 			side = 0,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -145,7 +145,7 @@ return {
 			}
 		},
 		{
-			actor = 307031,
+			actor = 307030,
 			side = 1,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -164,7 +164,7 @@ return {
 			side = 0,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 307041,
+			actor = 307040,
 			nameColor = "#a9f548",
 			say = "あっ、そういうのじゃなくて、姉さまが仕事をしている時って、すごく輝いてるように見えるんです。指揮官もそう思いますよね？",
 			typewriter = {
@@ -183,7 +183,7 @@ return {
 			}
 		},
 		{
-			actor = 307031,
+			actor = 307030,
 			side = 1,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -199,7 +199,7 @@ return {
 			}
 		},
 		{
-			actor = 307041,
+			actor = 307040,
 			side = 0,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -215,7 +215,7 @@ return {
 			}
 		},
 		{
-			actor = 307031,
+			actor = 307030,
 			side = 1,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -231,7 +231,7 @@ return {
 			}
 		},
 		{
-			actor = 307031,
+			actor = 307030,
 			side = 1,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -251,7 +251,7 @@ return {
 			side = 1,
 			bgName = "bg_story_room",
 			withoutActorName = true,
-			actor = 307031,
+			actor = 307030,
 			nameColor = "#a9f548",
 			say = "蒼龍って意外とドライだな……",
 			typewriter = {
@@ -264,7 +264,7 @@ return {
 			}
 		},
 		{
-			actor = 307041,
+			actor = 307040,
 			side = 0,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -280,7 +280,7 @@ return {
 			}
 		},
 		{
-			actor = 307031,
+			actor = 307030,
 			side = 1,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -296,7 +296,7 @@ return {
 			}
 		},
 		{
-			actor = 307041,
+			actor = 307040,
 			side = 0,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -312,7 +312,7 @@ return {
 			}
 		},
 		{
-			actor = 307031,
+			actor = 307030,
 			side = 1,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -328,7 +328,7 @@ return {
 			}
 		},
 		{
-			actor = 307031,
+			actor = 307030,
 			side = 1,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -347,7 +347,7 @@ return {
 			side = 0,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 307041,
+			actor = 307040,
 			nameColor = "#a9f548",
 			say = "えっ、本当ですか！？",
 			typewriter = {
@@ -376,7 +376,7 @@ return {
 			}
 		},
 		{
-			actor = 307031,
+			actor = 307030,
 			side = 1,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",

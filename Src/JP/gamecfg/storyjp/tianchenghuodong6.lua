@@ -11,7 +11,7 @@ return {
 			side = 1,
 			dir = 1,
 			bgm = "battle-boss-tiancheng",
-			actor = 302141,
+			actor = 302140,
 			nameColor = "#ff0000",
 			say = "さすが天城さん！那珂負けちゃいました！",
 			typewriter = {
@@ -24,7 +24,7 @@ return {
 			}
 		},
 		{
-			actor = 304051,
+			actor = 304050,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -43,7 +43,7 @@ return {
 			nameColor = "#ff0000",
 			side = 1,
 			dir = 1,
-			actor = 302141,
+			actor = 302140,
 			say = "天城さんは姉さんたちとも仲がいいのですか？",
 			typewriter = {
 				speed = 0.05,
@@ -55,7 +55,7 @@ return {
 			}
 		},
 		{
-			actor = 304051,
+			actor = 304050,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -74,7 +74,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
-			actor = 304051,
+			actor = 304050,
 			say = "神通の「知」、そして川内の「力」……あなたの素質も彼女たちと比べて勝るとも劣りませんわ",
 			typewriter = {
 				speed = 0.05,
@@ -86,7 +86,7 @@ return {
 			}
 		},
 		{
-			actor = 302141,
+			actor = 302140,
 			side = 1,
 			nameColor = "#ff0000",
 			dir = 1,
@@ -101,7 +101,7 @@ return {
 			}
 		},
 		{
-			actor = 304051,
+			actor = 304050,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -120,7 +120,7 @@ return {
 			nameColor = "#ff0000",
 			side = 1,
 			dir = 1,
-			actor = 302141,
+			actor = 302140,
 			say = "あの赤城さんのこと…ですか？",
 			typewriter = {
 				speed = 0.05,
@@ -136,7 +136,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
-			actor = 304051,
+			actor = 304050,
 			say = "ええ。赤城は…まあ、そうね、少し甘やかしすぎたのでしょうか……",
 			typewriter = {
 				speed = 0.05,
@@ -152,7 +152,7 @@ return {
 			nameColor = "#ff0000",
 			side = 1,
 			dir = 1,
-			actor = 302141,
+			actor = 302140,
 			say = "そうですか…？赤城さんもすごく強いと思っちゃいますね",
 			typewriter = {
 				speed = 0.05,
@@ -168,7 +168,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
-			actor = 304051,
+			actor = 304050,
 			say = "力があっても、それを御する心がなければ、全てが上手く行くならいいですが、もしそうではなかったら……",
 			typewriter = {
 				speed = 0.05,
@@ -180,7 +180,7 @@ return {
 			}
 		},
 		{
-			actor = 302141,
+			actor = 302140,
 			side = 1,
 			nameColor = "#ff0000",
 			dir = 1,
@@ -198,7 +198,7 @@ return {
 			expression = 3,
 			side = 0,
 			dir = -1,
-			actor = 304051,
+			actor = 304050,
 			nameColor = "#a9f548",
 			say = "そんなこと……げほ！ゲホゲホ！",
 			typewriter = {
@@ -221,7 +221,7 @@ return {
 			}
 		},
 		{
-			actor = 304051,
+			actor = 304050,
 			nameColor = "#a9f548",
 			dir = -1,
 			withoutActorName = true,
@@ -240,7 +240,7 @@ return {
 			expression = 1,
 			side = 1,
 			dir = 1,
-			actor = 302141,
+			actor = 302140,
 			nameColor = "#ff0000",
 			say = "天城さん！大丈夫ですか！？",
 			typewriter = {
@@ -267,7 +267,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
-			actor = 304051,
+			actor = 304050,
 			say = "大丈夫です…げほげほ…演習の準備で少し体の方に来ているだけです",
 			typewriter = {
 				speed = 0.05,
@@ -283,7 +283,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
-			actor = 304051,
+			actor = 304050,
 			say = "ふふ、情けない様子を見せちゃいましたわね",
 			typewriter = {
 				speed = 0.05,
@@ -299,7 +299,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
-			actor = 304051,
+			actor = 304050,
 			say = "那珂は早く港に戻りましょう？もう「撃破」判定がついていますから",
 			typewriter = {
 				speed = 0.05,
@@ -315,7 +315,7 @@ return {
 			nameColor = "#ff0000",
 			side = 1,
 			dir = 1,
-			actor = 302141,
+			actor = 302140,
 			say = "は…はい！天城さんこそお大事に！",
 			typewriter = {
 				speed = 0.05,
@@ -331,7 +331,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = -1,
-			actor = 304051,
+			actor = 304050,
 			say = "ふぅ……",
 			typewriter = {
 				speed = 0.05,
@@ -347,7 +347,7 @@ return {
 			side = 2,
 			dir = -1,
 			blackBg = true,
-			actor = 304051,
+			actor = 304050,
 			nameColor = "#a9f548",
 			say = "私がいるから、ですか？……確かに……",
 			typewriter = {
@@ -364,7 +364,7 @@ return {
 			side = 2,
 			dir = -1,
 			blackBg = true,
-			actor = 304051,
+			actor = 304050,
 			nameColor = "#a9f548",
 			say = "でも、果たして私があとどれだけあなたのそばにいられるのでしょうか。……赤城",
 			typewriter = {

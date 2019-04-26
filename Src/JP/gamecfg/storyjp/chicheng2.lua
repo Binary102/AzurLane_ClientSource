@@ -41,7 +41,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 307041,
+			actor = 307040,
 			nameColor = "#a9f548",
 			say = "はぁ…はぁ……きょ、今日はいつも以上の鬼教官っぷりですね…",
 			typewriter = {
@@ -67,7 +67,7 @@ return {
 			side = 1,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 307031,
+			actor = 307030,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -83,7 +83,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			nameColor = "#a9f548",
 			bgName = "bg_story_nepu1",
 			side = 0,
@@ -99,7 +99,7 @@ return {
 			}
 		},
 		{
-			actor = 307051,
+			actor = 307050,
 			nameColor = "#a9f548",
 			bgName = "bg_story_nepu1",
 			side = 1,
@@ -115,7 +115,7 @@ return {
 			}
 		},
 		{
-			actor = 307024,
+			actor = 307020,
 			nameColor = "#a9f548",
 			bgName = "bg_story_nepu1",
 			side = 1,
@@ -131,7 +131,7 @@ return {
 			}
 		},
 		{
-			actor = 307041,
+			actor = 307040,
 			nameColor = "#a9f548",
 			bgName = "bg_story_nepu1",
 			side = 0,
@@ -147,7 +147,7 @@ return {
 			}
 		},
 		{
-			actor = 307024,
+			actor = 307020,
 			nameColor = "#a9f548",
 			bgName = "bg_story_nepu1",
 			side = 1,
@@ -163,7 +163,7 @@ return {
 			}
 		},
 		{
-			actor = 307024,
+			actor = 307020,
 			nameColor = "#a9f548",
 			bgName = "bg_story_nepu1",
 			side = 1,
@@ -182,7 +182,7 @@ return {
 			bgName = "bg_story_nepu1",
 			side = 2,
 			dir = 1,
-			actor = 307011,
+			actor = 307010,
 			nameColor = "#a9f548",
 			say = "これぐらいで声を上げるなんて…それでも重桜航空戦隊の一員か！？",
 			flashout = {
@@ -212,7 +212,7 @@ return {
 			}
 		},
 		{
-			actor = 307011,
+			actor = 307010,
 			nameColor = "#a9f548",
 			bgName = "bg_story_nepu1",
 			side = 2,
@@ -228,7 +228,7 @@ return {
 			}
 		},
 		{
-			actor = 307011,
+			actor = 307010,
 			nameColor = "#a9f548",
 			bgName = "bg_story_nepu1",
 			side = 2,
@@ -244,7 +244,7 @@ return {
 			}
 		},
 		{
-			actor = 307011,
+			actor = 307010,
 			nameColor = "#a9f548",
 			bgName = "bg_story_nepu1",
 			side = 2,
@@ -264,7 +264,7 @@ return {
 			side = 1,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 307024,
+			actor = 307020,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -284,7 +284,7 @@ return {
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			blackBg = true,
-			actor = 307011,
+			actor = 307010,
 			nameColor = "#a9f548",
 			say = "……では指揮官様、赤城は合同訓練に戻りますわ。ご見学されたいのでしたらあそこに移動して頂戴。うふふ♪",
 			typewriter = {

@@ -46,7 +46,7 @@ return {
 			}
 		},
 		{
-			actor = 206011,
+			actor = 206010,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -66,7 +66,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			soundeffect = "event:/battle/plane",
-			actor = 206011,
+			actor = 206010,
 			nameColor = "#a9f548",
 			say = "私のターン！ドロー！",
 			effects = {
@@ -138,7 +138,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = -1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "し、指揮官、おはようございます！",
 			typewriter = {
@@ -165,7 +165,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = -1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "ええと、私、怪しいことはなにも……！ただ……",
 			typewriter = {
@@ -188,7 +188,7 @@ return {
 			}
 		},
 		{
-			actor = 206041,
+			actor = 206040,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -204,7 +204,7 @@ return {
 			}
 		},
 		{
-			actor = 206041,
+			actor = 206040,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -224,7 +224,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = -1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "指揮官、助けていただけますでしょうか…",
 			typewriter = {
@@ -256,7 +256,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = -1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "えええ！？",
 			typewriter = {
@@ -279,7 +279,7 @@ return {
 			}
 		},
 		{
-			actor = 206011,
+			actor = 206010,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -300,7 +300,7 @@ return {
 			bgName = "bg_story_outdoor",
 			say = "あの、ハーミーズ先輩……",
 			dir = -1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -316,7 +316,7 @@ return {
 			}
 		},
 		{
-			actor = 206011,
+			actor = 206010,
 			side = 1,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -336,7 +336,7 @@ return {
 			side = 0,
 			bgName = "bg_story_outdoor",
 			dir = -1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "は、はい！",
 			typewriter = {
@@ -369,7 +369,7 @@ return {
 			}
 		},
 		{
-			actor = 206011,
+			actor = 206010,
 			side = 1,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -385,7 +385,7 @@ return {
 			}
 		},
 		{
-			actor = 206011,
+			actor = 206010,
 			side = 1,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -405,12 +405,12 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = -1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "え、ええ？",
 			subActors = {
 				{
-					actor = 206011,
+					actor = 206010,
 					pos = {
 						x = -450
 					}

@@ -23,7 +23,7 @@ return {
 			bgmDelay = 2,
 			say = "ストライクフレーム展開、最大出力！",
 			bgm = "story-1",
-			actor = 900125,
+			actor = 201219,
 			nameColor = "#a9f548",
 			bgName = "bg_story_outdoor",
 			seDelay = 2.2,
@@ -57,7 +57,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 900126,
+			actor = 301059,
 			nameColor = "#a9f548",
 			say = "鬼神の演舞、見るがいい……！",
 			effects = {
@@ -79,7 +79,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 900127,
+			actor = 101179,
 			nameColor = "#a9f548",
 			say = "殲滅形態、転換完了………眠い……",
 			effects = {
@@ -111,7 +111,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 900128,
+			actor = 401239,
 			nameColor = "#a9f548",
 			say = "重装形態、起動ッ！ってラフィーまだ寝ないでよ！せっかくみんなで決めポーズを決めようって言っているのに！",
 			typewriter = {
@@ -134,7 +134,7 @@ return {
 			}
 		},
 		{
-			actor = 301051,
+			actor = 301050,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -150,7 +150,7 @@ return {
 			}
 		},
 		{
-			actor = 401231,
+			actor = 401230,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -166,7 +166,7 @@ return {
 			}
 		},
 		{
-			actor = 201211,
+			actor = 201210,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -185,7 +185,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 401231,
+			actor = 401230,
 			nameColor = "#a9f548",
 			say = "ダメよ！せっかくやるんだから、せめてポーズだけでも……",
 			typewriter = {
@@ -208,7 +208,7 @@ return {
 			}
 		},
 		{
-			actor = 401231,
+			actor = 401230,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -228,7 +228,7 @@ return {
 			side = 1,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 102081,
+			actor = 102080,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -254,7 +254,7 @@ return {
 			}
 		},
 		{
-			actor = 401231,
+			actor = 401230,
 			side = 0,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -270,7 +270,7 @@ return {
 			}
 		},
 		{
-			actor = 201211,
+			actor = 201210,
 			side = 0,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -286,7 +286,7 @@ return {
 			}
 		},
 		{
-			actor = 102081,
+			actor = 102080,
 			side = 1,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -302,7 +302,7 @@ return {
 			}
 		},
 		{
-			actor = 401231,
+			actor = 401230,
 			side = 0,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -321,7 +321,7 @@ return {
 			side = 1,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 102081,
+			actor = 102080,
 			nameColor = "#a9f548",
 			say = "？？？",
 			typewriter = {
@@ -344,7 +344,7 @@ return {
 			}
 		},
 		{
-			actor = 401231,
+			actor = 401230,
 			side = 0,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -363,7 +363,7 @@ return {
 			side = 1,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 102081,
+			actor = 102080,
 			nameColor = "#a9f548",
 			say = "おおお！改造ってそんなに凄いんだ！",
 			typewriter = {
@@ -391,18 +391,18 @@ return {
 			bgName = "bg_story_outdoor",
 			hideOther = true,
 			dir = 1,
-			actor = 201211,
+			actor = 201210,
 			actorName = "ジャベリン&綾波&ラフィー",
 			say = "おおお！改造ってそんなに凄いんだ！",
 			subActors = {
 				{
-					actor = 301051,
+					actor = 301050,
 					pos = {
 						x = 370
 					}
 				},
 				{
-					actor = 101171,
+					actor = 101170,
 					pos = {
 						x = 750
 					}
@@ -431,7 +431,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 401231,
+			actor = 401230,
 			nameColor = "#a9f548",
 			say = "そうですよ！……ってええええ！？",
 			typewriter = {

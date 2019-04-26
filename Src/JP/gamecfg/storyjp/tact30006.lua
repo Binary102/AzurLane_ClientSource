@@ -6,7 +6,7 @@ return {
 	fadeType = 1,
 	scripts = {
 		{
-			actor = 404011,
+			actor = 404010,
 			side = 2,
 			dir = -1,
 			nameColor = "#D6341D",
@@ -25,7 +25,7 @@ return {
 			}
 		},
 		{
-			actor = 900019,
+			actor = 213011,
 			side = 0,
 			say = "不……也没要你逃跑就是了……",
 			paintingFadeOut = {
@@ -46,7 +46,7 @@ return {
 			}
 		},
 		{
-			actor = 404021,
+			actor = 404020,
 			side = 1,
 			dir = -1,
 			nameColor = "#D6341D",
@@ -65,7 +65,7 @@ return {
 			}
 		},
 		{
-			actor = 404011,
+			actor = 404010,
 			side = 1,
 			dir = -1,
 			nameColor = "#D6341D",
@@ -84,7 +84,7 @@ return {
 			}
 		},
 		{
-			actor = 404021,
+			actor = 404020,
 			side = 1,
 			dir = -1,
 			nameColor = "#D6341D",
@@ -103,7 +103,7 @@ return {
 			}
 		},
 		{
-			actor = 404011,
+			actor = 404010,
 			side = 1,
 			dir = -1,
 			nameColor = "#D6341D",
@@ -123,7 +123,7 @@ return {
 		},
 		{
 			side = 0,
-			actor = 900019,
+			actor = 213011,
 			say = "……好像没有我插入的余地了……趁现在……悄悄地……悄悄地……",
 			shake = {
 				speed = 1,
@@ -151,7 +151,7 @@ return {
 			}
 		},
 		{
-			actor = 900019,
+			actor = 213011,
 			side = 2,
 			blackBg = true,
 			say = "……就是这个吗？",
@@ -169,7 +169,7 @@ return {
 			}
 		},
 		{
-			actor = 900019,
+			actor = 213011,
 			side = 2,
 			blackBg = true,
 			say = "呜……造型独特的宝箱，还带个“Goal”的横幅，用指挥官的话说……大概是“让人很难吐槽”……？",
@@ -187,7 +187,7 @@ return {
 			}
 		},
 		{
-			actor = 900019,
+			actor = 213011,
 			side = 2,
 			blackBg = true,
 			say = "就不能象征性地埋一下吗，埋半个进土里至少也有点寻宝的感觉……",
@@ -205,7 +205,7 @@ return {
 			}
 		},
 		{
-			actor = 900019,
+			actor = 213011,
 			side = 2,
 			blackBg = true,
 			say = "总之……打开看看……只有一张纸…内容…？",
@@ -223,7 +223,7 @@ return {
 			}
 		},
 		{
-			actor = 900019,
+			actor = 213011,
 			side = 2,
 			blackBg = true,
 			say = "「制作巧克力最重要的东西就是制作者本人一颗真挚的心喔！」",
@@ -241,7 +241,7 @@ return {
 			}
 		},
 		{
-			actor = 900019,
+			actor = 213011,
 			side = 2,
 			blackBg = true,
 			say = "一颗真挚的心？有种……被敷衍了的感觉……？",
@@ -259,7 +259,7 @@ return {
 			}
 		},
 		{
-			actor = 900019,
+			actor = 213011,
 			side = 2,
 			blackBg = true,
 			say = "嗯……？背面还有字……「遥远的观察者致上」",
@@ -277,7 +277,7 @@ return {
 			}
 		},
 		{
-			actor = 900019,
+			actor = 213011,
 			side = 2,
 			blackBg = true,
 			say = "这是……？观察者？难道不是{namecode:89}小姐出于好玩埋的吗？",
@@ -295,7 +295,7 @@ return {
 			}
 		},
 		{
-			actor = 900019,
+			actor = 213011,
 			side = 2,
 			blackBg = true,
 			say = "总之既然宝藏找到了，赶快回去吧，还得给指挥官报告一下这场闹剧以及……",
@@ -313,7 +313,7 @@ return {
 			}
 		},
 		{
-			actor = 900019,
+			actor = 213011,
 			side = 2,
 			blackBg = true,
 			say = "做巧克力呢……",
@@ -346,7 +346,7 @@ return {
 			side = 2,
 			nameColor = "#D6341D",
 			blackBg = true,
-			actor = 900018,
+			actor = 306031,
 			actorName = "{namecode:89}？？",
 			say = "呵呵呵，稍微加点引导和刺激，就收集到了不错的数据呢……",
 			shake = {

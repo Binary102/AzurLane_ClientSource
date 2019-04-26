@@ -14,7 +14,7 @@ return {
 			}
 		},
 		{
-			actor = 306054,
+			actor = 306050,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -29,7 +29,7 @@ return {
 			}
 		},
 		{
-			actor = 306054,
+			actor = 306050,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -46,7 +46,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			actor = 312014,
+			actor = 312010,
 			nameColor = "#a9f548",
 			say = "にゃにゃ♪この明石にはいい案があるにゃ！実は最近新しい食料を開発したにゃ。電子の海に溺れるコドモたちを引き上げるチョ～オイシイ、明石謹製エナジーチーズケーキにゃ！",
 			flashout = {
@@ -76,7 +76,7 @@ return {
 			}
 		},
 		{
-			actor = 312014,
+			actor = 312010,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -91,7 +91,7 @@ return {
 			}
 		},
 		{
-			actor = 306054,
+			actor = 306050,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -110,7 +110,7 @@ return {
 			}
 		},
 		{
-			actor = 312014,
+			actor = 312010,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,

@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "main-uta",
-			actor = 10300011,
+			actor = 10300010,
 			nameColor = "#a9f548",
 			say = "ネコネは私の妹だよ。血は繋がってないけどね",
 			flashout = {
@@ -52,7 +52,7 @@ return {
 			}
 		},
 		{
-			actor = 10300021,
+			actor = 10300020,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -68,7 +68,7 @@ return {
 			}
 		},
 		{
-			actor = 10300061,
+			actor = 10300060,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -88,7 +88,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 10300061,
+			actor = 10300060,
 			nameColor = "#a9f548",
 			say = "つまり、クーちゃんの妹であるネコちゃんも私の妹……立場的には三姉妹の長女になりますね",
 			typewriter = {
@@ -121,7 +121,7 @@ return {
 			}
 		},
 		{
-			actor = 10300011,
+			actor = 10300010,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -137,7 +137,7 @@ return {
 			}
 		},
 		{
-			actor = 10300061,
+			actor = 10300060,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -153,7 +153,7 @@ return {
 			}
 		},
 		{
-			actor = 10300021,
+			actor = 10300020,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -173,7 +173,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 10300011,
+			actor = 10300010,
 			nameColor = "#a9f548",
 			say = "あははは……そこにカルラお母……お姉さまも加えておいてあげないと、後が怖いかな～？",
 			typewriter = {
@@ -186,7 +186,7 @@ return {
 			}
 		},
 		{
-			actor = 10300061,
+			actor = 10300060,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -212,7 +212,7 @@ return {
 			}
 		},
 		{
-			actor = 10300011,
+			actor = 10300010,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -232,7 +232,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 10300011,
+			actor = 10300010,
 			nameColor = "#a9f548",
 			say = "お父さまと呼べるのは１人だけなんだけど……ガラの悪い兄さんや小言の多い兄さまはいたかな",
 			typewriter = {
@@ -259,7 +259,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 10300011,
+			actor = 10300010,
 			nameColor = "#a9f548",
 			say = "でも……この学園にいると故郷を思い出すんだ",
 			typewriter = {
@@ -272,7 +272,7 @@ return {
 			}
 		},
 		{
-			actor = 10300011,
+			actor = 10300010,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -288,7 +288,7 @@ return {
 			}
 		},
 		{
-			actor = 10300011,
+			actor = 10300010,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -304,7 +304,7 @@ return {
 			}
 		},
 		{
-			actor = 10300061,
+			actor = 10300060,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -324,7 +324,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 10300021,
+			actor = 10300020,
 			nameColor = "#a9f548",
 			say = "いつかはあちらに帰らなくちゃいけませんけど……それまでは、ここの皆さんと仲良くしたいです",
 			typewriter = {
@@ -341,7 +341,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 10300011,
+			actor = 10300010,
 			nameColor = "#a9f548",
 			say = "そうなると指揮官は……みんなの保護者かな？",
 			typewriter = {
@@ -368,7 +368,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 10300061,
+			actor = 10300060,
 			nameColor = "#a9f548",
 			say = "ウフフ……責任重大ですわね、指揮官さま？",
 			typewriter = {
@@ -381,7 +381,7 @@ return {
 			}
 		},
 		{
-			actor = 10300021,
+			actor = 10300020,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -421,7 +421,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 10300011,
+			actor = 10300010,
 			nameColor = "#a9f548",
 			say = "改めて──これからもよろしくね、指揮官",
 			typewriter = {

@@ -46,7 +46,7 @@ return {
 			}
 		},
 		{
-			actor = 301211,
+			actor = 301210,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#92fc63",
@@ -65,7 +65,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 301211,
+			actor = 301210,
 			nameColor = "#92fc63",
 			say = "航行中に何回も練習したのに、指揮官の前ではやっぱり……",
 			typewriter = {
@@ -88,7 +88,7 @@ return {
 			}
 		},
 		{
-			actor = 306011,
+			actor = 306010,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#92fc63",
@@ -107,7 +107,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 301211,
+			actor = 301210,
 			nameColor = "#92fc63",
 			say = "きゃっ！？あぅ…ひ、飛鷹さん……？",
 			typewriter = {
@@ -134,7 +134,7 @@ return {
 			side = 1,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 306011,
+			actor = 306010,
 			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
@@ -150,7 +150,7 @@ return {
 			}
 		},
 		{
-			actor = 306011,
+			actor = 306010,
 			side = 1,
 			bgName = "bg_story_room",
 			nameColor = "#92fc63",
@@ -166,7 +166,7 @@ return {
 			}
 		},
 		{
-			actor = 301211,
+			actor = 301210,
 			side = 0,
 			bgName = "bg_story_room",
 			nameColor = "#92fc63",
@@ -182,7 +182,7 @@ return {
 			}
 		},
 		{
-			actor = 306011,
+			actor = 306010,
 			side = 1,
 			bgName = "bg_story_room",
 			nameColor = "#92fc63",
@@ -198,7 +198,7 @@ return {
 			}
 		},
 		{
-			actor = 301211,
+			actor = 301210,
 			side = 0,
 			bgName = "bg_story_room",
 			nameColor = "#92fc63",
@@ -214,7 +214,7 @@ return {
 			}
 		},
 		{
-			actor = 301211,
+			actor = 301210,
 			side = 0,
 			bgName = "bg_story_room",
 			nameColor = "#92fc63",
@@ -230,7 +230,7 @@ return {
 			}
 		},
 		{
-			actor = 306011,
+			actor = 306010,
 			side = 1,
 			bgName = "bg_story_room",
 			nameColor = "#92fc63",
@@ -249,7 +249,7 @@ return {
 			side = 0,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 301211,
+			actor = 301210,
 			nameColor = "#92fc63",
 			say = "（こくり）",
 			typewriter = {
@@ -272,7 +272,7 @@ return {
 			}
 		},
 		{
-			actor = 306011,
+			actor = 306010,
 			side = 1,
 			bgName = "bg_story_room",
 			nameColor = "#92fc63",
@@ -288,7 +288,7 @@ return {
 			}
 		},
 		{
-			actor = 306011,
+			actor = 306010,
 			side = 1,
 			bgName = "bg_story_room",
 			nameColor = "#92fc63",
@@ -304,7 +304,7 @@ return {
 			}
 		},
 		{
-			actor = 301211,
+			actor = 301210,
 			side = 0,
 			bgName = "bg_story_room",
 			nameColor = "#92fc63",
@@ -320,7 +320,7 @@ return {
 			}
 		},
 		{
-			actor = 306011,
+			actor = 306010,
 			side = 1,
 			bgName = "bg_story_room",
 			nameColor = "#92fc63",
@@ -339,7 +339,7 @@ return {
 			side = 0,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 301211,
+			actor = 301210,
 			nameColor = "#92fc63",
 			say = "や、やっぱりいいです――",
 			typewriter = {
@@ -362,7 +362,7 @@ return {
 			}
 		},
 		{
-			actor = 306011,
+			actor = 306010,
 			side = 1,
 			bgName = "bg_story_room",
 			nameColor = "#92fc63",
@@ -381,7 +381,7 @@ return {
 			side = 1,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 306011,
+			actor = 306010,
 			nameColor = "#92fc63",
 			say = "…こんなところか。駆逐艦初春、出撃だ！この大海原も指揮官もお前の力で征服してみせろ！",
 			effects = {
@@ -403,7 +403,7 @@ return {
 			side = 0,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 301211,
+			actor = 301210,
 			nameColor = "#92fc63",
 			say = "あぅ…私……",
 			effects = {
@@ -432,7 +432,7 @@ return {
 			}
 		},
 		{
-			actor = 301241,
+			actor = 301240,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#92fc63",
@@ -451,7 +451,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 301231,
+			actor = 301230,
 			nameColor = "#92fc63",
 			say = "初春姉かっこいい！",
 			typewriter = {
@@ -477,7 +477,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 301211,
+			actor = 301210,
 			nameColor = "#92fc63",
 			say = "うぅ…やっぱり無理―――――！！！",
 			typewriter = {

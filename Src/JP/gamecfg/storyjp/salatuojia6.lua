@@ -32,7 +32,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			actor = 107031,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "グリッドレイちゃん、それ取ってー",
 			flashout = {
@@ -66,7 +66,7 @@ return {
 			side = 0,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 101051,
+			actor = 101050,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -82,7 +82,7 @@ return {
 			}
 		},
 		{
-			actor = 107031,
+			actor = 107030,
 			side = 1,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -98,7 +98,7 @@ return {
 			}
 		},
 		{
-			actor = 101051,
+			actor = 101050,
 			side = 0,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -114,7 +114,7 @@ return {
 			}
 		},
 		{
-			actor = 107031,
+			actor = 107030,
 			side = 1,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -130,7 +130,7 @@ return {
 			}
 		},
 		{
-			actor = 101051,
+			actor = 101050,
 			side = 0,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -149,7 +149,7 @@ return {
 			side = 1,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 107031,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "うわっ！どうしたの？",
 			typewriter = {
@@ -171,7 +171,7 @@ return {
 			}
 		},
 		{
-			actor = 101051,
+			actor = 101050,
 			side = 0,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -187,7 +187,7 @@ return {
 			}
 		},
 		{
-			actor = 107031,
+			actor = 107030,
 			side = 1,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -203,7 +203,7 @@ return {
 			}
 		},
 		{
-			actor = 101051,
+			actor = 101050,
 			side = 0,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -219,7 +219,7 @@ return {
 			}
 		},
 		{
-			actor = 107031,
+			actor = 107030,
 			side = 1,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -235,7 +235,7 @@ return {
 			}
 		},
 		{
-			actor = 107031,
+			actor = 107030,
 			side = 1,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -254,7 +254,7 @@ return {
 			side = 0,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 101051,
+			actor = 101050,
 			nameColor = "#a9f548",
 			say = "指揮官逃げて――！",
 			typewriter = {
@@ -303,7 +303,7 @@ return {
 			}
 		},
 		{
-			actor = 107031,
+			actor = 107030,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",

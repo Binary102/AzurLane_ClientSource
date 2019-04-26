@@ -54,7 +54,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			withoutActorName = true,
-			actor = 10300061,
+			actor = 10300060,
 			nameColor = "#a9f548",
 			say = " ",
 			typewriter = {
@@ -77,7 +77,7 @@ return {
 			}
 		},
 		{
-			actor = 10300011,
+			actor = 10300010,
 			nameColor = "#a9f548",
 			bgName = "bg_story_school",
 			dir = 1,
@@ -104,7 +104,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			withoutActorName = true,
-			actor = 401231,
+			actor = 401230,
 			nameColor = "#a9f548",
 			say = " ",
 			typewriter = {
@@ -121,7 +121,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			withoutActorName = true,
-			actor = 301051,
+			actor = 301050,
 			nameColor = "#a9f548",
 			say = " ",
 			typewriter = {
@@ -144,7 +144,7 @@ return {
 			}
 		},
 		{
-			actor = 10300061,
+			actor = 10300060,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -170,7 +170,7 @@ return {
 			}
 		},
 		{
-			actor = 10300061,
+			actor = 10300060,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -190,7 +190,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 10300061,
+			actor = 10300060,
 			nameColor = "#a9f548",
 			say = "幼い頃からお側付きとしてクーちゃんの傍にお仕えし、誰よりも彼女のことを知っているという誇りがありました",
 			typewriter = {
@@ -203,7 +203,7 @@ return {
 			}
 		},
 		{
-			actor = 10300061,
+			actor = 10300060,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -223,7 +223,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 10300061,
+			actor = 10300060,
 			nameColor = "#a9f548",
 			say = "私に見せる顔とはまた違う、友人たちだけに見せる顔……それを見つめておりました",
 			typewriter = {
@@ -250,7 +250,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 10300061,
+			actor = 10300060,
 			nameColor = "#a9f548",
 			say = "いいえ……私の知らないクーちゃんがいる。それが……とっても嬉しいんです！",
 			typewriter = {
@@ -263,7 +263,7 @@ return {
 			}
 		},
 		{
-			actor = 10300061,
+			actor = 10300060,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",

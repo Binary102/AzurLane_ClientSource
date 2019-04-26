@@ -32,7 +32,7 @@ return {
 			}
 		},
 		{
-			actor = 202031,
+			actor = 202030,
 			nameColor = "#a9f548",
 			bgName = "bg_story_room",
 			side = 2,
@@ -48,7 +48,7 @@ return {
 			}
 		},
 		{
-			actor = 202031,
+			actor = 202030,
 			nameColor = "#a9f548",
 			bgName = "bg_story_room",
 			side = 2,
@@ -67,7 +67,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 202031,
+			actor = 202030,
 			nameColor = "#a9f548",
 			say = "うえぇえええ……",
 			typewriter = {
@@ -86,7 +86,7 @@ return {
 			}
 		},
 		{
-			actor = 202031,
+			actor = 202030,
 			nameColor = "#a9f548",
 			bgName = "bg_story_room",
 			side = 2,
@@ -102,7 +102,7 @@ return {
 			}
 		},
 		{
-			actor = 202031,
+			actor = 202030,
 			nameColor = "#a9f548",
 			bgName = "bg_story_room",
 			side = 2,
@@ -132,7 +132,7 @@ return {
 			}
 		},
 		{
-			actor = 202031,
+			actor = 202030,
 			nameColor = "#a9f548",
 			bgName = "bg_story_room",
 			side = 2,
@@ -151,7 +151,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 202031,
+			actor = 202030,
 			nameColor = "#a9f548",
 			say = "うぅ…こんなことされては……もう子豚ちゃんを踏んづけられないじゃない！",
 			typewriter = {
@@ -235,7 +235,7 @@ return {
 			}
 		},
 		{
-			actor = 202031,
+			actor = 202030,
 			nameColor = "#a9f548",
 			bgName = "bg_story_room",
 			side = 2,
@@ -251,7 +251,7 @@ return {
 			}
 		},
 		{
-			actor = 202031,
+			actor = 202030,
 			nameColor = "#a9f548",
 			bgName = "bg_story_room",
 			side = 2,
@@ -267,7 +267,7 @@ return {
 			}
 		},
 		{
-			actor = 202031,
+			actor = 202030,
 			nameColor = "#a9f548",
 			bgName = "bg_story_room",
 			side = 2,
@@ -287,7 +287,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			blackBg = true,
-			actor = 202031,
+			actor = 202030,
 			nameColor = "#a9f548",
 			say = "私の愛しい子豚ちゃん♡",
 			typewriter = {

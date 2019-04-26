@@ -22,7 +22,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			bgm = "story-1",
-			actor = 305024,
+			actor = 305020,
 			actorName = "{namecode:79}",
 			say = "ふはあああ……ずぶ濡れでしたね……殿様、タオルをどうぞ？",
 			typewriter = {
@@ -49,7 +49,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 305024,
+			actor = 305020,
 			actorName = "{namecode:79}",
 			say = "扶桑姉さまは「ゲリラ豪雨に備えてタオルを常備しなさい」ってよく言いますけど、本当に役に立ちました……",
 			typewriter = {
@@ -66,7 +66,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 305024,
+			actor = 305020,
 			actorName = "{namecode:79}",
 			say = "ええと、お着替えお着替え……ありました！早速――",
 			typewriter = {
@@ -83,7 +83,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 305024,
+			actor = 305020,
 			actorName = "{namecode:79}",
 			say = "うぅ…殿様もいますね……ご、ごめんなさい……",
 			typewriter = {
@@ -110,7 +110,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 305024,
+			actor = 305020,
 			actorName = "{namecode:79}",
 			say = "殿様？外は雨ですよ？？",
 			typewriter = {
@@ -127,7 +127,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 305024,
+			actor = 305020,
 			actorName = "{namecode:79}",
 			say = "……え、ええと、そのまま後ろを向いてくだされれば大、大丈夫ですぅ……",
 			typewriter = {
@@ -144,7 +144,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgName = "bg_story_room",
-			actor = 305024,
+			actor = 305020,
 			nameColor = "#a9f548",
 			say = "…よし！殿様、もういいですよ？",
 			flashout = {
@@ -178,7 +178,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 305024,
+			actor = 305020,
 			actorName = "{namecode:79}",
 			say = "ごめんなさい、着替えは私たちの分しかなくて…タオルならまだありますよ？",
 			typewriter = {
@@ -195,7 +195,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 305024,
+			actor = 305020,
 			actorName = "{namecode:79}",
 			say = "でもちょっと残念です。せっかく殿様に見てもらおうと思ってたのに～",
 			typewriter = {
@@ -222,7 +222,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 305024,
+			actor = 305020,
 			actorName = "{namecode:79}",
 			say = "えへへ…「なぜ頑張っているか」って？ええと、殿様には言っていませんでしたっけ？",
 			typewriter = {
@@ -239,7 +239,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 305024,
+			actor = 305020,
 			actorName = "{namecode:79}",
 			say = "まずは姉さまに楽をさせてあげたいことですね。あとは――うーん、実は扶桑姉さまと私の運が良くないのは、「不幸艦」と呼ばれていたからじゃないかなって明石から言われたことがあります。",
 			typewriter = {
@@ -256,7 +256,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 305024,
+			actor = 305020,
 			actorName = "{namecode:79}",
 			say = "でもね、フネだった私たちは、例えカンレキ的に不幸だったとしても、関わってた人たちの努力は決して無駄じゃありませんから――",
 			typewriter = {
@@ -273,7 +273,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 305024,
+			actor = 305020,
 			actorName = "{namecode:79}",
 			say = "頑張ってこの世界で幸せになったほうが、全ての人たちにとっての最高の恩返しになる……私、そう思っています！",
 			typewriter = {

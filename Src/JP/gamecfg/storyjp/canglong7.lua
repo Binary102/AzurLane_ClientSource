@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-2",
-			actor = 307031,
+			actor = 307030,
 			nameColor = "#a9f548",
 			say = "今日はずっと、みんな不思議そうな目でこちらを見ていましたね",
 			flashout = {
@@ -62,7 +62,7 @@ return {
 			}
 		},
 		{
-			actor = 307031,
+			actor = 307030,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -78,7 +78,7 @@ return {
 			}
 		},
 		{
-			actor = 307031,
+			actor = 307030,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -94,7 +94,7 @@ return {
 			}
 		},
 		{
-			actor = 307031,
+			actor = 307030,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -114,7 +114,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			withoutActorName = true,
-			actor = 307031,
+			actor = 307030,
 			nameColor = "#a9f548",
 			say = "蒼龍はメガネを少し上げて、こっちを見つめる。",
 			typewriter = {
@@ -127,7 +127,7 @@ return {
 			}
 		},
 		{
-			actor = 307031,
+			actor = 307030,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -143,7 +143,7 @@ return {
 			}
 		},
 		{
-			actor = 307031,
+			actor = 307030,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -159,7 +159,7 @@ return {
 			}
 		},
 		{
-			actor = 307031,
+			actor = 307030,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -179,7 +179,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			withoutActorName = true,
-			actor = 307031,
+			actor = 307030,
 			nameColor = "#a9f548",
 			say = "とてつもなく大胆な告白をしているにもかかわらず、蒼龍は少したりとも恥ずかしがっていない様子。",
 			typewriter = {
@@ -195,7 +195,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 307031,
+			actor = 307030,
 			nameColor = "#a9f548",
 			say = "指揮官、この間飛龍と話したことをまだ覚えていますか？",
 			typewriter = {
@@ -214,7 +214,7 @@ return {
 			}
 		},
 		{
-			actor = 307031,
+			actor = 307030,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -234,7 +234,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			withoutActorName = true,
-			actor = 307031,
+			actor = 307030,
 			nameColor = "#a9f548",
 			say = "自分が彼女に影響されたように、彼女もまた自分に考えを改めさせられたか……",
 			typewriter = {
@@ -247,7 +247,7 @@ return {
 			}
 		},
 		{
-			actor = 307031,
+			actor = 307030,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -267,7 +267,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			withoutActorName = true,
-			actor = 307031,
+			actor = 307030,
 			nameColor = "#a9f548",
 			say = "蒼龍への思いは、もはや語るまでもない。ただ、この流れで言うのは……",
 			typewriter = {
@@ -289,7 +289,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 307031,
+			actor = 307030,
 			nameColor = "#a9f548",
 			say = "……フッ",
 			typewriter = {
@@ -312,7 +312,7 @@ return {
 			}
 		},
 		{
-			actor = 307031,
+			actor = 307030,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -332,7 +332,7 @@ return {
 			bgName = "bg_night",
 			dir = 1,
 			blackBg = true,
-			actor = 307031,
+			actor = 307030,
 			nameColor = "#a9f548",
 			say = "もし指揮官が私に一回でも勝てたら、なんでも答えてあげますよ？",
 			typewriter = {

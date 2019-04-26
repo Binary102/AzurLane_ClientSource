@@ -106,6 +106,8 @@ function slot0.Ctor(slot0, slot1, slot2)
 			slot0.buff_list[slot8] = slot9
 		end
 	end
+
+	slot0.extraFlagList = {}
 end
 
 function slot0.__index(slot0, slot1)
@@ -214,10 +216,10 @@ function slot0.update(slot0, slot1)
 	slot0.active = true
 	slot0.dueTime = slot1.time
 	slot0.loopFlag = slot1.loop_flag
-	slot3 = slot0:getConfig("float_items")
+	slot4 = slot0:getConfig("float_items")
 	slot0.cells = {}
 
-	function slot5(slot0)
+	function slot6(slot0)
 		if slot0.item_type == ChapterConst.AttachStory and slot0.item_data == ChapterConst.StoryTrigger then
 			table.insert(slot0.cellAttachments, ChapterCell.New(slot0))
 		end
@@ -256,36 +258,43 @@ function slot0.update(slot0, slot1)
 			}).walkable = false
 		end
 	end)
+	_.each(slot1.cell_flag_list or {}, function (slot0)
+		if slot0.cells[ChapterCell.Line2Name(slot0.pos.row, slot0.pos.column)] then
+			slot2:updateFlagList(slot0)
+		else
+			slot0.cells[slot1] = ChapterCell.New(slot0)
+		end
+	end)
 
 	slot0.buff_list = {}
 
 	if slot1.buff_list then
-		for slot9, slot10 in ipairs(slot1.buff_list) do
-			slot0.buff_list[slot9] = slot10
+		for slot10, slot11 in ipairs(slot1.buff_list) do
+			slot0.buff_list[slot10] = slot11
 		end
 	end
 
 	slot0.pathFinder = PathFinding.New({}, ChapterConst.MaxRow, ChapterConst.MaxColumn)
-	slot7 = nil
+	slot8 = nil
 
-	if slot0:getConfig("npc_data") and slot6[1] then
-		slot7 = NpcShip.New({
-			id = slot6[1],
-			configId = slot6[1],
-			level = slot6[2]
+	if slot0:getConfig("npc_data") and slot7[1] then
+		slot8 = NpcShip.New({
+			id = slot7[1],
+			configId = slot7[1],
+			level = slot7[2]
 		})
 	end
 
 	slot0.fleets = {}
 
-	for slot11, slot12 in ipairs(slot1.group_list) do
-		slot13 = ChapterFleet.New()
+	for slot12, slot13 in ipairs(slot1.group_list) do
+		slot14 = ChapterFleet.New()
 
-		slot13:setup(slot0)
-		slot13:updateNpcShip(slot7)
-		slot13:update(slot12)
+		slot14:setup(slot0)
+		slot14:updateNpcShip(slot8)
+		slot14:update(slot13)
 
-		slot0.fleets[slot11] = slot13
+		slot0.fleets[slot12] = slot14
 	end
 
 	slot0.fleets = _.sort(slot0.fleets, function (slot0, slot1)
@@ -293,8 +302,8 @@ function slot0.update(slot0, slot1)
 	end)
 
 	if slot1.escort_list then
-		for slot11, slot12 in ipairs(slot1.escort_list) do
-			slot0.fleets[#slot0.fleets + 1] = ChapterTransportFleet.New(slot12)
+		for slot12, slot13 in ipairs(slot1.escort_list) do
+			slot0.fleets[#slot0.fleets + 1] = ChapterTransportFleet.New(slot13)
 		end
 	end
 
@@ -303,9 +312,9 @@ function slot0.update(slot0, slot1)
 	slot0.champions = {}
 
 	if slot1.ai_list then
-		for slot11, slot12 in ipairs(slot1.ai_list) do
-			if slot12.item_flag == 0 then
-				table.insert(slot0.champions, ChapterChampion.New(slot12))
+		for slot12, slot13 in ipairs(slot1.ai_list) do
+			if slot13.item_flag == 0 then
+				table.insert(slot0.champions, ChapterChampion.New(slot13))
 			end
 		end
 	end
@@ -315,16 +324,23 @@ function slot0.update(slot0, slot1)
 	slot0.modelCount = slot1.model_act_count
 	slot0.operationBuffList = {}
 
-	for slot11, slot12 in ipairs(slot1.operation_buff) do
-		slot0.operationBuffList[#slot0.operationBuffList + 1] = slot12
+	for slot12, slot13 in ipairs(slot1.operation_buff) do
+		slot0.operationBuffList[#slot0.operationBuffList + 1] = slot13
 	end
 
 	slot0.airDominanceStatus = nil
+	slot0.extraFlagList = {}
+
+	for slot12, slot13 in ipairs(slot1.extra_flag_list) do
+		table.insert(slot0.extraFlagList, slot13)
+	end
 end
 
 function slot0.retreat(slot0)
 	if (slot0:findChapterCell(ChapterConst.AttachBoss) and slot1.flag == 1) or slot0:existOni() or slot0:isPlayingWithBombEnemy() then
 		slot0.todayDefeatCount = slot0.todayDefeatCount + 1
+
+		slot0:updateTodayDefeatCount()
 	end
 
 	slot0.active = false
@@ -357,6 +373,10 @@ end
 
 function slot0.getRound(slot0)
 	return slot0.roundIndex % 2
+end
+
+function slot0.getRoundNum(slot0)
+	return math.floor(slot0.roundIndex / 2)
 end
 
 function slot0.existMoveLimit(slot0)
@@ -690,6 +710,10 @@ function slot0.getFleetStgIds(slot0, slot1)
 		table.insert(slot2, slot0:getAirDominanceStg())
 	end
 
+	for slot8, slot9 in ipairs(slot0.extraFlagList) do
+		table.insert(slot2, ChapterConst.KizunaJamming[slot9])
+	end
+
 	return slot2
 end
 
@@ -715,6 +739,42 @@ end
 
 function slot0.setAirDominanceStatus(slot0, slot1)
 	slot0.airDominanceStatus = slot1
+end
+
+function slot0.updateExtraFlags(slot0, slot1, slot2)
+	slot3 = false
+
+	for slot7, slot8 in ipairs(slot2) do
+		for slot12, slot13 in ipairs(slot0.extraFlagList) do
+			if slot13 == slot8 then
+				table.remove(slot0.extraFlagList, slot12)
+
+				slot3 = true
+
+				break
+			end
+		end
+	end
+
+	for slot7, slot8 in ipairs(slot1) do
+		if not table.contains(slot0.extraFlagList, slot8) then
+			table.insert(slot0.extraFlagList, slot8)
+
+			slot3 = true
+		end
+	end
+
+	return slot3
+end
+
+function slot0.getExtraFlags(slot0)
+	slot1 = {}
+
+	for slot5, slot6 in ipairs(slot0.extraFlagList) do
+		table.insert(slot1, ChapterConst.KizunaJamming[slot6])
+	end
+
+	return slot1
 end
 
 function slot0.updateShipStg(slot0, slot1, slot2, slot3)
@@ -784,6 +844,16 @@ end
 
 function slot0.updateShipHp(slot0, slot1, slot2)
 	slot0.fleet:updateShipHp(slot1, slot2)
+end
+
+function slot0.updateFleetShipHp(slot0, slot1, slot2)
+	for slot6, slot7 in ipairs(slot0.fleets) do
+		slot7:updateShipHp(slot1, slot2)
+
+		if slot7.id ~= slot0.fleet.id then
+			slot7:clearShipHpChange()
+		end
+	end
 end
 
 function slot0.clearEliterFleetByIndex(slot0, slot1)
@@ -1102,6 +1172,25 @@ function slot0.getDragExtend(slot0, slot1, slot2)
 	end
 
 	return 200, math.max(slot5 * slot0.theme.cellSize + slot0.theme.cellSpace.x - slot1 * 0.5, 0), math.max((ChapterConst.MaxRow * 0.5 - slot3) * slot0.theme.cellSize + slot0.theme.cellSpace.y, 0), math.max((slot4 - ChapterConst.MaxRow * 0.5) * slot0.theme.cellSize + slot0.theme.cellSpace.y, 0)
+end
+
+function slot0.getPoisonArea(slot0, slot1)
+	slot2 = {}
+	slot4 = math.floor(slot0.theme.cellSize + slot0.theme.cellSpace.x * slot1)
+	slot5 = math.floor(slot0.theme.cellSize + slot0.theme.cellSpace.y * slot1)
+
+	for slot9, slot10 in pairs(slot0.cells) do
+		if slot10:checkHadFlag(ChapterConst.FlagPoison) then
+			slot2[slot9] = {
+				x = math.floor(slot4 * slot10.column),
+				y = math.floor(slot5 * slot10.row),
+				w = slot4,
+				h = slot5
+			}
+		end
+	end
+
+	return slot2
 end
 
 function slot0.selectFleets(slot0, slot1, slot2)
@@ -2126,6 +2215,26 @@ function slot0.getCoastalGunArea(slot0)
 	end
 
 	return slot1
+end
+
+function slot0.getTodayDefeatCount(slot0)
+	return getProxy(DailyLevelProxy):getChapterDefeatCount(slot0.configId)
+end
+
+function slot0.isTriesLimit(slot0)
+	return slot0:getConfig("count") and slot1 > 0
+end
+
+function slot0.updateTodayDefeatCount(slot0)
+	getProxy(DailyLevelProxy):updateChapterDefeatCount(slot0.configId)
+end
+
+function slot0.enoughTimes2Start(slot0)
+	if slot0:isTriesLimit() then
+		return slot0:getTodayDefeatCount() < slot0:getConfig("count")
+	else
+		return true
+	end
 end
 
 return slot0

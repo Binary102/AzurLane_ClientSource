@@ -21,7 +21,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			actor = 802011,
+			actor = 802010,
 			nameColor = "#a9f548",
 			say = "ロマンとは見せつけられるものなんかじゃなくて、相手がわかるように伝える想いなんだと、私は思うわ。",
 			flashout = {
@@ -51,7 +51,7 @@ return {
 			}
 		},
 		{
-			actor = 802011,
+			actor = 802010,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -67,7 +67,7 @@ return {
 			}
 		},
 		{
-			actor = 802011,
+			actor = 802010,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -93,7 +93,7 @@ return {
 			}
 		},
 		{
-			actor = 802011,
+			actor = 802010,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -109,7 +109,7 @@ return {
 			}
 		},
 		{
-			actor = 802011,
+			actor = 802010,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -125,7 +125,7 @@ return {
 			}
 		},
 		{
-			actor = 802011,
+			actor = 802010,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -141,7 +141,7 @@ return {
 			}
 		},
 		{
-			actor = 802011,
+			actor = 802010,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -157,7 +157,7 @@ return {
 			}
 		},
 		{
-			actor = 802011,
+			actor = 802010,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -187,7 +187,7 @@ return {
 			}
 		},
 		{
-			actor = 802011,
+			actor = 802010,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -203,7 +203,7 @@ return {
 			}
 		},
 		{
-			actor = 802011,
+			actor = 802010,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -219,7 +219,7 @@ return {
 			}
 		},
 		{
-			actor = 802011,
+			actor = 802010,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -245,7 +245,7 @@ return {
 			}
 		},
 		{
-			actor = 802011,
+			actor = 802010,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -265,7 +265,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			blackBg = true,
-			actor = 802011,
+			actor = 802010,
 			nameColor = "#a9f548",
 			say = "指揮官は、最後まで付き合ってくださるかしら？",
 			typewriter = {

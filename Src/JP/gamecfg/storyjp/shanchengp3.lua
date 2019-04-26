@@ -32,7 +32,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_101",
 			dir = 1,
-			actor = 305024,
+			actor = 305020,
 			actorName = "{namecode:79}",
 			say = "扶桑姉さま～手伝いにきました～！……あわわわ！",
 			typewriter = {
@@ -60,7 +60,7 @@ return {
 			bgName = "star_level_bg_101",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 305014,
+			actor = 305010,
 			actorName = "{namecode:78}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -90,7 +90,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_101",
 			dir = 1,
-			actor = 305024,
+			actor = 305020,
 			actorName = "{namecode:79}",
 			say = "姉さまごめんなさい……あ！今日は一日殿様を貸し切りにしてもらったから、一緒に大掃除しましょー！",
 			typewriter = {
@@ -128,7 +128,7 @@ return {
 			bgName = "star_level_bg_101",
 			dir = 1,
 			optionFlag = 1,
-			actor = 305024,
+			actor = 305020,
 			actorName = "{namecode:79}",
 			say = "貸し切りってどういう意味？ええと、殿様を今日一日お借りします、ってままの意味ですよ？",
 			typewriter = {
@@ -146,7 +146,7 @@ return {
 			bgName = "star_level_bg_101",
 			dir = 1,
 			optionFlag = 1,
-			actor = 305024,
+			actor = 305020,
 			actorName = "{namecode:79}",
 			say = "時雨ちゃんが「レンタルカレシ」って言ってたから、貸し切りで間違いありませんっ！",
 			typewriter = {
@@ -164,7 +164,7 @@ return {
 			bgName = "star_level_bg_101",
 			dir = 1,
 			optionFlag = 1,
-			actor = 305024,
+			actor = 305020,
 			actorName = "{namecode:79}",
 			say = "とにかく、前に掃除を手伝うって約束してもらいましたから！だから休みの日を今日に調整したんですもんね！",
 			typewriter = {
@@ -183,7 +183,7 @@ return {
 			actorName = "{namecode:78}",
 			dir = 1,
 			optionFlag = 1,
-			actor = 305014,
+			actor = 305010,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -204,7 +204,7 @@ return {
 			bgName = "star_level_bg_101",
 			dir = 1,
 			optionFlag = 2,
-			actor = 305014,
+			actor = 305010,
 			actorName = "{namecode:78}",
 			say = "貸し切りってどういう意味？さあ…私はなにも…",
 			typewriter = {
@@ -222,7 +222,7 @@ return {
 			bgName = "star_level_bg_101",
 			dir = 1,
 			optionFlag = 2,
-			actor = 305014,
+			actor = 305010,
 			actorName = "{namecode:78}",
 			say = "もう山城ったら、またよくわからない言葉を覚えちゃって…",
 			typewriter = {
@@ -241,7 +241,7 @@ return {
 			actorName = "{namecode:79}",
 			dir = 1,
 			optionFlag = 2,
-			actor = 305024,
+			actor = 305020,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -262,7 +262,7 @@ return {
 			bgName = "star_level_bg_101",
 			dir = 1,
 			optionFlag = 2,
-			actor = 305014,
+			actor = 305010,
 			actorName = "{namecode:78}",
 			say = "まあ、指揮官様がいれば百人力ですもの。今日も一日よろしくお願いいたしますね。",
 			typewriter = {
@@ -279,7 +279,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_101",
 			dir = 1,
-			actor = 305014,
+			actor = 305010,
 			actorName = "{namecode:78}",
 			say = "…うん？この神社がいつから出来たって…？",
 			typewriter = {
@@ -296,7 +296,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_101",
 			dir = 1,
-			actor = 305014,
+			actor = 305010,
 			actorName = "{namecode:78}",
 			say = "そうですね、そういえば指揮官様は前のお正月は仕事詰めで初詣に来ていませんでしたね……",
 			typewriter = {
@@ -313,7 +313,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_101",
 			dir = 1,
-			actor = 305024,
+			actor = 305020,
 			actorName = "{namecode:79}",
 			say = "ええと、元々お正月用の仮施設は別の場所で仮のものを作ろうとしていましたけど…",
 			typewriter = {
@@ -330,7 +330,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_101",
 			dir = 1,
-			actor = 305024,
+			actor = 305020,
 			actorName = "{namecode:79}",
 			say = "せっかくの神社ですし、重桜の子も多くなってきたから、みんなの思い出になりそうな場所を作ってみようって私が姉さまにお願いして、二人で建てました！",
 			typewriter = {

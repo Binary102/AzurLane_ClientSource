@@ -222,7 +222,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 102061,
+			actor = 102060,
 			stopbgm = true,
 			say = "え？",
 			typewriter = {
@@ -248,7 +248,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 301091,
+			actor = 301090,
 			nameColor = "#a9f548",
 			say = "ひゃう！？",
 			typewriter = {
@@ -285,7 +285,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			bgm = "story-1",
-			actor = 102061,
+			actor = 102060,
 			nameColor = "#a9f548",
 			say = "ちょうど執務室を通りがかっていたから、心配して様子を見に来ただけなのに……だ、大丈夫！？",
 			typewriter = {

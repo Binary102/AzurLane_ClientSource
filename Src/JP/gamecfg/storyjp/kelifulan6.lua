@@ -34,7 +34,7 @@ return {
 			}
 		},
 		{
-			actor = 102091,
+			actor = 102090,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -50,7 +50,7 @@ return {
 			}
 		},
 		{
-			actor = 102091,
+			actor = 102090,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -66,7 +66,7 @@ return {
 			}
 		},
 		{
-			actor = 102091,
+			actor = 102090,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -82,7 +82,7 @@ return {
 			}
 		},
 		{
-			actor = 102091,
+			actor = 102090,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -98,7 +98,7 @@ return {
 			}
 		},
 		{
-			actor = 102091,
+			actor = 102090,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -127,7 +127,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 102091,
+			actor = 102090,
 			nameColor = "#a9f548",
 			say = "ええい！試合はまだ終わっていないぞ！「海上騎士団」の底力を見せてやれ！！",
 			action = {
@@ -151,7 +151,7 @@ return {
 		{
 			actorName = "デンバー＆モントピリア",
 			side = 0,
-			actor = 102151,
+			actor = 102150,
 			dir = -1,
 			bgName = "star_level_bg_103",
 			hideOther = true,
@@ -168,7 +168,7 @@ return {
 			},
 			subActors = {
 				{
-					actor = 102141,
+					actor = 102140,
 					dir = -1,
 					pos = {
 						x = -750
@@ -185,7 +185,7 @@ return {
 			}
 		},
 		{
-			actor = 102101,
+			actor = 102100,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -206,7 +206,7 @@ return {
 			dir = -1,
 			bgName = "star_level_bg_103",
 			bgm = "battle-boss-6",
-			actor = 303071,
+			actor = 303070,
 			nameColor = "#a9f548",
 			say = "このままでは押し切られるぞ！なんとしてもパスを止めるのだ！",
 			flashout = {
@@ -247,7 +247,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 302121,
+			actor = 302120,
 			actorName = "{namecode:38}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -263,7 +263,7 @@ return {
 			}
 		},
 		{
-			actor = 102091,
+			actor = 102090,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -315,7 +315,7 @@ return {
 			}
 		},
 		{
-			actor = 102091,
+			actor = 102090,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -341,7 +341,7 @@ return {
 			}
 		},
 		{
-			actor = 102091,
+			actor = 102090,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",

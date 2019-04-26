@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			actor = 205041,
+			actor = 205040,
 			nameColor = "#a9f548",
 			say = "姉様、母港で迷子になったお化けの話を聞きました？",
 			flashout = {
@@ -56,7 +56,7 @@ return {
 			side = 1,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 205031,
+			actor = 205030,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -72,7 +72,7 @@ return {
 			}
 		},
 		{
-			actor = 205031,
+			actor = 205030,
 			side = 1,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -88,7 +88,7 @@ return {
 			}
 		},
 		{
-			actor = 205041,
+			actor = 205040,
 			side = 0,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -104,7 +104,7 @@ return {
 			}
 		},
 		{
-			actor = 205041,
+			actor = 205040,
 			side = 0,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -123,7 +123,7 @@ return {
 			side = 1,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 205031,
+			actor = 205030,
 			nameColor = "#a9f548",
 			say = "そ、そんな恥ずかしい格好をするわけないじゃない…",
 			typewriter = {
@@ -146,7 +146,7 @@ return {
 			}
 		},
 		{
-			actor = 205041,
+			actor = 205040,
 			side = 0,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -166,7 +166,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 205041,
+			actor = 205040,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -185,7 +185,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 205031,
+			actor = 205030,
 			nameColor = "#a9f548",
 			say = "これってどこから――せ、せめて自分で着替えさせてよ！",
 			typewriter = {
@@ -219,7 +219,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 900140,
+			actor = 205031,
 			nameColor = "#a9f548",
 			say = "くっ…！災難だったわ……ロドニーのやつ一体何を考えているの！",
 			flashout = {
@@ -253,7 +253,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 900140,
+			actor = 205031,
 			nameColor = "#a9f548",
 			say = "「三人の善き魔女」って…どうせ子供の悪戯に決まってるわ。適当にぶらついてすぐに帰るとするか……",
 			typewriter = {
@@ -269,7 +269,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 900138,
+			actor = 101271,
 			nameColor = "#a9f548",
 			say = "あ！三人目の魔女発見だ！",
 			typewriter = {
@@ -296,7 +296,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 900140,
+			actor = 205031,
 			nameColor = "#a9f548",
 			say = "誰！？……ってベイリーちゃんと五十鈴じゃない…",
 			typewriter = {
@@ -323,7 +323,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 900137,
+			actor = 302051,
 			nameColor = "#a9f548",
 			say = "ネルソンさんもお化けさんを探している「善き魔女」なの？",
 			typewriter = {
@@ -340,7 +340,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 900140,
+			actor = 205031,
 			nameColor = "#a9f548",
 			say = "え？ま、まあそうね",
 			typewriter = {
@@ -357,7 +357,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 900140,
+			actor = 205031,
 			nameColor = "#a9f548",
 			say = "（しまった！つい流されてしまった）",
 			typewriter = {
@@ -374,7 +374,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 900137,
+			actor = 302051,
 			nameColor = "#a9f548",
 			say = "ふぅ……これで三人揃ったね…よかったぁ……",
 			typewriter = {
@@ -387,7 +387,7 @@ return {
 			}
 		},
 		{
-			actor = 900138,
+			actor = 101271,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -407,7 +407,7 @@ return {
 			bgName = "star_level_bg_103",
 			dir = 1,
 			blackBg = true,
-			actor = 900140,
+			actor = 205031,
 			nameColor = "#a9f548",
 			say = "（この子たちも放っておけないし…とりあえずついていくしかないわね）",
 			typewriter = {

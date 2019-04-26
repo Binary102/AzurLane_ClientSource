@@ -5,7 +5,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 10300011,
+			actor = 10300010,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
@@ -21,7 +21,7 @@ return {
 			}
 		},
 		{
-			actor = 10300021,
+			actor = 10300020,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -36,7 +36,7 @@ return {
 			}
 		},
 		{
-			actor = 10300061,
+			actor = 10300060,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -51,7 +51,7 @@ return {
 			}
 		},
 		{
-			actor = 10300041,
+			actor = 10300040,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -70,7 +70,7 @@ return {
 			side = 1,
 			say = "怪我がなくて幸いです。これで私たちも主様に顔向けできます",
 			dir = 1,
-			actor = 10300051,
+			actor = 10300050,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -86,7 +86,7 @@ return {
 			}
 		},
 		{
-			actor = 10300011,
+			actor = 10300010,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -105,7 +105,7 @@ return {
 			side = 1,
 			say = "姉さま、来てくれるって信じてました……信じて、１人でも頑張ってました……",
 			dir = 1,
-			actor = 10300021,
+			actor = 10300020,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -121,7 +121,7 @@ return {
 			}
 		},
 		{
-			actor = 10300011,
+			actor = 10300010,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -140,7 +140,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
-			actor = 10300021,
+			actor = 10300020,
 			say = "えへへ……あ、そちらは猫神さまと……",
 			typewriter = {
 				speed = 0.05,
@@ -152,7 +152,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -167,7 +167,7 @@ return {
 			}
 		},
 		{
-			actor = 401231,
+			actor = 401230,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -182,7 +182,7 @@ return {
 			}
 		},
 		{
-			actor = 201211,
+			actor = 201210,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,

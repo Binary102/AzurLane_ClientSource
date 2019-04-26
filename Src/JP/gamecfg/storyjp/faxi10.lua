@@ -12,7 +12,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgm = "story-french2",
-			actor = 107041,
+			actor = 107040,
 			say = "ドーントレス、もう一回攻撃よ！",
 			flashN = {
 				color = {
@@ -56,7 +56,7 @@ return {
 			}
 		},
 		{
-			actor = 105191,
+			actor = 105190,
 			side = 0,
 			say = "もういいよ。この子はもう、動けない。",
 			dir = 1,
@@ -74,7 +74,7 @@ return {
 			}
 		},
 		{
-			actor = 905011,
+			actor = 905010,
 			side = 1,
 			dir = 1,
 			say = "動け！…動け！！動けよ！！",
@@ -97,7 +97,7 @@ return {
 			}
 		},
 		{
-			actor = 105191,
+			actor = 105190,
 			side = 0,
 			dir = 1,
 			say = "…………",
@@ -111,7 +111,7 @@ return {
 			}
 		},
 		{
-			actor = 905011,
+			actor = 905010,
 			side = 1,
 			dir = 1,
 			say = "なぜだ！なぜオレを完成させなかった！！",
@@ -134,7 +134,7 @@ return {
 			}
 		},
 		{
-			actor = 905011,
+			actor = 905010,
 			side = 1,
 			dir = 1,
 			say = "なぜリシュリュー姉だけが！！",
@@ -148,7 +148,7 @@ return {
 			}
 		},
 		{
-			actor = 105191,
+			actor = 105190,
 			side = 0,
 			dir = 1,
 			say = "…二番砲塔、撃たなかったね。ぼくを相手に手を抜いた？",
@@ -162,7 +162,7 @@ return {
 			}
 		},
 		{
-			actor = 905011,
+			actor = 905010,
 			side = 1,
 			dir = 1,
 			say = "……",
@@ -179,7 +179,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 900092,
+			actor = 900055,
 			stopbgm = true,
 			say = "リシュリュー姉、オレたち別のドックに移されることになったって聞いたけど、それは本当か！？",
 			flashout = {
@@ -209,7 +209,7 @@ return {
 			}
 		},
 		{
-			actor = 900091,
+			actor = 900054,
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -224,7 +224,7 @@ return {
 			}
 		},
 		{
-			actor = 900092,
+			actor = 900055,
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -239,7 +239,7 @@ return {
 			}
 		},
 		{
-			actor = 900091,
+			actor = 900054,
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -254,7 +254,7 @@ return {
 			}
 		},
 		{
-			actor = 900092,
+			actor = 900055,
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -269,7 +269,7 @@ return {
 			}
 		},
 		{
-			actor = 900091,
+			actor = 900054,
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -284,7 +284,7 @@ return {
 			}
 		},
 		{
-			actor = 900092,
+			actor = 900055,
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -299,7 +299,7 @@ return {
 			}
 		},
 		{
-			actor = 900091,
+			actor = 900054,
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -314,7 +314,7 @@ return {
 			}
 		},
 		{
-			actor = 900092,
+			actor = 900055,
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -329,7 +329,7 @@ return {
 			}
 		},
 		{
-			actor = 900092,
+			actor = 900055,
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -348,7 +348,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-french2",
-			actor = 905011,
+			actor = 905010,
 			say = "……オレの兵装は最初から完全ではなかった。",
 			flashout = {
 				dur = 1,
@@ -377,7 +377,7 @@ return {
 			}
 		},
 		{
-			actor = 905011,
+			actor = 905010,
 			side = 2,
 			dir = 1,
 			say = "鉄血とあの勢力に挟み撃ちされていた状況じゃあ、大型艦が一隻増えたところで敵に利用されるのがオチだ。最初からそうだった。",
@@ -391,7 +391,7 @@ return {
 			}
 		},
 		{
-			actor = 905011,
+			actor = 905010,
 			side = 2,
 			dir = 1,
 			say = "鉄血の連中のように、セイレーンの力を得ようとしても、結局それも叶わない。",
@@ -405,7 +405,7 @@ return {
 			}
 		},
 		{
-			actor = 905011,
+			actor = 905010,
 			side = 2,
 			dir = 1,
 			say = "ふん、国を守ろうとしたのに、国が割れる結果にしかならなかった。",
@@ -419,7 +419,7 @@ return {
 			}
 		},
 		{
-			actor = 905011,
+			actor = 905010,
 			side = 2,
 			dir = 1,
 			say = "ずっと前にいる大切な人に追いつこうとするあまり、その人にも裏切られる。…笑えない冗談だ。全く",
@@ -437,7 +437,7 @@ return {
 			soundeffect = "event:/ui/noice"
 		},
 		{
-			actor = 107041,
+			actor = 107040,
 			side = 2,
 			dir = 1,
 			say = "本部より緊急連絡が……",
@@ -451,7 +451,7 @@ return {
 			}
 		},
 		{
-			actor = 105191,
+			actor = 105190,
 			side = 0,
 			say = "…「鉄血の機動艦隊、高速で南下中。全員戦闘用意」…今？",
 			dir = 1,
@@ -469,7 +469,7 @@ return {
 			}
 		},
 		{
-			actor = 905011,
+			actor = 905010,
 			side = 1,
 			dir = 1,
 			say = "安心しろ。連中の目標はお前らではない。",
@@ -483,7 +483,7 @@ return {
 			}
 		},
 		{
-			actor = 905011,
+			actor = 905010,
 			side = 1,
 			dir = 1,
 			say = "むしろオレの仲間たちがこの海域のほかの港にも配置されているから…もしや……",
@@ -537,7 +537,7 @@ return {
 			}
 		},
 		{
-			actor = 105191,
+			actor = 105190,
 			side = 0,
 			dir = 1,
 			say = "…………",
@@ -551,7 +551,7 @@ return {
 			}
 		},
 		{
-			actor = 905011,
+			actor = 905010,
 			side = 1,
 			dir = 1,
 			say = "ふ、ふははははは！！",
@@ -565,7 +565,7 @@ return {
 			}
 		},
 		{
-			actor = 204011,
+			actor = 204010,
 			side = 0,
 			dir = 1,
 			say = "……武装を解除して、私たちに……",
@@ -579,7 +579,7 @@ return {
 			}
 		},
 		{
-			actor = 905011,
+			actor = 905010,
 			side = 1,
 			dir = 1,
 			say = "黙れ！ケビール港…ダンケルクたちのようなことを二度と起こさせるものか！",
@@ -851,7 +851,7 @@ return {
 			}
 		},
 		{
-			actor = 105191,
+			actor = 105190,
 			side = 2,
 			say = "なんでこんなことを。",
 			dir = 1,
@@ -872,7 +872,7 @@ return {
 			}
 		},
 		{
-			actor = 905011,
+			actor = 905010,
 			side = 1,
 			say = "昔アイリスとロイヤルが盟約を結んでいてな。アイリスは決して鉄血と帝国に降りることはない……オレたちヴィシア聖座もアイリスの一部だから、道理を貫くまでだ",
 			dir = 1,
@@ -890,7 +890,7 @@ return {
 			}
 		},
 		{
-			actor = 204011,
+			actor = 204010,
 			side = 0,
 			dir = 1,
 			say = "ジャン·バール……",
@@ -904,7 +904,7 @@ return {
 			}
 		},
 		{
-			actor = 905011,
+			actor = 905010,
 			side = 1,
 			dir = 1,
 			say = "正直、お前たちが羨ましい。こんなに強い国を持って、こんなに強い大砲と船体が作れて……",
@@ -918,7 +918,7 @@ return {
 			}
 		},
 		{
-			actor = 905011,
+			actor = 905010,
 			side = 1,
 			dir = 1,
 			say = "オレも…これぐらいできれば……きっと……",
@@ -932,7 +932,7 @@ return {
 			}
 		},
 		{
-			actor = 105191,
+			actor = 105190,
 			side = 0,
 			dir = 1,
 			say = "楽しみにしているよ。",
@@ -946,7 +946,7 @@ return {
 			}
 		},
 		{
-			actor = 105191,
+			actor = 105190,
 			side = 0,
 			dir = 1,
 			say = "戦いが終わったらあなたはきっと完成する。「その時にまた正々堂々と戦おう」、とね。",
@@ -960,7 +960,7 @@ return {
 			}
 		},
 		{
-			actor = 905011,
+			actor = 905010,
 			side = 1,
 			dir = 1,
 			say = "ふん、お前らユニオンにこんな腐れ騎士様の言いそうなセリフがわかるかよ...",
@@ -976,7 +976,7 @@ return {
 		{
 			expression = "1",
 			side = 0,
-			actor = 105191,
+			actor = 105190,
 			dir = 1,
 			say = "そう？カウボーイは言いそうだけど。",
 			typewriter = {
@@ -989,7 +989,7 @@ return {
 			}
 		},
 		{
-			actor = 905011,
+			actor = 905010,
 			side = 1,
 			dir = 1,
 			say = "（オレが追い越したいやつがまた一人…か。意外と…似ているな…）",
@@ -1003,7 +1003,7 @@ return {
 			}
 		},
 		{
-			actor = 905011,
+			actor = 905010,
 			side = 1,
 			dir = 1,
 			say = "おうよ。…その日を楽しみにしているぞ………だがその前に……しばらく、休ませてくれ……",
@@ -1017,7 +1017,7 @@ return {
 			}
 		},
 		{
-			actor = 105191,
+			actor = 105190,
 			side = 0,
 			dir = 1,
 			say = "いいよ。アイリスと鉄血、そして「帝国」――",
@@ -1031,7 +1031,7 @@ return {
 			}
 		},
 		{
-			actor = 105191,
+			actor = 105190,
 			side = 0,
 			dir = 1,
 			say = "ぼくたちが、決着をつけてあげる。",
@@ -1048,7 +1048,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 900091,
+			actor = 900054,
 			stopbgm = true,
 			say = "そういえば、私たちの「名前」の意味……知っていますか？",
 			flashout = {
@@ -1078,7 +1078,7 @@ return {
 			}
 		},
 		{
-			actor = 900092,
+			actor = 900055,
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -1093,7 +1093,7 @@ return {
 			}
 		},
 		{
-			actor = 900091,
+			actor = 900054,
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -1108,7 +1108,7 @@ return {
 			}
 		},
 		{
-			actor = 900092,
+			actor = 900055,
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -1123,7 +1123,7 @@ return {
 			}
 		},
 		{
-			actor = 900091,
+			actor = 900054,
 			side = 2,
 			dir = 1,
 			blackBg = true,

@@ -63,7 +63,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 103091,
+			actor = 103090,
 			nameColor = "#a9f548",
 			say = "では、まずは書類の整理ね。よりよく指揮官をサポートするためには、まずは書類ごとの意味を……",
 			flashout = {
@@ -93,7 +93,7 @@ return {
 			}
 		},
 		{
-			actor = 103101,
+			actor = 103100,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -109,7 +109,7 @@ return {
 			}
 		},
 		{
-			actor = 103091,
+			actor = 103090,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -125,7 +125,7 @@ return {
 			}
 		},
 		{
-			actor = 103091,
+			actor = 103090,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -141,7 +141,7 @@ return {
 			}
 		},
 		{
-			actor = 103091,
+			actor = 103090,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -157,7 +157,7 @@ return {
 			}
 		},
 		{
-			actor = 103101,
+			actor = 103100,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -173,7 +173,7 @@ return {
 			}
 		},
 		{
-			actor = 103091,
+			actor = 103090,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -192,7 +192,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 103081,
+			actor = 103080,
 			nameColor = "#a9f548",
 			say = "ん……私は何を教えればいいのかな……あっ、そうだ、指揮官の好きな食べ物を教えよう！",
 			flashout = {
@@ -225,7 +225,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 103081,
+			actor = 103080,
 			nameColor = "#a9f548",
 			say = "指揮官のコンディションを維持するのも大事だからね！",
 			typewriter = {
@@ -251,7 +251,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 103101,
+			actor = 103100,
 			nameColor = "#a9f548",
 			say = "おー",
 			typewriter = {
@@ -277,7 +277,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 103131,
+			actor = 103130,
 			nameColor = "#a9f548",
 			say = "狩りを教えてやるぜ！…ってなんで私まで呼ばれたんだ？",
 			flashout = {
@@ -311,7 +311,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 103091,
+			actor = 103090,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -330,7 +330,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 103131,
+			actor = 103130,
 			nameColor = "#a9f548",
 			say = "ニューオリンズ本人もいないじゃないか。私の教えが要らないならもう帰るぜ",
 			typewriter = {

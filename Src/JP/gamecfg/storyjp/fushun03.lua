@@ -22,7 +22,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			bgm = "story-china",
-			actor = 312014,
+			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "いらっしゃいませにゃ～にゃにゃ？東煌の子は明石になにか用にゃ？お買い物にゃ？",
 			typewriter = {
@@ -39,7 +39,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 501024,
+			actor = 501020,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -55,7 +55,7 @@ return {
 			}
 		},
 		{
-			actor = 501024,
+			actor = 501020,
 			side = 0,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -75,7 +75,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 312014,
+			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "ゲーム機にゃ？",
 			typewriter = {
@@ -88,7 +88,7 @@ return {
 			}
 		},
 		{
-			actor = 501024,
+			actor = 501020,
 			side = 0,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -108,7 +108,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 312014,
+			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "しょ、しょうがないにゃ……今回は特別にタダで見てあげるにゃ",
 			typewriter = {
@@ -125,7 +125,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 312014,
+			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "うにゃ…結構古い機種にゃ…ここはこう…あとここはこう～",
 			typewriter = {
@@ -138,7 +138,7 @@ return {
 			}
 		},
 		{
-			actor = 501024,
+			actor = 501020,
 			side = 0,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -158,7 +158,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgName = "bg_story_task",
-			actor = 312014,
+			actor = 312010,
 			nameColor = "#a9f548",
 			say = "ふぅ…直ったにゃ！",
 			flashout = {
@@ -192,7 +192,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 501024,
+			actor = 501020,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -212,7 +212,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 312014,
+			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "古いパーツは手間かかったけど、この程度は平気だにゃ～",
 			typewriter = {
@@ -225,7 +225,7 @@ return {
 			}
 		},
 		{
-			actor = 501024,
+			actor = 501020,
 			side = 0,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -244,7 +244,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 501024,
+			actor = 501020,
 			nameColor = "#a9f548",
 			say = "長春～ゲーム機直ったよ～一緒にやろ？",
 			flashout = {
@@ -278,7 +278,7 @@ return {
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 501034,
+			actor = 501030,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -294,7 +294,7 @@ return {
 			}
 		},
 		{
-			actor = 501024,
+			actor = 501020,
 			side = 0,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -310,7 +310,7 @@ return {
 			}
 		},
 		{
-			actor = 501024,
+			actor = 501020,
 			side = 0,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -326,7 +326,7 @@ return {
 			}
 		},
 		{
-			actor = 501034,
+			actor = 501030,
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -342,7 +342,7 @@ return {
 			}
 		},
 		{
-			actor = 501024,
+			actor = 501020,
 			side = 0,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -358,7 +358,7 @@ return {
 			}
 		},
 		{
-			actor = 501024,
+			actor = 501020,
 			side = 0,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",

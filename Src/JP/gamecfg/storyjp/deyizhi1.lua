@@ -46,7 +46,7 @@ return {
 			}
 		},
 		{
-			actor = 403041,
+			actor = 403040,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -62,7 +62,7 @@ return {
 			}
 		},
 		{
-			actor = 403041,
+			actor = 403040,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -78,7 +78,7 @@ return {
 			}
 		},
 		{
-			actor = 403041,
+			actor = 403040,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -97,7 +97,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 403041,
+			actor = 403040,
 			nameColor = "#a9f548",
 			say = "命令よ。面白いことでも探してきなさい。でないと帰る！",
 			typewriter = {
@@ -124,7 +124,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			withoutActorName = true,
-			actor = 403041,
+			actor = 403040,
 			nameColor = "#a9f548",
 			say = "ドイッチュラントがずっと面白がってた秘書艦に任命したが、いつもと変わらない様子だった。",
 			typewriter = {
@@ -142,7 +142,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 403041,
+			actor = 403040,
 			nameColor = "#a9f548",
 			say = "いやよ。下等生物の手伝いなんてするもんか。",
 			typewriter = {
@@ -164,7 +164,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 403041,
+			actor = 403040,
 			nameColor = "#a9f548",
 			say = "そんな目で見ても無駄よ！",
 			typewriter = {
@@ -186,7 +186,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 403041,
+			actor = 403040,
 			nameColor = "#a9f548",
 			say = "……ふん！仕事の手伝いを主に頼むなんて、どうしようもない下等生物ね！",
 			typewriter = {
@@ -213,7 +213,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 403041,
+			actor = 403040,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -232,7 +232,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 201221,
+			actor = 201220,
 			nameColor = "#a9f548",
 			say = "あ、あの…指揮官？",
 			typewriter = {
@@ -258,7 +258,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 201221,
+			actor = 201220,
 			nameColor = "#a9f548",
 			say = "任務のレポートを届けに来ました……",
 			typewriter = {
@@ -285,7 +285,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 403041,
+			actor = 403040,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -304,7 +304,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 201221,
+			actor = 201220,
 			nameColor = "#a9f548",
 			say = "え、ええと、ほかに指示がないのでしたら、もう失礼しますね……？",
 			typewriter = {
@@ -346,7 +346,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 403041,
+			actor = 403040,
 			nameColor = "#a9f548",
 			say = "あははははは！下僕今の見た？？あの駆逐艦の怯えた目を！",
 			typewriter = {
@@ -369,7 +369,7 @@ return {
 			}
 		},
 		{
-			actor = 403041,
+			actor = 403040,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -385,7 +385,7 @@ return {
 			}
 		},
 		{
-			actor = 403041,
+			actor = 403040,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",

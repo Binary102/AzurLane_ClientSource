@@ -85,7 +85,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 301011,
+			actor = 301010,
 			nameColor = "#a9f548",
 			say = "あ、指揮官！おはよう！",
 			flashout = {
@@ -125,7 +125,7 @@ return {
 			}
 		},
 		{
-			actor = 301011,
+			actor = 301010,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -141,7 +141,7 @@ return {
 			}
 		},
 		{
-			actor = 301011,
+			actor = 301010,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -160,7 +160,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 301051,
+			actor = 301050,
 			nameColor = "#a9f548",
 			say = "暁、ですか……？",
 			flashout = {
@@ -190,7 +190,7 @@ return {
 			}
 		},
 		{
-			actor = 301051,
+			actor = 301050,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -209,7 +209,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_105",
 			dir = 1,
-			actor = 301171,
+			actor = 301170,
 			nameColor = "#a9f548",
 			say = "暁か？吾輩も今朝見たような気が……ふむふむ……",
 			flashout = {
@@ -242,7 +242,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_105",
 			dir = 1,
-			actor = 301171,
+			actor = 301170,
 			nameColor = "#a9f548",
 			say = "おおお！思い出したぞ！急いであっちに行ったのを見たのじゃ！",
 			typewriter = {
@@ -302,7 +302,7 @@ return {
 			}
 		},
 		{
-			actor = 301091,
+			actor = 301090,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -318,7 +318,7 @@ return {
 			}
 		},
 		{
-			actor = 301091,
+			actor = 301090,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -337,7 +337,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 301091,
+			actor = 301090,
 			nameColor = "#a9f548",
 			say = "ほえ！？もうこんな時間でござるか！？も、申し訳ないでござる！それがし、朝一で執務室に行こうと思ったでござるが……",
 			typewriter = {
@@ -360,7 +360,7 @@ return {
 			}
 		},
 		{
-			actor = 301091,
+			actor = 301090,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -389,7 +389,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 301091,
+			actor = 301090,
 			nameColor = "#a9f548",
 			say = "ええええ！！？執務室はあちらでござるか！？",
 			typewriter = {
@@ -412,7 +412,7 @@ return {
 			}
 		},
 		{
-			actor = 301091,
+			actor = 301090,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",

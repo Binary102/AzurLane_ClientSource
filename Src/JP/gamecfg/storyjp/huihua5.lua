@@ -23,7 +23,7 @@ return {
 			bgmDelay = 2,
 			bgName = "bg_story_school",
 			bgm = "story-1",
-			actor = 107091,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "…やっぱりエンタープライズ先輩には勝てませんでしたね――",
 			flashout = {
@@ -57,7 +57,7 @@ return {
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 107061,
+			actor = 107060,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -77,7 +77,7 @@ return {
 			side = 0,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 107091,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "先輩……",
 			typewriter = {
@@ -90,7 +90,7 @@ return {
 			}
 		},
 		{
-			actor = 107061,
+			actor = 107060,
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -106,7 +106,7 @@ return {
 			}
 		},
 		{
-			actor = 107091,
+			actor = 107090,
 			side = 0,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -122,7 +122,7 @@ return {
 			}
 		},
 		{
-			actor = 107061,
+			actor = 107060,
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -138,7 +138,7 @@ return {
 			}
 		},
 		{
-			actor = 107061,
+			actor = 107060,
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -154,7 +154,7 @@ return {
 			}
 		},
 		{
-			actor = 107061,
+			actor = 107060,
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -170,7 +170,7 @@ return {
 			}
 		},
 		{
-			actor = 107061,
+			actor = 107060,
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -190,7 +190,7 @@ return {
 			side = 0,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 107091,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "……",
 			typewriter = {
@@ -203,7 +203,7 @@ return {
 			}
 		},
 		{
-			actor = 108021,
+			actor = 108020,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -219,7 +219,7 @@ return {
 			}
 		},
 		{
-			actor = 107061,
+			actor = 107060,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -239,7 +239,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 900123,
+			actor = 408011,
 			nameColor = "#a9f548",
 			say = "もちろん！わたしたち鉄血はベンキョーするチャンスを見逃さないぞ！",
 			typewriter = {
@@ -252,7 +252,7 @@ return {
 			}
 		},
 		{
-			actor = 900112,
+			actor = 301013,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -272,7 +272,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 307071,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "（ちっ、よりによってあのグレイゴーストに挨拶とは…）大鳳とは関係ありませんけど？",
 			typewriter = {
@@ -285,7 +285,7 @@ return {
 			}
 		},
 		{
-			actor = 107061,
+			actor = 107060,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -305,7 +305,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 307071,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "別に興味ありませんわ",
 			typewriter = {
@@ -322,7 +322,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 107091,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "（違う陣営の艦船がこんなに自然に会話しているなんて…もしかして……）",
 			typewriter = {
@@ -335,7 +335,7 @@ return {
 			}
 		},
 		{
-			actor = 107091,
+			actor = 107090,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -351,7 +351,7 @@ return {
 			}
 		},
 		{
-			actor = 107061,
+			actor = 107060,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -371,7 +371,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 107091,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "ですが、お友達を作るなんて、私はまだ――",
 			typewriter = {
@@ -388,7 +388,7 @@ return {
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 900112,
+			actor = 301013,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -408,7 +408,7 @@ return {
 			side = 0,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 107091,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "え……？",
 			typewriter = {
@@ -421,7 +421,7 @@ return {
 			}
 		},
 		{
-			actor = 900123,
+			actor = 408011,
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -441,7 +441,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 307071,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "ちょっと！勝手に人を巻き込まないでください！",
 			typewriter = {
@@ -468,7 +468,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "いいじゃない～人が多いほうがワイワイできるし！",
 			typewriter = {
@@ -481,7 +481,7 @@ return {
 			}
 		},
 		{
-			actor = 107091,
+			actor = 107090,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -501,7 +501,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 307071,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "……ちっ、好きにしてちょうだい",
 			typewriter = {
@@ -518,7 +518,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			actorScale = 0.6,
-			actor = 312011,
+			actor = 312010,
 			nameColor = "#a9f548",
 			say = "ようやく見つかったにゃ！さっき煙幕弾で明石の計画を台無しにした悪いやつにゃ！",
 			effects = {
@@ -584,7 +584,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "わわ！やばい！明石が追ってきた！",
 			effects = {
@@ -617,7 +617,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 900123,
+			actor = 408011,
 			nameColor = "#a9f548",
 			say = "なんかすごい形相だよ！一体何をしたの！？",
 			typewriter = {
@@ -643,7 +643,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "に、逃げるんだよぉ～！！",
 			typewriter = {
@@ -669,7 +669,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 107091,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "え……えええ！？！？！？！",
 			typewriter = {

@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 102061,
+			actor = 102060,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
@@ -25,7 +25,7 @@ return {
 		{
 			side = 2,
 			dir = -1,
-			actor = 305061,
+			actor = 305060,
 			nameColor = "#a9f548",
 			say = "どうして陸奥は同じ戦艦なのに比叡と霧島より足が遅いの？",
 			flashout = {
@@ -55,7 +55,7 @@ return {
 			}
 		},
 		{
-			actor = 305061,
+			actor = 305060,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -70,7 +70,7 @@ return {
 			}
 		},
 		{
-			actor = 305061,
+			actor = 305060,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -87,7 +87,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			actor = 103061,
+			actor = 103060,
 			nameColor = "#a9f548",
 			say = "……インディちゃんほどではないけど優秀な妹と見た！",
 			flashout = {
@@ -117,7 +117,7 @@ return {
 			}
 		},
 		{
-			actor = 102061,
+			actor = 102060,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -136,7 +136,7 @@ return {
 			}
 		},
 		{
-			actor = 103061,
+			actor = 103060,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -151,7 +151,7 @@ return {
 			}
 		},
 		{
-			actor = 102061,
+			actor = 102060,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,

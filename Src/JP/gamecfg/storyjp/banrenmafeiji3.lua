@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			actor = 900094,
+			actor = 201212,
 			nameColor = "#a9f548",
 			say = "セントーさんは来たばかりだから仕方ないけどね、でもスタイルがいいから、水着を着ないともったいないなぁと思って…",
 			flashout = {
@@ -57,7 +57,7 @@ return {
 			bgName = "star_level_bg_106",
 			say = "そうですね…すみません、艦隊に来たばかりで、水着の準備はまだ……",
 			dir = 1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -73,7 +73,7 @@ return {
 			}
 		},
 		{
-			actor = 900094,
+			actor = 201212,
 			side = 0,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -93,7 +93,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "ええと、母港の案内は……？",
 			typewriter = {
@@ -119,7 +119,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 900102,
+			actor = 101251,
 			nameColor = "#a9f548",
 			say = "サラトガ逃げるなああああ！！！ハムマンの飲み物を弁償して！！",
 			flashout = {
@@ -162,7 +162,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 900103,
+			actor = 107031,
 			nameColor = "#a9f548",
 			say = "あははは！逃げるなと言われて逃げないサラトガちゃんじゃないよ！",
 			typewriter = {
@@ -192,7 +192,7 @@ return {
 			}
 		},
 		{
-			actor = 900094,
+			actor = 201212,
 			side = 2,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -208,7 +208,7 @@ return {
 			}
 		},
 		{
-			actor = 900094,
+			actor = 201212,
 			side = 2,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -229,7 +229,7 @@ return {
 			bgName = "star_level_bg_106",
 			say = "あれはサラトガ先輩……さすがですね……",
 			dir = 1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -245,7 +245,7 @@ return {
 			}
 		},
 		{
-			actor = 900094,
+			actor = 201212,
 			side = 0,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -265,7 +265,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 900094,
+			actor = 201212,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -285,7 +285,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "アーク・ロイヤル先輩ですね！水着姿がカッコいいです！",
 			typewriter = {
@@ -298,7 +298,7 @@ return {
 			}
 		},
 		{
-			actor = 206041,
+			actor = 206040,
 			side = 2,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -317,7 +317,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 900104,
+			actor = 207021,
 			nameColor = "#a9f548",
 			say = "ふん。駆逐艦の子たちが安心して遊べるよう、このアーク・ロイヤル、全力でこの母港を守護させてもらおうッ！",
 			effects = {
@@ -339,7 +339,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 900094,
+			actor = 201212,
 			nameColor = "#a9f548",
 			say = "まあ、ああ見たらクールで格好良さそうだけど……",
 			effects = {
@@ -362,7 +362,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -388,7 +388,7 @@ return {
 			}
 		},
 		{
-			actor = 900094,
+			actor = 201212,
 			side = 0,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -404,7 +404,7 @@ return {
 			}
 		},
 		{
-			actor = 900094,
+			actor = 201212,
 			side = 0,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -420,7 +420,7 @@ return {
 			}
 		},
 		{
-			actor = 900094,
+			actor = 201212,
 			side = 0,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -439,7 +439,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 900104,
+			actor = 207021,
 			nameColor = "#a9f548",
 			say = "砂浜！青空！海！そして駆逐艦の妹たち！夏って最高だああ！",
 			effects = {
@@ -461,7 +461,7 @@ return {
 			expression = 2,
 			side = 1,
 			bgName = "star_level_bg_106",
-			actor = 206041,
+			actor = 206040,
 			dir = 1,
 			say = "アーク・ロイヤル先輩！こんにちは！",
 			nameColor = "#a9f548",
@@ -488,7 +488,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 900104,
+			actor = 207021,
 			nameColor = "#a9f548",
 			say = "ご、こほ！コホン！セントー！？ジャベリンも？珍しい組み合わせだな。",
 			typewriter = {
@@ -511,7 +511,7 @@ return {
 			}
 		},
 		{
-			actor = 900094,
+			actor = 201212,
 			side = 1,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -527,7 +527,7 @@ return {
 			}
 		},
 		{
-			actor = 900104,
+			actor = 207021,
 			side = 0,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -543,7 +543,7 @@ return {
 			}
 		},
 		{
-			actor = 900094,
+			actor = 201212,
 			side = 1,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -559,7 +559,7 @@ return {
 			}
 		},
 		{
-			actor = 900104,
+			actor = 207021,
 			side = 0,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -579,7 +579,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "ええと、私、この艦隊に配属されたはかりで、水着の準備はまだ…",
 			typewriter = {
@@ -602,7 +602,7 @@ return {
 			}
 		},
 		{
-			actor = 900104,
+			actor = 207021,
 			side = 0,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -618,7 +618,7 @@ return {
 			}
 		},
 		{
-			actor = 900094,
+			actor = 201212,
 			side = 1,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -637,7 +637,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 900104,
+			actor = 207021,
 			nameColor = "#a9f548",
 			say = "ああ、いかんいかん。任務を遂行するのを忘れていた。駆逐艦たちをかんしょ……コホン！安全のために監視せねば！すまない！",
 			flashout = {
@@ -681,7 +681,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 900094,
+			actor = 201212,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -711,7 +711,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "アーク・ロイヤル先輩、頑張ってください！",
 			typewriter = {
@@ -724,7 +724,7 @@ return {
 			}
 		},
 		{
-			actor = 900094,
+			actor = 201212,
 			side = 2,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",

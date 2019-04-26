@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -22,7 +22,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -47,7 +47,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -62,7 +62,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -77,7 +77,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -102,11 +102,11 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "あと、新しい仲間の開放条件が前と比べるとちょっときつくなっているにゃ！解放条件んを達成していない場合は、「艦船技術」をチェックしてにゃ！",
+			say = "あと、新しい仲間の開放条件が前と比べるとちょっときつくなっているにゃ！解放条件を達成していない場合は、「艦船技術」をチェックしてにゃ！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

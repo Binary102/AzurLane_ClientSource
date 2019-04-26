@@ -665,7 +665,8 @@ pg.fleet_tech_ship_class = {
 		nation = 2,
 		ships = {
 			20301,
-			20302
+			20302,
+			20309
 		}
 	},
 	[20302] = {
@@ -701,8 +702,7 @@ pg.fleet_tech_ship_class = {
 		nation = 2,
 		ships = {
 			20307,
-			20308,
-			20309
+			20308
 		}
 	},
 	[20401] = {

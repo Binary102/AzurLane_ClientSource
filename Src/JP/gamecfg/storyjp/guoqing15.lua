@@ -8,7 +8,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 307051,
+			actor = 307050,
 			side = 2,
 			nameColor = "#ff0000",
 			say = "……",
@@ -26,7 +26,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			nameColor = "#a9f548",
 			side = 0,
 			say = "翔鶴姉！！無事でよか……",
@@ -48,7 +48,7 @@ return {
 			}
 		},
 		{
-			actor = 307051,
+			actor = 307050,
 			side = 1,
 			nameColor = "#ff0000",
 			say = "……",
@@ -66,7 +66,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			side = 0,
 			nameColor = "#a9f548",
 			say = "……",
@@ -84,7 +84,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			side = 0,
 			nameColor = "#a9f548",
 			say = "……なんでこんなことするの",
@@ -102,7 +102,7 @@ return {
 			}
 		},
 		{
-			actor = 307011,
+			actor = 307010,
 			nameColor = "#ff0000",
 			dir = -1,
 			side = 1,
@@ -121,7 +121,7 @@ return {
 			}
 		},
 		{
-			actor = 307021,
+			actor = 307020,
 			side = 1,
 			nameColor = "#ff0000",
 			say = "全ては我が重桜の未来のために。",
@@ -139,7 +139,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			side = 0,
 			nameColor = "#a9f548",
 			say = "……「重桜の未来」…こんな言い訳で何度も人を騙せると思ってるわけ！？",
@@ -157,7 +157,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			side = 0,
 			nameColor = "#a9f548",
 			say = "こんな呪われた力は神の恩恵のはずがない！未来なんてもたらしてくれるわけないじゃない！",
@@ -175,7 +175,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			side = 0,
 			nameColor = "#a9f548",
 			say = "最初から気づいていたのよ…あんたたちがやっていることがどうもおかしいって。",
@@ -193,7 +193,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			side = 0,
 			nameColor = "#a9f548",
 			say = "今回は本気で怒ってるわ！よりによって翔鶴姉を…！",
@@ -211,7 +211,7 @@ return {
 			}
 		},
 		{
-			actor = 307011,
+			actor = 307010,
 			nameColor = "#ff0000",
 			dir = -1,
 			side = 1,
@@ -230,7 +230,7 @@ return {
 			}
 		},
 		{
-			actor = 307011,
+			actor = 307010,
 			nameColor = "#ff0000",
 			dir = -1,
 			side = 1,

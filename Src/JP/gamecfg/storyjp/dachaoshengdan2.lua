@@ -23,7 +23,7 @@ return {
 			bgmDelay = 2,
 			bgName = "star_level_bg_104",
 			bgm = "story-1",
-			actor = 900148,
+			actor = 301641,
 			nameColor = "#a9f548",
 			say = "浦風はん、急がんとって～もうちょい待とって～",
 			flashout = {
@@ -58,7 +58,7 @@ return {
 			bgName = "star_level_bg_104",
 			say = "もう待たないわよ！なんでたかがプレゼント選びに二時間もかかるのよ！",
 			dir = -1,
-			actor = 900147,
+			actor = 301591,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -88,7 +88,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_104",
 			dir = 1,
-			actor = 900148,
+			actor = 301641,
 			nameColor = "#a9f548",
 			say = "だって相手が多いやん～みんなにプレゼントする言うたんは浦風はんやない～",
 			typewriter = {
@@ -105,7 +105,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_104",
 			dir = -1,
-			actor = 900147,
+			actor = 301591,
 			nameColor = "#a9f548",
 			say = "ぐぬぬ……しょ、しょうがないわね。ここは度量を見せてあと一時間だけ待ってやるわ！",
 			typewriter = {
@@ -121,7 +121,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_104",
 			dir = 1,
-			actor = 205021,
+			actor = 205020,
 			nameColor = "#a9f548",
 			say = "あら？あそこにいるのは重桜の駆逐艦たち……何が起きているのかしら？",
 			flashout = {
@@ -151,7 +151,7 @@ return {
 			}
 		},
 		{
-			actor = 900148,
+			actor = 301641,
 			side = 2,
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
@@ -167,7 +167,7 @@ return {
 			}
 		},
 		{
-			actor = 205021,
+			actor = 205020,
 			side = 2,
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
@@ -187,7 +187,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_104",
 			dir = 1,
-			actor = 201101,
+			actor = 201100,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -203,7 +203,7 @@ return {
 			}
 		},
 		{
-			actor = 900148,
+			actor = 301641,
 			side = 0,
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
@@ -222,7 +222,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_104",
 			dir = -1,
-			actor = 900147,
+			actor = 301591,
 			nameColor = "#a9f548",
 			say = "あんた、自分のプレゼント選びも終わってないくせに何を偉そうに言ってるのよ",
 			typewriter = {
@@ -245,7 +245,7 @@ return {
 			}
 		},
 		{
-			actor = 205021,
+			actor = 205020,
 			side = 0,
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
@@ -265,7 +265,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_104",
 			dir = -1,
-			actor = 900147,
+			actor = 301591,
 			nameColor = "#a9f548",
 			say = "そうよ。これは自作のセンゴク風降誕祭陣中衣装よ。ふふん、褒めなくてもいいよ。わかるわ♪",
 			typewriter = {
@@ -282,7 +282,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_104",
 			dir = 1,
-			actor = 900148,
+			actor = 301641,
 			nameColor = "#a9f548",
 			say = "こっちも自作の――クリスマスプレゼントを届けるトナカイはん衣装や～クリスマスの雰囲気がよーさんあるんこ？",
 			typewriter = {
@@ -295,7 +295,7 @@ return {
 			}
 		},
 		{
-			actor = 205021,
+			actor = 205020,
 			side = 2,
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
@@ -311,7 +311,7 @@ return {
 			}
 		},
 		{
-			actor = 201101,
+			actor = 201100,
 			side = 2,
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
@@ -327,7 +327,7 @@ return {
 			}
 		},
 		{
-			actor = 205021,
+			actor = 205020,
 			side = 2,
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
@@ -343,7 +343,7 @@ return {
 			}
 		},
 		{
-			actor = 205021,
+			actor = 205020,
 			side = 2,
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
@@ -362,7 +362,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_104",
 			dir = 1,
-			actor = 201101,
+			actor = 201100,
 			nameColor = "#a9f548",
 			say = "で、でもそれじゃあプレゼントを開けるときのサプライズがないよぉ…",
 			typewriter = {
@@ -385,7 +385,7 @@ return {
 			}
 		},
 		{
-			actor = 205021,
+			actor = 205020,
 			side = 2,
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
@@ -401,7 +401,7 @@ return {
 			}
 		},
 		{
-			actor = 201101,
+			actor = 201100,
 			side = 2,
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
@@ -417,7 +417,7 @@ return {
 			}
 		},
 		{
-			actor = 205021,
+			actor = 205020,
 			side = 2,
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
@@ -437,7 +437,7 @@ return {
 			bgName = "star_level_bg_104",
 			dir = 1,
 			blackBg = true,
-			actor = 900148,
+			actor = 301641,
 			nameColor = "#a9f548",
 			say = "メリクリや～戦艦はんもおおきに～",
 			typewriter = {

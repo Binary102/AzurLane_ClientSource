@@ -50,7 +50,7 @@ return {
 			}
 		},
 		{
-			actor = 205021,
+			actor = 205020,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -66,7 +66,7 @@ return {
 			}
 		},
 		{
-			actor = 205021,
+			actor = 205020,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -85,7 +85,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 205021,
+			actor = 205020,
 			nameColor = "#a9f548",
 			say = "……走っていこうかしら",
 			typewriter = {
@@ -110,7 +110,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 205021,
+			actor = 205020,
 			nameColor = "#a9f548",
 			say = "はぁ……はぁ……",
 			flashout = {
@@ -153,7 +153,7 @@ return {
 			}
 		},
 		{
-			actor = 205021,
+			actor = 205020,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -172,7 +172,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 205021,
+			actor = 205020,
 			nameColor = "#a9f548",
 			say = "（ここの床、妙に滑りやすくなってるわね…まだモップ掛けの時間じゃないはずなのに）",
 			typewriter = {
@@ -198,7 +198,7 @@ return {
 			}
 		},
 		{
-			actor = 205021,
+			actor = 205020,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -218,7 +218,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 203041,
+			actor = 203040,
 			nameColor = "#a9f548",
 			say = "鳥さ～ん、雲さ～ん♪",
 			typewriter = {
@@ -231,7 +231,7 @@ return {
 			}
 		},
 		{
-			actor = 205021,
+			actor = 205020,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -251,7 +251,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 205021,
+			actor = 205020,
 			nameColor = "#a9f548",
 			actorPosition = {
 				x = -1500,
@@ -280,7 +280,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 203041,
+			actor = 203040,
 			nameColor = "#a9f548",
 			say = "ほぇ？……わわわわ！？",
 			typewriter = {
@@ -325,7 +325,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 203041,
+			actor = 203040,
 			nameColor = "#a9f548",
 			say = "あいたたた……うぉ、ウォースパイトさま！？",
 			typewriter = {
@@ -348,7 +348,7 @@ return {
 			}
 		},
 		{
-			actor = 205021,
+			actor = 205020,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -364,7 +364,7 @@ return {
 			}
 		},
 		{
-			actor = 202121,
+			actor = 202120,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -380,7 +380,7 @@ return {
 			}
 		},
 		{
-			actor = 202121,
+			actor = 202120,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -400,7 +400,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 203041,
+			actor = 203040,
 			nameColor = "#a9f548",
 			say = "あれ？サフォーク廊下まで掃除したんでしたっけ……",
 			typewriter = {
@@ -423,7 +423,7 @@ return {
 			}
 		},
 		{
-			actor = 202121,
+			actor = 202120,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -442,7 +442,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 202121,
+			actor = 202120,
 			nameColor = "#a9f548",
 			say = "ウォースパイトさま、申し訳ございません。ご迷惑をおかけいたしました",
 			typewriter = {
@@ -469,7 +469,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 203041,
+			actor = 203040,
 			nameColor = "#a9f548",
 			say = "も、申し訳ございません……",
 			typewriter = {
@@ -482,7 +482,7 @@ return {
 			}
 		},
 		{
-			actor = 205021,
+			actor = 205020,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -498,7 +498,7 @@ return {
 			}
 		},
 		{
-			actor = 205021,
+			actor = 205020,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -514,7 +514,7 @@ return {
 			}
 		},
 		{
-			actor = 205021,
+			actor = 205020,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -530,7 +530,7 @@ return {
 			}
 		},
 		{
-			actor = 205021,
+			actor = 205020,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,

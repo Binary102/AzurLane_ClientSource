@@ -59,7 +59,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 802011,
+			actor = 802010,
 			nameColor = "#a9f548",
 			say = "デートするって言い出したのはこっちだけど…指揮官、どこに行けばいいのかしら…？",
 			typewriter = {
@@ -78,7 +78,7 @@ return {
 			}
 		},
 		{
-			actor = 802011,
+			actor = 802010,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -110,7 +110,7 @@ return {
 			}
 		},
 		{
-			actor = 802011,
+			actor = 802010,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -163,7 +163,7 @@ return {
 			}
 		},
 		{
-			actor = 802011,
+			actor = 802010,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -179,7 +179,7 @@ return {
 			}
 		},
 		{
-			actor = 802011,
+			actor = 802010,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -195,7 +195,7 @@ return {
 			}
 		},
 		{
-			actor = 802011,
+			actor = 802010,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -211,7 +211,7 @@ return {
 			}
 		},
 		{
-			actor = 802011,
+			actor = 802010,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -227,7 +227,7 @@ return {
 			}
 		},
 		{
-			actor = 802011,
+			actor = 802010,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -246,7 +246,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 802011,
+			actor = 802010,
 			nameColor = "#a9f548",
 			say = "みんなからすれば、こうして踊る私は少し身勝手かもしれないけどね。ふふ",
 			typewriter = {
@@ -265,7 +265,7 @@ return {
 			}
 		},
 		{
-			actor = 802011,
+			actor = 802010,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -281,7 +281,7 @@ return {
 			}
 		},
 		{
-			actor = 802011,
+			actor = 802010,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -300,7 +300,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 802011,
+			actor = 802010,
 			nameColor = "#a9f548",
 			say = "ふふ、指揮官はなにか「ロマンティックなこと」をして、女の子たちと仲良くしようって思ったことある？",
 			typewriter = {
@@ -327,7 +327,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			optionFlag = 1,
-			actor = 802011,
+			actor = 802010,
 			nameColor = "#a9f548",
 			say = "それなら私はパス……かな？",
 			typewriter = {
@@ -344,7 +344,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			optionFlag = 2,
-			actor = 802011,
+			actor = 802010,
 			nameColor = "#a9f548",
 			say = "さすがは私が惚れ込んだ指揮官！",
 			typewriter = {
@@ -361,7 +361,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			blackBg = true,
-			actor = 802011,
+			actor = 802010,
 			nameColor = "#a9f548",
 			say = "うふふ、私、そういうところは他の娘とちょっと違うわよ？",
 			typewriter = {

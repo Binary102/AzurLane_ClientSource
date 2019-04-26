@@ -28,7 +28,7 @@ return {
 			}
 		},
 		{
-			actor = 402034,
+			actor = 402030,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -48,7 +48,7 @@ return {
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 402014,
+			actor = 402010,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -64,7 +64,7 @@ return {
 			}
 		},
 		{
-			actor = 402034,
+			actor = 402030,
 			side = 0,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -80,7 +80,7 @@ return {
 			}
 		},
 		{
-			actor = 402014,
+			actor = 402010,
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -96,7 +96,7 @@ return {
 			}
 		},
 		{
-			actor = 402034,
+			actor = 402030,
 			side = 0,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -112,7 +112,7 @@ return {
 			}
 		},
 		{
-			actor = 402014,
+			actor = 402010,
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -128,7 +128,7 @@ return {
 			}
 		},
 		{
-			actor = 402034,
+			actor = 402030,
 			side = 0,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -144,7 +144,7 @@ return {
 			}
 		},
 		{
-			actor = 402034,
+			actor = 402030,
 			side = 0,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -160,7 +160,7 @@ return {
 			}
 		},
 		{
-			actor = 401234,
+			actor = 401230,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -179,14 +179,14 @@ return {
 			actorShadow = true,
 			side = 0,
 			bgName = "bg_story_school",
-			actor = 402034,
+			actor = 402030,
 			actorName = "ケーニヒスベルク&ケルン",
 			hideOther = true,
 			nameColor = "#a9f548",
 			say = "Z23ちゃん？",
 			subActors = {
 				{
-					actor = 402014,
+					actor = 402010,
 					pos = {
 						x = 685
 					}
@@ -202,7 +202,7 @@ return {
 			}
 		},
 		{
-			actor = 401234,
+			actor = 401230,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -218,7 +218,7 @@ return {
 			}
 		},
 		{
-			actor = 401234,
+			actor = 401230,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",

@@ -22,7 +22,7 @@ return {
 			}
 		},
 		{
-			actor = 301051,
+			actor = 301050,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -69,7 +69,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -104,7 +104,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			actor = 10300011,
+			actor = 10300010,
 			say = "私たち、のことかな？",
 			typewriter = {
 				speed = 0.05,
@@ -136,7 +136,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			actor = 10300061,
+			actor = 10300060,
 			say = "まさか……ネコちゃんとルルティエさま！？",
 			typewriter = {
 				speed = 0.05,
@@ -152,7 +152,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			actor = 10300011,
+			actor = 10300010,
 			say = "あなたたち……あの２人に何をしたのかな！？",
 			typewriter = {
 				speed = 0.05,
@@ -216,7 +216,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			actor = 10300011,
+			actor = 10300010,
 			say = "待ちなさい！２人は……ネコネとルルティエはどこにいるの！？",
 			typewriter = {
 				speed = 0.05,
@@ -228,7 +228,7 @@ return {
 			}
 		},
 		{
-			actor = 201211,
+			actor = 201210,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -247,7 +247,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			actor = 10300041,
+			actor = 10300040,
 			say = "ネコネとルルティエ",
 			typewriter = {
 				speed = 0.05,
@@ -263,7 +263,7 @@ return {
 			side = 1,
 			say = "クオンさんにとって妹のような方と、お友達のルルティエさんが未だ行方知れずなのです",
 			dir = 1,
-			actor = 10300051,
+			actor = 10300050,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -283,7 +283,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			actor = 10300011,
+			actor = 10300010,
 			say = "この海に放り出されて、猫神さまから装備をもらうまでは一緒だったの",
 			typewriter = {
 				speed = 0.05,
@@ -299,7 +299,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			actor = 10300011,
+			actor = 10300010,
 			say = "だけど、あのセイレーンって奴らに襲われた時、離れ離れになっちゃって……",
 			typewriter = {
 				speed = 0.05,
@@ -311,7 +311,7 @@ return {
 			}
 		},
 		{
-			actor = 10300061,
+			actor = 10300060,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -326,7 +326,7 @@ return {
 			}
 		},
 		{
-			actor = 101171,
+			actor = 101170,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -341,7 +341,7 @@ return {
 			}
 		},
 		{
-			actor = 301051,
+			actor = 301050,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -356,7 +356,7 @@ return {
 			}
 		},
 		{
-			actor = 401231,
+			actor = 401230,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -371,7 +371,7 @@ return {
 			}
 		},
 		{
-			actor = 201211,
+			actor = 201210,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -386,7 +386,7 @@ return {
 			}
 		},
 		{
-			actor = 10300011,
+			actor = 10300010,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,

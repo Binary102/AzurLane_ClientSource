@@ -9,7 +9,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgm = "level-uta",
-			actor = 10300041,
+			actor = 10300040,
 			nameColor = "#a9f548",
 			say = "──この世界は別の世界",
 			typewriter = {
@@ -26,7 +26,7 @@ return {
 			side = 1,
 			say = "どうやら、ここは私たちのいた世界とは違う世界のようです……何らかの呪法か技術により、無理やり転移させられたのではと推測します",
 			dir = 1,
-			actor = 10300051,
+			actor = 10300050,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -42,7 +42,7 @@ return {
 			}
 		},
 		{
-			actor = 10300061,
+			actor = 10300060,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -61,7 +61,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			actor = 10300011,
+			actor = 10300010,
 			say = "別の世界から来た……なんて言われても、信じられないよね？",
 			typewriter = {
 				speed = 0.05,
@@ -73,7 +73,7 @@ return {
 			}
 		},
 		{
-			actor = 301051,
+			actor = 301050,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -92,7 +92,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			actor = 10300011,
+			actor = 10300010,
 			say = "よくあるの！？それはそれで……どうなのかな？",
 			typewriter = {
 				speed = 0.05,
@@ -104,7 +104,7 @@ return {
 			}
 		},
 		{
-			actor = 401231,
+			actor = 401230,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -119,7 +119,7 @@ return {
 			}
 		},
 		{
-			actor = 201211,
+			actor = 201210,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -134,7 +134,7 @@ return {
 			}
 		},
 		{
-			actor = 10300041,
+			actor = 10300040,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -149,7 +149,7 @@ return {
 			}
 		},
 		{
-			actor = 10300051,
+			actor = 10300050,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -168,7 +168,7 @@ return {
 			}
 		},
 		{
-			actor = 301051,
+			actor = 301050,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -183,7 +183,7 @@ return {
 			}
 		},
 		{
-			actor = 201211,
+			actor = 201210,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,

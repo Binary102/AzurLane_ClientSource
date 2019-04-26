@@ -112,7 +112,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "そうそう！指揮官の執務室で～ちょっぴりサプライズを用意したの！",
 			flashout = {
@@ -146,7 +146,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "へっへっへー！楽しみにしてね！",
 			typewriter = {
@@ -258,7 +258,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "指揮官、グッドモーニング！",
 			typewriter = {
@@ -291,7 +291,7 @@ return {
 			}
 		},
 		{
-			actor = 108021,
+			actor = 108020,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -311,7 +311,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "ギミックのタイミングと位置、角度は全部計算済みだから指揮官の頭以外濡らす心配ナッシング！",
 			typewriter = {

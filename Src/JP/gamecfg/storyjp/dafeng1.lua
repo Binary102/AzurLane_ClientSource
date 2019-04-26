@@ -50,7 +50,7 @@ return {
 			}
 		},
 		{
-			actor = 307071,
+			actor = 307070,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -79,7 +79,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 307071,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "指揮官様、お茶でもどうぞ♡",
 			flashout = {
@@ -122,7 +122,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 307071,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "指揮官様、少しお休みになられますか？大鳳が肩を揉んで差し上げますわ",
 			flashout = {
@@ -165,7 +165,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 307071,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "♪～♪～",
 			flashout = {
@@ -209,7 +209,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 307071,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "指揮官様？大鳳のことは気にせず、ご自由にどうぞ♡",
 			typewriter = {
@@ -228,7 +228,7 @@ return {
 			}
 		},
 		{
-			actor = 307071,
+			actor = 307070,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -248,7 +248,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 307071,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "指揮官様を見ずにして、大鳳はどのように指揮官様のことをもっともっと知ることができるのでありましょうか",
 			typewriter = {
@@ -261,7 +261,7 @@ return {
 			}
 		},
 		{
-			actor = 307071,
+			actor = 307070,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -281,7 +281,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 307071,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "これこそ秘書艦のすべきことじゃなくて…？",
 			typewriter = {
@@ -304,7 +304,7 @@ return {
 			}
 		},
 		{
-			actor = 307071,
+			actor = 307070,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -325,7 +325,7 @@ return {
 			stobpgm = true,
 			dir = 1,
 			blackBg = true,
-			actor = 307071,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "（小声）ふふふ…そうよ…指揮官様の隣には大鳳さえいれば十分ですわ……",
 			typewriter = {

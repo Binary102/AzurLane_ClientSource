@@ -21,7 +21,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			bgm = "story-2",
-			actor = 307011,
+			actor = 307010,
 			nameColor = "#a9f548",
 			say = "指揮官様は赤城の言うことを聞いていればいいの……赤城を悲しませてはダメ……",
 			typewriter = {
@@ -34,7 +34,7 @@ return {
 			}
 		},
 		{
-			actor = 307011,
+			actor = 307010,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
@@ -60,7 +60,7 @@ return {
 			}
 		},
 		{
-			actor = 307011,
+			actor = 307010,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
@@ -106,7 +106,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 307011,
+			actor = 307010,
 			nameColor = "#a9f548",
 			say = "指揮官様を傷つけるなんて…赤城はそんなことをしませんわ。たとえ指揮官様が敵になろうとも――",
 			flashout = {
@@ -136,7 +136,7 @@ return {
 			}
 		},
 		{
-			actor = 307011,
+			actor = 307010,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
@@ -152,7 +152,7 @@ return {
 			}
 		},
 		{
-			actor = 307011,
+			actor = 307010,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
@@ -178,7 +178,7 @@ return {
 			}
 		},
 		{
-			actor = 307011,
+			actor = 307010,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
@@ -194,7 +194,7 @@ return {
 			}
 		},
 		{
-			actor = 307011,
+			actor = 307010,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
@@ -252,7 +252,7 @@ return {
 			side = 2,
 			dir = 1,
 			optionFlag = 2,
-			actor = 307011,
+			actor = 307010,
 			nameColor = "#a9f548",
 			say = "――指揮官様が赤城に頼るだけではなく、「赤城も指揮官様に」と……",
 			typewriter = {
@@ -265,7 +265,7 @@ return {
 			}
 		},
 		{
-			actor = 307011,
+			actor = 307010,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
@@ -291,7 +291,7 @@ return {
 			}
 		},
 		{
-			actor = 307011,
+			actor = 307010,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,

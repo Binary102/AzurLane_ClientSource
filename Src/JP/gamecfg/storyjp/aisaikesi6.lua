@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			actor = 107061,
+			actor = 107060,
 			nameColor = "#a9f548",
 			say = "そう思っている限り、あなたは自分の道からズレているままだ",
 			flashout = {
@@ -56,7 +56,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_105",
 			dir = 1,
-			actor = 107091,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "ど、どうしてエンタープライズ先輩はここに！？",
 			typewriter = {
@@ -83,7 +83,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_105",
 			dir = 1,
-			actor = 107091,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "もしかして…指揮官！？",
 			typewriter = {
@@ -100,7 +100,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_105",
 			dir = 1,
-			actor = 107061,
+			actor = 107060,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -120,7 +120,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_105",
 			dir = 1,
-			actor = 107091,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "くっ……！",
 			typewriter = {
@@ -133,7 +133,7 @@ return {
 			}
 		},
 		{
-			actor = 107061,
+			actor = 107060,
 			side = 1,
 			bgName = "star_level_bg_105",
 			nameColor = "#a9f548",
@@ -149,7 +149,7 @@ return {
 			}
 		},
 		{
-			actor = 107091,
+			actor = 107090,
 			side = 0,
 			bgName = "star_level_bg_105",
 			nameColor = "#a9f548",
@@ -165,7 +165,7 @@ return {
 			}
 		},
 		{
-			actor = 107061,
+			actor = 107060,
 			side = 1,
 			bgName = "star_level_bg_105",
 			nameColor = "#a9f548",
@@ -185,7 +185,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_105",
 			dir = 1,
-			actor = 107091,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "し、しかし…！",
 			typewriter = {
@@ -198,7 +198,7 @@ return {
 			}
 		},
 		{
-			actor = 107061,
+			actor = 107060,
 			side = 1,
 			bgName = "star_level_bg_105",
 			nameColor = "#a9f548",
@@ -214,7 +214,7 @@ return {
 			}
 		},
 		{
-			actor = 107061,
+			actor = 107060,
 			side = 1,
 			bgName = "star_level_bg_105",
 			nameColor = "#a9f548",
@@ -233,7 +233,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_105",
 			dir = 1,
-			actor = 107091,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "そんなことありません！",
 			typewriter = {
@@ -256,7 +256,7 @@ return {
 			}
 		},
 		{
-			actor = 107061,
+			actor = 107060,
 			side = 1,
 			bgName = "star_level_bg_105",
 			nameColor = "#a9f548",
@@ -276,7 +276,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_105",
 			dir = 1,
-			actor = 107091,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "自分のため……",
 			typewriter = {
@@ -289,7 +289,7 @@ return {
 			}
 		},
 		{
-			actor = 107061,
+			actor = 107060,
 			side = 1,
 			bgName = "star_level_bg_105",
 			nameColor = "#a9f548",
@@ -305,7 +305,7 @@ return {
 			}
 		},
 		{
-			actor = 107061,
+			actor = 107060,
 			side = 1,
 			bgName = "star_level_bg_105",
 			nameColor = "#a9f548",
@@ -321,7 +321,7 @@ return {
 			}
 		},
 		{
-			actor = 107061,
+			actor = 107060,
 			side = 1,
 			bgName = "star_level_bg_105",
 			nameColor = "#a9f548",
@@ -340,7 +340,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_105",
 			dir = 1,
-			actor = 107061,
+			actor = 107060,
 			nameColor = "#a9f548",
 			say = "指揮官もそう思わないか？",
 			typewriter = {
@@ -363,7 +363,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_105",
 			dir = 1,
-			actor = 107091,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "指揮官…",
 			typewriter = {
@@ -376,7 +376,7 @@ return {
 			}
 		},
 		{
-			actor = 107091,
+			actor = 107090,
 			side = 2,
 			bgName = "star_level_bg_105",
 			nameColor = "#a9f548",
@@ -396,7 +396,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_105",
 			dir = 1,
-			actor = 107091,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "指揮官にも感謝します",
 			typewriter = {
@@ -413,7 +413,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_105",
 			dir = 1,
-			actor = 107091,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "ですが、エンタープライズ先輩に勝ちたいという目標は簡単に捨てはしません！",
 			typewriter = {
@@ -426,7 +426,7 @@ return {
 			}
 		},
 		{
-			actor = 107091,
+			actor = 107090,
 			side = 2,
 			bgName = "star_level_bg_105",
 			nameColor = "#a9f548",
@@ -442,7 +442,7 @@ return {
 			}
 		},
 		{
-			actor = 107061,
+			actor = 107060,
 			side = 2,
 			bgName = "star_level_bg_105",
 			nameColor = "#a9f548",

@@ -85,7 +85,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 905011,
+			actor = 905010,
 			nameColor = "#a9f548",
 			say = "昼休みから３０分も過ぎたぞ。ずいぶんと悠長だな、貴様は。",
 			typewriter = {
@@ -104,7 +104,7 @@ return {
 			}
 		},
 		{
-			actor = 905011,
+			actor = 905010,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -143,7 +143,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 905011,
+			actor = 905010,
 			nameColor = "#a9f548",
 			say = "コイツを秘書艦に据えるのがそもそも間違いだったな。オレに言わせてみれば。",
 			typewriter = {
@@ -162,7 +162,7 @@ return {
 			}
 		},
 		{
-			actor = 905011,
+			actor = 905010,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -178,7 +178,7 @@ return {
 			}
 		},
 		{
-			actor = 905011,
+			actor = 905010,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -194,7 +194,7 @@ return {
 			}
 		},
 		{
-			actor = 905011,
+			actor = 905010,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -210,7 +210,7 @@ return {
 			}
 		},
 		{
-			actor = 905011,
+			actor = 905010,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -226,7 +226,7 @@ return {
 			}
 		},
 		{
-			actor = 905011,
+			actor = 905010,
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -247,7 +247,7 @@ return {
 			}
 		},
 		{
-			actor = 905011,
+			actor = 905010,
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -262,7 +262,7 @@ return {
 			}
 		},
 		{
-			actor = 905011,
+			actor = 905010,
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -277,7 +277,7 @@ return {
 			}
 		},
 		{
-			actor = 905011,
+			actor = 905010,
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -298,7 +298,7 @@ return {
 			}
 		},
 		{
-			actor = 905011,
+			actor = 905010,
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -313,7 +313,7 @@ return {
 			}
 		},
 		{
-			actor = 808011,
+			actor = 808010,
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -328,7 +328,7 @@ return {
 			}
 		},
 		{
-			actor = 905011,
+			actor = 905010,
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -343,7 +343,7 @@ return {
 			}
 		},
 		{
-			actor = 905011,
+			actor = 905010,
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,

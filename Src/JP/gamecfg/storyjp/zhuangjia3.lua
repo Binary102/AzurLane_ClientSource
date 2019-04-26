@@ -21,7 +21,7 @@ return {
 			bgName = "bg_night",
 			dir = 1,
 			bgm = "story-5",
-			actor = 107061,
+			actor = 107060,
 			say = "この反応…お前は私たちに倒されたはず……！",
 			flashout = {
 				dur = 0.5,
@@ -72,7 +72,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
@@ -119,7 +119,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
@@ -137,7 +137,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 307061,
+			actor = 307060,
 			say = "翔鶴姉！？…くっ、卑怯な！",
 			flashout = {
 				dur = 0.5,
@@ -166,7 +166,7 @@ return {
 			}
 		},
 		{
-			actor = 307051,
+			actor = 307050,
 			side = 1,
 			bgName = "bg_night",
 			say = "……。",
@@ -188,7 +188,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = -1,
-			actor = 107061,
+			actor = 107060,
 			say = "ヨークタウン姉さん……やはりそう来たか。",
 			flashout = {
 				dur = 0.5,
@@ -217,7 +217,7 @@ return {
 			}
 		},
 		{
-			actor = 107051,
+			actor = 107050,
 			side = 1,
 			bgName = "bg_night",
 			say = "……。",
@@ -239,7 +239,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 303031,
+			actor = 303030,
 			say = "衣笠…最上…熊野……",
 			flashout = {
 				dur = 0.5,
@@ -268,7 +268,7 @@ return {
 			}
 		},
 		{
-			actor = 302101,
+			actor = 302100,
 			side = 1,
 			bgName = "bg_night",
 			say = "……。",
@@ -290,7 +290,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 403031,
+			actor = 403030,
 			say = "今の長距離砲撃はあなただったのね。ティルピッツ…。",
 			flashout = {
 				dur = 0.5,
@@ -319,7 +319,7 @@ return {
 			}
 		},
 		{
-			actor = 405021,
+			actor = 405020,
 			side = 1,
 			bgName = "bg_night",
 			say = "……。",
@@ -341,7 +341,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 301161,
+			actor = 301160,
 			say = "時雨、やっぱりお前が出てきたのか！いつもいつもいつも、この雪風様の邪魔ばかりして！",
 			flashout = {
 				dur = 0.5,
@@ -380,7 +380,7 @@ return {
 			}
 		},
 		{
-			actor = 301151,
+			actor = 301150,
 			side = 1,
 			bgName = "bg_night",
 			say = "……。",
@@ -402,7 +402,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 312011,
+			actor = 312010,
 			say = "いや、明石は不知火を出されても、なんとも思わないにゃ。",
 			flashout = {
 				dur = 0.5,
@@ -441,7 +441,7 @@ return {
 			}
 		},
 		{
-			actor = 301181,
+			actor = 301180,
 			side = 1,
 			bgName = "bg_night",
 			say = "……。",
@@ -460,7 +460,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
@@ -504,7 +504,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 312011,
+			actor = 312010,
 			say = "み、みんな！呆けている場合じゃないにゃ！敵が攻撃してくるにゃ！",
 			flashout = {
 				dur = 1,
@@ -543,7 +543,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
@@ -561,7 +561,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 307061,
+			actor = 307060,
 			say = "くっ…飛行甲板が…。流石に臨時の混成艦隊じゃ無理だというのか…。",
 			flashout = {
 				dur = 0.5,
@@ -603,7 +603,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 303031,
+			actor = 303030,
 			say = "最上、熊野…ごめん…わたし……。",
 			flashout = {
 				dur = 0.5,
@@ -645,7 +645,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 403031,
+			actor = 403030,
 			say = "ティルピッツ、こっちのあなたも鏡に映されたものなのね。いいわ、かかってきなさい。",
 			flashout = {
 				dur = 0.5,
@@ -687,7 +687,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 107061,
+			actor = 107060,
 			say = "まだ赤城でも来ればやる気も出るんだがな…。",
 			flashout = {
 				dur = 0.5,
@@ -729,7 +729,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 301161,
+			actor = 301160,
 			say = "ふん、この雪風様と決着をつけるときが来たようだな。",
 			flashout = {
 				dur = 0.5,
@@ -771,7 +771,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 107061,
+			actor = 107060,
 			say = "しかし多勢に無勢か。次々と艦載機が落とされていく…。",
 			flashout = {
 				dur = 0.5,
@@ -800,7 +800,7 @@ return {
 			}
 		},
 		{
-			actor = 307062,
+			actor = 307060,
 			side = 0,
 			bgName = "bg_night",
 			say = "敵の攻撃を防ぐだけで手一杯よ…。目の前の翔鶴姉が違うと分かっていても…。",
@@ -819,7 +819,7 @@ return {
 			}
 		},
 		{
-			actor = 307062,
+			actor = 307060,
 			side = 0,
 			bgName = "bg_night",
 			say = "隙をついて離脱しようにも無理ね。離脱しようにもティルピッツの砲撃に捕まるわ…。",
@@ -838,7 +838,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 0,
 			bgName = "bg_night",
 			dir = 1,
@@ -853,7 +853,7 @@ return {
 			}
 		},
 		{
-			actor = 301161,
+			actor = 301160,
 			side = 0,
 			bgName = "bg_night",
 			dir = 1,
@@ -878,7 +878,7 @@ return {
 			}
 		},
 		{
-			actor = 303031,
+			actor = 303030,
 			side = 0,
 			bgName = "bg_night",
 			dir = 1,
@@ -930,7 +930,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 1,
 			bgName = "bg_night",
 			hideOther = true,
@@ -946,7 +946,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			side = 0,
 			bgName = "bg_night",
 			dir = 1,
@@ -961,7 +961,7 @@ return {
 			}
 		},
 		{
-			actor = 403031,
+			actor = 403030,
 			side = 0,
 			bgName = "bg_night",
 			dir = 1,
@@ -976,7 +976,7 @@ return {
 			}
 		},
 		{
-			actor = 303031,
+			actor = 303030,
 			side = 0,
 			bgName = "bg_night",
 			dir = 1,
@@ -991,7 +991,7 @@ return {
 			}
 		},
 		{
-			actor = 301161,
+			actor = 301160,
 			side = 0,
 			bgName = "bg_night",
 			dir = 1,

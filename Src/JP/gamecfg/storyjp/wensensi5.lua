@@ -74,7 +74,7 @@ return {
 			}
 		},
 		{
-			actor = 103101,
+			actor = 103100,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -107,7 +107,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 103101,
+			actor = 103100,
 			nameColor = "#a9f548",
 			say = "指揮官……どうしたら、秘書艦って、どうすれば上手くやれる？",
 			typewriter = {
@@ -126,7 +126,7 @@ return {
 			}
 		},
 		{
-			actor = 103101,
+			actor = 103100,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -142,7 +142,7 @@ return {
 			}
 		},
 		{
-			actor = 103101,
+			actor = 103100,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -158,7 +158,7 @@ return {
 			}
 		},
 		{
-			actor = 103101,
+			actor = 103100,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -178,7 +178,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			withoutActorName = true,
-			actor = 103101,
+			actor = 103100,
 			nameColor = "#a9f548",
 			say = "ヴィンセンスは今までに見たことのない真剣な表情を見せた",
 			typewriter = {
@@ -191,7 +191,7 @@ return {
 			}
 		},
 		{
-			actor = 103101,
+			actor = 103100,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -207,7 +207,7 @@ return {
 			}
 		},
 		{
-			actor = 103101,
+			actor = 103100,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -227,7 +227,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			withoutActorName = true,
-			actor = 103101,
+			actor = 103100,
 			nameColor = "#a9f548",
 			say = "ふと、ちょっと過保護な姉たちのことを思い出す。",
 			typewriter = {
@@ -240,7 +240,7 @@ return {
 			}
 		},
 		{
-			actor = 103101,
+			actor = 103100,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -260,7 +260,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			withoutActorName = true,
-			actor = 103101,
+			actor = 103100,
 			nameColor = "#a9f548",
 			say = "そもそも、最初からヴィンセンスもインディアナポリスもこの母港では戦力としてそれぞれの立ち位置があるはず。",
 			typewriter = {
@@ -277,7 +277,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			withoutActorName = true,
-			actor = 103101,
+			actor = 103100,
 			nameColor = "#a9f548",
 			say = "ヴィンセンスが今以上に有能になっても、彼女たちがヴィンセンスの面倒を見ることには変わりないはずだ。",
 			typewriter = {
@@ -300,7 +300,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			actor = 103101,
+			actor = 103100,
 			nameColor = "#a9f548",
 			say = "お勉強……？分かった！おー！",
 			typewriter = {

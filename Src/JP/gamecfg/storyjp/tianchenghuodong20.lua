@@ -9,7 +9,7 @@ return {
 		{
 			stopbgm = true,
 			side = 2,
-			actor = 304051,
+			actor = 304050,
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
@@ -44,7 +44,7 @@ return {
 			side = 0,
 			dir = 1,
 			blackBg = true,
-			actor = 305051,
+			actor = 305050,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -64,7 +64,7 @@ return {
 			side = 1,
 			dir = 1,
 			blackBg = true,
-			actor = 304051,
+			actor = 304050,
 			nameColor = "#a9f548",
 			say = "僭越ながら、加賀について一つを意見具申を申し上げたく存じます",
 			typewriter = {
@@ -77,7 +77,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -97,7 +97,7 @@ return {
 			side = 1,
 			dir = 1,
 			blackBg = true,
-			actor = 304051,
+			actor = 304050,
 			nameColor = "#a9f548",
 			say = "条約に基づいた戦艦・加賀の処分の撤回をお願い申し上げます",
 			typewriter = {
@@ -110,7 +110,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -130,7 +130,7 @@ return {
 			side = 1,
 			dir = 1,
 			blackBg = true,
-			actor = 304051,
+			actor = 304050,
 			nameColor = "#a9f548",
 			say = "誰かが加賀の身代わりにならない限り……ですね？",
 			typewriter = {
@@ -143,7 +143,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -159,7 +159,7 @@ return {
 			}
 		},
 		{
-			actor = 304051,
+			actor = 304050,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -179,7 +179,7 @@ return {
 			side = 1,
 			dir = 1,
 			blackBg = true,
-			actor = 304051,
+			actor = 304050,
 			nameColor = "#a9f548",
 			say = "今加賀に任せるのでしたら、少なくともこの病体でも最後まで重桜に奉公できると……",
 			typewriter = {
@@ -192,7 +192,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -208,7 +208,7 @@ return {
 			}
 		},
 		{
-			actor = 304051,
+			actor = 304050,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -224,7 +224,7 @@ return {
 			}
 		},
 		{
-			actor = 304051,
+			actor = 304050,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -244,7 +244,7 @@ return {
 			side = 1,
 			dir = 1,
 			blackBg = true,
-			actor = 304051,
+			actor = 304050,
 			nameColor = "#a9f548",
 			say = "勝手を申しまして誠に恐れ多いことですが、何卒ご賢慮いただきますようお願い申し上げます",
 			typewriter = {
@@ -257,7 +257,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -273,7 +273,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -293,7 +293,7 @@ return {
 			side = 1,
 			dir = 1,
 			blackBg = true,
-			actor = 304051,
+			actor = 304050,
 			nameColor = "#a9f548",
 			say = "ご英断感謝いたします",
 			typewriter = {
@@ -306,7 +306,7 @@ return {
 			}
 		},
 		{
-			actor = 304051,
+			actor = 304050,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -326,7 +326,7 @@ return {
 			side = 1,
 			dir = 1,
 			blackBg = true,
-			actor = 304051,
+			actor = 304050,
 			nameColor = "#a9f548",
 			say = "あの二人の素質でしたらきっと重桜を支える主力になりましょう……げほげほ",
 			typewriter = {
@@ -339,7 +339,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -359,7 +359,7 @@ return {
 			side = 1,
 			dir = 1,
 			blackBg = true,
-			actor = 304051,
+			actor = 304050,
 			nameColor = "#a9f548",
 			say = "恐れ入ります",
 			typewriter = {

@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			actor = 304021,
+			actor = 304020,
 			nameColor = "#a9f548",
 			say = "思い出しました？この前お話したことを……",
 			flashout = {
@@ -95,7 +95,7 @@ return {
 			}
 		},
 		{
-			actor = 304041,
+			actor = 304040,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -115,7 +115,7 @@ return {
 			side = 1,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 304031,
+			actor = 304030,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -131,7 +131,7 @@ return {
 			}
 		},
 		{
-			actor = 304021,
+			actor = 304020,
 			side = 0,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -147,7 +147,7 @@ return {
 			}
 		},
 		{
-			actor = 304041,
+			actor = 304040,
 			side = 0,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -166,7 +166,7 @@ return {
 			side = 1,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 304031,
+			actor = 304030,
 			nameColor = "#a9f548",
 			say = "！ならかかってこい！絶対に負けないッ！",
 			typewriter = {
@@ -189,7 +189,7 @@ return {
 			}
 		},
 		{
-			actor = 304021,
+			actor = 304020,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -210,12 +210,12 @@ return {
 			bgName = "bg_story_nepu1",
 			hideOther = true,
 			dir = 1,
-			actor = 304041,
+			actor = 304040,
 			actorName = "{namecode:73}&{namecode:72}",
 			say = "はい…",
 			subActors = {
 				{
-					actor = 304031,
+					actor = 304030,
 					pos = {
 						x = 750
 					}
@@ -241,7 +241,7 @@ return {
 			}
 		},
 		{
-			actor = 304021,
+			actor = 304020,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -260,7 +260,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 304021,
+			actor = 304020,
 			nameColor = "#a9f548",
 			say = "みんな、お疲れ様でした。",
 			typewriter = {
@@ -279,7 +279,7 @@ return {
 			}
 		},
 		{
-			actor = 304021,
+			actor = 304020,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -295,7 +295,7 @@ return {
 			}
 		},
 		{
-			actor = 304021,
+			actor = 304020,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -314,7 +314,7 @@ return {
 			actorName = "{namecode:73}&{namecode:72}",
 			side = 0,
 			bgName = "bg_story_nepu1",
-			actor = 304041,
+			actor = 304040,
 			dir = 1,
 			hideOther = true,
 			nameColor = "#a9f548",
@@ -327,7 +327,7 @@ return {
 			},
 			subActors = {
 				{
-					actor = 304031,
+					actor = 304030,
 					pos = {
 						x = 750
 					}
@@ -382,7 +382,7 @@ return {
 			}
 		},
 		{
-			actor = 304021,
+			actor = 304020,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -398,7 +398,7 @@ return {
 			}
 		},
 		{
-			actor = 304021,
+			actor = 304020,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",

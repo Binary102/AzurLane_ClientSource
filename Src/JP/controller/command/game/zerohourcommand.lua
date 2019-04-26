@@ -40,6 +40,8 @@ class("ZeroHourCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 		end
 	end
 
+	getProxy(DailyLevelProxy):clearChaptersDefeatCount()
+
 	if os.server_date("*t", pg.TimeMgr.GetInstance():GetServerTime()).day == 1 and not ChapterConst.ActivateMirror then
 		slot11:getShamChapter().simId = slot13.month
 

@@ -34,7 +34,7 @@ return {
 			}
 		},
 		{
-			actor = 303091,
+			actor = 303090,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -49,7 +49,7 @@ return {
 			}
 		},
 		{
-			actor = 304051,
+			actor = 304050,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -68,7 +68,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = -1,
-			actor = 304051,
+			actor = 304050,
 			say = "母港に帰還したらその対策も考えないと…専用の兵装研究も急務ですね……げほげほ！",
 			typewriter = {
 				speed = 0.05,
@@ -97,7 +97,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			actor = 305071,
+			actor = 305070,
 			say = "天城、お前――",
 			typewriter = {
 				speed = 0.05,
@@ -113,7 +113,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = -1,
-			actor = 304051,
+			actor = 304050,
 			say = "時間が…ありません……ここから早く、離れないと……",
 			typewriter = {
 				speed = 0.05,
@@ -154,7 +154,7 @@ return {
 			expression = 2,
 			side = 2,
 			dir = 1,
-			actor = 305071,
+			actor = 305070,
 			nameColor = "#a9f548",
 			say = "おい！天城！しっかりしろ！",
 			typewriter = {
@@ -180,7 +180,7 @@ return {
 			expression = 2,
 			side = 2,
 			dir = 1,
-			actor = 305071,
+			actor = 305070,
 			nameColor = "#a9f548",
 			say = "天城！！",
 			typewriter = {
@@ -279,7 +279,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = -1,
-			actor = 304051,
+			actor = 304050,
 			say = "げほげほ……躱せる…はずなのに…",
 			typewriter = {
 				speed = 0.05,
@@ -291,7 +291,7 @@ return {
 			}
 		},
 		{
-			actor = 305071,
+			actor = 305070,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -369,7 +369,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			actor = 305071,
+			actor = 305070,
 			say = "…くっ！手強い！",
 			typewriter = {
 				speed = 0.05,
@@ -397,7 +397,7 @@ return {
 			expression = 2,
 			side = 2,
 			dir = 1,
-			actor = 305071,
+			actor = 305070,
 			nameColor = "#a9f548",
 			say = "このままでは全滅だぞ…！どうすれば…！",
 			typewriter = {
@@ -424,7 +424,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			actor = 305071,
+			actor = 305070,
 			say = "天城、私は一体どうすればいい！",
 			typewriter = {
 				speed = 0.05,
@@ -440,7 +440,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = -1,
-			actor = 304051,
+			actor = 304050,
 			say = "あと…もう少し…",
 			typewriter = {
 				speed = 0.05,
@@ -455,7 +455,7 @@ return {
 			expression = 2,
 			side = 2,
 			dir = 1,
-			actor = 305071,
+			actor = 305070,
 			nameColor = "#a9f548",
 			say = "もう少しとはなんだ！おい！天城！",
 			typewriter = {
@@ -495,7 +495,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 305071,
+			actor = 305070,
 			nameColor = "#a9f548",
 			say = "最初から私を探しに来なければ、お前たちは…！",
 			typewriter = {
@@ -554,7 +554,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = -1,
-			actor = 304051,
+			actor = 304050,
 			say = "げほげほ…間に合いましたわね……",
 			typewriter = {
 				speed = 0.05,
@@ -596,7 +596,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			actor = 305071,
+			actor = 305070,
 			say = "こいつらは……？",
 			typewriter = {
 				speed = 0.05,
@@ -608,7 +608,7 @@ return {
 			}
 		},
 		{
-			actor = 304051,
+			actor = 304050,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -623,7 +623,7 @@ return {
 			}
 		},
 		{
-			actor = 304051,
+			actor = 304050,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -642,7 +642,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			actor = 305071,
+			actor = 305070,
 			say = "だが一体どうやって私たちの場所を…？",
 			typewriter = {
 				speed = 0.05,
@@ -658,7 +658,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = -1,
-			actor = 304051,
+			actor = 304050,
 			say = "そうですね…出発の前に、偵察機の連絡が途絶えたら、その方向に直掩隊を送るようにと……",
 			typewriter = {
 				speed = 0.05,
@@ -674,7 +674,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = -1,
-			actor = 304051,
+			actor = 304050,
 			say = "私たちも空母を運用し始めていますから…セイレーンも……",
 			typewriter = {
 				speed = 0.05,
@@ -686,7 +686,7 @@ return {
 			}
 		},
 		{
-			actor = 305071,
+			actor = 305070,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -711,7 +711,7 @@ return {
 			}
 		},
 		{
-			actor = 305071,
+			actor = 305070,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -726,7 +726,7 @@ return {
 			}
 		},
 		{
-			actor = 305071,
+			actor = 305070,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,

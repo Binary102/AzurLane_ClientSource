@@ -50,7 +50,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "ふぅ……歩いて疲れた～指揮官にちょっと足をマッサージしてほしいな～なんて♪",
 			typewriter = {
@@ -73,7 +73,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "あははは～やっぱり指揮官は上手いよね～♪",
 			typewriter = {
@@ -100,7 +100,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "でも毎回こんな感じでやってると、きっといつか飽きちゃうなー。",
 			typewriter = {
@@ -117,7 +117,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "同じ人の作ったスイーツをずっと食べ続けたらきっと飽きちゃうのと同じね",
 			typewriter = {
@@ -144,7 +144,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "それで、この前の「糖分補給連合」活動の時から考えてたけど……",
 			typewriter = {
@@ -161,7 +161,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "指揮官もダンケルクさんに作ってもらったものばかり食べてもしょうがないと思っているよね？",
 			typewriter = {
@@ -178,7 +178,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "私もたまにはお菓子とかスイーツとか作りたいんだよね～そして指揮官に試食してほしいなぁって♪",
 			typewriter = {
@@ -208,7 +208,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 102011,
+			actor = 102010,
 			nameColor = "#a9f548",
 			say = "おお！コンコードがやる気を出しているのを見ると、わたしもホッとするよ！",
 			flashout = {
@@ -238,7 +238,7 @@ return {
 			}
 		},
 		{
-			actor = 102021,
+			actor = 102020,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -254,7 +254,7 @@ return {
 			}
 		},
 		{
-			actor = 102021,
+			actor = 102020,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -274,7 +274,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "だから今回は本気だって！",
 			typewriter = {
@@ -297,7 +297,7 @@ return {
 			}
 		},
 		{
-			actor = 102021,
+			actor = 102020,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -313,7 +313,7 @@ return {
 			}
 		},
 		{
-			actor = 102011,
+			actor = 102010,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -333,7 +333,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "ふふん～任せなさいって♪",
 			typewriter = {
@@ -346,7 +346,7 @@ return {
 			}
 		},
 		{
-			actor = 102181,
+			actor = 102180,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -367,7 +367,7 @@ return {
 			bgName = "bg_story_room",
 			withoutActorName = true,
 			blackBg = true,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "コンコードのキラキラとした目には熱い情熱が輝いていた。",
 			typewriter = {

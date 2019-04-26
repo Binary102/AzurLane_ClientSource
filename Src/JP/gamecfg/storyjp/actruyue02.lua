@@ -50,7 +50,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 312011,
+			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "鍋大会にゃ！",
 			typewriter = {
@@ -67,7 +67,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 312011,
+			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "食材はなんでもあるにゃ！食べ放題にゃ！",
 			typewriter = {
@@ -84,7 +84,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 301141,
+			actor = 301140,
 			actorName = "{namecode:16}",
 			say = "なに！？めしか！",
 			typewriter = {
@@ -102,7 +102,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 301151,
+			actor = 301150,
 			actorName = "{namecode:17}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -122,7 +122,7 @@ return {
 			side = 0,
 			bgName = "bg_story_school",
 			dir = -1,
-			actor = 301131,
+			actor = 301130,
 			actorName = "{namecode:15}",
 			say = "でも…鍋か…美味しそう……",
 			typewriter = {
@@ -139,7 +139,7 @@ return {
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 301151,
+			actor = 301150,
 			actorName = "{namecode:17}",
 			say = "夕立だけじゃなく白露まで！？",
 			typewriter = {
@@ -156,7 +156,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 312011,
+			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "食材はたくさんあるにゃ！来てにゃ！",
 			typewriter = {
@@ -173,7 +173,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 301321,
+			actor = 301320,
 			actorName = "{namecode:33}",
 			say = "おなべ、アメさん、いれるの？",
 			typewriter = {
@@ -235,7 +235,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 307031,
+			actor = 307030,
 			actorName = "{namecode:93}",
 			say = "野菜はこちらね。",
 			typewriter = {
@@ -253,7 +253,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			actor = 302041,
+			actor = 302040,
 			actorName = "{namecode:46}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -273,7 +273,7 @@ return {
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 301171,
+			actor = 301170,
 			actorName = "{namecode:19}",
 			say = "鍋と水…あと調味料じゃ！",
 			typewriter = {
@@ -290,7 +290,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 301181,
+			actor = 301180,
 			actorName = "{namecode:20}",
 			say = "なんと…みな慣れていらっしゃいますね…感謝でございます……（ぺこり",
 			typewriter = {
@@ -307,7 +307,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 301171,
+			actor = 301170,
 			actorName = "{namecode:19}",
 			say = "大したことではないのじゃ！",
 			typewriter = {
@@ -325,7 +325,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 307031,
+			actor = 307030,
 			actorName = "{namecode:93}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -345,7 +345,7 @@ return {
 			side = 0,
 			bgName = "bg_story_school",
 			dir = -1,
-			actor = 302041,
+			actor = 302040,
 			actorName = "{namecode:46}",
 			say = "明石ちゃん、相変わらず発想が凄いね～",
 			typewriter = {
@@ -363,7 +363,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			blackBg = true,
-			actor = 301181,
+			actor = 301180,
 			actorName = "{namecode:20}",
 			say = "……",
 			typewriter = {

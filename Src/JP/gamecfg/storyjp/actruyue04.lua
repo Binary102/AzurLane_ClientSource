@@ -50,7 +50,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 301321,
+			actor = 301320,
 			actorName = "{namecode:33}",
 			say = "如月如月～「ナベタイカイ」いこー！",
 			typewriter = {
@@ -68,7 +68,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 301331,
+			actor = 301330,
 			actorName = "{namecode:34}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -88,7 +88,7 @@ return {
 			side = 0,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 301321,
+			actor = 301320,
 			actorName = "{namecode:33}",
 			say = "明石がみんなでおなべ、たべようって！",
 			typewriter = {
@@ -105,7 +105,7 @@ return {
 			side = 1,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 301331,
+			actor = 301330,
 			actorName = "{namecode:34}",
 			say = "でも…おなべってふゆにたべるものなんじゃ……？",
 			typewriter = {
@@ -122,7 +122,7 @@ return {
 			side = 0,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 301321,
+			actor = 301320,
 			actorName = "{namecode:33}",
 			say = "うん…うん！そうだよ！",
 			typewriter = {
@@ -139,7 +139,7 @@ return {
 			side = 1,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 301331,
+			actor = 301330,
 			actorName = "{namecode:34}",
 			say = "じゃあふゆのふくをきていくの…？",
 			typewriter = {
@@ -156,7 +156,7 @@ return {
 			side = 0,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 301321,
+			actor = 301320,
 			actorName = "{namecode:33}",
 			say = "うん？うん……たぶん！",
 			typewriter = {
@@ -173,7 +173,7 @@ return {
 			side = 1,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 301331,
+			actor = 301330,
 			actorName = "{namecode:34}",
 			say = "そうなの……？",
 			typewriter = {
@@ -190,7 +190,7 @@ return {
 			side = 0,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 301321,
+			actor = 301320,
 			actorName = "{namecode:33}",
 			say = "うん！ふゆのおなべをたべるには、ふゆのふくをきるひつようがあるの！",
 			typewriter = {
@@ -208,7 +208,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			blackBg = true,
-			actor = 301331,
+			actor = 301330,
 			actorName = "{namecode:34}",
 			say = "そ、そうなんだ…",
 			typewriter = {

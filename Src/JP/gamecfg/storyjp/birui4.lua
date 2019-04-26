@@ -50,7 +50,7 @@ return {
 			}
 		},
 		{
-			actor = 304021,
+			actor = 304020,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -66,7 +66,7 @@ return {
 			}
 		},
 		{
-			actor = 304021,
+			actor = 304020,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -113,7 +113,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -129,7 +129,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -149,7 +149,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 304021,
+			actor = 304020,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -165,7 +165,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 1,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -181,7 +181,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 1,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -197,7 +197,7 @@ return {
 			}
 		},
 		{
-			actor = 304021,
+			actor = 304020,
 			side = 0,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -213,7 +213,7 @@ return {
 			}
 		},
 		{
-			actor = 304021,
+			actor = 304020,
 			side = 0,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -232,7 +232,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 312011,
+			actor = 312010,
 			nameColor = "#a9f548",
 			say = "にゃ？これは……招待状にゃ！明石も出ていいんだにゃ？",
 			typewriter = {
@@ -255,7 +255,7 @@ return {
 			}
 		},
 		{
-			actor = 304021,
+			actor = 304020,
 			side = 0,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -274,7 +274,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 304011,
+			actor = 304010,
 			nameColor = "#a9f548",
 			say = "私達に声掛けなくてもいいのに……はいはい、参加するので安心なさい。",
 			flashout = {
@@ -304,7 +304,7 @@ return {
 			}
 		},
 		{
-			actor = 304041,
+			actor = 304040,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -324,7 +324,7 @@ return {
 			side = 1,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 304031,
+			actor = 304030,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -340,7 +340,7 @@ return {
 			}
 		},
 		{
-			actor = 304041,
+			actor = 304040,
 			side = 0,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -356,7 +356,7 @@ return {
 			}
 		},
 		{
-			actor = 304021,
+			actor = 304020,
 			side = 0,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -372,7 +372,7 @@ return {
 			}
 		},
 		{
-			actor = 304041,
+			actor = 304040,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -392,7 +392,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgName = "bg_story_task",
-			actor = 304021,
+			actor = 304020,
 			nameColor = "#a9f548",
 			say = "前準備はこんなところかしら。宴会の支度の手伝いもよろしくお願いいたしますね。指揮官様♪",
 			flashout = {

@@ -201,14 +201,20 @@ ys or .Battle.BattleDataFunction.GetResFromBuff = function (slot0, slot1, slot2)
 			end
 		end
 
-		if slot10.arg_list.buff_id then
+		if slot10.arg_list.skin_id then
 			for slot19, slot20 in ipairs(slot15) do
-				if type(slot20) == "string" then
-					slot3[#slot3 + 1] = slot20
+				slot3[#slot3 + 1] = slot20
+			end
+		end
+
+		if slot10.arg_list.buff_id then
+			for slot20, slot21 in ipairs(slot16) do
+				if type(slot21) == "string" then
+					slot3[#slot3 + 1] = slot21
 				else
-					if type(slot20) == "table" then
-						for slot24, slot25 in ipairs(slot20) do
-							slot3[#slot3 + 1] = slot25
+					if type(slot21) == "table" then
+						for slot25, slot26 in ipairs(slot21) do
+							slot3[#slot3 + 1] = slot26
 						end
 					end
 				end

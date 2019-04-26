@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-2",
-			actor = 101271,
+			actor = 101270,
 			nameColor = "#a9f548",
 			say = "むぅ、指揮官はベイリーのことを誤解してるよ？",
 			flashout = {
@@ -58,7 +58,7 @@ return {
 			}
 		},
 		{
-			actor = 101271,
+			actor = 101270,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -74,7 +74,7 @@ return {
 			}
 		},
 		{
-			actor = 101271,
+			actor = 101270,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -100,7 +100,7 @@ return {
 			}
 		},
 		{
-			actor = 101271,
+			actor = 101270,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -116,7 +116,7 @@ return {
 			}
 		},
 		{
-			actor = 101271,
+			actor = 101270,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -132,7 +132,7 @@ return {
 			}
 		},
 		{
-			actor = 101271,
+			actor = 101270,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -158,7 +158,7 @@ return {
 			}
 		},
 		{
-			actor = 101271,
+			actor = 101270,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -177,7 +177,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 312011,
+			actor = 312010,
 			nameColor = "#a9f548",
 			say = "そうだにゃ。宇宙は広いにゃ",
 			typewriter = {
@@ -200,7 +200,7 @@ return {
 			}
 		},
 		{
-			actor = 101271,
+			actor = 101270,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -216,7 +216,7 @@ return {
 			}
 		},
 		{
-			actor = 101271,
+			actor = 101270,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -255,7 +255,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 101361,
+			actor = 101360,
 			nameColor = "#a9f548",
 			say = "ベイリー、流星群がそろそろ来るよ！",
 			typewriter = {
@@ -278,7 +278,7 @@ return {
 			}
 		},
 		{
-			actor = 101271,
+			actor = 101270,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",

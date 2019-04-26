@@ -23,7 +23,7 @@ return {
 			}
 		},
 		{
-			actor = 306054,
+			actor = 306050,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -38,7 +38,7 @@ return {
 			}
 		},
 		{
-			actor = 306054,
+			actor = 306050,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -53,7 +53,7 @@ return {
 			}
 		},
 		{
-			actor = 306054,
+			actor = 306050,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -68,7 +68,7 @@ return {
 			}
 		},
 		{
-			actor = 306054,
+			actor = 306050,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -83,7 +83,7 @@ return {
 			}
 		},
 		{
-			actor = 306054,
+			actor = 306050,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -101,7 +101,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 900053,
+			actor = 301052,
 			nameColor = "#a9f548",
 			say = "「リアルなんてクソゲー、です！」",
 			flashout = {
@@ -134,7 +134,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 900053,
+			actor = 301052,
 			nameColor = "#a9f548",
 			say = "「愛が足りない、です！」",
 			flashout = {
@@ -167,7 +167,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 900053,
+			actor = 301052,
 			nameColor = "#a9f548",
 			say = "「出撃したら負け、です！」",
 			flashout = {
@@ -199,7 +199,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			actor = 306054,
+			actor = 306050,
 			nameColor = "#a9f548",
 			say = "――と、疲れた顔で変な話しばっかりしとるで！",
 			flashout = {

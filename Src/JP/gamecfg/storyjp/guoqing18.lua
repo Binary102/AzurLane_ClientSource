@@ -8,7 +8,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 307061,
+			actor = 307060,
 			side = 2,
 			nameColor = "#a9f548",
 			say = "AFで一度沈んだように見せたのは…あんたたちは一体なんなの！？",
@@ -29,7 +29,7 @@ return {
 			side = 1,
 			say = "見ての通りよ。そもそもここはカミより授かった「聖域」、ここでは私たちは無限の力を発揮できるわ。",
 			dir = -1,
-			actor = 307011,
+			actor = 307010,
 			nameColor = "#ff0000",
 			paintingFadeOut = {
 				time = 0.5,
@@ -49,7 +49,7 @@ return {
 			}
 		},
 		{
-			actor = 307011,
+			actor = 307010,
 			nameColor = "#ff0000",
 			dir = -1,
 			side = 1,
@@ -68,7 +68,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			side = 0,
 			nameColor = "#a9f548",
 			say = "仲間を犠牲にしてこんなことしたって、あの子…「ゴースト」には勝てないわ！",
@@ -86,7 +86,7 @@ return {
 			}
 		},
 		{
-			actor = 307011,
+			actor = 307010,
 			nameColor = "#ff0000",
 			dir = -1,
 			side = 1,
@@ -105,7 +105,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			side = 0,
 			nameColor = "#a9f548",
 			say = "このまま逃げたって、未来なんてないの！私を信じて！今なら――",
@@ -123,7 +123,7 @@ return {
 			}
 		},
 		{
-			actor = 307011,
+			actor = 307010,
 			nameColor = "#ff0000",
 			dir = -1,
 			side = 1,
@@ -142,7 +142,7 @@ return {
 			}
 		},
 		{
-			actor = 307021,
+			actor = 307020,
 			side = 1,
 			nameColor = "#ff0000",
 			say = "赤城！！！…瑞鶴、言葉は無用だ！お前が強き者かどうか、戦いで証明して見せろ！",

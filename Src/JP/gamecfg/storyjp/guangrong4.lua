@@ -21,7 +21,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			bgm = "story-1",
-			actor = 207064,
+			actor = 207060,
 			nameColor = "#a9f548",
 			say = "アーク・ロイヤルさんが無実である理由は3つあります。",
 			typewriter = {
@@ -34,7 +34,7 @@ return {
 			}
 		},
 		{
-			actor = 207064,
+			actor = 207060,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -50,7 +50,7 @@ return {
 			}
 		},
 		{
-			actor = 207064,
+			actor = 207060,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -66,7 +66,7 @@ return {
 			}
 		},
 		{
-			actor = 207064,
+			actor = 207060,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -85,7 +85,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 205024,
+			actor = 205020,
 			nameColor = "#a9f548",
 			say = "えっ。",
 			action = {
@@ -111,7 +111,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 205014,
+			actor = 205010,
 			nameColor = "#a9f548",
 			say = "えっ。",
 			action = {
@@ -137,7 +137,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 202124,
+			actor = 202120,
 			nameColor = "#a9f548",
 			say = "えっ。",
 			action = {
@@ -163,7 +163,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			bgName = "bg_story_school",
-			actor = 205024,
+			actor = 205020,
 			dir = 1,
 			hideOther = true,
 			actorName = "一同",
@@ -175,13 +175,13 @@ return {
 			},
 			subActors = {
 				{
-					actor = 205014,
+					actor = 205010,
 					pos = {
 						x = 370
 					}
 				},
 				{
-					actor = 202124,
+					actor = 202120,
 					pos = {
 						x = 750
 					}
@@ -197,7 +197,7 @@ return {
 			}
 		},
 		{
-			actor = 207024,
+			actor = 207020,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -217,7 +217,7 @@ return {
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 207064,
+			actor = 207060,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -233,7 +233,7 @@ return {
 			}
 		},
 		{
-			actor = 207064,
+			actor = 207060,
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -249,7 +249,7 @@ return {
 			}
 		},
 		{
-			actor = 207064,
+			actor = 207060,
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -265,7 +265,7 @@ return {
 			}
 		},
 		{
-			actor = 207064,
+			actor = 207060,
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -284,20 +284,20 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			bgName = "bg_story_school",
-			actor = 205024,
+			actor = 205020,
 			dir = 1,
 			hideOther = true,
 			actorName = "一同",
 			say = "……",
 			subActors = {
 				{
-					actor = 205014,
+					actor = 205010,
 					pos = {
 						x = 370
 					}
 				},
 				{
-					actor = 202124,
+					actor = 202120,
 					pos = {
 						x = 750
 					}
@@ -313,7 +313,7 @@ return {
 			}
 		},
 		{
-			actor = 205014,
+			actor = 205010,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -332,14 +332,14 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			bgName = "bg_story_school",
-			actor = 205024,
+			actor = 205020,
 			dir = 1,
 			hideOther = true,
 			actorName = "ベルファスト＆ウォースパイト",
 			say = "陛下のご明察には感服いたします。",
 			subActors = {
 				{
-					actor = 202124,
+					actor = 202120,
 					dir = -1,
 					pos = {
 						x = 750
@@ -356,7 +356,7 @@ return {
 			}
 		},
 		{
-			actor = 207024,
+			actor = 207020,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -376,7 +376,7 @@ return {
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 207064,
+			actor = 207060,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,

@@ -50,7 +50,7 @@ return {
 			}
 		},
 		{
-			actor = 900145,
+			actor = 205021,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -70,7 +70,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = -1,
-			actor = 900145,
+			actor = 205021,
 			nameColor = "#a9f548",
 			say = "あとは陛下への特別なプレゼントだけ…！",
 			typewriter = {
@@ -87,7 +87,7 @@ return {
 			side = 1,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 900057,
+			actor = 201102,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -103,7 +103,7 @@ return {
 			}
 		},
 		{
-			actor = 900145,
+			actor = 205021,
 			side = 0,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -122,7 +122,7 @@ return {
 			side = 1,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 900057,
+			actor = 201102,
 			nameColor = "#a9f548",
 			say = "それなら…女王さまもきっと喜んでくれるよね！",
 			typewriter = {
@@ -148,7 +148,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = -1,
-			actor = 900145,
+			actor = 205021,
 			nameColor = "#a9f548",
 			say = "ぬかった……これだけのプレゼント…どうやって運べば……",
 			flashout = {
@@ -182,7 +182,7 @@ return {
 			side = 1,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 900057,
+			actor = 201102,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -202,7 +202,7 @@ return {
 			side = 0,
 			bgName = "bg_night",
 			dir = -1,
-			actor = 900145,
+			actor = 205021,
 			nameColor = "#a9f548",
 			say = "くっ…！もはやここまでか……！",
 			typewriter = {
@@ -230,7 +230,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = -1,
-			actor = 900145,
+			actor = 205021,
 			nameColor = "#a9f548",
 			say = "エンタープライズ！……後ろにいるのはニコラスか？",
 			typewriter = {
@@ -253,7 +253,7 @@ return {
 			}
 		},
 		{
-			actor = 900055,
+			actor = 107061,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -269,7 +269,7 @@ return {
 			}
 		},
 		{
-			actor = 900146,
+			actor = 101312,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -285,7 +285,7 @@ return {
 			}
 		},
 		{
-			actor = 900145,
+			actor = 205021,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -305,7 +305,7 @@ return {
 			bgName = "bg_night",
 			dir = 1,
 			blackBg = true,
-			actor = 900057,
+			actor = 201102,
 			nameColor = "#a9f548",
 			say = "助かった……これでプレゼントをロイヤル寮まで運べるよね！",
 			typewriter = {

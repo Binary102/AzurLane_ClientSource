@@ -11,7 +11,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 201201,
+			actor = 201200,
 			stopbgm = true,
 			say = "ハーディ、ホットスパーより敵の増援が現れたって",
 			typewriter = {
@@ -24,7 +24,7 @@ return {
 			}
 		},
 		{
-			actor = 201161,
+			actor = 201160,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -39,7 +39,7 @@ return {
 			}
 		},
 		{
-			actor = 201201,
+			actor = 201200,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -54,7 +54,7 @@ return {
 			}
 		},
 		{
-			actor = 201161,
+			actor = 201160,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -69,7 +69,7 @@ return {
 			}
 		},
 		{
-			actor = 201201,
+			actor = 201200,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -88,7 +88,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			actor = 201201,
+			actor = 201200,
 			say = "ない、よね。敵がこちらを阻止するに決まってるから",
 			typewriter = {
 				speed = 0.05,
@@ -104,7 +104,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = -1,
-			actor = 201161,
+			actor = 201160,
 			say = "最初から覚悟していたことです",
 			typewriter = {
 				speed = 0.05,
@@ -120,7 +120,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = -1,
-			actor = 201161,
+			actor = 201160,
 			say = "ハンター？今更あんたが怯んでも放っておいたりはしませんよ？",
 			typewriter = {
 				speed = 0.05,
@@ -136,7 +136,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			actor = 201201,
+			actor = 201200,
 			say = "……そうかな。じゃあ…出発？",
 			typewriter = {
 				speed = 0.05,
@@ -152,7 +152,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = -1,
-			actor = 201161,
+			actor = 201160,
 			say = "うん、撤退しましょう",
 			typewriter = {
 				speed = 0.05,
@@ -164,7 +164,7 @@ return {
 			}
 		},
 		{
-			actor = 201161,
+			actor = 201160,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -183,7 +183,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			actor = 201201,
+			actor = 201200,
 			say = "……心に悩みがなければ、綺麗に…見えるのかな",
 			typewriter = {
 				speed = 0.05,
@@ -214,7 +214,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = -1,
-			actor = 201161,
+			actor = 201160,
 			say = "少しは頑張って楽しんでみます。あんたの言ってた「雪」",
 			typewriter = {
 				speed = 0.05,
@@ -246,7 +246,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = -1,
-			actor = 201161,
+			actor = 201160,
 			say = "うん！早く出発しましょう！",
 			typewriter = {
 				speed = 0.05,

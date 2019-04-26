@@ -21,7 +21,7 @@ return {
 			bgName = "bg_story_school",
 			dir = -1,
 			bgm = "story-china",
-			actor = 501024,
+			actor = 501020,
 			nameColor = "#a9f548",
 			say = "たっだいまーブリちゃんたちは捕まえられなかったけど…ほかの人を連れてきたよ！",
 			typewriter = {
@@ -38,7 +38,7 @@ return {
 			side = 0,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 501044,
+			actor = 501040,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -54,7 +54,7 @@ return {
 			}
 		},
 		{
-			actor = 502024,
+			actor = 502020,
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -70,7 +70,7 @@ return {
 			}
 		},
 		{
-			actor = 502034,
+			actor = 502030,
 			side = 0,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -86,7 +86,7 @@ return {
 			}
 		},
 		{
-			actor = 501014,
+			actor = 501010,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -106,7 +106,7 @@ return {
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 502024,
+			actor = 502020,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -122,7 +122,7 @@ return {
 			}
 		},
 		{
-			actor = 502034,
+			actor = 502030,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -141,19 +141,19 @@ return {
 			actorName = "太原&長春&鞍山",
 			side = 0,
 			bgName = "bg_story_school",
-			actor = 501044,
+			actor = 501040,
 			hideOther = true,
 			nameColor = "#a9f548",
 			say = "おおお！",
 			subActors = {
 				{
-					actor = 501034,
+					actor = 501030,
 					pos = {
 						x = 370
 					}
 				},
 				{
-					actor = 501014,
+					actor = 501010,
 					pos = {
 						x = 750
 					}
@@ -169,7 +169,7 @@ return {
 			}
 		},
 		{
-			actor = 501044,
+			actor = 501040,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -185,7 +185,7 @@ return {
 			}
 		},
 		{
-			actor = 501034,
+			actor = 501030,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -201,7 +201,7 @@ return {
 			}
 		},
 		{
-			actor = 501014,
+			actor = 501010,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -221,7 +221,7 @@ return {
 			side = 0,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 502034,
+			actor = 502030,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -237,7 +237,7 @@ return {
 			}
 		},
 		{
-			actor = 502024,
+			actor = 502020,
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -253,7 +253,7 @@ return {
 			}
 		},
 		{
-			actor = 501014,
+			actor = 501010,
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -269,7 +269,7 @@ return {
 			}
 		},
 		{
-			actor = 502034,
+			actor = 502030,
 			side = 0,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -285,7 +285,7 @@ return {
 			}
 		},
 		{
-			actor = 501014,
+			actor = 501010,
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",

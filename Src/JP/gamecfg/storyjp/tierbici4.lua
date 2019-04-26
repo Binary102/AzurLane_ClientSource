@@ -56,7 +56,7 @@ return {
 			}
 		},
 		{
-			actor = 401201,
+			actor = 401200,
 			nameColor = "#a9f548",
 			bgName = "bg_story_nepu1",
 			side = 2,
@@ -76,7 +76,7 @@ return {
 			side = 0,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 401191,
+			actor = 401190,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -92,7 +92,7 @@ return {
 			}
 		},
 		{
-			actor = 401201,
+			actor = 401200,
 			nameColor = "#a9f548",
 			bgName = "bg_story_nepu1",
 			side = 1,
@@ -108,7 +108,7 @@ return {
 			}
 		},
 		{
-			actor = 401211,
+			actor = 401210,
 			nameColor = "#a9f548",
 			bgName = "bg_story_nepu1",
 			side = 1,
@@ -124,7 +124,7 @@ return {
 			}
 		},
 		{
-			actor = 401201,
+			actor = 401200,
 			nameColor = "#a9f548",
 			bgName = "bg_story_nepu1",
 			side = 1,
@@ -143,7 +143,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 405021,
+			actor = 405020,
 			nameColor = "#a9f548",
 			say = "そろそろ折り返しポイントに到着よ。母港へ帰還する準備でもしてちょうだい。",
 			flashout = {
@@ -178,18 +178,18 @@ return {
 			bgName = "bg_story_nepu1",
 			hideOther = true,
 			dir = 1,
-			actor = 401191,
+			actor = 401190,
 			actorName = "Z19&Z20&Z21",
 			say = "了解！",
 			subActors = {
 				{
-					actor = 401201,
+					actor = 401200,
 					pos = {
 						x = 370
 					}
 				},
 				{
-					actor = 401211,
+					actor = 401210,
 					pos = {
 						x = 750
 					}
@@ -205,7 +205,7 @@ return {
 			}
 		},
 		{
-			actor = 405021,
+			actor = 405020,
 			nameColor = "#a9f548",
 			bgName = "bg_story_nepu1",
 			side = 2,
@@ -225,7 +225,7 @@ return {
 			side = 0,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 401191,
+			actor = 401190,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -241,7 +241,7 @@ return {
 			}
 		},
 		{
-			actor = 401201,
+			actor = 401200,
 			nameColor = "#a9f548",
 			bgName = "bg_story_nepu1",
 			side = 1,
@@ -257,7 +257,7 @@ return {
 			}
 		},
 		{
-			actor = 405021,
+			actor = 405020,
 			nameColor = "#a9f548",
 			bgName = "bg_story_nepu1",
 			side = 2,
@@ -310,7 +310,7 @@ return {
 			}
 		},
 		{
-			actor = 401201,
+			actor = 401200,
 			nameColor = "#a9f548",
 			bgName = "bg_story_nepu1",
 			side = 2,
@@ -330,7 +330,7 @@ return {
 			side = 0,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 401191,
+			actor = 401190,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -346,7 +346,7 @@ return {
 			}
 		},
 		{
-			actor = 401211,
+			actor = 401210,
 			nameColor = "#a9f548",
 			bgName = "bg_story_nepu1",
 			side = 1,
@@ -362,7 +362,7 @@ return {
 			}
 		},
 		{
-			actor = 401211,
+			actor = 401210,
 			nameColor = "#a9f548",
 			bgName = "bg_story_nepu1",
 			side = 1,
@@ -378,7 +378,7 @@ return {
 			}
 		},
 		{
-			actor = 405021,
+			actor = 405020,
 			nameColor = "#a9f548",
 			bgName = "bg_story_nepu1",
 			side = 1,
@@ -394,7 +394,7 @@ return {
 			}
 		},
 		{
-			actor = 405021,
+			actor = 405020,
 			nameColor = "#a9f548",
 			bgName = "bg_story_nepu1",
 			side = 2,
@@ -414,7 +414,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 405021,
+			actor = 405020,
 			nameColor = "#a9f548",
 			say = "（私…一体……）",
 			flashout = {

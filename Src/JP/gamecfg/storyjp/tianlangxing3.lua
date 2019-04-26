@@ -22,7 +22,7 @@ return {
 			bgmDelay = 2,
 			bgName = "bg_story_task",
 			bgm = "story-1",
-			actor = 202121,
+			actor = 202120,
 			nameColor = "#a9f548",
 			say = "「パーティーにおける振る舞いでメイドと悟らせないためにも、メイドは一体どんな存在なのかを徹底的に再認識する必要があり――",
 			flashout = {
@@ -59,7 +59,7 @@ return {
 			}
 		},
 		{
-			actor = 202121,
+			actor = 202120,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -75,7 +75,7 @@ return {
 			}
 		},
 		{
-			actor = 202121,
+			actor = 202120,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -111,7 +111,7 @@ return {
 			}
 		},
 		{
-			actor = 202201,
+			actor = 202200,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -127,7 +127,7 @@ return {
 			}
 		},
 		{
-			actor = 202121,
+			actor = 202120,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -143,7 +143,7 @@ return {
 			}
 		},
 		{
-			actor = 202121,
+			actor = 202120,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -163,7 +163,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 202201,
+			actor = 202200,
 			nameColor = "#a9f548",
 			say = "よろしくお願いします。…誇らしきご主人様のためなら……！",
 			typewriter = {
@@ -179,7 +179,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 202221,
+			actor = 202220,
 			nameColor = "#a9f548",
 			say = "礼儀作法も合わせて教えないといけませんね",
 			flashout = {
@@ -209,7 +209,7 @@ return {
 			}
 		},
 		{
-			actor = 202211,
+			actor = 202210,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -228,7 +228,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 202081,
+			actor = 202080,
 			nameColor = "#a9f548",
 			say = "……執務室は先に床拭きではなく、棚の収納のほうからやったほうがやりやすいでしょう",
 			flashout = {
@@ -261,14 +261,14 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			bgName = "bg_story_task",
-			actor = 202201,
+			actor = 202200,
 			dir = 1,
 			hideOther = true,
 			actorName = "シリアス&ベルちゃん",
 			say = "なるほど、勉強になりました",
 			subActors = {
 				{
-					actor = 202181,
+					actor = 202180,
 					pos = {
 						x = 750
 					}
@@ -287,7 +287,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 203031,
+			actor = 203030,
 			nameColor = "#a9f548",
 			say = "emm、ケント選手から特に教えることはないかな？",
 			flashout = {
@@ -321,7 +321,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 203041,
+			actor = 203040,
 			nameColor = "#a9f548",
 			say = "メイド長にバレないサボり方なら教えられますよぉ？",
 			typewriter = {
@@ -334,7 +334,7 @@ return {
 			}
 		},
 		{
-			actor = 202121,
+			actor = 202120,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -368,7 +368,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 202201,
+			actor = 202200,
 			nameColor = "#a9f548",
 			say = "………自分の未熟さを思い知らされました…",
 			typewriter = {

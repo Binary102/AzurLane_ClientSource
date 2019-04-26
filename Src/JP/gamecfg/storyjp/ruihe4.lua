@@ -32,7 +32,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 305114,
+			actor = 305110,
 			actorName = "{namecode:82}",
 			say = "良いぞ！その調子で攻撃してこい！",
 			typewriter = {
@@ -50,7 +50,7 @@ return {
 			bgName = "bg_story_nepu1",
 			actorName = "{namecode:96}",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -81,7 +81,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 305114,
+			actor = 305110,
 			actorName = "{namecode:82}",
 			say = "あいた！",
 			typewriter = {
@@ -108,7 +108,7 @@ return {
 			bgName = "bg_story_nepu1",
 			actorName = "{namecode:96}",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -128,7 +128,7 @@ return {
 			side = 1,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 305114,
+			actor = 305110,
 			actorName = "{namecode:82}",
 			say = "う、うむ…それより、見事な爆撃だ！特訓を始めた頃と比べると素晴らしい進歩だぞ！",
 			typewriter = {
@@ -145,7 +145,7 @@ return {
 			side = 0,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			say = "ありがとうございます！…指揮官、今のどうだ！",
 			typewriter = {
@@ -170,7 +170,7 @@ return {
 			side = 0,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			say = "…あははは！いいよいいよ別にそんなに褒めなくても～！よし、これで「グレイゴースト」に一歩近づけたはず！",
 			typewriter = {
@@ -187,7 +187,7 @@ return {
 			side = 0,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			say = "そして、今度こそみんなと翔鶴姉を守ってみせる…！",
 			typewriter = {
@@ -204,7 +204,7 @@ return {
 			side = 0,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			say = "……今度出撃のとき、私とグレイゴーストを一緒に組ませて！絶対MVP取ってみせるんだから！",
 			typewriter = {
@@ -231,7 +231,7 @@ return {
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			actorName = "{namecode:82}",
-			actor = 305114,
+			actor = 305110,
 			nameColor = "#a9f548",
 			say = "指揮官、ちょっと良いか？",
 			flashout = {
@@ -265,7 +265,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 305114,
+			actor = 305110,
 			actorName = "{namecode:82}",
 			say = "瑞鶴はああ見えても、とことん自分の「役目」を作りたがる――言い換えれば、自分を追い詰める性格だ。",
 			typewriter = {
@@ -282,7 +282,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 305114,
+			actor = 305110,
 			actorName = "{namecode:82}",
 			say = "ただグレイゴーストを超えるだけでなく、翔鶴や重桜の同胞、母港の仲間たち、人類の世界、そして指揮官、お主も――なんでもひとりで背負おうとする。",
 			typewriter = {
@@ -299,7 +299,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 305114,
+			actor = 305110,
 			actorName = "{namecode:82}",
 			say = "指揮官、あの子の大先輩として…部下ではなくひとりの個人として頼みたい――",
 			typewriter = {
@@ -316,7 +316,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 305114,
+			actor = 305110,
 			actorName = "{namecode:82}",
 			say = "もしあの子がすべてを背負いきれなくなったら……その時は指揮官、お主が側で一緒に支えてあげて欲しい。",
 			typewriter = {
@@ -347,7 +347,7 @@ return {
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			blackBg = true,
-			actor = 305114,
+			actor = 305110,
 			nameColor = "#a9f548",
 			say = "……ふふ、お主の答え、しかと聞いたぞ。瑞鶴のこと、よろしく頼むよ。",
 			typewriter = {

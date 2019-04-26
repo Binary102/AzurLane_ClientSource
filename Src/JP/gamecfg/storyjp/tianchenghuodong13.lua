@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 303091,
+			actor = 303090,
 			side = 1,
 			dir = -1,
 			bgm = "story-6",
@@ -17,7 +17,7 @@ return {
 			subActors = {
 				{
 					dir = 1,
-					actor = 304051,
+					actor = 304050,
 					pos = {
 						x = 687
 					}
@@ -37,13 +37,13 @@ return {
 			side = 0,
 			hideOther = true,
 			dir = -1,
-			actor = 304051,
+			actor = 304050,
 			nameColor = "#a9f548",
 			say = "…鳳翔さんは全機無事帰還してほしいと願っていましたわね……困ります……",
 			subActors = {
 				{
 					dir = 1,
-					actor = 303091,
+					actor = 303090,
 					pos = {
 						x = -687
 					}
@@ -63,7 +63,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
-			actor = 304051,
+			actor = 304050,
 			say = "連絡が途絶えた原因はセイレーンに撃墜された可能性が高いでしょう。ほかの方向に加賀がいる痕跡が見当たらない以上9時方向に進むしかありませんね",
 			typewriter = {
 				speed = 0.05,
@@ -78,7 +78,7 @@ return {
 			expression = 2,
 			side = 1,
 			dir = 1,
-			actor = 302141,
+			actor = 302140,
 			nameColor = "#a9f548",
 			say = "天城さん、たた、大変です！",
 			typewriter = {
@@ -101,7 +101,7 @@ return {
 			}
 		},
 		{
-			actor = 304051,
+			actor = 304050,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -119,7 +119,7 @@ return {
 			expression = 1,
 			side = 1,
 			dir = 1,
-			actor = 302141,
+			actor = 302140,
 			nameColor = "#a9f548",
 			say = "え、ええと…空から結構な数の機影が接近しています！",
 			typewriter = {
@@ -142,7 +142,7 @@ return {
 			}
 		},
 		{
-			actor = 304051,
+			actor = 304050,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -161,7 +161,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
-			actor = 304051,
+			actor = 304050,
 			say = "空母型のセイレーンがいるのはほぼ確実…全艦、対空態勢に移行してください！",
 			typewriter = {
 				speed = 0.05,
@@ -177,7 +177,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
-			actor = 302141,
+			actor = 302140,
 			say = "た、対空態勢ですか？",
 			typewriter = {
 				speed = 0.05,
@@ -193,7 +193,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
-			actor = 304051,
+			actor = 304050,
 			say = "ええ、之字運動にして、副砲の仰角を最大仰角に上げて飛んでくるものを撃ち落としてください",
 			typewriter = {
 				speed = 0.05,
@@ -208,7 +208,7 @@ return {
 			expression = 1,
 			side = 1,
 			dir = 1,
-			actor = 302141,
+			actor = 302140,
 			nameColor = "#a9f548",
 			say = "は、はい！那珂、頑張っちゃいます！",
 			typewriter = {

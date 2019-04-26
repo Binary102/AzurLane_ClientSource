@@ -47,7 +47,7 @@ return {
 			}
 		},
 		{
-			actor = 206031,
+			actor = 206030,
 			side = 2,
 			nameColor = "#a9f548",
 			say = "指揮官からの呼び出し…お兄ちゃんは、ユニコーンに何か用なの…？",
@@ -78,7 +78,7 @@ return {
 			}
 		},
 		{
-			actor = 206031,
+			actor = 206030,
 			nameColor = "#a9f548",
 			side = 2,
 			say = "でも…お兄ちゃんに呼んでもらえるだけでも…嬉しい…えへへ…",
@@ -123,7 +123,7 @@ return {
 			}
 		},
 		{
-			actor = 206031,
+			actor = 206030,
 			side = 2,
 			nameColor = "#a9f548",
 			say = "ユニコーン…入るよ？ユニコーンになにか用？お兄ちゃん？",
@@ -157,7 +157,7 @@ return {
 			side = 0,
 			bgName = "bg_story_star0",
 			bgspeed = 2,
-			actor = 105031,
+			actor = 105030,
 			mode = 3,
 			withoutPainting = true,
 			flashout = {
@@ -183,7 +183,7 @@ return {
 			}
 		},
 		{
-			actor = 206031,
+			actor = 206030,
 			side = 2,
 			nameColor = "#a9f548",
 			say = "チケット……？",
@@ -214,7 +214,7 @@ return {
 			}
 		},
 		{
-			actor = 206031,
+			actor = 206030,
 			nameColor = "#a9f548",
 			side = 2,
 			say = "らーいーぶ？よくわからないけど……",
@@ -243,7 +243,7 @@ return {
 			}
 		},
 		{
-			actor = 206031,
+			actor = 206030,
 			nameColor = "#a9f548",
 			side = 2,
 			say = "お兄ちゃんと……一緒に？",
@@ -257,7 +257,7 @@ return {
 			}
 		},
 		{
-			actor = 206031,
+			actor = 206030,
 			nameColor = "#a9f548",
 			side = 2,
 			say = "サラトガちゃんたちがよく言ってる……「らいぶ」…なの？",
@@ -271,7 +271,7 @@ return {
 			}
 		},
 		{
-			actor = 206031,
+			actor = 206030,
 			nameColor = "#a9f548",
 			side = 2,
 			say = "えへへ……お兄ちゃんと一緒にお出かけ…ユニコーン……楽しみ♪",

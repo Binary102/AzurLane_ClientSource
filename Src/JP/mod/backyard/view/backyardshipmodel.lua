@@ -7,16 +7,6 @@ slot4 = {
 		"tuozhuai2",
 		1.4,
 		39126
-	},
-	{
-		"walk",
-		1.5,
-		100005
-	},
-	{
-		"dance",
-		10,
-		100005
 	}
 }
 
@@ -39,8 +29,6 @@ function slot0.Ctor(slot0, slot1, slot2)
 		slot0.bodyMask:SetSiblingIndex(0)
 		SetActive(slot0, false)
 	end, true, true)
-
-	slot0.timer = {}
 end
 
 function slot0.updateBoatVO(slot0, slot1)
@@ -643,17 +631,10 @@ function slot0.playAnimsFollowFurniture(slot0, slot1)
 			end
 
 			if slot4.roles[1] then
-				if slot0[slot0][3] then
-					slot4.roles[1]:SetAction(slot0[slot0][3], 0)
-				else
-					slot4.roles[1]:SetAction(slot1, 0)
-				end
+				slot4.roles[1]:SetAction(slot1, 0)
 			end
 
-			slot1:SetAction(slot1, 0)
-
 			if slot4.roles[3] then
-				print(slot1)
 				slot4.roles[3]:SetAction(slot1, 0)
 			end
 
@@ -661,6 +642,7 @@ function slot0.playAnimsFollowFurniture(slot0, slot1)
 				slot4.bodyMask:GetComponent(typeof(Image)).enabled = not slot0[slot0][2]
 			end
 
+			slot1:SetAction(slot1, 0)
 			slot4:callActionCB("update", slot1)
 		end
 	end
@@ -734,7 +716,11 @@ function slot0.callActionCB(slot0, slot1, slot2)
 end
 
 function slot0.resumeAnim(slot0)
-	slot0:playAnimsFollowFurniture(slot0.spineFurniture)
+	if slot0.spineFurniture:isFollowFurnitrueAnim() then
+		slot0:playAnimsFollowFurniture(slot1)
+	else
+		slot0:playAnims(slot1)
+	end
 
 	return
 end
@@ -743,64 +729,27 @@ function slot0.playAnims(slot0, slot1)
 	slot2 = slot1:getSpineAnims()
 	slot3 = nil
 	slot4 = 0
-	slot5 = nil
 
-	function slot6(slot0, slot1, slot2)
-		if type(slot0[slot0][1]) == "table" then
-			slot3 = slot3[math.random(1, #slot3)]
-		end
-
-		if slot2 == 1 and slot0[slot0][3] then
-			slot3 = slot0[slot0][3]
-		end
-
-		slot1:SetAction(slot3, 0)
-
-		if _.detect(slot1, function (slot0)
-			return slot0[1] == slot0 and slot1.id == slot0[3]
-		end) then
-			slot5 = slot4[2]
-
-			if slot3.timer[slot1] then
-				slot3.timer[slot1]:Stop()
-
-				slot3.timer[slot1] = nil
-			end
-
-			slot3.timer[slot1] = Timer.New(function ()
-				slot0.timer[slot1]:Stop()
-
-				slot0.timer[slot1].Stop.timer[slot0.timer[slot1]] = nil
-
-				slot3(slot0.timer[slot1], slot2 + 1, slot4)
-
-				return
-			end, slot5, 1)
-
-			slot3.timer[slot1]:Start()
-		end
-
-		return
-	end
-
-	function slot5(slot0, slot1, slot2)
+	function slot5(slot0, slot1)
 		if slot1 > #slot0 then
 			slot1 = slot1 + 1
 
 			slot0:SetActionCallBack(nil)
 
-			slot3, slot4 = slot2:isLoopSpineInterAction()
+			slot2, slot3 = slot0.SetActionCallBack:isLoopSpineInterAction()
 
-			if not slot3 then
+			if not slot2 then
 				slot0:SetAction(slot3:getSpineNormalAction(slot0), 0)
 			end
 
 			if slot1 == #slot3.roles then
-				if slot3 then
-					if slot4 == BackyardFurnitureVO.INTERACTION_LOOP_TYPE_ALL then
+				if slot2 then
+					slot3:callActionCB("end")
+
+					if slot3 == BackyardFurnitureVO.INTERACTION_LOOP_TYPE_ALL then
 						slot4()
 					else
-						if slot4 == BackyardFurnitureVO.INTERACTION_LOOP_TYPE_LAST_ONE and slot2:hasAnimator() then
+						if slot3 == BackyardFurnitureVO.INTERACTION_LOOP_TYPE_LAST_ONE and slot2:hasAnimator() then
 							slot3:endSpineAnimator(slot2)
 							slot3:setSpineAnimtorParent(slot2)
 						end
@@ -819,24 +768,67 @@ function slot0.playAnims(slot0, slot1)
 				end
 			end
 		else
-			slot5(slot1, slot0, slot2)
+			slot3:callActionCB("update", slot0[slot1][1])
+			slot0:SetAction(slot0[slot1][1], 0)
 		end
 
 		return
 	end
 
+	slot0.timer = {}
+
 	function ()
-		slot0 = 0
+		if slot0:hasAnimator() then
+			slot1:endSpineAnimator(slot1.endSpineAnimator)
+			slot1:startSpineAnimator(slot1.startSpineAnimator)
+		end
+
+		slot2 = 0
 
 		for slot3, slot4 in pairs(slot1.roles) do
-			slot2(slot5, slot4, slot3)
-			slot4:SetActionCallBack(function (slot0)
-				if slot0 == "finish" then
-					slot0 + 1(slot2, slot0 + 1, )
+			if type(slot3[1][1]) == "table" then
+				slot6 = slot6[math.random(1, #slot6)]
+			end
+
+			if slot3 == 1 and slot3[slot5][3] then
+				slot4:SetAction(slot3[slot5][3], 0)
+			else
+				slot4:SetAction(slot6, 0)
+			end
+
+			slot1:callActionCB("update", slot6)
+
+			if _.detect(slot4, function (slot0)
+				return slot0[1] == slot0 and slot1.id == slot0[3]
+			end) then
+				slot8 = slot7[2]
+
+				if slot1.timer[slot4] then
+					slot1.timer[slot4]:Stop()
+
+					slot1.timer[slot4] = nil
 				end
 
-				return
-			end)
+				slot1.timer[slot4] = Timer.New(function ()
+					slot0.timer[slot1]:Stop()
+
+					slot0.timer[slot1].Stop.timer[slot0.timer[slot1]] = nil
+
+					slot3(slot0.timer[slot1], slot2 + 1)
+
+					return
+				end, slot8, 1)
+
+				slot1.timer[slot4]:Start()
+			else
+				slot4:SetActionCallBack(function (slot0)
+					if slot0 == "finish" then
+						slot0 + 1(slot2, slot0 + 1)
+					end
+
+					return
+				end)
+			end
 		end
 
 		return
@@ -1017,12 +1009,6 @@ function slot0.clearSpineInteraction(slot0, slot1)
 	slot0.print("clear spine interaction.............")
 
 	for slot5, slot6 in pairs(slot0.roles) do
-		if slot0.timer[slot6] then
-			slot0.timer[slot6]:Stop()
-
-			slot0.timer[slot6] = nil
-		end
-
 		slot6:SetActionCallBack(nil)
 		slot6:SetAction(slot0:getSpineNormalAction(slot6), 0)
 
@@ -1434,7 +1420,11 @@ function slot0.addSpineExtra(slot0, slot1, slot2)
 	slot0.tf.localScale = Vector3(slot0 * slot5[3][1], slot0 * slot5[3][2], 1)
 	slot0.tf.anchoredPosition = Vector3(slot5[2][1], slot5[2][2], 0)
 
-	if slot0.viewComponent.furnitureVOs[slot1]:getSpineExtraBodyMask(slot2) ~= nil and #slot6 > 0 then
+	if slot0.viewComponent.furnitureVOs[slot1]:hasAnimator() then
+		slot0:startSpineAnimator(slot4, slot2)
+	end
+
+	if slot4:getSpineExtraBodyMask(slot2) ~= nil and #slot6 > 0 then
 		slot0:showBodyMask(slot6)
 	end
 

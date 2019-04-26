@@ -56,7 +56,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -76,7 +76,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			withoutActorName = true,
-			actor = 312011,
+			actor = 312010,
 			nameColor = "#a9f548",
 			say = "やはりか……",
 			typewriter = {
@@ -89,7 +89,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -109,7 +109,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			withoutActorName = true,
-			actor = 312011,
+			actor = 312010,
 			nameColor = "#a9f548",
 			say = "もっと早く気づけばよかった。",
 			typewriter = {
@@ -122,7 +122,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -138,7 +138,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -158,7 +158,7 @@ return {
 			side = 1,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 301181,
+			actor = 301180,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -187,7 +187,7 @@ return {
 			side = 0,
 			bgName = "bg_story_room",
 			dir = -1,
-			actor = 312011,
+			actor = 312010,
 			nameColor = "#a9f548",
 			say = "病人はおとなしく横になるにゃ！ぬいぬいは無理をしすぎだにゃ！",
 			typewriter = {
@@ -210,7 +210,7 @@ return {
 			}
 		},
 		{
-			actor = 301181,
+			actor = 301180,
 			side = 1,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -226,7 +226,7 @@ return {
 			}
 		},
 		{
-			actor = 301181,
+			actor = 301180,
 			side = 1,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -252,7 +252,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -272,7 +272,7 @@ return {
 			side = 1,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 301181,
+			actor = 301180,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -292,7 +292,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			withoutActorName = true,
-			actor = 301181,
+			actor = 301180,
 			nameColor = "#a9f548",
 			say = "とにかく、大変なことにならなくてよかった。",
 			typewriter = {
@@ -311,7 +311,7 @@ return {
 			}
 		},
 		{
-			actor = 301181,
+			actor = 301180,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -327,7 +327,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -357,7 +357,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			blackBg = true,
-			actor = 301181,
+			actor = 301180,
 			nameColor = "#a9f548",
 			say = "はあ……やはり大うつけ者でございますね",
 			typewriter = {

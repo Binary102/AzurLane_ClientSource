@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			actor = 202201,
+			actor = 202200,
 			nameColor = "#a9f548",
 			say = "ネルソン様、ロドニー様、よろしくお願いいたします",
 			flashout = {
@@ -52,7 +52,7 @@ return {
 			}
 		},
 		{
-			actor = 205031,
+			actor = 205030,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -68,7 +68,7 @@ return {
 			}
 		},
 		{
-			actor = 205041,
+			actor = 205040,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -98,7 +98,7 @@ return {
 			}
 		},
 		{
-			actor = 205031,
+			actor = 205030,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -114,7 +114,7 @@ return {
 			}
 		},
 		{
-			actor = 202201,
+			actor = 202200,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -134,7 +134,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 202201,
+			actor = 202200,
 			nameColor = "#a9f548",
 			say = "参加者の身辺調査が一通り終わっており、警備状況の不備や緊急時の脱出経路の洗い出しも9割完了しています",
 			typewriter = {
@@ -151,7 +151,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 202201,
+			actor = 202200,
 			nameColor = "#a9f548",
 			say = "ご主人様のためのパーティー用の小物、車での母港との連絡手段の設置、スペアのお召し物、飲酒に備えた常備薬も手配済みです",
 			typewriter = {
@@ -178,7 +178,7 @@ return {
 			}
 		},
 		{
-			actor = 205031,
+			actor = 205030,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -197,7 +197,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 202201,
+			actor = 202200,
 			nameColor = "#a9f548",
 			say = "ほかに準備不足なところがございましたら何卒ご教示くださいませ（ペコリ",
 			typewriter = {
@@ -220,7 +220,7 @@ return {
 			}
 		},
 		{
-			actor = 205041,
+			actor = 205040,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -239,7 +239,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 205041,
+			actor = 205040,
 			nameColor = "#a9f548",
 			say = "こんな感じですね。そういえば大事なことを忘れていましたけど…ドレスはどうします？",
 			flashout = {
@@ -273,7 +273,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 202201,
+			actor = 202200,
 			nameColor = "#a9f548",
 			say = "あっ………",
 			typewriter = {
@@ -289,7 +289,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 205031,
+			actor = 205030,
 			nameColor = "#a9f548",
 			say = "やっぱりね……イラストリアスたちと明石に聞いておくわ。色々スタイルが近いしもしかしたらすぐ用意できるかも",
 			typewriter = {
@@ -312,7 +312,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 202201,
+			actor = 202200,
 			nameColor = "#a9f548",
 			say = "ネルソン様、誇らしきご主人様、ありがとうございます！",
 			typewriter = {

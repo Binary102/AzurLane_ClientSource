@@ -108,7 +108,7 @@ return {
 			}
 		},
 		{
-			actor = 401461,
+			actor = 401460,
 			side = 2,
 			bgName = "bg_story_task",
 			say = "先程の戦闘の報告書……確認すること、忘れることなかれよう。",
@@ -134,7 +134,7 @@ return {
 			}
 		},
 		{
-			actor = 401461,
+			actor = 401460,
 			side = 2,
 			bgName = "bg_story_task",
 			say = "弾薬を使い切るまで、最大限に努力した。敵も自我があればさぞかし勝ち誇っただろう。",
@@ -160,7 +160,7 @@ return {
 			}
 		},
 		{
-			actor = 401461,
+			actor = 401460,
 			side = 2,
 			bgName = "bg_story_task",
 			say = "得られる戦果を十分に手に入れようとしたのだ。事実、撤退した場合より、敵に与えた損害は大きかっただろう。",
@@ -186,7 +186,7 @@ return {
 			}
 		},
 		{
-			actor = 401461,
+			actor = 401460,
 			side = 2,
 			bgName = "bg_story_task",
 			say = "秘書艦の執務に勤めているとはいえ、私は兵器である。戦うためだけの存在に変わりはない。",
@@ -200,7 +200,7 @@ return {
 			}
 		},
 		{
-			actor = 401461,
+			actor = 401460,
 			side = 2,
 			bgName = "bg_story_task",
 			say = "「フィーゼ」という存在の前に、かの大戦で設計され、期待されていた「Z46」である。",

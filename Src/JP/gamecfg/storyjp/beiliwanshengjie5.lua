@@ -46,7 +46,7 @@ return {
 			}
 		},
 		{
-			actor = 900138,
+			actor = 101271,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -66,7 +66,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 900137,
+			actor = 302051,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -86,7 +86,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 900137,
+			actor = 302051,
 			nameColor = "#a9f548",
 			say = "ううぅ…暗い……なんか出てきそう……",
 			typewriter = {
@@ -113,7 +113,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 900138,
+			actor = 101271,
 			nameColor = "#a9f548",
 			say = "お化けさーん！はやく……うん？これは…棺？",
 			typewriter = {
@@ -130,7 +130,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 900137,
+			actor = 302051,
 			nameColor = "#a9f548",
 			say = "うにゃああ！？ひ、棺！？",
 			typewriter = {
@@ -156,7 +156,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 900138,
+			actor = 101271,
 			nameColor = "#a9f548",
 			say = "なんか怪しいから開けるよ！えい！",
 			typewriter = {
@@ -183,7 +183,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 900140,
+			actor = 205031,
 			nameColor = "#a9f548",
 			say = "ベイリーちゃん、ちょっと――",
 			typewriter = {
@@ -200,7 +200,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 900139,
+			actor = 213021,
 			nameColor = "#a9f548",
 			say = "ぐ、ぐえええええ～",
 			typewriter = {
@@ -226,7 +226,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 900137,
+			actor = 302051,
 			nameColor = "#a9f548",
 			say = "うにゃあああああああ！？！？（パタン",
 			typewriter = {
@@ -253,7 +253,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 900138,
+			actor = 101271,
 			nameColor = "#a9f548",
 			say = "おお！なんか出てきた！",
 			typewriter = {
@@ -266,7 +266,7 @@ return {
 			}
 		},
 		{
-			actor = 900140,
+			actor = 205031,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -282,7 +282,7 @@ return {
 			}
 		},
 		{
-			actor = 900139,
+			actor = 213021,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -302,7 +302,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 900137,
+			actor = 302051,
 			nameColor = "#a9f548",
 			say = "こ、怖かったよぉ……",
 			typewriter = {
@@ -319,7 +319,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 900140,
+			actor = 205031,
 			nameColor = "#a9f548",
 			say = "…なんでテラーは棺の中にいたの？",
 			typewriter = {
@@ -332,7 +332,7 @@ return {
 			}
 		},
 		{
-			actor = 900140,
+			actor = 205031,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -352,7 +352,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 900139,
+			actor = 213021,
 			nameColor = "#a9f548",
 			say = "テラー、言えません。秘密にするって約束しました……",
 			typewriter = {
@@ -368,7 +368,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 900138,
+			actor = 101271,
 			nameColor = "#a9f548",
 			say = "あ！みんな、あそこ！",
 			typewriter = {
@@ -395,7 +395,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 900137,
+			actor = 302051,
 			nameColor = "#a9f548",
 			say = "うにゃ！？幽霊！？…違う！あれは例のお化けさん！？",
 			typewriter = {
@@ -422,7 +422,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 900140,
+			actor = 205031,
 			nameColor = "#a9f548",
 			say = "一体誰よ！？",
 			typewriter = {
@@ -435,7 +435,7 @@ return {
 			}
 		},
 		{
-			actor = 900138,
+			actor = 101271,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -455,7 +455,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 900139,
+			actor = 213021,
 			nameColor = "#a9f548",
 			say = "ま、待って…この「飛べるホウキ」を持っていってください……",
 			typewriter = {
@@ -472,7 +472,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 900138,
+			actor = 101271,
 			nameColor = "#a9f548",
 			say = "ありがとう！いち、にーのさん…よーし、みんなホウキは持ったな～",
 			typewriter = {
@@ -488,7 +488,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 900138,
+			actor = 101271,
 			nameColor = "#a9f548",
 			say = "ウサウサからは逃げられないよ～ベイリー、発進！",
 			typewriter = {
@@ -515,7 +515,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			actor = 900137,
+			actor = 302051,
 			nameColor = "#a9f548",
 			say = "ベイリーちゃん、待ってよぉ……",
 			typewriter = {

@@ -10,7 +10,7 @@ function AiriCheckPreAudit()
 	return NetConst.GATEWAY_PORT == 50001 and NetConst.GATEWAY_HOST == "staging.azurlane.jp"
 end
 
-AIRI_APP_URL = "http://jp-pp1.azurlane.jp:8080/"
+AIRI_APP_URL = "https://azurapi.yostar.co.jp/"
 AIRI_PREAUDIT_URL = "http://test.sdk.azurlane.jp:8080/"
 
 function AiriInit(slot0)

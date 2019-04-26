@@ -49,7 +49,7 @@ return {
 		},
 		{
 			side = 2,
-			actor = 206031,
+			actor = 206030,
 			nameColor = "#a9f548",
 			say = "ユニコーン……分からない……",
 			flashout = {
@@ -83,7 +83,7 @@ return {
 			}
 		},
 		{
-			actor = 206031,
+			actor = 206030,
 			nameColor = "#a9f548",
 			side = 2,
 			say = "あの時のお兄ちゃん……とっても輝いていた……",
@@ -101,7 +101,7 @@ return {
 			}
 		},
 		{
-			actor = 206031,
+			actor = 206030,
 			nameColor = "#a9f548",
 			side = 2,
 			say = "ユニコーン……なんか悔しい……",
@@ -119,7 +119,7 @@ return {
 			}
 		},
 		{
-			actor = 206031,
+			actor = 206030,
 			nameColor = "#a9f548",
 			side = 2,
 			say = "ううん、違う…ユニコーンは…指揮官…お兄ちゃんを喜ばせてあげたいだけ……",
@@ -137,7 +137,7 @@ return {
 			}
 		},
 		{
-			actor = 206031,
+			actor = 206030,
 			nameColor = "#a9f548",
 			side = 2,
 			say = "でも……どうやって……",
@@ -155,7 +155,7 @@ return {
 			}
 		},
 		{
-			actor = 206031,
+			actor = 206030,
 			nameColor = "#a9f548",
 			side = 2,
 			say = "星の…歌姫さま？うん……あのおねえちゃんも……輝いていた……",
@@ -173,7 +173,7 @@ return {
 			}
 		},
 		{
-			actor = 206031,
+			actor = 206030,
 			nameColor = "#a9f548",
 			side = 2,
 			say = "お兄ちゃん……「きくはいっときのはじ」って言ってた……",
@@ -191,7 +191,7 @@ return {
 			}
 		},
 		{
-			actor = 206031,
+			actor = 206030,
 			nameColor = "#a9f548",
 			side = 2,
 			say = "ユニコーン……手紙であのお姉ちゃんに聞く…！",

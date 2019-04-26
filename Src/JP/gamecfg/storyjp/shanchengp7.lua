@@ -22,7 +22,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			bgm = "story-1",
-			actor = 305014,
+			actor = 305010,
 			actorName = "{namecode:78}",
 			say = "山城～指揮官様～大丈夫ですか～？",
 			typewriter = {
@@ -39,7 +39,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 305014,
+			actor = 305010,
 			actorName = "{namecode:78}",
 			say = "あら。……うふふ",
 			typewriter = {
@@ -57,7 +57,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 305024,
+			actor = 305020,
 			actorName = "{namecode:79}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -87,7 +87,7 @@ return {
 			side = 0,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 305014,
+			actor = 305010,
 			actorName = "{namecode:78}",
 			say = "ふう…雨が降り始めても戻ってこなかったから、傘を届けに来たけど……",
 			typewriter = {
@@ -104,7 +104,7 @@ return {
 			side = 0,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 305014,
+			actor = 305010,
 			actorName = "{namecode:78}",
 			say = "この様子だと傘はもう要らないみたいですね♪",
 			typewriter = {
@@ -121,7 +121,7 @@ return {
 			side = 1,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 305024,
+			actor = 305020,
 			actorName = "{namecode:79}",
 			say = "もう姉さまったら！でもありがとう！",
 			typewriter = {
@@ -138,7 +138,7 @@ return {
 			side = 1,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 305024,
+			actor = 305020,
 			actorName = "{namecode:79}",
 			say = "……うん？あれは？……虹だ！姉さま、殿様、虹ですよ！",
 			typewriter = {
@@ -175,7 +175,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 305024,
+			actor = 305020,
 			actorName = "{namecode:79}",
 			say = "殿様、さっきひとつだけ言い忘れていたことがあります。",
 			typewriter = {
@@ -192,7 +192,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 305024,
+			actor = 305020,
 			actorName = "{namecode:79}",
 			say = "私は今、とても幸せです！",
 			typewriter = {
@@ -209,7 +209,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 305024,
+			actor = 305020,
 			actorName = "{namecode:79}",
 			say = "だってここには仲間がいっぱいいて、扶桑姉さまと、大好きな殿様もいますから！",
 			typewriter = {
@@ -256,7 +256,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 305024,
+			actor = 305020,
 			actorName = "{namecode:79}",
 			say = "だから――今日も明日も、幸せな晴れです！",
 			typewriter = {
@@ -274,7 +274,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			blackBg = true,
-			actor = 305024,
+			actor = 305020,
 			actorName = "{namecode:79}",
 			say = "ね？殿様♪",
 			typewriter = {

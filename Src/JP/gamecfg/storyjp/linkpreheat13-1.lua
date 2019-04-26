@@ -9,7 +9,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgm = "level-uta",
-			actor = 10300041,
+			actor = 10300040,
 			nameColor = "#a9f548",
 			say = "──わたしがやる",
 			flashin = {
@@ -31,7 +31,7 @@ return {
 			}
 		},
 		{
-			actor = 10300051,
+			actor = 10300050,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -54,7 +54,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			actor = 10300011,
+			actor = 10300010,
 			say = "え？双子で一緒に行けばいいんじゃないかな？",
 			typewriter = {
 				speed = 0.05,
@@ -66,7 +66,7 @@ return {
 			}
 		},
 		{
-			actor = 301051,
+			actor = 301050,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -85,7 +85,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			actor = 10300041,
+			actor = 10300040,
 			say = "ダメ、一人がいい",
 			typewriter = {
 				speed = 0.05,
@@ -101,7 +101,7 @@ return {
 			side = 1,
 			say = "なるほど……一人で派手に暴れることで、敵の目を引きつけようというわけですね",
 			dir = 1,
-			actor = 10300051,
+			actor = 10300050,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -117,7 +117,7 @@ return {
 			}
 		},
 		{
-			actor = 201211,
+			actor = 201210,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -132,7 +132,7 @@ return {
 			}
 		},
 		{
-			actor = 101171,
+			actor = 101170,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -147,7 +147,7 @@ return {
 			}
 		},
 		{
-			actor = 10300041,
+			actor = 10300040,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -166,7 +166,7 @@ return {
 			side = 1,
 			say = "遠距離から大火力で敵を引きつける。その隙に作戦遂行を……とのことです、明石さん",
 			dir = 1,
-			actor = 10300051,
+			actor = 10300050,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -182,7 +182,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -197,7 +197,7 @@ return {
 			}
 		},
 		{
-			actor = 10300041,
+			actor = 10300040,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,

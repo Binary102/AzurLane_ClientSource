@@ -53,7 +53,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			actor = 205011,
+			actor = 205010,
 			nameColor = "#a9f548",
 			say = "う、嘘！？",
 			typewriter = {
@@ -76,7 +76,7 @@ return {
 			}
 		},
 		{
-			actor = 205021,
+			actor = 205020,
 			side = 2,
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
@@ -95,7 +95,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			actor = 205011,
+			actor = 205010,
 			nameColor = "#a9f548",
 			say = "あれはメイド隊のシリアス…！？",
 			typewriter = {
@@ -160,7 +160,7 @@ return {
 			}
 		},
 		{
-			actor = 900178,
+			actor = 202201,
 			side = 2,
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
@@ -180,7 +180,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			actor = 900178,
+			actor = 202201,
 			nameColor = "#a9f548",
 			say = "シリアスの勉強の成果、何卒ご覧になってくださいませ",
 			typewriter = {
@@ -197,7 +197,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			actor = 900178,
+			actor = 202201,
 			nameColor = "#a9f548",
 			say = "誇らしきご主人様――それでは一緒に踊りましょう",
 			typewriter = {
@@ -221,7 +221,7 @@ return {
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "story-6",
-			actor = 205021,
+			actor = 205020,
 			nameColor = "#a9f548",
 			say = "陛下！セイレーンの艦載機が周辺海域に接近しています！",
 			flashout = {
@@ -254,7 +254,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			actor = 205011,
+			actor = 205010,
 			nameColor = "#a9f548",
 			say = "ふん！私が参加するパーティーを邪魔立てするとはいい度胸ね！待機しているメイド隊を召集してそいつらをさっさと退治しなさい！",
 			typewriter = {
@@ -281,7 +281,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			actor = 900178,
+			actor = 202201,
 			nameColor = "#a9f548",
 			say = "……こちらから直行するのが一番早いと思われます",
 			typewriter = {
@@ -294,7 +294,7 @@ return {
 			}
 		},
 		{
-			actor = 900178,
+			actor = 202201,
 			side = 2,
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
@@ -338,7 +338,7 @@ return {
 			}
 		},
 		{
-			actor = 900178,
+			actor = 202201,
 			side = 2,
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
@@ -359,7 +359,7 @@ return {
 			bgName = "star_level_bg_107",
 			dir = 1,
 			blackBg = true,
-			actor = 900178,
+			actor = 202201,
 			nameColor = "#a9f548",
 			say = "――御身の望むよう、輝いてみせます",
 			typewriter = {

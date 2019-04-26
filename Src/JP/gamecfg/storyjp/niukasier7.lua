@@ -59,7 +59,7 @@ return {
 			dir = 1,
 			bgmDelay = 0.2,
 			bgm = "story-2",
-			actor = 202191,
+			actor = 202190,
 			nameColor = "#a9f548",
 			say = "「私自身がどうなろうと、それこそ些細なことです」",
 			typewriter = {
@@ -82,7 +82,7 @@ return {
 			}
 		},
 		{
-			actor = 202191,
+			actor = 202190,
 			side = 2,
 			bgName = "star_level_bg_105",
 			nameColor = "#a9f548",
@@ -98,7 +98,7 @@ return {
 			}
 		},
 		{
-			actor = 202191,
+			actor = 202190,
 			side = 2,
 			bgName = "star_level_bg_105",
 			nameColor = "#a9f548",
@@ -114,7 +114,7 @@ return {
 			}
 		},
 		{
-			actor = 202191,
+			actor = 202190,
 			side = 2,
 			bgName = "star_level_bg_105",
 			nameColor = "#a9f548",
@@ -130,7 +130,7 @@ return {
 			}
 		},
 		{
-			actor = 202191,
+			actor = 202190,
 			side = 2,
 			bgName = "star_level_bg_105",
 			dir = 1,
@@ -150,7 +150,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_105",
 			withoutActorName = true,
-			actor = 202191,
+			actor = 202190,
 			say = "彼女が「平穏」を愛するというのなら、仲間たちの「平穏」を守ってくれるはず。",
 			typewriter = {
 				speed = 0.05,
@@ -168,7 +168,7 @@ return {
 			}
 		},
 		{
-			actor = 202191,
+			actor = 202190,
 			side = 2,
 			bgName = "star_level_bg_105",
 			nameColor = "#a9f548",
@@ -184,7 +184,7 @@ return {
 			}
 		},
 		{
-			actor = 202191,
+			actor = 202190,
 			side = 2,
 			bgName = "star_level_bg_105",
 			nameColor = "#a9f548",
@@ -200,7 +200,7 @@ return {
 			}
 		},
 		{
-			actor = 202191,
+			actor = 202190,
 			side = 2,
 			bgName = "star_level_bg_105",
 			nameColor = "#a9f548",
@@ -226,7 +226,7 @@ return {
 			}
 		},
 		{
-			actor = 202191,
+			actor = 202190,
 			side = 2,
 			bgName = "star_level_bg_105",
 			nameColor = "#a9f548",
@@ -242,7 +242,7 @@ return {
 			}
 		},
 		{
-			actor = 202191,
+			actor = 202190,
 			side = 2,
 			bgName = "star_level_bg_105",
 			nameColor = "#a9f548",
@@ -258,7 +258,7 @@ return {
 			}
 		},
 		{
-			actor = 202191,
+			actor = 202190,
 			side = 2,
 			bgName = "star_level_bg_105",
 			dir = 1,
@@ -274,7 +274,7 @@ return {
 			}
 		},
 		{
-			actor = 202191,
+			actor = 202190,
 			side = 2,
 			bgName = "star_level_bg_105",
 			dir = 1,
@@ -290,7 +290,7 @@ return {
 			}
 		},
 		{
-			actor = 202191,
+			actor = 202190,
 			side = 2,
 			bgName = "star_level_bg_105",
 			dir = 1,
@@ -310,7 +310,7 @@ return {
 			bgName = "star_level_bg_105",
 			dir = 1,
 			blackBg = true,
-			actor = 202191,
+			actor = 202190,
 			nameColor = "#a9f548",
 			say = "私のことを、大切にしていただけますでしょうか？",
 			typewriter = {

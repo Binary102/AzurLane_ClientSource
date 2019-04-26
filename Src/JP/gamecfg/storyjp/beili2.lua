@@ -56,7 +56,7 @@ return {
 			}
 		},
 		{
-			actor = 101271,
+			actor = 101270,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -72,7 +72,7 @@ return {
 			}
 		},
 		{
-			actor = 101171,
+			actor = 101170,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -92,7 +92,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 101271,
+			actor = 101270,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -108,7 +108,7 @@ return {
 			}
 		},
 		{
-			actor = 101171,
+			actor = 101170,
 			side = 1,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -127,7 +127,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 101271,
+			actor = 101270,
 			nameColor = "#a9f548",
 			say = "そう！ウサウサ星人は「ウサウサ」だ！",
 			typewriter = {
@@ -160,7 +160,7 @@ return {
 			}
 		},
 		{
-			actor = 101171,
+			actor = 101170,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -186,7 +186,7 @@ return {
 			}
 		},
 		{
-			actor = 101171,
+			actor = 101170,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -215,7 +215,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 101271,
+			actor = 101270,
 			nameColor = "#a9f548",
 			say = "そうだよ！これ！指揮官もウサウサ星人になりたければ、このミミをぴょこっとつければいいよ！",
 			typewriter = {
@@ -248,7 +248,7 @@ return {
 			}
 		},
 		{
-			actor = 101171,
+			actor = 101170,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -267,7 +267,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 101271,
+			actor = 101270,
 			nameColor = "#a9f548",
 			say = "おめでとう！これで指揮官も誇り高いウサウサ星人になった！",
 			typewriter = {

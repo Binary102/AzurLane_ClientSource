@@ -59,7 +59,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 205011,
+			actor = 205010,
 			nameColor = "#a9f548",
 			say = "ちょっとつまんないけど……下僕のサポートには十分すぎるくらいだわ！",
 			effects = {
@@ -119,7 +119,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			optionFlag = 1,
-			actor = 202191,
+			actor = 202190,
 			nameColor = "#a9f548",
 			say = "ふぅ…………",
 			typewriter = {
@@ -189,7 +189,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			optionFlag = 1,
-			actor = 202191,
+			actor = 202190,
 			nameColor = "#a9f548",
 			say = "…………",
 			typewriter = {
@@ -318,7 +318,7 @@ return {
 			optionFlag = 1,
 			bgName = "bg_story_task",
 			bgm = "story-1",
-			actor = 202191,
+			actor = 202190,
 			nameColor = "#a9f548",
 			say = "貴方様？ご無事ですか？",
 			flashout = {
@@ -374,7 +374,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			optionFlag = 1,
-			actor = 202191,
+			actor = 202190,
 			nameColor = "#a9f548",
 			say = "今のはアクシデント……それともお望み通りのことなのでしょうか？",
 			typewriter = {
@@ -391,7 +391,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			optionFlag = 1,
-			actor = 202191,
+			actor = 202190,
 			nameColor = "#a9f548",
 			say = "ご希望されるのでしたら、このままずっと堪能していただいても構いませんよ。……後で残業することにはなるでしょうが",
 			typewriter = {

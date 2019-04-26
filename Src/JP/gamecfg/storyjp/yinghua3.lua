@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 307061,
+			actor = 307060,
 			side = 2,
 			dir = 1,
 			say = "セイレーンに侵入されたとはね……道理でずっとこの海域に近づけなかった訳だ……",
@@ -21,7 +21,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			side = 2,
 			dir = 1,
 			say = "でも翔鶴姉、今更何のために戻ってきたの？",
@@ -35,7 +35,7 @@ return {
 			}
 		},
 		{
-			actor = 307051,
+			actor = 307050,
 			side = 1,
 			say = "「重桜」よ。開戦以降の観測で、あの木が枯れ始めてしまっている事が分かったの。今回はその調査と……",
 			dir = 1,
@@ -53,7 +53,7 @@ return {
 			}
 		},
 		{
-			actor = 305111,
+			actor = 305110,
 			side = 1,
 			dir = 1,
 			say = "そして「あの子」を助けるため、だな。新生連合艦隊の立て直しは思ったより順調ではあるが、セイレーンに対抗するには、やはりあの子の力も必要だ。",
@@ -67,7 +67,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			side = 2,
 			dir = 1,
 			say = "「あの子」って、まさか…",
@@ -81,7 +81,7 @@ return {
 			}
 		},
 		{
-			actor = 305111,
+			actor = 305110,
 			side = 1,
 			dir = 1,
 			say = "「長門」だ。ずっとここにいるのはわかっている。",
@@ -95,7 +95,7 @@ return {
 			}
 		},
 		{
-			actor = 305111,
+			actor = 305110,
 			side = 1,
 			dir = 1,
 			say = "――開戦を阻止できなかったことで、自責の念に苦しんでいるまま…だがな。救い出さねばならない。",
@@ -109,7 +109,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			side = 2,
 			dir = 1,
 			say = "じゃあ早速行動ね！まずは目の前のこいつらを片付けるわ！",
@@ -126,7 +126,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 307021,
+			actor = 307020,
 			stopbgm = true,
 			say = "「重桜」に向かっているようですね。このままでは長門と接触してしまいます。良いんですか？",
 			flashout = {
@@ -156,7 +156,7 @@ return {
 			}
 		},
 		{
-			actor = 307011,
+			actor = 307010,
 			side = 0,
 			say = "お邪魔虫はいつまで経ってもうまく掃除できませんわね……煩わしいことこの上ないですわ。",
 			dir = 1,
@@ -175,7 +175,7 @@ return {
 			}
 		},
 		{
-			actor = 307011,
+			actor = 307010,
 			side = 0,
 			dir = 1,
 			blackBg = true,
@@ -190,7 +190,7 @@ return {
 			}
 		},
 		{
-			actor = 307011,
+			actor = 307010,
 			side = 0,
 			dir = 1,
 			blackBg = true,
@@ -205,7 +205,7 @@ return {
 			}
 		},
 		{
-			actor = 307021,
+			actor = 307020,
 			side = 1,
 			dir = 1,
 			blackBg = true,
@@ -220,7 +220,7 @@ return {
 			}
 		},
 		{
-			actor = 307011,
+			actor = 307010,
 			side = 0,
 			dir = 1,
 			blackBg = true,
@@ -235,7 +235,7 @@ return {
 			}
 		},
 		{
-			actor = 307011,
+			actor = 307010,
 			side = 0,
 			dir = 1,
 			blackBg = true,

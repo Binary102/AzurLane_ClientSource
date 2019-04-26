@@ -50,7 +50,7 @@ return {
 			}
 		},
 		{
-			actor = 204031,
+			actor = 204030,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -66,7 +66,7 @@ return {
 			}
 		},
 		{
-			actor = 305111,
+			actor = 305110,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -82,7 +82,7 @@ return {
 			}
 		},
 		{
-			actor = 305111,
+			actor = 305110,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -101,7 +101,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 205071,
+			actor = 205070,
 			nameColor = "#a9f548",
 			say = "私の記憶が間違ってなければ、汝は重桜の足柄だな？",
 			flashout = {
@@ -136,7 +136,7 @@ return {
 			bgName = "bg_story_nepu1",
 			say = "え？あ、はい！",
 			dir = 1,
-			actor = 303091,
+			actor = 303090,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -152,7 +152,7 @@ return {
 			}
 		},
 		{
-			actor = 303091,
+			actor = 303090,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -168,7 +168,7 @@ return {
 			}
 		},
 		{
-			actor = 205071,
+			actor = 205070,
 			side = 1,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -188,7 +188,7 @@ return {
 			side = 0,
 			dir = 1,
 			blackBg = true,
-			actor = 303091,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "（これは…褒められているのですね）",
 			typewriter = {
@@ -205,7 +205,7 @@ return {
 			side = 0,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 303091,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "あ、ありがとうございます",
 			typewriter = {
@@ -218,7 +218,7 @@ return {
 			}
 		},
 		{
-			actor = 205071,
+			actor = 205070,
 			side = 1,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -238,7 +238,7 @@ return {
 			side = 0,
 			dir = 1,
 			blackBg = true,
-			actor = 303091,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "（ど、どういう意味ですか？私が頑張った理由ですか…？）",
 			typewriter = {
@@ -255,7 +255,7 @@ return {
 			side = 0,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 303091,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "ええと、演習ですけど、自分が重桜の代表の一員として出た以上――",
 			typewriter = {
@@ -268,7 +268,7 @@ return {
 			}
 		},
 		{
-			actor = 303091,
+			actor = 303090,
 			side = 0,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -284,7 +284,7 @@ return {
 			}
 		},
 		{
-			actor = 205071,
+			actor = 205070,
 			side = 1,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -300,7 +300,7 @@ return {
 			}
 		},
 		{
-			actor = 205071,
+			actor = 205070,
 			side = 1,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -320,7 +320,7 @@ return {
 			side = 0,
 			dir = 1,
 			blackBg = true,
-			actor = 303091,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "（どういうこと…？？）",
 			typewriter = {
@@ -333,7 +333,7 @@ return {
 			}
 		},
 		{
-			actor = 205061,
+			actor = 205060,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -349,7 +349,7 @@ return {
 			}
 		},
 		{
-			actor = 205061,
+			actor = 205060,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -365,7 +365,7 @@ return {
 			}
 		},
 		{
-			actor = 205071,
+			actor = 205070,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -395,7 +395,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 303091,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "（た、助かった……）",
 			typewriter = {
@@ -408,7 +408,7 @@ return {
 			}
 		},
 		{
-			actor = 303091,
+			actor = 303090,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -428,7 +428,7 @@ return {
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			blackBg = true,
-			actor = 303091,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "（私にとって、気になる存在……なのでしょうか？）",
 			typewriter = {

@@ -46,7 +46,7 @@ return {
 			}
 		},
 		{
-			actor = 107091,
+			actor = 107090,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -62,7 +62,7 @@ return {
 			}
 		},
 		{
-			actor = 107381,
+			actor = 107380,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -78,7 +78,7 @@ return {
 			}
 		},
 		{
-			actor = 107071,
+			actor = 107070,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -94,7 +94,7 @@ return {
 			}
 		},
 		{
-			actor = 107381,
+			actor = 107380,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -113,7 +113,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 307061,
+			actor = 307060,
 			nameColor = "#a9f548",
 			say = "おお！なんかすごく盛り上がってる！",
 			typewriter = {
@@ -136,7 +136,7 @@ return {
 			}
 		},
 		{
-			actor = 107061,
+			actor = 107060,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -152,7 +152,7 @@ return {
 			}
 		},
 		{
-			actor = 107051,
+			actor = 107050,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -172,7 +172,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 107381,
+			actor = 107380,
 			nameColor = "#a9f548",
 			say = "意外と多くの人たちが観戦しに来てますね…",
 			typewriter = {
@@ -188,7 +188,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = -1,
-			actor = 107071,
+			actor = 107070,
 			nameColor = "#a9f548",
 			say = "あははは…まあ、模擬戦だからって手を抜かないわよ！",
 			typewriter = {
@@ -215,7 +215,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 107381,
+			actor = 107380,
 			nameColor = "#a9f548",
 			say = "そこはお互い様ですね。よろしくお願いします！ホーネットさん！",
 			typewriter = {
@@ -263,7 +263,7 @@ return {
 			bgName = "bg_story_nepu1",
 			dir = -1,
 			soundeffect = "event:/battle/plane",
-			actor = 107071,
+			actor = 107070,
 			nameColor = "#a9f548",
 			say = "艦載機たち、やっちゃえ！",
 			typewriter = {
@@ -280,7 +280,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 107381,
+			actor = 107380,
 			nameColor = "#a9f548",
 			say = "囮の確率が90％……これぐらい読めていますよ…！",
 			typewriter = {
@@ -297,7 +297,7 @@ return {
 			bgName = "bg_story_nepu1",
 			dir = -1,
 			soundeffect = "event:/battle/plane",
-			actor = 107071,
+			actor = 107070,
 			nameColor = "#a9f548",
 			say = "ちっ、これでどうだ！",
 			typewriter = {
@@ -314,7 +314,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 107381,
+			actor = 107380,
 			say = "この程度…！",
 			flashN = {
 				color = {
@@ -358,7 +358,7 @@ return {
 			}
 		},
 		{
-			actor = 107061,
+			actor = 107060,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -374,7 +374,7 @@ return {
 			}
 		},
 		{
-			actor = 307051,
+			actor = 307050,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -390,7 +390,7 @@ return {
 			}
 		},
 		{
-			actor = 107051,
+			actor = 107050,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -411,7 +411,7 @@ return {
 			dir = 1,
 			bgName = "bg_story_nepu1",
 			soundeffect = "event:/battle/plane",
-			actor = 107381,
+			actor = 107380,
 			nameColor = "#a9f548",
 			seDelay = 1,
 			flashout = {
@@ -445,7 +445,7 @@ return {
 			bgName = "bg_story_nepu1",
 			dir = -1,
 			soundeffect = "event:/battle/plane",
-			actor = 107071,
+			actor = 107070,
 			nameColor = "#a9f548",
 			say = "悪いけど、こっちは「シャングリラから発進した」ほうなんてね！",
 			effects = {
@@ -477,7 +477,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 107381,
+			actor = 107380,
 			nameColor = "#a9f548",
 			say = "なっ！？捨て身の爆撃攻撃か…！",
 			effects = {
@@ -543,7 +543,7 @@ return {
 			}
 		},
 		{
-			actor = 107061,
+			actor = 107060,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -559,7 +559,7 @@ return {
 			}
 		},
 		{
-			actor = 107051,
+			actor = 107050,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -579,7 +579,7 @@ return {
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			blackBg = true,
-			actor = 107091,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "引き分け……ですか……",
 			typewriter = {

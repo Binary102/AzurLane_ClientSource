@@ -23,7 +23,7 @@ return {
 			bgmDelay = 2,
 			bgName = "bg_story_task",
 			bgm = "story-uta",
-			actor = 10300041,
+			actor = 10300040,
 			nameColor = "#a9f548",
 			say = "──注目の的",
 			flashout = {
@@ -58,7 +58,7 @@ return {
 			bgName = "bg_story_task",
 			say = "どうかされましたか指揮官様？さきほどから私たちを見つめておられるようですが",
 			dir = 1,
-			actor = 10300051,
+			actor = 10300050,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -98,7 +98,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 10300041,
+			actor = 10300040,
 			nameColor = "#a9f548",
 			say = "怪しい視線……",
 			typewriter = {
@@ -116,7 +116,7 @@ return {
 			bgName = "bg_story_task",
 			say = "申し訳ありません。私たちを性的対象として見ていいのは主様だけに限らせていただいております",
 			dir = 1,
-			actor = 10300051,
+			actor = 10300050,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -176,7 +176,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 10300041,
+			actor = 10300040,
 			nameColor = "#a9f548",
 			say = "主様はわかった",
 			typewriter = {
@@ -194,7 +194,7 @@ return {
 			bgName = "bg_story_task",
 			say = "指揮官様はおわかりになりますか？さあ、眼を閉じて……どうぞ試してみてください",
 			dir = 1,
-			actor = 10300051,
+			actor = 10300050,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -238,7 +238,7 @@ return {
 			}
 		},
 		{
-			actor = 10300041,
+			actor = 10300040,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -258,7 +258,7 @@ return {
 			side = 1,
 			dir = 1,
 			blackBg = true,
-			actor = 10300051,
+			actor = 10300050,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -274,7 +274,7 @@ return {
 			}
 		},
 		{
-			actor = 403031,
+			actor = 403030,
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -283,13 +283,13 @@ return {
 			say = "フフフ……指揮官なら当てられて当然よね？",
 			subActors = {
 				{
-					actor = 10300041,
+					actor = 10300040,
 					pos = {
 						x = -370
 					}
 				},
 				{
-					actor = 10300051,
+					actor = 10300050,
 					pos = {
 						x = 370
 					}
@@ -338,7 +338,7 @@ return {
 			}
 		},
 		{
-			actor = 10300041,
+			actor = 10300040,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -358,7 +358,7 @@ return {
 			side = 1,
 			dir = 1,
 			blackBg = true,
-			actor = 10300051,
+			actor = 10300050,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -374,7 +374,7 @@ return {
 			}
 		},
 		{
-			actor = 403031,
+			actor = 403030,
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -383,13 +383,13 @@ return {
 			say = "この程度じゃないわよねぇ？指揮官の本気……見せてほしいわ",
 			subActors = {
 				{
-					actor = 10300041,
+					actor = 10300040,
 					pos = {
 						x = -370
 					}
 				},
 				{
-					actor = 10300051,
+					actor = 10300050,
 					pos = {
 						x = 370
 					}

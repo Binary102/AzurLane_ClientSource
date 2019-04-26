@@ -303,7 +303,7 @@ function slot4.QuickCoolDown(slot0)
 		slot0._currentState = slot0.STATE_READY
 
 		slot0._playerChargeWeaponVo:InstantCoolDown(slot0)
-		slot0:DispatchEvent(slot0.Event.New(slot1.MANUAL_WEAPON_READY, {}))
+		slot0:DispatchEvent(slot0.Event.New(slot1.MANUAL_WEAPON_INSTANT_READY, {}))
 
 		slot0._CDstartTime = nil
 	end

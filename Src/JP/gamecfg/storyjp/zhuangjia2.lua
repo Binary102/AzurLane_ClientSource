@@ -21,7 +21,7 @@ return {
 			bgName = "bg_night",
 			dir = 1,
 			bgm = "story-5",
-			actor = 307061,
+			actor = 307060,
 			say = "なんてこと･･･周りが炎の海になってる･･･。翔鶴姉は…！？",
 			flashout = {
 				dur = 0.5,
@@ -56,7 +56,7 @@ return {
 			}
 		},
 		{
-			actor = 403031,
+			actor = 403030,
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
@@ -89,7 +89,7 @@ return {
 			}
 		},
 		{
-			actor = 303031,
+			actor = 303030,
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
@@ -104,7 +104,7 @@ return {
 			}
 		},
 		{
-			actor = 107061,
+			actor = 107060,
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
@@ -123,7 +123,7 @@ return {
 			side = 0,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 307061,
+			actor = 307060,
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -172,7 +172,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 107061,
+			actor = 107060,
 			say = "指揮官、全員発進準備完了した。",
 			flashout = {
 				dur = 1,
@@ -205,7 +205,7 @@ return {
 			side = 0,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 301161,
+			actor = 301160,
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -230,7 +230,7 @@ return {
 			}
 		},
 		{
-			actor = 403031,
+			actor = 403030,
 			side = 0,
 			bgName = "bg_night",
 			dir = 1,
@@ -245,7 +245,7 @@ return {
 			}
 		},
 		{
-			actor = 303031,
+			actor = 303030,
 			side = 0,
 			bgName = "bg_night",
 			dir = 1,
@@ -270,7 +270,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			side = 0,
 			bgName = "bg_night",
 			dir = 1,
@@ -285,7 +285,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 0,
 			bgName = "bg_night",
 			dir = -1,
@@ -310,7 +310,7 @@ return {
 			}
 		},
 		{
-			actor = 107061,
+			actor = 107060,
 			side = 1,
 			bgName = "bg_night",
 			dir = 1,
@@ -328,7 +328,7 @@ return {
 			bgName = "bg_night",
 			side = 0,
 			dir = -1,
-			actor = 312011,
+			actor = 312010,
 			say = "よし！出撃して名誉ある転進をするんだにゃ。",
 			typewriter = {
 				speed = 0.05,
@@ -416,7 +416,7 @@ return {
 			}
 		},
 		{
-			actor = 107061,
+			actor = 107060,
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
@@ -431,7 +431,7 @@ return {
 			}
 		},
 		{
-			actor = 307062,
+			actor = 307060,
 			side = 0,
 			bgName = "bg_night",
 			say = "言われなくてもっ！",
@@ -468,7 +468,7 @@ return {
 			bgName = "bg_night",
 			dir = 1,
 			soundeffect = "event:/battle/boom1",
-			actor = 303031,
+			actor = 303030,
 			say = "地平線の向こうから撃ってきた！？",
 			flash = {
 				wait = 0.5,
@@ -504,7 +504,7 @@ return {
 			bgName = "bg_night",
 			dir = 1,
 			soundeffect = "event:/battle/boom1",
-			actor = 301161,
+			actor = 301160,
 			say = "のわっっと、危ない。でもこんな弾には当たらないのだ。",
 			typewriter = {
 				speed = 0.05,
@@ -532,7 +532,7 @@ return {
 			}
 		},
 		{
-			actor = 107061,
+			actor = 107060,
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
@@ -547,7 +547,7 @@ return {
 			}
 		},
 		{
-			actor = 403031,
+			actor = 403030,
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
@@ -562,7 +562,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
@@ -601,7 +601,7 @@ return {
 			}
 		},
 		{
-			actor = 107061,
+			actor = 107060,
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
@@ -616,7 +616,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			side = 0,
 			bgName = "bg_night",
 			say = "一斉急降下で海面を爆撃して、前面にウォーターカーテンを作った！",
@@ -635,7 +635,7 @@ return {
 			}
 		},
 		{
-			actor = 107061,
+			actor = 107060,
 			side = 1,
 			bgName = "bg_night",
 			dir = 1,
@@ -650,7 +650,7 @@ return {
 			}
 		},
 		{
-			actor = 403031,
+			actor = 403030,
 			side = 0,
 			bgName = "bg_night",
 			dir = 1,
@@ -665,7 +665,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			side = 0,
 			bgName = "bg_night",
 			dir = 1,
@@ -680,7 +680,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 1,
 			bgName = "bg_night",
 			dir = 1,
@@ -705,7 +705,7 @@ return {
 			}
 		},
 		{
-			actor = 303031,
+			actor = 303030,
 			side = 0,
 			bgName = "bg_night",
 			dir = 1,
@@ -720,7 +720,7 @@ return {
 			}
 		},
 		{
-			actor = 107061,
+			actor = 107060,
 			side = 1,
 			bgName = "bg_night",
 			dir = 1,

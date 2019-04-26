@@ -32,7 +32,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 202181,
+			actor = 202180,
 			actorName = "？？？",
 			say = "うん…ここは「母港」ですか？",
 			typewriter = {
@@ -49,7 +49,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 202181,
+			actor = 202180,
 			actorName = "？？？",
 			say = "思ったよりずっと広いですね――",
 			typewriter = {
@@ -66,7 +66,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 202181,
+			actor = 202180,
 			actorName = "？？？",
 			say = "よし！明石さんが言ってた「指揮官」に報告しましょー！",
 			action = {
@@ -90,7 +90,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 205021,
+			actor = 205020,
 			nameColor = "#a9f548",
 			say = "陛下、指揮官への資料は大丈夫でしょうか？",
 			flashout = {
@@ -124,7 +124,7 @@ return {
 			side = 1,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 205011,
+			actor = 205010,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -140,7 +140,7 @@ return {
 			}
 		},
 		{
-			actor = 205011,
+			actor = 205010,
 			side = 1,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -160,7 +160,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 202181,
+			actor = 202180,
 			actorName = "？？？",
 			say = "あっ…",
 			typewriter = {
@@ -178,12 +178,12 @@ return {
 			bgName = "bg_story_outdoor",
 			hideOther = true,
 			dir = 1,
-			actor = 205021,
+			actor = 205020,
 			nameColor = "#a9f548",
 			say = "ベルファスト？",
 			subActors = {
 				{
-					actor = 205011,
+					actor = 205010,
 					pos = {
 						x = 750
 					}
@@ -203,7 +203,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 202181,
+			actor = 202180,
 			actorName = "ベルファスト？",
 			say = "ごきげんうるわしゅうございます。メイドのベルです。「指揮官」はどこにいらっしゃるか、ご存知ですか？",
 			typewriter = {
@@ -220,7 +220,7 @@ return {
 			side = 0,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 205011,
+			actor = 205010,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -236,7 +236,7 @@ return {
 			}
 		},
 		{
-			actor = 205021,
+			actor = 205020,
 			side = 0,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -252,7 +252,7 @@ return {
 			}
 		},
 		{
-			actor = 202181,
+			actor = 202180,
 			side = 1,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -272,7 +272,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 312011,
+			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "にゃ！！ここにいたにゃ！もう勝手に出歩いちゃダメにゃ…！",
 			typewriter = {
@@ -289,7 +289,7 @@ return {
 			side = 0,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 202181,
+			actor = 202180,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -305,7 +305,7 @@ return {
 			}
 		},
 		{
-			actor = 205011,
+			actor = 205010,
 			side = 0,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -326,7 +326,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			blackBg = true,
-			actor = 312011,
+			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "うにゃ！？じ、実は――",
 			typewriter = {

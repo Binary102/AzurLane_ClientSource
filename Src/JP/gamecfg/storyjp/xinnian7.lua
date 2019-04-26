@@ -16,7 +16,7 @@ return {
 			}
 		},
 		{
-			actor = 900062,
+			actor = 307022,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
@@ -36,7 +36,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 900061,
+			actor = 307012,
 			actorName = "{namecode:91}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -52,7 +52,7 @@ return {
 			}
 		},
 		{
-			actor = 900069,
+			actor = 303122,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -68,7 +68,7 @@ return {
 			}
 		},
 		{
-			actor = 900067,
+			actor = 403032,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -83,7 +83,7 @@ return {
 			}
 		},
 		{
-			actor = 900065,
+			actor = 101172,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -98,7 +98,7 @@ return {
 			}
 		},
 		{
-			actor = 900067,
+			actor = 403032,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -113,7 +113,7 @@ return {
 			}
 		},
 		{
-			actor = 900065,
+			actor = 101172,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -128,7 +128,7 @@ return {
 			}
 		},
 		{
-			actor = 900062,
+			actor = 307022,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
@@ -144,7 +144,7 @@ return {
 			}
 		},
 		{
-			actor = 900063,
+			actor = 312011,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -160,7 +160,7 @@ return {
 			}
 		},
 		{
-			actor = 900068,
+			actor = 301331,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
@@ -176,7 +176,7 @@ return {
 			}
 		},
 		{
-			actor = 900064,
+			actor = 307031,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -195,7 +195,7 @@ return {
 			bgName = "star_level_bg_101",
 			side = 2,
 			dir = 1,
-			actor = 900067,
+			actor = 403032,
 			nameColor = "#a9f548",
 			say = "ここが「ジンジャ」？いい雰囲気じゃない。",
 			flashout = {
@@ -230,7 +230,7 @@ return {
 			bgName = "star_level_bg_101",
 			actorName = "{namecode:92}",
 			dir = 1,
-			actor = 900062,
+			actor = 307022,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -250,7 +250,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_101",
 			dir = 1,
-			actor = 900069,
+			actor = 303122,
 			actorName = "{namecode:67}",
 			say = "はい、来たからには参拝しないとね。",
 			typewriter = {
@@ -267,7 +267,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_101",
 			dir = 1,
-			actor = 900064,
+			actor = 307031,
 			actorName = "{namecode:93}",
 			say = "先に来た子たちはもう絵馬を掛けたの？……わあ、変なのもいっぱいあるようね…",
 			typewriter = {
@@ -284,7 +284,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_101",
 			dir = 1,
-			actor = 900064,
+			actor = 307031,
 			actorName = "{namecode:93}",
 			say = "（このひどい字に肉の落書き…夕立ね…）",
 			typewriter = {
@@ -301,7 +301,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_101",
 			dir = 1,
-			actor = 305014,
+			actor = 305010,
 			actorName = "{namecode:78}",
 			say = "ようこそいらっしゃいました。みんなが願いを込めてお祈りするところを見られて、私と山城も準備した甲斐がありました。",
 			typewriter = {
@@ -318,7 +318,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_101",
 			dir = 1,
-			actor = 900062,
+			actor = 307022,
 			actorName = "{namecode:92}",
 			say = "破魔矢、感謝する。大事にするぞ。",
 			typewriter = {
@@ -335,7 +335,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_101",
 			dir = 1,
-			actor = 305014,
+			actor = 305010,
 			actorName = "{namecode:78}",
 			say = "御利益がありますように。では皆様どうぞこちらへ。あとは…オイゲンとラフィーちゃんのために少し説明しますね。",
 			typewriter = {
@@ -352,7 +352,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_101",
 			dir = 1,
-			actor = 305014,
+			actor = 305010,
 			actorName = "{namecode:78}",
 			say = "まずは手を清めてください。次は神前で鈴を鳴らして、お賽銭を入れてから二拝二拍手一拝が作法です。",
 			typewriter = {
@@ -365,7 +365,7 @@ return {
 			}
 		},
 		{
-			actor = 900067,
+			actor = 403032,
 			nameColor = "#a9f548",
 			bgName = "star_level_bg_101",
 			side = 1,
@@ -381,7 +381,7 @@ return {
 			}
 		},
 		{
-			actor = 900065,
+			actor = 101172,
 			nameColor = "#a9f548",
 			bgName = "star_level_bg_101",
 			side = 0,
@@ -401,7 +401,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_101",
 			dir = 1,
-			actor = 900064,
+			actor = 307031,
 			actorName = "{namecode:93}",
 			say = "じゃあ始めるわよ？",
 			typewriter = {
@@ -428,7 +428,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_101",
 			dir = 1,
-			actor = 900064,
+			actor = 307031,
 			actorName = "{namecode:93}",
 			say = "（今の生活がいつまでも続きますように……）",
 			typewriter = {
@@ -455,7 +455,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_101",
 			dir = 1,
-			actor = 900069,
+			actor = 303122,
 			actorName = "{namecode:67}",
 			say = "（指揮官がもっと頼ってくれるように……）",
 			typewriter = {
@@ -482,7 +482,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_101",
 			dir = 1,
-			actor = 900061,
+			actor = 307012,
 			actorName = "{namecode:91}",
 			say = "（指揮官様と赤城が永遠に一緒にいられますように……もちろん、害虫はこの赤城が……ふふふ……）",
 			typewriter = {
@@ -509,7 +509,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_101",
 			dir = 1,
-			actor = 900062,
+			actor = 307022,
 			actorName = "{namecode:92}",
 			say = "（今年も強敵と血わき肉おどる戦闘ができますように……）",
 			typewriter = {
@@ -536,7 +536,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_101",
 			dir = 1,
-			actor = 900068,
+			actor = 301331,
 			actorName = "{namecode:34}",
 			say = "（ことしも睦月ちゃん…みんなといっしょにたのしくあそべますように……）",
 			typewriter = {
@@ -563,7 +563,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_101",
 			dir = 1,
-			actor = 900063,
+			actor = 312011,
 			actorName = "{namecode:98}",
 			say = "（今年も明石のお店にたくさん来ますように、にゃ）",
 			typewriter = {
@@ -590,7 +590,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_101",
 			dir = 1,
-			actor = 900066,
+			actor = 301141,
 			actorName = "{namecode:16}",
 			say = "これからも美味しいものを一杯食べさせてもらうぜ！",
 			typewriter = {
@@ -608,7 +608,7 @@ return {
 			bgName = "star_level_bg_101",
 			actorName = "{namecode:93}",
 			dir = 1,
-			actor = 900064,
+			actor = 307031,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -634,7 +634,7 @@ return {
 			}
 		},
 		{
-			actor = 900067,
+			actor = 403032,
 			nameColor = "#a9f548",
 			bgName = "star_level_bg_101",
 			side = 2,
@@ -660,7 +660,7 @@ return {
 			}
 		},
 		{
-			actor = 900065,
+			actor = 101172,
 			nameColor = "#a9f548",
 			bgName = "star_level_bg_101",
 			side = 2,

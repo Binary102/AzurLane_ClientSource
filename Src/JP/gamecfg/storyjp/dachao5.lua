@@ -66,7 +66,7 @@ return {
 			}
 		},
 		{
-			actor = 301641,
+			actor = 301640,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -82,7 +82,7 @@ return {
 			}
 		},
 		{
-			actor = 301641,
+			actor = 301640,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -108,7 +108,7 @@ return {
 			}
 		},
 		{
-			actor = 301641,
+			actor = 301640,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -183,7 +183,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 301641,
+			actor = 301640,
 			say = "大潮に起こされた。どうやら昨日はそのまま執務室で寝てしまったようだ。",
 			flashN = {
 				color = {
@@ -219,7 +219,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			bgm = "story-1",
-			actor = 301641,
+			actor = 301640,
 			nameColor = "#a9f548",
 			say = "指揮官、おはような。昨日はそのまま執務室で寝ちゃったんやな…",
 			typewriter = {
@@ -232,7 +232,7 @@ return {
 			}
 		},
 		{
-			actor = 301641,
+			actor = 301640,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -258,7 +258,7 @@ return {
 			}
 		},
 		{
-			actor = 301641,
+			actor = 301640,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -287,7 +287,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 301641,
+			actor = 301640,
 			nameColor = "#a9f548",
 			say = "指揮官が頑張ったおかげで完了の目処も付きそうやな～もうちょういだけ頑張ろな？",
 			typewriter = {
@@ -313,7 +313,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 301641,
+			actor = 301640,
 			nameColor = "#a9f548",
 			say = "ふふ♪　指揮官はやっぱ頼りになるな～",
 			typewriter = {

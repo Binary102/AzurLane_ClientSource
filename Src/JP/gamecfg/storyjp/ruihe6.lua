@@ -32,7 +32,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			say = "はぁ…今日は仕事が多いね…いつもなら指揮官がもう寝ているというのに…",
 			typewriter = {
@@ -59,7 +59,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			say = "ええと、もう深夜だし、なんか軽食でも用意しよっか？",
 			typewriter = {
@@ -77,7 +77,7 @@ return {
 			bgName = "bg_night",
 			actorName = "{namecode:95}",
 			dir = 1,
-			actor = 307054,
+			actor = 307050,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -97,7 +97,7 @@ return {
 			side = 0,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			say = "翔鶴姉！？",
 			typewriter = {
@@ -114,7 +114,7 @@ return {
 			side = 1,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 307054,
+			actor = 307050,
 			actorName = "{namecode:95}",
 			say = "なかなか寮に帰って来ないと思ったら、まだ仕事していたんですね…",
 			typewriter = {
@@ -131,7 +131,7 @@ return {
 			side = 1,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 307054,
+			actor = 307050,
 			actorName = "{namecode:95}",
 			say = "働きすぎは体によくありませんわよ？「せんてひっしょー」♡",
 			typewriter = {
@@ -158,7 +158,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			say = "わ、私だっていま準備したばかりなのに…ってこれ、お酒……？",
 			typewriter = {
@@ -176,7 +176,7 @@ return {
 			bgName = "bg_night",
 			actorName = "{namecode:95}",
 			dir = 1,
-			actor = 307054,
+			actor = 307050,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -196,7 +196,7 @@ return {
 			side = 1,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 307054,
+			actor = 307050,
 			actorName = "{namecode:95}",
 			say = "この間、私を酔わせた時に…あら、瑞鶴にはまだ言っていませんでしたっけ…？",
 			typewriter = {
@@ -223,7 +223,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			say = "（やっぱり私が知らない間に翔鶴姉は指揮官と色々あるんだ……）",
 			typewriter = {
@@ -240,7 +240,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			say = "（そうよね…翔鶴姉のほうが美人だし…落ち着いてるし…戦闘は同格でも秘書艦業務なんて私よりずっとうまくこなせる…ううぅやっぱり私なんて…）",
 			typewriter = {
@@ -257,7 +257,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			say = "……じゃあ…私の分は冷蔵庫に戻しとくね……",
 			typewriter = {
@@ -275,7 +275,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actorName = "{namecode:95}",
-			actor = 307054,
+			actor = 307050,
 			nameColor = "#a9f548",
 			say = "…ちょっと冗談が過ぎたかしら？",
 			flashout = {

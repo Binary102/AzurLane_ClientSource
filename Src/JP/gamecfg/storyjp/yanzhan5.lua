@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			actor = 205021,
+			actor = 205020,
 			nameColor = "#a9f548",
 			say = "今日も秘書艦の仕事に励もうか！早く執務室へ――",
 			flashout = {
@@ -52,7 +52,7 @@ return {
 			}
 		},
 		{
-			actor = 205021,
+			actor = 205020,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -84,7 +84,7 @@ return {
 			}
 		},
 		{
-			actor = 205021,
+			actor = 205020,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -119,7 +119,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 207031,
+			actor = 207030,
 			nameColor = "#a9f548",
 			say = "あら、ウォースパイトさま、おはようございます",
 			typewriter = {
@@ -149,7 +149,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 205021,
+			actor = 205020,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -169,7 +169,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			withoutActorName = true,
-			actor = 205021,
+			actor = 205020,
 			nameColor = "#a9f548",
 			say = "（すらりっ）",
 			typewriter = {
@@ -186,7 +186,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			withoutActorName = true,
-			actor = 207031,
+			actor = 207030,
 			nameColor = "#a9f548",
 			say = "（ぼいんっ）",
 			typewriter = {
@@ -199,7 +199,7 @@ return {
 			}
 		},
 		{
-			actor = 205021,
+			actor = 205020,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -219,7 +219,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 207031,
+			actor = 207030,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -238,7 +238,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 205021,
+			actor = 205020,
 			nameColor = "#a9f548",
 			say = "そ、そうね……でも心配ないわ。この程度の疲労など仕事に障らないわよ",
 			typewriter = {
@@ -261,7 +261,7 @@ return {
 			}
 		},
 		{
-			actor = 207031,
+			actor = 207030,
 			side = 1,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -277,7 +277,7 @@ return {
 			}
 		},
 		{
-			actor = 205021,
+			actor = 205020,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -293,7 +293,7 @@ return {
 			}
 		},
 		{
-			actor = 205021,
+			actor = 205020,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -312,7 +312,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 205021,
+			actor = 205020,
 			nameColor = "#a9f548",
 			say = "委託のレポートは確か……",
 			flashout = {
@@ -342,7 +342,7 @@ return {
 			}
 		},
 		{
-			actor = 205021,
+			actor = 205020,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -362,7 +362,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 205031,
+			actor = 205030,
 			nameColor = "#a9f548",
 			say = "……",
 			effects = {
@@ -385,7 +385,7 @@ return {
 			side = 2,
 			withoutActorName = true,
 			blackBg = true,
-			actor = 207031,
+			actor = 207030,
 			nameColor = "#a9f548",
 			say = "……",
 			typewriter = {
@@ -402,7 +402,7 @@ return {
 			side = 2,
 			withoutActorName = true,
 			blackBg = true,
-			actor = 201101,
+			actor = 201100,
 			nameColor = "#a9f548",
 			say = "……",
 			typewriter = {
@@ -418,7 +418,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 205021,
+			actor = 205020,
 			nameColor = "#a9f548",
 			say = "（だ、ダメだ…相手にならない……）",
 			effects = {
@@ -440,7 +440,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 205021,
+			actor = 205020,
 			nameColor = "#a9f548",
 			say = "はい？",
 			typewriter = {
@@ -463,7 +463,7 @@ return {
 			}
 		},
 		{
-			actor = 205021,
+			actor = 205020,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -479,7 +479,7 @@ return {
 			}
 		},
 		{
-			actor = 205021,
+			actor = 205020,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -495,7 +495,7 @@ return {
 			}
 		},
 		{
-			actor = 205021,
+			actor = 205020,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -511,7 +511,7 @@ return {
 			}
 		},
 		{
-			actor = 205021,
+			actor = 205020,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -527,7 +527,7 @@ return {
 			}
 		},
 		{
-			actor = 205021,
+			actor = 205020,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -543,7 +543,7 @@ return {
 			}
 		},
 		{
-			actor = 205021,
+			actor = 205020,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,

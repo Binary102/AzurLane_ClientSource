@@ -11,7 +11,7 @@ return {
 			side = 1,
 			dir = 1,
 			bgm = "battle-boss-tiancheng",
-			actor = 305071,
+			actor = 305070,
 			nameColor = "#ff0000",
 			say = "ようやく戦場で会えたな。天城！",
 			typewriter = {
@@ -28,7 +28,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
-			actor = 304051,
+			actor = 304050,
 			say = "玉の守りは金銀三枚……守りを攻めとする戦法を学びましたわね",
 			typewriter = {
 				speed = 0.05,
@@ -44,7 +44,7 @@ return {
 			nameColor = "#ff0000",
 			side = 1,
 			dir = 1,
-			actor = 305071,
+			actor = 305070,
 			say = "お前のおかげだ。正直、知略も戦術も確実にお前の方が上だが…",
 			typewriter = {
 				speed = 0.05,
@@ -60,7 +60,7 @@ return {
 			nameColor = "#ff0000",
 			side = 1,
 			dir = 1,
-			actor = 305071,
+			actor = 305070,
 			say = "戦闘ならお前などには決して負けん！",
 			typewriter = {
 				speed = 0.05,
@@ -72,7 +72,7 @@ return {
 			}
 		},
 		{
-			actor = 304051,
+			actor = 304050,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -91,7 +91,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
-			actor = 304051,
+			actor = 304050,
 			say = "私が勝ったら、あなたは私が遣わす最強の刃となり、私の策に協力してもらうとしましょう",
 			typewriter = {
 				speed = 0.05,
@@ -107,7 +107,7 @@ return {
 			nameColor = "#ff0000",
 			side = 1,
 			dir = 1,
-			actor = 305071,
+			actor = 305070,
 			say = "……当たり前だ。",
 			typewriter = {
 				speed = 0.05,
@@ -119,7 +119,7 @@ return {
 			}
 		},
 		{
-			actor = 305071,
+			actor = 305070,
 			side = 1,
 			nameColor = "#ff0000",
 			dir = 1,

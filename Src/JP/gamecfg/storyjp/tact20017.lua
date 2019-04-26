@@ -4,7 +4,7 @@ return {
 	once = true,
 	scripts = {
 		{
-			actor = 408031,
+			actor = 408030,
 			side = 2,
 			nameColor = "#ff0000",
 			say = "さっきのこと、記録した？",
@@ -18,7 +18,7 @@ return {
 			}
 		},
 		{
-			actor = 408021,
+			actor = 408020,
 			side = 2,
 			nameColor = "#ff0000",
 			say = "うん…もう存在しない艦隊がまた現れたなんて…状況は思ってたよりずっと深刻ね。",
@@ -47,7 +47,7 @@ return {
 			}
 		},
 		{
-			actor = 408031,
+			actor = 408030,
 			side = 2,
 			nameColor = "#ff0000",
 			say = "バレた……ソナーに全く反応がなかったのに…",
@@ -61,7 +61,7 @@ return {
 			}
 		},
 		{
-			actor = 408021,
+			actor = 408020,
 			side = 2,
 			nameColor = "#ff0000",
 			say = "これはちょっとまずいかも…全速潜航！",
@@ -105,7 +105,7 @@ return {
 			}
 		},
 		{
-			actor = 408021,
+			actor = 408020,
 			side = 2,
 			nameColor = "#ff0000",
 			say = "ここの情報を指揮官に渡さないと…！",
@@ -119,7 +119,7 @@ return {
 			}
 		},
 		{
-			actor = 408031,
+			actor = 408030,
 			side = 2,
 			nameColor = "#ff0000",
 			say = "U-47、先に行って…敵は最大深度まで追ってこれないはず……",
@@ -133,7 +133,7 @@ return {
 			}
 		},
 		{
-			actor = 408031,
+			actor = 408030,
 			side = 2,
 			nameColor = "#ff0000",
 			say = "速力ならそっちのほうが高いし、こっちが時間を稼ぐよ。",
@@ -147,7 +147,7 @@ return {
 			}
 		},
 		{
-			actor = 408021,
+			actor = 408020,
 			side = 2,
 			nameColor = "#ff0000",
 			say = "557…",
@@ -161,7 +161,7 @@ return {
 			}
 		},
 		{
-			actor = 408021,
+			actor = 408020,
 			side = 2,
 			nameColor = "#ff0000",
 			say = "…わかった。幸運を祈る。",
@@ -205,7 +205,7 @@ return {
 			}
 		},
 		{
-			actor = 408031,
+			actor = 408030,
 			side = 2,
 			nameColor = "#ff0000",
 			say = "…私、不幸な潜水艦って言われてきた…ついさっきまでそれは本当の事だと思っていた…",
@@ -219,7 +219,7 @@ return {
 			}
 		},
 		{
-			actor = 408031,
+			actor = 408030,
 			side = 2,
 			nameColor = "#ff0000",
 			say = "でも…今は…そうは思わない！",
@@ -233,7 +233,7 @@ return {
 			}
 		},
 		{
-			actor = 408031,
+			actor = 408030,
 			side = 2,
 			nameColor = "#ff0000",
 			say = "姉さん、私に勇気を……！",

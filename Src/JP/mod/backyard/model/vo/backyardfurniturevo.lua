@@ -43,6 +43,18 @@ function slot0.hasChild(slot0)
 	return table.getCount(slot0.child) > 0
 end
 
+function slot0.existVoice(slot0)
+	if slot0:isShowDesc() then
+		return slot0:getConfig("can_trigger")[2] ~= nil
+	end
+end
+
+function slot0.getVoice(slot0)
+	if slot0:existVoice() then
+		return slot0:getConfig("can_trigger")[2]
+	end
+end
+
 function slot0.getShipExtra(slot0)
 	return slot0.spineExtra
 end
@@ -703,7 +715,7 @@ function slot0.isConflictPos(slot0, slot1)
 end
 
 function slot0.isShowDesc(slot0)
-	return slot0:getConfig("can_trigger") == 1
+	return #slot0:getConfig("can_trigger") > 0 and slot1[1] == 1
 end
 
 function slot0.isTouchSpine(slot0)

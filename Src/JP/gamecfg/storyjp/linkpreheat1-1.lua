@@ -8,7 +8,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgm = "level-uta",
-			actor = 10300061,
+			actor = 10300060,
 			nameColor = "#a9f548",
 			say = "クーちゃ～ん！ネコちゃ～ん！ルルティエさま～！おりませんか～！？",
 			typewriter = {
@@ -31,7 +31,7 @@ return {
 			}
 		},
 		{
-			actor = 201211,
+			actor = 201210,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -50,7 +50,7 @@ return {
 			}
 		},
 		{
-			actor = 101171,
+			actor = 101170,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -65,7 +65,7 @@ return {
 			}
 		},
 		{
-			actor = 401231,
+			actor = 401230,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -80,7 +80,7 @@ return {
 			}
 		},
 		{
-			actor = 301051,
+			actor = 301050,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -95,7 +95,7 @@ return {
 			}
 		},
 		{
-			actor = 10300061,
+			actor = 10300060,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -153,7 +153,7 @@ return {
 			}
 		},
 		{
-			actor = 201211,
+			actor = 201210,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -168,7 +168,7 @@ return {
 			}
 		},
 		{
-			actor = 401231,
+			actor = 401230,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
@@ -187,7 +187,7 @@ return {
 			}
 		},
 		{
-			actor = 101171,
+			actor = 101170,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -202,7 +202,7 @@ return {
 			}
 		},
 		{
-			actor = 301051,
+			actor = 301050,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,

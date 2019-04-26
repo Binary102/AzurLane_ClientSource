@@ -73,7 +73,7 @@ return {
 			}
 		},
 		{
-			actor = 401461,
+			actor = 401460,
 			side = 2,
 			bgName = "bg_story_task",
 			say = "この資料はここに置いて良かろうか。…ふむ。では命令通りに対応する",
@@ -87,7 +87,7 @@ return {
 			}
 		},
 		{
-			actor = 401461,
+			actor = 401460,
 			side = 2,
 			bgName = "bg_story_task",
 			say = "……にしても人間はやはり面白い。たかが兵器を動かすだけでこうも書類が多くなるとは。",
@@ -101,7 +101,7 @@ return {
 			}
 		},
 		{
-			actor = 401461,
+			actor = 401460,
 			side = 2,
 			bgName = "bg_story_task",
 			say = "燃料の調達と集積、弾薬となる資材の確保、食料補給、備品の仕入れから廃棄、兵器の整備だけでなく、生活所用全般まで、とにかく煩雑だ。",
@@ -115,7 +115,7 @@ return {
 			}
 		},
 		{
-			actor = 401461,
+			actor = 401460,
 			side = 2,
 			bgName = "bg_story_task",
 			say = "そうではあるものの、整理は効く。こうして秘書艦の執務をしていると、艦隊を動かしているのは自分なのだと浮いてしまう。",
@@ -165,7 +165,7 @@ return {
 			}
 		},
 		{
-			actor = 401461,
+			actor = 401460,
 			side = 2,
 			bgName = "bg_story_task",
 			say = "指揮官、報告書を提出する。受け取っておくれ。",
@@ -179,7 +179,7 @@ return {
 			}
 		},
 		{
-			actor = 401461,
+			actor = 401460,
 			side = 2,
 			bgName = "bg_story_task",
 			say = "鉄血寮の今月の主計帳簿、清書と整理、ギリギリ赤字。",
@@ -193,7 +193,7 @@ return {
 			}
 		},
 		{
-			actor = 401461,
+			actor = 401460,
 			side = 2,
 			bgName = "bg_story_task",
 			say = "節約は大事――駆逐艦ならともかく、重巡を説得するのは骨が折れた。戦艦は元々大食いが故に抑制も利かないのが実情だ。",
@@ -219,7 +219,7 @@ return {
 			}
 		},
 		{
-			actor = 401461,
+			actor = 401460,
 			side = 2,
 			bgName = "bg_story_task",
 			say = "褒めてくれるのは良いが、布越しで躰を触るのはいささか理解しかねる。",
@@ -233,7 +233,7 @@ return {
 			}
 		},
 		{
-			actor = 401461,
+			actor = 401460,
 			side = 2,
 			bgName = "bg_story_task",
 			say = "給金が増えるのでなければ、このような接触はなにをもたらすのだろうか。",

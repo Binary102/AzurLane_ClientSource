@@ -50,7 +50,7 @@ return {
 			}
 		},
 		{
-			actor = 107221,
+			actor = 107220,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -66,7 +66,7 @@ return {
 			}
 		},
 		{
-			actor = 107091,
+			actor = 107090,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -86,7 +86,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 107221,
+			actor = 107220,
 			nameColor = "#a9f548",
 			say = "ええ、エセックスさん。その、「強くなる」にはどうすればいいと思う？",
 			typewriter = {
@@ -103,7 +103,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 107221,
+			actor = 107220,
 			nameColor = "#a9f548",
 			say = "私はいつも、自分の弱さをどう克服すればいいのかと考えている。ぜひこの母港の皆に褒め称えられている、敵役のエセックスさんにも意見を伺いたい",
 			typewriter = {
@@ -120,7 +120,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = -1,
-			actor = 107091,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "そ、そうなんだ……",
 			typewriter = {
@@ -137,7 +137,7 @@ return {
 			side = 2,
 			dir = -1,
 			blackBg = true,
-			actor = 107091,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "（…いつもはエンタープライズ先輩と比較されているのに、こうして単独で見られたら意外と…悪くないわね）",
 			typewriter = {
@@ -154,7 +154,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgName = "bg_story_outdoor",
-			actor = 107381,
+			actor = 107380,
 			nameColor = "#a9f548",
 			say = "うん、この写真は「褒められて顔が綻びざるを得ないエセックスちゃん」でいいでしょう",
 			flashout = {
@@ -188,7 +188,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = -1,
-			actor = 107091,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "シャングリラ！？いつの間に！？",
 			typewriter = {
@@ -216,7 +216,7 @@ return {
 			bgName = "bg_story_outdoor",
 			say = "あははは……こういう大切な瞬間こそ「記録」しませんとね。それより――インディペンデンスさんの質問に答えなくていいんですか？「エセックス先生」？",
 			dir = 1,
-			actor = 107381,
+			actor = 107380,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -236,7 +236,7 @@ return {
 			side = 1,
 			bgName = "bg_story_outdoor",
 			dir = -1,
-			actor = 107091,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "コホン！…まずは「目標」を設定したほうがいいと思う",
 			typewriter = {
@@ -259,7 +259,7 @@ return {
 			}
 		},
 		{
-			actor = 107221,
+			actor = 107220,
 			side = 0,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -275,7 +275,7 @@ return {
 			}
 		},
 		{
-			actor = 107091,
+			actor = 107090,
 			side = 1,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -295,7 +295,7 @@ return {
 			side = 0,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 107221,
+			actor = 107220,
 			nameColor = "#a9f548",
 			say = "なら、私は一体何を目標にすれば……",
 			typewriter = {
@@ -312,7 +312,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 107381,
+			actor = 107380,
 			nameColor = "#a9f548",
 			say = "エセックスが一番尊敬していて、一番越えたい目標であるエンタープライズさんでどうでしょう？",
 			typewriter = {
@@ -329,7 +329,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = -1,
-			actor = 107091,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "！？そ、そうね……確かにエンタープライズは一番尊敬する先輩であると同時に、一番超えたい人、だけど……",
 			typewriter = {
@@ -352,7 +352,7 @@ return {
 			}
 		},
 		{
-			actor = 107091,
+			actor = 107090,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -372,7 +372,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = -1,
-			actor = 107091,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "エンタープライズ先輩以外にも、自分にとって超える甲斐のある目標はきっと見つかると思う。よく観察していれば、ね",
 			typewriter = {
@@ -385,7 +385,7 @@ return {
 			}
 		},
 		{
-			actor = 107091,
+			actor = 107090,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -405,7 +405,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 107381,
+			actor = 107380,
 			nameColor = "#a9f548",
 			say = "エセックスらしいね。ふふふ。ただ、私はインディペンデンスさんは最初から「強くなる方法」を分かっていると思いますわ",
 			typewriter = {
@@ -418,7 +418,7 @@ return {
 			}
 		},
 		{
-			actor = 107381,
+			actor = 107380,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -438,7 +438,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 107381,
+			actor = 107380,
 			nameColor = "#a9f548",
 			say = "焦りさえしなければ、きっと素晴らしい成果を得ることが出来ますよ。インディペンデンスさん",
 			typewriter = {
@@ -451,7 +451,7 @@ return {
 			}
 		},
 		{
-			actor = 107221,
+			actor = 107220,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -471,7 +471,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 107221,
+			actor = 107220,
 			nameColor = "#a9f548",
 			say = "エセックスさん、シャングリラさん、明日の演習もよろしく頼む",
 			typewriter = {
@@ -488,7 +488,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 107221,
+			actor = 107220,
 			nameColor = "#a9f548",
 			say = "（手応えあり、か……うん、こうして聞きまわってて本当に良かった）",
 			typewriter = {
@@ -506,7 +506,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			blackBg = true,
-			actor = 107221,
+			actor = 107220,
 			nameColor = "#a9f548",
 			say = "（デンバーの言う通り、やはり他の人ともよく話した方がいいか…）",
 			typewriter = {

@@ -32,7 +32,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 312011,
+			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "で、熱光線に照射されたメンタルキューブがなんと、ピカーッと光りだしたにゃ！",
 			action = {
@@ -57,7 +57,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 312011,
+			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "ベルファストがその光を浴びちゃった時は大慌てしたにゃ、けど……",
 			typewriter = {
@@ -74,7 +74,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 312011,
+			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "でも本当に大変だったのはその後にゃ！",
 			typewriter = {
@@ -91,7 +91,7 @@ return {
 			side = 0,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 205021,
+			actor = 205020,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -111,7 +111,7 @@ return {
 			side = 1,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 312011,
+			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "そうだにゃ！ベルファストじゃなくて、メンタルキューブが消えてたのにゃ！",
 			typewriter = {
@@ -128,7 +128,7 @@ return {
 			side = 1,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 312011,
+			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "そしたら急にこの子がそこに現れたにゃ！",
 			typewriter = {
@@ -144,7 +144,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 202181,
+			actor = 202180,
 			nameColor = "#a9f548",
 			say = "あ、ベルファスト姉さまも来ましたね。",
 			action = {
@@ -169,7 +169,7 @@ return {
 			side = 0,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 202121,
+			actor = 202120,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -188,7 +188,7 @@ return {
 			side = 0,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 202111,
+			actor = 202110,
 			nameColor = "#a9f548",
 			say = "私もいますよ！あっ、ベルちゃんおはよー早く姉さんに抱っこさせて～",
 			action = {
@@ -213,7 +213,7 @@ return {
 			side = 1,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 202181,
+			actor = 202180,
 			nameColor = "#a9f548",
 			say = "え、エディンバラ姉さん…苦しいですよ……",
 			action = {
@@ -238,7 +238,7 @@ return {
 			side = 0,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 202111,
+			actor = 202110,
 			nameColor = "#a9f548",
 			say = "きゃっ！小さくなったベルかわいいいい！！",
 			action = {
@@ -260,7 +260,7 @@ return {
 			}
 		},
 		{
-			actor = 202121,
+			actor = 202120,
 			side = 1,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -276,7 +276,7 @@ return {
 			}
 		},
 		{
-			actor = 202111,
+			actor = 202110,
 			side = 0,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -292,7 +292,7 @@ return {
 			}
 		},
 		{
-			actor = 205011,
+			actor = 205010,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -312,7 +312,7 @@ return {
 			side = 0,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 205021,
+			actor = 205020,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -332,7 +332,7 @@ return {
 			side = 1,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 312011,
+			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "どうかにゃ…最初に自己紹介した時に「ベルファスト」って名乗ってたからにゃ…",
 			typewriter = {
@@ -349,7 +349,7 @@ return {
 			side = 1,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 312011,
+			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "ベルファストが二人いると紛らわしいにゃ、だから…結局「ベルちゃん」って呼ぶことにしたにゃ。",
 			typewriter = {
@@ -362,7 +362,7 @@ return {
 			}
 		},
 		{
-			actor = 202121,
+			actor = 202120,
 			side = 0,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -378,7 +378,7 @@ return {
 			}
 		},
 		{
-			actor = 202121,
+			actor = 202120,
 			side = 0,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -394,7 +394,7 @@ return {
 			}
 		},
 		{
-			actor = 202181,
+			actor = 202180,
 			side = 1,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -410,7 +410,7 @@ return {
 			}
 		},
 		{
-			actor = 205011,
+			actor = 205010,
 			side = 0,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -426,7 +426,7 @@ return {
 			}
 		},
 		{
-			actor = 202111,
+			actor = 202110,
 			side = 0,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -446,7 +446,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			blackBg = true,
-			actor = 202181,
+			actor = 202180,
 			nameColor = "#a9f548",
 			say = "もう…エディンバラ姉さん……",
 			typewriter = {

@@ -65,7 +65,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 203031,
+			actor = 203030,
 			nameColor = "#a9f548",
 			say = "Question？ニューカッスルさんがどこだって？",
 			flashout = {
@@ -95,7 +95,7 @@ return {
 			}
 		},
 		{
-			actor = 203031,
+			actor = 203030,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -115,7 +115,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgName = "bg_story_school",
-			actor = 203041,
+			actor = 203040,
 			nameColor = "#a9f548",
 			say = "あ、あれ？あの雲さんは……って、サボってません！サボってませんってば！",
 			flashout = {
@@ -145,7 +145,7 @@ return {
 			}
 		},
 		{
-			actor = 203041,
+			actor = 203040,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -164,7 +164,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 202081,
+			actor = 202080,
 			nameColor = "#a9f548",
 			say = "いいえ、見ておりません。…申し訳ございません",
 			flashout = {
@@ -197,7 +197,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 202111,
+			actor = 202110,
 			nameColor = "#a9f548",
 			say = "ニューカッスルさん？シェフィと一緒じゃないとなると、多分一人で本を読んでいるんですよ！",
 			flashout = {
@@ -227,7 +227,7 @@ return {
 			}
 		},
 		{
-			actor = 202111,
+			actor = 202110,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -243,7 +243,7 @@ return {
 			}
 		},
 		{
-			actor = 202111,
+			actor = 202110,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",

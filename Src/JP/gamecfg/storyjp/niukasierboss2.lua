@@ -50,7 +50,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 203041,
+			actor = 203040,
 			nameColor = "#a9f548",
 			say = "ふぅ……なんとか持ちこたえましたぁ……",
 			typewriter = {
@@ -67,7 +67,7 @@ return {
 			side = 0,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 203031,
+			actor = 203030,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -97,7 +97,7 @@ return {
 			side = 1,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 203041,
+			actor = 203040,
 			nameColor = "#a9f548",
 			say = "きっとメイド長たちの防衛線が一番大変だろうけど、まさか側面の防衛線もここまで大変になるなんて……",
 			typewriter = {
@@ -110,7 +110,7 @@ return {
 			}
 		},
 		{
-			actor = 203041,
+			actor = 203040,
 			side = 1,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -126,7 +126,7 @@ return {
 			}
 		},
 		{
-			actor = 203031,
+			actor = 203030,
 			side = 0,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -146,7 +146,7 @@ return {
 			side = 1,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 203041,
+			actor = 203040,
 			nameColor = "#a9f548",
 			say = "あははは…でも、味方と戦うのはたとえ演習でもちょっと緊張しません？",
 			typewriter = {
@@ -159,7 +159,7 @@ return {
 			}
 		},
 		{
-			actor = 203031,
+			actor = 203030,
 			side = 0,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -178,7 +178,7 @@ return {
 			side = 0,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 203031,
+			actor = 203030,
 			nameColor = "#a9f548",
 			say = "「全力でかかってこーい！」とか、 「Come on！お前たちの力はそんなもんじゃないだろ？」とか",
 			typewriter = {
@@ -205,7 +205,7 @@ return {
 			side = 1,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 203041,
+			actor = 203040,
 			nameColor = "#a9f548",
 			say = "ケント、あとでみんなに叱られちゃいますよ……",
 			typewriter = {
@@ -218,7 +218,7 @@ return {
 			}
 		},
 		{
-			actor = 203031,
+			actor = 203030,
 			side = 0,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -238,7 +238,7 @@ return {
 			side = 1,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 203041,
+			actor = 203040,
 			nameColor = "#a9f548",
 			say = "はあ…私はただ雲さんを観察したりサボったりしたかっただけなのにぃ……",
 			typewriter = {
@@ -256,7 +256,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 900131,
+			actor = 202190,
 			actorName = "？？？",
 			say = "サフォーク。ロイヤルメイドたる者がサボったりしてはいけませんよ",
 			typewriter = {
@@ -273,7 +273,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 203041,
+			actor = 203040,
 			nameColor = "#a9f548",
 			say = "いたっ！だ、誰ですか空砲でデコピンしたのは！あれ、あなたは…",
 			typewriter = {
@@ -296,7 +296,7 @@ return {
 			}
 		},
 		{
-			actor = 203031,
+			actor = 203030,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -312,7 +312,7 @@ return {
 			}
 		},
 		{
-			actor = 202191,
+			actor = 202190,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -328,7 +328,7 @@ return {
 			}
 		},
 		{
-			actor = 202191,
+			actor = 202190,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -349,7 +349,7 @@ return {
 			bgName = "bg_story_nepu1",
 			say = "ニューカッスルさ～ん！",
 			dir = 1,
-			actor = 203041,
+			actor = 203040,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -375,7 +375,7 @@ return {
 			}
 		},
 		{
-			actor = 202191,
+			actor = 202190,
 			side = 0,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -395,7 +395,7 @@ return {
 			side = 1,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 203041,
+			actor = 203040,
 			nameColor = "#a9f548",
 			say = "ベルファストさんは有能ですけど、やっぱり親しみやすさ的にはニューカッスルさんが一番ですよー",
 			typewriter = {
@@ -411,7 +411,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 203031,
+			actor = 203030,
 			nameColor = "#a9f548",
 			say = "あ！ずるい！私も！",
 			typewriter = {
@@ -438,7 +438,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 203041,
+			actor = 203040,
 			nameColor = "#a9f548",
 			say = "ニューカッスルさんの匂い……（くんくん",
 			typewriter = {
@@ -461,7 +461,7 @@ return {
 			}
 		},
 		{
-			actor = 202191,
+			actor = 202190,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -477,7 +477,7 @@ return {
 			}
 		},
 		{
-			actor = 202191,
+			actor = 202190,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -497,7 +497,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 203041,
+			actor = 203040,
 			nameColor = "#a9f548",
 			say = "はーい。モチベーションがちょっと上がりました",
 			typewriter = {
@@ -514,7 +514,7 @@ return {
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			blackBg = true,
-			actor = 202191,
+			actor = 202190,
 			nameColor = "#a9f548",
 			say = "ではお任せします。私はほかの防衛線を見回りますから、またあとでね",
 			typewriter = {

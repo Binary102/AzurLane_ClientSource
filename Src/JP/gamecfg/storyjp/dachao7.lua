@@ -66,7 +66,7 @@ return {
 			}
 		},
 		{
-			actor = 301641,
+			actor = 301640,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -92,7 +92,7 @@ return {
 			}
 		},
 		{
-			actor = 301641,
+			actor = 301640,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -108,7 +108,7 @@ return {
 			}
 		},
 		{
-			actor = 301641,
+			actor = 301640,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -124,7 +124,7 @@ return {
 			}
 		},
 		{
-			actor = 301641,
+			actor = 301640,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -154,7 +154,7 @@ return {
 			}
 		},
 		{
-			actor = 301631,
+			actor = 301630,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -170,7 +170,7 @@ return {
 			}
 		},
 		{
-			actor = 301631,
+			actor = 301630,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -196,7 +196,7 @@ return {
 			}
 		},
 		{
-			actor = 900150,
+			actor = 301660,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -212,7 +212,7 @@ return {
 			}
 		},
 		{
-			actor = 900150,
+			actor = 301660,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -238,7 +238,7 @@ return {
 			}
 		},
 		{
-			actor = 301651,
+			actor = 301650,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -254,7 +254,7 @@ return {
 			}
 		},
 		{
-			actor = 301641,
+			actor = 301640,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -285,24 +285,24 @@ return {
 			bgName = "star_level_bg_103",
 			dir = 1,
 			blackBg = true,
-			actor = 301631,
+			actor = 301630,
 			actorName = "朝潮级四人",
 			say = "これからもよろしくね！指揮官～",
 			subActors = {
 				{
-					actor = 301641,
+					actor = 301640,
 					pos = {
 						x = -250
 					}
 				},
 				{
-					actor = 900150,
+					actor = 301660,
 					pos = {
 						x = 250
 					}
 				},
 				{
-					actor = 301651,
+					actor = 301650,
 					pos = {
 						x = 500
 					}

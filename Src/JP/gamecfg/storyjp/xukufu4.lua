@@ -49,7 +49,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 808011,
+			actor = 808010,
 			nameColor = "#a9f548",
 			say = "指揮官、肉団子とタコウィンナー、あとこれ……うん、これもこれも！ちょうだい！",
 			typewriter = {
@@ -68,7 +68,7 @@ return {
 			}
 		},
 		{
-			actor = 808011,
+			actor = 808010,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -84,7 +84,7 @@ return {
 			}
 		},
 		{
-			actor = 808011,
+			actor = 808010,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -100,7 +100,7 @@ return {
 			}
 		},
 		{
-			actor = 808011,
+			actor = 808010,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -116,7 +116,7 @@ return {
 			}
 		},
 		{
-			actor = 904011,
+			actor = 904010,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -132,7 +132,7 @@ return {
 			}
 		},
 		{
-			actor = 808011,
+			actor = 808010,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -148,7 +148,7 @@ return {
 			}
 		},
 		{
-			actor = 904011,
+			actor = 904010,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -167,7 +167,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 808011,
+			actor = 808010,
 			nameColor = "#a9f548",
 			say = "本当？よかった～指揮官、お仕事が終わったら、ダンケルクの所に行ってお菓子食べに行こうよ！",
 			typewriter = {
@@ -186,7 +186,7 @@ return {
 			}
 		},
 		{
-			actor = 904011,
+			actor = 904010,
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -201,7 +201,7 @@ return {
 			}
 		},
 		{
-			actor = 808011,
+			actor = 808010,
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -226,7 +226,7 @@ return {
 			}
 		},
 		{
-			actor = 808011,
+			actor = 808010,
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -241,7 +241,7 @@ return {
 			}
 		},
 		{
-			actor = 808011,
+			actor = 808010,
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -256,7 +256,7 @@ return {
 			}
 		},
 		{
-			actor = 808011,
+			actor = 808010,
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -271,7 +271,7 @@ return {
 			}
 		},
 		{
-			actor = 808011,
+			actor = 808010,
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -286,7 +286,7 @@ return {
 			}
 		},
 		{
-			actor = 808011,
+			actor = 808010,
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -321,7 +321,7 @@ return {
 			}
 		},
 		{
-			actor = 808011,
+			actor = 808010,
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -336,7 +336,7 @@ return {
 			}
 		},
 		{
-			actor = 808011,
+			actor = 808010,
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,

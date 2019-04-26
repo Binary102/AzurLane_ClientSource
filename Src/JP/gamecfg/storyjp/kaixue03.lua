@@ -29,7 +29,7 @@ return {
 			}
 		},
 		{
-			actor = 900085,
+			actor = 102121,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -45,7 +45,7 @@ return {
 			}
 		},
 		{
-			actor = 900085,
+			actor = 102121,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -61,7 +61,7 @@ return {
 			}
 		},
 		{
-			actor = 900085,
+			actor = 102121,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -77,7 +77,7 @@ return {
 			}
 		},
 		{
-			actor = 900085,
+			actor = 102121,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -120,7 +120,7 @@ return {
 			}
 		},
 		{
-			actor = 900085,
+			actor = 102121,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -136,7 +136,7 @@ return {
 			}
 		},
 		{
-			actor = 900085,
+			actor = 102121,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -152,7 +152,7 @@ return {
 			}
 		},
 		{
-			actor = 900085,
+			actor = 102121,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -191,7 +191,7 @@ return {
 			}
 		},
 		{
-			actor = 900085,
+			actor = 102121,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -207,7 +207,7 @@ return {
 			}
 		},
 		{
-			actor = 900085,
+			actor = 102121,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -223,7 +223,7 @@ return {
 			}
 		},
 		{
-			actor = 900085,
+			actor = 102121,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -239,7 +239,7 @@ return {
 			}
 		},
 		{
-			actor = 900085,
+			actor = 102121,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -272,7 +272,7 @@ return {
 			}
 		},
 		{
-			actor = 900085,
+			actor = 102121,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -288,7 +288,7 @@ return {
 			}
 		},
 		{
-			actor = 900085,
+			actor = 102121,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -321,7 +321,7 @@ return {
 			}
 		},
 		{
-			actor = 900085,
+			actor = 102121,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -337,7 +337,7 @@ return {
 			}
 		},
 		{
-			actor = 900085,
+			actor = 102121,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",

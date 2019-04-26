@@ -23,7 +23,7 @@ return {
 			bgmDelay = 2,
 			bgName = "bg_story_task",
 			bgm = "story-1",
-			actor = 900138,
+			actor = 101271,
 			nameColor = "#a9f548",
 			say = "お化けさん、お家に帰れなくて可哀想……",
 			flashout = {
@@ -53,7 +53,7 @@ return {
 			}
 		},
 		{
-			actor = 900138,
+			actor = 101271,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -72,7 +72,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 900138,
+			actor = 101271,
 			nameColor = "#a9f548",
 			say = "……そういえば、お化けさんは一体どこにいるの？",
 			flashout = {
@@ -106,7 +106,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 900138,
+			actor = 101271,
 			nameColor = "#a9f548",
 			say = "それと、お化けさんは飛べるよね。ウサウサ星人は飛べないのに……",
 			typewriter = {
@@ -119,7 +119,7 @@ return {
 			}
 		},
 		{
-			actor = 900138,
+			actor = 101271,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -175,7 +175,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 900138,
+			actor = 101271,
 			nameColor = "#a9f548",
 			say = "（古倉庫…幽霊…もしかして……）",
 			typewriter = {
@@ -192,7 +192,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 900138,
+			actor = 101271,
 			nameColor = "#a9f548",
 			say = "ウサ美、ウサ吉、こっちよ！",
 			typewriter = {
@@ -215,7 +215,7 @@ return {
 			}
 		},
 		{
-			actor = 900138,
+			actor = 101271,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -235,7 +235,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgName = "star_level_bg_103",
-			actor = 900138,
+			actor = 101271,
 			nameColor = "#a9f548",
 			say = "でも善き魔女は三人必要ってことは…綾波は「自分は善き魔女じゃないです」と言っているし、ほかには……",
 			flashout = {
@@ -269,7 +269,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 900137,
+			actor = 302051,
 			nameColor = "#a9f548",
 			say = "うええええ…幽霊とかやっぱり怖いよぉ……で、でも、探さないと……",
 			typewriter = {
@@ -295,7 +295,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 900138,
+			actor = 101271,
 			nameColor = "#a9f548",
 			say = "あ！新しい魔女発見！",
 			typewriter = {

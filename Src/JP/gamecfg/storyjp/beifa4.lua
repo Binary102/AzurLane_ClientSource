@@ -31,7 +31,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 202181,
+			actor = 202180,
 			nameColor = "#a9f548",
 			say = "ご機嫌麗しゅうございます。メイドのベルが着任しました！",
 			typewriter = {
@@ -54,7 +54,7 @@ return {
 			side = 0,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 202121,
+			actor = 202120,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -74,7 +74,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 312011,
+			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "実は――",
 			typewriter = {
@@ -91,7 +91,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgName = "bg_night",
-			actor = 312011,
+			actor = 312010,
 			nameColor = "#a9f548",
 			say = "かくかくしかじかにゃ。ちょっと複雑な事情で、着任が遅れたにゃ……",
 			flashout = {
@@ -125,7 +125,7 @@ return {
 			side = 1,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 202181,
+			actor = 202180,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -155,7 +155,7 @@ return {
 			bgName = "bg_night",
 			dir = 1,
 			optionFlag = 1,
-			actor = 202181,
+			actor = 202180,
 			nameColor = "#a9f548",
 			say = "よかったぁ…やっぱり姐さまたちが言ったように、指揮官は優しいお方ですね。",
 			typewriter = {
@@ -172,7 +172,7 @@ return {
 			bgName = "bg_night",
 			dir = 1,
 			optionFlag = 2,
-			actor = 202181,
+			actor = 202180,
 			nameColor = "#a9f548",
 			say = "これって…大丈夫、の意味ですか？ちょっとよくわかりませんが…でも指揮官はやっぱり姐さまたちが言ってた通り、優しいお方ですね。",
 			typewriter = {
@@ -189,7 +189,7 @@ return {
 			side = 0,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 312011,
+			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "指揮官ならベルちゃんをそのままにはしないって信じてたにゃ～",
 			typewriter = {
@@ -202,7 +202,7 @@ return {
 			}
 		},
 		{
-			actor = 202121,
+			actor = 202120,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -221,7 +221,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 202181,
+			actor = 202180,
 			nameColor = "#a9f548",
 			say = "はい！ベル、がんばります！",
 			action = {
@@ -257,7 +257,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			stopbgm = true,
-			actor = 312011,
+			actor = 312010,
 			nameColor = "#a9f548",
 			say = "でも…なんでベルちゃんはここに現れたのかにゃ……",
 			flashout = {
@@ -292,7 +292,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			actor = 302011,
+			actor = 302010,
 			actorName = "{namecode:37}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -312,7 +312,7 @@ return {
 			side = 0,
 			dir = 1,
 			blackBg = true,
-			actor = 312011,
+			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "夕張…何か手がかりがあったのかにゃ？",
 			typewriter = {
@@ -329,7 +329,7 @@ return {
 			side = 1,
 			dir = 1,
 			blackBg = true,
-			actor = 302011,
+			actor = 302010,
 			actorName = "{namecode:37}",
 			say = "むむむ…なんかあったような…なかったような…",
 			typewriter = {
@@ -346,7 +346,7 @@ return {
 			side = 0,
 			dir = 1,
 			blackBg = true,
-			actor = 312011,
+			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "実験は継続だにゃ…",
 			typewriter = {
@@ -363,7 +363,7 @@ return {
 			side = 1,
 			dir = 1,
 			blackBg = true,
-			actor = 302011,
+			actor = 302010,
 			actorName = "{namecode:37}",
 			say = "うん…じゃあ…257回目の実験は…",
 			typewriter = {

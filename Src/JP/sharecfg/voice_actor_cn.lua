@@ -699,6 +699,10 @@ pg.voice_actor_CN = {
 	{
 		actor_name = "安野希世乃",
 		code = 175
+	},
+	{
+		actor_name = "キズナアイ",
+		code = 176
 	}
 }
 

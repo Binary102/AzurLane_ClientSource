@@ -29,6 +29,7 @@ function slot0.Nation2Print(slot0)
 			"mnf",
 			[102.0] = "bili",
 			[101.0] = "np",
+			[104.0] = "um",
 			[103.0] = "um"
 		}
 	end
@@ -51,6 +52,7 @@ function slot0.Nation2Side(slot0)
 			"West",
 			[102.0] = "East",
 			[101.0] = "East",
+			[104.0] = "West",
 			[103.0] = "East"
 		}
 	end
@@ -73,6 +75,7 @@ function slot0.Nation2BG(slot0)
 			"bg/bg_church",
 			[102.0] = "bg/bg_church",
 			[101.0] = "bg/bg_church",
+			[104.0] = "bg/bg_church",
 			[103.0] = "bg/bg_church"
 		}
 	end
@@ -94,7 +97,8 @@ function slot0.Nation2Name(slot0)
 			[9] = i18n("word_shipNation_weixi"),
 			[101] = i18n("word_shipNation_np"),
 			[102] = i18n("word_shipNation_bili"),
-			[103] = i18n("word_shipNation_um")
+			[103] = i18n("word_shipNation_um"),
+			[104] = i18n("word_shipNation_ai")
 		}
 	end
 
@@ -115,7 +119,8 @@ function slot0.Nation2facionName(slot0)
 			[9] = i18n("guild_faction_cszz"),
 			[101] = i18n("guild_faction_unknown"),
 			[102] = i18n("guild_faction_unknown"),
-			[103] = i18n("guild_faction_unknown")
+			[103] = i18n("guild_faction_unknown"),
+			[104] = i18n("guild_faction_unknown")
 		}
 	end
 

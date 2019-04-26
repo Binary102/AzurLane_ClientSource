@@ -82,12 +82,6 @@ class("UpgradeStarCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 				end
 
 				slot1:updateShip(slot2)
-
-				if slot4 then
-					slot4.star = math.max(slot4.star, slot2:getStar())
-
-					slot4:updateShipGroup(slot4)
-				end
 			end
 
 			slot3 = getProxy(BagProxy)
@@ -103,7 +97,7 @@ class("UpgradeStarCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 				gold = slot2.use_gold
 			})
 			slot4:updatePlayer(slot5)
-			slot4.updatePlayer:sendNotification(GAME.UPGRADE_STAR_DONE, {
+			slot4:sendNotification(GAME.UPGRADE_STAR_DONE, {
 				newShip = slot2,
 				oldShip = slot3
 			})

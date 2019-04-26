@@ -16,28 +16,28 @@ return {
 			}
 		},
 		{
-			actor = 900034,
+			actor = 106011,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			say = "ｼﾞｮｲﾝｼﾞｮｲﾝﾛﾝｸﾞｱｲﾗﾝﾄﾞﾍﾌﾞﾝｵｱﾍﾙﾀｲﾑｵﾌﾞﾚﾄﾋﾞｭｰｼｮﾝﾅｷﾞｯﾅｷﾞｯﾅｷﾞｯﾌｩ"
 		},
 		{
-			actor = 900034,
+			actor = 106011,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			say = "ﾊｧﾅｷﾞｯｹﾞｼｮｳﾘｭｳｹﾝｼｮｳﾘｭｳｹﾝﾀﾂﾏｷｾﾝﾌﾟｳｷｬｸﾃﾞﾝｺｳｷｶﾝｶｲﾎｳﾊｧｰﾃﾝｼｮｳﾋｬｸ"
 		},
 		{
-			actor = 900034,
+			actor = 106011,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			say = "ﾚﾂｹﾝﾅｷﾞｯﾊｱｱｱｱｷｨｰﾝﾎｸﾄｳｼﾞｮｳﾀﾞﾝｼﾞﾝｹﾝｺﾉﾒﾆｳｰK.O. ｼｼｮｰｲﾉﾁﾊﾅｹﾞｽﾃﾙﾓﾉ"
 		},
 		{
-			actor = 900034,
+			actor = 106011,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -52,7 +52,7 @@ return {
 			}
 		},
 		{
-			actor = 900034,
+			actor = 106011,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -67,7 +67,7 @@ return {
 			}
 		},
 		{
-			actor = 900034,
+			actor = 106011,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -82,7 +82,7 @@ return {
 			}
 		},
 		{
-			actor = 900034,
+			actor = 106011,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -97,7 +97,7 @@ return {
 			}
 		},
 		{
-			actor = 900034,
+			actor = 106011,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -112,7 +112,7 @@ return {
 			}
 		},
 		{
-			actor = 900034,
+			actor = 106011,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,

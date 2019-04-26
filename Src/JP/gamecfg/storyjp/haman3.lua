@@ -37,7 +37,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 101251,
+			actor = 101250,
 			say = "と、とりあえず執務室の掃除でもしようかな……",
 			flashout = {
 				dur = 1,
@@ -83,7 +83,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 101251,
+			actor = 101250,
 			say = "ど、どうしよう…指揮官に嫌われたらハムマン……",
 			flashout = {
 				dur = 1,
@@ -121,7 +121,7 @@ return {
 			}
 		},
 		{
-			actor = 101251,
+			actor = 101250,
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -136,7 +136,7 @@ return {
 			}
 		},
 		{
-			actor = 101251,
+			actor = 101250,
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -159,7 +159,7 @@ return {
 			}
 		},
 		{
-			actor = 101251,
+			actor = 101250,
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -197,7 +197,7 @@ return {
 			}
 		},
 		{
-			actor = 101251,
+			actor = 101250,
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -220,7 +220,7 @@ return {
 			}
 		},
 		{
-			actor = 101251,
+			actor = 101250,
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -261,7 +261,7 @@ return {
 			}
 		},
 		{
-			actor = 101251,
+			actor = 101250,
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -299,7 +299,7 @@ return {
 			}
 		},
 		{
-			actor = 101251,
+			actor = 101250,
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -314,7 +314,7 @@ return {
 			}
 		},
 		{
-			actor = 101251,
+			actor = 101250,
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -337,7 +337,7 @@ return {
 			}
 		},
 		{
-			actor = 101251,
+			actor = 101250,
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -374,7 +374,7 @@ return {
 			}
 		},
 		{
-			actor = 101241,
+			actor = 101240,
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -397,7 +397,7 @@ return {
 			}
 		},
 		{
-			actor = 101251,
+			actor = 101250,
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -412,7 +412,7 @@ return {
 			}
 		},
 		{
-			actor = 101241,
+			actor = 101240,
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -431,7 +431,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			actor = 101251,
+			actor = 101250,
 			say = "きゃあああああああああああ！！！！",
 			typewriter = {
 				speed = 0.05,

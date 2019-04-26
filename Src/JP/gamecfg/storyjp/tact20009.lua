@@ -6,7 +6,7 @@ return {
 	fadeType = 1,
 	scripts = {
 		{
-			actor = 407011,
+			actor = 407010,
 			side = 2,
 			nameColor = "#ff0000",
 			mode = 2,
@@ -25,7 +25,7 @@ return {
 			}
 		},
 		{
-			actor = 407011,
+			actor = 407010,
 			side = 2,
 			nameColor = "#ff0000",
 			mode = 2,
@@ -44,7 +44,7 @@ return {
 			}
 		},
 		{
-			actor = 407011,
+			actor = 407010,
 			side = 2,
 			nameColor = "#ff0000",
 			mode = 2,

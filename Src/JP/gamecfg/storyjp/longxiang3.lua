@@ -56,7 +56,7 @@ return {
 			}
 		},
 		{
-			actor = 306021,
+			actor = 306020,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -72,7 +72,7 @@ return {
 			}
 		},
 		{
-			actor = 306021,
+			actor = 306020,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -93,7 +93,7 @@ return {
 			bgName = "bg_story_task",
 			say = "そうですか。はい、次です",
 			dir = 1,
-			actor = 306061,
+			actor = 306060,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -109,7 +109,7 @@ return {
 			}
 		},
 		{
-			actor = 306021,
+			actor = 306020,
 			side = 1,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -129,7 +129,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 306061,
+			actor = 306060,
 			nameColor = "#a9f548",
 			say = "そうですね。これもお願いします",
 			typewriter = {
@@ -142,7 +142,7 @@ return {
 			}
 		},
 		{
-			actor = 306021,
+			actor = 306020,
 			side = 1,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -162,7 +162,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 306061,
+			actor = 306060,
 			nameColor = "#a9f548",
 			say = "うん。残り二つ……今回は大成功でしたよね！",
 			typewriter = {
@@ -175,7 +175,7 @@ return {
 			}
 		},
 		{
-			actor = 306021,
+			actor = 306020,
 			side = 1,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -194,7 +194,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 306061,
+			actor = 306060,
 			nameColor = "#a9f548",
 			say = "頼みます。……ってそれは秘書艦の自分の仕事じゃないですか！",
 			typewriter = {
@@ -245,7 +245,7 @@ return {
 			}
 		},
 		{
-			actor = 306021,
+			actor = 306020,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -261,7 +261,7 @@ return {
 			}
 		},
 		{
-			actor = 306061,
+			actor = 306060,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -281,7 +281,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 306061,
+			actor = 306060,
 			nameColor = "#a9f548",
 			say = "隼鷹、言っときますが殿を拉致、なんてことだけはするんじゃありませんよ",
 			typewriter = {
@@ -294,7 +294,7 @@ return {
 			}
 		},
 		{
-			actor = 306021,
+			actor = 306020,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -314,7 +314,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 306061,
+			actor = 306060,
 			nameColor = "#a9f548",
 			say = "………………",
 			typewriter = {
@@ -331,7 +331,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 306061,
+			actor = 306060,
 			nameColor = "#a9f548",
 			say = "（小声）……殿と、デート……",
 			typewriter = {
@@ -348,7 +348,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 306061,
+			actor = 306060,
 			nameColor = "#a9f548",
 			say = "（小声）一体どんな感じなんだろう……",
 			typewriter = {

@@ -17,7 +17,7 @@ return {
 			}
 		},
 		{
-			actor = 206031,
+			actor = 206030,
 			side = 2,
 			say = "お、お兄ちゃん……ユニコーンがいいよと言うまで、目を開けちゃ…めっ、だよ",
 			nameColor = "#a9f548",
@@ -33,7 +33,7 @@ return {
 			}
 		},
 		{
-			actor = 206031,
+			actor = 206030,
 			side = 2,
 			say = "うぅ…やっぱり……",
 			nameColor = "#a9f548",
@@ -49,7 +49,7 @@ return {
 			}
 		},
 		{
-			actor = 206031,
+			actor = 206030,
 			side = 2,
 			say = "星の歌姫さま……ユニコーンに勇気を……",
 			nameColor = "#a9f548",
@@ -65,7 +65,7 @@ return {
 			}
 		},
 		{
-			actor = 206031,
+			actor = 206030,
 			side = 2,
 			say = "……お兄ちゃん……もういいよ？",
 			nameColor = "#a9f548",
@@ -81,7 +81,7 @@ return {
 			}
 		},
 		{
-			actor = 900039,
+			actor = 206031,
 			side = 2,
 			nameColor = "#a9f548",
 			say = "～♪",
@@ -112,7 +112,7 @@ return {
 			}
 		},
 		{
-			actor = 900039,
+			actor = 206031,
 			nameColor = "#a9f548",
 			side = 2,
 			say = "はぁ……ど、どぉ…？星の歌姫さまからもらったこの衣装……そしてこの歌……",
@@ -126,7 +126,7 @@ return {
 			}
 		},
 		{
-			actor = 900039,
+			actor = 206031,
 			nameColor = "#a9f548",
 			side = 2,
 			say = "どう……？お兄ちゃん、喜んでくれてる……？",
@@ -140,7 +140,7 @@ return {
 			}
 		},
 		{
-			actor = 900039,
+			actor = 206031,
 			nameColor = "#a9f548",
 			side = 2,
 			say = "ユニコーン……頑張ってる……？",
@@ -154,7 +154,7 @@ return {
 			}
 		},
 		{
-			actor = 900039,
+			actor = 206031,
 			nameColor = "#a9f548",
 			side = 2,
 			say = "…お兄ちゃん？お、お兄ちゃん！？",
@@ -168,7 +168,7 @@ return {
 			}
 		},
 		{
-			actor = 900039,
+			actor = 206031,
 			side = 2,
 			nameColor = "#a9f548",
 			say = "ふぅ…よかった……お兄ちゃん…だいじょうぶみたい……",
@@ -199,7 +199,7 @@ return {
 			}
 		},
 		{
-			actor = 900039,
+			actor = 206031,
 			nameColor = "#a9f548",
 			side = 2,
 			say = "嬉しすぎて…気を失った……？",
@@ -213,7 +213,7 @@ return {
 			}
 		},
 		{
-			actor = 900039,
+			actor = 206031,
 			nameColor = "#a9f548",
 			side = 2,
 			say = "お兄ちゃん……(///)",
@@ -227,7 +227,7 @@ return {
 			}
 		},
 		{
-			actor = 900039,
+			actor = 206031,
 			nameColor = "#a9f548",
 			side = 2,
 			say = "……ありがとう……お兄ちゃん……お兄ちゃんが嬉しいなら、ユニコーン…満足だよ？……やっぱり星の歌姫さまが言ってた通り…",
@@ -241,7 +241,7 @@ return {
 			}
 		},
 		{
-			actor = 900039,
+			actor = 206031,
 			nameColor = "#a9f548",
 			side = 2,
 			say = "「小さな勇気こそ、最強の魔法」……えへへ♪",

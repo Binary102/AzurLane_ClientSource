@@ -4,7 +4,7 @@ return {
 	once = true,
 	scripts = {
 		{
-			actor = 303114,
+			actor = 303110,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -19,7 +19,7 @@ return {
 			}
 		},
 		{
-			actor = 303124,
+			actor = 303120,
 			side = 0,
 			say = "うふふ、高雄ちゃん、相変わらずせっかちね。相手にはプリンス・オブ・ウェールズという最新鋭艦がいるのよ。金剛と榛名でも中々敵わないわ。",
 			dir = 1,
@@ -38,7 +38,7 @@ return {
 			}
 		},
 		{
-			actor = 303114,
+			actor = 303110,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -53,7 +53,7 @@ return {
 			}
 		},
 		{
-			actor = 303124,
+			actor = 303120,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -68,7 +68,7 @@ return {
 			}
 		},
 		{
-			actor = 303114,
+			actor = 303110,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -83,7 +83,7 @@ return {
 			}
 		},
 		{
-			actor = 303124,
+			actor = 303120,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -98,7 +98,7 @@ return {
 			}
 		},
 		{
-			actor = 303114,
+			actor = 303110,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -113,7 +113,7 @@ return {
 			}
 		},
 		{
-			actor = 303124,
+			actor = 303120,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,

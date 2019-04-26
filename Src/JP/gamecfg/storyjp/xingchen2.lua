@@ -133,7 +133,7 @@ return {
 			}
 		},
 		{
-			actor = 206031,
+			actor = 206030,
 			nameColor = "#a9f548",
 			side = 0,
 			blackBg = true,
@@ -164,7 +164,7 @@ return {
 			}
 		},
 		{
-			actor = 206031,
+			actor = 206030,
 			nameColor = "#a9f548",
 			side = 0,
 			blackBg = true,
@@ -179,7 +179,7 @@ return {
 			}
 		},
 		{
-			actor = 206031,
+			actor = 206030,
 			nameColor = "#a9f548",
 			side = 0,
 			blackBg = true,
@@ -305,7 +305,7 @@ return {
 			mode = 2,
 			side = 2,
 			blackBg = true,
-			actor = 206031,
+			actor = 206030,
 			nameColor = "#a9f548",
 			say = "これが……歌の力……すごい……",
 			flashout = {
@@ -335,7 +335,7 @@ return {
 			}
 		},
 		{
-			actor = 206031,
+			actor = 206030,
 			mode = 2,
 			nameColor = "#a9f548",
 			side = 2,
@@ -351,7 +351,7 @@ return {
 			}
 		},
 		{
-			actor = 206031,
+			actor = 206030,
 			mode = 2,
 			nameColor = "#a9f548",
 			side = 2,

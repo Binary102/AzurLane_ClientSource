@@ -66,7 +66,7 @@ return {
 			}
 		},
 		{
-			actor = 306061,
+			actor = 306060,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -86,7 +86,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 306061,
+			actor = 306060,
 			nameColor = "#a9f548",
 			say = "………………………",
 			typewriter = {
@@ -112,7 +112,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 306061,
+			actor = 306060,
 			nameColor = "#a9f548",
 			say = "そそそそのですね！し、執務時間外にお付き合いいただき感謝いたします！",
 			typewriter = {
@@ -139,7 +139,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 306061,
+			actor = 306060,
 			nameColor = "#a9f548",
 			say = "じ、実は折り入って相談がございます！",
 			typewriter = {
@@ -156,7 +156,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 306061,
+			actor = 306060,
 			nameColor = "#a9f548",
 			say = "殿に毎日味噌汁を作っていただきたく存じます！",
 			effects = {
@@ -195,7 +195,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 306061,
+			actor = 306060,
 			nameColor = "#a9f548",
 			say = "と、とにかく、この前食堂で至らぬところを殿に見られてから、殿の視線が四六時中気になって致し方ありません！",
 			typewriter = {
@@ -218,7 +218,7 @@ return {
 			}
 		},
 		{
-			actor = 306061,
+			actor = 306060,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -238,7 +238,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 306061,
+			actor = 306060,
 			nameColor = "#a9f548",
 			say = "ずばり、「校舎の裏で指揮官に告白したらきっと壁ドンされてドキドキする間もなく全て無事解決！」とサラトガさんに力説されてこういう行動に至った次第でございます！",
 			typewriter = {
@@ -255,7 +255,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 306061,
+			actor = 306060,
 			nameColor = "#a9f548",
 			say = "はぁ…はぁ……………や、やっぱり自分にはこういう「いろこいざた」は苦手というか…無理なのでしょうか……",
 			typewriter = {
@@ -278,7 +278,7 @@ return {
 			}
 		},
 		{
-			actor = 306061,
+			actor = 306060,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -298,7 +298,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 306061,
+			actor = 306060,
 			nameColor = "#a9f548",
 			say = "だから、どうか自分の気持ちを受け取ってください！不肖龍驤、殿のためなら火の中水の中でも征く所存です！",
 			typewriter = {
@@ -325,7 +325,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 306061,
+			actor = 306060,
 			nameColor = "#a9f548",
 			say = "指揮官のことが、大好きです！",
 			typewriter = {

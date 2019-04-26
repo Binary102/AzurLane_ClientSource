@@ -97,7 +97,7 @@ return {
 			}
 		},
 		{
-			actor = 401461,
+			actor = 401460,
 			side = 2,
 			bgName = "bg_story_task",
 			say = "私を呼ぶのはあなただろうか？",
@@ -123,7 +123,7 @@ return {
 			}
 		},
 		{
-			actor = 401461,
+			actor = 401460,
 			side = 2,
 			bgName = "bg_story_task",
 			say = "私は……",
@@ -161,7 +161,7 @@ return {
 			}
 		},
 		{
-			actor = 401461,
+			actor = 401460,
 			side = 2,
 			bgName = "bg_story_task",
 			say = "口悔しいが、名乗れる名前がない私を、今しばらくZ46（フィーゼ）と呼んでおくれ。",
@@ -199,7 +199,7 @@ return {
 			}
 		},
 		{
-			actor = 401461,
+			actor = 401460,
 			side = 2,
 			bgName = "bg_story_task",
 			say = "いかがだろうか。この呼び方では不服だろうか？",
@@ -237,7 +237,7 @@ return {
 			}
 		},
 		{
-			actor = 401461,
+			actor = 401460,
 			side = 2,
 			bgName = "bg_story_task",
 			say = "本当の名前を見つけるまで、この名前が私をつなぐ糸とならん。",
@@ -251,7 +251,7 @@ return {
 			}
 		},
 		{
-			actor = 401461,
+			actor = 401460,
 			side = 2,
 			bgName = "bg_story_task",
 			say = "さあ、私の主となる者よ、糸を引き、往くべき道を示してくれたまえ！",

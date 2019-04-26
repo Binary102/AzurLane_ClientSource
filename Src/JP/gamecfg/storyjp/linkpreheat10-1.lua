@@ -8,7 +8,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgm = "level-uta",
-			actor = 10300011,
+			actor = 10300010,
 			nameColor = "#a9f548",
 			say = "だったら──私に任せてもらおうかな",
 			flashin = {
@@ -30,7 +30,7 @@ return {
 			}
 		},
 		{
-			actor = 201211,
+			actor = 201210,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -45,7 +45,7 @@ return {
 			}
 		},
 		{
-			actor = 10300011,
+			actor = 10300010,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -64,7 +64,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			actor = 10300011,
+			actor = 10300010,
 			say = "すばしっこい私なら、あいつらを引きつけて逃げ回るくらい朝飯前だよ",
 			typewriter = {
 				speed = 0.05,
@@ -80,7 +80,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			actor = 10300011,
+			actor = 10300010,
 			say = "いざって時は……切り札もあるしね",
 			typewriter = {
 				speed = 0.05,
@@ -92,7 +92,7 @@ return {
 			}
 		},
 		{
-			actor = 10300011,
+			actor = 10300010,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -107,7 +107,7 @@ return {
 			}
 		},
 		{
-			actor = 10300031,
+			actor = 10300030,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -122,7 +122,7 @@ return {
 			}
 		},
 		{
-			actor = 10300021,
+			actor = 10300020,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -137,7 +137,7 @@ return {
 			}
 		},
 		{
-			actor = 10300061,
+			actor = 10300060,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -152,7 +152,7 @@ return {
 			}
 		},
 		{
-			actor = 10300011,
+			actor = 10300010,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -167,7 +167,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -182,7 +182,7 @@ return {
 			}
 		},
 		{
-			actor = 10300011,
+			actor = 10300010,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,

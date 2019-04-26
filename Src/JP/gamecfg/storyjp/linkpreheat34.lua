@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "main-uta",
-			actor = 312011,
+			actor = 312010,
 			nameColor = "#a9f548",
 			say = "──鏡面海域について、明石が知っているデータはこれくらいだにゃ",
 			flashout = {
@@ -56,7 +56,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 10300041,
+			actor = 10300040,
 			nameColor = "#a9f548",
 			say = "感謝",
 			typewriter = {
@@ -74,7 +74,7 @@ return {
 			bgName = "bg_story_task",
 			say = "ご協力ありがとうございます、猫神さま。これだけ情報があれば十分です。ここから、わたしたちも解析の手掛かりを探りましょう",
 			dir = 1,
-			actor = 10300051,
+			actor = 10300050,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -90,7 +90,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -106,7 +106,7 @@ return {
 			}
 		},
 		{
-			actor = 10300041,
+			actor = 10300040,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -127,7 +127,7 @@ return {
 			bgName = "bg_story_task",
 			say = "もちろんです、猫神さま。協力してセイレーンに一泡吹かせて差し上げましょう",
 			dir = 1,
-			actor = 10300051,
+			actor = 10300050,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -167,7 +167,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 10300041,
+			actor = 10300040,
 			nameColor = "#a9f548",
 			say = "やられたらやり返す",
 			typewriter = {
@@ -185,7 +185,7 @@ return {
 			bgName = "bg_story_task",
 			say = "不意を突かれたとはいえ、セイレーンなる者にしてやられたのは屈辱の極みです……必ずや彼女たちの能力を解析し、一矢報いるところを御覧いただきます",
 			dir = 1,
-			actor = 10300051,
+			actor = 10300050,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -201,7 +201,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -217,7 +217,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -233,7 +233,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -249,7 +249,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -269,7 +269,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 10300041,
+			actor = 10300040,
 			nameColor = "#a9f548",
 			say = "お任せ",
 			typewriter = {
@@ -287,7 +287,7 @@ return {
 			bgName = "bg_story_task",
 			say = "オンヴィタイカヤンの名にかけて、必ずや成し遂げてみせましょう",
 			dir = 1,
-			actor = 10300051,
+			actor = 10300050,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -303,7 +303,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -323,7 +323,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 10300041,
+			actor = 10300040,
 			nameColor = "#a9f548",
 			say = "要するに特殊な結界",
 			typewriter = {
@@ -340,7 +340,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 10300051,
+			actor = 10300050,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -360,7 +360,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 10300041,
+			actor = 10300040,
 			nameColor = "#a9f548",
 			say = "本質は一緒",
 			typewriter = {
@@ -377,7 +377,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 10300051,
+			actor = 10300050,
 			nameColor = "#a9f548",
 			say = "技術的な違いはあれど、ヤマトでも似たものを研究した事案があると聞いたことがあります。ならば、私たちにも読み解けるかもしれません",
 			typewriter = {

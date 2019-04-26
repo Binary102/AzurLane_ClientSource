@@ -59,7 +59,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "おーい！お店はそこだよー！",
 			typewriter = {
@@ -86,7 +86,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 102011,
+			actor = 102010,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -112,7 +112,7 @@ return {
 			}
 		},
 		{
-			actor = 102021,
+			actor = 102020,
 			side = 1,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -132,7 +132,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "大丈夫よ～ローリーちゃんが食べられない分はこの私に任せて♪",
 			typewriter = {
@@ -148,7 +148,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 102021,
+			actor = 102020,
 			nameColor = "#a9f548",
 			say = "子供扱いしない！ローリーのほうがカンレキが長いんだからね！",
 			typewriter = {
@@ -171,7 +171,7 @@ return {
 			}
 		},
 		{
-			actor = 102011,
+			actor = 102010,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -191,7 +191,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgName = "star_level_bg_104",
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "結構品揃えがいいじゃん♪まずはこのストロベリーサンデーから――",
 			flashout = {
@@ -221,7 +221,7 @@ return {
 			}
 		},
 		{
-			actor = 102021,
+			actor = 102020,
 			side = 2,
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
@@ -240,7 +240,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_104",
 			dir = 1,
-			actor = 102011,
+			actor = 102010,
 			nameColor = "#a9f548",
 			say = "おお！ナポレオンパイもある！いただきま～す！",
 			typewriter = {
@@ -268,7 +268,7 @@ return {
 			bgName = "star_level_bg_104",
 			say = "オマハ、この間ダイエットするって言ってなかったっけ？いきなり五人前って大丈夫――",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -287,7 +287,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_104",
 			dir = 1,
-			actor = 102011,
+			actor = 102010,
 			nameColor = "#a9f548",
 			say = "す、スイーツは別腹なんだから！美味しいおやつの前ではダイエットの話はなしだ！なーし！",
 			typewriter = {
@@ -310,7 +310,7 @@ return {
 			}
 		},
 		{
-			actor = 102021,
+			actor = 102020,
 			side = 1,
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
@@ -330,7 +330,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_104",
 			withoutActorName = true,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "コンコードの目の前の空間は大きいのから小さいのまで、スイーツを載せてる数々の皿で完全に埋まってしまっている。",
 			typewriter = {
@@ -343,7 +343,7 @@ return {
 			}
 		},
 		{
-			actor = 102021,
+			actor = 102020,
 			side = 1,
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
@@ -363,7 +363,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_104",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "ふっふっふー……糖分でできた私にとって、糖分の補給は日課！",
 			typewriter = {
@@ -390,7 +390,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_104",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "そして日課は続けることが肝心！",
 			typewriter = {
@@ -407,7 +407,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_104",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "つまり――毎日たくさん食べるしかない！ってことよ♪（ピシッ",
 			typewriter = {
@@ -420,7 +420,7 @@ return {
 			}
 		},
 		{
-			actor = 102011,
+			actor = 102010,
 			side = 1,
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
@@ -436,7 +436,7 @@ return {
 			}
 		},
 		{
-			actor = 102021,
+			actor = 102020,
 			side = 2,
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",

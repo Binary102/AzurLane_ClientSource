@@ -3740,6 +3740,88 @@ pg.expedition_data_by_map = {
 			}
 		}
 	},
+	[1220001] = {
+		map = 1220001,
+		name = "仮想繋げし共時性|| ||CHAPTER EX||E.X.",
+		bgm = "ai-fb-inst",
+		type = 4,
+		on_activity = 10234,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "AIGUANQIA2",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "Map_1210001",
+		cloud_suffix = "",
+		bg = "map_1210001",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 0,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1220021] = {
+		map = 1220021,
+		name = "仮想繋げし共時性·EX|| ||CHAPTER EX||E.X.",
+		bgm = "ai-fb-inst",
+		type = 8,
+		on_activity = 10234,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "Map_1210001",
+		cloud_suffix = "",
+		bg = "map_1210001",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1220001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
 	[2100000] = {
 		map = 2100000,
 		name = "『紅染の来訪者』-前編|| ||CHAPTER EX||E.X.",
@@ -4036,6 +4118,8 @@ pg.expedition_data_by_map = {
 		1210011,
 		1210012,
 		1210021,
+		1220001,
+		1220021,
 		2100000,
 		2100001,
 		2100010,

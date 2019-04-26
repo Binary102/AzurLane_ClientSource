@@ -275,7 +275,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 306061,
+			actor = 306060,
 			nameColor = "#a9f548",
 			say = "殿！大丈夫ですか？今加勢します！",
 			typewriter = {

@@ -12,7 +12,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			actor = 305071,
+			actor = 305070,
 			stopbgm = true,
 			say = "天城さん、あなたは一体何をするつもりですか！",
 			typewriter = {
@@ -25,7 +25,7 @@ return {
 			}
 		},
 		{
-			actor = 304051,
+			actor = 304050,
 			side = 1,
 			nameColor = "#ff0000",
 			dir = 1,
@@ -44,7 +44,7 @@ return {
 			nameColor = "#ff0000",
 			side = 1,
 			dir = 1,
-			actor = 304051,
+			actor = 304050,
 			say = "これから世界は変わります。大艦巨砲時代への熱狂はじき収束されるのでしょう",
 			typewriter = {
 				speed = 0.05,
@@ -60,7 +60,7 @@ return {
 			nameColor = "#ff0000",
 			side = 1,
 			dir = 1,
-			actor = 304051,
+			actor = 304050,
 			say = "これからは……航空母艦の時代です",
 			typewriter = {
 				speed = 0.05,
@@ -72,7 +72,7 @@ return {
 			}
 		},
 		{
-			actor = 304051,
+			actor = 304050,
 			side = 1,
 			nameColor = "#ff0000",
 			dir = 1,
@@ -91,7 +91,7 @@ return {
 			nameColor = "#ff0000",
 			side = 1,
 			dir = 1,
-			actor = 304051,
+			actor = 304050,
 			say = "ですから空母改修より、こうして演習で戦うことを選んだのです",
 			typewriter = {
 				speed = 0.05,
@@ -107,7 +107,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
-			actor = 305071,
+			actor = 305070,
 			say = "天城…さん……",
 			typewriter = {
 				speed = 0.05,
@@ -123,7 +123,7 @@ return {
 			nameColor = "#ff0000",
 			side = 1,
 			dir = 1,
-			actor = 304051,
+			actor = 304050,
 			say = "加賀も、一度くらいは私に勝ちたいでしょう",
 			typewriter = {
 				speed = 0.05,
@@ -139,7 +139,7 @@ return {
 			nameColor = "#ff0000",
 			side = 1,
 			dir = 1,
-			actor = 304051,
+			actor = 304050,
 			say = "せっかくの機会です。手を抜かれたら……私はきっと、いつまでも恨みますわよ？",
 			typewriter = {
 				speed = 0.05,
@@ -155,7 +155,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
-			actor = 305071,
+			actor = 305070,
 			say = "わかり…ました………ふふ、全く、幸せものだな。私は",
 			typewriter = {
 				speed = 0.05,
@@ -171,7 +171,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
-			actor = 305071,
+			actor = 305070,
 			say = "天城さんのような最後まで自分を貫くヒトが相手なら、全力をぶつける以外考えられませんね",
 			typewriter = {
 				speed = 0.05,
@@ -183,7 +183,7 @@ return {
 			}
 		},
 		{
-			actor = 305071,
+			actor = 305070,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -198,7 +198,7 @@ return {
 			nameColor = "#ff0000",
 			side = 1,
 			dir = 1,
-			actor = 304051,
+			actor = 304050,
 			say = "<size=35>……天城型巡洋戦艦・天城</size>",
 			painting = {
 				alpha = 0.3,
@@ -208,7 +208,7 @@ return {
 		{
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 305071,
+			actor = 305070,
 			dir = -1,
 			bgm = "theme",
 			hideOther = true,
@@ -217,7 +217,7 @@ return {
 			subActors = {
 				{
 					dir = -1,
-					actor = 304051,
+					actor = 304050,
 					pos = {
 						x = -687
 					}

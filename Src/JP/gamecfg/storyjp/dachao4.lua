@@ -56,7 +56,7 @@ return {
 			}
 		},
 		{
-			actor = 303031,
+			actor = 303030,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -72,7 +72,7 @@ return {
 			}
 		},
 		{
-			actor = 303031,
+			actor = 303030,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -101,7 +101,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = -1,
-			actor = 303031,
+			actor = 303030,
 			nameColor = "#a9f548",
 			say = "……いっそ私自ら煽ってみたりして！？",
 			typewriter = {
@@ -124,7 +124,7 @@ return {
 			}
 		},
 		{
-			actor = 301641,
+			actor = 301640,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -150,7 +150,7 @@ return {
 			}
 		},
 		{
-			actor = 301641,
+			actor = 301640,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -170,7 +170,7 @@ return {
 			side = 1,
 			bgName = "bg_story_outdoor",
 			dir = -1,
-			actor = 303031,
+			actor = 303030,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -199,7 +199,7 @@ return {
 			side = 0,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 301641,
+			actor = 301640,
 			nameColor = "#a9f548",
 			say = "ふふふ♪　実はな～…………",
 			typewriter = {
@@ -234,7 +234,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = -1,
-			actor = 303031,
+			actor = 303030,
 			nameColor = "#a9f548",
 			say = "おおおお！こ、こんなキャッチまでできるんすか！？大潮ちゃんって実は才能あったりするんじゃない！？",
 			typewriter = {
@@ -261,7 +261,7 @@ return {
 			side = 0,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 301641,
+			actor = 301640,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -277,7 +277,7 @@ return {
 			}
 		},
 		{
-			actor = 303031,
+			actor = 303030,
 			side = 1,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -297,7 +297,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 303031,
+			actor = 303030,
 			say = "こっちを見た青葉は慌てて取り繕った",
 			action = {
 				{
@@ -332,7 +332,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			blackBg = true,
-			actor = 301641,
+			actor = 301640,
 			nameColor = "#a9f548",
 			say = "青葉はんとの話が気になるん？ふふふ♪女の子のヒミツっちゅうのは指揮官に教えちゃアカンのや～",
 			typewriter = {

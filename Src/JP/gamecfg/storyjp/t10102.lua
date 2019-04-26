@@ -4,7 +4,7 @@ return {
 	once = true,
 	scripts = {
 		{
-			actor = 107071,
+			actor = 107070,
 			side = 2,
 			dir = -1,
 			nameColor = "#ff0000",
@@ -23,7 +23,7 @@ return {
 			}
 		},
 		{
-			actor = 106011,
+			actor = 106010,
 			side = 0,
 			say = "ホーネットさんが攻撃ばかりを考えたから～こっちがまぐれで勝ったんだよ～",
 			nameColor = "#a9f548",
@@ -45,7 +45,7 @@ return {
 			}
 		},
 		{
-			actor = 107071,
+			actor = 107070,
 			side = 1,
 			dir = -1,
 			nameColor = "#ff0000",
@@ -64,7 +64,7 @@ return {
 			}
 		},
 		{
-			actor = 107071,
+			actor = 107070,
 			side = 1,
 			dir = -1,
 			nameColor = "#ff0000",
@@ -106,7 +106,7 @@ return {
 			}
 		},
 		{
-			actor = 107071,
+			actor = 107070,
 			side = 1,
 			dir = -1,
 			nameColor = "#ff0000",
@@ -125,7 +125,7 @@ return {
 			}
 		},
 		{
-			actor = 106011,
+			actor = 106010,
 			side = 0,
 			nameColor = "#a9f548",
 			say = "こっちも帰還命令が打電された…状況があまりよくないかも…",
@@ -143,7 +143,7 @@ return {
 			}
 		},
 		{
-			actor = 107071,
+			actor = 107070,
 			side = 1,
 			dir = -1,
 			nameColor = "#ff0000",
@@ -162,7 +162,7 @@ return {
 			}
 		},
 		{
-			actor = 107071,
+			actor = 107070,
 			side = 1,
 			dir = -1,
 			nameColor = "#ff0000",

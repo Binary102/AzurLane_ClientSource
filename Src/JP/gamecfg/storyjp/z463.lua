@@ -48,7 +48,7 @@ return {
 			}
 		},
 		{
-			actor = 401461,
+			actor = 401460,
 			side = 2,
 			bgName = "bg_story_room",
 			say = "これで良いのか？洋服選びなど不慣れであるゆえ、忌憚なく意見してほしい。",
@@ -62,7 +62,7 @@ return {
 			}
 		},
 		{
-			actor = 401201,
+			actor = 401200,
 			side = 1,
 			bgName = "bg_story_room",
 			say = "これはちょっと……ニーミじゃあるまいし、もっとおしゃれしたほうがいいよ、フィーゼは～",
@@ -80,7 +80,7 @@ return {
 			}
 		},
 		{
-			actor = 401211,
+			actor = 401210,
 			side = 1,
 			bgName = "bg_story_room",
 			say = "そうね……真面目だから地味な服になりそうだし、いっそのことフュンちゃんあたりに聞いたほうがいいんじゃない？",
@@ -94,7 +94,7 @@ return {
 			}
 		},
 		{
-			actor = 401191,
+			actor = 401190,
 			side = 1,
 			bgName = "bg_story_room",
 			say = "わたしはこの服もいいと思うけど……",
@@ -108,7 +108,7 @@ return {
 			}
 		},
 		{
-			actor = 401201,
+			actor = 401200,
 			side = 1,
 			bgName = "bg_story_room",
 			say = "キュンネはニーミとどっこいどっこいだからアウトー",
@@ -122,7 +122,7 @@ return {
 			}
 		},
 		{
-			actor = 401191,
+			actor = 401190,
 			side = 1,
 			bgName = "bg_story_room",
 			say = "ええええ！？",
@@ -136,7 +136,7 @@ return {
 			}
 		},
 		{
-			actor = 401211,
+			actor = 401210,
 			side = 1,
 			bgName = "bg_story_room",
 			say = "フュンちゃんやレーベはどっちも派手だから、ハンスちゃんあたりとかならどうかな？",
@@ -150,7 +150,7 @@ return {
 			}
 		},
 		{
-			actor = 401461,
+			actor = 401460,
 			side = 0,
 			bgName = "bg_story_room",
 			say = "…………",
@@ -164,7 +164,7 @@ return {
 			}
 		},
 		{
-			actor = 401201,
+			actor = 401200,
 			side = 1,
 			bgName = "bg_story_room",
 			say = "ハンスちゃんはなにを選んでも通しちゃいそうだからアウト。あ！ゼクちゃんなら多分行けるかも！",
@@ -178,7 +178,7 @@ return {
 			}
 		},
 		{
-			actor = 401191,
+			actor = 401190,
 			side = 1,
 			bgName = "bg_story_room",
 			say = "ゼクちゃんの洋服、いつもフュンちゃんに決めてもらってるんじゃないの…？",
@@ -192,7 +192,7 @@ return {
 			}
 		},
 		{
-			actor = 401211,
+			actor = 401210,
 			side = 1,
 			bgName = "bg_story_room",
 			say = "じゃあゼクちゃんも無理ね…結局フィーゼちゃんの洋服はここの三人で決めるしかなさそう…",
@@ -206,7 +206,7 @@ return {
 			}
 		},
 		{
-			actor = 401461,
+			actor = 401460,
 			side = 0,
 			bgName = "bg_story_room",
 			say = "…………",
@@ -220,7 +220,7 @@ return {
 			}
 		},
 		{
-			actor = 401201,
+			actor = 401200,
 			side = 1,
 			bgName = "bg_story_room",
 			say = "あ！ごめん！フィーゼちゃん！ぼくたちの話ばかりで＞＜",
@@ -234,7 +234,7 @@ return {
 			}
 		},
 		{
-			actor = 401211,
+			actor = 401210,
 			side = 1,
 			bgName = "bg_story_room",
 			say = "ええと、とにかくこの服はどう考えても冬に着る服だから、夏は…ええと、これとこれ、まあ焼けないようにパーカーもセットでどう？",
@@ -248,7 +248,7 @@ return {
 			}
 		},
 		{
-			actor = 401461,
+			actor = 401460,
 			side = 0,
 			bgName = "bg_story_room",
 			say = "わかった。そうしよう。",
@@ -262,7 +262,7 @@ return {
 			}
 		},
 		{
-			actor = 401191,
+			actor = 401190,
 			side = 1,
 			bgName = "bg_story_room",
 			say = "もう、みんなフィーゼを放っておいて話を進めすぎだよ……フィーゼは好きな服を選んでいいよ？",
@@ -276,7 +276,7 @@ return {
 			}
 		},
 		{
-			actor = 401461,
+			actor = 401460,
 			side = 0,
 			bgName = "bg_story_room",
 			say = "気配りに感謝する。そうする。",

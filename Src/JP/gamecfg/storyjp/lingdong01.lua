@@ -24,7 +24,7 @@ return {
 			}
 		},
 		{
-			actor = 202124,
+			actor = 202120,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -39,7 +39,7 @@ return {
 			}
 		},
 		{
-			actor = 202124,
+			actor = 202120,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -54,7 +54,7 @@ return {
 			}
 		},
 		{
-			actor = 702014,
+			actor = 702010,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -73,7 +73,7 @@ return {
 			}
 		},
 		{
-			actor = 702014,
+			actor = 702010,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -88,7 +88,7 @@ return {
 			}
 		},
 		{
-			actor = 202124,
+			actor = 202120,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -105,7 +105,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			actor = 203054,
+			actor = 203050,
 			nameColor = "#a9f548",
 			say = "ふぅ…物資輸送の船団護衛はこれで終わりですね…ようやくおうちに帰れますぅ…",
 			flashout = {
@@ -135,7 +135,7 @@ return {
 			}
 		},
 		{
-			actor = 203054,
+			actor = 203050,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -150,7 +150,7 @@ return {
 			}
 		},
 		{
-			actor = 202124,
+			actor = 202120,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
@@ -169,7 +169,7 @@ return {
 			}
 		},
 		{
-			actor = 202124,
+			actor = 202120,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -184,7 +184,7 @@ return {
 			}
 		},
 		{
-			actor = 202084,
+			actor = 202080,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -199,7 +199,7 @@ return {
 			}
 		},
 		{
-			actor = 202124,
+			actor = 202120,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -214,7 +214,7 @@ return {
 			}
 		},
 		{
-			actor = 202084,
+			actor = 202080,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -229,7 +229,7 @@ return {
 			}
 		},
 		{
-			actor = 202084,
+			actor = 202080,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -244,7 +244,7 @@ return {
 			}
 		},
 		{
-			actor = 202124,
+			actor = 202120,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -259,7 +259,7 @@ return {
 			}
 		},
 		{
-			actor = 202124,
+			actor = 202120,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -274,7 +274,7 @@ return {
 			}
 		},
 		{
-			actor = 202084,
+			actor = 202080,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -289,7 +289,7 @@ return {
 			}
 		},
 		{
-			actor = 202124,
+			actor = 202120,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,

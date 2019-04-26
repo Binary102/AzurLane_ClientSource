@@ -61,7 +61,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			actor = 307071,
+			actor = 307070,
 			say = "……（もそもそ）",
 			flashN = {
 				color = {
@@ -110,7 +110,7 @@ return {
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "story-1",
-			actor = 307071,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "おはようございます指揮官様。大鳳、先程まで指揮官様をどう起こせばいいかずっと悩んでいたのですよ？",
 			flashout = {
@@ -144,7 +144,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			withoutActorName = true,
-			actor = 307071,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "あたりを見回したところ、どうやらここは自分の部屋だという事がわかった。",
 			typewriter = {
@@ -157,7 +157,7 @@ return {
 			}
 		},
 		{
-			actor = 307071,
+			actor = 307070,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -187,7 +187,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgName = "bg_story_room",
-			actor = 307071,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "今日の朝食は和食にしました。お口に合えばいいのですが",
 			flashout = {
@@ -221,7 +221,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			withoutActorName = true,
-			actor = 307071,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "大鳳からキラキラとした視線を感じる。",
 			typewriter = {
@@ -240,7 +240,7 @@ return {
 			}
 		},
 		{
-			actor = 307071,
+			actor = 307070,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -260,7 +260,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 307071,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "そういえばさっき指揮官様が寝ている間、大鳳がお部屋をお掃除させていただきましたわ",
 			typewriter = {
@@ -277,7 +277,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 307071,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "（小声）めぼしいものは発見できませんでしたけど……",
 			typewriter = {
@@ -294,7 +294,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			withoutActorName = true,
-			actor = 307071,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "どういうこと？そもそも――",
 			typewriter = {
@@ -317,7 +317,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 307071,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "簡単じゃありませんか。指揮官様は部屋に鍵をかけ、そして大鳳がその鍵を作っただけのことですわよ",
 			typewriter = {
@@ -330,7 +330,7 @@ return {
 			}
 		},
 		{
-			actor = 307071,
+			actor = 307070,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -346,7 +346,7 @@ return {
 			}
 		},
 		{
-			actor = 307071,
+			actor = 307070,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -366,7 +366,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 307071,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "……ふふふ、秘書艦として当然のことじゃありませんか",
 			typewriter = {

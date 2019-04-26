@@ -50,7 +50,7 @@ return {
 			}
 		},
 		{
-			actor = 501011,
+			actor = 501010,
 			side = 2,
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
@@ -66,7 +66,7 @@ return {
 			}
 		},
 		{
-			actor = 900172,
+			actor = 202121,
 			side = 2,
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
@@ -82,7 +82,7 @@ return {
 			}
 		},
 		{
-			actor = 501011,
+			actor = 501010,
 			side = 2,
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
@@ -98,7 +98,7 @@ return {
 			}
 		},
 		{
-			actor = 900163,
+			actor = 501031,
 			side = 2,
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
@@ -118,7 +118,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_102",
 			dir = 1,
-			actor = 900174,
+			actor = 299022,
 			nameColor = "#a9f548",
 			say = "これは指揮官が薦めたのだ。東煌の新年の雰囲気を感じてほしいとのことだが、意外といいセンスしているな",
 			typewriter = {
@@ -131,7 +131,7 @@ return {
 			}
 		},
 		{
-			actor = 900177,
+			actor = 206051,
 			side = 2,
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
@@ -147,7 +147,7 @@ return {
 			}
 		},
 		{
-			actor = 107021,
+			actor = 107020,
 			side = 2,
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
@@ -167,7 +167,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_102",
 			dir = 1,
-			actor = 900172,
+			actor = 202121,
 			nameColor = "#a9f548",
 			say = "レキシントンさまにエンタープライズさま、ご機嫌麗しゅうございます。これは……？",
 			typewriter = {
@@ -180,7 +180,7 @@ return {
 			}
 		},
 		{
-			actor = 501021,
+			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
@@ -196,7 +196,7 @@ return {
 			}
 		},
 		{
-			actor = 107061,
+			actor = 107060,
 			side = 2,
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
@@ -212,7 +212,7 @@ return {
 			}
 		},
 		{
-			actor = 107021,
+			actor = 107020,
 			side = 2,
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
@@ -232,7 +232,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_102",
 			dir = 1,
-			actor = 900174,
+			actor = 299022,
 			nameColor = "#a9f548",
 			say = "その通りだ。まさかそっちのも指揮官が薦めたものでは――",
 			typewriter = {
@@ -245,7 +245,7 @@ return {
 			}
 		},
 		{
-			actor = 900177,
+			actor = 206051,
 			side = 2,
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
@@ -261,7 +261,7 @@ return {
 			}
 		},
 		{
-			actor = 900172,
+			actor = 202121,
 			side = 2,
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
@@ -281,7 +281,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_102",
 			dir = 1,
-			actor = 900172,
+			actor = 202121,
 			nameColor = "#a9f548",
 			say = "明石様から素材の提供を受け、ユニオンの皆様の分も用意いたしました。そして――",
 			typewriter = {
@@ -297,7 +297,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 312011,
+			actor = 312010,
 			nameColor = "#a9f548",
 			say = "春節大放出にゃ！素材代は指揮官にツケておくにゃ！",
 			effects = {
@@ -319,7 +319,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_102",
 			dir = 1,
-			actor = 107061,
+			actor = 107060,
 			nameColor = "#a9f548",
 			say = "そ、そうか…せっかくのお気遣いだ、では……",
 			effects = {
@@ -338,7 +338,7 @@ return {
 			}
 		},
 		{
-			actor = 107021,
+			actor = 107020,
 			side = 2,
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
@@ -357,7 +357,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_102",
 			dir = 1,
-			actor = 501011,
+			actor = 501010,
 			nameColor = "#a9f548",
 			say = "皆さんもせっかく来ていることですし、一緒に「年夜飯（ニェンイエファン）」……えっと、大晦日のご飯でも食べていきませんか？",
 			flashout = {
@@ -387,7 +387,7 @@ return {
 			}
 		},
 		{
-			actor = 900172,
+			actor = 202121,
 			side = 2,
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
@@ -407,7 +407,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_102",
 			dir = 1,
-			actor = 900172,
+			actor = 202121,
 			nameColor = "#a9f548",
 			say = "増えた人数分の食材も資材に含まれておりますが、私たちにもぜひお手伝いをさせてくださいませ",
 			typewriter = {
@@ -420,7 +420,7 @@ return {
 			}
 		},
 		{
-			actor = 501011,
+			actor = 501010,
 			side = 2,
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
@@ -436,7 +436,7 @@ return {
 			}
 		},
 		{
-			actor = 900170,
+			actor = 107062,
 			side = 2,
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
@@ -456,7 +456,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_102",
 			dir = 1,
-			actor = 900171,
+			actor = 107021,
 			nameColor = "#a9f548",
 			say = "ユニオンの子たちも驚くわね～",
 			typewriter = {
@@ -469,7 +469,7 @@ return {
 			}
 		},
 		{
-			actor = 501021,
+			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
@@ -490,7 +490,7 @@ return {
 			bgName = "star_level_bg_102",
 			dir = 1,
 			blackBg = true,
-			actor = 900173,
+			actor = 206042,
 			nameColor = "#a9f548",
 			say = "わ、私もお手伝いします！",
 			typewriter = {

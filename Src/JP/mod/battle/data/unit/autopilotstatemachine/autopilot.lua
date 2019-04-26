@@ -9,7 +9,6 @@ function slot2.Ctor(slot0, slot1, slot2)
 	slot0._aiCfg = slot2
 	slot0._target = slot1
 
-	slot1._move:CancelFormationCtrl()
 	slot1._move:SetAutoMoveAI(slot0, slot1)
 	slot0:generateList()
 

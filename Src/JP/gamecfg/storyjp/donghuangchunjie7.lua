@@ -20,7 +20,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 900164,
+			actor = 501041,
 			nameColor = "#a9f548",
 			say = "んん……スイッチを入れてもダメみたいです……ブレーカーが落ちたのかもしれません",
 			flashout = {
@@ -50,7 +50,7 @@ return {
 			}
 		},
 		{
-			actor = 900169,
+			actor = 101173,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -70,7 +70,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 900172,
+			actor = 202121,
 			nameColor = "#a9f548",
 			say = "……！廊下にゆっくりと近づいてくる足音がございます",
 			typewriter = {
@@ -87,7 +87,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 900170,
+			actor = 107062,
 			nameColor = "#a9f548",
 			say = "廊下の端に巨大な影が……？！",
 			typewriter = {
@@ -100,7 +100,7 @@ return {
 			}
 		},
 		{
-			actor = 501011,
+			actor = 501010,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -116,7 +116,7 @@ return {
 			}
 		},
 		{
-			actor = 501021,
+			actor = 501020,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -135,7 +135,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 501021,
+			actor = 501020,
 			nameColor = "#a9f548",
 			say = "そーれ！…………って、あれ？",
 			typewriter = {
@@ -181,7 +181,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 501021,
+			actor = 501020,
 			nameColor = "#a9f548",
 			say = "ええええええっ！？ちょっと、タンマ！！",
 			typewriter = {
@@ -274,7 +274,7 @@ return {
 			bgName = "star_level_bg_102",
 			dir = 1,
 			bgm = "main-chunjie",
-			actor = 501021,
+			actor = 501020,
 			nameColor = "#a9f548",
 			say = "くぅ……まさか最後の最後で……無念……",
 			typewriter = {
@@ -299,7 +299,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_102",
 			dir = 1,
-			actor = 900164,
+			actor = 501041,
 			nameColor = "#a9f548",
 			say = "ぶ、撫順姉さん！？大丈夫ですか！？",
 			typewriter = {
@@ -325,7 +325,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_102",
 			dir = 1,
-			actor = 501011,
+			actor = 501010,
 			nameColor = "#a9f548",
 			say = "けほっ、けほっ……もう、撫順！！こんな馬鹿げたことをして、お仕置きされる覚悟はできているんでしょうね！！！……って、え？",
 			typewriter = {
@@ -348,7 +348,7 @@ return {
 			}
 		},
 		{
-			actor = 900163,
+			actor = 501031,
 			side = 2,
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
@@ -364,7 +364,7 @@ return {
 			}
 		},
 		{
-			actor = 900170,
+			actor = 107062,
 			side = 2,
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
@@ -384,7 +384,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_102",
 			dir = 1,
-			actor = 900171,
+			actor = 107021,
 			nameColor = "#a9f548",
 			say = "あらら、ずいぶんとやんちゃな子ね。でも余興としては案外悪くないわ",
 			typewriter = {
@@ -397,7 +397,7 @@ return {
 			}
 		},
 		{
-			actor = 501021,
+			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
@@ -417,7 +417,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_102",
 			dir = 1,
-			actor = 900167,
+			actor = 301054,
 			nameColor = "#a9f548",
 			say = "……鏡を見るのです",
 			typewriter = {
@@ -433,7 +433,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_102",
 			dir = 1,
-			actor = 501021,
+			actor = 501020,
 			nameColor = "#a9f548",
 			say = "は、はは、ははははは……ダメだこりゃ……",
 			typewriter = {
@@ -456,7 +456,7 @@ return {
 			}
 		},
 		{
-			actor = 501011,
+			actor = 501010,
 			side = 2,
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
@@ -476,7 +476,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_102",
 			dir = 1,
-			actor = 900172,
+			actor = 202121,
 			nameColor = "#a9f548",
 			say = "これはまた面白い展開でしたね。ふふふ",
 			typewriter = {
@@ -492,7 +492,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_102",
 			dir = 1,
-			actor = 501021,
+			actor = 501020,
 			nameColor = "#a9f548",
 			say = "顔を洗ってきたよ～",
 			flashout = {
@@ -522,7 +522,7 @@ return {
 			}
 		},
 		{
-			actor = 900172,
+			actor = 202121,
 			side = 2,
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
@@ -542,7 +542,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_102",
 			dir = 1,
-			actor = 900170,
+			actor = 107062,
 			nameColor = "#a9f548",
 			say = "ああ、皆がこうして平和なひとときを過ごせるのは指揮官のおかげだ。感謝しないとな",
 			typewriter = {
@@ -555,7 +555,7 @@ return {
 			}
 		},
 		{
-			actor = 501021,
+			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
@@ -571,7 +571,7 @@ return {
 			}
 		},
 		{
-			actor = 900167,
+			actor = 301054,
 			side = 2,
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
@@ -591,7 +591,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_102",
 			dir = 1,
-			actor = 900171,
+			actor = 107021,
 			nameColor = "#a9f548",
 			say = "ふふふ、じゃあ次は指揮官の執務室で二次会ってことかしら？",
 			typewriter = {
@@ -620,7 +620,7 @@ return {
 			}
 		},
 		{
-			actor = 501021,
+			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",

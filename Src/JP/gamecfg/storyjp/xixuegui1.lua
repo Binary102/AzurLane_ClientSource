@@ -46,7 +46,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -66,7 +66,7 @@ return {
 			side = 1,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 301181,
+			actor = 301180,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -82,7 +82,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 0,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -98,7 +98,7 @@ return {
 			}
 		},
 		{
-			actor = 301181,
+			actor = 301180,
 			side = 1,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -117,7 +117,7 @@ return {
 			side = 0,
 			bgName = "bg_story_outdoor",
 			dir = -1,
-			actor = 312011,
+			actor = 312010,
 			nameColor = "#a9f548",
 			say = "にゃ！？不知火に褒められたにゃ！大変にゃ！台風が来そうだにゃ！",
 			typewriter = {
@@ -140,7 +140,7 @@ return {
 			}
 		},
 		{
-			actor = 301181,
+			actor = 301180,
 			side = 1,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -156,7 +156,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 0,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -172,7 +172,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 0,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -188,7 +188,7 @@ return {
 			}
 		},
 		{
-			actor = 301181,
+			actor = 301180,
 			side = 1,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -204,7 +204,7 @@ return {
 			}
 		},
 		{
-			actor = 201231,
+			actor = 201230,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -223,7 +223,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = -1,
-			actor = 312011,
+			actor = 312010,
 			nameColor = "#a9f548",
 			say = "うにゃ？！ヴァンパイアはいつからいたにゃ！ビックリしたにゃ！",
 			typewriter = {
@@ -246,7 +246,7 @@ return {
 			}
 		},
 		{
-			actor = 201231,
+			actor = 201230,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -266,7 +266,7 @@ return {
 			side = 1,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 301181,
+			actor = 301180,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -282,7 +282,7 @@ return {
 			}
 		},
 		{
-			actor = 201231,
+			actor = 201230,
 			side = 0,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -298,7 +298,7 @@ return {
 			}
 		},
 		{
-			actor = 301181,
+			actor = 301180,
 			side = 1,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -317,7 +317,7 @@ return {
 			side = 0,
 			bgName = "bg_story_outdoor",
 			dir = -1,
-			actor = 312011,
+			actor = 312010,
 			nameColor = "#a9f548",
 			say = "にゃ！？ナース服なんてパスにゃ！",
 			typewriter = {
@@ -340,7 +340,7 @@ return {
 			}
 		},
 		{
-			actor = 201231,
+			actor = 201230,
 			side = 0,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -356,7 +356,7 @@ return {
 			}
 		},
 		{
-			actor = 201231,
+			actor = 201230,
 			side = 0,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -375,7 +375,7 @@ return {
 			side = 0,
 			bgName = "bg_story_outdoor",
 			dir = -1,
-			actor = 312011,
+			actor = 312010,
 			nameColor = "#a9f548",
 			say = "本当かにゃ！？",
 			typewriter = {
@@ -398,7 +398,7 @@ return {
 			}
 		},
 		{
-			actor = 201231,
+			actor = 201230,
 			side = 0,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -417,7 +417,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = -1,
-			actor = 312011,
+			actor = 312010,
 			nameColor = "#a9f548",
 			say = "……行っちゃったにゃ。",
 			flashout = {
@@ -452,7 +452,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			blackBg = true,
-			actor = 301181,
+			actor = 301180,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,

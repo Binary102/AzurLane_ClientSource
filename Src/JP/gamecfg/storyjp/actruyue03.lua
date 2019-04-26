@@ -50,7 +50,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = -1,
-			actor = 312011,
+			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "戻ったにゃ！",
 			typewriter = {
@@ -68,7 +68,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 301181,
+			actor = 301180,
 			actorName = "{namecode:20}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -88,7 +88,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 307041,
+			actor = 307040,
 			actorName = "{namecode:94}",
 			say = "おお、いい匂いですね！",
 			typewriter = {
@@ -106,7 +106,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 307031,
+			actor = 307030,
 			actorName = "{namecode:93}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -126,7 +126,7 @@ return {
 			side = 0,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 307041,
+			actor = 307040,
 			actorName = "{namecode:94}",
 			say = "はい！いや～夏に鍋なんて微妙だと思ってたけど、この匂いには敵いませんね～",
 			typewriter = {
@@ -143,7 +143,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 301051,
+			actor = 301050,
 			actorName = "{namecode:6}",
 			say = "綾波、連れられてきたのです――",
 			typewriter = {
@@ -160,7 +160,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 301141,
+			actor = 301140,
 			actorName = "{namecode:16}",
 			say = "に…肉の匂いだ！",
 			typewriter = {
@@ -178,7 +178,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 301131,
+			actor = 301130,
 			actorName = "{namecode:15}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -198,7 +198,7 @@ return {
 			side = 0,
 			bgName = "bg_story_room",
 			dir = -1,
-			actor = 301151,
+			actor = 301150,
 			actorName = "{namecode:17}",
 			say = "ぐぬぬ…認めたくはないが、本当にいい匂いがするわね…お腹もぺこぺこよ……",
 			typewriter = {
@@ -215,7 +215,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 900068,
+			actor = 301331,
 			actorName = "{namecode:34}",
 			say = "はあ…はあ……やっぱりあついよぉ…如月もき、きました……",
 			typewriter = {
@@ -250,7 +250,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 900068,
+			actor = 301331,
 			actorName = "{namecode:34}",
 			say = "……ほえ？",
 			typewriter = {
@@ -277,7 +277,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 302041,
+			actor = 302040,
 			actorName = "{namecode:46}",
 			say = "如月ちゃん、夏にこんな服着ちゃ熱中症になるよ！？",
 			typewriter = {
@@ -295,7 +295,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 301171,
+			actor = 301170,
 			actorName = "{namecode:19}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -315,7 +315,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 900068,
+			actor = 301331,
 			actorName = "{namecode:34}",
 			say = "ふ、ふゆの「ナベタイカイ」は、ふゆのふくをきたほうがいいって……",
 			typewriter = {
@@ -333,7 +333,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 301181,
+			actor = 301180,
 			actorName = "{namecode:20}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -354,7 +354,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			blackBg = true,
-			actor = 900068,
+			actor = 301331,
 			actorName = "{namecode:34}",
 			say = "む、睦月が……",
 			typewriter = {

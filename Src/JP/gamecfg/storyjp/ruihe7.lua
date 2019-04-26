@@ -32,7 +32,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			say = "指揮官はやっぱり…翔鶴姉が用意してくれた分を選ぶよね…",
 			typewriter = {
@@ -68,7 +68,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			say = "両方ほしい…？",
 			typewriter = {
@@ -86,7 +86,7 @@ return {
 			bgName = "bg_night",
 			actorName = "{namecode:95}",
 			dir = 1,
-			actor = 307054,
+			actor = 307050,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -106,7 +106,7 @@ return {
 			side = 0,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			say = "無理しなくていいよ…？せっかく翔鶴姉が用意してくれたんだし、私また今度でいいから…ね？",
 			typewriter = {
@@ -123,7 +123,7 @@ return {
 			side = 0,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			say = "……瑞鶴も翔鶴も自分の翼だから、どちらかを選ぶだなんて言語道断…？",
 			typewriter = {
@@ -140,7 +140,7 @@ return {
 			side = 0,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			say = "…あ、あぅ…///",
 			typewriter = {
@@ -175,7 +175,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 307054,
+			actor = 307050,
 			actorName = "{namecode:95}",
 			say = "フォローはいいですけど、そのセリフはちょっと痛いかも……",
 			typewriter = {
@@ -192,7 +192,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:96}",
-			actor = 307064,
+			actor = 307060,
 			nameColor = "#a9f548",
 			say = "指揮官、さっきはありがとう。",
 			flashout = {
@@ -226,7 +226,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			say = "私も翔鶴姉も大切にしているとわかっていたのに、あんなに取り乱しちゃって……。",
 			typewriter = {
@@ -243,7 +243,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			say = "もし私がまた自信を無くして、ヘンに落ち込むことがあったら…",
 			typewriter = {
@@ -260,7 +260,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			say = "ううん、そんなことは二度としないわ！だって私、不屈の瑞鶴なんだからっ！",
 			typewriter = {
@@ -285,7 +285,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			say = "でもたまには…「瑞鶴のほうがもっと大切だよ」って言ってくれると……",
 			typewriter = {
@@ -302,7 +302,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			say = "ちょっと嬉しい……かな…？",
 			typewriter = {
@@ -320,7 +320,7 @@ return {
 			bgName = "bg_night",
 			dir = 1,
 			blackBg = true,
-			actor = 307064,
+			actor = 307060,
 			nameColor = "#a9f548",
 			say = "…ね？指揮官…？",
 			typewriter = {

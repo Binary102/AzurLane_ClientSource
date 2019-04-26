@@ -50,7 +50,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 900093,
+			actor = 201232,
 			nameColor = "#a9f548",
 			say = "なによ！いつも仕事が大変だからナース姿で癒やしてあげようと思ったのに！",
 			typewriter = {
@@ -67,7 +67,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 900093,
+			actor = 201232,
 			nameColor = "#a9f548",
 			say = "指揮官の馬鹿馬鹿馬鹿！もう知らない！",
 			typewriter = {
@@ -94,7 +94,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 900093,
+			actor = 201232,
 			nameColor = "#a9f548",
 			say = "せっかくナースのお仕事も勉強したし……ふん！みんなのお世話をして、あの馬鹿にギャフンって言わせてやる！",
 			typewriter = {
@@ -121,7 +121,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgName = "bg_story_school",
-			actor = 900093,
+			actor = 201232,
 			nameColor = "#a9f548",
 			say = "ジャベリン、どこか具合は悪くない？",
 			flashout = {
@@ -155,7 +155,7 @@ return {
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 201211,
+			actor = 201210,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -171,7 +171,7 @@ return {
 			}
 		},
 		{
-			actor = 201211,
+			actor = 201210,
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -191,7 +191,7 @@ return {
 			side = 0,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 900093,
+			actor = 201232,
 			nameColor = "#a9f548",
 			say = "…………",
 			typewriter = {
@@ -208,7 +208,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgName = "bg_story_school",
-			actor = 900093,
+			actor = 201232,
 			nameColor = "#a9f548",
 			say = "グローウォーム、いつも何かに頭突きするのをやめなさい！ほら横になって、このナース・ヴァンパイアが世話をしてやる！",
 			flashout = {
@@ -242,7 +242,7 @@ return {
 			side = 1,
 			bgName = "bg_story_school",
 			dir = -1,
-			actor = 201141,
+			actor = 201140,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -262,7 +262,7 @@ return {
 			side = 0,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 900093,
+			actor = 201232,
 			nameColor = "#a9f548",
 			say = "…………",
 			typewriter = {
@@ -279,7 +279,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgName = "bg_story_school",
-			actor = 900093,
+			actor = 201232,
 			nameColor = "#a9f548",
 			say = "ラフィー、ここで寝てたら風邪引くよ。はい、掛ふとん（ポイ）。",
 			flashout = {
@@ -313,7 +313,7 @@ return {
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 101171,
+			actor = 101170,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -333,7 +333,7 @@ return {
 			side = 0,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 900093,
+			actor = 201232,
 			nameColor = "#a9f548",
 			say = "…………",
 			typewriter = {
@@ -346,7 +346,7 @@ return {
 			}
 		},
 		{
-			actor = 203011,
+			actor = 203010,
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -365,7 +365,7 @@ return {
 			side = 0,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 900093,
+			actor = 201232,
 			nameColor = "#a9f548",
 			say = "うん？ロンドン？ふーん、さてはさっきのことを謝りに来たのね～",
 			typewriter = {
@@ -388,7 +388,7 @@ return {
 			}
 		},
 		{
-			actor = 203011,
+			actor = 203010,
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -407,7 +407,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 900093,
+			actor = 201232,
 			nameColor = "#a9f548",
 			say = "あぁ！あの馬鹿も自分の間違いに気づいたのね！じゃあありがたーく聞き入れてやるわ！",
 			typewriter = {
@@ -434,7 +434,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			blackBg = true,
-			actor = 203011,
+			actor = 203010,
 			nameColor = "#a9f548",
 			say = "はあ……",
 			typewriter = {

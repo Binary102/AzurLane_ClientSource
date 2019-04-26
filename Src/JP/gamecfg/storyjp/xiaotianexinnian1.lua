@@ -47,7 +47,7 @@ return {
 			}
 		},
 		{
-			actor = 900063,
+			actor = 312011,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -63,7 +63,7 @@ return {
 			}
 		},
 		{
-			actor = 900063,
+			actor = 312011,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -82,7 +82,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = -1,
-			actor = 900066,
+			actor = 301141,
 			nameColor = "#a9f548",
 			say = "わぅ！お餅だ！早く食べさせろ！……ってなんでかコタツから出られないぜ……うぅ……",
 			typewriter = {
@@ -105,7 +105,7 @@ return {
 			}
 		},
 		{
-			actor = 301591,
+			actor = 301590,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -121,7 +121,7 @@ return {
 			}
 		},
 		{
-			actor = 301591,
+			actor = 301590,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -137,7 +137,7 @@ return {
 			}
 		},
 		{
-			actor = 301601,
+			actor = 301600,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -153,7 +153,7 @@ return {
 			}
 		},
 		{
-			actor = 301621,
+			actor = 301620,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -169,7 +169,7 @@ return {
 			}
 		},
 		{
-			actor = 301611,
+			actor = 301610,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -185,7 +185,7 @@ return {
 			}
 		},
 		{
-			actor = 900063,
+			actor = 312011,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -204,7 +204,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 301601,
+			actor = 301600,
 			nameColor = "#a9f548",
 			say = "うわっ！なんか服についちゃった！",
 			flashout = {
@@ -248,7 +248,7 @@ return {
 			side = 0,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 301591,
+			actor = 301590,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -264,7 +264,7 @@ return {
 			}
 		},
 		{
-			actor = 900063,
+			actor = 312011,
 			side = 1,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -280,7 +280,7 @@ return {
 			}
 		},
 		{
-			actor = 301611,
+			actor = 301610,
 			side = 1,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -296,7 +296,7 @@ return {
 			}
 		},
 		{
-			actor = 301621,
+			actor = 301620,
 			side = 1,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -315,7 +315,7 @@ return {
 			side = 0,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 301591,
+			actor = 301590,
 			nameColor = "#a9f548",
 			say = "あれはまだ未完成よ！それに一着しか作ってないし……",
 			typewriter = {
@@ -338,7 +338,7 @@ return {
 			}
 		},
 		{
-			actor = 301611,
+			actor = 301610,
 			side = 1,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -357,7 +357,7 @@ return {
 			side = 0,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 301591,
+			actor = 301590,
 			nameColor = "#a9f548",
 			say = "はいはい、分かったわよ！もう、ドジしたのは磯風なのになんで私が言われなきゃならないのよ……",
 			typewriter = {
@@ -384,7 +384,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgName = "bg_story_room",
-			actor = 900156,
+			actor = 301601,
 			nameColor = "#a9f548",
 			say = "ジャジャーン！浦風さまの作った服、可愛くてピッタリだぞ！",
 			flashout = {
@@ -414,7 +414,7 @@ return {
 			}
 		},
 		{
-			actor = 301591,
+			actor = 301590,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -430,7 +430,7 @@ return {
 			}
 		},
 		{
-			actor = 900063,
+			actor = 312011,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -446,7 +446,7 @@ return {
 			}
 		},
 		{
-			actor = 900063,
+			actor = 312011,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -462,7 +462,7 @@ return {
 			}
 		},
 		{
-			actor = 301611,
+			actor = 301610,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -478,7 +478,7 @@ return {
 			}
 		},
 		{
-			actor = 900063,
+			actor = 312011,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -498,7 +498,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			blackBg = true,
-			actor = 900156,
+			actor = 301601,
 			nameColor = "#a9f548",
 			say = "じゃあ磯風たちは先に退散するぞ！お雑煮ができたらまた配るのを手伝うから！",
 			typewriter = {

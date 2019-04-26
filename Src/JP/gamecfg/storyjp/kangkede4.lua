@@ -46,7 +46,7 @@ return {
 			}
 		},
 		{
-			actor = 101291,
+			actor = 101290,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -65,7 +65,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 101291,
+			actor = 101290,
 			nameColor = "#a9f548",
 			say = "もちろんこのキャンディも！",
 			typewriter = {
@@ -92,7 +92,7 @@ return {
 			side = 0,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 301321,
+			actor = 301320,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -112,7 +112,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 904011,
+			actor = 904010,
 			nameColor = "#a9f548",
 			say = "おまたせ～今日はちょっとオリジナルのテイストにチャレンジしたわ",
 			typewriter = {
@@ -139,7 +139,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgName = "bg_story_room",
-			actor = 904011,
+			actor = 904010,
 			nameColor = "#a9f548",
 			say = "今日のお菓子はいかがかしら？皆さんのお口に合えばいいけど…",
 			flashout = {
@@ -173,7 +173,7 @@ return {
 			side = 0,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 301321,
+			actor = 301320,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -192,7 +192,7 @@ return {
 			side = 1,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 101291,
+			actor = 101290,
 			nameColor = "#a9f548",
 			say = "マカロンはやっぱりダンケルクさんが作るのが一番だよね！",
 			typewriter = {
@@ -235,7 +235,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "（小声）はあ……",
 			typewriter = {
@@ -252,7 +252,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "ほ、ほいひいよ",
 			typewriter = {
@@ -269,7 +269,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "（小声）マカロンはもう飽きたな～",
 			typewriter = {
@@ -286,7 +286,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "（小声）私、お菓子よりやっぱりクリームがドバーッと入ってる感じのスイーツの方が好きなんだよね～",
 			typewriter = {
@@ -303,7 +303,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "指揮官？な、なんでもないよ、へへへ",
 			typewriter = {
@@ -320,7 +320,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "（小声）はあ……",
 			typewriter = {

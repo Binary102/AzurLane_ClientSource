@@ -16,7 +16,7 @@ return {
 			}
 		},
 		{
-			actor = 900058,
+			actor = 102081,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -31,7 +31,7 @@ return {
 			}
 		},
 		{
-			actor = 900060,
+			actor = 101051,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
@@ -50,7 +50,7 @@ return {
 			}
 		},
 		{
-			actor = 900058,
+			actor = 102081,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -65,7 +65,7 @@ return {
 			}
 		},
 		{
-			actor = 900058,
+			actor = 102081,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -80,7 +80,7 @@ return {
 			}
 		},
 		{
-			actor = 900060,
+			actor = 101051,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -95,7 +95,7 @@ return {
 			}
 		},
 		{
-			actor = 900060,
+			actor = 101051,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -110,7 +110,7 @@ return {
 			}
 		},
 		{
-			actor = 900058,
+			actor = 102081,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -125,7 +125,7 @@ return {
 			}
 		},
 		{
-			actor = 900058,
+			actor = 102081,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -140,7 +140,7 @@ return {
 			}
 		},
 		{
-			actor = 900058,
+			actor = 102081,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -155,7 +155,7 @@ return {
 			}
 		},
 		{
-			actor = 900060,
+			actor = 101051,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -170,7 +170,7 @@ return {
 			}
 		},
 		{
-			actor = 900058,
+			actor = 102081,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -185,7 +185,7 @@ return {
 			}
 		},
 		{
-			actor = 900058,
+			actor = 102081,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
@@ -204,7 +204,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 900060,
+			actor = 101051,
 			nameColor = "#a9f548",
 			say = "——",
 			flashout = {
@@ -242,7 +242,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			actor = 900058,
+			actor = 102081,
 			nameColor = "#a9f548",
 			say = "うん？まちがったかな……グリッドレイ？どうしたの急に倒れ――",
 			flashout = {
@@ -272,7 +272,7 @@ return {
 			}
 		},
 		{
-			actor = 900058,
+			actor = 102081,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -287,7 +287,7 @@ return {
 			}
 		},
 		{
-			actor = 900060,
+			actor = 101051,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
@@ -306,7 +306,7 @@ return {
 			}
 		},
 		{
-			actor = 900058,
+			actor = 102081,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -336,7 +336,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			actor = 900060,
+			actor = 101051,
 			nameColor = "#a9f548",
 			say = "とにかくいい写真が撮れた！うん…名前は「メリクリディエゴ」にしちゃおう！へへへ、次のターゲットを探しちゃうぞー！",
 			flashout = {

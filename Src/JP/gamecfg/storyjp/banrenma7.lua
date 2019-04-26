@@ -46,7 +46,7 @@ return {
 			}
 		},
 		{
-			actor = 206041,
+			actor = 206040,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -66,7 +66,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "その間に、私はいろんな先輩たちと触れ合って、戦場以外の一面を知ることができました。",
 			typewriter = {
@@ -79,7 +79,7 @@ return {
 			}
 		},
 		{
-			actor = 206041,
+			actor = 206040,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -99,7 +99,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "ふふ、指揮官も偉い方なのに、仕事したくないとか、サボりたいとか、そういうときはありますよね。",
 			typewriter = {
@@ -122,7 +122,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "はい、仰る通り、それが「普通」です。皆が「普通」ですから、考えが違ったりしますし、時々意見がぶつかったりもしますけど……",
 			typewriter = {
@@ -135,7 +135,7 @@ return {
 			}
 		},
 		{
-			actor = 206041,
+			actor = 206040,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -154,7 +154,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "これこそが私が憧れる艦隊…みんなを尊敬するだけでなく、この艦隊の一員として、「仲間」として皆のことが大好きです。",
 			typewriter = {
@@ -177,7 +177,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "も、もちろん指揮官のことも……",
 			typewriter = {
@@ -214,7 +214,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "昔の私は、あの大戦を乗り越えたみんなのカンレキに憧れ、尊敬して「先輩」と呼んでいました。",
 			typewriter = {
@@ -227,7 +227,7 @@ return {
 			}
 		},
 		{
-			actor = 206041,
+			actor = 206040,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -247,7 +247,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "まあ、自分で言うのは恥ずかしいですけど……「先輩」と呼ぶのにもなれちゃいましたから♪",
 			typewriter = {
@@ -274,7 +274,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "というわけで、私のお話はここまで。",
 			typewriter = {
@@ -291,7 +291,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "ううん、長く秘書艦を務めたから、「仲間」としての指揮官のことなら全部わかるつもりです。",
 			typewriter = {
@@ -308,7 +308,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "私の知りたいことは……小さなヒミツ、或いは私がさっき教えたような、他の人に知られていない本当の気持ち。",
 			typewriter = {
@@ -326,7 +326,7 @@ return {
 			bgName = "star_level_bg_103",
 			dir = 1,
 			blackBg = true,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "ねえ…あなたのこと、もっと私に教えて？センパイ♪",
 			typewriter = {

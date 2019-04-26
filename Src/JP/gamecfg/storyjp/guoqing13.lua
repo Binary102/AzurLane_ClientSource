@@ -8,7 +8,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 301201,
+			actor = 301200,
 			side = 2,
 			nameColor = "#ff0000",
 			say = "あぅ…幸運艦なんて…やっぱりウソね…",
@@ -26,7 +26,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			nameColor = "#a9f548",
 			side = 0,
 			say = "そんなことないの。相手が悪いだけよ。",
@@ -48,7 +48,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			side = 0,
 			nameColor = "#a9f548",
 			say = "…じゃなくて、知ってることを全部教えて。",
@@ -66,7 +66,7 @@ return {
 			}
 		},
 		{
-			actor = 301201,
+			actor = 301200,
 			actorName = "{namecode:24}",
 			side = 1,
 			nameColor = "#ff0000",
@@ -85,7 +85,7 @@ return {
 			}
 		},
 		{
-			actor = 301201,
+			actor = 301200,
 			side = 1,
 			nameColor = "#ff0000",
 			say = "「あの人達」はカミさまから授けてもらった技術を研究して、戦局を挽回したいって……",
@@ -103,7 +103,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			side = 0,
 			nameColor = "#a9f548",
 			say = "情報と同じね。どうやらあの話…ウソじゃないわ。",
@@ -121,7 +121,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			side = 0,
 			nameColor = "#a9f548",
 			say = "野分ちゃん、私と一緒に翔鶴姉を助けに行こう？味方が多いほうがいいわ。",
@@ -139,7 +139,7 @@ return {
 			}
 		},
 		{
-			actor = 301201,
+			actor = 301200,
 			side = 1,
 			nameColor = "#ff0000",
 			say = "私、「あの人達」には逆らえないの……",
@@ -157,7 +157,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			side = 0,
 			nameColor = "#a9f548",
 			say = "そのカミさまとやらはウソだと言っても？",
@@ -175,7 +175,7 @@ return {
 			}
 		},
 		{
-			actor = 301201,
+			actor = 301200,
 			side = 1,
 			nameColor = "#ff0000",
 			say = "「あの人達」は希望を与えてくれた…この道が間違いだとしても、私…",
@@ -193,7 +193,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			side = 0,
 			nameColor = "#a9f548",
 			say = "そうなの…幸運を祈るわ。",

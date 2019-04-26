@@ -61,7 +61,7 @@ return {
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
-			actor = 404011,
+			actor = 404010,
 			say = "よっしゃ！また私の勝ちだ！",
 			flashN = {
 				color = {
@@ -115,7 +115,7 @@ return {
 			}
 		},
 		{
-			actor = 404011,
+			actor = 404010,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -135,7 +135,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 403041,
+			actor = 403040,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -165,7 +165,7 @@ return {
 			side = 0,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 404011,
+			actor = 404010,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -186,7 +186,7 @@ return {
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
-			actor = 403041,
+			actor = 403040,
 			say = "ちっ、そんなの言われなくても！",
 			flashN = {
 				color = {
@@ -259,7 +259,7 @@ return {
 			}
 		},
 		{
-			actor = 403041,
+			actor = 403040,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -279,7 +279,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			withoutActorName = true,
-			actor = 403041,
+			actor = 403040,
 			nameColor = "#a9f548",
 			say = "……公文書に目を通してみると、細かい間違いはいくつかあるが、頑張って試行錯誤した痕跡が見えた。",
 			typewriter = {
@@ -294,7 +294,7 @@ return {
 			}
 		},
 		{
-			actor = 403041,
+			actor = 403040,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -310,7 +310,7 @@ return {
 			}
 		},
 		{
-			actor = 403041,
+			actor = 403040,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -353,7 +353,7 @@ return {
 			}
 		},
 		{
-			actor = 301321,
+			actor = 301320,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -373,7 +373,7 @@ return {
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 403041,
+			actor = 403040,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -389,7 +389,7 @@ return {
 			}
 		},
 		{
-			actor = 301411,
+			actor = 301410,
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -408,7 +408,7 @@ return {
 			side = 1,
 			bgName = "bg_story_school",
 			dir = -1,
-			actor = 301331,
+			actor = 301330,
 			nameColor = "#a9f548",
 			say = "三日月ちゃん、ドイッチュラントさんはいやだっていうかも……",
 			typewriter = {
@@ -431,7 +431,7 @@ return {
 			}
 		},
 		{
-			actor = 403041,
+			actor = 403040,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -447,7 +447,7 @@ return {
 			}
 		},
 		{
-			actor = 403041,
+			actor = 403040,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -483,7 +483,7 @@ return {
 			}
 		},
 		{
-			actor = 403041,
+			actor = 403040,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -502,7 +502,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 403041,
+			actor = 403040,
 			nameColor = "#a9f548",
 			say = "それともなに？下等生物のくせにスケベなことでも考えているわけ？",
 			typewriter = {
@@ -525,7 +525,7 @@ return {
 			}
 		},
 		{
-			actor = 403041,
+			actor = 403040,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -554,7 +554,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 403041,
+			actor = 403040,
 			nameColor = "#a9f548",
 			say = "ほら、ぼーっとしてないで早くゲームを始めるわよ！――さあ、わたしを楽しませなさいな♪",
 			typewriter = {

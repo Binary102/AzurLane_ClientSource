@@ -21,7 +21,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgm = "level-nep",
-			actor = 312014,
+			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "というわけで──明石が一晩でやってみせたにゃ！",
 			typewriter = {
@@ -38,7 +38,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 302014,
+			actor = 302010,
 			actorName = "{namecode:37}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -54,7 +54,7 @@ return {
 			}
 		},
 		{
-			actor = 10100014,
+			actor = 10100010,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -69,7 +69,7 @@ return {
 			}
 		},
 		{
-			actor = 10100014,
+			actor = 10100010,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -84,7 +84,7 @@ return {
 			}
 		},
 		{
-			actor = 10100014,
+			actor = 10100010,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -99,7 +99,7 @@ return {
 			}
 		},
 		{
-			actor = 312014,
+			actor = 312010,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -115,7 +115,7 @@ return {
 			}
 		},
 		{
-			actor = 10100014,
+			actor = 10100010,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -130,7 +130,7 @@ return {
 			}
 		},
 		{
-			actor = 302014,
+			actor = 302010,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -146,7 +146,7 @@ return {
 			}
 		},
 		{
-			actor = 10100024,
+			actor = 10100020,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -161,7 +161,7 @@ return {
 			}
 		},
 		{
-			actor = 10100034,
+			actor = 10100030,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -176,7 +176,7 @@ return {
 			}
 		},
 		{
-			actor = 10100044,
+			actor = 10100040,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -191,7 +191,7 @@ return {
 			}
 		},
 		{
-			actor = 10100044,
+			actor = 10100040,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -206,7 +206,7 @@ return {
 			}
 		},
 		{
-			actor = 312014,
+			actor = 312010,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -222,7 +222,7 @@ return {
 			}
 		},
 		{
-			actor = 10100024,
+			actor = 10100020,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -237,7 +237,7 @@ return {
 			}
 		},
 		{
-			actor = 10100014,
+			actor = 10100010,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -252,7 +252,7 @@ return {
 			}
 		},
 		{
-			actor = 312014,
+			actor = 312010,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -268,7 +268,7 @@ return {
 			}
 		},
 		{
-			actor = 10100024,
+			actor = 10100020,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -283,7 +283,7 @@ return {
 			}
 		},
 		{
-			actor = 10100014,
+			actor = 10100010,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,

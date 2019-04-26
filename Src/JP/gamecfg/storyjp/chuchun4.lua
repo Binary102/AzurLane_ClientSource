@@ -49,7 +49,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 301211,
+			actor = 301210,
 			nameColor = "#a9f548",
 			say = "ひ、ひひ、秘書艦にしてください！！",
 			typewriter = {
@@ -86,7 +86,7 @@ return {
 			}
 		},
 		{
-			actor = 301211,
+			actor = 301210,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -105,7 +105,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 301211,
+			actor = 301210,
 			nameColor = "#a9f548",
 			say = "ぼ、母港の皆の役に立ちたいです！",
 			typewriter = {
@@ -128,7 +128,7 @@ return {
 			}
 		},
 		{
-			actor = 301231,
+			actor = 301230,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -195,7 +195,7 @@ return {
 			}
 		},
 		{
-			actor = 301211,
+			actor = 301210,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -214,7 +214,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 301231,
+			actor = 301230,
 			nameColor = "#a9f548",
 			say = "よかったぁ！じゃあ初春姉頑張って！二人の邪魔はしないから！ばいばい！",
 			typewriter = {
@@ -239,7 +239,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 301211,
+			actor = 301210,
 			nameColor = "#a9f548",
 			say = "えっ、あ、はい！が、がががんばります！",
 			typewriter = {
@@ -279,7 +279,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 103111,
+			actor = 103110,
 			nameColor = "#a9f548",
 			say = "おい、重桜の、明日の演習海域のスケジュールを教えてもらえるか？",
 			flashout = {
@@ -312,7 +312,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 301211,
+			actor = 301210,
 			nameColor = "#a9f548",
 			say = "きゃぅ！？ご、ごめんなさい！？わ、わわ……",
 			typewriter = {
@@ -335,7 +335,7 @@ return {
 			}
 		},
 		{
-			actor = 103111,
+			actor = 103110,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -354,7 +354,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 203071,
+			actor = 203070,
 			nameColor = "#a9f548",
 			say = "来る明日の試練<†エクササイズ†>のための領域<†フィールド†>はもう準備できてるか？",
 			flashout = {
@@ -384,7 +384,7 @@ return {
 			}
 		},
 		{
-			actor = 301211,
+			actor = 301210,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -400,7 +400,7 @@ return {
 			}
 		},
 		{
-			actor = 203071,
+			actor = 203070,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -419,7 +419,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 301211,
+			actor = 301210,
 			nameColor = "#a9f548",
 			say = "うぅ…ごめんなさい！",
 			typewriter = {
@@ -476,7 +476,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 301211,
+			actor = 301210,
 			nameColor = "#a9f548",
 			say = "ご、ごめんなさい！わ、私はやっぱり……人とうまく会話で、できなくて……",
 			typewriter = {
@@ -495,7 +495,7 @@ return {
 			}
 		},
 		{
-			actor = 301211,
+			actor = 301210,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -511,7 +511,7 @@ return {
 			}
 		},
 		{
-			actor = 301211,
+			actor = 301210,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -527,7 +527,7 @@ return {
 			}
 		},
 		{
-			actor = 301211,
+			actor = 301210,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",

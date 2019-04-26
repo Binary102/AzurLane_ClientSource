@@ -28,7 +28,7 @@ return {
 			}
 		},
 		{
-			actor = 307011,
+			actor = 307010,
 			nameColor = "#a9f548",
 			bgName = "bg_story_outdoor",
 			side = 2,
@@ -44,7 +44,7 @@ return {
 			}
 		},
 		{
-			actor = 307011,
+			actor = 307010,
 			nameColor = "#a9f548",
 			bgName = "bg_story_outdoor",
 			side = 2,
@@ -60,7 +60,7 @@ return {
 			}
 		},
 		{
-			actor = 307011,
+			actor = 307010,
 			nameColor = "#a9f548",
 			bgName = "bg_story_outdoor",
 			side = 2,
@@ -86,7 +86,7 @@ return {
 			}
 		},
 		{
-			actor = 307011,
+			actor = 307010,
 			nameColor = "#a9f548",
 			bgName = "bg_story_outdoor",
 			side = 2,
@@ -102,7 +102,7 @@ return {
 			}
 		},
 		{
-			actor = 307011,
+			actor = 307010,
 			nameColor = "#a9f548",
 			bgName = "bg_story_outdoor",
 			side = 2,
@@ -118,7 +118,7 @@ return {
 			}
 		},
 		{
-			actor = 307011,
+			actor = 307010,
 			nameColor = "#a9f548",
 			bgName = "bg_story_outdoor",
 			side = 2,
@@ -134,7 +134,7 @@ return {
 			}
 		},
 		{
-			actor = 307011,
+			actor = 307010,
 			nameColor = "#a9f548",
 			bgName = "bg_story_outdoor",
 			side = 2,
@@ -153,7 +153,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 307011,
+			actor = 307010,
 			nameColor = "#a9f548",
 			say = "そうですわ！いっそ指揮官様を赤城から離れられないよう鎖で縛って……明石の小娘に……ううん、この赤城自らが作ってみせますわ！",
 			typewriter = {
@@ -176,7 +176,7 @@ return {
 			}
 		},
 		{
-			actor = 307011,
+			actor = 307010,
 			nameColor = "#a9f548",
 			bgName = "bg_story_outdoor",
 			side = 2,
@@ -192,7 +192,7 @@ return {
 			}
 		},
 		{
-			actor = 307011,
+			actor = 307010,
 			nameColor = "#a9f548",
 			bgName = "bg_story_outdoor",
 			side = 2,
@@ -242,7 +242,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 307011,
+			actor = 307010,
 			nameColor = "#a9f548",
 			say = "逃げるなんて思わないことね。こう見えても、赤城は指揮官の事を誰よりも……うふふ",
 			action = {

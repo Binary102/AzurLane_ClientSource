@@ -48,7 +48,7 @@ return {
 			}
 		},
 		{
-			actor = 407011,
+			actor = 407010,
 			side = 2,
 			bgName = "bg_story_school",
 			dir = -1,
@@ -63,7 +63,7 @@ return {
 			}
 		},
 		{
-			actor = 401461,
+			actor = 401460,
 			side = 0,
 			bgName = "bg_story_school",
 			say = "グラーフも、母港に来てからずいぶんとザワークラフトづくりの腕が上達したな。",
@@ -81,7 +81,7 @@ return {
 			}
 		},
 		{
-			actor = 407011,
+			actor = 407010,
 			side = 1,
 			bgName = "bg_story_school",
 			dir = -1,
@@ -96,7 +96,7 @@ return {
 			}
 		},
 		{
-			actor = 401461,
+			actor = 401460,
 			side = 0,
 			bgName = "bg_story_school",
 			say = "構わない。私はグラーフが大切な親友であるが故に手助けしたのだ。当然のことに過ぎない。",
@@ -110,7 +110,7 @@ return {
 			}
 		},
 		{
-			actor = 407011,
+			actor = 407010,
 			side = 1,
 			bgName = "bg_story_school",
 			dir = -1,
@@ -125,7 +125,7 @@ return {
 			}
 		},
 		{
-			actor = 401461,
+			actor = 401460,
 			side = 0,
 			bgName = "bg_story_school",
 			say = "それに礼を言われるほどのことをしていない。同じ鉄血艦同士、助け合わずして何をする。",
@@ -139,7 +139,7 @@ return {
 			}
 		},
 		{
-			actor = 407011,
+			actor = 407010,
 			side = 1,
 			bgName = "bg_story_school",
 			dir = -1,
@@ -154,7 +154,7 @@ return {
 			}
 		},
 		{
-			actor = 401461,
+			actor = 401460,
 			side = 0,
 			bgName = "bg_story_school",
 			say = "グラーフに言われる筋合いはなかろう。しかし、何故喋り方を？",
@@ -168,7 +168,7 @@ return {
 			}
 		},
 		{
-			actor = 407011,
+			actor = 407010,
 			side = 1,
 			bgName = "bg_story_school",
 			dir = -1,
@@ -183,7 +183,7 @@ return {
 			}
 		},
 		{
-			actor = 407011,
+			actor = 407010,
 			side = 1,
 			bgName = "bg_story_school",
 			dir = -1,
@@ -198,7 +198,7 @@ return {
 			}
 		},
 		{
-			actor = 401461,
+			actor = 401460,
 			side = 0,
 			bgName = "bg_story_school",
 			say = "…………",
@@ -212,7 +212,7 @@ return {
 			}
 		},
 		{
-			actor = 407011,
+			actor = 407010,
 			side = 1,
 			bgName = "bg_story_school",
 			dir = -1,
@@ -227,7 +227,7 @@ return {
 			}
 		},
 		{
-			actor = 401461,
+			actor = 401460,
 			side = 0,
 			bgName = "bg_story_school",
 			say = "少し、頑張ってみる……ワ。",
@@ -241,7 +241,7 @@ return {
 			}
 		},
 		{
-			actor = 407011,
+			actor = 407010,
 			side = 1,
 			bgName = "bg_story_school",
 			dir = -1,
@@ -256,7 +256,7 @@ return {
 			}
 		},
 		{
-			actor = 401461,
+			actor = 401460,
 			side = 0,
 			bgName = "bg_story_school",
 			say = "……うん……ベントウ、今度また交換する……ネ？",
@@ -270,7 +270,7 @@ return {
 			}
 		},
 		{
-			actor = 407011,
+			actor = 407010,
 			side = 1,
 			bgName = "bg_story_school",
 			dir = -1,

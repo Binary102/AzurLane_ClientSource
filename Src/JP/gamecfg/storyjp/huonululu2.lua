@@ -46,7 +46,7 @@ return {
 			}
 		},
 		{
-			actor = 102121,
+			actor = 102120,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -66,7 +66,7 @@ return {
 			side = 1,
 			bgName = "bg_story_school",
 			dir = -1,
-			actor = 102131,
+			actor = 102130,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -82,7 +82,7 @@ return {
 			}
 		},
 		{
-			actor = 102121,
+			actor = 102120,
 			side = 0,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -101,7 +101,7 @@ return {
 			side = 0,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 102121,
+			actor = 102120,
 			nameColor = "#a9f548",
 			say = "……でもなんで指揮官もここにいるの？",
 			typewriter = {
@@ -120,7 +120,7 @@ return {
 			}
 		},
 		{
-			actor = 102131,
+			actor = 102130,
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -139,7 +139,7 @@ return {
 			side = 0,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 102121,
+			actor = 102120,
 			nameColor = "#a9f548",
 			say = "ら、ラッキーなの……？？",
 			typewriter = {
@@ -162,7 +162,7 @@ return {
 			}
 		},
 		{
-			actor = 102131,
+			actor = 102130,
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -181,7 +181,7 @@ return {
 			side = 1,
 			bgName = "bg_story_school",
 			dir = -1,
-			actor = 102131,
+			actor = 102130,
 			nameColor = "#a9f548",
 			say = "せっかく秘書艦になったのだから、指揮官くんとも仲良くしたほうがいいわよ？",
 			typewriter = {
@@ -203,7 +203,7 @@ return {
 			side = 0,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 102121,
+			actor = 102120,
 			nameColor = "#a9f548",
 			say = "うっ……べ、別にあなたと関係ないでしょう？指揮官も流されないでよっ！",
 			typewriter = {
@@ -226,7 +226,7 @@ return {
 			}
 		},
 		{
-			actor = 102131,
+			actor = 102130,
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -242,7 +242,7 @@ return {
 			}
 		},
 		{
-			actor = 102121,
+			actor = 102120,
 			side = 0,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -258,7 +258,7 @@ return {
 			}
 		},
 		{
-			actor = 102131,
+			actor = 102130,
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -284,7 +284,7 @@ return {
 			}
 		},
 		{
-			actor = 102131,
+			actor = 102130,
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -303,7 +303,7 @@ return {
 			side = 0,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 102121,
+			actor = 102120,
 			nameColor = "#a9f548",
 			say = "……！？な、なな、ななななによこの恥ずかしい服は！こんなのが好きなのはルイスだけでしょう！？",
 			typewriter = {
@@ -326,7 +326,7 @@ return {
 			}
 		},
 		{
-			actor = 102131,
+			actor = 102130,
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -342,7 +342,7 @@ return {
 			}
 		},
 		{
-			actor = 102131,
+			actor = 102130,
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -361,7 +361,7 @@ return {
 			side = 0,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 102121,
+			actor = 102120,
 			nameColor = "#a9f548",
 			say = "もう好きにして………ぜんっぜん似合わなくても私は知らないからね……",
 			typewriter = {
@@ -384,7 +384,7 @@ return {
 			}
 		},
 		{
-			actor = 102131,
+			actor = 102130,
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -400,7 +400,7 @@ return {
 			}
 		},
 		{
-			actor = 102121,
+			actor = 102120,
 			side = 0,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",

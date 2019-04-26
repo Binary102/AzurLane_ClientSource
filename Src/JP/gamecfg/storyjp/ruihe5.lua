@@ -32,7 +32,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			say = "指揮官、お疲れ！そろそろ夕食を持ってきてもいい？",
 			typewriter = {
@@ -49,7 +49,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			say = "？今日は翔鶴姉ではなく私が料理担当するって言ったでしょ？いつまでも翔鶴姉に頼るわけにはいかないから、私なりに頑張ってみたの！",
 			typewriter = {
@@ -66,7 +66,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			say = "というわけで、ちょっと待っててー",
 			typewriter = {
@@ -110,7 +110,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			say = "はい、揚げ鶏のネギソースに漬物、麦飯にお麩と卵の味噌汁、南国の定番ココナッツジュースに将校支給のロイヤルバナナ！",
 			typewriter = {
@@ -127,7 +127,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			say = "さあ、どーんと召し上がって！",
 			typewriter = {
@@ -164,7 +164,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			say = "で、どう？",
 			typewriter = {
@@ -200,7 +200,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			say = "……普通においしい？やった！ふっふん翔鶴姉の助けがなくてもこれぐらいはできるんだからねっ！",
 			typewriter = {
@@ -217,7 +217,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			say = "グレイゴーストのよりもおいしい？ありがとう指揮官！",
 			typewriter = {
@@ -234,7 +234,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			say = "あっちはヴェスタルに学んでいるらしいけど、まあ私の敵じゃないってことね！",
 			typewriter = {
@@ -252,7 +252,7 @@ return {
 			bgName = "bg_night",
 			dir = 1,
 			blackBg = true,
-			actor = 307064,
+			actor = 307060,
 			nameColor = "#a9f548",
 			say = "ふふん♪今日はグレイゴーストに勝っちゃった♪",
 			typewriter = {

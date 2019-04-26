@@ -66,7 +66,7 @@ return {
 			}
 		},
 		{
-			actor = 307011,
+			actor = 307010,
 			nameColor = "#a9f548",
 			bgName = "bg_night",
 			side = 2,
@@ -82,7 +82,7 @@ return {
 			}
 		},
 		{
-			actor = 307011,
+			actor = 307010,
 			nameColor = "#a9f548",
 			bgName = "bg_night",
 			side = 2,
@@ -98,7 +98,7 @@ return {
 			}
 		},
 		{
-			actor = 307011,
+			actor = 307010,
 			nameColor = "#a9f548",
 			bgName = "bg_night",
 			side = 2,
@@ -114,7 +114,7 @@ return {
 			}
 		},
 		{
-			actor = 307011,
+			actor = 307010,
 			nameColor = "#a9f548",
 			bgName = "bg_night",
 			side = 2,
@@ -130,7 +130,7 @@ return {
 			}
 		},
 		{
-			actor = 307011,
+			actor = 307010,
 			nameColor = "#a9f548",
 			bgName = "bg_night",
 			side = 2,
@@ -162,7 +162,7 @@ return {
 			}
 		},
 		{
-			actor = 307011,
+			actor = 307010,
 			nameColor = "#a9f548",
 			bgName = "bg_night",
 			side = 2,
@@ -178,7 +178,7 @@ return {
 			}
 		},
 		{
-			actor = 307011,
+			actor = 307010,
 			nameColor = "#a9f548",
 			bgName = "bg_night",
 			side = 2,
@@ -198,7 +198,7 @@ return {
 			bgName = "bg_night",
 			dir = 1,
 			blackBg = true,
-			actor = 307011,
+			actor = 307010,
 			nameColor = "#a9f548",
 			say = "どうかあなたにカミのご加護があらんことを…赤城の…運命の人……",
 			typewriter = {

@@ -8,7 +8,7 @@ return {
 	occlusion = 2,
 	scripts = {
 		{
-			actor = 105191,
+			actor = 105190,
 			side = 2,
 			stopbgm = true,
 			dir = 1,
@@ -23,7 +23,7 @@ return {
 			}
 		},
 		{
-			actor = 105191,
+			actor = 105190,
 			side = 2,
 			dir = 1,
 			say = "この砲弾は…大口径砲のものか。あの子か？",
@@ -70,7 +70,7 @@ return {
 			}
 		},
 		{
-			actor = 105191,
+			actor = 105190,
 			side = 2,
 			dir = 1,
 			say = "名前はなんだったっけ……ジャン……ジャン・ポール？",
@@ -84,7 +84,7 @@ return {
 			}
 		},
 		{
-			actor = 107041,
+			actor = 107040,
 			side = 1,
 			say = "ジャン・バールですよ。",
 			dir = 1,
@@ -104,7 +104,7 @@ return {
 		{
 			expression = "1",
 			side = 0,
-			actor = 105191,
+			actor = 105190,
 			dir = 1,
 			say = "面白そう。あの子ならもう少しこっちも真剣に戦えるね。",
 			typewriter = {
@@ -117,7 +117,7 @@ return {
 			}
 		},
 		{
-			actor = 107041,
+			actor = 107040,
 			side = 1,
 			dir = 1,
 			say = "マサチューセッツ…タスクフォースの主力艦の役目を忘れてるんじゃないでしょうね…",
@@ -131,7 +131,7 @@ return {
 			}
 		},
 		{
-			actor = 105191,
+			actor = 105190,
 			side = 0,
 			say = "敵の脅威を減らし、上陸中の味方の損害を防ぐ……それがぼくの役目ね。知ってる。",
 			dir = 1,
@@ -146,7 +146,7 @@ return {
 			}
 		},
 		{
-			actor = 105191,
+			actor = 105190,
 			side = 0,
 			dir = 1,
 			say = "行ってくるね。",
@@ -160,7 +160,7 @@ return {
 			}
 		},
 		{
-			actor = 103111,
+			actor = 103110,
 			side = 1,
 			dir = 1,
 			say = "こっちも準備OKだ！",
@@ -174,7 +174,7 @@ return {
 			}
 		},
 		{
-			actor = 102091,
+			actor = 102090,
 			side = 1,
 			dir = 1,
 			say = "あああっ、私も出る！",
@@ -198,7 +198,7 @@ return {
 			}
 		},
 		{
-			actor = 101301,
+			actor = 101300,
 			side = 0,
 			dir = 1,
 			say = "ご、護衛します！",
@@ -222,7 +222,7 @@ return {
 			}
 		},
 		{
-			actor = 107041,
+			actor = 107040,
 			side = 2,
 			dir = 1,
 			say = "ちょっと待っ……",
@@ -236,7 +236,7 @@ return {
 			}
 		},
 		{
-			actor = 107041,
+			actor = 107040,
 			side = 2,
 			dir = 1,
 			say = "もうっ、なんでこうも、どの子も後先を考えないのよーー！",
@@ -250,7 +250,7 @@ return {
 			}
 		},
 		{
-			actor = 107041,
+			actor = 107040,
 			side = 2,
 			dir = 1,
 			say = "艦載機、味方の援護を急ぎなさい！",

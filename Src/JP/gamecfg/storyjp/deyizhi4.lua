@@ -59,7 +59,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			bgm = "story-2",
-			actor = 403041,
+			actor = 403040,
 			nameColor = "#a9f548",
 			say = "下僕か。なにか用？",
 			typewriter = {
@@ -92,7 +92,7 @@ return {
 			}
 		},
 		{
-			actor = 403041,
+			actor = 403040,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -108,7 +108,7 @@ return {
 			}
 		},
 		{
-			actor = 403041,
+			actor = 403040,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -124,7 +124,7 @@ return {
 			}
 		},
 		{
-			actor = 403041,
+			actor = 403040,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -143,7 +143,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 403041,
+			actor = 403040,
 			nameColor = "#a9f548",
 			say = "ドイッチュラントは強いって言われて、本当に自分が強いと勘違いして、自分が誰よりも上だと思い込んで、誰が相手でも偉そうにして……",
 			typewriter = {
@@ -162,7 +162,7 @@ return {
 			}
 		},
 		{
-			actor = 403041,
+			actor = 403040,
 			nameColor = "#a9f548",
 			bgName = "bg_story_room",
 			dir = 1,
@@ -178,7 +178,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 403041,
+			actor = 403040,
 			nameColor = "#a9f548",
 			say = "触るな！",
 			typewriter = {
@@ -201,7 +201,7 @@ return {
 			}
 		},
 		{
-			actor = 403041,
+			actor = 403040,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -217,7 +217,7 @@ return {
 			}
 		},
 		{
-			actor = 403041,
+			actor = 403040,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -236,7 +236,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 403041,
+			actor = 403040,
 			nameColor = "#a9f548",
 			say = "指揮官もそうじゃない。役に立つからではなく、あくまでわたしがヘマをした時に馬鹿にするため秘書艦にしたんじゃない？",
 			typewriter = {
@@ -255,7 +255,7 @@ return {
 			}
 		},
 		{
-			actor = 403041,
+			actor = 403040,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",

@@ -49,7 +49,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = -1,
-			actor = 312011,
+			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "うぅ…どうしたらいいのかにゃ…",
 			typewriter = {
@@ -77,7 +77,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 301181,
+			actor = 301180,
 			actorName = "{namecode:20}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -97,7 +97,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = -1,
-			actor = 312011,
+			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "きっとあれにゃ…結構前に注文してキャンセルしようとした食材にゃ…",
 			typewriter = {
@@ -114,7 +114,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 301181,
+			actor = 301180,
 			actorName = "{namecode:20}",
 			say = "すぐにキャンセルすると言いましたよね……",
 			typewriter = {
@@ -131,7 +131,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = -1,
-			actor = 312011,
+			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "一生の不覚にゃ…大赤字にゃ……",
 			typewriter = {
@@ -158,7 +158,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 301181,
+			actor = 301180,
 			actorName = "{namecode:20}",
 			say = "でもこの食材はどうしましょう…そのまま放置したらすぐ腐りますね……夏場でございますから、なおさら……",
 			typewriter = {
@@ -175,7 +175,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 301181,
+			actor = 301180,
 			actorName = "{namecode:20}",
 			say = "冷蔵庫にはこれ以上入れられませんね……",
 			typewriter = {
@@ -192,7 +192,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = -1,
-			actor = 312011,
+			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "夏…冷蔵庫…食材…",
 			typewriter = {
@@ -209,7 +209,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = -1,
-			actor = 312011,
+			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "そ、そうだにゃ！鍋大会にゃ！",
 			typewriter = {
@@ -236,7 +236,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 301181,
+			actor = 301180,
 			actorName = "{namecode:20}",
 			say = "ナベタイカイ？……鍋大会！？どうしてそこまで連想するに至ったのでございますか……",
 			typewriter = {
@@ -263,7 +263,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = -1,
-			actor = 312011,
+			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "ツッコミは禁止にゃ！食材は無駄にしないにゃ！夏でも美味しいものは美味しいにゃ！",
 			typewriter = {
@@ -280,7 +280,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 301181,
+			actor = 301180,
 			actorName = "{namecode:20}",
 			say = "そう主張なされなくとも…それにしても人はくるのでしょうか…夏の鍋大会など……",
 			typewriter = {
@@ -297,7 +297,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = -1,
-			actor = 312011,
+			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "いるにゃ！明石はみんなを呼んでくるから！ぬいぬいはここで準備しててにゃ！食材の下ごしらえとか、鍋とか、いろいろ頼むにゃ！",
 			typewriter = {
@@ -315,7 +315,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			actor = 301181,
+			actor = 301180,
 			actorName = "{namecode:20}",
 			say = "そうでございますか……",
 			typewriter = {

@@ -46,7 +46,7 @@ return {
 			}
 		},
 		{
-			actor = 10300021,
+			actor = 10300020,
 			side = 2,
 			bgName = "bg_story_chuansong",
 			nameColor = "#a9f548",
@@ -62,7 +62,7 @@ return {
 			}
 		},
 		{
-			actor = 305031,
+			actor = 305030,
 			side = 2,
 			bgName = "bg_story_chuansong",
 			nameColor = "#a9f548",
@@ -78,7 +78,7 @@ return {
 			}
 		},
 		{
-			actor = 305041,
+			actor = 305040,
 			side = 2,
 			bgName = "bg_story_chuansong",
 			nameColor = "#a9f548",
@@ -104,7 +104,7 @@ return {
 			}
 		},
 		{
-			actor = 10300021,
+			actor = 10300020,
 			side = 2,
 			bgName = "bg_story_chuansong",
 			nameColor = "#a9f548",
@@ -120,7 +120,7 @@ return {
 			}
 		},
 		{
-			actor = 305031,
+			actor = 305030,
 			side = 2,
 			bgName = "bg_story_chuansong",
 			nameColor = "#a9f548",
@@ -136,7 +136,7 @@ return {
 			}
 		},
 		{
-			actor = 305041,
+			actor = 305040,
 			side = 2,
 			bgName = "bg_story_chuansong",
 			nameColor = "#a9f548",
@@ -152,7 +152,7 @@ return {
 			}
 		},
 		{
-			actor = 10300021,
+			actor = 10300020,
 			side = 2,
 			bgName = "bg_story_chuansong",
 			nameColor = "#a9f548",
@@ -168,7 +168,7 @@ return {
 			}
 		},
 		{
-			actor = 10300021,
+			actor = 10300020,
 			side = 2,
 			bgName = "bg_story_chuansong",
 			nameColor = "#a9f548",
@@ -184,7 +184,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 2,
 			bgName = "bg_story_chuansong",
 			nameColor = "#a9f548",
@@ -200,7 +200,7 @@ return {
 			}
 		},
 		{
-			actor = 10300061,
+			actor = 10300060,
 			side = 2,
 			bgName = "bg_story_chuansong",
 			nameColor = "#a9f548",
@@ -220,7 +220,7 @@ return {
 			side = 2,
 			bgName = "bg_story_chuansong",
 			dir = 1,
-			actor = 10300011,
+			actor = 10300010,
 			nameColor = "#a9f548",
 			say = "アレと一緒にしたら、いくら何でも失礼……なんだろうけど、否定できない",
 			typewriter = {
@@ -233,7 +233,7 @@ return {
 			}
 		},
 		{
-			actor = 101171,
+			actor = 101170,
 			side = 2,
 			bgName = "bg_story_chuansong",
 			nameColor = "#a9f548",
@@ -253,7 +253,7 @@ return {
 			side = 2,
 			bgName = "bg_story_chuansong",
 			dir = 1,
-			actor = 10300031,
+			actor = 10300030,
 			nameColor = "#a9f548",
 			say = "ヤクトワルトさんがいたら、もっと大変なことになってたでしょうか……？",
 			typewriter = {
@@ -270,7 +270,7 @@ return {
 			side = 2,
 			bgName = "bg_story_chuansong",
 			dir = 1,
-			actor = 10300011,
+			actor = 10300010,
 			nameColor = "#a9f548",
 			say = "どうだろ？あのヒトはとびきり強いけど、あれに参加するほど好戦的ってわけじゃないから。もっとも、シノノン絡みでなければ、だけど",
 			typewriter = {
@@ -283,7 +283,7 @@ return {
 			}
 		},
 		{
-			actor = 301051,
+			actor = 301050,
 			side = 2,
 			bgName = "bg_story_chuansong",
 			nameColor = "#a9f548",
@@ -299,7 +299,7 @@ return {
 			}
 		},
 		{
-			actor = 201211,
+			actor = 201210,
 			side = 2,
 			bgName = "bg_story_chuansong",
 			nameColor = "#a9f548",
@@ -319,7 +319,7 @@ return {
 			side = 2,
 			bgName = "bg_story_chuansong",
 			dir = 1,
-			actor = 10300031,
+			actor = 10300030,
 			nameColor = "#a9f548",
 			say = "綾波さまが……鬼神？女の子にそのあだ名は……どうかと思います",
 			typewriter = {
@@ -332,7 +332,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 2,
 			bgName = "bg_story_chuansong",
 			nameColor = "#a9f548",
@@ -348,7 +348,7 @@ return {
 			}
 		},
 		{
-			actor = 101171,
+			actor = 101170,
 			side = 2,
 			bgName = "bg_story_chuansong",
 			nameColor = "#a9f548",
@@ -364,7 +364,7 @@ return {
 			}
 		},
 		{
-			actor = 201211,
+			actor = 201210,
 			side = 2,
 			bgName = "bg_story_chuansong",
 			nameColor = "#a9f548",
@@ -384,7 +384,7 @@ return {
 			side = 2,
 			bgName = "bg_story_chuansong",
 			dir = 1,
-			actor = 10300011,
+			actor = 10300010,
 			nameColor = "#a9f548",
 			say = "負けず嫌いっていうか……ネコネは幼いからって色々と認められなかったこともあったからね",
 			typewriter = {
@@ -397,7 +397,7 @@ return {
 			}
 		},
 		{
-			actor = 10300011,
+			actor = 10300010,
 			side = 2,
 			bgName = "bg_story_chuansong",
 			nameColor = "#a9f548",
@@ -419,7 +419,7 @@ return {
 			bgmDelay = 2,
 			bgName = "bg_story_chuansong",
 			bgm = "story-uta",
-			actor = 10300021,
+			actor = 10300020,
 			nameColor = "#a9f548",
 			say = "はぁ、はぁ、はぁ……やりました！全部で２８仕留めたのです！これはわたしの一人勝ちのはずです！",
 			flashout = {
@@ -449,7 +449,7 @@ return {
 			}
 		},
 		{
-			actor = 305031,
+			actor = 305030,
 			side = 2,
 			bgName = "bg_story_chuansong",
 			nameColor = "#a9f548",
@@ -468,7 +468,7 @@ return {
 			side = 2,
 			bgName = "bg_story_chuansong",
 			dir = 1,
-			actor = 305041,
+			actor = 305040,
 			nameColor = "#a9f548",
 			say = "見くびるなよ、姉さん！私だって２８だぞ！あれ？ってことは……",
 			typewriter = {
@@ -491,7 +491,7 @@ return {
 			}
 		},
 		{
-			actor = 401231,
+			actor = 401230,
 			side = 2,
 			bgName = "bg_story_chuansong",
 			nameColor = "#a9f548",
@@ -511,7 +511,7 @@ return {
 			side = 2,
 			bgName = "bg_story_chuansong",
 			dir = 1,
-			actor = 10300021,
+			actor = 10300020,
 			nameColor = "#a9f548",
 			say = "そんなぁ……残念、引き分けなのです",
 			typewriter = {
@@ -524,7 +524,7 @@ return {
 			}
 		},
 		{
-			actor = 305031,
+			actor = 305030,
 			side = 2,
 			bgName = "bg_story_chuansong",
 			nameColor = "#a9f548",
@@ -540,7 +540,7 @@ return {
 			}
 		},
 		{
-			actor = 305041,
+			actor = 305040,
 			side = 2,
 			bgName = "bg_story_chuansong",
 			nameColor = "#a9f548",
@@ -556,7 +556,7 @@ return {
 			}
 		},
 		{
-			actor = 10300021,
+			actor = 10300020,
 			side = 2,
 			bgName = "bg_story_chuansong",
 			nameColor = "#a9f548",
@@ -572,7 +572,7 @@ return {
 			}
 		},
 		{
-			actor = 201211,
+			actor = 201210,
 			side = 2,
 			bgName = "bg_story_chuansong",
 			nameColor = "#a9f548",
@@ -588,7 +588,7 @@ return {
 			}
 		},
 		{
-			actor = 305031,
+			actor = 305030,
 			side = 2,
 			bgName = "bg_story_chuansong",
 			nameColor = "#a9f548",
@@ -604,7 +604,7 @@ return {
 			}
 		},
 		{
-			actor = 401231,
+			actor = 401230,
 			side = 2,
 			bgName = "bg_story_chuansong",
 			nameColor = "#a9f548",
@@ -620,7 +620,7 @@ return {
 			}
 		},
 		{
-			actor = 305041,
+			actor = 305040,
 			side = 2,
 			bgName = "bg_story_chuansong",
 			nameColor = "#a9f548",
@@ -640,7 +640,7 @@ return {
 			side = 2,
 			bgName = "bg_story_chuansong",
 			dir = 1,
-			actor = 10300011,
+			actor = 10300010,
 			nameColor = "#a9f548",
 			say = "いや、武器もそのままだし、艤装にも再装填してるよね！？日向さん、それダメかな！",
 			typewriter = {
@@ -663,7 +663,7 @@ return {
 			}
 		},
 		{
-			actor = 201211,
+			actor = 201210,
 			side = 2,
 			bgName = "bg_story_chuansong",
 			nameColor = "#a9f548",
@@ -679,7 +679,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 2,
 			bgName = "bg_story_chuansong",
 			nameColor = "#a9f548",
@@ -695,7 +695,7 @@ return {
 			}
 		},
 		{
-			actor = 301051,
+			actor = 301050,
 			side = 2,
 			bgName = "bg_story_chuansong",
 			nameColor = "#a9f548",
@@ -711,7 +711,7 @@ return {
 			}
 		},
 		{
-			actor = 10300061,
+			actor = 10300060,
 			side = 2,
 			bgName = "bg_story_chuansong",
 			nameColor = "#a9f548",
@@ -731,7 +731,7 @@ return {
 			side = 2,
 			bgName = "bg_story_chuansong",
 			dir = 1,
-			actor = 10300041,
+			actor = 10300040,
 			nameColor = "#a9f548",
 			say = "焼き芋できた",
 			typewriter = {
@@ -749,7 +749,7 @@ return {
 			bgName = "bg_story_chuansong",
 			say = "シグニットさんからいただいたサツマイモロロというのを焼いてみました。戦闘も一段落したので、おやつにいたしましょう",
 			dir = 1,
-			actor = 10300051,
+			actor = 10300050,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -765,7 +765,7 @@ return {
 			}
 		},
 		{
-			actor = 10300021,
+			actor = 10300020,
 			side = 2,
 			bgName = "bg_story_chuansong",
 			nameColor = "#a9f548",
@@ -781,7 +781,7 @@ return {
 			}
 		},
 		{
-			actor = 305031,
+			actor = 305030,
 			side = 2,
 			bgName = "bg_story_chuansong",
 			nameColor = "#a9f548",
@@ -797,7 +797,7 @@ return {
 			}
 		},
 		{
-			actor = 305041,
+			actor = 305040,
 			side = 2,
 			bgName = "bg_story_chuansong",
 			nameColor = "#a9f548",
@@ -813,7 +813,7 @@ return {
 			}
 		},
 		{
-			actor = 401231,
+			actor = 401230,
 			side = 2,
 			bgName = "bg_story_chuansong",
 			nameColor = "#a9f548",
@@ -833,7 +833,7 @@ return {
 			side = 2,
 			bgName = "bg_story_chuansong",
 			dir = 1,
-			actor = 10300061,
+			actor = 10300060,
 			nameColor = "#a9f548",
 			say = "フフフ、やんちゃな子たちも、おやつの時間は食卓につきますものね",
 			typewriter = {
@@ -850,7 +850,7 @@ return {
 			side = 2,
 			bgName = "bg_story_chuansong",
 			dir = 1,
-			actor = 10300011,
+			actor = 10300010,
 			nameColor = "#a9f548",
 			say = "暴れん坊はまず胃袋を掴んでおくこと、ってね",
 			typewriter = {
@@ -863,7 +863,7 @@ return {
 			}
 		},
 		{
-			actor = 10300041,
+			actor = 10300040,
 			side = 2,
 			bgName = "bg_story_chuansong",
 			nameColor = "#a9f548",
@@ -884,7 +884,7 @@ return {
 			bgName = "bg_story_chuansong",
 			say = "わたし達も主様の三食をご用意して、その胃袋をわし掴みにしております",
 			dir = 1,
-			actor = 10300051,
+			actor = 10300050,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -900,7 +900,7 @@ return {
 			}
 		},
 		{
-			actor = 305031,
+			actor = 305030,
 			side = 2,
 			bgName = "bg_story_chuansong",
 			nameColor = "#a9f548",
@@ -920,7 +920,7 @@ return {
 			side = 1,
 			bgName = "bg_story_chuansong",
 			dir = 1,
-			actor = 305041,
+			actor = 305040,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -936,7 +936,7 @@ return {
 			}
 		},
 		{
-			actor = 305031,
+			actor = 305030,
 			side = 0,
 			bgName = "bg_story_chuansong",
 			nameColor = "#a9f548",
@@ -952,7 +952,7 @@ return {
 			}
 		},
 		{
-			actor = 305041,
+			actor = 305040,
 			side = 1,
 			bgName = "bg_story_chuansong",
 			nameColor = "#a9f548",
@@ -968,7 +968,7 @@ return {
 			}
 		},
 		{
-			actor = 10300021,
+			actor = 10300020,
 			side = 2,
 			bgName = "bg_story_chuansong",
 			nameColor = "#a9f548",
@@ -984,7 +984,7 @@ return {
 			}
 		},
 		{
-			actor = 101171,
+			actor = 101170,
 			side = 2,
 			bgName = "bg_story_chuansong",
 			nameColor = "#a9f548",
@@ -1000,7 +1000,7 @@ return {
 			}
 		},
 		{
-			actor = 201211,
+			actor = 201210,
 			side = 2,
 			bgName = "bg_story_chuansong",
 			nameColor = "#a9f548",
@@ -1016,7 +1016,7 @@ return {
 			}
 		},
 		{
-			actor = 10300011,
+			actor = 10300010,
 			side = 2,
 			bgName = "bg_story_chuansong",
 			nameColor = "#a9f548",
@@ -1032,7 +1032,7 @@ return {
 			}
 		},
 		{
-			actor = 301051,
+			actor = 301050,
 			side = 2,
 			bgName = "bg_story_chuansong",
 			nameColor = "#a9f548",
@@ -1052,7 +1052,7 @@ return {
 			bgName = "bg_story_chuansong",
 			dir = 1,
 			blackBg = true,
-			actor = 312011,
+			actor = 312010,
 			nameColor = "#a9f548",
 			say = "にゃあ……酔っ払いの暴れん坊で収拾つかないにゃ……",
 			typewriter = {

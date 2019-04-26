@@ -28,7 +28,7 @@ return {
 			}
 		},
 		{
-			actor = 307011,
+			actor = 307010,
 			nameColor = "#a9f548",
 			bgName = "bg_story_school",
 			side = 2,
@@ -54,7 +54,7 @@ return {
 			}
 		},
 		{
-			actor = 307011,
+			actor = 307010,
 			nameColor = "#a9f548",
 			bgName = "bg_story_school",
 			side = 2,
@@ -89,7 +89,7 @@ return {
 			bgName = "bg_story_school",
 			side = 2,
 			dir = 1,
-			actor = 307011,
+			actor = 307010,
 			nameColor = "#a9f548",
 			say = "フフフ…惨めな虫けらごときが、この赤城から指揮官を奪うつもり？せんて…指揮官様？なんで赤城を止めるのですか？",
 			flashout = {
@@ -122,7 +122,7 @@ return {
 			bgName = "bg_story_school",
 			side = 2,
 			dir = 1,
-			actor = 307011,
+			actor = 307010,
 			nameColor = "#a9f548",
 			say = "今あの子に目移りしましたよね？ねえなんで赤城を見ないの？赤城と一緒に買い出しに来ているというのに？あの子に誘惑されたの？あんな奴赤城が始末して……",
 			flashout = {
@@ -155,7 +155,7 @@ return {
 			bgName = "bg_story_school",
 			side = 2,
 			dir = 1,
-			actor = 307011,
+			actor = 307010,
 			nameColor = "#a9f548",
 			say = "たいほ…あの小娘、後ろから付けてるわね…！いつか絶対に排除してやりますわ…！",
 			flashout = {
@@ -185,7 +185,7 @@ return {
 			}
 		},
 		{
-			actor = 307011,
+			actor = 307010,
 			nameColor = "#a9f548",
 			bgName = "bg_story_school",
 			side = 2,
@@ -204,7 +204,7 @@ return {
 			bgName = "bg_story_school",
 			side = 2,
 			dir = 1,
-			actor = 307024,
+			actor = 307020,
 			nameColor = "#a9f548",
 			say = "ねえさ…コホン、赤城、指揮官と買い物か。",
 			flashout = {
@@ -238,7 +238,7 @@ return {
 			side = 0,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 307011,
+			actor = 307010,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -254,7 +254,7 @@ return {
 			}
 		},
 		{
-			actor = 307024,
+			actor = 307020,
 			nameColor = "#a9f548",
 			bgName = "bg_story_school",
 			side = 1,
@@ -270,7 +270,7 @@ return {
 			}
 		},
 		{
-			actor = 307011,
+			actor = 307010,
 			nameColor = "#a9f548",
 			bgName = "bg_story_school",
 			side = 0,
@@ -296,7 +296,7 @@ return {
 			}
 		},
 		{
-			actor = 307024,
+			actor = 307020,
 			nameColor = "#a9f548",
 			bgName = "bg_story_school",
 			side = 2,

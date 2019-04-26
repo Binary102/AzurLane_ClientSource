@@ -31,7 +31,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 102091,
+			actor = 102090,
 			nameColor = "#a9f548",
 			say = "ついにこの日が来たのね……指揮官、こっちは準備ばっちりだ！試合中の指示も頼むぞ！",
 			typewriter = {
@@ -54,7 +54,7 @@ return {
 			}
 		},
 		{
-			actor = 102131,
+			actor = 102130,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -74,7 +74,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 102051,
+			actor = 102050,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -90,7 +90,7 @@ return {
 			}
 		},
 		{
-			actor = 102091,
+			actor = 102090,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -136,7 +136,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 101111,
+			actor = 101110,
 			nameColor = "#a9f548",
 			say = "さあ！私たちの正義を相手に見せつけるわよ！ビーバーズ隊！出撃！……あ、あれ？",
 			effects = {
@@ -158,7 +158,7 @@ return {
 			say = "面倒い…わたし補欠席でいいよー",
 			side = 1,
 			bgName = "star_level_bg_103",
-			actor = 101141,
+			actor = 101140,
 			dir = 1,
 			nameColor = "#a9f548",
 			effects = {
@@ -184,7 +184,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 101121,
+			actor = 101120,
 			nameColor = "#a9f548",
 			say = "あはははスペンスまた転げそうになっちゃった！…ってあああぶつかる！",
 			action = {
@@ -207,7 +207,7 @@ return {
 			}
 		},
 		{
-			actor = 101151,
+			actor = 101150,
 			side = 1,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -223,7 +223,7 @@ return {
 			}
 		},
 		{
-			actor = 102091,
+			actor = 102090,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -252,7 +252,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 102091,
+			actor = 102090,
 			nameColor = "#a9f548",
 			say = "よし、いいスタートを切ったね！このまま優勝するぞ！…って、そううまくはいかないかな、えへへ♪",
 			flashout = {
@@ -292,7 +292,7 @@ return {
 			bgName = "star_level_bg_103",
 			dir = 1,
 			blackBg = true,
-			actor = 102091,
+			actor = 102090,
 			nameColor = "#a9f548",
 			say = "おう！指揮官もちゃんと見とけよ！今日は最高に活躍するんだぜ♪",
 			typewriter = {

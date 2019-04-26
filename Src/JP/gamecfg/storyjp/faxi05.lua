@@ -252,7 +252,7 @@ return {
 			side = 2,
 			bgName = "bg_story_faxi2",
 			dir = 1,
-			actor = 905011,
+			actor = 905010,
 			withoutPainting = true,
 			flashout = {
 				dur = 1,
@@ -281,7 +281,7 @@ return {
 			}
 		},
 		{
-			actor = 905011,
+			actor = 905010,
 			side = 2,
 			bgName = "bg_story_faxi2",
 			say = "大洋最強の戦艦にして、堂々たる騎士様が、今やよそ者の力にすがるというこの有様だ。ふん。",
@@ -297,7 +297,7 @@ return {
 			}
 		},
 		{
-			actor = 905011,
+			actor = 905010,
 			side = 2,
 			bgName = "bg_story_faxi2",
 			say = "――不甲斐ないにもほどがあるぞ。この馬鹿姉が。",

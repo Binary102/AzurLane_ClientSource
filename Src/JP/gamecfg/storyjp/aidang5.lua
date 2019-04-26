@@ -44,7 +44,7 @@ return {
 			}
 		},
 		{
-			actor = 303121,
+			actor = 303120,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
@@ -70,7 +70,7 @@ return {
 			}
 		},
 		{
-			actor = 303121,
+			actor = 303120,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
@@ -96,7 +96,7 @@ return {
 			}
 		},
 		{
-			actor = 303121,
+			actor = 303120,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
@@ -125,7 +125,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 303121,
+			actor = 303120,
 			nameColor = "#a9f548",
 			say = "！！！！！",
 			typewriter = {
@@ -163,7 +163,7 @@ return {
 			}
 		},
 		{
-			actor = 303121,
+			actor = 303120,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
@@ -203,7 +203,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 303121,
+			actor = 303120,
 			nameColor = "#a9f548",
 			say = "……………！",
 			typewriter = {
@@ -249,7 +249,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 303121,
+			actor = 303120,
 			nameColor = "#a9f548",
 			say = "………指揮官……？",
 			typewriter = {
@@ -265,7 +265,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 303121,
+			actor = 303120,
 			nameColor = "#a9f548",
 			say = "………うん……怖くない、怖くない……",
 			typewriter = {
@@ -336,7 +336,7 @@ return {
 			}
 		},
 		{
-			actor = 303121,
+			actor = 303120,
 			nameColor = "#a9f548",
 			bgName = "bg_story_school",
 			side = 2,
@@ -352,7 +352,7 @@ return {
 			}
 		},
 		{
-			actor = 303121,
+			actor = 303120,
 			nameColor = "#a9f548",
 			bgName = "bg_story_school",
 			side = 2,
@@ -368,7 +368,7 @@ return {
 			}
 		},
 		{
-			actor = 303121,
+			actor = 303120,
 			nameColor = "#a9f548",
 			bgName = "bg_story_school",
 			side = 2,
@@ -384,7 +384,7 @@ return {
 			}
 		},
 		{
-			actor = 303121,
+			actor = 303120,
 			nameColor = "#a9f548",
 			bgName = "bg_story_school",
 			side = 2,
@@ -414,7 +414,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			blackBg = true,
-			actor = 303121,
+			actor = 303120,
 			nameColor = "#a9f548",
 			say = "指揮官だけが知っている「ヒミツ」こそ、価値があると思わない？うふふ",
 			typewriter = {

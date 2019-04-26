@@ -59,7 +59,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 303031,
+			actor = 303030,
 			nameColor = "#a9f548",
 			say = "身披舰装的少女们在海域里，赌上自己的一切，为着今天第一名的荣耀而奋斗……啊啊，这标题实在是太棒了！",
 			typewriter = {
@@ -82,7 +82,7 @@ return {
 			}
 		},
 		{
-			actor = 303041,
+			actor = 303040,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -98,7 +98,7 @@ return {
 			}
 		},
 		{
-			actor = 303071,
+			actor = 303070,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -114,7 +114,7 @@ return {
 			}
 		},
 		{
-			actor = 303081,
+			actor = 303080,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -130,7 +130,7 @@ return {
 			}
 		},
 		{
-			actor = 303081,
+			actor = 303080,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -149,7 +149,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 303091,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "……喝！",
 			flashout = {
@@ -185,7 +185,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
-			actor = 303091,
+			actor = 303090,
 			say = "！！",
 			flashN = {
 				color = {
@@ -232,7 +232,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 303091,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "——",
 			typewriter = {
@@ -254,7 +254,7 @@ return {
 			}
 		},
 		{
-			actor = 303111,
+			actor = 303110,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -270,7 +270,7 @@ return {
 			}
 		},
 		{
-			actor = 303121,
+			actor = 303120,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -286,7 +286,7 @@ return {
 			}
 		},
 		{
-			actor = 303111,
+			actor = 303110,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -302,7 +302,7 @@ return {
 			}
 		},
 		{
-			actor = 303091,
+			actor = 303090,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -322,7 +322,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgName = "bg_story_nepu1",
-			actor = 303091,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "呼——这样就结束了吗？",
 			flashout = {
@@ -352,7 +352,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -372,7 +372,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 303091,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "真、真的吗！那、那实在是太好了呢。",
 			typewriter = {
@@ -399,7 +399,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 303091,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "不过，下次我会做得更好的——",
 			typewriter = {
@@ -412,7 +412,7 @@ return {
 			}
 		},
 		{
-			actor = 303091,
+			actor = 303090,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,

@@ -46,7 +46,7 @@ return {
 			}
 		},
 		{
-			actor = 301321,
+			actor = 301320,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -66,7 +66,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 301331,
+			actor = 301330,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -86,7 +86,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = -1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "あ、もちろん大丈夫ですよ。",
 			typewriter = {
@@ -102,7 +102,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 101241,
+			actor = 101240,
 			nameColor = "#a9f548",
 			say = "セントー、この前かくれんぼするって言ったことを忘れてない？",
 			flashout = {
@@ -137,7 +137,7 @@ return {
 			bgName = "bg_story_task",
 			say = "もちろん忘れてません！シムス先輩、私も楽しみにしていました！",
 			dir = -1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -153,7 +153,7 @@ return {
 			}
 		},
 		{
-			actor = 101241,
+			actor = 101240,
 			side = 1,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -172,7 +172,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 201101,
+			actor = 201100,
 			nameColor = "#a9f548",
 			say = "あ、あのぉ…指揮官、うち、セントーさんと一緒にレッスンをやろうと思って……",
 			flashout = {
@@ -207,7 +207,7 @@ return {
 			bgName = "bg_story_task",
 			say = "シグニット先輩は先に行ってて、あとで追いつきますから！",
 			dir = -1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -223,7 +223,7 @@ return {
 			}
 		},
 		{
-			actor = 201101,
+			actor = 201100,
 			side = 1,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -255,7 +255,7 @@ return {
 			}
 		},
 		{
-			actor = 206041,
+			actor = 206040,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -271,7 +271,7 @@ return {
 			}
 		},
 		{
-			actor = 206041,
+			actor = 206040,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -323,7 +323,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "あ、アーク・ロイヤル先輩、おはようございます！",
 			typewriter = {

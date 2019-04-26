@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 304051,
+			actor = 304050,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
@@ -27,7 +27,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = -1,
-			actor = 301791,
+			actor = 301790,
 			say = "ようやく来てくれたか。天城、ちょっとまずいことになった、付いてきてくれ",
 			typewriter = {
 				speed = 0.05,

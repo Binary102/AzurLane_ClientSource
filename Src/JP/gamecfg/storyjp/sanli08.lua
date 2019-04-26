@@ -6,7 +6,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 304024,
+			actor = 304020,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
@@ -25,7 +25,7 @@ return {
 			actorName = "{namecode:96}",
 			side = 2,
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			nameColor = "#a9f548",
 			say = "三笠大先輩はこういうことが苦手だと思っていました…",
 			flashout = {
@@ -59,7 +59,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			actor = 305114,
+			actor = 305110,
 			actorName = "{namecode:82}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -75,7 +75,7 @@ return {
 			}
 		},
 		{
-			actor = 307064,
+			actor = 307060,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
@@ -91,7 +91,7 @@ return {
 			}
 		},
 		{
-			actor = 305114,
+			actor = 305110,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = -1,
@@ -107,7 +107,7 @@ return {
 			}
 		},
 		{
-			actor = 307064,
+			actor = 307060,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
@@ -123,7 +123,7 @@ return {
 			}
 		},
 		{
-			actor = 305114,
+			actor = 305110,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = -1,
@@ -139,7 +139,7 @@ return {
 			}
 		},
 		{
-			actor = 307064,
+			actor = 307060,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
@@ -155,7 +155,7 @@ return {
 			}
 		},
 		{
-			actor = 305114,
+			actor = 305110,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = -1,
@@ -171,7 +171,7 @@ return {
 			}
 		},
 		{
-			actor = 307064,
+			actor = 307060,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
@@ -187,7 +187,7 @@ return {
 			}
 		},
 		{
-			actor = 305114,
+			actor = 305110,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = -1,
@@ -203,7 +203,7 @@ return {
 			}
 		},
 		{
-			actor = 305114,
+			actor = 305110,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = -1,
@@ -219,7 +219,7 @@ return {
 			}
 		},
 		{
-			actor = 305114,
+			actor = 305110,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = -1,
@@ -235,7 +235,7 @@ return {
 			}
 		},
 		{
-			actor = 305114,
+			actor = 305110,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = -1,
@@ -251,7 +251,7 @@ return {
 			}
 		},
 		{
-			actor = 304024,
+			actor = 304020,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
@@ -267,7 +267,7 @@ return {
 			}
 		},
 		{
-			actor = 305114,
+			actor = 305110,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = -1,
@@ -283,7 +283,7 @@ return {
 			}
 		},
 		{
-			actor = 307064,
+			actor = 307060,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
@@ -299,7 +299,7 @@ return {
 			}
 		},
 		{
-			actor = 305114,
+			actor = 305110,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = -1,

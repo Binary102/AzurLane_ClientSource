@@ -56,7 +56,7 @@ return {
 			}
 		},
 		{
-			actor = 301641,
+			actor = 301640,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -72,7 +72,7 @@ return {
 			}
 		},
 		{
-			actor = 301641,
+			actor = 301640,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -98,7 +98,7 @@ return {
 			}
 		},
 		{
-			actor = 301641,
+			actor = 301640,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -124,7 +124,7 @@ return {
 			}
 		},
 		{
-			actor = 301641,
+			actor = 301640,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -153,7 +153,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 301641,
+			actor = 301640,
 			nameColor = "#a9f548",
 			say = "はい、指揮官、よく見ないな♪",
 			flashout = {
@@ -183,7 +183,7 @@ return {
 			}
 		},
 		{
-			actor = 301641,
+			actor = 301640,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -209,7 +209,7 @@ return {
 			}
 		},
 		{
-			actor = 301151,
+			actor = 301150,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -229,7 +229,7 @@ return {
 			side = 0,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 301641,
+			actor = 301640,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -245,7 +245,7 @@ return {
 			}
 		},
 		{
-			actor = 301151,
+			actor = 301150,
 			side = 1,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -261,7 +261,7 @@ return {
 			}
 		},
 		{
-			actor = 301641,
+			actor = 301640,
 			side = 0,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -290,7 +290,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = -1,
-			actor = 301141,
+			actor = 301140,
 			nameColor = "#a9f548",
 			say = "くんくん……わぅ！？！？お菓子の匂いだ！どこだ！？",
 			typewriter = {
@@ -317,7 +317,7 @@ return {
 			side = 0,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 301641,
+			actor = 301640,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -336,7 +336,7 @@ return {
 			side = 1,
 			bgName = "bg_story_room",
 			dir = -1,
-			actor = 301141,
+			actor = 301140,
 			nameColor = "#a9f548",
 			say = "こ、これは………！？",
 			typewriter = {
@@ -359,7 +359,7 @@ return {
 			}
 		},
 		{
-			actor = 301141,
+			actor = 301140,
 			side = 1,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -385,7 +385,7 @@ return {
 			}
 		},
 		{
-			actor = 301641,
+			actor = 301640,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -405,7 +405,7 @@ return {
 			side = 1,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 301151,
+			actor = 301150,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -425,7 +425,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			blackBg = true,
-			actor = 301641,
+			actor = 301640,
 			nameColor = "#a9f548",
 			say = "もう時雨ちゃん、そんな誤解されそうな話はやめないな～",
 			typewriter = {

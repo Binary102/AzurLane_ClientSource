@@ -32,7 +32,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 301164,
+			actor = 301160,
 			actorName = "{namecode:22}",
 			say = "しきかん……ありがとう……",
 			typewriter = {
@@ -59,7 +59,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 301164,
+			actor = 301160,
 			actorName = "{namecode:22}",
 			say = "指揮官が謝ることなんてないよ！",
 			typewriter = {
@@ -85,7 +85,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 301164,
+			actor = 301160,
 			actorName = "{namecode:22}",
 			say = "そ、それは入る前も怖かったけど…でも指揮官が入りたいかなって思ったら断れないよぉ……",
 			typewriter = {
@@ -112,7 +112,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 301164,
+			actor = 301160,
 			actorName = "{namecode:22}",
 			say = "つ、強がりなんてしてない！…のだ…",
 			typewriter = {
@@ -153,7 +153,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 301164,
+			actor = 301160,
 			actorName = "{namecode:22}",
 			say = "普段も無理してないかって？",
 			typewriter = {
@@ -170,7 +170,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 301164,
+			actor = 301160,
 			actorName = "{namecode:22}",
 			say = "違うのだ！あれは……………",
 			typewriter = {
@@ -187,7 +187,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 301164,
+			actor = 301160,
 			actorName = "{namecode:22}",
 			say = "みんなが頼ってくるから、雪風様が皆を助けてやっているのだ！",
 			typewriter = {
@@ -204,7 +204,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 301164,
+			actor = 301160,
 			actorName = "{namecode:22}",
 			say = "別に、みんなと仲良くしたいからやってるわけじゃ……",
 			typewriter = {
@@ -231,7 +231,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 301164,
+			actor = 301160,
 			actorName = "{namecode:22}",
 			say = "えへへ……わぅわぅ……",
 			typewriter = {
@@ -258,7 +258,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 301164,
+			actor = 301160,
 			actorName = "{namecode:22}",
 			say = "うん……今度は無理しないで指揮官の話を聞くー",
 			typewriter = {
@@ -285,7 +285,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 301164,
+			actor = 301160,
 			actorName = "{namecode:22}",
 			say = "……は！雪風様がなんて……",
 			typewriter = {
@@ -312,7 +312,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			blackBg = true,
-			actor = 301164,
+			actor = 301160,
 			actorName = "{namecode:22}",
 			say = "い、いまの忘れるのだ！…言ってない！言っていないのだ！",
 			typewriter = {

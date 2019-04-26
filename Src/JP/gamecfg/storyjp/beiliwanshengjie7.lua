@@ -23,7 +23,7 @@ return {
 			bgmDelay = 2,
 			bgName = "bg_night",
 			bgm = "story-1",
-			actor = 900137,
+			actor = 302051,
 			nameColor = "#a9f548",
 			say = "よ、ようやく着地できたよぉ……",
 			flashout = {
@@ -57,7 +57,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 900138,
+			actor = 101271,
 			nameColor = "#a9f548",
 			say = "お化けさん、追いついたよ！",
 			typewriter = {
@@ -84,7 +84,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 900138,
+			actor = 101271,
 			nameColor = "#a9f548",
 			say = "…あれ？白い布とランプを載せてる艦載機…？え？なんでみんながここにいるの？！",
 			typewriter = {
@@ -97,7 +97,7 @@ return {
 			}
 		},
 		{
-			actor = 107031,
+			actor = 107030,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -116,7 +116,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 900138,
+			actor = 101271,
 			nameColor = "#a9f548",
 			say = "お化けさんはサラトガちゃんの悪戯だったんだ…",
 			typewriter = {
@@ -143,7 +143,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "そんなとこ！まあアタシも参加したけどね♪",
 			typewriter = {
@@ -161,7 +161,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			actorName = "???",
 			say = "「あのあの、母港の古倉庫に変なものが出たって話を聞いたー？」",
 			typewriter = {
@@ -179,7 +179,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			actorName = "???",
 			say = "「ないない！いくらハロウィンでも本物の幽霊が出るわけ無いじゃん！」",
 			typewriter = {
@@ -195,7 +195,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 900138,
+			actor = 101271,
 			nameColor = "#a9f548",
 			say = "全部アルバコアの声なの！？",
 			typewriter = {
@@ -222,7 +222,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "えへへ、あたし演技結構上手いんだよぉ～",
 			typewriter = {
@@ -235,7 +235,7 @@ return {
 			}
 		},
 		{
-			actor = 900140,
+			actor = 205031,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -251,7 +251,7 @@ return {
 			}
 		},
 		{
-			actor = 900139,
+			actor = 213021,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -272,18 +272,18 @@ return {
 			bgName = "bg_night",
 			hideOther = true,
 			dir = 1,
-			actor = 900140,
+			actor = 205031,
 			actorName = "みんな",
 			say = "テラーちゃん！",
 			subActors = {
 				{
-					actor = 900137,
+					actor = 302051,
 					pos = {
 						x = 370
 					}
 				},
 				{
-					actor = 900138,
+					actor = 101271,
 					dir = 1,
 					pos = {
 						x = 750
@@ -310,7 +310,7 @@ return {
 			}
 		},
 		{
-			actor = 900140,
+			actor = 205031,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -326,7 +326,7 @@ return {
 			}
 		},
 		{
-			actor = 900138,
+			actor = 101271,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -346,7 +346,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 900137,
+			actor = 302051,
 			nameColor = "#a9f548",
 			say = "じゃ、じゃあお化けさんはもう現れないってことだよね……？",
 			typewriter = {
@@ -359,7 +359,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -375,7 +375,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -391,7 +391,7 @@ return {
 			}
 		},
 		{
-			actor = 205041,
+			actor = 205040,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -411,7 +411,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 900140,
+			actor = 205031,
 			nameColor = "#a9f548",
 			say = "い、意外と悪くなかったわ……ってロドニー！あなた最初から知っていたのね！",
 			typewriter = {
@@ -434,7 +434,7 @@ return {
 			}
 		},
 		{
-			actor = 205041,
+			actor = 205040,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -450,7 +450,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -466,7 +466,7 @@ return {
 			}
 		},
 		{
-			actor = 900140,
+			actor = 205031,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -482,7 +482,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -503,18 +503,18 @@ return {
 			bgName = "bg_night",
 			hideOther = true,
 			dir = 1,
-			actor = 900138,
+			actor = 101271,
 			actorName = "みんな",
 			say = "おおー！",
 			subActors = {
 				{
-					actor = 900137,
+					actor = 302051,
 					pos = {
 						x = 370
 					}
 				},
 				{
-					actor = 900139,
+					actor = 213021,
 					dir = -1,
 					pos = {
 						x = 750
@@ -535,7 +535,7 @@ return {
 			bgName = "bg_night",
 			dir = 1,
 			blackBg = true,
-			actor = 900140,
+			actor = 205031,
 			nameColor = "#a9f548",
 			say = "ちょっと！話題を強引に変えるんじゃないわよ！",
 			typewriter = {

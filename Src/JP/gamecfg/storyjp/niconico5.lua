@@ -14,7 +14,7 @@ return {
 			}
 		},
 		{
-			actor = 306054,
+			actor = 306050,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -29,7 +29,7 @@ return {
 			}
 		},
 		{
-			actor = 306054,
+			actor = 306050,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -44,7 +44,7 @@ return {
 			}
 		},
 		{
-			actor = 900053,
+			actor = 301052,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
@@ -63,7 +63,7 @@ return {
 			}
 		},
 		{
-			actor = 900053,
+			actor = 301052,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -78,7 +78,7 @@ return {
 			}
 		},
 		{
-			actor = 900053,
+			actor = 301052,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -93,7 +93,7 @@ return {
 			}
 		},
 		{
-			actor = 306054,
+			actor = 306050,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -108,7 +108,7 @@ return {
 			}
 		},
 		{
-			actor = 306054,
+			actor = 306050,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -125,7 +125,7 @@ return {
 		{
 			side = 2,
 			dir = -1,
-			actor = 301114,
+			actor = 301110,
 			nameColor = "#a9f548",
 			say = "なるほどね！「きたかぜとたいよう」にすればいいよ！",
 			flashout = {
@@ -155,7 +155,7 @@ return {
 			}
 		},
 		{
-			actor = 306054,
+			actor = 306050,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -174,7 +174,7 @@ return {
 			}
 		},
 		{
-			actor = 301114,
+			actor = 301110,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -189,7 +189,7 @@ return {
 			}
 		},
 		{
-			actor = 306054,
+			actor = 306050,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,

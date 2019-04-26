@@ -18,7 +18,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			actor = 107034,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "パンプキン？もちろん分かるわ！だって「イタズラの日」がそろそろ来るからね！",
 			flashout = {
@@ -50,7 +50,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			actor = 107074,
+			actor = 107070,
 			nameColor = "#a9f548",
 			say = "にゃはは！重桜の子たちよ～首を洗って待ってろよ～",
 			flashout = {
@@ -83,7 +83,7 @@ return {
 			actorName = "{namecode:87}",
 			side = 2,
 			dir = 1,
-			actor = 900038,
+			actor = 306051,
 			nameColor = "#a9f548",
 			say = "うう……なんかビリビリってしたんやけど……綾波、どう？",
 			flashout = {
@@ -117,7 +117,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 301051,
+			actor = 301050,
 			actorName = "{namecode:6}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -133,7 +133,7 @@ return {
 			}
 		},
 		{
-			actor = 900038,
+			actor = 306051,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -149,7 +149,7 @@ return {
 			}
 		},
 		{
-			actor = 900038,
+			actor = 306051,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -165,7 +165,7 @@ return {
 			}
 		},
 		{
-			actor = 301051,
+			actor = 301050,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
@@ -181,7 +181,7 @@ return {
 			}
 		},
 		{
-			actor = 900038,
+			actor = 306051,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -200,7 +200,7 @@ return {
 			actorName = "{namecode:87}",
 			side = 2,
 			dir = -1,
-			actor = 900038,
+			actor = 306051,
 			nameColor = "#a9f548",
 			say = "ヘーレナ！うちや！祥鳳や！",
 			flashout = {
@@ -230,7 +230,7 @@ return {
 			}
 		},
 		{
-			actor = 102051,
+			actor = 102050,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -249,7 +249,7 @@ return {
 			}
 		},
 		{
-			actor = 900038,
+			actor = 306051,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
@@ -265,7 +265,7 @@ return {
 			}
 		},
 		{
-			actor = 102051,
+			actor = 102050,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -283,7 +283,7 @@ return {
 			actorName = "{namecode:87}",
 			side = 2,
 			dir = -1,
-			actor = 900038,
+			actor = 306051,
 			nameColor = "#a9f548",
 			say = "なるほどーイタズラもカボチャもあの「ハロウィン」ちゅう祝日のために準備したことなんやな？",
 			flashout = {
@@ -313,7 +313,7 @@ return {
 			}
 		},
 		{
-			actor = 102051,
+			actor = 102050,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -332,7 +332,7 @@ return {
 			}
 		},
 		{
-			actor = 102051,
+			actor = 102050,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -347,7 +347,7 @@ return {
 			}
 		},
 		{
-			actor = 900038,
+			actor = 306051,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
@@ -363,7 +363,7 @@ return {
 			}
 		},
 		{
-			actor = 102051,
+			actor = 102050,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -378,7 +378,7 @@ return {
 			}
 		},
 		{
-			actor = 900038,
+			actor = 306051,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
@@ -394,7 +394,7 @@ return {
 			}
 		},
 		{
-			actor = 102051,
+			actor = 102050,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -409,7 +409,7 @@ return {
 			}
 		},
 		{
-			actor = 900038,
+			actor = 306051,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
@@ -425,7 +425,7 @@ return {
 			}
 		},
 		{
-			actor = 102051,
+			actor = 102050,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -440,7 +440,7 @@ return {
 			}
 		},
 		{
-			actor = 900038,
+			actor = 306051,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
@@ -461,7 +461,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actorName = "？？？",
-			actor = 307064,
+			actor = 307060,
 			nameColor = "#a9f548",
 			withoutPainting = true,
 			flashout = {

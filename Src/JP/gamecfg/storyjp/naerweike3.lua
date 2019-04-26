@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 201201,
+			actor = 201200,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
@@ -27,7 +27,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			actor = 201201,
+			actor = 201200,
 			say = "雪原でのハンティングも面白そう…",
 			typewriter = {
 				speed = 0.05,
@@ -42,7 +42,7 @@ return {
 			expression = 2,
 			side = 1,
 			dir = -1,
-			actor = 201161,
+			actor = 201160,
 			nameColor = "#a9f548",
 			say = "ハンター、なにを言ってるんですか！？わたしたちは任務で来ているんですよ？",
 			typewriter = {
@@ -80,7 +80,7 @@ return {
 			}
 		},
 		{
-			actor = 201161,
+			actor = 201160,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -95,7 +95,7 @@ return {
 			}
 		},
 		{
-			actor = 201201,
+			actor = 201200,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -110,7 +110,7 @@ return {
 			}
 		},
 		{
-			actor = 201161,
+			actor = 201160,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -139,7 +139,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			actor = 201201,
+			actor = 201200,
 			say = "はいはい……",
 			typewriter = {
 				speed = 0.05,
@@ -151,7 +151,7 @@ return {
 			}
 		},
 		{
-			actor = 201161,
+			actor = 201160,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -166,7 +166,7 @@ return {
 			}
 		},
 		{
-			actor = 201161,
+			actor = 201160,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -181,7 +181,7 @@ return {
 			}
 		},
 		{
-			actor = 201161,
+			actor = 201160,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -200,7 +200,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			actor = 201201,
+			actor = 201200,
 			say = "それはないかな。ヒッパーはグローウォームに撃退されてるし、シャルンホルスト姉妹が向かった方向もナルヴィクじゃない……",
 			typewriter = {
 				speed = 0.05,
@@ -212,7 +212,7 @@ return {
 			}
 		},
 		{
-			actor = 201201,
+			actor = 201200,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -227,7 +227,7 @@ return {
 			}
 		},
 		{
-			actor = 201161,
+			actor = 201160,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -246,7 +246,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = -1,
-			actor = 201161,
+			actor = 201160,
 			say = "それは一理ありそうね…グローウォームもヒッパーとの戦いの前に随伴艦とも交戦したんだから、あの子たちが今回の敵と考えたほうがいいかもしれません",
 			typewriter = {
 				speed = 0.05,
@@ -262,7 +262,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			actor = 201201,
+			actor = 201200,
 			say = "そうだね。ごめんハーディ、わたしに言えるのはこれしかないけど……",
 			typewriter = {
 				speed = 0.05,
@@ -309,7 +309,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = -1,
-			actor = 201161,
+			actor = 201160,
 			say = "今回の戦いではわたしたちもグローウォームを見習って、敵に怯むことなくロイヤルネイビーの意地を見せるべきよ",
 			typewriter = {
 				speed = 0.05,
@@ -325,7 +325,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			actor = 201201,
+			actor = 201200,
 			say = "グローウォーム…多分そこまで考えていなかったかも……",
 			typewriter = {
 				speed = 0.05,
@@ -337,7 +337,7 @@ return {
 			}
 		},
 		{
-			actor = 201161,
+			actor = 201160,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -356,7 +356,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			actor = 201201,
+			actor = 201200,
 			say = "あとで労ってあげよう",
 			typewriter = {
 				speed = 0.05,
@@ -368,7 +368,7 @@ return {
 			}
 		},
 		{
-			actor = 201161,
+			actor = 201160,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -383,7 +383,7 @@ return {
 			}
 		},
 		{
-			actor = 201161,
+			actor = 201160,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -402,7 +402,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			actor = 201201,
+			actor = 201200,
 			say = "…うん",
 			typewriter = {
 				speed = 0.05,
@@ -414,7 +414,7 @@ return {
 			}
 		},
 		{
-			actor = 201161,
+			actor = 201160,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,

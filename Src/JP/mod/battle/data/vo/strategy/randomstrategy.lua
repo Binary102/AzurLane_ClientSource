@@ -16,6 +16,10 @@ function ys.Battle.RandomStrategy.Ctor(slot0, slot1)
 	slot0._speed = Vector3.zero
 end
 
+function ys.Battle.RandomStrategy.GetStrategyType(slot0)
+	return slot0.Battle.BattleJoyStickAutoBot.RANDOM
+end
+
 function ys.Battle.RandomStrategy.Input(slot0, slot1, slot2)
 	slot0.super.Input(slot0, slot1, slot2)
 	slot0:shiftTick(0, 10)

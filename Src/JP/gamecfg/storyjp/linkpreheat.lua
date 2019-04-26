@@ -44,7 +44,7 @@ return {
 			}
 		},
 		{
-			actor = 401231,
+			actor = 401230,
 			side = 2,
 			bgName = "bg_story_chuansong",
 			nameColor = "#a9f548",
@@ -60,7 +60,7 @@ return {
 			}
 		},
 		{
-			actor = 401231,
+			actor = 401230,
 			side = 2,
 			bgName = "bg_story_chuansong",
 			nameColor = "#a9f548",
@@ -80,7 +80,7 @@ return {
 			side = 1,
 			bgName = "bg_story_chuansong",
 			dir = 1,
-			actor = 201211,
+			actor = 201210,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -96,7 +96,7 @@ return {
 			}
 		},
 		{
-			actor = 101171,
+			actor = 101170,
 			side = 1,
 			bgName = "bg_story_chuansong",
 			nameColor = "#a9f548",
@@ -112,7 +112,7 @@ return {
 			}
 		},
 		{
-			actor = 401231,
+			actor = 401230,
 			side = 0,
 			bgName = "bg_story_chuansong",
 			nameColor = "#a9f548",
@@ -128,7 +128,7 @@ return {
 			}
 		},
 		{
-			actor = 401231,
+			actor = 401230,
 			side = 0,
 			bgName = "bg_story_chuansong",
 			nameColor = "#a9f548",
@@ -144,7 +144,7 @@ return {
 			}
 		},
 		{
-			actor = 201211,
+			actor = 201210,
 			side = 1,
 			bgName = "bg_story_chuansong",
 			nameColor = "#a9f548",
@@ -163,7 +163,7 @@ return {
 			side = 1,
 			bgName = "bg_story_chuansong",
 			dir = 1,
-			actor = 101171,
+			actor = 101170,
 			nameColor = "#a9f548",
 			say = "霧も出てきた……前も後ろも右も左も真っ白……",
 			effects = {
@@ -182,7 +182,7 @@ return {
 			}
 		},
 		{
-			actor = 401231,
+			actor = 401230,
 			side = 0,
 			bgName = "bg_story_chuansong",
 			nameColor = "#a9f548",
@@ -202,7 +202,7 @@ return {
 			bgName = "bg_story_chuansong",
 			dir = 1,
 			bgm = "level-uta",
-			actor = 201211,
+			actor = 201210,
 			nameColor = "#a9f548",
 			say = "……ッ！？　ニーミちゃん、１１時の方向に何かいるよ！",
 			typewriter = {
@@ -219,7 +219,7 @@ return {
 			side = 2,
 			bgName = "bg_story_chuansong",
 			dir = 1,
-			actor = 10300061,
+			actor = 10300060,
 			actorName = "???",
 			say = "もしもし？すいません……そこにどなたかいらっしゃいますか？",
 			typewriter = {
@@ -232,7 +232,7 @@ return {
 			}
 		},
 		{
-			actor = 401231,
+			actor = 401230,
 			side = 2,
 			bgName = "bg_story_chuansong",
 			nameColor = "#a9f548",
@@ -253,7 +253,7 @@ return {
 			bgName = "bg_story_chuansong",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 10300061,
+			actor = 10300060,
 			actorName = "???",
 			say = "ああ、そんなに怖がらないでください……私、道に迷ってしまって……",
 			typewriter = {
@@ -271,7 +271,7 @@ return {
 			bgName = "bg_story_chuansong",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 10300061,
+			actor = 10300060,
 			actorName = "???",
 			say = "あの～……ここはどこなんでしょうか？",
 			typewriter = {
@@ -284,7 +284,7 @@ return {
 			}
 		},
 		{
-			actor = 201211,
+			actor = 201210,
 			side = 2,
 			bgName = "bg_story_chuansong",
 			nameColor = "#a9f548",
@@ -300,7 +300,7 @@ return {
 			}
 		},
 		{
-			actor = 101171,
+			actor = 101170,
 			side = 2,
 			bgName = "bg_story_chuansong",
 			nameColor = "#a9f548",
@@ -321,7 +321,7 @@ return {
 			bgmDelay = 2,
 			bgName = "bg_story_school",
 			bgm = "main-uta",
-			actor = 401231,
+			actor = 401230,
 			nameColor = "#a9f548",
 			say = "そんなわけで──なんとか海域を脱してお連れした次第です",
 			effects = {
@@ -361,7 +361,7 @@ return {
 			side = 0,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 10300061,
+			actor = 10300060,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -377,7 +377,7 @@ return {
 			}
 		},
 		{
-			actor = 301051,
+			actor = 301050,
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -393,7 +393,7 @@ return {
 			}
 		},
 		{
-			actor = 10300061,
+			actor = 10300060,
 			side = 0,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -409,7 +409,7 @@ return {
 			}
 		},
 		{
-			actor = 301051,
+			actor = 301050,
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -425,7 +425,7 @@ return {
 			}
 		},
 		{
-			actor = 301051,
+			actor = 301050,
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -441,7 +441,7 @@ return {
 			}
 		},
 		{
-			actor = 201211,
+			actor = 201210,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -457,7 +457,7 @@ return {
 			}
 		},
 		{
-			actor = 101171,
+			actor = 101170,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -473,7 +473,7 @@ return {
 			}
 		},
 		{
-			actor = 10300061,
+			actor = 10300060,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -493,7 +493,7 @@ return {
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 401231,
+			actor = 401230,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -513,7 +513,7 @@ return {
 			side = 0,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 10300061,
+			actor = 10300060,
 			nameColor = "#a9f548",
 			say = "どちらから……と聞かれたら、トゥスクルより参りました",
 			typewriter = {
@@ -530,7 +530,7 @@ return {
 			side = 0,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 10300061,
+			actor = 10300060,
 			nameColor = "#a9f548",
 			say = "クーちゃんや仲間の皆さんと、ヤマトへ向かう旅をしていたのですが……",
 			typewriter = {
@@ -543,7 +543,7 @@ return {
 			}
 		},
 		{
-			actor = 101171,
+			actor = 101170,
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -559,7 +559,7 @@ return {
 			}
 		},
 		{
-			actor = 10300061,
+			actor = 10300060,
 			side = 0,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -575,7 +575,7 @@ return {
 			}
 		},
 		{
-			actor = 201211,
+			actor = 201210,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -591,7 +591,7 @@ return {
 			}
 		},
 		{
-			actor = 401231,
+			actor = 401230,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -607,7 +607,7 @@ return {
 			}
 		},
 		{
-			actor = 301051,
+			actor = 301050,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -623,7 +623,7 @@ return {
 			}
 		},
 		{
-			actor = 301051,
+			actor = 301050,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -639,7 +639,7 @@ return {
 			}
 		},
 		{
-			actor = 201211,
+			actor = 201210,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -655,7 +655,7 @@ return {
 			}
 		},
 		{
-			actor = 10300061,
+			actor = 10300060,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -675,7 +675,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 10300061,
+			actor = 10300060,
 			nameColor = "#a9f548",
 			say = "クーちゃんや仲間の皆さんも、ひょっとするとあの海で迷っているかも知れません……この艤装？というのがあればお役に立てそうですし",
 			typewriter = {
@@ -692,7 +692,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			blackBg = true,
-			actor = 401231,
+			actor = 401230,
 			nameColor = "#a9f548",
 			say = "そうですね……原因究明も兼ねて、もう一度出撃しましょう。指揮官の許可をいただいてきます",
 			typewriter = {

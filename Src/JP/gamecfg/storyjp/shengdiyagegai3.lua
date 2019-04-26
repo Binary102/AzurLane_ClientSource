@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			actor = 102081,
+			actor = 102080,
 			nameColor = "#a9f548",
 			say = "わかったようなわかんなかったような……",
 			flashout = {
@@ -52,7 +52,7 @@ return {
 			}
 		},
 		{
-			actor = 102081,
+			actor = 102080,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -71,7 +71,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 102081,
+			actor = 102080,
 			nameColor = "#a9f548",
 			say = "でもサンディエゴは頭がいいから、いつか絶対わかるようになるはず！うんうん！",
 			typewriter = {
@@ -106,7 +106,7 @@ return {
 			}
 		},
 		{
-			actor = 102081,
+			actor = 102080,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -122,7 +122,7 @@ return {
 			}
 		},
 		{
-			actor = 102081,
+			actor = 102080,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -141,7 +141,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 900129,
+			actor = 101319,
 			nameColor = "#a9f548",
 			say = "うええええええ！？敵襲地震台風津波それとも指揮官が人事考課でもしてきたのー！？？！？！",
 			typewriter = {
@@ -168,7 +168,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 102081,
+			actor = 102080,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -184,7 +184,7 @@ return {
 			}
 		},
 		{
-			actor = 900129,
+			actor = 101319,
 			side = 0,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -200,7 +200,7 @@ return {
 			}
 		},
 		{
-			actor = 102081,
+			actor = 102080,
 			side = 1,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -216,7 +216,7 @@ return {
 			}
 		},
 		{
-			actor = 900129,
+			actor = 101319,
 			side = 0,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -235,7 +235,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 102081,
+			actor = 102080,
 			nameColor = "#a9f548",
 			say = "改造って寝ればできるの！？よぉしメモった！！",
 			typewriter = {
@@ -258,7 +258,7 @@ return {
 			}
 		},
 		{
-			actor = 900129,
+			actor = 101319,
 			side = 0,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -276,7 +276,7 @@ return {
 		{
 			say = "ちがーーーーう！",
 			side = 2,
-			actor = 900130,
+			actor = 101259,
 			dir = 1,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -312,7 +312,7 @@ return {
 			say = "やっほーハムマン！",
 			side = 1,
 			bgName = "star_level_bg_103",
-			actor = 102081,
+			actor = 102080,
 			dir = 1,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
@@ -338,7 +338,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 900130,
+			actor = 101259,
 			nameColor = "#a9f548",
 			say = "こっちはさんざん苦労して、恥ずかし目を受けて、ようやく改造できたんだからぁ！",
 			typewriter = {
@@ -361,7 +361,7 @@ return {
 			}
 		},
 		{
-			actor = 900130,
+			actor = 101259,
 			side = 0,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -377,7 +377,7 @@ return {
 			}
 		},
 		{
-			actor = 102081,
+			actor = 102080,
 			side = 1,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -396,7 +396,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 900130,
+			actor = 101259,
 			nameColor = "#a9f548",
 			say = "な、なんでもないのだ！とにかく言いたいのは改造はそんなに簡単じゃないってことだ！心の準備は予めしておくんだぞ！",
 			typewriter = {
@@ -419,7 +419,7 @@ return {
 			}
 		},
 		{
-			actor = 102081,
+			actor = 102080,
 			side = 1,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -435,7 +435,7 @@ return {
 			}
 		},
 		{
-			actor = 900129,
+			actor = 101319,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",

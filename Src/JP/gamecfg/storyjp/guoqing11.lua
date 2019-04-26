@@ -10,7 +10,7 @@ return {
 			say = "五航戦の子、「彫刻室」に向かったようですね。本当に困ったやつだ。",
 			nameColor = "#ff0000",
 			blackBg = true,
-			actor = 307061,
+			actor = 307060,
 			actorName = "？？？",
 			withoutPainting = true,
 			shake = {
@@ -31,7 +31,7 @@ return {
 			side = 1,
 			actorName = "？？？",
 			blackBg = true,
-			actor = 301091,
+			actor = 301090,
 			nameColor = "#ff0000",
 			withoutPainting = true,
 			typewriter = {
@@ -48,7 +48,7 @@ return {
 			side = 0,
 			actorName = "？？？",
 			blackBg = true,
-			actor = 301091,
+			actor = 301090,
 			nameColor = "#ff0000",
 			withoutPainting = true,
 			typewriter = {
@@ -65,7 +65,7 @@ return {
 			say = "ではあの子に行かせましょう。時間稼ぎにはちょうど良いわ。",
 			nameColor = "#ff0000",
 			blackBg = true,
-			actor = 307061,
+			actor = 307060,
 			actorName = "？？？",
 			withoutPainting = true,
 			shake = {

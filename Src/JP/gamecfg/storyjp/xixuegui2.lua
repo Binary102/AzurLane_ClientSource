@@ -46,7 +46,7 @@ return {
 			}
 		},
 		{
-			actor = 201231,
+			actor = 201230,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -89,7 +89,7 @@ return {
 			}
 		},
 		{
-			actor = 201231,
+			actor = 201230,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -136,7 +136,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 900093,
+			actor = 201232,
 			nameColor = "#a9f548",
 			say = "体温もよしよし♪　指揮官は調子いいみたいね♪",
 			typewriter = {
@@ -163,7 +163,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 900093,
+			actor = 201232,
 			nameColor = "#a9f548",
 			say = "今日の私はいつもとちょっと違う感じって？",
 			typewriter = {
@@ -176,7 +176,7 @@ return {
 			}
 		},
 		{
-			actor = 900093,
+			actor = 201232,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -192,7 +192,7 @@ return {
 			}
 		},
 		{
-			actor = 900093,
+			actor = 201232,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -208,7 +208,7 @@ return {
 			}
 		},
 		{
-			actor = 203011,
+			actor = 203010,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -224,7 +224,7 @@ return {
 			}
 		},
 		{
-			actor = 203011,
+			actor = 203010,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -244,7 +244,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 900093,
+			actor = 201232,
 			nameColor = "#a9f548",
 			say = "むぅ、ちょっとからかおうと思ってノッてきたところだったのに……",
 			typewriter = {
@@ -271,7 +271,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 203011,
+			actor = 203010,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -287,7 +287,7 @@ return {
 			}
 		},
 		{
-			actor = 203011,
+			actor = 203010,
 			side = 1,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -303,7 +303,7 @@ return {
 			}
 		},
 		{
-			actor = 900093,
+			actor = 201232,
 			side = 0,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -319,7 +319,7 @@ return {
 			}
 		},
 		{
-			actor = 203011,
+			actor = 203010,
 			side = 1,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -339,7 +339,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 900093,
+			actor = 201232,
 			nameColor = "#a9f548",
 			say = "指揮官は？汝は私のことを信じてくれる？",
 			typewriter = {
@@ -362,7 +362,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 900093,
+			actor = 201232,
 			nameColor = "#a9f548",
 			say = "ふん！信じてくれないなら証明してやるわ！この衣装は指揮官をユウワクするためだけに着たわけじゃないってことを！",
 			typewriter = {
@@ -395,7 +395,7 @@ return {
 			}
 		},
 		{
-			actor = 203011,
+			actor = 203010,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -415,7 +415,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			actor = 203011,
+			actor = 203010,
 			nameColor = "#a9f548",
 			say = "すみません閣下、私の不注意でした。あとでヴァンパイアさんに謝らせていただきます。",
 			typewriter = {

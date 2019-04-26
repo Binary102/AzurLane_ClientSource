@@ -50,7 +50,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "ふぅ……結構仕事したよねーちょっと休憩～……そろそろ糖分を取らないと♪",
 			typewriter = {
@@ -77,7 +77,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "んん～やっぱいいよねー！仕事の後のキャンディは最高だよ！",
 			typewriter = {
@@ -100,7 +100,7 @@ return {
 			}
 		},
 		{
-			actor = 102181,
+			actor = 102180,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -140,7 +140,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "あっ、糖分の話ばっかしてて訓練レポートのことを忘れちゃってた。これまとめないといけないよね",
 			typewriter = {
@@ -157,7 +157,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "はい、お仕事に集中しまーす♪",
 			typewriter = {
@@ -174,7 +174,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgName = "bg_story_task",
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "あ！睦月ちゃん！アメさんを交換してみない？",
 			flashout = {
@@ -208,7 +208,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgName = "bg_story_task",
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "あそこにいるのはオマハじゃない……おーい！ってまたおやつ買ってる！あとでちょっとせびりに行こっと♪",
 			flashout = {
@@ -242,7 +242,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgName = "bg_story_task",
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "ふはー、お仕事しゅーりょー！疲れたー！指揮官肩揉んでー",
 			flashout = {
@@ -306,7 +306,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "ねえ指揮官肩揉んでよ～あとでお礼してあげるから～",
 			typewriter = {
@@ -329,7 +329,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "うんうん、上手上手♪指揮官は肩揉みがうまいんだ～",
 			typewriter = {
@@ -356,7 +356,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "ではでは、私からのお返しは～",
 			typewriter = {
@@ -383,7 +383,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "ささ、座って座ってー。お返しは……私も肩を揉んであげる！",
 			typewriter = {

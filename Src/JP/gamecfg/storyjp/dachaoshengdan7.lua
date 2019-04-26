@@ -22,7 +22,7 @@ return {
 			dir = -1,
 			bgmDelay = 2,
 			bgm = "main-christmas",
-			actor = 900145,
+			actor = 205021,
 			nameColor = "#a9f548",
 			say = "よし！これでプレゼントは全部運べた！",
 			flashout = {
@@ -56,7 +56,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_100",
 			dir = 1,
-			actor = 900057,
+			actor = 201102,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -76,7 +76,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_100",
 			dir = -1,
-			actor = 900145,
+			actor = 205021,
 			nameColor = "#a9f548",
 			say = "後はロイヤルの皆に配るのみ！ふん、オールドレディの手さばきを見せてやるわ！",
 			typewriter = {
@@ -89,7 +89,7 @@ return {
 			}
 		},
 		{
-			actor = 900057,
+			actor = 201102,
 			side = 1,
 			bgName = "star_level_bg_100",
 			nameColor = "#a9f548",
@@ -108,7 +108,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_100",
 			dir = -1,
-			actor = 900145,
+			actor = 205021,
 			nameColor = "#a9f548",
 			say = "ふぅ…これで全部だ。あとは陛下にこの巨大ぬいぐるみを届ければ……",
 			flashout = {
@@ -141,7 +141,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_100",
 			dir = 1,
-			actor = 205011,
+			actor = 205010,
 			nameColor = "#a9f548",
 			say = "ウォースパイト…私にプレゼントを用意してくれたの！？",
 			typewriter = {
@@ -168,7 +168,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_100",
 			dir = -1,
-			actor = 900145,
+			actor = 205021,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -187,7 +187,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_100",
 			dir = 1,
-			actor = 205011,
+			actor = 205010,
 			nameColor = "#a9f548",
 			say = "…………べ、別にそんなに好きじゃないわ！うん！全然好きじゃないわよ！",
 			typewriter = {
@@ -214,7 +214,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_100",
 			dir = -1,
-			actor = 900145,
+			actor = 205021,
 			nameColor = "#a9f548",
 			say = "お気に召さなかったようでしたら、このウォースパイト、直ちに処分いたします！",
 			typewriter = {
@@ -227,7 +227,7 @@ return {
 			}
 		},
 		{
-			actor = 205011,
+			actor = 205010,
 			side = 1,
 			bgName = "star_level_bg_100",
 			nameColor = "#a9f548",
@@ -243,7 +243,7 @@ return {
 			}
 		},
 		{
-			actor = 900145,
+			actor = 205021,
 			side = 0,
 			bgName = "star_level_bg_100",
 			nameColor = "#a9f548",
@@ -263,7 +263,7 @@ return {
 			side = 2,
 			dir = -1,
 			bgName = "star_level_bg_100",
-			actor = 900145,
+			actor = 205021,
 			nameColor = "#a9f548",
 			say = "これでみんなは楽しくクリスマスを過ごせるのかしら……",
 			flashout = {
@@ -297,7 +297,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_100",
 			dir = -1,
-			actor = 900145,
+			actor = 205021,
 			nameColor = "#a9f548",
 			say = "うん？この箱は……？",
 			typewriter = {
@@ -314,7 +314,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_100",
 			dir = -1,
-			actor = 900145,
+			actor = 205021,
 			nameColor = "#a9f548",
 			say = "中から物音！？これは一体？？",
 			typewriter = {
@@ -331,7 +331,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_100",
 			dir = 1,
-			actor = 900146,
+			actor = 101312,
 			nameColor = "#a9f548",
 			say = "おはよー――あ、あれー",
 			typewriter = {
@@ -348,7 +348,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_100",
 			dir = -1,
-			actor = 900145,
+			actor = 205021,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -374,7 +374,7 @@ return {
 			}
 		},
 		{
-			actor = 900146,
+			actor = 101312,
 			side = 1,
 			bgName = "star_level_bg_100",
 			nameColor = "#a9f548",
@@ -394,7 +394,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_100",
 			dir = -1,
-			actor = 900145,
+			actor = 205021,
 			nameColor = "#a9f548",
 			say = "そ、そうか……",
 			typewriter = {
@@ -410,7 +410,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_100",
 			dir = -1,
-			actor = 900055,
+			actor = 107061,
 			nameColor = "#a9f548",
 			say = "ウォースパイト、すまない！先程まで私と一緒にいたニコラスを見かけなかったか？",
 			typewriter = {
@@ -433,7 +433,7 @@ return {
 			}
 		},
 		{
-			actor = 900145,
+			actor = 205021,
 			side = 2,
 			bgName = "star_level_bg_100",
 			nameColor = "#a9f548",
@@ -453,7 +453,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_100",
 			dir = 1,
-			actor = 900146,
+			actor = 101312,
 			nameColor = "#a9f548",
 			say = "あれー、わたし、プレゼントになったー？エンタープライズにならいいよー",
 			typewriter = {
@@ -470,7 +470,7 @@ return {
 			bgName = "star_level_bg_100",
 			dir = -1,
 			blackBg = true,
-			actor = 900145,
+			actor = 205021,
 			nameColor = "#a9f548",
 			say = "メリークリスマス！",
 			typewriter = {

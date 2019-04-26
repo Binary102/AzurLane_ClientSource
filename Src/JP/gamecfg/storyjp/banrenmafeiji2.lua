@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			actor = 900094,
+			actor = 201212,
 			nameColor = "#a9f548",
 			say = "平海ちゃんと時雨ちゃん！二人もスイカを取りに？",
 			flashout = {
@@ -66,7 +66,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 900099,
+			actor = 502031,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -85,7 +85,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_106",
 			dir = -1,
-			actor = 900100,
+			actor = 301151,
 			nameColor = "#a9f548",
 			say = "ジャベリン？そうよ。そっちは新人さんを連れて母港の案内中？",
 			typewriter = {
@@ -108,7 +108,7 @@ return {
 			}
 		},
 		{
-			actor = 900094,
+			actor = 201212,
 			side = 0,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -128,7 +128,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "おはようございます。時雨先輩、平海先輩。",
 			typewriter = {
@@ -145,7 +145,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 900100,
+			actor = 301151,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -171,7 +171,7 @@ return {
 			}
 		},
 		{
-			actor = 900099,
+			actor = 502031,
 			side = 1,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -187,7 +187,7 @@ return {
 			}
 		},
 		{
-			actor = 900094,
+			actor = 201212,
 			side = 0,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -203,7 +203,7 @@ return {
 			}
 		},
 		{
-			actor = 206041,
+			actor = 206040,
 			side = 1,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -219,7 +219,7 @@ return {
 			}
 		},
 		{
-			actor = 900100,
+			actor = 301151,
 			side = 0,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -235,7 +235,7 @@ return {
 			}
 		},
 		{
-			actor = 900100,
+			actor = 301151,
 			side = 0,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -254,7 +254,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 900094,
+			actor = 201212,
 			nameColor = "#a9f548",
 			say = "ほ、本当！？",
 			typewriter = {
@@ -281,7 +281,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_106",
 			dir = -1,
-			actor = 900100,
+			actor = 301151,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -297,7 +297,7 @@ return {
 			}
 		},
 		{
-			actor = 900094,
+			actor = 201212,
 			side = 0,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -313,7 +313,7 @@ return {
 			}
 		},
 		{
-			actor = 900100,
+			actor = 301151,
 			side = 1,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -333,7 +333,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "「スクミズ」って奥が深いですね……",
 			typewriter = {
@@ -349,7 +349,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 900094,
+			actor = 201212,
 			nameColor = "#a9f548",
 			say = "まさか重桜にこんな秘密兵器があったとは……",
 			typewriter = {
@@ -376,7 +376,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "ジャベリン先輩……？",
 			typewriter = {
@@ -392,7 +392,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 900094,
+			actor = 201212,
 			nameColor = "#a9f548",
 			say = "わ、私は大丈夫！紹介の続きをするね！",
 			typewriter = {
@@ -415,7 +415,7 @@ return {
 			}
 		},
 		{
-			actor = 900094,
+			actor = 201212,
 			side = 2,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -436,7 +436,7 @@ return {
 			bgName = "star_level_bg_106",
 			hideOther = true,
 			dir = 1,
-			actor = 900094,
+			actor = 201212,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -444,7 +444,7 @@ return {
 			},
 			subActors = {
 				{
-					actor = 900101,
+					actor = 204031,
 					pos = {
 						x = 750
 					}
@@ -464,7 +464,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "さすがフッド先輩、座っているだけで絵になりますね。",
 			typewriter = {
@@ -481,7 +481,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 900094,
+			actor = 201212,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -511,7 +511,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "あの……ジャベリン先輩の言ってる「戦い」とは……？",
 			typewriter = {
@@ -524,7 +524,7 @@ return {
 			}
 		},
 		{
-			actor = 900094,
+			actor = 201212,
 			side = 0,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -544,7 +544,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "は、はい！",
 			typewriter = {
@@ -567,7 +567,7 @@ return {
 			}
 		},
 		{
-			actor = 900094,
+			actor = 201212,
 			side = 2,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -586,7 +586,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 900094,
+			actor = 201212,
 			nameColor = "#a9f548",
 			say = "戦争よ！",
 			effects = {
@@ -610,7 +610,7 @@ return {
 			bgName = "star_level_bg_106",
 			dir = 1,
 			say = "そ、そうなのですか！？",
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -642,7 +642,7 @@ return {
 			}
 		},
 		{
-			actor = 900094,
+			actor = 201212,
 			side = 0,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -658,7 +658,7 @@ return {
 			}
 		},
 		{
-			actor = 900094,
+			actor = 201212,
 			side = 0,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -674,7 +674,7 @@ return {
 			}
 		},
 		{
-			actor = 900094,
+			actor = 201212,
 			side = 0,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -695,7 +695,7 @@ return {
 			bgName = "star_level_bg_106",
 			dir = 1,
 			blackBg = true,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "な、なるほどです……",
 			typewriter = {

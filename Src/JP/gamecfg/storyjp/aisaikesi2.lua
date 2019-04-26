@@ -46,7 +46,7 @@ return {
 			}
 		},
 		{
-			actor = 107091,
+			actor = 107090,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -62,7 +62,7 @@ return {
 			}
 		},
 		{
-			actor = 206041,
+			actor = 206040,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -83,7 +83,7 @@ return {
 			bgName = "bg_story_school",
 			say = "せ、先輩！？あなたはロイヤルの…セントーさん、ですね",
 			dir = 1,
-			actor = 107091,
+			actor = 107090,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -113,7 +113,7 @@ return {
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "はい！エセックス先輩たちは母港の見回りですか？お疲れ様です！",
 			typewriter = {
@@ -130,7 +130,7 @@ return {
 			side = 0,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 107091,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "そ、そうですね。母港を管理する者として当然の仕事です。別に大したことではありません",
 			typewriter = {
@@ -147,7 +147,7 @@ return {
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "まあ、エセックス先輩は噂通りの堅実な方ですね。では、私はこれで失礼します",
 			typewriter = {
@@ -174,7 +174,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 107091,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "あの子が誰にでも先輩呼びをする、あのセントー……",
 			typewriter = {
@@ -187,7 +187,7 @@ return {
 			}
 		},
 		{
-			actor = 107091,
+			actor = 107090,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -234,7 +234,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 107091,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "ここは重桜の生活施設…「あいつ」もここにいるのですね――",
 			typewriter = {
@@ -247,7 +247,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -267,7 +267,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 107091,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "…やっぱり現れた！",
 			typewriter = {
@@ -283,7 +283,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 107091,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "こ、コホン！あなたが重桜の瑞鶴ですね。よろしくおねがいします",
 			typewriter = {
@@ -310,7 +310,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 107091,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "（この子はエンタープライズ先輩のライバル――幸運の鶴！）",
 			typewriter = {
@@ -327,7 +327,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_103",
 			dir = -1,
-			actor = 307061,
+			actor = 307060,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -343,7 +343,7 @@ return {
 			}
 		},
 		{
-			actor = 107091,
+			actor = 107090,
 			side = 0,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -359,7 +359,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			side = 1,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -375,7 +375,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			side = 1,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -391,7 +391,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			side = 1,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -411,7 +411,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = -1,
-			actor = 307061,
+			actor = 307060,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -440,7 +440,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 107091,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "……瑞鶴、先輩にずっと勝ちたかった子……",
 			typewriter = {
@@ -453,7 +453,7 @@ return {
 			}
 		},
 		{
-			actor = 107091,
+			actor = 107090,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,

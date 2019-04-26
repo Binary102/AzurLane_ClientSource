@@ -128,7 +128,7 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleBuffAddAttrRatio",
+				type = "BattleBuffAddAttr",
 				trigger = {
 					"onAttach"
 				},

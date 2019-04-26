@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 304051,
+			actor = 304050,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = -1,
@@ -27,7 +27,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = -1,
-			actor = 301791,
+			actor = 301790,
 			say = "セイレーンの動きは予測不可能。こちらの演習海域まで進出するのはさすがに天城だって見通せないぞ",
 			typewriter = {
 				speed = 0.05,
@@ -39,7 +39,7 @@ return {
 			}
 		},
 		{
-			actor = 303091,
+			actor = 303090,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -58,7 +58,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = -1,
-			actor = 304051,
+			actor = 304050,
 			say = "良いお知らせです。艦載機、確かに侮れるものではありませんね。ふふふ……",
 			typewriter = {
 				speed = 0.05,
@@ -70,7 +70,7 @@ return {
 			}
 		},
 		{
-			actor = 304051,
+			actor = 304050,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,

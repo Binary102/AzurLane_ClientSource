@@ -32,7 +32,7 @@ return {
 			side = 0,
 			bgName = "bg_story_faxi2",
 			dir = 1,
-			actor = 905011,
+			actor = 905010,
 			withoutPainting = true,
 			flashout = {
 				dur = 1,
@@ -61,7 +61,7 @@ return {
 			}
 		},
 		{
-			actor = 905011,
+			actor = 905010,
 			side = 0,
 			bgName = "bg_story_faxi2",
 			say = "……リシュリュー姉、これがあなたが望んだ結果か……？",
@@ -392,7 +392,7 @@ return {
 			side = 0,
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
-			actor = 101301,
+			actor = 101300,
 			say = "こ、これは……ヴィシアの艦隊が攻撃してきました！",
 			effects = {
 				{
@@ -442,7 +442,7 @@ return {
 			}
 		},
 		{
-			actor = 102031,
+			actor = 102030,
 			say = "損傷甚大！支援を求む！",
 			dir = 1,
 			side = 1,
@@ -489,7 +489,7 @@ return {
 			}
 		},
 		{
-			actor = 102031,
+			actor = 102030,
 			say = "繰り返します！損傷甚大！支援を求む！",
 			dir = 1,
 			side = 1,
@@ -536,7 +536,7 @@ return {
 			}
 		},
 		{
-			actor = 107041,
+			actor = 107040,
 			say = "一筋縄には行かないようね……",
 			dir = 1,
 			side = 1,
@@ -583,7 +583,7 @@ return {
 			}
 		},
 		{
-			actor = 107041,
+			actor = 107040,
 			say = "周辺海域で展開中の艦載機に通達。これより任務を変更します。",
 			dir = 1,
 			side = 1,
@@ -630,7 +630,7 @@ return {
 			}
 		},
 		{
-			actor = 107041,
+			actor = 107040,
 			say = "沿岸砲の排除を優先し、上陸の援護に集中してください！",
 			dir = 1,
 			side = 1,
@@ -677,7 +677,7 @@ return {
 			}
 		},
 		{
-			actor = 102091,
+			actor = 102090,
 			say = "やっぱり戦闘になったか……敵の航空機がないと私は中々活躍できないんだけどな……",
 			dir = 1,
 			side = 1,
@@ -724,7 +724,7 @@ return {
 			}
 		},
 		{
-			actor = 102091,
+			actor = 102090,
 			say = "あわわわ！セイレーンの艦載機！？",
 			dir = 1,
 			side = 1,
@@ -771,7 +771,7 @@ return {
 			}
 		},
 		{
-			actor = 103111,
+			actor = 103110,
 			say = "油断するな！このあたりの防空はお前に任せた！こっちはセイレーンの新型空母を叩く！",
 			dir = 1,
 			side = 1,

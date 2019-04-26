@@ -73,7 +73,7 @@ return {
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "story-2",
-			actor = 405021,
+			actor = 405020,
 			nameColor = "#a9f548",
 			say = "……またあの夢……もう何回目になるだろうか……。",
 			flashout = {
@@ -103,7 +103,7 @@ return {
 			}
 		},
 		{
-			actor = 405021,
+			actor = 405020,
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			side = 2,
@@ -119,7 +119,7 @@ return {
 			}
 		},
 		{
-			actor = 405021,
+			actor = 405020,
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			side = 2,
@@ -164,7 +164,7 @@ return {
 			}
 		},
 		{
-			actor = 405021,
+			actor = 405020,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -183,7 +183,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 405021,
+			actor = 405020,
 			nameColor = "#a9f548",
 			say = "ちょうどいい。今日のタスクとスケジュールを確認して。問題があったらまた直しておく。",
 			typewriter = {
@@ -202,7 +202,7 @@ return {
 			}
 		},
 		{
-			actor = 405021,
+			actor = 405020,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -234,7 +234,7 @@ return {
 			}
 		},
 		{
-			actor = 405021,
+			actor = 405020,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",

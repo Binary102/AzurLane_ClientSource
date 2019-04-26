@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 304051,
+			actor = 304050,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
@@ -23,7 +23,7 @@ return {
 			}
 		},
 		{
-			actor = 302141,
+			actor = 302140,
 			side = 1,
 			nameColor = "#ff0000",
 			dir = 1,
@@ -42,7 +42,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
-			actor = 304051,
+			actor = 304050,
 			say = "元気で何よりです。那珂はこの手の演習は初めて？",
 			typewriter = {
 				speed = 0.05,
@@ -54,7 +54,7 @@ return {
 			}
 		},
 		{
-			actor = 302141,
+			actor = 302140,
 			side = 1,
 			nameColor = "#ff0000",
 			dir = 1,
@@ -73,7 +73,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
-			actor = 304051,
+			actor = 304050,
 			say = "ふふふ、張り切るのはいいですが、ここが戦場であることを忘れてはいけませんよ？",
 			typewriter = {
 				speed = 0.05,
@@ -89,7 +89,7 @@ return {
 			nameColor = "#ff0000",
 			side = 1,
 			dir = 1,
-			actor = 302141,
+			actor = 302140,
 			say = "もちろんです！いくら天城さんだからって、お辞儀してはいどうぞお通りください、なんて言いませんよ！",
 			typewriter = {
 				speed = 0.05,
@@ -101,7 +101,7 @@ return {
 			}
 		},
 		{
-			actor = 304051,
+			actor = 304050,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,

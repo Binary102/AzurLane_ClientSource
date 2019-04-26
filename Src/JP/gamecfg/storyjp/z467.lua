@@ -69,7 +69,7 @@ return {
 			bgName = "bg_story_task",
 			bgmDelay = 2,
 			bgm = "story-2",
-			actor = 401461,
+			actor = 401460,
 			say = "愛しい人よ、私は一体何色だろうか？",
 			flashout = {
 				dur = 1,
@@ -98,7 +98,7 @@ return {
 			}
 		},
 		{
-			actor = 401461,
+			actor = 401460,
 			side = 2,
 			bgName = "bg_story_task",
 			say = "どうか教えておくれ。あなたは一体、どんな「私」を望んでいるのか？",
@@ -112,7 +112,7 @@ return {
 			}
 		},
 		{
-			actor = 401461,
+			actor = 401460,
 			side = 2,
 			bgName = "bg_story_task",
 			say = "あなたがそうなってほしい存在に、私は変わってみせよう。",
@@ -150,7 +150,7 @@ return {
 			}
 		},
 		{
-			actor = 401461,
+			actor = 401460,
 			side = 2,
 			bgName = "bg_story_task",
 			say = "ならば、私は白（ヴァイス）。",
@@ -164,7 +164,7 @@ return {
 			}
 		},
 		{
-			actor = 401461,
+			actor = 401460,
 			side = 2,
 			bgName = "bg_story_task",
 			say = "あなた色に染まるがために、透明から自らを白く染め上げた愚かなるモノであり――",
@@ -178,7 +178,7 @@ return {
 			}
 		},
 		{
-			actor = 401461,
+			actor = 401460,
 			side = 2,
 			bgName = "bg_story_task",
 			say = "そして、いくら硝煙に汚されようとも、何度も何度も心の灰色を洗い流すヒトになろう。",
@@ -216,7 +216,7 @@ return {
 			}
 		},
 		{
-			actor = 401461,
+			actor = 401460,
 			side = 2,
 			bgName = "bg_story_task",
 			blackBg = true,

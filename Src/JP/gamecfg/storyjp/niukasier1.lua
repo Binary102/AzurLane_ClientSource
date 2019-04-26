@@ -20,7 +20,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 205011,
+			actor = 205010,
 			dir = 1,
 			stopbgm = true,
 			say = "というわけで、私とベルは公務のために数日母港を留守にするわ！",
@@ -40,7 +40,7 @@ return {
 			}
 		},
 		{
-			actor = 205011,
+			actor = 205010,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -56,7 +56,7 @@ return {
 			}
 		},
 		{
-			actor = 205011,
+			actor = 205010,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -72,7 +72,7 @@ return {
 			}
 		},
 		{
-			actor = 205011,
+			actor = 205010,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -93,7 +93,7 @@ return {
 			bgmDelay = 1,
 			bgName = "bg_story_task",
 			bgm = "story-1",
-			actor = 202191,
+			actor = 202190,
 			nameColor = "#a9f548",
 			say = "貴方様、どうかなさいましたか？",
 			flashout = {
@@ -129,7 +129,7 @@ return {
 			}
 		},
 		{
-			actor = 202191,
+			actor = 202190,
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -145,7 +145,7 @@ return {
 			}
 		},
 		{
-			actor = 202191,
+			actor = 202190,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -161,7 +161,7 @@ return {
 			}
 		},
 		{
-			actor = 202191,
+			actor = 202190,
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -177,7 +177,7 @@ return {
 			}
 		},
 		{
-			actor = 202191,
+			actor = 202190,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -193,7 +193,7 @@ return {
 			}
 		},
 		{
-			actor = 202191,
+			actor = 202190,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -212,7 +212,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 202191,
+			actor = 202190,
 			nameColor = "#a9f548",
 			say = "私は紅茶をオススメしますが、他にお好みのものがあるのでしたらご用意いたします",
 			typewriter = {
@@ -234,7 +234,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 202191,
+			actor = 202190,
 			nameColor = "#a9f548",
 			say = "かしこまりました",
 			typewriter = {
@@ -267,7 +267,7 @@ return {
 			}
 		},
 		{
-			actor = 202191,
+			actor = 202190,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",

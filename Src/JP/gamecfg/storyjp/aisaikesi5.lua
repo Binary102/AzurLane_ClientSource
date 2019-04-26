@@ -70,7 +70,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgName = "bg_story_task",
-			actor = 107091,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "え？日頃の感謝として、今度非番の日にどこかに出かける…ですか？",
 			flashout = {
@@ -103,7 +103,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 107091,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "秘書艦のすべきことをやったまでで、特に感謝されるほどのことは…",
 			typewriter = {
@@ -126,7 +126,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 107091,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "し、指揮官がそこまで言うのなら……",
 			typewriter = {
@@ -171,7 +171,7 @@ return {
 			bgName = "star_level_bg_105",
 			dir = 1,
 			bgm = "story-1",
-			actor = 107091,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "場所が違う以外、普段の母港での見回りとあまり変わらないのですね…",
 			typewriter = {
@@ -188,7 +188,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_105",
 			dir = 1,
-			actor = 107091,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "あ、指揮官からなにかご指示はありますか？",
 			typewriter = {
@@ -211,7 +211,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_105",
 			dir = 1,
-			actor = 107091,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "エンタープライズ先輩の事をどう思っているのか、ですか……",
 			typewriter = {
@@ -224,7 +224,7 @@ return {
 			}
 		},
 		{
-			actor = 107091,
+			actor = 107090,
 			side = 2,
 			bgName = "star_level_bg_105",
 			nameColor = "#a9f548",
@@ -240,7 +240,7 @@ return {
 			}
 		},
 		{
-			actor = 107091,
+			actor = 107090,
 			side = 2,
 			bgName = "star_level_bg_105",
 			nameColor = "#a9f548",
@@ -256,7 +256,7 @@ return {
 			}
 		},
 		{
-			actor = 107091,
+			actor = 107090,
 			side = 2,
 			bgName = "star_level_bg_105",
 			nameColor = "#a9f548",
@@ -272,7 +272,7 @@ return {
 			}
 		},
 		{
-			actor = 107091,
+			actor = 107090,
 			side = 2,
 			bgName = "star_level_bg_105",
 			nameColor = "#a9f548",
@@ -288,7 +288,7 @@ return {
 			}
 		},
 		{
-			actor = 107091,
+			actor = 107090,
 			side = 2,
 			bgName = "star_level_bg_105",
 			nameColor = "#a9f548",
@@ -304,7 +304,7 @@ return {
 			}
 		},
 		{
-			actor = 107091,
+			actor = 107090,
 			side = 2,
 			bgName = "star_level_bg_105",
 			nameColor = "#a9f548",
@@ -320,7 +320,7 @@ return {
 			}
 		},
 		{
-			actor = 107091,
+			actor = 107090,
 			side = 2,
 			bgName = "star_level_bg_105",
 			nameColor = "#a9f548",
@@ -336,7 +336,7 @@ return {
 			}
 		},
 		{
-			actor = 107091,
+			actor = 107090,
 			side = 2,
 			bgName = "star_level_bg_105",
 			nameColor = "#a9f548",
@@ -356,7 +356,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_105",
 			dir = 1,
-			actor = 107061,
+			actor = 107060,
 			stopbgm = true,
 			say = "それは違う",
 			typewriter = {
@@ -374,7 +374,7 @@ return {
 			bgName = "star_level_bg_105",
 			dir = 1,
 			blackBg = true,
-			actor = 107091,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "え、エンタープライズ先輩！？",
 			typewriter = {

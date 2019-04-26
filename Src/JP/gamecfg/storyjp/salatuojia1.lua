@@ -28,7 +28,7 @@ return {
 			}
 		},
 		{
-			actor = 107031,
+			actor = 107030,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -74,7 +74,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgName = "bg_story_school",
-			actor = 312011,
+			actor = 312010,
 			nameColor = "#a9f548",
 			say = "現行犯逮捕にゃ！盗撮は許しても明石のコピー機を無断使用する罪は重いにゃ！",
 			flashout = {
@@ -116,7 +116,7 @@ return {
 			side = 0,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 101051,
+			actor = 101050,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -144,7 +144,7 @@ return {
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 312011,
+			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "そうだにゃ！というわけで印刷されたものはこの明石が押収するにゃ！原本は指揮官に預けるにゃ！",
 			typewriter = {
@@ -160,7 +160,7 @@ return {
 			side = 0,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 101051,
+			actor = 101050,
 			nameColor = "#a9f548",
 			say = "うええええ……（パタン",
 			typewriter = {
@@ -218,7 +218,7 @@ return {
 			}
 		},
 		{
-			actor = 107031,
+			actor = 107030,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -234,7 +234,7 @@ return {
 			}
 		},
 		{
-			actor = 107031,
+			actor = 107030,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",

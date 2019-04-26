@@ -68,7 +68,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 301321,
+			actor = 301320,
 			actorName = "{namecode:33}",
 			say = "みんながみていないうちに、アメさんを……",
 			typewriter = {
@@ -85,7 +85,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 301321,
+			actor = 301320,
 			actorName = "{namecode:33}",
 			say = "お？",
 			typewriter = {
@@ -130,7 +130,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = -1,
-			actor = 312011,
+			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "睦月、いつからいたにゃ！？",
 			typewriter = {
@@ -148,7 +148,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 301181,
+			actor = 301180,
 			actorName = "{namecode:20}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -168,7 +168,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 900068,
+			actor = 301331,
 			actorName = "{namecode:34}",
 			say = "む、睦月！？ふゆのふくをきてくるって…？",
 			typewriter = {
@@ -186,7 +186,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 301321,
+			actor = 301320,
 			actorName = "{namecode:33}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -206,7 +206,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 301171,
+			actor = 301170,
 			actorName = "{namecode:19}",
 			say = "どうみても適当に誤魔化すために作った作り話じゃろ…",
 			typewriter = {
@@ -224,7 +224,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 900068,
+			actor = 301331,
 			actorName = "{namecode:34}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -245,7 +245,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			blackBg = true,
-			actor = 301321,
+			actor = 301320,
 			actorName = "{namecode:33}",
 			say = "睦月が悪かったよ……如月、ごめん！",
 			typewriter = {

@@ -86,7 +86,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
-			actor = 10300011,
+			actor = 10300010,
 			say = "くっ、こんな大軍けしかけといて……なんて言い草かな！",
 			flashN = {
 				color = {
@@ -134,7 +134,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			actor = 10300041,
+			actor = 10300040,
 			say = "質より量",
 			typewriter = {
 				speed = 0.05,
@@ -150,7 +150,7 @@ return {
 			side = 1,
 			say = "一体一体はさほど強くありませんが、この戦力差を覆すのは至難の業です",
 			dir = 1,
-			actor = 10300051,
+			actor = 10300050,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -170,7 +170,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			actor = 10300011,
+			actor = 10300010,
 			say = "敵の数も厄介だけど……なんで、どうして……",
 			typewriter = {
 				speed = 0.05,
@@ -186,7 +186,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 10300061,
+			actor = 10300060,
 			actorName = "フミルィル？",
 			say = "…………",
 			typewriter = {
@@ -204,7 +204,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
-			actor = 10300011,
+			actor = 10300010,
 			say = "どうして私たちを攻撃するかな、フミルィル！",
 			flashN = {
 				color = {
@@ -252,7 +252,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			actor = 10300041,
+			actor = 10300040,
 			say = "あれ、フミルィルじゃない",
 			typewriter = {
 				speed = 0.05,
@@ -268,7 +268,7 @@ return {
 			side = 1,
 			say = "外見や能力こそ瓜二つですが魂の色が違います。いいえ、魂に色がついていない……まるで人形のようです",
 			dir = 1,
-			actor = 10300051,
+			actor = 10300050,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -288,7 +288,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			actor = 10300011,
+			actor = 10300010,
 			say = "それってつまり……偽物ってことかな？",
 			typewriter = {
 				speed = 0.05,
@@ -304,7 +304,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 10300061,
+			actor = 10300060,
 			actorName = "フミルィル？",
 			say = "…………",
 			typewriter = {
@@ -418,7 +418,7 @@ return {
 			}
 		},
 		{
-			actor = 401231,
+			actor = 401230,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
@@ -434,7 +434,7 @@ return {
 			}
 		},
 		{
-			actor = 101171,
+			actor = 101170,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -469,7 +469,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			actor = 10300011,
+			actor = 10300010,
 			say = "ここに来て……敵の増援！？",
 			typewriter = {
 				speed = 0.05,
@@ -481,7 +481,7 @@ return {
 			}
 		},
 		{
-			actor = 201211,
+			actor = 201210,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -500,7 +500,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			actor = 10300041,
+			actor = 10300040,
 			say = "迎撃の用意あり",
 			typewriter = {
 				speed = 0.05,
@@ -516,7 +516,7 @@ return {
 			side = 1,
 			say = "何者であれ、私たちに挑むというのなら容赦いたしません",
 			dir = 1,
-			actor = 10300051,
+			actor = 10300050,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -532,7 +532,7 @@ return {
 			}
 		},
 		{
-			actor = 301051,
+			actor = 301050,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,

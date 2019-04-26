@@ -11,7 +11,7 @@ return {
 			side = 1,
 			nameColor = "#ff0000",
 			dir = -1,
-			actor = 301791,
+			actor = 301790,
 			stopbgm = true,
 			say = "こんなところか。流石に火力が違いすぎるとどうすることもできまい",
 			typewriter = {
@@ -28,7 +28,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
-			actor = 304051,
+			actor = 304050,
 			say = "そちらもうまく職務を果たすことができましたね",
 			typewriter = {
 				speed = 0.05,
@@ -44,7 +44,7 @@ return {
 			nameColor = "#ff0000",
 			side = 1,
 			dir = -1,
-			actor = 301791,
+			actor = 301790,
 			say = "……天城。お主、本気か？",
 			typewriter = {
 				speed = 0.05,
@@ -56,7 +56,7 @@ return {
 			}
 		},
 		{
-			actor = 304051,
+			actor = 304050,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -71,7 +71,7 @@ return {
 			}
 		},
 		{
-			actor = 301791,
+			actor = 301790,
 			side = 1,
 			nameColor = "#ff0000",
 			dir = -1,
@@ -90,7 +90,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
-			actor = 304051,
+			actor = 304050,
 			say = "………… ",
 			typewriter = {
 				speed = 0.05,
@@ -106,7 +106,7 @@ return {
 			nameColor = "#ff0000",
 			side = 1,
 			dir = -1,
-			actor = 301791,
+			actor = 301790,
 			say = "お主の振る舞いこそ普段とは変わらんが、戦えば違いがわかる",
 			typewriter = {
 				speed = 0.05,
@@ -118,7 +118,7 @@ return {
 			}
 		},
 		{
-			actor = 301791,
+			actor = 301790,
 			side = 1,
 			nameColor = "#ff0000",
 			dir = -1,
@@ -137,7 +137,7 @@ return {
 			nameColor = "#ff0000",
 			side = 1,
 			dir = -1,
-			actor = 301791,
+			actor = 301790,
 			say = "その気になれば後方で指揮担当に徹しても同じ戦果が得られるだろうに、前線に出る理由など思いつかぬにもほどがある",
 			typewriter = {
 				speed = 0.05,
@@ -153,7 +153,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
-			actor = 304051,
+			actor = 304050,
 			say = "それはどうかしら…私はただ今までのやり方とは違う、別のものも必要になるかと",
 			typewriter = {
 				speed = 0.05,
@@ -165,7 +165,7 @@ return {
 			}
 		},
 		{
-			actor = 304051,
+			actor = 304050,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -184,7 +184,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
-			actor = 304051,
+			actor = 304050,
 			say = "状況は決して楽観的ではないと長門様も仰っしゃいました。もう我が身のみを考えるような時期ではなくなっていますわ",
 			typewriter = {
 				speed = 0.05,
@@ -196,7 +196,7 @@ return {
 			}
 		},
 		{
-			actor = 304051,
+			actor = 304050,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -215,7 +215,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
-			actor = 304051,
+			actor = 304050,
 			say = "それだけでも十分試す価値がある、と私は考えています ",
 			typewriter = {
 				speed = 0.05,
@@ -231,7 +231,7 @@ return {
 			nameColor = "#ff0000",
 			side = 1,
 			dir = -1,
-			actor = 301791,
+			actor = 301790,
 			say = "なるほど、確かに一理あるな..",
 			typewriter = {
 				speed = 0.05,
@@ -247,7 +247,7 @@ return {
 			nameColor = "#ff0000",
 			side = 1,
 			dir = -1,
-			actor = 301791,
+			actor = 301790,
 			say = "お主が良ければそれで良い。連合艦隊の旗艦が誰であろうと、ついていくに違いないがな",
 			typewriter = {
 				speed = 0.05,
@@ -294,7 +294,7 @@ return {
 			}
 		},
 		{
-			actor = 305061,
+			actor = 305060,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -322,7 +322,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = -1,
-			actor = 304051,
+			actor = 304050,
 			say = "ゲホ、ゲホ…ようやく終わりましたね…危うくバレてしまうところでした…… ",
 			typewriter = {
 				speed = 0.05,
@@ -338,7 +338,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = -1,
-			actor = 304051,
+			actor = 304050,
 			say = "流石に体を長く動かしていないと…ゲホゲホ…この程度で倒れそうになったとは…… ",
 			typewriter = {
 				speed = 0.05,
@@ -354,7 +354,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = -1,
-			actor = 304051,
+			actor = 304050,
 			say = "…もう少し、あともう少しだけ…… ",
 			typewriter = {
 				speed = 0.05,

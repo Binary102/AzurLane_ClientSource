@@ -22,7 +22,7 @@ return {
 			bgName = "star_level_bg_103",
 			dir = 1,
 			bgm = "story-1",
-			actor = 900082,
+			actor = 307041,
 			actorName = "{namecode:94}",
 			say = "ま、まさか本当に延々と説教されるとは……",
 			typewriter = {
@@ -39,7 +39,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 900083,
+			actor = 401011,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -76,7 +76,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 900082,
+			actor = 307041,
 			actorName = "{namecode:94}",
 			say = "あ！指揮官！",
 			typewriter = {
@@ -93,7 +93,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 900083,
+			actor = 401011,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -126,7 +126,7 @@ return {
 			}
 		},
 		{
-			actor = 900083,
+			actor = 401011,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -147,7 +147,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 900082,
+			actor = 307041,
 			actorName = "{namecode:94}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -163,7 +163,7 @@ return {
 			}
 		},
 		{
-			actor = 900083,
+			actor = 401011,
 			side = 1,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -183,7 +183,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 900082,
+			actor = 307041,
 			actorName = "{namecode:94}",
 			say = "そうでした！ごめんなさい、つい…",
 			typewriter = {
@@ -223,7 +223,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 900082,
+			actor = 307041,
 			actorName = "{namecode:94}",
 			say = "ええと、姉様は風紀委員役ですよね？私が不良少女役をやっていれば、姉様もきっと私に振り返ってくれると思って……",
 			typewriter = {
@@ -240,7 +240,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 900082,
+			actor = 307041,
 			actorName = "{namecode:94}",
 			say = "それに、風紀委員がいるなら、不良少女もいないと、なんだかしっくり来ないでしょう？",
 			typewriter = {
@@ -257,7 +257,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 900083,
+			actor = 401011,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -277,7 +277,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 900082,
+			actor = 307041,
 			actorName = "{namecode:94}",
 			say = "ち、違いますよ！",
 			typewriter = {
@@ -290,7 +290,7 @@ return {
 			}
 		},
 		{
-			actor = 900083,
+			actor = 401011,
 			side = 1,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -310,7 +310,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgName = "star_level_bg_103",
-			actor = 900081,
+			actor = 307032,
 			nameColor = "#a9f548",
 			say = "はぁ…もうこんな時間……",
 			flashout = {
@@ -344,7 +344,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 900081,
+			actor = 307032,
 			actorName = "{namecode:93}",
 			say = "吹雪ちゃんごめんね、資料の整理を手伝ってもらって",
 			typewriter = {
@@ -362,7 +362,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = -1,
-			actor = 900080,
+			actor = 301011,
 			actorName = "{namecode:2}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -382,7 +382,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 900081,
+			actor = 307032,
 			actorName = "{namecode:93}",
 			say = "うん？飛龍とZ1？",
 			typewriter = {
@@ -399,7 +399,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_103",
 			dir = -1,
-			actor = 900080,
+			actor = 301011,
 			actorName = "{namecode:2}",
 			say = "それに指揮官も…？",
 			typewriter = {
@@ -416,7 +416,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 900081,
+			actor = 307032,
 			actorName = "{namecode:93}",
 			say = "いま指揮官となに話してたの？",
 			typewriter = {
@@ -433,7 +433,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 900082,
+			actor = 307041,
 			actorName = "{namecode:94}",
 			say = "あ、大したことじゃありませんよ。新学期が始まるなって…",
 			typewriter = {
@@ -450,7 +450,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 900081,
+			actor = 307032,
 			actorName = "{namecode:93}",
 			say = "そう言えばそうね…飛龍？今度は姉さんの話を聞いて、ちゃんと用意した制服を着るのよ？",
 			typewriter = {
@@ -463,7 +463,7 @@ return {
 			}
 		},
 		{
-			actor = 900083,
+			actor = 401011,
 			side = 1,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -483,7 +483,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 900082,
+			actor = 307041,
 			actorName = "{namecode:94}",
 			say = "い、今のほうが好きですよ！",
 			typewriter = {
@@ -496,7 +496,7 @@ return {
 			}
 		},
 		{
-			actor = 900084,
+			actor = 101061,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -517,7 +517,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 900082,
+			actor = 307041,
 			actorName = "{namecode:94}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -536,7 +536,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_103",
 			dir = -1,
-			actor = 900084,
+			actor = 101061,
 			nameColor = "#a9f548",
 			say = "神出鬼没のチアガール役です！…って普段から変わってませんけど…",
 			typewriter = {
@@ -557,7 +557,7 @@ return {
 			}
 		},
 		{
-			actor = 900084,
+			actor = 101061,
 			side = 1,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -573,7 +573,7 @@ return {
 			}
 		},
 		{
-			actor = 900084,
+			actor = 101061,
 			side = 1,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -593,7 +593,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 900081,
+			actor = 307032,
 			actorName = "{namecode:93}",
 			say = "なに？",
 			typewriter = {
@@ -610,7 +610,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 900082,
+			actor = 307041,
 			actorName = "{namecode:94}",
 			say = "いいえ！なんでもありませんっ！",
 			typewriter = {
@@ -627,7 +627,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 900081,
+			actor = 307032,
 			actorName = "{namecode:93}",
 			say = "はぁ…そもそも風紀委員役の私の立場も考えてほしいわ……",
 			typewriter = {
@@ -667,7 +667,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 900081,
+			actor = 307032,
 			actorName = "{namecode:93}",
 			say = "もちろんです。",
 			typewriter = {
@@ -680,7 +680,7 @@ return {
 			}
 		},
 		{
-			actor = 900083,
+			actor = 401011,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -700,7 +700,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 900080,
+			actor = 301011,
 			actorName = "{namecode:2}",
 			say = "ちゃ、ちゃんと出席するよ！",
 			typewriter = {
@@ -717,7 +717,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 900082,
+			actor = 307041,
 			actorName = "{namecode:94}",
 			say = "応っ！",
 			typewriter = {
@@ -734,7 +734,7 @@ return {
 			bgName = "star_level_bg_103",
 			dir = -1,
 			blackBg = true,
-			actor = 900084,
+			actor = 101061,
 			nameColor = "#a9f548",
 			say = "みんな～ファイト！",
 			typewriter = {

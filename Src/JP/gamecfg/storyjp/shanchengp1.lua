@@ -42,7 +42,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 305024,
+			actor = 305020,
 			actorName = "{namecode:79}",
 			say = "次の書類は…あわわ！また落としてしまいました…ええと、今拾いますね…うん？",
 			typewriter = {
@@ -69,7 +69,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 305024,
+			actor = 305020,
 			actorName = "{namecode:79}",
 			say = "あ！殿様、これは朝、山城が代わりに印鑑を押しましたよ？むっ、殿様は最近忘れっぽいですぅ…",
 			typewriter = {
@@ -96,7 +96,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 305024,
+			actor = 305020,
 			actorName = "{namecode:79}",
 			say = "無理はよくありませんよ？扶桑姉様も心配しちゃってるし…",
 			typewriter = {
@@ -123,7 +123,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgName = "bg_story_task",
-			actor = 305024,
+			actor = 305020,
 			nameColor = "#a9f548",
 			say = "ふぅ……これで一通り終わりましたっ！殿様？今日も山城頑張りましたよ！",
 			flashout = {
@@ -163,7 +163,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 305024,
+			actor = 305020,
 			actorName = "{namecode:79}",
 			say = "えへへ～殿様はやっぱり優しいですねー",
 			typewriter = {
@@ -190,7 +190,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 305024,
+			actor = 305020,
 			actorName = "{namecode:79}",
 			say = "それより殿様！見てください！これすっごく便利ですよ！",
 			typewriter = {
@@ -227,7 +227,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 305024,
+			actor = 305020,
 			actorName = "{namecode:79}",
 			say = "科学の力って凄いです！30年前はテレビもなかったのに、セイレーンが攻めてきてから一気に技術が進んだって時雨ちゃんが言っていました！",
 			typewriter = {
@@ -244,7 +244,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 305024,
+			actor = 305020,
 			actorName = "{namecode:79}",
 			say = "早すぎた…？ん…どういう意味かよくわかりませんけど……とにかく、これを使えば色々なことができちゃうですよ！",
 			typewriter = {
@@ -261,7 +261,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 305024,
+			actor = 305020,
 			actorName = "{namecode:79}",
 			say = "例えば明日の天気はこう…ええと、登録を押せば…はい！メモメモしなくても大丈夫！",
 			typewriter = {
@@ -289,7 +289,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			actor = 305024,
+			actor = 305020,
 			actorName = "{namecode:79}",
 			say = "明日の非番日はこの前に約束した神社のお掃除！殿様、よろしくお願いしますね！",
 			typewriter = {

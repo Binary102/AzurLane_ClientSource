@@ -17,7 +17,7 @@ return {
 			}
 		},
 		{
-			actor = 206031,
+			actor = 206030,
 			nameColor = "#a9f548",
 			side = 2,
 			say = "ど、どうしよう……",
@@ -31,7 +31,7 @@ return {
 			}
 		},
 		{
-			actor = 206031,
+			actor = 206030,
 			nameColor = "#a9f548",
 			side = 2,
 			say = "星の歌姫さまからこれをもらっちゃった……",
@@ -45,7 +45,7 @@ return {
 			}
 		},
 		{
-			actor = 206031,
+			actor = 206030,
 			nameColor = "#a9f548",
 			side = 2,
 			say = "うぅ……やっぱり恥ずかしいよぉ……",
@@ -59,7 +59,7 @@ return {
 			}
 		},
 		{
-			actor = 206031,
+			actor = 206030,
 			nameColor = "#a9f548",
 			side = 2,
 			say = "こんなキラキラしている衣装…ユニコーン…絶対似合わないよぉ…お兄ちゃんが好きじゃなかったら…どうしよう……",
@@ -73,7 +73,7 @@ return {
 			}
 		},
 		{
-			actor = 206031,
+			actor = 206030,
 			side = 2,
 			nameColor = "#a9f548",
 			say = "でも……「小さな勇気こそ最強の魔法」",
@@ -104,7 +104,7 @@ return {
 			}
 		},
 		{
-			actor = 206031,
+			actor = 206030,
 			nameColor = "#a9f548",
 			side = 2,
 			say = "……ユニコーン、頑張る……！",

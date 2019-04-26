@@ -46,7 +46,7 @@ return {
 			}
 		},
 		{
-			actor = 900120,
+			actor = 105141,
 			side = 2,
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
@@ -62,7 +62,7 @@ return {
 			}
 		},
 		{
-			actor = 900120,
+			actor = 105141,
 			side = 2,
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
@@ -82,7 +82,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			actor = 900120,
+			actor = 105141,
 			nameColor = "#a9f548",
 			say = "戦うことしか知らない、かつての僕だったら、いまの状況は思いもしなかったのだろう",
 			typewriter = {
@@ -95,7 +95,7 @@ return {
 			}
 		},
 		{
-			actor = 900121,
+			actor = 202152,
 			side = 2,
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
@@ -116,7 +116,7 @@ return {
 			bgName = "star_level_bg_107",
 			say = "オーロラ、演奏の準備はできたか？",
 			dir = 1,
-			actor = 900120,
+			actor = 105141,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -136,7 +136,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			actor = 900121,
+			actor = 202152,
 			nameColor = "#a9f548",
 			say = "はい、お待たせしました",
 			typewriter = {
@@ -149,7 +149,7 @@ return {
 			}
 		},
 		{
-			actor = 900121,
+			actor = 202152,
 			side = 1,
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
@@ -169,7 +169,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			actor = 900120,
+			actor = 105141,
 			nameColor = "#a9f548",
 			say = "いいだろう。ではさっきの話の続きをしようか",
 			typewriter = {
@@ -182,7 +182,7 @@ return {
 			}
 		},
 		{
-			actor = 900120,
+			actor = 105141,
 			side = 0,
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
@@ -202,7 +202,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			actor = 900121,
+			actor = 202152,
 			nameColor = "#a9f548",
 			say = "でも、私たちはただ戦うだけに生まれたわけではありませんよ",
 			typewriter = {
@@ -215,7 +215,7 @@ return {
 			}
 		},
 		{
-			actor = 900120,
+			actor = 105141,
 			side = 0,
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
@@ -235,7 +235,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			actor = 900120,
+			actor = 105141,
 			nameColor = "#a9f548",
 			say = "これこそこの艦隊に配属されてから、指揮官とみんなが教えてくれた一番大事なことだ",
 			typewriter = {
@@ -252,7 +252,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			actor = 900121,
+			actor = 202152,
 			nameColor = "#a9f548",
 			say = "みんなはこの母港でいろんな人と出会って、考えをぶつけ合って、そして変わっています",
 			typewriter = {
@@ -269,7 +269,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			actor = 900121,
+			actor = 202152,
 			nameColor = "#a9f548",
 			say = "私から言わせれてみれば、サウスダコタも昔と比べるとだいぶ近づきやすくなりましたわ。",
 			typewriter = {
@@ -286,7 +286,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			actor = 900120,
+			actor = 105141,
 			nameColor = "#a9f548",
 			say = "……誉め言葉だと受け取っておこう",
 			typewriter = {
@@ -299,7 +299,7 @@ return {
 			}
 		},
 		{
-			actor = 900121,
+			actor = 202152,
 			side = 1,
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
@@ -319,7 +319,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			actor = 900120,
+			actor = 105141,
 			nameColor = "#a9f548",
 			say = "マサチューセッツのおすすめだ。もともと僕もピアノという優雅なものには縁がないと思っていたのだが……",
 			typewriter = {
@@ -332,7 +332,7 @@ return {
 			}
 		},
 		{
-			actor = 900120,
+			actor = 105141,
 			side = 0,
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
@@ -348,7 +348,7 @@ return {
 			}
 		},
 		{
-			actor = 900120,
+			actor = 105141,
 			side = 0,
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
@@ -368,7 +368,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			actor = 900120,
+			actor = 105141,
 			nameColor = "#a9f548",
 			say = "感情表現が苦手な僕にとって、むしろ音楽は一番似合う趣味なのかもしれない……",
 			typewriter = {
@@ -385,7 +385,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			actor = 900121,
+			actor = 202152,
 			nameColor = "#a9f548",
 			say = "ここまで言えるということは、サウスダコタは案外ピアノとの相性が良いのかもしれませんよ",
 			typewriter = {
@@ -398,7 +398,7 @@ return {
 			}
 		},
 		{
-			actor = 900120,
+			actor = 105141,
 			side = 0,
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
@@ -418,7 +418,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			actor = 900120,
+			actor = 105141,
 			nameColor = "#a9f548",
 			say = "まぁピアノの話よりも、その……この僕にドレスなんて本当に変には見えないのだろうか？",
 			typewriter = {
@@ -435,7 +435,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			actor = 900120,
+			actor = 105141,
 			nameColor = "#a9f548",
 			say = "いつもの服と違って、これを着ているとどことなく違和感を感じるのだが……",
 			typewriter = {
@@ -462,7 +462,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			actor = 900121,
+			actor = 202152,
 			nameColor = "#a9f548",
 			say = "……ふふふ、どうやらサウスダコタ、あなたはまだ自分の魅力に気づいていないようですね",
 			typewriter = {
@@ -479,7 +479,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			actor = 900120,
+			actor = 105141,
 			nameColor = "#a9f548",
 			say = "…なに？",
 			typewriter = {
@@ -496,7 +496,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			actor = 900121,
+			actor = 202152,
 			nameColor = "#a9f548",
 			say = "いいえ、あとで指揮官さんが来た時に、似合っているか聞いてみればわかりますよ",
 			typewriter = {
@@ -513,7 +513,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			actor = 900120,
+			actor = 105141,
 			nameColor = "#a9f548",
 			say = "はあ……",
 			typewriter = {
@@ -526,7 +526,7 @@ return {
 			}
 		},
 		{
-			actor = 900121,
+			actor = 202152,
 			side = 1,
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
@@ -542,7 +542,7 @@ return {
 			}
 		},
 		{
-			actor = 900120,
+			actor = 105141,
 			side = 0,
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
@@ -562,7 +562,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			actor = 900120,
+			actor = 105141,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -578,7 +578,7 @@ return {
 			}
 		},
 		{
-			actor = 900120,
+			actor = 105141,
 			side = 2,
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",

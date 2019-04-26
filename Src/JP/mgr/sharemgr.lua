@@ -10,6 +10,7 @@ pg.ShareMgr.TypePhoto = 7
 pg.ShareMgr.TypeReflux = 8
 pg.ShareMgr.TypeCommander = 9
 pg.ShareMgr.TypeColoring = 10
+pg.ShareMgr.TypeNewShipDesignSSR = 11
 
 function pg.ShareMgr.Init(slot0)
 	PoolMgr.GetInstance():GetUI("ShareUI", false, function (slot0)

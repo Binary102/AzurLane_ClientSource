@@ -5585,22 +5585,23 @@ function slot10(slot0)
 
 			slot0(slot1, slot2(slot3))
 		else
-			slot0 = pg
-			slot0 = slot0.MsgboxMgr
-			slot1 = slot0
-			slot0 = slot0.GetInstance
+			slot0 = i18n
+			slot1 = "blueprint_simulation_confirm_"
+			slot2 = slot1
+			slot2 = slot2.id
+			slot1 = slot1 .. slot2
 			slot0 = slot0(slot1)
-			slot1 = slot0
-			slot0 = slot0.ShowMsgBox
-			slot2 = {}
-			slot3 = i18n
-			slot4 = "blueprint_simulation_confirm"
-			slot5 = consume
-			slot6 = name
-			slot3 = slot3(slot4, slot5, slot6)
-			slot2.content = slot3
+			slot1 = pg
+			slot1 = slot1.MsgboxMgr
+			slot2 = slot1
+			slot1 = slot1.GetInstance
+			slot1 = slot1(slot2)
+			slot2 = slot1
+			slot1 = slot1.ShowMsgBox
+			slot3 = {}
+			slot3.content = slot0
 
-			function slot3()
+			function slot4()
 				slot0 = slot0
 				slot1 = slot0
 				slot0 = slot0.emit
@@ -5613,9 +5614,9 @@ function slot10(slot0)
 				return
 			end
 
-			slot2.onYes = slot3
+			slot3.onYes = slot4
 
-			slot0(slot1, slot2)
+			slot1(slot2, slot3)
 		end
 
 		return
@@ -7605,18 +7606,6 @@ function slot10(slot0, slot1, slot2)
 		slot1 = slot0.SetAsLastSibling
 
 		slot1(slot2)
-
-		slot1 = setText
-		slot2 = slot0
-		slot3 = slot2
-		slot2 = slot2.findTF
-		slot4 = "window/desc"
-		slot5 = slot0
-		slot5 = slot5.awakenAni
-		slot2 = slot2(slot3, slot4, slot5)
-		slot3 = desc
-
-		slot1(slot2, slot3)
 
 		slot2 = slot0
 		slot1 = slot0.GetComponent

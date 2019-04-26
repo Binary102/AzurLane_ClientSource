@@ -17,7 +17,7 @@ return {
 			}
 		},
 		{
-			actor = 107051,
+			actor = 107050,
 			side = 2,
 			bgName = "bg_story_room",
 			say = "ハムマンちゃん、指揮官様はここにいるのよ？素直にさっきのことを謝ってあげて？",
@@ -33,7 +33,7 @@ return {
 			}
 		},
 		{
-			actor = 101241,
+			actor = 101240,
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -48,7 +48,7 @@ return {
 			}
 		},
 		{
-			actor = 101251,
+			actor = 101250,
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -63,7 +63,7 @@ return {
 			}
 		},
 		{
-			actor = 101251,
+			actor = 101250,
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -86,7 +86,7 @@ return {
 			}
 		},
 		{
-			actor = 101251,
+			actor = 101250,
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -101,7 +101,7 @@ return {
 			}
 		},
 		{
-			actor = 101251,
+			actor = 101250,
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -116,7 +116,7 @@ return {
 			}
 		},
 		{
-			actor = 101251,
+			actor = 101250,
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -139,7 +139,7 @@ return {
 			}
 		},
 		{
-			actor = 101251,
+			actor = 101250,
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -174,7 +174,7 @@ return {
 			}
 		},
 		{
-			actor = 101251,
+			actor = 101250,
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -198,7 +198,7 @@ return {
 			}
 		},
 		{
-			actor = 101251,
+			actor = 101250,
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -227,7 +227,7 @@ return {
 			}
 		},
 		{
-			actor = 101241,
+			actor = 101240,
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -242,7 +242,7 @@ return {
 			}
 		},
 		{
-			actor = 101241,
+			actor = 101240,
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -265,7 +265,7 @@ return {
 			}
 		},
 		{
-			actor = 101251,
+			actor = 101250,
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -289,7 +289,7 @@ return {
 			}
 		},
 		{
-			actor = 101251,
+			actor = 101250,
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -312,7 +312,7 @@ return {
 			}
 		},
 		{
-			actor = 101241,
+			actor = 101240,
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -327,7 +327,7 @@ return {
 			}
 		},
 		{
-			actor = 107051,
+			actor = 107050,
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -342,7 +342,7 @@ return {
 			}
 		},
 		{
-			actor = 101251,
+			actor = 101250,
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,

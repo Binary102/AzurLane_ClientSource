@@ -57,7 +57,7 @@ return {
 			}
 		},
 		{
-			actor = 403031,
+			actor = 403030,
 			side = 0,
 			bgName = "bg_night",
 			hideOther = true,
@@ -73,7 +73,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			side = 1,
 			bgName = "bg_night",
 			dir = -1,
@@ -88,7 +88,7 @@ return {
 			}
 		},
 		{
-			actor = 301161,
+			actor = 301160,
 			side = 0,
 			bgName = "bg_night",
 			dir = 1,
@@ -113,7 +113,7 @@ return {
 			}
 		},
 		{
-			actor = 303031,
+			actor = 303030,
 			side = 1,
 			bgName = "bg_night",
 			dir = -1,
@@ -138,7 +138,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 1,
 			bgName = "bg_night",
 			dir = 1,
@@ -178,7 +178,7 @@ return {
 			}
 		},
 		{
-			actor = 107061,
+			actor = 107060,
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
@@ -248,7 +248,7 @@ return {
 			bgName = "bg_night",
 			dir = 1,
 			bgmDelay = 1,
-			actor = 303031,
+			actor = 303030,
 			say = "マーシィドッグが今度はピュリファイアーに向けて突撃していく！チャンスは今よ！",
 			flashout = {
 				dur = 0.5,
@@ -455,7 +455,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 1,
 			bgName = "bg_night",
 			hideOther = true,
@@ -471,7 +471,7 @@ return {
 			}
 		},
 		{
-			actor = 403031,
+			actor = 403030,
 			side = 0,
 			bgName = "bg_night",
 			dir = 1,
@@ -502,7 +502,7 @@ return {
 			}
 		},
 		{
-			actor = 205011,
+			actor = 205010,
 			side = 2,
 			bgName = "bg_night",
 			say = "やはり指揮官にはこの私が居ないとダメのようね。",
@@ -533,7 +533,7 @@ return {
 			}
 		},
 		{
-			actor = 407011,
+			actor = 407010,
 			side = 2,
 			bgName = "bg_night",
 			say = "これだけの敵が居るとは壮観だな。こいつら全てを葬れると思うと楽しくて仕方ない。",
@@ -547,7 +547,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 2,
 			bgName = "bg_night",
 			say = "余も加勢に……。",
@@ -561,7 +561,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			side = 0,
 			bgName = "bg_night",
 			hideOther = true,
@@ -577,7 +577,7 @@ return {
 			}
 		},
 		{
-			actor = 107031,
+			actor = 107030,
 			side = 1,
 			bgName = "bg_night",
 			dir = 1,
@@ -592,7 +592,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 2,
 			bgName = "bg_night",
 			say = "……うっ……///",
@@ -606,7 +606,7 @@ return {
 			}
 		},
 		{
-			actor = 107061,
+			actor = 107060,
 			side = 2,
 			bgName = "bg_night",
 			say = "これで戦力は互角以上！…よし！みんな行こう！",
@@ -620,7 +620,7 @@ return {
 			}
 		},
 		{
-			actor = 303031,
+			actor = 303030,
 			side = 0,
 			bgName = "bg_night",
 			say = "あのATはもう流石に限界っぽい。急がないと…！",
@@ -675,7 +675,7 @@ return {
 			hideOther = true,
 			side = 0,
 			bgName = "bg_night",
-			actor = 301161,
+			actor = 301160,
 			say = "あれは…。",
 			typewriter = {
 				speed = 0.05,
@@ -687,7 +687,7 @@ return {
 			}
 		},
 		{
-			actor = 403031,
+			actor = 403030,
 			side = 1,
 			bgName = "bg_night",
 			dir = -1,
@@ -702,7 +702,7 @@ return {
 			}
 		},
 		{
-			actor = 303031,
+			actor = 303030,
 			side = 0,
 			bgName = "bg_night",
 			say = "損傷している私らがいまアレを喰らったらひとたまりもないよ！",
@@ -716,7 +716,7 @@ return {
 			}
 		},
 		{
-			actor = 107061,
+			actor = 107060,
 			side = 1,
 			bgName = "bg_night",
 			dir = 1,

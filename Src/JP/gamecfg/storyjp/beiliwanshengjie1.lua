@@ -22,7 +22,7 @@ return {
 			dir = -1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			actor = 900142,
+			actor = 102091,
 			nameColor = "#a9f548",
 			say = "ジャジャーン！",
 			flashout = {
@@ -56,7 +56,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 900141,
+			actor = 306051,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -82,7 +82,7 @@ return {
 			}
 		},
 		{
-			actor = 900143,
+			actor = 301051,
 			side = 1,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -98,7 +98,7 @@ return {
 			}
 		},
 		{
-			actor = 900142,
+			actor = 102091,
 			side = 0,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -114,7 +114,7 @@ return {
 			}
 		},
 		{
-			actor = 900144,
+			actor = 301171,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -130,7 +130,7 @@ return {
 			}
 		},
 		{
-			actor = 900142,
+			actor = 102091,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -146,7 +146,7 @@ return {
 			}
 		},
 		{
-			actor = 900142,
+			actor = 102091,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -165,7 +165,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			bgName = "bg_story_task",
-			actor = 900143,
+			actor = 301051,
 			dir = 1,
 			hideOther = true,
 			actorName = "綾波&祥鳳",
@@ -173,7 +173,7 @@ return {
 			subActors = {
 				{
 					dir = 1,
-					actor = 900141,
+					actor = 306051,
 					pos = {
 						x = 687
 					}
@@ -189,7 +189,7 @@ return {
 			}
 		},
 		{
-			actor = 900141,
+			actor = 306051,
 			side = 1,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -205,7 +205,7 @@ return {
 			}
 		},
 		{
-			actor = 900143,
+			actor = 301051,
 			side = 0,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -221,7 +221,7 @@ return {
 			}
 		},
 		{
-			actor = 900142,
+			actor = 102091,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -237,7 +237,7 @@ return {
 			}
 		},
 		{
-			actor = 900141,
+			actor = 306051,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -253,7 +253,7 @@ return {
 			}
 		},
 		{
-			actor = 900141,
+			actor = 306051,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -272,7 +272,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			bgName = "bg_story_task",
-			actor = 900143,
+			actor = 301051,
 			dir = 1,
 			hideOther = true,
 			actorName = "綾波＆陽炎",
@@ -280,7 +280,7 @@ return {
 			subActors = {
 				{
 					dir = 1,
-					actor = 900144,
+					actor = 301171,
 					pos = {
 						x = 687
 					}
@@ -299,7 +299,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 900138,
+			actor = 101271,
 			nameColor = "#a9f548",
 			say = "ウサウサ星からやってきた黒い魔女ベイリー、華麗に登場！",
 			effects = {
@@ -321,7 +321,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = -1,
-			actor = 900142,
+			actor = 102091,
 			nameColor = "#a9f548",
 			say = "おお！早速魔女さんのお出ましか！ちょっとこれを頼めないかな……",
 			effects = {
@@ -354,7 +354,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 900138,
+			actor = 101271,
 			nameColor = "#a9f548",
 			say = "いいよ！このウサウサ魔女ベイリーにお任せ！",
 			typewriter = {
@@ -373,18 +373,18 @@ return {
 			hideOther = true,
 			dir = 1,
 			blackBg = true,
-			actor = 900143,
+			actor = 301051,
 			nameColor = "#a9f548",
 			say = "おおお！",
 			subActors = {
 				{
-					actor = 900144,
+					actor = 301171,
 					pos = {
 						x = 370
 					}
 				},
 				{
-					actor = 900142,
+					actor = 102091,
 					dir = -1,
 					pos = {
 						x = 750

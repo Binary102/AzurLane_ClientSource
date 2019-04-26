@@ -21,7 +21,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			bgm = "story-china",
-			actor = 501014,
+			actor = 501010,
 			nameColor = "#a9f548",
 			say = "ここはこう…",
 			typewriter = {
@@ -34,7 +34,7 @@ return {
 			}
 		},
 		{
-			actor = 501044,
+			actor = 501040,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -50,7 +50,7 @@ return {
 			}
 		},
 		{
-			actor = 501024,
+			actor = 501020,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -66,7 +66,7 @@ return {
 			}
 		},
 		{
-			actor = 501034,
+			actor = 501030,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -86,7 +86,7 @@ return {
 			side = 0,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 501024,
+			actor = 501020,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -102,7 +102,7 @@ return {
 			}
 		},
 		{
-			actor = 501014,
+			actor = 501010,
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -121,7 +121,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = -1,
-			actor = 100011,
+			actor = 100010,
 			nameColor = "#a9f548",
 			say = "プリン！アダダダダダ！走り回るよ～母港戦線、今日も異常なし！",
 			flashout = {
@@ -159,7 +159,7 @@ return {
 			bgName = "bg_story_school",
 			say = "プリン！今日も姉ちゃんが元気プリン！でもブリちゃんも負けないプリン！",
 			dir = 1,
-			actor = 100001,
+			actor = 100000,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -179,7 +179,7 @@ return {
 			}
 		},
 		{
-			actor = 501034,
+			actor = 501030,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -199,7 +199,7 @@ return {
 			side = 0,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 501024,
+			actor = 501020,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -215,7 +215,7 @@ return {
 			}
 		},
 		{
-			actor = 501044,
+			actor = 501040,
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -231,7 +231,7 @@ return {
 			}
 		},
 		{
-			actor = 501014,
+			actor = 501010,
 			side = 0,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -250,7 +250,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 501034,
+			actor = 501030,
 			nameColor = "#a9f548",
 			say = "絵の具、また足りなくなったよね…",
 			flashout = {
@@ -284,7 +284,7 @@ return {
 			side = 0,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 501024,
+			actor = 501020,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -300,7 +300,7 @@ return {
 			}
 		},
 		{
-			actor = 501014,
+			actor = 501010,
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -316,7 +316,7 @@ return {
 			}
 		},
 		{
-			actor = 501024,
+			actor = 501020,
 			side = 0,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",

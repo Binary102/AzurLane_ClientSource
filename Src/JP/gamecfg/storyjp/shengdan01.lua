@@ -16,7 +16,7 @@ return {
 			}
 		},
 		{
-			actor = 101054,
+			actor = 101050,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -33,7 +33,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			actor = 101054,
+			actor = 101050,
 			nameColor = "#a9f548",
 			say = "わ！……指揮官か～もう！人が考え事してる時に、急に声掛けないでよー",
 			flashout = {
@@ -67,7 +67,7 @@ return {
 			}
 		},
 		{
-			actor = 101054,
+			actor = 101050,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -82,7 +82,7 @@ return {
 			}
 		},
 		{
-			actor = 101054,
+			actor = 101050,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -97,7 +97,7 @@ return {
 			}
 		},
 		{
-			actor = 101054,
+			actor = 101050,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -112,7 +112,7 @@ return {
 			}
 		},
 		{
-			actor = 101054,
+			actor = 101050,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -129,7 +129,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			actor = 900060,
+			actor = 101051,
 			nameColor = "#a9f548",
 			say = "じゃじゃーん！グリッドレイ、クリスマス取材モード、準備完了！",
 			flashout = {
@@ -159,7 +159,7 @@ return {
 			}
 		},
 		{
-			actor = 900060,
+			actor = 101051,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,

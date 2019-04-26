@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			actor = 202151,
+			actor = 202150,
 			nameColor = "#a9f548",
 			say = "ここはこうやって回転して、こう動かして……",
 			flashout = {
@@ -52,7 +52,7 @@ return {
 			}
 		},
 		{
-			actor = 202201,
+			actor = 202200,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -68,7 +68,7 @@ return {
 			}
 		},
 		{
-			actor = 202151,
+			actor = 202150,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -102,7 +102,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgName = "bg_story_task",
-			actor = 202201,
+			actor = 202200,
 			nameColor = "#a9f548",
 			say = "誇らしきご主人様。何卒よろしくお願いいたします",
 			flashout = {
@@ -136,7 +136,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			withoutActorName = true,
-			actor = 202201,
+			actor = 202200,
 			nameColor = "#a9f548",
 			say = "秘書艦でメイド、そしてパーティーのパートナーである彼女は優雅に手を差し伸べてくれた。",
 			typewriter = {
@@ -188,7 +188,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actorScale = 1.5,
-			actor = 202201,
+			actor = 202200,
 			nameColor = "#a9f548",
 			say = "……シリアスはとても感謝しております",
 			typewriter = {
@@ -210,7 +210,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actorScale = 1.5,
-			actor = 202201,
+			actor = 202200,
 			nameColor = "#a9f548",
 			say = "たかが卑しきメイドなのに、ここまで気を使ってくださって……",
 			typewriter = {
@@ -232,7 +232,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actorScale = 1.5,
-			actor = 202201,
+			actor = 202200,
 			nameColor = "#a9f548",
 			say = "メイドとして分不相応だと重々承知しておりますが、シリアスには……",
 			typewriter = {
@@ -282,7 +282,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actorScale = 1.5,
-			actor = 202201,
+			actor = 202200,
 			nameColor = "#a9f548",
 			say = "…………誇らしきご主人様…………",
 			typewriter = {
@@ -304,7 +304,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actorScale = 1.5,
-			actor = 202201,
+			actor = 202200,
 			nameColor = "#a9f548",
 			say = "申し訳ございません！これは、その…………",
 			typewriter = {

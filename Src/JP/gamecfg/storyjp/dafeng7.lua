@@ -61,7 +61,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 307051,
+			actor = 307050,
 			nameColor = "#a9f548",
 			say = "指揮官、どうかしました？顔色がすごく悪いのですが…",
 			flashout = {
@@ -91,7 +91,7 @@ return {
 			}
 		},
 		{
-			actor = 307051,
+			actor = 307050,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -139,7 +139,7 @@ return {
 			say = "指揮官！？よかった……早く来て！た、大鳳が――",
 			dir = 1,
 			bgName = "bg_story_task",
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			actorPosition = {
 				x = 1000,
@@ -168,7 +168,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgName = "star_level_bg_103",
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "ごめん！わたし、昨日「雑誌で献身的になりすぎると嫌われる可能性もあるぞって」、大鳳に冗談を言っちゃったんだけど、",
 			flashout = {
@@ -202,7 +202,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "ただの冗談だからってその時は何も思わなかったんだけど、その後あの子、急に自分の部屋に引きこもって出て来てくれなくなっちゃったの……",
 			typewriter = {
@@ -219,7 +219,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "お願い指揮官！大鳳を部屋から連れ出して！指揮官だけが頼りなんだ！",
 			typewriter = {
@@ -455,7 +455,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 307071,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "<size=30>指揮官様あああああ！！！</size>",
 			dialogShake = {

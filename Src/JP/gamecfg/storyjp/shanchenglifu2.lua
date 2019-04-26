@@ -50,7 +50,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = -1,
-			actor = 900114,
+			actor = 305023,
 			actorName = "{namecode:79}",
 			say = "ふんふふ～ん～♪",
 			typewriter = {
@@ -77,7 +77,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = -1,
-			actor = 900114,
+			actor = 305023,
 			actorName = "{namecode:79}",
 			say = "新しい～衣装で～♪　殿様と～一緒に～お宴会～♪",
 			typewriter = {
@@ -104,7 +104,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = -1,
-			actor = 900114,
+			actor = 305023,
 			actorName = "{namecode:79}",
 			say = "えへへ、殿様、この格好を見たら驚いちゃうかな…",
 			typewriter = {
@@ -122,7 +122,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = -1,
-			actor = 900114,
+			actor = 305023,
 			actorName = "{namecode:79}",
 			say = "……でもお洋服なんて中々着ないから、殿様から変に思われないかな……",
 			typewriter = {
@@ -140,7 +140,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 900115,
+			actor = 307071,
 			actorName = "{namecode:97}",
 			say = "……あら、山城ではありませんか、声、結構遠くからでも聞こえていましたわよ",
 			typewriter = {
@@ -158,7 +158,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = -1,
-			actor = 900114,
+			actor = 305023,
 			actorName = "{namecode:79}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -179,7 +179,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 900115,
+			actor = 307071,
 			actorName = "{namecode:97}",
 			say = "「会いに」……？いいえ、執務室に潜入しようとして挫折しただけです",
 			typewriter = {
@@ -197,7 +197,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = -1,
-			actor = 900114,
+			actor = 305023,
 			actorName = "{namecode:79}",
 			say = "せん、潜入……？どうして挫折？したのですか？",
 			typewriter = {
@@ -215,7 +215,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 900115,
+			actor = 307071,
 			actorName = "{namecode:97}",
 			say = "だって指揮官様、まだ仕事の最中ですもの、この大鳳、指揮官様の邪魔をするなんて無粋なこと、とてもできませんもの",
 			typewriter = {
@@ -232,7 +232,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 900115,
+			actor = 307071,
 			actorName = "{namecode:97}",
 			say = "そういうわけで、指揮官様と一緒に宴会に向かうために、ここでお酒を飲みながら仕事が終わるのを待っているのです",
 			typewriter = {
@@ -250,7 +250,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = -1,
-			actor = 900114,
+			actor = 305023,
 			actorName = "{namecode:79}",
 			say = "そうなんですか……",
 			typewriter = {
@@ -267,7 +267,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = -1,
-			actor = 900114,
+			actor = 305023,
 			actorName = "{namecode:79}",
 			say = "でも、今日の大鳳さんはなんだかいつもと違う感じがしますね",
 			typewriter = {
@@ -285,7 +285,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = -1,
-			actor = 900114,
+			actor = 305023,
 			actorName = "{namecode:79}",
 			say = "なんだか……落ち着いている感じ？",
 			typewriter = {
@@ -303,7 +303,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 900115,
+			actor = 307071,
 			actorName = "{namecode:97}",
 			say = "それは普段落ち着いていない、という意味かしら？",
 			typewriter = {
@@ -321,7 +321,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = -1,
-			actor = 900114,
+			actor = 305023,
 			actorName = "{namecode:79}",
 			say = "そ、そういう意味じゃないですよ！ただ、いつもの大鳳さんはなんというか、近寄りがたいって感じかな？……赤城さんほどではありませんけど……うぐ！？",
 			typewriter = {
@@ -349,7 +349,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 900115,
+			actor = 307071,
 			actorName = "{namecode:97}",
 			say = "うふふ♪　緊張しなくていいです。今のは冗談ですよ",
 			typewriter = {
@@ -367,7 +367,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 900115,
+			actor = 307071,
 			actorName = "{namecode:97}",
 			say = "まあ……今夜は特別な夜なのかもしれませんわね",
 			typewriter = {
@@ -384,7 +384,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 900115,
+			actor = 307071,
 			actorName = "{namecode:97}",
 			say = "今なら、色んなことを許せるような気がしちゃいます",
 			typewriter = {
@@ -402,7 +402,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = -1,
-			actor = 900114,
+			actor = 305023,
 			actorName = "{namecode:79}",
 			say = "なんだか分かるような分からないような……",
 			typewriter = {
@@ -419,7 +419,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = -1,
-			actor = 900114,
+			actor = 305023,
 			actorName = "{namecode:79}",
 			say = "とにかく、殿様はずっと働き詰めですから、今日だけでも息抜きしてもらわないと。",
 			typewriter = {
@@ -436,7 +436,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = -1,
-			actor = 900114,
+			actor = 305023,
 			actorName = "{namecode:79}",
 			say = "だから山城も殿様をパーティーに誘おうと思います！",
 			typewriter = {
@@ -453,7 +453,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 900115,
+			actor = 307071,
 			actorName = "{namecode:97}",
 			say = "うふふ、そういうことですね。",
 			typewriter = {
@@ -471,7 +471,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 900115,
+			actor = 307071,
 			actorName = "{namecode:97}",
 			say = "…………",
 			typewriter = {
@@ -489,7 +489,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = -1,
-			actor = 900114,
+			actor = 305023,
 			actorName = "{namecode:79}",
 			say = "…………",
 			typewriter = {
@@ -506,7 +506,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = -1,
-			actor = 900114,
+			actor = 305023,
 			actorName = "{namecode:79}",
 			say = "そ、そういえば……大鳳さん、まだこの艦隊に入ったばかりなのに、もうドレスを準備したなんて…しかも綺麗です……",
 			typewriter = {
@@ -523,7 +523,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 900115,
+			actor = 307071,
 			actorName = "{namecode:97}",
 			say = "ずっと前から準備していたのです。そう、指揮官様と一緒に宴会に出られるように、ね。",
 			typewriter = {
@@ -541,7 +541,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = -1,
-			actor = 900114,
+			actor = 305023,
 			actorName = "{namecode:79}",
 			say = "すごいです！私はただ殿様と一緒に遊びたい一心で、服のことは全然考えていませんでした……",
 			typewriter = {
@@ -568,7 +568,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = -1,
-			actor = 900114,
+			actor = 305023,
 			actorName = "{namecode:79}",
 			say = "でも、せっかく用意したドレスなのに、パーティーに参加しないのはなんだかもったいないかもですね",
 			typewriter = {
@@ -586,7 +586,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 900115,
+			actor = 307071,
 			actorName = "{namecode:97}",
 			say = "心配無用です。大鳳が想うものは指揮官様のみ、他のことなんてどうでもいい――",
 			typewriter = {
@@ -603,7 +603,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 900115,
+			actor = 307071,
 			actorName = "{namecode:97}",
 			say = "と、最初はそう思っていましたけど……正直、居心地が良いですね。この艦隊",
 			typewriter = {
@@ -620,7 +620,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = -1,
-			actor = 900114,
+			actor = 305023,
 			actorName = "{namecode:79}",
 			say = "えへへ、だって殿様が作った艦隊なんですから！",
 			typewriter = {
@@ -638,7 +638,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 900115,
+			actor = 307071,
 			actorName = "{namecode:97}",
 			say = "山城はなにかイベントに参加したのかしら？",
 			typewriter = {
@@ -656,7 +656,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = -1,
-			actor = 900114,
+			actor = 305023,
 			actorName = "{namecode:79}",
 			say = "私ですか？ずっと姉さまのお手伝いをしていまして……あ、途中で駆逐艦の子たちと一緒に行った肝試しなんですけど――",
 			typewriter = {
@@ -673,7 +673,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = -1,
-			actor = 900114,
+			actor = 305023,
 			actorName = "{namecode:79}",
 			say = "今思い出してみてもゾッとしちゃうくらい怖かったです……",
 			typewriter = {
@@ -700,7 +700,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 900115,
+			actor = 307071,
 			actorName = "{namecode:97}",
 			say = "ふふ、楽しそうですね。私も今度何かに出てみましょうか",
 			typewriter = {
@@ -718,7 +718,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 900115,
+			actor = 307071,
 			actorName = "{namecode:97}",
 			say = "しかし、指揮官様はまだちょっと時間がかかりそうですね……",
 			typewriter = {
@@ -736,7 +736,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 900115,
+			actor = 307071,
 			actorName = "{namecode:97}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -756,7 +756,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = -1,
-			actor = 900114,
+			actor = 305023,
 			actorName = "{namecode:79}",
 			say = "お酒ですか！？姉さまからはあまり飲まないほうがいいって言われてますけど……本当はずっと前から興味があったのですよ！",
 			typewriter = {
@@ -784,7 +784,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 900115,
+			actor = 307071,
 			actorName = "{namecode:97}",
 			say = "ふふ、あまり強いものではないから、少しくらいなら良さそうですね…",
 			typewriter = {
@@ -802,7 +802,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			actor = 900115,
+			actor = 307071,
 			actorName = "{namecode:97}",
 			say = "さあ、ここに座って。指揮官様が仕事を終らせるまで、もう少し雑談に付き合ってもらいますわよ",
 			typewriter = {

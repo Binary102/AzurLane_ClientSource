@@ -3667,6 +3667,498 @@ pg.equip_skin_template = {
 			54014
 		}
 	},
+	[1101] = {
+		bullet_name = "yulei_ai_faku",
+		name = "ぴょこぴょこ魚雷",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "キズナアイが頭に着けているぴょこぴょこを装着した魚雷…だがキズナアイ自身のぴょこぴょこかどうかは不明！",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		icon = "91621",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 1101,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[1102] = {
+		bullet_name = "yulei_ai_lingdai",
+		name = "ネクタイ魚雷",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "フォーマルでエレガントなネクタイだと思いました？残念、魚雷でした！",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		icon = "91622",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 1102,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[1103] = {
+		bullet_name = "yulei_ai_yingyuan",
+		name = "サイリウム魚雷",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "ライブでサイリウムを振るときは隣の人に当たらないように気を付けましょう※当たると爆発します",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		icon = "91623",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 1103,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[1104] = {
+		bullet_name = "zidan_ai_dachui",
+		name = "100tハンマー弾",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "キズナアイテレビショッピングのおススメ商品。劇的に勝率が上がったという声が後を絶たない（当社比）",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		icon = "91611",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 1104,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	},
+	[1105] = {
+		bullet_name = "zidan_ai_duandai",
+		name = "リボン弾",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "キズナアイが胸に着けているリボン…ではない。だって当たると爆発するんだもん！！",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		icon = "91612",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 1105,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	},
+	[1106] = {
+		bullet_name = "zidan_ai_quantao",
+		name = "グローブ弾",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "キズナアイがゲーム実況をするときによくつけている対遊戯用手袋。投げつけると爆発もする。ふ◯っ◯ゅー！",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		icon = "91613",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 1106,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	},
+	[1107] = {
+		bullet_name = "paodan_ai_1",
+		name = "テロップ砲弾（はいどうもー！）",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "キズナアイのいつもの挨拶。なぜかバーチャル空間を飛び出して砲弾になってしまった",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		icon = "91614",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 1107,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[1108] = {
+		bullet_name = "paodan_ai_2",
+		name = "テロップ砲弾（有罪）",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "判決を言い渡します――「有罪」です。1週間私の動画を見る刑に処します（そのあとめっちゃ爆発する）",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		icon = "91615",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 1108,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[1109] = {
+		bullet_name = "paodan_ai_3",
+		name = "テロップ砲弾（可愛い♡）",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "キズナアイの愛の字幕――可愛いって連呼してたら字幕が実体化しちゃいました！（熱い想いが爆発する！！）",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		icon = "91616",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 1109,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[1110] = {
+		bullet_name = "paodan_ai_4",
+		name = "テロップ砲弾（わっきゅー）",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "キズナアイがとあるホラーゲームの登場人物のセリフにつられて発してしまった謎のセリフ。特に深い意味はない",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		icon = "91617",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 1110,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[1111] = {
+		bullet_name = "feiji_ai_aijiang",
+		name = "ミニアイちゃん（攻撃）",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "「私の分身が勝手にやっといてくれないかなー」という精神から生まれた小型AI。それいけ！ミニアイちゃん！",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		icon = "91631",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 1111,
+		derivate_torpedo = "yulei_ai_faku",
+		ship_skin_id = 0,
+		equip_type = {
+			8
+		},
+		weapon_ids = {
+			61503,
+			61504
+		}
+	},
+	[1112] = {
+		bullet_name = "feiji_ai_aijiang",
+		name = "ミニアイちゃん（戦闘）",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "「私の分身が勝手にやっといてくれないかなー」という精神から生まれた小型AI。それいけ！ミニアイちゃん！",
+		ship_config_id = 100011,
+		derivate_boom = "paodan_ai_4",
+		icon = "91631",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 1112,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			7
+		},
+		weapon_ids = {
+			61505,
+			54010
+		}
+	},
+	[1113] = {
+		bullet_name = "feiji_ai_aijiang",
+		name = "ミニアイちゃん（爆撃）",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "「私の分身が勝手にやっといてくれないかなー」という精神から生まれた小型AI。それいけ！ミニアイちゃん！",
+		ship_config_id = 100011,
+		derivate_boom = "paodan_ai_4",
+		icon = "91631",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 1113,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			9
+		},
+		weapon_ids = {
+			61501,
+			54014
+		}
+	},
+	[1114] = {
+		bullet_name = "feiji_ai_gamer",
+		name = "ミニアイちゃん・スーパーゲーマー（攻撃）",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "「私の分身が勝手にやっといてくれないかなー」という精神から生まれた小型AI。それいけ！ミニアイちゃん！",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		icon = "91632",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 1114,
+		derivate_torpedo = "yulei_ai_lingdai",
+		ship_skin_id = 0,
+		equip_type = {
+			8
+		},
+		weapon_ids = {
+			61503,
+			61504
+		}
+	},
+	[1115] = {
+		bullet_name = "feiji_ai_gamer",
+		name = "ミニアイちゃん・スーパーゲーマー（戦闘）",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "「私の分身が勝手にやっといてくれないかなー」という精神から生まれた小型AI。それいけ！ミニアイちゃん！",
+		ship_config_id = 100011,
+		derivate_boom = "paodan_ai_1",
+		icon = "91632",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 1115,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			7
+		},
+		weapon_ids = {
+			61505,
+			54010
+		}
+	},
+	[1116] = {
+		bullet_name = "feiji_ai_gamer",
+		name = "ミニアイちゃん・スーパーゲーマー（爆撃）",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "「私の分身が勝手にやっといてくれないかなー」という精神から生まれた小型AI。それいけ！ミニアイちゃん！",
+		ship_config_id = 100011,
+		derivate_boom = "paodan_ai_1",
+		icon = "91632",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 1116,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			9
+		},
+		weapon_ids = {
+			61501,
+			54014
+		}
+	},
+	[1117] = {
+		bullet_name = "feiji_ai_perform",
+		name = "ミニアイちゃん・アニバーサリー（攻撃）",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "「私の分身が勝手にやっといてくれないかなー」という精神から生まれた小型AI。それいけ！ミニアイちゃん！",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		icon = "91633",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 1117,
+		derivate_torpedo = "yulei_ai_yingyuan",
+		ship_skin_id = 0,
+		equip_type = {
+			8
+		},
+		weapon_ids = {
+			61503,
+			61504
+		}
+	},
+	[1118] = {
+		bullet_name = "feiji_ai_perform",
+		name = "ミニアイちゃん・アニバーサリー（戦闘）",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "「私の分身が勝手にやっといてくれないかなー」という精神から生まれた小型AI。それいけ！ミニアイちゃん！",
+		ship_config_id = 100011,
+		derivate_boom = "paodan_ai_2",
+		icon = "91633",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 1118,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			7
+		},
+		weapon_ids = {
+			61505,
+			54010
+		}
+	},
+	[1119] = {
+		bullet_name = "feiji_ai_perform",
+		name = "ミニアイちゃん・アニバーサリー（爆撃）",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "「私の分身が勝手にやっといてくれないかなー」という精神から生まれた小型AI。それいけ！ミニアイちゃん！",
+		ship_config_id = 100011,
+		derivate_boom = "paodan_ai_2",
+		icon = "91633",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 1119,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			9
+		},
+		weapon_ids = {
+			61501,
+			54014
+		}
+	},
 	all = {
 		1,
 		2,
@@ -3809,7 +4301,26 @@ pg.equip_skin_template = {
 		1065,
 		1066,
 		1067,
-		1068
+		1068,
+		1101,
+		1102,
+		1103,
+		1104,
+		1105,
+		1106,
+		1107,
+		1108,
+		1109,
+		1110,
+		1111,
+		1112,
+		1113,
+		1114,
+		1115,
+		1116,
+		1117,
+		1118,
+		1119
 	}
 }
 

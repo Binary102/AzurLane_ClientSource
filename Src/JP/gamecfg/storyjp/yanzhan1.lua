@@ -66,7 +66,7 @@ return {
 			}
 		},
 		{
-			actor = 205021,
+			actor = 205020,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -82,7 +82,7 @@ return {
 			}
 		},
 		{
-			actor = 205021,
+			actor = 205020,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -98,7 +98,7 @@ return {
 			}
 		},
 		{
-			actor = 205021,
+			actor = 205020,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -114,7 +114,7 @@ return {
 			}
 		},
 		{
-			actor = 205021,
+			actor = 205020,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -149,7 +149,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 205021,
+			actor = 205020,
 			nameColor = "#a9f548",
 			say = "（ここはどうすれば……？）",
 			typewriter = {
@@ -176,7 +176,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			optionFlag = 1,
-			actor = 205021,
+			actor = 205020,
 			nameColor = "#a9f548",
 			say = "陛下、起きてください。陛下がまとめなければならない大事な会議がありますよ。陛下――",
 			typewriter = {
@@ -193,7 +193,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			optionFlag = 1,
-			actor = 205011,
+			actor = 205010,
 			nameColor = "#a9f548",
 			say = "ぐぅ……んん……あれぇ？ウォースパイトぉ？そばにいるじゃない……よかったぁ……って、あれ？",
 			typewriter = {
@@ -220,7 +220,7 @@ return {
 			side = 2,
 			dir = 1,
 			optionFlag = 2,
-			actor = 205021,
+			actor = 205020,
 			nameColor = "#a9f548",
 			say = "（やはり強硬手段に限るわね…シーツは……陛下、失礼しますよ）",
 			typewriter = {
@@ -233,7 +233,7 @@ return {
 			}
 		},
 		{
-			actor = 205021,
+			actor = 205020,
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -261,7 +261,7 @@ return {
 			}
 		},
 		{
-			actor = 205011,
+			actor = 205010,
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -298,7 +298,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			optionFlag = 2,
-			actor = 205011,
+			actor = 205010,
 			nameColor = "#a9f548",
 			say = "うぉ、ウォースパイトなにするのよ！！……って、あれ？",
 			typewriter = {
@@ -321,7 +321,7 @@ return {
 			}
 		},
 		{
-			actor = 205011,
+			actor = 205010,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -340,7 +340,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 205011,
+			actor = 205010,
 			nameColor = "#a9f548",
 			say = "もう！なんでもっと早く起こしに来ないのよ！会議に遅刻しそうじゃない！",
 			typewriter = {
@@ -363,7 +363,7 @@ return {
 			}
 		},
 		{
-			actor = 205021,
+			actor = 205020,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -382,7 +382,7 @@ return {
 			side = 2,
 			bgName = "bg_guild_blue",
 			dir = 1,
-			actor = 205011,
+			actor = 205010,
 			nameColor = "#a9f548",
 			say = "コホン！とにかく、ロイヤルとユニオンにとって二回目の大規模合同演習を開催する予定よ！",
 			flashout = {
@@ -412,7 +412,7 @@ return {
 			}
 		},
 		{
-			actor = 205011,
+			actor = 205010,
 			side = 2,
 			bgName = "bg_guild_blue",
 			nameColor = "#a9f548",
@@ -428,7 +428,7 @@ return {
 			}
 		},
 		{
-			actor = 205011,
+			actor = 205010,
 			side = 2,
 			bgName = "bg_guild_blue",
 			nameColor = "#a9f548",
@@ -447,7 +447,7 @@ return {
 			side = 2,
 			bgName = "bg_guild_blue",
 			dir = 1,
-			actor = 205021,
+			actor = 205020,
 			nameColor = "#a9f548",
 			say = "ははっ！",
 			typewriter = {
@@ -470,7 +470,7 @@ return {
 			}
 		},
 		{
-			actor = 205021,
+			actor = 205020,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -486,7 +486,7 @@ return {
 			}
 		},
 		{
-			actor = 205021,
+			actor = 205020,
 			side = 2,
 			bgName = "bg_guild_blue",
 			nameColor = "#a9f548",
@@ -502,7 +502,7 @@ return {
 			}
 		},
 		{
-			actor = 205021,
+			actor = 205020,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,

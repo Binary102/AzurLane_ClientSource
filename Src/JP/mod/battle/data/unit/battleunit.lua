@@ -901,7 +901,9 @@ function slot9.GetBuff(slot0, slot1)
 end
 
 function slot9.SetAI(slot0, slot1)
-	slot0._autoPilotAI = slot1.Battle.AutoPilot.New(slot0, slot0.GetAITmpDataFromID(slot1))
+	slot0._move:CancelFormationCtrl()
+
+	slot0._autoPilotAI = slot1.Battle.AutoPilot.New(slot0, slot2)
 end
 
 function slot9.AddPhaseSwitcher(slot0, slot1)

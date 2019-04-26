@@ -9,7 +9,7 @@ return {
 		{
 			stopbgm = true,
 			side = 2,
-			actor = 304051,
+			actor = 304050,
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
@@ -44,7 +44,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 304051,
+			actor = 304050,
 			nameColor = "#a9f548",
 			say = "実は赤城にも用意しましたわ。あなたにあげたそれの対となるもの…いいえ、予備ですね",
 			typewriter = {
@@ -62,7 +62,7 @@ return {
 			say = "（天城さん、なんで急にこれを……？）",
 			dir = -1,
 			blackBg = true,
-			actor = 305071,
+			actor = 305070,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -82,7 +82,7 @@ return {
 			side = 1,
 			dir = 1,
 			blackBg = true,
-			actor = 304051,
+			actor = 304050,
 			nameColor = "#a9f548",
 			say = "ふふふ、たまたまお社で買っただけですから、そう真剣に考え込まなくてもいいですわ。さあ",
 			typewriter = {
@@ -95,7 +95,7 @@ return {
 			}
 		},
 		{
-			actor = 305071,
+			actor = 305070,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -115,7 +115,7 @@ return {
 			side = 1,
 			dir = 1,
 			blackBg = true,
-			actor = 304051,
+			actor = 304050,
 			nameColor = "#a9f548",
 			say = "ええ、身につけてくれると嬉しいです",
 			typewriter = {
@@ -128,7 +128,7 @@ return {
 			}
 		},
 		{
-			actor = 305071,
+			actor = 305070,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -144,7 +144,7 @@ return {
 			}
 		},
 		{
-			actor = 307021,
+			actor = 307020,
 			side = 2,
 			dir = -1,
 			blackBg = true,
@@ -184,7 +184,7 @@ return {
 			}
 		},
 		{
-			actor = 307021,
+			actor = 307020,
 			side = 2,
 			nameColor = "#ff0000",
 			dir = -1,
@@ -200,7 +200,7 @@ return {
 			}
 		},
 		{
-			actor = 307021,
+			actor = 307020,
 			side = 2,
 			nameColor = "#ff0000",
 			dir = -1,
@@ -216,7 +216,7 @@ return {
 			}
 		},
 		{
-			actor = 307021,
+			actor = 307020,
 			side = 2,
 			nameColor = "#ff0000",
 			dir = -1,
@@ -232,7 +232,7 @@ return {
 			}
 		},
 		{
-			actor = 307021,
+			actor = 307020,
 			side = 2,
 			nameColor = "#ff0000",
 			dir = -1,
@@ -248,7 +248,7 @@ return {
 			}
 		},
 		{
-			actor = 307021,
+			actor = 307020,
 			side = 2,
 			nameColor = "#ff0000",
 			dir = -1,
@@ -264,7 +264,7 @@ return {
 			}
 		},
 		{
-			actor = 307021,
+			actor = 307020,
 			side = 2,
 			nameColor = "#ff0000",
 			dir = -1,
@@ -280,7 +280,7 @@ return {
 			}
 		},
 		{
-			actor = 307021,
+			actor = 307020,
 			side = 2,
 			nameColor = "#ff0000",
 			dir = -1,
@@ -300,7 +300,7 @@ return {
 			bgName = "bg_story_tiancheng7",
 			dir = -1,
 			blackBg = true,
-			actor = 307011,
+			actor = 307010,
 			nameColor = "#ff0000",
 			say = "ふふふ、またネズミが迷い込んでいるようね……",
 			typewriter = {
@@ -335,7 +335,7 @@ return {
 			bgName = "bg_story_tiancheng7",
 			dir = -1,
 			blackBg = true,
-			actor = 307011,
+			actor = 307010,
 			nameColor = "#ff0000",
 			say = "五航戦のあの子たちね。何も知らずになんて愚かで嘆かわしいことを……",
 			typewriter = {
@@ -352,7 +352,7 @@ return {
 			bgName = "bg_story_tiancheng7",
 			dir = -1,
 			blackBg = true,
-			actor = 307011,
+			actor = 307010,
 			nameColor = "#ff0000",
 			say = "「カミ」より預かったこの新兵器で、その力を試してみようかしら～",
 			typewriter = {

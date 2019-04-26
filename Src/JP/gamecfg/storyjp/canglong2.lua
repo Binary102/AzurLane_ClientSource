@@ -81,7 +81,7 @@ return {
 			}
 		},
 		{
-			actor = 307031,
+			actor = 307030,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -101,7 +101,7 @@ return {
 			side = 0,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 301591,
+			actor = 301590,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -120,7 +120,7 @@ return {
 			side = 1,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 307031,
+			actor = 307030,
 			nameColor = "#a9f548",
 			say = "時はセンゴク、イマガワ家はまだトウカイドウで覇を唱えていた……あら、指揮官ではありませんか？",
 			typewriter = {
@@ -139,7 +139,7 @@ return {
 			}
 		},
 		{
-			actor = 301591,
+			actor = 301590,
 			side = 0,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -155,7 +155,7 @@ return {
 			}
 		},
 		{
-			actor = 307031,
+			actor = 307030,
 			side = 1,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -171,7 +171,7 @@ return {
 			}
 		},
 		{
-			actor = 307031,
+			actor = 307030,
 			side = 1,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -191,7 +191,7 @@ return {
 			side = 1,
 			bgName = "bg_story_room",
 			withoutActorName = true,
-			actor = 307031,
+			actor = 307030,
 			nameColor = "#a9f548",
 			say = "聞いてみるか。",
 			typewriter = {
@@ -207,7 +207,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 307031,
+			actor = 307030,
 			nameColor = "#a9f548",
 			say = "……ノブナガの奇襲でヨシモトが討死にすることを、誰も予想することはできませんでした",
 			flashout = {
@@ -237,7 +237,7 @@ return {
 			}
 		},
 		{
-			actor = 307031,
+			actor = 307030,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -256,7 +256,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 307031,
+			actor = 307030,
 			nameColor = "#a9f548",
 			say = "――はい、今日の内容はここまでです",
 			flashout = {
@@ -299,7 +299,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 301591,
+			actor = 301590,
 			nameColor = "#a9f548",
 			say = "ふむふむ……なるほど、ありがとうございます！蒼龍先生！",
 			typewriter = {
@@ -322,7 +322,7 @@ return {
 			}
 		},
 		{
-			actor = 301591,
+			actor = 301590,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -338,7 +338,7 @@ return {
 			}
 		},
 		{
-			actor = 307031,
+			actor = 307030,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -364,7 +364,7 @@ return {
 			}
 		},
 		{
-			actor = 307031,
+			actor = 307030,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -383,7 +383,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 307031,
+			actor = 307030,
 			nameColor = "#a9f548",
 			say = "それで、何かご用でしょうか？",
 			typewriter = {
@@ -402,7 +402,7 @@ return {
 			}
 		},
 		{
-			actor = 307031,
+			actor = 307030,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -418,7 +418,7 @@ return {
 			}
 		},
 		{
-			actor = 307031,
+			actor = 307030,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",

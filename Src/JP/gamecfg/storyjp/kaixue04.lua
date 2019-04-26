@@ -21,7 +21,7 @@ return {
 			bgName = "star_level_bg_103",
 			dir = 1,
 			bgm = "story-1",
-			actor = 900084,
+			actor = 101061,
 			nameColor = "#a9f548",
 			say = "いましたね！図書室の！",
 			typewriter = {
@@ -39,7 +39,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 900080,
+			actor = 301011,
 			actorName = "{namecode:2}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -55,7 +55,7 @@ return {
 			}
 		},
 		{
-			actor = 900084,
+			actor = 101061,
 			side = 0,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -75,7 +75,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 900080,
+			actor = 301011,
 			actorName = "{namecode:2}",
 			say = "声を追ってみると、誰もいなかったり…",
 			typewriter = {
@@ -88,7 +88,7 @@ return {
 			}
 		},
 		{
-			actor = 900084,
+			actor = 101061,
 			side = 0,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -108,12 +108,12 @@ return {
 			side = 0,
 			bgName = "star_level_bg_103",
 			hideOther = true,
-			actor = 900084,
+			actor = 101061,
 			nameColor = "#a9f548",
 			say = "名付けて「図書室の妖精さん」です！指揮官！",
 			subActors = {
 				{
-					actor = 900080,
+					actor = 301011,
 					pos = {
 						x = 685
 					}
@@ -181,7 +181,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			actor = 900086,
+			actor = 202111,
 			actorName = "？？？",
 			say = "なんでアイツは一緒に学園に来ないのよ！",
 			typewriter = {
@@ -200,7 +200,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			actor = 900086,
+			actor = 202111,
 			actorName = "？？？",
 			say = "もう、「自分は陛下にご奉仕するメイドだから」って…",
 			typewriter = {
@@ -219,7 +219,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			actor = 900086,
+			actor = 202111,
 			actorName = "？？？",
 			say = "やっぱりアイツがいないと楽しくないもん…",
 			typewriter = {
@@ -238,7 +238,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			actor = 900086,
+			actor = 202111,
 			actorName = "？？？",
 			say = "まあ、この図書室に引き込もったのは不幸中の幸いね…",
 			typewriter = {
@@ -257,7 +257,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			actor = 900086,
+			actor = 202111,
 			actorName = "？？？",
 			say = "静かで広いし、たまに来る駆逐艦を困らせるのも楽しいし……ふふふ",
 			typewriter = {
@@ -302,7 +302,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			actor = 900086,
+			actor = 202111,
 			say = "あわわわ！！？",
 			flashN = {
 				color = {
@@ -350,7 +350,7 @@ return {
 			side = 2,
 			dir = 1,
 			optionFlag = 2,
-			actor = 900086,
+			actor = 202111,
 			nameColor = "#a9f548",
 			say = "ベルったら…私が姉なのに…",
 			flashout = {
@@ -384,7 +384,7 @@ return {
 			side = 2,
 			dir = 1,
 			optionFlag = 2,
-			actor = 900086,
+			actor = 202111,
 			nameColor = "#a9f548",
 			say = "そういえば、いつもの駆逐艦たち、そろそろ来ないかなぁーー",
 			typewriter = {
@@ -401,7 +401,7 @@ return {
 			side = 2,
 			dir = 1,
 			optionFlag = 2,
-			actor = 900086,
+			actor = 202111,
 			nameColor = "#a9f548",
 			say = "あわわわ！！？",
 			typewriter = {
@@ -414,7 +414,7 @@ return {
 			}
 		},
 		{
-			actor = 900086,
+			actor = 202111,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -434,7 +434,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgm = "story-1",
-			actor = 900084,
+			actor = 101061,
 			nameColor = "#a9f548",
 			say = "なるほど、妖精さんってエディンバラさんですか～",
 			flashout = {
@@ -469,7 +469,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 900080,
+			actor = 301011,
 			actorName = "{namecode:2}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -485,7 +485,7 @@ return {
 			}
 		},
 		{
-			actor = 900086,
+			actor = 202111,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -522,7 +522,7 @@ return {
 			bgName = "star_level_bg_103",
 			dir = 1,
 			blackBg = true,
-			actor = 900086,
+			actor = 202111,
 			nameColor = "#a9f548",
 			say = "ベルに言いつける、ですか！？そ、それだけは勘弁してください――！",
 			typewriter = {

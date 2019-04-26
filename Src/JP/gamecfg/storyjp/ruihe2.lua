@@ -32,7 +32,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			say = "指揮官ごめん…昨日は深夜まで攻撃教科書を読みこんでたんだ…",
 			typewriter = {
@@ -49,7 +49,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			say = "…はい、今後気をつけるわ…",
 			typewriter = {
@@ -66,7 +66,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			say = "あっ、みんなが埠頭で集まっている…？",
 			typewriter = {
@@ -84,7 +84,7 @@ return {
 			bgName = "bg_story_outdoor",
 			actorName = "{namecode:76}",
 			dir = 1,
-			actor = 305034,
+			actor = 305030,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -104,7 +104,7 @@ return {
 			side = 0,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			say = "そう！ってみんなここで何してるの？",
 			typewriter = {
@@ -121,7 +121,7 @@ return {
 			side = 1,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 305044,
+			actor = 305040,
 			actorName = "{namecode:77}",
 			say = "ユニオンの連中との共同演習の話さ。向こうにどうやって声かければいいかって。",
 			typewriter = {
@@ -138,7 +138,7 @@ return {
 			side = 0,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			say = "どうやってって、普通に話せばいいんじゃない？",
 			typewriter = {
@@ -155,7 +155,7 @@ return {
 			side = 1,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 302094,
+			actor = 302090,
 			actorName = "{namecode:47}",
 			say = "伊勢や日向だけならまだしも、あてたち重桜から「共同演習したい」って言い出せる人があまり居なくて……",
 			typewriter = {
@@ -172,7 +172,7 @@ return {
 			side = 1,
 			bgName = "bg_story_outdoor",
 			dir = -1,
-			actor = 303024,
+			actor = 303020,
 			actorName = "{namecode:54}",
 			say = "そうね。私や高雄さんだと固すぎてヘンに勘ぐられますし…",
 			typewriter = {
@@ -189,7 +189,7 @@ return {
 			side = 0,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			say = "じゃあ私から声かけるってのはどう？これからちょうど向こうに行くから。",
 			typewriter = {
@@ -206,7 +206,7 @@ return {
 			side = 1,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 305034,
+			actor = 305030,
 			actorName = "{namecode:76}",
 			say = "本当か！そりゃ助かるわー",
 			typewriter = {
@@ -223,7 +223,7 @@ return {
 			side = 1,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 302094,
+			actor = 302090,
 			actorName = "{namecode:47}",
 			say = "瑞鶴から言ってくれるなら、あても安心だよ。",
 			typewriter = {
@@ -240,7 +240,7 @@ return {
 			side = 1,
 			bgName = "bg_story_outdoor",
 			dir = -1,
-			actor = 303024,
+			actor = 303020,
 			actorName = "{namecode:54}",
 			say = "うん。ごめん、急に頼んじゃって。",
 			typewriter = {
@@ -257,7 +257,7 @@ return {
 			side = 0,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			say = "いいよいいよ！私にまかせなさいって！",
 			typewriter = {
@@ -301,7 +301,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			say = "ふぅ…これで一通り回ったよね？",
 			typewriter = {
@@ -319,7 +319,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			blackBg = true,
-			actor = 307064,
+			actor = 307060,
 			nameColor = "#a9f548",
 			say = "こういうの結構多いよね～いつの間にかなんか色々頼まれちゃって。",
 			typewriter = {

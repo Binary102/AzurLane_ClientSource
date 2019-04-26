@@ -9,6 +9,10 @@ function ys.Battle.BattleJoyStickBotBaseStrategy.Ctor(slot0, slot1)
 	slot0._motionVO = slot1:GetMotion()
 end
 
+function ys.Battle.BattleJoyStickBotBaseStrategy.GetStrategyType(slot0)
+	return nil
+end
+
 function ys.Battle.BattleJoyStickBotBaseStrategy.SetBoardBound(slot0, slot1, slot2, slot3, slot4)
 	slot0._upperBound = slot1
 	slot0._lowerBound = slot2

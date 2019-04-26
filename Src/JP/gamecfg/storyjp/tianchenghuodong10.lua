@@ -347,7 +347,7 @@ return {
 			expression = 3,
 			side = 2,
 			dir = -1,
-			actor = 304051,
+			actor = 304050,
 			nameColor = "#a9f548",
 			say = "はぁ…はぁ……鳳翔さん、今少し…お時間を…はぁはぁ……いただけますでしょうか？",
 			flashout = {
@@ -377,7 +377,7 @@ return {
 			}
 		},
 		{
-			actor = 306031,
+			actor = 306030,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -418,7 +418,7 @@ return {
 			}
 		},
 		{
-			actor = 304051,
+			actor = 304050,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -437,7 +437,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = -1,
-			actor = 304051,
+			actor = 304050,
 			say = "鳳翔さん、あなたの艦載機で鏡面海域に居る加賀を探していただけますでしょうか……？",
 			typewriter = {
 				speed = 0.05,
@@ -449,7 +449,7 @@ return {
 			}
 		},
 		{
-			actor = 306031,
+			actor = 306030,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -464,7 +464,7 @@ return {
 			}
 		},
 		{
-			actor = 304051,
+			actor = 304050,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -479,7 +479,7 @@ return {
 			}
 		},
 		{
-			actor = 306031,
+			actor = 306030,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -507,7 +507,7 @@ return {
 			}
 		},
 		{
-			actor = 306031,
+			actor = 306030,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
@@ -562,7 +562,7 @@ return {
 			}
 		},
 		{
-			actor = 306031,
+			actor = 306030,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -577,7 +577,7 @@ return {
 			}
 		},
 		{
-			actor = 306031,
+			actor = 306030,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -606,7 +606,7 @@ return {
 			}
 		},
 		{
-			actor = 304051,
+			actor = 304050,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -634,7 +634,7 @@ return {
 			}
 		},
 		{
-			actor = 306031,
+			actor = 306030,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -668,7 +668,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = -1,
-			actor = 304051,
+			actor = 304050,
 			say = "ええ、この子たちは意外と上手くやれるかもしれませんわ",
 			typewriter = {
 				speed = 0.05,
@@ -680,7 +680,7 @@ return {
 			}
 		},
 		{
-			actor = 304051,
+			actor = 304050,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -714,7 +714,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = -1,
-			actor = 304051,
+			actor = 304050,
 			say = "姉の話を聞いて。加賀は絶対連れ戻しますから",
 			typewriter = {
 				speed = 0.05,

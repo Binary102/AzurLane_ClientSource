@@ -51,7 +51,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 900113,
+			actor = 312012,
 			actorName = "{namecode:98}",
 			say = "ふぅにゃ……やっと準備できたにゃ！もう少しでパーティーに間に合わないところだったにゃ",
 			typewriter = {
@@ -68,7 +68,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 900113,
+			actor = 312012,
 			actorName = "{namecode:98}",
 			say = "さすがに疲れたにゃ……やっぱり母港全体を巻き込む宴会の準備はそう簡単じゃないにゃ……",
 			typewriter = {
@@ -86,7 +86,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 301181,
+			actor = 301180,
 			actorName = "{namecode:20}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -107,7 +107,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 900113,
+			actor = 312012,
 			actorName = "{namecode:98}",
 			say = "ヤだにゃ、明石はもう少し座るにゃ。ここ、けっこうキレイだにゃ",
 			typewriter = {
@@ -134,7 +134,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 304021,
+			actor = 304020,
 			actorName = "{namecode:71}",
 			say = "二人とも、お疲れさまでした",
 			typewriter = {
@@ -153,7 +153,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			say = "比叡も調理場の仕切りお疲れにゃ～今晩使う食材や他のものは全部ここにあるはずだにゃ！",
-			actor = 900113,
+			actor = 312012,
 			actorName = "{namecode:98}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -173,7 +173,7 @@ return {
 			side = 0,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 304021,
+			actor = 304020,
 			actorName = "{namecode:71}",
 			say = "はい、助かります",
 			typewriter = {
@@ -191,7 +191,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 900113,
+			actor = 312012,
 			actorName = "{namecode:98}",
 			say = "でも比叡、会場に行かなくて本当にいいのかにゃ？宴会の仕切りは十八番じゃなかったのかにゃ？",
 			typewriter = {
@@ -208,7 +208,7 @@ return {
 			side = 0,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 304021,
+			actor = 304020,
 			actorName = "{namecode:71}",
 			say = "宴会の成否は、表面的な部分だけを見て決めてはなりません。むしろ見えない部分の努力こそが一番重要だと思いますね",
 			typewriter = {
@@ -225,7 +225,7 @@ return {
 			side = 0,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 304021,
+			actor = 304020,
 			actorName = "{namecode:71}",
 			say = "私にとって、このように裏方の仕事をこなすのも、宴会の仕切りの一部でございます",
 			typewriter = {
@@ -242,7 +242,7 @@ return {
 			side = 1,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 301181,
+			actor = 301180,
 			actorName = "{namecode:20}",
 			say = "……確かに、このように催事をたくさん行えるのも、皆さんの日頃の努力のおかげでございますね…",
 			typewriter = {
@@ -260,7 +260,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 900113,
+			actor = 312012,
 			actorName = "{namecode:98}",
 			say = "お祭りは楽しいにゃ！明石、レキシントンとサラトガちゃんのライブに行って、新しい服も買ったにゃ！",
 			typewriter = {
@@ -277,7 +277,7 @@ return {
 			side = 1,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 301181,
+			actor = 301180,
 			actorName = "{namecode:20}",
 			say = "相変わらず元気なこと……まあ、妾も今回は料理コンテストに顔を出しましたし。ふふふ、思いのほか充実しておりました",
 			typewriter = {
@@ -295,7 +295,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 900113,
+			actor = 312012,
 			actorName = "{namecode:98}",
 			say = "ぬいぬいは料理ができるのにゃ？",
 			typewriter = {
@@ -322,7 +322,7 @@ return {
 			side = 0,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 304021,
+			actor = 304020,
 			actorName = "{namecode:71}",
 			say = "あと少しで決勝にも進出できるところだったのですよ。準決勝で松風の家庭料理に負けてしまったのは少し残念でしたが……",
 			typewriter = {
@@ -339,7 +339,7 @@ return {
 			side = 1,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 301181,
+			actor = 301180,
 			actorName = "{namecode:20}",
 			say = "松風の「家庭力」は真に凄まじいものでした……この妾でもあと一歩及ばず……",
 			typewriter = {
@@ -356,7 +356,7 @@ return {
 			side = 0,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 304021,
+			actor = 304020,
 			actorName = "{namecode:71}",
 			say = "ふふ、試合の審査員だった私も驚くほどの熱い勝負でしたね。",
 			typewriter = {
@@ -373,7 +373,7 @@ return {
 			side = 0,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 304021,
+			actor = 304020,
 			actorName = "{namecode:71}",
 			say = "各陣営の佳肴が同じ場所で花を咲かせられるのも、この艦隊でしか見られないことですね",
 			typewriter = {
@@ -391,7 +391,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 900113,
+			actor = 312012,
 			actorName = "{namecode:98}",
 			say = "……",
 			typewriter = {
@@ -408,7 +408,7 @@ return {
 			side = 1,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 301181,
+			actor = 301180,
 			actorName = "{namecode:20}",
 			say = "先に言っておきますが、ただでは食べさせませんよ…？",
 			typewriter = {
@@ -426,7 +426,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 900113,
+			actor = 312012,
 			actorName = "{namecode:98}",
 			say = "なんでにゃ！友達じゃなかったのかにゃ？！",
 			typewriter = {
@@ -451,12 +451,12 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 900113,
+			actor = 312012,
 			actorName = "{namecode:20}",
 			say = "このウツケ猫！妾に近寄るでない！離しなさい！",
 			subActors = {
 				{
-					actor = 301181,
+					actor = 301180,
 					pos = {
 						x = 100
 					}
@@ -486,7 +486,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 301181,
+			actor = 301180,
 			actorName = "{namecode:20}",
 			say = "分かった、分かりました！今度持って来て差し上げますから！",
 			typewriter = {
@@ -513,7 +513,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 900113,
+			actor = 312012,
 			actorName = "{namecode:98}",
 			say = "初めからそうしていればいいのにゃ！",
 			typewriter = {
@@ -530,7 +530,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 304021,
+			actor = 304020,
 			actorName = "{namecode:71}",
 			say = "うふふ、仲睦まじいようで何よりです",
 			typewriter = {
@@ -547,7 +547,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 304021,
+			actor = 304020,
 			actorName = "{namecode:71}",
 			say = "ただ……不知火の言う通り、私たちが様々な行事を開催できるのも、皆さんの努力のおかげですね",
 			typewriter = {
@@ -565,7 +565,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 301181,
+			actor = 301180,
 			actorName = "{namecode:20}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -585,7 +585,7 @@ return {
 			side = 0,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 304021,
+			actor = 304020,
 			actorName = "{namecode:71}",
 			say = "あら、不知火は指揮官様のことを心配しています？",
 			typewriter = {
@@ -602,7 +602,7 @@ return {
 			side = 1,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 301181,
+			actor = 301180,
 			actorName = "{namecode:20}",
 			say = "……そんなことはございません。ただ指揮官が忙しさのあまりパーティーのことを忘れてしまっているのではないかとは心配しております",
 			typewriter = {
@@ -619,7 +619,7 @@ return {
 			side = 0,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 304021,
+			actor = 304020,
 			actorName = "{namecode:71}",
 			say = "うふふ、指揮官様の努力は皆見ていますから、そのうち誰かが呼びにいくと思います",
 			typewriter = {
@@ -636,7 +636,7 @@ return {
 			side = 0,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 304021,
+			actor = 304020,
 			actorName = "{namecode:71}",
 			say = "私たちはただ、皆にこのパーティーを楽しんで頂けるよう頑張っていればいいのですわ",
 			typewriter = {
@@ -653,7 +653,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = -1,
-			actor = 900113,
+			actor = 312012,
 			actorName = "{namecode:98}",
 			say = "そうだにゃ～明石は十分休憩したから、会場に行ってくるにゃ！",
 			typewriter = {
@@ -679,7 +679,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 301181,
+			actor = 301180,
 			actorName = "{namecode:20}",
 			say = "妾は賑やかなのは苦手でございますので、ここに残ってお手伝いいたします",
 			typewriter = {
@@ -697,7 +697,7 @@ return {
 			bgName = "bg_night",
 			dir = 1,
 			blackBg = true,
-			actor = 304021,
+			actor = 304020,
 			actorName = "{namecode:71}",
 			say = "うふふ、それではよろしくお願いいたします～",
 			typewriter = {

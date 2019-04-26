@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "main-newyear",
-			actor = 900063,
+			actor = 312011,
 			nameColor = "#a9f548",
 			say = "ふにゃ！もうこんな時間にゃ！？",
 			flashout = {
@@ -52,7 +52,7 @@ return {
 			}
 		},
 		{
-			actor = 900154,
+			actor = 205062,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -68,7 +68,7 @@ return {
 			}
 		},
 		{
-			actor = 900160,
+			actor = 201103,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -88,7 +88,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 900152,
+			actor = 399011,
 			nameColor = "#a9f548",
 			say = "初詣ですね。新しい年に初めてカミ様にお願いしたことは必ず叶えてもらえるといわれています",
 			typewriter = {
@@ -105,7 +105,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 900158,
+			actor = 102141,
 			nameColor = "#a9f548",
 			say = "新年の願いか。（小声）もし本当に叶えられるとしたら……",
 			typewriter = {
@@ -118,7 +118,7 @@ return {
 			}
 		},
 		{
-			actor = 102091,
+			actor = 102090,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -138,7 +138,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 900158,
+			actor = 102141,
 			nameColor = "#a9f548",
 			say = "なんでもありません。新しい一年も姉貴を目標に頑張るだけです",
 			typewriter = {
@@ -151,7 +151,7 @@ return {
 			}
 		},
 		{
-			actor = 900155,
+			actor = 102132,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -167,7 +167,7 @@ return {
 			}
 		},
 		{
-			actor = 900157,
+			actor = 102051,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -187,7 +187,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 900153,
+			actor = 399021,
 			nameColor = "#a9f548",
 			say = "待ってくれ、願いごとは口に出すと効果が無くなってしまう。各々の願いはカミ様だけに聞かせるんだ",
 			typewriter = {
@@ -210,7 +210,7 @@ return {
 			}
 		},
 		{
-			actor = 900063,
+			actor = 312011,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -229,7 +229,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_101",
 			dir = 1,
-			actor = 900153,
+			actor = 399021,
 			nameColor = "#a9f548",
 			say = "おお！母港のお社は初めてだが、まさかここまで立派とは！",
 			flashout = {
@@ -259,7 +259,7 @@ return {
 			}
 		},
 		{
-			actor = 900152,
+			actor = 399011,
 			side = 2,
 			bgName = "star_level_bg_101",
 			nameColor = "#a9f548",
@@ -275,7 +275,7 @@ return {
 			}
 		},
 		{
-			actor = 900154,
+			actor = 205062,
 			side = 2,
 			bgName = "star_level_bg_101",
 			nameColor = "#a9f548",
@@ -291,7 +291,7 @@ return {
 			}
 		},
 		{
-			actor = 900156,
+			actor = 301601,
 			side = 2,
 			bgName = "star_level_bg_101",
 			nameColor = "#a9f548",
@@ -303,7 +303,7 @@ return {
 			}
 		},
 		{
-			actor = 900063,
+			actor = 312011,
 			side = 2,
 			bgName = "star_level_bg_101",
 			nameColor = "#a9f548",
@@ -325,7 +325,7 @@ return {
 			}
 		},
 		{
-			actor = 900063,
+			actor = 312011,
 			side = 2,
 			bgName = "star_level_bg_101",
 			nameColor = "#a9f548",
@@ -354,7 +354,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_101",
 			dir = 1,
-			actor = 900155,
+			actor = 102132,
 			nameColor = "#a9f548",
 			say = "さっき皆はどんな願い事をしたのかしら？",
 			flashout = {
@@ -384,7 +384,7 @@ return {
 			}
 		},
 		{
-			actor = 102091,
+			actor = 102090,
 			side = 2,
 			bgName = "star_level_bg_101",
 			nameColor = "#a9f548",
@@ -404,7 +404,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_101",
 			dir = 1,
-			actor = 900154,
+			actor = 205062,
 			nameColor = "#a9f548",
 			say = "まあ、健康と喜びを祈るのはどこでも同じだ。あけましておめでとう",
 			typewriter = {
@@ -417,7 +417,7 @@ return {
 			}
 		},
 		{
-			actor = 900152,
+			actor = 399011,
 			side = 2,
 			bgName = "star_level_bg_101",
 			nameColor = "#a9f548",
@@ -436,7 +436,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_101",
 			dir = 1,
-			actor = 900063,
+			actor = 312011,
 			nameColor = "#a9f548",
 			say = "………ふふふふふ",
 			typewriter = {
@@ -459,7 +459,7 @@ return {
 			}
 		},
 		{
-			actor = 900063,
+			actor = 312011,
 			side = 2,
 			bgName = "star_level_bg_101",
 			nameColor = "#a9f548",
@@ -496,7 +496,7 @@ return {
 			bgName = "star_level_bg_101",
 			dir = 1,
 			blackBg = true,
-			actor = 900063,
+			actor = 312011,
 			nameColor = "#a9f548",
 			say = "にゃ♪今年も商売繁盛の一年になりそうにゃ！あけましておめでとうだにゃ！",
 			typewriter = {

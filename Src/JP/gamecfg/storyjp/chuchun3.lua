@@ -46,7 +46,7 @@ return {
 			}
 		},
 		{
-			actor = 301241,
+			actor = 301240,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -66,7 +66,7 @@ return {
 			side = 0,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 301211,
+			actor = 301210,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -82,7 +82,7 @@ return {
 			}
 		},
 		{
-			actor = 301241,
+			actor = 301240,
 			side = 1,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -101,7 +101,7 @@ return {
 			side = 0,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 301211,
+			actor = 301210,
 			nameColor = "#a9f548",
 			say = "あぅ……",
 			typewriter = {
@@ -124,7 +124,7 @@ return {
 			}
 		},
 		{
-			actor = 301231,
+			actor = 301230,
 			side = 1,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -140,7 +140,7 @@ return {
 			}
 		},
 		{
-			actor = 301211,
+			actor = 301210,
 			side = 0,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -156,7 +156,7 @@ return {
 			}
 		},
 		{
-			actor = 301231,
+			actor = 301230,
 			side = 1,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -172,7 +172,7 @@ return {
 			}
 		},
 		{
-			actor = 301211,
+			actor = 301210,
 			side = 0,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -191,7 +191,7 @@ return {
 			side = 1,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 301231,
+			actor = 301230,
 			nameColor = "#a9f548",
 			say = "あ！いますごく綺麗な蝶が！",
 			typewriter = {
@@ -216,7 +216,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 301211,
+			actor = 301210,
 			nameColor = "#a9f548",
 			say = "若葉ちゃん、走ると危ないよ！",
 			typewriter = {
@@ -242,7 +242,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 301231,
+			actor = 301230,
 			nameColor = "#a9f548",
 			say = "つかまえた…よ！うわあ！？",
 			typewriter = {
@@ -264,7 +264,7 @@ return {
 			}
 		},
 		{
-			actor = 301211,
+			actor = 301210,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -280,7 +280,7 @@ return {
 			}
 		},
 		{
-			actor = 301231,
+			actor = 301230,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -296,7 +296,7 @@ return {
 			}
 		},
 		{
-			actor = 301231,
+			actor = 301230,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -312,7 +312,7 @@ return {
 			}
 		},
 		{
-			actor = 301241,
+			actor = 301240,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -328,7 +328,7 @@ return {
 			}
 		},
 		{
-			actor = 301211,
+			actor = 301210,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -344,7 +344,7 @@ return {
 			}
 		},
 		{
-			actor = 301241,
+			actor = 301240,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -360,7 +360,7 @@ return {
 			}
 		},
 		{
-			actor = 301211,
+			actor = 301210,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -379,7 +379,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 301241,
+			actor = 301240,
 			nameColor = "#a9f548",
 			say = "秘書艦よ。指揮官に秘書艦にしてもらえば嫌でも毎日会話することになるわ。ちょうど今は空いてるし",
 			typewriter = {
@@ -402,7 +402,7 @@ return {
 			}
 		},
 		{
-			actor = 301211,
+			actor = 301210,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -421,7 +421,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 306011,
+			actor = 306010,
 			nameColor = "#a9f548",
 			say = "ダメだ。ここで止まっていてはいつまで経っても人見知りが直らないぞ",
 			effects = {
@@ -443,7 +443,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 301211,
+			actor = 301210,
 			nameColor = "#a9f548",
 			say = "……う、ううん、やってみる！",
 			effects = {
@@ -475,7 +475,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			bgName = "bg_story_room",
-			actor = 301231,
+			actor = 301230,
 			dir = 1,
 			blackBg = true,
 			hideOther = true,
@@ -483,7 +483,7 @@ return {
 			say = "頑張ってね、初春姉！\n頑張ってね、初春！",
 			subActors = {
 				{
-					actor = 301241,
+					actor = 301240,
 					pos = {
 						x = 689
 					}

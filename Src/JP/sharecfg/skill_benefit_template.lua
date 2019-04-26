@@ -257,7 +257,8 @@ pg.skill_benefit_template = {
 		skill_id = 10590,
 		limit = {
 			2,
-			3
+			3,
+			18
 		},
 		effect = {
 			0.05
@@ -270,7 +271,8 @@ pg.skill_benefit_template = {
 		skill_id = 10590,
 		limit = {
 			2,
-			3
+			3,
+			18
 		},
 		effect = {
 			0.061
@@ -283,7 +285,8 @@ pg.skill_benefit_template = {
 		skill_id = 10590,
 		limit = {
 			2,
-			3
+			3,
+			18
 		},
 		effect = {
 			0.072
@@ -296,7 +299,8 @@ pg.skill_benefit_template = {
 		skill_id = 10590,
 		limit = {
 			2,
-			3
+			3,
+			18
 		},
 		effect = {
 			0.083
@@ -309,7 +313,8 @@ pg.skill_benefit_template = {
 		skill_id = 10590,
 		limit = {
 			2,
-			3
+			3,
+			18
 		},
 		effect = {
 			0.094
@@ -322,7 +327,8 @@ pg.skill_benefit_template = {
 		skill_id = 10590,
 		limit = {
 			2,
-			3
+			3,
+			18
 		},
 		effect = {
 			0.105
@@ -335,7 +341,8 @@ pg.skill_benefit_template = {
 		skill_id = 10590,
 		limit = {
 			2,
-			3
+			3,
+			18
 		},
 		effect = {
 			0.116
@@ -348,7 +355,8 @@ pg.skill_benefit_template = {
 		skill_id = 10590,
 		limit = {
 			2,
-			3
+			3,
+			18
 		},
 		effect = {
 			0.127
@@ -361,7 +369,8 @@ pg.skill_benefit_template = {
 		skill_id = 10590,
 		limit = {
 			2,
-			3
+			3,
+			18
 		},
 		effect = {
 			0.138
@@ -374,7 +383,8 @@ pg.skill_benefit_template = {
 		skill_id = 10590,
 		limit = {
 			2,
-			3
+			3,
+			18
 		},
 		effect = {
 			0.15

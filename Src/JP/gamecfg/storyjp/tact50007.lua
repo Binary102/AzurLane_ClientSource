@@ -13,7 +13,7 @@ return {
 			}
 		},
 		{
-			actor = 103091,
+			actor = 103090,
 			nameColor = "#a9f548",
 			say = "アストリア姉さん！",
 			side = 2,
@@ -38,7 +38,7 @@ return {
 			}
 		},
 		{
-			actor = 103081,
+			actor = 103080,
 			side = 1,
 			say = "大丈夫、こっちはまだいけるわ！",
 			nameColor = "#a9f548",
@@ -56,7 +56,7 @@ return {
 			}
 		},
 		{
-			actor = 103101,
+			actor = 103100,
 			side = 1,
 			nameColor = "#a9f548",
 			say = "姉さん…‥うっ……",
@@ -70,7 +70,7 @@ return {
 			}
 		},
 		{
-			actor = 103081,
+			actor = 103080,
 			side = 1,
 			nameColor = "#a9f548",
 			say = "大丈夫よ、ヴィンセンス。",
@@ -84,7 +84,7 @@ return {
 			}
 		},
 		{
-			actor = 103081,
+			actor = 103080,
 			side = 1,
 			nameColor = "#a9f548",
 			say = "ふぅ、妹が居てくれてやっぱり良かった。じゃないとこの状況、普通諦めちゃうよ。",
@@ -98,7 +98,7 @@ return {
 			}
 		},
 		{
-			actor = 103091,
+			actor = 103090,
 			side = 0,
 			nameColor = "#a9f548",
 			say = "アストリア姉さん……そう、ですね……",
@@ -112,7 +112,7 @@ return {
 			}
 		},
 		{
-			actor = 103101,
+			actor = 103100,
 			side = 1,
 			nameColor = "#a9f548",
 			say = "うん……姉さんたちが居なかったら、ヴィンセンスも……",
@@ -126,7 +126,7 @@ return {
 			}
 		},
 		{
-			actor = 103081,
+			actor = 103080,
 			side = 2,
 			nameColor = "#a9f548",
 			say = "じゃあ、最後の反撃といきますか！",

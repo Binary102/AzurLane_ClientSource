@@ -15,7 +15,6 @@ return {
 			{
 				type = "BattleBuffCancelBuff",
 				trigger = {
-					"onAttach",
 					"onHPRatioUpdate"
 				},
 				arg_list = {
@@ -43,7 +42,6 @@ return {
 			{
 				type = "BattleBuffCancelBuff",
 				trigger = {
-					"onAttach",
 					"onHPRatioUpdate"
 				},
 				arg_list = {
@@ -71,7 +69,6 @@ return {
 			{
 				type = "BattleBuffCancelBuff",
 				trigger = {
-					"onAttach",
 					"onHPRatioUpdate"
 				},
 				arg_list = {
@@ -99,7 +96,6 @@ return {
 			{
 				type = "BattleBuffCancelBuff",
 				trigger = {
-					"onAttach",
 					"onHPRatioUpdate"
 				},
 				arg_list = {
@@ -127,7 +123,6 @@ return {
 			{
 				type = "BattleBuffCancelBuff",
 				trigger = {
-					"onAttach",
 					"onHPRatioUpdate"
 				},
 				arg_list = {
@@ -155,7 +150,6 @@ return {
 			{
 				type = "BattleBuffCancelBuff",
 				trigger = {
-					"onAttach",
 					"onHPRatioUpdate"
 				},
 				arg_list = {
@@ -183,7 +177,6 @@ return {
 			{
 				type = "BattleBuffCancelBuff",
 				trigger = {
-					"onAttach",
 					"onHPRatioUpdate"
 				},
 				arg_list = {
@@ -211,7 +204,6 @@ return {
 			{
 				type = "BattleBuffCancelBuff",
 				trigger = {
-					"onAttach",
 					"onHPRatioUpdate"
 				},
 				arg_list = {
@@ -239,7 +231,6 @@ return {
 			{
 				type = "BattleBuffCancelBuff",
 				trigger = {
-					"onAttach",
 					"onHPRatioUpdate"
 				},
 				arg_list = {
@@ -267,7 +258,6 @@ return {
 			{
 				type = "BattleBuffCancelBuff",
 				trigger = {
-					"onAttach",
 					"onHPRatioUpdate"
 				},
 				arg_list = {
@@ -292,11 +282,6 @@ return {
 	blink = {
 		1,
 		0,
-		0
-	},
-	blink = {
-		1,
-		0,
 		0,
 		0.3,
 		0.3
@@ -316,7 +301,6 @@ return {
 		{
 			type = "BattleBuffCancelBuff",
 			trigger = {
-				"onAttach",
 				"onHPRatioUpdate"
 			},
 			arg_list = {

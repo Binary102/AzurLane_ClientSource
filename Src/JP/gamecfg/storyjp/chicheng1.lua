@@ -28,7 +28,7 @@ return {
 			}
 		},
 		{
-			actor = 307011,
+			actor = 307010,
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			side = 2,
@@ -44,7 +44,7 @@ return {
 			}
 		},
 		{
-			actor = 307011,
+			actor = 307010,
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			side = 2,
@@ -60,7 +60,7 @@ return {
 			}
 		},
 		{
-			actor = 307011,
+			actor = 307010,
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			side = 2,
@@ -86,7 +86,7 @@ return {
 			}
 		},
 		{
-			actor = 107061,
+			actor = 107060,
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			side = 2,
@@ -105,7 +105,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 307011,
+			actor = 307010,
 			nameColor = "#a9f548",
 			say = "うっ！え、エンタープライズ………",
 			typewriter = {
@@ -131,7 +131,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 107061,
+			actor = 107060,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -171,7 +171,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			optionFlag = 1,
-			actor = 307011,
+			actor = 307010,
 			nameColor = "#a9f548",
 			say = "指揮官様……ふんっ、今は敵同士ではなく味方ですもの。報告があるならやって頂戴。",
 			typewriter = {
@@ -189,7 +189,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			optionFlag = 1,
-			actor = 107061,
+			actor = 107060,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -209,7 +209,7 @@ return {
 			side = 2,
 			dir = 1,
 			optionFlag = 2,
-			actor = 307011,
+			actor = 307010,
 			nameColor = "#a9f548",
 			say = "………（ぐぬぬぬぬぬぬ）",
 			action = {
@@ -245,7 +245,7 @@ return {
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
-			actor = 107061,
+			actor = 107060,
 			nameColor = "#a9f548",
 			say = "報告は以上だ。……ここに長居するつもりはない。退散させてもらう。",
 			flashout = {
@@ -285,7 +285,7 @@ return {
 			}
 		},
 		{
-			actor = 307011,
+			actor = 307010,
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			side = 2,
@@ -305,7 +305,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			actor = 307011,
+			actor = 307010,
 			nameColor = "#a9f548",
 			say = "そうです！あんな害虫はあとで掃除して、指揮官様を赤城のものだけにするとしても……執務中は……ね？",
 			typewriter = {

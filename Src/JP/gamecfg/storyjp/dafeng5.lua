@@ -54,7 +54,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 307071,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "赤城さん、加賀さん、こんにちは",
 			typewriter = {
@@ -67,7 +67,7 @@ return {
 			}
 		},
 		{
-			actor = 307021,
+			actor = 307020,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -83,7 +83,7 @@ return {
 			}
 		},
 		{
-			actor = 307011,
+			actor = 307010,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -102,7 +102,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = -1,
-			actor = 307011,
+			actor = 307010,
 			nameColor = "#a9f548",
 			say = "ふふ、ふふふふふ……そういえば、指揮官様の身の回りの害虫がまた増えたようで……",
 			typewriter = {
@@ -125,7 +125,7 @@ return {
 			}
 		},
 		{
-			actor = 307011,
+			actor = 307010,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -167,7 +167,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			bgm = "story-1",
-			actor = 307071,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "それは残念ですわ～今指揮官様のそばにいるのはこの大鳳です。赤城さん♪",
 			typewriter = {
@@ -184,7 +184,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 307071,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "でもご安心ください。この大鳳が赤城さんに代わって害虫を全部綺麗に「ソウジ」させていただきます～",
 			typewriter = {
@@ -201,7 +201,7 @@ return {
 			side = 1,
 			bgName = "bg_story_school",
 			dir = -1,
-			actor = 307011,
+			actor = 307010,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -221,7 +221,7 @@ return {
 			side = 0,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 307071,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "ふふふ♡　明石を脅し指揮官様の出張時のお弁当の食材を全部自分で納入しようとしているのは赤城さんではなくて？",
 			typewriter = {
@@ -244,7 +244,7 @@ return {
 			}
 		},
 		{
-			actor = 307021,
+			actor = 307020,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -273,7 +273,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 307071,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "こうして指揮官様と肩を並べて歩めるなんて……",
 			flashout = {
@@ -303,7 +303,7 @@ return {
 			}
 		},
 		{
-			actor = 307071,
+			actor = 307070,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -333,7 +333,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 307071,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "大鳳は秘書艦として指揮官様のお世話をして、指揮官様は思うがままに進んで、",
 			typewriter = {
@@ -346,7 +346,7 @@ return {
 			}
 		},
 		{
-			actor = 307071,
+			actor = 307070,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -366,7 +366,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 307071,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "二度とあの時のようなことにはなりません――",
 			typewriter = {

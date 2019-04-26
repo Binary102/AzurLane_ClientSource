@@ -8,7 +8,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 307021,
+			actor = 307020,
 			side = 2,
 			nameColor = "#ff0000",
 			say = "「駒」は所詮この程度……終わりだ。先手必勝！",
@@ -26,7 +26,7 @@ return {
 			}
 		},
 		{
-			actor = 307021,
+			actor = 307020,
 			side = 2,
 			nameColor = "#ff0000",
 			say = "その魂、貰い受ける！",
@@ -44,7 +44,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			side = 2,
 			nameColor = "#a9f548",
 			say = "くっ！避けきれない…！",
@@ -64,7 +64,7 @@ return {
 		{
 			side = 2,
 			soundeffect = "event:/battle/boom2",
-			actor = 307061,
+			actor = 307060,
 			nameColor = "#a9f548",
 			say = "…！！　翔鶴…姉…？",
 			flashout = {
@@ -96,7 +96,7 @@ return {
 			}
 		},
 		{
-			actor = 307051,
+			actor = 307050,
 			nameColor = "#a9f548",
 			side = 1,
 			say = "ヤクソク……マモル……ずっと……！",
@@ -118,7 +118,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			side = 0,
 			nameColor = "#a9f548",
 			say = "翔鶴姉……",
@@ -136,7 +136,7 @@ return {
 			}
 		},
 		{
-			actor = 307021,
+			actor = 307020,
 			nameColor = "#ff0000",
 			dir = -1,
 			side = 0,
@@ -155,7 +155,7 @@ return {
 			}
 		},
 		{
-			actor = 307011,
+			actor = 307010,
 			nameColor = "#ff0000",
 			dir = -1,
 			side = 1,
@@ -174,7 +174,7 @@ return {
 			}
 		},
 		{
-			actor = 307021,
+			actor = 307020,
 			nameColor = "#ff0000",
 			dir = -1,
 			side = 0,
@@ -193,7 +193,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			side = 0,
 			nameColor = "#a9f548",
 			say = "翔鶴姉…ごめん…私ずっと成長していなくて…ずっと目先のことばかり見て…",
@@ -211,7 +211,7 @@ return {
 			}
 		},
 		{
-			actor = 307051,
+			actor = 307050,
 			side = 1,
 			nameColor = "#a9f548",
 			say = "あなたさえいれば、私たちにはまだ希望があるわ…「あの人」に勝てるのはあなただけだもの……",
@@ -229,7 +229,7 @@ return {
 			}
 		},
 		{
-			actor = 307051,
+			actor = 307050,
 			side = 1,
 			nameColor = "#a9f548",
 			say = "お姉ちゃんはずっとあなたの側で見守っているわ…",
@@ -247,7 +247,7 @@ return {
 			}
 		},
 		{
-			actor = 307051,
+			actor = 307050,
 			side = 1,
 			nameColor = "#a9f548",
 			say = "だから、前だけ見て…あの「目標」に向けて進んで…",
@@ -265,7 +265,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			side = 0,
 			nameColor = "#a9f548",
 			say = "翔鶴姉…",
@@ -283,7 +283,7 @@ return {
 			}
 		},
 		{
-			actor = 307051,
+			actor = 307050,
 			side = 1,
 			nameColor = "#a9f548",
 			say = "さあ、赤城と加賀を追いかけるのよ…重桜の未来は「あの人達」に壊させるわけにはいかないわ…",

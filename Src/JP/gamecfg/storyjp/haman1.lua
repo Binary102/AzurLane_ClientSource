@@ -30,7 +30,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			bgm = "story-1",
-			actor = 101251,
+			actor = 101250,
 			say = "おい！あんた！",
 			typewriter = {
 				speed = 0.05,
@@ -64,7 +64,7 @@ return {
 			}
 		},
 		{
-			actor = 101251,
+			actor = 101250,
 			side = 2,
 			bgName = "bg_story_task",
 			say = "ハムマンの提出した報告書、まだチェックしていないの？",
@@ -84,7 +84,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			bgm = "story-1",
-			actor = 101251,
+			actor = 101250,
 			say = "1時間前にここに置いたのだぞ！なんでまだ見ていないのだ！",
 			typewriter = {
 				speed = 0.05,
@@ -110,7 +110,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			bgm = "story-1",
-			actor = 101251,
+			actor = 101250,
 			say = "言い訳を言うでない！",
 			typewriter = {
 				speed = 0.05,
@@ -130,7 +130,7 @@ return {
 			}
 		},
 		{
-			actor = 101251,
+			actor = 101250,
 			side = 2,
 			bgName = "bg_story_task",
 			say = "確認していないと言ったら確認していないのだ！ハムマンがせっかく頑張って作ってあげたのにどうしてくれるんだ！",
@@ -146,7 +146,7 @@ return {
 			}
 		},
 		{
-			actor = 101251,
+			actor = 101250,
 			side = 2,
 			bgName = "bg_story_task",
 			say = "（小声）ちゃ、ちゃんと確認してくれたらご褒美をあげようと思ってたのに……",
@@ -178,7 +178,7 @@ return {
 			}
 		},
 		{
-			actor = 101251,
+			actor = 101250,
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -193,7 +193,7 @@ return {
 			}
 		},
 		{
-			actor = 101251,
+			actor = 101250,
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -208,7 +208,7 @@ return {
 			}
 		},
 		{
-			actor = 101251,
+			actor = 101250,
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -223,7 +223,7 @@ return {
 			}
 		},
 		{
-			actor = 101251,
+			actor = 101250,
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -238,7 +238,7 @@ return {
 			}
 		},
 		{
-			actor = 101251,
+			actor = 101250,
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,

@@ -32,7 +32,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_101",
 			dir = 1,
-			actor = 305024,
+			actor = 305020,
 			actorName = "{namecode:79}",
 			say = "殿様おまたせしました！こほん！",
 			typewriter = {
@@ -49,7 +49,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_101",
 			dir = 1,
-			actor = 305024,
+			actor = 305020,
 			actorName = "{namecode:79}",
 			say = "この前に言ってた巫女の舞、殿様には披露したくて！",
 			typewriter = {
@@ -66,7 +66,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_101",
 			dir = 1,
-			actor = 305024,
+			actor = 305020,
 			actorName = "{namecode:79}",
 			say = "ええと、実は私、こっそりと姉さまから巫女の舞の勉強をしていたんです！でも見てくれる人がいないから、ここはいいかな～ここはちょっとヘンかな～ってのがわからなくて。",
 			typewriter = {
@@ -83,7 +83,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_101",
 			dir = 1,
-			actor = 305024,
+			actor = 305020,
 			actorName = "{namecode:79}",
 			say = "なので、殿様に見てもらうことにしました！あと…巫女の舞はやはり然るべき場所でやるべき、ですね！",
 			typewriter = {
@@ -100,7 +100,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_101",
 			dir = 1,
-			actor = 305024,
+			actor = 305020,
 			actorName = "{namecode:79}",
 			say = "中は掃除したから、とりあえず動きの様子は外でかるーく――",
 			typewriter = {
@@ -207,7 +207,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_101",
 			dir = 1,
-			actor = 305024,
+			actor = 305020,
 			actorName = "{namecode:79}",
 			say = "わ……あわわ！",
 			typewriter = {
@@ -251,7 +251,7 @@ return {
 			bgName = "star_level_bg_101",
 			dir = 1,
 			blackBg = true,
-			actor = 305024,
+			actor = 305020,
 			actorName = "{namecode:79}",
 			say = "殿様？？……そ、そうですね！濡れちゃうから避難しましょう！",
 			typewriter = {

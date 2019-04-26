@@ -8,7 +8,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 307061,
+			actor = 307060,
 			side = 2,
 			nameColor = "#a9f548",
 			say = "嵐で海域全体を隠すなんて…とんでもない力ね……",
@@ -26,7 +26,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			side = 2,
 			nameColor = "#a9f548",
 			say = "海の底は謎を解き明かそうとしたやつで埋まってそうね…私も運がなければ……",
@@ -44,7 +44,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			side = 2,
 			nameColor = "#a9f548",
 			say = "……とにかく翔鶴姉に連絡しないと。この場所…なんだか嫌な感じがする。",

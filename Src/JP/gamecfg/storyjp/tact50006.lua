@@ -4,7 +4,7 @@ return {
 	once = true,
 	scripts = {
 		{
-			actor = 103081,
+			actor = 103080,
 			side = 2,
 			nameColor = "#a9f548",
 			say = "なんでこっちに援軍がないのに敵の方には援軍があるのよ！私たち本当にここの制海権を持ってるの！？",
@@ -18,7 +18,7 @@ return {
 			}
 		},
 		{
-			actor = 103091,
+			actor = 103090,
 			side = 0,
 			say = "あの二人は南から来ていますから、おそらく……",
 			nameColor = "#a9f548",
@@ -36,7 +36,7 @@ return {
 			}
 		},
 		{
-			actor = 103081,
+			actor = 103080,
 			side = 1,
 			nameColor = "#a9f548",
 			say = "つまり、クインシーの予想通り、シカゴたちはもう倒されたのね……",
@@ -50,7 +50,7 @@ return {
 			}
 		},
 		{
-			actor = 103101,
+			actor = 103100,
 			side = 1,
 			nameColor = "#a9f548",
 			say = "シカゴさん、ちょっと役立たず……",
@@ -64,7 +64,7 @@ return {
 			}
 		},
 		{
-			actor = 103091,
+			actor = 103090,
 			side = 0,
 			nameColor = "#a9f548",
 			say = "そんなことないです。シカゴさんは彼女なりに頑張りましたよ。ヴィンセンスちゃん？",
@@ -78,7 +78,7 @@ return {
 			}
 		},
 		{
-			actor = 103101,
+			actor = 103100,
 			side = 1,
 			nameColor = "#a9f548",
 			say = "ほーい。",
@@ -92,7 +92,7 @@ return {
 			}
 		},
 		{
-			actor = 103081,
+			actor = 103080,
 			side = 1,
 			nameColor = "#a9f548",
 			say = "東部艦隊のサン・ファンたちの援軍を期待したいところだけど、間に合いそうにないね……",
@@ -106,7 +106,7 @@ return {
 			}
 		},
 		{
-			actor = 103091,
+			actor = 103090,
 			side = 0,
 			nameColor = "#a9f548",
 			say = "…そうですね。",
@@ -120,7 +120,7 @@ return {
 			}
 		},
 		{
-			actor = 103091,
+			actor = 103090,
 			side = 0,
 			nameColor = "#a9f548",
 			say = "ですが、向こうの包囲が完了するにはまだ少し時間があります。それを利用すれば反撃ぐらいは…",
@@ -134,7 +134,7 @@ return {
 			}
 		},
 		{
-			actor = 103081,
+			actor = 103080,
 			side = 1,
 			nameColor = "#a9f548",
 			say = "うん、それで行こう！",
@@ -148,7 +148,7 @@ return {
 			}
 		},
 		{
-			actor = 103101,
+			actor = 103100,
 			side = 2,
 			nameColor = "#a9f548",
 			say = "おー！",

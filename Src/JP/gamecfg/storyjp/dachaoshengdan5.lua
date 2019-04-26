@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			actor = 205021,
+			actor = 205020,
 			nameColor = "#a9f548",
 			say = "実は、クリスマスにロイヤルの仲間たちに贈るプレゼントに悩んでいるんだ",
 			flashout = {
@@ -52,7 +52,7 @@ return {
 			}
 		},
 		{
-			actor = 205021,
+			actor = 205020,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -68,7 +68,7 @@ return {
 			}
 		},
 		{
-			actor = 205021,
+			actor = 205020,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -88,7 +88,7 @@ return {
 			side = 1,
 			bgName = "bg_story_school",
 			dir = -1,
-			actor = 900055,
+			actor = 107061,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -104,7 +104,7 @@ return {
 			}
 		},
 		{
-			actor = 205021,
+			actor = 205020,
 			side = 0,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -120,7 +120,7 @@ return {
 			}
 		},
 		{
-			actor = 900055,
+			actor = 107061,
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -136,7 +136,7 @@ return {
 			}
 		},
 		{
-			actor = 205021,
+			actor = 205020,
 			side = 0,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -152,7 +152,7 @@ return {
 			}
 		},
 		{
-			actor = 900055,
+			actor = 107061,
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -171,7 +171,7 @@ return {
 			side = 0,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 205021,
+			actor = 205020,
 			nameColor = "#a9f548",
 			say = "気持ち……か。そういうことか。プレゼントは相手に合わせるのではなく、思いを伝えるものだったんだな！",
 			typewriter = {
@@ -194,7 +194,7 @@ return {
 			}
 		},
 		{
-			actor = 900055,
+			actor = 107061,
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -210,7 +210,7 @@ return {
 			}
 		},
 		{
-			actor = 900055,
+			actor = 107061,
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -226,7 +226,7 @@ return {
 			}
 		},
 		{
-			actor = 205021,
+			actor = 205020,
 			side = 0,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -242,7 +242,7 @@ return {
 			}
 		},
 		{
-			actor = 201101,
+			actor = 201100,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -261,7 +261,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 201101,
+			actor = 201100,
 			nameColor = "#a9f548",
 			say = "よかったら使ってくれませんか？ウォースパイトさんが着てくれたらうちたちも嬉しいです！",
 			typewriter = {
@@ -284,7 +284,7 @@ return {
 			}
 		},
 		{
-			actor = 205021,
+			actor = 205020,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -300,7 +300,7 @@ return {
 			}
 		},
 		{
-			actor = 205021,
+			actor = 205020,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -316,7 +316,7 @@ return {
 			}
 		},
 		{
-			actor = 201101,
+			actor = 201100,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -336,7 +336,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			blackBg = true,
-			actor = 900055,
+			actor = 107061,
 			nameColor = "#a9f548",
 			say = "ロイヤルのクリスマス……楽しくなりそうだな。ははは",
 			typewriter = {

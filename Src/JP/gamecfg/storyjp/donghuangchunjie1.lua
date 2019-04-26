@@ -46,7 +46,7 @@ return {
 			}
 		},
 		{
-			actor = 501021,
+			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
@@ -65,7 +65,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_102",
 			dir = 1,
-			actor = 501021,
+			actor = 501020,
 			nameColor = "#a9f548",
 			say = "どう、姉さん？新年の挨拶ちゃんとできたでしょ？",
 			typewriter = {
@@ -92,7 +92,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_102",
 			dir = 1,
-			actor = 501011,
+			actor = 501010,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -111,7 +111,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_102",
 			dir = 1,
-			actor = 501021,
+			actor = 501020,
 			nameColor = "#a9f548",
 			say = "じゃあほとんど問題なしってことでいいよね！よし、これでみんなと遊びに行けるぞー！",
 			typewriter = {
@@ -137,7 +137,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_102",
 			dir = 1,
-			actor = 501011,
+			actor = 501010,
 			nameColor = "#a9f548",
 			actorPosition = {
 				x = -500,
@@ -145,7 +145,7 @@ return {
 			},
 			subActors = {
 				{
-					actor = 501021,
+					actor = 501020,
 					pos = {
 						x = -550
 					}
@@ -170,7 +170,7 @@ return {
 			}
 		},
 		{
-			actor = 501021,
+			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
@@ -186,7 +186,7 @@ return {
 			}
 		},
 		{
-			actor = 501011,
+			actor = 501010,
 			side = 2,
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
@@ -202,7 +202,7 @@ return {
 			}
 		},
 		{
-			actor = 900164,
+			actor = 501041,
 			side = 2,
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
@@ -222,7 +222,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_102",
 			dir = 1,
-			actor = 900165,
+			actor = 101382,
 			nameColor = "#a9f548",
 			say = "鞍山、キッチンの方で少し手を借りたいです",
 			typewriter = {
@@ -239,7 +239,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_102",
 			dir = 1,
-			actor = 900166,
+			actor = 101392,
 			nameColor = "#a9f548",
 			say = "お、おかしいな……ほぼレシピ通り作ったのに……",
 			typewriter = {
@@ -256,7 +256,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_102",
 			dir = 1,
-			actor = 900165,
+			actor = 101382,
 			nameColor = "#a9f548",
 			say = "ほぼ、ですか…変なものでも入れたのでしょうか……",
 			typewriter = {
@@ -273,7 +273,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_102",
 			dir = 1,
-			actor = 900166,
+			actor = 101392,
 			nameColor = "#a9f548",
 			say = "せ、せっかく作るわけだし新しいアレンジでも入れようかなって……鞍山さん、お願い～",
 			typewriter = {
@@ -286,7 +286,7 @@ return {
 			}
 		},
 		{
-			actor = 501011,
+			actor = 501010,
 			side = 2,
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
@@ -302,7 +302,7 @@ return {
 			}
 		},
 		{
-			actor = 501011,
+			actor = 501010,
 			side = 2,
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
@@ -318,7 +318,7 @@ return {
 			}
 		},
 		{
-			actor = 501021,
+			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
@@ -338,7 +338,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgName = "star_level_bg_102",
-			actor = 900164,
+			actor = 501041,
 			nameColor = "#a9f548",
 			say = "それじゃ撫順姉さん、灯篭を取りに行きましょうか",
 			flashout = {
@@ -368,7 +368,7 @@ return {
 			}
 		},
 		{
-			actor = 501021,
+			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
@@ -384,7 +384,7 @@ return {
 			}
 		},
 		{
-			actor = 501021,
+			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
@@ -404,7 +404,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_102",
 			dir = 1,
-			actor = 900164,
+			actor = 501041,
 			nameColor = "#a9f548",
 			say = "えええっ！？で、でも鞍山姉さんはさっき――",
 			typewriter = {
@@ -427,7 +427,7 @@ return {
 			}
 		},
 		{
-			actor = 501021,
+			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
@@ -447,7 +447,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_102",
 			dir = 1,
-			actor = 900164,
+			actor = 501041,
 			nameColor = "#a9f548",
 			say = "ば、爆竹ですか！？あ、危ないですよ……うっかりしたら――",
 			typewriter = {
@@ -460,7 +460,7 @@ return {
 			}
 		},
 		{
-			actor = 501021,
+			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
@@ -481,7 +481,7 @@ return {
 			bgName = "star_level_bg_102",
 			dir = 1,
 			blackBg = true,
-			actor = 900164,
+			actor = 501041,
 			nameColor = "#a9f548",
 			say = "えっ、えええ……撫順姉さん、せめて自分で歩かせてくださいよ……",
 			typewriter = {

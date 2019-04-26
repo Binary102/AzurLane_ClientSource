@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-uta",
-			actor = 10300031,
+			actor = 10300030,
 			nameColor = "#a9f548",
 			say = "あ……し、指揮官さま。ちょうどいいところに来てくださいました",
 			flashout = {
@@ -76,7 +76,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 10300031,
+			actor = 10300030,
 			nameColor = "#a9f548",
 			say = "あ、あの、これ……食堂の厨房を借りて、ヴェスタルさんに習って……こちらの調理法で作ってみたんです",
 			typewriter = {
@@ -93,7 +93,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 10300031,
+			actor = 10300030,
 			nameColor = "#a9f548",
 			say = "ええっと、たしか……「カイグンカリィ」というお料理でしたよね？",
 			typewriter = {
@@ -126,7 +126,7 @@ return {
 			}
 		},
 		{
-			actor = 10300031,
+			actor = 10300030,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -146,7 +146,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 10300031,
+			actor = 10300030,
 			nameColor = "#a9f548",
 			say = "……ご、ご迷惑だったでしょうか……？",
 			typewriter = {
@@ -173,7 +173,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 10300031,
+			actor = 10300030,
 			nameColor = "#a9f548",
 			say = "良かった……で、では、どうぞ召し上がってみてください",
 			typewriter = {
@@ -230,7 +230,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 10300031,
+			actor = 10300030,
 			nameColor = "#a9f548",
 			say = "美味しい、ですか？指揮官さまのお口に合って良かったです……",
 			typewriter = {
@@ -247,7 +247,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 10300031,
+			actor = 10300030,
 			nameColor = "#a9f548",
 			say = "また、こちらの世界のお料理に挑戦してみますので……あの、よろしければ、また味見をお願いできますか？",
 			typewriter = {
@@ -275,7 +275,7 @@ return {
 			bgName = "star_level_bg_103",
 			dir = 1,
 			blackBg = true,
-			actor = 10300031,
+			actor = 10300030,
 			nameColor = "#a9f548",
 			say = "ありがとうございます、指揮官さま",
 			typewriter = {

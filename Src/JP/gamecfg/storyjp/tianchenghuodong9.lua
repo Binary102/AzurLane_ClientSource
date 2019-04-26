@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 304051,
+			actor = 304050,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
@@ -27,7 +27,7 @@ return {
 			nameColor = "#ff0000",
 			side = 1,
 			dir = 1,
-			actor = 305071,
+			actor = 305070,
 			say = "いつの間にか包囲されていたとは…お前はやはり戦力を隠していたな",
 			typewriter = {
 				speed = 0.05,
@@ -43,7 +43,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
-			actor = 304051,
+			actor = 304050,
 			say = "「兵は詭道なり」――演習の開始前から用意していた策です",
 			typewriter = {
 				speed = 0.05,
@@ -59,7 +59,7 @@ return {
 			nameColor = "#ff0000",
 			side = 1,
 			dir = 1,
-			actor = 305071,
+			actor = 305070,
 			say = "くっ…！まさかここまでとは……",
 			typewriter = {
 				speed = 0.05,
@@ -75,7 +75,7 @@ return {
 			nameColor = "#ff0000",
 			side = 1,
 			dir = 1,
-			actor = 305071,
+			actor = 305070,
 			say = "こうして戦っている間にもかかわらず冷静に戦術を調整し、指揮までこなす……",
 			typewriter = {
 				speed = 0.05,
@@ -87,7 +87,7 @@ return {
 			}
 		},
 		{
-			actor = 305071,
+			actor = 305070,
 			side = 1,
 			nameColor = "#ff0000",
 			dir = 1,
@@ -106,7 +106,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
-			actor = 304051,
+			actor = 304050,
 			say = "ふふふ…ではこれからは「天城さん」とでも呼んでいただきましょうか？",
 			typewriter = {
 				speed = 0.05,
@@ -118,7 +118,7 @@ return {
 			}
 		},
 		{
-			actor = 305071,
+			actor = 305070,
 			side = 1,
 			nameColor = "#ff0000",
 			dir = 1,
@@ -152,7 +152,7 @@ return {
 			}
 		},
 		{
-			actor = 304051,
+			actor = 304050,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -171,7 +171,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
-			actor = 304051,
+			actor = 304050,
 			say = "今日が演習ではなく実戦なら…加賀？あなたはもしかしたら……",
 			typewriter = {
 				speed = 0.05,

@@ -8,7 +8,7 @@ return {
 	once = true,
 	scripts = {
 		{
-			actor = 404021,
+			actor = 404020,
 			side = 2,
 			nameColor = "#ff0000",
 			mode = 2,
@@ -27,7 +27,7 @@ return {
 			}
 		},
 		{
-			actor = 404021,
+			actor = 404020,
 			side = 2,
 			nameColor = "#ff0000",
 			mode = 2,
@@ -46,7 +46,7 @@ return {
 			}
 		},
 		{
-			actor = 404021,
+			actor = 404020,
 			side = 2,
 			nameColor = "#ff0000",
 			mode = 2,
@@ -68,7 +68,7 @@ return {
 			side = 2,
 			dir = 0,
 			mode = 2,
-			actor = 405021,
+			actor = 405020,
 			nameColor = "#FF0000",
 			say = "…",
 			flashout = {
@@ -106,7 +106,7 @@ return {
 			say = "何かあったのか？",
 			nameColor = "#FF0000",
 			dir = 0,
-			actor = 407011,
+			actor = 407010,
 			mode = 2,
 			paintingFadeOut = {
 				time = 0.5,
@@ -129,7 +129,7 @@ return {
 			side = 0,
 			mode = 2,
 			dir = 0,
-			actor = 405021,
+			actor = 405020,
 			nameColor = "#FF0000",
 			say = "今回の「白<White>」は、今までとは違う動きをする……",
 			shake = {
@@ -149,7 +149,7 @@ return {
 			side = 1,
 			mode = 2,
 			dir = 0,
-			actor = 407011,
+			actor = 407010,
 			nameColor = "#FF0000",
 			say = "そうか。だがこれこそ「ジャッジ」が望んでいることだろう。",
 			shake = {
@@ -169,7 +169,7 @@ return {
 			side = 0,
 			mode = 2,
 			dir = 0,
-			actor = 405021,
+			actor = 405020,
 			nameColor = "#FF0000",
 			say = "私は思うことがある……もしかしたら……我々はただ……\nあの「白<White>」が「進化」するための単なる「踏み台」だったとしたら……",
 			shake = {
@@ -189,7 +189,7 @@ return {
 			side = 0,
 			mode = 2,
 			dir = 0,
-			actor = 405021,
+			actor = 405020,
 			nameColor = "#FF0000",
 			say = "私たちが「セイレーン」から力を得たのも…それこそが「セイレーン」の計画の一部だとしたら……",
 			shake = {
@@ -209,7 +209,7 @@ return {
 			side = 1,
 			mode = 2,
 			dir = 0,
-			actor = 407011,
+			actor = 407010,
 			nameColor = "#FF0000",
 			say = "やめろ……。このまま思考を続けたらお前の自我が崩壊するぞ。鉄血のため犠牲となった「彼女」のことを無駄にするな……",
 			shake = {
@@ -229,7 +229,7 @@ return {
 			side = 0,
 			mode = 2,
 			dir = 0,
-			actor = 405021,
+			actor = 405020,
 			nameColor = "#FF0000",
 			say = "「彼女」…？",
 			shake = {
@@ -249,7 +249,7 @@ return {
 			side = 1,
 			mode = 2,
 			dir = 0,
-			actor = 407011,
+			actor = 407010,
 			nameColor = "#FF0000",
 			say = "…なんでもない。お前とよく似ているつまらぬ妄想家のことだ。ふん、あの下らぬ妄想のために身を投げたとは…愚かな……",
 			shake = {
@@ -269,7 +269,7 @@ return {
 			side = 0,
 			mode = 2,
 			dir = 0,
-			actor = 405021,
+			actor = 405020,
 			nameColor = "#FF0000",
 			say = "……",
 			shake = {

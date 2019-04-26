@@ -14,7 +14,7 @@ return {
 			}
 		},
 		{
-			actor = 103041,
+			actor = 103040,
 			side = 2,
 			nameColor = "#a9f548",
 			say = "この戦力で攻めてくるとは大した肝っ玉ね。お姉さん、ようやく重桜の恐ろしさがわかった気がするわ。",
@@ -28,7 +28,7 @@ return {
 			}
 		},
 		{
-			actor = 303021,
+			actor = 303020,
 			side = 2,
 			nameColor = "#a9f548",
 			actorName = "{namecode:54}",
@@ -43,7 +43,7 @@ return {
 			}
 		},
 		{
-			actor = 103041,
+			actor = 103040,
 			side = 2,
 			nameColor = "#a9f548",
 			say = "悔しいけど、そっちの言う通りね……",
@@ -66,7 +66,7 @@ return {
 			}
 		},
 		{
-			actor = 103041,
+			actor = 103040,
 			side = 2,
 			nameColor = "#a9f548",
 			say = "これ以上何を言っても仕方ないわ。かかってきなさい！",
@@ -80,7 +80,7 @@ return {
 			}
 		},
 		{
-			actor = 303021,
+			actor = 303020,
 			side = 2,
 			nameColor = "#a9f548",
 			actorName = "{namecode:54}",

@@ -8,7 +8,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 307011,
+			actor = 307010,
 			nameColor = "#ff0000",
 			side = 2,
 			dir = -1,
@@ -23,7 +23,7 @@ return {
 			}
 		},
 		{
-			actor = 307011,
+			actor = 307010,
 			nameColor = "#ff0000",
 			side = 2,
 			dir = -1,
@@ -38,7 +38,7 @@ return {
 			}
 		},
 		{
-			actor = 307021,
+			actor = 307020,
 			nameColor = "#ff0000",
 			side = 0,
 			dir = -1,
@@ -57,7 +57,7 @@ return {
 			}
 		},
 		{
-			actor = 307011,
+			actor = 307010,
 			nameColor = "#ff0000",
 			side = 1,
 			dir = -1,
@@ -72,7 +72,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
@@ -139,7 +139,7 @@ return {
 			}
 		},
 		{
-			actor = 307021,
+			actor = 307020,
 			nameColor = "#ff0000",
 			side = 2,
 			dir = 1,
@@ -154,7 +154,7 @@ return {
 			}
 		},
 		{
-			actor = 307021,
+			actor = 307020,
 			nameColor = "#ff0000",
 			side = 2,
 			dir = 1,
@@ -169,7 +169,7 @@ return {
 			}
 		},
 		{
-			actor = 307021,
+			actor = 307020,
 			nameColor = "#ff0000",
 			side = 2,
 			dir = 1,

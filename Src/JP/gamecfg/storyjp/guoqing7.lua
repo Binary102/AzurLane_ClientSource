@@ -8,7 +8,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 307061,
+			actor = 307060,
 			side = 0,
 			nameColor = "#a9f548",
 			say = "救難信号ってこういうことね…伊勢先輩、日向先輩…まさか…",
@@ -26,7 +26,7 @@ return {
 			}
 		},
 		{
-			actor = 305031,
+			actor = 305030,
 			side = 1,
 			nameColor = "#ff0000",
 			say = "……",
@@ -44,7 +44,7 @@ return {
 			}
 		},
 		{
-			actor = 305041,
+			actor = 305040,
 			side = 1,
 			nameColor = "#ff0000",
 			say = "……",
@@ -62,7 +62,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			side = 0,
 			nameColor = "#a9f548",
 			say = "わかった…戦闘用意！",

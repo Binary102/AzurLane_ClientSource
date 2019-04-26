@@ -5896,6 +5896,121 @@ pg.item_data_statistics = {
 		},
 		index = {}
 	},
+	[30313] = {
+		display = "ランダムの装備外装を入手可能",
+		rarity = 4,
+		type = 11,
+		name = "装備外装箱(キズナアイ)",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 30313,
+		icon = "Props/appearanceboxai",
+		display_icon = {
+			{
+				9,
+				1101,
+				1
+			},
+			{
+				9,
+				1102,
+				1
+			},
+			{
+				9,
+				1103,
+				1
+			},
+			{
+				9,
+				1104,
+				1
+			},
+			{
+				9,
+				1105,
+				1
+			},
+			{
+				9,
+				1106,
+				1
+			},
+			{
+				9,
+				1107,
+				1
+			},
+			{
+				9,
+				1108,
+				1
+			},
+			{
+				9,
+				1109,
+				1
+			},
+			{
+				9,
+				1110,
+				1
+			},
+			{
+				9,
+				1111,
+				1
+			},
+			{
+				9,
+				1112,
+				1
+			},
+			{
+				9,
+				1113,
+				1
+			},
+			{
+				9,
+				1114,
+				1
+			},
+			{
+				9,
+				1115,
+				1
+			},
+			{
+				9,
+				1116,
+				1
+			},
+			{
+				9,
+				1117,
+				1
+			},
+			{
+				9,
+				1118,
+				1
+			},
+			{
+				9,
+				1119,
+				1
+			}
+		},
+		price = {
+			1,
+			7000
+		},
+		index = {}
+	},
 	[40003] = {
 		display = "購入すると材料が大量に入手できます",
 		rarity = 4,
@@ -17914,7 +18029,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[42010] = {
-		display = "特別計画艦「シアトル」「ジョージア」「北風」「ガスコーニュ」の強化ユニットを選択して入手できます。",
+		display = "特別計画艦一期目と二期目の強化ユニット（SSR）を選択して入手できます ",
 		rarity = 4,
 		type = 13,
 		name = "指向型強化ユニット・二期目 ",
@@ -17945,6 +18060,36 @@ pg.item_data_statistics = {
 				2,
 				42016,
 				1
+			},
+			{
+				2,
+				42001,
+				1
+			},
+			{
+				2,
+				42002,
+				1
+			},
+			{
+				2,
+				42003,
+				1
+			},
+			{
+				2,
+				42004,
+				1
+			},
+			{
+				2,
+				42005,
+				1
+			},
+			{
+				2,
+				42006,
+				1
 			}
 		},
 		price = {},
@@ -17954,7 +18099,7 @@ pg.item_data_statistics = {
 		display = "ユニオン巡洋艦「シアトル」の強化ユニット。\n<color=#A9F548>「シアトル」開発完了後、「開発ドック」で「シアトル」の性能を強化できる。</color> ",
 		rarity = 4,
 		type = 12,
-		name = "指向型強化ユニット「シアトル」",
+		name = "強化ユニット「シアトル」",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -17970,7 +18115,7 @@ pg.item_data_statistics = {
 		display = "ユニオン戦艦「ジョージア」の強化ユニット。\n<color=#A9F548>「ジョージア」開発完了後、「開発ドック」で「ジョージア」の性能を強化できる。</color> ",
 		rarity = 4,
 		type = 12,
-		name = "指向型強化ユニット「ジョージア」",
+		name = "強化ユニット「ジョージア」",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -17986,7 +18131,7 @@ pg.item_data_statistics = {
 		display = "重桜駆逐「北風」の強化ユニット。\n<color=#A9F548>「北風」開発完了後、「開発ドック」で「北風」の性能を強化できる。</color>",
 		rarity = 4,
 		type = 12,
-		name = "指向型強化ユニット「北風」",
+		name = "強化ユニット「北風」",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -18002,7 +18147,7 @@ pg.item_data_statistics = {
 		display = "重桜超巡「吾妻」の強化ユニット。\n<color=#A9F548>「吾妻」開発完了後、「開発ドック」で「吾妻」の性能を強化できる。</color>",
 		rarity = 5,
 		type = 12,
-		name = "指向型強化ユニット「吾妻」",
+		name = "強化ユニット「吾妻」",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -18018,7 +18163,7 @@ pg.item_data_statistics = {
 		display = "鉄血戦艦「フリードリヒ・デア・グローセ」の強化ユニット。\n<color=#A9F548>「フリードリヒ・デア・グローセ」開発完了後、「開発ドック」で「フリードリヒ・デア・グローセ」の性能を強化できる。</color>",
 		rarity = 5,
 		type = 12,
-		name = "指向型強化ユニット「フリードリヒ・デア・グローセ」",
+		name = "強化ユニット「フリードリヒ・デア・グローセ」",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -18034,7 +18179,7 @@ pg.item_data_statistics = {
 		display = "ヴィシア戦艦「ガスコーニュ」の強化ユニット。\n<color=#A9F548>「ガスコーニュ」開発完了後、「開発ドック」で「ガスコーニュ」の性能を強化できる。</color>",
 		rarity = 4,
 		type = 12,
-		name = "指向型強化ユニット「ガスコーニュ」",
+		name = "強化ユニット「ガスコーニュ」",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -60023,6 +60168,1163 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[57570] = {
+		display = "一定の確率で下記の設計図を入手できます",
+		rarity = 1,
+		type = 99,
+		name = "ランダム設計図",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 57570,
+		icon = "Props/55000",
+		display_icon = {
+			{
+				2,
+				10074,
+				1
+			},
+			{
+				2,
+				11,
+				1
+			},
+			{
+				2,
+				10056,
+				1
+			},
+			{
+				2,
+				24,
+				1
+			},
+			{
+				2,
+				9,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[57571] = {
+		display = "一定の確率で下記の設計図を入手できます",
+		rarity = 1,
+		type = 99,
+		name = "ランダム設計図",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 57571,
+		icon = "Props/55000",
+		display_icon = {
+			{
+				2,
+				10050,
+				1
+			},
+			{
+				2,
+				10031,
+				1
+			},
+			{
+				2,
+				10004,
+				1
+			},
+			{
+				2,
+				10051,
+				1
+			},
+			{
+				2,
+				29,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[57572] = {
+		display = "一定の確率で下記の設計図を入手できます",
+		rarity = 1,
+		type = 99,
+		name = "ランダム設計図",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 57572,
+		icon = "Props/55000",
+		display_icon = {
+			{
+				2,
+				10057,
+				1
+			},
+			{
+				2,
+				10076,
+				1
+			},
+			{
+				2,
+				10040,
+				1
+			},
+			{
+				2,
+				10007,
+				1
+			},
+			{
+				2,
+				10005,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[57573] = {
+		display = "一定の確率で下記の設計図を入手できます",
+		rarity = 1,
+		type = 99,
+		name = "ランダム設計図",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 57573,
+		icon = "Props/55000",
+		display_icon = {
+			{
+				2,
+				11019,
+				1
+			},
+			{
+				2,
+				10035,
+				1
+			},
+			{
+				2,
+				10073,
+				1
+			},
+			{
+				2,
+				10034,
+				1
+			},
+			{
+				2,
+				10052,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[57574] = {
+		display = "一定の確率で下記の設計図を入手できます",
+		rarity = 1,
+		type = 99,
+		name = "ランダム設計図",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 57574,
+		icon = "Props/55000",
+		display_icon = {
+			{
+				2,
+				11023,
+				1
+			},
+			{
+				2,
+				10028,
+				1
+			},
+			{
+				2,
+				10029,
+				1
+			},
+			{
+				2,
+				10047,
+				1
+			},
+			{
+				2,
+				10067,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[57575] = {
+		display = "一定の確率で下記の設計図を入手できます",
+		rarity = 1,
+		type = 99,
+		name = "ランダム設計図",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 57575,
+		icon = "Props/55000",
+		display_icon = {
+			{
+				2,
+				10074,
+				1
+			},
+			{
+				2,
+				11,
+				1
+			},
+			{
+				2,
+				10056,
+				1
+			},
+			{
+				2,
+				24,
+				1
+			},
+			{
+				2,
+				9,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[57576] = {
+		display = "一定の確率で下記の設計図を入手できます",
+		rarity = 1,
+		type = 99,
+		name = "ランダム設計図",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 57576,
+		icon = "Props/55000",
+		display_icon = {
+			{
+				2,
+				10050,
+				1
+			},
+			{
+				2,
+				10031,
+				1
+			},
+			{
+				2,
+				10004,
+				1
+			},
+			{
+				2,
+				10051,
+				1
+			},
+			{
+				2,
+				29,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[57577] = {
+		display = "一定の確率で下記の設計図を入手できます",
+		rarity = 1,
+		type = 99,
+		name = "ランダム設計図",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 57577,
+		icon = "Props/55000",
+		display_icon = {
+			{
+				2,
+				10057,
+				1
+			},
+			{
+				2,
+				10076,
+				1
+			},
+			{
+				2,
+				10040,
+				1
+			},
+			{
+				2,
+				10007,
+				1
+			},
+			{
+				2,
+				10005,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[57578] = {
+		display = "一定の確率で下記の設計図を入手できます",
+		rarity = 1,
+		type = 99,
+		name = "ランダム設計図",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 57578,
+		icon = "Props/55000",
+		display_icon = {
+			{
+				2,
+				10035,
+				1
+			},
+			{
+				2,
+				10073,
+				1
+			},
+			{
+				2,
+				10034,
+				1
+			},
+			{
+				2,
+				10052,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[57579] = {
+		display = "一定の確率で下記の設計図を入手できます",
+		rarity = 1,
+		type = 99,
+		name = "ランダム設計図",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 57579,
+		icon = "Props/55000",
+		display_icon = {
+			{
+				2,
+				10028,
+				1
+			},
+			{
+				2,
+				10029,
+				1
+			},
+			{
+				2,
+				10047,
+				1
+			},
+			{
+				2,
+				10067,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[57580] = {
+		display = "一定の確率で下記のキャラを入手できます",
+		rarity = 1,
+		type = 99,
+		name = "ランダムキャラ",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 57580,
+		icon = "Props/54000",
+		display_icon = {
+			{
+				4,
+				102051,
+				1
+			},
+			{
+				4,
+				102091,
+				1
+			},
+			{
+				4,
+				203041,
+				1
+			},
+			{
+				4,
+				203051,
+				1
+			},
+			{
+				4,
+				106011,
+				1
+			},
+			{
+				4,
+				303071,
+				1
+			},
+			{
+				4,
+				303081,
+				1
+			},
+			{
+				4,
+				303011,
+				1
+			},
+			{
+				4,
+				303021,
+				1
+			},
+			{
+				4,
+				201111,
+				1
+			},
+			{
+				4,
+				201061,
+				1
+			},
+			{
+				4,
+				201071,
+				1
+			},
+			{
+				4,
+				402011,
+				1
+			},
+			{
+				4,
+				402021,
+				1
+			},
+			{
+				4,
+				402031,
+				1
+			},
+			{
+				4,
+				105011,
+				1
+			},
+			{
+				4,
+				105021,
+				1
+			},
+			{
+				4,
+				107011,
+				1
+			},
+			{
+				4,
+				103011,
+				1
+			},
+			{
+				4,
+				101131,
+				1
+			},
+			{
+				4,
+				101141,
+				1
+			},
+			{
+				4,
+				101151,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[57581] = {
+		display = "一定の確率で下記のキャラを入手できます",
+		rarity = 1,
+		type = 99,
+		name = "ランダムキャラ",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 57581,
+		icon = "Props/54000",
+		display_icon = {
+			{
+				4,
+				206031,
+				1
+			},
+			{
+				4,
+				107031,
+				1
+			},
+			{
+				4,
+				203041,
+				1
+			},
+			{
+				4,
+				203051,
+				1
+			},
+			{
+				4,
+				106011,
+				1
+			},
+			{
+				4,
+				202131,
+				1
+			},
+			{
+				4,
+				202141,
+				1
+			},
+			{
+				4,
+				107011,
+				1
+			},
+			{
+				4,
+				107041,
+				1
+			},
+			{
+				4,
+				206011,
+				1
+			},
+			{
+				4,
+				106021,
+				1
+			},
+			{
+				4,
+				202011,
+				1
+			},
+			{
+				4,
+				402011,
+				1
+			},
+			{
+				4,
+				402021,
+				1
+			},
+			{
+				4,
+				402031,
+				1
+			},
+			{
+				4,
+				105011,
+				1
+			},
+			{
+				4,
+				105021,
+				1
+			},
+			{
+				4,
+				102111,
+				1
+			},
+			{
+				4,
+				103011,
+				1
+			},
+			{
+				4,
+				101131,
+				1
+			},
+			{
+				4,
+				101141,
+				1
+			},
+			{
+				4,
+				101151,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[57582] = {
+		display = "一定の確率で下記のキャラを入手できます",
+		rarity = 1,
+		type = 99,
+		name = "ランダムキャラ",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 57582,
+		icon = "Props/54000",
+		display_icon = {
+			{
+				4,
+				204011,
+				1
+			},
+			{
+				4,
+				105041,
+				1
+			},
+			{
+				4,
+				102031,
+				1
+			},
+			{
+				4,
+				102041,
+				1
+			},
+			{
+				4,
+				106011,
+				1
+			},
+			{
+				4,
+				102061,
+				1
+			},
+			{
+				4,
+				102071,
+				1
+			},
+			{
+				4,
+				102011,
+				1
+			},
+			{
+				4,
+				102021,
+				1
+			},
+			{
+				4,
+				202011,
+				1
+			},
+			{
+				4,
+				303011,
+				1
+			},
+			{
+				4,
+				303021,
+				1
+			},
+			{
+				4,
+				402011,
+				1
+			},
+			{
+				4,
+				402021,
+				1
+			},
+			{
+				4,
+				402031,
+				1
+			},
+			{
+				4,
+				105011,
+				1
+			},
+			{
+				4,
+				105021,
+				1
+			},
+			{
+				4,
+				106021,
+				1
+			},
+			{
+				4,
+				103011,
+				1
+			},
+			{
+				4,
+				101131,
+				1
+			},
+			{
+				4,
+				101141,
+				1
+			},
+			{
+				4,
+				101151,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[57583] = {
+		display = "一定の確率で下記のキャラを入手できます",
+		rarity = 1,
+		type = 99,
+		name = "ランダムキャラ",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 57583,
+		icon = "Props/54000",
+		display_icon = {
+			{
+				4,
+				207021,
+				1
+			},
+			{
+				4,
+				201141,
+				1
+			},
+			{
+				4,
+				102031,
+				1
+			},
+			{
+				4,
+				102041,
+				1
+			},
+			{
+				4,
+				106011,
+				1
+			},
+			{
+				4,
+				301171,
+				1
+			},
+			{
+				4,
+				301131,
+				1
+			},
+			{
+				4,
+				101061,
+				1
+			},
+			{
+				4,
+				101071,
+				1
+			},
+			{
+				4,
+				201081,
+				1
+			},
+			{
+				4,
+				201091,
+				1
+			},
+			{
+				4,
+				201101,
+				1
+			},
+			{
+				4,
+				402011,
+				1
+			},
+			{
+				4,
+				402021,
+				1
+			},
+			{
+				4,
+				402031,
+				1
+			},
+			{
+				4,
+				105011,
+				1
+			},
+			{
+				4,
+				105021,
+				1
+			},
+			{
+				4,
+				107041,
+				1
+			},
+			{
+				4,
+				103011,
+				1
+			},
+			{
+				4,
+				101131,
+				1
+			},
+			{
+				4,
+				101141,
+				1
+			},
+			{
+				4,
+				101151,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[57584] = {
+		display = "一定の確率で下記のキャラを入手できます",
+		rarity = 1,
+		type = 99,
+		name = "ランダムキャラ",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 57584,
+		icon = "Props/54000",
+		display_icon = {
+			{
+				4,
+				107051,
+				1
+			},
+			{
+				4,
+				107071,
+				1
+			},
+			{
+				4,
+				102031,
+				1
+			},
+			{
+				4,
+				102041,
+				1
+			},
+			{
+				4,
+				106011,
+				1
+			},
+			{
+				4,
+				301171,
+				1
+			},
+			{
+				4,
+				301131,
+				1
+			},
+			{
+				4,
+				101061,
+				1
+			},
+			{
+				4,
+				101071,
+				1
+			},
+			{
+				4,
+				201081,
+				1
+			},
+			{
+				4,
+				201091,
+				1
+			},
+			{
+				4,
+				201101,
+				1
+			},
+			{
+				4,
+				107011,
+				1
+			},
+			{
+				4,
+				106021,
+				1
+			},
+			{
+				4,
+				107041,
+				1
+			},
+			{
+				4,
+				206011,
+				1
+			},
+			{
+				4,
+				201111,
+				1
+			},
+			{
+				4,
+				202011,
+				1
+			},
+			{
+				4,
+				102011,
+				1
+			},
+			{
+				4,
+				102021,
+				1
+			},
+			{
+				4,
+				101031,
+				1
+			},
+			{
+				4,
+				101041,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[57585] = {
+		display = "一定の確率で下記の装備外装を入手できます",
+		rarity = 4,
+		type = 99,
+		name = "装備外装箱(キズナアイ)",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 57585,
+		icon = "Props/appearanceboxai",
+		display_icon = {
+			{
+				9,
+				1101,
+				1
+			},
+			{
+				9,
+				1102,
+				1
+			},
+			{
+				9,
+				1103,
+				1
+			},
+			{
+				9,
+				1104,
+				1
+			},
+			{
+				9,
+				1105,
+				1
+			},
+			{
+				9,
+				1106,
+				1
+			},
+			{
+				9,
+				1107,
+				1
+			},
+			{
+				9,
+				1108,
+				1
+			},
+			{
+				9,
+				1109,
+				1
+			},
+			{
+				9,
+				1110,
+				1
+			},
+			{
+				9,
+				1111,
+				1
+			},
+			{
+				9,
+				1112,
+				1
+			},
+			{
+				9,
+				1113,
+				1
+			},
+			{
+				9,
+				1114,
+				1
+			},
+			{
+				9,
+				1115,
+				1
+			},
+			{
+				9,
+				1116,
+				1
+			},
+			{
+				9,
+				1117,
+				1
+			},
+			{
+				9,
+				1118,
+				1
+			},
+			{
+				9,
+				1119,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
 	[59000] = {
 		display = "参加キャラは経験値を獲得できます",
 		rarity = 2,
@@ -60501,6 +61803,22 @@ pg.item_data_statistics = {
 		icon = "Props/drum",
 		display_icon = {},
 		price = {},
+		index = {}
+	},
+	[59126] = {
+		display = "「仮想繋げし共時性」報酬交換用。イベント終了後に削除されます",
+		rarity = 2,
+		type = 98,
+		name = "Pt-キズナ",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 59126,
+		icon = "Props/kizuna_pt",
+		price = "",
+		display_icon = {},
 		index = {}
 	},
 	[59601] = {
@@ -62661,6 +63979,390 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[70000] = {
+		display = "「AIメモリアル」No.1開放用",
+		rarity = 4,
+		type = 0,
+		name = "「AIメモリアル」No.1",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 1,
+		replace_item = 0,
+		link_id = 10243,
+		id = 70000,
+		icon = "Props/gangquhuiyi",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[70001] = {
+		display = "「AIメモリアル」No.2開放用",
+		rarity = 4,
+		type = 0,
+		name = "「AIメモリアル」No.2",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 1,
+		replace_item = 0,
+		link_id = 10243,
+		id = 70001,
+		icon = "Props/gangquhuiyi",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[70002] = {
+		display = "「AIメモリアル」No.3開放用",
+		rarity = 4,
+		type = 0,
+		name = "「AIメモリアル」No.3",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 1,
+		replace_item = 0,
+		link_id = 10243,
+		id = 70002,
+		icon = "Props/gangquhuiyi",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[70003] = {
+		display = "「AIメモリアル」No.4開放用",
+		rarity = 4,
+		type = 0,
+		name = "「AIメモリアル」No.4",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 1,
+		replace_item = 0,
+		link_id = 10243,
+		id = 70003,
+		icon = "Props/gangquhuiyi",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[70004] = {
+		display = "「AIメモリアル」No.5開放用",
+		rarity = 4,
+		type = 0,
+		name = "「AIメモリアル」No.5",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 1,
+		replace_item = 0,
+		link_id = 10243,
+		id = 70004,
+		icon = "Props/gangquhuiyi",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[70005] = {
+		display = "「AIメモリアル」No.6開放用",
+		rarity = 4,
+		type = 0,
+		name = "「AIメモリアル」No.6",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 1,
+		replace_item = 0,
+		link_id = 10243,
+		id = 70005,
+		icon = "Props/gangquhuiyi",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[70006] = {
+		display = "「AIメモリアル」No.7開放用",
+		rarity = 4,
+		type = 0,
+		name = "「AIメモリアル」No.7",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 1,
+		replace_item = 0,
+		link_id = 10243,
+		id = 70006,
+		icon = "Props/gangquhuiyi",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[70007] = {
+		display = "「AIメモリアル」No.8開放用",
+		rarity = 4,
+		type = 0,
+		name = "「AIメモリアル」No.8",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 1,
+		replace_item = 0,
+		link_id = 10243,
+		id = 70007,
+		icon = "Props/gangquhuiyi",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[70008] = {
+		display = "「AIメモリアル」No.9開放用",
+		rarity = 4,
+		type = 0,
+		name = "「AIメモリアル」No.9",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 1,
+		replace_item = 0,
+		link_id = 10243,
+		id = 70008,
+		icon = "Props/gangquhuiyi",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[70009] = {
+		display = "「AIメモリアル」No.10開放用",
+		rarity = 4,
+		type = 0,
+		name = "「AIメモリアル」No.10",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 1,
+		replace_item = 0,
+		link_id = 10243,
+		id = 70009,
+		icon = "Props/gangquhuiyi",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[70010] = {
+		display = "「AIメモリアル」No.11開放用",
+		rarity = 4,
+		type = 0,
+		name = "「AIメモリアル」No.11",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 1,
+		replace_item = 0,
+		link_id = 10243,
+		id = 70010,
+		icon = "Props/gangquhuiyi",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[70011] = {
+		display = "「AIメモリアル」No.12開放用",
+		rarity = 4,
+		type = 0,
+		name = "「AIメモリアル」No.12",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 1,
+		replace_item = 0,
+		link_id = 10243,
+		id = 70011,
+		icon = "Props/gangquhuiyi",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[70012] = {
+		display = "「AIメモリアル」No.13開放用",
+		rarity = 4,
+		type = 0,
+		name = "「AIメモリアル」No.13",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 1,
+		replace_item = 0,
+		link_id = 10243,
+		id = 70012,
+		icon = "Props/gangquhuiyi",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[70013] = {
+		display = "「AIメモリアル」No.14開放用",
+		rarity = 4,
+		type = 0,
+		name = "「AIメモリアル」No.14",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 1,
+		replace_item = 0,
+		link_id = 10243,
+		id = 70013,
+		icon = "Props/gangquhuiyi",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[70014] = {
+		display = "「AIメモリアル」No.15開放用",
+		rarity = 4,
+		type = 0,
+		name = "「AIメモリアル」No.15",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 1,
+		replace_item = 0,
+		link_id = 10243,
+		id = 70014,
+		icon = "Props/gangquhuiyi",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[70015] = {
+		display = "「AIメモリアル」No.16開放用",
+		rarity = 4,
+		type = 0,
+		name = "「AIメモリアル」No.16",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 1,
+		replace_item = 0,
+		link_id = 10243,
+		id = 70015,
+		icon = "Props/gangquhuiyi",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[70016] = {
+		display = "「AIメモリアル」No.17開放用",
+		rarity = 4,
+		type = 0,
+		name = "「AIメモリアル」No.17",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 1,
+		replace_item = 0,
+		link_id = 10243,
+		id = 70016,
+		icon = "Props/gangquhuiyi",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[70017] = {
+		display = "「AIメモリアル」No.18開放用",
+		rarity = 4,
+		type = 0,
+		name = "「AIメモリアル」No.18",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 1,
+		replace_item = 0,
+		link_id = 10243,
+		id = 70017,
+		icon = "Props/gangquhuiyi",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[70018] = {
+		display = "「AIメモリアル」No.19開放用",
+		rarity = 4,
+		type = 0,
+		name = "「AIメモリアル」No.19",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 1,
+		replace_item = 0,
+		link_id = 10243,
+		id = 70018,
+		icon = "Props/gangquhuiyi",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[70019] = {
+		display = "「AIメモリアル」No.20開放用",
+		rarity = 4,
+		type = 0,
+		name = "「AIメモリアル」No.20",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 1,
+		replace_item = 0,
+		link_id = 10243,
+		id = 70019,
+		icon = "Props/gangquhuiyi",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[70020] = {
+		display = "「AIメモリアル」No.21開放用",
+		rarity = 4,
+		type = 0,
+		name = "「AIメモリアル」No.21",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 1,
+		replace_item = 0,
+		link_id = 10243,
+		id = 70020,
+		icon = "Props/gangquhuiyi",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[70021] = {
+		display = "「AIメモリアル」No.22開放用",
+		rarity = 4,
+		type = 0,
+		name = "「AIメモリアル」No.22",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 1,
+		replace_item = 0,
+		link_id = 10243,
+		id = 70021,
+		icon = "Props/gangquhuiyi",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[70022] = {
+		display = "「AIメモリアル」No.23開放用",
+		rarity = 4,
+		type = 0,
+		name = "「AIメモリアル」No.23",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 1,
+		replace_item = 0,
+		link_id = 10243,
+		id = 70022,
+		icon = "Props/gangquhuiyi",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[70023] = {
+		display = "「AIメモリアル」No.24開放用",
+		rarity = 4,
+		type = 0,
+		name = "「AIメモリアル」No.24",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 1,
+		replace_item = 0,
+		link_id = 10243,
+		id = 70023,
+		icon = "Props/gangquhuiyi",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	all = {
 		1,
 		2,
@@ -62963,6 +64665,7 @@ pg.item_data_statistics = {
 		30310,
 		30311,
 		30312,
+		30313,
 		40003,
 		40004,
 		40005,
@@ -64093,6 +65796,22 @@ pg.item_data_statistics = {
 		57567,
 		57568,
 		57569,
+		57570,
+		57571,
+		57572,
+		57573,
+		57574,
+		57575,
+		57576,
+		57577,
+		57578,
+		57579,
+		57580,
+		57581,
+		57582,
+		57583,
+		57584,
+		57585,
 		59000,
 		59001,
 		59002,
@@ -64123,6 +65842,7 @@ pg.item_data_statistics = {
 		59123,
 		59124,
 		59125,
+		59126,
 		59601,
 		59602,
 		59603,
@@ -64253,7 +65973,31 @@ pg.item_data_statistics = {
 		60002,
 		60003,
 		60011,
-		60012
+		60012,
+		70000,
+		70001,
+		70002,
+		70003,
+		70004,
+		70005,
+		70006,
+		70007,
+		70008,
+		70009,
+		70010,
+		70011,
+		70012,
+		70013,
+		70014,
+		70015,
+		70016,
+		70017,
+		70018,
+		70019,
+		70020,
+		70021,
+		70022,
+		70023
 	}
 }
 

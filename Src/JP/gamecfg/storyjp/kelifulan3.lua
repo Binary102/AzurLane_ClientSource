@@ -32,7 +32,7 @@ return {
 			bgName = "star_level_bg_103",
 			dir = 1,
 			actorScale = 0.6,
-			actor = 102091,
+			actor = 102090,
 			nameColor = "#a9f548",
 			say = "はぁ…はぁ…遅れたー！",
 			effects = {
@@ -110,7 +110,7 @@ return {
 			}
 		},
 		{
-			actor = 102091,
+			actor = 102090,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -129,7 +129,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 102091,
+			actor = 102090,
 			nameColor = "#a9f548",
 			say = "んぐ…んぐ…ぷはー！実はここまで来る途中にこんなことがあって……",
 			action = {
@@ -168,7 +168,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 102091,
+			actor = 102090,
 			nameColor = "#a9f548",
 			say = "ええ！サンディエゴのせいで寮の裏の芝生に小麦がたくさん生えちゃってる！？…いやそれは食料的にいいことなのでは…",
 			flashout = {
@@ -198,7 +198,7 @@ return {
 			}
 		},
 		{
-			actor = 102091,
+			actor = 102090,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -214,7 +214,7 @@ return {
 			}
 		},
 		{
-			actor = 102091,
+			actor = 102090,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -233,7 +233,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 102091,
+			actor = 102090,
 			nameColor = "#a9f548",
 			say = "ああわかった！ぱぱっとみんなで収穫するぞ！だから兄貴って呼ぶなぁ！",
 			action = {
@@ -258,7 +258,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 102091,
+			actor = 102090,
 			nameColor = "#a9f548",
 			say = "というわけでユニオン寮のみんなに色々と頼まれてたんだ……ごめんなさい！",
 			flashout = {
@@ -298,7 +298,7 @@ return {
 			}
 		},
 		{
-			actor = 102091,
+			actor = 102090,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -318,7 +318,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_103",
 			dir = -1,
-			actor = 102151,
+			actor = 102150,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -337,7 +337,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_103",
 			dir = -1,
-			actor = 102101,
+			actor = 102100,
 			nameColor = "#a9f548",
 			say = "姉貴はわかってないよね～ヘレナのもいいけど、たまにはクリーブランドの作った弁当が食べたいなーって、指揮官もそう思わない？",
 			typewriter = {
@@ -360,7 +360,7 @@ return {
 			bgName = "star_level_bg_103",
 			dir = 1,
 			blackBg = true,
-			actor = 102091,
+			actor = 102090,
 			nameColor = "#a9f548",
 			say = "そ、そう？じゃあ今度、ヘレナに聞いとこうかな…指揮官が食べたいって言ったからだぞ！",
 			typewriter = {

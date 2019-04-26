@@ -50,7 +50,7 @@ return {
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			soundeffect = "event:/battle/plane",
-			actor = 107061,
+			actor = 107060,
 			nameColor = "#a9f548",
 			say = "これで最後の勝負だ！ここまで勝ち続けるとは、さすが我が自慢の後輩だな！",
 			typewriter = {
@@ -68,7 +68,7 @@ return {
 			bgName = "bg_story_nepu1",
 			say = "先輩こそ、ずっと余裕綽々ではありませんか…！",
 			dir = 1,
-			actor = 107091,
+			actor = 107090,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -84,7 +84,7 @@ return {
 			}
 		},
 		{
-			actor = 107091,
+			actor = 107090,
 			side = 0,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -100,7 +100,7 @@ return {
 			}
 		},
 		{
-			actor = 107061,
+			actor = 107060,
 			side = 1,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -118,7 +118,7 @@ return {
 		{
 			side = 0,
 			bgName = "bg_story_nepu1",
-			actor = 107091,
+			actor = 107090,
 			dir = 1,
 			nameColor = "#a9f548",
 			hideOther = true,
@@ -133,7 +133,7 @@ return {
 			subActors = {
 				{
 					dir = 1,
-					actor = 107061,
+					actor = 107060,
 					pos = {
 						x = 687
 					}
@@ -148,7 +148,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 107071,
+			actor = 107070,
 			nameColor = "#a9f548",
 			say = "おお…めっちゃ盛り上がってるね～",
 			effects = {
@@ -167,7 +167,7 @@ return {
 			}
 		},
 		{
-			actor = 107051,
+			actor = 107050,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -187,7 +187,7 @@ return {
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			soundeffect = "event:/battle/plane",
-			actor = 107091,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "これでどうです！",
 			typewriter = {
@@ -205,7 +205,7 @@ return {
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
-			actor = 107061,
+			actor = 107060,
 			say = "悪くない！だがまだ甘い！",
 			flashN = {
 				color = {
@@ -254,7 +254,7 @@ return {
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
-			actor = 107091,
+			actor = 107090,
 			say = "先輩の攻撃こそ予測済みです！次はこっちの番！",
 			flashN = {
 				color = {
@@ -328,7 +328,7 @@ return {
 			}
 		},
 		{
-			actor = 107051,
+			actor = 107050,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -344,7 +344,7 @@ return {
 			}
 		},
 		{
-			actor = 107071,
+			actor = 107070,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -360,7 +360,7 @@ return {
 			}
 		},
 		{
-			actor = 107061,
+			actor = 107060,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -376,7 +376,7 @@ return {
 			}
 		},
 		{
-			actor = 107061,
+			actor = 107060,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -392,7 +392,7 @@ return {
 			}
 		},
 		{
-			actor = 107091,
+			actor = 107090,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -408,7 +408,7 @@ return {
 			}
 		},
 		{
-			actor = 107061,
+			actor = 107060,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -424,7 +424,7 @@ return {
 			}
 		},
 		{
-			actor = 107091,
+			actor = 107090,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -440,7 +440,7 @@ return {
 			}
 		},
 		{
-			actor = 107091,
+			actor = 107090,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",

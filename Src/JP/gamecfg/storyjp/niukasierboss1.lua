@@ -20,7 +20,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			bgName = "star_level_bg_107",
-			actor = 205011,
+			actor = 205010,
 			dir = 1,
 			stopbgm = true,
 			say = "ベル、いい？今回の任務、失敗は許さないわ！",
@@ -40,7 +40,7 @@ return {
 			}
 		},
 		{
-			actor = 205011,
+			actor = 205010,
 			side = 2,
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
@@ -56,7 +56,7 @@ return {
 			}
 		},
 		{
-			actor = 205011,
+			actor = 205010,
 			side = 2,
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
@@ -76,7 +76,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			actor = 202121,
+			actor = 202120,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -102,7 +102,7 @@ return {
 			}
 		},
 		{
-			actor = 202121,
+			actor = 202120,
 			side = 0,
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
@@ -121,7 +121,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			actor = 205011,
+			actor = 205010,
 			nameColor = "#a9f548",
 			say = "……………ふ、ふん！それぐらいはわかっているわ！",
 			typewriter = {
@@ -147,7 +147,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			actor = 205011,
+			actor = 205010,
 			nameColor = "#a9f548",
 			say = "え、ええと、負けも勝ちも許さないわよ！",
 			typewriter = {
@@ -173,7 +173,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			actor = 202121,
+			actor = 202120,
 			nameColor = "#a9f548",
 			say = "かしこまりました",
 			typewriter = {
@@ -196,7 +196,7 @@ return {
 			}
 		},
 		{
-			actor = 205011,
+			actor = 205010,
 			side = 1,
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
@@ -212,7 +212,7 @@ return {
 			}
 		},
 		{
-			actor = 202121,
+			actor = 202120,
 			side = 0,
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
@@ -263,7 +263,7 @@ return {
 			}
 		},
 		{
-			actor = 202121,
+			actor = 202120,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -279,7 +279,7 @@ return {
 			}
 		},
 		{
-			actor = 203031,
+			actor = 203030,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -300,7 +300,7 @@ return {
 			bgName = "bg_story_nepu1",
 			say = "ケント……はあ、はあ……走るのが早いよぉ……",
 			dir = 1,
-			actor = 203041,
+			actor = 203040,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -326,7 +326,7 @@ return {
 			}
 		},
 		{
-			actor = 202121,
+			actor = 202120,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -346,7 +346,7 @@ return {
 			side = 1,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 202081,
+			actor = 202080,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -362,7 +362,7 @@ return {
 			}
 		},
 		{
-			actor = 202121,
+			actor = 202120,
 			side = 0,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -378,7 +378,7 @@ return {
 			}
 		},
 		{
-			actor = 202111,
+			actor = 202110,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -394,7 +394,7 @@ return {
 			}
 		},
 		{
-			actor = 202121,
+			actor = 202120,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -410,7 +410,7 @@ return {
 			}
 		},
 		{
-			actor = 202121,
+			actor = 202120,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -426,7 +426,7 @@ return {
 			}
 		},
 		{
-			actor = 202121,
+			actor = 202120,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -442,7 +442,7 @@ return {
 			}
 		},
 		{
-			actor = 202121,
+			actor = 202120,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -461,7 +461,7 @@ return {
 			actorName = "メイドたち",
 			side = 0,
 			bgName = "bg_story_nepu1",
-			actor = 203031,
+			actor = 203030,
 			dir = 1,
 			hideOther = true,
 			nameColor = "#a9f548",
@@ -474,13 +474,13 @@ return {
 			},
 			subActors = {
 				{
-					actor = 203041,
+					actor = 203040,
 					pos = {
 						x = 370
 					}
 				},
 				{
-					actor = 202111,
+					actor = 202110,
 					pos = {
 						x = 750
 					}
@@ -499,7 +499,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 202121,
+			actor = 202120,
 			nameColor = "#a9f548",
 			say = "では、ご主人様に少し痛い目に会ってもらうとしましょう",
 			effects = {
@@ -524,7 +524,7 @@ return {
 			blackBg = true,
 			side = 2,
 			stopbgm = true,
-			actor = 900131,
+			actor = 202190,
 			nameColor = "#a9f548",
 			bgName = "bg_story_nepu1",
 			say = "私がいなくなった後のロイヤルメイド隊……少し楽しみです。ふふふ",

@@ -70,7 +70,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "指揮官！",
 			typewriter = {
@@ -93,7 +93,7 @@ return {
 			}
 		},
 		{
-			actor = 108021,
+			actor = 108020,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -133,7 +133,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "指揮官、もしかして――ここ最近はアルバコアのことをストーキングしてた？",
 			typewriter = {
@@ -161,7 +161,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			optionFlag = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "あーやっぱりーそうなんだー。",
 			typewriter = {
@@ -179,7 +179,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			optionFlag = 2,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "指揮官～ウソはダメだよ～",
 			typewriter = {
@@ -202,7 +202,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "へへへ～このことが母港のみんなに知られたら～",
 			typewriter = {
@@ -219,7 +219,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "「ふん！やっぱりヘンタイ指揮官だな！」「そ、そんな、閣下はどうしてこんなことを…！まさか私と……」「指揮官様はやっぱりバラバラにしてそばに置いたほうがいいですわ……」",
 			typewriter = {
@@ -245,7 +245,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "とにかく、指揮官は何をすればいいと思う？",
 			typewriter = {
@@ -268,7 +268,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "なるほど……この前の話は置いといて、人間関係について心配してくれてるんだね。",
 			typewriter = {
@@ -281,7 +281,7 @@ return {
 			}
 		},
 		{
-			actor = 108021,
+			actor = 108020,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -301,7 +301,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "一つは…今あたしちょっと疲れてるから、指揮官の太ももで午後はまるごと昼寝させてほしいな～…そしたらあたしまた元気になれるかも！",
 			typewriter = {
@@ -328,7 +328,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "もう一つは…保留！思いついたらまた教えてあげる！へっへっへ～",
 			typewriter = {
@@ -355,7 +355,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "うん？午後はお仕事？ふむふむ……あたしは知らないぞ～",
 			typewriter = {

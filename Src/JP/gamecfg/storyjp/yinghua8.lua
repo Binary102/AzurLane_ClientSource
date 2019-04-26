@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 301491,
+			actor = 301490,
 			side = 2,
 			dir = 0,
 			say = "さすがは武勲艦、すごい実力だ。",
@@ -21,7 +21,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			side = 2,
 			dir = 0,
 			say = "もう、知り合いだからってここまでやらなくてもいいのに…",
@@ -35,7 +35,7 @@ return {
 			}
 		},
 		{
-			actor = 301491,
+			actor = 301490,
 			side = 2,
 			dir = 0,
 			say = "その通りだが、つい戦士の本能に唆されて強い相手と戦いたくなってしまってな。",
@@ -49,7 +49,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			side = 2,
 			dir = 0,
 			say = "わかったわかった……じゃあ約束通り案内してくれる？",
@@ -63,7 +63,7 @@ return {
 			}
 		},
 		{
-			actor = 301491,
+			actor = 301490,
 			side = 2,
 			dir = 0,
 			say = "無論だ。あなたたちなら長門のことを安心して任せられる。",
@@ -126,7 +126,7 @@ return {
 			}
 		},
 		{
-			actor = 301491,
+			actor = 301490,
 			side = 2,
 			bgName = "bg_story_nagato3",
 			dir = 0,
@@ -141,7 +141,7 @@ return {
 			}
 		},
 		{
-			actor = 301491,
+			actor = 301490,
 			side = 2,
 			bgName = "bg_story_nagato3",
 			dir = 0,
@@ -156,7 +156,7 @@ return {
 			}
 		},
 		{
-			actor = 301491,
+			actor = 301490,
 			side = 2,
 			bgName = "bg_story_nagato3",
 			dir = 0,
@@ -171,7 +171,7 @@ return {
 			}
 		},
 		{
-			actor = 301491,
+			actor = 301490,
 			side = 2,
 			bgName = "bg_story_nagato3",
 			dir = 0,
@@ -186,7 +186,7 @@ return {
 			}
 		},
 		{
-			actor = 305111,
+			actor = 305110,
 			side = 2,
 			bgName = "bg_story_nagato3",
 			dir = 0,

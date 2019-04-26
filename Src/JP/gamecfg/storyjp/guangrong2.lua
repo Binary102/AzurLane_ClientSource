@@ -28,7 +28,7 @@ return {
 			}
 		},
 		{
-			actor = 107024,
+			actor = 107020,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -47,7 +47,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 207064,
+			actor = 207060,
 			nameColor = "#a9f548",
 			say = "はい！空母運用に長けるユニオンの機動部隊、ぜひ勉強させていただきます！",
 			typewriter = {
@@ -72,7 +72,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 107034,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "そうそう！このサラトガちゃんが空母運用のお手本を見せてあげるわ♪",
 			typewriter = {
@@ -98,7 +98,7 @@ return {
 			side = 0,
 			bgName = "bg_story_nepu1",
 			dir = -1,
-			actor = 207034,
+			actor = 207030,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -114,7 +114,7 @@ return {
 			}
 		},
 		{
-			actor = 107024,
+			actor = 107020,
 			side = 1,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -133,7 +133,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 207064,
+			actor = 207060,
 			nameColor = "#a9f548",
 			say = "艦載機の搭載数は負けていますが、38.1cm砲をもって砲撃戦に持ち込めれば…あ、あれ？私は空母ですよね……",
 			flashout = {
@@ -166,7 +166,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 207064,
+			actor = 207060,
 			nameColor = "#a9f548",
 			say = "って、なんで私は一人で前に突き進んでるのですかー！",
 			typewriter = {
@@ -192,7 +192,7 @@ return {
 			side = 1,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 207034,
+			actor = 207030,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -235,7 +235,7 @@ return {
 			}
 		},
 		{
-			actor = 107034,
+			actor = 107030,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -251,7 +251,7 @@ return {
 			}
 		},
 		{
-			actor = 107034,
+			actor = 107030,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -271,7 +271,7 @@ return {
 			side = 0,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 207064,
+			actor = 207060,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -287,7 +287,7 @@ return {
 			}
 		},
 		{
-			actor = 207034,
+			actor = 207030,
 			side = 1,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -306,7 +306,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 207064,
+			actor = 207060,
 			nameColor = "#a9f548",
 			say = "すみません、みなさんにご迷惑をおかけしまして……",
 			typewriter = {
@@ -332,7 +332,7 @@ return {
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			blackBg = true,
-			actor = 207064,
+			actor = 207060,
 			nameColor = "#a9f548",
 			say = "そう言えば、アーク・ロイヤルさんはまだ来ていないのですか？今日は少し遅れて参加すると聞いていましたけど…",
 			typewriter = {

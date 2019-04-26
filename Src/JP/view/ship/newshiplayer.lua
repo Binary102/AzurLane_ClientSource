@@ -127,6 +127,10 @@ function slot0.setShip(slot0, slot1)
 	if slot0._shipVO.virgin and not slot0.isRemoulded and not slot0._shipVO:isActivityNpc() then
 		setActive(slot0.newTF, true)
 		LoadImageSpriteAsync("clutter/new", slot0.newTF)
+
+		if OPEN_TEC_TREE_SYSTEM and table.indexof(pg.fleet_tech_ship_template.all, slot0._shipVO.groupId, 1) then
+			pg.TecToastMgr:GetInstance():tryShow(pg.fleet_tech_ship_template[slot0._shipVO.groupId].pt_get, pg.fleet_tech_ship_template[slot0._shipVO.groupId].add_get_shiptype, pg.fleet_tech_ship_template[slot0._shipVO.groupId].add_get_attr, pg.fleet_tech_ship_template[slot0._shipVO.groupId].add_get_value)
+		end
 	else
 		setActive(slot0.newTF, false)
 	end
@@ -201,8 +205,12 @@ function slot0.setShip(slot0, slot1)
 
 	slot0.nationTF = slot0._shake:Find((slot2 and slot6 == ShipRarity.SSR and "half_nation") or "nation")
 
-	if slot6 == 16 then
-		setActive(slot0.nationTF:Find(nation2print(slot3.nationality)), true)
+	if slot2 and slot6 == ShipRarity.SSR then
+		slot12 = nation2print(slot3.nationality)
+
+		eachChild(slot0.nationTF, function (slot0)
+			setActive(slot0, slot0.name == slot0)
+		end)
 	elseif not LoadSprite("prints/" .. nation2print(slot3.nationality) .. ((slot2 and "") or "_1")) then
 		warning("找不到印花, shipConfigId: " .. slot0._shipVO.configId)
 	else
@@ -393,7 +401,11 @@ function slot0.didEnter(slot0)
 		slot0:emit(NewShipMediator.ON_EVALIATION, slot0._shipVO:getGroupId())
 	end, SFX_PANEL)
 	onButton(slot0, slot0._shareBtn, function ()
-		pg.ShareMgr.GetInstance():Share(pg.ShareMgr.TypeNewShip)
+		if slot0._shipVO:isBluePrintShip() and slot0._shipVO:getRarity() == ShipRarity.SSR then
+			pg.ShareMgr.GetInstance():Share(pg.ShareMgr.TypeNewShipDesignSSR)
+		else
+			pg.ShareMgr.GetInstance():Share(pg.ShareMgr.TypeNewShip)
+		end
 	end, SFX_PANEL)
 	onButton(slot0, slot0.clickTF, function ()
 		if slot0.isInView or not slot0.isLoadBg then
@@ -676,7 +688,9 @@ function slot0.willExit(slot0)
 	cameraPaintViewAdjust(false)
 
 	for slot4, slot5 in ipairs(slot0.hideParentList) do
-		setActive(slot5, true)
+		if not IsNil(slot5) then
+			setActive(slot5, true)
+		end
 	end
 
 	return

@@ -50,7 +50,7 @@ return {
 			}
 		},
 		{
-			actor = 307071,
+			actor = 307070,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -71,7 +71,7 @@ return {
 			say = "サプラ～イズ！！",
 			dir = 1,
 			bgName = "bg_story_task",
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			actorPosition = {
 				x = 0,
@@ -100,7 +100,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 307071,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "きゃああああ！あ、あああアルバコア！？",
 			typewriter = {
@@ -127,7 +127,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "がははははは！いまのびっくりした？",
 			typewriter = {
@@ -164,7 +164,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 307071,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "またあなたね……！",
 			typewriter = {
@@ -191,7 +191,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -211,7 +211,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 307071,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "おかげさまでスッキリしていますわ！",
 			typewriter = {
@@ -228,7 +228,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "そうそう、新しいゲームを見つけたんだけど、今日一緒に遊んでみない？",
 			typewriter = {
@@ -245,7 +245,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 307071,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "大鳳は秘書艦として指揮官様に仕えていますわ。あなたのゲームに付き合う暇など――",
 			typewriter = {
@@ -262,7 +262,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "えーじゃあ指揮官にも一緒にやってもらえばいいじゃん～ねえねえ～",
 			typewriter = {
@@ -289,7 +289,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 307071,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "（こいつ、小さいことを利用して指揮官様にねだりやがって…！）",
 			typewriter = {
@@ -306,7 +306,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 307071,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "わかりましたわ！考えておきます",
 			typewriter = {
@@ -332,7 +332,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "ナイス！じゃあまた来るね？指揮官、大鳳、ばいばーい！",
 			typewriter = {
@@ -368,7 +368,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 307071,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "仲がいい？あの子と？まあ、悪くはありませんけど？",
 			typewriter = {
@@ -395,7 +395,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 307071,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "だいたいあの子いつも好き勝手にやってきて、人のことを散々引っ張りまわして……",
 			typewriter = {
@@ -412,7 +412,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 307071,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "しかも指揮官様まで巻き込んで…本当にもうわけがわかりませんわ！",
 			typewriter = {

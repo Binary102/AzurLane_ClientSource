@@ -46,7 +46,7 @@ return {
 			}
 		},
 		{
-			actor = 102121,
+			actor = 102120,
 			side = 2,
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
@@ -66,7 +66,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_104",
 			dir = 1,
-			actor = 202011,
+			actor = 202010,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -85,7 +85,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_104",
 			dir = 1,
-			actor = 102121,
+			actor = 102120,
 			nameColor = "#a9f548",
 			say = "……ってなんで指揮官がいるの？",
 			typewriter = {
@@ -104,7 +104,7 @@ return {
 			}
 		},
 		{
-			actor = 102121,
+			actor = 102120,
 			side = 0,
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
@@ -120,7 +120,7 @@ return {
 			}
 		},
 		{
-			actor = 202011,
+			actor = 202010,
 			side = 1,
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
@@ -136,7 +136,7 @@ return {
 			}
 		},
 		{
-			actor = 102121,
+			actor = 102120,
 			side = 0,
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
@@ -162,7 +162,7 @@ return {
 			}
 		},
 		{
-			actor = 202011,
+			actor = 202010,
 			side = 2,
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
@@ -191,7 +191,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_104",
 			dir = 1,
-			actor = 202011,
+			actor = 202010,
 			nameColor = "#a9f548",
 			say = "……そういえば、ホノルルさんは普段ほかの方々とあまりお付き合いをしていないようですね",
 			flashout = {
@@ -221,7 +221,7 @@ return {
 			}
 		},
 		{
-			actor = 102121,
+			actor = 102120,
 			side = 2,
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
@@ -245,7 +245,7 @@ return {
 			}
 		},
 		{
-			actor = 202011,
+			actor = 202010,
 			side = 2,
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
@@ -265,7 +265,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_104",
 			dir = 1,
-			actor = 102121,
+			actor = 102120,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -291,7 +291,7 @@ return {
 			}
 		},
 		{
-			actor = 202011,
+			actor = 202010,
 			side = 1,
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
@@ -307,7 +307,7 @@ return {
 			}
 		},
 		{
-			actor = 202011,
+			actor = 202010,
 			side = 1,
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
@@ -323,7 +323,7 @@ return {
 			}
 		},
 		{
-			actor = 202011,
+			actor = 202010,
 			side = 1,
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
@@ -339,7 +339,7 @@ return {
 			}
 		},
 		{
-			actor = 102121,
+			actor = 102120,
 			side = 0,
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
@@ -375,7 +375,7 @@ return {
 			}
 		},
 		{
-			actor = 102121,
+			actor = 102120,
 			side = 2,
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
@@ -391,7 +391,7 @@ return {
 			}
 		},
 		{
-			actor = 102121,
+			actor = 102120,
 			side = 2,
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",

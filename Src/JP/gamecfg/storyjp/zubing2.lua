@@ -21,7 +21,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 303091,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "え？秘書艦ですか？わ、私が？",
 			flashout = {
@@ -62,7 +62,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 303091,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "これはきっと指揮官殿の信頼の証……はい！一生懸命務められるよう努力します！",
 			typewriter = {
@@ -118,7 +118,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 303091,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "指揮官殿、今月の軍事委託のレポートはこちらになります",
 			typewriter = {
@@ -135,7 +135,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 303091,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "……ひ、日付順で並べ替える必要があるのですか？",
 			typewriter = {
@@ -148,7 +148,7 @@ return {
 			}
 		},
 		{
-			actor = 303091,
+			actor = 303090,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -167,7 +167,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 303091,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "指揮官殿、あの、お茶でも――",
 			flashout = {
@@ -201,7 +201,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 303091,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "え……",
 			typewriter = {
@@ -228,7 +228,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 303091,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "す、すみませんこぼしてしまいました！今片付けます！ティッシュ、ええと、ティッシュは……",
 			typewriter = {
@@ -255,7 +255,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgName = "bg_story_task",
-			actor = 303091,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "おかしいですね…確かサインペンはここにおいたはず……",
 			flashout = {
@@ -285,7 +285,7 @@ return {
 			}
 		},
 		{
-			actor = 303091,
+			actor = 303090,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -305,7 +305,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 303091,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "………",
 			typewriter = {
@@ -322,7 +322,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 303091,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "ありました！一体どうしてこんな所に……",
 			typewriter = {
@@ -339,7 +339,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 303091,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "しまった！机の上に置いた書類が……！？さっきサインペンを探してた時にズレて――",
 			typewriter = {
@@ -398,7 +398,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 303091,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "え？……もうこんな時間ですか！？",
 			typewriter = {
@@ -411,7 +411,7 @@ return {
 			}
 		},
 		{
-			actor = 303091,
+			actor = 303090,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -431,7 +431,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 303091,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "（くっ……次こそは……！）",
 			typewriter = {

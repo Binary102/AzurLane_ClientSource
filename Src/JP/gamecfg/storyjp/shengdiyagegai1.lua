@@ -49,7 +49,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 102081,
+			actor = 102080,
 			nameColor = "#a9f548",
 			say = "～♪～♪",
 			typewriter = {
@@ -75,7 +75,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 102081,
+			actor = 102080,
 			nameColor = "#a9f548",
 			say = "サンディエゴ、今日も元気マ～～ックス！へいへい～あれ？あそこにいるのは……",
 			typewriter = {
@@ -102,7 +102,7 @@ return {
 			side = 0,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 900124,
+			actor = 107039,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -118,7 +118,7 @@ return {
 			}
 		},
 		{
-			actor = 107021,
+			actor = 107020,
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -134,7 +134,7 @@ return {
 			}
 		},
 		{
-			actor = 900124,
+			actor = 107039,
 			side = 0,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -150,7 +150,7 @@ return {
 			}
 		},
 		{
-			actor = 102081,
+			actor = 102080,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -170,7 +170,7 @@ return {
 			side = 0,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 900124,
+			actor = 107039,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -186,7 +186,7 @@ return {
 			}
 		},
 		{
-			actor = 107021,
+			actor = 107020,
 			side = 0,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -202,7 +202,7 @@ return {
 			}
 		},
 		{
-			actor = 102081,
+			actor = 102080,
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -218,7 +218,7 @@ return {
 			}
 		},
 		{
-			actor = 900124,
+			actor = 107039,
 			side = 0,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -234,7 +234,7 @@ return {
 			}
 		},
 		{
-			actor = 102081,
+			actor = 102080,
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -250,7 +250,7 @@ return {
 			}
 		},
 		{
-			actor = 900124,
+			actor = 107039,
 			side = 0,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -269,7 +269,7 @@ return {
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 102081,
+			actor = 102080,
 			nameColor = "#a9f548",
 			say = "おおお…よくわかんないけど、なんかすごーい！",
 			typewriter = {
@@ -295,7 +295,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 900124,
+			actor = 107039,
 			nameColor = "#a9f548",
 			say = "ハッハッハッハッ！サラトガちゃん、新しいいたず……じゃなくて、新しい力を試しに～Let's  GO！",
 			typewriter = {
@@ -320,7 +320,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 107021,
+			actor = 107020,
 			nameColor = "#a9f548",
 			say = "もう、あまり走っちゃだめよ――この子ったら……サンディエゴは学んじゃダメだからね？",
 			typewriter = {
@@ -343,7 +343,7 @@ return {
 			}
 		},
 		{
-			actor = 102081,
+			actor = 102080,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",

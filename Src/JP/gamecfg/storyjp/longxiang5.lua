@@ -50,7 +50,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 306061,
+			actor = 306060,
 			nameColor = "#a9f548",
 			say = "や、やっぱり悔しいです……あのような粗相を殿に見られたなど武士の恥…！",
 			typewriter = {
@@ -67,7 +67,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 306061,
+			actor = 306060,
 			nameColor = "#a9f548",
 			say = "くっ…！よもやここまで悩まされるとは……！",
 			typewriter = {
@@ -104,7 +104,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 306061,
+			actor = 306060,
 			nameColor = "#a9f548",
 			say = "このままでは秘書艦どころか軍人としての業務もままならないではありませんか…！",
 			typewriter = {
@@ -140,7 +140,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 306061,
+			actor = 306060,
 			nameColor = "#a9f548",
 			say = "ええい、綾波から勧められた「げーむ」とやらをやり込むことすら出来ず…！",
 			typewriter = {
@@ -167,7 +167,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 306061,
+			actor = 306060,
 			nameColor = "#a9f548",
 			say = "思えば、最近全然本調子にはなれていませんね…",
 			typewriter = {
@@ -180,7 +180,7 @@ return {
 			}
 		},
 		{
-			actor = 306061,
+			actor = 306060,
 			side = 2,
 			dir = 1,
 			bgName = "bg_story_task",
@@ -233,7 +233,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgName = "bg_story_outdoor",
-			actor = 306061,
+			actor = 306060,
 			nameColor = "#a9f548",
 			say = "来たな！グレイゴースト！元一航戦に参列した者として仇を取ってくれる！",
 			flashout = {
@@ -263,7 +263,7 @@ return {
 			}
 		},
 		{
-			actor = 306061,
+			actor = 306060,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -283,7 +283,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 306061,
+			actor = 306060,
 			nameColor = "#a9f548",
 			say = "痛っ！……ひ、被弾判定！？そんな！",
 			typewriter = {
@@ -310,7 +310,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgName = "star_level_bg_103",
-			actor = 306061,
+			actor = 306060,
 			nameColor = "#a9f548",
 			say = "イラストリアスさん、殿との買い出しで使う可愛らしい服がほしいって言い出したのは自分ですけど……",
 			flashout = {
@@ -343,7 +343,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 306061,
+			actor = 306060,
 			nameColor = "#a9f548",
 			say = "い、いくらなんでもこのようなふわふわな服は……！",
 			typewriter = {
@@ -369,7 +369,7 @@ return {
 			expression = 3,
 			side = 2,
 			dir = 1,
-			actor = 306061,
+			actor = 306060,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			say = "自分は一体どうなっているのだろう………",

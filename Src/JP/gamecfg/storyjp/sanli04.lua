@@ -58,7 +58,7 @@ return {
 			}
 		},
 		{
-			actor = 307054,
+			actor = 307050,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -74,7 +74,7 @@ return {
 			}
 		},
 		{
-			actor = 307064,
+			actor = 307060,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
@@ -90,7 +90,7 @@ return {
 			}
 		},
 		{
-			actor = 307064,
+			actor = 307060,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
@@ -111,7 +111,7 @@ return {
 			bgName = "bg_story_mikasa",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 307054,
+			actor = 307050,
 			actorName = "{namecode:95}&{namecode:96}",
 			say = "！！…かつて連合艦隊の旗艦を務めた「軍神」――",
 			effects = {
@@ -135,7 +135,7 @@ return {
 			bgName = "bg_story_mikasa",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 307054,
+			actor = 307050,
 			mode = 3,
 			say = "<size=35>三笠！！</size>",
 			dialogShake = {
@@ -159,7 +159,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 305114,
+			actor = 305110,
 			mode = 3,
 			say = "さあ、我が重桜の根性を見せてやれ！戦いはまだまだこれからだ！！",
 			typewriter = {
@@ -176,7 +176,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 305114,
+			actor = 305110,
 			mode = 3,
 			say = "天は正義に与し、神は至誠に感ず",
 			typewriter = {
@@ -193,7 +193,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 305114,
+			actor = 305110,
 			mode = 3,
 			say = "我が正義で未来を導き、我が至誠で大義を照らし出さん！",
 			typewriter = {
@@ -210,7 +210,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 305114,
+			actor = 305110,
 			mode = 3,
 			say = "諸君！我が世界の興廃はこの一戦にあり！！",
 			typewriter = {
@@ -227,7 +227,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 305114,
+			actor = 305110,
 			mode = 3,
 			say = "「本日天気晴朗ナレドモ浪高シ」",
 			typewriter = {
@@ -244,7 +244,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 305114,
+			actor = 305110,
 			mode = 3,
 			say = "新生連合艦隊・旗艦「三笠」",
 			typewriter = {
@@ -261,7 +261,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 305114,
+			actor = 305110,
 			mode = 3,
 			say = "推して参る！！",
 			typewriter = {

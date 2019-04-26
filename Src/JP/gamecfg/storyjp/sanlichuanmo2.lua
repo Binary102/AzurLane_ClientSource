@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			actor = 305111,
+			actor = 305110,
 			nameColor = "#a9f548",
 			say = "たまげたものだ……",
 			flashout = {
@@ -52,7 +52,7 @@ return {
 			}
 		},
 		{
-			actor = 305111,
+			actor = 305110,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -68,7 +68,7 @@ return {
 			}
 		},
 		{
-			actor = 305111,
+			actor = 305110,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -84,7 +84,7 @@ return {
 			}
 		},
 		{
-			actor = 301321,
+			actor = 301320,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -103,7 +103,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 301321,
+			actor = 301320,
 			nameColor = "#a9f548",
 			say = "三笠だいせんぱい、ごめんなさい……睦月わるいことしちゃったよぉ……",
 			typewriter = {
@@ -130,7 +130,7 @@ return {
 			side = 1,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 305111,
+			actor = 305110,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -149,7 +149,7 @@ return {
 			side = 0,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 301321,
+			actor = 301320,
 			nameColor = "#a9f548",
 			say = "くすぐったい……あははは",
 			typewriter = {
@@ -180,7 +180,7 @@ return {
 			}
 		},
 		{
-			actor = 301321,
+			actor = 301320,
 			side = 0,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -196,7 +196,7 @@ return {
 			}
 		},
 		{
-			actor = 305111,
+			actor = 305110,
 			side = 1,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -215,7 +215,7 @@ return {
 			side = 0,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 301321,
+			actor = 301320,
 			nameColor = "#a9f548",
 			say = "……睦月、睦月はわるいことしちゃったから……ぜったいになんとかする！",
 			typewriter = {
@@ -241,7 +241,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 301321,
+			actor = 301320,
 			nameColor = "#a9f548",
 			say = "よいっしょ、よいっしょ……睦月もはこぶのてつだう！",
 			flashout = {
@@ -285,7 +285,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 307051,
+			actor = 307050,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -301,7 +301,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			side = 0,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -317,7 +317,7 @@ return {
 			}
 		},
 		{
-			actor = 301321,
+			actor = 301320,
 			side = 0,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -363,7 +363,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 301321,
+			actor = 301320,
 			nameColor = "#a9f548",
 			say = "ほしゅうも睦月、てつだうよ！",
 			typewriter = {
@@ -390,7 +390,7 @@ return {
 			side = 1,
 			bgName = "bg_story_school",
 			dir = -1,
-			actor = 304021,
+			actor = 304020,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -406,7 +406,7 @@ return {
 			}
 		},
 		{
-			actor = 301321,
+			actor = 301320,
 			side = 0,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -422,7 +422,7 @@ return {
 			}
 		},
 		{
-			actor = 304021,
+			actor = 304020,
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -441,7 +441,7 @@ return {
 			side = 0,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 301321,
+			actor = 301320,
 			nameColor = "#a9f548",
 			say = "かむかむ――みかんのアメさん、おいしい！",
 			typewriter = {
@@ -468,7 +468,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 301321,
+			actor = 301320,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -511,7 +511,7 @@ return {
 			}
 		},
 		{
-			actor = 301331,
+			actor = 301330,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -531,7 +531,7 @@ return {
 			side = 0,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 301371,
+			actor = 301370,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -550,7 +550,7 @@ return {
 			side = 1,
 			bgName = "bg_story_school",
 			dir = -1,
-			actor = 301351,
+			actor = 301350,
 			nameColor = "#a9f548",
 			say = "は……はやいよぉ……つかれたぁ……",
 			typewriter = {
@@ -573,7 +573,7 @@ return {
 			}
 		},
 		{
-			actor = 301321,
+			actor = 301320,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -589,7 +589,7 @@ return {
 			}
 		},
 		{
-			actor = 301321,
+			actor = 301320,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -609,7 +609,7 @@ return {
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 301331,
+			actor = 301330,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -625,7 +625,7 @@ return {
 			}
 		},
 		{
-			actor = 301321,
+			actor = 301320,
 			side = 0,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -646,18 +646,18 @@ return {
 			bgName = "bg_story_school",
 			hideOther = true,
 			dir = 1,
-			actor = 301331,
+			actor = 301330,
 			actorName = "{namecode:133}&{namecode:137}&{namecode:34}",
 			say = "おーー！",
 			subActors = {
 				{
-					actor = 301371,
+					actor = 301370,
 					pos = {
 						x = -750
 					}
 				},
 				{
-					actor = 301351,
+					actor = 301350,
 					pos = {
 						x = -370
 					}

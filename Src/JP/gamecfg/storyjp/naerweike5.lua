@@ -10,7 +10,7 @@ return {
 			side = 1,
 			dir = 1,
 			bgm = "battle-boss-1",
-			actor = 401191,
+			actor = 401190,
 			nameColor = "#ff5c5c",
 			say = "一体どうやってここに！？",
 			typewriter = {
@@ -37,7 +37,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			actor = 201161,
+			actor = 201160,
 			say = "ふん！そんなの哨戒をやってた子たちにでも聞きなさい！",
 			typewriter = {
 				speed = 0.05,
@@ -49,7 +49,7 @@ return {
 			}
 		},
 		{
-			actor = 401191,
+			actor = 401190,
 			side = 1,
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -77,7 +77,7 @@ return {
 			expression = 2,
 			side = 2,
 			dir = 1,
-			actor = 201201,
+			actor = 201200,
 			nameColor = "#a9f548",
 			say = "雪で視界がほぼ0になってる…ハーディ！",
 			typewriter = {
@@ -103,7 +103,7 @@ return {
 			side = 0,
 			hideOther = true,
 			dir = 1,
-			actor = 201161,
+			actor = 201160,
 			nameColor = "#a9f548",
 			say = "うん！",
 			typewriter = {
@@ -129,7 +129,7 @@ return {
 			nameColor = "#ff5c5c",
 			side = 1,
 			dir = 1,
-			actor = 401191,
+			actor = 401190,
 			say = "くっ、雪でなにも見えない…！",
 			typewriter = {
 				speed = 0.05,
@@ -141,7 +141,7 @@ return {
 			}
 		},
 		{
-			actor = 401181,
+			actor = 401180,
 			side = 0,
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -156,7 +156,7 @@ return {
 			}
 		},
 		{
-			actor = 401191,
+			actor = 401190,
 			side = 1,
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -171,7 +171,7 @@ return {
 			}
 		},
 		{
-			actor = 401181,
+			actor = 401180,
 			side = 0,
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -186,7 +186,7 @@ return {
 			}
 		},
 		{
-			actor = 401181,
+			actor = 401180,
 			side = 0,
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -201,7 +201,7 @@ return {
 			}
 		},
 		{
-			actor = 401191,
+			actor = 401190,
 			side = 1,
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -226,7 +226,7 @@ return {
 			}
 		},
 		{
-			actor = 401181,
+			actor = 401180,
 			side = 0,
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -241,7 +241,7 @@ return {
 			}
 		},
 		{
-			actor = 401181,
+			actor = 401180,
 			side = 0,
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -256,7 +256,7 @@ return {
 			}
 		},
 		{
-			actor = 401191,
+			actor = 401190,
 			side = 1,
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -271,7 +271,7 @@ return {
 			}
 		},
 		{
-			actor = 401181,
+			actor = 401180,
 			side = 0,
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -286,7 +286,7 @@ return {
 			}
 		},
 		{
-			actor = 401191,
+			actor = 401190,
 			side = 1,
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -301,7 +301,7 @@ return {
 			}
 		},
 		{
-			actor = 401181,
+			actor = 401180,
 			side = 0,
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -316,7 +316,7 @@ return {
 			}
 		},
 		{
-			actor = 401181,
+			actor = 401180,
 			side = 0,
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -331,7 +331,7 @@ return {
 			}
 		},
 		{
-			actor = 401191,
+			actor = 401190,
 			side = 1,
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -346,7 +346,7 @@ return {
 			}
 		},
 		{
-			actor = 401181,
+			actor = 401180,
 			side = 0,
 			nameColor = "#ff5c5c",
 			dir = 1,

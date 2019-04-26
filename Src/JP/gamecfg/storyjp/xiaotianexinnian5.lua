@@ -50,7 +50,7 @@ return {
 			}
 		},
 		{
-			actor = 900063,
+			actor = 312011,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -66,7 +66,7 @@ return {
 			}
 		},
 		{
-			actor = 900064,
+			actor = 307031,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -82,7 +82,7 @@ return {
 			}
 		},
 		{
-			actor = 900064,
+			actor = 307031,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -101,7 +101,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 900063,
+			actor = 312011,
 			nameColor = "#a9f548",
 			say = "こうなったら……新しく準備した衣装をみんなに着てもらうしかないにゃ！",
 			typewriter = {
@@ -124,7 +124,7 @@ return {
 			}
 		},
 		{
-			actor = 102141,
+			actor = 102140,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -143,7 +143,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 900155,
+			actor = 102132,
 			nameColor = "#a9f548",
 			say = "重桜風の衣装……確か「キモノ」って名前かしら？うふふ……なかなか豪勢な素材を使っているわね",
 			flashout = {
@@ -177,7 +177,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 900160,
+			actor = 201103,
 			nameColor = "#a9f548",
 			say = "わあぁ……この衣装……思っていたのより暖かい～",
 			typewriter = {
@@ -190,7 +190,7 @@ return {
 			}
 		},
 		{
-			actor = 900157,
+			actor = 102051,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -206,7 +206,7 @@ return {
 			}
 		},
 		{
-			actor = 900151,
+			actor = 101263,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -222,7 +222,7 @@ return {
 			}
 		},
 		{
-			actor = 900153,
+			actor = 399021,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -238,7 +238,7 @@ return {
 			}
 		},
 		{
-			actor = 900152,
+			actor = 399011,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -258,7 +258,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 900154,
+			actor = 205062,
 			nameColor = "#a9f548",
 			say = "なるほど、色んな陣営の要素を融合させているのか。面白いわね。ふふふ",
 			typewriter = {
@@ -274,7 +274,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 102091,
+			actor = 102090,
 			nameColor = "#a9f548",
 			say = "…………こ、ここここれは………！？",
 			typewriter = {
@@ -300,7 +300,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 102091,
+			actor = 102090,
 			nameColor = "#a9f548",
 			say = "わ、私は急に用事が出来たから先に帰る！！！",
 			typewriter = {
@@ -322,7 +322,7 @@ return {
 			}
 		},
 		{
-			actor = 102141,
+			actor = 102140,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -338,7 +338,7 @@ return {
 			}
 		},
 		{
-			actor = 900063,
+			actor = 312011,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -357,7 +357,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 102141,
+			actor = 102140,
 			nameColor = "#a9f548",
 			say = "なっ？！",
 			typewriter = {
@@ -383,7 +383,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 900158,
+			actor = 102141,
 			nameColor = "#a9f548",
 			say = "（これが重桜の衣装か……コロンビアとデンバーが好きそうだな）",
 			flashout = {
@@ -413,7 +413,7 @@ return {
 			}
 		},
 		{
-			actor = 900063,
+			actor = 312011,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -429,7 +429,7 @@ return {
 			}
 		},
 		{
-			actor = 900158,
+			actor = 102141,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -445,7 +445,7 @@ return {
 			}
 		},
 		{
-			actor = 900063,
+			actor = 312011,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -465,7 +465,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			blackBg = true,
-			actor = 900063,
+			actor = 312011,
 			nameColor = "#a9f548",
 			say = "み、みんなもう着替えたし、早く正月料理を堪能するにゃ！",
 			typewriter = {

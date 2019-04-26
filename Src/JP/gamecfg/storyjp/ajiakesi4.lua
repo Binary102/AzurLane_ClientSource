@@ -32,7 +32,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			bgm = "story-1",
-			actor = 202031,
+			actor = 202030,
 			nameColor = "#a9f548",
 			say = "いつも思いますけど、こういう巡回をしているときに、アクシデントが欲しいものですね。",
 			typewriter = {
@@ -45,7 +45,7 @@ return {
 			}
 		},
 		{
-			actor = 202031,
+			actor = 202030,
 			nameColor = "#a9f548",
 			bgName = "bg_story_outdoor",
 			side = 2,
@@ -138,7 +138,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 403051,
+			actor = 403050,
 			nameColor = "#a9f548",
 			say = "エイジャックス……",
 			flashout = {
@@ -172,7 +172,7 @@ return {
 			side = 0,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 202031,
+			actor = 202030,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -188,7 +188,7 @@ return {
 			}
 		},
 		{
-			actor = 403051,
+			actor = 403050,
 			nameColor = "#a9f548",
 			bgName = "bg_story_outdoor",
 			side = 1,
@@ -204,7 +204,7 @@ return {
 			}
 		},
 		{
-			actor = 202031,
+			actor = 202030,
 			nameColor = "#a9f548",
 			bgName = "bg_story_outdoor",
 			side = 0,
@@ -220,7 +220,7 @@ return {
 			}
 		},
 		{
-			actor = 403051,
+			actor = 403050,
 			nameColor = "#a9f548",
 			bgName = "bg_story_outdoor",
 			side = 1,
@@ -236,7 +236,7 @@ return {
 			}
 		},
 		{
-			actor = 202031,
+			actor = 202030,
 			nameColor = "#a9f548",
 			bgName = "bg_story_outdoor",
 			side = 0,
@@ -266,7 +266,7 @@ return {
 			}
 		},
 		{
-			actor = 403051,
+			actor = 403050,
 			nameColor = "#a9f548",
 			bgName = "bg_story_outdoor",
 			side = 2,
@@ -286,7 +286,7 @@ return {
 			side = 0,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 202031,
+			actor = 202030,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -302,7 +302,7 @@ return {
 			}
 		},
 		{
-			actor = 403051,
+			actor = 403050,
 			nameColor = "#a9f548",
 			bgName = "bg_story_outdoor",
 			side = 1,
@@ -318,7 +318,7 @@ return {
 			}
 		},
 		{
-			actor = 202031,
+			actor = 202030,
 			nameColor = "#a9f548",
 			bgName = "bg_story_outdoor",
 			side = 0,
@@ -334,7 +334,7 @@ return {
 			}
 		},
 		{
-			actor = 403051,
+			actor = 403050,
 			nameColor = "#a9f548",
 			bgName = "bg_story_outdoor",
 			side = 1,
@@ -350,7 +350,7 @@ return {
 			}
 		},
 		{
-			actor = 202031,
+			actor = 202030,
 			nameColor = "#a9f548",
 			bgName = "bg_story_outdoor",
 			side = 0,

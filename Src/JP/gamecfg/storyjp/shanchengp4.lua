@@ -22,7 +22,7 @@ return {
 			bgName = "star_level_bg_101",
 			dir = 1,
 			bgm = "story-1",
-			actor = 305014,
+			actor = 305010,
 			actorName = "{namecode:78}",
 			say = "ふう……だいぶ片付きましたね……指揮官様が手伝ってくれて本当に助かりました。",
 			typewriter = {
@@ -39,7 +39,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_101",
 			dir = 1,
-			actor = 305014,
+			actor = 305010,
 			actorName = "{namecode:78}",
 			say = "山城、今日はいつも以上に転んだりしていますね…大丈夫…？",
 			typewriter = {
@@ -57,7 +57,7 @@ return {
 			bgName = "star_level_bg_101",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 305024,
+			actor = 305020,
 			actorName = "{namecode:79}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -77,7 +77,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_101",
 			dir = 1,
-			actor = 305024,
+			actor = 305020,
 			actorName = "{namecode:79}",
 			say = "掃除の合間に、山城たちと休憩室で軽く休憩した。",
 			typewriter = {
@@ -94,7 +94,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_101",
 			dir = 1,
-			actor = 305014,
+			actor = 305010,
 			actorName = "{namecode:78}",
 			say = "見た所、今日の運勢が別段に悪いわけではありませんね…となるとうっかりか、緊張しているかのどちらかですね。",
 			typewriter = {
@@ -111,7 +111,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_101",
 			dir = 1,
-			actor = 305014,
+			actor = 305010,
 			actorName = "{namecode:78}",
 			say = "怪我したわけではありませんし、これぐらい大したことじゃありませんけど、指揮官様に迷惑をかけてはダメですよ？",
 			typewriter = {
@@ -138,7 +138,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgName = "star_level_bg_101",
-			actor = 305024,
+			actor = 305020,
 			nameColor = "#a9f548",
 			say = "殿様、ひ、引き出しの中を見てはダメです！…あわわ！",
 			flashout = {
@@ -182,7 +182,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_101",
 			dir = 1,
-			actor = 305024,
+			actor = 305020,
 			actorName = "{namecode:79}",
 			say = "殿様、梯子を持っててください。上を拭きます！…えっ後ろから！？あわわわ！？",
 			typewriter = {
@@ -209,7 +209,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_101",
 			dir = 1,
-			actor = 305024,
+			actor = 305020,
 			actorName = "{namecode:79}",
 			say = "うぅ…棚の下に家具コインが……うう……届かない…と、殿様！？今は見ちゃダメ！あわわわわ！？！？",
 			typewriter = {
@@ -236,7 +236,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgName = "star_level_bg_101",
-			actor = 305014,
+			actor = 305010,
 			nameColor = "#a9f548",
 			say = "私はこれから寮に戻りますけど、山城と指揮官様はどうします？",
 			flashout = {
@@ -271,7 +271,7 @@ return {
 			bgName = "star_level_bg_101",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 305024,
+			actor = 305020,
 			actorName = "{namecode:79}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -302,7 +302,7 @@ return {
 			bgName = "star_level_bg_101",
 			dir = 1,
 			blackBg = true,
-			actor = 305024,
+			actor = 305020,
 			actorName = "{namecode:79}",
 			say = "はい！殿様、ちょっと待っててくださいね！",
 			typewriter = {

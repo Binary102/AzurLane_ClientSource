@@ -32,7 +32,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "level",
-			actor = 107031,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "はい！サラトガちゃんの機動艦隊作戦レッスン、はっじまっるよー",
 			flashout = {
@@ -74,7 +74,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 204011,
+			actor = 204010,
 			nameColor = "#a9f548",
 			say = "ご指導よろしくお願いいたします！",
 			typewriter = {
@@ -96,7 +96,7 @@ return {
 			}
 		},
 		{
-			actor = 207031,
+			actor = 207030,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -115,7 +115,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 205011,
+			actor = 205010,
 			nameColor = "#a9f548",
 			say = "しっかり訓練するのよ！…って私も参加するの！？",
 			typewriter = {
@@ -140,7 +140,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 107031,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "というわけで説明始めるよ！空母の攻撃距離は戦艦よりずっと長いから、その射程を活かした戦法が基本になるの！",
 			typewriter = {
@@ -162,7 +162,7 @@ return {
 			}
 		},
 		{
-			actor = 107031,
+			actor = 107030,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -178,7 +178,7 @@ return {
 			}
 		},
 		{
-			actor = 107031,
+			actor = 107030,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -204,7 +204,7 @@ return {
 			}
 		},
 		{
-			actor = 204011,
+			actor = 204010,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -220,7 +220,7 @@ return {
 			}
 		},
 		{
-			actor = 205011,
+			actor = 205010,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -236,7 +236,7 @@ return {
 			}
 		},
 		{
-			actor = 207031,
+			actor = 207030,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -255,7 +255,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 107031,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "そこ！無線封止中に私語は禁止！",
 			typewriter = {
@@ -277,7 +277,7 @@ return {
 			}
 		},
 		{
-			actor = 207031,
+			actor = 207030,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -296,7 +296,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 205011,
+			actor = 205010,
 			nameColor = "#a9f548",
 			say = "ぐぬぬぬ……",
 			typewriter = {

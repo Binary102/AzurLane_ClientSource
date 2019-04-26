@@ -23,7 +23,7 @@ return {
 			bgmDelay = 2,
 			bgName = "bg_story_task",
 			bgm = "main-uta",
-			actor = 10300011,
+			actor = 10300010,
 			nameColor = "#a9f548",
 			say = "あの不思議な海域で戦っていると、自分や仲間の姿をした敵と出くわすよね",
 			flashout = {
@@ -57,7 +57,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 10300031,
+			actor = 10300030,
 			nameColor = "#a9f548",
 			say = "は、はい……わたし、未だに慣れません……皆さんに武器を向けてるみたいで、怖くなります……",
 			typewriter = {
@@ -74,7 +74,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 10300021,
+			actor = 10300020,
 			nameColor = "#a9f548",
 			say = "わたしも嫌なのです。偽物だとわかっていても、姉さまやルルティエさんを攻撃するなんて……",
 			typewriter = {
@@ -111,7 +111,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 10300011,
+			actor = 10300010,
 			nameColor = "#a9f548",
 			say = "あれってやっぱり、セイレーンとかいう人たちの仕業なのかな？",
 			typewriter = {
@@ -148,7 +148,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 10300021,
+			actor = 10300020,
 			nameColor = "#a9f548",
 			say = "ジャベリンたちも「自分と同じ姿をした敵と戦ったことがある」と言ってたのです。セイレーンというのは趣味が悪いのです",
 			typewriter = {
@@ -165,7 +165,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 10300011,
+			actor = 10300010,
 			nameColor = "#a9f548",
 			say = "まったくだよ。自分や友達と戦わされるなんて悪い夢みたいでお断りかな",
 			typewriter = {
@@ -182,7 +182,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 10300031,
+			actor = 10300030,
 			nameColor = "#a9f548",
 			say = "その、セイレーンという方々は、どうしてそんなことをするのでしょうか……？",
 			typewriter = {
@@ -219,7 +219,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 10300011,
+			actor = 10300010,
 			nameColor = "#a9f548",
 			say = "私たちをこの世界に招いて、あの海域に放り込んだのもそのため……なのかな？",
 			typewriter = {
@@ -246,7 +246,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 10300031,
+			actor = 10300030,
 			nameColor = "#a9f548",
 			say = "仲間と同じ姿をした敵も嫌ですけど……やっぱり、自分の姿をした敵が目の前に現れると……正直、ゾッとします",
 			typewriter = {
@@ -263,7 +263,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 10300011,
+			actor = 10300010,
 			nameColor = "#a9f548",
 			say = "うん、わかるよルルティエ……なんだか自分の悪いところを見せられてるような気分になるよね",
 			typewriter = {
@@ -276,7 +276,7 @@ return {
 			}
 		},
 		{
-			actor = 10300021,
+			actor = 10300020,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",

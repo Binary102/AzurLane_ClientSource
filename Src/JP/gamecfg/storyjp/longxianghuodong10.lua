@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 306061,
+			actor = 306060,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -27,7 +27,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
-			actor = 306061,
+			actor = 306060,
 			say = "でもこれで皆の役に立てたはず………",
 			typewriter = {
 				speed = 0.05,
@@ -39,7 +39,7 @@ return {
 			}
 		},
 		{
-			actor = 306061,
+			actor = 306060,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -65,7 +65,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			actor = 103061,
+			actor = 103060,
 			nameColor = "#a9f548",
 			say = "勝った……？",
 			flashout = {
@@ -95,7 +95,7 @@ return {
 			}
 		},
 		{
-			actor = 102061,
+			actor = 102060,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -114,7 +114,7 @@ return {
 			}
 		},
 		{
-			actor = 102061,
+			actor = 102060,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -129,7 +129,7 @@ return {
 			}
 		},
 		{
-			actor = 103061,
+			actor = 103060,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -144,7 +144,7 @@ return {
 			}
 		},
 		{
-			actor = 102061,
+			actor = 102060,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -161,7 +161,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			actor = 307051,
+			actor = 307050,
 			nameColor = "#a9f548",
 			say = "龍驤ちゃん、負けたわね……",
 			flashout = {
@@ -191,7 +191,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
@@ -210,7 +210,7 @@ return {
 			}
 		},
 		{
-			actor = 307051,
+			actor = 307050,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -225,7 +225,7 @@ return {
 			}
 		},
 		{
-			actor = 307051,
+			actor = 307050,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -243,7 +243,7 @@ return {
 			side = 0,
 			dir = 1,
 			bgm = "battle-boss-2",
-			actor = 307061,
+			actor = 307060,
 			nameColor = "#a9f548",
 			say = "翔鶴姉待って！神通の二水戦から接敵したとの連絡が届いた！",
 			typewriter = {
@@ -266,7 +266,7 @@ return {
 			}
 		},
 		{
-			actor = 307051,
+			actor = 307050,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,

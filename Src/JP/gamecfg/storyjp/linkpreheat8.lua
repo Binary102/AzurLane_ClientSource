@@ -26,7 +26,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			actor = 10300011,
+			actor = 10300010,
 			say = "おかげさまで……なんて言わないからね",
 			typewriter = {
 				speed = 0.05,
@@ -38,7 +38,7 @@ return {
 			}
 		},
 		{
-			actor = 401231,
+			actor = 401230,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -89,7 +89,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			actor = 10300041,
+			actor = 10300040,
 			say = "私たちのパクり",
 			typewriter = {
 				speed = 0.05,
@@ -105,7 +105,7 @@ return {
 			side = 1,
 			say = "私たちの世界に伝わる技術を流用して、こちらの世界への「道」を開いただけでは飽き足らず、このような異質極まりない空間を作ったのも……実験だというのですか？",
 			dir = 1,
-			actor = 10300051,
+			actor = 10300050,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -121,7 +121,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -136,7 +136,7 @@ return {
 			}
 		},
 		{
-			actor = 201211,
+			actor = 201210,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -151,7 +151,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -198,7 +198,7 @@ return {
 			}
 		},
 		{
-			actor = 10300031,
+			actor = 10300030,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -217,7 +217,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			actor = 10300021,
+			actor = 10300020,
 			say = "なんなのですか、あの顔色の悪い不気味な女の人は？",
 			typewriter = {
 				speed = 0.05,
@@ -233,7 +233,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			actor = 10300011,
+			actor = 10300010,
 			say = "とりあえず……私たちが倒すべき敵、かな？",
 			typewriter = {
 				speed = 0.05,
@@ -245,7 +245,7 @@ return {
 			}
 		},
 		{
-			actor = 10300061,
+			actor = 10300060,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -260,7 +260,7 @@ return {
 			}
 		},
 		{
-			actor = 101171,
+			actor = 101170,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -275,7 +275,7 @@ return {
 			}
 		},
 		{
-			actor = 301051,
+			actor = 301050,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -290,7 +290,7 @@ return {
 			}
 		},
 		{
-			actor = 10300011,
+			actor = 10300010,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -305,7 +305,7 @@ return {
 			}
 		},
 		{
-			actor = 201211,
+			actor = 201210,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -324,7 +324,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			actor = 10300011,
+			actor = 10300010,
 			say = "うん、乗りかかった舟だもの。最期まで付き合うよ",
 			typewriter = {
 				speed = 0.05,
@@ -336,7 +336,7 @@ return {
 			}
 		},
 		{
-			actor = 10300011,
+			actor = 10300010,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -353,20 +353,20 @@ return {
 		{
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 10300061,
+			actor = 10300060,
 			dir = 1,
 			hideOther = true,
 			actorName = "うたわれるもの勢",
 			say = "おおおーっ！",
 			subActors = {
 				{
-					actor = 10300031,
+					actor = 10300030,
 					pos = {
 						x = 370
 					}
 				},
 				{
-					actor = 10300021,
+					actor = 10300020,
 					pos = {
 						x = 750
 					}
@@ -382,7 +382,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -399,20 +399,20 @@ return {
 		{
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 201211,
+			actor = 201210,
 			dir = 1,
 			hideOther = true,
 			actorName = "アズールレーン勢",
 			say = "おおおーっ！",
 			subActors = {
 				{
-					actor = 301051,
+					actor = 301050,
 					pos = {
 						x = 370
 					}
 				},
 				{
-					actor = 101171,
+					actor = 101170,
 					pos = {
 						x = 750
 					}

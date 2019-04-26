@@ -3127,6 +3127,10 @@ pg.gametip = {
 		tip = "指揮官Lv<color=#A9F548>$1</color>で開放します",
 		key = "levelScene_chapter_level_limit"
 	},
+	levelScene_chapter_count_tip = {
+		tip = "挑戦回数：",
+		key = "levelScene_chapter_count_tip"
+	},
 	levelScene_tracking_error_retry = {
 		tip = "出撃にエラーが発生しました",
 		key = "levelScene_tracking_error_retry"
@@ -3938,6 +3942,10 @@ pg.gametip = {
 	word_shipNation_um = {
 		tip = "うたわれるもの ",
 		key = "word_shipNation_um"
+	},
+	word_shipNation_ai = {
+		tip = "KizunaAI",
+		key = "word_shipNation_ai"
 	},
 	word_reset = {
 		tip = "クリア",
@@ -4845,7 +4853,7 @@ pg.gametip = {
 	},
 	help_build = {
 		tip = [[
-					<size=25>レアリティ出現割合</size>
+					<size=19>レアリティ出現割合</size>
 
 						<color=#fff157>SSレア</color>：$2%
 						<color=#966af6>Sレア</color>：$3%
@@ -4855,17 +4863,22 @@ pg.gametip = {
 	},
 	help_build_1 = {
 		tip = [[
-					<size=25>レアリティ出現割合</size>
+					<size=19>レアリティ出現割合</size>
 
 						<color=#fff157>SSレア</color>：$2%
 						<color=#966af6>Sレア</color>：$3%
 						<color=#60a9ff>レア</color>：$4%
-						ノーマル：$5%]],
+						ノーマル：$5%
+
+						【期間限定】
+					<color=#966af6>比叡ちゃん</color>：2.5%<color=#A9F548>(up!)</color>
+					<color=#966af6>赤城ちゃん</color>：2.5%<color=#A9F548>(up!)</color>
+					<color=#966af6>ツェッペリンちゃん</color>：2.5%<color=#A9F548>(up!)</color>]],
 		key = "help_build_1"
 	},
 	help_build_2 = {
 		tip = [[
-					<size=25>レアリティ出現割合</size>
+					<size=19>レアリティ出現割合</size>
 
 						<color=#fff157>SSレア</color>：$2%
 						<color=#966af6>Sレア</color>：$3%
@@ -4876,20 +4889,16 @@ pg.gametip = {
 	help_build_4 = {
 		tip = [[
 					<size=19>レアリティ出現割合
+
 						<color=#fff157>SSレア</color>：$2%
 						<color=#966af6>Sレア</color>：$3%
 						<color=#60a9ff>レア</color>：$4%
 						ノーマル：$5%
 
 						【期間限定】
-					<color=#fff157>長門</color>：2%<color=#A9F548>(up!)</color>
-					<color=#fff157>江風</color>：1.8%<color=#A9F548>(up!)</color>
-					<color=#fff157>伊13</color>：2%<color=#A9F548>(up!)</color>
-					<color=#966af6>鈴谷</color>：2.5%<color=#A9F548>(up!)</color>
-					<color=#966af6>宵月</color>：2.5%<color=#A9F548>(up!)</color>
-					<color=#966af6>春月</color>：2.5%<color=#A9F548>(up!)</color>
-					<color=#60a9ff>文月</color>：5%<color=#A9F548>(up!)</color>
-					<color=#60a9ff>朝潮</color>：5%<color=#A9F548>(up!)</color></size>]],
+			<color=#fff157>キズナアイ・アニバーサリー</color>：2%<color=#A9F548>(up!)</color>
+			<color=#fff157>キズナアイ・スーパーゲーマー</color>：2%<color=#A9F548>(up!)</color>
+			<color=#fff157>キズナアイ・エレガント</color>：0.5%</size>]],
 		key = "help_build_4"
 	},
 	help_build_5 = {
@@ -7189,7 +7198,7 @@ pg.gametip = {
 		key = "activity_switch_award_pool_failed"
 	},
 	shop_street_activity_tip = {
-		tip = "*<color=#A1E400FF>19.1.24-19.2.13</COLOR>では<color=#A1E400FF>装備外装箱</color>が100%出現します",
+		tip = "*<color=#A1E400FF>19.4.26-19.5.15</COLOR>では<color=#A1E400FF>装備外装箱</color>が100%出現します",
 		key = "shop_street_activity_tip"
 	},
 	twitter_link_title = {
@@ -8978,6 +8987,10 @@ pg.gametip = {
 		tip = "ストーリー「$1」開放成功！",
 		key = "map_event_memory_collected"
 	},
+	map_event_save_kizuna = {
+		tip = "<color=#A9F548>キズナアイ</color>の救出に成功しました！",
+		key = "map_event_save_kizuna"
+	},
 	five_choose_one = {
 		tip = "使用すると、<color=#A9F548>$1</color>と記念アイテムを\n入手することが出来ます。\n聖夜の贈り物を使用しますか？",
 		key = "five_choose_one"
@@ -9267,6 +9280,53 @@ pg.gametip = {
 		tip = "危険",
 		key = "ambush_display_6"
 	},
+	black_white_grid_notice = {
+		key = "black_white_grid_notice",
+		tip = {
+			{
+				info = "概要："
+			},
+			{
+				info = [[
+「スッキリ！バーチャル空間」とは、バーチャル空間のウィルス
+を駆除することで、報酬が貰えるミニゲームです
+オブジェクトをタップすることでオブジェクトの色を反転させ、
+可能な限り白いオブジェクトが多い状態を目指しましょう
+NO.01～NO.04を初回クリアすると、報酬を貰うことが出来ます]]
+			},
+			{
+				info = [[
+ルール：
+オブジェクトを2回タップすると、タップしたオブジェ
+クトと、その周囲8コマのオブジェクトの色が反転します
+1回のゲームで反転は3回まで行うことが可能で、
+3回反転するとリザルト（最終得点）が計算されます
+リザルト画面の黒いオブジェクトが1つにつき-1、
+白いオブジェクトが1つにつき+1、
+計得点が0以上の場合クリアになります
+ゲーム右上のリセットボタンをタップすると、
+オブジェクトの配置と反転可能回数を初期化することができます]]
+			},
+			{
+				info = [[
+注意点：各ステージに挑戦するには、イベント「仮想繋げし
+共時性」SP海域の対応ステージを★3クリアしている必要
+があります
+NO.01～NO.04のオブジェクト配置は固定であり
+NO.05の配置はランダムとなります。
+イベント期間中、何度でも挑戦できますが、
+各ステージから貰える報酬は初回クリア時のみとなります]]
+			}
+		}
+	},
+	black_white_grid_reset = {
+		tip = "オブジェクトの配置をリセットしますか？",
+		key = "black_white_grid_reset"
+	},
+	black_white_grid_switch_tip = {
+		tip = "前のステージをクリアしなければ、次のステージへは進めません。",
+		key = "black_white_grid_switch_tip"
+	},
 	no_way_to_escape = {
 		tip = "離脱できるマスがありません",
 		key = "no_way_to_escape"
@@ -9429,6 +9489,109 @@ pg.gametip = {
 	blueprint_simulation_confirm = {
 		tip = "弾幕確認機能（模擬戦）を起動しますか？\n(※実際の艦の性能とは異なります）",
 		key = "blueprint_simulation_confirm"
+	},
+	blueprint_simulation_confirm_19901 = {
+		tip = [[
+<size=23>弾幕確認機能（模擬戦）を起動しますか？(※実際の艦の性能とは異なります）
+使用兵装：<color=#A9F548>
+試作型三連装152mm両用砲Mk17
+試作型三連装152mm両用砲Mk17
+四連装ボフォース40mm機関砲</color></size>]],
+		key = "blueprint_simulation_confirm_19901"
+	},
+	blueprint_simulation_confirm_19902 = {
+		tip = [[
+<size=23>弾幕確認機能（模擬戦）を起動しますか？
+(※実際の艦の性能とは異なります）
+使用兵装：<color=#A9F548>
+試作型457mm連装砲MKA
+127mm連装両用砲MK12
+四連装ボフォース40mm機関砲</color></size>]],
+		key = "blueprint_simulation_confirm_19902"
+	},
+	blueprint_simulation_confirm_39903 = {
+		tip = [[
+<size=23>弾幕確認機能（模擬戦）を起動しますか？
+(※実際の艦の性能とは異なります）
+使用兵装：<color=#A9F548>
+100mm二連装九八式高角砲
+610mm四連装魚雷
+試作型五式40mm高射機関砲</color></size>]],
+		key = "blueprint_simulation_confirm_39903"
+	},
+	blueprint_simulation_confirm_39904 = {
+		tip = [[
+<size=23>弾幕確認機能（模擬戦）を起動しますか？
+(※実際の艦の性能とは異なります）
+使用兵装：<color=#A9F548>
+試作型三連装310mm砲
+100mm二連装九八式高角砲
+試作型五式40mm高射機関砲</color></size>]],
+		key = "blueprint_simulation_confirm_39904"
+	},
+	blueprint_simulation_confirm_49902 = {
+		tip = [[
+<size=23>弾幕確認機能（模擬戦）を起動しますか？
+(※実際の艦の性能とは異なります）
+使用兵装：<color=#A9F548>
+試作型406mmSKC連装砲
+150mmTbtsKC/36連装砲
+105mmSKC連装高角砲</color></size>]],
+		key = "blueprint_simulation_confirm_49902"
+	},
+	blueprint_simulation_confirm_99901 = {
+		tip = [[
+<size=23>弾幕確認機能（模擬戦）を起動しますか？
+(※実際の艦の性能とは異なります）
+使用兵装：<color=#A9F548>
+380mm四連装砲Mle1935
+152mm三連装砲Mle1930
+二連装37mm高射砲Mle1936</color></size>]],
+		key = "blueprint_simulation_confirm_99901"
+	},
+	electrotherapy_wanning = {
+		tip = "まもなく、安全地帯の範囲が制限されます ",
+		key = "electrotherapy_wanning"
+	},
+	memorybook_get_award_tip = {
+		tip = "全ての「AIメモリアル」を集めることで入手できます ",
+		key = "memorybook_get_award_tip"
+	},
+	memorybook_notice = {
+		key = "memorybook_notice",
+		tip = {
+			{
+				info = "概要："
+			},
+			{
+				info = [[
+  「AIメモリアル」とは様々な条件をクリアして「AIメモリアル」
+を集めることで報酬が貰えるイベントです
+    イベント期間中、下記の方法で24枚全てのAIメモリアルを集め
+るとコラボ限定家具「ぴょこぴょこ記念章」を入手できます]]
+			},
+			{
+				info = "入手方法："
+			},
+			{
+				info = "　・イベントステージの攻略"
+			},
+			{
+				info = "　・日常編の毎日任務完了"
+			},
+			{
+				info = "　・スッキリ！バーチャル空間のクリア"
+			},
+			{
+				info = "　・イベント任務の完了"
+			},
+			{
+				info = "　・PT-キズナ累計報酬"
+			},
+			{
+				info = "　・Black-SPをクリア後、再度SP1～SP4に挑戦"
+			}
+		}
 	}
 }
 

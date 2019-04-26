@@ -10,7 +10,7 @@ return {
 			side = 1,
 			dir = 1,
 			bgm = "battle-boss-1",
-			actor = 401211,
+			actor = 401210,
 			nameColor = "#ff5c5c",
 			say = "……も、もう無理……",
 			typewriter = {
@@ -36,7 +36,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			actor = 201201,
+			actor = 201200,
 			say = "気絶した……",
 			typewriter = {
 				speed = 0.05,
@@ -52,7 +52,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			actor = 201201,
+			actor = 201200,
 			say = "この前の二人よりは手強いけど…",
 			typewriter = {
 				speed = 0.05,
@@ -68,7 +68,7 @@ return {
 			side = 1,
 			say = "ロイヤルのHクラスの敵じゃありませんわ！",
 			dir = -1,
-			actor = 201161,
+			actor = 201160,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -84,7 +84,7 @@ return {
 			}
 		},
 		{
-			actor = 201201,
+			actor = 201200,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -99,7 +99,7 @@ return {
 			}
 		},
 		{
-			actor = 201161,
+			actor = 201160,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -114,7 +114,7 @@ return {
 			}
 		},
 		{
-			actor = 201201,
+			actor = 201200,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -133,7 +133,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			actor = 201201,
+			actor = 201200,
 			say = "それに、今ので敵もこっちの戦力を把握できただろうから、すぐにでも援軍が来るはず",
 			typewriter = {
 				speed = 0.05,
@@ -145,7 +145,7 @@ return {
 			}
 		},
 		{
-			actor = 201201,
+			actor = 201200,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -160,7 +160,7 @@ return {
 			}
 		},
 		{
-			actor = 201161,
+			actor = 201160,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -179,7 +179,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = -1,
-			actor = 201161,
+			actor = 201160,
 			say = "少なくとも、あそこにある貨物船を沈めないと",
 			typewriter = {
 				speed = 0.05,
@@ -195,7 +195,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			actor = 201201,
+			actor = 201200,
 			say = "でも……危ないよ？",
 			typewriter = {
 				speed = 0.05,
@@ -211,7 +211,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = -1,
-			actor = 201161,
+			actor = 201160,
 			say = "わたし一人でもやるつもりよ。このチャンスは絶対に逃しません",
 			typewriter = {
 				speed = 0.05,
@@ -227,7 +227,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			actor = 201201,
+			actor = 201200,
 			say = "バカ",
 			typewriter = {
 				speed = 0.05,
@@ -242,7 +242,7 @@ return {
 			expression = 2,
 			side = 1,
 			dir = -1,
-			actor = 201161,
+			actor = 201160,
 			nameColor = "#a9f548",
 			say = "いたっ！急に叩かないでよ！",
 			typewriter = {
@@ -269,7 +269,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			actor = 201201,
+			actor = 201200,
 			say = "わたしたちはチーム。ハーディは旗艦。みんないたほうが、火力が大きい",
 			typewriter = {
 				speed = 0.05,
@@ -285,7 +285,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = -1,
-			actor = 201161,
+			actor = 201160,
 			say = "……ありがとう",
 			typewriter = {
 				speed = 0.05,
@@ -301,7 +301,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = -1,
-			actor = 201161,
+			actor = 201160,
 			say = "さあ、徹底的に攻撃しますよ！",
 			typewriter = {
 				speed = 0.05,

@@ -21,7 +21,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			bgm = "story-1",
-			actor = 101174,
+			actor = 101170,
 			nameColor = "#a9f548",
 			say = "ニーミがここに要ると聞いて……",
 			typewriter = {
@@ -38,7 +38,7 @@ return {
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 201214,
+			actor = 201210,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -54,7 +54,7 @@ return {
 			}
 		},
 		{
-			actor = 301054,
+			actor = 301050,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -70,7 +70,7 @@ return {
 			}
 		},
 		{
-			actor = 401234,
+			actor = 401230,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -89,20 +89,20 @@ return {
 			actorShadow = true,
 			side = 0,
 			bgName = "bg_story_school",
-			actor = 101174,
+			actor = 101170,
 			actorName = "三人",
 			hideOther = true,
 			nameColor = "#a9f548",
 			say = "「「「教えてください、ニーミ先生！」」」",
 			subActors = {
 				{
-					actor = 201214,
+					actor = 201210,
 					pos = {
 						x = 750
 					}
 				},
 				{
-					actor = 301054,
+					actor = 301050,
 					pos = {
 						x = 400
 					}
@@ -118,7 +118,7 @@ return {
 			}
 		},
 		{
-			actor = 401234,
+			actor = 401230,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -137,7 +137,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 900052,
+			actor = 401231,
 			nameColor = "#a9f548",
 			say = "ここは重点です！ちゃんとメモ取らないと、ニーミ先生がお仕置きしちゃいますよ！",
 			flashout = {

@@ -22,7 +22,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			bgm = "story-1",
-			actor = 301164,
+			actor = 301160,
 			actorName = "？？？",
 			say = "あーはっはっは！",
 			typewriter = {
@@ -54,7 +54,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 301164,
+			actor = 301160,
 			actorName = "？？？",
 			say = "よく聞け！えっと…このわたしこそ高貴にして天才の！幸運で無敵の！雪風・エイト・陽炎・ザジェネ…",
 			typewriter = {
@@ -71,7 +71,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 301164,
+			actor = 301160,
 			actorName = "？？？",
 			say = "じぇ、ジェネ、ジェネなんだっけ………と、とにかく雪風様なのだ！",
 			typewriter = {
@@ -98,7 +98,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 301164,
+			actor = 301160,
 			actorName = "{namecode:22}",
 			say = "ふん！とにかく、これであんたの艦隊に着任してやったのだぞ。努力してこの雪風様を上手く使うがいいのだ！",
 			typewriter = {
@@ -131,7 +131,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 301164,
+			actor = 301160,
 			actorName = "{namecode:22}",
 			say = "さあ、この雪風様にひれ伏して、艦隊の主力にするのだ！",
 			typewriter = {
@@ -158,7 +158,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgName = "bg_story_school",
-			actor = 301164,
+			actor = 301160,
 			nameColor = "#a9f548",
 			say = "この雪風様の威光に感服して言葉を失ったのか？所詮はカヨワイ人間なのだな！",
 			effects = {
@@ -228,7 +228,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 301164,
+			actor = 301160,
 			actorName = "{namecode:22}",
 			say = "あ、あれ？",
 			typewriter = {
@@ -245,7 +245,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 301614,
+			actor = 301610,
 			actorName = "{namecode:128}",
 			say = "ええと……指揮官、固まっている…",
 			typewriter = {
@@ -263,7 +263,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 301624,
+			actor = 301620,
 			actorName = "{namecode:127}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -283,7 +283,7 @@ return {
 			side = 0,
 			bgName = "bg_story_school",
 			dir = -1,
-			actor = 301604,
+			actor = 301600,
 			actorName = "{namecode:143}",
 			say = "か、かっこいい……浦風さま、磯風にもこの「ナンバン風自己紹介」作ってほしい！",
 			typewriter = {
@@ -300,7 +300,7 @@ return {
 			side = 1,
 			bgName = "bg_story_school",
 			dir = -1,
-			actor = 301594,
+			actor = 301590,
 			actorName = "{namecode:142}",
 			say = "はぐぅ！？わ、私が作るわけないでしょ！？それより指揮官、雪風をそのまま放置していいの？",
 			typewriter = {
@@ -324,7 +324,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			blackBg = true,
-			actor = 301164,
+			actor = 301160,
 			actorName = "{namecode:22}",
 			say = "ぐぬぬぬ…！この雪風様を無視するなんて……万死に値するのだ！",
 			typewriter = {

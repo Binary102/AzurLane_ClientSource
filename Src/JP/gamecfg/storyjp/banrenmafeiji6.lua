@@ -23,7 +23,7 @@ return {
 			bgmDelay = 2,
 			blackBg = true,
 			bgm = "story-2",
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "綺麗な夕日……",
 			flashout = {
@@ -57,7 +57,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "途中から参加者がどんどん増えて結局午後はまるっとビーチバレー大会になっちゃったけど……",
 			typewriter = {
@@ -70,7 +70,7 @@ return {
 			}
 		},
 		{
-			actor = 206041,
+			actor = 206040,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -90,7 +90,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "…ここではあの大戦を体験した先輩たちもこんな一日を過ごせる……",
 			typewriter = {
@@ -103,7 +103,7 @@ return {
 			}
 		},
 		{
-			actor = 206041,
+			actor = 206040,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -123,7 +123,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "平和な時代に生まれた私にとって、色んな先輩たちとの振れ合いからたくさんのことを学ぶことができる……やっぱりこの艦隊に参加できてよかった……",
 			typewriter = {
@@ -141,7 +141,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			actor = 900094,
+			actor = 201212,
 			nameColor = "#a9f548",
 			say = "セントーさん！",
 			flashout = {
@@ -185,7 +185,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -201,7 +201,7 @@ return {
 			}
 		},
 		{
-			actor = 900094,
+			actor = 201212,
 			side = 0,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -221,7 +221,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "はい！今日一日、色々ありましたけど……",
 			typewriter = {
@@ -238,7 +238,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "私にとってすごく有意義な一日でした。",
 			typewriter = {
@@ -251,7 +251,7 @@ return {
 			}
 		},
 		{
-			actor = 900094,
+			actor = 201212,
 			side = 0,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -271,7 +271,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "いいえ、今日一日、先輩たちが戦場以外の生活をどう見ているかなど、色々勉強できました。",
 			typewriter = {
@@ -284,7 +284,7 @@ return {
 			}
 		},
 		{
-			actor = 900094,
+			actor = 201212,
 			side = 0,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -300,7 +300,7 @@ return {
 			}
 		},
 		{
-			actor = 900094,
+			actor = 201212,
 			side = 0,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -320,7 +320,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "そうですか？でもビーチバレー大会も終わりましたし、先輩たちも撤収したようですし……",
 			typewriter = {
@@ -333,7 +333,7 @@ return {
 			}
 		},
 		{
-			actor = 900094,
+			actor = 201212,
 			side = 0,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -349,7 +349,7 @@ return {
 			}
 		},
 		{
-			actor = 900094,
+			actor = 201212,
 			side = 0,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -369,7 +369,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "みんなでなにかを運んでいるようですね…あれはなんでしょうか？",
 			typewriter = {
@@ -382,7 +382,7 @@ return {
 			}
 		},
 		{
-			actor = 900094,
+			actor = 201212,
 			side = 0,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -401,7 +401,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 900094,
+			actor = 201212,
 			nameColor = "#a9f548",
 			say = "アイリスとヴィシアの新しい仲間、そしてセントーさんの歓迎会も兼ねて！",
 			typewriter = {
@@ -428,7 +428,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "昼に言っていたお楽しみとは花火大会のことだったのですね！",
 			typewriter = {
@@ -444,7 +444,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 900094,
+			actor = 201212,
 			nameColor = "#a9f548",
 			say = "そう！ほら、ジャン・バールさんもダンケルクさんも来てるし、",
 			typewriter = {
@@ -471,7 +471,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 900094,
+			actor = 201212,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -490,7 +490,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 900094,
+			actor = 201212,
 			nameColor = "#a9f548",
 			say = "お楽しみはこれからだよ！",
 			typewriter = {
@@ -517,7 +517,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "まだ思い返す時間ではない、ということですね…！",
 			typewriter = {
@@ -535,7 +535,7 @@ return {
 			bgName = "star_level_bg_106",
 			dir = 1,
 			blackBg = true,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "はい！引き続き、楽しませていただきます！",
 			typewriter = {

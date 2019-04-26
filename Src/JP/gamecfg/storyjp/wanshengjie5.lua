@@ -19,14 +19,14 @@ return {
 			actorShadow = true,
 			side = 0,
 			actorName = "{namecode:87}&{namecode:19}",
-			actor = 900036,
+			actor = 301171,
 			dir = -1,
 			hideOther = true,
 			nameColor = "#ff0000",
 			say = "「「トリック・オア・トリート」」",
 			subActors = {
 				{
-					actor = 900038,
+					actor = 306051,
 					dir = -1,
 					pos = {
 						x = -750
@@ -42,14 +42,14 @@ return {
 			actorShadow = true,
 			side = 0,
 			actorName = "{namecode:6}&クリーブランド",
-			actor = 900037,
+			actor = 301051,
 			dir = -1,
 			hideOther = true,
 			nameColor = "#ff0000",
 			say = "「「トリック・オア・トリート」」",
 			subActors = {
 				{
-					actor = 900035,
+					actor = 102091,
 					dir = -1,
 					pos = {
 						x = -750
@@ -62,7 +62,7 @@ return {
 			}
 		},
 		{
-			actor = 307054,
+			actor = 307050,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
@@ -82,7 +82,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			actor = 900038,
+			actor = 306051,
 			actorName = "{namecode:87}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -98,7 +98,7 @@ return {
 			}
 		},
 		{
-			actor = 900036,
+			actor = 301171,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
@@ -114,7 +114,7 @@ return {
 			}
 		},
 		{
-			actor = 307054,
+			actor = 307050,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -130,7 +130,7 @@ return {
 			}
 		},
 		{
-			actor = 900035,
+			actor = 102091,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -148,7 +148,7 @@ return {
 			actorName = "{namecode:87}",
 			side = 2,
 			dir = 1,
-			actor = 900038,
+			actor = 306051,
 			nameColor = "#a9f548",
 			say = "ではうちらは行くで～",
 			flashout = {
@@ -182,7 +182,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -198,7 +198,7 @@ return {
 			}
 		},
 		{
-			actor = 307054,
+			actor = 307050,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -217,7 +217,7 @@ return {
 			actorName = "{namecode:87}",
 			side = 2,
 			dir = 1,
-			actor = 900038,
+			actor = 306051,
 			nameColor = "#a9f548",
 			say = "うぎゃ――！か、カボチャランタンが浮いとる！？れ、例のお化けや――！",
 			flashout = {
@@ -251,7 +251,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			actor = 900037,
+			actor = 301051,
 			actorName = "{namecode:6}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -267,7 +267,7 @@ return {
 			}
 		},
 		{
-			actor = 900036,
+			actor = 301171,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -283,7 +283,7 @@ return {
 			}
 		},
 		{
-			actor = 900035,
+			actor = 102091,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -298,7 +298,7 @@ return {
 			}
 		},
 		{
-			actor = 307054,
+			actor = 307050,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -314,7 +314,7 @@ return {
 			}
 		},
 		{
-			actor = 900038,
+			actor = 306051,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
@@ -333,7 +333,7 @@ return {
 			actorName = "{namecode:19}",
 			side = 2,
 			dir = -1,
-			actor = 900036,
+			actor = 301171,
 			nameColor = "#a9f548",
 			say = "空にランタンがいっぱいじゃ……ず、瑞鶴は！？",
 			flashout = {
@@ -367,7 +367,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 900038,
+			actor = 306051,
 			actorName = "{namecode:87}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -388,7 +388,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			withoutPainting = true,
-			actor = 307064,
+			actor = 307060,
 			nameColor = "#a9f548",
 			say = "しょ――違った、ホワイト姉、頑張って衣装を作ろうとしたけど、ちょっと難しすぎて……もうこれで我慢して！",
 			flashout = {
@@ -424,7 +424,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			actor = 307054,
+			actor = 307050,
 			actorName = "？？？",
 			paintingFadeOut = {
 				time = 0.5,
@@ -445,7 +445,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			actor = 307064,
+			actor = 307060,
 			actorName = "？？？",
 			say = "コホン！私はゴールド、エンタープライズはグレイだよ？とにかく、今は私たちみな「大人」じゃなくて「子供」だから、ハロウィンを思いっきり楽しまないと！",
 			typewriter = {
@@ -463,7 +463,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			actor = 107064,
+			actor = 107060,
 			actorName = "？？？",
 			say = "私はただずい……じゃなてくゴールドに賭けで負けたから仕方なく手伝っているだけで、別に何も……",
 			typewriter = {
@@ -481,7 +481,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			actor = 307064,
+			actor = 307060,
 			actorName = "？？？",
 			say = "そこはもうちょっと悔しんでよ！",
 			typewriter = {
@@ -499,7 +499,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			actor = 107064,
+			actor = 107060,
 			actorName = "？？？",
 			say = "はいはい、イタズラはカボチャランタンで手伝ってあげるから、思いっきり楽しんでくれ。「お子様」。",
 			typewriter = {
@@ -517,7 +517,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			actor = 307064,
+			actor = 307060,
 			actorName = "？？？",
 			say = "ふふん、それでいいわ。そもそも私はカンレイ的にあんたよりずっと若いんだからね、グレイ",
 			typewriter = {

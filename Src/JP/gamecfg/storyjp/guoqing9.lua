@@ -8,7 +8,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 900029,
+			actor = 305029,
 			nameColor = "#ff0000",
 			side = 2,
 			actorName = "山城改",
@@ -27,7 +27,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			nameColor = "#a9f548",
 			side = 0,
 			say = "山城さん！あなたまでニセモノになっていたというの…？",
@@ -49,7 +49,7 @@ return {
 			}
 		},
 		{
-			actor = 900029,
+			actor = 305029,
 			nameColor = "#ff0000",
 			side = 1,
 			actorName = "山城改",
@@ -68,7 +68,7 @@ return {
 			}
 		},
 		{
-			actor = 900029,
+			actor = 305029,
 			nameColor = "#ff0000",
 			side = 1,
 			actorName = "山城改",
@@ -87,7 +87,7 @@ return {
 			}
 		},
 		{
-			actor = 900029,
+			actor = 305029,
 			nameColor = "#ff0000",
 			side = 1,
 			actorName = "山城改",
@@ -106,7 +106,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			side = 0,
 			nameColor = "#a9f548",
 			say = "あなたが「あなた」なら、教えて、翔鶴姉は今何処にいるの？",
@@ -124,7 +124,7 @@ return {
 			}
 		},
 		{
-			actor = 900029,
+			actor = 305029,
 			nameColor = "#ff0000",
 			side = 1,
 			actorName = "山城改",
@@ -143,7 +143,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			side = 0,
 			nameColor = "#a9f548",
 			say = "…あああ！先輩たちはなんでどいつもこいつもこんなに面倒くさいの！",
@@ -161,7 +161,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			side = 0,
 			nameColor = "#a9f548",
 			say = "もういいわ！戦うならとことん付き合ってやる！",
@@ -179,7 +179,7 @@ return {
 			}
 		},
 		{
-			actor = 900029,
+			actor = 305029,
 			nameColor = "#ff0000",
 			side = 1,
 			actorName = "山城改",
@@ -198,7 +198,7 @@ return {
 			}
 		},
 		{
-			actor = 900029,
+			actor = 305029,
 			nameColor = "#ff0000",
 			side = 1,
 			actorName = "山城改",

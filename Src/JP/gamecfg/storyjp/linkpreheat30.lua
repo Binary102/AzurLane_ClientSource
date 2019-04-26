@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "main-uta",
-			actor = 10300041,
+			actor = 10300040,
 			nameColor = "#a9f548",
 			say = "指揮官様",
 			flashout = {
@@ -56,7 +56,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			withoutActorName = true,
-			actor = 10300041,
+			actor = 10300040,
 			nameColor = "#a9f548",
 			say = "珍しく、ウルゥル一人だけがそこにいた。",
 			typewriter = {
@@ -73,7 +73,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			withoutActorName = true,
-			actor = 10300041,
+			actor = 10300040,
 			nameColor = "#a9f548",
 			say = "いつも双子のサラァナと一緒にいるイメージだったので、少々面食らう",
 			typewriter = {
@@ -92,7 +92,7 @@ return {
 			}
 		},
 		{
-			actor = 10300041,
+			actor = 10300040,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -150,7 +150,7 @@ return {
 			}
 		},
 		{
-			actor = 10300041,
+			actor = 10300040,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -180,7 +180,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 10300041,
+			actor = 10300040,
 			nameColor = "#a9f548",
 			say = "ごめんなさい",
 			typewriter = {
@@ -203,7 +203,7 @@ return {
 			}
 		},
 		{
-			actor = 10300041,
+			actor = 10300040,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -223,7 +223,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 10300041,
+			actor = 10300040,
 			nameColor = "#a9f548",
 			say = "こういう時、困らせる",
 			typewriter = {
@@ -236,7 +236,7 @@ return {
 			}
 		},
 		{
-			actor = 10300041,
+			actor = 10300040,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -256,7 +256,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			withoutActorName = true,
-			actor = 10300041,
+			actor = 10300040,
 			nameColor = "#a9f548",
 			say = "そうか、彼女も彼女なりに口下手なことを気にしていたらしい",
 			typewriter = {
@@ -279,7 +279,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			withoutActorName = true,
-			actor = 10300041,
+			actor = 10300040,
 			nameColor = "#a9f548",
 			say = "ゆっくり喋れるように練習すればいい。なんなら、自分が付き合おう──そう約束してあげた",
 			typewriter = {
@@ -292,7 +292,7 @@ return {
 			}
 		},
 		{
-			actor = 10300041,
+			actor = 10300040,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -312,7 +312,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 10300041,
+			actor = 10300040,
 			nameColor = "#a9f548",
 			say = "主様の次にいい",
 			typewriter = {

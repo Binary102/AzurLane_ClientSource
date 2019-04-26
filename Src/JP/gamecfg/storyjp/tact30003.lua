@@ -4,7 +4,7 @@ return {
 	once = true,
 	scripts = {
 		{
-			actor = 204031,
+			actor = 204030,
 			side = 2,
 			nameColor = "#D6341D",
 			say = "哎呀，连黑暗界前辈都来参了一脚吗，{namecode:89}女士还真是手段高超呢……",
@@ -22,7 +22,7 @@ return {
 			}
 		},
 		{
-			actor = 900019,
+			actor = 213011,
 			side = 0,
 			say = "我们怎么也算是平辈吧，胡德小姐……",
 			paintingFadeOut = {
@@ -43,7 +43,7 @@ return {
 			}
 		},
 		{
-			actor = 204031,
+			actor = 204030,
 			side = 1,
 			nameColor = "#D6341D",
 			say = "不妨先把你的“小姐”去了如何？",
@@ -62,7 +62,7 @@ return {
 		},
 		{
 			side = 0,
-			actor = 900019,
+			actor = 213011,
 			say = "这个是习惯了……",
 			shake = {
 				speed = 1,
@@ -78,7 +78,7 @@ return {
 			}
 		},
 		{
-			actor = 205061,
+			actor = 205060,
 			side = 1,
 			dir = -1,
 			nameColor = "#D6341D",
@@ -97,7 +97,7 @@ return {
 			}
 		},
 		{
-			actor = 204031,
+			actor = 204030,
 			side = 1,
 			nameColor = "#D6341D",
 			say = "说的也是。那么，茶会就留到巧克力之后吧，为了友人的愿望，身为淑女，即使跨越sis萨拉和罗德尼的尸体，也要达成这个目的",
@@ -115,7 +115,7 @@ return {
 			}
 		},
 		{
-			actor = 900019,
+			actor = 213011,
 			side = 0,
 			nameColor = "#D6341D",
 			say = "那两位还很精神呢……",
@@ -133,7 +133,7 @@ return {
 			}
 		},
 		{
-			actor = 204031,
+			actor = 204030,
 			side = 1,
 			nameColor = "#D6341D",
 			say = "以及，虽然只是题外话，身为淑女，我胡德对于巧克力并没有特别的兴趣哦？只是淑女兴致使然的助人为乐罢了",
@@ -151,7 +151,7 @@ return {
 			}
 		},
 		{
-			actor = 205061,
+			actor = 205060,
 			side = 1,
 			dir = -1,
 			nameColor = "#D6341D",
@@ -170,7 +170,7 @@ return {
 			}
 		},
 		{
-			actor = 204031,
+			actor = 204030,
 			side = 1,
 			nameColor = "#D6341D",
 			say = "愿荣耀存于这场战斗，全舰，开火！",
@@ -189,7 +189,7 @@ return {
 		},
 		{
 			side = 0,
-			actor = 900019,
+			actor = 213011,
 			say = "……感觉胡德也不大对劲了",
 			shake = {
 				speed = 1,

@@ -20,7 +20,7 @@ return {
 			}
 		},
 		{
-			actor = 401021,
+			actor = 401020,
 			side = 1,
 			nameColor = "#ff5c5c",
 			dir = -1,
@@ -39,7 +39,7 @@ return {
 			side = 0,
 			say = "…！！ハーディ！",
 			dir = 1,
-			actor = 201201,
+			actor = 201200,
 			nameColor = "#a9f548",
 			actorPosition = {
 				x = -1000,
@@ -68,7 +68,7 @@ return {
 			side = 0,
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
-			actor = 201201,
+			actor = 201200,
 			say = "うぅ！？",
 			flashN = {
 				color = {
@@ -116,7 +116,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			actor = 201161,
+			actor = 201160,
 			say = "増援！？",
 			typewriter = {
 				speed = 0.05,
@@ -131,7 +131,7 @@ return {
 			expression = 2,
 			side = 0,
 			dir = 1,
-			actor = 201161,
+			actor = 201160,
 			nameColor = "#a9f548",
 			say = "くっ、早く撤退を――！",
 			typewriter = {
@@ -157,7 +157,7 @@ return {
 			side = 1,
 			hideOther = true,
 			dir = -1,
-			actor = 401021,
+			actor = 401020,
 			nameColor = "#ff5c5c",
 			say = "手強い相手ね……ええ、味方が来なければやられたところだった",
 			typewriter = {
@@ -170,7 +170,7 @@ return {
 			}
 		},
 		{
-			actor = 401191,
+			actor = 401190,
 			side = 0,
 			nameColor = "#ff5c5c",
 			dir = -1,
@@ -185,7 +185,7 @@ return {
 			}
 		},
 		{
-			actor = 401021,
+			actor = 401020,
 			side = 1,
 			nameColor = "#ff5c5c",
 			dir = -1,
@@ -200,7 +200,7 @@ return {
 			}
 		},
 		{
-			actor = 401181,
+			actor = 401180,
 			side = 0,
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -219,7 +219,7 @@ return {
 			nameColor = "#ff5c5c",
 			side = 1,
 			dir = -1,
-			actor = 401021,
+			actor = 401020,
 			say = "いいえ、ハンスの判断は正しかった。むやみに追うことより味方との合流をした方がいい",
 			typewriter = {
 				speed = 0.05,
@@ -231,7 +231,7 @@ return {
 			}
 		},
 		{
-			actor = 401021,
+			actor = 401020,
 			side = 1,
 			nameColor = "#ff5c5c",
 			dir = -1,
@@ -250,7 +250,7 @@ return {
 			nameColor = "#ff5c5c",
 			side = 1,
 			dir = -1,
-			actor = 401021,
+			actor = 401020,
 			say = "そう遠くないうちに第二波が来る。しっかり備えなくては",
 			typewriter = {
 				speed = 0.05,
@@ -262,7 +262,7 @@ return {
 			}
 		},
 		{
-			actor = 401191,
+			actor = 401190,
 			side = 0,
 			nameColor = "#ff5c5c",
 			dir = -1,
@@ -292,7 +292,7 @@ return {
 			}
 		},
 		{
-			actor = 401191,
+			actor = 401190,
 			side = 0,
 			nameColor = "#ff5c5c",
 			dir = -1,

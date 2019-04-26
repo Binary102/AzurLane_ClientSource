@@ -31,7 +31,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 307014,
+			actor = 307010,
 			actorName = "{namecode:91}",
 			say = "指揮官様～！",
 			typewriter = {
@@ -58,7 +58,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			say = "先輩、お疲れさま！",
 			typewriter = {
@@ -76,7 +76,7 @@ return {
 			bgName = "bg_story_task",
 			actorName = "{namecode:92}",
 			dir = 1,
-			actor = 307024,
+			actor = 307020,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -96,7 +96,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			say = "はい！って指揮官なんで後ろに隠れるの！？",
 			typewriter = {
@@ -113,7 +113,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = -1,
-			actor = 307014,
+			actor = 307010,
 			actorName = "{namecode:91}",
 			say = "瑞鶴、指揮官様は赤城を見ると恥ずかしがってしまいますの。うふふ、報告書、あとで「例の場所」に置いておきますわ～",
 			typewriter = {
@@ -130,7 +130,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 307024,
+			actor = 307020,
 			actorName = "{namecode:92}",
 			say = "ねえさ…こほん、赤城、あまり指揮官を困らせないでください。",
 			typewriter = {
@@ -147,7 +147,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 307024,
+			actor = 307020,
 			actorName = "{namecode:92}",
 			say = "瑞鶴お前もだ。秘書艦の務めをきっちり果たせ。…ほら、赤城、先に行ってください。",
 			typewriter = {
@@ -177,7 +177,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			say = "指揮官、赤城先輩はもう行っちゃったよ。",
 			typewriter = {
@@ -194,7 +194,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			say = "っていうか、赤城先輩は確かにちょっと強引なんだけど、さっきの指揮官はちょっとオーバーリアクションじゃない？",
 			typewriter = {
@@ -212,7 +212,7 @@ return {
 			bgName = "bg_story_task",
 			actorName = "{namecode:92}",
 			dir = 1,
-			actor = 307024,
+			actor = 307020,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -232,7 +232,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			say = "え？なんでですか？",
 			typewriter = {
@@ -249,7 +249,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 307024,
+			actor = 307020,
 			actorName = "{namecode:92}",
 			say = "例えばほかの子と一緒だったら、赤城は指揮官ではなく「害虫」と言いながら一緒にいる子の排除を先にするだろう。いまの隠れ方は通用せん。",
 			typewriter = {
@@ -266,7 +266,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 307024,
+			actor = 307020,
 			actorName = "{namecode:92}",
 			say = "つまり、赤城はお前が指揮官と一緒にいても無害だと判断したから成立したのだ。",
 			typewriter = {
@@ -284,7 +284,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			actor = 307064,
+			actor = 307060,
 			nameColor = "#a9f548",
 			say = "嬉しいやら悲しいやら……微妙な気分です……",
 			typewriter = {

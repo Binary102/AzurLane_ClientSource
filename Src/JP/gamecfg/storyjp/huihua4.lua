@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "お料理コンテストは明日開催として……あ、会場の準備はもうできてるのかー",
 			flashout = {
@@ -55,7 +55,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "こっちは……水着コンテスト？ええーまたー？",
 			flashout = {
@@ -89,7 +89,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 307071,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "よく知っていますわね。艦隊に参加したばかりのくせに",
 			typewriter = {
@@ -106,7 +106,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -126,7 +126,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "そっちこそ部屋に引きこもってちゃつまらないじゃん",
 			typewriter = {
@@ -143,7 +143,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 307071,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "（手作りのドレスを着て指揮官様とパーティーに参加して、共に素晴らしい夜を過ごすことこそが目的ですわ）",
 			typewriter = {
@@ -161,7 +161,7 @@ return {
 			bgName = "star_level_bg_103",
 			say = "……なんの音？",
 			dir = 1,
-			actor = 307071,
+			actor = 307070,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -177,7 +177,7 @@ return {
 			}
 		},
 		{
-			actor = 108021,
+			actor = 108020,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -197,7 +197,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = -1,
-			actor = 900112,
+			actor = 301013,
 			nameColor = "#a9f548",
 			say = "はくしょん！……誰かに噂されてる気がする……",
 			typewriter = {
@@ -213,7 +213,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "おーい！こっちこっちー！",
 			typewriter = {
@@ -236,7 +236,7 @@ return {
 			}
 		},
 		{
-			actor = 900123,
+			actor = 408011,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -256,7 +256,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = -1,
-			actor = 900112,
+			actor = 301013,
 			nameColor = "#a9f548",
 			say = "ちょっと待って～これ持ったままだと走れないよ～～",
 			typewriter = {
@@ -272,7 +272,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "吹雪が持ってるのはなに？",
 			flashout = {
@@ -306,7 +306,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_103",
 			dir = -1,
-			actor = 900112,
+			actor = 301013,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -326,7 +326,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 307071,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "（吹奏楽団…オーケストラ…ふふふ、いいですわ。大鳳と指揮官の登場に最高の音楽を奏でなさいな）",
 			typewriter = {
@@ -343,7 +343,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 900123,
+			actor = 408011,
 			nameColor = "#a9f548",
 			say = "え？吹雪ってチューバを吹けるの？",
 			typewriter = {
@@ -360,7 +360,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = -1,
-			actor = 900112,
+			actor = 301013,
 			nameColor = "#a9f548",
 			say = "できないよ！",
 			typewriter = {
@@ -377,7 +377,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = -1,
-			actor = 900112,
+			actor = 301013,
 			nameColor = "#a9f548",
 			say = "……って違う！今は練習中だ！そんな目で見ないでってば！",
 			typewriter = {
@@ -404,7 +404,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "お、おう……そうだ！母港一武道会の決勝がそろそろ始まるよ！大鳳！みんな！早く見に行こうよ！",
 			typewriter = {
@@ -421,7 +421,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 307071,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "ちっ、愛する指揮官様に魅せるドレス作りを邪魔してくれちゃって、それに加えて、いざ行こうと思ったら寄り道ばかりさせて……って待ちなさい！",
 			typewriter = {
@@ -447,7 +447,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			bgName = "star_level_bg_103",
-			actor = 900112,
+			actor = 301013,
 			dir = -1,
 			hideOther = true,
 			actorName = "吹雪&U81",
@@ -455,7 +455,7 @@ return {
 			subActors = {
 				{
 					dir = -1,
-					actor = 900123,
+					actor = 408011,
 					pos = {
 						x = -687
 					}
@@ -470,7 +470,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 303031,
+			actor = 303030,
 			nameColor = "#a9f548",
 			say = "試合終了！！いやぁ流石にここまで勝ち続けてきた瑞鶴も、最後のエキシビションマッチで因縁のライバル・エンタープライズに一歩及ばずでしたか――！！",
 			flashout = {
@@ -504,7 +504,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "すごい拍手……やっぱ遅れちゃったか……",
 			typewriter = {
@@ -521,7 +521,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 307071,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "指揮官様……ちっ、やっぱりいらしゃっていませんよね……匂いも足跡も●●も見つけられなかった時点でいらっしゃっていないと思っていましたけど――",
 			typewriter = {
@@ -534,7 +534,7 @@ return {
 			}
 		},
 		{
-			actor = 900112,
+			actor = 301013,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -554,7 +554,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 900123,
+			actor = 408011,
 			nameColor = "#a9f548",
 			say = "うげ……吹雪がずっとチューバを吹いてたせいで誰が勝ったのかわからなかったわ……",
 			typewriter = {
@@ -571,7 +571,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			blackBg = true,
-			actor = 900123,
+			actor = 408011,
 			nameColor = "#a9f548",
 			say = "うん…？あそこにいるのは……エセックス？",
 			typewriter = {

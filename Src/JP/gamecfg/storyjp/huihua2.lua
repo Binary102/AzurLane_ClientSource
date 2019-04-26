@@ -49,7 +49,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "楽しい～楽しい～フェスティバルゥ～♪…うん？あれは…？",
 			typewriter = {
@@ -72,7 +72,7 @@ return {
 			}
 		},
 		{
-			actor = 305041,
+			actor = 305040,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -92,7 +92,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 305031,
+			actor = 305030,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -108,7 +108,7 @@ return {
 			}
 		},
 		{
-			actor = 305041,
+			actor = 305040,
 			side = 1,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -127,7 +127,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 305031,
+			actor = 305030,
 			nameColor = "#a9f548",
 			say = "はははは！いいな！やろう！先にお金でもおろしてきな日向！",
 			typewriter = {
@@ -154,7 +154,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "おはよう！これってライブ用の舞台？わずか一日でここまで組み上げたなんてすごい！",
 			typewriter = {
@@ -167,7 +167,7 @@ return {
 			}
 		},
 		{
-			actor = 305041,
+			actor = 305040,
 			side = 1,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -187,7 +187,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "でも、せっかくのお祭りなのになんでここで舞台を作る手伝いをしてるの…？",
 			typewriter = {
@@ -200,7 +200,7 @@ return {
 			}
 		},
 		{
-			actor = 305031,
+			actor = 305030,
 			side = 0,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -216,7 +216,7 @@ return {
 			}
 		},
 		{
-			actor = 305041,
+			actor = 305040,
 			side = 1,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -235,7 +235,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 305031,
+			actor = 305030,
 			nameColor = "#a9f548",
 			say = "「本場のあいどるはここにあり！お祭り特別華道舞台！」ってやつだな。ははは！",
 			typewriter = {
@@ -262,7 +262,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "へ、へー",
 			typewriter = {
@@ -275,7 +275,7 @@ return {
 			}
 		},
 		{
-			actor = 305031,
+			actor = 305030,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -291,7 +291,7 @@ return {
 			}
 		},
 		{
-			actor = 108021,
+			actor = 108020,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -311,7 +311,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgName = "star_level_bg_103",
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "ふむ…次はどこを回るか…指揮官は忙しいし……",
 			flashout = {
@@ -345,7 +345,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "なによりみんなお祭り気分だから、今日ばかりは何したってサプライズにならないよね……",
 			typewriter = {
@@ -368,7 +368,7 @@ return {
 			}
 		},
 		{
-			actor = 108021,
+			actor = 108020,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -388,7 +388,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "「明石のかくし芸大公開にゃ！カーペットにダイヤを50個置いてけにゃ！」",
 			typewriter = {
@@ -405,7 +405,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "………………",
 			typewriter = {
@@ -421,7 +421,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "へへへ",
 			action = {
@@ -447,7 +447,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgName = "star_level_bg_103",
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			flashout = {
 				dur = 0.5,
@@ -500,7 +500,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = -1,
-			actor = 312011,
+			actor = 312010,
 			nameColor = "#a9f548",
 			actorPosition = {
 				x = -500,
@@ -571,7 +571,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = -1,
-			actor = 312011,
+			actor = 312010,
 			nameColor = "#a9f548",
 			say = "げほげほ！誰にゃ！ダイヤと見せかけて煙幕弾を置いたのは！",
 			typewriter = {
@@ -597,7 +597,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = -1,
-			actor = 312011,
+			actor = 312010,
 			nameColor = "#a9f548",
 			say = "出て来いにゃ！明石が商品の値段を倍にしてやるにゃ！",
 			typewriter = {
@@ -623,7 +623,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "プッ……かかった！",
 			typewriter = {
@@ -650,7 +650,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "でも今の明石がダイヤを取ろうとした動きは早かったな。わたしじゃなければ見逃していたところだった……",
 			typewriter = {
@@ -663,7 +663,7 @@ return {
 			}
 		},
 		{
-			actor = 108021,
+			actor = 108020,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -684,7 +684,7 @@ return {
 			bgName = "star_level_bg_103",
 			dir = 1,
 			blackBg = true,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "あ、そうだ！大鳳を探しに行こー！",
 			typewriter = {

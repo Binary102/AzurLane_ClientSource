@@ -292,6 +292,20 @@ function ys.Battle.BattlePlayerWeaponVO.DispatchCountChange(slot0)
 	slot0:DispatchEvent(slot0.Event.New(slot0.Battle.BattleEvent.COUNT_CHANGE))
 end
 
+function ys.Battle.BattlePlayerWeaponVO.StartJamming(slot0)
+	for slot4, slot5 in ipairs(slot0._chargingList) do
+		slot5:StartJamming()
+	end
+end
+
+function ys.Battle.BattlePlayerWeaponVO.JammingEliminate(slot0)
+	for slot4, slot5 in ipairs(slot0._chargingList) do
+		slot5:JammingEliminate()
+	end
+
+	slot0:RefreshCD()
+end
+
 function ys.Battle.BattlePlayerWeaponVO.Dispose(slot0)
 	pg.TimeMgr.GetInstance():RemoveBattleTimer(slot0._focusTimer)
 

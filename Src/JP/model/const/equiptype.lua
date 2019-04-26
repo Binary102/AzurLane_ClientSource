@@ -20,6 +20,13 @@ slot0.AirDomainEquip = {
 	slot0.BomberAircraft,
 	slot0.SeaPlane
 }
+slot0.AircraftSkinType = {
+	slot0.FighterAircraft,
+	slot0.TorpedoAircraft,
+	slot0.BomberAircraft,
+	slot0.SeaPlane,
+	slot0.AntiSubAircraft
+}
 slot1 = {
 	i18n("word_primary_weapons"),
 	i18n("word_sub_cannons"),

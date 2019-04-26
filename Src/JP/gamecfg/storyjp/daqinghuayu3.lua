@@ -49,7 +49,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = -1,
-			actor = 101171,
+			actor = 101170,
 			nameColor = "#a9f548",
 			say = "スキル発動……",
 			typewriter = {
@@ -76,7 +76,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "ラフィー、危ない！",
 			typewriter = {
@@ -93,7 +93,7 @@ return {
 			bgName = "bg_story_room",
 			dir = -1,
 			soundeffect = "event:/battle/boom2",
-			actor = 101171,
+			actor = 101170,
 			nameColor = "#a9f548",
 			say = "…うん？",
 			dialogShake = {
@@ -143,7 +143,7 @@ return {
 			}
 		},
 		{
-			actor = 900034,
+			actor = 106011,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -169,7 +169,7 @@ return {
 			}
 		},
 		{
-			actor = 101161,
+			actor = 101160,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -185,7 +185,7 @@ return {
 			}
 		},
 		{
-			actor = 900034,
+			actor = 106011,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -205,7 +205,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "…………",
 			typewriter = {
@@ -222,7 +222,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "諦めるのはまだ早いよ。",
 			effects = {
@@ -241,7 +241,7 @@ return {
 			}
 		},
 		{
-			actor = 108021,
+			actor = 108020,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -260,7 +260,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "今回はあたしが指示を出すからもう一回やってみて！",
 			typewriter = {
@@ -286,7 +286,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 900034,
+			actor = 106011,
 			nameColor = "#a9f548",
 			say = "おおお…アルバコアが頼もしく見える！これぞリーダーのカリスマってやつ！？",
 			effects = {
@@ -305,7 +305,7 @@ return {
 			}
 		},
 		{
-			actor = 101171,
+			actor = 101170,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -321,7 +321,7 @@ return {
 			}
 		},
 		{
-			actor = 101161,
+			actor = 101160,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -340,7 +340,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "じゃあもう一回……クエストスタート！",
 			typewriter = {
@@ -393,7 +393,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "これで最後だ！くらえ、合体奥義――「エターナルフォースクラッシャー（ボスは死ぬ）」！！",
 			typewriter = {
@@ -421,7 +421,7 @@ return {
 			bgName = "bg_story_room",
 			hideOther = true,
 			dir = 1,
-			actor = 900034,
+			actor = 106011,
 			actorName = "みんな",
 			say = "おおおおおお！！！",
 			effects = {
@@ -432,13 +432,13 @@ return {
 			},
 			subActors = {
 				{
-					actor = 101171,
+					actor = 101170,
 					pos = {
 						x = 370
 					}
 				},
 				{
-					actor = 101161,
+					actor = 101160,
 					pos = {
 						x = 750
 					}
@@ -454,7 +454,7 @@ return {
 			}
 		},
 		{
-			actor = 101171,
+			actor = 101170,
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -480,7 +480,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 101161,
+			actor = 101160,
 			nameColor = "#a9f548",
 			say = "うおおおおやったああああああああ！！",
 			typewriter = {
@@ -503,7 +503,7 @@ return {
 			}
 		},
 		{
-			actor = 900034,
+			actor = 106011,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -523,7 +523,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "がははははは！楽勝楽勝！このアルバコアに攻略できないボスはなーい！",
 			typewriter = {

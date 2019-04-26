@@ -21,7 +21,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			bgm = "story-1",
-			actor = 900083,
+			actor = 401011,
 			nameColor = "#a9f548",
 			say = "勉強も運動もこのZ1様こそ最強！",
 			typewriter = {
@@ -34,7 +34,7 @@ return {
 			}
 		},
 		{
-			actor = 900083,
+			actor = 401011,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -50,7 +50,7 @@ return {
 			}
 		},
 		{
-			actor = 900083,
+			actor = 401011,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -71,7 +71,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 900082,
+			actor = 307041,
 			actorName = "{namecode:94}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -87,7 +87,7 @@ return {
 			}
 		},
 		{
-			actor = 900083,
+			actor = 401011,
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -107,7 +107,7 @@ return {
 			side = 0,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 900082,
+			actor = 307041,
 			actorName = "{namecode:94}",
 			say = "売られたケンカは買わせてもらいます！",
 			typewriter = {
@@ -120,7 +120,7 @@ return {
 			}
 		},
 		{
-			actor = 900083,
+			actor = 401011,
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -139,7 +139,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 900084,
+			actor = 101061,
 			nameColor = "#a9f548",
 			say = "はわわ、来ました来ました！",
 			typewriter = {
@@ -160,7 +160,7 @@ return {
 			}
 		},
 		{
-			actor = 900084,
+			actor = 101061,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -176,7 +176,7 @@ return {
 			}
 		},
 		{
-			actor = 900084,
+			actor = 101061,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -192,7 +192,7 @@ return {
 			}
 		},
 		{
-			actor = 401234,
+			actor = 401230,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -213,7 +213,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 900081,
+			actor = 307032,
 			actorName = "{namecode:93}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -229,7 +229,7 @@ return {
 			}
 		},
 		{
-			actor = 401234,
+			actor = 401230,
 			side = 0,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -245,7 +245,7 @@ return {
 			}
 		},
 		{
-			actor = 900083,
+			actor = 401011,
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -261,7 +261,7 @@ return {
 			}
 		},
 		{
-			actor = 401234,
+			actor = 401230,
 			side = 0,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -280,7 +280,7 @@ return {
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 900083,
+			actor = 401011,
 			nameColor = "#a9f548",
 			say = "別に授業に参加したくないってわけじゃないぞ！だって先生が教えるのがあまりにもつまらないから、この俺様が教えてやるって、つい……",
 			typewriter = {
@@ -306,7 +306,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 900082,
+			actor = 307041,
 			actorName = "{namecode:94}",
 			say = "そういうことですか！あははははは",
 			typewriter = {
@@ -324,7 +324,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 900081,
+			actor = 307032,
 			actorName = "{namecode:93}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -344,7 +344,7 @@ return {
 			side = 0,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 900082,
+			actor = 307041,
 			actorName = "{namecode:94}",
 			say = "えええ！だって向こうが…",
 			typewriter = {
@@ -361,7 +361,7 @@ return {
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 900081,
+			actor = 307032,
 			actorName = "{namecode:93}",
 			say = "そう簡単に挑発に乗るあなたも悪いわよ！あとクレイヴン、この子たちが元気すぎるのは良しとして、あなたが調子に乗せたらダメでしょう！？",
 			typewriter = {
@@ -374,7 +374,7 @@ return {
 			}
 		},
 		{
-			actor = 900084,
+			actor = 101061,
 			side = 0,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -394,7 +394,7 @@ return {
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 900081,
+			actor = 307032,
 			actorName = "{namecode:93}",
 			say = "とにかくついてきなさい！説教するわよ！",
 			typewriter = {
@@ -413,18 +413,18 @@ return {
 			hideOther = true,
 			dir = 1,
 			blackBg = true,
-			actor = 900082,
+			actor = 307041,
 			nameColor = "#a9f548",
 			say = "はい……",
 			subActors = {
 				{
-					actor = 900084,
+					actor = 101061,
 					pos = {
 						x = 370
 					}
 				},
 				{
-					actor = 900083,
+					actor = 401011,
 					pos = {
 						x = 750
 					}

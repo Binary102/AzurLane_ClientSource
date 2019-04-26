@@ -50,7 +50,7 @@ return {
 			}
 		},
 		{
-			actor = 301301,
+			actor = 301300,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -66,7 +66,7 @@ return {
 			}
 		},
 		{
-			actor = 301301,
+			actor = 301300,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -86,7 +86,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			withoutActorName = true,
-			actor = 301301,
+			actor = 301300,
 			nameColor = "#a9f548",
 			say = "……",
 			typewriter = {
@@ -102,7 +102,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 301301,
+			actor = 301300,
 			nameColor = "#a9f548",
 			say = "最初と比べればだいぶ良くなった？当然じゃ。わっちの誇れる後輩なんじゃからな",
 			typewriter = {
@@ -121,7 +121,7 @@ return {
 			}
 		},
 		{
-			actor = 301301,
+			actor = 301300,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -140,7 +140,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 301301,
+			actor = 301300,
 			nameColor = "#a9f548",
 			say = "この時間帯ならあの子は一人で部屋にいるはずよのう。どれ、わっちから声をかけてやろうか",
 			flashout = {
@@ -170,7 +170,7 @@ return {
 			}
 		},
 		{
-			actor = 301301,
+			actor = 301300,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -186,7 +186,7 @@ return {
 			}
 		},
 		{
-			actor = 301301,
+			actor = 301300,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -206,7 +206,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgName = "bg_story_room",
-			actor = 303091,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "ど、どうしよう…思わず折りすぎてしまいました…指揮官殿にこれだけ送ったら……",
 			flashout = {
@@ -242,7 +242,7 @@ return {
 			say = "あ…",
 			actorName = "{namecode:144}&{namecode:124}",
 			bgName = "bg_story_room",
-			actor = 303091,
+			actor = 303090,
 			nameColor = "#a9f548",
 			flashout = {
 				dur = 0.25,
@@ -267,7 +267,7 @@ return {
 			},
 			subActors = {
 				{
-					actor = 301301,
+					actor = 301300,
 					pos = {
 						x = 750
 					}
@@ -287,7 +287,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 303091,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "ししし指揮官殿！？",
 			typewriter = {
@@ -310,7 +310,7 @@ return {
 			}
 		},
 		{
-			actor = 301301,
+			actor = 301300,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -326,7 +326,7 @@ return {
 			}
 		},
 		{
-			actor = 301301,
+			actor = 301300,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -342,7 +342,7 @@ return {
 			}
 		},
 		{
-			actor = 301301,
+			actor = 301300,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -358,7 +358,7 @@ return {
 			}
 		},
 		{
-			actor = 301301,
+			actor = 301300,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -377,7 +377,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 301301,
+			actor = 301300,
 			nameColor = "#a9f548",
 			say = "あっ、急に駆逐艦たちの引率訓練があるのを思い出したわい！わっちは先に失礼するわい！",
 			typewriter = {
@@ -403,7 +403,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 303091,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "え！？か、神風先輩！？ひ、一人にしないでください！！",
 			typewriter = {
@@ -430,7 +430,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 303091,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "（話が違いますよ！ここここれは指揮官殿と二人っきりじゃありませんか！？）",
 			typewriter = {
@@ -447,7 +447,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 303091,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "（い、一体どうすれば……！？）",
 			typewriter = {

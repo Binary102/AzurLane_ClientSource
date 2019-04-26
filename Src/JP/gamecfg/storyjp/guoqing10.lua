@@ -8,7 +8,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 900029,
+			actor = 305029,
 			nameColor = "#ff0000",
 			side = 2,
 			actorName = "山城改",
@@ -27,7 +27,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			nameColor = "#a9f548",
 			side = 0,
 			say = "…手加減したよね？",
@@ -49,7 +49,7 @@ return {
 			}
 		},
 		{
-			actor = 900029,
+			actor = 305029,
 			nameColor = "#ff0000",
 			side = 1,
 			actorName = "山城改",
@@ -68,7 +68,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			side = 0,
 			nameColor = "#a9f548",
 			say = "…ありがと。行ってくる。",
@@ -86,7 +86,7 @@ return {
 			}
 		},
 		{
-			actor = 900029,
+			actor = 305029,
 			nameColor = "#ff0000",
 			side = 1,
 			actorName = "山城改",
@@ -105,7 +105,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			side = 0,
 			nameColor = "#a9f548",
 			say = "今更何か？",
@@ -123,7 +123,7 @@ return {
 			}
 		},
 		{
-			actor = 900029,
+			actor = 305029,
 			nameColor = "#ff0000",
 			side = 1,
 			actorName = "山城改",
@@ -142,7 +142,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			side = 0,
 			nameColor = "#a9f548",
 			say = "……",
@@ -160,7 +160,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			side = 0,
 			nameColor = "#a9f548",
 			say = "うん。わかったわ！",

@@ -4,7 +4,7 @@ return {
 	once = true,
 	scripts = {
 		{
-			actor = 205064,
+			actor = 205060,
 			side = 2,
 			dir = -1,
 			nameColor = "#a9f548",
@@ -26,7 +26,7 @@ return {
 			side = 0,
 			say = "大丈夫、だけどこの戦力じゃ流石に相手もこっちの勢いには怯むよね……",
 			dir = 0,
-			actor = 204024,
+			actor = 204020,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -46,7 +46,7 @@ return {
 			}
 		},
 		{
-			actor = 205064,
+			actor = 205060,
 			side = 1,
 			dir = -1,
 			nameColor = "#a9f548",
@@ -65,7 +65,7 @@ return {
 			}
 		},
 		{
-			actor = 204024,
+			actor = 204020,
 			side = 0,
 			dir = 0,
 			nameColor = "#a9f548",
@@ -84,7 +84,7 @@ return {
 			}
 		},
 		{
-			actor = 205064,
+			actor = 205060,
 			side = 1,
 			dir = -1,
 			nameColor = "#a9f548",

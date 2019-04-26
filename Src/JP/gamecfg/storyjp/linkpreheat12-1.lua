@@ -8,7 +8,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgm = "level-uta",
-			actor = 10300021,
+			actor = 10300020,
 			nameColor = "#a9f548",
 			say = "ここはわたしに任せてほしいのです",
 			flashin = {
@@ -30,7 +30,7 @@ return {
 			}
 		},
 		{
-			actor = 301051,
+			actor = 301050,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -49,7 +49,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			actor = 10300021,
+			actor = 10300020,
 			say = "同じくらいの綾波さんに言われたくないのです。大丈夫、自信ありなのです",
 			typewriter = {
 				speed = 0.05,
@@ -61,7 +61,7 @@ return {
 			}
 		},
 		{
-			actor = 10300061,
+			actor = 10300060,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -76,7 +76,7 @@ return {
 			}
 		},
 		{
-			actor = 10300021,
+			actor = 10300020,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -95,7 +95,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			actor = 10300021,
+			actor = 10300020,
 			say = "この艤装という装備の助けもありますし、いざとなればキリポンたちを召喚して凌いでみせるのです",
 			typewriter = {
 				speed = 0.05,
@@ -107,7 +107,7 @@ return {
 			}
 		},
 		{
-			actor = 401231,
+			actor = 401230,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -122,7 +122,7 @@ return {
 			}
 		},
 		{
-			actor = 10300021,
+			actor = 10300020,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -141,7 +141,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			actor = 10300011,
+			actor = 10300010,
 			say = "でもネコネ……決して無理しちゃダメだよ？",
 			typewriter = {
 				speed = 0.05,
@@ -153,7 +153,7 @@ return {
 			}
 		},
 		{
-			actor = 10300031,
+			actor = 10300030,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -172,7 +172,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			actor = 10300021,
+			actor = 10300020,
 			say = "姉さま、ルルティエさま……はい、お願いするのです",
 			typewriter = {
 				speed = 0.05,
@@ -184,7 +184,7 @@ return {
 			}
 		},
 		{
-			actor = 301051,
+			actor = 301050,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -199,7 +199,7 @@ return {
 			}
 		},
 		{
-			actor = 10300021,
+			actor = 10300020,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,

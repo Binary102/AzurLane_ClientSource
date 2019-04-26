@@ -38,6 +38,10 @@ function slot0.findUI(slot0)
 	slot0.viewportFitterCom = GetComponent(slot0.viewport, "ContentSizeFitter")
 end
 
+function slot0.onBackPressed(slot0)
+	triggerButton(slot0.backBtn)
+end
+
 function slot0.addListener(slot0)
 	onButton(slot0, slot0.backBtn, function ()
 		slot0:emit(slot1.ON_CLOSE)
@@ -49,7 +53,7 @@ function slot0.updateDetail(slot0)
 
 	slot1:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
-			setImageSprite(slot4, GetSpriteFromAtlas("ShipType", "ch_title_" .. slot6), true)
+			setImageSprite(slot4, GetSpriteFromAtlas("ShipType", "ch_title_" .. slot6))
 			setImageSprite(slot3, GetSpriteFromAtlas("ShipType", "buffitem_tec_" .. slot0.typeOrder[slot1 + 1]), true)
 			Canvas.ForceUpdateCanvases()
 			slot0:updateBuffList(slot0:findTF("Container", slot2), slot0.typeOrder[slot1 + 1])

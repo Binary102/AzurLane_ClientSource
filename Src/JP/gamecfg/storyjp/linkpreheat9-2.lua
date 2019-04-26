@@ -8,7 +8,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 312011,
+			actor = 312010,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = -1,
@@ -24,7 +24,7 @@ return {
 			}
 		},
 		{
-			actor = 301051,
+			actor = 301050,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -43,7 +43,7 @@ return {
 			}
 		},
 		{
-			actor = 401231,
+			actor = 401230,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -58,7 +58,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -73,7 +73,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -88,7 +88,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -103,7 +103,7 @@ return {
 			}
 		},
 		{
-			actor = 101171,
+			actor = 101170,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -118,7 +118,7 @@ return {
 			}
 		},
 		{
-			actor = 201211,
+			actor = 201210,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -133,7 +133,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -148,7 +148,7 @@ return {
 			}
 		},
 		{
-			actor = 10300011,
+			actor = 10300010,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -163,7 +163,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -178,7 +178,7 @@ return {
 			}
 		},
 		{
-			actor = 10300021,
+			actor = 10300020,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -196,7 +196,7 @@ return {
 			compulsory = true,
 			side = 2,
 			dir = -1,
-			actor = 312011,
+			actor = 312010,
 			nameColor = "#a9f548",
 			say = "酷なお願いをしているのは百も承知にゃ……でも、頼めないかにゃ？",
 			typewriter = {

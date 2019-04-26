@@ -32,7 +32,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 301164,
+			actor = 301160,
 			actorName = "{namecode:22}",
 			say = "あっはっはっは！今日も雪風様が秘書艦として報告してやるのだ！",
 			typewriter = {
@@ -64,7 +64,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 301164,
+			actor = 301160,
 			actorName = "{namecode:22}",
 			say = "ふん！この雪風様がいないと仕事ちゃんとできないのだな？",
 			typewriter = {
@@ -95,7 +95,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 301164,
+			actor = 301160,
 			actorName = "{namecode:22}",
 			say = "ふん！指揮官もようやくこの雪風様のありがたみを理解できるようになったのだな！",
 			typewriter = {
@@ -112,7 +112,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 301164,
+			actor = 301160,
 			actorName = "{namecode:22}",
 			say = "そんな物分りのいい指揮官のために、雪風様がもうすこし頑張ってやらなくもないのだぞ！",
 			typewriter = {
@@ -129,7 +129,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 301164,
+			actor = 301160,
 			actorName = "{namecode:22}",
 			say = "ほら、雪風様をもっともっと褒めるのだ♪",
 			typewriter = {
@@ -156,7 +156,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 301164,
+			actor = 301160,
 			actorName = "{namecode:22}",
 			say = "えへへ……わぅわぅ……",
 			typewriter = {
@@ -193,7 +193,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = -1,
 			actorName = "{namecode:143}",
-			actor = 301604,
+			actor = 301600,
 			nameColor = "#a9f548",
 			say = "浦風さま！磯風も指揮官にモフモフさせたい！",
 			flashout = {
@@ -228,7 +228,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = -1,
-			actor = 301594,
+			actor = 301590,
 			actorName = "{namecode:142}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -248,7 +248,7 @@ return {
 			side = 0,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 301614,
+			actor = 301610,
 			actorName = "{namecode:128}",
 			say = "お、おちたのね……",
 			typewriter = {
@@ -265,7 +265,7 @@ return {
 			side = 1,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 301624,
+			actor = 301620,
 			actorName = "{namecode:127}",
 			say = "雪風ちゃん……よかったです……",
 			typewriter = {
@@ -293,7 +293,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actorName = "{namecode:22}",
-			actor = 301164,
+			actor = 301160,
 			nameColor = "#a9f548",
 			say = "しきかーん、もっとモフモフしていいのだぞー♪",
 			flashout = {

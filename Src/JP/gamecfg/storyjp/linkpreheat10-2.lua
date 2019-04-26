@@ -42,7 +42,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 10300011,
+			actor = 10300010,
 			actorName = "クオン？",
 			say = "…………",
 			typewriter = {

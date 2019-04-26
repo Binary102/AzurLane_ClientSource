@@ -23,7 +23,7 @@ return {
 			bgmDelay = 2,
 			bgName = "bg_story_nepu1",
 			bgm = "level",
-			actor = 107221,
+			actor = 107220,
 			nameColor = "#a9f548",
 			say = "くっ…思ったより艦隊の連携が難しいな……",
 			flashout = {
@@ -53,7 +53,7 @@ return {
 			}
 		},
 		{
-			actor = 107221,
+			actor = 107220,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -73,7 +73,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 107221,
+			actor = 107220,
 			nameColor = "#a9f548",
 			say = "やはり軽空母の指揮運用には限界があるというのか……",
 			typewriter = {
@@ -90,7 +90,7 @@ return {
 			side = 1,
 			bgName = "bg_story_nepu1",
 			dir = -1,
-			actor = 107381,
+			actor = 107380,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -106,7 +106,7 @@ return {
 			}
 		},
 		{
-			actor = 107221,
+			actor = 107220,
 			side = 0,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -126,7 +126,7 @@ return {
 			side = 1,
 			bgName = "bg_story_nepu1",
 			dir = -1,
-			actor = 107381,
+			actor = 107380,
 			nameColor = "#a9f548",
 			say = "はい、恐縮ですが、観察者としてインディペンデンスさんの今直面している問題を分析させていただきますと……",
 			typewriter = {
@@ -139,7 +139,7 @@ return {
 			}
 		},
 		{
-			actor = 107381,
+			actor = 107380,
 			side = 1,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -159,7 +159,7 @@ return {
 			side = 1,
 			bgName = "bg_story_nepu1",
 			dir = -1,
-			actor = 107381,
+			actor = 107380,
 			nameColor = "#a9f548",
 			say = "もしかして…焦っていませんか？このまま接敵すれば大変な事になるような気がします…",
 			typewriter = {
@@ -176,7 +176,7 @@ return {
 			side = 0,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 107221,
+			actor = 107220,
 			nameColor = "#a9f548",
 			say = "私が…焦っている？わかった。忠告、感謝する",
 			typewriter = {
@@ -189,7 +189,7 @@ return {
 			}
 		},
 		{
-			actor = 107381,
+			actor = 107380,
 			side = 1,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -205,7 +205,7 @@ return {
 			}
 		},
 		{
-			actor = 107221,
+			actor = 107220,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -225,7 +225,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 107221,
+			actor = 107220,
 			nameColor = "#a9f548",
 			say = "（エセックス相手なら確かにそれが重要だ。でもどうやって……）",
 			typewriter = {
@@ -241,7 +241,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 102091,
+			actor = 102090,
 			nameColor = "#a9f548",
 			say = "おっ？インディペンデンス？なんか思い悩んでることでもある？",
 			typewriter = {
@@ -268,7 +268,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 107221,
+			actor = 107220,
 			nameColor = "#a9f548",
 			say = "（クリーブランド…？ここは素直に聞くべきか。ネームシップの彼女なら何かコツを知ってそうだ）",
 			typewriter = {
@@ -281,7 +281,7 @@ return {
 			}
 		},
 		{
-			actor = 107221,
+			actor = 107220,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -302,7 +302,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			actor = 102091,
+			actor = 102090,
 			nameColor = "#a9f548",
 			say = "なるほど、仲間との連携の取り方か……",
 			flashout = {
@@ -335,7 +335,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 102091,
+			actor = 102090,
 			nameColor = "#a9f548",
 			say = "そりゃ……",
 			typewriter = {
@@ -358,7 +358,7 @@ return {
 			}
 		},
 		{
-			actor = 102101,
+			actor = 102100,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -374,7 +374,7 @@ return {
 			}
 		},
 		{
-			actor = 102141,
+			actor = 102140,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -393,7 +393,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 102091,
+			actor = 102090,
 			nameColor = "#a9f548",
 			say = "あれ？みんないつの間に？",
 			typewriter = {
@@ -416,7 +416,7 @@ return {
 			}
 		},
 		{
-			actor = 102151,
+			actor = 102150,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -432,7 +432,7 @@ return {
 			}
 		},
 		{
-			actor = 107221,
+			actor = 107220,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -448,7 +448,7 @@ return {
 			}
 		},
 		{
-			actor = 102151,
+			actor = 102150,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -464,7 +464,7 @@ return {
 			}
 		},
 		{
-			actor = 102151,
+			actor = 102150,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -480,7 +480,7 @@ return {
 			}
 		},
 		{
-			actor = 102151,
+			actor = 102150,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -500,7 +500,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 107221,
+			actor = 107220,
 			nameColor = "#a9f548",
 			say = "えっ、今？でもこのあとの演習が――",
 			typewriter = {
@@ -523,7 +523,7 @@ return {
 			}
 		},
 		{
-			actor = 102101,
+			actor = 102100,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -543,7 +543,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 107221,
+			actor = 107220,
 			nameColor = "#a9f548",
 			say = "わ、わかった……",
 			typewriter = {
@@ -556,7 +556,7 @@ return {
 			}
 		},
 		{
-			actor = 102091,
+			actor = 102090,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -575,7 +575,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 102091,
+			actor = 102090,
 			nameColor = "#a9f548",
 			say = "ってちがーう！相談されたのは私だってば！全然いいとこ見せられなかったじゃないか！",
 			typewriter = {
@@ -598,7 +598,7 @@ return {
 			}
 		},
 		{
-			actor = 102141,
+			actor = 102140,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -614,7 +614,7 @@ return {
 			}
 		},
 		{
-			actor = 107221,
+			actor = 107220,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -630,7 +630,7 @@ return {
 			}
 		},
 		{
-			actor = 107221,
+			actor = 107220,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,

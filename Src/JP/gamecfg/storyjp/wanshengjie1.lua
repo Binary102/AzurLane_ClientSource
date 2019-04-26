@@ -16,7 +16,7 @@ return {
 			}
 		},
 		{
-			actor = 306051,
+			actor = 306050,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
@@ -37,7 +37,7 @@ return {
 			actorName = "{namecode:87}",
 			dir = 1,
 			blackBg = true,
-			actor = 306051,
+			actor = 306050,
 			nameColor = "#a9f548",
 			withoutPainting = true,
 			typewriter = {
@@ -53,7 +53,7 @@ return {
 			actorName = "{namecode:87}",
 			side = 2,
 			dir = 1,
-			actor = 900038,
+			actor = 306051,
 			nameColor = "#a9f548",
 			say = "えへへ、やっぱうちは美人になる素質あるんやな！",
 			flashout = {
@@ -83,7 +83,7 @@ return {
 			}
 		},
 		{
-			actor = 900038,
+			actor = 306051,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
@@ -102,7 +102,7 @@ return {
 			actorName = "{namecode:87}",
 			side = 2,
 			dir = 1,
-			actor = 900038,
+			actor = 306051,
 			nameColor = "#a9f548",
 			say = "カボチャスープ……うげ！またカボチャやんか！昨日はカボチャの煮込み、一昨日はパンプキンパイ――うち、カボチャはもう嫌や！",
 			flashout = {
@@ -136,7 +136,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 301051,
+			actor = 301050,
 			actorName = "{namecode:6}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -152,7 +152,7 @@ return {
 			}
 		},
 		{
-			actor = 900038,
+			actor = 306051,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -168,7 +168,7 @@ return {
 			}
 		},
 		{
-			actor = 301051,
+			actor = 301050,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
@@ -184,7 +184,7 @@ return {
 			}
 		},
 		{
-			actor = 900038,
+			actor = 306051,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -200,7 +200,7 @@ return {
 			}
 		},
 		{
-			actor = 301051,
+			actor = 301050,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
@@ -216,7 +216,7 @@ return {
 			}
 		},
 		{
-			actor = 900038,
+			actor = 306051,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -232,7 +232,7 @@ return {
 			}
 		},
 		{
-			actor = 301051,
+			actor = 301050,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
@@ -248,7 +248,7 @@ return {
 			}
 		},
 		{
-			actor = 900038,
+			actor = 306051,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -264,7 +264,7 @@ return {
 			}
 		},
 		{
-			actor = 301051,
+			actor = 301050,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
@@ -280,7 +280,7 @@ return {
 			}
 		},
 		{
-			actor = 900038,
+			actor = 306051,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -296,7 +296,7 @@ return {
 			}
 		},
 		{
-			actor = 301051,
+			actor = 301050,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
@@ -312,7 +312,7 @@ return {
 			}
 		},
 		{
-			actor = 900038,
+			actor = 306051,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -331,7 +331,7 @@ return {
 			actorName = "{namecode:95}",
 			side = 2,
 			dir = 1,
-			actor = 307054,
+			actor = 307050,
 			nameColor = "#a9f548",
 			say = "私は別に……調査、がんばってくださいね～",
 			flashout = {
@@ -364,7 +364,7 @@ return {
 			actorName = "{namecode:98}",
 			side = 2,
 			dir = 1,
-			actor = 312011,
+			actor = 312010,
 			nameColor = "#a9f548",
 			say = "カボチャ？カボチャは美味しいにゃ～食べ物の無駄遣いは重罪にゃ～祥鳳はもっとカボチャを食べるにゃ～",
 			flashout = {
@@ -397,7 +397,7 @@ return {
 			actorName = "{namecode:96}",
 			side = 2,
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			nameColor = "#a9f548",
 			say = "天ぷら？そ、そんなことはないよ！あれは冬越しの食料備蓄だから！",
 			flashout = {
@@ -430,7 +430,7 @@ return {
 			actorName = "{namecode:87}",
 			side = 2,
 			dir = 1,
-			actor = 900038,
+			actor = 306051,
 			nameColor = "#a9f548",
 			say = "重桜のみな……何か変やな…",
 			flashout = {
@@ -460,7 +460,7 @@ return {
 			}
 		},
 		{
-			actor = 900038,
+			actor = 306051,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
@@ -481,7 +481,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actorName = "？？？",
-			actor = 307064,
+			actor = 307060,
 			nameColor = "#a9f548",
 			withoutPainting = true,
 			flashout = {

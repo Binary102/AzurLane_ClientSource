@@ -4,7 +4,7 @@ return {
 	once = true,
 	scripts = {
 		{
-			actor = 401461,
+			actor = 401460,
 			side = 2,
 			nameColor = "#ff0000",
 			say = "…終わり…実戦経験の不足が決め手となったか。設計上の対空優勢を上手く発揮するべきだったな。",
@@ -22,7 +22,7 @@ return {
 			}
 		},
 		{
-			actor = 401461,
+			actor = 401460,
 			side = 2,
 			nameColor = "#ff0000",
 			say = "だが…君達の世界はよもやこうも予想と違えるとは！面白い！",
@@ -40,7 +40,7 @@ return {
 			}
 		},
 		{
-			actor = 401461,
+			actor = 401460,
 			side = 2,
 			nameColor = "#ff0000",
 			say = "次会う時は…また…遊んでくれる…か？",

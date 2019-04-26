@@ -8,7 +8,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgm = "level-uta",
-			actor = 10300061,
+			actor = 10300060,
 			nameColor = "#a9f548",
 			say = "フフフ、ここはお姉ちゃんにお任せあれ",
 			flashin = {
@@ -34,7 +34,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			actor = 10300011,
+			actor = 10300010,
 			say = "フミルィル？まさか、本当に一人で行くつもり？",
 			typewriter = {
 				speed = 0.05,
@@ -46,7 +46,7 @@ return {
 			}
 		},
 		{
-			actor = 10300061,
+			actor = 10300060,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -65,7 +65,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			actor = 10300061,
+			actor = 10300060,
 			say = "こんな危険なお役目、クーちゃんや年下の子たちには任せられませんからね",
 			typewriter = {
 				speed = 0.05,
@@ -81,7 +81,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			actor = 10300061,
+			actor = 10300060,
 			say = "ここはひとつ、みんなのお姉さんが一肌脱ぎましょう（たゆん",
 			typewriter = {
 				speed = 0.05,
@@ -93,7 +93,7 @@ return {
 			}
 		},
 		{
-			actor = 201211,
+			actor = 201210,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -122,7 +122,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			actor = 10300041,
+			actor = 10300040,
 			say = "さすがフミルィル",
 			typewriter = {
 				speed = 0.05,
@@ -134,7 +134,7 @@ return {
 			}
 		},
 		{
-			actor = 10300051,
+			actor = 10300050,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -157,7 +157,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			actor = 10300011,
+			actor = 10300010,
 			say = "フミルィル……無茶だけはしないでね",
 			typewriter = {
 				speed = 0.05,
@@ -169,7 +169,7 @@ return {
 			}
 		},
 		{
-			actor = 10300061,
+			actor = 10300060,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -184,7 +184,7 @@ return {
 			}
 		},
 		{
-			actor = 401231,
+			actor = 401230,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -199,7 +199,7 @@ return {
 			}
 		},
 		{
-			actor = 301051,
+			actor = 301050,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -214,7 +214,7 @@ return {
 			}
 		},
 		{
-			actor = 10300061,
+			actor = 10300060,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,

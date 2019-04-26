@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 307061,
+			actor = 307060,
 			side = 2,
 			stopbgm = true,
 			dir = 1,
@@ -32,7 +32,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 2,
 			dir = 1,
 			say = "お主、五航戦の瑞鶴と見た。ここに何用じゃ？",
@@ -46,7 +46,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			side = 2,
 			dir = 1,
 			say = "……ズバリ！私達の仲間になって！",
@@ -60,7 +60,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 2,
 			dir = 1,
 			say = "断る！",
@@ -74,7 +74,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			side = 2,
 			dir = 1,
 			say = "きっぱり断られた！？",
@@ -88,7 +88,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 2,
 			dir = 1,
 			say = "あのお方が余に「重桜」を託した。ゆえに余は重桜を守りし者として、この躰が錆び果てるまで――",
@@ -102,7 +102,7 @@ return {
 			}
 		},
 		{
-			actor = 305061,
+			actor = 305060,
 			side = 2,
 			dir = 1,
 			say = "長門姉……",
@@ -116,7 +116,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			side = 2,
 			dir = 1,
 			say = "それは…あなた自身が選んだ道なの？",
@@ -130,7 +130,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 2,
 			dir = 1,
 			say = "余は……全ては余を信じる重桜の民、そして余の不徳への償いのため。余の意志など不要なのだ。",
@@ -144,7 +144,7 @@ return {
 			}
 		},
 		{
-			actor = 305111,
+			actor = 305110,
 			side = 2,
 			dir = 1,
 			say = "この未熟者！",
@@ -158,7 +158,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 2,
 			dir = 1,
 			say = "あぅ！？",
@@ -182,7 +182,7 @@ return {
 			}
 		},
 		{
-			actor = 305111,
+			actor = 305110,
 			side = 2,
 			dir = 1,
 			say = "この変革の時世にして、戦艦でありながら我が身を奮わせず、ここで座して死を待つなど、宝の持ち腐れとは思わぬのか！",
@@ -196,7 +196,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 2,
 			dir = 1,
 			say = "あ、あなたは……",
@@ -220,7 +220,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 2,
 			dir = 1,
 			say = "み、三笠さま！？",
@@ -244,7 +244,7 @@ return {
 			}
 		},
 		{
-			actor = 305111,
+			actor = 305110,
 			side = 2,
 			dir = 1,
 			say = "その諸国を震わせた四一糎砲、そしてその天までそびえる艦橋、半端な攻撃など容易く弾き飛ばす装甲……",
@@ -276,7 +276,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 2,
 			dir = 1,
 			say = "よ、余は別に……三笠さまはなぜここに？",
@@ -290,7 +290,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			side = 2,
 			dir = 1,
 			say = "ええと、話が長くなりそうだし、とりあえず私達と一緒に来て、あとでゆっくりと…",
@@ -313,7 +313,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 2,
 			dir = 1,
 			say = "み、三笠さま、余は…連合艦隊の旗艦を任されてから、三笠さまのように……",
@@ -327,7 +327,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 2,
 			dir = 1,
 			say = "偉大なる旗艦になろうとしてたけど…でも……",
@@ -341,7 +341,7 @@ return {
 			}
 		},
 		{
-			actor = 305111,
+			actor = 305110,
 			side = 2,
 			dir = 1,
 			say = "言葉はいらん。我と共に戦おう。",
@@ -355,7 +355,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 2,
 			dir = 1,
 			say = "え？…",
@@ -379,7 +379,7 @@ return {
 			}
 		},
 		{
-			actor = 305111,
+			actor = 305110,
 			side = 2,
 			dir = 1,
 			say = "その砲身を見た時に確信した。この世界で生まれてからずっとその主砲を撃つ機会はなかったのだろう？",
@@ -393,7 +393,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 2,
 			dir = 1,
 			say = "……！",
@@ -416,7 +416,7 @@ return {
 			}
 		},
 		{
-			actor = 305111,
+			actor = 305110,
 			side = 2,
 			dir = 1,
 			say = "戦艦たるもの、主砲を鳴らせ、大洋を駆けるべし。この三笠を継ぐものが主砲を撃たぬまま錆び果てるのは見るに堪えん。",
@@ -430,7 +430,7 @@ return {
 			}
 		},
 		{
-			actor = 305111,
+			actor = 305110,
 			side = 2,
 			dir = 1,
 			say = "時には千の言葉より、一戦交えた方が互いの真心がわかる事もある。",
@@ -444,7 +444,7 @@ return {
 			}
 		},
 		{
-			actor = 305111,
+			actor = 305110,
 			side = 2,
 			dir = 1,
 			say = "そっちの…妹か？どうだ？そっちも混ざってみないか？",
@@ -458,7 +458,7 @@ return {
 			}
 		},
 		{
-			actor = 305061,
+			actor = 305060,
 			side = 2,
 			dir = 1,
 			say = "はい！えへへ、この日をずっと待ってたんだ！",
@@ -472,7 +472,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 2,
 			dir = 1,
 			say = "……",
@@ -504,7 +504,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -519,7 +519,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -534,7 +534,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -554,7 +554,7 @@ return {
 			dir = 1,
 			bgName = "bg_story_nagato4",
 			bgm = "nagato-boss",
-			actor = 305051,
+			actor = 305050,
 			say = "良かろう！実戦経験がなくとも、全力で向かおうぞ！",
 			flashout = {
 				dur = 1,
@@ -583,7 +583,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 2,
 			bgName = "bg_story_nagato4",
 			withoutPainting = true,

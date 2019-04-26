@@ -60,7 +60,7 @@ return {
 			}
 		},
 		{
-			actor = 103081,
+			actor = 103080,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -80,7 +80,7 @@ return {
 			side = 1,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 103101,
+			actor = 103100,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -96,7 +96,7 @@ return {
 			}
 		},
 		{
-			actor = 103081,
+			actor = 103080,
 			side = 0,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -112,7 +112,7 @@ return {
 			}
 		},
 		{
-			actor = 103101,
+			actor = 103100,
 			side = 1,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -145,7 +145,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 103102,
+			actor = 103100,
 			nameColor = "#a9f548",
 			say = "指揮官、ヘルプミー……",
 			typewriter = {
@@ -164,7 +164,7 @@ return {
 			}
 		},
 		{
-			actor = 103081,
+			actor = 103080,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -208,7 +208,7 @@ return {
 			}
 		},
 		{
-			actor = 103081,
+			actor = 103080,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -224,7 +224,7 @@ return {
 			}
 		},
 		{
-			actor = 103081,
+			actor = 103080,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -254,7 +254,7 @@ return {
 			}
 		},
 		{
-			actor = 103101,
+			actor = 103100,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",

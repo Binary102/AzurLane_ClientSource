@@ -60,6 +60,8 @@ function slot2(slot0)
 	slot0.quadState = slot1
 	slot1 = nil
 	slot0.quadClickProxy = slot1
+	slot1 = {}
+	slot0.endAniFlag = slot1
 end
 
 slot0.init = slot2
@@ -290,6 +292,11 @@ function slot2(slot0)
 	slot10(slot11)
 
 	slot11 = slot0
+	slot10 = slot0.updateCellFlagList
+
+	slot10(slot11)
+
+	slot11 = slot0
 	slot10 = slot0.initFleets
 
 	slot10(slot11)
@@ -400,6 +407,9 @@ function slot2(slot0)
 		slot2 = nil
 		slot0.dragTrigger = slot2
 	end
+
+	slot2 = {}
+	slot0.endAniFlag = slot2
 end
 
 slot0.clearAll = slot2
@@ -986,9 +996,192 @@ function slot2(slot0)
 
 		slot30(slot31, slot32, slot33)
 	end
+
+	slot26 = slot2.seaBase
+
+	if slot26 then
+		slot27 = slot5
+		slot26 = slot5.Find
+		slot28 = "seaBase/sea"
+		slot26 = slot26(slot27, slot28)
+		slot27 = GetSpriteFromAtlas
+		slot28 = "chapter/pic/"
+		slot29 = slot2.seaBase
+		slot28 = slot28 .. slot29
+		slot29 = slot2.seaBase
+		slot27 = slot27(slot28, slot29)
+
+		if slot27 then
+			slot28 = setImageSprite
+			slot29 = slot26
+			slot30 = slot27
+			slot31 = false
+
+			slot28(slot29, slot30, slot31)
+
+			slot28 = setImageAlpha
+			slot29 = slot26
+			slot30 = 1
+
+			slot28(slot29, slot30)
+		end
+
+		slot29 = slot5
+		slot28 = slot5.Find
+		slot30 = "mask"
+		slot28 = slot28(slot29, slot30)
+		slot29 = GetOrAddComponent
+		slot30 = slot28
+		slot31 = "RawImage"
+		slot29 = slot29(slot30, slot31)
+		slot30 = UnityEngine
+		slot30 = slot30.Rect
+		slot30 = slot30.New
+		slot31 = 0.005
+		slot32 = 0.007
+		slot33 = 1
+		slot34 = -1
+		slot30 = slot30(slot31, slot32, slot33, slot34)
+		slot29.uvRect = slot30
+	end
 end
 
 slot0.initPlane = slot2
+
+function slot2(slot0)
+	slot2 = slot0
+	slot1 = slot0.findTF
+	slot3 = "plane/display/mask"
+	slot1 = slot1(slot2, slot3)
+	slot2 = GetOrAddComponent
+	slot3 = slot1
+	slot4 = "RawImage"
+	slot2 = slot2(slot3, slot4)
+	slot4 = slot0
+	slot3 = slot0.getPoisonTex
+	slot3 = slot3(slot4)
+	slot2.texture = slot3
+end
+
+slot0.updatePoisonArea = slot2
+
+function slot2(slot0)
+	slot1 = slot0.contextData
+	slot1 = slot1.chapterVO
+	slot3 = slot0
+	slot2 = slot0.findTF
+	slot4 = "plane/display"
+	slot2 = slot2(slot3, slot4)
+	slot3 = slot2.sizeDelta
+	slot3 = slot3.x
+	slot4 = slot2.sizeDelta
+	slot4 = slot4.y
+	slot3 = slot3 / slot4
+	slot4 = 100
+	slot5 = math
+	slot5 = slot5.floor
+	slot6 = slot4 / slot3
+	slot5 = slot5(slot6)
+	slot6 = nil
+	slot7 = slot0.preChapterId
+	slot8 = slot1.id
+
+	if slot7 ~= slot8 then
+		slot7 = UnityEngine
+		slot7 = slot7.Texture2D
+		slot7 = slot7.New
+		slot8 = slot4
+		slot9 = slot5
+		slot7 = slot7(slot8, slot9)
+		slot6 = slot7
+		slot0.maskTexture = slot6
+		slot7 = slot1.id
+		slot0.preChapterId = slot7
+	else
+		slot6 = slot0.maskTexture
+	end
+
+	slot7 = {}
+	slot9 = slot1
+	slot8 = slot1.getPoisonArea
+	slot10 = slot2.sizeDelta
+	slot10 = slot10.x
+	slot10 = slot4 / slot10
+	slot8 = slot8(slot9, slot10)
+	slot9 = slot0.poisonRectDir
+
+	if slot9 == nil then
+		slot7 = slot8
+	else
+		slot9 = pairs
+		slot10 = slot8
+		slot9, slot10, slot11 = slot9(slot10)
+
+		for slot12, slot13 in slot9, slot10, slot11 do
+			slot14 = slot0.poisonRectDir
+			slot14 = slot14[slot12]
+
+			if slot14 == nil then
+				slot7[slot12] = slot13
+			end
+		end
+	end
+
+	function slot9(slot0)
+		slot1 = slot0.x
+		slot2 = slot0.w
+		slot3 = slot0.x
+		slot2 = slot2 + slot3
+		slot3 = 1
+
+		for slot4 = slot1, slot2, slot3 do
+			slot5 = slot0.y
+			slot6 = slot0.h
+			slot7 = slot0.y
+			slot6 = slot6 + slot7
+			slot7 = 1
+
+			for slot8 = slot5, slot6, slot7 do
+				slot9 = slot0
+				slot10 = slot9
+				slot9 = slot9.SetPixel
+				slot11 = slot4
+				slot12 = slot8
+				slot13 = Color
+				slot13 = slot13.New
+				slot14 = 1
+				slot15 = 1
+				slot16 = 1
+				slot17 = 0
+
+				slot9(slot10, slot11, slot12, slot13(slot14, slot15, slot16, slot17))
+			end
+		end
+	end
+
+	drawArea = slot9
+	slot9 = pairs
+	slot10 = slot7
+	slot9, slot10, slot11 = slot9(slot10)
+
+	for slot12, slot13 in slot9, slot10, slot11 do
+		slot14 = drawArea
+		slot15 = slot13
+
+		slot14(slot15)
+	end
+
+	slot10 = slot6
+	slot9 = slot6.Apply
+
+	slot9(slot10)
+
+	slot0.poisonRectDir = slot8
+
+	return slot6
+end
+
+slot0.getPoisonTex = slot2
 
 function slot2(slot0)
 	slot2 = slot0
@@ -1042,16 +1235,25 @@ function slot2(slot0)
 
 	slot3(slot4)
 
-	slot3 = PoolMgr
-	slot3 = slot3.GetInstance
-	slot3 = slot3()
-	slot4 = slot3
-	slot3 = slot3.ReturnPrefab
-	slot5 = "chapter/plane"
-	slot6 = "plane"
-	slot7 = slot1.gameObject
+	slot4 = slot1
+	slot3 = slot1.Find
+	slot5 = "display/seaBase/sea"
+	slot3 = slot3(slot4, slot5)
+	slot4 = clearImageSprite
+	slot5 = slot3
 
-	slot3(slot4, slot5, slot6, slot7)
+	slot4(slot5)
+
+	slot4 = PoolMgr
+	slot4 = slot4.GetInstance
+	slot4 = slot4()
+	slot5 = slot4
+	slot4 = slot4.ReturnPrefab
+	slot6 = "chapter/plane"
+	slot7 = "plane"
+	slot8 = slot1.gameObject
+
+	slot4(slot5, slot6, slot7, slot8)
 end
 
 slot0.clearPlane = slot2
@@ -1249,6 +1451,21 @@ function slot2(slot0)
 end
 
 slot0.initFleets = slot2
+
+function slot2(slot0, slot1, slot2)
+	slot3 = slot0.cellFleets
+	slot3 = slot3[slot1]
+
+	if slot3 then
+		slot5 = slot3
+		slot4 = slot3.showPoisonDamage
+		slot6 = slot2
+
+		slot4(slot5, slot6)
+	end
+end
+
+slot0.showFleetPoisonDamage = slot2
 
 function slot2(slot0)
 	slot1 = slot0.contextData
@@ -3161,6 +3378,61 @@ slot0.updateAttachments = slot2
 function slot2(slot0)
 	slot1 = slot0.contextData
 	slot1 = slot1.chapterVO
+	slot2 = slot1.cells
+	slot3 = {}
+	slot4 = pairs
+	slot5 = slot2
+	slot4, slot5, slot6 = slot4(slot5)
+
+	for slot7, slot8 in slot4, slot5, slot6 do
+		slot10 = slot8
+		slot9 = slot8.checkHadFlag
+		slot11 = ChapterConst
+		slot11 = slot11.FlagBanaiAirStrike
+		slot9 = slot9(slot10, slot11)
+
+		if slot9 then
+			slot9 = table
+			slot9 = slot9.insert
+			slot10 = slot3
+			slot11 = slot8
+
+			slot9(slot10, slot11)
+		end
+	end
+
+	slot5 = slot0
+	slot4 = slot0.hideQuadMark
+	slot6 = ChapterConst
+	slot6 = slot6.MarkBanaiAirStrike
+
+	slot4(slot5, slot6)
+
+	slot5 = slot0
+	slot4 = slot0.showQuadMark
+	slot6 = slot3
+	slot7 = ChapterConst
+	slot7 = slot7.MarkBanaiAirStrike
+	slot8 = "cell_coastal_gun"
+	slot9 = Vector2
+	slot10 = 110
+	slot11 = 110
+	slot9 = slot9(slot10, slot11)
+	slot10 = true
+
+	slot4(slot5, slot6, slot7, slot8, slot9, slot10)
+
+	slot5 = slot0
+	slot4 = slot0.updatePoisonArea
+
+	slot4(slot5)
+end
+
+slot0.updateCellFlagList = slot2
+
+function slot2(slot0)
+	slot1 = slot0.contextData
+	slot1 = slot1.chapterVO
 	slot2 = slot1.cellAttachments
 	slot3 = ipairs
 	slot4 = slot2
@@ -3832,6 +4104,20 @@ function slot2(slot0, slot1, slot2)
 									slot19 = slot11
 									slot16 = slot16(slot17, slot18, slot19)
 									slot13 = slot16
+
+									if slot10 ~= "" then
+										slot16 = setActive
+										slot17 = findTF
+										slot18 = slot13
+										slot19 = "labels/"
+										slot20 = slot10
+										slot19 = slot19 .. slot20
+										slot17 = slot17(slot18, slot19)
+										slot18 = true
+
+										slot16(slot17, slot18)
+									end
+
 									slot16 = slot9.icon_type
 
 									if slot16 == 1 then
@@ -3850,19 +4136,6 @@ function slot2(slot0, slot1, slot2)
 										slot21 = "icon"
 
 										slot16(slot17, slot18, slot19(slot20, slot21))
-
-										if slot10 ~= "" then
-											slot16 = setActive
-											slot17 = findTF
-											slot18 = slot13
-											slot19 = "labels/"
-											slot20 = slot10
-											slot19 = slot19 .. slot20
-											slot17 = slot17(slot18, slot19)
-											slot18 = true
-
-											slot16(slot17, slot18)
-										end
 
 										slot16 = setText
 										slot17 = findTF
@@ -3989,6 +4262,37 @@ function slot2(slot0, slot1, slot2)
 										slot18 = false
 
 										slot16(slot17, slot18)
+									end
+
+									slot16 = findTF
+									slot17 = slot13
+									slot18 = "random_buff_container"
+									slot16 = slot16(slot17, slot18)
+									slot17 = slot9.bufficon
+									slot17 = #slot17
+									slot18 = 0
+
+									if slot17 > slot18 then
+										slot17 = setActive
+										slot18 = slot16
+										slot19 = true
+
+										slot17(slot18, slot19)
+
+										slot17 = ipairs
+										slot18 = slot9.bufficon
+										slot17, slot18, slot19 = slot17(slot18)
+
+										for slot20, slot21 in slot17, slot18, slot19 do
+											slot22 = setActive
+											slot23 = findTF
+											slot24 = slot16
+											slot25 = slot21
+											slot23 = slot23(slot24, slot25)
+											slot24 = true
+
+											slot22(slot23, slot24)
+										end
 									end
 								end
 
@@ -4217,917 +4521,997 @@ function slot2(slot0, slot1, slot2)
 												end
 											end
 										end
+									end
+								end
+							end
+						end
+					else
+						slot9 = slot4.attachment
+						slot10 = ChapterConst
+						slot10 = slot10.AttachBox
 
-										return
+						if slot9 == slot10 then
+							slot9 = pg
+							slot9 = slot9.box_data_template
+							slot10 = slot4.attachmentId
+							slot9 = slot9[slot10]
+							slot10 = "box_"
+							slot11 = slot4.attachmentId
+							slot10 = slot10 .. slot11
+							slot12 = slot7
+							slot11 = slot7.Find
+							slot13 = slot10
+							slot11 = slot11(slot12, slot13)
+							slot12 = slot4.flag
 
+							if slot12 == 0 then
+								slot12 = IsNil
+								slot13 = slot11
+								slot12 = slot12(slot13)
+
+								if slot12 then
+									slot12 = cloneTplTo
+									slot13 = slot0.boxTpl
+									slot14 = slot7
+									slot15 = slot10
+									slot12 = slot12(slot13, slot14, slot15)
+									slot11 = slot12
+									slot12 = Vector2
+									slot13 = 0
+									slot14 = 30
+									slot12 = slot12(slot13, slot14)
+									slot11.anchoredPosition = slot12
+									slot12 = PoolMgr
+									slot12 = slot12.GetInstance
+									slot12 = slot12()
+									slot13 = slot12
+									slot12 = slot12.GetPrefab
+									slot14 = "boxprefab/"
+									slot15 = slot9.icon
+									slot14 = slot14 .. slot15
+									slot15 = slot9.icon
+									slot16 = false
+
+									function slot17(slot0)
+										slot1 = slot0.transform
+										slot2 = slot1
+										slot1 = slot1.SetParent
+										slot3 = slot0
+										slot4 = slot3
+										slot3 = slot3.Find
+										slot5 = "icon"
+										slot3 = slot3(slot4, slot5)
+										slot4 = false
+
+										slot1(slot2, slot3, slot4)
+									end
+
+									slot12(slot13, slot14, slot15, slot16, slot17)
+
+									slot12 = slot9.type
+									slot13 = ChapterConst
+									slot13 = slot13.BoxTorpedo
+
+									if slot12 ~= slot13 then
+										slot12 = LeanTween
+										slot12 = slot12.moveY
+										slot13 = slot11
+										slot14 = 40
+										slot15 = 1.5
+										slot12 = slot12(slot13, slot14, slot15)
+										slot13 = slot12
+										slot12 = slot12.setEase
+										slot14 = LeanTweenType
+										slot14 = slot14.easeInOutSine
+										slot12 = slot12(slot13, slot14)
+										slot13 = slot12
+										slot12 = slot12.setLoopPingPong
+										slot12 = slot12(slot13)
+										slot13 = slot0.attachTws
+										slot14 = {
+											tw = slot12
+										}
+										slot15 = slot12.uniqueId
+										slot14.uniqueId = slot15
+										slot13[slot5] = slot14
+									end
+								end
+
+								setActive(findTF(slot11, "effect_found"), slot4.trait == ChapterConst.TraitVirgin)
+
+								slot12 = slot4.trait
+								slot13 = ChapterConst.TraitVirgin
+
+								if slot12 == slot13 then
+									slot12 = playSoundEffect
+									slot13 = SFX_UI_WEIGHANCHOR_ENEMY
+
+									slot12(slot13)
+								end
+							end
+
+							slot12 = IsNil
+							slot13 = slot11
+							slot12 = slot12(slot13)
+
+							if not slot12 then
+								setActive(slot11, slot4.flag == 0)
+							end
+						else
+							slot9 = slot4.attachment
+							slot10 = ChapterConst
+							slot10 = slot10.AttachSupply
+
+							if slot9 == slot10 then
+								slot9 = "supply"
+								slot11 = slot7
+								slot10 = slot7.Find
+								slot12 = slot9
+								slot10 = slot10(slot11, slot12)
+								slot11 = IsNil
+								slot12 = slot10
+								slot11 = slot11(slot12)
+
+								if slot11 then
+									slot11 = cloneTplTo
+									slot12 = slot0.supplyTpl
+									slot13 = slot7
+									slot14 = slot9
+									slot11 = slot11(slot12, slot13, slot14)
+									slot10 = slot11
+									slot11 = Vector2
+									slot12 = 0
+									slot13 = 30
+									slot11 = slot11(slot12, slot13)
+									slot10.anchoredPosition = slot11
+									slot11 = LeanTween
+									slot11 = slot11.moveY
+									slot12 = slot10
+									slot13 = 40
+									slot14 = 1.5
+									slot11 = slot11(slot12, slot13, slot14)
+									slot12 = slot11
+									slot11 = slot11.setEase
+									slot13 = LeanTweenType
+									slot13 = slot13.easeInOutSine
+									slot11 = slot11(slot12, slot13)
+									slot12 = slot11
+									slot11 = slot11.setLoopPingPong
+									slot11 = slot11(slot12)
+									slot12 = slot0.attachTws
+									slot13 = {
+										tw = slot11
+									}
+									slot14 = slot11.uniqueId
+									slot13.uniqueId = slot14
+									slot12[slot5] = slot13
+								end
+
+								setActive(findTF(slot10, "normal"), slot4.attachmentId > 0)
+
+								slot11 = setActive
+								slot12 = findTF
+								slot13 = slot10
+								slot14 = "empty"
+								slot12 = slot12(slot13, slot14)
+								slot13 = false
+
+								slot11(slot12, slot13)
+							else
+								slot9 = slot4.attachment
+								slot10 = ChapterConst
+								slot10 = slot10.AttachRival
+
+								if slot9 == slot10 then
+									slot9 = ChapterConst
+									slot9 = slot9.Line2RivalName
+									slot10 = slot4.row
+									slot11 = slot4.column
+									slot9 = slot9(slot10, slot11)
+									slot10 = slot0.rivals
+									slot10 = slot10[slot9]
+									slot11 = slot4.flag
+
+									if slot11 == 0 then
+										if not slot10 then
+											slot11 = cloneTplTo
+											slot12 = slot0.rivalTpl
+											slot13 = slot7
+											slot14 = slot9
+											slot11 = slot11(slot12, slot13, slot14)
+											slot12 = Vector2
+											slot13 = 0
+											slot14 = 0
+											slot12 = slot12(slot13, slot14)
+											slot11.anchoredPosition = slot12
+											slot12 = setActive
+											slot13 = slot11
+											slot14 = true
+
+											slot12(slot13, slot14)
+
+											slot12 = slot0.rivals
+											slot13 = RivalCellView
+											slot13 = slot13.New
+											slot14 = slot11.gameObject
+											slot13 = slot13(slot14)
+											slot12[slot9] = slot13
+											slot12 = slot0.rivals
+											slot10 = slot12[slot9]
+											slot13 = slot10
+											slot12 = slot10.setLine
+											slot14 = {}
+											slot15 = slot4.row
+											slot14.row = slot15
+											slot15 = slot4.column
+											slot14.column = slot15
+
+											slot12(slot13, slot14)
+										end
+
+										slot10:setAction(ChapterConst.ShipIdleAction)
+										slot10:setPrefab(slot4.rival.mainShips[1]:getPrefab())
+										slot0:frozen()
+										slot10:loadSpine(function ()
+											slot0:unfrozen()
+										end)
+										setActive(slot10.tfEffectFound, slot4.trait == ChapterConst.TraitVirgin)
+
+										slot11 = slot4.trait
+										slot12 = ChapterConst.TraitVirgin
+
+										if slot11 == slot12 then
+											slot11 = playSoundEffect
+											slot12 = SFX_UI_WEIGHANCHOR_ENEMY
+
+											slot11(slot12)
+										end
+
+										setActive(slot10.tfFighting, slot3:existFleet(FleetType.Normal, slot1, slot2))
+										setText(slot10.tfName, slot4.rival.name)
+										setActive(slot10.tfDamageCount, slot4.data > 0)
+									else
+										slot11 = slot4.flag
+
+										if slot11 == 1 and slot10 then
+											slot12 = slot10
+											slot11 = slot10.unloadSpine
+
+											slot11(slot12)
+										end
+									end
+
+									if slot10 then
+										setActive(slot10.tf, slot4.flag == 0)
+									end
+								else
+									slot9 = slot4.attachment
+									slot10 = ChapterConst
+									slot10 = slot10.AttachTransport_Target
+
+									if slot9 == slot10 then
+										slot9 = "transport_target"
+										slot11 = slot7
+										slot10 = slot7.Find
+										slot12 = slot9
+										slot10 = slot10(slot11, slot12)
+										slot11 = IsNil
+										slot12 = slot10
+										slot11 = slot11(slot12)
+
+										if slot11 then
+											slot11 = cloneTplTo
+											slot12 = slot0.transportTargetTpl
+											slot13 = slot7
+											slot14 = slot9
+											slot11 = slot11(slot12, slot13, slot14)
+											slot10 = slot11
+											slot11 = Vector2
+											slot12 = 0
+											slot13 = 0
+											slot11 = slot11(slot12, slot13)
+											slot10.anchoredPosition = slot11
+											slot11 = LeanTween
+											slot11 = slot11.moveY
+											slot12 = slot10
+											slot13 = 10
+											slot14 = 1.5
+											slot11 = slot11(slot12, slot13, slot14)
+											slot12 = slot11
+											slot11 = slot11.setEase
+											slot13 = LeanTweenType
+											slot13 = slot13.easeInOutSine
+											slot11 = slot11(slot12, slot13)
+											slot12 = slot11
+											slot11 = slot11.setLoopPingPong
+											slot11 = slot11(slot12)
+											slot12 = slot0.attachTws
+											slot13 = {
+												tw = slot11
+											}
+											slot14 = slot11.uniqueId
+											slot13.uniqueId = slot14
+											slot12[slot9] = slot13
+										end
+									else
 										slot9 = slot4.attachment
 										slot10 = ChapterConst
-										slot10 = slot10.AttachBox
+										slot10 = slot10.AttachStory
 
 										if slot9 == slot10 then
-											slot9 = pg
-											slot9 = slot9.box_data_template
-											slot10 = slot4.attachmentId
-											slot9 = slot9[slot10]
-											slot10 = "box_"
+											slot9 = slot4.data
+											slot10 = pg
+											slot10 = slot10.map_event_template
 											slot11 = slot4.attachmentId
-											slot10 = slot10 .. slot11
-											slot12 = slot7
-											slot11 = slot7.Find
-											slot13 = slot10
-											slot11 = slot11(slot12, slot13)
-											slot12 = slot4.flag
+											slot10 = slot10[slot11]
+											slot11 = slot10.icon
+											slot12 = slot10.ship_prefab
+											slot13 = "story_"
+											slot14 = slot1
+											slot15 = "_"
+											slot16 = slot2
+											slot17 = "_"
+											slot18 = slot4.attachmentId
+											slot13 = slot13 .. slot14 .. slot15 .. slot16 .. slot17 .. slot18
+											slot15 = slot7
+											slot14 = slot7.Find
+											slot16 = slot13
+											slot14 = slot14(slot15, slot16)
+											slot16 = slot7
+											slot15 = slot7.Find
+											slot17 = slot11
+											slot15 = slot15(slot16, slot17)
+											slot16 = slot0.cellRoot
+											slot17 = slot16
+											slot16 = slot16.Find
+											slot18 = slot13
+											slot16 = slot16(slot17, slot18)
 
-											if slot12 == 0 then
-												slot12 = IsNil
-												slot13 = slot11
-												slot12 = slot12(slot13)
+											if slot11 ~= "" then
+												slot17 = IsNil
+												slot18 = slot14
+												slot17 = slot17(slot18)
 
-												if slot12 then
-													slot12 = cloneTplTo
-													slot13 = slot0.boxTpl
-													slot14 = slot7
-													slot15 = slot10
-													slot12 = slot12(slot13, slot14, slot15)
-													slot11 = slot12
-													slot12 = Vector2
-													slot13 = 0
-													slot14 = 30
-													slot12 = slot12(slot13, slot14)
-													slot11.anchoredPosition = slot12
-													slot12 = PoolMgr
-													slot12 = slot12.GetInstance
-													slot12 = slot12()
-													slot13 = slot12
-													slot12 = slot12.GetPrefab
-													slot14 = "boxprefab/"
-													slot15 = slot9.icon
-													slot14 = slot14 .. slot15
-													slot15 = slot9.icon
-													slot16 = false
+												if slot17 then
+													slot17 = slot4.data
+													slot18 = ChapterConst
+													slot18 = slot18.Story
 
-													function slot17(slot0)
-														slot1 = slot0.transform
-														slot2 = slot1
-														slot1 = slot1.SetParent
-														slot3 = slot0
-														slot4 = slot3
-														slot3 = slot3.Find
-														slot5 = "icon"
-														slot3 = slot3(slot4, slot5)
-														slot4 = false
+													if slot17 == slot18 then
+														slot17 = GameObject
+														slot17 = slot17.New
+														slot18 = slot13
+														slot17 = slot17(slot18)
+														slot14 = slot17.transform
+														slot18 = slot14
+														slot17 = slot14.SetParent
+														slot19 = slot7
+														slot20 = false
 
-														slot1(slot2, slot3, slot4)
-													end
+														slot17(slot18, slot19, slot20)
 
-													slot12(slot13, slot14, slot15, slot16, slot17)
+														slot17 = cloneTplTo
+														slot18 = slot0.boxTpl
+														slot19 = slot7
+														slot20 = slot11
+														slot17 = slot17(slot18, slot19, slot20)
+														slot15 = slot17
+														slot17 = Vector2
+														slot18 = 0
+														slot19 = 30
+														slot17 = slot17(slot18, slot19)
+														slot15.anchoredPosition = slot17
+														slot17 = PoolMgr
+														slot17 = slot17.GetInstance
+														slot17 = slot17()
+														slot18 = slot17
+														slot17 = slot17.GetPrefab
+														slot19 = "boxprefab/mapevent1"
+														slot20 = "mapevent1"
+														slot21 = false
 
-													slot12 = slot9.type
-													slot13 = ChapterConst
-													slot13 = slot13.BoxTorpedo
+														function slot22(slot0)
+															slot1 = slot0.transform
+															slot2 = slot1
+															slot1 = slot1.SetParent
+															slot3 = slot0
+															slot4 = slot3
+															slot3 = slot3.Find
+															slot5 = "icon"
+															slot3 = slot3(slot4, slot5)
+															slot4 = false
 
-													if slot12 ~= slot13 then
-														slot12 = LeanTween
-														slot12 = slot12.moveY
-														slot13 = slot11
-														slot14 = 40
-														slot15 = 1.5
-														slot12 = slot12(slot13, slot14, slot15)
-														slot13 = slot12
-														slot12 = slot12.setEase
-														slot14 = LeanTweenType
-														slot14 = slot14.easeInOutSine
-														slot12 = slot12(slot13, slot14)
-														slot13 = slot12
-														slot12 = slot12.setLoopPingPong
-														slot12 = slot12(slot13)
-														slot13 = slot0.attachTws
-														slot14 = {
-															tw = slot12
+															slot1(slot2, slot3, slot4)
+														end
+
+														slot17(slot18, slot19, slot20, slot21, slot22)
+
+														if slot11 ~= "mapevent1" then
+															slot17 = PoolMgr
+															slot17 = slot17.GetInstance
+															slot17 = slot17()
+															slot18 = slot17
+															slot17 = slot17.GetPrefab
+															slot19 = "ui/"
+															slot20 = slot11
+															slot21 = "_2"
+															slot19 = slot19 .. slot20 .. slot21
+															slot20 = slot11
+															slot21 = "_2"
+															slot20 = slot20 .. slot21
+															slot21 = false
+
+															function slot22(slot0)
+																slot1 = slot0.transform
+																slot2 = slot1
+																slot1 = slot1.SetParent
+																slot3 = slot0
+																slot4 = false
+
+																slot1(slot2, slot3, slot4)
+
+																slot1 = SetActive
+																slot2 = slot0.transform
+																slot3 = slot2
+																slot2 = slot2.Find
+																slot4 = "Xyz/F"
+																slot2 = slot2(slot3, slot4)
+																slot3 = false
+
+																slot1(slot2, slot3)
+															end
+
+															slot17(slot18, slot19, slot20, slot21, slot22)
+														end
+
+														slot17 = LeanTween
+														slot17 = slot17.moveY
+														slot18 = slot15
+														slot19 = 40
+														slot20 = 1.5
+														slot17 = slot17(slot18, slot19, slot20)
+														slot18 = slot17
+														slot17 = slot17.setEase
+														slot19 = LeanTweenType
+														slot19 = slot19.easeInOutSine
+														slot17 = slot17(slot18, slot19)
+														slot18 = slot17
+														slot17 = slot17.setLoopPingPong
+														slot17 = slot17(slot18)
+														slot18 = slot0.attachTws
+														slot19 = {
+															tw = slot17
 														}
-														slot15 = slot12.uniqueId
-														slot14.uniqueId = slot15
-														slot13[slot5] = slot14
+														slot20 = slot17.uniqueId
+														slot19.uniqueId = slot20
+														slot18[slot5] = slot19
+													else
+														slot17 = slot4.data
+														slot18 = ChapterConst
+														slot18 = slot18.StoryObstacle
+
+														if slot17 == slot18 then
+															slot17 = GameObject
+															slot17 = slot17.New
+															slot18 = slot13
+															slot17 = slot17(slot18)
+															slot14 = slot17.transform
+															slot18 = slot14
+															slot17 = slot14.SetParent
+															slot19 = slot7
+															slot20 = false
+
+															slot17(slot18, slot19, slot20)
+
+															slot17 = PoolMgr
+															slot17 = slot17.GetInstance
+															slot17 = slot17()
+															slot18 = slot17
+															slot17 = slot17.GetPrefab
+															slot19 = "ui/"
+															slot20 = slot11
+															slot21 = "_2"
+															slot19 = slot19 .. slot20 .. slot21
+															slot20 = slot11
+															slot21 = "_2"
+															slot20 = slot20 .. slot21
+															slot21 = false
+
+															function slot22(slot0)
+																slot1 = slot0.transform
+																slot2 = slot1
+																slot1 = slot1.SetParent
+																slot3 = slot0
+																slot4 = false
+
+																slot1(slot2, slot3, slot4)
+															end
+
+															slot17(slot18, slot19, slot20, slot21, slot22)
+														end
 													end
-												end
-
-												setActive(findTF(slot11, "effect_found"), slot4.trait == ChapterConst.TraitVirgin)
-
-												slot12 = slot4.trait
-												slot13 = ChapterConst.TraitVirgin
-
-												if slot12 == slot13 then
-													slot12 = playSoundEffect
-													slot13 = SFX_UI_WEIGHANCHOR_ENEMY
-
-													slot12(slot13)
 												end
 											end
 
-											slot12 = IsNil
-											slot13 = slot11
-											slot12 = slot12(slot13)
+											slot17 = false
+											slot18 = nil
+											slot19 = slot4.data
+											slot20 = ChapterConst
+											slot20 = slot20.Story
 
-											if not slot12 then
-												setActive(slot11, slot4.flag == 0)
+											if slot19 == slot20 then
+												slot17 = slot4.flag == 0
+											else
+												slot19 = slot4.data
+												slot20 = ChapterConst
+												slot20 = slot20.StoryObstacle
+
+												if slot19 == slot20 then
+													slot17 = slot4.flag == 3
+													slot20 = slot0.endAniFlag[slot4.attachment .. "_" .. slot4.attachmentId]
+
+													if slot20 ~= nil then
+														slot20 = slot0.endAniFlag
+														slot20 = slot20[slot19]
+														slot21 = slot4.flag
+
+														if slot20 ~= slot21 and not slot17 then
+															slot20 = pg
+															slot20 = slot20.map_event_template
+															slot21 = slot4.attachmentId
+															slot20 = slot20[slot21]
+
+															if not slot17 and slot20 then
+																slot21 = slot20.animation
+
+																if slot21 then
+																	slot18 = slot20.animation
+																end
+															end
+														end
+													end
+
+													slot20 = slot0.endAniFlag
+													slot21 = slot4.flag
+													slot20[slot19] = slot21
+												else
+													slot19 = slot4.data
+													slot20 = ChapterConst
+													slot20 = slot20.StoryTrigger
+
+													if slot19 == slot20 then
+														slot17 = slot4.flag == 3
+														slot19 = IsNil(slot14)
+													end
+												end
+											end
+
+											if not slot19 then
+												slot19 = setActive
+												slot20 = slot14
+												slot21 = slot17
+
+												slot19(slot20, slot21)
+											end
+
+											slot19 = IsNil
+											slot20 = slot15
+											slot19 = slot19(slot20)
+
+											if not slot19 then
+												slot19 = setActive
+												slot20 = slot15
+												slot21 = slot17
+
+												slot19(slot20, slot21)
+											end
+
+											slot19 = IsNil
+											slot20 = slot16
+											slot19 = slot19(slot20)
+
+											if not slot19 then
+												slot19 = setActive
+												slot20 = slot16
+												slot21 = slot17
+
+												slot19(slot20, slot21)
+											end
+
+											if slot18 and slot18 ~= "" then
+												slot19 = PoolMgr
+												slot19 = slot19.GetInstance
+												slot19 = slot19()
+												slot20 = slot19
+												slot19 = slot19.GetPrefab
+												slot21 = "ui/"
+												slot22 = slot18
+												slot21 = slot21 .. slot22
+												slot22 = slot18
+												slot23 = false
+
+												function slot24(slot0)
+													slot1 = setParent
+													slot2 = slot0.transform
+													slot3 = slot0
+													slot4 = false
+
+													slot1(slot2, slot3, slot4)
+
+													slot2 = slot0
+													slot1 = slot0.GetComponent
+													slot3 = typeof
+													slot4 = ParticleSystemEvent
+													slot1 = slot1(slot2, slot3(slot4))
+													slot2 = IsNil
+													slot3 = slot1
+													slot2 = slot2(slot3)
+
+													if not slot2 then
+														slot3 = slot1
+														slot2 = slot1.AddEndEvent
+
+														function slot4(slot0)
+															slot1 = PoolMgr
+															slot1 = slot1.GetInstance
+															slot1 = slot1()
+															slot2 = slot1
+															slot1 = slot1.ReturnPrefab
+															slot3 = "ui/"
+															slot4 = slot0
+															slot3 = slot3 .. slot4
+															slot4 = slot0
+															slot5 = slot0
+
+															slot1(slot2, slot3, slot4, slot5)
+														end
+
+														slot2(slot3, slot4)
+													end
+												end
+
+												slot19(slot20, slot21, slot22, slot23, slot24)
 											end
 										else
 											slot9 = slot4.attachment
 											slot10 = ChapterConst
-											slot10 = slot10.AttachSupply
+											slot10 = slot10.AttachBomb_Enemy
 
 											if slot9 == slot10 then
-												slot9 = "supply"
-												slot11 = slot7
-												slot10 = slot7.Find
-												slot12 = slot9
-												slot10 = slot10(slot11, slot12)
-												slot11 = IsNil
-												slot12 = slot10
-												slot11 = slot11(slot12)
+												slot9 = pg
+												slot9 = slot9.specialunit_template
+												slot10 = slot4.attachmentId
+												slot9 = slot9[slot10]
+												slot10 = "bomb_enemy_"
+												slot11 = slot4.attachmentId
+												slot10 = slot10 .. slot11
+												slot11 = "bomb_dead_"
+												slot12 = slot4.attachmentId
+												slot11 = slot11 .. slot12
+												slot13 = slot7
+												slot12 = slot7.Find
+												slot14 = slot10
+												slot12 = slot12(slot13, slot14)
+												slot14 = slot7
+												slot13 = slot7.Find
+												slot15 = slot11
+												slot13 = slot13(slot14, slot15)
+												slot14 = slot4.flag
 
-												if slot11 then
-													slot11 = cloneTplTo
-													slot12 = slot0.supplyTpl
-													slot13 = slot7
-													slot14 = slot9
-													slot11 = slot11(slot12, slot13, slot14)
-													slot10 = slot11
-													slot11 = Vector2
-													slot12 = 0
-													slot13 = 30
-													slot11 = slot11(slot12, slot13)
-													slot10.anchoredPosition = slot11
-													slot11 = LeanTween
-													slot11 = slot11.moveY
-													slot12 = slot10
-													slot13 = 40
-													slot14 = 1.5
-													slot11 = slot11(slot12, slot13, slot14)
-													slot12 = slot11
-													slot11 = slot11.setEase
-													slot13 = LeanTweenType
-													slot13 = slot13.easeInOutSine
-													slot11 = slot11(slot12, slot13)
-													slot12 = slot11
-													slot11 = slot11.setLoopPingPong
-													slot11 = slot11(slot12)
-													slot12 = slot0.attachTws
-													slot13 = {
-														tw = slot11
-													}
-													slot14 = slot11.uniqueId
-													slot13.uniqueId = slot14
-													slot12[slot5] = slot13
+												if slot14 == 0 then
+													slot14 = IsNil
+													slot15 = slot12
+													slot14 = slot14(slot15)
+
+													if slot14 then
+														cloneTplTo(slot0.bombEnemyTpl, slot7, slot10).anchoredPosition = Vector2(0, 10)
+
+														GetImageSpriteFromAtlasAsync("enemies/" .. slot9.prefab, "", findTF(cloneTplTo(slot0.bombEnemyTpl, slot7, slot10), "icon"))
+														setActive(findTF(slot12, "titleContain/bg_s"), slot9.enemy_point == 5)
+														setActive(findTF(cloneTplTo(slot0.bombEnemyTpl, slot7, slot10), "titleContain/bg_m"), slot9.enemy_point == 8)
+														setActive(findTF(cloneTplTo(slot0.bombEnemyTpl, slot7, slot10), "titleContain/bg_h"), slot9.enemy_point == 10)
+													end
+
+													setActive(findTF(slot12, "effect_found"), slot4.trait == ChapterConst.TraitVirgin)
+
+													slot14 = slot4.trait
+													slot15 = ChapterConst.TraitVirgin
+
+													if slot14 == slot15 then
+														slot14 = playSoundEffect
+														slot15 = SFX_UI_WEIGHANCHOR_ENEMY
+
+														slot14(slot15)
+													end
+												else
+													slot14 = slot4.flag
+
+													if slot14 == 1 then
+														slot14 = IsNil
+														slot15 = slot12
+														slot14 = slot14(slot15)
+
+														if not slot14 then
+															slot14 = slot12.gameObject
+															slot14 = slot14.activeSelf
+														else
+															slot14 = false
+
+															if false then
+																slot14 = true
+															end
+														end
+
+														slot15 = IsNil
+														slot16 = slot13
+														slot15 = slot15(slot16)
+
+														if slot15 then
+															slot15 = cloneTplTo
+															slot16 = slot0.deadTpl
+															slot17 = slot7
+															slot18 = slot11
+															slot15 = slot15(slot16, slot17, slot18)
+															slot13 = slot15
+															slot15 = Vector2
+															slot16 = 0
+															slot17 = 10
+															slot15 = slot15(slot16, slot17)
+															slot13.anchoredPosition = slot15
+															slot15 = "blue"
+															slot16 = GetImageSpriteFromAtlasAsync
+															slot17 = "enemies/"
+															slot18 = slot9.prefab
+															slot19 = "_d_"
+															slot20 = slot15
+															slot17 = slot17 .. slot18 .. slot19 .. slot20
+															slot18 = ""
+															slot20 = slot13
+															slot19 = slot13.Find
+															slot21 = "icon"
+
+															slot16(slot17, slot18, slot19(slot20, slot21))
+
+															slot16 = setActive
+															slot18 = slot13
+															slot17 = slot13.Find
+															slot19 = "effect_not_open"
+															slot17 = slot17(slot18, slot19)
+															slot18 = false
+
+															slot16(slot17, slot18)
+
+															slot16 = setActive
+															slot18 = slot13
+															slot17 = slot13.Find
+															slot19 = "effect_open"
+															slot17 = slot17(slot18, slot19)
+															slot18 = false
+
+															slot16(slot17, slot18)
+														end
+
+														slot15 = setActive
+														slot17 = slot13
+														slot16 = slot13.Find
+														slot18 = "huoqiubaozha"
+														slot16 = slot16(slot17, slot18)
+														slot17 = slot14
+
+														slot15(slot16, slot17)
+													end
 												end
 
-												setActive(findTF(slot10, "normal"), slot4.attachmentId > 0)
+												slot14 = IsNil
+												slot15 = slot12
+												slot14 = slot14(slot15)
 
-												slot11 = setActive
-												slot12 = findTF
-												slot13 = slot10
-												slot14 = "empty"
-												slot12 = slot12(slot13, slot14)
-												slot13 = false
+												if not slot14 then
+													setActive(slot12, slot4.flag == 0)
+												end
 
-												slot11(slot12, slot13)
+												slot14 = IsNil
+												slot15 = slot13
+												slot14 = slot14(slot15)
+
+												if not slot14 then
+													setActive(slot13, slot4.flag == 1)
+												end
 											else
 												slot9 = slot4.attachment
 												slot10 = ChapterConst
-												slot10 = slot10.AttachRival
+												slot10 = slot10.AttachLandbase
 
 												if slot9 == slot10 then
-													slot9 = ChapterConst
-													slot9 = slot9.Line2RivalName
-													slot10 = slot4.row
-													slot11 = slot4.column
-													slot9 = slot9(slot10, slot11)
-													slot10 = slot0.rivals
-													slot10 = slot10[slot9]
-													slot11 = slot4.flag
+													slot9 = pg
+													slot9 = slot9.land_based_template
+													slot10 = slot4.attachmentId
+													slot9 = slot9[slot10]
+													slot10 = "landbase_"
+													slot11 = slot4.attachmentId
+													slot10 = slot10 .. slot11
+													slot11 = "landbase_dead_"
+													slot12 = slot4.attachmentId
+													slot11 = slot11 .. slot12
+													slot13 = slot7
+													slot12 = slot7.Find
+													slot14 = slot10
+													slot12 = slot12(slot13, slot14)
+													slot14 = slot7
+													slot13 = slot7.Find
+													slot15 = slot11
+													slot13 = slot13(slot14, slot15)
+													slot14 = slot4.flag
 
-													if slot11 == 0 then
-														if not slot10 then
-															slot11 = cloneTplTo
-															slot12 = slot0.rivalTpl
-															slot13 = slot7
-															slot14 = slot9
-															slot11 = slot11(slot12, slot13, slot14)
-															slot12 = Vector2
-															slot13 = 0
-															slot14 = 0
-															slot12 = slot12(slot13, slot14)
-															slot11.anchoredPosition = slot12
-															slot12 = setActive
-															slot13 = slot11
-															slot14 = true
+													if slot14 == 0 then
+														slot14 = IsNil
+														slot15 = slot12
+														slot14 = slot14(slot15)
 
-															slot12(slot13, slot14)
-
-															slot12 = slot0.rivals
-															slot13 = RivalCellView
-															slot13 = slot13.New
-															slot14 = slot11.gameObject
-															slot13 = slot13(slot14)
-															slot12[slot9] = slot13
-															slot12 = slot0.rivals
-															slot10 = slot12[slot9]
-															slot13 = slot10
-															slot12 = slot10.setLine
-															slot14 = {}
-															slot15 = slot4.row
-															slot14.row = slot15
-															slot15 = slot4.column
-															slot14.column = slot15
-
-															slot12(slot13, slot14)
-														end
-
-														slot10:setAction(ChapterConst.ShipIdleAction)
-														slot10:setPrefab(slot4.rival.mainShips[1]:getPrefab())
-														slot0:frozen()
-														slot10:loadSpine(function ()
-															slot0:unfrozen()
-														end)
-														setActive(slot10.tfEffectFound, slot4.trait == ChapterConst.TraitVirgin)
-
-														slot11 = slot4.trait
-														slot12 = ChapterConst.TraitVirgin
-
-														if slot11 == slot12 then
-															slot11 = playSoundEffect
-															slot12 = SFX_UI_WEIGHANCHOR_ENEMY
-
-															slot11(slot12)
-														end
-
-														setActive(slot10.tfFighting, slot3:existFleet(FleetType.Normal, slot1, slot2))
-														setText(slot10.tfName, slot4.rival.name)
-														setActive(slot10.tfDamageCount, slot4.data > 0)
-													else
-														slot11 = slot4.flag
-
-														if slot11 == 1 and slot10 then
-															slot12 = slot10
-															slot11 = slot10.unloadSpine
-
-															slot11(slot12)
-														end
-													end
-
-													if slot10 then
-														setActive(slot10.tf, slot4.flag == 0)
-													end
-												else
-													slot9 = slot4.attachment
-													slot10 = ChapterConst
-													slot10 = slot10.AttachTransport_Target
-
-													if slot9 == slot10 then
-														slot9 = "transport_target"
-														slot11 = slot7
-														slot10 = slot7.Find
-														slot12 = slot9
-														slot10 = slot10(slot11, slot12)
-														slot11 = IsNil
-														slot12 = slot10
-														slot11 = slot11(slot12)
-
-														if slot11 then
-															slot11 = cloneTplTo
-															slot12 = slot0.transportTargetTpl
-															slot13 = slot7
-															slot14 = slot9
-															slot11 = slot11(slot12, slot13, slot14)
-															slot10 = slot11
-															slot11 = Vector2
-															slot12 = 0
-															slot13 = 0
-															slot11 = slot11(slot12, slot13)
-															slot10.anchoredPosition = slot11
-															slot11 = LeanTween
-															slot11 = slot11.moveY
-															slot12 = slot10
-															slot13 = 10
-															slot14 = 1.5
-															slot11 = slot11(slot12, slot13, slot14)
-															slot12 = slot11
-															slot11 = slot11.setEase
-															slot13 = LeanTweenType
-															slot13 = slot13.easeInOutSine
-															slot11 = slot11(slot12, slot13)
-															slot12 = slot11
-															slot11 = slot11.setLoopPingPong
-															slot11 = slot11(slot12)
-															slot12 = slot0.attachTws
-															slot13 = {
-																tw = slot11
-															}
-															slot14 = slot11.uniqueId
-															slot13.uniqueId = slot14
-															slot12[slot9] = slot13
-														end
-													else
-														slot9 = slot4.attachment
-														slot10 = ChapterConst
-														slot10 = slot10.AttachStory
-
-														if slot9 == slot10 then
-															slot9 = slot4.data
-															slot10 = pg
-															slot10 = slot10.map_event_template
-															slot11 = slot4.attachmentId
-															slot10 = slot10[slot11]
-															slot11 = slot10.icon
-															slot12 = slot10.ship_prefab
-															slot13 = "story_"
-															slot14 = slot1
-															slot15 = "_"
-															slot16 = slot2
-															slot17 = "_"
-															slot18 = slot4.attachmentId
-															slot13 = slot13 .. slot14 .. slot15 .. slot16 .. slot17 .. slot18
-															slot15 = slot7
-															slot14 = slot7.Find
-															slot16 = slot13
-															slot14 = slot14(slot15, slot16)
+														if slot14 then
+															slot14 = cloneTplTo
+															slot15 = slot0.enemyTpl
 															slot16 = slot7
-															slot15 = slot7.Find
-															slot17 = slot11
+															slot17 = slot10
+															slot14 = slot14(slot15, slot16, slot17)
+															slot12 = slot14
+															slot14 = Vector2
+															slot15 = 0
+															slot16 = 10
+															slot14 = slot14(slot15, slot16)
+															slot12.anchoredPosition = slot14
+															slot14 = GetImageSpriteFromAtlasAsync
+															slot15 = "enemies/"
+															slot16 = slot9.prefab
+															slot15 = slot15 .. slot16
+															slot16 = ""
+															slot17 = findTF
+															slot18 = slot12
+															slot19 = "icon"
+
+															slot14(slot15, slot16, slot17(slot18, slot19))
+
+															slot14 = setActive
+															slot15 = findTF
+															slot16 = slot12
+															slot17 = "lv"
 															slot15 = slot15(slot16, slot17)
-															slot16 = slot0.cellRoot
-															slot17 = slot16
-															slot16 = slot16.Find
-															slot18 = slot13
-															slot16 = slot16(slot17, slot18)
-
-															if slot11 ~= "" then
-																slot17 = IsNil
-																slot18 = slot14
-																slot17 = slot17(slot18)
-
-																if slot17 then
-																	slot17 = slot4.data
-																	slot18 = ChapterConst
-																	slot18 = slot18.Story
-
-																	if slot17 == slot18 then
-																		slot17 = GameObject
-																		slot17 = slot17.New
-																		slot18 = slot13
-																		slot17 = slot17(slot18)
-																		slot14 = slot17.transform
-																		slot18 = slot14
-																		slot17 = slot14.SetParent
-																		slot19 = slot7
-																		slot20 = false
-
-																		slot17(slot18, slot19, slot20)
-
-																		slot17 = cloneTplTo
-																		slot18 = slot0.boxTpl
-																		slot19 = slot7
-																		slot20 = slot11
-																		slot17 = slot17(slot18, slot19, slot20)
-																		slot15 = slot17
-																		slot17 = Vector2
-																		slot18 = 0
-																		slot19 = 30
-																		slot17 = slot17(slot18, slot19)
-																		slot15.anchoredPosition = slot17
-																		slot17 = PoolMgr
-																		slot17 = slot17.GetInstance
-																		slot17 = slot17()
-																		slot18 = slot17
-																		slot17 = slot17.GetPrefab
-																		slot19 = "boxprefab/mapevent1"
-																		slot20 = "mapevent1"
-																		slot21 = false
-
-																		function slot22(slot0)
-																			slot1 = slot0.transform
-																			slot2 = slot1
-																			slot1 = slot1.SetParent
-																			slot3 = slot0
-																			slot4 = slot3
-																			slot3 = slot3.Find
-																			slot5 = "icon"
-																			slot3 = slot3(slot4, slot5)
-																			slot4 = false
-
-																			slot1(slot2, slot3, slot4)
-																		end
-
-																		slot17(slot18, slot19, slot20, slot21, slot22)
-
-																		if slot11 ~= "mapevent1" then
-																			slot17 = PoolMgr
-																			slot17 = slot17.GetInstance
-																			slot17 = slot17()
-																			slot18 = slot17
-																			slot17 = slot17.GetPrefab
-																			slot19 = "ui/"
-																			slot20 = slot11
-																			slot21 = "_2"
-																			slot19 = slot19 .. slot20 .. slot21
-																			slot20 = slot11
-																			slot21 = "_2"
-																			slot20 = slot20 .. slot21
-																			slot21 = false
-
-																			function slot22(slot0)
-																				slot1 = slot0.transform
-																				slot2 = slot1
-																				slot1 = slot1.SetParent
-																				slot3 = slot0
-																				slot4 = false
-
-																				slot1(slot2, slot3, slot4)
-
-																				slot1 = SetActive
-																				slot2 = slot0.transform
-																				slot3 = slot2
-																				slot2 = slot2.Find
-																				slot4 = "Xyz/F"
-																				slot2 = slot2(slot3, slot4)
-																				slot3 = false
-
-																				slot1(slot2, slot3)
-																			end
-
-																			slot17(slot18, slot19, slot20, slot21, slot22)
-																		end
-
-																		slot17 = LeanTween
-																		slot17 = slot17.moveY
-																		slot18 = slot15
-																		slot19 = 40
-																		slot20 = 1.5
-																		slot17 = slot17(slot18, slot19, slot20)
-																		slot18 = slot17
-																		slot17 = slot17.setEase
-																		slot19 = LeanTweenType
-																		slot19 = slot19.easeInOutSine
-																		slot17 = slot17(slot18, slot19)
-																		slot18 = slot17
-																		slot17 = slot17.setLoopPingPong
-																		slot17 = slot17(slot18)
-																		slot18 = slot0.attachTws
-																		slot19 = {
-																			tw = slot17
-																		}
-																		slot20 = slot17.uniqueId
-																		slot19.uniqueId = slot20
-																		slot18[slot5] = slot19
-																	else
-																		slot17 = slot4.data
-																		slot18 = ChapterConst
-																		slot18 = slot18.StoryObstacle
-
-																		if slot17 == slot18 then
-																			slot17 = GameObject
-																			slot17 = slot17.New
-																			slot18 = slot13
-																			slot17 = slot17(slot18)
-																			slot14 = slot17.transform
-																			slot18 = slot14
-																			slot17 = slot14.SetParent
-																			slot19 = slot7
-																			slot20 = false
-
-																			slot17(slot18, slot19, slot20)
-
-																			slot17 = PoolMgr
-																			slot17 = slot17.GetInstance
-																			slot17 = slot17()
-																			slot18 = slot17
-																			slot17 = slot17.GetPrefab
-																			slot19 = "ui/"
-																			slot20 = slot11
-																			slot21 = "_2"
-																			slot19 = slot19 .. slot20 .. slot21
-																			slot20 = slot11
-																			slot21 = "_2"
-																			slot20 = slot20 .. slot21
-																			slot21 = false
-
-																			function slot22(slot0)
-																				slot1 = slot0.transform
-																				slot2 = slot1
-																				slot1 = slot1.SetParent
-																				slot3 = slot0
-																				slot4 = false
-
-																				slot1(slot2, slot3, slot4)
-																			end
-
-																			slot17(slot18, slot19, slot20, slot21, slot22)
-																		end
-																	end
-																end
-															end
-
-															slot17 = false
-															slot18 = slot4.data
-															slot19 = ChapterConst
-															slot19 = slot19.Story
-
-															if slot18 == slot19 then
-																slot17 = slot4.flag == 0
-															else
-																slot18 = slot4.data
-																slot19 = ChapterConst
-																slot19 = slot19.StoryObstacle
-
-																if slot18 == slot19 then
-																	slot17 = slot4.flag == 3
-																else
-																	slot18 = slot4.data
-																	slot19 = ChapterConst
-																	slot19 = slot19.StoryTrigger
-
-																	if slot18 == slot19 then
-																		slot17 = slot4.flag == 3
-																		slot18 = IsNil(slot14)
-																	end
-																end
-															end
-
-															if not slot18 then
-																slot18 = setActive
-																slot19 = slot14
-																slot20 = slot17
-
-																slot18(slot19, slot20)
-															end
-
-															slot18 = IsNil
-															slot19 = slot15
-															slot18 = slot18(slot19)
-
-															if not slot18 then
-																slot18 = setActive
-																slot19 = slot15
-																slot20 = slot17
-
-																slot18(slot19, slot20)
-															end
-
-															slot18 = IsNil
-															slot19 = slot16
-															slot18 = slot18(slot19)
-
-															if not slot18 then
-																slot18 = setActive
-																slot19 = slot16
-																slot20 = slot17
-
-																slot18(slot19, slot20)
-															end
-														else
-															slot9 = slot4.attachment
-															slot10 = ChapterConst
-															slot10 = slot10.AttachBomb_Enemy
-
-															if slot9 == slot10 then
-																slot9 = pg
-																slot9 = slot9.specialunit_template
-																slot10 = slot4.attachmentId
-																slot9 = slot9[slot10]
-																slot10 = "bomb_enemy_"
-																slot11 = slot4.attachmentId
-																slot10 = slot10 .. slot11
-																slot11 = "bomb_dead_"
-																slot12 = slot4.attachmentId
-																slot11 = slot11 .. slot12
-																slot13 = slot7
-																slot12 = slot7.Find
-																slot14 = slot10
-																slot12 = slot12(slot13, slot14)
-																slot14 = slot7
-																slot13 = slot7.Find
-																slot15 = slot11
-																slot13 = slot13(slot14, slot15)
-																slot14 = slot4.flag
-
-																if slot14 == 0 then
-																	slot14 = IsNil
-																	slot15 = slot12
-																	slot14 = slot14(slot15)
-
-																	if slot14 then
-																		cloneTplTo(slot0.bombEnemyTpl, slot7, slot10).anchoredPosition = Vector2(0, 10)
-
-																		GetImageSpriteFromAtlasAsync("enemies/" .. slot9.prefab, "", findTF(cloneTplTo(slot0.bombEnemyTpl, slot7, slot10), "icon"))
-																		setActive(findTF(slot12, "titleContain/bg_s"), slot9.enemy_point == 5)
-																		setActive(findTF(cloneTplTo(slot0.bombEnemyTpl, slot7, slot10), "titleContain/bg_m"), slot9.enemy_point == 8)
-																		setActive(findTF(cloneTplTo(slot0.bombEnemyTpl, slot7, slot10), "titleContain/bg_h"), slot9.enemy_point == 10)
-																	end
-
-																	setActive(findTF(slot12, "effect_found"), slot4.trait == ChapterConst.TraitVirgin)
-
-																	slot14 = slot4.trait
-																	slot15 = ChapterConst.TraitVirgin
-
-																	if slot14 == slot15 then
-																		slot14 = playSoundEffect
-																		slot15 = SFX_UI_WEIGHANCHOR_ENEMY
-
-																		slot14(slot15)
-																	end
-																else
-																	slot14 = slot4.flag
-
-																	if slot14 == 1 then
-																		slot14 = IsNil
-																		slot15 = slot12
-																		slot14 = slot14(slot15)
-
-																		if not slot14 then
-																			slot14 = slot12.gameObject
-																			slot14 = slot14.activeSelf
-																		else
-																			slot14 = false
-
-																			if false then
-																				slot14 = true
-																			end
-																		end
-
-																		slot15 = IsNil
-																		slot16 = slot13
-																		slot15 = slot15(slot16)
-
-																		if slot15 then
-																			slot15 = cloneTplTo
-																			slot16 = slot0.deadTpl
-																			slot17 = slot7
-																			slot18 = slot11
-																			slot15 = slot15(slot16, slot17, slot18)
-																			slot13 = slot15
-																			slot15 = Vector2
-																			slot16 = 0
-																			slot17 = 10
-																			slot15 = slot15(slot16, slot17)
-																			slot13.anchoredPosition = slot15
-																			slot15 = "blue"
-																			slot16 = GetImageSpriteFromAtlasAsync
-																			slot17 = "enemies/"
-																			slot18 = slot9.prefab
-																			slot19 = "_d_"
-																			slot20 = slot15
-																			slot17 = slot17 .. slot18 .. slot19 .. slot20
-																			slot18 = ""
-																			slot20 = slot13
-																			slot19 = slot13.Find
-																			slot21 = "icon"
-
-																			slot16(slot17, slot18, slot19(slot20, slot21))
-
-																			slot16 = setActive
-																			slot18 = slot13
-																			slot17 = slot13.Find
-																			slot19 = "effect_not_open"
-																			slot17 = slot17(slot18, slot19)
-																			slot18 = false
-
-																			slot16(slot17, slot18)
-
-																			slot16 = setActive
-																			slot18 = slot13
-																			slot17 = slot13.Find
-																			slot19 = "effect_open"
-																			slot17 = slot17(slot18, slot19)
-																			slot18 = false
-
-																			slot16(slot17, slot18)
-																		end
-
-																		slot15 = setActive
-																		slot17 = slot13
-																		slot16 = slot13.Find
-																		slot18 = "huoqiubaozha"
-																		slot16 = slot16(slot17, slot18)
-																		slot17 = slot14
-
-																		slot15(slot16, slot17)
-																	end
-																end
-
-																slot14 = IsNil
-																slot15 = slot12
-																slot14 = slot14(slot15)
-
-																if not slot14 then
-																	setActive(slot12, slot4.flag == 0)
-																end
-
-																slot14 = IsNil
-																slot15 = slot13
-																slot14 = slot14(slot15)
-
-																if not slot14 then
-																	setActive(slot13, slot4.flag == 1)
-																end
-															else
-																slot9 = slot4.attachment
-																slot10 = ChapterConst
-																slot10 = slot10.AttachLandbase
-
-																if slot9 == slot10 then
-																	slot9 = pg
-																	slot9 = slot9.land_based_template
-																	slot10 = slot4.attachmentId
-																	slot9 = slot9[slot10]
-																	slot10 = "landbase_"
-																	slot11 = slot4.attachmentId
-																	slot10 = slot10 .. slot11
-																	slot11 = "landbase_dead_"
-																	slot12 = slot4.attachmentId
-																	slot11 = slot11 .. slot12
-																	slot13 = slot7
-																	slot12 = slot7.Find
-																	slot14 = slot10
-																	slot12 = slot12(slot13, slot14)
-																	slot14 = slot7
-																	slot13 = slot7.Find
-																	slot15 = slot11
-																	slot13 = slot13(slot14, slot15)
-																	slot14 = slot4.flag
-
-																	if slot14 == 0 then
-																		slot14 = IsNil
-																		slot15 = slot12
-																		slot14 = slot14(slot15)
-
-																		if slot14 then
-																			slot14 = cloneTplTo
-																			slot15 = slot0.enemyTpl
-																			slot16 = slot7
-																			slot17 = slot10
-																			slot14 = slot14(slot15, slot16, slot17)
-																			slot12 = slot14
-																			slot14 = Vector2
-																			slot15 = 0
-																			slot16 = 10
-																			slot14 = slot14(slot15, slot16)
-																			slot12.anchoredPosition = slot14
-																			slot14 = GetImageSpriteFromAtlasAsync
-																			slot15 = "enemies/"
-																			slot16 = slot9.prefab
-																			slot15 = slot15 .. slot16
-																			slot16 = ""
-																			slot17 = findTF
-																			slot18 = slot12
-																			slot19 = "icon"
-
-																			slot14(slot15, slot16, slot17(slot18, slot19))
-
-																			slot14 = setActive
-																			slot15 = findTF
-																			slot16 = slot12
-																			slot17 = "lv"
-																			slot15 = slot15(slot16, slot17)
-																			slot16 = false
-
-																			slot14(slot15, slot16)
-
-																			slot14 = setActive
-																			slot15 = findTF
-																			slot16 = slot12
-																			slot17 = "titleContain"
-																			slot15 = slot15(slot16, slot17)
-																			slot16 = false
-
-																			slot14(slot15, slot16)
-
-																			slot14 = setActive
-																			slot15 = findTF
-																			slot16 = slot12
-																			slot17 = "damage_count"
-																			slot15 = slot15(slot16, slot17)
-																			slot16 = false
-
-																			slot14(slot15, slot16)
-
-																			slot14 = setActive
-																			slot15 = findTF
-																			slot16 = slot12
-																			slot17 = "fighting"
-																			slot15 = slot15(slot16, slot17)
-																			slot16 = false
-
-																			slot14(slot15, slot16)
-																		end
-
-																		setActive(findTF(slot12, "effect_found"), slot4.trait == ChapterConst.TraitVirgin)
-
-																		slot14 = slot4.trait
-																		slot15 = ChapterConst.TraitVirgin
-
-																		if slot14 == slot15 then
-																			slot14 = playSoundEffect
-																			slot15 = SFX_UI_WEIGHANCHOR_ENEMY
-
-																			slot14(slot15)
-																		end
-																	else
-																		slot14 = slot4.flag
-
-																		if slot14 == 1 then
-																			slot14 = IsNil
-																			slot15 = slot12
-																			slot14 = slot14(slot15)
-
-																			if not slot14 then
-																				slot14 = slot12.gameObject
-																				slot14 = slot14.activeSelf
-																			else
-																				slot14 = false
-
-																				if false then
-																					slot14 = true
-																				end
-																			end
-
-																			slot15 = IsNil
-																			slot16 = slot13
-																			slot15 = slot15(slot16)
-
-																			if slot15 then
-																				slot15 = cloneTplTo
-																				slot16 = slot0.deadTpl
-																				slot17 = slot7
-																				slot18 = slot11
-																				slot15 = slot15(slot16, slot17, slot18)
-																				slot13 = slot15
-																				slot15 = Vector2
-																				slot16 = 0
-																				slot17 = 10
-																				slot15 = slot15(slot16, slot17)
-																				slot13.anchoredPosition = slot15
-																				slot15 = "blue"
-																				slot16 = GetImageSpriteFromAtlasAsync
-																				slot17 = "enemies/"
-																				slot18 = slot9.prefab
-																				slot19 = "_d_"
-																				slot20 = slot15
-																				slot17 = slot17 .. slot18 .. slot19 .. slot20
-																				slot18 = ""
-																				slot20 = slot13
-																				slot19 = slot13.Find
-																				slot21 = "icon"
-
-																				slot16(slot17, slot18, slot19(slot20, slot21))
-
-																				slot16 = setActive
-																				slot18 = slot13
-																				slot17 = slot13.Find
-																				slot19 = "effect_not_open"
-																				slot17 = slot17(slot18, slot19)
-																				slot18 = false
-
-																				slot16(slot17, slot18)
-
-																				slot16 = setActive
-																				slot18 = slot13
-																				slot17 = slot13.Find
-																				slot19 = "effect_open"
-																				slot17 = slot17(slot18, slot19)
-																				slot18 = false
-
-																				slot16(slot17, slot18)
-																			end
-
-																			slot15 = setActive
-																			slot17 = slot13
-																			slot16 = slot13.Find
-																			slot18 = "huoqiubaozha"
-																			slot16 = slot16(slot17, slot18)
-																			slot17 = slot14
-
-																			slot15(slot16, slot17)
-																		end
-																	end
-
-																	slot14 = IsNil
-																	slot15 = slot12
-																	slot14 = slot14(slot15)
-
-																	if not slot14 then
-																		setActive(slot12, slot4.flag == 0)
-																	end
-
-																	slot14 = IsNil
-																	slot15 = slot13
-																	slot14 = slot14(slot15)
-
-																	if not slot14 then
-																		setActive(slot13, slot4.flag == 1)
-																	end
-																end
-															end
+															slot16 = false
+
+															slot14(slot15, slot16)
+
+															slot14 = setActive
+															slot15 = findTF
+															slot16 = slot12
+															slot17 = "titleContain"
+															slot15 = slot15(slot16, slot17)
+															slot16 = false
+
+															slot14(slot15, slot16)
+
+															slot14 = setActive
+															slot15 = findTF
+															slot16 = slot12
+															slot17 = "damage_count"
+															slot15 = slot15(slot16, slot17)
+															slot16 = false
+
+															slot14(slot15, slot16)
+
+															slot14 = setActive
+															slot15 = findTF
+															slot16 = slot12
+															slot17 = "fighting"
+															slot15 = slot15(slot16, slot17)
+															slot16 = false
+
+															slot14(slot15, slot16)
 														end
+
+														setActive(findTF(slot12, "effect_found"), slot4.trait == ChapterConst.TraitVirgin)
+
+														slot14 = slot4.trait
+														slot15 = ChapterConst.TraitVirgin
+
+														if slot14 == slot15 then
+															slot14 = playSoundEffect
+															slot15 = SFX_UI_WEIGHANCHOR_ENEMY
+
+															slot14(slot15)
+														end
+													else
+														slot14 = slot4.flag
+
+														if slot14 == 1 then
+															slot14 = IsNil
+															slot15 = slot12
+															slot14 = slot14(slot15)
+
+															if not slot14 then
+																slot14 = slot12.gameObject
+																slot14 = slot14.activeSelf
+															else
+																slot14 = false
+
+																if false then
+																	slot14 = true
+																end
+															end
+
+															slot15 = IsNil
+															slot16 = slot13
+															slot15 = slot15(slot16)
+
+															if slot15 then
+																slot15 = cloneTplTo
+																slot16 = slot0.deadTpl
+																slot17 = slot7
+																slot18 = slot11
+																slot15 = slot15(slot16, slot17, slot18)
+																slot13 = slot15
+																slot15 = Vector2
+																slot16 = 0
+																slot17 = 10
+																slot15 = slot15(slot16, slot17)
+																slot13.anchoredPosition = slot15
+																slot15 = "blue"
+																slot16 = GetImageSpriteFromAtlasAsync
+																slot17 = "enemies/"
+																slot18 = slot9.prefab
+																slot19 = "_d_"
+																slot20 = slot15
+																slot17 = slot17 .. slot18 .. slot19 .. slot20
+																slot18 = ""
+																slot20 = slot13
+																slot19 = slot13.Find
+																slot21 = "icon"
+
+																slot16(slot17, slot18, slot19(slot20, slot21))
+
+																slot16 = setActive
+																slot18 = slot13
+																slot17 = slot13.Find
+																slot19 = "effect_not_open"
+																slot17 = slot17(slot18, slot19)
+																slot18 = false
+
+																slot16(slot17, slot18)
+
+																slot16 = setActive
+																slot18 = slot13
+																slot17 = slot13.Find
+																slot19 = "effect_open"
+																slot17 = slot17(slot18, slot19)
+																slot18 = false
+
+																slot16(slot17, slot18)
+															end
+
+															slot15 = setActive
+															slot17 = slot13
+															slot16 = slot13.Find
+															slot18 = "huoqiubaozha"
+															slot16 = slot16(slot17, slot18)
+															slot17 = slot14
+
+															slot15(slot16, slot17)
+														end
+													end
+
+													slot14 = IsNil
+													slot15 = slot12
+													slot14 = slot14(slot15)
+
+													if not slot14 then
+														setActive(slot12, slot4.flag == 0)
+													end
+
+													slot14 = IsNil
+													slot15 = slot13
+													slot14 = slot14(slot15)
+
+													if not slot14 then
+														setActive(slot13, slot4.flag == 1)
 													end
 												end
 											end
@@ -5155,6 +5539,11 @@ function slot2(slot0, slot1, ...)
 	slot2 = slot0.contextData
 	slot2 = slot2.chapterVO
 	slot3 = slot2.fleet
+
+	if slot3 == nil then
+		return
+	end
+
 	slot4 = 0
 	slot5 = ChapterConst
 	slot5 = slot5.MaxRow

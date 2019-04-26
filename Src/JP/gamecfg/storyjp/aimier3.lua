@@ -46,7 +46,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 2,
 			bgName = "bg_story_task",
 			dir = -1,
@@ -85,7 +85,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 2,
 			bgName = "bg_story_task",
 			dir = -1,
@@ -113,7 +113,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 802011,
+			actor = 802010,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -129,7 +129,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 0,
 			bgName = "bg_story_task",
 			dir = -1,
@@ -144,7 +144,7 @@ return {
 			}
 		},
 		{
-			actor = 802011,
+			actor = 802010,
 			side = 1,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -160,7 +160,7 @@ return {
 			}
 		},
 		{
-			actor = 802011,
+			actor = 802010,
 			side = 1,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -176,7 +176,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 0,
 			bgName = "bg_story_task",
 			dir = -1,
@@ -191,7 +191,7 @@ return {
 			}
 		},
 		{
-			actor = 802011,
+			actor = 802010,
 			side = 1,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -207,7 +207,7 @@ return {
 			}
 		},
 		{
-			actor = 301181,
+			actor = 301180,
 			side = 2,
 			bgName = "bg_story_task",
 			dir = -1,
@@ -232,7 +232,7 @@ return {
 			}
 		},
 		{
-			actor = 802011,
+			actor = 802010,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -248,7 +248,7 @@ return {
 			}
 		},
 		{
-			actor = 301181,
+			actor = 301180,
 			side = 0,
 			bgName = "bg_story_task",
 			say = "そう謙遜なさらないでください。妾もお借りしたい側でございますので。",
@@ -267,7 +267,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -282,7 +282,7 @@ return {
 			}
 		},
 		{
-			actor = 301181,
+			actor = 301180,
 			side = 0,
 			bgName = "bg_story_task",
 			dir = -1,
@@ -297,7 +297,7 @@ return {
 			}
 		},
 		{
-			actor = 301181,
+			actor = 301180,
 			side = 0,
 			bgName = "bg_story_task",
 			dir = -1,
@@ -315,7 +315,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 802011,
+			actor = 802010,
 			nameColor = "#a9f548",
 			say = "そこまで凄くはないわよ！でも二人がそこまで言うのなら、今度は一度両方の店員をやってみるのはどうかしら？指揮官？",
 			typewriter = {

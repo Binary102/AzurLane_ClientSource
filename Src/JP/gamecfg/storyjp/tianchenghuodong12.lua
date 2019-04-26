@@ -58,7 +58,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = -1,
-			actor = 304051,
+			actor = 304050,
 			say = "……くっ！",
 			typewriter = {
 				speed = 0.05,
@@ -73,7 +73,7 @@ return {
 			expression = 4,
 			side = 0,
 			nameColor = "#a9f548",
-			actor = 303091,
+			actor = 303090,
 			dir = -1,
 			hideOther = true,
 			actorName = "{namecode:144}&{namecode:40}",
@@ -81,7 +81,7 @@ return {
 			subActors = {
 				{
 					dir = -1,
-					actor = 302141,
+					actor = 302140,
 					expression = 2,
 					pos = {
 						x = -687
@@ -102,7 +102,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = -1,
-			actor = 304051,
+			actor = 304050,
 			say = "大丈夫、かすり傷ですわ。ただ…流石にこの自爆能力は予測できませんわね…不覚です",
 			typewriter = {
 				speed = 0.05,
@@ -114,7 +114,7 @@ return {
 			}
 		},
 		{
-			actor = 303091,
+			actor = 303090,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -129,7 +129,7 @@ return {
 			}
 		},
 		{
-			actor = 304051,
+			actor = 304050,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -148,7 +148,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = -1,
-			actor = 304051,
+			actor = 304050,
 			say = "兵と甘苦を共にせず、策だけ講じては、奇策鬼謀も机上の空論になりましょう",
 			typewriter = {
 				speed = 0.05,
@@ -160,7 +160,7 @@ return {
 			}
 		},
 		{
-			actor = 304051,
+			actor = 304050,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -192,7 +192,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			actor = 302141,
+			actor = 302140,
 			say = "天城さん……",
 			typewriter = {
 				speed = 0.05,
@@ -208,7 +208,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = -1,
-			actor = 304051,
+			actor = 304050,
 			say = "私がこうして前に出て戦うからこそ、得られる成果もありますもの",
 			typewriter = {
 				speed = 0.05,
@@ -233,7 +233,7 @@ return {
 			}
 		},
 		{
-			actor = 304051,
+			actor = 304050,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -252,7 +252,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = -1,
-			actor = 304051,
+			actor = 304050,
 			say = "困りますわね……",
 			typewriter = {
 				speed = 0.05,

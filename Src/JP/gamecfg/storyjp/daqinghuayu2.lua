@@ -56,7 +56,7 @@ return {
 			}
 		},
 		{
-			actor = 108021,
+			actor = 108020,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -75,14 +75,14 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			bgName = "bg_story_nepu1",
-			actor = 308021,
+			actor = 308020,
 			dir = 1,
 			hideOther = true,
 			actorName = "伊26&デイス",
 			say = "ワン、ツー！（のびのび",
 			subActors = {
 				{
-					actor = 108011,
+					actor = 108010,
 					pos = {
 						x = 750
 					}
@@ -98,7 +98,7 @@ return {
 			}
 		},
 		{
-			actor = 108021,
+			actor = 108020,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -117,14 +117,14 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			bgName = "bg_story_nepu1",
-			actor = 408011,
+			actor = 408010,
 			dir = 1,
 			hideOther = true,
 			actorName = "U-81&伊19",
 			say = "スリー、フォー～～（ぶるぶる",
 			subActors = {
 				{
-					actor = 308011,
+					actor = 308010,
 					pos = {
 						x = 750
 					}
@@ -140,7 +140,7 @@ return {
 			}
 		},
 		{
-			actor = 108021,
+			actor = 108020,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -159,14 +159,14 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			bgName = "bg_story_nepu1",
-			actor = 308031,
+			actor = 308030,
 			dir = 1,
 			hideOther = true,
 			actorName = "伊58&U-557",
 			say = "ファイブ……シックス……（ごろごろ",
 			subActors = {
 				{
-					actor = 408031,
+					actor = 408030,
 					pos = {
 						x = 750
 					}
@@ -192,7 +192,7 @@ return {
 			}
 		},
 		{
-			actor = 108021,
+			actor = 108020,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -211,7 +211,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "まずはこう…次はこう……",
 			typewriter = {
@@ -239,7 +239,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "フィニッシュ！「潜水艦ズ体操」、完ッ！",
 			flashout = {
@@ -273,7 +273,7 @@ return {
 			side = 0,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 308021,
+			actor = 308020,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -289,7 +289,7 @@ return {
 			}
 		},
 		{
-			actor = 308031,
+			actor = 308030,
 			side = 0,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -305,7 +305,7 @@ return {
 			}
 		},
 		{
-			actor = 108021,
+			actor = 108020,
 			side = 1,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -321,7 +321,7 @@ return {
 			}
 		},
 		{
-			actor = 408011,
+			actor = 408010,
 			side = 0,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -337,7 +337,7 @@ return {
 			}
 		},
 		{
-			actor = 108021,
+			actor = 108020,
 			side = 1,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -356,7 +356,7 @@ return {
 			side = 1,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "あたしが一緒に来るように説得しとく！",
 			typewriter = {
@@ -379,7 +379,7 @@ return {
 			}
 		},
 		{
-			actor = 408031,
+			actor = 408030,
 			side = 0,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -399,7 +399,7 @@ return {
 			side = 1,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "このアルバコアならできるって！トラスト・ミー！",
 			typewriter = {

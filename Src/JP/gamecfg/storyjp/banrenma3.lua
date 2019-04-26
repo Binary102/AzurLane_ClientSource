@@ -58,7 +58,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			bgm = "story-2",
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "誰に対しても先輩って呼ぶこと、ですか？…ええと、指揮官は私があの大戦の後に生まれたってことを知っていますか？",
 			typewriter = {
@@ -76,7 +76,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "あの時、すでに戦争が終わっていたことから、セントー級は建造を取り消されそうになる危機に直面していました。",
 			typewriter = {
@@ -89,7 +89,7 @@ return {
 			}
 		},
 		{
-			actor = 206041,
+			actor = 206040,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -109,7 +109,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "ですが、戦争はもう終わっていたので、私たちは生涯先輩たちのように波乱万丈なカンレキを持つことが叶いませんでした。",
 			typewriter = {
@@ -122,7 +122,7 @@ return {
 			}
 		},
 		{
-			actor = 206041,
+			actor = 206040,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -152,7 +152,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "ですが、先輩たちに憧れを感じるのはカンレキだけではありません。",
 			typewriter = {
@@ -169,7 +169,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "私は平和に生まれ、そして平和に生涯を過ごしました。戦争の重みがどんなものか体験したことがありませんでした。",
 			typewriter = {
@@ -186,7 +186,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "だから先輩たちのカンレキを学んでいるなか、戦争について私なりに考えることができました。",
 			typewriter = {
@@ -203,7 +203,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "戦争――それを体験したことのない私が、決して軽々しく口にして良いものではありません。",
 			typewriter = {
@@ -216,7 +216,7 @@ return {
 			}
 		},
 		{
-			actor = 206041,
+			actor = 206040,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -236,7 +236,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "正直、「先輩」で表しても足りないぐらい、みんなのことを尊敬していますよ？",
 			typewriter = {
@@ -259,7 +259,7 @@ return {
 			}
 		},
 		{
-			actor = 206041,
+			actor = 206040,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -279,7 +279,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "わかりました。みんなに相談してみます。迷惑でしたらもう先輩とは呼ばず、行動で尊敬を示すのみですね。",
 			typewriter = {

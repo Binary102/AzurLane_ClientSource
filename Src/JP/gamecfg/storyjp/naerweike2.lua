@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 401181,
+			actor = 401180,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = -1,
@@ -23,7 +23,7 @@ return {
 			}
 		},
 		{
-			actor = 401181,
+			actor = 401180,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -42,7 +42,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			actor = 401021,
+			actor = 401020,
 			say = "情報は間違いだったか……お疲れさま",
 			typewriter = {
 				speed = 0.05,
@@ -54,7 +54,7 @@ return {
 			}
 		},
 		{
-			actor = 401191,
+			actor = 401190,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -69,7 +69,7 @@ return {
 			}
 		},
 		{
-			actor = 401021,
+			actor = 401020,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -84,7 +84,7 @@ return {
 			}
 		},
 		{
-			actor = 401181,
+			actor = 401180,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -99,7 +99,7 @@ return {
 			}
 		},
 		{
-			actor = 401021,
+			actor = 401020,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -114,7 +114,7 @@ return {
 			}
 		},
 		{
-			actor = 401211,
+			actor = 401210,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -143,7 +143,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			actor = 401021,
+			actor = 401020,
 			say = "問題はこのあとよ。こちらは回航の燃料補給もままならない。そして…",
 			typewriter = {
 				speed = 0.05,
@@ -170,7 +170,7 @@ return {
 			}
 		},
 		{
-			actor = 401021,
+			actor = 401020,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -189,7 +189,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			actor = 401021,
+			actor = 401020,
 			say = "おそらくは……向こうはすぐにでも駆けつけてくるでしょう",
 			typewriter = {
 				speed = 0.05,
@@ -201,7 +201,7 @@ return {
 			}
 		},
 		{
-			actor = 401211,
+			actor = 401210,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -230,7 +230,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			actor = 401021,
+			actor = 401020,
 			say = "ええ、今は敵に備えて休んだほうがいい",
 			typewriter = {
 				speed = 0.05,
@@ -242,7 +242,7 @@ return {
 			}
 		},
 		{
-			actor = 401021,
+			actor = 401020,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -259,21 +259,21 @@ return {
 		{
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 401181,
+			actor = 401180,
 			dir = -1,
 			hideOther = true,
 			actorName = "みんな",
 			say = "はい！",
 			subActors = {
 				{
-					actor = 401191,
+					actor = 401190,
 					dir = -1,
 					pos = {
 						x = -450
 					}
 				},
 				{
-					actor = 401211,
+					actor = 401210,
 					dir = -1,
 					pos = {
 						x = 450

@@ -4,7 +4,7 @@ return {
 	once = true,
 	scripts = {
 		{
-			actor = 103081,
+			actor = 103080,
 			side = 2,
 			nameColor = "#a9f548",
 			say = "もう、敵が南から来ているのに、どうしてシカゴたちから何の情報もないの！",
@@ -18,7 +18,7 @@ return {
 			}
 		},
 		{
-			actor = 103091,
+			actor = 103090,
 			side = 0,
 			say = "ええと、多分オーストラリアがこっちに来た時、指揮権の委譲がうまく行かなかった……のかも？",
 			nameColor = "#a9f548",
@@ -36,7 +36,7 @@ return {
 			}
 		},
 		{
-			actor = 103081,
+			actor = 103080,
 			side = 1,
 			nameColor = "#a9f548",
 			say = "ほえ？シキケン？イジョウ？それってなに？",
@@ -50,7 +50,7 @@ return {
 			}
 		},
 		{
-			actor = 103101,
+			actor = 103100,
 			side = 1,
 			nameColor = "#a9f548",
 			say = "食べれそう…？",
@@ -64,7 +64,7 @@ return {
 			}
 		},
 		{
-			actor = 103091,
+			actor = 103090,
 			side = 0,
 			nameColor = "#a9f548",
 			say = "今は説明する時間ではないですね……もしシカゴたち南方艦隊が反応出来ないうちに撃破されていたら……",
@@ -78,7 +78,7 @@ return {
 			}
 		},
 		{
-			actor = 103091,
+			actor = 103090,
 			side = 0,
 			nameColor = "#a9f548",
 			say = "とにかく、全軍に向けて警報を打電しましたけど……援軍は来ないと思ったほうがいいですよ。",
@@ -92,7 +92,7 @@ return {
 			}
 		},
 		{
-			actor = 103081,
+			actor = 103080,
 			side = 1,
 			nameColor = "#a9f548",
 			say = "それぐらいは私もわかってるよ！……って敵は目の前じゃない！",
@@ -106,7 +106,7 @@ return {
 			}
 		},
 		{
-			actor = 103081,
+			actor = 103080,
 			side = 1,
 			nameColor = "#a9f548",
 			say = "クインシー、ヴィンセンス、守りに気をつけて！",
@@ -122,14 +122,14 @@ return {
 		{
 			actorName = "クインシー＆ヴィンセンス",
 			side = 0,
-			actor = 103091,
+			actor = 103090,
 			dir = 1,
 			hideOther = true,
 			nameColor = "#a9f548",
 			say = "はい！",
 			subActors = {
 				{
-					actor = 103101,
+					actor = 103100,
 					dir = -1,
 					pos = {
 						x = 750

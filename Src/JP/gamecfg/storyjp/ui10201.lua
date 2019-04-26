@@ -9,7 +9,7 @@ return {
 			nameColor = "#a9f548",
 			stopbgm = true,
 			blackBg = true,
-			actor = 105041,
+			actor = 105040,
 			mode = 2,
 			say = "姉さん…",
 			typewriter = {
@@ -22,7 +22,7 @@ return {
 			}
 		},
 		{
-			actor = 105041,
+			actor = 105040,
 			nameColor = "#a9f548",
 			withoutPainting = true,
 			mode = 2,
@@ -38,7 +38,7 @@ return {
 			}
 		},
 		{
-			actor = 105041,
+			actor = 105040,
 			nameColor = "#a9f548",
 			withoutPainting = true,
 			mode = 2,
@@ -54,7 +54,7 @@ return {
 			}
 		},
 		{
-			actor = 105041,
+			actor = 105040,
 			nameColor = "#a9f548",
 			withoutPainting = true,
 			mode = 2,
@@ -70,7 +70,7 @@ return {
 			}
 		},
 		{
-			actor = 105031,
+			actor = 105030,
 			side = 0,
 			bgName = "bg_story_4",
 			bgspeed = 2,
@@ -90,7 +90,7 @@ return {
 			}
 		},
 		{
-			actor = 105031,
+			actor = 105030,
 			nameColor = "#a9f548",
 			side = 0,
 			blackBg = true,
@@ -101,7 +101,7 @@ return {
 			}
 		},
 		{
-			actor = 105031,
+			actor = 105030,
 			nameColor = "#a9f548",
 			side = 0,
 			blackBg = true,
@@ -112,7 +112,7 @@ return {
 			}
 		},
 		{
-			actor = 105031,
+			actor = 105030,
 			nameColor = "#a9f548",
 			side = 0,
 			blackBg = true,

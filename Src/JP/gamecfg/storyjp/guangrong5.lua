@@ -41,7 +41,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 201034,
+			actor = 201030,
 			nameColor = "#a9f548",
 			say = "こーら、アカスタもサボらないで手伝うの！グロリアスさんの手伝いをするって約束したじゃない！",
 			typewriter = {
@@ -67,7 +67,7 @@ return {
 			side = 0,
 			bgName = "bg_story_outdoor",
 			dir = -1,
-			actor = 201024,
+			actor = 201020,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -83,7 +83,7 @@ return {
 			}
 		},
 		{
-			actor = 207064,
+			actor = 207060,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -103,7 +103,7 @@ return {
 			side = 0,
 			bgName = "bg_story_outdoor",
 			dir = -1,
-			actor = 201024,
+			actor = 201020,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -119,7 +119,7 @@ return {
 			}
 		},
 		{
-			actor = 207064,
+			actor = 207060,
 			side = 1,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -138,7 +138,7 @@ return {
 			side = 0,
 			bgName = "bg_story_outdoor",
 			dir = -1,
-			actor = 201034,
+			actor = 201030,
 			nameColor = "#a9f548",
 			say = "グロリアスさん、本当に大丈夫なの？結構大変な仕事だよ？",
 			typewriter = {
@@ -165,7 +165,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			optionFlag = 1,
-			actor = 207064,
+			actor = 207060,
 			nameColor = "#a9f548",
 			say = "大丈夫ですよ。指揮官もそう言っていますし",
 			typewriter = {
@@ -182,7 +182,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = -1,
 			optionFlag = 1,
-			actor = 201034,
+			actor = 201030,
 			nameColor = "#a9f548",
 			say = "でも……",
 			typewriter = {
@@ -199,7 +199,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			optionFlag = 1,
-			actor = 201024,
+			actor = 201020,
 			nameColor = "#a9f548",
 			say = "指揮官に任せていいかな。アーデント、あっちの仕事を先にすませてからまたこっちに戻ればいいでしょ？",
 			typewriter = {
@@ -216,7 +216,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			optionFlag = 2,
-			actor = 207064,
+			actor = 207060,
 			nameColor = "#a9f548",
 			say = "指揮官？駆逐艦たちはまだあっちの仕事がありますから、ここは私達だけでも十分だと思いますが……",
 			typewriter = {
@@ -233,7 +233,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = -1,
 			optionFlag = 2,
-			actor = 201034,
+			actor = 201030,
 			nameColor = "#a9f548",
 			say = "私達は大丈夫よ！グロリアスさんの手伝いを言い出したのはこっちだし……",
 			typewriter = {
@@ -250,7 +250,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			optionFlag = 2,
-			actor = 201024,
+			actor = 201020,
 			nameColor = "#a9f548",
 			say = "アーデント、ちょっと……（コソコソ）……はい、私達は先に向こうに行ってくるかな。",
 			typewriter = {
@@ -263,7 +263,7 @@ return {
 			}
 		},
 		{
-			actor = 207064,
+			actor = 207060,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -289,7 +289,7 @@ return {
 			}
 		},
 		{
-			actor = 207064,
+			actor = 207060,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",

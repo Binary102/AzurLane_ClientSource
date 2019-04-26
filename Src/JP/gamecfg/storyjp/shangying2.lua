@@ -21,7 +21,7 @@ return {
 			bgName = "bg_story_school",
 			dir = -1,
 			bgm = "story-1",
-			actor = 307031,
+			actor = 307030,
 			nameColor = "#a9f548",
 			say = "じゃあ、私がみんなに声を掛けますね。",
 			typewriter = {
@@ -37,7 +37,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = -1,
-			actor = 307031,
+			actor = 307030,
 			nameColor = "#a9f548",
 			say = "あら、翔鶴と瑞鶴？ちょうどいいところに。",
 			flashout = {
@@ -70,14 +70,14 @@ return {
 			actorName = "{namecode:95}&{namecode:96}",
 			side = 0,
 			bgName = "bg_story_school",
-			actor = 307064,
+			actor = 307060,
 			dir = 1,
 			hideOther = true,
 			nameColor = "#a9f548",
 			say = "うん？",
 			subActors = {
 				{
-					actor = 307054,
+					actor = 307050,
 					pos = {
 						x = 685
 					}
@@ -93,7 +93,7 @@ return {
 			}
 		},
 		{
-			actor = 307054,
+			actor = 307050,
 			nameColor = "#a9f548",
 			bgName = "bg_story_school",
 			side = 2,
@@ -113,7 +113,7 @@ return {
 			side = 0,
 			bgName = "bg_story_school",
 			dir = -1,
-			actor = 307031,
+			actor = 307030,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -129,7 +129,7 @@ return {
 			}
 		},
 		{
-			actor = 307064,
+			actor = 307060,
 			nameColor = "#a9f548",
 			bgName = "bg_story_school",
 			side = 1,
@@ -145,7 +145,7 @@ return {
 			}
 		},
 		{
-			actor = 307054,
+			actor = 307050,
 			nameColor = "#a9f548",
 			bgName = "bg_story_school",
 			side = 1,
@@ -161,7 +161,7 @@ return {
 			}
 		},
 		{
-			actor = 307031,
+			actor = 307030,
 			nameColor = "#a9f548",
 			bgName = "bg_story_school",
 			side = 0,
@@ -177,7 +177,7 @@ return {
 			}
 		},
 		{
-			actor = 307064,
+			actor = 307060,
 			nameColor = "#a9f548",
 			bgName = "bg_story_school",
 			side = 1,
@@ -193,7 +193,7 @@ return {
 			}
 		},
 		{
-			actor = 307054,
+			actor = 307050,
 			nameColor = "#a9f548",
 			bgName = "bg_story_school",
 			side = 1,
@@ -209,7 +209,7 @@ return {
 			}
 		},
 		{
-			actor = 301334,
+			actor = 301330,
 			nameColor = "#a9f548",
 			bgName = "bg_story_school",
 			side = 2,
@@ -229,7 +229,7 @@ return {
 			side = 0,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 301324,
+			actor = 301320,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -245,7 +245,7 @@ return {
 			}
 		},
 		{
-			actor = 307031,
+			actor = 307030,
 			nameColor = "#a9f548",
 			bgName = "bg_story_school",
 			side = 2,
@@ -265,7 +265,7 @@ return {
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 307054,
+			actor = 307050,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,

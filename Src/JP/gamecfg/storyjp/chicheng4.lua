@@ -28,7 +28,7 @@ return {
 			}
 		},
 		{
-			actor = 307011,
+			actor = 307010,
 			nameColor = "#a9f548",
 			bgName = "bg_night",
 			side = 2,
@@ -48,7 +48,7 @@ return {
 			side = 1,
 			bgName = "bg_night",
 			dir = -1,
-			actor = 407011,
+			actor = 407010,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -64,7 +64,7 @@ return {
 			}
 		},
 		{
-			actor = 307011,
+			actor = 307010,
 			nameColor = "#a9f548",
 			bgName = "bg_night",
 			side = 0,
@@ -80,7 +80,7 @@ return {
 			}
 		},
 		{
-			actor = 407011,
+			actor = 407010,
 			nameColor = "#a9f548",
 			bgName = "bg_night",
 			side = 1,
@@ -96,7 +96,7 @@ return {
 			}
 		},
 		{
-			actor = 307011,
+			actor = 307010,
 			nameColor = "#a9f548",
 			bgName = "bg_night",
 			side = 0,
@@ -112,7 +112,7 @@ return {
 			}
 		},
 		{
-			actor = 407011,
+			actor = 407010,
 			nameColor = "#a9f548",
 			bgName = "bg_night",
 			side = 1,
@@ -128,7 +128,7 @@ return {
 			}
 		},
 		{
-			actor = 307011,
+			actor = 307010,
 			nameColor = "#a9f548",
 			bgName = "bg_night",
 			side = 0,
@@ -144,7 +144,7 @@ return {
 			}
 		},
 		{
-			actor = 407011,
+			actor = 407010,
 			nameColor = "#a9f548",
 			bgName = "bg_night",
 			side = 1,
@@ -160,7 +160,7 @@ return {
 			}
 		},
 		{
-			actor = 307011,
+			actor = 307010,
 			nameColor = "#a9f548",
 			bgName = "bg_night",
 			side = 0,
@@ -176,7 +176,7 @@ return {
 			}
 		},
 		{
-			actor = 307011,
+			actor = 307010,
 			nameColor = "#a9f548",
 			bgName = "bg_night",
 			side = 0,
@@ -192,7 +192,7 @@ return {
 			}
 		},
 		{
-			actor = 407011,
+			actor = 407010,
 			nameColor = "#a9f548",
 			bgName = "bg_night",
 			side = 1,
@@ -208,7 +208,7 @@ return {
 			}
 		},
 		{
-			actor = 307011,
+			actor = 307010,
 			nameColor = "#a9f548",
 			bgName = "bg_night",
 			side = 0,
@@ -224,7 +224,7 @@ return {
 			}
 		},
 		{
-			actor = 307011,
+			actor = 307010,
 			nameColor = "#a9f548",
 			bgName = "bg_night",
 			side = 0,
@@ -240,7 +240,7 @@ return {
 			}
 		},
 		{
-			actor = 307011,
+			actor = 307010,
 			nameColor = "#a9f548",
 			bgName = "bg_night",
 			side = 0,
@@ -256,7 +256,7 @@ return {
 			}
 		},
 		{
-			actor = 407011,
+			actor = 407010,
 			nameColor = "#a9f548",
 			bgName = "bg_night",
 			side = 1,
@@ -272,7 +272,7 @@ return {
 			}
 		},
 		{
-			actor = 307011,
+			actor = 307010,
 			nameColor = "#a9f548",
 			bgName = "bg_night",
 			side = 0,
@@ -288,7 +288,7 @@ return {
 			}
 		},
 		{
-			actor = 307011,
+			actor = 307010,
 			nameColor = "#a9f548",
 			bgName = "bg_night",
 			side = 0,
@@ -304,7 +304,7 @@ return {
 			}
 		},
 		{
-			actor = 407011,
+			actor = 407010,
 			nameColor = "#a9f548",
 			bgName = "bg_night",
 			side = 1,
@@ -320,7 +320,7 @@ return {
 			}
 		},
 		{
-			actor = 307011,
+			actor = 307010,
 			nameColor = "#a9f548",
 			bgName = "bg_night",
 			side = 0,
@@ -346,7 +346,7 @@ return {
 			}
 		},
 		{
-			actor = 307011,
+			actor = 307010,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,

@@ -12,7 +12,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 305071,
+			actor = 305070,
 			stopbgm = true,
 			say = "状況はどうだ？",
 			typewriter = {
@@ -25,7 +25,7 @@ return {
 			}
 		},
 		{
-			actor = 301791,
+			actor = 301790,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
@@ -44,7 +44,7 @@ return {
 			}
 		},
 		{
-			actor = 301791,
+			actor = 301790,
 			nameColor = "#a9f548",
 			dir = 1,
 			withoutActorName = true,
@@ -64,7 +64,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			actor = 301791,
+			actor = 301790,
 			say = "どうやら天城のリュウコツに欠陥があったらしい…最もメンタルキューブのことは誰にもわからんがな",
 			typewriter = {
 				speed = 0.05,
@@ -76,7 +76,7 @@ return {
 			}
 		},
 		{
-			actor = 301791,
+			actor = 301790,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -95,7 +95,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			actor = 301791,
+			actor = 301790,
 			say = "……この間の一件もその一因ではあるが……あまり自分を責めないでくれ",
 			typewriter = {
 				speed = 0.05,
@@ -111,7 +111,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			actor = 301791,
+			actor = 301790,
 			say = "ただ……",
 			typewriter = {
 				speed = 0.05,
@@ -126,7 +126,7 @@ return {
 			expression = 2,
 			side = 1,
 			dir = 1,
-			actor = 305071,
+			actor = 305070,
 			nameColor = "#a9f548",
 			say = "ただ？",
 			typewriter = {
@@ -153,7 +153,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			actor = 301791,
+			actor = 301790,
 			say = "この状況では空母に改修するのもかなわんな……",
 			typewriter = {
 				speed = 0.05,
@@ -169,7 +169,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
-			actor = 305071,
+			actor = 305070,
 			say = "まさか……",
 			typewriter = {
 				speed = 0.05,
@@ -181,7 +181,7 @@ return {
 			}
 		},
 		{
-			actor = 301791,
+			actor = 301790,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -200,7 +200,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			actor = 301791,
+			actor = 301790,
 			say = "赤城も含めてな。……あの子は今、空母改修を受けてる最中だ",
 			typewriter = {
 				speed = 0.05,
@@ -216,7 +216,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
-			actor = 305071,
+			actor = 305070,
 			say = "……………",
 			typewriter = {
 				speed = 0.05,
@@ -245,7 +245,7 @@ return {
 			side = 2,
 			dir = -1,
 			blackBg = true,
-			actor = 304051,
+			actor = 304050,
 			nameColor = "#a9f548",
 			say = "旗風……？",
 			flashout = {
@@ -275,7 +275,7 @@ return {
 			}
 		},
 		{
-			actor = 301791,
+			actor = 301790,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -295,7 +295,7 @@ return {
 			side = 2,
 			dir = -1,
 			blackBg = true,
-			actor = 304051,
+			actor = 304050,
 			nameColor = "#a9f548",
 			say = "あと…一手だけ……お願いします…",
 			typewriter = {
@@ -312,7 +312,7 @@ return {
 			side = 2,
 			dir = -1,
 			blackBg = true,
-			actor = 301791,
+			actor = 301790,
 			nameColor = "#a9f548",
 			say = "無論だ。お主の望みは叶えよう",
 			typewriter = {
@@ -355,7 +355,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
@@ -371,7 +371,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -386,7 +386,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -401,7 +401,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -416,7 +416,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -431,7 +431,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -446,7 +446,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -461,7 +461,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,

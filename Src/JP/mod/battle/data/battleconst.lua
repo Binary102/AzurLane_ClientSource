@@ -20,7 +20,8 @@ ys.Battle.BattleConst.WaveTriggerType = {
 	BGM = 5,
 	GUIDE = 6,
 	CAMERA = 7,
-	CLEAR = 8
+	CLEAR = 8,
+	JAMMING = 9
 }
 ys.Battle.BattleConst.UnitType = {
 	PLAYER_UNIT = 1,

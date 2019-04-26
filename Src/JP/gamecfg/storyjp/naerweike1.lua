@@ -10,7 +10,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgm = "level02",
-			actor = 401211,
+			actor = 401210,
 			nameColor = "#a9f548",
 			say = "どうしてこの場所の任務なの！",
 			typewriter = {
@@ -33,7 +33,7 @@ return {
 			}
 		},
 		{
-			actor = 401181,
+			actor = 401180,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
@@ -52,7 +52,7 @@ return {
 			}
 		},
 		{
-			actor = 401191,
+			actor = 401190,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -67,7 +67,7 @@ return {
 			}
 		},
 		{
-			actor = 401021,
+			actor = 401020,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -82,7 +82,7 @@ return {
 			}
 		},
 		{
-			actor = 401211,
+			actor = 401210,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -107,7 +107,7 @@ return {
 			}
 		},
 		{
-			actor = 401021,
+			actor = 401020,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -126,7 +126,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			actor = 401021,
+			actor = 401020,
 			say = "旗艦はZ21、麾下にZ2、Z9、Z11、Z12、Z13、Z17、Z18、Z19、Z22、合計10隻を戦力とする",
 			typewriter = {
 				speed = 0.05,
@@ -138,7 +138,7 @@ return {
 			}
 		},
 		{
-			actor = 401021,
+			actor = 401020,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -153,7 +153,7 @@ return {
 			}
 		},
 		{
-			actor = 401191,
+			actor = 401190,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -182,7 +182,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			actor = 401021,
+			actor = 401020,
 			say = "中立だったナルヴィクの防衛戦力は大したことない。十分対応可能と判断",
 			typewriter = {
 				speed = 0.05,
@@ -194,7 +194,7 @@ return {
 			}
 		},
 		{
-			actor = 401211,
+			actor = 401210,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -213,7 +213,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			actor = 401021,
+			actor = 401020,
 			say = "占領自体は問題ではないけど、その後よ。ええ、まずは今の作戦目標に集中しよう",
 			typewriter = {
 				speed = 0.05,
@@ -225,7 +225,7 @@ return {
 			}
 		},
 		{
-			actor = 401021,
+			actor = 401020,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -240,7 +240,7 @@ return {
 			}
 		},
 		{
-			actor = 401181,
+			actor = 401180,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -255,7 +255,7 @@ return {
 			}
 		},
 		{
-			actor = 401021,
+			actor = 401020,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -270,7 +270,7 @@ return {
 			}
 		},
 		{
-			actor = 401211,
+			actor = 401210,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -289,7 +289,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			actor = 401021,
+			actor = 401020,
 			say = "……バカなことを言わないで",
 			typewriter = {
 				speed = 0.05,

@@ -50,7 +50,7 @@ return {
 			}
 		},
 		{
-			actor = 107031,
+			actor = 107030,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -69,7 +69,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 900149,
+			actor = 102123,
 			nameColor = "#a9f548",
 			say = "！？！？か、勝手に人の部屋に入らないでよ！",
 			typewriter = {
@@ -96,7 +96,7 @@ return {
 			side = 0,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 107031,
+			actor = 107030,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -116,7 +116,7 @@ return {
 			side = 1,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 900149,
+			actor = 102123,
 			nameColor = "#a9f548",
 			say = "違うわよ！こ、これは……ええと、最近流行りの……そうよ！コスプレよ！",
 			typewriter = {
@@ -132,7 +132,7 @@ return {
 			side = 1,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 900149,
+			actor = 102123,
 			nameColor = "#a9f548",
 			say = "自分をラッピングするとかトナカイ衣装に隠れて最後の最後に指揮官に「私がプレゼントよ」ってアピールしたりするのは全部サラトガの勝手な想像なんだからっ！",
 			typewriter = {
@@ -155,7 +155,7 @@ return {
 			}
 		},
 		{
-			actor = 107031,
+			actor = 107030,
 			side = 0,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -175,7 +175,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 900149,
+			actor = 102123,
 			nameColor = "#a9f548",
 			say = "絶対に誰かにしゃべるんじゃないわよ！！",
 			typewriter = {
@@ -201,7 +201,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 205021,
+			actor = 205020,
 			nameColor = "#a9f548",
 			say = "自分をラッピングしてプレゼントとして指揮官に贈るか……確かに普通は思いつかないアイデアね",
 			flashout = {
@@ -235,7 +235,7 @@ return {
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 201101,
+			actor = 201100,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -261,7 +261,7 @@ return {
 			}
 		},
 		{
-			actor = 107031,
+			actor = 107030,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -277,7 +277,7 @@ return {
 			}
 		},
 		{
-			actor = 205021,
+			actor = 205020,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -306,7 +306,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 900055,
+			actor = 107061,
 			nameColor = "#a9f548",
 			say = "メリークリスマス！サンタクロースが聖夜の贈り物を持ってきたぞ！",
 			effects = {
@@ -328,7 +328,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 107071,
+			actor = 107070,
 			nameColor = "#a9f548",
 			say = "エンプラ姉！戻ってきた！",
 			effects = {
@@ -357,7 +357,7 @@ return {
 			}
 		},
 		{
-			actor = 112011,
+			actor = 112010,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -373,7 +373,7 @@ return {
 			}
 		},
 		{
-			actor = 900055,
+			actor = 107061,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -389,7 +389,7 @@ return {
 			}
 		},
 		{
-			actor = 900055,
+			actor = 107061,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -409,7 +409,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			blackBg = true,
-			actor = 205021,
+			actor = 205020,
 			nameColor = "#a9f548",
 			say = "エンタープライズ！いいところに来てくれた！ぜひ助けていただきたい！",
 			typewriter = {

@@ -10,7 +10,7 @@ return {
 			say = "虫がかかった。全システム、作動正常。",
 			nameColor = "#ff0000",
 			blackBg = true,
-			actor = 307061,
+			actor = 307060,
 			actorName = "？？？",
 			withoutPainting = true,
 			shake = {
@@ -31,7 +31,7 @@ return {
 			side = 1,
 			actorName = "？？？",
 			blackBg = true,
-			actor = 301091,
+			actor = 301090,
 			nameColor = "#ff0000",
 			withoutPainting = true,
 			typewriter = {
@@ -48,7 +48,7 @@ return {
 			side = 1,
 			actorName = "？？？",
 			blackBg = true,
-			actor = 301091,
+			actor = 301090,
 			nameColor = "#ff0000",
 			withoutPainting = true,
 			typewriter = {
@@ -65,7 +65,7 @@ return {
 			say = "「アレ」を使いましょ。カミから預かった新兵器をテストするのにちょうど良いわ",
 			nameColor = "#ff0000",
 			blackBg = true,
-			actor = 307061,
+			actor = 307060,
 			actorName = "？？？",
 			withoutPainting = true,
 			shake = {
@@ -86,7 +86,7 @@ return {
 			say = "「あのお方」との出逢いを阻もうとする者には、罰を与えないとね…",
 			nameColor = "#ff0000",
 			blackBg = true,
-			actor = 307061,
+			actor = 307060,
 			actorName = "？？？",
 			withoutPainting = true,
 			shake = {

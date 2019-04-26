@@ -103,7 +103,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			bgmDelay = 2,
-			actor = 312011,
+			actor = 312010,
 			say = "ふんふんふ～ん。たっなおろし・棚卸し～。",
 			typewriter = {
 				speed = 0.05,
@@ -133,7 +133,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -144,7 +144,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -155,7 +155,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -174,7 +174,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -185,7 +185,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -196,7 +196,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -210,7 +210,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 312011,
+			actor = 312010,
 			say = "ケホッ、ケホッ。中はホコリっぽいにゃ～。さて明石は今から棚卸しするにゃ。指揮官、探索してもいいけどあんまり奥まで入らない方がいいにゃ。",
 			flashout = {
 				dur = 1,
@@ -270,7 +270,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -314,7 +314,7 @@ return {
 			}
 		},
 		{
-			actor = 107061,
+			actor = 107060,
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -329,7 +329,7 @@ return {
 			}
 		},
 		{
-			actor = 107061,
+			actor = 107060,
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -340,7 +340,7 @@ return {
 			}
 		},
 		{
-			actor = 107061,
+			actor = 107060,
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -351,7 +351,7 @@ return {
 			}
 		},
 		{
-			actor = 107061,
+			actor = 107060,
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -362,7 +362,7 @@ return {
 			}
 		},
 		{
-			actor = 107061,
+			actor = 107060,
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -384,7 +384,7 @@ return {
 			}
 		},
 		{
-			actor = 107061,
+			actor = 107060,
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -404,7 +404,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			actor = 312011,
+			actor = 312010,
 			say = "おお！指揮官発見だにゃ～。まったくどこに行っていたんだにゃ。",
 			typewriter = {
 				speed = 0.05,
@@ -443,7 +443,7 @@ return {
 			}
 		},
 		{
-			actor = 403031,
+			actor = 403030,
 			side = 0,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -462,7 +462,7 @@ return {
 			}
 		},
 		{
-			actor = 303031,
+			actor = 303030,
 			side = 0,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -477,7 +477,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 1,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -492,7 +492,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			side = 0,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -507,7 +507,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 1,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -522,7 +522,7 @@ return {
 			}
 		},
 		{
-			actor = 107061,
+			actor = 107060,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -541,7 +541,7 @@ return {
 			side = 0,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 403031,
+			actor = 403030,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -566,7 +566,7 @@ return {
 			}
 		},
 		{
-			actor = 107061,
+			actor = 107060,
 			side = 1,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -581,7 +581,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 1,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -596,7 +596,7 @@ return {
 			}
 		},
 		{
-			actor = 301161,
+			actor = 301160,
 			side = 0,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -611,7 +611,7 @@ return {
 			}
 		},
 		{
-			actor = 403031,
+			actor = 403030,
 			side = 0,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -669,7 +669,7 @@ return {
 			}
 		},
 		{
-			actor = 403031,
+			actor = 403030,
 			side = 0,
 			bgName = "bg_night",
 			dir = 1,
@@ -684,7 +684,7 @@ return {
 			}
 		},
 		{
-			actor = 107061,
+			actor = 107060,
 			side = 1,
 			bgName = "bg_night",
 			dir = 1,
@@ -699,7 +699,7 @@ return {
 			}
 		},
 		{
-			actor = 107061,
+			actor = 107060,
 			side = 1,
 			bgName = "bg_night",
 			dir = 1,
@@ -714,7 +714,7 @@ return {
 			}
 		},
 		{
-			actor = 107061,
+			actor = 107060,
 			side = 1,
 			bgName = "bg_night",
 			dir = 1,
@@ -729,7 +729,7 @@ return {
 			}
 		},
 		{
-			actor = 303031,
+			actor = 303030,
 			side = 0,
 			bgName = "bg_night",
 			dir = 1,
@@ -744,7 +744,7 @@ return {
 			}
 		},
 		{
-			actor = 107061,
+			actor = 107060,
 			side = 1,
 			bgName = "bg_night",
 			dir = 1,
@@ -759,7 +759,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			side = 0,
 			bgName = "bg_night",
 			dir = 1,
@@ -774,7 +774,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 0,
 			bgName = "bg_night",
 			dir = -1,
@@ -799,7 +799,7 @@ return {
 			}
 		},
 		{
-			actor = 303031,
+			actor = 303030,
 			side = 0,
 			bgName = "bg_night",
 			dir = 1,
@@ -847,7 +847,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
@@ -862,7 +862,7 @@ return {
 			}
 		},
 		{
-			actor = 403031,
+			actor = 403030,
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
@@ -877,7 +877,7 @@ return {
 			}
 		},
 		{
-			actor = 403031,
+			actor = 403030,
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,

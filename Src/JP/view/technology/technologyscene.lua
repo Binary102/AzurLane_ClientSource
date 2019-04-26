@@ -110,16 +110,16 @@ function slot0.initTechnologys(slot0)
 				slot2.name = slot1 + 1
 				slot0.technologCards[slot0.technologyVOs[slot1 + 1].id] = slot2
 
-				slot0:updateTechnologyTF(slot2, slot3)
-				slot0:updateTimer(slot3)
+				slot0:updateTechnologyTF(slot2, slot0.technologyVOs[slot1 + 1])
+				slot0:updateTimer(slot0.technologyVOs[slot1 + 1])
 
-				slot4 = GetOrAddComponent(slot2, typeof(Button)).onClick
+				slot3 = GetOrAddComponent(slot2, typeof(Button)).onClick
 
 				if slot0.lastButtonListener[slot2] then
-					slot4:RemoveListener(slot0.lastButtonListener[slot2])
+					slot3:RemoveListener(slot0.lastButtonListener[slot2])
 				end
 
-				if slot3.state == Technology.STATE_STARTING or slot3.state == Technology.STATE_FINISHED then
+				if slot0.technologyVOs[slot1 + 1]:isStart() then
 					Timer.New(function ()
 						slot0.srcollView:GetComponent("EnhancelScrollView"):SetHorizontalTargetItemIndex(slot1:GetComponent("EnhanceItem").scrollViewItemIndex)
 					end, 0.35, 1):Start()
@@ -128,19 +128,19 @@ function slot0.initTechnologys(slot0)
 				slot0.lastButtonListener[slot2] = function ()
 					playSoundEffect(SFX_PANEL)
 
-					if playSoundEffect:gteState() == Technology.STATE_FINISHED then
-						slot1:emit(TechnologyMediator.ON_FINISHED, {
-							id = slot0.id,
-							pool_id = slot0.poolId
+					if playSoundEffect.technologyVOs[SFX_PANEL + 1]:getState() == Technology.STATE_FINISHED then
+						slot0:emit(TechnologyMediator.ON_FINISHED, {
+							id = slot0.technologyVOs[slot1 + 1].id,
+							pool_id = slot0.technologyVOs[slot1 + 1].poolId
 						})
 					else
-						slot1:onSelected(slot2 + 1)
+						slot0:onSelected(slot1 + 1)
 					end
 
 					return
 				end
 
-				slot4:AddListener(slot0.lastButtonListener[slot2])
+				slot3:AddListener(slot0.lastButtonListener[slot2])
 			end
 		end)
 	end
@@ -370,7 +370,7 @@ function slot0.updateTimer(slot0, slot1)
 		slot0.cardtimer[slot1.id] = nil
 	end
 
-	if Technology.STATE_STARTING == slot1:gteState() then
+	if slot1:getState() == Technology.STATE_STARTING then
 		setActive(slot3, true)
 		setActive(slot4, false)
 
@@ -386,7 +386,7 @@ function slot0.updateTimer(slot0, slot1)
 					setActive(setActive, false)
 					setActive(setActive, true)
 				else
-					setText(slot2:Find("text"), "00:00:00")
+					slot1:emit(TechnologyMediator.ON_TIME_OVER, slot0.id)
 				end
 			else
 				setText(slot2:Find("text"), pg.TimeMgr:GetInstance():DescCDTime(slot0 - slot1))
@@ -404,16 +404,7 @@ end
 
 function slot0.updateTechnologyTF(slot0, slot1, slot2, slot3)
 	slot0:updateInfo(slot1, slot2, slot3)
-
-	slot4 = slot2:gteState()
-
-	if slot0.refreshTimer[slot2.id] then
-		slot0.refreshTimer[slot2.id]:Stop()
-
-		slot0.refreshTimer[slot2.id] = nil
-	end
-
-	setActive(slot0:findTF("frame/btns/finish_btn", slot1), slot4 == Technology.STATE_FINISHED)
+	setActive(slot0:findTF("frame/btns/finish_btn", slot1), slot2:getState() == Technology.STATE_FINISHED)
 
 	if not slot3 then
 		setActive(slot0:findTF("frame/btns/desc_btn", slot1), slot4 == Technology.STATE_IDLE)
@@ -477,18 +468,6 @@ function slot0.updateTechnologyTF(slot0, slot1, slot2, slot3)
 
 				return
 			end, SFX_PANEL)
-
-			if slot2.time - pg.TimeMgr:GetInstance():GetServerTime() > 0 then
-				slot0.refreshTimer[slot2.id] = Timer.New(function ()
-					slot0:emit(TechnologyMediator.ON_TIME_OVER, slot1.id)
-
-					return
-				end, slot8, 1)
-
-				slot0.refreshTimer[slot2.id]:Start()
-			else
-				slot0:emit(TechnologyMediator.ON_TIME_OVER, slot2.id)
-			end
 		else
 			if slot4 == Technology.STATE_FINISHED then
 				onButton(slot0, slot5, function ()
@@ -520,7 +499,7 @@ end
 
 function slot0.updateInfo(slot0, slot1, slot2, slot3)
 	setImageSprite(slot0:findTF("frame", slot1), GetSpriteFromAtlas("technologycard", slot2:getConfig("bg") .. ((slot3 and "_l") or "")))
-	setImageSprite(slot0:findTF("frame/icon_mask/icon", slot1), GetSpriteFromAtlas("technologycard", slot2:getConfig("bg_icon")))
+	setImageSprite(slot0:findTF("frame/icon_mask/icon", slot1), GetSpriteFromAtlas("technologycard", slot2:getConfig("bg_icon")), true)
 	setImageSprite(slot0:findTF("frame/label", slot1), GetSpriteFromAtlas("technologycard", slot2:getConfig("label")))
 	setImageSprite(slot0:findTF("frame/label/text", slot1), GetSpriteFromAtlas("technologycard", slot2:getConfig("label_color")), true)
 	setImageSprite(slot0:findTF("frame/label/version", slot1), GetSpriteFromAtlas("technologycard", "version_" .. slot2:getConfig("blueprint_version")), true)
@@ -653,12 +632,6 @@ function slot0.clearTimer(slot0, ...)
 
 	slot0.techTimer = {}
 
-	for slot4, slot5 in pairs(slot0.refreshTimer) do
-		slot5:Stop()
-	end
-
-	slot0.refreshTimer = {}
-
 	for slot4, slot5 in pairs(slot0.cardtimer) do
 		slot5:Stop()
 	end
@@ -672,7 +645,7 @@ function slot0.willExit(slot0)
 	slot0:clearTimer()
 
 	slot0.techTimer = nil
-	slot0.refreshTimer = nil
+	slot0.cardtimer = {}
 
 	return
 end
